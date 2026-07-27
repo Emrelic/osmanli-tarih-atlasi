@@ -110,19 +110,17 @@ var haritaHazir = false;
 harita.on("load", function () {
   harita.addSource("vassal", { type: "geojson", data: bosVeri() });
   harita.addLayer({ id: "vassal-dolgu", type: "fill", source: "vassal",
-    paint: { "fill-color": "#d98a63", "fill-opacity": 0.38 } });
+    paint: { "fill-color": "#c96a4a", "fill-opacity": 0.42 } });
   harita.addLayer({ id: "vassal-cizgi", type: "line", source: "vassal",
     paint: { "line-color": "#a34d22", "line-width": 1.4, "line-dasharray": [3, 2] } });
 
   harita.addSource("osmanli", { type: "geojson", data: bosVeri() });
   harita.addLayer({ id: "osmanli-dolgu", type: "fill", source: "osmanli",
-    paint: { "fill-color": "#b3122f", "fill-opacity": 0.55 } });
+    paint: { "fill-color": "#8e0b22", "fill-opacity": 0.68 } });
   // Petek modunda iç çizgiler görünmesin diye çizgi katmanı yok; dolgu kendi
   // dış hattını fill-outline ile verir (aynı renk komşu petekte kaybolur).
   harita.addLayer({ id: "osmanli-cizgi", type: "line", source: "osmanli",
-    paint: { "line-color": "#4d0713",
-             "line-width": window.PETEKLER ? 0.6 : 2.2,
-             "line-opacity": window.PETEKLER ? 0.35 : 1 } });
+    paint: { "line-color": "#4d0713", "line-width": 1.8 } });
 
   // Fetret Devri şehzade payları — her şehzade kendi renginde
   harita.addSource("sehzade", { type: "geojson", data: bosVeri() });
@@ -139,8 +137,8 @@ harita.on("load", function () {
   var lejant = document.createElement("div");
   lejant.className = "lejant";
   lejant.innerHTML =
-    '<span><i style="background:#b3122f"></i> Doğrudan Osmanlı toprağı</span>' +
-    '<span><i style="background:#d98a63"></i> Bağlı / özerk topraklar</span>' +
+    '<span><i style="background:#8e0b22"></i> Doğrudan Osmanlı toprağı</span>' +
+    '<span><i style="background:#c96a4a"></i> Bağlı / özerk topraklar</span>' +
     '<span id="alan-goster"></span>';
   document.getElementById("harita").appendChild(lejant);
 

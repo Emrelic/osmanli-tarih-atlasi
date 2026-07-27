@@ -18,7 +18,7 @@ Girdi : ../data/yerlesimler.js  (ad, koordinat, hâkimiyet dönemleri)
 import json, os, sys, io, math, re
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 from shapely.geometry import shape, box, Polygon, MultiPolygon, Point, MultiPoint
-from shapely.ops import unary_union, voronoi_diagram
+from shapely.ops import unary_union, voronoi_diagram, nearest_points
 
 BASEMAPS = r"C:\Users\emrem\AppData\Local\Temp\claude\C--Users-emrem-OneDrive-Belgeler-Projeler-Ranking\2ad1685f-dd0a-4c8c-8b9d-a89c216d56e6\scratchpad\basemaps"
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -140,16 +140,18 @@ def dogal_hatta_yasla(cs, nehir_mes=0.30, sirt_mes=0.35):
     """Petek sınırını en yakın doğal engele çeker:
        1) yakında nehir varsa nehir yatağına (sınır nehri takip eder)
        2) yoksa dağ sırtına (sınır sırttan geçer)
-       3) ikisi de yoksa Voronoi hattı kalır (iki şehrin tam ortası)."""
+       3) ikisi de yoksa Voronoi hattı kalır (iki şehrin tam ortası).
+    NOT: MultiLineString üzerinde project/interpolate parçalar arasında kayar ve
+    sınırı kıtanın öbür ucuna fırlatır; bu yüzden nearest_points kullanılır."""
     yeni = []
     for x, y in cs:
         p = Point(x, y)
         dn = NEHIR_HAT.distance(p) if NEHIR_HAT is not None else 9e9
         ds = SIRT_HAT.distance(p) if SIRT_HAT is not None else 9e9
         if dn < nehir_mes and dn <= ds:
-            q = NEHIR_HAT.interpolate(NEHIR_HAT.project(p)); yeni.append((q.x, q.y))
+            q = nearest_points(NEHIR_HAT, p)[0]; yeni.append((q.x, q.y))
         elif ds < sirt_mes:
-            q = SIRT_HAT.interpolate(SIRT_HAT.project(p)); yeni.append((q.x, q.y))
+            q = nearest_points(SIRT_HAT, p)[0]; yeni.append((q.x, q.y))
         else:
             yeni.append((x, y))
     return yeni
@@ -182,12 +184,13 @@ print("Petek sınırları doğal hatlara yaslanıyor...")
 # bölgelerde Voronoi zaten küçük hücre verir; çöl/bozkırda ise hücre devasa
 # büyür ve fiilen yönetilmeyen alanları toprak sayardı. Bu yüzden her petek
 # merkezinden en çok ~330 km (3°) uzağa kadar geçerlidir.
-PETEK_YARICAP = 2.6
+# Yarıçap sınırı YOK: daire şeklinde "baloncuk" petek üretiyordu ve peteklerin
+# denize/çöle kadar uzanmasını engelliyordu. Bunun yerine çöl-bozkır bölgelerine
+# konmuş "sahipsiz bölge" noktaları peteklerin doğal olarak nerede biteceğini
+# belirler; kalan sınırlar kıyıya ve nehir/dağ hatlarına yaslanır.
 PETEK_D = []
 for i, h in enumerate(PETEK):
     ham = h.intersection(KARA).buffer(0)
-    sinir = Point(YERLER[i]["lon"], YERLER[i]["lat"]).buffer(PETEK_YARICAP, quad_segs=12)
-    ham = ham.intersection(sinir).buffer(0)
     yeni = ham
     if not ham.is_empty:
         yeni = dogallastir(ham, yasla=bool(YERLER[i]["d"])).intersection(KARA).buffer(0)
@@ -264,13 +267,18 @@ for i in range(len(tarihler) - 1):
     # Geometri gönderilmez; yalnızca aktif petek indeksleri (delta) ve özetler.
     ekle = sorted(aktif - onceki_aktif) if onceki_aktif else sorted(aktif)
     cik  = sorted(onceki_aktif - aktif) if onceki_aktif else []
+    # Birleşik dış hat: petekler tek gövde olarak çizilir, aradaki petek
+    # sınırları görünmez. Sadeleştirme ile dosya boyutu dengelenir.
+    dis = g.simplify(0.022, preserve_topology=True).buffer(0)
     donemler.append({"f": a, "t": b, "ad": ad,
                      "b": [round(x0,2), round(y0,2), round(x1,2), round(y1,2)],
-                     "ao": alan_km2(g), "e": ekle, "c": cik})
+                     "ao": alan_km2(g), "e": ekle, "c": cik,
+                     "o": mp_koord(dis)})
     onceki_aktif = aktif
 
 # Petek geometrileri bir kez yazılır; dönemler yalnızca indeks tutar (21 MB → ~4 MB)
-petekler = [{"a": YERLER[j]["ad"], "g": mp_koord(PETEK_D[j])} for j in range(len(YERLER))]
+# Petek geometrileri artık gönderilmiyor; birleşik dış gövde yeterli (boyut)
+petekler = [{"a": YERLER[j]["ad"]} for j in range(len(YERLER))]
 
 js  = "// Otomatik üretildi — elle düzenlemeyin. Betik: arac/uret_petek.py\n"
 js += "// PETEK (Voronoi) tabanlı: her yerleşimin bölgesi kıyı ve nehir yataklarına yaslı.\n"

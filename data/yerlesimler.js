@@ -155,14 +155,43 @@ window.YERLESIMLER = [
 { ad:"Anapa", tur:"kale", lat:44.894, lon:37.316, g:0, d:[{f:"1781-01-01",t:"1829-09-14"}] },
 { ad:"Sohum", tur:"liman", lat:43.001, lon:41.023, g:0, d:[{f:"1578-01-01",t:"1810-07-01"}] },
 // ---------------- KAFKASYA / DOĞU ----------------
-{ ad:"Tiflis", tur:"sehir", lat:41.716, lon:44.783, g:1, d:[{f:"1578-08-24",t:"1603-10-21",y:"savas"}] },
-{ ad:"Revan", tur:"kale", lat:40.183, lon:44.515, g:1, d:[{f:"1583-06-01",t:"1604-06-08",y:"kusatma"},{f:"1635-08-08",t:"1636-04-01",y:"kusatma"}] },
-{ ad:"Gence", tur:"kale", lat:40.683, lon:46.360, g:0, d:[{f:"1588-01-01",t:"1606-01-01"}] },
-{ ad:"Bakü", tur:"liman", lat:40.372, lon:49.867, g:1, d:[{f:"1583-08-01",t:"1607-01-01",y:"savas"}] },
-{ ad:"Şamahı", tur:"sehir", lat:40.632, lon:48.641, g:0, d:[{f:"1578-11-01",t:"1607-01-01"}] },
-{ ad:"Derbend", tur:"kale", lat:42.058, lon:48.290, g:0, d:[{f:"1583-01-01",t:"1607-01-01"}] },
-{ ad:"Tebriz", tur:"sehir", lat:38.080, lon:46.292, g:2, d:[{f:"1585-09-25",t:"1603-10-21",y:"savas"}] },
-{ ad:"Nahçıvan", tur:"sehir", lat:39.209, lon:45.412, g:0, d:[{f:"1585-01-01",t:"1603-10-21"}] },
+// ---- OSMANLI-SAFEVÎ (İRAN) CEPHESİ ----
+// Bu cephe defalarca el değiştirdi; her yerleşim kendi gerçek tarihleriyle işlendi:
+//  1514 Çaldıran → Tebriz kısa süre · 1534-35 Irakeyn (Tebriz+Bağdat)
+//  1548 II. İran seferi (Tebriz yine kısa) · 1555 Amasya: doğu sınırı tanındı
+//  1578-90 uzun savaş: Gürcistan, Şirvan, Karabağ, Tebriz alındı (1590 Ferhad Paşa)
+//  1603-12 Şah Abbas karşı taarruzu: hepsi geri kaybedildi (1612 Nasuh Paşa)
+//  1623 Bağdat Safevîlere düştü · 1635 IV. Murad Revan (bir yıl elde tuttu)
+//  1638 Bağdat geri alındı · 1639 Kasr-ı Şirin: kalıcı sınır
+//  1723-27 Osmanlı-İran savaşı: Tebriz, Hemedan, Kirmanşah alındı
+//  1730-36 Nadir Şah geri aldı · 1746 Kerden: 1639 sınırına dönüldü
+{ ad:"Tebriz", tur:"sehir", lat:38.080, lon:46.292, g:2, d:[
+    {f:"1514-09-05",t:"1514-09-15",y:"savas"}, {f:"1534-07-13",t:"1535-06-01",y:"savas"},
+    {f:"1548-07-27",t:"1548-08-15",y:"savas"}, {f:"1585-09-25",t:"1603-10-21",y:"savas"},
+    {f:"1725-08-04",t:"1730-08-12",y:"kusatma"}] },
+{ ad:"Nahçıvan", tur:"sehir", lat:39.209, lon:45.412, g:0, d:[
+    {f:"1585-01-01",t:"1603-10-21"}, {f:"1725-01-01",t:"1730-08-12"}] },
+{ ad:"Tiflis", tur:"sehir", lat:41.716, lon:44.783, g:1, d:[
+    {f:"1578-08-24",t:"1606-01-01",y:"savas"}, {f:"1723-06-12",t:"1735-03-10",y:"kusatma"}] },
+{ ad:"Revan", tur:"kale", lat:40.183, lon:44.515, g:1, d:[
+    {f:"1583-06-01",t:"1604-06-08",y:"kusatma"}, {f:"1635-08-08",t:"1636-04-01",y:"kusatma"},
+    {f:"1724-09-28",t:"1735-06-14",y:"kusatma"}] },
+{ ad:"Gence", tur:"kale", lat:40.683, lon:46.360, g:0, d:[
+    {f:"1588-01-01",t:"1606-01-01"}, {f:"1725-09-12",t:"1735-03-10"}] },
+{ ad:"Şamahı", tur:"sehir", lat:40.632, lon:48.641, g:0, d:[
+    {f:"1578-11-01",t:"1607-01-01"}, {f:"1723-08-01",t:"1735-03-10"}] },
+{ ad:"Bakü", tur:"liman", lat:40.372, lon:49.867, g:1, d:[
+    {f:"1583-08-01",t:"1607-01-01",y:"savas"}] },
+{ ad:"Derbend", tur:"kale", lat:42.058, lon:48.290, g:0, d:[
+    {f:"1583-01-01",t:"1607-01-01"}] },
+{ ad:"Hemedan", tur:"sehir", lat:34.799, lon:48.515, g:0, d:[
+    {f:"1724-08-31",t:"1730-08-12",y:"kusatma"}] },
+{ ad:"Kirmanşah", tur:"sehir", lat:34.314, lon:47.065, g:0, d:[
+    {f:"1723-10-01",t:"1730-08-12",y:"savas"}] },
+{ ad:"Luristan", tur:"bolge", lat:33.487, lon:48.356, g:0, d:[
+    {f:"1590-03-21",t:"1603-10-21",y:"antlasma"}] },
+{ ad:"Şehrizor", tur:"sehir", lat:35.560, lon:45.430, g:0, d:[
+    {f:"1554-01-01",t:"1623-01-14"}, {f:"1638-12-25",t:"1918-10-30"}] },
 // ---------------- SURİYE / IRAK / HİCAZ ----------------
 { ad:"Halep", tur:"sehir", lat:36.202, lon:37.161, g:2, d:[{f:"1516-08-28",t:"1918-10-26",y:"savas"}] },
 { ad:"Hama", tur:"sehir", lat:35.132, lon:36.750, g:0, d:[{f:"1516-09-01",t:"1918-10-01"}] },
@@ -237,8 +266,6 @@ window.YERLESIMLER = [
 { ad:"Fas (Fez)", tur:"sehir", lat:34.034, lon:-5.000, g:0, d:[] },
 { ad:"Merakeş", tur:"sehir", lat:31.630, lon:-7.981, g:0, d:[] },
 { ad:"Isfahan", tur:"sehir", lat:32.654, lon:51.668, g:0, d:[] },
-{ ad:"Hemedan", tur:"sehir", lat:34.799, lon:48.515, g:0, d:[] },
-{ ad:"Kirmanşah", tur:"sehir", lat:34.314, lon:47.065, g:0, d:[] },
 { ad:"Erdebil", tur:"sehir", lat:38.249, lon:48.294, g:0, d:[] },
 { ad:"Meşhed", tur:"sehir", lat:36.297, lon:59.606, g:0, d:[] },
 { ad:"Riyad", tur:"sehir", lat:24.713, lon:46.675, g:0, d:[] },
@@ -248,5 +275,34 @@ window.YERLESIMLER = [
 { ad:"Ndjamena", tur:"sehir", lat:12.107, lon:15.045, g:0, d:[] },
 { ad:"Agadez", tur:"sehir", lat:16.973, lon:7.991, g:0, d:[] },
 { ad:"Tamanrasset", tur:"sehir", lat:22.785, lon:5.523, g:0, d:[] },
-{ ad:"Timbuktu", tur:"sehir", lat:16.775, lon:-3.009, g:0, d:[] }
+{ ad:"Timbuktu", tur:"sehir", lat:16.775, lon:-3.009, g:0, d:[] },
+// ---- SAHİPSİZ BÖLGE NOKTALARI ----
+// Çöl ve bozkırda yerleşim seyrektir; nokta koymazsak komşu peteği yüzlerce
+// kilometre uzanır ya da yarıçap sınırı yüzünden "baloncuk" oluşur. Bu noktalar
+// hiçbir zaman Osmanlı sayılmaz, yalnızca peteklerin nerede biteceğini belirler.
+{ ad:"Nefud çölü", tur:"bolge", lat:28.30, lon:41.00, g:0, d:[] },
+{ ad:"Rub'ul Hâlî kuzeyi", tur:"bolge", lat:22.50, lon:47.00, g:0, d:[] },
+{ ad:"Rub'ul Hâlî doğusu", tur:"bolge", lat:20.00, lon:52.00, g:0, d:[] },
+{ ad:"Necid içi", tur:"bolge", lat:25.50, lon:44.50, g:0, d:[] },
+{ ad:"Hadramut", tur:"bolge", lat:15.50, lon:48.50, g:0, d:[] },
+{ ad:"Sina güneyi", tur:"bolge", lat:28.50, lon:33.80, g:0, d:[] },
+{ ad:"Batı çölü (Mısır)", tur:"bolge", lat:26.50, lon:27.00, g:0, d:[] },
+{ ad:"Nûbe çölü", tur:"bolge", lat:20.50, lon:33.50, g:0, d:[] },
+{ ad:"Kordofan", tur:"bolge", lat:13.00, lon:29.50, g:0, d:[] },
+{ ad:"Darfur", tur:"bolge", lat:13.50, lon:24.00, g:0, d:[] },
+{ ad:"Tibesti", tur:"bolge", lat:21.00, lon:17.50, g:0, d:[] },
+{ ad:"Fizan güneyi", tur:"bolge", lat:23.00, lon:14.00, g:0, d:[] },
+{ ad:"Büyük Doğu Ergi", tur:"bolge", lat:29.50, lon:7.50, g:0, d:[] },
+{ ad:"Hoggar", tur:"bolge", lat:24.00, lon:3.00, g:0, d:[] },
+{ ad:"Sahra batısı", tur:"bolge", lat:27.00, lon:-4.00, g:0, d:[] },
+{ ad:"Sirte iç çölü", tur:"bolge", lat:28.50, lon:18.50, g:0, d:[] },
+{ ad:"Bozkır (Deşt-i Kıpçak)", tur:"bolge", lat:48.50, lon:42.00, g:0, d:[] },
+{ ad:"Kalmuk bozkırı", tur:"bolge", lat:46.50, lon:45.50, g:0, d:[] },
+{ ad:"Ural eteği", tur:"bolge", lat:51.00, lon:52.00, g:0, d:[] },
+{ ad:"Zagros içi", tur:"bolge", lat:31.50, lon:50.50, g:0, d:[] },
+{ ad:"Kirman", tur:"sehir", lat:30.28, lon:57.08, g:0, d:[] },
+{ ad:"Yezd", tur:"sehir", lat:31.90, lon:54.37, g:0, d:[] },
+{ ad:"Tahran", tur:"sehir", lat:35.69, lon:51.39, g:0, d:[] },
+{ ad:"Tebbes", tur:"bolge", lat:33.60, lon:56.90, g:0, d:[] },
+{ ad:"Karakum", tur:"bolge", lat:39.50, lon:58.50, g:0, d:[] }
 ];
