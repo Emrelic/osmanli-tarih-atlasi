@@ -131,10 +131,23 @@ body {
 /* kategori renkleri */
 .olay.k-fetih    { border-left-color: #1e7d32; }
 .olay.k-savas    { border-left-color: #b3122f; }
+.olay.k-kusatma  { border-left-color: #8c0f26; }
+.olay.k-sefer    { border-left-color: #33691e; }
 .olay.k-antlasma { border-left-color: #1257a8; }
+.olay.k-diplomasi{ border-left-color: #5c6bc0; }
+.olay.k-evlilik  { border-left-color: #ec407a; }
+.olay.k-vassal   { border-left-color: #7986cb; }
 .olay.k-taht     { border-left-color: #b8860b; }
+.olay.k-sadrazam { border-left-color: #8d6e63; }
+.olay.k-darbe    { border-left-color: #4e342e; }
 .olay.k-isyan    { border-left-color: #7b1fa2; }
 .olay.k-reform   { border-left-color: #00838f; }
+.olay.k-kanun    { border-left-color: #00695c; }
+.olay.k-idari    { border-left-color: #455a64; }
+.olay.k-ekonomi  { border-left-color: #f9a825; }
+.olay.k-kultur   { border-left-color: #ad1457; }
+.olay.k-bilim    { border-left-color: #283593; }
+.olay.k-kesif    { border-left-color: #4527a0; }
 .olay.k-kayip    { border-left-color: #616161; }
 
 /* ---------- Zaman barı ---------- */
