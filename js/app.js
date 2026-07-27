@@ -90,6 +90,11 @@ harita.on("load", function () {
   harita.addLayer({ id: "osmanli-cizgi", type: "line", source: "osmanli",
     paint: { "line-color": "#4d0713", "line-width": 2.2 } });
 
+  harita.addSource("seferler", { type: "geojson", data: bosVeri() });
+  harita.addLayer({ id: "sefer-cizgi", type: "line", source: "seferler",
+    layout: { "line-cap": "round", "line-join": "round" },
+    paint: { "line-color": "#2b1006", "line-width": 2.6, "line-dasharray": [1.5, 1.5] } });
+
   var lejant = document.createElement("div");
   lejant.className = "lejant";
   lejant.innerHTML =
@@ -126,16 +131,20 @@ var sehirler = (window.SEHIRLER || []).map(function (s) {
   var dis = document.createElement("div");
   var ic = document.createElement("div");
   ic.className = "sehir";
-  ic.innerHTML = '<span class="s-nokta"></span><span class="s-ad"></span>';
+  ic.innerHTML = '<span class="s-nokta"></span><span class="s-yontem"></span><span class="s-ad"></span>';
   ic.querySelector(".s-ad").textContent = (s.tur === "kale" ? "🏰 " : "") + s.ad;
   dis.appendChild(ic);
-  return { s: s, ic: ic, ekli: false,
+  return { s: s, ic: ic, yontemEl: ic.querySelector(".s-yontem"), ekli: false,
            mk: new maplibregl.Marker({ element: dis, anchor: "left", offset: [-5, 0] })
                  .setLngLat([s.lon, s.lat]),
            kayitlar: s.k.map(function (r) {
-             return { fi: gunIdx(r.f), ti: gunIdx(r.t), d: r.d, b: !!r.b };
+             return { fi: gunIdx(r.f), ti: gunIdx(r.t), d: r.d, b: !!r.b, y: r.y || "" };
            }) };
 });
+
+// Ediniliş yöntemi simgeleri (fetihten sonra ~1,5 yıl gösterilir)
+var YONTEM_SIMGE = { savas: "⚔", kusatma: "♜", antlasma: "📜", vassal: "🤝" };
+var YONTEM_SURE = 550;   // gün
 
 function sehirGuncelle(t) {
   if (!haritaHazir) return;
@@ -151,16 +160,85 @@ function sehirGuncelle(t) {
     }
     var sinif = "sehir d" + aktif.d + (aktif.b ? " baskent" : "");
     if (m.ic.className !== sinif) m.ic.className = sinif;
+    var simge = (aktif.y && t < aktif.fi + YONTEM_SURE) ? YONTEM_SIMGE[aktif.y] || "" : "";
+    if (m.yontemEl.textContent !== simge) m.yontemEl.textContent = simge;
     if (!m.ekli) { m.mk.addTo(harita); m.ekli = true; }
   });
 }
 
+// ---------- Savaş yerleri (⚔) ve sefer okları ----------
+var SAVAS_PENCERE = 730;                     // muharebe işareti ~2 yıl görünür
+var savasIsaretleri = (window.SAVASLAR || []).filter(function (s) { return s.lat; })
+  .map(function (s) {
+    var dis = document.createElement("div");
+    var ic = document.createElement("div");
+    ic.className = "savas-isaret " + (s.sonuc || "belirsiz");
+    ic.innerHTML = '<span class="sv-ikon">⚔</span><span class="sv-ad"></span>';
+    ic.querySelector(".sv-ad").textContent = s.ad;
+    dis.appendChild(ic);
+    return { gi: gunIdx(s.t), ekli: false,
+             mk: new maplibregl.Marker({ element: dis, anchor: "center" })
+                   .setLngLat([s.lon, s.lat]) };
+  });
+
+function savasGuncelle(t) {
+  if (!haritaHazir) return;
+  savasIsaretleri.forEach(function (m) {
+    var goster = t >= m.gi && t < m.gi + SAVAS_PENCERE;
+    if (goster && !m.ekli) { m.mk.addTo(harita); m.ekli = true; }
+    else if (!goster && m.ekli) { m.mk.remove(); m.ekli = false; }
+  });
+}
+
+var seferler = (window.SEFERLER || []).map(function (s) {
+  var son = s.yol[s.yol.length - 1], onceki = s.yol[s.yol.length - 2];
+  // ok başının dönüşü: son parçanın ekran yönü (kuzeyden saat yönünde derece)
+  var dx = (son[0] - onceki[0]) * Math.cos(son[1] * Math.PI / 180);
+  var dy = son[1] - onceki[1];
+  var aci = Math.atan2(dx, dy) * 180 / Math.PI;
+  var el = document.createElement("div");
+  var ic = document.createElement("div");
+  ic.className = "sefer-ok";
+  ic.textContent = "➤";
+  el.appendChild(ic);
+  return { fi: gunIdx(s.f), ti: gunIdx(s.t) + 45, ad: s.ad, yol: s.yol, ekli: false,
+           mk: new maplibregl.Marker({ element: el, anchor: "center", rotation: aci - 90 })
+                 .setLngLat(son) };
+});
+
+function seferGuncelle(t) {
+  if (!haritaHazir) return;
+  var cizgiler = [];
+  seferler.forEach(function (m) {
+    var aktif = m.fi <= t && t < m.ti;
+    if (aktif) {
+      cizgiler.push({ type: "Feature", properties: {},
+                      geometry: { type: "LineString", coordinates: m.yol } });
+      if (!m.ekli) { m.mk.addTo(harita); m.ekli = true; }
+    } else if (m.ekli) { m.mk.remove(); m.ekli = false; }
+  });
+  harita.getSource("seferler").setData({ type: "FeatureCollection", features: cizgiler });
+}
+
 // ---------- Otomatik yakınlaştırma ----------
+// Oynatma sırasında titremeyi önlemek için: görünüm yeni sınırları zaten makul
+// oranda kapsıyorsa veya son ayardan 900 ms geçmediyse yeniden çerçevelenmez.
 var otoZoom = true;
+var sonZoomZamani = 0;
 function zoomUygula(d) {
-  if (!otoZoom) return;
+  if (!otoZoom || !haritaHazir) return;
+  if (zamanlayici) {
+    var g = harita.getBounds();
+    var kapsiyor = g.getWest() <= d.b[0] && g.getEast() >= d.b[2] &&
+                   g.getSouth() <= d.b[1] && g.getNorth() >= d.b[3];
+    var oran = (d.b[2] - d.b[0]) / Math.max(0.001, g.getEast() - g.getWest());
+    if (kapsiyor && oran > 0.3) return;
+    var simdi = Date.now();
+    if (simdi - sonZoomZamani < 900) return;
+    sonZoomZamani = simdi;
+  }
   harita.fitBounds([[d.b[0], d.b[1]], [d.b[2], d.b[3]]],
-                   { padding: 56, duration: 750, maxZoom: 7 });
+                   { padding: 56, duration: zamanlayici ? 450 : 750, maxZoom: 7 });
 }
 
 // ---------- Padişah kartı ----------
@@ -212,22 +290,31 @@ olaylar.forEach(function (o, i) {
   olayDom.push(div);
 });
 
+// Titreme önleme: her tıkta 234 satırı yeniden boyamak yerine yalnızca eski ve
+// yeni konum arasındaki satırlar güncellenir; kaydırma oynatmada seyreltilir.
 var sonVurgulanan = -1;
+var sonKaydirma = 0;
 function olaylarGuncelle(t) {
-  var sonGecmis = -1;
-  for (var i = 0; i < olaylar.length; i++) {
-    var gecti = olaylar[i].gi <= t;
-    olayDom[i].classList.toggle("gecmis", gecti);
-    olayDom[i].classList.remove("simdiki");
-    if (gecti) sonGecmis = i;
+  var lo = 0, hi = olaylar.length - 1, yeni = -1;
+  while (lo <= hi) {                          // gi <= t olan son olay (ikili arama)
+    var orta = (lo + hi) >> 1;
+    if (olaylar[orta].gi <= t) { yeni = orta; lo = orta + 1; } else { hi = orta - 1; }
   }
-  if (sonGecmis >= 0) {
-    olayDom[sonGecmis].classList.add("simdiki");
-    if (sonGecmis !== sonVurgulanan) {
-      olayDom[sonGecmis].scrollIntoView({ block: "center", behavior: "smooth" });
+  if (yeni === sonVurgulanan) return;
+  var a = Math.max(0, Math.min(yeni, sonVurgulanan));
+  var b = Math.min(olaylar.length - 1, Math.max(yeni, sonVurgulanan));
+  if (sonVurgulanan < 0) { a = 0; b = olaylar.length - 1; }
+  for (var i = a; i <= b; i++) olayDom[i].classList.toggle("gecmis", olaylar[i].gi <= t);
+  if (sonVurgulanan >= 0) olayDom[sonVurgulanan].classList.remove("simdiki");
+  if (yeni >= 0) {
+    olayDom[yeni].classList.add("simdiki");
+    var simdi = Date.now();
+    if (!zamanlayici || simdi - sonKaydirma > 700) {
+      sonKaydirma = simdi;
+      olayDom[yeni].scrollIntoView({ block: "center", behavior: zamanlayici ? "auto" : "smooth" });
     }
   }
-  sonVurgulanan = sonGecmis;
+  sonVurgulanan = yeni;
 }
 
 // ---------- Olay detay penceresi ----------
@@ -377,6 +464,8 @@ function guncelle() {
     zoomUygula(d);
   }
   sehirGuncelle(suanki);
+  savasGuncelle(suanki);
+  seferGuncelle(suanki);
   padisahGuncelle(suanki);
   olaylarGuncelle(suanki);
 }

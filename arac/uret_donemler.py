@@ -169,6 +169,15 @@ KEFE     = H([[33.3,45.2],[35.0,45.3],[36.5,45.25],[36.7,45.0],[35.5,44.6],[34.3
 D1484KL  = H([[28.1,45.7],[29.8,46.0],[30.9,46.3],[30.4,45.4],[29.0,45.1],[28.1,45.2]])
 D1515D   = H([[38.4,40.6],[41.6,40.4],[42.4,39.4],[42.1,38.1],[41.4,37.1],[40.0,36.9],[38.6,37.7],[38.1,38.8],[38.3,39.9]])
 RODOS    = Polygon([(27.85,36.5),(28.25,36.45),(28.1,36.05),(27.7,36.2)]).buffer(0)
+# 1578-1590 doğu savaşı kazanımları: Gürcistan, Şirvan (Bakü), Karabağ, Tebriz, Revan
+KAFKAS_RING = [[42.6,41.9],[45.0,41.9],[46.6,41.9],[48.3,41.6],[50.4,40.6],[50.2,40.0],[49.3,39.1],[48.6,38.6],[47.8,38.0],[46.9,37.7],[45.9,38.0],[44.8,38.6],[44.0,39.3],[43.6,40.1],[42.7,40.9]]
+KAFKAS   = H(KAFKAS_RING)
+# 1600 kesiti bu bölgeyi zaten içeriyor (o yıl gerçekten Osmanlı'ydı); 1650
+# kesiti ise hatalı biçimde içeriyor (Kasr-ı Şirin 1639 sonrası Safevî'de).
+# Tabanlardan kesilir ki bölge yalnızca 1585-1603 delta aralığında görünsün.
+KAFKAS_KES = Polygon(KAFKAS_RING).buffer(0)
+for _k in ("Y1600k", "Y1650", "Y1700k", "Y1715"):
+    S[_k] = S[_k].difference(KAFKAS_KES)
 PODOLYA  = H([[25.6,49.3],[27.1,49.4],[28.0,49.0],[27.7,48.3],[26.1,48.4]])
 TRAKYA13 = H([[26.3,41.8],[27.1,42.1],[27.6,42.05],[28.0,42.0],[28.2,41.55],[29.05,41.25],[28.5,41.0],[27.5,40.95],[26.9,40.55],[26.1,40.0],[26.0,40.5],[26.3,40.8],[26.25,41.2]])
 
@@ -235,6 +244,9 @@ PARCALAR = [
  (D,"Trablusgarp'ın fethi",                     "1551-08-15","1571-08-01",TRB_G),
  (D,"Kıbrıs'ın fethi — zirveye doğru",          "1571-08-01","1650-01-01",S["Y1600k"]),
  (D,"Tunus'un kesin fethi",                     "1574-08-25","1650-01-01",TUN_G),
+ # 1590 Ferhad Paşa (İstanbul) Antlaşması'yla tescillenen doğu kazanımları;
+ # Şah Abbas'ın karşı taarruzuyla 1603'ten itibaren kaybedildi
+ (D,"Tebriz ve Kafkasya'nın fethi",             "1585-09-25","1603-10-21",KAFKAS),
  (D,"Girit'in katılışı: en geniş sınırlar",     "1650-01-01","1699-01-26",S["Y1650"]),
  (D,"Podolya'nın katılışı (Bucaş)",             "1672-10-18","1699-01-26",PODOLYA),
  (D,"Karlofça: Macaristan ve Mora'nın kaybı",   "1699-01-26","1715-07-01",S["Y1700k"]),

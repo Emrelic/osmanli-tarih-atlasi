@@ -313,6 +313,40 @@ body {
 }
 .sehir.d3 .s-ad { font-size: 13.5px; font-weight: bold; color: #4d0713; }
 .sehir.baskent .s-ad::after { content: " ⭐"; font-size: 11px; }
+.sehir .s-yontem {
+  font-size: 13px;
+  line-height: 1;
+  text-shadow: 0 0 3px #fff, 0 0 3px #fff;
+}
+
+/* ---------- Savaş yerleri ---------- */
+.savas-isaret { display: flex; flex-direction: column; align-items: center; pointer-events: none; }
+.savas-isaret .sv-ikon {
+  font-size: 16px;
+  line-height: 1;
+  filter: drop-shadow(0 0 3px #fff);
+}
+.savas-isaret .sv-ad {
+  font-size: 10.5px;
+  font-weight: bold;
+  white-space: nowrap;
+  padding: 1px 5px;
+  border-radius: 4px;
+  color: #fff;
+  margin-top: 1px;
+}
+.savas-isaret.zafer   .sv-ad { background: rgba(27, 94, 32, 0.85); }
+.savas-isaret.yenilgi .sv-ad { background: rgba(140, 15, 38, 0.85); }
+.savas-isaret.belirsiz .sv-ad { background: rgba(69, 90, 100, 0.85); }
+
+/* ---------- Sefer okları ---------- */
+.sefer-ok {
+  font-size: 20px;
+  line-height: 1;
+  color: #2b1006;
+  text-shadow: 0 0 3px #f7f1e3, 0 0 4px #f7f1e3;
+  pointer-events: none;
+}
 
 /* zaman barındaki oto-zoom düğmesi */
 #btn-zoom { width: auto !important; padding: 0 10px; font-size: 13px !important; }
