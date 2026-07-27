@@ -77,4 +77,6 @@ Bilinen kalan sapmalar (2. geçişte Pitcher ile düzeltilecek):
 - [x] Olay detaylarının genişletilmesi (84 olay: gün/yer/kişiler alanları + detay
       paragrafları + tamamı 200-OK doğrulanmış TDV İA madde bağlantıları)
 - [ ] Sınırların Pitcher ile nokta doğrulama turu (2. geçiş; kalan sapmalar yukarıda)
-- [ ] Ücretsiz yayın (GitHub Pages / Cloudflare Pages) + alan adı kararı
+- [x] Ücretsiz yayın: GitHub Pages — https://emrelic.github.io/osmanli-tarih-atlasi/
+      (depo: github.com/Emrelic/osmanli-tarih-atlasi; her push otomatik yayınlanır)
+- [ ] Alan adı kararı (istenirse ~10 dk'da bağlanır: depo ayarları > Pages > Custom domain)
