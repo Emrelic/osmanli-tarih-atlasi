@@ -112,7 +112,7 @@ def kiyiya_yapistir(g):
        ince 'dal' artıkları oluşur
     2) denize taşan kısımları kes"""
     if g.is_empty: return g
-    g = delikleri_temizle(g, 0.5)
+    g = delikleri_temizle(g)
     ek = KIYI_SERIDI.intersection(g.buffer(0.15)).buffer(0)
     parcalar = ek.geoms if isinstance(ek, MultiPolygon) else ([ek] if not ek.is_empty else [])
     dokunan = []
@@ -192,7 +192,7 @@ def yumusat(g, tur=2, yasla=True):
         dis = chaikin_halka(dis, tur)
         icler = []
         for h in p.interiors:
-            if Polygon(h).area <= 0.02: continue
+            if Polygon(h).area <= 0.02: continue   # (delikler zaten dolduruldu)
             hc = list(h.coords)
             if yasla: hc = nehre_yasla(sikla(hc))
             icler.append(chaikin_halka(hc, tur))
@@ -202,8 +202,12 @@ def yumusat(g, tur=2, yasla=True):
             yeni.append(p)
     return unary_union(yeni).buffer(0)
 
-def delikleri_temizle(g, esik=0.06):
-    """Kıyı kesmesinden artakalan küçük iç boşlukları (yapay 'delik') kapatır."""
+def delikleri_temizle(g, esik=1e6):
+    """Geometrideki İÇ BOŞLUKLARI kapatır.
+    İlke: çevresi tamamen ele geçmiş bir alan (dağ bloğu, ova, göl çevresi) o
+    dönemde fiilen hâkimiyet altındadır — kuşatılmış bir boşluk bırakmak yapay
+    enklav üretir. Bu yüzden varsayılan olarak tüm iç halkalar doldurulur;
+    gerçek tarihî enklavlar gerekirse ayrı 'kesici' maskelerle tanımlanır."""
     if g.is_empty: return g
     parcalar = g.geoms if isinstance(g, MultiPolygon) else [g]
     yeni = []
@@ -611,11 +615,11 @@ for i in range(len(tarihler)-1):
     o = o.buffer(0.14, join_style=1).buffer(-0.14, join_style=1).buffer(0)
     o = yumusat(o, 2)
     o = kiyiya_yapistir(o)
-    o = delikleri_temizle(o, 0.5).simplify(0.003, preserve_topology=True).buffer(0)
+    o = delikleri_temizle(o).simplify(0.003, preserve_topology=True).buffer(0)
     v = unary_union([p[4] for p in aktif_v]) if aktif_v else Polygon()
     v = yumusat(v.buffer(0.1, join_style=1).buffer(-0.1, join_style=1).buffer(0), 1)
     v = kiyiya_yapistir(v)
-    v = delikleri_temizle(v, 0.5).simplify(0.0025, preserve_topology=True) \
+    v = delikleri_temizle(v).simplify(0.0025, preserve_topology=True) \
         .difference(o.buffer(0.01))
     # Şehzade payları: aynı şehzadenin parçaları birleştirilir, ayrı kayıt olur
     sehzadeler = {}
@@ -625,7 +629,7 @@ for i in range(len(tarihler)-1):
     for etiket, parcalar in sehzadeler.items():
         gz = unary_union(parcalar).buffer(0.12, join_style=1).buffer(-0.12, join_style=1).buffer(0)
         g = kiyiya_yapistir(yumusat(gz, 2))
-        g = delikleri_temizle(g, 0.5).simplify(0.003, preserve_topology=True).buffer(0)
+        g = delikleri_temizle(g).simplify(0.003, preserve_topology=True).buffer(0)
         ad_z, _, renk = etiket.partition("|")
         z_kayit.append({"a": ad_z, "r": renk or "#8d6e63",
                         "km": alan_km2(g), "g": mp_koord(g)})
