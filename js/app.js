@@ -119,13 +119,18 @@ function tekVeri(geo) { return { type: "FeatureCollection",
   features: geo.coordinates.length ? [{ type: "Feature", properties: {}, geometry: geo }] : [] }; }
 
 // ---------- Şehir işaretleri (koordinat hassasiyetli; tarihe göre belirir/vurgulanır) ----------
+// ÖNEMLİ: dış öğe MapLibre'nindir (konum sınıfları/transform'u oradadır) — ona
+// dokunulmaz. Vurgu sınıfları yalnızca iç öğeye (.sehir) uygulanır; aksi hâlde
+// işaretler konumunu kaybedip rastgele yerlere savrulur.
 var sehirler = (window.SEHIRLER || []).map(function (s) {
-  var el = document.createElement("div");
-  el.className = "sehir";
-  el.innerHTML = '<span class="s-nokta"></span><span class="s-ad"></span>';
-  el.querySelector(".s-ad").textContent = (s.tur === "kale" ? "🏰 " : "") + s.ad;
-  return { s: s, el: el, ekli: false,
-           mk: new maplibregl.Marker({ element: el, anchor: "left", offset: [-5, 0] })
+  var dis = document.createElement("div");
+  var ic = document.createElement("div");
+  ic.className = "sehir";
+  ic.innerHTML = '<span class="s-nokta"></span><span class="s-ad"></span>';
+  ic.querySelector(".s-ad").textContent = (s.tur === "kale" ? "🏰 " : "") + s.ad;
+  dis.appendChild(ic);
+  return { s: s, ic: ic, ekli: false,
+           mk: new maplibregl.Marker({ element: dis, anchor: "left", offset: [-5, 0] })
                  .setLngLat([s.lon, s.lat]),
            kayitlar: s.k.map(function (r) {
              return { fi: gunIdx(r.f), ti: gunIdx(r.t), d: r.d, b: !!r.b };
@@ -144,7 +149,8 @@ function sehirGuncelle(t) {
       if (m.ekli) { m.mk.remove(); m.ekli = false; }
       return;
     }
-    m.el.className = "sehir d" + aktif.d + (aktif.b ? " baskent" : "");
+    var sinif = "sehir d" + aktif.d + (aktif.b ? " baskent" : "");
+    if (m.ic.className !== sinif) m.ic.className = sinif;
     if (!m.ekli) { m.mk.addTo(harita); m.ekli = true; }
   });
 }
