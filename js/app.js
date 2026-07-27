@@ -271,6 +271,7 @@ function padisahGuncelle(t) {
 }
 
 // ---------- Olay akışı (ana + ek liste birleşik, gün sıralı) ----------
+var akisModu = null;   // aşağıda zaman kontrolü bölümünde atanır
 var olayListe = document.getElementById("olay-listesi");
 var olaylar = (window.OLAYLAR || []).concat(window.OLAYLAR_EK || [])
                                     .concat(window.OLAYLAR_EK2 || []).map(function (o) {
@@ -285,7 +286,10 @@ olaylar.forEach(function (o, i) {
   div.innerHTML = '<div class="o-tarih">' + idxYazi(o.gi) + '</div>' +
                   '<div class="o-baslik"></div>';
   div.lastChild.textContent = o.b;
-  div.addEventListener("click", function () { detayAc(i); });
+  div.addEventListener("click", function () {
+    if (akisModu && akisModu.value === "olay") { tarihAyarla(o.gi); obGoster(o); }
+    else detayAc(i);
+  });
   olayListe.appendChild(div);
   olayDom.push(div);
 });
@@ -480,26 +484,181 @@ kaydirici.addEventListener("input", function () {
   tarihAyarla(parseInt(kaydirici.value, 10));
 });
 
-// Oynat / duraklat — hız: gün/saniye
+// ---------- Olay bilgi paneli (olay-olay akışında harita üstünde yüzer) ----------
+var obPanel = document.getElementById("olay-bilgi");
+document.getElementById("olay-bilgi-kapat").addEventListener("click", function () {
+  obPanel.classList.add("gizli");
+});
+
+// Kişi adını KISILER dizininde ara (fotoğraf/biyografi zenginleştirmesi için)
+function kisiBul(ad) {
+  var t = ad.trim().toLowerCase();
+  var liste = window.KISILER || [];
+  for (var i = 0; i < liste.length; i++) {
+    var k = liste[i].ad.toLowerCase();
+    if (k === t || k.indexOf(t) === 0 || t.indexOf(k.split(" ")[0]) === 0) return liste[i];
+  }
+  return null;
+}
+// O tarihte hüküm süren padişahı bul (panelde portre göstermek için)
+function padisahBul(t) {
+  for (var i = 0; i < window.PADISAHLAR.length; i++) {
+    var p = window.PADISAHLAR[i];
+    if (gunIdx(p.from) <= t && t < gunIdx(p.to)) return p;
+  }
+  return null;
+}
+
+function obGoster(o) {
+  document.getElementById("ob-tarih").textContent = o.gun || idxYazi(o.gi);
+  document.getElementById("ob-baslik").textContent = o.b;
+
+  var meta = document.getElementById("ob-meta");
+  meta.innerHTML = "";
+  if (o.yer) { var y = document.createElement("span"); y.textContent = "📍 " + o.yer; meta.appendChild(y); }
+  var kat = document.createElement("span"); kat.className = "ob-kat k-" + o.k;
+  kat.textContent = o.k; meta.appendChild(kat);
+
+  // Görsel: olayda adı geçen padişah varsa onun portresi, yoksa dönemin padişahı
+  var gorsel = document.getElementById("ob-gorsel");
+  gorsel.innerHTML = "";
+  var pad = null;
+  if (o.kisiler) {
+    var adlar = o.kisiler.split(",");
+    for (var i = 0; i < adlar.length && !pad; i++) {
+      var ad = adlar[i].trim().toLowerCase();
+      for (var j = 0; j < window.PADISAHLAR.length; j++) {
+        var p = window.PADISAHLAR[j];
+        if (!p.ozel && (ad.indexOf(p.ad.split(" (")[0].toLowerCase()) === 0 ||
+                        p.ad.toLowerCase().indexOf(ad) === 0)) { pad = p; break; }
+      }
+    }
+  }
+  if (!pad) pad = padisahBul(o.gi);
+  if (pad && !pad.ozel) {
+    var img = new Image();
+    img.src = "assets/portreler/" + pad.id + ".jpg";
+    img.alt = pad.ad;
+    img.onerror = function () { gorsel.innerHTML = '<span class="ob-rozet">☾</span>'; };
+    gorsel.appendChild(img);
+    var alt = document.createElement("div");
+    alt.className = "ob-gorsel-ad";
+    alt.textContent = pad.ad;
+    gorsel.appendChild(alt);
+  } else {
+    gorsel.innerHTML = '<span class="ob-rozet">' + (o.k === "savas" ? "⚔" : o.k === "antlasma" ? "📜" : "☾") + '</span>';
+  }
+
+  document.getElementById("ob-detay").textContent = o.d || "";
+
+  // Ek veriler: muharebe künyesi / antlaşma hükmü / kişi kartları / kaynak
+  var ozel = document.getElementById("ob-ozel");
+  ozel.innerHTML = "";
+  function kutu(baslik, icerik) {
+    var d = document.createElement("div");
+    d.className = "ob-kutu";
+    d.innerHTML = '<b></b><span></span>';
+    d.children[0].textContent = baslik;
+    d.children[1].textContent = icerik;
+    ozel.appendChild(d);
+  }
+  var sv = (window.SAVASLAR || []).filter(function (s) {
+    return Math.abs(gunIdx(s.t) - o.gi) < 60 &&
+           (o.b.indexOf(s.ad.split(" (")[0]) >= 0 || s.ad.indexOf(o.b.split(" —")[0]) >= 0);
+  })[0];
+  if (sv) {
+    var seri = (window.SERILER || []).filter(function (x) { return x.id === sv.seri; })[0];
+    kutu("Muharebe", sv.ad + " · karşı taraf: " + sv.taraf + " · sonuç: " +
+         (sv.sonuc === "zafer" ? "Osmanlı zaferi" : sv.sonuc === "yenilgi" ? "Osmanlı yenilgisi" : "belirsiz") +
+         (seri ? " · dizi: " + seri.ad : ""));
+  }
+  var an = (window.ANTLASMALAR || []).filter(function (a) {
+    return Math.abs(gunIdx(a.t) - o.gi) < 60 && o.b.indexOf(a.ad.split(" (")[0]) >= 0;
+  })[0];
+  if (an) kutu("Antlaşma hükmü", an.taraf + " ile · " + an.ozet);
+  if (o.kisiler) {
+    o.kisiler.split(",").slice(0, 3).forEach(function (ad) {
+      var k = kisiBul(ad);
+      if (k) kutu(k.ad, (k.donem ? k.donem + " · " : "") + (k.not || ""));
+    });
+  }
+  if (o.kaynak) {
+    var a = document.createElement("a");
+    a.className = "ob-kaynak";
+    a.href = "https://islamansiklopedisi.org.tr/" + o.kaynak;
+    a.target = "_blank"; a.rel = "noopener";
+    a.textContent = "📖 TDV İslâm Ansiklopedisi";
+    ozel.appendChild(a);
+  }
+  obPanel.classList.remove("gizli");
+}
+
+// ---------- Oynatma: zaman akışı ve olay-olay akışı ----------
+akisModu = document.getElementById("akis-modu");
+var olayHizSec = document.getElementById("olay-hiz");
+
+function moduUygula() {
+  var olayModu = akisModu.value === "olay";
+  hizSec.style.display = olayModu ? "none" : "";
+  olayHizSec.style.display = olayModu ? "" : "none";
+  if (!olayModu) obPanel.classList.add("gizli");
+}
+akisModu.addEventListener("change", function () {
+  var calisiyordu = !!zamanlayici;
+  if (calisiyordu) oynatDurdur();
+  moduUygula();
+  if (calisiyordu) oynatDurdur();
+});
+moduUygula();
+
+function sonrakiOlayIndex(t) {
+  for (var i = 0; i < olaylar.length; i++) if (olaylar[i].gi > t) return i;
+  return -1;
+}
+
 function oynatDurdur() {
   if (zamanlayici) {
     clearInterval(zamanlayici);
     zamanlayici = null;
     btnOynat.textContent = "▶";
+    return;
+  }
+  if (suanki >= BITIS) tarihAyarla(BASLANGIC);
+  btnOynat.textContent = "⏸";
+
+  if (akisModu.value === "olay") {
+    var bekleme = parseInt(olayHizSec.value, 10);
+    var adimla = function () {
+      var i = sonrakiOlayIndex(suanki);
+      if (i < 0) { oynatDurdur(); return; }
+      tarihAyarla(olaylar[i].gi);
+      obGoster(olaylar[i]);
+    };
+    adimla();
+    zamanlayici = setInterval(adimla, bekleme);
   } else {
-    if (suanki >= BITIS) tarihAyarla(BASLANGIC);
     var gunSn = parseInt(hizSec.value, 10);
     var adim = Math.max(1, Math.round(gunSn / 16));
     zamanlayici = setInterval(function () {
       if (suanki >= BITIS) { oynatDurdur(); return; }
       tarihAyarla(suanki + adim);
     }, 62);
-    btnOynat.textContent = "⏸";
   }
 }
 btnOynat.addEventListener("click", oynatDurdur);
 hizSec.addEventListener("change", function () {
   if (zamanlayici) { oynatDurdur(); oynatDurdur(); }
+});
+olayHizSec.addEventListener("change", function () {
+  if (zamanlayici) { oynatDurdur(); oynatDurdur(); }
+});
+
+// Yan paneli katlama (haritaya azami alan)
+document.getElementById("btn-panel").addEventListener("click", function () {
+  var yp = document.getElementById("yanpanel");
+  yp.classList.toggle("katli");
+  this.textContent = yp.classList.contains("katli") ? "⇤ Panel" : "⇥ Panel";
+  setTimeout(function () { harita.resize(); }, 60);
 });
 
 // Otomatik yakınlaştırma düğmesi

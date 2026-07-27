@@ -15,7 +15,24 @@
 </header>
 
 <main id="govde">
-  <div id="harita"></div>
+  <div id="harita">
+    <button id="btn-panel" title="Yan paneli gizle/göster (haritayı büyüt)">⇥ Panel</button>
+    <!-- Olay-olay akışında beliren kayan bilgi paneli — harita genişliğini
+         daraltmaz, harita üzerinde yüzen bir katmandır (position: absolute). -->
+    <div id="olay-bilgi" class="gizli">
+      <button id="olay-bilgi-kapat">✕</button>
+      <div id="ob-ust">
+        <div id="ob-gorsel"></div>
+        <div id="ob-baslikalan">
+          <div id="ob-tarih"></div>
+          <div id="ob-baslik"></div>
+          <div id="ob-meta"></div>
+        </div>
+      </div>
+      <div id="ob-detay"></div>
+      <div id="ob-ozel"></div>
+    </div>
+  </div>
 
   <aside id="yanpanel">
     <section id="padisah-karti">
@@ -36,11 +53,21 @@
   <button id="btn-geri" title="Önceki olaya git">⏮</button>
   <button id="btn-oynat" title="Oynat / Duraklat">▶</button>
   <button id="btn-ileri" title="Sonraki olaya git">⏭</button>
+  <select id="akis-modu" title="Akış tipi: doğrusal zaman veya olay olay">
+    <option value="zaman" selected>⏱ Zaman akışı</option>
+    <option value="olay">📜 Olay olay</option>
+  </select>
   <select id="hiz" title="Oynatma hızı (gün/saniye)">
     <option value="30">Yavaş (ay/sn)</option>
     <option value="180" selected>Normal (6 ay/sn)</option>
     <option value="730">Hızlı (2 yıl/sn)</option>
     <option value="3650">Çok hızlı (10 yıl/sn)</option>
+  </select>
+  <select id="olay-hiz" title="Her olayda bekleme süresi" style="display:none">
+    <option value="3000">3 sn/olay</option>
+    <option value="5000" selected>5 sn/olay</option>
+    <option value="8000">8 sn/olay</option>
+    <option value="12000">12 sn/olay</option>
   </select>
   <button id="btn-zoom" title="Otomatik yakınlaştırma: toprak büyüdükçe uzaklaş">🔍 Oto</button>
   <input type="range" id="zaman" min="0" max="0" step="1">
