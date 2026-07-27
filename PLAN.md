@@ -21,12 +21,21 @@ devletler, hükümdarları ve kronolojileri eklenecek.
 ```
 index.html            Ana sayfa (tek sayfa uygulama)
 css/style.css         Görünüm
-js/app.js             Harita + zaman akışı + panel mantığı
-data/sinirlar.js      Sınır çokgenleri (tarih aralıklı GeoJSON halkaları)
-data/olaylar.js       Kronolojik olay listesi (başlık + detay + kategori)
+js/app.js             Harita + GÜN bazlı zaman akışı + oto-zoom + paneller
+arac/uret_donemler.py Sınır derleme betiği (kesitler + ara parçalar + kara maskesi
+                      → dissolve edilmiş dönem geometrileri + bbox + km²)
+data/donemler.js      ÜRETİLMİŞ dönem kesitleri (66 dönem; elle düzenlenmez)
+data/olaylar.js       Ana kronoloji (84 olay, detaylı)
+data/olaylar_ek.js    Fetih/kayıp maddeleri (62 olay; başlık önce, detay sonra)
+data/kisiler.js       Kişi dizini (sadrazam/paşa/komutan/denizci/yabancı... 75 kayıt)
+data/savaslar.js      Savaşlar (38) + antlaşmalar (21) + savaş serileri (13) tabloları
 data/padisahlar.js    36 padişah + Fetret Devri + saltanat sonrası dönem
-assets/portreler/     Padişah portre görselleri (dosya adları OKUYUNUZ.txt'de)
+assets/portreler/     Padişah portreleri (36/36, kamu malı)
 ```
+Zaman çizgisi GÜN hassasiyetlidir; sınır değişimleri bilinen kesin günlerde gerçekleşir
+(ör. İstanbul 29 Mayıs 1453'te haritaya eklenir). Harita otomatik yakınlaştırma ile
+toprak büyüdükçe uzaklaşır; lejantta anlık ≈km² yüzölçümü gösterilir. Tüm elle çizilen
+parçalar kara maskesiyle kesildiğinden sınırlar kıyı çizgilerine oturur.
 
 ## Faz planı
 - **Faz 0 — Çekirdek** ✅ (bu kurulum): harita, ay-ay zaman göstergesi + oynatma,

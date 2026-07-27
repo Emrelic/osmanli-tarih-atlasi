@@ -10,6 +10,7 @@
 <body>
 <header id="ustbar">
   <h1>🕌 Osmanlı Tarih Atlası <span class="alt">1299 – 1923</span></h1>
+  <button id="btn-dizin" title="Kişi, savaş ve antlaşma dizinleri">📚 Dizin</button>
   <div id="donem-etiketi"></div>
 </header>
 
@@ -25,7 +26,7 @@
       </div>
     </section>
     <section id="olay-akisi">
-      <h2>📜 Tarih Kronolojisi</h2>
+      <h2>📜 Tarih Kronolojisi (gün gün)</h2>
       <div id="olay-listesi"></div>
     </section>
   </aside>
@@ -35,12 +36,13 @@
   <button id="btn-geri" title="Önceki olaya git">⏮</button>
   <button id="btn-oynat" title="Oynat / Duraklat">▶</button>
   <button id="btn-ileri" title="Sonraki olaya git">⏭</button>
-  <select id="hiz" title="Oynatma hızı">
-    <option value="2">Yavaş</option>
-    <option value="6" selected>Normal</option>
-    <option value="24">Hızlı</option>
-    <option value="120">Çok hızlı</option>
+  <select id="hiz" title="Oynatma hızı (gün/saniye)">
+    <option value="30">Yavaş (ay/sn)</option>
+    <option value="180" selected>Normal (6 ay/sn)</option>
+    <option value="730">Hızlı (2 yıl/sn)</option>
+    <option value="3650">Çok hızlı (10 yıl/sn)</option>
   </select>
+  <button id="btn-zoom" title="Otomatik yakınlaştırma: toprak büyüdükçe uzaklaş">🔍 Oto</button>
   <input type="range" id="zaman" min="0" max="0" step="1">
   <div id="tarih-goster">—</div>
 </footer>
@@ -57,11 +59,27 @@
   </div>
 </div>
 
+<div id="dizin" class="gizli">
+  <div id="dizin-kutu">
+    <button id="dizin-kapat">✕</button>
+    <h3>📚 Dizinler</h3>
+    <div id="dizin-sekmeler">
+      <button data-s="kisiler" class="aktif">👤 Kişiler</button>
+      <button data-s="savaslar">⚔ Savaşlar</button>
+      <button data-s="antlasmalar">📜 Antlaşmalar</button>
+      <button data-s="seriler">🔗 Savaş Serileri</button>
+    </div>
+    <div id="dizin-icerik"></div>
+  </div>
+</div>
+
 <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
 <script src="data/padisahlar.js"></script>
 <script src="data/olaylar.js"></script>
-<script src="data/sinirlar_detay.js"></script>
-<script src="data/sinirlar.js"></script>
+<script src="data/olaylar_ek.js"></script>
+<script src="data/kisiler.js"></script>
+<script src="data/savaslar.js"></script>
+<script src="data/donemler.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>

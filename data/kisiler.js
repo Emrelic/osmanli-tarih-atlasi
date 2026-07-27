@@ -1,0 +1,94 @@
+// ============================================================================
+// KİŞİ DİZİNİ — olaylarda geçen tarihî şahsiyetlerin sınıflandırılmış tablosu
+// tur: padisah | sadrazam | vezir-pasa | komutan | denizci | alim | hanedan |
+//      yabanci-hukumdar | yabanci-komutan | siyasi
+// Not: padişahların tam listesi data/padisahlar.js'tedir; buradaki tablo
+// olay akışında adı geçen DİĞER figürleri ve seçme padişah-dışı kadroyu tutar.
+// Satırlar başlık düzeyindedir; biyografi detayları sonraki fazlarda doldurulacak.
+// ============================================================================
+window.KISILER = [
+// --- Sadrazamlar ---
+{ tur:"sadrazam", ad:"Çandarlı Hayreddin Paşa",        donem:"1364–1387", not:"İlk büyük sadrazam ailesinin kurucusu; Rumeli fetihlerinin örgütleyicisi" },
+{ tur:"sadrazam", ad:"Mahmud Paşa (Velî)",             donem:"1456–1466, 1472–1474", not:"Fatih'in fetih kadrosunun başı" },
+{ tur:"sadrazam", ad:"Pargalı İbrahim Paşa",           donem:"1523–1536", not:"Kanunî'nin makbul ve maktul veziri; Irakeyn seferinin yöneticisi" },
+{ tur:"sadrazam", ad:"Sokullu Mehmed Paşa",            donem:"1565–1579", not:"Üç padişah devrinin kudretli sadrazamı" },
+{ tur:"sadrazam", ad:"Köprülü Mehmed Paşa",            donem:"1656–1661", not:"Köprülüler devrinin kurucusu" },
+{ tur:"sadrazam", ad:"Köprülüzâde Fâzıl Ahmed Paşa",   donem:"1661–1676", not:"Uyvar ve Kandiye fatihi" },
+{ tur:"sadrazam", ad:"Merzifonlu Kara Mustafa Paşa",   donem:"1676–1683", not:"II. Viyana kuşatmasının komutanı" },
+{ tur:"sadrazam", ad:"Amcazâde Hüseyin Paşa",          donem:"1697–1702", not:"Karlofça sonrası toparlanmanın mimarı" },
+{ tur:"sadrazam", ad:"Baltacı Mehmed Paşa",            donem:"1704–1706, 1710–1711", not:"Prut zaferinin komutanı" },
+{ tur:"sadrazam", ad:"Nevşehirli Damad İbrahim Paşa",  donem:"1718–1730", not:"Lâle Devri'nin yöneticisi" },
+{ tur:"sadrazam", ad:"Damad Ali Paşa (Şehid)",         donem:"1713–1716", not:"Mora'yı geri alan sadrazam; Petrovaradin'de şehit" },
+{ tur:"sadrazam", ad:"Alemdar Mustafa Paşa",           donem:"1808", not:"II. Mahmud'u tahta çıkaran Rusçuk âyanı; Sened-i İttifak'ın mimarı" },
+{ tur:"sadrazam", ad:"Mustafa Reşid Paşa",             donem:"1846–1858 arası 6 kez", not:"Tanzimat Fermanı'nın mimarı" },
+{ tur:"sadrazam", ad:"Âlî Paşa",                       donem:"1852–1871 arası 5 kez", not:"Islahat Fermanı ve Tanzimat diplomasisinin yürütücüsü" },
+{ tur:"sadrazam", ad:"Midhat Paşa",                    donem:"1872, 1876–1877", not:"Kanûn-ı Esâsî'nin mimarı" },
+// --- Vezirler ve paşalar ---
+{ tur:"vezir-pasa", ad:"Lala Şâhin Paşa",              donem:"14. yy", not:"İlk Rumeli beylerbeyi; Edirne ve Filibe fetihleri" },
+{ tur:"vezir-pasa", ad:"Gedik Ahmed Paşa",             donem:"15. yy", not:"Kefe ve Otranto seferlerinin komutanı" },
+{ tur:"vezir-pasa", ad:"Lala Mustafa Paşa",            donem:"16. yy", not:"Kıbrıs'ın fatihi" },
+{ tur:"vezir-pasa", ad:"Bıyıklı Mehmed Paşa",          donem:"16. yy", not:"Doğu Anadolu'nun katılmasını yöneten ilk Diyarbekir beylerbeyi" },
+{ tur:"vezir-pasa", ad:"Sinan Paşa (Koca)",            donem:"16. yy", not:"Tunus'un kesin fethi" },
+{ tur:"vezir-pasa", ad:"Tiryâki Hasan Paşa",           donem:"17. yy", not:"Kanije savunmasının kahramanı" },
+{ tur:"vezir-pasa", ad:"Kemankeş Kara Mustafa Paşa",   donem:"17. yy", not:"Kasr-ı Şirin barışının yapıcısı" },
+// --- Komutanlar ---
+{ tur:"komutan", ad:"Süleyman Paşa (Orhan oğlu)",      donem:"14. yy", not:"Rumeli'ye geçişin öncüsü" },
+{ tur:"komutan", ad:"Evrenos Bey",                     donem:"14.-15. yy", not:"Rumeli uç beyi; Teselya fetihleri" },
+{ tur:"komutan", ad:"Paşa Yiğit Bey",                  donem:"14.-15. yy", not:"Üsküp'ün fatihi" },
+{ tur:"komutan", ad:"Turahanoğlu Ömer Bey",            donem:"15. yy", not:"Atina'nın fatihi" },
+{ tur:"komutan", ad:"Gazi Osman Paşa",                 donem:"1832–1900", not:"Plevne savunması" },
+{ tur:"komutan", ad:"Gazi Ahmed Muhtar Paşa",          donem:"1839–1919", not:"93 Harbi Kafkas cephesi" },
+{ tur:"komutan", ad:"Edhem Paşa",                      donem:"19. yy", not:"1897 Dömeke zaferi" },
+{ tur:"komutan", ad:"Halil Paşa (Kut)",                donem:"1882–1957", not:"Kûtülamâre zaferi" },
+{ tur:"komutan", ad:"Fahreddin Paşa (Çöl Kaplanı)",    donem:"1868–1948", not:"Medine müdafaası" },
+{ tur:"komutan", ad:"Kâzım Karabekir Paşa",            donem:"1882–1948", not:"Doğu cephesi; Kars Antlaşması" },
+{ tur:"komutan", ad:"Fevzi Paşa (Çakmak)",             donem:"1876–1950", not:"Millî Mücadele Genelkurmay Başkanı" },
+{ tur:"komutan", ad:"İsmet Paşa (İnönü)",              donem:"1884–1973", not:"Batı cephesi komutanı; Lozan başmurahhası" },
+{ tur:"komutan", ad:"Enver Paşa",                      donem:"1881–1922", not:"Harbiye nâzırı; Edirne'nin geri alınışı" },
+{ tur:"komutan", ad:"Mustafa Kemal Paşa (Atatürk)",    donem:"1881–1938", not:"Çanakkale, Millî Mücadele önderi, ilk cumhurbaşkanı" },
+// --- Denizciler ---
+{ tur:"denizci", ad:"Barbaros Hayreddin Paşa",         donem:"1478–1546", not:"Kaptan-ı deryâ; Preveze zaferi" },
+{ tur:"denizci", ad:"Turgut Reis",                     donem:"1485–1565", not:"Trablusgarp'ın fatihi" },
+{ tur:"denizci", ad:"Kılıç Ali Paşa (Uluç)",           donem:"1500–1587", not:"İnebahtı'dan filoyu kurtaran, Tunus'u geri alan kaptan-ı deryâ" },
+{ tur:"denizci", ad:"Müezzinzâde Ali Paşa",            donem:"ö. 1571", not:"İnebahtı'da şehit düşen kaptan-ı deryâ" },
+// --- Âlimler ve mutasavvıflar ---
+{ tur:"alim", ad:"Şeyh Edebâli",                       donem:"ö. 1326", not:"Kuruluş devrinin manevi önderi" },
+{ tur:"alim", ad:"Dâvûd-i Kayserî",                    donem:"ö. 1350", not:"İlk Osmanlı medresesinin başmüderrisi" },
+{ tur:"alim", ad:"Şeyh Bedreddin",                     donem:"1359–1416", not:"Fakih-mutasavvıf; 1416 ayaklanması" },
+{ tur:"alim", ad:"İdrîs-i Bitlisî",                    donem:"ö. 1520", not:"Doğu Anadolu'nun Osmanlı'ya bağlanmasının mimarı" },
+{ tur:"alim", ad:"Hoca Sâdeddin Efendi",               donem:"1536–1599", not:"Haçova'da orduyu toparlayan hoca; tarihçi" },
+// --- Hanedan üyeleri ---
+{ tur:"hanedan", ad:"Cem Sultan",                      donem:"1459–1495", not:"II. Bayezid'in taht rakibi; Avrupa'da rehin şehzade" },
+{ tur:"hanedan", ad:"Turhan Hatice Sultan",            donem:"1627–1683", not:"IV. Mehmed'in annesi; Köprülü'yü iktidara getiren vâlide" },
+{ tur:"hanedan", ad:"Abdülmecid Efendi",               donem:"1868–1944", not:"Son halife (1922–1924)" },
+// --- Yabancı hükümdarlar ---
+{ tur:"yabanci-hukumdar", ad:"XI. Konstantinos",       donem:"ö. 1453", not:"Son Bizans imparatoru" },
+{ tur:"yabanci-hukumdar", ad:"Timur",                  donem:"1336–1405", not:"Ankara Savaşı'nın galibi" },
+{ tur:"yabanci-hukumdar", ad:"Uzun Hasan",             donem:"1423–1478", not:"Akkoyunlu hükümdarı; Otlukbeli" },
+{ tur:"yabanci-hukumdar", ad:"Şah İsmail",             donem:"1487–1524", not:"Safevî kurucusu; Çaldıran" },
+{ tur:"yabanci-hukumdar", ad:"Kansu Gavri",            donem:"ö. 1516", not:"Mercidabık'ta ölen Memlûk sultanı" },
+{ tur:"yabanci-hukumdar", ad:"Şah Tahmasb",            donem:"1514–1576", not:"Amasya barışının tarafı" },
+{ tur:"yabanci-hukumdar", ad:"Kral II. Layoş",         donem:"1506–1526", not:"Mohaç'ta ölen Macar kralı" },
+{ tur:"yabanci-hukumdar", ad:"János Zápolya",          donem:"1487–1540", not:"Osmanlı himayesindeki Macar kralı" },
+{ tur:"yabanci-hukumdar", ad:"Jan Sobieski",           donem:"1629–1696", not:"Viyana bozgununu getiren Leh kralı" },
+{ tur:"yabanci-hukumdar", ad:"Çar I. Petro",           donem:"1672–1725", not:"Prut'ta kuşatılan Rus çarı" },
+{ tur:"yabanci-hukumdar", ad:"II. Katerina",           donem:"1729–1796", not:"Kırım'ı ilhak eden Rus çariçesi" },
+{ tur:"yabanci-hukumdar", ad:"Napolyon Bonapart",      donem:"1769–1821", not:"Mısır seferinin komutanı" },
+{ tur:"yabanci-hukumdar", ad:"Şerif Hüseyin",          donem:"1854–1931", not:"1916 Hicaz isyanının önderi" },
+// --- Yabancı komutanlar ---
+{ tur:"yabanci-komutan", ad:"Hunyadi Yanoş",           donem:"1406–1456", not:"Varna ve II. Kosova'nın Macar komutanı" },
+{ tur:"yabanci-komutan", ad:"Andrea Doria",            donem:"1466–1560", not:"Preveze'de yenilen amiral" },
+{ tur:"yabanci-komutan", ad:"Don Juan",                donem:"1547–1578", not:"İnebahtı'nın galip amirali" },
+{ tur:"yabanci-komutan", ad:"Francesco Morosini",      donem:"1619–1694", not:"Kandiye'yi teslim eden Venedik komutanı" },
+{ tur:"yabanci-komutan", ad:"Prens Eugen",             donem:"1663–1736", not:"1717 Belgrad'ın fatihi" },
+{ tur:"yabanci-komutan", ad:"Amiral Nelson",           donem:"1758–1805", not:"Ebûkır baskını" },
+{ tur:"yabanci-komutan", ad:"General Allenby",         donem:"1861–1936", not:"Kudüs ve Filistin harekâtı" },
+{ tur:"yabanci-komutan", ad:"General Townshend",       donem:"1861–1924", not:"Kût'ta teslim olan İngiliz komutan" },
+// --- Siyasi figürler ---
+{ tur:"siyasi", ad:"Patrona Halil",                    donem:"ö. 1730", not:"1730 ayaklanmasının önderi" },
+{ tur:"siyasi", ad:"Kabakçı Mustafa",                  donem:"ö. 1808", not:"1807 ayaklanmasının önderi" },
+{ tur:"siyasi", ad:"Miloš Obrenović",                  donem:"1780–1860", not:"Özerk Sırbistan'ın ilk prensi" },
+{ tur:"siyasi", ad:"Urâbî Paşa",                       donem:"1841–1911", not:"Mısır millî hareketinin önderi" },
+{ tur:"siyasi", ad:"T. E. Lawrence",                   donem:"1888–1935", not:"Arap isyanındaki İngiliz ajanı" },
+{ tur:"siyasi", ad:"Hasan Tahsin",                     donem:"1888–1919", not:"İzmir'de ilk kurşun" }
+];

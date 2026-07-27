@@ -1,24 +1,53 @@
 // ============================================================================
-// Osmanlı Tarih Atlası — Faz 0 çekirdek uygulama
-// Zaman göstergesi (ay hassasiyeti) -> sınır katmanı + padişah kartı + olay akışı
+// Osmanlı Tarih Atlası — gün bazlı zaman çizgisi + dönem geometrileri
+// Veri: data/donemler.js (dissolve edilmiş dönem kesitleri, bbox, km²),
+//       data/olaylar(.js/_ek.js), data/padisahlar.js, data/kisiler.js, data/savaslar.js
 // ============================================================================
 
 "use strict";
 
-// ---------- Tarih yardımcıları (ayIndeks = yıl*12 + (ay-1)) ----------
+// ---------- Gün bazlı tarih yardımcıları ----------
 var AYLAR = ["Ocak","Şubat","Mart","Nisan","Mayıs","Haziran",
              "Temmuz","Ağustos","Eylül","Ekim","Kasım","Aralık"];
+var AY_NO = {};
+AYLAR.forEach(function (a, i) { AY_NO[a] = i + 1; });
 
-function ayIdx(s) {              // "1453-05" -> indeks
+function gunIdx(s) {                    // "1453-05-29" | "1453-05" -> gün indeksi
   var p = s.split("-");
-  return parseInt(p[0], 10) * 12 + (parseInt(p[1], 10) - 1);
+  return Math.round(Date.UTC(+p[0], (+p[1] || 1) - 1, +p[2] || 1) / 864e5);
 }
-function idxYazi(i) {            // indeks -> "Mayıs 1453"
-  return AYLAR[i % 12] + " " + Math.floor(i / 12);
+function idxTarih(i) {                  // gün indeksi -> {y, a, g}
+  var d = new Date(i * 864e5);
+  return { y: d.getUTCFullYear(), a: d.getUTCMonth() + 1, g: d.getUTCDate() };
+}
+function idxYazi(i) {                   // gün indeksi -> "29 Mayıs 1453"
+  var t = idxTarih(i);
+  return t.g + " " + AYLAR[t.a - 1] + " " + t.y;
+}
+// "gun" metninden kesin gün çıkar ("29 Mayıs 1453", "26 Ağustos – 9 Eylül 1922"...)
+function gunMetniIdx(gun, varsayilan) {
+  if (!gun) return varsayilan;
+  var m = gun.match(/(\d{1,2})\s+(Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık)/);
+  var y = gun.match(/(\d{4})/);
+  if (m && y) return gunIdx(y[1] + "-" + AY_NO[m[2]] + "-" + m[1]);
+  return varsayilan;
 }
 
-var BASLANGIC = ayIdx("1299-01");
-var BITIS     = ayIdx("1923-10");
+var BASLANGIC = gunIdx("1299-01-01");
+var BITIS     = gunIdx("1923-10-29");
+
+// ---------- Dönem verisi ----------
+var donemler = window.DONEMLER.map(function (d) {
+  return { fi: gunIdx(d.f), ti: gunIdx(d.t), ad: d.ad, b: d.b, ao: d.ao, av: d.av,
+           o: { type: "MultiPolygon", coordinates: d.o },
+           v: { type: "MultiPolygon", coordinates: d.v } };
+});
+function donemBul(t) {
+  for (var i = 0; i < donemler.length; i++) {
+    if (donemler[i].fi <= t && t < donemler[i].ti) return i;
+  }
+  return t < donemler[0].fi ? 0 : donemler.length - 1;
+}
 
 // ---------- Harita ----------
 var harita = new maplibregl.Map({
@@ -39,8 +68,8 @@ var harita = new maplibregl.Map({
       { id: "altlik", type: "raster", source: "altlik" }
     ]
   },
-  center: [29, 40],
-  zoom: 4,
+  center: [30, 40],
+  zoom: 5.5,
   minZoom: 2.5,
   maxZoom: 8,
   attributionControl: { compact: true }
@@ -49,85 +78,47 @@ harita.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top
 
 var haritaHazir = false;
 harita.on("load", function () {
-  // Vassal katmanı altta (açık ton, kesik çizgi), doğrudan topraklar üstte
   harita.addSource("vassal", { type: "geojson", data: bosVeri() });
-  harita.addLayer({
-    id: "vassal-dolgu",
-    type: "fill",
-    source: "vassal",
-    paint: { "fill-color": "#d98a63", "fill-opacity": 0.32 }
-  });
-  harita.addLayer({
-    id: "vassal-cizgi",
-    type: "line",
-    source: "vassal",
-    paint: { "line-color": "#a34d22", "line-width": 1.2, "line-dasharray": [3, 2] }
-  });
+  harita.addLayer({ id: "vassal-dolgu", type: "fill", source: "vassal",
+    paint: { "fill-color": "#d98a63", "fill-opacity": 0.38 } });
+  harita.addLayer({ id: "vassal-cizgi", type: "line", source: "vassal",
+    paint: { "line-color": "#a34d22", "line-width": 1.4, "line-dasharray": [3, 2] } });
 
   harita.addSource("osmanli", { type: "geojson", data: bosVeri() });
-  harita.addLayer({
-    id: "osmanli-dolgu",
-    type: "fill",
-    source: "osmanli",
-    paint: {
-      "fill-color": "#b3122f",
-      "fill-opacity": 0.42,
-      "fill-opacity-transition": { duration: 400 }
-    }
-  });
-  harita.addLayer({
-    id: "osmanli-cizgi",
-    type: "line",
-    source: "osmanli",
-    paint: { "line-color": "#6d0a1c", "line-width": 1.6 }
-  });
+  harita.addLayer({ id: "osmanli-dolgu", type: "fill", source: "osmanli",
+    paint: { "fill-color": "#b3122f", "fill-opacity": 0.55 } });
+  harita.addLayer({ id: "osmanli-cizgi", type: "line", source: "osmanli",
+    paint: { "line-color": "#4d0713", "line-width": 2.2 } });
 
-  // Lejant
   var lejant = document.createElement("div");
   lejant.className = "lejant";
   lejant.innerHTML =
     '<span><i style="background:#b3122f"></i> Doğrudan Osmanlı toprağı</span>' +
-    '<span><i style="background:#d98a63"></i> Bağlı / özerk topraklar</span>';
+    '<span><i style="background:#d98a63"></i> Bağlı / özerk topraklar</span>' +
+    '<span id="alan-goster"></span>';
   document.getElementById("harita").appendChild(lejant);
 
-  // taslak uyarısı rozeti
   var rozet = document.createElement("div");
   rozet.className = "taslak-rozet";
   rozet.textContent = "Sınırlar akademik atlas verisine dayalıdır; yaklaşıktır, doğrulama sürüyor";
   document.getElementById("harita").appendChild(rozet);
 
   haritaHazir = true;
+  aktifDonem = -1;
   guncelle();
 });
 
 function bosVeri() { return { type: "FeatureCollection", features: [] }; }
+function tekVeri(geo) { return { type: "FeatureCollection",
+  features: geo.coordinates.length ? [{ type: "Feature", properties: {}, geometry: geo }] : [] }; }
 
-// Parça -> GeoJSON geometrisi: ya hazır kesit (geo) ya elle çizili halkalar
-function parcaGeometri(p) {
-  if (p.geo && window.SNAPSHOTS && window.SNAPSHOTS[p.geo]) {
-    return { type: "MultiPolygon", coordinates: window.SNAPSHOTS[p.geo] };
-  }
-  if (p.geo && window.VASSAL_GEO && window.VASSAL_GEO[p.geo]) {
-    return { type: "MultiPolygon", coordinates: window.VASSAL_GEO[p.geo] };
-  }
-  return { type: "MultiPolygon",
-           coordinates: p.halkalar.map(function (h) { return [h]; }) };
+// ---------- Otomatik yakınlaştırma ----------
+var otoZoom = true;
+function zoomUygula(d) {
+  if (!otoZoom) return;
+  harita.fitBounds([[d.b[0], d.b[1]], [d.b[2], d.b[3]]],
+                   { padding: 56, duration: 750, maxZoom: 7 });
 }
-
-// Aktif tarihe göre bir listedeki geçerli parçaları GeoJSON'a çevir
-function aktifVeri(liste, t) {
-  var fs = [];
-  for (var i = 0; i < liste.length; i++) {
-    var p = liste[i];
-    if (ayIdx(p.from) <= t && t < ayIdx(p.to)) {
-      fs.push({ type: "Feature", properties: { ad: p.ad }, geometry: parcaGeometri(p) });
-    }
-  }
-  return { type: "FeatureCollection", features: fs };
-}
-
-function sinirVerisi(t) { return aktifVeri(window.SINIRLAR, t); }
-function vassalVerisi(t) { return aktifVeri(window.VASSALLAR || [], t); }
 
 // ---------- Padişah kartı ----------
 var portreKutu = document.getElementById("padisah-portre");
@@ -139,17 +130,13 @@ function padisahGuncelle(t) {
   var aktif = null;
   for (var i = 0; i < window.PADISAHLAR.length; i++) {
     var p = window.PADISAHLAR[i];
-    if (ayIdx(p.from) <= t && t < ayIdx(p.to)) { aktif = p; break; }
+    if (gunIdx(p.from) <= t && t < gunIdx(p.to)) { aktif = p; break; }
   }
   if (!aktif) { adKutu.textContent = "—"; saltanatKutu.textContent = ""; return; }
-
   adKutu.textContent = aktif.ad;
-  saltanatKutu.textContent = idxYazi(ayIdx(aktif.from)) + " – " + idxYazi(ayIdx(aktif.to));
-
+  saltanatKutu.textContent = idxTarih(gunIdx(aktif.from)).y + " – " + idxTarih(gunIdx(aktif.to)).y;
   if (sonPadisahId === aktif.id + aktif.ad) return;
   sonPadisahId = aktif.id + aktif.ad;
-
-  // Portre varsa göster, yoksa baş harfli rozet
   portreKutu.innerHTML = "";
   if (aktif.ozel) { portreKutu.textContent = aktif.id === "fetret" ? "⚔" : "☪"; return; }
   var img = new Image();
@@ -162,16 +149,20 @@ function padisahGuncelle(t) {
   portreKutu.appendChild(img);
 }
 
-// ---------- Olay akışı ----------
+// ---------- Olay akışı (ana + ek liste birleşik, gün sıralı) ----------
 var olayListe = document.getElementById("olay-listesi");
-var olaylar = window.OLAYLAR.slice().sort(function (a, b) { return ayIdx(a.t) - ayIdx(b.t); });
-var olayDom = [];
+var olaylar = (window.OLAYLAR || []).concat(window.OLAYLAR_EK || []).map(function (o) {
+  var kaba = gunIdx(o.t);
+  return Object.assign({ gi: o.t.split("-").length > 2 ? kaba : gunMetniIdx(o.gun, kaba) }, o);
+}).sort(function (a, b) { return a.gi - b.gi; });
 
+var olayDom = [];
 olaylar.forEach(function (o, i) {
   var div = document.createElement("div");
   div.className = "olay k-" + o.k;
-  div.innerHTML = '<div class="o-tarih">' + idxYazi(ayIdx(o.t)) + '</div>' +
-                  '<div class="o-baslik">' + o.b + '</div>';
+  div.innerHTML = '<div class="o-tarih">' + idxYazi(o.gi) + '</div>' +
+                  '<div class="o-baslik"></div>';
+  div.lastChild.textContent = o.b;
   div.addEventListener("click", function () { detayAc(i); });
   olayListe.appendChild(div);
   olayDom.push(div);
@@ -181,18 +172,16 @@ var sonVurgulanan = -1;
 function olaylarGuncelle(t) {
   var sonGecmis = -1;
   for (var i = 0; i < olaylar.length; i++) {
-    var ot = ayIdx(olaylar[i].t);
-    var d = olayDom[i];
-    d.classList.toggle("gecmis", ot <= t);
-    d.classList.toggle("simdiki", ot === t || (ot < t && (i === olaylar.length - 1 || ayIdx(olaylar[i + 1].t) > t)));
-    if (ot <= t) sonGecmis = i;
+    var gecti = olaylar[i].gi <= t;
+    olayDom[i].classList.toggle("gecmis", gecti);
+    olayDom[i].classList.remove("simdiki");
+    if (gecti) sonGecmis = i;
   }
-  // sadece "şimdiki" tek olay vurgulu kalsın
-  for (var j = 0; j < olayDom.length; j++) {
-    if (j !== sonGecmis) olayDom[j].classList.remove("simdiki");
-  }
-  if (sonGecmis >= 0 && sonGecmis !== sonVurgulanan) {
-    olayDom[sonGecmis].scrollIntoView({ block: "center", behavior: "smooth" });
+  if (sonGecmis >= 0) {
+    olayDom[sonGecmis].classList.add("simdiki");
+    if (sonGecmis !== sonVurgulanan) {
+      olayDom[sonGecmis].scrollIntoView({ block: "center", behavior: "smooth" });
+    }
   }
   sonVurgulanan = sonGecmis;
 }
@@ -203,32 +192,19 @@ var detayIndex = -1;
 function detayAc(i) {
   detayIndex = i;
   var o = olaylar[i];
-  document.getElementById("detay-tarih").textContent = o.gun || idxYazi(ayIdx(o.t));
+  document.getElementById("detay-tarih").textContent = o.gun || idxYazi(o.gi);
   document.getElementById("detay-baslik").textContent = o.b;
-
   var meta = document.getElementById("detay-meta");
   meta.innerHTML = "";
-  if (o.yer) {
-    var y = document.createElement("span");
-    y.textContent = "📍 " + o.yer;
-    meta.appendChild(y);
-  }
-  if (o.kisiler) {
-    var k = document.createElement("span");
-    k.textContent = "👤 " + o.kisiler;
-    meta.appendChild(k);
-  }
-
+  if (o.yer) { var y = document.createElement("span"); y.textContent = "📍 " + o.yer; meta.appendChild(y); }
+  if (o.kisiler) { var k = document.createElement("span"); k.textContent = "👤 " + o.kisiler; meta.appendChild(k); }
   document.getElementById("detay-metin").textContent = o.d;
-
   var kaynakEl = document.getElementById("detay-kaynak");
   if (o.kaynak) {
     kaynakEl.href = "https://islamansiklopedisi.org.tr/" + o.kaynak;
     kaynakEl.textContent = "📖 Kaynak: TDV İslâm Ansiklopedisi";
     kaynakEl.style.display = "";
-  } else {
-    kaynakEl.style.display = "none";
-  }
+  } else { kaynakEl.style.display = "none"; }
   detayPencere.classList.remove("gizli");
 }
 document.getElementById("detay-kapat").addEventListener("click", function () {
@@ -238,8 +214,72 @@ detayPencere.addEventListener("click", function (e) {
   if (e.target === detayPencere) detayPencere.classList.add("gizli");
 });
 document.getElementById("detay-git").addEventListener("click", function () {
-  if (detayIndex >= 0) tarihAyarla(ayIdx(olaylar[detayIndex].t));
+  if (detayIndex >= 0) tarihAyarla(olaylar[detayIndex].gi);
   detayPencere.classList.add("gizli");
+});
+
+// ---------- Dizin penceresi (kişiler / savaşlar / antlaşmalar / seriler) ----------
+var dizinPencere = document.getElementById("dizin");
+var TUR_ADI = { padisah:"Padişahlar", sadrazam:"Sadrazamlar", "vezir-pasa":"Vezirler ve Paşalar",
+  komutan:"Komutanlar", denizci:"Denizciler", alim:"Âlimler", hanedan:"Hanedan",
+  "yabanci-hukumdar":"Yabancı Hükümdarlar", "yabanci-komutan":"Yabancı Komutanlar", siyasi:"Siyasî Figürler" };
+
+function dizinDoldur(sekme) {
+  var kutu = document.getElementById("dizin-icerik");
+  kutu.innerHTML = "";
+  document.querySelectorAll("#dizin-sekmeler button").forEach(function (b) {
+    b.classList.toggle("aktif", b.dataset.s === sekme);
+  });
+  function satir(sol, orta, sag, tik) {
+    var d = document.createElement("div");
+    d.className = "dz-satir" + (tik ? " tikla" : "");
+    d.innerHTML = '<span class="dz-sol"></span><span class="dz-orta"></span><span class="dz-sag"></span>';
+    d.children[0].textContent = sol; d.children[1].textContent = orta; d.children[2].textContent = sag;
+    if (tik) d.addEventListener("click", tik);
+    kutu.appendChild(d);
+  }
+  function baslik(ad) {
+    var h = document.createElement("div"); h.className = "dz-grup"; h.textContent = ad; kutu.appendChild(h);
+  }
+  if (sekme === "kisiler") {
+    baslik("Padişahlar (36) — tarih ilerledikçe üstteki kartta");
+    var gruplar = {};
+    (window.KISILER || []).forEach(function (k) { (gruplar[k.tur] = gruplar[k.tur] || []).push(k); });
+    Object.keys(TUR_ADI).forEach(function (tur) {
+      if (!gruplar[tur]) return;
+      baslik(TUR_ADI[tur] + " (" + gruplar[tur].length + ")");
+      gruplar[tur].forEach(function (k) { satir(k.ad, k.donem || "", k.not || ""); });
+    });
+  } else if (sekme === "savaslar") {
+    (window.SAVASLAR || []).forEach(function (s) {
+      var isaret = s.sonuc === "zafer" ? "✔" : s.sonuc === "yenilgi" ? "✖" : "◐";
+      satir(idxYazi(gunIdx(s.t)), s.ad + " — " + s.taraf, isaret,
+            function () { dizinPencere.classList.add("gizli"); tarihAyarla(gunIdx(s.t)); });
+    });
+  } else if (sekme === "antlasmalar") {
+    (window.ANTLASMALAR || []).forEach(function (a) {
+      satir(idxYazi(gunIdx(a.t)), a.ad + " — " + a.taraf, a.ozet,
+            function () { dizinPencere.classList.add("gizli"); tarihAyarla(gunIdx(a.t)); });
+    });
+  } else {
+    (window.SERILER || []).forEach(function (s) {
+      var say = (window.SAVASLAR || []).filter(function (x) { return x.seri === s.id; }).length;
+      satir(s.aralik, s.ad + (say ? " (" + say + " kayıtlı muharebe)" : ""), s.ozet);
+    });
+  }
+}
+document.getElementById("btn-dizin").addEventListener("click", function () {
+  dizinPencere.classList.remove("gizli");
+  dizinDoldur("kisiler");
+});
+document.getElementById("dizin-kapat").addEventListener("click", function () {
+  dizinPencere.classList.add("gizli");
+});
+dizinPencere.addEventListener("click", function (e) {
+  if (e.target === dizinPencere) dizinPencere.classList.add("gizli");
+});
+document.querySelectorAll("#dizin-sekmeler button").forEach(function (b) {
+  b.addEventListener("click", function () { dizinDoldur(b.dataset.s); });
 });
 
 // ---------- Zaman kontrolü ----------
@@ -255,16 +295,28 @@ kaydirici.value = BASLANGIC;
 
 var suanki = BASLANGIC;
 var zamanlayici = null;
+var aktifDonem = -1;
+
+function alanYazi(km2) {
+  if (km2 >= 1000000) return "≈ " + (km2 / 1000000).toFixed(2).replace(".", ",") + " milyon km²";
+  return "≈ " + km2.toLocaleString("tr-TR") + " km²";
+}
 
 function guncelle() {
   tarihGoster.textContent = idxYazi(suanki);
-  if (haritaHazir) {
-    var veri = sinirVerisi(suanki);
-    harita.getSource("osmanli").setData(veri);
-    harita.getSource("vassal").setData(vassalVerisi(suanki));
-    donemEtiketi.textContent = veri.features.length
-      ? veri.features[0].properties.ad
-      : "";
+  var di = donemBul(suanki);
+  if (haritaHazir && di !== aktifDonem) {
+    aktifDonem = di;
+    var d = donemler[di];
+    harita.getSource("osmanli").setData(tekVeri(d.o));
+    harita.getSource("vassal").setData(tekVeri(d.v));
+    donemEtiketi.textContent = d.ad;
+    var alanEl = document.getElementById("alan-goster");
+    if (alanEl) {
+      alanEl.textContent = "📐 " + alanYazi(d.ao) +
+        (d.av ? "  (+" + alanYazi(d.av).replace("≈ ", "") + " bağlı)" : "");
+    }
+    zoomUygula(d);
   }
   padisahGuncelle(suanki);
   olaylarGuncelle(suanki);
@@ -280,7 +332,7 @@ kaydirici.addEventListener("input", function () {
   tarihAyarla(parseInt(kaydirici.value, 10));
 });
 
-// Oynat / duraklat — hız: ayda bir adım, saniyede N ay
+// Oynat / duraklat — hız: gün/saniye
 function oynatDurdur() {
   if (zamanlayici) {
     clearInterval(zamanlayici);
@@ -288,38 +340,47 @@ function oynatDurdur() {
     btnOynat.textContent = "▶";
   } else {
     if (suanki >= BITIS) tarihAyarla(BASLANGIC);
-    var aylikHiz = parseInt(hizSec.value, 10);           // ay / saniye
+    var gunSn = parseInt(hizSec.value, 10);
+    var adim = Math.max(1, Math.round(gunSn / 16));
     zamanlayici = setInterval(function () {
       if (suanki >= BITIS) { oynatDurdur(); return; }
-      tarihAyarla(suanki + 1);
-    }, Math.round(1000 / aylikHiz));
+      tarihAyarla(suanki + adim);
+    }, 62);
     btnOynat.textContent = "⏸";
   }
 }
 btnOynat.addEventListener("click", oynatDurdur);
 hizSec.addEventListener("change", function () {
-  if (zamanlayici) { oynatDurdur(); oynatDurdur(); }     // yeni hızla yeniden başlat
+  if (zamanlayici) { oynatDurdur(); oynatDurdur(); }
+});
+
+// Otomatik yakınlaştırma düğmesi
+var btnZoom = document.getElementById("btn-zoom");
+btnZoom.addEventListener("click", function () {
+  otoZoom = !otoZoom;
+  btnZoom.classList.toggle("pasif", !otoZoom);
+  if (otoZoom && aktifDonem >= 0) zoomUygula(donemler[aktifDonem]);
 });
 
 // Önceki / sonraki olaya atla
 document.getElementById("btn-geri").addEventListener("click", function () {
   for (var i = olaylar.length - 1; i >= 0; i--) {
-    if (ayIdx(olaylar[i].t) < suanki) { tarihAyarla(ayIdx(olaylar[i].t)); return; }
+    if (olaylar[i].gi < suanki) { tarihAyarla(olaylar[i].gi); return; }
   }
   tarihAyarla(BASLANGIC);
 });
 document.getElementById("btn-ileri").addEventListener("click", function () {
   for (var i = 0; i < olaylar.length; i++) {
-    if (ayIdx(olaylar[i].t) > suanki) { tarihAyarla(ayIdx(olaylar[i].t)); return; }
+    if (olaylar[i].gi > suanki) { tarihAyarla(olaylar[i].gi); return; }
   }
   tarihAyarla(BITIS);
 });
 
-// Klavye: ← → ay ay, boşluk oynat/durdur
+// Klavye: ←→ gün (Shift: yıl), boşluk oynat/durdur
 document.addEventListener("keydown", function (e) {
   if (e.target.tagName === "INPUT" || e.target.tagName === "SELECT") return;
-  if (e.key === "ArrowRight") { tarihAyarla(suanki + (e.shiftKey ? 12 : 1)); e.preventDefault(); }
-  else if (e.key === "ArrowLeft") { tarihAyarla(suanki - (e.shiftKey ? 12 : 1)); e.preventDefault(); }
+  if (e.key === "ArrowRight") { tarihAyarla(suanki + (e.shiftKey ? 365 : 1)); e.preventDefault(); }
+  else if (e.key === "ArrowLeft") { tarihAyarla(suanki - (e.shiftKey ? 365 : 1)); e.preventDefault(); }
   else if (e.key === " ") { oynatDurdur(); e.preventDefault(); }
 });
 
