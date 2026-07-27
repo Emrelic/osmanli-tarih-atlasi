@@ -521,10 +521,30 @@ function kisiBul(ad) {
             (kw[b].length >= 6 && tw[a].indexOf(kw[b]) === 0)) { skor++; break; }
       }
     }
+    // örtüşme oranı: tek ortak kelimenin çok kelimeli bir kaydı yakalamasını önler
+    if (skor / Math.max(tw.length, kw.length) < 0.5) continue;
     var gerekli = Math.min(tw.length, kw.length) >= 2 ? 2 : 1;
     if (skor >= gerekli && skor > enIyiSkor) { enIyi = liste[i]; enIyiSkor = skor; }
   }
   return enIyi;
+}
+
+// Bir ad, padişah listesindeki birine mi ait? (portre seçimi ve kişi kutusu filtresi)
+function padisahEslesmesi(ad) {
+  var aw = ozAdlar(ad);
+  if (!aw.length) return null;
+  var sira = ad.trim().toLowerCase().match(/^(i{1,3}|iv|v|vi{1,3}|ix|x{1,2})\./);
+  for (var j = 0; j < window.PADISAHLAR.length; j++) {
+    var p = window.PADISAHLAR[j];
+    if (p.ozel) continue;
+    var pw = ozAdlar(p.ad);
+    var psira = p.ad.toLowerCase().match(/^(i{1,3}|iv|v|vi{1,3}|ix|x{1,2})\./);
+    var ortak = aw.filter(function (w) { return pw.indexOf(w) >= 0; }).length;
+    if (ortak < (aw.length >= 2 ? 2 : 1)) continue;
+    if (sira && psira && sira[1] !== psira[1]) continue;
+    return p;
+  }
+  return null;
 }
 // O tarihte hüküm süren padişahı bul (panelde portre göstermek için)
 function padisahBul(t) {
@@ -551,23 +571,7 @@ function obGoster(o) {
   var pad = null;
   if (o.kisiler) {
     var adlar = o.kisiler.split(",");
-    for (var i = 0; i < adlar.length && !pad; i++) {
-      var aw = ozAdlar(adlar[i]);
-      var sira = adlar[i].trim().toLowerCase().match(/^(i{1,3}|iv|v|vi{1,3}|ix|x{1,2})\./);
-      if (!aw.length) continue;
-      for (var j = 0; j < window.PADISAHLAR.length; j++) {
-        var p = window.PADISAHLAR[j];
-        if (p.ozel) continue;
-        var pw = ozAdlar(p.ad);
-        var psira = p.ad.toLowerCase().match(/^(i{1,3}|iv|v|vi{1,3}|ix|x{1,2})\./);
-        // Çok kelimeli adlarda tek ortak kelime yetmez ("Sokullu Mehmed Paşa"
-        // ile "I. Mehmed" eşleşmemeli); sıra numaraları varsa aynı olmalı.
-        var ortak = aw.filter(function (w) { return pw.indexOf(w) >= 0; }).length;
-        if (ortak < (aw.length >= 2 ? 2 : 1)) continue;
-        if (sira && psira && sira[1] !== psira[1]) continue;
-        pad = p; break;
-      }
-    }
+    for (var i = 0; i < adlar.length && !pad; i++) pad = padisahEslesmesi(adlar[i]);
   }
   if (!pad) pad = padisahBul(o.gi);
   if (pad && !pad.ozel) {
@@ -612,9 +616,14 @@ function obGoster(o) {
   })[0];
   if (an) kutu("Antlaşma hükmü", an.taraf + " ile · " + an.ozet);
   if (o.kisiler) {
-    o.kisiler.split(",").slice(0, 3).forEach(function (ad) {
+    var yazilan = {};
+    o.kisiler.split(",").slice(0, 4).forEach(function (ad) {
+      if (padisahEslesmesi(ad)) return;          // padişah zaten portre olarak görünüyor
       var k = kisiBul(ad);
-      if (k) kutu(k.ad, (k.donem ? k.donem + " · " : "") + (k.not || ""));
+      if (k && !yazilan[k.ad]) {
+        yazilan[k.ad] = 1;
+        kutu(k.ad, (k.donem ? k.donem + " · " : "") + (k.not || ""));
+      }
     });
   }
   if (o.kaynak) {
