@@ -40,7 +40,8 @@ var BITIS     = gunIdx("1923-10-29");
 var donemler = window.DONEMLER.map(function (d) {
   return { fi: gunIdx(d.f), ti: gunIdx(d.t), ad: d.ad, b: d.b, ao: d.ao, av: d.av,
            o: { type: "MultiPolygon", coordinates: d.o },
-           v: { type: "MultiPolygon", coordinates: d.v } };
+           v: { type: "MultiPolygon", coordinates: d.v },
+           z: d.z || null };          // Fetret Devri şehzade payları
 });
 function donemBul(t) {
   for (var i = 0; i < donemler.length; i++) {
@@ -90,6 +91,13 @@ harita.on("load", function () {
   harita.addLayer({ id: "osmanli-cizgi", type: "line", source: "osmanli",
     paint: { "line-color": "#4d0713", "line-width": 2.2 } });
 
+  // Fetret Devri şehzade payları — her şehzade kendi renginde
+  harita.addSource("sehzade", { type: "geojson", data: bosVeri() });
+  harita.addLayer({ id: "sehzade-dolgu", type: "fill", source: "sehzade",
+    paint: { "fill-color": ["get", "renk"], "fill-opacity": 0.5 } });
+  harita.addLayer({ id: "sehzade-cizgi", type: "line", source: "sehzade",
+    paint: { "line-color": ["get", "renk"], "line-width": 2.2 } });
+
   harita.addSource("seferler", { type: "geojson", data: bosVeri() });
   harita.addLayer({ id: "sefer-cizgi", type: "line", source: "seferler",
     layout: { "line-cap": "round", "line-join": "round" },
@@ -120,6 +128,55 @@ harita.on("load", function () {
 });
 
 function bosVeri() { return { type: "FeatureCollection", features: [] }; }
+
+// ---------- Fetret Devri şehzade payları ----------
+var sehzadeEtiketleri = [];        // aktif HTML etiket işaretleri
+
+function cokgenMerkezi(coords) {    // en büyük parçanın kaba ağırlık merkezi
+  var enBuyuk = null, enBuyukAlan = -1;
+  coords.forEach(function (poly) {
+    var r = poly[0], alan = 0;
+    for (var i = 0, j = r.length - 1; i < r.length; j = i++) {
+      alan += (r[j][0] * r[i][1] - r[i][0] * r[j][1]);
+    }
+    alan = Math.abs(alan / 2);
+    if (alan > enBuyukAlan) { enBuyukAlan = alan; enBuyuk = r; }
+  });
+  if (!enBuyuk) return null;
+  var x = 0, y = 0;
+  enBuyuk.forEach(function (p) { x += p[0]; y += p[1]; });
+  return [x / enBuyuk.length, y / enBuyuk.length];
+}
+
+function sehzadeGuncelle(d) {
+  if (!haritaHazir) return;
+  sehzadeEtiketleri.forEach(function (m) { m.remove(); });
+  sehzadeEtiketleri = [];
+  if (!d.z || !d.z.length) {
+    harita.getSource("sehzade").setData(bosVeri());
+    return;
+  }
+  var fs = d.z.map(function (k) {
+    return { type: "Feature", properties: { ad: k.a, renk: k.r },
+             geometry: { type: "MultiPolygon", coordinates: k.g } };
+  });
+  harita.getSource("sehzade").setData({ type: "FeatureCollection", features: fs });
+  d.z.forEach(function (k) {
+    var merkez = cokgenMerkezi(k.g);
+    if (!merkez) return;
+    var dis = document.createElement("div");
+    var ic = document.createElement("div");
+    ic.className = "sehzade-etiket";
+    ic.style.borderColor = k.r;
+    ic.innerHTML = '<b></b><span></span>';
+    ic.children[0].textContent = k.a;
+    ic.children[1].textContent = "≈ " + Math.round(k.km / 1000) + " bin km²";
+    dis.appendChild(ic);
+    var mk = new maplibregl.Marker({ element: dis, anchor: "center" })
+               .setLngLat(merkez).addTo(harita);
+    sehzadeEtiketleri.push(mk);
+  });
+}
 function tekVeri(geo) { return { type: "FeatureCollection",
   features: geo.coordinates.length ? [{ type: "Feature", properties: {}, geometry: geo }] : [] }; }
 
@@ -274,7 +331,8 @@ function padisahGuncelle(t) {
 var akisModu = null;   // aşağıda zaman kontrolü bölümünde atanır
 var olayListe = document.getElementById("olay-listesi");
 var olaylar = (window.OLAYLAR || []).concat(window.OLAYLAR_EK || [])
-                                    .concat(window.OLAYLAR_EK2 || []).map(function (o) {
+                                    .concat(window.OLAYLAR_EK2 || [])
+                                    .concat(window.OLAYLAR_EK3 || []).map(function (o) {
   var kaba = gunIdx(o.t);
   return Object.assign({ gi: o.t.split("-").length > 2 ? kaba : gunMetniIdx(o.gun, kaba) }, o);
 }).sort(function (a, b) { return a.gi - b.gi; });
@@ -459,11 +517,17 @@ function guncelle() {
     var d = donemler[di];
     harita.getSource("osmanli").setData(tekVeri(d.o));
     harita.getSource("vassal").setData(tekVeri(d.v));
+    sehzadeGuncelle(d);
     donemEtiketi.textContent = d.ad;
     var alanEl = document.getElementById("alan-goster");
     if (alanEl) {
-      alanEl.textContent = "📐 " + alanYazi(d.ao) +
-        (d.av ? "  (+" + alanYazi(d.av).replace("≈ ", "") + " bağlı)" : "");
+      if (d.z && d.z.length) {
+        var toplam = d.z.reduce(function (s, k) { return s + k.km; }, 0);
+        alanEl.textContent = "📐 " + alanYazi(toplam) + " (şehzade payları)";
+      } else {
+        alanEl.textContent = "📐 " + alanYazi(d.ao) +
+          (d.av ? "  (+" + alanYazi(d.av).replace("≈ ", "") + " bağlı)" : "");
+      }
     }
     zoomUygula(d);
   }
