@@ -80,6 +80,18 @@ Bilinen kalan sapmalar (2. geçişte Pitcher ile düzeltilecek):
 - Kuruluş (1299–1362), Fetret (1402–1413) ve Mütareke (1918–1923) dönemleri hâlâ elle
   çizili kaba halkalardır (veri setinde kesit yok)
 
+## Kronoloji yoğunlaştırma partileri (ay ay detay + harita senkronu)
+Her parti: ~25-40 yeni ay-detay maddesi + o dönemin sınır/şehir senkron düzeltmeleri.
+- [x] Parti 1 — Kuruluş–Fetih (1299–1453): 28 madde; Selanik 1403/1430, Gelibolu
+      1366-76, Semendire 1439-44 harita senkronları
+- [ ] Parti 2 — Yükselme (1453–1566): Fatih-Yavuz-Kanunî dönemleri
+- [ ] Parti 3 — Duraklama yüzyılı (1566–1699)
+- [ ] Parti 4 — 18. yüzyıl (1699–1808)
+- [ ] Parti 5 — Modernleşme (1808–1876)
+- [ ] Parti 6 — Abdülhamid ve son dönem (1876–1923)
+Not: içerik doldurma partileri Sonnet ile yürütülebilir (kota tasarrufu);
+yapısal/harita işleri güçlü modelde kalmalı.
+
 ## Yapılacaklar (kısa vade)
 - [x] Sınırların atlas verisiyle ilk inceltme turu (historical-basemaps + düzeltmeler)
 - [x] Padişah portre görsellerinin toplanması (36/36; kamu malı, Wikimedia — kaynaklar assets/portreler/KAYNAKLAR.txt)
