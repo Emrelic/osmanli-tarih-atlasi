@@ -490,15 +490,41 @@ document.getElementById("olay-bilgi-kapat").addEventListener("click", function (
   obPanel.classList.add("gizli");
 });
 
-// Kişi adını KISILER dizininde ara (fotoğraf/biyografi zenginleştirmesi için)
+// Kişi adını KISILER dizininde ara (fotoğraf/biyografi zenginleştirmesi için).
+// Roma rakamı/sıfat önekleri ("II.", "Sultan", "Kral"...) atılır; eşleşme için
+// en az bir anlamlı öz ad (≥4 harf) ortak olmalı — aksi hâlde "II. Mehmed" ile
+// "II. Katerina" gibi yanlış eşleşmeler oluşur.
+var ONEK = /^(i{1,3}|iv|v|vi{1,3}|ix|x{1,2})\.$/i;
+var UNVAN = /^(paşa|sultan|efendi|çelebi|hatun|reis|gazi|kral|kraliçe|şah|çar|prens|amiral|general|kaptan|şeyh|hoca|emir|emîr|arşidük|papa|voyvoda|despot|imparator|müşir|serdar|hazretleri|rivayet|dolayı)$/i;
+function ozAdlar(s) {
+  return s.toLowerCase()
+          .replace(/[()]/g, " ")
+          .split(/[\s,]+/)
+          .filter(function (w) { return w.length >= 4 && !ONEK.test(w) && !UNVAN.test(w); });
+}
+// En çok öz ad örtüşen kaydı seçer. İki tarafta da birden çok öz ad varsa tek
+// ortak kelime (ör. "Paşa"sı atılmış "Mehmed") yeterli sayılmaz.
 function kisiBul(ad) {
   var t = ad.trim().toLowerCase();
+  var tw = ozAdlar(ad);
   var liste = window.KISILER || [];
+  var enIyi = null, enIyiSkor = 0;
   for (var i = 0; i < liste.length; i++) {
-    var k = liste[i].ad.toLowerCase();
-    if (k === t || k.indexOf(t) === 0 || t.indexOf(k.split(" ")[0]) === 0) return liste[i];
+    if (liste[i].ad.toLowerCase() === t) return liste[i];
+    var kw = ozAdlar(liste[i].ad);
+    if (!tw.length || !kw.length) continue;
+    var skor = 0;
+    for (var a = 0; a < tw.length; a++) {
+      for (var b = 0; b < kw.length; b++) {
+        if (tw[a] === kw[b] ||
+            (tw[a].length >= 6 && kw[b].indexOf(tw[a]) === 0) ||
+            (kw[b].length >= 6 && tw[a].indexOf(kw[b]) === 0)) { skor++; break; }
+      }
+    }
+    var gerekli = Math.min(tw.length, kw.length) >= 2 ? 2 : 1;
+    if (skor >= gerekli && skor > enIyiSkor) { enIyi = liste[i]; enIyiSkor = skor; }
   }
-  return null;
+  return enIyi;
 }
 // O tarihte hüküm süren padişahı bul (panelde portre göstermek için)
 function padisahBul(t) {
@@ -526,11 +552,20 @@ function obGoster(o) {
   if (o.kisiler) {
     var adlar = o.kisiler.split(",");
     for (var i = 0; i < adlar.length && !pad; i++) {
-      var ad = adlar[i].trim().toLowerCase();
+      var aw = ozAdlar(adlar[i]);
+      var sira = adlar[i].trim().toLowerCase().match(/^(i{1,3}|iv|v|vi{1,3}|ix|x{1,2})\./);
+      if (!aw.length) continue;
       for (var j = 0; j < window.PADISAHLAR.length; j++) {
         var p = window.PADISAHLAR[j];
-        if (!p.ozel && (ad.indexOf(p.ad.split(" (")[0].toLowerCase()) === 0 ||
-                        p.ad.toLowerCase().indexOf(ad) === 0)) { pad = p; break; }
+        if (p.ozel) continue;
+        var pw = ozAdlar(p.ad);
+        var psira = p.ad.toLowerCase().match(/^(i{1,3}|iv|v|vi{1,3}|ix|x{1,2})\./);
+        // Çok kelimeli adlarda tek ortak kelime yetmez ("Sokullu Mehmed Paşa"
+        // ile "I. Mehmed" eşleşmemeli); sıra numaraları varsa aynı olmalı.
+        var ortak = aw.filter(function (w) { return pw.indexOf(w) >= 0; }).length;
+        if (ortak < (aw.length >= 2 ? 2 : 1)) continue;
+        if (sira && psira && sira[1] !== psira[1]) continue;
+        pad = p; break;
       }
     }
   }
