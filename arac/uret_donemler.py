@@ -47,14 +47,30 @@ def icinde_adi(yil, parca):
         if parca in n: return shape(f["geometry"]).buffer(0)
     raise KeyError(parca)
 
-print("Kara maskesi hazırlanıyor (world_1914 tüm ülkeler)...")
+print("Kara maskesi hazırlanıyor (Natural Earth 50m kıyı çizgisi)...")
+ne = json.load(open(os.path.join(BASEMAPS, "ne_50m_land.geojson"), encoding="utf-8"))
 kara_parcalari = []
-for f in yukle("1914")["features"]:
+for f in ne["features"]:
     g = shape(f["geometry"])
     if g.envelope.intersects(BOLGE):
         kara_parcalari.append(g.buffer(0).intersection(BOLGE))
-KARA = unary_union(kara_parcalari).buffer(0)
+KARA = unary_union(kara_parcalari).buffer(0).simplify(0.008, preserve_topology=True).buffer(0)
+# Kıyı şeridi: karanın kıyıdan ~20 km içeri kadar olan bandı (kıyıya yapıştırma için)
+KIYI_SERIDI = KARA.difference(KARA.buffer(-0.18))
 print("  kara maskesi tamam")
+
+def kiyiya_yapistir(g):
+    """Dönem geometrisini gerçek kıyıya oturt:
+    1) kıyıya 0.15° kadar yaklaşan yerlerde kıyı şeridini ekle (kıyıya uzat)
+    2) denize taşan kısımları kes
+    Karaya değmeyen şerit parçaları (sahipsiz adalar) eklenmez."""
+    if g.is_empty: return g
+    ek = KIYI_SERIDI.intersection(g.buffer(0.15)).buffer(0)
+    parcalar = ek.geoms if isinstance(ek, MultiPolygon) else ([ek] if not ek.is_empty else [])
+    dokunan = [p for p in parcalar if p.intersects(g)]
+    if dokunan:
+        g = unary_union([g] + dokunan)
+    return g.buffer(0).intersection(KARA).buffer(0)
 
 def H(halka):
     """Elle çizilmiş halka → kara maskesiyle kesilmiş geometri (denize taşmaz)."""
@@ -271,10 +287,12 @@ for i in range(len(tarihler)-1):
     aktif_v = [p for p in PARCALAR if p[0]==V and p[2] <= a < p[3]]
     if not aktif_d and not aktif_v: continue
     o = unary_union([p[4] for p in aktif_d]) if aktif_d else Polygon()
-    # aralıkları kapat (closing) → tek keskin gövde; sonra sadeleştir
+    # aralıkları kapat (closing) → tek keskin gövde; sadeleştir; kıyıya yapıştır
     o = o.buffer(0.03).buffer(-0.03).simplify(0.015, preserve_topology=True).buffer(0)
+    o = kiyiya_yapistir(o).simplify(0.004, preserve_topology=True).buffer(0)
     v = unary_union([p[4] for p in aktif_v]) if aktif_v else Polygon()
-    v = v.buffer(0).difference(o.buffer(0.01)).simplify(0.015, preserve_topology=True)
+    v = kiyiya_yapistir(v.buffer(0)).difference(o.buffer(0.01)) \
+        .simplify(0.008, preserve_topology=True)
     # dönem etiketi: bu tarihte başlayan parçanın adı (önce doğrudan katman)
     ad = onceki_ad
     for p in aktif_d + aktif_v:

@@ -105,12 +105,49 @@ harita.on("load", function () {
 
   haritaHazir = true;
   aktifDonem = -1;
+  // yakınlaşınca küçük şehir adları da görünsün
+  function zoomSinifi() {
+    document.getElementById("harita").classList.toggle("yakin", harita.getZoom() >= 5.2);
+  }
+  harita.on("zoom", zoomSinifi);
+  zoomSinifi();
   guncelle();
 });
 
 function bosVeri() { return { type: "FeatureCollection", features: [] }; }
 function tekVeri(geo) { return { type: "FeatureCollection",
   features: geo.coordinates.length ? [{ type: "Feature", properties: {}, geometry: geo }] : [] }; }
+
+// ---------- Şehir işaretleri (koordinat hassasiyetli; tarihe göre belirir/vurgulanır) ----------
+var sehirler = (window.SEHIRLER || []).map(function (s) {
+  var el = document.createElement("div");
+  el.className = "sehir";
+  el.innerHTML = '<span class="s-nokta"></span><span class="s-ad"></span>';
+  el.querySelector(".s-ad").textContent = (s.tur === "kale" ? "🏰 " : "") + s.ad;
+  return { s: s, el: el, ekli: false,
+           mk: new maplibregl.Marker({ element: el, anchor: "left", offset: [-5, 0] })
+                 .setLngLat([s.lon, s.lat]),
+           kayitlar: s.k.map(function (r) {
+             return { fi: gunIdx(r.f), ti: gunIdx(r.t), d: r.d, b: !!r.b };
+           }) };
+});
+
+function sehirGuncelle(t) {
+  if (!haritaHazir) return;
+  sehirler.forEach(function (m) {
+    var aktif = null;
+    for (var i = 0; i < m.kayitlar.length; i++) {
+      var r = m.kayitlar[i];
+      if (r.fi <= t && t < r.ti) { aktif = r; break; }
+    }
+    if (!aktif) {
+      if (m.ekli) { m.mk.remove(); m.ekli = false; }
+      return;
+    }
+    m.el.className = "sehir d" + aktif.d + (aktif.b ? " baskent" : "");
+    if (!m.ekli) { m.mk.addTo(harita); m.ekli = true; }
+  });
+}
 
 // ---------- Otomatik yakınlaştırma ----------
 var otoZoom = true;
@@ -261,6 +298,20 @@ function dizinDoldur(sekme) {
       satir(idxYazi(gunIdx(a.t)), a.ad + " — " + a.taraf, a.ozet,
             function () { dizinPencere.classList.add("gizli"); tarihAyarla(gunIdx(a.t)); });
     });
+  } else if (sekme === "sehirler") {
+    (window.SEHIRLER || []).forEach(function (s) {
+      var ilk = s.k[0];
+      var koord = s.lat.toFixed(3) + "K, " + s.lon.toFixed(3) + "D";
+      satir((s.tur === "kale" ? "🏰 " : "") + s.ad, koord,
+            idxYazi(gunIdx(ilk.f)) + " → " + idxYazi(gunIdx(s.k[s.k.length - 1].t)),
+            function () {
+              dizinPencere.classList.add("gizli");
+              otoZoom = false;
+              document.getElementById("btn-zoom").classList.add("pasif");
+              tarihAyarla(gunIdx(ilk.f));
+              harita.flyTo({ center: [s.lon, s.lat], zoom: 6.2, duration: 900 });
+            });
+    });
   } else {
     (window.SERILER || []).forEach(function (s) {
       var say = (window.SAVASLAR || []).filter(function (x) { return x.seri === s.id; }).length;
@@ -318,6 +369,7 @@ function guncelle() {
     }
     zoomUygula(d);
   }
+  sehirGuncelle(suanki);
   padisahGuncelle(suanki);
   olaylarGuncelle(suanki);
 }

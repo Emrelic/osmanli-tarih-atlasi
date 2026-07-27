@@ -272,6 +272,35 @@ body {
   color: #5c1020;
 }
 
+/* ---------- Şehir işaretleri ---------- */
+.sehir { display: flex; align-items: center; gap: 4px; pointer-events: none; }
+.sehir .s-nokta {
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: #2b1006;
+  border: 1.5px solid #f7f1e3;
+  box-shadow: 0 0 3px rgba(0,0,0,0.6);
+  flex: 0 0 auto;
+}
+.sehir .s-ad {
+  font-size: 11px;
+  color: #1d1006;
+  text-shadow: 0 0 3px #f7f1e3, 0 0 3px #f7f1e3, 0 0 3px #f7f1e3;
+  white-space: nowrap;
+}
+/* önem dereceleri */
+.sehir.d1 .s-ad { display: none; }               /* uzaktan sadece nokta */
+#harita.yakin .sehir.d1 .s-ad { display: inline; }
+.sehir.d2 .s-nokta { width: 9px; height: 9px; }
+.sehir.d2 .s-ad { font-size: 12px; font-weight: bold; }
+.sehir.d3 .s-nokta {
+  width: 12px; height: 12px;
+  background: var(--osmanli-kirmizi);
+  border-color: #ffd700;
+}
+.sehir.d3 .s-ad { font-size: 13.5px; font-weight: bold; color: #4d0713; }
+.sehir.baskent .s-ad::after { content: " ⭐"; font-size: 11px; }
+
 /* zaman barındaki oto-zoom düğmesi */
 #btn-zoom { width: auto !important; padding: 0 10px; font-size: 13px !important; }
 #btn-zoom.pasif { opacity: 0.45; }
