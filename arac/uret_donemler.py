@@ -61,13 +61,15 @@ print("  kara maskesi tamam")
 
 def kiyiya_yapistir(g):
     """Dönem geometrisini gerçek kıyıya oturt:
-    1) kıyıya 0.15° kadar yaklaşan yerlerde kıyı şeridini ekle (kıyıya uzat)
-    2) denize taşan kısımları kes
-    Karaya değmeyen şerit parçaları (sahipsiz adalar) eklenmez."""
+    1) çokgenin ZATEN önemli ölçüde örttüğü kıyı şeridi parçalarını ekle
+       (kıyıya uzat) — yalnızca dokunmak yetmez; aksi hâlde komşu kıyılara
+       ince 'dal' artıkları oluşur
+    2) denize taşan kısımları kes"""
     if g.is_empty: return g
     ek = KIYI_SERIDI.intersection(g.buffer(0.15)).buffer(0)
     parcalar = ek.geoms if isinstance(ek, MultiPolygon) else ([ek] if not ek.is_empty else [])
-    dokunan = [p for p in parcalar if p.intersects(g)]
+    dokunan = [p for p in parcalar
+               if p.intersects(g) and p.intersection(g).area > 0.25 * p.area]
     if dokunan:
         g = unary_union([g] + dokunan)
     return g.buffer(0).intersection(KARA).buffer(0)
