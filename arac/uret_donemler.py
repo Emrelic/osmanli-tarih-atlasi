@@ -86,6 +86,7 @@ CEZK    = box(-5.0, 27.0, 8.6, 38.2)
 TRBK    = box(10.8, 27.0, 24.8, 33.5)
 TUNK    = box(8.6, 29.5, 10.8, 38.2)
 MORAK   = Polygon([(20.9,36.2),(23.5,36.2),(23.5,37.5),(23.08,37.92),(22.95,38.2),(22.2,38.45),(20.9,38.5)])
+SELANIK_KES = box(22.7, 40.35, 23.15, 40.8)      # Selanik çevresi (1403-1430 Bizans/Venedik)
 YUN1832 = Polygon([(20.0,39.15),(23.35,39.4),(24.75,39.1),(24.75,36.0),(20.0,36.0)])
 
 # ---------------- Ana kesitler ----------------
@@ -130,7 +131,7 @@ D1302    = H([[28.9,40.75],[30.3,40.85],[31.0,40.5],[30.4,40.1],[29.4,40.1],[28.
 D1326    = H([[28.2,40.5],[29.6,40.5],[29.7,39.9],[29.0,39.7],[28.2,39.95]])
 D1331    = H([[29.2,40.65],[30.0,40.65],[30.0,40.25],[29.2,40.3]])
 D1337    = H([[29.5,41.2],[30.7,41.1],[30.6,40.6],[29.5,40.6]])
-D1345    = H([[26.1,40.4],[28.3,40.45],[28.3,39.4],[27.2,39.1],[26.5,39.4]])
+D1345    = H([[26.35,40.02],[26.8,40.32],[27.4,40.44],[28.3,40.45],[28.3,39.4],[27.2,39.1],[26.5,39.4]])
 D1354A   = H([[30.9,40.5],[33.0,40.5],[33.3,39.8],[32.5,39.2],[31.3,39.3],[30.9,39.9]])
 GELIBOLU = H([[26.0,40.65],[26.9,40.75],[27.0,40.35],[26.3,39.9],[25.9,40.2]])
 D1362T   = H([[26.7,41.5],[28.3,41.4],[28.2,40.9],[27.0,40.6],[26.4,40.6],[26.5,41.2]])
@@ -182,7 +183,9 @@ PARCALAR = [
  (D,"İzmit'in fethi",                           "1337-01-01","1402-07-28",D1337),
  (D,"Karesi Beyliği'nin ilhakı",                "1345-01-01","1402-07-28",D1345),
  (D,"Ankara'nın alınışı",                       "1354-08-01","1402-07-28",D1354A),
- (D,"Rumeli'ye geçiş: Gelibolu köprübaşı",      "1354-03-02","1402-07-28",GELIBOLU),
+ (D,"Rumeli'ye geçiş: Gelibolu köprübaşı",      "1354-03-02","1366-08-01",GELIBOLU),
+ # 1366-1376: Gelibolu, Savoylu Amadeo'nun Haçlı seferiyle Bizans'a geçti
+ (D,"Gelibolu'nun geri alınışı",                "1376-09-01","1402-07-28",GELIBOLU),
  (D,"Doğu Trakya'da ilerleyiş",                 "1362-06-01","1402-07-28",D1362T),
  (D,"Edirne'nin fethi",                         "1369-05-01","1402-07-28",D1369E),
  (D,"Filibe ve Zagra'nın fethi",                "1372-06-01","1402-07-28",D1372F),
@@ -203,9 +206,14 @@ PARCALAR = [
  (D,"Karaman'ın ilk ilhakı",                    "1397-07-01","1402-07-28",KARAMANH),
  (D,"Canik ve Sivas'ın katılışı",               "1398-07-01","1402-07-28",D1398CN),
  (D,"Malatya'nın alınışı",                      "1399-09-01","1402-07-28",D1399M),
- (D,"Fetret Devri: Rumeli",                     "1402-07-28","1425-06-01",RUMELI_F),
+ (D,"Fetret Devri: Rumeli",                     "1402-07-28","1403-06-01",RUMELI_F),
+ # 1403: Süleyman Çelebi antlaşmasıyla Selanik ve kıyılar Bizans'a iade edildi
+ (D,"Selanik'in Bizans'a iadesi",               "1403-06-01","1425-06-01",RUMELI_F.difference(SELANIK_KES)),
  (D,"Fetret Devri: Anadolu'da daralma",         "1402-07-28","1425-06-01",ANAD_F),
- (D,"Beyliklerin yeniden ilhakı ve toparlanış", "1425-06-01","1481-05-03",S["Y1400"]),
+ (D,"Beyliklerin yeniden ilhakı ve toparlanış", "1425-06-01","1430-03-29",S["Y1400"].difference(SELANIK_KES)),
+ (D,"Selanik'in kesin fethi",                   "1430-03-29","1481-05-03",S["Y1400"]),
+ # Sırbistan'ın ilk ilhakı (1444 Edirne-Segedin ile iade edildi)
+ (D,"Semendire'nin ilk alınışı",                "1439-08-27","1444-08-01",D1459S),
  (D,"Yanya'nın teslimi",                        "1430-10-09","1481-05-03",D1430Y),
  (D,"İstanbul'un Fethi — başkent İstanbul",     "1453-05-29","1481-05-03",D1453I),
  (D,"Atina'nın fethi",                          "1456-06-04","1481-05-03",D1456A),
