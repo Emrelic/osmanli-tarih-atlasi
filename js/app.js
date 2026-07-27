@@ -37,12 +37,41 @@ var BASLANGIC = gunIdx("1299-01-01");
 var BITIS     = gunIdx("1923-10-29");
 
 // ---------- Dönem verisi ----------
+// PETEK yapısı: her yerleşimin bölgesi bir kez tanımlanır; dönemler yalnızca
+// eklenen/çıkan petek indekslerini tutar (delta). Aktif set dönem dönem kurulur.
+var PETEKLER = window.PETEKLER || [];
 var donemler = window.DONEMLER.map(function (d) {
-  return { fi: gunIdx(d.f), ti: gunIdx(d.t), ad: d.ad, b: d.b, ao: d.ao, av: d.av,
-           o: { type: "MultiPolygon", coordinates: d.o },
-           v: { type: "MultiPolygon", coordinates: d.v },
-           z: d.z || null };          // Fetret Devri şehzade payları
+  return { fi: gunIdx(d.f), ti: gunIdx(d.t), ad: d.ad, b: d.b, ao: d.ao,
+           av: d.av || 0, e: d.e || [], c: d.c || [],
+           o: d.o ? { type: "MultiPolygon", coordinates: d.o } : null,
+           v: d.v ? { type: "MultiPolygon", coordinates: d.v } : null,
+           z: d.z || null };
 });
+
+// Her dönemin aktif petek listesini delta'lardan kur (bir kez, açılışta)
+(function () {
+  if (!PETEKLER.length) return;
+  var aktif = {};
+  donemler.forEach(function (d) {
+    d.c.forEach(function (i) { delete aktif[i]; });
+    d.e.forEach(function (i) { aktif[i] = 1; });
+    d.petekler = Object.keys(aktif).map(Number);
+  });
+})();
+
+// Aktif peteklerden GeoJSON kur
+function petekVerisi(d) {
+  if (!d.petekler) return bosVeri();
+  var fs = [];
+  d.petekler.forEach(function (i) {
+    var p = PETEKLER[i];
+    if (p && p.g && p.g.length) {
+      fs.push({ type: "Feature", properties: { ad: p.a },
+                geometry: { type: "MultiPolygon", coordinates: p.g } });
+    }
+  });
+  return { type: "FeatureCollection", features: fs };
+}
 function donemBul(t) {
   for (var i = 0; i < donemler.length; i++) {
     if (donemler[i].fi <= t && t < donemler[i].ti) return i;
@@ -88,8 +117,12 @@ harita.on("load", function () {
   harita.addSource("osmanli", { type: "geojson", data: bosVeri() });
   harita.addLayer({ id: "osmanli-dolgu", type: "fill", source: "osmanli",
     paint: { "fill-color": "#b3122f", "fill-opacity": 0.55 } });
+  // Petek modunda iç çizgiler görünmesin diye çizgi katmanı yok; dolgu kendi
+  // dış hattını fill-outline ile verir (aynı renk komşu petekte kaybolur).
   harita.addLayer({ id: "osmanli-cizgi", type: "line", source: "osmanli",
-    paint: { "line-color": "#4d0713", "line-width": 2.2 } });
+    paint: { "line-color": "#4d0713",
+             "line-width": window.PETEKLER ? 0.6 : 2.2,
+             "line-opacity": window.PETEKLER ? 0.35 : 1 } });
 
   // Fetret Devri şehzade payları — her şehzade kendi renginde
   harita.addSource("sehzade", { type: "geojson", data: bosVeri() });
@@ -184,7 +217,19 @@ function tekVeri(geo) { return { type: "FeatureCollection",
 // ÖNEMLİ: dış öğe MapLibre'nindir (konum sınıfları/transform'u oradadır) — ona
 // dokunulmaz. Vurgu sınıfları yalnızca iç öğeye (.sehir) uygulanır; aksi hâlde
 // işaretler konumunu kaybedip rastgele yerlere savrulur.
-var sehirler = (window.SEHIRLER || []).map(function (s) {
+// Harita işaretleri: YERLESIMLER (petek veri seti) varsa ondan, yoksa eski
+// SEHIRLER tablosundan beslenir. g:0 olanlar yalnızca petek içindir, çizilmez.
+var ISARET_KAYNAK = (window.YERLESIMLER && window.YERLESIMLER.length)
+  ? window.YERLESIMLER.filter(function (y) { return y.g > 0 && y.d && y.d.length; })
+      .map(function (y) {
+        return { ad: y.ad, tur: y.tur, lat: y.lat, lon: y.lon,
+                 k: y.d.map(function (dn) {
+                   return { f: dn.f, t: dn.t, d: y.g, b: y.g === 3, y: dn.y };
+                 }) };
+      })
+  : (window.SEHIRLER || []);
+
+var sehirler = ISARET_KAYNAK.map(function (s) {
   var dis = document.createElement("div");
   var ic = document.createElement("div");
   ic.className = "sehir";
@@ -459,7 +504,9 @@ function dizinDoldur(sekme) {
             function () { dizinPencere.classList.add("gizli"); tarihAyarla(gunIdx(a.t)); });
     });
   } else if (sekme === "sehirler") {
-    (window.SEHIRLER || []).forEach(function (s) {
+    (window.YERLESIMLER || window.SEHIRLER || []).map(function (y) {
+      return y.d ? { ad: y.ad, tur: y.tur, lat: y.lat, lon: y.lon, k: y.d } : y;
+    }).filter(function (s) { return s.k && s.k.length; }).forEach(function (s) {
       var ilk = s.k[0];
       var koord = s.lat.toFixed(3) + "K, " + s.lon.toFixed(3) + "D";
       satir((s.tur === "kale" ? "🏰 " : "") + s.ad, koord,
@@ -519,8 +566,8 @@ function guncelle() {
   if (haritaHazir && di !== aktifDonem) {
     aktifDonem = di;
     var d = donemler[di];
-    harita.getSource("osmanli").setData(tekVeri(d.o));
-    harita.getSource("vassal").setData(tekVeri(d.v));
+    harita.getSource("osmanli").setData(d.o ? tekVeri(d.o) : petekVerisi(d));
+    harita.getSource("vassal").setData(d.v ? tekVeri(d.v) : bosVeri());
     sehzadeGuncelle(d);
     donemEtiketi.textContent = d.ad;
     var alanEl = document.getElementById("alan-goster");
@@ -763,6 +810,34 @@ hizSec.addEventListener("change", function () {
 });
 olayHizSec.addEventListener("change", function () {
   if (zamanlayici) { oynatDurdur(); oynatDurdur(); }
+});
+
+// ---------- Bölge önayarları ----------
+// Seçilen bölgeye yakınlaşır; yakınlaşma otomatik zoom'u kapatır ki gezinti
+// serbest kalsın. Yakınlaşınca küçük yerleşimlerin adları da açılır.
+var BOLGELER = {
+  anadolu:   [[25.5, 35.5], [45.5, 42.5]],
+  rumeli:    [[18.5, 38.5], [29.5, 45.0]],
+  avrupa:    [[15.5, 44.0], [24.0, 49.5]],
+  ege:       [[23.0, 34.5], [29.5, 41.0]],
+  karadeniz: [[27.0, 43.5], [41.0, 49.0]],
+  kafkas:    [[38.5, 36.5], [51.0, 43.5]],
+  suriye:    [[34.0, 29.0], [49.0, 38.0]],
+  hicaz:     [[34.0, 12.0], [50.0, 30.0]],
+  misir:     [[24.0, 13.0], [40.0, 32.5]],
+  afrika:    [[-3.0, 27.0], [25.5, 38.0]]
+};
+document.getElementById("bolge").addEventListener("change", function () {
+  var b = BOLGELER[this.value];
+  if (!b) {
+    otoZoom = true;
+    document.getElementById("btn-zoom").classList.remove("pasif");
+    if (aktifDonem >= 0) zoomUygula(donemler[aktifDonem]);
+    return;
+  }
+  otoZoom = false;                       // bölgeye kilitlen, dönem değişince kaçma
+  document.getElementById("btn-zoom").classList.add("pasif");
+  harita.fitBounds(b, { padding: 40, duration: 850 });
 });
 
 // Tam ekran

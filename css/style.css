@@ -338,6 +338,22 @@ body {
 /* önem dereceleri */
 .sehir.d1 .s-ad { display: none; }               /* uzaktan sadece nokta */
 #harita.yakin .sehir.d1 .s-ad { display: inline; }
+/* Bölge seçici */
+#bolge-secici {
+  position: absolute;
+  top: 8px;
+  left: 50px;
+  z-index: 9;
+}
+#bolge {
+  background: rgba(247, 241, 227, 0.94);
+  border: 1px solid var(--altin);
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-size: 12.5px;
+  cursor: pointer;
+  max-width: 210px;
+}
 .sehir.d2 .s-nokta { width: 9px; height: 9px; }
 .sehir.d2 .s-ad { font-size: 12px; font-weight: bold; }
 .sehir.d3 .s-nokta {

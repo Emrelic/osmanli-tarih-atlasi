@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Osmanlı Tarih Atlası (1299–1923)</title>
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
-<link rel="stylesheet" href="css/style.css?v=r17">
+<link rel="stylesheet" href="css/style.css?v=r18">
 </head>
 <body>
 <header id="ustbar">
@@ -18,6 +18,22 @@
 <main id="govde">
   <div id="harita">
     <button id="btn-panel" title="Yan paneli gizle/göster (haritayı büyüt)">⇥ Panel</button>
+    <!-- Bölge önayarları: seçilen bölgeye yakınlaşır, oradaki yerleşimler açılır -->
+    <div id="bolge-secici">
+      <select id="bolge" title="Bölgeye yakınlaş">
+        <option value="">🌍 Tüm imparatorluk</option>
+        <option value="anadolu">Anadolu</option>
+        <option value="rumeli">Rumeli / Balkanlar</option>
+        <option value="avrupa">Orta Avrupa (Macaristan)</option>
+        <option value="ege">Ege ve adalar</option>
+        <option value="karadeniz">Karadeniz kuzeyi / Rus sınırı</option>
+        <option value="kafkas">Kafkasya ve İran sınırı</option>
+        <option value="suriye">Suriye ve Irak</option>
+        <option value="hicaz">Hicaz ve Yemen</option>
+        <option value="misir">Mısır ve Sudan</option>
+        <option value="afrika">Kuzey Afrika</option>
+      </select>
+    </div>
   </div>
 
   <aside id="yanpanel">
@@ -105,15 +121,16 @@
 </div>
 
 <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
-<script src="data/padisahlar.js?v=r17"></script>
-<script src="data/olaylar.js?v=r17"></script>
-<script src="data/olaylar_ek.js?v=r17"></script>
-<script src="data/olaylar_ek2.js?v=r17"></script>
-<script src="data/olaylar_ek3.js?v=r17"></script>
-<script src="data/kisiler.js?v=r17"></script>
-<script src="data/savaslar.js?v=r17"></script>
-<script src="data/sehirler.js?v=r17"></script>
-<script src="data/donemler.js?v=r17"></script>
-<script src="js/app.js?v=r17"></script>
+<script src="data/padisahlar.js?v=r18"></script>
+<script src="data/olaylar.js?v=r18"></script>
+<script src="data/olaylar_ek.js?v=r18"></script>
+<script src="data/olaylar_ek2.js?v=r18"></script>
+<script src="data/olaylar_ek3.js?v=r18"></script>
+<script src="data/kisiler.js?v=r18"></script>
+<script src="data/savaslar.js?v=r18"></script>
+<script src="data/yerlesimler.js?v=r18"></script>
+<script src="data/sehirler.js?v=r18"></script>
+<script src="data/donemler.js?v=r18"></script>
+<script src="js/app.js?v=r18"></script>
 </body>
 </html>
