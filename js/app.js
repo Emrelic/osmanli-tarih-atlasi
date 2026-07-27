@@ -368,6 +368,10 @@ function olaylarGuncelle(t) {
   if (sonVurgulanan < 0) { a = 0; b = olaylar.length - 1; }
   for (var i = a; i <= b; i++) olayDom[i].classList.toggle("gecmis", olaylar[i].gi <= t);
   if (sonVurgulanan >= 0) olayDom[sonVurgulanan].classList.remove("simdiki");
+  var sayacEl = document.getElementById("olay-sayac");
+  if (sayacEl) {
+    sayacEl.textContent = (yeni + 1) + " / " + olaylar.length + " başlık";
+  }
   if (yeni >= 0) {
     olayDom[yeni].classList.add("simdiki");
     var simdi = Date.now();
@@ -759,6 +763,16 @@ hizSec.addEventListener("change", function () {
 });
 olayHizSec.addEventListener("change", function () {
   if (zamanlayici) { oynatDurdur(); oynatDurdur(); }
+});
+
+// Tam ekran
+document.getElementById("btn-tamekran").addEventListener("click", function () {
+  if (document.fullscreenElement) document.exitFullscreen();
+  else document.documentElement.requestFullscreen();
+});
+document.addEventListener("fullscreenchange", function () {
+  document.getElementById("btn-tamekran").textContent = document.fullscreenElement ? "⤢" : "⛶";
+  setTimeout(function () { harita.resize(); }, 120);
 });
 
 // Yan paneli katlama (haritaya azami alan)

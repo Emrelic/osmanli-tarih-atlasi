@@ -5,33 +5,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Osmanlı Tarih Atlası (1299–1923)</title>
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
-<link rel="stylesheet" href="css/style.css?v=r15">
+<link rel="stylesheet" href="css/style.css?v=r16">
 </head>
 <body>
 <header id="ustbar">
-  <h1>🕌 Osmanlı Tarih Atlası <span class="alt">1299 – 1923</span></h1>
+  <h1>🕌 Osmanlı Tarih Atlası <span class="alt">1299–1923</span></h1>
   <button id="btn-dizin" title="Kişi, savaş ve antlaşma dizinleri">📚 Dizin</button>
+  <button id="btn-tamekran" title="Tam ekran (F11)">⛶</button>
   <div id="donem-etiketi"></div>
 </header>
 
 <main id="govde">
   <div id="harita">
     <button id="btn-panel" title="Yan paneli gizle/göster (haritayı büyüt)">⇥ Panel</button>
-    <!-- Olay-olay akışında beliren kayan bilgi paneli — harita genişliğini
-         daraltmaz, harita üzerinde yüzen bir katmandır (position: absolute). -->
-    <div id="olay-bilgi" class="gizli">
-      <button id="olay-bilgi-kapat">✕</button>
-      <div id="ob-ust">
-        <div id="ob-gorsel"></div>
-        <div id="ob-baslikalan">
-          <div id="ob-tarih"></div>
-          <div id="ob-baslik"></div>
-          <div id="ob-meta"></div>
-        </div>
-      </div>
-      <div id="ob-detay"></div>
-      <div id="ob-ozel"></div>
-    </div>
   </div>
 
   <aside id="yanpanel">
@@ -43,8 +29,25 @@
       </div>
     </section>
     <section id="olay-akisi">
-      <h2>📜 Tarih Kronolojisi (gün gün)</h2>
+      <h2>
+        <span>📜 Kronoloji</span>
+        <span id="olay-sayac"></span>
+      </h2>
       <div id="olay-listesi"></div>
+    </section>
+    <!-- Olay bilgi paneli: haritanın üzerinde değil, kronolojinin ALTINDA -->
+    <section id="olay-bilgi" class="gizli">
+      <button id="olay-bilgi-kapat" title="Kapat">✕</button>
+      <div id="ob-ust">
+        <div id="ob-gorsel"></div>
+        <div id="ob-baslikalan">
+          <div id="ob-tarih"></div>
+          <div id="ob-baslik"></div>
+          <div id="ob-meta"></div>
+        </div>
+      </div>
+      <div id="ob-detay"></div>
+      <div id="ob-ozel"></div>
     </section>
   </aside>
 </main>
@@ -102,15 +105,15 @@
 </div>
 
 <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
-<script src="data/padisahlar.js?v=r15"></script>
-<script src="data/olaylar.js?v=r15"></script>
-<script src="data/olaylar_ek.js?v=r15"></script>
-<script src="data/olaylar_ek2.js?v=r15"></script>
-<script src="data/olaylar_ek3.js?v=r15"></script>
-<script src="data/kisiler.js?v=r15"></script>
-<script src="data/savaslar.js?v=r15"></script>
-<script src="data/sehirler.js?v=r15"></script>
-<script src="data/donemler.js?v=r15"></script>
-<script src="js/app.js?v=r15"></script>
+<script src="data/padisahlar.js?v=r16"></script>
+<script src="data/olaylar.js?v=r16"></script>
+<script src="data/olaylar_ek.js?v=r16"></script>
+<script src="data/olaylar_ek2.js?v=r16"></script>
+<script src="data/olaylar_ek3.js?v=r16"></script>
+<script src="data/kisiler.js?v=r16"></script>
+<script src="data/savaslar.js?v=r16"></script>
+<script src="data/sehirler.js?v=r16"></script>
+<script src="data/donemler.js?v=r16"></script>
+<script src="js/app.js?v=r16"></script>
 </body>
 </html>
