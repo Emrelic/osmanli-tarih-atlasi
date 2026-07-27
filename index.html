@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Osmanlı Tarih Atlası (1299–1923)</title>
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header id="ustbar">
+  <h1>🕌 Osmanlı Tarih Atlası <span class="alt">1299 – 1923</span></h1>
+  <div id="donem-etiketi"></div>
+</header>
+
+<main id="govde">
+  <div id="harita"></div>
+
+  <aside id="yanpanel">
+    <section id="padisah-karti">
+      <div id="padisah-portre"></div>
+      <div id="padisah-bilgi">
+        <div id="padisah-ad">—</div>
+        <div id="padisah-saltanat"></div>
+      </div>
+    </section>
+    <section id="olay-akisi">
+      <h2>📜 Tarih Kronolojisi</h2>
+      <div id="olay-listesi"></div>
+    </section>
+  </aside>
+</main>
+
+<footer id="zamanbar">
+  <button id="btn-geri" title="Önceki olaya git">⏮</button>
+  <button id="btn-oynat" title="Oynat / Duraklat">▶</button>
+  <button id="btn-ileri" title="Sonraki olaya git">⏭</button>
+  <select id="hiz" title="Oynatma hızı">
+    <option value="2">Yavaş</option>
+    <option value="6" selected>Normal</option>
+    <option value="24">Hızlı</option>
+    <option value="120">Çok hızlı</option>
+  </select>
+  <input type="range" id="zaman" min="0" max="0" step="1">
+  <div id="tarih-goster">—</div>
+</footer>
+
+<div id="olay-detay" class="gizli">
+  <div id="olay-detay-kutu">
+    <button id="detay-kapat">✕</button>
+    <div id="detay-tarih"></div>
+    <h3 id="detay-baslik"></h3>
+    <div id="detay-meta"></div>
+    <p id="detay-metin"></p>
+    <a id="detay-kaynak" target="_blank" rel="noopener"></a>
+    <button id="detay-git">📍 Bu tarihe git</button>
+  </div>
+</div>
+
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="data/padisahlar.js"></script>
+<script src="data/olaylar.js"></script>
+<script src="data/sinirlar_detay.js"></script>
+<script src="data/sinirlar.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

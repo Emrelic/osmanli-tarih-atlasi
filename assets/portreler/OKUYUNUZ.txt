@@ -1,0 +1,13 @@
+PADİŞAH PORTRELERİ
+==================
+36 padişahın tamamının portresi bu klasördedir ve sitede otomatik gösterilir.
+Tümü Wikipedia/Wikimedia Commons üzerinden alınmış KAMU MALI (public domain)
+tablolar ve dönem fotoğraflarıdır. Görsel görsel kaynak listesi: KAYNAKLAR.txt
+
+Dosya adlandırması: data/padisahlar.js içindeki "id" alanı + ".jpg"
+(ör. suleyman1.jpg). Bir görseli beğenmezseniz aynı adla üzerine yazmanız
+yeterli; site tarafında başka değişiklik gerekmez. Görsel silinirse site hata
+vermez, padişahın baş harfli rozetini gösterir.
+
+Not: mehmed1 ve mehmed4 için Türkçe Wikipedia bilgi kutusunda tuğra (imza)
+kullanıldığından bu ikisinin portresi İngilizce Wikipedia'dan alınmıştır.
