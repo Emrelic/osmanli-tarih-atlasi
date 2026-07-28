@@ -85,7 +85,7 @@ BOYALAR = {
     "somali":     ("Somali sultanlıkları",   "#b5a06b"),
     "fas":        ("Fas",                    "#9e6b5b"),
     # --- Anadolu beylikleri (Osmanlı kuruluş coğrafyasının fetih öncesi sahipleri) ---
-    "karaman":    ("Karamanoğulları",         "#a0522d"),
+    "karaman":    ("Karamanoğulları",         "#4527a0"),
     "germiyan":   ("Germiyanoğulları",        "#8f6b3a"),
     "aydin":      ("Aydınoğulları",           "#4a8f7d"),
     "saruhan":    ("Saruhanoğulları",         "#6b8f4a"),
@@ -96,8 +96,8 @@ BOYALAR = {
     # Antalya bu tarihten sonra Hamîd değil TEKE toprağıdır.
     "teke":       ("Tekeoğulları",            "#b58f2d"),
     "candar":     ("Candaroğulları",          "#5b6b9e"),
-    "dulkadir":   ("Dulkadiroğulları",        "#9e5b5b"),
-    "ramazanoglu":("Ramazanoğulları",         "#8f5b6b"),
+    "dulkadir":   ("Dulkadiroğulları",        "#00838f"),
+    "ramazanoglu":("Ramazanoğulları",         "#33691e"),
     "karesi":     ("Karesioğulları",          "#6b9e5b"),
     "katalan":    ("Katalan Dukalığı (Atina-Neopatras)", "#9e8f3a"),
     # --- Fetret Devri (1402-1413): şehzade payları ---
@@ -107,10 +107,10 @@ BOYALAR = {
     # Renkler, aynı anda sahnede olan Anadolu beyliklerinin tonlarından
     # kasten uzak seçildi.
     "timurlu":         ("Timurlu idaresi",               "#8d6e63"),
-    "suleyman-celebi": ("Emîr Süleyman Çelebi (Rumeli)", "#c2185b"),
-    "isa-celebi":      ("İsa Çelebi (Bursa)",            "#e65100"),
-    "mehmed-celebi":   ("Çelebi Mehmed (Amasya)",        "#1a4d8f"),
-    "musa-celebi":     ("Musa Çelebi (Rumeli)",          "#6a1b9a"),
+    "suleyman-celebi": ("Emîr Süleyman Çelebi (Rumeli)", "#b71c1c"),
+    "isa-celebi":      ("İsa Çelebi (Bursa)",            "#e04b2a"),
+    "mehmed-celebi":   ("Çelebi Mehmed (Amasya)",        "#7f1734"),
+    "musa-celebi":     ("Musa Çelebi (Rumeli)",          "#d81b60"),
     "eflak":      ("Eflak Voyvodalığı",      "#7a9e6b"),
     "bogdan":     ("Boğdan Voyvodalığı",     "#6b9e8a"),
     "lusignan":   ("Kıbrıs Krallığı (Lüzinyan)", "#8a6ba0"),
@@ -119,9 +119,9 @@ BOYALAR = {
     # "Ankara civarında kimse yok" görüntüsü veriyordu.
     "ilhanli":    ("İlhanlı Devleti",         "#7a5ba0"),
     "eretna":     ("Eretna Beyliği",          "#3f8f6b"),
-    "burhaneddin":("Kadı Burhâneddin Devleti","#9e6b8a"),
+    "burhaneddin":("Kadı Burhâneddin Devleti","#455a64"),
     "artuklu":    ("Artukoğulları",           "#6b8a9e"),
-    "ahiler":     ("Ahi Birliği (Ankara)",    "#c9603a"),
+    "ahiler":     ("Ahi Birliği (Ankara)",    "#8f7d5b"),
     # --- kullanıcının sorduğu, haritada temsili olmayan beylikler ---
     "cobanogullari":  ("Çobanoğulları",        "#4a8f8f"),
     "pervane":        ("Pervâneoğulları",      "#3a6b9e"),
@@ -129,8 +129,8 @@ BOYALAR = {
     "inancogullari":  ("İnançoğulları",        "#5b4ab5"),
     "sahibata":       ("Sâhib Ataoğulları",    "#8f9e2d"),
     "taceddin":       ("Tâceddinoğulları",     "#2d8f4a"),
-    "mutahharten":    ("Erzincan Beyliği (Mutahharten)", "#c9548f"),
-    "hafsi":      ("Hafsîler (Tunus)",        "#a06b6b"),
+    "mutahharten":    ("Erzincan Beyliği (Mutahharten)", "#827717"),
+    "hafsi":      ("Hafsîler (Tunus)",        "#7d8f3a"),
     "zeyyani":    ("Zeyyânîler (Tilimsan)",   "#6ba0a0"),
     "atinadukaligi": ("Atina Dukalığı",       "#8a9e8a"),
 }

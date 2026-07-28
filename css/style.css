@@ -403,6 +403,52 @@ body {
 .savas-isaret.yenilgi .sv-ad { background: rgba(140, 15, 38, 0.85); }
 .savas-isaret.belirsiz .sv-ad { background: rgba(69, 90, 100, 0.85); }
 
+/* ---------- Olay türü simgeleri (kullanıcı isteği) ----------
+   meydan ⚔ · kuşatma ◎ (şehrin üstünde çember) · iç isyan 🔥 · deniz ⚓
+   Başarısız olanların simgesine kırmızı bir çarpı biner.                */
+.savas-isaret .sv-ikon { position: relative; display: inline-block; }
+
+/* Kuşatma: şehir yuvarlağının üstünde nabız gibi atan bir halka */
+.savas-isaret.tur-kusatma .sv-ikon {
+  font-size: 19px;
+  color: #b8860b;
+  animation: kusatmaNabiz 1.6s ease-in-out infinite;
+}
+@keyframes kusatmaNabiz {
+  0%, 100% { transform: scale(1);    opacity: 0.95; }
+  50%      { transform: scale(1.22); opacity: 0.65; }
+}
+
+/* İç isyan: titreşen ateş */
+.savas-isaret.tur-isyan .sv-ikon {
+  font-size: 17px;
+  animation: isyanAtes 0.9s ease-in-out infinite alternate;
+  transform-origin: 50% 90%;
+}
+@keyframes isyanAtes {
+  from { transform: scale(1)    rotate(-5deg); }
+  to   { transform: scale(1.15) rotate(5deg);  }
+}
+.savas-isaret.tur-isyan .sv-ad { background: rgba(191, 54, 12, 0.88); }
+
+/* Deniz muharebesi */
+.savas-isaret.tur-deniz .sv-ikon { font-size: 16px; color: #0d47a1; }
+.savas-isaret.tur-deniz .sv-ad   { background: rgba(13, 71, 161, 0.85); }
+
+/* Başarısızlık: simgenin üzerine çapraz kırmızı çarpı */
+.savas-isaret.basarisiz .sv-ikon::after {
+  content: "✕";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-weight: bold;
+  color: #d32f2f;
+  text-shadow: 0 0 3px #fff, 0 0 3px #fff;
+  animation: none;
+}
+
 /* ---------- Olay bilgi paneli — kronolojinin ALTINDA, haritayı kapatmaz ---------- */
 #olay-bilgi {
   position: relative;

@@ -335,15 +335,24 @@ function sehirGuncelle(t) {
 
 // ---------- Savaş yerleri (⚔) ve sefer okları ----------
 var SAVAS_PENCERE = 730;                     // muharebe işareti ~2 yıl görünür
+// Olay türüne göre simge (kullanıcı isteği):
+//   meydan muharebesi -> iki kılıç, kuşatma -> şehrin üstünde küçük çember,
+//   iç isyan -> ateş, deniz muharebesi -> çapa. Kuşatma/muharebe başarısızsa
+//   simgenin üstüne kırmızı bir çarpı biner.
+var SAVAS_TUR_SIMGE = { meydan: "⚔", kusatma: "◎", isyan: "🔥", deniz: "⚓" };
 var savasIsaretleri = (window.SAVASLAR || []).filter(function (s) { return s.lat; })
   .map(function (s) {
+    var tur = s.tur || "meydan";
     var dis = document.createElement("div");
     var ic = document.createElement("div");
-    ic.className = "savas-isaret " + (s.sonuc || "belirsiz");
-    ic.innerHTML = '<span class="sv-ikon">⚔</span><span class="sv-ad"></span>';
+    ic.className = "savas-isaret tur-" + tur + " " + (s.sonuc || "belirsiz");
+    ic.innerHTML = '<span class="sv-ikon"></span><span class="sv-ad"></span>';
+    ic.querySelector(".sv-ikon").textContent = SAVAS_TUR_SIMGE[tur] || "⚔";
     ic.querySelector(".sv-ad").textContent = s.ad;
+    // Başarısız kuşatma / kaybedilen muharebe: simgenin üzerine çarpı
+    if (s.sonuc === "yenilgi") ic.classList.add("basarisiz");
     dis.appendChild(ic);
-    return { gi: gunIdx(s.t), ekli: false,
+    return { gi: gunIdx(s.t), sure: (s.sure || SAVAS_PENCERE), ekli: false,
              mk: new maplibregl.Marker({ element: dis, anchor: "center" })
                    .setLngLat([s.lon, s.lat]) };
   });
@@ -351,7 +360,7 @@ var savasIsaretleri = (window.SAVASLAR || []).filter(function (s) { return s.lat
 function savasGuncelle(t) {
   if (!haritaHazir) return;
   savasIsaretleri.forEach(function (m) {
-    var goster = t >= m.gi && t < m.gi + SAVAS_PENCERE;
+    var goster = t >= m.gi && t < m.gi + m.sure;
     if (goster && !m.ekli) { m.mk.addTo(harita); m.ekli = true; }
     else if (!goster && m.ekli) { m.mk.remove(); m.ekli = false; }
   });
