@@ -59,6 +59,19 @@ var donemler = window.DONEMLER.map(function (d) {
   });
 })();
 
+// Bölge (k1/k2 merkez) sınırları — data/bolgeler.js. Her kayıt, merkeze bağlı
+// yerleşim peteklerinin birleşimi; yalnız merkezin Osmanlı aralığında çizilir.
+var bolgeler = (window.BOLGELER || []).map(function (b) {
+  return { fi: gunIdx(b.f), ti: gunIdx(b.t),
+           ft: { type: "Feature", properties: { ad: b.ad },
+                 geometry: { type: "MultiPolygon", coordinates: b.g } } };
+});
+function bolgeVerisi(t) {
+  return { type: "FeatureCollection",
+           features: bolgeler.filter(function (b) { return b.fi <= t && t < b.ti; })
+                             .map(function (b) { return b.ft; }) };
+}
+
 // Aktif peteklerden GeoJSON kur
 function petekVerisi(d) {
   if (!d.petekler) return bosVeri();
@@ -122,6 +135,12 @@ harita.on("load", function () {
   harita.addLayer({ id: "osmanli-cizgi", type: "line", source: "osmanli",
     paint: { "line-color": "#4d0713", "line-width": 1.8 } });
 
+  // Bölge (eyalet) iç sınırları: ince kesikli çizgi, yakınlaşınca görünür
+  harita.addSource("bolge", { type: "geojson", data: bosVeri() });
+  harita.addLayer({ id: "bolge-cizgi", type: "line", source: "bolge", minzoom: 5.2,
+    paint: { "line-color": "#5a3a24", "line-width": 0.9, "line-opacity": 0.5,
+             "line-dasharray": [2, 3] } });
+
   // Fetret Devri şehzade payları — her şehzade kendi renginde
   harita.addSource("sehzade", { type: "geojson", data: bosVeri() });
   harita.addLayer({ id: "sehzade-dolgu", type: "fill", source: "sehzade",
@@ -139,6 +158,7 @@ harita.on("load", function () {
   lejant.innerHTML =
     '<span><i style="background:#8e0b22"></i> Doğrudan Osmanlı toprağı</span>' +
     '<span><i style="background:#c96a4a"></i> Bağlı / özerk topraklar</span>' +
+    '<span><i style="background:none;border-top:2px dashed #5a3a24;height:0;align-self:center"></i> Bölge sınırı (yakınlaşınca)</span>' +
     '<span id="alan-goster"></span>';
   document.getElementById("harita").appendChild(lejant);
 
@@ -503,20 +523,35 @@ function dizinDoldur(sekme) {
             function () { dizinPencere.classList.add("gizli"); tarihAyarla(gunIdx(a.t)); });
     });
   } else if (sekme === "sehirler") {
-    (window.YERLESIMLER || window.SEHIRLER || []).map(function (y) {
-      return y.d ? { ad: y.ad, tur: y.tur, lat: y.lat, lon: y.lon, k: y.d } : y;
-    }).filter(function (s) { return s.k && s.k.length; }).forEach(function (s) {
-      var ilk = s.k[0];
-      var koord = s.lat.toFixed(3) + "K, " + s.lon.toFixed(3) + "D";
-      satir((s.tur === "kale" ? "🏰 " : "") + s.ad, koord,
-            idxYazi(gunIdx(ilk.f)) + " → " + idxYazi(gunIdx(s.k[s.k.length - 1].t)),
-            function () {
-              dizinPencere.classList.add("gizli");
-              otoZoom = false;
-              document.getElementById("btn-zoom").classList.add("pasif");
-              tarihAyarla(gunIdx(ilk.f));
-              harita.flyTo({ center: [s.lon, s.lat], zoom: 6.2, duration: 900 });
-            });
+    // 4 kademeli idari tasnif (yerlesimler.js "k" alanı; Osmanlı taksimatıyla birebir)
+    var KADEME_ADI = { 1:"1. Kademe — Payitahtlar",
+                       2:"2. Kademe — Eyalet / bölge merkezleri",
+                       3:"3. Kademe — Sancak merkezleri ve kaleler",
+                       4:"4. Kademe — Küçük birimler (kaza-karye)" };
+    var kgruplar = { 1:[], 2:[], 3:[], 4:[] };
+    (window.YERLESIMLER || []).forEach(function (y) {
+      var don = (y.d || []).concat(y.v || []);
+      if (!don.length || !y.k) return;   // komşular ve sahipsiz noktalar dizine girmez
+      kgruplar[y.k].push({ ad: y.ad, tur: y.tur, lat: y.lat, lon: y.lon, m: y.m, don: don });
+    });
+    [1, 2, 3, 4].forEach(function (kd) {
+      if (!kgruplar[kd].length) return;
+      baslik(KADEME_ADI[kd] + " (" + kgruplar[kd].length + ")");
+      kgruplar[kd].sort(function (a, b) { return a.ad.localeCompare(b.ad, "tr"); })
+      .forEach(function (s) {
+        var ilk = s.don.reduce(function (a, b) { return a.f < b.f ? a : b; });
+        var son = s.don.reduce(function (a, b) { return a.t > b.t ? a : b; });
+        var koord = s.lat.toFixed(3) + "K, " + s.lon.toFixed(3) + "D";
+        satir((s.tur === "kale" ? "🏰 " : "") + s.ad + (s.m ? " → " + s.m : ""), koord,
+              idxYazi(gunIdx(ilk.f)) + " → " + idxYazi(gunIdx(son.t)),
+              function () {
+                dizinPencere.classList.add("gizli");
+                otoZoom = false;
+                document.getElementById("btn-zoom").classList.add("pasif");
+                tarihAyarla(gunIdx(ilk.f));
+                harita.flyTo({ center: [s.lon, s.lat], zoom: 6.2, duration: 900 });
+              });
+      });
     });
   } else if (sekme === "devletler") {
     var DEVLET_TUR_ADI = { imparatorluk:"İmparatorluklar", sultanlik:"Sultanlıklar", devlet:"Devletler",
@@ -582,6 +617,7 @@ function guncelle() {
     var d = donemler[di];
     harita.getSource("osmanli").setData(d.o ? tekVeri(d.o) : petekVerisi(d));
     harita.getSource("vassal").setData(d.v ? tekVeri(d.v) : bosVeri());
+    harita.getSource("bolge").setData(bolgeVerisi(suanki));
     sehzadeGuncelle(d);
     donemEtiketi.textContent = d.ad;
     var alanEl = document.getElementById("alan-goster");

@@ -19,6 +19,14 @@ import json, os, sys, io, math, re
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 from shapely.geometry import shape, box, Polygon, MultiPolygon, Point, MultiPoint
 from shapely.ops import unary_union, voronoi_diagram, nearest_points
+from shapely.validation import make_valid
+
+def temiz(q):
+    """Geçersiz halkaları onarır; make_valid'in döndürebileceği çizgi artıklarını atar."""
+    if not q.is_valid: q = make_valid(q)
+    if q.geom_type == "GeometryCollection":
+        q = unary_union([p for p in q.geoms if p.geom_type in ("Polygon", "MultiPolygon")])
+    return q.buffer(0)
 
 BASEMAPS = r"C:\Users\emrem\AppData\Local\Temp\claude\C--Users-emrem-OneDrive-Belgeler-Projeler-Ranking\2ad1685f-dd0a-4c8c-8b9d-a89c216d56e6\scratchpad\basemaps"
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -33,6 +41,27 @@ KARA = unary_union([shape(f["geometry"]).buffer(0).intersection(BOLGE)
                     for f in _ne["features"] if shape(f["geometry"]).envelope.intersects(BOLGE)])
 KARA = KARA.buffer(0).simplify(0.004, preserve_topology=True).buffer(0)
 print("  tamam")
+
+# ---------------- Göller ----------------
+# Kural: iki yerleşim arasında göl varsa sınır göldür. Büyük göller kara
+# maskesinden çıkarılır → petekler göl kıyısında biter, göl doğal sınır olur
+# (Van, Urmiye, Tuz, Beyşehir, Ohri, İşkodra, Balaton...). delikleri_doldur
+# sonrası .intersection(KARA) gölleri yeniden oyduğu için deliğe dönüşmezler.
+print("Göller...")
+GOLLER = None
+try:
+    _gl = json.load(open(os.path.join(BASEMAPS, "ne_10m_lakes.geojson"), encoding="utf-8"))
+    _gs = []
+    for f in _gl["features"]:
+        g = shape(f["geometry"]).buffer(0)
+        if g.envelope.intersects(BOLGE) and g.area > 0.02:
+            g = g.intersection(BOLGE)
+            if not g.is_empty: _gs.append(g)
+    GOLLER = unary_union(_gs).buffer(0).simplify(0.01, preserve_topology=True).buffer(0)
+    KARA = KARA.difference(GOLLER).buffer(0)
+    print(f"  {len(_gs)} büyük göl kara maskesinden çıkarıldı")
+except Exception as e:
+    print("  göl verisi yok:", e)
 
 # ---------------- Nehir yatakları ----------------
 print("Nehir yatakları...")
@@ -91,9 +120,18 @@ _j = re.sub(r'([{,]\s*)([A-Za-zçğıöşüÇĞİÖŞÜ_]\w*)\s*:', r'\1"\2":', 
 YERLER = json.loads(_j)
 for y in YERLER:
     y.setdefault("v", [])          # tâbi/dolaylı idare dönemleri (bkz. aşağıda)
+    y.setdefault("k", 0)           # idari kademe (1 payitaht ... 4 küçük birim)
+    y.setdefault("m", None)        # bağlı olunan k1/k2 merkezin adı
 print(f"  {len(YERLER)} yerleşim ({sum(1 for y in YERLER if y['d'] or y['v'])} Osmanlı, "
       f"{sum(1 for y in YERLER if not (y['d'] or y['v']))} komşu, "
       f"{sum(1 for y in YERLER if y['v'])} tâbi dönemi olan)")
+
+# Kademe doğrulaması: her Osmanlı k3/k4 yerleşimi geçerli bir k1/k2 merkeze bağlı olmalı
+AD2IDX = {y["ad"]: i for i, y in enumerate(YERLER)}
+for y in YERLER:
+    if (y["d"] or y["v"]) and y["k"] in (3, 4):
+        if not y["m"] or y["m"] not in AD2IDX or YERLER[AD2IDX[y["m"]]]["k"] not in (1, 2):
+            print(f"  UYARI kademe: {y['ad']} (k:{y['k']}) geçerli bir k1/k2 merkeze bağlı değil")
 
 def gun(s):
     y, a, g = s.split("-")
@@ -170,10 +208,13 @@ def dogallastir(g, yasla=True, tur=2):
         if yasla: dis = dogal_hatta_yasla(sikla(dis))
         dis = chaikin(dis, tur)
         try:
-            yeni.append(Polygon(dis).buffer(0))
+            yeni.append(temiz(Polygon(dis)))
         except Exception:
-            yeni.append(p)
-    return unary_union(yeni).buffer(0)
+            yeni.append(temiz(p))
+    try:
+        return unary_union(yeni).buffer(0)
+    except Exception:
+        return unary_union([temiz(q) for q in yeni]).buffer(0)
 
 def delikleri_doldur(g):
     """Kuşatılmış boşluk bırakmaz: çevresi ele geçmiş alan (dağ bloğu, ova) da
@@ -242,6 +283,37 @@ def mp_koord(g):
             if len(cs) >= 4: halkalar.append(cs)
         if halkalar: out.append(halkalar)
     return out
+
+# ---------------- Bölge (2. kademe merkez) toplu sınırları ----------------
+# Kural 6: her k3/k4 yerleşim en yakın k1/k2 merkeze bağlıdır; merkez, üyelerinin
+# peteklerini toplayan daha büyük bir bölge sınırına sahiptir → data/bolgeler.js
+print("Bölge sınırları (k1/k2 merkezleri)...")
+_uyeler = {}
+for j, y in enumerate(YERLER):
+    if not (y["d"] or y["v"]) or not y["k"]: continue
+    hedef = y["m"] if y["m"] else (y["ad"] if y["k"] <= 2 else None)
+    if hedef is None: continue
+    _uyeler.setdefault(hedef, []).append(j)
+BOLGELER = []
+for ad in sorted(_uyeler):
+    mi = AD2IDX[ad]; my = YERLER[mi]
+    bg = unary_union([PETEK_D[j] for j in _uyeler[ad]]).buffer(0)
+    bg = delikleri_doldur(bg).intersection(KARA).buffer(0)
+    bg = bg.simplify(0.03, preserve_topology=True).buffer(0)
+    ara = my["d"] + my["v"]
+    if not ara or bg.is_empty: continue
+    BOLGELER.append({
+        "ad": ad, "k": my["k"], "lat": my["lat"], "lon": my["lon"],
+        "f": min(dn["f"] for dn in ara), "t": max(dn["t"] for dn in ara),
+        "uy": [YERLER[j]["ad"] for j in _uyeler[ad] if j != mi],
+        "g": mp_koord(bg)})
+_byol = os.path.join(KOK, "data", "bolgeler.js")
+_bj  = "// Otomatik üretildi — elle düzenlemeyin. Betik: arac/uret_petek.py\n"
+_bj += "// k1/k2 merkezlerin toplu bölge sınırları (üye peteklerinin birleşimi).\n"
+_bj += "// f/t: merkezin Osmanlı aralığı — çizgi haritada yalnız bu aralıkta görünür.\n"
+_bj += "window.BOLGELER = " + json.dumps(BOLGELER, ensure_ascii=False, separators=(",",":")) + ";\n"
+open(_byol, "w", encoding="utf-8").write(_bj)
+print(f"  {len(BOLGELER)} bölge → data/bolgeler.js ({os.path.getsize(_byol)//1024} KB)")
 
 # ---------------- Dönemleri kur ----------------
 print("Dönemler kuruluyor (delta yapısı)...")
