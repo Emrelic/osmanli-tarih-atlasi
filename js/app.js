@@ -518,6 +518,21 @@ function dizinDoldur(sekme) {
               harita.flyTo({ center: [s.lon, s.lat], zoom: 6.2, duration: 900 });
             });
     });
+  } else if (sekme === "devletler") {
+    var DEVLET_TUR_ADI = { imparatorluk:"İmparatorluklar", sultanlik:"Sultanlıklar", devlet:"Devletler",
+      hanlik:"Hanlıklar", krallik:"Krallıklar", cumhuriyet:"Cumhuriyetler", prenslik:"Prenslikler",
+      dukalik:"Dükalıklar", beylik:"Anadolu Beylikleri", ocaklik:"Kuzey Afrika Ocakları",
+      hanedanlik:"Özerk Hanedanlıklar", "gecici-isgal":"Geçici İşgaller / Statü Değişimleri" };
+    var dgruplar = {};
+    (window.DEVLETLER || []).forEach(function (d) { (dgruplar[d.tur] = dgruplar[d.tur] || []).push(d); });
+    Object.keys(DEVLET_TUR_ADI).forEach(function (tur) {
+      if (!dgruplar[tur]) return;
+      baslik(DEVLET_TUR_ADI[tur] + " (" + dgruplar[tur].length + ")");
+      dgruplar[tur].forEach(function (d) {
+        satir(d.ad, d.baskent || "", (d.f || "") + " → " + (d.t || ""),
+              function () { dizinPencere.classList.add("gizli"); tarihAyarla(gunIdx(d.f)); });
+      });
+    });
   } else {
     (window.SERILER || []).forEach(function (s) {
       var say = (window.SAVASLAR || []).filter(function (x) { return x.seri === s.id; }).length;
