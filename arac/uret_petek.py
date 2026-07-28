@@ -78,6 +78,9 @@ BOYALAR = {
     "umman":      ("Umman",                  "#5b9e8f"),
     "suud":       ("Suûdî / Vehhâbî",        "#8f9e5b"),
     "sammar":     ("Şammar (Hâil)",          "#a0885b"),
+    # Lahsa 1670'te Benî Hâlid'e kaybedildi, 1795'te Suûî́lere geçti; arada
+    # hiçbir sahip yazılı olmadığı için bölge haritada boş kalıyordu.
+    "benihalid":  ("Benî Hâlid Emirliği (Lahsa)", "#8a9440"),
     "hicaz":      ("Hicaz Krallığı",         "#9e8a5b"),
     "funj":       ("Func (Sennâr) Sultanlığı","#7d6b4a"),
     "habesistan": ("Habeşistan",             "#7d5b3a"),
