@@ -156,20 +156,46 @@ BUYUK = {"Danube","Duna","Dunav","Sava","Drava","Tisza","Tisa","Morava","Dnieste
          "Dnipro","Dnieper","Prut","Southern Bug","Don","Kuban","Firat","Al Furat",
          "Euphrates","Dijlah","Tigris","Murat","Kura","Aras","Nile","Bahr el Nil",
          "Maritsa","Meric","Vardar","Struma","Sakarya","Kizilirmak","Yesilirmak",
-         "Seyhan","Ceyhan","Jordan","Orontes","Buyuk Menderes","Gediz"}
+         "Seyhan","Ceyhan","Jordan","Orontes","Buyuk Menderes","Gediz",
+         # --- Anadolu beylik sınırlarını taşıyan akarsular (kullanıcı talebi:
+         # sınırlar cetvelle değil coğrafyayla çizilsin). Natural Earth'te adı
+         # geçmeyenler sessizce atlanır, fazladan isim zarar vermez. ---
+         "Kucuk Menderes","Kücük Menderes","Menderes","Maeander","Meander",
+         "Bakircay","Caicus","Susurluk","Simav","Kocacay",
+         "Porsuk","Aksu","Kopru","Koprucay","Dalaman","Esen","Xanthos",
+         "Goksu","Calycadnus","Coruh","Kelkit","Devrez","Filyos","Yenice",
+         "Buyuk Zap","Great Zab","Kucuk Zab","Little Zab","Habur","Khabur",
+         "Balikh","Asi","Berdan","Tarsus","Manavgat","Bartin","Gonen","Granicus"}
+def _ad_sadelestir(s):
+    """Nehir adlarını karşılaştırılabilir hâle getirir. Natural Earth dosyasındaki
+    Türkçe adlar bozuk kodlanmış ('Byk Menderes', 'Kiz?lirmak'); harfi harfine
+    karşılaştırma yüzünden Büyük Menderes ve Kızılırmak gibi iki büyük sınır
+    nehri sessizce devre dışı kalıyordu. Alfabe dışı her şey atılıp küçük harfe
+    indirilerek eşleşme sağlanır."""
+    return "".join(c for c in s.lower() if c.isalpha())
+
+BUYUK_SADE = {_ad_sadelestir(b) for b in BUYUK}
+# Bozuk kodlanmış hâlleri de tanı (ü/ı düşmüş varyantlar)
+BUYUK_SADE |= {"bykmenderes", "kizlirmak", "kiziirmak", "kckmenderes",
+               "yesiirmak", "bakiray", "kprüay", "kopruay", "gksu"}
+
 NEHIRLER = []
+_bulunan = set()
 try:
     _rv = json.load(open(os.path.join(BASEMAPS, "ne_10m_rivers.geojson"), encoding="utf-8"))
     for f in _rv["features"]:
         pr = f["properties"]
-        if (pr.get("name") or pr.get("name_en") or "") not in BUYUK: continue
+        _ad = pr.get("name") or pr.get("name_en") or ""
+        if _ad_sadelestir(_ad) not in BUYUK_SADE: continue
         g = shape(f["geometry"])
-        if g.envelope.intersects(BOLGE): NEHIRLER.append(g.intersection(BOLGE))
+        if g.envelope.intersects(BOLGE):
+            NEHIRLER.append(g.intersection(BOLGE)); _bulunan.add(_ad)
     NEHIRLER = [n for n in NEHIRLER if not n.is_empty]
 except Exception as e:
     print("  nehir verisi yok:", e)
 NEHIR_HAT = unary_union(NEHIRLER) if NEHIRLER else None
-print(f"  {len(NEHIRLER)} nehir")
+print(f"  {len(NEHIRLER)} nehir parçası — {len(_bulunan)} adlı akarsu: "
+      + ", ".join(sorted(_bulunan)))
 
 # ---------------- Dağ sırtları ----------------
 # İki şehir arasında dağ varsa sınır dağın sırtından geçer. Natural Earth dağ
@@ -307,6 +333,17 @@ def dogallastir(g, yasla=True, tur=2):
     except Exception:
         return unary_union([temiz(q) for q in yeni]).buffer(0)
 
+# Yabancı devlet gövdelerinin sadeleştirme toleransı (derece). Dosya boyutunu
+# dengeler; kıyı çizgisine DOKUNMAZ çünkü sadeleştirme kara maskesiyle
+# kesişimden ÖNCE uygulanır ve komşularla boşluk kalmaması için tolerans/2
+# kadar dışa taşırma yapılır.
+# Atlasın başlangıç tarihi. TDV'ye göre Ertuğrul Gazi 680 (1281-82) yılında
+# vefat etti ve Osman Bey beyliğe geçti; ilk askerî harekât 1285 Kulacahisar,
+# ilk şehir fethi 1288 Karacahisar. Bu yüzden epok 1299 değil 1281.
+EPOK = "1281-01-01"
+
+SADE_TOL = 0.012
+
 def kapat(g, yaricap=0.15):
     """Morfolojik kapama: aralarında yaricap*2'den (≈33 km) daha az boşluk olan
     ayrı parçaları birleştirir. Aynı çekirdek beyliğin parçası olan komşu
@@ -354,8 +391,8 @@ tarihler = set()
 for y in YERLER:
     for dn in y["d"] + y["v"]:
         tarihler.add(dn["f"]); tarihler.add(dn["t"])
-tarihler = sorted(t for t in tarihler if "1299-01-01" <= t <= "1923-11-01")
-if tarihler[0] != "1299-01-01": tarihler.insert(0, "1299-01-01")
+tarihler = sorted(t for t in tarihler if EPOK <= t <= "1923-11-01")
+if tarihler[0] != EPOK: tarihler.insert(0, EPOK)
 if tarihler[-1] != "1923-11-01": tarihler.append("1923-11-01")
 print(f"Kırılma tarihi: {len(tarihler)}")
 
@@ -434,9 +471,9 @@ for did, (dad, renk) in BOYALAR.items():
             if sp["d"] == did: ts.add(sp["f"]); ts.add(sp["t"])
         for dn in YERLER[j]["d"] + YERLER[j]["v"]:
             ts.add(dn["f"]); ts.add(dn["t"])
-    ts = sorted(t for t in ts if "1299-01-01" <= t <= "1923-11-01")
+    ts = sorted(t for t in ts if EPOK <= t <= "1923-11-01")
     if not ts: continue
-    if ts[0] != "1299-01-01": ts.insert(0, "1299-01-01")
+    if ts[0] != EPOK: ts.insert(0, EPOK)
     if ts[-1] != "1923-11-01": ts.append("1923-11-01")
     dnm = []; onceki = None
     for i in range(len(ts) - 1):
@@ -450,11 +487,24 @@ for did, (dad, renk) in BOYALAR.items():
         onceki = aktif
         if not aktif: continue
         g = unary_union([PETEK_D[j] for j in aktif]).buffer(0)
-        g = delikleri_doldur(kapat(g)).intersection(KARA).buffer(0)
-        # Küçük tolerans: komşu devletlerin PAYLAŞTIĞI sınır aynı petek
-        # hücrelerinden türediği için sadeleştirme az olursa iki taraf da
-        # sınıra yakın kalır (büyük tolerans görünür boşluk/çakışma yaratıyordu).
-        g = g.simplify(0.012, preserve_topology=True).buffer(0)
+        g = delikleri_doldur(kapat(g))
+        # --- SIRALAMA KRİTİK (kullanıcı tespiti) ---
+        # 1) Sadeleştirme KIYI KESİMİNDEN ÖNCE yapılır. Önceden tam tersiydi:
+        #    KARA ile kesişim alındıktan sonra sadeleştirilince körfezler,
+        #    yarımadalar ve koylar düzleşiyor, sınır kıyı çizgisiyle örtüşmüyordu.
+        g = g.simplify(SADE_TOL, preserve_topology=True).buffer(0)
+        # 2) Her devlet kendi sınırını bağımsız sadeleştirdiği için komşu iki
+        #    devletin PAYLAŞTIĞI hat birbirinden en çok tolerans kadar sapabilir
+        #    ve arada beyaz kılcal boşluk kalırdı. Toleransın yarısı kadar dışa
+        #    taşırarak komşuların boşluk yerine hafifçe ÖRTÜŞMESİNİ sağlıyoruz;
+        #    örtüşme görünmez, boşluk görünürdü.
+        # join_style=2 (mitre) + resolution=1: yuvarlatılmış köşe yerine keskin
+        # köşe üretir. Varsayılan yuvarlak birleştirme her köşeyi onlarca
+        # parçalı yaya çeviriyor ve dosyayı iki katına çıkarıyordu (7 → 14 MB).
+        g = g.buffer(SADE_TOL / 2, resolution=1, join_style=2, mitre_limit=2.0).buffer(0)
+        # 3) Kıyı en son kesilir: deniz sınırı artık doğrudan KARA maskesinden
+        #    gelir, yani gerçek girinti-çıkıntıya birebir oturur.
+        g = g.intersection(KARA).buffer(0)
         if g.is_empty: continue
         rp = g.representative_point()
         dnm.append({"f": a, "t": b, "g": mp_koord(g),

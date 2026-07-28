@@ -33,7 +33,7 @@ function gunMetniIdx(gun, varsayilan) {
   return varsayilan;
 }
 
-var BASLANGIC = gunIdx("1299-01-01");
+var BASLANGIC = gunIdx("1281-01-01");
 var BITIS     = gunIdx("1923-10-29");
 
 // ---------- Dönem verisi ----------
