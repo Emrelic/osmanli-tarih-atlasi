@@ -81,6 +81,18 @@ BOYALAR = {
     "adal":       ("Adal / Harar",           "#a08f5b"),
     "somali":     ("Somali sultanlıkları",   "#b5a06b"),
     "fas":        ("Fas",                    "#9e6b5b"),
+    # --- Anadolu beylikleri (Osmanlı kuruluş coğrafyasının fetih öncesi sahipleri) ---
+    "karaman":    ("Karamanoğulları",         "#a0522d"),
+    "germiyan":   ("Germiyanoğulları",        "#8f6b3a"),
+    "aydin":      ("Aydınoğulları",           "#4a8f7d"),
+    "saruhan":    ("Saruhanoğulları",         "#6b8f4a"),
+    "mentese":    ("Menteşeoğulları",         "#3a7d8f"),
+    "hamid":      ("Hamîdoğulları",           "#8f7d3a"),
+    "candar":     ("Candaroğulları",          "#5b6b9e"),
+    "dulkadir":   ("Dulkadiroğulları",        "#9e5b5b"),
+    "ramazanoglu":("Ramazanoğulları",         "#8f5b6b"),
+    "karesi":     ("Karesioğulları",          "#6b9e5b"),
+    "katalan":    ("Katalan Dukalığı (Atina-Neopatras)", "#9e8f3a"),
 }
 R_DUNYA = 6371.0088
 
@@ -403,7 +415,10 @@ for did, (dad, renk) in BOYALAR.items():
         if not aktif: continue
         g = unary_union([PETEK_D[j] for j in aktif]).buffer(0)
         g = delikleri_doldur(g).intersection(KARA).buffer(0)
-        g = g.simplify(0.05, preserve_topology=True).buffer(0)
+        # Küçük tolerans: komşu devletlerin PAYLAŞTIĞI sınır aynı petek
+        # hücrelerinden türediği için sadeleştirme az olursa iki taraf da
+        # sınıra yakın kalır (büyük tolerans görünür boşluk/çakışma yaratıyordu).
+        g = g.simplify(0.012, preserve_topology=True).buffer(0)
         if g.is_empty: continue
         rp = g.representative_point()
         dnm.append({"f": a, "t": b, "g": mp_koord(g),
