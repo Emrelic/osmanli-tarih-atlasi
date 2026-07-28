@@ -89,8 +89,11 @@ _gövde = _gövde[:_gövde.rindex("]") + 1]
 # JS nesne gösterimini JSON'a çevir: anahtarları tırnakla (dizgi içindekilere dokunma)
 _j = re.sub(r'([{,]\s*)([A-Za-zçğıöşüÇĞİÖŞÜ_]\w*)\s*:', r'\1"\2":', _gövde)
 YERLER = json.loads(_j)
-print(f"  {len(YERLER)} yerleşim ({sum(1 for y in YERLER if y['d'])} Osmanlı, "
-      f"{sum(1 for y in YERLER if not y['d'])} komşu)")
+for y in YERLER:
+    y.setdefault("v", [])          # tâbi/dolaylı idare dönemleri (bkz. aşağıda)
+print(f"  {len(YERLER)} yerleşim ({sum(1 for y in YERLER if y['d'] or y['v'])} Osmanlı, "
+      f"{sum(1 for y in YERLER if not (y['d'] or y['v']))} komşu, "
+      f"{sum(1 for y in YERLER if y['v'])} tâbi dönemi olan)")
 
 def gun(s):
     y, a, g = s.split("-")
@@ -193,7 +196,8 @@ for i, h in enumerate(PETEK):
     ham = h.intersection(KARA).buffer(0)
     yeni = ham
     if not ham.is_empty:
-        yeni = dogallastir(ham, yasla=bool(YERLER[i]["d"])).intersection(KARA).buffer(0)
+        osmanli = bool(YERLER[i]["d"] or YERLER[i]["v"])
+        yeni = dogallastir(ham, yasla=osmanli).intersection(KARA).buffer(0)
         # Doğallaştırma yerleşimi kendi peteğinin dışında bırakmamalı:
         # bırakıyorsa ham petekle birleştirilir (nehir yaslaması kenarı çekmiş olur).
         nk = Point(YERLER[i]["lon"], YERLER[i]["lat"])
@@ -205,7 +209,7 @@ print("  tamam")
 # ---------------- Zaman çizelgesi: kırılma tarihleri ----------------
 tarihler = set()
 for y in YERLER:
-    for dn in y["d"]:
+    for dn in y["d"] + y["v"]:
         tarihler.add(dn["f"]); tarihler.add(dn["t"])
 tarihler = sorted(t for t in tarihler if "1299-01-01" <= t <= "1923-11-01")
 if tarihler[0] != "1299-01-01": tarihler.insert(0, "1299-01-01")
@@ -241,40 +245,65 @@ def mp_koord(g):
 
 # ---------------- Dönemleri kur ----------------
 print("Dönemler kuruluyor (delta yapısı)...")
+# İki katman:
+#   DOĞRUDAN (o)  : merkezden yönetilen toprak — koyu kırmızı
+#   TÂBİ     (v)  : hâkimiyetin dolaylı olduğu toprak (muhtar valilik, tâbi
+#                   beylik, fiilî işgal) — bir ton açık. Bir yerleşim aynı anda
+#                   iki listede de görünüyorsa TÂBİ kazanır; çünkü "v" doğrudan
+#                   idarenin askıya alındığı aralığı bildirir (ör. Suriye
+#                   1832-1841 Kavalalı İbrâhim Paşa'nın elinde).
 donemler = []
-onceki_aktif = None
+onceki_aktif = None      # işaret/marker için: doğrudan + tâbi hepsi
+onceki_anahtar = None    # geometri için: (doğrudan, tâbi) ikilisi
 for i in range(len(tarihler) - 1):
     a, b = tarihler[i], tarihler[i+1]
-    aktif = frozenset(j for j, y in enumerate(YERLER)
-                      if any(dn["f"] <= a < dn["t"] for dn in y["d"]))
+    tabi = frozenset(j for j, y in enumerate(YERLER)
+                     if any(dn["f"] <= a < dn["t"] for dn in y["v"]))
+    dogrudan = frozenset(j for j, y in enumerate(YERLER)
+                         if any(dn["f"] <= a < dn["t"] for dn in y["d"])) - tabi
+    aktif = dogrudan | tabi
     if not aktif:
         continue
-    if aktif == onceki_aktif and donemler:      # sahiplik değişmediyse dönemi uzat
+    anahtar = (dogrudan, tabi)
+    if anahtar == onceki_anahtar and donemler:  # hiçbir şey değişmediyse dönemi uzat
         donemler[-1]["t"] = b
         continue
 
     giren = [YERLER[j]["ad"] for j, y in enumerate(YERLER)
-             if any(dn["f"] == a for dn in y["d"])]
+             if any(dn["f"] == a for dn in y["d"] + y["v"])]
     cikan = [YERLER[j]["ad"] for j, y in enumerate(YERLER)
-             if any(dn["t"] == a for dn in y["d"])]
+             if any(dn["t"] == a for dn in y["d"] + y["v"])]
     if giren:   ad = "Katılım: " + ", ".join(giren[:3]) + ("…" if len(giren) > 3 else "")
     elif cikan: ad = "Kayıp: " + ", ".join(cikan[:3]) + ("…" if len(cikan) > 3 else "")
     else:       ad = donemler[-1]["ad"] if donemler else "—"
 
-    g = unary_union([PETEK_D[j] for j in aktif]).buffer(0)
+    gt = unary_union([PETEK_D[j] for j in tabi]).buffer(0) if tabi else None
+    if gt is not None:
+        gt = delikleri_doldur(gt).intersection(KARA).buffer(0)
+    g = unary_union([PETEK_D[j] for j in dogrudan]).buffer(0)
     g = delikleri_doldur(g).intersection(KARA).buffer(0)
-    x0, y0, x1, y1 = g.bounds
+    # Tâbi bölge doğrudan gövdenin içinden çıkarılır; yoksa delik doldurma
+    # Suriye'yi/Mısır'ı yutar ve iki katman üst üste biner.
+    if gt is not None and not gt.is_empty:
+        g = g.difference(gt).buffer(0)
+    kaplam = unary_union([g, gt]) if gt is not None else g
+    x0, y0, x1, y1 = kaplam.bounds
     # Geometri gönderilmez; yalnızca aktif petek indeksleri (delta) ve özetler.
     ekle = sorted(aktif - onceki_aktif) if onceki_aktif else sorted(aktif)
     cik  = sorted(onceki_aktif - aktif) if onceki_aktif else []
     # Birleşik dış hat: petekler tek gövde olarak çizilir, aradaki petek
     # sınırları görünmez. Sadeleştirme ile dosya boyutu dengelenir.
     dis = g.simplify(0.022, preserve_topology=True).buffer(0)
-    donemler.append({"f": a, "t": b, "ad": ad,
-                     "b": [round(x0,2), round(y0,2), round(x1,2), round(y1,2)],
-                     "ao": alan_km2(g), "e": ekle, "c": cik,
-                     "o": mp_koord(dis)})
+    kayit = {"f": a, "t": b, "ad": ad,
+             "b": [round(x0,2), round(y0,2), round(x1,2), round(y1,2)],
+             "ao": alan_km2(g), "e": ekle, "c": cik,
+             "o": mp_koord(dis)}
+    if gt is not None and not gt.is_empty:
+        kayit["av"] = alan_km2(gt)
+        kayit["v"]  = mp_koord(gt.simplify(0.03, preserve_topology=True).buffer(0))
+    donemler.append(kayit)
     onceki_aktif = aktif
+    onceki_anahtar = anahtar
 
 # Petek geometrileri bir kez yazılır; dönemler yalnızca indeks tutar (21 MB → ~4 MB)
 # Petek geometrileri artık gönderilmiyor; birleşik dış gövde yeterli (boyut)
@@ -293,7 +322,7 @@ print(f"Dosya boyutu: {os.path.getsize(CIKTI)//1024} KB")
 # ---------------- Doğrulama ----------------
 hata = 0
 for j, y in enumerate(YERLER):
-    if not y["d"]: continue
+    if not (y["d"] or y["v"]): continue
     if PETEK_D[j].is_empty:
         print(f"  BOŞ PETEK: {y['ad']}"); hata += 1; continue
     if not PETEK_D[j].buffer(0.08).contains(Point(y["lon"], y["lat"])):
@@ -301,3 +330,8 @@ for j, y in enumerate(YERLER):
 print("Doğrulama:", "tüm yerleşimlerin peteği geçerli ✓" if not hata else f"{hata} uyumsuzluk")
 for d in donemler[:3] + donemler[-3:]:
     print(f"  {d['f']} → {d['t']}  {d['ao']/1e6:5.2f} mn km²  {d['ad'][:44]}")
+print("Tâbi katmanlı dönem:", sum(1 for d in donemler if d.get("v")))
+for d in donemler:
+    if "1830-01-01" <= d["f"] <= "1842-12-31":
+        print(f"  {d['f']} → {d['t']}  doğrudan {d['ao']/1e6:4.2f} + tâbi "
+              f"{d.get('av',0)/1e6:4.2f} mn km²  {d['ad'][:46]}")

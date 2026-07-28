@@ -15,6 +15,12 @@
 //   d    : Osmanlı hâkimiyet dönemleri [{f: giriş, t: çıkış, y: yöntem}]
 //          y: savas | kusatma | antlasma | vassal | ilhak
 //          Boş dizi [] → hiç Osmanlı olmadı (komşu; petek sınırını belirler)
+//   v    : TÂBİ / DOLAYLI idare dönemleri [{f, t, k: kimin elinde}] — isteğe bağlı.
+//          Hukuken Osmanlı toprağı sayıldığı hâlde merkezden yönetilmeyen
+//          aralıklar: muhtar valilik, tâbi beylik, fiilî işgal. Haritada bir ton
+//          AÇIK kırmızıyla çizilir ve alan hesabında ayrı gösterilir.
+//          Aynı tarihte hem d hem v varsa v kazanır (doğrudan idare askıdadır).
+//          Örn. Mısır 1805-1914 Kavalalı hanedanı; Suriye 1832-1841 İbrâhim Paşa.
 // El değiştirmeler birden çok kayıtla gösterilir (ör. Belgrad 1521-1717, 1739-1867).
 // ============================================================================
 window.YERLESIMLER = [
@@ -30,7 +36,10 @@ window.YERLESIMLER = [
 { ad:"Çanakkale", tur:"liman", lat:40.147, lon:26.409, g:1, d:[{f:"1345-01-01",t:"1923-10-29",y:"ilhak"}] },
 { ad:"Bergama", tur:"sehir", lat:39.121, lon:27.180, g:0, d:[{f:"1345-01-01",t:"1923-10-29"}] },
 { ad:"Ankara", tur:"sehir", lat:39.933, lon:32.860, g:3, d:[{f:"1354-08-01",t:"1402-07-28",y:"antlasma"},{f:"1413-07-05",t:"1923-10-29"}] },
-{ ad:"Kütahya", tur:"sehir", lat:39.424, lon:29.983, g:1, d:[{f:"1381-01-01",t:"1402-07-28",y:"antlasma"},{f:"1429-02-01",t:"1923-10-29",y:"antlasma"}] },
+// Kütahya: Konya bozgunundan sonra İbrâhim Paşa'nın ordusu Şubat 1833'te buraya
+// kadar geldi; Bâbıâli ile anlaşma da burada yapıldı (Kütahya Sözleşmesi).
+{ ad:"Kütahya", tur:"sehir", lat:39.424, lon:29.983, g:1, d:[{f:"1381-01-01",t:"1402-07-28",y:"antlasma"},{f:"1429-02-01",t:"1923-10-29",y:"antlasma"}],
+    v:[{f:"1833-02-02",t:"1833-06-30",k:"Mısır ordusu (işgal)"}] },
 { ad:"Afyon", tur:"sehir", lat:38.757, lon:30.539, g:0, d:[{f:"1381-01-01",t:"1402-07-28"},{f:"1429-02-01",t:"1923-10-29"}] },
 { ad:"Isparta", tur:"sehir", lat:37.765, lon:30.554, g:0, d:[{f:"1381-06-01",t:"1402-07-28"},{f:"1425-06-01",t:"1923-10-29"}] },
 { ad:"Manisa", tur:"sehir", lat:38.614, lon:27.429, g:1, d:[{f:"1390-01-01",t:"1402-07-28",y:"savas"},{f:"1425-06-01",t:"1923-10-29"}] },
@@ -39,8 +48,12 @@ window.YERLESIMLER = [
 { ad:"Denizli", tur:"sehir", lat:37.783, lon:29.094, g:0, d:[{f:"1390-01-01",t:"1402-07-28"},{f:"1425-06-01",t:"1923-10-29"}] },
 { ad:"Muğla", tur:"sehir", lat:37.215, lon:28.363, g:0, d:[{f:"1390-01-01",t:"1402-07-28"},{f:"1425-06-01",t:"1923-10-29"}] },
 { ad:"Antalya", tur:"liman", lat:36.887, lon:30.703, g:1, d:[{f:"1392-01-01",t:"1402-07-28",y:"savas"},{f:"1425-06-01",t:"1923-10-29"}] },
-{ ad:"Konya", tur:"sehir", lat:37.872, lon:32.492, g:2, d:[{f:"1397-07-01",t:"1402-07-28",y:"savas"},{f:"1468-01-01",t:"1923-10-29",y:"savas"}] },
-{ ad:"Karaman", tur:"sehir", lat:37.181, lon:33.215, g:0, d:[{f:"1397-07-01",t:"1402-07-28"},{f:"1468-01-01",t:"1923-10-29"}] },
+// Konya: 21 Aralık 1832 meydan savaşında sadrazam Reşid Mehmed Paşa esir düştü;
+// şehir Mısır ordusunun eline geçti, Kütahya Sözleşmesi'yle geri verildi.
+{ ad:"Konya", tur:"sehir", lat:37.872, lon:32.492, g:2, d:[{f:"1397-07-01",t:"1402-07-28",y:"savas"},{f:"1468-01-01",t:"1923-10-29",y:"savas"}],
+    v:[{f:"1832-11-21",t:"1833-06-30",k:"Mısır ordusu (işgal)"}] },
+{ ad:"Karaman", tur:"sehir", lat:37.181, lon:33.215, g:0, d:[{f:"1397-07-01",t:"1402-07-28"},{f:"1468-01-01",t:"1923-10-29"}],
+    v:[{f:"1832-11-21",t:"1833-06-30",k:"Mısır ordusu (işgal)"}] },
 { ad:"Niğde", tur:"sehir", lat:37.966, lon:34.679, g:0, d:[{f:"1468-01-01",t:"1923-10-29"}] },
 { ad:"Kayseri", tur:"sehir", lat:38.734, lon:35.480, g:1, d:[{f:"1398-07-01",t:"1402-07-28"},{f:"1419-01-01",t:"1923-10-29"}] },
 { ad:"Kastamonu", tur:"sehir", lat:41.377, lon:33.777, g:1, d:[{f:"1392-11-01",t:"1402-07-28",y:"savas"},{f:"1461-06-01",t:"1923-10-29",y:"antlasma"}] },
@@ -61,12 +74,21 @@ window.YERLESIMLER = [
 { ad:"Bitlis", tur:"sehir", lat:38.401, lon:42.108, g:0, d:[{f:"1515-09-15",t:"1918-10-30"}] },
 { ad:"Diyarbakır", tur:"sehir", lat:37.911, lon:40.237, g:2, d:[{f:"1515-09-15",t:"1923-10-29",y:"kusatma"}] },
 { ad:"Mardin", tur:"kale", lat:37.312, lon:40.735, g:0, d:[{f:"1515-09-15",t:"1923-10-29"}] },
-{ ad:"Urfa", tur:"sehir", lat:37.159, lon:38.796, g:0, d:[{f:"1516-08-24",t:"1923-10-29"}] },
+// Belen (Beylan) Geçidi bozgunundan (29 Temmuz 1832) sonra Toroslar'ın güneyi
+// ve Çukurova Mısır kuvvetlerine açıldı; Adana muhassıllığı 1833 Kütahya
+// Sözleşmesi'yle İbrâhim Paşa'ya verildi, 1840 İskenderiye Konvansiyonu'yla iade
+// edildi (fiilî devir Şubat 1841).
+{ ad:"Urfa", tur:"sehir", lat:37.159, lon:38.796, g:0, d:[{f:"1516-08-24",t:"1923-10-29"}],
+    v:[{f:"1832-08-15",t:"1841-02-25",k:"Mısır (İbrâhim Paşa)"}] },
 { ad:"Malatya", tur:"sehir", lat:38.353, lon:38.334, g:0, d:[{f:"1399-09-01",t:"1402-07-28",y:"savas"},{f:"1516-08-24",t:"1923-10-29"}] },
-{ ad:"Maraş", tur:"sehir", lat:37.575, lon:36.937, g:0, d:[{f:"1515-06-13",t:"1923-10-29",y:"savas"}] },
-{ ad:"Adana", tur:"sehir", lat:37.000, lon:35.321, g:1, d:[{f:"1517-01-22",t:"1923-10-29",y:"savas"}] },
-{ ad:"Tarsus", tur:"sehir", lat:36.917, lon:34.895, g:0, d:[{f:"1517-01-22",t:"1923-10-29"}] },
-{ ad:"Antakya", tur:"sehir", lat:36.202, lon:36.161, g:0, d:[{f:"1516-08-28",t:"1918-10-26"}] },
+{ ad:"Maraş", tur:"sehir", lat:37.575, lon:36.937, g:0, d:[{f:"1515-06-13",t:"1923-10-29",y:"savas"}],
+    v:[{f:"1832-08-15",t:"1841-02-25",k:"Mısır (İbrâhim Paşa)"}] },
+{ ad:"Adana", tur:"sehir", lat:37.000, lon:35.321, g:1, d:[{f:"1517-01-22",t:"1923-10-29",y:"savas"}],
+    v:[{f:"1832-07-29",t:"1841-02-25",k:"Mısır (İbrâhim Paşa)"}] },
+{ ad:"Tarsus", tur:"sehir", lat:36.917, lon:34.895, g:0, d:[{f:"1517-01-22",t:"1923-10-29"}],
+    v:[{f:"1832-07-29",t:"1841-02-25",k:"Mısır (İbrâhim Paşa)"}] },
+{ ad:"Antakya", tur:"sehir", lat:36.202, lon:36.161, g:0, d:[{f:"1516-08-28",t:"1918-10-26"}],
+    v:[{f:"1832-07-29",t:"1841-02-25",k:"Mısır (İbrâhim Paşa)"}] },
 // ---------------- RUMELİ / BALKANLAR ----------------
 { ad:"Gelibolu", tur:"liman", lat:40.410, lon:26.670, g:2, d:[{f:"1354-03-02",t:"1366-08-01",y:"antlasma"},{f:"1376-09-01",t:"1923-10-29",y:"antlasma"}] },
 { ad:"Çimpe", tur:"kale", lat:40.503, lon:26.598, g:1, d:[{f:"1354-03-02",t:"1366-08-01",y:"antlasma"},{f:"1376-09-01",t:"1923-10-29"}] },
@@ -95,9 +117,15 @@ window.YERLESIMLER = [
 { ad:"Arta", tur:"sehir", lat:39.161, lon:20.985, g:0, d:[{f:"1449-01-01",t:"1881-07-02"}] },
 { ad:"Yenişehir (Larissa)", tur:"sehir", lat:39.639, lon:22.418, g:0, d:[{f:"1394-01-01",t:"1881-07-02",y:"savas"}] },
 { ad:"Tırhala", tur:"sehir", lat:39.555, lon:21.768, g:0, d:[{f:"1394-01-01",t:"1881-07-02"}] },
-{ ad:"Atina", tur:"sehir", lat:37.976, lon:23.734, g:1, d:[{f:"1456-06-04",t:"1687-09-26",y:"antlasma"},{f:"1688-04-01",t:"1821-03-25",y:"savas"}] },
-{ ad:"Mora (Tripoliçe)", tur:"sehir", lat:37.510, lon:22.379, g:1, d:[{f:"1460-05-29",t:"1687-08-01",y:"savas"},{f:"1715-07-01",t:"1821-03-25",y:"savas"}] },
-{ ad:"Modon", tur:"kale", lat:36.818, lon:21.703, g:0, d:[{f:"1500-08-09",t:"1686-06-01",y:"kusatma"},{f:"1715-08-01",t:"1828-10-01"}] },
+// Mora isyanı Osmanlı ordusuyla bastırılamayınca II. Mahmud Mehmed Ali'den
+// yardım istedi. İbrâhim Paşa Şubat 1825'te Modon'a çıktı, Haziran'da Tripoliçe'yi
+// geri aldı; Navarin baskınından (1827) sonra Mısır kuvvetleri Ekim 1828'de
+// yarımadayı boşalttı. Atina'daki Osmanlı garnizonu 1833'e kadar direndi.
+{ ad:"Atina", tur:"sehir", lat:37.976, lon:23.734, g:1, d:[{f:"1456-06-04",t:"1687-09-26",y:"antlasma"},{f:"1688-04-01",t:"1821-03-25",y:"savas"},{f:"1827-06-05",t:"1833-03-31",y:"kusatma"}] },
+{ ad:"Mora (Tripoliçe)", tur:"sehir", lat:37.510, lon:22.379, g:1, d:[{f:"1460-05-29",t:"1687-08-01",y:"savas"},{f:"1715-07-01",t:"1821-03-25",y:"savas"}],
+    v:[{f:"1825-06-22",t:"1828-10-05",k:"Mısır (İbrâhim Paşa)"}] },
+{ ad:"Modon", tur:"kale", lat:36.818, lon:21.703, g:0, d:[{f:"1500-08-09",t:"1686-06-01",y:"kusatma"},{f:"1715-08-01",t:"1825-02-24"}],
+    v:[{f:"1825-02-24",t:"1828-10-05",k:"Mısır (İbrâhim Paşa)"}] },
 { ad:"İnebahtı", tur:"kale", lat:38.399, lon:21.827, g:0, d:[{f:"1499-08-28",t:"1687-08-06",y:"kusatma"},{f:"1715-07-01",t:"1829-05-01"}] },
 { ad:"Eğriboz", tur:"kale", lat:38.464, lon:23.601, g:0, d:[{f:"1470-07-12",t:"1829-05-01",y:"kusatma"}] },
 { ad:"İşkodra", tur:"kale", lat:42.069, lon:19.513, g:0, d:[{f:"1479-01-25",t:"1913-04-23",y:"antlasma"}] },
@@ -130,7 +158,10 @@ window.YERLESIMLER = [
 { ad:"Sakız", tur:"liman", lat:38.368, lon:26.135, g:0, d:[{f:"1566-04-15",t:"1694-09-15",y:"ilhak"},{f:"1695-02-20",t:"1912-11-11",y:"savas"}] },
 { ad:"Midilli", tur:"kale", lat:39.106, lon:26.554, g:0, d:[{f:"1462-09-17",t:"1912-11-21",y:"kusatma"}] },
 { ad:"Limni", tur:"kale", lat:39.876, lon:25.156, g:0, d:[{f:"1479-01-25",t:"1912-10-08"}] },
-{ ad:"Kandiye (Girit)", tur:"liman", lat:35.339, lon:25.133, g:1, d:[{f:"1669-09-27",t:"1898-12-01",y:"kusatma"}] },
+// Girit, Mora'nın karşılığı olarak 1830'da Mehmed Ali'nin idaresine bırakıldı;
+// 1840 İskenderiye Konvansiyonu'yla Bâbıâli'ye geri döndü.
+{ ad:"Kandiye (Girit)", tur:"liman", lat:35.339, lon:25.133, g:1, d:[{f:"1669-09-27",t:"1898-12-01",y:"kusatma"}],
+    v:[{f:"1830-11-01",t:"1841-02-25",k:"Mısır (Kavalalı)"}] },
 { ad:"Hanya", tur:"kale", lat:35.512, lon:24.019, g:0, d:[{f:"1645-08-22",t:"1898-12-01",y:"kusatma"}] },
 { ad:"Lefkoşa", tur:"sehir", lat:35.170, lon:33.360, g:1, d:[{f:"1570-09-09",t:"1878-06-04",y:"kusatma"}] },
 { ad:"Magosa", tur:"kale", lat:35.125, lon:33.940, g:0, d:[{f:"1571-08-01",t:"1878-06-04",y:"kusatma"}] },
@@ -144,7 +175,8 @@ window.YERLESIMLER = [
 { ad:"Nakşa", tur:"kale", lat:37.104, lon:25.376, g:0, d:[{f:"1566-04-15",t:"1830-02-03",y:"ilhak"}] },
 { ad:"Andros", tur:"kale", lat:37.833, lon:24.933, g:0, d:[{f:"1566-04-15",t:"1830-02-03"}] },
 { ad:"Santorini", tur:"kale", lat:36.416, lon:25.432, g:0, d:[{f:"1566-04-15",t:"1830-02-03"}] },
-{ ad:"Girit (Resmo)", tur:"kale", lat:35.365, lon:24.482, g:0, d:[{f:"1646-11-13",t:"1898-12-01",y:"kusatma"}] },
+{ ad:"Girit (Resmo)", tur:"kale", lat:35.365, lon:24.482, g:0, d:[{f:"1646-11-13",t:"1898-12-01",y:"kusatma"}],
+    v:[{f:"1830-11-01",t:"1841-02-25",k:"Mısır (Kavalalı)"}] },
 { ad:"Karpatos", tur:"kale", lat:35.508, lon:27.213, g:0, d:[{f:"1538-01-01",t:"1912-05-12"}] },
 // ---------------- KIRIM VE KARADENİZ KUZEYİ ----------------
 { ad:"Kefe", tur:"liman", lat:45.032, lon:35.382, g:1, d:[{f:"1475-06-06",t:"1774-07-21",y:"kusatma"}] },
@@ -193,24 +225,53 @@ window.YERLESIMLER = [
 { ad:"Şehrizor", tur:"sehir", lat:35.560, lon:45.430, g:0, d:[
     {f:"1554-01-01",t:"1623-01-14"}, {f:"1638-12-25",t:"1918-10-30"}] },
 // ---------------- SURİYE / IRAK / HİCAZ ----------------
-{ ad:"Halep", tur:"sehir", lat:36.202, lon:37.161, g:2, d:[{f:"1516-08-28",t:"1918-10-26",y:"savas"}] },
-{ ad:"Hama", tur:"sehir", lat:35.132, lon:36.750, g:0, d:[{f:"1516-09-01",t:"1918-10-01"}] },
-{ ad:"Şam", tur:"sehir", lat:33.513, lon:36.292, g:2, d:[{f:"1516-09-26",t:"1918-10-01",y:"savas"}] },
-{ ad:"Beyrut", tur:"liman", lat:33.888, lon:35.495, g:0, d:[{f:"1516-09-26",t:"1918-10-08"}] },
-{ ad:"Trablusşam", tur:"liman", lat:34.436, lon:35.844, g:0, d:[{f:"1516-09-26",t:"1918-10-13"}] },
-{ ad:"Kudüs", tur:"sehir", lat:31.777, lon:35.234, g:2, d:[{f:"1516-12-30",t:"1917-12-09",y:"antlasma"}] },
-{ ad:"Gazze", tur:"sehir", lat:31.502, lon:34.466, g:0, d:[{f:"1516-12-28",t:"1917-11-07"}] },
-{ ad:"Akkâ", tur:"kale", lat:32.928, lon:35.082, g:0, d:[{f:"1517-01-01",t:"1918-09-23"}] },
+// 1831-1841 MISIR İŞGALİ: İbrâhim Paşa Kasım 1831'de Gazze-Yafa hattından girdi,
+// Akkâ'yı Mayıs 1832'de aldı, Temmuz 1832'de Humus ve Belen'de Osmanlı ordusunu
+// bozdu. Kütahya Sözleşmesi (1833) bu toprakları ona valilik olarak bıraktı.
+// Müttefik donanmalar Beyrut (Ekim 1840) ve Akkâ'yı (Kasım 1840) alınca ordu
+// çekildi; tahliye Şubat 1841'de tamamlandı.
+{ ad:"Halep", tur:"sehir", lat:36.202, lon:37.161, g:2, d:[{f:"1516-08-28",t:"1918-10-26",y:"savas"}],
+    v:[{f:"1832-06-25",t:"1841-02-25",k:"Mısır (İbrâhim Paşa)"}] },
+{ ad:"Hama", tur:"sehir", lat:35.132, lon:36.750, g:0, d:[{f:"1516-09-01",t:"1918-10-01"}],
+    v:[{f:"1832-06-15",t:"1841-02-25",k:"Mısır (İbrâhim Paşa)"}] },
+{ ad:"Şam", tur:"sehir", lat:33.513, lon:36.292, g:2, d:[{f:"1516-09-26",t:"1918-10-01",y:"savas"}],
+    v:[{f:"1832-06-15",t:"1841-02-25",k:"Mısır (İbrâhim Paşa)"}] },
+{ ad:"Beyrut", tur:"liman", lat:33.888, lon:35.495, g:0, d:[{f:"1516-09-26",t:"1918-10-08"}],
+    v:[{f:"1832-06-15",t:"1840-10-10",k:"Mısır (İbrâhim Paşa)"}] },
+{ ad:"Trablusşam", tur:"liman", lat:34.436, lon:35.844, g:0, d:[{f:"1516-09-26",t:"1918-10-13"}],
+    v:[{f:"1832-06-15",t:"1840-10-10",k:"Mısır (İbrâhim Paşa)"}] },
+{ ad:"Kudüs", tur:"sehir", lat:31.777, lon:35.234, g:2, d:[{f:"1516-12-30",t:"1917-12-09",y:"antlasma"}],
+    v:[{f:"1831-11-08",t:"1841-02-25",k:"Mısır (İbrâhim Paşa)"}] },
+{ ad:"Gazze", tur:"sehir", lat:31.502, lon:34.466, g:0, d:[{f:"1516-12-28",t:"1917-11-07"}],
+    v:[{f:"1831-11-08",t:"1841-02-25",k:"Mısır (İbrâhim Paşa)"}] },
+{ ad:"Akkâ", tur:"kale", lat:32.928, lon:35.082, g:0, d:[{f:"1517-01-01",t:"1918-09-23"}],
+    v:[{f:"1832-05-27",t:"1840-11-03",k:"Mısır (İbrâhim Paşa)"}] },
 { ad:"Musul", tur:"sehir", lat:36.340, lon:43.130, g:1, d:[{f:"1516-08-24",t:"1918-11-08",y:"antlasma"}] },
 { ad:"Kerkük", tur:"sehir", lat:35.468, lon:44.392, g:0, d:[{f:"1534-12-04",t:"1623-01-14"},{f:"1638-12-25",t:"1918-10-30"}] },
 { ad:"Bağdat", tur:"sehir", lat:33.340, lon:44.361, g:2, d:[{f:"1534-12-04",t:"1623-01-14",y:"antlasma"},{f:"1638-12-25",t:"1917-03-11",y:"kusatma"}] },
 { ad:"Kerbelâ", tur:"sehir", lat:32.616, lon:44.025, g:0, d:[{f:"1534-12-04",t:"1623-01-14"},{f:"1638-12-25",t:"1917-03-11"}] },
 { ad:"Basra", tur:"liman", lat:30.508, lon:47.783, g:1, d:[{f:"1546-01-01",t:"1914-11-22",y:"antlasma"}] },
 { ad:"Lahsa", tur:"bolge", lat:25.383, lon:49.588, g:0, d:[{f:"1550-01-01",t:"1670-01-01",y:"vassal"},{f:"1871-05-01",t:"1913-05-08",y:"savas"}] },
-{ ad:"Mekke", tur:"sehir", lat:21.423, lon:39.826, g:2, d:[{f:"1517-01-22",t:"1916-06-10",y:"antlasma"}] },
-{ ad:"Medine", tur:"sehir", lat:24.470, lon:39.612, g:2, d:[{f:"1517-01-22",t:"1919-01-10",y:"antlasma"}] },
-{ ad:"Cidde", tur:"liman", lat:21.543, lon:39.173, g:0, d:[{f:"1517-01-22",t:"1916-06-16"}] },
-{ ad:"Yenbu", tur:"liman", lat:24.089, lon:38.063, g:0, d:[{f:"1517-01-22",t:"1916-07-27"}] },
+// HİCAZ: 1803-1813 arasında Suûdî-Vehhâbî hâkimiyeti (hac yolu kapandı, Osmanlı
+// hutbesi kaldırıldı) → haritada kayıp. Mehmed Ali'nin oğulları Tosun ve İbrâhim
+// paşaların seferleriyle geri alındı; 1841 fermanına kadar Mısır idaresinde
+// kaldığı için tâbi katmanda gösterilir.
+{ ad:"Mekke", tur:"sehir", lat:21.423, lon:39.826, g:2,
+    d:[{f:"1517-01-22",t:"1806-02-01",y:"antlasma"},{f:"1841-06-01",t:"1916-06-10"}],
+    v:[{f:"1813-01-24",t:"1841-06-01",k:"Mısır (Kavalalı)"}] },
+{ ad:"Medine", tur:"sehir", lat:24.470, lon:39.612, g:2,
+    d:[{f:"1517-01-22",t:"1805-07-20",y:"antlasma"},{f:"1841-06-01",t:"1919-01-10"}],
+    v:[{f:"1812-11-08",t:"1841-06-01",k:"Mısır (Kavalalı)"}] },
+{ ad:"Cidde", tur:"liman", lat:21.543, lon:39.173, g:0,
+    d:[{f:"1517-01-22",t:"1813-01-24"},{f:"1841-06-01",t:"1916-06-16"}],
+    v:[{f:"1813-01-24",t:"1841-06-01",k:"Mısır (Kavalalı)"}] },
+{ ad:"Yenbu", tur:"liman", lat:24.089, lon:38.063, g:0,
+    d:[{f:"1517-01-22",t:"1805-07-20"},{f:"1841-06-01",t:"1916-07-27"}],
+    v:[{f:"1811-11-01",t:"1841-06-01",k:"Mısır (Kavalalı)"}] },
+// Necid: Dir'iye'nin 1818'de düşürülmesiyle Suûdî emirliği ortadan kaldırıldı;
+// Mısır garnizonu 1824'e kadar kaldı, sonra ikinci Suûdî devleti kuruldu.
+{ ad:"Dir'iye (Necid)", tur:"kale", lat:24.733, lon:46.575, g:0, d:[],
+    v:[{f:"1818-09-09",t:"1824-06-01",k:"Mısır (İbrâhim Paşa)"}] },
 { ad:"Tebük", tur:"kale", lat:28.384, lon:36.566, g:0, d:[{f:"1517-01-22",t:"1918-01-01"}] },
 { ad:"Maan", tur:"kale", lat:30.192, lon:35.734, g:0, d:[{f:"1517-01-01",t:"1918-09-27"}] },
 // ---------------- YEMEN ----------------
@@ -222,15 +283,31 @@ window.YERLESIMLER = [
 { ad:"Hudeyde", tur:"liman", lat:14.798, lon:42.954, g:0, d:[{f:"1849-05-01",t:"1918-10-30"}] },
 { ad:"Ebha (Asir)", tur:"sehir", lat:18.216, lon:42.505, g:0, d:[{f:"1871-01-01",t:"1918-10-30"}] },
 // ---------------- MISIR VE SUDAN ----------------
-{ ad:"Kahire", tur:"sehir", lat:30.047, lon:31.243, g:2, d:[{f:"1517-01-22",t:"1914-11-05",y:"savas"}] },
-{ ad:"İskenderiye", tur:"liman", lat:31.200, lon:29.919, g:1, d:[{f:"1517-01-22",t:"1914-11-05"}] },
-{ ad:"Dimyat", tur:"liman", lat:31.418, lon:31.814, g:0, d:[{f:"1517-01-22",t:"1914-11-05"}] },
-{ ad:"Asyut", tur:"sehir", lat:27.181, lon:31.183, g:0, d:[{f:"1517-01-22",t:"1914-11-05"}] },
-{ ad:"Asvan", tur:"sehir", lat:24.089, lon:32.899, g:0, d:[{f:"1517-01-22",t:"1914-11-05"}] },
-{ ad:"İbrim", tur:"kale", lat:22.658, lon:31.988, g:0, d:[{f:"1555-01-01",t:"1914-11-05",y:"kusatma"}] },
-{ ad:"Dongola", tur:"sehir", lat:19.169, lon:30.474, g:0, d:[{f:"1821-01-01",t:"1885-01-26",y:"savas"}] },
-{ ad:"Hartum", tur:"sehir", lat:15.500, lon:32.559, g:1, d:[{f:"1821-06-01",t:"1885-01-26",y:"savas"}] },
-{ ad:"Sennar", tur:"sehir", lat:13.551, lon:33.616, g:0, d:[{f:"1821-06-01",t:"1885-01-26"}] },
+// 1805: Kahire ulemâsının talebiyle Kavalalı Mehmed Ali vali oldu; Mısır o
+// tarihten sonra hukuken Osmanlı, fiilen kendi hanedanının idaresindedir.
+// Bu yüzden 1805'ten itibaren "tâbi" (açık ton) katmanda gösterilir.
+{ ad:"Kahire", tur:"sehir", lat:30.047, lon:31.243, g:2, d:[{f:"1517-01-22",t:"1805-07-09",y:"savas"}],
+    v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+{ ad:"İskenderiye", tur:"liman", lat:31.200, lon:29.919, g:1, d:[{f:"1517-01-22",t:"1805-07-09"}],
+    v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+{ ad:"Dimyat", tur:"liman", lat:31.418, lon:31.814, g:0, d:[{f:"1517-01-22",t:"1805-07-09"}],
+    v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+{ ad:"Asyut", tur:"sehir", lat:27.181, lon:31.183, g:0, d:[{f:"1517-01-22",t:"1805-07-09"}],
+    v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+{ ad:"Asvan", tur:"sehir", lat:24.089, lon:32.899, g:0, d:[{f:"1517-01-22",t:"1805-07-09"}],
+    v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+{ ad:"İbrim", tur:"kale", lat:22.658, lon:31.988, g:0, d:[{f:"1555-01-01",t:"1805-07-09",y:"kusatma"}],
+    v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+// Sudan hiçbir zaman doğrudan Bâbıâli'ye bağlanmadı: 1820-21'de Mehmed Ali'nin
+// ordusu fethetti, Kahire'den yönetildi, 1885'te Mehdî ayaklanmasıyla kaybedildi.
+{ ad:"Dongola", tur:"sehir", lat:19.169, lon:30.474, g:0, d:[],
+    v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)"}] },
+{ ad:"Hartum", tur:"sehir", lat:15.500, lon:32.559, g:1, d:[],
+    v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)"}] },
+{ ad:"Sennar", tur:"sehir", lat:13.551, lon:33.616, g:0, d:[],
+    v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)"}] },
+{ ad:"Kordofan (Ubeyyid)", tur:"sehir", lat:13.184, lon:30.218, g:0, d:[],
+    v:[{f:"1821-08-19",t:"1885-01-26",k:"Mısır (Kavalalı)"}] },
 { ad:"Sevâkin", tur:"liman", lat:19.106, lon:37.332, g:0, d:[{f:"1557-01-01",t:"1885-02-05",y:"ilhak"}] },
 { ad:"Masavva", tur:"liman", lat:15.608, lon:39.474, g:0, d:[{f:"1557-01-01",t:"1885-02-05",y:"ilhak"}] },
 // ---------------- KUZEY AFRİKA ----------------
