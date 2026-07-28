@@ -41,6 +41,9 @@ BOYALAR = {
     "bizans":     ("Bizans",                 "#8877b8"),
     "memluk":     ("Memlûk",                 "#c9a15b"),
     "iran":       ("İran",                   "#b5885b"),
+    "karakoyunlu":("Karakoyunlular",         "#4a5b6b"),
+    "akkoyunlu":  ("Akkoyunlular",           "#b5bcc9"),
+    "safevi":     ("Safevî İran",            "#6b4a7d"),
     "gurcistan":  ("Gürcistan",              "#6b7da0"),
     "macaristan": ("Macaristan",             "#4e7d46"),
     "avusturya":  ("Avusturya (Habsburg)",   "#d9c76a"),
@@ -93,6 +96,28 @@ BOYALAR = {
     "ramazanoglu":("Ramazanoğulları",         "#8f5b6b"),
     "karesi":     ("Karesioğulları",          "#6b9e5b"),
     "katalan":    ("Katalan Dukalığı (Atina-Neopatras)", "#9e8f3a"),
+    "eflak":      ("Eflak Voyvodalığı",      "#7a9e6b"),
+    "bogdan":     ("Boğdan Voyvodalığı",     "#6b9e8a"),
+    "lusignan":   ("Kıbrıs Krallığı (Lüzinyan)", "#8a6ba0"),
+    # ⚠️ Orta Anadolu renkleri kasten doygun seçildi: önceki toprak tonları
+    # (#a08a6b / #9e8a6b) arazi kabartma katmanının beji ile karışıyor ve
+    # "Ankara civarında kimse yok" görüntüsü veriyordu.
+    "ilhanli":    ("İlhanlı Devleti",         "#7a5ba0"),
+    "eretna":     ("Eretna Beyliği",          "#3f8f6b"),
+    "burhaneddin":("Kadı Burhâneddin Devleti","#9e6b8a"),
+    "artuklu":    ("Artukoğulları",           "#6b8a9e"),
+    "ahiler":     ("Ahi Birliği (Ankara)",    "#c9603a"),
+    # --- kullanıcının sorduğu, haritada temsili olmayan beylikler ---
+    "cobanogullari":  ("Çobanoğulları",        "#4a8f8f"),
+    "pervane":        ("Pervâneoğulları",      "#3a6b9e"),
+    "esrefogullari":  ("Eşrefoğulları",        "#b5548f"),
+    "inancogullari":  ("İnançoğulları",        "#5b4ab5"),
+    "sahibata":       ("Sâhib Ataoğulları",    "#8f9e2d"),
+    "taceddin":       ("Tâceddinoğulları",     "#2d8f4a"),
+    "mutahharten":    ("Erzincan Beyliği (Mutahharten)", "#c9548f"),
+    "hafsi":      ("Hafsîler (Tunus)",        "#a06b6b"),
+    "zeyyani":    ("Zeyyânîler (Tilimsan)",   "#6ba0a0"),
+    "atinadukaligi": ("Atina Dukalığı",       "#8a9e8a"),
 }
 R_DUNYA = 6371.0088
 
@@ -282,6 +307,17 @@ def dogallastir(g, yasla=True, tur=2):
     except Exception:
         return unary_union([temiz(q) for q in yeni]).buffer(0)
 
+def kapat(g, yaricap=0.15):
+    """Morfolojik kapama: aralarında yaricap*2'den (≈33 km) daha az boşluk olan
+    ayrı parçaları birleştirir. Aynı çekirdek beyliğin parçası olan komşu
+    petekler, aralarına giren ince 'henüz o an aktif olmayan komşu' şeridi
+    yüzünden kopuk görünebiliyordu (ör. 1299'da İnegöl'ün Söğüt-Bilecik'ten
+    ayrı bir 'ada' gibi çizilmesi). Deniz/kıta arası gerçek boşluklar bu
+    yarıçaptan büyük olduğu için etkilenmez; kapamadan sonra KARA ile
+    kesişim alınacağından geçici deniz taşkını da temizlenir."""
+    if g.is_empty: return g
+    return temiz(g.buffer(yaricap)).buffer(-yaricap)
+
 def delikleri_doldur(g):
     """Kuşatılmış boşluk bırakmaz: çevresi ele geçmiş alan (dağ bloğu, ova) da
     hâkimiyet altındadır."""
@@ -364,7 +400,7 @@ BOLGELER = []
 for ad in sorted(_uyeler):
     mi = AD2IDX[ad]; my = YERLER[mi]
     bg = unary_union([PETEK_D[j] for j in _uyeler[ad]]).buffer(0)
-    bg = delikleri_doldur(bg).intersection(KARA).buffer(0)
+    bg = delikleri_doldur(kapat(bg)).intersection(KARA).buffer(0)
     bg = bg.simplify(0.03, preserve_topology=True).buffer(0)
     ara = my["d"] + my["v"]
     if not ara or bg.is_empty: continue
@@ -414,7 +450,7 @@ for did, (dad, renk) in BOYALAR.items():
         onceki = aktif
         if not aktif: continue
         g = unary_union([PETEK_D[j] for j in aktif]).buffer(0)
-        g = delikleri_doldur(g).intersection(KARA).buffer(0)
+        g = delikleri_doldur(kapat(g)).intersection(KARA).buffer(0)
         # Küçük tolerans: komşu devletlerin PAYLAŞTIĞI sınır aynı petek
         # hücrelerinden türediği için sadeleştirme az olursa iki taraf da
         # sınıra yakın kalır (büyük tolerans görünür boşluk/çakışma yaratıyordu).
@@ -468,9 +504,9 @@ for i in range(len(tarihler) - 1):
 
     gt = unary_union([PETEK_D[j] for j in tabi]).buffer(0) if tabi else None
     if gt is not None:
-        gt = delikleri_doldur(gt).intersection(KARA).buffer(0)
+        gt = delikleri_doldur(kapat(gt)).intersection(KARA).buffer(0)
     g = unary_union([PETEK_D[j] for j in dogrudan]).buffer(0)
-    g = delikleri_doldur(g).intersection(KARA).buffer(0)
+    g = delikleri_doldur(kapat(g)).intersection(KARA).buffer(0)
     # Tâbi bölge doğrudan gövdenin içinden çıkarılır; yoksa delik doldurma
     # Suriye'yi/Mısır'ı yutar ve iki katman üst üste biner.
     if gt is not None and not gt.is_empty:
