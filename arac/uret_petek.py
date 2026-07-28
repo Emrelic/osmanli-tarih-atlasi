@@ -91,11 +91,25 @@ BOYALAR = {
     "saruhan":    ("Saruhanoğulları",         "#6b8f4a"),
     "mentese":    ("Menteşeoğulları",         "#3a7d8f"),
     "hamid":      ("Hamîdoğulları",           "#8f7d3a"),
+    # TDV TEKEOĞULLARI: Hamîdoğulları'ndan ayrılan kol; Dündar Bey'in fethinden
+    # sonra Antalya kardeşi Yûnus Bey'e verildi (~1321) ve ayrı beylik doğdu.
+    # Antalya bu tarihten sonra Hamîd değil TEKE toprağıdır.
+    "teke":       ("Tekeoğulları",            "#b58f2d"),
     "candar":     ("Candaroğulları",          "#5b6b9e"),
     "dulkadir":   ("Dulkadiroğulları",        "#9e5b5b"),
     "ramazanoglu":("Ramazanoğulları",         "#8f5b6b"),
     "karesi":     ("Karesioğulları",          "#6b9e5b"),
     "katalan":    ("Katalan Dukalığı (Atina-Neopatras)", "#9e8f3a"),
+    # --- Fetret Devri (1402-1413): şehzade payları ---
+    # Ankara Savaşı'ndan sonra tek bir Osmanlı gövdesi kalmadı; ülke şehzadeler
+    # arasında bölündü. Bu dönemde yerleşimler "Osmanlı" (d) yerine ilgili
+    # şehzadenin kimliğiyle (s) boyanır ki paylar haritada ayrı ayrı görünsün.
+    # Renkler, aynı anda sahnede olan Anadolu beyliklerinin tonlarından
+    # kasten uzak seçildi.
+    "suleyman-celebi": ("Emîr Süleyman Çelebi (Rumeli)", "#c2185b"),
+    "isa-celebi":      ("İsa Çelebi (Bursa)",            "#e65100"),
+    "mehmed-celebi":   ("Çelebi Mehmed (Amasya)",        "#1a4d8f"),
+    "musa-celebi":     ("Musa Çelebi (Rumeli)",          "#6a1b9a"),
     "eflak":      ("Eflak Voyvodalığı",      "#7a9e6b"),
     "bogdan":     ("Boğdan Voyvodalığı",     "#6b9e8a"),
     "lusignan":   ("Kıbrıs Krallığı (Lüzinyan)", "#8a6ba0"),
