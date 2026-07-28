@@ -106,6 +106,7 @@ BOYALAR = {
     # şehzadenin kimliğiyle (s) boyanır ki paylar haritada ayrı ayrı görünsün.
     # Renkler, aynı anda sahnede olan Anadolu beyliklerinin tonlarından
     # kasten uzak seçildi.
+    "timurlu":         ("Timurlu idaresi",               "#8d6e63"),
     "suleyman-celebi": ("Emîr Süleyman Çelebi (Rumeli)", "#c2185b"),
     "isa-celebi":      ("İsa Çelebi (Bursa)",            "#e65100"),
     "mehmed-celebi":   ("Çelebi Mehmed (Amasya)",        "#1a4d8f"),
