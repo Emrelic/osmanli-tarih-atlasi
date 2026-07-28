@@ -717,6 +717,126 @@ window.DEVLETLER = [
     { t:"1830-07-05", tur:"isgal", b:"Fransız ordusu Cezayir'i işgal etti, ocaklık sona erdi" }
   ]
 },
+// ============ TIER 9 — HARİTA BOYA KİMLİKLERİNİN DİZİN KARŞILIKLARI ============
+// (data/devletler_harita.js'te boyanan, dizinde henüz olmayan devletler)
+
+{ id:"ispanya", ad:"İspanya (Kastilya-Aragon)", tur:"krallik", bolge:"bati-avrupa",
+  f:"1479-01-20", t:"1923-10-29", baskent:"Madrid",
+  ozet:"Kastilya-Aragon birliğiyle doğan krallık; Akdeniz'de Osmanlı'nın 16. yüzyıldaki ana deniz rakibi (1923 sonrasında da sürdü).",
+  kronoloji:[
+    { t:"1479-01-20", tur:"birlesme", b:"Kastilya ile Aragon tacları birleşti" },
+    { t:"1492-01-02", tur:"toprak-kazanc", b:"Gırnata'nın düşüşüyle Reconquista tamamlandı" },
+    { t:"1535-07-21", tur:"savas", b:"Şarlken Tunus'u aldı (1574'te kesin olarak Osmanlı'ya geçti)" },
+    { t:"1571-10-07", tur:"savas", b:"İnebahtı'da Kutsal İttifak donanmasının belkemiğini oluşturdu" },
+    { t:"1580-06-01", tur:"antlasma", b:"Osmanlı ile fiilî ateşkes — Akdeniz cephesi duruldu" }
+  ]
+},
+{ id:"granada", ad:"Gırnata (Nasrî) Emirliği", tur:"devlet", bolge:"bati-avrupa",
+  f:"1238-01-01", t:"1492-01-02", baskent:"Gırnata",
+  ozet:"İber yarımadasındaki son Müslüman devlet; yardım çağrıları Osmanlı'ya ulaştıysa da 1492'de düştü.",
+  kronoloji:[
+    { t:"1492-01-02", tur:"son", b:"Ebû Abdullah (Boabdil) şehri Katolik krallara teslim etti" }
+  ]
+},
+{ id:"portekiz", ad:"Portekiz Krallığı", tur:"krallik", bolge:"bati-avrupa",
+  f:"1139-07-25", t:"1923-10-29", baskent:"Lizbon",
+  ozet:"Hint Okyanusu'nda Osmanlı'nın 16. yüzyıl rakibi: Kızıldeniz, Basra Körfezi ve Umman kıyılarında donanmalar çarpıştı (1923 sonrasında da sürdü).",
+  kronoloji:[
+    { t:"1507-01-01", tur:"toprak-kazanc", b:"Hürmüz ve Umman kıyılarını aldı" },
+    { t:"1538-08-04", tur:"savas", b:"Hadım Süleyman Paşa'nın Diu kuşatması — Osmanlı-Portekiz savaşlarının zirvesi" },
+    { t:"1552-01-01", tur:"savas", b:"Pîrî Reis'in Hürmüz seferi" },
+    { t:"1650-01-26", tur:"toprak-kayip", b:"Umman, Maskat'ı geri aldı" }
+  ]
+},
+{ id:"almanya", ad:"Kutsal Roma / Almanya", tur:"imparatorluk", bolge:"orta-avrupa",
+  f:"962-02-02", t:"1923-10-29", baskent:"— (seçimli) → Berlin",
+  ozet:"Alman dünyasının çatı yapısı: 1806'ya dek Kutsal Roma İmparatorluğu, 1871'den sonra Prusya önderliğinde Alman İmparatorluğu; I. Dünya Savaşı'nda Osmanlı'nın müttefiki.",
+  kronoloji:[
+    { t:"1806-08-06", tur:"bolunme", b:"Kutsal Roma İmparatorluğu ilga edildi" },
+    { t:"1871-01-18", tur:"birlesme", b:"Alman İmparatorluğu ilan edildi" },
+    { t:"1889-01-01", tur:"ittifak", b:"II. Wilhelm'in İstanbul ziyaretiyle yakınlaşma başladı" },
+    { t:"1914-08-02", tur:"ittifak", b:"Osmanlı-Alman ittifak antlaşması imzalandı" },
+    { t:"1918-11-11", tur:"son", b:"İmparatorluk yıkıldı, cumhuriyet ilan edildi" }
+  ]
+},
+{ id:"hollanda", ad:"Hollanda Cumhuriyeti", tur:"cumhuriyet", bolge:"bati-avrupa",
+  f:"1581-07-26", t:"1923-10-29", baskent:"Amsterdam / Lahey",
+  ozet:"İspanya'dan bağımsızlığını ilan eden ticaret cumhuriyeti; 1612'de Osmanlı'dan kapitülasyon aldı (1923 sonrasında da sürdü).",
+  kronoloji:[
+    { t:"1581-07-26", tur:"kurulus", b:"Bağımsızlık ilanı (İspanya'dan ayrılış)" },
+    { t:"1612-07-06", tur:"antlasma", b:"Osmanlı kapitülasyonları verildi, elçilik açıldı" }
+  ]
+},
+{ id:"danimarka", ad:"Danimarka-Norveç", tur:"krallik", bolge:"kuzey-avrupa",
+  f:"1380-01-01", t:"1923-10-29", baskent:"Kopenhag",
+  ozet:"Kuzey Avrupa'nın çifte krallığı; Osmanlı ile 1756'da dostluk ve ticaret antlaşması imzaladı (1923 sonrasında da sürdü).",
+  kronoloji:[
+    { t:"1756-10-14", tur:"antlasma", b:"Osmanlı-Danimarka dostluk ve ticaret antlaşması" },
+    { t:"1814-01-14", tur:"bolunme", b:"Kiel Antlaşması ile Norveç, İsveç'e bırakıldı" }
+  ]
+},
+{ id:"umman", ad:"Umman (Ya'rubî / Bû Saîd) Sultanlığı", tur:"sultanlik", bolge:"arabistan",
+  f:"1624-01-01", t:"1923-10-29", baskent:"Nizva → Maskat",
+  ozet:"Portekizlileri Maskat'tan atan, Doğu Afrika kıyısına uzanan denizci sultanlık (1923 sonrasında da sürdü).",
+  kronoloji:[
+    { t:"1650-01-26", tur:"toprak-kazanc", b:"Maskat, Portekiz'den alındı" },
+    { t:"1749-06-10", tur:"hukumdar", b:"Bû Saîd hanedanı kuruldu" }
+  ]
+},
+{ id:"suud-ikinci", ad:"II. Suûdî Devleti (Necid Emirliği)", tur:"devlet", bolge:"hicaz-necid",
+  f:"1824-06-01", t:"1891-01-01", baskent:"Riyad",
+  ozet:"Dir'iye'nin yıkımından sonra Riyad merkezli yeniden kurulan emirlik; Şammar (Reşîdî) emirliğine yenilerek dağıldı, 1902'de üçüncü kez dirildi. Bkz. [[suud-birinci]].",
+  kronoloji:[
+    { t:"1824-06-01", tur:"kurulus", b:"Türkî bin Abdullah Riyad'ı geri aldı" },
+    { t:"1891-01-24", tur:"son", b:"Müleyde yenilgisiyle Şammar (Hâil) emirliği Necid'e hâkim oldu" },
+    { t:"1902-01-15", tur:"kurulus", b:"Abdülazîz bin Suûd Riyad'ı geri alarak üçüncü devleti kurdu" }
+  ]
+},
+{ id:"sammar", ad:"Şammar (Reşîdî) Emirliği", tur:"devlet", bolge:"hicaz-necid",
+  f:"1836-01-01", t:"1921-11-02", baskent:"Hâil",
+  ozet:"Hâil merkezli, Osmanlı'ya yakın duran Arap emirliği; Suûdîlerin tarihî rakibi.",
+  kronoloji:[
+    { t:"1891-01-24", tur:"toprak-kazanc", b:"Müleyde zaferiyle Necid'i ele geçirdi" },
+    { t:"1921-11-02", tur:"son", b:"Hâil, İbn Suûd'a teslim oldu" }
+  ]
+},
+{ id:"hicaz-kralligi", ad:"Hicaz Krallığı (Şerif Hüseyin)", tur:"krallik", bolge:"hicaz",
+  f:"1916-06-10", t:"1923-10-29", baskent:"Mekke",
+  ozet:"1916 isyanıyla Osmanlı'dan kopan Haremeyn devleti; 1925'te (site ufkunun dışında) Suûdîlerce yıkıldı.",
+  kronoloji:[
+    { t:"1916-06-10", tur:"isyan", b:"Şerif Hüseyin Mekke'de isyan bayrağını açtı" },
+    { t:"1919-01-10", tur:"toprak-kazanc", b:"Medine'deki son Osmanlı garnizonu (Fahreddin Paşa sonrası) teslim oldu" }
+  ]
+},
+{ id:"funj", ad:"Func (Sennâr) Sultanlığı", tur:"sultanlik", bolge:"sudan",
+  f:"1504-01-01", t:"1821-06-14", baskent:"Sennâr",
+  ozet:"Nil boyunda üç asır hüküm süren Müslüman sultanlık; Kavalalı'nın Sudan seferiyle yıkıldı. Bkz. [[misir-kavalali]].",
+  kronoloji:[
+    { t:"1504-01-01", tur:"kurulus", b:"Amara Dunkas tarafından kuruldu" },
+    { t:"1821-06-14", tur:"son", b:"İsmâil Kâmil Paşa'nın ordusuna direnmeden teslim oldu" }
+  ]
+},
+{ id:"habesistan", ad:"Habeşistan İmparatorluğu", tur:"imparatorluk", bolge:"afrika-boynuzu",
+  f:"1270-01-01", t:"1923-10-29", baskent:"Gondar → Addis Ababa",
+  ozet:"Afrika'nın en eski Hristiyan devleti; 16. yüzyılda Osmanlı destekli Adal ordularıyla ölüm kalım savaşı yaptı (1923 sonrasında da sürdü).",
+  kronoloji:[
+    { t:"1529-03-09", tur:"savas", b:"Ahmed Gran'ın Şimbra Kure zaferi — Adal istilası başladı" },
+    { t:"1543-02-21", tur:"savas", b:"Wayna Daga'da Portekiz destekli ordu Adal'ı kırdı" },
+    { t:"1887-01-06", tur:"toprak-kazanc", b:"Harar ilhak edildi" },
+    { t:"1896-03-01", tur:"savas", b:"Adva'da İtalya'yı yenerek bağımsızlığını korudu" }
+  ]
+},
+{ id:"adal", ad:"Adal Sultanlığı / Harar Emirliği", tur:"sultanlik", bolge:"afrika-boynuzu",
+  f:"1415-01-01", t:"1887-01-06", baskent:"Zeyla → Harar",
+  ozet:"Osmanlı'dan top ve tüfek desteği alarak Habeşistan'ı istila eden sultanlık; ardılı Harar emirliği 1887'de Habeş'e katıldı.",
+  kronoloji:[
+    { t:"1529-03-09", tur:"savas", b:"Ahmed Gran önderliğinde Habeş istilası başladı" },
+    { t:"1543-02-21", tur:"savas", b:"Ahmed Gran öldü, istila çöktü" },
+    { t:"1577-01-01", tur:"bolunme", b:"Devlet dağıldı, Harar emirliği ardıl kaldı" },
+    { t:"1887-01-06", tur:"son", b:"Harar, Habeşistan'a katıldı" }
+  ]
+},
+
 { id:"zaporojye", ad:"Zaporojye Kazak Hetmanlığı", tur:"cumhuriyet", bolge:"karadeniz-kuzeyi",
   f:"1552-01-01", t:"1775-06-16", baskent:"Zaporojye Seçi",
   ozet:"Dinyeper aşağısında yarı-askerî kazak topluluğu; zaman zaman Osmanlı/Kırım'a karşı Rusya'yla, zaman zaman onlara karşı Osmanlı'yla ittifak kurdu.",

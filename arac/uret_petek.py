@@ -31,7 +31,57 @@ def temiz(q):
 BASEMAPS = r"C:\Users\emrem\AppData\Local\Temp\claude\C--Users-emrem-OneDrive-Belgeler-Projeler-Ranking\2ad1685f-dd0a-4c8c-8b9d-a89c216d56e6\scratchpad\basemaps"
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CIKTI = os.path.join(KOK, "data", "donemler.js")
-BOLGE = box(-12, 8, 60, 53)
+# Kapsam: Batı Avrupa'dan Ural batısına, İskandinav güneyinden Afrika boynuzuna
+BOLGE = box(-12, 1.5, 62, 62)
+
+# ---------------- Devlet boya tablosu ----------------
+# Yerleşimlerin s alanındaki kimlikler; her devlet haritada kendi renginde
+# ayrı gövde olarak boyanır (Osmanlı d/v aktifken s bastırılır).
+BOYALAR = {
+    "bizans":     ("Bizans",                 "#8877b8"),
+    "memluk":     ("Memlûk",                 "#c9a15b"),
+    "iran":       ("İran",                   "#b5885b"),
+    "gurcistan":  ("Gürcistan",              "#6b7da0"),
+    "macaristan": ("Macaristan",             "#4e7d46"),
+    "avusturya":  ("Avusturya (Habsburg)",   "#d9c76a"),
+    "almanya":    ("Kutsal Roma / Almanya",  "#9a9a9a"),
+    "lehistan":   ("Lehistan-Litvanya",      "#b56ba0"),
+    "rusya":      ("Rusya",                  "#4f7d4f"),
+    "altinorda":  ("Altın Orda ve ardılları","#9e7d9e"),
+    "kazan":      ("Kazan Hanlığı",          "#c98f6b"),
+    "kirim":      ("Kırım Hanlığı bozkırı",  "#c9825b"),
+    "isvec":      ("İsveç",                  "#7bb5c9"),
+    "danimarka":  ("Danimarka-Norveç",       "#8f8fb5"),
+    "ingiltere":  ("Britanya",               "#b55b6b"),
+    "fransa":     ("Fransa",                 "#5b74c9"),
+    "ispanya":    ("İspanya",                "#c98f4a"),
+    "portekiz":   ("Portekiz",               "#6b8ac9"),
+    "granada":    ("Gırnata Emirliği",       "#7ba05b"),
+    "hollanda":   ("Hollanda",               "#d98f5b"),
+    "venedik":    ("Venedik",                "#4a8a8f"),
+    "ceneviz":    ("Ceneviz",                "#8a6b4a"),
+    "napoli":     ("Napoli / İki Sicilya",   "#a67ba0"),
+    "papalik":    ("Papalık",                "#c9c1a3"),
+    "italya":     ("İtalya",                 "#74a074"),
+    "sovalye":    ("St. Jean Şövalyeleri",   "#b0a08a"),
+    "bulgaristan":("Bulgaristan",            "#7aa06a"),
+    "sirbistan":  ("Sırbistan",              "#6a8fa0"),
+    "bosna":      ("Bosna Krallığı",         "#8f7d5b"),
+    "arnavutluk": ("Arnavutluk",             "#8f5b7d"),
+    "yunanistan": ("Yunanistan",             "#6b9ec9"),
+    "romanya":    ("Romanya",                "#c9b56b"),
+    "karadag":    ("Karadağ",                "#9e8f6b"),
+    "yemen":      ("Yemen İmamlığı",         "#b5a05b"),
+    "umman":      ("Umman",                  "#5b9e8f"),
+    "suud":       ("Suûdî / Vehhâbî",        "#8f9e5b"),
+    "sammar":     ("Şammar (Hâil)",          "#a0885b"),
+    "hicaz":      ("Hicaz Krallığı",         "#9e8a5b"),
+    "funj":       ("Func (Sennâr) Sultanlığı","#7d6b4a"),
+    "habesistan": ("Habeşistan",             "#7d5b3a"),
+    "adal":       ("Adal / Harar",           "#a08f5b"),
+    "somali":     ("Somali sultanlıkları",   "#b5a06b"),
+    "fas":        ("Fas",                    "#9e6b5b"),
+}
 R_DUNYA = 6371.0088
 
 # ---------------- Kara maskesi ----------------
@@ -122,6 +172,10 @@ for y in YERLER:
     y.setdefault("v", [])          # tâbi/dolaylı idare dönemleri (bkz. aşağıda)
     y.setdefault("k", 0)           # idari kademe (1 payitaht ... 4 küçük birim)
     y.setdefault("m", None)        # bağlı olunan k1/k2 merkezin adı
+    y.setdefault("s", [])          # yabancı sahiplik çizelgesi [{f,t,d:boya-id}]
+    for sp in y["s"]:
+        if sp["d"] not in BOYALAR:
+            print(f"  UYARI boya: {y['ad']} bilinmeyen devlet kimliği '{sp['d']}'")
 print(f"  {len(YERLER)} yerleşim ({sum(1 for y in YERLER if y['d'] or y['v'])} Osmanlı, "
       f"{sum(1 for y in YERLER if not (y['d'] or y['v']))} komşu, "
       f"{sum(1 for y in YERLER if y['v'])} tâbi dönemi olan)")
@@ -237,8 +291,8 @@ for i, h in enumerate(PETEK):
     ham = h.intersection(KARA).buffer(0)
     yeni = ham
     if not ham.is_empty:
-        osmanli = bool(YERLER[i]["d"] or YERLER[i]["v"])
-        yeni = dogallastir(ham, yasla=osmanli).intersection(KARA).buffer(0)
+        boyali = bool(YERLER[i]["d"] or YERLER[i]["v"] or YERLER[i]["s"])
+        yeni = dogallastir(ham, yasla=boyali).intersection(KARA).buffer(0)
         # Doğallaştırma yerleşimi kendi peteğinin dışında bırakmamalı:
         # bırakıyorsa ham petekle birleştirilir (nehir yaslaması kenarı çekmiş olur).
         nk = Point(YERLER[i]["lon"], YERLER[i]["lat"])
@@ -314,6 +368,54 @@ _bj += "// f/t: merkezin Osmanlı aralığı — çizgi haritada yalnız bu aral
 _bj += "window.BOLGELER = " + json.dumps(BOLGELER, ensure_ascii=False, separators=(",",":")) + ";\n"
 open(_byol, "w", encoding="utf-8").write(_bj)
 print(f"  {len(BOLGELER)} bölge → data/bolgeler.js ({os.path.getsize(_byol)//1024} KB)")
+
+# ---------------- Yabancı devlet gövdeleri ----------------
+# Her boya kimliği için: o kimliğe s dönemi olan hücrelerden, Osmanlı d/v'nin
+# AKTİF OLMADIĞI aralıklarda birleşik gövde üretilir → data/devletler_harita.js
+print("Yabancı devlet gövdeleri...")
+def _osm_aktif(y, a):
+    return (any(dn["f"] <= a < dn["t"] for dn in y["d"]) or
+            any(dn["f"] <= a < dn["t"] for dn in y["v"]))
+DEVLET_KAYIT = []
+for did, (dad, renk) in BOYALAR.items():
+    hj = [j for j, y in enumerate(YERLER) if any(sp["d"] == did for sp in y["s"])]
+    if not hj: continue
+    ts = set()
+    for j in hj:
+        for sp in YERLER[j]["s"]:
+            if sp["d"] == did: ts.add(sp["f"]); ts.add(sp["t"])
+        for dn in YERLER[j]["d"] + YERLER[j]["v"]:
+            ts.add(dn["f"]); ts.add(dn["t"])
+    ts = sorted(t for t in ts if "1299-01-01" <= t <= "1923-11-01")
+    if not ts: continue
+    if ts[0] != "1299-01-01": ts.insert(0, "1299-01-01")
+    if ts[-1] != "1923-11-01": ts.append("1923-11-01")
+    dnm = []; onceki = None
+    for i in range(len(ts) - 1):
+        a, b = ts[i], ts[i+1]
+        aktif = frozenset(j for j in hj
+                          if any(sp["d"] == did and sp["f"] <= a < sp["t"]
+                                 for sp in YERLER[j]["s"])
+                          and not _osm_aktif(YERLER[j], a))
+        if aktif == onceki and dnm and aktif:
+            dnm[-1]["t"] = b; continue
+        onceki = aktif
+        if not aktif: continue
+        g = unary_union([PETEK_D[j] for j in aktif]).buffer(0)
+        g = delikleri_doldur(g).intersection(KARA).buffer(0)
+        g = g.simplify(0.05, preserve_topology=True).buffer(0)
+        if g.is_empty: continue
+        rp = g.representative_point()
+        dnm.append({"f": a, "t": b, "g": mp_koord(g),
+                    "c": [round(rp.x, 2), round(rp.y, 2)]})
+    if dnm: DEVLET_KAYIT.append({"id": did, "ad": dad, "renk": renk, "dnm": dnm})
+_dyol = os.path.join(KOK, "data", "devletler_harita.js")
+_dj  = "// Otomatik üretildi — elle düzenlemeyin. Betik: arac/uret_petek.py\n"
+_dj += "// Yabancı devletlerin dönem gövdeleri (yerlesimler.js s alanından).\n"
+_dj += "window.DEVLET_HARITA = " + json.dumps(DEVLET_KAYIT, ensure_ascii=False, separators=(",",":")) + ";\n"
+open(_dyol, "w", encoding="utf-8").write(_dj)
+print(f"  {len(DEVLET_KAYIT)} devlet, {sum(len(d['dnm']) for d in DEVLET_KAYIT)} dönem → "
+      f"data/devletler_harita.js ({os.path.getsize(_dyol)//1024} KB)")
 
 # ---------------- Dönemleri kur ----------------
 print("Dönemler kuruluyor (delta yapısı)...")

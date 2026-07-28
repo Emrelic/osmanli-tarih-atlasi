@@ -72,6 +72,45 @@ function bolgeVerisi(t) {
                              .map(function (b) { return b.ft; }) };
 }
 
+// Yabancı devlet gövdeleri — data/devletler_harita.js. Her devlet kendi renginde
+// boyanır; Osmanlı d/v dönemi aktifken üreteç o hücreleri devletten düşer.
+var devletler2 = (window.DEVLET_HARITA || []);
+devletler2.forEach(function (s) {
+  s.dnm.forEach(function (p) {
+    p.fi = gunIdx(p.f); p.ti = gunIdx(p.t);
+    p.ft = { type: "Feature", properties: { renk: s.renk },
+             geometry: { type: "MultiPolygon", coordinates: p.g } };
+  });
+});
+var devletImza = null;
+var devletEtiketleri = [];
+function devletGuncelle(t) {
+  if (!haritaHazir) return;
+  var fs = [], et = [], imza = "";
+  devletler2.forEach(function (s) {
+    for (var i = 0; i < s.dnm.length; i++) {
+      var p = s.dnm[i];
+      if (p.fi <= t && t < p.ti) {
+        imza += s.id + ":" + i + ";";
+        fs.push(p.ft);
+        et.push({ ad: s.ad, c: p.c });
+        break;
+      }
+    }
+  });
+  if (imza === devletImza) return;
+  devletImza = imza;
+  harita.getSource("devlet").setData({ type: "FeatureCollection", features: fs });
+  devletEtiketleri.forEach(function (m) { m.remove(); });
+  devletEtiketleri = et.map(function (e) {
+    var el = document.createElement("div");
+    el.className = "devlet-etiket";
+    el.textContent = e.ad;
+    return new maplibregl.Marker({ element: el, anchor: "center" })
+             .setLngLat(e.c).addTo(harita);
+  });
+}
+
 // Aktif peteklerden GeoJSON kur
 function petekVerisi(d) {
   if (!d.petekler) return bosVeri();
@@ -121,6 +160,13 @@ harita.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top
 
 var haritaHazir = false;
 harita.on("load", function () {
+  // Yabancı devletler: Osmanlı katmanlarının ALTINA çizilir
+  harita.addSource("devlet", { type: "geojson", data: bosVeri() });
+  harita.addLayer({ id: "devlet-dolgu", type: "fill", source: "devlet",
+    paint: { "fill-color": ["get", "renk"], "fill-opacity": 0.30 } });
+  harita.addLayer({ id: "devlet-cizgi", type: "line", source: "devlet",
+    paint: { "line-color": ["get", "renk"], "line-width": 1.1, "line-opacity": 0.65 } });
+
   harita.addSource("vassal", { type: "geojson", data: bosVeri() });
   harita.addLayer({ id: "vassal-dolgu", type: "fill", source: "vassal",
     paint: { "fill-color": "#c96a4a", "fill-opacity": 0.42 } });
@@ -159,6 +205,7 @@ harita.on("load", function () {
     '<span><i style="background:#8e0b22"></i> Doğrudan Osmanlı toprağı</span>' +
     '<span><i style="background:#c96a4a"></i> Bağlı / özerk topraklar</span>' +
     '<span><i style="background:none;border-top:2px dashed #5a3a24;height:0;align-self:center"></i> Bölge sınırı (yakınlaşınca)</span>' +
+    '<span><i style="background:linear-gradient(90deg,#8877b8,#4e7d46,#4f7d4f,#b5885b)"></i> Komşu devletler (kendi renkleri)</span>' +
     '<span id="alan-goster"></span>';
   document.getElementById("harita").appendChild(lejant);
 
@@ -532,7 +579,7 @@ function dizinDoldur(sekme) {
     (window.YERLESIMLER || []).forEach(function (y) {
       var don = (y.d || []).concat(y.v || []);
       if (!don.length || !y.k) return;   // komşular ve sahipsiz noktalar dizine girmez
-      kgruplar[y.k].push({ ad: y.ad, tur: y.tur, lat: y.lat, lon: y.lon, m: y.m, don: don });
+      kgruplar[y.k].push({ ad: y.ad, tur: y.tur, lat: y.lat, lon: y.lon, m: y.m, kur: y.kur, don: don });
     });
     [1, 2, 3, 4].forEach(function (kd) {
       if (!kgruplar[kd].length) return;
@@ -541,7 +588,8 @@ function dizinDoldur(sekme) {
       .forEach(function (s) {
         var ilk = s.don.reduce(function (a, b) { return a.f < b.f ? a : b; });
         var son = s.don.reduce(function (a, b) { return a.t > b.t ? a : b; });
-        var koord = s.lat.toFixed(3) + "K, " + s.lon.toFixed(3) + "D";
+        var koord = s.lat.toFixed(3) + "K, " + s.lon.toFixed(3) + "D" +
+                    (s.kur ? " · kur. " + s.kur.slice(0, 4) : "");
         satir((s.tur === "kale" ? "🏰 " : "") + s.ad + (s.m ? " → " + s.m : ""), koord,
               idxYazi(gunIdx(ilk.f)) + " → " + idxYazi(gunIdx(son.t)),
               function () {
@@ -632,6 +680,7 @@ function guncelle() {
     }
     zoomUygula(d);
   }
+  devletGuncelle(suanki);
   sehirGuncelle(suanki);
   savasGuncelle(suanki);
   seferGuncelle(suanki);
