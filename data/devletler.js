@@ -1,23 +1,33 @@
 // ============================================================================
-// DEVLETLER DİZİNİ — Osmanlı ile etkileşim içindeki komşu devletler/topluluklar
+// DEVLETLER DİZİNİ — 1200-1924 arası dünyada var olmuş devletlerin indeksi
 // ============================================================================
-// Kapsam: 1299-1923 arasında Avrupa, Kuzey Afrika, Ortadoğu, İran, Kafkasya,
-// Doğu Avrupa ve Karadeniz kuzeyinde Osmanlı ile temas eden imparatorluk,
-// krallık, prenslik, dükalık, cumhuriyet, hanlık, beylik, isyan ve geçici
-// işgal oluşumlarının indeksi. Sıralama: etki/büyüklük tierları (bkz. altta),
-// her tier kendi içinde kronolojik.
+// Kapsam: coğrafî sınır yok — Osmanlı'nın komşuları TAM AYRINTI, dünyanın geri
+// kalanı ORTA/ASGARİ AYRINTI kademesinde (bkz. oturumlar/OTURUM-3-DEVLETLER.md).
+// İlk parti (77 kayıt) yalnız Osmanlı komşularını kapsıyordu; Oturum 3'ten
+// itibaren dünya geneline genişletiliyor. Sıralama: etki/büyüklük tierları
+// (bkz. altta) + coğrafî partiler, her tier kendi içinde kronolojik.
 //
 // Alanlar:
-//   id        : benzersiz anahtar (küçük harf, tire ile)
+//   id        : benzersiz anahtar (küçük harf, tire ile). DEĞİŞTİRİLMEZ.
 //   ad        : görünen ad
 //   tur       : imparatorluk | krallik | prenslik | dukalik | cumhuriyet |
 //               hanlik | beylik | devlet | sultanlik | ocaklik | hanedanlik |
-//               isyan | gecici-isgal
-//   bolge     : serbest metin bölge etiketi (harita bölge seçiciyle 1:1 değil)
+//               isyan | gecici-isgal | sehzadelik
+//               (yetmezse yeni tür eklenebilir, bu listeye de yazılmalı)
+//   bolge     : KAPALI SÖZLÜK — anadolu | balkanlar | orta-avrupa | bati-avrupa |
+//               kuzey-avrupa | dogu-avrupa | italya | iberya | kafkasya | iran |
+//               mezopotamya | suriye-filistin | arabistan | kuzey-afrika |
+//               misir-sudan | dogu-afrika | bati-afrika | orta-afrika |
+//               guney-afrika | orta-asya | guney-asya | dogu-asya |
+//               guneydogu-asya | sibirya-bozkir | kuzey-amerika | orta-amerika |
+//               guney-amerika | okyanusya
+//               (yetmezse yeni bölge eklenebilir, bu listeye de yazılmalı)
 //   f / t     : varlık aralığı (YYYY-AA-GG ya da belirsizse YYYY-01-01).
 //               Site ufku 1923-10-29'da bittiği için bu tarihten sonra da süren
 //               devletlerde t = "1923-10-29" ve ozet'te not düşülür.
 //   baskent   : başkent(ler), değiştiyse " → " ile
+//   harita    : arac/uret_petek.py'deki BOYALAR sözlüğündeki karşılığı (harita
+//               boyaması için). Karşılığı yoksa alan hiç yazılmaz.
 //   ozet      : 1-2 cümlelik tanım
 //   kronoloji : [{ t, tur, b }] — tur: kurulus | hukumdar | toprak-kazanc |
 //               toprak-kayip | savas | antlasma | bolunme | birlesme |
@@ -35,8 +45,8 @@ window.DEVLETLER = [
 
 // =========================== TIER 1 — BÜYÜK GÜÇLER ===========================
 
-{ id:"bizans", ad:"Bizans (Doğu Roma) İmparatorluğu", tur:"imparatorluk", bolge:"anadolu-balkan",
-  f:"330-05-11", t:"1461-08-15", baskent:"Konstantinopolis",
+{ id:"bizans", ad:"Bizans (Doğu Roma) İmparatorluğu", tur:"imparatorluk", bolge:"balkanlar",
+  f:"330-05-11", t:"1461-08-15", baskent:"Konstantinopolis", harita:"bizans",
   ozet:"Osmanlı'nın doğduğu coğrafyanın asıl sahibi; 1204 sonrası küçülerek 1453'e kadar Osmanlı'nın ana rakibi oldu.",
   kronoloji:[
     { t:"1204-04-13", tur:"bolunme", b:"IV. Haçlı Seferi İstanbul'u yağmaladı; Latin İmparatorluğu kuruldu, Bizans İznik/Trabzon/Epir'e bölündü" },
@@ -57,8 +67,8 @@ window.DEVLETLER = [
   ]
 },
 
-{ id:"memluk", ad:"Memlûk Sultanlığı (Mısır-Suriye)", tur:"sultanlik", bolge:"misir-suriye",
-  f:"1250-01-01", t:"1517-01-22", baskent:"Kahire",
+{ id:"memluk", ad:"Memlûk Sultanlığı (Mısır-Suriye)", tur:"sultanlik", bolge:"misir-sudan",
+  f:"1250-01-01", t:"1517-01-22", baskent:"Kahire", harita:"memluk",
   ozet:"Mısır ve Suriye'yi 267 yıl yöneten köle-asker (memlûk) kökenli sultanlık; Yavuz Sultan Selim tarafından ilhak edildi.",
   kronoloji:[
     { t:"1250-05-02", tur:"kurulus", b:"Memlûk emirleri Eyyûbî hanedanına son verdi" },
@@ -73,7 +83,7 @@ window.DEVLETLER = [
 },
 
 { id:"safevi", ad:"Safevî Devleti (İran)", tur:"devlet", bolge:"iran",
-  f:"1501-07-01", t:"1736-03-08", baskent:"Tebriz → Kazvin → İsfahan",
+  f:"1501-07-01", t:"1736-03-08", baskent:"Tebriz → Kazvin → İsfahan", harita:"safevi",
   ozet:"Şiî-Safevî hanedanının kurduğu İran devleti; üç asır boyunca Osmanlı'nın doğu cephesindeki ana rakibi.",
   kronoloji:[
     { t:"1501-07-01", tur:"kurulus", b:"Şah İsmâil Tebriz'i aldı, On İki İmam Şiîliğini resmî mezhep ilan etti" },
@@ -91,7 +101,7 @@ window.DEVLETLER = [
 },
 
 { id:"afsar", ad:"Afşar Devleti (Nadir Şah)", tur:"devlet", bolge:"iran",
-  f:"1736-03-08", t:"1796-01-01", baskent:"Meşhed",
+  f:"1736-03-08", t:"1796-01-01", baskent:"Meşhed", harita:"iran",
   ozet:"Nadir Şah'ın kısa ama fetihçi hanedanı; ölümüyle fiilen parçalandı, Horasan'da bir kolu 1796'ya dek sürdü.",
   kronoloji:[
     { t:"1736-03-08", tur:"kurulus", b:"Nadir Şah tahta çıktı" },
@@ -102,7 +112,7 @@ window.DEVLETLER = [
 },
 
 { id:"kacar", ad:"Kaçar Hanedanı (İran)", tur:"devlet", bolge:"iran",
-  f:"1789-03-21", t:"1923-10-29", baskent:"Tahran",
+  f:"1789-03-21", t:"1923-10-29", baskent:"Tahran", harita:"iran",
   ozet:"Ağa Muhammed Han'ın kurduğu, 1925'e dek (site ufkunun dışında) süren son İran hanedanı; Osmanlı ile son sınır anlaşmazlıkları bu dönemde çözüldü.",
   kronoloji:[
     { t:"1789-03-21", tur:"kurulus", b:"Ağa Muhammed Han Kaçar tahta çıktı, Tahran'ı başkent yaptı" },
@@ -113,8 +123,8 @@ window.DEVLETLER = [
   ]
 },
 
-{ id:"altinorda", ad:"Altın Orda (Deşt-i Kıpçak Hanlığı)", tur:"hanlik", bolge:"karadeniz-kuzeyi-bozkir",
-  f:"1242-01-01", t:"1502-01-01", baskent:"Saray",
+{ id:"altinorda", ad:"Altın Orda (Deşt-i Kıpçak Hanlığı)", tur:"hanlik", bolge:"sibirya-bozkir",
+  f:"1242-01-01", t:"1502-01-01", baskent:"Saray", harita:"altinorda",
   ozet:"Moğol kökenli bozkır imparatorluğu; parçalanmasından Kırım, Kazan, Astrahan ve Sibir hanlıkları doğdu.",
   kronoloji:[
     { t:"1242-01-01", tur:"kurulus", b:"Batu Han, Altın Orda'yı kurdu" },
@@ -125,8 +135,8 @@ window.DEVLETLER = [
   ]
 },
 
-{ id:"kirim", ad:"Kırım Hanlığı", tur:"hanlik", bolge:"karadeniz-kuzeyi",
-  f:"1441-01-01", t:"1783-04-08", baskent:"Bahçesaray",
+{ id:"kirim", ad:"Kırım Hanlığı", tur:"hanlik", bolge:"sibirya-bozkir",
+  f:"1441-01-01", t:"1783-04-08", baskent:"Bahçesaray", harita:"kirim",
   ozet:"Osmanlı'nın en uzun süreli ve en yakın vasalı; 1475'ten itibaren Osmanlı himayesinde, 1783'te Rusya tarafından ilhak edildi.",
   kronoloji:[
     { t:"1441-01-01", tur:"kurulus", b:"Hacı Giray, Altın Orda'dan bağımsızlığını ilan etti" },
@@ -141,7 +151,7 @@ window.DEVLETLER = [
 },
 
 { id:"habsburg", ad:"Habsburg Avusturya", tur:"imparatorluk", bolge:"orta-avrupa",
-  f:"1526-08-29", t:"1918-11-11", baskent:"Viyana",
+  f:"1526-08-29", t:"1918-11-11", baskent:"Viyana", harita:"avusturya",
   ozet:"Mohaç sonrası Macar tacını alan Habsburg hanedanı; üç asır boyunca Osmanlı'nın Orta Avrupa'daki ana rakibi, sonunda Avusturya-Macaristan olarak I. Dünya Savaşı'nda dağıldı.",
   kronoloji:[
     { t:"1526-08-29", tur:"kurulus", b:"I. Ferdinand, Mohaç sonrası Bohemya-Macaristan tacını aldı" },
@@ -162,7 +172,7 @@ window.DEVLETLER = [
 },
 
 { id:"rusya", ad:"Rusya Çarlığı / İmparatorluğu", tur:"imparatorluk", bolge:"dogu-avrupa",
-  f:"1547-01-16", t:"1917-03-15", baskent:"Moskova → Sankt-Peterburg",
+  f:"1547-01-16", t:"1917-03-15", baskent:"Moskova → Sankt-Peterburg", harita:"rusya",
   ozet:"IV. İvan'la çarlığa, I. Petro'yla imparatorluğa dönüşen, 350 yılda Karadeniz kuzeyi ve Kafkasya'da Osmanlı'yı geriletti.",
   kronoloji:[
     { t:"1547-01-16", tur:"kurulus", b:"IV. İvan (Korkunç) \"Çar\" unvanını aldı" },
@@ -183,8 +193,8 @@ window.DEVLETLER = [
   ]
 },
 
-{ id:"venedik", ad:"Venedik Cumhuriyeti", tur:"cumhuriyet", bolge:"akdeniz",
-  f:"697-01-01", t:"1797-05-12", baskent:"Venedik",
+{ id:"venedik", ad:"Venedik Cumhuriyeti", tur:"cumhuriyet", bolge:"italya",
+  f:"697-01-01", t:"1797-05-12", baskent:"Venedik", harita:"venedik",
   ozet:"Ege ve Doğu Akdeniz'de deniz imparatorluğu kuran ticaret cumhuriyeti; Osmanlı ile yedi büyük savaş yaptı, Napolyon tarafından ilga edildi.",
   kronoloji:[
     { t:"1204-04-13", tur:"toprak-kazanc", b:"IV. Haçlı Seferi'nde Bizans'ı yağmalayarak Ege'de geniş koloni imparatorluğu kurdu" },
@@ -204,7 +214,7 @@ window.DEVLETLER = [
 // ==================== TIER 2 — ANADOLU BEYLİKLERİ (kuruluş coğrafyası) ====================
 
 { id:"karaman", ad:"Karamanoğulları", tur:"beylik", bolge:"anadolu",
-  f:"1250-01-01", t:"1487-01-01", baskent:"Konya / Larende",
+  f:"1250-01-01", t:"1487-01-01", baskent:"Konya / Larende", harita:"karaman",
   ozet:"Selçuklu sonrası en güçlü Anadolu beyliği; Osmanlı'nın Anadolu birliğini kurmasının önündeki en inatçı engel.",
   kronoloji:[
     { t:"1250-01-01", tur:"kurulus", b:"Nûre Sûfî Bey tarafından kuruldu" },
@@ -216,7 +226,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"germiyan", ad:"Germiyanoğulları", tur:"beylik", bolge:"anadolu",
-  f:"1300-01-01", t:"1429-01-01", baskent:"Kütahya",
+  f:"1300-01-01", t:"1429-01-01", baskent:"Kütahya", harita:"germiyan",
   ozet:"Dönemin en güçlü Anadolu beyliklerinden; toprakları savaşsız, vasiyet yoluyla Osmanlı'ya katıldı.",
   kronoloji:[
     { t:"1300-01-01", tur:"kurulus", b:"Beylik kuruldu" },
@@ -224,8 +234,8 @@ window.DEVLETLER = [
     { t:"1429-01-01", tur:"son", b:"II. Yakub Bey'in vasiyetiyle beylik Osmanlı'ya katıldı" }
   ]
 },
-{ id:"aydin", ad:"Aydınoğulları", tur:"beylik", bolge:"ege",
-  f:"1308-01-01", t:"1425-01-01", baskent:"Birgi / Ayasuluk",
+{ id:"aydin", ad:"Aydınoğulları", tur:"beylik", bolge:"anadolu",
+  f:"1308-01-01", t:"1425-01-01", baskent:"Birgi / Ayasuluk", harita:"aydin",
   ozet:"Güçlü bir donanmaya sahip Ege beyliği; İzmir limanından deniz akınları düzenlerdi.",
   kronoloji:[
     { t:"1308-01-01", tur:"kurulus", b:"Aydınoğlu Mehmed Bey tarafından kuruldu" },
@@ -235,8 +245,8 @@ window.DEVLETLER = [
     { t:"1425-01-01", tur:"son", b:"II. Murad tarafından kesin ilhak edildi" }
   ]
 },
-{ id:"saruhan", ad:"Saruhanoğulları", tur:"beylik", bolge:"ege",
-  f:"1313-01-01", t:"1410-01-01", baskent:"Manisa",
+{ id:"saruhan", ad:"Saruhanoğulları", tur:"beylik", bolge:"anadolu",
+  f:"1313-01-01", t:"1410-01-01", baskent:"Manisa", harita:"saruhan",
   ozet:"Manisa merkezli Ege beyliği.",
   kronoloji:[
     { t:"1313-01-01", tur:"kurulus", b:"Saruhan Bey tarafından kuruldu" },
@@ -244,8 +254,8 @@ window.DEVLETLER = [
     { t:"1410-01-01", tur:"son", b:"Timur sonrası kısa dirilişten sonra kesin ilhak" }
   ]
 },
-{ id:"mentese", ad:"Menteşeoğulları", tur:"beylik", bolge:"ege",
-  f:"1280-01-01", t:"1424-01-01", baskent:"Milas / Beçin",
+{ id:"mentese", ad:"Menteşeoğulları", tur:"beylik", bolge:"anadolu",
+  f:"1280-01-01", t:"1424-01-01", baskent:"Milas / Beçin", harita:"mentese",
   ozet:"Güney Ege'de güçlü bir deniz beyliği.",
   kronoloji:[
     { t:"1280-01-01", tur:"kurulus", b:"Menteşe Bey tarafından kuruldu" },
@@ -255,7 +265,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"hamid", ad:"Hamîdoğulları", tur:"beylik", bolge:"anadolu",
-  f:"1300-01-01", t:"1391-01-01", baskent:"Eğirdir / Isparta",
+  f:"1300-01-01", t:"1391-01-01", baskent:"Eğirdir / Isparta", harita:"hamid",
   ozet:"Göller bölgesinde kurulmuş beylik; bir bölümü satış yoluyla, kalanı ilhakla Osmanlı'ya geçti.",
   kronoloji:[
     { t:"1300-01-01", tur:"kurulus", b:"Feleküddin Dündar Bey tarafından kuruldu" },
@@ -263,16 +273,16 @@ window.DEVLETLER = [
     { t:"1391-01-01", tur:"son", b:"Yıldırım Bayezid geri kalanını ilhak etti" }
   ]
 },
-{ id:"candar", ad:"Candaroğulları (İsfendiyaroğulları)", tur:"beylik", bolge:"karadeniz",
-  f:"1291-01-01", t:"1461-01-01", baskent:"Kastamonu / Sinop",
+{ id:"candar", ad:"Candaroğulları (İsfendiyaroğulları)", tur:"beylik", bolge:"anadolu",
+  f:"1291-01-01", t:"1461-01-01", baskent:"Kastamonu / Sinop", harita:"candar",
   ozet:"Karadeniz kıyısında en son ayakta kalan Anadolu beyliği.",
   kronoloji:[
     { t:"1291-01-01", tur:"kurulus", b:"Şemseddin Yaman Candar tarafından kuruldu" },
     { t:"1461-01-01", tur:"son", b:"Fatih, Sinop ve Kastamonu'yu ilhak etti" }
   ]
 },
-{ id:"dulkadir", ad:"Dulkadiroğulları", tur:"beylik", bolge:"guneydogu-anadolu",
-  f:"1337-01-01", t:"1522-01-01", baskent:"Elbistan / Maraş",
+{ id:"dulkadir", ad:"Dulkadiroğulları", tur:"beylik", bolge:"anadolu",
+  f:"1337-01-01", t:"1522-01-01", baskent:"Elbistan / Maraş", harita:"dulkadir",
   ozet:"Osmanlı-Memlûk arasında tampon beylik; Yavuz döneminde kesin ilhak edildi.",
   kronoloji:[
     { t:"1337-01-01", tur:"kurulus", b:"Zeyneddin Karaca Bey tarafından kuruldu" },
@@ -280,8 +290,8 @@ window.DEVLETLER = [
     { t:"1522-01-01", tur:"son", b:"Kanunî tarafından kesin ilhak edildi" }
   ]
 },
-{ id:"ramazanoglu", ad:"Ramazanoğulları", tur:"beylik", bolge:"cukurova",
-  f:"1352-01-01", t:"1608-01-01", baskent:"Adana",
+{ id:"ramazanoglu", ad:"Ramazanoğulları", tur:"beylik", bolge:"anadolu",
+  f:"1352-01-01", t:"1608-01-01", baskent:"Adana", harita:"ramazanoglu",
   ozet:"Çukurova'da Memlûk tâbiliğinde kurulan, sonra Osmanlı vasalı olan beylik.",
   kronoloji:[
     { t:"1352-01-01", tur:"kurulus", b:"Ramazan Bey tarafından Memlûk tâbiliğinde kuruldu" },
@@ -289,8 +299,8 @@ window.DEVLETLER = [
     { t:"1608-01-01", tur:"son", b:"Doğrudan Osmanlı eyaletine dönüştürüldü" }
   ]
 },
-{ id:"karesi", ad:"Karesioğulları", tur:"beylik", bolge:"ege",
-  f:"1297-01-01", t:"1345-01-01", baskent:"Balıkesir",
+{ id:"karesi", ad:"Karesioğulları", tur:"beylik", bolge:"anadolu",
+  f:"1297-01-01", t:"1345-01-01", baskent:"Balıkesir", harita:"karesi",
   ozet:"İlk Türk deniz beyliklerinden; Osmanlı'nın ilhak ettiği ilk beylik.",
   kronoloji:[
     { t:"1297-01-01", tur:"kurulus", b:"Karesi Bey tarafından kuruldu" },
@@ -300,8 +310,8 @@ window.DEVLETLER = [
 
 // ================= TIER 2b — DOĞU ANADOLU / İRAN SINIRI DEVLETLERİ =================
 
-{ id:"akkoyunlu", ad:"Akkoyunlu Devleti", tur:"devlet", bolge:"dogu-anadolu-iran",
-  f:"1378-01-01", t:"1501-01-01", baskent:"Diyarbekir → Tebriz",
+{ id:"akkoyunlu", ad:"Akkoyunlu Devleti", tur:"devlet", bolge:"iran",
+  f:"1378-01-01", t:"1501-01-01", baskent:"Diyarbekir → Tebriz", harita:"akkoyunlu",
   ozet:"Uzun Hasan döneminde Fatih'e meydan okuyan Türkmen devleti; Safevîler tarafından yıkıldı.",
   kronoloji:[
     { t:"1378-01-01", tur:"kurulus", b:"Kara Yülük Osman Bey tarafından kuruldu" },
@@ -311,8 +321,8 @@ window.DEVLETLER = [
     { t:"1501-01-01", tur:"son", b:"Şah İsmâil (Safevî) tarafından yıkıldı" }
   ]
 },
-{ id:"karakoyunlu", ad:"Karakoyunlu Devleti", tur:"devlet", bolge:"dogu-anadolu-iran",
-  f:"1375-01-01", t:"1467-01-01", baskent:"Tebriz",
+{ id:"karakoyunlu", ad:"Karakoyunlu Devleti", tur:"devlet", bolge:"iran",
+  f:"1375-01-01", t:"1467-01-01", baskent:"Tebriz", harita:"karakoyunlu",
   ozet:"Timur'a tâbi olan, sonra Akkoyunlu'ya yenilen Türkmen devleti.",
   kronoloji:[
     { t:"1375-01-01", tur:"kurulus", b:"Kara Mehmed tarafından kuruldu" },
@@ -324,7 +334,7 @@ window.DEVLETLER = [
 // ===================== TIER 3 — AVRUPA'NIN ORTA ÖLÇEK DEVLETLERİ =====================
 
 { id:"macaristan", ad:"Macaristan Krallığı (bağımsız dönem)", tur:"krallik", bolge:"orta-avrupa",
-  f:"1000-01-01", t:"1526-08-29", baskent:"Buda",
+  f:"1000-01-01", t:"1526-08-29", baskent:"Buda", harita:"macaristan",
   ozet:"Mohaç bozgunuyla bağımsızlığını kaybetti; toprakları Osmanlı, Habsburg ve Erdel arasında bölündü.",
   kronoloji:[
     { t:"1396-09-25", tur:"savas", b:"Niğbolu Haçlı Seferi'ne öncülük etti" },
@@ -334,7 +344,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"lehistan", ad:"Lehistan-Litvanya Birliği", tur:"cumhuriyet", bolge:"dogu-avrupa",
-  f:"1569-07-01", t:"1795-10-24", baskent:"Varşova",
+  f:"1569-07-01", t:"1795-10-24", baskent:"Varşova", harita:"lehistan",
   ozet:"Seçimli krallıkla yönetilen \"Asilzade Cumhuriyeti\"; Osmanlı ile Podolya çevresinde savaştı, üç paylaşımla ortadan kalktı.",
   kronoloji:[
     { t:"1569-07-01", tur:"kurulus", b:"Lublin Birliği ile Polonya-Litvanya birleşti" },
@@ -345,8 +355,8 @@ window.DEVLETLER = [
     { t:"1795-10-24", tur:"son", b:"Üçüncü Paylaşım ile devlet ortadan kalktı" }
   ]
 },
-{ id:"cenova", ad:"Cenova Cumhuriyeti", tur:"cumhuriyet", bolge:"akdeniz",
-  f:"1005-01-01", t:"1797-06-14", baskent:"Cenova",
+{ id:"cenova", ad:"Cenova Cumhuriyeti", tur:"cumhuriyet", bolge:"italya",
+  f:"1005-01-01", t:"1797-06-14", baskent:"Cenova", harita:"ceneviz",
   ozet:"Kefe, Sakız ve Sinop'ta kolonileri olan İtalyan deniz cumhuriyeti; kolonilerini sırayla Osmanlı'ya kaptırdı.",
   kronoloji:[
     { t:"1346-01-01", tur:"toprak-kazanc", b:"Kefe kolonisi kuruldu (Kırım kıyısı)" },
@@ -357,24 +367,24 @@ window.DEVLETLER = [
     { t:"1797-06-14", tur:"son", b:"Napolyon tarafından ilga edildi" }
   ]
 },
-{ id:"napoli", ad:"Napoli Krallığı / İki Sicilya", tur:"krallik", bolge:"akdeniz",
-  f:"1282-01-01", t:"1861-02-13", baskent:"Napoli",
+{ id:"napoli", ad:"Napoli Krallığı / İki Sicilya", tur:"krallik", bolge:"italya",
+  f:"1282-01-01", t:"1861-02-13", baskent:"Napoli", harita:"napoli",
   ozet:"Otranto çıkarmasıyla kısa süreli Osmanlı temasına sahne oldu; İtalyan birliğiyle ortadan kalktı.",
   kronoloji:[
     { t:"1480-08-11", tur:"isgal", b:"Otranto, Osmanlı çıkarmasıyla kısa süreliğine işgal edildi (1481'de geri alındı)" },
     { t:"1861-02-13", tur:"son", b:"İtalya Krallığı'na katıldı" }
   ]
 },
-{ id:"papalik", ad:"Papalık Devleti", tur:"devlet", bolge:"akdeniz",
-  f:"756-01-01", t:"1870-09-20", baskent:"Roma",
+{ id:"papalik", ad:"Papalık Devleti", tur:"devlet", bolge:"italya",
+  f:"756-01-01", t:"1870-09-20", baskent:"Roma", harita:"papalik",
   ozet:"Haçlı seferlerinin ve Kutsal İttifak'ların dinî-siyasi örgütleyicisi.",
   kronoloji:[
     { t:"1571-05-25", tur:"ittifak", b:"Kutsal İttifak'ı kurup İnebahtı zaferini örgütledi" },
     { t:"1870-09-20", tur:"son", b:"İtalya Krallığı Roma'yı ilhak etti, dünyevi iktidarı sona erdi" }
   ]
 },
-{ id:"fransa", ad:"Fransa Krallığı", tur:"krallik", bolge:"avrupa",
-  f:"987-01-01", t:"1792-09-21", baskent:"Paris",
+{ id:"fransa", ad:"Fransa Krallığı", tur:"krallik", bolge:"bati-avrupa",
+  f:"987-01-01", t:"1792-09-21", baskent:"Paris", harita:"fransa",
   ozet:"Habsburg'a karşı dengeleme amacıyla Osmanlı ile 1536'da ittifaka yakın kapitülasyon ilişkisi kurdu.",
   kronoloji:[
     { t:"1536-01-01", tur:"ittifak", b:"I. François ile Kanunî arasında Kapitülasyonlar imzalandı" },
@@ -382,8 +392,8 @@ window.DEVLETLER = [
     { t:"1792-09-21", tur:"son", b:"Krallık ilga edildi, Cumhuriyet ilan edildi" }
   ]
 },
-{ id:"ingiltere", ad:"İngiltere / Büyük Britanya", tur:"krallik", bolge:"avrupa",
-  f:"1066-01-01", t:"1923-10-29", baskent:"Londra",
+{ id:"ingiltere", ad:"İngiltere / Büyük Britanya", tur:"krallik", bolge:"bati-avrupa",
+  f:"1066-01-01", t:"1923-10-29", baskent:"Londra", harita:"ingiltere",
   ozet:"1581 Levant Company ile başlayan ticari ilişki, 19. yüzyılda Boğazlar ve Mısır siyasetinde belirleyici güce dönüştü (1923 sonrasında da sürdü).",
   kronoloji:[
     { t:"1581-09-11", tur:"antlasma", b:"Levant Company kuruldu, ticarî kapitülasyonlar genişledi" },
@@ -395,7 +405,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"isvec", ad:"İsveç Krallığı", tur:"krallik", bolge:"kuzey-avrupa",
-  f:"1523-06-06", t:"1923-10-29", baskent:"Stockholm",
+  f:"1523-06-06", t:"1923-10-29", baskent:"Stockholm", harita:"isvec",
   ozet:"XII. Karl'ın (Demirbaş Şarl) Poltava bozgunu sonrası 1709-1714 Osmanlı topraklarında (Bender) sığınmacılığı ile hatırlanır (1923 sonrasında da sürdü).",
   kronoloji:[
     { t:"1709-07-08", tur:"savas", b:"Poltava'da Rusya'ya yenilen XII. Karl, Osmanlı'ya sığındı" },
@@ -406,8 +416,8 @@ window.DEVLETLER = [
 
 // ===================== TIER 4 — BALKAN DEVLET/PRENSLİKLERİ =====================
 
-{ id:"sirp-despotlugu", ad:"Sırp Despotluğu", tur:"prenslik", bolge:"balkan",
-  f:"1402-01-01", t:"1459-06-20", baskent:"Belgrad → Smederevo",
+{ id:"sirp-despotlugu", ad:"Sırp Despotluğu", tur:"prenslik", bolge:"balkanlar",
+  f:"1402-01-01", t:"1459-06-20", baskent:"Belgrad → Smederevo", harita:"sirbistan",
   ozet:"Osmanlı vasalı olarak kurulan, sonunda ilhak edilen son bağımsız Sırp devleti.",
   kronoloji:[
     { t:"1402-01-01", tur:"kurulus", b:"Stefan Lazarević tarafından kuruldu, Osmanlı vasalı" },
@@ -415,8 +425,8 @@ window.DEVLETLER = [
     { t:"1459-06-20", tur:"son", b:"Smederevo'nun düşüşüyle despotluk sona erdi" }
   ]
 },
-{ id:"bulgar-carligi", ad:"İkinci Bulgar İmparatorluğu", tur:"imparatorluk", bolge:"balkan",
-  f:"1185-01-01", t:"1396-01-01", baskent:"Tırnova → Vidin",
+{ id:"bulgar-carligi", ad:"İkinci Bulgar İmparatorluğu", tur:"imparatorluk", bolge:"balkanlar",
+  f:"1185-01-01", t:"1396-01-01", baskent:"Tırnova → Vidin", harita:"bulgaristan",
   ozet:"Niğbolu Haçlı Seferi'nin ardından Vidin'in düşüşüyle ortadan kalktı.",
   kronoloji:[
     { t:"1393-07-17", tur:"toprak-kayip", b:"Tırnova düştü" },
@@ -424,7 +434,7 @@ window.DEVLETLER = [
     { t:"1396-01-01", tur:"son", b:"Vidin'in düşüşüyle Bulgar Çarlığı sona erdi" }
   ]
 },
-{ id:"bosna-kralligi", ad:"Bosna Krallığı", tur:"krallik", bolge:"balkan",
+{ id:"bosna-kralligi", ad:"Bosna Krallığı", tur:"krallik", bolge:"balkanlar",
   f:"1377-01-01", t:"1463-05-01", baskent:"Jajce",
   ozet:"Fatih'in seferiyle hızla ilhak edilen Balkan krallığı.",
   kronoloji:[
@@ -432,8 +442,8 @@ window.DEVLETLER = [
     { t:"1463-05-01", tur:"son", b:"Fatih'in seferiyle ilhak edildi" }
   ]
 },
-{ id:"arnavutluk-iskenderbey", ad:"Arnavutluk (Kastriota Direnişi)", tur:"prenslik", bolge:"balkan",
-  f:"1443-01-01", t:"1479-01-25", baskent:"Krujë",
+{ id:"arnavutluk-iskenderbey", ad:"Arnavutluk (Kastriota Direnişi)", tur:"prenslik", bolge:"balkanlar",
+  f:"1443-01-01", t:"1479-01-25", baskent:"Krujë", harita:"arnavutluk",
   ozet:"İskender Bey (Skanderbeg) önderliğinde 25 yıl Osmanlı'ya direnen dağlık bölge birliği.",
   kronoloji:[
     { t:"1443-11-28", tur:"isyan", b:"İskender Bey Osmanlı'ya isyan etti" },
@@ -441,8 +451,8 @@ window.DEVLETLER = [
     { t:"1479-01-25", tur:"son", b:"İşkodra'nın düşüşüyle direniş sona erdi" }
   ]
 },
-{ id:"eflak", ad:"Eflak Voyvodalığı (Wallachia)", tur:"prenslik", bolge:"balkan",
-  f:"1330-01-01", t:"1859-01-24", baskent:"Bükreş",
+{ id:"eflak", ad:"Eflak Voyvodalığı (Wallachia)", tur:"prenslik", bolge:"balkanlar",
+  f:"1330-01-01", t:"1859-01-24", baskent:"Bükreş", harita:"eflak",
   ozet:"Tuna'nın kuzeyinde Osmanlı'ya vasal kalan voyvodalık; Boğdan ile birleşerek Romanya'nın çekirdeğini oluşturdu.",
   kronoloji:[
     { t:"1330-11-09", tur:"kurulus", b:"Basarab I bağımsızlığını kazandı" },
@@ -452,8 +462,8 @@ window.DEVLETLER = [
     { t:"1859-01-24", tur:"birlesme", b:"Boğdan ile kişisel birlik kurarak Romanya'nın temelini attı" }
   ]
 },
-{ id:"bogdan", ad:"Boğdan Voyvodalığı (Moldavia)", tur:"prenslik", bolge:"balkan",
-  f:"1359-01-01", t:"1859-01-24", baskent:"Suceava → Iaşi",
+{ id:"bogdan", ad:"Boğdan Voyvodalığı (Moldavia)", tur:"prenslik", bolge:"balkanlar",
+  f:"1359-01-01", t:"1859-01-24", baskent:"Suceava → Iaşi", harita:"bogdan",
   ozet:"Osmanlı'ya vasal kuzey Tuna voyvodalığı; Eflak'la birleşerek Romanya'nın çekirdeğini oluşturdu.",
   kronoloji:[
     { t:"1359-01-01", tur:"kurulus", b:"Bogdan I tarafından kuruldu" },
@@ -471,7 +481,7 @@ window.DEVLETLER = [
     { t:"1711-04-30", tur:"son", b:"Szatmár Antlaşması ile kesin olarak Habsburg'a bağlandı" }
   ]
 },
-{ id:"mora-despotlugu", ad:"Mora Despotluğu", tur:"prenslik", bolge:"balkan",
+{ id:"mora-despotlugu", ad:"Mora Despotluğu", tur:"prenslik", bolge:"balkanlar",
   f:"1349-01-01", t:"1460-05-31", baskent:"Mystras",
   ozet:"Bizans'ın son eyaleti; İstanbul'un düşüşünden 7 yıl sonra Osmanlı'ya katıldı.",
   kronoloji:[
@@ -479,15 +489,15 @@ window.DEVLETLER = [
     { t:"1460-05-31", tur:"son", b:"Fatih tarafından ilhak edildi" }
   ]
 },
-{ id:"atina-dukaligi", ad:"Atina Dukalığı", tur:"dukalik", bolge:"balkan",
-  f:"1205-01-01", t:"1458-06-04", baskent:"Atina",
+{ id:"atina-dukaligi", ad:"Atina Dukalığı", tur:"dukalik", bolge:"balkanlar",
+  f:"1205-01-01", t:"1458-06-04", baskent:"Atina", harita:"atinadukaligi",
   ozet:"IV. Haçlı Seferi sonrası kurulan Latin dukalığı; Fatih döneminde ilhak edildi.",
   kronoloji:[
     { t:"1205-01-01", tur:"kurulus", b:"IV. Haçlı Seferi sonrası Burgonya kökenli şövalyelerce kuruldu" },
     { t:"1458-06-04", tur:"son", b:"Fatih tarafından ilhak edildi" }
   ]
 },
-{ id:"naksa-dukaligi", ad:"Naxos (Nakşa) Dukalığı", tur:"dukalik", bolge:"ege",
+{ id:"naksa-dukaligi", ad:"Naxos (Nakşa) Dukalığı", tur:"dukalik", bolge:"balkanlar",
   f:"1207-01-01", t:"1579-01-01", baskent:"Naxos",
   ozet:"Ege adalarında son Latin egemenliği; Barbaros sonrası haraca bağlandı, 1579'da tamamen ilhak edildi.",
   kronoloji:[
@@ -496,8 +506,8 @@ window.DEVLETLER = [
     { t:"1579-01-01", tur:"son", b:"Osmanlı tarafından tamamen ilhak edildi" }
   ]
 },
-{ id:"rodos-sovalyeleri", ad:"Rodos (Saint Jean/Malta Şövalyeleri)", tur:"devlet", bolge:"ege",
-  f:"1310-01-01", t:"1522-12-25", baskent:"Rodos",
+{ id:"rodos-sovalyeleri", ad:"Rodos (Saint Jean/Malta Şövalyeleri)", tur:"devlet", bolge:"balkanlar",
+  f:"1310-01-01", t:"1522-12-25", baskent:"Rodos", harita:"sovalye",
   ozet:"Haçlı şövalye tarikatının Ege üssü; Kanunî'nin kuşatmasıyla adayı terk edip Malta'ya yerleşti (1530).",
   kronoloji:[
     { t:"1310-08-15", tur:"kurulus", b:"St. Jean Şövalyeleri Rodos'u ele geçirdi" },
@@ -506,8 +516,8 @@ window.DEVLETLER = [
     { t:"1530-03-24", tur:"bolunme", b:"Şövalyeler Malta'ya yerleşti (Malta Şövalyeleri olarak devam)" }
   ]
 },
-{ id:"kibris-krallik", ad:"Kıbrıs Krallığı (Lüzinyan)", tur:"krallik", bolge:"akdeniz",
-  f:"1192-01-01", t:"1489-02-26", baskent:"Lefkoşa",
+{ id:"kibris-krallik", ad:"Kıbrıs Krallığı (Lüzinyan)", tur:"krallik", bolge:"anadolu",
+  f:"1192-01-01", t:"1489-02-26", baskent:"Lefkoşa", harita:"lusignan",
   ozet:"Haçlı kökenli Fransız hanedanının krallığı; Venedik'e devrinden 82 yıl sonra Osmanlı'ya geçti.",
   kronoloji:[
     { t:"1192-01-01", tur:"kurulus", b:"Guy de Lusignan tarafından kuruldu" },
@@ -518,7 +528,7 @@ window.DEVLETLER = [
 // ========================= TIER 5 — KAFKASYA DEVLETLERİ =========================
 
 { id:"gurcistan", ad:"Gürcistan Krallığı/Krallıkları", tur:"krallik", bolge:"kafkasya",
-  f:"1008-01-01", t:"1801-09-12", baskent:"Tiflis",
+  f:"1008-01-01", t:"1801-09-12", baskent:"Tiflis", harita:"gurcistan",
   ozet:"Osmanlı-Safevî çekişmesinde parçalanan (Kartli, Kaheti, İmereti) Kafkas krallığı; sonunda Rusya'ya ilhak edildi.",
   kronoloji:[
     { t:"1555-05-29", tur:"bolunme", b:"Amasya Barışı ile Osmanlı-Safevî nüfuz bölgelerine bölündü" },
@@ -544,8 +554,8 @@ window.DEVLETLER = [
 
 // ============== TIER 6 — ARAP YARIMADASI / KUZEY AFRİKA ==============
 
-{ id:"suud-birinci", ad:"I. Suûdî Devleti (Vehhâbî Emirliği)", tur:"devlet", bolge:"hicaz-necid",
-  f:"1744-01-01", t:"1818-09-09", baskent:"Dir'iye",
+{ id:"suud-birinci", ad:"I. Suûdî Devleti (Vehhâbî Emirliği)", tur:"devlet", bolge:"arabistan",
+  f:"1744-01-01", t:"1818-09-09", baskent:"Dir'iye", harita:"suud",
   ozet:"Vehhâbî hareketiyle Necid'de kurulan, Haremeyn'i ele geçiren emirlik; Kavalalı Mehmed Ali'nin ordusuyla ortadan kaldırıldı (bkz. [[misir-kavalali]]).",
   kronoloji:[
     { t:"1744-01-01", tur:"kurulus", b:"Muhammed bin Suûd ile Muhammed bin Abdülvehhâb ittifakı" },
@@ -584,14 +594,14 @@ window.DEVLETLER = [
   ]
 },
 { id:"fas", ad:"Fas (Sâdî / Alevî Şerifleri)", tur:"krallik", bolge:"kuzey-afrika",
-  f:"1549-01-01", t:"1923-10-29", baskent:"Fas / Marakeş",
+  f:"1549-01-01", t:"1923-10-29", baskent:"Fas / Marakeş", harita:"fas",
   ozet:"Osmanlı'ya hiçbir dönemde bağlanmayan tek Kuzey Afrika devleti; komşu ama daima bağımsız (1923 sonrasında da sürdü).",
   kronoloji:[
     { t:"1578-08-04", tur:"savas", b:"Üç Kral Savaşı'nda Osmanlı destekli aday tahta çıktı, bağımsızlık korundu" }
   ]
 },
-{ id:"yemen-zeydi", ad:"Yemen Zeydî İmamlığı", tur:"devlet", bolge:"hicaz-yemen",
-  f:"897-01-01", t:"1923-10-29", baskent:"Sa'da → San'a",
+{ id:"yemen-zeydi", ad:"Yemen Zeydî İmamlığı", tur:"devlet", bolge:"arabistan",
+  f:"897-01-01", t:"1923-10-29", baskent:"Sa'da → San'a", harita:"yemen",
   ozet:"Osmanlı hâkimiyeti iki kesik dönemde yaşandı (1517-1636, 1849-1918); aradaki 200 yıl fiilen bağımsız imamlık.",
   kronoloji:[
     { t:"1517-01-01", tur:"antlasma", b:"Mısır'ın fethi sonrası Osmanlı nüfuzuna girdi" },
@@ -604,7 +614,7 @@ window.DEVLETLER = [
 
 // ===================== TIER 7 — MISIR MESELESİ (çapraz referans) =====================
 
-{ id:"misir-kavalali", ad:"Mısır Kavalalı Hanedanı", tur:"hanedanlik", bolge:"misir",
+{ id:"misir-kavalali", ad:"Mısır Kavalalı Hanedanı", tur:"hanedanlik", bolge:"misir-sudan",
   f:"1805-07-09", t:"1914-11-05", baskent:"Kahire",
   ozet:"Hukuken Osmanlı toprağı sayılan ama Kavalalı hanedanınca özerk yönetilen vilayet; ayrıntılı savaş/antlaşma kronolojisi data/olaylar_ek4.js ve data/savaslar.js (seri: misir, vehhabi) dosyalarında.",
   kronoloji:[
@@ -618,8 +628,8 @@ window.DEVLETLER = [
 
 // ===================== TIER 8 — İSYANLAR / BAĞIMSIZLIKLAR / GEÇİCİ İŞGALLER =====================
 
-{ id:"sirbistan-prensligi", ad:"Sırbistan Prensliği", tur:"prenslik", bolge:"balkan",
-  f:"1804-02-14", t:"1882-03-06", baskent:"Belgrad",
+{ id:"sirbistan-prensligi", ad:"Sırbistan Prensliği", tur:"prenslik", bolge:"balkanlar",
+  f:"1804-02-14", t:"1882-03-06", baskent:"Belgrad", harita:"sirbistan",
   ozet:"İki büyük isyanla özerkliğe, sonra bağımsızlığa ulaşan Balkan devleti.",
   kronoloji:[
     { t:"1804-02-14", tur:"isyan", b:"Birinci Sırp İsyanı (Kara Yorgi)" },
@@ -629,8 +639,8 @@ window.DEVLETLER = [
     { t:"1882-03-06", tur:"hukumdar", b:"Krallık ilan edildi" }
   ]
 },
-{ id:"yunanistan", ad:"Yunanistan Krallığı", tur:"krallik", bolge:"balkan",
-  f:"1821-03-25", t:"1923-10-29", baskent:"Nafplion → Atina",
+{ id:"yunanistan", ad:"Yunanistan Krallığı", tur:"krallik", bolge:"balkanlar",
+  f:"1821-03-25", t:"1923-10-29", baskent:"Nafplion → Atina", harita:"yunanistan",
   ozet:"Mora isyanıyla başlayıp Londra Protokolü'yle bağımsızlığa ulaşan, sonraki yüzyılda Osmanlı'dan toprak almaya devam eden devlet.",
   kronoloji:[
     { t:"1821-03-25", tur:"isyan", b:"Mora İsyanı başladı" },
@@ -641,15 +651,15 @@ window.DEVLETLER = [
     { t:"1919-05-15", tur:"isgal", b:"İzmir'i işgal etti (Millî Mücadele'nin başlangıç noktalarından)" }
   ]
 },
-{ id:"karadag", ad:"Karadağ (Montenegro)", tur:"prenslik", bolge:"balkan",
-  f:"1516-01-01", t:"1923-10-29", baskent:"Cetinje",
+{ id:"karadag", ad:"Karadağ (Montenegro)", tur:"prenslik", bolge:"balkanlar",
+  f:"1516-01-01", t:"1923-10-29", baskent:"Cetinje", harita:"karadag",
   ozet:"Dağlık coğrafyası sayesinde fiilen hiç tam boyun eğmeyen, 1878'de resmen bağımsızlığı tanınan küçük prenslik (1923 sonrasında da sürdü).",
   kronoloji:[
     { t:"1878-07-13", tur:"son", b:"Berlin Kongresi'nde bağımsızlığı resmen tanındı" }
   ]
 },
-{ id:"bulgaristan-prensligi", ad:"Bulgaristan Prensliği", tur:"prenslik", bolge:"balkan",
-  f:"1878-07-13", t:"1908-10-05", baskent:"Sofya",
+{ id:"bulgaristan-prensligi", ad:"Bulgaristan Prensliği", tur:"prenslik", bolge:"balkanlar",
+  f:"1878-07-13", t:"1908-10-05", baskent:"Sofya", harita:"bulgaristan",
   ozet:"93 Harbi sonrası Berlin Kongresi'yle özerk prenslik olarak doğdu, 1908'de bağımsızlığını ilan etti.",
   kronoloji:[
     { t:"1878-07-13", tur:"kurulus", b:"Berlin Kongresi ile özerk prenslik statüsü kazandı" },
@@ -657,8 +667,8 @@ window.DEVLETLER = [
     { t:"1908-10-05", tur:"son", b:"Bağımsızlığını ilan etti" }
   ]
 },
-{ id:"romanya", ad:"Romanya", tur:"prenslik", bolge:"balkan",
-  f:"1859-01-24", t:"1881-03-26", baskent:"Bükreş",
+{ id:"romanya", ad:"Romanya", tur:"prenslik", bolge:"balkanlar",
+  f:"1859-01-24", t:"1881-03-26", baskent:"Bükreş", harita:"romanya",
   ozet:"Eflak ve Boğdan'ın kişisel birliğiyle doğdu, 93 Harbi sonrası bağımsızlığını kazandı.",
   kronoloji:[
     { t:"1859-01-24", tur:"birlesme", b:"Eflak ve Boğdan, Alexandru Ioan Cuza önderliğinde birleşti" },
@@ -667,7 +677,7 @@ window.DEVLETLER = [
     { t:"1881-03-26", tur:"son", b:"Krallık ilan edildi" }
   ]
 },
-{ id:"bosna-isgal", ad:"Bosna-Hersek (Avusturya İşgali)", tur:"gecici-isgal", bolge:"balkan",
+{ id:"bosna-isgal", ad:"Bosna-Hersek (Avusturya İşgali)", tur:"gecici-isgal", bolge:"balkanlar",
   f:"1878-07-13", t:"1908-10-06", baskent:"Saraybosna",
   ozet:"Berlin Kongresi'nin Osmanlı'ya nominal egemenlik bırakıp Avusturya'ya idareyi verdiği geçiş dönemi; 1908'de kesin ilhakla sona erdi.",
   kronoloji:[
@@ -675,7 +685,7 @@ window.DEVLETLER = [
     { t:"1908-10-06", tur:"son", b:"Avusturya-Macaristan resmen ilhak etti" }
   ]
 },
-{ id:"girit-devleti", ad:"Girit Devleti (Özerk)", tur:"gecici-isgal", bolge:"ege",
+{ id:"girit-devleti", ad:"Girit Devleti (Özerk)", tur:"gecici-isgal", bolge:"balkanlar",
   f:"1898-12-09", t:"1913-05-30", baskent:"Kandiye → Hanya",
   ozet:"Büyük güçlerin garantörlüğünde kurulan özerk devlet; Balkan Savaşları sonunda Yunanistan'a katıldı.",
   kronoloji:[
@@ -684,7 +694,7 @@ window.DEVLETLER = [
     { t:"1913-05-30", tur:"son", b:"Londra Antlaşması ile Yunanistan'a resmen katıldı" }
   ]
 },
-{ id:"fransiz-misir-seferi", ad:"Napolyon'un Mısır Seferi", tur:"gecici-isgal", bolge:"misir",
+{ id:"fransiz-misir-seferi", ad:"Napolyon'un Mısır Seferi", tur:"gecici-isgal", bolge:"misir-sudan",
   f:"1798-07-01", t:"1801-10-02", baskent:"Kahire",
   ozet:"Fransız Devrim ordusunun kısa süreli Mısır işgali; İngiliz-Osmanlı ortak harekâtıyla sona erdi.",
   kronoloji:[
@@ -694,7 +704,7 @@ window.DEVLETLER = [
     { t:"1801-10-02", tur:"son", b:"Fransızlar tahliye oldu, Amiens Antlaşması ile sefer resmen sona erdi" }
   ]
 },
-{ id:"kibris-ingiliz", ad:"Kıbrıs'ın İngiliz İdaresi", tur:"gecici-isgal", bolge:"akdeniz",
+{ id:"kibris-ingiliz", ad:"Kıbrıs'ın İngiliz İdaresi", tur:"gecici-isgal", bolge:"anadolu",
   f:"1878-06-04", t:"1914-11-05", baskent:"Lefkoşa",
   ozet:"Berlin Kongresi öncesi gizli anlaşmayla İngiltere'ye devredilen ada; I. Dünya Savaşı'nda resmen ilhak edildi.",
   kronoloji:[
@@ -702,7 +712,7 @@ window.DEVLETLER = [
     { t:"1914-11-05", tur:"son", b:"Osmanlı'nın Almanya yanında savaşa girmesiyle İngiltere adayı ilhak etti" }
   ]
 },
-{ id:"oniki-ada-italyan", ad:"İtalya'nın Oniki Ada İşgali", tur:"gecici-isgal", bolge:"ege",
+{ id:"oniki-ada-italyan", ad:"İtalya'nın Oniki Ada İşgali", tur:"gecici-isgal", bolge:"balkanlar",
   f:"1912-05-04", t:"1923-10-29", baskent:"Rodos",
   ozet:"Trablusgarp Savaşı sırasında baskı unsuru olarak işgal edilen adalar; Lozan'a dek resmen tartışmalı statüde kaldı (1923 sonrasında da sürdü).",
   kronoloji:[
@@ -720,8 +730,8 @@ window.DEVLETLER = [
 // ============ TIER 9 — HARİTA BOYA KİMLİKLERİNİN DİZİN KARŞILIKLARI ============
 // (data/devletler_harita.js'te boyanan, dizinde henüz olmayan devletler)
 
-{ id:"ispanya", ad:"İspanya (Kastilya-Aragon)", tur:"krallik", bolge:"bati-avrupa",
-  f:"1479-01-20", t:"1923-10-29", baskent:"Madrid",
+{ id:"ispanya", ad:"İspanya (Kastilya-Aragon)", tur:"krallik", bolge:"iberya",
+  f:"1479-01-20", t:"1923-10-29", baskent:"Madrid", harita:"ispanya",
   ozet:"Kastilya-Aragon birliğiyle doğan krallık; Akdeniz'de Osmanlı'nın 16. yüzyıldaki ana deniz rakibi (1923 sonrasında da sürdü).",
   kronoloji:[
     { t:"1479-01-20", tur:"birlesme", b:"Kastilya ile Aragon tacları birleşti" },
@@ -731,15 +741,15 @@ window.DEVLETLER = [
     { t:"1580-06-01", tur:"antlasma", b:"Osmanlı ile fiilî ateşkes — Akdeniz cephesi duruldu" }
   ]
 },
-{ id:"granada", ad:"Gırnata (Nasrî) Emirliği", tur:"devlet", bolge:"bati-avrupa",
-  f:"1238-01-01", t:"1492-01-02", baskent:"Gırnata",
+{ id:"granada", ad:"Gırnata (Nasrî) Emirliği", tur:"devlet", bolge:"iberya",
+  f:"1238-01-01", t:"1492-01-02", baskent:"Gırnata", harita:"granada",
   ozet:"İber yarımadasındaki son Müslüman devlet; yardım çağrıları Osmanlı'ya ulaştıysa da 1492'de düştü.",
   kronoloji:[
     { t:"1492-01-02", tur:"son", b:"Ebû Abdullah (Boabdil) şehri Katolik krallara teslim etti" }
   ]
 },
-{ id:"portekiz", ad:"Portekiz Krallığı", tur:"krallik", bolge:"bati-avrupa",
-  f:"1139-07-25", t:"1923-10-29", baskent:"Lizbon",
+{ id:"portekiz", ad:"Portekiz Krallığı", tur:"krallik", bolge:"iberya",
+  f:"1139-07-25", t:"1923-10-29", baskent:"Lizbon", harita:"portekiz",
   ozet:"Hint Okyanusu'nda Osmanlı'nın 16. yüzyıl rakibi: Kızıldeniz, Basra Körfezi ve Umman kıyılarında donanmalar çarpıştı (1923 sonrasında da sürdü).",
   kronoloji:[
     { t:"1507-01-01", tur:"toprak-kazanc", b:"Hürmüz ve Umman kıyılarını aldı" },
@@ -749,7 +759,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"almanya", ad:"Kutsal Roma / Almanya", tur:"imparatorluk", bolge:"orta-avrupa",
-  f:"962-02-02", t:"1923-10-29", baskent:"— (seçimli) → Berlin",
+  f:"962-02-02", t:"1923-10-29", baskent:"— (seçimli) → Berlin", harita:"almanya",
   ozet:"Alman dünyasının çatı yapısı: 1806'ya dek Kutsal Roma İmparatorluğu, 1871'den sonra Prusya önderliğinde Alman İmparatorluğu; I. Dünya Savaşı'nda Osmanlı'nın müttefiki.",
   kronoloji:[
     { t:"1806-08-06", tur:"bolunme", b:"Kutsal Roma İmparatorluğu ilga edildi" },
@@ -760,7 +770,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"hollanda", ad:"Hollanda Cumhuriyeti", tur:"cumhuriyet", bolge:"bati-avrupa",
-  f:"1581-07-26", t:"1923-10-29", baskent:"Amsterdam / Lahey",
+  f:"1581-07-26", t:"1923-10-29", baskent:"Amsterdam / Lahey", harita:"hollanda",
   ozet:"İspanya'dan bağımsızlığını ilan eden ticaret cumhuriyeti; 1612'de Osmanlı'dan kapitülasyon aldı (1923 sonrasında da sürdü).",
   kronoloji:[
     { t:"1581-07-26", tur:"kurulus", b:"Bağımsızlık ilanı (İspanya'dan ayrılış)" },
@@ -768,7 +778,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"danimarka", ad:"Danimarka-Norveç", tur:"krallik", bolge:"kuzey-avrupa",
-  f:"1380-01-01", t:"1923-10-29", baskent:"Kopenhag",
+  f:"1380-01-01", t:"1923-10-29", baskent:"Kopenhag", harita:"danimarka",
   ozet:"Kuzey Avrupa'nın çifte krallığı; Osmanlı ile 1756'da dostluk ve ticaret antlaşması imzaladı (1923 sonrasında da sürdü).",
   kronoloji:[
     { t:"1756-10-14", tur:"antlasma", b:"Osmanlı-Danimarka dostluk ve ticaret antlaşması" },
@@ -776,15 +786,15 @@ window.DEVLETLER = [
   ]
 },
 { id:"umman", ad:"Umman (Ya'rubî / Bû Saîd) Sultanlığı", tur:"sultanlik", bolge:"arabistan",
-  f:"1624-01-01", t:"1923-10-29", baskent:"Nizva → Maskat",
+  f:"1624-01-01", t:"1923-10-29", baskent:"Nizva → Maskat", harita:"umman",
   ozet:"Portekizlileri Maskat'tan atan, Doğu Afrika kıyısına uzanan denizci sultanlık (1923 sonrasında da sürdü).",
   kronoloji:[
     { t:"1650-01-26", tur:"toprak-kazanc", b:"Maskat, Portekiz'den alındı" },
     { t:"1749-06-10", tur:"hukumdar", b:"Bû Saîd hanedanı kuruldu" }
   ]
 },
-{ id:"suud-ikinci", ad:"II. Suûdî Devleti (Necid Emirliği)", tur:"devlet", bolge:"hicaz-necid",
-  f:"1824-06-01", t:"1891-01-01", baskent:"Riyad",
+{ id:"suud-ikinci", ad:"II. Suûdî Devleti (Necid Emirliği)", tur:"devlet", bolge:"arabistan",
+  f:"1824-06-01", t:"1891-01-01", baskent:"Riyad", harita:"suud",
   ozet:"Dir'iye'nin yıkımından sonra Riyad merkezli yeniden kurulan emirlik; Şammar (Reşîdî) emirliğine yenilerek dağıldı, 1902'de üçüncü kez dirildi. Bkz. [[suud-birinci]].",
   kronoloji:[
     { t:"1824-06-01", tur:"kurulus", b:"Türkî bin Abdullah Riyad'ı geri aldı" },
@@ -792,32 +802,32 @@ window.DEVLETLER = [
     { t:"1902-01-15", tur:"kurulus", b:"Abdülazîz bin Suûd Riyad'ı geri alarak üçüncü devleti kurdu" }
   ]
 },
-{ id:"sammar", ad:"Şammar (Reşîdî) Emirliği", tur:"devlet", bolge:"hicaz-necid",
-  f:"1836-01-01", t:"1921-11-02", baskent:"Hâil",
+{ id:"sammar", ad:"Şammar (Reşîdî) Emirliği", tur:"devlet", bolge:"arabistan",
+  f:"1836-01-01", t:"1921-11-02", baskent:"Hâil", harita:"sammar",
   ozet:"Hâil merkezli, Osmanlı'ya yakın duran Arap emirliği; Suûdîlerin tarihî rakibi.",
   kronoloji:[
     { t:"1891-01-24", tur:"toprak-kazanc", b:"Müleyde zaferiyle Necid'i ele geçirdi" },
     { t:"1921-11-02", tur:"son", b:"Hâil, İbn Suûd'a teslim oldu" }
   ]
 },
-{ id:"hicaz-kralligi", ad:"Hicaz Krallığı (Şerif Hüseyin)", tur:"krallik", bolge:"hicaz",
-  f:"1916-06-10", t:"1923-10-29", baskent:"Mekke",
+{ id:"hicaz-kralligi", ad:"Hicaz Krallığı (Şerif Hüseyin)", tur:"krallik", bolge:"arabistan",
+  f:"1916-06-10", t:"1923-10-29", baskent:"Mekke", harita:"hicaz",
   ozet:"1916 isyanıyla Osmanlı'dan kopan Haremeyn devleti; 1925'te (site ufkunun dışında) Suûdîlerce yıkıldı.",
   kronoloji:[
     { t:"1916-06-10", tur:"isyan", b:"Şerif Hüseyin Mekke'de isyan bayrağını açtı" },
     { t:"1919-01-10", tur:"toprak-kazanc", b:"Medine'deki son Osmanlı garnizonu (Fahreddin Paşa sonrası) teslim oldu" }
   ]
 },
-{ id:"funj", ad:"Func (Sennâr) Sultanlığı", tur:"sultanlik", bolge:"sudan",
-  f:"1504-01-01", t:"1821-06-14", baskent:"Sennâr",
+{ id:"funj", ad:"Func (Sennâr) Sultanlığı", tur:"sultanlik", bolge:"misir-sudan",
+  f:"1504-01-01", t:"1821-06-14", baskent:"Sennâr", harita:"funj",
   ozet:"Nil boyunda üç asır hüküm süren Müslüman sultanlık; Kavalalı'nın Sudan seferiyle yıkıldı. Bkz. [[misir-kavalali]].",
   kronoloji:[
     { t:"1504-01-01", tur:"kurulus", b:"Amara Dunkas tarafından kuruldu" },
     { t:"1821-06-14", tur:"son", b:"İsmâil Kâmil Paşa'nın ordusuna direnmeden teslim oldu" }
   ]
 },
-{ id:"habesistan", ad:"Habeşistan İmparatorluğu", tur:"imparatorluk", bolge:"afrika-boynuzu",
-  f:"1270-01-01", t:"1923-10-29", baskent:"Gondar → Addis Ababa",
+{ id:"habesistan", ad:"Habeşistan İmparatorluğu", tur:"imparatorluk", bolge:"dogu-afrika",
+  f:"1270-01-01", t:"1923-10-29", baskent:"Gondar → Addis Ababa", harita:"habesistan",
   ozet:"Afrika'nın en eski Hristiyan devleti; 16. yüzyılda Osmanlı destekli Adal ordularıyla ölüm kalım savaşı yaptı (1923 sonrasında da sürdü).",
   kronoloji:[
     { t:"1529-03-09", tur:"savas", b:"Ahmed Gran'ın Şimbra Kure zaferi — Adal istilası başladı" },
@@ -826,8 +836,8 @@ window.DEVLETLER = [
     { t:"1896-03-01", tur:"savas", b:"Adva'da İtalya'yı yenerek bağımsızlığını korudu" }
   ]
 },
-{ id:"adal", ad:"Adal Sultanlığı / Harar Emirliği", tur:"sultanlik", bolge:"afrika-boynuzu",
-  f:"1415-01-01", t:"1887-01-06", baskent:"Zeyla → Harar",
+{ id:"adal", ad:"Adal Sultanlığı / Harar Emirliği", tur:"sultanlik", bolge:"dogu-afrika",
+  f:"1415-01-01", t:"1887-01-06", baskent:"Zeyla → Harar", harita:"adal",
   ozet:"Osmanlı'dan top ve tüfek desteği alarak Habeşistan'ı istila eden sultanlık; ardılı Harar emirliği 1887'de Habeş'e katıldı.",
   kronoloji:[
     { t:"1529-03-09", tur:"savas", b:"Ahmed Gran önderliğinde Habeş istilası başladı" },
@@ -837,7 +847,7 @@ window.DEVLETLER = [
   ]
 },
 
-{ id:"zaporojye", ad:"Zaporojye Kazak Hetmanlığı", tur:"cumhuriyet", bolge:"karadeniz-kuzeyi",
+{ id:"zaporojye", ad:"Zaporojye Kazak Hetmanlığı", tur:"cumhuriyet", bolge:"sibirya-bozkir",
   f:"1552-01-01", t:"1775-06-16", baskent:"Zaporojye Seçi",
   ozet:"Dinyeper aşağısında yarı-askerî kazak topluluğu; zaman zaman Osmanlı/Kırım'a karşı Rusya'yla, zaman zaman onlara karşı Osmanlı'yla ittifak kurdu.",
   kronoloji:[
