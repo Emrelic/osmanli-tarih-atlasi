@@ -22,20 +22,43 @@ devletler, hükümdarları ve kronolojileri eklenecek.
 index.html            Ana sayfa (tek sayfa uygulama)
 css/style.css         Görünüm
 js/app.js             Harita + GÜN bazlı zaman akışı + oto-zoom + paneller
-arac/uret_donemler.py Sınır derleme betiği (kesitler + ara parçalar + kara maskesi
-                      → dissolve edilmiş dönem geometrileri + bbox + km²)
-data/donemler.js      ÜRETİLMİŞ dönem kesitleri (66 dönem; elle düzenlenmez)
+arac/uret_petek.py    PETEK MOTORU — tek üretim betiği (aşağıya bakınız)
+data/yerlesimler.js   ELLE YAZILAN TEK KAYNAK: 567 yerleşim, her birinin hâkimiyet
+                      zinciri (d: doğrudan, v: tâbi, s: yabancı sahip, kur: kuruluş)
+data/donemler.js      ÜRETİLMİŞ dönem kesitleri (~420 dönem; elle düzenlenmez)
+data/devletler_harita.js  ÜRETİLMİŞ yabancı devlet gövdeleri (~82 devlet)
+data/bolgeler.js      ÜRETİLMİŞ idari bölge sınırları (k1/k2 merkezlerinden)
 data/olaylar.js       Ana kronoloji (84 olay, detaylı)
-data/olaylar_ek.js    Fetih/kayıp maddeleri (62 olay; başlık önce, detay sonra)
+data/olaylar_ek*.js   Derinleştirme partileri 1-6 (ek..ek6); toplam ~800 madde
 data/kisiler.js       Kişi dizini (sadrazam/paşa/komutan/denizci/yabancı... 75 kayıt)
-data/savaslar.js      Savaşlar (38) + antlaşmalar (21) + savaş serileri (13) tabloları
+data/savaslar.js      Seferler (36) + antlaşmalar + savaş serileri tabloları
 data/padisahlar.js    36 padişah + Fetret Devri + saltanat sonrası dönem
 assets/portreler/     Padişah portreleri (36/36, kamu malı)
 ```
 Zaman çizgisi GÜN hassasiyetlidir; sınır değişimleri bilinen kesin günlerde gerçekleşir
 (ör. İstanbul 29 Mayıs 1453'te haritaya eklenir). Harita otomatik yakınlaştırma ile
-toprak büyüdükçe uzaklaşır; lejantta anlık ≈km² yüzölçümü gösterilir. Tüm elle çizilen
-parçalar kara maskesiyle kesildiğinden sınırlar kıyı çizgilerine oturur.
+toprak büyüdükçe uzaklaşır; lejantta anlık ≈km² yüzölçümü gösterilir.
+
+## Harita motoru: PETEK (Voronoi) yaklaşımı
+Sınırlar artık elle çizilmiyor ve hazır atlas kesitlerinden gelmiyor. Her yerleşim
+bir **petek** (Voronoi hücresi) sahibidir; petek sınırları komşuların tam ortasından
+geçer, sonra gerçek kıyı çizgisine, nehir yataklarına ve dağ sırtlarına yaslanır,
+Chaikin ile yumuşatılır, Natural Earth kara maskesiyle kesilir ve 117 göl çıkarılır.
+Bir yerleşim el değiştirince peteği bütün olarak el değiştirir.
+
+⚠️ **Motorun tek zayıf noktası ve bu projedeki hataların ana kaynağı:** noktası
+olmayan bölge, en yakın peteğe emilir ve **o peteğin sahibiyle boyanır**. Sardinya'nın
+1533'te Osmanlı görünmesi, Kefalonya'nın 1684'e kadar Osmanlı kalması, Ordu-Ünye
+kıyısının Hacıemîroğulları'nı hiç göstermemesi — hepsi aynı sebepten. Yeni bir hata
+raporu geldiğinde ilk sorulacak soru: *o bölgede yerleşim noktası var mı?*
+
+## İki değişmez (her üretimden önce denetlenir)
+1. **Sahipsizlik**: hiçbir yerleşim, var olduğu bir tarihte sahipsiz kalmamalı.
+   Şu an 29 nokta kasten sahipsizdir (Sahra/Rub'ul Hâlî çölleri, 1744 öncesi Necid,
+   körfez şeyhlikleri) — bunlar boş kalması *doğru* olan yerlerdir.
+2. **Sessiz toprak değişimi yok**: haritadaki her kırılmanın ±30 gün içinde bir
+   kronoloji maddesi olmalı. Aksi hâlde değişim, o güne rastgele denk gelen alakasız
+   bir maddenin altında belirir. Şu an: **424 kırılmanın 424'ü maddeli.**
 
 ## Faz planı
 - **Faz 0 — Çekirdek** ✅ (bu kurulum): harita, ay-ay zaman göstergesi + oynatma,
@@ -60,44 +83,60 @@ parçalar kara maskesiyle kesildiğinden sınırlar kıyı çizgilerine oturur.
   kaynağa ulaşma aracı, tek dayanak değil.
 
 ## Doğruluk notu (önemli)
-**Faz 2 / 1. geçiş tamamlandı**: ana sınır geometrisi artık akademik atlaslardan
-sayısallaştırılmış **historical-basemaps** açık veri setinden geliyor
-(github.com/aourednik/historical-basemaps; 13 yıl kesiti: 1400–1914).
-Üretim betiği scratchpad'de; şu tarihsel düzeltmeler geometrik kesme ile uygulandı:
-- 1400 kesitinden İstanbul çevresi çıkarıldı (Bizans enklavı; fetih 1453)
-- 1530/1600 kesitlerinden Girit (fetih 1669), 1530 kesitinden Kıbrıs (fetih 1571) çıkarıldı
-- 1700 kesitinden Mora çıkarıldı (1699–1715 Venedik'te)
-- 1815 kesitinden bağımsız Yunanistan çıkarıldı (1830 sonrası dönem için)
-- 1900 kesitinden Kıbrıs (1878 İngiliz idaresi) ve Sina (Mısır idaresi) çıkarıldı
-- 1914 kesitine Doğu Trakya elle eklendi (veri setinde eksikti)
-Vassal/özerk topraklar (Kırım Hanlığı, 1715 sonrası Mısır ve Kuzey Afrika ocakları)
-haritada **açık tonla** ayrı katmanda gösterilir.
+**historical-basemaps dönemi kapandı.** Sınırlar bir süre bu açık veri setinin 13 yıl
+kesitinden türetiliyordu; kesitler arası değişimin adım adım olması, vasal toprakların
+doğrudan görünmesi ve Kuruluş/Fetret/Mütareke dönemlerinin elle çizili kaba halkalar
+kalması yüzünden bu yaklaşım bırakıldı. Yerine yukarıda anlatılan petek motoru geçti;
+geometri artık 567 yerleşimin hâkimiyet zincirinden **her gün için yeniden** üretiliyor.
+Eski listedeki sapmaların tamamı (Rodos 1517, Selanik 1403-1430, Mora 1700, Kıbrıs 1530)
+bu geçişle ortadan kalktı.
 
-Bilinen kalan sapmalar (2. geçişte Pitcher ile düzeltilecek):
-- Kesit yılları arası değişimler adım adımdır (ör. 1571–1650 tek kesit kullanır)
-- Eflak-Boğdan ve Sırbistan bazı kesitlerde doğrudan toprak görünür (vasal/özerktiler)
-- Rodos 1517'den itibaren görünür (fetih 1522); Selanik 1403–1430 arası Osmanlı görünür
-- Kuruluş (1299–1362), Fetret (1402–1413) ve Mütareke (1918–1923) dönemleri hâlâ elle
-  çizili kaba halkalardır (veri setinde kesit yok)
+Vasal/özerk topraklar (Kırım Hanlığı, Eflak-Boğdan, 1805 sonrası Mısır ve Kuzey Afrika
+ocakları) haritada **açık tonla** ayrı katmanda gösterilir; `v:` alanı bunu taşır.
 
-## Kronoloji yoğunlaştırma partileri (ay ay detay + harita senkronu)
-Her parti: ~25-40 yeni ay-detay maddesi + o dönemin sınır/şehir senkron düzeltmeleri.
-- [x] Parti 1 — Kuruluş–Fetih (1299–1453): 28 madde; Selanik 1403/1430, Gelibolu
-      1366-76, Semendire 1439-44 harita senkronları
-- [ ] Parti 2 — Yükselme (1453–1566): Fatih-Yavuz-Kanunî dönemleri
-- [ ] Parti 3 — Duraklama yüzyılı (1566–1699)
-- [ ] Parti 4 — 18. yüzyıl (1699–1808)
-- [ ] Parti 5 — Modernleşme (1808–1876)
-- [ ] Parti 6 — Abdülhamid ve son dönem (1876–1923)
-Not: içerik doldurma partileri Sonnet ile yürütülebilir (kota tasarrufu);
-yapısal/harita işleri güçlü modelde kalmalı.
+Bilinen kalan sapmalar:
+- Petek sınırı idari sınır değildir: nüfus yoğunluğunun düşük olduğu yerlerde bir
+  yerleşimin "temsil ettiği" alan gerçek sancak sınırından geniş çıkabilir.
+- Bazı kırılma tarihleri gün değil yıl hassasiyetindedir (`f:"1693-01-01"` gibi);
+  bunlar kaynakta gün verilmediği için kasten yıl başına yaslanmıştır.
+- 1918-1923 arası Avrupa ardıl devletleri (Çekoslovakya, Polonya, Yugoslavya…) yalnız
+  haritada delik kalmasın diye eklendi; sınırları temsilîdir, atlasın konusu değildir.
+
+## Kronoloji yoğunlaştırma partileri
+- [x] Parti 1 — Kuruluş–Fetih (1299–1453)
+- [x] Parti 2-5 — Vikipedi karşılaştırması, ada katmanı, Fetret, sessiz değişimler
+- [x] Parti 6 — Harita kırılmalarının katı denetimi: 424/424 kırılma maddeli
+- [ ] Parti 7 — Ay ay detay yoğunlaştırma (1453–1923); yalnız içerik, harita etkisi yok
+
+## Paralel oturum planı (çakışmayı önleyen dosya sahipliği)
+Aynı dosyaya iki oturum dokunursa `yerlesimler.js` üzerinde sessiz kayıp olur.
+Bölme kriteri **konu değil dosyadır**; her dosyanın tek sahibi vardır.
+
+| Oturum | Yalnız bu dosyalara yazar | Model |
+|---|---|---|
+| **0 Entegrasyon** | `yerlesimler.js`, `uret_petek.py`, üretilen `data/*.js`, PLAN.md | Opus |
+| 1 Yazılım/arayüz | `index.html`, `js/app.js`, `css/style.css` | Sonnet |
+| 2 Harita hata avı | hiçbiri — sadece okur → `denetim/BULGULAR-*.md` | Opus |
+| 3 Devlet kronolojileri | yeni `data/devletler_kronoloji.js` | Sonnet |
+| 4 Yerleşim araştırma | yeni `data/yerlesimler_ek.js` | Opus |
+| 5 Siyasî figürler | `data/kisiler.js` | Sonnet |
+| 6 Yapı denetimi | `arac/denetle.py` + `denetim/YAPI-*.md` | Sonnet |
+| 7 Kronoloji Parti 7 | yeni `data/olaylar_ek7.js` | Sonnet |
+
+Kurallar: üretim betiğini yalnız 0 çalıştırır; commit/push yalnız 0'dan yapılır;
+2 ve 6 düzeltme yapmaz yalnız rapor yazar; aynı anda en çok 3 oturum koşar.
+**Haiku hiçbirinde kullanılmaz** — TDV ölü slug tuzağını (bkz. aşağıdaki not) atlıyor.
+
+⚠️ **TDV slug tuzağı**: islamansiklopedisi.org.tr olmayan slug için de HTTP 200
+döndürür ve sessizce arama sayfasına yönlendirir. Ölü slug'ı yalnız sayfa başlığı
+ele verir: `<title>` "Arama - TDV İslâm Ansiklopedisi" ise madde YOKTUR.
 
 ## Yapılacaklar (kısa vade)
-- [x] Sınırların atlas verisiyle ilk inceltme turu (historical-basemaps + düzeltmeler)
-- [x] Padişah portre görsellerinin toplanması (36/36; kamu malı, Wikimedia — kaynaklar assets/portreler/KAYNAKLAR.txt)
-- [x] Olay detaylarının genişletilmesi (84 olay: gün/yer/kişiler alanları + detay
-      paragrafları + tamamı 200-OK doğrulanmış TDV İA madde bağlantıları)
-- [ ] Sınırların Pitcher ile nokta doğrulama turu (2. geçiş; kalan sapmalar yukarıda)
+- [x] Padişah portre görsellerinin toplanması (36/36; kamu malı, Wikimedia)
+- [x] Olay detaylarının genişletilmesi (gün/yer/kişiler + doğrulanmış TDV bağlantıları)
 - [x] Ücretsiz yayın: GitHub Pages — https://emrelic.github.io/osmanli-tarih-atlasi/
       (depo: github.com/Emrelic/osmanli-tarih-atlasi; her push otomatik yayınlanır)
+- [ ] **Görsel doğrulama turu**: bütün denetimler veri düzeyinde; haritanın gerçekten
+      nasıl göründüğüne (Macaristan şekli, Fetret renkleri, ada gövdeleri) bakılmadı
+- [ ] Sınırların Pitcher ile nokta doğrulama turu
 - [ ] Alan adı kararı (istenirse ~10 dk'da bağlanır: depo ayarları > Pages > Custom domain)

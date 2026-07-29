@@ -146,8 +146,11 @@ window.YERLESIMLER = [
 { ad:"Karaman", tur:"sehir", lat:37.181, lon:33.215, g:0, k:3, m:"Konya", s:[{f:"1402-09-15",t:"1468-01-01",d:"karaman"},{f:"1281-01-01",t:"1397-07-01",d:"karaman"}], d:[{f:"1397-07-01",t:"1402-07-28"},{f:"1468-01-01",t:"1923-10-29"}],
     v:[{f:"1832-11-21",t:"1833-06-30",k:"Mısır ordusu (işgal)"}] },
 { ad:"Niğde", tur:"sehir", lat:37.966, lon:34.679, g:0, k:3, m:"Konya", s:[{f:"1281-01-01",t:"1468-01-01",d:"karaman"}], d:[{f:"1468-01-01",t:"1923-10-29"}] },
+// Alâiye 1293'ten 1471'e kadar kendi bey soyuyla yönetilen ayrı bir beylikti
+// (TDV ALÂİYE BEYLİĞİ). Karamanoğulları rengiyle boyandığı için haritada 178 yıl
+// boyunca Karaman'ın içinde eriyordu.
 { ad:"Alanya", tur:"liman", lat:36.544, lon:31.999, g:1, k:3, m:"Antalya",
-    s:[{f:"1281-01-01",t:"1471-01-01",d:"karaman"}], d:[{f:"1471-01-01",t:"1923-10-29",y:"savas"}] },
+    s:[{f:"1281-01-01",t:"1293-01-01",d:"karaman"},{f:"1293-01-01",t:"1471-01-01",d:"alaiye"}], d:[{f:"1471-01-01",t:"1923-10-29",y:"savas"}] },
 { ad:"Anamur", tur:"kale", lat:36.078, lon:32.837, g:0, k:4, m:"Antalya",
     s:[{f:"1281-01-01",t:"1471-01-01",d:"karaman"}], d:[{f:"1471-01-01",t:"1923-10-29"}] },
 { ad:"Silifke", tur:"sehir", lat:36.309, lon:33.938, g:0, k:4, m:"Konya",
@@ -168,13 +171,21 @@ window.YERLESIMLER = [
 { ad:"Sivas", tur:"sehir", lat:39.750, lon:37.015, g:1, k:2, s:[{f:"1281-01-01",t:"1335-01-01",d:"ilhanli"},{f:"1335-01-01",t:"1381-01-01",d:"eretna"},{f:"1381-01-01",t:"1398-07-15",d:"burhaneddin"},{f:"1402-07-28",t:"1408-06-01",d:"timurlu"},{f:"1408-06-01",t:"1413-07-05",d:"mehmed-celebi"}], d:[{f:"1398-07-15",t:"1402-07-28",y:"antlasma"},{f:"1413-07-05",t:"1923-10-29"}] },
 { ad:"Trabzon", tur:"liman", lat:41.005, lon:39.723, g:2, k:2, s:[{f:"1281-01-01",t:"1461-08-15",d:"bizans"}], d:[{f:"1461-08-15",t:"1923-10-29",y:"kusatma"}] },
 { ad:"Giresun", tur:"liman", lat:40.918, lon:38.389, g:0, k:4, m:"Trabzon", s:[{f:"1281-01-01",t:"1461-08-15",d:"bizans"}], d:[{f:"1461-08-15",t:"1923-10-29"}] },
+// Samsun ile Giresun arasındaki kıyıda hiç nokta yoktu; bölge en yakın peteğe
+// emiliyor ve Hacıemîroğulları haritada hiç görünmüyordu. TDV ORDU (şehir):
+// Bayram Bey'in kurduğu beyliği oğlu Hacı Emîr ~1350'de genişletti, merkez
+// Eskipazar'dı; emîr Süleyman 1398'de Yıldırım'a bağlandı, ilhak 1427'de oldu.
+{ ad:"Ordu (Bayramlı)", tur:"sehir", lat:40.976, lon:37.848, g:0, k:4, m:"Trabzon", s:[{f:"1281-01-01",t:"1427-06-01",d:"haciemir"}], d:[{f:"1427-06-01",t:"1923-10-29"}],
+    v:[{f:"1398-06-01",t:"1402-07-28",k:"Yıldırım Bayezid'e bağlılık"}] },
+{ ad:"Ünye", tur:"liman", lat:41.128, lon:37.283, g:0, k:4, m:"Trabzon", s:[{f:"1281-01-01",t:"1427-06-01",d:"haciemir"}], d:[{f:"1427-06-01",t:"1923-10-29"}],
+    v:[{f:"1398-06-01",t:"1402-07-28",k:"Yıldırım Bayezid'e bağlılık"}] },
 { ad:"Rize", tur:"liman", lat:41.020, lon:40.523, g:0, k:4, m:"Trabzon", s:[{f:"1281-01-01",t:"1461-08-15",d:"bizans"}], d:[{f:"1461-08-15",t:"1923-10-29"}] },
 { ad:"Erzincan", tur:"sehir", lat:39.750, lon:39.492, g:0, k:3, m:"Erzurum", s:[{f:"1281-01-01",t:"1348-01-01",d:"ilhanli"},{f:"1348-01-01",t:"1379-01-01",d:"akkoyunlu"},{f:"1379-01-01",t:"1410-01-01",d:"mutahharten"},{f:"1410-01-01",t:"1473-08-11",d:"akkoyunlu"}], d:[{f:"1473-08-11",t:"1923-10-29",y:"savas"}] },
 { ad:"Erzurum", tur:"sehir", lat:39.905, lon:41.266, g:1, k:2, s:[{f:"1281-01-01",t:"1348-01-01",d:"ilhanli"},{f:"1348-01-01",t:"1515-09-15",d:"akkoyunlu"}], d:[{f:"1515-09-15",t:"1923-10-29",y:"antlasma"}] },
 { ad:"Kars", tur:"kale", lat:40.602, lon:43.095, g:1, k:3, m:"Erzurum", s:[{f:"1281-01-01",t:"1534-06-01",d:"gurcistan"},{f:"1878-07-13",t:"1918-05-25",d:"rusya"}], d:[{f:"1534-06-01",t:"1878-07-13",y:"kusatma"},{f:"1918-05-25",t:"1923-10-29",y:"antlasma"}] },
 { ad:"Ardahan", tur:"kale", lat:41.111, lon:42.702, g:0, k:4, m:"Erzurum", s:[{f:"1281-01-01",t:"1551-01-01",d:"gurcistan"},{f:"1878-07-13",t:"1918-05-25",d:"rusya"}], d:[{f:"1551-01-01",t:"1878-07-13"},{f:"1918-05-25",t:"1923-10-29"}] },
-{ ad:"Van", tur:"kale", lat:38.502, lon:43.393, g:1, k:2, s:[{f:"1281-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-25",d:"safevi"}], d:[{f:"1548-08-25",t:"1918-10-30",y:"kusatma"}] },
-{ ad:"Bitlis", tur:"sehir", lat:38.401, lon:42.108, g:0, k:3, m:"Van", s:[{f:"1281-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1515-09-15",d:"akkoyunlu"}], d:[{f:"1515-09-15",t:"1918-10-30"}] },
+{ ad:"Van", tur:"kale", lat:38.502, lon:43.393, g:1, k:2, s:[{f:"1281-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-25",d:"safevi"}], d:[{f:"1548-08-25",t:"1923-10-29",y:"kusatma"}] },
+{ ad:"Bitlis", tur:"sehir", lat:38.401, lon:42.108, g:0, k:3, m:"Van", s:[{f:"1281-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1515-09-15",d:"akkoyunlu"}], d:[{f:"1515-09-15",t:"1923-10-29"}] },
 { ad:"Diyarbakır", tur:"sehir", lat:37.911, lon:40.237, g:2, k:2, s:[{f:"1281-01-01",t:"1378-01-01",d:"artuklu"},{f:"1378-01-01",t:"1515-09-19",d:"akkoyunlu"}], d:[{f:"1515-09-19",t:"1923-10-29",y:"kusatma"}] },
 { ad:"Mardin", tur:"kale", lat:37.312, lon:40.735, g:0, k:3, m:"Diyarbakır", s:[{f:"1281-01-01",t:"1409-01-01",d:"artuklu"},{f:"1409-01-01",t:"1467-11-10",d:"karakoyunlu"},{f:"1467-11-10",t:"1515-09-15",d:"akkoyunlu"}], d:[{f:"1515-09-15",t:"1923-10-29"}] },
 // Belen (Beylan) Geçidi bozgunundan (29 Temmuz 1832) sonra Toroslar'ın güneyi
@@ -297,14 +308,14 @@ window.YERLESIMLER = [
 { ad:"İbrail", tur:"kale", lat:45.270, lon:27.972, g:0, k:3, m:"Silistre", s:[{f:"1281-01-01",t:"1538-09-01",d:"eflak"},{f:"1829-09-14",t:"1923-10-29",d:"romanya"}], d:[{f:"1538-09-01",t:"1829-09-14"}] },
 { ad:"Özi", tur:"kale", lat:46.619, lon:31.539, g:0, k:3, m:"Silistre", s:[{f:"1281-01-01",t:"1538-09-01",d:"kirim"},{f:"1788-12-17",t:"1923-10-29",d:"rusya"}], d:[{f:"1538-09-01",t:"1788-12-17"}] },
 { ad:"Kamaniçe", tur:"kale", lat:48.674, lon:26.574, g:0, k:2, s:[{f:"1281-01-01",t:"1672-08-27",d:"lehistan"},{f:"1699-01-26",t:"1793-01-23",d:"lehistan"},{f:"1793-01-23",t:"1923-10-29",d:"rusya"}], d:[{f:"1672-08-27",t:"1699-01-26",y:"kusatma"}] },
-{ ad:"Erdel (Kaloşvar)", tur:"bolge", lat:46.770, lon:23.591, g:0, k:2, s:[{f:"1281-01-01",t:"1526-09-01",d:"macaristan"},{f:"1687-08-12",t:"1918-11-11",d:"avusturya"}], v:[{f:"1526-09-01",t:"1541-08-29",k:"Macaristan (Zapolya vasal krallığı)"}], d:[{f:"1541-08-29",t:"1687-08-12",y:"vassal"}] },
-{ ad:"Budin", tur:"sehir", lat:47.498, lon:19.040, g:2, k:2, s:[{f:"1281-01-01",t:"1526-09-01",d:"macaristan"},{f:"1686-09-02",t:"1918-11-11",d:"avusturya"}], v:[{f:"1526-09-01",t:"1541-08-29",k:"Macaristan (Zapolya vasal krallığı)"}], d:[{f:"1541-08-29",t:"1686-09-02",y:"ilhak"}] },
-{ ad:"Peçuy", tur:"sehir", lat:46.073, lon:18.233, g:0, k:3, m:"Budin", s:[{f:"1281-01-01",t:"1543-07-21",d:"macaristan"},{f:"1686-10-14",t:"1918-11-11",d:"avusturya"}], d:[{f:"1543-07-21",t:"1686-10-14",y:"kusatma"}] },
-{ ad:"Estergon", tur:"kale", lat:47.795, lon:18.740, g:0, k:3, m:"Budin", s:[{f:"1281-01-01",t:"1543-08-10",d:"macaristan"},{f:"1595-09-02",t:"1605-10-03",d:"avusturya"},{f:"1683-10-09",t:"1918-11-11",d:"avusturya"}], d:[{f:"1543-08-10",t:"1595-09-02",y:"kusatma"},{f:"1605-10-03",t:"1683-10-09",y:"kusatma"}] },
-{ ad:"Eğri", tur:"kale", lat:47.902, lon:20.377, g:0, k:3, m:"Budin", s:[{f:"1281-01-01",t:"1596-10-12",d:"macaristan"},{f:"1687-12-17",t:"1918-11-11",d:"avusturya"}], d:[{f:"1596-10-12",t:"1687-12-17",y:"kusatma"}] },
-{ ad:"Kanije", tur:"kale", lat:46.454, lon:16.989, g:0, k:3, m:"Budin", s:[{f:"1281-01-01",t:"1600-10-20",d:"macaristan"},{f:"1690-04-13",t:"1918-11-11",d:"avusturya"}], d:[{f:"1600-10-20",t:"1690-04-13",y:"kusatma"}] },
-{ ad:"Uyvar", tur:"kale", lat:47.986, lon:18.162, g:0, k:3, m:"Budin", s:[{f:"1281-01-01",t:"1663-09-24",d:"avusturya"},{f:"1685-08-19",t:"1918-11-11",d:"avusturya"}], d:[{f:"1663-09-24",t:"1685-08-19",y:"kusatma"}] },
-{ ad:"Temeşvar", tur:"kale", lat:45.760, lon:21.230, g:0, k:2, s:[{f:"1281-01-01",t:"1552-07-27",d:"macaristan"},{f:"1716-10-13",t:"1918-11-11",d:"avusturya"}], d:[{f:"1552-07-27",t:"1716-10-13",y:"kusatma"}] },
+{ ad:"Erdel (Kaloşvar)", tur:"bolge", lat:46.770, lon:23.591, g:0, k:2, s:[{f:"1281-01-01",t:"1526-09-01",d:"macaristan"},{f:"1687-08-12",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"romanya"}], v:[{f:"1526-09-01",t:"1541-08-29",k:"Macaristan (Zapolya vasal krallığı)"}], d:[{f:"1541-08-29",t:"1687-08-12",y:"vassal"}] },
+{ ad:"Budin", tur:"sehir", lat:47.498, lon:19.040, g:2, k:2, s:[{f:"1281-01-01",t:"1526-09-01",d:"macaristan"},{f:"1686-09-02",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"macaristan"}], v:[{f:"1526-09-01",t:"1541-08-29",k:"Macaristan (Zapolya vasal krallığı)"}], d:[{f:"1541-08-29",t:"1686-09-02",y:"ilhak"}] },
+{ ad:"Peçuy", tur:"sehir", lat:46.073, lon:18.233, g:0, k:3, m:"Budin", s:[{f:"1281-01-01",t:"1543-07-21",d:"macaristan"},{f:"1686-10-14",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"macaristan"}], d:[{f:"1543-07-21",t:"1686-10-14",y:"kusatma"}] },
+{ ad:"Estergon", tur:"kale", lat:47.795, lon:18.740, g:0, k:3, m:"Budin", s:[{f:"1281-01-01",t:"1543-08-10",d:"macaristan"},{f:"1595-09-02",t:"1605-10-03",d:"avusturya"},{f:"1683-10-09",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"macaristan"}], d:[{f:"1543-08-10",t:"1595-09-02",y:"kusatma"},{f:"1605-10-03",t:"1683-10-09",y:"kusatma"}] },
+{ ad:"Eğri", tur:"kale", lat:47.902, lon:20.377, g:0, k:3, m:"Budin", s:[{f:"1281-01-01",t:"1596-10-12",d:"macaristan"},{f:"1687-12-17",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"macaristan"}], d:[{f:"1596-10-12",t:"1687-12-17",y:"kusatma"}] },
+{ ad:"Kanije", tur:"kale", lat:46.454, lon:16.989, g:0, k:3, m:"Budin", s:[{f:"1281-01-01",t:"1600-10-20",d:"macaristan"},{f:"1690-04-13",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"macaristan"}], d:[{f:"1600-10-20",t:"1690-04-13",y:"kusatma"}] },
+{ ad:"Uyvar", tur:"kale", lat:47.986, lon:18.162, g:0, k:3, m:"Budin", s:[{f:"1281-01-01",t:"1663-09-24",d:"avusturya"},{f:"1685-08-19",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"cekoslovakya"}], d:[{f:"1663-09-24",t:"1685-08-19",y:"kusatma"}] },
+{ ad:"Temeşvar", tur:"kale", lat:45.760, lon:21.230, g:0, k:2, s:[{f:"1281-01-01",t:"1552-07-27",d:"macaristan"},{f:"1716-10-13",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"romanya"}], d:[{f:"1552-07-27",t:"1716-10-13",y:"kusatma"}] },
 // ---------------- ADALAR ----------------
 { ad:"Rodos", tur:"kale", lat:36.443, lon:28.226, g:1, k:2, s:[{f:"1281-01-01",t:"1310-08-15",d:"bizans"},{f:"1310-08-15",t:"1522-12-21",d:"sovalye"},{f:"1912-05-04",t:"1923-10-29",d:"italya"}], d:[{f:"1522-12-21",t:"1912-05-04",y:"kusatma"}] },
 { ad:"Sakız", tur:"liman", lat:38.368, lon:26.135, g:0, k:3, m:"İzmir", s:[{f:"1281-01-01",t:"1566-04-14",d:"ceneviz"},{f:"1694-09-21",t:"1695-02-22",d:"venedik"},{f:"1912-11-11",t:"1923-10-29",d:"yunanistan"}], d:[{f:"1566-04-14",t:"1694-09-21",y:"ilhak"},{f:"1695-02-22",t:"1912-11-11",y:"savas"}] },
@@ -366,14 +377,14 @@ window.YERLESIMLER = [
 { ad:"Nahçıvan", tur:"sehir", lat:39.209, lon:45.412, g:0, k:3, m:"Revan", s:[{f:"1281-01-01",t:"1923-10-29",d:"iran"}], d:[
     {f:"1585-01-01",t:"1603-10-21"}, {f:"1725-01-01",t:"1730-08-12"}] },
 { ad:"Tiflis", tur:"sehir", lat:41.716, lon:44.783, g:1, k:2, s:[{f:"1281-01-01",t:"1801-09-12",d:"gurcistan"},{f:"1801-09-12",t:"1923-10-29",d:"rusya"}], d:[
-    {f:"1578-08-09",t:"1606-01-01",y:"savas"}, {f:"1723-06-15",t:"1735-03-10",y:"kusatma"}] },
+    {f:"1578-08-09",t:"1606-01-01",y:"savas"}, {f:"1723-06-15",t:"1735-06-19",y:"kusatma"}] },
 { ad:"Revan", tur:"kale", lat:40.183, lon:44.515, g:1, k:2, s:[{f:"1281-01-01",t:"1828-02-10",d:"iran"},{f:"1828-02-10",t:"1923-10-29",d:"rusya"}], d:[
     {f:"1583-06-01",t:"1604-06-08",y:"kusatma"}, {f:"1635-08-08",t:"1636-04-01",y:"kusatma"},
-    {f:"1724-09-28",t:"1735-06-14",y:"kusatma"}] },
+    {f:"1724-09-28",t:"1735-06-19",y:"kusatma"}] },
 { ad:"Gence", tur:"kale", lat:40.683, lon:46.360, g:0, k:3, m:"Revan", s:[{f:"1281-01-01",t:"1813-10-24",d:"iran"},{f:"1813-10-24",t:"1923-10-29",d:"rusya"}], d:[
-    {f:"1588-01-01",t:"1606-01-01"}, {f:"1725-09-12",t:"1735-03-10"}] },
+    {f:"1588-01-01",t:"1606-01-01"}, {f:"1725-09-12",t:"1735-06-19"}] },
 { ad:"Şamahı", tur:"sehir", lat:40.632, lon:48.641, g:0, k:2, s:[{f:"1281-01-01",t:"1813-10-24",d:"iran"},{f:"1813-10-24",t:"1923-10-29",d:"rusya"}], d:[
-    {f:"1578-11-01",t:"1607-01-01"}, {f:"1723-08-01",t:"1735-03-10"}] },
+    {f:"1578-11-01",t:"1607-01-01"}, {f:"1723-08-01",t:"1735-06-19"}] },
 { ad:"Bakü", tur:"liman", lat:40.372, lon:49.867, g:1, k:3, m:"Şamahı", s:[{f:"1281-01-01",t:"1813-10-24",d:"iran"},{f:"1813-10-24",t:"1923-10-29",d:"rusya"}], d:[
     {f:"1583-08-01",t:"1607-01-01",y:"savas"}] },
 { ad:"Derbend", tur:"kale", lat:42.058, lon:48.290, g:0, k:3, m:"Şamahı", s:[{f:"1281-01-01",t:"1813-10-24",d:"iran"},{f:"1813-10-24",t:"1923-10-29",d:"rusya"}], d:[
@@ -384,8 +395,8 @@ window.YERLESIMLER = [
     {f:"1723-10-01",t:"1730-08-12",y:"savas"}] },
 { ad:"Luristan", tur:"bolge", lat:33.487, lon:48.356, g:0, k:3, m:"Hemedan", s:[{f:"1281-01-01",t:"1923-10-29",d:"iran"}], d:[
     {f:"1590-03-21",t:"1603-10-21",y:"antlasma"}] },
-{ ad:"Şehrizor", tur:"sehir", lat:35.560, lon:45.430, g:0, k:2, s:[{f:"1281-01-01",t:"1554-01-01",d:"iran"},{f:"1623-01-14",t:"1638-12-25",d:"iran"},{f:"1918-10-30",t:"1923-10-29",d:"ingiltere"}], d:[
-    {f:"1554-01-01",t:"1623-01-14"}, {f:"1638-12-25",t:"1918-10-30"}] },
+{ ad:"Şehrizor", tur:"sehir", lat:35.560, lon:45.430, g:0, k:2, s:[{f:"1281-01-01",t:"1554-01-01",d:"iran"},{f:"1623-11-28",t:"1638-12-25",d:"iran"},{f:"1918-10-30",t:"1923-10-29",d:"ingiltere"}], d:[
+    {f:"1554-01-01",t:"1623-11-28"}, {f:"1638-12-25",t:"1918-10-30"}] },
 // ---------------- SURİYE / IRAK / HİCAZ ----------------
 // 1831-1841 MISIR İŞGALİ: İbrâhim Paşa Kasım 1831'de Gazze-Yafa hattından girdi,
 // Akkâ'yı Mayıs 1832'de aldı, Temmuz 1832'de Humus ve Belen'de Osmanlı ordusunu
@@ -409,9 +420,9 @@ window.YERLESIMLER = [
 { ad:"Akkâ", tur:"kale", lat:32.928, lon:35.082, g:0, k:3, m:"Şam", s:[{f:"1281-01-01",t:"1517-01-01",d:"memluk"},{f:"1918-09-23",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1517-01-01",t:"1918-09-23"}],
     v:[{f:"1832-05-27",t:"1840-11-03",k:"Mısır (İbrâhim Paşa)"}] },
 { ad:"Musul", tur:"sehir", lat:36.340, lon:43.130, g:1, k:2, s:[{f:"1281-01-01",t:"1516-08-24",d:"iran"},{f:"1918-11-08",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1516-08-24",t:"1918-11-08",y:"antlasma"}] },
-{ ad:"Kerkük", tur:"sehir", lat:35.468, lon:44.392, g:0, k:3, m:"Şehrizor", s:[{f:"1281-01-01",t:"1534-12-04",d:"iran"},{f:"1623-01-14",t:"1638-12-25",d:"iran"},{f:"1918-10-30",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1534-12-04",t:"1623-01-14"},{f:"1638-12-25",t:"1918-10-30"}] },
-{ ad:"Bağdat", tur:"sehir", lat:33.340, lon:44.361, g:2, k:2, s:[{f:"1281-01-01",t:"1534-12-04",d:"iran"},{f:"1623-01-14",t:"1638-12-24",d:"iran"},{f:"1917-03-11",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1534-12-04",t:"1623-01-14",y:"antlasma"},{f:"1638-12-24",t:"1917-03-11",y:"kusatma"}] },
-{ ad:"Kerbelâ", tur:"sehir", lat:32.616, lon:44.025, g:0, k:3, m:"Bağdat", s:[{f:"1281-01-01",t:"1534-12-04",d:"iran"},{f:"1623-01-14",t:"1638-12-25",d:"iran"},{f:"1917-03-11",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1534-12-04",t:"1623-01-14"},{f:"1638-12-25",t:"1917-03-11"}] },
+{ ad:"Kerkük", tur:"sehir", lat:35.468, lon:44.392, g:0, k:3, m:"Şehrizor", s:[{f:"1281-01-01",t:"1534-12-04",d:"iran"},{f:"1623-11-28",t:"1638-12-25",d:"iran"},{f:"1918-10-30",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1534-12-04",t:"1623-11-28"},{f:"1638-12-25",t:"1918-10-30"}] },
+{ ad:"Bağdat", tur:"sehir", lat:33.340, lon:44.361, g:2, k:2, s:[{f:"1281-01-01",t:"1534-12-04",d:"iran"},{f:"1623-11-28",t:"1638-12-24",d:"iran"},{f:"1917-03-11",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1534-12-04",t:"1623-11-28",y:"antlasma"},{f:"1638-12-24",t:"1917-03-11",y:"kusatma"}] },
+{ ad:"Kerbelâ", tur:"sehir", lat:32.616, lon:44.025, g:0, k:3, m:"Bağdat", s:[{f:"1281-01-01",t:"1534-12-04",d:"iran"},{f:"1623-11-28",t:"1638-12-25",d:"iran"},{f:"1917-03-11",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1534-12-04",t:"1623-11-28"},{f:"1638-12-25",t:"1917-03-11"}] },
 { ad:"Basra", tur:"liman", lat:30.508, lon:47.783, g:1, k:2, s:[{f:"1281-01-01",t:"1546-01-01",d:"iran"},{f:"1914-11-22",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1546-01-01",t:"1914-11-22",y:"antlasma"}] },
 { ad:"Lahsa", tur:"bolge", lat:25.383, lon:49.588, g:0, k:3, m:"Basra", s:[{f:"1281-01-01",t:"1550-01-01",d:"iran"},{f:"1670-01-01",t:"1795-04-01",d:"benihalid"},{f:"1795-04-01",t:"1871-04-20",d:"suud"},{f:"1913-05-08",t:"1923-10-29",d:"suud"}], d:[{f:"1550-01-01",t:"1670-01-01",y:"vassal"},{f:"1871-04-20",t:"1913-05-08",y:"savas"}] },
 // HİCAZ: 1803-1813 arasında Suûdî-Vehhâbî hâkimiyeti (hac yolu kapandı, Osmanlı
@@ -432,7 +443,7 @@ window.YERLESIMLER = [
     v:[{f:"1811-11-01",t:"1841-06-01",k:"Mısır (Kavalalı)"}] },
 // Necid: Dir'iye'nin 1818'de düşürülmesiyle Suûdî emirliği ortadan kaldırıldı;
 // Mısır garnizonu 1824'e kadar kaldı, sonra ikinci Suûdî devleti kuruldu.
-{ ad:"Dir'iye (Necid)", tur:"kale", lat:24.733, lon:46.575, g:0, k:3, m:"Basra", s:[{f:"1744-01-01",t:"1818-09-09",d:"suud"},{f:"1824-06-01",t:"1891-01-01",d:"suud"},{f:"1902-01-15",t:"1923-10-29",d:"suud"}], d:[],
+{ ad:"Dir'iye (Necid)", tur:"kale", lat:24.733, lon:46.575, g:0, k:3, m:"Basra", s:[{f:"1744-01-01",t:"1818-09-09",d:"suud"},{f:"1824-06-01",t:"1891-01-01",d:"suud"},{f:"1891-01-01",t:"1902-01-15",d:"sammar"},{f:"1902-01-15",t:"1923-10-29",d:"suud"}], d:[],
     v:[{f:"1818-09-09",t:"1824-06-01",k:"Mısır (İbrâhim Paşa)"}] },
 { ad:"Tebük", tur:"kale", lat:28.384, lon:36.566, g:0, k:4, m:"Medine", s:[{f:"1281-01-01",t:"1517-07-12",d:"memluk"},{f:"1918-01-01",t:"1923-10-29",d:"hicaz"}], d:[{f:"1517-07-12",t:"1918-01-01"}] },
 { ad:"Maan", tur:"kale", lat:30.192, lon:35.734, g:0, k:4, m:"Kudüs", s:[{f:"1281-01-01",t:"1517-01-01",d:"memluk"},{f:"1918-09-27",t:"1923-10-29",d:"hicaz"}], d:[{f:"1517-01-01",t:"1918-09-27"}] },
@@ -443,7 +454,7 @@ window.YERLESIMLER = [
 { ad:"Sana", tur:"sehir", lat:15.369, lon:44.191, g:1, k:2, s:[{f:"1281-01-01",t:"1547-01-01",d:"yemen"},{f:"1635-01-01",t:"1872-04-01",d:"yemen"},{f:"1918-10-30",t:"1923-10-29",d:"yemen"}], d:[{f:"1547-01-01",t:"1635-01-01",y:"savas"},{f:"1872-04-01",t:"1918-10-30",y:"savas"}] },
 { ad:"Taiz", tur:"sehir", lat:13.579, lon:44.022, g:0, k:3, m:"Sana", s:[{f:"1281-01-01",t:"1547-01-01",d:"yemen"},{f:"1635-01-01",t:"1872-04-01",d:"yemen"},{f:"1918-10-30",t:"1923-10-29",d:"yemen"}], d:[{f:"1547-01-01",t:"1635-01-01"},{f:"1872-04-01",t:"1918-10-30"}] },
 { ad:"Hudeyde", tur:"liman", lat:14.798, lon:42.954, g:0, k:3, m:"Sana", s:[{f:"1281-01-01",t:"1849-05-01",d:"yemen"},{f:"1918-10-30",t:"1923-10-29",d:"yemen"}], d:[{f:"1849-05-01",t:"1918-10-30"}] },
-{ ad:"Ebha (Asir)", tur:"sehir", lat:18.216, lon:42.505, g:0, k:3, m:"Sana", s:[{f:"1281-01-01",t:"1871-01-01",d:"yemen"}], d:[{f:"1871-01-01",t:"1918-10-30"}] },
+{ ad:"Ebha (Asir)", tur:"sehir", lat:18.216, lon:42.505, g:0, k:3, m:"Sana", s:[{f:"1281-01-01",t:"1871-01-01",d:"yemen"},{f:"1918-10-30",t:"1920-04-01",d:"aiz"},{f:"1920-04-01",t:"1923-10-29",d:"suud"}], d:[{f:"1871-01-01",t:"1918-10-30"}] },
 // ---------------- MISIR VE SUDAN ----------------
 // 1805: Kahire ulemâsının talebiyle Kavalalı Mehmed Ali vali oldu; Mısır o
 // tarihten sonra hukuken Osmanlı, fiilen kendi hanedanının idaresindedir.
@@ -462,13 +473,13 @@ window.YERLESIMLER = [
     v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 // Sudan hiçbir zaman doğrudan Bâbıâli'ye bağlanmadı: 1820-21'de Mehmed Ali'nin
 // ordusu fethetti, Kahire'den yönetildi, 1885'te Mehdî ayaklanmasıyla kaybedildi.
-{ ad:"Dongola", tur:"sehir", lat:19.169, lon:30.474, g:0, k:3, m:"Hartum", s:[{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[],
+{ ad:"Dongola", tur:"sehir", lat:19.169, lon:30.474, g:0, k:3, m:"Hartum", s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[],
     v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)"}] },
-{ ad:"Hartum", tur:"sehir", lat:15.500, lon:32.559, g:1, k:2, s:[{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[],
+{ ad:"Hartum", tur:"sehir", lat:15.500, lon:32.559, g:1, k:2, s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[],
     v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)"}] },
-{ ad:"Sennar", tur:"sehir", lat:13.551, lon:33.616, g:0, k:3, m:"Hartum", s:[{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[],
+{ ad:"Sennar", tur:"sehir", lat:13.551, lon:33.616, g:0, k:3, m:"Hartum", s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[],
     v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)"}] },
-{ ad:"Kordofan (Ubeyyid)", tur:"sehir", lat:13.184, lon:30.218, g:0, k:3, m:"Hartum", s:[{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[],
+{ ad:"Kordofan (Ubeyyid)", tur:"sehir", lat:13.184, lon:30.218, g:0, k:3, m:"Hartum", s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[],
     v:[{f:"1821-08-19",t:"1885-01-26",k:"Mısır (Kavalalı)"}] },
 { ad:"Sevâkin", tur:"liman", lat:19.106, lon:37.332, g:0, k:2, s:[{f:"1281-01-01",t:"1557-01-01",d:"memluk"},{f:"1885-02-05",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1557-01-01",t:"1885-02-05",y:"ilhak"}] },
 { ad:"Masavva", tur:"liman", lat:15.608, lon:39.474, g:0, k:3, m:"Sevâkin", s:[{f:"1281-01-01",t:"1557-01-01",d:"memluk"},{f:"1885-02-05",t:"1923-10-29",d:"italya"}], d:[{f:"1557-01-01",t:"1885-02-05",y:"ilhak"}] },
@@ -521,13 +532,13 @@ window.YERLESIMLER = [
 { ad:"Hacıbey (Odessa)", tur:"kale", lat:46.485, lon:30.733, g:0, k:3, m:"Silistre", d:[{f:"1538-09-01",t:"1792-01-09"}],
     s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1538-01-01",d:"kirim"},{f:"1792-01-09",t:"1923-10-29",d:"rusya"}] },
 // ---------------- KOMŞULAR (petek sınırını belirler; s = alanın yabancı sahipleri) ----------------
-{ ad:"Viyana", tur:"sehir", lat:48.208, lon:16.373, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1918-11-11",d:"avusturya"}] },
-{ ad:"Graz", tur:"sehir", lat:47.071, lon:15.439, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1918-11-11",d:"avusturya"}] },
-{ ad:"Zagreb", tur:"sehir", lat:45.815, lon:15.982, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan"},{f:"1526-08-29",t:"1918-11-11",d:"avusturya"}] },
-{ ad:"Ljubljana", tur:"sehir", lat:46.056, lon:14.506, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1918-11-11",d:"avusturya"}] },
-{ ad:"Bratislava", tur:"sehir", lat:48.146, lon:17.107, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan"},{f:"1526-08-29",t:"1918-11-11",d:"avusturya"}] },
-{ ad:"Krakov", tur:"sehir", lat:50.065, lon:19.945, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1918-11-11",d:"avusturya"}] },
-{ ad:"Lvov", tur:"sehir", lat:49.840, lon:24.030, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1772-08-05",d:"lehistan"},{f:"1772-08-05",t:"1918-11-11",d:"avusturya"}] },
+{ ad:"Viyana", tur:"sehir", lat:48.208, lon:16.373, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"avusturya"}] },
+{ ad:"Graz", tur:"sehir", lat:47.071, lon:15.439, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"avusturya"}] },
+{ ad:"Zagreb", tur:"sehir", lat:45.815, lon:15.982, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan"},{f:"1526-08-29",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}] },
+{ ad:"Ljubljana", tur:"sehir", lat:46.056, lon:14.506, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}] },
+{ ad:"Bratislava", tur:"sehir", lat:48.146, lon:17.107, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan"},{f:"1526-08-29",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"cekoslovakya"}] },
+{ ad:"Krakov", tur:"sehir", lat:50.065, lon:19.945, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"polonya"}] },
+{ ad:"Lvov", tur:"sehir", lat:49.840, lon:24.030, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1772-08-05",d:"lehistan"},{f:"1772-08-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"polonya"}] },
 { ad:"Kiev", tur:"sehir", lat:50.451, lon:30.524, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1667-01-30",d:"lehistan"},{f:"1667-01-30",t:"1923-10-29",d:"rusya"}] },
 { ad:"Harkov", tur:"sehir", lat:49.994, lon:36.231, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1654-01-01",d:"kirim"},{f:"1654-01-01",t:"1923-10-29",d:"rusya"}] },
 { ad:"Voronej", tur:"sehir", lat:51.672, lon:39.184, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1585-01-01",d:"kirim"},{f:"1585-01-01",t:"1923-10-29",d:"rusya"}] },
@@ -542,7 +553,7 @@ window.YERLESIMLER = [
 { ad:"Isfahan", tur:"sehir", lat:32.654, lon:51.668, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"iran"}] },
 { ad:"Erdebil", tur:"sehir", lat:38.249, lon:48.294, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"iran"}] },
 { ad:"Meşhed", tur:"sehir", lat:36.297, lon:59.606, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"iran"}] },
-{ ad:"Riyad", tur:"sehir", lat:24.713, lon:46.675, g:0, k:0, d:[], s:[{f:"1744-01-01",t:"1818-09-09",d:"suud"},{f:"1824-06-01",t:"1891-01-01",d:"suud"},{f:"1902-01-15",t:"1923-10-29",d:"suud"}] },
+{ ad:"Riyad", tur:"sehir", lat:24.713, lon:46.675, g:0, k:0, d:[], v:[{f:"1818-09-09",t:"1824-06-01",k:"Mısır (İbrâhim Paşa)"}], s:[{f:"1744-01-01",t:"1818-09-09",d:"suud"},{f:"1824-06-01",t:"1891-01-01",d:"suud"},{f:"1891-01-01",t:"1902-01-15",d:"sammar"},{f:"1902-01-15",t:"1923-10-29",d:"suud"}] },
 { ad:"Maskat", tur:"liman", lat:23.588, lon:58.408, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1507-01-01",d:"umman"},{f:"1507-01-01",t:"1650-01-26",d:"portekiz"},{f:"1650-01-26",t:"1923-10-29",d:"umman"}] },
 { ad:"Gondar", tur:"sehir", lat:12.603, lon:37.466, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}] },
 { ad:"Addis", tur:"sehir", lat:9.030, lon:38.740, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}] },
@@ -558,7 +569,7 @@ window.YERLESIMLER = [
 { ad:"Lyon", tur:"sehir", lat:45.760, lon:4.836, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"fransa"}] },
 { ad:"Marsilya", tur:"liman", lat:43.297, lon:5.370, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"fransa"}] },
 { ad:"Bordo", tur:"liman", lat:44.838, lon:-0.579, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"fransa"}] },
-{ ad:"Amsterdam", tur:"liman", lat:52.373, lon:4.893, g:0, k:0, d:[], s:[{f:"1516-01-23",t:"1581-07-26",d:"ispanya"},{f:"1581-07-26",t:"1923-10-29",d:"hollanda"}] },
+{ ad:"Amsterdam", tur:"liman", lat:52.373, lon:4.893, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1581-07-26",d:"ispanya"},{f:"1581-07-26",t:"1923-10-29",d:"hollanda"}] },
 { ad:"Lizbon", tur:"liman", lat:38.722, lon:-9.139, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"portekiz"}] },
 { ad:"Porto", tur:"liman", lat:41.150, lon:-8.611, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"portekiz"}] },
 { ad:"Madrid", tur:"sehir", lat:40.417, lon:-3.704, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"ispanya"}] },
@@ -566,10 +577,10 @@ window.YERLESIMLER = [
 { ad:"Granada", tur:"sehir", lat:37.177, lon:-3.599, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1492-01-02",d:"granada"},{f:"1492-01-02",t:"1923-10-29",d:"ispanya"}] },
 { ad:"Barselona", tur:"liman", lat:41.387, lon:2.170, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"ispanya"}] },
 { ad:"Valensiya", tur:"liman", lat:39.470, lon:-0.377, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"ispanya"}] },
-{ ad:"Milano", tur:"sehir", lat:45.464, lon:9.190, g:0, k:0, d:[], s:[{f:"1535-11-01",t:"1714-03-07",d:"ispanya"},{f:"1714-03-07",t:"1859-06-04",d:"avusturya"},{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
-{ ad:"Floransa", tur:"sehir", lat:43.769, lon:11.256, g:0, k:0, d:[], s:[{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
-{ ad:"Torino", tur:"sehir", lat:45.070, lon:7.687, g:0, k:0, d:[], s:[{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
-{ ad:"Cenova", tur:"liman", lat:44.407, lon:8.934, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1797-06-14",d:"ceneviz"},{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
+{ ad:"Milano", tur:"sehir", lat:45.464, lon:9.190, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1535-11-01",d:"milanoduka"},{f:"1535-11-01",t:"1714-03-07",d:"ispanya"},{f:"1714-03-07",t:"1859-06-04",d:"avusturya"},{f:"1859-06-04",t:"1861-03-17",d:"sardinya"},{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
+{ ad:"Floransa", tur:"sehir", lat:43.769, lon:11.256, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1861-03-17",d:"toskana"},{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
+{ ad:"Torino", tur:"sehir", lat:45.070, lon:7.687, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1861-03-17",d:"sardinya"},{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
+{ ad:"Cenova", tur:"liman", lat:44.407, lon:8.934, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1797-06-14",d:"ceneviz"},{f:"1797-06-14",t:"1815-06-09",d:"fransa"},{f:"1815-06-09",t:"1861-03-17",d:"sardinya"},{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
 // ---- ORTA AVRUPA / ALMANYA ----
 { ad:"Berlin", tur:"sehir", lat:52.520, lon:13.405, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"almanya"}] },
 { ad:"Hamburg", tur:"liman", lat:53.551, lon:9.994, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"almanya"}] },
@@ -577,18 +588,18 @@ window.YERLESIMLER = [
 { ad:"Frankfurt", tur:"sehir", lat:50.110, lon:8.682, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"almanya"}] },
 { ad:"Köln", tur:"sehir", lat:50.938, lon:6.960, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"almanya"}] },
 { ad:"Dresden", tur:"sehir", lat:51.050, lon:13.738, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"almanya"}] },
-{ ad:"Prag", tur:"sehir", lat:50.088, lon:14.421, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1526-08-29",d:"almanya"},{f:"1526-08-29",t:"1918-11-11",d:"avusturya"}] },
+{ ad:"Prag", tur:"sehir", lat:50.088, lon:14.421, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1526-08-29",d:"almanya"},{f:"1526-08-29",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"cekoslovakya"}] },
 // ---- KUZEY AVRUPA / BALTIK ----
 { ad:"Stokholm", tur:"liman", lat:59.329, lon:18.069, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"isvec"}] },
 { ad:"Kopenhag", tur:"liman", lat:55.676, lon:12.568, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"danimarka"}] },
-{ ad:"Oslo", tur:"liman", lat:59.913, lon:10.752, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec"}] },
-{ ad:"Helsinki", tur:"liman", lat:60.170, lon:24.938, g:0, k:0, kur:"1550-06-12", d:[], s:[{f:"1281-01-01",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-12-06",d:"rusya"}] },
-{ ad:"Riga", tur:"liman", lat:56.949, lon:24.105, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1561-11-28",d:"almanya"},{f:"1561-11-28",t:"1621-09-15",d:"lehistan"},{f:"1621-09-15",t:"1721-08-30",d:"isvec"},{f:"1721-08-30",t:"1918-11-11",d:"rusya"}] },
+{ ad:"Oslo", tur:"liman", lat:59.913, lon:10.752, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec"},{f:"1905-06-07",t:"1923-10-29",d:"norvec"}] },
+{ ad:"Helsinki", tur:"liman", lat:60.170, lon:24.938, g:0, k:0, kur:"1550-06-12", d:[], s:[{f:"1281-01-01",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-12-06",d:"rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}] },
+{ ad:"Riga", tur:"liman", lat:56.949, lon:24.105, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1561-11-28",d:"almanya"},{f:"1561-11-28",t:"1621-09-15",d:"lehistan"},{f:"1621-09-15",t:"1721-08-30",d:"isvec"},{f:"1721-08-30",t:"1918-11-11",d:"rusya"},{f:"1918-11-11",t:"1923-10-29",d:"letonya"}] },
 { ad:"Königsberg", tur:"liman", lat:54.710, lon:20.512, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"almanya"}] },
-{ ad:"Gdansk", tur:"liman", lat:54.352, lon:18.646, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1466-10-19",d:"almanya"},{f:"1466-10-19",t:"1793-01-23",d:"lehistan"},{f:"1793-01-23",t:"1918-11-11",d:"almanya"}] },
-{ ad:"Poznan", tur:"sehir", lat:52.409, lon:16.932, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1793-01-23",d:"lehistan"},{f:"1793-01-23",t:"1918-12-27",d:"almanya"}] },
-{ ad:"Varşova", tur:"sehir", lat:52.230, lon:21.011, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1806-11-28",d:"almanya"},{f:"1815-06-09",t:"1918-11-11",d:"rusya"}] },
-{ ad:"Vilnius", tur:"sehir", lat:54.687, lon:25.280, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1918-02-16",d:"rusya"}] },
+{ ad:"Gdansk", tur:"liman", lat:54.352, lon:18.646, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1466-10-19",d:"almanya"},{f:"1466-10-19",t:"1793-01-23",d:"lehistan"},{f:"1793-01-23",t:"1918-11-11",d:"almanya"},{f:"1918-11-11",t:"1923-10-29",d:"polonya"}] },
+{ ad:"Poznan", tur:"sehir", lat:52.409, lon:16.932, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1793-01-23",d:"lehistan"},{f:"1793-01-23",t:"1918-12-27",d:"almanya"},{f:"1918-12-27",t:"1923-10-29",d:"polonya"}] },
+{ ad:"Varşova", tur:"sehir", lat:52.230, lon:21.011, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1806-11-28",d:"almanya"},{f:"1815-06-09",t:"1918-11-11",d:"rusya"},{f:"1918-11-11",t:"1923-10-29",d:"polonya"}] },
+{ ad:"Vilnius", tur:"sehir", lat:54.687, lon:25.280, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1918-02-16",d:"rusya"},{f:"1918-02-16",t:"1923-10-29",d:"litvanya"}] },
 { ad:"Minsk", tur:"sehir", lat:53.904, lon:27.561, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1793-01-23",d:"lehistan"},{f:"1793-01-23",t:"1923-10-29",d:"rusya"}] },
 // ---- RUSYA (Ural batısı) ----
 { ad:"Moskova", tur:"sehir", lat:55.756, lon:37.617, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"rusya"}] },
@@ -617,9 +628,16 @@ window.YERLESIMLER = [
 { ad:"Reşt", tur:"sehir", lat:37.281, lon:49.583, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"iran"}] },
 // ---- ARABİSTAN EK ----
 { ad:"Hâil", tur:"sehir", lat:27.521, lon:41.691, g:0, k:0, d:[], s:[{f:"1836-01-01",t:"1921-11-02",d:"sammar"},{f:"1921-11-02",t:"1923-10-29",d:"suud"}] },
+// Kuveyt kurulduğu 1716'dan 1871'e kadar haritada sahipsizdi: Basra ile Lahsa
+// arasında 155 yıllık bir delik. TDV KUVEYT: iskeleyi Necid'den gelen Utûb
+// kabilesi 18. yüzyıl başında kurdu, Sabah ailesi yüzyıl sonlarına doğru
+// idareyi devraldı, 1871'den itibaren Basra sancağının kazâsı sayıldı.
+// Kırılma tarihleri kasten mevcut olanlara oturtuldu (1795: Lahsa'nın
+// Suûdîlere geçişi) ki uydurma bir gün hassasiyeti doğmasın.
 { ad:"Kuveyt", tur:"liman", lat:29.376, lon:47.977, g:0, k:3, m:"Basra", kur:"1716-01-01", d:[],
-    v:[{f:"1871-01-01",t:"1914-11-05",k:"Sabah emirliği (Osmanlı kazâsı)"}],
-    s:[{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}] },
+    v:[{f:"1795-04-01",t:"1871-01-01",k:"Sabah emirliği (Osmanlı himayesinde)"},
+       {f:"1871-01-01",t:"1914-11-05",k:"Sabah emirliği (Osmanlı kazâsı)"}],
+    s:[{f:"1716-01-01",t:"1795-04-01",d:"benihalid"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}] },
 { ad:"Manama (Bahreyn)", tur:"liman", lat:26.228, lon:50.586, g:0, k:0, d:[], s:[{f:"1861-05-31",t:"1923-10-29",d:"ingiltere"}] },
 { ad:"Doha (Katar)", tur:"liman", lat:25.285, lon:51.531, g:0, k:3, m:"Basra", kur:"1825-01-01", d:[],
     v:[{f:"1871-01-01",t:"1913-07-29",k:"Sânî emirliği (Osmanlı kazâsı)"}],
@@ -638,20 +656,22 @@ window.YERLESIMLER = [
 { ad:"Tanca", tur:"liman", lat:35.777, lon:-5.804, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1471-08-28",d:"fas"},{f:"1471-08-28",t:"1661-01-23",d:"portekiz"},{f:"1661-01-23",t:"1684-02-05",d:"ingiltere"},{f:"1684-02-05",t:"1923-10-29",d:"fas"}] },
 { ad:"Agadir", tur:"liman", lat:30.428, lon:-9.598, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"fas"}] },
 // ---- KARADAĞ ----
-{ ad:"Cetinje", tur:"sehir", lat:42.391, lon:18.914, g:0, k:0, d:[], s:[{f:"1697-01-01",t:"1923-10-29",d:"karadag"}] },
+{ ad:"Cetinje", tur:"sehir", lat:42.391, lon:18.914, g:0, k:4, m:"İşkodra", kur:"1482-01-01",
+    s:[{f:"1697-01-01",t:"1923-10-29",d:"karadag"}], d:[{f:"1499-01-01",t:"1697-01-01"}],
+    v:[{f:"1482-01-01",t:"1499-01-01",k:"Crnojeviç Zetası (Osmanlı tâbii)"}] },
 // ---- SAHİPSİZ BÖLGE NOKTALARI ----
 // Çöl ve bozkırda yerleşim seyrektir; nokta koymazsak komşu peteği yüzlerce
 // kilometre uzanır ya da yarıçap sınırı yüzünden "baloncuk" oluşur. Bu noktalar
 // hiçbir zaman Osmanlı sayılmaz, yalnızca peteklerin nerede biteceğini belirler.
-{ ad:"Nefud çölü", tur:"bolge", lat:28.30, lon:41.00, g:0, k:0, d:[], s:[{f:"1744-01-01",t:"1818-09-09",d:"suud"},{f:"1836-01-01",t:"1921-11-02",d:"sammar"},{f:"1921-11-02",t:"1923-10-29",d:"suud"}] },
+{ ad:"Nefud çölü", tur:"bolge", lat:28.30, lon:41.00, g:0, k:0, d:[], v:[{f:"1818-09-09",t:"1824-06-01",k:"Mısır (İbrâhim Paşa)"}], s:[{f:"1744-01-01",t:"1818-09-09",d:"suud"},{f:"1824-06-01",t:"1836-01-01",d:"suud"},{f:"1836-01-01",t:"1921-11-02",d:"sammar"},{f:"1921-11-02",t:"1923-10-29",d:"suud"}] },
 { ad:"Rub'ul Hâlî kuzeyi", tur:"bolge", lat:22.50, lon:47.00, g:0, k:0, d:[] },
 { ad:"Rub'ul Hâlî doğusu", tur:"bolge", lat:20.00, lon:52.00, g:0, k:0, d:[] },
-{ ad:"Necid içi", tur:"bolge", lat:25.50, lon:44.50, g:0, k:0, d:[], s:[{f:"1744-01-01",t:"1818-09-09",d:"suud"},{f:"1824-06-01",t:"1891-01-01",d:"suud"},{f:"1902-01-15",t:"1923-10-29",d:"suud"}] },
+{ ad:"Necid içi", tur:"bolge", lat:25.50, lon:44.50, g:0, k:0, d:[], v:[{f:"1818-09-09",t:"1824-06-01",k:"Mısır (İbrâhim Paşa)"}], s:[{f:"1744-01-01",t:"1818-09-09",d:"suud"},{f:"1824-06-01",t:"1891-01-01",d:"suud"},{f:"1891-01-01",t:"1902-01-15",d:"sammar"},{f:"1902-01-15",t:"1923-10-29",d:"suud"}] },
 { ad:"Hadramut", tur:"bolge", lat:15.50, lon:48.50, g:0, k:0, d:[] },
 { ad:"Sina güneyi", tur:"bolge", lat:28.50, lon:33.80, g:0, k:0, d:[] },
 { ad:"Batı çölü (Mısır)", tur:"bolge", lat:26.50, lon:27.00, g:0, k:0, d:[] },
 { ad:"Nûbe çölü", tur:"bolge", lat:20.50, lon:33.50, g:0, k:0, d:[] },
-{ ad:"Kordofan", tur:"bolge", lat:13.00, lon:29.50, g:0, k:0, d:[], s:[{f:"1504-01-01",t:"1821-08-19",d:"funj"}] },
+{ ad:"Kordofan", tur:"bolge", lat:13.00, lon:29.50, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1883-01-19",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], v:[{f:"1821-08-19",t:"1883-01-19",k:"Mısır (Kavalalı)"}] },
 { ad:"Darfur", tur:"bolge", lat:13.50, lon:24.00, g:0, k:0, d:[] },
 { ad:"Tibesti", tur:"bolge", lat:21.00, lon:17.50, g:0, k:0, d:[] },
 { ad:"Fizan güneyi", tur:"bolge", lat:23.00, lon:14.00, g:0, k:0, d:[] },
@@ -692,11 +712,18 @@ window.YERLESIMLER = [
 // Yunanistan / İyon Denizi — Venedik ile el değiştiren kıyı ve adalar
 { ad:"Korfu", tur:"kale", lat:39.624, lon:19.922, g:0, k:3, m:"Yanya", d:[], s:[{f:"1281-01-01",t:"1797-10-17",d:"venedik"},{f:"1797-10-17",t:"1815-11-05",d:"fransa"},{f:"1815-11-05",t:"1864-05-21",d:"ingiltere"},{f:"1864-05-21",t:"1923-10-29",d:"yunanistan"}] },
 { ad:"Ayamavra (Lefkada)", tur:"kale", lat:38.716, lon:20.643, g:0, k:4, m:"Yanya", s:[{f:"1281-01-01",t:"1479-01-25",d:"venedik"},{f:"1684-08-06",t:"1923-10-29",d:"venedik"}], d:[{f:"1479-01-25",t:"1684-08-06"}] },
+// Pasarofça'da (1718) Venedik'te kalan üçlü Preveze-Parga-Vonitsa'dan yalnız
+// Preveze veride vardı; diğer ikisinin bulunduğu kıyı en yakın peteğe emiliyor,
+// yani Venedik'in elindeyken Osmanlı boyanıyordu. Parga hiç Osmanlı olmamıştı:
+// TDV TEPEDELENLİ ALİ PAŞA maddesi "Parga İngilizler'e teslim oldu ve Ali
+// Paşa'nın idaresine ancak 1819'da terkedildi" diyor.
+{ ad:"Parga", tur:"kale", lat:39.283, lon:20.400, g:0, k:4, m:"Yanya", s:[{f:"1281-01-01",t:"1401-01-01",d:"bizans"},{f:"1401-01-01",t:"1797-10-17",d:"venedik"},{f:"1797-10-17",t:"1815-11-05",d:"fransa"},{f:"1815-11-05",t:"1819-05-10",d:"ingiltere"},{f:"1913-03-06",t:"1923-10-29",d:"yunanistan"}], d:[{f:"1819-05-10",t:"1913-03-06",y:"antlasma"}] },
+{ ad:"Vonitsa", tur:"kale", lat:38.917, lon:20.888, g:0, k:4, m:"Yanya", s:[{f:"1281-01-01",t:"1449-01-01",d:"bizans"},{f:"1684-09-29",t:"1797-10-17",d:"venedik"},{f:"1797-10-17",t:"1798-10-23",d:"fransa"},{f:"1912-10-21",t:"1923-10-29",d:"yunanistan"}], d:[{f:"1449-01-01",t:"1684-09-29"},{f:"1798-10-23",t:"1912-10-21",y:"savas"}] },
 { ad:"Preveze", tur:"liman", lat:38.958, lon:20.751, g:1, k:4, m:"Yanya", s:[{f:"1281-01-01",t:"1449-01-01",d:"bizans"},{f:"1684-09-29",t:"1797-10-17",d:"venedik"},{f:"1797-10-17",t:"1798-10-23",d:"fransa"},{f:"1912-10-21",t:"1923-10-29",d:"yunanistan"}], d:[{f:"1449-01-01",t:"1684-09-29"},{f:"1798-10-23",t:"1912-10-21",y:"savas"}] },
 { ad:"Koron", tur:"kale", lat:36.796, lon:21.955, g:0, k:4, m:"Mora (Tripoliçe)", s:[{f:"1281-01-01",t:"1500-08-09",d:"venedik"},{f:"1685-08-11",t:"1715-08-16",d:"venedik"},{f:"1828-10-05",t:"1923-10-29",d:"yunanistan"}], d:[{f:"1500-08-09",t:"1685-08-11",y:"kusatma"},{f:"1715-08-16",t:"1828-10-05",y:"kusatma"}] },
 
 // Kuzey Afrika
-{ ad:"Cerbe (Djerba)", tur:"kale", lat:33.807, lon:10.856, g:1, k:4, m:"Tunus", s:[{f:"1281-01-01",t:"1560-05-14",d:"hafsi"}], d:[{f:"1560-05-14",t:"1881-05-12",y:"savas"}] },
+{ ad:"Cerbe (Djerba)", tur:"kale", lat:33.807, lon:10.856, g:1, k:4, m:"Tunus", s:[{f:"1281-01-01",t:"1560-05-14",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa"}], d:[{f:"1560-05-14",t:"1881-05-12",y:"savas"}] },
 
 // Anadolu ve Arabistan
 { ad:"Antep", tur:"sehir", lat:37.066, lon:37.383, g:0, k:3, m:"Halep", s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1919-01-01",t:"1921-10-20",d:"fransa"}], d:[{f:"1516-08-24",t:"1919-01-01",y:"savas"},{f:"1921-10-20",t:"1923-10-29",y:"antlasma"}] },
@@ -807,17 +834,17 @@ window.YERLESIMLER = [
 // zorunda kalınca Budin'in hücresi kuzeybatıya doğru gerçek dışı bir kama hâlinde
 // uzuyor, eyaletin gövdesi bozuk görünüyordu. Aşağıdakiler Budin eyaletinin gerçek
 // sancak merkezleridir; sınır artık Tuna ve Tisa hatlarına oturur.
-{ ad:"Ösek (Osijek)", tur:"kale", lat:45.554, lon:18.695, g:0, k:3, m:"Budin", s:[{f:"1281-01-01",t:"1526-09-01",d:"macaristan"},{f:"1687-09-29",t:"1918-11-11",d:"avusturya"}], d:[{f:"1526-09-01",t:"1687-09-29"}] },
-{ ad:"Mohaç", tur:"kale", lat:45.993, lon:18.692, g:1, k:4, m:"Budin", s:[{f:"1281-01-01",t:"1526-09-01",d:"macaristan"},{f:"1687-08-12",t:"1918-11-11",d:"avusturya"}], d:[{f:"1526-09-01",t:"1687-08-12"}] },
-{ ad:"Varadin (Petrovaradin)", tur:"kale", lat:45.248, lon:19.862, g:0, k:3, m:"Budin", s:[{f:"1281-01-01",t:"1526-09-01",d:"macaristan"},{f:"1687-09-06",t:"1918-11-11",d:"avusturya"}], d:[{f:"1526-09-01",t:"1687-09-06"}] },
-{ ad:"Baç (Bács)", tur:"kale", lat:45.760, lon:19.240, g:0, k:4, m:"Budin", s:[{f:"1281-01-01",t:"1526-09-01",d:"macaristan"},{f:"1687-09-06",t:"1918-11-11",d:"avusturya"}], d:[{f:"1526-09-01",t:"1687-09-06"}] },
-{ ad:"Kalocsa", tur:"sehir", lat:46.527, lon:18.985, g:0, k:4, m:"Budin", s:[{f:"1281-01-01",t:"1541-08-29",d:"macaristan"},{f:"1686-09-02",t:"1918-11-11",d:"avusturya"}], d:[{f:"1541-08-29",t:"1686-09-02"}] },
-{ ad:"Segedin (Szeged)", tur:"sehir", lat:46.253, lon:20.148, g:0, k:3, m:"Budin", s:[{f:"1281-01-01",t:"1543-08-10",d:"macaristan"},{f:"1686-10-23",t:"1918-11-11",d:"avusturya"}], d:[{f:"1543-08-10",t:"1686-10-23"}] },
-{ ad:"Şimontorna", tur:"kale", lat:46.750, lon:18.551, g:0, k:4, m:"Budin", s:[{f:"1281-01-01",t:"1544-09-01",d:"macaristan"},{f:"1686-09-02",t:"1918-11-11",d:"avusturya"}], d:[{f:"1544-09-01",t:"1686-09-02"}] },
-{ ad:"Hatvan", tur:"kale", lat:47.667, lon:19.680, g:0, k:4, m:"Budin", s:[{f:"1281-01-01",t:"1544-09-01",d:"macaristan"},{f:"1686-09-02",t:"1918-11-11",d:"avusturya"}], d:[{f:"1544-09-01",t:"1686-09-02"}] },
-{ ad:"Vaç (Vác)", tur:"kale", lat:47.776, lon:19.134, g:0, k:4, m:"Budin", s:[{f:"1281-01-01",t:"1544-09-01",d:"macaristan"},{f:"1684-06-27",t:"1918-11-11",d:"avusturya"}], d:[{f:"1544-09-01",t:"1684-06-27"}] },
-{ ad:"Solnok (Szolnok)", tur:"kale", lat:47.174, lon:20.198, g:0, k:3, m:"Budin", s:[{f:"1281-01-01",t:"1552-09-04",d:"macaristan"},{f:"1685-10-19",t:"1918-11-11",d:"avusturya"}], d:[{f:"1552-09-04",t:"1685-10-19"}] },
-{ ad:"Zigetvar", tur:"kale", lat:46.049, lon:17.804, g:1, k:3, m:"Budin", s:[{f:"1281-01-01",t:"1566-09-07",d:"macaristan"},{f:"1689-02-11",t:"1918-11-11",d:"avusturya"}], d:[{f:"1566-09-07",t:"1689-02-11",y:"kusatma"}] },
+{ ad:"Ösek (Osijek)", tur:"kale", lat:45.554, lon:18.695, g:0, k:3, m:"Budin", s:[{f:"1281-01-01",t:"1526-09-01",d:"macaristan"},{f:"1687-09-29",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}], d:[{f:"1526-09-01",t:"1687-09-29"}] },
+{ ad:"Mohaç", tur:"kale", lat:45.993, lon:18.692, g:1, k:4, m:"Budin", s:[{f:"1281-01-01",t:"1526-09-01",d:"macaristan"},{f:"1687-08-12",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"macaristan"}], d:[{f:"1526-09-01",t:"1687-08-12"}] },
+{ ad:"Varadin (Petrovaradin)", tur:"kale", lat:45.248, lon:19.862, g:0, k:3, m:"Budin", s:[{f:"1281-01-01",t:"1526-09-01",d:"macaristan"},{f:"1687-09-06",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}], d:[{f:"1526-09-01",t:"1687-09-06"}] },
+{ ad:"Baç (Bács)", tur:"kale", lat:45.760, lon:19.240, g:0, k:4, m:"Budin", s:[{f:"1281-01-01",t:"1526-09-01",d:"macaristan"},{f:"1687-09-06",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}], d:[{f:"1526-09-01",t:"1687-09-06"}] },
+{ ad:"Kalocsa", tur:"sehir", lat:46.527, lon:18.985, g:0, k:4, m:"Budin", s:[{f:"1281-01-01",t:"1541-08-29",d:"macaristan"},{f:"1686-09-02",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"macaristan"}], d:[{f:"1541-08-29",t:"1686-09-02"}] },
+{ ad:"Segedin (Szeged)", tur:"sehir", lat:46.253, lon:20.148, g:0, k:3, m:"Budin", s:[{f:"1281-01-01",t:"1543-08-10",d:"macaristan"},{f:"1686-10-23",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"macaristan"}], d:[{f:"1543-08-10",t:"1686-10-23"}] },
+{ ad:"Şimontorna", tur:"kale", lat:46.750, lon:18.551, g:0, k:4, m:"Budin", s:[{f:"1281-01-01",t:"1544-09-01",d:"macaristan"},{f:"1686-09-02",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"macaristan"}], d:[{f:"1544-09-01",t:"1686-09-02"}] },
+{ ad:"Hatvan", tur:"kale", lat:47.667, lon:19.680, g:0, k:4, m:"Budin", s:[{f:"1281-01-01",t:"1544-09-01",d:"macaristan"},{f:"1686-09-02",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"macaristan"}], d:[{f:"1544-09-01",t:"1686-09-02"}] },
+{ ad:"Vaç (Vác)", tur:"kale", lat:47.776, lon:19.134, g:0, k:4, m:"Budin", s:[{f:"1281-01-01",t:"1544-09-01",d:"macaristan"},{f:"1684-06-27",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"macaristan"}], d:[{f:"1544-09-01",t:"1684-06-27"}] },
+{ ad:"Solnok (Szolnok)", tur:"kale", lat:47.174, lon:20.198, g:0, k:3, m:"Budin", s:[{f:"1281-01-01",t:"1552-09-04",d:"macaristan"},{f:"1685-10-19",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"macaristan"}], d:[{f:"1552-09-04",t:"1685-10-19"}] },
+{ ad:"Zigetvar", tur:"kale", lat:46.049, lon:17.804, g:1, k:3, m:"Budin", s:[{f:"1281-01-01",t:"1566-09-07",d:"macaristan"},{f:"1689-02-11",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"macaristan"}], d:[{f:"1566-09-07",t:"1689-02-11",y:"kusatma"}] },
 
 // ============================ ADA KATMANI ============================
 // Kural: HER ADANIN en az bir noktası olacak. Noktasız ada, Voronoi'de en yakın
@@ -895,7 +922,7 @@ window.YERLESIMLER = [
 { ad:"Menorka (Mahon)", tur:"liman", lat:39.890, lon:4.260, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1708-09-29",d:"ispanya"},{f:"1708-09-29",t:"1802-03-25",d:"ingiltere"},{f:"1802-03-25",t:"1923-10-29",d:"ispanya"}] },
 { ad:"İbiza", tur:"liman", lat:38.910, lon:1.430, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"ispanya"}] },
 { ad:"Pantelerya", tur:"kale", lat:36.792, lon:11.990, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1861-02-13",d:"napoli"},{f:"1861-02-13",t:"1923-10-29",d:"italya"}] },
-{ ad:"Elba", tur:"kale", lat:42.784, lon:10.285, g:0, k:0, d:[], s:[{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
+{ ad:"Elba", tur:"kale", lat:42.784, lon:10.285, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1861-03-17",d:"toskana"},{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
 { ad:"Kerkene (Kerkennah)", tur:"kale", lat:34.741, lon:11.224, g:0, k:4, m:"Tunus", s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa"}], d:[{f:"1574-08-25",t:"1881-05-12"}] },
 
 // ---- Kızıldeniz ve Basra Körfezi ----

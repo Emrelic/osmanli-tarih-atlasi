@@ -453,7 +453,8 @@ var olaylar = (window.OLAYLAR || []).concat(window.OLAYLAR_EK || [])
                                     .concat(window.OLAYLAR_EK2 || [])
                                     .concat(window.OLAYLAR_EK3 || [])
                                     .concat(window.OLAYLAR_EK4 || [])
-                                    .concat(window.OLAYLAR_EK5 || []).map(function (o) {
+                                    .concat(window.OLAYLAR_EK5 || [])
+                                    .concat(window.OLAYLAR_EK6 || []).map(function (o) {
   var kaba = gunIdx(o.t);
   return Object.assign({ gi: o.t.split("-").length > 2 ? kaba : gunMetniIdx(o.gun, kaba) }, o);
 }).sort(function (a, b) { return a.gi - b.gi; });

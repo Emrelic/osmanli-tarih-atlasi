@@ -78,6 +78,10 @@ BOYALAR = {
     "umman":      ("Umman",                  "#5b9e8f"),
     "suud":       ("Suûdî / Vehhâbî",        "#8f9e5b"),
     "sammar":     ("Şammar (Hâil)",          "#a0885b"),
+    # TDV ASÎR: Mondros'tan sonra bölge Osmanlı idaresinden çıktı; Ebhâ'da
+    # Hasan b. Muhammed Âiz'in emirliği kaldı, 1920'de Abdülazîz b. Suûd
+    # Ebhâ'yı zaptetti. Bu 15 ay yazılı olmadığı için Asîr yaylası boştu.
+    "aiz":        ("Âiz Emirliği (Ebhâ)",     "#00897b"),
     # Lahsa 1670'te Benî Hâlid'e kaybedildi, 1795'te Suûî́lere geçti; arada
     # hiçbir sahip yazılı olmadığı için bölge haritada boş kalıyordu.
     "benihalid":  ("Benî Hâlid Emirliği (Lahsa)", "#8a9440"),
@@ -86,6 +90,24 @@ BOYALAR = {
     "habesistan": ("Habeşistan",             "#7d5b3a"),
     "adal":       ("Adal / Harar",           "#a08f5b"),
     "somali":     ("Somali sultanlıkları",   "#b5a06b"),
+    # --- 1918 sonrası ardıl devletler: Habsburg ve Romanov gövdeleri dağılınca
+    # yerine hiçbir sahip yazılmamıştı; Orta Avrupa 1918-1923 karelerinde boştu.
+    "cekoslovakya": ("Çekoslovakya",          "#5d4037"),
+    "polonya":      ("Polonya Cumhuriyeti",   "#ab47bc"),
+    "yugoslavya":   ("Yugoslavya (SHS)",      "#00695c"),
+    "letonya":      ("Letonya",               "#78909c"),
+    "litvanya":     ("Litvanya",              "#a1887f"),
+    "finlandiya":   ("Finlandiya",            "#90a4ae"),
+    "norvec":       ("Norveç",                "#5c6bc0"),
+    # --- İtalya birliğinden (1861) önceki sahipler ---
+    "sardinya":     ("Sardinya-Piyemonte",    "#795548"),
+    "toskana":      ("Floransa / Toskana",     "#9575cd"),
+    "milanoduka":   ("Milano Dukalığı",        "#7986cb"),
+    # Hartum 1885'te düştükten sonra Sudan 14 yıl Mehdî Devleti'ndeydi;
+    # yazılı olmadığı için bölge o pencerede haritada boş kalıyordu.
+    "mehdi":        ("Mehdî Devleti (Sudan)",  "#4e342e"),
+    # --- Func Sultanlığı'ndan (1504) önceki Hıristiyan Nûbe krallıkları ---
+    "nube":         ("Nûbe krallıkları (Makurya-Alve)", "#6d4c41"),
     "fas":        ("Fas",                    "#9e6b5b"),
     # --- Anadolu beylikleri (Osmanlı kuruluş coğrafyasının fetih öncesi sahipleri) ---
     "karaman":    ("Karamanoğulları",         "#4527a0"),
@@ -132,6 +154,14 @@ BOYALAR = {
     "inancogullari":  ("İnançoğulları",        "#5b4ab5"),
     "sahibata":       ("Sâhib Ataoğulları",    "#8f9e2d"),
     "taceddin":       ("Tâceddinoğulları",     "#2d8f4a"),
+    # TDV ALÂİYE BEYLİĞİ: 1293'te Karamanoğlu Mecdüddin Mahmud Bey'in eline geçti,
+    # o tarihten 1471'de Gedik Ahmed Paşa'nın kuşatmasına kadar kendi bey soyuyla
+    # yönetildi. Haritada Karaman'ın içinde eriyordu; ayrı renk verildi.
+    "alaiye":         ("Alâiye Beyliği",       "#0277bd"),
+    # TDV ORDU (şehir): Bayram Bey'in kurduğu, oğlu Hacı Emîr'in ~1350'de
+    # genişlettiği Türkmen beyliği; merkezi Eskipazar. 1398'de Yıldırım'a
+    # bağlandı, 1427'de ilhak edildi. Ordu-Ünye kıyısı haritada noktasızdı.
+    "haciemir":       ("Hacıemîroğulları (Ordu)", "#ef6c00"),
     "mutahharten":    ("Erzincan Beyliği (Mutahharten)", "#827717"),
     "hafsi":      ("Hafsîler (Tunus)",        "#7d8f3a"),
     "zeyyani":    ("Zeyyânîler (Tilimsan)",   "#6ba0a0"),
