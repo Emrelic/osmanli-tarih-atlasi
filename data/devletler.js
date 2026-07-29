@@ -435,7 +435,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"bosna-kralligi", ad:"Bosna Krallığı", tur:"krallik", bolge:"balkanlar",
-  f:"1377-01-01", t:"1463-05-01", baskent:"Jajce",
+  f:"1377-01-01", t:"1463-05-01", baskent:"Jajce", harita:"bosna",
   ozet:"Fatih'in seferiyle hızla ilhak edilen Balkan krallığı.",
   kronoloji:[
     { t:"1377-01-01", tur:"kurulus", b:"Tvrtko I tarafından krallık ilan edildi" },
@@ -541,11 +541,20 @@ window.DEVLETLER = [
 
 { id:"gurcistan", ad:"Gürcistan Krallığı/Krallıkları", tur:"krallik", bolge:"kafkasya",
   f:"1008-01-01", t:"1801-09-12", baskent:"Tiflis", harita:"gurcistan",
-  ozet:"Osmanlı-Safevî çekişmesinde parçalanan (Kartli, Kaheti, İmereti) Kafkas krallığı; sonunda Rusya'ya ilhak edildi.",
+  ozet:"Bagratlı hanedanının birleştirdiği, Kraliçe Tamar döneminde altın çağını yaşayan, 1490'da Kartli/Kaheti/İmereti'ye bölünen Kafkas krallığı; Osmanlı-Safevî çekişmesinde parçalandı, sonunda Rusya'ya ilhak edildi. (kaynak: TDV, madde: gurcistan)",
   kronoloji:[
+    { t:"1008-01-01", tur:"kurulus", b:"III. Bagrat, Kartli ve Abhazya'yı birleştirip Gürcistan Krallığı'nı kurdu" },
+    { t:"1121-08-12", tur:"savas", b:"IV. David (Kurucu), Didgori Savaşı'nda büyük Selçuklu-Türkmen ordusunu yendi" },
+    { t:"1122-01-01", tur:"toprak-kazanc", b:"Tiflis'i alıp başkent yaptı" },
+    { t:"1184-01-01", tur:"hukumdar", b:"Kraliçe Tamar döneminde krallık en geniş sınırlarına ulaştı (altın çağ)" },
+    { t:"1220-01-01", tur:"isgal", b:"Moğol istilaları başladı, krallık zayıfladı" },
+    { t:"1386-01-01", tur:"isgal", b:"Timur'un art arda seferleri ülkeyi harap etti" },
+    { t:"1490-01-01", tur:"bolunme", b:"Krallık Kartli, Kaheti ve İmereti'ye bölündü, Samçhe (Meskheti) atabekliği de ayrıca bağımsızlaştı" },
     { t:"1555-05-29", tur:"bolunme", b:"Amasya Barışı ile Osmanlı-Safevî nüfuz bölgelerine bölündü" },
     { t:"1578-01-01", tur:"savas", b:"Osmanlı, Kafkasya seferleriyle Tiflis'i ele geçirdi" },
     { t:"1590-03-21", tur:"toprak-kazanc", b:"Ferhad Paşa Antlaşması ile Gürcistan Osmanlı nüfuzuna girdi" },
+    { t:"1762-01-01", tur:"birlesme", b:"II. Herakli, Kartli ve Kaheti'yi kişisel birlikte topladı" },
+    { t:"1783-07-24", tur:"antlasma", b:"Georgievsk Antlaşması ile Kartli-Kaheti Rusya himayesine girdi" },
     { t:"1801-09-12", tur:"son", b:"Kartli-Kaheti Krallığı Rusya tarafından ilhak edildi" }
   ]
 },
@@ -1128,6 +1137,333 @@ window.DEVLETLER = [
     { t:"1421-01-01", tur:"bolunme", b:"Son Balšić hükümdarı Zeta'yı Sırp despotuna miras bıraktı" },
     { t:"1451-01-01", tur:"hukumdar", b:"Crnojević ailesi Zeta'nın başına geçti, merkezi Cetine'ye taşıdı" },
     { t:"1514-01-01", tur:"son", b:"İskender Bey (Crnojevićlerden) döneminde Zeta doğrudan Osmanlı sancağına dönüştürüldü" }
+  ]
+},
+
+// ================================================================================
+// Parti 3: Orta ve Batı Avrupa — Habsburg/Macaristan/Lehistan/Venedik/Cenova/
+// Napoli/Papalık/Fransa/İspanya/Portekiz/İngiltere/Hollanda/İsveç/Danimarka
+// Parti 0'da zaten vardı. Bu partide eksik kalanlar: Bohemya (Habsburg öncesi
+// bağımsız krallık), İtalyan birliği öncesi üç devlet (Milano, Floransa/Toskana,
+// Sardinya-Piyemonte — üçü de arac/uret_petek.py BOYALAR'da vardı, dizinde
+// yoktu) ve birleşik İtalya Krallığı (1861-1923, "italya" BOYALAR id'si).
+// Bu kayıtların hiçbiri TDV'nin kapsamı içinde değil (Avrupa'nın iç tarihi);
+// kaynak kuralı gereği standart akademik referansa (Cambridge Medieval/Modern
+// History, Setton) dayanıyor. Tarihler yaygın/tartışmasız kabul görmüş olanlar;
+// gün hassasiyeti yalnız kesin bilinen olaylarda kullanıldı.
+// ================================================================================
+
+{ id:"bohemya", ad:"Bohemya Krallığı", tur:"krallik", bolge:"orta-avrupa",
+  f:"1198-01-01", t:"1526-08-29", baskent:"Prag",
+  ozet:"Kutsal Roma İmparatorluğu içinde özerk krallık; Hussit savaşları ve Jagellon hanedanı döneminden sonra Mohaç'ta kralın ölümüyle tacı Habsburg'a geçti (bkz. [[habsburg]]).",
+  kronoloji:[
+    { t:"1198-01-01", tur:"kurulus", b:"Ottokar I, kalıtsal kral unvanını kazandı" },
+    { t:"1419-07-30", tur:"isyan", b:"Prag'da ilk pencereden atma (defenestrasyon) ile Hussit Savaşları başladı" },
+    { t:"1436-01-01", tur:"antlasma", b:"Basel Uzlaşmalarıyla Hussit savaşları sona erdi" },
+    { t:"1471-01-01", tur:"hukumdar", b:"Jagellon hanedanı (Vladislav II) tahta çıktı" },
+    { t:"1526-08-29", tur:"son", b:"II. Layoş Mohaç'ta öldü, taç Habsburg I. Ferdinand'a geçti" }
+  ]
+},
+{ id:"milano-dukaligi", ad:"Milano Dükalığı", tur:"dukalik", bolge:"italya",
+  f:"1395-05-11", t:"1859-11-10", baskent:"Milano", harita:"milanoduka",
+  ozet:"Visconti ve Sforza hanedanlarının İtalya'nın en zengin dükalığı; Sforza hattının sönmesiyle önce İspanyol, sonra Avusturya Habsburglarının eline geçti, İtalya birliğinde Sardinya-Piyemonte'ye katıldı.",
+  kronoloji:[
+    { t:"1395-05-11", tur:"kurulus", b:"Gian Galeazzo Visconti, İmparator Wenceslaus'tan dük unvanını satın aldı" },
+    { t:"1450-03-25", tur:"hukumdar", b:"Francesco Sforza, Ambrosian Cumhuriyeti'ne son verip dük oldu" },
+    { t:"1535-11-01", tur:"bolunme", b:"Son Sforza dükü öldü, V. Karl dükalığı İspanyol tacına kattı" },
+    { t:"1714-01-01", tur:"toprak-kayip", b:"İspanya Veraset Savaşı sonrası Avusturya Habsburglarına geçti" },
+    { t:"1859-11-10", tur:"son", b:"Zürih Antlaşması ile Lombardiya Sardinya-Piyemonte'ye bırakıldı" }
+  ]
+},
+{ id:"toskana", ad:"Floransa / Toskana Büyük Dükalığı", tur:"dukalik", bolge:"italya",
+  f:"1532-01-01", t:"1860-03-22", baskent:"Floransa", harita:"toskana",
+  ozet:"Floransa Cumhuriyeti'nden Medici hanedanı eliyle doğan dükalık; 1569'da Büyük Dükalık'a yükseldi, İtalya birliğinde halkoylamasıyla Sardinya-Piyemonte'ye katıldı.",
+  kronoloji:[
+    { t:"1532-01-01", tur:"kurulus", b:"Floransa Cumhuriyeti, Medici hanedanı altında dükalığa dönüştü" },
+    { t:"1569-08-27", tur:"hukumdar", b:"I. Cosimo, Papa V. Pius tarafından Toskana Büyük Dükü ilan edildi" },
+    { t:"1737-07-09", tur:"bolunme", b:"Medici hanedanı sönünce taç Habsburg-Lorraine hanedanına geçti" },
+    { t:"1860-03-22", tur:"son", b:"Halkoylamasıyla Sardinya-Piyemonte'ye (yakında İtalya Krallığı'na) katıldı" }
+  ]
+},
+{ id:"sardinya-piyemonte", ad:"Sardinya-Piyemonte Krallığı (Savoya)", tur:"krallik", bolge:"italya",
+  f:"1720-08-02", t:"1861-03-17", baskent:"Torino", harita:"sardinya",
+  ozet:"Savoya hanedanının Sicilya'yı Sardinya ile takas ederek kazandığı kraliyet unvanı; İtalya birleşme hareketinin öncüsü oldu, 1861'de İtalya Krallığı'na dönüştü.",
+  kronoloji:[
+    { t:"1720-08-02", tur:"kurulus", b:"Savoya Dükü Amedeo, Sicilya'yı Avusturya'ya devredip Sardinya Krallığı unvanını aldı" },
+    { t:"1848-03-23", tur:"savas", b:"I. Bağımsızlık Savaşı'nda Avusturya'ya karşı savaştı" },
+    { t:"1859-07-11", tur:"savas", b:"II. Bağımsızlık Savaşı'nda Fransa ile birlikte Avusturya'yı yenip Lombardiya'yı kazandı" },
+    { t:"1861-03-17", tur:"son", b:"II. Vittorio Emanuele, birleşik İtalya Krallığı'nı ilan etti" }
+  ]
+},
+{ id:"italya", ad:"İtalya Krallığı", tur:"krallik", bolge:"italya",
+  f:"1861-03-17", t:"1923-10-29", baskent:"Torino → Floransa → Roma", harita:"italya",
+  ozet:"Sardinya-Piyemonte öncülüğünde birleşen İtalya; Trablusgarp Savaşı'yla Osmanlı'dan Libya ve Oniki Ada'yı aldı, I. Dünya Savaşı'nda İtilaf saflarında yer aldı (1923 sonrasında da sürdü).",
+  kronoloji:[
+    { t:"1861-03-17", tur:"kurulus", b:"II. Vittorio Emanuele, birleşik krallığı ilan etti" },
+    { t:"1866-01-01", tur:"toprak-kazanc", b:"III. Bağımsızlık Savaşı ile Venedik'i kazandı" },
+    { t:"1870-09-20", tur:"toprak-kazanc", b:"Roma'yı alarak birleşmeyi tamamladı (bkz. [[papalik]])" },
+    { t:"1911-09-29", tur:"savas", b:"Trablusgarp Savaşı'nı başlattı, Libya'yı ve Oniki Ada'yı aldı (bkz. [[trablusgarp-ocagi]], [[oniki-ada-italyan]])" },
+    { t:"1915-05-23", tur:"savas", b:"İtilaf Devletleri safında I. Dünya Savaşı'na girdi" },
+    { t:"1919-04-28", tur:"isgal", b:"Antalya ve çevresini işgal etti (Millî Mücadele cephelerinden biri)" }
+  ]
+},
+
+// ================================================================================
+// Parti 4: Doğu ve Kafkasya — Bizans, Kilikya Ermeni, Şirvanşahlar, Karakoyunlu,
+// Akkoyunlu, Timurlu, Safevî, Afşar, Kaçar Parti 0-1'de zaten vardı; `gurcistan`
+// kaydı yukarıda (Kartli/Kaheti/İmereti bölünmesi, Didgori, Kraliçe Tamar altın
+// çağı eklenerek) zenginleştirildi. Eksik kalan iki kayıt: Trabzon Rum
+// İmparatorluğu (TDV'de madde var) ve Zend Hanedanı (TDV'de madde yok — Afşar
+// ile Kaçar arasındaki İran'ı dolduruyor, standart akademik kaynağa göre).
+// ================================================================================
+
+{ id:"trabzon-rum", ad:"Trabzon Rum İmparatorluğu", tur:"imparatorluk", bolge:"anadolu",
+  f:"1204-01-01", t:"1461-08-15", baskent:"Trabzon",
+  ozet:"IV. Haçlı Seferi'nin İstanbul'u düşürmesinden az önce Gürcü desteğiyle kurulan Komnenos hanedanlığı; Bizans'ın son parçası olarak Fatih'e teslim oldu. (kaynak: TDV, madde: trabzon)",
+  kronoloji:[
+    { t:"1204-01-01", tur:"kurulus", b:"Aleksios Komnenos, Gürcü Kraliçesi Tamar'ın desteğiyle Trabzon'da bağımsız Rum devletini kurdu" },
+    { t:"1461-01-01", tur:"antlasma", b:"Akkoyunlu Uzun Hasan ile evlilik ittifakı (Despina Hatun) üzerinden Osmanlı'ya karşı destek arandı" },
+    { t:"1461-08-15", tur:"son", b:"Fatih'in kuşatmasıyla teslim oldu; İmparator David Komnenos ailesiyle İstanbul'a sürüldü — Bizans mirasının son parçası (bkz. [[bizans]])" }
+  ]
+},
+{ id:"zend", ad:"Zend Hanedanı (İran)", tur:"devlet", bolge:"iran",
+  f:"1751-01-01", t:"1794-01-01", baskent:"Şiraz",
+  ozet:"Nadir Şah'ın ölümü sonrası kargaşada Kerim Han'ın kurduğu, şah unvanı yerine \"Vekilü'r-Reâyâ\" sanını kullandığı İran hanedanı; Kaçarlar tarafından ortadan kaldırıldı (bkz. [[kacar]]). TDV'de ayrı maddesi yok; tarihler standart akademik kaynaklara göredir.",
+  kronoloji:[
+    { t:"1751-01-01", tur:"kurulus", b:"Kerim Han Zend, Nadir Şah sonrası kargaşada İran'ın büyük bölümünü ele geçirdi" },
+    { t:"1765-01-01", tur:"hukumdar", b:"Şiraz'ı başkent yaparak imar etti, Basra ile ticareti geliştirdi" },
+    { t:"1779-01-01", tur:"hukumdar", b:"Kerim Han öldü, halefleri arasında taht kavgaları başladı" },
+    { t:"1794-01-01", tur:"son", b:"Ağa Muhammed Han Kaçar, son hükümdar Lütfali Han'ı Kirman'da yenip idam etti" }
+  ]
+},
+
+// ================================================================================
+// Parti 5: Kuzey ve bozkır — Altın Orda, Kırım Hanlığı, Zaporojye, Rusya
+// Çarlığı/İmparatorluğu Parti 0'da zaten vardı (rusya kaydı zaten Astarhan'ın
+// 1556 ilhakını içeriyordu). Bu partide Altın Orda'nın dört bozkır ardılından
+// eksik kalan dördü eklendi: Kazan (`kazan` BOYALAR'da vardı), Astarhan, Sibir,
+// Nogay — dördü de TDV'de doğrulanmış maddeye sahip.
+// ================================================================================
+
+{ id:"kazan", ad:"Kazan Hanlığı", tur:"hanlik", bolge:"sibirya-bozkir",
+  f:"1437-01-01", t:"1552-10-02", baskent:"Kazan", harita:"kazan",
+  ozet:"Altın Orda'nın dağılmasıyla Uluğ Muhammed'in kurduğu, İdil-Ural bölgesinin önemli bir İslâm ve ticaret merkezi olan hanlık; IV. İvan tarafından ilhak edildi. (kaynak: TDV, madde: kazan)",
+  kronoloji:[
+    { t:"1437-01-01", tur:"kurulus", b:"Altın Orda hanı Uluğ Muhammed, Kazan'da hanlığını kurdu (bazı kaynaklara göre 1445)" },
+    { t:"1487-01-01", tur:"antlasma", b:"III. İvan'ın seferi sonucu Moskova yanlısı bir han tahta çıkarıldı, hanlık fiilen vasal oldu" },
+    { t:"1552-10-02", tur:"son", b:"IV. İvan'ın kuşatması sonucu Kazan düştü, hanlık Rusya'ya ilhak edildi (bkz. [[rusya]])" }
+  ]
+},
+{ id:"astarhan", ad:"Astarhan (Ejderhan) Hanlığı", tur:"hanlik", bolge:"sibirya-bozkir",
+  f:"1466-01-01", t:"1556-01-01", baskent:"Ejderhan (Astarhan)",
+  ozet:"Altın Orda'nın dağılmasıyla Kasım Han'ın kurduğu, Hazar'ın kuzey kıyısındaki hanlık; Kırım-Osmanlı nüfuz mücadelesinin ardından IV. İvan tarafından ilhak edildi. (kaynak: TDV, madde: astarhan-hanligi)",
+  kronoloji:[
+    { t:"1466-01-01", tur:"kurulus", b:"Küçük Muhammed Han'ın torunu Kasım Han, Ejderhan'da hanlığını kurdu" },
+    { t:"1502-01-01", tur:"savas", b:"Kırım Hanı Mengli Giray, Osmanlı desteğiyle Saray şehrini yıktı; hanlık ~20 yıl Kırım nüfuzuna girdi" },
+    { t:"1552-01-01", tur:"hukumdar", b:"IV. İvan, Kazan'ı aldıktan sonra Derviş Han'ı Ejderhan tahtına çıkarıp fiilen vasal yaptı" },
+    { t:"1556-01-01", tur:"son", b:"Rusya hanlığı doğrudan işgal etti, hanedan Buhara'ya sığındı" },
+    { t:"1569-01-01", tur:"savas", b:"Osmanlı, Don-Volga kanal projesiyle bölgeyi geri almaya çalıştı; Kefe Beyi Kasım Bey'in seferi başarısız oldu (bkz. [[rusya]])" }
+  ]
+},
+{ id:"sibir", ad:"Sibir Hanlığı", tur:"hanlik", bolge:"sibirya-bozkir",
+  f:"1420-01-01", t:"1598-01-01", baskent:"İsker (Sibir)",
+  ozet:"Altın Orda'nın dağılmasıyla Batı Sibirya'da kurulan Türk-Tatar hanlığı; Küçüm Han'ın direnişine rağmen Yermak'ın kazaklarıyla başlayan Rus istilası hanlığı ortadan kaldırdı. (kaynak: TDV, madde: sibir-hanligi)",
+  kronoloji:[
+    { t:"1420-01-01", tur:"kurulus", b:"Hacı Muhammed, Sibir bölgesinde hanlığın temelini attı" },
+    { t:"1493-01-01", tur:"bolunme", b:"Muhammed Tayboğa, hanedanı değiştirip başkenti Sibir şehrine taşıdı" },
+    { t:"1563-01-01", tur:"hukumdar", b:"Şeybânî soyundan Küçüm Han tahta çıktı, Ruslara karşı direnişi örgütledi" },
+    { t:"1582-01-01", tur:"savas", b:"Stroganov ailesinin desteklediği Yermak'ın kazakları başkent İsker'i ele geçirdi" },
+    { t:"1598-01-01", tur:"son", b:"Küçüm Han kesin yenilgiye uğradı, hanlık fiilen sona erdi" }
+  ]
+},
+{ id:"nogay", ad:"Nogay Ordası", tur:"devlet", bolge:"sibirya-bozkir",
+  f:"1440-01-01", t:"1783-01-01", baskent:"(bozkırda göçebe, sabit başkent yok)",
+  ozet:"Altın Orda'nın dağılma sürecinde Mangıt beyi Edigü'nün mirasından doğan Türk-Tatar konfederasyonu; 1557-58'de Osmanlı yanlısı Büyük Nogay ile Moskova/Kırım yanlısı Küçük Nogay olarak ikiye bölündü, Rus/Kalmuk baskısıyla bağımsızlığını yitirdi. (kaynak: TDV, madde: nogaylar)",
+  kronoloji:[
+    { t:"1420-01-01", tur:"hukumdar", b:"Mangıt beyi Edigü öldü; ardından oğulları konfederasyonun çekirdeğini oluşturdu" },
+    { t:"1557-01-01", tur:"bolunme", b:"Osmanlı yanlısı Yûsuf Mirza ile Moskova yanlısı İsmâil Mirza arasındaki çekişme konfederasyonu ikiye böldü" },
+    { t:"1558-01-01", tur:"bolunme", b:"Kadı Mirza'nın grubu Volga'yı geçip Küçük Nogay Ordası'nı kurdu, Büyük Nogay bozkırda kaldı" },
+    { t:"1569-01-01", tur:"savas", b:"Osmanlı'nın Astarhan seferine etki etti ama askerî destek vermedi (bkz. [[astarhan]], [[rusya]])" },
+    { t:"1586-01-01", tur:"toprak-kayip", b:"Moskova'nın Samara, Tsaritsın ve Saratov kalelerini kurmasıyla akınları sınırlandı" },
+    { t:"1783-01-01", tur:"son", b:"Suvorov'un Kuban'daki yenilgisiyle Büyük Nogay'ın bağımsızlığı fiilen sona erdi" }
+  ]
+},
+
+// ================================================================================
+// Parti 6: Arabistan ve körfez — I/II. Suûdî Devleti, Şammar, Yemen Zeydî,
+// Umman, Hicaz Krallığı Parti 0'da zaten vardı. Bu partide `arac/uret_petek.py`
+// BOYALAR'da tanımlı olup dizinde karşılığı olmayan iki kayıt eklendi: Benî
+// Hâlid (Lahsa) ve Âiz (Ebhâ/Asîr) — ikisi de BOYALAR'da harita üzerindeki
+// "sahipsiz" boşlukları doldurmak için özellikle eklenmiş id'lerdi (kod
+// içindeki yorumlar bunu açıkça belirtiyor), TDV'de ikisi de madde var.
+// ================================================================================
+
+{ id:"benihalid", ad:"Benî Hâlid Emirliği (Lahsa)", tur:"devlet", bolge:"arabistan",
+  f:"1670-01-01", t:"1795-01-01", baskent:"Hufuf", harita:"benihalid",
+  ozet:"Osmanlı'yı Lahsa'dan (el-Hasa) çıkarıp doğu Arabistan'a egemen olan bedevi emirliği; yükselen Suûdî-Vehhâbî devletine yenilerek 1795'te tasfiye edildi (1818-1830 arası kısa bir dönem geri döndüyse de 1874-75'te tarihe karıştı). (kaynak: TDV, madde: halid-beni-halid)",
+  kronoloji:[
+    { t:"1670-01-01", tur:"kurulus", b:"Berrâk b. Guraybir, Lahsa'nın merkezi Hufuf'u ele geçirip Osmanlı idaresine son verdi" },
+    { t:"1691-01-01", tur:"toprak-kazanc", b:"Berrâk'ın oğlu Muhammed, Necid'e akınlarını sürdürdü" },
+    { t:"1744-01-01", tur:"savas", b:"Muhammed b. Abdülvehhâb'ın Dir'iye'ye sığınmasıyla Suûdîlerle husumet başladı (bkz. [[suud-birinci]])" },
+    { t:"1752-01-01", tur:"bolunme", b:"Süleyman el-Hamîdî tahttan indirildi, iç çekişmeler başladı" },
+    { t:"1795-01-01", tur:"son", b:"Abdülazîz b. Suûd, Lahsa'yı ele geçirip emirliğe fiilen son verdi" }
+  ]
+},
+{ id:"aiz", ad:"Âiz Emirliği (Ebhâ / Asîr)", tur:"devlet", bolge:"arabistan",
+  f:"1918-10-30", t:"1920-01-01", baskent:"Ebhâ", harita:"aiz",
+  ozet:"Mondros Mütarekesi'yle Osmanlı'nın Asîr'den çekilmesinin ardından Ebhâ yaylasında Hasan b. Muhammed Âiz'in kurduğu kısa ömürlü emirlik; ailenin bölgedeki nüfuzu 1840'lardan beri sürüyordu, Abdülazîz b. Suûd'un fethiyle sona erdi. (kaynak: TDV, madde: asir--suudi-arabistan)",
+  kronoloji:[
+    { t:"1866-01-01", tur:"hukumdar", b:"Muhammed b. Âiz, Osmanlı tarafından \"ümerâ emiri\" tanınarak ailenin Asîr'deki nüfuzu perçinlendi" },
+    { t:"1871-01-01", tur:"savas", b:"Redif Paşa'nın seferiyle Osmanlı doğrudan idareyi yeniden kurdu, emirlik bir mutasarrıflığa dönüştü" },
+    { t:"1918-10-30", tur:"kurulus", b:"Mondros Mütarekesi'yle Osmanlı çekildi, Hasan b. Muhammed Âiz Ebhâ'da fiilî bağımsız emirliğini kurdu" },
+    { t:"1920-01-01", tur:"son", b:"Abdülazîz b. Suûd, Ebhâ'yı zaptederek Asîr yaylasını Suûdî topraklarına kattı" }
+  ]
+},
+
+// ================================================================================
+// Parti 7: Afrika — Memlûk, Fas (Sâdî/Alevî), Func (Sennâr), Habeşistan, Adal
+// Parti 0'da zaten vardı. Bu partide `uret_petek.py` BOYALAR'da tanımlı olup
+// dizinde karşılığı olmayan beş kayıt eklendi: Hafsîler, Zeyyânîler, Mehdî
+// Devleti (TDV'de üçü de madde var), Nûbe krallıkları ve Somali sultanlıkları
+// (ikisi de TDV'de yok — standart akademik kaynağa göre, düşük kesinlik
+// ozet'te açıkça belirtildi).
+// ================================================================================
+
+{ id:"hafsi", ad:"Hafsîler (Tunus)", tur:"sultanlik", bolge:"kuzey-afrika",
+  f:"1229-01-01", t:"1574-09-13", baskent:"Tunus", harita:"hafsi",
+  ozet:"Muvahhidler'den bağımsızlaşan, Tunus'u Akdeniz'in önemli bir ticaret merkezine dönüştüren Berberî hanedan; iç çekişmeler ve İspanya müdahalesi sonrası Sinan Paşa'nın fethiyle Osmanlı eyaleti oldu. (kaynak: TDV, madde: hafsiler)",
+  kronoloji:[
+    { t:"1229-01-01", tur:"kurulus", b:"Ebû Zekeriyyâ Yahyâ, Muvahhidler'den ayrılıp İfrîkıye'de bağımsızlığını ilan etti" },
+    { t:"1270-01-01", tur:"savas", b:"IX. Louis'nin (Fransa) Tunus'a yönelik Sekizinci Haçlı Seferi'ni püskürttü" },
+    { t:"1534-01-01", tur:"toprak-kayip", b:"Barbaros Hayreddin Paşa Tunus'u aldı, ertesi yıl V. Karl geri verdi" },
+    { t:"1574-09-13", tur:"son", b:"Sinan Paşa Tunus'u kesin olarak fethetti, son Hafsî Mevlây Muhammed İstanbul'a gönderildi" }
+  ]
+},
+{ id:"zeyyani", ad:"Zeyyânîler (Tilimsan)", tur:"sultanlik", bolge:"kuzey-afrika",
+  f:"1236-01-01", t:"1554-01-01", baskent:"Tilimsan (Tlemcen)", harita:"zeyyani",
+  ozet:"Merinî ve Hafsî baskısı arasında sıkışan Tilimsan merkezli Berberî (Abdülvâdî) hanedanı; İspanya-Osmanlı çekişmesinin ardından Osmanlı'ya katıldı. (kaynak: TDV, madde: zeyyaniler)",
+  kronoloji:[
+    { t:"1236-01-01", tur:"kurulus", b:"Yağmurasen b. Zeyyân, Tilimsan'da hanedanını kurdu" },
+    { t:"1337-01-01", tur:"toprak-kayip", b:"Merinîler Tilimsan'ı kısa süreliğine ele geçirdi" },
+    { t:"1509-01-01", tur:"antlasma", b:"İspanya'nın baskısıyla haraca bağlandı" },
+    { t:"1554-01-01", tur:"son", b:"Osmanlı beylerbeyi Salih Reis Tilimsan'ı alarak hanedana son verdi" }
+  ]
+},
+{ id:"mehdi", ad:"Mehdî Devleti (Sudan)", tur:"devlet", bolge:"misir-sudan",
+  f:"1881-03-01", t:"1898-09-02", baskent:"Ubeyyid (Kordofan) → Ömdürman", harita:"mehdi",
+  ozet:"Muhammed Ahmed el-Mehdî'nin Sudan'da başlattığı dinî-siyasî hareketin kurduğu devlet; Hartum'u alıp General Gordon'u öldürdü, halefi Halife Abdullah döneminde Kitchener'in Ömdürman zaferiyle yıkıldı. (kaynak: TDV, madde: mehdiler--sudan)",
+  kronoloji:[
+    { t:"1881-03-01", tur:"kurulus", b:"Muhammed Ahmed, kendini Mehdî ilan etti" },
+    { t:"1882-09-07", tur:"toprak-kazanc", b:"Kordofan'ın merkezi Ubeyyid'i ele geçirdi" },
+    { t:"1885-01-26", tur:"toprak-kazanc", b:"Hartum'u aldı, General Gordon öldürüldü" },
+    { t:"1885-06-22", tur:"hukumdar", b:"Muhammed Ahmed öldü, yerine Halife Abdullah et-Teâyişî geçti" },
+    { t:"1898-09-02", tur:"son", b:"Kitchener'in Ömdürman zaferiyle devlet yıkıldı" }
+  ]
+},
+{ id:"nube", ad:"Nûbe Krallıkları (Makurya-Alve)", tur:"krallik", bolge:"misir-sudan",
+  f:"543-01-01", t:"1504-01-01", harita:"nube",
+  ozet:"Nil vadisinde Hristiyan Nûbe krallıkları Makurya (Dongola merkezli) ve güneyindeki Alve (Soba merkezli); 651'de Araplarla imzalanan Bakt Antlaşması'yla asırlarca barış içinde yaşadılar, Memlük baskınları ve Arap göçleriyle önce Makurya sonra Alve yıkıldı. TDV'de ayrı maddesi yok; tarihler standart akademik kaynaklara göredir, kesinlik düşük.",
+  kronoloji:[
+    { t:"543-01-01", tur:"kurulus", b:"Makurya Krallığı Hristiyanlığı kabul etti (Dongola merkezli)" },
+    { t:"651-01-01", tur:"antlasma", b:"Araplarla Bakt Antlaşması imzalandı, uzun bir barış dönemi başladı" },
+    { t:"1276-01-01", tur:"isgal", b:"Memlük Sultanı Baybars'ın seferleriyle Dongola art arda yağmalandı" },
+    { t:"1365-01-01", tur:"bolunme", b:"Dongola tahliye edildi, Makurya güneye çekilip küçük bir krallığa (Dotawo) dönüştü" },
+    { t:"1504-01-01", tur:"son", b:"Func Sultanlığı, Soba'yı alarak Alve Krallığı'na son verdi (bkz. [[funj]])" }
+  ]
+},
+{ id:"somali", ad:"Somali Sultanlıkları", tur:"sultanlik", bolge:"dogu-afrika",
+  f:"1500-01-01", t:"1923-10-29", baskent:"Mogadişu ve çeşitli merkezler", harita:"somali",
+  ozet:"Adal'ın çöküşünden sonra Somali kıyısında ardı ardına ortaya çıkan sultanlıklar (Ecuran/Ajuran, sonra Migiurtinia ve Hobyo); 20. yüzyıl başında İtalyan sömürgeciliğiyle sona erdi. TDV'de ayrı maddesi yok; tarihler standart akademik kaynaklara göredir, kesinlik düşük.",
+  kronoloji:[
+    { t:"1500-01-01", tur:"kurulus", b:"Ecuran (Ajuran) Sultanlığı, güney Somali kıyısında ve Şebelle vadisinde hâkimiyet kurdu" },
+    { t:"1700-01-01", tur:"bolunme", b:"Ecuran Sultanlığı dağıldı, yerine Geledi ve diğer yerel sultanlıklar kuruldu" },
+    { t:"1750-01-01", tur:"kurulus", b:"Migiurtinia (Meyd) Sultanlığı kuzeydoğu Somali'de kuruldu" },
+    { t:"1878-01-01", tur:"kurulus", b:"Hobyo Sultanlığı, Yûsuf Ali Kenadid tarafından kuruldu" }
+  ]
+},
+
+// ================================================================================
+// Parti 8: 1918-1924 ardılları — Habsburg ve Romanov gövdelerinin dağılmasıyla
+// ortaya çıkan devletler. `uret_petek.py`'deki BOYALAR yorumu bu boşluğu
+// açıkça belirtiyordu ("1918 sonrası ardıl devletler... yerine hiçbir sahip
+// yazılmamıştı"). Bunlar Avrupa'nın iç/modern tarihi olduğu için TDV kapsamı
+// dışında; standart akademik kaynağa (genel kabul görmüş, tartışmasız
+// tarihler) göre yazıldı. Norveç aslında 1905'te (Habsburg/Romanov'la
+// ilgisiz) bağımsızlaştı ama BOYALAR aynı yorum bloğunda tanımlı olduğu için
+// buraya eklendi; mevcut `danimarka` kaydı (Danimarka-Norveç, 1380-1923) 1814
+// sonrası birliğin gerçekte dağıldığını yansıtmıyor — bu Parti 0'dan kalma bir
+// basitleştirme, dokunmadım, ayrı `norvec` kaydı çakışmadan eklendi.
+// ================================================================================
+
+{ id:"cekoslovakya", ad:"Çekoslovakya Cumhuriyeti", tur:"cumhuriyet", bolge:"orta-avrupa",
+  f:"1918-10-28", t:"1923-10-29", baskent:"Prag", harita:"cekoslovakya",
+  ozet:"Avusturya-Macaristan'ın dağılmasıyla Çek ve Slovak topraklarının birleşmesinden doğan cumhuriyet; Masaryk ilk cumhurbaşkanı oldu (1923 sonrasında da sürdü).",
+  kronoloji:[
+    { t:"1918-10-28", tur:"kurulus", b:"Prag'da bağımsızlık ilan edildi, Tomáš Masaryk cumhurbaşkanı seçildi" },
+    { t:"1919-09-10", tur:"antlasma", b:"Saint-Germain Antlaşması Avusturya'nın Çekoslovakya'yı tanımasını sağladı" },
+    { t:"1920-06-04", tur:"antlasma", b:"Trianon Antlaşması Macaristan'ın Slovakya'yı bırakmasını sağladı" }
+  ]
+},
+{ id:"polonya", ad:"Polonya Cumhuriyeti (II. Cumhuriyet)", tur:"cumhuriyet", bolge:"dogu-avrupa",
+  f:"1918-11-11", t:"1923-10-29", baskent:"Varşova", harita:"polonya",
+  ozet:"123 yıllık paylaşılmışlığın ardından Almanya, Avusturya-Macaristan ve Rusya topraklarından yeniden kurulan devlet; Piłsudski önderliğinde bağımsızlığını Sovyetler'e karşı da savundu (1923 sonrasında da sürdü). Bkz. [[lehistan]] (eski Lehistan-Litvanya Birliği ile doğrudan devamlılığı yok).",
+  kronoloji:[
+    { t:"1918-11-11", tur:"kurulus", b:"Piłsudski Varşova'ya dönüp bağımsızlığı ilan etti" },
+    { t:"1919-06-28", tur:"antlasma", b:"Versay Antlaşması ile bağımsızlığı uluslararası tanındı" },
+    { t:"1920-08-15", tur:"savas", b:"Varşova Savaşı'nda Kızıl Ordu'yu durdurdu" },
+    { t:"1921-03-18", tur:"antlasma", b:"Riga Antlaşması ile Sovyetler'le sınırlar netleşti" }
+  ]
+},
+{ id:"yugoslavya", ad:"Sırp-Hırvat-Sloven Krallığı (SHS)", tur:"krallik", bolge:"balkanlar",
+  f:"1918-12-01", t:"1923-10-29", baskent:"Belgrad", harita:"yugoslavya",
+  ozet:"Sırbistan Krallığı ile Avusturya-Macaristan'ın güney Slav topraklarının birleşmesinden doğan krallık; 1929'da \"Yugoslavya\" adını aldı (1923 sonrasında da sürdü).",
+  kronoloji:[
+    { t:"1918-12-01", tur:"kurulus", b:"Prens Naib Aleksandar, Belgrad'da SHS Krallığı'nı ilan etti" },
+    { t:"1919-09-10", tur:"antlasma", b:"Saint-Germain Antlaşması ile eski Habsburg toprakları (Hırvatistan, Slovenya) resmileşti" }
+  ]
+},
+{ id:"letonya", ad:"Letonya Cumhuriyeti", tur:"cumhuriyet", bolge:"dogu-avrupa",
+  f:"1918-11-18", t:"1923-10-29", baskent:"Riga", harita:"letonya",
+  ozet:"Rusya İmparatorluğu'nun dağılmasıyla bağımsızlığını ilan eden Baltık devleti; Bağımsızlık Savaşı'nda hem Sovyet hem Alman kuvvetlerine karşı direndi (1923 sonrasında da sürdü).",
+  kronoloji:[
+    { t:"1918-11-18", tur:"kurulus", b:"Kārlis Ulmanis önderliğinde Riga'da bağımsızlık ilan edildi" },
+    { t:"1919-01-01", tur:"savas", b:"Sovyet Letonya'sı ve Alman Baltık birlikleriyle Bağımsızlık Savaşı başladı" },
+    { t:"1920-08-11", tur:"antlasma", b:"Riga Barışı ile Sovyet Rusya bağımsızlığı tanıdı" }
+  ]
+},
+{ id:"litvanya", ad:"Litvanya Cumhuriyeti", tur:"cumhuriyet", bolge:"dogu-avrupa",
+  f:"1918-02-16", t:"1923-10-29", baskent:"Kaunas (geçici) / Vilnius (iddia)", harita:"litvanya",
+  ozet:"Rusya İmparatorluğu'nun dağılmasıyla bağımsızlığını ilan eden Baltık devleti; Vilnius'u Polonya'ya kaptırınca geçici başkent Kaunas oldu (1923 sonrasında da sürdü).",
+  kronoloji:[
+    { t:"1918-02-16", tur:"kurulus", b:"Vilnius'ta \"16 Şubat Bildirgesi\" ile bağımsızlık ilan edildi" },
+    { t:"1920-10-09", tur:"toprak-kayip", b:"General Żeligowski'nin Polonya birlikleri Vilnius'u ele geçirdi, başkent Kaunas'a taşındı" }
+  ]
+},
+{ id:"estonya", ad:"Estonya Cumhuriyeti", tur:"cumhuriyet", bolge:"dogu-avrupa",
+  f:"1918-02-24", t:"1923-10-29", baskent:"Tallinn",
+  ozet:"Rusya İmparatorluğu'nun dağılmasıyla bağımsızlığını ilan eden Baltık devleti; Bağımsızlık Savaşı'nda Sovyetler'e karşı direndi (1923 sonrasında da sürdü). BOYALAR'da ayrı id'si yok (haritada Letonya/Litvanya ile aynı bölgeye dahil), yine de tam bir devlet olarak kaydedildi.",
+  kronoloji:[
+    { t:"1918-02-24", tur:"kurulus", b:"Tallinn'de bağımsızlık ilan edildi" },
+    { t:"1918-11-28", tur:"savas", b:"Sovyet Rusya saldırısıyla Bağımsızlık Savaşı başladı" },
+    { t:"1920-02-02", tur:"antlasma", b:"Tartu Barışı ile Sovyet Rusya bağımsızlığı tanıdı" }
+  ]
+},
+{ id:"finlandiya", ad:"Finlandiya Cumhuriyeti", tur:"cumhuriyet", bolge:"kuzey-avrupa",
+  f:"1917-12-06", t:"1923-10-29", baskent:"Helsinki", harita:"finlandiya",
+  ozet:"Rusya İmparatorluğu'nun dağılmasıyla bağımsızlığını ilan eden Kuzey devleti; kısa bir iç savaşın ardından cumhuriyet olarak pekişti (1923 sonrasında da sürdü).",
+  kronoloji:[
+    { t:"1917-12-06", tur:"kurulus", b:"Finlandiya Senatosu bağımsızlığı ilan etti" },
+    { t:"1918-01-27", tur:"savas", b:"Kızıllar ve Beyazlar arasında iç savaş başladı (Mannerheim'ın zaferiyle Mayıs 1918'de bitti)" },
+    { t:"1919-07-17", tur:"antlasma", b:"Cumhuriyet anayasası kabul edildi" }
+  ]
+},
+{ id:"norvec", ad:"Norveç Krallığı (bağımsız)", tur:"krallik", bolge:"kuzey-avrupa",
+  f:"1905-06-07", t:"1923-10-29", baskent:"Kristiania (Oslo)", harita:"norvec",
+  ozet:"İsveç ile 91 yıllık kişisel birliğin barışçıl feshiyle doğan krallık; Danimarkalı Prens Carl, halkoylamasıyla kral seçilip Haakon VII adını aldı (1923 sonrasında da sürdü).",
+  kronoloji:[
+    { t:"1905-06-07", tur:"kurulus", b:"Norveç Storting'i İsveç ile birliği tek taraflı feshetti" },
+    { t:"1905-08-13", tur:"antlasma", b:"Halkoylamasıyla fesih onaylandı, Karlstad Antlaşması ile İsveç kabul etti" },
+    { t:"1905-11-18", tur:"hukumdar", b:"Danimarka Prensi Carl, VII. Haakon unvanıyla kral oldu" }
   ]
 }
 

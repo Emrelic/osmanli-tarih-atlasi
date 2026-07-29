@@ -125,22 +125,187 @@ kayit: 102 | harita eslesmesi olan: 81
 düştü — Parti 1'deki notta açıklanan **aynı script kısıtı**, gerçek hata değil.
 Yeni `TEKRAR id` veya `EKSIK alan` yok.
 
+## Parti 3 — Orta ve Batı Avrupa (tamamlandı)
+
+Habsburg, Macaristan, Lehistan-Litvanya, Venedik, Cenova, Napoli, Papalık,
+Fransa, İspanya, Portekiz, İngiltere, Hollanda, İsveç, Danimarka Parti 0'da
+zaten vardı. Bu partide eklenen 5 yeni kayıt:
+
+- **`bohemya`** (Bohemya Krallığı, 1198-1526) — YENİ. Habsburg öncesi bağımsız
+  krallık; bitiş tarihi (1526-08-29, Mohaç) mevcut `habsburg` kaydının kuruluş
+  tarihiyle birebir aynı, temiz devir sağlandı. TDV kapsamı dışı (Avrupa iç
+  tarihi), standart akademik kaynağa göre.
+- **`milano-dukaligi`** (Milano Dükalığı, 1395-1859) — YENİ, `harita:"milanoduka"`.
+- **`toskana`** (Floransa/Toskana Büyük Dükalığı, 1532-1860) — YENİ, `harita:"toskana"`.
+- **`sardinya-piyemonte`** (Savoya hanedanı, 1720-1861) — YENİ, `harita:"sardinya"`.
+- **`italya`** (birleşik İtalya Krallığı, 1861-1923) — YENİ, `harita:"italya"`.
+  Trablusgarp Savaşı ve Antalya işgali maddeleriyle mevcut `trablusgarp-ocagi`,
+  `oniki-ada-italyan`, `papalik` kayıtlarına çapraz referans verildi.
+
+Üçü de (`milanoduka`, `toskana`, `sardinya`) ve `italya` id'leri
+`arac/uret_petek.py` BOYALAR'da zaten tanımlıydı, dizinde karşılıkları yoktu —
+şimdi bağlandı.
+
+**Doğrulama (bu partiden sonra):**
+```
+kayit: 107 | harita eslesmesi olan: 85
+```
+Yeni `TERS aralik`/`TEKRAR id`/`EKSIK alan` yok.
+
+## Parti 4 — Doğu ve Kafkasya (tamamlandı)
+
+Bizans, Kilikya Ermeni, Şirvanşahlar, Karakoyunlu, Akkoyunlu, Timurlu (Parti
+1'de), Safevî, Afşar, Kaçar Parti 0-1'de zaten vardı. Bu partide:
+
+- **`gurcistan` zenginleştirildi** (4 → 13 kronoloji maddesi): III. Bagrat'ın
+  birleşmesi (1008), Didgori zaferi (1121), Kraliçe Tamar altın çağı (1184),
+  Moğol/Timur istilaları, **1490'da Kartli/Kaheti/İmereti üçe bölünmesi**
+  (görev tanımının "Gürcü krallıkları" çoğul ifadesi bunu istiyordu — ayrı
+  id'ler açmadım çünkü `uret_petek.py` BOYALAR'da tek `gurcistan` id'si var,
+  üçe bölmek harita tarafında karşılıksız kalırdı), II. Herakli'nin
+  Kartli-Kaheti'yi birleştirmesi (1762), Georgievsk Antlaşması (1783).
+- **`trabzon-rum`** (Trabzon Rum İmparatorluğu, 1204-1461) — YENİ. TDV'de
+  doğrulanmış madde var (`trabzon`). Mevcut `bizans` kaydındaki "Trabzon Rum
+  İmparatorluğu düştü" maddesiyle aynı tarihi (1461-08-15) kullanıyor,
+  tutarlılık sağlandı.
+- **`zend`** (Zend Hanedanı, 1751-1794) — YENİ. Görev tanımının listesinde
+  vardı ama unutulmuştu (Afşar 1796'da bitiyor, Kaçar 1789'da başlıyor, ama
+  asıl İran'a hâkim olan 1751-1794 arası Zendler'di). TDV'de madde yok,
+  standart akademik kaynağa göre. Bitiş tarihi (1794-01-01), mevcut `kacar`
+  kaydındaki "Zend hanedanına son verildi" maddesiyle birebir aynı — tutarlı.
+
+**Doğrulama (bu partiden sonra):**
+```
+kayit: 109 | harita eslesmesi olan: 85
+```
+`trabzon-rum` ve `zend` BOYALAR'da yok, `harita:` almadılar (beklenen). Yeni
+`TERS aralik`/`TEKRAR id`/`EKSIK alan` yok.
+
+## Parti 5 — Kuzey ve bozkır (tamamlandı)
+
+Altın Orda, Kırım Hanlığı, Zaporojye, Rusya Çarlığı/İmparatorluğu Parti 0'da
+zaten vardı (`rusya` kaydı Astarhan'ın 1556 ilhakını zaten içeriyordu). Altın
+Orda'nın dört bozkır ardılından eksik kalan dördü eklendi — dördü de TDV'de
+doğrulanmış maddeye sahip:
+
+- **`kazan`** (Kazan Hanlığı, 1437-1552) — YENİ, `harita:"kazan"` (BOYALAR'da
+  vardı, dizinde yoktu). IV. İvan'ın 1552-10-02 kuşatmasıyla bitiyor.
+- **`astarhan`** (Astarhan/Ejderhan Hanlığı, 1466-1556) — YENİ. Mevcut `rusya`
+  kaydındaki "1556 Astrahan ilhak edildi" maddesiyle tutarlı; ek olarak
+  Osmanlı'nın 1569 Don-Volga kanal projesi girişimi de not edildi.
+- **`sibir`** (Sibir Hanlığı, 1420-1598) — YENİ. Yermak'ın kazakları ve Küçüm
+  Han'ın direnişi.
+- **`nogay`** (Nogay Ordası, 1440-1783) — YENİ, `tur:"devlet"` (tek hanedanlı
+  bir hanlık değil, göçebe konfederasyon olduğu için "hanlik" yerine bu tür
+  seçildi). 1557-58 Büyük/Küçük Nogay bölünmesi, Osmanlı'nın 1569 Astarhan
+  seferindeki pasif rolü, Suvorov'un 1783 yenilgisiyle bağımsızlığın fiilen
+  bitişi.
+
+**Doğrulama (bu partiden sonra):**
+```
+kayit: 113 | harita eslesmesi olan: 86
+```
+Yeni `TERS aralik`/`TEKRAR id`/`EKSIK alan` yok.
+
+## Parti 6 — Arabistan ve körfez (tamamlandı)
+
+I/II. Suûdî Devleti, Şammar, Yemen Zeydî, Umman, Hicaz Krallığı Parti 0'da
+zaten vardı. `uret_petek.py` BOYALAR'da tanımlı olup dizinde karşılığı
+olmayan iki kayıt eklendi (kodun kendi yorumları bu iki id'nin haritadaki
+"sahipsiz" boşlukları doldurmak için özellikle eklendiğini söylüyordu):
+
+- **`benihalid`** (Benî Hâlid Emirliği, Lahsa, 1670-1795) — YENİ,
+  `harita:"benihalid"`. TDV'de madde var.
+- **`aiz`** (Âiz Emirliği, Ebhâ/Asîr, 1918-1920) — YENİ, `harita:"aiz"`. Bu
+  dar pencere (Mondros'tan Suûdî fethine kadarki 15 ay) bilinçli seçildi —
+  BOYALAR'daki yorum tam olarak bu boşluğu hedefliyordu. Ailenin daha eski
+  nüfuzu (1866 "ümerâ emiri" unvanı, 1871 Redif Paşa seferi) kronolojide
+  arka plan olarak veriliyor ama `f` bunları kapsamıyor.
+
+**Not (düzeltmedim, entegrasyon oturumuna bırakıyorum):** Parti 0'daki mevcut
+`suud-ikinci` kaydında (satır ~817) `t:"1891-01-01"` ama kronolojisinde
+`1902-01-15` tarihli bir "kurulus" (üçüncü Suûdî devleti) maddesi var — bu
+`t`'nin ötesinde bir tarih, muhtemelen üçüncü devlet için ayrı kayıt açılması
+gerekirdi ama açılmamış. Benim bu partide eklediğim kayıtlarda böyle bir
+tutarsızlık yok; bu sadece Parti 0'dan miras kalan bir gözlem.
+
+**Doğrulama (bu partiden sonra):**
+```
+kayit: 115 | harita eslesmesi olan: 88
+```
+Yeni `TERS aralik`/`TEKRAR id`/`EKSIK alan` yok.
+
+## Parti 7 — Afrika (tamamlandı)
+
+Memlûk, Fas (Sâdî/Alevî), Func (Sennâr), Habeşistan, Adal Parti 0'da zaten
+vardı. BOYALAR'da tanımlı olup dizinde karşılığı olmayan 5 kayıt eklendi:
+
+- **`hafsi`** (Hafsîler, Tunus, 1229-1574) — YENİ, `harita:"hafsi"`. TDV'de
+  madde var. Sinan Paşa'nın 1574-09-13 fethiyle bitiyor.
+- **`zeyyani`** (Zeyyânîler, Tilimsan, 1236-1554) — YENİ, `harita:"zeyyani"`.
+  TDV'de madde var (kısa/genel; Salih Reis'in fethi standart kaynaklarla
+  desteklendi).
+- **`mehdi`** (Mehdî Devleti, Sudan, 1881-1898) — YENİ, `harita:"mehdi"`.
+  TDV'de zengin madde var (Hartum'un düşüşü, Gordon, Halife Abdullah,
+  Ömdürman — hepsi gün hassasiyetinde).
+- **`nube`** (Nûbe Krallıkları, Makurya-Alve, 543-1504) — YENİ, `harita:"nube"`
+  (ilk yazımda gözden kaçmıştı, doğrulama scripti harita sayısını 91 verince
+  fark edilip düzeltildi — BOYALAR'da `nube` id'si açıkça vardı). TDV'de
+  ayrı madde yok, standart akademik kaynağa göre, düşük kesinlik ozet'te
+  belirtildi.
+- **`somali`** (Somali Sultanlıkları, 1500-1923) — YENİ, `harita:"somali"`
+  (aynı şekilde ilk yazımda gözden kaçmıştı, sonradan eklendi). TDV'de ayrı
+  madde yok, standart akademik kaynağa göre, düşük kesinlik ozet'te belirtildi.
+
+**Doğrulama (bu partiden sonra, harita sayısı düzeltildikten sonraki nihai
+hâl):**
+```
+kayit: 120 | harita eslesmesi olan: 93
+```
+`nube` 3 haneli yıl (`"543-01-01"`) yüzünden "TERS aralik" listesine düştü —
+bilinen script kısıtı, gerçek hata değil. Yeni `TEKRAR id`/`EKSIK alan` yok.
+
+## Parti 8 — 1918-1924 ardılları (tamamlandı)
+
+BOYALAR'daki "1918 sonrası ardıl devletler... yerine hiçbir sahip yazılmamıştı"
+yorumunun işaret ettiği boşluk dolduruldu. 8 yeni kayıt:
+
+- **`cekoslovakya`**, **`polonya`**, **`yugoslavya`** (SHS Krallığı),
+  **`letonya`**, **`litvanya`**, **`finlandiya`** — hepsi `harita:` bağlantılı,
+  BOYALAR'da tanımlıydı.
+- **`estonya`** — YENİ ama BOYALAR'da id'si yok (harita almadı); yine de
+  "Baltık devletleri" görev tanımında geçtiği ve Letonya/Litvanya ile birlikte
+  tam bir üçlü oluşturduğu için eklendi.
+- **`norvec`** (bağımsız Norveç Krallığı, 1905-1923) — YENİ, `harita:"norvec"`.
+  **Dikkat:** Norveç'in bağımsızlığı aslında 1905'te İsveç'ten ayrılmayla
+  geldi, Habsburg/Romanov dağılmasıyla ilgisi yok — BOYALAR yorum bloğunda
+  aynı yere yazıldığı için burada işlendi. Mevcut `danimarka` kaydı
+  ("Danimarka-Norveç", 1380-1923) 1814'te birliğin gerçekte dağıldığını ve
+  Norveç'in 1814-1905 arası İsveç ile birlikte olduğunu yansıtmıyor — bu
+  Parti 0'dan kalma bir basitleştirme, **dokunmadım** (entegrasyon oturumuna
+  not: bu kaydın `t`'si 1814'e çekilip Danimarka'nın 1814 sonrası tek başına
+  devamı ayrıca ele alınabilir). Yeni `norvec` kaydım bu kayıtla çakışmıyor,
+  sadece 1905 sonrasını (gerçek bağımsız Norveç) kapsıyor.
+
+Tüm tarihler Avrupa'nın modern iç tarihi olduğu için TDV kapsamı dışında;
+standart, tartışmasız akademik tarihlere göre yazıldı.
+
+**Doğrulama (bu partiden sonra):**
+```
+kayit: 128 | harita eslesmesi olan: 100
+```
+Yeni `TERS aralik`/`TEKRAR id`/`EKSIK alan` yok.
+
 ## Sırada ne var (görev tanımındaki sıra bozulmadı)
 
 - [x] Parti 1 — Anadolu ve Osmanlı öncesi
-- [x] Parti 2 — Balkanlar (bkz. aşağıdaki ayrıntı)
-- [ ] Parti 3 — Orta ve Batı Avrupa (Habsburg vb. zaten var; Bohemya, Milano,
-      Floransa/Toskana, Sardinya-Piyemonte gibi BOYALAR'da id'si olup dizinde
-      olmayanlar bu partide)
-- [ ] Parti 4 — Doğu ve Kafkasya (Trabzon Rum, Gürcü krallıkları ayrıntısı —
-      Timurlu zaten Parti 1'de eklendi, tekrar etmeyin)
-- [ ] Parti 5 — Kuzey ve bozkır (Kazan, Astarhan, Nogay, Sibir hanlıkları —
-      `kazan` BOYALAR'da var, dizinde yok)
-- [ ] Parti 6 — Arabistan ve körfez (Âiz, Benî Hâlid zaten BOYALAR'da var)
-- [ ] Parti 7 — Afrika (Hafsî, Zeyyânî BOYALAR'da var, dizinde yok; Mehdî
-      Devleti, Nûbe krallıkları da BOYALAR'da var dizinde yok)
-- [ ] Parti 8 — 1918-1924 ardılları (Çekoslovakya, Polonya, Yugoslavya, Baltık
-      devletleri, Finlandiya BOYALAR'da var dizinde yok)
+- [x] Parti 2 — Balkanlar
+- [x] Parti 3 — Orta ve Batı Avrupa
+- [x] Parti 4 — Doğu ve Kafkasya (bkz. aşağıdaki ayrıntı)
+- [x] Parti 5 — Kuzey ve bozkır (bkz. aşağıdaki ayrıntı)
+- [x] Parti 6 — Arabistan ve körfez (bkz. aşağıdaki ayrıntı)
+- [x] Parti 7 — Afrika (bkz. aşağıdaki ayrıntı)
+- [x] Parti 8 — 1918-1924 ardılları (bkz. aşağıdaki ayrıntı)
 - [ ] Parti 9-15 — Dünya kapsamı (Orta Asya, Hindistan, Doğu Asya, Güneydoğu
       Asya, Sahra altı Afrika, Amerika, kalanlar) — henüz hiç başlanmadı
 
