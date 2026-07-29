@@ -59,7 +59,9 @@ BOYALAR = {
     "kirim":      ("Kırım Hanlığı bozkırı",  "#c9825b"),
     "isvec":      ("İsveç",                  "#7bb5c9"),
     "danimarka":  ("Danimarka-Norveç",       "#8f8fb5"),
-    "ingiltere":  ("Britanya",               "#b55b6b"),
+    # Eski #b55b6b gül kırmızısıydı (H=349°, S=0.38) — kırmızı tonları Osmanlı
+    # ailesine ayrılmıştır, yabancı devlete verilmez. Mora çekildi.
+    "ingiltere":  ("Britanya",               "#7e3d8f"),
     "fransa":     ("Fransa",                 "#5b74c9"),
     "ispanya":    ("İspanya",                "#c98f4a"),
     "portekiz":   ("Portekiz",               "#6b8ac9"),
@@ -115,10 +117,16 @@ BOYALAR = {
     "fas":        ("Fas",                    "#9e6b5b"),
     # --- Anadolu beylikleri (Osmanlı kuruluş coğrafyasının fetih öncesi sahipleri) ---
     "karaman":    ("Karamanoğulları",         "#4527a0"),
-    "germiyan":   ("Germiyanoğulları",        "#8f6b3a"),
+    # Eski #8f6b3a Ceneviz'e (#8a6b4a) ΔE 9.5, Hamîd'e 12.8, Ahi'ye 14.5 mesafedeydi.
+    # Germiyan sahnede 15 devletle sınırdaş — Anadolu'nun en kalabalık köşesi.
+    "germiyan":   ("Germiyanoğulları",        "#3d748f"),
     "aydin":      ("Aydınoğulları",           "#4a8f7d"),
-    "saruhan":    ("Saruhanoğulları",         "#6b8f4a"),
-    "mentese":    ("Menteşeoğulları",         "#3a7d8f"),
+    # Eski #6b8f4a, 60 km ötedeki Karesi'ye (#6b9e5b) ΔE 7.5 idi — iki beylik
+    # haritada tek gövde gibi görünüyordu.
+    "saruhan":    ("Saruhanoğulları",         "#b34da5"),
+    # Eski #3a7d8f, Venedik'in turkuazına (#4a8a8f) ΔE 9.2 idi; Ege'de ikisi
+    # sürekli yan yana duruyor. Venedik köklü renk olduğu için Menteşe taşındı.
+    "mentese":    ("Menteşeoğulları",         "#83b34d"),
     "hamid":      ("Hamîdoğulları",           "#8f7d3a"),
     # TDV TEKEOĞULLARI: Hamîdoğulları'ndan ayrılan kol; Dündar Bey'in fethinden
     # sonra Antalya kardeşi Yûnus Bey'e verildi (~1321) ve ayrı beylik doğdu.
@@ -140,7 +148,10 @@ BOYALAR = {
     "isa-celebi":      ("İsa Çelebi (Bursa)",            "#e04b2a"),
     "mehmed-celebi":   ("Çelebi Mehmed (Amasya)",        "#7f1734"),
     "musa-celebi":     ("Musa Çelebi (Rumeli)",          "#d81b60"),
-    "eflak":      ("Eflak Voyvodalığı",      "#7a9e6b"),
+    # ⚠️ Eski #7a9e6b, Bulgaristan'ın #7aa06a'sına ΔE 1.8 — pratikte AYNI RENK.
+    # Tuna'nın iki yakası 1281-1878 boyunca tek gövde gibi görünüyordu. Yeşil
+    # kimlik korundu ama parlaklık/doygunluk ayrıldı: Bulgaristan'a ΔE 33.
+    "eflak":      ("Eflak Voyvodalığı",      "#4db34d"),
     "bogdan":     ("Boğdan Voyvodalığı",     "#6b9e8a"),
     "lusignan":   ("Kıbrıs Krallığı (Lüzinyan)", "#8a6ba0"),
     # ⚠️ Orta Anadolu renkleri kasten doygun seçildi: önceki toprak tonları
@@ -153,7 +164,9 @@ BOYALAR = {
     "ahiler":     ("Ahi Birliği (Ankara)",    "#8f7d5b"),
     # --- kullanıcının sorduğu, haritada temsili olmayan beylikler ---
     "cobanogullari":  ("Çobanoğulları",        "#4a8f8f"),
-    "pervane":        ("Pervâneoğulları",      "#3a6b9e"),
+    # Eski #3a6b9e, komşusu Candaroğulları'na (#5b6b9e) ΔE 8.6 idi; Kastamonu ile
+    # Sinop 135 km arayla iki ayırt edilemez mavi gövdeydi.
+    "pervane":        ("Pervâneoğulları",      "#70c28b"),
     "esrefogullari":  ("Eşrefoğulları",        "#b5548f"),
     "inancogullari":  ("İnançoğulları",        "#5b4ab5"),
     "sahibata":       ("Sâhib Ataoğulları",    "#8f9e2d"),

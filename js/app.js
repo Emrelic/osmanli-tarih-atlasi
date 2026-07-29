@@ -128,7 +128,16 @@ function donemBul(t) {
   for (var i = 0; i < donemler.length; i++) {
     if (donemler[i].fi <= t && t < donemler[i].ti) return i;
   }
-  return t < donemler[0].fi ? 0 : donemler.length - 1;
+  // Atlasın iki ucunda kırpma: 1281 öncesi ilk döneme, 1923 sonrası son döneme.
+  if (t < donemler[0].fi) return 0;
+  if (t >= donemler[donemler.length - 1].ti) return donemler.length - 1;
+  // ⚠️ İÇ BOŞLUK — bugün yalnız Fetret Devri (1402-07-28 → 1413-07-05).
+  // O aralıkta tek bir Osmanlı gövdesi yoktur; ülke şehzade payları arasında
+  // bölünmüştür ve paylar devletler_harita.js'ten kendi renkleriyle çizilir.
+  // Eskiden burada son dönem döndürülüyordu: zaman çubuğu 1405'e getirildiğinde
+  // harita 1922-1923 sınırlarını gösteriyordu.
+  // -2 döndürülür; -1 "henüz hiçbir dönem çizilmedi" için ayrılmıştır (aktifDonem).
+  return -2;
 }
 
 // ---------- Harita ----------
@@ -671,7 +680,19 @@ function alanYazi(km2) {
 function guncelle() {
   tarihGoster.textContent = idxYazi(suanki);
   var di = donemBul(suanki);
-  if (haritaHazir && di !== aktifDonem) {
+  if (haritaHazir && di === -2 && di !== aktifDonem) {
+    // Fetret Devri: Osmanlı, tâbi ve bölge katmanları boşaltılır; sahnede yalnız
+    // şehzade payları (devlet katmanı) kalır. zoomUygula çağrılmaz — kırpılacak
+    // bir gövde yok, mevcut görüntü korunur.
+    aktifDonem = di;
+    harita.getSource("osmanli").setData(bosVeri());
+    harita.getSource("vassal").setData(bosVeri());
+    harita.getSource("bolge").setData(bosVeri());
+    sehzadeGuncelle({});
+    donemEtiketi.textContent = "Fetret Devri — şehzade payları";
+    var alanBos = document.getElementById("alan-goster");
+    if (alanBos) alanBos.textContent = "📐 tek gövde yok — paylar ayrı ayrı";
+  } else if (haritaHazir && di >= 0 && di !== aktifDonem) {
     aktifDonem = di;
     var d = donemler[di];
     harita.getSource("osmanli").setData(d.o ? tekVeri(d.o) : petekVerisi(d));

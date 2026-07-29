@@ -214,7 +214,11 @@ window.YERLESIMLER = [
     s:[{f:"1281-01-01",t:"1357-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"}], d:[{f:"1357-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1923-10-29"}] },
 { ad:"İpsala", tur:"sehir", lat:40.914, lon:26.383, g:0, k:4, m:"Edirne",
     s:[{f:"1281-01-01",t:"1357-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"}], d:[{f:"1357-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1923-10-29"}] },
-{ ad:"Kilitbahir", tur:"kale", lat:40.150, lon:26.150, g:0, k:4, m:"Edirne", kur:"1452-01-01",
+// lon 26.150 idi: Gelibolu yarımadasının BATISINDA, Ege'de kalıyordu ve nokta
+// hiçbir tarihte kendi gövdesinin içinde çıkmıyordu. Kale ≈26.377'de; ama kara
+// maskesi 0.004° sadeleştirildiği için Boğaz'ın darboğazı çıktıda ~3 km'ye
+// açılmış (su 26.365-26.400). 26.360 hem karada hem kaleye 1,4 km.
+{ ad:"Kilitbahir", tur:"kale", lat:40.150, lon:26.360, g:0, k:4, m:"Edirne", kur:"1452-01-01",
     s:[{f:"1281-01-01",t:"1354-03-02",d:"bizans"},{f:"1366-08-01",t:"1376-09-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"}],
     d:[{f:"1354-03-02",t:"1366-08-01"},{f:"1376-09-01",t:"1402-07-28"},{f:"1413-07-05",t:"1923-10-29"}] },
 { ad:"Çirmen", tur:"kale", lat:41.720, lon:26.200, g:0, k:4, m:"Edirne",
@@ -593,7 +597,7 @@ window.YERLESIMLER = [
 { ad:"Stokholm", tur:"liman", lat:59.329, lon:18.069, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"isvec"}] },
 { ad:"Kopenhag", tur:"liman", lat:55.676, lon:12.568, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"danimarka"}] },
 { ad:"Oslo", tur:"liman", lat:59.913, lon:10.752, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec"},{f:"1905-06-07",t:"1923-10-29",d:"norvec"}] },
-{ ad:"Helsinki", tur:"liman", lat:60.170, lon:24.938, g:0, k:0, kur:"1550-06-12", d:[], s:[{f:"1281-01-01",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-12-06",d:"rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}] },
+{ ad:"Helsinki", tur:"liman", lat:60.170, lon:24.938, g:0, k:0, kur:"1550-06-12", d:[], s:[{f:"1550-06-12",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-12-06",d:"rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}] },
 { ad:"Riga", tur:"liman", lat:56.949, lon:24.105, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1561-11-28",d:"almanya"},{f:"1561-11-28",t:"1621-09-15",d:"lehistan"},{f:"1621-09-15",t:"1721-08-30",d:"isvec"},{f:"1721-08-30",t:"1918-11-11",d:"rusya"},{f:"1918-11-11",t:"1923-10-29",d:"letonya"}] },
 { ad:"Königsberg", tur:"liman", lat:54.710, lon:20.512, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"almanya"}] },
 { ad:"Gdansk", tur:"liman", lat:54.352, lon:18.646, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1466-10-19",d:"almanya"},{f:"1466-10-19",t:"1793-01-23",d:"lehistan"},{f:"1793-01-23",t:"1918-11-11",d:"almanya"},{f:"1918-11-11",t:"1923-10-29",d:"polonya"}] },
@@ -604,17 +608,17 @@ window.YERLESIMLER = [
 // ---- RUSYA (Ural batısı) ----
 { ad:"Moskova", tur:"sehir", lat:55.756, lon:37.617, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"rusya"}] },
 { ad:"Novgorod", tur:"sehir", lat:58.521, lon:31.271, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"rusya"}] },
-{ ad:"St. Petersburg", tur:"liman", lat:59.934, lon:30.335, g:0, k:0, kur:"1703-05-27", d:[], s:[{f:"1281-01-01",t:"1617-02-27",d:"rusya"},{f:"1617-02-27",t:"1703-05-27",d:"isvec"},{f:"1703-05-27",t:"1923-10-29",d:"rusya"}] },
+{ ad:"St. Petersburg", tur:"liman", lat:59.934, lon:30.335, g:0, k:0, kur:"1703-05-27", d:[], s:[{f:"1703-05-27",t:"1923-10-29",d:"rusya"}] },
 { ad:"Smolensk", tur:"sehir", lat:54.783, lon:32.045, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1514-08-01",d:"lehistan"},{f:"1514-08-01",t:"1611-06-13",d:"rusya"},{f:"1611-06-13",t:"1654-10-03",d:"lehistan"},{f:"1654-10-03",t:"1923-10-29",d:"rusya"}] },
 { ad:"Tula", tur:"sehir", lat:54.193, lon:37.617, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"rusya"}] },
 { ad:"Nijniy Novgorod", tur:"sehir", lat:56.296, lon:43.936, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"rusya"}] },
 { ad:"Vologda", tur:"sehir", lat:59.220, lon:39.891, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"rusya"}] },
 { ad:"Kazan", tur:"sehir", lat:55.796, lon:49.106, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1438-01-01",d:"altinorda"},{f:"1438-01-01",t:"1552-10-02",d:"kazan"},{f:"1552-10-02",t:"1923-10-29",d:"rusya"}] },
-{ ad:"Ufa", tur:"sehir", lat:54.738, lon:55.972, g:0, k:0, kur:"1574-01-01", d:[], s:[{f:"1281-01-01",t:"1438-01-01",d:"altinorda"},{f:"1438-01-01",t:"1552-10-02",d:"kazan"},{f:"1552-10-02",t:"1923-10-29",d:"rusya"}] },
-{ ad:"Perm", tur:"sehir", lat:58.010, lon:56.229, g:0, k:0, kur:"1723-01-01", d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"rusya"}] },
-{ ad:"Saratov", tur:"sehir", lat:51.533, lon:46.034, g:0, k:0, kur:"1590-07-12", d:[], s:[{f:"1281-01-01",t:"1556-01-01",d:"altinorda"},{f:"1556-01-01",t:"1923-10-29",d:"rusya"}] },
-{ ad:"Tsaritsyn", tur:"sehir", lat:48.708, lon:44.514, g:0, k:0, kur:"1589-07-02", d:[], s:[{f:"1281-01-01",t:"1556-01-01",d:"altinorda"},{f:"1556-01-01",t:"1923-10-29",d:"rusya"}] },
-{ ad:"Rostov (Don)", tur:"sehir", lat:47.236, lon:39.712, g:0, k:0, kur:"1749-12-15", d:[], s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1739-09-18",d:"kirim"},{f:"1739-09-18",t:"1923-10-29",d:"rusya"}] },
+{ ad:"Ufa", tur:"sehir", lat:54.738, lon:55.972, g:0, k:0, kur:"1574-01-01", d:[], s:[{f:"1574-01-01",t:"1923-10-29",d:"rusya"}] },
+{ ad:"Perm", tur:"sehir", lat:58.010, lon:56.229, g:0, k:0, kur:"1723-01-01", d:[], s:[{f:"1723-01-01",t:"1923-10-29",d:"rusya"}] },
+{ ad:"Saratov", tur:"sehir", lat:51.533, lon:46.034, g:0, k:0, kur:"1590-07-12", d:[], s:[{f:"1590-07-12",t:"1923-10-29",d:"rusya"}] },
+{ ad:"Tsaritsyn", tur:"sehir", lat:48.708, lon:44.514, g:0, k:0, kur:"1589-07-02", d:[], s:[{f:"1589-07-02",t:"1923-10-29",d:"rusya"}] },
+{ ad:"Rostov (Don)", tur:"sehir", lat:47.236, lon:39.712, g:0, k:0, kur:"1749-12-15", d:[], s:[{f:"1749-12-15",t:"1923-10-29",d:"rusya"}] },
 { ad:"Poltava", tur:"sehir", lat:49.589, lon:34.551, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1654-01-18",d:"lehistan"},{f:"1654-01-18",t:"1923-10-29",d:"rusya"}] },
 // ---- KAFKASYA EK ----
 { ad:"Kutaisi", tur:"sehir", lat:42.268, lon:42.695, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1810-02-20",d:"gurcistan"},{f:"1810-02-20",t:"1923-10-29",d:"rusya"}] },
