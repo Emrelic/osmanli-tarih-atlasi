@@ -1,10 +1,27 @@
 # Osmanlı Tarih Atlası — Proje Planı
 
 ## Vizyon
-1299–1923 arasını kapsayan, zaman göstergesi ilerledikçe Osmanlı İmparatorluğu'nun
-sınırlarının harita üzerinde değiştiği, yanında kronolojik olay akışının ve dönemin
-padişahının gösterildiği **eğitim amaçlı web sitesi**. İleri fazlarda sınırdaş
-devletler, hükümdarları ve kronolojileri eklenecek.
+Zaman göstergesi ilerledikçe devlet sınırlarının harita üzerinde değiştiği, yanında
+kronolojik olay akışının ve dönemin hükümdarının gösterildiği **eğitim amaçlı web
+sitesi**. Çekirdek ve en olgun katman Osmanlı İmparatorluğu'dur (1281–1923, gün
+hassasiyetinde); **hedef kapsam ise 1200–1924 arası bütün dünyadır.**
+
+### Kapsam genişlemesinin zorunlu sırası (atlanırsa harita bozulur)
+Petek motoru, **noktası olmayan bölgeyi en yakın peteğe emer ve o peteğin sahibiyle
+boyar.** Bu yüzden kapsam genişletmesi şu sırayla yapılmak zorundadır:
+
+1. **Dizin katmanı** (`data/devletler.js`) — dünya çapında devlet listesi ve
+   kronolojileri. Haritayı hiç etkilemez, risksiz, hemen yapılabilir. *(Oturum 3)*
+2. **Yerleşim katmanı** (`data/yerlesimler.js`) — yeni coğrafyalarda yeterli nokta
+   yoğunluğu. Bu bitmeden 3. adıma geçilmez. *(Oturum 4)*
+3. **Harita penceresinin açılması** — `arac/uret_petek.py` içindeki
+   `BOLGE = box(-12, 1.5, 62, 62)` kutusu genişletilir. **Nokta yoğunluğu
+   sağlanmadan bu kutu açılırsa mevcut 567 peteğin kenardakileri bütün dünyaya
+   yayılır** ve ör. Anadolu'nun sınır hücreleri Orta Asya'yı boyar. Kutu, yalnız
+   kapsanan bölge için ve kademe kademe açılır.
+
+Ad ve kimlik notu: site "Osmanlı Tarih Atlası" adıyla yayında; dünya kapsamı
+olgunlaştığında ad ve ana sayfa metni yeniden düşünülecek.
 
 ## Teknoloji kararları (istişare sonucu)
 - **Platform**: Web (statik site — sunucu/veritabanı yok, tarayıcıda çalışır)

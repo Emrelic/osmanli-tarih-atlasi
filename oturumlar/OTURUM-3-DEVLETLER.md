@@ -20,7 +20,7 @@ Genel plan ve mimari: **`PLAN.md`** — başlamadan önce oku.
 
 ## Senin işin
 
-**1200-1924 arasında bu coğrafyada var olmuş bütün devletlerin dizinini ve
+**1200-1924 arasında dünyada var olmuş bütün devletlerin dizinini ve
 kronolojisini kurmak.** Devlet şekli fark etmez: imparatorluk, krallık, sultanlık,
 hanlık, beylik, prenslik, dükalık, despotluk, emirlik, cumhuriyet, ocak, vladikalık,
 şövalye devleti, voyvodalık, isyan devleti, geçici işgal idaresi — hepsi.
@@ -30,14 +30,40 @@ Her madde tek satırlık kısa bir başlık olsun; detay paragrafı YAZMA. Detay
 sonraki fazın işi. Kapsama genişliği derinliğe tercih edilir: 300 devletin
 başlık kronolojisi, 40 devletin ayrıntılı kronolojisinden kıymetlidir.
 
-## Kapsam sınırı
+## Kapsam: BÜTÜN DÜNYA
 
-Atlasın harita penceresi şu kutudur: **batıda 12°B, doğuda 62°D, güneyde 1.5°K,
-kuzeyde 62°K** — yani Fas'tan Ural batısına, Norveç güneyinden Afrika Boynuzu'na.
+Coğrafî sınır **yoktur**. 1200-1924 arasında dünyanın herhangi bir yerinde var olmuş
+her siyasî yapı bu dizine girer: Çin hanedanları, Japonya, Kore, Güneydoğu Asya
+krallıkları, Hint sultanlıkları ve prenslikleri, Orta Asya hanlıkları, Afrika
+krallıkları ve sultanlıkları, Kolomb öncesi Amerika devletleri, sömürge sonrası
+Amerika cumhuriyetleri, Okyanusya krallıkları — hepsi.
 
-Bu kutunun **içinde** olan ya da Osmanlı ile doğrudan temas etmiş devletleri al.
-Çin, Hindistan, Japonya, Amerika kıtası kapsam dışıdır. Babür Devleti gibi temas
-noktası olan uzak devletleri yalnızca temas varsa ve kısa tut.
+Haritanın kendisi şimdilik dar bir pencerede (Fas–Ural, Norveç–Afrika Boynuzu)
+çiziliyor; bu seni ilgilendirmiyor. **Sen dizin katmanını kuruyorsun, harita
+katmanını değil.** Harita penceresi ancak yerleşim noktaları eklendikten sonra,
+başka bir oturumda kademe kademe açılacak (bkz. PLAN.md, "Kapsam genişlemesinin
+zorunlu sırası").
+
+### Ayrıntı düzeyi — dengeyi böyle kur
+Kapsam çok geniş olduğu için her bölgeye aynı çözünürlükte inersen iş bitmez.
+Şu kademelendirmeyi uygula:
+
+- **Tam ayrıntı**: Osmanlı'nın komşuları ve temas ettiği bütün devletler
+  (Avrupa, Ortadoğu, Kuzey Afrika, Kafkasya, İran, Karadeniz kuzeyi). Küçük
+  beylikler, dükalıklar, despotluklar dahil.
+- **Orta ayrıntı**: büyük dünya devletleri ve hanedanları — Çin (Song, Yuan, Ming,
+  Qing), Japonya (Kamakura/Muromachi/Azuchi-Momoyama/Edo/Meiji), Kore, Hindistan
+  (Delhi sultanlıkları, Vijayanagara, Babür, Maratha, Sih, İngiliz Hindistanı),
+  İran ötesi Orta Asya hanlıkları, büyük Afrika devletleri (Mali, Songhay, Kanem-
+  Bornu, Etiyopya, Kongo, Zulu, Sokoto…), Amerika (Aztek, İnka, sömürge idareleri,
+  bağımsızlık sonrası cumhuriyetler), Güneydoğu Asya (Majapahit, Ayutthaya, Đại
+  Việt, Birmanya, Malakka…).
+- **Asgari kayıt**: kısa ömürlü ya da çok küçük yapılar — yalnız `id/ad/tur/f/t/
+  baskent/ozet` ve **2-4 satırlık** kronoloji (kuruluş, bir iki dönüm noktası, son).
+
+Hindistan'ın 500 prensliğini ya da Kutsal Roma'nın 300 devletçiğini tek tek yazma;
+bunları çatı devlet altında topla ve `ozet`te "bünyesinde N kadar prenslik vardı"
+diye not düş. Ölçüt şu: **bir tarih öğrencisinin adını duymuş olması muhtemel mi?**
 
 ## Dosya sahipliği — EN ÖNEMLİ KURAL
 
@@ -85,6 +111,15 @@ Dosyanın başındaki açıklama bloğunu oku, biçim orada tanımlı. Özeti:
 - `kronoloji[].tur`: kurulus | hukumdar | toprak-kazanc | toprak-kayip | savas |
   antlasma | bolunme | birlesme | ittifak | isyan | isgal | son
 - `kronoloji[].b`: **kısa başlık**, tek satır. Bu bir dizindir, `olaylar*.js` değil.
+- `bolge`: kapsam dünyaya açıldığı için bu alanın artık tutarlı bir sözlüğü olmalı.
+  Şunları kullan, gerekirse ekle ama dosyanın başındaki listeye de yaz:
+  `anadolu` · `balkanlar` · `orta-avrupa` · `bati-avrupa` · `kuzey-avrupa` ·
+  `dogu-avrupa` · `italya` · `iberya` · `kafkasya` · `iran` · `mezopotamya` ·
+  `suriye-filistin` · `arabistan` · `kuzey-afrika` · `misir-sudan` · `dogu-afrika` ·
+  `bati-afrika` · `orta-afrika` · `guney-afrika` · `orta-asya` · `guney-asya` ·
+  `dogu-asya` · `guneydogu-asya` · `sibirya-bozkir` · `kuzey-amerika` ·
+  `orta-amerika` · `guney-amerika` · `okyanusya`
+  Mevcut 77 kaydın `bolge` değerleri serbest metindi; onları da bu sözlüğe çevir.
 
 ## Düzeltmen gereken yapısal sorun
 
@@ -122,12 +157,19 @@ Yukarıdaki 53 devletin her biri için ya mevcut bir kayda `harita:` alanı ekle
 
 ## Kaynak kuralı — ihlal etme
 
-- **Birincil kaynak: TDV İslâm Ansiklopedisi** (islamansiklopedisi.org.tr).
-- Vikipedi yalnız "hangi olaya bakmalıyım" sorusunu cevaplamak için kullanılır,
-  **tek dayanak olamaz**. TDV ile çelişirse TDV esastır.
-- TDV'de maddesi olmayan Avrupa devletleri için (Danimarka, Litvanya, Toskana gibi)
-  standart akademik kaynak kullan ve `ozet`te kaynağı belirtme zorunluluğu yok;
-  ama **tarih uydurma**. Kesin gün bilinmiyorsa `YYYY-01-01` yaz.
+Kapsam dünyaya açıldığı için kaynak kuralı iki kollu işler:
+
+- **İslâm dünyası, Osmanlı ve komşuları için birincil kaynak TDV İslâm
+  Ansiklopedisi'dir** (islamansiklopedisi.org.tr). Bu coğrafyada TDV maddesi varsa
+  başka kaynağa dayanma; çelişirse TDV esastır.
+- **TDV'nin kapsamadığı coğrafyalar için** (Doğu Asya, Amerika, Sahra altı Afrika'nın
+  Hıristiyan/animist devletleri, Okyanusya, Avrupa'nın iç tarihi) standart akademik
+  referans yeterlidir.
+- **Vikipedi hiçbir zaman tek dayanak değildir.** "Hangi olaya bakmalıyım" sorusunu
+  cevaplamak için kullanılır; tarih oradan alınıp doğrulanmadan yazılmaz.
+- **Tarih uydurma.** Kesin gün bilinmiyorsa `YYYY-01-01` yaz — bu, "yıl biliniyor,
+  gün bilinmiyor" demenin kabul edilmiş yoludur. Yıl bile tartışmalıysa `ozet`te
+  belirt, kronolojiye tek bir tarih yaz.
 
 ### ⚠️ TDV ölü slug tuzağı — bu projede en çok hata bunun yüzünden çıktı
 
@@ -152,8 +194,12 @@ alanlarından çıkarabilirsin — o küme baştan doğrulanmıştır, güvenle 
 
 ## Çalışma düzeni
 
-İş büyük; **partiler hâlinde ilerle ve her partiden sonra dosyayı kaydet.**
-Oturum kesilirse kaldığın yerden devam edebilmelisin. Önerilen sıra:
+İş çok büyük; **partiler hâlinde ilerle ve her partiden sonra dosyayı kaydet.**
+Oturum kesilirse kaldığın yerden devam edebilmelisin. Bu iş tek oturumda bitmez;
+bitmemesi normaldir, önemli olan her partinin kendi içinde tamamlanmış olmasıdır.
+
+Sıra **kasten Osmanlı merkezinden dışarı doğru** kuruldu: en değerli katman ilk
+partilerde tamamlanır, uzak coğrafyalar sonra gelir. Sıralamayı bozma.
 
 1. **Anadolu ve Osmanlı öncesi** — Selçuklu, İlhanlı, Eretna, Kadı Burhâneddin,
    Artuklu, tüm beylikler (haritadaki 20+ beylik id'si yukarıdaki listede)
@@ -173,8 +219,33 @@ Oturum kesilirse kaldığın yerden devam edebilmelisin. Önerilen sıra:
 8. **1918-1924 ardılları** — Çekoslovakya, Polonya, Yugoslavya, Baltık devletleri,
    Finlandiya, Avusturya ve Macaristan cumhuriyetleri, TBMM/Türkiye
 
+*(Buraya kadarı "tam ayrıntı" kademesidir; Osmanlı atlası bu sekiz partiyle
+kendi içinde tamamlanmış olur. Aşağısı dünya kapsamıdır, "orta ayrıntı".)*
+
+9. **Orta Asya ve bozkırın doğusu** — Çağatay, Timurlu ardılları, Buhara, Hîve,
+   Hokand hanlıkları, Kazak cüzleri, Cungar Hanlığı, Doğu Türkistan
+10. **Hindistan** — Delhi sultanlıkları (Memlûk, Halacî, Tuğluk, Seyyid, Lûdî),
+    Behmenî ve Dekken sultanlıkları, Vijayanagara, Babür, Maratha Konfederasyonu,
+    Sih İmparatorluğu, Meysûr, Şirket idaresi ve İngiliz Hindistanı
+11. **Doğu Asya** — Çin (Song, Jin, Yuan, Ming, Qing), Moğol İmparatorluğu ve
+    ulusları, Kore (Goryeo, Joseon), Japonya (Kamakura, Muromachi, Azuchi-Momoyama,
+    Edo, Meiji), Ryukyu, Tibet
+12. **Güneydoğu Asya** — Majapahit, Malakka, Ayutthaya ve Siyam, Đại Việt ve
+    Nguyễn, Khmer, Birmanya (Pagan/Taungû/Konbaung), Açe, Mataram, Brunei, Sulu,
+    Hollanda ve İngiliz sömürge idareleri
+13. **Sahra altı Afrika** — Mali, Songhay, Kanem-Bornu, Hausa şehir devletleri,
+    Sokoto Halifeliği, Aşanti, Dahomey, Benin, Oyo, Kongo, Ndongo, Lunda,
+    Buganda, Etiyopya, Zulu, Merina (Madagaskar), Svahili şehir devletleri,
+    Umman-Zengibar
+14. **Amerika** — Aztek/Mexika, İnka, Maya şehir devletleri, İspanyol genel
+    valilikleri, Portekiz Brezilyası, İngiliz ve Fransız kolonileri, ABD,
+    Meksika, Büyük Kolombiya ve ardılları, Brezilya İmparatorluğu, Haiti
+15. **Kalanlar** — Okyanusya krallıkları (Hawaii, Tonga, Maori), Sibirya hanlıkları,
+    Kuzey Kutbu ve ada devletleri, ilk on dört partide gözden kaçanlar
+
 Her parti sonunda `oturumlar/OTURUM-3-ILERLEME.md` dosyasına hangi partiyi
-bitirdiğini ve kaç kayıt eklediğini yaz.
+bitirdiğini, kaç kayıt eklediğini ve varsa kararsız kaldığın noktaları yaz.
+Bu dosya, bir sonraki oturumun kaldığın yerden devam etme yoludur.
 
 ## Bitirdiğinde doğrula
 
