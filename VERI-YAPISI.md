@@ -59,6 +59,20 @@ kd:[{f:"1281-01-01", t:"1427-06-01", k:2, m:null},     // zamanlı idari kademe
 ```
 Gerekçeler: `MIMARI.md` §3.1 ve §3.4.
 
+### 🔜 `kesinlik` — tarih hassasiyeti (zaman ekseni genişlerken şart)
+Bugün gün bilinmediğinde `YYYY-01-01` yazılıyor. Bu doğru bir yazım ama **kullanıcı
+1 Ocak gördüğünde gerçekten 1 Ocak sanıyor.** Zaman ekseni geriye açıldıkça çoğu
+tarih yıl, on yıl, hatta yüzyıl hassasiyetinde olacak.
+
+```js
+{ f:"-0550-01-01", kesinlik:"onyil" }   // arayüzde: "~MÖ 550"
+{ f:"1427-06-01",  kesinlik:"yil" }     // arayüzde: "1427 civarı"
+{ f:"1453-05-29",  kesinlik:"gun" }     // arayüzde: "29 Mayıs 1453"
+```
+Değerler: `gun` · `ay` · `yil` · `onyil` · `yuzyil` · `belirsiz`.
+Alan yoksa `gun` varsayılır (mevcut verinin tamamı böyle sayılır).
+Uydurma gün yazmama kuralına, **uydurma kesinlik yazmama** kuralı eklenir.
+
 ---
 
 ## `data/olaylar*.js` — kronoloji

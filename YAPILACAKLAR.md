@@ -88,18 +88,36 @@ Gerekçeler: `MIMARI.md` §3.
 
 ---
 
+## Zaman ekseni genişlemeden önce
+
+- [ ] **`kesinlik` alanı** — `gun`/`ay`/`yil`/`onyil`/`yuzyil`/`belirsiz`. Bugün gün
+      bilinmediğinde `YYYY-01-01` yazılıyor ve kullanıcı gerçekten 1 Ocak sanıyor.
+      Geriye gidildikçe çoğu tarih yıl ya da on yıl hassasiyetinde olacak.
+      *(VERI-YAPISI'nda şema, YOL-HARITASI Boyut 1)*
+
+- [ ] **Çağ bölmeli zaman çubuğu** — bugünkü çubuk gün indeksli ve doğrusal.
+      MÖ 12000'e uzanırsa ~5.1 milyon gün olur, son 200 yıl çubuğun %1.6'sına
+      sıkışır. Yoğun dönemde genişleyen, seyrek dönemde daralan bir çubuk gerekir.
+      *Oturum 1 ile ortak iş.*
+
+---
+
 ## Sonraki fazlar (şimdi kapsamda değil)
 
-- [ ] Zaman ekseni geriye: 1200-1288 — Anadolu Selçuklu, İlhanlı, Haçlı devletleri
-- [ ] Zaman ekseni ileriye: 1923-1950
+- [ ] Tarih çizgisi Z-B: 1923-2026 *(tartışmalı sınır kuralı: YOL-HARITASI Boyut 1)*
+- [ ] Tarih çizgisi Z-C: 1000-1288 — Selçuklu, Haçlı devletleri, İlhanlı, Song
+- [ ] Tarih çizgisi Z-D, Z-E: MS 0-1000 ve MÖ 600 – MS 0
+- [ ] Tarih çizgisi Z-F: MÖ 12000 – MÖ 600 — **ayrı bir katman**, devlet/sınır modeli
+      burada uygulanamaz; karar verilmedi
 - [ ] Coğrafya fazları C-C … C-F — Orta Asya, Hindistan, Doğu Asya, Sahra altı
       Afrika, Amerika, Okyanusya
-- [ ] Devlet kronolojilerinin madde sayısının artırılması (D-3)
-- [ ] Kronoloji başlıklarının içinin doldurulması (D-4)
-- [ ] Konu eksenleri K-2 … K-7 — askerî yapı, siyaset-idare, sosyal-iktisadi yapı,
-      bilim-teknoloji, kültür-sanat, din-felsefe
-- [ ] Şahıs ekseni S-2 — dünya hükümdarları
-- [ ] Şahıs ekseni S-3 — sanatçılar, filozoflar, bilim insanları *(açıkça ertelendi)*
+- [ ] Devlet kronolojilerinde madde sayısının artırılması (K-2)
+- [ ] Kronoloji başlıklarının içinin doldurulması (K-3)
+- [ ] Dünya olayları — Osmanlı dışı savaş, antlaşma, olay (O-4)
+- [ ] Dünya hükümdarları (P-2)
+- [ ] Sanatçılar, filozoflar, bilim insanları (P-3) *(açıkça ertelendi)*
+- [ ] Boyut 8 — askerî yapı, siyaset-idare, sosyal-iktisadi yapı, bilim-teknoloji,
+      kültür-sanat, din-felsefe 🔒 **kapalı**
 - [ ] Görsel detaylar — ordu/donanma sembolleri, isyan işaretleri, savaş detay gösterimi
 - [ ] Alan adı kararı *(~10 dk: depo ayarları > Pages > Custom domain)*
 

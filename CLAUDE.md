@@ -39,7 +39,7 @@ düz JS dosyalarını okur.
 - **Depo**: github.com/Emrelic/osmanli-tarih-atlasi — `main`'e her push otomatik yayınlanır
 - **Harita kütüphanesi**: MapLibre GL JS 4.7.1 (CDN'den)
 - **Çekirdek katman**: Osmanlı İmparatorluğu 1281–1923, **gün hassasiyetinde**
-- **Hedef kapsam**: 1200–1924 arası **bütün dünya** (kademeli; bkz. §6)
+- **Hedef kapsam**: bütün dünya, nihai ufuk MÖ 12000 – MS 2026 (kademeli; bkz. §6)
 
 Zaman çizgisi gündür: İstanbul haritaya 29 Mayıs 1453'te eklenir, 1453 yılında değil.
 
@@ -81,13 +81,14 @@ gerekir. Projenin bütün kalite kuralları (§3) bu tek cümleden türer.
 
 ## 1.6 Kapsam disiplini
 
-Proje beş eksende genişler: **zaman · coğrafya · devletler · konu başlıkları ·
-şahıslar** (ayrıntı: `YOL-HARITASI.md`). Bugün bunlardan yalnız ikisi aktiftir.
+Proje yedi boyutta genişler: **1 tarih çizgisi · 2 coğrafi kapsam · 3 devletler ·
+4 devlet kronolojileri · 5 yerleşimler ve bölgeleri · 6 kişiler · 7 olaylar**.
+Sekizinci bir boyut daha vardır — **konu başlıkları** (askerî, sosyal, bilim,
+kültür, din, felsefe) — ve **kasten kapalıdır**. Ayrıntı: `YOL-HARITASI.md`.
 
-> **Şu anda konumuz yalnızca DEVLETLER ve SINIRLARIDIR.**
-> Askerî yapı, sosyal yapı, bilim-teknoloji, kültür-sanat, felsefe, din ve şahıs
-> maddeleri sonraki fazların işidir. Bir oturum bunlara girmeye kalkarsa kapsamı
-> aşıyor demektir.
+> **Şu anda konumuz DEVLETLER ve SINIRLARIDIR.**
+> 8. boyut (askerî yapı, sosyal yapı, bilim-teknoloji, kültür-sanat, felsefe, din)
+> sonraki fazların işidir. Bir oturum oraya girmeye kalkarsa kapsamı aşıyor demektir.
 
 Sıradaki işler ve öncelikleri: **`YAPILACAKLAR.md`**.
 
