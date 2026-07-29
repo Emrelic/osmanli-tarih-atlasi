@@ -23,6 +23,7 @@
 // (devlet-merkezli yükleme, MIMARI.md §6.5) ekran düzeltmesinden önce geldi.
 // ============================================================================
 window.SERILER = [
+{ id:"ic",       ad:"Ic isyanlar ve sehzade mucadeleleri", aralik:"1403-1922", ozet:"Fetret Devri, sehzade savaslari, Celali ve tasra isyanlari" },
 { id:"bizans",   ad:"Osmanlı-Bizans mücadelesi",        aralik:"1302–1461", ozet:"Koyunhisar'dan Trabzon'un düşüşüne: Bizans dünyasının tasfiyesi" },
 { id:"hacli",    ad:"Haçlı seferleri savaşları",        aralik:"1366–1448", ozet:"Balkan fetihlerine karşı düzenlenen Haçlı orduları" },
 { id:"venedik",  ad:"Osmanlı-Venedik savaşları",        aralik:"1463–1718", ozet:"Ege ve Doğu Akdeniz'de yedi büyük savaş" },
@@ -41,6 +42,102 @@ window.SERILER = [
 ];
 
 window.SAVASLAR = [
+// ---------------------------------------------------------------------------
+// hatalar 7.docx madde 6 — GENEL KURAL (kullanici):
+//   "Ulas Olasin zaferi nerede yasandi ise haritada gosterilmeli. Bu kazanilan
+//    kaybedilen savaslarin hepsi genel kural olarak haritada yerleri
+//    gosterilmeli."
+// Olculdu: 57 adlandirilmis savas kronoloji maddesinin haritada konumu YOKTU.
+// Savas ilanlari, antlasmalar ve mutarekeler cikarilinca 42 gercek muharebe /
+// kusatma kaldi ve hepsi asagida. Koordinatlar elle uydurulmadi: 20'sinde
+// yerlesimler.js'teki mevcut kaydin koordinati kullanildi (hangisi oldugu her
+// kaydin ustunde yazili), 22'sinde muharebe alani yerlesim degil oldugu icin
+// konum tek tek yazildi ve gerekcesi yorumda duruyor.
+// ---------------------------------------------------------------------------
+// koordinat yerlesimler.js'ten: Kulacahisar
+{ t:"1285-01-01", tur:"kusatma", ad:"Kulacahisar baskını", taraf_metin:"Bizans", sonuc:"zafer", seri:"bizans", lat:40.04, lon:29.45 },
+// koordinat yerlesimler.js'ten: Bilecik
+{ t:"1299-01-01", tur:"kusatma", ad:"Bilecik ve Yarhisar baskını", taraf_metin:"Bizans", sonuc:"zafer", seri:"bizans", lat:40.142, lon:29.979 },
+// koordinat yerlesimler.js'ten: İznik
+{ t:"1302-08-01", tur:"kusatma", ad:"İznik'in ilk kuşatması", taraf_metin:"Bizans", sonuc:"belirsiz", seri:"bizans", lat:40.429, lon:29.721 },
+// koordinat yerlesimler.js'ten: Dimbos
+{ t:"1303-01-01", tur:"meydan", ad:"Dimbos zaferi", taraf_metin:"Bizans", sonuc:"zafer", seri:"bizans", lat:40.14, lon:29.33 },
+// koordinat yerlesimler.js'ten: İzmit
+{ t:"1333-08-01", tur:"kusatma", ad:"İzmit kuşatması", taraf_metin:"Bizans", sonuc:"zafer", seri:"bizans", lat:40.766, lon:29.917 },
+// koordinat yerlesimler.js'ten: Konya
+{ t:"1386-06-01", tur:"meydan", ad:"Frenkyazısı Savaşı", taraf_metin:"Karamanoğulları", sonuc:"zafer", lat:37.872, lon:32.492 },
+// koordinat yerlesimler.js'ten: Ulubat
+{ t:"1403-09-01", tur:"meydan", ad:"Ulubat çarpışması", taraf_metin:"İsa Çelebi", sonuc:"belirsiz", seri:"ic", lat:40.171, lon:28.573 },
+// koordinat yerlesimler.js'ten: Yenişehir
+{ t:"1405-01-01", tur:"meydan", ad:"Yenişehir Ovası savaşı", taraf_metin:"Emîr Süleyman", sonuc:"yenilgi", seri:"ic", lat:40.267, lon:29.633 },
+// Kosmidion (Eyüp), İstanbul surları dışı
+{ t:"1410-06-15", tur:"meydan", ad:"Kosmidion Savaşı", taraf_metin:"Mûsâ Çelebi", sonuc:"belirsiz", seri:"ic", lat:41.05, lon:28.93 },
+// koordinat yerlesimler.js'ten: İstanbul
+{ t:"1411-06-01", tur:"kusatma", ad:"Mûsâ Çelebi'nin İstanbul kuşatması", taraf_metin:"Bizans – Emîr Süleyman", sonuc:"belirsiz", seri:"ic", lat:41.008, lon:28.98 },
+// İnceğiz, Çatalca yakını
+{ t:"1412-10-01", tur:"meydan", ad:"İnceğiz Savaşı", taraf_metin:"Mûsâ Çelebi", sonuc:"yenilgi", seri:"ic", lat:41.2, lon:28.35 },
+// Çamurlu, Samokov güneyi
+{ t:"1413-07-05", tur:"meydan", ad:"Çamurlu Savaşı", taraf_metin:"Mûsâ Çelebi", sonuc:"zafer", seri:"ic", lat:42.28, lon:23.42 },
+// koordinat yerlesimler.js'ten: Konya
+{ t:"1414-06-01", tur:"kusatma", ad:"Konya kuşatması (1414)", taraf_metin:"Karamanoğulları", sonuc:"zafer", lat:37.872, lon:32.492 },
+// koordinat yerlesimler.js'ten: Konya
+{ t:"1415-03-01", tur:"kusatma", ad:"Konya kuşatması (1415)", taraf_metin:"Karamanoğulları", sonuc:"zafer", lat:37.872, lon:32.492 },
+// Racova – Vaslui, Boğdan
+{ t:"1475-01-10", tur:"meydan", ad:"Racova (Vaslui) bozgunu", taraf_metin:"Boğdan (Stefan cel Mare)", sonuc:"yenilgi", lat:46.64, lon:27.73 },
+// Valea Albă – Războieni
+{ t:"1476-07-26", tur:"meydan", ad:"Akdere (Valea Albă) zaferi", taraf_metin:"Boğdan (Stefan cel Mare)", sonuc:"zafer", lat:47.15, lon:26.3 },
+// koordinat yerlesimler.js'ten: Yenişehir
+{ t:"1481-06-20", tur:"meydan", ad:"Yenişehir Muharebesi (1481)", taraf_metin:"Cem Sultan", sonuc:"zafer", seri:"ic", lat:40.267, lon:29.633 },
+// koordinat yerlesimler.js'ten: Yenişehir
+{ t:"1513-04-01", tur:"meydan", ad:"Yenişehir Muharebesi (1513)", taraf_metin:"Şehzade Ahmed", sonuc:"zafer", seri:"ic", lat:40.267, lon:29.633 },
+// Koçhisar (Kızıltepe), Mardin batısı
+{ t:"1516-05-01", tur:"meydan", ad:"Koçhisar (Kızıltepe) Savaşı", taraf_metin:"Safevî", sonuc:"zafer", seri:"safevi", lat:37.19, lon:40.59 },
+// koordinat yerlesimler.js'ten: Han Yûnus
+{ t:"1516-12-21", tur:"meydan", ad:"Gazze (Han Yûnus) Muharebesi", taraf_metin:"Memlük (Canbirdi Gazâlî)", sonuc:"zafer", seri:"memluk", lat:31.34, lon:34.3 },
+// koordinat yerlesimler.js'ten: Kahire
+{ t:"1517-01-27", tur:"meydan", ad:"Tomanbay'ın Kahire baskını", taraf_metin:"Memlük (Tomanbay)", sonuc:"zafer", seri:"memluk", lat:30.047, lon:31.243 },
+// Kőszeg, Batı Macaristan
+{ t:"1532-08-05", tur:"kusatma", ad:"Güns (Kőszeg) kuşatması", taraf_metin:"Avusturya", sonuc:"belirsiz", seri:"habsburg", lat:47.39, lon:16.54 },
+// koordinat yerlesimler.js'ten: Eğri
+{ t:"1552-09-04", tur:"kusatma", ad:"Eğri kuşatması (1552)", taraf_metin:"Avusturya", sonuc:"yenilgi", seri:"habsburg", lat:47.902, lon:20.377 },
+// koordinat yerlesimler.js'ten: Konya
+{ t:"1559-05-30", tur:"meydan", ad:"Konya Şehzâdeler Muharebesi", taraf_metin:"Şehzade Bayezid – Şehzade Selim", sonuc:"belirsiz", seri:"ic", lat:37.872, lon:32.492 },
+// Parkan (Štúrovo), Estergon'un karşı yakası
+{ t:"1683-10-09", tur:"meydan", ad:"Parkan bozgunu", taraf_metin:"Kutsal İttifak", sonuc:"yenilgi", seri:"habsburg", lat:47.79, lon:18.72 },
+// Harşan (Nagyharsány) dağı, Mohaç yakını
+{ t:"1687-08-12", tur:"meydan", ad:"İkinci Mohaç (Harşan) bozgunu", taraf_metin:"Kutsal İttifak", sonuc:"yenilgi", seri:"habsburg", lat:45.86, lon:18.4 },
+// Slankamen, Tuna-Tisa kavşağı
+{ t:"1691-08-19", tur:"meydan", ad:"Salankamen bozgunu", taraf_metin:"Kutsal İttifak", sonuc:"yenilgi", seri:"habsburg", lat:45.13, lon:20.28 },
+// Lugoj, Banat
+{ t:"1695-09-22", tur:"meydan", ad:"Lugoş zaferi", taraf_metin:"Kutsal İttifak", sonuc:"zafer", seri:"habsburg", lat:45.69, lon:21.9 },
+// Ulaş/Olaş, Bega boyu — Temeşvar doğusu
+{ t:"1696-08-27", tur:"meydan", ad:"Ulaş (Olaşin) zaferi", taraf_metin:"Kutsal İttifak", sonuc:"zafer", seri:"habsburg", lat:45.8, lon:21.15 },
+// koordinat yerlesimler.js'ten: Korfu
+{ t:"1716-08-20", tur:"kusatma", ad:"Korfu kuşatması", taraf_metin:"Venedik", sonuc:"yenilgi", seri:"venedik", lat:39.624, lon:19.922 },
+// koordinat yerlesimler.js'ten: Tiflis
+{ t:"1723-06-15", tur:"kusatma", ad:"Tiflis'in alınışı", taraf_metin:"Safevî / Gürcü", sonuc:"zafer", seri:"safevi", lat:41.716, lon:44.783 },
+// Baghavard, Arpaçay-Revan arası
+{ t:"1735-06-19", tur:"meydan", ad:"Baghavard (Arpaçay) bozgunu", taraf_metin:"Nâdir Han", sonuc:"yenilgi", seri:"safevi", lat:40.15, lon:43.9 },
+// Banaluka (Banja Luka), Bosna
+{ t:"1737-08-04", tur:"meydan", ad:"Banaluka zaferi", taraf_metin:"Avusturya", sonuc:"zafer", seri:"habsburg", lat:44.77, lon:17.19 },
+// Grocka, Belgrad doğusu
+{ t:"1739-07-22", tur:"meydan", ad:"Hisarcık (Grocka) zaferi", taraf_metin:"Avusturya", sonuc:"zafer", seri:"habsburg", lat:44.67, lon:20.72 },
+// koordinat yerlesimler.js'ten: Preveze
+{ t:"1798-10-23", tur:"meydan", ad:"Preveze (Nikopolis) Muharebesi", taraf_metin:"Fransa", sonuc:"zafer", lat:38.9607, lon:20.7469 },
+// koordinat yerlesimler.js'ten: Kerbelâ
+{ t:"1801-04-01", tur:"meydan", ad:"Vehhâbîlerin Kerbelâ baskını", taraf_metin:"Suûdî (Vehhâbî)", sonuc:"yenilgi", seri:"vehhabi", lat:32.616, lon:44.025 },
+// Safra geçidi, Yenbu-Medine yolu
+{ t:"1811-12-01", tur:"meydan", ad:"Safra-Cedîde bozgunu", taraf_metin:"Suûdî (Vehhâbî)", sonuc:"yenilgi", seri:"vehhabi", lat:24.08, lon:38.35 },
+// Cebel-i Lübnan
+{ t:"1860-05-30", tur:"isyan", ad:"Cebel-i Lübnan iç savaşı", taraf_metin:"Dürzî – Mârûnî", sonuc:"belirsiz", seri:"ic", lat:33.83, lon:35.65 },
+// Galata, İstanbul
+{ t:"1896-08-26", tur:"isyan", ad:"Osmanlı Bankası baskını", taraf_metin:"Taşnak", sonuc:"belirsiz", seri:"ic", lat:41.02, lon:28.97 },
+// Bâbıâli, İstanbul
+{ t:"1913-01-23", tur:"isyan", ad:"Bâb-ı Âli Baskını", taraf_metin:"İttihat ve Terakkî", sonuc:"belirsiz", seri:"ic", lat:41.01, lon:28.98 },
+// Sivastopol – Odessa – Novorossiysk hattı
+{ t:"1914-10-29", tur:"deniz", ad:"Karadeniz Baskını", taraf_metin:"Rusya", sonuc:"zafer", seri:"cihan", lat:44.61, lon:33.53 },
+// koordinat yerlesimler.js'ten: Gazze
+{ t:"1917-11-07", tur:"meydan", ad:"Üçüncü Gazze Muharebesi", taraf_metin:"İngiltere", sonuc:"yenilgi", seri:"cihan", lat:31.502, lon:34.466 },
 { t:"1400-08-26", ad:"Sivas kuşatması", taraf_metin:"Timur", sonuc:"yenilgi", galip:"timurlu", lat:39.75, lon:37.02, tur:"kusatma" },
 { t:"1385-09-18", ad:"Savra (Saurian) Ovası", taraf_metin:"Zeta — II. Balşa", sonuc:"zafer", galip:"osmanli", lat:40.94, lon:19.71, tur:"meydan" },
 { t:"1302-07-27", ad:"Koyunhisar (Bapheus)",      taraf_metin:"Bizans",            sonuc:"zafer",   seri:"bizans",  lat:40.72, lon:29.85, taraf:["osmanli","bizans"], galip:"osmanli" },
@@ -86,7 +183,14 @@ window.SAVASLAR = [
 { t:"1600-10-22", ad:"Kanije kuşatması",          taraf_metin:"Habsburg",          sonuc:"zafer",   seri:"habsburg",lat:46.45, lon:16.99, taraf:["osmanli","habsburg"], galip:"osmanli" },
 { t:"1620-09-17", ad:"Cecora (Ţuţora)",           taraf_metin:"Lehistan",          sonuc:"zafer",   seri:"lehistan",lat:47.10, lon:27.75, taraf:["osmanli","lehistan"], galip:"osmanli" },
 { t:"1663-09-24", ad:"Uyvar kuşatması",           taraf_metin:"Habsburg",          sonuc:"zafer",   seri:"habsburg",lat:47.99, lon:18.16, taraf:["osmanli","habsburg"], galip:"osmanli" },
-{ t:"1664-08-01", ad:"Sen Gotar (St. Gotthard)",  taraf_metin:"Habsburg",          sonuc:"yenilgi", seri:"habsburg",lat:46.94, lon:16.27, taraf:["osmanli","habsburg"], galip:"habsburg" },
+// hatalar 6.docx madde 8 — kullanıcı: "saint gothard muharebesinin haritada
+// yeri belli değil". Koordinat DOĞRUYDU (46.94/16.27 = Mogersdorf-Szentgotthárd,
+// Raab kıyısı) ama kayıtta sure: alanı yoktu; app.js böyle kayıtlarda pencereyi
+// "sonraki olaya kadar" hesaplıyor ve bir sonraki madde Vasvar Antlaşması
+// (1664-08-09) yalnız SEKİZ gün sonra. Taban 60 güne yuvarlanıyordu, yani işaret
+// zaman çubuğu hızlı akarken bir anda geçiyordu. Diğer büyük muharebeler gibi
+// açık sure: verildi.
+{ t:"1664-08-01", ad:"Sen Gotar (St. Gotthard)", sure:365,  taraf_metin:"Habsburg",          sonuc:"yenilgi", seri:"habsburg",lat:46.94, lon:16.27, taraf:["osmanli","habsburg"], galip:"habsburg" },
 { t:"1683-09-12", ad:"II. Viyana Kuşatması",      taraf_metin:"Habsburg-Lehistan", sonuc:"yenilgi", seri:"habsburg",lat:48.21, lon:16.37, taraf:["osmanli","habsburg","lehistan"], galip:"habsburg" },
 { t:"1697-09-11", ad:"Zenta",                     taraf_metin:"Habsburg",          sonuc:"yenilgi", seri:"habsburg",lat:45.93, lon:20.09, taraf:["osmanli","habsburg"], galip:"habsburg" },
 { t:"1711-07-21", ad:"Prut",                      taraf_metin:"Rusya",             sonuc:"zafer",   seri:"rus",     lat:46.48, lon:28.10, taraf:["osmanli","rusya"], galip:"osmanli" },
@@ -185,6 +289,20 @@ window.SAVASLAR = [
 { t:"1524-01-01", tur:"isyan", ad:"Hain Ahmed Paşa",        taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:30.05, lon:31.24, sure:300 },
 { t:"1526-01-01", tur:"isyan", ad:"Kalender Çelebi",        taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:38.36, lon:38.31, sure:300 },
 { t:"1599-06-01", tur:"isyan", ad:"Karayazıcı Abdülhalim",  taraf_metin:"Celâlî",   sonuc:"zafer", seri:"ic",  lat:37.16, lon:38.80, sure:900 },
+// hatalar 5.docx madde 2 — kullanıcı: "karayazıcı abdülhalim isyanı nerede
+// başlamış haritada aksiyon görülmüyor 1596. Bu maddenin iki ayrı maddesi
+// varmış." İki sebep vardı: (1) olaylar_ek7.js'te isyanı 1596'ya koyan MÜKERRER
+// ve TARİHİ YANLIŞ bir madde vardı — kullanıcı ona bakıyordu, oysa haritadaki
+// 🔥 işareti (yukarıdaki Karayazıcı kaydı, Urfa 37.16/38.80) 1599-06-01'de
+// başlıyor. O mükerrer madde silindi. (2) İsyanın seyri haritada tek bir
+// işaretle temsil ediliyordu. TDV "KARAYAZICI ABDÜLHALİM"in verdiği iki meydan
+// muharebesi eklendi: 23 Eylül 1600 Kayseri ovasında Hacı İbrâhim Paşa'nın
+// yenilgisi, 12 Ağustos 1601 Sepetli'de (Elbistan) Sokulluzâde Hasan Paşa'nın
+// zaferi — "otuz bin kişilik kuvvetin üçte biri telef" oldu.
+// galip alanı YOK: devletler.js'te Celâlî kimliği bulunmuyor ve mevcut bütün
+// iç isyan kayıtları da galip yazmıyor (arayüz id'yi çözemeyip ham metin basar).
+{ t:"1600-09-23", tur:"meydan", ad:"Kayseri ovası (Karayazıcı)", taraf_metin:"Celâlî", sonuc:"yenilgi", seri:"ic", lat:38.73, lon:35.48, sure:300 },
+{ t:"1601-08-12", tur:"meydan", ad:"Sepetli (Elbistan) — Karayazıcı'nın bozgunu", taraf_metin:"Celâlî", sonuc:"zafer", seri:"ic", lat:38.20, lon:37.20, sure:300 },
 { t:"1603-01-01", tur:"isyan", ad:"Deli Hasan",             taraf_metin:"Celâlî",   sonuc:"zafer", seri:"ic",  lat:39.75, lon:37.02, sure:600 },
 { t:"1607-10-23", tur:"isyan", ad:"Canbolatoğlu Ali Paşa",  taraf_metin:"Celâlî",   sonuc:"zafer", seri:"ic",  lat:36.20, lon:37.13, sure:500 },
 { t:"1608-08-05", tur:"isyan", ad:"Kalenderoğlu",           taraf_metin:"Celâlî",   sonuc:"zafer", seri:"ic",  lat:38.02, lon:36.53, sure:400 },
@@ -414,6 +532,16 @@ window.SEFERLER = [
 { ad:"Eğri-Haçova seferi (1596)",   f:"1596-06-20", t:"1596-11-26",
   yol:[[28.98,41.01],[26.56,41.68],[23.32,42.70],[20.46,44.82],[18.69,45.55],[19.04,47.50],
        [20.18,47.18],[20.38,47.90],[20.72,47.82]] },
+// hatalar 5.docx madde 6 — kullanıcı: "hotin seferi ve hotin anlaşması
+// maddesinde hotinin haritadaki yerini işaretlemeli". Kalenin ◎ kuşatma işareti
+// SAVASLAR'da zaten vardı (1621-09-02, Hotin 48.51/26.49, 200 gün) ama
+// 1621-10-09 tarihli madde okunurken hangi noktanın kastedildiği belli
+// olmuyordu. Ok eklendi: II. Osman ordusuyla 29 Nisan 1621'de İstanbul'dan
+// çıktı, Edirne-Isakçı hattından Tuna'yı geçti, Boğdan'ın merkezi Yaş üzerinden
+// Dinyester kıyısındaki Hotin'e yürüdü. Ok, seferin başından antlaşma gününe
+// kadar haritada durur ve ucunda adı yazılıdır.
+{ ad:"Hotin seferi (1621) — II. Osman", f:"1621-04-29", t:"1621-10-09",
+  yol:[[28.98,41.01],[26.56,41.68],[28.46,45.27],[27.59,47.16],[26.49,48.51]] },
 // Anadolu Sol Kol: Sivas-Diyarbekir-Musul üzerinden Bağdat'a.
 { ad:"Bağdat seferi (1638)",        f:"1638-05-08", t:"1639-01-01",
   yol:[[28.98,41.01],[29.02,41.02],[37.02,39.75],[40.23,37.91],[43.13,36.34],[44.36,33.34]] },
