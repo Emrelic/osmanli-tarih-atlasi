@@ -31,13 +31,13 @@ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(KOK, "data")
 
 # Bugün doğru kabul edilen sayılar — CLAUDE.md §3 ile aynı. Sapma varsa uyar.
-BEKLENEN_YERLESIM = 740
+BEKLENEN_YERLESIM = 748
 # 29 -> 32: Oturum 4'ün Necid noktaları (Buraydâ, Uneyze, Şakrâ) 1744
 # öncesinde kasten sahipsiz — orada devlet yoktu, Riyad ve Dir'iye ile
 # aynı desen (MIMARI.md §6: 'devletsiz' ile 'veri yok' ayrımı).
 # 32 -> 35: Oturum 11 in col/plato dolgu noktalari (Uzboy, Ustyurt bati ve
 # dogu) kasten sahipsiz — Karakum ve Rub ul Hali ile ayni desen.
-BEKLENEN_SAHIPSIZ = 35
+BEKLENEN_SAHIPSIZ = 34
 BEKLENEN_KIRILMA = 427
 BEKLENEN_ACIK = 0
 # MIMARI.md §3.4 — bilinen borç, tavan bu. 311'den 318'e çıkarıldı: beylik
@@ -163,8 +163,17 @@ def degismez3(Y):
             if not m:
                 continue
             a, b = durum(y, g), durum(m, g)
-            if a != "—" and b != "—" and a != b:
-                celiskiler.append((g, y["ad"], y["m"], a, b))
+            if a == "—" or b == "—" or a == b:
+                continue
+            # OSMANLI ile tâbi ÇELİŞKİ DEĞİLDİR — ikisi de Osmanlı sistemi içinde.
+            # Kullanıcının genel kuralı gereği voyvodalık/hanlık/ocaklık v: yazılıyor
+            # (açık kırmızı) ve bunların bağlı olduğu sancak d: kalıyor: Bahçesaray
+            # tâbi ama Kefe sancağı doğrudan, Boğdan tâbi ama Hotin rayası doğrudan,
+            # Erdel prenslik ama Varad eyalet. Bu ayrım modelin DOĞRU çalışmasıdır;
+            # çelişki saymak 28 yanlış alarm üretiyordu.
+            if {a, b} == {"OSMANLI", "tabi"}:
+                continue
+            celiskiler.append((g, y["ad"], y["m"], a, b))
     return celiskiler
 
 

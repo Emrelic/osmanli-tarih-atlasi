@@ -67,17 +67,18 @@ gerekir. Projenin bütün kalite kuralları (§3) bu tek cümleden türer.
 
 | Katman | Durum |
 |---|---|
-| Osmanlı sınırları 1281-1923 | 🟢 567 yerleşimden gün gün üretiliyor, 424 dönem |
-| Kronoloji | 🟢 799 madde, tamamı TDV bağlantılı |
-| Harita ↔ kronoloji senkronu | 🟢 424 kırılmanın 424'ü maddeli |
-| Sahipsiz bölge | 🟢 29 nokta, hepsi kasten boş (çöl / devletsiz bölge) |
-| Yabancı devletler haritada | 🟢 97 devlet kendi renginde |
+| Osmanlı sınırları 1281-1923 | 🟢 740 yerleşimden gün gün üretiliyor, 427 kırılma |
+| Kronoloji | 🟢 958 madde, tamamı TDV bağlantılı |
+| Harita ↔ kronoloji senkronu | 🟢 427 kırılmanın 427'si maddeli |
+| Sahipsiz bölge | 🟢 35 nokta, hepsi kasten boş (çöl / devletsiz bölge) |
+| Yabancı devletler haritada | 🟢 104 devlet kendi renginde (`arac/renkler.py`) |
 | Padişahlar ve portreler | 🟢 41 kayıt, 36/36 portre |
-| Savaş/antlaşma/kişi dizinleri | 🟢 108 + 30 + 90 kayıt, 36 sefer güzergâhı |
-| **Devletler dizini** | 🟡 77 kayıt; **dünya kapsamına genişletiliyor** (Oturum 3) |
-| **Görsel doğrulama** | 🔴 **Hiç yapılmadı** — bütün denetimler veri düzeyinde |
-| **Dünya kapsamı: yerleşimler** | 🔴 Başlanmadı (Oturum 4) |
-| **Dünya kapsamı: harita penceresi** | 🔴 Başlanmadı; §6'daki sıra beklenecek |
+| Savaş/antlaşma/sefer dizinleri | 🟢 123 + 33 kayıt, 41 sefer güzergâhı |
+| Mükerrer madde denetimi | 🟢 `denetle.py`'nin beşinci kontrolü (Jaccard ≥ 0.45) |
+| **Devletler dizini** | 🟡 213 kayıt (dünya); derinleştirme sürüyor |
+| **Görsel doğrulama** | 🟡 Kullanıcı ekran görüntüsüyle yürütüyor (`hatalar N.docx`) |
+| **Dünya kapsamı: yerleşimler** | 🟡 İran 126 · Orta Asya 16 birleşti; Avrupa 228 · Asya 344 · Afrika 153 **merge bekliyor** |
+| **Dünya kapsamı: harita penceresi** | 🔴 `box(-12, 1.5, 62, 62)` hâlâ dar; §6'daki sıra beklenecek |
 
 ## 1.6 Kapsam disiplini
 
@@ -130,10 +131,15 @@ delik demektir.
 node -e "global.window={};eval(require('fs').readFileSync('data/yerlesimler.js','utf8'));const Y=window.YERLESIMLER;const iR=(a,g)=>a&&a.some(p=>p.f<=g&&g<p.t);const b={};for(let y=1300;y<=1920;y+=20){const g=y+'-06-15';for(const t of Y){if(t.kur&&t.kur>g)continue;if(iR(t.d,g)||iR(t.s,g)||iR(t.v,g))continue;(b[t.ad]=b[t.ad]||[]).push(y);}}console.log('yerlesim:',Y.length,'| sahipsiz:',Object.keys(b).length);for(const [a,ys] of Object.entries(b))console.log('  '+a.padEnd(24)+ys.join(','));"
 ```
 
-**Şu an: 567 yerleşimin 29'u sahipsiz ve hepsi KASTEN öyle** — Sahra ve Rub'ul Hâlî
+**Şu an: 740 yerleşimin 35'i sahipsiz ve hepsi KASTEN öyle** — Sahra ve Rub'ul Hâlî
 çölleri, 1744 öncesi Necid, körfez şeyhlikleri. Bunlar boş kalması *doğru* olan
 yerlerdir; çölün emilip Osmanlı boyanmasını engellemek için konmuş dolgu
-noktalarıdır. **Sayı 29'un üstüne çıkarsa yeni bir delik açılmış demektir.**
+noktalarıdır. **Sayı 35'in üstüne çıkarsa yeni bir delik açılmış demektir.**
+
+⚠️ Yukarıdaki tek satırlık komut 1300'den başlar; **kuruluş devrini hiç örneklemez.**
+İnegöl ve Bilecik'in 1281-1299 arası sahipsizliği tam bu yüzden aylarca görülmedi.
+Gerçek denetim `arac/denetle.py`'dedir ve 1285/1290/1295 kesitlerini de alır — bu
+komut yalnız hızlı bir bakış içindir.
 
 ### Değişmez 2 — Sessiz toprak değişimi yok
 Haritadaki her kırılmanın (bir `d:` ya da `v:` döneminin başı veya sonu) **±30 gün
@@ -164,9 +170,43 @@ Bugün görsel hataya dönüşmüyor çünkü bölge katmanı yalnız Osmanlı d
 çiziliyor. **Dünya kapsamında her devletin idari kademesi gerekecek ve o zaman bu
 model çöker.** Ayrıntı ve çözüm: `YOL-HARITASI.md` §6.5.
 
-Ölçüm komutu:
+⚠️ **`OSMANLI` ile `tâbi` çelişki SAYILMAZ.** İkisi de Osmanlı sistemi içindedir ve
+ayrımın bilerek yan yana durduğu yerler var: Boğdan voyvodalıktır ama Hotin rayası
+doğrudandır, Kırım Hanlığı tâbidir ama Kefe sancağı doğrudandır, Erdel prensliktir
+ama Varad eyalettir. `denetle.py` bu çifti muaf tutuyor.
+
+---
+
+## 3.5 Denetimin GÖRMEDİĞİ hata sınıfı — hayalet devletler
+
+Üç değişmez de "sahip var mı / maddesi var mı / merkeziyle uyuyor mu" diye sorar.
+Hiçbiri **"bu devlet o tarihte yaşıyor mu"** diye sormaz. Bu yüzden veri denetimi
+temiz raporlarken harita yıllarca var olmayan devletleri boyayabiliyor:
+
+| Kayıt | Yazılan | Devletin gerçek sonu | Fazlalık |
+|---|---|---|---|
+| Batnoz (Patmos) | `bizans` 1537'ye kadar | 1453-05-29 | **84 yıl** |
+| İbrim | `memluk` 1555'e kadar | 1517-04-13 | 38 yıl |
+| Sevâkin, Masavva, Dahlak | `memluk` 1557'ye kadar | 1517-04-13 | 40 yıl |
+| Tebriz, Hemedan, Bağdat ve 70 kayıt | `iran` 1501-1736 arası | Safevî dönemi | **235 yıl** |
+
+İlk ikisi haritada **hayalet etiket** üretiyordu: kullanıcı 1482 ve 1499 ekran
+görüntülerinde Ege'de "BİZANS", 1550 görüntüsünde Nil'in güneyinde "MEMLÜK" yazısı
+gördü. Üçüncüsü daha beteri: Safevî İmparatorluğu'nun coğrafyası iki ayrı devlet
+gibi görünüyordu — kocaman bir tan renkli "İRAN" ve Van'ın doğusunda avuç kadar bir
+"SAFEVÎ İRAN". Kullanıcı sordu: *"Van civarında Safevîler İran'a hâkim
+değiller miydi?"*
+
+**Kural: yeni bir `s:` dönemi yazarken devletin ömrünü kontrol et.**
+`data/devletler.js` her devletin `f`/`t` aralığını tutuyor. Bölgesel teslim
+gecikmeleri meşrudur (Mekke'nin memlûk dönemi 1517-07-06'da biter, devlet
+04-13'te yıkılmıştır) ama yıllar değil aylar mertebesinde olmalıdır.
+
+Bu, dördüncü bir değişmez olarak araca girecek — `YAPILACAKLAR.md`.
+
+Ölçüm komutu (Değişmez 3):
 ```bash
-node -e "global.window={};eval(require('fs').readFileSync('data/yerlesimler.js','utf8'));const Y=window.YERLESIMLER,ix={};for(const y of Y)ix[y.ad]=y;const S=(y,g)=>{for(const p of (y.d||[]))if(p.f<=g&&g<p.t)return'OSMANLI';for(const p of (y.v||[]))if(p.f<=g&&g<p.t)return'tabi';for(const p of (y.s||[]))if(p.f<=g&&g<p.t)return p.d;return'—';};let n=0;for(const g of ['1300-06-15','1400-06-15','1500-06-15','1600-06-15','1700-06-15','1800-06-15'])for(const y of Y){if(!y.m)continue;const m=ix[y.m];if(!m)continue;const a=S(y,g),b=S(m,g);if(a!=='—'&&b!=='—'&&a!==b)n++;}console.log('merkezi ile farkli devlette olan yerlesim-tarih cifti:',n);"
+node -e "global.window={};eval(require('fs').readFileSync('data/yerlesimler.js','utf8'));const Y=window.YERLESIMLER,ix={};for(const y of Y)ix[y.ad]=y;const S=(y,g)=>{for(const p of (y.d||[]))if(p.f<=g&&g<p.t)return'OSMANLI';for(const p of (y.v||[]))if(p.f<=g&&g<p.t)return'tabi';for(const p of (y.s||[]))if(p.f<=g&&g<p.t)return p.d;return'—';};let n=0;for(const g of ['1300-06-15','1400-06-15','1500-06-15','1600-06-15','1700-06-15','1800-06-15'])for(const y of Y){if(!y.m)continue;const m=ix[y.m];if(!m)continue;const a=S(y,g),b=S(m,g);if(a!=='—'&&b!=='—'&&a!==b&&!(a==='OSMANLI'&&b==='tabi')&&!(a==='tabi'&&b==='OSMANLI'))n++;}console.log('merkezi ile farkli devlette olan yerlesim-tarih cifti:',n);"
 ```
 
 ---
@@ -217,20 +257,34 @@ index.html              Tek sayfa uygulama. Tüm data/*.js buradan script ile y�
 js/app.js               Harita + gün bazlı zaman akışı + paneller + dizinler
 css/style.css           Görünüm
 
-data/yerlesimler.js     ⭐ ELLE YAZILAN TEK COĞRAFİ KAYNAK — 567 yerleşim
+data/yerlesimler.js     ⭐ ELLE YAZILAN TEK COĞRAFİ KAYNAK — 740 yerleşim
 data/olaylar.js         Ana kronoloji (84 madde, detaylı)
-data/olaylar_ek*.js     Derinleştirme partileri 1-6 — toplam 799 kronoloji maddesi
-data/devletler.js       Devletler dizini (77 kayıt; dünya kapsamına genişletiliyor)
+data/olaylar_ek*.js     Derinleştirme partileri 1-7 — toplam 958 kronoloji maddesi
+data/devletler.js       Devletler dizini (213 kayıt, dünya)
 data/padisahlar.js      41 kayıt (36 padişah + Fetret + ara dönemler)
 data/kisiler.js         90 kişi
-data/savaslar.js        108 savaş + 30 antlaşma + 15 seri + 36 sefer güzergâhı
+data/savaslar.js        123 savaş + 33 antlaşma + 15 seri + 41 sefer güzergâhı
 data/sehirler.js        62 şehir/kale kartı
 
-data/donemler.js        🤖 ÜRETİLMİŞ — 424 dönem, 12 MB. ELLE DÜZENLEME.
-data/devletler_harita.js 🤖 ÜRETİLMİŞ — 97 devlet gövdesi, 14 MB. ELLE DÜZENLEME.
+⚠️ HENÜZ index.html'e BAĞLANMAMIŞ, merge bekleyen yerleşim partileri. Bunlar
+   yerlesimler.js şemasıyla birebir aynıdır; ayrı dosya olmalarının tek sebebi
+   oturumlar arası çakışmayı önlemekti. Merge ETMEDEN ÖNCE dosya başlarındaki
+   uyarı bloklarını oku — çoğu, renkler.py'de karşılığı olmayan devlet kimliği
+   kullanıyor ve rastgele renk eklemek DSATUR dengesini bozar (bkz. §7 renkler):
+data/yerlesimler_avrupa.js  228 nokta (Oturum 12) — 15 yeni devlet kimliği istiyor
+data/yerlesimler_asya.js    344 nokta (Oturum 13) — TAMAMI 62°D'nin doğusunda,
+                            harita penceresi açılmadan çizilmez; 98 yeni kimlik
+data/yerlesimler_afrika.js  153 nokta (Oturum 14) — pencerenin İÇİNDE, ilk
+                            üretimde görünür; 7 nokta yuvarlanmış tarih taşıyor
+
+data/donemler.js        🤖 ÜRETİLMİŞ — 12 MB. ELLE DÜZENLEME.
+data/devletler_harita.js 🤖 ÜRETİLMİŞ — 14 MB. ELLE DÜZENLEME.
 data/bolgeler.js        🤖 ÜRETİLMİŞ — 61 idari bölge. ELLE DÜZENLEME.
 
-arac/uret_petek.py      ⭐ TEK ÜRETİM BETİĞİ. Devlet renkleri (BOYALAR) burada.
+arac/uret_petek.py      ⭐ TEK ÜRETİM BETİĞİ.
+arac/renkler.py         Devlet renkleri (BOYALAR) — 104 devlet, DSATUR ölçümü
+                        ve "kompozit ΔE" uyarısı dosya başında
+arac/denetle.py         ⭐ BEŞ DENETİM — üç değişmez + dönem sağlığı + mükerrer madde
 arac/surum_damgala.py   index.html'deki ?v=rNN damgasını günceller
 arac/uret_donemler.py   ☠️ ESKİ MOTOR — kullanılmıyor, referans için duruyor
 
@@ -262,7 +316,7 @@ Hedef bütün dünya; ama §2'deki emilme davranışı yüzünden sıra **atlana
 3. **Harita penceresi** — `uret_petek.py` içindeki `BOLGE = box(-12, 1.5, 62, 62)`
    kutusu genişletilir.
 
-> **Nokta yoğunluğu sağlanmadan `BOLGE` kutusunu açma.** Mevcut 567 peteğin
+> **Nokta yoğunluğu sağlanmadan `BOLGE` kutusunu açma.** Mevcut 740 peteğin
 > kenardakileri bütün dünyaya yayılır: Kars'ın peteği Çin'i, Fas'ınki Atlantik'i
 > boyar. Kutu yalnız kapsanan bölge için ve kademe kademe açılır.
 

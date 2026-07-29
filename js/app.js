@@ -49,6 +49,33 @@ function kesinlikliYazi(ham, gi) {
 }
 function olayTarihYazi(o) { return o.gun || kesinlikliYazi(o.t, o.gi); }
 
+// ⚠️ savaslar.js ŞEMA GEÇİŞİ (Oturum 10'un devrettiği iş).
+// Eskiden `taraf` serbest metindi ("Venedik") ve ekranda doğrudan yazılıyordu.
+// Oturum 10 aynı adı devletler.js id DİZİSİNE çevirdi, eski metni `taraf_metin`e
+// taşıdı ama arayüzü güncelleyemedi (dosya sahipliği dışındaydı) — sonuç: dizinde
+// "Birinci Sırp isyanı — osmanli,sirbistan-prensligi" gibi id listeleri görünüyordu.
+// Öncelik: elle yazılmış `taraf_metin` → id'lerin devletler.js'ten çözümü → ham metin.
+// Osmanlı her kaydın bir tarafı olduğu için id listesinden düşürülür; "karşı taraf"
+// zaten karşısındakini soruyor. Dizi tek elemanlıysa (iç isyan) o eleman yazılır.
+var _DEVLET_ADI = null;
+function devletAdi(id) {
+  if (!_DEVLET_ADI) {
+    _DEVLET_ADI = {};
+    (window.DEVLETLER || []).forEach(function (d) {
+      if (!_DEVLET_ADI[d.id]) _DEVLET_ADI[d.id] = d.ad;
+    });
+  }
+  return _DEVLET_ADI[id] || id;
+}
+function karsiTaraf(k) {
+  if (k.taraf_metin) return k.taraf_metin;
+  var t = k.taraf;
+  if (!t) return "—";
+  if (!Array.isArray(t)) return t;
+  var d = t.filter(function (x) { return x !== "osmanli"; });
+  return (d.length ? d : t).map(devletAdi).join(", ");
+}
+
 var BASLANGIC = gunIdx("1281-01-01");
 var BITIS     = gunIdx("1923-10-29");
 
@@ -335,6 +362,28 @@ harita.on("load", function () {
     '<span id="alan-goster"></span>';
   document.getElementById("harita").appendChild(lejant);
 
+  // hatalar 3.docx madde 2 — kullanıcı: "bu ekran gizlenebilir olmalı bir gizle
+  // butonu aç butonu ile". Lejant haritanın sağ üstünü kaplıyor ve tam o köşede
+  // Kafkasya/Gürcistan ile Ege adaları var; kullanıcı oraya bakmak isteyince
+  // lejantı kaldıramıyordu. Tercih localStorage'da tutuluyor ki her açılışta
+  // yeniden kapatmak gerekmesin.
+  var lejantDugme = document.createElement("button");
+  lejantDugme.className = "lejant-dugme";
+  lejantDugme.title = "Lejantı gizle / göster";
+  function lejantDurum(kapali) {
+    lejant.classList.toggle("kapali", kapali);
+    lejantDugme.classList.toggle("kapali", kapali);
+    lejantDugme.textContent = kapali ? "☰" : "×";
+    lejantDugme.setAttribute("aria-expanded", String(!kapali));
+  }
+  lejantDurum(localStorage.getItem("lejantKapali") === "1");
+  lejantDugme.addEventListener("click", function () {
+    var kapali = !lejant.classList.contains("kapali");
+    lejantDurum(kapali);
+    localStorage.setItem("lejantKapali", kapali ? "1" : "0");
+  });
+  document.getElementById("harita").appendChild(lejantDugme);
+
   var rozet = document.createElement("div");
   rozet.className = "taslak-rozet";
   rozet.textContent = "Sınırlar akademik atlas verisine dayalıdır; yaklaşıktır, doğrulama sürüyor";
@@ -434,9 +483,19 @@ var sehirler = ISARET_KAYNAK.map(function (s) {
   var ic = document.createElement("div");
   ic.className = "sehir";
   ic.innerHTML = '<span class="s-nokta"></span><span class="s-yontem"></span><span class="s-ad"></span>';
-  ic.querySelector(".s-ad").textContent = (s.tur === "kale" ? "🏰 " : "") + s.ad;
+  // ⚠️ GENEL KURAL (kullanıcı, hatalar 3.docx madde 1): "Dimbos, Kulacahisar,
+  // Karacahisar, Adranos'ta görülen simgeler ... en başından beri yapıştı
+  // gitmiyor. Madde geçtikten sonra bu simgeler kaldırılmalı."
+  // Simge 🏰 idi ve tur:"kale" olan HER kayıtta kalıcıydı — Dimbos'un kalesi
+  // 1303'te alınıp 1402'ye kadar aynı simgeyle duruyordu, yani yüz yıl boyunca
+  // ekranda bir "olay" işareti gibi görünüyordu. Artık kale simgesi de ediniliş
+  // yöntemi simgesiyle aynı pencereye bağlı: fetihten sonra YONTEM_SURE gün
+  // görünür, sonra yalnız ad ve nokta kalır. Ad hiç kaldırılmıyor — kullanıcının
+  // "şehirlerin isimleri haritada görünmeli" kuralı bozulmasın.
+  ic.querySelector(".s-ad").textContent = s.ad;
   dis.appendChild(ic);
-  return { s: s, ic: ic, gecici: !!s.gecici, yontemEl: ic.querySelector(".s-yontem"), ekli: false,
+  return { s: s, ic: ic, gecici: !!s.gecici, kale: s.tur === "kale",
+           yontemEl: ic.querySelector(".s-yontem"), ekli: false,
            mk: new maplibregl.Marker({ element: dis, anchor: "left", offset: [-5, 0] })
                  .setLngLat([s.lon, s.lat]),
            kayitlar: s.k.map(function (r) {
@@ -464,7 +523,12 @@ function sehirGuncelle(t) {
     }
     var sinif = "sehir d" + aktif.d + (aktif.b ? " baskent" : "");
     if (m.ic.className !== sinif) m.ic.className = sinif;
-    var simge = (aktif.y && t < aktif.fi + YONTEM_SURE) ? YONTEM_SIMGE[aktif.y] || "" : "";
+    // Pencere içindeyse: ediniliş yöntemi simgesi (⚔ ♜ 📜 🤝) ve kale ise 🏰.
+    // Pencere dışında ikisi de kalkar — kalıcı simge bırakmıyoruz.
+    var pencerede = t < aktif.fi + YONTEM_SURE;
+    var simge = pencerede
+      ? (m.kale ? "🏰" : "") + (aktif.y ? YONTEM_SIMGE[aktif.y] || "" : "")
+      : "";
     if (m.yontemEl.textContent !== simge) m.yontemEl.textContent = simge;
     if (!m.ekli) { m.mk.addTo(harita); m.ekli = true; }
   });
@@ -625,7 +689,8 @@ var olaylar = (window.OLAYLAR || []).concat(window.OLAYLAR_EK || [])
                                     .concat(window.OLAYLAR_EK4 || [])
                                     .concat(window.OLAYLAR_EK5 || [])
                                     .concat(window.OLAYLAR_EK6 || [])
-                                    .concat(window.OLAYLAR_EK7 || []).map(function (o) {
+                                    .concat(window.OLAYLAR_EK7 || [])
+                                    .concat(window.OLAYLAR_EK8 || []).map(function (o) {
   var kaba = gunIdx(o.t);
   return Object.assign({ gi: o.t.split("-").length > 2 ? kaba : gunMetniIdx(o.gun, kaba) }, o);
 }).sort(function (a, b) { return a.gi - b.gi; });
@@ -743,12 +808,12 @@ function dizinDoldur(sekme) {
   } else if (sekme === "savaslar") {
     (window.SAVASLAR || []).forEach(function (s) {
       var isaret = s.sonuc === "zafer" ? "✔" : s.sonuc === "yenilgi" ? "✖" : "◐";
-      satir(kesinlikliYazi(s.t, gunIdx(s.t)), s.ad + " — " + s.taraf, isaret,
+      satir(kesinlikliYazi(s.t, gunIdx(s.t)), s.ad + " — " + karsiTaraf(s), isaret,
             function () { dizinPencere.classList.add("gizli"); tarihAyarla(gunIdx(s.t)); });
     });
   } else if (sekme === "antlasmalar") {
     (window.ANTLASMALAR || []).forEach(function (a) {
-      satir(kesinlikliYazi(a.t, gunIdx(a.t)), a.ad + " — " + a.taraf, a.ozet,
+      satir(kesinlikliYazi(a.t, gunIdx(a.t)), a.ad + " — " + karsiTaraf(a), a.ozet,
             function () { dizinPencere.classList.add("gizli"); tarihAyarla(gunIdx(a.t)); });
     });
   } else if (sekme === "sehirler") {
@@ -1015,14 +1080,14 @@ function obGoster(o) {
   })[0];
   if (sv) {
     var seri = (window.SERILER || []).filter(function (x) { return x.id === sv.seri; })[0];
-    kutu("Muharebe", sv.ad + " · karşı taraf: " + sv.taraf + " · sonuç: " +
+    kutu("Muharebe", sv.ad + " · karşı taraf: " + karsiTaraf(sv) + " · sonuç: " +
          (sv.sonuc === "zafer" ? "Osmanlı zaferi" : sv.sonuc === "yenilgi" ? "Osmanlı yenilgisi" : "belirsiz") +
          (seri ? " · dizi: " + seri.ad : ""));
   }
   var an = (window.ANTLASMALAR || []).filter(function (a) {
     return Math.abs(gunIdx(a.t) - o.gi) < 60 && o.b.indexOf(a.ad.split(" (")[0]) >= 0;
   })[0];
-  if (an) kutu("Antlaşma hükmü", an.taraf + " ile · " + an.ozet);
+  if (an) kutu("Antlaşma hükmü", karsiTaraf(an) + " ile · " + an.ozet);
   if (o.kisiler) {
     var yazilan = {};
     o.kisiler.split(",").slice(0, 4).forEach(function (ad) {

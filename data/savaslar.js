@@ -70,6 +70,16 @@ window.SAVASLAR = [
 { t:"1538-09-28", ad:"Preveze (deniz)",           taraf_metin:"Haçlı donanması",   sonuc:"zafer",   seri:"venedik", lat:38.95, lon:20.75, taraf:["osmanli","venedik","ispanya","papalik"], galip:"osmanli" },
 { t:"1565-05-18", ad:"Malta kuşatması",           taraf_metin:"Saint Jean",        sonuc:"yenilgi", seri:"venedik", lat:35.90, lon:14.42, taraf:["osmanli","rodos-sovalyeleri"], galip:"rodos-sovalyeleri" },
 { t:"1571-10-07", ad:"İnebahtı (deniz)",          taraf_metin:"Kutsal İttifak",    sonuc:"yenilgi", seri:"venedik", lat:38.25, lon:21.30, taraf:["osmanli","ispanya","venedik","papalik","cenova","rodos-sovalyeleri"], galip:"ispanya" },
+// hatalar 4.docx madde 3 — kullanıcı: "1578 fasın osmanlı himayesine girmesi ile
+// ilgili savaşın yeri ve bir tane ok gösterebiliriz". Vâdisseyl (Kasrülkebir)
+// Savaşı kronolojide vardı (olaylar_ek5, 1578-08-04) ama haritada ne ⚔ işareti
+// ne ok vardı — çünkü savaş SAVASLAR tablosunda kayıtlı değildi. Muharebe yeri
+// Kasrülkebir'in kuzeydoğusunda, Vâdilmehâzin (Loukkos-Mehâzin kavşağı).
+// Osmanlı doğrudan taraf değildi; galip, Osmanlı desteğiyle tahta oturan Sa'dî
+// hükümdarı Abdülmelik'tir → taraf listesi fas/portekiz, galip fas.
+// seri alanı YOK: hiçbir mevcut seri (Osmanlı-Safevî, Osmanlı-Venedik…) bu
+// muharebeyi kapsamıyor; serisiz kayıt tabloda zaten var (6 kayıt).
+{ t:"1578-08-04", ad:"Vâdisseyl (Kasrülkebir)",   taraf_metin:"Portekiz — Üç Krallar Savaşı", sonuc:"zafer", lat:35.08, lon:-5.83, taraf:["fas","portekiz"], galip:"fas" },
 { t:"1578-08-09", ad:"Çıldır",                    taraf_metin:"Safevî",            sonuc:"zafer",   seri:"safevi",  lat:41.13, lon:43.13, taraf:["osmanli","safevi"], galip:"osmanli" },
 { t:"1583-05-09", ad:"Meşaleler Savaşı",          taraf_metin:"Safevî",            sonuc:"zafer",   seri:"safevi",  lat:41.05, lon:49.20, taraf:["osmanli","safevi"], galip:"osmanli" },
 { t:"1596-10-26", ad:"Haçova",                    taraf_metin:"Habsburg",          sonuc:"zafer",   seri:"habsburg",lat:47.82, lon:20.72, taraf:["osmanli","habsburg"], galip:"osmanli" },
@@ -300,6 +310,21 @@ window.ANTLASMALAR.sort((a,b)=> a.t < b.t ? -1 : 1);
 // Deniz harekâtlarında ara noktalar karaya değmez; donanma Mora'yı dolanır,
 // Ege'de ada ada ilerler. Ok, muharebenin gerçekleştiği noktada biter.
 window.SEFERLER = [
+// hatalar 2.docx madde 2 — kullanıcı: "Osmanlı memlük savaşı maddesinde oklar
+// ile haritada memlük ve osmanlı ordularının aksiyonunu gösterebiliriz".
+// Altı yıllık savaşın (1485-1491) haritada hiçbir izi yoktu: Çukurova defalarca
+// el değiştirdi ama ne toprak kırılması ne ok vardı, çünkü Adana ve Tarsus
+// kayıtları Ramazanoğulları'nın tâbiiyet zincirini taşıyor ve savaş boyunca
+// nihaî sahip değişmedi. İki ok konuluyor — biri her tarafın hamlesi.
+// Osmanlı kolu Anadolu Sağ Kol'u izler (Konya-Ereğli-Gülek Boğazı-Tarsus-Adana);
+// Memlük kolu Halep'ten Amanos geçitleriyle (Antakya-Payas-Misis) Çukurova'ya iner.
+{ ad:"Osmanlı'nın Çukurova seferi (1485) — Adana ve Tarsus'un alınışı",
+  f:"1485-01-01", t:"1485-11-01",
+  yol:[[32.49,37.87],[34.05,37.51],[34.79,37.28],[34.89,36.92],[35.32,37.00]] },
+{ ad:"Memlük ordusunun karşı taarruzu (1488-1490) — Ağaçayırı ve Kayseri kuşatması",
+  taraf:"dusman", renk:"#0d7d8a",
+  f:"1488-08-15", t:"1490-06-01",
+  yol:[[37.16,36.20],[36.16,36.20],[36.25,36.75],[35.62,36.95],[35.32,37.00],[34.79,37.28],[35.48,38.73]] },
 { ad:"Turahan Bey'in Mora seferi (1423) — Hexamilion'un yıkılışı",
   f:"1423-05-01", t:"1423-06-30",
   yol:[[22.42,39.64],[22.88,38.44],[23.05,38.02],[22.93,37.94],[22.38,37.51]] },
@@ -373,6 +398,17 @@ window.SEFERLER = [
        [18.69,45.55],[17.80,46.05]] },
 { ad:"Kıbrıs harekâtı (1570)",      f:"1570-05-01", t:"1571-09-01",
   yol:[[28.23,36.45],[30.15,36.30],[32.00,36.54],[33.63,34.92],[33.36,35.17],[33.94,35.12]] },
+// hatalar 4.docx madde 3'ün ok ayağı — iki ok, biri her tarafın hamlesi
+// (Memlûk seferindeki kalıbın aynısı). Portekiz kolu "dusman" rengiyle çizilir.
+// Sebastian'ın donanması 24 Haziran 1578'de Lizbon'dan kalktı, Cebelitarık'ı
+// geçip Tanca'ya, oradan Arzila'ya çıktı ve Luks vadisini takip ederek
+// Kasrülkebir'e yürüdü. Abdülmelik ise Merakeş'ten kuzeye, Selâ-Ribat üzerinden
+// aynı noktaya ilerledi; iki ordu 4 Ağustos 1578'de Vâdilmehâzin'de karşılaştı.
+{ ad:"Abdülmelik'in Kasrülkebir yürüyüşü (1578)",   f:"1578-06-24", t:"1578-08-04",
+  yol:[[-7.98,31.63],[-6.84,33.97],[-6.60,34.26],[-6.14,34.76],[-5.83,35.08]] },
+{ ad:"Sebastian'ın Fas seferi (1578) — Portekiz çıkarması", taraf:"dusman", renk:"#0d7d8a",
+  f:"1578-06-24", t:"1578-08-04",
+  yol:[[-9.14,38.71],[-6.85,37.10],[-5.61,36.01],[-5.80,35.79],[-6.03,35.47],[-5.83,35.08]] },
 { ad:"Özdemiroğlu'nun Tebriz seferi (1585)",        f:"1585-06-01", t:"1585-11-01",
   yol:[[41.27,39.90],[42.67,39.62],[44.95,38.55],[46.29,38.08]] },
 { ad:"Eğri-Haçova seferi (1596)",   f:"1596-06-20", t:"1596-11-26",

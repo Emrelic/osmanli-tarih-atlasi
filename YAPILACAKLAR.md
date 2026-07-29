@@ -10,10 +10,24 @@ durum tablosunu güncelle.
 
 ## Şimdi
 
-- [ ] **Görsel doğrulama turu** — bugüne kadarki bütün denetimler veri düzeyinde
-      yapıldı. Haritanın gerçekten nasıl göründüğüne hiç bakılmadı: Macaristan'ın
-      şekli, Fetret devri renkleri, ada gövdeleri, son turda eklenen 13 devlet
-      renginin birbirine karışıp karışmadığı. *Kullanıcı + Oturum 0*
+- [x] **Görsel doğrulama turu** — kullanıcı yürütüyor: ekran görüntülerini
+      "hatalar N.docx" dosyalarına madde madde yazıyor, oturum okuyup düzeltiyor.
+      Üç tur yapıldı. Bu yol veri denetiminin göremediği bütün bir hata sınıfını
+      açığa çıkardı: hayalet devlet etiketleri (1453'te bitmiş Bizans 1537'ye,
+      1517'de bitmiş Memlük 1557'ye kadar sürüyordu), 235 yıl boyunca yanlış
+      kimlikle boyanan Safevî coğrafyası, tam kırmızı boyanan voyvodalıklar,
+      yüz yıl ekranda kalan kale simgeleri. **Denetim betiği bunların HİÇBİRİNİ
+      göremiyordu** çünkü üç değişmez de "sahip var mı / maddesi var mı / merkezle
+      uyuyor mu" diye soruyor, "bu devlet o tarihte YAŞIYOR MU" diye sormuyor.
+
+- [ ] **Dördüncü değişmez: hayalet devlet denetimi** — bir yerleşim, ömrü bitmiş
+      bir devlete ait olamaz. `data/devletler.js` her devletin `f`/`t` aralığını
+      zaten tutuyor; `arac/denetle.py` yerleşim dönemlerini bu aralıkla
+      karşılaştırmıyor. İki hayalet etiket ailesi (Patmos → `bizans`, ve
+      İbrim-Sevâkin-Masavva-Dahlak → `memluk`) elle bulundu; araç bulmalıydı.
+      ⚠️ Tolerans gerekir: Mekke'nin memlûk dönemi 1517-07-06'da bitiyor ama
+      devlet 04-13'te yıkıldı — bölgesel teslim gecikmeleri meşrudur. Eşik
+      birkaç ay olmalı, sıfır değil.
 
 - [ ] **Devletler dizininin dünya kapsamına çıkarılması** — Eksen 3, aşama D-1 ve
       D-2. Görev tanımı hazır: `oturumlar/OTURUM-3-DEVLETLER.md`. *Oturum 3*
@@ -28,6 +42,19 @@ Gerekçeler: `MIMARI.md` §3.
 - [ ] **Çok dosyalı girdi** — motor `data/yerlesimler_*.js` desenindeki bütün
       dosyaları okusun. Paralel oturumların yerleşim ekleyebilmesinin ön koşulu.
       *(MIMARI §3.3)*
+
+- [ ] **Motor `kur:` ve `bit:` alanlarını okumuyor** — henüz kurulmamış (ya da
+      artık var olmayan) bir yerleşim de petek alıyor ve komşularından toprak
+      koparıyor. Kullanıcı bunu Katîf ekran görüntüsünde yakaladı (hatalar
+      3.docx madde 8): Basra-Lahsa kıyı zinciri Osmanlı ama arada bir delik var;
+      delik **Kuveyt**, çünkü şehir 1716'da kuruluyor ve öncesinde sahibi yok.
+      Kayıtta `kur:"1716-01-01"` yazılı — `arac/denetle.py` ve şehir dizini bunu
+      okuyor, **`arac/uret_petek.py` okumuyor.**
+      Doğru çözüm: kurulmamış peteği o dönem için en yakın SAHİPLİ komşuya
+      bağışlamak — ADA KURALI'nın kullandığı makinenin aynısı. Aynı sorun `kur:`
+      taşıyan bütün noktalarda var ve Kuzey-Doğu Avrupa partisiyle (Petersburg
+      1703, Odessa 1794, Harkov 1654, Göteborg 1621) belirgin şekilde büyüyecek —
+      **o merge'den ÖNCE yapılmalı.**
 
 - [ ] **Zaman dilimli Voronoi + `bit:` alanı** — bugün diyagram bütün tarih için bir
       kez hesaplanıyor; 1869'da kurulan şehir 1300'ün haritasını değiştiriyor. `kur:`

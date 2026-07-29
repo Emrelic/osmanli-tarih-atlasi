@@ -13,6 +13,8 @@
 // ============================================================================
 window.OLAYLAR_EK5 = [
 
+{ t:"1671-01-01", k:"siyaset", etiket:["idari"], b:"Cezayir'de dayı idaresinin başlaması", gun:"1671", yer:"Cezayir", kisiler:"Hacı Mehmed Dayı, IV. Mehmed", d:"Cezayir ocağı ile taife-i reîs (korsan kaptanları) son ağayı azledip Hacı Mehmed'i kayd-ı hayat şartıyla dayı seçti. Bu tarihten sonra Cezayir'i İstanbul'un atadığı beylerbeyi değil, yerel ocağın kendi içinden seçtiği dayı yönetti; Osmanlı bağı hutbede padişahın adının okunması, sancak ve sefer yükümlülüğüyle sınırlı kaldı. Cezayir böylece eyaletten OCAKLIĞA dönüştü — aynı dönüşümü Tunus 1705'te Hüseynîler, Trablusgarp 1711'de Karamanlılar ile yaşadı.", kaynak:"cezayir" },
+
 // ---------- 00) KURULUŞ ÖNCESİ VE OSMAN BEY DEVRİ (1281-1324) ----------
 // Atlasın başlangıcı 1299'dan 1281'e çekildi. TDV'ye göre Osman Bey babasından
 // fethedilmiş tek bir kale bile devralmadı; elinde yalnız Söğüt kışlağı ile

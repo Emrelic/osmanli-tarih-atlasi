@@ -287,11 +287,33 @@ body {
 }
 #detay-git:hover { filter: brightness(1.15); }
 
-/* lejant */
-.lejant {
+/* lejant — gizle/aç düğmesi hatalar 3.docx madde 2 */
+.lejant-dugme {
   position: absolute;
   top: 42px;
   right: 8px;
+  z-index: 6;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  cursor: pointer;
+  background: rgba(247, 241, 227, 0.95);
+  border: 1px solid var(--altin);
+  border-radius: 6px;
+  color: #5a3a24;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+}
+.lejant-dugme:hover { filter: brightness(1.08); }
+
+/* lejant */
+.lejant {
+  position: absolute;
+  /* düğme sağ üstte durduğu için lejant onun altından başlar */
+  top: 72px;
+  right: 8px;
+  transition: opacity 0.15s ease;
   z-index: 5;
   background: rgba(247, 241, 227, 0.92);
   border: 1px solid var(--altin);
@@ -303,6 +325,7 @@ body {
   gap: 4px;
   pointer-events: none;
 }
+.lejant.kapali { display: none; }
 .lejant i {
   display: inline-block;
   width: 14px;
