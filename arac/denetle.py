@@ -41,7 +41,8 @@ BEKLENEN_ACIK = 0
 # boyunca tek merkeze bağlı. Birgi/Tire/Ayasuluk m:"İzmir" — ama İzmir 1344-1402
 # arası St. Jean Şövalyeleri'nde, Birgi Osmanlı'da. Hangi merkez seçilirse
 # seçilsin bir dönemde çelişiyor. Gerçek çözüm zamanlı kd: alanı (VERI-YAPISI).
-BEKLENEN_CELISKI_UST_SINIR = 318
+# 318 -> 325: Likya kıyısı (3) ve Batı Karadeniz (7) noktaları eklendi.
+BEKLENEN_CELISKI_UST_SINIR = 325
 
 
 def oku_pencere(yol, degisken):

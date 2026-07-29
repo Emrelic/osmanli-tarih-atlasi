@@ -22,6 +22,8 @@
 // ============================================================================
 window.OLAYLAR_EK6 = [
 
+{ t:"1325-01-01", k:"fetih", etiket:["toprak-kazanc"], b:"Konuralp'in Bolu yöresini fethi — Mudurnu, Konurapa ve Bolu", gun:"1325", yer:"Bolu, Konurapa (Düzce), Mudurnu", kisiler:"Orhan Gazi, Konuralp", d:"Orhan Gazi'nin kumandanlarından Konuralp, Sakarya'nın doğusundaki dağlık bölgeye yönelerek Mudurnu, Konurapa ve Bolu yöresini Osmanlı idaresine bağladı; Düzce ovasındaki kasaba onun adıyla anıldı. TDV'nin Bolu maddesi fethin kesin tarihini vermez, Âşıkpaşazâde'nin bu rivayetini aktarır. Bölge o sırada Candaroğulları ile Bizans arasında el değiştiren bir uç sahasıydı; fetih, Osmanlı'yı ilk kez Karadeniz'in batı kıyısına yaklaştırdı. Ankara Savaşı'ndan sonra yöre yeniden Candaroğulları'na geçecek, ancak Fâtih devrinde kesin olarak geri alınacaktı.", kaynak:"bolu" },
+
 { t:"1334-01-01", k:"fetih", etiket:["toprak-kazanc"], b:"Marmara'nın güneyindeki Bizans kasabalarının alınışı — Mihaliç, Kirmasti, Gölyazı", gun:"1334", yer:"Mihaliç (Karacabey), Kirmasti (M. Kemalpaşa), Gölyazı (Apollonia)", kisiler:"Orhan Gazi", d:"İznik ve İzmit alındıktan sonra Bursa ovasının batısında Bizans'ın elinde kalan kasabalar birer birer Osmanlı idaresine girdi. Uluabat gölü çevresindeki Gölyazı, Susurluk çayı boyundaki Kirmasti ve Mihaliç, Marmara'nın güney kıyısını Karesi topraklarına bağlayan koridoru tamamladı. Bu kasabalar uzun süre kuşatma görmeden, çevrelerinin kesilmesiyle teslim oldu; bölgedeki Bizans varlığı böylece Gemlik körfezine sıkıştı.", kaynak:"orhan" },
 
 // ---------- A) BEYLİKLER VE ERKEN DÖNEM ----------

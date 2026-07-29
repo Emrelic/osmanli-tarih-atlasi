@@ -486,9 +486,19 @@ var seferler = (window.SEFERLER || []).map(function (s) {
   ic.className = "sefer-ok";
   ic.textContent = "➤";
   el.appendChild(ic);
+  // ⚠️ Ok'un ADI yoktu. Bir sefer birkaç kronoloji maddesi boyunca sürdüğü için
+  // (Katalan Kumpanyası 1303-09 → 1305-06, arada Sakarya seferi maddesi var)
+  // kullanıcı okun neye ait olduğunu anlayamıyordu. Ad ok başına yazılıyor;
+  // dönüş ok'a uygulandığı için yazı ayrı bir işaretle, dönüşsüz konuyor.
   return { fi: gunIdx(s.f), ti: gunIdx(s.t) + 45, ad: s.ad, yol: s.yol, ekli: false,
            mk: new maplibregl.Marker({ element: el, anchor: "center", rotation: aci - 90 })
-                 .setLngLat(son) };
+                 .setLngLat(son),
+           ad_mk: (function () {
+             var a = document.createElement("div");
+             a.className = "sefer-ad";
+             a.textContent = s.ad;
+             return new maplibregl.Marker({ element: a, anchor: "top" }).setLngLat(son);
+           })() };
 });
 
 function seferGuncelle(t) {
@@ -499,8 +509,8 @@ function seferGuncelle(t) {
     if (aktif) {
       cizgiler.push({ type: "Feature", properties: {},
                       geometry: { type: "LineString", coordinates: m.yol } });
-      if (!m.ekli) { m.mk.addTo(harita); m.ekli = true; }
-    } else if (m.ekli) { m.mk.remove(); m.ekli = false; }
+      if (!m.ekli) { m.mk.addTo(harita); m.ad_mk.addTo(harita); m.ekli = true; }
+    } else if (m.ekli) { m.mk.remove(); m.ad_mk.remove(); m.ekli = false; }
   });
   harita.getSource("seferler").setData({ type: "FeatureCollection", features: cizgiler });
 }
