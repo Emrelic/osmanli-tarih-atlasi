@@ -463,7 +463,12 @@ def mp_koord(g):
     if isinstance(g, Polygon): g = MultiPolygon([g])
     out = []
     for p in g.geoms:
-        if p.area < 0.008: continue
+        # ⚠️ Eşik 0.008'di (~79 km²) ve GERÇEK ADALARI atıyordu: Patmos 34 km²,
+        # Herke 28, Folegandros 32, Sömbeki 58, Kaşot 66… Emilmeyi önlemek için
+        # eklenen ada noktalarının peteği üretiliyor ama çıktıya yazılmıyordu:
+        # veri doğru, harita boş. Filtrenin amacı buffer(0)/intersection'dan
+        # kalan sayısal kırıntıları atmak; onlar 1e-5 mertebesindedir.
+        if p.area < 0.0002: continue      # ~2 km²
         halkalar = []
         for ring in [p.exterior] + list(p.interiors):
             cs = [[round(x,3), round(y,3)] for x,y in ring.coords]
