@@ -693,3 +693,32 @@ body {
   white-space: nowrap;
   pointer-events: none;
 }
+
+
+/* Antlaşma devir lejantı — hatalar 8.docx madde 1.
+   Taralı alan tek başına anlamsız: hangi renk hangi ülke, yazmak şart. */
+.devir-lejant {
+  position: absolute;
+  left: 8px;
+  bottom: 34px;
+  z-index: 6;
+  max-width: 260px;
+  background: rgba(247, 241, 227, 0.94);
+  border: 1px solid var(--altin);
+  border-radius: 6px;
+  padding: 6px 9px;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  pointer-events: none;
+}
+.devir-lejant b { font-size: 11px; letter-spacing: 0.3px; }
+.devir-lejant i {
+  display: inline-block;
+  width: 16px;
+  height: 11px;
+  margin-right: 5px;
+  border-radius: 2px;
+  vertical-align: -1px;
+}

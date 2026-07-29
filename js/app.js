@@ -352,6 +352,22 @@ harita.on("load", function () {
     paint: { "line-color": ["coalesce", ["get", "renk"], "#2b1006"],
              "line-width": 2.6, "line-dasharray": [1.5, 1.5] } });
 
+  // ⚠️ GENEL KURAL (kullanıcı, hatalar 8.docx madde 1): "her ülkeye verilen
+  // toprakları kırmızı ve diğer ülkenin renginde olacak şekilde ... taralı bir
+  // şekilde ... toplam kaybı gösterecek şekilde ... antlaşmalarda bu yöntemi
+  // uygulayalım bunu da genel kural yapalım."
+  // Veri arac/uret_devirler.py'de üretiliyor; ölçüt (Osmanlı gövdesi @ savaş
+  // başı) ∩ (alıcının gövdesi @ antlaşma). Tek günün farkı yetmiyordu çünkü
+  // toprak antlaşma gününde değil savaş boyunca gidiyor: Karlofça'da Budin
+  // 1686'da, Eğri 1687'de, Varad 1692'de düşmüştü.
+  // Tarama deseni çalışma anında canvas'ta çiziliyor — dış dosya yok.
+  devirDesenleriKur();
+  harita.addSource("devir", { type: "geojson", data: bosVeri() });
+  harita.addLayer({ id: "devir-dolgu", type: "fill", source: "devir",
+    paint: { "fill-pattern": ["get", "desen"], "fill-opacity": 0.85 } });
+  harita.addLayer({ id: "devir-cizgi", type: "line", source: "devir",
+    paint: { "line-color": ["get", "renk"], "line-width": 1.6 } });
+
   var lejant = document.createElement("div");
   lejant.className = "lejant";
   lejant.innerHTML =
@@ -584,6 +600,82 @@ function savasGuncelle(t) {
     if (goster && !m.ekli) { m.mk.addTo(harita); m.ekli = true; }
     else if (!goster && m.ekli) { m.mk.remove(); m.ekli = false; }
   });
+}
+
+// ---------- Antlaşma devirleri: taralı alanlar ----------
+// Kullanıcı kuralı: kaybedilen toprak, OSMANLI KIRMIZISI ile ALICININ RENGİ
+// çapraz taralı gösterilir; böylece "burası kaybedildi" ile "kim aldı" tek
+// bakışta okunur. Desen 8×8 piksellik bir karo; MapLibre onu döşüyor.
+var DEVIRLER = window.DEVIRLER || [];
+var OSMANLI_KIRMIZI = [142, 11, 34];     // #8e0b22
+
+function renkAyir(hex) {
+  var h = String(hex).replace("#", "");
+  if (h.length === 3) h = h[0] + h[0] + h[1] + h[1] + h[2] + h[2];
+  var n = parseInt(h, 16);
+  return [(n >> 16) & 255, (n >> 8) & 255, n & 255];
+}
+
+function devirDesenleriKur() {
+  var K = 8;                                    // karo kenarı
+  DEVIRLER.forEach(function (a) {
+    a.alicilar.forEach(function (al) {
+      var ad = "devir-" + al.id;
+      if (harita.hasImage && harita.hasImage(ad)) return;
+      var c = renkAyir(al.renk);
+      var veri = new Uint8Array(K * K * 4);
+      for (var y = 0; y < K; y++) {
+        for (var x = 0; x < K; x++) {
+          // çapraz şerit: (x+y) mod 8 < 4 → Osmanlı kırmızısı, değilse alıcı
+          var osm = ((x + y) % K) < K / 2;
+          var r = osm ? OSMANLI_KIRMIZI : c;
+          var i = (y * K + x) * 4;
+          veri[i] = r[0]; veri[i + 1] = r[1]; veri[i + 2] = r[2]; veri[i + 3] = 255;
+        }
+      }
+      harita.addImage(ad, { width: K, height: K, data: veri });
+    });
+  });
+}
+
+// Devir katmanı yalnız antlaşma maddesinin penceresinde görünür — savaş
+// işaretleriyle aynı kural (bir sonraki kronoloji maddesine kadar, taban 60
+// tavan 365 gün). Aksi halde tarama haritayı kalıcı olarak kirletirdi.
+function devirGuncelle(t) {
+  if (!haritaHazir || !DEVIRLER.length) return;
+  var fs = [];
+  for (var i = 0; i < DEVIRLER.length; i++) {
+    var a = DEVIRLER[i];
+    if (a.gi === undefined) a.gi = gunIdx(a.t);
+    if (a.sure === undefined) a.sure = sonrakiOlayaKadar(a.gi);
+    if (t < a.gi || t >= a.gi + a.sure) continue;
+    a.alicilar.forEach(function (al) {
+      fs.push({ type: "Feature",
+                properties: { desen: "devir-" + al.id, renk: al.renk, alici: al.ad },
+                geometry: { type: "MultiPolygon", coordinates: al.parca } });
+    });
+  }
+  harita.getSource("devir").setData({ type: "FeatureCollection", features: fs });
+  devirLejanti(fs);
+}
+
+// Taralı alan tek başına anlamsız: hangi renk hangi ülke, yazmak şart.
+function devirLejanti(fs) {
+  var el = document.getElementById("devir-lejant");
+  if (!el) {
+    el = document.createElement("div");
+    el.id = "devir-lejant";
+    el.className = "devir-lejant";
+    document.getElementById("harita").appendChild(el);
+  }
+  if (!fs.length) { el.style.display = "none"; return; }
+  el.style.display = "";
+  el.innerHTML = "<b>Antlaşmayla devredilen</b>" + fs.map(function (f) {
+    return '<span><i style="background:linear-gradient(45deg,#8e0b22 0 25%,' +
+           f.properties.renk + ' 25% 50%,#8e0b22 50% 75%,' +
+           f.properties.renk + ' 75% 100%);background-size:8px 8px"></i> ' +
+           f.properties.alici + "</span>";
+  }).join("");
 }
 
 var seferler = (window.SEFERLER || []).map(function (s) {
@@ -943,6 +1035,7 @@ function guncelle() {
   sehirGuncelle(suanki);
   savasGuncelle(suanki);
   seferGuncelle(suanki);
+  devirGuncelle(suanki);
   padisahGuncelle(suanki);
   olaylarGuncelle(suanki);
 }
