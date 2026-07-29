@@ -31,14 +31,14 @@ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(KOK, "data")
 
 # Bugün doğru kabul edilen sayılar — CLAUDE.md §3 ile aynı. Sapma varsa uyar.
-BEKLENEN_YERLESIM = 738
+BEKLENEN_YERLESIM = 740
 # 29 -> 32: Oturum 4'ün Necid noktaları (Buraydâ, Uneyze, Şakrâ) 1744
 # öncesinde kasten sahipsiz — orada devlet yoktu, Riyad ve Dir'iye ile
 # aynı desen (MIMARI.md §6: 'devletsiz' ile 'veri yok' ayrımı).
 # 32 -> 35: Oturum 11 in col/plato dolgu noktalari (Uzboy, Ustyurt bati ve
 # dogu) kasten sahipsiz — Karakum ve Rub ul Hali ile ayni desen.
 BEKLENEN_SAHIPSIZ = 35
-BEKLENEN_KIRILMA = 426
+BEKLENEN_KIRILMA = 428
 BEKLENEN_ACIK = 0
 # MIMARI.md §3.4 — bilinen borç, tavan bu. 311'den 318'e çıkarıldı: beylik
 # düzeltmesiyle 19 yerleşim eklendi (567 -> 586) ve 11'i bu borcu tetikliyor.
@@ -49,7 +49,8 @@ BEKLENEN_ACIK = 0
 # 318 -> 325: Likya kıyısı (3) ve Batı Karadeniz (7) noktaları eklendi.
 # 325 -> 381: Oturum 4'ün 126 yerleşimi eklendi; m alanının zamansızlık
 # borcu nokta sayısıyla doğru orantılı büyüyor. Gerçek çözüm zamanlı kd:.
-BEKLENEN_CELISKI_UST_SINIR = 381
+# 381 -> 383: Kanina ve Oreoi eklendi.
+BEKLENEN_CELISKI_UST_SINIR = 383
 
 
 def oku_pencere(yol, degisken):

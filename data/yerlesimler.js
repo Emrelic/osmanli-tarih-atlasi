@@ -1509,5 +1509,13 @@ window.YERLESIMLER = [
      {f:"1736-03-08", t:"1785-01-01", d:"iran"},
      {f:"1785-01-01", t:"1860-01-01", d:"buhara"},
      {f:"1860-01-01", t:"1884-01-01", d:"turkmen"},
-     {f:"1884-01-01", t:"1923-10-29", d:"rusya"}] }
+     {f:"1884-01-01", t:"1923-10-29", d:"rusya"}] },
+
+// ---- hatalar 1.docx: madde 1 (Kanina eksikti) ve madde 9 (Eğriboz'un
+// kuzeyinde nokta yoktu, en yakını denizin ötesindeki İskiathos'tu) ----
+{ ad:"Kanina", tur:"kale", lat:40.421, lon:19.507, g:0, k:4, m:"Avlonya",
+    s:[{f:"1281-01-01",t:"1417-01-01",d:"napoli"},{f:"1912-11-28",t:"1923-10-29",d:"arnavutluk"}],
+    d:[{f:"1417-01-01",t:"1912-11-28",y:"kusatma"}] },
+{ ad:"Oreoi (İstiaia)", tur:"kale", lat:38.951, lon:23.093, g:0, k:4, m:"Eğriboz",
+    s:[{f:"1281-01-01",t:"1470-07-12",d:"venedik"},{f:"1829-05-01",t:"1923-10-29",d:"yunanistan"}], d:[{f:"1470-07-12",t:"1829-05-01"}] },
 ];

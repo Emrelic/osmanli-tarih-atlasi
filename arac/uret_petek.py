@@ -409,6 +409,46 @@ print(f"  örtü geçerliliği: sadeleştirme öncesi {_n0}, sonrası {_n1} bozu
 # Kıyı kesimi EN SON: bütün gövdelerin deniz sınırı doğrudan KARA maskesinden
 # gelir; kesimden sonra hiçbir sadeleştirme/yumuşatma yapılmaz.
 PETEK_D = [poligonal(g.intersection(KARA)) for g in PETEK_TAM]
+
+# ---------------- ADA KURALI ----------------
+# Bir yerleşimin peteği KENDİ kara parçasının dışına taşamaz.
+# Voronoi noktalar üzerinden hesaplanıp hücreler sonra karaya kırpıldığı için,
+# deniz atılıyor ama hücrenin KARŞI KIYIDAKİ parçası kalıyordu: Midilli
+# Ayvalık'ı, Marmara Adası Kapıdağ'ı, İskiathos Eğriboz'un kuzeyini boyuyordu.
+# Artık kara maskesinin her bağlantılı parçası yalnız kendi içindeki
+# yerleşimler arasında paylaşılıyor.
+print("Ada kuralı: petekler kendi kara parçalarına hapsediliyor...")
+_komp = list(KARA.geoms) if KARA.geom_type == "MultiPolygon" else [KARA]
+_ptl = [Point(y["lon"], y["lat"]) for y in YERLER]
+_pagac = STRtree(_ptl)
+_tasan, _yalitilan = 0, 0
+for _k in _komp:
+    if _k.is_empty or _k.area < 1e-7:
+        continue
+    _ic = [int(i) for i in _pagac.query(_k) if _k.intersects(_ptl[int(i)])]
+    if not _ic:
+        continue                       # noktasız kara parçası: eski davranış
+    _icset = set(_ic)
+    # dışarıdaki yerleşimlerin bu parçadaki payını kes
+    for _j in [int(i) for i in range(len(PETEK_D)) if i not in _icset]:
+        if PETEK_D[_j].is_empty or not PETEK_D[_j].intersects(_k):
+            continue
+        _yeni = poligonal(PETEK_D[_j].difference(_k))
+        if not _yeni.equals(PETEK_D[_j]):
+            PETEK_D[_j] = _yeni
+            _tasan += 1
+    # boşta kalan payı, parçanın İÇİNDEKİ en yakın yerleşime ver
+    _dolu = unary_union([PETEK_D[i] for i in _ic]) if _ic else None
+    _bos = poligonal(_k.difference(_dolu)) if _dolu is not None else _k
+    if not _bos.is_empty and _bos.area > 1e-9:
+        for _pp in (_bos.geoms if _bos.geom_type == "MultiPolygon" else [_bos]):
+            if _pp.is_empty:
+                continue
+            _en = min(_ic, key=lambda i: _ptl[i].distance(_pp))
+            PETEK_D[_en] = poligonal(unary_union([PETEK_D[_en], _pp]))
+            _yalitilan += 1
+print(f"  {_tasan} taşma kesildi, {_yalitilan} boşta kalan parça içerideki yerleşime verildi")
+
 _nk = _bozuk_dok(PETEK_D, "kıyı")
 print(f"  kıyı kesimi sonrası örtü: {_nk} bozuk kenar " + ("✓" if _nk == 0 else "✗"))
 

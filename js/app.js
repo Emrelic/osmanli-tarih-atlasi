@@ -288,9 +288,9 @@ harita.on("load", function () {
   // Yabancı devletler: Osmanlı katmanlarının ALTINA çizilir
   harita.addSource("devlet", { type: "geojson", data: bosVeri() });
   harita.addLayer({ id: "devlet-dolgu", type: "fill", source: "devlet",
-    paint: { "fill-color": ["get", "renk"], "fill-opacity": 0.30 } });
+    paint: { "fill-color": ["get", "renk"], "fill-opacity": 0.44 } });
   harita.addLayer({ id: "devlet-cizgi", type: "line", source: "devlet",
-    paint: { "line-color": ["get", "renk"], "line-width": 1.1, "line-opacity": 0.65 } });
+    paint: { "line-color": ["get", "renk"], "line-width": 1.5, "line-opacity": 0.85 } });
 
   harita.addSource("vassal", { type: "geojson", data: bosVeri() });
   harita.addLayer({ id: "vassal-dolgu", type: "fill", source: "vassal",

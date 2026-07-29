@@ -300,6 +300,12 @@ window.ANTLASMALAR.sort((a,b)=> a.t < b.t ? -1 : 1);
 // Deniz harekâtlarında ara noktalar karaya değmez; donanma Mora'yı dolanır,
 // Ege'de ada ada ilerler. Ok, muharebenin gerçekleştiği noktada biter.
 window.SEFERLER = [
+{ ad:"Turahan Bey'in Mora seferi (1423) — Hexamilion'un yıkılışı",
+  f:"1423-05-01", t:"1423-06-30",
+  yol:[[22.42,39.64],[22.88,38.44],[23.05,38.02],[22.93,37.94],[22.38,37.51]] },
+{ ad:"Varna Haçlı seferi (1444)", taraf:"dusman", renk:"#1f5fa8",
+  f:"1444-09-20", t:"1444-11-10",
+  yol:[[19.04,47.50],[20.46,44.82],[22.88,43.99],[24.90,43.71],[26.93,43.27],[27.92,43.21]] },
 { ad:"Timur'un İzmir seferi (1402)", taraf:"dusman", renk:"#8a5a00",
   f:"1402-08-01", t:"1402-12-14",
   yol:[[32.86,39.93],[29.98,39.42],[29.06,40.19],[27.37,37.95],[27.14,38.42]] },
