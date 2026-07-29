@@ -43,6 +43,13 @@ Gerekçeler: `MIMARI.md` §3.
       yüzlerce MB olur. *(MIMARI §3.2)* — `js/app.js` boyama mantığı da değişir,
       Oturum 1 ile ortak iş.
 
+- [ ] **Çağ dilimlemesi ve beş index** — tarih çizgisi değişken uzunlukta çağlara
+      bölünsün (seyrek dönemde binyıl, yoğun dönemde çeyrek yüzyıl), diğer index'ler
+      bu çağlara göre dilimlensin. Yerleşim index'i zamanlı olsun: bir yerleşim
+      sahneye çıktığı andan itibaren index'e girsin ve bölgesi o andan itibaren
+      atansın — Port Said 1600 çağının index'inde bulunmasın. *(MIMARI §6.7)*
+      → Zaman dilimli Voronoi'nin veri tarafındaki karşılığı; onunla birlikte yapılır.
+
 - [ ] **Devlet merkezli yükleme** — veri bölge × çağ parçalarına bölünsün, her devlet
       için manifest üretilsin, tarayıcı odak devletine göre yalnız gereken parçaları
       çeksin. İlgi bağları elle yazılmaz, sahiplik ayak izi + Voronoi komşuluğu +

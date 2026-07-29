@@ -263,6 +263,87 @@ geometri üzerine kurulursa kazanç küçük kalır.
 
 ---
 
+## 6.7 Beş index ve çağ dilimlemesi — verinin çalışma yapısı
+
+`YOL-HARITASI.md`'deki **yedi boyut** projenin neyi büyüteceğini söyler; burada
+anlatılan **beş index** ise verinin *nasıl* örgütleneceğini söyler. Boyutlar
+büyüme yönü, index'ler çalışma yapısıdır.
+
+| Index | İçerik | Anahtar |
+|---|---|---|
+| **1. Tarih** | Çağ omurgası — bütün diğer index'ler buna göre dilimlenir | çağ kimliği |
+| **2. Coğrafi bölge** | Bölge ağacı: kıta → bölge → alt bölge | bölge kimliği |
+| **3. Devletler** | Kim vardı, ne zaman, hangi türde | devlet kimliği |
+| **4. Olaylar** | Kronolojik olay akışı; savaş ve antlaşmalar dahil | tarih |
+| **5. Yerleşimler ve bölgeleri** | Nokta + peteği + sahibi — **zaman boyutuyla** | çağ × yerleşim |
+
+Kişiler ve devlet kronolojileri ayrı index değildir; 3 ve 4'e bağlanırlar.
+
+### Zaman ufku çağ çağ genişler
+Tarih index'i, zaman çizgisini **çağlara** böler. Bütün diğer index'ler bu çağlara
+göre dilimlenir; bir çağ tamamlandığında bir sonraki açılır. Böylece hem üretim hem
+yükleme parça parça yapılabilir.
+
+⚠️ **Ama dilim uzunluğu sabit yüzyıl olmamalı.** MÖ 12000 – MÖ 600 aralığı 114
+yüzyıldır ve neredeyse hiç veri taşımaz; 1900-2000 tek yüzyıldır ve veriden geçilmez.
+Sabit yüzyıl, bir uçta 114 boş dosya, öbür uçta tek dev dosya üretir.
+
+**Doğrusu: değişken uzunlukta çağ, yoğunluğa göre.**
+
+| Aralık | Dilim | Dilim sayısı |
+|---|---|---|
+| MÖ 12000 – MÖ 600 | binyıl | ~11 |
+| MÖ 600 – MS 1000 | 200 yıl | 8 |
+| 1000 – 1500 | yüzyıl | 5 |
+| 1500 – 1800 | yarım yüzyıl | 6 |
+| 1800 – 2026 | çeyrek yüzyıl | 9 |
+
+Bugünkü odak (1288-1923) bu bölmede **~15 çağa** düşer. Ölçüt basit: bir dilim,
+kabaca eşit miktarda veri taşımalı.
+
+### Index 5 zamanlıdır — asıl mesele burada
+**Bir yerleşim, tarih sahnesine çıktığı andan itibaren index'e girer ve bölgesi
+o andan itibaren atanır.** Öncesinde ne index'te vardır ne peteği vardır.
+
+- **İstanbul** MÖ 600'den 2026'ya kadar her çağın index'inde bulunur
+- **Port Said** 1859'da açıldı; 1600 çağının index'inde **yoktur**, dolayısıyla o
+  çağda **peteği de yoktur** ve kapladığı alan komşularına aittir
+- Terk edilen ya da yıkılan yerleşim (`bit:`) o tarihten sonra index'ten düşer
+
+Bu, `MIMARI.md` §3.1'de anlatılan **zaman dilimli Voronoi**'nin veri tarafındaki
+karşılığıdır. Bugün motor bunu yapmıyor: diyagram bütün tarih için bir kez
+hesaplandığı için Port Said'in hücresi 1300 haritasında da yer kaplıyor.
+
+```js
+// Çağ index'i — üretim çıktısı, elle yazılmaz
+{ cag:"1500-1550",
+  yerlesim:["İstanbul","Edirne","Bursa","Kahire", …],   // o çağda var olanlar
+  petek:{ "İstanbul":[[…halkalar…]], … },               // o çağa ait geometri
+  bolge:{ "İstanbul":"rumeli", "Kahire":"misir", … } }  // o çağdaki idari bağ
+```
+
+### Zincirin tamamı
+```
+Tarih index'i (çağlar)
+   └─> her çağ için: o çağda var olan yerleşimler  (index 5, kur/bit süzgeci)
+          └─> o kümeden Voronoi                     (petekler o çağa özel)
+                 └─> her peteğe o çağdaki sahip     (index 3'ten)
+                        └─> her yerleşime o çağdaki idari bağ  (index 2)
+                               └─> kırılmalara olay bağı        (index 4)
+```
+
+Bu zincir kurulduğunda `CLAUDE.md`'deki **Değişmez 3** (dört boyut çelişmez)
+kendiliğinden sağlanır: her çağın index'i kendi içinde tutarlı üretilir, çelişki
+üretim anında yakalanır.
+
+### Yükleme ile ilişkisi
+Çağ dilimlemesi, §6.5'teki devlet merkezli yüklemenin diğer yarısıdır: veri parçası
+= **çağ × bölge**. Bir devlete odaklanınca manifest, o devletin var olduğu çağların
+ve ilgi alanındaki bölgelerin kesişimini verir. Osmanlı'ya bakan biri MÖ 600 çağını
+hiç indirmez.
+
+---
+
 ## 7. Bilinen sapmalar (kabul edilmiş)
 
 - **Petek sınırı idari sınır değildir.** Nüfusun seyrek olduğu yerde bir yerleşimin

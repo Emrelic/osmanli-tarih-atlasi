@@ -26,6 +26,13 @@ fazları, kendi hızı ve kendi durma noktası vardır.
 > 8. boyut (askerî yapı, sosyal yapı, bilim-teknoloji, kültür-sanat, felsefe, din)
 > **kasten kapalıdır.** Bir oturum oraya girmeye kalkarsa kapsamı aşıyor demektir.
 
+### Boyut ≠ index
+Yedi boyut projenin **neyi büyüteceğini** söyler. Verinin **nasıl örgütleneceği**
+ayrı bir konudur: beş index — tarih, coğrafi bölge, devletler, olaylar, yerleşimler.
+Kişiler ve devlet kronolojileri ayrı index değildir; devletler ve olaylar index'lerine
+bağlanırlar. Index yapısı, çağ dilimlemesi ve zamanlı yerleşim index'i:
+`MIMARI.md` §6.7.
+
 ### Boyutlar arası bağımlılık
 
 ```
