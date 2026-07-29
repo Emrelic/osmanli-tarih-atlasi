@@ -47,6 +47,9 @@ def oku_pencere(yol, degisken):
     govde = js[js.index(anahtar) + len(anahtar):]
     govde = govde[:govde.rindex("]") + 1]
     j = re.sub(r'([{,]\s*)([A-Za-zçğıöşüÇĞİÖŞÜ_]\w*)\s*:', r'\1"\2":', govde)
+    # JS dizi/nesne sonundaki fazladan virgul gecerlidir, JSON'da degildir.
+    # olaylar_ek7.js bu yuzden ceviriciyi dusuruyordu: veri saglamdi, arac katiydi.
+    j = re.sub(r',(\s*[\]}])', r'\1', j)
     return json.loads(j)
 
 
