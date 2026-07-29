@@ -104,7 +104,10 @@ BOYALAR = {
     "cagatay":      ("Çağatay Hanlığı",        "#6a1b9a"),
     "hive":         ("Hîve Hanlığı (Harezm)",  "#00695c"),
     "buhara":       ("Buhara Hanlığı",         "#4527a0"),
-    "turkmen":      ("Türkmen boyları",        "#8d6e63"),
+    # ⚠️ Eski #8d6e63 iki sorun cikariyordu (Oturum 11 olctu): iran'in #b5885b
+    # tonuna ham DeltaE 22.7 — bindirilmis halde ~7.6, ve ikisi 1860-1881 arasi
+    # Kopet Dag boyunca DOGRUDAN sinirdas. Ayrica timurlu ile BIREBIR ayni hex'ti.
+    "turkmen":      ("Türkmen boyları",        "#00acc1"),
     "fas":        ("Fas",                    "#9e6b5b"),
     # --- Beylik öncesi Anadolu'nun sahipleri (kullanıcı tespiti: 1288 haritasında
     # beylikler yanlış; hepsi 1281'de başlıyordu, gerçek kuruluşları onlarca yıl

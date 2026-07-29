@@ -164,6 +164,10 @@ _gövde = _js[_js.index("window.YERLESIMLER = ") + len("window.YERLESIMLER = "):
 _gövde = _gövde[:_gövde.rindex("]") + 1]
 # JS nesne gösterimini JSON'a çevir: anahtarları tırnakla (dizgi içindekilere dokunma)
 _j = re.sub(r'([{,]\s*)([A-Za-zçğıöşüÇĞİÖŞÜ_]\w*)\s*:', r'\1"\2":', _gövde)
+# JS dizi/nesne sonundaki fazladan virgül geçerlidir, JSON'da değildir.
+# ⚠️ denetle.py bu toleransa sahipti, motor değildi: DENETİM TEMİZ DERKEN
+# ÜRETİM ÇÖKÜYORDU. İki araç aynı veriyi aynı katılıkla okumalı.
+_j = re.sub(r',(\s*[\]}])', r'\1', _j)
 YERLER = json.loads(_j)
 for y in YERLER:
     y.setdefault("v", [])          # tâbi/dolaylı idare dönemleri (bkz. aşağıda)
