@@ -5,13 +5,15 @@ olduğunu, nasıl çalıştığını, hangi kuralların **ihlal edilemez** oldu�
 oturumunun hangi dosyalara dokunabileceğini anlatır.
 
 **Oturuma başlarken sırayla:**
-1. Bu dosyayı baştan sona oku — özellikle §2 (motorun zayıf noktası), §3 (iki
+1. Bu dosyayı baştan sona oku — özellikle §2 (motorun zayıf noktası), §3 (üç
    değişmez), §4 (kaynak kuralı) ve §7 (dosya sahipliği).
-2. `PLAN.md` — vizyon, faz planı, kapsam genişleme sırası.
-3. `oturumlar/` altında **senin oturumuna ait görev tanımı** varsa onu oku; asıl
+2. `YOL-HARITASI.md` — dünya kapsamına geçiş planı, altı katman, faz sırası,
+   çözülmemiş dört yapısal sorun. Motora ya da veri modeline dokunacaksan **şart**.
+3. `PLAN.md` — vizyon, mimari özet, kapsam genişleme sırası.
+4. `oturumlar/` altında **senin oturumuna ait görev tanımı** varsa onu oku; asıl
    işin tarifi oradadır.
-4. `git log --oneline -10` — son ne yapılmış.
-5. §3'teki iki denetim komutunu koştur; **çalışmaya temiz bir zeminden başla.**
+5. `git log --oneline -10` — son ne yapılmış.
+6. §3'teki denetim komutlarını koştur; **çalışmaya temiz bir zeminden başla.**
    Sayılar §1.5'teki tabloyla uyuşmuyorsa bir şey bozulmuş demektir, önce onu söyle.
 
 ---
@@ -69,21 +71,31 @@ gerekir. Projenin bütün kalite kuralları (§3) bu tek cümleden türer.
 
 ## 1.6 Sıradaki işler (öncelik sırasıyla)
 
+Tam gerekçeler ve faz planı: **`YOL-HARITASI.md`**.
+
 1. **Görsel doğrulama turu.** Bugüne kadarki bütün denetimler veriye bakarak yapıldı;
    haritanın gerçekten nasıl göründüğüne (Macaristan'ın şekli, Fetret renkleri, ada
    gövdeleri, 13 yeni devlet renginin birbirine karışıp karışmadığı) hiç bakılmadı.
-2. **Devletler dizininin dünya kapsamına çıkarılması** — `oturumlar/OTURUM-3-DEVLETLER.md`.
-3. **Dizin ↔ harita kimlik eşleşmesi.** Devlet kimliği iki yerde tutuluyor ve
+2. **Dünya kapsamından ÖNCE bitmesi gereken dört motor işi** — bunlar yapılmadan
+   eklenen her yerleşim borç üretir:
+   - çok dosyalı girdi: motor `data/yerlesimler_*.js` desenini okusun (§3.3)
+   - **zaman dilimli Voronoi** + `bit:` alanı — bugün diyagram bütün tarih için bir
+     kez hesaplanıyor, yani 1869'da kurulan şehir 1300'ün haritasını değiştiriyor
+   - `k`/`m` alanlarının zamanlı hâle gelmesi (Değişmez 3)
+   - **çıktı mimarisi**: bugün 567 nokta 27 MB üretiyor; dünya ölçeğinde yüzlerce
+     MB olur. Petek geometrisi bir kez yazılıp sahiplik ayrı tabloda tutulmalı.
+3. **Devletler dizininin dünya kapsamına çıkarılması** — `oturumlar/OTURUM-3-DEVLETLER.md`.
+4. **Dizin ↔ harita kimlik eşleşmesi.** Devlet kimliği iki yerde tutuluyor ve
    ayrışmış: `data/devletler.js` (77 kayıt) ile `uret_petek.py` içindeki `BOYALAR`
    (97 kayıt). Dizinde `habsburg` / haritada `avusturya`, dizinde `cenova` / haritada
    `ceneviz` gibi. Haritada olup dizinde hiç karşılığı olmayan **53 devlet** var.
    Çözüm: `devletler.js` kayıtlarına `harita:"<BOYALAR id>"` alanı eklenecek; mevcut
    `id`'ler değiştirilmeyecek.
-4. **Dünya kapsamı için yerleşim katmanı** (Oturum 4), sonra harita penceresinin
-   kademe kademe açılması (§6).
-5. **Kronoloji yoğunlaştırma** — 1453-1923 arası ay ay detay (Oturum 7).
-6. **Sınırların Pitcher atlasıyla nokta doğrulaması.**
-7. Alan adı kararı (isteğe bağlı; ~10 dk: depo ayarları > Pages > Custom domain).
+5. **Faz B yerleşim katmanı** — Avrupa, Kuzey ve Doğu Afrika, Ortadoğu, İran,
+   Kafkasya, Doğu Avrupa (Oturum 4); sonra harita penceresinin açılması.
+6. **Kronoloji yoğunlaştırma** — 1453-1923 arası ay ay detay (Oturum 7).
+7. **Sınırların Pitcher atlasıyla nokta doğrulaması.**
+8. Alan adı kararı (isteğe bağlı; ~10 dk: depo ayarları > Pages > Custom domain).
 
 ---
 
@@ -110,7 +122,7 @@ Bütün geometri `data/yerlesimler.js`'ten **her gün için yeniden** üretilir.
 
 ---
 
-## 3. İhlal edilemez iki değişmez
+## 3. İhlal edilemez değişmezler
 
 Her veri değişikliğinden sonra ikisi de denetlenir. Denetim betikleri geçici
 dosyalardır; aşağıdaki komutlar kendi kendine yeterlidir.
@@ -142,6 +154,25 @@ node -e "const fs=require('fs'),K='data/';global.window={};for(const f of ['olay
 > Tarihsel not: bir ara "238/238 maddeli" deniyordu; o ölçüt fazla gevşekti.
 > Ölçüt ±30 güne çekilince 51 maddesiz kırılma ortaya çıktı ve hepsine madde yazıldı
 > (`olaylar_ek6.js`). **Ölçütü gevşetme.**
+
+### Değişmez 3 — Dört boyut birbiriyle çelişmez 🟡 henüz sağlanmıyor
+Verinin dört boyutu var: **tarih × yerleşim × petek × bölge**. Herhangi bir tarihte,
+herhangi bir bölgede "hangi yerleşimler var ve kime aitler" sorusunun **tek tutarlı
+cevabı** olmalıdır.
+
+Bu değişmez bugün **sağlanmıyor**, çünkü bölge boyutunun (`k`/`m` alanları) zaman
+boyutu yok: bir yerleşim bütün tarih boyunca tek bir merkeze bağlı. Ölçüldü —
+**311 yerleşim-tarih çiftinde yerleşim ile bağlı olduğu merkez farklı devletlerin
+elinde** (1300'de Söğüt Osmanlı ama `m:"Bursa"` ve Bursa Bizans gibi).
+
+Bugün görsel hataya dönüşmüyor çünkü bölge katmanı yalnız Osmanlı dönemlerinde
+çiziliyor. **Dünya kapsamında her devletin idari kademesi gerekecek ve o zaman bu
+model çöker.** Ayrıntı ve çözüm: `YOL-HARITASI.md` §6.5.
+
+Ölçüm komutu:
+```bash
+node -e "global.window={};eval(require('fs').readFileSync('data/yerlesimler.js','utf8'));const Y=window.YERLESIMLER,ix={};for(const y of Y)ix[y.ad]=y;const S=(y,g)=>{for(const p of (y.d||[]))if(p.f<=g&&g<p.t)return'OSMANLI';for(const p of (y.v||[]))if(p.f<=g&&g<p.t)return'tabi';for(const p of (y.s||[]))if(p.f<=g&&g<p.t)return p.d;return'—';};let n=0;for(const g of ['1300-06-15','1400-06-15','1500-06-15','1600-06-15','1700-06-15','1800-06-15'])for(const y of Y){if(!y.m)continue;const m=ix[y.m];if(!m)continue;const a=S(y,g),b=S(m,g);if(a!=='—'&&b!=='—'&&a!==b)n++;}console.log('merkezi ile farkli devlette olan yerlesim-tarih cifti:',n);"
+```
 
 ---
 
