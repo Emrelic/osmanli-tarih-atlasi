@@ -33,6 +33,22 @@ function gunMetniIdx(gun, varsayilan) {
   return varsayilan;
 }
 
+// ⚠️ GENEL KURAL (kullanıcı): UYDURMA KESİNLİK YASAK.
+// "Eğer tam tarih günü gününe belli değilse '1 Ağustos 1366' deme, 'Ağustos
+// 1366' yaz — 1 Ağustos demek yalan oluyor."
+// Veride gün bilinmediğinde YYYY-01-01 yazılıyor (VERI-YAPISI.md konvansiyonu);
+// arayüz bunu 1 Ocak diye göstererek olmayan bir kesinlik uyduruyordu.
+// Öncelik: elle yazılmış `gun` alanı (doğru hassasiyeti zaten taşır) →
+// ham tarihin biçiminden çıkarılan hassasiyet → son çare tam gün.
+function kesinlikliYazi(ham, gi) {
+  if (!ham) return idxYazi(gi);
+  var p = ham.split("-");
+  if (p.length < 3) return (p[1] ? AYLAR[(+p[1]) - 1] + " " : "") + p[0];
+  if (p[1] === "01" && p[2] === "01") return p[0];          // konvansiyon: yalnız yıl
+  return idxYazi(gi);
+}
+function olayTarihYazi(o) { return o.gun || kesinlikliYazi(o.t, o.gi); }
+
 var BASLANGIC = gunIdx("1281-01-01");
 var BITIS     = gunIdx("1923-10-29");
 
@@ -306,7 +322,8 @@ harita.on("load", function () {
   harita.addSource("seferler", { type: "geojson", data: bosVeri() });
   harita.addLayer({ id: "sefer-cizgi", type: "line", source: "seferler",
     layout: { "line-cap": "round", "line-join": "round" },
-    paint: { "line-color": "#2b1006", "line-width": 2.6, "line-dasharray": [1.5, 1.5] } });
+    paint: { "line-color": ["coalesce", ["get", "renk"], "#2b1006"],
+             "line-width": 2.6, "line-dasharray": [1.5, 1.5] } });
 
   var lejant = document.createElement("div");
   lejant.className = "lejant";
@@ -393,12 +410,21 @@ function tekVeri(geo) { return { type: "FeatureCollection",
 // işaretler konumunu kaybedip rastgele yerlere savrulur.
 // Harita işaretleri: YERLESIMLER (petek veri seti) varsa ondan, yoksa eski
 // SEHIRLER tablosundan beslenir. g:0 olanlar yalnızca petek içindir, çizilmez.
+// ⚠️ GENEL KURAL (kullanıcı isteği): "Gümülcine'nin, Çatalca'nın, Çorlu'nun,
+// Lüleburgaz'ın fethi maddesi olunca ve harita o bölgeye ilerleyince bu
+// şehirlerin isimleri haritada görünmeli."
+// Eskiden yalnız g>0 yerleşimlerin işareti vardı; g:0 olanlar (Çorlu,
+// Lüleburgaz, Gümülcine ve yüzlercesi) petek üretimi için duruyor ama haritada
+// hiç çizilmiyordu — maddesi okunurken şehir görünmüyordu.
+// Artık HER yerleşim, el değiştirdiği anda adını gösteriyor; g:0 olanlar
+// yalnız o pencerede (fetihten sonra YONTEM_SURE gün) görünüp kayboluyor,
+// böylece harita kalabalıklaşmıyor.
 var ISARET_KAYNAK = (window.YERLESIMLER && window.YERLESIMLER.length)
-  ? window.YERLESIMLER.filter(function (y) { return y.g > 0 && y.d && y.d.length; })
+  ? window.YERLESIMLER.filter(function (y) { return y.d && y.d.length; })
       .map(function (y) {
-        return { ad: y.ad, tur: y.tur, lat: y.lat, lon: y.lon,
+        return { ad: y.ad, tur: y.tur, lat: y.lat, lon: y.lon, gecici: y.g === 0,
                  k: y.d.map(function (dn) {
-                   return { f: dn.f, t: dn.t, d: y.g, b: y.g === 3, y: dn.y };
+                   return { f: dn.f, t: dn.t, d: Math.max(y.g, 1), b: y.g === 3, y: dn.y };
                  }) };
       })
   : (window.SEHIRLER || []);
@@ -410,7 +436,7 @@ var sehirler = ISARET_KAYNAK.map(function (s) {
   ic.innerHTML = '<span class="s-nokta"></span><span class="s-yontem"></span><span class="s-ad"></span>';
   ic.querySelector(".s-ad").textContent = (s.tur === "kale" ? "🏰 " : "") + s.ad;
   dis.appendChild(ic);
-  return { s: s, ic: ic, yontemEl: ic.querySelector(".s-yontem"), ekli: false,
+  return { s: s, ic: ic, gecici: !!s.gecici, yontemEl: ic.querySelector(".s-yontem"), ekli: false,
            mk: new maplibregl.Marker({ element: dis, anchor: "left", offset: [-5, 0] })
                  .setLngLat([s.lon, s.lat]),
            kayitlar: s.k.map(function (r) {
@@ -430,6 +456,8 @@ function sehirGuncelle(t) {
       var r = m.kayitlar[i];
       if (r.fi <= t && t < r.ti) { aktif = r; break; }
     }
+    // Geçici işaret: yalnız el değiştirme penceresinde görünür (genel kural).
+    if (aktif && m.gecici && t >= aktif.fi + YONTEM_SURE) aktif = null;
     if (!aktif) {
       if (m.ekli) { m.mk.remove(); m.ekli = false; }
       return;
@@ -490,7 +518,11 @@ var seferler = (window.SEFERLER || []).map(function (s) {
   // (Katalan Kumpanyası 1303-09 → 1305-06, arada Sakarya seferi maddesi var)
   // kullanıcı okun neye ait olduğunu anlayamıyordu. Ad ok başına yazılıyor;
   // dönüş ok'a uygulandığı için yazı ayrı bir işaretle, dönüşsüz konuyor.
-  return { fi: gunIdx(s.f), ti: gunIdx(s.t) + 45, ad: s.ad, yol: s.yol, ekli: false,
+  // Taraf rengi: Osmanlı seferi koyu kırmızı-siyah, düşman seferi soğuk renk.
+  var renk = s.renk || (s.taraf === "dusman" ? "#1b7a3f" : "#2b1006");
+  ic.style.color = renk;
+  return { fi: gunIdx(s.f), ti: gunIdx(s.t) + 45, ad: s.ad, yol: s.yol,
+           renk: renk, ekli: false,
            mk: new maplibregl.Marker({ element: el, anchor: "center", rotation: aci - 90 })
                  .setLngLat(son),
            ad_mk: (function () {
@@ -507,7 +539,7 @@ function seferGuncelle(t) {
   seferler.forEach(function (m) {
     var aktif = m.fi <= t && t < m.ti;
     if (aktif) {
-      cizgiler.push({ type: "Feature", properties: {},
+      cizgiler.push({ type: "Feature", properties: { renk: m.renk },
                       geometry: { type: "LineString", coordinates: m.yol } });
       if (!m.ekli) { m.mk.addTo(harita); m.ad_mk.addTo(harita); m.ekli = true; }
     } else if (m.ekli) { m.mk.remove(); m.ad_mk.remove(); m.ekli = false; }
@@ -583,7 +615,7 @@ var olayDom = [];
 olaylar.forEach(function (o, i) {
   var div = document.createElement("div");
   div.className = "olay k-" + o.k;
-  div.innerHTML = '<div class="o-tarih">' + idxYazi(o.gi) + '</div>' +
+  div.innerHTML = '<div class="o-tarih">' + olayTarihYazi(o) + '</div>' +
                   '<div class="o-baslik"></div>';
   div.lastChild.textContent = o.b;
   div.addEventListener("click", function () {
@@ -692,12 +724,12 @@ function dizinDoldur(sekme) {
   } else if (sekme === "savaslar") {
     (window.SAVASLAR || []).forEach(function (s) {
       var isaret = s.sonuc === "zafer" ? "✔" : s.sonuc === "yenilgi" ? "✖" : "◐";
-      satir(idxYazi(gunIdx(s.t)), s.ad + " — " + s.taraf, isaret,
+      satir(kesinlikliYazi(s.t, gunIdx(s.t)), s.ad + " — " + s.taraf, isaret,
             function () { dizinPencere.classList.add("gizli"); tarihAyarla(gunIdx(s.t)); });
     });
   } else if (sekme === "antlasmalar") {
     (window.ANTLASMALAR || []).forEach(function (a) {
-      satir(idxYazi(gunIdx(a.t)), a.ad + " — " + a.taraf, a.ozet,
+      satir(kesinlikliYazi(a.t, gunIdx(a.t)), a.ad + " — " + a.taraf, a.ozet,
             function () { dizinPencere.classList.add("gizli"); tarihAyarla(gunIdx(a.t)); });
     });
   } else if (sekme === "sehirler") {
