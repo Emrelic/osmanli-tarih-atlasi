@@ -41,6 +41,7 @@ window.SERILER = [
 ];
 
 window.SAVASLAR = [
+{ t:"1400-08-26", ad:"Sivas kuşatması", taraf_metin:"Timur", sonuc:"yenilgi", galip:"timurlu", lat:39.75, lon:37.02, tur:"kusatma" },
 { t:"1385-09-18", ad:"Savra (Saurian) Ovası", taraf_metin:"Zeta — II. Balşa", sonuc:"zafer", galip:"osmanli", lat:40.94, lon:19.71, tur:"meydan" },
 { t:"1302-07-27", ad:"Koyunhisar (Bapheus)",      taraf_metin:"Bizans",            sonuc:"zafer",   seri:"bizans",  lat:40.72, lon:29.85, taraf:["osmanli","bizans"], galip:"osmanli" },
 { t:"1329-06-10", ad:"Pelekanon (Maltepe)",       taraf_metin:"Bizans",            sonuc:"zafer",   seri:"bizans",  lat:40.92, lon:29.15, taraf:["osmanli","bizans"], galip:"osmanli" },
@@ -299,6 +300,9 @@ window.ANTLASMALAR.sort((a,b)=> a.t < b.t ? -1 : 1);
 // Deniz harekâtlarında ara noktalar karaya değmez; donanma Mora'yı dolanır,
 // Ege'de ada ada ilerler. Ok, muharebenin gerçekleştiği noktada biter.
 window.SEFERLER = [
+{ ad:"Timur'un Sivas seferi (1400)", taraf:"dusman", renk:"#8a5a00",
+  f:"1400-06-01", t:"1400-09-01",
+  yol:[[46.30,38.08],[43.39,38.50],[41.28,39.90],[39.49,39.75],[37.02,39.75]] },
 { ad:"Niğbolu Haçlı seferi (1396)", taraf:"dusman", renk:"#1f5fa8",
   f:"1396-07-01", t:"1396-09-25",
   yol:[[19.04,47.50],[20.46,44.82],[22.40,44.72],[22.88,43.99],[23.96,43.74],[24.90,43.71]] },

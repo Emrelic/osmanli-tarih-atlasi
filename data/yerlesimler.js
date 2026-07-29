@@ -180,7 +180,7 @@ window.YERLESIMLER = [
 { ad:"Ünye", tur:"liman", lat:41.128, lon:37.283, g:0, k:4, m:"Trabzon", s:[{f:"1281-01-01",t:"1350-01-01",d:"trabzon-rum"},{f:"1350-01-01",t:"1427-06-01",d:"haciemir"}], d:[{f:"1427-06-01",t:"1923-10-29"}],
     v:[{f:"1398-06-01",t:"1402-07-28",k:"Yıldırım Bayezid'e bağlılık"}] },
 { ad:"Rize", tur:"liman", lat:41.020, lon:40.523, g:0, k:4, m:"Trabzon", s:[{f:"1281-01-01",t:"1461-08-15",d:"trabzon-rum"}], d:[{f:"1461-08-15",t:"1923-10-29"}] },
-{ ad:"Erzincan", tur:"sehir", lat:39.750, lon:39.492, g:0, k:3, m:"Erzurum", s:[{f:"1281-01-01",t:"1348-01-01",d:"ilhanli"},{f:"1348-01-01",t:"1379-01-01",d:"akkoyunlu"},{f:"1379-01-01",t:"1410-01-01",d:"mutahharten"},{f:"1410-01-01",t:"1473-08-11",d:"akkoyunlu"}], d:[{f:"1473-08-11",t:"1923-10-29",y:"savas"}] },
+{ ad:"Erzincan", tur:"sehir", lat:39.750, lon:39.492, g:0, k:3, m:"Erzurum", s:[{f:"1281-01-01",t:"1348-01-01",d:"ilhanli"},{f:"1348-01-01",t:"1379-01-01",d:"akkoyunlu"},{f:"1379-01-01",t:"1401-02-01",d:"mutahharten"},{f:"1402-07-28",t:"1410-01-01",d:"mutahharten"},{f:"1410-01-01",t:"1473-08-11",d:"akkoyunlu"}], d:[{f:"1401-02-01",t:"1402-07-28",y:"savas"},{f:"1473-08-11",t:"1923-10-29",y:"savas"}] },
 { ad:"Erzurum", tur:"sehir", lat:39.905, lon:41.266, g:1, k:2, s:[{f:"1281-01-01",t:"1348-01-01",d:"ilhanli"},{f:"1348-01-01",t:"1515-09-15",d:"akkoyunlu"}], d:[{f:"1515-09-15",t:"1923-10-29",y:"antlasma"}] },
 { ad:"Kars", tur:"kale", lat:40.602, lon:43.095, g:1, k:3, m:"Erzurum", s:[{f:"1281-01-01",t:"1534-06-01",d:"gurcistan"},{f:"1878-07-13",t:"1918-05-25",d:"rusya"}], d:[{f:"1534-06-01",t:"1878-07-13",y:"kusatma"},{f:"1918-05-25",t:"1923-10-29",y:"antlasma"}] },
 { ad:"Ardahan", tur:"kale", lat:41.111, lon:42.702, g:0, k:4, m:"Erzurum", s:[{f:"1281-01-01",t:"1551-01-01",d:"gurcistan"},{f:"1878-07-13",t:"1918-05-25",d:"rusya"}], d:[{f:"1551-01-01",t:"1878-07-13"},{f:"1918-05-25",t:"1923-10-29"}] },
@@ -743,7 +743,7 @@ window.YERLESIMLER = [
 
 // ---- Yavuz dönemi (1514-1517): fetih zincirinin ara halkaları ----
 // Mısır tek seferde düşmedi; Ridâniye'den İskenderiye'ye dört ay geçti.
-{ ad:"Kemah", tur:"kale", lat:39.600, lon:39.030, g:1, k:4, m:"Erzurum", s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1515-05-19",d:"safevi"}], d:[{f:"1515-05-19",t:"1923-10-29",y:"kusatma"}] },
+{ ad:"Kemah", tur:"kale", lat:39.600, lon:39.030, g:1, k:4, m:"Erzurum", s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1401-02-01",d:"akkoyunlu"},{f:"1402-07-28",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1515-05-19",d:"safevi"}], d:[{f:"1401-02-01",t:"1402-07-28",y:"savas"},{f:"1515-05-19",t:"1923-10-29",y:"kusatma"}] },
 { ad:"Humus", tur:"sehir", lat:34.730, lon:36.710, g:0, k:4, m:"Şam", s:[{f:"1281-01-01",t:"1516-09-27",d:"memluk"},{f:"1918-10-01",t:"1923-10-29",d:"fransa"}], d:[{f:"1516-09-27",t:"1918-10-01"}] },
 { ad:"Han Yûnus", tur:"kale", lat:31.340, lon:34.300, g:1, k:4, m:"Kudüs", s:[{f:"1281-01-01",t:"1516-12-21",d:"memluk"},{f:"1917-11-07",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1516-12-21",t:"1917-11-07",y:"savas"}] },
 { ad:"Reşîd (Rosetta)", tur:"liman", lat:31.399, lon:30.417, g:0, k:4, m:"Kahire", s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1517-05-19",t:"1805-07-09"}],

@@ -138,7 +138,7 @@ BOYALAR = {
     "timurlu":         ("Timurlu idaresi",               "#8d6e63"),
     "suleyman-celebi": ("Emîr Süleyman Çelebi (Rumeli)", "#b71c1c"),
     "isa-celebi":      ("İsa Çelebi (Bursa)",            "#e04b2a"),
-    "mehmed-celebi":   ("Çelebi Mehmed (Amasya)",        "#7f1734"),
+    "mehmed-celebi":   ("Çelebi Mehmed (Amasya)",        "#a8183f"),
     "musa-celebi":     ("Musa Çelebi (Rumeli)",          "#d81b60"),
     # ⚠️ Eski #7a9e6b, Bulgaristan'ın #7aa06a'sına ΔE 1.8 — pratikte AYNI RENK.
     # Tuna'nın iki yakası 1281-1878 boyunca tek gövde gibi görünüyordu. Yeşil

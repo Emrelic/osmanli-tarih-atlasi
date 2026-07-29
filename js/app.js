@@ -315,7 +315,7 @@ harita.on("load", function () {
   // Fetret Devri şehzade payları — her şehzade kendi renginde
   harita.addSource("sehzade", { type: "geojson", data: bosVeri() });
   harita.addLayer({ id: "sehzade-dolgu", type: "fill", source: "sehzade",
-    paint: { "fill-color": ["get", "renk"], "fill-opacity": 0.5 } });
+    paint: { "fill-color": ["get", "renk"], "fill-opacity": 0.62 } });
   harita.addLayer({ id: "sehzade-cizgi", type: "line", source: "sehzade",
     paint: { "line-color": ["get", "renk"], "line-width": 2.2 } });
 
