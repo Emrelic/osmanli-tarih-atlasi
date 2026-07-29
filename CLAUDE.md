@@ -67,14 +67,15 @@ gerekir. Projenin bütün kalite kuralları (§3) bu tek cümleden türer.
 
 | Katman | Durum |
 |---|---|
-| Osmanlı sınırları 1281-1923 | 🟢 740 yerleşimden gün gün üretiliyor, 427 kırılma |
-| Kronoloji | 🟢 958 madde, tamamı TDV bağlantılı |
-| Harita ↔ kronoloji senkronu | 🟢 427 kırılmanın 427'si maddeli |
-| Sahipsiz bölge | 🟢 35 nokta, hepsi kasten boş (çöl / devletsiz bölge) |
+| Osmanlı sınırları 1281-1923 | 🟢 764 yerleşimden gün gün üretiliyor, 433 kırılma |
+| Kronoloji | 🟢 937 madde, tamamı TDV bağlantılı |
+| Harita ↔ kronoloji senkronu | 🟢 433 kırılmanın 433'ü maddeli |
+| Sahipsiz bölge | 🟢 34 nokta, hepsi kasten boş (çöl / devletsiz bölge) |
 | Yabancı devletler haritada | 🟢 104 devlet kendi renginde (`arac/renkler.py`) |
 | Padişahlar ve portreler | 🟢 41 kayıt, 36/36 portre |
 | Savaş/antlaşma/sefer dizinleri | 🟢 123 + 33 kayıt, 41 sefer güzergâhı |
-| Mükerrer madde denetimi | 🟢 `denetle.py`'nin beşinci kontrolü (Jaccard ≥ 0.45) |
+| Mükerrer madde denetimi | 🟢 `denetle.py`'nin 5. kontrolü (±400 gün + Türkçe kök, eşik 0.34) |
+| Konum denetimi | 🟢 `denetle.py`'nin 6. kontrolü — nokta kara maskesinde mi (beklenen 0) |
 | **Devletler dizini** | 🟡 213 kayıt (dünya); derinleştirme sürüyor |
 | **Görsel doğrulama** | 🟡 Kullanıcı ekran görüntüsüyle yürütüyor (`hatalar N.docx`) |
 | **Dünya kapsamı: yerleşimler** | 🟡 İran 126 · Orta Asya 16 birleşti; Avrupa 228 · Asya 344 · Afrika 153 **merge bekliyor** |
@@ -101,7 +102,7 @@ Sınırlar elle çizilmez, hazır atlas kesitlerinden de gelmez. Her yerleşim
 çevresindeki toprağı temsil eden bir **petek** (Voronoi hücresi) sahibidir. Petek
 sınırı komşuların tam ortasından geçer, sonra gerçek kıyı çizgisine, nehir yataklarına
 ve dağ sırtlarına yaslanır, Chaikin ile yumuşatılır, Natural Earth kara maskesiyle
-kesilir, 117 göl çıkarılır. Bir yerleşim el değiştirince peteği bütün olarak değişir.
+kesilir, 89 göl çıkarılır (28 modern baraj gölü KASTEN bırakılır — anakronik delik açıyorlardı). Bir yerleşim el değiştirince peteği bütün olarak değişir.
 
 Bütün geometri `data/yerlesimler.js`'ten **her gün için yeniden** üretilir.
 
@@ -131,10 +132,10 @@ delik demektir.
 node -e "global.window={};eval(require('fs').readFileSync('data/yerlesimler.js','utf8'));const Y=window.YERLESIMLER;const iR=(a,g)=>a&&a.some(p=>p.f<=g&&g<p.t);const b={};for(let y=1300;y<=1920;y+=20){const g=y+'-06-15';for(const t of Y){if(t.kur&&t.kur>g)continue;if(iR(t.d,g)||iR(t.s,g)||iR(t.v,g))continue;(b[t.ad]=b[t.ad]||[]).push(y);}}console.log('yerlesim:',Y.length,'| sahipsiz:',Object.keys(b).length);for(const [a,ys] of Object.entries(b))console.log('  '+a.padEnd(24)+ys.join(','));"
 ```
 
-**Şu an: 740 yerleşimin 35'i sahipsiz ve hepsi KASTEN öyle** — Sahra ve Rub'ul Hâlî
+**Şu an: 764 yerleşimin 34'ü sahipsiz ve hepsi KASTEN öyle** — Sahra ve Rub'ul Hâlî
 çölleri, 1744 öncesi Necid, körfez şeyhlikleri. Bunlar boş kalması *doğru* olan
 yerlerdir; çölün emilip Osmanlı boyanmasını engellemek için konmuş dolgu
-noktalarıdır. **Sayı 35'in üstüne çıkarsa yeni bir delik açılmış demektir.**
+noktalarıdır. **Sayı 34'ün üstüne çıkarsa yeni bir delik açılmış demektir.**
 
 ⚠️ Yukarıdaki tek satırlık komut 1300'den başlar; **kuruluş devrini hiç örneklemez.**
 İnegöl ve Bilecik'in 1281-1299 arası sahipsizliği tam bu yüzden aylarca görülmedi.
@@ -150,7 +151,7 @@ alakasız bir maddenin altında belirir — kullanıcının en çok şikâyet et
 node -e "const fs=require('fs'),K='data/';global.window={};for(const f of ['olaylar.js','olaylar_ek.js','olaylar_ek2.js','olaylar_ek3.js','olaylar_ek4.js','olaylar_ek5.js','olaylar_ek6.js'])eval(fs.readFileSync(K+f,'utf8'));const O=Object.keys(window).filter(k=>k.startsWith('OLAYLAR')).flatMap(k=>window[k]);global.window={};eval(fs.readFileSync(K+'yerlesimler.js','utf8'));const Y=window.YERLESIMLER;const tam=s=>s.length===7?s+'-01':s,g=s=>Math.round(Date.UTC(+s.slice(0,4),+s.slice(5,7)-1,+(s.slice(8,10)||1))/864e5);const ol=O.map(o=>({g:g(tam(o.t)),b:o.b}));const kir={};for(const y of Y)for(const p of (y.d||[]).concat(y.v||[]))for(const [d,t] of [[p.f,'kazanc'],[p.t,'kayip']]){if(!d||d<='1281-01-01'||d>='1923-10-29')continue;(kir[d]=kir[d]||{t,ad:new Set()}).ad.add(y.ad);}const H=Object.keys(kir).sort(),ac=[];for(const d of H){const gd=g(d),e=ol.reduce((a,o)=>Math.abs(o.g-gd)<Math.abs(a.g-gd)?o:a,ol[0]);if(Math.abs(e.g-gd)>30)ac.push([d,kir[d].t,[...kir[d].ad].slice(0,4).join(', '),e.b]);}console.log('kirilma:',H.length,'| ACIK:',ac.length);for(const r of ac)console.log('  '+r.join('  |  '));"
 ```
 
-**Şu an: 424 kırılmanın 424'ü maddeli, AÇIK = 0.**
+**Şu an: 433 kırılmanın 433'ü maddeli, AÇIK = 0.**
 
 > Tarihsel not: bir ara "238/238 maddeli" deniyordu; o ölçüt fazla gevşekti.
 > Ölçüt ±30 güne çekilince 51 maddesiz kırılma ortaya çıktı ve hepsine madde yazıldı
@@ -237,6 +238,19 @@ Her slug'ı bu kontrolle doğrula. Doğru slug'ı bulmak için:
 Yaşanmış örnekler: `ordu` askerî ordu maddesini açar, şehir maddesi `ordu--sehir`'dir.
 `haciemirogullari`, `parga`, `canik`, `asir`, `preveze`, `derbend`, `samahi`,
 `salih-reis` diye madde **yoktur**.
+
+**ÖLÜ olduğu ölçülmüş sluglar** (2026-07-30 turunda `<title>` ile sınandı):
+`cildir` (doğrusu `cildir-eyaleti`) · `selimiye-camii-ve-kulliyesi` ·
+`ferhad-pasa-antlasmasi` · `nihavend` · `burucird`.
+> ⚠️ Ferhat Paşa Antlaşması'nın TDV'de **müstakil maddesi yok**; hükümleri yer
+> maddelerinden toplanır. TDV'deki adı "İstanbul antlaşması" olarak geçiyor
+> (`luristan` maddesi: "998'de (1590) İstanbul'da yapılan antlaşma").
+
+**CANLI olduğu ölçülmüş sluglar** (aynı tur, `kaynak:` alanlarındaki kümeye ek):
+`fizan` · `nahcivan` · `sehrizor` · `limni` · `azak` · `kamanice` · `ukrayna` ·
+`sirvan` · `cildir-eyaleti` · `karayazici-abdulhalim` · `kirmansah` · `dagistan` ·
+`murad-iii` · `ferhad-pasa` · `sultan-ahmed-camii-ve-kulliyesi` · `luristan` ·
+`hemedan`.
 
 Zaten doğrulanmış slug kümesi `data/olaylar*.js` içindeki `kaynak:` alanlarından
 çıkarılabilir; o küme güvenlidir:
@@ -344,6 +358,17 @@ gibi tek satırlık kayıtlardan oluşan dosyalarda **sessiz veri kaybı** olur.
 **Kurallar:**
 - **`arac/uret_petek.py`'yi yalnız Oturum 0 çalıştırır.** Üretim ~15 dakika sürer ve
   sırasında veri değişirse çıktı tutarsız olur (bu yüzden dört üretim boşa gitti).
+- 🔒 **ÜRETİM KOŞARKEN GİRDİ DOSYALARI DONMUŞTUR.** Kural yalnız "üretimi veri
+  değişirken başlatma" değil; **koşu sırasında da yazılmaz.** Motor
+  `arac/girdi.py`'deki dosyaları en başta okur (kara maskesi ve nehirlerden hemen
+  sonra), yani koşunun 8. dakikasında yapılan bir düzenleme çıktıya HİÇ girmez ama
+  denetim temiz görünür — yayın veriden geri kalır ve fark edilmez.
+  Yaşanmış (2026-07-30): üretim 01:31:41'de başladı, başka bir oturum 01:39:13'te
+  Hemedan'a Ferhad Paşa dönemi ekledi. Yayınlansa, çevresi Osmanlı ortası Safevî
+  bir **Hemedan enklavı** çıkacaktı — yani kullanıcının hatalar 4 §10'da şikâyet
+  ettiği hatanın aynısı, onu düzeltirken üretilmiş hâli. Beşinci boşa giden üretim.
+  **Protokol:** üretimi başlatan oturum diğerlerine "girdi kilitli" der, bitince
+  "dosya senin" der. İki oturum arası dosya devri sözle yapılır, varsayımla değil.
 - **Commit ve push yalnız Oturum 0'dan yapılır.** Diğerleri dosyayı yazar, "hazır"
   der. 12-14 MB'lık üretilmiş dosyalarda git çakışması çözmek çok pahalıdır.
 - **Oturum 2 ve 6 düzeltme yapmaz, yalnız rapor yazar.** Düzeltmeyi 0 uygular;

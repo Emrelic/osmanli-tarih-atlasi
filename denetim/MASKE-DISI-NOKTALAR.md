@@ -1,7 +1,14 @@
 # 32 yerleşim kara maskesinin dışında — sessiz hata sınıfı
 
 **Ölçüm tarihi:** 2026-07-30 · **Ölçen:** hatalar 2-3 oturumu (r70 commit'i)
-**Durum:** tanı tamam, düzeltme YAPILMADI — `data/yerlesimler.js` şu anda başka
+**Durum: DÜZELTİLDİ — 2026-07-30, hatalar 4-5-6 oturumu.** Yeniden ölçümde
+baraj gölü kuralıyla 36 nokta çıktı (bu listedeki 32 + Akkirman, Ohri, Stokholm
+— maske `simplify(KARA_TOL)` ile kurulunca üçü de dışarı düşüyor — ve o turda
+eklenen mükerrer Katîf kaydı, silindi). 36'sı en yakın kara hücresine + 150 m
+içeri payla kaydırıldı; maske dışı 0. Kalıcı çözüm de yazıldı: `denetle.py`
+içinde `konum_denetimi()`, altıncı denetim, `BEKLENEN_MASKE_DISI = 0`.
+
+**Eski durum:** tanı tamam, düzeltme YAPILMADI — `data/yerlesimler.js` şu anda başka
 bir oturumun elinde (hatalar 4-5-6), çakışmamak için dokunulmadı.
 
 ## Nasıl bulundu

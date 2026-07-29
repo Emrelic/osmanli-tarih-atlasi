@@ -140,6 +140,124 @@ dizisini yazar. Başına şu blokları koy (`yerlesimler_afrika.js`'i örnek al)
 4. Osmanlı tâbiiyeti/eyaleti taşıyan kayıtlar ve kullandıkları kırılma tarihleri
 5. Kimlik granülerliği kararları
 
+---
+
+# EK — Entegrasyon oturumunun devrettiği ölçümler (2026-07-30)
+
+Bu partiye 2026-07-29 gecesi başlandı, hazırlık ölçümleri yapıldı, sonra oturum
+`hatalar 4/5/6.docx` turlarına kaydırıldı. **Aşağıdakiler ÖLÇÜLDÜ — yeniden
+ölçme, doğrudan kullan.** §2 ve §6'daki tahminlerin yerine bunlar geçerlidir.
+
+## E.1 ⛔ ÖNCE OKU: iki nokta artık YAZILMAYACAK, üçü ZATEN EKLENDİ
+
+Podolya eyaletinin sancak merkezleri `hatalar 6.docx` madde 10 üzerinden
+**`yerlesimler.js`'e eklendi** ve üçü de bu kutunun içinde. Tekrar yazma:
+
+| Nokta | enlem, boylam | Pencere |
+|---|---|---|
+| Bar (Podolya) | 49.078, 28.260 | d: 1672-08-27 → 1699-01-26, sonra lehistan → 1793-01-23 → rusya |
+| Meciboj (Mejibuji) | 49.431, 27.415 | aynı |
+| Yazlofça (Yazlovets) | 48.951, 25.435 | d: aynı; 1772-08-05'te **avusturya** (Galiçya) |
+
+Kaynak: TDV **`kamanice`** — eyalet dört sancaktı: Kamaniçe, Bar, Mejibuji,
+Yazlofça + 19 nahiye, 500'den fazla timar, ~6000 asker.
+
+Ayrıca **Çehrin (Çigirin)** düzeltildi: Bahçesaray (1681) kaleyi Rusya'ya
+vermedi — sınır Dinyeper'di, sağ yaka Osmanlı'da kaldı ve Bug-Dinyeper arası
+iskânsız şerit ilân edildi. Zincir artık Kamaniçe'nin aynısı (1699 Karlofça'da
+Lehistan, 1793'te Rusya). Sağ yaka Ukrayna için tarih seçerken bunu esas al.
+
+## E.2 Kutudaki mevcut 40 nokta — ölçüldü, tekrar yazma
+
+`yerlesimler.js`: Çernovitz · Kamaniçe · Viyana · Bratislava · Krakov · Lvov ·
+Kiev · Harkov · Voronej · Stokholm · Helsinki · Riga · Königsberg · Gdansk ·
+Poznan · Varşova · Vilnius · Minsk · Moskova · Novgorod · St. Petersburg ·
+Smolensk · Tula · Nijniy Novgorod · Vologda · Tsaritsyn · Poltava ·
+Bozkır (Deşt-i Kıpçak) · Hotin · Çehrin (Çigirin)
+
+`yerlesimler_avrupa.js` (merge bekliyor, 10'u bu kutuda): Uppsala · Örebro ·
+Linköping · Kalmar · Gävle · Falun · Visby · Turku (Åbo) · Hämeenlinna ·
+Viipuri (Vyborg)
+
+## E.3 ⚠️ MEVCUT VERİNİN KONVANSİYONLARI — §6'daki tahminler bunlarla değişti
+
+Bunlara uymayan parti mevcut kayıtlarla **yama gibi** görünür:
+
+- **`lehistan` kimliği Litvanya'yı da kapsıyor.** `renkler.py`'deki etiketi
+  birebir **"Lehistan-Litvanya"**. Vilnius ve Minsk **1281'den** `lehistan`;
+  Kiev 1362'den `lehistan`; Smolensk 1281-1514 `lehistan`.
+  → Görev tanımı §6 "1569 öncesi `litvanya` ayrı olmalı" diyor ve tarihsel
+  olarak haklı, AMA bunu yaparsan Vilnius/Minsk/Kiev/Smolensk kayıtlarının da
+  bölünmesi gerekir; yoksa 1281-1569 arası Litvanya kahverengi, Vilnius mor
+  görünür. **Bu dört kaydı bölmeye yetkin yok** (`yerlesimler.js` Oturum 0'da).
+  Karar: partiyi `lehistan` ile yaz VE bölme önerisini ilerleme notuna yaz;
+  ya da `litvanya` ile yaz ve dört kayıt için hazır değiştirme satırlarını
+  ilerleme notuna koy — entegrasyon tek hamlede uygular.
+- **`almanya` Töton Şövalyeleri ve Prusya'yı da kapsıyor.** `prusya` ve `teuton`
+  kimliği YOK; Königsberg 1281-1923 kesintisiz `almanya`, Gdansk 1281-1466
+  `almanya`, Riga 1281-1561 `almanya` (Livonya Nizamı). Yeni kimlik istemeyin.
+- **Taksim günleri** (mevcut kayıtlardan): 1. taksim **1772-08-05**,
+  2. taksim **1793-01-23**, 3. taksim **1795-10-24**.
+- **Sabit el değiştirme günleri**: Kiev → Rusya **1667-01-30** (Andrusovo) ·
+  Poltava → Rusya **1654-01-18** (Pereyaslav) · Smolensk 1514-08-01 / 1611-06-13
+  / 1654-10-03 · Riga 1561-11-28 → lehistan, 1621-09-15 → isvec, 1721-08-30 →
+  rusya (Nystad) · Finlandiya 1809-09-17 (Fredrikshamn) → rusya, 1917-12-06 →
+  finlandiya · Litvanya cumhuriyeti 1918-02-16 · Letonya/Polonya 1918-11-11 ·
+  Poznan 1918-12-27.
+- **Ukrayna 1918'de bölünmez**: mevcut Kiev kaydı 1667'den 1923'e `rusya`.
+  `ukrayna` kimliği açma.
+
+## E.4 Kimlik envanteri — ölçüldü
+
+**`renkler.py`'de VAR** (kullanabilirsin): `rusya` `lehistan` `litvanya`
+`isvec` `danimarka` `norvec` `finlandiya` `letonya` `polonya` `kazan` `kirim`
+`altinorda` `almanya` `avusturya` `macaristan` `bogdan` `cekoslovakya`
+
+**Yalnız `devletler.js`'te var, renk YOK** (kullanırsan bölge boyanmaz):
+`astarhan` `estonya` `nogay` `sibir` `zaporojye`
+
+**Hiçbir yerde yok**: `novgorod` `livonya` `kurlandiya` `teuton` `prusya`
+`moskova` `tver`
+
+→ Estonya noktaları (Reval, Narva, Dorpat, Pernau) 1918-1923 penceresinde
+`estonya` isteyecek ve o renk yok. Ya `rusya`yı 1923'e uzat (Kiev deseni), ya
+`estonya` yaz ve ilerleme notunda renk talep et. Kurlandiya için `lehistan`
+kullan (dükalık Lehistan'ın vasalıydı) — yeni kimlik istemez.
+
+## E.5 Osmanlı tâbiiyeti — TDV ile doğrulanmış pencereler
+
+TDV **`ukrayna`**: Zaporojye Sıçı 1552'de kuruldu · Doroşenko 1665-1672 hetman,
+1672'den sonra Osmanlı hâkimiyetini kabul etti · Andrusova 1667 · Bahçesaray
+1681 "Kiyev dahil Sol Yaka Ukraynası Moskova'ya bırakıldı" · Karlofça 1699 sağ
+yaka Lehistan'a döndü.
+
+→ Sağ yaka Ukrayna için kullanılacak pencere: **v: 1672-08-27 → 1699-01-26**.
+İki gün de mevcut kırılma günü, yani madde yazmaya gerek yok. 1681'i sınır
+olarak KULLANMA (bkz. E.1 Çehrin).
+
+## E.6 ⛔ BLOKAJ: motor `kur:`/`bit:` okumuyor
+
+`arac/uret_petek.py` `kur:` alanını **görmüyor**; henüz kurulmamış şehrin
+peteği 1281'den beri var ve komşularından toprak koparıyor. Canlı iki vaka:
+Kuveyt (`kur:1716`) ve Senendec (`kur:1636`, Batı İran sınırını çarpıtıyor).
+
+Bu partide `kur:` gerektiren en az altı nokta var: **Petersburg 1703 · Odessa
+1794 · Helsinki 1550 · Göteborg 1621 · Harkov 1654 · Zaporijya Sıçı 1552**
+(+ `bit:` 1775). `YAPILACAKLAR.md`: *"o merge'den ÖNCE yapılmalı."*
+
+→ **Motor işi entegrasyon oturumunda (Oturum 0).** Sen partiyi yazabilirsin;
+`kur:`/`bit:` alanlarını doğru yaz, ama **merge motor düzelene kadar
+yapılmayacak.** İlerleme notunda `kur:` taşıyan noktaların listesini ayrıca ver.
+
+## E.7 Bu turda doğrulanmış TDV slugları
+
+**Canlı**: `kamanice` `ukrayna` `limni` `azak` `sirvan` `nahcivan` `sehrizor`
+`fizan` `kirmansah` `dagistan` `luristan` `hemedan` `cildir-eyaleti`
+`karayazici-abdulhalim` `murad-iii` `ferhad-pasa`
+
+**Ölü** (HTTP 200 döner, arama sayfasına atar): `cildir` · `nihavend` ·
+`burucird` · `ferhad-pasa-antlasmasi` · `selimiye-camii-ve-kulliyesi`
+
 ## 8. Bitirince
 
 `oturumlar/OTURUM-16-ILERLEME.md` yaz. **Ölçülmüş** sayılar olsun: nokta sayısı,

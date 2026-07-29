@@ -233,10 +233,7 @@ window.OLAYLAR_EK4 = [
   kisiler:"İngiltere, Rusya, Avusturya, Prusya, Fransa",
   d:"Beş devlet Bâbıâli'ye nota vererek Mısır meselesinde tek başına anlaşma yapmamasını istedi. Bir iç mesele böylece resmen \"Avrupa meselesi\" hâline geldi; Osmanlı devleti kendi vilayeti hakkında karar verme yetkisini fiilen kaybetti.",
   kaynak:"kavalali-mehmed-ali-pasa" },
-{ t:"1839-11-03", k:"reform", etiket:["siyaset","ekonomi"], b:"Gülhâne Hatt-ı Hümâyunu (Tanzimat Fermanı)", gun:"3 Kasım 1839", yer:"Gülhane, İstanbul",
-  kisiler:"Abdülmecid, Mustafa Reşid Paşa",
-  d:"Can, mal ve namus güvenliğini, vergide ve askerlikte kanun önünde eşitliği ilan eden ferman okundu. İlanının bu tarihe denk gelmesi tesadüf değildi: Avrupa'nın, özellikle İngiltere'nin desteğini Mehmed Ali'ye karşı kazanmak, ilanı hızlandıran sebeplerden biriydi.",
-  kaynak:"tanzimat" },
+// hatalar 5.docx madde 3 — SİLİNDİ (1839-11-03): mükerrer: olaylar.js'teki "Tanzimat Fermanı" kaydı bırakıldı; o kaydın tarihi ay hassasiyetinden 1839-11-03'e çekildi
 { t:"1840-07-15", k:"antlasma", etiket:["antlasma","diplomasi"], b:"Londra Antlaşması: dört devlet Osmanlı'nın yanında", gun:"15 Temmuz 1840", yer:"Londra",
   kisiler:"İngiltere, Rusya, Avusturya, Prusya, Lord Palmerston",
   d:"Fransa dışarıda bırakılarak imzalanan antlaşma Mehmed Ali'ye ültimatom verdi: on gün içinde kabul ederse Mısır irsî valiliği ve kayd-ı hayat şartıyla Akkâ; yirmi gün içinde kabul ederse yalnız Mısır; reddederse hiçbir şey. Vali reddetti.",

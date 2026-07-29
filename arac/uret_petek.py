@@ -47,6 +47,8 @@ BOLGE = box(-12, 1.5, 62, 62)
 # Devlet renkleri ayrı modülde: arac/renkler.py
 # (renk çalışması ile geometri çalışması aynı dosyaya yazmasın diye ayrıldı)
 from renkler import BOYALAR
+# Yerleşim girdisinin tek okuma noktası — dosya listesi girdi.py'de.
+import girdi
 R_DUNYA = 6371.0088
 
 # ---------------- Kara maskesi ----------------
@@ -68,19 +70,45 @@ print("  tamam")
 # maskesinden çıkarılır → petekler göl kıyısında biter, göl doğal sınır olur
 # (Van, Urmiye, Tuz, Beyşehir, Ohri, İşkodra, Balaton...). delikleri_doldur
 # sonrası .intersection(KARA) gölleri yeniden oyduğu için deliğe dönüşmezler.
+# ⚠️ MODERN BARAJ GÖLLERİ ÇIKARILMAZ — hatalar 5.docx madde 1
+# Kullanıcı: "Antalya İçel çukurovadaki boşluklar eğer gerçek değil ise
+# düzeltilmeli... Aynı şey tuz gölünde de var." Ölçüldü: 1595'te Anadolu
+# güneyinde Osmanlı olmayan TEK kara hücresi yok; oradaki üç boşluk Eğirdir,
+# Beyşehir ve Tuz gölleridir — üçü de gerçek, kasıtlı. AMA aynı ölçüm, gerçek
+# OLMAYAN dokuz boşluk ortaya çıkardı: Natural Earth'ün göl katmanı 20. yüzyıl
+# BARAJ göllerini de taşıyor ve bunlar 1281-1923 atlasında delik açıyordu:
+#   Nâsır gölü (Asvan 1970) Nûbe'de · Keban 1974 · Karakaya 1987 · Atatürk 1992
+#   Esed gölü (Tabka 1974) · Tharthâr 1956 · Habbâniye 1956 · Mingeçevir 1953
+#   Dinyeper zinciri (Kiev 1964, Kahovka 1956, Kremençug 1959, Dniprodzerjinsk)
+# Bunlar artık maskeden çıkarılmıyor; yerleri kara sayılıyor.
+# featurecla=="Reservoir" tek başına yetmiyor: NE, Mjøsa · Ilmen · Kubenskoye
+# gibi DOĞAL gölleri de üzerlerindeki regülatör yüzünden "Reservoir" etiketler.
+# Ölçüt: Reservoir + (yıl ≥ 1900 ya da baraj adı var) → çıkarılmaz;
+# aşağıdaki DOGAL_GOL kümesi bu ölçütün yanlış yakaladığı doğal gölleri kurtarır.
+DOGAL_GOL = {"Lake Il'Men'", "Ozero Kubenskoye", "Mjøsa", "Kostroma Reservoir"}
 print("Göller...")
 GOLLER = None
 try:
     _gl = json.load(open(os.path.join(BASEMAPS, "ne_10m_lakes.geojson"), encoding="utf-8"))
-    _gs = []
+    _gs, _baraj = [], []
     for f in _gl["features"]:
+        p = f["properties"]
         g = shape(f["geometry"]).buffer(0)
-        if g.envelope.intersects(BOLGE) and g.area > 0.02:
-            g = g.intersection(BOLGE)
-            if not g.is_empty: _gs.append(g)
+        if not (g.envelope.intersects(BOLGE) and g.area > 0.02):
+            continue
+        _ad = p.get("name") or "(adsız)"
+        _yil = p.get("year") or -99
+        if (p.get("featurecla") == "Reservoir" and _ad not in DOGAL_GOL
+                and (_yil >= 1900 or p.get("dam_name"))):
+            _baraj.append(f"{_ad} ({_yil if _yil > 0 else 'yıl?'})")
+            continue
+        g = g.intersection(BOLGE)
+        if not g.is_empty: _gs.append(g)
     GOLLER = unary_union(_gs).buffer(0).simplify(0.01, preserve_topology=True).buffer(0)
     KARA = KARA.difference(GOLLER).buffer(0)
     print(f"  {len(_gs)} büyük göl kara maskesinden çıkarıldı")
+    print(f"  {len(_baraj)} MODERN BARAJ GÖLÜ çıkarılmadı (anakronik delik açıyordu):")
+    for _b in sorted(_baraj): print(f"      {_b}")
 except Exception as e:
     print("  göl verisi yok:", e)
 
@@ -156,19 +184,19 @@ SIRT_HAT = unary_union(SIRTLAR) if SIRTLAR else None
 print(f"  {len(SIRTLAR)} dağ sırası")
 
 # ---------------- Yerleşim verisi ----------------
+# ⚠️ ÇOK DOSYALI GİRDİ (YAPILACAKLAR.md — paralel oturumların ön koşulu).
+# Okuma mantığı ve dosya listesi artık `arac/girdi.py`'de; motor ile denetle.py
+# aynı modülü kullanıyor. Sebep tarihî: iki araç aynı veriyi farklı katılıkta
+# okuduğu için bir kez DENETİM TEMİZ DERKEN ÜRETİM ÇÖKTÜ (sondaki virgül
+# toleransı motorda yoktu). Tek okuma noktası bunu yapısal olarak imkânsız kılar.
+# Bir parti canlıya alınacaksa değişecek tek şey girdi.py'deki GIRDI_DOSYALARI.
 print("Yerleşimler okunuyor...")
-_js = open(os.path.join(KOK, "data", "yerlesimler.js"), encoding="utf-8").read()
-# Yorum satırlarını at, diziyi çıkar
-_js = "\n".join(l for l in _js.split("\n") if not l.strip().startswith("//"))
-_gövde = _js[_js.index("window.YERLESIMLER = ") + len("window.YERLESIMLER = "):]
-_gövde = _gövde[:_gövde.rindex("]") + 1]
-# JS nesne gösterimini JSON'a çevir: anahtarları tırnakla (dizgi içindekilere dokunma)
-_j = re.sub(r'([{,]\s*)([A-Za-zçğıöşüÇĞİÖŞÜ_]\w*)\s*:', r'\1"\2":', _gövde)
-# JS dizi/nesne sonundaki fazladan virgül geçerlidir, JSON'da değildir.
-# ⚠️ denetle.py bu toleransa sahipti, motor değildi: DENETİM TEMİZ DERKEN
-# ÜRETİM ÇÖKÜYORDU. İki araç aynı veriyi aynı katılıkla okumalı.
-_j = re.sub(r',(\s*[\]}])', r'\1', _j)
-YERLER = json.loads(_j)
+YERLER = girdi.yukle()
+_cakisan = girdi.yakin_ciftler(YERLER)
+if _cakisan:
+    print(f"  UYARI: {len(_cakisan)} nokta çifti {girdi.YAKINLIK_ESIK_KM} km'den yakın")
+    for _d, _a, _b in _cakisan[:10]:
+        print(f"      {_d:.2f} km  {_a} <-> {_b}")
 for y in YERLER:
     y.setdefault("v", [])          # tâbi/dolaylı idare dönemleri (bkz. aşağıda)
     y.setdefault("k", 0)           # idari kademe (1 payitaht ... 4 küçük birim)

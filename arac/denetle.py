@@ -31,14 +31,26 @@ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(KOK, "data")
 
 # Bugün doğru kabul edilen sayılar — CLAUDE.md §3 ile aynı. Sapma varsa uyar.
-BEKLENEN_YERLESIM = 748
+# 748 -> 761: hatalar 4.docx düzeltmeleri (Çerkezya 5, Dağıstan 3, Şirvan 4,
+# Kaheti 1) — gerekçeleri yerlesimler.js içindeki blok yorumlarda.
+# 761 -> 765: hatalar 6.docx — Podolya sancak merkezleri (Bar, Meciboj,
+# Yazlofça) ve Katîf.
+# 765 -> 764: mükerrer Katîf kaydı silindi (î harfiyle aranmadığı için
+# olmadığı sanılmıştı; HEAD'de zaten vardı).
+BEKLENEN_YERLESIM = 764
 # 29 -> 32: Oturum 4'ün Necid noktaları (Buraydâ, Uneyze, Şakrâ) 1744
 # öncesinde kasten sahipsiz — orada devlet yoktu, Riyad ve Dir'iye ile
 # aynı desen (MIMARI.md §6: 'devletsiz' ile 'veri yok' ayrımı).
 # 32 -> 35: Oturum 11 in col/plato dolgu noktalari (Uzboy, Ustyurt bati ve
 # dogu) kasten sahipsiz — Karakum ve Rub ul Hali ile ayni desen.
 BEKLENEN_SAHIPSIZ = 34
-BEKLENEN_KIRILMA = 427
+# 427 -> 432: Kirmanşah 1590-1603 (+2), Tarki tâbiiyeti (+2, mevcut günlere
+# oturdu), Kaheti tâbiiyeti (+2), Şirvan ara şehirleri (+0, mevcut günler),
+# Azak'ın 1637-1642 Kazak işgali (+2), Şehrizor 1554-01-01 -> 1554-08-22 (+0).
+# 432 -> 433: hatalar 6.docx — Limni/Semadirek 1657-11-15 geri alışı (+1);
+# Limni kaybı mevcut 1656-07-13 gününe, Podolya sancakları mevcut 1672/1699
+# günlerine, Varad-Yanova mevcut 1526/1541 günlerine oturdu (+0).
+BEKLENEN_KIRILMA = 433
 BEKLENEN_ACIK = 0
 # MIMARI.md §3.4 — bilinen borç, tavan bu. 311'den 318'e çıkarıldı: beylik
 # düzeltmesiyle 19 yerleşim eklendi (567 -> 586) ve 11'i bu borcu tetikliyor.
@@ -68,8 +80,20 @@ def oku_pencere(yol, degisken):
     return json.loads(j)
 
 
+# ⚠️ Yerleşim girdisi artık arac/girdi.py'den okunuyor — motorla AYNI modül,
+# aynı dosya listesi. İki aracın veriyi farklı okuması bu depoda bir kez üretimi
+# çökertti (sondaki virgül toleransı); tek okuma noktası bunu imkânsız kılar.
+# Çok dosyalı girdi açıldığında bu fonksiyon kendiliğinden bütün partileri okur.
 def yerlesimleri_yukle():
-    return oku_pencere(os.path.join(DATA, "yerlesimler.js"), "YERLESIMLER")
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import girdi
+    Y = girdi.yukle(sessiz=True)
+    yakin = girdi.yakin_ciftler(Y)
+    if yakin:
+        print(f"  i {len(yakin)} nokta çifti {girdi.YAKINLIK_ESIK_KM} km'den yakın:")
+        for d, a, b in yakin[:10]:
+            print(f"      {d:.2f} km  {a} <-> {b}")
+    return Y
 
 
 def olaylari_yukle():
@@ -114,6 +138,51 @@ def degismez1(Y):
                 continue
             sahipsiz.setdefault(t["ad"], []).append(yil)
     return sahipsiz
+
+
+# ---------------- Değişmez 1b — pencere arası boşluk (ÖRNEKLEMESİZ) ----------------
+# ⚠️ Değişmez 1 yukarıda KESİTLERLE ölçülüyor: 1285/1290/1295 ve sonra 20 yılda
+# bir. Yirmi yıllık adım, ondan KISA sahipsiz pencereleri tamamen atlıyor.
+# Yaşanmış (2026-07-30, Kuzey-Doğu Avrupa hazırlığı): Varşova'nın s: dizisi
+#   {1795-10-24 → 1806-11-28 almanya}, {1815-06-09 → 1918-11-11 rusya}
+# yani Varşova Dükalığı dönemi (1806-1815) hiç yazılmamış — Lehistan'ın
+# başkenti dokuz yıl haritada DELİK. Kesitler 1800 ve 1820'yi örnekliyor,
+# 1810'u hiç; hata bu yüzden aylarca görünmedi.
+#
+# Bu kontrol örnekleme yapmaz: her yerleşimin bütün s/d/v pencerelerini sıraya
+# dizip aralarındaki boşluğu ARAR. Kesitli ölçüm kalıyor (kuruluş devri ve
+# kasten boş noktalar için ondan okunuyor), bu onun üstüne biniyor.
+#
+# Penceresi HİÇ OLMAYAN noktalar buraya girmez — onlar kasten boş dolgu
+# noktaları ve zaten Değişmez 1'in 34'lük sayısında görünüyorlar.
+BEKLENEN_BOSLUK = 0
+
+
+def degismez1b(Y):
+    """Pencereleri arasında sahipsiz aralık kalan yerleşimleri döker."""
+    bulunan = []
+    for y in Y:
+        araliklar = []
+        for kat in ("s", "d", "v"):
+            for p in (y.get(kat) or []):
+                if p.get("f") and p.get("t"):
+                    araliklar.append((p["f"], p["t"]))
+        if not araliklar:
+            continue                      # kasten boş dolgu noktası
+        araliklar.sort()
+        # örtüşenleri birleştir (s×d/v örtüşmesi kasıtlı, bkz. dönem sağlığı)
+        birlesik = [list(araliklar[0])]
+        for f, t in araliklar[1:]:
+            if f <= birlesik[-1][1]:
+                birlesik[-1][1] = max(birlesik[-1][1], t)
+            else:
+                birlesik.append([f, t])
+        for i in range(len(birlesik) - 1):
+            bas, son = birlesik[i][1], birlesik[i + 1][0]
+            gun = gun_no(son) - gun_no(bas)
+            bulunan.append((gun, y["ad"], bas, son))
+    bulunan.sort(reverse=True)
+    return bulunan
 
 
 # ---------------- Değişmez 2 — sessiz toprak değişimi yok ----------------
@@ -188,37 +257,87 @@ def degismez3(Y):
 # Ölçüt: aynı YIL içinde başlıkların kelime kümesi benzerliği (Jaccard) >= 0.45.
 # İlk denemede "başlığın ilk 40 karakteri" kullanılmıştı ve farklı sözcüklerle
 # yazılmış aynı olayı kaçırıyordu ("Sefarad Yahudilerinin" / "Yahudilerin").
+#
+# ⚠️ İKİNCİ TUR SERTLEŞTİRME — hatalar 5.docx madde 3 ve 4 ve 5
+# Kullanıcı elle on üç mükerrer daha buldu, bu araç hiçbirini görmemişti. İki
+# kör noktası vardı:
+#   1) YIL kutusu. Eşleştirme yalnız aynı takvim yılı içinde yapılıyordu; yılı
+#      kayan çiftler tamamen görünmezdi — Selimiye (1574 / 1575), Sultanahmet
+#      (1616 / 1617), Barbaros'un kaptan-ı deryalığı (1533 / 1534), Karayazıcı
+#      (1596 / 1599). Artık ölçüt ±400 GÜN.
+#   2) Türkçe ekler. Tam kelime karşılaştırıldığı için "Paşa'nın" ≠ "Paşa",
+#      "öldürülmesi" ≠ "öldürüldü", "sadrazam" ≠ "sadrazamlığa" sayılıyordu;
+#      Sokullu suikasti bu yüzden 0.25 çıkıp eşiğin altında kalmıştı. Artık
+#      Türkçe harfler katlanıyor ve kelimeler 6 harflik köke indiriliyor.
+# Eşik 0.45 → 0.34: yukarıdaki iki düzeltmeyle birlikte on üç mükerrerin hepsi
+# yakalandı. Doğru pozitif oranını korumak için gerçekten AYRI olan çiftler
+# aşağıya tek tek yazıldı — listeye eklemeden önce iki maddeyi de OKU.
 BILINEN_AYRI = {
     ("Halep'in Osmanlı hâkimiyetine girişi", "Şam'ın (Dımaşk) Osmanlı hâkimiyetine girişi"),
     ("Rodos'un İtalyan işgali", "Onikiada'nın İtalyan işgali"),
     ("Erzurum Kongresi'nin toplanması", "Sivas Kongresi'nin toplanması"),
+    ("Koron'un Venedik'e kaybı", "Modon'un Venedik'e kaybı"),
+    ("Ayamavra'nın (Lefkada) Venedik'e kaybı", "Koron'un Venedik'e kaybı"),
+    ("Hotin Kalesi'nin Ruslara kaybı", "Bender'in Ruslara kaybı"),
+    ("Alemdar Mustafa Paşa'nın ölümü", "Alemdar Mustafa Paşa ordusuyla İstanbul'a girdi"),
+    ("Şah Abbas'ın karşı taarruzu — Tebriz'in kaybı", "Revan'ın Şah Abbas'a kaybı"),
+    ("Köprühisar'ın alınışı ve Yenişehir'in kuruluşuna hazırlık", "Yenişehir'in kuruluşu"),
+    ("Mudanya limanının abluka altına alınışı", "Mudanya'nın alınışı"),
+    ("Tomanbay'ın Kahire'de Memlük sultanı ilân edilmesi",
+     "Son Memlük sultanı Tomanbay'ın Terrûce'de yakalanması"),
+    ("Oruç Ovası zaferi ve Canbolatoğlu isyanının bastırılması",
+     "Alaçayır zaferi ve Kalenderoğlu isyanının bastırılması"),
+    ("Barbaros'un Kuzey Ege seferi: İskiros ve Kuzey Sporadlar'ın alınması",
+     "Barbaros'un Ege seferi: Venedik'in doğrudan yönettiği adaların alınması"),
+    ("Kadızadeliler hareketinin Köprülü Mehmed Paşa tarafından bastırılması",
+     "Köprülü Mehmed Paşa'nın şartlı kabulle sadrazamlığa atanması"),
+    ("Sofya'nın fethi", "Niş'in fethi"),
+    ("Kudüs'ün kaybı", "Şam'ın kaybı"),
 }
+
+MUKERRER_ESIK = 0.34
+MUKERRER_GUN = 400          # ±400 gün: yıl kayması olan çiftleri de yakalar
+
+# Anlam taşımayan, her başlıkta geçen kelimeler benzerliği şişiriyordu.
+_DURAK = {"osmanl", "sultan", "kalesi", "pasan", "seferi"}
+_KATLA = str.maketrans({"ı": "i", "İ": "i", "ç": "c", "ğ": "g", "ö": "o",
+                        "ş": "s", "ü": "u", "â": "a", "î": "i", "û": "u",
+                        "Â": "a", "Î": "i", "Û": "u"})
 
 
 def _kelimeler(b):
-    t = "".join(c if (c.isalpha() or c == " ") else " " for c in b.lower())
-    return {w for w in t.split() if len(w) > 3}
+    """Türkçe ekleri yutan kaba kök kümesi: harf katla → 6 harfe kırp."""
+    t = b.lower().translate(_KATLA)
+    t = "".join(c if (c.isalpha() or c == " ") else " " for c in t)
+    kok = {w[:6] for w in t.split() if len(w) > 3}
+    return kok - _DURAK
+
+
+def _gun_no(t):
+    p = (t + "-01-01").split("-")
+    return date(int(p[0]), int(p[1]), int(p[2])).toordinal()
 
 
 def mukerrer_maddeler(O):
-    yillar = {}
-    for o in O:
-        yillar.setdefault(o["t"][:4], []).append(o)
+    """Başlıkları benzer VE tarihleri ±400 gün içinde olan çiftleri döker."""
+    S = sorted(O, key=lambda o: o["t"])
     bulunan = []
-    for yil, l in yillar.items():
-        for i in range(len(l)):
-            for j in range(i + 1, len(l)):
-                a, b = _kelimeler(l[i]["b"]), _kelimeler(l[j]["b"])
-                if not a or not b:
-                    continue
-                ortak = len(a & b)
-                oran = ortak / (len(a) + len(b) - ortak)
-                if oran < 0.45:
-                    continue
-                cift = (l[i]["b"], l[j]["b"])
-                if cift in BILINEN_AYRI or cift[::-1] in BILINEN_AYRI:
-                    continue
-                bulunan.append((yil, oran, l[i], l[j]))
+    for i in range(len(S)):
+        gi = _gun_no(S[i]["t"])
+        for j in range(i + 1, len(S)):
+            if _gun_no(S[j]["t"]) - gi > MUKERRER_GUN:
+                break                       # sıralı: bundan sonrası daha da uzak
+            a, b = _kelimeler(S[i]["b"]), _kelimeler(S[j]["b"])
+            if not a or not b:
+                continue
+            ortak = len(a & b)
+            oran = ortak / (len(a) + len(b) - ortak)
+            if oran < MUKERRER_ESIK:
+                continue
+            cift = (S[i]["b"], S[j]["b"])
+            if cift in BILINEN_AYRI or cift[::-1] in BILINEN_AYRI:
+                continue
+            bulunan.append((S[i]["t"][:4], oran, S[i], S[j]))
     return bulunan
 
 # ---------------- Ek denetim — dönem sağlığı ----------------
@@ -227,6 +346,80 @@ def mukerrer_maddeler(O):
 # uzunluklu dönemi (Çaldıran sonrası hiç Osmanlı görünmemesi) tam bu türden
 # bir hataydı ve üç değişmez onu yakalayamazdı — biri o pencerede zaten
 # sahipsizdi/kırılmasızdı diye değil, dönem baştan geçersizdi diye.
+# ---------------- Ek denetim — KONUM (altıncı denetim) ----------------
+# hatalar 2-3 oturumunun devir notu: denetim/MASKE-DISI-NOKTALAR.md
+#
+# Üç değişmez de VERİ TUTARLILIĞINA bakıyor; hiçbiri noktanın gerçekten KARADA
+# olup olmadığına bakmıyor. Kara maskesinin dışında kalan nokta hiç toprak
+# sahibi olamaz — peteği ada kuralı tarafından haklı olarak kesilir ve o
+# yerleşimin BÜTÜN fetih/kayıp maddeleri haritada hiçbir değişim göstermez.
+# Belirti sessizdir: denetim temiz raporlar, harita yanlış çizer.
+#
+# Yaşanmış: kullanıcı "Taman yarımadasının alınışı maddesinde haritada hiçbir
+# değişiklik olmuyor, 1482" dedi. Tarih düzeltildi ama yarımada hâlâ 1475'te
+# el değiştiriyordu; sebep Taman'ın 740 m açıkta kalmasıydı. Arama bütün kümeye
+# yayılınca 36 nokta çıktı — Gelibolu dâhil (1354 fethi, 1366 kaybı, 1416 deniz
+# savaşı: hiçbiri haritaya yansımıyordu). Hepsi en yakın kara hücresine
+# kaydırıldı; en büyük sapma 1.39 km, yani normal yakınlaştırmada piksel altı.
+#
+# Maske uret_petek.py'nin kurduğunun BİREBİR aynısı olmalı: BOLGE kırpması,
+# KARA_TOL sadeleştirmesi ve göl çıkarma kuralı (modern baraj gölleri hariç).
+# Aksi hâlde araç ile motor farklı şey ölçer.
+BEKLENEN_MASKE_DISI = 0
+_BOLGE_KUTU = (-12, 1.5, 62, 62)
+_KARA_TOL = 0.002
+_DOGAL_GOL = {"Lake Il'Men'", "Ozero Kubenskoye", "Mjøsa", "Kostroma Reservoir"}
+
+
+def konum_denetimi(Y):
+    """Maske dışındaki noktaları (km, ad, lat, lon, en_yakın_lat, en_yakın_lon)
+    olarak döker. shapely ya da veri-kaynak yoksa None."""
+    try:
+        from shapely.geometry import shape, box, Point
+        from shapely.ops import unary_union, nearest_points
+    except ImportError:
+        return None
+    kaynak = os.path.join(KOK, "veri-kaynak")
+    kara_yol = os.path.join(kaynak, "ne_10m_land.geojson")
+    if not os.path.exists(kara_yol):
+        return None
+    bolge = box(*_BOLGE_KUTU)
+    ne = json.load(io.open(kara_yol, encoding="utf-8"))
+    kara = unary_union([shape(f["geometry"]).buffer(0).intersection(bolge)
+                        for f in ne["features"]
+                        if shape(f["geometry"]).envelope.intersects(bolge)])
+    kara = kara.buffer(0).simplify(_KARA_TOL, preserve_topology=True).buffer(0)
+    gol_yol = os.path.join(kaynak, "ne_10m_lakes.geojson")
+    if os.path.exists(gol_yol):
+        gs = []
+        for f in json.load(io.open(gol_yol, encoding="utf-8"))["features"]:
+            p = f["properties"]
+            g = shape(f["geometry"]).buffer(0)
+            if not (g.envelope.intersects(bolge) and g.area > 0.02):
+                continue
+            ad = p.get("name") or ""
+            yil = p.get("year") or -99
+            if (p.get("featurecla") == "Reservoir" and ad not in _DOGAL_GOL
+                    and (yil >= 1900 or p.get("dam_name"))):
+                continue                      # modern baraj gölü: kara sayılır
+            g = g.intersection(bolge)
+            if not g.is_empty:
+                gs.append(g)
+        if gs:
+            goller = unary_union(gs).buffer(0).simplify(0.01, preserve_topology=True).buffer(0)
+            kara = kara.difference(goller).buffer(0)
+    disarida = []
+    for y in Y:
+        p = Point(y["lon"], y["lat"])
+        if kara.covers(p):
+            continue
+        ic, _ = nearest_points(kara, p)
+        km = 111.32 * ((ic.x - y["lon"]) ** 2 + (ic.y - y["lat"]) ** 2) ** 0.5
+        disarida.append((km, y["ad"], y["lat"], y["lon"], ic.y, ic.x))
+    disarida.sort(reverse=True)
+    return disarida
+
+
 def donem_sagligi(Y):
     sifir, ters, cakisan_ayni, sd_ortusme, dv_ortusme = [], [], [], [], []
 
@@ -301,6 +494,24 @@ def main():
         for ad, yillar in sahipsiz.items():
             print(f"    {ad:<28} {', '.join(str(y) for y in yillar)}")
 
+    # Değişmez 1b — pencere arası boşluk (örneklemesiz; kesitlerin kaçırdığını yakalar)
+    bosluk = degismez1b(Y)
+    durum1b = "✓" if len(bosluk) <= BEKLENEN_BOSLUK else "✗"
+    if len(bosluk) > BEKLENEN_BOSLUK:
+        ihlal = True
+    print(f"Değişmez 1b {durum1b}  pencere arası boşluk: {len(bosluk)} "
+          f"(beklenen {BEKLENEN_BOSLUK}) — örnekleme YAPILMAZ, tam tarama")
+    for gun, ad, bas, son in (bosluk if args.ayrinti else bosluk[:15]):
+        print(f"    {ad:<28} {bas} → {son}  ({gun} gün sahipsiz)")
+    if bosluk:
+        print("            ⚠️ BU KONTROL YENİ (2026-07-30) ve ilk koşuda 20 boşluk buldu;")
+        print("               hepsi ÖLÇÜLDÜ, düzeltme Oturum 0'a ait ve sırada. Başka bir")
+        print("               oturum bunları görüp yerlesimler.js'e YAZMASIN — dosya devri")
+        print("               sözle yapılır (CLAUDE.md §7 kilit kuralı). Bilinen küme:")
+        print("               Varşova (Varşova Dükalığı 1806-1815 hiç yazılmamış) · Doha ·")
+        print("               Bicâye · Hacıbey · Ankara bozgunu sonrası 16 Anadolu şehri")
+        print("               (1402-07-28 → 09-15: Timur'un elindeydi, 'timurlu' yazılacak)")
+
     # Değişmez 2
     kir, acik = degismez2(Y, O)
     n2_kirilma, n2_acik = len(kir), len(acik)
@@ -355,6 +566,23 @@ def main():
             print(f"    [%{oran*100:.0f}] {yil}  {a['t']}  {a['b'][:56]}")
             print(f"           {b['t']}  {b['b'][:56]}")
         print("    → gerçekten ayrı olaylarsa denetle.py'deki BILINEN_AYRI kümesine ekle")
+
+    # Ek denetim — KONUM: her nokta kara maskesinin içinde mi
+    kd = konum_denetimi(Y)
+    if kd is None:
+        print("Ek denetim  i  konum: shapely ya da veri-kaynak yok, ATLANDI")
+    else:
+        durum6 = "✓" if not kd else "✗"
+        if kd:
+            ihlal = True
+        print(f"Ek denetim  {durum6}  konum: {len(kd)} nokta kara maskesinin dışında "
+              f"(beklenen {BEKLENEN_MASKE_DISI})")
+        for km, ad, lat, lon, ylat, ylon in (kd if args.ayrinti else kd[:25]):
+            print(f"    {ad:<26} {km:5.2f} km dışarıda  {lat:.4f},{lon:.4f} "
+                  f"→ en yakın kara {ylat:.4f},{ylon:.4f}")
+        if kd:
+            print("    → koordinatı en yakın kara hücresine kaydır (payla birlikte);"
+                  " maske dışındaki nokta HİÇ toprak sahibi olamaz")
 
     print()
     if ihlal:
