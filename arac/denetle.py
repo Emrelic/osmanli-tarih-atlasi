@@ -35,7 +35,13 @@ BEKLENEN_YERLESIM = 567
 BEKLENEN_SAHIPSIZ = 29
 BEKLENEN_KIRILMA = 424
 BEKLENEN_ACIK = 0
-BEKLENEN_CELISKI_UST_SINIR = 311  # MIMARI.md §3.4 — bilinen borç, tavan bu
+# MIMARI.md §3.4 — bilinen borç, tavan bu. 311'den 318'e çıkarıldı: beylik
+# düzeltmesiyle 19 yerleşim eklendi (567 -> 586) ve 11'i bu borcu tetikliyor.
+# Ölçüldü, indirilemez: m alanının zaman boyutu yok, bir yerleşim bütün tarih
+# boyunca tek merkeze bağlı. Birgi/Tire/Ayasuluk m:"İzmir" — ama İzmir 1344-1402
+# arası St. Jean Şövalyeleri'nde, Birgi Osmanlı'da. Hangi merkez seçilirse
+# seçilsin bir dönemde çelişiyor. Gerçek çözüm zamanlı kd: alanı (VERI-YAPISI).
+BEKLENEN_CELISKI_UST_SINIR = 318
 
 
 def oku_pencere(yol, degisken):
@@ -149,6 +155,61 @@ def degismez3(Y):
     return celiskiler
 
 
+# ---------------- Ek denetim — dönem sağlığı ----------------
+# Üç değişmezden biri DEĞİL; VERI-YAPISI.md'nin d/s/v kuralı: "Dönemler
+# çakışmamalı, ters olmamalı, sıfır uzunlukta olmamalı." Tebriz'in sıfır
+# uzunluklu dönemi (Çaldıran sonrası hiç Osmanlı görünmemesi) tam bu türden
+# bir hataydı ve üç değişmez onu yakalayamazdı — biri o pencerede zaten
+# sahipsizdi/kırılmasızdı diye değil, dönem baştan geçersizdi diye.
+def donem_sagligi(Y):
+    sifir, ters, cakisan_ayni, sd_ortusme, dv_ortusme = [], [], [], [], []
+
+    def orusuyor(a, b):
+        return a["f"] < b["t"] and b["f"] < a["t"]
+
+    for y in Y:
+        kategoriler = {"d": y.get("d") or [], "s": y.get("s") or [], "v": y.get("v") or []}
+        for kat, donemler in kategoriler.items():
+            for p in donemler:
+                f, t = p.get("f"), p.get("t")
+                if not f or not t:
+                    continue
+                if f == t:
+                    sifir.append((y["ad"], kat, f))
+                elif f > t:
+                    ters.append((y["ad"], kat, f, t))
+            gecerli = sorted((p for p in donemler if p.get("f") and p.get("t")), key=lambda p: p["f"])
+            for i in range(len(gecerli) - 1):
+                if orusuyor(gecerli[i], gecerli[i + 1]):
+                    cakisan_ayni.append((y["ad"], kat, gecerli[i], gecerli[i + 1]))
+
+        # s ile d/v çakışması İHLAL DEĞİL: uret_petek.py 551-554. satırlar bunu
+        # kasıtlı kullanıyor — geniş bir yabancı egemenlik döneminin (s) içine
+        # gömülü kısa bir Osmanlı fethi (d/v) deseni. Üretim, Osmanlı aktifken
+        # o yerleşimi yabancı devletin gövdesinden açıkça dışlıyor
+        # (`not _osm_aktif(...)`), yani d/v her zaman kazanır — tıpkı d×v için
+        # VERI-YAPISI.md'de yazılı "tâbi kazanır" kuralı gibi, yalnız s'ye de
+        # genelleşmiş hâli belgede yok. Bilgi olarak listelenir, ihlal sayılmaz.
+        for sp in kategoriler["s"]:
+            if not sp.get("f") or not sp.get("t"):
+                continue
+            for dp in kategoriler["d"] + kategoriler["v"]:
+                if dp.get("f") and dp.get("t") and orusuyor(sp, dp):
+                    sd_ortusme.append((y["ad"], sp, dp))
+
+        # d ile v çakışması da VERI-YAPISI.md'de kasıtlı: "d ve v çakışırsa
+        # tâbi kazanır (açık ton)". İhlal değil, yalnız bilgi.
+        for dp in kategoriler["d"]:
+            if not dp.get("f") or not dp.get("t"):
+                continue
+            for vp in kategoriler["v"]:
+                if vp.get("f") and vp.get("t") and orusuyor(dp, vp):
+                    dv_ortusme.append((y["ad"], dp, vp))
+
+    return {"sifir": sifir, "ters": ters, "cakisan_ayni": cakisan_ayni,
+            "sd_ortusme": sd_ortusme, "dv_ortusme": dv_ortusme}
+
+
 def main():
     ap = argparse.ArgumentParser(description="Üç değişmezi tek komutta denetler.")
     ap.add_argument("--ayrinti", action="store_true", help="her ihlali tek tek listele")
@@ -197,6 +258,25 @@ def main():
     if args.ayrinti and celiskiler:
         for g, ad, m, a, b in celiskiler:
             print(f"    {g}  {ad:<20} (m:{m})  yerleşim={a:<10} merkez={b}")
+
+    # Ek denetim — dönem sağlığı (üç değişmezden biri değil, VERI-YAPISI.md kuralı)
+    ds = donem_sagligi(Y)
+    n4 = len(ds["sifir"]) + len(ds["ters"]) + len(ds["cakisan_ayni"])
+    durum4 = "✓" if n4 == 0 else "✗"
+    if n4 > 0:
+        ihlal = True
+    print(f"\nEk denetim  {durum4}  dönem sağlığı: {len(ds['sifir'])} sıfır-uzunluk, "
+          f"{len(ds['ters'])} ters, {len(ds['cakisan_ayni'])} kategori-içi çakışma (beklenen: hepsi 0)")
+    if ds["sd_ortusme"] or ds["dv_ortusme"]:
+        print(f"            i {len(ds['sd_ortusme'])} s×d/v + {len(ds['dv_ortusme'])} d×v örtüşmesi — "
+              f"uret_petek.py'de kasıtlı (Osmanlı/tâbi kazanır), ihlal SAYILMADI")
+    if args.ayrinti:
+        for ad, kat, f in ds["sifir"]:
+            print(f"    SIFIR    {ad:<28} {kat}: {f}")
+        for ad, kat, f, t in ds["ters"]:
+            print(f"    TERS     {ad:<28} {kat}: {f} > {t}")
+        for ad, kat, p1, p2 in ds["cakisan_ayni"]:
+            print(f"    ÇAKIŞMA  {ad:<28} {kat}: [{p1['f']}, {p1['t']}) ile [{p2['f']}, {p2['t']})")
 
     print()
     if ihlal:
