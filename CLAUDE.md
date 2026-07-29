@@ -4,12 +4,22 @@ Bu dosya Claude Code tarafından oturum açılışında otomatik okunur. Projeni
 olduğunu, nasıl çalıştığını, hangi kuralların **ihlal edilemez** olduğunu ve senin
 oturumunun hangi dosyalara dokunabileceğini anlatır.
 
+## Belge seti
+
+| Belge | Ne anlatır | Ne zaman okunur |
+|---|---|---|
+| **`CLAUDE.md`** (bu dosya) | **Nasıl çalışılır** — kurallar, değişmezler, dosya sahipliği, tuzaklar, komutlar | **Her oturumda, baştan sona** |
+| `YOL-HARITASI.md` | **Nereye gidiyoruz** — beş eksen, fazlar, bağımlılıklar | Her oturumda |
+| `YAPILACAKLAR.md` | **Sıradaki işler** — öncelikli iş listesi | Her oturumda |
+| `MIMARI.md` | **Motor ve teknik borç** — petek motoru, çözülmemiş dört sorun | Motora/veri modeline dokunacaksan **şart** |
+| `VERI-YAPISI.md` | **Şemalar ve alan sözlüğü** — hangi alan ne demek | Veri yazacaksan **şart** |
+| `oturumlar/*.md` | **Görev tanımları** — belirli bir oturumun işi | Sana ait olan varsa |
+
 **Oturuma başlarken sırayla:**
 1. Bu dosyayı baştan sona oku — özellikle §2 (motorun zayıf noktası), §3 (üç
    değişmez), §4 (kaynak kuralı) ve §7 (dosya sahipliği).
-2. `YOL-HARITASI.md` — dünya kapsamına geçiş planı, altı katman, faz sırası,
-   çözülmemiş dört yapısal sorun. Motora ya da veri modeline dokunacaksan **şart**.
-3. `PLAN.md` — vizyon, mimari özet, kapsam genişleme sırası.
+2. `YOL-HARITASI.md` ve `YAPILACAKLAR.md` — nerede durduğumuz ve ne yapılacağı.
+3. İşinin cinsine göre `MIMARI.md` ve/veya `VERI-YAPISI.md`.
 4. `oturumlar/` altında **senin oturumuna ait görev tanımı** varsa onu oku; asıl
    işin tarifi oradadır.
 5. `git log --oneline -10` — son ne yapılmış.
@@ -69,33 +79,17 @@ gerekir. Projenin bütün kalite kuralları (§3) bu tek cümleden türer.
 | **Dünya kapsamı: yerleşimler** | 🔴 Başlanmadı (Oturum 4) |
 | **Dünya kapsamı: harita penceresi** | 🔴 Başlanmadı; §6'daki sıra beklenecek |
 
-## 1.6 Sıradaki işler (öncelik sırasıyla)
+## 1.6 Kapsam disiplini
 
-Tam gerekçeler ve faz planı: **`YOL-HARITASI.md`**.
+Proje beş eksende genişler: **zaman · coğrafya · devletler · konu başlıkları ·
+şahıslar** (ayrıntı: `YOL-HARITASI.md`). Bugün bunlardan yalnız ikisi aktiftir.
 
-1. **Görsel doğrulama turu.** Bugüne kadarki bütün denetimler veriye bakarak yapıldı;
-   haritanın gerçekten nasıl göründüğüne (Macaristan'ın şekli, Fetret renkleri, ada
-   gövdeleri, 13 yeni devlet renginin birbirine karışıp karışmadığı) hiç bakılmadı.
-2. **Dünya kapsamından ÖNCE bitmesi gereken dört motor işi** — bunlar yapılmadan
-   eklenen her yerleşim borç üretir:
-   - çok dosyalı girdi: motor `data/yerlesimler_*.js` desenini okusun (§3.3)
-   - **zaman dilimli Voronoi** + `bit:` alanı — bugün diyagram bütün tarih için bir
-     kez hesaplanıyor, yani 1869'da kurulan şehir 1300'ün haritasını değiştiriyor
-   - `k`/`m` alanlarının zamanlı hâle gelmesi (Değişmez 3)
-   - **çıktı mimarisi**: bugün 567 nokta 27 MB üretiyor; dünya ölçeğinde yüzlerce
-     MB olur. Petek geometrisi bir kez yazılıp sahiplik ayrı tabloda tutulmalı.
-3. **Devletler dizininin dünya kapsamına çıkarılması** — `oturumlar/OTURUM-3-DEVLETLER.md`.
-4. **Dizin ↔ harita kimlik eşleşmesi.** Devlet kimliği iki yerde tutuluyor ve
-   ayrışmış: `data/devletler.js` (77 kayıt) ile `uret_petek.py` içindeki `BOYALAR`
-   (97 kayıt). Dizinde `habsburg` / haritada `avusturya`, dizinde `cenova` / haritada
-   `ceneviz` gibi. Haritada olup dizinde hiç karşılığı olmayan **53 devlet** var.
-   Çözüm: `devletler.js` kayıtlarına `harita:"<BOYALAR id>"` alanı eklenecek; mevcut
-   `id`'ler değiştirilmeyecek.
-5. **Faz B yerleşim katmanı** — Avrupa, Kuzey ve Doğu Afrika, Ortadoğu, İran,
-   Kafkasya, Doğu Avrupa (Oturum 4); sonra harita penceresinin açılması.
-6. **Kronoloji yoğunlaştırma** — 1453-1923 arası ay ay detay (Oturum 7).
-7. **Sınırların Pitcher atlasıyla nokta doğrulaması.**
-8. Alan adı kararı (isteğe bağlı; ~10 dk: depo ayarları > Pages > Custom domain).
+> **Şu anda konumuz yalnızca DEVLETLER ve SINIRLARIDIR.**
+> Askerî yapı, sosyal yapı, bilim-teknoloji, kültür-sanat, felsefe, din ve şahıs
+> maddeleri sonraki fazların işidir. Bir oturum bunlara girmeye kalkarsa kapsamı
+> aşıyor demektir.
+
+Sıradaki işler ve öncelikleri: **`YAPILACAKLAR.md`**.
 
 ---
 
@@ -124,7 +118,7 @@ Bütün geometri `data/yerlesimler.js`'ten **her gün için yeniden** üretilir.
 
 ## 3. İhlal edilemez değişmezler
 
-Her veri değişikliğinden sonra ikisi de denetlenir. Denetim betikleri geçici
+Her veri değişikliğinden sonra üçü de denetlenir. Denetim betikleri geçici
 dosyalardır; aşağıdaki komutlar kendi kendine yeterlidir.
 
 ### Değişmez 1 — Sahipsizlik yok
@@ -241,8 +235,15 @@ arac/uret_donemler.py   ☠️ ESKİ MOTOR — kullanılmıyor, referans için d
 
 oturumlar/              Ayrı oturumlara verilen görev tanımları ve ilerleme notları
 assets/portreler/       36 padişah portresi (kamu malı, Wikimedia)
-PLAN.md                 Vizyon, faz planı, kapsam genişleme sırası, oturum tablosu
+
+CLAUDE.md               Bu dosya — nasıl çalışılır
+YOL-HARITASI.md         Beş eksen, fazlar, bağımlılıklar
+YAPILACAKLAR.md         Öncelikli iş listesi
+MIMARI.md               Petek motoru, çözülmemiş dört yapısal sorun, teknoloji kararları
+VERI-YAPISI.md          Şemalar, alan sözlüğü, kaynak seti
 ```
+
+Alan alan şema açıklaması **`VERI-YAPISI.md`**'dedir; veri yazmadan önce oku.
 
 ---
 
@@ -250,15 +251,17 @@ PLAN.md                 Vizyon, faz planı, kapsam genişleme sırası, oturum t
 
 Hedef bütün dünya; ama §2'deki emilme davranışı yüzünden sıra **atlanamaz**:
 
-1. **Dizin katmanı** (`data/devletler.js`) — dünya çapında devlet listesi ve
-   kronolojileri. Haritayı etkilemez, risksiz.
-2. **Yerleşim katmanı** (`data/yerlesimler.js`) — yeni coğrafyalarda nokta yoğunluğu.
+1. **Dizin katmanı** (`data/devletler.js`) — devlet listesi ve kronolojileri.
+   Haritayı etkilemez, risksiz.
+2. **Yerleşim katmanı** — yeni coğrafyalarda nokta yoğunluğu; ölçüt `MIMARI.md` §5.
 3. **Harita penceresi** — `uret_petek.py` içindeki `BOLGE = box(-12, 1.5, 62, 62)`
    kutusu genişletilir.
 
 > **Nokta yoğunluğu sağlanmadan `BOLGE` kutusunu açma.** Mevcut 567 peteğin
 > kenardakileri bütün dünyaya yayılır: Kars'ın peteği Çin'i, Fas'ınki Atlantik'i
 > boyar. Kutu yalnız kapsanan bölge için ve kademe kademe açılır.
+
+Faz listesi ve her fazın yedi adımlık iş akışı: `YOL-HARITASI.md`, Eksen 2.
 
 ---
 
@@ -270,7 +273,7 @@ gibi tek satırlık kayıtlardan oluşan dosyalarda **sessiz veri kaybı** olur.
 
 | Oturum | Yalnız bu dosyalara yazar | Model |
 |---|---|---|
-| **0 Entegrasyon** | `yerlesimler.js`, `uret_petek.py`, üretilen `data/*.js`, `PLAN.md`, `CLAUDE.md` | Opus |
+| **0 Entegrasyon** | `yerlesimler.js`, `uret_petek.py`, üretilen `data/*.js`, kök dizindeki `*.md` belgeleri | Opus |
 | 1 Yazılım/arayüz | `index.html`, `js/app.js`, `css/style.css` | Sonnet |
 | 2 Harita hata avı | hiçbiri — sadece okur → `denetim/BULGULAR-*.md` | Opus |
 | 3 Devlet kronolojileri | `data/devletler.js` | Sonnet |
@@ -296,38 +299,17 @@ Yeni bir oturum başlatılacaksa görev tanımı `oturumlar/` altına yazılır
 
 ## 8. Veri biçimleri
 
-### `data/yerlesimler.js` — coğrafi çekirdek
-```js
-{ ad:"Preveze", tur:"liman", lat:38.958, lon:20.751, g:1, k:4, m:"Yanya",
-  s:[{f:"1281-01-01",t:"1449-01-01",d:"bizans"}],      // yabancı sahipler
-  d:[{f:"1449-01-01",t:"1684-09-29"}],                  // doğrudan Osmanlı
-  v:[{f:"1832-06-15",t:"1833-06-30",k:"Mısır ordusu (işgal)"}],  // tâbi/işgal
-  kur:"1716-01-01" },                                   // kuruluş (varsa)
-```
-- `s:` yabancı sahip dönemleri — `d:` alanındaki devlet kimliği `uret_petek.py`
-  içindeki **`BOYALAR` sözlüğünde tanımlı olmalı**, yoksa üretim uyarı verir.
-- `d:` doğrudan Osmanlı, `v:` tâbi/dolaylı (haritada açık tonla ayrı katman).
-  İkisi çakışırsa **tâbi kazanır**.
-- `y:` kazanım biçimi: `savas` | `kusatma` | `antlasma` | `miras` …
-- `g:` görünürlük kademesi (0-2), `k:` idari kademe (0-4), `m:` bağlı olduğu merkez
-  — `m` bir k1/k2 merkezinin adına birebir eşleşmeli.
+Alan alan tam şema, alan sözlüğü ve kaynak seti: **`VERI-YAPISI.md`**. Veri yazmadan
+önce oku. Burada yalnız en sık ihlal edilen üç kural:
+
+- `yerlesimler.js`'te `s:[{d:"..."}]` içindeki devlet kimliği, `uret_petek.py`
+  içindeki **`BOYALAR` sözlüğünde tanımlı olmalı**; yoksa bölge boyanmaz.
 - **Dönemler çakışmamalı, ters olmamalı, sıfır uzunlukta olmamalı.** Sıfır uzunluk
   gerçek bir hata olarak yaşandı: Tebriz `{f:"1514-09-06",t:"1514-09-06"}` yüzünden
   Çaldıran'dan sonra hiç Osmanlı görünmedi.
-
-### `data/olaylar*.js` — kronoloji
-```js
-{ t:"1427-06-01", k:"fetih", etiket:["toprak-kazanc"],
-  b:"Kısa başlık", gun:"1427", yer:"Ordu, Ünye", kisiler:"II. Murad",
-  d:"2-4 cümlelik detay paragrafı.", kaynak:"ordu--sehir" },
-```
-`kaynak` = TDV slug'ı (§4'e göre doğrulanmış). `t` ay hassasiyetliyse (`"1526-08"`)
-ayın 1'ine genişler — bu, gün hassasiyetli yerleşim değişimlerinden **önce**
-sıralanmasına yol açar; senkron için gün yaz.
-
-### `data/devletler.js` — devletler dizini
-Dosyanın kendi başlığındaki açıklama bloğu biçimi tanımlar. `kronoloji[].b` **kısa
-başlıktır**, detay paragrafı değil — burası bir dizin, `olaylar*.js` değil.
+- Kronoloji maddelerinde **gün yaz.** Ay hassasiyetli `t:"1526-08"` ayın 1'ine
+  genişler ve gün hassasiyetli yerleşim değişimlerinden *önce* sıralanır — senkron
+  bozulur.
 
 ---
 

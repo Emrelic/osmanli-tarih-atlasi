@@ -16,7 +16,8 @@ Zaman çubuğu ilerledikçe harita değişir, yanında o günün kronolojisi ve 
 Harita **petek (Voronoi) motoruyla** üretilir: her yerleşim çevresindeki toprağı temsil
 eden bir hücreye sahiptir, yerleşim el değiştirince hücresi de değişir.
 
-Genel plan ve mimari: **`PLAN.md`** — başlamadan önce oku.
+Belge seti — başlamadan önce oku: **`CLAUDE.md`** (nasıl çalışılır, kurallar),
+**`YOL-HARITASI.md`** (beş eksen ve fazlar), **`VERI-YAPISI.md`** (`devletler.js` şeması).
 
 ## Senin işin
 
@@ -41,8 +42,7 @@ Amerika cumhuriyetleri, Okyanusya krallıkları — hepsi.
 Haritanın kendisi şimdilik dar bir pencerede (Fas–Ural, Norveç–Afrika Boynuzu)
 çiziliyor; bu seni ilgilendirmiyor. **Sen dizin katmanını kuruyorsun, harita
 katmanını değil.** Harita penceresi ancak yerleşim noktaları eklendikten sonra,
-başka bir oturumda kademe kademe açılacak (bkz. PLAN.md, "Kapsam genişlemesinin
-zorunlu sırası").
+başka bir oturumda kademe kademe açılacak (bkz. `YOL-HARITASI.md`, Eksen 2).
 
 ### Ayrıntı düzeyi — dengeyi böyle kur
 Kapsam çok geniş olduğu için her bölgeye aynı çözünürlükte inersen iş bitmez.
@@ -80,7 +80,7 @@ kaybı olur):
 - `arac/uret_petek.py`
 - `data/donemler.js`, `data/devletler_harita.js`, `data/bolgeler.js` (üretilmiş dosyalar)
 - `data/olaylar*.js`
-- `PLAN.md`, `index.html`, `js/app.js`, `css/style.css`
+- kök dizindeki `*.md` belgeleri, `index.html`, `js/app.js`, `css/style.css`
 
 **Yapmayacakların:**
 - `arac/uret_petek.py`'yi ÇALIŞTIRMA. Üretim yalnız entegrasyon oturumundan koşar.

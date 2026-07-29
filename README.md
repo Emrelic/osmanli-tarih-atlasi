@@ -20,5 +20,6 @@ veri setinden çıkarılmış, tarihsel düzeltmeler uygulanmış GeoJSON kesitl
 Altlık harita: Esri World Physical Map.
 
 ## Geliştirme
-Ayrıntılı yol haritası ve doğruluk notları için `PLAN.md` dosyasına bakınız.
+Belge seti: `CLAUDE.md` (nasıl çalışılır), `YOL-HARITASI.md` (beş eksen ve fazlar),
+`YAPILACAKLAR.md` (sıradaki işler), `MIMARI.md` (motor), `VERI-YAPISI.md` (şemalar).
 Sınırlar yaklaşıktır; akademik doğrulama (Pitcher atlası ile nokta kontrol) sürmektedir.

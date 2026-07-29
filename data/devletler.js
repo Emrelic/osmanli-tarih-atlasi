@@ -27,7 +27,7 @@
 // Not: Osmanlı'nın kendi olay/savaş/antlaşma kronolojisiyle çakışan maddeler
 // (ör. Çaldıran, Karlofça) burada da kısaca tekrar edilir çünkü bu dizin
 // HER DEVLETİN kendi tarihini tek yerden okunabilir kılmak için var.
-// Faz 3/4 (PLAN.md) — sınır+isim gösterimi ve hükümdar kronolojileri bu
+// Eksen 3 (YOL-HARITASI.md) — sınır+isim gösterimi ve hükümdar kronolojileri bu
 // indeksten beslenecek; bu ilk partide veri katmanı kuruluyor, harita
 // entegrasyonu (petek üretimi) ayrı bir sonraki adım.
 // ============================================================================
