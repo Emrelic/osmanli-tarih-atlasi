@@ -38,7 +38,7 @@ BEKLENEN_YERLESIM = 740
 # 32 -> 35: Oturum 11 in col/plato dolgu noktalari (Uzboy, Ustyurt bati ve
 # dogu) kasten sahipsiz — Karakum ve Rub ul Hali ile ayni desen.
 BEKLENEN_SAHIPSIZ = 35
-BEKLENEN_KIRILMA = 428
+BEKLENEN_KIRILMA = 427
 BEKLENEN_ACIK = 0
 # MIMARI.md §3.4 — bilinen borç, tavan bu. 311'den 318'e çıkarıldı: beylik
 # düzeltmesiyle 19 yerleşim eklendi (567 -> 586) ve 11'i bu borcu tetikliyor.
@@ -168,6 +168,50 @@ def degismez3(Y):
     return celiskiler
 
 
+
+# ---------------- Ek denetim — mükerrer kronoloji maddesi ----------------
+# Üç değişmezden biri DEĞİL, ama tekrar eden bir hata sınıfı: içerik oturumları
+# kronolojiyi yoğunlaştırırken zaten var olan maddeleri yeniden yazıyor.
+# İki temizlik turunda 26 mükerrer çıktı (Ali Kuşçu, Sefarad göçü, Çandarlı'nın
+# idamı, Mondros, Tanzimat Fermanı...). Kullanıcı bunları haritada tek tek
+# gördü; araç görmüyordu.
+#
+# Ölçüt: aynı YIL içinde başlıkların kelime kümesi benzerliği (Jaccard) >= 0.45.
+# İlk denemede "başlığın ilk 40 karakteri" kullanılmıştı ve farklı sözcüklerle
+# yazılmış aynı olayı kaçırıyordu ("Sefarad Yahudilerinin" / "Yahudilerin").
+BILINEN_AYRI = {
+    ("Halep'in Osmanlı hâkimiyetine girişi", "Şam'ın (Dımaşk) Osmanlı hâkimiyetine girişi"),
+    ("Rodos'un İtalyan işgali", "Onikiada'nın İtalyan işgali"),
+    ("Erzurum Kongresi'nin toplanması", "Sivas Kongresi'nin toplanması"),
+}
+
+
+def _kelimeler(b):
+    t = "".join(c if (c.isalpha() or c == " ") else " " for c in b.lower())
+    return {w for w in t.split() if len(w) > 3}
+
+
+def mukerrer_maddeler(O):
+    yillar = {}
+    for o in O:
+        yillar.setdefault(o["t"][:4], []).append(o)
+    bulunan = []
+    for yil, l in yillar.items():
+        for i in range(len(l)):
+            for j in range(i + 1, len(l)):
+                a, b = _kelimeler(l[i]["b"]), _kelimeler(l[j]["b"])
+                if not a or not b:
+                    continue
+                ortak = len(a & b)
+                oran = ortak / (len(a) + len(b) - ortak)
+                if oran < 0.45:
+                    continue
+                cift = (l[i]["b"], l[j]["b"])
+                if cift in BILINEN_AYRI or cift[::-1] in BILINEN_AYRI:
+                    continue
+                bulunan.append((yil, oran, l[i], l[j]))
+    return bulunan
+
 # ---------------- Ek denetim — dönem sağlığı ----------------
 # Üç değişmezden biri DEĞİL; VERI-YAPISI.md'nin d/s/v kuralı: "Dönemler
 # çakışmamalı, ters olmamalı, sıfır uzunlukta olmamalı." Tebriz'in sıfır
@@ -290,6 +334,18 @@ def main():
             print(f"    TERS     {ad:<28} {kat}: {f} > {t}")
         for ad, kat, p1, p2 in ds["cakisan_ayni"]:
             print(f"    ÇAKIŞMA  {ad:<28} {kat}: [{p1['f']}, {p1['t']}) ile [{p2['f']}, {p2['t']})")
+
+    # Ek denetim — mükerrer kronoloji maddesi
+    mk = mukerrer_maddeler(O)
+    durum5 = "✓" if not mk else "✗"
+    if mk:
+        ihlal = True
+    print(f"Ek denetim  {durum5}  mükerrer madde: {len(mk)} şüpheli çift (beklenen 0)")
+    if mk:
+        for yil, oran, a, b in mk[:20] if not args.ayrinti else mk:
+            print(f"    [%{oran*100:.0f}] {yil}  {a['t']}  {a['b'][:56]}")
+            print(f"           {b['t']}  {b['b'][:56]}")
+        print("    → gerçekten ayrı olaylarsa denetle.py'deki BILINEN_AYRI kümesine ekle")
 
     print()
     if ihlal:
