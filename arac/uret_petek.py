@@ -17,8 +17,11 @@ Girdi : ../data/yerlesimler.js  (ad, koordinat, hâkimiyet dönemleri)
 """
 import json, os, sys, io, math, re
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
-from shapely.geometry import shape, box, Polygon, MultiPolygon, Point, MultiPoint
-from shapely.ops import unary_union, voronoi_diagram, nearest_points
+import shapely
+from shapely.geometry import (shape, box, Polygon, MultiPolygon, Point, MultiPoint,
+                              LineString, MultiLineString)
+from shapely.ops import unary_union, voronoi_diagram, nearest_points, linemerge, polygonize
+from shapely.strtree import STRtree
 from shapely.validation import make_valid
 
 def temiz(q):
@@ -41,157 +44,23 @@ BOLGE = box(-12, 1.5, 62, 62)
 # ---------------- Devlet boya tablosu ----------------
 # Yerleşimlerin s alanındaki kimlikler; her devlet haritada kendi renginde
 # ayrı gövde olarak boyanır (Osmanlı d/v aktifken s bastırılır).
-BOYALAR = {
-    "bizans":     ("Bizans",                 "#8877b8"),
-    "memluk":     ("Memlûk",                 "#c9a15b"),
-    "iran":       ("İran",                   "#b5885b"),
-    "karakoyunlu":("Karakoyunlular",         "#4a5b6b"),
-    "akkoyunlu":  ("Akkoyunlular",           "#b5bcc9"),
-    "safevi":     ("Safevî İran",            "#6b4a7d"),
-    "gurcistan":  ("Gürcistan",              "#6b7da0"),
-    "macaristan": ("Macaristan",             "#4e7d46"),
-    "avusturya":  ("Avusturya (Habsburg)",   "#d9c76a"),
-    "almanya":    ("Kutsal Roma / Almanya",  "#9a9a9a"),
-    "lehistan":   ("Lehistan-Litvanya",      "#b56ba0"),
-    "rusya":      ("Rusya",                  "#4f7d4f"),
-    "altinorda":  ("Altın Orda ve ardılları","#9e7d9e"),
-    "kazan":      ("Kazan Hanlığı",          "#c98f6b"),
-    "kirim":      ("Kırım Hanlığı bozkırı",  "#c9825b"),
-    "isvec":      ("İsveç",                  "#7bb5c9"),
-    "danimarka":  ("Danimarka-Norveç",       "#8f8fb5"),
-    # Eski #b55b6b gül kırmızısıydı (H=349°, S=0.38) — kırmızı tonları Osmanlı
-    # ailesine ayrılmıştır, yabancı devlete verilmez. Mora çekildi.
-    "ingiltere":  ("Britanya",               "#7e3d8f"),
-    "fransa":     ("Fransa",                 "#5b74c9"),
-    "ispanya":    ("İspanya",                "#c98f4a"),
-    "portekiz":   ("Portekiz",               "#6b8ac9"),
-    "granada":    ("Gırnata Emirliği",       "#7ba05b"),
-    "hollanda":   ("Hollanda",               "#d98f5b"),
-    "venedik":    ("Venedik",                "#4a8a8f"),
-    "ceneviz":    ("Ceneviz",                "#8a6b4a"),
-    "napoli":     ("Napoli / İki Sicilya",   "#a67ba0"),
-    "papalik":    ("Papalık",                "#c9c1a3"),
-    "italya":     ("İtalya",                 "#74a074"),
-    "sovalye":    ("St. Jean Şövalyeleri",   "#b0a08a"),
-    "bulgaristan":("Bulgaristan",            "#7aa06a"),
-    "sirbistan":  ("Sırbistan",              "#6a8fa0"),
-    "bosna":      ("Bosna Krallığı",         "#8f7d5b"),
-    "arnavutluk": ("Arnavutluk",             "#8f5b7d"),
-    "yunanistan": ("Yunanistan",             "#6b9ec9"),
-    "romanya":    ("Romanya",                "#c9b56b"),
-    "karadag":    ("Karadağ",                "#9e8f6b"),
-    "yemen":      ("Yemen İmamlığı",         "#b5a05b"),
-    "umman":      ("Umman",                  "#5b9e8f"),
-    "suud":       ("Suûdî / Vehhâbî",        "#8f9e5b"),
-    "sammar":     ("Şammar (Hâil)",          "#a0885b"),
-    # TDV ASÎR: Mondros'tan sonra bölge Osmanlı idaresinden çıktı; Ebhâ'da
-    # Hasan b. Muhammed Âiz'in emirliği kaldı, 1920'de Abdülazîz b. Suûd
-    # Ebhâ'yı zaptetti. Bu 15 ay yazılı olmadığı için Asîr yaylası boştu.
-    "aiz":        ("Âiz Emirliği (Ebhâ)",     "#00897b"),
-    # Lahsa 1670'te Benî Hâlid'e kaybedildi, 1795'te Suûî́lere geçti; arada
-    # hiçbir sahip yazılı olmadığı için bölge haritada boş kalıyordu.
-    "benihalid":  ("Benî Hâlid Emirliği (Lahsa)", "#8a9440"),
-    "hicaz":      ("Hicaz Krallığı",         "#9e8a5b"),
-    "funj":       ("Func (Sennâr) Sultanlığı","#7d6b4a"),
-    "habesistan": ("Habeşistan",             "#7d5b3a"),
-    "adal":       ("Adal / Harar",           "#a08f5b"),
-    "somali":     ("Somali sultanlıkları",   "#b5a06b"),
-    # --- 1918 sonrası ardıl devletler: Habsburg ve Romanov gövdeleri dağılınca
-    # yerine hiçbir sahip yazılmamıştı; Orta Avrupa 1918-1923 karelerinde boştu.
-    "cekoslovakya": ("Çekoslovakya",          "#5d4037"),
-    "polonya":      ("Polonya Cumhuriyeti",   "#ab47bc"),
-    "yugoslavya":   ("Yugoslavya (SHS)",      "#00695c"),
-    "letonya":      ("Letonya",               "#78909c"),
-    "litvanya":     ("Litvanya",              "#a1887f"),
-    "finlandiya":   ("Finlandiya",            "#90a4ae"),
-    "norvec":       ("Norveç",                "#5c6bc0"),
-    # --- İtalya birliğinden (1861) önceki sahipler ---
-    "sardinya":     ("Sardinya-Piyemonte",    "#795548"),
-    "toskana":      ("Floransa / Toskana",     "#9575cd"),
-    "milanoduka":   ("Milano Dukalığı",        "#7986cb"),
-    # Hartum 1885'te düştükten sonra Sudan 14 yıl Mehdî Devleti'ndeydi;
-    # yazılı olmadığı için bölge o pencerede haritada boş kalıyordu.
-    "mehdi":        ("Mehdî Devleti (Sudan)",  "#4e342e"),
-    # --- Func Sultanlığı'ndan (1504) önceki Hıristiyan Nûbe krallıkları ---
-    "nube":         ("Nûbe krallıkları (Makurya-Alve)", "#6d4c41"),
-    "fas":        ("Fas",                    "#9e6b5b"),
-    # --- Anadolu beylikleri (Osmanlı kuruluş coğrafyasının fetih öncesi sahipleri) ---
-    "karaman":    ("Karamanoğulları",         "#4527a0"),
-    # Eski #8f6b3a Ceneviz'e (#8a6b4a) ΔE 9.5, Hamîd'e 12.8, Ahi'ye 14.5 mesafedeydi.
-    # Germiyan sahnede 15 devletle sınırdaş — Anadolu'nun en kalabalık köşesi.
-    "germiyan":   ("Germiyanoğulları",        "#3d748f"),
-    "aydin":      ("Aydınoğulları",           "#4a8f7d"),
-    # Eski #6b8f4a, 60 km ötedeki Karesi'ye (#6b9e5b) ΔE 7.5 idi — iki beylik
-    # haritada tek gövde gibi görünüyordu.
-    "saruhan":    ("Saruhanoğulları",         "#b34da5"),
-    # Eski #3a7d8f, Venedik'in turkuazına (#4a8a8f) ΔE 9.2 idi; Ege'de ikisi
-    # sürekli yan yana duruyor. Venedik köklü renk olduğu için Menteşe taşındı.
-    "mentese":    ("Menteşeoğulları",         "#83b34d"),
-    "hamid":      ("Hamîdoğulları",           "#8f7d3a"),
-    # TDV TEKEOĞULLARI: Hamîdoğulları'ndan ayrılan kol; Dündar Bey'in fethinden
-    # sonra Antalya kardeşi Yûnus Bey'e verildi (~1321) ve ayrı beylik doğdu.
-    # Antalya bu tarihten sonra Hamîd değil TEKE toprağıdır.
-    "teke":       ("Tekeoğulları",            "#b58f2d"),
-    "candar":     ("Candaroğulları",          "#5b6b9e"),
-    "dulkadir":   ("Dulkadiroğulları",        "#00838f"),
-    "ramazanoglu":("Ramazanoğulları",         "#33691e"),
-    "karesi":     ("Karesioğulları",          "#6b9e5b"),
-    "katalan":    ("Katalan Dukalığı (Atina-Neopatras)", "#9e8f3a"),
-    # --- Fetret Devri (1402-1413): şehzade payları ---
-    # Ankara Savaşı'ndan sonra tek bir Osmanlı gövdesi kalmadı; ülke şehzadeler
-    # arasında bölündü. Bu dönemde yerleşimler "Osmanlı" (d) yerine ilgili
-    # şehzadenin kimliğiyle (s) boyanır ki paylar haritada ayrı ayrı görünsün.
-    # Renkler, aynı anda sahnede olan Anadolu beyliklerinin tonlarından
-    # kasten uzak seçildi.
-    "timurlu":         ("Timurlu idaresi",               "#8d6e63"),
-    "suleyman-celebi": ("Emîr Süleyman Çelebi (Rumeli)", "#b71c1c"),
-    "isa-celebi":      ("İsa Çelebi (Bursa)",            "#e04b2a"),
-    "mehmed-celebi":   ("Çelebi Mehmed (Amasya)",        "#7f1734"),
-    "musa-celebi":     ("Musa Çelebi (Rumeli)",          "#d81b60"),
-    # ⚠️ Eski #7a9e6b, Bulgaristan'ın #7aa06a'sına ΔE 1.8 — pratikte AYNI RENK.
-    # Tuna'nın iki yakası 1281-1878 boyunca tek gövde gibi görünüyordu. Yeşil
-    # kimlik korundu ama parlaklık/doygunluk ayrıldı: Bulgaristan'a ΔE 33.
-    "eflak":      ("Eflak Voyvodalığı",      "#4db34d"),
-    "bogdan":     ("Boğdan Voyvodalığı",     "#6b9e8a"),
-    "lusignan":   ("Kıbrıs Krallığı (Lüzinyan)", "#8a6ba0"),
-    # ⚠️ Orta Anadolu renkleri kasten doygun seçildi: önceki toprak tonları
-    # (#a08a6b / #9e8a6b) arazi kabartma katmanının beji ile karışıyor ve
-    # "Ankara civarında kimse yok" görüntüsü veriyordu.
-    "ilhanli":    ("İlhanlı Devleti",         "#7a5ba0"),
-    "eretna":     ("Eretna Beyliği",          "#3f8f6b"),
-    "burhaneddin":("Kadı Burhâneddin Devleti","#455a64"),
-    "artuklu":    ("Artukoğulları",           "#6b8a9e"),
-    "ahiler":     ("Ahi Birliği (Ankara)",    "#8f7d5b"),
-    # --- kullanıcının sorduğu, haritada temsili olmayan beylikler ---
-    "cobanogullari":  ("Çobanoğulları",        "#4a8f8f"),
-    # Eski #3a6b9e, komşusu Candaroğulları'na (#5b6b9e) ΔE 8.6 idi; Kastamonu ile
-    # Sinop 135 km arayla iki ayırt edilemez mavi gövdeydi.
-    "pervane":        ("Pervâneoğulları",      "#70c28b"),
-    "esrefogullari":  ("Eşrefoğulları",        "#b5548f"),
-    "inancogullari":  ("İnançoğulları",        "#5b4ab5"),
-    "sahibata":       ("Sâhib Ataoğulları",    "#8f9e2d"),
-    "taceddin":       ("Tâceddinoğulları",     "#2d8f4a"),
-    # TDV ALÂİYE BEYLİĞİ: 1293'te Karamanoğlu Mecdüddin Mahmud Bey'in eline geçti,
-    # o tarihten 1471'de Gedik Ahmed Paşa'nın kuşatmasına kadar kendi bey soyuyla
-    # yönetildi. Haritada Karaman'ın içinde eriyordu; ayrı renk verildi.
-    "alaiye":         ("Alâiye Beyliği",       "#0277bd"),
-    # TDV ORDU (şehir): Bayram Bey'in kurduğu, oğlu Hacı Emîr'in ~1350'de
-    # genişlettiği Türkmen beyliği; merkezi Eskipazar. 1398'de Yıldırım'a
-    # bağlandı, 1427'de ilhak edildi. Ordu-Ünye kıyısı haritada noktasızdı.
-    "haciemir":       ("Hacıemîroğulları (Ordu)", "#ef6c00"),
-    "mutahharten":    ("Erzincan Beyliği (Mutahharten)", "#827717"),
-    "hafsi":      ("Hafsîler (Tunus)",        "#7d8f3a"),
-    "zeyyani":    ("Zeyyânîler (Tilimsan)",   "#6ba0a0"),
-    "atinadukaligi": ("Atina Dukalığı",       "#8a9e8a"),
-}
+# Devlet renkleri ayrı modülde: arac/renkler.py
+# (renk çalışması ile geometri çalışması aynı dosyaya yazmasın diye ayrıldı)
+from renkler import BOYALAR
 R_DUNYA = 6371.0088
 
 # ---------------- Kara maskesi ----------------
-print("Kara maskesi (Natural Earth 10m)...")
+# KARA_TOL: kıyı çizgisinin sadeleştirme toleransı (derece). Bütün gövdeler
+# kıyıyı EN SON ve bu tek maskeden aldığı için kıyı hassasiyetini tek başına
+# bu sayı belirler. 0.004 ≈ 440 m Çanakkale gibi dar boğazları genişletiyordu
+# (B-12); 0.002 ≈ 220 m ile maske köşe sayısı yalnız %33 artar (36,2k → 48,3k)
+# ve parça havuzu sayesinde dosya bütçesine sığar — ölçüm: denetim/OTURUM-8 raporu.
+KARA_TOL = 0.002
+print(f"Kara maskesi (Natural Earth 10m, tolerans {KARA_TOL})...")
 _ne = json.load(open(os.path.join(BASEMAPS, "ne_10m_land.geojson"), encoding="utf-8"))
 KARA = unary_union([shape(f["geometry"]).buffer(0).intersection(BOLGE)
                     for f in _ne["features"] if shape(f["geometry"]).envelope.intersects(BOLGE)])
-KARA = KARA.buffer(0).simplify(0.004, preserve_topology=True).buffer(0)
+KARA = KARA.buffer(0).simplify(KARA_TOL, preserve_topology=True).buffer(0)
 print("  tamam")
 
 # ---------------- Göller ----------------
@@ -337,16 +206,19 @@ for i in eksik:                              # nadiren eşleşmezse en yakın h�
 print(f"  {len(PETEK)} petek ({len(eksik)} yedek eşleşme)")
 
 # ---------------- Petek sınırlarını doğal hatlara yasla ----------------
-def chaikin(cs, tur=2):
-    cs = list(cs)
-    if len(cs) < 4: return cs
+# ⚠️ TOPOLOJİ KURALI (Oturum 8): yumuşatma ve sadeleştirme petek petek DEĞİL,
+# örtünün ORTAK KENAR AĞI üzerinde bir kez yapılır. Aynı kenar iki komşu hücrede
+# ayrı ayrı işlenirse iki farklı sonuç çıkar → haritada kılcal boşluk/bindirme.
+def chaikin_acik(cs, tur=2):
+    """Açık hat için Chaikin: uç noktalar (düğümler) sabit kalır."""
+    if len(cs) < 3: return cs
     for _ in range(tur):
-        yeni = []
+        yeni = [cs[0]]
         for i in range(len(cs) - 1):
             p, q = cs[i], cs[i+1]
             yeni.append((0.75*p[0]+0.25*q[0], 0.75*p[1]+0.25*q[1]))
             yeni.append((0.25*p[0]+0.75*q[0], 0.25*p[1]+0.75*q[1]))
-        yeni.append(yeni[0]); cs = yeni
+        yeni.append(cs[-1]); cs = yeni
     return cs
 
 def sikla(cs, adim=0.22):
@@ -379,34 +251,14 @@ def dogal_hatta_yasla(cs, nehir_mes=0.30, sirt_mes=0.35):
             yeni.append((x, y))
     return yeni
 
-def dogallastir(g, yasla=True, tur=2):
-    """Petek/bölge sınırını doğal hatlara yaklaştırır: nehir yataklarına yaslar,
-    köşeleri Chaikin ile kırar. Kıyılar sonra kara maskesiyle kesilerek keskinleşir."""
-    if g.is_empty: return g
-    parcalar = g.geoms if isinstance(g, MultiPolygon) else [g]
-    yeni = []
-    for p in parcalar:
-        dis = list(p.exterior.coords)
-        if yasla: dis = dogal_hatta_yasla(sikla(dis))
-        dis = chaikin(dis, tur)
-        try:
-            yeni.append(temiz(Polygon(dis)))
-        except Exception:
-            yeni.append(temiz(p))
-    try:
-        return unary_union(yeni).buffer(0)
-    except Exception:
-        return unary_union([temiz(q) for q in yeni]).buffer(0)
-
-# Yabancı devlet gövdelerinin sadeleştirme toleransı (derece). Dosya boyutunu
-# dengeler; kıyı çizgisine DOKUNMAZ çünkü sadeleştirme kara maskesiyle
-# kesişimden ÖNCE uygulanır ve komşularla boşluk kalmaması için tolerans/2
-# kadar dışa taşırma yapılır.
 # Atlasın başlangıç tarihi. TDV'ye göre Ertuğrul Gazi 680 (1281-82) yılında
 # vefat etti ve Osman Bey beyliğe geçti; ilk askerî harekât 1285 Kulacahisar,
 # ilk şehir fethi 1288 Karacahisar. Bu yüzden epok 1299 değil 1281.
 EPOK = "1281-01-01"
 
+# Örtü sadeleştirme toleransı (derece). coverage_simplify ile örtünün TAMAMINA
+# bir kez uygulanır; ortak kenarların iki yanı birebir aynı kalır. Gövde başına
+# ayrı simplify + dışa taşırma hilesi kaldırıldı — gerek kalmadı.
 SADE_TOL = 0.012
 
 def kapat(g, yaricap=0.15):
@@ -416,9 +268,19 @@ def kapat(g, yaricap=0.15):
     yüzünden kopuk görünebiliyordu (ör. 1299'da İnegöl'ün Söğüt-Bilecik'ten
     ayrı bir 'ada' gibi çizilmesi). Deniz/kıta arası gerçek boşluklar bu
     yarıçaptan büyük olduğu için etkilenmez; kapamadan sonra KARA ile
-    kesişim alınacağından geçici deniz taşkını da temizlenir."""
+    kesişim alınacağından geçici deniz taşkını da temizlenir.
+    Topoloji notu: mitre birleşim, buffer'ın yay örneklemesiyle kenara nokta
+    eklemesini önler; sonuç orijinalle BİRLEŞTİRİLİR ki gidip-gelen buffer'ın
+    sayısal aşındırması ortak kenarı bir mikron bile oynatamasın (boşluk kaynağı)."""
     if g.is_empty: return g
-    return temiz(g.buffer(yaricap)).buffer(-yaricap)
+    k = temiz(g.buffer(yaricap, join_style=2, mitre_limit=2.0)).buffer(-yaricap, join_style=2, mitre_limit=2.0)
+    return unary_union([temiz(k), g])
+
+def poligonal(g):
+    """intersection/difference çıktısı geçerli ama karışık bir GeometryCollection
+    olabilir (kıyıda çizgi artığı); poligonal olmayan parçaları süz."""
+    if g.geom_type == "GeometryCollection" or not g.is_valid: return temiz(g)
+    return g
 
 def delikleri_doldur(g):
     """Kuşatılmış boşluk bırakmaz: çevresi ele geçmiş alan (dağ bloğu, ova) da
@@ -427,29 +289,128 @@ def delikleri_doldur(g):
     ps = g.geoms if isinstance(g, MultiPolygon) else [g]
     return unary_union([Polygon(p.exterior) for p in ps]).buffer(0)
 
-print("Petek sınırları doğal hatlara yaslanıyor...")
-# Petek yarıçap sınırı: bir yerleşimin etki alanı sınırsız değildir. Yoğun
-# bölgelerde Voronoi zaten küçük hücre verir; çöl/bozkırda ise hücre devasa
-# büyür ve fiilen yönetilmeyen alanları toprak sayardı. Bu yüzden her petek
-# merkezinden en çok ~330 km (3°) uzağa kadar geçerlidir.
-# Yarıçap sınırı YOK: daire şeklinde "baloncuk" petek üretiyordu ve peteklerin
-# denize/çöle kadar uzanmasını engelliyordu. Bunun yerine çöl-bozkır bölgelerine
-# konmuş "sahipsiz bölge" noktaları peteklerin doğal olarak nerede biteceğini
-# belirler; kalan sınırlar kıyıya ve nehir/dağ hatlarına yaslanır.
-PETEK_D = []
-for i, h in enumerate(PETEK):
-    ham = h.intersection(KARA).buffer(0)
-    yeni = ham
-    if not ham.is_empty:
-        boyali = bool(YERLER[i]["d"] or YERLER[i]["v"] or YERLER[i]["s"])
-        yeni = dogallastir(ham, yasla=boyali).intersection(KARA).buffer(0)
-        # Doğallaştırma yerleşimi kendi peteğinin dışında bırakmamalı:
-        # bırakıyorsa ham petekle birleştirilir (nehir yaslaması kenarı çekmiş olur).
-        nk = Point(YERLER[i]["lon"], YERLER[i]["lat"])
-        if yeni.is_empty or not yeni.buffer(0.05).contains(nk):
-            yeni = unary_union([yeni, ham]).buffer(0)
-    PETEK_D.append(yeni)
-print("  tamam")
+# ---------------- Örtü boru hattı ----------------
+# Petekler tek bir ÖRTÜ (coverage) olarak işlenir:
+#   1) Voronoi hücrelerinin ortak kenar ağı çıkarılır (her kenar TEK kopya)
+#   2) Yaslama + Chaikin bu ağ üzerinde bir kez yapılır (düğümler sabit)
+#   3) polygonize ile hücreler geri kurulur → boşluksuz/bindirmesiz örtü
+#   4) set_precision ortak ızgara, coverage_simplify topoloji korumalı sadeleştirme
+#   5) Kıyı kesimi (KARA) EN SON — sonrasında hiçbir geometri işlemi yok
+print("Ortak kenar ağı çıkarılıyor...")
+_bx0, _by0, _bx1, _by1 = BOLGE.bounds
+def _kutuda(x, y, e=1e-9):
+    return (abs(x-_bx0) < e or abs(x-_bx1) < e or
+            abs(y-_by0) < e or abs(y-_by1) < e)
+
+_ag = linemerge(unary_union([h.exterior for h in PETEK]))
+_kenarlar = list(_ag.geoms) if _ag.geom_type == "MultiLineString" else [_ag]
+print(f"  {len(_kenarlar)} kenar")
+
+print("Kenarlar doğal hatlara yaslanıp yumuşatılıyor (örtü üzerinde bir kez)...")
+_puruzsuz = []
+for ln in _kenarlar:
+    cs = list(ln.coords)
+    if all(_kutuda(x, y) for x, y in cs):        # BOLGE çerçevesi düz kalır
+        _puruzsuz.append(ln); continue
+    bas, son = cs[0], cs[-1]
+    cs = dogal_hatta_yasla(sikla(cs))
+    cs[0], cs[-1] = bas, son                     # düğümler sabit: komşu kenarlar aynı noktada buluşur
+    _puruzsuz.append(LineString(chaikin_acik(cs, 2)))
+
+print("Hücreler geri kuruluyor (polygonize)...")
+# ⚠️ ULP kuralı: bütün yüzler TEK bir polygonize'dan çıkmalı ve hücreler
+# coverage_union_all ile (yeniden düğümleme YAPMADAN) birleştirilmeli. Yüz yüz
+# unary_union ya da yerel intersection(f) kırpması, ortak köşeleri son bitte
+# (ULP) kaydırıp örtüde bozuk kenar bırakıyordu (Hvar/Vis/Dir'iye vakaları).
+_nokta_agaci = STRtree(noktalar)
+def _cizgiler(g):
+    """Geometrinin çizgi bileşenlerini döker (polygonize girdisi için)."""
+    if g.is_empty: return []
+    if g.geom_type in ("LineString", "LinearRing"): return [g]
+    if hasattr(g, "geoms"): return [p for q in g.geoms for p in _cizgiler(q)]
+    return []
+def _yuzler_kur(hatlar):
+    return [f for f in polygonize(unary_union(hatlar)) if not f.is_empty]
+
+_yuzler = _yuzler_kur(_puruzsuz)
+# Çok noktalı yüzler (yaslama bir kenarı noktaların üzerinden geçirmiş): yüzün
+# içine mini-Voronoi bölme çizgileri eklenir ve HER ŞEY birlikte yeniden
+# polygonize edilir — böylece bölme kenarları da ortak düğümlemeden geçer.
+_ek_hat = []
+for f in _yuzler:
+    ic = [int(i) for i in _nokta_agaci.query(f, predicate="contains_properly")]
+    if len(ic) > 1:
+        alt = voronoi_diagram(MultiPoint([noktalar[i] for i in ic]), envelope=f)
+        _ek_hat += _cizgiler(unary_union([c.boundary for c in alt.geoms]).intersection(f))
+if _ek_hat:
+    _yuzler = _yuzler_kur(_puruzsuz + _ek_hat)
+print(f"  {len(_yuzler)} yüz ({len(_ek_hat)} mini-Voronoi bölme çizgisi)")
+
+_kume = [[] for _ in YERLER]                     # hücre başına yüz listesi
+_yetim = []
+for f in _yuzler:
+    ic = [int(i) for i in _nokta_agaci.query(f, predicate="contains_properly")]
+    if not ic:
+        _yetim.append(f)
+    else:
+        if len(ic) > 1:                          # bölme sonrası hâlâ çoksa (nadir): en yakını alır
+            print(f"  UYARI örtü: yüz {len(ic)} nokta içeriyor, en yakını seçildi")
+            ic = [min(ic, key=lambda i: f.centroid.distance(noktalar[i]))]
+        _kume[ic[0]].append(f)
+# Nokta içermeyen yüzler: en uzun ortak kenarı paylaştığı sahipli yüzün
+# hücresine katılır (birkaç tur: yetim zinciri olabilir); komşusuz kalan
+# en yakın noktaya verilir.
+_sahipli = [(f, i) for i, fs in enumerate(_kume) for f in fs]
+_kalan = _yetim
+for _tur in range(4):
+    if not _kalan: break
+    _agacY = STRtree([f for f, _ in _sahipli])
+    _sonra = []
+    for f in _kalan:
+        en, enuz = None, -1.0
+        for k in _agacY.query(f, predicate="intersects"):
+            ort = f.boundary.intersection(_sahipli[int(k)][0].boundary).length
+            if ort > enuz: enuz, en = ort, _sahipli[int(k)][1]
+        if en is None or enuz <= 0:
+            _sonra.append(f)
+        else:
+            _kume[en].append(f); _sahipli.append((f, en))
+    _kalan = _sonra
+for f in _kalan:
+    i = min(range(len(noktalar)), key=lambda i: f.distance(noktalar[i]))
+    _kume[i].append(f)
+
+PETEK_TAM = []
+for i, fs in enumerate(_kume):
+    if not fs:
+        print(f"  UYARI örtü: {YERLER[i]['ad']} hücresiz kaldı")
+        PETEK_TAM.append(Polygon())
+    else:
+        PETEK_TAM.append(shapely.coverage_union_all(fs) if len(fs) > 1 else fs[0])
+print(f"  {len(_yetim)} yetim yüz sahipli komşulara katıldı")
+
+print("Örtü topoloji korunarak sadeleştiriliyor (coverage_simplify)...")
+# NOT: set_precision KULLANILMIYOR — ortak köşeler zaten bit düzeyinde aynı;
+# ızgaraya oturtma, üçlü kavşaklarda hücre başına farklı çökme yapıp bozuk
+# kenar üretiyordu (Maraş/Adana/Antakya kavşağında görüldü).
+def _bozuk_dok(hucreler, etiket):
+    idx = [i for i, g in enumerate(hucreler) if g is not None and not g.is_empty]
+    b = shapely.coverage_invalid_edges([hucreler[i] for i in idx])
+    kot = [(idx[k], x) for k, x in enumerate(b) if x is not None and not x.is_empty]
+    for i, x in kot:
+        print(f"    BOZUK KENAR [{etiket}] {YERLER[i]['ad']}: {x.wkt[:90]}")
+    return len(kot)
+_n0 = _bozuk_dok(PETEK_TAM, "ham")
+PETEK_TAM = list(shapely.coverage_simplify(PETEK_TAM, SADE_TOL))
+_n1 = _bozuk_dok(PETEK_TAM, "sade")
+print(f"  örtü geçerliliği: sadeleştirme öncesi {_n0}, sonrası {_n1} bozuk kenar "
+      + ("✓" if _n0 == 0 and _n1 == 0 else "✗ BOŞLUK/BİNDİRME VAR"))
+
+# Kıyı kesimi EN SON: bütün gövdelerin deniz sınırı doğrudan KARA maskesinden
+# gelir; kesimden sonra hiçbir sadeleştirme/yumuşatma yapılmaz.
+PETEK_D = [poligonal(g.intersection(KARA)) for g in PETEK_TAM]
+_nk = _bozuk_dok(PETEK_D, "kıyı")
+print(f"  kıyı kesimi sonrası örtü: {_nk} bozuk kenar " + ("✓" if _nk == 0 else "✗"))
 
 # ---------------- Zaman çizelgesi: kırılma tarihleri ----------------
 tarihler = set()
@@ -474,6 +435,22 @@ def alan_km2(g):
                 s += (lo2-lo1) * (2 + math.sin(la1) + math.sin(la2))
             T += sg * abs(s * R_DUNYA * R_DUNYA / 2)
     return int(round(T, -3))
+
+# ---------------- Parça havuzu ----------------
+# Aynı gövde parçası (ada, değişmeyen ana halka…) yüzlerce dönemde birebir
+# tekrarlanıyordu; ölçüm: donemler.js noktalarının yalnız %40'ı eşsizdi.
+# Parçalar dosya başına TEK havuza yazılır, dönem kayıtları havuz indeksi taşır.
+# js/app.js yüklerken indeksleri geometriye çevirir (aynı parça bellekte de
+# tek nesne olur). Kazanç: kıyı 0.004 çözünürlükte kalırken dosya ~%60 küçülür.
+def havuza(mp, havuz, ix):
+    out = []
+    for parca in mp:
+        k = json.dumps(parca, separators=(",", ":"))
+        j = ix.get(k)
+        if j is None:
+            j = len(havuz); havuz.append(parca); ix[k] = j
+        out.append(j)
+    return out
 
 def mp_koord(g):
     if g.is_empty: return []
@@ -506,9 +483,8 @@ for j, y in enumerate(YERLER):
 BOLGELER = []
 for ad in sorted(_uyeler):
     mi = AD2IDX[ad]; my = YERLER[mi]
-    bg = unary_union([PETEK_D[j] for j in _uyeler[ad]]).buffer(0)
-    bg = delikleri_doldur(kapat(bg)).intersection(KARA).buffer(0)
-    bg = bg.simplify(0.03, preserve_topology=True).buffer(0)
+    bg = unary_union([PETEK_D[j] for j in _uyeler[ad]])
+    bg = poligonal(delikleri_doldur(kapat(bg)).intersection(KARA))
     ara = my["d"] + my["v"]
     if not ara or bg.is_empty: continue
     BOLGELER.append({
@@ -532,6 +508,7 @@ def _osm_aktif(y, a):
     return (any(dn["f"] <= a < dn["t"] for dn in y["d"]) or
             any(dn["f"] <= a < dn["t"] for dn in y["v"]))
 DEVLET_KAYIT = []
+DEV_HAVUZ, DEV_IX = [], {}
 for did, (dad, renk) in BOYALAR.items():
     hj = [j for j, y in enumerate(YERLER) if any(sp["d"] == did for sp in y["s"])]
     if not hj: continue
@@ -556,33 +533,24 @@ for did, (dad, renk) in BOYALAR.items():
             dnm[-1]["t"] = b; continue
         onceki = aktif
         if not aktif: continue
-        g = unary_union([PETEK_D[j] for j in aktif]).buffer(0)
+        g = unary_union([PETEK_D[j] for j in aktif])
         g = delikleri_doldur(kapat(g))
-        # --- SIRALAMA KRİTİK (kullanıcı tespiti) ---
-        # 1) Sadeleştirme KIYI KESİMİNDEN ÖNCE yapılır. Önceden tam tersiydi:
-        #    KARA ile kesişim alındıktan sonra sadeleştirilince körfezler,
-        #    yarımadalar ve koylar düzleşiyor, sınır kıyı çizgisiyle örtüşmüyordu.
-        g = g.simplify(SADE_TOL, preserve_topology=True).buffer(0)
-        # 2) Her devlet kendi sınırını bağımsız sadeleştirdiği için komşu iki
-        #    devletin PAYLAŞTIĞI hat birbirinden en çok tolerans kadar sapabilir
-        #    ve arada beyaz kılcal boşluk kalırdı. Toleransın yarısı kadar dışa
-        #    taşırarak komşuların boşluk yerine hafifçe ÖRTÜŞMESİNİ sağlıyoruz;
-        #    örtüşme görünmez, boşluk görünürdü.
-        # join_style=2 (mitre) + resolution=1: yuvarlatılmış köşe yerine keskin
-        # köşe üretir. Varsayılan yuvarlak birleştirme her köşeyi onlarca
-        # parçalı yaya çeviriyor ve dosyayı iki katına çıkarıyordu (7 → 14 MB).
-        g = g.buffer(SADE_TOL / 2, resolution=1, join_style=2, mitre_limit=2.0).buffer(0)
-        # 3) Kıyı en son kesilir: deniz sınırı artık doğrudan KARA maskesinden
-        #    gelir, yani gerçek girinti-çıkıntıya birebir oturur.
-        g = g.intersection(KARA).buffer(0)
+        # Sadeleştirme örtü üzerinde ÖNCEDEN yapıldı (coverage_simplify); gövde
+        # başına simplify ve "tolerans/2 dışa taşırma" hilesi kaldırıldı — komşu
+        # devletlerin paylaştığı kenar artık birebir aynı koordinatlardan geçer,
+        # kılcal boşluk da bindirme de üretilmez. Kıyı EN SON kesilir: deniz
+        # sınırı doğrudan KARA maskesinden gelir, girinti-çıkıntıya birebir oturur.
+        g = poligonal(g.intersection(KARA))
         if g.is_empty: continue
         rp = g.representative_point()
-        dnm.append({"f": a, "t": b, "g": mp_koord(g),
+        dnm.append({"f": a, "t": b, "g": havuza(mp_koord(g), DEV_HAVUZ, DEV_IX),
                     "c": [round(rp.x, 2), round(rp.y, 2)]})
     if dnm: DEVLET_KAYIT.append({"id": did, "ad": dad, "renk": renk, "dnm": dnm})
 _dyol = os.path.join(KOK, "data", "devletler_harita.js")
 _dj  = "// Otomatik üretildi — elle düzenlemeyin. Betik: arac/uret_petek.py\n"
 _dj += "// Yabancı devletlerin dönem gövdeleri (yerlesimler.js s alanından).\n"
+_dj += "// dnm[].g, DEVLET_PARCALAR havuzuna indekstir (js/app.js çözer).\n"
+_dj += "window.DEVLET_PARCALAR = " + json.dumps(DEV_HAVUZ, separators=(",",":")) + ";\n"
 _dj += "window.DEVLET_HARITA = " + json.dumps(DEVLET_KAYIT, ensure_ascii=False, separators=(",",":")) + ";\n"
 open(_dyol, "w", encoding="utf-8").write(_dj)
 print(f"  {len(DEVLET_KAYIT)} devlet, {sum(len(d['dnm']) for d in DEVLET_KAYIT)} dönem → "
@@ -598,6 +566,7 @@ print("Dönemler kuruluyor (delta yapısı)...")
 #                   idarenin askıya alındığı aralığı bildirir (ör. Suriye
 #                   1832-1841 Kavalalı İbrâhim Paşa'nın elinde).
 donemler = []
+OSM_HAVUZ, OSM_IX = [], {}   # o + v parçaları tek havuzda
 onceki_aktif = None      # işaret/marker için: doğrudan + tâbi hepsi
 onceki_anahtar = None    # geometri için: (doğrudan, tâbi) ikilisi
 for i in range(len(tarihler) - 1):
@@ -622,30 +591,29 @@ for i in range(len(tarihler) - 1):
     elif cikan: ad = "Kayıp: " + ", ".join(cikan[:3]) + ("…" if len(cikan) > 3 else "")
     else:       ad = donemler[-1]["ad"] if donemler else "—"
 
-    gt = unary_union([PETEK_D[j] for j in tabi]).buffer(0) if tabi else None
-    if gt is not None:
-        gt = delikleri_doldur(kapat(gt)).intersection(KARA).buffer(0)
-    g = unary_union([PETEK_D[j] for j in dogrudan]).buffer(0)
-    g = delikleri_doldur(kapat(g)).intersection(KARA).buffer(0)
+    gt = None
+    if tabi:
+        gt = poligonal(delikleri_doldur(kapat(unary_union([PETEK_D[j] for j in tabi]))).intersection(KARA))
+    g = poligonal(delikleri_doldur(kapat(unary_union([PETEK_D[j] for j in dogrudan]))).intersection(KARA))
     # Tâbi bölge doğrudan gövdenin içinden çıkarılır; yoksa delik doldurma
     # Suriye'yi/Mısır'ı yutar ve iki katman üst üste biner.
     if gt is not None and not gt.is_empty:
-        g = g.difference(gt).buffer(0)
+        g = poligonal(g.difference(gt))
     kaplam = unary_union([g, gt]) if gt is not None else g
     x0, y0, x1, y1 = kaplam.bounds
     # Geometri gönderilmez; yalnızca aktif petek indeksleri (delta) ve özetler.
     ekle = sorted(aktif - onceki_aktif) if onceki_aktif else sorted(aktif)
     cik  = sorted(onceki_aktif - aktif) if onceki_aktif else []
     # Birleşik dış hat: petekler tek gövde olarak çizilir, aradaki petek
-    # sınırları görünmez. Sadeleştirme ile dosya boyutu dengelenir.
-    dis = g.simplify(0.022, preserve_topology=True).buffer(0)
+    # sınırları görünmez. Kesim sonrası simplify YOK — hem kıyı oturması hem
+    # yabancı komşularla ortak kenar bozulurdu (eski 0.022/0.03 buradaydı).
     kayit = {"f": a, "t": b, "ad": ad,
              "b": [round(x0,2), round(y0,2), round(x1,2), round(y1,2)],
              "ao": alan_km2(g), "e": ekle, "c": cik,
-             "o": mp_koord(dis)}
+             "o": havuza(mp_koord(g), OSM_HAVUZ, OSM_IX)}
     if gt is not None and not gt.is_empty:
         kayit["av"] = alan_km2(gt)
-        kayit["v"]  = mp_koord(gt.simplify(0.03, preserve_topology=True).buffer(0))
+        kayit["v"]  = havuza(mp_koord(gt), OSM_HAVUZ, OSM_IX)
     donemler.append(kayit)
     onceki_aktif = aktif
     onceki_anahtar = anahtar
@@ -657,11 +625,14 @@ petekler = [{"a": YERLER[j]["ad"]} for j in range(len(YERLER))]
 js  = "// Otomatik üretildi — elle düzenlemeyin. Betik: arac/uret_petek.py\n"
 js += "// PETEK (Voronoi) tabanlı: her yerleşimin bölgesi kıyı ve nehir yataklarına yaslı.\n"
 js += "// PETEKLER bir kez tanımlanır; DONEMLER yalnızca eklenen/çıkan petek indekslerini tutar.\n"
+js += "// DONEMLER'in o/v alanları PARCALAR havuzuna indekstir (js/app.js çözer).\n"
 js += "window.PETEKLER = " + json.dumps(petekler, separators=(",",":")) + ";\n"
+js += "window.PARCALAR = " + json.dumps(OSM_HAVUZ, separators=(",",":")) + ";\n"
 js += "window.DONEMLER = " + json.dumps(donemler, separators=(",",":")) + ";\n"
 open(CIKTI, "w", encoding="utf-8").write(js)
 
 print(f"Dönem sayısı: {len(donemler)}")
+print(f"Parça havuzu: donemler {len(OSM_HAVUZ)}, devletler {len(DEV_HAVUZ)} eşsiz parça")
 print(f"Dosya boyutu: {os.path.getsize(CIKTI)//1024} KB")
 
 # ---------------- Doğrulama ----------------
