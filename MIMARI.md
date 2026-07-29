@@ -16,6 +16,7 @@ Belge seti: `CLAUDE.md` (nasıl çalışılır) · `YOL-HARITASI.md` (nereye gid
 | **Google Earth / Google Maps API kullanılmadı** | Programlanabilir API yok; Maps API faturalı ve modern sınırlar gömülü |
 | **Veri düz JS dosyaları** (`data/*.js`, `window.X = [...]`) | Derleme yok, `<script>` ile yüklenir, git diff okunabilir |
 | **Python + Shapely üretim betiği** | Geometri işi tarayıcıda değil, üretim anında bir kez yapılır |
+| **Girdi verisi depoda** (`veri-kaynak/`, 27 MB) | Natural Earth kara maskesi, göller, nehirler, dağ sırtları. Bir dönem geçici klasördeydi; temp temizlense motor tamamen çalışmaz hâle gelirdi. 27 MB, motorun çalışabilirliğinin bedelidir |
 
 ---
 

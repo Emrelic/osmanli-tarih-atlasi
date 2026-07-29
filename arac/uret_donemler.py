@@ -22,6 +22,9 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="repla
 from shapely.geometry import shape, box, Polygon, MultiPolygon, Point
 from shapely.ops import unary_union
 
+# ☠️ BU MOTOR KULLANILMIYOR (bkz. MIMARI.md §8). Okuduğu historical-basemaps
+# yıl kesitleri (world_*.geojson) ve ne_10m_countries.geojson depoda YOK;
+# canlı motorun (uret_petek.py) ihtiyacı olanlar veri-kaynak/ altındadır.
 BASEMAPS = r"C:\Users\emrem\AppData\Local\Temp\claude\C--Users-emrem-OneDrive-Belgeler-Projeler-Ranking\2ad1685f-dd0a-4c8c-8b9d-a89c216d56e6\scratchpad\basemaps"
 CIKTI = os.path.join(os.path.dirname(__file__), "..", "data", "donemler.js")
 BOLGE = box(-10, 10, 55, 52)          # çalışma penceresi

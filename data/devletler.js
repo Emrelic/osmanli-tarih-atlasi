@@ -491,10 +491,22 @@ window.DEVLETLER = [
 },
 { id:"atina-dukaligi", ad:"Atina Dukalığı", tur:"dukalik", bolge:"balkanlar",
   f:"1205-01-01", t:"1458-06-04", baskent:"Atina", harita:"atinadukaligi",
-  ozet:"IV. Haçlı Seferi sonrası kurulan Latin dukalığı; Fatih döneminde ilhak edildi.",
+  ozet:"IV. Haçlı Seferi sonrası kurulan Latin dukalığı; aradaki Katalan dönemi ayrı kayıt (bkz. [[katalan]]), Floransalı Acciaiuoli hanedanı devraldıktan sonra Fatih döneminde ilhak edildi.",
   kronoloji:[
     { t:"1205-01-01", tur:"kurulus", b:"IV. Haçlı Seferi sonrası Burgonya kökenli şövalyelerce kuruldu" },
+    { t:"1311-03-15", tur:"toprak-kayip", b:"Halmyros Savaşı'nda Katalan Kumpanyası dukayı öldürüp dukalığı ele geçirdi (bkz. [[katalan]])" },
+    { t:"1388-01-01", tur:"toprak-kazanc", b:"Floransalı Nerio Acciaiuoli, Katalanlardan Atina'yı aldı" },
     { t:"1458-06-04", tur:"son", b:"Fatih tarafından ilhak edildi" }
+  ]
+},
+{ id:"katalan", ad:"Katalan Dukalığı (Atina-Neopatras Kumpanyası)", tur:"dukalik", bolge:"balkanlar",
+  f:"1311-03-15", t:"1388-01-01", baskent:"Thebai (Tebai) → Atina", harita:"katalan",
+  ozet:"Bizans'ın Anadolu'da Türklere karşı kiraladığı, sonra kendisine düşman kesilen Katalan paralı asker kumpanyasının Frank Atina Dukalığı'nı ele geçirip Aragon/Sicilya tacı himayesinde kurduğu kısa ömürlü devlet.",
+  kronoloji:[
+    { t:"1303-01-01", tur:"kurulus", b:"Roger de Flor'un Katalan Kumpanyası, Bizans hizmetine Anadolu'da Türklere karşı savaşmak üzere girdi" },
+    { t:"1305-04-30", tur:"savas", b:"Roger de Flor öldürüldü; Katalanlar Bizans'a döndü, Trakya ve Makedonya'yı yağmaladı (\"Katalan İntikamı\")" },
+    { t:"1311-03-15", tur:"kurulus", b:"Halmyros (Kifisos) Savaşı'nda Atina Dukası Brienneli Gautier'yi öldürüp dukalığı ele geçirdi" },
+    { t:"1388-01-01", tur:"son", b:"Floransalı Nerio Acciaiuoli Atina'yı aldı; Neopatras kolu birkaç yıl daha sürdü" }
   ]
 },
 { id:"naksa-dukaligi", ad:"Naxos (Nakşa) Dukalığı", tur:"dukalik", bolge:"balkanlar",
@@ -855,6 +867,267 @@ window.DEVLETLER = [
     { t:"1621-09-02", tur:"ittifak", b:"Hotin Savaşı'nda Lehistan'ın yanında Osmanlı'ya karşı savaştı" },
     { t:"1711-01-01", tur:"antlasma", b:"Bir kesimi Osmanlı himayesine sığındı (Aleşki Seçi)" },
     { t:"1775-06-16", tur:"son", b:"II. Katerina tarafından dağıtıldı" }
+  ]
+},
+
+// ================================================================================
+// OTURUM 3 — DÜNYA KAPSAMI GENİŞLEMESİ (bkz. oturumlar/OTURUM-3-DEVLETLER.md)
+// ================================================================================
+// Parti 1: Anadolu ve Osmanlı öncesi — Selçuklu, İlhanlı, Timurlu, Eretna, Kadı
+// Burhâneddin, Artuklu, Ahi Birliği, Anadolu beylikleri (Çobanoğulları,
+// Pervâneoğulları, Eşrefoğulları, İnançoğulları, Sâhib Ataoğulları,
+// Tâceddinoğulları, Alâiye, Teke, Hacıemîroğulları, Mutahharten/Erzincan) ve
+// Fetret Devri (1402-1413) şehzade saltanatları. Kaynak: TDV İslâm
+// Ansiklopedisi (her slug <title> ile doğrulandı) + arac/uret_petek.py BOYALAR
+// yorumları (zaten doğrulanmış tarihler). Mutahharten'in TDV'de ayrı maddesi
+// yok; standart akademik kaynaklara göre yazıldı, ozet'te belirtildi.
+
+{ id:"selcuklu", ad:"Anadolu (Türkiye) Selçuklu Devleti", tur:"devlet", bolge:"anadolu",
+  f:"1075-01-01", t:"1308-01-01", baskent:"İznik → Konya",
+  ozet:"Malazgirt sonrası Anadolu'yu Türkleştiren ilk büyük devlet; Moğol baskısıyla beyliklere parçalandı, Osmanlı'nın da doğduğu siyasi zemini bıraktı. (kaynak: TDV, madde: selcuklular)",
+  kronoloji:[
+    { t:"1071-08-26", tur:"savas", b:"Malazgirt zaferi Anadolu'nun kapısını açtı" },
+    { t:"1075-01-01", tur:"kurulus", b:"I. Süleyman Şah tarafından kuruldu, İznik başkent oldu" },
+    { t:"1097-06-19", tur:"toprak-kayip", b:"I. Haçlı Seferi İznik'i aldı, başkent Konya'ya taşındı" },
+    { t:"1176-09-17", tur:"savas", b:"II. Kılıçarslan, Myriokephalon'da Bizans'ı yendi" },
+    { t:"1243-01-01", tur:"savas", b:"Kösedağ'da Moğollara yenildi, İlhanlı tâbiliği başladı" },
+    { t:"1308-01-01", tur:"son", b:"Son Selçuklu sultanının ölümüyle devlet fiilen sona erdi, toprakları beyliklere kaldı" }
+  ]
+},
+{ id:"ilhanli", ad:"İlhanlı Devleti", tur:"devlet", bolge:"iran",
+  f:"1256-01-01", t:"1353-01-01", baskent:"Meraga → Tebriz → Sultaniye", harita:"ilhanli",
+  ozet:"Hülâgû'nun kurduğu Moğol devleti; Anadolu Selçuklularını ve Kilikya Ermeni Krallığı'nı vasal aldı, Abbasî hilafetine son verdi. (kaynak: TDV, madde: ilhanlilar)",
+  kronoloji:[
+    { t:"1256-01-01", tur:"kurulus", b:"Hülâgû Han tarafından kuruldu" },
+    { t:"1258-02-13", tur:"toprak-kazanc", b:"Bağdat'ın fethiyle Abbasî hilafetine son verildi" },
+    { t:"1295-01-01", tur:"hukumdar", b:"Gazan Han tahta çıktı, İslam'ı resmî din ilan etti" },
+    { t:"1304-01-01", tur:"hukumdar", b:"Olcaytu tahta çıktı, Sultaniye'yi başkent yaptı" },
+    { t:"1317-01-01", tur:"hukumdar", b:"Ebû Saîd Bahadır Han tahta çıktı" },
+    { t:"1335-01-01", tur:"bolunme", b:"Ebû Saîd'in vârissiz ölümüyle devlet parçalanmaya başladı" },
+    { t:"1353-01-01", tur:"son", b:"Merkezi otorite tamamen dağıldı; Celâyirli, Karakoyunlu gibi ardıl beylikler doğdu" }
+  ]
+},
+{ id:"timurlu", ad:"Timurlu Devleti", tur:"devlet", bolge:"orta-asya",
+  f:"1370-04-09", t:"1507-05-01", baskent:"Semerkant → Herat", harita:"timurlu",
+  ozet:"Timur'un kurduğu bozkır imparatorluğu; 1402'de Ankara Savaşı'nda Yıldırım Bayezid'i esir alarak Osmanlı'yı Fetret Devri'ne soktu. (kaynak: TDV, madde: timurlular)",
+  kronoloji:[
+    { t:"1370-04-09", tur:"kurulus", b:"Timur, Semerkant'ta hükümdarlığını ilan etti" },
+    { t:"1402-07-28", tur:"savas", b:"Ankara Savaşı'nda Yıldırım Bayezid'i yendi ve esir aldı" },
+    { t:"1405-02-18", tur:"hukumdar", b:"Timur öldü, imparatorluk oğulları arasında paylaşıldı" },
+    { t:"1409-01-01", tur:"hukumdar", b:"Şâhruh, Herat merkezli olarak devletin başına geçti" },
+    { t:"1449-01-01", tur:"hukumdar", b:"Uluğ Bey (Semerkant kolu) tahta çıktı" },
+    { t:"1470-01-01", tur:"hukumdar", b:"Hüseyin Baykara, Herat'ta tahta çıktı" },
+    { t:"1507-05-01", tur:"son", b:"Özbek Şeybânî Han Herat'ı aldı; Timurlu hâkimiyeti Orta Asya'da sona erdi (Hindistan'da Bâbür hanedanı olarak sürdü)" }
+  ]
+},
+{ id:"eretna", ad:"Eretna Beyliği", tur:"beylik", bolge:"anadolu",
+  f:"1335-01-01", t:"1381-01-01", baskent:"Sivas → Kayseri", harita:"eretna",
+  ozet:"İlhanlı valiliğinden doğan, Orta Anadolu'yu Sivas-Kayseri ekseninde yöneten beylik; Kadı Burhâneddin'in iktidarı ele geçirmesiyle sona erdi. (kaynak: TDV, madde: eretnaogullari)",
+  kronoloji:[
+    { t:"1335-01-01", tur:"kurulus", b:"Alâeddin Eretna, İlhanlı valiliğinden bağımsızlaştı" },
+    { t:"1352-01-01", tur:"hukumdar", b:"Gıyâseddin Mehmed Bey tahta çıktı" },
+    { t:"1365-01-01", tur:"hukumdar", b:"Alâeddin Ali Bey tahta çıktı" },
+    { t:"1381-01-01", tur:"son", b:"Vezir Kadı Burhâneddin iktidarı ele geçirdi, beylik sona erdi" }
+  ]
+},
+{ id:"burhaneddin", ad:"Kadı Burhâneddin Devleti (Sivas)", tur:"devlet", bolge:"anadolu",
+  f:"1381-01-01", t:"1398-01-01", baskent:"Sivas", harita:"burhaneddin",
+  ozet:"Eretna beyliğinin vezirinin kurduğu, Karamanoğulları-Akkoyunlu-Osmanlı arasında sıkışan kısa ömürlü devlet; kurucusunun savaş meydanında ölümüyle çöktü. (kaynak: TDV, madde: kadi-burhaneddin)",
+  kronoloji:[
+    { t:"1381-01-01", tur:"kurulus", b:"Kadı Burhâneddin Ahmed, Eretna beyliğine son verip sultanlığını ilan etti" },
+    { t:"1393-01-01", tur:"antlasma", b:"Timur'un tâbiiyet talebini reddetti" },
+    { t:"1398-01-01", tur:"son", b:"Akkoyunlu Kara Yülük Osman Bey'le savaşta yenilip öldürüldü; oğlunun kısa direnişinden sonra Sivas Osmanlı'ya katıldı" }
+  ]
+},
+{ id:"artuklu", ad:"Artukoğulları (Artuklu Beyliği)", tur:"beylik", bolge:"anadolu",
+  f:"1102-01-01", t:"1409-01-01", baskent:"Hasankeyf / Mardin / Harput", harita:"artuklu",
+  ozet:"Malazgirt sonrası Diyarbekir-Mardin bölgesinde üç kola (Hasankeyf, Mardin, Harput) ayrılarak üç asır hüküm süren Türkmen beyliği; en uzun ömürlü Mardin kolu Karakoyunlu baskısıyla sona erdi. (kaynak: TDV, madde: artuklular)",
+  kronoloji:[
+    { t:"1102-01-01", tur:"kurulus", b:"Artuk Bey'in oğulları Hasankeyf ve Mardin kollarını kurdu" },
+    { t:"1232-01-01", tur:"toprak-kayip", b:"Hasankeyf kolu Eyyûbîler tarafından ilhak edildi" },
+    { t:"1234-01-01", tur:"toprak-kayip", b:"Harput kolu Anadolu Selçuklularına geçti" },
+    { t:"1409-01-01", tur:"son", b:"Mardin kolu, Karakoyunlu Kara Yûsuf'a teslim oldu" }
+  ]
+},
+{ id:"ahiler", ad:"Ahi Birliği (Ankara)", tur:"devlet", bolge:"anadolu",
+  f:"1290-01-01", t:"1354-01-01", baskent:"Ankara", harita:"ahiler",
+  ozet:"Selçuklu iktidar boşluğunda esnaf-dinî teşkilat Ahilik'in Ankara'da kurduğu fiilî özerk yönetim; Orhan Gazi'nin oğlu Süleyman Paşa tarafından Osmanlı'ya katıldı. (kaynak: TDV, madde: ahilik, ankara)",
+  kronoloji:[
+    { t:"1290-01-01", tur:"kurulus", b:"Selçuklu otoritesinin çökmesiyle Ahi teşkilatı Ankara'yı fiilen yönetmeye başladı" },
+    { t:"1354-01-01", tur:"son", b:"Süleyman Paşa, Ankara'yı Osmanlı topraklarına kattı" }
+  ]
+},
+{ id:"cobanogullari", ad:"Çobanoğulları", tur:"beylik", bolge:"anadolu",
+  f:"1211-01-01", t:"1309-01-01", baskent:"Kastamonu", harita:"cobanogullari",
+  ozet:"Selçuklu uç beyi Hüsâmeddin Çoban'ın Kastamonu'da kurduğu beylik; Candaroğulları tarafından ilhak edildi. (kaynak: TDV, madde: cobanogullari)",
+  kronoloji:[
+    { t:"1211-01-01", tur:"kurulus", b:"Hüsâmeddin Çoban, Kastamonu uç beyi olarak beyliğini kurdu" },
+    { t:"1224-01-01", tur:"toprak-kazanc", b:"Kırım'da Suğdak limanını Moğollardan geri aldı" },
+    { t:"1309-01-01", tur:"son", b:"Candaroğlu Süleyman Bey, son emir Mahmud'u yenerek beyliğe son verdi" }
+  ]
+},
+{ id:"pervane", ad:"Pervâneoğulları (Sinop)", tur:"beylik", bolge:"anadolu",
+  f:"1277-01-01", t:"1322-01-01", baskent:"Sinop", harita:"pervane",
+  ozet:"Selçuklu veziri Pervâne'nin oğlunun Sinop'ta kurduğu deniz beyliği; Candaroğulları tarafından ilhak edildi. (kaynak: TDV, madde: pervaneogullari)",
+  kronoloji:[
+    { t:"1277-01-01", tur:"kurulus", b:"Muînüddin Mehmed, Sinop'ta beyliğini kurdu" },
+    { t:"1300-01-01", tur:"hukumdar", b:"Gazi Çelebi tahta çıktı, deniz gücüne yöneldi" },
+    { t:"1322-01-01", tur:"son", b:"Candaroğlu Süleyman Bey, Sinop'u ilhak etti" }
+  ]
+},
+{ id:"esrefogullari", ad:"Eşrefoğulları", tur:"beylik", bolge:"anadolu",
+  f:"1277-01-01", t:"1326-01-01", baskent:"Beyşehir", harita:"esrefogullari",
+  ozet:"Göller bölgesinde kurulan kısa ömürlü beylik; toprakları Hamîdoğulları, Sâhib Ataoğulları ve Karamanoğulları arasında paylaşıldı. (kaynak: TDV, madde: esrefogullari)",
+  kronoloji:[
+    { t:"1277-01-01", tur:"kurulus", b:"Seyfeddin Süleyman Bey tarafından kuruldu" },
+    { t:"1326-01-01", tur:"son", b:"İlhanlı memuru Demirtaş'ın müdahalesiyle dağıldı, toprakları komşu beyliklere kaldı" }
+  ]
+},
+{ id:"inancogullari", ad:"İnançoğulları (Denizli/Lâdik Beyliği)", tur:"beylik", bolge:"anadolu",
+  f:"1261-01-01", t:"1368-01-01", baskent:"Isparta-Alâiye → Denizli", harita:"inancogullari",
+  ozet:"Önce Isparta-Alâiye ve Elmalı'da, sonra yalnız Denizli çevresinde hüküm süren Türkmen beyliği; Germiyanoğulları'na bağlanarak sona erdi. (kaynak: TDV, madde: inancogullari)",
+  kronoloji:[
+    { t:"1261-01-01", tur:"kurulus", b:"Mehmed Bey tarafından kuruldu" },
+    { t:"1292-01-01", tur:"hukumdar", b:"İnanç Bey tahta çıktı, beyliğin gerçek kurucusu sayılır" },
+    { t:"1368-01-01", tur:"son", b:"Germiyanoğulları'nın üstünlüğünü kabul etti" }
+  ]
+},
+{ id:"sahibata", ad:"Sâhib Ataoğulları", tur:"beylik", bolge:"anadolu",
+  f:"1275-01-01", t:"1341-01-01", baskent:"Afyonkarahisar", harita:"sahibata",
+  ozet:"Selçuklu veziri Sâhib Ata'nın oğullarının Afyonkarahisar'da kurduğu beylik; son hükümdarın ölümüyle Germiyanoğulları'na katıldı. (kaynak: TDV, madde: sahib-ataogullari)",
+  kronoloji:[
+    { t:"1275-01-01", tur:"kurulus", b:"Vezir Sâhib Ata Fahreddin Ali'nin oğulları tarafından kuruldu" },
+    { t:"1287-01-01", tur:"hukumdar", b:"Nusretüddevle Ahmed tahta çıktı" },
+    { t:"1341-01-01", tur:"son", b:"Nusretüddevle Ahmed'in ölümüyle topraklar Germiyanoğulları'na katıldı" }
+  ]
+},
+{ id:"taceddin", ad:"Tâceddinoğulları (Canik)", tur:"beylik", bolge:"anadolu",
+  f:"1348-01-01", t:"1427-01-01", baskent:"Niksar", harita:"taceddin",
+  ozet:"Niksar merkezli, Karadeniz kıyısına (Samsun-Ordu-Giresun) uzanan Canik beyliği; Ankara Savaşı sonrası Osmanlı tâbiliğinde varlığını 1427'ye dek sürdürdü. (kaynak: TDV, madde: taceddinogullari)",
+  kronoloji:[
+    { t:"1348-01-01", tur:"kurulus", b:"Tâceddin Bey (Canikli) tarafından kuruldu" },
+    { t:"1386-10-24", tur:"savas", b:"Tâceddin Bey, Hacıemîroğulları kuvvetlerine yenilip öldürüldü" },
+    { t:"1402-07-28", tur:"antlasma", b:"Ankara Savaşı sonrası Osmanlı tâbiliğine geçti" },
+    { t:"1427-01-01", tur:"son", b:"Son hükümdar Hasan Bey, Rumeli'de dirlik karşılığında bağımsız yönetime son verdi" }
+  ]
+},
+{ id:"alaiye", ad:"Alâiye Beyliği (Alanya)", tur:"beylik", bolge:"anadolu",
+  f:"1293-01-01", t:"1471-01-01", baskent:"Alâiye (Alanya)", harita:"alaiye",
+  ozet:"Karamanoğulları'nın bir kolunun yönetiminde kurulan, 1427'den itibaren Memlûk hâkimiyetine giren liman beyliği; Gedik Ahmed Paşa'nın kuşatmasıyla ilhak edildi. (kaynak: TDV, madde: alaiye-beyligi)",
+  kronoloji:[
+    { t:"1293-01-01", tur:"kurulus", b:"Karamanoğlu Mecdüddin Mahmud Bey, Alâiye'yi Selçuklulardan aldı" },
+    { t:"1427-01-01", tur:"antlasma", b:"Karamanoğulları, Alâiye'yi 5000 altına Memlûk sultanına sattı" },
+    { t:"1471-01-01", tur:"son", b:"Gedik Ahmed Paşa'nın kuşatmasıyla Osmanlı'ya katıldı" }
+  ]
+},
+{ id:"teke", ad:"Tekeoğulları", tur:"beylik", bolge:"anadolu",
+  f:"1321-01-01", t:"1423-01-01", baskent:"Antalya", harita:"teke",
+  ozet:"Hamîdoğulları'ndan ayrılarak Antalya'da kurulan denizci beylik; Osmanlı tarafından ilhak edildi. (kaynak: TDV, madde: tekeogullari)",
+  kronoloji:[
+    { t:"1321-01-01", tur:"kurulus", b:"Yûnus Bey, Antalya'da Hamîd'den ayrı beyliğini kurdu" },
+    { t:"1373-01-01", tur:"toprak-kazanc", b:"Mübârizüddin Mehmed Bey (Zincirkıran), Kıbrıs'tan Antalya'yı geri aldı" },
+    { t:"1423-01-01", tur:"son", b:"II. Murad döneminde Osmanlı'ya kesin olarak ilhak edildi" }
+  ]
+},
+{ id:"haciemir", ad:"Hacıemîroğulları (Bayramlı/Ordu)", tur:"beylik", bolge:"anadolu",
+  f:"1330-01-01", t:"1427-06-01", baskent:"Eskipazar", harita:"haciemir",
+  ozet:"Bayram Bey'in kurduğu, oğlu Hacı Emîr'in genişlettiği Karadeniz kıyı beyliği (Ordu-Ünye); Yıldırım'a tâbi olduktan sonra II. Murad tarafından ilhak edildi. (kaynak: TDV, madde: ordu--sehir)",
+  kronoloji:[
+    { t:"1330-01-01", tur:"kurulus", b:"Bayram Bey tarafından Eskipazar merkezli kuruldu" },
+    { t:"1350-01-01", tur:"toprak-kazanc", b:"Hacı Emîr, beyliği Ordu-Ünye kıyısına doğru genişletti" },
+    { t:"1398-01-01", tur:"antlasma", b:"Yıldırım Bayezid'e tâbi oldu" },
+    { t:"1427-06-01", tur:"son", b:"II. Murad tarafından ilhak edildi" }
+  ]
+},
+{ id:"mutahharten", ad:"Erzincan-Kemah Beyliği (Mutahharten)", tur:"beylik", bolge:"anadolu",
+  f:"1379-01-01", t:"1403-01-01", baskent:"Erzincan", harita:"mutahharten",
+  ozet:"Emîr Mutahharten'in Erzincan-Kemah'ta kurduğu küçük uç beyliği; Ankara Savaşı öncesi Timur'a boyun eğerek şehrini yıkımdan kurtardı. TDV'de ayrı maddesi yoktur; tarihler standart akademik kaynaklara (Uzunçarşılı, Cambridge History of Turkey) göredir.",
+  kronoloji:[
+    { t:"1379-01-01", tur:"kurulus", b:"Mutahharten, Erzincan-Kemah beyliğini kurdu" },
+    { t:"1401-01-01", tur:"antlasma", b:"Timur'a itaat ederek şehrini tahripten korudu" },
+    { t:"1403-01-01", tur:"son", b:"Mutahharten'in ölümüyle beylik Akkoyunlu nüfuzuna girdi" }
+  ]
+},
+
+// --- Fetret Devri (1402-1413) — Ankara Savaşı sonrası Osmanlı şehzade saltanatları ---
+// (kaynak: TDV, madde: fetret-devri, suleyman-celebi-emir, isa-celebi, musa-celebi;
+//  Mehmed Çelebi için TDV'de ayrı madde yok, fetret-devri ve ankara-savasi maddeleri esas alındı)
+
+{ id:"fetret-suleyman", ad:"Emîr Süleyman Çelebi Saltanatı (Rumeli)", tur:"sehzadelik", bolge:"balkanlar",
+  f:"1402-07-28", t:"1411-02-17", baskent:"Edirne", harita:"suleyman-celebi",
+  ozet:"Yıldırım Bayezid'in Ankara'da esir düşmesinin ardından Rumeli'de saltanatını ilan eden en büyük şehzade; kardeşi Musa Çelebi'ye yenilip öldürüldü.",
+  kronoloji:[
+    { t:"1402-07-28", tur:"kurulus", b:"Ankara Savaşı sonrası Edirne'de Rumeli'nin fiilî hükümdarı oldu" },
+    { t:"1403-02-01", tur:"antlasma", b:"Bizans İmparatoru Manuel ile Gelibolu Antlaşması'nı imzaladı" },
+    { t:"1411-02-17", tur:"son", b:"Musa Çelebi'nin baskınıyla Edirne'yi kaybetti, kaçarken yakalanıp öldürüldü" }
+  ]
+},
+{ id:"fetret-isa", ad:"İsa Çelebi Saltanatı (Bursa)", tur:"sehzadelik", bolge:"anadolu",
+  f:"1403-01-01", t:"1403-09-01", baskent:"Bursa", harita:"isa-celebi",
+  ozet:"Ankara Savaşı sonrası Anadolu'da hükümdarlığını ilan eden şehzade; kardeşi Çelebi Mehmed'e yenilip Eskişehir'de öldürüldü.",
+  kronoloji:[
+    { t:"1403-01-01", tur:"kurulus", b:"Bursa'da hükümdarlığını ilan etti" },
+    { t:"1403-09-01", tur:"son", b:"Çelebi Mehmed'e yenilip Eskişehir'de yakalanarak öldürüldü" }
+  ]
+},
+{ id:"fetret-musa", ad:"Musa Çelebi Saltanatı (Rumeli)", tur:"sehzadelik", bolge:"balkanlar",
+  f:"1411-02-17", t:"1413-07-05", baskent:"Edirne", harita:"musa-celebi",
+  ozet:"Ağabeyi Süleyman'ı yenerek Rumeli'ye hâkim olan şehzade; İstanbul kuşatması başarısız kaldı, kardeşi Çelebi Mehmed'e Çamurlu'da yenilip öldürüldü.",
+  kronoloji:[
+    { t:"1411-02-17", tur:"kurulus", b:"Süleyman Çelebi'yi yenerek Edirne'de saltanatını ilan etti" },
+    { t:"1411-11-01", tur:"savas", b:"İstanbul'u kuşattı, başarısız oldu" },
+    { t:"1413-07-05", tur:"son", b:"Çamurlu Savaşı'nda Çelebi Mehmed'e yenilip öldürüldü" }
+  ]
+},
+{ id:"fetret-mehmed", ad:"Çelebi Mehmed Saltanatı (Amasya/Anadolu)", tur:"sehzadelik", bolge:"anadolu",
+  f:"1402-07-28", t:"1413-07-05", baskent:"Amasya → Bursa", harita:"mehmed-celebi",
+  ozet:"Ankara Savaşı sonrası Anadolu'da tutunan, sırayla kardeşleri İsa ve Musa'yı saf dışı bırakarak Fetret Devri'ni kapatan şehzade; 1413'te I. Mehmed olarak tek padişah oldu.",
+  kronoloji:[
+    { t:"1402-07-28", tur:"kurulus", b:"Ankara Savaşı sonrası Amasya-Sivas çevresinde hâkimiyetini kurdu" },
+    { t:"1403-01-01", tur:"savas", b:"Ulubat'ta İsa Çelebi'yi yenip Bursa'ya hâkim oldu" },
+    { t:"1413-07-05", tur:"son", b:"Çamurlu'da Musa Çelebi'yi yenerek tek padişah (I. Mehmed) oldu, Fetret Devri kapandı" }
+  ]
+},
+
+// ================================================================================
+// Parti 2: Balkanlar — mevcut Sırp/Bulgar/Bosna/Arnavut/Eflak/Boğdan/Erdel/Karadağ/
+// Mora/Atina/Nakşa kayıtları Parti 0'da zaten vardı (bkz. yukarıda "katalan" ile
+// zenginleştirildi). Bu partide eksik kalanlar eklendi: Dubrovnik, Hersek, Zeta.
+// Kaynak: TDV İslâm Ansiklopedisi (doğrulanmış slug'lar ozet'te not edildi).
+// "hersek" TDV'de ayrı madde değil (yalnız Hersekzâde şahıs maddeleri var);
+// standart akademik kaynağa göre yazıldı, ozet'te belirtildi.
+// ================================================================================
+
+{ id:"dubrovnik", ad:"Dubrovnik (Ragusa) Cumhuriyeti", tur:"cumhuriyet", bolge:"balkanlar",
+  f:"700-01-01", t:"1808-01-31", baskent:"Dubrovnik",
+  ozet:"Adriyatik kıyısında ticaretle zenginleşen özerk şehir cumhuriyeti; 1365'ten itibaren Osmanlı'ya haraç ödeyerek korumasını kazandı, Napolyon tarafından ilga edildi. (kaynak: TDV, madde: dubrovnik)",
+  kronoloji:[
+    { t:"1365-01-01", tur:"antlasma", b:"I. Murad'a elçi gönderip haraç karşılığı Osmanlı himayesine girdi" },
+    { t:"1458-01-01", tur:"antlasma", b:"Yıllık haracı Fatih döneminde 12.500 flori düzeyine çıktı" },
+    { t:"1699-01-26", tur:"toprak-kayip", b:"Karlofça ile Avusturya Dalmaçya'yı aldı, Osmanlı bağı zayıfladı" },
+    { t:"1806-05-27", tur:"isgal", b:"Fransız kuvvetleri şehri işgal etti" },
+    { t:"1808-01-31", tur:"son", b:"Mareşal Marmont cumhuriyeti resmen ilga etti" }
+  ]
+},
+{ id:"hersek", ad:"Hersek (Kosača Dukalığı)", tur:"dukalik", bolge:"balkanlar",
+  f:"1435-01-01", t:"1482-01-01", baskent:"Blagaj",
+  ozet:"Bosna Krallığı'ndan fiilen bağımsız Kosača beyliği; 1448'de aldığı \"Herceg\" (dük) unvanından bölgeye \"Hersek\" adı kaldı. TDV'de ayrı maddesi yok; tarihler standart akademik kaynaklara göredir.",
+  kronoloji:[
+    { t:"1435-01-01", tur:"kurulus", b:"Stjepan Vukčić Kosača, doğu Bosna'da fiilî özerk beyliğini kurdu" },
+    { t:"1448-01-01", tur:"hukumdar", b:"İmparator III. Friedrich'ten \"Herceg\" (dük) unvanını aldı" },
+    { t:"1466-01-01", tur:"hukumdar", b:"Stjepan Vukčić öldü, oğulları arasında bölünme başladı" },
+    { t:"1482-01-01", tur:"son", b:"Osmanlı, son Kosača kalelerini (Herceg Novi çevresi dahil) ele geçirdi" }
+  ]
+},
+{ id:"zeta", ad:"Zeta Prensliği (Balšić / Crnojević)", tur:"prenslik", bolge:"balkanlar",
+  f:"1356-01-01", t:"1514-01-01", baskent:"Skadar → Cetine (Cetinje)",
+  ozet:"Sırp Krallığı'nın dağılmasıyla Balšić, sonra Crnojević hanedanlarının yönettiği dağlık prenslik; sonraki Karadağ'ın (bkz. [[karadag]]) çekirdeğini oluşturdu. (kaynak: TDV, madde: karadag)",
+  kronoloji:[
+    { t:"1356-01-01", tur:"kurulus", b:"Balšić ailesi Sırp Krallığı'nın çözülüşünde Zeta'da bağımsızlaştı" },
+    { t:"1385-01-01", tur:"savas", b:"Osmanlı ile ilk çatışma yaşandı" },
+    { t:"1421-01-01", tur:"bolunme", b:"Son Balšić hükümdarı Zeta'yı Sırp despotuna miras bıraktı" },
+    { t:"1451-01-01", tur:"hukumdar", b:"Crnojević ailesi Zeta'nın başına geçti, merkezi Cetine'ye taşıdı" },
+    { t:"1514-01-01", tur:"son", b:"İskender Bey (Crnojevićlerden) döneminde Zeta doğrudan Osmanlı sancağına dönüştürüldü" }
   ]
 }
 

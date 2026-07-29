@@ -234,6 +234,10 @@ arac/uret_petek.py      ⭐ TEK ÜRETİM BETİĞİ. Devlet renkleri (BOYALAR) bu
 arac/surum_damgala.py   index.html'deki ?v=rNN damgasını günceller
 arac/uret_donemler.py   ☠️ ESKİ MOTOR — kullanılmıyor, referans için duruyor
 
+veri-kaynak/            ⭐ MOTORUN GİRDİ VERİSİ — Natural Earth kara maskesi, göller,
+                        nehirler, dağ sırtları (27 MB). Bunlar olmadan harita
+                        ÜRETİLEMEZ. Bir dönem geçici klasördeydi; depoya alındı.
+denetim/                Oturum 2 ve 6 bulgu raporları
 oturumlar/              Ayrı oturumlara verilen görev tanımları ve ilerleme notları
 assets/portreler/       36 padişah portresi (kamu malı, Wikimedia)
 

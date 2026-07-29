@@ -28,8 +28,12 @@ def temiz(q):
         q = unary_union([p for p in q.geoms if p.geom_type in ("Polygon", "MultiPolygon")])
     return q.buffer(0)
 
-BASEMAPS = r"C:\Users\emrem\AppData\Local\Temp\claude\C--Users-emrem-OneDrive-Belgeler-Projeler-Ranking\2ad1685f-dd0a-4c8c-8b9d-a89c216d56e6\scratchpad\basemaps"
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# ⚠️ Bu yol bir dönem geçici klasöre (%TEMP%\claude\…\scratchpad\basemaps) bakıyordu.
+# Temp temizlense harita motoru tamamen çalışmaz hâle gelirdi: 567 yerleşimlik veri
+# elde kalır ama haritaya dönüştürülemezdi. Girdi verisi artık depoda; bkz.
+# veri-kaynak/README.md. Yol betiğin konumundan türetilir, makineye bağlı değildir.
+BASEMAPS = os.path.join(KOK, "veri-kaynak")
 CIKTI = os.path.join(KOK, "data", "donemler.js")
 # Kapsam: Batı Avrupa'dan Ural batısına, İskandinav güneyinden Afrika boynuzuna
 BOLGE = box(-12, 1.5, 62, 62)
