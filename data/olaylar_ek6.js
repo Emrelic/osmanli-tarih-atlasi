@@ -22,6 +22,8 @@
 // ============================================================================
 window.OLAYLAR_EK6 = [
 
+{ t:"1334-01-01", k:"fetih", etiket:["toprak-kazanc"], b:"Marmara'nın güneyindeki Bizans kasabalarının alınışı — Mihaliç, Kirmasti, Gölyazı", gun:"1334", yer:"Mihaliç (Karacabey), Kirmasti (M. Kemalpaşa), Gölyazı (Apollonia)", kisiler:"Orhan Gazi", d:"İznik ve İzmit alındıktan sonra Bursa ovasının batısında Bizans'ın elinde kalan kasabalar birer birer Osmanlı idaresine girdi. Uluabat gölü çevresindeki Gölyazı, Susurluk çayı boyundaki Kirmasti ve Mihaliç, Marmara'nın güney kıyısını Karesi topraklarına bağlayan koridoru tamamladı. Bu kasabalar uzun süre kuşatma görmeden, çevrelerinin kesilmesiyle teslim oldu; bölgedeki Bizans varlığı böylece Gemlik körfezine sıkıştı.", kaynak:"orhan" },
+
 // ---------- A) BEYLİKLER VE ERKEN DÖNEM ----------
 // Ordu-Ünye kıyısında hiç yerleşim noktası yoktu; bölge en yakın peteğe
 // emiliyor, Hacıemîroğulları haritada hiç görünmüyordu.

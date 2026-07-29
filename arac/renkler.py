@@ -98,6 +98,15 @@ BOYALAR = {
     # --- Func Sultanlığı'ndan (1504) önceki Hıristiyan Nûbe krallıkları ---
     "nube":         ("Nûbe krallıkları (Makurya-Alve)", "#6d4c41"),
     "fas":        ("Fas",                    "#9e6b5b"),
+    # --- Beylik öncesi Anadolu'nun sahipleri (kullanıcı tespiti: 1288 haritasında
+    # beylikler yanlış; hepsi 1281'de başlıyordu, gerçek kuruluşları onlarca yıl
+    # sonra. Doğru tarihlere çekilince yerlerini bu devletler dolduruyor.) ---
+    # TDV: Anadolu Selçuklu Devleti 1308'de sona erdi (II. Mesud'un ölümü).
+    "selcuklu":     ("Anadolu Selçukluları",  "#c2185b"),
+    # Trabzon Rum İmparatorluğu 1204-1461, Komnenos hanedanı — Bizans'tan AYRI.
+    "trabzon-rum":  ("Trabzon Rum İmparatorluğu", "#00838f"),
+    # Kilikya Ermeni Krallığı 1198-1375; Çukurova'nın Ramazanoğulları öncesi sahibi.
+    "kilikya-ermeni": ("Kilikya Ermeni Krallığı", "#5e35b1"),
     # --- Anadolu beylikleri (Osmanlı kuruluş coğrafyasının fetih öncesi sahipleri) ---
     "karaman":    ("Karamanoğulları",         "#4527a0"),
     # Eski #8f6b3a Ceneviz'e (#8a6b4a) ΔE 9.5, Hamîd'e 12.8, Ahi'ye 14.5 mesafedeydi.
