@@ -300,6 +300,12 @@ window.ANTLASMALAR.sort((a,b)=> a.t < b.t ? -1 : 1);
 // Deniz harekâtlarında ara noktalar karaya değmez; donanma Mora'yı dolanır,
 // Ege'de ada ada ilerler. Ok, muharebenin gerçekleştiği noktada biter.
 window.SEFERLER = [
+{ ad:"Timur'un İzmir seferi (1402)", taraf:"dusman", renk:"#8a5a00",
+  f:"1402-08-01", t:"1402-12-14",
+  yol:[[32.86,39.93],[29.98,39.42],[29.06,40.19],[27.37,37.95],[27.14,38.42]] },
+{ ad:"Timur'un Anadolu'dan çekilişi (1403)", taraf:"dusman", renk:"#8a5a00",
+  f:"1403-03-15", t:"1403-08-01",
+  yol:[[27.14,38.42],[30.55,37.77],[32.49,37.87],[35.49,38.73],[37.02,39.75],[41.28,39.90],[46.75,39.75]] },
 { ad:"Timur'un Sivas seferi (1400)", taraf:"dusman", renk:"#8a5a00",
   f:"1400-06-01", t:"1400-09-01",
   yol:[[46.30,38.08],[43.39,38.50],[41.28,39.90],[39.49,39.75],[37.02,39.75]] },
@@ -323,7 +329,7 @@ window.SEFERLER = [
 // Balkan geçidi (Şipka) üzerinden Tırnova'ya, oradan Tuna kıyısına.
 { ad:"Niğbolu seferi (1396)",       f:"1396-07-01", t:"1396-11-01",
   yol:[[26.56,41.68],[25.39,42.62],[25.62,43.08],[24.90,43.70]] },
-{ ad:"Timur'un yürüyüşü (1402)",    f:"1402-06-01", t:"1402-09-01",
+{ ad:"Timur'un yürüyüşü (1402)", taraf:"dusman", renk:"#8a5a00",    f:"1402-06-01", t:"1402-09-01",
   yol:[[37.02,39.75],[35.48,38.73],[34.16,39.15],[32.86,39.93]] },
 { ad:"II. Murad'ın İstanbul kuşatması (1422)", f:"1422-05-01", t:"1422-09-06",
   yol:[[26.56,41.68],[27.80,41.16],[28.25,41.07],[28.95,41.01]] },
