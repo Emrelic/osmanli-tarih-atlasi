@@ -91,7 +91,11 @@ def degismez1(Y):
         return bool(periods) and any(p["f"] <= g < p["t"] for p in periods)
 
     sahipsiz = {}
-    for yil in range(1300, 1921, 20):
+    # ⚠️ Kesitler 1300'den başlıyordu ve KURULUŞ DEVRİNİ (1281-1300) hiç
+    # örneklemiyordu. İnegöl ile Bilecik'in 1281-1299 arası sahipsiz olduğu
+    # bu yüzden aylarca görünmedi — Osmanlı çekirdeğinin tam ortasında iki
+    # delik. Kuruluş devri seyrek örneklenemez: en hareketli dönem odur.
+    for yil in [1285, 1290, 1295] + list(range(1300, 1921, 20)):
         g = f"{yil}-06-15"
         for t in Y:
             kur = t.get("kur")

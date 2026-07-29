@@ -40,11 +40,22 @@ var BITIS     = gunIdx("1923-10-29");
 // PETEK yapısı: her yerleşimin bölgesi bir kez tanımlanır; dönemler yalnızca
 // eklenen/çıkan petek indekslerini tutar (delta). Aktif set dönem dönem kurulur.
 var PETEKLER = window.PETEKLER || [];
+// Gövde parçaları havuzda bir kez durur (window.PARCALAR); dönem kayıtları
+// havuz indeksi taşır. Sayı → parça çözümü burada, yüklemede bir kez yapılır;
+// aynı parça bütün dönemlerde tek nesne olarak paylaşılır. Eski format
+// (indekssiz, doğrudan koordinat) de tanınır.
+function parcaCoz(dizi, havuz) {
+  if (!dizi) return null;
+  return { type: "MultiPolygon",
+           coordinates: dizi.map(function (p) {
+             return typeof p === "number" ? havuz[p] : p; }) };
+}
+var PARCALAR = window.PARCALAR || [];
 var donemler = window.DONEMLER.map(function (d) {
   return { fi: gunIdx(d.f), ti: gunIdx(d.t), ad: d.ad, b: d.b, ao: d.ao,
            av: d.av || 0, e: d.e || [], c: d.c || [],
-           o: d.o ? { type: "MultiPolygon", coordinates: d.o } : null,
-           v: d.v ? { type: "MultiPolygon", coordinates: d.v } : null,
+           o: parcaCoz(d.o, PARCALAR),
+           v: parcaCoz(d.v, PARCALAR),
            z: d.z || null };
 });
 
@@ -75,15 +86,68 @@ function bolgeVerisi(t) {
 // Yabancı devlet gövdeleri — data/devletler_harita.js. Her devlet kendi renginde
 // boyanır; Osmanlı d/v dönemi aktifken üreteç o hücreleri devletten düşer.
 var devletler2 = (window.DEVLET_HARITA || []);
+var DEVLET_PARCALAR = window.DEVLET_PARCALAR || [];
 devletler2.forEach(function (s) {
   s.dnm.forEach(function (p) {
     p.fi = gunIdx(p.f); p.ti = gunIdx(p.t);
     p.ft = { type: "Feature", properties: { renk: s.renk },
-             geometry: { type: "MultiPolygon", coordinates: p.g } };
+             geometry: parcaCoz(p.g, DEVLET_PARCALAR) };
   });
 });
+// ---------- Devlet etiketleri ----------
+// ⚠️ Eskiden her devlete TEK etiket veriliyor ve üretimden gelen tek bir
+// ağırlık merkezine (p.c) konuyordu. Sonuçları kullanıcı raporladı:
+//   • Bizans'ın gövdesi Marmara + Trabzon + Mora'ya dağıldığı için etiketi
+//     doğuya kayıyor, Kuzeybatı Anadolu'nun tamamı ADSIZ kalıyordu.
+//   • Ceneviz'in etiketi İtalya'da kaldığı için Amasra, Sakız ve Midilli
+//     kolonileri adsız görünüyordu ("burası Ceneviz kolonisi mi acaba").
+//   • Memlûk, Karakoyunlu gibi devletlerin gövdeleri de adsız kalıyordu.
+// Artık her AYRI GÖVDEYE kendi etiketi veriliyor ve çakışanlar eleniyor.
+
+// Bir halkanın işaretli alanı (derece²); enlem düzeltmesiyle kabaca km²'ye orantılı
+function halkaAlan(r) {
+  var a = 0;
+  for (var i = 0, j = r.length - 1; i < r.length; j = i++) {
+    a += (r[j][0] - r[i][0]) * (r[j][1] + r[i][1]);
+  }
+  return Math.abs(a / 2);
+}
+function noktaIcinde(p, r) {
+  var ic = false;
+  for (var i = 0, j = r.length - 1; i < r.length; j = i++) {
+    var xi = r[i][0], yi = r[i][1], xj = r[j][0], yj = r[j][1];
+    if ((yi > p[1]) !== (yj > p[1]) && p[0] < (xj - xi) * (p[1] - yi) / (yj - yi) + xi) ic = !ic;
+  }
+  return ic;
+}
+// Etiket noktası: ağırlık merkezi. İçbükey gövdede merkez dışarı düşebilir —
+// o zaman halkanın kendi noktalarından, sınıra en uzak olanı seçilir.
+function etiketNoktasi(halka) {
+  var sx = 0, sy = 0, n = halka.length - 1;
+  for (var i = 0; i < n; i++) { sx += halka[i][0]; sy += halka[i][1]; }
+  var c = [sx / n, sy / n];
+  if (noktaIcinde(c, halka)) return c;
+  var x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
+  for (var k = 0; k < n; k++) {
+    if (halka[k][0] < x0) x0 = halka[k][0];
+    if (halka[k][0] > x1) x1 = halka[k][0];
+    if (halka[k][1] < y0) y0 = halka[k][1];
+    if (halka[k][1] > y1) y1 = halka[k][1];
+  }
+  var eniyi = null, enUzak = -1;
+  for (var gy = 1; gy < 8; gy++) for (var gx = 1; gx < 8; gx++) {
+    var p = [x0 + (x1 - x0) * gx / 8, y0 + (y1 - y0) * gy / 8];
+    if (!noktaIcinde(p, halka)) continue;
+    var d = Math.min(p[0] - x0, x1 - p[0], p[1] - y0, y1 - p[1]);
+    if (d > enUzak) { enUzak = d; eniyi = p; }
+  }
+  return eniyi || c;
+}
+
 var devletImza = null;
-var devletEtiketleri = [];
+var devletEtiketleri = [];      // aktif DOM işaretleri
+var etiketAdaylari = [];        // {ad, c, alan} — dönem başına bir kez kurulur
+
 function devletGuncelle(t) {
   if (!haritaHazir) return;
   var fs = [], et = [], imza = "";
@@ -93,7 +157,13 @@ function devletGuncelle(t) {
       if (p.fi <= t && t < p.ti) {
         imza += s.id + ":" + i + ";";
         fs.push(p.ft);
-        et.push({ ad: s.ad, c: p.c });
+        // Her gövde parçası için ayrı etiket adayı
+        var mp = p.ft.geometry.coordinates;
+        for (var k = 0; k < mp.length; k++) {
+          var dis = mp[k][0];
+          if (!dis || dis.length < 4) continue;
+          et.push({ ad: s.ad, c: etiketNoktasi(dis), alan: halkaAlan(dis) });
+        }
         break;
       }
     }
@@ -101,14 +171,44 @@ function devletGuncelle(t) {
   if (imza === devletImza) return;
   devletImza = imza;
   harita.getSource("devlet").setData({ type: "FeatureCollection", features: fs });
+  // Büyük gövde önce yerleşsin: çakışmada küçük olan elenir
+  et.sort(function (a, b) { return b.alan - a.alan; });
+  etiketAdaylari = et;
+  etiketleriYerlestir();
+}
+
+// Çakışma elemesi. MapLibre'nin sembol katmanı çakışmayı kendi çözerdi ama o
+// yazı tipi (glyphs) kaynağı ister; bu proje dış bağımlılık almıyor, bu yüzden
+// eleme elle yapılıyor: ekrana yansıt, büyükten küçüğe yerleştir, kutusu
+// yerleşmişlerden biriyle kesişeni gizle.
+function etiketleriYerlestir() {
   devletEtiketleri.forEach(function (m) { m.remove(); });
-  devletEtiketleri = et.map(function (e) {
+  devletEtiketleri = [];
+  if (!etiketAdaylari.length) return;
+  var z = harita.getZoom();
+  // Ekranda çok küçük kalan gövdeye etiket konmaz; yakınlaştıkça eşik düşer,
+  // böylece adalar ve koloniler yakınlaşınca adlarını gösterir.
+  var esik = 0.55 / Math.pow(2, z - 3);
+  var yerlesen = [];
+  for (var i = 0; i < etiketAdaylari.length; i++) {
+    var e = etiketAdaylari[i];
+    if (e.alan < esik) continue;
+    var pt = harita.project(e.c);
+    var g = e.ad.length * 5.4 + 8, y = 15;          // kaba kutu ölçüsü
+    var kutu = { x0: pt.x - g / 2, x1: pt.x + g / 2, y0: pt.y - y / 2, y1: pt.y + y / 2 };
+    var carpti = false;
+    for (var j = 0; j < yerlesen.length; j++) {
+      var o = yerlesen[j];
+      if (kutu.x0 < o.x1 && kutu.x1 > o.x0 && kutu.y0 < o.y1 && kutu.y1 > o.y0) { carpti = true; break; }
+    }
+    if (carpti) continue;
+    yerlesen.push(kutu);
     var el = document.createElement("div");
     el.className = "devlet-etiket";
     el.textContent = e.ad;
-    return new maplibregl.Marker({ element: el, anchor: "center" })
-             .setLngLat(e.c).addTo(harita);
-  });
+    devletEtiketleri.push(new maplibregl.Marker({ element: el, anchor: "center" })
+      .setLngLat(e.c).addTo(harita));
+  }
 }
 
 // Aktif peteklerden GeoJSON kur
