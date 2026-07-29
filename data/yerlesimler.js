@@ -1291,5 +1291,223 @@ window.YERLESIMLER = [
 { ad:"Sûr", tur:"liman", lat:22.5550, lon:59.5200, g:0, k:0, s:[{f:"1281-01-01", t:"1507-01-01", d:"umman"}, {f:"1507-01-01", t:"1650-01-26", d:"portekiz"}, {f:"1650-01-26", t:"1923-10-29", d:"umman"}], d:[] },
 { ad:"Buraymî", tur:"sehir", lat:24.2500, lon:55.7931, g:0, k:0, s:[{f:"1281-01-01", t:"1507-01-01", d:"umman"}, {f:"1507-01-01", t:"1650-01-26", d:"portekiz"}, {f:"1650-01-26", t:"1923-10-29", d:"umman"}], d:[] },
 { ad:"Ras el-Hayme (Cülfâr)", tur:"liman", lat:25.7889, lon:55.9431, g:0, k:0, s:[{f:"1281-01-01", t:"1515-04-01", d:"iran"}, {f:"1515-04-01", t:"1622-05-01", d:"portekiz"}, {f:"1622-05-01", t:"1820-01-08", d:"umman"}, {f:"1820-01-08", t:"1923-10-29", d:"ingiltere"}], d:[] },
-{ ad:"Şârika", tur:"liman", lat:25.3573, lon:55.3911, g:0, k:0, s:[{f:"1281-01-01", t:"1515-04-01", d:"iran"}, {f:"1515-04-01", t:"1622-05-01", d:"portekiz"}, {f:"1622-05-01", t:"1820-01-08", d:"umman"}, {f:"1820-01-08", t:"1923-10-29", d:"ingiltere"}], d:[] }
+{ ad:"Şârika", tur:"liman", lat:25.3573, lon:55.3911, g:0, k:0, s:[{f:"1281-01-01", t:"1515-04-01", d:"iran"}, {f:"1515-04-01", t:"1622-05-01", d:"portekiz"}, {f:"1622-05-01", t:"1820-01-08", d:"umman"}, {f:"1820-01-08", t:"1923-10-29", d:"ingiltere"}], d:[] },
+
+// ======= HAZAR DOĞUSU VE HAREZM (Oturum 11) =======
+// 16 yerleşim. Sebep ölçüldü: Türkmenbaşı'nın en yakın yerleşimi BAKÜ idi,
+// 269 km, denizin öbür yakasında — Bakü'nün peteği Hazar'ı aşıp doğu
+// kıyısında yeniden beliriyor, Osmanlı Şirvan'ı alınca doğu kıyısı da
+// Osmanlı boyanıyordu. Görev tanımı: oturumlar/OTURUM-11-ORTA-ASYA.md
+// ===== 1. HAZAR DOĞU KIYISI (51-56°D) — bildirilen hatayı doğrudan kapatan beş nokta =====
+
+// Krasnovodsk 1869'da Albay Stoletov'un çıkarmasıyla kuruldu; öncesinde
+// Kızılsu koyunda şehir yoktur (TDV TÜRKMENİSTAN: "1869: Krasnovodsk
+// alındı, resmî ilhak başladı"). kur: bu yüzden yazıldı; 1869 öncesi boşluk
+// KASITLIDIR — o kıyının o tarihteki sahibi komşu Çeleken noktası taşıyor.
+{ ad:"Krasnovodsk (Türkmenbaşı)", tur:"liman", lat:40.0220, lon:52.9600, g:1, k:0, d:[],
+  kur:"1869-01-01",
+  s:[{f:"1869-01-01", t:"1923-10-29", d:"rusya"}] },
+
+// Çeleken yarımadası ve Balhan sahili. TDV MANGIŞLAK, Balhan bölgesini
+// Mangışlak ve kuzey Harezm ile aynı siyasî zincire koyar; zincir birebir
+// Mangışlak kaydındakidir, tek fark Rus ilhakının 1869'da (Mangışlak'ta
+// 1881'de) gerçekleşmesidir. Koordinat maske yüzünden ~3 km kaydırıldı.
+{ ad:"Çeleken", tur:"bolge", lat:39.4600, lon:53.1400, g:0, k:0, d:[],
+  s:[{f:"1281-01-01", t:"1502-01-01", d:"altinorda"},
+     {f:"1502-01-01", t:"1512-01-01", d:"buhara"},
+     {f:"1512-01-01", t:"1600-01-01", d:"hive"},
+     {f:"1600-01-01", t:"1869-01-01", d:"turkmen"},
+     {f:"1869-01-01", t:"1923-10-29", d:"rusya"}] },
+
+// Kara Boğaz'ın batı kordonu (Bekdaş). Hazar'ın doğu kıyısının 41-42° kuşağı
+// Krasnovodsk'a 175 km, Mangışlak'a 380 km — bu nokta olmadan kıyı ortası
+// yine karşı yakadan emiliyordu.
+{ ad:"Garabogaz (Bekdaş)", tur:"bolge", lat:41.5619, lon:52.6014, g:0, k:0, d:[],
+  s:[{f:"1281-01-01", t:"1502-01-01", d:"altinorda"},
+     {f:"1502-01-01", t:"1512-01-01", d:"buhara"},
+     {f:"1512-01-01", t:"1600-01-01", d:"hive"},
+     {f:"1600-01-01", t:"1869-01-01", d:"turkmen"},
+     {f:"1869-01-01", t:"1923-10-29", d:"rusya"}] },
+
+// TDV MANGIŞLAK: XIV. yy ortasında Altın Orda'ya katıldı; XVI. yy başında
+// Hîve Hanlığı'na girdi; "yaklaşık bir asır sonra" Türkmen boyları göreli
+// bağımsızlığını geri kazandı; XVII. yy'da Kalmuk akınları, 1840'a kadar
+// Kazak Bayûlı ve Aday boylarının yerleşmesi; 1881'de Kafkasya idarî
+// bölgesine bağlandı. 1840-1881 arası nüfus Kazak'tır ama ayrı bir devlet
+// kurulmadığı için pencere "turkmen" (boy düzeni) altında bırakıldı.
+// Koordinat: Tüp-Karagan burnu, Fort Şevçenko (tarihî demirleme yeri).
+{ ad:"Mangışlak", tur:"bolge", lat:44.5100, lon:50.2670, g:0, k:0, d:[],
+  s:[{f:"1281-01-01", t:"1502-01-01", d:"altinorda"},
+     {f:"1502-01-01", t:"1512-01-01", d:"buhara"},
+     {f:"1512-01-01", t:"1600-01-01", d:"hive"},
+     {f:"1600-01-01", t:"1881-01-01", d:"turkmen"},
+     {f:"1881-01-01", t:"1923-10-29", d:"rusya"}] },
+
+// Meşhed-i Misriyân ovası — ortaçağ Dihistan'ı. Şehir Moğol istilâsından
+// sonra toparlanamadı; nokta ŞEHİR değil OVA olarak konuldu (tur:"bolge"),
+// çünkü hangi yüzyılda büsbütün terk edildiği TDV'de yazılı değil ve uydurma
+// bir bit: tarihi yazmaktan kaçınıldı. Zincir, güney komşusu Esterâbâd
+// (Gürgân) ile hizalıdır; ayrıldığı tek yer 1860 sonrasıdır: Etrek'in
+// KUZEYİ 1881 Ahal düzenlemesiyle Rus tarafında kaldı, Esterâbâd İran'da.
+// Not: Esterâbâd'ın 1723-1734 Rus penceresi (Petro'nun Hazar seferi)
+// buraya UYGULANMADI — 1723 antlaşması Gîlân, Mâzenderan ve Esterâbâd'ı
+// kapsar, Etrek kuzeyindeki Türkmen bozkırını değil.
+{ ad:"Dihistan ovası (Meşhed-i Misriyân)", tur:"bolge", lat:38.1667, lon:54.6333, g:0, k:0, d:[],
+  s:[{f:"1281-01-01", t:"1335-12-01", d:"ilhanli"},
+     {f:"1335-12-01", t:"1381-01-01", d:"iran"},
+     {f:"1381-01-01", t:"1507-05-24", d:"timurlu"},
+     {f:"1507-05-24", t:"1510-12-02", d:"iran"},
+     {f:"1510-12-02", t:"1736-03-08", d:"safevi"},
+     {f:"1736-03-08", t:"1860-01-01", d:"iran"},
+     {f:"1860-01-01", t:"1881-01-30", d:"turkmen"},
+     {f:"1881-01-30", t:"1923-10-29", d:"rusya"}] },
+
+// ===== 2. ÇÖL DOLGULARI — kasten sahipsiz, mevcut "Karakum" ile aynı desen =====
+
+// Uzboy, Amuderya'nın Hazar'a akan kurumuş eski yatağı. 1576'da Amuderya
+// mecrasını değiştirip Aral'a döküldü (TDV HÂRİZM); yatak bütünüyle çöl.
+// Susuz, devletsiz. Krasnovodsk'a 216 km, Karakum'a 261 km — ikisinin
+// arasındaki 475 km'lik açığı kapatır.
+{ ad:"Uzboy", tur:"bolge", lat:39.9000, lon:55.5000, g:0, k:0, d:[] },
+
+// Üstyurt, Hazar ile Aral arasındaki susuz kireçtaşı platosu. Yerleşim yok;
+// Türkmen, Kazak ve Karakalpak boylarının geçiş güzergâhı. Hîve'nin iddiası
+// vardı ama fiilî idare kurulmadığı için sahip yazılmadı (MIMARI.md §6:
+// "burada kimse yoktu" ile "burasını bilmiyoruz" farklı iddialardır — bu
+// devletsizliktir). İki nokta gerekti: Mangışlak ile Küngrat arası 474 km.
+{ ad:"Üstyurt platosu (batı)", tur:"bolge", lat:43.8000, lon:53.5000, g:0, k:0, d:[] },
+{ ad:"Üstyurt platosu (doğu)", tur:"bolge", lat:43.5000, lon:56.5000, g:0, k:0, d:[] },
+
+// ===== 3. HAREZM (58-62°D) =====
+
+// TDV HÂRİZM: 1256'dan sonra "Kâs ve Hîve Çağatay ulusuna bırakıldı" —
+// GÜNEY Harezm'in 1281'deki sahibi Çağatay Hanlığı'dır, Altın Orda değil.
+// Timur bölgeyi 1379'da kesin olarak aldı. Şeybânî Han 1502'de işgal etti.
+// İlbars Han 1512'de Hîve Hanlığı'nı kurdu. Nâdir Şah 1740'ta Hîve'yi topa
+// tuttu ve İlbars Han'ı idam ettirdi; hanlık, Nâdir'in 20 Haziran 1747'de
+// öldürülmesine kadar Afşar hâkimiyetinde kaldı.
+// ⚠️ 29 Mayıs 1873'te hanlık Rus vasalı oldu ama HANEDAN ve idare yerinde
+// kaldı; bu yüzden 1873'te kimlik DEĞİŞTİRİLMEDİ. Gerçek kopuş, son han
+// Seyyid Abdullah'ın 2 Şubat 1920'de çekilmesi ve 26 Nisan 1920'de Hârizm
+// Halk Cumhuriyeti'nin ilânıdır.
+{ ad:"Hîve", tur:"sehir", lat:41.3783, lon:60.3639, g:1, k:0, d:[],
+  s:[{f:"1281-01-01", t:"1379-01-01", d:"cagatay"},
+     {f:"1379-01-01", t:"1502-01-01", d:"timurlu"},
+     {f:"1502-01-01", t:"1512-01-01", d:"buhara"},
+     {f:"1512-01-01", t:"1740-01-01", d:"hive"},
+     {f:"1740-01-01", t:"1747-06-20", d:"iran"},
+     {f:"1747-06-20", t:"1920-04-26", d:"hive"},
+     {f:"1920-04-26", t:"1923-10-29", d:"rusya"}] },
+
+// Hazârasp, Hîve'nin 55 km doğusunda, Amuderya'nın sol kıyısındaki eski
+// kale. Güney Harezm'dedir, zinciri Hîve ile aynıdır.
+// ⚠️ TDV'de "Hazarasp" başlıklı madde YOKTUR (arama sıfır sonuç verdi);
+// zincir, HÂRİZM maddesinin bölge tarihinden türetilmiştir.
+{ ad:"Hazârasp", tur:"kale", lat:41.3200, lon:61.0700, g:0, k:0, d:[],
+  s:[{f:"1281-01-01", t:"1379-01-01", d:"cagatay"},
+     {f:"1379-01-01", t:"1502-01-01", d:"timurlu"},
+     {f:"1502-01-01", t:"1512-01-01", d:"buhara"},
+     {f:"1512-01-01", t:"1740-01-01", d:"hive"},
+     {f:"1740-01-01", t:"1747-06-20", d:"iran"},
+     {f:"1747-06-20", t:"1920-04-26", d:"hive"},
+     {f:"1920-04-26", t:"1923-10-29", d:"rusya"}] },
+
+// Köhne Ürgenç = ortaçağ Gürgenç'i, Harezm'in idarî ve iktisadî merkezi.
+// KUZEY Harezm'dedir; TDV HÂRİZM'e göre Cuci ulusunda (Altın Orda) kaldı —
+// 55 km güneydeki Hîve'den AYRI bir zincirle başlaması bunun sonucudur.
+// Moğollar 1221'de yıktı, şehir Ceyhun'un başka bir kolunda yeniden kuruldu.
+// Timur 1388'de ahaliyi Semerkant'a sürdü ve yerine arpa ektirdi; Timurlular
+// (Şâhruh) yeniden imar etti. Amuderya 1576'da mecrasını değiştirince şehir
+// susuz kaldı; TDV GÜRGENÇ: "1645'ten sonra Hîve'nin kuzeydoğusunda" Yeni
+// Ürgenç kuruldu ve eski şehir terk edildi.
+// ⚠️ bit: yazıldı ama sahiplik zinciri 1923'e kadar TAM bırakıldı — motor
+// bit:'i okumadığı için kesilseydi Değişmez 1 ihlal olurdu.
+{ ad:"Köhne Ürgenç (Gürgenç)", tur:"sehir", lat:42.3417, lon:59.1500, g:1, k:0, d:[],
+  bit:"1646-01-01",
+  s:[{f:"1281-01-01", t:"1379-01-01", d:"altinorda"},
+     {f:"1379-01-01", t:"1502-01-01", d:"timurlu"},
+     {f:"1502-01-01", t:"1512-01-01", d:"buhara"},
+     {f:"1512-01-01", t:"1740-01-01", d:"hive"},
+     {f:"1740-01-01", t:"1747-06-20", d:"iran"},
+     {f:"1747-06-20", t:"1920-04-26", d:"hive"},
+     {f:"1920-04-26", t:"1923-10-29", d:"rusya"}] },
+
+// Yeni Ürgenç — TDV GÜRGENÇ: "1645'ten sonra" kuruldu. Bugünkü Özbekistan'ın
+// Ürgenç şehri. Köhne Ürgenç'ten 100 km güneydoğuda, Hîve'ye 29.5 km.
+// Ayrı kayıt olmasının sebebi zaman boyutudur: kur:/bit: okunur hâle
+// geldiğinde 1646'da sahneye çıkması, Köhne Ürgenç'in aynı gün sahneden
+// çekilmesi gerekir. Bugün ikisi de petek taşıyor, sahipleri aynı olduğu
+// için haritada fark görünmez.
+{ ad:"Yeni Ürgenç", tur:"sehir", lat:41.5500, lon:60.6333, g:0, k:0, d:[],
+  kur:"1646-01-01",
+  s:[{f:"1646-01-01", t:"1740-01-01", d:"hive"},
+     {f:"1740-01-01", t:"1747-06-20", d:"iran"},
+     {f:"1747-06-20", t:"1920-04-26", d:"hive"},
+     {f:"1920-04-26", t:"1923-10-29", d:"rusya"}] },
+
+// Küngrat, Amuderya deltasında, Aral'ın güney kıyısında. Kuzey Harezm
+// zinciri (Köhne Ürgenç ile aynı). Aral'ın güney kıyısı bu nokta olmadan
+// Karakum dolgusuna 399 km uzaktaydı.
+{ ad:"Küngrat", tur:"sehir", lat:43.0833, lon:58.8333, g:0, k:0, d:[],
+  s:[{f:"1281-01-01", t:"1379-01-01", d:"altinorda"},
+     {f:"1379-01-01", t:"1502-01-01", d:"timurlu"},
+     {f:"1502-01-01", t:"1512-01-01", d:"buhara"},
+     {f:"1512-01-01", t:"1740-01-01", d:"hive"},
+     {f:"1740-01-01", t:"1747-06-20", d:"iran"},
+     {f:"1747-06-20", t:"1920-04-26", d:"hive"},
+     {f:"1920-04-26", t:"1923-10-29", d:"rusya"}] },
+
+// ===== 4. KUZEY HORASAN — Kopet Dağ'ın kuzey eteği (58-62°D) =====
+
+// Nesâ, Ahal vahasının ortaçağ merkezi; bugünkü Aşkabad'ın 17 km batısı.
+// 1736'ya kadarki zincir komşu Kûçân, Kelât-ı Nâdirî ve Serahs kayıtlarıyla
+// BİREBİR aynıdır (yerlesimler.js). Ayrıldığı yer 1860 sonrasıdır:
+// TDV TÜRKMENİSTAN, Türkmen boylarının "yaklaşık 1860-1884" arasında fiilî
+// bağımsızlık kazandığını, Aşkabad'ın 30 Ocak 1881'de işgal edildiğini yazar.
+// ⚠️ TDV'de "Nesâ" başlıklı şehir maddesi YOKTUR; zincir TÜRKMENİSTAN ve
+// komşu yerleşim kayıtlarından türetilmiştir.
+{ ad:"Nesâ", tur:"sehir", lat:37.9667, lon:58.1833, g:0, k:0, d:[],
+  s:[{f:"1281-01-01", t:"1335-12-01", d:"ilhanli"},
+     {f:"1335-12-01", t:"1381-01-01", d:"iran"},
+     {f:"1381-01-01", t:"1507-05-24", d:"timurlu"},
+     {f:"1507-05-24", t:"1510-12-02", d:"iran"},
+     {f:"1510-12-02", t:"1736-03-08", d:"safevi"},
+     {f:"1736-03-08", t:"1860-01-01", d:"iran"},
+     {f:"1860-01-01", t:"1881-01-30", d:"turkmen"},
+     {f:"1881-01-30", t:"1923-10-29", d:"rusya"}] },
+
+// Ebîverd, Ahal vahasının doğu ucu (bugünkü Kâhka yakını). Nesâ ile Serahs
+// arasındaki 210 km'lik açığı kapatır; zinciri Nesâ ile aynıdır.
+{ ad:"Ebîverd", tur:"sehir", lat:37.9000, lon:59.6167, g:0, k:0, d:[],
+  s:[{f:"1281-01-01", t:"1335-12-01", d:"ilhanli"},
+     {f:"1335-12-01", t:"1381-01-01", d:"iran"},
+     {f:"1381-01-01", t:"1507-05-24", d:"timurlu"},
+     {f:"1507-05-24", t:"1510-12-02", d:"iran"},
+     {f:"1510-12-02", t:"1736-03-08", d:"safevi"},
+     {f:"1736-03-08", t:"1860-01-01", d:"iran"},
+     {f:"1860-01-01", t:"1881-01-30", d:"turkmen"},
+     {f:"1881-01-30", t:"1923-10-29", d:"rusya"}] },
+
+// Merv. TDV MERV: Tuluy 1221'de yıktı; Hülâgû'dan sonra İlhanlı toprağı;
+// Şâhruh 812/1410'da yeni bir bent yaptırıp sulama kanallarını açtırdı;
+// Şah İsmâil'in 916/1510'da Şeybânî Han'ı yenmesinden sonra Safevî; "XII.
+// (XVIII.) yüzyılda Buhara Emîri Murad Han'ın Murgāb Bendi'ni yıkıp halkı
+// sürgüne yollaması yüzünden canlılığını tamamen kaybetti"; 1884'te Ruslar
+// aldı.
+// ⚠️ TDV Buhara yıkımına YIL VERMİYOR. 1785 uydurulmadı: TDV BUHARA HANLIĞI
+// Mangıt hanedanının 1785'te başladığını yazar, Murad Han da ilk Mangıt
+// emîridir — pencere hanedanın başına yaslandı, gün yazılmadı.
+// ⚠️ KOORDİNAT: ortaçağ Merv'i (Sultan Kale) 37.662/62.192'de, kutunun
+// 0.19° dışında. Nokta vahanın batı ucuna (Mari) konuldu; kutu açılınca
+// 37.662/62.192'ye taşınmalıdır.
+{ ad:"Merv (Mari)", tur:"sehir", lat:37.5936, lon:61.8333, g:1, k:0, d:[],
+  s:[{f:"1281-01-01", t:"1335-12-01", d:"ilhanli"},
+     {f:"1335-12-01", t:"1381-01-01", d:"iran"},
+     {f:"1381-01-01", t:"1507-05-24", d:"timurlu"},
+     {f:"1507-05-24", t:"1510-12-02", d:"iran"},
+     {f:"1510-12-02", t:"1736-03-08", d:"safevi"},
+     {f:"1736-03-08", t:"1785-01-01", d:"iran"},
+     {f:"1785-01-01", t:"1860-01-01", d:"buhara"},
+     {f:"1860-01-01", t:"1884-01-01", d:"turkmen"},
+     {f:"1884-01-01", t:"1923-10-29", d:"rusya"}] }
 ];

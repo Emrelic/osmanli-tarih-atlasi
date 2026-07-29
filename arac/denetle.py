@@ -31,11 +31,13 @@ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(KOK, "data")
 
 # Bugün doğru kabul edilen sayılar — CLAUDE.md §3 ile aynı. Sapma varsa uyar.
-BEKLENEN_YERLESIM = 722
+BEKLENEN_YERLESIM = 738
 # 29 -> 32: Oturum 4'ün Necid noktaları (Buraydâ, Uneyze, Şakrâ) 1744
 # öncesinde kasten sahipsiz — orada devlet yoktu, Riyad ve Dir'iye ile
 # aynı desen (MIMARI.md §6: 'devletsiz' ile 'veri yok' ayrımı).
-BEKLENEN_SAHIPSIZ = 32
+# 32 -> 35: Oturum 11 in col/plato dolgu noktalari (Uzboy, Ustyurt bati ve
+# dogu) kasten sahipsiz — Karakum ve Rub ul Hali ile ayni desen.
+BEKLENEN_SAHIPSIZ = 35
 BEKLENEN_KIRILMA = 426
 BEKLENEN_ACIK = 0
 # MIMARI.md §3.4 — bilinen borç, tavan bu. 311'den 318'e çıkarıldı: beylik

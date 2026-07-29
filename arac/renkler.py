@@ -97,6 +97,14 @@ BOYALAR = {
     "mehdi":        ("Mehdî Devleti (Sudan)",  "#4e342e"),
     # --- Func Sultanlığı'ndan (1504) önceki Hıristiyan Nûbe krallıkları ---
     "nube":         ("Nûbe krallıkları (Makurya-Alve)", "#6d4c41"),
+    # --- Orta Asya (Oturum 11) — Hazar doğusu ve Harezm ---
+    # Çağatay Hanlığı 1227-1370; Timurlu'nun selefi. Hîve (Harezm) 1511-1920 ve
+    # Buhara 1500-1920 Özbek hanlıkları. Türkmen boyları çoğu zaman devletsizdi;
+    # Hîve ile İran arasında el değiştiren kıyı şeridi için ayrı kimlik.
+    "cagatay":      ("Çağatay Hanlığı",        "#6a1b9a"),
+    "hive":         ("Hîve Hanlığı (Harezm)",  "#00695c"),
+    "buhara":       ("Buhara Hanlığı",         "#4527a0"),
+    "turkmen":      ("Türkmen boyları",        "#8d6e63"),
     "fas":        ("Fas",                    "#9e6b5b"),
     # --- Beylik öncesi Anadolu'nun sahipleri (kullanıcı tespiti: 1288 haritasında
     # beylikler yanlış; hepsi 1281'de başlıyordu, gerçek kuruluşları onlarca yıl
