@@ -294,9 +294,9 @@ harita.on("load", function () {
 
   harita.addSource("vassal", { type: "geojson", data: bosVeri() });
   harita.addLayer({ id: "vassal-dolgu", type: "fill", source: "vassal",
-    paint: { "fill-color": "#c96a4a", "fill-opacity": 0.42 } });
+    paint: { "fill-color": "#d4707d", "fill-opacity": 0.52 } });
   harita.addLayer({ id: "vassal-cizgi", type: "line", source: "vassal",
-    paint: { "line-color": "#a34d22", "line-width": 1.4, "line-dasharray": [3, 2] } });
+    paint: { "line-color": "#8e0b22", "line-width": 1.4, "line-dasharray": [3, 2] } });
 
   harita.addSource("osmanli", { type: "geojson", data: bosVeri() });
   harita.addLayer({ id: "osmanli-dolgu", type: "fill", source: "osmanli",
@@ -471,7 +471,23 @@ function sehirGuncelle(t) {
 }
 
 // ---------- Savaş yerleri (⚔) ve sefer okları ----------
-var SAVAS_PENCERE = 730;                     // muharebe işareti ~2 yıl görünür
+// ⚠️ GENEL KURAL (kullanıcı): görsel işaret, maddenin olayı bitince kalkar.
+// Eskiden her muharebe işareti 730 gün (iki yıl) ekranda kalıyordu; o sürede
+// başka muharebeler de olunca işaretler üst üste biniyor ve harita okunmaz
+// hale geliyordu (Pelekanon, Dimbos, Kulacahisar, Adranos, Karacahisar aynı
+// anda). Artık işaret BİR SONRAKİ KRONOLOJİ MADDESİNE kadar görünür.
+// Taban 60 gün: hızlı oynatmada gözden kaçmasın. Tavan 365 gün: kronolojide
+// boşluk olan dönemlerde tek işaret ekranı kilitlemesin.
+var SAVAS_PENCERE_TABAN = 60;
+var SAVAS_PENCERE_TAVAN = 365;
+function sonrakiOlayaKadar(gi) {
+  var en = SAVAS_PENCERE_TAVAN;
+  for (var i = 0; i < olaylar.length; i++) {
+    var d = olaylar[i].gi - gi;
+    if (d > 0 && d < en) en = d;
+  }
+  return Math.max(SAVAS_PENCERE_TABAN, en);
+}
 // Olay türüne göre simge (kullanıcı isteği):
 //   meydan muharebesi -> iki kılıç, kuşatma -> şehrin üstünde küçük çember,
 //   iç isyan -> ateş, deniz muharebesi -> çapa. Kuşatma/muharebe başarısızsa
@@ -489,7 +505,7 @@ var savasIsaretleri = (window.SAVASLAR || []).filter(function (s) { return s.lat
     // Başarısız kuşatma / kaybedilen muharebe: simgenin üzerine çarpı
     if (s.sonuc === "yenilgi") ic.classList.add("basarisiz");
     dis.appendChild(ic);
-    return { gi: gunIdx(s.t), sure: (s.sure || SAVAS_PENCERE), ekli: false,
+    return { gi: gunIdx(s.t), sure: s.sure || 0, ekli: false,
              mk: new maplibregl.Marker({ element: dis, anchor: "center" })
                    .setLngLat([s.lon, s.lat]) };
   });
@@ -497,6 +513,9 @@ var savasIsaretleri = (window.SAVASLAR || []).filter(function (s) { return s.lat
 function savasGuncelle(t) {
   if (!haritaHazir) return;
   savasIsaretleri.forEach(function (m) {
+    // Pencere ilk gösterimde hesaplanır: `olaylar` dizisi bu noktadan SONRA
+    // tanımlandığı için kurulum anında okunamaz.
+    if (!m.sure) m.sure = sonrakiOlayaKadar(m.gi);
     var goster = t >= m.gi && t < m.gi + m.sure;
     if (goster && !m.ekli) { m.mk.addTo(harita); m.ekli = true; }
     else if (!goster && m.ekli) { m.mk.remove(); m.ekli = false; }
