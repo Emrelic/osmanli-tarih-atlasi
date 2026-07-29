@@ -299,6 +299,9 @@ window.ANTLASMALAR.sort((a,b)=> a.t < b.t ? -1 : 1);
 // Deniz harekâtlarında ara noktalar karaya değmez; donanma Mora'yı dolanır,
 // Ege'de ada ada ilerler. Ok, muharebenin gerçekleştiği noktada biter.
 window.SEFERLER = [
+{ ad:"Niğbolu Haçlı seferi (1396)", taraf:"dusman", renk:"#1f5fa8",
+  f:"1396-07-01", t:"1396-09-25",
+  yol:[[19.04,47.50],[20.46,44.82],[22.40,44.72],[22.88,43.99],[23.96,43.74],[24.90,43.71]] },
 // ⚠️ `taraf` alanı: okun rengini belirler. Yazılmazsa "osmanli" varsayılır.
 //   osmanli -> koyu kırmızı/siyah   dusman -> yeşil, sarı ya da mavi
 // Kullanıcı kuralı: Türk okları kırmızı/siyah, düşman okları soğuk renkler.
