@@ -43,6 +43,30 @@ Gerekçeler: `MIMARI.md` §3.
       dosyaları okusun. Paralel oturumların yerleşim ekleyebilmesinin ön koşulu.
       *(MIMARI §3.3)*
 
+- [ ] **YEDİNCİ DENETİM: sıfır alanlı petek** — *(MIMARI.md §3.5, en yeni sessiz
+      hata sınıfı)*. Kenar yaslama bir peteğin sınırını kendi tohum noktasının
+      ötesine itebiliyor; yüz "yetim" kalıp komşuya katılıyor ve yerleşim hiç
+      toprak almıyor. Ölçüldü: **Estergon'un peteği 8 km², Solnok'un 0 km²** —
+      ikisinin de kaybı haritada görünmüyor, oysa veri, kronoloji ve motor
+      mantığı üçü de doğru. Kullanıcı bunları hatalar 7.docx'te bildirdi.
+      İki adım:
+      1. Üretimde **32 yetim yüzün hangi yerleşimlere ait olduğu loglansın** —
+         o liste sınıfın tam envanteri olur.
+      2. `denetle.py`'ye her peteğin alanı, `BEKLENEN_SIFIR_PETEK = 0`.
+         ⚠️ Ölçüm `o + v + z` katmanlarının TOPLAMI üzerinden yapılmalı; yalnız
+         `o` sayılırsa tâbi/şehzade katmanına geçen petekler yanlış sıfır verir
+         (ilk denemede Bursa bile 0 km² çıktı).
+
+- [ ] **Mükerrer denetimine İKİNCİ ölçüt** — Jaccard kelime benzerliği taht
+      değişimi maddelerinde kör. Ölçüldü: "IV. Mehmed'in tahttan indirilmesi"
+      ile "II. Süleyman'ın cülusu" **tek kelime paylaşmıyor** (aynı olayın iki
+      yüzü zıt özneyle yazılınca benzerlik sıfır); "II. Mustafa'nın cülusu" ile
+      "II. Mustafa tahta çıktı — sefere bizzat katılma kararı" 0.125 veriyor,
+      eşik 0.45. İkisini de araç kaçırdı, kullanıcı ekranda gördü.
+      Hal'/cülûs, ölüm/cülûs, azil/tayin çiftleri bu kör noktada kalmaya devam
+      edecek. Önerilen ölçüt: **aynı gün ±3 + `kisiler` alanında ortak ad**
+      varsa şüpheli say.
+
 - [ ] **Motor `kur:` ve `bit:` alanlarını okumuyor** — henüz kurulmamış (ya da
       artık var olmayan) bir yerleşim de petek alıyor ve komşularından toprak
       koparıyor. Kullanıcı bunu Katîf ekran görüntüsünde yakaladı (hatalar

@@ -60,10 +60,15 @@ hiç görünmedi.
 
 ---
 
-## 3. Çözülmemiş dört yapısal sorun
+## 3. Çözülmemiş BEŞ yapısal sorun
 
-Dördü de **coğrafi kapsam genişlemeden önce** çözülmeli. Nokta kümesi büyüdükçe
-bu dönüşümler kat kat pahalılaşır — bugün 567 kayıt, hedef 4000-6000.
+İlk dördü **coğrafi kapsam genişlemeden önce** çözülmeli. Nokta kümesi büyüdükçe
+bu dönüşümler kat kat pahalılaşır — bugün 764 kayıt, hedef 4000-6000.
+
+Beşincisi (§3.5) ötekilerden farklıdır: o bir borç değil, **sessiz bir hata.**
+İlk dördünün etkisi ölçülmüş ve biliniyor; §3.5 ise denetim temiz raporlarken
+haritayı yanlış çizdiriyor, yani ne zaman vurduğu ancak kullanıcı ekranda görüp
+bildirince anlaşılıyor.
 
 ### 3.1 Voronoi bütün tarih için bir kez hesaplanıyor ⚠️ EN ÖNEMLİ
 
@@ -134,6 +139,54 @@ katmanı zaten yalnız Osmanlı dönemlerinde çiziliyor — **dünya kapsamınd
 
 **Yapılacak:** `k`/`m` zamanlı hâle gelsin (bkz. `VERI-YAPISI.md`), `_uyeler` dönem
 başına kurulsun, Osmanlı filtresi yerine "merkez ile üye aynı devlette mi?" kontrolü.
+
+### 3.5 Kenar yaslama bir peteği tamamen yok edebiliyor ⚠️ SESSİZ
+
+*Bulunuş: hatalar 7.docx madde 2-3, 2026-07-30.*
+
+Kullanıcı "Estergon'un kaybı haritada görülmüyor", "Solnok'un kaybı haritada
+görünmüyor" dedi. Zincirin her halkası ayrı ayrı doğru çıktı:
+
+| Halka | Durum |
+|---|---|
+| Veri | ✓ Estergon `d:` 1683-10-09'da, Solnok 1685-10-19'da bitiyor |
+| Kronoloji | ✓ ikisi de kendi maddesine **0 gün** farkla eşleşiyor |
+| Motor mantığı | ✓ dönem kaydında petek 163 ve 491 `c:[...]` ile Osmanlı kümesinden çıkıyor |
+| **Boyanan alan** | ✗ **hiç değişmiyor** |
+
+Gerçek poligon alanı ölçüldü:
+
+```
+1683-10-09  Kayıp: Estergon    Δ      8 km²
+1685-10-19  Kayıp: Solnok      Δ      0 km²
+1685-08-19  Kayıp: Uyvar       Δ 16.329 km²   ← normal
+```
+
+**Estergon'un peteği 8 km², Solnok'un 0 km².** Bu iki yerleşim haritada toprak
+sahibi değil; kaç kez el değiştirse görünmez.
+
+**Nehir hipotezi test edildi ve çürüdü.** İkisi de nehir kıyısında (Estergon
+0.99 km, Solnok 0.68 km) ama **Segedin 0.166 km** — daha yakın — ve peteği
+sağlam 9.000 km². Yakınlık sebep değil.
+
+**Mekanizma:** üretim logundaki `"32 yetim yüz sahipli komşulara katıldı"`
+satırı. Motor peteği kurduktan sonra ortak kenarları doğal hatlara (nehir
+yatağı, dağ sırtı, kıyı) yaslıyor; yaslama bir peteğin sınırını **kendi tohum
+noktasının ötesine** itebiliyor. O zaman polygonize sonrası yüz sahipsiz kalıyor,
+"yetim" sayılıp komşuya katılıyor ve yerleşim hiç toprak almıyor. Solnok'un en
+yakın komşusu 68 km uzakta — normalde 10.000+ km² peteği olmalıydı.
+
+Bu, `§3.1`-`§3.4`ten farklı bir sınıf: onlar bilinen ve ölçülmüş borçlar, bu ise
+**sessiz.** Denetim temiz raporlar, harita yanlış çizer. Kullanıcının bundan
+sonra bildireceği "şu şehrin fethi görünmüyor" raporlarının arkasında bu olabilir.
+
+**Yapılacak (iki adım):**
+1. Üretimde **32 yetim yüzün hangi yerleşimlere ait olduğu loglansın** — o liste
+   sınıfın tam envanteri.
+2. `denetle.py`'ye **yedinci denetim**: her peteğin alanı, `BEKLENEN_SIFIR_PETEK = 0`.
+   ⚠️ Ölçüm `o + v + z` katmanlarının TOPLAMI üzerinden yapılmalı. Yalnız `o`
+   sayılırsa `v:` (tâbi) ya da `z:` (şehzade) katmanına geçen petekler yanlış
+   sıfır verir — ilk denememde Bursa bile 0 km² çıktı.
 
 ---
 

@@ -22,7 +22,7 @@ Balkanlar ..................  7     İran-Kafkas ötesi ........  19
 KUZEY-DOĞU AVRUPA ..........  99    ← bu oturum
 ```
 
-Kutu: **boylam 15-45°D, enlem 48-62°K.** İçinde şu an **30 nokta** var. Bekleyen
+Kutu: **boylam 15-45°D, enlem 44-62°K.** İçinde şu an **30 nokta** var. Bekleyen
 merge partilerinden (Oturum 12'nin 228 noktası) bu kutuya yalnız **10'u** düşüyor
 — yani birleştirme yapıldıktan sonra bile 74'te kalıyor ve **pencere içindeki en
 zayıf bölge olarak öne çıkıyor.**
@@ -36,9 +36,48 @@ olmayan bölge en yakın peteğe emilir"). Kullanıcı sınır bölgelerindeki b
 
 ## 2. Kapsam
 
-Boylam **15-45°D**, enlem **48-62°K**. (Alt sınır 48 çünkü altı Balkanlar ve
-Kırım-Kafkasya kutularında zaten doygun; üst sınır 62 çünkü motorun penceresi
-`box(-12, 1.5, 62, 62)` orada bitiyor — daha kuzeye nokta koymak boşa gider.)
+Boylam **15-45°D**, enlem **44-62°K**.
+
+> ⚠️ **ALT SINIR 48'DEN 44'E İNDİRİLDİ — 2026-07-30, hatalar 7.docx madde 1.**
+> İlk yazımda "altı Balkanlar ve Kırım-Kafkasya kutularında zaten doygun"
+> demiştim. **Yanlıştı.** O iki kutunun ortalaması doygun görünüyor ama
+> aralarındaki **Pontik bozkır** (Kırım'ın kuzeyi, Kuban, aşağı Volga, Don
+> havzası) neredeyse boş. Kullanıcı bunu ekranda gördü:
+>
+> *"Kırım hanlığı bozkırı filan gibi ve Kafkasya kuzeyindeki topraklarda tam
+> olarak 1650'li yıllarda hangi yapılar vardı acaba. Bu haritadaki bozuk
+> gösterimleri düzeltmemiz gerekir."*
+>
+> Ekran görüntüsünde "KIRIM HANLIĞI BOZKIRI" **düz kenarlı ince bir dikey
+> şerit** hâlinde kuzeye uzanıyor — tek noktanın komşusuz peteğinin şişmesi.
+> Aynı seyreklik Azak'ın 1696 kaybını da **53 bin km²** gösteriyor, çünkü Don
+> bozkırında Azak'tan başka nokta yok. 48°K sınırı bu şeridi hiçbir oturumun
+> kapsamına sokmuyordu.
+>
+> Üst sınır 62 çünkü motorun penceresi `box(-12, 1.5, 62, 62)` orada bitiyor —
+> daha kuzeye nokta koymak boşa gider.
+
+### 2.1 Pontik bozkır — 1650'lerde orada ne vardı
+
+Bu şeridin doldurulması yalnız nokta eklemek değil, **kimin olduğuna karar
+vermek** demek. 1650'ler kesitinde sahnedeki yapılar:
+
+| Yapı | Konum | Not |
+|---|---|---|
+| Kırım Hanlığı'nın bozkır orduları | Kırım kuzeyi | Yedisan, Yedişkul, Cambuyluk — Osmanlı tâbii, `v:` olmalı |
+| Küçük Nogay (Kazi-Ulus) | Kuban havzası | Kırım'a bağlı |
+| Büyük Nogay Ordası | Volga'nın doğusu | 1630'larda Kalmuklarca dağıtıldı |
+| Kalmuklar | Aşağı Volga | 1630'lardan itibaren |
+| Don Kazakları | Don havzası | Moskova'ya tâbi |
+| Zaporijya Hetmanlığı | Dinyeper orta havzası | 1648'den; 1669-1676 Osmanlı himayesi (Doroşenko) |
+| Kabardey ve Çerkezya | Kuzey Kafkasya | Aşiret yapısı, Kırım/Osmanlı nüfuzu |
+| Tarki Şamhallığı | Dağıstan | Osmanlı-Safevî arasında |
+| Astarhan | Volga ağzı | Hanlık 1556'da bitti, Moskova'nın |
+
+⚠️ Bunların çoğu **yerleşik şehir değil, hareketli orda.** Petek motoru noktaya
+dayandığı için her biri için bir "merkez" seçmek gerekiyor (Bahçesaray, Kızılyar,
+Çerkassk, Tarki, Astarhan, Azak, Çigirin gibi). Uydurma şehir icat etme — kaynağı
+olan kışlak, kale ve panayır yerlerini kullan ve gerekçesini kayıt yorumuna yaz.
 
 | Bölge | Beklenen nokta | Not |
 |---|---|---|
@@ -52,14 +91,14 @@ Kırım-Kafkasya kutularında zaten doygun; üst sınır 62 çünkü motorun pen
 | Finlandiya / Karelya | Turku (Åbo), Helsinki, Viipuri | 1809'a kadar İsveç, sonra Rusya |
 | Beyaz Rusya / Smolensk hattı | Minsk, Polotsk, Vitebsk, Mogilev | Lehistan ↔ Rusya arasında çok el değiştirir |
 
-**Hedef: 90-120 nokta.** Bu kutuyu 74'ten ~20'ye indirir, yani Balkanlar-İtalya
+**Hedef: 110-150 nokta** (Pontik bozkır dahil). Bu kutuyu 74'ten ~20'ye indirir, yani Balkanlar-İtalya
 kademesine yaklaştırır.
 
 ⚠️ **Önce mevcudu oku.** `data/yerlesimler.js` ve `data/yerlesimler_avrupa.js`
 içinde bu kutuya düşen 40 nokta var; hangileri olduğunu ÖLÇ ve tekrar yazma:
 
 ```bash
-node -e "global.window={};const fs=require('fs');for(const f of ['yerlesimler.js','yerlesimler_avrupa.js'])eval(fs.readFileSync('data/'+f,'utf8'));for(const k of Object.keys(window))if(/^YERLESIMLER/.test(k))window[k].filter(y=>y.lon>=15&&y.lon<45&&y.lat>=48&&y.lat<62).forEach(y=>console.log(k,y.ad,y.lat,y.lon));"
+node -e "global.window={};const fs=require('fs');for(const f of ['yerlesimler.js','yerlesimler_avrupa.js'])eval(fs.readFileSync('data/'+f,'utf8'));for(const k of Object.keys(window))if(/^YERLESIMLER/.test(k))window[k].filter(y=>y.lon>=15&&y.lon<45&&y.lat>=44&&y.lat<62).forEach(y=>console.log(k,y.ad,y.lat,y.lon));"
 ```
 
 ## 3. En kritik kısıt — Değişmez 2
