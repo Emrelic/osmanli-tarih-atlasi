@@ -1465,6 +1465,912 @@ window.DEVLETLER = [
     { t:"1905-08-13", tur:"antlasma", b:"Halkoylamasıyla fesih onaylandı, Karlstad Antlaşması ile İsveç kabul etti" },
     { t:"1905-11-18", tur:"hukumdar", b:"Danimarka Prensi Carl, VII. Haakon unvanıyla kral oldu" }
   ]
+},
+
+// ================================================================================
+// TAMAMLAYICI EKLER — Parti 6/7/8'in orijinal görev tanımındaki (OTURUM-3-
+// DEVLETLER.md) maddelerinden ilk geçişte atlanan üçü: "körfez şeyhlikleri"
+// (Parti 6), "Merînî/Fas" (Parti 7), "Avusturya ve Macaristan cumhuriyetleri,
+// TBMM/Türkiye" (Parti 8). Görev dosyasını yeniden okurken fark edildi, geri
+// dönüp tamamlandı. Ayrıca mevcut `bosna-kralligi` kaydına (Parti 0'dan kalma)
+// eksik olan `harita:"bosna"` eklendi — orijinal 53'lük listedeki son boşluktu.
+// ================================================================================
+
+{ id:"merini", ad:"Merînî ve Vattâsî Fas Krallığı", tur:"krallik", bolge:"kuzey-afrika",
+  f:"1196-01-01", t:"1549-01-01", baskent:"Fas (Fez)",
+  ozet:"Muvahhidler'in Zenâte kökenli vezirliğinden bağımsızlaşan, Fas'ı başkent yapan Berberî hanedan; Endülüs Nasrî Krallığı'na destek verdi, Portekiz'in kıyı şehirlerini almasıyla zayıflayıp Vattâsî vezirlerine, sonra Sâdîlere devretti (bkz. [[fas]]). (kaynak: TDV, madde: meriniler)",
+  kronoloji:[
+    { t:"1196-01-01", tur:"kurulus", b:"Abdülhak b. Mahyû, Zenâte Merînî boyunun beyliğini kurdu (henüz Muvahhid hizmetinde)" },
+    { t:"1269-01-01", tur:"toprak-kazanc", b:"Ebû Yûsuf Ya'kūb, Marakeş'i alarak Muvahhid devletine son verdi" },
+    { t:"1340-01-01", tur:"savas", b:"Rio Salado'da Kastilya-Portekiz ittifakına yenilip Endülüs'e müdahalesi zayıfladı" },
+    { t:"1415-01-01", tur:"toprak-kayip", b:"Portekiz Septe'yi (Ceuta) aldı, kıyı şehirleri kaybı başladı" },
+    { t:"1471-01-01", tur:"bolunme", b:"Vattâsî ailesi (eski Merînî vezirleri) fiilî iktidarı ele geçirdi" },
+    { t:"1549-01-01", tur:"son", b:"Sâdîler Fas'ı alarak hanedana son verdi (bkz. [[fas]])" }
+  ]
+},
+{ id:"kuveyt", ad:"Kuveyt (Sabah Şeyhliği)", tur:"devlet", bolge:"arabistan",
+  f:"1752-01-01", t:"1923-10-29", baskent:"Kuveyt şehri",
+  ozet:"Uneyze'den gelen Utûb kabilesinin kurduğu, Basra vilayetine bağlı kaza statüsünde yönetilen şeyhlik; Şeyh Mübarek'in 1899'da gizlice İngiltere ile imzaladığı antlaşmayla fiilen Osmanlı'dan koptu (1923 sonrasında da sürdü). (kaynak: TDV, madde: kuveyt)",
+  kronoloji:[
+    { t:"1752-01-01", tur:"kurulus", b:"Utûb kabilesinden Sabah I, Kuveyt şeyhi seçildi" },
+    { t:"1871-01-01", tur:"antlasma", b:"Osmanlı, Basra vilayetine bağlı bir kaza olarak Kuveyt'i idareye dahil etti" },
+    { t:"1899-01-23", tur:"antlasma", b:"Şeyh Mübarek, İngiltere ile gizli himaye antlaşması imzaladı" },
+    { t:"1913-07-29", tur:"antlasma", b:"Osmanlı-İngiliz sözleşmesiyle Kuveyt'in özerkliği tanındı (I. Dünya Savaşı nedeniyle yürürlüğe girmedi)" }
+  ]
+},
+{ id:"bahreyn", ad:"Bahreyn (Âl Halîfe Şeyhliği)", tur:"devlet", bolge:"arabistan",
+  f:"1783-01-01", t:"1923-10-29", baskent:"Manama",
+  ozet:"Utûb kabilesinden Âl Halîfe ailesinin 1783'te ele geçirdiği ada şeyhliği; statüsü Osmanlı ile İngiltere arasında uzun süre tartışmalı kaldı, 1913'te Osmanlı iddiasından vazgeçti (1923 sonrasında da sürdü). (kaynak: TDV, madde: bahreyn)",
+  kronoloji:[
+    { t:"1783-01-01", tur:"kurulus", b:"Utûb kabilesinden Âl Halîfe ailesi Bahreyn'e egemen oldu" },
+    { t:"1861-05-21", tur:"antlasma", b:"İngiltere ile köle ticaretinin yasaklanması antlaşması imzalandı" },
+    { t:"1870-01-01", tur:"antlasma", b:"Bağdat valisi Bahreyn'i Osmanlı toprağı ilan etti, iddia tartışmalı kaldı" },
+    { t:"1913-07-29", tur:"antlasma", b:"Osmanlı, Hakkı Paşa-Grey antlaşmasıyla Bahreyn iddiasından vazgeçti" }
+  ]
+},
+{ id:"katar", ad:"Katar (Âl Sânî Şeyhliği)", tur:"devlet", bolge:"arabistan",
+  f:"1868-01-01", t:"1923-10-29", baskent:"Devha (Doha)",
+  ozet:"Benî Temîm'in bir kolu olan Âl Sânî ailesinin 1868'den itibaren öne çıktığı şeyhlik; Osmanlı 1871'de Necid vilayetine bağlı bir kaza olarak idareye dahil etti, 1916'da İngiliz himayesine geçti (1923 sonrasında da sürdü). (kaynak: TDV, madde: katar)",
+  kronoloji:[
+    { t:"1868-01-01", tur:"kurulus", b:"Âl Sânî ailesi (Muhammed b. Sânî) İngiltere tarafından yerel yönetici tanındı" },
+    { t:"1871-01-01", tur:"antlasma", b:"Osmanlı askerî seferle Katar'ı Necid vilayetine bağlı kazaya dönüştürdü, Kāsım b. Muhammed fahri kaymakam oldu" },
+    { t:"1893-01-01", tur:"savas", b:"Osmanlı'nın seferi başarısız oldu, Kāsım fiilî özerklik kazandı" },
+    { t:"1916-11-03", tur:"antlasma", b:"İngiltere ile himaye antlaşması imzalandı" }
+  ]
+},
+{ id:"avusturya-cumhuriyet", ad:"Avusturya Cumhuriyeti (I. Cumhuriyet)", tur:"cumhuriyet", bolge:"orta-avrupa",
+  f:"1918-11-12", t:"1923-10-29", baskent:"Viyana",
+  ozet:"Habsburg İmparatorluğu'nun dağılmasıyla kurulan küçük Alp cumhuriyeti; Almanya ile birleşme talebi Saint-Germain Antlaşması'yla yasaklandı (1923 sonrasında da sürdü, 1938'de Almanya'ya ilhak edildi).",
+  kronoloji:[
+    { t:"1918-11-12", tur:"kurulus", b:"Alman-Avusturya Cumhuriyeti ilan edildi (Almanya ile birleşme hedefiyle)" },
+    { t:"1919-09-10", tur:"antlasma", b:"Saint-Germain Antlaşması Almanya ile birleşmeyi yasakladı, ülke adı \"Avusturya\" oldu" }
+  ]
+},
+{ id:"macaristan-naiplik", ad:"Macaristan (1918 Sonrası: Cumhuriyet → Naiplik)", tur:"devlet", bolge:"orta-avrupa",
+  f:"1918-11-16", t:"1923-10-29", baskent:"Budapeşte",
+  ozet:"Avusturya-Macaristan'ın dağılmasıyla önce demokratik cumhuriyet, ardından kısa ömürlü bir Sovyet cumhuriyeti olarak kurulan, Romanya işgali sonrası kralsız bir krallığa (Horthy naipliği) dönüşen devlet (1923 sonrasında da sürdü, 1944'e dek).",
+  kronoloji:[
+    { t:"1918-11-16", tur:"kurulus", b:"Károlyi önderliğinde Macaristan Halk Cumhuriyeti ilan edildi" },
+    { t:"1919-03-21", tur:"bolunme", b:"Béla Kun, Macaristan Sovyet Cumhuriyeti'ni ilan etti" },
+    { t:"1919-08-01", tur:"isgal", b:"Romanya orduları Budapeşte'yi işgal etti, Sovyet cumhuriyeti yıkıldı" },
+    { t:"1920-03-01", tur:"hukumdar", b:"Miklós Horthy, kralsız krallığın naibi seçildi" },
+    { t:"1920-06-04", tur:"antlasma", b:"Trianon Antlaşması ile toprakların üçte ikisini kaybetti" }
+  ]
+},
+{ id:"tbmm-turkiye", ad:"Türkiye Büyük Millet Meclisi Hükûmeti", tur:"devlet", bolge:"anadolu",
+  f:"1920-04-23", t:"1923-10-29", baskent:"Ankara",
+  ozet:"Mondros sonrası işgallere karşı Anadolu'da toplanan direniş hareketinin kurduğu meclis hükûmeti; Kurtuluş Savaşı'nı kazanıp saltanatı kaldırdı, 29 Ekim 1923'te Cumhuriyet'i ilan ederek Osmanlı Devleti'nin yerini aldı.",
+  kronoloji:[
+    { t:"1919-05-19", tur:"kurulus", b:"Mustafa Kemal Samsun'a çıkarak Millî Mücadele'yi örgütlemeye başladı" },
+    { t:"1919-07-23", tur:"kurulus", b:"Erzurum Kongresi toplandı" },
+    { t:"1919-09-04", tur:"kurulus", b:"Sivas Kongresi toplandı, Anadolu ve Rumeli Müdafaa-i Hukuk Cemiyeti kuruldu" },
+    { t:"1920-01-28", tur:"antlasma", b:"Son Osmanlı Mebusan Meclisi Misâk-ı Millî'yi kabul etti" },
+    { t:"1920-04-23", tur:"kurulus", b:"Türkiye Büyük Millet Meclisi Ankara'da açıldı" },
+    { t:"1920-08-10", tur:"antlasma", b:"Sevr Antlaşması imzalandı, TBMM tanımadı" },
+    { t:"1921-08-23", tur:"savas", b:"Sakarya Meydan Muharebesi başladı (13 Eylül'e dek)" },
+    { t:"1922-08-26", tur:"savas", b:"Büyük Taarruz başladı, Yunan ordusu Dumlupınar'da bozguna uğratıldı" },
+    { t:"1922-09-09", tur:"toprak-kazanc", b:"İzmir kurtarıldı" },
+    { t:"1922-10-11", tur:"antlasma", b:"Mudanya Mütarekesi imzalandı" },
+    { t:"1922-11-01", tur:"bolunme", b:"Saltanat kaldırıldı, Osmanlı Devleti fiilen sona erdi" },
+    { t:"1923-07-24", tur:"antlasma", b:"Lozan Antlaşması ile bağımsızlık uluslararası tanındı" },
+    { t:"1923-10-29", tur:"son", b:"Cumhuriyet ilan edildi, TBMM Hükûmeti yerini Türkiye Cumhuriyeti'ne bıraktı" }
+  ]
+},
+
+// ================================================================================
+// Parti 9: Orta Asya ve bozkırın doğusu — "tam ayrıntı" katmanı bitti, buradan
+// itibaren "orta ayrıntı" (dünya kapsamı) başlıyor. Harita bu bölgeyi hiç
+// kapsamıyor (pencere Fas-Ural/Norveç-Afrika Boynuzu ile sınırlı), BOYALAR'da
+// bu 7 kayıttan hiçbirinin id'si yok — hepsi haritasız, salt dizin kaydı.
+// Orta Asya hanlıkları İslâm dünyasına ait olduğu için TDV birincil kaynak
+// (Cungar hariç — Budist Oyrat-Moğol, TDV'de ayrı maddesi yok, Kalmuklar
+// maddesi içinde işleniyor).
+// ================================================================================
+
+{ id:"cagatay", ad:"Çağatay Hanlığı", tur:"hanlik", bolge:"orta-asya",
+  f:"1227-01-01", t:"1370-01-01", baskent:"Almalık / Karşi",
+  ozet:"Cengiz Han'ın oğlu Çağatay'a düşen mirastan doğan, zamanla İslâmlaşan ve Mâverâünnehir/Moğolistan olarak ikiye bölünen hanlık; Timur'un yükselişiyle fiilen sona erdi (kukla hanlar 1448'e dek sürdü). (kaynak: TDV, madde: cagatay-hanligi)",
+  kronoloji:[
+    { t:"1227-01-01", tur:"kurulus", b:"Cengiz Han'ın oğlu Çağatay'a Mâverâünnehir ve çevresi pay edildi" },
+    { t:"1260-01-01", tur:"kurulus", b:"Algu Han, hanlığı fiilen bağımsız hâle getiren gerçek kurucu oldu" },
+    { t:"1326-01-01", tur:"hukumdar", b:"Tarmaşirin Han İslâmiyet'i kabul edip Alâeddin adını aldı" },
+    { t:"1334-01-01", tur:"bolunme", b:"Tarmaşirin'in öldürülmesiyle hanlık Mâverâünnehir ve Moğolistan olarak ikiye bölündü" },
+    { t:"1370-01-01", tur:"son", b:"Timur, Mâverâünnehir'de fiilî iktidarı ele geçirdi (bkz. [[timurlu]])" }
+  ]
+},
+{ id:"buhara", ad:"Buhara Hanlığı / Emirliği", tur:"hanlik", bolge:"orta-asya",
+  f:"1500-01-01", t:"1920-09-02", baskent:"Buhara",
+  ozet:"16. yüzyıldan Sovyet işgaline dek Buhara merkezli hüküm süren dört ardışık hanedanın (Şeybânî, Canoğulları/Astrahanlı, Mangıt) ortak adı; Rus himayesine girdikten sonra Kızıl Ordu tarafından yıkıldı. (kaynak: TDV, madde: buhara-hanligi)",
+  kronoloji:[
+    { t:"1500-01-01", tur:"kurulus", b:"Şeybânî Han, Mâverâünnehir'i alarak hanlığı kurdu" },
+    { t:"1599-01-01", tur:"bolunme", b:"Şeybânî hanedanı sona erdi, yerine Canoğulları (Astrahanlılar) geçti" },
+    { t:"1785-01-01", tur:"bolunme", b:"Mangıt hanedanı iktidarı ele geçirip emirlik unvanını kullandı" },
+    { t:"1868-01-01", tur:"antlasma", b:"Rusya'ya yenilip himaye altına girdi, toprak kaybetti" },
+    { t:"1920-09-02", tur:"son", b:"Kızıl Ordu Buhara'yı ele geçirdi, Buhara Halk Sovyet Cumhuriyeti ilan edildi" }
+  ]
+},
+{ id:"hive", ad:"Hive Hanlığı", tur:"hanlik", bolge:"orta-asya",
+  f:"1512-01-01", t:"1920-04-26", baskent:"Ürgenç → Hive",
+  ozet:"Yadigâroğulları'nın Harzem'i ele geçirmesiyle kurulan, 17. yüzyılda başkenti Hive'ye taşıyan hanlık; Rus istilası sonrası himayeye girip Sovyet döneminde son buldu. (kaynak: TDV, madde: hive-hanligi)",
+  kronoloji:[
+    { t:"1512-01-01", tur:"kurulus", b:"Yadigâroğulları İlbars ve Bilbars, Özbek-Türkmen güçleriyle Harzem'i ele geçirdi" },
+    { t:"1600-01-01", tur:"hukumdar", b:"Başkent Ürgenç'ten Hive'ye taşındı" },
+    { t:"1873-03-01", tur:"savas", b:"General Kaufmann'ın seferi başladı" },
+    { t:"1873-05-29", tur:"antlasma", b:"Hive düştü, Rus himayesine girdi" },
+    { t:"1920-04-26", tur:"son", b:"Harzem Halk Cumhuriyeti ilan edilerek hanlığa son verildi" }
+  ]
+},
+{ id:"hokand", ad:"Hokand Hanlığı", tur:"hanlik", bolge:"orta-asya",
+  f:"1710-01-01", t:"1876-02-19", baskent:"Hokand",
+  ozet:"Fergana'da Ming boyundan Şahruh'un kurduğu hanlık; Âlim Han ve Muhammed Ali Han dönemlerinde genişledi, Rus istilasıyla Fergana vilayetine dönüştürüldü. (kaynak: TDV, madde: hokand-hanligi)",
+  kronoloji:[
+    { t:"1710-01-01", tur:"kurulus", b:"Ming boyundan Şahruh, Hokand'ı başkent yaparak hanlığını kurdu" },
+    { t:"1808-01-01", tur:"toprak-kazanc", b:"Âlim Han, Taşkent'i alarak hanlığı genişletti" },
+    { t:"1868-01-01", tur:"antlasma", b:"Hudayâr Han, Rusya ile antlaşma imzalayıp toprak kaybetti" },
+    { t:"1876-02-19", tur:"son", b:"Rusya hanlığı tamamen ilhak edip Fergana vilayeti yaptı" }
+  ]
+},
+{ id:"kazak-hanligi", ad:"Kazak Hanlığı", tur:"hanlik", bolge:"orta-asya",
+  f:"1465-01-01", t:"1847-01-01", baskent:"(göçebe, sabit başkent yok)",
+  ozet:"Ebü'l-Hayr Özbek konfederasyonundan ayrılan Kerey ve Canibek'in kurduğu, Büyük/Orta/Küçük Cüz olarak örgütlenen bozkır hanlığı; 19. yüzyılda kademeli Rus ilhakıyla son buldu. (kaynak: TDV, madde: kazaklar)",
+  kronoloji:[
+    { t:"1465-01-01", tur:"kurulus", b:"Kerey ve Canibek hanlar, Ebü'l-Hayr Han'a bağlı olmayan bir topluluk kurdu (Çu-Talas arası)" },
+    { t:"1511-01-01", tur:"birlesme", b:"Kasım Han döneminde hanlık ilk kez güçlü bir birlik hâline geldi" },
+    { t:"1731-01-01", tur:"antlasma", b:"Küçük Cüz, Rusya'nın himayesini kabul etti" },
+    { t:"1822-01-01", tur:"toprak-kayip", b:"Rus reformlarıyla Orta Cüz'de hanlık unvanı kaldırıldı" },
+    { t:"1847-01-01", tur:"son", b:"Son bağımsız han Kenesarı'nın ölümüyle hanlık fiilen sona erdi" }
+  ]
+},
+{ id:"cungar", ad:"Cungar Hanlığı (Kalmuk)", tur:"hanlik", bolge:"orta-asya",
+  f:"1634-01-01", t:"1758-01-01", baskent:"Gulca (Kulca) çevresi",
+  ozet:"Budist Oyrat-Moğol boylarının Cungarya'da kurduğu, Kazaklara ve Çin'e karşı büyük bir bozkır gücü hâline gelen hanlık; Mançu Qing hanedanının 1755-58 seferleriyle nüfusu kırılarak yok edildi. TDV'de ayrı madde yok (Kalmuklar maddesi içinde işleniyor); tarihler standart akademik kaynaklara göredir.",
+  kronoloji:[
+    { t:"1634-01-01", tur:"kurulus", b:"Erdeni Batur, Oyrat boylarını birleştirip Cungar Hanlığı'nı kurdu" },
+    { t:"1697-01-01", tur:"hukumdar", b:"Tsevang Rabtan döneminde hanlık Taşkent'e kadar genişleyip zirveye ulaştı" },
+    { t:"1755-01-01", tur:"savas", b:"Qing İmparatoru Qianlong'un seferleri başladı" },
+    { t:"1758-01-01", tur:"son", b:"Qing orduları Cungar nüfusunu büyük ölçüde kırıp hanlığı ortadan kaldırdı" }
+  ]
+},
+{ id:"yakub-beg", ad:"Doğu Türkistan (Yâkub Bey Kâşgar Emirliği)", tur:"devlet", bolge:"orta-asya",
+  f:"1865-01-01", t:"1878-03-16", baskent:"Kaşgar",
+  ozet:"Hokand kökenli Yâkub Bey'in Doğu Türkistan'da kurduğu, Osmanlı Sultanı Abdülaziz'in \"Emir\" unvanı ve yardım gönderdiği kısa ömürlü bağımsız devlet; Yâkub Bey'in ölümünün ardından Çin (Qing) yeniden fethetti. (kaynak: TDV, madde: yakub-beg)",
+  kronoloji:[
+    { t:"1865-01-01", tur:"kurulus", b:"Yâkub Bey, Hokand'dan gelen kuvvetlerle Kaşgar'a hâkim oldu" },
+    { t:"1867-01-01", tur:"kurulus", b:"Nominal hükümdar Bûzürg Han Töre'yi bertaraf edip \"Atalık Gazi\" unvanıyla bağımsızlığını ilan etti" },
+    { t:"1872-01-01", tur:"antlasma", b:"Sultan Abdülaziz'e elçi gönderip \"Emir\" unvanını ve askerî yardım aldı, hutbe onun adına okundu" },
+    { t:"1877-05-29", tur:"hukumdar", b:"Yâkub Bey öldü (muhtemelen suikast)" },
+    { t:"1878-03-16", tur:"son", b:"Çin orduları Doğu Türkistan'ı tamamen yeniden fethetti" }
+  ]
+},
+
+// ================================================================================
+// Parti 10: Hindistan — "orta ayrıntı" tier, harita kapsamı dışı (hiçbiri
+// BOYALAR'da yok). TDV'nin bu coğrafyadaki kapsamı çok sınırlı (Delhi
+// Sultanlığı'nın kendi maddesi bile yok, Bâbür maddesi yalnız kurucusunu
+// işliyor) — kaynak kuralının "TDV kapsamadığı coğrafyalar" istisnasına
+// giriyor, standart akademik kaynağa (yaygın kabul görmüş tarihler) göre
+// yazıldı. Görev talimatına uyarak yüzlerce prenslik/beylik tek tek
+// yazılmadı, çatı devletler altında toplandı (ör. Behmenî'nin 5 ardılı ozet'te
+// sayılıyor, ayrı kayıt açılmadı).
+// ================================================================================
+
+{ id:"delhi-sultanligi", ad:"Delhi Sultanlığı", tur:"devlet", bolge:"guney-asya",
+  f:"1206-01-01", t:"1526-04-21", baskent:"Delhi",
+  ozet:"Kuzey Hindistan'da beş ardışık hanedanın (Memlûk/Köle, Halacî, Tuğluk, Seyyid, Lûdî) yönettiği İslâm devleti; Bâbür'ün Birinci Panipat zaferiyle sona erdi (bkz. [[babur-imparatorlugu]]). TDV'de bu adla ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  kronoloji:[
+    { t:"1206-01-01", tur:"kurulus", b:"Kutbüddin Aybek, Delhi'de bağımsızlığını ilan etti (Memlûk/Köle hanedanı)" },
+    { t:"1290-01-01", tur:"bolunme", b:"Halacî hanedanı iktidara geçti" },
+    { t:"1320-01-01", tur:"bolunme", b:"Tuğluk hanedanı iktidara geçti, sultanlık en geniş sınırlarına ulaştı" },
+    { t:"1398-01-01", tur:"isgal", b:"Timur'un Delhi'yi yağmalamasıyla sultanlık ağır darbe aldı" },
+    { t:"1414-01-01", tur:"bolunme", b:"Seyyid hanedanı iktidara geçti" },
+    { t:"1451-01-01", tur:"bolunme", b:"Lûdî (Afgan kökenli) hanedanı iktidara geçti" },
+    { t:"1526-04-21", tur:"son", b:"Birinci Panipat Savaşı'nda Bâbür, son sultan İbrâhim Lûdî'yi yenerek sultanlığa son verdi" }
+  ]
+},
+{ id:"babur-imparatorlugu", ad:"Bâbürlü (Timurlu-Hint) İmparatorluğu", tur:"imparatorluk", bolge:"guney-asya",
+  f:"1526-04-21", t:"1857-09-21", baskent:"Delhi / Agra",
+  ozet:"Bâbür'ün Birinci Panipat zaferiyle kurduğu, Ekber, Cihangir, Şah Cihan ve Evrengzîb dönemlerinde Hindistan'ın büyük bölümüne hâkim olan İslâm imparatorluğu; 1857 Büyük Ayaklanması sonrası İngilizler tarafından resmen kaldırıldı. (kaynak: TDV, madde: babur — yalnız kurucusu için; imparatorluğun devamı standart akademik kaynağa göre)",
+  kronoloji:[
+    { t:"1526-04-21", tur:"kurulus", b:"Bâbür, Birinci Panipat Savaşı'nda Lûdî sultanlığını yenerek imparatorluğu kurdu" },
+    { t:"1556-01-01", tur:"hukumdar", b:"Ekber tahta çıktı, imparatorluğu Hindistan'ın büyük bölümüne yaydı" },
+    { t:"1658-01-01", tur:"hukumdar", b:"Evrengzîb tahta çıktı, imparatorluk en geniş sınırlarına ulaştı" },
+    { t:"1739-01-01", tur:"savas", b:"İran'dan Nadir Şah Delhi'yi yağmaladı, imparatorluk fiilen zayıfladı" },
+    { t:"1803-01-01", tur:"toprak-kayip", b:"İngiliz Doğu Hindistan Şirketi Delhi'yi ele geçirdi, imparator adı bir sembole indirgendi" },
+    { t:"1857-09-21", tur:"son", b:"1857 Büyük Ayaklanması bastırıldıktan sonra son imparator II. Bahadır Şah tahttan indirilip sürgüne gönderildi" }
+  ]
+},
+{ id:"behmeni", ad:"Behmenî Sultanlığı (Dekken)", tur:"sultanlik", bolge:"guney-asya",
+  f:"1347-01-01", t:"1527-01-01", baskent:"Gulbarga → Bidar",
+  ozet:"Delhi Sultanlığı'na isyanla Dekken'de kurulan, güney Hindistan'ın ilk büyük İslâm devleti olan sultanlık; iç çekişmelerle beşe bölündü (Bicapur, Ahmednagar, Golkonda, Berar, Bidar — her biri ayrı kayıt açılmadı, burada özetlendi). (kaynak: TDV, madde: behmeniler)",
+  kronoloji:[
+    { t:"1347-01-01", tur:"kurulus", b:"Alâeddin Hasan Behmen Şah, Delhi'ye isyan edip Dekken'de sultanlığını kurdu" },
+    { t:"1425-01-01", tur:"hukumdar", b:"Başkent Gulbarga'dan Bidar'a taşındı" },
+    { t:"1481-01-01", tur:"hukumdar", b:"Vezir Mahmud Gâvân idam edildi, merkezi otorite çözülmeye başladı" },
+    { t:"1527-01-01", tur:"bolunme", b:"Sultanlık Bicapur, Ahmednagar, Golkonda, Berar ve Bidar olmak üzere beş devlete bölündü" }
+  ]
+},
+{ id:"vijayanagara", ad:"Vijayanagara İmparatorluğu", tur:"imparatorluk", bolge:"guney-asya",
+  f:"1336-01-01", t:"1646-01-01", baskent:"Vijayanagara (Hampi)",
+  ozet:"Dekken sultanlıklarına karşı Hindu direnişini örgütleyen, güney Hindistan'a hâkim olan büyük Hindu imparatorluğu; Talikota Savaşı'nda Dekken sultanlıkları ittifakına yenilip başkenti yağmalandı, küçülmüş hâliyle bir asır daha sürdü. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  kronoloji:[
+    { t:"1336-01-01", tur:"kurulus", b:"Harihara ve Bukka kardeşler, Vijayanagara'yı kurdu" },
+    { t:"1509-01-01", tur:"hukumdar", b:"Krişnadevaraya döneminde imparatorluk zirvesine ulaştı" },
+    { t:"1565-01-25", tur:"savas", b:"Talikota (Rakshasi-Tangadi) Savaşı'nda Dekken sultanlıkları ittifakına yenildi, başkent yağmalandı" },
+    { t:"1646-01-01", tur:"son", b:"Küçülmüş hanedan son kalıntılarını da kaybedip tarihe karıştı" }
+  ]
+},
+{ id:"maratha", ad:"Maratha Konfederasyonu", tur:"devlet", bolge:"guney-asya",
+  f:"1674-06-06", t:"1818-06-03", baskent:"Pune (Peşvalar dönemi)",
+  ozet:"Şivâcî'nin Bicapur ve Bâbürlülere karşı kurduğu Hindu krallığından doğan, sonradan Peşvalar önderliğinde gevşek bir konfederasyona dönüşen güç; üç Anglo-Maratha Savaşı sonunda İngiliz Doğu Hindistan Şirketi'ne yenildi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  kronoloji:[
+    { t:"1674-06-06", tur:"kurulus", b:"Şivâcî, Reygad'da kral olarak taç giydi" },
+    { t:"1707-01-01", tur:"birlesme", b:"Evrengzîb'in ölümünden sonra Maratha gücü Peşvalar önderliğinde bir konfederasyona dönüştü" },
+    { t:"1761-01-14", tur:"savas", b:"Üçüncü Panipat Savaşı'nda Afgan Ahmed Şah Dürrânî'ye ağır yenilgi aldı" },
+    { t:"1803-01-01", tur:"savas", b:"İkinci Anglo-Maratha Savaşı'nda toprak kaybetti" },
+    { t:"1818-06-03", tur:"son", b:"Üçüncü Anglo-Maratha Savaşı'nda Peşva II. Baci Rao teslim oldu, konfederasyon dağıldı" }
+  ]
+},
+{ id:"sih-imparatorlugu", ad:"Sih İmparatorluğu (Pencap)", tur:"imparatorluk", bolge:"guney-asya",
+  f:"1801-04-12", t:"1849-03-29", baskent:"Lahor",
+  ozet:"Rançit Singh'in Pencap'ta birleştirdiği Sih hanedanlığı; iki Anglo-Sih Savaşı sonunda İngiliz Doğu Hindistan Şirketi'ne ilhak edildi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  kronoloji:[
+    { t:"1801-04-12", tur:"kurulus", b:"Rançit Singh, Lahor'da Maharaca olarak taç giydi" },
+    { t:"1839-06-27", tur:"hukumdar", b:"Rançit Singh öldü, ardından taht kavgaları başladı" },
+    { t:"1846-03-09", tur:"savas", b:"Birinci Anglo-Sih Savaşı sonunda Lahor Antlaşması ile toprak kaybetti" },
+    { t:"1849-03-29", tur:"son", b:"İkinci Anglo-Sih Savaşı sonunda İngilizler Pencap'ı ilhak etti" }
+  ]
+},
+{ id:"meysur", ad:"Meysûr Sultanlığı (Haydar Ali / Tipu Sultan)", tur:"sultanlik", bolge:"guney-asya",
+  f:"1761-01-01", t:"1799-05-04", baskent:"Seringapatam (Şrirangapatnam)",
+  ozet:"Haydar Ali'nin Vodeyar hanedanından fiilen devraldığı, oğlu Tipu Sultan döneminde Osmanlı ve Fransa ile ittifak arayan, İngiliz Doğu Hindistan Şirketi'ne karşı dört savaş veren güney Hindistan devleti; Tipu'nun ölümüyle sona erdi. TDV'de ayrıntılı madde yok; standart akademik kaynağa göre yazıldı.",
+  kronoloji:[
+    { t:"1761-01-01", tur:"kurulus", b:"Haydar Ali, Vodeyar racasından fiilî iktidarı ele geçirdi" },
+    { t:"1782-12-07", tur:"hukumdar", b:"Haydar Ali öldü, yerine oğlu Tipu Sultan geçti" },
+    { t:"1787-01-01", tur:"antlasma", b:"Tipu Sultan, Osmanlı Sultanı I. Abdülhamid'e elçi göndererek ittifak aradı" },
+    { t:"1792-01-01", tur:"savas", b:"Üçüncü Anglo-Mysore Savaşı'nda topraklarının yarısını kaybetti" },
+    { t:"1799-05-04", tur:"son", b:"Dördüncü Anglo-Mysore Savaşı'nda Seringapatam düştü, Tipu Sultan savaşarak öldü" }
+  ]
+},
+{ id:"ingiliz-hindistani", ad:"İngiliz Hindistanı (Şirket ve Taç Dönemi)", tur:"gecici-isgal", bolge:"guney-asya",
+  f:"1757-06-23", t:"1923-10-29", baskent:"Kalküta → Yeni Delhi",
+  ozet:"Plasi Savaşı'yla Bengal'de başlayan, 1858'de Şirket'ten Taç'a geçen, alt kıtanın büyük bölümünü doğrudan veya prenslikler aracılığıyla yöneten sömürge idaresi (1923 sonrasında da sürdü, 1947'de bağımsızlığa dek).",
+  kronoloji:[
+    { t:"1757-06-23", tur:"kurulus", b:"Plasi Savaşı'nda İngiliz Doğu Hindistan Şirketi Bengal Nevvâbı'nı yenip bölgeye hâkim oldu" },
+    { t:"1858-08-02", tur:"bolunme", b:"1857 Ayaklanması sonrası Şirket idaresi kaldırıldı, Hindistan doğrudan İngiliz Tacı'na bağlandı" },
+    { t:"1877-01-01", tur:"hukumdar", b:"Kraliçe Victoria \"Hindistan İmparatoriçesi\" unvanını aldı" },
+    { t:"1885-01-01", tur:"kurulus", b:"Hindistan Ulusal Kongresi kuruldu" },
+    { t:"1919-04-13", tur:"savas", b:"Amritsar (Cliyanvala Bağı) katliamı bağımsızlık hareketini hızlandırdı" }
+  ]
+},
+
+// ================================================================================
+// Parti 11: Doğu Asya — Çin, Moğol İmparatorluğu, Kore, Japonya, Ryukyu, Tibet.
+// TDV kapsamı dışı (kaynak kuralının açık istisnası), standart akademik
+// kaynağa göre. Harita kapsamı dışı, hiçbiri BOYALAR'da yok. Görev talimatına
+// uyarak Azuchi-Momoyama ayrı kayıt açılmadı, Edo kaydının açılış
+// kronolojisine (Nobunaga/Hideyoshi/Sekigahara) gömüldü.
+// ================================================================================
+
+{ id:"song", ad:"Song Hanedanı (Çin)", tur:"hanedanlik", bolge:"dogu-asya",
+  f:"960-01-01", t:"1279-03-19", baskent:"Bianjing (Kaifeng) → Lin'an (Hangzhou)",
+  ozet:"Çin'i beş hanedan kargaşasından sonra yeniden birleştiren, matbaa ve barutun geliştiği hanedan; kuzeyi Jin'e kaptırıp güneye çekildi (Güney Song), sonunda Moğollara yenildi.",
+  kronoloji:[
+    { t:"960-01-01", tur:"kurulus", b:"General Zhao Kuangyin (Taizu), Çin'i yeniden birleştirdi" },
+    { t:"1127-01-01", tur:"toprak-kayip", b:"Jin (Jurchen) istilasıyla kuzey Çin kaybedildi, saray Hangzhou'ya çekildi (Güney Song)" },
+    { t:"1234-01-01", tur:"ittifak", b:"Moğollarla ittifak kurup Jin'i ortadan kaldırdı" },
+    { t:"1279-03-19", tur:"son", b:"Yamen deniz savaşında Moğollara yenilip son çocuk imparator boğuldu" }
+  ]
+},
+{ id:"jin-hanedani", ad:"Jin Hanedanı (Jurchen, Kuzey Çin)", tur:"hanedanlik", bolge:"dogu-asya",
+  f:"1115-01-01", t:"1234-02-09", baskent:"Zhongdu (Pekin)",
+  ozet:"Mançurya kökenli Jurchenlerin Liao'ya son verip kurduğu, kuzey Çin'e hâkim olan hanedan; Moğol-Song ittifakıyla ortadan kaldırıldı.",
+  kronoloji:[
+    { t:"1115-01-01", tur:"kurulus", b:"Wanyan Aguda, Jurchen boylarını birleştirip Jin hanedanını kurdu" },
+    { t:"1127-01-01", tur:"toprak-kazanc", b:"Kaifeng'i alarak Song sarayını güneye sürdü" },
+    { t:"1234-02-09", tur:"son", b:"Moğol-Song ittifakı Caizhou'yu düşürdü, hanedan sona erdi" }
+  ]
+},
+{ id:"mogol-imparatorlugu", ad:"Moğol İmparatorluğu (bölünmemiş)", tur:"imparatorluk", bolge:"dogu-asya",
+  f:"1206-01-01", t:"1260-01-01", baskent:"Karakurum",
+  ozet:"Cengiz Han'ın kurultayda ilan edilmesiyle doğan, tarihin en geniş kara imparatorluğu; Möngke'nin ölümü sonrası taht kavgasıyla dört hanlığa (Yuan, Altın Orda, Çağatay, İlhanlı — hepsi ayrı kayıtlı) bölündü.",
+  kronoloji:[
+    { t:"1206-01-01", tur:"kurulus", b:"Timuçin, kurultayda Cengiz Han unvanıyla büyük han ilan edildi" },
+    { t:"1219-01-01", tur:"savas", b:"Harzemşahlar'a sefer başlattı, İran ve Mâverâünnehir'i harap etti" },
+    { t:"1234-01-01", tur:"toprak-kazanc", b:"Ögedey Han döneminde Jin hanedanı yıkıldı, kuzey Çin alındı" },
+    { t:"1260-01-01", tur:"bolunme", b:"Möngke'nin ölümü sonrası Kubilay-Arık Böke taht kavgasıyla imparatorluk fiilen dört hanlığa ayrıldı" }
+  ]
+},
+{ id:"yuan-hanedani", ad:"Yuan Hanedanı (Moğol Çin)", tur:"hanedanlik", bolge:"dogu-asya",
+  f:"1271-01-01", t:"1368-09-14", baskent:"Hanbalık (Pekin)",
+  ozet:"Kubilay Han'ın Çin'de kurduğu, bütün Çin'i birleştiren Moğol hanedanı (bkz. [[mogol-imparatorlugu]]); veba, ekonomik çöküş ve Kızıl Sarıklı isyanlarıyla yıkılıp Moğollar bozkıra çekildi.",
+  kronoloji:[
+    { t:"1271-01-01", tur:"kurulus", b:"Kubilay Han, Çince \"Yuan\" hanedan adını ilan etti" },
+    { t:"1279-03-19", tur:"toprak-kazanc", b:"Güney Song'u tamamen ilhak ederek Çin'i birleştirdi" },
+    { t:"1351-01-01", tur:"isyan", b:"Kızıl Sarıklı isyanı başladı" },
+    { t:"1368-09-14", tur:"son", b:"Zhu Yuanzhang Pekin'i aldı, Ming'i ilan etti; Moğollar kuzeye çekildi (Kuzey Yuan)" }
+  ]
+},
+{ id:"ming-hanedani", ad:"Ming Hanedanı", tur:"hanedanlik", bolge:"dogu-asya",
+  f:"1368-01-23", t:"1644-04-25", baskent:"Nanjing → Pekin",
+  ozet:"Moğol Yuan'ı devirip Çin'i yeniden Çin hanedanının eline veren, Zheng He'nin deniz seferleriyle tanınan hanedan; köylü isyanı ve ardından Mançu istilasıyla yıkıldı.",
+  kronoloji:[
+    { t:"1368-01-23", tur:"kurulus", b:"Zhu Yuanzhang, Hongwu unvanıyla imparator ilan edildi" },
+    { t:"1405-01-01", tur:"antlasma", b:"Amiral Zheng He'nin büyük deniz seferleri başladı (1433'e dek)" },
+    { t:"1421-01-01", tur:"hukumdar", b:"Başkent Nanjing'den Pekin'e taşındı" },
+    { t:"1644-04-25", tur:"son", b:"Li Zicheng'in köylü ordusu Pekin'i aldı, son imparator intihar etti (Güney Ming 1662'ye dek direndi)" }
+  ]
+},
+{ id:"qing-hanedani", ad:"Qing Hanedanı (Mançu)", tur:"hanedanlik", bolge:"dogu-asya",
+  f:"1636-05-15", t:"1912-02-12", baskent:"Mukden (Şenyang) → Pekin",
+  ozet:"Mançu Nurhaci'nin oğlu Hong Taiji'nin kurduğu, Ming'in yıkılışından yararlanıp Çin'e hâkim olan son imparatorluk hanedanı; Afyon Savaşları ve Batı baskısıyla zayıflayıp 1911 Devrimi'yle sona erdi.",
+  kronoloji:[
+    { t:"1636-05-15", tur:"kurulus", b:"Hong Taiji, hanedan adını \"Qing\" olarak ilan etti" },
+    { t:"1644-06-06", tur:"toprak-kazanc", b:"Pekin'i alarak Çin'e hâkim oldu" },
+    { t:"1839-01-01", tur:"savas", b:"Birinci Afyon Savaşı başladı, Batı'ya kapılar zorla açıldı" },
+    { t:"1900-01-01", tur:"isyan", b:"Boksör Ayaklanması sekiz ülkenin müdahalesiyle bastırıldı" },
+    { t:"1912-02-12", tur:"son", b:"Son imparator Puyi tahttan feragat etti, Çin Cumhuriyeti ilan edildi" }
+  ]
+},
+{ id:"goryeo", ad:"Goryeo Hanedanı (Kore)", tur:"hanedanlik", bolge:"dogu-asya",
+  f:"918-01-01", t:"1392-07-17", baskent:"Kaesong",
+  ozet:"Kore'yi yeniden birleştiren, adından \"Korea\" adının türediği hanedan; Moğol istilası sonrası vasallık dönemi yaşadı, General Yi Seong-gye'nin darbesiyle sona erdi.",
+  kronoloji:[
+    { t:"918-01-01", tur:"kurulus", b:"Wang Geon, Goryeo hanedanını kurdu" },
+    { t:"1231-01-01", tur:"isgal", b:"Moğol istilaları başladı, uzun direnişin ardından vasallık kabul edildi (1270)" },
+    { t:"1392-07-17", tur:"son", b:"General Yi Seong-gye darbeyle tahtı ele geçirip Joseon'u kurdu" }
+  ]
+},
+{ id:"joseon", ad:"Joseon Hanedanı (Kore)", tur:"hanedanlik", bolge:"dogu-asya",
+  f:"1392-07-17", t:"1910-08-29", baskent:"Hanseong (Seul)",
+  ozet:"Yi Seong-gye'nin kurduğu, Konfüçyüsçülüğü devlet ilkesi yapan, Kral Sejong'un Han alfabesini (hangıl) icat ettirdiği uzun ömürlü hanedan; 1897'de kısa süreliğine \"Kore İmparatorluğu\" adını aldı, Japonya'nın ilhakıyla sona erdi.",
+  kronoloji:[
+    { t:"1392-07-17", tur:"kurulus", b:"Yi Seong-gye, Joseon hanedanını kurdu" },
+    { t:"1443-01-01", tur:"hukumdar", b:"Kral Sejong, Kore alfabesi hangıl'ı icat ettirdi" },
+    { t:"1592-01-01", tur:"savas", b:"Japon Hideyoshi'nin istilası (Imjin Savaşı) başladı (1598'e dek)" },
+    { t:"1897-10-12", tur:"hukumdar", b:"Kral Gojong kendini imparator ilan edip \"Kore İmparatorluğu\"nu kurdu" },
+    { t:"1910-08-29", tur:"son", b:"Japonya Kore'yi resmen ilhak etti" }
+  ]
+},
+{ id:"kamakura", ad:"Kamakura Şogunluğu (Japonya)", tur:"devlet", bolge:"dogu-asya",
+  f:"1185-01-01", t:"1333-07-04", baskent:"Kamakura",
+  ozet:"Minamoto no Yoritomo'nun kurduğu, Japonya'da askerî şogun idaresinin ilk örneği olan yönetim; iki Moğol istilasını (Kubilay Han) püskürttü ama mâlî çöküşle iç isyanlara yenildi.",
+  kronoloji:[
+    { t:"1185-01-01", tur:"kurulus", b:"Minamoto no Yoritomo, Genpei Savaşı'nı kazanıp fiilî iktidarı ele geçirdi" },
+    { t:"1192-01-01", tur:"hukumdar", b:"İmparatordan resmî \"seii taishogun\" unvanını aldı" },
+    { t:"1274-01-01", tur:"savas", b:"Birinci Moğol istilası \"kamikaze\" fırtınasıyla püskürtüldü (İkincisi 1281'de)" },
+    { t:"1333-07-04", tur:"son", b:"Kenmu Restorasyonu ile şogunluk yıkıldı, imparator kısa süreliğine doğrudan iktidara döndü" }
+  ]
+},
+{ id:"muromachi", ad:"Muromachi (Ashikaga) Şogunluğu", tur:"devlet", bolge:"dogu-asya",
+  f:"1336-01-01", t:"1573-09-01", baskent:"Kyoto",
+  ozet:"Ashikaga Takauji'nin kurduğu, sonraki yüzyılında \"Sengoku\" (Savaşan Beylikler) kaosuna sürüklenen zayıf şogunluk; Oda Nobunaga'nın son şogunu devirmesiyle fiilen sona erdi.",
+  kronoloji:[
+    { t:"1336-01-01", tur:"kurulus", b:"Ashikaga Takauji, Kyoto'da yeni şogunluğu kurdu" },
+    { t:"1467-01-01", tur:"isyan", b:"Ōnin Savaşı ile merkezi otorite çöktü, Sengoku (Savaşan Beylikler) dönemi başladı" },
+    { t:"1573-09-01", tur:"son", b:"Oda Nobunaga, son şogun Ashikaga Yoshiaki'yi Kyoto'dan kovdu" }
+  ]
+},
+{ id:"edo-bakufu", ad:"Edo (Tokugawa) Şogunluğu", tur:"devlet", bolge:"dogu-asya",
+  f:"1603-03-24", t:"1868-01-03", baskent:"Edo (Tokyo)",
+  ozet:"Nobunaga ve Hideyoshi'nin başlattığı birleşme sürecini Sekigahara zaferiyle tamamlayan Tokugawa Ieyasu'nun kurduğu, 250 yıl süren \"sakoku\" (dışa kapalılık) politikasıyla tanınan şogunluk; Meiji Restorasyonu'yla yıkıldı.",
+  kronoloji:[
+    { t:"1600-10-21", tur:"savas", b:"Sekigahara Savaşı'nda Tokugawa Ieyasu rakiplerini kesin yendi" },
+    { t:"1603-03-24", tur:"kurulus", b:"İmparatordan şogun unvanını alarak Edo'da şogunluğunu kurdu" },
+    { t:"1639-01-01", tur:"antlasma", b:"\"Sakoku\" politikasıyla ülke neredeyse tamamen dışa kapatıldı" },
+    { t:"1853-07-08", tur:"antlasma", b:"Komodor Perry'nin ABD filosu Japonya'yı dışa açılmaya zorladı" },
+    { t:"1868-01-03", tur:"son", b:"Meiji Restorasyonu ilan edildi, şogunluk kaldırıldı (Boshin Savaşı 1869'a dek sürdü)" }
+  ]
+},
+{ id:"meiji-japonya", ad:"Meiji ve Sonrası Japonya İmparatorluğu", tur:"imparatorluk", bolge:"dogu-asya",
+  f:"1868-01-03", t:"1923-10-29", baskent:"Tokyo",
+  ozet:"Şogunluğun yıkılıp imparatorluk otoritesinin \"restore\" edilmesiyle hızla sanayileşen, Çin ve Rusya'yı yenip büyük güç hâline gelen imparatorluk (1923 sonrasında da sürdü).",
+  kronoloji:[
+    { t:"1868-01-03", tur:"kurulus", b:"Meiji Restorasyonu ilan edildi, imparator fiilî iktidara döndü" },
+    { t:"1889-02-11", tur:"antlasma", b:"Meiji Anayasası kabul edildi" },
+    { t:"1895-04-17", tur:"savas", b:"Birinci Çin-Japon Savaşı'nı kazanıp Tayvan'ı aldı" },
+    { t:"1905-09-05", tur:"savas", b:"Rus-Japon Savaşı'nı kazanarak büyük güç statüsü kazandı" },
+    { t:"1910-08-29", tur:"toprak-kazanc", b:"Kore'yi ilhak etti (bkz. [[joseon]])" }
+  ]
+},
+{ id:"ryukyu", ad:"Ryukyu Krallığı", tur:"krallik", bolge:"dogu-asya",
+  f:"1429-01-01", t:"1879-03-27", baskent:"Şuri (Okinawa)",
+  ozet:"Okinawa adalarını birleştiren, Çin ve Japonya arasında çift bağlılıkla (hem Ming/Qing'e hem Satsuma'ya haraç) ayakta kalan ada krallığı; Meiji Japonyası tarafından ilhak edilip Okinawa vilayeti yapıldı.",
+  kronoloji:[
+    { t:"1429-01-01", tur:"kurulus", b:"Shō Hashi, üç Okinawa krallığını birleştirdi" },
+    { t:"1609-01-01", tur:"isgal", b:"Japon Satsuma Hanı adayı işgal edip haraca bağladı (Çin'e bağlılık da sürdü)" },
+    { t:"1879-03-27", tur:"son", b:"Japonya krallığı resmen ilga edip Okinawa vilayetini kurdu" }
+  ]
+},
+{ id:"tibet-ganden-phodrang", ad:"Tibet (Dalai Lama Hükûmeti, Ganden Phodrang)", tur:"devlet", bolge:"dogu-asya",
+  f:"1642-01-01", t:"1923-10-29", baskent:"Lhasa",
+  ozet:"5. Dalai Lama'nın Moğol Güşi Han'ın desteğiyle kurduğu, Budist teokratik yönetim; 18. yüzyıldan itibaren Qing himayesine girdi, Qing'in 1912 yıkılışıyla fiilen bağımsızlaştı (1923 sonrasında da sürdü, 1950'de Çin ilhakına dek).",
+  kronoloji:[
+    { t:"1642-01-01", tur:"kurulus", b:"5. Dalai Lama, Güşi Han'ın askerî desteğiyle Tibet'in tek hâkimi oldu" },
+    { t:"1720-01-01", tur:"antlasma", b:"Qing orduları Cungarları kovup Tibet'i himayesine aldı" },
+    { t:"1904-01-01", tur:"isgal", b:"İngiliz Younghusband seferi Lhasa'ya girdi" },
+    { t:"1912-01-01", tur:"bolunme", b:"Qing'in yıkılışıyla 13. Dalai Lama bağımsızlığını ilan etti" }
+  ]
+},
+
+// ================================================================================
+// Parti 12: Güneydoğu Asya — TDV kapsamı dışı (Açe kısmen İslâm dünyası
+// sayılabilir ama TDV'de ayrıntılı madde bulunamadı), standart akademik
+// kaynağa göre. Harita kapsamı dışı. Pagan Krallığı'nın 1287 sonu ayrı kayıt
+// açılmadı, Toungoo'nun açılış kronolojisine gömüldü.
+// ================================================================================
+
+{ id:"majapahit", ad:"Majapahit İmparatorluğu (Cava)", tur:"imparatorluk", bolge:"guneydogu-asya",
+  f:"1293-01-01", t:"1527-01-01", baskent:"Trowulan",
+  ozet:"Moğol istilasını püskürtüp kurulan, Nusantara'nın büyük bölümüne nüfuz eden Hindu-Budist imparatorluk; iç kavgalar ve yükselen İslâm sultanlıklarının baskısıyla zayıflayıp Demak Sultanlığı'nca tasfiye edildi.",
+  kronoloji:[
+    { t:"1293-01-01", tur:"kurulus", b:"Raden Wijaya, Moğol istila kuvvetini püskürtüp imparatorluğu kurdu" },
+    { t:"1350-01-01", tur:"hukumdar", b:"Hayam Wuruk ve vezir Gajah Mada döneminde imparatorluk zirvesine ulaştı" },
+    { t:"1478-01-01", tur:"bolunme", b:"İç taht kavgalarıyla merkezi otorite zayıfladı" },
+    { t:"1527-01-01", tur:"son", b:"Demak Sultanlığı son kalıntılarını da ortadan kaldırdı" }
+  ]
+},
+{ id:"malaka-sultanligi", ad:"Malaka Sultanlığı", tur:"sultanlik", bolge:"guneydogu-asya",
+  f:"1400-01-01", t:"1511-08-24", baskent:"Malaka",
+  ozet:"Parameswara'nın kurduğu, Malakka Boğazı ticaretini denetleyen, İslâm'ın Nusantara'ya yayılmasında merkez rol oynayan sultanlık; Portekizli Afonso de Albuquerque'nin fethiyle sona erdi.",
+  kronoloji:[
+    { t:"1400-01-01", tur:"kurulus", b:"Parameswara, Malaka'yı kurup ticaret limanı hâline getirdi" },
+    { t:"1414-01-01", tur:"hukumdar", b:"Hânedan İslâmiyet'i kabul etti" },
+    { t:"1511-08-24", tur:"son", b:"Portekizli Afonso de Albuquerque şehri fethetti" }
+  ]
+},
+{ id:"ayutthaya", ad:"Ayutthaya Krallığı (Siyam)", tur:"krallik", bolge:"guneydogu-asya",
+  f:"1351-01-01", t:"1767-04-07", baskent:"Ayutthaya",
+  ozet:"Chao Phraya vadisinde kurulan, Güneydoğu Asya'nın en güçlü krallıklarından biri olan Siyam devleti; Birmanya Konbaung ordularınca başkenti yakılıp yıkıldı (bkz. [[siyam-chakri]]).",
+  kronoloji:[
+    { t:"1351-01-01", tur:"kurulus", b:"U Thong (I. Ramathibodi), Ayutthaya'yı kurdu" },
+    { t:"1569-01-01", tur:"toprak-kayip", b:"Birmanya Toungoo hanedanına yenilip geçici olarak vasal oldu" },
+    { t:"1767-04-07", tur:"son", b:"Konbaung orduları başkenti yakıp yıktı" }
+  ]
+},
+{ id:"siyam-chakri", ad:"Siyam Krallığı (Rattanakosin / Chakri Hanedanı)", tur:"krallik", bolge:"guneydogu-asya",
+  f:"1782-04-06", t:"1923-10-29", baskent:"Bangkok",
+  ozet:"Ayutthaya'nın yıkılışından sonra Taksin'in kısa Thonburi döneminin ardından I. Rama'nın kurduğu, Güneydoğu Asya'da sömürgeleşmeyen tek krallık (1923 sonrasında da sürdü).",
+  kronoloji:[
+    { t:"1782-04-06", tur:"kurulus", b:"General Chakri (I. Rama), Bangkok'u başkent yaparak hanedanı kurdu" },
+    { t:"1855-01-01", tur:"antlasma", b:"Bowring Antlaşması ile İngiltere'ye ticarî ayrıcalıklar verildi" },
+    { t:"1868-01-01", tur:"hukumdar", b:"V. Rama (Chulalongkorn) tahta çıkıp modernleşme reformlarını başlattı" }
+  ]
+},
+{ id:"le-hanedani", ad:"Lê Hanedanı (Đại Việt)", tur:"hanedanlik", bolge:"guneydogu-asya",
+  f:"1428-01-01", t:"1789-01-01", baskent:"Thăng Long (Hanoi)",
+  ozet:"Lê Lợi'nin Çin (Ming) işgaline karşı zaferiyle kurduğu Vietnam hanedanı; sonraki yüzyıllarda Trịnh ve Nguyễn beyliklerinin gölgesinde fiilen bölünmüş yaşadı, Tây Sơn isyanıyla sona erdi.",
+  kronoloji:[
+    { t:"1428-01-01", tur:"kurulus", b:"Lê Lợi, Ming işgaline son verip hanedanı kurdu" },
+    { t:"1600-01-01", tur:"bolunme", b:"Trịnh (kuzey) ve Nguyễn (güney) beylikleri arasında fiilî bölünme yerleşti" },
+    { t:"1789-01-01", tur:"son", b:"Tây Sơn kardeşlerin isyanı hanedana fiilen son verdi" }
+  ]
+},
+{ id:"nguyen-hanedani", ad:"Nguyễn Hanedanı (Vietnam)", tur:"hanedanlik", bolge:"guneydogu-asya",
+  f:"1802-06-01", t:"1923-10-29", baskent:"Huế",
+  ozet:"Gia Long'un Tây Sơn'a son verip Vietnam'ı yeniden birleştirdiği son hanedan; Fransız baskısıyla 1880'lerde protektora hâline geldi (1923 sonrasında da sürdü, 1945'e dek).",
+  kronoloji:[
+    { t:"1802-06-01", tur:"kurulus", b:"Nguyễn Ánh (Gia Long), Tây Sơn'ı yenip Vietnam'ı birleştirdi" },
+    { t:"1858-01-01", tur:"savas", b:"Fransız donanması Da Nang'ı bombalayıp müdahaleye başladı" },
+    { t:"1884-06-06", tur:"antlasma", b:"Huế Antlaşması ile ülke Fransız protektorasına dönüştü" }
+  ]
+},
+{ id:"kamboc-kralligi", ad:"Kamboçya Krallığı (Post-Angkor)", tur:"krallik", bolge:"guneydogu-asya",
+  f:"1431-01-01", t:"1923-10-29", baskent:"Phnom Penh",
+  ozet:"Angkor'un Siyam baskısıyla terk edilmesinden sonra küçülerek varlığını sürdüren Khmer krallığı; Fransız protektorasına girerek yıkılmaktan kurtuldu (1923 sonrasında da sürdü).",
+  kronoloji:[
+    { t:"1431-01-01", tur:"toprak-kayip", b:"Ayutthaya kuşatması sonrası Angkor terk edildi, saray güneye taşındı" },
+    { t:"1863-08-11", tur:"antlasma", b:"Kral Norodom, Fransız protektorasını kabul etti" }
+  ]
+},
+{ id:"toungoo", ad:"Toungoo Hanedanı (Birmanya)", tur:"hanedanlik", bolge:"guneydogu-asya",
+  f:"1510-01-01", t:"1752-01-01", baskent:"Toungoo → Pegu → Ava",
+  ozet:"Pagan Krallığı'nın 1287 Moğol istilası sonrası parçalanmasından doğan küçük beyliklerden birinin (Toungoo) Birmanya'yı yeniden birleştirmesiyle kurulan hanedan; iç isyanlarla yıkıldı.",
+  kronoloji:[
+    { t:"1287-01-01", tur:"bolunme", b:"Moğol istilası Pagan Krallığı'nı parçaladı, küçük beylikler dönemi başladı" },
+    { t:"1510-01-01", tur:"kurulus", b:"Tabinshwehti, Toungoo hanedanını kurdu" },
+    { t:"1599-01-01", tur:"bolunme", b:"İç kavgalarla imparatorluk geçici olarak parçalandı" },
+    { t:"1752-01-01", tur:"son", b:"Mon isyanı başkenti düşürdü, hanedan sona erdi" }
+  ]
+},
+{ id:"konbaung", ad:"Konbaung Hanedanı (Birmanya)", tur:"hanedanlik", bolge:"guneydogu-asya",
+  f:"1752-01-01", t:"1885-11-29", baskent:"Ava → Mandalay",
+  ozet:"Alaungpaya'nın kurduğu, Birmanya'nın son bağımsız hanedanı; üç Anglo-Birman Savaşı sonunda İngiliz Hindistanı'na ilhak edildi.",
+  kronoloji:[
+    { t:"1752-01-01", tur:"kurulus", b:"Alaungpaya, Mon isyanını bastırıp hanedanı kurdu" },
+    { t:"1767-04-07", tur:"savas", b:"Siyam'ın başkenti Ayutthaya'yı yıktı" },
+    { t:"1824-01-01", tur:"savas", b:"Birinci Anglo-Birman Savaşı'nda toprak kaybetti" },
+    { t:"1885-11-29", tur:"son", b:"Üçüncü Anglo-Birman Savaşı sonunda Mandalay düştü, Kral Thibaw sürgüne gönderildi" }
+  ]
+},
+{ id:"ace-sultanligi", ad:"Açe Sultanlığı (Sumatra)", tur:"sultanlik", bolge:"guneydogu-asya",
+  f:"1496-01-01", t:"1903-01-01", baskent:"Banda Aceh",
+  ozet:"Sumatra'nın kuzeyinde kurulan, Osmanlı ile 16. yüzyılda elçilik ve top-mühimmat yardımı düzeyinde ilişki kuran güçlü İslâm sultanlığı; uzun Açe Savaşı sonunda Hollanda'ya boyun eğdi.",
+  kronoloji:[
+    { t:"1496-01-01", tur:"kurulus", b:"Ali Mughayat Syah, sultanlığı kurdu" },
+    { t:"1565-01-01", tur:"ittifak", b:"Osmanlı Sultanı Kanuni'den top ve mühimmat yardımı istedi, sınırlı destek geldi" },
+    { t:"1873-01-01", tur:"savas", b:"Hollanda'nın uzun Açe Savaşı başladı" },
+    { t:"1903-01-01", tur:"son", b:"Son sultan Muhammed Davud Şah Hollanda'ya resmen teslim oldu" }
+  ]
+},
+{ id:"mataram-sultanligi", ad:"Mataram Sultanlığı (Cava)", tur:"sultanlik", bolge:"guneydogu-asya",
+  f:"1587-01-01", t:"1755-02-13", baskent:"Kartasura → Surakarta",
+  ozet:"Orta Cava'da kurulan, ada üzerinde son büyük yerli birleşik gücü temsil eden İslâm sultanlığı; Hollanda Doğu Hindistan Şirketi'nin araya girmesiyle Giyanti Antlaşması'nda ikiye bölündü.",
+  kronoloji:[
+    { t:"1587-01-01", tur:"kurulus", b:"Panembahan Senopati, Mataram Sultanlığı'nı kurdu" },
+    { t:"1613-01-01", tur:"hukumdar", b:"Sultan Agung döneminde Cava'nın büyük bölümüne hâkim oldu" },
+    { t:"1755-02-13", tur:"son", b:"Giyanti Antlaşması ile Yogyakarta ve Surakarta olarak ikiye bölündü" }
+  ]
+},
+{ id:"brunei-sultanligi", ad:"Brunei Sultanlığı", tur:"sultanlik", bolge:"guneydogu-asya",
+  f:"1368-01-01", t:"1923-10-29", baskent:"Bandar Seri Begawan",
+  ozet:"Borneo kıyısında kurulan, 16. yüzyılda Borneo ve Filipinler'in büyük bölümüne uzanan, sonradan küçülerek İngiliz himayesine giren (1888) sultanlık (1923 sonrasında da sürdü).",
+  kronoloji:[
+    { t:"1368-01-01", tur:"kurulus", b:"Muhammed Şah, ilk Müslüman sultan olarak tahta çıktı" },
+    { t:"1888-09-17", tur:"antlasma", b:"İngiltere ile himaye antlaşması imzalandı" }
+  ]
+},
+{ id:"sulu-sultanligi", ad:"Sulu Sultanlığı", tur:"sultanlik", bolge:"guneydogu-asya",
+  f:"1457-01-01", t:"1915-03-22", baskent:"Jolo",
+  ozet:"Güney Filipinler ve kuzey Borneo'da kurulan, İspanyol ve ABD sömürgeciliğine uzun süre direnen İslâm sultanlığı; ABD ile imzalanan Carpenter Antlaşması siyasi egemenliğine son verdi (dinî otorite olarak sürdü).",
+  kronoloji:[
+    { t:"1457-01-01", tur:"kurulus", b:"Şerif ül-Hâşim sultanlığı kurdu" },
+    { t:"1578-01-01", tur:"savas", b:"İspanya'ya karşı uzun direniş dönemi başladı" },
+    { t:"1915-03-22", tur:"son", b:"Carpenter Antlaşması ile ABD'ye siyasi egemenlik devredildi" }
+  ]
+},
+{ id:"hollanda-dogu-hint", ad:"Hollanda Doğu Hint Adaları", tur:"gecici-isgal", bolge:"guneydogu-asya",
+  f:"1602-03-20", t:"1923-10-29", baskent:"Batavia (Cakarta)",
+  ozet:"Hollanda Doğu Hindistan Şirketi'nin (VOC) ticaret üsleri olarak başlayan, 1800'de şirketin iflasıyla doğrudan Hollanda devlet sömürgesine dönüşen Endonezya idaresi (1923 sonrasında da sürdü, 1945'e dek).",
+  kronoloji:[
+    { t:"1602-03-20", tur:"kurulus", b:"Hollanda Doğu Hindistan Şirketi (VOC) kuruldu" },
+    { t:"1619-01-01", tur:"kurulus", b:"Batavia (Cakarta) VOC'nin Asya merkezi yapıldı" },
+    { t:"1800-01-01", tur:"bolunme", b:"İflas eden VOC feshedildi, topraklar doğrudan Hollanda devletine geçti" }
+  ]
+},
+{ id:"ingiliz-malaya", ad:"İngiliz Malaya", tur:"gecici-isgal", bolge:"guneydogu-asya",
+  f:"1826-01-01", t:"1923-10-29", baskent:"Singapur",
+  ozet:"Penang, Malaka ve Singapur'un (Boğaz Yerleşimleri) birleştirilmesiyle kurulan, sonradan Malay sultanlıklarını da himayeye alan İngiliz sömürge idaresi (1923 sonrasında da sürdü).",
+  kronoloji:[
+    { t:"1819-01-01", tur:"kurulus", b:"Stamford Raffles Singapur'da İngiliz ticaret üssü kurdu" },
+    { t:"1826-01-01", tur:"kurulus", b:"Penang, Malaka ve Singapur \"Boğaz Yerleşimleri\" olarak birleştirildi" },
+    { t:"1895-01-01", tur:"birlesme", b:"Dört Malay sultanlığı \"Federe Malay Devletleri\" olarak himayeye alındı" }
+  ]
+},
+
+// ================================================================================
+// Parti 13: Sahra altı Afrika — Habeşistan (Parti 0'da `habesistan` olarak
+// zaten var, tekrar edilmedi). Mali/Songhay TDV'de ayrıntılı madde yok
+// (standart akademik kaynak), Kanem-Bornu ve Sokoto TDV'de var. Kongo,
+// Ndongo, Lunda, Buganda, Zulu, Merina, Svahili şehirleri, Umman-Zengibar
+// TDV kapsamı dışı (Hıristiyan/animist Afrika, kaynak kuralının açık
+// istisnası) — standart akademik kaynağa göre. Harita kapsamı dışı.
+// ================================================================================
+
+{ id:"mali-imparatorlugu", ad:"Mali İmparatorluğu", tur:"imparatorluk", bolge:"bati-afrika",
+  f:"1235-01-01", t:"1670-01-01", baskent:"Niani",
+  ozet:"Sundiata Keita'nın Gana İmparatorluğu'nun mirasını devralarak kurduğu, Mansa Musa'nın efsanevi hac yolculuğuyla tanınan Batı Afrika İslâm imparatorluğu; Songhay ve komşu baskılarıyla kademeli çözüldü. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  kronoloji:[
+    { t:"1235-01-01", tur:"kurulus", b:"Sundiata Keita, Kirina Savaşı'nda zafer kazanıp imparatorluğu kurdu" },
+    { t:"1324-01-01", tur:"antlasma", b:"Mansa Musa, Kahire ve Mekke'ye görkemli hac yolculuğuna çıktı" },
+    { t:"1468-01-01", tur:"toprak-kayip", b:"Songhay, Timbuktu'yu alarak Mali'nin gerilemesini hızlandırdı" },
+    { t:"1670-01-01", tur:"son", b:"Küçülen imparatorluk komşu güçler arasında dağılıp tarihe karıştı" }
+  ]
+},
+{ id:"songhay-imparatorlugu", ad:"Songhay İmparatorluğu", tur:"imparatorluk", bolge:"bati-afrika",
+  f:"1464-01-01", t:"1591-04-13", baskent:"Gao",
+  ozet:"Sünnî Ali'nin Mali'nin mirasını devralıp genişlettiği, Askiya Muhammed döneminde Timbuktu'yu bir İslâm ilim merkezine dönüştüren Batı Afrika imparatorluğu; Fas Sâdî ordusunun ateşli silahlarla kazandığı Tondibi zaferiyle yıkıldı. TDV'de ayrıntılı madde yok; standart akademik kaynağa göre yazıldı.",
+  kronoloji:[
+    { t:"1464-01-01", tur:"kurulus", b:"Sünnî Ali, Songhay'ı büyük bir imparatorluğa dönüştürmeye başladı" },
+    { t:"1493-01-01", tur:"hukumdar", b:"Askiya Muhammed tahta çıkıp Timbuktu'yu ilim merkezi yaptı" },
+    { t:"1591-04-13", tur:"son", b:"Tondibi Savaşı'nda Fas (Sâdî) ordusuna yenilip yıkıldı (bkz. [[fas]])" }
+  ]
+},
+{ id:"kanem-bornu", ad:"Kanem-Bornu İmparatorluğu", tur:"imparatorluk", bolge:"orta-afrika",
+  f:"800-01-01", t:"1905-01-01", baskent:"Njimi → Ngazargamu",
+  ozet:"Çad Gölü çevresinde kurulan, Bilâdüssûdan'ın en uzun ömürlü İslâm devleti olan imparatorluk; İdris Alooma döneminde zirveye ulaştı, 19. yüzyıl sonunda sömürgeciliğe teslim oldu. (kaynak: TDV, madde: kanem-bornu)",
+  kronoloji:[
+    { t:"800-01-01", tur:"kurulus", b:"Kanem Krallığı, Çad Gölü'nün kuzeydoğusunda kuruldu" },
+    { t:"1075-01-01", tur:"hukumdar", b:"Hanedan İslâmiyet'i kabul etti" },
+    { t:"1571-01-01", tur:"hukumdar", b:"İdris Alooma döneminde imparatorluk zirvesine ulaştı, başkent Ngazargamu'ya taşındı" },
+    { t:"1905-01-01", tur:"son", b:"Sömürge güçleri arasında bölünerek tarihî devlet tamamen sona erdi" }
+  ]
+},
+{ id:"hausa-sehir-devletleri", ad:"Hausa Şehir Devletleri", tur:"devlet", bolge:"bati-afrika",
+  f:"1000-01-01", t:"1808-01-01", baskent:"Kano, Katsina, Zaria, Gobir (çeşitli merkezler)",
+  ozet:"Bugünkü kuzey Nijerya'da yedi kardeş şehir (Hausa Bakwai) etrafında örgütlenen bağımsız ticaret devletleri topluluğu; Osman dan Fodio'nun cihad hareketiyle Sokoto Halifeliği'ne katıldı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  kronoloji:[
+    { t:"1000-01-01", tur:"kurulus", b:"Hausa şehir devletleri (Kano, Katsina, Zaria, Gobir vd.) bağımsız birimler olarak şekillendi" },
+    { t:"1350-01-01", tur:"hukumdar", b:"İslâmiyet ticaret yollarıyla şehirlere yayılmaya başladı" },
+    { t:"1808-01-01", tur:"son", b:"Osman dan Fodio'nun cihad hareketi şehirleri fethedip Sokoto Halifeliği'ne kattı (bkz. [[sokoto]])" }
+  ]
+},
+{ id:"sokoto", ad:"Sokoto Halifeliği", tur:"devlet", bolge:"bati-afrika",
+  f:"1804-01-01", t:"1903-07-27", baskent:"Sokoto",
+  ozet:"Fulani âlimi Osman dan Fodio'nun Hausa beyliklerine karşı başlattığı cihad hareketiyle kurulan, Batı Afrika'nın en büyük İslâm halifeliği; İngiliz fethiyle siyasi egemenliği sona erdi (dinî halifelik unvanı sembolik olarak sürdü). (kaynak: TDV, madde: sokoto)",
+  kronoloji:[
+    { t:"1804-01-01", tur:"isyan", b:"Osman dan Fodio, Hausa beyliklerine karşı cihad ilan etti" },
+    { t:"1809-01-01", tur:"kurulus", b:"Sokoto başkent yapılıp halifelik resmen kuruldu" },
+    { t:"1817-01-01", tur:"hukumdar", b:"Muhammed Bello döneminde halifelik zirvesine ulaştı" },
+    { t:"1903-07-27", tur:"son", b:"Son sultan Muhammed Tahir İngilizlere karşı savaşırken öldürüldü, siyasi egemenlik sona erdi" }
+  ]
+},
+{ id:"asanti", ad:"Aşanti İmparatorluğu", tur:"imparatorluk", bolge:"bati-afrika",
+  f:"1701-01-01", t:"1902-01-01", baskent:"Kumasi",
+  ozet:"Osei Tutu'nun Denkyira'ya karşı zafer kazanarak kurduğu, altın ve köle ticaretiyle zenginleşen Batı Afrika krallığı; dört Anglo-Aşanti Savaşı sonunda İngiliz Altın Kıyı kolonisine katıldı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  kronoloji:[
+    { t:"1701-01-01", tur:"kurulus", b:"Osei Tutu, Denkyira'yı yenerek Aşanti Birliği'ni kurdu" },
+    { t:"1824-01-01", tur:"savas", b:"Birinci Anglo-Aşanti Savaşı'nda İngiliz valisini yendi" },
+    { t:"1874-02-04", tur:"savas", b:"İngilizler Kumasi'yi yakıp yıktı" },
+    { t:"1902-01-01", tur:"son", b:"Dördüncü Anglo-Aşanti Savaşı sonunda krallık resmen ilhak edildi" }
+  ]
+},
+{ id:"dahomey", ad:"Dahomey Krallığı", tur:"krallik", bolge:"bati-afrika",
+  f:"1625-01-01", t:"1894-01-01", baskent:"Abomey",
+  ozet:"Fon halkının kurduğu, köle ticaretinde merkezî rol oynayan, kadın savaşçılarıyla (Amazonlar) tanınan Batı Afrika krallığı; Kral Béhanzin'in yenilgisiyle Fransız sömürgesi oldu. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  kronoloji:[
+    { t:"1625-01-01", tur:"kurulus", b:"Wegbaja, Abomey merkezli krallığı kurdu" },
+    { t:"1727-01-01", tur:"toprak-kazanc", b:"Kıyıdaki Whydah krallığını ele geçirip Atlantik ticaretine doğrudan eriştim kazandı" },
+    { t:"1894-01-01", tur:"son", b:"Fransa, Kral Béhanzin'i yenip krallığı sömürgeye dönüştürdü" }
+  ]
+},
+{ id:"benin-kralligi", ad:"Benin Krallığı (Nijerya)", tur:"krallik", bolge:"bati-afrika",
+  f:"1180-01-01", t:"1897-02-18", baskent:"Benin Şehri",
+  ozet:"Edo halkının Oba hanedanı altında kurduğu, tunç heykelleriyle ünlü Batı Afrika krallığı (bugünkü Benin ülkesiyle karıştırılmamalı); İngiliz \"Cezalandırma Seferi\" ile yağmalanıp sömürgeye katıldı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  kronoloji:[
+    { t:"1180-01-01", tur:"kurulus", b:"Oba hanedanı Benin Şehri'nde krallığı kurdu" },
+    { t:"1440-01-01", tur:"hukumdar", b:"Oba Ewuare döneminde krallık genişleyip merkezîleşti" },
+    { t:"1897-02-18", tur:"son", b:"İngiliz \"Cezalandırma Seferi\" Benin Şehri'ni yakıp yağmaladı, krallık sömürgeye katıldı" }
+  ]
+},
+{ id:"oyo-imparatorlugu", ad:"Oyo İmparatorluğu (Yoruba)", tur:"imparatorluk", bolge:"bati-afrika",
+  f:"1400-01-01", t:"1836-01-01", baskent:"Oyo-Ile (Eski Oyo)",
+  ozet:"Yoruba halkının süvari gücüyle kurduğu, komşu Dahomey'i bile haraca bağlayan güçlü imparatorluk; iç taht kavgaları ve Fulani cihad baskısıyla çöktü. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  kronoloji:[
+    { t:"1400-01-01", tur:"kurulus", b:"Oyo-Ile'de Yoruba krallığı kuruldu" },
+    { t:"1730-01-01", tur:"toprak-kazanc", b:"Dahomey Krallığı'nı yenip haraca bağladı" },
+    { t:"1817-01-01", tur:"isyan", b:"İç isyanlar ve Fulani baskısı imparatorluğu zayıflattı" },
+    { t:"1836-01-01", tur:"son", b:"Eski Oyo terk edildi, imparatorluk fiilen dağıldı" }
+  ]
+},
+{ id:"kongo-kralligi", ad:"Kongo Krallığı", tur:"krallik", bolge:"orta-afrika",
+  f:"1390-01-01", t:"1914-01-01", baskent:"Mbanza Kongo (São Salvador)",
+  ozet:"Kongo Nehri ağzında kurulan, Portekizlilerle erken temasla Hristiyanlığı devlet dini yapan Orta Afrika krallığı; Mbwila Savaşı'nda ağır darbe aldıktan sonra küçülerek Portekiz nüfuzu altında varlığını uzun süre sürdürdü. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  kronoloji:[
+    { t:"1390-01-01", tur:"kurulus", b:"Lukeni lua Nimi, Kongo Krallığı'nı kurdu" },
+    { t:"1491-01-01", tur:"hukumdar", b:"Kral I. João, Portekizlilerin etkisiyle Hristiyanlığı kabul etti" },
+    { t:"1665-10-29", tur:"savas", b:"Mbwila Savaşı'nda Portekiz'e yenilip Kral I. Antônio öldürüldü, krallık parçalandı" },
+    { t:"1914-01-01", tur:"son", b:"Son kalıntıları Portekiz Angola'sına idari olarak tamamen katıldı" }
+  ]
+},
+{ id:"ndongo", ad:"Ndongo Krallığı (Angola)", tur:"krallik", bolge:"orta-afrika",
+  f:"1500-01-01", t:"1671-01-01", baskent:"Kabasa",
+  ozet:"Kongo'nun güneyinde kurulan, Kraliçe Nzinga'nın Portekiz sömürgeciliğine karşı onlarca yıl direnişiyle tanınan krallık; Portekiz'in Pungo Andongo'yu almasıyla fiilen sona erdi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  kronoloji:[
+    { t:"1500-01-01", tur:"kurulus", b:"Ngola hanedanı Ndongo Krallığı'nı kurdu" },
+    { t:"1624-01-01", tur:"hukumdar", b:"Kraliçe Nzinga tahta çıkıp Portekiz'e karşı uzun direnişi başlattı" },
+    { t:"1671-01-01", tur:"son", b:"Portekiz, Pungo Andongo kalesini alarak krallığı fiilen sona erdirdi" }
+  ]
+},
+{ id:"lunda-imparatorlugu", ad:"Lunda İmparatorluğu", tur:"imparatorluk", bolge:"orta-afrika",
+  f:"1665-01-01", t:"1887-01-01", baskent:"Musumba",
+  ozet:"Orta Afrika'da (bugünkü Kongo-Zambiya-Angola sınır bölgesi) fildişi ve köle ticaretiyle zenginleşen, gevşek bağlı geniş bir konfederasyon kuran imparatorluk; Avrupa sömürge paylaşımıyla parçalandı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  kronoloji:[
+    { t:"1665-01-01", tur:"kurulus", b:"Mwata Yamvo hanedanı Lunda İmparatorluğu'nu kurdu" },
+    { t:"1750-01-01", tur:"toprak-kazanc", b:"Fildişi ve köle ticaret ağları Atlantik ve Hint Okyanusu kıyılarına uzandı" },
+    { t:"1887-01-01", tur:"son", b:"Avrupa güçlerinin (Portekiz, Belçika) sömürge paylaşımıyla imparatorluk parçalandı" }
+  ]
+},
+{ id:"buganda", ad:"Buganda Krallığı", tur:"krallik", bolge:"dogu-afrika",
+  f:"1300-01-01", t:"1923-10-29", baskent:"Mengo (Kampala)",
+  ozet:"Victoria Gölü kıyısında kurulan, İngiliz himayesi altında da kurumlarını koruyarak varlığını sürdüren Doğu Afrika krallığı (1923 sonrasında da sürdü). TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  kronoloji:[
+    { t:"1300-01-01", tur:"kurulus", b:"Kintu hanedanı Buganda Krallığı'nı kurdu" },
+    { t:"1894-06-18", tur:"antlasma", b:"İngiltere ile himaye antlaşması imzalandı" }
+  ]
+},
+{ id:"zulu-kralligi", ad:"Zulu Krallığı", tur:"krallik", bolge:"guney-afrika",
+  f:"1816-01-01", t:"1879-07-04", baskent:"Ulundi",
+  ozet:"Shaka'nın askerî reformlarıyla küçük bir beylikten büyük bir savaşçı krallığa dönüştürdüğü Güney Afrika devleti (\"Mfecane\" kargaşasını başlattı); Anglo-Zulu Savaşı'nda İngiliz'e yenilip ilhak edildi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  kronoloji:[
+    { t:"1816-01-01", tur:"kurulus", b:"Shaka, Zulu klanını askerî reformlarla büyük bir krallığa dönüştürdü" },
+    { t:"1838-12-16", tur:"savas", b:"Kan Nehri Savaşı'nda Boer göçmenlerine yenildi" },
+    { t:"1879-01-22", tur:"savas", b:"Isandlwana'da İngilizlere ağır darbe vurdu" },
+    { t:"1879-07-04", tur:"son", b:"Ulundi Savaşı'nda kesin yenilgi aldı, krallık İngilizlerce ilhak edildi" }
+  ]
+},
+{ id:"merina", ad:"Merina Krallığı (Madagaskar)", tur:"krallik", bolge:"dogu-afrika",
+  f:"1787-01-01", t:"1897-02-28", baskent:"Antananarivo",
+  ozet:"Andrianampoinimerina'nın Imerina platosunu birleştirip kurduğu, kısa sürede Madagaskar adasının büyük bölümüne hâkim olan krallık; Fransız istilasıyla sona erdi, Kraliçe III. Ranavalona sürgüne gönderildi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  kronoloji:[
+    { t:"1787-01-01", tur:"kurulus", b:"Andrianampoinimerina, İmerina platosunu birleştirdi" },
+    { t:"1817-01-01", tur:"antlasma", b:"İngiltere ile antlaşma imzalayıp modernleşme sürecine girdi" },
+    { t:"1895-01-01", tur:"isgal", b:"Fransız istila kuvvetleri başkenti ele geçirdi" },
+    { t:"1897-02-28", tur:"son", b:"Krallık ilga edildi, Kraliçe III. Ranavalona sürgüne gönderildi" }
+  ]
+},
+{ id:"svahili-sehirleri", ad:"Svahili Şehir Devletleri (Kıyı)", tur:"devlet", bolge:"dogu-afrika",
+  f:"1000-01-01", t:"1698-12-13", baskent:"Kilwa, Mombasa, Zengibar (çeşitli merkezler)",
+  ozet:"Doğu Afrika kıyısında Arap-Bantu ticaret kültürünün doğurduğu, altın ve fildişi ticaretiyle zenginleşen bağımsız İslâm liman şehirleri ağı; Portekiz istilası ve ardından Umman'ın kıyıyı ele geçirmesiyle bağımsızlıklarını kaybettiler. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  kronoloji:[
+    { t:"1000-01-01", tur:"kurulus", b:"Kilwa, Mombasa, Malindi gibi bağımsız Svahili liman şehirleri gelişmeye başladı" },
+    { t:"1498-01-01", tur:"isgal", b:"Vasco da Gama'nın gelişiyle Portekiz baskısı başladı" },
+    { t:"1698-12-13", tur:"son", b:"Umman kuvvetleri Mombasa'daki Fort Jesus'u alarak Portekiz'i kovdu, kıyı Umman nüfuzuna girdi" }
+  ]
+},
+{ id:"umman-zengibar", ad:"Umman-Zengibar Sultanlığı", tur:"sultanlik", bolge:"dogu-afrika",
+  f:"1698-01-01", t:"1923-10-29", baskent:"Maskat → Zengibar (Stone Town)",
+  ozet:"Umman'ın Doğu Afrika kıyısını Portekiz'den alıp kurduğu deniz-ticaret imparatorluğu; Said bin Sultan'ın ölümüyle Umman ve Zengibar iki ayrı sultanlığa bölündü, Zengibar İngiliz himayesine girdi (1923 sonrasında da sürdü). TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  kronoloji:[
+    { t:"1698-01-01", tur:"kurulus", b:"Umman kuvvetleri Doğu Afrika kıyısını Portekiz'den aldı (bkz. [[svahili-sehirleri]])" },
+    { t:"1832-01-01", tur:"hukumdar", b:"Said bin Sultan başkentini Zengibar'a taşıdı" },
+    { t:"1856-10-19", tur:"bolunme", b:"Said bin Sultan'ın ölümüyle Umman ve Zengibar iki ayrı sultanlığa bölündü" },
+    { t:"1890-11-04", tur:"antlasma", b:"Zengibar, İngiliz himaye antlaşmasını imzaladı" }
+  ]
+},
+
+// ================================================================================
+// Parti 14: Amerika — TDV kapsamı tamamen dışı (kaynak kuralının açık
+// istisnası), standart akademik kaynağa göre. Harita kapsamı dışı. Gran
+// Colombia'nın ardılları (Venezuela/Kolombiya/Ekvador/Panama) görev
+// talimatına uyarak ayrı kayıt açılmadı, ozet'te özetlendi.
+// ================================================================================
+
+{ id:"aztek-imparatorlugu", ad:"Aztek (Mexica) İmparatorluğu", tur:"imparatorluk", bolge:"orta-amerika",
+  f:"1428-01-01", t:"1521-08-13", baskent:"Tenochtitlan",
+  ozet:"Tenochtitlan, Texcoco ve Tlacopan'ın \"Üçlü İttifak\"ıyla kurulan, orta Meksika'ya hâkim olan imparatorluk; Hernán Cortés'in İspanyol kuvvetleri ve yerli müttefiklerince kuşatılıp yıkıldı.",
+  kronoloji:[
+    { t:"1428-01-01", tur:"kurulus", b:"Tenochtitlan, Texcoco ve Tlacopan Üçlü İttifak'ı kurdu" },
+    { t:"1502-01-01", tur:"hukumdar", b:"II. Moctezuma tahta çıkıp imparatorluğu en geniş sınırlarına ulaştırdı" },
+    { t:"1519-11-08", tur:"isgal", b:"Hernán Cortés, Tenochtitlan'a girdi" },
+    { t:"1521-08-13", tur:"son", b:"Uzun kuşatma sonunda Tenochtitlan düştü, son imparator Cuauhtémoc esir alındı" }
+  ]
+},
+{ id:"inka-imparatorlugu", ad:"İnka İmparatorluğu (Tahuantinsuyu)", tur:"imparatorluk", bolge:"guney-amerika",
+  f:"1438-01-01", t:"1572-09-24", baskent:"Cusco",
+  ozet:"And Dağları boyunca uzanan Kolomb öncesi Amerika'nın en büyük imparatorluğu; Pizarro'nun İmparator Atahualpa'yı esir alıp idam etmesiyle çöktü, Vilcabamba'daki son direniş devleti de tasfiye edildi.",
+  kronoloji:[
+    { t:"1438-01-01", tur:"kurulus", b:"Pachacuti, Cusco krallığını büyük bir imparatorluğa dönüştürmeye başladı" },
+    { t:"1532-11-16", tur:"savas", b:"Cajamarca'da Francisco Pizarro, İmparator Atahualpa'yı tuzağa düşürüp esir aldı" },
+    { t:"1533-08-29", tur:"son", b:"Atahualpa idam edildi, İspanyollar Cusco'yu ele geçirdi" },
+    { t:"1572-09-24", tur:"son", b:"Vilcabamba'daki son direniş devleti düştü, Tupac Amaru idam edildi" }
+  ]
+},
+{ id:"maya-sehir-devletleri", ad:"Maya Şehir Devletleri (Post-Klasik)", tur:"devlet", bolge:"orta-amerika",
+  f:"1200-01-01", t:"1697-03-13", baskent:"Mayapán, Nojpetén (çeşitli merkezler)",
+  ozet:"Klasik Maya çöküşünden sonra Yucatán ve Petén'de küçük bağımsız şehir devletleri hâlinde varlığını sürdüren Maya siyasi kültürü; son bağımsız Maya krallığı Nojpetén'in düşüşüyle İspanyol fethi tamamlandı.",
+  kronoloji:[
+    { t:"1200-01-01", tur:"kurulus", b:"Mayapán Birliği Yucatán'da hâkimiyet kurdu" },
+    { t:"1441-01-01", tur:"bolunme", b:"Mayapán terk edildi, bölge küçük rakip şehir devletlerine bölündü" },
+    { t:"1697-03-13", tur:"son", b:"İspanyollar Nojpetén'i (Tayasal) alarak son bağımsız Maya krallığını ortadan kaldırdı" }
+  ]
+},
+{ id:"yeni-ispanya", ad:"Yeni İspanya Genel Valiliği", tur:"gecici-isgal", bolge:"orta-amerika",
+  f:"1535-04-17", t:"1821-09-27", baskent:"Mexico City",
+  ozet:"Aztek İmparatorluğu'nun yıkıntıları üzerine kurulan, Orta Amerika, Karayipler ve Filipinler'i kapsayan devasa İspanyol sömürge idaresi; bağımsızlık savaşının ardından Meksika İmparatorluğu'na dönüştü.",
+  kronoloji:[
+    { t:"1535-04-17", tur:"kurulus", b:"İlk genel vali Antonio de Mendoza atanıp Yeni İspanya resmen kuruldu" },
+    { t:"1810-09-16", tur:"isyan", b:"Rahip Hidalgo'nun \"Grito de Dolores\" çağrısıyla bağımsızlık savaşı başladı" },
+    { t:"1821-09-27", tur:"son", b:"Trigarante Ordusu Mexico City'ye girdi, bağımsızlık kesinleşti (bkz. [[meksika]])" }
+  ]
+},
+{ id:"ispanyol-peru", ad:"Peru Genel Valiliği", tur:"gecici-isgal", bolge:"guney-amerika",
+  f:"1542-11-20", t:"1824-12-09", baskent:"Lima",
+  ozet:"İnka İmparatorluğu'nun yıkıntıları üzerine kurulan, Güney Amerika'daki İspanyol sömürge idaresinin merkezi genel valilik; Ayacucho zaferiyle bağımsızlık savaşları sonuçlandı.",
+  kronoloji:[
+    { t:"1542-11-20", tur:"kurulus", b:"Peru Genel Valiliği resmen kuruldu" },
+    { t:"1780-01-01", tur:"isyan", b:"Tupac Amaru II'nin büyük yerli isyanı bastırıldı" },
+    { t:"1824-12-09", tur:"son", b:"Ayacucho Savaşı'nda İspanyol ordusu kesin yenilgiye uğradı" }
+  ]
+},
+{ id:"portekiz-brezilyasi", ad:"Portekiz Brezilyası", tur:"gecici-isgal", bolge:"guney-amerika",
+  f:"1549-01-01", t:"1822-09-07", baskent:"Salvador → Rio de Janeiro",
+  ozet:"Pedro Álvares Cabral'ın 1500'deki keşfinin ardından şeker ve altınla zenginleşen Portekiz sömürgesi; Napolyon istilası sırasında kraliyet ailesinin sürgüne gelişiyle fiilen başkent oldu, Dom Pedro'nun bağımsızlık ilanıyla sona erdi.",
+  kronoloji:[
+    { t:"1549-01-01", tur:"kurulus", b:"İlk genel vali Tomé de Sousa ile merkezi sömürge idaresi kuruldu" },
+    { t:"1808-01-01", tur:"hukumdar", b:"Napolyon'un Portekiz'i işgali üzerine kraliyet ailesi Rio de Janeiro'ya sürgüne geldi" },
+    { t:"1822-09-07", tur:"son", b:"Dom Pedro \"Ipiranga Çığlığı\" ile bağımsızlığı ilan etti (bkz. [[brezilya-imparatorlugu]])" }
+  ]
+},
+{ id:"brezilya-imparatorlugu", ad:"Brezilya İmparatorluğu", tur:"imparatorluk", bolge:"guney-amerika",
+  f:"1822-09-07", t:"1889-11-15", baskent:"Rio de Janeiro",
+  ozet:"Dom Pedro'nun bağımsızlık ilanıyla kurduğu, Güney Amerika'daki tek monarşi; askerî darbeyle cumhuriyete dönüştürüldü.",
+  kronoloji:[
+    { t:"1822-09-07", tur:"kurulus", b:"I. Dom Pedro kendini imparator ilan etti" },
+    { t:"1888-05-13", tur:"antlasma", b:"\"Altın Kanun\" ile köleliğin kaldırılması ilan edildi" },
+    { t:"1889-11-15", tur:"son", b:"Askerî darbeyle II. Dom Pedro tahttan indirildi, cumhuriyet ilan edildi" }
+  ]
+},
+{ id:"abd", ad:"Amerika Birleşik Devletleri", tur:"cumhuriyet", bolge:"kuzey-amerika",
+  f:"1776-07-04", t:"1923-10-29", baskent:"Philadelphia → Washington",
+  ozet:"On üç İngiliz kolonisinin bağımsızlık ilanıyla kurulan, iç savaş ve hızlı sanayileşme sonrası dünya gücü hâline gelen federal cumhuriyet (1923 sonrasında da sürdü).",
+  kronoloji:[
+    { t:"1776-07-04", tur:"kurulus", b:"Bağımsızlık Bildirgesi kabul edildi" },
+    { t:"1783-09-03", tur:"antlasma", b:"Paris Antlaşması ile İngiltere bağımsızlığı tanıdı" },
+    { t:"1861-04-12", tur:"savas", b:"İç Savaş başladı (1865'e dek)" },
+    { t:"1898-04-25", tur:"savas", b:"İspanya-Amerika Savaşı ile Küba, Porto Riko, Filipinler nüfuz alanına girdi" },
+    { t:"1917-04-06", tur:"savas", b:"I. Dünya Savaşı'na İtilaf yanında girdi" }
+  ]
+},
+{ id:"meksika", ad:"Meksika (Bağımsız Dönem)", tur:"cumhuriyet", bolge:"orta-amerika",
+  f:"1821-09-27", t:"1923-10-29", baskent:"Mexico City",
+  ozet:"Yeni İspanya'nın bağımsızlığıyla kurulan, kısa bir imparatorluk denemesinden sonra cumhuriyete dönüşen, ABD ile savaşta topraklarının yarısını kaybeden, 1910 Devrimi'yle sarsılan devlet (1923 sonrasında da sürdü).",
+  kronoloji:[
+    { t:"1821-09-27", tur:"kurulus", b:"Bağımsızlık kazanıldı, kısa ömürlü I. Meksika İmparatorluğu (Iturbide) kuruldu" },
+    { t:"1824-10-04", tur:"kurulus", b:"Federal cumhuriyet anayasası kabul edildi" },
+    { t:"1846-04-25", tur:"savas", b:"ABD ile savaş başladı, 1848'de kuzey topraklarının yarısı kaybedildi" },
+    { t:"1876-01-01", tur:"hukumdar", b:"Porfirio Díaz'ın uzun otoriter dönemi (Porfiriato) başladı" },
+    { t:"1910-11-20", tur:"isyan", b:"Meksika Devrimi başladı" }
+  ]
+},
+{ id:"gran-kolombiya", ad:"Büyük Kolombiya (Gran Colombia)", tur:"cumhuriyet", bolge:"guney-amerika",
+  f:"1819-12-17", t:"1831-01-01", baskent:"Bogotá",
+  ozet:"Simón Bolívar'ın İspanya'ya karşı zaferinin ardından kurduğu, bugünkü Venezuela, Kolombiya, Ekvador ve Panama'yı kapsayan büyük cumhuriyet; iç bölgesel çekişmelerle üçe (dört) ayrı devlete bölündü (Venezuela, Kolombiya, Ekvador — her biri ayrı kayıt açılmadı).",
+  kronoloji:[
+    { t:"1819-12-17", tur:"kurulus", b:"Angostura Kongresi'nde Bolívar cumhuriyeti ilan etti" },
+    { t:"1824-12-09", tur:"savas", b:"Ayacucho zaferiyle İspanyol Güney Amerika'sının bağımsızlığı kesinleşti" },
+    { t:"1830-01-01", tur:"bolunme", b:"Venezuela ve Ekvador ayrılmaya başladı" },
+    { t:"1831-01-01", tur:"son", b:"Cumhuriyet resmen dağılıp Venezuela, Kolombiya (Yeni Granada) ve Ekvador'a bölündü" }
+  ]
+},
+{ id:"haiti", ad:"Haiti Cumhuriyeti", tur:"cumhuriyet", bolge:"orta-amerika",
+  f:"1804-01-01", t:"1923-10-29", baskent:"Port-au-Prince",
+  ozet:"Toussaint Louverture'ün başlattığı köle isyanının Jean-Jacques Dessalines önderliğinde bağımsızlığa ulaşması ile kurulan, dünyanın ilk bağımsız kara devleti ve ilk köle isyanıyla kurulan cumhuriyet (1923 sonrasında da sürdü).",
+  kronoloji:[
+    { t:"1791-08-22", tur:"isyan", b:"Toussaint Louverture önderliğinde büyük köle isyanı başladı" },
+    { t:"1804-01-01", tur:"kurulus", b:"Jean-Jacques Dessalines bağımsızlığı ilan etti" },
+    { t:"1825-04-17", tur:"antlasma", b:"Fransa, ağır bir tazminat karşılığında bağımsızlığı resmen tanıdı" }
+  ]
+},
+{ id:"ingiliz-kuzey-amerika", ad:"İngiliz Kuzey Amerika (Kanada)", tur:"gecici-isgal", bolge:"kuzey-amerika",
+  f:"1763-02-10", t:"1923-10-29", baskent:"Quebec → Ottawa",
+  ozet:"Yedi Yıl Savaşları'nda Fransız Kanadası'nın İngiltere'ye geçmesiyle başlayan, 1867'de kendi kendini yöneten \"Dominion\" statüsüne kavuşan sömürge/dominyon (1923 sonrasında da sürdü).",
+  kronoloji:[
+    { t:"1763-02-10", tur:"kurulus", b:"Paris Antlaşması ile Fransa, Yeni Fransa'yı (Kanada) İngiltere'ye devretti" },
+    { t:"1867-07-01", tur:"birlesme", b:"Kanada Dominyonu, dört koloninin birleşmesiyle kendi kendini yönetmeye başladı" }
+  ]
+},
+
+// ================================================================================
+// Parti 15: Kalanlar — Okyanusya ve ada devletleri. Sibirya hanlıkları zaten
+// Parti 5'te (kazan/astarhan/sibir/nogay) eklendi, burada tekrar edilmedi.
+// TDV kapsamı dışı, standart akademik kaynağa göre. Harita kapsamı dışı.
+// ================================================================================
+
+{ id:"hawaii-kralligi", ad:"Hawaii Krallığı", tur:"krallik", bolge:"okyanusya",
+  f:"1795-01-01", t:"1898-08-12", baskent:"Honolulu",
+  ozet:"Kamehameha I'in adaları savaşla birleştirmesiyle kurulan Pasifik krallığı; ABD'li yerleşimcilerin darbesiyle devrilip kısa bir cumhuriyet döneminden sonra ABD'ye ilhak edildi.",
+  kronoloji:[
+    { t:"1795-01-01", tur:"kurulus", b:"Kamehameha I, Hawaii adalarını savaşla birleştirdi" },
+    { t:"1893-01-17", tur:"bolunme", b:"ABD'li yerleşimciler Kraliçe Liliuokalani'yi devirdi" },
+    { t:"1898-08-12", tur:"son", b:"ABD, Hawaii'yi resmen ilhak etti" }
+  ]
+},
+{ id:"tonga-kralligi", ad:"Tonga Krallığı", tur:"krallik", bolge:"okyanusya",
+  f:"1845-12-04", t:"1923-10-29", baskent:"Nuku'alofa",
+  ozet:"Kral I. George Tupou'nun adaları birleştirip kurduğu, Pasifik'te hiç sömürgeleştirilmeyen tek krallık; 1900'de İngiliz himayesine girdi ama iç egemenliğini korudu (1923 sonrasında da sürdü).",
+  kronoloji:[
+    { t:"1845-12-04", tur:"kurulus", b:"I. George Tupou, Tonga adalarını birleştirdi" },
+    { t:"1875-11-04", tur:"antlasma", b:"İlk anayasa ilan edildi" },
+    { t:"1900-05-18", tur:"antlasma", b:"İngiltere ile himaye antlaşması imzalandı (iç egemenlik korundu)" }
+  ]
+},
+{ id:"yeni-zelanda", ad:"Yeni Zelanda (İngiliz Kolonisi/Dominyonu)", tur:"gecici-isgal", bolge:"okyanusya",
+  f:"1840-02-06", t:"1923-10-29", baskent:"Auckland → Wellington",
+  ozet:"Waitangi Antlaşması ile Maori şefleriyle İngiliz Tacı arasında kurulan, 1907'de Dominyon statüsü kazanan sömürge (1923 sonrasında da sürdü).",
+  kronoloji:[
+    { t:"1840-02-06", tur:"antlasma", b:"Waitangi Antlaşması, Maori şefleri ile İngiltere arasında imzalandı" },
+    { t:"1858-01-01", tur:"kurulus", b:"Maori Kral Hareketi (Kingitanga) toprak kayıplarına karşı birlik kurdu" },
+    { t:"1907-09-26", tur:"kurulus", b:"Dominyon statüsü kazanıldı" }
+  ]
+},
+{ id:"avustralya", ad:"Avustralya Milletler Topluluğu", tur:"cumhuriyet", bolge:"okyanusya",
+  f:"1901-01-01", t:"1923-10-29", baskent:"Melbourne → Canberra",
+  ozet:"Altı ayrı İngiliz kolonisinin federasyonuyla kurulan, İngiliz Milletler Topluluğu içinde özerk dominyon (1923 sonrasında da sürdü).",
+  kronoloji:[
+    { t:"1901-01-01", tur:"birlesme", b:"Altı koloni federasyonla \"Avustralya Milletler Topluluğu\"nu kurdu" },
+    { t:"1915-04-25", tur:"savas", b:"Gelibolu Çıkarması'na katıldı (Anzac)" }
+  ]
 }
 
 ];
+
