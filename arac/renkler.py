@@ -135,7 +135,10 @@ BOYALAR = {
     # şehzadenin kimliğiyle (s) boyanır ki paylar haritada ayrı ayrı görünsün.
     # Renkler, aynı anda sahnede olan Anadolu beyliklerinin tonlarından
     # kasten uzak seçildi.
-    "timurlu":         ("Timurlu idaresi",               "#8d6e63"),
+    # "Timurlu idaresi" ne demek olduğu haritada anlaşılmıyordu (kullanıcı sordu).
+    # Ankara Savaşı'ndan sonra Timur, aldığı yerlere kendi valilerini tayin etti;
+    # Sivas 1408'e kadar Timurlu valisi Mezid Bey'in elinde kaldı. Ad açıldı.
+    "timurlu":         ("Timurlu valiliği",              "#8d6e63"),
     "suleyman-celebi": ("Emîr Süleyman Çelebi (Rumeli)", "#b71c1c"),
     "isa-celebi":      ("İsa Çelebi (Bursa)",            "#e04b2a"),
     "mehmed-celebi":   ("Çelebi Mehmed (Amasya)",        "#a8183f"),
