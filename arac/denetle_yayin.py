@@ -203,6 +203,19 @@ def main():
         sys.path.insert(0, os.path.join(KOK, "arac"))
         import girdi
         motor_girdisi = {"data/" + f for f in girdi.GIRDI_DOSYALARI}
+        # ⚠️ ÜÇÜNCÜ YOL — girdi.py'nin İZİN LİSTESİ motorun okuduklarının
+        # TAMAMI DEĞİL. `data/goller.js` bu yüzden 'yetim' raporlanıyordu:
+        # uret_petek.py onu girdi.oku_goller() ile DOĞRUDAN okuyor, izin
+        # listesinden değil. Yanlış alarmın sebebi verinin değil ARACIN
+        # modeliydi — dosya bağlıydı, benim haritam eksikti.
+        # Aynı sınıftaki her fonksiyon buraya eklenmeli; kaynak koddan
+        # okunuyor ki yeni bir oku_*() eklendiğinde elle güncelleme gerekmesin.
+        try:
+            gk = open(os.path.join(KOK, "arac", "girdi.py"), encoding="utf-8").read()
+            for m in re.finditer(r'["\'](\w+\.js)["\']', gk):
+                motor_girdisi.add("data/" + m.group(1))
+        except Exception:
+            pass
     except Exception as e:
         print("UYARI: arac/girdi.py okunamadı (%s) — motor girdisi ayrımı yapılamıyor" % e)
 

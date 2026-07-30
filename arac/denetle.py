@@ -191,7 +191,14 @@ def degismez1(Y):
 # kapatıldı: Bicâye ve Hacıbey s: bitişleri gerçek fetih gününe taşındı,
 # Varşova Dükalığı (1806-1815) lehistan olarak yazıldı, Ankara bozgunu sonrası
 # 16 Anadolu şehrine Timur hâkimiyeti (timurlu) eklendi.
-BEKLENEN_BOSLUK = 1
+# 1 -> 0: merkez oturum Doha'nın 1193 günlük deliğini kapattı (ab1df42):
+# 1913-07-29 Osmanlı-İngiliz mukavelesi Osmanlı'yı Katar'dan çekiyor,
+# 1916-11-03 İngiliz-Katar antlaşması himayeyi kuruyor, arada Âl Sânî
+# şeyhliği kendi başına — s:{d:"katar"} yazıldı.
+# ⚠️ BEKLENTİNİN TERS YÖNDE ESKİMESİ: sayı DÜŞTÜĞÜNDE de sabit güncellenmeli,
+# yoksa denetim "0 <= 1" diye sessizce geçer ve deliğin geri açılmasını
+# göremez. Tavan yalnız yukarı doğru değil, AŞAĞI doğru da takip edilir.
+BEKLENEN_BOSLUK = 0
 
 
 def degismez1b(Y):
