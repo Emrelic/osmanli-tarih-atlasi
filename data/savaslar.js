@@ -428,6 +428,16 @@ window.ANTLASMALAR.sort((a,b)=> a.t < b.t ? -1 : 1);
 // Deniz harekâtlarında ara noktalar karaya değmez; donanma Mora'yı dolanır,
 // Ege'de ada ada ilerler. Ok, muharebenin gerçekleştiği noktada biter.
 window.SEFERLER = [
+// hatalar 9.docx madde 10 — kullanıcı: "musul savunması nadir şahın
+// püskürtülmesi haritada oklar ile animasyon olarak gösterilmeli".
+// Nâdir Şah Kerkük üzerinden Musul'a yürüdü, kırk gün kuşattı, Hâcı Hüseyin
+// Paşa'nın savunması karşısında kuşatmayı kaldırıp Kirmanşah'a çekildi.
+{ ad:"Nâdir Şah'ın Musul kuşatması (1743)", taraf:"dusman", renk:"#0d7d8a",
+  f:"1743-09-14", t:"1743-10-23",
+  yol:[[47.07,34.31],[45.43,35.56],[44.39,35.47],[43.13,36.34]] },
+{ ad:"Nâdir Şah'ın Musul'dan çekilişi (1743)", taraf:"dusman", renk:"#0d7d8a",
+  f:"1743-10-23", t:"1743-12-01",
+  yol:[[43.13,36.34],[44.39,35.47],[45.43,35.56],[47.07,34.31]] },
 // hatalar 2.docx madde 2 — kullanıcı: "Osmanlı memlük savaşı maddesinde oklar
 // ile haritada memlük ve osmanlı ordularının aksiyonunu gösterebiliriz".
 // Altı yıllık savaşın (1485-1491) haritada hiçbir izi yoktu: Çukurova defalarca

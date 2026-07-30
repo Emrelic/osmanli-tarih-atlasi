@@ -55,6 +55,14 @@ ANTLASMALAR = [
      "alicilar": ["avusturya", "lehistan", "venedik", "rusya"]},
     {"ad": "Pasarofça Antlaşması", "t": "1718-07-21", "savas_basi": "1714-12-08",
      "alicilar": ["avusturya", "venedik"]},
+    # hatalar 9.docx madde 2-3. İkisi de KENDİ GÜNÜNDE hiçbir yerleşim
+    # değiştirmiyor; kayıplar daha önceki askerî tarihlere yazılı (1730-08-12
+    # Nâdir'in taarruzu, 1735-06-19 Baghavard bozgunu). Karlofça ile aynı
+    # örüntü — taralı devir gösteriminin tam konusu.
+    {"ad": "Ahmed Paşa Antlaşması", "t": "1732-01-10", "savas_basi": "1730-08-01",
+     "alicilar": ["safevi"]},
+    {"ad": "İstanbul Antlaşması (1736)", "t": "1736-09-01", "savas_basi": "1735-06-01",
+     "alicilar": ["iran"]},
     {"ad": "Küçük Kaynarca Antlaşması", "t": "1774-07-21", "savas_basi": "1768-10-08",
      "alicilar": ["rusya"]},
     {"ad": "Yaş Antlaşması", "t": "1792-01-09", "savas_basi": "1787-08-17",
