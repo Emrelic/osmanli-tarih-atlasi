@@ -215,11 +215,18 @@ def c_isgal_envanteri(Y):
 # → Bir `isg:` örtüsünün altındaki `d:` ile çakışması İHLAL DEĞİLDİR. Örtünün
 #   çakışMAMASI ihlaldir (§D-3).
 #
-# `y:` ALANI BURADA FARKLI ANLAMDA — bilerek belgeleniyor, çünkü sessiz bir
-# tuzak: `d:`/`s:` içinde `y:` kazanım biçimidir (savas | kusatma | antlasma |
-# miras | vassal | ilhak). `isg:` içinde KAYNAK slug'ıdır ("berlin-antlasmasi").
-# Aynı ada sahip iki alan, iki anlam. Enum değerlerinden biri `isg:`de
-# görünürse birisi alanı yanlış anlamış demektir; D-5 bunu yakalar.
+# KAYNAK ALANI `kaynak:` — `y:` DEĞİL (şema düzeltmesi f8d4550).
+# İlk yazımda `isg:` kaynak slug'ını `y:` alanına koyuyordu ve bu sessiz bir
+# tuzaktı: `d:`/`s:` içinde `y:` KAZANIM BİÇİMİ enum'udur (savas | kusatma |
+# antlasma | miras | vassal | ilhak). Aynı ada sahip iki alan, iki anlam —
+# `y:`yi enum sanan araç slug'a takılır, kaynak sanan araç "savas"ı açmaya
+# çalışır. D-5 bunu yakaladı, merkez oturum alanı `kaynak:`a taşıdı. Yeni ad
+# uydurulmadı: `olaylar.js` kaynak slug'ı için zaten `kaynak:` kullanıyor.
+#
+# ⚠️ ESKİ ŞEMANIN KALINTISI DA İHLALDİR. Göç dakikalar içinde yapıldı ama üç
+# kayıt yerine otuz olsaydı bir kısmı `y:` ile kalırdı; `y:` **bilinen** bir
+# dönem alanı olduğu için girdi.py'nin alan kütüğü ona ses ÇIKARMAZ. Yani bu
+# kalıntıyı yakalayacak tek yer burasıdır.
 KAZANIM_ENUM = ("savas", "kusatma", "antlasma", "miras", "vassal", "ilhak")
 
 
@@ -230,9 +237,9 @@ def d_isgal_ortusu(Y, ol):
     D-2 örtü altındaki de jure dönemle tam çakışıyor mu — açıkta tarama kalmasın
     D-3 işgalci = de jure sahip mi         — kendi kendini işgal anlamsız
     D-4 örtünün sınırlarının maddesi var mı — tarama ekranda BELİRİR/KAYBOLUR
-    D-5 `y:` kaynak alanı var mı / enum'la karışmış mı
+    D-5 `kaynak:` slug'ı var mı / eski `y:` şemasından kalıntı var mı
     """
-    dsiz, acikta, kendi, maddesiz, ysiz = [], [], [], [], []
+    dsiz, acikta, kendi, maddesiz, ksiz = [], [], [], [], []
     for y in Y:
         ortuler = y.get("isg") or []
         if not ortuler:
@@ -247,11 +254,15 @@ def d_isgal_ortusu(Y, ol):
                 continue
             if not isgalci:
                 dsiz.append((y["ad"], f, t))
-            if not p.get("y"):
-                ysiz.append((y["ad"], f, t, "y: YOK"))
-            elif p["y"] in KAZANIM_ENUM:
-                ysiz.append((y["ad"], f, t, f'y:"{p["y"]}" — kazanım enum\'u,'
-                                            f' kaynak slug\'ı bekleniyor'))
+            if not p.get("kaynak"):
+                ksiz.append((y["ad"], f, t, "kaynak: YOK"))
+            if p.get("y"):
+                # `y:` isg: içinde ARTIK ANLAMSIZ. Değeri enum'dan olsa da
+                # olmasa da kalıntıdır: enum'dansa kazanım biçimi örtüye
+                # yazılmış, değilse eski kaynak şeması unutulmuş demektir.
+                ne = "kazanım enum'u" if p["y"] in KAZANIM_ENUM else "eski kaynak şeması"
+                ksiz.append((y["ad"], f, t,
+                             f'y:"{p["y"]}" — {ne}; isg: içinde `kaynak:` kullanılır'))
 
             # D-2: örtünün her günü bir de jure dönemin içinde olmalı. Aralık
             # aritmetiği yerine gün gün taramak 927 yerleşimde pahalı; kesişimleri
@@ -281,7 +292,7 @@ def d_isgal_ortusu(Y, ol):
                     continue
                 if not any(abs(o["g"] - _gun(g)) <= PENCERE_GUN for o in ol):
                     maddesiz.append((g, ne, y["ad"], isgalci))
-    return dsiz, acikta, kendi, maddesiz, ysiz
+    return dsiz, acikta, kendi, maddesiz, ksiz
 
 
 # ---------------------------------------------------- v: etiket bütünlüğü
@@ -374,7 +385,7 @@ def main():
             print(f"      {yy:2d}. yy  {'#' * c[yy]} {c[yy]}")
 
     # ---------------- D  (isg: örtüsü)
-    dsiz, acikta, kendi, isg_maddesiz, ysiz = d_isgal_ortusu(Y, ol)
+    dsiz, acikta, kendi, isg_maddesiz, ksiz = d_isgal_ortusu(Y, ol)
     n_ortu = sum(len(y.get("isg") or []) for y in Y)
     n_yer = sum(1 for y in Y if y.get("isg"))
     print(f"\n=== D) isg: İŞGAL ÖRTÜSÜ — {n_ortu} örtü / {n_yer} yerleşim ===")
@@ -387,7 +398,7 @@ def main():
                         ("işgalci = de jure sahip (kendi kendini işgal)", kendi),
                         ("örtü altında DE JURE SAHİP YOK (açıkta tarama)", acikta),
                         ("örtü sınırının maddesi yok", isg_maddesiz),
-                        ("`y:` kaynak alanı sorunlu", ysiz)):
+                        ("`kaynak:` slug alanı sorunlu", ksiz)):
         if bulunan:
             ihlal += 1
             print(f"  ✗ {ad}: {len(bulunan)} (beklenen 0)")

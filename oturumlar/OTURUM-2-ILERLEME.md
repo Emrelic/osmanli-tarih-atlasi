@@ -105,7 +105,7 @@ bayrak `s:`ye takılsaydı Mısır kapsanmazdı. Doğru model bayrak değil **ka
 
 Denetime beş soru eklendi (D bölümü, hepsi bugün ✓ 0):
 işgalci `d:` alanı · örtünün de jure dönemi tam kaplaması · işgalci ≠ de jure
-sahip · **örtü sınırlarının maddesi** (Değişmez 2'nin örtü boyutu) · `y:` kaynak.
+sahip · **örtü sınırlarının maddesi** (Değişmez 2'nin örtü boyutu) · `kaynak:` slug.
 
 🔴 **Yazılı hale getirilen kural:** `isg:` örtüsünün altındaki `d:` ile çakışması
 İHLAL DEĞİLDİR. Saraybosna'nın `d:`si 1908'e kadar sürüyor ama Osmanlı 1878-1908
@@ -117,10 +117,14 @@ ilhakı 30 yıl öne çekerdi. Örtünün çakışMAMASI ihlaldir.
 `denetle.py`'de `isg:` dönem sağlığı kategorilerine alındı (sıfır uzunluk, ters
 dönem, kendi içinde çakışma) ama çapraz örtüşme döngülerine ALINMADI.
 
-Yan bulgu: **`y:` alanı iki anlamda kullanılıyor.** `d:`/`s:` içinde kazanım
-biçimi (kusatma 85 · savas 77 · antlasma 67 · vassal 13 · ilhak 11 · miras 2),
-`isg:` içinde kaynak slug'ı. D-5 karışmayı yakalıyor. Ayrıca `vassal` ve `ilhak`
-`VERI-YAPISI.md`'de belgelenmemiş — belge Oturum 0'ın.
+**`y:` aşırı yüklenmesi bulundu ve DÜZELTİLDİ (`f8d4550`).** `d:`/`s:` içinde
+`y:` kazanım biçimi enum'u (kusatma 85 · savas 77 · antlasma 67 · vassal 13 ·
+ilhak 11 · miras 2), `isg:` içinde kaynak slug'ıydı. D-5 ilk koşuda yakaladı,
+merkez oturum alanı **`kaynak:`**a taşıdı (olaylar.js'in mevcut sözleşmesi).
+D-5 buna göre güncellendi ve **eski şema kalıntısı da ihlal sayılıyor**: `y:`
+bilinen bir dönem alanı olduğu için girdi.py'nin alan kütüğü ona ses çıkarmaz,
+kalıntıyı yakalayacak tek yer burası.
+Ayrıca `vassal` ve `ilhak` `VERI-YAPISI.md`'de belgelenmemiş — belge Oturum 0'ın.
 
 Regresyon: altı sentetik `isg:` hatası, altısı da yakalandı.
 
