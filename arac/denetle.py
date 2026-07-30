@@ -553,7 +553,13 @@ def donem_sagligi(Y):
         return a["f"] < b["t"] and b["f"] < a["t"]
 
     for y in Y:
-        kategoriler = {"d": y.get("d") or [], "s": y.get("s") or [], "v": y.get("v") or []}
+        # "isg" (işgal örtüsü, 043e911) BİLEREK burada: sıfır uzunluk, ters
+        # dönem ve KENDİ İÇİNDE çakışma denetimleri örtü için de geçerli — iki
+        # işgalci aynı yeri aynı anda işgal edemez. Ama aşağıdaki s×d/v ve d×v
+        # çapraz örtüşme döngülerine GİRMEZ: örtünün altındaki de jure dönemle
+        # çakışması kuralın ta kendisidir (bkz. denetle_statu.py D bölümü).
+        kategoriler = {"d": y.get("d") or [], "s": y.get("s") or [],
+                       "v": y.get("v") or [], "isg": y.get("isg") or []}
         for kat, donemler in kategoriler.items():
             for p in donemler:
                 f, t = p.get("f"), p.get("t")

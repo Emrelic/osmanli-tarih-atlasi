@@ -96,6 +96,44 @@ Regresyon: üç sentetik hata (etiket silme, `d→v` sıçraması, yeni `s→s` 
 bellekteki kopyaya enjekte edildi, üçü de yakalandı. `data/` dosyalarına
 dokunulmadı.
 
+### 3b — `isg:` şeması denetime alındı (merkez oturumun kararı `043e911`)
+
+C'nin cevabı geldi ve **önerdiğim `isg:1` bayrağını veri çürüttü**: Kahire
+`v: 1805→1914 k:"Kavalalı hanedanı"` — 1882 İngiliz işgali `v:`in ÜSTÜNE gelir,
+bayrak `s:`ye takılsaydı Mısır kapsanmazdı. Doğru model bayrak değil **katman**:
+`d:/v:/s:` de jure taban rengi · `isg:` de facto tarama.
+
+Denetime beş soru eklendi (D bölümü, hepsi bugün ✓ 0):
+işgalci `d:` alanı · örtünün de jure dönemi tam kaplaması · işgalci ≠ de jure
+sahip · **örtü sınırlarının maddesi** (Değişmez 2'nin örtü boyutu) · `y:` kaynak.
+
+🔴 **Yazılı hale getirilen kural:** `isg:` örtüsünün altındaki `d:` ile çakışması
+İHLAL DEĞİLDİR. Saraybosna'nın `d:`si 1908'e kadar sürüyor ama Osmanlı 1878-1908
+arası Bosna'yı fiilen idare etmiyordu — kural sezgiye ters, yazılmazsa bir
+sonraki oturum "düzeltir". Gerekçe hem `denetle_statu.py` D başlığında hem
+raporda: `d:` TABAN rengini belirler, nominal hükümran Osmanlı'ydı; alternatif
+ilhakı 30 yıl öne çekerdi. Örtünün çakışMAMASI ihlaldir.
+
+`denetle.py`'de `isg:` dönem sağlığı kategorilerine alındı (sıfır uzunluk, ters
+dönem, kendi içinde çakışma) ama çapraz örtüşme döngülerine ALINMADI.
+
+Yan bulgu: **`y:` alanı iki anlamda kullanılıyor.** `d:`/`s:` içinde kazanım
+biçimi (kusatma 85 · savas 77 · antlasma 67 · vassal 13 · ilhak 11 · miras 2),
+`isg:` içinde kaynak slug'ı. D-5 karışmayı yakalıyor. Ayrıca `vassal` ve `ilhak`
+`VERI-YAPISI.md`'de belgelenmemiş — belge Oturum 0'ın.
+
+Regresyon: altı sentetik `isg:` hatası, altısı da yakalandı.
+
+### Kronoloji oturumuna teslim edilen liste
+
+`denetim/S-S-DEVIR-LISTESI-2026-07-30.md` — **81 devir olayı, 557 yerleşim-devir
+çifti.** Yüzyıl dağılımı 18. yy 20 · 19. yy 26 ağırlıklı. Tavan (`BEKLENEN_SS_
+MADDESIZ_GERCEKGUN = 81`) madde yazıldıkça düşürülmeli.
+
+Pasarofça mükerreri merkez oturum tarafından `01a6928`'de kapatıldı (kör silme
+değil: Lâle Devri kültür içeriği önce ek5'e taşındı). **`denetle.py` artık
+temiz.**
+
 ---
 
 ## Bu turda yazılan / değişen dosyalar

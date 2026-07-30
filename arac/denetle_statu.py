@@ -193,6 +193,97 @@ def c_isgal_envanteri(Y):
     return v_isgal, s_sandvic, fetret
 
 
+# ------------------------------------------------- D) isg: işgal örtüsü
+# ŞEMA KARARI (merkez oturum, 043e911): işgal bir dönem TÜRÜ değil, ÖRTÜ
+# KATMANIDIR.
+#
+#     d: / v: / s:   DE JURE sahiplik   → haritanın taban rengi
+#     isg:           DE FACTO denetim   → üstteki tarama
+#
+#   isg:[{f:"1878-07-29", t:"1908-10-05", d:"avusturya", y:"berlin-antlasmasi"}]
+#
+# 🔴 BURAYA YAZILI OLMASININ SEBEBİ — kural sezgiye ters, yazılmazsa bir sonraki
+# oturum "düzeltir":
+#     Saraybosna'nın `d:` dönemi 1908'e kadar sürüyor, ama Osmanlı 1878-1908
+#     arası Bosna'yı FİİLEN idare etmiyordu. `d:` = "doğrudan idare" olduğuna
+#     göre bu, kelimenin dar anlamıyla yanlış görünür.
+#     BUNA RAĞMEN DOĞRU OLAN BUDUR: `d:` haritanın TABAN rengini belirler ve o
+#     dönemde nominal hükümran Osmanlı'ydı — Berlin'de Bosna ilhak edilmedi,
+#     "işgal ve idare" edildi, 1908'e kadar padişahın adı hutbede okundu.
+#     Alternatif (1878'den itibaren `s:`) tabanı Avusturya yapar ve İLHAKI 30
+#     YIL ÖNE ÇEKERDİ. O gerçekten yanlış olurdu.
+# → Bir `isg:` örtüsünün altındaki `d:` ile çakışması İHLAL DEĞİLDİR. Örtünün
+#   çakışMAMASI ihlaldir (§D-3).
+#
+# `y:` ALANI BURADA FARKLI ANLAMDA — bilerek belgeleniyor, çünkü sessiz bir
+# tuzak: `d:`/`s:` içinde `y:` kazanım biçimidir (savas | kusatma | antlasma |
+# miras | vassal | ilhak). `isg:` içinde KAYNAK slug'ıdır ("berlin-antlasmasi").
+# Aynı ada sahip iki alan, iki anlam. Enum değerlerinden biri `isg:`de
+# görünürse birisi alanı yanlış anlamış demektir; D-5 bunu yakalar.
+KAZANIM_ENUM = ("savas", "kusatma", "antlasma", "miras", "vassal", "ilhak")
+
+
+def d_isgal_ortusu(Y, ol):
+    """Beş soru sorar; her biri ayrı liste döndürür.
+
+    D-1 `d:` (işgalci) alanı var mı        — kim işgal etti belli değilse çizilemez
+    D-2 örtü altındaki de jure dönemle tam çakışıyor mu — açıkta tarama kalmasın
+    D-3 işgalci = de jure sahip mi         — kendi kendini işgal anlamsız
+    D-4 örtünün sınırlarının maddesi var mı — tarama ekranda BELİRİR/KAYBOLUR
+    D-5 `y:` kaynak alanı var mı / enum'la karışmış mı
+    """
+    dsiz, acikta, kendi, maddesiz, ysiz = [], [], [], [], []
+    for y in Y:
+        ortuler = y.get("isg") or []
+        if not ortuler:
+            continue
+        taban = [(p.get("f"), p.get("t"), "d") for p in (y.get("d") or [])] + \
+                [(p.get("f"), p.get("t"), "v") for p in (y.get("v") or [])] + \
+                [(p.get("f"), p.get("t"), p.get("d")) for p in (y.get("s") or [])]
+        taban = [t for t in taban if t[0] and t[1]]
+        for p in ortuler:
+            f, t, isgalci = p.get("f"), p.get("t"), p.get("d")
+            if not (f and t):
+                continue
+            if not isgalci:
+                dsiz.append((y["ad"], f, t))
+            if not p.get("y"):
+                ysiz.append((y["ad"], f, t, "y: YOK"))
+            elif p["y"] in KAZANIM_ENUM:
+                ysiz.append((y["ad"], f, t, f'y:"{p["y"]}" — kazanım enum\'u,'
+                                            f' kaynak slug\'ı bekleniyor'))
+
+            # D-2: örtünün her günü bir de jure dönemin içinde olmalı. Aralık
+            # aritmetiği yerine gün gün taramak 927 yerleşimde pahalı; kesişimleri
+            # birleştirip örtüyü kaplıyorlar mı diye bakılıyor.
+            parca = sorted((max(f, a), min(t, b)) for a, b, _ in taban
+                           if a < t and f < b)
+            kapali, imlec = [], f
+            for a, b in parca:
+                if a > imlec:
+                    kapali.append((imlec, a))
+                imlec = max(imlec, b)
+            if imlec < t:
+                kapali.append((imlec, t))
+            if kapali:
+                acikta.append((y["ad"], f, t, kapali))
+
+            # D-3: örtünün altındaki de jure sahip işgalcinin kendisi olamaz.
+            for a, b, sahip in taban:
+                if sahip == isgalci and a < t and f < b:
+                    kendi.append((y["ad"], f, t, isgalci))
+                    break
+
+            # D-4: örtünün başı ve sonu haritada GÖRÜNÜR değişimdir — tarama
+            # belirir ve kaybolur. Değişmez 2'nin örtü boyutu; aynı ±30 pencere.
+            for g, ne in ((f, "işgal başlangıcı"), (t, "işgal sonu")):
+                if g <= "1281-01-01" or g >= "1923-10-29":
+                    continue
+                if not any(abs(o["g"] - _gun(g)) <= PENCERE_GUN for o in ol):
+                    maddesiz.append((g, ne, y["ad"], isgalci))
+    return dsiz, acikta, kendi, maddesiz, ysiz
+
+
 # ---------------------------------------------------- v: etiket bütünlüğü
 def v_etiketleri(Y):
     """`k:` etiketi olmayan tâbi dönemleri — objektif şema kuralı, eşiksiz.
@@ -281,6 +372,29 @@ def main():
             c[int(g[:4]) // 100 + 1] = c.get(int(g[:4]) // 100 + 1, 0) + 1
         for yy in sorted(c):
             print(f"      {yy:2d}. yy  {'#' * c[yy]} {c[yy]}")
+
+    # ---------------- D  (isg: örtüsü)
+    dsiz, acikta, kendi, isg_maddesiz, ysiz = d_isgal_ortusu(Y, ol)
+    n_ortu = sum(len(y.get("isg") or []) for y in Y)
+    n_yer = sum(1 for y in Y if y.get("isg"))
+    print(f"\n=== D) isg: İŞGAL ÖRTÜSÜ — {n_ortu} örtü / {n_yer} yerleşim ===")
+    print("    de jure sahiplik d:/v:/s: · de facto denetim isg: — BAĞIMSIZ")
+    print("    katmanlar, üst üste binerler. Örtünün altındaki `d:` ile")
+    print("    ÇAKIŞMASI kuralın kendisidir, İHLAL DEĞİLDİR (şema kararı 043e911).")
+    if not n_ortu:
+        print("    i henüz örtü yok — denetim ileriye dönük bekçi olarak duruyor.")
+    for ad, bulunan in (("işgalci `d:` alanı YOK", dsiz),
+                        ("işgalci = de jure sahip (kendi kendini işgal)", kendi),
+                        ("örtü altında DE JURE SAHİP YOK (açıkta tarama)", acikta),
+                        ("örtü sınırının maddesi yok", isg_maddesiz),
+                        ("`y:` kaynak alanı sorunlu", ysiz)):
+        if bulunan:
+            ihlal += 1
+            print(f"  ✗ {ad}: {len(bulunan)} (beklenen 0)")
+            for r in (bulunan if ayrinti else bulunan[:8]):
+                print(f"      {r}")
+        elif n_ortu:
+            print(f"  ✓ {ad}: 0")
 
     # ---------------- C
     v_isgal, s_sandvic, fetret = c_isgal_envanteri(Y)
