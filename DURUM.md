@@ -15,10 +15,10 @@ altında; tekrar koşturmak için `py arac/denetle.py`.
 |---|---|
 | Yayın | https://emrelic.github.io/osmanli-tarih-atlasi/ · r83 |
 | Yerleşim (canlı) | **917** |
-| Yerleşim (arşivde, aktif değil) | 572 (Avrupa 228 + Asya 344) |
+| Yerleşim (arşivde, aktif değil) | 581 (Avrupa 237 + Asya 344) |
 | Harita kırılması | **441**, hepsi kronoloji maddeli |
 | Kronoloji maddesi | **938** |
-| Devlet (index) | **213** · haritada gövdesi olan **105** |
+| Devlet (index) | **213** · haritada gövdesi olan **108** |
 | Kişi | 247 |
 | Padişah | 41 (36 portre) |
 | Savaş · sefer · antlaşma | 169 · 50 · 33 |
@@ -83,7 +83,7 @@ Coğrafi kapsam, harita penceresi `box(-12, 1.5, 62, 62)` ile sınırlı — yan
 |---|---|
 | Anadolu, Balkanlar, Levant, Mezopotamya, İran, Kafkasya | 🟢 pencere içinde ve doygun |
 | Kuzey Afrika, Doğu Afrika, Arabistan | 🟢 pencere içinde, Afrika partisiyle doldu |
-| Orta ve Batı Avrupa | 🟡 pencere içinde ama seyrek; 228 noktalık parti **arşivde bekliyor** |
+| Orta ve Batı Avrupa | 🟡 pencere içinde ama seyrek; **237 noktalık parti hazır ve ölçülü**, kimlik bekliyor |
 | Kuzey-Doğu Avrupa (Lehistan, Rusya, Baltık, İsveç) | 🟡 89 nokta, 56 bin km²/nokta — en zayıf pencere içi bölge |
 | Orta Asya (Hive, Buhara, Semerkant ötesi) | 🔴 42 nokta ve **pencerenin doğu kenarında kesiliyor** |
 | **Hindistan, Çin, Japonya, Güneydoğu Asya** | 🔴 **344 noktalık parti hazır ama pencere 62°D'de bitiyor — çizilemezler** |
@@ -145,7 +145,7 @@ açıyorlardı.
 | Kronolojisi olan | 213 / 213 ✓ |
 | Özeti olan | 213 / 213 ✓ |
 | Başkenti olan | 212 / 213 |
-| **Haritada gövdesi olan** | **105** |
+| **Haritada gövdesi olan** | **108** |
 | Kronoloji madde ortalaması | **4** (en çok 15) |
 
 Bölge dağılımı: Anadolu 32 · Balkanlar 26 · Güneydoğu Asya 15 · Doğu Asya 14 ·
@@ -157,7 +157,7 @@ Güney Asya 8 · Batı Afrika 8 · İran 7 …
 **Eksik:**
 - **Kronolojiler sığ** — devlet başına ortalama 4 madde. Osmanlı'nın 938
   maddesi var, öteki 212 devletin toplamı ~850.
-- **108 devletin haritada gövdesi yok** (213 − 105). Kimlikleri
+- **105 devletin haritada gövdesi yok** (213 − 108). Kimlikleri
   `arac/renkler.py`'de tanımlı olmadığı için çizilemiyorlar.
 - Kimlik adlandırmasında **tutarsızlık** var: `ANTLASMALAR` Karlofça'nın
   taraflarını `habsburg` yazıyor, `renkler.py` ve harita `avusturya` kullanıyor.
@@ -173,7 +173,7 @@ Güney Asya 8 · Batı Afrika 8 · İran 7 …
 | **Savaşlar** | 169 | 🟢 hepsinin konumu var (hatalar 7'de 42 eklendi) |
 | **Seferler** (ok güzergâhı) | 50 | 🟢 |
 | **Antlaşmalar** | 33 | 🟡 `taraf` ve `topraklar` alanları var; 11'inin taralı devir alanı üretildi |
-| **Devletler** | 213 | 🟡 bkz. (d) — sığ, 108'i haritasız |
+| **Devletler** | 213 | 🟡 bkz. (d) — sığ, 105'i haritasız |
 | **Şehirler** | **62** | 🔴 yerleşim verisi **917** — index gerçeğin **%7'si.** Elle tutuluyor, oysa `yerlesimler.js`'ten ÜRETİLEBİLİR |
 | **Kişiler** | 247 | 🔴 bkz. aşağıda |
 | **Bilim adamları · sanatçılar · filozoflar** | **~7** | 🔴 **fiilen başlanmadı** |
@@ -236,7 +236,13 @@ Ayrıntı ve gerekçeler `YAPILACAKLAR.md`'de. Buradaki sıra **bağımlılığa
    `renkler.py`'ye eksik 108 devleti DSATUR ile ekle.
 
 **Faz B — bekleyen partiler**
-4. Avrupa 228 nokta (15 kimlik) · Asya 344 nokta (98 kimlik)
+4. Avrupa **237** nokta (15 kimlik) · Asya 344 nokta (98 kimlik)
+   ⚠️ Kimlik sayısı korkutucu görünüyor ama **ölçüldü ve endişe yersiz çıktı**:
+   Oturum 12'nin 7 kesitli DSATUR ölçümünde 1300'de 74 kimlik sahnedeyken
+   **hiçbir kesitte 5 rengi aşmıyor.** Belirleyici olan kimlik sayısı değil
+   **eş-zamanlı komşuluk.** Ayrıca kimlik BİRLEŞTİRMEK işe yaramıyor, hatta
+   zarar veriyor — gerekçesi . Doğru kaldıraç **renk
+   paylaşımı**: hiç eş-zamanlı olmayan kimlikler aynı rengi kullanır.
 5. Kuzey-Doğu Avrupa partisi (brief hazır, 44-62°K)
 6. Pontik bozkır, Batı-Orta Afrika, Amerika
 

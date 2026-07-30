@@ -1,6 +1,18 @@
 # Oturum 12 — Batı ve Kuzey Avrupa yerleşim katmanı — İLERLEME / BİLDİRİM
 
-**Durum: TAMAM.** `data/yerlesimler_avrupa.js` oluşturuldu — **228 nokta**.
+> **GÜNCELLEME (devam görevi, 2026-07-30):** dosya **237 noktaya** çıktı —
+> İberya kıyısına 9 nokta eklendi (Oran taşması / hatalar 8: Motril, Mojácar,
+> Dénia, Castellón, Tortosa, Huelva, Lagos, Setúbal, Aveiro). Ölçüm: Águilas
+> kıyısında en yakın nokta Granada 203 km → **Cartagena 34 km**; Almería
+> kıyısı 135 → 31 km; Alicante güneyi 124 → 13 km; Huelva kıyısı 101 → 20 km.
+> İberya'da eşik (120 km) aşan ızgara noktası 720 → **31**.
+> İbiza/Menorka/Mayorka zaten mevcutmuş (917'lik canlı veri) — eklenmedi.
+> Bu belgenin §4'ü yerine **`OTURUM-12-KIMLIK.md`** (DSATUR girdisi: yaşam
+> aralıkları, ölçülmüş komşuluk çizgesi, kesit sahne sayımları, granülerlik
+> kararı), §5'i yerine **`OTURUM-12-DUZELTMELER.md`** (satır numaralı tam
+> kayıtlar) geçerlidir.
+
+**Durum: TAMAM.** `data/yerlesimler_avrupa.js` oluşturuldu — **237 nokta**.
 Commit atılmadı, üretim çalıştırılmadı (oturum kuralı). Bu belge entegrasyon
 oturumuna bildirimdir.
 

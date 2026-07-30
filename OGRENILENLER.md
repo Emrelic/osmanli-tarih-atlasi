@@ -248,3 +248,64 @@ değişmezi bozma" kararını kesinleştirdi ve **bedava üçüncü yolu** göst
 
 **Kural:** iki seçenek arasında kalındığında ikisini de ölç. Üçüncü yol
 genellikle ölçümün içinden çıkar.
+
+---
+
+## 12. Kimlik BİRLEŞTİRMEK çizgeyi sadeleştirmez, düğümü şişirir
+
+*Vaka: Oturum 12, 2026-07-30. Bir tavsiyeyi ölçerek çürüttü.*
+
+Renk sıkıntısını azaltmak için şu tavsiye edilmişti: *"Siena/Ferrara/Mantua/
+Parma/Piza `italyan-sehir-devletleri` diye tek kimlikte toplanabilir; altı kimlik
+yerine bir kimlik DSATUR'u belirgin rahatlatır."*
+
+**Ölçüldü ve tersi çıktı** (shapely `voronoi_diagram`, 7 kesit): birleşik senaryo
+DSATUR'u hiçbir kesitte düşürmüyor, **1600'de 4 → 5'e çıkarıyor.** Sebep basit ve
+geriye dönük apaçık: **birleşik düğüm komşularının BİLEŞİMİNİ alır**, yani çizgede
+daha kısıtlı bir düğüm olur.
+
+Üstüne tarihî hata: `ferrara`↔`mantua`↔`parma` ve `piza`↔`siena` **sınırdaş.**
+Tek kimlik, Po boyunca üç ayrı devletin tek gövde olarak boyanması demek —
+**"hayalet birleşik devlet"**, haritada hiç var olmamış bir siyasî varlık.
+
+**Doğru kaldıraç renk PAYLAŞIMI:** hiç eş-zamanlı olmayan kimlikler aynı rengi
+kullanabilir. Ölçülen çiftler: `piza`+`parma`, `siena`+`belcika`,
+`bretanya`+`luksemburg`. Böylece 15 kimlik ~9-10 renkle karşılanıyor ve
+kimlikler ayrı kalıyor. Bu teknik projede zaten kullanılıyor: 104 kimlik
+**99 renk**, 5 paylaşımlı çift, en yakın çift 313 km, üçü hiç eş-zamanlı değil.
+
+> **Kural:** kimlik birleştirmesi yalnız iki varlık **hiç sınırdaş değilse VE**
+> ayrı boyanması tarihî olarak anlamsızsa önerilir. Sınırdaş olanlar asla
+> birleştirilmez.
+
+**İkinci ders — kimlik sayısı belirleyici değil:** aynı ölçüm 1300'de 74 kimliğin
+sahnede olduğunu ve DSATUR'un **hiçbir kesitte 5 rengi aşmadığını** gösterdi.
+"113 yeni kimlik DSATUR'u zorlar" endişesi yersiz çıktı. Belirleyici olan kimlik
+sayısı değil **eş-zamanlı komşuluk**, ve tarihî atlaslarda devletler nadiren
+hepsi birden sahnededir.
+
+---
+
+## 13. Metadata veri değildir
+
+*Vaka: Oturum 3, 2026-07-30.*
+
+`list_sessions` çıktısındaki `cwd` alanı bir oturum için "Ranking" gösteriyordu
+ve buradan **"bu oturum yanlış dizinde açıldı, verimsiz kaldı"** sonucu
+çıkarıldı. Oturum itiraz etti ve haklıydı: alan bayattı, bütün tool çağrıları
+doğru yolda koşmuştu.
+
+Kanıt bir tek komuttaydı ve çalıştırılmamıştı:
+
+```bash
+git log --oneline -- data/devletler.js
+# 6cb69b1  Oturum 3 bitti: devletler dizini 77'den 212 kayda, harita eşleşmesi 101
+```
+
+213 devlet kaydının **212'si** o oturumun işiydi.
+
+**Kural:** bir oturumun ne yaptığı **git geçmişinden** okunur, oturum
+metadatasından değil. Yanlış atıf zararsız görünür ama "kim ne ekledi"
+denetimini bozar ve o denetim veri kaybı kovalarken gereklidir.
+
+Bu, `§11`'in (ölçmeden karar vermemek) aynı refleksinin başka bir yüzü.

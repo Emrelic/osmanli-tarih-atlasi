@@ -14,9 +14,10 @@
 //   B-7  Bretanya İngiltere boyalı, batı ucu hiç boyanmamış — Fransa'nın
 //        Atlantik kıyısında nokta yok, Manş'ın karşısından İngiliz peteği
 //        taşıyor.
-// Bu dosya altı bölgeye 228 nokta ekler: Britanya ve İrlanda 43, Fransa 46,
-// İberya 35, İskandinavya+Danimarka 33, Alçak Ülkeler + Batı Almanya +
-// İsviçre 47, İtalya 24. Tamamı BOLGE kutusunun (box(-12,1.5,62,62)) içinde;
+// Bu dosya altı bölgeye 237 nokta ekler: Britanya ve İrlanda 43, Fransa 46,
+// İberya 44 (9'u kıyı sıklaştırması — Oran taşması, hatalar 8),
+// İskandinavya+Danimarka 33, Alçak Ülkeler + Batı Almanya + İsviçre 47,
+// İtalya 24. Tamamı BOLGE kutusunun (box(-12,1.5,62,62)) içinde;
 // yalnız iki nokta (Trondheim 63.4°K, Sundsvall 62.4°K) kutunun KUZEYİNDE
 // kalır ve kutu açılana dek çizilmez — aşağıda tek tek işaretli.
 //
@@ -47,8 +48,9 @@
 // • İspanya birliği: kastilya/aragon→ispanya 1479-01-20 (II. Fernando'nun
 //   Aragon tahtına çıkışı). Mevcut Madrid/Sevilla/Barselona/Valensiya
 //   kayıtlarının 1479 öncesine bölünmesi ILERLEME'de önerildi.
-// • Portekiz: mevcut Lizbon/Porto kayıtları gibi kesintisiz portekiz;
-//   1580-1640 İber birliği penceresi ILERLEME'de ayrıca önerildi.
+// • Portekiz: İber Birliği penceresi (1580-08-25 – 1640-12-01 ispanya) bu
+//   dosyanın 8 noktasında İŞLİ; canlıdaki Lizbon/Porto'ya entegrasyon
+//   ekleyecek (DUZELTMELER §B) — iki dosya AYNI üretimde girmeli.
 // • Gün bilinmiyorsa YYYY-01-01 (yalnız yıl biliniyor demektir).
 // ============================================================================
 
@@ -228,15 +230,41 @@ window.YERLESIMLER_AVRUPA = [
 // Alicante 1304'te (Torrellas) Kastilya'dan Aragon'a geçti
 { ad:"Alicante", tur:"liman", lat:38.345, lon:-0.481, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1304-08-08",d:"kastilya"},{f:"1304-08-08",t:"1479-01-20",d:"aragon"},{f:"1479-01-20",t:"1923-10-29",d:"ispanya"}] },
 
+// ── İBERYA: Akdeniz ve Atlantik kıyı sıklaştırması ─────────────────────────
+// Sebep (merkez oturum, hatalar 8): Granada ile Valensiya arasında 280 km
+// noktasız kıyı vardı; Oran'ın (Cezayir) peteği Akdeniz'i geçip İspanya
+// kıyısını boyuyordu. Afrika ile Avrupa aynı kara bileşeni olduğundan ada
+// kuralı kurtarmıyor — çözüm kıyı yoğunluğu.
+// Motril: Gırnata savaşının Baza-Almería kapitülasyonlarıyla aynı seferde
+// teslim oldu; gün, aynı kapitülasyonun doğrulanmış tarihi olan komşusu
+// Almería'dan alındı (OGRENILENLER §8: yuvarlama değil komşudan hizalama).
+{ ad:"Motril", tur:"liman", lat:36.745, lon:-3.520, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1489-12-22",d:"granada"},{f:"1489-12-22",t:"1923-10-29",d:"ispanya"}] },
+// Mojácar: Vera kapitülasyonuyla aynı sefer (Haziran 1488); gün Vera'nın
+// doğrulanmış teslim tarihinden alındı.
+{ ad:"Mojácar", tur:"sehir", lat:37.139, lon:-1.851, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1488-06-10",d:"granada"},{f:"1488-06-10",t:"1923-10-29",d:"ispanya"}] },
+{ ad:"Dénia", tur:"liman", lat:38.841, lon:0.107, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1479-01-20",d:"aragon"},{f:"1479-01-20",t:"1923-10-29",d:"ispanya"}] },
+{ ad:"Castellón", tur:"sehir", lat:39.986, lon:-0.037, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1479-01-20",d:"aragon"},{f:"1479-01-20",t:"1923-10-29",d:"ispanya"}] },
+{ ad:"Tortosa", tur:"sehir", lat:40.812, lon:0.521, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1479-01-20",d:"aragon"},{f:"1479-01-20",t:"1923-10-29",d:"ispanya"}] },
+// Balear adaları: İbiza ve Menorka (Mahon) yerlesimler.js'te ZATEN VAR
+// (Menorka'nın 1708-1802 İngiliz penceresi de yazılı) — buraya eklenmedi;
+// üçünün 1479 öncesi aragon penceresi DUZELTMELER'de önerildi.
+// Atlantik kıyısı
+{ ad:"Huelva", tur:"liman", lat:37.261, lon:-6.944, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},{f:"1479-01-20",t:"1923-10-29",d:"ispanya"}] },
+{ ad:"Lagos (Algarve)", tur:"liman", lat:37.102, lon:-8.674, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1580-08-25",d:"portekiz"},{f:"1580-08-25",t:"1640-12-01",d:"ispanya"},{f:"1640-12-01",t:"1923-10-29",d:"portekiz"}] },
+{ ad:"Setúbal", tur:"liman", lat:38.524, lon:-8.893, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1580-08-25",d:"portekiz"},{f:"1580-08-25",t:"1640-12-01",d:"ispanya"},{f:"1640-12-01",t:"1923-10-29",d:"portekiz"}] },
+{ ad:"Aveiro", tur:"liman", lat:40.641, lon:-8.654, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1580-08-25",d:"portekiz"},{f:"1580-08-25",t:"1640-12-01",d:"ispanya"},{f:"1640-12-01",t:"1923-10-29",d:"portekiz"}] },
+
 // ── İBERYA: Navarra ve Portekiz ────────────────────────────────────────────
 { ad:"Pamplona", tur:"sehir", lat:42.813, lon:-1.646, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1512-07-25",d:"navarra"},{f:"1512-07-25",t:"1923-10-29",d:"ispanya"}] },
-// Portekiz: mevcut Lizbon/Porto kayıtları gibi kesintisiz (1580-1640 İber birliği
-// penceresi ILERLEME'de tüm Portekiz noktaları için birlikte önerildi)
-{ ad:"Coimbra", tur:"sehir", lat:40.203, lon:-8.410, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"portekiz"}] },
-{ ad:"Braga", tur:"sehir", lat:41.545, lon:-8.427, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"portekiz"}] },
-{ ad:"Évora", tur:"sehir", lat:38.571, lon:-7.907, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"portekiz"}] },
-{ ad:"Faro", tur:"liman", lat:37.019, lon:-7.930, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"portekiz"}] },
-{ ad:"Bragança", tur:"sehir", lat:41.806, lon:-6.757, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"portekiz"}] },
+// Portekiz: İber Birliği penceresi İŞLENDİ (1580-08-25 Alcântara → 1640-12-01
+// restorasyon; merkez oturum kararı). Canlıdaki Lizbon/Porto'ya aynı pencereyi
+// entegrasyon ekleyecek (OTURUM-12-DUZELTMELER.md §B) — İKİSİ BİRLİKTE girmeli,
+// yoksa 1580-1640 arası iki farklı Portekiz görünür.
+{ ad:"Coimbra", tur:"sehir", lat:40.203, lon:-8.410, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1580-08-25",d:"portekiz"},{f:"1580-08-25",t:"1640-12-01",d:"ispanya"},{f:"1640-12-01",t:"1923-10-29",d:"portekiz"}] },
+{ ad:"Braga", tur:"sehir", lat:41.545, lon:-8.427, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1580-08-25",d:"portekiz"},{f:"1580-08-25",t:"1640-12-01",d:"ispanya"},{f:"1640-12-01",t:"1923-10-29",d:"portekiz"}] },
+{ ad:"Évora", tur:"sehir", lat:38.571, lon:-7.907, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1580-08-25",d:"portekiz"},{f:"1580-08-25",t:"1640-12-01",d:"ispanya"},{f:"1640-12-01",t:"1923-10-29",d:"portekiz"}] },
+{ ad:"Faro", tur:"liman", lat:37.019, lon:-7.930, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1580-08-25",d:"portekiz"},{f:"1580-08-25",t:"1640-12-01",d:"ispanya"},{f:"1640-12-01",t:"1923-10-29",d:"portekiz"}] },
+{ ad:"Bragança", tur:"sehir", lat:41.806, lon:-6.757, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1580-08-25",d:"portekiz"},{f:"1580-08-25",t:"1640-12-01",d:"ispanya"},{f:"1640-12-01",t:"1923-10-29",d:"portekiz"}] },
 
 // ── DANİMARKA: Jutland ve adalar (B-6'nın doğrudan kapanışı) ───────────────
 { ad:"Ribe", tur:"sehir", lat:55.328, lon:8.766, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"danimarka"}] },
@@ -261,6 +289,10 @@ window.YERLESIMLER_AVRUPA = [
 { ad:"Karlstad", tur:"sehir", lat:59.379, lon:13.504, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"isvec"}] },
 { ad:"Gävle", tur:"liman", lat:60.675, lon:17.142, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"isvec"}] },
 { ad:"Falun", tur:"sehir", lat:60.606, lon:15.626, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"isvec"}] },
+// Göteborg şehri 1621'de kuruldu ama nokta İsveç'in Kuzey Denizi koridorunu
+// (Lödöse/Älvsborg, ortaçağdan beri İsveç) temsil ediyor — kur: yazılırsa
+// koridor 1621 öncesinde Danimarka/Norveç peteklerine emilir ve İsveç'in
+// tarihî deniz çıkışı silinir. Bu yüzden kur: KASTEN yok.
 { ad:"Göteborg", tur:"liman", lat:57.707, lon:11.967, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"isvec"}] },
 // ⚠️ BOLGE kutusunun (lat 62) KUZEYİNDE — kutu açılana dek çizilmez, veri ileriye dönük
 { ad:"Sundsvall", tur:"liman", lat:62.391, lon:17.306, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"isvec"}] },
