@@ -45,7 +45,7 @@ DATA = os.path.join(KOK, "data")
 # bu iki sabit o gece saat başı değişti. Sapma uyarısı bilgi amaçlıdır, ihlal
 # değildir — ama üretim koşturacak oturum ÖNCE girdinin donduğunu teyit etmeli.
 # 927 -> 939: Oturum 14'ün Libya partisi (12 nokta).
-BEKLENEN_YERLESIM = 939
+BEKLENEN_YERLESIM = 942
 # 29 -> 32: Oturum 4'ün Necid noktaları (Buraydâ, Uneyze, Şakrâ) 1744
 # öncesinde kasten sahipsiz — orada devlet yoktu, Riyad ve Dir'iye ile
 # aynı desen (MIMARI.md §6: 'devletsiz' ile 'veri yok' ayrımı).
@@ -59,7 +59,12 @@ BEKLENEN_YERLESIM = 939
 # sonra delik açıldı" deseni DEĞİL — mevcut 34'ün aynı deseni: Sahra ve
 # Rub'ul Hâlî dolgu noktaları, orada devlet yoktu. Kufra Senûsî zâviyesiydi,
 # Osmanlı idaresi ulaşmadı, İtalya 1931'de girdi (kapsam dışı).
-BEKLENEN_SAHIPSIZ = 40
+# 40 -> 43: merkez oturumun uc col noktasi (e35b699). Yine ADLARI dogruladim:
+#   Ramletul-kubra (Buyuk Kum Denizi) · Gilf el-Kebir · Selime (Nube colu batisi)
+# Uc yeni ad, sifir kaybolan ad — yani mevcut 40 in hicbiri sessizce sahiplenmedi.
+# Bu kontrol onemli: sayi 40 dan 43 e ciksa da icerik degisseydi (2 yeni + 1
+# kaybolan gibi) fark gorunmezdi. Sayi degil KUME karsilastiriliyor.
+BEKLENEN_SAHIPSIZ = 43
 # 427 -> 432: Kirmanşah 1590-1603 (+2), Tarki tâbiiyeti (+2, mevcut günlere
 # oturdu), Kaheti tâbiiyeti (+2), Şirvan ara şehirleri (+0, mevcut günler),
 # Azak'ın 1637-1642 Kazak işgali (+2), Şehrizor 1554-01-01 -> 1554-08-22 (+0).
@@ -72,7 +77,9 @@ BEKLENEN_SAHIPSIZ = 40
 # dönemi). ⚠️ Bu dört kırılma üretimin ORTASINDA girdi ve o yüzden r82 geometrisi
 # çöpe gitti — CLAUDE.md §7 kilit kuralının yedinci ihlali.
 # 451 -> 452: Oturum 14'ün Konstantin maddesi (1837-10-13).
-BEKLENEN_KIRILMA = 452
+# 452 -> 448: kirilma sayisi DUSTU. Kronoloji oturumlari eski maddeleri
+# emekli ediyor; zemin su anda hareketli, tavan kosudan hemen once olculmeli.
+BEKLENEN_KIRILMA = 448
 BEKLENEN_ACIK = 0
 # MIMARI.md §3.4 — bilinen borç, tavan bu. 311'den 318'e çıkarıldı: beylik
 # düzeltmesiyle 19 yerleşim eklendi (567 -> 586) ve 11'i bu borcu tetikliyor.
