@@ -124,6 +124,11 @@ window.SAVASLAR = [
 { t:"1739-07-22", tur:"meydan", ad:"Hisarcık (Grocka) zaferi", taraf_metin:"Avusturya", sonuc:"zafer", seri:"habsburg", lat:44.67, lon:20.72 },
 // koordinat yerlesimler.js'ten: Preveze
 { t:"1798-10-23", tur:"meydan", ad:"Preveze (Nikopolis) Muharebesi", taraf_metin:"Fransa", sonuc:"zafer", lat:38.9607, lon:20.7469 },
+// taraf'ta "fransa" yok: devletler.js'teki fransa id'si 1792'de kapanıyor
+// (bkz. OTURUM-10-ILERLEME.md EK1, Cumhuriyet/Napolyon sonrası hiç id yok),
+// bu yüzden yalnız osmanli yazıldı — Preveze (Nikopolis) kaydıyla aynı durum.
+{ t:"1799-05-20", tur:"kusatma", ad:"Akkâ Savunması", taraf_metin:"Fransa (Napolyon)", sonuc:"zafer",
+  seri:"", lat:32.93, lon:35.08, taraf:["osmanli"], galip:"osmanli" },
 // koordinat yerlesimler.js'ten: Kerbelâ
 { t:"1801-04-01", tur:"meydan", ad:"Vehhâbîlerin Kerbelâ baskını", taraf_metin:"Suûdî (Vehhâbî)", sonuc:"yenilgi", seri:"vehhabi", lat:32.616, lon:44.025 },
 // Safra geçidi, Yenbu-Medine yolu
@@ -612,7 +617,10 @@ window.SEFERLER = [
 // Olaylar.js: "İsyan Osmanlı kuvvetlerince mayısta bastırıldı" — bu harekâtın
 // kendisi (Prut'un geçilmesi) bastırıldığı için sonuc Osmanlı açısından zafer;
 // isyan ateşinin Mora'ya sıçraması ayrı maddededir (Yunan İsyanı, 1821-03-25).
-{ ad:"İpsilanti'nin Eflak-Boğdan harekâtı (1821)", tur:"isyan", sonuc:"zafer", renk:"#6b2d8a",
+// ⚠️ Ad, kronoloji maddesinin (olaylar_ek5.js, t:1821-02-22) kendi başlığıyla
+// birebir eşleşecek şekilde "Eflak İsyanı" ile başlıyor — hatalar 16 md.10'da
+// kullanıcı bu adı arıyordu, eski ad ("İpsilanti'nin...") onu karşılamıyordu.
+{ ad:"Eflak İsyanı — İpsilanti'nin Boğdan'a geçişi (1821)", tur:"isyan", sonuc:"zafer", renk:"#6b2d8a",
   f:"1821-02-22", t:"1821-02-22", yol:[[27.59,47.16],[26.10,44.43]] },
 { ad:"Müttefik donanmasının Navarin'e gelişi (1827)", tur:"deniz", sonuc:"yenilgi", taraf:"dusman", renk:"#1f5fa8",
   f:"1827-10-20", t:"1827-10-20", yol:[[21.30,36.65],[21.70,36.82]] },
