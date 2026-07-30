@@ -401,3 +401,60 @@ Doğrulama: `SEFERLER: 61 | tur/sonuc eksik: 0`. Commit `087468f`
 eklendi, 10/10 yeni ok girdi (yukarıda EK 2), kronolojide yeri/tarihi
 olmadığı için eklenemeyen ok yoktu. Bu turda da (md.3, md.9) ikisi de
 kronolojiyle karşılandı, Opus'a havale gerekmedi.
+
+---
+
+## EK 4 — hatalar 13 md.8: Timur'un 1402 harekâtı, "ok var madde yok" (2026-07-30)
+
+### 1-2. SEFERLER kayıtları ve kronoloji karşılığı (±30 gün) ÖLÇÜLDÜ
+
+Üç kayıt bulundu (hepsi `taraf:"dusman"`, Timur seferi):
+
+| Kayıt | f → t | Kronoloji karşılığı |
+|---|---|---|
+| Timur'un yürüyüşü (1402) | 1402-06-01 → 1402-09-01 | **var** — Ankara Savaşı 1402-07-28 (`olaylar.js`) pencerenin içinde |
+| Timur'un İzmir seferi (1402) | 1402-08-01 → 1402-12-14 | **var, tam gün eşleşmesi** — "Timur İzmir'i Saint Jean şövalyelerinden aldı" `t:"1402-12-14"` (`olaylar_ek5.js`), kaydın `t` alanıyla BİREBİR aynı gün |
+| Timur'un Anadolu'dan çekilişi (1403) | 1403-03-15 → 1403-08-01 | **var, tam gün eşleşmesi** — "Timur'un Anadolu'dan çekilmesi" `t:"1403-03-15"`, kaydın `f` alanıyla BİREBİR aynı gün |
+
+Efes/Ayasuluk da ayrı bir boşluk DEĞİL — 1402-12-14 maddesinin `d:` metni
+zaten "Kütahya, Denizli, Aydın, **Ayasuluk** ve Tire üzerinden batıya inen
+Timur..." diyor, rota bu madde içinde anlatılıyor.
+
+### 3. GERÇEK BOŞLUK — Bursa'nın yağmalanması, MADDESİ YOK
+
+`Timur'un İzmir seferi (1402)` kaydının rotası Bursa'dan geçiyor
+(`[29.06,40.19]`) ama **Timur'un Bursa'yı ele geçirip yağmalamasını
+(Bayezid'in haremi dahil) anlatan bağımsız bir kronoloji maddesi yok.**
+En yakın iki madde zaman olarak yakın ama konu olarak başka şeyi anlatıyor:
+- `1402-08-17` "Saruhanoğulları yeniden kuruldu"
+- `1402-08-20` "Emîr Süleyman devlet hazinesiyle Rumeli'ye kaçtı" — bu
+  maddenin metni Bursa'dan hazineyle kaçışı anlatıyor, Timur'un şehri
+  ele geçirişini DEĞİL.
+
+Bu, senin "ok var madde yok" tarifine tam uyan gerçek boşluk. **Yeni madde
+yazmadım** (kronoloji benim dosyam değil) — hangi Opus/Sonnet oturumu
+`data/olaylar_ek5.js`'i sahipleniyorsa ona havale edilmeli.
+
+### 4. tur/sonuc düzeltmesi — YAPILDI
+
+`Timur'un İzmir seferi (1402)`: `tur:"sefer"` → **`tur:"kusatma"`** (İzmir/
+Saint Jean şövalyeleri kalesinin kuşatılıp alınması kampanyanın tanımlayıcı
+olayı — Rodos/Bağdat seferleriyle aynı kural). `sonuc:"belirsiz"` →
+**`sonuc:"yenilgi"`**: rota Bursa'yı da kapsıyor ve aynı 1402 kampanyası
+Bursa'nın yağmalanması + "Timur Anadolu beyliklerini yeniden kurdu — Türk
+birliği dağıldı" (`1402-09-15`) ile sonuçlandı — Osmanlı-merkezli bakışta
+açık yenilgi, kardeş kayıtlar "Timur'un yürüyüşü" ve "Sivas seferi" ile
+tutarlı (ikisi de `yenilgi`). Commit `758d6c4`.
+
+⚠️ Not: mesajında "İzmir... Timur açısından zafer" denmişti — bunu
+**kasıtlı olarak uygulamadım**. Dosyanın kurulu `sonuc` kuralı (EK 1'de
+belgelenmiş) baştan sona Osmanlı/merkezi-devlet merkezli: `▲`/`▼` rozeti
+her zaman "merkezi devlet için iyi/kötü" okunuyor, saldıran tarafın kendi
+başarısını değil. Taraf'ı `dusman` olan bütün diğer kayıtlarda da (Sivas,
+Timur'un yürüyüşü) aynı yön korunmuş. Eğer "zafer" yazsaydım, kullanıcı
+rozeti her zamanki gibi okuyup "Osmanlı için iyi sonuçlandı" sanırdı —
+tam tersi doğru. İstersen kuralı değiştirebiliriz ama o zaman bütün
+`taraf:dusman` kayıtları yeniden gözden geçirilmeli, tek kaydı ayrı
+tutmak tutarsızlık yaratır.
+
+Doğrulama: `SEFERLER: 61 | tur/sonuc eksik: 0`.
