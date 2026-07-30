@@ -774,3 +774,59 @@ Oran'ın İspanya parçası düzelir (kara yolu Cebelitarık üzerinden binlerce
 fiyortu bozulmaz (karşı kıyı kara yolundan ~40 km, Oslo yine en yakın). **Keyfî sayı
 yok — ölçüt fiziğin kendisi.** Ve ızgara yalnız *sahipliğe* karar veriyor, sınırı
 çizmiyor; sınır yine Voronoi'den geldiği için 0,1°'lik kabalık haritaya yansımıyor.
+
+---
+
+## 27. Yaklaşık yöntem, kesin yöntemin YANILDIĞI yere kısıtlanır
+
+`§26`'da kara-kısıtlı Voronoi tasarlandı: kara maskesini ızgaraya döküp tohumlardan
+BFS koşmak. Prototip **geçme ölçütünü geçti** — Oslo, Königsberg, Azak korundu;
+Oran, Küngrat, Kerç düzeldi. Ama el değiştirenlerin listesindeki en büyük iki kalem
+şunlardı:
+
+```
+Nijniy Novgorod → Vologda   243.191 km²
+Moskova         → Vologda   124.467 km²
+Atina           → Salamis     3.173 km²
+```
+
+İkisi **iç Rusya**, denizle hiç ilgisi yok. Atina'nın Attika'yı Salamis'e kaptırması
+ise düpedüz saçma.
+
+**Sebep:** 0,1°'lik ızgara mesafeyi ~%8 hatayla ölçüyor (oktil yaklaşımı + tohum
+yuvarlaması). **Karada bu hata, Voronoi'nin kesin cevabından daha kötü.** Yaklaşık
+yöntem, kesin yöntemin doğru olduğu yerde onu bozuyordu.
+
+**Düzeltme — kapsam daraltıldı, eşik EKLENMEDİ:**
+
+```
+tohum→parça düz hattı TAMAMEN karadaysa  → düz mesafe geçerli, VORONOİ KALIR
+hat denizden geçiyorsa                   → düz mesafe anlamsız, IZGARA KARAR VERİR
+```
+
+Izgara artık **kesin geometrinin yanıldığı yerde** devreye giriyor, her yerde değil.
+Hâlâ eşiksiz: ölçüt "hat denizi kesiyor mu", bir sayı değil. Sonuç 67 parça /
+923.795 km²'den **32 parça / 321.150 km²**'ye indi — haritanın %0,95'i.
+
+**Kural:** bir yaklaşıklık getiriyorsan, onu **kesin yöntemin başarısız olduğu
+alana kısıtla.** Yaklaşık yöntem "daha genel" göründüğü için her yere uygulanmak
+ister; oysa genellik burada bir kusurdur — kesin cevabın var olduğu yerde yaklaşık
+cevap saf gürültüdür.
+
+### Ve sınavı geçmek yetmez
+
+Bu, `§26`'nın kendine dönmüş hâli. Geçme ölçütünü **ben** koymuştum (Oslo/Königsberg/
+Azak korunsun, Oran/Küngrat düzelsin) ve prototip onu geçti. Hata, sınavın **sormadığı**
+yerdeydi — iç Rusya'da, kimsenin şikâyet etmediği ve kimsenin bakmadığı 367 bin km²'de.
+
+> Bir sınavı geçmek, sınavın kapsamadığı yerde doğru olmayı garanti etmez. Geçtikten
+> sonra **çıktının tamamına** bakılır, yalnız sınav maddelerine değil.
+
+### Bonus: sınav maddesinin kendisi yanlış olabilir
+
+Aynı koşuda Kefe düzelmedi ve ilk tepki "prototip eksik" olurdu. Ölçüldü: Kefe'nin
+parçası Sivaş lagününün kuzeyinde; düz hat lagünü kesiyor ama **kara yolu lagünün
+etrafından ~150 km** — yani Kefe gerçekten kara yolundan en yakın tohum. Sınav
+listesine Kefe'yi koyan taraf yanılmıştı.
+
+> Prototipin seninle aynı fikirde olmaması kusur değil, çalıştığının işareti olabilir.
