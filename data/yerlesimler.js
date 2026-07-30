@@ -819,7 +819,14 @@ window.YERLESIMLER = [
 { ad:"Rub'ul Hâlî doğusu", tur:"bolge", lat:20.00, lon:52.00, g:0, k:0, d:[] },
 { ad:"Necid içi", tur:"bolge", lat:25.50, lon:44.50, g:0, k:0, d:[], v:[{f:"1818-09-09",t:"1824-06-01",k:"Mısır (İbrâhim Paşa)"}], s:[{f:"1744-01-01",t:"1818-09-09",d:"suud"},{f:"1824-06-01",t:"1891-01-01",d:"suud"},{f:"1891-01-01",t:"1902-01-15",d:"sammar"},{f:"1902-01-15",t:"1923-10-29",d:"suud"}] },
 { ad:"Hadramut", tur:"bolge", lat:15.50, lon:48.50, g:0, k:0, d:[] },
-{ ad:"Sina güneyi", tur:"bolge", lat:28.50, lon:33.80, g:0, k:0, s:[{f:"1281-01-01",t:"1517-01-22",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1517-01-22",t:"1805-07-09"}], v:[{f:"1805-07-09",t:"1914-12-18",k:"Mısır Hidivliği"}] },
+// m:"Kahire" EKLENDİ — kara-kısıtlı Voronoi prototipi bu bölgeyi Tebük'e (m:"Medine",
+// yani Hicaz) vermek istedi. Geometrik olarak savunulabilir, TARİHEN YANLIŞ: Sinâ
+// Osmanlı'da Mısır eyaletine bağlıydı ve 1906 Taba krizine kadar Kahire'den idare
+// edildi. Aynı yarımadadaki Tûr (Sînâ) zaten m:"Kahire" taşıyor; komşusunu Medine'ye
+// vermek kendi içinde çelişki olurdu.
+// Oturum 16'nın "geometri karar veremez" tespitinin tam örneği — bu bir petek kararı
+// değil, bir İDARE kararı. Motora özel durum yazmak yerine veri açık hâle getirildi.
+{ ad:"Sina güneyi", tur:"bolge", lat:28.50, lon:33.80, g:0, k:0, m:"Kahire", s:[{f:"1281-01-01",t:"1517-01-22",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1517-01-22",t:"1805-07-09"}], v:[{f:"1805-07-09",t:"1914-12-18",k:"Mısır Hidivliği"}] },
 { ad:"Batı çölü (Mısır)", tur:"bolge", lat:26.50, lon:27.00, g:0, k:0, d:[] },
 { ad:"Nûbe çölü", tur:"bolge", lat:20.50, lon:33.50, g:0, k:0, d:[] },
 { ad:"Kordofan", tur:"bolge", lat:13.00, lon:29.50, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1883-01-19",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], v:[{f:"1821-08-19",t:"1883-01-19",k:"Mısır (Kavalalı)"}] },
