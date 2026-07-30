@@ -788,3 +788,27 @@ body {
   border-radius: 2px;
   vertical-align: -1px;
 }
+
+/* ── Muharebe işaretleri: ölçeğe bağlı sadeleşme ───────────────────────────
+   hatalar 12 md.4-5: "bir tarihî yer bir olayla anılıp gösterildikten sonra,
+   çok önemli bir yerleşim değilse silinsin… uzaktan bakışta Söğüt Karacahisar
+   gibi küçük yerler görünmemeli."
+
+   ÖLÇÜLDÜ — kullanıcının şikâyet ettiği Pelekanon, Bapheus, Yenişehir ve Kite
+   `yerlesimler.js`'te HİÇ YOK. Yani r91'de kurduğum `go:` sönmesi onlara hiç
+   dokunamıyordu; onlar `savaslar.js`'ten gelen MUHAREBE İŞARETLERİ (286 kayıt)
+   ve savasGuncelle() yalnız zaman penceresine bakıyor, zoom'a bakmıyordu.
+   İki ayrı işaret sistemi var ve r91 yalnız birini kapsıyordu.
+
+   İşaretin KENDİSİ kaldırılmıyor — o an anlatılan olayın yeri o. Uzaklaşınca
+   yalnız ad etiketi çekiliyor; ikon kalıyor ki olay kaybolmasın. */
+#harita.uzak .savas-isaret .sv-ad {
+  font-size: 9px;
+  padding: 0 3px;
+  max-width: 90px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#harita.cok-uzak .savas-isaret .sv-ad { display: none; }
+#harita.cok-uzak .savas-isaret .sv-ikon { transform: scale(0.72); }
