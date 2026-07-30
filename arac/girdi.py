@@ -253,6 +253,48 @@ def oku_goller(sessiz=False):
     return alinan
 
 
+# ⚠️ KOŞU BEKÇİSİ — yedi üretimi yakan hata sınıfının TEKNİK kapağı
+# Motor girdiyi koşunun BAŞINDA bir kez okur. Koşunun 13. dakikasında yapılan
+# bir düzenleme çıktıya HİÇ girmez ama koşu temiz biter, denetim temiz çıkar
+# ve harita sessizce veriden geri kalır. Bugün canlı örneği yaşandı:
+#   21:53:33 üretim başladı
+#   22:06:07 yerlesimler_afrika.js'e 108 satır eklendi (Mısır batı çölü vahaları)
+#   → o koşunun çıktısında vahalar YOK, ama hiçbir denetim bunu göremez.
+# Protokol "her oturum 'girdi sabit' desin" diyordu; yetmedi, çünkü duyuru
+# mesaj katmanında ve mesaj kuyrukta bekleyebiliyor (bugün öyle oldu).
+# Bekçi duyuruya değil ÖLÇÜME bağlar: parmak izi başta alınır, her yazımdan
+# önce doğrulanır, tutmazsa çıktı YAZILMAZ.
+# Kapsam: yalnız data/ girdileri. veri-kaynak/*.geojson (27 MB) kapsam dışı —
+# depo verisi, oturumlar arasında değişmiyor ve her yazımda hashlemek pahalı.
+def parmak_izi():
+    """Okunan data/ girdilerinin sha256'ları — {dosya: özet}."""
+    import hashlib
+    iz = {}
+    for ad in list(GIRDI_DOSYALARI) + [GOL_DOSYASI]:
+        yol = os.path.join(DATA, ad)
+        if os.path.exists(yol):
+            iz[ad] = hashlib.sha256(io.open(yol, "rb").read()).hexdigest()
+    return iz
+
+
+def izi_dogrula(baslangic, nerede):
+    """Girdi koşu sırasında değiştiyse ÖLDÜRÜR. Sessiz geçiş yok."""
+    simdi = parmak_izi()
+    degisen = [a for a in set(baslangic) | set(simdi)
+               if baslangic.get(a) != simdi.get(a)]
+    if degisen:
+        print("")
+        print("  " + "=" * 66)
+        print(f"  ✗ GİRDİ KOŞU SIRASINDA DEĞİŞTİ — '{nerede}' YAZILMADI")
+        for a in sorted(degisen):
+            print(f"      {a}")
+        print("  Bu çıktı bayat olurdu: motor girdiyi koşunun başında bir kez")
+        print("  okur, sonraki düzenlemeler çıktıya girmez ve hiçbir denetim")
+        print("  bunu göremez. Girdiyi sabitleyip üretimi BAŞTAN koşturun.")
+        print("  " + "=" * 66)
+        raise SystemExit(1)
+
+
 def yakin_ciftler(Y, esik=YAKINLIK_ESIK_KM):
     """Eşikten yakın nokta çiftleri — mükerrer/çelişen kayıt avı."""
     ciftler = []

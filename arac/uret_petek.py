@@ -51,6 +51,13 @@ from renkler import BOYALAR
 import girdi
 R_DUNYA = 6371.0088
 
+# ⚠️ KOŞU BEKÇİSİ — parmak izi HER ŞEYDEN ÖNCE alınır
+# Sıra kritik: göller (goller.js) yerleşimlerden ÖNCE okunuyor, bu yüzden iz
+# yerleşim okumasının yanında alınamaz — o noktada goller.js çoktan okunmuş
+# olurdu ve arada değişse bekçi yanlış tarafa düşerdi (değişmiş veriyi okuyup
+# "değişmemiş" derdi). Gerekçe ve bugünkü canlı vaka: girdi.py, parmak_izi().
+_GIRDI_IZI = girdi.parmak_izi()
+
 # ---------------- Kara maskesi ----------------
 # KARA_TOL: kıyı çizgisinin sadeleştirme toleransı (derece). Bütün gövdeler
 # kıyıyı EN SON ve bu tek maskeden aldığı için kıyı hassasiyetini tek başına
@@ -818,6 +825,7 @@ _bj  = "// Otomatik üretildi — elle düzenlemeyin. Betik: arac/uret_petek.py\
 _bj += "// k1/k2 merkezlerin toplu bölge sınırları (üye peteklerinin birleşimi).\n"
 _bj += "// f/t: merkezin Osmanlı aralığı — çizgi haritada yalnız bu aralıkta görünür.\n"
 _bj += "window.BOLGELER = " + json.dumps(BOLGELER, ensure_ascii=False, separators=(",",":")) + ";\n"
+girdi.izi_dogrula(_GIRDI_IZI, "data/bolgeler.js")
 open(_byol, "w", encoding="utf-8").write(_bj)
 print(f"  {len(BOLGELER)} bölge → data/bolgeler.js ({os.path.getsize(_byol)//1024} KB)")
 
@@ -877,6 +885,7 @@ _dj += "// Yabancı devletlerin dönem gövdeleri (yerlesimler.js s alanından).
 _dj += "// dnm[].g, DEVLET_PARCALAR havuzuna indekstir (js/app.js çözer).\n"
 _dj += "window.DEVLET_PARCALAR = " + json.dumps(DEV_HAVUZ, separators=(",",":")) + ";\n"
 _dj += "window.DEVLET_HARITA = " + json.dumps(DEVLET_KAYIT, ensure_ascii=False, separators=(",",":")) + ";\n"
+girdi.izi_dogrula(_GIRDI_IZI, "data/devletler_harita.js")
 open(_dyol, "w", encoding="utf-8").write(_dj)
 print(f"  {len(DEVLET_KAYIT)} devlet, {sum(len(d['dnm']) for d in DEVLET_KAYIT)} dönem → "
       f"data/devletler_harita.js ({os.path.getsize(_dyol)//1024} KB)")
@@ -962,6 +971,7 @@ js += "// DONEMLER'in o/v alanları PARCALAR havuzuna indekstir (js/app.js çöz
 js += "window.PETEKLER = " + json.dumps(petekler, separators=(",",":")) + ";\n"
 js += "window.PARCALAR = " + json.dumps(OSM_HAVUZ, separators=(",",":")) + ";\n"
 js += "window.DONEMLER = " + json.dumps(donemler, separators=(",",":")) + ";\n"
+girdi.izi_dogrula(_GIRDI_IZI, "data/donemler.js")
 open(CIKTI, "w", encoding="utf-8").write(js)
 
 print(f"Dönem sayısı: {len(donemler)}")
