@@ -339,7 +339,11 @@ harita.on("load", function () {
   harita.addSource("imparatorluk", { type: "geojson", data: bosVeri() });
   harita.addLayer({ id: "imparatorluk-hale", type: "line", source: "imparatorluk",
     layout: { "line-cap": "round", "line-join": "round" },
-    paint: { "line-color": "#6d0d1c", "line-width": 7, "line-opacity": 0.95 } });
+    // Kalınlık 7 → 3.5 (kullanıcı: "yarı yarıya inceltelim"). Hale dolgunun
+    // ALTINDA çizildiği için görünen kısım kalınlığın yarısı; yani ekranda
+    // okunan çizgi 3.5 değil ~1.75 px. Sıfıra yaklaşırken kaybolmaması için
+    // opaklık 0.95'te bırakıldı.
+    paint: { "line-color": "#6d0d1c", "line-width": 3.5, "line-opacity": 0.95 } });
 
   harita.addSource("vassal", { type: "geojson", data: bosVeri() });
   // ⚠️ Renk yakınlaştırıldı (kullanıcı: "vassal devletlerin kırmızısı sadece bir
