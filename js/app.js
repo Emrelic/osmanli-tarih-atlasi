@@ -596,14 +596,42 @@ function tekVeri(geo) { return { type: "FeatureCollection",
 // Artık HER yerleşim, el değiştirdiği anda adını gösteriyor; g:0 olanlar
 // yalnız o pencerede (fetihten sonra YONTEM_SURE gün) görünüp kayboluyor,
 // böylece harita kalabalıklaşmıyor.
+// 🔴 KÖK SEBEP DÜZELTMESİ (Oturum 11'in ölçümü — hatalar 13 md.1/2 Varna,
+// hatalar 15 md.3 İnebahtı, ve bütün "fetih maddesi var ama şehir yok" sınıfı).
+// Süzgeç `y.d && y.d.length` idi: YALNIZ Osmanlı DOĞRUDAN idaresi olan kayıtlar
+// işaret alıyordu. Yani harita bir şehrin adını ancak OSMANLI ELİNDEYKEN gösteriyordu.
+// Ölçüldü: 285 kayıtta hiç `d:` yok → hiç işaret almıyorlar (28'inin gövdesi
+// haritada ÇİZİLİYOR olmasına rağmen); 386 kayıtta `d:` var ama `g:0`, bunların
+// 140'ı k≤3 (Varna, İnebahtı, Silistre, İşkodra, Temeşvar, Kamaniçe, Draç…).
+// Sonuç: "Varna alınıyor, Varna etiketi haritada yok" — çünkü fetihten ÖNCE
+// Varna'nın hiçbir dönemi işaret üretmiyordu.
+// Artık üç statünün ÜÇÜ de (d: doğrudan · v: tâbi · s: yabancı) işaret penceresi
+// üretiyor: şehir SAHNEDE olduğu sürece adını gösterebiliyor, yalnız bizimken değil.
+// Kalabalık koruması aynen duruyor — g:0 olanlar "geçici", yani her el değiştirmeden
+// sonra YONTEM_SURE gün görünüp kayboluyor; zoom kademesi ve go: sönmesi de yerinde.
+var EPOK_DAMGASI = "1281-01-01";   // gerçek bir el değiştirme değil, atlasın başlangıcı
 var ISARET_KAYNAK = (window.YERLESIMLER && window.YERLESIMLER.length)
-  ? window.YERLESIMLER.filter(function (y) { return y.d && y.d.length; })
+  ? window.YERLESIMLER.filter(function (y) {
+        return (y.d && y.d.length) || (y.v && y.v.length) || (y.s && y.s.length);
+      })
       .map(function (y) {
+        var pencereler = [];
+        ["d", "v", "s"].forEach(function (alan) {
+          (y[alan] || []).forEach(function (dn) {
+            if (!dn || !dn.f) return;
+            // 883 kaydın en erken dönemi tam 1281-01-01: bu bir tarih değil, epok
+            // damgası. Geçici işaret olarak saysaydık atlas açılır açılmaz 883 etiket
+            // birden belirip 550 gün ekranda kalırdı — düzeltmeye çalıştığımız
+            // kalabalığın ta kendisi.
+            if (dn.f === EPOK_DAMGASI && y.g === 0) return;
+            pencereler.push({ f: dn.f, t: dn.t, d: Math.max(y.g, 1),
+                              b: y.g === 3, y: alan === "d" ? dn.y : undefined });
+          });
+        });
+        pencereler.sort(function (a, b) { return a.f < b.f ? -1 : a.f > b.f ? 1 : 0; });
         return { ad: y.ad, tur: y.tur, lat: y.lat, lon: y.lon, gecici: y.g === 0,
                  go: y.go,   // önemin söndüğü gün (isteğe bağlı)
-                 k: y.d.map(function (dn) {
-                   return { f: dn.f, t: dn.t, d: Math.max(y.g, 1), b: y.g === 3, y: dn.y };
-                 }) };
+                 k: pencereler };
       })
   : (window.SEHIRLER || []);
 
@@ -637,16 +665,59 @@ var sehirler = ISARET_KAYNAK.map(function (s) {
 var YONTEM_SIMGE = { savas: "⚔", kusatma: "♜", antlasma: "📜", vassal: "🤝" };
 var YONTEM_SURE = 550;   // gün
 
+// ⚠️ GENEL KURAL — OLAYIN GEÇTİĞİ YER, OLAY ANLATILIRKEN GÖRÜNÜR
+// (kullanıcı, hatalar 13 md.1): "bir yerin fethinden bahsediliyor ise kronolojide
+// haritada gösterimde O YERİN GÖSTERİLMESİ lazım, o şehirlerin gösterilmesi lazım,
+// ve KONU BİTİNCE o etiketin ortadan kalkması lazım."
+// Somut vakası md.2: "Varna alınıyor ama Varna etiketi haritada yok."
+//
+// Neden sahiplik penceresi bunu çözmüyor: Varna 1391'de Osmanlı oldu ve `g:0`
+// olduğu için işareti 550 gün sonra söndü. 1444 Varna Muharebesi anlatılırken
+// şehir çoktan görünmez olmuştu — sahiplik DEĞİŞMEDİĞİ için yeni pencere açılmadı.
+// Yani eksik olan "kim sahip" değil, "burada ŞU AN bir şey anlatılıyor" bilgisiydi.
+//
+// Eşleşme bir kez hesaplanıyor (958 madde × 911 işaret), her karede değil.
+var OLAY_YERI = null;
+function olayYeriKur() {
+  OLAY_YERI = olaylar.map(function (o) {
+    var metin = ((o.yer || "") + " " + (o.b || ""));
+    var liste = [];
+    for (var i = 0; i < sehirler.length; i++) {
+      // Parantezli karşılık da eşleşsin: "Bapheus (Koyunhisar)" → "Bapheus"
+      var ad = sehirler[i].s.ad.split(" (")[0];
+      if (ad.length >= 4 && metin.indexOf(ad) >= 0) liste.push(i);
+    }
+    return liste;
+  });
+}
+
 function sehirGuncelle(t) {
   if (!haritaHazir) return;
-  sehirler.forEach(function (m) {
+  if (!OLAY_YERI) olayYeriKur();
+
+  // O an sahnede olan maddelerin andığı yerleşimler — savaş işaretleriyle aynı
+  // pencere kuralı (bir sonraki maddeye kadar, taban 60 tavan 365 gün).
+  var anilan = {};
+  for (var oi = 0; oi < olaylar.length; oi++) {
+    var o = olaylar[oi];
+    if (o.gi > t) break;                       // liste tarihe göre sıralı
+    if (o.sure === undefined) o.sure = sonrakiOlayaKadar(o.gi);
+    if (t < o.gi + o.sure) {
+      var L = OLAY_YERI[oi];
+      for (var li = 0; li < L.length; li++) anilan[L[li]] = true;
+    }
+  }
+
+  sehirler.forEach(function (m, mi) {
     var aktif = null;
     for (var i = 0; i < m.kayitlar.length; i++) {
       var r = m.kayitlar[i];
       if (r.fi <= t && t < r.ti) { aktif = r; break; }
     }
     // Geçici işaret: yalnız el değiştirme penceresinde görünür (genel kural).
-    if (aktif && m.gecici && t >= aktif.fi + YONTEM_SURE) aktif = null;
+    // ⚠️ AMA maddede adı geçiyorsa pencere kapalı olsa da görünür — "konu bitince
+    // kalkar" kuralının diğer yarısı bu; madde geçince `anilan` boşalıyor.
+    if (aktif && m.gecici && t >= aktif.fi + YONTEM_SURE && !anilan[mi]) aktif = null;
     if (!aktif) {
       if (m.ekli) { m.mk.remove(); m.ekli = false; }
       return;
@@ -670,6 +741,10 @@ function sehirGuncelle(t) {
     // tamamen geçici sayılır. Alan yoksa davranış eskisi gibi.
     var d = aktif.d;
     if (m.go && t >= m.go) d = Math.max(1, d - 2);
+    // Maddede adı geçen yer, uzaklaşınca da görünür: olay anlatılırken okuyucunun
+    // "nerede?" sorusunu cevaplamak zoom kademesinden önce gelir. `go:` sönmesini
+    // de geçersiz kılar — Pelekanon 1329'da anlatılırken görünmeli, 1800'de değil.
+    if (anilan[mi]) d = Math.max(d, 2);
     if (d < zoomEsigi()) {
       if (m.ekli) { m.mk.remove(); m.ekli = false; }
       return;
