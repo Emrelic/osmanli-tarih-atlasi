@@ -405,6 +405,29 @@ harita.on("load", function () {
   harita.addLayer({ id: "devir-cizgi", type: "line", source: "devir",
     paint: { "line-color": ["get", "renk"], "line-width": 1.6 } });
 
+  // ⚠️ ÜÇÜNCÜ GÖSTERİM — İŞGAL (kullanıcı kararı, hatalar 11 sonrası):
+  //   "direkt idare, vasallık ve işgal edilmiş ayrı topraklar gösterimi olarak
+  //    üç ayrı gösterim olsun."
+  // İşgalin devirden YAPISAL farkı var ve ayrı katman olmasının sebebi bu:
+  //   devir bir OLAY  — antlaşma günü olur, 60-365 günlük pencerede gösterilir
+  //   işgal bir DÖNEM — Bosna 1878-1908, Mısır 1882-1914+ boyunca sürer
+  // Devir mantığını kullansaydık Bosna 30 yıl boyunca değil, 1878'de bir kez
+  // parlayıp kaybolurdu. Bu yüzden isgalGuncelle pencere değil aralık bakar.
+  //
+  // Hukukî durum da farklı: işgal edilen yer NOMİNAL OLARAK hâlâ Osmanlı'nın —
+  // Berlin'de Bosna Avusturya'ya ilhak edilmedi, "işgal ve idare" edildi; 1908'e
+  // kadar padişahın adı hutbede okundu. Tarama tam olarak bunu anlatıyor:
+  // altta sahibin rengi, üstünde işgalcinin rengi. İlhak olduğunda tarama biter,
+  // alan düz işgalci rengine döner (madde 54: Bosna 1908'de bu geçişi yapmalı).
+  isgalDesenleriKur();
+  harita.addSource("isgal", { type: "geojson", data: bosVeri() });
+  harita.addLayer({ id: "isgal-dolgu", type: "fill", source: "isgal",
+    paint: { "fill-pattern": ["get", "desen"], "fill-opacity": 0.8 } });
+  harita.addLayer({ id: "isgal-cizgi", type: "line", source: "isgal",
+    layout: { "line-join": "round" },
+    paint: { "line-color": ["get", "renk"], "line-width": 1.4,
+             "line-dasharray": [3, 2] } });
+
   var lejant = document.createElement("div");
   lejant.className = "lejant";
   lejant.innerHTML =
@@ -418,6 +441,9 @@ harita.on("load", function () {
     // katmanda yapılıyor.
     '<span><i style="background:#8e0b22"></i> Doğrudan idare</span>' +
     '<span><i style="background:#b2384a"></i> Bağlı / tâbi topraklar</span>' +
+    // Üçüncü gösterim. Tarama SOLA yatık — antlaşma devirlerinin SAĞA yatık
+    // taramasıyla karışmasın diye ayna simetrisi seçildi.
+    '<span><i style="background:linear-gradient(-45deg,#8e0b22 0 62%,#555 62% 100%);background-size:8px 8px"></i> İşgal altında (nominal sahibi değişmemiş)</span>' +
     '<span><i style="background:none;border-top:3px solid #6d0d1c;height:0;align-self:center"></i> İmparatorluk sınırı (ikisini birlikte)</span>' +
     '<span><i style="background:none;border-top:2px dashed #5a3a24;height:0;align-self:center"></i> Bölge sınırı (yakınlaşınca)</span>' +
     '<span><i style="background:linear-gradient(90deg,#8877b8,#4e7d46,#4f7d4f,#b5885b)"></i> Komşu devletler (kendi renkleri)</span>' +
@@ -783,6 +809,88 @@ function devirLejanti(fs) {
            f.properties.renk + ' 25% 50%,#8e0b22 50% 75%,' +
            f.properties.renk + ' 75% 100%);background-size:8px 8px"></i> ' +
            f.properties.alici + "</span>";
+  }).join("");
+}
+
+// ---------- İşgal: taralı ve SÜREKLİ alanlar ----------
+// Veri henüz üretilmedi; katman boş diziyle sağlam çalışıyor. Üretici
+// arac/uret_devirler.py'ye eklenecek (dosya bende). Beklenen biçim:
+//   window.ISGALLER = [{ id:"avusturya", ad:"Avusturya-Macaristan",
+//                        renk:"#c8a24a", f:"1878-07-13", t:"1908-10-05",
+//                        sahipRenk:"#8e0b22", parca:[...MultiPolygon...] }]
+// f/t dahil-hariç: t günü artık işgal YOK (ilhak ya da tahliye o gün olur).
+// sahipRenk verilmezse Osmanlı kırmızısı varsayılır.
+//
+// ⚠️ Boş dizi kasıtlı: data/olaylar_ek8.js vakasında dosya index.html'de
+// yazılıydı ama git'e eklenmemişti ve 4 commit boyunca 404 verdi; `|| []`
+// deseni sayesinde harita çökmedi, sadece o veri görünmedi. Aynı korumayı
+// burada da baştan kuruyorum.
+var ISGALLER = window.ISGALLER || [];
+
+function isgalDesenleriKur() {
+  var K = 8;
+  ISGALLER.forEach(function (ig) {
+    var ad = "isgal-" + ig.id;
+    if (harita.hasImage && harita.hasImage(ad)) return;
+    var c = renkAyir(ig.renk);
+    var s = ig.sahipRenk ? renkAyir(ig.sahipRenk) : OSMANLI_KIRMIZI;
+    var veri = new Uint8Array(K * K * 4);
+    for (var y = 0; y < K; y++) {
+      for (var x = 0; x < K; x++) {
+        // Devir deseni (x+y) ile SAĞA yatık; işgal (x-y) ile SOLA yatık.
+        // Ayna simetrisi bilerek: iki tarama yan yana düştüğünde hangisinin
+        // "antlaşmayla gitti" hangisinin "işgal edildi" olduğu tek bakışta
+        // ayrılıyor. Ayrıca işgalci şeridi 8'de 3 — daha ince, çünkü işgal
+        // hukuken geçici; düz mülkiyet gibi ağır okunmamalı.
+        var isgalci = ((x - y + K) % K) < 3;
+        var r = isgalci ? c : s;
+        var i = (y * K + x) * 4;
+        veri[i] = r[0]; veri[i + 1] = r[1]; veri[i + 2] = r[2]; veri[i + 3] = 255;
+      }
+    }
+    harita.addImage(ad, { width: K, height: K, data: veri });
+  });
+}
+
+function isgalGuncelle(t) {
+  if (!haritaHazir || !ISGALLER.length) return;
+  var fs = [];
+  for (var i = 0; i < ISGALLER.length; i++) {
+    var ig = ISGALLER[i];
+    if (ig.gi === undefined) ig.gi = gunIdx(ig.f);
+    if (ig.gs === undefined) ig.gs = gunIdx(ig.t);
+    if (t < ig.gi || t >= ig.gs) continue;      // devirden farkı: sabit aralık
+    fs.push({ type: "Feature",
+              properties: { desen: "isgal-" + ig.id, renk: ig.renk, isgalci: ig.ad },
+              geometry: { type: "MultiPolygon", coordinates: ig.parca } });
+  }
+  harita.getSource("isgal").setData({ type: "FeatureCollection", features: fs });
+  isgalLejanti(fs);
+}
+
+// Taralı alan tek başına anlamsız; devirde olduğu gibi burada da kim işgal etti
+// yazmak şart. Ayrı kutu, çünkü ikisi aynı anda sahnede olabilir (1878: Berlin
+// devirleri + Bosna işgali aynı gün).
+function isgalLejanti(fs) {
+  var el = document.getElementById("isgal-lejant");
+  if (!el) {
+    el = document.createElement("div");
+    el.id = "isgal-lejant";
+    el.className = "devir-lejant isgal-lejant";
+    document.getElementById("harita").appendChild(el);
+  }
+  if (!fs.length) { el.style.display = "none"; return; }
+  el.style.display = "";
+  // İki lejant aynı köşeye yerleşiyor. Sabit CSS ofseti verirsek devir lejantı
+  // yokken arada boşluk kalıyor, varken üst üste biniyorlar. devirGuncelle bu
+  // fonksiyondan ÖNCE koştuğu için o kutunun gerçek yüksekliği burada ölçülebilir.
+  var dl = document.getElementById("devir-lejant");
+  var devirAcik = dl && dl.style.display !== "none" && dl.innerHTML;
+  el.style.bottom = devirAcik ? (dl.offsetHeight + 42) + "px" : "34px";
+  el.innerHTML = "<b>İşgal altında</b>" + fs.map(function (f) {
+    return '<span><i style="background:linear-gradient(-45deg,#8e0b22 0 62%,' +
+           f.properties.renk + ' 62% 100%);background-size:8px 8px"></i> ' +
+           f.properties.isgalci + "</span>";
   }).join("");
 }
 
@@ -1195,6 +1303,7 @@ function guncelle() {
   savasGuncelle(suanki);
   seferGuncelle(suanki);
   devirGuncelle(suanki);
+  isgalGuncelle(suanki);
   padisahGuncelle(suanki);
   olaylarGuncelle(suanki);
 }
