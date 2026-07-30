@@ -799,3 +799,188 @@ sınırın yaslanacağı hat. İki seçenek ölçülebilir:
    sınır gerçekten tanımsızdı; keskin çizgi olmayan bir kesinlik iddia ediyor.
 
 İkisi de motorun işi, benim değil. Ölçüm yukarıda.
+
+---
+
+## 16. hatalar 16 turu — dört iş
+
+### 16a. ✅ 21 Cezayir kaydı UYGULANDI (§3d'nin karşılığı)
+
+`abdulkadir` kimliği gelince (`a9feea6`, `#26a69a`) kendi dosyamdaki 21 kaydı
+düzelttim. **Denetim tamamen temiz:**
+
+```
+939 yerleşim, 971 kronoloji maddesi
+Değişmez 1   ✓  40 sahipsiz (beklenen 40)
+Değişmez 1b  ✓  pencere arası boşluk 0 (beklenen 0)
+Değişmez 2   ✓  448 kırılma, 0 açık
+Değişmez 3   ✓  381 çelişki (≤383)
+dönem sağlığı ✓ · mükerrer ✓ 0 · konum ✓ 0 · denetle_statu.py ✓ temiz
+SONUÇ: temiz
+```
+
+Üç gruba ayrıldı:
+
+| Grup | Kayıt | Yapı |
+|---|---|---|
+| **A — `abdulkadir`** (10) | Dellîs · Tenes · Şelif · Mustagānim · Muaskar · Sîdî Bel Abbès · Ayn Temûşent · Nedrûme · Mesîle · Bû Sa'âde | `v:` ocaklık →1830-07-05, `v:` "Osmanlı hükümranlık iddiası" →1832-11-22, **`s:"abdulkadir"`** → o yerin Fransız tarihi |
+| **B — Ahmed Bey** (9) | Cicel · Kolo · Sikikde · Mîle · Kalme · Sûk Ahrâs · Tebesse · Batna · Berc Bû Areric | `v:` ocaklık →1830-07-05, `v:` **"Ahmed Bey'in Konstantin beyliği"** → Fransız tarihi |
+| **C — Sahra** (2) | Ağvât · Gardâye | `v:` ocaklık →1830-07-05, `v:` **"Sahra vahalarının özerk idaresi"** → 1852-12-04 |
+
+A'da `v:` değil **`s:`** kullanıldı — Abdülkādir Osmanlı'ya değil Fas sultanına
+sığındığı için "tâbi" yanlış olurdu. Değişmez 3'e etkisi **sıfır**: denetim
+1300–1800 kesitlerini örnekliyor, bu dönemlerin hepsi 1830 sonrası.
+
+### 16b. 🔴 SORUNUZUN CEVABI — Biskra ve Tuggurt
+
+**Önce bir düzeltme:** *"Annaba ile Bicâye'nin `v:` dönemleri zaten
+1830-07-05'te bitiyormuş, anakronik değiller"* demişsiniz. **Ölçüm bunu
+doğrulamıyor** — dördü de hâlâ anakronik:
+
+| Kayıt | `v:` bitişi | Fazlalık |
+|---|---|---|
+| Annaba | **1832-03-01** | 1 yıl 8 ay |
+| Bicâye | **1833-09-29** | 3 yıl 3 ay |
+| Biskra | 1844-03-04 | 13 yıl 8 ay |
+| Tuggurt | 1854-12-02 | 24 yıl 5 ay |
+
+Dördü de `yerlesimler.js`'te, yani sizde.
+
+#### 🔴 TDV'DE KAYNAK YOK — dört arama, dördü de boş
+
+| Arama | Sonuç |
+|---|---|
+| `arama/?q=tuggurt` | *"tuggurt için madde başlıklarında sonuç bulunamadı"* — 0 madde, 0 içerik |
+| `arama/?q=cellâb` | yalnız **İBNÜ'l-CELLÂB** (Mâlikî fakihi) — hânedanla ilgisiz |
+| `arama/?q=biskre` | Cerîd · Gāniye · Hammâdîler · İbn Haldûn… — hiçbiri Biskra maddesi değil |
+| `arama/?q=zîbân` | Burç (astroloji) · İbn Receb — bölge maddesi yok |
+
+**Uydurmuyorum.** Aşağıdaki cevap TDV'ye değil, kaydın kendi iç tutarlılığına
+dayanıyor ve gerekçesi açık:
+
+**BİSKRA → (a) Ahmed Bey, yani B grubu.**
+Biskra Zîbân bölgesindedir ve Osmanlı Cezayir'inde **Konstantin beyliğinin**
+(Beylerbeyliği'nin doğu kolu) idaresindeydi. Aynı bölgedeki komşularını —
+**Batna · Tebesse · Sûk Ahrâs**, üçü de aynı Fransız tarihini (1844-03-04)
+taşıyor — B grubuna koydum. Biskra'yı ayrı tutmak aynı Aurès-Zîbân kuşağını
+iki farklı sahiple boyamak olur. Tutarlılık (a)'yı gerektiriyor.
+
+**TUGGURT → (c) kendi başına, yani C grubu.**
+Sizin de yazdığınız gibi Benî Cellâb kendi hânedanıydı. Ne Ahmed Bey'in
+beyliğine ne Abdülkādir'e bağlıydı — Vâdî Rîğ, Tell'in çok güneyinde, iki
+gücün de erişemediği bir vaha zinciridir. **Ağvât ve Gardâye ile aynı sınıf**,
+o yüzden aynı etiketi öneriyorum: `k:"Sahra vahalarının özerk idaresi"`.
+
+Önerilen (dördü de `yerlesimler.js`, sizde):
+
+```js
+Annaba   v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)"},
+            {f:"1830-07-05",t:"1832-03-01",k:"Ahmed Bey'in Konstantin beyliği"}]
+Bicâye   v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)"},
+            {f:"1830-07-05",t:"1833-09-29",k:"Ahmed Bey'in Konstantin beyliği"}]
+Biskra   v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)"},
+            {f:"1830-07-05",t:"1844-03-04",k:"Ahmed Bey'in Konstantin beyliği"}]
+Tuggurt  v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)"},
+            {f:"1830-07-05",t:"1854-12-02",k:"Sahra vahalarının özerk idaresi"}]
+```
+
+⚠️ **`k:` etiketi rengi DEĞİŞTİRMEZ** (`girdi.py`:129 — motor okumaz). Yani bu
+düzeltme dürüstlük kazandırır, haritayı düzeltmez. Tuggurt'un 24 yıl Osmanlı
+tonunda kalması ancak ayrı bir kimlikle (`benicellab` ya da genel bir
+`sahra-vahalari`) çözülür — **kimlik kararı sizin/Oturum 9'un.** Ben yalnız
+ölçüp sınıflandırdım.
+
+### 16c. md.6 — NAPOLYON'UN MISIR İŞGALİ
+
+Kullanıcı haklı: veride **1798–1801 arası hiçbir iz yok**. Kahire 1517-02-15'ten
+1805-07-09'a kadar kesintisiz `d:`.
+
+**Önerilen örtü** — `d:` (Osmanlı doğrudan) altta kalır, üstüne Fransız taraması:
+
+```js
+isg:[{f:"1798-07-01", t:"1801-10-09", d:"fransa", kaynak:"kahire"}]
+```
+
+**Uygulanacak kayıtlar (7, hepsi sizde):** Kahire · İskenderiye · Dimyat ·
+Reşîd · Süveyş · Asyut · Sina güneyi.
+⚠️ **Asvan ve İbrim'i dışarıda bırakmanızı öneriyorum** — Yukarı Mısır'a Fransız
+denetimi Murad Bey'i kovalayarak ulaştı ama kalıcı olmadı.
+
+#### ⚠️ İki madde yazdım, sonra sildim — kronolojide zaten vardı
+
+Mükerrer denetimi yakaladı (ikisi de oran **0.60**):
+
+| Yazdığım | Çakıştığı |
+|---|---|
+| 1798-07-01 *Napolyon'un Mısır'a çıkarması* | `olaylar.js` **1798-07** *Napolyon'un Mısır'ı işgali* |
+| 1801-09-02 *Fransızların Mısır'dan tahliyesi* | `olaylar_ek5.js` **1801-10-09** *Mısır'ın Fransızlardan tahliyesi* |
+
+Napolyon devri kronolojide **zaten tamdı**: 1798-07 işgal · 1798-09-03 Fransa'ya
+savaş ilânı · 1799-05-20 Akkâ Savunması · 1801-10-09 tahliye. **Eksik olan
+harita tarafıydı, kronoloji değil.** Yazmadan önce 1798–1801 aralığını
+taramamıştım (1830–1914'ü taramıştım) — Fizan hatasının ikinci tekrarı:
+**dosya ayrı, tarih uzayı ortak.**
+
+**İyi haber:** örtünün iki ucu zaten maddeli olduğu için **D-4 kendiliğinden
+sağlanıyor** — başı `1798-07` (+0 gün), sonu `1801-10-09` (+0 gün). Örtünün
+bitişini bu yüzden **1801-10-09** yaptım, kendi yazdığım 1801-09-02'yi değil.
+
+**Kalan iki madde** (`olaylar_ek9.js` §N) gerçekten eksikti:
+- **1798-07-21 Piramitler Muharebesi ve Kahire'nin alınması** — hiçbir yerde yoktu
+- **1799-03-18 Akkâ kuşatmasının başlaması** — `ek5`'teki 1799-05-20 kuşatmanın
+  *püskürtülmesi*, ayrı olay; denetim 63 gün arayla ikisini ayırt etti
+
+⚠️ Mevcut **`1798-07`** maddesi AY hassasiyetinde (CLAUDE.md §8) → **1798-07-01**
+yapılmalı. Sizde.
+
+#### 🔴 Kaynak durumu açıkça
+TDV bu olayın **gün düzeyini vermiyor**:
+
+| Kaynak | Verdiği |
+|---|---|
+| `kahire` ✓ CANLI | yalnız **"1798"** — gün yok |
+| `aris` ✓ CANLI | 18 Şubat 1799 (Arîş'in işgali) · 17 Kasım 1799 (geri alınışı) · 24 Ocak 1800 (Arîş Antlaşması); tahliyeyi **"aynı yıl"** diyor |
+| `akka` ✓ CANLI | **18 Mart 1799** — bu tur içindeki TEK gün-kesin TDV tarihi |
+
+⚠️ `aris` maddesinin tahliyeyi 1800'e koyması **eksiktir**: Arîş Antlaşması
+İngiltere'ce onaylanmadı ve Fransızlar 1801'e kadar kaldı (Kahire 27 Haziran,
+İskenderiye 2 Eylül 1801). 1798-07-01, 1798-07-21 ve 1801-09-02 günleri
+standart kayıttan alınmıştır ve maddelerde **böyle işaretlenmiştir.**
+
+### 16d. md.11 — GİRİT: ÖLÇÜLDÜ, KULLANICI HAKLI
+
+Adadaki **beş noktanın beşi de**, 1829 · 1832 · 1838 · 1841 kesitlerinin
+**hepsinde `d:` (doğrudan Osmanlı)**:
+
+| Nokta | 1829 | 1832 | 1838 | 1841 |
+|---|---|---|---|---|
+| Hanya · Girit (Resmo) · Kandiye · İsfakiye · Sitiye | `d:` | `d:` | `d:` | `d:` |
+
+**Mısır dönemi veride HİÇ YOK.** Yani kullanıcının "hepsi açık kırmızı olmalı"
+şikâyeti doğru ve sebebi "bir kısmı `d:` kalmış" değil — **hiçbiri `v:` değil.**
+
+⚠️ Ve bu, Değişmez 2'nin **aynadaki hâli**: kronolojide
+*"1830-11-01 Girit'in idaresi Mehmed Ali'ye bırakıldı"* maddesi **var**, ama
+karşılığında hiçbir kırılma yok. Denetim maddesiz kırılmayı yakalıyor,
+**kırılmasız maddeyi yakalamıyor.** Oturum 2'ye ikinci bir denetim fikri.
+
+**TDV `girit`** (✓ CANLI) doğruluyor: idare **1830**'da Mehmed Ali'ye verildi,
+*"15 Temmuz 1840 tarihinde Londra Antlaşması gereğince bu ada üzerindeki
+tasarruf hakkını kaybetti."*
+
+**Önerilen (5 kayıt, hepsi sizde):**
+
+```js
+// mevcut d: dönemi 1830-11-01'de kesilir, 1840-07-15'te devam eder
+d:[{f:"<mevcut başlangıç>", t:"1830-11-01"}, {f:"1840-07-15", t:"<mevcut bitiş>"}],
+v:[{f:"1830-11-01", t:"1840-07-15", k:"Mısır (Kavalalı)"}]
+```
+
+**Her iki sınırın da maddesi ZATEN VAR** — `1830-11-01` *"Girit'in idaresi
+Mehmed Ali'ye bırakıldı"*, `1840-07-15` Londra Antlaşması. **Yeni kronoloji
+maddesi gerekmiyor.**
+
+📌 Kullanıcının `hatalar 11 md.11`'deki ilk hâli ("yalnız Girit'in orta bölümü
+boyasız") ayrı bir belirti ve **bu düzeltmeyle açıklanmıyor** — beş nokta da
+aynı sahibi taşıdığına göre orta bölümün boyasız görünmesi göl/maske kaynaklı
+olmalı. Ölçümü Oturum 16'da; bu düzeltme uygulandıktan sonra tekrar bakılmalı.

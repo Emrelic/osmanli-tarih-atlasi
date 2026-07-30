@@ -343,6 +343,53 @@ window.OLAYLAR_EK9 = [
   kaynak:"tunus" },
 
 // ---------------------------------------------------------------------------
+// N) NAPOLYON'UN MISIR İŞGALİ — md.6
+// ---------------------------------------------------------------------------
+// Kullanıcı: "Napolyon'un Mısır işgali haritada görünmüyor." Doğru — veride
+// 1798-1801 arası HİÇBİR İZ yok; Kahire 1517'den 1805'e kesintisiz `d:`.
+// Bu bir İŞGAL, yani `isg:` örtüsü sınıfı: Osmanlı hükümranlığı hukuken sürdü,
+// Fransa üç yıl fiilen orada oldu. Örtü önerisi OTURUM-14-DUZELTMELER.md §16.
+//
+// ⚠️ Oturum 2'nin D-4 kuralı gereği örtünün BAŞI ve SONU maddeli olmak zorunda;
+// aşağıdaki 1798-07-01 ve 1801-09-02 maddeleri tam onun için yazıldı.
+//
+// 🔴 İKİ MADDE YAZILDI, SONRA SİLİNDİ — mükerrer denetimi yakaladı:
+//   1798-07-01 "Napolyon'un Mısır'a çıkarması"  ×  olaylar.js    1798-07     (oran 0.60)
+//   1801-09-02 "Fransızların Mısır'dan tahliyesi" × olaylar_ek5.js 1801-10-09 (oran 0.60)
+// Napolyon devri kronolojide ZATEN vardı (olaylar.js 1798-07 · ek5'te
+// 1798-09-03 savaş ilânı · 1799-05-20 Akkâ Savunması · 1801-10-09 tahliye);
+// eksik olan HARİTA tarafıydı, kronoloji değil. Yazmadan önce 1798-1801
+// aralığını taramamıştım — 1830-1914'ü taramıştım. Aynı hatanın (Fizan) ikinci
+// tekrarı: DOSYA ayrı, TARİH UZAYI ORTAK.
+// Örtünün iki ucu zaten maddeli olduğu için D-4 kendiliğinden sağlanıyor:
+//   başı 1798-07 (+0 gün) · sonu 1801-10-09 (+0 gün)
+//
+// KALAN İKİ MADDE gerçekten eksikti ve mükerrer değil:
+//   1798-07-21 Piramitler — Kahire'nin düşüşü hiçbir yerde yoktu
+//   1799-03-18 Akkâ kuşatmasının BAŞLAMASI — ek5'teki 1799-05-20 kuşatmanın
+//              PÜSKÜRTÜLMESİ, ayrı olay (63 gün arayla, denetim ayırt etti)
+//
+// 🔴 KAYNAK DURUMU AÇIKÇA: TDV'nin `kahire` maddesi yalnızca "1798" yılını
+// veriyor, gün vermiyor; `aris` maddesi 18 Şubat 1799 (Arîş'in işgali),
+// 17 Kasım 1799 (Osmanlıların geri alışı) ve 24 Ocak 1800 (Arîş Antlaşması)
+// veriyor ama tahliyeyi "aynı yıl" diye geçiyor — bu tarihen eksiktir, Arîş
+// Antlaşması İngiltere'ce reddedildi ve Fransızlar 1801'e kadar kaldı.
+// Yalnız Akkâ kuşatmasının günü TDV'de kesin: 18 Mart 1799 (`akka`).
+// Piramitler'in günü standart kayıttan alındı ve maddede işaretlendi.
+
+{ t:"1798-07-21", k:"kayip", etiket:["toprak-kaybi","savas"],
+  b:"Piramitler Muharebesi ve Kahire'nin Fransızlarca alınması",
+  gun:"21 Temmuz 1798 (gün standart kayıttan)", yer:"Îmbâbe, Giza, Kahire", kisiler:"Napolyon Bonapart, Murad Bey, İbrâhim Bey",
+  d:"Napolyon İskenderiye'den Nil boyunca güneye yürüdü ve 21 Temmuz 1798'de Giza karşısındaki Îmbâbe'de Murad Bey'in Kölemen süvarisini karşıladı. Kare düzenindeki Fransız piyadesi süvari hücumlarını kırdı; Kölemen ordusu dağıldı ve Kahire iki gün sonra direnişsiz teslim oldu. Murad Bey Yukarı Mısır'a, İbrâhim Bey Suriye'ye çekildi. Fransızlar Kahire'de bir dîvân kurup idareyi ulemâ eliyle yürütmeye çalıştılar; 1798 Ekiminde ve 1800 Martında iki büyük Kahire ayaklanması çıktı.",
+  kaynak:"kahire" },
+
+{ t:"1799-03-18", k:"kayip", etiket:["savas"],
+  b:"Napolyon'un Akkâ kuşatması — Suriye seferinin durdurulması",
+  gun:"18 Mart 1799", yer:"Akkâ (Acre), Filistin sahili", kisiler:"Napolyon Bonapart, Cezzâr Ahmed Paşa, Sidney Smith",
+  d:"Osmanlı'nın Mısır'ı geri almak için hazırladığı kuvvetleri dağıtmak isteyen Napolyon 1799 başında Suriye'ye yürüdü; Arîş'i 18 Şubatta, Yafa'yı martta aldı ve 18 Mart 1799'da Akkâ'yı kuşattı. Cezzâr Ahmed Paşa'nın savunması ve İngiliz amirali Sidney Smith'in denizden desteği kuşatmayı iki ay boyunca kırdı; kuşatma topları denizde ele geçirildiği için surlar aşılamadı. Napolyon mayısta çekildi ve bu yenilgi Fransız işgalinin en uç noktası oldu. Bu tarih atlasta toprak değiştirmez — işgalin sınırını gösterdiği için yazılmıştır.",
+  kaynak:"akka" },
+
+// ---------------------------------------------------------------------------
 // M) ALÂİYE — Afrika DIŞI, tek istisna
 // ---------------------------------------------------------------------------
 // ⚠️ Bu madde Anadolu'ya ait; bu dosya Afrika içindir. Petek kilidi sırasında
