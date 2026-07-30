@@ -372,6 +372,86 @@ Ama nehre yaslanma %16-18'de kalıyor ve teşhis ilk turdakiyle aynı: yaslama y
 33 km, Prut-Dniester arası yer yer 150 km; ortadaki sınır hiçbir nehre yaklaşamıyor.
 Çözüm nehir kenarına nokta (Soroka, Orhei, Reni).
 
+## 7e. Kara-kısıtlı Voronoi — md.19'un çözümü, prototip ölçüldü
+
+**Sorun:** ada kuralı KARA BİLEŞENİ bazlı; Afrika+Avrasya Sina üzerinden tek bileşen
+olduğu için Oran'ın peteği İspanya anakarasına geçebiliyor. Kural "ihlal yok" diyor,
+sonuç saçma. Kullanıcının cümlesi: *"PETEK BÖLGESİ DENİZAŞIRI OLAMAZ… binlerce
+kilometre karadan geçiş ile bu bölgenin Oran'a ait olması mantıksız."*
+
+**Neden eşikli ölçüt olmaz** — üç ölçüt yan yana ölçüldü:
+
+| ölçüt | takılan parça |
+|---|---|
+| A: hat denizden geçiyor mu | 106 |
+| B: deniz > 25 km | 49 |
+| C: deniz payı > %30 | 50 |
+
+A'da olup B'de olmayan 57 parçanın hepsi **meşru**: Oslo 240.358 km² (18,8 km fiyort),
+Königsberg 46.363 km² (17,7 km lagün), Azak 39.094 km² (20,1 km Don deltası). Ölçüt A
+ile koşulsa Norveç'in 240 bin km²'si bir fiyort yüzünden başkasına giderdi.
+
+**Çözüm — eşiksiz:** kara maskesi ızgaraya dökülür, bütün tohumlardan çok kaynaklı
+Dijkstra koşar, her ızgara hücresi "kara yolundan en yakın tohum"unu öğrenir.
+
+⚠️ **Izgara yalnız SAHİPLİĞE karar verir, SINIR ÇİZMEZ.** Sınır yine Voronoi'den gelir;
+bu yüzden ızgaranın kabalığı haritaya yansımaz. Bu ayrım olmasaydı çözüm kendi başına
+yeni bir "cetvel" kusuru üretirdi.
+
+### İlk prototip sınavı GEÇTİ ama YANLIŞTI
+
+Oslo/Königsberg/Azak korundu, Oran/Küngrat/Kerç düzeldi — geçme ölçütü tamam. Ama el
+değiştirenlerin listesinde en büyük ikisi **Nijniy Novgorod→Vologda 243.191 km²** ve
+**Moskova→Vologda 124.467 km²** çıktı; ikisi de iç Rusya, denizle ilgisiz. Atina'nın
+Attika'yı Salamis'e kaptırması da aynı sınıftan. Sebep: 0,1° ızgara mesafeyi ~%8
+hatayla ölçüyor ve **karada bu hata Voronoi'nin kesin cevabından kötü.**
+
+📌 Sınavı geçmek yetmedi; sınavın SORMADIĞI yere bakmak gerekti — `OGRENILENLER §26`'nın
+kendi prototipime uygulanmış hâli.
+
+**Düzeltme, eşik eklemeden — kapsam daraltıldı:**
+```
+tohum→parça düz hattı TAMAMEN karadaysa → düz mesafe geçerli, VORONOİ KALIR
+hat denizden geçiyorsa                  → düz mesafe anlamsız, IZGARA KARAR VERİR
+```
+Izgara artık kesin geometrinin *yanıldığı* yerde devreye giriyor, her yerde değil.
+
+### Sonuç — iki çözünürlükte
+
+| | 0,1° (≈11 km) | 0,05° (≈6 km) |
+|---|---|---|
+| ızgara | 447.700 hücre | 1.790.800 hücre |
+| el değiştiren | 32 parça · 321.150 km² | 32 parça · 362.893 km² |
+| yerinde kalan | 894 parça · 33.627.615 km² | 892 parça · 33.593.298 km² |
+| Oslo · Königsberg · Azak | ✓ ✓ ✓ | ✓ ✓ ✓ |
+| Oran → Granada | ✓ | ✓ |
+| Küngrat → Üstyurt (132.678 km²) | ✓ | ✓ |
+
+Haritanın **%1'i** el değiştiriyor, %99'una dokunulmuyor.
+
+**Çözünürlük çekincesi ölçülerek kapandı.** 0,1°'de Ayvalık→Bozcaada (427 km²) ve
+Kilitbahir→Bozcaada (1.444 km²) vardı; adaya anakara vermek yanlış olurdu ve şüphem
+buydu. 0,05°'de **ikisi de kayboldu** — kaba ızgaranın uydurduğu sahte kara köprüleri,
+çözünürlük artınca kendiliğinden düzeldi. Buna karşılık Aden→Taiz (29.618 km²),
+Arkîko→Adigrat (10.067) ve Sinop→Osmancık (3.867) ortaya çıktı; üçü de gerçek
+(Sinop yarımadası, hat iki yandan denizi kesiyor, kara yolu berzahtan iniyor).
+
+📌 **Kararın kararlılığı:** "bu parça el değiştirmeli mi" sorusunun cevabı çözünürlükten
+BAĞIMSIZ (ikisinde de 32 parça). "Kime geçmeli" ise yakın adaylar arasında oynayabiliyor
+(Şârika → Abu Dabi / Buraymî; Koron → Anabolu / Mora). Yani kural sağlam, alıcı seçimi
+sınırda. **Önerilen çözünürlük 0,05°.**
+
+### Kefe düzelmedi — ve senaryo yanlıştı, prototip değil
+
+Kefe'nin parçası 46,15K 35,14D'de, kuzey Kırım/Sivaş. Düz hat lagünü kesiyor ama kara
+yolu etrafından ~150 km — yani Kefe gerçekten kara yolundan en yakın tohum. Sınav
+listesine Kefe'yi ben koymuştum; prototipin benimle aynı fikirde olmaması kusur değil,
+**çalıştığının işareti.**
+
+⚠️ Motora KONMADI. 32 parçalık liste küçük ve tek tek gözden geçirilebilir; geometrik
+olarak doğru olan tarihî olarak yanlış olabilir (Sina'nın Mısır'a mı Hicaz'a mı gideceği
+bir petek kararı değil, bir idare kararıdır). Liste merkez oturuma gitti.
+
 ## 8. Sıradaki iş — üretim penceresi
 
 Motorda **beş** değişiklik birikti ve **hiçbiri uçtan uca koşturulmadı**:
