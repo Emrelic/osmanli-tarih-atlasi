@@ -601,5 +601,40 @@ window.SEFERLER = [
 { ad:"Suriye harekâtı (1831-32)", tur:"sefer", sonuc:"yenilgi",   f:"1831-10-31", t:"1832-07-29", yol:[[31.24,30.05],[34.47,31.50],[35.08,32.93],[36.29,33.51],[36.71,34.73],[37.16,36.20],[36.20,36.52]] },
 { ad:"Anadolu ilerleyişi (1832-33)", tur:"sefer", sonuc:"yenilgi",f:"1832-08-01", t:"1833-02-02", yol:[[36.20,36.52],[35.32,37.00],[33.22,37.18],[32.49,37.87],[29.98,39.42]] },
 { ad:"Nizip seferi (1839)", tur:"sefer", sonuc:"yenilgi",         f:"1839-04-21", t:"1839-06-24", yol:[[38.33,38.35],[37.98,37.03],[37.79,37.01]] },
-{ ad:"Müttefik donanma harekâtı (1840)", tur:"deniz", sonuc:"zafer", f:"1840-09-11", t:"1840-11-27", yol:[[26.4,38.5],[33.5,34.9],[35.50,33.89],[35.08,32.93],[29.92,31.20]] }
+{ ad:"Müttefik donanma harekâtı (1840)", tur:"deniz", sonuc:"zafer", f:"1840-09-11", t:"1840-11-27", yol:[[26.4,38.5],[33.5,34.9],[35.50,33.89],[35.08,32.93],[29.92,31.20]] },
+// --- MERKEZ OTURUM görevi (2026-07-30) — kronolojide zaten var olan 10 olaya ok.
+// İç isyanlar (Sırbistan/Eflak/Girit/Arnavutluk) için Osmanlı'nın kendi
+// (koyu kırmızı) ve düşman devlet (soğuk renk) ikilisinden ayrı, üçüncü bir
+// kategori olarak mor (#6b2d8a) kullanıldı — ne "osmanli" ne "dusman" rengi
+// isyanın niteliğini karşılamıyordu.
+{ ad:"İkinci Sırp İsyanı (1815)", tur:"isyan", sonuc:"belirsiz", renk:"#6b2d8a",
+  f:"1815-04-23", t:"1815-04-23", yol:[[20.46,44.82],[20.93,44.66]] },
+// Olaylar.js: "İsyan Osmanlı kuvvetlerince mayısta bastırıldı" — bu harekâtın
+// kendisi (Prut'un geçilmesi) bastırıldığı için sonuc Osmanlı açısından zafer;
+// isyan ateşinin Mora'ya sıçraması ayrı maddededir (Yunan İsyanı, 1821-03-25).
+{ ad:"İpsilanti'nin Eflak-Boğdan harekâtı (1821)", tur:"isyan", sonuc:"zafer", renk:"#6b2d8a",
+  f:"1821-02-22", t:"1821-02-22", yol:[[27.59,47.16],[26.10,44.43]] },
+{ ad:"Müttefik donanmasının Navarin'e gelişi (1827)", tur:"deniz", sonuc:"yenilgi", taraf:"dusman", renk:"#1f5fa8",
+  f:"1827-10-20", t:"1827-10-20", yol:[[21.30,36.65],[21.70,36.82]] },
+{ ad:"Rus donanmasının Büyükdere'ye gelişi (1833)", tur:"deniz", sonuc:"belirsiz", taraf:"dusman", renk:"#0d7d8a",
+  f:"1833-02-20", t:"1833-02-20", yol:[[29.15,41.24],[29.05,41.17]] },
+{ ad:"Osmanlı donanmasının İskenderiye'ye teslimi (1839)", tur:"teslim", sonuc:"yenilgi",
+  f:"1839-07-14", t:"1839-07-14", yol:[[26.4,38.5],[29.92,31.20]] },
+{ ad:"Girit İsyanı'nın başlaması (1866)", tur:"isyan", sonuc:"belirsiz", renk:"#6b2d8a",
+  f:"1866-08-21", t:"1866-08-21", yol:[[24.02,35.51],[25.13,35.34]] },
+{ ad:"Belgrad garnizonunun çekilmesi (1867)", tur:"cekilme", sonuc:"yenilgi",
+  f:"1867-04-18", t:"1867-04-18", yol:[[20.46,44.82],[22.61,44.61]] },
+// olaylar_ek2.js "gun" alanı bitiş tarihini de veriyor: 21 Haziran - 7 Ağustos 1867.
+// Kronolojide yalnız Paris/Londra/Viyana adı geçiyor; sıralama "yer" alanındaki
+// sırayı izler, ara duraklar (Toulon, Coburg vb.) uydurulmadı.
+{ ad:"Abdülaziz'in Avrupa seyahati (1867)", tur:"seyahat", sonuc:"belirsiz",
+  f:"1867-06-21", t:"1867-08-07",
+  yol:[[28.98,41.01],[2.35,48.86],[-0.13,51.51],[16.37,48.21],[28.98,41.01]] },
+// Uçlar kronolojiden: Edirne Mütarekesi (1878-01-31, Edirne) → Ayastefanos
+// Antlaşması (1878-03-03, Ayastefanos/Yeşilköy). Aradaki yürüyüş güzergâhı
+// ayrıca belgelenmediği için iki nokta arası düz hat kullanıldı.
+{ ad:"Rus ordusunun Yeşilköy'e gelişi (1878)", tur:"sefer", sonuc:"yenilgi", taraf:"dusman", renk:"#0d7d8a",
+  f:"1878-01-31", t:"1878-03-03", yol:[[26.56,41.68],[28.82,40.96]] },
+{ ad:"Arnavutluk İsyanı (1910)", tur:"isyan", sonuc:"zafer", renk:"#6b2d8a",
+  f:"1910-04-01", t:"1910-04-01", yol:[[21.12,42.63],[19.51,42.07]] }
 ];

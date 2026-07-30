@@ -325,6 +325,29 @@ BILINEN_AYRI = {
     ("Kudüs'ün kaybı", "Şam'ın kaybı"),
 }
 
+# ⚠️ DÖRDÜNCÜ TUR — "eşiği düşür" ÖLÇÜLDÜ ve REDDEDİLDİ (hatalar 11 madde 36)
+# Kullanıcı Âli Paşa'nın 1871 vefatını iki madde hâlinde gördü ve merkez oturum
+# "eşiği ölçüme dayanarak ayarla" dedi. Ölçüm şunu söyledi: EŞİK SUÇLU DEĞİL.
+#
+# Yer gerçeği: kullanıcının gözüyle bulunup silinen 27 mükerrer çift (SİLİNDİ
+# yorumlarından çıkarıldı). Bu çiftlerin başlık Jaccard'ı:
+#     min 0.000 · orta 0.222 · max 0.333   → HEPSİ 0.34'ün ALTINDA
+# Âli Paşa çifti ("Âli Paşa vefat etti" / "Sadrazam Âlî Paşa'nın vefatı:
+# Tanzimat kadrosunun sonu") = 0.125.
+#
+# Eşiği düşürmenin ölçülmüş bedeli (aynı veri, ±400 gün penceresi):
+#     eşik 0.340 →  12 çift ·  1 gerçek · 11 yanlış
+#     eşik 0.250 →  93 çift · 16 gerçek · 77 yanlış
+#     eşik 0.150 → 207 çift · 25 gerçek · 182 yanlış   ← hepsini yakalamak için
+#     eşik 0.125 → 315 çift · 31 gerçek · 284 yanlış
+# Yani "hepsini yakalayan" eşik %88 yanlış alarm üretir; OGRENILENLER §3'ün
+# "101 yanlış alarmlı denetim güvenilirliğini kaybeder" kuralına çarpar.
+# EŞİK 0.34'TE KALIYOR.
+#
+# Asıl kusur TESPİT değil TRİYAJ: 27 gerçek çiftin 27'si zaten ZAYIF ölçütte
+# (aynı kişi + ±3 gün) yakalanıyordu — ama zayıf liste 57 çiftti, ihlal
+# sayılmıyordu ve --ayrinti'siz yalnız ilk 8'i basılıyordu. Araç görüyordu,
+# rapor gömüyordu. Çözüm: zayıf listeyi KADEMELE (bkz. KESIN_* ölçütleri).
 MUKERRER_ESIK = 0.34
 MUKERRER_GUN = 400          # ±400 gün: yıl kayması olan çiftleri de yakalar
 
@@ -360,6 +383,29 @@ def _gun_no(t):
 # aynı olayın iki yüzü olma ihtimali yüksek. Kişi adı `kisiler` alanından
 # okunur; yoksa başlıktaki büyük harfle başlayan öbekler kullanılır.
 MUKERRER_KISI_GUN = 3
+
+# --- ZAYIF LİSTENİN KADEMELENMESİ — ölçülerek seçildi -----------------------
+# Zayıf ölçüt (aynı kişi + ±3 gün) 57 çift üretiyordu; 27'si gerçek, 30'u
+# meşru. %47 kesinlikle bir liste okunmuyor, nitekim okunmadı. Dört aday kural
+# aynı yer gerçeğine karşı ölçüldü:
+#
+#   kural                                seçer  gerçek  diğer  kesinlik  duyarlılık
+#   (mevcut) tüm zayıf liste               57      27     30      0.47      1.00
+#   gün=0 VE aynı kaynak                   20      19      1      0.95      0.70
+#   gün=0 VE (kaynak | J≥.10)              24      23      1      0.96      0.85
+#   gün=0 VE (kaynak | J≥.10 | ortak≥3)    25      24      1      0.96      0.89  ←
+#   gün≤1 VE (kaynak | J≥.10)              30      25      5      0.83      0.93
+#
+# Seçilen kural sonuncudan bir öncekidir: 25 seçimin 24'ü gerçek, TEK "diğer"i
+# de gerçek bir mükerrer adayı (1718-07-21 Pasarofça çifti — aynı gün, aynı
+# kaynak slug'ı, 6 ortak kişi). Yani ölçülen yanlış alarm SIFIR.
+#
+# GÜN FARKI 0 ŞARTI kritik: kaçırdığı üç çiftin üçü de 1-2 gün aralıklı, ve
+# gün≤1'e gevşetmek 5 meşru çift getiriyor — hepsi Yavuz'un Mısır seferi gibi
+# ardışık günlerde geçen ayrı olaylar (Halep 28/29 Ağustos, Trablusşam/Şam
+# 26/27 Eylül). Bir gün gevşeklik burada tam olarak "sefer günlüğü" demek.
+KESIN_JACCARD = 0.10        # zayıf ölçütü kesinleştiren minimum başlık benzerliği
+KESIN_ORTAK_KISI = 3        # ya da bu kadar ortak kişi
 
 
 def _kisiler_kumesi(o):
@@ -403,8 +449,18 @@ def mukerrer_maddeler(O):
                 olcut = "başlık"
             elif fark <= MUKERRER_KISI_GUN:
                 ka, kb = _kisiler_kumesi(S[i]), _kisiler_kumesi(S[j])
-                if ka & kb:
-                    olcut = "kişi:" + ",".join(sorted(ka & kb)[:3])
+                ortak = ka & kb
+                if ortak:
+                    # Kademe: aynı GÜN + (aynı kaynak | başlık benzerliği |
+                    # üç ortak kişi) → kesin sayılır, ihlaldir. Gerekçe ve
+                    # ölçüm KESIN_JACCARD'ın üstündeki blokta.
+                    ayni_kaynak = (S[i].get("kaynak") or "\x00") == \
+                                  (S[j].get("kaynak") or "\x01")
+                    kesin = fark == 0 and (ayni_kaynak
+                                           or oran >= KESIN_JACCARD
+                                           or len(ortak) >= KESIN_ORTAK_KISI)
+                    olcut = ("kişi!" if kesin else "kişi:") + \
+                        ",".join(sorted(ortak)[:3])
             if olcut is None:
                 continue
             bulunan.append((S[i]["t"][:4], oran, S[i], S[j], olcut))
@@ -625,24 +681,28 @@ def main():
         for ad, kat, p1, p2 in ds["cakisan_ayni"]:
             print(f"    ÇAKIŞMA  {ad:<28} {kat}: [{p1['f']}, {p1['t']}) ile [{p2['f']}, {p2['t']})")
 
-    # Ek denetim — mükerrer kronoloji maddesi
-    # İki ölçüt AYRI raporlanır. Başlık benzerliği KESİN sayılır (ihlal);
-    # kişi+tarih ölçütü ZAYIF — 55 çift üretiyor ve içinde sefer sırasında
-    # yan yana düşen meşru olaylar var (Yavuz'un Mısır seferinin her günü aynı
-    # adı taşıyor). Ama gerçek mükerrerleri de buluyor ve Jaccard onları HİÇ
-    # göremiyor: Fatih'in ölümü, Cem Sultan'ın ölümü, İbrahim Paşa'nın idamı,
-    # Şehzade Mustafa, Fâtih Kanunnâmesi. O yüzden ihlal değil, gözden geçirme
-    # listesi. Triyaj edilen çiftler BILINEN_AYRI'ya yazılır ve liste kısalır.
+    # Ek denetim — mükerrer kronoloji maddesi. ÜÇ kademe:
+    #   [başlık] Jaccard ≥ 0.34            → İHLAL
+    #   [kişi!]  aynı GÜN + ortak kişi +
+    #            (aynı kaynak | J≥0.10 | 3 ortak kişi)  → İHLAL (ölçülmüş: 24/25)
+    #   [kişi:]  ±3 gün + ortak kişi, aynı gün değil    → gözden geçirme listesi
+    # İkinci kademe 2026-07-30'da ölçülerek eklendi: 27 gerçek mükerrerin
+    # 27'si zayıf ölçütte zaten yakalanıyordu ama 57 çiftlik bir listeye
+    # gömülüydü ve ihlal sayılmadığı için kimse bakmıyordu — Âli Paşa'nın 1871
+    # vefatı bu yüzden kullanıcının gözüyle bulundu. Gerekçe ve ölçüm
+    # KESIN_JACCARD'ın üstündeki blokta. Üçüncü kademede kalanların çoğu
+    # Yavuz'un Mısır seferi gibi ardışık günlerde geçen AYRI olaylardır.
+    # Triyaj edilen çiftler BILINEN_AYRI'ya yazılır ve liste kısalır.
     tum = mukerrer_maddeler(O)
-    mk = [r for r in tum if r[4] == "başlık"]
-    zayif = [r for r in tum if r[4] != "başlık"]
+    mk = [r for r in tum if r[4] == "başlık" or r[4].startswith("kişi!")]
+    zayif = [r for r in tum if r[4].startswith("kişi:")]
     durum5 = "✓" if not mk else "✗"
     if mk:
         ihlal = True
     print(f"Ek denetim  {durum5}  mükerrer madde: {len(mk)} şüpheli çift (beklenen 0)")
     if zayif:
-        print(f"            i {len(zayif)} çift ZAYIF ölçütte (aynı kişi + ±3 gün) — "
-              f"ihlal DEĞİL, gözden geçirilecek liste; --ayrinti ile tamamı")
+        print(f"            i {len(zayif)} çift ZAYIF ölçütte (aynı kişi + ±3 gün, "
+              f"AYRI gün) — ihlal DEĞİL, gözden geçirilecek liste; --ayrinti ile tamamı")
         for yil, oran, a2, b2, olcut in (zayif if args.ayrinti else zayif[:8]):
             print(f"              [{olcut}] {a2['t']}  {a2['b'][:48]}")
             print(f"              {b2['t']}  {b2['b'][:48]}")

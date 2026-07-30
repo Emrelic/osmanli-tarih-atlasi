@@ -54,6 +54,85 @@ def yerel_mi(yol):
                 or yol.startswith("#") or yol.startswith("mailto:"))
 
 
+# ---------------------------------------------------------------------------
+# SÜRÜM DAMGASI — kod yayına gitti, tarayıcı eskisini gösteriyor
+# ---------------------------------------------------------------------------
+# Vaka (ölçüldü, 2026-07-30): damga r83'te dört commit boyunca takılı kaldı.
+# `591a5c6` css+js değiştirdi, damga r83 kaldı; `b8e4794` js/app.js değiştirdi,
+# damga yine r83. Kod GitHub Pages'e gitti ama tarayıcılar `?v=r83` ile
+# önbelleğe alınmış eski dosyayı sunmaya devam etti — kullanıcı "değişmemiş"
+# dedi, oturum "yaptım" dedi, ikisi de haklıydı.
+#
+# ⚠️ EŞİK YOK, SAYIM VAR. Bu denetimin öznel bir eşiği yok: bir commit js/ ya da
+# css/ değiştirmişse damga sayısı ARTMIŞ olmalı, o kadar. Son 30 commit üzerinde
+# ölçüldü: 6 commit js/css değiştirmiş, 3'ünde damga artmamış, ÜÇÜ DE GERÇEK
+# (591a5c6, b8e4794, cbbc0b9). Yanlış alarm sıfır.
+#
+# İki ayrı soru sorulur — ikincisi daha değerlidir, çünkü commit'ten ÖNCE uyarır:
+#   1) geçmişte hangi commit damgayı unuttu (tarihsel, düzeltilemez)
+#   2) ŞU AN çalışma ağacında js/css değişmiş ama damga HEAD'dekiyle aynı mı
+DAMGA = re.compile(r"\?v=r(\d+)")
+
+
+def _git(*a):
+    try:
+        c = subprocess.run(["git"] + list(a), cwd=KOK, capture_output=True,
+                           text=True, encoding="utf-8", errors="replace", check=True)
+        return c.stdout
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        return None
+
+
+def _damga_no(metin):
+    """index.html içindeki en büyük ?v=rNN sayısı; yoksa None."""
+    if metin is None:
+        return None
+    n = [int(m) for m in DAMGA.findall(metin)]
+    return max(n) if n else None
+
+
+def damga_denetimi(gecmis=30):
+    """(gecmis_ihlaller, calisma_agaci_ihlali) — ikisi de listedir."""
+    log = _git("log", "--format=%H", "-n", str(gecmis + 1))
+    if log is None:
+        print("UYARI: git log çalıştırılamadı — damga denetimi ATLANDI")
+        return None, None
+    commitler = log.split()
+    ihlal = []
+    for i in range(len(commitler) - 1):
+        c, p = commitler[i], commitler[i + 1]
+        dokunan = [l.strip() for l in (_git("show", "--name-only", "--format=", c) or "").splitlines()
+                   if l.strip().startswith(("js/", "css/"))]
+        if not dokunan:
+            continue
+        yeni = _damga_no(_git("show", c + ":index.html"))
+        eski = _damga_no(_git("show", p + ":index.html"))
+        if yeni is None or eski is None:
+            continue
+        if yeni <= eski:
+            # kaç commit sonra düzeldi? (0 = HEAD'e kadar hâlâ takılı)
+            bekleme = 0
+            for j in range(i - 1, -1, -1):
+                bekleme += 1
+                if (_damga_no(_git("show", commitler[j] + ":index.html")) or 0) > eski:
+                    break
+            else:
+                bekleme = -1        # hiç artmadı
+            ihlal.append((c[:7], eski, dokunan, bekleme))
+
+    # --- şu anki çalışma ağacı: commit'ten ÖNCE yakalar --------------------
+    simdi = []
+    durum = _git("status", "--porcelain") or ""
+    kod = [l[3:].strip().strip('"') for l in durum.splitlines()
+           if l[3:].strip().strip('"').startswith(("js/", "css/"))]
+    if kod:
+        d_simdi = _damga_no(io.open(os.path.join(KOK, "index.html"), encoding="utf-8").read())
+        d_head = _damga_no(_git("show", "HEAD:index.html"))
+        if d_simdi is not None and d_head is not None and d_simdi <= d_head:
+            simdi = [(d_head, kod)]
+    return ihlal, simdi
+
+
 def git_izlenen():
     """Depoda git tarafından İZLENEN dosyaların kümesi."""
     try:
@@ -68,6 +147,8 @@ def git_izlenen():
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--ayrinti", action="store_true")
+    ap.add_argument("--gecmis", type=int, default=30,
+                    help="damga denetiminin tarayacağı commit sayısı")
     args = ap.parse_args()
 
     html = io.open(os.path.join(KOK, "index.html"), encoding="utf-8").read()
@@ -169,13 +250,38 @@ def main():
     if len(damgalar) > 1:
         print("     birden çok damga var — surum_damgala.py yarım kalmış olabilir")
 
+    # --- sürüm damgası ARTTI MI (r83 vakası) ---------------------------------
+    gecmis_ihlal, simdi_ihlal = damga_denetimi(args.gecmis)
+    damga_ihlali = False
+    if gecmis_ihlal is not None:
+        takili = [x for x in gecmis_ihlal if x[3] == -1]
+        durum5 = "✓" if not simdi_ihlal and not takili else "✗"
+        print("%s  damga artışı: son %d commit'te js/css değiştiren %d commit damgayı "
+              "arttırmamış" % (durum5, args.gecmis, len(gecmis_ihlal)))
+        for c, eski, dokunan, bekleme in gecmis_ihlal:
+            nasil = ("HÂLÂ TAKILI" if bekleme == -1 else
+                     "%d commit sonra düzeldi" % bekleme)
+            print("     %s  r%-3d %-24s ← %s" % (c, eski, ",".join(
+                sorted({d.split("/")[0] for d in dokunan})), nasil))
+        if takili:
+            damga_ihlali = True
+            print("     → HEAD'de hâlâ eski damga: py arac/surum_damgala.py")
+        if simdi_ihlal:
+            damga_ihlali = True
+            for eski, kod in simdi_ihlal:
+                print("✗  ÇALIŞMA AĞACI: %d kod dosyası değişmiş, damga hâlâ r%d"
+                      % (len(kod), eski))
+                for k in kod[:8]:
+                    print("     %s" % k)
+                print("     → COMMIT ETMEDEN ÖNCE: py arac/surum_damgala.py")
+
     if args.ayrinti:
         print("\nizlenen varlıklar:")
         for y in sorted(tamam):
             print("     %s" % y)
 
     print()
-    if yoklar or izlenmeyenler or kayitsiz or len(damgalar) > 1:
+    if yoklar or izlenmeyenler or kayitsiz or len(damgalar) > 1 or damga_ihlali:
         print("SONUÇ: İHLAL VAR — çıkış kodu 1")
         return 1
     print("SONUÇ: temiz")
