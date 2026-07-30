@@ -721,3 +721,56 @@ koştur.** Bir uyarıyı susturmak, o uyarının işaret ettiği durumu düzeltm
 ⚠️ Ve ikinci katman: aracı ben yazmıştım ve yine de çıktısını yarım okudum. Bir
 aracın sahibi olmak, çıktısını dikkatle okumaktan **muaf tutmaz**; tersine, ne
 söyleyeceğini bildiğini sanmak tam da yarım okumaya yol açar.
+
+---
+
+## 26. Bir kuralı, ATEŞLEMEMESİ gereken vakalara karşı sına
+
+Kullanıcı (hatalar 15 md.19): *"Petek bölgesi denizaşırı olamaz. Afrika'nın ada
+olmaması ve Sina yarımadası ile bağlı olması, binlerce kilometre karadan geçiş ile
+bu bölgenin Oran-Merselkebir'e ait olması mantıksız."*
+
+Şikâyet doğrulandı: Oran'ın peteğinin bir parçası **37,52K −1,49D**'de, yani
+Murcia/Almería kıyısında — 675 km², hattın %97'si deniz, 209,7 km açık su. Ve tarama
+aynı kusurun her yerde olduğunu gösterdi: Küngrat 132.678 km² (Aral'ın karşı kıyısı),
+Taranto 32.461, Helsinki 28.522, Kefe 18.215, Kerç 15.011.
+
+**Kural buradan kolayca çıkarılırdı:** "hat denizden geçiyorsa o parçayı kes."
+Oturum 16 bunu uygulamadan **ölçtü** — ve üç ölçütü yan yana koydu:
+
+```
+A) hat denizden geçiyor mu (katı)  → 106 parça
+B) deniz > 25 km                   →  49 parça
+C) deniz payı > %30                →  50 parça
+```
+
+A'da olup B'de olmayan **57 parçanın hepsi meşru**:
+
+| | Alan | Sebep |
+|---|---|---|
+| Oslo | 240.358 km² | 18,8 km **fiyort** geçişi |
+| Königsberg | 46.363 km² | 17,7 km Vistül **lagünü** |
+| Azak | 39.094 km² | 20,1 km Don **deltası** |
+
+Yani en doğal görünen kural, kullanıcının şikâyetini çözerken **Norveç'in 240 bin
+km²'sini bir fiyort yüzünden başkasına verecekti.**
+
+**Kural:** bir kuralı, ateşlemesi gereken vakalarla sınamak yetmez — **ateşlememesi
+gereken** vakalarla da sınanmalı. Şikâyetten türetilen kural, şikâyet edilmeyen her
+şeyi de etkiler; ve şikâyet edilmemiş olması onların doğru olduğunu gösterir, önemsiz
+olduğunu değil. `§8`'in (uydurulmuş kesinlik) ve `§11`'in (ölçmeden karar vermemek)
+kesişimi: burada ölçülmesi gereken şey **yanlış pozitifin bedeliydi**, sayısı değil.
+
+### Ve doğru ölçüt eşikte değil, fizikte
+
+Kullanıcının kendi cümlesi ölçütü veriyor: *"binlerce kilometre karadan geçiş."*
+Yani **kara üzerinden gerçek mesafe** — eşiksiz. Oturum 16'nın tasarımı:
+
+> Kara maskesini ~0,1° ızgaraya dök (≈448 bin hücre) → bütün tohumlardan **çok
+> kaynaklı BFS**, yalnız kara hücreleri üzerinden → her hücre "kara yolundan en
+> yakın tohum"unu öğrenir → petek parçası temsilci noktasının ızgara sahibine gider.
+
+Oran'ın İspanya parçası düzelir (kara yolu Cebelitarık üzerinden binlerce km); Oslo'nun
+fiyortu bozulmaz (karşı kıyı kara yolundan ~40 km, Oslo yine en yakın). **Keyfî sayı
+yok — ölçüt fiziğin kendisi.** Ve ızgara yalnız *sahipliğe* karar veriyor, sınırı
+çizmiyor; sınır yine Voronoi'den geldiği için 0,1°'lik kabalık haritaya yansımıyor.
