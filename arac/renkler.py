@@ -90,6 +90,17 @@ BOYALAR = {
     # hiçbir sahip yazılı olmadığı için bölge haritada boş kalıyordu.
     "benihalid":  ("Benî Hâlid Emirliği (Lahsa)", "#8a9440"),
     "hicaz":      ("Hicaz Krallığı",         "#9e8a5b"),
+    # Doha'nın 1913-1916 arası 1193 günlük sahipsizliğini kapatan kimlik
+    # (Değişmez 1b'nin tek açık boşluğuydu). 29 Temmuz 1913 Osmanlı-İngiliz
+    # mukavelesi Osmanlı'yı Katar'dan çekiyor, 3 Kasım 1916 İngiliz-Katar
+    # antlaşması himayeyi kuruyor; arada Âl Sânî şeyhliği kendi başına.
+    # devletler.js'te kayıt zaten vardı (id:katar, 1868-1923), eksik olan renkti —
+    # renksiz kimlik bölgeyi BOYAMAZ ve üretimde "UYARI boya:" satırı bastırır.
+    # Renk ölçüldü: 1913-1916 körfez kutusunda sahnede iran (18 nokta-dönem),
+    # suud (6), ingiltere (6), umman (3), OSMANLI (2). Bindirilmiş ΔE —
+    # ingiltere 16,1 · umman 18,2 · sammar 25,4 · hicaz 25,5 · Osmanlı tâbi 26,4.
+    # Körfezin bütün komşuları toprak/zeytin tonunda; mavi kasten seçildi.
+    "katar":      ("Katar (Âl Sânî)",        "#1565c0"),
     "funj":       ("Func (Sennâr) Sultanlığı","#7d6b4a"),
     "habesistan": ("Habeşistan",             "#7d5b3a"),
     "adal":       ("Adal / Harar",           "#a08f5b"),
