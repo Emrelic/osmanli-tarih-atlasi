@@ -435,3 +435,62 @@ yakaladı: **hücre** sınırını ölçmüştü, kullanıcının haritada görd
 **gövde** sınırı. Boğdan gövdesi 8-10 hücrenin birleşimi ve iç kenarları hiç
 görünmüyor. Sayı doğruydu, sorduğu şey yanlıştı. `§15`'in aynadaki-yön dersinin
 geometrik hâli: "neyi ölçtüm" ile "kullanıcı neye bakıyor" aynı şey mi?
+
+---
+
+## 18. Değişmez 2 maddenin VAR olduğunu sorar, DOĞRU olduğunu sormaz
+
+Kullanıcı `hatalar 11 md.18`'de sordu: *"Cebel-i Dürûz ayaklanmasında Cezayir'den
+bir parçanın Fransa'ya geçtiği görülüyor, bu madde ile mi alâkalı?"* Cevap hayır —
+Cebel-i Dürûz **Suriye'de**, Havran'da. Oturum 14 neden öyle göründüğünü ölçtü:
+
+```
+Konstantin'in Fransa'ya geçişi   1837-10-13
+Cebel-i Dürûz ayaklanması        1837-10-15   ← 2 gün arayla
+```
+
+Konstantin'in kendi maddesi **yoktu**. Değişmez 2 ±30 gün penceresinde *en yakın*
+maddeyi eşleştirdiği için Cezayir'in doğusu bir Dürzî ayaklanmasının altında el
+değiştiriyordu — ve denetim buna **"452/452, 0 açık, TEMİZ"** diyordu.
+
+Aynı sınıftan iki vaka daha:
+
+| Kırılma | Eşleştiği madde | Fark |
+|---|---|---|
+| Zeyla 1884-01-01 | "Reji İdaresi kuruldu (tütün tekeli)" | +0 gün |
+| Murzuk 1577-01-01 | "İstanbul Rasathanesi kuruldu" | +0 gün |
+
+Murzuk'unki **215.417 km²'lik** petek: Sahra'nın ortası, bir rasathane maddesinin
+altında renk değiştiriyor.
+
+**Kök sebep tek cümle:** Değişmez 2 maddenin **var olduğunu** sorar, **doğru
+olduğunu** sormaz. Yakınlık ilişki sanılıyor.
+
+Önerilen ölçüt: kırılmanın yerleşim adı — ya da `m:` merkezi, ya da bölge adı —
+eşleştiği maddenin `yer:` veya başlığında geçiyor mu? Geçmiyorsa **şüpheli**
+(ihlal değil; mükerrerdeki "zayıf ölçüt" gibi). Üç vakanın üçü de yakalanırdı.
+
+**Genel ders:** bir denetim "bağlantı var mı" diye soruyorsa, bağlantının
+**doğru** olup olmadığını da sormalı. Aksi hâlde denetim yalnız *biçimi* korur ve
+içerik sessizce yanlış kalır — üstelik yeşil tik vererek. `§15`'in aynadaki-yön
+sorusunun ilişki hâli.
+
+---
+
+## 19. Çok satırlı kayıtta ADA GÖRE dışlama güvenilir değildir
+
+Mısır'ın hukukî kaybını `1914-11-05`'ten `1914-12-18`'e taşırken **Kuveyt hariç
+tutulacaktı** — onun İngiliz himayesi 3 Kasım 1914'tür ve Mısır'la alâkasızdır.
+Dışlamayı `{ ad:"..."` desenine bağladım.
+
+Tutmadı: Kuveyt'in kaydı **çok satırlı** ve tarih devam satırındaydı, yani o
+satırda ad yok. 19 kayıt değişti, sekizi `?` adıyla göründü ve **Kuveyt de içeride
+kaldı**. Düzeltilmeseydi Kuveyt'in himayesi 43 gün kaymış olacaktı — ve
+"düzelttiğim hatanın aynısını başka yerde yapmak" olurdu.
+
+Yalnız *"Kuveyt gerçekten değişmedi mi"* diye **ayrıca ölçtüğüm** için yakalandı.
+
+**Kural:** bir dönüşümde bir şeyi hariç tutuyorsan, dönüşümden sonra **hariç
+tutulanın gerçekten hariç kaldığını ölç**. Dışlama mantığının çalıştığını
+varsayma — `?` gibi bir belirsizlik çıktısı gördüğünde de üstünü örtme, o
+belirsizlik dışlamanın kör olduğu satırların ta kendisi.
