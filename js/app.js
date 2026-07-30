@@ -1121,6 +1121,14 @@ document.getElementById("detay-kapat").addEventListener("click", function () {
 detayPencere.addEventListener("click", function (e) {
   if (e.target === detayPencere) detayPencere.classList.add("gizli");
 });
+// Pencere artık tam ekran örtü değil (hatalar 14 md.1) — sağ alta yaslanıyor ve
+// harita açıkta kalıyor. Dolayısıyla "dışarı tıkla kapat" yolu fiilen kalktı;
+// yerine ESC konuyor, yoksa kapatmanın tek yolu küçük ✕ düğmesi olurdu.
+document.addEventListener("keydown", function (e) {
+  if (e.key === "Escape" && !detayPencere.classList.contains("gizli")) {
+    detayPencere.classList.add("gizli");
+  }
+});
 document.getElementById("detay-git").addEventListener("click", function () {
   if (detayIndex >= 0) tarihAyarla(olaylar[detayIndex].gi);
   detayPencere.classList.add("gizli");

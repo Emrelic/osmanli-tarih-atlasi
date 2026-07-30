@@ -225,25 +225,42 @@ body {
 }
 
 /* ---------- Olay detay penceresi ---------- */
+/* hatalar 14 md.1: "olay başlıklarının üzerine tıklayınca AYNI SÜTUNDA SAĞ ALTTA
+   açılması gerekmiyor muydu, neden ortada açılıyor?"
+   Haklı. Pencere `inset:0` + koyu örtüyle tam ekran modaldi: kronoloji maddesine
+   tıklamanın amacı olayı HARİTAYLA BİRLİKTE görmek, oysa modal haritayı tamamen
+   kapatıyordu. Artık kronoloji sütununun (#yanpanel) altına yaslanıyor, genişliği
+   onunla aynı clamp'i kullanıyor ve harita açıkta kalıyor. */
 #olay-detay {
   position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.55);
+  inset: auto 0 0 auto;                        /* sağ alt */
+  width: clamp(280px, 24vw, 380px);            /* #yanpanel ile aynı */
+  max-height: 66vh;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
   z-index: 50;
+  pointer-events: none;    /* örtü yok; sarmalayıcı haritanın tıklamasını yutmasın */
 }
 #olay-detay.gizli { display: none; }
 #olay-detay-kutu {
+  pointer-events: auto;
   background: var(--panel);
   border: 2px solid var(--altin);
-  border-radius: 10px;
-  max-width: 520px;
-  width: 90%;
-  padding: 20px 24px;
+  border-right: none;
+  border-bottom: none;
+  border-radius: 10px 0 0 0;
+  width: 100%;
+  max-width: none;
+  max-height: 66vh;
+  overflow-y: auto;
+  padding: 16px 18px 18px;
   position: relative;
-  box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+  box-shadow: -6px -4px 24px rgba(0,0,0,0.35);
+}
+/* dar ekranda yan panel alta iniyor (@media 900px) — orada tam genişlik doğru */
+@media (max-width: 900px) {
+  #olay-detay { width: 100%; }
+  #olay-detay-kutu { border-radius: 10px 10px 0 0; border-right: 2px solid var(--altin); }
 }
 #detay-kapat {
   position: absolute;
