@@ -59,6 +59,22 @@ Bir oturum **yalnız kendi satırındaki dosyalara yazar.**
 | **15** | Sonnet | `data/yerlesimler_ortaasya2.js` · `data/goller.js` |
 | **16** | Opus | `arac/uret_petek.py` · `renkler.py` · `girdi.py` |
 
+### 🤖 ÜRETİLEN DOSYALAR — SAHİBİ YOK, ELLE YAZILMAZ
+
+| Dosya | Ne zaman yazılır |
+|---|---|
+| `data/bolgeler.js` | geometri boru hattından hemen sonra (koşunun ~40. saniyesi) |
+| `data/donemler.js` | koşunun sonunda |
+| `data/devletler_harita.js` | koşunun sonunda |
+
+Üçü de `arac/uret_petek.py`'nin **çıktısı**. Elle yapılan bir düzenleme bir sonraki
+koşuda **sessizce ezilir** — hata vermez, denetim temiz görünür.
+
+⚠️ Bu satır bir ölçüm hatasından doğdu: `bolgeler.js`'i "motorun okuduğu dosya"
+sanmıştım (grep çıktısında görüp `open(...,"w")` mu `"r"` mi diye bakmadan).
+Oturum 16 düzeltti. `CLAUDE.md §5` zaten "🤖 ÜRETİLMİŞ — ELLE DÜZENLEME" diyordu
+ama **KOORDINASYON.md'de yoktu**, ve yeni gelen oturum bu dosyayı okuyor.
+
 ⚠️ **İki yer değişti:** Balkan ekseni Oturum 15'ten **Oturum 11'e** (Opus olduğu için),
 Orta Asya + Aral poligonu Oturum 11'den **Oturum 15'e** (mekanik iş) geçti.
 Oturum 15, `OTURUM-11-ORTA-ASYA.md` ve `OTURUM-11-KIMLIK.md` notlarını devralır.
