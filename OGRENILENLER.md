@@ -639,3 +639,53 @@ gövdesinin iki ayrı leke olması (1,66 km, 1288'e kadar) · 1413-07-05'te 289.
 116 km kara sıçraması — yani **gerçek**. Kullanıcının tespiti haklıydı, sebebi
 meşru. Bir denetimin en değerli çıktılarından biri, şüpheyi *doğrulamak* değil
 **temize çıkarmaktır**; aksi hâlde düzeltilecek diye var olmayan bir hata kovalanır.
+
+---
+
+## 24. Motor yalnız VAR OLANA yaslanabilir
+
+`§22` "cetvel" şikâyetinin ölçüsünü verdi: köşe/1000 km, gövdelerin ortak kenarında.
+Libya'da (md.17) o sayı 18,1'di ve teşhis *"cetvel değil, nokta yokluğu"* oldu.
+Nokta yokluğu **gerçekti ve giderildi** — 192.614 → 48.876 km²/nokta, dört kat.
+Ama cetvel görüntüsü **devam etti.** Teşhis yarım kalmış.
+
+Oturum 14 sebebi ölçtü. Motor sınırı nehire (0,30° ≈ 33 km) ya da dağ sırtına
+(0,35° ≈ 39 km) yaslıyor:
+
+```
+                          LİBYA        ANADOLU
+motorun okuduğu nehir     0 parça      17 parça / 6.746 km
+motorun sırt saydığı      3 parça       3 parça
+```
+
+Libya'nın üç sırtının **hiçbiri Fizan sınırında değil** — oysa görünür cetvel
+çizgilerinin beşi de orada (22-28°K, 10-16°D).
+
+> Fizan'daki sınırın 33-39 km içinde **yaslanacak hiçbir şey yok.** Ham Voronoi
+> orta dikmesi olarak kalıyor — ve orta dikme tanımı gereği **düz bir doğrudur.**
+
+Yani cetvel, motorun kusuru değil; motorun **girdisinin yokluğu**. Anadolu'da sınır
+kıvrılıyor çünkü orada kıvrılacak bir nehir var.
+
+**Ve beş kenarın beşi de `(boş) | OSMANLI`:** çizgi iki devlet arasında değil,
+Osmanlı ile **sahipsiz çöl** arasında. Çölde sınır tarihen zaten tanımsızdı;
+keskin çizgi, olmayan bir kesinlik iddia ediyor.
+
+### Nokta eklemenin ÖLÇÜLMÜŞ tavanı
+
+```
+bugün       18 kenar  4.298 km  en uzun 438
+7 nokta     19 kenar  4.010 km  en uzun 451   ← en uzun ARTTI
+8 nokta     20 kenar  4.137 km  en uzun 390
+9 nokta     21 kenar  3.931 km  en uzun 390
+```
+
+Dokuz nokta için kazanç: en uzun **-%11**, toplam **-%9**. **md.17 nokta ekleyerek
+KAPANMAZ, yalnız yumuşar.** Ve 7. aşamada en uzunun *artması* tesadüf değil —
+İdehân Ubârî eklenince Gât'ın batı sınırı yeni tepe oluyor, Tâsîlî onu kırıyor.
+Liste bir küme olarak çalışıyor; bir nokta çıkarılırsa ölçüm geçersiz.
+
+**Genel ders:** bir düzeltmenin tavanını **uygulamadan önce ölç.** Burada ölçüm,
+doğru yönde ilerleyen bir çabanın hedefe varamayacağını gösterdi — ve daha
+pahalısı, ilk aday listenin işi **%13 kötüleştireceğini**. Simülasyon olmasaydı
+dokuz nokta eklenip "md.17 tamam" denecekti.
