@@ -107,6 +107,27 @@ Kilit **Oturum 16**'da. Ama Oturum 16'nın ölçtüğü gibi bu artık yetmiyor:
 3. Üretim koşar (30+ dk). Bu sürede hiçbir yazma yok.
 4. Oturum 16 "motor serbest" der. Kilidi bırakan taraf açar.
 
+### 🔴 KİLİT İKİ YÖNLÜDÜR — tek yönlü duyuru güvenilmez
+
+Yukarıdaki protokol yalnız **başlatan** tarafı bağlıyordu ve bu bir kez kırıldı:
+üretim 21:53'te başladı, kilit duyurusu gönderildi ama **mesaj kuyruğa alındı**
+(hedef oturum turunu bitirmeden ulaşmadı), 22:06'da `yerlesimler_afrika.js`'e
+108 satır yazıldı. Koşu temiz bitecekti, denetim temiz çıkacaktı, harita
+sessizce veriden geri kalacaktı.
+
+Ters yön de yazılı olmalı — Oturum 14'ün önerisi:
+
+> **Uzun bir yazma turuna başlamadan önce YAZAN TARAF sorar: "üretim koşuyor mu?"**
+
+Ölçüsü basit: `git status` ile `data/bolgeler.js` · `donemler.js` ·
+`devletler_harita.js` damgalarına bak. Son dakikalarda değişmişlerse motor koşuyor.
+
+**Neden iki yön şart:** duyuru mesaj katmanında yaşıyor ve mesaj gecikebilir;
+`uret_petek.py`'deki parmak-izi bekçisi (`00468aa`) çöpe gitmeyi **görünür**
+kılıyor ama **önlemiyor**. Önleme yalnız iki tarafın da sorması hâlinde çalışır.
+Bu, `OGRENILENLER §15`'in ("bir aracın kör noktası aynadaki yönü sormamaktır")
+protokol hâli.
+
 ⚠️ Motorda **uçtan uca koşturulmamış üç değişiklik birikti**: `kur:`/`bit:`
 epokları (b781c2c), yedinci denetim tabanı, 5 yeni renk. Yeni dönemin ilk işi
 bu üçünü tek koşuda doğrulamak.
