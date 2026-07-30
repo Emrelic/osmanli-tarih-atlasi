@@ -421,3 +421,349 @@ Hepsi `<title>` ile sınandı, 2026-07-30.
 6. 🔴 **İki dosya index.html'e bağlanmamış:** `olaylar_ek11.js` (benim) ve
    `olaylar_ek10.js` (Oturum 11'in). `OGRENILENLER §15` vakası tekrar ediyor —
    denetim temiz diyor, tarayıcı görmüyor.
+
+
+---
+---
+
+# BÖLÜM II — hatalar 14, md.4 · md.5 (Doğu Anadolu / İran)
+
+> Merkez oturumun 2026-07-31 görevi. `data/yerlesimler.js`'e YAZILMADI —
+> düzeltmeler aşağıda liste hâlinde, uygulayan entegrasyon oturumudur.
+> Bu bölümdeki bütün coğrafya sayıları 22:51 / 23:16 damgalı
+> `devletler_harita.js` ve `donemler.js` çıktılarından ölçüldü.
+
+## 12. Baş sonuçlar — üç cümle
+
+1. **md.4'ün sebebi "harita kıpırdamıyor" değil, MÜKERRER MADDE ÇİFTİDİR.**
+   Kullanıcının tıkladığı madde `1501-01-01`, haritayı kırdıran madde
+   `1501-07-01` — arada **181 gün** var ve o aralık **189 günlük ölü bölgedir**.
+   Harita temmuzda gerçekten kıpırdıyor: `safevi` 0 → **269.654 km²**.
+2. **`akkoyunlu 76/100` taşmasının çoğu kayıt hatası değil, `devletler.js`
+   ömür hatasıdır** — ve merkez oturumun görev tanımındaki gerekçe yanlış:
+   🔴 **"Akkoyunlu 1508'de Elvend'in ölümüyle sona erdi" cümlesi iki noktada
+   da hatalı.** TDV `akkoyunlular`: Elvend **1505'te Âmid'de** öldü, hânedan
+   **1514'te Murad'ın ölümüyle** bitti. 1508 ne birinin ne ötekinin tarihidir.
+   Gerçek kayıt hatası **yalnız dört tanedir**: Diyarbakır · Mardin · Bitlis ·
+   Erzurum.
+3. **md.5'in cevabı (a), (b) ve (c)'nin ÜÇÜ BİRDEN — bölge bölge.**
+   Malatya-Adıyaman boşluğu **tarihen gerçektir** (a); yalnız **Ergani**'nin
+   noktası yoktur (b); Mardin · Erzurum · Bitlis · Malatya · Diyarbakır'ın
+   **beşinin de tarihi kaynakla oynuyor** (c).
+
+---
+
+## 13. 🔴 Yapısal bulgu — Değişmez 2 `s:` dönemlerini HİÇ denetlemiyor
+
+Bu, md.4'ün altından çıkan ve md.4'ten büyük olan bulgudur.
+
+`CLAUDE.md §3` Değişmez 2 komutu şu döngüyü kuruyor:
+
+```js
+for (const p of (y.d||[]).concat(y.v||[]))
+```
+
+`y.s` yok. Yani **yabancı devletlerin toprak değişimleri denetimin dışında.**
+Osmanlı'nın aldığı/verdiği her gün ±30 gün içinde madde arıyoruz; Safevî'nin
+Akkoyunlu'dan aldığı hiçbir gün için aramıyoruz.
+
+Ölçüm — bütün `s:` kırılmaları için aynı ±30 gün ölçütü koşturuldu:
+
+| Ölçüm | Sayı |
+|---|---|
+| Toplam `s:` kırılma tarihi | 543 |
+| ±30 gün içinde maddesi OLMAYAN | **112** |
+
+En büyük delikler Akkoyunlu'nun çözülüşüne ait — yani md.4 tesadüf değil,
+denetlenmemiş boyutun en kalabalık köşesi:
+
+| Kırılma | Kaç kayıt | En yakın madde | Açık |
+|---|---|---|---|
+| `1507-05-24` | 18 | — | **844 gün** |
+| `1507-01-01` | 10 | — | **987 gün** |
+| `1508-01-01` | 46 | — | **622 gün** |
+| `1510-12-02` | 24 | — | 120 gün |
+| `1502-01-01` | 10 | — | 59 gün |
+| `1503-01-01` | 37 | 18 gün ötede | ⚠️ aşağıya bak |
+
+`1503-01-01`, ±30 gün ölçütünü **teknik olarak geçiyor** — 18 gün ötesinde bir
+madde var. O maddenin başlığı: **"Osmanlı-Venedik Savaşı'nın sona ermesi."**
+37 kayıt Akkoyunlu'dan Safevî'ye geçerken kullanıcı ekranda Venedik barışını
+okuyor. Bu, kullanıcının en çok şikâyet ettiği hatanın (`CLAUDE.md §3`,
+Değişmez 2 gerekçesi) tam tanımıdır: *değişim, o güne rastgele denk gelen
+alakasız bir maddenin altında beliriyor.*
+
+**Öneri (`arac/denetle.py`, Oturum 6'nın dosyası):** Değişmez 2 döngüsüne `y.s`
+eklensin. Ölçüt gevşetilmesin; eşik ±30 gün kalsın. Beklenen ilk çıktı **112
+açık**. Ayrıca ±30 gün ölçütü **konu eşleşmesi bilmiyor**; 1503 vakası bunu
+gösteriyor, ama o ayrı bir iştir.
+
+---
+
+## 14. md.4 — Şah İsmail'in Tebriz'e girişi
+
+### 14.1 Ölçüm — harita kıpırdıyor, madde ıskalıyor
+
+Kullanıcının okuduğu madde (`data/olaylar_ek5.js:98`):
+
+```
+t:"1501-01-01"  b:"Akkoyunlu Devleti'nin çözülüşü: Şah İsmail'in Tebriz'e girişi"
+```
+
+Haritayı kırdıran madde (`data/olaylar_ek7.js:207`):
+
+```
+t:"1501-07-01"  b:"Şah İsmail'in Tebriz'i alması: Safevî Devleti'nin kuruluşu"
+```
+
+**İkisi aynı olaydır** ve arada 181 gün vardır. `1501-01-01`'in bir önceki
+kırılması `1500-12-24`, bir sonrakisi `1501-07-01`: yani ocak maddesine
+tıklayan kullanıcı **189 günlük ölü bölgenin** ortasına düşüyor ve Δ = 0
+görüyor. Bursa 1326 sınıfı değil — burada eksik gösterim yok, **fazla madde**
+var.
+
+Temmuzdaki gerçek değişim ölçüldü:
+
+| Kesit | akkoyunlu km² | safevi km² |
+|---|---|---|
+| 1500-06-15 | 1.619.932 | 0 |
+| 1501-08-15 | 1.415.386 | **269.654** |
+
+`1501-07-01`'de **37 kayıt** el değiştiriyor. Harita fazlasıyla kıpırdıyor.
+
+⚠️ `denetle.py`'nin 5. kontrolü (mükerrer madde: ±400 gün + Türkçe kök, eşik
+0,34) bu çifti **yakalamadı**. İki başlık da "Tebriz" ve "Şah İsmail"
+içeriyor; eşiğin altında kalmasının sebebi başlıkların gövde kelimelerinin
+farklı olması ("çözülüş/giriş" vs "alma/kuruluş"). Eşik **düşürülmesin** —
+yanlış pozitif patlar; bunun yerine `yer:` ve `kisiler:` alanları da eşleşmeye
+katılsın. (Oturum 6'ya not.)
+
+### 14.2 Düzeltme — mükerrer çift
+
+**Öneri: `olaylar_ek5.js:98` KALDIRILSIN, `olaylar_ek7.js:207` kalsın.**
+Gerekçe: temmuz kaydı hem kırılmayı taşıyor, hem TDV `safeviler`'in verdiği
+tarihe (1501 yazı, Şerûr sonrası) uyuyor. Ocak kaydının anlattığı "çözülüş"
+içeriği kaybolmasın diye, aşağıdaki yeni maddeler o boşluğu **süreç olarak**
+dolduruyor.
+
+⚠️ `olaylar_ek5.js` Oturum 13'ün dosyası **değildir**; silme işlemini sahibi
+ya da entegrasyon yapar.
+
+### 14.3 `akkoyunlu 76/100` taşması — aritmetiği çıkarıldı
+
+`yerlesimler.js`'te 98 kayıtta 100 `akkoyunlu` dönemi var. Bitiş tarihi dağılımı:
+
+| Bitiş | Kaç |
+|---|---|
+| 1379-01-01 | 1 |
+| 1401-02-01 | 1 |
+| 1473-08-11 | 1 |
+| **1501-07-01** | **21** |
+| 1502-01-01 | 3 |
+| 1503-01-01 | 33 |
+| 1507-01-01 | 5 |
+| 1508-01-01 | 31 |
+| 1515-09-15 | 3 |
+| 1515-09-19 | 1 |
+
+`devletler.js`'te `akkoyunlu` **1340 → 1501-01-01**. 1502-01-01 ve sonrasında
+biten dönem sayısı: 3+33+5+31+3+1 = **76**. Oturum 2'nin bulduğu sayı budur,
+birebir. "14,7 yıl" maksimumu da 1501-01-01 + 14,7 ≈ 1515-09 — yani taşmanın
+ucundaki kayıtlar **Diyarbakır (1515-09-19), Mardin · Bitlis · Erzurum
+(1515-09-15)**.
+
+**Sayının çoğu kayıt hatası değildir.** TDV `akkoyunlular`: Elvend 1505'te
+Âmid'de öldü, hânedan 1514'te Murad'ın ölümüyle bitti. Yani `devletler.js`'in
+`t:"1501-01-01"` alanı **13 yıl erkendir**; 1503 ve 1508'de biten 64 dönem
+tarihen doğrudur. Düzeltilecek yer önce dizindir.
+
+**Ama dört kayıt gerçekten yanlış** — ve dördü de md.5'le kesişiyor (§15.3).
+
+---
+
+## 15. md.5 — Yavuz'un Diyarbakır-Urfa-Mardin hattı
+
+### 15.1 (a) Kullanıcının gördüğü boşluk TARİHEN GERÇEK
+
+Malatya ve çevresi Memlûk sahasıydı ve Mercidabık'tan **sonra** geçti. Veri bunu
+zaten doğru yazıyor:
+
+```
+Malatya · Kâhta · Divriği · Behisni (Besni) · Arapkir · Hısn-ı Mansûr (Adıyaman)
+   memluk 1281→1399-09-01 · OSM 1399→1402 · memluk 1402-07-28→1516-08-24 · OSM 1516-08-24→1923
+```
+
+Yani md.5'in ana gövdesi için cevap **(a): gösterim doğru.** Kullanıcının
+"aradaki bölge" diye gördüğü şey, 1515 Diyarbekir fethi ile 1516 Memlûk
+seferinin arasındaki **bir yıllık gerçek boşluktur.**
+
+⚠️ **Kendi ölçümümde bir yanlış negatif çıktı, kayda geçiyorum:** tam adla
+arama Adıyaman ve Besni için "KAYIT YOK" dedi. `startsWith` ile tekrarlayınca
+ikisinin de **var** olduğu görüldü — veride adları **"Hısn-ı Mansûr
+(Adıyaman)"** ve **"Behisni (Besni)"**. Tam eşleşmeyle bıraksaydım merkeze iki
+uydurma "nokta eksik" bulgusu göndermiş olacaktım. *Bu depoda yerleşim araması
+her zaman `startsWith` / parça eşleşmeyle yapılmalı; tarihî adlar parantez içi
+modern adla yazılıyor.*
+
+### 15.2 (b) Yalnız bir nokta eksik: **ERGANİ**
+
+Kullanıcının saydığı üç yerden ikisi veride var; **Ergani yok.** En yakın
+petekler ve o peteklerin 1515-10 sahipleri:
+
+| Komşu | Uzaklık | 1515-10 sahibi |
+|---|---|---|
+| Palu | 50 km | `safevi` |
+| Diyarbakır | 57 km | OSMANLI (1515-09-19'dan) |
+| Harput | 67 km | `safevi` |
+
+`MIMARI §2` emilmesi: Ergani en yakın peteğe düşüyor ve **Safevî boyanıyor** —
+oysa 1515 Eylül'ünden itibaren Osmanlı Diyarbekir sancağıdır. Yanlış boyama
+penceresi **~7,5 ay** (1515-09-19 → 1516-05-01, Harput/Palu'nun Osmanlı'ya
+geçtiği tarih).
+
+🔴 **TDV `ergani` slug'ı ÖLÜDÜR** — `<title>` = "Arama - TDV İslâm
+Ansiklopedisi". Nokta eklenirken kaynak `diyarbakir` maddesinden alınmalı.
+
+### 15.3 (c) Beş kayıtta tarih kaynakla oynuyor
+
+| Kayıt | Veride | TDV | Fark |
+|---|---|---|---|
+| Diyarbakır | OSM `1515-09-19` | 10 Eylül 1515 | 9 gün |
+| Mardin | OSM `1515-09-15` | şehir Mayıs 1516, kale 1516 sonu / Mayıs 1517 | **8-20 ay** |
+| Bitlis | OSM `1515-09-15` | kesin Osmanlı hâkimiyeti **1534** | **19 yıl** |
+| Erzurum | `akkoyunlu` → OSM `1515-09-15` | 1502'den Safevî, Osmanlı 1518-19 | **3 yıl + kimlik** |
+| Malatya | OSM `1516-08-24` | 28 Temmuz 1516, Hadım Sinan Paşa | 27 gün, **Mercidabık'tan ÖNCE** |
+
+Malatya'nınki küçük görünse de anlamlıdır: TDV'ye göre Malatya **Mercidabık'tan
+önce** alındı; veri onu Mercidabık'tan **sonraya** koyuyor. Yani sebep-sonuç
+ters görünüyor.
+
+### 15.4 Ortak kenar ölçümü — sınır çözünürlüğü Libya sınıfında
+
+`OGRENILENLER §22` reçetesi, Güneydoğu Anadolu kutusu `36 , 36.5 , 42 , 39.5`:
+
+| Gün | Gövdeler | Ortak kenar | Köşe | **köşe/1000 km** |
+|---|---|---|---|---|
+| 1515-10-01 | OSMANLI ↔ memluk | 158,9 km | 4 | **25,2** |
+| 1516-06-15 | OSMANLI ↔ memluk | 303,1 km | 16 | **52,8** |
+| 1515-10-01 | OSMANLI ↔ safevi | 280,1 km | 19 | **67,8** |
+
+Sağlıklı bant 115-118. **159 kilometrelik bir sınır 2 segmentle çiziliyor** —
+Libya çölü sınıfı (18,1). Kullanıcının "bu hatalı bir gösterim mi" sorusunun
+üçüncü cevabı budur: fetih tarihleri düzeltilse bile **o hat düz çizgi olarak
+kalır**, çünkü aradaki 300 kilometrede petek üretecek nokta yok. Ergani tek
+başına yetmez; Siverek-Ergani-Çermik üçgeni ile Malatya-Adıyaman arası ayrı
+ayrı nokta ister.
+
+### 15.5 🔴 Reçete kalibrasyonu — merkeze soru
+
+Kendi uygulamamla (`scratchpad/ortakkenar.js`) merkezin verdiği çapaları
+tutturamıyorum:
+
+| Çapa | Merkez | Bende | Durum |
+|---|---|---|---|
+| Boğdan | 84,9 - 93,1 | 80,6 | ~%5 içinde ✔ |
+| Kırım iç sınır | **32,5** | **62,8** | 🔴 iki kat |
+
+Boğdan tutuyor, Kırım tutmuyor. İkisi arasında yöntem farkı olmadığına göre
+fark **kutu tanımından** ya da hangi gövdenin `TABI` sayıldığından geliyor.
+Kırım işine başlamadan önce Oturum 16'nın kullandığı kutu ve gün
+netleştirilmeli — yoksa aynı yarımada için iki farklı sayı dolaşacak.
+(Ölçtüğüm kutu: `32.4 , 44.3 , 36.7 , 46.3`; içinde **3** nokta buldum —
+Kefe `ds`, Bahçesaray `dvs`, Kerç `ds` — merkez dört diyor, o da ayrıca
+uyuşmuyor.)
+
+---
+
+## 16. `data/yerlesimler.js` düzeltme listesi — hatalar 14 turu
+
+🔒 Bu turda dosyaya **yazılmadı**. Uygulayan: entegrasyon oturumu.
+
+**A. Kimlik düzeltmesi — dört anakronik `akkoyunlu` dönemi**
+
+| Kayıt | Bugün | Olması gereken | Kaynak |
+|---|---|---|---|
+| Erzurum | `akkoyunlu` 1348 → 1515-09-15 | `akkoyunlu` 1348 → **1502-01-01**, `safevi` 1502-01-01 → **1518-01-01**, OSM 1518'den | TDV `erzurum` |
+| Diyarbakır | `akkoyunlu` 1378 → 1515-09-19 | `akkoyunlu` 1378 → **1507-05-24**, `safevi` 1507-05-24 → 1515-09-10, OSM **1515-09-10** | TDV `diyarbakir`, `safeviler` |
+| Mardin | `akkoyunlu` 1467-11-10 → 1515-09-15 | `akkoyunlu` → **1507-05-24**, `safevi` → **1516-05-01**, OSM 1516-05-01'den | TDV `mardin` |
+| Bitlis | `akkoyunlu` 1467 → 1515-09-15 | `akkoyunlu` → **1507-01-01**, `safevi` → **1534-01-01**, OSM 1534'ten | TDV `bitlis` (doğrulanmadı — §17) |
+
+⚠️ Bitlis'in 1534'e çekilmesi haritada **19 yıllık bir Safevî çıkıntısı**
+açar ve tek başına yapılırsa çevresiyle çelişir (Van 1548'e kadar el
+değiştiriyor). **Van-Bitlis-Ahlat üçlüsü birlikte ele alınmalı**, tek kayıt
+olarak değil. Bu turda öneri seviyesinde bırakıldı.
+
+**B. Tarih düzeltmesi**
+
+| Kayıt | Bugün | Olması gereken |
+|---|---|---|
+| Malatya | OSM `1516-08-24` | **1516-07-28** (Hadım Sinan Paşa) |
+
+**C. Yeni nokta**
+
+| Ad | lat / lon | Zincir | Not |
+|---|---|---|---|
+| Ergani | ~38,27 / 39,76 | `akkoyunlu` 1467→1507-05-24 · `safevi` →1515-09-10 · OSM 1515-09-10→1923 | TDV slug'ı **ölü**; kaynak `diyarbakir` |
+
+**D. `data/devletler.js` (Oturum 3'ün dosyası) — ömür düzeltmesi**
+
+| Devlet | Bugün | Olması gereken | Kaynak |
+|---|---|---|---|
+| `akkoyunlu` | 1340 → **1501-01-01** | 1340 → **1514-01-01** | TDV `akkoyunlular`: Murad 1514'te öldü |
+
+Bu tek satır, Oturum 2'nin saydığı **76 taşmanın 64'ünü** kapatır.
+
+---
+
+## 17. TDV slug denetimi — bu tur
+
+| Slug | `<title>` | Durum |
+|---|---|---|
+| `safeviler` | "SAFEVÎLER - TDV İslâm Ansiklopedisi" | ✔ CANLI |
+| `akkoyunlular` | ✔ (mevcut `kaynak:` kümesinde) | ✔ |
+| `diyarbakir` · `mardin` · `van` · `bagdat` | ✔ (mevcut kümede) | ✔ |
+| `erzurum` | ✔ ölçüldü | ✔ CANLI |
+| **`ergani`** | "Arama - TDV İslâm Ansiklopedisi" | 🔴 **ÖLÜ** |
+| `ismail-i` | ölçülemedi (oturum limiti) | ⚠️ **DOĞRULANMADI — kullanılmadı** |
+| `bitlis` | ölçülmedi | ⚠️ §16 A satırındaki tek doğrulanmamış kaynak |
+
+`ismail-i` ve `bitlis` hiçbir maddede `kaynak:` olarak kullanılmadı.
+
+---
+
+## 18. `data/olaylar_ek11.js`'e yazılan beş madde
+
+Değişmez 2'nin (genişletilmiş, `s:` dâhil) açık bıraktığı beş kırılmaya
+karşılık gelir:
+
+| Madde | Kırılma | Kaç kayıt |
+|---|---|---|
+| Erzurum-Van hattının Safevî'ye geçişi | `1502-01-01` | 10 |
+| Murad'ın Hemedan yenilgisi — Irâk-ı Acem'in düşüşü | `1503-01-01` | 37 |
+| Şah İsmail'in Diyarbekir seferi | `1507-01-01` + `1507-05-24` | 28 |
+| Bağdat'ın Safevî'ye geçişi | `1508-01-01` | 46 |
+| Merv Savaşı — Horasan'ın alınması | `1510-12-02` | 24 |
+
+Beşi birden `1501-07-01`'den `1510-12-02`'ye uzanan **çözülme sürecini** madde
+madde görünür kılıyor — merkezin "TEK bir gün değil, bir çözülme süreci"
+tarifi karşılandı.
+
+---
+
+## 19. Merkeze özet — beş cümle
+
+1. **md.4 bir görünürlük hatası değil, mükerrer madde hatasıdır.** Harita
+   `1501-07-01`'de kıpırdıyor (`safevi` 0 → 269.654 km², 37 kayıt); kullanıcının
+   tıkladığı `1501-01-01` maddesi **189 günlük ölü bölgenin** içinde duruyor.
+   Çözüm: ocak kaydını kaldır, süreci beş maddeyle anlat (yazıldı).
+2. 🔴 **Görev tanımındaki tarih hatalı:** Akkoyunlu 1508'de Elvend'in ölümüyle
+   bitmedi — TDV'ye göre **Elvend 1505'te öldü, hânedan 1514'te bitti.**
+3. **`akkoyunlu 76/100` taşmasının 64'ü `devletler.js`'in tek satırıdır**
+   (`t:"1501-01-01"` → `1514-01-01`). Gerçek kayıt hatası dörttür:
+   **Diyarbakır · Mardin · Bitlis · Erzurum**, ve dördü de `safevi` olmalı.
+4. **md.5'in cevabı (a)+(b)+(c).** Malatya-Adıyaman boşluğu gerçektir;
+   **yalnız Ergani'nin noktası yok**; beş kayıtta tarih kaynakla oynuyor.
+   Sınırın kendisi **25,2 köşe/1000 km** — Libya çölü sınıfı; tarihler
+   düzeltilse bile o hat düz çizgi kalır.
+5. 🔴 **Değişmez 2 `s:` dönemlerini hiç denetlemiyor: 543 yabancı kırılmanın
+   112'si açık.** Bu, md.4'ten büyük ve bu turun asıl bulgusudur.

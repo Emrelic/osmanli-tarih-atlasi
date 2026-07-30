@@ -650,3 +650,54 @@ Yan bulgu: sahipsiz sayısı **34 → 40** (altı yeni Libya çölü noktası, k
 `CLAUDE.md §1.5` ve `§3` hâlâ 34 diyor, güncellenmeli.
 
 Denetim: `SONUÇ: temiz` — 452 kırılma 0 açık, mükerrer 0 şüpheli çift.
+
+---
+
+## 2026-07-31 — hatalar 14, md.4 + md.5 (Doğu Anadolu / İran)
+
+Merkezin verdiği iki madde ölçüldü ve `OTURUM-13-ANADOLU.md` **BÖLÜM II**'ye
+yazıldı. `data/yerlesimler.js`'e yazılmadı (kilit kuralı); düzeltmeler orada
+liste hâlinde, uygulayan entegrasyon.
+
+🔴 **Bu turun asıl bulgusu md.4 değil:** `CLAUDE.md §3` Değişmez 2 komutu
+`(y.d||[]).concat(y.v||[])` döngüsü kuruyor — **`y.s` yok.** Yabancı
+devletlerin toprak değişimleri bugüne kadar hiç denetlenmedi. Ölçüldü:
+**543 `s:` kırılmasının 112'sinin ±30 gün içinde maddesi yok.**
+
+**md.4** — sorun eksik gösterim değil, **mükerrer madde çifti**:
+`olaylar_ek5.js:98` (1501-01-01) ile `olaylar_ek7.js:207` (1501-07-01) aynı
+olay, arada 181 gün. Kullanıcının tıkladığı ocak maddesi **189 günlük ölü
+bölgenin** ortasında; harita temmuzda gerçekten kıpırdıyor (`safevi`
+0 → **269.654 km²**, 37 kayıt). `denetle.py`'nin mükerrer kontrolü bu çifti
+yakalamadı — eşik düşürülmesin, `yer:`/`kisiler:` eşleşmeye katılsın.
+
+🔴 **Görev tanımındaki tarih hatalı:** Akkoyunlu 1508'de Elvend'in ölümüyle
+bitmedi. TDV `akkoyunlular`: **Elvend 1505'te Âmid'de öldü, hânedan 1514'te
+Murad'ın ölümüyle bitti.** `akkoyunlu 76/100` taşmasının **64'ü**
+`devletler.js`'in tek satırıdır (`t:"1501-01-01"` → `1514-01-01`). Gerçek kayıt
+hatası **dörttür**: Diyarbakır · Mardin · Bitlis · Erzurum, dördü de `safevi`.
+
+**md.5** — cevap **(a)+(b)+(c) üçü birden**. Malatya-Adıyaman boşluğu
+**tarihen gerçek**; yalnız **Ergani**'nin noktası yok (TDV slug'ı `ergani`
+🔴 **ÖLÜ**); beş kayıtta tarih kaynakla oynuyor. Ortak kenar (§22 reçetesi,
+kutu `36,36.5,42,39.5`): **1515-10-01 OSMANLI↔memluk = 25,2 köşe/1000 km** —
+Libya çölü sınıfı. 159 km'lik sınır 2 segmentle çiziliyor; tarihler düzeltilse
+bile hat düz kalır.
+
+⚠️ **Yanlış negatif, kayda geçsin:** tam adla arama Adıyaman ve Besni için
+"KAYIT YOK" dedi; `startsWith` ile ikisi de bulundu — veride
+**"Hısn-ı Mansûr (Adıyaman)"** ve **"Behisni (Besni)"**. Bu depoda yerleşim
+araması her zaman parça eşleşmeyle yapılmalı.
+
+🔴 **Reçete kalibrasyonu tutmuyor:** Boğdan merkez 84,9-93,1 / bende 80,6 (✔),
+ama Kırım iç sınır merkez **32,5** / bende **62,8** — iki kat. Kırım işine
+başlamadan önce Oturum 16'nın kutusu ve günü netleşmeli. Ölçtüğüm kutuda
+(`32.4,44.3,36.7,46.3`) **3** nokta var, merkez dört diyor — o da uyuşmuyor.
+
+`data/olaylar_ek11.js`'e **beş madde** eklendi (1502 · 1503 · 1507 · 1508 ·
+1510-12-02), toplam 8. Çözülüş artık tek gün değil, dokuz yıllık süreç olarak
+görünüyor. Kaynak: `safeviler` ✔ ve `akkoyunlular` ✔. `ismail-i`
+**doğrulanamadı** (oturum limiti) ve kullanılmadı.
+
+**Devreden üç blok:** Selçuklu 1243-1281 · hatalar 13'ün kalan Anadolu
+maddeleri · Kırım (md.13).

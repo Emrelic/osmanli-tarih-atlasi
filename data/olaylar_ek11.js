@@ -75,6 +75,73 @@ window.OLAYLAR_EK11 = [
   gun:"1426 (829 h.; TDV iki maddede 1425-26 ve 1426 diyor, gün yok)",
   yer:"İpsili (Sisam karşısı), Aydın-ili", kisiler:"Aydınoğlu Cüneyd Bey, II. Murad, Anadolu Beylerbeyi Hamza Bey",
   d:"Aydın-ili'ne yeniden hâkim olan Cüneyd Bey'in Anadolu beylerini kışkırtması ve Venedik ile temas araması üzerine II. Murad, Anadolu Beylerbeyi Hamza Bey'i onun üzerine gönderdi. Oğlu Kurd Hasan Akhisar yakınlarında yenilip esir düşünce Sisam adası karşısındaki İpsili'ye çekilen Cüneyd, Karamanoğlu'ndan beklediği yardım gelmeyince ve Osmanlı ile birlikte hareket eden Cenevizliler onu denizden ablukaya alınca teslim olmak zorunda kaldı; bütün soyuyla birlikte ortadan kaldırıldı. Aydınoğulları toprakları böylece tamamıyla Osmanlı idaresine girdi. ⚠️ Tarihte TDV kendi içinde ayrışıyor: `aydinogullari` maddesi 829 (1425-26), `cuneyd-bey` maddesi 1426 veriyor; haritadaki 1425-06-01 kırılması ikisinden de erkendir (bkz. OTURUM-13-ANADOLU.md §4).",
-  kaynak:"cuneyd-bey" }
+  kaynak:"cuneyd-bey" },
+
+
+// ---------------------------------------------------------------------------
+// C) hatalar 14 md.4 — AKKOYUNLU'NUN ÇÖZÜLÜŞÜ (1502-1510)
+// ---------------------------------------------------------------------------
+// Kullanıcı "Akkoyunlu devletinin çözülüşü ve Şah İsmail'in Tebriz'e girişi
+// maddesinde buna dair gösterim olmalı haritada" dedi. Ölçüm, sorunun eksik
+// gösterim DEĞİL mükerrer madde olduğunu gösterdi: olaylar_ek5.js'teki
+// 1501-01-01 maddesi 189 günlük ölü bölgenin ortasında duruyor, haritayı
+// kırdıran madde ise olaylar_ek7.js'teki 1501-07-01. Ayrıntı:
+// OTURUM-13-ANADOLU.md §14.
+//
+// Aşağıdaki beş madde, merkezin istediği şeyi karşılıyor: çözülüş TEK BİR GÜN
+// değil, 1501'den 1510'a uzanan bir SÜREÇTİR ve her adımının haritada
+// karşılığı vardır.
+//
+// 🔴 YAPISAL BULGU — bu maddelerin var olma sebebi:
+// `CLAUDE.md §3` Değişmez 2 komutu `(y.d||[]).concat(y.v||[])` döngüsü kuruyor;
+// `y.s` YOK. Yani yabancı devletlerin toprak değişimleri BUGÜNE KADAR HİÇ
+// denetlenmedi. Ölçüldü: 543 `s:` kırılmasının 112'sinin ±30 gün içinde maddesi
+// yok. Aşağıdaki beş kırılma o 112'nin en kalabalık beşidir (10 + 37 + 28 + 46
+// + 24 = 145 kayıt). Ölçüt GEVŞETİLMEDİ; denetim genişletilmeli.
+//
+// TARİH HASSASİYETİ — beşinin de günü kaynakta yok
+// TDV `safeviler` yıl veriyor, gün vermiyor. `CLAUDE.md §4` gereği veride
+// hâlihazırda duran kırılma günü kullanıldı ve gerçek belirsizlik `gun`
+// alanına yazıldı. Uydurma gün yazılmadı.
+//
+// KAYNAK — iki slug da doğrulanmış kümede
+//   safeviler     → "SAFEVÎLER - TDV İslâm Ansiklopedisi"     ✓ (2026-07-31)
+//   akkoyunlular  → mevcut `kaynak:` kümesinde                ✓
+// ⚠️ `ismail-i` slug'ı DOĞRULANAMADI (oturum limiti) ve kullanılmadı.
+
+{ t:"1502-01-01", k:"siyaset", etiket:["siyaset","savas"],
+  b:"Erzurum ve Van havzası Safevî'ye geçti — Akkoyunlu'nun kuzey kanadı çöktü",
+  gun:"1502 (ay ve gün kaynakta yok)", yer:"Erzurum, Van, Erciş, Kemah",
+  kisiler:"Şah İsmail, Akkoyunlu Elvend Bey",
+  d:"Şerûr'da Elvend Bey'i yenip 1501 yazında Tebriz'e giren Şah İsmâil, ertesi yıl kuzeybatı istikametinde ilerleyerek Erzurum'dan Van gölü havzasına uzanan hattı hâkimiyeti altına aldı. Akkoyunlu Devleti Uzun Hasan'ın ölümünden sonra zaten taht kavgalarıyla ikiye bölünmüştü: Elvend Bey Azerbaycan ve Diyarbekir'i, amcazadesi Murad ise Irâk-ı Acem ve Fars'ı tutuyordu. Bu bölünme Safevî ilerleyişini kolaylaştırdı; bölge on kayıt hâlinde bir yıl içinde el değiştirdi. Erzurum bundan sonra on altı yıl Safevî elinde kaldı ve Osmanlı hâkimiyetine ancak Çaldıran'dan sonra, 1518-19'da girdi.",
+  kaynak:"akkoyunlular" },
+
+{ t:"1503-01-01", k:"siyaset", etiket:["siyaset","savas"],
+  b:"Murad Bey'in Hemedan yenilgisi: Irâk-ı Acem ve Fars Safevî'ye geçti",
+  gun:"1503 (908 h.; ay ve gün kaynakta yok)", yer:"Hemedan, Isfahan, Şîraz, Kâşân — Irâk-ı Acem ve Fars",
+  kisiler:"Şah İsmail, Akkoyunlu Sultan Murad",
+  d:"Akkoyunlu tahtının ikinci iddiacısı Sultan Murad, Şah İsmâil'e karşı Hemedan yakınlarında yapılan savaşta ağır bir yenilgiye uğradı ve Bağdat'a kaçtı. Bu tek savaşla Irâk-ı Acem, Fars ve Kirman bölgeleri Safevî idaresine girdi; haritada otuz yedi yerleşim aynı anda el değiştirir. Akkoyunlu Devleti'nin çözülüşünün en büyük tek adımı budur — Tebriz'in kaybı hânedanı başkentsiz bırakmıştı, Hemedan yenilgisi ise topraksız bıraktı. ⚠️ Bu kırılma bugüne kadar kronolojide karşılıksızdı: ona en yakın madde on sekiz gün ötedeki Osmanlı-Venedik Savaşı'nın sona ermesiydi, yani kullanıcı İran'ın el değiştirdiğini görürken ekranda Venedik barışını okuyordu.",
+  kaynak:"safeviler" },
+
+{ t:"1507-01-01", k:"siyaset", etiket:["siyaset","savas"],
+  b:"Şah İsmail'in Diyarbekir seferi: Akkoyunlu'nun son merkezleri düştü",
+  gun:"1507 (912-913 h.; ay ve gün kaynakta yok)", yer:"Diyarbekir, Âmid, Mardin, Urfa, Harput, Siverek",
+  kisiler:"Şah İsmail, Akkoyunlu hânedanı",
+  d:"Azerbaycan ve İran platosunu ele geçiren Şah İsmâil 1507'de batıya, Akkoyunlu hânedanının doğduğu Diyarbekir bölgesine yöneldi. Âmid'den Mardin'e, Urfa'dan Harput'a uzanan hat iki hamlede Safevî idaresine girdi ve Akkoyunlular fiilen ortadan kalktı. Bu sefer aynı zamanda Safevî sınırını ilk defa Osmanlı ve Memlûk sınırlarına dayadı; Çaldıran'a giden gerilimin coğrafî zemini böyle kuruldu. ⚠️ Hânedanın tarihî sonu bu tarih değildir: TDV'ye göre Elvend Bey 1505'te Âmid'de ölmüş, hânedan ise 1514'te Murad'ın ölümüyle sona ermiştir; 1507 toprağın son kaybıdır.",
+  kaynak:"safeviler" },
+
+{ t:"1508-01-01", k:"siyaset", etiket:["siyaset","savas"],
+  b:"Bağdat'ın Safevî'ye geçişi — Irâk-ı Arab el değiştirdi",
+  gun:"1508 (914 h.; ay ve gün kaynakta yok)", yer:"Bağdat, Kerbelâ, Necef, Musul — Irâk-ı Arab",
+  kisiler:"Şah İsmail",
+  d:"Hemedan yenilgisinden sonra Bağdat'a sığınan Akkoyunlu Sultan Murad'ın ardından Şah İsmâil 1508'de Irâk-ı Arab'a girdi ve Bağdat'ı aldı. Kerbelâ ve Necef'teki türbelerin Safevî idaresine geçmesi, hareketin mezhebî iddiası bakımından Tebriz'in alınması kadar önemliydi. Haritada kırk altı yerleşim aynı gün el değiştirir; bu, çözülüşün son ve en geniş coğrafî adımıdır. Bağdat 1534'te Kanûnî'nin Irakeyn Seferi'ne kadar Safevî elinde kaldı.",
+  kaynak:"safeviler" },
+
+{ t:"1510-12-02", k:"savas", etiket:["savas","siyaset"],
+  b:"Merv Savaşı: Özbekler ağır yenilgiye uğradı, Merv ve Herat alındı",
+  gun:"1510 sonu (916 h.; TDV yalnız yılı veriyor, veri 1510-12-02 taşıyor)",
+  yer:"Merv, Herat — Horasan", kisiler:"Şah İsmail, Şeybânî Han (Muhammed Şeybânî)",
+  d:"Batıda Akkoyunlu mirasını tamamlayan Şah İsmâil doğuya, Horasan'a yürüdü ve Merv önlerinde Özbekler'i ağır bir yenilgiye uğrattı; Şeybânî Han savaş meydanında öldü. Merv ve Herat Safevî hâkimiyetine girdi ve Safevî Devleti Fırat'tan Ceyhun'a uzanan sınırlarına kavuştu. Böylece 1501 yazında Tebriz'e girişle başlayan süreç dokuz yılda tamamlanmış oldu: Akkoyunlu mirası bütünüyle Safevî idaresine geçti ve Osmanlı Devleti doğusunda kendi büyüklüğünde ikinci bir devletle komşu hâle geldi.",
+  kaynak:"safeviler" }
 
 ];
