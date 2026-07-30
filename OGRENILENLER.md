@@ -533,3 +533,31 @@ sayfası **ya da başka bir maddenin başlığı** — sonuç "doğrulanmadı"d�
 "maddesi yok" sonucuna varmadan önce **en az bir alternatif slug denenmeli**
 (`alaiye` → `alaiye-beyligi`); yokluk iddiası, varlık iddiasından daha fazla
 arama ister, çünkü tek bir başarısız denemeyle kanıtlanamaz.
+
+---
+
+## 21. Çok satırlı metni kabuktan geçirme — iki kabuk, iki sözdizimi
+
+Oturum 14 commit mesajını PowerShell here-string'iyle (`@'...'@`) yazdı, ama Bash
+aracı **Git Bash**'tir. Bash bunu ayrıştıramadı: commit oluştu, mesaj olarak
+yalnız ilk satır girdi ve başına `@` yapıştı. `git commit --amend -F <dosya>` ile
+düzeltildi.
+
+Bu, `CLAUDE.md §11`'in *"`sed` ile Türkçe karakterli düzeltme yapma, scratchpad'e
+betik yaz"* kuralının aynı ailesinden — kural `sed` için yazılmıştı, oysa kök
+sebep daha genel:
+
+> **Çok satırlı metni kabuk üzerinden geçirme.** PowerShell ve Bash iki ayrı araç
+> ve iki ayrı sözdizimi. `@'...'@` PowerShell'de here-string, Bash'te ayrıştırma
+> hatası. Commit mesajı, yama, veri — hepsi scratchpad'e **dosya** olarak yazılıp
+> `-F <dosya>` ya da `< dosya` ile verilmeli.
+
+Aynı ailenin daha önce görülmüş üyeleri: kabuğun ters tırnağı yutması, `\n`'i
+gerçek satır sonuna çevirmesi (bir kez bir dize sabitinin **içine** satır sonu
+yazdı), Türkçe karakterleri ASCII'ye düşürüp altı arama anahtarını bozması
+(İznik/Iznik).
+
+**Neden bu hata sınıfı sinsi:** çoğu sessiz. Commit *oluştu*, dosya *yazıldı*,
+komut *başarılı döndü* — yalnız içerik yanlış. Hata vermediği için ancak sonuca
+bakınca görülüyor. `§19`'un ("hariç tuttuğunun gerçekten hariç kaldığını ölç")
+kabuk hâli: **kabuktan geçen metni, geçtikten sonra oku.**
