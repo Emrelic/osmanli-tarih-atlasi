@@ -452,6 +452,54 @@ listesine Kefe'yi ben koymuştum; prototipin benimle aynı fikirde olmaması kus
 olarak doğru olan tarihî olarak yanlış olabilir (Sina'nın Mısır'a mı Hicaz'a mı gideceği
 bir petek kararı değil, bir idare kararıdır). Liste merkez oturuma gitti.
 
+## 7f. Boğazlar — bir bulgu, bir yanlış çare, bir geri alma
+
+**Bulgu (doğru):** kara maskesinde Çanakkale, İstanbul, Cebelitarık ve Kerç boğazları
+KAPALI. Kıyıdan uzak iç noktalarla ölçüldü — Lüleburgaz, Eskişehir, Kordoba, Fez,
+Simferopol, Krasnodar, Sinâ, Kahire **sekizi de bileşen #0**. Süveyş de bağlı ama o
+doğru (gerçek berzah). Kontrol: Bozcaada ve Malmö ayrı çıkıyor, ada testi çalışıyor.
+
+Bu, `hatalar 12 md.6`'yı açıklıyor: Karesi ilhak edilince Gelibolu'da Osmanlı rengi
+çıkmasının sebebi ada kuralının bozuk olması değil, **kuralın devreye hiç girmemesi.**
+
+**Yanlış çare (önerdim, sonra geri aldım):** `data/bogazlar.js` ile boğazları
+`goller.js` gibi maskeden kesmek. Zarif görünüyordu — yeni kavram yok, `oku_goller()`'in
+kardeşi bir okuyucu yeter. Merkez oturum da onayladı.
+
+**Ölçüm çürüttü:** dört boğaz kesildi →
+```
+bileşen 1.103 → 1.108 (+5)
+parça #0 hâlâ 33.229.856 km² — Gelibolu, Bursa, Tanca, Kefe, Taman HEPSİ İÇİNDE
+kazanılan 5 bileşen: Kilitbahir 115 km², Rumeli Hisarı 8 km², kıyı kırıntıları
+```
+Sebep düzeltilebilir bir hata değil, **coğrafya**: Trakya ile Anadolu, Çanakkale
+kesilse bile Balkanlar → Ukrayna → Kafkasya diye karadan bağlı. Afrika ile Avrupa,
+Cebelitarık kesilse bile Sina'dan bağlı — ve Sina kesilemez.
+
+⭐ **Kusur maskede değil, ada kuralının kendisinde:** "aynı kara parçası" ölçütü
+kıtasal ölçekte hiçbir şey ayırt etmiyor. Boğazların kapalı olması gerçek bir gözlemdi
+ama **semptomdu, sebep değil.** Çözüm yalnız kara-kısıtlı Voronoi'dir; nitekim md.6'nın
+düzeltmesi (`Gelibolu → Çanakkale 806 km²`) zaten o prototipin çıktısında var.
+
+📌 Ders (ikimizi de bağlıyor): **bir çözümü uygulamadan önce çözdüğünü ölç.**
+"Mimariye uyuyor" bir doğruluk kanıtı değildir. Beş poligon çizilir, üretim koşulur,
+harita hiç değişmezdi — ve denetim de temiz derdi. Bu turun üçüncü "işlem başarılı
+döner, sonuç yanlıştır" vakası olurdu (r83 damgası ve devirler.js bayatlamasından sonra).
+Farkı: bu sefer ölçüm **kod yazılmadan** yakaladı.
+
+### Yan bulgu — maske tutarsızlığı YOK, hata testteydi
+
+Ara ölçümde Kilitbahir ve Kerç "su içinde" çıktı ve maske ile `denetle.py`'nin
+`konum_denetimi`'nin çeliştiğinden şüphelendim. Ölçtüm: **çelişki yok.**
+Kilitbahir, Kerç, Rumeli Hisarı, Anadolu Hisarı, Maydos, Gelibolu, Çanakkale, Taman —
+gerçek kayıt koordinatlarının **sekizi de KARADA.** Suda çıkan şey benim elle yazdığım
+test noktasıydı: gerçek Kilitbahir kaydından **1,30 km** uzaktaydı ve boğaz kanalına
+düşüyordu.
+
+⚠️ Kayda değer: 220 m toleranslı bir maskede **1,3 km'lik koordinat hatası** bir noktayı
+Avrupa yakasından kanalın ortasına taşımaya yetiyor. Kıyı yakınında elle yazılmış test
+koordinatı kullanma; kaydın kendi değerini oku.
+
 ## 8. Sıradaki iş — üretim penceresi
 
 Motorda **beş** değişiklik birikti ve **hiçbiri uçtan uca koşturulmadı**:
