@@ -387,3 +387,60 @@ Geri kalan her şey bende.
 - Başka dosyada düzeltme gerekiyorsa **sahibine bildir**, kendin yazma.
 - Sonnet oturumu kaynak gerektiren maddeye çarparsa **durur**, Opus'a havale eder.
 - Bitirince `oturumlar/OTURUM-N-ILERLEME.md` güncellenir.
+
+---
+
+## 8. YENİ EKSEN — tarih çizgisini Kösedağ'a (1243) geriye götürmek
+
+Kullanıcı kararı: *"tarih çizgimizi Anadolu Selçuklu Devleti'nin dağıldığı tarihe
+doğru ilerletelim… beylikleri de buna göre tekrar belirleyelim, kronolojiyi
+haritayı her şeyi geriye doğru genişletelim."*
+
+### Ölçüm — planı bu sayı belirliyor
+
+```
+927 yerleşim kaydı
+├─ 883'ünün en erken dönemi TAM OLARAK "1281-01-01"   (881'i s: yabancı sahip)
+├─ 1281'den ÖNCE başlayan kayıt                    : 0
+└─ 1281'den sonra başlayan                         : 22 (1395, 1452, 1466…)
+```
+
+**1281 gerçek bir tarih değil, atlasın EPOK DAMGASI.** O 883 tarihin hiçbiri
+"burası 1 Ocak 1281'de şu devletin oldu" demiyor; "atlas burada başlıyor" diyor.
+
+### 🔴 Sıralama kuralı — epok VERİDEN SONRA taşınır
+
+Epoku 1243'e çekip veri getirilmezse 883 kayıt o aralığı kapsamaz: harita 38 yıl
+**bomboş** görünür ve Değişmez 1 sahipsiz sayısı 34'ten ~900'e fırlar. Sıra:
+
+1. 1243-1281 verisi üretilir (Oturum 13 + 14)
+2. Kimlik ve devlet kayıtları açılır (Oturum 3 + 9)
+3. Motor epoku okur (Oturum 16)
+4. **En son** arayüzdeki başlangıç ve `<title>` değişir (ben)
+
+### Çapa: Kösedağ, 26 Haziran 1243
+
+Selçuklu'nun İlhanlı vassalı hâline geldiği ve merkezî otoritenin çöktüğü an —
+beylik boşluğunu yaratan tam olarak bu. Sultanlık ~1308'e kadar kâğıt üstünde
+sürüyor; **ikisi de veriye girmeli**, tek tarihe indirgemek yanlış olur.
+
+### Dağıtım
+
+| Oturum | Pay | Çıktı |
+|---|---|---|
+| **13** (Opus) | Anadolu Selçuklu 1243-1308 · İlhanlı hâkimiyeti (`v:` mi `s:` mi) · 1243-1281'de sahibi değişen komşular | `OTURUM-13-SELCUKLU.md` |
+| **14** (Opus) | ~22 beylik: kuruluş tarihi, merkez, ilk şehirler, Selçuklu/İlhanlı bağı | `OTURUM-14-BEYLIKLER.md` |
+| **3** (Sonnet) | `devletler.js` kayıtları — 13/14'ün çıktısı gelince | `devletler.js` |
+| **9** (Sonnet) | kimlik + renk | `kimlikler.js` |
+| **16** (Opus) | epok mimarisi, `kur:`/`bit:` ile ilişkisi | motor |
+| **ben** | zaman çizgisi başlangıcı, başlık, lejant | `js/` `index.html` |
+
+### İki tuzak (görev mesajlarına yazıldı)
+
+**"Kuruluş tarihi" tuzağı** — beyliklerin çoğu için tek bir kuruluş günü YOKTUR.
+Uç beyliğinden müstakil beyliğe geçiş yıllara yayılır ve kaynaklar çelişir.
+Emin olunmayan yerde aralık verilecek, uydurulmayacak (`OGRENILENLER §8`).
+
+**Toprak sıfır toplamlıdır** — beylikler doğarken Anadolu boş değildi. Bir
+beyliğin başlangıcını erkene çekmek, aynı toprağı o tarihte Selçuklu'dan ALMAK
+demektir. Oturum 13 ile 14 çakışan her toprakta mutabık kalacak.
