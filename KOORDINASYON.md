@@ -418,6 +418,31 @@ Geri kalan her şey bende.
 
 ---
 
+## 6c. Geometrik düzeltme listelerinde işlem kuralı
+
+> **Hiçbir vaka, parçanın KOORDİNATI söylenmeden tartışılmaz.**
+
+Kara-kısıtlı Voronoi'nin 32 parçalık listesi gözden geçirilirken bu kural üç kez
+üst üste kendini kanıtladı — ve üçünde de sezgi yanıldı:
+
+| Vaka | Sezgi | Koordinat ne dedi |
+|---|---|---|
+| Sina güneyi → Tebük | *"Sinâ Mısır'a bağlıydı, red"* | 28,60K **34,99D** — Akabe körfezinin doğusu, yani **Arabistan**. Transfer doğru. |
+| Helsinki → Riga | *"28.522 km² Finlandiya içi"* | 58,70K 25,54D — **Estonya**. Gerçek denizaşırı vaka. |
+| Urmiye → Merend | *"kasaba kendi gölünün hinterlandını kaybediyor"* | 37,86K 45,50D — gölün **kuzeydoğu** yakası, zaten Merend hinterlandı. Transfer doğru. |
+
+Üçünde de hata aynı biçimdeydi: **adın çağrıştırdığı resme göre hüküm.** "Sina",
+"Helsinki", "Urmiye" duyulunca zihinde bir yer beliriyor ve parçanın gerçekte nerede
+olduğu sorulmuyor.
+
+Sekiz basamaklı bir sayı, iki oturumun sezgisinden güvenilir çıktı.
+
+⚠️ Ve tarihî hüküm de coğrafyaya bakmadan verilemez: `§26`'da *"geometri karar veremez,
+tarihî göz gerekir"* denmişti; tersi de doğru. İkisi birlikte gerekiyor
+(`OGRENILENLER §28-§29`).
+
+---
+
 ## 7. İletişim
 
 - Oturumlar **benimle** konuşur, birbirleriyle değil. Tek entegrasyon noktası benim.
