@@ -393,15 +393,30 @@ harita.on("load", function () {
   // İki katman üst üste: geniş+çok bulanık (hâle) + dar+az bulanık (çekirdek).
   // Tek katmanla ya çok siliktir ya da kenarı yine çizgi gibi okunur.
   // ⚠️ osmanli-cizgi'den SONRA ekleniyor ki sert kenarın üstünü örtsün.
+  // ⚠️ KALINLIK ZOOM'A BAĞLI — ve sebebi kavramsal (Oturum 16'nın tespiti):
+  // Bu bulanıklık bir GÖRSEL EFEKT değil, bir BELİRSİZLİK ÖLÇÜSÜ. Anlattığı şey
+  // "yetkinin nerede bittiğini bilmiyoruz" ve o bilinmezlik KİLOMETREYLE ölçülür,
+  // pikselle değil: çölde dolgu noktasını 100 km sağa koysak sınır 50 km kayardı.
+  // Sabit piksel bunun TERSİNİ yapardı — uzaklaşınca hale daha çok YER kaplar
+  // (belirsizlik büyümüş gibi), yaklaşınca daralır (kesinleşmiş gibi).
+  // Bu yüzden genişlik her zoom kademesinde ikiye katlanıyor: hale SABİT BİR YER
+  // GENİŞLİĞİNE karşılık geliyor, sabit bir piksel sayısına değil.
+  // Çıpa: z4'te 14 px ≈ 60 km (30° enlemde). GEÇİCİ — Oturum 16 üretim sonrası
+  // serbest kenar boyunca yerel nokta aralığının medyanını ölçecek ve "hale =
+  // medyan aralığın yarısı" diye savunulabilir bir sayı verecek.
+  var YER_GENISLIK = ["interpolate", ["exponential", 2], ["zoom"], 2, 3.5, 8, 224];
+  var YER_BULANIK  = ["interpolate", ["exponential", 2], ["zoom"], 2, 3.0, 8, 192];
+  var YER_CEKIRDEK = ["interpolate", ["exponential", 2], ["zoom"], 2, 1.25, 8, 80];
+  var YER_CBULANIK = ["interpolate", ["exponential", 2], ["zoom"], 2, 1.0, 8, 64];
   harita.addSource("serbest", { type: "geojson", data: bosVeri() });
   harita.addLayer({ id: "serbest-hale", type: "line", source: "serbest",
     layout: { "line-cap": "round", "line-join": "round" },
-    paint: { "line-color": "#8e0b22", "line-width": 14, "line-blur": 12,
-             "line-opacity": 0.45 } });
+    paint: { "line-color": "#8e0b22", "line-width": YER_GENISLIK,
+             "line-blur": YER_BULANIK, "line-opacity": 0.45 } });
   harita.addLayer({ id: "serbest-cekirdek", type: "line", source: "serbest",
     layout: { "line-cap": "round", "line-join": "round" },
-    paint: { "line-color": "#8e0b22", "line-width": 5, "line-blur": 4,
-             "line-opacity": 0.5 } });
+    paint: { "line-color": "#8e0b22", "line-width": YER_CEKIRDEK,
+             "line-blur": YER_CBULANIK, "line-opacity": 0.5 } });
 
   // Bölge (eyalet) iç sınırları: ince kesikli çizgi, yakınlaşınca görünür
   harita.addSource("bolge", { type: "geojson", data: bosVeri() });
