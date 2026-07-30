@@ -226,14 +226,102 @@ kuralınca hata değil — ama denetlenmesi gerekir, denetledim: 5 paylaşılan 
 
 ---
 
-## 6. Sıradaki iş — üretim penceresi
+## 6. `isg:` şeması — motor okumuyor, ama artık SESSİZCE değil
 
-Motorda iki değişiklik birikti ve **hiçbiri uçtan uca koşturulmadı**:
+Merkez oturumun talebi: motor `isg:` alanını görmezden gelsin, fakat bilinmeyen
+alan sessizce yutulmasın. İkisi de yapıldı, ama istenen tek satırdan biraz
+fazlası olarak — çünkü asıl risk `isg:` değil.
 
-1. `kur:`/`bit:` varlık epokları (`b781c2c`, önceki pencerede yazıldı) —
-   1,7 milyon km²lik hayalet toprak düzeltmesi
-2. Yedinci denetimin oran tabanı (bu pencerede) — 18 → 1 yanlış alarm
-3. 5 yeni renk (bu pencerede) — 12 uyarı susuyor
+**`isg:` motor tarafından kasten okunmuyor** ve sebebi `girdi.py`'ye yazıldı:
+
+```
+d: / v: / s:  →  DE JURE sahiplik  →  peteğin TABAN RENGİ   (motorun işi)
+isg:          →  DE FACTO denetim  →  tarama katmanı        (uret_devirler.py)
+```
+
+Mısır bunu zorunlu kılıyor: İngiltere 1882'den beri fiilen orada ama Osmanlı
+hükümranlığı hukuken 1914'e kadar sürüyor. İşgal bir dönem *türü* olsaydı taban
+rengi değişir ve 32 yıllık hukukî durum haritadan silinirdi.
+
+**BİLİNEN ALAN KÜTÜĞÜ** (`girdi.py`): her üst alan ve her dönem alanı, ne işe
+yaradığı ve **hangi aracın okuduğu** ile birlikte kayıtlı. Tanımsız alan gören
+`yukle()` uyarı basıyor. Asıl kazanç yeni alanları belgelemek değil:
+
+> `isg:` yerine `isgal:`, `kur:` yerine `kr:` yazılırsa veri dosyada durur,
+> denetim temiz raporlar, harita eski hâlinde kalır ve **kimse fark etmez.**
+
+Bu depoda aynı sınıftan üç hata çıktı (dizi sonundaki virgül, `KeyError: 'd'`,
+ek9'un yayına bağlanmaması) — üçünde de araçlar aynı veriyi farklı katılıkta
+okuyordu. Mekanizmayı boş yere yazmadığımı doğrulamak için yazım hatası enjekte
+edip sınadım:
+
+```
+UYARI alan: 'isgal' BILINEN_ALANLAR'da yok — 1 kayıtta (yerlesimler.js:Yenişehir)
+UYARI alan: 's.dd'  BILINEN_ALANLAR'da yok — 1 kayıtta (yerlesimler.js:İnegöl)
+```
+
+Gerçek veride uyarı **0** — bugünkü 14 alanın (`ad lat lon tur g k m s d v kur
+bit go isg`) hepsi kayıtlı.
+
+📌 **Merkez oturuma not — `uret_devirler.py` gövdeye nasıl erişiyor, DEĞİŞMİYOR.**
+`donemler.js`'teki `PARCALAR` havuzu + `DONEMLER` delta yapısı ve
+`devletler_harita.js`'teki `DEVLET_PARCALAR` aynı kalıyor; `oku_pencere` /
+`coz` / `govde` üçlüsünü değiştirmen gerekmiyor. Bu turdaki motor
+değişikliklerinin hiçbiri çıktı biçimine dokunmadı — `kur:`/`bit:` epokları
+petek *üyeliğini* değiştiriyor, havuz düzenini değil.
+⚠️ Tek uyarı: `isg:` örtüsünün geometrisini de jure gövdeden türetirken
+**`kur:` epoklarını hesaba kat.** Bir yerleşim kurulmadan önce peteği artık
+komşusuna devrediliyor; işgal örtüsünü ham `PETEKLER` üzerinden kurarsan
+epok düzeltmesini atlarsın ve tarama, taban renginden farklı yere düşer.
+
+## 7. `data/goller.js` bağlandı — 67.087 km²
+
+Yetim dosya artık motorda. Oturum 15'in poligonu, Oturum 11'in bulgusu; ölçüm
+bu oturumda **bağımsız doğrulandı**:
+
+```
+Aral poligonu (tarihî)                          73.666 km²
+Natural Earth'ün taşıdığı kuruma-sonrası artık   6.579 km²
+   South Aral 3.392 · North Aral 2.952 · Barsakelmes 235
+NET: bugün KARA sayılan, aslında su olan alan   67.087 km²
+```
+
+Ve bu alanı bugün **tek bir petek yutuyor: Küngrat**. Yani Hîve Hanlığı
+haritada gölün üstüne taşıyor. Oturum 11'in tahmini ~88.000 km²'ydi; ölçülen
+67.087. Aynı mertebe, ama rapora ölçülen sayı yazıldı.
+
+Merkez oturumun sorduğu "tek sabit sınır mı, dönemli mi?" sorusunun cevabı
+dosyanın kendisinde: `gecerli: {f:"1281-01-01", t:"1923-10-29"}` — atlasın tüm
+ufku. Aral'ın küçülmesi 1960'lardan sonra başladığı için dönem yapısı
+gerekmiyor. **Oturum 15'e sormaya gerek kalmadı**, dosya kendi kararını
+gerekçesiyle yazmış.
+
+⚠️ Ama körlemesine statik bağlamadım. `oku_goller()`, `gecerli` penceresi
+ufku kapsamayan kaydı **almaz ve uyarı basar**: motorun `GOLLER` birleşimi
+statiktir; dar pencereli bir gölü statik uygulamak, düzeltmeye çalıştığı
+anakronizmin aynısını üretir. Zamana bağlı göl gerekirse önce `petek_epok()`
+deseniyle epok desteği kurulmalı.
+
+🔧 Yan onarım: `goller.js`'in `kaynak:` alanı JS'in `"a" + "b"` biçiminde
+yazılmış, `_cevir` bunu okuyamayıp patlıyordu. Dize birleştirme desteği
+eklendi (JSON dizesi kaçışsız `"` içeremediği için desen dizenin içindeki bir
+artıyla eşleşemez — güvenli). **`goller.js`'e dokunmadım**, o Oturum 15'in
+dosyası; okuyucuyu düzelttim.
+
+## 8. Sıradaki iş — üretim penceresi
+
+Motorda **beş** değişiklik birikti ve **hiçbiri uçtan uca koşturulmadı**:
+
+1. `kur:`/`bit:` varlık epokları (`b781c2c`) — 1,7 milyon km² hayalet toprak
+2. Yedinci denetimin oran tabanı — 18 → 1 yanlış alarm
+3. 5 yeni renk — 12 uyarı susuyor, 4 Darfur + 4 Habeş yerleşimi boyanıyor
+4. Bilinen alan kütüğü + `isg:` kaydı — yazım hatası artık sessiz kalmıyor
+5. Tarihî Aral — 67.087 km² Küngrat'tan alınıp göle dönüyor
+
+Koşuda görülecek doğrulama satırları: `90 büyük göl` (89 değil) ·
+`goller.js: 1 tarihî göl düzeltmesi` · `UYARI boya:` satırı **hiç olmamalı** ·
+yedinci denetimde `en düşük: Ankober %7` ve altında vaka **olmamalı** ·
+`{n} nokta kur:, {n} nokta bit: taşıyor`.
 
 Üretim koşusu yeni dönemde yapılacak. Sırası: kilidi ilân et → bütün oturumlar
 `data/` yazmayı bıraksın → `uret_petek.py` → `uret_devirler.py` →

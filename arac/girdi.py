@@ -84,6 +84,52 @@ VARSAYILAN = {
     "v": [],         # tâbi / dolaylı idare dönemleri
 }
 
+# ⚠️ BİLİNEN ALAN KÜTÜĞÜ — "sessizce yutulan alan" hata sınıfının kapağı
+# Yeni bir alan (isg:, kur:, bit:, go:) şemaya girdiğinde motor onu tanımaz ve
+# HİÇ SES ÇIKARMADAN yok sayar. Sorun yeni alanda değil, YAZIM HATASINDA:
+# `isg:` yerine `isgal:`, `kur:` yerine `kr:` yazılırsa veri dosyada durur,
+# denetim temiz raporlar, harita eski hâlinde kalır ve kimse fark etmez.
+# Bu depoda aynı sınıftan üç hata çıktı (sondaki virgül, KeyError:'d', ek9'un
+# yayına bağlanmaması) ve üçü de "iki araç aynı veriyi farklı katılıkta okuyor"
+# yüzündendi. Kütük, yeni alanı AÇIKÇA kaydetmeye zorlar.
+# Bir alanı buraya eklemek "motor bunu okuyor" demek DEĞİLDİR; "bu alanın
+# varlığından haberdarım" demektir. Hangi aracın okuduğu yorumda yazılı.
+BILINEN_ALANLAR = {
+    "ad":  "zorunlu — benzersiz yerleşim adı",
+    "lat": "zorunlu — enlem",
+    "lon": "zorunlu — boylam",
+    "tur": "sehir / kale / bolge …",
+    "g":   "gösterim önceliği (app.js: etiket zoom kademesi)",
+    "k":   "idari kademe 0-4",
+    "m":   "bağlı olunan k1/k2 merkezin adı",
+    "s":   "yabancı sahiplik dönemleri — MOTOR BOYAR",
+    "d":   "doğrudan Osmanlı dönemleri — MOTOR BOYAR",
+    "v":   "tâbi / dolaylı idare dönemleri — MOTOR BOYAR",
+    "kur": "kuruluş tarihi — motor: petek_epok() bu tarihten önce peteği "
+           "komşuya devreder",
+    "bit": "yok oluş tarihi — kur:'un aynadaki hâli",
+    "go":  "önemin söndüğü gün — YALNIZ app.js (etiket kalabalığı); motor okumaz",
+    # ⚠️ isg: MOTOR TARAFINDAN KASTEN OKUNMAZ. Sebebi şema kararıdır, ihmal
+    # değil: işgal bir dönem TÜRÜ değil ÖRTÜ katmanıdır (commit 043e911).
+    #   d:/v:/s: → DE JURE sahiplik → peteğin TABAN RENGİ (motorun işi)
+    #   isg:     → DE FACTO denetim → tarama katmanı (uret_devirler.py'nin işi)
+    # Mısır bunu zorunlu kılıyor: İngiltere 1882'den beri fiilen orada ama
+    # Osmanlı hükümranlığı hukuken 1914'e kadar sürüyor. İşgal bir dönem türü
+    # olsaydı taban rengi değişir ve 32 yıllık hukukî durum haritadan silinirdi.
+    # Bosna aynı desen: 1878 Avusturya işgali, 1908 ilhak — ikisi AYRI gösterim.
+    "isg": "işgal örtüsü — motor OKUMAZ (taban rengi de jure kalır); "
+           "window.ISGALLER üreticisi arac/uret_devirler.py",
+}
+
+# Dönem nesnelerinin (s/d/v/isg elemanları) alanları
+BILINEN_DONEM_ALANLARI = {
+    "f": "başlangıç (YYYY-AA-GG)",
+    "t": "bitiş",
+    "d": "devlet kimliği — s: ve isg: içinde; renkler.py'de tanımlı olmalı",
+    "k": "tâbi devletin adı — v: içinde (motor okumaz, gösterim için)",
+    "y": "gerekçe/antlaşma kodu — d: ve isg: içinde",
+}
+
 
 def _cevir(js, degisken):
     """`window.<degisken> = [ ... ];` gövdesini JSON'a çevirir."""
@@ -94,6 +140,13 @@ def _cevir(js, degisken):
     j = re.sub(r'([{,]\s*)([A-Za-zçğıöşüÇĞİÖŞÜ_]\w*)\s*:', r'\1"\2":', govde)
     # JS'te dizi/nesne sonundaki fazladan virgül geçerli, JSON'da değil.
     j = re.sub(r',(\s*[\]}])', r'\1', j)
+    # JS'te uzun metin "a" + "b" diye bölünebilir, JSON'da bölünemez. goller.js'in
+    # `kaynak:` alanı böyle yazılmış ve okuyucu burada patlamıştı. Birleştirme
+    # güvenli: JSON dizesi kaçışsız `"` içeremez, dolayısıyla desen dizenin
+    # İÇİNDEKİ bir artıyla eşleşemez.
+    _bir = r'"((?:[^"\\]|\\.)*)"\s*\+\s*"((?:[^"\\]|\\.)*)"'
+    while re.search(_bir, j):
+        j = re.sub(_bir, lambda m: '"' + m.group(1) + m.group(2) + '"', j)
     return json.loads(j)
 
 
@@ -114,7 +167,7 @@ def km(a_lat, a_lon, b_lat, b_lon):
 
 def yukle(sessiz=False):
     """Bütün girdi dosyalarını birleştirip döker. Ad çakışmasında ValueError."""
-    hepsi, nereden = [], {}
+    hepsi, nereden, bilinmeyen = [], {}, {}
     for ad in GIRDI_DOSYALARI:
         kayitlar = oku_dosya(ad)
         for y in kayitlar:
@@ -124,14 +177,72 @@ def yukle(sessiz=False):
                     f"içinde. Yerleşim adı benzersiz olmalı (VERI-YAPISI.md)."
                 )
             nereden[y["ad"]] = ad
+            for alan in y:
+                if alan not in BILINEN_ALANLAR:
+                    bilinmeyen.setdefault(alan, []).append(f"{ad}:{y['ad']}")
+            for kat in ("s", "d", "v", "isg"):
+                for p in y.get(kat) or []:
+                    for alan in p:
+                        if alan not in BILINEN_DONEM_ALANLARI:
+                            bilinmeyen.setdefault(f"{kat}.{alan}", []).append(
+                                f"{ad}:{y['ad']}")
             for alan, deger in VARSAYILAN.items():
                 y.setdefault(alan, [] if deger == [] else deger)
         hepsi.extend(kayitlar)
         if not sessiz:
             print(f"  {ad}: {len(kayitlar)} nokta")
+    # ⚠️ Bilinmeyen alan HATA DEĞİL, UYARIDIR — bir alanı şemaya eklemek ile
+    # motoru ona göre değiştirmek ayrı işlerdir ve ayrı oturumlarda yapılır.
+    # Ama SESSİZ de olamaz: yazım hatası olan alan da tam böyle görünür.
+    for alan, kimde in sorted(bilinmeyen.items()):
+        print(f"  UYARI alan: '{alan}' BILINEN_ALANLAR'da yok — {len(kimde)} "
+              f"kayıtta ({', '.join(kimde[:3])}{'…' if len(kimde) > 3 else ''}). "
+              f"Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.")
     if not sessiz and len(GIRDI_DOSYALARI) > 1:
         print(f"  toplam: {len(hepsi)} nokta")
     return hepsi
+
+
+# ⚠️ EK GÖLLER — Natural Earth'ün MODERN göl katmanının tarihî düzeltmesi
+# Baraj gölü kuralı (uret_petek.py:73-88) maskeye FAZLA su giren hâli düzeltir:
+# 1960 sonrası yapılmış bir baraj 1500 haritasında delik açmasın diye maskeden
+# çıkarılmaz. Bu dosya TERS yöndeki hatayı düzeltir: tarihte VAR OLAN ama
+# modern katmanda kurumuş/küçülmüş göller. Bugün tek kayıt var — Aral.
+# Natural Earth Aral'ı kuruma SONRASI iki artık parça olarak taşıyor; oysa
+# 1281-1923 boyunca ~68.000 km²'lik tek göldü. Motor farkı bilmediği için
+# gölün yerini KARA sayıyor ve en yakın petek oraya emiliyor (MIMARI.md §2).
+# ⚠️ ZAMAN BOYUTU YOK: motorun GOLLER birleşimi statiktir. Bu yüzden
+# `gecerli` penceresi atlasın ufkunu KAPSAMIYORSA kayıt ALINMAZ — dar
+# pencereli bir gölü statik uygulamak, düzeltmeye çalıştığı anakronizmin
+# aynısını üretir. Zamana bağlı göl gerekirse önce motorda epok desteği
+# (petek_epok deseni) kurulmalı.
+GOL_DOSYASI = "goller.js"
+UFUK = ("1281-01-01", "1923-10-29")
+
+
+def oku_goller(sessiz=False):
+    """Ek göl poligonları — GeoJSON `geometry` sözlüklerinin listesi.
+    Dosya yoksa boş liste döner (motor onsuz da çalışır)."""
+    yol = os.path.join(DATA, GOL_DOSYASI)
+    if not os.path.exists(yol):
+        return []
+    js = io.open(yol, encoding="utf-8").read()
+    m = re.search(r"window\.(GOLLER\w*)\s*=", js)
+    if not m:
+        raise ValueError(f"{GOL_DOSYASI}: window.GOLLER bulunamadı")
+    alinan = []
+    for g in _cevir(js, m.group(1)):
+        gec = g.get("gecerli") or {}
+        if gec.get("f", UFUK[0]) > UFUK[0] or gec.get("t", UFUK[1]) < UFUK[1]:
+            print(f"  UYARI göl: '{g.get('ad')}' yalnız {gec.get('f')}→"
+                  f"{gec.get('t')} arası geçerli, motor statik göl kullanıyor "
+                  f"— ATLANDI (zamana bağlı göl için epok desteği gerekir)")
+            continue
+        alinan.append(g)
+    if not sessiz and alinan:
+        print(f"  {GOL_DOSYASI}: {len(alinan)} tarihî göl düzeltmesi "
+              f"({', '.join(g['ad'].split('(')[0].strip() for g in alinan)})")
+    return alinan
 
 
 def yakin_ciftler(Y, esik=YAKINLIK_ESIK_KM):

@@ -104,6 +104,19 @@ try:
             continue
         g = g.intersection(BOLGE)
         if not g.is_empty: _gs.append(g)
+    # ⚠️ TARİHÎ GÖL DÜZELTMELERİ — baraj kuralının AYNADAKİ HÂLİ
+    # Yukarıdaki baraj kuralı maskeye FAZLA su girmesini engeller (1960'ta
+    # yapılmış göl 1500 haritasında delik açmasın). Buradaki düzeltme EKSİK
+    # suyu tamamlar: tarihte var olan ama modern katmanda kurumuş göller.
+    # Ölçüldü (2026-07-30, Oturum 16): Natural Earth Aral'ı kuruma sonrası üç
+    # artık parça olarak taşıyor (South Aral 3.392 + North Aral 2.952 +
+    # Barsakelmes 235 = 6.579 km²); tarihî göl 73.666 km². Aradaki
+    # 67.087 km² bugün KARA sayılıyor ve tamamını TEK petek yutuyor: KÜNGRAT.
+    # Yani Hîve Hanlığı haritada gölün üstüne taşıyor. Oturum 11'in bulgusu,
+    # Oturum 15'in poligonu (data/goller.js), ölçüm bu oturumda doğrulandı.
+    for _eg in girdi.oku_goller():
+        _g = shape(_eg["geometry"]).buffer(0).intersection(BOLGE)
+        if not _g.is_empty: _gs.append(_g)
     GOLLER = unary_union(_gs).buffer(0).simplify(0.01, preserve_topology=True).buffer(0)
     KARA = KARA.difference(GOLLER).buffer(0)
     print(f"  {len(_gs)} büyük göl kara maskesinden çıkarıldı")
