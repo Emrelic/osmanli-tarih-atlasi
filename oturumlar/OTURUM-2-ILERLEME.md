@@ -11,7 +11,7 @@
 |---|---|---|
 | 1 | Yeni denetim — **sürüm damgası** | ✅ `arac/denetle_yayin.py` · `denetim/DAMGA-2026-07-30.md` |
 | 2 | **Mükerrer denetimi neden kaçırdı** — eşiği ölçerek ayarla | ✅ `arac/denetle.py` · `denetim/MUKERRER-ESIK-2026-07-30.md` |
-| 3 | Yeni denetim — **statü tutarlılığı** (`d:`↔`v:` sıçraması, işgal `s:` mi `v:` mi) | ⬜ başlanmadı |
+| 3 | Yeni denetim — **statü tutarlılığı** (`d:`↔`v:` sıçraması, işgal `s:` mi `v:` mi) | ✅ `arac/denetle_statu.py` · `denetim/STATU-2026-07-30.md` |
 | 4 | Sekizinci denetim — **anakronizm** | ✅ önceki turda bitti: `arac/denetle_anakronizm.py` · `denetim/ANAKRONIZM-2026-07-30.md` |
 
 Ayrıca önceki turda istenmeden çıkan: **görünürlük denetimi**
@@ -64,13 +64,37 @@ aynı gün · aynı k:"antlasma" · aynı kaynak · 6 ortak kişi · J=0.222
 **`denetle.py` bu düzeltilene kadar çıkış kodu 1 verecek** — bilerek: ihlal
 kademesi bir şey söylüyorsa iş vardır.
 
-## 3 — statü tutarlılığı: yapılmadı
+## 3 — statü tutarlılığı: aranan hata yok, ARANMAYAN hata var
 
-Merkez oturum bunu "Sonnet oturumlarının en olası hata sınıfı" diye işaretledi ve
-haklı. Token penceresi 1. ve 2. maddeye gitti. Sıradaki tur bununla başlamalı;
-tasarım notu: `d:`↔`v:` geçişinin kırılma kaydı var mı sorusu Değişmez 2'nin
-mevcut kırılma listesiyle çakışıyor, ayrı bir denetim değil **Değişmez 2'nin
-statü boyutu** olarak yazılmalı.
+`arac/denetle_statu.py` — dokuzuncu denetim. Ölçüm önce, kural sonra.
+Rapor: `denetim/STATU-2026-07-30.md`.
+
+- **A) `d:`↔`v:` sıçraması TEMİZ.** 13 bitişik geçişin **0'ı maddesiz** — çünkü
+  `d:`/`v:` sınırları zaten Değişmez 2'nin kırılma listesinde. Kaygı yerindeydi,
+  bugünkü veri temiz. Tek yeni boyut "madde statüden bahsediyor mu": 1 vaka
+  (Modon 1825), **İHLAL değil** — 13 örneklik kümede eşik ayarlanmaz.
+- **223 tâbi döneminin 223'ünün `k:` etiketi var.** Eşiksiz şema kuralı olarak
+  denetime kondu; altı Sonnet oturumu `v:` yazacak, bekçi ileriye dönük.
+- **🔴 B) ASIL BULGU — `s:`→`s:` yabancı devir Değişmez 2'nin KÖR NOKTASI.**
+  234 yabancı el değiştirmenin **154'ünün maddesi yok** (%66): 81'i gerçek gün
+  taşıyor (tartışılmaz eksik), 73'ü `YYYY-01-01`'e yuvarlanmış. Granada 1492,
+  Lehistan taksimleri, Campo Formio 1797 — harita renk değiştiriyor, kronoloji
+  susuyor. Sessiz toprak değişiminin yabancı devletlerdeki tam karşılığı.
+  **Değişmez 3 deseni uygulandı: bilinen borç + tavan** (81 / 73). Geçmişi
+  affeder, geleceği affetmez — tavan aşılırsa çıkış kodu 1.
+- **C) İşgal `s:` mi `v:` mi: denetimle çözülmez, KARAR gerekir.** İkisi de
+  kullanılıyor: `v:` "(işgal)" 3 dönem, `s:` sandviç 78 dönem. Süreye dayalı bir
+  işgal bulucu **%88 yanlış alarm** verir (kısa sandviçlerin 381'i Fetret
+  şehzadesi). Envanter olarak bırakıldı.
+  ⚠️ `js/app.js:818` üçüncü gösterimi (taralı işgal alanı) **beslenmiyor** —
+  `window.ISGALLER` üreticisi yok, katman boş diziyle çalışıyor. Veri
+  `yerlesimler.js`'te var ama işgal olduğunu söyleyen alan yok. Öneri: `s:`
+  dönemine `isg:1` bayrağı (2. seçenek olan "hepsini `v:`e taşı", Değişmez 3'ün
+  `OSMANLI`↔`tâbi` muafiyetini bozar).
+
+Regresyon: üç sentetik hata (etiket silme, `d→v` sıçraması, yeni `s→s` devri)
+bellekteki kopyaya enjekte edildi, üçü de yakalandı. `data/` dosyalarına
+dokunulmadı.
 
 ---
 
@@ -79,13 +103,16 @@ statü boyutu** olarak yazılmalı.
 ```
 arac/denetle.py              5. denetim üç kademeli oldu (eşikler DEĞİŞMEDİ)
 arac/denetle_yayin.py        damga artışı denetimi eklendi (+ --gecmis)
+arac/denetle_statu.py        YENİ — dokuzuncu denetim
 denetim/MUKERRER-ESIK-2026-07-30.md   yeni
 denetim/DAMGA-2026-07-30.md           yeni
+denetim/STATU-2026-07-30.md           yeni
 ```
 
-Önceki turdan commit bekleyen:
-`arac/denetle_anakronizm.py` · `arac/denetle_gorunurluk.py` ·
-`denetim/ANAKRONIZM-2026-07-30.md` · `denetim/GORUNURLUK-2026-07-30.md`
+⚠️ Önceki turun dosyaları (`denetle_anakronizm.py`, `denetle_gorunurluk.py` ve
+dört rapor) **benim commit'imle gitmedi** — Oturum 10 geniş `git add` yapıp
+`bc89690`'a ("savaslar.js: 10 yeni ok") süpürdü. İş kayıp değil, commit mesajı
+yanlış. Merkez oturum geri almadı; revert daha büyük hasar olurdu.
 
 ---
 
