@@ -1,5 +1,11 @@
 # Oturum 14 — Osmanlı Afrikası yerleşim katmanı · İLERLEME
 
+> **FAZ 2 BİTTİ (2026-07-30).** Merkez oturumun devam görevi tamamlandı; ölçümler
+> ve kalan işler **§9-§12**'de. Aşağıdaki Faz 1 bölümü tarihî kayıt olarak
+> duruyor; Faz 1'de "yapılacak" denen altı maddenin beşi Faz 2'de kapandı.
+> Bugünkü durum: `data/yerlesimler_afrika.js` **163 nokta** ·
+> `data/olaylar_ek9.js` **13 madde** · yedi denetim de temiz.
+
 **Durum: bitti.** Tek çıktı `data/yerlesimler_afrika.js` — **153 yeni yerleşim**.
 Commit atılmadı, `arac/uret_petek.py` çalıştırılmadı, başka hiçbir dosyaya
 dokunulmadı.
@@ -216,3 +222,211 @@ oturumun işi.
 5. **Kuzeydoğu Somali** (Mecerteyn kıyısı) ilk kez temsil ediliyor.
 6. Yeni 12 devlet kimliği yok — **hiçbir yeni renk gerekmiyor**, üretim
    uyarı vermemeli.
+
+---
+---
+
+# FAZ 2 — merkez oturumun devam görevi (2026-07-30)
+
+**Yazılan iki dosya:** `data/yerlesimler_afrika.js` (153 → **163 nokta**) ve
+yeni `data/olaylar_ek9.js` (**13 kronoloji maddesi**). Başka hiçbir dosyaya
+dokunulmadı; `arac/` altı okundu, yazılmadı. Commit atılmadı, üretim
+koşturulmadı. **Girdi sabit.**
+
+## 9. Yedi denetimin sonucu — ölçüldü
+
+`py arac/denetle.py`, Faz 2 bittikten sonra:
+
+```
+927 yerleşim, 924 kronoloji maddesi
+Değişmez 1   ✓  34 sahipsiz (beklenen 34)              — artmadı
+Değişmez 1b  ✓  pencere arası boşluk 1 (beklenen 1)
+Değişmez 2   ✓  451 kırılma, 0 açık                    — 441'den 10 yeni kırılma
+Değişmez 3   ✓  381 çelişki (tavan 383)                — 378'den +3
+dönem sağlığı ✓  0 sıfır-uzunluk, 0 ters, 0 çakışma
+mükerrer madde ✓  0 şüpheli çift
+konum        ✓  0 nokta kara maskesinin dışında
+SONUÇ: temiz
+```
+
+Ek ölçümler: yeni 10 noktanın **10'u karada**, **10'u pencere içinde**; ad
+çakışması yok; 3 km'den yakın çift **2** ve ikisi de çekirdekte, kasıtlı
+(Anadolu Hisarı ↔ Rumeli Hisarı 1.54 km, Budin ↔ Peşte 1.57 km).
+
+**Değişmez 3'ün +3'ü ölçülüdür ve tekidir:** Nühûd'un 1785-1821 arası
+`darfur` yazılması, `m:"Hartum"` ile üç kesitte çelişiyor. Darfur noktalarına
+bilerek `m:` verilmedi — verilse çelişki altı kesitte birden artıp tavanı
+aşacaktı.
+
+## 10. Beş öncelik — ne yapıldı
+
+### Öncelik 0 (merkezin bulduğu hata): 47 kayıtta `d:` yoktu
+47 kaydın hepsine `d:[]` yazıldı. Ölçüldü: `d` alanı olmayan kayıt **0**.
+Ders alındı — `OGRENILENLER.md §2`.
+
+### Öncelik 1: iki kimlik ailesi, 7 yeni nokta
+`s:` alanları **dolu** yazıldı (talimat gereği), `renkler.py`'ye **dokunulmadı**.
+
+| Nokta | Kimlik | Koordinat |
+|---|---|---|
+| El-Fâşir | `darfur` | 13.630, 25.349 |
+| Nyala | `darfur` | 12.048, 24.882 |
+| Cenîne | `darfur` | 13.452, 22.445 |
+| Bonga (Kaffa) | `kaffa` | 7.283, 36.233 |
+| Cimma (Jiren) | `kaffa` → `cimma` | 7.673, 36.834 |
+| Sodo (Vollayta) | `vollayta` | 6.860, 37.762 |
+| Yirgalem (Sidamo) | `sidamo` | 6.750, 38.410 |
+
+Darfur zinciri: Keyra hânedanı → 1874-11-02 Mısır ilhakı (`v:` tâbi) →
+1883-12-23 Mehdî → 1898-09-02 Ali Dinar sultanlığı yeniden kurdu →
+1916-05-23 İngiltere. İki `v:` sınırının maddesi yazıldı.
+
+**Nühûd'un 1821 öncesi yeniden yazıldı:** batı Kordofan 1785'te Darfur'un
+eline geçmişti → `nube` → `funj` (1504) → **`darfur` (1785)** → Kavalalı
+(1821-08-19) → Mehdî → İngiltere.
+
+### Öncelik 2: Sahra'nın üç Osmanlı kazası
+**Ğadâmis** (Trablus zinciri), **Gât** (Murzuk/Fizan zinciri, 1577 tâbiiyeti),
+**Cağbûb** (Bingazi zinciri, `kur:"1856-01-01"`). Üçünde de Karamanlı ocaklık
+ayrımı var. Çöl dolgu noktalarına dokunulmadı — Değişmez 1'in 34'lük tabanı
+onlara dayanıyor ve sabit kaldı.
+
+### Öncelik 3: yuvarlanan 7 tarih gerçeğine çekildi
+
+| Yer | Faz 1 (yuvarlanmış) | Faz 2 | Hassasiyet |
+|---|---|---|---|
+| Muaskar | 1844-03-04 | **1841-01-01** | yıl (gün doğrulanamadı) |
+| Şelif | 1844-03-04 | **1843-01-01** | yıl (Nisan 1843) |
+| Tenes | 1844-03-04 | **1843-01-01** | yıl |
+| Sîdî Bel Abbès | 1844-03-04 | **1843-06-12** | **gün ✓ doğrulandı** |
+| Nedrûme | 1844-03-04 | **1844-01-01** | yıl |
+| Ağvât (Laghouat) | 1854-12-02 | **1852-12-04** | **gün ✓ doğrulandı** |
+| Gardâye (Mîzâb) | 1854-12-02 | **1852-12-04** | komşu kuralı, aşağıda |
+| Kesela | 1840-07-15 (seçilmiş) | **1840-01-01** | yıl ✓ |
+
+**Gardâye neden 1882 değil 1852-12-04:** Mîzâb'ın *hukukî* ilhakı 1882'dir, ama
+1882 yazmak haritada **52 yıl** boyunca var olmayan Cezayir Ocaklığı'nı boyamak
+demekti (§11.2). Mîzâb 1852'de Ağvât'ın düşüşünün ardından Fransız
+hâkimiyetini kabul etti; `OGRENILENLER.md §8` gereği **yuvarlanmadı,
+doğrulanmış komşusunun (Ağvât) tarihi kullanıldı.** 1882 ilhakı ayrı bir
+madde olarak `olaylar_ek9.js`'te duruyor.
+
+### Öncelik 4: madde yokluğundan yazılamayan 3 dönem yazıldı
+- **Tabarka:** Faz 1'de öteki Tunus noktaları gibi 1574'te Osmanlı yazılmıştı.
+  Gerçekte 1544'ten beri Cenevizli Lomellini ailesindeydi ve **hiç
+  Osmanlı-doğrudan olmadı**: `hafsi` → `ceneviz` (1544) → Tunus Ocaklığı
+  (1741-06-12) → `fransa` (1881). `d:[]`.
+- **Kerene:** `v:` 1872-01-01 → 1884-06-03 "Mısır (Kavalalı)" eklendi
+  (Munzinger Paşa'nın Bogos ilhakı; Hewett/Adua Antlaşması'yla geri verildi).
+- **Tokar:** `d:` 1885-02-05'te değil **1884-01-01'de** bitiyor; 1884-1891
+  arası `mehdi`, 1891-02-06'dan (Afafit) sonra `ingiltere`.
+
+### Öncelik 5: Barava ve Kısmâyû — YAZILMADI, hazır bekliyor
+İkisi de pencerenin **güney sınırının** (1.5°K) dışında. Kutu dışı nokta
+yazmak **güvenli değil**: `uret_petek.py` hücreyi `.intersection(BOLGE)` ile
+kırpıyor (265-276. satırlar), yani kutu dışındaki noktanın peteği **boş**
+çıkar — r83'te düzeltilen "sıfır alanlı petek" sınıfının aynısı. Kayıtlar
+dosyanın 14. bölümünde **yorumda** duruyor; pencere açıldığında yorumu
+kaldırmak yeterli. (Kısmâyû'nun 1895 devir günü doğrulanmadı, açılışta
+kontrol edilmeli.)
+
+## 11. Ölçülmüş üç bulgu
+
+### 11.1 Doğu Afrika'nın 852 km'lik boşluğu güney Habeşistan DEĞİL
+Merkez oturum "en kötü kapsama boşluğu burası: 852 km" demişti. Ölçtüm:
+boşluğun tepe noktası **1.62°K / 36.12°D** — yani **kuzey Kenya (Turkana)**,
+Habeşistan'ın 400 km güneyi. Yine de güney Habeşistan noktaları işe yaradı:
+
+```
+Doğu Afrika kutusu     ortanca   %90   en kötü   >120 km
+Faz 1 sonu               120     420     852      %50.2
+Faz 2 sonu               110     301     610      %45.3
+```
+
+**En kötü boşluk 852 → 610 km.** Kapanmıyor çünkü Turkana 1281-1923 arasında
+gerçekten devletsizdi. Doğru çözüm **sahipsiz dolgu noktası** (Sahra ve
+Rub'ul Hâlî deseni) — ama bu Değişmez 1'in tabanını 34'ten 35'e çıkarır ve
+`arac/denetle.py`'deki `BEKLENEN_SAHIPSIZ` sabiti Oturum 16'nın. **Ben
+eklemedim.**
+
+Diğer kutular (Faz 1 sonu → Faz 2 sonu, ortanca): Mısır/Sudan 159 → **146**,
+Kuzey Afrika 165 → **152**. Yeni ölçülen alt kutular: güney Habeşistan
+ortanca **130 km**, Darfur-Vaday ortanca **175 km**.
+Mısır/Sudan (671 km) ve Kuzey Afrika (519 km) kutularının en kötü noktaları
+artık **tamamen Sahra'nın içinde** — Libya çölü ve orta Cezayir Sahrası,
+ikisi de kasten boş.
+
+### 11.2 Ocaklık ayrımı 1830 sonrasına taşıyor — anakronizm sınıfı
+Cezayir Ocaklığı 1830-07-05'te sona erdi, ama ocaklık `v:` dönemleri Fransız
+işgal tarihine kadar sürüyor. Ölçülen fazlalıklar:
+
+```
+Ağvât / Gardâye      v: 1852-12-04'e kadar   →  22 yıl fazla
+Biskra (çekirdek)    v: 1844-03-04'e kadar   →  14 yıl fazla
+Tuggurt (çekirdek)   v: 1854-12-02'e kadar   →  24 yıl fazla
+Bû Sa'âde, Mesîle…   v: 1844-03-04'e kadar   →  14 yıl fazla
+```
+
+Bu **çekirdek dosyada da var** (Biskra, Tuggurt), yani benim partimin getirdiği
+bir hata değil — projenin mevcut modelleme kararı: "henüz Fransız değil" =
+"hâlâ ocaklık". `CLAUDE.md §3.5`'in hayalet devlet sınıfı bu ve
+`OGRENILENLER.md §1`'deki **sekizinci denetim (anakronizm)** tam olarak bunu
+görünür yapacak. Tek taraflı değiştirmedim: 1830-1852 arasını doğru
+etiketleyecek bir kimlik yok ve `v:` boşaltmak Değişmez 1'i açardı.
+
+### 11.3 `denetle_yayin.py` ters yönü ölçmüyor
+Araç "index.html'in istediği dosya yayınlanıyor mu" diye soruyor ve temiz
+diyor (21/21). Ama **"diskteki veri dosyası index.html'de kayıtlı mı"** diye
+sormuyor — `olaylar_ek9.js` bu yüzden araca hiç görünmüyor. Denetim de
+`data/olaylar*.js` deseniyle okuduğu için maddelerimi sayıyor ve **temiz**
+raporluyor; yayın ise göstermez. `OGRENILENLER.md §4`'teki `olaylar_ek8.js`
+404'ünün aynadaki hâli.
+
+## 12. Merkez oturumun yapması gerekenler
+
+1. **`arac/renkler.py`'ye beş kimlik** (DSATUR ile): `darfur`, `kaffa`,
+   `cimma`, `vollayta`, `sidamo`. Eklenmeden koşulan üretimde bu 7 petek
+   **renksiz** kalır ve motor uyarı verir — beklenen davranış. Komşuları:
+   Darfur ↔ `funj`/`mehdi`/`ingiltere`, güney Habeşistan ↔ `habesistan`.
+   Ayrıca kimliği hâlâ olmayan ve bu yüzden **nokta konmayan** yapılar:
+   Tuncur (Darfur öncesi), Vaday, Gamo, Konso, Hadiya.
+2. **`data/olaylar_ek9.js`'i bağla** — `index.html`'e `<script>` satırı **ve**
+   `js/app.js`:778-785 concat zincirine `.concat(window.OLAYLAR_EK9 || [])`.
+   İkisi olmadan 13 madde yayında yok, denetim yine temiz der.
+3. **Sürüm damgası** — `py arac/surum_damgala.py`, r83 → r84.
+4. **Turkana dolgu noktası** kararı: `BEKLENEN_SAHIPSIZ` 34 → 35 yapılacaksa
+   nokta ~2.2°K / 36.2°D'ye konur ve en kötü boşluk 610 km'den ~300 km'ye iner.
+5. **Sekizinci denetim (anakronizm)** — §11.2'nin ölçülmüş listesi hazır.
+6. **`denetle_yayin.py`'ye ters yön kontrolü** — §11.3.
+
+## 13. Kaynak kaydı — Faz 2
+
+Bu fazda `<title>` ile **yeni doğrulanan** iki slug:
+`darfur` → "DÂRFÛR - TDV İslâm Ansiklopedisi" ✓ ·
+`habesistan` → "HABEŞİSTAN - TDV İslâm Ansiklopedisi" ✓ (kısa çapraz gönderme
+maddesi, "bk. ETİYOPYA"). Kalan altı slug zaten doğrulanmış kümeden alındı:
+`cezayir`, `tilimsan`, `huseyniler`, `hidiv`, `sudan`,
+`kavalali-mehmed-ali-pasa`.
+
+Kaynaktan **doğrulanan** yeni tarihler: Sîdî Bel Abbès kampı 12 Haziran 1843 ·
+Ağvât 4 Aralık 1852 · Tabarka 12 Haziran 1741 · El-Fâşir 2 Kasım 1874 ·
+Slatin'in teslimi 23 Aralık 1883 · Hewett Antlaşması 3 Haziran 1884 ·
+Afafit 6 Şubat 1891 · El-Fâşir'in İngiliz işgali 23 Mayıs 1916 ·
+Vollayta 1894 · Kaffa 1897 (Gaki Şeroço'nun esareti) · Kesela 1840.
+
+**Doğrulanamayıp yıl hassasiyetine indirilenler** (uydurma gün yazılmadı):
+Muaskar 1841 · Şelif-Tenes 1843 · Nedrûme 1844 · Bogos 1872 · Tokar 1884 ·
+Mîzâb'ın hukukî ilhakı 1882. **Sidamo'nun yılı hiç doğrulanamadı** ve
+`OGRENILENLER.md §8` gereği yuvarlanmadı: doğrulanmış komşusu Kaffa'nın
+1897 tarihi kullanıldı, gerekçe kayıt yorumunda yazılı.
+
+## 14. ⚠️ Başka bir oturum `data/olaylar_ek7.js`'i ŞU AN düzenliyor
+
+Faz 2 boyunca ölçtüm: `olaylar_ek7.js` HEAD'de **136 madde**, çalışma
+kopyasında **109 madde** (fark **−27**; diff 27 ekleme / 27 silme). Muhtemelen
+mükerrer madde temizliği. Benim dosyalarımla çakışma yok (`olaylar_ek9.js`
+ayrı), **ama Değişmez 2'yi ölçtüğüm kronoloji kümesi o oturumun yarısında
+kalmış hâliydi.** Madde silmek kırılma kapsamasını daraltabilir:
+**o oturum bitince `py arac/denetle.py` yeniden koşturulmalı.**
+Aynı turda `data/kimlikler.js` de yeni bir dosya olarak belirdi (izlenmiyor) —
+o da başka bir oturumun işi.

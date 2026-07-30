@@ -101,6 +101,67 @@ def main():
     for y in izlenmeyenler:
         print("     %s   ← yayında 404 verir, sayfa sessizce eksik çalışır" % y)
 
+    # --- TERS YÖN: diskte veri var ama index.html onu istemiyor ---------------
+    # Oturum 14'ün bulgusu (2026-07-30): araç yalnız "index.html'in istediği
+    # dosya var mı" diye soruyordu. Tersini sormuyordu ve o yüzden
+    # `data/olaylar_ek9.js` araca HİÇ GÖRÜNMEDİ: 13 madde diskte duruyor,
+    # denetle.py `data/olaylar*.js` deseniyle okuduğu için onları sayıyor ve
+    # TEMİZ diyor, yayın ise göstermiyor. `olaylar_ek8.js` 404'ünün AYNADAKİ hâli.
+    # Yani iki araç birbirini doğrulamak yerine ikisi de yanlış cevap veriyordu.
+    # ⚠️ İlk sürüm 5 YANLIŞ ALARM verdi ve sebebi öğretici: `data/` altındaki her
+    # .js dosyası tarayıcı girdisi DEĞİL. İki ayrı tüketici var:
+    #   MOTOR girdisi   → uret_petek.py, arac/girdi.py'nin izin listesinden okur
+    #                     (yerlesimler_afrika.js böyle; tarayıcı onu hiç yüklemez,
+    #                      tarayıcı ÜRETİLMİŞ donemler.js'i yükler)
+    #   TARAYICI girdisi → index.html'in <script> satırları
+    # Bir dosya bu ikisinden HİÇBİRİNDE değilse gerçekten yetimdir.
+    istenen = {y.split("?")[0].split("#")[0].lstrip("./") for y in VARLIK.findall(html)
+               if yerel_mi(y)}
+    motor_girdisi = set()
+    try:
+        sys.path.insert(0, os.path.join(KOK, "arac"))
+        import girdi
+        motor_girdisi = {"data/" + f for f in girdi.GIRDI_DOSYALARI}
+    except Exception as e:
+        print("UYARI: arac/girdi.py okunamadı (%s) — motor girdisi ayrımı yapılamıyor" % e)
+
+    # Henüz aktif olmayan, gerekçesi belgeli partiler. Buraya bir dosya
+    # eklenirken NEDEN aktif olmadığı yazılır, yoksa liste çöplüğe döner.
+    BEKLEYEN = {
+        "data/yerlesimler_avrupa.js":    "237 nokta, 15 kimlik renkler.py'de tanımsız",
+        "data/yerlesimler_asya.js":      "344 nokta, 98 kimlik + harita penceresi 62°D'de bitiyor",
+        "data/yerlesimler_ortaasya2.js": "7 nokta, nogay+kazak kimliği tanımsız",
+        "data/kimlikler.js":             "kimlik sözlüğü, arayüz henüz kullanmıyor (ETIKETLEME.md)",
+    }
+
+    diskte, kayitsiz, bekleyen_bulunan = [], [], []
+    veri_dizini = os.path.join(KOK, "data")
+    if os.path.isdir(veri_dizini):
+        for f in sorted(os.listdir(veri_dizini)):
+            if not f.endswith(".js"):
+                continue
+            yol = "data/" + f
+            diskte.append(yol)
+            if yol in istenen or yol in motor_girdisi:
+                continue
+            if yol in BEKLEYEN:
+                bekleyen_bulunan.append(yol)
+            else:
+                kayitsiz.append(yol)
+
+    durum4 = "✓" if not kayitsiz else "✗"
+    print("%s  yetim veri dosyası: %d / %d  (ne index.html ne girdi.py okuyor)"
+          % (durum4, len(kayitsiz), len(diskte)))
+    for y in kayitsiz:
+        print("     %s   ← yayında yüklenmez; denetle.py sayar, kullanıcı görmez" % y)
+    if kayitsiz:
+        print("     → ya index.html'e <script> satırı, ya girdi.py izin listesine,")
+        print("       ya BEKLEYEN sözlüğüne gerekçesiyle, ya arsiv/ altına")
+    if bekleyen_bulunan:
+        print("  i %d parti bilerek bekliyor:" % len(bekleyen_bulunan))
+        for y in bekleyen_bulunan:
+            print("      %-34s %s" % (y, BEKLEYEN[y]))
+
     # sürüm damgası tutarlılığı: hepsi aynı ?v=rNN taşımalı
     damgalar = set(re.findall(r'\?v=(r\d+)', html))
     durum3 = "✓" if len(damgalar) <= 1 else "✗"
@@ -114,7 +175,7 @@ def main():
             print("     %s" % y)
 
     print()
-    if yoklar or izlenmeyenler or len(damgalar) > 1:
+    if yoklar or izlenmeyenler or kayitsiz or len(damgalar) > 1:
         print("SONUÇ: İHLAL VAR — çıkış kodu 1")
         return 1
     print("SONUÇ: temiz")

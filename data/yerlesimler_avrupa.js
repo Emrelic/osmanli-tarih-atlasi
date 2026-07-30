@@ -48,9 +48,19 @@
 // • İspanya birliği: kastilya/aragon→ispanya 1479-01-20 (II. Fernando'nun
 //   Aragon tahtına çıkışı). Mevcut Madrid/Sevilla/Barselona/Valensiya
 //   kayıtlarının 1479 öncesine bölünmesi ILERLEME'de önerildi.
-// • Portekiz: İber Birliği penceresi (1580-08-25 – 1640-12-01 ispanya) bu
-//   dosyanın 8 noktasında İŞLİ; canlıdaki Lizbon/Porto'ya entegrasyon
-//   ekleyecek (DUZELTMELER §B) — iki dosya AYNI üretimde girmeli.
+// • Portekiz: İber Birliği (1580-1640) penceresi GERİ ALINDI, uygulanmayacak.
+//   Kaynak (TDV "PORTEKİZ"): "meclis kendisini PORTEKİZ KRALI (I. Felipe)
+//   ilân etmek zorunda kaldı (1581)" ve "İspanya idaresinde Portekiz
+//   SÖMÜRGELERİNİ Hollanda ve İngiltere'ye kaptırdı". Yani ilhak değil ŞAHSÎ
+//   BİRLİK: Portekiz kendi tacını ve meclisini korudu, sömürgeler de onun kaldı.
+//   d:"ispanya" yazmak "Portekiz 60 yıl var olmadı" demek olurdu.
+//   İkinci gerekçe iç tutarlılık: canlı veride 12 nokta d:"portekiz" taşıyor ve
+//   10'u DENİZAŞIRI (Maskat, Hürmüz, Kişm, Suhâr, Sûr, Buraymî, Ras el-Hayme,
+//   Şârika, Tanca). Metropolü İspanya yapıp kolonileri Portekiz bırakmak üç
+//   okumanın en savunulamazı olurdu: anavatanı olmayan sömürge imparatorluğu.
+//   GENEL KURAL → OGRENILENLER.md: ŞAHSÎ BİRLİK ≠ İLHAK. Aynı soru
+//   İngiltere-İskoçya 1603-1707, Danimarka-Norveç, Lehistan-Litvanya,
+//   Avusturya-Macaristan 1867-1918 için de gelecek.
 // • Gün bilinmiyorsa YYYY-01-01 (yalnız yıl biliniyor demektir).
 // ============================================================================
 
@@ -250,21 +260,21 @@ window.YERLESIMLER_AVRUPA = [
 // üçünün 1479 öncesi aragon penceresi DUZELTMELER'de önerildi.
 // Atlantik kıyısı
 { ad:"Huelva", tur:"liman", lat:37.261, lon:-6.944, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},{f:"1479-01-20",t:"1923-10-29",d:"ispanya"}] },
-{ ad:"Lagos (Algarve)", tur:"liman", lat:37.102, lon:-8.674, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1580-08-25",d:"portekiz"},{f:"1580-08-25",t:"1640-12-01",d:"ispanya"},{f:"1640-12-01",t:"1923-10-29",d:"portekiz"}] },
-{ ad:"Setúbal", tur:"liman", lat:38.524, lon:-8.893, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1580-08-25",d:"portekiz"},{f:"1580-08-25",t:"1640-12-01",d:"ispanya"},{f:"1640-12-01",t:"1923-10-29",d:"portekiz"}] },
-{ ad:"Aveiro", tur:"liman", lat:40.641, lon:-8.654, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1580-08-25",d:"portekiz"},{f:"1580-08-25",t:"1640-12-01",d:"ispanya"},{f:"1640-12-01",t:"1923-10-29",d:"portekiz"}] },
+{ ad:"Lagos (Algarve)", tur:"liman", lat:37.102, lon:-8.674, g:0, k:0, d:[], s:[{f:"1281-01-01", t:"1923-10-29", d:"portekiz"}] },
+{ ad:"Setúbal", tur:"liman", lat:38.524, lon:-8.893, g:0, k:0, d:[], s:[{f:"1281-01-01", t:"1923-10-29", d:"portekiz"}] },
+{ ad:"Aveiro", tur:"liman", lat:40.641, lon:-8.654, g:0, k:0, d:[], s:[{f:"1281-01-01", t:"1923-10-29", d:"portekiz"}] },
 
 // ── İBERYA: Navarra ve Portekiz ────────────────────────────────────────────
 { ad:"Pamplona", tur:"sehir", lat:42.813, lon:-1.646, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1512-07-25",d:"navarra"},{f:"1512-07-25",t:"1923-10-29",d:"ispanya"}] },
-// Portekiz: İber Birliği penceresi İŞLENDİ (1580-08-25 Alcântara → 1640-12-01
-// restorasyon; merkez oturum kararı). Canlıdaki Lizbon/Porto'ya aynı pencereyi
-// entegrasyon ekleyecek (OTURUM-12-DUZELTMELER.md §B) — İKİSİ BİRLİKTE girmeli,
-// yoksa 1580-1640 arası iki farklı Portekiz görünür.
-{ ad:"Coimbra", tur:"sehir", lat:40.203, lon:-8.410, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1580-08-25",d:"portekiz"},{f:"1580-08-25",t:"1640-12-01",d:"ispanya"},{f:"1640-12-01",t:"1923-10-29",d:"portekiz"}] },
-{ ad:"Braga", tur:"sehir", lat:41.545, lon:-8.427, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1580-08-25",d:"portekiz"},{f:"1580-08-25",t:"1640-12-01",d:"ispanya"},{f:"1640-12-01",t:"1923-10-29",d:"portekiz"}] },
-{ ad:"Évora", tur:"sehir", lat:38.571, lon:-7.907, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1580-08-25",d:"portekiz"},{f:"1580-08-25",t:"1640-12-01",d:"ispanya"},{f:"1640-12-01",t:"1923-10-29",d:"portekiz"}] },
-{ ad:"Faro", tur:"liman", lat:37.019, lon:-7.930, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1580-08-25",d:"portekiz"},{f:"1580-08-25",t:"1640-12-01",d:"ispanya"},{f:"1640-12-01",t:"1923-10-29",d:"portekiz"}] },
-{ ad:"Bragança", tur:"sehir", lat:41.806, lon:-6.757, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1580-08-25",d:"portekiz"},{f:"1580-08-25",t:"1640-12-01",d:"ispanya"},{f:"1640-12-01",t:"1923-10-29",d:"portekiz"}] },
+// Portekiz: İber Birliği penceresi GERİ ALINDI (gerekçe dosya başında).
+// 1580-1640 şahsî birlikti, ilhak değil — sekiz nokta 1281-1923 boyunca
+// tek  penceresiyle duruyor. Canlıdaki Lizbon/Porto'ya da
+// eklenmeyecek; OTURUM-12-DUZELTMELER.md §B bu yüzden kapatıldı.
+{ ad:"Coimbra", tur:"sehir", lat:40.203, lon:-8.410, g:0, k:0, d:[], s:[{f:"1281-01-01", t:"1923-10-29", d:"portekiz"}] },
+{ ad:"Braga", tur:"sehir", lat:41.545, lon:-8.427, g:0, k:0, d:[], s:[{f:"1281-01-01", t:"1923-10-29", d:"portekiz"}] },
+{ ad:"Évora", tur:"sehir", lat:38.571, lon:-7.907, g:0, k:0, d:[], s:[{f:"1281-01-01", t:"1923-10-29", d:"portekiz"}] },
+{ ad:"Faro", tur:"liman", lat:37.019, lon:-7.930, g:0, k:0, d:[], s:[{f:"1281-01-01", t:"1923-10-29", d:"portekiz"}] },
+{ ad:"Bragança", tur:"sehir", lat:41.806, lon:-6.757, g:0, k:0, d:[], s:[{f:"1281-01-01", t:"1923-10-29", d:"portekiz"}] },
 
 // ── DANİMARKA: Jutland ve adalar (B-6'nın doğrudan kapanışı) ───────────────
 { ad:"Ribe", tur:"sehir", lat:55.328, lon:8.766, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"danimarka"}] },

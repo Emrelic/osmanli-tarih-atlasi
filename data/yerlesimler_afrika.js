@@ -363,8 +363,8 @@ window.YERLESIMLER_AFRIKA = [
 // tuttuğu ada-kale. Bu ara dönem VERİYE YAZILMADI: 1741 devralması için
 // kronoloji maddesi yok, yazılsaydı Değişmez 2'yi açardı.
 { ad:"Tabarka", tur:"kale", lat:36.954, lon:8.758, g:0, k:4, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
+  s:[{f:"1281-01-01",t:"1544-01-01",d:"hafsi"},{f:"1544-01-01",t:"1741-06-12",d:"ceneviz"},{f:"1881-05-12",t:"1923-10-29",d:"fransa"}],
+  d:[], v:[{f:"1741-06-12", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
 
 { ad:"Bâce (Béja)", tur:"sehir", lat:36.733, lon:9.183, g:0, k:4, m:"Tunus",
   s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa"}],
@@ -538,13 +538,13 @@ window.YERLESIMLER_AFRIKA = [
 
 // Gerçek işgal 1843 (Ténès) — 1844-03-04'e yuvarlandı.
 { ad:"Tenes", tur:"liman", lat:36.507, lon:1.307, g:0, k:4, m:"Cezayir",
-  s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1844-03-04",t:"1923-10-29",d:"fransa"}],
-  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1844-03-04", k:"Cezayir Ocaklığı (dayı idaresi)"}] },
+  s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1843-01-01",t:"1923-10-29",d:"fransa"}],
+  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1843-01-01", k:"Cezayir Ocaklığı (dayı idaresi)"}] },
 
 // Gerçek işgal 1843 (Şelif vadisi) — 1844-03-04'e yuvarlandı.
 { ad:"Şelif", tur:"sehir", lat:36.165, lon:1.334, g:0, k:4, m:"Cezayir",
-  s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1844-03-04",t:"1923-10-29",d:"fransa"}],
-  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1844-03-04", k:"Cezayir Ocaklığı (dayı idaresi)"}] },
+  s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1843-01-01",t:"1923-10-29",d:"fransa"}],
+  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1843-01-01", k:"Cezayir Ocaklığı (dayı idaresi)"}] },
 
 // General Desmichels 28 Temmuz 1833'te girdi; Hünkâr İskelesi maddesine 20 gün.
 { ad:"Mustagānim", tur:"liman", lat:35.931, lon:0.089, g:0, k:3, m:"Cezayir",
@@ -554,12 +554,12 @@ window.YERLESIMLER_AFRIKA = [
 // Abdülkādir el-Cezâirî'nin ilk merkezi. Gerçek düşüş 1841-05 — 1844-03-04'e
 // yuvarlandı.
 { ad:"Muaskar", tur:"sehir", lat:35.396, lon:0.140, g:0, k:4, m:"Cezayir",
-  s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1844-03-04",t:"1923-10-29",d:"fransa"}],
-  d:[{f:"1552-01-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1844-03-04", k:"Cezayir Ocaklığı (dayı idaresi)"}] },
+  s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1841-01-01",t:"1923-10-29",d:"fransa"}],
+  d:[{f:"1552-01-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1841-01-01", k:"Cezayir Ocaklığı (dayı idaresi)"}] },
 
 { ad:"Sîdî Bel Abbès", tur:"sehir", lat:35.194, lon:-0.641, g:0, k:4, m:"Cezayir",
-  s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1844-03-04",t:"1923-10-29",d:"fransa"}],
-  d:[{f:"1552-01-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1844-03-04", k:"Cezayir Ocaklığı (dayı idaresi)"}] },
+  s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1843-06-12",t:"1923-10-29",d:"fransa"}],
+  d:[{f:"1552-01-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1843-06-12", k:"Cezayir Ocaklığı (dayı idaresi)"}] },
 
 { ad:"Ayn Temûşent", tur:"sehir", lat:35.298, lon:-1.140, g:0, k:4, m:"Cezayir",
   s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1844-03-04",t:"1923-10-29",d:"fransa"}],
@@ -568,8 +568,8 @@ window.YERLESIMLER_AFRIKA = [
 // Fas sınırına en yakın Osmanlı kasabası; iki devlet arasındaki sınır burada
 // tanımlanır.
 { ad:"Nedrûme", tur:"sehir", lat:35.010, lon:-1.747, g:0, k:4, m:"Cezayir",
-  s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1844-03-04",t:"1923-10-29",d:"fransa"}],
-  d:[{f:"1552-01-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1844-03-04", k:"Cezayir Ocaklığı (dayı idaresi)"}] },
+  s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1844-01-01",t:"1923-10-29",d:"fransa"}],
+  d:[{f:"1552-01-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1844-01-01", k:"Cezayir Ocaklığı (dayı idaresi)"}] },
 
 // Fransızlar 13 Mayıs 1839'da girdi; Fırat geçişi maddesine 22 gün.
 { ad:"Cicel", tur:"liman", lat:36.821, lon:5.766, g:0, k:4, m:"Cezayir",
@@ -620,12 +620,12 @@ window.YERLESIMLER_AFRIKA = [
 // (Ağvât) ve 1882 (Mîzâb) — ikisi de Tuggurt kırılmasına (1854-12-02)
 // yuvarlandı; başka kapsanan tarih yok.
 { ad:"Ağvât", tur:"sehir", lat:33.800, lon:2.865, g:0, k:4, m:"Cezayir",
-  s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1854-12-02",t:"1923-10-29",d:"fransa"}],
-  d:[{f:"1552-01-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1854-12-02", k:"Cezayir Ocaklığı (dayı idaresi)"}] },
+  s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1852-12-04",t:"1923-10-29",d:"fransa"}],
+  d:[{f:"1552-01-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1852-12-04", k:"Cezayir Ocaklığı (dayı idaresi)"}] },
 
 { ad:"Gardâye", tur:"sehir", lat:32.490, lon:3.673, g:0, k:4, m:"Cezayir",
-  s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1854-12-02",t:"1923-10-29",d:"fransa"}],
-  d:[{f:"1552-01-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1854-12-02", k:"Cezayir Ocaklığı (dayı idaresi)"}] },
+  s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1852-12-04",t:"1923-10-29",d:"fransa"}],
+  d:[{f:"1552-01-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1852-12-04", k:"Cezayir Ocaklığı (dayı idaresi)"}] },
 
 // ===========================================================================
 // 7) HABEŞ EYALETİ ve KIZILDENİZ'İN BATI KIYISI
@@ -656,8 +656,8 @@ window.YERLESIMLER_AFRIKA = [
 // Sevâkin'in iç ardalanı (Bece ülkesi). 1883-1891 arası fiilen Mehdî
 // kuvvetlerinin elindeydi; bu ara dönem yazılmadı, Sevâkin zinciri korundu.
 { ad:"Tokar", tur:"sehir", lat:18.427, lon:37.729, g:0, k:4, m:"Sevâkin",
-  s:[{f:"1281-01-01",t:"1557-01-01",d:"memluk"},{f:"1885-02-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1557-01-01",t:"1885-02-05"}] },
+  s:[{f:"1281-01-01",t:"1557-01-01",d:"memluk"},{f:"1884-01-01",t:"1891-02-06",d:"mehdi"},{f:"1891-02-06",t:"1923-10-29",d:"ingiltere"}],
+  d:[{f:"1557-01-01",t:"1884-01-01"}] },
 
 { ad:"Sinkat", tur:"sehir", lat:18.833, lon:36.833, g:0, k:4, m:"Sevâkin",
   s:[{f:"1281-01-01",t:"1557-01-01",d:"memluk"},{f:"1885-02-05",t:"1923-10-29",d:"ingiltere"}],
@@ -675,66 +675,67 @@ window.YERLESIMLER_AFRIKA = [
 // ===========================================================================
 
 { ad:"Aksum", tur:"sehir", lat:14.128, lon:38.723, g:1, k:0,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}] },
+  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 { ad:"Adua", tur:"sehir", lat:14.170, lon:38.898, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}] },
+  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 { ad:"Şire", tur:"sehir", lat:14.103, lon:38.283, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}] },
+  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 { ad:"Adigrat", tur:"sehir", lat:14.277, lon:39.462, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}] },
+  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 { ad:"Mekelle", tur:"sehir", lat:13.497, lon:39.475, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}] },
+  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 // Bogos: 1872-1884 arası Mısır (Kavalalı) işgalindeydi; bu ara dönem
 // yazılmadı — kronoloji maddesi yok.
 { ad:"Kerene", tur:"sehir", lat:15.778, lon:38.451, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1923-10-29",d:"italya"}] },
+  s:[{f:"1281-01-01",t:"1872-01-01",d:"habesistan"},{f:"1884-06-03",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1923-10-29",d:"italya"}],
+  d:[], v:[{f:"1872-01-01",t:"1884-06-03",k:"Mısır (Kavalalı)"}] },
 
 { ad:"Lalibela", tur:"sehir", lat:12.032, lon:39.047, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}] },
+  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 { ad:"Sokota", tur:"sehir", lat:12.628, lon:39.033, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}] },
+  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 // Zemene Mesafint (prensler devri) boyunca imparatorluk merkezi.
 { ad:"Debre Tabor", tur:"sehir", lat:11.855, lon:38.017, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}] },
+  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 { ad:"Bahır Dar", tur:"sehir", lat:11.560, lon:37.400, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}] },
+  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 // Sudan sınırındaki geçit; 1889 Mehdî-Habeş savaşının sahnesi.
 { ad:"Metemma", tur:"kale", lat:12.968, lon:36.155, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}] },
+  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 { ad:"Dese", tur:"sehir", lat:11.133, lon:39.633, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}] },
+  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 { ad:"Debre Berhan", tur:"sehir", lat:9.680, lon:39.532, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}] },
+  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 // Şeva krallığının merkezi; Menelik buradan çıktı.
 { ad:"Ankober", tur:"sehir", lat:9.583, lon:39.733, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}] },
+  s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 // Harar'ın doğusu; mevcut Harar kaydıyla aynı gün Habeşistan'a geçti.
 { ad:"Cîcîga", tur:"sehir", lat:9.350, lon:42.800, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1887-01-06",d:"adal"},{f:"1887-01-06",t:"1923-10-29",d:"habesistan"}] },
+  s:[{f:"1281-01-01",t:"1887-01-06",d:"adal"},{f:"1887-01-06",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 // Afar (Danâkil) kıyısı. Avsa sultanlığının kimliği yok, "adal" ile boyandı.
 // Aseb: Rubattino şirketinin hakları 10 Mart 1882'de İtalyan devletine
 // devredildi — koloninin resmî başlangıcı budur.
 { ad:"Aseb", tur:"liman", lat:13.009, lon:42.735, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1882-03-10",d:"adal"},{f:"1882-03-10",t:"1923-10-29",d:"italya"}] },
+  s:[{f:"1281-01-01",t:"1882-03-10",d:"adal"},{f:"1882-03-10",t:"1923-10-29",d:"italya"}], d:[] },
 
 // Fransız himayesi 1884'te kuruldu; GÜN DOĞRULANAMADI, bu yüzden proje
 // kuralına göre YYYY-01-01 yazıldı (mevcut Zeyla kaydıyla aynı desen).
 { ad:"Tacûra", tur:"liman", lat:11.788, lon:42.882, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1884-01-01",d:"adal"},{f:"1884-01-01",t:"1923-10-29",d:"fransa"}] },
+  s:[{f:"1281-01-01",t:"1884-01-01",d:"adal"},{f:"1884-01-01",t:"1923-10-29",d:"fransa"}], d:[] },
 
 // ===========================================================================
 // 9) SOMALİ KIYISI
@@ -748,55 +749,55 @@ window.YERLESIMLER_AFRIKA = [
 // ===========================================================================
 
 { ad:"Merka", tur:"liman", lat:1.716, lon:44.772, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}] },
+  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
 
 { ad:"Beledveyne", tur:"sehir", lat:4.735, lon:45.204, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}] },
+  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
 
 { ad:"Baydoa", tur:"sehir", lat:3.114, lon:43.649, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}] },
+  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
 
 // Hobyo (Obbiya) sultanlığı İtalyan himayesini Aralık 1888'de kabul etti —
 // Mecerteyn'den (7 Nisan 1889) birkaç ay önce. Gün bilinmediği için ayın
 // 1'i yazıldı.
 { ad:"Obbiya", tur:"liman", lat:5.351, lon:48.527, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1888-12-01",d:"somali"},{f:"1888-12-01",t:"1923-10-29",d:"italya"}] },
+  s:[{f:"1281-01-01",t:"1888-12-01",d:"somali"},{f:"1888-12-01",t:"1923-10-29",d:"italya"}], d:[] },
 
 { ad:"Galkayo", tur:"sehir", lat:6.770, lon:47.431, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1888-12-01",d:"somali"},{f:"1888-12-01",t:"1923-10-29",d:"italya"}] },
+  s:[{f:"1281-01-01",t:"1888-12-01",d:"somali"},{f:"1888-12-01",t:"1923-10-29",d:"italya"}], d:[] },
 
 { ad:"Garove", tur:"sehir", lat:8.406, lon:48.483, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1889-04-07",d:"somali"},{f:"1889-04-07",t:"1923-10-29",d:"italya"}] },
+  s:[{f:"1281-01-01",t:"1889-04-07",d:"somali"},{f:"1889-04-07",t:"1923-10-29",d:"italya"}], d:[] },
 
 { ad:"Ayl", tur:"liman", lat:7.980, lon:49.816, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1889-04-07",d:"somali"},{f:"1889-04-07",t:"1923-10-29",d:"italya"}] },
+  s:[{f:"1281-01-01",t:"1889-04-07",d:"somali"},{f:"1889-04-07",t:"1923-10-29",d:"italya"}], d:[] },
 
 // Mecerteyn sultanlığının merkezi ve Afrika Boynuzu'nun ucu.
 { ad:"Bender Kāsım (Bosaso)", tur:"liman", lat:11.284, lon:49.183, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1889-04-07",d:"somali"},{f:"1889-04-07",t:"1923-10-29",d:"italya"}] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1889-04-07",d:"somali"},{f:"1889-04-07",t:"1923-10-29",d:"italya"}], d:[] },
 
 { ad:"Alula", tur:"liman", lat:11.968, lon:50.750, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1889-04-07",d:"somali"},{f:"1889-04-07",t:"1923-10-29",d:"italya"}] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1889-04-07",d:"somali"},{f:"1889-04-07",t:"1923-10-29",d:"italya"}], d:[] },
 
 { ad:"Hafun", tur:"liman", lat:10.437, lon:51.259, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1889-04-07",d:"somali"},{f:"1889-04-07",t:"1923-10-29",d:"italya"}] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1889-04-07",d:"somali"},{f:"1889-04-07",t:"1923-10-29",d:"italya"}], d:[] },
 
 // Kuzeybatı kıyısı ve ardalanı: mevcut Berbera kaydıyla aynı zincir
 // (1884-07-18 İngiliz himaye antlaşmaları).
 { ad:"Bulhar", tur:"liman", lat:10.401, lon:44.458, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}], d:[] },
 
 { ad:"Hargeysa", tur:"sehir", lat:9.560, lon:44.065, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}], d:[] },
 
 { ad:"Burao", tur:"sehir", lat:9.522, lon:45.534, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}], d:[] },
 
 { ad:"Lasanod", tur:"sehir", lat:8.477, lon:47.361, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}], d:[] },
 
 { ad:"Erigavo", tur:"sehir", lat:10.616, lon:47.368, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}], d:[] },
 
 // ===========================================================================
 // 10) SUDAN ve NÛBE
@@ -813,75 +814,187 @@ window.YERLESIMLER_AFRIKA = [
 
 { ad:"Kerma", tur:"sehir", lat:19.600, lon:30.410, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)"}] },
+  v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
 
 { ad:"Debbe", tur:"sehir", lat:18.056, lon:30.951, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)"}] },
+  v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
 
 // Nil'in büyük kıvrımı; Kerîme (Karima) ve eski Napata bölgesi.
 { ad:"Merevî", tur:"sehir", lat:18.550, lon:31.850, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)"}] },
+  v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
 
 { ad:"Ebû Hamed", tur:"sehir", lat:19.535, lon:33.319, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)"}] },
+  v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
 
 // Nil ile Sevâkin arasındaki kervan yolunun düğüm noktası.
 { ad:"Berber", tur:"sehir", lat:18.017, lon:33.983, g:0, k:3, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)"}] },
+  v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
 
 // İsmâil Paşa'nın 1822'de yakılarak öldürüldüğü yer (kronolojide maddesi var).
 { ad:"Şendî", tur:"sehir", lat:16.691, lon:33.433, g:0, k:3, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)"}] },
+  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
 
 { ad:"Vad Medenî", tur:"sehir", lat:14.401, lon:33.519, g:0, k:3, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)"}] },
+  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
 
 { ad:"Ed-Düveym", tur:"sehir", lat:13.995, lon:32.334, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)"}] },
+  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
 
 { ad:"Kosti", tur:"sehir", lat:13.170, lon:32.663, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)"}] },
+  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
 
 { ad:"Kadârif", tur:"sehir", lat:14.036, lon:35.383, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)"}] },
+  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
 
 // Rusayris ve Fâzûğlî: Func Sultanlığı'nın Mavi Nil boyundaki güney ucu.
 { ad:"Rusayris", tur:"sehir", lat:11.861, lon:34.386, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)"}] },
+  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
 
 { ad:"Fâzûğlî", tur:"sehir", lat:11.267, lon:34.783, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)"}] },
+  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
 
 // Kordofan: mevcut Ubeyyid kaydıyla aynı gün (1821-08-19).
 { ad:"Bâra", tur:"sehir", lat:13.700, lon:30.367, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-08-19",t:"1885-01-26",k:"Mısır (Kavalalı)"}] },
+  v:[{f:"1821-08-19",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
 
 // Batı Kordofan — Darfur ile Sennâr arasındaki tartışmalı kuşak. Darfur
 // kimliği olmadığı için Kordofan zinciriyle yazıldı; kimlik gelince
 // 1821 öncesi yeniden değerlendirilmeli.
 { ad:"Nühûd", tur:"sehir", lat:12.700, lon:28.433, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-08-19",t:"1885-01-26",k:"Mısır (Kavalalı)"}] },
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1785-01-01",d:"funj"},{f:"1785-01-01",t:"1821-08-19",d:"darfur"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
+  d:[], v:[{f:"1821-08-19",t:"1885-01-26",k:"Mısır (Kavalalı)"}] },
 
 // Taka bölgesi 1840'ta Kavalalı Mısır'ı tarafından alındı ve Kesela şehri o
 // yıl askerî karargâh olarak kuruldu (Ahmed Paşa Ebû Vidân dönemi). YIL
 // doğrulandı, GÜN doğrulanmadı: 1840-07-15 seçilmesinin sebebi Londra
 // Antlaşması maddesiyle aynı güne düşüp Değişmez 2'yi kapalı tutmasıdır.
 // Gerçek gün bulunduğunda düzeltilmeli.
-{ ad:"Kesela", tur:"sehir", lat:15.451, lon:36.400, g:0, k:3, m:"Hartum", kur:"1840-07-15",
+{ ad:"Kesela", tur:"sehir", lat:15.451, lon:36.400, g:0, k:3, m:"Hartum", kur:"1840-01-01",
   s:[{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1840-07-15",t:"1885-01-26",k:"Mısır (Kavalalı)"}] },
+  v:[{f:"1840-01-01",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
+
+
+// ===========================================================================
+// 11) SAHRA'NIN ÜÇ OSMANLI KAZASI
+// ---------------------------------------------------------------------------
+// Oturum 14'ün görev tanımı Sahra'yı dışarıda bırakmıştı; merkez oturum bu
+// üçünü istedi çünkü gerçekten Osmanlı kazasıydılar. Zincirler ait oldukları
+// merkezle birebir aynı (Ğadâmis → Trablus, Gât → Murzuk/Fizan, Cağbûb →
+// Bingazi), Karamanlı ocaklık ayrımı dâhil.
+// ⚠️ Çöl dolgu noktaları (Büyük Doğu Ergi, Fizan güneyi, Hoggar, Sirte iç
+// çölü, Batı çölü) YERİNDE BIRAKILDI — bunlar kasten sahipsizdir ve
+// Değişmez 1'in 34'lük tabanı onlara dayanıyor.
+// ===========================================================================
+
+// Trablus'tan Sudan'a giden kervan yolunun en büyük vahası; Osmanlı kazası.
+{ ad:"Ğadâmis", tur:"sehir", lat:30.133, lon:9.500, g:0, k:4, m:"Trablus",
+  s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+  d:[{f:"1551-08-15",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}],
+  v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
+
+// Fizan'ın batı ucu; zincir mevcut Murzuk kaydıyla birebir (1577 tâbiiyeti).
+{ ad:"Gât", tur:"sehir", lat:24.964, lon:10.180, g:0, k:4, m:"Murzuk (Fizan)",
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"hafsi"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+  d:[{f:"1577-01-01",t:"1711-03-01",y:"vassal"},{f:"1835-05-26",t:"1912-10-18"}],
+  v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
+
+// Senûsî tarikatının 1856'da kurduğu çöl merkezi ve zâviyesi. kur: yazıldı;
+// motor bugün okumuyor (MIMARI.md §3.1) ama öncesinde burada yerleşim yoktu.
+{ ad:"Cağbûb", tur:"sehir", lat:29.744, lon:24.517, g:0, k:4, m:"Bingazi", kur:"1856-01-01",
+  s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+  d:[{f:"1551-08-15",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}],
+  v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
+
+// ===========================================================================
+// 12) DARFUR SULTANLIĞI
+// ---------------------------------------------------------------------------
+// ⚠️ `darfur` kimliği bu dosya yazılırken arac/renkler.py'de TANIMSIZDI.
+// Merkez oturumun talimatı gereği noktalar `s:` alanı DOLU yazıldı — kimlik
+// Oturum 16'da eklenince tek hamlede boyanacak. Kimlik eklenmeden koşturulan
+// üretimde bu üç petek RENKSİZ kalır ve motor uyarı verir; beklenen davranış
+// budur. renkler.py'ye DOKUNULMADI (DSATUR dengesi).
+//
+// Zincir: Keyra hânedanı (1603'ten; öncesi Tuncur krallığı, kimliği YOK ve
+// `darfur` ile boyandı) → 1874-11-02 Mısır ilhakı (tâbi) → 1883-12-23 Mehdî →
+// 1898-09-02 Ali Dinar'ın sultanlığı yeniden kurdu → 1916-05-23 İngiltere.
+// İki `v:` sınırının maddesi olaylar_ek9.js'e yazıldı.
+// k:0 ve m: YOK — Darfur egemen bir sultanlıktı; m:"Hartum" yazmak Değişmez 3
+// çelişkisini altı kesitte birden artırırdı (ölçüldü).
+// ===========================================================================
+
+{ ad:"El-Fâşir", tur:"sehir", lat:13.630, lon:25.349, g:1, k:0,
+  s:[{f:"1281-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
+  d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)"}] },
+
+{ ad:"Nyala", tur:"sehir", lat:12.048, lon:24.882, g:0, k:0,
+  s:[{f:"1281-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
+  d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)"}] },
+
+// Darfur'un batı ucu; Vaday Sultanlığı ile sınır. Vaday'ın kimliği de YOK.
+{ ad:"Cenîne", tur:"sehir", lat:13.452, lon:22.445, g:0, k:0,
+  s:[{f:"1281-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
+  d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)"}] },
+
+// ===========================================================================
+// 13) GÜNEY HABEŞİSTAN KRALLIKLARI
+// ---------------------------------------------------------------------------
+// ⚠️ `kaffa`, `cimma`, `vollayta`, `sidamo` kimlikleri renkler.py'de TANIMSIZ
+// — Darfur'la aynı durum, aynı gerekçe (merkez oturumun talimatı).
+//
+// Bu bölge 1890'lara kadar Habeş İmparatorluğu'na ait DEĞİLDİ; Oturum 14 bu
+// yüzden buraya hiç nokta koymamıştı ve alan Addis ile Ogaden dolgusuna
+// emiliyordu. Menelik'in güney seferleri:
+//   Vollayta  1887-1894 savaşı, 1894'te ilhak            ✓ kaynaktan
+//   Kaffa     1895 istilâsı, kral Gaki Şeroço 1897'de esir ✓ kaynaktan
+//   Sidamo    yılı doğrulanamadı → OGRENILENLER §8 gereği YUVARLANMADI,
+//             komşusu Kaffa'nın doğrulanmış 1897 tarihi kullanıldı
+//   Cimma     1884'te Menelik'e vergiye bağlandı ama iç özerkliğini 1932'ye
+//             kadar korudu — atlasın ufku 1923'te bittiği için `cimma` olarak
+//             kalır. 1830 öncesi Ennarya/Gonga alanıdır, `kaffa` yazıldı.
+// ⚠️ Gamo, Konso ve Hadiya'ya nokta KONMADI — kimlik yok, `habesistan` yazmak
+// yanlış olurdu.
+// ===========================================================================
+
+{ ad:"Bonga (Kaffa)", tur:"sehir", lat:7.283, lon:36.233, g:0, k:0,
+  s:[{f:"1281-01-01",t:"1897-01-01",d:"kaffa"},{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+
+{ ad:"Cimma (Jiren)", tur:"sehir", lat:7.673, lon:36.834, g:0, k:0,
+  s:[{f:"1281-01-01",t:"1830-01-01",d:"kaffa"},{f:"1830-01-01",t:"1923-10-29",d:"cimma"}], d:[] },
+
+{ ad:"Sodo (Vollayta)", tur:"sehir", lat:6.860, lon:37.762, g:0, k:0,
+  s:[{f:"1281-01-01",t:"1894-01-01",d:"vollayta"},{f:"1894-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+
+{ ad:"Yirgalem (Sidamo)", tur:"sehir", lat:6.750, lon:38.410, g:0, k:0,
+  s:[{f:"1281-01-01",t:"1897-01-01",d:"sidamo"},{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+
+// ===========================================================================
+// 14) PENCERE GÜNEYE AÇILDIĞINDA HAZIR — ŞU AN KAPALI
+// ---------------------------------------------------------------------------
+// Barava (1.106°K) ve Kısmâyû (0.358°K) `box(-12, 1.5, 62, 62)` penceresinin
+// GÜNEY SINIRININ dışında. Kutu dışı nokta yazmak GÜVENLİ DEĞİL: uret_petek.py
+// hücreyi `.intersection(BOLGE)` ile kırpıyor (265-276. satırlar), yani kutu
+// dışındaki noktanın peteği BOŞ çıkar — bu tam olarak r83'te düzeltilen
+// "sıfır alanlı petek" sınıfıdır. Bu yüzden kayıtlar YORUMDA bırakıldı;
+// pencere güneye açıldığında yorumu kaldırmak yeterli.
+//
+// { ad:"Barava", tur:"liman", lat:1.106, lon:44.032, g:0, k:0,
+//   s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+//
+// { ad:"Kısmâyû", tur:"liman", lat:0.358, lon:42.545, g:0, k:0,
+//   s:[{f:"1281-01-01",t:"1895-07-01",d:"somali"},{f:"1895-07-01",t:"1923-10-29",d:"ingiltere"}], d:[] },
+//   ⚠️ Kısmâyû 1895'te İngiliz Doğu Afrika'sına katıldı (Zengibar'dan devren);
+//   gün doğrulanmadı, açılışta kontrol edilmeli.
 
 ];

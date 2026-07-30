@@ -309,3 +309,65 @@ metadatasından değil. Yanlış atıf zararsız görünür ama "kim ne ekledi"
 denetimini bozar ve o denetim veri kaybı kovalarken gereklidir.
 
 Bu, `§11`'in (ölçmeden karar vermemek) aynı refleksinin başka bir yüzü.
+
+---
+
+## 14. ŞAHSÎ BİRLİK ≠ İLHAK
+
+*Vaka: İber Birliği 1580-1640, 2026-07-30.*
+
+Oturum 12, sekiz Portekiz noktasına `{f:"1580-08-25", t:"1640-12-01",
+d:"ispanya"}` penceresi ekledi ve eş parçayı (canlıdaki Lizbon, Porto)
+entegrasyona bıraktı. Kaynağa bakınca karar **geri alındı.**
+
+TDV "PORTEKİZ": *"meclis kendisini **Portekiz kralı** (I. Felipe) ilân etmek
+zorunda kaldı (1581)"* ve *"İspanya idaresinde Portekiz **sömürgelerini**
+Hollanda ve İngiltere'ye kaptırdı"*. Yani II. Felipe Portekiz tahtına
+**Portekiz kralı olarak** çıktı; Portekiz kendi tacını, meclisini ve sömürge
+idaresini korudu. `d:"ispanya"` yazmak *"Portekiz 60 yıl var olmadı"* demek
+olurdu ve kaynak bunu açıkça reddediyor.
+
+**İkinci gerekçe iç tutarlılıktı ve tek başına yeterliydi.** Ölçüm: canlı veride
+**12 nokta** `portekiz` taşıyor ve **10'u denizaşırı** (Maskat, Hürmüz, Kişm,
+Suhâr, Sûr, Buraymî, Ras el-Hayme, Şârika, Tanca). Metropolü İspanya yapıp
+kolonileri Portekiz bırakmak, üç okumanın **en savunulamazı** olurdu: anavatanı
+olmayan bir sömürge imparatorluğu. İki tutarlı seçenek vardı — hepsi İspanya ya
+da hepsi Portekiz — ve kaynak ikincisini söylüyordu.
+
+> **Kural:** iki krallık aynı hükümdarı paylaşıyor ama kendi kurumlarını
+> koruyorsa haritada **ayrı kimlikle** durur. Aynı soru şuralarda gelecek:
+> İngiltere-İskoçya 1603-1707 · Lehistan-Litvanya 1386-1569 ·
+> Danimarka-Norveç 1524-1814 · İsveç-Norveç 1814-1905 ·
+> Avusturya-Macaristan 1867-1918 · Kastilya-Aragon 1479-1516.
+
+⚠️ **Yan ders — bir veri kararı hep İKİ yerde ölçülür:** kaynakta ve mevcut
+verinin geri kalanında. Oturum 12 kaynağı okumuştu ama 10 denizaşırı noktanın
+varlığını ölçmemişti; ben ölçtüm ve karar kendiliğinden çıktı.
+
+---
+
+## 15. Bir aracın kör noktası, AYNADAKİ yönü sormamaktır
+
+*Vaka: `denetle_yayin.py`, Oturum 14'ün bulgusu, 2026-07-30.*
+
+`arac/denetle_yayin.py` şu soruyu soruyordu: *"index.html'in istediği her dosya
+diskte ve git'te var mı?"* — ve `olaylar_ek8.js`'in 404'ünü bu yüzden yakaladı.
+
+Ama **tersini sormuyordu**: *"diskteki her veri dosyası index.html'de kayıtlı
+mı?"* Sonuç: `data/olaylar_ek9.js` araca **hiç görünmedi.** 13 madde diskte
+duruyordu, `denetle.py` onları `data/olaylar*.js` deseniyle okuyup **sayıyordu
+ve TEMİZ diyordu**, yayın ise göstermiyordu. Yani iki araç birbirini doğrulamak
+yerine ikisi birden yanlış cevap veriyordu.
+
+**Kural:** bir tutarlılık aracı yazarken iki yön de sorulur. "A, B'yi
+gösteriyor mu" kadar "B, A'da kayıtlı mı" da denetlenir.
+
+⚠️ **Ters yönün ilk sürümü 5 YANLIŞ ALARM verdi** ve sebebi öğreticiydi:
+`data/` altındaki her `.js` tarayıcı girdisi değil. İki ayrı tüketici var —
+**motor girdisi** (`uret_petek.py`, `girdi.py`'nin izin listesinden okur;
+`yerlesimler_afrika.js` böyledir ve tarayıcı onu hiç yüklemez, tarayıcı
+**üretilmiş** `donemler.js`'i yükler) ve **tarayıcı girdisi** (`index.html`'in
+`<script>` satırları). Bir dosya bu ikisinden hiçbirinde değilse gerçekten
+yetimdir. Üstüne bir `BEKLEYEN` sözlüğü kondu: aktif olmayan parti oraya
+**gerekçesiyle** yazılır, yoksa liste çöplüğe döner ve kimse bakmaz
+(`§3`'ün "yanlış alarm kaçırılan hatadan pahalıdır" dersi).
