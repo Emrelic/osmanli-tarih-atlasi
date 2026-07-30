@@ -494,3 +494,42 @@ Yalnız *"Kuveyt gerçekten değişmedi mi"* diye **ayrıca ölçtüğüm** içi
 tutulanın gerçekten hariç kaldığını ölç**. Dışlama mantığının çalıştığını
 varsayma — `?` gibi bir belirsizlik çıktısı gördüğünde de üstünü örtme, o
 belirsizlik dışlamanın kör olduğu satırların ta kendisi.
+
+---
+
+## 20. Yönlendirme tuzağı — ölü slug tuzağının AYNADAKİ hâli
+
+Bilinen tuzak: `islamansiklopedisi.org.tr/<slug>` var olmayan slug için **HTTP 200**
+döner ve sessizce arama sayfasına yönlendirir; yalnız `<title>` ele verir. Kural
+bu yüzden "her slug `<title>` ile doğrulanacak"tı.
+
+Bugün **ters yönü** çıktı. Oturum 14, Alâiye Beyliği'ni araştırırken `alaiye`
+slug'ını denedi; sayfa açıldı ama `alanya` maddesine **yönlendirmeydi**. Bunu
+*"beyliğin ayrı maddesi yok"* diye okudular ve şu tavsiyeyi verdiler: **"Alâiye
+ayrı beylik değil, `karaman`'a katılmalı."**
+
+Oysa müstakil madde vardı: **`alaiye-beyligi`**, `<title>` = "ALÂİYE BEYLİĞİ —
+TDV İslâm Ansiklopedisi". Bir arama daha yapılsaydı ilk turda bulunacaktı.
+
+Ve içindeki cümle bütün tavsiyeyi çürütüyordu:
+
+> "Karaman b. Savcı Bey tarafından 1427 yılında 5000 altın karşılığında Memlük
+> Sultanı Barsbay'a satıldı."
+
+Yani Alâiye'nin son 44 yılı Karamanlı **değil, Memlük**. Kimlik silinmemeli;
+yalnız dönemi 1471 değil **1427**'de bitmeli, sonrası `memluk`. Birleştirme
+yapılsaydı 44 yıllık Memlük hâkimiyeti haritadan tamamen silinecekti.
+
+**İki farklı hata, tek kök:**
+
+| | Sayfa | Yanlış okuma |
+|---|---|---|
+| Ölü slug | açılır, **arama** sayfasıdır | "madde var" sanılır |
+| Yönlendirme | açılır, **başka madde**dir | "madde yok" sanılır |
+
+**Kural genişletildi:** `<title>` yalnız *"var mı"* sorusunu değil, *"ARADIĞIM
+madde mi"* sorusunu da cevaplamalı. Başlık beklediğinden farklıysa — arama
+sayfası **ya da başka bir maddenin başlığı** — sonuç "doğrulanmadı"dır. Ve
+"maddesi yok" sonucuna varmadan önce **en az bir alternatif slug denenmeli**
+(`alaiye` → `alaiye-beyligi`); yokluk iddiası, varlık iddiasından daha fazla
+arama ister, çünkü tek bir başarısız denemeyle kanıtlanamaz.
