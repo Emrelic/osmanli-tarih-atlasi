@@ -449,8 +449,86 @@ listesine Kefe'yi ben koymuştum; prototipin benimle aynı fikirde olmaması kus
 **çalıştığının işareti.**
 
 ⚠️ Motora KONMADI. 32 parçalık liste küçük ve tek tek gözden geçirilebilir; geometrik
-olarak doğru olan tarihî olarak yanlış olabilir (Sina'nın Mısır'a mı Hicaz'a mı gideceği
-bir petek kararı değil, bir idare kararıdır). Liste merkez oturuma gitti.
+olarak doğru olan tarihî olarak yanlış olabilir.
+
+### Otuz iki parçanın tamamı (0,05°) — merkez oturumca gözden geçirildi, 32/32 KABUL
+
+| km² | eski sahip | → yeni (kara yolu) | konum | kara yolu |
+|---|---|---|---|---|
+| 132.678 | Küngrat | Üstyurt platosu (doğu) | 46,09K 58,66D | 343 km |
+| 68.966 | Şârika | Buraymî | 23,37K 53,74D | 252 km |
+| 29.618 | Aden | Taiz | 13,64K 45,98D | 213 km |
+| 28.522 | St. Petersburg→Helsinki'nin eşi: **Helsinki** | Riga | 58,70K 25,54D | 221 km |
+| 20.859 | Hafun | Bender Kāsım (Bosaso) | 10,21K 50,43D | 186 km |
+| 15.011 | Kerç | Azak | 47,20K 36,35D | 252 km |
+| 14.122 | Tûr (Sînâ) | Tahtâ | 28,09K 32,78D | 192 km |
+| 10.067 | Arkîko | Adigrat | 14,91K 40,28D | 117 km |
+| 9.759 | Mangışlak | Astrahan | 47,24K 51,60D | 326 km |
+| 5.421 | Tanca | Sevilla | 36,35K −5,70D | 119 km |
+| 4.325 | Sina güneyi | Tebük | 28,60K 34,99D | 167 km |
+| 3.867 | Sinop | Osmancık | 41,75K 34,85D | 86 km |
+| 3.827 | Masavva | Kerene | 16,21K 39,02D | 80 km |
+| 2.382 | Koron | Mora (Tripoliçe) | 36,85K 22,46D | 81 km |
+| 1.854 | Kürne | Basra | 30,56K 47,08D | 70 km |
+| 1.788 | St. Petersburg | Helsinki | 61,74K 28,03D | 274 km |
+| 1.413 | Kusayr | Tebük | 26,30K 36,56D | 228 km |
+| 1.132 | Benzert (Bizerte) | Mâtir (Mateur) | 37,17K 10,03D | 39 km |
+| 946 | Kopenhag | Berlin | 54,46K 13,40D | 222 km |
+| 806 | Gelibolu | Çanakkale | 40,14K 26,79D | 30 km |
+| 675 | **Oran** | **Granada** | 37,52K −1,49D | 204 km |
+| 672 | Dublin | Londra | 53,28K −4,32D | 392 km |
+| 669 | Fâv | Abâdân | 30,28K 49,20D | 99 km |
+| 621 | Balyabadra (Patras) | İnebahtı | 38,45K 21,47D | 39 km |
+| 557 | St. Petersburg | Helsinki | 61,89K 29,11D | 349 km |
+| 427 | Ayvalık | Edremit | 39,63K 26,59D | 41 km |
+| 422 | Vologda | St. Petersburg | 61,21K 35,50D | 379 km |
+| 373 | Ukayr (Uceyr) | Doha (Katar) | 25,38K 50,80D | 75 km |
+| 334 | Urmiye | Merend | 37,86K 45,50D | 69 km |
+| 308 | Hudeyde | Aseb | 14,16K 41,46D | 193 km |
+| 241 | Livadya | Anabolu (Nauplion) | 38,08K 22,54D | 62 km |
+| 232 | Aynaroz (Athos) | Kesendire (Kassandra) | 40,07K 23,93D | 90 km |
+
+**Gözden geçirmede tartışılan dört vaka ve sonuçları:**
+
+- **Sina güneyi → Tebük** — önce reddedildi ("Sinâ Mısır'a bağlıydı"), sonra
+  koordinatla geri alındı: parça 34,99D'de, yani Akabe körfezinin **doğusunda** =
+  Arabistan. O kara Sinâ değil. **Kabul.**
+- **Tûr (Sînâ) → Tahtâ** — parça 32,78D, Süveyş körfezinin **batısı** = Afrika
+  anakarası; `m:"Kahire"` her iki kayıtta da var, idarî olarak da tutarlı. **Kabul.**
+- **Urmiye → Merend** — "kasaba kendi hinterlandını kaybediyor" sezgim yanlış çıktı:
+  tohum gölün **batı**, parça **kuzeydoğu** yakasında. Karşı yaka zaten Merend/Tebriz
+  hinterlandı. **Kabul.**
+- **St. Petersburg → Helsinki 557 km²** (Kuzey Karelya) — tek gerçekten tartışmalı
+  olan. `kur:` alanlarıyla dönem dönem çözüldü: 1550-1703 arası Helsinki tek aday,
+  1703-1809 arası Kuzey Karelya **İsveç**'ti (1721 Nystad yalnız Vyborg Karelyası'nı
+  verdi), 1917 sonrası Finlandiya. St. Petersburg hiçbir dönemde daha iyi değil.
+  **Kabul.**
+
+📌 Dördünde de kararı sezgi değil **koordinat ve `kur:`/`s:` alanları** verdi. Buradan
+çıkan işlem kuralı `KOORDINASYON.md`'ye geçti: *bu listede hiçbir vaka, parçanın
+koordinatı söylenmeden tartışılmaz.*
+
+### Göl vakaları — kural değil, kuralın çalışması
+
+Dördü göl kaynaklı: iki St. Petersburg (Saimaa), Vologda (Onega/Beloye), Urmiye.
+Toplam 3.101 km². **Göl kuralı EKLENMEDİ** ve gerekçesi ölçülü:
+- Küngrat'ın 132.678 km²'si de göl kaynaklı (**Aral**) — "göller geçilebilir" densе
+  kazanç 3.101, kayıp 132.678 km². **43 kat.**
+- Kesilen su uzunlukları örtüşüyor (Aral 34,5 km · Ladoga 35,8 km), yani mesafe
+  ölçütü ikisini **ayıramaz**; alan eşiği de keyfî olurdu.
+- Ve gözden geçirmede dördünün de **doğru** olduğu çıktı — istisna, düzeltmesi
+  gereken bir hata bulamıyor.
+
+> **Kural coğrafyayı düzeltir; hangi düzeltmenin tarihen kabul edileceğine LİSTE
+> karar verir.** İstisnayı koda gömmek onu sorgulanamaz yapar; listede bırakmak
+> kararı görünür tutar.
+
+### Prototipin yeri
+
+Ölçüm betiği bu turda scratchpad'de koştu (`kara_voronoi.py`). Motora yazılırken
+yeniden üretilebilmesi için gereken her şey yukarıda: ızgara adımı, Dijkstra'nın
+8-komşuluk + `cos(enlem)` ağırlığı, kapsam kuralı (düz hat karadaysa Voronoi kalır),
+tohumun en yakın kara hücresine kaydırılması, ve iki çözünürlüğün sonuçları.
 
 ## 7f. Boğazlar — bir bulgu, bir yanlış çare, bir geri alma
 
