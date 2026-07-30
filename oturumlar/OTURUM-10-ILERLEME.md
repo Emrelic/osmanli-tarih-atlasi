@@ -2,6 +2,114 @@
 
 Tarih: 2026-07-29. Yazılan tek dosya: `data/savaslar.js`. Model: Sonnet.
 
+---
+
+## EK — devam görevi (2026-07-30, entegrasyon oturumunun cross-session mesajı üzerine)
+
+Aradan entegrasyon oturumu geçti, 42 muharebe ekledi (57 haritada yeri olmayan
+adlandırılmış savaştan 42'si gerçek muharebeydi), `js/app.js`'e `karsiTaraf()`
+ekledi, `SERILER`e `ic` tanımını ekledi ve bana üç ölçülmüş eksik bildirdi. Bu
+bölüm o devam görevinin raporu.
+
+### 1. 71 eksik `tur` alanı — TAMAMLANDI
+
+Oturum 10'un orijinal 108 kaydının 71'i `tur` alanı olmadan yazılmıştı (eski
+kural: "tur yoksa meydan"). Hepsine `meydan`/`kusatma`/`deniz` atandı — isyan
+gerektiren yoktu, hepsi zaten dış devlet savaşıydı. Dağılım şimdi:
+
+```
+kusatma: 48   meydan: 79   isyan: 21   deniz: 21   (toplam 169, 0 eksik)
+```
+
+İki karar özellikle not edilmeli:
+- **1683-09-12 "II. Viyana Kuşatması"** `tur:"meydan"` oldu, kuşatma değil —
+  bu tarih Sobieski'nin gelişiyle kırılan **kurtarma muharebesi**; kuşatmanın
+  kendisi zaten ayrı bir kayıt (`1683-07-14`, `tur:"kusatma"`) olarak tabloda
+  duruyor. İkisini aynı `tur` yapmak iki farklı olayı üst üste bindirirdi.
+- **Akkâ bombardımanı (1840)** ve **93 Harbi (Plevne)**, **Kûtülamâre**,
+  **Bağdat'ın düşüşü**, **Kudüs'ün düşüşü** gibi "zafer/düşüş" adlı kayıtlar
+  `kusatma` sayıldı çünkü hepsi bir şehrin kuşatılıp düşmesi/savunulmasıdır —
+  tek muharebe alanında iki ordunun karşılaştığı bir "meydan" değil.
+
+### 2. Kimlik uyuşmazlığı — bildirilenin ÖTESİNDE 11 kayıt daha bulundu
+
+Mesaj yalnız `habsburg`/`avusturya` çiftini bildirmişti. `arac/renkler.py`
+(harita boyama sözlüğü) ile `data/savaslar.js`'te kullandığım 36 `taraf` id'si
+**programatik olarak karşılaştırıldı** (`arac/renkler.py`'ye dokunulmadı,
+yalnız okundu). Sonuç: **12 id'nin 12'si de** `devletler.js`'teki adla
+`renkler.py`'deki adı **farklı**:
+
+| `devletler.js` id (`taraf`'ta kullanılan, DOĞRU — birebir eşleşme kuralı bu) | `renkler.py`'de boyanan karşılığı |
+|---|---|
+| `habsburg` | `avusturya` |
+| `bosna-kralligi` | `bosna` |
+| `bulgaristan-prensligi` | `bulgaristan` |
+| `sirbistan-prensligi` | `sirbistan` |
+| `sirp-despotlugu` | `sirbistan` (ortaçağ ve modern Sırbistan **aynı** boya id'sini paylaşıyor — `renkler.py` dönem ayrımı yapmıyor) |
+| `cenova` | `ceneviz` |
+| `rodos-sovalyeleri` | `sovalye` |
+| `sardinya-piyemonte` | `sardinya` |
+| `suud-birinci` | `suud` (üç Suûdî devleti — I/II/III — `renkler.py`'de **tek** id) |
+| `yemen-zeydi` | `yemen` |
+| `afsar` | `iran` (muhtemelen `renkler.py`'nin `iran` kimliği Safevî-sonrası bütün dönemleri — Afşar/Zend/Kaçar — **tek renkte** topluyor; `devletler.js` bunları üçe ayırıyor) |
+| `misir-kavalali` | **YOK** — `renkler.py`'de Mısır/Kavalalı hiç ayrı boyanmıyor. Muhtemelen `yerlesimler.js`'in `v:` (tâbi) mekanizmasıyla açık kırmızı gösteriliyor, ayrı devlet rengi almıyor. Bu bir hata olmayabilir — kontrol edilmeli. |
+
+Kalan 24 id (`bizans`, `memluk`, `safevi`, `macaristan`, `venedik`, `lehistan`,
+`rusya`, `ingiltere`, `fransa`, `ispanya`, `portekiz`, `napoli`, `papalik`,
+`italya`, `yunanistan`, `romanya`, `karadag`, `kirim`, `timurlu`, `akkoyunlu`,
+`dulkadir`, `eflak`, `fas`, `almanya`) **birebir eşleşiyor** — sorun yok.
+
+**Değiştirmedim** — `taraf` alanı hâlâ `devletler.js` id'siyle yazılı (orijinal
+kural bunu istiyor: "id'ler devletler.js'teki id alanıyla birebir eşleşmeli").
+`data/kimlikler.js` henüz yok (Oturum 9 kuruyor, `ETIKETLEME.md §5`). Bu tablo
+o sözlük yazılırken `esad` alanına doğrudan girebilir.
+
+### 3. `savas_basi` — 41 antlaşmanın 37'sine eklendi + 8 yeni antlaşma
+
+`arac/uret_devirler.py` **okundu, değiştirilmedi**. Kendi içinde 11 antlaşmalık
+ayrı bir Python kataloğu var (`ANTLASMALAR` listesi, `data/savaslar.js`'ten
+BAĞIMSIZ) ve o kataloğun kimlik uzayı da `renkler.py` ile aynı kısa isimleri
+kullanıyor (`avusturya`, `sirbistan`, `bulgaristan`, `iran` — `habsburg`,
+`sirbistan-prensligi` vb. değil). Yani **üçüncü bir tutarsızlık boyutu**:
+`data/savaslar.js.ANTLASMALAR` (devletler.js kimlik uzayı) ile
+`uret_devirler.py.ANTLASMALAR` (renkler.py kimlik uzayı) aynı antlaşmaları
+**iki ayrı id setiyle** tutuyor. Betiğe dokunmadım ama bu üçüncü çakışmayı da
+rapor ediyorum.
+
+`data/savaslar.js`'teki 41 antlaşmanın 37'sine `savas_basi` eklendi (kalan 4 —
+Hünkâr İskelesi, Balta Limanı, Londra Boğazlar Sözleşmesi, Akkerman — bir
+savaşı bitirmiyor, tehditle/ticarî olarak dayatıldı; `savas_basi` bilerek
+yazılmadı ya da `null` bırakıldı). `uret_devirler.py`'nin 11 kaydıyla
+**tarihler tutarlı** tutuldu (Karlofça 1683-07-14, Pasarofça 1714-12-08,
+Küçük Kaynarca 1768-10-08, Berlin 1877-04-24, Uşi 1911-09-29 — hepsi aynı).
+
+**8 yeni antlaşma eklendi** (mesajın "eksik önemli antlaşmalar" listesinden,
+gerçek boşluk olanlar): Serav (1618, Safevî), Vasvar (1664, Habsburg — Sen
+Gotar'ın barışı, **hiç yoktu**), Ziştovi (1791, Habsburg) ve Yaş (1792, Rusya)
+— **1774 Küçük Kaynarca'dan 1812 Bükreş'e kadarki koca 1787-1792 savaşının
+antlaşması tabloda hiç yoktu**, bu en büyük boşluktu — Akkerman (1826, Rusya),
+Ayastefanos/San Stefano (1878, Rusya — Berlin'in ön antlaşması), İstanbul
+(1913, Bulgaristan — Edirne'nin resmî iadesi), Atina (1913, Yunanistan —
+Girit'in ilhakının tanınması). Toplam antlaşma: 33 → **41**.
+
+### Doğrulama (2026-07-30)
+
+```
+SAVASLAR: 169 | ANTLASMALAR: 41 | SEFERLER: 50 | SERILER: 16
+tur dağılımı: kusatma 48 · meydan 79 · isyan 21 · deniz 21  (0 eksik)
+lat/lon eksik: 0
+antlaşma savas_basi: 37/41
+devletler.js'de olmayan id: 0
+```
+
+### Dokunulmayanlar (bu turda da)
+
+`arac/uret_devirler.py` yalnız okundu. SEFERLER'e yeni bir şey eklemedim —
+mesajın "Öncelik 4" listesindeki bütün örnekler (Memlük 1485-91, Timur'un
+Sivas/İzmir seferleri, Niğbolu Haçlı güzergâhı, Savoy seferi, Turahan Bey'in
+Mora seferi) **entegrasyon oturumunun kendi commit'lerinde zaten eklenmişti**
+(bkz. dosyadaki `taraf:"dusman"` etiketli kayıtlar) — mükerrer eklemedim.
+
 ## Özet sayılar
 
 ```
@@ -149,3 +257,71 @@ seri eklenmedi (Musul/Kerden gibi Afşar-dönemi kayıtlar için `seri:""` bıra
 genişletir, bu oturumun sınırları içinde görmedim).
 
 Commit atılmadı, `arac/uret_petek.py` çalıştırılmadı.
+
+---
+
+## EK 2 — SEFERLER hareket tipolojisi + 10 yeni ok (2026-07-30, Merkez Oturum görevi)
+
+### Öncelik 1 — mevcut 50 SEFERLER kaydına `tur`/`sonuc` — TAMAMLANDI
+
+`js/app.js`'teki `HAREKET`/`SONUC_ROZET` şemasına göre 50/50 kayda `tur` ve
+`sonuc` eklendi (`ad:"..."` metniyle birebir eşleştirilerek, 0 bulunamayan).
+Her `sonuc`, ilgili SAVASLAR kaydıyla (aynı olay ikisinde de varsa) çapraz
+kontrol edilip Osmanlı-merkezli yönle hizalandı. Doğrulama: `node -c` geçti,
+`tur`/`sonuc` eksik: 0.
+
+Commit: `d0981d8` (yalnız `data/savaslar.js`, izole diff, `git diff --cached
+--stat` ile kontrol edilip atıldı).
+
+### Öncelik 2 — 10 yeni ok — TAMAMLANDI (10/10 girdi)
+
+Mesajdaki 10 madde de kronolojide zaten belgelenmiş tarih/yer kullanılarak
+eklendi, yeni tarihî iddia üretilmedi:
+
+| md. | Kayıt | tur | sonuc | Kaynak (kronoloji) |
+|---|---|---|---|---|
+| 4 | İkinci Sırp İsyanı (1815) | isyan | belirsiz | 1815-04-23 |
+| 5 | İpsilanti'nin Eflak-Boğdan harekâtı (1821) | isyan | zafer | 1821-02-22 |
+| 6 | Müttefik donanmasının Navarin'e gelişi (1827) | deniz | yenilgi | 1827-10-20 |
+| 12 | Rus donanmasının Büyükdere'ye gelişi (1833) | deniz | belirsiz | 1833-02-20 |
+| 19 | Osmanlı donanmasının İskenderiye'ye teslimi (1839) | teslim | yenilgi | 1839-07-14 |
+| 31 | Girit İsyanı'nın başlaması (1866) | isyan | belirsiz | 1866-08-21 |
+| 33 | Belgrad garnizonunun çekilmesi (1867) | cekilme | yenilgi | 1867-04-18 |
+| 34 | Abdülaziz'in Avrupa seyahati (1867) | seyahat | belirsiz | 1867-06-21 → 08-07, 5 duraklı güzergah |
+| 39 | Rus ordusunun Yeşilköy'e gelişi (1878) | sefer | yenilgi | 1878-01-31 (Edirne Mütarekesi) → 1878-03-03 (Ayastefanos) arası köprülendi, tekil "Yeşilköy'e varış" günü kronolojide ayrı madde olarak yok |
+| 55 | Arnavutluk İsyanı (1910) | isyan | zafer | 1910-04-01 |
+
+İç isyan tipi (`isyan`) kayıtlara `taraf`'ın binary rengini bozmadan üçüncü bir
+görsel kategori için `renk:"#6b2d8a"` (soluk mor) eklendi — `js/app.js`'te
+`renk` alanı `taraf`-tabanlı rengin önüne geçiyor (satır ~845), yeni bir
+`taraf` değeri gerekmedi. Deniz oklarından ikisine de (Navarin, Büyükdere,
+Yeşilköy) ayırt edici mavi tonları (`#1f5fa8`, `#0d7d8a`) verildi çünkü hepsi
+"yabancı güç" hareketiydi, Osmanlı'nın kendi deniz seferlerinden (yeşil/kahve
+varsayılan) ayrışması gerekiyordu.
+
+**Kronolojide tarihi/yeri olmadığı için eklenemeyen ok yok** — 10/10 madde
+zaten mevcut `data/olaylar*.js` kayıtlarıyla doğrudan veya (md.39'da) iki
+komşu kayıt arasında köprülenerek karşılanabildi.
+
+Doğrulama: `SEFERLER: 60 | tur eksik: 0 | sonuc eksik: 0 | yol<2: 0`.
+`SAVASLAR: 169 ANTLASMALAR: 41 SERILER: 16` değişmedi (kapsam taşması yok).
+
+### ⚠️ Commit karışması — bc89690
+
+`git add data/savaslar.js && git diff --cached --stat && git commit -m "..."`
+komutunu zincirli çalıştırdım. Komut sırasında **Oturum 2 kendi dosyalarını
+zaten stage etmişti** (`git add` benim komutumdan önce, başka bir oturumda);
+`git commit` o an **stage'deki her şeyi** commit'liyor, yalnız benim `git add`
+ettiğimi değil. Sonuç: `bc89690` benim 37 satırlık `data/savaslar.js`
+değişikliğimin yanında Oturum 2'nin `arac/denetle.py`, `arac/denetle_anakronizm.py`,
+`arac/denetle_gorunurluk.py`, `arac/denetle_yayin.py` ve dört `denetim/*.md`
+dosyasını da içeriyor — commit mesajı yalnız benim işimi anlatıyor, onlarınkini
+anlatmıyor.
+
+Veri kaybı yok (Oturum 2'nin işi doğru ve tam commit'lendi, sadece yanlış
+mesaj altında). Merkez Oturum'un uyarısı üzerine **revert/reset yapılmadı** —
+paylaşımlı, eşzamanlı yazılan bir depoda geçmiş yeniden yazmak, düzelttiğinden
+daha büyük hasar riski taşıyor. Bundan sonra `git add data/savaslar.js` →
+`git diff --cached --stat` (neyin eklendiğini GÖR) → `git commit` sırası
+istisnasız uygulanacak; zincirleme (`&&`) komut yerine ayrı adımlar
+kullanılacak ki `git diff --cached --stat` çıktısı gerçekten görülsün.
