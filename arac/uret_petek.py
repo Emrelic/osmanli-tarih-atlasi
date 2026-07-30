@@ -724,6 +724,72 @@ def devir_kumesi(g):
         and _sahipli(y, g))
 
 
+# ---------------- SERBEST KENAR — sahipli ↔ SAHİPSİZ sınırı ----------------
+# hatalar 15 md.17'nin çözümü. Kullanıcı çölde "cetvelle çizilmiş" sınır görüyor;
+# ölçüldü ve sebebi bulundu: o kenarların BEŞİ DE `(boş) | OSMANLI`, yani çizgi
+# iki devlet arasında DEĞİL, devlet ile SAHİPSİZ ÇÖL arasında.
+# İki devlet arasındaki Voronoi orta dikmesi kaba da olsa GERÇEK bir iddiadır —
+# "yetki burada bölünüyordu". Devlet ile HİÇLİK arasındaki orta dikme ise hiçbir
+# şeyin iddiası değil: dolgu noktasını nereye koyduğumuzun artefaktı. O çizgi
+# haritada keskin çizilmemeli, çünkü olmayan bir kesinlik iddia ediyor.
+# ⚠️ Bu yüzden çare ergleri yaslama hedefi yapmak DEĞİLDİ: sahte bir çizgiyi
+# gerçek bir fiziki hatta oturtmak onu daha İNANDIRICI yapardı. Görsel şikâyet
+# kapanır, epistemik hata derinleşirdi.
+# Ölçüldü (r138 geometrisi): serbest kenar, Osmanlı gövde sınırının köşe olarak
+# %1,7-3,1'i ama UZUNLUK olarak %17-22'si. Ortalama parçası 29,6 km, gövdenin
+# geneli 4,2 km — yedi kat kaba. Yani hem ucuz (dönem başına ~470 köşe) hem de
+# marjinal değil (çevrenin beşte biri).
+# Çıktı: window.SERBEST hat havuzu + dönem kaydında "sb" (PARCALAR/"o" deseninin
+# birebir aynısı); js/app.js line-blur ile dışa doğru söndürür.
+SERBEST_TOL = 0.02          # ~2 km: gövde sınırı ile boş bölgenin çakışma payı
+_SERBEST_ONBELLEK = {}
+
+
+def bos_bolge(g, pe):
+    """g tarihinde hiçbir sahibi YAZILI OLMAYAN peteklerin birleşimi (tamponlu).
+    Küme dönemler arası neredeyse sabit — 40 sahipsiz noktanın çoğu kalıcı — bu
+    yüzden petek_epok()'un önbellek deseni birebir tekrarlanıyor: 453 dönemin
+    maliyeti birkaç düzine ayrı kümeye iner.
+    ⚠️ Anahtar (sahipsiz, devir) İKİLİSİ: petek geometrisi epoktan epoğa
+    değiştiği için yalnız sahipsiz kümesiyle anahtarlamak bayat sonuç verirdi."""
+    anahtar = (frozenset(i for i, y in enumerate(YERLER) if not _sahipli(y, g)),
+               devir_kumesi(g))
+    if anahtar in _SERBEST_ONBELLEK:
+        return _SERBEST_ONBELLEK[anahtar]
+    bos = [pe[i] for i in anahtar[0] if not pe[i].is_empty]
+    b = unary_union(bos).buffer(SERBEST_TOL) if bos else None
+    _SERBEST_ONBELLEK[anahtar] = b
+    return b
+
+
+def serbest_kenar(g, govde, pe):
+    """Gövdenin SAHİPSİZ alana bakan kenar parçaları."""
+    if govde is None or govde.is_empty:
+        return None
+    b = bos_bolge(g, pe)
+    if b is None or b.is_empty:
+        return None
+    try:
+        k = govde.boundary.intersection(b)
+        return None if k.is_empty else k
+    except Exception:
+        return None
+
+
+def hat_koord(g):
+    """Hat geometrisini havuza yazılabilir koordinat listesine çevirir."""
+    if g is None or g.is_empty:
+        return []
+    hs = ([g] if g.geom_type == "LineString"
+          else [x for x in getattr(g, "geoms", []) if x.geom_type == "LineString"])
+    out = []
+    for h in hs:
+        cs = [[round(x, 3), round(y, 3)] for x, y in h.coords]
+        if len(cs) >= 2:
+            out.append(cs)
+    return out
+
+
 def petek_epok(g):
     """g tarihinde geçerli petek listesi; kurulmamış/yok olmuş noktanın payı
     o tarihte sahnede olan en yakın komşuya devredilmiş hâlde."""
@@ -901,6 +967,7 @@ print("Dönemler kuruluyor (delta yapısı)...")
 #                   1832-1841 Kavalalı İbrâhim Paşa'nın elinde).
 donemler = []
 OSM_HAVUZ, OSM_IX = [], {}   # o + v parçaları tek havuzda
+SRB_HAVUZ, SRB_IX = [], {}   # serbest kenar hatları (sahipli ↔ sahipsiz sınırı)
 onceki_aktif = None      # işaret/marker için: doğrudan + tâbi hepsi
 onceki_anahtar = None    # geometri için: (doğrudan, tâbi) ikilisi
 for i in range(len(tarihler) - 1):
@@ -956,6 +1023,11 @@ for i in range(len(tarihler) - 1):
     if gt is not None and not gt.is_empty:
         kayit["av"] = alan_km2(gt)
         kayit["v"]  = havuza(mp_koord(gt), OSM_HAVUZ, OSM_IX)
+    # Serbest kenar: gövdenin sahipsiz alana bakan yüzü. Boşsa alan hiç yazılmaz
+    # (çoğu dönemde çölle sınırdaş olunmuyor — kuruluş devri gibi).
+    _sb = havuza(hat_koord(serbest_kenar(a, kaplam, _pe)), SRB_HAVUZ, SRB_IX)
+    if _sb:
+        kayit["sb"] = _sb
     donemler.append(kayit)
     onceki_aktif = aktif
     onceki_anahtar = anahtar
@@ -968,6 +1040,11 @@ js  = "// Otomatik üretildi — elle düzenlemeyin. Betik: arac/uret_petek.py\n
 js += "// PETEK (Voronoi) tabanlı: her yerleşimin bölgesi kıyı ve nehir yataklarına yaslı.\n"
 js += "// PETEKLER bir kez tanımlanır; DONEMLER yalnızca eklenen/çıkan petek indekslerini tutar.\n"
 js += "// DONEMLER'in o/v alanları PARCALAR havuzuna indekstir (js/app.js çözer).\n"
+js += "// SERBEST: sahipli ↔ SAHİPSİZ sınırı. Bu kenar KESKİN ÇİZİLMEMELİDİR —\n"
+js += "// iki devlet arasındaki sınır değil, devlet ile boş alan arasındaki\n"
+js += "// artefakttır (bkz. uret_petek.py, SERBEST KENAR bloğu). DONEMLER[].sb\n"
+js += "// bu havuza indekstir; js/app.js line-blur ile dışa doğru söndürür.\n"
+js += "window.SERBEST = " + json.dumps(SRB_HAVUZ, separators=(",",":")) + ";\n"
 js += "window.PETEKLER = " + json.dumps(petekler, separators=(",",":")) + ";\n"
 js += "window.PARCALAR = " + json.dumps(OSM_HAVUZ, separators=(",",":")) + ";\n"
 js += "window.DONEMLER = " + json.dumps(donemler, separators=(",",":")) + ";\n"
@@ -976,6 +1053,11 @@ open(CIKTI, "w", encoding="utf-8").write(js)
 
 print(f"Dönem sayısı: {len(donemler)}")
 print(f"Parça havuzu: donemler {len(OSM_HAVUZ)}, devletler {len(DEV_HAVUZ)} eşsiz parça")
+_sbd = sum(1 for d in donemler if d.get("sb"))
+_sbk = sum(len(h) for h in SRB_HAVUZ)
+print(f"Serbest kenar: {len(SRB_HAVUZ)} eşsiz hat ({_sbk:,} köşe), "
+      f"{_sbd}/{len(donemler)} dönemde sahipsiz alanla sınırdaş, "
+      f"{len(_SERBEST_ONBELLEK)} ayrı boş-bölge kümesi")
 print(f"Dosya boyutu: {os.path.getsize(CIKTI)//1024} KB")
 
 # ---------------- Doğrulama ----------------
