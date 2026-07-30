@@ -882,3 +882,52 @@ idarî olarak doğruymuş.
 
 `§26`'da "geometri karar veremez, tarihî göz gerekir" demiştik. Tersi de doğruymuş:
 **tarihî göz de koordinata bakmadan karar verirse yanılır.** İkisi birlikte gerekiyor.
+
+---
+
+## 29. İstisnası olan kural, kuralsızlıktan kötüdür
+
+`§28`'de göl hipotezi ortaya atıldı: ölçüt gölleri de deniz sayıyor olabilir mi?
+Ölçüldü ve **dört vakada doğru çıktı** — St. Petersburg ×2 (Ladoga), Vologda
+(Onega), Urmiye (Urmiye gölü). Toplam **3.101 km²**. En çarpıcısı Urmiye: kasaba
+kendi gölünün kıyısında ve peteği **kendi gölünü** aştığı için toprak kaybediyor.
+
+Doğal tepki: "göller geçilebilir" diye bir kural ekle. Ölçüm bunu öldürdü:
+
+```
+Küngrat → Üstyurt   132.678 km²   34,5 km GÖL (ARAL) · 0 km deniz
+```
+
+Küngrat vakasının **tamamı** bir göl geçişi. Yani kural eklenirse kazanç 3.101 km²,
+kayıp 132.678 km² — **43 kat**.
+
+Ve ayırt etmek de mümkün değil, çünkü ölçüler **örtüşüyor**:
+
+| | Kesilen su | Göl alanı |
+|---|---|---|
+| Aral (kalmalı) | 34,5 km | ~68.000 km² |
+| Ladoga (geçilmeli) | 35,8 km | ~17.700 km² |
+
+Mesafe ölçütü bu ikisini ayıramaz. Alan eşiği de keyfî olur — ve eşiklerin ne kadar
+kırılgan olduğunu bugün üç kez gördük (`§26` ölçüt A'nın Oslo'yu yemesi, `§27`
+ızgaranın Moskova'yı taşıması, `§21` sed'in sessizce hiçbir şey bulamaması).
+
+**Karar: kural eklenmedi.** Dört göl vakası, deniz vakalarıyla **aynı listede**
+tarihî gözle gözden geçirilecek — `§28`'de Sinâ için izlenen yolun aynısı.
+
+> **Kural coğrafyayı düzeltir; hangi düzeltmenin tarihen kabul edileceğine liste
+> karar verir.**
+
+Bu ayrım, "istisnalı kural" ile "kural + gözden geçirme" arasındaki farktır. Birincisi
+istisnayı koda gömer ve bir daha kimse sorgulamaz; ikincisi kararı görünür bırakır.
+
+### Ve aynı hatayı ikinci kez yaptım
+
+Helsinki için "28.522 km² Finlandiya içi" diye yazdım. Parça **58,70K / 25,54D**'de —
+Finlandiya değil, **Estonya**. Helsinki'nin peteği Finlandiya körfezini aşıyormuş;
+gerçek denizaşırı vaka, göl artefaktı değil.
+
+`§28`'de Sinâ'yı koordinata bakmadan reddetmiştim ve dersini yazmıştım. Bir sonraki
+turda **aynı hatayı tekrarladım**. Ders yazmak, dersi uygulamak değil: bir parça
+hakkında hüküm vermeden önce **koordinatına bak** — adı nereyi çağrıştırırsa
+çağrıştırsın.
