@@ -37,30 +37,31 @@
 // Kutu doğuya açıldığında bu nokta 37.662 / 62.192'ye TAŞINMALIDIR.
 //
 // ---------------------------------------------------------------------------
-// ⚠️ HENÜZ TANIMSIZ DEVLET KİMLİKLERİ — dört tane
+// DEVLET KİMLİKLERİ — dördü bu oturum sırasında entegrasyon oturumunca eklendi
 // ---------------------------------------------------------------------------
-// Görev tanımı gereği eksik devletler arac/renkler.py'ye EKLENMEDİ. Aşağıdaki
-// dört kimlik BOYALAR sözlüğünde YOKTUR; üretim "UYARI boya: ... bilinmeyen
-// devlet kimliği" satırı basar ve o pencereyi BOYAMAZ (uret_petek.py:174).
-// Yani harita bugün o dönemlerde BOŞ görünür — görev tanımındaki "boş bırak"
-// talimatının sonucuyla birebir aynıdır:
+// Bu dosya yazılırken arac/renkler.py'de YOKTU; oturum bitmeden entegrasyon
+// oturumu dördünü de ekledi (renkler.py:100-107). Doğrulandı, dördü de artık
+// BOYALAR'da tanımlı — bu dosyadaki hiçbir pencere boyasız kalmıyor:
 //
-//     cagatay   Çağatay Hanlığı        (1227-1370)   TDV: cagatay-hanligi
-//     hive      Hîve Hanlığı           (1512-1920)   TDV: hive-hanligi
-//     buhara    Buhara Hanlığı         (1500-1920)   TDV: buhara-hanligi
-//     turkmen   Türkmen boyları        (Yomut/Teke)  TDV: turkmenler
+//     cagatay   Çağatay Hanlığı  (1227-1370)  #6a1b9a  TDV: cagatay-hanligi
+//     hive      Hîve Hanlığı     (1512-1920)  #00695c  TDV: hive-hanligi
+//     buhara    Buhara Hanlığı   (1500-1920)  #4527a0  TDV: buhara-hanligi
+//     turkmen   Türkmen boyları  (Yomut/Teke) #8d6e63  TDV: turkmenler
 //
-// Kimlik dizgisi yine de YAZILDI, çünkü:
-//   • Görsel sonuç "boş bırakmak" ile aynıdır (boyanmaz),
-//   • ama Değişmez 1 (sahipsizlik yok) TEMİZ kalır — boş bırakılsaydı 13
-//     yerleşim yüzlerce yıl sahipsiz görünecek ve gerçek delikleri gizleyecekti,
-//   • ve renk eklendiği anda veri kendiliğinden doğru boyanır; kimse bu
-//     tarihleri yeniden araştırmak zorunda kalmaz.
-// Ayrıntılı kimlik önerisi (tam ad, aralık, merkez, TDV maddesi):
-// oturumlar/OTURUM-11-ILERLEME.md.
+// ⚠️ İKİ RENK UYARISI — bu dosya renkler.py'ye YAZMAZ, yalnız bildirir
+// (ayrıntı ve ölçüm: oturumlar/OTURUM-11-ILERLEME.md):
+//   • turkmen (#8d6e63) ile iran (#b5885b) arası ΔE 22.7 (ham hex). renkler.py
+//     kendi başlığında dolgunun %30 saydamlıkla altlığa bindiğini ve farkların
+//     yaklaşık üçte bire sıkıştığını yazıyor → bindirilmiş ΔE ~7.6. Bu iki
+//     devlet 1860-1881 arasında Kopet Dağ boyunca DOĞRUDAN sınırdaş; tam da
+//     Türkmen boylarının fiilî bağımsızlık penceresi görünmez hâle gelebilir.
+//   • turkmen (#8d6e63) ile timurlu (#8d6e63) BİREBİR AYNI hex. Bu dosyada
+//     ikisi hiçbir tarihte aynı anda sahnede değil (timurlu 1502/1507'de
+//     biter, turkmen 1600'de başlar), ama lejantta iki satır aynı kareyi
+//     gösterir.
 //
-// TANIMLI kimliklerden kullanılanlar: ilhanli · altinorda · timurlu · safevi ·
-// iran · rusya.
+// TANIMLI kimliklerden ayrıca kullanılanlar: ilhanli · altinorda · timurlu ·
+// safevi · iran · rusya.
 // "iran" burada Oturum 4'ün (yerlesimler_iran.js) kurduğu geleneğe uyar:
 // İlhanlı sonrası Kertler/Serbedârîler, 1507-1510 Şeybânî Özbek işgali ve
 // 1736 sonrası Afşar-Zend-Kaçar hanedanları ayrı kimlik almadığı için genel
