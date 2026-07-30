@@ -30,6 +30,7 @@ istediği "toplam kayıp" ancak savaş penceresiyle çıkar:
     { ad, t, savas_basi, alicilar: [ { id, ad, renk, parca: [...] } ] }
 `js/app.js` bu parçaları kırmızı + alıcının rengiyle çapraz taralı çiziyor.
 """
+import hashlib
 import io
 import json
 import os
@@ -237,15 +238,31 @@ def main():
                           "alicilar": alicilar})
             print("  ✓ %-34s %d alıcı" % (a["ad"], len(alicilar)))
 
+    # ⚠️ TÜRETİLDİĞİ GEOMETRİNİN PARMAK İZİ (Oturum 16'nın önerisi).
+    # devirler.js donemler.js'ten TÜRER. Motor donemler.js'i yeniden ürettiğinde bu
+    # dosya sessizce bayatlar: eski geometriye dayanır, kimse fark etmez, denetim
+    # temiz görünür. Bugün bu iki kez elle yakalandı — üçüncüsünde kimse bakmayabilir.
+    # Girdi tarafında `uret_petek.py`'nin parmak-izi bekçisi var; bu onun ÇIKTI
+    # tarafındaki aynası. Özeti buraya yazıyoruz, `denetle_yayin.py` diskteki
+    # donemler.js'in güncel özetiyle karşılaştıracak (Oturum 2'nin işi).
+    kaynak = os.path.join(DATA, "donemler.js")
+    ozet = hashlib.sha256(io.open(kaynak, "rb").read()).hexdigest()
+
     yol = os.path.join(DATA, "devirler.js")
     with io.open(yol, "w", encoding="utf-8") as f:
         f.write("// Otomatik üretildi — elle düzenlemeyin. Betik: arac/uret_devirler.py\n")
         f.write("// Antlaşmalarda hangi toprağı kim aldı; js/app.js taralı çiziyor.\n")
         f.write("// Ölçüt: (Osmanlı gövdesi @ savaş başı) ∩ (alıcının gövdesi @ antlaşma).\n")
+        f.write("// KAYNAK GEOMETRİ: data/donemler.js sha256 = %s\n" % ozet)
+        f.write("// Bu özet diskteki donemler.js ile tutmuyorsa devirler.js BAYATTIR\n")
+        f.write("// ve yeniden üretilmelidir — eski geometriye dayanan taralı alanlar\n")
+        f.write("// yanlış yere düşer ama hata vermez.\n")
+        f.write("window.DEVIRLER_KAYNAK_OZET = \"%s\";\n" % ozet)
         f.write("window.DEVIRLER = " + json.dumps(cikti, ensure_ascii=False,
                                                   separators=(",", ":")) + ";\n")
     print("\ndata/devirler.js yazıldı — %d antlaşma, %.1f KB"
           % (len(cikti), os.path.getsize(yol) / 1024))
+    print("   kaynak geometri özeti: %s…" % ozet[:16])
 
 
 if __name__ == "__main__":
