@@ -308,6 +308,70 @@ eklendi (JSON dizesi kaçışsız `"` içeremediği için desen dizenin içindek
 artıyla eşleşemez — güvenli). **`goller.js`'e dokunmadım**, o Oturum 15'in
 dosyası; okuyucuyu düzelttim.
 
+## 7b. r138 üretimi — iki koşu, biri kasten çöpe
+
+**Koşu 1** (21:53:33→22:29:59) motoru doğruladı ama **yayınlanmadı**: 13. dakikasında
+Oturum 14 `yerlesimler_afrika.js`'e 108 satır ekledi, yani çıktı bayattı. Koşu 2
+(22:33:58→23:16:54) yayına gitti. Altı ölçüt ikisinde de tuttu.
+
+Koşu 1'in çıktısını saklamam işe yaradı: koşu2'yi r91'e değil **koşu1'e** karşı
+ölçünce veri farkı izole oldu ve r91 karşılaştırmasındaki açıklanamayan
++363.000 km²'lik Osmanlı farkının **motordan değil veriden** geldiği görüldü.
+
+⚠️ Ders: A/B temeli, karşılaştırmak istediğin değişkenin DIŞINDAKİ her şeyi sabit
+tutmalı. r91 sabah 10:11'in verisiydi; aradaki 12 oturumluk düzenleme motorun
+etkisini ölçülemez hâle getiriyordu.
+
+## 7c. Bitişiklik — 313 vaka değil, 13 KONUM
+
+Oturum 2'nin ölçütünü (kopuk bileşen: kara boşluğu mu deniz mi) yeni geometriye
+uyguladım. Ham sayı yanıltıcıydı: **2511 kopuk bileşen, 313'ü %100 kara**. Ama
+bunlar aynı coğrafî boşluğun 453 dönem boyunca tekrar tekrar sayılmasıydı.
+Konuma göre tekilleştirince **13 ayrı yer** kalıyor:
+
+| konum | boşluk | bileşen | dönem | aralık |
+|---|---|---|---|---|
+| 31,68K 7,82D (güney Tunus) | 17,52 km | **716.887 km²** | 16 | 1552→1574 |
+| 28,42K 32,28D (Süveyş) | 56,00 km | 375.937 km² | 2 | 1914-11→12 |
+| 45,28K 26,86D (Bucak/Dobruca) | 34,46 km | 79.893 km² | 7 | 1456→1461 |
+| 16,89K 37,30D (Kızıldeniz batısı) | 15,94 km | 15.333 km² | 1 | 1884→1885 |
+| 39,62K 47,87D | 53,99 km | 9.978 km² | 1 | 1725 |
+| 35,03K 45,43D (Şehrizor) | 8,24 km | 5.548 km² | 23 | 1534→1554 |
+| 40,74K 36,96D | 39,29 km | 5.501 km² | 2 | 1398 |
+| 39,90K 27,53D | 26,07 km | 2.143 km² | 1 | 1402→1413 |
+| 38,08K 30,76D | 32,07 km | 1.928 km² | 6 | 1381→1391 |
+| **39,76K 29,95D (kuruluş)** | **1,28 km** | 1.903 km² | 3 | 1281→1299 |
+| 30,38K 47,87D | 99,18 km | 1.900 km² | 2 | 1776→1779 |
+| 36,20K 5,87D | 39,33 km | 1.564 km² | 1 | 1838→1839 |
+| 30,46K 48,45D (Basra) | 91,42 km | 668 km² | **254** | 1546→1914 |
+
+Kuruluş vakası Oturum 2'nin bağımsız olarak bulduğu şeyin aynısı (o 1,66 km dedi,
+ben 1,28 — iki farklı boru hattı, aynı kusur). En büyüğü güney Tunus: **716.887 km²**
+Mağrip gövdesi 17,52 km'lik bir kara boşluğuyla kopuk — Büyük Doğu Ergi'nde nokta
+eksiği. Basra vakası 254 dönemle en ısrarlısı ama 668 km² ve 91 km, eşiğin sınırında.
+
+📌 Metodoloji notu Oturum 2'ye: **dönem-vakası sayma, konum say.** 313 ile 13
+arasındaki fark, denetimin "yüzlerce hata var" mı yoksa "on üç yer düzeltilecek"
+mi dediğidir.
+
+## 7d. Boğdan — borç kapandı, gövde sınırı ölçüldü
+
+İlk turda hücre sınırı ölçmüştüm; kullanıcının gördüğü gövde sınırıydı. Tâbi
+gövdenin **dış** sınırı:
+
+```
+1500  104.957 km²  iç sınır 1.578 km  147 kenar  köşe/1000km 93,1  nehre yaslanan %18
+1600  127.686 km²  iç sınır 1.789 km  152 kenar  köşe/1000km 84,9  nehre yaslanan %16
+1700  104.957 km²  iç sınır 1.578 km  147 kenar  köşe/1000km 93,1  nehre yaslanan %18
+```
+
+Ölçek: sağlıklı 115-118 · **Boğdan gövde 84,9-93,1** · Kırım iç sınır 32,5 · Libya 18,1.
+
+**Boğdan cetvelle çizilmiş değil** — sağlıklının biraz altında, Kırım'ın üç katı.
+Ama nehre yaslanma %16-18'de kalıyor ve teşhis ilk turdakiyle aynı: yaslama yarıçapı
+33 km, Prut-Dniester arası yer yer 150 km; ortadaki sınır hiçbir nehre yaklaşamıyor.
+Çözüm nehir kenarına nokta (Soroka, Orhei, Reni).
+
 ## 8. Sıradaki iş — üretim penceresi
 
 Motorda **beş** değişiklik birikti ve **hiçbiri uçtan uca koşturulmadı**:
