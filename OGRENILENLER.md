@@ -931,3 +931,57 @@ gerçek denizaşırı vaka, göl artefaktı değil.
 turda **aynı hatayı tekrarladım**. Ders yazmak, dersi uygulamak değil: bir parça
 hakkında hüküm vermeden önce **koordinatına bak** — adı nereyi çağrıştırırsa
 çağrıştırsın.
+
+---
+
+## 28-DÜZELTME. `bogazlar.js` çözüm DEĞİLDİ — ve yanlış ders kayda girmişti
+
+`§28` "maskenin boğazları kapatması"nı **üçüncü kusur sınıfı** ilân etti ve çaresini
+`bogazlar.js` (dört boğaza ince su poligonu) olarak yazdı. Ben onayladım. **İkisi de
+yanlıştı.** Oturum 16 kod yazmadan önce ölçtü:
+
+```
+dört boğaz kesildi →  1.103 bileşen → 1.108  (+5)
+parça #0 hâlâ 33.229.856 km²  — Gelibolu, Bursa, Tanca, Kefe, Kerç, Taman HEPSİ BİRLİKTE
+kazanılan: Kilitbahir 115 km², Rumeli Hisarı 8 km², birkaç kıyı kırıntısı
+```
+
+**Sebep düzeltilebilir bir hata değil, coğrafya:**
+
+- Trakya ile Anadolu, Çanakkale kesilse bile ayrılmaz — **Balkanlar → Ukrayna →
+  Kafkasya → Anadolu** diye karadan dolaşılır. Avrupa ile Asya tek kıtadır.
+- Afrika ile Avrupa, Cebelitarık kesilse bile ayrılmaz — **Sina durur**, ve Sina
+  gerçek bir berzahtır, kesilemez.
+
+Yani **bileşen ölçütü md.6'yı ve md.19'u prensip olarak çözemez.** Kaç boğaz kesilirse
+kesilsin Avrasya-Afrika tek parça kalır.
+
+### Doğru teşhis
+
+Kusur "maske boğazları kapatıyor" değil; kusur **ada kuralının kendisinde**: *"aynı
+kara parçası"* ölçütü kıtasal ölçekte **hiçbir şey ayırt etmiyor**. Boğazların kapalı
+olması gerçek bir gözlemdi ama **semptomdu, sebep değil.**
+
+Çözüm zaten elimizdeydi: kara-kısıtlı Voronoi'nin ölçütü bileşen değil **mesafe**.
+Gelibolu'dan karşı yakaya kuş uçuşu 5 km, **kara yolu ~2.000 km** (Karadeniz'i
+dolaşarak). Prototipin listesinde "Gelibolu → Çanakkale 806 km²" **zaten vardı** —
+yani md.6'yı çözen şey daha en baştan içindeydi.
+
+### Asıl ders: mekanizmanın ZARAFETİNE değil, ÇÖZÜP ÇÖZMEDİĞİNE bak
+
+`bogazlar.js` "mimaride zaten var olan mekanizma, `oku_goller()`'in kardeşi, yeni
+kavram yok" diye önerildi ve onaylandı. İkimiz de **zarafete** baktık, **etkiye**
+bakmadık. Beş poligon çizilir, üretim koşulur, harita hiç değişmezdi — ve sebebi
+haftalarca anlaşılmazdı, çünkü **denetim de temiz derdi.**
+
+> Bir çözümü uygulamadan önce, çözdüğünü **ölç**. "Mimariye uyuyor" bir doğruluk
+> kanıtı değildir.
+
+⚠️ Ve bu bölümün kendisi bir ders: `§28` yanlış bir çareyi kayda geçirmişti. **Kayıtta
+kalan yanlış ders, hiç ders olmamasından kötüdür** — sonraki oturum onu okuyup uygular.
+Düzeltme silinerek değil, üstüne yazılarak yapıldı; hatanın kendisi de kayıt değeri
+taşıyor.
+
+📌 Ada kuralı bugünkü hâliyle kalıyor: gerçek **adalar** için (Midilli, Bozcaada,
+Kıbrıs, Girit) doğru çalışıyor, yalnız kıtasal ölçekte kör. Kara-kısıtlı Voronoi
+devreye girince onun özel hâli olur ve kaldırılabilir — ama ayrıca ölçülmeden değil.
