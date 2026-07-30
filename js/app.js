@@ -453,11 +453,47 @@ harita.on("load", function () {
 
   haritaHazir = true;
   aktifDonem = -1;
-  // yakınlaşınca küçük şehir adları da görünsün
+  // ⚠️ GENEL KURAL — ETİKET KALABALIĞI (kullanıcı, hatalar 10 madde 25 ve
+  // hatalar 11 madde 19-20):
+  //   "Bu şehir noktaları bir kere kondu mu orada kalıyor, haritayı uzaktan
+  //    bakınca karışıklığa sebep oluyor."
+  //   "şehir isimleri küçük puntolar ile görünsün ancak kapladıkları bölgeyi
+  //    geçmeyecek şekilde olsun ... bursa yazısı zoom out yapıldığında aynı
+  //    puntoda kalarak Çanakkale'den Amasya'ya kadar uzanıyor olmamalı."
+  //   "bu şehirler zoom yapılmasına bağlı olarak önemleri ve büyüklükleri
+  //    ölçüsünde haritaya yazılmalıdırlar. Ama zoom out arttıkça haritadan
+  //    çıkarılmalıdırlar."
+  //
+  // Ölçüldü: 587 işaret adayı var ve HEPSİ her ölçekte çiziliyordu — zoom'a
+  // bağlı görünürlük hiç yoktu. Tek zoom kuralı `.yakin` sınıfıydı ve o da
+  // yalnız d1 adlarını gizliyordu.
+  //
+  // Kademe: her işaretin `d` değeri (1-3) önem katmanı. Zoom düştükçe eşik
+  // yükseliyor, yani yalnız üst katman kalıyor. Gizlemek yerine haritadan
+  // ÇIKARIYORUZ — 587 DOM düğümü uzakta hem yavaş hem okunmaz.
+  //   zoom < 4.0  → yalnız d3 (başkentler: İstanbul, Bursa, Edirne, Kahire…)
+  //   4.0 - 5.2   → d3 + d2
+  //   5.2 - 6.3   → d3 + d2 + d1
+  //   > 6.3       → hepsi (geçici işaretler dahil)
+  function zoomEsigi() {
+    var z = harita.getZoom();
+    if (z < 4.0) return 3;
+    if (z < 5.2) return 2;
+    return 1;
+  }
+  var sonEsik = null;
   function zoomSinifi() {
-    document.getElementById("harita").classList.toggle("yakin", harita.getZoom() >= 5.2);
+    var el = document.getElementById("harita");
+    var z = harita.getZoom();
+    el.classList.toggle("yakin", z >= 5.2);
+    // Punto da ölçeğe bağlı: uzakta ad kutusu peteğinden taşmasın diye küçülür.
+    el.classList.toggle("cok-uzak", z < 4.0);
+    el.classList.toggle("uzak", z >= 4.0 && z < 5.2);
+    var e = zoomEsigi();
+    if (e !== sonEsik) { sonEsik = e; sehirGuncelle(suanki); }
   }
   harita.on("zoom", zoomSinifi);
+  window.zoomEsigi = zoomEsigi;
   zoomSinifi();
   guncelle();
 });
@@ -534,6 +570,7 @@ var ISARET_KAYNAK = (window.YERLESIMLER && window.YERLESIMLER.length)
   ? window.YERLESIMLER.filter(function (y) { return y.d && y.d.length; })
       .map(function (y) {
         return { ad: y.ad, tur: y.tur, lat: y.lat, lon: y.lon, gecici: y.g === 0,
+                 go: y.go,   // önemin söndüğü gün (isteğe bağlı)
                  k: y.d.map(function (dn) {
                    return { f: dn.f, t: dn.t, d: Math.max(y.g, 1), b: y.g === 3, y: dn.y };
                  }) };
@@ -557,6 +594,7 @@ var sehirler = ISARET_KAYNAK.map(function (s) {
   ic.querySelector(".s-ad").textContent = s.ad;
   dis.appendChild(ic);
   return { s: s, ic: ic, gecici: !!s.gecici, kale: s.tur === "kale",
+           go: s.go ? gunIdx(s.go) : null,
            yontemEl: ic.querySelector(".s-yontem"), ekli: false,
            mk: new maplibregl.Marker({ element: dis, anchor: "left", offset: [-5, 0] })
                  .setLngLat([s.lon, s.lat]),
@@ -583,7 +621,31 @@ function sehirGuncelle(t) {
       if (m.ekli) { m.mk.remove(); m.ekli = false; }
       return;
     }
-    var sinif = "sehir d" + aktif.d + (aktif.b ? " baskent" : "");
+
+    // ⚠️ ZAMANLA SÖNEN ÖNEM (kullanıcı, hatalar 11 madde 20):
+    //   "sene 1800 olmuş hâlâ Söğüt Domaniç Karacahisar filan gibi
+    //    yerleşimlerin haritada görünmesine gerek yok. Bu tarihî yerler etkisi
+    //    geçtiği zaman, meselesi bittiği zaman haritadan kaldırılmalı genel
+    //    kural olarak. Pelekanon hâlâ haritada görünüyor... ama tabii ki
+    //    İstanbul Belgrad Bükreş Budin Kudüs Kahire gibi isimler sürekli
+    //    kalabilir."
+    //
+    // Kök sebep VERİDEYDİ ve ölçüldü: Söğüt `g:3` — yani İstanbul, Bursa,
+    // Edirne ile AYNI en üst katmanda; Karacahisar ve Pelekanon `g:2`.
+    // Kuruluş devrinde doğruydu ama `g` alanının ZAMAN BOYUTU YOK — `m:`
+    // alanının aynı kusuru (MIMARI §3.4).
+    //
+    // Şema değiştirmeden çözüm: isteğe bağlı `go:` alanı (önemin söndüğü gün).
+    // O günden sonra işaret bir katman düşer; ikinci bir eşik geçilirse
+    // tamamen geçici sayılır. Alan yoksa davranış eskisi gibi.
+    var d = aktif.d;
+    if (m.go && t >= m.go) d = Math.max(1, d - 2);
+    if (d < zoomEsigi()) {
+      if (m.ekli) { m.mk.remove(); m.ekli = false; }
+      return;
+    }
+
+    var sinif = "sehir d" + d + (aktif.b && d >= 3 ? " baskent" : "");
     if (m.ic.className !== sinif) m.ic.className = sinif;
     // Pencere içindeyse: ediniliş yöntemi simgesi (⚔ ♜ 📜 🤝) ve kale ise 🏰.
     // Pencere dışında ikisi de kalkar — kalıcı simge bırakmıyoruz.

@@ -361,6 +361,25 @@ body {
 /* önem dereceleri */
 .sehir.d1 .s-ad { display: none; }               /* uzaktan sadece nokta */
 #harita.yakin .sehir.d1 .s-ad { display: inline; }
+
+/* ⚠️ PUNTO ÖLÇEĞE BAĞLI — kullanıcı (hatalar 11 madde 19):
+   "şehir isimleri küçük puntolar ile görünsün ancak kapladıkları bölgeyi
+    geçmeyecek şekilde olsun ... bursa yazısı zoom out yapıldığında aynı
+    puntoda kalarak Çanakkale'den Amasya'ya kadar uzanıyor olmamalı."
+   Bir peteğin EKRANDAKİ genişliği zoom düştükçe küçülüyor ama yazı sabit
+   punto kaldığı için ad kutusu peteği aşıyordu. Punto da ölçekle küçülünce
+   yazı kendi bölgesinin içinde kalıyor.
+   Not: gerçek "alanı aşmasın" kısıtı ancak petek genişliği ölçülerek
+   yapılabilir; bu yaklaşım onun ucuz ve yeterli karşılığı. */
+#harita.uzak .sehir .s-ad      { font-size: 10px; }
+#harita.uzak .sehir.d2 .s-ad   { font-size: 10.5px; }
+#harita.uzak .sehir.d3 .s-ad   { font-size: 11.5px; }
+#harita.cok-uzak .sehir .s-ad  { font-size: 9.5px; letter-spacing: -0.2px; }
+#harita.cok-uzak .sehir.d3 .s-ad { font-size: 10.5px; }
+/* Çok uzakta nokta da küçülsün — 900 nokta ekranı kirletmesin. */
+#harita.cok-uzak .sehir .s-nokta { width: 6px; height: 6px; }
+/* Ediniliş simgesi (⚔ ♜ 📜 🤝 🏰) uzakta okunmuyor, yalnız kalabalık yapıyor. */
+#harita.cok-uzak .sehir .s-yontem { display: none; }
 /* Bölge seçici */
 #bolge-secici {
   position: absolute;
