@@ -101,10 +101,13 @@ window.OLAYLAR = [
   d:"On altı yıllık Kutsal İttifak savaşlarını bitiren Karlofça'yla Macaristan ve Erdel Avusturya'ya, Podolya Lehistan'a, Mora ve Dalmaçya kıyıları Venedik'e bırakıldı. Osmanlı tarihinde ilk kez bu ölçekte toprak, masa başında ve kalıcı olarak elden çıkıyordu; antlaşma, imparatorluğun Avrupa karşısında savunmaya geçtiği yeni çağın başlangıç belgesi sayılır ve Osmanlı diplomasi tarihinin de dönüm noktasıdır.", kaynak:"karlofca-antlasmasi" },
 { t:"1711-07-19", k:"savas", etiket:["savas","antlasma"], b:"Prut Zaferi", gun:"21 Temmuz 1711", yer:"Prut nehri kıyısı, Boğdan", kisiler:"Baltacı Mehmed Paşa, Çar I. Petro",
   d:"Poltava yenilgisinden sonra Osmanlı'ya sığınan İsveç kralı meselesi yüzünden çıkan savaşta, Çar I. Petro'nun ordusu Prut kıyısında kuşatılarak teslim olmak zorunda kaldı. İmzalanan antlaşmayla Azak geri alındı; ordunun imha edilmemesi ve çarın serbest bırakılması ise o günden bugüne tartışılan bir karar olarak tarihe geçti.", kaynak:"prut-antlasmasi" },
-// hatalar 5.docx madde 3: gün zaten biliniyordu (bkz. gun: alanı), t: ay
-// hassasiyetindeydi ve CLAUDE.md §8 gereği ayın 1ine genişliyordu. Pasarofça 21 Temmuz 1718.
-{ t:"1718-07-21", k:"antlasma", etiket:["antlasma","diplomasi","toprak-kaybi","kultur-sanat"], b:"Pasarofça Antlaşması — Lâle Devri", gun:"21 Temmuz 1718", yer:"Pasarofça, Sırbistan", kisiler:"III. Ahmed, Nevşehirli Damad İbrahim Paşa",
-  d:"Venedik'ten Mora geri alınmış, ancak Avusturya cephesinde Belgrad dahil Kuzey Sırbistan kaybedilmişti; Pasarofça bu tabloyu tescilledi. Ardından gelen barış yıllarında Nevşehirli Damad İbrahim Paşa'nın yönetiminde 'Lâle Devri' (1718–1730) yaşandı: ilk Osmanlı matbaası (1727, İbrahim Müteferrika), tercüme heyetleri, çiçek aşısı gözlemleri ve yeni bir saray-kültür hayatı bu dönemin ürünüdür.", kaynak:"pasarofca-antlasmasi" },
+// MÜKERRER SİLİNDİ (2026-07-30): Pasarofça Antlaşması burada ve
+// olaylar_ek5.js:462'de İKİ KEZ yazılmıştı — aynı gün, aynı k:"antlasma",
+// aynı kaynak slug, 6 ortak kişi. Oturum 2'nin yeni mükerrer kademesi yakaladı.
+// Zengin olan (Petrovaradin, Banat, Küçük Eflak, ticaret ahidnâmesi) ek5'teki
+// kayıttı; buradaki maddenin TEK farkı Lâle Devri kültür içeriğiydi (matbaa,
+// tercüme heyetleri, çiçek aşısı) ve o içerik ek5'e taşındı. Silmeden önce
+// taşındı — mükerrer temizliğinde kayıp veri en sinsi hatadır.
 { t:"1730-09-25", k:"isyan", etiket:["ayaklanma","kultur-sanat","ekonomi"], b:"Patrona Halil İsyanı", gun:"28 Eylül 1730", yer:"İstanbul", kisiler:"Patrona Halil, III. Ahmed, Nevşehirli Damad İbrahim Paşa",
   d:"İran cephesindeki başarısızlık, vergiler ve saray çevresinin lüksüne duyulan öfke, hamam tellâğı Patrona Halil'in önderliğinde büyük bir ayaklanmaya dönüştü. Sadrazam İbrahim Paşa öldürüldü, III. Ahmed tahttan indirildi ve Lâle Devri sona erdi; isyancıların aylarca şehre hükmetmesi, merkezî otoritenin kırılganlığını çarpıcı biçimde gösterdi.", kaynak:"patrona-isyani" },
 { t:"1739-09-18", k:"antlasma", etiket:["antlasma","diplomasi","ekonomi"], b:"Belgrad Antlaşması — Belgrad, Semendire ve kuzey Sırbistan'ın geri alınışı", gun:"18 Eylül 1739", yer:"Belgrad", kisiler:"I. Mahmud, İvaz Mehmed Paşa",
