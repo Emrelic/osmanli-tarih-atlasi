@@ -605,3 +605,37 @@ diline bağlanabilir.
 **Ve çare hep veri:** üçünde de motorda yapacak bir şey yok. Sınır seyrek, çünkü
 nokta seyrek. ⚠️ Ama nokta eklemek **toprağı büyütmek değil, sınırı yumuşatmak**
 içindir — Mısır'da dört vaha noktası çölün %61'ini yuttu (`§14 md.40 borcu`).
+
+---
+
+## 23. Büyük boşluk TARİH, küçük boşluk HATA
+
+Kullanıcının genel kuralı (`hatalar 12 md.11`): *"karadan toprak genişlemelerinde
+ana kara ile bağlantı beklenir; yoksa denizden geçiş mi diye araştırılmalı —
+uçakla gidilip arada geçiş yokken yer ele geçirilemez."*
+
+Oturum 2 bunu denetime çevirirken beklenen ölçüt "mesafe eşiği" idi. Ölçüm bunu
+**ters çevirdi**:
+
+```
+100 km ÜSTÜ boşluk  → gerçek tarihî sıçrama (Tebriz 585 km — sefer)
+100 km ALTI boşluk  → hata (araya bir devlet sığmaz)
+```
+
+Sezgi "büyük boşluk daha şüpheli" der. Gerçek tersi: **büyük boşluk bir seferi
+anlatır, küçük boşluk geometrinin kusurudur.** 3,7 km'lik bir kara boşluğu
+(Gümülcine) tarihen imkânsızdır — o mesafede araya başka bir hâkimiyet giremez.
+585 km'lik boşluk ise Tebriz seferidir ve doğrudur.
+
+Ve ölçüt **mesafe değil kara/deniz ayrımı** olmalı, çünkü kullanıcının cümlesi
+zaten öyle diyor: 272 kopuk bileşenin **222'si deniz hattı** (Rodos, Girit, Kıbrıs,
+Cezayir, Kırım) ve muaf. Mesafe eşiğiyle kurulsaydı bu 222'si yanlış alarm olurdu.
+
+Yakalanan gerçek kusurlar: Gümülcine 3,7 km / %100 kara / 6.459 km² · 1281 kuruluş
+gövdesinin iki ayrı leke olması (1,66 km, 1288'e kadar) · 1413-07-05'te 289.597 km²
+/ 46 km kara boşluğu (Fetret sonrası toparlanma).
+
+⭐ **Ve bir şikâyet "kusur değil" çıktı:** Isparta'nın enklav görüntüsü (md.10)
+116 km kara sıçraması — yani **gerçek**. Kullanıcının tespiti haklıydı, sebebi
+meşru. Bir denetimin en değerli çıktılarından biri, şüpheyi *doğrulamak* değil
+**temize çıkarmaktır**; aksi hâlde düzeltilecek diye var olmayan bir hata kovalanır.
