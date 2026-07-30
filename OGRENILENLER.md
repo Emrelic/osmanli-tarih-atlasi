@@ -689,3 +689,35 @@ Liste bir küme olarak çalışıyor; bir nokta çıkarılırsa ölçüm geçers
 doğru yönde ilerleyen bir çabanın hedefe varamayacağını gösterdi — ve daha
 pahalısı, ilk aday listenin işi **%13 kötüleştireceğini**. Simülasyon olmasaydı
 dokuz nokta eklenip "md.17 tamam" denecekti.
+
+---
+
+## 25. Aracı çalıştırmak yetmez — hangi soruyu cevapladığını oku
+
+`denetle_yayin.py`, `olaylar_ek8.js`'in dört commit boyunca 404 vermesi üzerine
+yazılmıştı. Bugün aynı sınıf **üçüncü kez** tekrarladı ve bu sefer sebebi, aracı
+o turda **çalıştırmış olan** kişiydi.
+
+Araç iki ayrı soru soruyor:
+
+```
+✗ yetim veri dosyası          → dosya diskte var, ama kimse OKUMUYOR
+✗ diskte var ama GİT'TE İZLENMİYOR → dosyayı okuyan var, ama yayında YOK
+```
+
+Ben birinci uyarıyı gördüm (`olaylar_ek10.js` ve `ek11.js` yetim), `index.html`'e
+`<script>` satırı ekleyerek **onu susturdum** — ve ikinci soruyu hiç sormadım.
+Sonuç: dosyalar artık okunuyordu ama git'e eklenmemişlerdi, yani push edilince
+canlı sitede **404** verdiler. Sayfa sessizce eksik çalıştı.
+
+Yani bir uyarıyı kapatan hamle, **başka bir uyarıyı açtı** ve ben aracı ikinci kez
+koşturmadım. Uyarı sırası tesadüfen öyleydi: dosya önce "yetim"di, script satırı
+eklenince "izlenmiyor" oldu.
+
+**Kural:** bir denetim uyarısını kapatan değişiklikten sonra **denetimi yeniden
+koştur.** Bir uyarıyı susturmak, o uyarının işaret ettiği durumu düzeltmekle aynı
+şey değildir — düzeltme yeni bir durum yaratır ve o durumun da denetlenmesi gerekir.
+
+⚠️ Ve ikinci katman: aracı ben yazmıştım ve yine de çıktısını yarım okudum. Bir
+aracın sahibi olmak, çıktısını dikkatle okumaktan **muaf tutmaz**; tersine, ne
+söyleyeceğini bildiğini sanmak tam da yarım okumaya yol açar.
