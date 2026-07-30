@@ -458,3 +458,68 @@ tam tersi doğru. İstersen kuralı değiştirebiliriz ama o zaman bütün
 tutmak tutarsızlık yaratır.
 
 Doğrulama: `SEFERLER: 61 | tur/sonuc eksik: 0`.
+
+---
+
+## EK 5 — hatalar 15: Viyana/Budin (md.2) ve Küns (md.4) (2026-07-30)
+
+### md.2 — ÖLÇÜLDÜ: aynı kök, Katalan (hatalar 12 md.3) ile BİREBİR AYNI mekanizma
+
+Kayıt: `Viyana seferi (1529)`, `f:"1529-05-10"`, `t:"1529-10-16"`,
+`yol` Budapeşte koordinatını (`[19.04,47.5]`) doğrudan içeriyor.
+Kronolojideki "Budin'in alınıp Zapolya'ya verilmesi" maddesi
+(`olaylar_ek5.js`, `t:"1529-09-08"`) bu aralığın TAM İÇİNDE — çünkü
+Kanunî'nin Viyana seferi tarihsel olarak gerçekten Budin'den geçti (yeniden
+ele geçirip Zapolya'ya verdi), sonra Viyana'ya yürüdü. Tek kayıt hem
+Budin uğrağını hem Viyana kuşatmasını kapsıyor.
+
+**(a) Tarih hatası DEĞİL** — f/t doğru, kampanyanın gerçek başlangıç/bitiş
+günleri.
+**(b) "60-365 gün" penceresi de DEĞİL** — o mekanizma (`sonrakiOlayaKadar`,
+`js/app.js` satır 699-707) yalnız SAVASLAR'ın `⚔` nokta işaretlerinde
+çalışıyor. SEFERLER okları TAMAMEN AYRI bir pencere kullanıyor:
+`fi:gunIdx(s.f)`, `ti:gunIdx(s.t)+45` (satır 959) — yalnız kaydın KENDİ
+f/t'sine bağlı, "bir sonraki madde"yle hiç ilgisi yok, geriye hiç taşmıyor.
+
+**İki soruna da (md.2 ve hatalar 12 md.3) TEK VE AYNI CEVAP**: SEFERLER
+tablosundaki bazı kayıtlar birden çok aylık/çok durak'lı GERÇEK
+kampanyaları tek bir okla temsil ediyor (Katalan 1303-1305, Viyana 1529
+İstanbul→Budin→Viyana). Bu kayıtların f/t aralığı doğru ve pencere
+mekanizması doğru çalışıyor; sorun şu ki aralık içinde kalan ARA
+kronoloji maddeleri (Sakarya seferi 1304, Budin 1529-09-08) o okun
+kendi konusuyla YÜZEYSEL olarak alakasız görünüyor, kullanıcı "bu ok
+neden burada" diye şaşırıyor. **Genel bir ayar hatası yok** — tek tek
+düzeltilecek bir pencere parametresi de yok, çünkü mekanizma zaten
+doğru çalışıyor. Var olan çözüm (ok ucundaki `ad` etiketi, `js/app.js`
+satır 952-955'teki yorum) bu karışıklığı azaltmak için zaten eklenmiş;
+yetmiyorsa bu bir js/app.js/etiketleme konusu, benim dosyamda düzeltilecek
+veri hatası yok.
+
+Kayıtları alt-bacaklara bölmek (ör. "Budin'i geri alma" + "Viyana
+kuşatması" diye iki ayrı ok) mümkün ama bunun için Budin'den ayrılış
+tarihi gibi kronolojide YAZILI OLMAYAN bir ara tarih gerekir — 🔴 sınırı
+(yeni tarih uydurmama) ihlal etmeden yapamam. İstersen ve kronolojide
+böyle bir ara tarih madde olarak eklenirse, o zaman bölebilirim.
+
+**Değiştirmedim** — `data/savaslar.js`'te bu kayıt için yapılan bir
+düzeltme yok.
+
+### md.4 — Küns kuşatması: SAVASLAR kaydı zaten doğru, şehir eksik (Merkez'e bildirim)
+
+`SAVASLAR`'da kayıt zaten var ve zaten doğru: `{t:"1532-08-05",
+tur:"kusatma", ad:"Güns (Kőszeg) kuşatması", sonuc:"belirsiz",
+seri:"habsburg", lat:47.39, lon:16.54}` — `tur` zaten `"kusatma"`,
+değişiklik gerekmedi.
+
+🔴 **Şehir eksikliği doğrulandı**: `data/yerlesimler*.js` (tüm dosyalar:
+`yerlesimler.js`, `_avrupa`, `_asya`, `_afrika`) "Küns", "Kőszeg", "Güns"
+hiçbirini içermiyor — Merkez'in şüphesi doğru, hatalar 13 md.1/2 (Varna)
+ile AYNI SINIF: kuşatma maddesi var, şehir haritada yok. Bu benim
+dosyam değil, düzeltmedim — yerleşim ekleme yetkisi olan oturuma
+(Oturum 4/Avrupa yerleşimleri) havale.
+
+### Durum (beşinci kez, üç satır)
+
+- 50/50 SEFERLER kaydına tur/sonuc eklendi.
+- hatalar 12 md.3 (Katalan): ölçüldü — ne tarih hatası ne pencere hatası, EK5'te yukarıda kesin açıklandı; md.2 (Viyana/Budin) ile birebir aynı kök.
+- hatalar 13 md.8 (Timur): 3 ok var, kronolojide karşılığı olmayan YOK (ikisi tam gün eşleşiyor); tek gerçek boşluk Bursa'nın yağmalanmasına dair BAĞIMSIZ bir madde yokluğu — bu kronoloji boşluğu, ok eksikliği değil.
