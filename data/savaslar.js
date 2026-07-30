@@ -481,7 +481,7 @@ window.SEFERLER = [
 { ad:"Varna Haçlı seferi (1444)", tur:"sefer", sonuc:"zafer", taraf:"dusman", renk:"#1f5fa8",
   f:"1444-09-20", t:"1444-11-10",
   yol:[[19.04,47.50],[20.46,44.82],[22.88,43.99],[24.90,43.71],[26.93,43.27],[27.92,43.21]] },
-{ ad:"Timur'un İzmir seferi (1402)", tur:"sefer", sonuc:"belirsiz", taraf:"dusman", renk:"#8a5a00",
+{ ad:"Timur'un İzmir seferi (1402)", tur:"kusatma", sonuc:"yenilgi", taraf:"dusman", renk:"#8a5a00",
   f:"1402-08-01", t:"1402-12-14",
   yol:[[32.86,39.93],[29.98,39.42],[29.06,40.19],[27.37,37.95],[27.14,38.42]] },
 { ad:"Timur'un Anadolu'dan çekilişi (1403)", tur:"cekilme", sonuc:"belirsiz", taraf:"dusman", renk:"#8a5a00",
