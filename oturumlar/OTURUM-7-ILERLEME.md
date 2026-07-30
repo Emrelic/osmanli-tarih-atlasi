@@ -237,8 +237,106 @@ kadrosunun sonu") — Jaccard eşiği (0.34) bunu yakalayamadı, yalnız md.36'n
 kendisi olan "aynı kişi + aynı gün" ikinci ölçütü yakaladı (zaten `denetle.py`'nin
 v3 eklentisinin amacı buydu).
 
-### Bekleniyor
+### Bekleniyor (eski not — aşağıda çözüldü)
 
 `OTURUM-4-KRONOLOJI.md` hâlâ yok — Oturum 4 araştırmasını bitirmedi. Gelince
 5 maddeyi (Bükreş antlaşması, Rus ilerlemeleri, Cezayir'in adım adım işgali,
 Yunan isyanı) işleyeceğim. O ana kadar kendi başıma yeni tarihî iddia üretmiyorum.
+
+---
+
+## Dördüncü tur — md.8, 81'lik S-S listesi, Oturum 4 teslimi (2026-07-30)
+
+### md.8 — başkent maddeleri: KONTROL EDİLDİ, YENİ MADDE GEREKMEDİ
+
+Bursa (`olaylar.js:15`), Edirne (`olaylar.js:25`) ve İstanbul (`olaylar.js:41`)
+fetih maddelerinin `d:` metinlerinde "başkent yapıldı" ifadesi zaten var —
+ayrı bir olay değil, fethin doğal sonucu olarak aynı maddede anlatılıyor.
+Yeni madde eklemedim.
+
+### ⭐ S-S-DEVIR-LISTESI-2026-07-30.md — 81 → 68
+
+En yoğun, en güvenilir kümeden başladım: İlhanlı/Timurlu/Karakoyunlu/Akkoyunlu/
+Safevî zinciri + Rus-İran sınır tarihi + İbn Suûd'un Riyad'ı alışı. Hepsi TDV
+slug'ı `<title>` ile doğrulanmış, biri (Nadir Şah'ın tahta çıkışı) ve biri
+(Riyad'ın alınışı) TDV'nin verdiği gün tablodaki günle **birebir eşleşti** —
+tablonun gerçekten sağlam kaynaklı olduğunun doğrulaması.
+
+Eklenen 10 madde (tablodaki 11 satırı kapatıyor, #13+14 tek maddede birleşti):
+İlhanlı'nın dağılması (1335) · Timur'un İran'ı alışı (1387) · Kara Yusuf'un
+Tebriz'i geri alışı (1406) · Uzun Hasan'ın Karakoyunlu'ya son vermesi (1468) ·
+Şah İsmail'in Safevî Devleti'ni kuruşu (1501) · Rusya'nın Derbend'i alışı (1722) ·
+Gence Antlaşması: Derbend/Bakü'nün iadesi (1735) · Nadir Şah'ın tahta çıkışı
+(1736) · Türkmençay Antlaşması (1828) · İbn Suûd'un Riyad'ı alışı (1902).
+
+Ölçüm: `py arac/denetle_statu.py` → gerçek gün taşıyan maddesiz devir **81 → 68**.
+Kaynaklar: `ilhanlilar` · `timur` · `karakoyunlular` · `akkoyunlular` ·
+`safeviler` · `derbend` · `nadir-sah--iran` · `revan` · `riyad` — hepsi CANLI.
+
+Yeni bölüm `data/olaylar_ek7.js`'in sonuna "10) YABANCI DEVLETLER ARASI SESSİZ
+TOPRAK DEĞİŞİMİ" başlığıyla eklendi; dosyanın önsözündeki "toprak kazanç/kayıp'a
+girilmez" kuralı Osmanlı'nın kendi kazanç/kaybı içindir, bu maddeler kapsam dışı
+— başlıkta bunu açıkça not ettim ki sonraki okuyan kafası karışmasın.
+
+🔴 **Bulgu — kaynak alanı şeması yalnız TDV'yi destekliyor.** `js/app.js:1112`
+`kaynak` alanını doğrudan `islamansiklopedisi.org.tr/` önekiyle linkliyor ve
+"TDV İslâm Ansiklopedisi" etiketiyle gösteriyor. Listedeki **kalan 68 maddenin
+büyük kısmı** (Lehistan taksimleri, Campo Formio, İtalya birleşmesi, İsveç-
+Norveç ayrılığı, Somali/Habeşistan sömürge tarihi gibi TDV kapsamı dışı Avrupa-
+içi/sömürge olayları) için TDV slug'ı YOK — kaynak alanını ya yanlış TDV
+etiketiyle doldurmam ya da boş bırakıp linki gizlemem gerekir, ikisi de dosyanın
+%100 `kaynak:` doldurma geleneğini bozar. **Karar merkezde:** şemaya "TDV dışı
+kaynak" için ikinci bir alan (`kaynak_ad`+`kaynak_url` gibi) eklenmesi gerekebilir
+— `js/app.js` bende değil, ben ekleyemem. Karar gelene kadar TDV kapsamındaki
+maddelerle devam ediyorum.
+
+### Oturum 4'ün OTURUM-4-KRONOLOJI.md teslimi — 9/13 HAZIR işlendi
+
+Slug spot-check yaptım (`ibrail`, `kabakci-isyani` — ikisi de CANLI), sonra 13
+HAZIR maddeden işlenebilir olan 9'unu + 1 kaynak düzeltmesini geçirdim:
+- 0.2: `kaynak:"kabakci-mustafa"` (ÖLÜ) → `kaynak:"kabakci-isyani"` (CANLI)
+- M1, M2, M7, M8, M10, M11, M12, M13: yeni madde (İbrâil'in iki düşüşü, Rusçuk'un
+  teslimi, Ahıska'nın terki, Cezayir zinciri — Yelpaze hadisesinden Dayı
+  Hüseyin'in sürgününe)
+- **M6 EKLENDİ SONRA SİLİNDİ:** `denetle.py --ayrinti` M6'yı ("Rusya'nın savaş
+  ilânı") `olaylar_ek5.js:314`'teki mevcut, daha ayrıntılı "1828-1829 Osmanlı-
+  Rus Savaşı'nın başlaması" kaydıyla aynı gün + aynı kişiler olarak yakaladı.
+  Oturum 4'ün araştırması sağlamdı ama benim dosyaya-geçirme adımım kendi
+  korpusumu taramadı — tam da bu turun konusu olan hata sınıfını kendim
+  ürettim. Silindi, denetim tekrar temiz.
+
+**İşlemediklerim (Oturum 4'ün kendi işaretiyle):** M3 (Rusçuk zaferi, gün yok),
+M4 (Kutayis, kaynak yok), M5 (Sohum, metin çekilmedi), M9 (Varna/Kars, gün yok +
+geçici işgal uyarısı), M14 (Mısır donanması, gün teyit bekliyor). Hiçbirine
+`YYYY-01-01` yazıp geçmedim.
+
+**Bana ait olmayan 5 düzeltme — merkeze bildiriyorum, kendim uygulayamıyorum:**
+| # | Dosya | İş |
+|---|---|---|
+| 0.1 | `olaylar_ek.js:71` | `kaynak:"bukres-antlasmasi"` (ÖLÜ) → `"bucak"`, `d:` metni Kafkasya'yı eklesin (Oturum 4'ün önerdiği tam metin dosyada) |
+| 4.1 | `olaylar.js:132` | Navarin: `t:"1827-10"` → `"1827-10-20"`, `gun:"20 Ekim 1827"` |
+| 4.2 | `olaylar.js:134` | `t:"1830-02"` birleşik kaydı SİL (Yunanistan kısmı 1830-02-03'te, Cezayir kısmı yukarıdaki M12/M13'te zaten var) |
+| 4.3 | `olaylar_ek4.js:118,122` | Tripoliçe `1825-06-22`→`23`, Missolonghi `1826-04-22`→`23` (TDV ile 1 gün fark) |
+| 4.3(Modon) | — | Modon: TDV kendi içinde çelişiyor (Şubat/Mart 1825), karar merkezde |
+
+### 🔴 Yeni bulgu — Fizan mükerreri (bana ait değil)
+
+`denetle.py --ayrinti` ikinci turda 1 sert mükerrer daha yakaladı, benim
+maddelerimle ilgisi yok: `olaylar_ek8.js:47` "Fizan'ın Osmanlı tâbiiyetine
+girmesi" ile `olaylar_ek9.js:207` "Fizan'ın Osmanlı idaresine bağlanması" —
+ikisi de `1577-01-01`, aynı hânedan (Evlâd-ı Muhammed). Muhtemelen Oturum 14
+`olaylar_ek9.js`'i yazarken `olaylar_ek8.js`'teki mevcut maddeyi görmedi.
+Dosyaların ikisi de bana ait değil, düzeltmedim — Oturum 2/14'e bildiriyorum.
+
+### 🟡 Bilgi — Değişmez 1 şu an İHLAL gösteriyor (bana ait değil)
+
+Bu turun ortasında `yerlesimler.js` 927→939 yerleşime çıktı ve sahipsiz sayısı
+34→40'a yükseldi (beklenen 34). Ben `yerlesimler.js`'e hiç dokunmadım; başka bir
+oturumun (muhtemelen 13/14/15) sürmekte olan işi. Bilgi amaçlı not ediyorum,
+düzeltmeye çalışmadım — dosya bende değil.
+
+### Denetim sonucu (bu turun sonunda)
+
+Değişmez 2: ✓ 452/0. Mükerrer (benim eklediklerim): ✓ 0. Değişmez 1: ✗ (yukarıda
+açıklanan, bana ait olmayan sebepten). `SONUÇ: İHLAL VAR` çıkış kodu bu yüzden
+1 — kendi payıma düşen kısım temiz.
