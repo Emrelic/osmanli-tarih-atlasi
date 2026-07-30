@@ -107,11 +107,27 @@ var PARCALAR = window.PARCALAR || [];
 // PAYI %17-22 — yani çevrenin beşte biri hiçliğe karşı sert çizgiyle çiziliyordu.
 // Serbest kenarın ortalama parçası 29,6 km, gövde ortalaması 4,2 km: yedi kat kaba.
 var SERBEST = window.SERBEST || [];
+// Havuza PARALEL belirsizlik dizisi (km). Oturum 16 ölçtü: serbest kenar iki
+// tohumun orta dikmesidir (sahipli yerleşim ↔ sahipsiz dolgu noktası), yani
+// dolgu noktası d kadar oynarsa sınır d/2 kayar — belirsizlik = tohum arası / 2.
+// DAĞILIM GENİŞ ve tek çıpayı imkânsız kılıyor (uzunlukla ağırlıklı medyan):
+//     Arabistan 217,3 km · Sahra 181,9 · Libya-Mısır 150,7
+//     Kafkasya   62,0 km · Rumeli  30,5 · Anadolu     23,4
+// En dar ile en geniş arasında 9,3 KAT fark var. Hepsini aynı kalınlıkta çizmek
+// tam da ölçtüğümüz farkı gizlemek olurdu: Anadolu'daki 23 km'lik kenar neredeyse
+// gerçek bir sınır, Arabistan'daki 217 km'lik kenar neredeyse hiçbir şey söylemiyor.
+var SERBEST_U = window.SERBEST_U || [];
+// Her hat AYRI bir feature: kalınlık artık veriden geliyor (`u` özniteliği).
 function hatCoz(dizi) {
   if (!dizi || !dizi.length) return null;
-  return { type: "MultiLineString",
-           coordinates: dizi.map(function (h) {
-             return typeof h === "number" ? SERBEST[h] : h; }) };
+  return { type: "FeatureCollection",
+           features: dizi.map(function (h) {
+             var i = typeof h === "number" ? h : -1;
+             return { type: "Feature",
+                      properties: { u: i >= 0 ? (SERBEST_U[i] || 60) : 60 },
+                      geometry: { type: "LineString",
+                                  coordinates: i >= 0 ? SERBEST[i] : h } };
+           }) };
 }
 
 var donemler = window.DONEMLER.map(function (d) {
@@ -404,10 +420,17 @@ harita.on("load", function () {
   // Çıpa: z4'te 14 px ≈ 60 km (30° enlemde). GEÇİCİ — Oturum 16 üretim sonrası
   // serbest kenar boyunca yerel nokta aralığının medyanını ölçecek ve "hale =
   // medyan aralığın yarısı" diye savunulabilir bir sayı verecek.
-  var YER_GENISLIK = ["interpolate", ["exponential", 2], ["zoom"], 2, 3.5, 8, 224];
-  var YER_BULANIK  = ["interpolate", ["exponential", 2], ["zoom"], 2, 3.0, 8, 192];
-  var YER_CEKIRDEK = ["interpolate", ["exponential", 2], ["zoom"], 2, 1.25, 8, 80];
-  var YER_CBULANIK = ["interpolate", ["exponential", 2], ["zoom"], 2, 1.0, 8, 64];
+  // Kalınlık artık SABİT ÇIPA değil, VERİ: her hat kendi belirsizliğini taşıyor.
+  // px/km dönüşümü Web Mercator'dan: 1 px = 78,27·cos(φ)/2^z km. 30° enlemde
+  // payda ≈ 67,8. Yani genişlik_px = u_km × 2^zoom / 67,8 — zoom'a bağlılık
+  // korunuyor (hale sabit YER genişliği), ama artık her yerde aynı yer genişliği
+  // değil, o kenarın KENDİ belirsizliği kadar.
+  var PX_KM = ["/", ["^", 2, ["zoom"]], 67.8];
+  var U = ["coalesce", ["get", "u"], 60];          // veri yoksa 60 km varsayılan
+  var YER_GENISLIK = ["*", U, PX_KM];
+  var YER_BULANIK  = ["*", U, PX_KM, 0.85];
+  var YER_CEKIRDEK = ["*", U, PX_KM, 0.35];
+  var YER_CBULANIK = ["*", U, PX_KM, 0.28];
   harita.addSource("serbest", { type: "geojson", data: bosVeri() });
   harita.addLayer({ id: "serbest-hale", type: "line", source: "serbest",
     layout: { "line-cap": "round", "line-join": "round" },
@@ -1436,7 +1459,8 @@ function guncelle() {
       features: (osmVeri.features || []).concat(vasVeri.features || [])
     });
     // Serbest kenar: yalnız sahipsiz alanla sınırdaş olunan dönemlerde var.
-    harita.getSource("serbest").setData(d.sb ? tekVeri(d.sb) : bosVeri());
+    // hatCoz zaten FeatureCollection dönüyor (her hat kendi `u`sunu taşıyor).
+    harita.getSource("serbest").setData(d.sb || bosVeri());
     harita.getSource("bolge").setData(bolgeVerisi(suanki));
     sehzadeGuncelle(d);
     donemEtiketi.textContent = d.ad;
