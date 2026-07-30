@@ -384,6 +384,20 @@ window.DEVLETLER = [
     { t:"1526-08-29", tur:"son", b:"Mohaç'ta II. Layoş öldü, krallık bağımsızlığını kaybetti" }
   ]
 },
+{ id:"macaristan-habsburg", ad:"Macaristan Krallığı (Habsburg Tacı)", tur:"krallik", bolge:"orta-avrupa",
+  f:"1526-08-29", t:"1918-11-16", baskent:"Pozsony (Bratislava) → Buda",
+  ozet:"Mohaç sonrası Habsburg hanedanının seçilmiş/kalıtsal kralı olarak sürdürdüğü, üç parçaya bölünmüş dönemin (bkz. [[erdel]]) Kraliyet Macaristanı; Osmanlı'nın 1699'da kesin çekilişinden sonra tüm ülkeyi kapsayacak şekilde genişledi, 1867'de Avusturya-Macaristan ikili monarşisinin eşit ortağı oldu. Devam: bkz. [[macaristan-naiplik]].",
+  harita:"macaristan",
+  kronoloji:[
+    { t:"1526-12-17", tur:"hukumdar", b:"I. Ferdinand, Habsburg hanedanından ilk Macar kralı olarak seçildi (rakip kral Szapolyai János ile çekişme sürdü)" },
+    { t:"1541-08-29", tur:"bolunme", b:"Budin'in Osmanlı'ya düşmesiyle ülke üçe bölündü: Kraliyet Macaristanı, Osmanlı Budin Eyaleti, Erdel Prensliği" },
+    { t:"1686-09-02", tur:"toprak-kazanc", b:"Kutsal İttifak ordusu Budin'i geri aldı" },
+    { t:"1699-01-26", tur:"antlasma", b:"Karlofça Antlaşması ile Osmanlı, Macaristan'dan (Temeşvar hariç) kesin olarak çekildi" },
+    { t:"1848-03-15", tur:"isyan", b:"1848 Macar Devrimi başladı (1849'da Rus yardımıyla bastırıldı)" },
+    { t:"1867-02-08", tur:"antlasma", b:"Ausgleich (Uzlaşma) ile Avusturya-Macaristan ikili monarşisi kuruldu, Macaristan eşit ortak oldu" },
+    { t:"1918-11-16", tur:"son", b:"I. Dünya Savaşı sonrası cumhuriyet ilan edildi (bkz. [[macaristan-naiplik]])" }
+  ]
+},
 { id:"lehistan", ad:"Lehistan-Litvanya Birliği", tur:"cumhuriyet", bolge:"dogu-avrupa",
   f:"1569-07-01", t:"1795-10-24", baskent:"Varşova", harita:"lehistan",
   ozet:"Seçimli krallıkla yönetilen \"Asilzade Cumhuriyeti\"; Osmanlı ile Podolya çevresinde savaştı, üç paylaşımla ortadan kalktı.",
@@ -984,6 +998,16 @@ window.DEVLETLER = [
     { t:"1821-06-14", tur:"son", b:"İsmâil Kâmil Paşa'nın ordusuna direnmeden teslim oldu" }
   ]
 },
+{ id:"darfur", ad:"Dârfûr Sultanlığı (Keira Hanedanı)", tur:"sultanlik", bolge:"misir-sudan",
+  f:"1603-01-01", t:"1916-11-06", baskent:"El-Faşir", harita:"darfur",
+  ozet:"Sudan'ın batısında Fur halkının Keira hanedanınca kurduğu Müslüman sultanlık; Mısır'a bağlanıp Mehdî döneminde arada kesintiye uğradı, Ali Dinar'ın restorasyonuyla 1916'da İngiliz-Mısır ordusuna yenilene dek sürdü. Tarihler standart akademik kaynaklara göredir (TDV'de ayrı maddesi yok), kesinlik düşük.",
+  kronoloji:[
+    { t:"1603-01-01", tur:"kurulus", b:"Süleyman Solon (Solong) tarafından Keira hanedanı kuruldu" },
+    { t:"1874-11-02", tur:"toprak-kayip", b:"Mısır valisi İsmâil Paşa'nın seferiyle sultanlık ilhak edildi" },
+    { t:"1898-09-02", tur:"kurulus", b:"Mehdî Devleti'nin yıkılmasıyla Ali Dinar sultanlığı yeniden kurdu (bkz. [[mehdi]])" },
+    { t:"1916-11-06", tur:"son", b:"Ali Dinar, İngiliz-Mısır seferi karşısında öldürüldü; sultanlık kesin olarak sona erdi" }
+  ]
+},
 { id:"habesistan", ad:"Habeşistan İmparatorluğu", tur:"imparatorluk", bolge:"dogu-afrika",
   f:"1270-01-01", t:"1923-10-29", baskent:"Gondar → Addis Ababa", harita:"habesistan",
   ozet:"Afrika'nın en eski Hristiyan devleti; 16. yüzyılda Osmanlı destekli Adal ordularıyla ölüm kalım savaşı yaptı (1923 sonrasında da sürdü).",
@@ -1007,6 +1031,36 @@ window.DEVLETLER = [
     { t:"1543-02-21", tur:"savas", b:"Ahmed Gran öldü, istila çöktü" },
     { t:"1577-01-01", tur:"bolunme", b:"Devlet dağıldı, Harar emirliği ardıl kaldı" },
     { t:"1887-01-06", tur:"son", b:"Harar, Habeşistan'a katıldı" }
+  ]
+},
+{ id:"kaffa-kralligi", ad:"Kaffa Krallığı", tur:"krallik", bolge:"dogu-afrika",
+  f:"1390-01-01", t:"1897-09-10", baskent:"Bonga", harita:"kaffa",
+  ozet:"Güneybatı Habeşistan'da Gomara/Minjo hanedanınca kurulan, kahve bitkisinin adını aldığı söylenen krallık; Habeş İmparatoru II. Menelik'in seferiyle ilhak edildi. TDV'de ayrı maddesi yok, tarihler standart akademik kaynaklara göredir, kesinlik düşük.",
+  kronoloji:[
+    { t:"1390-01-01", tur:"kurulus", b:"Minjo hanedanı tarafından kuruldu (gelenek)" },
+    { t:"1897-09-10", tur:"son", b:"Ras Wolde Giyorgis komutasındaki Habeş ordusu son kral Gaki Şeroço'yu esir aldı" }
+  ]
+},
+{ id:"cimma-sultanligi", ad:"Cimma (Jimma) Sultanlığı", tur:"sultanlik", bolge:"dogu-afrika",
+  f:"1830-01-01", t:"1923-10-29", baskent:"Cirén (Jiren)", harita:"cimma",
+  ozet:"Gibe bölgesindeki Oromo krallıklarından, Kaffa'ya bağlılıktan koparak İslâm'a geçen hanedanınca kurulan sultanlık; Habeşistan'a haraca bağlandıktan sonra da iç özerkliğini uzun süre korudu (1923 sonrasında da sürdü). TDV'de ayrı maddesi yok, tarihler standart akademik kaynaklara göredir.",
+  kronoloji:[
+    { t:"1830-01-01", tur:"kurulus", b:"Abba Cifar I, İslâm'ı kabul ederek Kaffa vasallığından koptu ve sultanlığı kurdu" },
+    { t:"1882-01-01", tur:"antlasma", b:"Abba Cifar II, Habeşistan'a haraç ödemeyi kabul etti (iç özerklik korundu)" }
+  ]
+},
+{ id:"sidamo-kralliklari", ad:"Sidamo Krallıkları", tur:"devlet", bolge:"dogu-afrika",
+  f:"1281-01-01", t:"1897-01-01", baskent:"çeşitli merkezler", harita:"sidamo",
+  ozet:"Güney Habeşistan'da birden fazla küçük Sidama krallığından oluşan gevşek topluluk; tek bir kuruluş tarihi yok, II. Menelik'in seferleriyle 1890'ların ortasında Habeşistan'a katıldı. TDV'de ayrı maddesi yok, tarihler standart akademik kaynaklara göredir, kesinlik düşük.",
+  kronoloji:[
+    { t:"1897-01-01", tur:"son", b:"II. Menelik'in seferleriyle Habeşistan'a katıldı" }
+  ]
+},
+{ id:"vollayta-kralligi", ad:"Vollayta (Wolaita) Krallığı", tur:"krallik", bolge:"dogu-afrika",
+  f:"1281-01-01", t:"1894-01-17", baskent:"Dalgaç (Damot Sore)", harita:"vollayta",
+  ozet:"Güney Habeşistan'da eski ve köklü bir krallık (Kawo hanedanı); kuruluşu efsanevi Motolomi dönemine dayanır, II. Menelik'in fetih seferiyle 1894'te sona erdi. TDV'de ayrı maddesi yok, tarihler standart akademik kaynaklara göredir, kesinlik düşük.",
+  kronoloji:[
+    { t:"1894-01-17", tur:"son", b:"Ras Wolde Giyorgis komutasındaki Habeş ordusu Kral Tona'yı yenip krallığı ilhak etti" }
   ]
 },
 
@@ -1671,7 +1725,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"macaristan-naiplik", ad:"Macaristan (1918 Sonrası: Cumhuriyet → Naiplik)", tur:"devlet", bolge:"orta-avrupa",
-  f:"1918-11-16", t:"1923-10-29", baskent:"Budapeşte",
+  f:"1918-11-16", t:"1923-10-29", baskent:"Budapeşte", harita:"macaristan",
   ozet:"Avusturya-Macaristan'ın dağılmasıyla önce demokratik cumhuriyet, ardından kısa ömürlü bir Sovyet cumhuriyeti olarak kurulan, Romanya işgali sonrası kralsız bir krallığa (Horthy naipliği) dönüşen devlet (1923 sonrasında da sürdü, 1944'e dek).",
   kronoloji:[
     { t:"1918-11-16", tur:"kurulus", b:"Károlyi önderliğinde Macaristan Halk Cumhuriyeti ilan edildi" },
