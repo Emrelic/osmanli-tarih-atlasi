@@ -1043,7 +1043,9 @@ var olaylar = (window.OLAYLAR || []).concat(window.OLAYLAR_EK || [])
                                     .concat(window.OLAYLAR_EK6 || [])
                                     .concat(window.OLAYLAR_EK7 || [])
                                     .concat(window.OLAYLAR_EK8 || [])
-                                    .concat(window.OLAYLAR_EK9 || []).map(function (o) {
+                                    .concat(window.OLAYLAR_EK9 || [])
+                                    .concat(window.OLAYLAR_EK10 || [])
+                                    .concat(window.OLAYLAR_EK11 || []).map(function (o) {
   var kaba = gunIdx(o.t);
   return Object.assign({ gi: o.t.split("-").length > 2 ? kaba : gunMetniIdx(o.gun, kaba) }, o);
 }).sort(function (a, b) { return a.gi - b.gi; });
@@ -1055,9 +1057,16 @@ olaylar.forEach(function (o, i) {
   div.innerHTML = '<div class="o-tarih">' + olayTarihYazi(o) + '</div>' +
                   '<div class="o-baslik"></div>';
   div.lastChild.textContent = o.b;
+  // hatalar 14 md.1: "olay başlıklarının üzerine tıklayınca AYNI SÜTUNDA SAĞ ALTTA
+  // açılması gerekmiyor muydu, neden ortada açılıyor?"
+  // Kullanıcının beklediği panel ZATEN VARDI (#olay-bilgi, kronolojinin altında) ama
+  // yalnız "olay olay" akış modunda açılıyordu; varsayılan "zaman akışı" modunda
+  // tam ekran modal (detayAc) devreye giriyordu. İki ayrı gösterim, biri gizli.
+  // Panel içi sürüm ayrıca DAHA ZENGİN: padişah portresi, muharebe künyesi, antlaşma
+  // hükmü, kişi kartları. Yani modalı taşımak değil, iki modu da panele yöneltmek doğru.
   div.addEventListener("click", function () {
-    if (akisModu && akisModu.value === "olay") { tarihAyarla(o.gi); obGoster(o); }
-    else detayAc(i);
+    tarihAyarla(o.gi);
+    obGoster(o);
   });
   olayListe.appendChild(div);
   olayDom.push(div);
