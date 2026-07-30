@@ -418,7 +418,60 @@ Epoku 1243'e çekip veri getirilmezse 883 kayıt o aralığı kapsamaz: harita 3
 3. Motor epoku okur (Oturum 16)
 4. **En son** arayüzdeki başlangıç ve `<title>` değişir (ben)
 
-### Çapa: Kösedağ, 26 Haziran 1243
+### Çapa: Kösedağ, 1 Temmuz 1243 — DÜZELTİLDİ
+
+
+⚠️ **Benim ilk verdiğim "26 Haziran 1243" UYDURMAYDI.** Oturum 14 TDV'ye iki kez
+gitti: `kosedag-savasi` maddesinde o ifade **geçmiyor**. TDV iki tarih veriyor —
+İbn Bîbî 11 Muharrem 641 = **1 Temmuz 1243**, İbnü'l-Adîm 13 Muharrem = 3 Temmuz.
+Kaynaksız bir güne gün hassasiyeti verdim; `OGRENILENLER §8`'in tam örneği ve
+kuralı koyan bendim.
+
+**Çapa zaten kusurlu:** tâbiiyet savaşın günü değil ANTLAŞMA ile başladı ve TDV o
+antlaşmaya tarih vermiyor (yıllık 3.600.000 dirhem + 10.000 koyun yazıyor, gün
+yazmıyor). "Selçuklu İlhanlı vassalı oldu" günü TDV'den çıkarılamıyor.
+
+### 🔴 BÖLÜMÜ YANLIŞ KURDUM — ölçüm düzeltti
+
+"22 beylik" bir **XIV. yüzyıl listesi**. Yaşayan beylik sayısı (Oturum 14 ölçtü):
+
+```
+1243 →  2      (Çobanoğulları · Divriği Mengücüklüleri)
+1256 →  3      1261 → 4      1277 → 6
+1281 →  6      1290 → 8      1300 → 12-13
+```
+
+Listemdeki **sekizi 1300'den sonra** kuruldu, pencereye hiç girmiyor: Aydın 1308 ·
+Teke 1321 · Eretna 1335 · Dulkadir 1337 · Tâceddin ~1348 · Hacıemîr ~1350 ·
+Ramazan 1352 · Kadı Burhâneddin 1381.
+
+Yani Oturum 14'e verdiğim pay boşluğun **yalnız %27'si**. 1243-1281'i dolduracak
+olan **Selçuklu + İlhanlı + Trabzon Rum + Kilikya Ermeni + Kıbrıs** — hepsi
+Oturum 13'ün alanı. **Oturum 14 Afrika'ya dönüyor.**
+
+Ayrıca listemde **Mengücüklüler eksikti** (1243'te yaşayan iki beylikten biri) ve
+**Alâiye fazlaydı** (TDV `alanya` maddesi: Karamanoğulları'nın kolu; tablo ise
+ayrı beylik diyor — TDV kendi içinde çelişiyor, tek taraflı silinmedi).
+
+### Kademe önerisi — tek hamlede 1243'e gitme
+
+| Kademe | Tarih | Durum |
+|---|---|---|
+| **A** | 1288-01-01 | Karacahisar, Osmanlı'nın ilk **doğrulanmış** toprağı. Bugünkü 1281 zaten kaynaksız; düzeltme, genişletme değil |
+| **B** | 1277-01-01 | Cimri olayı: Konya, Kütahya, Karaman aynı anda kırılıyor. 6 beylik canlı |
+| **C** | 1256-01-01 | Karamanoğulları. 3 beylik canlı, Anadolu'nun ~%90'ı Selçuklu |
+| **D** | 1243-07-01 | Kösedağ. 2 beylik canlı, ~%95'i Selçuklu/Trabzon Rum/Kilikya |
+
+🔴 **Osmanlı'nın 1281-1288 arası TDV'de doğrulanmış toprağı YOK.** İnegöl ve
+Bilecik'in bugünkü 1281-1299 sahipsizliği bunun sonucu. Epok 1243'e çekilirse bu
+boşluk 7 yıldan **45 yıla** çıkar.
+
+### Beş ölü slug (Oturum 14 doğruladı)
+
+`mentesogullari` → **menteseogullari** (tek harf!) · `eretna` → `eretnaogullari` ·
+`beylikler` → `anadolu-beylikleri` · `cimri` ve `ermenek` → karşılığı YOK.
+Ermenek ölü olduğu için Karamanoğulları'nın "ilk merkezi Ermenek" bilgisi
+**doğrulanamadı ve uydurulmadı**; doğrulanmış tek merkez Lârende/Karaman 1286.
 
 Selçuklu'nun İlhanlı vassalı hâline geldiği ve merkezî otoritenin çöktüğü an —
 beylik boşluğunu yaratan tam olarak bu. Sultanlık ~1308'e kadar kâğıt üstünde
