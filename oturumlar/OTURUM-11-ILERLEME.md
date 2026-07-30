@@ -300,3 +300,226 @@ geçiyor), **Ebîverd**, **Küngrat**, **Çeleken**.
 6. ⬜ Üretim sonrası gözle bak: **1578-1607 penceresinde Hazar'ın doğu kıyısı
    Osmanlı kırmızısı OLMAMALI** — bu oturumun tek amacı buydu. Harita
    üretilmeden bu göz denetimi yapılamaz; veri düzeyinde ölçüm §1'de.
+
+---
+---
+
+# İKİNCİ TUR — merkez oturumun devam görevi
+
+**Yazılan dosyalar:** `data/yerlesimler_ortaasya2.js` (7 nokta) ·
+`oturumlar/OTURUM-11-KIMLIK.md` (kimlik künyesi + komşuluk çizgesi) · bu bölüm.
+**`data/yerlesimler.js`'e DOKUNULMADI** — gerekçe §11.
+**Commit atılmadı. `uret_petek.py` çalıştırılmadı.**
+
+## 9. 🔴 BİRİNCİ TURUN AÇTIĞI İKİ HATA — ikisi de ölçüldü
+
+Devam görevini yaparken kendi işimi ölçtüm ve **birinci partinin iki yeni hata
+açtığını** buldum. İkisi de "sessiz hata" sınıfında (`OGRENILENLER` §1): üç
+değişmez temiz raporluyor, harita yanlış çizecek.
+
+### 9.1 Küngrat, emilme hatasını Hazar'dan Aral'ın kuzeyine taşıdı
+
+Birinci partide Küngrat'ı (43.083/58.833) Aral'ın güney kıyısını kapatmak için
+koydum. Ama Küngrat eklenince Aral'ın **kuzeyi** de ona bağlandı: o bozkırın
+en yakın noktası artık Küngrat ve arada **475 km** var. Yani **Hîve Hanlığı'nın
+rengi bütün Kazak bozkırına taşacaktı.**
+
+Ölçüm — Kazak bozkırı kutusu (48-62°D / 43-52°K, 1705 ızgara hücresi, ölçüt 300 km):
+
+| | En kötü uzaklık | 300 km'yi aşan hücre |
+|---|---|---|
+| mevcut 927 nokta | **721 km** | 729 |
+| bu partinin 5 bozkır noktasıyla | **360 km** | **23** |
+
+Kalan 23 hücre **51.75°K / 61.75°D** civarında — güney Ural / Turgay, yani
+`OTURUM-16-KUZEY-DOGU-AVRUPA` kutusunun (44-62°K) içi. Bana ait değil,
+o oturuma bırakıyorum.
+
+### 9.2 🔴 ARAL GÖLÜ KARA MASKESİNDE YOK — daha büyük ve benden bağımsız
+
+Bu benim açtığım hata değil ama **birinci partim onu görünür hâle getirdi**.
+Natural Earth 10 m **kuruma sonrası** Aral'ı modelliyor. Göl katmanında (117 göl)
+Aral adına yalnız iki artık var:
+
+```
+"South Aral Sea"  58.22-59.31°D / 44.42-46.01°K
+"North Aral Sea"  59.98-61.53°D / 46.09-46.78°K
+```
+
+Oysa 1281-1923 boyunca Aral, kabaca **43.5-46.8°K / 58.2-61.8°D** kutusunu
+dolduran ~68.000 km²'lik bir göldü. Ölçtüm: o kutunun maskede **KARA** olan
+kısmı ≈ **88.000 km²** ve o alanı hangi peteğin yuttuğu şöyle (447 örnek hücre):
+
+```
+Küngrat                  424 hücre   %95
+Üstyurt platosu (doğu)    23 hücre   %5
+```
+
+**Yani üretimden sonra Aral gölünün yerinde Hîve Hanlığı rengi bir gövde
+duracak.** Kullanıcı bunu "Aral gölü neden Hîve olmuş" diye bildirecek.
+
+Bu, projenin zaten tanıdığı bir sınıfın **aynadaki hâli**: modern baraj gölleri
+(Nâsır, Keban, Atatürk, Esed, Mingeçevir) kasten çıkarılmıyor çünkü 1281-1923
+atlasında **anakronik delik** açıyorlardı. Aral tersi — **küçüldüğü** için
+modern maske onu **eksik** gösteriyor.
+
+**Öneri** (`veri-kaynak/` ve `uret_petek.py` benim dosyam değil):
+1960 kıyı çizgisiyle bir "tarihî Aral" poligonu göl çıkarma kümesine eklensin.
+Kaba `box(58.2, 43.5, 61.8, 46.8)` bile bugünkü hâlden iyidir; doğrusu 1960
+kıyı çizgisidir. **Aynı soru Hazar için de sorulmalı** — Hazar 1281-1923
+arasında bugünküne yakındı, orada sorun görünmüyor, ama ölçülmedi.
+
+⚠️ Bu partinin 7 noktasından hiçbiri tarihî Aral kutusunun içinde değil —
+denetlendi. İlk denemede "Aral kuzeyi 46.80/61.00" ve "Aral kuzeybatısı
+45.60/58.50" yazmıştım; **ikisi de tarihî gölün içine düşüyordu**, taşındılar
+(47.20/61.50 ve 45.60/56.50).
+
+## 10. Öncelik 1 — ölçüm, merkez oturumun listesini üç yerde düzeltiyor
+
+Merkez oturum "62°D'nin batısında hâlâ seyreklik var" dedi ve bir hat verdi.
+Ölçtüm; hattın çoğu **zaten kapalıydı**, gerçek boşluk başka yerdeydi.
+
+### 10.1 Üç düzeltme
+
+| Merkezin istediği | Ölçüm | Yaptığım |
+|---|---|---|
+| **Çârcûy** (39.083/63.583) | **62°D'nin DOĞUSU** — pencere dışı. Ayrıca `OTURUM-15-KOPRU-BOLGESI` kutusunun (60-70°D / 23-40°K) içinde | **yazmadım** — Oturum 15'in işi |
+| **Kerki** (37.833/65.200) | aynı — pencere dışı, köprü kutusunda | **yazmadım** |
+| **Nebitdağ** (Balkanabat) | **1933'te** Neftedag adıyla kurulmuş Sovyet petrol kasabası — atlasın 1281-1923 ufkunun dışında | **yazmadım**; o kıyıyı birinci partinin Çeleken ve Krasnovodsk noktaları taşıyor |
+| **"Gürgenç" ve "Köneürgenç"** | **aynı şehir** | birinci partide "Köhne Ürgenç (Gürgenç)" olarak tek kayıt hâlinde zaten var |
+| Hive · Merv · Dehistan · Nisa · Türkmenbaşı | birinci partide **var** | — |
+| Serahs · Meşhed | çekirdekte **var** | — |
+
+### 10.2 Gerçek boşluk nerede — vaha/çöl ölçütü ayrı ayrı
+
+`MIMARI` §5: seyrek (bozkır/çöl) 300 km, normal 120 km. Turkmenistan çöldür ama
+vahalar yerleşik tarım şeridi; ikisini ayrı ölçtüm.
+
+| Alan | Ölçüt | Mevcut en kötü | Sonuç |
+|---|---|---|---|
+| Kopet Dağ eteği (Ahal) | 120 km | 145 km @38.50/56.30 | ✗ → Kızılarvat ile **130 km** |
+| Etrek-Gürgan (Türkmensahra) | 120 km | 145 km @38.50/56.30 | ✗ → **127 km** |
+| Merv-Murgab vahası | 120 km | **110 km** | ✓ |
+| Karakum içi | 300 km | **212 km** | ✓ |
+| Kızılkum batısı (62°D'ye kadar) | 300 km | **264 km** | ✓ |
+| Üstyurt-Aral arası | 300 km | 378 km | ✗ → §9.1 partisi |
+
+Yani **62°D'nin batısında, 46°K'nın güneyinde Orta Asya çöl ölçütünü zaten
+her yerde geçiyordu.** Kalan sapma iki yerde: (a) Ahal'ın batı ucunda 145 km —
+Kızılarvat ile 130'a indi, kalanı Kopet Dağ'ın yerleşim olmayan yamacında;
+(b) Aral'ın kuzeyi — §9.1.
+
+⚠️ **Dürüst sınır:** Ahal ve Etrek şeritlerinde 120 km ölçütü tam sağlanmıyor
+(130 ve 127 km). Daha fazla nokta koymadım çünkü kalan sapma **dağ yamacında ve
+tuz düzlüğünde** — orada tarihî yerleşim yok, nokta koymak çölü şehirlendirmek
+olurdu (Oturum 14'ün Sahra kararıyla aynı mantık). Bu şeritleri "seyrek"
+saymak da savunulabilir; o zaman ikisi de ✓ olur. **Ölçütü ben seçmedim,
+ikisini de bastım.**
+
+## 11. Öncelik 4 — `kur:` alanı
+
+`DURUM.md`'nin ölçümü: 1281'de 851 nokta, 1923'te 892 — zaman çizgisi
+neredeyse düz. Bu partide **üç kayıt** gerçek kuruluş tarihi taşıyor:
+
+| Yerleşim | `kur:` | Dayanak |
+|---|---|---|
+| Aşkabad | **1881-01-30** | TDV TÜRKMENİSTAN: "Aşkabad işgal edildi (30 Ocak)"; Göktepe'nin düşüşünden 6 gün sonra. **Bu partide gün hassasiyetli tek tarih.** |
+| Aktöbe | 1869-01-01 | Rus bozkır karakolu; yıl hassasiyetinde, TDV maddesi yok |
+| Guryev (Atyrau) | 1640-01-01 | Yayık ağzında Guryev ailesinin kalesi; yıl hassasiyetinde, TDV maddesi yok |
+
+Üçünün de kuruluş öncesi dönemi **sahipsiz değil**: aynı coğrafyayı taşıyan
+dolgu noktaları (Emba, Üstyurt kuzeyi, Aral kuzeyi, Nesâ) o pencerede sahibi
+yazıyor. Birinci turda Krasnovodsk + Çeleken çiftinde kurulan desen.
+
+## 12. Neden `data/yerlesimler.js`'e yazmadım — kilit
+
+Merkez oturum "yazabilirsin ama dosya **çok sahipli ve KİLİTLİ**, kilidi ilân
+eden değil BIRAKAN taraf açar" dedi. **Kimse bana devir yapmadı.** Üstelik
+yazarken ölçtüm: başka bir oturumun girdi dosyalarını okuyan **iki ölçüm betiği
+koşuyordu** (PID 18084 / 19100 — pencere genişletme maliyeti ölçümü;
+373 sn CPU). `uret_petek.py` değildi, ama `OGRENILENLER` §4'teki kayıt tam bu:
+*"iki kez de 'dosya temiz görünüyor, kilit yok' diye bakıp yazdım"* — yedi
+üretim böyle gitti.
+
+Ayrı dosya **güvenli**, çünkü `arac/girdi.py` glob değil **izin listesi**
+kullanıyor ve kendi başlığında gerekçesini yazıyor: bu dosya
+`GIRDI_DOSYALARI`'na eklenmedikçe motor onu okumaz. Yani depoda durması
+mükerrer nokta üretmez — merkez oturumun birinci parti için haklı olarak
+endişelendiği durum (`data/` altında kalan **zaten birleştirilmiş** kopya)
+bundan farklıdır.
+
+**Bedeli:** merkeze bir merge adımı + `girdi.py`'ye bir satır.
+**Alternatifin bedeli:** sekizinci boşa giden üretim.
+
+## 13. Merge provası — motorun okuyucusuyla
+
+`OGRENILENLER` §2: *"bir prova, doğrulamak istediği aracın okuyucusuyla
+yapılmalı; toleranslı okuyucuyla yapılan prova katı aracı doğrulamaz."*
+Bu yüzden prova `arac/girdi.py` ile yapıldı (`denetle.py`'nin toleranslı
+çeviricisiyle değil) ve `girdi.VARSAYILAN` normalizasyonundan sonra motorun
+`y["d"]` okuyabildiği tek tek denetlendi — Afrika partisinin `KeyError: 'd'`
+vakası budur.
+
+| Denetim | Sonuç |
+|---|---|
+| `girdi.oku_dosya` dosyayı okudu | ✓ 7 nokta |
+| Ad çakışması (927 kayda karşı) | **0** |
+| Değişmez 1 — sahipsizlik | 34 → **34** (+0) |
+| Değişmez 2 — kırılma / açık | 451 → 451 / **0 → 0** |
+| Değişmez 3 — çelişki | 381 → **381** (+0) |
+| Dönem sağlığı (ters/sıfır/çakışma/boşluk) | **0** |
+| 3 km yakınlık (`girdi.yakin_ciftler`) | bu partiyi ilgilendiren **0** |
+| Kutu içi · karada · göl dışı | **7/7** |
+| Tarihî Aral kutusunun dışında | **7/7** |
+
+**Prova TEMİZ.** Değişmez 2'nin hiç etkilenmemesi beklenendir: 7 kaydın
+hiçbirinde `d:` veya `v:` yok, hepsi `s:` — kronoloji maddesi gerekmiyor.
+
+⚠️ İki not:
+- Canlı girdi provayı yaparken **917 değil 927**'ydi; başka bir oturum arada
+  10 nokta eklemiş. Sayılar o ana aittir.
+- Mevcut kümede 3 km'den yakın **iki çift** var ve **ikisi de doğru**:
+  `Anadolu Hisarı ↔ Rumeli Hisarı` 1.54 km (Boğaz'ın iki yakası) ve
+  `Budin ↔ Peşte` 1.57 km (Tuna'nın iki yakası). Kimse bunları "mükerrer"
+  diye birleştirmesin.
+
+## 14. Öncelik 3 — köprü şeridi: ayrı kalsın
+
+`oturumlar/OTURUM-13-ASYA görevi` oturumuna yazdım, cevabını bekliyorum.
+**Önerim: şerit benim dosyama GİRMESİN.** Gerekçeler:
+
+1. Zaten kendi brief'i ve kendi dosyası var: `oturumlar/OTURUM-15-KOPRU-BOLGESI.md`
+   → `data/yerlesimler_kopru.js`, 60-70°D / 23-40°K, hedef 55-80 nokta.
+   Oturum 13 boşluğu kendi ilerleme notunda oraya devretmiş.
+2. Coğrafya örtüşmüyor: benim bölgem 35-47°K, köprü brief'i 23-40°K.
+3. Tek dosya = tek sahip (`CLAUDE.md` §7). Üçüncü bir dosyaya bölmek
+   Herat / Serahs / Meşhed'i mükerrer yazma riski doğuruyor.
+
+**Ölçtüğüm iki şey köprü kararını doğruluyor:**
+- `yerlesimler_asya.js`'in 344 noktasından **66°D'nin batısında yalnız 1 tane**
+  var: Kandehar (65.710/31.610). 62-65.7°D arası gerçekten tamamen boş.
+- Merkezin bana verdiği Çârcûy ve Kerki **o kutunun içinde** — köprünün işi.
+
+Dikiş listesini (benim 23 noktamın koordinatları, yeniden yazılmaması için)
+Oturum 13'e gönderdim.
+
+## 15. Bu turun kontrol listesi — merkeze
+
+1. ⬜ `data/yerlesimler_ortaasya2.js` (7 nokta) `yerlesimler.js`'e birleştirilsin
+   **ya da** `girdi.py`'nin `GIRDI_DOSYALARI` listesine eklensin. Kilidi sen
+   tutuyorsun; hangisini seçeceğini sen bil.
+2. ⬜ Birleştirilirse `denetle.py`: `BEKLENEN_YERLESIM` +7.
+   `BEKLENEN_SAHIPSIZ` **değişmiyor** (bu partide kasten sahipsiz nokta yok),
+   `BEKLENEN_KIRILMA` ve `BEKLENEN_CELISKI_UST_SINIR` de **değişmiyor**.
+3. ⬜ `arac/renkler.py` (Oturum 16): `nogay` ve `kazak` eklensin —
+   künye ve komşuluk çizgesi `oturumlar/OTURUM-11-KIMLIK.md`'de.
+   Yazım tercihi `kazak` mı `kazak-hanligi` mı: karar sizin, bu dosyada
+   değişecek satır sayısı 3.
+4. 🔴 ⬜ **Tarihî Aral poligonu** göl çıkarma kümesine eklensin (§9.2).
+   Bu, 7 noktalık partiden **daha önemli** — ~88.000 km²'lik bir gövde
+   yanlış devlete boyanıyor.
+5. ⬜ `arac/renkler.py`: `turkmen` rengi `iran`'dan uzaklaştırılsın ve
+   `timurlu` ile aynı hex'ten çıkarılsın (birinci turdan devreden borç).
+6. ⬜ Üretim sonrası `OGRENILENLER` §10 gereği **ölç**: 1578-1607'de Hazar'ın
+   doğu kıyısında ve 1512-1868'de Kazak bozkırında boyanan alan gerçekten
+   değişti mi? Δ alan sıfırsa düzeltme kullanıcıya görünmüyor demektir.
