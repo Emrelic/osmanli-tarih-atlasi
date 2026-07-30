@@ -371,3 +371,67 @@ gösteriyor mu" kadar "B, A'da kayıtlı mı" da denetlenir.
 yetimdir. Üstüne bir `BEKLEYEN` sözlüğü kondu: aktif olmayan parti oraya
 **gerekçesiyle** yazılır, yoksa liste çöplüğe döner ve kimse bakmaz
 (`§3`'ün "yanlış alarm kaçırılan hatadan pahalıdır" dersi).
+
+---
+
+## 16. "Veri var" ile "bugün çiziliyor" ayrı sorulardır
+
+Oturum 3 ölçtü: **53 kimliğin yerleşim noktası var ama rengi yok.** Ben bunu
+Oturum 16'ya "ucuz kazanç, 53 giriş eklenince haritada gerçekten görünür fark
+oluyor" diye aktardım. Oturum 16 bağımsız ölçtü ve sayı 157 çıktı — ama asıl
+mesele sayıda değil, **kırılımda**:
+
+```
+★ bugün YÜKLÜ girdide            5
+○ pencere içi, dosyası kapalı   17
+· harita penceresinin DIŞINDA  135
+```
+
+135'i `box(-12, 1.5, 62, 62)`'nin doğusunda kalıyor: qing-hanedani 117 nokta,
+babur 109, ingiliz-hindistani 96, delhi-sultanligi 83, ming 73, yuan 73 — hepsi
+`yerlesimler_asya.js`, tamamı 62°D'nin doğusu. Renk verilse **hiçbir şey
+değişmez, çizilecek yer yok.** 17'sinin önündeki engel de renk değil, dosyanın
+`girdi.py`'de kapalı olması — yani bir merge kararı.
+
+Bugün gerçekten fark yaratan sayı **5**. Ben 53 dedim, on kat şişirdim.
+
+Hata benim aktarımımdaydı: Oturum 3 "bir `yerlesimler*.js` dosyasında noktası
+var mı" sorusunu ölçmüştü, ben bunu "bugün haritada çiziliyor mu" sanıp öyle
+ilettim. İkisi arasında üç ayrı süzgeç var — dosya girdi listesinde mi, nokta
+harita penceresinde mi, kimlik o tarihte sahnede mi.
+
+**Kural:** bir envanter sayısını göreve çevirirken "bu sayı hangi soruyu
+cevaplıyor" diye sor. `§11`'in ölçme kuralının devamı bu: ölçülmüş bir sayıyı
+yanlış soruya iliştirmek, hiç ölçmemekle aynı sonucu verir. Envanter çıkaran
+oturum sayıyı **süzgeçlere ayırarak** versin; tek toplam yanıltıyor.
+
+---
+
+## 17. Vekil ölçüt (proxy) sonucu değiştirir — komşuluk mesafeyle ölçülmez
+
+Renk sayısını düşürmek için "hangi devletler komşu" sorusunu cevaplamak
+gerekiyor. İki yol var ve **aynı veriyle iki farklı cevap veriyorlar**:
+
+| Ölçüt | 261 kimlik için gereken renk |
+|---|---|
+| Gerçek Voronoi komşuluğu (hücreler değiyor mu) | **8** |
+| 400 km'lik "yakınlık" vekili | **14** |
+
+Vekil, değmeyen hücreleri komşu sayıp çizgeyi sahte kenarlarla dolduruyor;
+sonuç neredeyse iki katı renk talebi — yani var olmayan bir darboğaz.
+
+Bu ölçüm olmasaydı "renk tavanı zorlanıyor, kademeli gitmeliyiz" diye karar
+verilecekti. Ölçüldü: **261 kimliğin hepsi eklense 8 renk yetiyor** (maksimum
+derece 72). Yeni kimlikler çizgeyi yoğunlaştırmıyor, **genişletiyor** — ayrı
+coğrafyalarda kümeleniyorlar, birbirlerine değmiyorlar.
+
+**Kural:** bir vekil ölçüt kullanacaksan önce gerçek ölçütle karşılaştır.
+Karşılaştırmadıysan vekilin cevabını raporlama. Not `renkler.py` başlığına
+yazıldı ki bir sonraki koşuda kimse mesafeye dönmesin.
+
+**Aynı turdan ikinci vaka — ölçüm doğru ama SORU yanlış:** Oturum 16, Boğdan
+sınırının nehre yaslanma payını ölçtü ve düşük buldu. Sonra kendi kusurunu
+yakaladı: **hücre** sınırını ölçmüştü, kullanıcının haritada gördüğü ise
+**gövde** sınırı. Boğdan gövdesi 8-10 hücrenin birleşimi ve iç kenarları hiç
+görünmüyor. Sayı doğruydu, sorduğu şey yanlıştı. `§15`'in aynadaki-yön dersinin
+geometrik hâli: "neyi ölçtüm" ile "kullanıcı neye bakıyor" aynı şey mi?

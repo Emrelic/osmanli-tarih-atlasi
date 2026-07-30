@@ -78,7 +78,38 @@ sürüyor, ortasında yazan üretimi çöpe atar (2 kez oldu).
 
 > **Kilidi ilân eden değil, BIRAKAN taraf açar.**
 
-Kilit **Oturum 16**'da. Üretim başlarken/bitince oturumlara haber verir.
+Kilit **Oturum 16**'da. Ama Oturum 16'nın ölçtüğü gibi bu artık yetmiyor:
+
+> **"Kilitledim" demek yetmiyor — yedi üretim böyle gitti.** Kilit iki taraflı
+> değil; `yerlesimler.js`'in **on iki potansiyel yazarı** var. Koşu öncesi her
+> oturumun ayrı ayrı **"girdi sabit"** demesi gerekiyor.
+
+**Üretim penceresi protokolü:**
+1. Oturum 16 "üretim açıyorum" der.
+2. `yerlesimler*.js`'e yazma ihtimali olan **her oturum** "girdi sabit" diye
+   cevaplar. Cevap vermeyen oturum varsa üretim başlamaz.
+3. Üretim koşar (30+ dk). Bu sürede hiçbir yazma yok.
+4. Oturum 16 "motor serbest" der. Kilidi bırakan taraf açar.
+
+⚠️ Motorda **uçtan uca koşturulmamış üç değişiklik birikti**: `kur:`/`bit:`
+epokları (b781c2c), yedinci denetim tabanı, 5 yeni renk. Yeni dönemin ilk işi
+bu üçünü tek koşuda doğrulamak.
+
+---
+
+## 1b. Sonraki dalga kuyruğu (Oturum 16'nın ölçümlerinden)
+
+Bu üç iş **ölçüldü ve sahibi belli**, ama sahibi bu dalgada açılmadı:
+
+| İş | Kime | Ölçülmüş gerekçe |
+|---|---|---|
+| md.40 — Batı çölü + Nûbe çölü'ne 19. yy dönemi | **14** | Boşluk motor kusuru DEĞİL: içinde 2 nokta var, ikisi kasten sahipsiz. Asimetri şurada: 1885'te batıdaki Cağbûb Osmanlı, doğusundaki Mısır batı çölü boş. Mehmed Ali 1820'de Siva'yı ilhak etti, vahalar Kahire'den idare edildi → 1820 sonrası `v:` gerekebilir. TDV: `vahat` · `siva` · `misir` |
+| md.29 — nehir kenarına nokta: Soroka, Orhei, Reni | **11** | Boğdan cetvelle çizilmiş DEĞİL (köşe/1000 km = 101,7; sağlıklı 115-118). Sorun yaslanmada: Roman %0, Kili %0, Suçava %5. Sebep ölçüldü: yaslama yarıçapı 33 km, Prut-Dniester arası yer yer 150 km — orta dikme hiçbir nehre yaklaşamıyor |
+| md.17 — Libya içine nokta | **14** | Çöl sınırı cetvel DEĞİL, nokta yokluğu: 8 nokta / 1.540.913 km² = 192.614 km²/nokta; Batı Anadolu 1.868 (103 kat). 🔴 ŞART: eklenecek noktaların **çoğu kasten sahipsiz kalmalı** — Osmanlı'nın Trablusgarp hâkimiyeti kıyı + vahaydı, çöle sahiplik atamak yanlış olur |
+
+**Şarkî Rumeli renk kısıtı** doğru ama bugün uygulanamaz: `sarki-rumeli` kimliği
+hiçbir `yerlesimler*.js`'te geçmiyor (0 nokta-dönem). Kimlik veriye girdiği gün
+ayrı hex gerekecek; not `renkler.py`'ye düşüldü.
 
 ---
 
