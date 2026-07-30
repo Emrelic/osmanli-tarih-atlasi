@@ -523,3 +523,77 @@ dosyam değil, düzeltmedim — yerleşim ekleme yetkisi olan oturuma
 - 50/50 SEFERLER kaydına tur/sonuc eklendi.
 - hatalar 12 md.3 (Katalan): ölçüldü — ne tarih hatası ne pencere hatası, EK5'te yukarıda kesin açıklandı; md.2 (Viyana/Budin) ile birebir aynı kök.
 - hatalar 13 md.8 (Timur): 3 ok var, kronolojide karşılığı olmayan YOK (ikisi tam gün eşleşiyor); tek gerçek boşluk Bursa'nın yağmalanmasına dair BAĞIMSIZ bir madde yokluğu — bu kronoloji boşluğu, ok eksikliği değil.
+
+---
+
+## EK 6 — hatalar 16: Akkâ (md.7), Eflak isyanı (md.10) + KESİN CEVAP (2026-07-30)
+
+### 🔴🔴🔴 SORU 2/3'ÜN KESİN CEVABI — BEŞİNCİ VE SON KEZ AÇIKÇA YAZIYORUM
+
+**SORUN NE TARİH NE PENCERE. Genel bir ayar düzeltmesi GEREKMİYOR — senin
+tarafında yapılacak bir "pencere ayarı" işi YOK.**
+
+Ölçtüğüm kesin gerçekler:
+1. `js/app.js`'te İKİ AYRI, birbirinden bağımsız pencere mekanizması var:
+   - SAVASLAR (⚔ nokta işaretleri): `sonrakiOlayaKadar()`, taban 60 /
+     tavan 365 gün, "bir sonraki kronoloji maddesine kadar" — SENİN
+     şüphelendiğin mekanizma BU, ama bu SEFERLER'i etkilemiyor.
+   - SEFERLER (ok/rota işaretleri): `fi:gunIdx(s.f)`, `ti:gunIdx(s.t)+45`
+     (js/app.js satır 959) — YALNIZCA kaydın kendi f/t alanına bağlı,
+     "sonraki madde" kavramı YOK, hiçbir SEFERLER kaydı bu yüzden geriye
+     ya da ileriye taşmıyor.
+2. Hem Katalan (1303-1305) hem Viyana (1529) kayıtlarının f/t'si TAMAMEN
+   DOĞRU — ikisi de gerçek, çok aylı kampanyalar ve rotaları gerçekten o
+   ara-şehirlerden (Sakarya vadisi / Budin) geçiyor. Ara madde (Sakarya
+   seferi 1304, Budin 1529-09-08) o kampanyanın kronolojik olarak GERÇEKTEN
+   İÇİNDE — tesadüf değil, tarih.
+3. Yani: **veri doğru, mekanizma doğru, "hata" yok.** Kullanıcının
+   gördüğü şey gerçek bir tarihsel çakışma (uzun süren bir sefer, arada
+   başka bir olayla aynı zaman dilimini paylaşıyor). Tek iyileştirme alanı
+   varsa o da ok ucundaki `ad` etiketinin daha belirgin olması — ki o
+   zaten var (satır 952-966) — yani bu bir js/app.js okunabilirlik
+   konusu, SENİN pencere ayarın DEĞİL, benim veri hatam da DEĞİL.
+
+**Sonuç: 2 ve 3 aynı kökten, ama o kök "genel ayar hatası" değil —
+"uzun kampanya oku + kısa kronoloji maddesi aynı tarihi paylaşıyor,
+bu doğru ve beklenen." Başka ok için de aynı soru gelirse aynı cevap
+geçerli, tek tek ölçmeye gerek yok.**
+
+### md.7 — Akkâ Savunması (1799) — EKLENDİ
+
+Kronoloji zaten vardı: `olaylar_ek5.js`, `t:"1799-05-20"`, "Akkâ
+Savunması — Napolyon'un püskürtülmesi", `gun:"18 Mart – 20 Mayıs 1799"`.
+`SAVASLAR`'a eklendi (commit `2fedf8e`): `t:"1799-05-20"` (kronolojiyle
+birebir), `tur:"kusatma"`, `sonuc:"zafer"`, `lat:32.93, lon:35.08`
+(dosyada zaten iki kez kullanılan Akkâ koordinatı — 1832 ve 1840 kuşatma
+kayıtlarıyla aynı). `taraf` yalnız `["osmanli"]` — Fransa id'si
+(`devletler.js`) 1792'de kapanıyor (EK1'de belgelenmiş boşluk), bu yüzden
+eklenemedi; `taraf_metin:"Fransa (Napolyon)"` serbest metinle belirtildi.
+Mısır işgaline dair başka bir şey eklemedim, Oturum 14'ün alanı.
+
+### md.10 — Eflak İsyanı — VARDI, ADI YANLIŞTI, DÜZELTİLDİ
+
+Kayıt zaten hatalar 12'de eklenmişti (SEFERLER, `f:t:"1821-02-22"`,
+kronolojiyle birebir aynı gün) ama adı **"İpsilanti'nin Eflak-Boğdan
+harekâtı"** idi — "Eflak İsyanı" kelimesi başta değildi. Kronolojideki
+maddenin kendi başlığı "**Eflak İsyanı** — Ypsilanti'nin Prut'u geçmesi
+ve Vladimirescu ayaklanması" — ben adı ondan farklı kurmuştum. Şimdi
+"**Eflak İsyanı** — İpsilanti'nin Boğdan'a geçişi (1821)" oldu (commit
+`2fedf8e`), tarih/koordinat/tur/sonuc DEĞİŞMEDİ.
+
+Vladimirescu'nun ayrı, 1821-01-23 tarihli bir başlangıcı olduğunu
+söylüyorsun ama **kronolojide bu tarih yok** — tek madde (1821-02-22)
+ikisini birlikte anlatıyor. Ayrı bir tarih yazmadım (🔴 sınırı).
+
+⚠️ **Muhtemel asıl sebep — bulgu**: `js/app.js`'te İKİ FARKLI isyan
+glifi var: `SAVAS_TUR_SIMGE.isyan = "🔥"` (SAVASLAR, iç isyanlar —
+Pazvandoğlu, Bâb-ı Âli Baskını) ve `HAREKET.isyan.glif = "✹"` (SEFERLER,
+dış/millî isyanlar — bu senin bana Eflak/Sırp/Girit/Arnavutluk için
+verdiğin şema). Kullanıcı "ateş emojisi" arıyor — bu SAVASLAR'ın glifi,
+SEFERLER'in değil. Ben senin talimatınla (`tur:"isyan"` ✹) SEFERLER'e
+yazdım, bu doğru uyguladım ama kullanıcının beklediği görsel muhtemelen
+bu değil. İkisini birleştirmek/tek glif yapmak bir js/app.js tasarım
+kararı — bana söylersen (SAVASLAR'a taşı, 🔥 kullan) taşırım ama bu
+şemanı değiştirir, tek başıma karar vermedim.
+
+Doğrulama: `SEFERLER: 61 | SAVASLAR: 170 | tur/sonuc eksik: 0`.
