@@ -559,3 +559,57 @@ Emin olunmayan yerde aralık verilecek, uydurulmayacak (`OGRENILENLER §8`).
 **Toprak sıfır toplamlıdır** — beylikler doğarken Anadolu boş değildi. Bir
 beyliğin başlangıcını erkene çekmek, aynı toprağı o tarihte Selçuklu'dan ALMAK
 demektir. Oturum 13 ile 14 çakışan her toprakta mutabık kalacak.
+
+---
+
+## 9. SONRAKİ OTURUMA DEVREDEN — ölçülmüş, sahibi belli
+
+### 🔴 EN ÖNEMLİSİ: Değişmez 2 `s:` dönemlerini HİÇ denetlemiyor
+
+Oturum 13'ün bulgusu. `CLAUDE.md §3`'ün komutu `(y.d||[]).concat(y.v||[])`
+döngüsü kuruyor — **`y.s` yok.** Yani iki yabancı devlet arasındaki toprak
+değişimleri bugüne kadar denetim dışında kaldı.
+
+```
+543 `s:` kırılması · 112'sinin ±30 gün içinde maddesi YOK
+```
+
+En kötü örnek: `1503-01-01`'de **37 kayıt** Akkoyunlu'dan Safevî'ye geçiyor ve
+ölçütü teknik olarak geçiyor, çünkü 18 gün ötede bir madde var — *"Osmanlı-Venedik
+Savaşı'nın sona ermesi."* Kullanıcının aylardır şikâyet ettiği hatanın tam tanımı.
+
+**Yapılacak:** `denetle.py`'nin döngüsüne `y.s` eklenmeli, eşik ±30'da kalmalı.
+Oturum 2'nin dosyası. ⚠️ İlk koşuda 112 çıkacak — `§3` gereği bilinen borç + tavan
+deseni, ihlal değil.
+
+### Diğerleri
+
+| İş | Kime | Not |
+|---|---|---|
+| `devletler.js`: `akkoyunlu` `t:"1501-01-01"` → **`1514-01-01`** | 3 | TDV: Elvend 1505'te öldü, hânedan 1514'te bitti. Oturum 2'nin bulduğu `76/100` taşmasının **64'ü bu tek satır** |
+| Diyarbakır · Mardin · Bitlis · Erzurum → `safevi` | ben | gerçek kayıt hatası, dördü de md.5 ile kesişiyor |
+| `olaylar_ek5.js:98` (1501-01-01) mükerrer, kaldırılsın | 7 | `olaylar_ek7.js:207` ile aynı olay, arada 181 gün; kullanıcının tıkladığı madde **189 günlük ölü bölgenin** ortasında |
+| Ergani'ye nokta | 13 | tek eksik nokta; en yakın petek Palu 50 km (`safevi`) → 7,5 ay yanlış boyanıyor. ⚠️ TDV slug `ergani` ÖLÜ, kaynak `diyarbakir`'dan |
+| Eflak'a asgarî 8 nokta | 4 | Eflak'ta **tek nokta var: Bükreş**; gerisi Vidin-Niğbolu-Rusçuk'a emiliyor |
+| 18 + 13 `macaristan` kaydı → `macaristan-habsburg` | 3 · 9 | hayalet devlet; Kanije **74,1 yıl** taşıyor |
+| Dokuz Libya noktası · Napolyon `isg:` örtüsü | 14 | listeleri hazır |
+| Kara-kısıtlı Voronoi | 16 | 32 parça / 321.150 km², liste onaylandı |
+
+### ⚠️ Kırım'da iki oturum farklı sayı ölçtü — önce bu çözülsün
+
+```
+             Oturum 16    Oturum 13
+Boğdan         84,9-93,1     80,6      (~%5, kabul)
+Kırım iç         32,5        62,8      ← İKİ KAT
+yarımadadaki nokta  4          3
+```
+Aynı yarımada için iki sayı dolaşmasın: kutu sınırları ve ölçüm günü
+netleşmeden Kırım'a girilmemeli. `§22` reçetesi doğru ama **kalibrasyonu
+yazılı değil** — kutu, gün ve hangi gövde çiftinin alındığı da reçeteye girmeli.
+
+### Yerleşim araması PARÇA EŞLEŞMEYLE yapılır
+
+Oturum 13'ün kendi yanlış negatifi: tam adla arama Adıyaman ve Besni için "kayıt
+yok" dedi; veride **"Hısn-ı Mansûr (Adıyaman)"** ve **"Behisni (Besni)"** olarak
+duruyorlar. Tam eşleşmeyle bırakılsaydı iki uydurma "nokta eksik" bulgusu
+raporlanacaktı. `§19`'un arama tarafındaki hâli.
