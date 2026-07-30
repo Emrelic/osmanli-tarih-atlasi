@@ -561,3 +561,47 @@ yazdı), Türkçe karakterleri ASCII'ye düşürüp altı arama anahtarını boz
 komut *başarılı döndü* — yalnız içerik yanlış. Hata vermediği için ancak sonuca
 bakınca görülüyor. `§19`'un ("hariç tuttuğunun gerçekten hariç kaldığını ölç")
 kabuk hâli: **kabuktan geçen metni, geçtikten sonra oku.**
+
+---
+
+## 22. "Cetvelle çizilmiş" şikâyetinin ölçüm reçetesi
+
+Kullanıcı üç kez aynı şeyi söyledi — Libya (md.17), Boğdan (md.29), Kırım (md.13):
+*"cetvelle çizilmiş gibi görünüyor."* Üçünde de doğru ölçüt aynı çıktı ama **doğru
+ölçüte varmak üç denemede oldu.**
+
+**Ölçü birimi: köşe / 1000 km.** Ölçek (Oturum 16'nın ölçümleri):
+
+```
+sağlıklı bölge   115 – 118
+Boğdan            101,7      → cetvel DEĞİL, sorun nehre yaslanmada
+Kırım iç sınırı    32,5      → cetvel, gerçek
+Libya çölü         18,1      → cetvel, gerçek (nokta yokluğu)
+```
+
+### 🔴 NEYİ ÖLÇTÜĞÜN, ÖLÇTÜĞÜN SAYIDAN ÖNEMLİ
+
+Aynı yöntem hatası üç ayrı biçimde çıktı:
+
+| Yanlış ölçülen | Neden yanıltır |
+|---|---|
+| **Hücre** sınırı (Boğdan'da) | Gövde 8-10 hücrenin birleşimi; iç kenarlar haritada **hiç görünmez** |
+| **Toplam** çevre (Kırım'da) | Yarımada; sınırın çoğu kıyı, kıyı maskeden çok yoğun gelir → 231-250, "sağlıklı" görünür |
+| **Ham petek** (işgal örtüsünde) | `kur:` epok düzeltmesi atlanır, tarama taban renginden farklı yere düşer |
+
+**Doğru ölçüt: iki GÖVDENİN ORTAK KENARI** — ne toplam çevre, ne hücre sınırı,
+ne kıyı. Kullanıcının gördüğü çizgi tam olarak odur.
+
+Kırım'da toplamla ölçülseydi "sorun yok" denecekti; ortak kenarla ölçülünce 5 kenar
+/ 153,6 km / ortalama 30,7 km çıktı — beş düz parça.
+
+### Tek soru, üç şikâyet
+
+md.5 (Karaman'ın kısmî ilhakı), md.12 (Germiyan'ın "iz şeklinde" görünmesi) ve
+md.13 (Kırım) **aynı sorunun üç yüzü**: *bir gövde başka bir gövdeyle sınırdaş
+olduğunda o sınırı kaç nokta çiziyor?* Reçete ortak olduğu için üçü tek ölçüm
+diline bağlanabilir.
+
+**Ve çare hep veri:** üçünde de motorda yapacak bir şey yok. Sınır seyrek, çünkü
+nokta seyrek. ⚠️ Ama nokta eklemek **toprağı büyütmek değil, sınırı yumuşatmak**
+içindir — Mısır'da dört vaha noktası çölün %61'ini yuttu (`§14 md.40 borcu`).
