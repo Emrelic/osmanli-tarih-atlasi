@@ -776,6 +776,48 @@ def serbest_kenar(g, govde, pe):
         return None
 
 
+def hat_belirsizlik(cs):
+    """Hattın BELİRSİZLİĞİ, km. Serbest kenar iki tohumun ORTA DİKMESİDİR —
+    sahipli yerleşim ile sahipsiz dolgu noktası. Dolgu noktasını d kadar
+    oynatırsak sınır d/2 kayar; yani belirsizlik = iki tohum arası / 2.
+    ⚠️ Neden tek çıpa değil: ölçüldü (r138), dağılım GENİŞ. Bölge medyanları
+    Anadolu 23,4 km · Rumeli 30,5 · Kafkasya 62,0 · Libya 150,7 · Sahra 181,9 ·
+    Arabistan 217,3 — en dar ile en geniş arasında 9,3 KAT. Tek kalınlık
+    seçilseydi Anadolu'da hale 7 kat geniş, Arabistan'da 4 kat dar olurdu ve
+    ölçtüğümüz farkı gizlerdi. Anadolu'daki serbest kenar neredeyse gerçek bir
+    sınır; Arabistan'daki neredeyse hiçbir şey söylemiyor.
+    Hat boyunca değişiyorsa MEDYAN alınır (ortalama değil — Q3/Q1 3,2-4,6)."""
+    v = []
+    for i in range(len(cs) - 1):
+        p = Point((cs[i][0] + cs[i+1][0]) / 2, (cs[i][1] + cs[i+1][1]) / 2)
+        yak = sorted((noktalar[int(k)].distance(p), int(k))
+                     for k in _SEED_AGACI.query(p.buffer(6.0)))[:2]
+        if len(yak) < 2:
+            continue
+        a, b = noktalar[yak[0][1]], noktalar[yak[1][1]]
+        v.append(girdi.km(a.y, a.x, b.y, b.x) / 2.0)
+    if not v:
+        return None
+    v.sort()
+    return round(v[len(v) // 2], 1)
+
+
+def hat_havuza(hatlar):
+    """Hat havuzu + PARALEL belirsizlik dizisi. Aynı hat birden çok dönemde
+    kullanılıyorsa tekilleşir ve belirsizliği bir kez hesaplanır."""
+    out = []
+    for cs in hatlar:
+        k = json.dumps(cs, separators=(",", ":"))
+        j = SRB_IX.get(k)
+        if j is None:
+            j = len(SRB_HAVUZ)
+            SRB_HAVUZ.append(cs)
+            SRB_U.append(hat_belirsizlik(cs))
+            SRB_IX[k] = j
+        out.append(j)
+    return out
+
+
 def hat_koord(g):
     """Hat geometrisini havuza yazılabilir koordinat listesine çevirir."""
     if g is None or g.is_empty:
@@ -968,6 +1010,7 @@ print("Dönemler kuruluyor (delta yapısı)...")
 donemler = []
 OSM_HAVUZ, OSM_IX = [], {}   # o + v parçaları tek havuzda
 SRB_HAVUZ, SRB_IX = [], {}   # serbest kenar hatları (sahipli ↔ sahipsiz sınırı)
+SRB_U = []                   # havuza PARALEL: her hattın belirsizliği (km)
 onceki_aktif = None      # işaret/marker için: doğrudan + tâbi hepsi
 onceki_anahtar = None    # geometri için: (doğrudan, tâbi) ikilisi
 for i in range(len(tarihler) - 1):
@@ -1025,7 +1068,7 @@ for i in range(len(tarihler) - 1):
         kayit["v"]  = havuza(mp_koord(gt), OSM_HAVUZ, OSM_IX)
     # Serbest kenar: gövdenin sahipsiz alana bakan yüzü. Boşsa alan hiç yazılmaz
     # (çoğu dönemde çölle sınırdaş olunmuyor — kuruluş devri gibi).
-    _sb = havuza(hat_koord(serbest_kenar(a, kaplam, _pe)), SRB_HAVUZ, SRB_IX)
+    _sb = hat_havuza(hat_koord(serbest_kenar(a, kaplam, _pe)))
     if _sb:
         kayit["sb"] = _sb
     donemler.append(kayit)
@@ -1045,6 +1088,13 @@ js += "// iki devlet arasındaki sınır değil, devlet ile boş alan arasındak
 js += "// artefakttır (bkz. uret_petek.py, SERBEST KENAR bloğu). DONEMLER[].sb\n"
 js += "// bu havuza indekstir; js/app.js line-blur ile dışa doğru söndürür.\n"
 js += "window.SERBEST = " + json.dumps(SRB_HAVUZ, separators=(",",":")) + ";\n"
+# ⚠️ SERBEST_U — havuza PARALEL belirsizlik (km). Kalınlık BURADAN gelir, sabit
+# çıpadan değil: dağılım geniş (Anadolu 23,4 km ↔ Arabistan 217,3 km, 9,3 kat).
+# Bu satır bir koşuda EKSİK KALDI ve çıktı sessizce belirsizliksiz üretildi —
+# SRB_U hesaplanıyordu, log'a dağılımı bile basıyordu, yalnız dosyaya yazılmıyordu.
+# Katman `coalesce(get(u), 60)` ile 60 km'ye düşüp çalışmaya devam ettiği için
+# hata GÖRÜNMEDİ. İki satır yan yana durmalı ki bir daha ayrılmasınlar.
+js += "window.SERBEST_U = " + json.dumps(SRB_U, separators=(",",":")) + ";\n"
 js += "window.PETEKLER = " + json.dumps(petekler, separators=(",",":")) + ";\n"
 js += "window.PARCALAR = " + json.dumps(OSM_HAVUZ, separators=(",",":")) + ";\n"
 js += "window.DONEMLER = " + json.dumps(donemler, separators=(",",":")) + ";\n"
@@ -1055,9 +1105,14 @@ print(f"Dönem sayısı: {len(donemler)}")
 print(f"Parça havuzu: donemler {len(OSM_HAVUZ)}, devletler {len(DEV_HAVUZ)} eşsiz parça")
 _sbd = sum(1 for d in donemler if d.get("sb"))
 _sbk = sum(len(h) for h in SRB_HAVUZ)
+import statistics as _stt
+_uv = sorted(u for u in SRB_U if u)
 print(f"Serbest kenar: {len(SRB_HAVUZ)} eşsiz hat ({_sbk:,} köşe), "
       f"{_sbd}/{len(donemler)} dönemde sahipsiz alanla sınırdaş, "
       f"{len(_SERBEST_ONBELLEK)} ayrı boş-bölge kümesi")
+if _uv:
+    print(f"  belirsizlik km — medyan {_stt.median(_uv):.1f} · "
+          f"Q1 {_uv[len(_uv)//4]:.1f} · Q3 {_uv[3*len(_uv)//4]:.1f} · maks {_uv[-1]:.1f}")
 print(f"Dosya boyutu: {os.path.getsize(CIKTI)//1024} KB")
 
 # ---------------- Doğrulama ----------------
