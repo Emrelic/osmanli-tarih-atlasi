@@ -40,7 +40,11 @@ DATA = os.path.join(KOK, "data")
 # 764 -> 917: data/yerlesimler_afrika.js (Oturum 14, 153 nokta) girdi.py'deki
 # izin listesine eklendi. Merge provası iki kez koşturuldu: ad çakışması yok,
 # 3 km'den yakın çift yok, Afrika'dan sıfır çelişki katkısı.
-BEKLENEN_YERLESIM = 917
+# 917 -> 927: başka oturumların partileri. ⚠️ 2026-07-30 gecesi merkez oturum
+# 12 oturuma görev dağıttı ve yerlesimler.js'in on iki potansiyel yazarı oldu;
+# bu iki sabit o gece saat başı değişti. Sapma uyarısı bilgi amaçlıdır, ihlal
+# değildir — ama üretim koşturacak oturum ÖNCE girdinin donduğunu teyit etmeli.
+BEKLENEN_YERLESIM = 927
 # 29 -> 32: Oturum 4'ün Necid noktaları (Buraydâ, Uneyze, Şakrâ) 1744
 # öncesinde kasten sahipsiz — orada devlet yoktu, Riyad ve Dir'iye ile
 # aynı desen (MIMARI.md §6: 'devletsiz' ile 'veri yok' ayrımı).
@@ -58,7 +62,7 @@ BEKLENEN_SAHIPSIZ = 34
 # 437 -> 441: merkez oturumun hatalar 8-9 partisi (Rus Hazar işgali, üç işgal
 # dönemi). ⚠️ Bu dört kırılma üretimin ORTASINDA girdi ve o yüzden r82 geometrisi
 # çöpe gitti — CLAUDE.md §7 kilit kuralının yedinci ihlali.
-BEKLENEN_KIRILMA = 441
+BEKLENEN_KIRILMA = 451
 BEKLENEN_ACIK = 0
 # MIMARI.md §3.4 — bilinen borç, tavan bu. 311'den 318'e çıkarıldı: beylik
 # düzeltmesiyle 19 yerleşim eklendi (567 -> 586) ve 11'i bu borcu tetikliyor.
@@ -142,6 +146,13 @@ def degismez1(Y):
             kur = t.get("kur")
             if kur and kur > g:
                 continue
+            # ⚠️ bit: — yerleşim ortadan kalktıysa sahipsizlik SORULMAZ. Motor
+            # bu alanı 2026-07-30'da okumaya başladı (petek_epok); araç da
+            # okumazsa yok olmuş nokta "sahipsiz" diye yanlış alarm üretir.
+            # Örnek: Zaporijya Sıçı 1775'te yıkıldı, sonrasında sahibi olmaz.
+            bit = t.get("bit")
+            if bit and bit <= g:
+                continue
             if ir(t.get("d"), g) or ir(t.get("s"), g) or ir(t.get("v"), g):
                 continue
             sahipsiz.setdefault(t["ad"], []).append(yil)
@@ -192,8 +203,12 @@ def degismez1b(Y):
                 birlesik[-1][1] = max(birlesik[-1][1], t)
             else:
                 birlesik.append([f, t])
+        bit = y.get("bit")
         for i in range(len(birlesik) - 1):
             bas, son = birlesik[i][1], birlesik[i + 1][0]
+            # bit: sonrası boşluk BOŞLUK DEĞİLDİR — yerleşim sahneden çıkmıştır.
+            if bit and bit <= bas:
+                continue
             gun = gun_no(son) - gun_no(bas)
             bulunan.append((gun, y["ad"], bas, son))
     bulunan.sort(reverse=True)

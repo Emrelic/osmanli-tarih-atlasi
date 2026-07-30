@@ -640,6 +640,89 @@ if _kayip:
 else:
     print(f"  ✓ hiçbir petek ham hücresinin %{SIFIR_PETEK_ORAN*100:.0f}'unun altında değil")
 
+# ---------------- kur: / bit: — VARLIK EPOKLARI ----------------
+# ⚠️ MIMARI.md §3.1'in çözümü. Ölçüm: denetim/KUR-ALANI-OLCUMU.md
+#
+# Motor `kur:` alanını okumuyordu: henüz kurulmamış şehrin peteği 1281'den beri
+# haritada duruyor ve komşularından toprak koparıyordu. ÖLÇÜLDÜ — `kur:` taşıyan
+# 34 nokta, kuruluşlarından önce toplam **1.699.095 km²** tutuyor; en büyükleri
+# Ufa (391.590 km², kur 1574) ve Perm (364.108 km², kur 1723), ikisi de Ural
+# eteğinde ve komşusuz. Yani hata "geç kuruluş × seyrek komşuluk" çarpımıdır ve
+# nokta eklendikçe büyür.
+#
+# ZAMAN DİLİMLİ VORONOI'YE GEREK YOK. Diyagramı 441 kırılma için yeniden
+# hesaplamak pahalı ve gereksiz; ADA KURALI'nın kullandığı makine yeterli:
+# kurulmamış peteğin payı, o tarihte SAHNEDE OLAN en yakın komşuya devredilir.
+# Varlık kümesi yalnız kur:/bit: günlerinde değiştiği için sonuç önbelleklenir —
+# 917 nokta içinde 34 kur: + 3 bit: var, yani en çok ~37 ayrı epok.
+#
+# ⚠️ EN ÖNEMLİ KISIT: devir YALNIZ YANLIŞ BOYANAN peteklere uygulanır.
+# Ölçüt "kurulmamış" değil, "kurulmamış VE o tarihte bir sahibi yazılı".
+# Sebebi: bu projede sahipsizlik bazen KASITLIDIR (CLAUDE.md §3 — çöl dolgu
+# noktaları, körfez şeyhlikleri). Kuveyt'in `kur:1716` ve ilk sahiplik penceresi
+# de 1716; yani 1716 öncesi hem kurulmamış hem sahipsiz ve haritada BOŞ olması
+# DOĞRU. O peteği komşusuna devretmek körfez kıyısını Basra'yla doldurup kasıtlı
+# boşluğu yok ederdi. St. Petersburg ise `kur:1703` olduğu hâlde `s:` 1281'den
+# rusya diyor — işte yanlış boyanan budur ve devredilir.
+# Kural tek cümleyle: motor, VERİNİN BOYADIĞI ama HENÜZ VAR OLMAYAN alanı taşır;
+# verinin bilerek boş bıraktığı alana dokunmaz.
+_VARLIK_ONBELLEK = {}
+_VARLIK_DEVIR = {}
+
+
+def _sahipli(y, g):
+    """y yerleşiminin g tarihinde yazılı bir sahibi var mı (s/d/v)."""
+    for kat in ("d", "v", "s"):
+        for p in y[kat]:
+            if p["f"] <= g < p["t"]:
+                return True
+    return False
+
+
+def devir_kumesi(g):
+    """g tarihinde SAHNEDE OLMAYAN ama veride SAHİBİ YAZILI yerleşimler."""
+    return frozenset(
+        i for i, y in enumerate(YERLER)
+        if ((y.get("kur") and y["kur"] > g) or (y.get("bit") and y["bit"] <= g))
+        and _sahipli(y, g))
+
+
+def petek_epok(g):
+    """g tarihinde geçerli petek listesi; kurulmamış/yok olmuş noktanın payı
+    o tarihte sahnede olan en yakın komşuya devredilmiş hâlde."""
+    devir = devir_kumesi(g)
+    if not devir:
+        return PETEK_D
+    if devir in _VARLIK_ONBELLEK:
+        return _VARLIK_ONBELLEK[devir]
+    hucre = list(PETEK_D)
+    sahne = [i for i in range(len(YERLER)) if i not in devir]
+    agac = STRtree([noktalar[i] for i in sahne])
+    kayit = []
+    for i in sorted(devir):
+        if hucre[i].is_empty:
+            continue
+        k = sahne[int(agac.nearest(noktalar[i]))]
+        hucre[k] = poligonal(unary_union([hucre[k], hucre[i]]))
+        kayit.append((YERLER[i]["ad"], YERLER[k]["ad"], _ham_km2(hucre[i])))
+        hucre[i] = Polygon()
+    _VARLIK_ONBELLEK[devir] = hucre
+    _VARLIK_DEVIR[devir] = kayit
+    return hucre
+
+
+print("Varlık epokları (kur:/bit:) hazırlanıyor...")
+_kur_sayi = sum(1 for y in YERLER if y.get("kur"))
+_bit_sayi = sum(1 for y in YERLER if y.get("bit"))
+_epok_gun = sorted({y["kur"] for y in YERLER if y.get("kur")}
+                   | {y["bit"] for y in YERLER if y.get("bit")})
+print(f"  {_kur_sayi} nokta kur:, {_bit_sayi} nokta bit: taşıyor "
+      f"→ {len(_epok_gun)} varlık kırılması")
+for _g in (EPOK, "1500-06-15", "1700-06-15", "1900-06-15"):
+    _d = devir_kumesi(_g)
+    _a = sum(_ham_km2(PETEK_D[i]) for i in _d)
+    print(f"  {_g}: {len(_d)} petek devredilecek, {_a:,.0f} km²")
+
 # ---------------- Parça havuzu ----------------
 # Aynı gövde parçası (ada, değişmeyen ana halka…) yüzlerce dönemde birebir
 # tekrarlanıyordu; ölçüm: donemler.js noktalarının yalnız %40'ı eşsizdi.
@@ -733,15 +816,19 @@ for did, (dad, renk) in BOYALAR.items():
     dnm = []; onceki = None
     for i in range(len(ts) - 1):
         a, b = ts[i], ts[i+1]
+        # kur:/bit: — henüz kurulmamış (ya da yok olmuş) nokta o tarihte devletin
+        # gövdesine KATILMAZ; peteği de petek_epok() ile komşusuna devredilmiştir.
+        _dv = devir_kumesi(a)
         aktif = frozenset(j for j in hj
-                          if any(sp["d"] == did and sp["f"] <= a < sp["t"]
-                                 for sp in YERLER[j]["s"])
+                          if j not in _dv
+                          and any(sp["d"] == did and sp["f"] <= a < sp["t"]
+                                  for sp in YERLER[j]["s"])
                           and not _osm_aktif(YERLER[j], a))
         if aktif == onceki and dnm and aktif:
             dnm[-1]["t"] = b; continue
         onceki = aktif
         if not aktif: continue
-        g = unary_union([PETEK_D[j] for j in aktif])
+        g = unary_union([petek_epok(a)[j] for j in aktif])
         g = delikleri_doldur(kapat(g))
         # Sadeleştirme örtü üzerinde ÖNCEDEN yapıldı (coverage_simplify); gövde
         # başına simplify ve "tolerans/2 dışa taşırma" hilesi kaldırıldı — komşu
@@ -779,10 +866,18 @@ onceki_aktif = None      # işaret/marker için: doğrudan + tâbi hepsi
 onceki_anahtar = None    # geometri için: (doğrudan, tâbi) ikilisi
 for i in range(len(tarihler) - 1):
     a, b = tarihler[i], tarihler[i+1]
+    # kur:/bit: — kurulmamış nokta Osmanlı gövdesine de katılmaz. Örnek:
+    # St. Petersburg'un s: alanı 1281'den rusya diyor ve kur:1703; Kesela'nın
+    # d: penceresi kur: gününde başlıyor. Devredilen petekler petek_epok()
+    # içinde komşularına geçtiği için toprak kaybolmaz, yalnız yer değiştirir.
+    _dv = devir_kumesi(a)
+    _pe = petek_epok(a)
     tabi = frozenset(j for j, y in enumerate(YERLER)
-                     if any(dn["f"] <= a < dn["t"] for dn in y["v"]))
+                     if j not in _dv
+                     and any(dn["f"] <= a < dn["t"] for dn in y["v"]))
     dogrudan = frozenset(j for j, y in enumerate(YERLER)
-                         if any(dn["f"] <= a < dn["t"] for dn in y["d"])) - tabi
+                         if j not in _dv
+                         and any(dn["f"] <= a < dn["t"] for dn in y["d"])) - tabi
     aktif = dogrudan | tabi
     if not aktif:
         continue
@@ -801,8 +896,8 @@ for i in range(len(tarihler) - 1):
 
     gt = None
     if tabi:
-        gt = poligonal(delikleri_doldur(kapat(unary_union([PETEK_D[j] for j in tabi]))).intersection(KARA))
-    g = poligonal(delikleri_doldur(kapat(unary_union([PETEK_D[j] for j in dogrudan]))).intersection(KARA))
+        gt = poligonal(delikleri_doldur(kapat(unary_union([_pe[j] for j in tabi]))).intersection(KARA))
+    g = poligonal(delikleri_doldur(kapat(unary_union([_pe[j] for j in dogrudan]))).intersection(KARA))
     # Tâbi bölge doğrudan gövdenin içinden çıkarılır; yoksa delik doldurma
     # Suriye'yi/Mısır'ı yutar ve iki katman üst üste biner.
     if gt is not None and not gt.is_empty:
