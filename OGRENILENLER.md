@@ -830,3 +830,55 @@ etrafından ~150 km** — yani Kefe gerçekten kara yolundan en yakın tohum. S�
 listesine Kefe'yi koyan taraf yanılmıştı.
 
 > Prototipin seninle aynı fikirde olmaması kusur değil, çalıştığının işareti olabilir.
+
+---
+
+## 28. Maskenin boğazları kapatması — üçüncü kusur sınıfı
+
+`hatalar 15 md.6`: *"Karesi ilhak edilince Osmanlı Gelibolu'ya geçmiş gibi görünüyor.
+Petek bölgeler denizaşırı gitmemeli."* İlk teşhis "ada kuralı bozuk" olurdu. Oturum 16
+ölçtü ve gerçek daha kötü çıktı: **ada kuralı bozuk değil, DEVREYE HİÇ GİRMİYOR.**
+
+Kara maskesinde hangi boğazların kapalı olduğu sınandı:
+
+```
+Kilitbahir ↔ Çanakkale   AYNI parça  → ÇANAKKALE KAPALI    🔴
+İstanbul   ↔ Üsküdar     AYNI parça  → İSTANBUL KAPALI     🔴
+Tarifa     ↔ Tanca       AYNI parça  → CEBELİTARIK KAPALI  🔴
+Kerç       ↔ Taman       AYNI parça  → KERÇ KAPALI         🔴
+Sina       ↔ Süveyş batı AYNI parça  → DOĞRU (gerçek berzah)
+Ayvalık ↔ Midilli · Biga ↔ Bozcaada · Kopenhag ↔ Malmö  → doğru şekilde AYRI
+```
+
+Rumeli ile Anadolu maskede **tek kara parçası**. Kural "aynı bileşen, ihlal yok" diyor
+ve hiç ateşlemiyor. Kullanıcı 1345-1352 arasında Gelibolu'da Osmanlı rengi görüyor;
+haklı.
+
+Ve bu `md.19`'u da büyütüyor: Cebelitarık'ın kapalı olması, Afrika ile Avrupa'nın
+**Sina'dan başka bir yerden de** birleştiği anlamına geliyor. Oran'ın İspanya'ya
+geçişi tek bir zayıf halkadan değil, **iki ayrı sahte köprüden** besleniyordu.
+
+### Üç bağımsız kusur sınıfı, biri ötekileri zehirliyor
+
+| | Kusur | Çare |
+|---|---|---|
+| 1 | nokta yokluğu (Libya, Kırım) | veri — nokta ekle |
+| 2 | bileşen ölçütünün yanlışlığı (md.19) | kara-kısıtlı Voronoi |
+| 3 | **maskenin boğazları kapatması** | `bogazlar.js` |
+
+Üçüncüsü çözülmeden ilk ikisi tam çalışmaz: kara-kısıtlı Voronoi ızgarayı **aynı
+maskeden** kuruyor, yani Çanakkale'yi karadan geçilebilir sanıyor. Bu yüzden sıralama
+zorunlu hâle geldi — boğazlar, Voronoi'den **önce**.
+
+> Bir düzeltmenin girdisi başka bir kusurun çıktısıysa, sıra keyfî değildir.
+
+### Ve bir yan ders: tarihî göz de coğrafyaya bakmadan yanılır
+
+Prototip "Sina güneyi → Tebük" önerdi. *"Sinâ Osmanlı'da Mısır eyaletine bağlıydı"*
+diyerek reddettim — argüman doğruydu ama **uygulandığı yer yanlıştı**. Parça
+28,60K/34,99D'de; Akabe körfezinin **doğusunda**, yani Arabistan'da. O kara Sinâ değil;
+Sina güneyinin peteği körfezi aşıp Arabistan'ı kapmıştı. Transfer hem geometrik hem
+idarî olarak doğruymuş.
+
+`§26`'da "geometri karar veremez, tarihî göz gerekir" demiştik. Tersi de doğruymuş:
+**tarihî göz de koordinata bakmadan karar verirse yanılır.** İkisi birlikte gerekiyor.
