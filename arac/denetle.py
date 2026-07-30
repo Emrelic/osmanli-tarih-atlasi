@@ -44,13 +44,22 @@ DATA = os.path.join(KOK, "data")
 # 12 oturuma görev dağıttı ve yerlesimler.js'in on iki potansiyel yazarı oldu;
 # bu iki sabit o gece saat başı değişti. Sapma uyarısı bilgi amaçlıdır, ihlal
 # değildir — ama üretim koşturacak oturum ÖNCE girdinin donduğunu teyit etmeli.
-BEKLENEN_YERLESIM = 927
+# 927 -> 939: Oturum 14'ün Libya partisi (12 nokta).
+BEKLENEN_YERLESIM = 939
 # 29 -> 32: Oturum 4'ün Necid noktaları (Buraydâ, Uneyze, Şakrâ) 1744
 # öncesinde kasten sahipsiz — orada devlet yoktu, Riyad ve Dir'iye ile
 # aynı desen (MIMARI.md §6: 'devletsiz' ile 'veri yok' ayrımı).
 # 32 -> 35: Oturum 11 in col/plato dolgu noktalari (Uzboy, Ustyurt bati ve
 # dogu) kasten sahipsiz — Karakum ve Rub ul Hali ile ayni desen.
-BEKLENEN_SAHIPSIZ = 34
+# 34 -> 40: Oturum 14'ün Libya çölü dolgu noktaları. SAYIYI DEĞİL, ADLARI
+# doğruladım — beklentiyi "merkez oturum 40 dedi" diye yükseltmek denetimi
+# kendi kendini onaylayan bir şeye çevirirdi. Yeni altı ad ölçüldü:
+#   Kufra (el-Cûf) · Rebyâne · Serîr · Tâzirbû · Vâv el-Kebîr · İdehân Murzuk
+# Altısı da 1285-1920 boyunca kesintisiz sahipsiz, yani "bir dönem sahipliydi,
+# sonra delik açıldı" deseni DEĞİL — mevcut 34'ün aynı deseni: Sahra ve
+# Rub'ul Hâlî dolgu noktaları, orada devlet yoktu. Kufra Senûsî zâviyesiydi,
+# Osmanlı idaresi ulaşmadı, İtalya 1931'de girdi (kapsam dışı).
+BEKLENEN_SAHIPSIZ = 40
 # 427 -> 432: Kirmanşah 1590-1603 (+2), Tarki tâbiiyeti (+2, mevcut günlere
 # oturdu), Kaheti tâbiiyeti (+2), Şirvan ara şehirleri (+0, mevcut günler),
 # Azak'ın 1637-1642 Kazak işgali (+2), Şehrizor 1554-01-01 -> 1554-08-22 (+0).
@@ -62,7 +71,8 @@ BEKLENEN_SAHIPSIZ = 34
 # 437 -> 441: merkez oturumun hatalar 8-9 partisi (Rus Hazar işgali, üç işgal
 # dönemi). ⚠️ Bu dört kırılma üretimin ORTASINDA girdi ve o yüzden r82 geometrisi
 # çöpe gitti — CLAUDE.md §7 kilit kuralının yedinci ihlali.
-BEKLENEN_KIRILMA = 451
+# 451 -> 452: Oturum 14'ün Konstantin maddesi (1837-10-13).
+BEKLENEN_KIRILMA = 452
 BEKLENEN_ACIK = 0
 # MIMARI.md §3.4 — bilinen borç, tavan bu. 311'den 318'e çıkarıldı: beylik
 # düzeltmesiyle 19 yerleşim eklendi (567 -> 586) ve 11'i bu borcu tetikliyor.
