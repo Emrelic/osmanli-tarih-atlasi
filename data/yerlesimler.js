@@ -604,18 +604,18 @@ window.YERLESIMLER = [
 // 1805: Kahire ulemâsının talebiyle Kavalalı Mehmed Ali vali oldu; Mısır o
 // tarihten sonra hukuken Osmanlı, fiilen kendi hanedanının idaresindedir.
 // Bu yüzden 1805'ten itibaren "tâbi" (açık ton) katmanda gösterilir.
-{ ad:"Kahire", tur:"sehir", lat:30.047, lon:31.243, g:2, k:2, s:[{f:"1281-01-01",t:"1517-02-15",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1517-02-15",t:"1805-07-09",y:"savas"}],
-    v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
-{ ad:"İskenderiye", tur:"liman", lat:31.200, lon:29.919, g:1, k:3, m:"Kahire", s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1517-05-19",t:"1805-07-09"}],
-    v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
-{ ad:"Dimyat", tur:"liman", lat:31.418, lon:31.814, g:0, k:3, m:"Kahire", s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1517-05-19",t:"1805-07-09"}],
-    v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
-{ ad:"Asyut", tur:"sehir", lat:27.181, lon:31.183, g:0, k:3, m:"Kahire", s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1517-04-13",t:"1805-07-09"}],
-    v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
-{ ad:"Asvan", tur:"sehir", lat:24.089, lon:32.899, g:0, k:3, m:"Kahire", s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1517-04-13",t:"1805-07-09"}],
-    v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
-{ ad:"İbrim", tur:"kale", lat:22.658, lon:31.988, g:0, k:4, m:"Kahire", s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1517-04-13",t:"1805-07-09",y:"kusatma"}],
-    v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+{ ad:"Kahire", tur:"sehir", lat:30.047, lon:31.243, g:2, k:2, s:[{f:"1281-01-01",t:"1517-02-15",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1517-02-15",t:"1805-07-09",y:"savas"}],
+    v:[{f:"1805-07-09",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
+{ ad:"İskenderiye", tur:"liman", lat:31.200, lon:29.919, g:1, k:3, m:"Kahire", s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1517-05-19",t:"1805-07-09"}],
+    v:[{f:"1805-07-09",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
+{ ad:"Dimyat", tur:"liman", lat:31.418, lon:31.814, g:0, k:3, m:"Kahire", s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1517-05-19",t:"1805-07-09"}],
+    v:[{f:"1805-07-09",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
+{ ad:"Asyut", tur:"sehir", lat:27.181, lon:31.183, g:0, k:3, m:"Kahire", s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1517-04-13",t:"1805-07-09"}],
+    v:[{f:"1805-07-09",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
+{ ad:"Asvan", tur:"sehir", lat:24.089, lon:32.899, g:0, k:3, m:"Kahire", s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1517-04-13",t:"1805-07-09"}],
+    v:[{f:"1805-07-09",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
+{ ad:"İbrim", tur:"kale", lat:22.658, lon:31.988, g:0, k:4, m:"Kahire", s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1517-04-13",t:"1805-07-09",y:"kusatma"}],
+    v:[{f:"1805-07-09",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 // Sudan hiçbir zaman doğrudan Bâbıâli'ye bağlanmadı: 1820-21'de Mehmed Ali'nin
 // ordusu fethetti, Kahire'den yönetildi, 1885'te Mehdî ayaklanmasıyla kaybedildi.
 { ad:"Dongola", tur:"sehir", lat:19.169, lon:30.474, g:0, k:3, m:"Hartum", s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[],
@@ -664,8 +664,8 @@ window.YERLESIMLER = [
 { ad:"Deyrizor", tur:"sehir", lat:35.336, lon:40.141, g:0, k:4, m:"Halep", d:[{f:"1516-08-28",t:"1918-10-26"}],
     s:[{f:"1281-01-01",t:"1516-08-28",d:"memluk"},{f:"1918-10-26",t:"1923-10-29",d:"fransa"}] },
 { ad:"Süveyş", tur:"liman", lat:29.974, lon:32.548, g:0, k:4, m:"Kahire", d:[{f:"1517-01-22",t:"1805-07-09"}],
-    v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}],
-    s:[{f:"1281-01-01",t:"1517-01-22",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}] },
+    v:[{f:"1805-07-09",t:"1914-12-18",k:"Kavalalı hanedanı"}],
+    s:[{f:"1281-01-01",t:"1517-01-22",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}] },
 { ad:"Sfaks", tur:"liman", lat:34.740, lon:10.760, g:0, k:4, m:"Tunus", d:[{f:"1574-08-25",t:"1705-07-17"}],
     s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa"}], v:[{f:"1705-07-17",t:"1881-05-12",k:"Tunus Ocaklığı (Hüseynîler)"}] },
 { ad:"Annaba", tur:"liman", lat:36.900, lon:7.766, g:0, k:4, m:"Cezayir", d:[{f:"1534-09-22",t:"1671-01-01"}],
@@ -813,7 +813,7 @@ window.YERLESIMLER = [
 { ad:"Rub'ul Hâlî doğusu", tur:"bolge", lat:20.00, lon:52.00, g:0, k:0, d:[] },
 { ad:"Necid içi", tur:"bolge", lat:25.50, lon:44.50, g:0, k:0, d:[], v:[{f:"1818-09-09",t:"1824-06-01",k:"Mısır (İbrâhim Paşa)"}], s:[{f:"1744-01-01",t:"1818-09-09",d:"suud"},{f:"1824-06-01",t:"1891-01-01",d:"suud"},{f:"1891-01-01",t:"1902-01-15",d:"sammar"},{f:"1902-01-15",t:"1923-10-29",d:"suud"}] },
 { ad:"Hadramut", tur:"bolge", lat:15.50, lon:48.50, g:0, k:0, d:[] },
-{ ad:"Sina güneyi", tur:"bolge", lat:28.50, lon:33.80, g:0, k:0, s:[{f:"1281-01-01",t:"1517-01-22",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1517-01-22",t:"1805-07-09"}], v:[{f:"1805-07-09",t:"1914-11-05",k:"Mısır Hidivliği"}] },
+{ ad:"Sina güneyi", tur:"bolge", lat:28.50, lon:33.80, g:0, k:0, s:[{f:"1281-01-01",t:"1517-01-22",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1517-01-22",t:"1805-07-09"}], v:[{f:"1805-07-09",t:"1914-12-18",k:"Mısır Hidivliği"}] },
 { ad:"Batı çölü (Mısır)", tur:"bolge", lat:26.50, lon:27.00, g:0, k:0, d:[] },
 { ad:"Nûbe çölü", tur:"bolge", lat:20.50, lon:33.50, g:0, k:0, d:[] },
 { ad:"Kordofan", tur:"bolge", lat:13.00, lon:29.50, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1883-01-19",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], v:[{f:"1821-08-19",t:"1883-01-19",k:"Mısır (Kavalalı)"}] },
@@ -938,8 +938,8 @@ window.YERLESIMLER = [
 { ad:"Kemah", tur:"kale", lat:39.600, lon:39.030, g:1, k:4, m:"Erzurum", s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1401-02-01",d:"akkoyunlu"},{f:"1402-07-28",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1515-05-19",d:"safevi"}], d:[{f:"1401-02-01",t:"1402-07-28",y:"savas"},{f:"1515-05-19",t:"1923-10-29",y:"kusatma"}] },
 { ad:"Humus", tur:"sehir", lat:34.730, lon:36.710, g:0, k:4, m:"Şam", s:[{f:"1281-01-01",t:"1516-09-27",d:"memluk"},{f:"1918-10-01",t:"1923-10-29",d:"fransa"}], d:[{f:"1516-09-27",t:"1918-10-01"}] },
 { ad:"Han Yûnus", tur:"kale", lat:31.340, lon:34.300, g:1, k:4, m:"Kudüs", s:[{f:"1281-01-01",t:"1516-12-21",d:"memluk"},{f:"1917-11-07",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1516-12-21",t:"1917-11-07",y:"savas"}] },
-{ ad:"Reşîd (Rosetta)", tur:"liman", lat:31.399, lon:30.417, g:0, k:4, m:"Kahire", s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1517-05-19",t:"1805-07-09"}],
-    v:[{f:"1805-07-09",t:"1914-11-05",k:"Mısır (Kavalalı)"}] },
+{ ad:"Reşîd (Rosetta)", tur:"liman", lat:31.399, lon:30.417, g:0, k:4, m:"Kahire", s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1517-05-19",t:"1805-07-09"}],
+    v:[{f:"1805-07-09",t:"1914-12-18",k:"Mısır (Kavalalı)"}] },
 
 // ---- Orta ve Batı Anadolu yoğunlaştırması (kullanıcı tespiti: "Ankara civarında
 // kimin hüküm sürdüğü belli değil"). Bu noktalar hem beyliklerin gerçek sahiplik
