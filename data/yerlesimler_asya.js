@@ -120,9 +120,20 @@
 // ⚠️ kur: ve bit: ALANLARI
 // ---------------------------------------------------------------------------
 // Motor ikisini de OKUMUYOR (MIMARI.md §3.1). Görev tanımı gereği yine de
-// yazıldılar. Bu dosyada 62 kayıtta kur:, 4 kayıtta bit: var — bu coğrafya
+// yazıldılar. Bu dosyada 84 kayıtta kur:, 4 kayıtta bit: var — bu coğrafya
 // tam da bu alanların en çok işlediği yerdir (Agra 1504, Kalküta 1690,
 // Batavia 1619, Singapur 1819, Nagazaki 1571, Mandalay 1857, Sapporo 1869).
+// ⚠️ İKİNCİ TUR (denetim sonrası): 23 kayda daha kur: eklendi ve kuruluştan
+// ÖNCEKİ sahiplik pencereleri SİLİNDİ — DURUM.md'deki "atlasın zaman çizgisi
+// neredeyse düz" ölçümünün sebebi tam olarak buydu. Eklenenler: Şanhayguan
+// 1381 · Kalgan 1429 · Kyongsong 1434 · Ludhiyana 1480 · Bhuc 1510 ·
+// Bancarmasin 1526 · Kanazawa 1546 · Yamaguchi 1360 · Fukui 1575 ·
+// Morioka 1597 · Kōchi 1601 · Matsuyama 1602 · Matsue 1607 · Hirosaki 1611 ·
+// Şikârpûr 1617 · Ningguta 1653 · Aigun 1683 · Qiqihar 1691 · Nagpûr 1702 ·
+// Champasak 1713 · Baotou 1809 · Kuching 1827 · Hong Kong 1841.
+// Hong Kong'un 1281-1841 arası Yuan/Ming/Qing zinciri tamamen kaldırıldı:
+// şehir 26 Ocak 1841'de kuruldu, öncesinde balıkçı adasıydı ve o dönemin
+// sahibini komşu Kanton noktası taşıyor (Kalküta-Singapur deseni).
 // bit: taşıyan dört kayıt: Gaur (1575 vebası), Vijayanagara (1565 Talikota),
 // Karakurum (1380 Ming baskını), Ayutthaya (1767 Birman yangını).
 //
@@ -158,7 +169,7 @@
 //      yerlesimler_ortaasya.js ile ÇAPRAZ yapıldı. En sıkı çift
 //      Hûglî–Çandernagor 5.16 km, ikincisi Ternate–Tidore 11.2 km. 3 km'nin
 //      altına düştüğü için ELENEN adaylar "EKLENMEYENLER" başlığındadır.
-//   3. SAHİPSİZLİK — kur: taşıyan 62 kaydın kuruluş sonrası, kalan 282 kaydın
+//   3. SAHİPSİZLİK — kur: taşıyan 84 kaydın kuruluş sonrası, kalan 260 kaydın
 //      1281-01-01 → 1923-10-29 aralığının TAMAMI kesintisiz sahiplidir
 //      (ölçüldü: 0 boşluk). Dönemlerde çakışma, ters aralık ve sıfır uzunluk
 //      yoktur (ölçüldü: 0).
@@ -484,7 +495,8 @@ window.YERLESIMLER_ASYA = [
      {f:"1846-03-09", t:"1923-10-29", d:"ingiliz-hindistani"}] },
 
 { ad:"Ludhiyana", tur:"sehir", lat:30.9010, lon:75.8570, g:0, k:0, d:[],
-  s:[{f:"1281-01-01", t:"1526-04-21", d:"delhi-sultanligi"},
+  kur:"1480-01-01",
+  s:[{f:"1480-01-01", t:"1526-04-21", d:"delhi-sultanligi"},
      {f:"1526-04-21", t:"1540-05-17", d:"babur-imparatorlugu"},
      {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
      {f:"1555-07-23", t:"1752-04-01", d:"babur-imparatorlugu"},
@@ -636,8 +648,8 @@ window.YERLESIMLER_ASYA = [
      {f:"1839-02-03", t:"1923-10-29", d:"ingiliz-hindistani"}] },
 
 { ad:"Şikârpûr", tur:"sehir", lat:27.9550, lon:68.6380, g:0, k:0, d:[],
-  s:[{f:"1281-01-01", t:"1592-01-01", d:"sind"},
-     {f:"1592-01-01", t:"1701-01-01", d:"babur-imparatorlugu"},
+  kur:"1617-01-01",
+  s:[{f:"1617-01-01", t:"1701-01-01", d:"babur-imparatorlugu"},
      {f:"1701-01-01", t:"1843-02-17", d:"sind"},
      {f:"1843-02-17", t:"1923-10-29", d:"ingiliz-hindistani"}] },
 
@@ -775,7 +787,8 @@ window.YERLESIMLER_ASYA = [
 // Bhuc (Kutch) — Câdeja racput hânedanı; 1549'da kuruldu, 1819'da İngiliz
 // himayesine girdi ama taht sürdü.
 { ad:"Bhuc (Kutch)", tur:"sehir", lat:23.2420, lon:69.6670, g:0, k:0, d:[],
-  s:[{f:"1281-01-01", t:"1923-10-29", d:"racput"}] },
+  kur:"1510-01-01",
+  s:[{f:"1510-01-01", t:"1923-10-29", d:"racput"}] },
 
 // Patan (Anhilvâda) — Vâghela başkenti; 1304'te Delhi'ye, 1411'de
 // Ahmedâbâd'ın kurulmasıyla ikinci sıraya düştü.
@@ -855,7 +868,8 @@ window.YERLESIMLER_ASYA = [
 // Nagpûr — Bhonsle Maratha hânedanının merkezi; Gond krallığından 1743'te
 // alındı, 1853'te "lapse" doktriniyle ilhak edildi.
 { ad:"Nagpûr", tur:"sehir", lat:21.1460, lon:79.0880, g:1, k:0, d:[],
-  s:[{f:"1281-01-01", t:"1743-01-01", d:"gond-kralliklari"},
+  kur:"1702-01-01",
+  s:[{f:"1702-01-01", t:"1743-01-01", d:"gond-kralliklari"},
      {f:"1743-01-01", t:"1853-12-11", d:"maratha"},
      {f:"1853-12-11", t:"1923-10-29", d:"ingiliz-hindistani"}] },
 
@@ -1675,8 +1689,8 @@ window.YERLESIMLER_ASYA = [
 // Kalgan (Zhangjiakou) — Çin Seddi'nin kuzey kapısı ve Moğolistan
 // kervan yolunun başlangıcı.
 { ad:"Kalgan (Zhangjiakou)", tur:"kale", lat:40.8120, lon:114.8790, g:0, k:0, d:[],
-  s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani"},
-     {f:"1368-09-14", t:"1644-06-06", d:"ming-hanedani"},
+  kur:"1429-01-01",
+  s:[{f:"1429-01-01", t:"1644-06-06", d:"ming-hanedani"},
      {f:"1644-06-06", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
@@ -2082,11 +2096,8 @@ window.YERLESIMLER_ASYA = [
 // Hong Kong — 26 Ocak 1841'de İngiliz çıkarması, 29 Ağustos 1842 Nanking
 // Antlaşması'yla resmen devredildi. Makao'ya 39 km.
 { ad:"Hong Kong", tur:"liman", lat:22.3200, lon:114.1700, g:1, k:0, d:[],
-  s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
-     {f:"1368-04-01", t:"1644-04-25", d:"ming-hanedani"},
-     {f:"1644-04-25", t:"1650-11-24", d:"guney-ming"},
-     {f:"1650-11-24", t:"1841-01-26", d:"qing-hanedani"},
-     {f:"1841-01-26", t:"1923-10-29", d:"ingiltere"}] },
+  kur:"1841-01-26",
+  s:[{f:"1841-01-26", t:"1923-10-29", d:"ingiltere"}] },
 
 // Zeytun (Quanzhou) — İbn Battûta'nın ve Marco Polo'nun dünyanın en büyük
 // limanı dediği şehir; Yuan döneminde zirvesindedir. Ming'in deniz yasağı
@@ -2257,18 +2268,16 @@ window.YERLESIMLER_ASYA = [
 
 // Ningguta — Qing'in Mançurya'daki askerî valiliği ve sürgün yeri.
 { ad:"Ningguta", tur:"kale", lat:44.3500, lon:129.4700, g:0, k:0, d:[],
-  s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani"},
-     {f:"1368-09-14", t:"1616-01-01", d:"ming-hanedani"},
-     {f:"1616-01-01", t:"1912-02-12", d:"qing-hanedani"},
+  kur:"1653-01-01",
+  s:[{f:"1653-01-01", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
 // Aigun — 1689 Nerçinsk ve 28 Mayıs 1858 Aigun antlaşmalarının imzalandığı
 // yer. 1858'de Amur'un KUZEY yakası Rusya'ya geçti; şehrin kendisi güney
 // yakada olduğu için Çin'de kaldı, bu yüzden pencere açılmadı.
 { ad:"Aigun", tur:"kale", lat:50.2430, lon:127.4630, g:0, k:0, d:[],
-  s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani"},
-     {f:"1368-09-14", t:"1616-01-01", d:"ming-hanedani"},
-     {f:"1616-01-01", t:"1912-02-12", d:"qing-hanedani"},
+  kur:"1683-01-01",
+  s:[{f:"1683-01-01", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
 // Harbin — 1898'de Çin Doğu Demiryolu'nun merkezi olarak kuruldu (kur:).
@@ -2496,8 +2505,8 @@ window.YERLESIMLER_ASYA = [
 // 27 Mayıs 1644'te kapıyı Qing ordusuna burada açtı; Ming'in sonunu getiren
 // tek karar budur.
 { ad:"Şanhayguan", tur:"kale", lat:40.0100, lon:119.7530, g:1, k:0, d:[],
-  s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani"},
-     {f:"1368-09-14", t:"1644-05-27", d:"ming-hanedani"},
+  kur:"1381-01-01",
+  s:[{f:"1381-01-01", t:"1644-05-27", d:"ming-hanedani"},
      {f:"1644-05-27", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
@@ -2542,17 +2551,15 @@ window.YERLESIMLER_ASYA = [
 
 // Baotou — Sarı Irmak'ın kuzey dirseği; İç Moğolistan'ın batı ucu.
 { ad:"Baotou", tur:"sehir", lat:40.6570, lon:109.8400, g:0, k:0, d:[],
-  s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani"},
-     {f:"1368-09-14", t:"1636-01-01", d:"kuzey-yuan"},
-     {f:"1636-01-01", t:"1912-02-12", d:"qing-hanedani"},
+  kur:"1809-01-01",
+  s:[{f:"1809-01-01", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
 // Qiqihar — kuzey Mançurya'nın Qing askerî valiliği (1691'den itibaren);
 // bu nokta olmadan Harbin ile Aigun arası 400 km açık kalıyordu.
 { ad:"Qiqihar", tur:"kale", lat:47.3540, lon:123.9180, g:0, k:0, d:[],
-  s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani"},
-     {f:"1368-09-14", t:"1616-01-01", d:"kuzey-yuan"},
-     {f:"1616-01-01", t:"1912-02-12", d:"qing-hanedani"},
+  kur:"1691-01-01",
+  s:[{f:"1691-01-01", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
 // ###########################################################################
@@ -2692,18 +2699,15 @@ window.YERLESIMLER_ASYA = [
 // ===== 6c. Japon Denizi kıyısı ve Hokuriku =====
 
 { ad:"Kanazawa", tur:"sehir", lat:36.5620, lon:136.6490, g:1, k:0, d:[],
-  s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
-     {f:"1333-07-04", t:"1336-11-07", d:"kenmu"},
-     {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
+  kur:"1546-01-01",
+  s:[{f:"1546-01-01", t:"1573-01-01", d:"muromachi"},
      {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
 
 { ad:"Fukui", tur:"sehir", lat:36.0640, lon:136.2200, g:0, k:0, d:[],
-  s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
-     {f:"1333-07-04", t:"1336-11-07", d:"kenmu"},
-     {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
-     {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
+  kur:"1575-01-01",
+  s:[{f:"1575-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
 
@@ -2716,11 +2720,8 @@ window.YERLESIMLER_ASYA = [
      {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
 
 { ad:"Matsue", tur:"sehir", lat:35.4680, lon:133.0490, g:0, k:0, d:[],
-  s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
-     {f:"1333-07-04", t:"1336-11-07", d:"kenmu"},
-     {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
-     {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
-     {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
+  kur:"1607-01-01",
+  s:[{f:"1607-01-01", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
 
 // ===== 6d. Batı Honshu ve Şikoku =====
@@ -2752,26 +2753,21 @@ window.YERLESIMLER_ASYA = [
 // ticaretini elinde tutan "batının Kyoto"su. Francis Xavier 1551'de
 // buradaydı.
 { ad:"Yamaguchi", tur:"sehir", lat:34.1860, lon:131.4710, g:0, k:0, d:[],
-  s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
-     {f:"1333-07-04", t:"1336-11-07", d:"kenmu"},
-     {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
+  kur:"1360-01-01",
+  s:[{f:"1360-01-01", t:"1573-01-01", d:"muromachi"},
      {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
 
 { ad:"Matsuyama", tur:"sehir", lat:33.8390, lon:132.7660, g:0, k:0, d:[],
-  s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
-     {f:"1333-07-04", t:"1336-11-07", d:"kenmu"},
-     {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
-     {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
+  kur:"1602-01-01",
+  s:[{f:"1602-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
 
 { ad:"Kōchi", tur:"liman", lat:33.5600, lon:133.5310, g:0, k:0, d:[],
-  s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
-     {f:"1333-07-04", t:"1336-11-07", d:"kenmu"},
-     {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
-     {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
+  kur:"1601-01-01",
+  s:[{f:"1601-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
 
@@ -2859,19 +2855,14 @@ window.YERLESIMLER_ASYA = [
      {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
 
 { ad:"Morioka", tur:"sehir", lat:39.7020, lon:141.1550, g:0, k:0, d:[],
-  s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
-     {f:"1333-07-04", t:"1336-11-07", d:"kenmu"},
-     {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
-     {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
+  kur:"1597-01-01",
+  s:[{f:"1597-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
 
 { ad:"Hirosaki", tur:"kale", lat:40.6030, lon:140.4640, g:0, k:0, d:[],
-  s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
-     {f:"1333-07-04", t:"1336-11-07", d:"kenmu"},
-     {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
-     {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
-     {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
+  kur:"1611-01-01",
+  s:[{f:"1611-01-01", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
 
 // ⚠️ EZO (HOKKAİDO) — bu dosyanın en dikkatli yerlerinden biri.
@@ -3035,9 +3026,8 @@ window.YERLESIMLER_ASYA = [
 // Kyongsong — Joseon'un XV. yüzyılda Tumen'e kadar genişlettiği kuzeydoğu
 // sınırının kalesi ("altı garnizon", 1434-1449).
 { ad:"Kyongsong (Gyeongseong)", tur:"kale", lat:41.5750, lon:129.5980, g:0, k:0, d:[],
-  s:[{f:"1281-01-01", t:"1356-01-01", d:"yuan-hanedani"},
-     {f:"1356-01-01", t:"1392-07-17", d:"goryeo"},
-     {f:"1392-07-17", t:"1910-08-29", d:"joseon"},
+  kur:"1434-01-01",
+  s:[{f:"1434-01-01", t:"1910-08-29", d:"joseon"},
      {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"}] },
 
 // Ceccu (Jeju) — Tamna: 1273-1356 arasında Yuan'ın doğrudan idaresinde bir
@@ -3259,8 +3249,8 @@ window.YERLESIMLER_ASYA = [
      {f:"1893-10-03", t:"1923-10-29", d:"fransiz-cinhindi"}] },
 
 { ad:"Champasak", tur:"sehir", lat:14.8920, lon:105.8760, g:0, k:0, d:[],
-  s:[{f:"1281-01-01", t:"1713-01-01", d:"lan-xang"},
-     {f:"1713-01-01", t:"1778-01-01", d:"laos-kralliklari"},
+  kur:"1713-01-01",
+  s:[{f:"1713-01-01", t:"1778-01-01", d:"laos-kralliklari"},
      {f:"1778-01-01", t:"1893-10-03", d:"siyam-chakri"},
      {f:"1893-10-03", t:"1923-10-29", d:"fransiz-cinhindi"}] },
 
@@ -3632,15 +3622,15 @@ window.YERLESIMLER_ASYA = [
 // Kuching — James Brooke 24 Eylül 1841'de Brunei sultanından Sarawak'ı
 // aldı ve "beyaz racalar" hânedanını kurdu; 1946'ya kadar sürdü.
 { ad:"Kuching (Sarawak)", tur:"liman", lat:1.5530, lon:110.3590, g:1, k:0, d:[],
-  s:[{f:"1281-01-01", t:"1841-09-24", d:"brunei-sultanligi"},
+  kur:"1827-01-01",
+  s:[{f:"1827-01-01", t:"1841-09-24", d:"brunei-sultanligi"},
      {f:"1841-09-24", t:"1923-10-29", d:"sarawak-brooke"}] },
 
 // Bancarmasin — 1526'da kurulan sultanlık; Hollanda 11 Haziran 1860'ta
 // kaldırdı ve Banjar savaşı başladı.
 { ad:"Bancarmasin", tur:"liman", lat:-3.3200, lon:114.5910, g:0, k:0, d:[],
-  s:[{f:"1281-01-01", t:"1292-01-01", d:"singhasari"},
-     {f:"1292-01-01", t:"1526-01-01", d:"majapahit"},
-     {f:"1526-01-01", t:"1860-06-11", d:"banjar-sultanligi"},
+  kur:"1526-01-01",
+  s:[{f:"1526-01-01", t:"1860-06-11", d:"banjar-sultanligi"},
      {f:"1860-06-11", t:"1923-10-29", d:"hollanda-dogu-hint"}] },
 
 // Makassar — Gowa sultanlığı; Doğu Endonezya'nın en güçlü devletiydi ve

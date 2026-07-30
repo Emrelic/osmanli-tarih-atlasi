@@ -1,7 +1,22 @@
 # Oturum 13 — Hindistan, Çin, Japonya, Kore ve Güneydoğu Asya · ilerleme raporu
 
 **Durum:** iş bitti, birleştirmeye hazır. **Commit atılmadı.**
-**Yazılan tek dosya:** `data/yerlesimler_asya.js` (yeni, 344 yerleşim, ~208 KB).
+**Yazılan tek dosya:** `data/yerlesimler_asya.js` (yeni, 344 yerleşim, ~210 KB).
+
+> **İKİNCİ TUR (2026-07-30, entegrasyon oturumunun denetim görevi üzerine):**
+> Bu raporun yanına iki ölçüm belgesi daha yazıldı ve `kur:` alanı tamamlandı.
+> - **`oturumlar/OTURUM-13-PENCERE-OLCUMU.md`** — pencere genişletmesinin
+>   ölçülmüş maliyeti (kara maskesi, üretim süresi, çıktı boyutu, 180. meridyen,
+>   ve pencere açılınca doğacak emilme tehlikesi).
+> - **`oturumlar/OTURUM-13-KIMLIK.md`** — 98 kimliğin DSATUR girdi tablosu
+>   (komşuluk + derece) ve kimlik indiriminin ölçülmüş bilgi bedeli.
+> - `kur:` **61 → 84** kayda çıkarıldı; 23 kayıtta kuruluş öncesi sahiplik
+>   pencereleri silindi (aşağıda §"kur: ikinci tur").
+>
+> **Baş sonuç:** 98 kimlik renk bütçesine en fazla **+1 renk** maliyet getiriyor
+> (7 → 8) ve `renkler.py` zaten 10-12 renk kullanıyor. Kimlik indirimi ölçüldü:
+> %30 indirim renk sayısını **hiç** düşürmüyor. Asıl darboğaz renk değil,
+> **çıktı boyutu** (36 MB → 61-92 MB) ve **üretim süresi** (~30 dk → 2-4 saat).
 **Dokunulmayan:** `data/yerlesimler.js`, diğer `yerlesimler_*.js`, `arac/` altındaki
 her şey, `devletler.js`, `kisiler.js`, `savaslar.js`, `olaylar*.js`, `index.html`,
 `js/app.js`, kök `*.md`. `arac/uret_petek.py` **çalıştırılmadı.**
@@ -30,7 +45,7 @@ Kandehar'ın peteği batıya, Meşhed'inki doğuya taşar.
 |---|---|
 | Yerleşim | **344** (hedef 250-350) |
 | Tür dağılımı | 192 şehir · 97 liman · 55 kale · 0 dolgu |
-| `kur:` taşıyan | 62 |
+| `kur:` taşıyan | **84** (ilk turda 61, ikinci turda +23) |
 | `bit:` taşıyan | 4 (Gaur 1575 · Vijayanagara 1565 · Karakurum 1380 · Ayutthaya 1767) |
 | Kullanılan devlet kimliği | **147** |
 | Boylam aralığı | 65.710°D – 141.354°D |
@@ -99,9 +114,47 @@ yapıldı. Sonuç: **3 km altında 0 çift.** En sıkı çift Hûglî–Çandern
 3 km'nin altına düştüğü için elenen adaylar dosyanın "EKLENMEYENLER" başlığındadır
 (Sagaing–Ava 2.6 km).
 
-**3. Sahipsizlik** — `kur:` taşıyan 62 kaydın kuruluş sonrası, kalan 282 kaydın
+**3. Sahipsizlik** — `kur:` taşıyan 84 kaydın kuruluş sonrası, kalan 260 kaydın
 1281-01-01 → 1923-10-29 aralığının tamamı kesintisiz sahiplidir.
 Sonuç: **0 boşluk, 0 çakışma, 0 ters aralık, 0 sıfır uzunluk.**
+
+**5. `d:` alanı** — 344 kaydın **hepsinde** `d:[]` yazılı (ölçüldü: eksik 0).
+Afrika partisinde üretimi `KeyError: 'd'` ile çökerten hata bu dosyada
+tekrarlanamaz. `girdi.py` ile okuma da sınandı: 344 nokta, hata yok.
+
+### kur: ikinci tur — 23 kayıt
+
+`DURUM.md`'deki en rahatsız edici ölçüm ("1281'de 851 nokta sahnede, 1923'te
+892 — yani atlas 1281'de 1900'ün şehirlerini gösteriyor") bu partide de
+geçerliydi. İkinci turda taranıp düzeltildi; her birinde **kuruluştan önceki
+sahiplik pencereleri silindi**, yalnız `kur:` eklenmedi:
+
+| Kayıt | kur: | Kayıt | kur: |
+|---|---|---|---|
+| Yamaguchi | 1360 | Şikârpûr | 1617 |
+| Şanhayguan | 1381 | Ningguta | 1653 |
+| Kalgan (Zhangjiakou) | 1429 | Aigun | 1683 |
+| Kyongsong (Gyeongseong) | 1434 | Qiqihar | 1691 |
+| Ludhiyana | 1480 | Nagpûr | 1702 |
+| Bhuc (Kutch) | 1510 | Champasak | 1713 |
+| Bancarmasin | 1526 | Baotou | 1809 |
+| Kanazawa | 1546 | Kuching (Sarawak) | 1827 |
+| Fukui | 1575 | **Hong Kong** | **1841-01-26** |
+| Morioka | 1597 | Kōchi | 1601 |
+| Matsuyama | 1602 | Matsue | 1607 |
+| Hirosaki | 1611 | | |
+
+**Hong Kong özel:** 1281-1841 arası Yuan/Ming/Qing zinciri **tamamen
+kaldırıldı**. Şehir 26 Ocak 1841'de kuruldu; öncesinde balıkçı adasıydı ve o
+dönemin sahibini komşu Kanton noktası taşıyor. Kalküta ve Singapur ile aynı
+desen.
+
+⚠️ **Eklenmeyen ama tartışmalı olanlar** — gerekçeleriyle bırakıldı:
+Kupang (1653 Hollanda kalesi) ve Dili (1769) **bölge temsilcisi** noktalardır;
+`kur:` eklenirse Timor 1281-1653 arası tamamen sahipsiz kalır ve adayı
+karşılayacak başka nokta yoktur. Mrauk U (şehir 1430) aynı sebeple Arakan
+krallığının tamamını taşıyor. Kanpûr, Bombay ve Şanghay'ın modern şehirleri
+sonradan büyüdü ama yerleşim 1281'de vardı — uydurma kuruluş tarihi yazılmadı.
 
 **4. `py arac/denetle.py`** — ana dosyanın bozulmadığı doğrulandı:
 ```
@@ -399,11 +452,201 @@ hiçbir devlete kırmızı verilmemeli.
 
 ## Sonraki oturumlara öneri
 
-1. **62-65°D şeridi** (Herat, Sîstan, Belûcistan, Mekran) — kutunun doğuya
-   açılmasının ön şartı. Sahipsiz: ne Oturum 4 ne bu oturum aldı.
-2. **Çin'e 25-30 nokta daha** — Yunnan-Guizhou, Gansu-Qinghai, Guangxi seyrek.
+> ### ⚠️ İKİNCİ TUR — köprü şeridi hakkında iki kez ölçtüm, iki kez düzelttim
+>
+> **İlk tur:** "62-65°D köprüsü boş, kutunun ön şartı."
+> **İkinci tur (geniş kuşak):** Afgan kuşağını (28-38K, **60-70°D**) ölçtüm,
+> ortanca 169 km çıktı ve "köprü sorunu yok, ayrı oturum gerekmiyor" dedim.
+> **Bu ölçüm YANLIŞ KUŞAKTAYDI** — 60-70°D bandı Kâbil ve Kandehar'ı içine
+> alıyor, yani asıl boş olan şeridi ortalamayla gizliyor.
+>
+> **Üçüncü ölçüm — dar şerit (23-40°K, 62-66°D), 932 kara hücresi:**
+>
+> | | ortanca | en kötü | >300 km |
+> |---|---|---|---|
+> | Dar şerit **62-66°D** | **220 km** | 417 km | **%19** |
+> | Geniş kuşak 60-70°D | 170 km | 587 km | %16 |
+>
+> 200 km'den uzak hücreleri yutan noktalar: **Merv (141 hücre)** ve
+> **Kandehar (87)**. Yani şerit boş bırakılırsa Merv'in peteği doğuya,
+> Kandehar'ınki batıya taşar. **Oturum 15'in köprü dosyası gerekli;
+> "gerekmiyor" demem hatalıydı.**
+>
+> Yine de sıralama değişmiyor: gerçek boşluklar hâlâ çok daha büyük
+> (`OTURUM-13-PENCERE-OLCUMU.md` §6) — **Kazak bozkırı** ortanca 509 km
+> (%79'u 300 km üstü) · **güney Sibirya** 759 km (%92) · **Tibet platosu**
+> 314 km (%53). Pencere bunlar doldurulmadan açılırsa Aigun'un peteği doğu
+> Sibirya'yı, Urga ve Kobdo'nunki güney Sibirya'yı, Banda Neira'nınki Yeni
+> Gine'yi boyar.
+
+### Oturum 11'in "şerit ayrı mı kalsın" sorusuna cevap: **EVET, ayrı kalsın**
+
+Oturum 11 ile aynı sonuçtayım, üç gerekçesini de kabul ediyorum (kendi
+brief'i ve dosyası var, coğrafyalar örtüşmüyor, tek dosya = tek sahip).
+Ölçümüm bunu destekliyor ve iki sayı ekliyor:
+
+- **`yerlesimler_asya.js`'in 344 noktasından 66°D'nin batısında yalnız 1 tane
+  var: Kandehar (65.710).** Oturum 11'in teşhisi birebir doğru; 62-65.7°D
+  gerçekten tamamen boş.
+- Şeridin doldurulması **benim dosyamın işi değil**: 62-66°D'deki boşluğu
+  yutan iki nokta (Merv ve Kandehar) iki AYRI oturuma ait, yani şerit ikisinin
+  de kenarında. Üçüncü bir sahip (Oturum 15) doğru çözüm.
+
+**Çârcûy (39.083/63.583) ve Kerki (37.833/65.200) bu dosyaya YAZILMADI ve
+yazılmayacak** — ikisi de köprü kutusunun (60-70°D / 23-40°K) içinde.
+Oturum 11'in tespitini onaylıyorum.
+
+⚠️ **Merv koordinat borcu benim tarafımı da ilgilendiriyor.** Ölçtüm:
+ortaçağ Merv'i (37.662/62.192) ile Kandehar arası **747 km** — taşıma bunu
+neredeyse hiç değiştirmiyor (bugünkü Mari'den 755 km). Yani şerit, iki
+oturumun en yakın noktaları arasında **750 km'lik bir delik**tir ve tek nokta
+kapatmaz. Herat (34.35/62.20) ikisinin tam ortasına düşüyor: Merv'e 369 km,
+Kandehar'a 448 km. **Köprü dosyası bu hatta en az iki-üç nokta koymalı**
+(Herat + Sebzevâr/Ferah + Girişk gibi), yoksa 300 km ölçütü tutmaz.
+
+1. **Kazak bozkırı + güney Sibirya** (~60-80 nokta) — pencerenin açılmasının
+   en büyük ön şartı. Köprü şeridi (Oturum 15) ondan sonra gelir.
+2. **Çin'e 25-30 nokta daha** — Yunnan-Guizhou, Gansu-Qinghai, Guangxi seyrek
+   (Çin içi ortanca 155 km, ama batı Çin/Tibet 314 km).
 3. **Orta Asya'nın 62°D doğusu** — Buhara, Semerkant, Taşkent, Hokand, Çârcûy.
    Oturum 11 bunları kutu yüzünden bırakmıştı; artık bu dosyanın Kaşgar-Yarkent
    ekseniyle birleşecek komşuları var.
 4. **Sibirya ve Rus doğu genişlemesi** — Harbin/Aigun/Lüşun zinciri kuzeyde
    boşluğa bakıyor.
+
+
+---
+
+# YENİ GÖREV — Anadolu Selçuklu + İlhanlı yapısı (2026-07-30)
+
+Merkez oturum yeni bir blok verdi: tarih çizgisini Kösedağ'a doğru geriye
+genişletmek. Payıma **Anadolu Selçuklu Devleti 1243-1308 + İlhanlı hâkimiyetinin
+şema karşılığı** düştü (beylikler Oturum 14'te).
+
+**Çıktı: `oturumlar/OTURUM-13-SELCUKLU.md`.** `data/yerlesimler.js`'e
+DOKUNULMADI — düzeltmeler liste hâlinde yazıldı, uygulama entegrasyonun.
+
+## Bu turda çıkan dört sonuç
+
+1. **Çapa tarihi düzeltildi:** merkez 26 Haziran 1243 demişti; TDV
+   `kosedag-savasi` **1 Temmuz 1243** (11 Muharrem 641) diyor, İbnü'l-Adîm
+   3 Temmuz. 26 Haziran hiçbir kaynakta yok.
+2. **`v:` seçeneği teknik olarak kapalı.** Motor ölçümü: `uret_petek.py`
+   §915-936 `v:` kümesini `OSM_HAVUZ`'a yazıyor, yani `v:` "tâbi" değil
+   "**Osmanlı'ya tâbi**" demek. Anadolu'ya 1243'te `v:` yazmak haritayı
+   Osman Gazi'den 56 yıl önce Osmanlı açık tonuna boyardı. Karar:
+   `s:{d:"selcuklu"}` 1243-07-01 → 1308-01-01.
+3. 🔴 **Mevcut veride 16 kayıt yanlış.** Sivas, Kayseri, Amasya, Tokat,
+   Erzincan, Erzurum ve 10 kayıt daha 1281'de `ilhanli` gösteriliyor; TDV
+   `selcuklular` bu şehirlerin 1280'de bizzat II. Mesud'a verildiğini,
+   TDV `erzurum` ise Erzurum'un "**yıkılmadan (1308) sonra** İlhanlılar'a
+   bağlandığını" yazıyor. Düzeltme listesi raporun §4'ünde; **epok
+   taşınmadan da uygulanabilir.**
+4. **Epok bugün taşınamaz.** Değişmez 1'in kendi yöntemiyle ölçüldü:
+   1245-1280 kesitleri eklenince sahipsiz sayısı **34 → 898** (artış 864).
+   Merkezin "önce veri, sonra epok" kuralı ölçümle doğrulandı.
+
+Ayrıca: Kızılırmak bölünmesi **1256-1262 değil 1259-1262**'dir (Mengü Han'ın
+yarlığı 657/1259) ve **çizilmemelidir**; Selçuklu'nun sonu **1308**'dir ve o
+zaten II. Mesud'un ölümüdür — soru "ya biri ya öteki" değil; **yeni kimlik ve
+yeni renk gerekmiyor**, `selcuklu` (#c2185b) ve `ilhanli` (#7a5ba0) `renkler.py`'de
+zaten var.
+
+## Yan bulgular (raporun §8'inde, ikinci kaynak bekliyor)
+
+- **Sinop 1259-1266 Trabzon Rum İmparatorluğu'nda** (TDV `kilicarslan-iv`).
+  Veride bu pencere hiç yok.
+- **1240'ta Selçuklu'ya tâbi beş devlet:** Kilikya Ermeni, Halep Eyyûbî,
+  Artuklu, Trabzon Rum, İznik Bizans (TDV `selcuklular`).
+- ⚠️ Şemada "**X devletine tâbi**" diye bir alan yok, yalnız "Osmanlı'ya tâbi"
+  var. Dünya kapsamında bu yapısal bir eksik — Oturum 16'ya bildirilmeli.
+- **Malatya/Divriği `memluk` 1281** ve **Erzurum'un `akkoyunlu` 1348** zinciri
+  TDV ile çelişiyor; kapsam dışı, kayda geçti.
+
+## Asya cepheleri (md.59/61/62) — hâlâ sırada
+
+Merkezin dediği gibi bu blok bekliyor. Yukarıdaki Asya yerleşim/pencere/kimlik
+işleri kapandı; cepheler açılmadı.
+
+## İkinci tur — merkezin dört sorusu (aynı gün)
+
+Girdi: `oturumlar/OTURUM-14-BEYLIKLER.md` (commit 7e477a8) + Oturum 3'ün kimlik
+envanteri. Çıktı: `OTURUM-13-SELCUKLU.md` **Bölüm II** (§11-16).
+
+- **(A) 1243-1256 boşluğu:** Anadolu için üç seçeneğin hiçbiri değil — Bölüm I §3
+  zaten "harita metbû boyamaz" demişti, o karar 1256 öncesine de aynen uygulanır:
+  **kesintisiz `selcuklu`**. Ama `mogol-imparatorlugu` **gerçekten gerekli**:
+  Anadolu için değil, 1281'de `ilhanli` olan 136 kaydın **Anadolu dışındaki
+  98'i** için. Kayıt `devletler.js`'te var (1206-1260) ama `harita:` alanı ve
+  rengi yok. Üstelik iş orada da bitmiyor — TDV `hulagu`: Alamut **19 Kasım
+  1256**, Bağdat **10 Şubat 1258**. Yani 1243-1258 arası Bağdat **Abbâsî**.
+- **(B) Kademe:** ölçümle çürüdü. Değişmez 1'in kendi yöntemiyle:
+  `1288 → +0 · 1277 → +864 · 1256 → +864 · 1243 → +864`. **Maliyet yokuş değil
+  uçurum**; eşik tek ve 1281'de, çünkü hiçbir kaydın 1281 öncesi dönemi yok.
+  Aynı 864 kayda dokunulacaksa doğrudan 1243 daha kârlı. **Kademe A'ya (1288)
+  katılmadım** — dayandığı "İnegöl/Bilecik sahipsiz" iddiası eskimiş; ikisi de
+  `bizans` 1281→1299, sahipsiz 34'ün tamamı çöl/Arabistan.
+  864'ün iş dağılımı ölçüldü: Anadolu 222 · Avrupa 263 · İran-Irak 146 ·
+  Arabistan 99 · diğer 134.
+- **(C) Dokuz çekişmeli toprak:** sekizinin tarafımı yazdım. İki sonuç öne çıktı:
+  **Kütahya'da düzeltme gerekmiyor** (TDV `kutahya`: 1300 kitâbesi Germiyan'ın
+  Selçuklu hâkimiyetini tanıdığını gösteriyor; mevcut veri kaynağın tam
+  karşılığı), ve **Alâiye'de Oturum 14 yanılmış** — TDV `alanya`: Kıbrıs şehri
+  **1221'de** kaybetti, 1243'te değil. Pencerede Latin hâkimiyeti yok; bugünkü
+  veri de ters (`karaman` 1281→1293 yazıyor, `selcuklu` olmalıydı).
+  Konya Cimri penceresi gün hassasiyetinde: **1277-05-14 → 1277-06-20.**
+- **(D) Hayalet devlet:** Kıbrıs ve Trabzon riski **yok** (`lusignan` #8a6ba0 ve
+  `trabzon-rum` #00838f var). Ama **iki gerçek hayalet bulundu:**
+  `artuklu` Harput-Çemişgezek-Palu'da **56 yıl** (Oturum 3'ün sayısı; asıl hata
+  231 yıl — TDV `harput`: Artuklu 1234'te bitmiş, 1465 Akkoyunlu'nun tarihi) ve
+  `ilhanli` Konya-Niğde'de **13 yıl** (devlet 1353'te bitiyor, veri 1366 diyor;
+  doğru sahip `eretna`). Ayrıca **`mengucuk` kimliği hiç yok** — 1243'te yaşayan
+  iki beylikten biri; Divriği bugün `memluk` gösteriliyor.
+
+Yeni renk ihtiyacı üç kimlik: `mogol-imparatorlugu` · `mengucuk` · `abbasi`.
+Bölüm I'in "yeni renk gerekmiyor" hükmü yalnız Anadolu için geçerliydi, öyle kaldı.
+
+## Üçüncü tur — hatalar 13 ANADOLU BLOĞU (aynı gün)
+
+Çıktı: `oturumlar/OTURUM-13-ANADOLU.md` + `data/olaylar_ek11.js` (üç madde).
+`data/yerlesimler.js`'e dokunulmadı (petek üretimi koşuyordu).
+
+Merkezin istediği gibi **önce zincir** çıkarıldı: 1381-1429 arası 20 kırılma,
+hangi beylik hangi yöne. Zincirin okunuşu tek satırda: **ilhak → iade → yeniden
+ilhak dizisi tutarsızlık değil, tarihin kendisi.** Ortadaki halka `1402-09-15
+Timur Anadolu beyliklerini yeniden kurdu` maddesi. Bu md.12'yi tek başına
+açıklıyor.
+
+- **md.5 — kullanıcının şüphesi kalktı.** Karaman'ın kısmî ilhakı GERÇEK:
+  TDV `karamanogullari` *"Şeyh Hasan idaresindeki İç İl müstesna"* diyor. Ama
+  **Niğde yanlış tarafta** — TDV onu Lârende ile birlikte sayıyor, veride
+  1366-1468 kesintisiz `karaman`. Tek kayıtlık düzeltme.
+- **md.6 = md.7, tek hata, üç kayıt.** Ölçüm: 1402-07-28'de Osmanlı olan
+  93 kayıt Fetret zincirini taşıyor, **3 tanesi taşımıyor** — Edremit, Erdek,
+  **Ayvalık**. Üçü de 1345-1923 kesintisiz Osmanlı. Kullanıcının "sadece Osmanlı
+  toprağı buralarmış algısı" tam bu üç noktadır. Komşularının (Bergama,
+  Balıkesir, Biga) zinciri kopyalanacak; **yeni madde gerekmiyor**, beş
+  kırılmanın beşi de maddeli.
+  Şehzade kimlikleri ise doğru karar: dördü de kendi sikkesini bastı ve
+  `renkler.py` onları Osmanlı kırmızısının tonlarıyla boyuyor.
+- **md.12 — haritada hata YOK.** 1381 çeyizi TDV'nin saydığı dört yerleşimin
+  (Kütahya, Simav, Emet, Tavşanlı) birebir aynısı; 1390 tam ilhak; 1402 iade;
+  1429 vasiyet. Kusur **1390 maddesinin başlığında**: Germiyan toprağını
+  taşıdığı hâlde başlıkta yalnız Saruhan-Aydın-Menteşe yazıyor.
+- **md.9-10 — gerçek**, iki madde yazıldı (1422 dönüş, 1426 son). İki tarih
+  kaynakla oynuyor: `1421-08-15` Cüneyd'in dönüşü değil Mustafa'nın
+  ayaklanmasıdır (TDV: 1422); `1425-06-01` ise **829 hicrî yılından erkendir**
+  (TDV `aydinogullari` 1425-26, `cuneyd-bey` 1426).
+- **md.4 — Timur'a özel eksik değil.** Bağdat 1281-1508 arası **tek `iran`
+  bloğu** ve Celâyirli (1339-1410), iki Timur işgali (1393, 1401), Karakoyunlu
+  (1410-1467), Akkoyunlu — **dördünü birden** siliyor. 1401 maddesi yazıldı ama
+  tek başına haritayı değiştirmez; `celayir` kimliği yok, Irak ayrı görev.
+
+🔴 **İki dosya index.html'e bağlanmamış:** `olaylar_ek11.js` (benim) ve
+`olaylar_ek10.js` (Oturum 11'in). `OGRENILENLER §15` vakası birebir tekrar
+ediyor — `denetle.py` sayıyor ve temiz diyor, tarayıcı yüklemiyor.
+
+Yan bulgu: sahipsiz sayısı **34 → 40** (altı yeni Libya çölü noktası, kasıtlı).
+`CLAUDE.md §1.5` ve `§3` hâlâ 34 diyor, güncellenmeli.
+
+Denetim: `SONUÇ: temiz` — 452 kırılma 0 açık, mükerrer 0 şüpheli çift.

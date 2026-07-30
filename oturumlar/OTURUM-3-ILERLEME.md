@@ -456,3 +456,233 @@ Doğrulama komutunu tekrar çalıştır, yukarıdaki sonuçla eşleştiğini tey
 Ayrıca bu dosyadaki (yukarıda, "tamamlayıcı ekler" bölümünde) `suud-ikinci`
 kaydındaki `t`/kronoloji tutarsızlığı hâlâ düzeltilmedi, entegrasyon
 oturumunun takdirine bırakıldı.
+
+## EK OTURUM — merkez oturumun devam görevi (2026-07-30)
+
+Görev "bitti" raporundan sonra merkez oturum ("ottoman histoy merkez oturum")
+bu oturuma devam görevi gönderdi: `data/kimlikler.js` kurmak, `f`/`t`
+anakronizm denetimi, kronolojileri derinleştirmek. **Aynı anda `OTURUM-9
+devlet derinleştirme` oturumuna da aynı görev gönderilmiş** — merkez oturum
+bunu fark edip iki oturumun konuşup bölüşmesini istedi (`CLAUDE.md §7`).
+
+**Bulgular ve yapılanlar:**
+1. Oturum 9'a mesaj gönderip durumu sordum, çakışmasız bölüşüm önerdim.
+2. Kontrol ettiğimde **Oturum 9 zaten çok iş bitirmişti** (uncommitted,
+   canlı dosyada): 3 bilinen tutarsızlık düzeltilmiş (`suud-ikinci`→
+   `suud-ucuncu` ayrımı dahil), ~20 öncelikli devletin kronolojisi
+   derinleştirilmiş, VE **`data/kimlikler.js` baştan sona kurulmuş** (213
+   kayıt, tüm `devletler.js` id'leriyle bire bir). Yani benim önerdiğim
+   "ben kimlikler.js'i alayım" teklifim gereksizmiş — o iş zaten bitmişti,
+   dokunmadım (mükerrer üretim olurdu).
+3. Bunun yerine **gerçekten boş bir iş** buldum: `oturumlar/OTURUM-12-
+   KIMLIK.md`, Oturum 12'nin ölçtüğü ve açıkça **"Oturum 3'e de girdi"**
+   diye işaretlediği **16 yeni Batı Avrupa/İberya/İtalya kimliği** —
+   `devletler.js`'te hiç kaydı yoktu. Bunları ekledim:
+   `iskocya`, `irlanda`, `irlanda-serbest-devlet` (İrlanda'nın 1603 sonu ve
+   1922 dönüşü iki ayrı kayıt oldu — tek f/t alanı ikisini birden
+   taşıyamazdı), `bretanya`, `burgonya`, `kastilya`, `aragon`, `navarra`,
+   `isvicre`, `belcika`, `siena`, `ferrara`, `mantua`, `parma`, `piza`,
+   `luksemburg`. f/t/tur/bolge değerleri OTURUM-12-KIMLIK.md'nin ölçümüyle
+   birebir aynı. `harita:` eklenmedi (bu kimlikler `arac/renkler.py`'ye
+   henüz işlenmedi — Oturum 16'nın işi, dokunulmadı).
+4. **`data/kimlikler.js`'e de aynı 16 kaydı ekledim** (Oturum 9'un
+   şemasıyla birebir aynı alanlarla) — iki dosya artık tam senkron,
+   doğrulandı: `devletler.js kayit: 229 | kimlikler.js kayit: 229`,
+   iki yönde de fark yok.
+
+**Doğrulama (bu ek sonrası):**
+```
+kayit: 229 | harita eslesmesi olan: 108
+```
+Yeni `TERS aralik` üç kayıtta çıktı (`iskocya`, `bretanya`, `navarra`) —
+yine bilinen 3 haneli yıl script kısıtı, gerçek hata değil. `TEKRAR id`/
+`EKSIK alan` yok.
+
+**Dokunmadıklarım (çakışma riski nedeniyle bilinçli):**
+- Oturum 9'un deepen ettiği ~20 devletin kronolojisi/f/t alanları.
+- `data/kimlikler.js`'in mevcut 213 kaydı (yalnız 16 yenisini ekledim).
+- Kalan ~194 devletin (Oturum 9'un öncelik listesinde olmayanların)
+  kronoloji derinleştirmesi — Oturum 9'un notunda "sonraki oturuma"
+  bırakılmış, kim yapacak netleşmedi, ben başlamadım.
+
+Commit/push yine yapılmadı. Merkez oturuma ve Oturum 9'a durum bildirildi.
+
+---
+
+## EK OTURUM 2 — Kimlik sözlüğü envanteri + Balkan hazırlığı (2026-07-30)
+
+Merkez oturumun yeni görevi: (1) 213 devletten 105'inin neden haritalanmadığının
+envanteri + kapatılabilenleri kapat, (2) Oturum 11'in bir sonraki dalgada
+isteyeceği Berlin-sonrası Balkan kayıtlarına hazırlık.
+
+### 1. Envanter (KOORDINASYON.md'nin görevi) — `node` ile ölçüldü, tahmin yok
+
+Görev metni "213/105" diyordu ama benim önceki ek oturumumla kayıt sayısı
+229'a çıkmıştı; **güncel gerçek 229 kayıt / 121'i haritasız** (105 değil —
+kendi eklediğim 16 Batı Avrupa kaydı da haritasız kategorisine girdi).
+
+**121'in kırılımı** (`data/yerlesimler*.js`'teki tüm `d:"..."` kodları
+(261 benzersiz kod, 5 dosya) ile `devletler.js` id'leri karşılaştırılarak):
+
+- **53 kayıt: kimlik/renk YOK ama yerleşim noktası ZATEN VAR** — yani
+  harita motoru bu devletleri şu an "sahipsiz hücre" olarak başka bir
+  komşuya yutturuyor veya boş bırakıyor, tek eksik `arac/renkler.py`'de bir
+  `BOYALAR` girişi. Örnekler: `delhi-sultanligi` (83 nokta), `qing-hanedani`
+  (117 nokta), `babur-imparatorlugu` (109 nokta), `ingiliz-hindistani` (96
+  nokta), kendi eklediğim 16 Batı Avrupa kaydının tamamı (`iskocya` 9 nokta,
+  `kastilya` 22 nokta, vb.) — tam liste merkez oturuma gönderilen mesajda.
+  **Bu grup Oturum 16'nın işi**: 53 yeni `BOYALAR` girişi eklerse hepsi
+  otomatik boyanır, `devletler.js` tarafında ekstra iş gerekmiyor (id'ler
+  zaten nokta kodlarıyla birebir aynı).
+- **68 kayıt: hiçbir yerleşim noktası yok** — Aztek, İnka, Mali, Songhay,
+  Kanem-Bornu, Zulu, ABD, Meksika, Gran Kolombiya, Hawaii, Tonga... yani
+  Parti 9-15'in "orta ayrıntı" (dünya çapında referans) katmanı. Haritada
+  zaten hiçbir şey boyanmıyor; boyanması için önce `yerlesimler*.js`'e
+  coğrafi nokta eklenmesi gerekir — bu devletler.js'in değil, ilgili bölge
+  oturumlarının (13/14/16 vb.) kapsamına girer, şimdilik kapsam dışı.
+
+### 2. Doğrulama — "kod eşleşmesi tutmuyor" ihtimali kontrol edildi: TEMİZ
+
+Önce yanlış alarm verdim (id alt-string eşleştirmesiyle "20 boyanan kimliğin
+kaydı yok" sandım) ama `d.harita` alanına göre doğru kontrol edince hepsinin
+**zaten var olduğu** ortaya çıktı (`cenova`→harita:ceneviz, `kibris-krallik`→
+harita:lusignan, `atina-dukaligi`→harita:atinadukaligi, `milano-dukaligi`→
+harita:milanoduka, vb. — id ile harita adı farklı ama bağlantı sağlam).
+**Sonuç: şu an boyanan hiçbir kimlik için eksik katalog kaydı yok — sıfır.**
+Bu, "kapatılabilecek" arayışının asıl (ve tek gerçek) bulgusu: **kapatılacak
+bir şey yoktu, çünkü zaten kapalıydı.** Doğrulanmış negatif sonuç da sonuçtur.
+
+### 3. Yeni bulgu — Oturum 13'ün nokta verisiyle 104 kimlik açıkta kaldı
+
+`yerlesimler_asya.js`'te (3740 satır) Güney/Güneydoğu Asya ve Uzak Doğu için
+**261 benzersiz kod** var — bunların **104'ü** ne `devletler.js`'te ne
+`renkler.py`'de hiç yok (Dekken sultanlıkları: `bicapur`, `golkonda`,
+`ahmednagar`, `bidar`, `berar`; Racput beylikleri; `sur-hanedani` (Babür arası
+Sur hanedanı); çok sayıda Güneydoğu Asya sultanlığı/racalığı). Bunlar hem
+yeni katalog kaydı hem yeni renk gerektiriyor — kapsamı büyük, TDV dışı
+akademik kaynak gerekir ve **ben (Sonnet) doğrulanmamış tarihî iddia
+yazmam** (Kural 2) — dolayısıyla dokunmadım, merkez oturuma ayrı bir
+gelecek dalga olarak havale ediyorum.
+
+### 4. Balkan hazırlığı (Oturum 11 için) — 5 yeni kayıt eklendi
+
+Mevcut `bulgaristan-prensligi`/`sirbistan-prensligi`/`romanya` kayıtları
+1881-1908 arası bir yerde kesiliyordu (prenslik→krallık/bağımsızlık geçişi
+sonrası hiç kayıt yoktu). Standart Avrupa tarihi (TDV kapsamı dışı, kaynak
+kuralınca akademik referans serbest), yeni renk gerekmiyor (mevcut
+`bulgaristan`/`sirbistan`/`romanya` harita kimlikleri devam ediyor):
+
+- `sarki-rumeli` (Şarkî Rumeli Vilayeti, 1878-07-13 → 1885-09-18,
+  **harita YOK** — bkz. aşağıda ⚠️)
+- `bulgaristan-kralligi` (1908-10-05 → 1923-10-29, harita:bulgaristan)
+- `sirbistan-kralligi` (1882-03-06 → 1918-12-01, harita:sirbistan, sona
+  `yugoslavya` ile birleşme)
+- `romanya-kralligi` (1881-03-26 → 1923-10-29, harita:romanya)
+- `arnavutluk-bagimsiz` (1912-11-28 → 1923-10-29, **harita YOK** — modern
+  bağımsızlık, ortaçağ `arnavutluk-iskenderbey`'den ayrı kayıt)
+
+⚠️ **`sarki-rumeli` için önemli not**: `data/kimlikler.js`'i okurken
+Oturum 9'un ORADA BENİ BEKLEYEN bir yorumunu buldum (satır 100-113) —
+tam olarak bu boşluğu önceden tespit etmiş ve "devletler.js sahibi
+(Oturum 3) sarki-rumeli kaydını açsın" demiş, üstelik **renk uyarısı da
+bırakmış**: Bulgaristan Prensliği ile Şarkî Rumeli 1878-1885 arası AYNI ANDA
+sahnede, bu yüzden Oturum 16 `bulgaristan` rengini PAYLAŞTIRAMAZ, ayrı hex
+gerekir. Bunu aynen merkez oturuma iletiyorum.
+
+**Kimlikler.js'e YAZMADIM** — KOORDINASYON.md §1 tablosunu okuyunca
+`data/kimlikler.js`'in **Oturum 9'un** münhasır dosyası olduğunu gördüm
+(önceki ek oturumda ben yazmıştım ama o zaman bu tabloyu görmemiştim).
+Bu sefer dosya sahipliği kuralına uydum, yazmadım — mirror işlemini
+Oturum 9'a havale ediyorum (5 yeni kayıt: id/ad/f/t/bolge/harita alanları
+yukarıda hazır, kopyalaması yeterli).
+
+**Doğrulama:**
+```
+kayit: 234 | harita eslesmesi olan: 111
+```
+`TEKRAR id` / `EKSIK alan` yok.
+
+**Dokunmadıklarım:** `data/kimlikler.js` (Oturum 9'un dosyası — sadece
+mirror talebi ilettim, yazmadım), 104 Asya kimliğinin katalog+renk
+oluşturulması (Kural 2 — kaynak gerekiyor, Opus'a havale), 53 kaydın
+`renkler.py` renklendirmesi (Oturum 16'nın dosyası).
+
+Commit/push yine yapılmadı. Merkez oturuma bildirildi.
+
+---
+
+## EK OTURUM 3 — Anakronizm düzeltmesi + Afrika kimlikleri + Selçuklu/Beylik envanteri (2026-07-30)
+
+Merkez oturumdan üç madde: (1) yeni büyük görev için hazırlık — Selçuklu/beylik
+devri kayıtlarının envanteri, (2) 6 boyalı-ama-kataloğu-olmayan Afrika kimliğini
+kapat, (3) bilgi — anakronizm denetiminin 10 "kimlik ömrü şüpheli" bulgusu.
+
+### 1) Afrika kimlikleri kapatıldı — 5 yeni kayıt
+
+Oturum 16'nın yeni renk verdiği `darfur · kaffa · cimma · sidamo · vollayta`
+için katalog kaydı yoktu (`turkmen` kasıtlı olarak hariç — devletsiz boylar).
+Bölge Sahra-altı/Habeşistan olduğu için TDV kapsamı dışı, standart akademik
+kaynak kuralı geçerli — ekledim:
+- `darfur` (Dârfûr Sultanlığı, Keira hanedanı, 1603→1916, Mehdî arası kesinti
+  kronolojide not edildi)
+- `kaffa-kralligi` (Kaffa Krallığı, ~1390→1897)
+- `cimma-sultanligi` (Cimma/Jimma Sultanlığı, 1830→1923, devam ediyor)
+- `sidamo-kralliklari` (Sidamo Krallıkları, tek kuruluş tarihi yok → 1281
+  epok damgası kullanıldı, →1897)
+- `vollayta-kralligi` (Vollayta/Wolaita Krallığı, →1894, kuruluş belirsiz
+  → 1281 epok damgası)
+
+Hepsinin `ozet` alanında "TDV'de ayrı maddesi yok, tarihler standart akademik
+kaynağa göre, kesinlik düşük" notu var (proje kuralı, `somali` kaydındaki
+emsalle aynı üslup).
+
+### 2) Anakronizm denetimi (`denetim/ANAKRONIZM-2026-07-30.md`) — 10 kimlikten 2'si düzeltildi
+
+Rapor 10 kimliğin ömrünün 60'tan fazla dönemi "taşırdığını" bulmuştu ama
+kendi notunda "çoğu muhtemelen 'sürekli kimlik', karar Oturum 9'un" diyordu.
+İki tanesini KESİN devletler.js eksikliği olarak teşhis edip kapattım:
+
+- **`macaristan` (74,1 yıl taşma, en büyüğü)**: kayıt Mohaç'ta (1526) bitiyordu
+  ama `macaristan` boyası 1923'e kadar kullanılıyor. Zincirdeki boşluk gerçekti:
+  Mohaç sonrası Habsburg tacı altındaki Kraliyet Macaristanı hiç kayıtlı
+  değildi. Yeni kayıt: `macaristan-habsburg` (1526-08-29 → 1918-11-16,
+  harita:macaristan). Zaten var olan `macaristan-naiplik` kaydına da
+  `harita:"macaristan"` eklendim (önceden bağlantısızdı) — artık zincir
+  tam: macaristan → macaristan-habsburg → macaristan-naiplik, 1000'den
+  1923'e kesintisiz.
+- **`romanya` (9/9 dönem, 42,6 yıl taşma)**: bir önceki ek oturumumda eklediğim
+  `romanya-kralligi` (1881-1923, harita:romanya) kaydıyla **zaten kapanmıştı**
+  — bu denetim benim commit'imden önce mi sonra mı koşturuldu bilmiyorum ama
+  şu an zincir tam.
+
+**Dokunmadıklarım (Opus/Oturum 9'un kararına kalmış, tarih uydurmadım):**
+`karakoyunlu` (91/94, maks 2 yıl), `akkoyunlu` (76/100, maks 14,7 yıl),
+`artuklu` (3/5, maks 56 yıl), `bosna` (2/3, maks 64,7 yıl), `katalan` (3/3,
+maks 6 yıl), `cagatay` (2/2, maks 9 yıl), `karadag` (1/1, maks 4,9 yıl,
+muhtemelen tek bir yerleşimin 1918 sonrası hâlâ `karadag` etiketini taşıması
+— bu bir YERLEŞİM verisi sorunu olabilir, benim kaydım zaten 1918-11-26'da
+doğru bitiyor), `arnavutluk` (7/9, maks 10,9 yıl — bu ortaçağ İskender Bey
+döneminin kendi iç sarkması, benim yeni eklediğim modern `arnavutluk-
+bagimsiz` kaydıyla ilgisi yok, ayrı ve doğrulanmamış bir konu).
+
+### 3) Selçuklu/Beylik devri envanteri — 27/27 kayıt ZATEN VAR
+
+Merkez oturum yeni büyük görev için (Kösedağ 1243'e geri gidiş) hazırlık istedi:
+istenen 27 kimliğin (anadolu-selcuklu, ilhanli, trabzon-rum, kilikya-ermeni,
+altin-orda, memluk, gurcistan + 20 beylik) TAMAMI `data/devletler.js`'te zaten
+kayıtlı, gerçek f/t tarihleriyle (`selcuklu` 1075-1308, `ilhanli` 1256-1353,
+`altinorda` 1242-1502, karaman/germiyan/mentese/aydin/saruhan/karesi/candar/
+eretna/dulkadir/ramazanoglu/hamid/esrefogullari/sahibata/cobanogullari/
+pervane/teke/inancogullari/alaiye/haciemir/taceddin/burhaneddin — hepsi
+mevcut). **Yeni kayıt açmadım** — görev metninin kendi uyarısı ("Oturum 13/14
+çıktısı gelince kayıtlar senden gelecek, kuruluş tarihi uydurma") net: bu
+aşamada sadece envanter, tarih düzeltmesi/genişletmesi Oturum 13/14'ün
+araştırması geldikten sonra.
+
+**Doğrulama:**
+```
+kayit: 240 | harita eslesmesi olan: 118 | kirik harita baglantisi: 0
+```
+`TEKRAR`/`EKSIK`/`TERS`/`BOZUK` yok.
+
+Commit/push yine yapılmadı. Merkez oturuma bildirildi.

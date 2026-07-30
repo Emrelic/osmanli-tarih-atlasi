@@ -1,5 +1,248 @@
 # Oturum 4 — İran, Irak, Doğu Kafkasya ve Körfez yerleşim katmanı · İLERLEME
 
+---
+# TUR 2 — devam görevi (merkez oturum, 2026-07-30)
+
+## 🔒 Kilit durumu: YAZMADIM, yazamam
+
+Devam görevi bana `data/yerlesimler.js`'i verdi. **Dosyaya dokunmadım**, çünkü
+görev boyunca sürekli **üç eşzamanlı Python koşusu** girdi dosyalarını okuyordu:
+
+```
+11:14:04  py.exe   ← Oturum 13'ün pencere maliyeti ölçümü (girdi.oku_dosya ile
+                     yerlesimler.js + afrika + asya + avrupa okuyor, 3 aşamalı)
+11:20 / 11:25 / 11:28 / 11:32  ← art arda başlayan iki koşu daha
+11:32:50  ölçüm anı: 11:14 koşusu hâlâ ayakta (19 dakika)
+```
+
+`CLAUDE.md §7` ve `OGRENILENLER.md §4`: *kilidi ilân eden değil, BIRAKAN taraf
+açar* — ve yedi üretim tam olarak "dosya temiz görünüyor, kilit yok" diye bakıp
+yazıldığı için çöpe gitti. Ayrıca Oturum 13'ün ölçümü üç `olc()` çağrısında
+girdiyi **üç kez ayrı ayrı** okuyor; arada nokta sayısı değişirse çıkardığı
+`x kat` oranı sessizce anlamsızlaşır.
+
+**Bu yüzden bütün veri değişikliğini ölçülmüş ve doğrulanmış bir yamaya
+paketledim, uygulamadım.** Merkez oturum "girdi sabit, dosya senin" dediğinde
+tek komut:
+
+```bash
+py yama_sehrizor.py --uygula
+```
+
+Yama: `…\scratchpad\yama_sehrizor.py` (`--prova` girdi.py'nin **katı**
+okuyucusuyla doğrular, `data/`'ya dokunmaz).
+
+---
+
+## Öncelik 1 — `kur:` alanı: ölçüldü, bölgede borç YOK
+
+Devam görevi *"İran'da 1281'de var olmayan yerleşim çok"* diyor. **Ölçtüm ve
+bu bölgede öyle değil.**
+
+| | |
+|---|---|
+| Görev kutusundaki canlı nokta | **257** |
+| `kur:` olan | **16** |
+| Sahne eğrisi (kutu) | 1281: **241** → 1923: **257** |
+| Sahne eğrisi (bütün canlı veri) | 1281: 883 → 1923: 917 |
+
+Devam görevinin örnek verdiği beş yerleşimin **üçü zaten yazılıydı** (Senendec
+1636, Bender Abbas 1622, Ferahâbâd 1611 — üçü de benim ilk turumdan).
+Kalan ikisi ölçüldüğünde **yazılmaması gerektiği** çıktı:
+
+### ⛔ Tahran'a `kur:` YAZILMAMALI
+TDV **TAHRAN** (slug `tahran`, `<title>` doğrulandı) açıkça:
+> *"Adının nereden geldiği ve bu yerleşim yerinin ne zaman kurulduğu
+> **bilinmemektedir**."*
+
+Ve dahası, Tahran pencerenin başında zaten vardı: Yâkūt el-Hamevî 1221'de
+"on iki mahalleden oluşan **büyük bir köy**" diye tarif ediyor; 1349 İlhanlı
+bütçesinde Rey'e bağlı on bir yerleşimden biri olarak geçiyor; Müstevfî
+XIV. yüzyıl ortasında "muteber bir **kasaba**" diyor.
+
+**1786 Tahran'ın kuruluşu değil, BAŞKENT oluşudur.** `kur:"1786"` yazmak
+`OGRENILENLER.md §8`'in tam ihlali olurdu — uydurulmuş kesinlik. Kaçar
+başkentliği ayrı bir alan istiyorsa o `kur:` değil, `kd:` işidir.
+
+### ⛔ Bender Enzeli — tarih bulunamadı
+TDV GÎLÂN maddesi Enzeli'yi önemli liman olarak anıyor ama kuruluş tarihi
+vermiyor; `enzeli` diye müstakil madde **yok** (`<title>` ile denendi).
+Yuvarlamak yerine **boş bırakıldı** (§8).
+
+### ⛔ Riyad ve Ammâre — ikisi de `kur:` almaz
+* TDV **RİYAD** (`riyad`): bölge *"eskiden beri iskân görmüş"*, İslâm
+  coğrafyacılarında Hacrülyemâme adıyla geçiyor. Kuruluş tarihi yok.
+* TDV **AMÂRE** (`amare`): *"XVII. yüzyılda bir köy görünümünde olan Amâre"* —
+  1862'de Nâmık Paşa'nın ordugâhıyla şehirleşti, ama yerleşim **önceden vardı.**
+  1862 şehirleşme tarihi, kuruluş değil.
+
+### Kalan aday 6-9 nokta ve hiçbiri TDV'den tarihlenemiyor
+`Kût el-Amâre` · `Dîvâniye` · `Halepçe` · `Rewândiz` · `Şârika` ·
+`Ras el-Hayme` kasabası. Hepsi için `<title>` ile arandı: **TDV maddesi yok**
+(`kut`, `divaniye`, `halepce`, `sarja` — dördü de boş döndü).
+
+**Ölçülmüş sonuç:** bu bölgenin gerçek `kur:` tavanı ~22-25 nokta, yazılı olan
+16. Yani kutunun katkısı **6-9 nokta** — ve dokuzu da kaynaksız. `DURUM.md`
+§b'deki 851→892 düzlüğü **İran-Irak kaynaklı değil**: burası antik şehir
+coğrafyası, çoğu yerleşim 1281'de gerçekten vardı. Borç Amerika, Rusya, sömürge
+Afrika ve Sibirya'da; oralarda 1281'de var olmayan şehir oranı çok yüksek.
+
+### ⚠️ `arac/girdi.py`'ye eklenmesi gereken iki satır (Oturum 16)
+`girdi.py`'nin kendi belgesi *"Yeni bir isteğe bağlı alan eklenirse (kur:, bit:,
+kd:) varsayılanı BURAYA yazılır"* diyor ama `VARSAYILAN` sözlüğünde **`kur` ve
+`bit` yok.** Motor bu alanları okumaya başladığı gün `y["kur"]` **`KeyError`**
+verir — Afrika partisindeki `KeyError: 'd'` vakasının birebir aynısı
+(`OGRENILENLER.md §2`). Şu an 34 kayıtta `kur:`, 3 kayıtta `bit:` var:
+
+```python
+"kur": None,     # kuruluş tarihi; None = pencere başından beri var
+"bit": None,     # yok oluş / terk tarihi
+```
+
+---
+
+## Öncelik 2 — Gîlân ve Mâzenderan kimlik dosyası: HAZIR
+
+**`oturumlar/OTURUM-4-KIMLIK-DOSYASI.md`** yazıldı. `arac/renkler.py`'ye
+dokunulmadı. İçinde: id, görünen ad, TDV'den ölçülmüş f/t, merkez, hânedan
+zinciri, etkilenen yerleşimler ve **ölçülmüş DSATUR komşuluk kümesi**
+(dört kesit: 1300/1400/1500/1590).
+
+Özet: `gilan` 1281-1592 (Kâr-Kiyâ · İshâkiyye, 3 nokta) ·
+`mazenderan` 1281-1596 (Bâvendî 665-1349 → Efrâsiyâbî 1349-1359 →
+Mar'aşî 1359-1596, 4 nokta). İkisi birbirine komşudur, aynı rengi alamazlar.
+
+### ⚠️ Devam görevinin listesinde bir hata var: Ferahâbâd
+Ferahâbâd "1596'ya kadar kasten `iran`" grubunda gösterilmiş. Ama kaydında
+**`kur:"1611-01-01"`** var — şehri I. Şah Abbas 1611'de kurdurdu, 1596'da
+**henüz yoktu.** `mazenderan` yazılırsa hiç var olmadığı **261 yıl** boyunca
+Mâzenderan beyliği rengiyle boyanır. **Ferahâbâd Safevî doğumludur, `safevi`
+kalmalı.** Kimlik dosyasındaki etkilenen liste 5 değil **4** nokta.
+
+---
+
+## Öncelik 3 — Merv koordinat borcu: ÖLÇÜLDÜ, teyit
+
+```
+kayıttaki  Merv (Mari)   37.5936 / 61.8333
+gerçek ortaçağ Merv      37.662  / 62.192
+sapma                    32.5 km      ← devam görevindeki "~32 km" doğru
+```
+
+62.192 > 62, yani `box(-12,1.5,62,62)`'nin **0,192° dışında**. Kayıt bugün
+Mari'de duruyor ve bu **doğru karar** — düzeltmek pencere açılmasını bekler.
+`DURUM.md` Faz A.1. Not olarak duruyor, değişiklik yapılmadı.
+
+---
+
+## Öncelik 4 — Doğu sınırı ve 62-65°D köprü şeridi: ÖLÇÜLDÜ
+
+**Kesilen nokta yok:** canlı veride `lon > 62` olan **0** kayıt var. Yani
+"İran'ın doğusu kesiliyor" sorunu nokta kaybı değil, **petek kırpılması.**
+
+**62°D kenarına dayanan 28 canlı nokta** (peteği kutuda kırpılanlar), doğudan
+batıya: Zerenc 61,861 · Merv (Mari) 61,833 · Hâş 61,216 · Serahs 61,161 ·
+Hazârasp 61,070 · Çâhbahâr 60,643 · Yeni Ürgenç 60,633 · Turbet-i Câm 60,624 ·
+Bempûr 60,459 · Hîve 60,364 · Kelât-ı Nâdirî 59,750 · Ebîverd 59,617 ·
+Meşhed 59,606 · Tûs 59,522 · Sûr 59,520 · Bîrcend 59,221 ·
+Turbet-i Haydariye 59,219 · Kâin 59,183 · Köhne Ürgenç 59,150 · Küngrat 58,833 ·
+Nîşâbur 58,796 · Masira 58,781 · Kûçân 58,510 · Karakum 58,500 ·
+Turşiz 58,466 · Maskat 58,408 · Bem 58,357 · Nesâ 58,183.
+
+### 🔴 Köprü şeridi ölçümü — Oturum 13 için kritik
+
+```
+62-65°D bandında nokta: 0   (canlı + Afrika + Asya + Avrupa, HEPSİ birlikte)
+en geniş boylam boşluğu: 3,85°   (61,86 -> 65,71)
+Asya partisinin en batı kovası: 65-70°D, yalnız 8 nokta
+```
+
+Sınırın iki yakası arasındaki gerçek mesafe (canlı nokta → en yakın Asya noktası):
+
+| Canlı nokta | lon | En yakın Asya noktası |
+|---|---|---|
+| Zerenc (Sîstan) | 61,86 | **373 km** — Kandehar |
+| Hâş | 61,22 | 574 km — Kandehar |
+| Turbet-i Câm | 60,62 | 621 km — Kandehar |
+| Çâhbahâr | 60,64 | 643 km — Karaçi |
+| Serahs | 61,16 | 690 km — Kandehar |
+| Merv (Mari) | 61,83 | **742 km** — Kâbil |
+| Kelât-ı Nâdirî | 59,75 | 810 km — Kandehar |
+| Ebîverd | 59,62 | 893 km — Kandehar |
+| Hazârasp | 61,07 | 1036 km — Kâbil |
+| Yeni Ürgenç | 60,63 | 1080 km — Kâbil |
+| Hîve | 60,36 | **1084 km** — Kâbil |
+
+**Sonuç: pencere 62'den 150'ye açılırsa, 373-1084 km genişliğinde sahipsiz bir
+koridor açılır** ve `CLAUDE.md §2`'deki emilme davranışı kıta ölçeğinde
+tekrarlanır — Meşhed'in peteği Herat'ı, Hîve'nin peteği Buhara'yı boyar.
+Sardinya'nın 1533'te Osmanlı görünmesiyle aynı hata sınıfı, 30 kat büyüğü.
+
+**Pencere açılmadan ÖNCE gereken köprü noktaları** (62-66°D, hiçbiri hiçbir
+partide yok — Oturum 13'e teslim edilecek liste):
+
+| Yerleşim | lat | lon | Not |
+|---|---|---|---|
+| Herat | 34,34 | 62,20 | Kert hânedanı merkezi; ilk turumda pencere dışı olduğu için eklenemedi |
+| **Merv (ortaçağ)** | 37,66 | 62,19 | Öncelik 3'teki 32 km borç burada kapanır |
+| Sebzevâr-i Herat (Şindend) | 33,30 | 62,15 | |
+| Çârcûy (Türkmenâbâd) | 39,08 | 63,57 | Ceyhun geçidi |
+| Buhara | 39,77 | 64,42 | |
+| Meymene | 35,92 | 64,78 | |
+| Andhoy | 36,95 | 65,13 | |
+| Kerki (Atamurat) | 37,83 | 65,21 | |
+| Karşı (Nahşeb) | 38,86 | 65,80 | |
+
+⚠️ Bunları **yazmadım**: hepsi pencere dışında (çizilmezler) ve `yerlesimler_asya.js`
+Oturum 13'ün dosyası. Liste teslim, karar onun.
+
+---
+
+## Yamanın içeriği — üç düzeltme, ölçüldü ve doğrulandı
+
+### Y-1 · Şehrizor gerçek yerine taşınıyor (ilk turun B-1 bulgusu)
+`Şehrizor` (35,560/45,430) Süleymaniye şehir merkezine **0,64 km** uzakta.
+→ **35,280/45,500** (Şehrizor ovası, Yâsîn Tepe). Ölçüldü: yeni konumun
+**25 km içinde başka nokta yok**; `m:"Şehrizor"` çocukları (Kerkük, Erbil,
+Kifri, Tuz Hurmatu, Halepçe) ada göre bağlı olduğu için zincir kırılmıyor.
+
+### Y-2 · Süleymaniye ekleniyor — `kur:"1784-01-01"`
+TDV SÜLEYMANİYE (`suleymaniye--irak`) doğrulandı. Zinciri **Bağdat'ın değil
+Şehrizor'un** Osmanlı tarihlerini kullanıyor (1554-08-22 / 1918-10-30), çünkü
+Baban sancağı Şehrizor eyaletine bağlıydı. Bu, bölgenin **17. `kur:` kaydı.**
+
+### Y-3 · Dört kayıtta İngiliz işgali 20 ay erken — benim ilk turumun hatası
+Merkez oturum Şehrizor ve Kerkük'ü **1918-10-30**'a (Mondros) çekince benim
+kayıtlarımla çeliştiler: **Erbil, Kifri, Tuz Hurmatu, Halepçe**'yi Bağdat'ın
+düşüşüne (1917-03-11) bağlamıştım. Dördü de Kerkük-Şehrizor grubundadır ve
+İngilizler o hatta 1917'de değil 1918'de girdi.
+→ `ingiltere` başlangıcı ve Osmanlı `d:` bitişi **1918-10-30**.
+1918-10-30 mevcut bir kırılma tarihidir, Değişmez 2 yeni madde istemez.
+
+### Prova sonucu — `girdi.py`'nin KATI okuyucusuyla
+⚠️ Provayı bilerek `girdi.yukle()` ile yaptım, `oku_dosya()` ile değil:
+`VARSAYILAN` normalizasyonu yalnız `yukle()` içinde uygulanıyor
+(`OGRENILENLER.md §2` — "prova, doğrulamak istediği aracın okuyucusuyla yapılır").
+
+| Ölçüt | ÖNCE | SONRA |
+|---|---|---|
+| kayıt | 927 | **928** |
+| 3 km altı çift | 2 | **2** |
+| sahipsiz (5 yıl adım) | 44 | **44** |
+| ters / sıfır uzunlukta dönem | 0 | **0** |
+| yamanın eklediği sahipsiz | — | **YOK** |
+| yamanın eklediği 3 km çift | — | **YOK** |
+
+Mevcut iki 3 km çifti **yamadan önce de vardı ve kasıtlıdır**:
+Anadolu Hisarı ↔ Rumeli Hisarı (1,54 km) ve Budin ↔ Peşte (1,57 km).
+
+⚠️ `bit:` tarafında yeni kayıt **yazılmadı.** Vâsıt için TDV kesin terk tarihi
+vermiyor, Kiş (Kish) adası için TDV maddesi yok (`keys`, `kis` — ikisi de boş).
+Yuvarlamak §8 ihlali olurdu.
+
+---
+
+
 **Durum: BİTTİ.** Tek çıktı `data/yerlesimler_iran.js` — **126 yeni yerleşim**.
 Görev tanımı: `oturumlar/OTURUM-4-IRAN-YERLESIM.md`.
 
@@ -321,3 +564,166 @@ Değişmez 1 ihlal edilirdi. `bit:` okunmaya başlayınca zincirler kısaltılab
 `…\scratchpad\uret_iran.py` · `denetle_iran.py` · `kapsama_iran.py`.
 `yerlesimler_iran.js` **elle düzenlenmemeli**, `uret_iran.py` üzerinden
 yeniden üretilmelidir — zincirler orada tek yerde tanımlıdır.
+
+---
+
+# EK — İkinci görev: hatalar 11 (KOORDINASYON.md §4)
+
+**Tarih:** 2026-07-30 · **Kaynak:** merkez oturumun cross-session görevi
+**Yazma izni:** yalnız `oturumlar/OTURUM-4-DUZELTMELER.md` ve
+`oturumlar/OTURUM-4-KRONOLOJI.md`. `data/yerlesimler.js`'e **yazılmadı.**
+
+## B bloğu — TAMAMLANDI
+
+`oturumlar/OTURUM-4-KRONOLOJI.md` yazıldı. **19 iş kalemi**, bunların
+**13'ü geçirilmeye hazır**, 5'i doğrulama bekliyor.
+
+| Madde | Kapsam | Sonuç |
+|---|---|---|
+| md.2 | Bükreş antlaşması + savaşa giden yol | Hotin **teyit edildi, hata yok**; Kafkasya'da 1812-05-28'de **kayıp yok** (Kuban sınır kaldı, Anapa Osmanlı'da). Savaş zinciri için 2 hazır madde (İbrâil 1809-12-02, Rusçuk 1810-09-26) + 1 gün doğrulaması bekleyen. |
+| md.7 | 1828-29 Rus ilerlemeleri | 3 hazır madde. **Kritik bulgu: Varna ve Kars işgalleri GEÇİCİDİR**, Edirne Antlaşması'yla geri alınmıştır — haritada kalıcı gösteriliyorsa hata. Kalıcı kayıp Ahıska. |
+| md.8+10 | Cezayir'in işgali | Kırılmaların hepsi zaten maddeli; eksik olan **zincirdi**. 4 hazır madde (yelpaze → abluka → çıkarma → sürgün). |
+| md.9 | Yunan isyanı | Yeni maddeden çok **düzeltme** çıktı: Navarin `1827-10` → `1827-10-20` (§8 ihlali), birleşik `1830-02` kaydı silinmeli, Tripoliçe/Missolonghi 1 gün kaymış. |
+
+## A bloğu — BAŞLANMADI
+
+`oturumlar/OTURUM-4-DUZELTMELER.md` henüz yok. 7 madde (md.1, 20, 24, 25, 34,
+35, 53 — Hicaz/Yemen/Arabistan/Körfez) sıradaki turun ilk işi.
+Ayrıca önceki turdan devreden ve **düzeltme satırına çevrilmesi gereken** 3 iş
+var (`scratchpad/yama_sehrizor.py` içinde ölçülmüş, uygulanmadı):
+Şehrizor koordinat kayması · Süleymaniye'nin eklenmesi · Erbil-Kifri-Tuz
+Hurmatu-Halepçe'nin `1917-03-11` → `1918-10-30` düzeltmesi.
+
+## Slug doğrulaması
+
+1806-1836 aralığındaki mevcut kronolojinin kullandığı **55 slug** `<title>` ile
+sınandı: **53 CANLI, 2 ÖLÜ.**
+
+- 🔴 `bukres-antlasmasi` — **mevcut veride kullanılıyor** (1812-05-28) → `bucak`
+- 🔴 `kabakci-mustafa` — **mevcut veride kullanılıyor** (1807-05-25) → `kabakci-isyani`
+- Müstakil maddesi olmadığı ölçülenler: `turkmencay-antlasmasi`,
+  `gulistan-antlasmasi`, `imereti`
+- 🪤 `gulistan` **CANLI ama antlaşma değil** — Sa'dî'nin *Gülistân*'ı. Tuzak.
+
+## "Kaynak yok" işaretlenenler (uydurulmadı)
+
+1. **Kutayis'in Rus ilhakı (1810-02-20)** — `imereti` maddesi yok, `gurcistan` ve
+   `kafkasya` gün vermiyor.
+2. **Rusçuk zaferi (1811-06)** — TDV yalnız "1811 Haziranında" diyor.
+3. **Varna'nın düşüşü (1828)** — TDV "üç aylık kuşatma sonunda", gün yok.
+4. **Kars'ın işgali (1828)** — TDV yalnız yıl veriyor.
+5. **Gülistan Antlaşması'nın günü** — TDV yalnız "1813". Verideki `1813-10-24`
+   TDV'den gelmiyor.
+
+## 🔴 Motor bulgusu — Değişmez 2'nin kör noktası
+
+**Değişmez 2 ölçüm komutu yalnız `d:` ve `v:` dönemlerini tarıyor, `s:`
+dönemlerini hiç taramıyor.** Yabancı devletten yabancı devlete geçiş denetime
+görünmez; denetim "AÇIK = 0" derken harita sessizce değişir.
+
+İki ölçülmüş kurban:
+- **1813-10-24 — 15 nokta birden `iran` → `rusya`** (Gülistan). En yakın madde
+  19 gün önceki "Belgrad'ın geri alınışı" — tamamen alâkasız. Kullanıcı
+  Kafkasya'nın komple renk değiştirdiğini görüyor, listede Belgrad yazıyor.
+  Bu tam olarak CLAUDE.md §10'un tarif ettiği hata.
+- **1810-02-20 — Kutayis** `gurcistan` → `rusya`. En yakın madde 411 gün uzakta.
+
+**Öneri (Oturum 6'nın işi):** `arac/denetle.py`'nin 2. kontrolüne `s:` taraması
+eklensin. Osmanlı sınırını etkilemediği için acil değil, ama dünya kapsamı
+açıldıkça `s:` geçişleri çoğalacak ve körlük büyüyecek.
+
+---
+
+# EK 2 — hatalar 15 İran ekseni (md.8 · md.11 · md.6)
+
+**Tarih:** 2026-07-31 · **Çıktı:** `oturumlar/OTURUM-4-DUZELTMELER.md`
+`data/yerlesimler.js`'e **yazılmadı.**
+
+## En acil bulgu: 5 ölü slug veride AKTİF
+
+İran ekseninin kronoloji maddelerinin yarısı var olmayan TDV maddelerine
+bağlanıyor. `ferhad-pasa-antlasmasi` (2 kayıt) · `kasr-i-sirin-antlasmasi` ·
+`cildir-savasi` · `mesaleler-savasi` · `ozdemiroglu-osman-pasa`.
+Hepsine `<title>` ile doğrulanmış canlı karşılık önerildi.
+Yönlendirme tuzağı (OGRENILENLER §20) iki kez işe yaradı:
+`nihavend` → **`nihavend--iran`**, `kasr-i-sirin-antlasmasi` → **`kasrisirin-antlasmasi`**
+(ikincisi "zuhab" aramasıyla bulundu — antlaşmanın diğer adı Zühâb).
+
+## md.8 — kullanıcının iddiası doğrulandı
+
+- **Nihavend:** kayıt VAR (`Nihâvend`, diakritik). Fetih TDV'ye göre **1588 sonu**,
+  veride 1590-03-21. Kaydı değiştirmemeyi, 1588 fethine ayrı madde yazmayı önerdim.
+- **Urmiye: GERÇEK EKSİK.** Osmanlı dönemi hiç yok; TDV üç dönem veriyor.
+- **Hoy:** aynı kusur — Tebriz'e bağlı Osmanlı sancağıydı, kalesini Ferhad Paşa
+  yaptırdı, veride `d:` yok.
+- Merend · Selmâs · Mâku · Culfa: slug'lar ölü, **kaynak yok**, uydurulmadı.
+- 1578-1590 fetih zinciri: **10 kırılmanın 10'u maddeli.**
+
+## md.11 — Kasr-ı Şirin: düzeltme çıkmadı, 7/7 doğru
+
+Bağdat · Basra · Şehrizor Osmanlı, Revan Safevî, Kars · Ahıska · Van Osmanlı —
+yedisi de haritada doğru. Antlaşma tarihi (1639-05-17) da doğru.
+
+**"Milim milim" sorusunun cevabını kaynağın kendisi veriyor:** TDV sınırın
+**2185 km** olduğunu, bunun **1296 km'sinin ihtilâflı kaldığını** yazıyor.
+1639'da çizgi düzeyinde sınır **yoktur**. Bu bir ölçüm eksikliği değil,
+ölçülmüş tarihî olgudur.
+
+## md.6 — Lahsa/Katîf kopukluğu GERÇEK
+
+En yakın iki Osmanlı noktası **Fâv ↔ Cübeyl = 350,3 km**. Oturum 2'nin
+100 km kuralına göre gerçek tarihî sıçrama. TDV: Lahsâ bir **vahalar bölgesi**,
+Osmanlı oraya **Portekiz tehdidine karşı kıyıdan** girdi ve **Basra
+beylerbeyiliğine bağladı (1547)**, sonra ayrı beylerbeyilik yaptı (1553 sonrası).
+Aradaki çöl **Benî Hâlid** sahasıydı. İdarî olarak bağlı, coğrafî olarak kopuk.
+
+⚠️ Merkezin verdiği "91,42 km" rakamı bu bileşene ait değil; BITISIKLIK
+raporunda Basra **C kategorisinde (uzak kara sıçraması, tarihsel)** geçiyor.
+
+Yan bulgu: Katîf grubunun 1871 tarihi **1871-04-20** yazılı, TDV **5 Haziran
+1871** diyor; ayrıca **1818-1830** ve **1840-1842** Mısır/Osmanlı dönemleri eksik.
+
+## A bloğu — HÂLÂ AÇIK
+
+md.1, 20, 24, 25, 34, 35, 53 (Arabistan/Yemen/Hicaz). md.6 araştırması
+Katîf/Lahsa üzerinden oraya değdi; sıradaki tur oradan devam edecek.
+
+---
+
+# EK 3 — hatalar 16 İran/Kafkas/Arabistan (6 madde)
+
+**Tarih:** 2026-07-31 · **Çıktı:** `oturumlar/OTURUM-4-DUZELTMELER.md` sonuna eklendi.
+`data/yerlesimler.js`'e **yazılmadı.**
+
+| madde | sonuç |
+|---|---|
+| **md.2** Urmiye/Nahçıvan | Nahçıvan **zaten doğru** (1725-1730). **Urmiye eksik — kullanıcı haklı.** Ayrıca Hemedan Antlaşması'nın bölge hükmüne göre 9 nokta daha eksik: Hoy, Selmâs, Merend, Culfa, Mâku (Azerbaycan) + Sakkız, Sine, Merîvan, Bîcâr, Mîyandoab (İran Kürdistanı). Hoy TDV ile doğrulandı; diğerleri için **karar bekliyor** (bölge adı şehir düzeyine genişletilsin mi?). |
+| **md.1** Şirvan 1723 enklavı | ✅ **Harita doğru.** Şamahı 1723-08, aradakiler 1724 sonu – 1725 Eylül. Enklav gerçek ve geçici. |
+| **md.4** Basra işgali | 🔴 **`isg:` örtüsüne geçilmeli.** İşgal, fetih değil. 64,6 km'lik sahte kopukluğu kapatır. |
+| **md.5** "üçgen" | 🟡 **Hipotez:** Basra'nın 1776-1779 İran peteği. md.4 çözülürse kendiliğinden kapanır. **Ekran görüntüsü gerekiyor.** |
+| **md.8** mükerrer Vehhâbî | 🔴 **BULUNDU** — 1803-05-15 ve 1806-02-01. İkisinin tam metni raporda. TDV 1806'da ayrı bir Mekke fethi tanımıyor → 1806 kaydı **silinmeli**, Mekke'nin harita tarihi **1803-05-15** olmalı. |
+| **md.8** kalan Osmanlı toprağı | ✅ **CİDDE, ve doğru.** Vehhâbîler alamadı. *(hatalar 11 md.1'in ikinci yarısı da bu.)* |
+| **md.9** Sohum/Anapa | ✅ **Tarihen doğru** — Kuban sınır. 🟡 Anapa'nın **1791-07-26 → 1792-01-10** Rus işgali eksik (TDV gün gün veriyor). ⚠️ 1807 işgali TDV ANAPA'da **geçmiyor** — doğrulanamadı. |
+
+## Oturum 2'ye iki girdi
+
+1. **Mükerrer denetimi bu çifti kaçırdı.** Ölçüt ±400 gün + kök benzerliği
+   (eşik 0,34); çift **1023 gün** aralıklı ve başlıklar **zıt**
+   ("ele geçirmesi" ↔ "kaybı"), yani benzerlik skorunu aşağı çekiyor.
+   **Öneri:** `yer:` + `k:` üzerinden ikinci geçiş, pencere genişletilsin.
+   Bu çiftte `yer:` = "Mekke" ve `k:` = "kayip" **birebir aynı.**
+2. **Cidde, 100 km kuralının karşı örneği.** Cidde↔Mekke **68,9 km** ve kopukluk
+   **gerçek** (Vehhâbîler Cidde'yi alamadı, Şerif Gālib tutundu).
+   Kural "100 km altı = hata" değil, **"100 km altı = incelenmeli"** olmalı;
+   **deniz erişimi olan noktalar muaf tutulmalı.**
+
+## Bu turda ölçülen ölü slug'lar
+
+`hemedan-antlasmasi` · `zendiler` · `nadir-sah` · `suud` · `abaza`
+Canlı: `hemedan` · `kerim-han-zend` · `basra` · `anapa` · `sohum` ·
+`vehhabilik` · `mekke` · `medine` · `taif` · `gurcistan` · `iran`
+
+## Hâlâ açık
+
+hatalar 11 **A bloğu** (Arabistan/Yemen/Hicaz — md.1, 20, 24, 25, 34, 35, 53).
+md.1'in bir yarısı bu turda cevaplandı (**Cidde**). Kalanlar sıradaki turda.
