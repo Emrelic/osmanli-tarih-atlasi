@@ -829,6 +829,18 @@ window.YERLESIMLER = [
 { ad:"Sina güneyi", tur:"bolge", lat:28.50, lon:33.80, g:0, k:0, m:"Kahire", s:[{f:"1281-01-01",t:"1517-01-22",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1517-01-22",t:"1805-07-09"}], v:[{f:"1805-07-09",t:"1914-12-18",k:"Mısır Hidivliği"}] },
 { ad:"Batı çölü (Mısır)", tur:"bolge", lat:26.50, lon:27.00, g:0, k:0, d:[] },
 { ad:"Nûbe çölü", tur:"bolge", lat:20.50, lon:33.50, g:0, k:0, d:[] },
+// 🔴 md.40'IN AÇIK BORCU KAPANIYOR — üç KASTEN SAHİPSİZ dolgu noktası.
+// Oturum 14 dört vahayı (Hârice · Dâhile · Ferâfire · Bahriye) ekledi ve asimetri
+// kapandı, AMA kendi ölçümüyle bir borç doğdu: dört vahanın peteği 260.114 km²,
+// yani Batı çölü boşluğunun %61'i artık MISIR boyanıyor. Bu, Büyük Kum Denizi ve
+// Gilf el-Kebîr'i Mısır idaresi gibi göstermek demek — tarihen fazla iddialı.
+// Osmanlı/Mısır idaresi vahalara ulaşıyordu, kum denizlerine ULAŞMIYORDU.
+// Bu üç nokta o kum denizlerini geri oyuyor: vahalar sahipli kalıyor, aradaki çöl
+// boşalıyor. Hiçbir dönemi yok — kasten sahipsiz (CLAUDE.md, Değişmez 1 muafiyeti).
+// ⚠️ BEKLENEN_SAHIPSIZ 40 → 43 (Oturum 2'ye bildirildi).
+{ ad:"Ramletü'l-kübrâ (Büyük Kum Denizi)", tur:"bolge", lat:26.50, lon:26.00, g:0, k:0, d:[] },
+{ ad:"Gilf el-Kebîr", tur:"bolge", lat:23.50, lon:26.00, g:0, k:0, d:[] },
+{ ad:"Selîme (Nûbe çölü batısı)", tur:"bolge", lat:21.50, lon:29.30, g:0, k:0, d:[] },
 { ad:"Kordofan", tur:"bolge", lat:13.00, lon:29.50, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1883-01-19",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], v:[{f:"1821-08-19",t:"1883-01-19",k:"Mısır (Kavalalı)"}] },
 { ad:"Darfur", tur:"bolge", lat:13.50, lon:24.00, g:0, k:0, d:[] },
 { ad:"Tibesti", tur:"bolge", lat:21.00, lon:17.50, g:0, k:0, d:[] },
