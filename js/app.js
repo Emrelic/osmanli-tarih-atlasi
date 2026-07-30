@@ -94,11 +94,34 @@ function parcaCoz(dizi, havuz) {
              return typeof p === "number" ? havuz[p] : p; }) };
 }
 var PARCALAR = window.PARCALAR || [];
+
+// ⚠️ SERBEST KENAR — gövdenin SAHİPSİZ alanla komşu olduğu sınır parçaları.
+// (hatalar 15 md.17-19 tartışmasından; Oturum 16 üretiyor, sözleşme: hat havuzu
+// window.SERBEST + dönem kaydında "sb" indeks dizisi, PARCALAR/"o" ile aynı desen.)
+//
+// NEDEN AYRI ÇİZİLİYOR: iki DEVLET arasındaki sınır, kaba da olsa gerçek bir
+// iddiadır — "yetki burada bölünüyordu". Devlet ile HİÇLİK arasındaki sınır ise
+// hiçbir şeyin iddiası değil; nereye nokta koyduğumuzun artefaktı. Keskin çizgi
+// orada olmayan bir kesinlik iddia ediyor.
+// Ölçüldü (Oturum 16): Osmanlı gövde çevresinin köşe payı %1,7-3,1 ama UZUNLUK
+// PAYI %17-22 — yani çevrenin beşte biri hiçliğe karşı sert çizgiyle çiziliyordu.
+// Serbest kenarın ortalama parçası 29,6 km, gövde ortalaması 4,2 km: yedi kat kaba.
+var SERBEST = window.SERBEST || [];
+function hatCoz(dizi) {
+  if (!dizi || !dizi.length) return null;
+  return { type: "MultiLineString",
+           coordinates: dizi.map(function (h) {
+             return typeof h === "number" ? SERBEST[h] : h; }) };
+}
+
 var donemler = window.DONEMLER.map(function (d) {
   return { fi: gunIdx(d.f), ti: gunIdx(d.t), ad: d.ad, b: d.b, ao: d.ao,
            av: d.av || 0, e: d.e || [], c: d.c || [],
            o: parcaCoz(d.o, PARCALAR),
            v: parcaCoz(d.v, PARCALAR),
+           // "sb" boşsa hiç yazılmıyor (çoğu dönemde çölle sınırdaşlık yok),
+           // yani d.sb undefined olabilir — hatCoz bunu null'a çeviriyor.
+           sb: hatCoz(d.sb),
            z: d.z || null };
 });
 
@@ -362,6 +385,23 @@ harita.on("load", function () {
   // dış hattını fill-outline ile verir (aynı renk komşu petekte kaybolur).
   harita.addLayer({ id: "osmanli-cizgi", type: "line", source: "osmanli",
     paint: { "line-color": "#4d0713", "line-width": 1.8 } });
+
+  // SERBEST KENAR — sahipsiz alanla komşu sınır: keskin çizgi yerine SÖNEN kenar.
+  // Ölçüt kullanıcının cümlesinden: oraya bakınca "burada sınır yok" anlaşılmalı,
+  // "şu sınır var" değil. Bu yüzden ayrı bir çizgi rengi YOK — dolgunun kendi
+  // tonu, geniş ve bulanık, dışa doğru sönüyor.
+  // İki katman üst üste: geniş+çok bulanık (hâle) + dar+az bulanık (çekirdek).
+  // Tek katmanla ya çok siliktir ya da kenarı yine çizgi gibi okunur.
+  // ⚠️ osmanli-cizgi'den SONRA ekleniyor ki sert kenarın üstünü örtsün.
+  harita.addSource("serbest", { type: "geojson", data: bosVeri() });
+  harita.addLayer({ id: "serbest-hale", type: "line", source: "serbest",
+    layout: { "line-cap": "round", "line-join": "round" },
+    paint: { "line-color": "#8e0b22", "line-width": 14, "line-blur": 12,
+             "line-opacity": 0.45 } });
+  harita.addLayer({ id: "serbest-cekirdek", type: "line", source: "serbest",
+    layout: { "line-cap": "round", "line-join": "round" },
+    paint: { "line-color": "#8e0b22", "line-width": 5, "line-blur": 4,
+             "line-opacity": 0.5 } });
 
   // Bölge (eyalet) iç sınırları: ince kesikli çizgi, yakınlaşınca görünür
   harita.addSource("bolge", { type: "geojson", data: bosVeri() });
@@ -1360,6 +1400,7 @@ function guncelle() {
     harita.getSource("osmanli").setData(bosVeri());
     harita.getSource("vassal").setData(bosVeri());
     harita.getSource("imparatorluk").setData(bosVeri());
+    harita.getSource("serbest").setData(bosVeri());
     harita.getSource("bolge").setData(bosVeri());
     sehzadeGuncelle({});
     donemEtiketi.textContent = "Fetret Devri — şehzade payları";
@@ -1379,6 +1420,8 @@ function guncelle() {
       type: "FeatureCollection",
       features: (osmVeri.features || []).concat(vasVeri.features || [])
     });
+    // Serbest kenar: yalnız sahipsiz alanla sınırdaş olunan dönemlerde var.
+    harita.getSource("serbest").setData(d.sb ? tekVeri(d.sb) : bosVeri());
     harita.getSource("bolge").setData(bolgeVerisi(suanki));
     sehzadeGuncelle(d);
     donemEtiketi.textContent = d.ad;
