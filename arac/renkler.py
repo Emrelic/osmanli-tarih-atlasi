@@ -18,6 +18,21 @@ RENK KURALI (ölçüldü, bkz. denetim/):
   • Renk KİMLİK taşımaz, AYIRMA işi görür. Kimliği etiket taşır. Bu yüzden
     bir rengi birden çok devletin paylaşması sorun değildir — yeter ki o
     devletler tarih boyunca hiç komşu olmasın.
+  • ÖLÇÜM 2026-07-30 (Oturum 16) — "renksiz kimlikleri eklersek renk tavanını
+    zorlar mıyız?" sorusunun cevabı: HAYIR. 1515 nokta (5 dosyanın tamamı)
+    üzerinde GERÇEK Voronoi komşuluğu kurulup DSATUR koşuldu; çakışma GÜN
+    bazında ölçüldü. Bugünkü 104 kimlik → 8 renk. Veride kullanılan 261
+    kimliğin HEPSİ eklenince → yine 8 renk. En yüksek derece 31'den 72'ye
+    çıkıyor ama kromatik sayı sabit kalıyor: yeni kimlikler ayrı coğrafyalarda
+    kümelendiği için grafiği yoğunlaştırmıyor, GENİŞLETİYOR.
+    ⚠️ Bu, 400 km'lik "yakınlık" vekiliyle ölçülmemelidir — o vekil aynı veride
+    14 renk veriyor. Komşuluk hücrelerin DEĞMESİNDEN gelmeli.
+  • PAYLAŞILAN HEX DENETİMİ (aynı ölçümde koşuldu) — 5 hex iki devlette:
+    #00695c yugoslavya/hive · #00838f trabzon-rum/dulkadir · #4527a0
+    buhara/karaman · #5c6bc0 vollayta/norvec · #8f7d5b bosna/ahiler.
+    Beş çiftin HİÇBİRİ tarih boyunca komşu değil → ihlal 0, yukarıdaki
+    "renk ayırma işi görür" kuralına uygun. Yeni renk eklerken bu denetimi
+    tekrarla; hex tekrarı başlı başına hata DEĞİLDİR, komşuluk hatadır.
   ⚠️ Dolgu %30 saydamlıkla fiziki altlığın üzerine biniyor. Ekrandaki gerçek
     renk buradaki hex DEĞİL, altlıkla karışmış hâlidir ve bu karışım renk
     farklarını yaklaşık üçte bire sıkıştırır. ΔE ölçümü BİNDİRİLMİŞ renk
@@ -79,6 +94,24 @@ BOYALAR = {
     "habesistan": ("Habeşistan",             "#7d5b3a"),
     "adal":       ("Adal / Harar",           "#a08f5b"),
     "somali":     ("Somali sultanlıkları",   "#b5a06b"),
+    # --- Darfur ve güney Habeş krallıkları (Oturum 16, 2026-07-30) ---
+    # Bunlar renkler.py'de tanımsız olduğu için üretim her koşuda 12 satır
+    # "UYARI boya: … bilinmeyen devlet kimliği" basıyordu ve dört Darfur
+    # yerleşimi (Nyala tek başına 885.889 km²) ile dört Habeş krallığı
+    # haritada BOYASIZ kalıyordu — Nühûd, El-Fâşir, Nyala, Cenîne, Bonga,
+    # Cimma, Sodo, Yirgalem.
+    # ⚠️ Bu köşenin bütün komşuları kahve/tan ailesinden (habesistan #7d5b3a,
+    # adal #a08f5b, somali #b5a06b, funj #7d6b4a, nube #6d4c41, mehdi #4e342e).
+    # Bu yüzden beşi de kasten SOĞUK tonlardan seçildi; hiçbiri kırmızı
+    # değil (kırmızı ailesi Osmanlı'ya ayrılmıştır).
+    # Ölçüm — gerçek Voronoi komşuluğu + BİNDİRİLMİŞ ΔE (%30 dolgu, bej altlık),
+    # her birinin en yakın komşusuna: darfur 22,0 · kaffa 24,4 · cimma 21,2 ·
+    # sidamo 27,5 · vollayta 15,3. Beşi de 12 eşiğinin üstünde.
+    "darfur":     ("Dârfûr Sultanlığı",      "#0288d1"),
+    "kaffa":      ("Kaffa Krallığı",         "#8e24aa"),
+    "cimma":      ("Cimma (Jimma) Krallığı", "#0097a7"),
+    "sidamo":     ("Sidamo krallıkları",     "#7b1fa2"),
+    "vollayta":   ("Vollayta (Wolaita) Krallığı", "#5c6bc0"),
     # --- 1918 sonrası ardıl devletler: Habsburg ve Romanov gövdeleri dağılınca
     # yerine hiçbir sahip yazılmamıştı; Orta Avrupa 1918-1923 karelerinde boştu.
     "cekoslovakya": ("Çekoslovakya",          "#5d4037"),

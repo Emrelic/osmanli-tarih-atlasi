@@ -620,9 +620,26 @@ def _ham_km2(g):
     return T
 
 
+# ⚠️ ORAN TABANI: ham hücre TÜM KARA ile değil, yerleşimin KENDİ kara bileşeni
+# ile kesilir. İlk sürüm `PETEK[i].intersection(KARA)` diyordu ve 18 vaka
+# işaretliyordu — ölçüldü, 17'si ADA KURALININ DOĞRU ÇALIŞMASIYDI. Venedik'in
+# ham hücresi 36.825 km²'dir ama 36.803 km²'si ANAKARADADIR; ada kuralı onu
+# kesince oran %0,1 çıkıyor ve denetim "hücre yok edildi" diye bağırıyor.
+# Oysa Venedik'in kendi kara parçası (lagün adası) 9 km² ve tamamı elinde.
+# Aynısı Masira, Kemeran, Kiş, Brakya, Bozcaada, Pag, Elba, Ferasan… için.
+# Taban kendi bileşenine çevrilince 18 → 1 (Ankober %7,3, gerçek sinyal).
+# Ölçüm: Oturum 8 raporu (OTURUM-8-OLCUMLER.md §2) + Oturum 16'nın bağımsız
+# doğrulaması — iki ölçüm aynı 18 vakayı ve aynı tek kalanı verdi.
+_kagac = STRtree(_komp)
 _oranlar = []
 for i in range(len(YERLER)):
-    ham = _ham_km2(PETEK[i].intersection(KARA)) if PETEK[i] is not None else 0.0
+    if PETEK[i] is None:
+        _oranlar.append((1.0, 0.0, 0.0, YERLER[i]["ad"])); continue
+    try:
+        _kendi = _komp[int(_kagac.nearest(_ptl[i]))]
+    except Exception:
+        _kendi = KARA
+    ham = _ham_km2(PETEK[i].intersection(_kendi))
     son = _ham_km2(PETEK_D[i])
     _oranlar.append((son / ham if ham > 1 else 1.0, son, ham, YERLER[i]["ad"]))
 _oranlar.sort()
