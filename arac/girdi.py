@@ -49,11 +49,40 @@ DATA = os.path.join(KOK, "data")
 # verilmesi gerekir (aşağıda kontrol ediliyor). Sıra yalnız okunabilirlik için.
 GIRDI_DOSYALARI = [
     "yerlesimler.js",           # çekirdek — Osmanlı ve komşuları
-    # "yerlesimler_afrika.js",  # 153 nokta (Oturum 14) — merge provası temiz,
-    #                           # r71 yayınlandıktan sonra açılacak
+    # 153 nokta (Oturum 14). Merge provası 764'lük çekirdeğe karşı iki kez
+    # koşturuldu (hatalar 2-3 oturumu): ad çakışması YOK, 3 km'den yakın çift
+    # YOK, Değişmez 1 sahipsiz 34'te sabit, Değişmez 2 437 kırılma / 0 açık,
+    # Değişmez 3 çelişki 378'de sabit (Afrika'dan sıfır katkı). 12 devlet
+    # kimliğinin hepsi renkler.py'de tanımlı, yeni renk gerekmiyor. 58 dönemde
+    # ocaklık ayrımı (Cezayir 23 / Tunus 21 / Trablus 14 nokta) geçirildi ve
+    # tek açık kırılma üretmedi.
+    "yerlesimler_afrika.js",
+    # HAZIR DEĞİL — kimlikleri renkler.py'de tanımsız, açılırsa renksiz delik:
+    # "yerlesimler_asya.js",    # 344 nokta, 98 tanımsız kimlik, 62°D'nin doğusu
+    # "yerlesimler_avrupa.js",  # 228 nokta, 15 tanımsız kimlik, DSATUR gerekiyor
 ]
 
 YAKINLIK_ESIK_KM = 3.0          # CLAUDE.md §11: 3 km içinde ikinci nokta açma
+
+# ⚠️ ALAN NORMALİZASYONU — bu modülün var olma sebebinin ikinci kanıtı
+# Şema alanlarının çoğu İSTEĞE BAĞLI ve dosyalar farklı alışkanlıklarla yazılmış:
+#   yerlesimler.js       : d: HER kayıtta var (boşsa d:[] yazılmış)
+#   yerlesimler_afrika.js: 47 kayıtta d: HİÇ YOK — Osmanlı dönemi olmayan yerler
+# Motor `y["d"]` diye okuyordu, denetim `y.get("d")` diye. Afrika partisi girdiye
+# eklendiği anda üretim `KeyError: 'd'` ile düştü — denetim ise TEMİZ diyordu.
+# Bu, sondaki virgül vakasının birebir aynısı: iki araç aynı veriyi farklı
+# katılıkta okuyor. Çözüm de aynı yerde olmalı — normalizasyon burada yapılır,
+# iki araç da tam alanlı kayıt alır. Yeni bir isteğe bağlı alan eklenirse
+# (kur:, bit:, kd:) varsayılanı BURAYA yazılır, iki aracın koduna değil.
+VARSAYILAN = {
+    "tur": "sehir",
+    "g": 0,
+    "k": 0,          # idari kademe: 0 = kademesiz
+    "m": None,       # bağlı olunan k1/k2 merkezin adı
+    "s": [],         # yabancı sahiplik dönemleri
+    "d": [],         # doğrudan Osmanlı dönemleri
+    "v": [],         # tâbi / dolaylı idare dönemleri
+}
 
 
 def _cevir(js, degisken):
@@ -95,6 +124,8 @@ def yukle(sessiz=False):
                     f"içinde. Yerleşim adı benzersiz olmalı (VERI-YAPISI.md)."
                 )
             nereden[y["ad"]] = ad
+            for alan, deger in VARSAYILAN.items():
+                y.setdefault(alan, [] if deger == [] else deger)
         hepsi.extend(kayitlar)
         if not sessiz:
             print(f"  {ad}: {len(kayitlar)} nokta")

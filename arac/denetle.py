@@ -37,7 +37,10 @@ DATA = os.path.join(KOK, "data")
 # Yazlofça) ve Katîf.
 # 765 -> 764: mükerrer Katîf kaydı silindi (î harfiyle aranmadığı için
 # olmadığı sanılmıştı; HEAD'de zaten vardı).
-BEKLENEN_YERLESIM = 764
+# 764 -> 917: data/yerlesimler_afrika.js (Oturum 14, 153 nokta) girdi.py'deki
+# izin listesine eklendi. Merge provası iki kez koşturuldu: ad çakışması yok,
+# 3 km'den yakın çift yok, Afrika'dan sıfır çelişki katkısı.
+BEKLENEN_YERLESIM = 917
 # 29 -> 32: Oturum 4'ün Necid noktaları (Buraydâ, Uneyze, Şakrâ) 1744
 # öncesinde kasten sahipsiz — orada devlet yoktu, Riyad ve Dir'iye ile
 # aynı desen (MIMARI.md §6: 'devletsiz' ile 'veri yok' ayrımı).
@@ -50,7 +53,12 @@ BEKLENEN_SAHIPSIZ = 34
 # 432 -> 433: hatalar 6.docx — Limni/Semadirek 1657-11-15 geri alışı (+1);
 # Limni kaybı mevcut 1656-07-13 gününe, Podolya sancakları mevcut 1672/1699
 # günlerine, Varad-Yanova mevcut 1526/1541 günlerine oturdu (+0).
-BEKLENEN_KIRILMA = 433
+# 433 -> 437: Afrika partisinin dört kırılması (58 ocaklık bölmesi mevcut
+# günlere oturdu, tek açık kırılma üretmedi).
+# 437 -> 441: merkez oturumun hatalar 8-9 partisi (Rus Hazar işgali, üç işgal
+# dönemi). ⚠️ Bu dört kırılma üretimin ORTASINDA girdi ve o yüzden r82 geometrisi
+# çöpe gitti — CLAUDE.md §7 kilit kuralının yedinci ihlali.
+BEKLENEN_KIRILMA = 441
 BEKLENEN_ACIK = 0
 # MIMARI.md §3.4 — bilinen borç, tavan bu. 311'den 318'e çıkarıldı: beylik
 # düzeltmesiyle 19 yerleşim eklendi (567 -> 586) ve 11'i bu borcu tetikliyor.
@@ -155,7 +163,14 @@ def degismez1(Y):
 #
 # Penceresi HİÇ OLMAYAN noktalar buraya girmez — onlar kasten boş dolgu
 # noktaları ve zaten Değişmez 1'in 34'lük sayısında görünüyorlar.
-BEKLENEN_BOSLUK = 0
+# 0 -> 1: Doha (Katar) 1913-07-29 → 1916-11-03 KASTEN açık. Osmanlı 1913'te
+# çekildi, İngiliz himayesi 1916'da başladı; arada Al Sani'nin bağımsız
+# şeyhliği var ve renkler.py'de Katar kimliği yok. Kuveyt ve Bahreyn ile aynı
+# desen (ikisi de ilk penceresinden önce kasten sahipsiz). Diğer 19 boşluk
+# kapatıldı: Bicâye ve Hacıbey s: bitişleri gerçek fetih gününe taşındı,
+# Varşova Dükalığı (1806-1815) lehistan olarak yazıldı, Ankara bozgunu sonrası
+# 16 Anadolu şehrine Timur hâkimiyeti (timurlu) eklendi.
+BEKLENEN_BOSLUK = 1
 
 
 def degismez1b(Y):
@@ -318,26 +333,66 @@ def _gun_no(t):
     return date(int(p[0]), int(p[1]), int(p[2])).toordinal()
 
 
+# ⚠️ ÜÇÜNCÜ TUR — BAŞLIK BENZERLİĞİNİN KÖR NOKTASI (hatalar 7.docx madde 5)
+# Jaccard ölçütü "aynı olayın iki yüzü zıt özneyle yazılmış" çiftleri GÖREMİYOR:
+#   "IV. Mehmed'in tahttan indirilmesi"  ↔  "II. Süleyman'ın cülusu"
+# tek kelime paylaşmıyor, benzerlik SIFIR — araç "0 şüpheli çift" diyor.
+# "II. Mustafa'nın cülusu" ↔ "II. Mustafa tahta çıktı" ise 0.125 veriyor.
+# Hal'/cülûs, ölüm/cülûs, azil/tayin çiftleri bu kör noktada yaşıyor.
+#
+# İkinci ölçüt: AYNI GÜN ±3 ve ORTAK KİŞİ ADI. Padişah/paşa adı iki maddede
+# birlikte geçiyor ve tarih neredeyse aynıysa, başlıklar bambaşka olsa da
+# aynı olayın iki yüzü olma ihtimali yüksek. Kişi adı `kisiler` alanından
+# okunur; yoksa başlıktaki büyük harfle başlayan öbekler kullanılır.
+MUKERRER_KISI_GUN = 3
+
+
+def _kisiler_kumesi(o):
+    """Maddedeki kişi adlarını normalize eder (soyad/lakap köküne indirir)."""
+    ham = (o.get("kisiler") or "") + ", " + (o.get("b") or "")
+    parcalar = re.split(r"[,;()]", ham)
+    kumesi = set()
+    for p in parcalar:
+        for w in p.split():
+            w = w.strip("'’.\"").translate(_KATLA).lower()
+            # sıra sayısı (I., II., IV.) ve kısa/genel kelimeler atılır
+            if len(w) < 4 or w in {"sultan", "pasa", "pasanin", "bey", "han",
+                                   "hanin", "efendi", "gazi", "sah", "kral"}:
+                continue
+            if re.fullmatch(r"[ivxlcdm]+", w):
+                continue
+            kumesi.add(w[:6])
+    return kumesi
+
+
 def mukerrer_maddeler(O):
-    """Başlıkları benzer VE tarihleri ±400 gün içinde olan çiftleri döker."""
+    """İki ölçüt: (1) başlık benzerliği + ±400 gün, (2) ortak kişi + ±3 gün."""
     S = sorted(O, key=lambda o: o["t"])
     bulunan = []
     for i in range(len(S)):
         gi = _gun_no(S[i]["t"])
         for j in range(i + 1, len(S)):
-            if _gun_no(S[j]["t"]) - gi > MUKERRER_GUN:
+            fark = _gun_no(S[j]["t"]) - gi
+            if fark > MUKERRER_GUN:
                 break                       # sıralı: bundan sonrası daha da uzak
-            a, b = _kelimeler(S[i]["b"]), _kelimeler(S[j]["b"])
-            if not a or not b:
-                continue
-            ortak = len(a & b)
-            oran = ortak / (len(a) + len(b) - ortak)
-            if oran < MUKERRER_ESIK:
-                continue
             cift = (S[i]["b"], S[j]["b"])
             if cift in BILINEN_AYRI or cift[::-1] in BILINEN_AYRI:
                 continue
-            bulunan.append((S[i]["t"][:4], oran, S[i], S[j]))
+            a, b = _kelimeler(S[i]["b"]), _kelimeler(S[j]["b"])
+            oran = 0.0
+            if a and b:
+                ortak = len(a & b)
+                oran = ortak / (len(a) + len(b) - ortak)
+            olcut = None
+            if oran >= MUKERRER_ESIK:
+                olcut = "başlık"
+            elif fark <= MUKERRER_KISI_GUN:
+                ka, kb = _kisiler_kumesi(S[i]), _kisiler_kumesi(S[j])
+                if ka & kb:
+                    olcut = "kişi:" + ",".join(sorted(ka & kb)[:3])
+            if olcut is None:
+                continue
+            bulunan.append((S[i]["t"][:4], oran, S[i], S[j], olcut))
     return bulunan
 
 # ---------------- Ek denetim — dönem sağlığı ----------------
@@ -556,15 +611,30 @@ def main():
             print(f"    ÇAKIŞMA  {ad:<28} {kat}: [{p1['f']}, {p1['t']}) ile [{p2['f']}, {p2['t']})")
 
     # Ek denetim — mükerrer kronoloji maddesi
-    mk = mukerrer_maddeler(O)
+    # İki ölçüt AYRI raporlanır. Başlık benzerliği KESİN sayılır (ihlal);
+    # kişi+tarih ölçütü ZAYIF — 55 çift üretiyor ve içinde sefer sırasında
+    # yan yana düşen meşru olaylar var (Yavuz'un Mısır seferinin her günü aynı
+    # adı taşıyor). Ama gerçek mükerrerleri de buluyor ve Jaccard onları HİÇ
+    # göremiyor: Fatih'in ölümü, Cem Sultan'ın ölümü, İbrahim Paşa'nın idamı,
+    # Şehzade Mustafa, Fâtih Kanunnâmesi. O yüzden ihlal değil, gözden geçirme
+    # listesi. Triyaj edilen çiftler BILINEN_AYRI'ya yazılır ve liste kısalır.
+    tum = mukerrer_maddeler(O)
+    mk = [r for r in tum if r[4] == "başlık"]
+    zayif = [r for r in tum if r[4] != "başlık"]
     durum5 = "✓" if not mk else "✗"
     if mk:
         ihlal = True
     print(f"Ek denetim  {durum5}  mükerrer madde: {len(mk)} şüpheli çift (beklenen 0)")
+    if zayif:
+        print(f"            i {len(zayif)} çift ZAYIF ölçütte (aynı kişi + ±3 gün) — "
+              f"ihlal DEĞİL, gözden geçirilecek liste; --ayrinti ile tamamı")
+        for yil, oran, a2, b2, olcut in (zayif if args.ayrinti else zayif[:8]):
+            print(f"              [{olcut}] {a2['t']}  {a2['b'][:48]}")
+            print(f"              {b2['t']}  {b2['b'][:48]}")
     if mk:
-        for yil, oran, a, b in mk[:20] if not args.ayrinti else mk:
-            print(f"    [%{oran*100:.0f}] {yil}  {a['t']}  {a['b'][:56]}")
-            print(f"           {b['t']}  {b['b'][:56]}")
+        for yil, oran, a, b, olcut in (mk if args.ayrinti else mk[:20]):
+            print(f"    [{olcut}] {yil}  {a['t']}  {a['b'][:52]}")
+            print(f"           {b['t']}  {b['b'][:52]}")
         print("    → gerçekten ayrı olaylarsa denetle.py'deki BILINEN_AYRI kümesine ekle")
 
     # Ek denetim — KONUM: her nokta kara maskesinin içinde mi

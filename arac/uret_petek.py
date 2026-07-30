@@ -197,11 +197,15 @@ if _cakisan:
     print(f"  UYARI: {len(_cakisan)} nokta çifti {girdi.YAKINLIK_ESIK_KM} km'den yakın")
     for _d, _a, _b in _cakisan[:10]:
         print(f"      {_d:.2f} km  {_a} <-> {_b}")
+# ⚠️ Alan varsayılanları artık girdi.py'de (VARSAYILAN) — motor ve denetim tam
+# alanlı kayıt alıyor. Buradaki blok `d` alanını SAYMIYORDU ve Afrika partisi
+# girdiye eklendiğinde üretim `KeyError: 'd'` ile düştü; 47 Afrika kaydında
+# d: hiç yok (Osmanlı dönemi olmayan yerler), çekirdek dosyada ise hep d:[] var.
+# Aşağıdaki setdefault'lar artık gereksiz ama zararsız güvenlik ağı olarak
+# duruyor; yeni isteğe bağlı alanın varsayılanı girdi.py'ye yazılır.
 for y in YERLER:
-    y.setdefault("v", [])          # tâbi/dolaylı idare dönemleri (bkz. aşağıda)
-    y.setdefault("k", 0)           # idari kademe (1 payitaht ... 4 küçük birim)
-    y.setdefault("m", None)        # bağlı olunan k1/k2 merkezin adı
-    y.setdefault("s", [])          # yabancı sahiplik çizelgesi [{f,t,d:boya-id}]
+    for _alan, _dv in girdi.VARSAYILAN.items():
+        y.setdefault(_alan, [] if _dv == [] else _dv)
     for sp in y["s"]:
         if sp["d"] not in BOYALAR:
             print(f"  UYARI boya: {y['ad']} bilinmeyen devlet kimliği '{sp['d']}'")
@@ -211,10 +215,45 @@ print(f"  {len(YERLER)} yerleşim ({sum(1 for y in YERLER if y['d'] or y['v'])} 
 
 # Kademe doğrulaması: her Osmanlı k3/k4 yerleşimi geçerli bir k1/k2 merkeze bağlı olmalı
 AD2IDX = {y["ad"]: i for i, y in enumerate(YERLER)}
-for y in YERLER:
-    if (y["d"] or y["v"]) and y["k"] in (3, 4):
-        if not y["m"] or y["m"] not in AD2IDX or YERLER[AD2IDX[y["m"]]]["k"] not in (1, 2):
-            print(f"  UYARI kademe: {y['ad']} (k:{y['k']}) geçerli bir k1/k2 merkeze bağlı değil")
+
+
+# ⚠️ m: ZİNCİRİ GEÇİŞLİ ÇÖZÜLÜR — hatalar 7 turunun devri (merkez oturum ölçtü)
+# Eski kontrol TEK HOP bakıyordu: y["m"] doğrudan k1/k2 değilse uyarı basıyordu
+# ve bölge katmanı o yerleşimi k:3 bir merkezin altında topluyordu. Sekiz kayıt
+# (Divriği, Arapkir, Hısn-ı Mansûr, Behisni, Kâhta, Siverek, Kanina, Oreoi) bu
+# yüzden bölge sınırına girmiyordu: m: alanları Malatya/Harput/Urfa gibi k:3
+# merkezleri gösteriyor, onlar da kendi k:2 merkezine bağlı.
+# Veriyi değiştirmek ÇÖZÜM DEĞİL: dört seçenek de ölçüldü (hepsi Maraş / hepsi
+# Diyarbakır / hepsi Sivas / karma) ve dördü de Değişmez 3 çelişkisini 378'den
+# 390-395'e çıkarıp 383 tavanını aşıyor. Sebep MIMARI.md §3.4: m: tek değerli ve
+# zamansız, hangi k:2 merkezi seçilse bir dönemde başka devletin elinde kalıyor.
+# Kademe uyarısının bedeli kozmetik (bölge sınırı çizilmiyor, toprak boyaması
+# etkilenmiyor); Değişmez 3'ün bedeli gerçek bir tutarsızlık sinyalini kaybetmek.
+# Bu yüzden düzeltme motorda: zincir iki hop takip edilince Divriği → Malatya →
+# Maraş (k:2), Siverek → Urfa → Diyarbakır (k:2) diye kapanıyor.
+def k12_merkez(i, azami=5):
+    """m: zincirini k1/k2 bir merkeze kadar takip eder. Kendisi k1/k2 ise
+    kendini döner. Zincir kapanmazsa (ya da döngüye girerse) None."""
+    gorulen, j = set(), i
+    for _ in range(azami):
+        y = YERLER[j]
+        if y["k"] in (1, 2):
+            return j
+        ad = y["m"]
+        if not ad or ad not in AD2IDX or j in gorulen:
+            return None
+        gorulen.add(j)
+        j = AD2IDX[ad]
+    return None
+
+
+_kademe_uyari = 0
+for i, y in enumerate(YERLER):
+    if (y["d"] or y["v"]) and y["k"] in (3, 4) and k12_merkez(i) is None:
+        print(f"  UYARI kademe: {y['ad']} (k:{y['k']}) m: zinciri bir k1/k2 "
+              f"merkeze kapanmıyor (m:{y['m'] or '—'})")
+        _kademe_uyari += 1
+print(f"  kademe: {_kademe_uyari} yerleşimin m: zinciri açık (beklenen 0)")
 
 def gun(s):
     y, a, g = s.split("-")
@@ -263,7 +302,29 @@ def sikla(cs, adim=0.22):
             t = k/n; yeni.append((x1+(x2-x1)*t, y1+(y2-y1)*t))
     yeni.append(cs[-1]); return yeni
 
-def dogal_hatta_yasla(cs, nehir_mes=0.30, sirt_mes=0.35):
+# ⚠️ KORUMA PAYI — hatalar 7.docx madde 2-3 (SIFIR ALANLI PETEK)
+# Kullanıcı "Estergon'un kaybı haritada görülmüyor" ve "Solnok'un kaybı
+# görünmüyor" dedi. Zincir kovalandı: veri doğru (d: 1683-10-09 / 1685-10-19),
+# maddeler 0 gün farkla eşleşiyor, motor petekleri dönem kümesinden düzgün
+# çıkarıyor — AMA boyanan alan değişmiyor, çünkü o iki peteğin ALANI YOK
+# (Estergon 8 km², Solnok 0 km²). Çıplak Voronoi ile ölçüldü: olması gereken
+# Estergon 4.819 km², Solnok 8.681 km². Yani hatayı üreten adım BURASI.
+#
+# Sebep: yaslama yarıçapı nehir için 0.30 derece ≈ 33 km ve Estergon Tuna'nın,
+# Solnok Tisza'nın TAM ÜSTÜNDE. Peteğin bütün sınır köşeleri 33 km yarıçapta
+# nehri gördüğü için nehir yatağına çekiliyor; şehir de nehrin üstünde olduğuna
+# göre sınır şehrin kendi üstüne çöküyor ve petek yok oluyor. Segedin (nehre
+# 0.166 km, daha yakın) sağlam kalıyor — yani mesele yakınlık değil, sınırın
+# hangi tarafa çekildiği; bu bir kumar ve nehir şehirlerinde tutuyor.
+#
+# Çözüm: yaslama bir sınırı YERLEŞİMİN ÜSTÜNE çekemez. Hedef nokta bir yerleşime
+# `koruma`dan yakın düşüyorsa VE bu onu mevcut konumundan daha da yaklaştırıyorsa
+# yaslama iptal edilir, Voronoi hattı korunur. Sınırın nehri takip etme
+# davranışı şehirlerden uzakta olduğu gibi kalıyor.
+KORUMA_PAYI = 0.06          # ~6.7 km; peteğin asgarî yarıçapı
+
+
+def dogal_hatta_yasla(cs, nehir_mes=0.30, sirt_mes=0.35, koruma=KORUMA_PAYI):
     """Petek sınırını en yakın doğal engele çeker:
        1) yakında nehir varsa nehir yatağına (sınır nehri takip eder)
        2) yoksa dağ sırtına (sınır sırttan geçer)
@@ -275,13 +336,26 @@ def dogal_hatta_yasla(cs, nehir_mes=0.30, sirt_mes=0.35):
         p = Point(x, y)
         dn = NEHIR_HAT.distance(p) if NEHIR_HAT is not None else 9e9
         ds = SIRT_HAT.distance(p) if SIRT_HAT is not None else 9e9
+        q = None
         if dn < nehir_mes and dn <= ds:
-            q = nearest_points(NEHIR_HAT, p)[0]; yeni.append((q.x, q.y))
+            q = nearest_points(NEHIR_HAT, p)[0]
         elif ds < sirt_mes:
-            q = nearest_points(SIRT_HAT, p)[0]; yeni.append((q.x, q.y))
-        else:
+            q = nearest_points(SIRT_HAT, p)[0]
+        if q is None:
+            yeni.append((x, y)); continue
+        # KORUMA: hedef bir yerleşime çok yakın VE onu yaklaştırıyorsa yaslama yok
+        j = int(_SEED_AGACI.nearest(q))
+        d_q, d_p = noktalar[j].distance(q), noktalar[j].distance(p)
+        if d_q < koruma and d_q < d_p:
+            _YASLAMA_IPTAL.append(YERLER[j]["ad"])
             yeni.append((x, y))
+        else:
+            yeni.append((q.x, q.y))
     return yeni
+
+
+_SEED_AGACI = STRtree(noktalar)     # yaslama koruması için tohum nokta ağacı
+_YASLAMA_IPTAL = []                 # koruma yüzünden iptal edilen yaslamalar
 
 # Atlasın başlangıç tarihi. TDV'ye göre Ertuğrul Gazi 680 (1281-82) yılında
 # vefat etti ve Osman Bey beyliğe geçti; ilk askerî harekât 1285 Kulacahisar,
@@ -508,6 +582,64 @@ def alan_km2(g):
             T += sg * abs(s * R_DUNYA * R_DUNYA / 2)
     return int(round(T, -3))
 
+# ---------------- YEDİNCİ DENETİM — sıfır alanlı petek ----------------
+# hatalar 7.docx madde 2-3'ün kalıcı çözümü. Bu hata sınıfı SESSİZDİR:
+# veri doğru, madde doğru, motor peteği dönem kümesinden düzgün çıkarır ama
+# petek toprak taşımadığı için haritada hiçbir şey olmaz. Üç değişmez de bunu
+# göremez çünkü hiçbiri "bu noktanın peteği var mı" diye sormuyor.
+# denetle.py bunu ölçemez — hücre geometrisi yalnız burada, üretim sırasında
+# var. Bu yüzden denetim motorun içinde ve üretimi UYARIYLA bitirir.
+# ⚠️ ÖLÇÜT MUTLAK ALAN DEĞİL, ORAN — ilk yazımdaki hata ve düzeltmesi
+# İlk sürüm `alan_km2(PETEK_D[i]) < 50` diye bakıyordu ve 101 petek işaretledi:
+# Bursa, İznik, Bilecik, İnegöl, Yenişehir, Limni… Hepsi YANLIŞ ALARMDI, iki
+# sebepten: (1) `alan_km2` bini yuvarlıyor (`round(T, -3)`), yani 500 km²'nin
+# altındaki her şey "0 km²" basıyor ve 50 km² eşiği yuvarlama tanesinin altında
+# kalıyor; (2) kuruluş devri çekirdeği GERÇEKTEN sık — İnegöl'ün komşuları 15 km
+# ötede, peteği haklı olarak küçük. Mutlak alan bu iki durumu ayırt edemiyor.
+# Doğru ölçüt: peteğin YASLAMA ÖNCESİ ham Voronoi hücresine oranı. Estergon
+# 8 / 4.819 = %0.2 (boru hattı hücreyi yok etti), İnegöl ise %100 (hücre küçük
+# ama sağlam). Oran, yoğunluktan bağımsız olarak yalnız KAYBI ölçer.
+SIFIR_PETEK_ORAN = 0.10          # ham hücrenin %10'unun altı: hücre yok edilmiş
+print("Petek alanları denetleniyor (yedinci denetim)...")
+
+
+def _ham_km2(g):
+    """Yuvarlamasız km² — alan_km2 bini yuvarladığı için oran hesabına uymuyor."""
+    if g is None or g.is_empty:
+        return 0.0
+    ps = g.geoms if isinstance(g, MultiPolygon) else [g]
+    T = 0.0
+    for p in ps:
+        for ring, sg in [(p.exterior, 1)] + [(h, -1) for h in p.interiors]:
+            cs = list(ring.coords); s = 0.0
+            for i in range(len(cs) - 1):
+                lo1, la1 = math.radians(cs[i][0]), math.radians(cs[i][1])
+                lo2, la2 = math.radians(cs[i + 1][0]), math.radians(cs[i + 1][1])
+                s += (lo2 - lo1) * (2 + math.sin(la1) + math.sin(la2))
+            T += sg * abs(s * R_DUNYA * R_DUNYA / 2)
+    return T
+
+
+_oranlar = []
+for i in range(len(YERLER)):
+    ham = _ham_km2(PETEK[i].intersection(KARA)) if PETEK[i] is not None else 0.0
+    son = _ham_km2(PETEK_D[i])
+    _oranlar.append((son / ham if ham > 1 else 1.0, son, ham, YERLER[i]["ad"]))
+_oranlar.sort()
+if _YASLAMA_IPTAL:
+    print(f"  koruma payı: {len(_YASLAMA_IPTAL)} yaslama iptal edildi "
+          f"({len(set(_YASLAMA_IPTAL))} yerleşim korundu)")
+print("  en düşük 6 oran: " + " · ".join(
+    f"{ad} %{o*100:.0f} ({son:,.0f}/{ham:,.0f} km²)" for o, son, ham, ad in _oranlar[:6]))
+_kayip = [r for r in _oranlar if r[0] < SIFIR_PETEK_ORAN]
+if _kayip:
+    print(f"  ✗ {len(_kayip)} PETEK ham hücresinin %{SIFIR_PETEK_ORAN*100:.0f}'undan "
+          f"küçük — bu yerleşimlerin fetih/kayıp maddeleri haritada GÖRÜNMEZ:")
+    for o, son, ham, ad in _kayip:
+        print(f"      {ad:<28} %{o*100:5.1f}   {son:>9,.0f} / {ham:>9,.0f} km²")
+else:
+    print(f"  ✓ hiçbir petek ham hücresinin %{SIFIR_PETEK_ORAN*100:.0f}'unun altında değil")
+
 # ---------------- Parça havuzu ----------------
 # Aynı gövde parçası (ada, değişmeyen ana halka…) yüzlerce dönemde birebir
 # tekrarlanıyordu; ölçüm: donemler.js noktalarının yalnız %40'ı eşsizdi.
@@ -549,9 +681,13 @@ print("Bölge sınırları (k1/k2 merkezleri)...")
 _uyeler = {}
 for j, y in enumerate(YERLER):
     if not (y["d"] or y["v"]) or not y["k"]: continue
-    hedef = y["m"] if y["m"] else (y["ad"] if y["k"] <= 2 else None)
-    if hedef is None: continue
-    _uyeler.setdefault(hedef, []).append(j)
+    # Geçişli çözüm (bkz. k12_merkez): eski hâli y["m"]'e TEK HOP bakıyordu ve
+    # k:3 bir merkeze bağlı yerleşimler için k:3 adına bölge kaydı üretiyordu —
+    # "k1/k2 merkez sınırları" diyen katmana k:3 bölge giriyordu. Artık zincir
+    # k:2'ye kadar takip ediliyor; kapanmazsa yerleşim bölge katmanına girmez.
+    mi = k12_merkez(j)
+    if mi is None: continue
+    _uyeler.setdefault(YERLER[mi]["ad"], []).append(j)
 BOLGELER = []
 for ad in sorted(_uyeler):
     mi = AD2IDX[ad]; my = YERLER[mi]
