@@ -636,5 +636,11 @@ window.SEFERLER = [
 { ad:"Rus ordusunun Yeşilköy'e gelişi (1878)", tur:"sefer", sonuc:"yenilgi", taraf:"dusman", renk:"#0d7d8a",
   f:"1878-01-31", t:"1878-03-03", yol:[[26.56,41.68],[28.82,40.96]] },
 { ad:"Arnavutluk İsyanı (1910)", tur:"isyan", sonuc:"zafer", renk:"#6b2d8a",
-  f:"1910-04-01", t:"1910-04-01", yol:[[21.12,42.63],[19.51,42.07]] }
+  f:"1910-04-01", t:"1910-04-01", yol:[[21.12,42.63],[19.51,42.07]] },
+// Kronoloji (olaylar_ek5.js, t:"1373-05-15"): yer alanı "Bursa – İstanbul" —
+// Savcı Bey Bursa'da, Bizans veliahdi Andronikos İstanbul'da eş zamanlı
+// ayaklandı. Kronolojide tek bir nokta yok, bu yüzden iki şehir arası rota
+// çizildi; koordinatlar dosyada zaten kullanılan Bursa/İstanbul noktaları.
+{ ad:"Savcı Bey isyanı (1373)", tur:"isyan", sonuc:"zafer", renk:"#6b2d8a",
+  f:"1373-05-15", t:"1373-05-15", yol:[[29.06,40.19],[28.98,41.01]] }
 ];
