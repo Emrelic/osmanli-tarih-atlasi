@@ -150,9 +150,52 @@ harita:"avusturya",   // uret_petek.py BOYALAR karşılığı; yoksa alan hiç y
 | Dosya | Dizi | İçerik |
 |---|---|---|
 | `data/padisahlar.js` | `PADISAHLAR` | 41 kayıt — 36 padişah + Fetret + ara dönemler; portre yolu |
-| `data/kisiler.js` | `KISILER` | 90 kişi — sadrazam, paşa, komutan, denizci, yabancı hükümdar |
-| `data/savaslar.js` | `SAVASLAR` (108), `ANTLASMALAR` (30), `SERILER` (15), `SEFERLER` (36) | Sefer güzergâhları menzil yollarına oturtulmuştur |
-| `data/sehirler.js` | `SEHIRLER` | 62 şehir/kale kartı |
+| `data/kisiler.js` | `KISILER` | 247 kişi — bkz. `DURUM.md §e` (240'ı hükümdar/komutan, 5. boyut eksik) |
+| `data/savaslar.js` | `SAVASLAR` (169), `ANTLASMALAR` (33), `SERILER` (16), `SEFERLER` (50) | Sefer güzergâhları menzil yollarına oturtulmuştur |
+| `data/sehirler.js` | `SEHIRLER` | 62 şehir/kale kartı (yerleşim verisi 917 — index gerçeğin %7'si) |
+| `data/devirler.js` | `DEVIRLER` | 🤖 üretilmiş — 11 antlaşmanın taralı devir alanı (`arac/uret_devirler.py`) |
+| `data/kimlikler.js` | `KIMLIKLER` | Kimlik sözlüğü (`ETIKETLEME.md §5`) — arayüz henüz kullanmıyor |
+
+### `SEFERLER` — hareket tipolojisi 🆕
+
+Kullanıcının genel kuralı: *"sefer, geri çekilme, tahliye, kuşatma, bozgun,
+muharebe… farklı emojiler üretebiliriz … aynı tarzda olmasın farklılıkları
+olsun. kazançlı sefer ile bozgun sonuçlu seferin ayrı gösterimleri olsun."*
+
+**İki AYRI eksen**, çünkü iki ayrı soru:
+
+| Alan | Ne söyler | Görsel karşılığı |
+|---|---|---|
+| `tur` | hareketin **cinsi** | ok başı glifi + çizgi deseni + kalınlık |
+| `sonuc` | hareketin **sonucu** | rozet: ▲ zafer (yeşil) · ▼ yenilgi (kırmızı) |
+
+Böylece *kazançlı sefer* ile *bozgunla biten sefer* **aynı glifi** taşır ama
+farklı okunur; *geri çekilme* ile *taarruz* ise **glif düzeyinde** ayrılır.
+
+| `tur` | glif | çizgi | ne zaman |
+|---|---|---|---|
+| `sefer` *(varsayılan)* | ➤ | `[1.5,1.5]` | taarruz, ilerleyiş, klasik sefer |
+| `cekilme` | ⇤ | `[5,4]` | geri çekilme, ricat |
+| `tahliye` | ⇥ | `[5,4]` | kale/şehir boşaltma, garnizon çekilmesi |
+| `akin` | ⇢ | `[1,2]` | akın, baskın — kalıcı işgal değil |
+| `kusatma` | ⊗ | `[0.5,2]` | kuşatma (yön değil YER bildirir) |
+| `deniz` | ⚓ | `[4,3]` | deniz harekâtı, donanma hareketi |
+| `teslim` | ⇲ | `[2,3]` | idarî devir, donanma/kale teslimi |
+| `seyahat` | ❖ | `[1,3]` | siyasî seyahat, ziyaret |
+| `isyan` | ✹ | `[0.5,1.5]` | iç isyan — yön yok, yerinde |
+
+```js
+{ ad:"Belgrad garnizonunun çekilmesi", tur:"tahliye", sonuc:"yenilgi",
+  taraf:"osmanli", f:"1867-04-06", t:"1867-04-06", yol:[[20.45,44.82],[22.5,43.3]] }
+```
+
+⚠️ **Geriye dönük uyumlu:** `tur`/`sonuc` yoksa eski davranış (dolu ok, kesikli
+çizgi, rozetsiz) aynen sürer — mevcut 50 kaydın hiçbiri bozulmaz.
+
+⚠️ **`tur` başına AYRI KATMAN gerekiyor** ve sebebi teknik: MapLibre'de
+`line-dasharray` veriyle sürülemeyen bir boya özelliği, yani tek katmanda
+özellik başına farklı kesik deseni verilemez. `js/app.js` dokuz katmanı
+`HAREKET` tablosundan döngüyle kuruyor; yeni tür eklemek **tek satır**.
 
 ## Üretilmiş dosyalar — 🤖 ELLE DÜZENLEME
 

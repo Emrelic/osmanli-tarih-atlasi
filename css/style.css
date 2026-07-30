@@ -588,6 +588,53 @@ body {
   pointer-events: none;
 }
 
+/* ⚠️ HAREKET TİPOLOJİSİ — kullanıcı kararı: "sefer, geri çekilme, tahliye,
+   kuşatma, bozgun, muharebe... farklı emojiler üretebiliriz ... aynı tarzda
+   olmasın farklılıkları olsun. kazançlı sefer ile bozgun sonuçlu seferin ayrı
+   gösterimleri olsun."
+   İki eksen ayrı çözülüyor:
+     HAREKETİN CİNSİ  → glif + boyut + çizgi deseni   (js/app.js HAREKET tablosu)
+     HAREKETİN SONUCU → rozet (▲ zafer / ▼ yenilgi)   (js/app.js SONUC_ROZET)
+   Böylece "kazançlı sefer" ile "bozgunla biten sefer" aynı glifi taşır ama
+   farklı okunur; "geri çekilme" ile "taarruz" glif düzeyinde ayrılır. */
+
+/* Geri çekilme ve tahliye: ok ince ve soluk — ilerleyişin görsel ağırlığını
+   taşımamalı, yoksa bozgun zafer gibi okunuyor. */
+.sefer-ok.tur-cekilme,
+.sefer-ok.tur-tahliye { font-size: 17px; opacity: 0.85; }
+
+/* Akın: küçük ve hafif, çünkü kalıcı işgal değil geçici baskın. */
+.sefer-ok.tur-akin { font-size: 15px; opacity: 0.9; }
+
+/* Kuşatma: ok değil hedef işareti — yön değil YER bildiriyor, o yüzden
+   js tarafında dönüş uygulansa da simetrik glif seçildi (⊗). */
+.sefer-ok.tur-kusatma { font-size: 18px; }
+
+/* Deniz harekâtı: çapa, kara seferinden ilk bakışta ayrılsın. */
+.sefer-ok.tur-deniz { font-size: 17px; }
+
+/* Teslim / devir: askerî değil idarî hareket — nötr kahve, ok inceltilmiş. */
+.sefer-ok.tur-teslim { font-size: 17px; opacity: 0.9; }
+
+/* Seyahat: en hafif gösterim. Abdülaziz'in Avrupa seyahati ile Niğbolu seferi
+   aynı ağırlıkta görünmemeli. */
+.sefer-ok.tur-seyahat { font-size: 14px; opacity: 0.8; }
+
+/* İsyan: yön yok, yerinde patlama. */
+.sefer-ok.tur-isyan { font-size: 18px; }
+
+/* Sonuç rozeti — ok başının altına, DÖNMEDEN. Döndürülse ▲/▼ anlamını
+   kaybederdi, o yüzden js'te ayrı bir kutu olarak konuyor. */
+.sefer-rozet {
+  font: 700 11px/1 system-ui, sans-serif;
+  text-align: center;
+  margin-top: 1px;
+  text-shadow: 0 0 3px #f7f1e3, 0 0 4px #f7f1e3;
+  pointer-events: none;
+}
+.sefer-rozet.rozet-zafer   { color: #1a6b33; }
+.sefer-rozet.rozet-yenilgi { color: #9c1f14; }
+
 /* zaman barındaki oto-zoom düğmesi */
 #btn-zoom { width: auto !important; padding: 0 10px; font-size: 13px !important; }
 #btn-zoom.pasif { opacity: 0.45; }

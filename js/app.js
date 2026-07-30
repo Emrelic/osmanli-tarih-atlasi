@@ -319,11 +319,37 @@ harita.on("load", function () {
   harita.addLayer({ id: "devlet-cizgi", type: "line", source: "devlet",
     paint: { "line-color": ["get", "renk"], "line-width": 1.5, "line-opacity": 0.85 } });
 
+  // ⚠️ GENEL KURAL (kullanıcı, hatalar 10.docx madde 1):
+  //   "Osmanlı devletinin sınırlarını kalın kırmızı bir çizgi ile belirleyelim,
+  //    vassal olan daha açık kırmızı olan devletleri de içine alan bir tık daha
+  //    kalın kırmızı çizgi ile — hem vassal devletleri görmüş oluruz hem
+  //    vassalların ayrı devlet olduğu algısını yıkmış oluruz."
+  //
+  // Bu tek karar hatalar 10'un 1, 2, 3 ve hatalar 11'in 21, 29, 31. maddelerini
+  // birden kapatıyor. Hepsinde aynı şikâyet vardı: Kırım'ın yarısı kırmızı
+  // yarısı pembe, Hotin Boğdan'ın içinde kırmızı, Romanya "bağlı mı değil mi"
+  // belirsiz. Sebep, tâbi toprağın AYRI BİR DEVLET gibi çizilmesiydi.
+  //
+  // NASIL: gerçek birleşim (union) tarayıcıda hesaplanamaz — geometri kütüphanesi
+  // yok. Bunun yerine HALE tekniği: Osmanlı ve tâbi gövdeleri tek kaynakta
+  // toplanıp KALIN bir çizgiyle DOLGULARIN ALTINA çiziliyor. Dolgular üstünü
+  // örtünce dışarıda kalan kısım bir dış çerçeve gibi görünür; iç sınırlar
+  // dolgunun altında kaldığı için silinir. Union'ın görsel karşılığı budur ve
+  // 442 dönem için ek geometri üretmeye gerek kalmaz.
+  harita.addSource("imparatorluk", { type: "geojson", data: bosVeri() });
+  harita.addLayer({ id: "imparatorluk-hale", type: "line", source: "imparatorluk",
+    layout: { "line-cap": "round", "line-join": "round" },
+    paint: { "line-color": "#6d0d1c", "line-width": 7, "line-opacity": 0.95 } });
+
   harita.addSource("vassal", { type: "geojson", data: bosVeri() });
+  // ⚠️ Renk yakınlaştırıldı (kullanıcı: "vassal devletlerin kırmızısı sadece bir
+  // ton açık renk olmalı, burada kırmızı ve pembe olacak şekilde fark büyük,
+  // ayrı devlet gibi görünüyorlar"). Eski: #d4707d @0.52 — Osmanlı #8e0b22
+  // @0.68'e karşı hem ton hem doygunluk atlıyordu. Yeni ton aynı aileden.
   harita.addLayer({ id: "vassal-dolgu", type: "fill", source: "vassal",
-    paint: { "fill-color": "#d4707d", "fill-opacity": 0.52 } });
-  harita.addLayer({ id: "vassal-cizgi", type: "line", source: "vassal",
-    paint: { "line-color": "#8e0b22", "line-width": 1.4, "line-dasharray": [3, 2] } });
+    paint: { "fill-color": "#b2384a", "fill-opacity": 0.60 } });
+  // Kesikli çizgi KALDIRILDI: "ayrı devlet" algısını en çok o üretiyordu.
+  // Tâbi toprağın dış hattı artık imparatorluk halesinden geliyor.
 
   harita.addSource("osmanli", { type: "geojson", data: bosVeri() });
   harita.addLayer({ id: "osmanli-dolgu", type: "fill", source: "osmanli",
@@ -346,11 +372,22 @@ harita.on("load", function () {
   harita.addLayer({ id: "sehzade-cizgi", type: "line", source: "sehzade",
     paint: { "line-color": ["get", "renk"], "line-width": 2.2 } });
 
+  // ⚠️ Hareket tipolojisi TÜR BAŞINA AYRI KATMAN gerektiriyor: MapLibre'de
+  // `line-dasharray` veriyle sürülemeyen bir boya özelliği, yani tek katmanda
+  // özellik başına farklı kesik deseni verilemiyor. Dokuz tür → dokuz ince
+  // katman; her biri kendi `tur` değerine göre süzülüyor. Renk ve genişlik
+  // veriyle sürülebildiği için onlar tek ifadede kalıyor.
   harita.addSource("seferler", { type: "geojson", data: bosVeri() });
-  harita.addLayer({ id: "sefer-cizgi", type: "line", source: "seferler",
-    layout: { "line-cap": "round", "line-join": "round" },
-    paint: { "line-color": ["coalesce", ["get", "renk"], "#2b1006"],
-             "line-width": 2.6, "line-dasharray": [1.5, 1.5] } });
+  Object.keys(HAREKET).forEach(function (tur) {
+    var h = HAREKET[tur];
+    harita.addLayer({
+      id: "sefer-cizgi-" + tur, type: "line", source: "seferler",
+      filter: ["==", ["coalesce", ["get", "tur"], "sefer"], tur],
+      layout: { "line-cap": "round", "line-join": "round" },
+      paint: { "line-color": ["coalesce", ["get", "renk"], "#2b1006"],
+               "line-width": h.kalinlik, "line-dasharray": h.desen }
+    });
+  });
 
   // ⚠️ GENEL KURAL (kullanıcı, hatalar 8.docx madde 1): "her ülkeye verilen
   // toprakları kırmızı ve diğer ülkenin renginde olacak şekilde ... taralı bir
@@ -371,8 +408,17 @@ harita.on("load", function () {
   var lejant = document.createElement("div");
   lejant.className = "lejant";
   lejant.innerHTML =
-    '<span><i style="background:#8e0b22"></i> Doğrudan Osmanlı toprağı</span>' +
-    '<span><i style="background:#c96a4a"></i> Bağlı / özerk topraklar</span>' +
+    // ⚠️ ÜÇ GÖSTERİM — kullanıcının kararı (hatalar 10 sonrası):
+    //   "direkt idare, vasallık ve işgal edilmiş ayrı topraklar gösterimi olarak
+    //    üç ayrı gösterim olsun. bağlı topraklarda fazla detaya girmeyelim.
+    //    kalın kırmızı çizgi olsun hepsini toplasın. eyalet vasallık özerklik
+    //    himaye falan detaya girersek karmaşa yaratabilir."
+    // Yani veri şemasında hukukî statü ayrıntısı (sâlyâneli eyalet, ocaklık,
+    // voyvodalık, himaye…) AÇILMIYOR — d: ve v: ikilisi korunuyor, ayrım görsel
+    // katmanda yapılıyor.
+    '<span><i style="background:#8e0b22"></i> Doğrudan idare</span>' +
+    '<span><i style="background:#b2384a"></i> Bağlı / tâbi topraklar</span>' +
+    '<span><i style="background:none;border-top:3px solid #6d0d1c;height:0;align-self:center"></i> İmparatorluk sınırı (ikisini birlikte)</span>' +
     '<span><i style="background:none;border-top:2px dashed #5a3a24;height:0;align-self:center"></i> Bölge sınırı (yakınlaşınca)</span>' +
     '<span><i style="background:linear-gradient(90deg,#8877b8,#4e7d46,#4f7d4f,#b5885b)"></i> Komşu devletler (kendi renkleri)</span>' +
     '<span id="alan-goster"></span>';
@@ -678,17 +724,57 @@ function devirLejanti(fs) {
   }).join("");
 }
 
+// ⚠️ GENEL KURAL — HAREKET TİPOLOJİSİ (kullanıcı kararı, hatalar 10-11 sonrası):
+//   "sefer, geri çekilme, tahliye, kuşatma, bozgun, muharebe... bu ve bunun gibi
+//    farklı olaylara farklı emojiler üretebiliriz. iç isyan filan, geri çekilme
+//    ile taarruz etme okları, ya da Osmanlı donanmasının götürülüp Mısır'a teslim
+//    edilmesi oku, ya da Abdülaziz'in seyahati oku aynı tarzda olmasın,
+//    farklılıkları olsun. kazançlı sefer ile bozgun sonuçlu seferin ayrı
+//    gösterimleri olsun."
+//
+// Bu ikisi ayrı eksende çözülüyor, çünkü ikisi ayrı soru:
+//   HAREKETİN CİNSİ  → ok başı glifi + çizgi deseni   (tur alanı)
+//   HAREKETİN SONUCU → renk doygunluğu + sonuç rozeti (sonuc alanı)
+// Böylece "kazançlı sefer" ile "bozgunla biten sefer" aynı glifi taşır ama
+// farklı okunur; "geri çekilme" ile "taarruz" ise glif düzeyinde ayrılır.
+//
+// Veri tarafı geriye dönük uyumlu: tur/sonuc yoksa eski davranış (dolu ok,
+// kesikli çizgi) aynen sürüyor — mevcut 50 kaydın hiçbiri bozulmuyor.
+var HAREKET = {
+  sefer:    { glif: "➤", desen: [1.5, 1.5], kalinlik: 2.6, ad: "sefer" },
+  cekilme:  { glif: "⇤", desen: [5, 4],     kalinlik: 2.2, ad: "geri çekilme" },
+  tahliye:  { glif: "⇥", desen: [5, 4],     kalinlik: 2.2, ad: "tahliye" },
+  akin:     { glif: "⇢", desen: [1, 2],     kalinlik: 1.8, ad: "akın" },
+  kusatma:  { glif: "⊗", desen: [0.5, 2],   kalinlik: 2.4, ad: "kuşatma" },
+  deniz:    { glif: "⚓", desen: [4, 3],     kalinlik: 2.4, ad: "deniz harekâtı" },
+  teslim:   { glif: "⇲", desen: [2, 3],     kalinlik: 2.0, ad: "teslim / devir" },
+  seyahat:  { glif: "❖", desen: [1, 3],     kalinlik: 1.6, ad: "seyahat" },
+  isyan:    { glif: "✹", desen: [0.5, 1.5], kalinlik: 2.0, ad: "isyan" }
+};
+// Sonuç eksenі: aynı hareket kazançla da bozgunla da bitebilir.
+var SONUC_ROZET = { zafer: "▲", yenilgi: "▼", belirsiz: "" };
+
 var seferler = (window.SEFERLER || []).map(function (s) {
   var son = s.yol[s.yol.length - 1], onceki = s.yol[s.yol.length - 2];
   // ok başının dönüşü: son parçanın ekran yönü (kuzeyden saat yönünde derece)
   var dx = (son[0] - onceki[0]) * Math.cos(son[1] * Math.PI / 180);
   var dy = son[1] - onceki[1];
   var aci = Math.atan2(dx, dy) * 180 / Math.PI;
+  var h = HAREKET[s.tur] || HAREKET.sefer;
   var el = document.createElement("div");
   var ic = document.createElement("div");
-  ic.className = "sefer-ok";
-  ic.textContent = "➤";
+  ic.className = "sefer-ok tur-" + (s.tur || "sefer");
+  ic.textContent = h.glif;
   el.appendChild(ic);
+  // Sonuç rozeti ok başının yanına, DÖNMEDEN konur — döndürülürse ▲/▼ anlamını
+  // kaybeder. Nötr sonuçta hiç eklenmez ki kalabalık yapmasın.
+  var rozet = SONUC_ROZET[s.sonuc || "belirsiz"];
+  if (rozet) {
+    var rz = document.createElement("div");
+    rz.className = "sefer-rozet rozet-" + s.sonuc;
+    rz.textContent = rozet;
+    el.appendChild(rz);
+  }
   // ⚠️ Ok'un ADI yoktu. Bir sefer birkaç kronoloji maddesi boyunca sürdüğü için
   // (Katalan Kumpanyası 1303-09 → 1305-06, arada Sakarya seferi maddesi var)
   // kullanıcı okun neye ait olduğunu anlayamıyordu. Ad ok başına yazılıyor;
@@ -697,7 +783,7 @@ var seferler = (window.SEFERLER || []).map(function (s) {
   var renk = s.renk || (s.taraf === "dusman" ? "#1b7a3f" : "#2b1006");
   ic.style.color = renk;
   return { fi: gunIdx(s.f), ti: gunIdx(s.t) + 45, ad: s.ad, yol: s.yol,
-           renk: renk, ekli: false,
+           renk: renk, tur: (s.tur || "sefer"), ekli: false,
            mk: new maplibregl.Marker({ element: el, anchor: "center", rotation: aci - 90 })
                  .setLngLat(son),
            ad_mk: (function () {
@@ -714,7 +800,7 @@ function seferGuncelle(t) {
   seferler.forEach(function (m) {
     var aktif = m.fi <= t && t < m.ti;
     if (aktif) {
-      cizgiler.push({ type: "Feature", properties: { renk: m.renk },
+      cizgiler.push({ type: "Feature", properties: { renk: m.renk, tur: m.tur },
                       geometry: { type: "LineString", coordinates: m.yol } });
       if (!m.ekli) { m.mk.addTo(harita); m.ad_mk.addTo(harita); m.ekli = true; }
     } else if (m.ekli) { m.mk.remove(); m.ad_mk.remove(); m.ekli = false; }
@@ -1007,6 +1093,7 @@ function guncelle() {
     aktifDonem = di;
     harita.getSource("osmanli").setData(bosVeri());
     harita.getSource("vassal").setData(bosVeri());
+    harita.getSource("imparatorluk").setData(bosVeri());
     harita.getSource("bolge").setData(bosVeri());
     sehzadeGuncelle({});
     donemEtiketi.textContent = "Fetret Devri — şehzade payları";
@@ -1015,8 +1102,17 @@ function guncelle() {
   } else if (haritaHazir && di >= 0 && di !== aktifDonem) {
     aktifDonem = di;
     var d = donemler[di];
-    harita.getSource("osmanli").setData(d.o ? tekVeri(d.o) : petekVerisi(d));
-    harita.getSource("vassal").setData(d.v ? tekVeri(d.v) : bosVeri());
+    var osmVeri = d.o ? tekVeri(d.o) : petekVerisi(d);
+    var vasVeri = d.v ? tekVeri(d.v) : bosVeri();
+    harita.getSource("osmanli").setData(osmVeri);
+    harita.getSource("vassal").setData(vasVeri);
+    // İmparatorluk halesi: doğrudan + tâbi gövdeler TEK kaynakta. Kalın çizgi
+    // dolguların ALTINDA çizildiği için yalnız dış çerçeve görünür, iç sınırlar
+    // dolgunun altında kalıp silinir — union'ın görsel karşılığı.
+    harita.getSource("imparatorluk").setData({
+      type: "FeatureCollection",
+      features: (osmVeri.features || []).concat(vasVeri.features || [])
+    });
     harita.getSource("bolge").setData(bolgeVerisi(suanki));
     sehzadeGuncelle(d);
     donemEtiketi.textContent = d.ad;
