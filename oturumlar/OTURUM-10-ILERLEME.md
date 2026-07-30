@@ -347,3 +347,57 @@ riskli). `data/savaslar.js`'e bu sırada dokunulmadı, orada karışma yok.
 stage edilip commit edilmeden bırakılan HERHANGİ bir dosya, bir sonraki
 oturumun commit'ine yutuluyor. Kural muhtemelen "stage ettikten hemen sonra
 commit et, ikisi arasına başka komut sokma" şeklinde sıkılaştırılmalı.
+
+---
+
+## EK 3 — hatalar 12'den iki ok maddesi (2026-07-30, Merkez Oturum görevi)
+
+### md.3 — Katalan oku "erken" görünüyor mu? ÖLÇÜLDÜ, HATA DEĞİL
+
+`data/savaslar.js`'teki kayıt: `Katalan Kumpanyası'nın Anadolu seferi
+(1303-1305)`, `f:"1303-09-01"`, `t:"1305-06-01"`. Bu tarihler doğru
+(Katalan Kumpanyası Anadolu'ya 1303'te geldi, 1305'te Trakya'ya çekildi).
+
+`js/app.js`'teki gösterim penceresi ölçüldü (satır 959): SEFERLER okları
+`fi:gunIdx(s.f)` ile başlar, `ti:gunIdx(s.t)+45` ile biter — yalnız kendi
+`f`/`t` alanına bağlı, GERİYE doğru hiç taşmaz. Bu, SAVASLAR nokta
+işaretlerinin kullandığı "bir sonraki kronoloji maddesine kadar, taban 60
+tavan 365 gün" penceresinden (satır 699-707, `sonrakiOlayaKadar`) TAMAMEN
+AYRI bir mekanizma — o pencere yalnız `⚔` meydan işaretlerinde kullanılıyor,
+SEFERLER oklarında değil.
+
+Kronolojideki "Sakarya seferi" maddesi (`olaylar_ek5.js`, `t:"1304-01-01"`)
+Katalan seferinin kendi aralığının (1303-09 → 1305-06) TAM İÇİNDE. Yani ok
+Sakarya seferi görüntülenirken görünüyorsa bu veri hatası değil — iki
+olay gerçekten aynı yıllarda, farklı coğrafyalarda yaşanmış ve tesadüfen
+üst üste düşüyor. `js/app.js`'teki mevcut bir yorum (satır 952-955) bu tür
+karışıklığı öngörüp okun ucuna `ad` etiketi eklemiş zaten ("Katalan
+Kumpanyası'nın Anadolu seferi..." yazısı ok başında görünür).
+
+**Sonuç: `data/savaslar.js`'te düzeltilecek bir şey yok.** Kullanıcı hâlâ
+karışıklık yaşıyorsa bu bir etiketleme/okunabilirlik meselesi —
+`js/app.js` sahibi Oturum 1'in konusu, benim dosyamın değil.
+
+### md.9 — Savcı Bey isyanı — EKLENDİ
+
+Kronolojide (`olaylar_ek5.js`, `t:"1373-05-15"`) kayıt var: `yer:"Bursa –
+İstanbul"`, iki şehirde eş zamanlı isyan. Tek nokta yok ama iki şehir adı
+kronolojide açıkça geçtiği için "yeri kronolojide yok" durumu değil —
+Bursa/İstanbul arası rota çizildi, koordinatlar dosyada zaten defalarca
+kullanılan Bursa `[29.06,40.19]` ve İstanbul `[28.98,41.01]` noktaları
+(yeni koordinat araştırılmadı). `tur:"isyan"`, `sonuc:"zafer"` (isyan
+bastırıldı, Savcı Bey yakalanıp idam edildi — merkezi Osmanlı devleti için
+olumlu sonuç, önceki isyan kayıtlarıyla aynı Osmanlı-merkezli kural).
+
+Mesajdaki "Çekmece/Apikridion'da bastırıldı, Dimetoka'da mil çekildi" detayı
+kronolojide YOK (kronoloji yalnız "Bursa – İstanbul" diyor) — bu yüzden o
+ayrıntı koordinat/rota olarak KULLANILMADI, kronolojinin kendi `yer` alanı
+esas alındı.
+
+Doğrulama: `SEFERLER: 61 | tur/sonuc eksik: 0`. Commit `087468f`
+(izole, yalnız `data/savaslar.js`).
+
+**Durum sorusunun tekrar cevabı**: 50/50 SEFERLER kaydına tur/sonuc
+eklendi, 10/10 yeni ok girdi (yukarıda EK 2), kronolojide yeri/tarihi
+olmadığı için eklenemeyen ok yoktu. Bu turda da (md.3, md.9) ikisi de
+kronolojiyle karşılandı, Opus'a havale gerekmedi.
