@@ -656,3 +656,146 @@ epok kararıyla birlikte ele alınmalı. Ayrıntı: `OTURUM-14-BEYLIKLER.md` §3
 elimdeki tek kronoloji dosyası o. Başka bir dosyaya taşınması gerekiyorsa söyleyin.
 `olaylar_ek8.js` Fizan vakasında görüldüğü gibi **tarih uzayı ortak**; taşımadan
 önce 1427-01-01'e başka bir oturumun yazıp yazmadığı kontrol edilmeli.
+
+---
+
+## 15. md.17'nin İKİNCİ YARISI — Libya iç noktaları (HAZIR LİSTE, yazılmadı)
+
+Kilit sürerken hazırlandı. **Yazılmadı** — `yerlesimler_afrika.js` donuk.
+
+### 15a. Önce: durum bugün ne?
+
+| Ölçüt | Değer |
+|---|---|
+| Libya kutusundaki nokta | **36** (9'u kasten sahipsiz, %25) |
+| Yoğunluk | **48.876 km²/nokta** |
+| *merkezin ilk ölçümü* | *192.614 km²/nokta (8 nokta)* |
+| *Batı Anadolu* | *1.868 km²/nokta* |
+
+Yoğunluk **4 kat** iyileşmiş (benim 8 noktam + başka oturumun eklemeleri:
+Zâviye · Hums · Zilten · Mîzde · Benî Velîd · Yefren · Merc · Beyzâ · Ecdâbiye ·
+Sirte iç çölü · Fizan güneyi · Tibesti · Büyük Doğu Ergi). Hâlâ Batı
+Anadolu'nun **26 katı** kaba.
+
+### 15b. 🔴 Ölçütümü bir kez değiştirmek zorunda kaldım
+
+İlk ölçümde "80 km üstü düz kenar" saydım ve bir aday liste kurdum. **Simülasyon
+listemi çürüttü:** kenar sayısı 72 → 85, toplam 17.986 → 20.246 km (**+%13**).
+Sebep: seyrek bölgeye nokta eklemek uzun kenarı bölerken **yeni uzun kenarlar
+doğuruyor**; net etki artı çıkabiliyor.
+
+Yanlış olan şeyi sayıyordum. **Bir kenar ancak iki tarafındaki hücrenin SAHİBİ
+farklıysa haritada çizgi olarak görünür.** Doğru ölçüt bu:
+
+| Tarih | Görünür düz kenar (>80 km, karada, farklı sahip) |
+|---|---|
+| 1700-06-15 | 15 adet · 3.803 km · en uzun **438 km** |
+| 1880-06-15 | 18 adet · 4.298 km · en uzun **438 km** |
+| 1911-06-15 | 18 adet · 4.298 km · en uzun **438 km** |
+
+**Üç tarihte de aynı** — kullanıcının "cetvelle çizilmiş gibi" dediği tam bu:
+iki yüz yıl boyunca kımıldamayan bir çizgi.
+
+**Ve beşinin beşi de `(boş) | OSMANLI` sınırı.** Yani cetvel çizgisi Osmanlı ile
+başka bir devletin arasında değil, **Osmanlı ile sahipsiz çölün arasında.**
+
+| Uzunluk | Orta noktası | Taraflar |
+|---|---|---|
+| 438 km | 25.83°K / 11.15°D | (boş) ↔ OSMANLI |
+| 432 km | 26.34°K / 13.21°D | (boş) ↔ OSMANLI |
+| 424 km | 22.34°K / 11.25°D | (boş) ↔ OSMANLI |
+| 311 km | 28.24°K / 21.70°D | (boş) ↔ OSMANLI |
+| 275 km | 25.72°K / 15.58°D | (boş) ↔ OSMANLI |
+
+### 15c. 🔴 ASIL SEBEP NOKTA DEĞİL — motorun yaslanacağı hat yok
+
+`uret_petek.py`:347 — petek sınırı **nehir yatağına (0.30° ≈ 33 km)** ya da
+**dağ sırtına (0.35° ≈ 39 km)** yaslanır. Ölçtüm:
+
+| | Libya | Anadolu |
+|---|---|---|
+| Motorun okuduğu **nehir** parçası | **0** | 17 parça · ~6.746 km |
+| Motorun sırt saydığı (`FEATURECLA` ⊃ "Range") | 3 parça · ~3.937 km | 3 parça · ~3.978 km |
+
+Libya'nın üç sırtı: **Jabal bin Ghunaymah** (orta) · **Al Jabal al Akhdar**
+(Berka kıyısı) · **Tibesti** (uzak güney). **Hiçbiri Fizan sınırında değil** —
+oysa görünür cetvel çizgilerinin beşi de orada (22–28°K, 10–16°D).
+
+> **Sonuç: Fizan'daki Osmanlı/çöl sınırının 33–39 km içinde yaslanacak HİÇBİR
+> ŞEYİ yok.** Ham Voronoi orta dikmesi olarak kalıyor — ve orta dikme tanımı
+> gereği düz bir doğrudur. Cetvel görüntüsü veri eksikliği değil, **çölde
+> topografya olmamasının sonucu.**
+
+Bu, Oturum 16'nın md.17 teşhisini ("çöl sınırı cetvel değil, nokta yokluğu")
+**yarısından düzeltir:** nokta yokluğu gerçekti ve giderildi (192.614 → 48.876),
+ama cetvel görüntüsü ondan bağımsız olarak devam ediyor.
+
+### 15d. Nokta eklemenin ölçülmüş tavanı
+
+Aşağıdaki dokuz nokta simüle edildi (1880-06-15, görünür kenar ölçütü):
+
+| Deneme | Kenar | Toplam | En uzun |
+|---|---|---|---|
+| bugünkü hâl | 18 | 4.298 km | **438 km** |
+| 7 nokta | 19 | 4.010 km | 451 km ⚠️ *arttı* |
+| 8 nokta (+Tâsîlî) | 20 | 4.137 km | **390 km** |
+| **9 nokta** | 21 | **3.931 km** | **390 km** |
+
+**Kazanç: en uzun çizgi -%11, toplam -%9.** Dokuz nokta için mütevazı; §15c
+yüzünden tavan bu. **md.17 nokta ekleyerek KAPANMAZ, yalnız yumuşar.**
+
+⚠️ Yedi nokta aşamasında en uzun kenarın **artması** (438 → 451) tesadüf değil:
+İdehân Ubârî eklenince Gât'ın batı sınırı yeni tepe oldu. Tâsîlî n'Accer onu
+kırıyor. **Listeden nokta çıkarılırsa bu ölçüm geçersizdir** — dokuzu birlikte
+çalışıyor.
+
+### 15e. HAZIR LİSTE — 9 nokta, 7'si kasten sahipsiz (%78)
+
+Hepsi kara maskesinin içinde; en yakın komşuya mesafe ≥ 57 km (3 km kuralı
+fazlasıyla sağlanıyor). Hiçbiri mevcut bir kaydın adı değil — Sürt/Zuvâra/Geryan
+hatası tekrarlanmasın diye 36 noktanın hepsiyle karşılaştırıldı.
+
+**KASTEN SAHİPSİZ (7)** — `s:[], d:[], v:[]`, hiç dönem yok:
+
+| Ad | Enlem | Boylam | Neyi kırıyor |
+|---|---|---|---|
+| İdehân Ubârî | 25.90 | 11.30 | 438 km'lik kenar |
+| Ramletü Murzuk (güneybatı) | 24.60 | 12.10 | 432 km'lik kenar |
+| Vâdî Tanezzûft | 22.40 | 11.30 | 424 km'lik kenar |
+| Serîr Kalanşû | 28.20 | 21.70 | 311 km'lik kenar |
+| Ramletü Zellâf | 25.60 | 15.60 | 275 km'lik kenar |
+| Ma'tan es-Sarra | 21.70 | 21.85 | güney sınırı |
+| **Tâsîlî n'Accer** | 25.30 | 9.20 | Gât'ın batı sınırı — ⚠️ **Cezayir toprağı**, Libya değil |
+
+**SAHİPLİ (2)** — Fizan'ın gerçek kaza merkezleri, Murzuk'un dönem zincirini
+birebir tekrarlar, **yeni kırılma üretmezler**:
+
+| Ad | Enlem | Boylam |
+|---|---|---|
+| Sebha | 27.038 | 14.428 |
+| Ubârî | 26.590 | 12.777 |
+
+```js
+// sahipli ikisi için dönem zinciri (Murzuk ile aynı):
+s:[{f:"1281-01-01",t:"1577-01-01",d:"hafsi"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+d:[{f:"1577-01-01",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}],
+v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)"}]
+```
+
+🔴 **İkisi de zaten Osmanlı boyalı hücrenin İÇİNDE** — Murzuk'un peteğini böler,
+sınırı dışarı taşımaz. Toprak **büyümez**. md.40'ta dört vahanın boş çölü
+yutması gibi bir etki burada yok; ölçüldü.
+
+⚠️ **`BEKLENEN_SAHIPSIZ` 40 → 47** (md.40'ın üç dolgusu da eklenirse **50**).
+
+### 15f. Kararı gerektiren nokta
+
+**Motor tarafı (Oturum 16'ya):** §15c'ye göre asıl kaldıraç nokta değil,
+sınırın yaslanacağı hat. İki seçenek ölçülebilir:
+1. `ne_10m_geography_regions_polys`'ten **kum denizi / erg / serîr** poligonlarını
+   da yaslama hedefi yapmak (bugün yalnız `"Range"` alınıyor — Libya'da
+   22 poligon var, motorun 3'ünü sayıyor).
+2. Sahipsiz/sahipli sınırını **keskin çizgi yerine geçişli** çizmek — çölde
+   sınır gerçekten tanımsızdı; keskin çizgi olmayan bir kesinlik iddia ediyor.
+
+İkisi de motorun işi, benim değil. Ölçüm yukarıda.
