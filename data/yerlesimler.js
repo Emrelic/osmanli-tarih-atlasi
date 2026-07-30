@@ -873,8 +873,22 @@ window.YERLESIMLER = [
 { ad:"Yanova (Ineu)", tur:"kale", lat:46.426, lon:21.741, g:0, k:4, m:"Temeşvar", s:[{f:"1281-01-01",t:"1526-09-01",d:"macaristan"},{f:"1693-01-01",t:"1923-10-29",d:"avusturya"}], v:[{f:"1526-09-01",t:"1541-08-29",k:"Macaristan (Zapolya vasal krallığı)"},{f:"1541-08-29",t:"1658-08-27",k:"Erdel Prensliği"}], d:[{f:"1658-08-27",t:"1693-01-01",y:"kusatma"}] },
 
 // Tuna deltası ve Karadeniz kuzeyi
-{ ad:"Hotin", tur:"kale", lat:48.510, lon:26.492, g:1, k:3, m:"Yaş", s:[{f:"1281-01-01",t:"1713-06-24",d:"bogdan"},{f:"1769-09-19",t:"1774-07-21",d:"rusya"},{f:"1812-05-28",t:"1923-10-29",d:"rusya"}], d:[{f:"1713-06-24",t:"1769-09-19",y:"antlasma"},{f:"1774-07-21",t:"1812-05-28",y:"antlasma"}] },
-{ ad:"Bender", tur:"kale", lat:46.831, lon:29.481, g:0, k:3, m:"Yaş", s:[{f:"1281-01-01",t:"1538-09-01",d:"bogdan"},{f:"1770-09-27",t:"1774-07-21",d:"rusya"},{f:"1812-05-28",t:"1923-10-29",d:"rusya"}], d:[{f:"1538-09-01",t:"1770-09-27",y:"kusatma"},{f:"1774-07-21",t:"1812-05-28",y:"antlasma"}] },
+// 🔴 HAYALET BÖLÜNME DÜZELTMESİ (Oturum 11'in ölçümü, hatalar 14 md.2 + hatalar 15 md.9/16/20)
+// Bender ve Hotin, Boğdan 1456'da haraca bağlandıktan SONRA da `s:"bogdan"` taşıyordu;
+// Boğdan'ın gerisi ise `v:` idi. Sonuç: harita Boğdan'ı AYNI ADI TAŞIYAN İKİ AYRI GÖVDE
+// olarak çiziyordu — soluk Osmanlı-vasalı çekirdek + ayrı bir YEŞİL (#6b9e8a) "Boğdan
+// Voyvodalığı" devleti, 3.807 derece². O yeşil kama tam olarak vasal çekirdek ile
+// Akkirman'ın arasına giriyordu.
+// Kullanıcının dört ayrı şikâyeti bunun tek kusurun yüzleriydi: "Boğdan ile Akkerman
+// arasında boş bölge / enklav" · "Hotin yeşil kalmış" · "Hotin hep tek başına görünüyor".
+// CLAUDE.md §3.5 hayalet-bölünme sınıfı — HİÇBİR DEĞİŞMEZ BUNU GÖREMEZ, çünkü her nokta
+// bir sahibi olan geçerli bir dönem taşıyor; yanlış olan sahibin KİM olduğu.
+// TDV `bogdan`: Petru Aron Eylül 1455'ten itibaren haraç ödüyor. 1456-06-01'de
+// "Boğdan'ın haraca bağlanışı" maddesi zaten var → yeni kırılma borcu YOK.
+// m: alanı da düzeltildi — TDV: Rumeli beylerbeyiliğine bağlı sancak, 1593'te Özü
+// eyaleti; "Yaş" tarihen yanlıştı (komşu İsmail zaten "Silistre" taşıyor).
+{ ad:"Hotin", tur:"kale", lat:48.510, lon:26.492, g:1, k:3, m:"Silistre", s:[{f:"1281-01-01",t:"1456-06-01",d:"bogdan"},{f:"1769-09-19",t:"1774-07-21",d:"rusya"},{f:"1812-05-28",t:"1923-10-29",d:"rusya"}], v:[{f:"1456-06-01",t:"1713-06-24",k:"Boğdan Voyvodalığı (Osmanlı tâbii)"}], d:[{f:"1713-06-24",t:"1769-09-19",y:"antlasma"},{f:"1774-07-21",t:"1812-05-28",y:"antlasma"}] },
+{ ad:"Bender", tur:"kale", lat:46.831, lon:29.481, g:0, k:3, m:"Silistre", s:[{f:"1281-01-01",t:"1456-06-01",d:"bogdan"},{f:"1770-09-27",t:"1774-07-21",d:"rusya"},{f:"1812-05-28",t:"1923-10-29",d:"rusya"}], v:[{f:"1456-06-01",t:"1538-09-01",k:"Boğdan Voyvodalığı (Osmanlı tâbii)"}], d:[{f:"1538-09-01",t:"1770-09-27",y:"kusatma"},{f:"1774-07-21",t:"1812-05-28",y:"antlasma"}] },
 { ad:"İsmail", tur:"kale", lat:45.351, lon:28.836, g:0, k:4, m:"Silistre", s:[{f:"1281-01-01",t:"1484-08-03",d:"bogdan"},{f:"1790-12-22",t:"1792-01-10",d:"rusya"},{f:"1812-05-28",t:"1923-10-29",d:"rusya"}], d:[{f:"1484-08-03",t:"1790-12-22",y:"kusatma"},{f:"1792-01-10",t:"1812-05-28",y:"antlasma"}] },
 // hatalar 6.docx madde 10 ve 11 — kullanıcı: "Bahçesaray anlaşması ile çehrin
 // kalesi geri mi verildi? çehrin kalesi kazanılması ile gelen topraklar
