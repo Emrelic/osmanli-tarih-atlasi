@@ -140,6 +140,65 @@ temiz.**
 
 ---
 
+# Üçüncü tur — onuncu denetim: BİTİŞİKLİK
+
+`arac/denetle_bitisiklik.py` · rapor `denetim/BITISIKLIK-2026-07-30.md`
+
+Kullanıcının genel kuralı (hatalar 12 md.11): *"karadan toprak genişlemelerinde
+ana kara ile genişleyen yerin bağlantısının olması beklenir… uçakla gidilip
+arada geçiş yok iken ele geçirilemez."*
+
+**Bu denetim ÜRETİLMİŞ GEOMETRİYİ okur** (`donemler.js`), yerleşim verisini
+değil — bilerek: kopukluk veride yok, peteğin kıyı maskesine kesilmesinde
+doğuyor. Veriden bakan bir denetim Gümülcine'yi temiz raporlardı. Bedeli:
+sonuç son üretimin tarihine ait.
+
+## Ölçüm: 1486 yeni bileşen · 1214 değiyor · 272 KOPUK
+
+Birinci ölçüt mesafe değil, **aradaki hattın kara mı deniz mi olduğu** — çünkü
+kullanıcının kuralı zaten öyle diyor:
+
+```
+DENİZ hattı  222  ← Rodos, Girit, Kıbrıs, Cezayir, Kırım: MEŞRU, muaf
+KARA hattı    50  ← "karadan gidilebilirdi ama gövde kopuk"
+```
+
+**Sezgiye ters bulgu: büyük boşluk TARİH, küçük boşluk HATA.** 100 km üstü
+gerçek sıçramadır (Tebriz 585 km, Bağdat 129 km — ordu yabancı toprağı aşmış);
+100 km altına araya devlet sığmaz, orada kopukluk geometri kusuru ya da eksik
+yerleşim noktasıdır. Alan eşiği 500 km²: kopukların 71'i 10 km²'den küçük kıyı
+kırıntısı.
+
+## Dört şikâyetin dördü de yakalandı
+
+| şikâyet | bölüm | ölçüm |
+|---|---|---|
+| md.1 iki toprak köşeden birleşmiş | D | **1281 gövdesi iki leke, 1,66 km %100 KARA boşluk** |
+| md.6 Karesi ilhakında Gelibolu'ya atlama | B | 1354-03-02 tek nokta teması |
+| md.7 Gümülcine karasal kopukluk | A | **3,7 km · %100 kara · 6 459 km²** |
+| md.10 Hamid ili / Isparta enklav | C | 1381-06-01, 116 km kara sıçraması |
+
+md.10'un C'ye düşmesi anlamlı: Isparta 116 km uzakta ve arada Karamanoğlu
+toprağı var — **enklav görüntüsü DOĞRU**, düzeltilecek kusur değil. Kullanıcının
+tespiti haklı, sebebi meşru.
+
+A kademesinin en büyüğü **1413-07-05, 289 597 km², 46 km kara boşluğu** —
+Fetret sonrası gövde birleşirken kopuk kalıyor.
+
+## Sahibine havale — Oturum 16 (motor)
+
+A ve D bölümündeki beş vaka geometri/nokta işidir: 1281 (1,66 km), 1363
+Gümülcine (3,7 km), 1458 Balyabadra (15,1 km), 1460 Amasra (92,3 km),
+1413 (46 km). B'deki iki köşe teması da (Süveyş 1517, Taman 1482) aynı sınıf.
+
+## Kalan iş
+
+Kural üç meşru sebep sayıyor (deniz aşırı sefer · antlaşmayla devir · enklav);
+araç bugün yalnız **deniz** sebebini ölçüyor. Antlaşma ve enklav ayrımı
+`savaslar.js` ile eşleştirme ister — sonraki tur.
+
+---
+
 ## Bu turda yazılan / değişen dosyalar
 
 ```
