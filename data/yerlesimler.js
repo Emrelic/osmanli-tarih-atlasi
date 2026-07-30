@@ -786,7 +786,13 @@ window.YERLESIMLER = [
 { ad:"Manama (Bahreyn)", tur:"liman", lat:26.228, lon:50.586, g:0, k:0, d:[], s:[{f:"1861-05-31",t:"1923-10-29",d:"ingiltere"}] },
 { ad:"Doha (Katar)", tur:"liman", lat:25.285, lon:51.531, g:0, k:3, m:"Basra", kur:"1825-01-01", d:[],
     v:[{f:"1871-01-01",t:"1913-07-29",k:"Sânî emirliği (Osmanlı kazâsı)"}],
-    s:[{f:"1916-11-03",t:"1923-10-29",d:"ingiltere"}] },
+    // Değişmez 1b'nin tek boşluğuydu: 1913-07-29 → 1916-11-03, 1193 gün sahipsiz.
+    // 29 Temmuz 1913 Osmanlı-İngiliz mukavelesi Osmanlı'nın Katar'dan çekilmesini
+    // kararlaştırdı; 3 Kasım 1916 İngiliz-Katar antlaşması himayeyi kurdu. Arada
+    // Katar ne Osmanlı ne İngiliz idaresindeydi — Âl Sânî şeyhliği kendi başınaydı.
+    // Boşluk bırakmak "burada kimse yoktu" der; oysa şeyhlik oradaydı.
+    s:[{f:"1913-07-29",t:"1916-11-03",d:"katar"},
+       {f:"1916-11-03",t:"1923-10-29",d:"ingiltere"}] },
 { ad:"Abu Dabi", tur:"liman", lat:24.454, lon:54.397, g:0, k:0, kur:"1761-01-01", d:[], s:[{f:"1820-01-08",t:"1923-10-29",d:"ingiltere"}] },
 { ad:"Nizva", tur:"sehir", lat:22.933, lon:57.533, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"umman"}] },
 { ad:"Salala", tur:"liman", lat:17.020, lon:54.090, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"umman"}] },
