@@ -997,4 +997,112 @@ window.YERLESIMLER_AFRIKA = [
 //   ⚠️ Kısmâyû 1895'te İngiliz Doğu Afrika'sına katıldı (Zengibar'dan devren);
 //   gün doğrulanmadı, açılışta kontrol edilmeli.
 
+// ===========================================================================
+// 15) MISIR'IN BATI ÇÖLÜ VAHALARI — hatalar 11 md.40
+// ---------------------------------------------------------------------------
+// Oturum 16'nın ölçümü: 1885'te batıdaki Cağbûb Osmanlı boyanıyor, hemen
+// doğusundaki Mısır batı çölü boş. Boşluk motor kusuru DEĞİL — içindeki iki
+// nokta kasten sahipsiz. Asimetri, vahalara hiç nokta konmamış olmasından.
+//
+// 🔴 TARİH UYDURULMADI. Bu dört vaha 1517'den beri Mısır'ın Nil vadisi
+// idaresine bağlı kaldı; hiçbirinin ayrı bir el değiştirme tarihi yok. Bu
+// yüzden dördü de KAHİRE'NİN DÖNEM YAPISINI birebir tekrarlar ve
+// YENİ HİÇBİR KIRILMA ÜRETMEZ — Değişmez 2 için tek bir yeni madde gerekmez.
+//
+// ⚠️ TEK FARK — 1914: çekirdek dosya Mısır'ı `1914-11-05`te (savaş ilânı)
+// İngiltere'ye çeviriyor. Doğru tarih `1914-12-18`tir: himaye o gün ilân
+// edildi ve Osmanlı hükümranlığı o gün hukuken bitti. Her ikisinin de maddesi
+// var. Ben DOĞRU tarihi yazdım; çekirdeğin düzeltilmesi
+// OTURUM-14-DUZELTMELER.md §1'de. Düzeltilene kadar 43 günlük görünür bir
+// dikiş kalır (18 Ara'ya kadar vahalar tâbi, Kahire İngiliz) — kasıtlı, çünkü
+// çelişkiyi gizlemek yerine görünür kılıyor.
+//
+// 🔴 SİVA YAZILMADI. Siva 1820'ye kadar fiilen müstakil bir Berberî vahasıydı,
+// Kavalalı Mehmed Ali o yıl ilhak etti. Ama TDV'de karşılığı YOK:
+//   `siva` slug'ı ÖLÜ (arama sayfası, Sivas maddeleri çıkıyor)
+//   `arama/?q=vaha` → dört alâkasız madde, Mısır vahası yok
+//   `kavalali-mehmed-ali-pasa` maddesi Siva'dan HİÇ söz etmiyor
+// En yakın kırılma 1820-07-20 (Sudan seferi), 201 gün uzakta — yuvarlanamaz.
+// Kaynak yoksa uydurulmaz (KOORDINASYON.md §3): Siva DUZELTMELER.md §5'te
+// iki ölçülmüş seçenekle merkeze bırakıldı.
+
+{ ad:"Hârice (Vâhât)", tur:"bolge", lat:25.440, lon:30.546, g:0, k:4, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+  d:[{f:"1517-04-13",t:"1805-07-09"}], v:[{f:"1805-07-09",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
+
+{ ad:"Dâhile", tur:"bolge", lat:25.494, lon:28.976, g:0, k:4, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+  d:[{f:"1517-04-13",t:"1805-07-09"}], v:[{f:"1805-07-09",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
+
+{ ad:"Ferâfire", tur:"bolge", lat:27.058, lon:27.970, g:0, k:4, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+  d:[{f:"1517-04-13",t:"1805-07-09"}], v:[{f:"1805-07-09",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
+
+{ ad:"Bahriye (Bâvîtî)", tur:"bolge", lat:28.349, lon:28.864, g:0, k:4, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+  d:[{f:"1517-04-13",t:"1805-07-09"}], v:[{f:"1805-07-09",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
+
+// ===========================================================================
+// 16) LİBYA — hatalar 11 md.17 · Oturum 16'dan havale
+// ---------------------------------------------------------------------------
+// Oturum 16'nın ölçümü: çöl sınırının cetvelle çizilmiş görünmesi motor kusuru
+// değil, NOKTA YOKLUĞU. 8 nokta / 1.540.913 km² = 192.614 km²/nokta;
+// Batı Anadolu 1.868 km²/nokta (103 kat fark).
+//
+// Bu oturumda ölçülen petek alanları (shapely voronoi_diagram, aynı BOLGE):
+//   Gât              270.915 km²      Murzuk (Fizan)   215.417 km²
+//   Cağbûb           170.490 km²      Ğadâmis          118.999 km²
+//   Bingazi           77.682 km²      Trablus           22.951 km²
+// Karşılaştırma: Kahire 5.272 km², Konstantin 5.363 km².
+// Yani tek bir Gât noktası Kahire'nin peteğinin 51 katını boyuyor.
+//
+// 🔴 MERKEZİN ŞARTI UYGULANDI: "eklenecek noktaların ÇOĞU kasten sahipsiz
+// kalmalı — Osmanlı'nın Trablusgarp hâkimiyeti kıyı + vahaydı, çöle sahiplik
+// atamak yanlış olur." Sekiz nokta eklendi, ALTISI kasten sahipsiz (3/4).
+//
+// ⚠️ BEKLENEN_SAHIPSIZ 34 → 40 OLMALI. `arac/denetle.py` Oturum 2'nin dosyası,
+// dokunmadım. Denetim bu sayı güncellenene kadar Değişmez 1'i İHLAL raporlar;
+// ihlal gerçek değil, beklentinin eskimesidir.
+//
+// İdarî noktalar YENİ KIRILMA ÜRETMEZ: kıyı/dağ noktaları Trablus'un,
+// çöl vahaları Murzuk'un dönem yapısını birebir tekrarlar. Her iki zincirin de
+// dört sınırı (1551-08-15 · 1711-03-01 · 1835-05-26 · 1912-10-15/18) zaten
+// maddelidir.
+
+// --- 16a) İDARE EDİLEN (2) — Trablus/Murzuk zinciri, yeni kırılma yok -------
+// ⚠️ Sürt, Zuvâra ve Geryan İLK YAZILDI, SONRA SİLİNDİ: denetimin yakınlık
+// kontrolü üçünü de 0.00 km'de mükerrer buldu — bu üç yer Faz 1'de zaten
+// eklenmişti (Sirte:490, Zuvâre:455, Garyân:468). CLAUDE.md §11'in "yakın
+// mükerrer yerleşim" tuzağı; kendi dosyamda, kendi noktalarımla tekrarladım.
+// Denetimi yazmadan önce değil, yazdıktan SONRA koşturmanın bedeli.
+
+{ ad:"Sokna", tur:"bolge", lat:29.070, lon:15.792, g:0, k:4, m:"Trablus",
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"hafsi"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+  d:[{f:"1577-01-01",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}],
+  v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
+
+{ ad:"Câlû", tur:"bolge", lat:29.033, lon:21.548, g:0, k:4, m:"Bingazi",
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"hafsi"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+  d:[{f:"1577-01-01",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}],
+  v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
+
+// --- 16b) KASTEN SAHİPSİZ (6) — hiçbir devletin idaresine girmedi ----------
+// Bunlar Sahra ve Rub'ul Hâlî dolgu noktalarıyla AYNI SINIFTIR (CLAUDE.md §3):
+// hiçbir dönem taşımazlar, tek işlevleri komşu peteğin çölü yutmasını
+// engellemektir. Kufra bilerek buradadır: Senûsiyye'nin zâviyesi dinî bir
+// merkezdi, Osmanlı idaresi oraya hiç ulaşmadı ve İtalya ancak 1931'de —
+// atlasın kapsamı dışında — girdi.
+
+{ ad:"Serîr", tur:"bolge", lat:27.500, lon:22.000, g:0, k:0, s:[], d:[], v:[] },
+
+{ ad:"Tâzirbû", tur:"bolge", lat:25.712, lon:21.061, g:0, k:0, s:[], d:[], v:[] },
+
+{ ad:"Rebyâne", tur:"bolge", lat:24.200, lon:21.500, g:0, k:0, s:[], d:[], v:[] },
+
+{ ad:"Vâv el-Kebîr", tur:"bolge", lat:25.363, lon:17.221, g:0, k:0, s:[], d:[], v:[] },
+
+{ ad:"İdehân Murzuk", tur:"bolge", lat:26.200, lon:12.400, g:0, k:0, s:[], d:[], v:[] },
+
+{ ad:"Kufra (el-Cûf)", tur:"bolge", lat:24.209, lon:23.300, g:0, k:0, s:[], d:[], v:[] },
+
 ];

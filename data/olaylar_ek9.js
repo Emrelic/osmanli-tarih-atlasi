@@ -159,4 +159,216 @@ window.OLAYLAR_EK9 = [
   d:"Sudan hükümdarı Ahmed Paşa Ebû Vidân, 1840'ta Atbara ile Gaş nehirleri arasındaki Taka bölgesini Mısır idaresine bağladı ve Kesela şehrini askerî karargâh olarak kurdu. Şehir, Sennâr ile Sevâkin arasındaki kervan yolunu ve Habeş sınır kuşağını denetleyen bir mudîriyet merkezi oldu. Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
   kaynak:"kavalali-mehmed-ali-pasa" },
 
+// ===========================================================================
+// İKİNCİ PARTİ (hatalar 11 · md.18/41/42/43/44/51/56)
+// ===========================================================================
+// Aşağıdaki on üç madde ÖLÇÜLMÜŞ bir kusuru kapatır. Değişmez 2 "her kırılmanın
+// ±30 gün içinde maddesi olsun" der ve denetim 451/451 ile TEMİZ raporluyor —
+// ama maddenin DOĞRU madde olduğunu sormuyor. Ölçüldü, üç kırılma alâkasız bir
+// maddenin altında beliriyordu:
+//
+//   Konstantin 1837-10-13  →  "Cebel-i Dürûz ayaklanması"   (+2 gün, SURİYE)
+//   Zeyla      1884-01-01  →  "Reji İdaresi kuruldu"        (+0 gün, TÜTÜN)
+//   Murzuk     1577-01-01  →  "İstanbul Rasathanesi kuruldu"(+0 gün)
+//
+// Kullanıcının md.18'de sorduğu "Cezayir'den Fransa'ya geçen parça bu maddeyle
+// mi ilgili" sorusunun cevabı budur: HAYIR. Cebel-i Dürûz Suriye'de Havran'da,
+// Konstantin Cezayir'in doğusunda; iki gün arayla düştükleri için denetim ikisini
+// eşleştirmişti. Bu maddelerden sonra eşleşme +0 güne iner.
+//
+// TDV slugları — hepsi bu turda <title> ile doğrulandı:
+//   urabi-pasa            → "URÂBÎ PAŞA - TDV İslâm Ansiklopedisi"            ✓
+//   trablusgarp-savasi    → "TRABLUSGARP SAVAŞI - TDV İslâm Ansiklopedisi"    ✓
+//   muhammed-ahmed-el-mehdi → "MUHAMMED AHMED el-MEHDÎ - …"                   ✓
+//   aden                  → "ADEN - TDV İslâm Ansiklopedisi"                  ✓
+//   tunus                 → "TUNUS - TDV İslâm Ansiklopedisi"                 ✓
+//   senusiyye             → "SENÛSİYYE - TDV İslâm Ansiklopedisi"             ✓
+//   abdulkadir-el-cezairi → "ABDÜLKĀDİR el-CEZÂİRÎ - …"                       ✓
+// ===========================================================================
+
+// ---------------------------------------------------------------------------
+// G) KONSTANTİN — md.18'in gerçek sebebi
+// ---------------------------------------------------------------------------
+
+{ t:"1837-10-13", k:"kayip", etiket:["toprak-kaybi","savas"],
+  b:"Konstantin'in düşüşü — doğu Cezayir beyliğinin sonu",
+  gun:"13 Ekim 1837", yer:"Konstantin (Kostantîne), doğu Cezayir", kisiler:"Ahmed Bey, Mareşal Valée, General Damrémont",
+  d:"Cezayir'in 1830'da düşmesinden sonra doğu beylerbeyliği dağılmadı: son bey Ahmed, Konstantin'de kendi idaresini sürdürdü ve Osmanlı adına hareket ettiğini ilân etti. Fransızların 1836'daki ilk seferi bozgunla bitti; ikinci sefer 6 Ekim 1837'de şehri kuşattı, kumandan Damrémont 12 Ekimde top ateşiyle öldü ve 13 Ekimde surlar aşılarak şehir sokak sokak alındı. Ahmed Bey dağlara çekildi ve ancak 1848'de teslim oldu. Bu tarih, Cezayir'in doğusunda üç yüz yıllık Osmanlı-Türk idaresinin fiilî bitişidir. Denetim bu kırılmayı iki gün sonraki Cebel-i Dürûz ayaklanması maddesiyle eşleştiriyordu — bu madde o eşleşmeyi düzeltir.",
+  kaynak:"cezayir" },
+
+// ---------------------------------------------------------------------------
+// G1) EMÎR ABDÜLKĀDİR — md.23'ün cevabı
+// ---------------------------------------------------------------------------
+// Kullanıcının sorusu: "Cezayir işgalinden sonra hâlâ Osmanlı pembesi görünen
+// iç bölgeler: bağ kaldı mı?" Cevap HAYIR — ve sebebi ölçüldü: 27 kayıt
+// `v:"Cezayir Ocaklığı (dayı idaresi)"` etiketini 1830-07-05'ten SONRA da
+// taşıyor (Tuggurt'ta 24 yıl, Biskra'da 14, Konstantin'de 7). Ocaklık 5 Temmuz
+// 1830'da lağvedildi; o topraklarda 1830'dan sonra duran şey Osmanlı değil,
+// doğuda Ahmed Bey'in beyliği, batıda Emîr Abdülkādir'in devletiydi.
+// Bu madde, düzeltmenin ihtiyaç duyduğu kırılmayı önceden açar.
+
+{ t:"1832-11-22", k:"fetih", etiket:["ayaklanma"],
+  b:"Emîr Abdülkādir'in devletinin kuruluşu — batı Cezayir'de direnişin merkezîleşmesi",
+  gun:"22 Kasım 1832", yer:"Muaskar, Tagdempt, batı ve orta Cezayir", kisiler:"Abdülkādir el-Cezâirî, Muhyiddin el-Hasenî",
+  d:"Cezayir'in düşüşünden sonra dağılan direniş, Kādirî şeyhi Muhyiddin'in oğlu genç Abdülkādir etrafında toplandı; 22 Kasım 1832'de Muaskar yakınlarında kabile reisleri ona 'emîrü'l-mü'minîn' sıfatıyla biat etti. Kurduğu yapı bir kabile ittifakı değil düzenli bir devletti: darphanesi, barut imalâthanesi, vergi düzeni ve Tagdempt'te bir başkenti vardı. Fransa 1837 Tâfnâ Antlaşması'yla hâkimiyetini resmen tanıdı. Abdülkādir Osmanlı'ya değil Fas sultanı Abdurrahman'ın metbûiyetine sığındı; yani bu topraklar 1832'den sonra Osmanlı tâbiiyeti DEĞİLDİR. 23 Aralık 1847'de teslim oldu ve Osmanlı Devleti de aynı yıl Cezayir üzerindeki haklarının sona erdiğini ilân etti.",
+  kaynak:"abdulkadir-el-cezairi" },
+
+// ---------------------------------------------------------------------------
+// G2) FİZAN — YAZILDI, SONRA SİLİNDİ (çakışma kaydı)
+// ---------------------------------------------------------------------------
+// Murzuk'un 1577-01-01 kırılması ölçüldüğünde "İstanbul Rasathanesi kuruldu"
+// maddesine +0 gün bağlıydı; Sahra'nın ortasındaki 215.417 km²'lik petek bir
+// rasathane maddesinin altında el değiştiriyordu. Buraya bir madde yazdım.
+//
+// 🔴 BAŞKA BİR OTURUM AYNI ANDA AYNI GÜNE YAZMIŞ: `olaylar_ek8.js`,
+// "Fizan'ın Osmanlı tâbiiyetine girmesi — Murzuk", kaynak:"fizan".
+// Mükerrer denetimi yakaladı (aynı kişi + AYNI gün). Benimki silindi —
+// ek8'inki daha önce yazılmış ve içerik olarak yeterli.
+//
+// Kalan tek fark rapora taşındı: TDV `fizan` maddesi sancak teşkilâtını
+// **1551 Trablus fethine** bağlıyor, 1577'ye ayrı bir hüküm vermiyor.
+// Atlastaki 1577 tarihinin kaynağı doğrulanamadı → OTURUM-14-DUZELTMELER.md §4.
+
+// ---------------------------------------------------------------------------
+// H) MISIR'IN İNGİLİZ İŞGALİ — md.41 · md.42
+// ---------------------------------------------------------------------------
+// ⚠️ Bu iki madde işgalin ADIMLARIDIR. İşgalin kendisi için mevcut
+// "1882-09 Mısır'ın İngiliz işgali" maddesi duruyor; ama AY hassasiyetinde ve
+// CLAUDE.md §8 gün istiyor. Düzeltmesi merkez oturumda (bkz. OTURUM-14-DUZELTMELER.md).
+
+{ t:"1882-07-11", k:"kayip", etiket:["toprak-kaybi","savas"],
+  b:"İskenderiye'nin bombardımanı ve İngiliz çıkarması",
+  gun:"11-12 Temmuz 1882 (bombardıman) · 15 Temmuz (işgal)", yer:"İskenderiye", kisiler:"Ahmed Urâbî Paşa, Amiral Seymour, Hidiv Tevfik",
+  d:"Urâbî Paşa'nın önderliğindeki subay hareketi hidivi denetim altına alınca İngiltere Süveyş yolunun güvenliğini bahane ederek müdahale etti. Amiral Seymour'un filosu 11-12 Temmuz 1882'de İskenderiye'nin sahil tabyalarını bombaladı; şehirde çıkan yangın ve yağmadan sonra 15 Temmuzda İngiliz birlikleri karaya çıktı. Osmanlı Devleti hukuken hükümran olduğu bir vilâyetinde bu harekâta engel olamadı ve müdahaleye katılma çağrısını da cevapsız bıraktı. Böylece otuz iki yıl sürecek işgalin ilk adımı atılmış oldu.",
+  kaynak:"urabi-pasa" },
+
+{ t:"1882-09-13", k:"kayip", etiket:["toprak-kaybi","savas"],
+  b:"Tel el-Kebîr Muharebesi — Urâbî ordusunun dağılması",
+  gun:"13 Eylül 1882", yer:"Tellülkebîr, Şarkıyye", kisiler:"Ahmed Urâbî Paşa, General Garnet Wolseley",
+  d:"Wolseley kuvvetlerini Süveyş Kanalı üzerinden İsmâiliye'ye çıkarıp çölden yürüterek 13 Eylül 1882 şafağında Tel el-Kebîr'deki Mısır siperlerine baskın yaptı; muharebe bir saatte bitti. Urâbî ertesi gün teslim oldu ve İngiliz süvarisi aynı gün Kahire'ye girdi. Bu tarihten sonra Mısır'ın malî, askerî ve dış işleri fiilen İngiliz denetimine geçti; Osmanlı hükümranlığı ise hukuken 1914'e kadar sürdü. Atlasta bu ikilik `isg:` işgal örtüsüyle gösterilir: taban rengi tâbi Mısır, üstündeki tarama İngiliz denetimi.",
+  kaynak:"urabi-pasa" },
+
+// ---------------------------------------------------------------------------
+// I) TRABLUSGARP SAVAŞI — md.56, İtalyan çıkarmaları adım adım
+// ---------------------------------------------------------------------------
+// Bugün haritada Libya 1912-10-15'e (Uşi) kadar hiç değişmiyor; oysa İtalyan
+// işgali BİR YIL ÖNCE, Ekim 1911'de tamamlandı. Aradaki on iki ay `isg:` örtüsü
+// ister — düzeltme listesi merkez oturumda.
+
+{ t:"1911-10-08", k:"kayip", etiket:["toprak-kaybi","savas"],
+  b:"Tobruk'a İtalyan çıkarması — Trablusgarp'ta ilk işgal",
+  gun:"8 Ekim 1911", yer:"Tobruk, Berka (Cyrenaica)", kisiler:"—",
+  d:"İtalya 29 Eylül 1911'de savaş ilân etti ve donanması 25-26 Eylülde kıyıyı abluka altına aldı. İlk kara harekâtı 8 Ekimde Tobruk'a yapıldı: küçük Osmanlı garnizonu iç bölgeye çekildi ve liman çarpışmasız işgal edildi. Tobruk, Mısır sınırına en yakın Osmanlı limanıydı; düşmesi Berka'nın doğu kanadını açtı ve İtalyan kuvvetlerinin kıyı boyunca batıya yürümesini kolaylaştırdı.",
+  kaynak:"trablusgarp-savasi" },
+
+{ t:"1911-10-09", k:"kayip", etiket:["toprak-kaybi","savas"],
+  b:"Trablus şehrinin İtalyanlara teslim olması",
+  gun:"9 Ekim 1911", yer:"Trablus (Tripoli)", kisiler:"Neşet Bey, Amiral Faravelli",
+  d:"Trablus üç gün bombardımandan sonra 9 Ekim 1911'de teslim oldu. Osmanlı kuvvetleri şehri savunmak yerine Aziziye ve Garyan'a çekilerek iç bölgede direnişi örgütlemeyi seçtiler; Enver ve Mustafa Kemal beylerin katıldığı bu direniş, İtalyanları savaşın sonuna kadar kıyı şeridine hapsetti. Yani şehir düştüğü hâlde vilâyetin içi Osmanlı denetiminde kaldı — atlasta bu, taban rengi Osmanlı, üstü İtalyan taraması olarak gösterilmelidir.",
+  kaynak:"trablusgarp-savasi" },
+
+{ t:"1911-10-16", k:"kayip", etiket:["toprak-kaybi","savas"],
+  b:"Derne'nin İtalyan çıkarmasıyla elden çıkışı",
+  gun:"16 Ekim 1911", yer:"Derne, Berka", kisiler:"—",
+  d:"Tobruk'tan sonra sıra Berka'nın ikinci limanı Derne'ye geldi; şehir 16 Ekim 1911'de işgal edildi. Derne çevresindeki yayla, Senûsiyye tarikatının en yoğun olduğu bölgeydi ve Şeyh Ahmed Şerîf'in cihad çağrısıyla toplanan mücahitler İtalyanları liman çevresinde kuşatılmış hâlde tuttu. İşgal şehirle sınırlı kaldı, ardalanına hiç yayılamadı.",
+  kaynak:"trablusgarp-savasi" },
+
+{ t:"1911-10-21", k:"kayip", etiket:["toprak-kaybi","savas"],
+  b:"Bingazi'ye İtalyan çıkarması — Berka sancağının merkezinin kaybı",
+  gun:"21 Ekim 1911", yer:"Bingazi", kisiler:"—",
+  d:"Berka'nın merkezi Bingazi 21 Ekim 1911'de, kıyıdaki dördüncü ve en önemli çıkarmayla işgal edildi. Böylece İtalya, savaş ilânından üç hafta sonra Trablusgarp vilâyetinin bütün büyük limanlarını (Trablus, Tobruk, Derne, Bingazi) elinde tutuyordu; ama hiçbirinin ardalanına giremedi. Savaşın kalan bir yılı, kıyıdaki bu dört noktadan içeri doğru sonuçsuz hamlelerle geçti.",
+  kaynak:"trablusgarp-savasi" },
+
+{ t:"1911-11-05", k:"kayip", etiket:["toprak-kaybi","diplomasi"],
+  b:"İtalya'nın tek taraflı ilhak kararnâmesi",
+  gun:"5 Kasım 1911", yer:"Roma · Trablusgarp ve Berka", kisiler:"—",
+  d:"İtalya, savaş sürerken 5 Kasım 1911'de bir kararnâme çıkararak Trablusgarp ve Berka'yı ilhak ettiğini ilân etti. Osmanlı Devleti bunu tanımadı ve savaş bir yıl daha sürdü; ilhak ancak 18 Ekim 1912 Uşi Antlaşması'yla hukukî geçerlilik kazandı. Kararnâme bu yüzden haritada TABAN RENGİNİ değiştirmez — de jure sahiplik 1912'ye kadar Osmanlı'dadır, İtalyan denetimi işgal örtüsüdür.",
+  kaynak:"trablusgarp-savasi" },
+
+// ---------------------------------------------------------------------------
+// J) MEHDÎ DEVLETİ — md.43, ilerleyiş ve geri fetih
+// ---------------------------------------------------------------------------
+// Bugün veride yalnız 1885-01-26 (Hartum) ve 1899-01-19 (İngiltere) var; yani
+// Mehdî devleti tek hamlede doğup tek hamlede yıkılıyor gibi görünüyor.
+// Aşağıdaki dört madde arasını doldurur.
+
+{ t:"1883-11-05", k:"kayip", etiket:["toprak-kaybi","savas","ayaklanma"],
+  b:"Şeykan bozgunu — Hicks Paşa ordusunun yok edilişi",
+  gun:"5 Kasım 1883", yer:"Şeykan, Kordofan", kisiler:"William Hicks Paşa, Muhammed Ahmed el-Mehdî",
+  d:"Kahire'den gönderilen ve yaklaşık on bin kişilik Mısır kuvvetine kumanda eden emekli İngiliz subayı Hicks Paşa, Kordofan çölünde susuz ve kılavuzsuz ilerlerken 5 Kasım 1883'te Şeykan'da Mehdî kuvvetlerince kuşatıldı ve ordu neredeyse tamamen imha edildi. Bu bozgun Sudan'daki Mısır idaresinin belkemiğini kırdı: bir ay içinde Darfur ve Bahrülgazâl teslim oldu, Kordofan'ın tamamı Mehdî'ye geçti. Hartum'un düşüşüne giden yol buradan başlar.",
+  kaynak:"muhammed-ahmed-el-mehdi" },
+
+{ t:"1896-09-23", k:"fetih", etiket:["toprak-kazanc","savas"],
+  b:"Dongola'nın geri alınışı — Nil boyu seferinin başlaması",
+  gun:"23 Eylül 1896", yer:"Dongola, Kerma, Nil'in üçüncü çağlayanı", kisiler:"Herbert Kitchener, Abdullah b. Muhammed et-Teâyişî",
+  d:"İtalyanların Adua'da yenilmesinden sonra İngiltere, Mısır ordusunu Kitchener kumandasında Nil boyunca güneye yürüttü. Demiryolu çölde ilerledikçe ikmal sorunu çözüldü ve Dongola vilâyeti 23 Eylül 1896'da geri alındı. On bir yıllık Mehdî idaresi burada sona erdi; sefer iki yıl daha sürerek Ümmüdurman'a ulaşacaktı. Atlasta Dongola'nın Mehdî döneminin bu tarihte bitmesi gerekir — bugün Hartum'la aynı güne (1899) bağlı görünüyor.",
+  kaynak:"sudan" },
+
+{ t:"1898-09-02", k:"fetih", etiket:["toprak-kazanc","savas"],
+  b:"Ümmüdurman Muharebesi — Mehdî devletinin yıkılışı",
+  gun:"2 Eylül 1898", yer:"Ümmüdurman (Omdurman), Hartum karşısı", kisiler:"Herbert Kitchener, Abdullah b. Muhammed et-Teâyişî",
+  d:"Kitchener'ın topçu ve makineli tüfekle donanmış İngiliz-Mısır ordusu 2 Eylül 1898'de Ümmüdurman önünde Halife Abdullah et-Teâyişî'nin kuvvetlerini birkaç saatte dağıttı. Ertesi gün Hartum'a girildi ve on üç yıl önce Gordon'un öldürüldüğü sarayda bayrak çekildi. Mehdî devletinin başkenti düştü; Halife 1899 sonunda takip harekâtında öldürüldü. Fiilî hâkimiyet bu tarihte el değiştirir — 19 Ocak 1899 ise idarenin hukukî çerçevesini kuran antlaşmadır.",
+  kaynak:"sudan" },
+
+{ t:"1899-01-19", k:"antlasma", etiket:["antlasma","diplomasi"],
+  b:"Kondominyum Antlaşması — Sudan'ın İngiliz-Mısır ortak idaresi",
+  gun:"19 Ocak 1899", yer:"Kahire · Sudan", kisiler:"Lord Cromer, Butros Gali Paşa",
+  d:"Ümmüdurman'dan dört ay sonra Kahire'de imzalanan antlaşma Sudan'ı 'Anglo-Mısır Sudanı' adıyla iki devletin ortak idaresine bağladı: iki bayrak birlikte çekilecek, genel vali hidiv tarafından İngiltere'nin muvafakatiyle atanacaktı. Uygulamada idare tamamen İngilizlerin elindeydi. Osmanlı Devleti, Sudan üzerindeki haklarının Mısır üzerinden kendisine ait olduğunu ileri sürerek antlaşmaya taraf olmadı ve tanımadı; ama fiilen dışarıda kaldı.",
+  kaynak:"sudan" },
+
+// ---------------------------------------------------------------------------
+// K) KIZILDENİZ — md.44, Zeyla'nın yanlış maddeye bağlanması
+// ---------------------------------------------------------------------------
+
+{ t:"1884-01-01", k:"kayip", etiket:["toprak-kaybi","diplomasi"],
+  b:"Zeyla ve Somali sahilinin İngiliz idaresine geçişi",
+  gun:"1884", yer:"Zeyla, Berbera, Bulhar, Somali sahili", kisiler:"Hidiv Tevfik, Aden siyasî mukimi",
+  d:"Mehdî ayaklanması Mısır'ın Sudan ve Kızıldeniz garnizonlarını çökertince Kahire, Habeş kıyısındaki uzak karakollarını boşaltmak zorunda kaldı. Aden'deki İngiliz idaresi 1884'te Zeyla ve Berbera'ya asker çıkardı; ertesi yıl Somali kabile reisleriyle himaye antlaşmaları imzalanarak İngiliz Somalilandı kuruldu. 1559'dan beri Habeş eyaletine bağlı olan Zeyla böylece elden çıktı. Denetim bu kırılmayı aynı güne düşen 'Reji İdaresi' maddesiyle eşleştiriyordu; bu madde o eşleşmeyi düzeltir. Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
+  kaynak:"aden" },
+
+// ---------------------------------------------------------------------------
+// L) TUNUS — md.51, işgalin ikinci adımı
+// ---------------------------------------------------------------------------
+// ⚠️ md.51'in asıl talebi mevcut "1881-05-12 Tunus'un işgali ve Düyûn-ı
+// Umûmiyye" maddesinin AYRILMASIDIR. İki olayın birbiriyle ilgisi yok:
+// Düyûn-ı Umûmiyye 20 Aralık 1881 Muharrem Kararnâmesi'yle kuruldu ve TDV'nin
+// `duyun-i-umumiyye` maddesi Tunus'tan hiç söz etmiyor. Zaten doğru tarihli
+// ayrı bir madde de var (1881-12-20). Birleşik maddenin düzeltilmesi merkez
+// oturumda; bu madde işgalin tamamlanışını ekler.
+
+{ t:"1883-06-08", k:"kayip", etiket:["toprak-kaybi","antlasma","diplomasi"],
+  b:"Mersâ (La Marsa) Sözleşmesi — Tunus himayesinin tamamlanması",
+  gun:"8 Haziran 1883", yer:"Mersâ (La Marsa), Tunus", kisiler:"Ali Bey, Paul Cambon",
+  d:"12 Mayıs 1881 tarihli Bardo (Kasrüssaîd) Antlaşması Tunus'un dış işlerini Fransa'ya bırakmış ama iç idareyi beye bırakmıştı; iki yıl sonra 8 Haziran 1883'te imzalanan Mersâ Sözleşmesi malî ve idarî reformları da Fransız denetimine verdi ve himayeyi tamamladı. Osmanlı Devleti Tunus üzerindeki hükümranlık iddiasını sürdürdü ve işgali hiçbir zaman tanımadı, ama fiilî bir karşı adım atamadı. Böylece 1574'ten beri Osmanlı ocaklığı olan Tunus resmen Fransız himayesine girdi.",
+  kaynak:"tunus" },
+
+// ---------------------------------------------------------------------------
+// M) ALÂİYE — Afrika DIŞI, tek istisna
+// ---------------------------------------------------------------------------
+// ⚠️ Bu madde Anadolu'ya ait; bu dosya Afrika içindir. Petek kilidi sırasında
+// merkez oturumun açık bıraktığı Alâiye sorusuna bakıldı ve cevap bir kırılma
+// düzeltmesi gerektirdi. Elimdeki tek kronoloji dosyası burası olduğu için
+// buraya yazıldı — başka dosyaya taşınması gerekiyorsa taşınabilir.
+//
+// SORU: Alâiye ayrı bir beylik mi, Karamanoğulları'nın kolu mu?
+// CEVAP: ikisi de değil — ÖNCE kol, SONRA Memlük toprağı.
+// TDV `alaiye-beyligi` (<title> ✓ CANLI) birebir: "Karaman b. Savcı Bey
+// tarafından 1427 yılında 5000 altın karşılığında Memlük Sultanı Barsbay'a
+// satıldı." Yani beyliğin son 44 yılı Karamanlı değil MEMLÜK'tür.
+//
+// Veride bugün `alaiye` dönemi 1471'e kadar sürüyor; 1427'de bitmeli ve araya
+// `memluk` girmeli (OTURUM-14-DUZELTMELER.md §14). Bu madde o kırılmayı açar.
+//
+// ⚠️ 1427-01-01'de ZATEN İKİ MADDE VAR (Tâceddinoğulları'nın ilhakı ·
+// Belgrad'ın Macaristan'a bırakılması). Değişmez 2 onlarla +0 gün geçerdi ama
+// Alâiye'nin satılışı Niksar'ın ilhakı maddesinin altında belirirdi — §11'deki
+// yanlış-eşleşme sınıfı. Mükerrer denetimi bu üçünü ayırt ediyor (ortak kişi ve
+// ortak kök yok); yine de uygulamadan önce kontrol edilmeli.
+
+{ t:"1427-01-01", k:"kayip", etiket:["toprak-kaybi","diplomasi"],
+  b:"Alâiye'nin Memlük Sultanı Barsbay'a satılması",
+  gun:"1427", yer:"Alâiye (Alanya), İçel sahili", kisiler:"Karaman b. Savcı Bey, Memlük Sultanı Barsbay",
+  d:"1293'te Karamanoğlu Mecdüddin Mahmud Bey'in ele geçirdiği Alâiye, Karamanoğulları'nın bir kolu tarafından yönetilen ayrı bir beylik hâline gelmişti; İbn Battûta 1333'te idarenin Karamanoğlu Yûsuf Bey'de olduğunu kaydeder. Karaman b. Savcı Bey 1427'de şehri beş bin altın karşılığında Memlük Sultanı Barsbay'a sattı ve Alâiye Memlük idaresine girdi. Akdeniz'in bu kilit limanı böylece Osmanlı'nın güneye açılan yolunda Memlük elinde bir engel oldu; 1471'de Gedik Ahmed Paşa kuşatınca son bey Kılıcarslan şehri teslim etti. Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
+  kaynak:"alaiye-beyligi" },
+
 ];
