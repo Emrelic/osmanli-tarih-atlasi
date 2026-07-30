@@ -325,3 +325,25 @@ daha büyük hasar riski taşıyor. Bundan sonra `git add data/savaslar.js` →
 `git diff --cached --stat` (neyin eklendiğini GÖR) → `git commit` sırası
 istisnasız uygulanacak; zincirleme (`&&`) komut yerine ayrı adımlar
 kullanılacak ki `git diff --cached --stat` çıktısı gerçekten görülsün.
+
+### ⚠️ İkinci commit karışması — bu EK'i yazarken, ters yönde
+
+Bu bölümü yazıp `git add oturumlar/OTURUM-10-ILERLEME.md` çalıştırdığımda
+index'te **Oturum 7'nin zaten stage ettiği** `data/olaylar_ek7.js` ve
+`oturumlar/OTURUM-7-ILERLEME.md` vardı. Bunu `git diff --cached --stat` ile
+gördüm ve `git restore --staged` ile ikisini index'ten çıkardım — commit
+etmedim. Ama restore komutlarım ile tekrar `git add` arasında geçen sürede
+Oturum 7 kendi `git commit`'ini çalıştırmış; o an index'te duran benim
+`OTURUM-10-ILERLEME.md` dosyam da **onların** commit'ine
+(`bc3caef` "Oturum 7: Sinop Baskini eklendi...") karıştı.
+
+Veri kaybı yok — dosyam eksiksiz ve doğru şekilde commit'lendi, sadece yanlış
+commit mesajı altında. Bu, Merkez Oturum'un bana bildirdiği `bc89690`
+durumunun tam aynası, bu kez ben mağdur değil sebep oldum. Revert yine
+yapılmadı, aynı gerekçeyle (paylaşımlı depoda geçmiş yeniden yazmak daha
+riskli). `data/savaslar.js`'e bu sırada dokunulmadı, orada karışma yok.
+
+**Çıkarım**: `git diff --cached --stat` ile kontrol etmek tek başına yetmiyor;
+stage edilip commit edilmeden bırakılan HERHANGİ bir dosya, bir sonraki
+oturumun commit'ine yutuluyor. Kural muhtemelen "stage ettikten hemen sonra
+commit et, ikisi arasına başka komut sokma" şeklinde sıkılaştırılmalı.
