@@ -360,7 +360,7 @@ window.YERLESIMLER = [
 // 1840 İskenderiye Konvansiyonu'yla Bâbıâli'ye geri döndü.
 { ad:"Kandiye (Girit)", tur:"liman", lat:35.339, lon:25.133, g:1, k:2, s:[{f:"1281-01-01",t:"1669-09-27",d:"venedik"},{f:"1898-12-01",t:"1923-10-29",d:"yunanistan"}], d:[{f:"1669-09-27",t:"1898-12-01",y:"kusatma"}],
     v:[{f:"1830-11-01",t:"1841-02-25",k:"Mısır (Kavalalı)"}] },
-{ ad:"Hanya", tur:"kale", lat:35.512, lon:24.019, g:0, k:3, m:"Kandiye (Girit)", s:[{f:"1281-01-01",t:"1645-08-22",d:"venedik"},{f:"1898-12-01",t:"1923-10-29",d:"yunanistan"}], d:[{f:"1645-08-22",t:"1898-12-01",y:"kusatma"}] },
+{ ad:"Hanya", tur:"kale", lat:35.512, lon:24.019, g:0, k:3, m:"Kandiye (Girit)", s:[{f:"1281-01-01",t:"1645-08-22",d:"venedik"},{f:"1898-12-01",t:"1923-10-29",d:"yunanistan"}], d:[{f:"1645-08-22",t:"1830-11-01",y:"kusatma"},{f:"1841-02-25",t:"1898-12-01"}], v:[{f:"1830-11-01",t:"1841-02-25",k:"Mısır (Kavalalı)"}] },
 { ad:"Lefkoşa", tur:"sehir", lat:35.170, lon:33.360, g:1, k:2, s:[{f:"1281-01-01",t:"1489-02-26",d:"lusignan"},{f:"1489-02-26",t:"1570-09-09",d:"venedik"},{f:"1878-06-04",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1570-09-09",t:"1878-06-04",y:"kusatma"}] },
 { ad:"Magosa", tur:"kale", lat:35.125, lon:33.940, g:0, k:3, m:"Lefkoşa", s:[{f:"1281-01-01",t:"1489-02-26",d:"lusignan"},{f:"1489-02-26",t:"1571-08-01",d:"venedik"},{f:"1878-06-04",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1571-08-01",t:"1878-06-04",y:"kusatma"}] },
 // Ege adaları — her ada kendi peteğiyle boyanır
@@ -669,9 +669,9 @@ window.YERLESIMLER = [
 { ad:"Sfaks", tur:"liman", lat:34.740, lon:10.760, g:0, k:4, m:"Tunus", d:[{f:"1574-08-25",t:"1705-07-17"}],
     s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa"}], v:[{f:"1705-07-17",t:"1881-05-12",k:"Tunus Ocaklığı (Hüseynîler)"}] },
 { ad:"Annaba", tur:"liman", lat:36.900, lon:7.766, g:0, k:4, m:"Cezayir", d:[{f:"1534-09-22",t:"1671-01-01"}],
-    s:[{f:"1281-01-01",t:"1535-01-01",d:"zeyyani"},{f:"1832-03-01",t:"1923-10-29",d:"fransa"}], v:[{f:"1671-01-01",t:"1832-03-01",k:"Cezayir Ocaklığı (dayı idaresi)"}] },
+    s:[{f:"1281-01-01",t:"1535-01-01",d:"zeyyani"},{f:"1832-03-01",t:"1923-10-29",d:"fransa"}], v:[{f:"1671-01-01",t:"1832-03-01",k:"Ahmed Bey'in Konstantin beyliği (Osmanlı adına)"}] },
 { ad:"Bicâye", tur:"liman", lat:36.751, lon:5.056, g:0, k:4, m:"Cezayir", d:[{f:"1555-09-27",t:"1671-01-01"}],
-    s:[{f:"1281-01-01",t:"1510-01-01",d:"zeyyani"},{f:"1510-01-01",t:"1555-09-27",d:"ispanya"},{f:"1833-09-29",t:"1923-10-29",d:"fransa"}], v:[{f:"1671-01-01",t:"1833-09-29",k:"Cezayir Ocaklığı (dayı idaresi)"}] },
+    s:[{f:"1281-01-01",t:"1510-01-01",d:"zeyyani"},{f:"1510-01-01",t:"1555-09-27",d:"ispanya"},{f:"1833-09-29",t:"1923-10-29",d:"fransa"}], v:[{f:"1671-01-01",t:"1833-09-29",k:"Ahmed Bey'in Konstantin beyliği (Osmanlı adına)"}] },
 { ad:"Zeyla", tur:"liman", lat:11.355, lon:43.473, g:0, k:3, m:"Sevâkin", d:[{f:"1559-01-01",t:"1884-01-01",y:"ilhak"}],
     s:[{f:"1281-01-01",t:"1559-01-01",d:"adal"},{f:"1884-01-01",t:"1923-10-29",d:"ingiltere"}] },
 { ad:"Hacıbey (Odessa)", tur:"kale", lat:46.485, lon:30.733, g:0, k:3, m:"Silistre", d:[{f:"1538-09-01",t:"1792-01-09"}],
@@ -1034,8 +1034,8 @@ window.YERLESIMLER = [
 { ad:"Şerşel (Cherchell)", tur:"liman", lat:36.6015, lon:2.1921, g:0, k:4, m:"Cezayir", s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1830-07-05",t:"1923-10-29",d:"fransa"}], d:[{f:"1519-09-01",t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)"}] },
 { ad:"Medea (Titteri)", tur:"sehir", lat:36.264, lon:2.754, g:0, k:4, m:"Cezayir", s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1830-07-05",t:"1923-10-29",d:"fransa"}], d:[{f:"1519-09-01",t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)"}] },
 { ad:"Setif", tur:"sehir", lat:36.190, lon:5.410, g:0, k:4, m:"Cezayir", s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1838-10-13",t:"1923-10-29",d:"fransa"}], d:[{f:"1519-09-01",t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1838-10-13",k:"Ahmed Bey'in Konstantin beyliği (Osmanlı adına)"}] },
-{ ad:"Biskra", tur:"kale", lat:34.850, lon:5.728, g:0, k:4, m:"Cezayir", s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1844-03-04",t:"1923-10-29",d:"fransa"}], d:[{f:"1552-01-01",t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1844-03-04",k:"Cezayir Ocaklığı (dayı idaresi)"}] },
-{ ad:"Tuggurt", tur:"kale", lat:33.105, lon:6.058, g:0, k:4, m:"Cezayir", s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1854-12-02",t:"1923-10-29",d:"fransa"}], d:[{f:"1552-01-01",t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1854-12-02",k:"Cezayir Ocaklığı (dayı idaresi)"}] },
+{ ad:"Biskra", tur:"kale", lat:34.850, lon:5.728, g:0, k:4, m:"Cezayir", s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1844-03-04",t:"1923-10-29",d:"fransa"}], d:[{f:"1552-01-01",t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1844-03-04",k:"Ahmed Bey'in Konstantin beyliği (Osmanlı adına)"}] },
+{ ad:"Tuggurt", tur:"kale", lat:33.105, lon:6.058, g:0, k:4, m:"Cezayir", s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1854-12-02",t:"1923-10-29",d:"fransa"}], d:[{f:"1552-01-01",t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1854-12-02",k:"Sahra vahalarının özerk idaresi"}] },
 
 // ================= 1414 KONYA SEFERİ VE TÂCEDDİN'İN CANİK'İ =================
 // "Konya kuşatması: Beyşehir, Seydişehir ve Akşehir geri alındı" maddesi
@@ -1179,8 +1179,8 @@ window.YERLESIMLER = [
 { ad:"Tuzla (Larnaka)", tur:"liman", lat:34.917, lon:33.630, g:0, k:4, m:"Lefkoşa", s:[{f:"1281-01-01",t:"1489-02-26",d:"lusignan"},{f:"1489-02-26",t:"1570-09-09",d:"venedik"},{f:"1878-06-04",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1570-09-09",t:"1878-06-04"}] },
 // Girit'in dağlık güneybatısı (İsfakiye) ve doğu ucu (Sitiye) Kandiye ile birlikte
 // 1669'a kadar Venedik elinde kaldı; ada 24 yıl boyunca ikiye bölünmüş durumdaydı.
-{ ad:"İsfakiye (Sfakia)", tur:"kale", lat:35.202, lon:24.135, g:0, k:4, m:"Kandiye (Girit)", s:[{f:"1281-01-01",t:"1669-09-27",d:"venedik"},{f:"1898-12-01",t:"1923-10-29",d:"yunanistan"}], d:[{f:"1669-09-27",t:"1898-12-01"}] },
-{ ad:"Sitiye (Sitia)", tur:"kale", lat:35.208, lon:26.104, g:0, k:4, m:"Kandiye (Girit)", s:[{f:"1281-01-01",t:"1669-09-27",d:"venedik"},{f:"1898-12-01",t:"1923-10-29",d:"yunanistan"}], d:[{f:"1669-09-27",t:"1898-12-01"}] },
+{ ad:"İsfakiye (Sfakia)", tur:"kale", lat:35.202, lon:24.135, g:0, k:4, m:"Kandiye (Girit)", s:[{f:"1281-01-01",t:"1669-09-27",d:"venedik"},{f:"1898-12-01",t:"1923-10-29",d:"yunanistan"}], d:[{f:"1669-09-27",t:"1830-11-01"},{f:"1841-02-25",t:"1898-12-01"}], v:[{f:"1830-11-01",t:"1841-02-25",k:"Mısır (Kavalalı)"}] },
+{ ad:"Sitiye (Sitia)", tur:"kale", lat:35.208, lon:26.104, g:0, k:4, m:"Kandiye (Girit)", s:[{f:"1281-01-01",t:"1669-09-27",d:"venedik"},{f:"1898-12-01",t:"1923-10-29",d:"yunanistan"}], d:[{f:"1669-09-27",t:"1830-11-01"},{f:"1841-02-25",t:"1898-12-01"}], v:[{f:"1830-11-01",t:"1841-02-25",k:"Mısır (Kavalalı)"}] },
 // Sicilya 24.000 km²; tek nokta adanın şeklini taşımıyordu.
 { ad:"Messina", tur:"liman", lat:38.194, lon:15.554, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1861-02-13",d:"napoli"},{f:"1861-02-13",t:"1923-10-29",d:"italya"}] },
 { ad:"Sirakuza", tur:"liman", lat:37.075, lon:15.287, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1861-02-13",d:"napoli"},{f:"1861-02-13",t:"1923-10-29",d:"italya"}] },
