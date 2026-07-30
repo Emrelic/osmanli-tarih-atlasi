@@ -127,7 +127,15 @@ BILINEN_DONEM_ALANLARI = {
     "t": "bitiş",
     "d": "devlet kimliği — s: ve isg: içinde; renkler.py'de tanımlı olmalı",
     "k": "tâbi devletin adı — v: içinde (motor okumaz, gösterim için)",
-    "y": "gerekçe/antlaşma kodu — d: ve isg: içinde",
+    # ⚠️ `y:` İKİ ANLAMDA KULLANILMIŞTI — Oturum 2'nin bulgusu, kütüğün ilk
+    # gerçek müşterisi. d:/s: içinde KAZANIM BİÇİMİ enum'u (kusatma 85, savas
+    # 77, antlasma 67 kayıt), isg: içinde ise KAYNAK SLUG'ı. Aynı ada iki
+    # anlam: `y:` üzerinden istatistik alan bir araç işgal kayıtlarını enum
+    # sanıp sayardı. Ayrıldı — isg: tarafı `kaynak:` oldu (olaylar.js'in zaten
+    # kullandığı sözleşme; yeni ad uydurulmadı).
+    "y": "kazanım biçimi enum'u (kusatma/savas/antlasma…) — d: ve s: içinde",
+    "kaynak": "kaynak slug'ı — isg: içinde; motor OKUMAZ, "
+              "üretici arac/uret_devirler.py",
 }
 
 
