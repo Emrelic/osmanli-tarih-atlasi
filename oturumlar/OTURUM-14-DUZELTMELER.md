@@ -1344,29 +1344,71 @@ kararı**, tek nokta kararı değil — koordinatöre.
 
 ## 20h. Port Said sorusu — VAR, ve ayrıştırıcıda ikinci bir kusur çıkardı
 
-U4 Port Said'i sordu. **Kayıt var:**  (bitişik),
-31.257/32.284, . Maddedeki alan ise
- — **boşluklu.** §20a'da
-"ad biçimi farklı" kutusundaydı, "eksik" kutusunda değil.
+U4 Port Said'i sordu. **Kayıt var:** `ad:"Portsaid"` (bitişik yazılmış),
+31.257 / 32.284, `yerlesimler_afrika.js`. Maddedeki alan ise
+`yer:"Süveyş, Port Said, İsmâiliye (Mısır)"` — **boşluklu.**
+§20a'da "ad biçimi farklı" kutusundaydı, "eksik" kutusunda değil.
 
-**Bütün sınıfı taradım — 5 vaka:**
-↔ · ↔ · ↔
-· ↔ · ↔
+**Bütün sınıfı taradım — beş vaka:**
 
-### Son ikisi ayrı bir kusur — ve daha genel
+| Maddedeki `yer:` | Kayıttaki `ad:` | Fark |
+|---|---|---|
+| `Port Said` | `Portsaid` | boşluk |
+| `San'a` | `Sana` | kesme işareti |
+| `Kirmasti (M. Kemalpaşa)` | `Kirmasti (M.Kemalpaşa)` | nokta sonrası boşluk |
+| `Bursa)` | `Bursa` | ⚠️ artefakt |
+| `Mostar)` | `Mostar` | ⚠️ artefakt |
 
- ve  yazım farkı değil, **ayrıştırıcı artefaktı**: virgülle
-naif bölme, parantez içinde virgül olan değerleri parçalıyor.
- →  + .
+### Son ikisi yazım farkı değil — ayrıştırıcı artefaktı, ve daha genel
 
-**Ölçüldü:** 925 parçanın **20'sinin parantezi dengesiz**, ve bunları
-**10  değeri** üretiyor. Yirmisi de hiçbir zaman çözülemez.
+Virgülle **naif** bölme, parantez içinde virgül taşıyan değerleri parçalıyor:
 
-**Parantez-derinliği gözeten bölme ile ölçülen kazanç:**
+```
+yer:"Girit (Hanya, Kandiye)"   →   "Girit (Hanya"   +   "Kandiye)"
+```
+İkisi de hiçbir zaman çözülemez ve ikisi de gerçek yer adı **değil**.
 
-Kurtulanlar:  ·  ·
- · dört  değeri.
+**Ölçüldü:** 925 parçanın **20'sinin parantezi dengesiz**, ve bunları yalnız
+**10 `yer:` değeri** üretiyor.
+
+**Parantez-derinliği gözeten bölmeyle ölçülen kazanç:**
+
+| Bölme | Parça | Çözülen |
+|---|---|---|
+| naif (her virgülde) | 925 | 399 |
+| **derin (parantez dışı virgülde)** | **915** | **403** |
+
+→ 20 çöp parça eleniyor, **7 gerçek ad kurtuluyor**:
+`Girit (Hanya, Kandiye)` · `Moha (Tihâme, Yemen)` ·
+`Trablusşam (Trablus, Lübnan)` · dört ayrı `İstanbul (…, …)` değeri.
+
+**Derin bölme:**
+```python
+def parcala(v):
+    out, buf, d = [], '', 0
+    for c in v:
+        if c == '(': d += 1
+        elif c == ')': d = max(0, d - 1)
+        if c == ',' and d == 0:
+            out.append(buf.strip()); buf = ''
+        else:
+            buf += c
+    out.append(buf.strip())
+    return [x for x in out if x]
+```
 
 ⚠️ **Mutlak yüzdem U4'ünkiyle karşılaştırılamaz** (bende %43-44, onda %64):
 farklı normalleştirici kullanıyoruz ve ben yalnız iki canlı dosyaya
-bakıyorum. Anlamlı olan **delta**, mutlak sayı değil.
+bakıyorum. Anlamlı olan **delta**, mutlak sayı değil — bunu belirtiyorum ki
+"A3 daha düşük buldu, hangimiz haklıyız" diye bir tur daha dönmesin.
+
+### 📌 Usul — `OGRENILENLER §21` üçüncü kez ısırdı
+
+Bu bölümün ilk hâli **bozuk yazıldı**: içeriği `py -c "..."` içine gömdüm,
+Git Bash ters tırnakları komut ikamesi sandı ve bütün alan adlarını yedi
+(`ad:"Portsaid"` → boşluk). Commit `54deed0` bu yüzden bozuk içerik taşıyor,
+bu bölüm onu değiştirir.
+
+**Kural netleşti ve istisnası yok:** içerik kabuktan geçmez.
+Write ile dosyaya yaz → `py` dosyayı okusun. Daha önce üç ekte doğru
+uygulamıştım, burada kestirmeye saptım ve bedelini ödedim.
