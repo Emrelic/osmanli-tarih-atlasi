@@ -44,12 +44,20 @@ durum tablosunu güncelle.
       kazaklarını karşılıyor, atlas ikisini de kapsıyor, karışma sessiz olurdu.
       Üç dosya tek commit'te. *K + Oturum 9*
 
-- [ ] **`BEKLENEN_KIRILMASIZ` tavanı 67 → 95** (`arac/denetle.py:101`). Sayı arttı
-      ama **veri kötüleşmedi**: `§26` (denetimin kendi ürettiği "Aynı tarihte…" eki
+- [ ] **Eşleşme A tavanı 67 → 97** (`arac/denetle_eslesme.py`). Sayı arttı ama
+      **veri kötüleşmedi**: `§26` (denetimin kendi ürettiği "Aynı tarihte…" eki
       eşleştirmeye giriyordu — 28 kırılma sessizce geçmiş) ve `§19` (sağ kelime
       sınırı yoktu: `Kavala ⊂ Kavalalı`) düzeltilince araç körlüğünü kaybetti.
       🔴 Gerekçe tavanın yanına yazılmalı, yoksa sonraki oturum "denetim bozuldu"
       sanıp geri alır. *DENETÇİ (dosya onun)*
+
+      ⚠️ **`BEKLENEN_KIRILMASIZ` (Değişmez 2t) 67'de KALIYOR — dokunmayın.**
+      Bu satır bir kez yanlış yazıldı (31 Temmuz, `81c4ac5`): iki ayrı metrik tek
+      metrik sanıldı, çünkü **eşleşme A'nın eski değeri de 67'ydi.** İkisi ayrı
+      soru soruyor — 2t: *"maddenin kırılması var mı"*; eşleşme A: *"kırılmanın
+      DOĞRU maddesi var mı"*. Aynı sayıyla başlamaları tesadüf.
+      📌 Ders: tavan **indirmek** kadar **yanlış tavanı** oynatmak da denetimi kör
+      eder, üstelik sessizce — sayı "güncellendi" göründüğü için kimse geri bakmaz.
 
 ---
 
