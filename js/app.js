@@ -833,7 +833,13 @@ harita.on("load", function () {
     if (etiketBekleyen) return;
     etiketBekleyen = requestAnimationFrame(function () {
       etiketBekleyen = 0;
-      if (haritaHazir) etiketleriYerlestir();
+      if (!haritaHazir) return;
+      etiketleriYerlestir();
+      // ⚠️ Şehir işaretleri de zoom'a bağlı hâle geldi: görünürlük artık
+      // yalnız `d >= zoomEsigi()` değil, ÇAKIŞMA elemesi de. Eşik sınıfı
+      // değişmese bile yakınlaşınca yer açılıyor ve elenmiş işaretler geri
+      // gelmeli. zoomSinifi'nin `e !== sonEsik` kapısı bunu kaçırırdı.
+      sehirGuncelle(suanki);
     });
   }
   harita.on("zoom", zoomSinifi);
@@ -944,6 +950,12 @@ var ISARET_KAYNAK = (window.YERLESIMLER && window.YERLESIMLER.length)
         });
         pencereler.sort(function (a, b) { return a.f < b.f ? -1 : a.f > b.f ? 1 : 0; });
         return { ad: y.ad, tur: y.tur, lat: y.lat, lon: y.lon, gecici: y.g === 0,
+                 // ⚠️ `g` BURADA TAŞINMALI. Eskiden taşınmıyordu çünkü tek
+                 // kullanıcısı `pencereler[].d` idi; şehir öncelik sıralaması
+                 // (sehirOncelikKur) onu doğrudan istiyor ve alan yoksa
+                 // sıralamanın BİRİNCİ anahtarı sessizce etkisiz kalır —
+                 // İstanbul ile Timbuktu aynı kovaya düşerdi.
+                 g: y.g || 0,
                  go: y.go,   // önemin söndüğü gün (isteğe bağlı)
                  k: pencereler };
       })
@@ -1021,9 +1033,80 @@ function olayYeriKur() {
   });
 }
 
+// ---------- Şehir görünürlük önceliği — (kova, alan, ad) ----------
+// Kullanıcı kararı (a): şehir katmanı OLAYLARDAN BAĞIMSIZ, yakınlaştırmaya
+// göre çalışır. Uzaktan yalnız önemli şehirler, yakınlaştıkça hepsi; olaylar
+// açıkken o anki maddede geçenler EK olarak görünür.
+// ⇒ Bağımlılık tersine çevrildi: eskiden şehir katmanı olaya muhtaçtı
+// (`gecici` işaret ancak anıldığında görünürdü), artık olay katmanı şehir
+// katmanına ekleme yapıyor.
+//
+// 🔴 SIRALAMA NEDEN BÖYLE — dört ölçüm sonucunda:
+//   1) g: tek başına yetmiyor    → 846 kayıt tek kovada
+//   2) tur: yetmiyor             → en büyük kova 416
+//   3) anılma yetmiyor           → 538 tek kovada
+//   4) ÜÇÜ BİRLİKTE              → en büyük ortak kova 299 (%65 azalma)
+// Ve sürücü ALAN OLAMAZ: alan yakınlık değil ıssızlık ölçüyor — Timbuktu
+// 2.820.792 km² ile birinci, İstanbul 750/951, Bursa 879/951. Alan sürücü
+// olsaydı uzaklaşınca ekranda Sahra kalır, İstanbul kaybolurdu.
+// ⇒ Roller ters: ÜÇLÜ KOVA sürücü, alan yalnız kova İÇİNDE eşitlik kırıcı.
+//   Böylece Timbuktu (g:0·sehir·anılma 0) en alt kovada kalıyor ve alanı
+//   yalnız kendi kovasının içinde işe yarıyor.
+// Son basamak `ad`: petek koordinatları 3 ondalıkla yazılıyor (111 m) ve
+// ölçüldü — 290 ardışık çiftin 2'sinde alan farkı gürültünün altında. Ad,
+// yalnız o iki çiftte karar verir ve sırayı ÜRETİMDEN BAĞIMSIZ kılar.
+var TUR_SIRA = { sehir: 0, liman: 1, kale: 2, bolge: 3 };
+var sehirOncelik = null;              // öncelik sırasına dizilmiş indeksler
+var sehirAnilma = null;               // kronoloji genelinde anılma sayısı
+
+function sehirOncelikKur() {
+  // Anılma sayısı: OLAY_YERI'nin tersi. BÜTÜN kronoloji üzerinden sabit bir
+  // sayı — o anda sahnede olan maddeler değil. Yani statik bir "atlas bu
+  // yerden ne kadar söz ediyor" ölçüsü; `anilan`la karıştırılmamalı.
+  sehirAnilma = new Array(sehirler.length);
+  for (var i = 0; i < sehirAnilma.length; i++) sehirAnilma[i] = 0;
+  for (var oi = 0; oi < OLAY_YERI.length; oi++) {
+    var L = OLAY_YERI[oi];
+    for (var li = 0; li < L.length; li++) sehirAnilma[L[li]]++;
+  }
+  // Petek alanı — km². PETEKLER donemler.js'ten zaten yüklü, ek dosya YOK.
+  // ⚠️ derece² değil km²: enlem düzeltmesi olmadan kuzeydeki hücreler haksız
+  // yere büyük çıkar ve sıra ölçtüğümden başka olur.
+  var alan = {};
+  if (window.PETEKLER) {
+    for (var pi = 0; pi < PETEKLER.length; pi++) {
+      var p = PETEKLER[pi];
+      if (!p || !p.g) continue;
+      var km = 0;
+      for (var gi = 0; gi < p.g.length; gi++) {
+        var dis = p.g[gi][0];
+        if (!dis || dis.length < 4) continue;
+        var lat = 0;
+        for (var q = 0; q < dis.length; q++) lat += dis[q][1];
+        km += halkaAlan(dis) * 111.32 * 111.32 *
+              Math.cos((lat / dis.length) * Math.PI / 180);
+      }
+      alan[p.a] = km;
+    }
+  }
+  sehirOncelik = [];
+  for (var s = 0; s < sehirler.length; s++) sehirOncelik.push(s);
+  sehirOncelik.sort(function (a, b) {
+    var A = sehirler[a].s, B = sehirler[b].s;
+    var d = (B.g || 0) - (A.g || 0);                    if (d) return d;
+    d = sehirAnilma[b] - sehirAnilma[a];                 if (d) return d;
+    d = (TUR_SIRA[A.tur] === undefined ? 9 : TUR_SIRA[A.tur]) -
+        (TUR_SIRA[B.tur] === undefined ? 9 : TUR_SIRA[B.tur]);
+                                                         if (d) return d;
+    d = (alan[B.ad] || 0) - (alan[A.ad] || 0);           if (d) return d;
+    return A.ad < B.ad ? -1 : A.ad > B.ad ? 1 : 0;       // üretimden bağımsız son söz
+  });
+}
+
 function sehirGuncelle(t) {
   if (!haritaHazir) return;
   if (!OLAY_YERI) olayYeriKur();
+  if (!sehirOncelik) sehirOncelikKur();
 
   // O an sahnede olan maddelerin andığı yerleşimler — savaş işaretleriyle aynı
   // pencere kuralı (bir sonraki maddeye kadar, taban 60 tavan 365 gün).
@@ -1038,16 +1121,25 @@ function sehirGuncelle(t) {
     }
   }
 
-  sehirler.forEach(function (m, mi) {
+  // Öncelik sırasında dolaşılıyor ve yerleşenlerin ekran kutuları tutuluyor:
+  // büyük olan önce yerleşir, çakışan küçük elenir. Devlet ve bölge
+  // etiketlerinde kurulu olan makinenin aynısı (ölçümü: taban 1·bant 47·tavan 0).
+  var yerlesenSehir = [];
+  sehirOncelik.forEach(function (mi) {
+    var m = sehirler[mi];
     var aktif = null;
     for (var i = 0; i < m.kayitlar.length; i++) {
       var r = m.kayitlar[i];
       if (r.fi <= t && t < r.ti) { aktif = r; break; }
     }
-    // Geçici işaret: yalnız el değiştirme penceresinde görünür (genel kural).
-    // ⚠️ AMA maddede adı geçiyorsa pencere kapalı olsa da görünür — "konu bitince
-    // kalkar" kuralının diğer yarısı bu; madde geçince `anilan` boşalıyor.
-    if (aktif && m.gecici && t >= aktif.fi + YONTEM_SURE && !anilan[mi]) aktif = null;
+    // 🔴 GEÇİCİ İŞARET KAPISI KALDIRILDI (kullanıcı kararı a).
+    // Eskiden buradaydı ve şöyleydi:
+    //     if (aktif && m.gecici && t >= aktif.fi+YONTEM_SURE && !anilan[mi])
+    //         aktif = null;
+    // Yani 846 işaretin (%87,7) görünürlüğü OLAY eksenine bağlıydı: penceresi
+    // kapanan işaret ancak o anki bir madde onu anıyorsa görünürdü. Kullanıcı
+    // katmanların bağımsız olmasını istedi; artık görünürlüğü yakınlaştırma ve
+    // çakışma belirliyor, `anilan` ise aşağıda ÖNCELİK YÜKSELTİCİ olarak duruyor.
     if (!aktif) {
       if (m.ekli) { m.mk.remove(); m.ekli = false; }
       return;
@@ -1089,6 +1181,31 @@ function sehirGuncelle(t) {
       ? (m.kale ? "🏰" : "") + (aktif.y ? YONTEM_SIMGE[aktif.y] || "" : "")
       : "";
     if (m.yontemEl.textContent !== simge) m.yontemEl.textContent = simge;
+
+    // ---- Çakışma elemesi ----
+    // ⚠️ `anilan` olanlar elemeye GİRMİYOR: madde anlatılırken "nerede?"
+    // sorusunun cevabı kalabalıktan önce gelir. Bu, katman 5'in katman 3'e
+    // yaptığı ekleme — bağımlılığın tersine çevrilmiş hâli.
+    if (!anilan[mi]) {
+      var pt = harita.project([m.s.lon, m.s.lat]);
+      // Kutu: nokta + ad. Ad kutusu etiketlerdeki KARAKTER oranından türetiliyor,
+      // ayrıca ölçülmüyor — iki yerde duran sayı bayatlar (§35).
+      var punto = d >= 3 ? 13 : d >= 2 ? 11 : 10;
+      var gen = String(m.s.ad).length * KARAKTER * punto + 14, yuk = punto * 1.5;
+      var kutu = { x0: pt.x - gen / 2, x1: pt.x + gen / 2,
+                   y0: pt.y - yuk / 2, y1: pt.y + yuk / 2 };
+      var carpti = false;
+      for (var yi = 0; yi < yerlesenSehir.length; yi++) {
+        var o = yerlesenSehir[yi];
+        if (kutu.x0 < o.x1 && kutu.x1 > o.x0 &&
+            kutu.y0 < o.y1 && kutu.y1 > o.y0) { carpti = true; break; }
+      }
+      if (carpti) {
+        if (m.ekli) { m.mk.remove(); m.ekli = false; }
+        return;
+      }
+      yerlesenSehir.push(kutu);
+    }
     if (!m.ekli) { m.mk.addTo(harita); m.ekli = true; }
   });
 }
