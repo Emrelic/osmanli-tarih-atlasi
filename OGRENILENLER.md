@@ -1666,3 +1666,54 @@ olur — biri haritayı düzeltir, öbürü kusuru saklar.
 📌 Genel hâli: **bir alanı elle işaretlemek zorunda kalıyorsan, önce o
 zorunluluğun eksik veriden doğup doğmadığına bak.** Bayrak ucuzdur ve tam bu
 yüzden yanlış yerde kullanılır.
+
+---
+
+## §46 — Kaynak doğrulaması ÜÇ aşamalıdır; üçüncüsü en sinsisidir
+
+(BALKAN'ın sınıflandırması, beş vakadan.) Bir maddenin `kaynak:` künyesi
+doğrulanırken *"künye yaşıyor mu"* diye bakmak yetmez. Bugün beş vaka çıktı ve
+**üç ayrı bozulma biçimi** var:
+
+| biçim | vaka | sınama |
+|---|---|---|
+| **1** iddia maddede **hiç yok** | Dömeke · `zeta` 1451 (*"merkez Cetinje'ye taşındı"* TDV `karadag`'da geçmiyor) | anahtar kelime araması |
+| **2** **künyesiz** tarih künyeli gibi duruyor | İsmail `1484-08-03`; `ismail`·`izmail`·`kalas` künyelerinin **hepsi ölü**, tarih eski bir maddeden kopyalanmış | künye canlı mı |
+| **3** 🔴 künye doğru, madde doğru, **rakam kaymış** | İnebahtı: TDV *"26 Ağustos'ta teslim ettiler"*, madde **28** yazıyor | **tarihin kendisi** |
+
+🔴 **Üçüncü biçim ilk iki sınamayı da geçer:** künye canlı, madde konuyla ilgili,
+metin anahtar kelimeyi içeriyor. Yalnız **sayı** yanlış — ve harita sayıya göre
+çiziliyor. Bugün iki vakada fark belirleyiciydi: Mekke **31 gün**, İnebahtı
+**2 gün**; ikisi de yanlış güne renk veriyordu.
+
+⚠️ Ve `<title>` kontrolü birinci aşamayı bile geçemiyor: **kütük madde** sınıfı
+(`abudabi`) başlık sınamasını geçiyor, gövdesi yalnız *"bk. EBÛZABÎ"*.
+
+📌 Genel hâli, `§44`'ün kardeşi: **doğrulama, doğruladığını sandığın şeyi
+doğrulamayabilir.** `§44`'te ölçüm başka bir şeyi ölçüyordu; burada sınama
+başka bir şeyi sınıyor. İkisinde de çıktı "geçti" diyor.
+
+---
+
+## §47 — Veri maddeyi takip ederse, yanlış kendi kaynağını üretir
+
+(BALKAN'ın İsmail bulgusu.) İsmail'in `1484-08-03` tarihi kaynaksızdı: TDV'nin
+üç maddesi 1484 seferini gün gün anlatıyor ve **yalnız iki kale** sayıyor.
+Tarih, silmek istediğimiz **eski birleşik maddeden kopyalanmıştı.**
+
+> *"Emekliye ayıracağımız madde, tutunduğu kırılmayı kendisi doğurmuş."*
+
+Yani madde veriyi değil, **veri maddeyi takip etmiş** — ve sonuç kendi kendini
+tutan bir döngü: madde silinemiyordu çünkü veri ona dayanıyordu, veri
+düzeltilemiyordu çünkü maddeden geliyordu.
+
+📌 Ayıraç: bir tarihin kaynağı sorulduğunda cevap **başka bir kendi kaydımız**
+ise, o tarih **kaynaksızdır.** Depo içi tutarlılık, dış doğrulama değildir.
+
+📌 Ve düzeltmenin doğruluğunun kanıtı beklenmedik yerden geldi (YAMACI):
+İsmail'in tarihi düzeltilince `m:`/egemen sayacı **389 → 390 yükseldi**, çünkü
+yanlış-erken tarih bir anakronizmi **tesadüfen gizliyordu.** *"Doğru tarih
+anakronizmi gizlemiyor, açığa çıkarıyor."*
+⚠️ Bunun ikinci sonucu: bir kusur sayacının **düzeltmeyle yükselmesi**, o
+sayacın kusur saymadığının kanıtıdır — Değişmez 3'ün sayaca düşürülme kararı
+buradan da doğrulandı.
