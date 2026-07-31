@@ -81,7 +81,7 @@ gerekir. Projenin bütün kalite kuralları (§3) bu tek cümleden türer.
 | Konum denetimi | 🟢 `denetle.py`'nin 6. kontrolü — nokta kara maskesinde mi (beklenen 0) |
 | **Devletler dizini** | 🟡 213 kayıt (dünya); derinleştirme sürüyor |
 | **Görsel doğrulama** | 🟡 Kullanıcı ekran görüntüsüyle yürütüyor (`hatalar N.docx`) |
-| **Dünya kapsamı: yerleşimler** | 🟡 İran 126 · Orta Asya 16 birleşti; Avrupa 228 · Asya 344 · Afrika 153 **merge bekliyor** |
+| **Dünya kapsamı: yerleşimler** | 🟡 İran 126 · Orta Asya 16 · **Afrika 186 birleşti (951 nokta canlı)**; Avrupa 228 · Asya 344 merge bekliyor |
 | **Dünya kapsamı: harita penceresi** | 🔴 `box(-12, 1.5, 62, 62)` hâlâ dar; §6'daki sıra beklenecek |
 
 ## 1.6 Kapsam disiplini
@@ -283,16 +283,32 @@ data/kisiler.js         90 kişi
 data/savaslar.js        123 savaş + 33 antlaşma + 15 seri + 41 sefer güzergâhı
 data/sehirler.js        62 şehir/kale kartı
 
-⚠️ HENÜZ index.html'e BAĞLANMAMIŞ, merge bekleyen yerleşim partileri. Bunlar
-   yerlesimler.js şemasıyla birebir aynıdır; ayrı dosya olmalarının tek sebebi
-   oturumlar arası çakışmayı önlemekti. Merge ETMEDEN ÖNCE dosya başlarındaki
-   uyarı bloklarını oku — çoğu, renkler.py'de karşılığı olmayan devlet kimliği
-   kullanıyor ve rastgele renk eklemek DSATUR dengesini bozar (bkz. §7 renkler):
+🔴 **HANGİ DOSYA CANLI — tek doğru kaynak `arac/girdi.py` `GIRDI_DOSYALARI`.**
+   Bu satırlar 31 Temmuz'a kadar `yerlesimler_afrika.js`'i "merge bekliyor"
+   diye gösteriyordu; **o dosya merge edildi ve 186 nokta taşıyor.** Bayat satır
+   bir araştırma oturumunu doğrudan yanılttı: kapsam ölçümünü yalnız
+   `yerlesimler.js` üzerinde yaptı, 767 kayıt gördü, gerçek 951'di ve buna
+   dayanan üç hüküm eksik çıktı.
+   📌 Ders: **ayrıştırıcıyı doğrulamak yetmiyor, hangi DOSYALARI okuduğunu da
+   doğrulamak gerekiyor.** İki ayrıştırıcı aynı dosyada aynı sonucu verse bile,
+   biri eksik dosya kümesi okuyorsa sayı yanlıştır.
+
+```
+CANLI (girdi.py okuyor, motor boyuyor, denetim ölçüyor) — toplam 951 nokta
+   data/yerlesimler.js          765 nokta — çekirdek: Osmanlı ve komşuları
+   data/yerlesimler_afrika.js   186 nokta — Mısır · Sudan · Kızıldeniz · Sahra
+```
+
+⚠️ HENÜZ BAĞLANMAMIŞ, merge bekleyen partiler. Şema birebir aynıdır; ayrı dosya
+   olmalarının tek sebebi oturumlar arası çakışmayı önlemekti. Merge ETMEDEN
+   ÖNCE dosya başlarındaki uyarı bloklarını oku — çoğu, `renkler.py`'de
+   karşılığı olmayan devlet kimliği kullanıyor ve rastgele renk eklemek DSATUR
+   dengesini bozar (bkz. §7 renkler):
 data/yerlesimler_avrupa.js  228 nokta (Oturum 12) — 15 yeni devlet kimliği istiyor
 data/yerlesimler_asya.js    344 nokta (Oturum 13) — TAMAMI 62°D'nin doğusunda,
                             harita penceresi açılmadan çizilmez; 98 yeni kimlik
-data/yerlesimler_afrika.js  153 nokta (Oturum 14) — pencerenin İÇİNDE, ilk
-                            üretimde görünür; 7 nokta yuvarlanmış tarih taşıyor
+data/yerlesimler_ortaasya2.js 7 nokta — `d:"kazak"` yazıyor, renk
+                            `kazak-hanligi` altında; hizalanmadan merge edilemez
 
 data/donemler.js        🤖 ÜRETİLMİŞ — 12 MB. ELLE DÜZENLEME.
 data/devletler_harita.js 🤖 ÜRETİLMİŞ — 14 MB. ELLE DÜZENLEME.
