@@ -1717,3 +1717,71 @@ anakronizmi gizlemiyor, açığa çıkarıyor."*
 ⚠️ Bunun ikinci sonucu: bir kusur sayacının **düzeltmeyle yükselmesi**, o
 sayacın kusur saymadığının kanıtıdır — Değişmez 3'ün sayaca düşürülme kararı
 buradan da doğrulandı.
+
+---
+
+## §48 — "Açıklayamıyorum" anında ilk refleks HİPOTEZ değil, GÖRÜNÜRLÜK olmalı
+
+(ARAYÜZ'ün tespiti, bir günün bedeliyle.) Etiket çakışması kusurunda **yedi
+hipotez** üretildi ve **yedisi de çürüdü**:
+
+```
+1 muafiyet (anilan)     2 zamanlama (rAF)      3 "taç" dalı
+4 sıfır kutu deliği     5 kutu darlığı         6 Esri açılışı engelliyor
+7 dairesel kilit (stil kurulumda veriliyor, kurulum stili bekliyor)
+```
+Her biri makuldü, her biri bir ölçüm turu + bir mesaj turu + bir yanlış yöne
+bakma getirdi. Ve **hiçbiri doğru değildi.**
+
+Doğruyu bulan şey, ARAYÜZ'ün *"yazmak yerine ölçtürüyorum"* deyip koyduğu
+geçici teşhis kaydıydı:
+```js
+SON_ELEME = { aday, sifirKutu[], elenen[], tutulan[] }
+```
+Tek koşuda cevap geldi: `aday 24 · DOM 25 · tutulan 23 · elenen 1` ⇒ iki işaret
+**ne tutulmuş ne elenmiş** — yani elemeye hiç girmemiş.
+
+> **Kural:** bir kusuru açıklayamıyorsan, sıradaki adım yeni bir açıklama
+> denemek değil, **içeriyi görünür kılmaktır.**
+
+📌 Ve maliyet karşılaştırması net: teşhis kaydını yazmak **on dakika**, yedi
+hipotez **bir günün büyük kısmı.** Hipotez üretmek bedava görünür çünkü
+düşünmek bedava sanılır; oysa her hipotez sınanmak zorundadır ve sınama pahalıdır.
+
+📌 Teşhis kaydı **yayına bırakılmaz** — ölçüm bitince kaldırıldı (`e85b9cf`).
+Ucuz da değildi: her güncellemede 108'e kadar ad biriktiriyor ve zoom sırasında
+kare başına koşuyordu.
+
+⚠️ Ve ölçüm aracı **iyi kurulmuştu**: üç okumanın **üçü de farklı bir sebep**
+gösteriyordu (`sifirKutu` dolu → delik · `tutulan`da var → kutu ayrışması ·
+hiçbirinde yok → elemeye girmiyor). `§34`'ü geçen bir araç, hangi sonuç
+çıkarsa çıksın kararı değiştiriyor.
+
+---
+
+## §49 — Zamana bağlı bir kümede TEK KESİT hüküm veremez
+
+Bugün **üç ayrı oturum**, birbirinden bağımsız olarak aynı hatayı yaptı:
+
+```
+ARAYÜZ   "Söğüt anilan değil"        → yalnız 1302-07-27 ölçülmüştü
+MOTOR    "32 puanlık gerçek boşluk"  → yalnız 1281 epokundan
+KOORDİN. "r298 temiz yükleniyordu"   → ölçüm aslında r295'teydi
+```
+
+Üçü de **doğru ölçümdü** ve üçü de **kapsamından geniş bir hüküm** taşıdı.
+Ve üçü de başka birini yanlış yöne baktırdı: ARAYÜZ'ün cümlesi koordinatörü
+"taç" hipotezine gönderdi, koordinatörünki ARAYÜZ'ü r299'da hata aramaya.
+
+> **Kural:** `anilan` · epok · sürüm damgası gibi **zamana/duruma bağlı** bir
+> kümede yapılan ölçüm, ölçüldüğü an ile birlikte raporlanır.
+> *"Söğüt anılan değil"* değil → *"1302-07-27'de Söğüt anılan değil."*
+
+📌 MOTOR'un vakası bunun bedelini de gösterdi: 35 epok taraması olmasaydı
+**16 epokluk bir devir** (Yeni Ürgenç) sessizce yayına girecekti — çünkü tek
+epokta (1281) %49,1 görünüyor, 1383 sonrası %90,8'e çıkıyor.
+
+📌 Ve aynı taramadan beklenmedik bir kazanç çıktı: **%66 ile %90 arasındaki
+her eşik aynı sonucu veriyor.** Yani uydurulmuş eşik değeri sonucu
+belirlemiyor — bu, tek bir sayıya yaslanmaktan çok daha sağlam ve ancak
+**tam tarama** ile görülebilirdi.
