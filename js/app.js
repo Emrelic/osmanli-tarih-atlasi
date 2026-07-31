@@ -138,7 +138,9 @@ var donemler = window.DONEMLER.map(function (d) {
            // "sb" boşsa hiç yazılmıyor (çoğu dönemde çölle sınırdaşlık yok),
            // yani d.sb undefined olabilir — hatCoz bunu null'a çeviriyor.
            sb: hatCoz(d.sb),
-           z: d.z || null };
+           // ⚠️ `z` (şehzade payları) TAŞINMIYOR: donemler.js'in 462
+           // döneminin hiçbirinde yok (0/462) ve tüketicisi kaldırıldı.
+           _sonKapan: 1 };
 });
 
 // Bütün dönemlerin en büyük Osmanlı alanı — lejanttaki "zirvenin %N'i" için.
@@ -149,7 +151,6 @@ var donemler = window.DONEMLER.map(function (d) {
 var donemZirve = 0;
 for (var _dz = 0; _dz < donemler.length; _dz++) {
   var _d = donemler[_dz];
-  if (_d.z && _d.z.length) continue;
   if (_d.ao > donemZirve) donemZirve = _d.ao;
 }
 
@@ -677,12 +678,16 @@ harita.on("load", function () {
     paint: { "line-color": "#5a3a24", "line-width": 0.9, "line-opacity": 0.5,
              "line-dasharray": [2, 3] } });
 
-  // Fetret Devri şehzade payları — her şehzade kendi renginde
-  harita.addSource("sehzade", { type: "geojson", data: bosVeri() });
-  harita.addLayer({ id: "sehzade-dolgu", type: "fill", source: "sehzade",
-    paint: { "fill-color": ["get", "renk"], "fill-opacity": 0.62 } });
-  harita.addLayer({ id: "sehzade-cizgi", type: "line", source: "sehzade",
-    paint: { "line-color": ["get", "renk"], "line-width": 2.2 } });
+  // ☠️ FETRET ŞEHZADE KATMANI KALDIRILDI (1 Ağustos 2026).
+  // `sehzade` kaynağı ve iki katmanı buradaydı. Ölçüldü: `donemler.js`'in
+  // 462 döneminin **hiçbirinde** `z` alanı yok (0/462), yani katman hiç
+  // çizilmedi. Besleyen üretici `arac/uret_donemler.py` — CLAUDE.md'de zaten
+  // "☠️ ESKİ MOTOR, kullanılmıyor" diye işaretli.
+  // 🔴 Silme sebebi "kullanılmıyor" değil, ZARAR VERİYOR olması: koordinatör
+  // kullanıcının "iki kırmızı bölge" şikâyetini bu katmana bağlayıp YANLIŞ
+  // TEŞHİS kurdu. Ölü kod kusur üretmiyor ama teşhisi saptırıyor — sessiz
+  // bozuk koddan farklı bir zarar.
+  // ⇒ `z` bir gün geri gelirse kod git geçmişinde: bu satırdan önceki commit.
 
   // ⚠️ Hareket tipolojisi TÜR BAŞINA AYRI KATMAN gerektiriyor: MapLibre'de
   // `line-dasharray` veriyle sürülemeyen bir boya özelliği, yani tek katmanda
@@ -887,54 +892,6 @@ harita.on("load", function () {
 
 function bosVeri() { return { type: "FeatureCollection", features: [] }; }
 
-// ---------- Fetret Devri şehzade payları ----------
-var sehzadeEtiketleri = [];        // aktif HTML etiket işaretleri
-
-function cokgenMerkezi(coords) {    // en büyük parçanın kaba ağırlık merkezi
-  var enBuyuk = null, enBuyukAlan = -1;
-  coords.forEach(function (poly) {
-    var r = poly[0], alan = 0;
-    for (var i = 0, j = r.length - 1; i < r.length; j = i++) {
-      alan += (r[j][0] * r[i][1] - r[i][0] * r[j][1]);
-    }
-    alan = Math.abs(alan / 2);
-    if (alan > enBuyukAlan) { enBuyukAlan = alan; enBuyuk = r; }
-  });
-  if (!enBuyuk) return null;
-  var x = 0, y = 0;
-  enBuyuk.forEach(function (p) { x += p[0]; y += p[1]; });
-  return [x / enBuyuk.length, y / enBuyuk.length];
-}
-
-function sehzadeGuncelle(d) {
-  if (!haritaHazir) return;
-  sehzadeEtiketleri.forEach(function (m) { m.remove(); });
-  sehzadeEtiketleri = [];
-  if (!d.z || !d.z.length) {
-    harita.getSource("sehzade").setData(bosVeri());
-    return;
-  }
-  var fs = d.z.map(function (k) {
-    return { type: "Feature", properties: { ad: k.a, renk: k.r },
-             geometry: { type: "MultiPolygon", coordinates: k.g } };
-  });
-  harita.getSource("sehzade").setData({ type: "FeatureCollection", features: fs });
-  d.z.forEach(function (k) {
-    var merkez = cokgenMerkezi(k.g);
-    if (!merkez) return;
-    var dis = document.createElement("div");
-    var ic = document.createElement("div");
-    ic.className = "sehzade-etiket";
-    ic.style.borderColor = k.r;
-    ic.innerHTML = '<b></b><span></span>';
-    ic.children[0].textContent = k.a;
-    ic.children[1].textContent = "≈ " + Math.round(k.km / 1000) + " bin km²";
-    dis.appendChild(ic);
-    var mk = new maplibregl.Marker({ element: dis, anchor: "center" })
-               .setLngLat(merkez).addTo(harita);
-    sehzadeEtiketleri.push(mk);
-  });
-}
 function tekVeri(geo) { return { type: "FeatureCollection",
   features: geo.coordinates.length ? [{ type: "Feature", properties: {}, geometry: geo }] : [] }; }
 
@@ -2071,7 +2028,6 @@ function guncelle() {
     harita.getSource("imparatorluk").setData(bosVeri());
     harita.getSource("serbest").setData(bosVeri());
     harita.getSource("bolge").setData(bosVeri());
-    sehzadeGuncelle({});
     donemEtiketi.textContent = "Fetret Devri — şehzade payları";
     var alanBos = document.getElementById("alan-goster");
     if (alanBos) alanBos.textContent = "📐 tek gövde yok — paylar ayrı ayrı";
@@ -2093,14 +2049,10 @@ function guncelle() {
     // hatCoz zaten FeatureCollection dönüyor (her hat kendi `u`sunu taşıyor).
     harita.getSource("serbest").setData(d.sb || bosVeri());
     harita.getSource("bolge").setData(bolgeVerisi(suanki));
-    sehzadeGuncelle(d);
     donemEtiketi.textContent = d.ad;
     var alanEl = document.getElementById("alan-goster");
     if (alanEl) {
-      if (d.z && d.z.length) {
-        var toplam = d.z.reduce(function (s, k) { return s + k.km; }, 0);
-        alanEl.textContent = "📐 " + alanYazi(toplam) + " (şehzade payları)";
-      } else {
+      {
         // ⚠️ ZİRVEYE GÖRE KONUM — kullanıcının asıl şikâyetinin cevabı.
         // Şikâyet "Rumeli şişik görünüyor" gibi duruyordu ama altındaki şey
         // "toprak kazandı mı kaybetti mi"yi GÖZLE yanlış okumaktı. Mercator'ün

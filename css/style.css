@@ -453,18 +453,8 @@ body {
 }
 
 /* ---------- Fetret Devri şehzade etiketleri ---------- */
-.sehzade-etiket {
-  background: rgba(247, 241, 227, 0.92);
-  border: 2px solid #8d6e63;
-  border-radius: 7px;
-  padding: 3px 9px;
-  text-align: center;
-  white-space: nowrap;
-  pointer-events: none;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
-}
-.sehzade-etiket b { display: block; font-size: 12.5px; color: #2b1006; }
-.sehzade-etiket span { font-size: 10.5px; color: #6b5a33; }
+/* ☠️ .sehzade-etiket kaldırıldı — Fetret şehzade katmanı ölüydü
+   (donemler.js'te z alanı 0/462) ve yanlış teşhise yol açıyordu. */
 
 /* ---------- Savaş yerleri ---------- */
 .savas-isaret { display: flex; flex-direction: column; align-items: center; pointer-events: none; }
