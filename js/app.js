@@ -1239,21 +1239,13 @@ function sehirGuncelle(t) {
   for (var ki = 0; ki < yerlesenSehir.length; ki++) {
     kutular.push(yerlesenSehir[ki].ic.getBoundingClientRect());
   }
-  // 🔬 TEŞHİS KAYDI — beş hipotez çürüdükten sonra kondu, GEÇİCİ.
-  // Belirleyici ipucu: ölçülen çakışmalar küçük değil BÜYÜK (Söğüt~Karacahisar
-  // 76 px, kutular 89 ve 95 genişliğinde) — "kutu birkaç piksel dar" açıklaması
-  // elendi, bu çiftler HİÇ KARŞILAŞTIRILMAMIŞ gibi duruyor.
-  var teshis = { aday: yerlesenSehir.length, sifirKutu: [], elenen: [], tutulan: [] };
   var tutulan = [];
   for (var ci = 0; ci < yerlesenSehir.length; ci++) {
     var r = kutular[ci];
     // ⚠️ SIFIR KUTU SESSİZ BİR DELİK: `continue` eden işaret ne eleniyor ne de
     // sonrakileri engelliyor. Üç işaretin birden buraya düşmesi, gözlenen
     // tabloyu (dört çiftin dördü de Söğüt/Domaniç/Karacahisar) BİREBİR üretir.
-    if (!r || !r.width) {
-      teshis.sifirKutu.push(yerlesenSehir[ci].s.ad);
-      continue;
-    }
+    if (!r || !r.width) continue;   // henüz yerleşmemiş
     var carpti = false;
     for (var ti = 0; ti < tutulan.length; ti++) {
       var o = tutulan[ti];
@@ -1263,14 +1255,10 @@ function sehirGuncelle(t) {
     if (carpti) {
       var mm = yerlesenSehir[ci];
       if (mm.ekli) { mm.mk.remove(); mm.ekli = false; }
-      teshis.elenen.push(mm.s.ad);
     } else {
       tutulan.push(r);
-      teshis.tutulan.push(yerlesenSehir[ci].s.ad);
     }
   }
-  // Elemenin GÖRDÜĞÜ hâl dışarıdan okunabilsin diye. Ölçüm bitince kalkacak.
-  window.SON_ELEME = teshis;
 }
 
 // ---------- Savaş yerleri (⚔) ve sefer okları ----------
