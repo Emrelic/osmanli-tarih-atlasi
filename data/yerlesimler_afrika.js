@@ -1105,4 +1105,85 @@ window.YERLESIMLER_AFRIKA = [
 
 { ad:"Kufra (el-Cûf)", tur:"bolge", lat:24.209, lon:23.300, g:0, k:0, s:[], d:[], v:[] },
 
+// ===========================================================================
+// 17) md.17'NİN İKİNCİ YARISI — Fizan'ın dokuz noktası (OTURUM-14-DUZELTMELER §15)
+// ===========================================================================
+// Kullanıcının şikâyeti: Libya çölünde sınırlar "cetvelle çizilmiş gibi".
+//
+// 🔴 ÖNCE TEŞHİS, SONRA LİSTE. Ölçüldü (1880-06-15, görünür kenar ölçütü):
+// haritada görünen beş uzun düz çizginin BEŞİ DE `(boş) | OSMANLI` sınırı —
+// yani Osmanlı ile başka bir devletin arasında değil, Osmanlı ile sahipsiz
+// çölün arasında. Ve üç ayrı tarihte (1700/1880/1911) TIPATIP aynı: iki yüz
+// yıl kımıldamayan bir çizgi.
+//
+// Sebebi nokta seyrekliği DEĞİL: uret_petek.py:347 petek sınırını nehir
+// yatağına (~33 km) ya da dağ sırtına (~39 km) yaslar. Libya'da motorun
+// okuduğu nehir parçası SIFIR, sırt olarak saydığı üç poligonun (Jabal bin
+// Ghunaymah · Al Jabal al Akhdar · Tibesti) hiçbiri Fizan sınırında değil.
+// Yaslanacak hiçbir şey yoksa sınır ham Voronoi orta dikmesi olarak kalır —
+// ve orta dikme tanımı gereği düz bir doğrudur. Cetvel görüntüsü veri
+// eksikliğinin değil, ÇÖLDE TOPOGRAFYA OLMAMASININ sonucu.
+//
+// 🔴 BU YÜZDEN NOKTA EKLEMENİN TAVANI ÖLÇÜLDÜ VE MÜTEVAZI:
+//     bugünkü hâl  18 kenar · 4.298 km · en uzun 438 km
+//     7 nokta      19 kenar · 4.010 km · en uzun 451 km  ⚠️ ARTTI
+//     8 nokta      20 kenar · 4.137 km · en uzun 390 km
+//     9 nokta      21 kenar · 3.931 km · en uzun 390 km   → -%11 / -%9
+// md.17 nokta ekleyerek KAPANMAZ, yalnız yumuşar. Asıl kaldıraç motorda
+// (§15f'de Oturum 16'ya iki seçenek ölçülü olarak verildi).
+//
+// ⚠️ DOKUZU BİRLİKTE ÇALIŞIR — LİSTEDEN NOKTA ÇIKARMA. Yedi nokta aşamasında
+// en uzun kenarın artması tesadüf değil: İdehân Ubârî eklenince Gât'ın batı
+// sınırı yeni tepe oluyor, onu ancak Tâsîlî n'Accer kırıyor. Biri çıkarılırsa
+// yukarıdaki ölçüm geçersizdir.
+//
+// Yakınlık: dokuzu da 1.525 mevcut noktanın hepsiyle karşılaştırıldı, en
+// yakın komşu 57,4 km (Ubârî → İdehân Murzuk). Sürt/Zuvâra/Geryan hatası
+// (bkz. §16a notu) bu kez YAZMADAN ÖNCE ölçülerek engellendi.
+//
+// ⚠️ BEKLENEN_SAHIPSIZ 43 → 50. `arac/denetle.py` Oturum 2'nin dosyası.
+
+// --- 17a) KASTEN SAHİPSİZ (7) — kum denizleri ve serîrler ------------------
+// Hiçbir devletin idaresine girmedi; tek işlevleri komşu peteğin çölü
+// yutmasını engellemek (CLAUDE.md §3, Sahra dolgu noktalarıyla aynı sınıf).
+
+{ ad:"İdehân Ubârî", tur:"bolge", lat:25.900, lon:11.300, g:0, k:0, s:[], d:[], v:[] },
+
+{ ad:"Ramletü Murzuk", tur:"bolge", lat:24.600, lon:12.100, g:0, k:0, s:[], d:[], v:[] },
+
+{ ad:"Vâdî Tanezzûft", tur:"bolge", lat:22.400, lon:11.300, g:0, k:0, s:[], d:[], v:[] },
+
+{ ad:"Serîr Kalanşû", tur:"bolge", lat:28.200, lon:21.700, g:0, k:0, s:[], d:[], v:[] },
+
+{ ad:"Ramletü Zellâf", tur:"bolge", lat:25.600, lon:15.600, g:0, k:0, s:[], d:[], v:[] },
+
+{ ad:"Ma'tan es-Sarra", tur:"bolge", lat:21.700, lon:21.850, g:0, k:0, s:[], d:[], v:[] },
+
+// ⚠️ Tâsîlî n'Accer LİBYA DEĞİL, CEZAYİR toprağıdır. Listeye Libya sınırını
+// düzeltmek için değil, Gât'ın BATI peteğini sınırlamak için girdi — o petek
+// bugün Cezayir çölüne taşıyor. Sahipsiz olması ayrıca doğru: Ahaggar-Tâsîlî
+// Tuareg konfederasyonunun alanıydı, ne Osmanlı ne Fransa 1923'e kadar
+// buraya idare kurdu.
+{ ad:"Tâsîlî n'Accer", tur:"bolge", lat:25.300, lon:9.200, g:0, k:0, s:[], d:[], v:[] },
+
+// --- 17b) İDARE EDİLEN (2) — Fizan kazaları, YENİ KIRILMA ÜRETMEZ ----------
+// Sebha ve Ubârî Fizan'ın gerçek kaza merkezleridir; dönem zincirleri
+// `yerlesimler.js`'teki Murzuk (Fizan) kaydıyla BİREBİR aynıdır, yani dört
+// sınırın (1577-01-01 · 1711-03-01 · 1835-05-26 · 1912-10-18) dördü de zaten
+// maddelidir. Değişmez 2'ye yeni yük binmez.
+//
+// 🔴 İkisi de zaten Osmanlı boyalı hücrenin İÇİNDE: Murzuk'un peteğini
+// bölerler, sınırı DIŞARI TAŞIMAZLAR. Toprak büyümez — md.40'ta dört vahanın
+// boş çölü yutması gibi bir etki burada yok, ölçüldü.
+
+{ ad:"Sebha", tur:"sehir", lat:27.038, lon:14.428, g:0, k:4, m:"Murzuk (Fizan)",
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"hafsi"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+  d:[{f:"1577-01-01",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}],
+  v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
+
+{ ad:"Ubârî", tur:"sehir", lat:26.590, lon:12.777, g:0, k:4, m:"Murzuk (Fizan)",
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"hafsi"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+  d:[{f:"1577-01-01",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}],
+  v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
+
 ];

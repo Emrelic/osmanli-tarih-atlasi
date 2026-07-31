@@ -984,3 +984,201 @@ maddesi gerekmiyor.**
 boyasız") ayrı bir belirti ve **bu düzeltmeyle açıklanmıyor** — beş nokta da
 aynı sahibi taşıdığına göre orta bölümün boyasız görünmesi göl/maske kaynaklı
 olmalı. Ölçümü Oturum 16'da; bu düzeltme uygulandıktan sonra tekrar bakılmalı.
+
+---
+
+## 17. ✅ DOKUZ LİBYA NOKTASI UYGULANDI
+
+`data/yerlesimler_afrika.js` §17'ye yazıldı (7 sahipsiz + 2 sahipli).
+Üretim 02:44'te `donemler.js`'i yazıp bittiği için girdi serbestti.
+
+**Yazmadan ÖNCE ölçüldü** (Sürt/Zuvâra/Geryan hatasının dersi): dokuz nokta
+**1.525 mevcut noktanın hepsiyle** karşılaştırıldı — dört yerleşim dosyası
+birden, yalnız Libya kutusu değil.
+
+| Yeni nokta | En yakın komşu | Mesafe |
+|---|---|---|
+| Ubârî | İdehân Murzuk | **57,4 km** ← en dar |
+| Serîr Kalanşû | Serîr | 83,2 km |
+| Tâsîlî n'Accer | Gât | 105,5 km |
+| İdehân Ubârî | İdehân Murzuk | 114,8 km |
+| Sebha | Murzuk (Fizan) | 134,3 km |
+| Ramletü Zellâf | Vâv el-Kebîr | 164,8 km |
+| Ramletü Murzuk | İdehân Murzuk | 180,4 km |
+| Ma'tan es-Sarra | Rebyâne | 280,3 km |
+| Vâdî Tanezzûft | Fizan güneyi | 284,9 km |
+
+3 km kuralı en dar noktada **19 kat** sağlanıyor; ad çakışması yok.
+
+### 17a. Uygulama sonrası denetim — TAM ÇIKTI
+
+```
+951 yerleşim, 978 kronoloji maddesi
+Değişmez 1  ✗  951 yerleşim, 50 sahipsiz (beklenen 43)   ← TEK KIRMIZI, BEKLENEN
+Değişmez 1b ✓  pencere arası boşluk: 0
+Değişmez 2  ✓  448 kırılma, 0 açık          ← DEĞİŞMEDİ
+Değişmez 2s ✓  566 yabancı kırılması, 115 açık (tavan 115)
+Değişmez 2t ✓  kırılmasız madde: 67 (tavan 67)
+Değişmez 3  ✓  381 çelişki (tavan 383)      ← DEĞİŞMEDİ
+dönem sağlığı ✓ · mükerrer ✓ 0 · konum ✓ 0 nokta maske dışında
+```
+
+Üç şey **ölçümle** doğrulandı, varsayımla değil:
+1. **Kırılma 448'de kaldı** — Sebha ve Ubârî'nin Murzuk zincirini birebir
+   tekrarladığı iddiası doğruydu; yeni sınır üretmediler.
+2. **Konum 0** — dokuz noktanın dokuzu da kara maskesinin içinde.
+3. **Değişmez 3 oynamadı** — `m:"Murzuk (Fizan)"` bağı çelişki üretmiyor.
+
+### 17b. 🔴 SİZDE KALAN TEK İŞ
+
+```python
+# arac/denetle.py:67  (Oturum 2'nin dosyası, dokunmadım)
+BEKLENEN_SAHIPSIZ = 50      # 43 idi
+```
+Bu güncellenene kadar denetim Değişmez 1'i **İHLAL** raporlar; ihlal gerçek
+değil, beklentinin eskimesidir. 43 + 7 = 50, artışın tamamı §17a'nın
+kasten sahipsiz noktalarıdır.
+
+---
+
+## 18. NAPOLYON `isg:` ÖRTÜSÜ — KESİNLEŞMİŞ LİSTE
+
+### 18a. 🔴 ÖNCE BİR DÜZELTME: D-4 gerekçeniz doğru sonuca YANLIŞ yoldan varıyor
+
+*"D-4 kendiliğinden sağlanıyor: örtünün iki ucunun da maddesi zaten var"*
+demiştiniz. Sonuç doğru ama sebep bu değil — **ölçtüm:**
+
+| Dosya | `isg:` okuyor mu |
+|---|---|
+| `arac/uret_petek.py` | **0 eşleşme** — hiç okumuyor |
+| `arac/uret_devirler.py` | **0 eşleşme** |
+| `arac/denetle.py`:637-643 | yalnız **dönem sağlığı** (sıfır uzunluk / ters / çakışma) |
+
+Yani `isg:` **hiçbir yerde kırılma üretmez.** Örtünün uçlarında madde olsa da
+olmasa da Değişmez 2 kımıldamaz. Bu ayrım pratik: **`isg:` sınırları serbestçe
+seçilebilir**, kronoloji borcu doğurmadan.
+
+### 18b. Uygulanacak — 7 kayıt
+
+```js
+isg:[{f:"1798-07-01",t:"1801-10-09",d:"fransa",kaynak:"kahire"}]
+```
+
+| Kayıt | Satır | Notu |
+|---|---|---|
+| Kahire | 607 | |
+| İskenderiye | 609 | |
+| Dimyat | 611 | |
+| Asyut | 613 | ⚠️ bkz. 18d |
+| Reşîd (Rosetta) | 980 | |
+| Süveyş | 666 | `s:` yok, yalnız `d:` — örtü yine `d:` dönemine düşer |
+| Sina güneyi | 829 | |
+
+**DIŞARIDA (2):** `Asvan` (615) · `İbrim` (617) — Fransız denetimi Yukarı
+Mısır'a Murad Bey'i kovalayarak ulaştı ama idare kurmadı.
+
+`kaynak:"kahire"` seçildi çünkü o maddeyi **kendim okudum** ve işgali
+(yıl hassasiyetinde) andığını gördüm. `misir` da canlı ve semantik olarak
+belki daha uygun, ama içeriğini doğrulamadım — **okumadığım bir maddeye
+atıf yapmaktansa okuduğuma yapmak** doğru olan.
+
+`kaynak:` alan adı Bosna'nın üç kaydında (`berlin-antlasmasi`) canlı olarak
+duruyor — `y:` düzeltmesi uygulanmış, teyit ettim.
+
+### 18c. Sınırların gerekçesi
+
+- **`f:"1798-07-01"`** — donanmanın İskenderiye önlerine varışı. `olaylar.js`'te
+  `1798-07` maddesi var; **onu gün hassasiyetine çekmek sizde.**
+- **`t:"1801-10-09"`** — `olaylar_ek5.js`'te zaten bu günde madde var. İlk
+  önerim 1801-09-02 (İskenderiye'nin teslimi) idi; mükerrer denetimi 0.60
+  oranıyla çarpınca mevcut maddeye hizaladım.
+
+### 18d. ⚠️ AÇIK BORÇ — örtünün granülaritesi (md.40'ın oazis borcu gibi)
+
+Tek örtü, yedi kayıt, aynı gün. **Gerçekte kademeliydi:** İskenderiye Temmuz
+1798, Kahire Piramitler'den sonra, Süveyş Aralık 1798, **Asyut ancak Ocak
+1799** (Desaix'in Yukarı Mısır seferi). Yani Asyut'un örtüsü ~6 ay fazla
+yer kaplıyor.
+
+**Kademelendirmedim, çünkü kademe günleri TDV'de YOK.** §16c'nin tablosu:
+`kahire` yalnız "1798" diyor, `aris` tahliyeyi yanlışlıkla 1800'e koyuyor,
+tek gün-kesin TDV tarihi 18 Mart 1799 (`akka`). Şehir şehir gün yazmak
+standart kayıttan alıp TDV'ye yamamak olurdu — **CLAUDE.md §4'ün "tarih
+uydurma" yasağı tam olarak bu.**
+
+18a yüzünden kademelendirme *teknik olarak* bedavaydı (kırılma doğurmuyor).
+Engel teknik değil **kaynak**tı. Bunu yazıyorum ki "yapılabilirdi ama
+yapılmadı" ile "yapılamazdı" karışmasın.
+
+📌 Örtünün doğası bu kabaca yaklaşımı `d:`/`s:`ten daha çok kaldırır: `isg:`
+"bu toprak fiilen X'in denetimindeydi" der, "şu gün el değiştirdi" demez.
+Ama borç borçtur ve md.40'ınki gibi açıkça kayda geçiyor.
+
+---
+
+## 19. 🔴 §16b'DE KALAN İŞ VAR — etiket düzeldi, DÖNEM BÖLÜNMEDİ
+
+*"Onları ben uyguladım (etiketler düzeldi). Kalan bir şey varsa söyle."*
+→ **Var.** Ölçtüm:
+
+| Kayıt | Bugünkü `v:` |
+|---|---|
+| Annaba | `1671-01-01 → 1832-03-01` **Ahmed Bey'in Konstantin beyliği (Osmanlı adına)** |
+| Bicâye | `1671-01-01 → 1833-09-29` **Ahmed Bey'in Konstantin beyliği (Osmanlı adına)** |
+| Biskra | `1671-01-01 → 1844-03-04` **Ahmed Bey'in Konstantin beyliği (Osmanlı adına)** |
+| Tuggurt | `1671-01-01 → 1854-12-02` **Sahra vahalarının özerk idaresi** |
+
+Etiket değişti ama **tek dönem kaldı**. Sonuç: anakronizm yok olmadı,
+**yönü tersine döndü.** Ahmed Bey 1826'da bey oldu ve beyliği Osmanlı adına
+ancak ocaklığın lağvından sonra hareket etti; **1671'de Konstantin beyliği
+diye bir şey yoktu.** 1671-1830 arası gerçekten *Cezayir Ocaklığı*ydı ve o
+etiket doğruydu — silinmemeliydi, **kesilmeliydi.**
+
+Fazlalık: Annaba **159 yıl**, Bicâye 159, Biskra 159, Tuggurt 159.
+(Önceki hata Annaba'da 2 yıl, Bicâye'de 3 yıldı — düzeltme, düzelttiğinden
+elli kat büyük bir etiket hatası bıraktı.)
+
+**Kendi 21 kaydımda desen böyle** (ölçüldü, karşılaştırma için):
+
+```
+Cicel:   1671-01-01 → 1830-07-05   Cezayir Ocaklığı (dayı idaresi)
+         1830-07-05 → 1839-05-13   Ahmed Bey'in Konstantin beyliği
+Ağvât:   1671-01-01 → 1830-07-05   Cezayir Ocaklığı (dayı idaresi)
+         1830-07-05 → 1852-12-04   Sahra vahalarının özerk idaresi
+```
+
+### 19a. Uygulanacak — 4 kayıt, `yerlesimler.js` (sizde)
+
+```js
+// Annaba
+v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},
+   {f:"1830-07-05", t:"1832-03-01", k:"Ahmed Bey'in Konstantin beyliği"}],
+// Bicâye
+v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},
+   {f:"1830-07-05", t:"1833-09-29", k:"Ahmed Bey'in Konstantin beyliği"}],
+// Biskra
+v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},
+   {f:"1830-07-05", t:"1844-03-04", k:"Ahmed Bey'in Konstantin beyliği"}],
+// Tuggurt   (§16b'deki sınıflandırma: Ağvât/Gardâye ile aynı sınıf)
+v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},
+   {f:"1830-07-05", t:"1854-12-02", k:"Sahra vahalarının özerk idaresi"}],
+```
+
+**Bölme sınırı 1830-07-05 kırılma DEĞİLDİR** — `v:` içi bölünme, sahip
+değişmiyor (`v:` boyunca tâbi). Değişmez 2'ye yük binmez, `denetle.py`
+dönem sağlığı da temiz kalır (ters/sıfır/çakışma yok). Ölçtüm: kendi 21
+kaydımda aynı bölme 448 kırılmayı kımıldatmadı.
+
+### 19b. 📌 Neden gözden kaçtı — ve tuzağın adı
+
+`k:` alanını **motor okumuyor** (`girdi.py`:129 *"motor okumaz, gösterim
+için"*). Yani bu hata:
+- haritada **hiçbir renk değiştirmez**,
+- denetimin **yedi kontrolünün hiçbirine takılmaz**,
+- yalnız kullanıcı sağ panelde bir yere tıkladığında görünür.
+
+Cezayir turunun tamamı bu sınıftandı: kullanıcı hatayı **ekranda okuyarak**
+buldu, hiçbir betik bulamazdı. Denetimin `k:` etiketiyle dönem tarihleri
+arasında tutarlılık aramaması sekizinci bir denetim fikri — Oturum 2'ye:
+*"bir `k:` etiketi, andığı kurumun/kişinin ömrünün dışına taşıyor mu?"*
+(§3.5'teki hayalet devlet denetiminin `v:` etiketlerine uygulanmış hâli.)
