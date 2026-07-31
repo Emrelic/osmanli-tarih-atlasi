@@ -632,17 +632,17 @@ window.YERLESIMLER = [
 // 1805: Kahire ulemâsının talebiyle Kavalalı Mehmed Ali vali oldu; Mısır o
 // tarihten sonra hukuken Osmanlı, fiilen kendi hanedanının idaresindedir.
 // Bu yüzden 1805'ten itibaren "tâbi" (açık ton) katmanda gösterilir.
-{ ad:"Kahire", isg:[{f:"1798-07-01",t:"1801-10-09",d:"fransa",kaynak:"kahire"},{f:"1882-09-14",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"sehir", lat:30.047, lon:31.243, g:2, k:2, s:[{f:"1281-01-01",t:"1517-02-15",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1517-02-15",t:"1805-07-03",y:"savas"}],
+{ ad:"Kahire", isg:[{f:"1798-07-01",t:"1801-10-09",d:"fransa",kaynak:"kahire"},{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"sehir", lat:30.047, lon:31.243, g:2, k:2, s:[{f:"1281-01-01",t:"1517-02-15",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1517-02-15",t:"1805-07-03",y:"savas"}],
     v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
-{ ad:"İskenderiye", isg:[{f:"1798-07-01",t:"1801-10-09",d:"fransa",kaynak:"kahire"},{f:"1882-09-14",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"liman", lat:31.200, lon:29.919, g:1, k:3, m:"Kahire", s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1517-05-19",t:"1805-07-03"}],
+{ ad:"İskenderiye", isg:[{f:"1798-07-01",t:"1801-10-09",d:"fransa",kaynak:"kahire"},{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"liman", lat:31.200, lon:29.919, g:1, k:3, m:"Kahire", s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1517-05-19",t:"1805-07-03"}],
     v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
-{ ad:"Dimyat", isg:[{f:"1798-07-01",t:"1801-10-09",d:"fransa",kaynak:"kahire"},{f:"1882-09-14",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"liman", lat:31.418, lon:31.814, g:0, k:3, m:"Kahire", s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1517-05-19",t:"1805-07-03"}],
+{ ad:"Dimyat", isg:[{f:"1798-07-01",t:"1801-10-09",d:"fransa",kaynak:"kahire"},{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"liman", lat:31.418, lon:31.814, g:0, k:3, m:"Kahire", s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1517-05-19",t:"1805-07-03"}],
     v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
-{ ad:"Asyut", isg:[{f:"1798-07-01",t:"1801-10-09",d:"fransa",kaynak:"kahire"},{f:"1882-09-14",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"sehir", lat:27.181, lon:31.183, g:0, k:3, m:"Kahire", s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1517-04-13",t:"1805-07-03"}],
+{ ad:"Asyut", isg:[{f:"1798-07-01",t:"1801-10-09",d:"fransa",kaynak:"kahire"},{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"sehir", lat:27.181, lon:31.183, g:0, k:3, m:"Kahire", s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1517-04-13",t:"1805-07-03"}],
     v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
-{ ad:"Asvan", isg:[{f:"1882-09-14",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"sehir", lat:24.089, lon:32.899, g:0, k:3, m:"Kahire", s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1517-04-13",t:"1805-07-03"}],
+{ ad:"Asvan", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"sehir", lat:24.089, lon:32.899, g:0, k:3, m:"Kahire", s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1517-04-13",t:"1805-07-03"}],
     v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
-{ ad:"İbrim", isg:[{f:"1882-09-14",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"kale", lat:22.658, lon:31.988, g:0, k:4, m:"Kahire", s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1517-04-13",t:"1805-07-03",y:"kusatma"}],
+{ ad:"İbrim", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"kale", lat:22.658, lon:31.988, g:0, k:4, m:"Kahire", s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1517-04-13",t:"1805-07-03",y:"kusatma"}],
     v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 // Sudan hiçbir zaman doğrudan Bâbıâli'ye bağlanmadı: 1820-21'de Mehmed Ali'nin
 // ordusu fethetti, Kahire'den yönetildi, 1885'te Mehdî ayaklanmasıyla kaybedildi.
@@ -712,7 +712,7 @@ window.YERLESIMLER = [
     s:[{f:"1281-01-01",t:"1516-08-28",d:"memluk"},{f:"1918-10-26",t:"1923-10-29",d:"fransa"}] },
 { ad:"Deyrizor", tur:"sehir", lat:35.336, lon:40.141, g:0, k:4, m:"Halep", d:[{f:"1516-08-28",t:"1918-10-26"}],
     s:[{f:"1281-01-01",t:"1516-08-28",d:"memluk"},{f:"1918-10-26",t:"1923-10-29",d:"fransa"}] },
-{ ad:"Süveyş", isg:[{f:"1798-07-01",t:"1801-10-09",d:"fransa",kaynak:"kahire"},{f:"1882-09-14",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"liman", lat:29.974, lon:32.548, g:0, k:4, m:"Kahire", d:[{f:"1517-01-22",t:"1805-07-03"}],
+{ ad:"Süveyş", isg:[{f:"1798-07-01",t:"1801-10-09",d:"fransa",kaynak:"kahire"},{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"liman", lat:29.974, lon:32.548, g:0, k:4, m:"Kahire", d:[{f:"1517-01-22",t:"1805-07-03"}],
     v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}],
     s:[{f:"1281-01-01",t:"1517-01-22",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}] },
 { ad:"Sfaks", tur:"liman", lat:34.740, lon:10.760, g:0, k:4, m:"Tunus", d:[{f:"1574-08-25",t:"1705-07-17"}],
@@ -1036,7 +1036,7 @@ window.YERLESIMLER = [
 { ad:"Kemah", tur:"kale", lat:39.600, lon:39.030, g:1, k:4, m:"Erzurum", s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1401-02-01",d:"akkoyunlu"},{f:"1402-07-28",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1515-05-19",d:"safevi"}], d:[{f:"1401-02-01",t:"1402-07-28",y:"savas"},{f:"1515-05-19",t:"1923-10-29",y:"kusatma"}] },
 { ad:"Humus", tur:"sehir", lat:34.730, lon:36.710, g:0, k:4, m:"Şam", s:[{f:"1281-01-01",t:"1516-09-27",d:"memluk"},{f:"1918-10-01",t:"1923-10-29",d:"fransa"}], d:[{f:"1516-09-27",t:"1918-10-01"}] },
 { ad:"Han Yûnus", tur:"kale", lat:31.340, lon:34.300, g:1, k:4, m:"Kudüs", s:[{f:"1281-01-01",t:"1516-12-21",d:"memluk"},{f:"1917-11-07",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1516-12-21",t:"1917-11-07",y:"savas"}] },
-{ ad:"Reşîd (Rosetta)", isg:[{f:"1798-07-01",t:"1801-10-09",d:"fransa",kaynak:"kahire"},{f:"1882-09-14",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"liman", lat:31.399, lon:30.417, g:0, k:4, m:"Kahire", s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1517-05-19",t:"1805-07-03"}],
+{ ad:"Reşîd (Rosetta)", isg:[{f:"1798-07-01",t:"1801-10-09",d:"fransa",kaynak:"kahire"},{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"liman", lat:31.399, lon:30.417, g:0, k:4, m:"Kahire", s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1517-05-19",t:"1805-07-03"}],
     v:[{f:"1805-07-03",t:"1914-12-18",k:"Mısır (Kavalalı)"}] },
 
 // ---- Orta ve Batı Anadolu yoğunlaştırması (kullanıcı tespiti: "Ankara civarında
