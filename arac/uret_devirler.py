@@ -283,10 +283,19 @@ def main():
     PAR = oku_pencere(os.path.join(DATA, "donemler.js"), "PARCALAR")
     global PETEKLER_ADLARI
     PETEKLER_ADLARI = oku_pencere(os.path.join(DATA, "donemler.js"), "PETEKLER")
+    # ⚠️ AYRI DOSYA, `donemler.js` DEĞİL — ve sebebi ölçülmüş: per-petek gövde
+    # 1,1 MB ve `donemler.js`i `index.html` YÜKLÜYOR. İçine konsaydı bu veri
+    # **her ziyaretçiye** inecekti, oysa yalnız bu betik okuyor.
+    # Kural (COĞRAFYA §8.0): üretim ara çıktısı `index.html`'e girmez.
+    # ⚠️ ZAMANSIZ: taban geometri, `kur:`/`bit:` devirlerini taşımaz. Bizim iki
+    # örtümüz için doğru (en geç `kur:` 1869, `isg:` 1878'den başlıyor) ama bu
+    # TESADÜF — 1869 öncesine uzanan bir örtü sorulursa sessizce yanlış olur.
     try:
-        PETEK_GOVDE = oku_pencere(os.path.join(DATA, "donemler.js"), "PETEK_GOVDE")
-    except ValueError:
-        PETEK_GOVDE = None
+        GOVDE_YOL = os.path.join(DATA, "petek_govde.js")
+        PETEK_GOVDE = oku_pencere(GOVDE_YOL, "PETEK_GOVDE")
+        GOVDE_PARCA = oku_pencere(GOVDE_YOL, "PETEK_GOVDE_PARCA")
+    except (ValueError, IOError, OSError):
+        PETEK_GOVDE = GOVDE_PARCA = None
     DH = oku_pencere(os.path.join(DATA, "devletler_harita.js"), "DEVLET_HARITA")
     DP = oku_pencere(os.path.join(DATA, "devletler_harita.js"), "DEVLET_PARCALAR")
     print("  %d dönem, %d devlet" % (len(D), len(DH)))
@@ -369,7 +378,17 @@ def main():
         print("     ⚠️ Yaklaşık bir gövde ÜRETİLMEDİ — yanlış yerde taralı alan,")
         print("        hiç taralı alan olmamasından kötüdür.")
     else:
-        isgaller = isgalleri_uret(PETEK_GOVDE, PAR)
+        # 🔴 `GOVDE_PARCA` — `PAR` DEĞİL. İlk denememde `PAR` (donemler.js'in
+        # PARCALAR havuzu) geçirdim ve betik HATA VERMEDİ: `PETEK_GOVDE`
+        # indeksleri (en büyük 1762) `PARCALAR`ın 2445 elemanına da düşüyor,
+        # yani her indeks "geçerli" bir poligon buluyor — **bambaşka bir
+        # poligon.** Çıktı üç işgal bölümünü de ✓ ile bastı, gövdeler
+        # kuruldu, hiçbir şey patlamadı. Yalnız taralı alanlar **yanlış
+        # yerlerde** olacaktı.
+        # ⇒ İki havuzun aynı indeks uzayını paylaşmaması tesadüf; paylaşsaydı
+        # bu hata hiç yakalanmazdı. Yakalanmasının tek sebebi, çıktıya
+        # güvenmeyip indeks aralığını ÖLÇMEM oldu.
+        isgaller = isgalleri_uret(PETEK_GOVDE, GOVDE_PARCA)
 
     yol = os.path.join(DATA, "devirler.js")
     with io.open(yol, "w", encoding="utf-8") as f:
