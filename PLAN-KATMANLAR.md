@@ -78,3 +78,34 @@ zemin rengi → kara → göl → çöl/ova/plato → dağ → nehir(büyük→k
 **Ölçülecek:** şehir katmanı devletten gerçekten ayrılabiliyor mu? Bugün
 işaretler devletle birlikte güncelleniyor olabilir; ayrılamıyorsa 3 ve 4 tek
 kutuya düşer ve bu **kullanıcının isteğine aykırı** olur.
+
+---
+
+## 🔴 KÜRE PROJEKSİYONU — ERTELENDİ (31 Temmuz 2026)
+
+**Sebep yokluk, tercih değil:** MapLibre **4.7.1**'de küre **uygulanmamış.**
+Paketi indirip ölçtük (803 KB): `"globe"` yalnız **1 kez** geçiyor ve o da
+style-spec enum'u (`values:{mercator:{},globe:{}}`) — çizen kod yok. Gerçek bir
+uygulamada yüzlerce geçiş olurdu (dönüşüm, matris, gölgelendirici).
+Küre **5.0.0** hattında geldi (2024-12-31); en son kararlı **6.1.0**.
+
+Kayıp gerçek: Mercator `1/cos²φ` şişiriyor — 41°K'de **1,8×**, yani Rumeli
+Mısır'a göre ~1,4 kat geniş görünüyor. ✅ Ama **sayılarımız etkilenmiyor**;
+motor km²'yi enlem düzeltmesiyle hesaplıyor. Bozulan yalnız resim.
+
+**Yeniden gündeme gelme şartı — ve tek şart bu:**
+> MapLibre 6.x'e geçildiği gün küre yeniden gündeme gelir. **O gün, arka yüz
+> DOM marker davranışı ÖLÇÜLMEDEN karar verilmez** — çünkü bütün etiket
+> katmanımız buna bağlı: 7 marker ailesi (devlet · bölge · şehir · savaş ·
+> şehzade · sefer oku · sefer adı), 2 `harita.project()` çağrısı ve
+> `getBoundingClientRect` üzerine kurulu çakışma elemesi.
+> Kürenin arka yüzündeki markerlar gizlenmiyorsa **atlasın öbür yüzündeki
+> etiketler öne vurur** ve iş tek satırlık ayar olmaktan çıkıp etiket
+> katmanının yeniden yazılmasına döner.
+
+⚠️ Üçüncü yol yok: eşit alanlı klasik projeksiyonlar (Mollweide, Eckert,
+Winkel) MapLibre'de **bulunmuyor.** Seçenek Mercator ile küre arasında.
+
+📌 Ertelemenin telafisi uygulandı: gözün yapamadığı karşılaştırmayı **sayı**
+yapıyor — lejantta *"zirvenin %N'i"* ve yön oku. Ayrıntı ve neden miktar
+yazılmadığı: `oturumlar/OLCUM-ALAN-GORUNURLUGU.md`.

@@ -141,6 +141,18 @@ var donemler = window.DONEMLER.map(function (d) {
            z: d.z || null };
 });
 
+// Bütün dönemlerin en büyük Osmanlı alanı — lejanttaki "zirvenin %N'i" için.
+// Bir kez, açılışta: 462 kayıt, çalışma anında yeniden taranmıyor.
+// ⚠️ Fetret dönemi (`z` dolu, tek gövde yok) zirveye KATILMIYOR: orada `ao`
+// bütün ülkeyi değil şehzade paylarının toplamını temsil etseydi zirve
+// yanıltıcı olurdu. Bugün o dönemlerde `ao` zaten kullanılmıyor.
+var donemZirve = 0;
+for (var _dz = 0; _dz < donemler.length; _dz++) {
+  var _d = donemler[_dz];
+  if (_d.z && _d.z.length) continue;
+  if (_d.ao > donemZirve) donemZirve = _d.ao;
+}
+
 // Her dönemin aktif petek listesini delta'lardan kur (bir kez, açılışta)
 (function () {
   if (!PETEKLER.length) return;
@@ -2065,8 +2077,40 @@ function guncelle() {
         var toplam = d.z.reduce(function (s, k) { return s + k.km; }, 0);
         alanEl.textContent = "📐 " + alanYazi(toplam) + " (şehzade payları)";
       } else {
+        // ⚠️ ZİRVEYE GÖRE KONUM — kullanıcının asıl şikâyetinin cevabı.
+        // Şikâyet "Rumeli şişik görünüyor" gibi duruyordu ama altındaki şey
+        // "toprak kazandı mı kaybetti mi"yi GÖZLE yanlış okumaktı. Mercator'ün
+        // 1/cos²φ şişmesi (41°K'de 1,8×) gözü yanıltıyor ve düzeltmesi pahalı:
+        // küre MapLibre 4.7.1'de YOK, iki ana sürüm yükseltme gerekiyor.
+        // ⇒ Gözün yapamadığını sayı yapıyor: her tarihte AYNI ölçeğe göre
+        // okuma. Bu, projeksiyon bozulmasından tamamen bağımsız çalışır.
+        var oran = donemZirve ? Math.round(100 * d.ao / donemZirve) : 0;
+        // 🔴 YÖN OKU MİKTARSIZ — ve bu bir kısıt değil, ÖLÇÜLMÜŞ bir karar.
+        // Ardışık dönem farkı 461/461 hesaplanabiliyor AMA işareti dönem adıyla
+        // 27 vakada çelişiyor (386 işaretli farkın %7'si): 1671-01-01'de ad
+        // "Katılım: Cezayir…" iken fark −596.000 km². Sebep kusur değil TANIM
+        // FARKI — ad o kırılmada kimlerin katıldığını söyler, fark ise o günün
+        // NET'ini verir. Miktarı maddenin yanına yazsaydık %93 doğru, %7 kendi
+        // metniyle çelişen bir sayı çıkardı; en kötü tür, çünkü çoğu zaman
+        // çalışır ve kimse şüphelenmez.
+        // Yön ise her vakada doğru: "o gün toprak arttı/azaldı".
+        // ⇒ Bildiğimiz kadarını gösteriyoruz, bilmediğimizi göstermiyoruz.
+        var yon = "", yonAd = "";
+        if (di > 0 && donemler[di - 1] && donemler[di - 1].ao !== undefined) {
+          var onceki = donemler[di - 1].ao;
+          if (d.ao > onceki) { yon = "▲"; yonAd = "bir önceki döneme göre arttı"; }
+          else if (d.ao < onceki) { yon = "▼"; yonAd = "bir önceki döneme göre azaldı"; }
+          // ⚠️ "değişmedi" 75 dönemde çıkıyor — seyrek değil. Simgesi olmalı ki
+          // boşluk "veri yok" diye okunmasın; açıklaması title'da.
+          else { yon = "–"; yonAd = "bir önceki döneme göre değişmedi"; }
+        }
         alanEl.textContent = "📐 " + alanYazi(d.ao) +
-          (d.av ? "  (+" + alanYazi(d.av).replace("≈ ", "") + " bağlı)" : "");
+          (d.av ? "  (+" + alanYazi(d.av).replace("≈ ", "") + " bağlı)" : "") +
+          (oran ? "  ·  zirvenin %" + oran : "") +
+          (yon ? "  " + yon : "");
+        alanEl.title = yonAd
+          ? yonAd + " (zirve: " + alanYazi(donemZirve).replace("≈ ", "") + ")"
+          : "";
       }
     }
     zoomUygula(d);
