@@ -168,3 +168,55 @@ Yardımcı kaynaklar: `data/bolgeler.js` (61 idari bölge) · `devletler.js`.
 olmaktan çıkar.**
 ⚠️ Tarihî bölge adı olmayan yerlerde modern ülke **yedek** olarak görünür;
 ama o zaman etiket **"bugünkü ülke"** diye yazılır, çıplak ülke adı olarak değil.
+
+---
+
+## 8. KULLANICI İSTEĞİ (31 Temmuz) — GRUPLU SÜZGEÇ + ZAMAN ÇİZGİSİ ZOOM'U
+
+> *"Kronoloji ayarlarında çoktan seçmeli olarak etiketleri seçip kronolojinin
+> detayını belirleyebileceğimiz ayarlar olsun. Bunu da ANA BAŞLIKLAR hâlinde
+> yapalım: mesela siyasî yapıda savaşlar, antlaşmalar, toprak ele geçirmeler
+> kutucukları işaretlenebilir ama tahta geçmeler, hükümdar ölümleri, iç
+> isyanlar kapalı olsun."*
+> *"Zaman çizgisini yüzyılları içine alan ya da zoom yaparak belli 50 yıl
+> arasını görüntüleyebileceğimiz bir yapıya getirebiliriz."*
+
+### 🟢 EN ÖNEMLİ NOKTA: BU KISIM BUGÜN YAPILABİLİR
+
+Coğrafya ekseni 327 adlık sözlüğü bekliyor (U4). **Ama konu/kategori süzgeci
+beklemiyor** — veri **zaten var ve bugün temizlendi**:
+```
+k:       25 değer · 984 maddenin %100'ünde  (bugün üç otorite eşitlendi)
+etiket:  20 değer · 984 maddenin %100'ünde  (4 yazım ikizi DENETÇİ'de)
+```
+⇒ **Süzgecin konu tarafı bugünkü veriyle çalışır.** Coğrafya sonra eklenir.
+Bu, özelliği ikiye bölüp yarısını hemen teslim etmeyi mümkün kılıyor.
+
+### GRUPLAMA ÖNERİSİ — editoryal, ARAYÜZ ile kullanıcı netleştirsin
+
+Kullanıcının örneği "siyasî yapı" başlığı altında alt kutular istiyor. Mevcut
+`k:` değerlerinin kullanım sayılarıyla bir öneri:
+```
+ASKERÎ        savas 151 · fetih 229 · kayip 143 · kusatma 9 · sefer 9
+SİYASÎ        siyaset 157 · antlasma 75 · diplomasi 13 · ittifak 1 · vassal 4
+HÂNEDAN       taht 12 · sadrazam 2 · darbe 9 · evlilik 2 · kurulus 2
+İÇ DÜZEN      ayaklanma 32 · isyan 12 · reform 6 · kanun 3 · idari 9
+KÜLTÜR-BİLİM  kultur 23 · bilim 20 · kesif 7
+İKTİSAT       ekonomi 10
+(DİĞER)       diger 45 — gerçek kategori değil, karışık torba
+```
+📌 Kullanıcının örneği tam bu ayrımı istiyor: *savaşlar/antlaşmalar/toprak açık,
+tahta geçmeler/hükümdar ölümleri/iç isyanlar kapalı* — yani **ASKERÎ + SİYASÎ
+açık, HÂNEDAN + İÇ DÜZEN kapalı.**
+⚠️ Gruplama **editoryal bir karar**; yukarıdaki yalnız öneri. Ve `etiket:`
+alanı `k:` ile çakışıyor (ikisinde de `savas`, `antlasma`, `siyaset`) — hangisinin
+süzgece dayanak olacağı ölçülmeli, ikisi birden karışıklık üretir.
+
+### ZAMAN ÇİZGİSİ ZOOM'U — ARAYÜZ
+
+Bugün tek bir sürgü 1281-1923'ü (642 yıl, 984 madde) taşıyor. İstenen: yüzyıl
+görünümü + belli bir aralığa (örn. 50 yıl) yakınlaşma.
+⚠️ **Ölçülmesi gereken:** madde yoğunluğu zamana **düzgün dağılmıyor.** Süzgeç
+açıldığında bazı yüzyıllar boşalacak, bazıları dolu kalacak. Zoom tasarımı bu
+dağılımı **göstermezse** kullanıcı boş bir aralığa yakınlaşıp "hata var"
+sanar. Çizgide **yoğunluk göstergesi** olmalı.
