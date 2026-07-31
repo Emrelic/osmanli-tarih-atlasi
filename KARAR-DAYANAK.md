@@ -85,9 +85,16 @@ indiriyor. ARAYÜZ ölçtü: Tahran 51,4D ve Meşhed 59,6D **içeride**, Buhara
 
 ### 🔴 ÇÜRÜMEYE ADAY — henüz çürümedi, tetiği yazılı
 
-| dosya | risk | tetik |
-|---|---|---|
-| `denetle_kapsama.py:38` | `BOLGE` **elle kopyalanmış** (yorumu itiraf ediyor: *"Burada KOPYALANMIŞTIR"*) | Kutu açıldığı **an** çürür: denetim eski pencereyle ölçüp *"kapsama tam"* der — **yayını doğrulayan araç doğruladığı şeyden geride kalır.** Çare `uret_altlik.py`'deki dört satırlık ayrıştırma deseni. |
+| dosya | risk | tetik | durum |
+|---|---|---|---|
+| `denetle_kapsama.py:38` | `BOLGE` **elle kopyalanmış** (yorumu itiraf ediyordu: *"Burada KOPYALANMIŞTIR"*) | Kutu açıldığı **an** çürüyecekti: denetim eski pencereyle ölçüp *"kapsama tam"* derdi — **yayını doğrulayan araç doğruladığı şeyden geride kalır.** | ✅ **KAPANDI** (`a6215ce`, DENETÇİ). Artık `uret_petek.py` kaynağından okuyor. **Sınandı:** kutu geçici olarak `box(-12, 1.5, 120, 72)` yapıldı → denetim kendiliğinden genişledi, geri alındı. Ayrıştırma başarısızsa `SystemExit` — eski değere sessizce düşmüyor. |
+
+📌 **Bu satırın kaydı, bölümün işe yaradığının kanıtı.** Bugün "bayat araç"
+ailesinin dört üyesi çıktı — bayat **rapor** (DENETÇİ'nin "temiz" raporu üç
+commit sonra yanlıştı), bayat **tavan** (2t 67'de bırakılsaydı kapanan borç
+görünmezdi), bayat **sözlük** (`VERI-YAPISI.md`'nin `y:`/`k:` listeleri),
+bayat **kopya** (bu). İlk üçü **olmuştu**, dördüncüsü **olacaktı.** Ayrı
+bölümde tutulmasının tek sebebi buydu ve önlendi.
 
 📌 Bu satır, çürümüş dayanak kaydından **farklı**: orada olmuş bir şey yazılı,
 burada olacağı bilinen bir şey. İkisini ayrı tutmanın sebebi, ikincisinin
