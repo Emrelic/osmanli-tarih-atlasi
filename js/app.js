@@ -538,20 +538,7 @@ function altlikGoster(grup, acik) {
     harita.setLayoutProperty("altlik", "visibility", acik ? "none" : "visible");
 }
 
-// 🔴 KURULUM `load`'A BAĞLI OLAMAZ — mimarî düzeltme (koordinatör onayladı).
-// MapLibre'de `load`, stilin VE kaynaklarının hazır olmasını bekler. Bizim
-// stilimizde bir dış raster var: `server.arcgisonline.com` (Esri). Bugün hızlı
-// ve `load` ateşliyor — ÖLÇÜLDÜ, yani bu bir hata raporu değil. Ama:
-//   · Esri yavaşladığı, engellendiği ya da kullanıcı çevrimdışı olduğu gün
-//     atlas HİÇBİR sınır ve etiket çizmez — ve hata da vermez.
-//   · `PLAN-KATMANLAR` kararı Esri'yi "altıncı seçenek, varsayılan KAPALI"
-//     yaptı. Kapatılabilen bir katman açılışın ön şartı olamaz.
-// ⇒ Kurulum artık stil hazır olur olmaz koşuyor; raster beklenmiyor.
-// `styledata` birden çok kez ateşleyebildiği için tek seferlik kilit var.
-var kurulumYapildi = false;
-function haritaKurulum() {
-  if (kurulumYapildi) return;
-  kurulumYapildi = true;
+harita.on("load", function () {
   altlikKur();
 
   // Yabancı devletler: Osmanlı katmanlarının ALTINA çizilir
@@ -873,14 +860,6 @@ function haritaKurulum() {
   window.zoomEsigi = zoomEsigi;
   zoomSinifi();
   guncelle();
-}
-// İki tetikleyici, ilki hangisi olursa: `load` normal yol, `styledata` ise
-// raster asılı kaldığında devreye giren yol. `isStyleLoaded()` şartı önemli —
-// `styledata` stil daha tamamlanmadan da ateşleyebiliyor ve o an `addLayer`
-// çağırmak hata verirdi.
-harita.on("load", haritaKurulum);
-harita.on("styledata", function () {
-  if (harita.isStyleLoaded()) haritaKurulum();
 });
 
 function bosVeri() { return { type: "FeatureCollection", features: [] }; }
@@ -1246,22 +1225,10 @@ function sehirGuncelle(t) {
   for (var ki = 0; ki < yerlesenSehir.length; ki++) {
     kutular.push(yerlesenSehir[ki].ic.getBoundingClientRect());
   }
-  // 🔬 TEŞHİS KAYDI — dört hipotez çürüdükten sonra kondu.
-  // Ölçülen çakışmalar KÜÇÜK değil BÜYÜK (Söğüt~Karacahisar 76 px, kutular 89
-  // ve 95 genişliğinde) — yani "kutu birkaç piksel dar" açıklaması elendi; bu
-  // çiftler HİÇ KARŞILAŞTIRILMAMIŞ gibi duruyor. Elemenin ne gördüğünü
-  // dışarıdan okumanın yolu yoktu; artık var. Ölçüm bitince kaldırılacak.
-  var teshis = { aday: yerlesenSehir.length, sifirKutu: [], elenen: [], tutulan: [] };
   var tutulan = [];
   for (var ci = 0; ci < yerlesenSehir.length; ci++) {
     var r = kutular[ci];
-    // ⚠️ SIFIR KUTU SESSİZ BİR DELİK: `continue` eden işaret ne eleniyor ne de
-    // sonrakileri engelliyor. Üç işaretin birden buraya düşmesi, gözlenen
-    // tabloyu (dördü de Söğüt/Domaniç/Karacahisar) BİREBİR üretir.
-    if (!r || !r.width) {
-      teshis.sifirKutu.push(yerlesenSehir[ci].s.ad);
-      continue;
-    }
+    if (!r || !r.width) continue;            // henüz yerleşmemiş
     var carpti = false;
     for (var ti = 0; ti < tutulan.length; ti++) {
       var o = tutulan[ti];
@@ -1271,14 +1238,10 @@ function sehirGuncelle(t) {
     if (carpti) {
       var mm = yerlesenSehir[ci];
       if (mm.ekli) { mm.mk.remove(); mm.ekli = false; }
-      teshis.elenen.push(mm.s.ad);
     } else {
       tutulan.push(r);
-      teshis.tutulan.push(yerlesenSehir[ci].s.ad);
     }
   }
-  // Elemenin GÖRDÜĞÜ hâl, dışarıdan okunabilsin diye. Ölçüm bitince kalkacak.
-  window.SON_ELEME = teshis;
 }
 
 // ---------- Savaş yerleri (⚔) ve sefer okları ----------

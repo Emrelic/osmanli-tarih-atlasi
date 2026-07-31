@@ -198,14 +198,56 @@ module.exports = { sahip };
 
 ---
 
+## 3. `sahip2.js` — `sahip.js`'in delik-duyarlı hâli 🔧
+
+`sahip.js` bütün parçaların halkalarını **tek düz listeye** indirip
+`.some(h => ic(h, …))` kullanıyordu. Bir parçanın ilk halkası dış sınır,
+kalanları **deliktir**; `.some()` deliği görmez ve **enklavı "içeride"
+gösterir.** Enklav sorusunda tam da bu yanıltır.
+
+Düzeltme: tek-çift kuralı **parça bazında** işletilir — dış halkada içeride,
+delikte dışarıda. Ayrıca örtüşmeyi görebilmek için **bütün** eşleşen gövdeler
+döndürülür (`OSMANLI + bizans` gibi), ilki değil.
+
+```bash
+node sahip2.js <gun> [<gun> ...]        # noktalar NOKTA ortam degiskeninde
+NOKTA='{"Bursa":[29.061,40.188]}' node sahip2.js 1303-06-01 1325-06-01
+```
+
+```js
+// Bir parçanın ilk halkası dış sınır, kalanları deliktir.
+const halkalar = p => !p || !p.length ? []
+  : (typeof p[0][0] === 'number') ? [p] : p.filter(h => h && h.length);
+// parça bazında tek-çift: dış halkada içeride, delikte ise DIŞARIDA
+const icindeParca = (p, x, y) =>
+  halkalar(p).reduce((s, h) => s !== ic(h, x, y), false);
+
+function sahip(lon, lat, gun) {
+  const bul = [];
+  for (const ad of ['OSMANLI', 'TABI'])
+    if (parcalar(gun, ad).some(p => icindeParca(p, lon, lat))) bul.push(ad);
+  for (const dev of DH)
+    if (parcalar(gun, dev.id).some(p => icindeParca(p, lon, lat))) bul.push(dev.id);
+  return bul.length ? bul.join(' + ') : '—(bos)';   // ÖRTÜŞME görünür kalsın
+}
+```
+
+⚠️ Dönen değerde **birden fazla gövde varsa bu bir kusurdur**, aracın hatası
+değil: `donemler.js` ile `devletler_harita.js` bir bölümleme oluşturmuyor.
+Ölçüm ve sonuçları `OTURUM-13-DOGU-ANADOLU.md` §3'te.
+
+---
+
 ## Bilinen sınırları
 
 - `ortakkenar.js` köşeleri `toFixed(4)` ile anahtarlıyor (≈11 m). İki gövdenin
   ortak kenarı ancak **birebir aynı köşe çiftini** paylaşıyorsa sayılır; motor
   aynı sınırı iki gövdede farklı yuvarlarsa kenar görünmez. Bugüne kadar
   rastlanmadı, ama sıfır çıkan bir ölçümde ilk buraya bakılmalı.
-- `sahip.js` delik (iç halka) ayrımı yapmaz — çok halkalı bir parçanın deliği
-  de "içeride" sayılır. Göl/enklav sorgusunda yanıltır; kara noktalarında değil.
+- ~~`sahip.js` delik (iç halka) ayrımı yapmaz~~ → 🔧 **DÜZELTİLDİ**, bkz. §3.
+  Kusur, ona dokunan ilk soruda (Gemlik-Armutlu enklavı) ortaya çıktı.
+  📌 Ders: bir aracın bilinen sınırını **yazmak yetmiyor**; o sınıra dokunan
+  ilk soruda aracı düzeltmek gerekiyor. Not, kullanılmadan önce okunmalı.
 - İkisi de 12 + 14 MB'lık üretilmiş dosyaları belleğe alır; her koşu birkaç
   saniye sürer. Toplu tarama yazılacaksa `require` edip döngü kurulmalı, süreç
   tekrar tekrar başlatılmamalı.

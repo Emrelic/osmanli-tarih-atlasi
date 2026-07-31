@@ -938,3 +938,76 @@ doğrulamaz"* uyarısının üçüncü örneği — bu sefer birim de kutu da fa
 **Merkezin yedi nokta önerisi güçleniyor** (o tek dikmeyi çok sayıda dikmeye
 böler) ama yeterli olduğu **ölçülmedi**; kaç kenara böleceği ancak üretimden
 sonra bilinir. Sayı vermiyorum.
+
+---
+
+## 2026-07-31 (6. tur) — Doğu Anadolu: `m:` denetimi, seyreklik, Bursa örtüşmesi
+
+Koordinatörün üç işi. Tam rapor: **`OTURUM-13-DOGU-ANADOLU.md`**.
+
+**İŞ 1 — öncül çürüdü, iş yok.** "11 eksik `m:`" dendi; ölçüldü, o 11'in
+**sekizi `k:2`, üçü `k:0`** — hepsi koordinatörün kendi muafiyetine giriyor.
+Bütün veride (967 kayıt) `k:3`/`k:4` olup `m:` boş olan **0**, kırık referans
+**0**. `k:3`→172/172, `k:4`→399/399 dolu. Alan **%100 tam.**
+Bir `k:3` hedefe bağlanan 8 kayıt da hata değil: `uret_petek.py:277` çok hoplu
+zinciri **tasarım gereği** destekliyor. Tek iş `VERI-YAPISI.md`'de bir cümle.
+
+**İŞ 2 — sekiz kaynaklı öneri.** Ahlat · Hasankeyf · Silvan (Meyyâfârikîn) ·
+Cizre · Siirt · Nusaybin · Bayburt · Muş — sekizinin de TDV slug'ı `<title>`
+ile doğrulandı, 1288 sahibi ve zinciri yazıldı. `kur:` hiçbirinde gerekmiyor.
+Üçü **kaynaksızlıktan askıya alındı**: Malazgirt (yalnız savaş maddesi var),
+Adilcevaz, Ayas (`ayas` → A'YÂS, Kureyş kolu). Sis (Kozan) koşullu — müstakil
+maddesi yok, `besni` içinden dolaylı.
+
+⚠️ **Sekiz nokta 8 katlık farkı kapatmaz:** 9.596 → 8.148 km²/petek, yani %15.
+Orta Anadolu düzeyi ~27 nokta daha ister ve TDV aday havuzu bu bölgede sığ
+çıktı. Kapsam kararı merkeze bırakıldı.
+
+🔵 **Bayburt 1288'de Selçuklu'dur** — TDV: *"1291'de burada II. Gıyâseddin
+Mesud adına para basılmasından anlaşılmaktadır"*. `OTURUM-13-SELCUKLU.md`'nin
+Selçuklu'yu 1308'e kadar yaşatan kararının **bağımsız doğrulaması.**
+
+🔵 **`bitlis` slug'ı doğrulandı** — `ANADOLU.md §17`'nin tek açık borcu kapandı.
+TDV: Ulama Paşa **1534**'te kesin olarak kattı; veride `1515-09-15`.
+§16 A'daki 19 yıllık fark **teyit edildi.**
+
+### 🔴 HATALAR 17 Gemlik-Armutlu: enklav değil, ÖRTÜŞME
+
+Enklav testi (parça sayımı + delik-duyarlı nokta-içinde-poligon): Gemlik,
+Armutlu, Yalova ve ana gövde **hep aynı parçada**; 1325'te ana parçanın tek
+halkası var, **delik bile yok.** Osmanlı aradaki toprağı almış.
+
+Ama daha büyük bir kusur çıktı: aynı koordinat **hem Osmanlı hem `bizans`**
+gövdesinin içinde. `js/app.js`'te `devlet-dolgu` 559., `osmanli-dolgu` 601.
+satırda — sonraki üstte çizilir, yani **örtüşen yerde Osmanlı görünür.**
+
+> **Bursa 1303'ten Osmanlı boyanıyor; gerçek fetih 1326-04-06 — 23 yıl.**
+> **İznik 1324'ten görünüyor; gerçek fetih 1331-03-02 — 7 yıl.**
+
+Tetik 1303-01-01: Kestel · Dimbos · Kite · Ulubat birden Osmanlı oluyor,
+peteklerinin birleşimi Bursa'yı çevreliyor ve **37.000 km²'lik gövde 88 köşeyle
+çizildiği için** şehrin hücresi yumuşatmada kayboluyor.
+
+**Tek şehir değil — ölçüldü:** 1325'te 783 noktanın **23'ü** iki gövdenin
+içinde, 1500'de 14, 1700'de 1. İki kümede toplanıyor: (a) 1320'ler Bitinyası,
+(b) **`iran` + doğudaki her devlet** (Tebriz, Bağdat, Musul, Kerkük 1325'te
+`iran + ilhanli`, 1500'de `iran + akkoyunlu`) — `CLAUDE.md §3.5`'in "İran
+hayaleti"nin **geometrik ayak izi.**
+
+🔴 **Üç değişmezin hiçbiri örtüşmeyi ölçmüyor.** Değişmez 1 sahipsizliği sorar,
+örtüşmeyi değil. Yedinci denetim olarak eklenmeli → Oturum 6.
+Ve eğilim erken tarihlerde kötüleşiyor: **epok 1243'e inerse bu kusur büyür.**
+
+### Araç — kendi notumu kullanmadan önce düzelttim
+
+`OLCUM-ARACLARI.md`'de `sahip.js` için *"delik ayrımı yapmaz"* yazmıştım; bu
+turun sorusu tam olarak bir delik sorusuydu. `sahip2.js` yazıldı (tek-çift
+kuralı **parça bazında**, ve **bütün** eşleşen gövdeler döner ki örtüşme
+görünsün). Araç dosyası güncellendi.
+📌 Ders: bir aracın bilinen sınırını yazmak yetmiyor; o sınıra dokunan ilk
+soruda aracı **düzeltmek** gerekiyor.
+
+⚠️ **Ölü-slug tuzağının üçüncü biçimi:** `sis` → ŞÎS (Hz. Âdem'in oğlu),
+`ayas` → A'YÂS (Kureyş kolu). Sayfa açılıyor, `<title>` "Arama" da değil, ama
+madde **başka bir şeyi** anlatıyor. `<title>` kontrolü bunu yakalamaz —
+**maddenin konusu da okunmalı.**
