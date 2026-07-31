@@ -750,3 +750,67 @@ grubunda, `birecik` Mercidâbık sonrasında). **Müstakil yer maddesi esas
 alındı.**
 
 §15.2 ve §16 C'ye geçersizlik bandı konuldu; okuyan eski iddiaya dayanmasın.
+
+---
+
+## 2026-07-31 (3. tur) — Kalibrasyon çelişkisi çözüldü
+
+Merkezin 2. maddesi. Çelişki **yöntem farkı değil, birimin yanlış
+adlandırılmasıydı**: ölçülen birim `köşe/1000 km` değil **`kenar/1000 km`**.
+Ben etiketi okuyup köşe saydım, Oturum 16 kenar sayıyor.
+
+**Kanıt Oturum 16'nın kendi ham satırlarında duruyor:**
+
+| Kaynak | Ham veri | Kenar ÷ km × 1000 | Yazılan |
+|---|---|---|---|
+| `OTURUM-16-ILERLEME.md:363` | 1.578 km, 147 kenar | 93,16 | 93,1 |
+| `OTURUM-16-ILERLEME.md:364` | 1.789 km, 152 kenar | 84,96 | 84,9 |
+| `OGRENILENLER §22` (Kırım) | 153,6 km, 5 kenar | 32,55 | 32,5 |
+
+Kenar birimiyle yeniden ölçüldü — kutu `32,4 · 44,3 · 36,7 · 46,3`,
+`OSMANLI ↔ TABI`, **1600-06-15**: 154,7 km / **5 kenar** = **32,3**.
+Oturum 16: 153,6 km / 5 kenar = 32,5. **Fark %0,6 — çapa tutuyor.**
+
+🔴 **Neden Boğdan tutup Kırım tutmadı — ve bu neden önemli:** `n` kenarlı bir
+sınırın köşe sayısı tek zincirde `n+1`, tamamen ayrık parçalarda `2n`'dir.
+Boğdan 147 kenar tek zincir → fark %0,7, **tuttu.** Kırım 5 kenar ve büyük
+ölçüde ayrık → fark %80, **tutmadı.** Yani tanım hatası **sağlıklı sınırda
+görünmez, bozuk sınırda iki katına çıkar** — onu yakalamak için kurulan ölçümde
+saklanıyor ve hep "sandığından iyi" diyor. **Bir çapanın tutması yöntemin
+doğrulandığı anlamına gelmiyor; Boğdan'ın tutması beni yanılttı.**
+
+**Nokta sayısı 3 mü 4 mü:** ikisi de doğru, farklı şey sayıyoruz. Yarımadada
+üç nokta var — Kefe `d:` · Bahçesaray `v:` · Kerç `d:`. Dördüncü **Taman**
+(45,203 / 36,717), kutumun doğu kenarından **0,017°** dışarıda ve Kerç
+Boğazı'nın karşı yakası (Kuban tarafı). Sayı tartışması bitti.
+📌 Asıl mesele: üç noktanın **ikisi doğrudan**. Merkezin %39/%61 oranı buradan
+çıkıyor; yedi nokta önerisi (`v:` iç bozkır 4 · `d:` güney kıyı 3) **sağlamdır**.
+
+**§15.4 düzeltildi ve kusur büyüdü:** 1515-10-01 OSMANLI↔memluk, doğru birimle
+158,9 km / **2 kenar** = **12,6** — Libya çölünün (18,1) bile altında. Önceki
+25,2 köşe sayımıydı. Karşılaştırma için üç sağlıklı sınır ölçüldü: Osm↔Venedik
+136,6 · Osm↔Tuna 95,7 · Osm↔Avusturya 81,5.
+⚠️ **Bant 115-118 bir eşik değil, bir merkez** — sağlıklı sınırlar 80-140
+arasına dağılıyor. Mertebe olarak kullanılmalı.
+
+`OGRENILENLER §22`'ye önerilen ek `OTURUM-13-ANADOLU.md` **§21.6**'da: birim adı
+düzeltilsin, her çapaya **kutu · gün · gövde çifti** yazılsın. Reçete bugün
+ölçüyü söylüyor, kalibrasyonu söylemiyor. 🔒 O dosya kök belge, Oturum 0'ın —
+yazılmadı, önerildi.
+
+⚠️ **Boğdan çapası hâlâ yarım:** Oturum 16 orada "iç sınır" diyor, yani gövdenin
+kıyı olmayan çevresi — **iki gövdenin ortak kenarı değil.** Boğdan gibi karayla
+çevrili bir gövdede ikisi yakın çıkar, Kırım'da (yarımada) açılır. §22 zaten
+"toplam çevre yanıltır" diye uyarıyor. **Ortak-kenar tanımıyla yeniden
+ölçülmeli**, yoksa çapa listesinde iki farklı ölçüt yan yana durur.
+
+Ölçüm araçları (`ortakkenar.js` · `sahip.js`) kaybolmasın diye
+`oturumlar/OTURUM-13-OLCUM-ARACLARI.md`'ye kaynak hâlinde alındı; kod
+birebir doğrulandı. 🔒 Kalıcı yerleri `arac/`dır ve orası Oturum 6'nın.
+`ortakkenar.js`'in çıktı etiketi **bilerek düzeltilmedi** — raporlarda
+alıntılandı, sessizce değişirse eski alıntılar okunamaz olur.
+
+⚠️ **Kendi hatam, kayda geçsin:** iki kez `py -c "…"` içine backtick'li Türkçe
+metin gömdüm; Git Bash backtick'i komut ikamesi sandı, banner metinleri kırpıldı
+ve bir koşu iki dakika asılı kaldı. `CLAUDE.md §11` bunu zaten yazıyor —
+**betiği dosyaya yaz, sonra çalıştır.** Kırpılan iki satır Edit ile onarıldı.

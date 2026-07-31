@@ -642,6 +642,8 @@ ters görünüyor.
 
 ### 15.4 Ortak kenar ölçümü — sınır çözünürlüğü Libya sınıfında
 
+> 🔴 **BİRİM YANLIŞ — `BÖLÜM IV §21.5`'teki tablo esastır.** Aşağıdaki sayılar KÖŞE sayıyor; doğru birim KENAR. Sonuç değişmiyor, **sertleşiyor**: 25,2 aslında **12,6**.
+
 `OGRENILENLER §22` reçetesi, Güneydoğu Anadolu kutusu `36 , 36.5 , 42 , 39.5`:
 
 | Gün | Gövdeler | Ortak kenar | Köşe | **köşe/1000 km** |
@@ -658,6 +660,8 @@ başına yetmez; Siverek-Ergani-Çermik üçgeni ile Malatya-Adıyaman arası ay
 ayrı nokta ister.
 
 ### 15.5 🔴 Reçete kalibrasyonu — merkeze soru
+
+> ✅ **ÇÖZÜLDÜ — `BÖLÜM IV §21`.** Çelişki yöntem farkı değil, birimin yanlış adlandırılmasıydı. Kenar sayısıyla ölçüldüğünde Kırım çapası %0,6 farkla tutuyor.
 
 Kendi uygulamamla (`scratchpad/ortakkenar.js`) merkezin verdiği çapaları
 tutturamıyorum:
@@ -945,3 +949,149 @@ yazılır. `1507-05-24` veride hâlihazırda duran ve 18 kayıt taşıyan bir
 kırılmadır; **hangisinde birleşileceği entegrasyonun kararıdır** ama iki tarih
 yan yana kalmamalı. Yeni üç kayıt komşularla hizalı olsun diye `1507-01-01`
 aldı.
+
+---
+
+# BÖLÜM IV — KALİBRASYON (merkezin 2. maddesi)
+
+## 21. Çelişki çözüldü: birim yanlış adlandırılmış
+
+**Ölçülen birim `köşe/1000 km` değil, `kenar/1000 km`dir.** İki oturum aynı
+şeyi ölçüyordu; ben etiketi okuyup **köşe** saydım, Oturum 16 **kenar** sayıyor.
+Yöntem farkı yok, tanım farkı var.
+
+### 21.1 Kanıt — Oturum 16'nın üç sayısı da kenar sayısıyla yeniden üretiliyor
+
+Ham satırlar `OTURUM-16-ILERLEME.md:363-365` ve `OGRENILENLER.md §22`'de duruyor;
+bölme işlemi orada zaten yazılı:
+
+| Kaynak | Ham veri | Kenar ÷ km × 1000 | Yazılan sayı |
+|---|---|---|---|
+| `OTURUM-16-ILERLEME.md:363` | Boğdan 1500 — 1.578 km, **147 kenar** | 147/1578 = **93,16** | 93,1 ✔ |
+| `OTURUM-16-ILERLEME.md:364` | Boğdan 1600 — 1.789 km, **152 kenar** | 152/1789 = **84,96** | 84,9 ✔ |
+| `OGRENILENLER.md §22` | Kırım — 153,6 km, **5 kenar** | 5/153,6 = **32,55** | 32,5 ✔ |
+
+Üçünde de bölünen **kenar sayısıdır.** Etiket üçünde de "köşe/1000 km" yazıyor.
+
+### 21.2 Benim 62,8'im köşe sayıyordu — ve fark tam da patolojik durumda büyüyor
+
+`n` kenarlı bir ortak sınırın köşe sayısı, sınırın **parçalı olup olmamasına**
+bağlıdır:
+
+| Sınırın şekli | Kenar | Köşe | Köşe/kenar |
+|---|---|---|---|
+| Tek sürekli zincir | n | n+1 | ≈ 1,0 |
+| Tamamen ayrık parçalar | n | 2n | 2,0 |
+
+- **Boğdan** 147 kenar, neredeyse tek zincir → 148 köşe. Fark **%0,7**.
+  *Bu yüzden Boğdan tuttu* (80,6 ≈ 84,9-93,1).
+- **Kırım** 5 kenar, büyük ölçüde ayrık → 9 köşe. Fark **%80**.
+  *Bu yüzden Kırım tutmadı* (62,8 ≈ 2 × 32,5).
+
+> 🔴 **Kayda geçsin:** bu tanım hatası **sağlıklı sınırda görünmez, bozuk
+> sınırda iki katına çıkar.** Yani tam da onu yakalamak için kurulan ölçümde
+> saklanıyor: "sorun var mı" sorusuna hep "sandığından az" diye cevap veriyor.
+> Boğdan'ın tutması beni yanılttı — bir çapanın tutması yöntemin doğrulandığı
+> anlamına gelmiyor.
+
+### 21.3 Yeniden ölçüm — kenar sayısıyla çakışıyor
+
+`scratchpad/ortakkenar.js`, kutu `32,4 · 44,3 · 36,7 · 46,3`, gövdeler
+`OSMANLI ↔ TABI`:
+
+| Gün | Ortak kenar | Kenar | **kenar/1000 km** | Köşe (benim eski sayım) |
+|---|---|---|---|---|
+| 1500-06-15 | 134,5 km | 4 | **29,7** | 6 → 44,6 |
+| **1600-06-15** | **154,7 km** | **5** | **32,3** | 9 → 58,2 |
+| 1700-06-15 | 152,2 km | 4 | **26,3** | 8 → 52,5 |
+| 1750-06-15 | 152,2 km | 4 | **26,3** | 8 → 52,5 |
+
+**1600-06-15 satırı Oturum 16'nın çapasıdır**: onun 153,6 km / 5 kenar / 32,5'ine
+karşı benim 154,7 km / 5 kenar / **32,3**'üm. Fark **%0,6** — kutu kenarının
+kıl payı farkı. ✅ **Çapa tutuyor, çelişki yok.**
+
+### 21.4 Nokta sayısı 3 mü 4 mü — dördüncüsü **Taman**
+
+Yarımadanın kendisinde (`32,4-36,7 D · 44,3-46,3 K`) **üç** nokta var:
+
+| Nokta | Konum | 1600'de |
+|---|---|---|
+| Kefe | 45,032 / 35,382 | `d:` **doğrudan** |
+| Bahçesaray | 44,753 / 33,861 | `v:` Kırım Hanlığı |
+| Kerç | 45,356 / 36,467 | `d:` **doğrudan** |
+
+Dördüncüsü **Taman** (45,203 / **36,717**) — kutumun doğu kenarından **0,017°**
+dışarıda. Taman, Kerç Boğazı'nın **karşı yakasıdır** (Kuban tarafı), yarımadanın
+kendisi değil; ama doğu ucundaki peteği o sınırlıyor, o yüzden Oturum 16'nın
+kutusuna girmiş. **İkisi de doğru sayıyor, farklı şeyi sayıyorlar.** Sayı
+tartışması bitti.
+
+📌 **Asıl mesele bu üçlünün dağılımıdır:** üç noktanın **ikisi `d:`**, biri `v:`.
+Merkezin bildirdiği %39/%61 doğrudan/tâbi oranı doğrudan buradan çıkıyor —
+`MIMARI §2`, tâbi bozkırı iki doğrudan peteğe paylaştırıyor. Merkezin yedi nokta
+önerisi (`v:` Karasubazar · Akmescit · Gözleve · Or Kapı — `d:` Sudak ·
+Balaklava · İnkirman) oranı **5 `v:` / 5 `d:`** yapar ve `v:` olanlar iç bozkıra,
+`d:` olanlar dar güney kıyısına düştüğü için **alan oranı** tarihî %15-20'ye
+yaklaşır. **Öneri sağlamdır, uygulanabilir.**
+
+### 21.5 §15.4 düzeltilmiş — kusur küçülmedi, **BÜYÜDÜ**
+
+Güneydoğu Anadolu kutusu `36 · 36,5 · 42 · 39,5`, doğru birimle:
+
+| Gün | Gövdeler | km | Kenar | **kenar/1000 km** | §15.4'te yazdığım (köşe) |
+|---|---|---|---|---|---|
+| 1515-10-01 | OSMANLI ↔ memluk | 158,9 | **2** | **12,6** | 25,2 |
+| 1516-06-15 | OSMANLI ↔ memluk | 303,1 | 9 | **29,7** | 52,8 |
+| 1515-10-01 | OSMANLI ↔ safevi | 280,1 | 12 | **42,8** | 67,8 |
+
+**12,6 — Libya çölünün (18,1) bile altında.** §15.4'ün sonucu değişmiyor, sertleşiyor:
+159 kilometrelik sınır **2 kenarla** çiziliyor. §20.2'deki üç nokta önerisi bu
+sayıyı hedefliyor.
+
+Karşılaştırma için üç sağlıklı sınır ölçtüm (aynı araç, kenar birimiyle):
+
+| Gün | Gövdeler | kenar/1000 km |
+|---|---|---|
+| 1500-06-15 | OSMANLI ↔ venedik | 136,6 |
+| 1600-06-15 | OSMANLI ↔ TABI (Tuna) | 95,7 |
+| 1600-06-15 | OSMANLI ↔ avusturya | 81,5 |
+
+⚠️ Bant 115-118 **tek bir sayı değil, bir merkez**: sağlıklı sınırlar 80-140
+arasına dağılıyor. "115-118" bir eşik gibi kullanılmamalı; **büyüklük mertebesi**
+olarak kullanılmalı — 12-33 aralığı ile 80-140 aralığı arasındaki fark tartışma
+götürmez, 95 ile 118 arasındaki fark götürür.
+
+### 21.6 `OGRENILENLER §22`'ye önerilen ek
+
+🔒 `OGRENILENLER.md` kök belgedir, **Oturum 0'ın dosyası** — buraya öneri olarak
+yazıldı, oraya yazılmadı.
+
+Reçete bugün **ölçüyü söylüyor ama kalibrasyonu söylemiyor.** Eksik olan üç şey
+her çapa için yazılmalı: **kutu · gün · gövde çifti.** Ve birim adı düzeltilmeli.
+
+```
+BİRİM: kenar / 1000 km   (KÖŞE DEĞİL — köşe sayısı ayrık sınırlarda
+                          kenarın iki katına çıkar ve kusuru gizler)
+
+çapa                gövde çifti        kutu                        gün
+-------------------------------------------------------------------------
+Boğdan       93,1   TABI iç sınırı     (Boğdan gövdesi)            1500-06-15
+Boğdan       84,9   TABI iç sınırı     (Boğdan gövdesi)            1600-06-15
+Kırım        32,5   OSMANLI ↔ TABI     32,4 44,3 36,7 46,3         1600-06-15
+Libya        18,1   (Oturum 16 — kutu ve gün kayıtlı değil, tamamlanmalı)
+Osm↔Venedik 136,6   OSMANLI ↔ venedik  16 38 26 46                 1500-06-15
+Osm↔Tuna     95,7   OSMANLI ↔ TABI     24 44 30 48,5               1600-06-15
+Osm↔Avust.   81,5   OSMANLI ↔ avusturya 15 44 22 49                1600-06-15
+GD Anadolu   12,6   OSMANLI ↔ memluk   36 36,5 42 39,5             1515-10-01
+```
+
+⚠️ Boğdan çapasının **kutusu hâlâ eksik** ve tanımı da farklı: Oturum 16 orada
+"iç sınır" diyor, yani gövdenin kıyı olmayan çevresi — iki gövdenin ortak kenarı
+değil. İkisi Boğdan gibi kara ile çevrili bir gövdede birbirine yakın çıkar ama
+**aynı şey değildir.** Kırım'da (yarımada) fark açılır; §22 zaten bunu "toplam
+çevre yanıltır" diye uyarıyor. **Boğdan çapası ortak-kenar tanımıyla yeniden
+ölçülmeli**, yoksa listede iki farklı ölçüt yan yana durur.
+
+Ölçüm aracı bu turda `scratchpad/`de kaldı. Kalıcı olması isteniyorsa yeri
+`arac/`dır ve sahibi Oturum 6'dır (`denetle.py`'nin yanına, yedinci kontrol
+olarak — "hangi sınır cetvelle çizilmiş" sorusu artık otomatik sorulabilir).
