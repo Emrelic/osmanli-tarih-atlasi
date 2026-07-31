@@ -148,7 +148,17 @@ BUYUK = {"Danube","Duna","Dunav","Sava","Drava","Tisza","Tisa","Morava","Dnieste
          "Porsuk","Aksu","Kopru","Koprucay","Dalaman","Esen","Xanthos",
          "Goksu","Calycadnus","Coruh","Kelkit","Devrez","Filyos","Yenice",
          "Buyuk Zap","Great Zab","Kucuk Zab","Little Zab","Habur","Khabur",
-         "Balikh","Asi","Berdan","Tarsus","Manavgat","Bartin","Gonen","Granicus"}
+         "Balikh","Asi","Berdan","Tarsus","Manavgat","Bartin","Gonen","Granicus",
+         # --- YEREL YAZIMLAR (COĞRAFYA'nın bulgusu, mekanizması ölçülerek
+         # düzeltildi). Natural Earth aynı nehri parça parça FARKLI ADLA
+         # kaydediyor ve parçaların rivernum'ı bile ayrı:
+         #     name='Dicle'  rivernum=120        name='Tigris' rivernum=135
+         # Motor "Tigris" parçasını yaslıyordu, "Dicle" parçasını yaslamıyordu.
+         # ⚠️ COĞRAFYA bunu "name_alt okunmuyor" diye teşhis etmişti; ölçtüm,
+         # İKİ KAYDIN DA name_alt ALANI BOŞ — o yama bu vakayı çözmezdi.
+         # Sebep listenin kendisiydi: Tigris vardı, Dicle yoktu. Aynı sınıfta
+         # üç isim daha (karşılıkları listede olduğu hâlde yerel yazımı yok).
+         "Dicle","Donau","Tuna","Evros","Drau"}
 def _ad_sadelestir(s):
     """Nehir adlarını karşılaştırılabilir hâle getirir. Natural Earth dosyasındaki
     Türkçe adlar bozuk kodlanmış ('Byk Menderes', 'Kiz?lirmak'); harfi harfine
@@ -168,8 +178,16 @@ try:
     _rv = json.load(open(os.path.join(BASEMAPS, "ne_10m_rivers.geojson"), encoding="utf-8"))
     for f in _rv["features"]:
         pr = f["properties"]
-        _ad = pr.get("name") or pr.get("name_en") or ""
-        if _ad_sadelestir(_ad) not in BUYUK_SADE: continue
+        # ⚠️ `name_alt` DE OKUNUR — ikinci ve AYRI bir kaçak yolu. Natural Earth
+        # bazı parçaları yerel adla kaydedip asıl adı name_alt'a koyuyor
+        # (Mur → name_alt="Drava"). Yukarıdaki yerel-yazım eklemeleri bu vakayı
+        # ÇÖZMEZ, çünkü orada eşleşen ad name alanında değil.
+        # Tersi de doğru: Dicle'nin name_alt'ı BOŞ, yani bu satır de onu
+        # kurtarmaz. İki mekanizma birbirinin yerine geçmez, ikisi de gerekli.
+        _adlar = [pr.get("name"), pr.get("name_en"), pr.get("name_alt")]
+        _ad = next((a for a in _adlar
+                    if a and _ad_sadelestir(a) in BUYUK_SADE), None)
+        if _ad is None: continue
         g = shape(f["geometry"])
         if g.envelope.intersects(BOLGE):
             NEHIRLER.append(g.intersection(BOLGE)); _bulunan.add(_ad)
@@ -1282,6 +1300,21 @@ js += "window.SERBEST_U = " + json.dumps(SRB_U, separators=(",",":")) + ";\n"
 js += "window.PETEKLER = " + json.dumps(petekler, separators=(",",":")) + ";\n"
 js += "window.PARCALAR = " + json.dumps(OSM_HAVUZ, separators=(",",":")) + ";\n"
 js += "window.DONEMLER = " + json.dumps(donemler, separators=(",",":")) + ";\n"
+# ⚠️ ÜRETİM İZİ — çıktının kendi künyesi. İki ayrı soruyu cevaplar:
+#   girdi: bu harita hangi VERİDEN üretildi → "yayın bayat mı"
+#   motor: hangi KODDAN üretildi            → "düzeltme bu çıktıda var mı"
+# İkisi de 31 Temmuz'da SORULDU ve dosyadan cevaplanamadı. Yayın girdiden dokuz
+# nokta geride kalmıştı ve sekiz denetimin hiçbiri fark etmemişti — hepsi
+# çıktının kendi İÇ tutarlılığına bakıyor, hiçbiri GÜNCEL olup olmadığına.
+# ⚠️ Ad kümesi karşılaştırması bu işi göremez: yerleşim TAŞINIRSA ya da
+# `d:`/`v:`/`s:` değişirse ad kümesi aynı kalır, ölçüt "temiz" der, harita
+# bayattır. sha256 üçünü birden yakalar.
+# 📌 `_GIRDI_IZI` koşunun BAŞINDA alınmıştır (motorun okuduğu hâl), sona değil;
+# aksi hâlde koşu ortasında değişen bir girdi kendi izini damgalar ve damga
+# yalanı doğrular.
+js += ("window.URETIM_IZI = "
+       + json.dumps({"girdi": _GIRDI_IZI, "motor": girdi.motor_izi()},
+                    separators=(",", ":"), sort_keys=True) + ";\n")
 girdi.izi_dogrula(_GIRDI_IZI, "data/donemler.js")
 open(CIKTI, "w", encoding="utf-8").write(js)
 

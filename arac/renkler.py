@@ -47,7 +47,23 @@ BOYALAR = {
     "akkoyunlu":  ("Akkoyunlular",           "#b5bcc9"),
     "safevi":     ("Safevî İran",            "#6b4a7d"),
     "gurcistan":  ("Gürcistan",              "#6b7da0"),
-    "macaristan": ("Macaristan",             "#4e7d46"),
+    # Kullanıcı şikâyeti (hatalar 15 md.5): "1541-1545 Macaristan'da üç yeşil
+    # leke, hangisi ne belli değil." Eski #4e7d46 yeşildi.
+    # ⚠️ VERİLEN ADRES YANLIŞTI, ölçüldü: çift `macaristan ↔ rusya` diye
+    # bildirilmişti (ham hex ΔE 9,1) ama ikisi tarih boyunca HİÇ SINIRDAŞ DEĞİL
+    # — bir sınırda karışmaları imkânsız. Ve 1541-45 Macaristan kutusunda
+    # sahnede yalnız OSMANLI (kırmızı), macaristan, avusturya var; rusya YOK.
+    # Gerçek en yakın SINIRDAŞ komşu: bulgaristan #7aa06a, bindirilmiş ΔE 4,2.
+    # (Ham hex iyimserdir; dosya başındaki kural gereği bindirilmiş ölçüldü.)
+    # Yeşil aileden çıkarıldı: en yakın komşu 4,2 → 14,1 (sirbistan), 3,4 kat.
+    # Ekrandaki gerçek çift olan avusturya ile de 13,4'e açıldı.
+    # 📌 İstenen ΔE ≥ 25 ULAŞILAMAZ: 30 aday hex denendi, 113 kimlikli paylaşımlı
+    # palette tavan ~14. Bu tek renk sorunu değil PALET sorunu — sahnedeki 111
+    # kimliğin 542 sınırdaş çiftinden 112'si ΔE 10'un ALTINDA (en kötüler
+    # sammar↔hicaz 0,6 · adal↔somali 2,0 · memluk↔yemen 2,4). Yeni kimliklere
+    # ΔE ≥ 12 eşiği uygulanıyor ama mevcut paletin 112 çifti o eşiğin yarısının
+    # altında. YAPILACAKLAR'da "palet stratejisi" olarak duruyor.
+    "macaristan": ("Macaristan",             "#1e88e5"),
     "avusturya":  ("Avusturya (Habsburg)",   "#d9c76a"),
     "almanya":    ("Kutsal Roma / Almanya",  "#9a9a9a"),
     "lehistan":   ("Lehistan-Litvanya",      "#b56ba0"),

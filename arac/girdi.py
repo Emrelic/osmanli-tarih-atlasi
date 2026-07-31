@@ -277,6 +277,28 @@ def parmak_izi():
     return iz
 
 
+def motor_izi():
+    """Üretimi yapan KODUN sha256'ları — {dosya: özet}.
+
+    `parmak_izi()` "çıktı hangi VERİDEN üretildi" sorusunu cevaplar; bu ise
+    "hangi KODDAN üretildi" sorusunu. İkisi çıktıya birlikte yazılır.
+
+    ⚠️ Neden gerekli — 31 Temmuz'da yaşandı. Koordinatör elindeki
+    `donemler.js`in düzeltilmiş motordan mı çıktığını soramadı: dosya damgası
+    koşuyu değil son dokunuşu gösteriyor, boyut kaba bir ipucu, ve sekiz
+    denetimin "temiz" demesi kanıt değil — hiçbiri o soruyu sormuyor. Cevap
+    ancak log arkeolojisiyle verilebildi. Damga çıktının İÇİNDE olursa soru
+    dosyanın kendisinden cevaplanır.
+    """
+    import hashlib
+    iz = {}
+    for ad in ("uret_petek.py", "renkler.py", "girdi.py"):
+        yol = os.path.join(os.path.dirname(os.path.abspath(__file__)), ad)
+        if os.path.exists(yol):
+            iz[ad] = hashlib.sha256(io.open(yol, "rb").read()).hexdigest()
+    return iz
+
+
 def izi_dogrula(baslangic, nerede):
     """Girdi koşu sırasında değiştiyse ÖLDÜRÜR. Sessiz geçiş yok."""
     simdi = parmak_izi()
