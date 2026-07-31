@@ -102,22 +102,48 @@ Gerekçeler: `MIMARI.md` §3.
       edecek. Önerilen ölçüt: **aynı gün ±3 + `kisiler` alanında ortak ad**
       varsa şüpheli say.
 
-- [ ] **Motor `kur:` ve `bit:` alanlarını okumuyor** — henüz kurulmamış (ya da
-      artık var olmayan) bir yerleşim de petek alıyor ve komşularından toprak
-      koparıyor. Kullanıcı bunu Katîf ekran görüntüsünde yakaladı (hatalar
-      3.docx madde 8): Basra-Lahsa kıyı zinciri Osmanlı ama arada bir delik var;
-      delik **Kuveyt**, çünkü şehir 1716'da kuruluyor ve öncesinde sahibi yok.
-      Kayıtta `kur:"1716-01-01"` yazılı — `arac/denetle.py` ve şehir dizini bunu
-      okuyor, **`arac/uret_petek.py` okumuyor.**
-      Doğru çözüm: kurulmamış peteği o dönem için en yakın SAHİPLİ komşuya
-      bağışlamak — ADA KURALI'nın kullandığı makinenin aynısı. Aynı sorun `kur:`
-      taşıyan bütün noktalarda var ve Kuzey-Doğu Avrupa partisiyle (Petersburg
-      1703, Odessa 1794, Harkov 1654, Göteborg 1621) belirgin şekilde büyüyecek —
-      **o merge'den ÖNCE yapılmalı.**
+- [x] ~~**Motor `kur:` ve `bit:` alanlarını okumuyor**~~ — **30 Temmuz'da
+      ÇÖZÜLDÜ** (`b781c2c`, 1,7 milyon km²'lik hayalet toprak düzeltmesi).
+      Bu satır bir gün fazla açık kaldı ve **üç kaynağın çelişmesine** yol açtı:
+      commit "okuyor", bu satır "okumuyor", A5 raporu "hiç okumuyor".
+      31 Temmuz'da motorun kendi ölçütüyle hakem ölçümü yapıldı
+      (`devir_kumesi` + `_sahipli`, 1600-06-15 kesiti):
+      ```
+      Nâsıriye  kur 1869  d:osmanli  → DEVREDİLİR   (hayalet OLUŞMUYOR)
+      Muhammere kur 1812  s:safevi   → DEVREDİLİR
+      Buşehr    kur 1734  s:safevi   → DEVREDİLİR
+      Kuveyt    kur 1716  sahipsiz   → BOŞ KALIR — kasıtlı
+      1600 kesitinde: devredilen 17 · kasıtlı boş 7
+      ```
+      🔴 **Kuveyt deliği KUSUR DEĞİL, kuralın kendisi.** Motorun ölçütü
+      "kurulmamış" değil, **"kurulmamış VE o tarihte sahibi yazılı"** — çünkü bu
+      projede sahipsizlik bazen kasıtlıdır (çöl dolgu noktaları, körfez
+      şeyhlikleri). Kuveyt 1716 öncesi hem kurulmamış hem sahipsiz; peteğini
+      Basra'ya bağışlamak **`CLAUDE.md §3`'ün bilerek bıraktığı boşluğu yok
+      ederdi.**
+      ⇒ `hatalar 3 md.8` / `hatalar 15 md.6` (Lahsa-Katîf ada gibi görünüyor)
+      **motor borcu değil, GÖSTERİM sorusu**: kasıtlı boş bir hücre iki Osmanlı
+      bölgesinin arasına düştüğünde kopukluk okunuyor. Ayrı kalem olarak aşağıda.
+      📌 Ders: kapatılmamış bir yapılacak maddesi, yanlış bilgiden **daha
+      tehlikeli** — çünkü ikisi de doğru görünür ve hangisinin bayat olduğu
+      belli olmaz. Üç oturum bugün bu satıra dayanarak yanlış teşhis koydu.
 
-- [ ] **Zaman dilimli Voronoi + `bit:` alanı** — bugün diyagram bütün tarih için bir
-      kez hesaplanıyor; 1869'da kurulan şehir 1300'ün haritasını değiştiriyor. `kur:`
-      alanı veride var ama motor onu hiç kullanmıyor. *(MIMARI §3.1)*
+- [ ] **Kasıtlı boş hücre, kopukluk gibi okunuyor** — `hatalar 3 md.8` ·
+      `hatalar 15 md.6`. Kuveyt'in 1716 öncesi boş peteği, Basra ile Lahsa-Katîf
+      arasına düşünce körfez zinciri ada gibi görünüyor (Basra yönünde 63,7 km,
+      Katîf yönünde 185,4 km — A5 ölçtü). Veri doğru, motor doğru, **görüntü
+      yanıltıcı.**
+      Çözüm motoru değil gösterimi ilgilendiriyor ve seçenekler ölçülmedi:
+      (a) sahipsiz hücreye zeminden ayırt edilir ama "başka devlet" demeyen bir
+      doku, (b) yakınlaştırmaya bağlı olarak sahipsiz hücreleri gizlemek,
+      (c) olduğu gibi bırakıp panelde açıklamak.
+      ⚠️ (a) ve (b) bütün çölü de etkiler — 34 dolgu noktası aynı sınıf.
+      **Seçilmeden önce ölçülmeli.** *K + COĞRAFYA*
+
+- [ ] **Zaman dilimli Voronoi** — diyagram bütün tarih için bir kez hesaplanıyor;
+      farklı dönemlerde farklı komşuluk üretmiyor. *(MIMARI §3.1)*
+      ⚠️ `kur:`/`bit:` kısmı ARTIK GEÇERSİZ — yukarıdaki maddede çözüldü. Kalan
+      iş yalnız diyagramın kendisinin zamana bağlı olması.
       → Yan kazanç: "tarih ilerledikçe bölgeler bölünsün" davranışı bundan doğar.
 
 - [ ] **`k`/`m` alanlarının zamanlı hâle gelmesi** — Değişmez 3. Bugün 311
