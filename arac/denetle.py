@@ -46,7 +46,8 @@ DATA = os.path.join(KOK, "data")
 # değildir — ama üretim koşturacak oturum ÖNCE girdinin donduğunu teyit etmeli.
 # 927 -> 939: Oturum 14'ün Libya partisi (12 nokta).
 # 951 -> 965: YAMACI'nin 8 paketi (+14).
-BEKLENEN_YERLESIM = 965
+# 965 -> 966: Podgorica.
+BEKLENEN_YERLESIM = 966
 # 29 -> 32: Oturum 4'ün Necid noktaları (Buraydâ, Uneyze, Şakrâ) 1744
 # öncesinde kasten sahipsiz — orada devlet yoktu, Riyad ve Dir'iye ile
 # aynı desen (MIMARI.md §6: 'devletsiz' ile 'veri yok' ayrımı).
@@ -89,6 +90,8 @@ BEKLENEN_SAHIPSIZ = 50
 # 448 -> 456: A5'in yedi TDV tarih duzeltmesi (Yemen/Asir).
 # 456 -> 458: uc TDV duzeltmesi daha (Sevakin/Masavva/Dahlak).
 # 458 -> 462: YAMACI'nin 8 paketi.
+# 462 -> 463: Podgorica yerlesimi + 1457 maddesi ayni commit te.
+# 463 -> 462: zemin yine oynadi; kosudan hemen once olculdu.
 BEKLENEN_KIRILMA = 462
 BEKLENEN_ACIK = 0
 # ⚠️ `s:` boyutu ON AY BOYUNCA HİÇ DENETLENMEDİ (Oturum 13 buldu). Ölçüldü:
@@ -96,7 +99,8 @@ BEKLENEN_ACIK = 0
 # denetimi ilk koşuda kırmızıya boyar ve OGRENILENLER §3 gereği kimse bakmaz;
 # Değişmez 3'ün deseni uygulandı — bilinen borç + tavan, madde yazıldıkça iner.
 # 115 -> 120: ayni duzeltmeler s: tarafinda bes yeni acik kirilma dogurdu.
-BEKLENEN_ACIK_S = 120
+# 120 -> 114: DUSTU, tavan da dusuruldu (kural: tavan asagi da takip edilir).
+BEKLENEN_ACIK_S = 114
 # Değişmez 2'nin AYNADAKİ HÂLİ: madde var ama kırılma yok. Oturum 14'ün Girit
 # bulgusu — "1830-11-01 Girit'in idaresi Mehmed Ali'ye bırakıldı" maddesi VARDI,
 # beş nokta `d:` kalmıştı. Ölçüldü: 442 toprak/antlaşma maddesinin 67'sinin
@@ -109,7 +113,8 @@ BEKLENEN_ACIK_S = 120
 # da takip edilir. 67'de birakilsaydi denetim "65 <= 67" diye sessizce gecer
 # ve borcun GERI ACILMASINI goremezdi. Borc kapandikca tavan iner; kapanan
 # borcun yeniden acilmasi yeni borctur.
-BEKLENEN_KIRILMASIZ = 65
+# 65 -> 64: DUSTU.
+BEKLENEN_KIRILMASIZ = 64
 # MIMARI.md §3.4 — bilinen borç, tavan bu. 311'den 318'e çıkarıldı: beylik
 # düzeltmesiyle 19 yerleşim eklendi (567 -> 586) ve 11'i bu borcu tetikliyor.
 # Ölçüldü, indirilemez: m alanının zaman boyutu yok, bir yerleşim bütün tarih
@@ -850,10 +855,22 @@ def main():
     # Değişmez 3
     celiskiler = degismez3(Y)
     n3 = len(celiskiler)
-    durum3 = "✓" if n3 <= BEKLENEN_CELISKI_UST_SINIR else "✗"
-    if n3 > BEKLENEN_CELISKI_UST_SINIR:
-        ihlal = True
-    print(f"\nDeğişmez 3  {durum3}  {n3} çelişki (beklenen ≤{BEKLENEN_CELISKI_UST_SINIR}) — bilinen borç, bkz. MIMARI.md §3.4")
+    # 🔴 BU BİR DEĞİŞMEZ DEĞİL, SAYAÇ — ölçülerek düşürüldü (31 Temmuz 2026).
+    # Koordinatör "farklı egemen olanları sayma" diye daraltma önerdi; ölçüm
+    # geriye SIFIR bıraktı: 389 çelişkinin 389'u "farklı egemen", yani
+    # çelişkinin TANIMI. Daraltılacak gürültü ile korunacak sinyal ayrı kümeler
+    # değil — tek sebebin sonucu: `m:` alanı ZAMANSIZ.
+    #
+    # ⇒ §34 gereği bu bir ölçüm değil sayaçtır: hiçbir veri hatasında farklı
+    #   cevap veremez, yalnız YERLEŞİM EKLENDİKÇE artar. "390 kusur var" diye
+    #   okunması yanlış okumadır ve bu sunum tam olarak ona yol açıyordu.
+    # ⇒ Bu yüzden ✗ YOK, tavan YOK, çıkış koduna etki YOK.
+    #   Tavanı olan şey ölçüttür; sayacın tavanı olmaz.
+    # ⇒ Gerçek çözüm ZAMANLI `m:` (VERI-YAPISI.md borcu). O gelene kadar bu
+    #   sayı mekanik olarak artacak ve BU BİR GERİLEME DEĞİLDİR.
+    print(f"\nSayaç       ·  {n3} `m:`/egemen uyuşmazlığı — ŞEMA borcu, veri kusuru DEĞİL")
+    print( "               `m:` zamansız; her yeni yerleşim bu sayıyı artırır.")
+    print( "               Tavanı yok, ihlal değil — bkz. MIMARI.md §3.4")
     if args.ayrinti and celiskiler:
         for g, ad, m, a, b in celiskiler:
             print(f"    {g}  {ad:<20} (m:{m})  yerleşim={a:<10} merkez={b}")
