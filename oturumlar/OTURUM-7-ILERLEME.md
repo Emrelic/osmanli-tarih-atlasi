@@ -391,3 +391,71 @@ madde.
 Bu madde eklenirse `olaylar_ek.js:90`'daki mevcut kayıtla (1305-06-01) birlikte
 okun tüm aralığı (1303-09 → 1305-06) iki uçtan maddeli hâle gelir, 639 günlük
 boşluk kapanır.
+
+---
+
+## Altıncı tur — Hicaz: 3 açık kırılma + kaçırılırsa açılacak 4. boşluk (2026-07-31)
+
+Kaynak: `ARABISTAN-DUZELTMELER.md` §A.1/§A.3 (A5'in daha önce hazırladığı zincir,
+sıfırdan araştırmadım). `yerlesimler.js`'i okuyup YAMACI'nın Hicaz paketini
+(`f145a2a`) neyi uyguladığını doğruladım:
+
+```
+Tâif  s: 1803-02-01 → 1813-05-02  (tek dönem)                — uygulanmış
+Mekke s: 1803-04-30 → 1803-08-06, 1806-01-01 → 1813-01-23    — uygulanmış
+```
+
+⚠️ **Üç kırılmayı düzeltirsem dördüncü bir boşluk açardım, onu da kapsadım.**
+`olaylar_ek5.js:299`'daki mevcut madde (`t:"1803-05-15"`, başlık "Mekke ve Tâif")
+şu an **tesadüfen** iki kırılmayı da örtüyor: 1803-02-01'e (Tâif) 103 gün, ama
+1803-04-30'a (Mekke'nin İLK düşüşü) yalnız 15 gün — Değişmez 2 bu ikinciyi
+"maddeli" sayıyor. Talimattaki gibi bu maddeyi Tâif'e daraltıp tarihini
+1803-02-01'e çekersem, 1803-04-30 birden maddesiz kalır. Bu yüzden dört madde
+hazırladım, üçü değil — A.3'ün 1/2/3 numaralı önerilerinin hepsi, tek biri değil.
+
+**TDV doğrulaması** (`ARABISTAN-DUZELTMELER.md`'de zaten yapılmış, ben yalnız
+kaynak zincirini takip ettim, `<title>` sınaması orada geçmiş): `taif` ve `mekke`
+canlı. `taif`: *"Suûd emrindeki ordu Şubat 1803'te Tâif'i ele geçirerek
+yağmaladı"* · *"...Tâif'i Vehhâbîler'den geri aldı"* (**2 Mayıs 1813**). `mekke`:
+Suûd'un ilk işgali **30 Nisan 1803**, Şerif Gālib'in geri alışı *"12 Temmuz 1803'te
+başlayan 25 günlük kuşatma"* (⚠️ **6 Ağustos türetilmiştir**, TDV günü vermiyor —
+`yerlesimler.js`'in kendi `t:` değeri zaten bu türetilmiş tarihi taşıyor, ben
+uydurmadım, veriyle eşleştirdim).
+
+### 1. DEĞİŞTİR — `olaylar_ek5.js:299` (1803-02-01'e taşınıp Tâif'e daraltılacak)
+```js
+{ t:"1803-02-01", k:"kayip", etiket:["ayaklanma","toprak-kaybi"], b:"Vehhâbîlerin Tâif'i ele geçirmesi", gun:"Şubat 1803", yer:"Tâif, Hicaz", kisiler:"Suûd b. Abdülazîz, III. Selim", d:"Suûd b. Abdülazîz kumandasındaki Vehhâbî kuvvetleri Hicaz'a yönelik ilk hamlede Tâif'i kuşatıp yağmaladı; şehir kutsal topraklara açılan ilk kapı olarak düştü. Haremeyn'in hâmisi sıfatını taşıyan Osmanlı padişahı için bu, saltanatın meşruiyetini doğrudan sarsan bir darbeydi. İki buçuk ay sonra aynı ordu Mekke'ye yürüyecekti.", kaynak:"taif" },
+```
+(Eski hâli: `t:"1803-05-15"`, başlık "Mekke ve Tâif", `kaynak:"vehhabilik"` —
+A.4'te bu slug "fakir slug" diye işaretlenmişti, `taif`/`mekke`'ye taşınıyor.)
+
+### 2. YENİ — Mekke'nin ilk düşüşü (1803-04-30'u örter, aksi hâlde açılacaktı)
+```js
+{ t:"1803-04-30", k:"kayip", etiket:["ayaklanma","toprak-kaybi"], b:"Vehhâbîlerin Mekke'yi ilk kez ele geçirmesi", gun:"30 Nisan 1803", yer:"Mekke, Hicaz", kisiler:"Suûd b. Abdülazîz, Şerif Gālib, III. Selim", d:"Tâif'in düşmesinden iki buçuk ay sonra Vehhâbî kuvvetleri Mekke'ye girdi, türbeleri yıktı ve kendi anlayışlarına göre bir düzen kurdu; Şerif Gālib Cidde'ye çekilmek zorunda kaldı. Hac yollarının kapanması bütün İslâm dünyasında yankılandı ve İstanbul'u Mısır valisi Mehmed Ali'den askerî yardım istemeye mecbur bıraktı. Bu ilk hâkimiyet yalnız üç ay sürecekti.", kaynak:"mekke" },
+```
+
+### 3. YENİ — 1803-08-06 kırılmasının maddesi (koordinatörün istediği asıl madde)
+```js
+{ t:"1803-08-06", k:"fetih", etiket:["toprak-kazanc"], b:"Şerif Gālib'in Mekke'yi geri alması", gun:"Ağustos 1803 başı — TDV yalnız kuşatmanın başlangıcını (12 Temmuz) ve süresini (25 gün) veriyor, gün türetilmiştir", yer:"Mekke, Hicaz", kisiler:"Şerif Gālib", d:"Cidde'ye çekilmiş olan Şerif Gālib, topladığı kuvvetlerle Mekke'yi kuşattı ve yirmi beş günlük kuşatmanın ardından şehri Vehhâbîlerden geri aldı; Osmanlı adına hutbe yeniden okundu. Bu ikinci hâkimiyet de kalıcı olmayacak, Suûd kuvvetleri 1806'da şehri tekrar alacaktı.", kaynak:"mekke" },
+```
+
+### 4. DEĞİŞTİR — `olaylar_ek4.js:62` (başlıktan "Tâif" çıkar — orası henüz geri alınmadı)
+`b:"Mekke ve Tâif geri alındı — hac yolu açıldı"` → **`b:"Mekke geri alındı — hac
+yolu açıldı"`**. Gerekçe: bu maddenin tarihi (1813-01-23) yalnız Mekke'nin
+`s:t` değeriyle eşleşiyor; Tâif'in gerçek dönüş tarihi 98 gün sonra, 1813-05-02.
+Metin zaten yalnız Mekke'yi anlatıyor, tek değişiklik başlıktaki "ve Tâif" ekinin
+silinmesi. Diğer hiçbir alana dokunulmuyor.
+
+### 5. YENİ — koordinatörün istediği asıl madde: 1813-05-02
+```js
+{ t:"1813-05-02", k:"fetih", etiket:["toprak-kazanc"], b:"Tâif'in geri alınması — Hicaz seferinin tamamlanışı", gun:"2 Mayıs 1813", yer:"Tâif, Hicaz", kisiler:"Tosun Paşa, Şerif Gālib", d:"Medine (Aralık 1812) ve Mekke'nin (Ocak 1813) ardından Tosun Paşa kumandasındaki Mısır ordusu son olarak Tâif'i Vehhâbîlerden geri aldı. On yıl süren Suûd hâkimiyeti sona erdi, Hicaz'ın üç kutsal merkezi de yeniden Osmanlı-Mısır denetimine girmiş oldu.", kaynak:"taif" },
+```
+
+**Hedef dosyalar bende değil** (`olaylar_ek4.js`, `olaylar_ek5.js`) — beşi de
+YAMACI uygulayacak. 1. ve 2. maddeler muhtemelen `olaylar_ek5.js`'e (mevcut
+kayıtla aynı yere/civara), 3. ve 5. maddeler `olaylar_ek4.js`'e (1812-1813
+Hicaz seferi bloğunun içine, kronolojik sırayı bozmadan) uygun düşer — kesin
+konum YAMACI'nın kararı.
+
+Uygulandıktan sonra beklenen: Değişmez 2 açık sayısı 3 → 0, `2s` tavanı
+117 → 114'e geri döner.
