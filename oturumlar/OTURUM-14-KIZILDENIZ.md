@@ -452,3 +452,110 @@ onun için doğdu. Obbiya ise aynanın öbür yüzü.
 > `isg:` **fiilî** ekseni tutuyor — ama fiilî denetimin *yokluğunu* gösteren
 > bir alan yok. Obbiya'da ihtiyaç duyulan buydu ve (c) onu kimliğe kaçarak
 > çözüyor. Altıncı bir alan açmaya değer mi, orası MİMARİ'nin işi.
+
+---
+
+# 5. (c)'nin uygulaması — **istenen kimlik sayısı sıfır**
+
+İki kimlik önerisi istediniz. **Ölçtüm ve cevap "iki" değil, "sıfır".**
+
+## 5a. Zaten var olan kimlik tam olarak bu
+
+```
+data/devletler.js:1587
+{ id:"somali", ad:"Somali Sultanlıkları", tur:"sultanlik", bolge:"dogu-afrika",
+  f:"1500-01-01", t:"1923-10-29", ... harita:"somali" }
+arac/renkler.py: "somali": ("Somali sultanlıkları", "#b5a06b")
+```
+
+🟢 **`somali` kimliğinin ömrü `devletler.js`'te zaten `1923-10-29`'a kadar
+tanımlı.** Yani yedi kaydın `somali` dönemini atlasın sonuna uzatmak **hiçbir
+hayalet devlet sorunu doğurmaz** (§3.5) — devlet o tarihte hâlâ yaşıyor.
+
+Ve yedi kaydın **hepsi zaten `somali` taşıyor**, yalnız 1888/1889'da kesiliyor:
+
+| Kayıt | Bugün | (c) sonrası |
+|---|---|---|
+| Obbiya · Galkayo | `somali` →1888-12-01, sonra `italya` | **`somali` → 1923-10-29** |
+| Garove · Ayl | `somali` →1889-04-07, sonra `italya` | **`somali` → 1923-10-29** |
+| Bender Kāsım · Alula · Hafun | `adal`→1577, `somali`→1889-04-07, `italya` | `adal`→1577, **`somali` → 1923-10-29** |
+
+**Uygulama = yedi kayıttan `italya` dönemini silmek ve `somali`'nin bitişini
+`1923-10-29` yapmak.** Başka hiçbir şey.
+
+## 5b. 🔴 İki kimlik EKLEMEK, (c)'yi cazip kılan faydayı yok eder
+
+Bunu açıkça söylemem gerek çünkü istediğiniz şey buydu:
+
+`obbia` ve `macerteyn` eklenirse dönem şöyle olur —
+`somali` → **1888-12-01** → `obbia` → 1923-10-29. **Bu hâlâ bir kırılmadır**
+(`somali` ≠ `obbia`). Yani:
+
+> **Yedi kırılma kalkmaz, yerinde kalır** ve yedi madde borcu geri gelir.
+> `Değişmez 2s` kazancı **buharlaşır.**
+
+Kaçış yolu yok: kimlik 1281'den başlatılırsa (kırılmayı yok etmek için)
+bu sefer **§3.5 hayalet devleti** olur — TDV Mâcerteyn'in bağımsızlığını
+**XIX. yüzyıla** koyuyor, Obbia için hiçbir kuruluş bilgisi vermiyor.
+
+⚠️ Üçüncü ve bence kesin engel: **sınır tarihinin anlamı kalmıyor.**
+`1888-12-01` ve `1889-04-07`, İtalyan antlaşma günleri. (c) ile bu günlerin
+"toprak el değiştirdi" anlamını **reddettik**. O hâlde `somali → obbia`
+geçişini o günlere koymak, reddettiğimiz anlamı arka kapıdan geri sokar —
+ve TDV'de "Obbia şu gün ayrı bir emirlik oldu" diyen hiçbir cümle yok.
+
+## 5c. İstediğiniz adlar — ama `renkler.py`'ye değil, `devletler.js`'e
+
+TDV'nin **kendi yazımı** (birebir, `somali` ve `muhammed-b-abdullah-hasan`):
+
+| TDV'nin yazdığı | TDV'nin **kullanmadığı** |
+|---|---|
+| **Mâcerteyn** (*"Mâcerteyn Sultanlığı"*, *"Mâcerteyn ve Obbia emirlikleri"*) | Majeerteen |
+| **Obbia** (*"Obbia'nın iç kesimlerindeki"*) | Hobyo |
+
+ASCII kimlik biçimi projede yerleşik (`abdulkadir`, `habesistan`): →
+**`macerteyn`** ve **`obbia`**.
+
+📌 **Önerim: bu ikisi `devletler.js`'e DİZİN kaydı olarak girsin, harita
+kimliği olmasın.** `CLAUDE.md §6`'nın birinci adımı bu ve "risksiz" diyor:
+
+```js
+{ id:"macerteyn", ad:"Mâcerteyn Sultanlığı", tur:"sultanlik", bolge:"dogu-afrika",
+  f:"1800-01-01", t:"1923-10-29", baskent:"Bender Kāsım (Bosaso), Alula",
+  harita:"somali",
+  ozet:"Somali'nin kuzeydoğu burnunu tutan sultanlık; TDV'ye göre XIX. yüzyılda bağımsız hâle geldi. İtalya ile 1889'da yapıldığı bilinen himaye antlaşması TDV'de anılmaz; emirliğin toprakları fiilen ancak 1927'de işgal edilmiştir — yani atlasın ufkunun (1923) tamamında bağımsızdır. Başlangıç TDV'de yalnız 'XIX. yüzyıl' olarak verildiği için yüzyıl başına yazılmıştır." },
+
+{ id:"obbia", ad:"Obbia Emirliği", tur:"emirlik", bolge:"dogu-afrika",
+  f:"❓", t:"1923-10-29", baskent:"Obbiya",
+  harita:"somali",
+  ozet:"Somali'nin orta kıyısındaki emirlik. TDV kuruluşu hakkında bilgi vermez; yalnız topraklarının 1927'de İtalyanlar tarafından işgal edildiğini ve 1903'te Obbia'nın iç kesimlerinde çarpışmalar olduğunu kaydeder." },
+```
+
+🔴 **`obbia`'nın `f:` alanını dolduramıyorum.** TDV Obbia için kuruluş,
+bağımsızlık ya da hanedan bilgisi **hiç** vermiyor — üç maddede de yalnız
+1927 ve 1903 geçiyor. `1870` sayısı standart kayıtta var ama TDV'de yok;
+**yazmıyorum.** Oturum 3 başka kaynakla dolduracaksa onun işi.
+
+`harita:"somali"` alanı ikisini de mevcut renge bağlar — **`renkler.py`
+değişmez, DSATUR yeniden ölçülmez, MOTOR ve U2 için iş çıkmaz.** Kullanıcı
+dizinde iki emirliği adıyla görür, harita ise doğru olanı, yani "Somali
+Sultanlıkları"nı boyamaya devam eder.
+
+## 5d. 🟡 Yan bulgu — `somali` kimliğinde 219 yıllık hayalet
+
+Ölçerken çıktı, sizin işiniz değil ama kayda geçmeli (§3.5 sınıfı):
+
+```
+devletler.js:  somali  f:"1500-01-01"
+veri:          10 kayıt-dönem 1281-01-01'den somali boyuyor
+```
+
+**219 yıl fazlalık.** Mogadişu · Merkâ · Beledveyne · Baydoa · Obbiya ·
+Galkayo · Garove · Ayl · Yirgalem (×2). Ne yön doğru bilmiyorum — ya
+`devletler.js`'in `f:`i geç, ya kayıtların başlangıcı erken. TDV `makdisu`
+Mogadişu'yu çok daha eskiye götürüyor, yani muhtemelen **`devletler.js`
+düzeltilmeli**, veri değil. Oturum 3'e.
+
+📌 Bu tam olarak §3.5'in tarif ettiği denetim: *"bu devlet o tarihte yaşıyor
+mu"*. Dördüncü değişmez araca girdiğinde bu 10 kayıt ilk yakalananlardan
+olacak.
