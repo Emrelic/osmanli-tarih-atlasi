@@ -48,7 +48,8 @@ DATA = os.path.join(KOK, "data")
 # 951 -> 965: YAMACI'nin 8 paketi (+14).
 # 965 -> 966: Podgorica.
 # 966 -> 967.
-BEKLENEN_YERLESIM = 967
+# 967 -> 968.
+BEKLENEN_YERLESIM = 968
 # 29 -> 32: Oturum 4'ün Necid noktaları (Buraydâ, Uneyze, Şakrâ) 1744
 # öncesinde kasten sahipsiz — orada devlet yoktu, Riyad ve Dir'iye ile
 # aynı desen (MIMARI.md §6: 'devletsiz' ile 'veri yok' ayrımı).
@@ -93,7 +94,8 @@ BEKLENEN_SAHIPSIZ = 50
 # 458 -> 462: YAMACI'nin 8 paketi.
 # 462 -> 463: Podgorica yerlesimi + 1457 maddesi ayni commit te.
 # 463 -> 462: zemin yine oynadi; kosudan hemen once olculdu.
-BEKLENEN_KIRILMA = 462
+# 462 -> 476: Oturum 14 in Port Said/parantez duzeltmeleri.
+BEKLENEN_KIRILMA = 476
 BEKLENEN_ACIK = 0
 # ⚠️ `s:` boyutu ON AY BOYUNCA HİÇ DENETLENMEDİ (Oturum 13 buldu). Ölçüldü:
 # 566 yabancı kırılması, 115'inin ±30 günde maddesi yok. 115'i İHLAL ilan etmek
@@ -115,7 +117,8 @@ BEKLENEN_ACIK_S = 114
 # ve borcun GERI ACILMASINI goremezdi. Borc kapandikca tavan iner; kapanan
 # borcun yeniden acilmasi yeni borctur.
 # 65 -> 64: DUSTU.
-BEKLENEN_KIRILMASIZ = 64
+# 64 -> 62: DUSTU.
+BEKLENEN_KIRILMASIZ = 62
 # MIMARI.md §3.4 — bilinen borç, tavan bu. 311'den 318'e çıkarıldı: beylik
 # düzeltmesiyle 19 yerleşim eklendi (567 -> 586) ve 11'i bu borcu tetikliyor.
 # Ölçüldü, indirilemez: m alanının zaman boyutu yok, bir yerleşim bütün tarih

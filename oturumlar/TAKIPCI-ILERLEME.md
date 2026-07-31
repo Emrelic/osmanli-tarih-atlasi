@@ -215,3 +215,133 @@ görüntüsü). Tek seferlik istek listesi `KONTROL.md` ÖZET'te tablo hâlinde.
 ✅ 121 · ⏳ 53 · ⚠️ 52 · 🔬 6 · ❌ 3 · ❓📷 4  = 239
 ```
 (önceki tur: 116/42/51/6/3/21 — ❓'nun 17'si eridi: 5 ✅, 12 sahipli iş)
+
+---
+
+## 2026-07-31 (5. tur) — 12-03 kapandı; 📷 protokolü "önce yıl+yön" oldu
+
+Kullanıcının tek cümlesi ("1288, Boğaz kuzeyi") 12-03'ü görüntüsüz kapattı —
+K ölçtü: sahiplik boşluğu yok, boşluk hisarların `kur:` devri (Rumeli 1452,
+Anadolu 1395); çözüm ölçütü MOTOR'da. 📌 Süreç dersi KONTROL'e işlendi:
+📷 tablosu artık "önce YIL + YÖN sor, görüntü ikinci basamak" — her satıra
+sorulacak TEK soru yazıldı. Sayım: **✅121 · ⏳54 · ⚠️52 · 🔬6 · ❌3 · ❓3 = 239.**
+
+---
+
+## 2026-07-31 (6. tur) — HATALAR 17 işlendi: 19 madde, toplam 258
+
+Dosya 20:02'de kaydedildi, `BadZipFile` geçince çıkarıldı (31 dolu paragraf →
+**19 madde**; "20)" boş etiket). KONTROL'e `17-01…17-19` olarak girdi.
+
+**İki tema hâkim:** (a) kuruluş devri görsel artefaktları — iki kırmızı ton,
+soluk oklar, "yuvarlak hüzme", koyu yapı (17-10…13, hepsi 🔬); (b) **"cetvel
+sınırlardan ne zaman kurtulacağız"** genel talebi (17-09, örnekleri 16/17) —
+cevabın kendisi COĞRAFYA'da fiilen sürüyor (HydroSHEDS, çöl tavanı r280) ama
+kullanıcıya görünür değil.
+
+**Dikkat çekenler:**
+- 17-02/05 büyük olasılıkla 12-03'ün (hisar `kur:` boşluğu) aynısı — ölçüt
+  kurulduğu için kapanmaya aday; doğrulama M'de.
+- ⚠️ **17-18 = kapatılmış 12-04 hükmünün kullanıcı tarafından YENİDEN
+  açılması** (Katalan oku). "Hata değil" hükmü kullanıcıyı ikna etmemiş;
+  ayrıca yeni gözlem var (Mekece-Akhisar ötesi boşluk). Hüküm K'da.
+- 17-14/15 Karesi/Saros taşmaları = 12-06 kökü; kara-kısıtlı Voronoi r217
+  BUGÜN çıktı — kullanıcının hangi sürüme baktığı belirsiz, r217 sonrası
+  kesitle doğrulanmalı.
+
+**Aynı turda:** 12-03 → ✅ (KARAR-DAYANAK #4'ün sorusu kapandı — satır
+silinebilir mi, K'ya soruldu); 11-16 çöl tavanı "yayında, GÖZLE onay bekliyor"
+notu aldı (K'nın "15-17" numarası ada göre 11-16'ya işlendi — numara+ad
+kuralının bir örneği daha).
+
+**Yeni sayım: ✅122 · ⏳63 · ⚠️53 · 🔬14 · ❌3 · ❓📷3 = 258.**
+
+---
+
+## 2026-07-31 (7. tur) — hatalar 17'nin son hâli: 20 madde, K kümeleri işlendi
+
+- **19 ↔ 20 farkı çözüldü (ölçümle):** dosya 20:02'den beri değişmemiş (diff
+  boş); "20)" etiketi metinsiz → **20. madde yalnız gömülü görselden ibaret.**
+  17-20 açıldı: ❓📷 ("20. madde neydi" tek cümlelik soru ya da K görseli açar).
+- K'nın A-G kümeleri satırlara işlendi; **A kümesi (6 madde) koşan DEM
+  paketine bağlandı, yeni iş açılmadı** (K talimatı).
+- **B kümesi ölçümü (T):** `1326-06-15` ve `1331-06-15` kesitlerinde `v:`
+  kaydı **SIFIR** (d: 36 ve 43) → "doğrudan/tâbi ton farkı" hipotezi ÇÜRÜDÜ.
+  Komut: node tek satırlık kesit sayımı (ILERLEME'de). Alternatif hipotez
+  kayda geçti: **serbest kenar katmanı** dün gece eklendi (8d9b51b · 9c9f5c6 ·
+  44d26e4) ve kullanıcı 20:02'de ilk kez görüyor olabilir — "iki kırmızı",
+  "soluk oklar", "yuvarlak hüzme" üçü de bu katmanın görünümü olabilir.
+  Hüküm ARAYÜZ'ün; ben yalnız v:=0'ı ölçtüm, katmanı hipotez olarak verdim.
+- 📷 listesine 17-20 (kesin) ve 17-11 (şartlı) eklendi.
+
+**Sayım: ✅122 · ⏳65 · ⚠️53 · 🔬12 · ❌3 · ❓📷4 = 259.**
+
+---
+
+## 2026-07-31 (8. tur) — bayatlık taraması + kapanma-kontrolü fizibilite SAYISI
+
+### Bayatlık taraması (K'nın 8'i + grep'in bulduğu 10 = 18 kapanış)
+
+K'nın bildirdiği 8 satır **YAMACI'nın sözüyle değil grep'le** doğrulanıp
+kapatıldı; aynı tarama 10 kapanış daha buldu: 2-05 Zebîd · 6-09 Lahsa ·
+10-16 İsmail (tam zincirle eklenmiş!) · 11-23 Sevâkin/Masavva `v:` ·
+11-27/28 Eflak · 11-34 Lahsa tarihleri · 11-40 Mısır isg · 13-14 İyon ·
+13-15 Podgorica. Kara-kısıtlı r217 yayında → 8-02/12-06/15-19/10-17
+"koşu bekliyor"dan "gözle doğrulama"ya (⚠️) indi.
+
+🔴 **İtiraf — bayat-satır sınıfının bendeki iki örneği:** 6-09 ve 11-34'ü
+bugün 15:2x'te ⏳ yazdım; oysa 54346f2 (14:21) ikisini de çoktan uygulamıştı —
+hatta kendi 15:21 grep'im Lahsa 1818 bloğunu GÖSTERMİŞTİ ve ben yine ⏳ yazdım.
+K'nın teşhisi bana da uyuyor: durum ölçülmüş ama HÜKÜMLE BİRLEŞTİRİLMEMİŞ.
+
+**Yeni sayım: ✅140 · ⚠️57 · ⏳47 · 🔬8 · ❌3 · ❓📷4 = 259.**
+
+### K'nın istediği fizibilite SAYISI (araç yazılmadan önce)
+
+Açık 112 satır (⏳47+⚠️57+🔬8) tek tek sınıflandı (listeler satırlarda,
+yöntem: satırdaki kapanma ölçütünün türü):
+
+```
+OTOMATİK  (tek grep'le sınanır: tarih/kayıt/madde/renk/nokta iddiası) : 49
+YARI      (kesit-sahiplik ya da üretilmiş-geometri betiği ister)      : 36
+ELLE      (karar · araştırma hükmü · gözle onay · kullanıcı cevabı)   : 25
+                                                    sınıflanan: 110/112
+```
+(2 satır iki sınıfın sınırında; kesin liste kontrol yazılırsa netleşir.)
+
+**Hüküm için sayı:** kontrol YAZMAYA DEĞER — 49 satır tek koşuda sınanır ve
+bugünkü 18 kapanışın 15'i tam bu sınıftaydı. YARI'nın 36'sı da mevcut kesit
+testi kalıbıyla (delik-farkındalıklı nokta testi, O11 §17 deseni) büyük ölçüde
+otomatikleşir ama ayrı emek ister. Önerim: önce yalnız OTOMATİK katman —
+`denetle_kontrol.py` girdisi KONTROL.md satırları değil, satırlara eklenecek
+makine-okur bir `[kanıt: <dosya> <desen> <beklenen>]` alanı olmalı; yoksa araç
+benim serbest metnimi ayrıştırmaya çalışır ve kırılgan olur. Biçim kararı D+K'nın.
+
+---
+
+## 2026-07-31 (9. tur) — kanıt alanları + `arac/kontrol_dogrula.py` + İLK KOŞU: 8 kapanış
+
+K biçimi onayladı (`[kanıt: dosya · desen · beklenen]`, düz metin, ` · ` ayraç).
+
+**Alan ekleme — dürüst daraltma:** 49 "otomatik" satırın **33'üne** alan
+eklenebildi; 16'sı tek düz desene sığmadı (çoğu "mevcut tek-satır kayda alan
+ekleme" sınıfı — Urmiye/Niğde gibi, kayıt-içi kapsam ister; onlar alansız
+kaldı = elle muamelesi, K kuralına uygun).
+
+**Araç:** `arac/kontrol_dogrula.py` (sahibi T) — yalnız köşeli parantezi okur,
+serbest metne bakmaz; üç uçlu çıktı (✓/🔴/⚠️ bozuk); `var·yok·=N·>=N·<=N`;
+✅/❌ satırların kanıtı tarihçe sayılır, yeniden sınanmaz; çıkış kodu 🔴/⚠️'de 1.
+
+**İlk koşu: 33 kanıttan 8'i KAPANMIŞ çıktı** — dördü bağlam grep'iyle teyit
+edilip sekizi de kapatıldı: 10-21 (Nelson/Ebûkır metni gelmiş) · 10-22/24
+(Mekke-Tâif 1803-04-30 uygulanmış + savaslar'da Vehhâbî ×3) · 11-22/26
+(Biskra/Tuggurt dönem bölmeleri uygulanmış) · 11-24 (1849-01-01 Yemen maddesi
+yazılmış) · 11-36 (Abdülaziz ölümü 1876-06-04 ayrı madde) · 16-08 (hutbe
+cümlesi çıkarılmış). İkinci koşu TEMİZ: **25 ✓ · 0 🔴 · 0 ⚠️**, çıkış 0.
+
+**Günün kapanış toplamı: elle tarama 18 + araç 8 = 26.** K'nın "araç elle
+taramadan fazlasını bulmalı" beklentisi ilk koşuda kısmen doğrulandı (elle
+taramanın HEMEN ARDINDAN koşulduğu hâlde 8 buldu — akşam commitleri arada
+işlemişti; kalıcı değeri sonraki koşularda görünecek).
+
+**Sayım: ✅148 · ⚠️53 · ⏳43 · 🔬8 · ❌3 · ❓📷4 = 259.**
