@@ -1472,3 +1472,51 @@ Aynı gün üç vakası daha: görünmeyen `isg:` örtüsü (tüketicisi vardı,
 📌 Ve COĞRAFYA'nın bir üst basamağı: **"denetim, ölçtüğü şeyi ortadan
 kaldırabiliyorsa ölçmekten iyidir."** Sönen kenarı her koşuda saymak yerine
 üretimi çizime bağlayan tek bir bağ, kusuru **var olamaz** hâle getirir.
+
+---
+
+## §41 — Ölçüt bayatlamaz, ölçütün DAYANDIĞI ÖLÇÜM bayatlar
+
+(MOTOR'un teşhisi.) Bir kararı bir ölçüme dayandırırsın; sonra başka biri —
+ya da sen — o ölçümün girdisini **haklı bir gerekçeyle** değiştirir. Karar
+metni aynı kalır, dayanağı çürür, ve **kimse geri dönüp bakmaz.**
+
+**Vaka.** Çöl tavanı muafiyeti "alan bazlı mı, yerleşim bazlı mı" diye
+tartışılıyordu. Koordinatör önce (A) alan bazlı dedi; MOTOR'un ölçümü
+*"muaf 46 yerleşim, azami erişim 346 km, büyük ihlalcilerin hepsi tâbi
+kümede"* deyince (B)'ye çevirdi. **O sayılar doğruydu.**
+
+Sonra MOTOR, ayrı ve doğru bir gerekçeyle su kümesini genişletti:
+```
+su kümesi = motorun YASLAMA hattı  (41 parça)  → muaf 46
+su kümesi = nehir dosyasının TAMAMI (329 parça) → muaf 57
+gerekçe: "muafiyet 'burada su var mı' diye sorar, 'motor buraya
+          yaslanıyor mu' diye değil"
+```
+Bu geçişle Nijer ve Şari su sayıldı; **Timbuktu ve Ndjamena muaf kümeye
+girdi.** Yani kararı değiştiren tablo artık yoktu:
+```
+(B) yerleşim bazlı → muaf peteklerin azami erişimi 1.475 km (TIMBUKTU)
+    listenin en büyük ihlalcisi (812.532 km²) muafiyete kaçtı
+```
+**İki değişiklik de tek başına doğruydu; hatalı olan aralarındaki sessizlikti.**
+
+> **Kural: bir girdi kümesini değiştiren oturum, o kümeye dayanmış AÇIK
+> KARARLARI listelemek ve haber vermek zorundadır.**
+> Değişikliği duyurmak yetmez — **neyin dayanağını çürüttüğünü** duyurmak gerekir.
+
+📌 İkinci ders, aynı vakadan: **zayıf olduğunu bildiğin yeri ölç.** MOTOR (B)'yi
+yazarken güvencenin *yapısal değil veriye bağlı* olduğunu fark edip
+"her koşuda raporla" satırını ekledi. **İlk koşuda ateşledi.** O satır
+olmasaydı (B) bütün duman testlerinden geçerdi — 38 petek kısaldı, bindirme 0,
+boşalan petek 0, hepsi ✓ — ve Timbuktu'nun 1.475 km'si yayına giderdi.
+Güçlü sandığın yeri ölçmek gönül rahatlatır; **zayıf sandığın yeri ölçmek
+kusur bulur.**
+
+📌 Üçüncüsü, koordinatörün kendi hatası ve `§38`'in tekrarı: kabul ölçütü olarak
+*"Nil yerleşimlerinde %20'yi aşan alan düşüşü"* konmuştu. **Yanlış büyüklük** —
+erişim 346 → 300 km inince alan zaten `(300/346)² ≈ %75`'e düşer; ölçüt hem
+sağlıklı kırpmada hem gerçek kesilmede aynı alarmı verirdi, yani **ayırt
+etmiyordu.** Doğrusu alan değil **süreklilik**: Kahire–Hartum arasında vadide
+sahipsiz kesinti açılıyor mu. Ölçüt koşudan ÖNCE değiştirildi — sonra
+değiştirilseydi kale oynatılmış olurdu.
