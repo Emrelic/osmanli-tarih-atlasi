@@ -89,18 +89,19 @@ ilânıdır.**
 ⇒ **Önerim: `1914-12-18` kalsın, 43 kayıt ona hizalansın.** Veri değil,
 verinin çoğunluğu yanlış; azınlık (13) doğru.
 
-### 1b. 🟡 Ama mevcut maddenin `kaynak:`ı zayıf olabilir
+### 1b. 🔴 Ve mevcut maddenin `kaynak:`ı fakir — §5'te ÖLÇÜLDÜ
 
-Madde `kaynak:"misir"` diyor. `misir` maddesini çektim: **tarih bölümü
-1780-90'larda bitiyor**, XX. yüzyıla hiç girmiyor. Yani madde, olayı
-anlatmayan bir maddeye atıf yapıyor olabilir — sizin "fakir slug" sınıfınız.
+Madde `kaynak:"misir"` diyor. İlk çekimde tarih bölümünün 1780-90'larda
+bittiğini gördüm ama **kesin konuşmadım**: uzun ülke maddeleri bölümlere
+ayrılıyor, çektiğim gövde eksik olabilirdi.
 
-⚠️ **Kesin konuşmuyorum:** TDV'nin uzun ülke maddeleri bölümlere ayrılıyor
-ve çektiğim gövde eksik olabilir. Ama `abbas-hilmi-ii` olayı **açıkça ve
-tarihiyle** anlatıyor.
+> ⇒ **Sonradan hedefli olarak ölçüldü ve şüphe doğrulandı: §5a.**
+> `misir`'in tarih anlatısı gerçekten 1786'da bitiyor; eksik çekim değil,
+> **fakir slug.** Üstelik sorun bu maddeye özgü değil — `kaynak:"misir"`
+> kullanan **dokuz maddenin dokuzu** da 1786 sonrasını anlatıyor (§5b).
 
-**Önerim:** maddenin `kaynak:`ı `misir` → **`abbas-hilmi-ii`** olsun; `misir`
-doğrulanana kadar. Bu, maddenin metnini değiştirmez, yalnız atfını sağlamlaştırır.
+**Önerim:** maddenin `kaynak:`ı `misir` → **`abbas-hilmi-ii`**. Metni
+değiştirmez, yalnız atfını sağlamlaştırır.
 
 ---
 
@@ -185,8 +186,9 @@ isg:[{f:"1882-09-13", t:"1914-12-18", d:"ingiltere", kaynak:"❓"}]
   maddesi var (benim yazdığım). Kahire'nin düşüşü ve Urâbî ordusunun dağılması.
 - **Bitiş `1914-12-18`** — himaye ilânı; o tarihte örtü gereksizleşir çünkü
   `s:"ingiltere"` başlar.
-- `kaynak:` ❓ — `misir` doğrulanmadı (§1b), `abbas-hilmi-ii` 1882'yi
-  anmıyor. **Bir TDV maddesi bulmam gerek**; isterseniz bakarım.
+- `kaynak:` **`urabi-pasa`** — ❓ **kapandı, §5e.** Madde 1882'yi gün gün
+  veriyor (*"13 Eylül'de … Tellülkebîr"*) ve başlangıç tarihimi bağımsız
+  olarak doğruluyor.
 
 ⚠️ **Bu 56 kayıtlık bir iştir ve ölçüsünü şimdi yazıyorum ki üçüncü kez aynı
 hataya düşmeyelim.** `isg:` kırılma üretmediği için (`DUZELTMELER §18a`)
@@ -209,3 +211,126 @@ kronoloji borcu doğurmaz; maliyeti yalnız 56 satır düzenleme.
 
 **Ölçülmüş kapsam: 43 kayıt (hizalama) + 56 kayıt (`isg:` örtüsü).**
 İkisi de `yerlesimler.js` ve `yerlesimler_afrika.js`'te, yani sizde.
+
+---
+
+# 5. `kaynak:"misir"` ölçüldü — **fakir slug, kesin. Ve dokuzunun dokuzu.**
+
+## 5a. Ayrım yapıldı: eksik çekim DEĞİL
+
+Hedefli çekim istediniz. Maddenin **yapısını** çektim, özetini değil:
+
+| # | Bölüm | Yazar | Kapsadığı yıllar |
+|---|---|---|---|
+| I | Fizikî ve Beşerî Coğrafya | Suna Doğaner | — |
+| II | Tarih — Başlangıçtan Bizans'a | Hilal Görgün | ~MÖ 5000 – 395 |
+| | Bizans Dönemi | Casim Avcı | 306 – 642 |
+| | Fetihten Osmanlı Dönemine | Cengiz Tomar | 640 – **1517** |
+| | **Osmanlı Dönemi** | Seyyid Muhammed es-Seyyid | 1517 – **1786** |
+
+**Son cümle** (birebir): *"Bâbıâli ise Fransızlar'ın Mısır'a girişine kadar
+bu durumu kabul etmek zorunda kaldı."*
+
+🔴 **Bu eksik çekim değil, üç sebeple:**
+1. **Bölüm yapısı eksiksiz geldi** — beş bölüm, yazar adlarıyla. Çekim
+   kesilseydi yapı da kesilirdi.
+2. **Son cümle bir kapanış cümlesi**, yarım kalmış bir cümle değil.
+3. İki ayrı çekim, iki ayrı istem, **aynı terminus**: 1786.
+
+⇒ **`misir` maddesinin tarih anlatısı 1786'da bitiyor.** Fransız işgalinin
+arifesinde, kasıtlı olarak. Modern Mısır bu maddede yok.
+
+## 5b. 🔴 Dokuz maddenin DOKUZU da 1786'dan sonra
+
+`kaynak:"misir"` kullanan **9 madde** var. Tarihleri:
+
+| Tarih | Madde | 1786 sonrası? |
+|---|---|---|
+| 1798-07 | Napolyon'un Mısır'ı işgali | ✗ |
+| 1798-09-03 | Fransa'ya savaş ilanı | ✗ |
+| 1801-10-09 | Mısır'ın Fransızlardan tahliyesi | ✗ |
+| 1802-06-25 | Paris Antlaşması | ✗ |
+| 1805-07-09 | Mısır valiliği fermanı | ✗ |
+| 1807-03-17 | Fraser seferi | ✗ |
+| 1841-06-01 | Valiliğin irsî bırakılması | ✗ |
+| 1882-09 | Mısır'ın İngiliz işgali | ✗ |
+| 1914-12-18 | İngiliz himayesi ve sultanlık | ✗ |
+
+**Kısmî değil, tam.** `misir`'i kaynak gösteren her madde, maddenin
+anlatmadığı bir dönemi anlatıyor. Şüphem doğruymuş ve tahmin ettiğimden
+temiz çıktı: ayıklanacak bir alt küme yok, dokuzu da taşınacak.
+
+## 5c. 🔴 İKİSİNİN TARİHİ DE YANLIŞ — ve doğrusu veride zaten var
+
+Doğru maddeyi (`kavalali-mehmed-ali-pasa`, ✅ canlı, 1769-1849) çekince
+çıktı:
+
+| Madde | Yazan tarih | TDV `kavalali-mehmed-ali-pasa` | Veri ne diyor |
+|---|---|---|---|
+| Valilik fermanı | `1805-07-09` | *"valiliğe getirildi **(3 Temmuz 1805)**"* | **1805-07-03** (56 kayıt) ✅ |
+| İrsî ferman | `1841-06-01` | *"**24 Mayıs 1841** tarihli bir fermanla…"* | **1841-05-24** (4 kayıt) ✅ |
+
+🔴 **İki maddede de veri TDV ile uyuşuyor, KRONOLOJİ uyuşmuyor.** Yani
+alışılmışın tersi: bu kez geride kalan kronoloji.
+
+📌 A5'in `1805-07-03` düzeltmesi bununla **bağımsız olarak doğrulanmış oldu** —
+başka bir maddeden, başka bir oturumdan. Ama maddenin kendisi hâlâ 07-09'da.
+
+## 5d. 🔴 AYNA TUZAĞININ ÜÇÜNCÜ VAKASI — ve sınama ilk kullanımda yakaladı
+
+1882 için slug ararken `urabi` araması iki sonuç verdi. **İkisini de
+iki aşamalı sınamadan geçirdim:**
+
+| Slug | `<title>` | Gövde | Sonuç |
+|---|---|---|---|
+| `ahmed-urabi-pasa` | AHMED URÂBÎ PAŞA - TDV… ✅ | *"**bk. URÂBÎ PAŞA**"* | 🔴 **YÖNLENDİRME KÜTÜĞÜ** |
+| `urabi-pasa` | URÂBÎ PAŞA - TDV… ✅ | gerçek madde, dört tarihli cümle | ✅ **ASIL MADDE** |
+
+`<title>` sınaması ikisini de "canlı" sayardı. **Dün önerdiğim ikinci aşama
+(gövde "bk. XXX"ten mi ibaret) ilk uygulamasında bir vaka yakaladı.**
+`alaiye` ve `habesistan`dan sonra üçüncü.
+
+## 5e. 🟢 Ve `isg:` örtüsünün ❓'si kapandı
+
+`urabi-pasa` 1882'yi **gün gün** veriyor:
+
+> *"11-12 Temmuz'da İskenderiye istihkâmlarını topa tuttu"*
+> *"İngilizler **15 Temmuz**'da İskenderiye'yi işgal etti"*
+> *"**13 Eylül**'de … **Tellülkebîr** mevkiinde … ağır bir yenilgiye uğradı"*
+
+🟢 **`OTURUM-14-NIL-ZINCIRI §3b`'de `kaynak:"❓"` bıraktığım örtünün kaynağı
+budur:**
+```js
+isg:[{f:"1882-09-13", t:"1914-12-18", d:"ingiltere", kaynak:"urabi-pasa"}]
+```
+Ve başlangıç tarihi **bağımsız olarak doğrulandı**: benim `olaylar_ek9.js`'e
+yazdığım `1882-09-13 Tel el-Kebîr` maddesi TDV'nin *"13 Eylül"*üyle birebir.
+`1882-07-11 İskenderiye'nin bombardımanı` maddem de *"11-12 Temmuz"*la uyuşuyor.
+
+## 5f. Önerilen `kaynak:` taşıması
+
+| Madde | `misir` → | Doğrulama |
+|---|---|---|
+| 1805-07-09 *(+ tarih 07-03'e)* | **`kavalali-mehmed-ali-pasa`** | ✅ çekildi, gün veriyor |
+| 1841-06-01 *(+ tarih 05-24'e)* | **`kavalali-mehmed-ali-pasa`** | ✅ çekildi, gün veriyor |
+| 1882-09 *(+ gün hassasiyetine)* | **`urabi-pasa`** | ✅ çekildi, gün veriyor |
+| 1914-12-18 | **`abbas-hilmi-ii`** | ✅ çekildi (§1) |
+| 1798-07 · 1801-10-09 | `kahire` ya da `aris` | 🟡 ikisi de canlı, **hangisinin daha uygun olduğunu ölçmedim** |
+| 1798-09-03 · 1802-06-25 · 1807-03-17 | ❓ | 🔴 **araştırılmadı** — üçü de Osmanlı-Fransa diplomasisi, Mısır maddesi zaten yanlış adres |
+
+⚠️ Son iki satırı **tahminle doldurmuyorum.** Beşi için slug önermem yeni bir
+araştırma turu ister; isterseniz yaparım, ama bu turda ölçülmediğini
+yazıyorum ki "önerildi" sanılmasın.
+
+## 5g. 📌 Sınıf ayrımı — sizin uyarınız işledi
+
+*"Fakir slugda `kaynak:` değişir, eksik çekimde tekrar denenir"* demiştiniz.
+Ayrım gerçekten belirleyici oldu: **eksik çekim sansaydım** `misir`'i tekrar
+tekrar çekip modern bölümü arardım ve bulamazdım; **fakir slug olduğunu
+ölçtüğüm için** doğrudan yerine koyacak maddeleri aramaya geçtim — ve
+`kavalali-mehmed-ali-pasa` ile `urabi-pasa` iki bonus verdi (iki yanlış tarih
+ve örtünün eksik kaynağı).
+
+A5'in `misir` çekiminin 1786'da kesilmesi de artık açıklanıyor: **çekim
+kesilmedi, madde orada bitiyor.** Aynı gözlem, iki farklı teşhis — ölçüm
+hangisinin doğru olduğunu söyledi.
