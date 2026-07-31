@@ -60,17 +60,38 @@ PENCERE_GUN = 30            # Değişmez 2 ile aynı; bilerek aynı
 # yükseltmek denetimi işlevsizleştirir; doğru okuma ORANDIR (%13 → %15).
 # Oran ciddi biçimde yükselirse yeni yazılan maddeler yerinden bahsetmiyor
 # demektir. Sayı tavanı yalnız kaba bir emniyet kemeri.
-BEKLENEN_A = 68
+# 68 -> 97: SAYI ARTTI AMA VERİ KÖTÜLEŞMEDİ — araç körlüğünü kaybetti.
+# `d:` gövdesi eşleştirmeden çıkarılınca (§26 üretilmiş ek) 28 kırılmanın
+# sahte geçişi ortaya döküldü, iki yanlı kelime sınırı da bir kısmını ekledi.
+# Tavanı yükseltmek burada GERİLEME DEĞİL, ölçüm düzelmesidir.
+BEKLENEN_A = 97
 # B'nin tavanı ölçüldü: 14. İlk ölçüm 18'di ve fark ARACIN DÜZELMESİNDEN geldi
 # — kelime sınırı eklenince Niş, Şam, Özi çözüldü. Veri değişmedi, körlük azaldı.
-BEKLENEN_B = 14
+# 14 -> 17: aynı sebep — sağ kelime sınırı "Roma ⊂ Romanya" gibi sahte
+# çözümleri kaldırdı, o maddeler artık "şehri çözülemeyen" sayılıyor.
+BEKLENEN_B = 17
+# ÖLÇÜLDÜ (31 Temmuz 2026 · 951 yerleşim · 984 madde): 184 madde birden çok
+# yerleşim anıyor, **113'ünde anılan yerlerin bir kısmı kıpırdamıyor**
+# (fetih 58 · kayip 35 · antlasma 20).
+# ⚠️ TAVAN İLK KOŞUDAN SONRA KONDU, önce değil. Bu dosyada tavanı ölçmeden
+# yazmak iki kez yanlış çıktı (bkz. denetim/BITISIKLIK-2026-07-30.md).
+BEKLENEN_C = 113
 
-# Kısa adlar için kelime sınırı ŞART. İlk ölçümde "en az 4 harf" filtresi vardı
-# ve Niş, Şam, Özi'yi eledi — üçü de yerlesimler.js'te VARDI, araç yokmuş gibi
-# raporladı. Filtre veriyi değil kendi körlüğünü ölçüyordu.
-# Uzun adlarda düz alt dize yeterli ("Bağdat'ın" içinde "Bağdat" geçer);
-# kısa adlarda sınır olmadan "Şam" kelimesi "Şamahı"nın içinde eşleşir.
-KISA_AD = 5
+# ⚠️ AD EŞLEŞTİRME İKİ KEZ YANLIŞ KURULDU; ikisi de kayda geçsin.
+#   1) "en az 4 harf" filtresi Niş, Şam, Özi'yi eliyordu — üçü de veride VARDI.
+#   2) Sonra SOL kelime sınırı eklendi ama SAĞ sınır konmadı. Türkçe eklemeli
+#      bir dil olduğu için bu sessizce yanlış eşleşme üretti:
+#         "Bar (Podolya)"  ⊂  "barışı"        → 26 maddede hayalet yerleşim
+#         "Roma"           ⊂  "Romanya"
+#         "Kazan"          ⊂  "kazanıldı"
+#         "Kavala"         ⊂  "Kavalalı"
+#         "Ordu"           ⊂  "ordusunun"
+#      ARABİSTAN oturumu §19'da parça eşleşme uyardı; ölçünce çoklu-yer
+#      denetiminde 151 bulgunun 38'inin bu hayaletlerden geldiği çıktı.
+# ŞİMDİKİ KURAL: iki yanda da harf olmayacak. Türkçe eki kesme işareti ayırır
+# ("Bağdat'ın" → "Bağdat" + "'"), o yüzden apostrof sağ sınır sayılır ve
+# yumuşak/kıvrık apostrof düz apostrofa normalize edilir.
+HARF = "a-zçğıöşüâîû"
 
 # `s:`/`d:` kayıtlarında ad parantezli alternatif taşıyabiliyor. Bazıları
 # GENEL COĞRAFYA sözcüğü ("Batı çölü (Mısır)", "Üstyurt platosu (doğu)") ve
@@ -92,14 +113,12 @@ def _adlar(y):
 
 
 def indeks(Y):
-    """(desen, yerleşim) çiftleri — kısa adlar kelime sınırıyla derlenir."""
+    """(desen, yerleşim) çiftleri — HER ad iki yanlı kelime sınırıyla derlenir."""
     ix = []
     for y in Y:
         for a in _adlar(y):
-            if len(a) < KISA_AD:
-                ix.append((re.compile(r"(?<!\w)" + re.escape(a.lower())), y, a))
-            else:
-                ix.append((None, y, a.lower()))
+            d = re.compile(f"(?<![{HARF}])" + re.escape(a.lower()) + f"(?![{HARF}])")
+            ix.append((d, y, a.lower()))
     return ix
 
 
@@ -111,12 +130,8 @@ def gecen(ix, metin):
     kopyada düzeltilip diğerinde unutulsa iki araç aynı veriye farklı cevap
     verirdi — bu depoda `girdi.py` tam bu yüzden tek okuma noktası yapıldı.
     """
-    m = (metin or "").lower()
-    bulunan = []
-    for desen, y, a in ix:
-        if (desen.search(m) if desen else (a in m)):
-            bulunan.append(y)
-    return bulunan
+    m = (metin or "").lower().replace("’", "'")
+    return [y for desen, y, _ in ix if desen.search(m)]
 
 
 def _sahipli(y, g):
@@ -129,8 +144,15 @@ def _sahipli(y, g):
 
 # ------------------------------------------- A) kırılma → madde (§18)
 def a_yanlis_eslesme(Y, O, ix):
-    ol = [{"g": denetle.gun_no(o["t"]), "m": (o.get("b", "") + " " +
-           o.get("yer", "") + " " + o.get("d", "")), "b": o.get("b", "")} for o in O]
+    # ⚠️ `d:` GÖVDESİ BİLEREK DIŞARIDA. OGRENILENLER §26: gövdenin sonundaki
+    # "Aynı tarihte elden çıkan diğer yerleşimler: …" cümlesi ÜRETİLMİŞ bir ektir
+    # ve zaten kırılması olan adları sayar. Onu eşleştirmeye katmak denetimin
+    # kendi kuyruğunu ısırması demek: kırılma, kendi ürettiği listede adı geçtiği
+    # için "maddesi var" sayılıyordu. Ölçüldü — 28 kırılma bu yolla sessizce
+    # geçmiş (67 → 95). Yenbu' 1811-11-01 tam bu 28'in içindeydi.
+    ol = [{"g": denetle.gun_no(o["t"]),
+           "m": (o.get("b", "") + " " + o.get("yer", "")),
+           "b": o.get("b", "")} for o in O]
     kir = {}
     for y in Y:
         for p in (y.get("d") or []) + (y.get("v") or []):
@@ -166,6 +188,51 @@ def b_madde_sehri(O, ix):
         if not any(_sahipli(y, g) for y in bulunan):
             donemsiz.append((o["t"], bulunan[0]["ad"], o.get("b", "")[:44]))
     return yok, donemsiz
+
+
+# --------------------- C) ÇOKLU YER — maddenin andığı HER yer kıpırdıyor mu
+# ARABİSTAN oturumunun bulduğu sınıf (hatalar 16 md.8). Kullanıcı şunu gördü:
+#
+#   ek5:300 (1803-05-15) "Vehhâbîlerin MEKKE ve TÂİF'i ele geçirmesi"
+#                        → haritada yalnız TÂİF döner, Mekke'de 1803 dönemi YOK
+#   ek6:85  (1806-02-01) "MEKKE'nin Vehhâbîlere kaybı"  → MEKKE döner
+#
+# "Mekke alındı" başlığı iki kez okunuyor, harita birincisinde başka yeri
+# boyuyor. Kullanıcının "iki kez farklı yerlerde aksiyon" şikâyeti bu.
+#
+# ÜÇ DENETİM DE KAÇIRIYOR ve sebebi aynı — hepsi VARLIK sorar, KAPSAM sormaz:
+#   Değişmez 2  : "her kırılmanın maddesi var mı"  → Tâif'in kırılması var, geçer
+#   Değişmez 2t : "her maddenin kırılması var mı"  → aynı sebeple geçer
+#   mükerrer    : ±400 gün bakar, iki madde arası 993 gün → menzil dışı
+# Hiçbiri "maddenin andığı HER yerleşimin kırılması var mı" sormuyor.
+#
+# ⚠️ MÜKERRER DEĞİLLER. TDV `mekke` Mekke'nin iki kez düştüğünü veriyor
+# (30 Nisan 1803 işgal → ~6 Ağustos 1803 Şerif Gālib geri alır → Ocak 1806
+# ikinci düşüş → 23 Ocak 1813 Tosun Paşa). Mükerrer kademesi doğru davrandı.
+def c_coklu_yer(Y, O, ix):
+    kir = {}
+    for y in Y:
+        for kat in ("d", "v", "s"):
+            for p in (y.get(kat) or []):
+                for dt in (p.get("f"), p.get("t")):
+                    if dt:
+                        kir.setdefault(y["ad"], set()).add(denetle.gun_no(dt))
+    coklu, eksik = 0, []
+    for o in O:
+        if o.get("k") not in ("fetih", "kayip", "antlasma"):
+            continue
+        anilan = {y["ad"] for y in gecen(ix, o.get("b", "") + " " + o.get("yer", ""))}
+        if len(anilan) < 2:
+            continue
+        coklu += 1
+        g = denetle.gun_no(o["t"])
+        kipirdayan = {a for a in anilan
+                      if any(abs(x - g) <= PENCERE_GUN for x in kir.get(a, ()))}
+        if len(kipirdayan) < len(anilan):
+            eksik.append((len(anilan) - len(kipirdayan), len(anilan), o["t"],
+                          o.get("k", ""), o.get("b", ""), sorted(anilan - kipirdayan)))
+    eksik.sort(reverse=True)
+    return coklu, eksik
 
 
 def main():
@@ -225,6 +292,30 @@ def main():
     print( "       oluyor, yani A ve B temiz. Sorun ETİKETİN EKRANDA ÇIKMAMASI")
     print( "       (`g:0`, k:3 — düşük gösterim kademesi). O eşik js/app.js'in ve")
     print( "       Oturum 1'in işi; bu araç veriye bakar, ekrana bakamaz.")
+
+    n_coklu, eksik = c_coklu_yer(Y, O, ix)
+    print()
+    print(f"=== C) ÇOKLU YER — {n_coklu} madde birden çok yerleşim anıyor ===")
+    print( "    Madde N yer anıyor ama yalnız M'si kıpırdıyor (M < N).")
+    print( "    Değişmez 2 VARLIK sorar, bu KAPSAM sorar.")
+    if len(eksik) > BEKLENEN_C:
+        ihlal += 1
+        print(f"  ✗ eksik kırılmalı: {len(eksik)} (tavan {BEKLENEN_C}) — YENİ EKSİK")
+    else:
+        print(f"  i eksik kırılmalı: {len(eksik)} (tavan {BEKLENEN_C}) — bilinen borç")
+    say = {}
+    for r in eksik:
+        say[r[3]] = say.get(r[3], 0) + 1
+    print("    tür dağılımı: " + ", ".join(f"{k}×{v}" for k, v in
+                                           sorted(say.items(), key=lambda x: -x[1])))
+    print( "    ⚠️ KALINTI YANLIŞ POZİTİF SINIFI VAR ve ayrıştırılamıyor: madde")
+    print( "       karşı TARAFI ya da ANTLAŞMA ADINI anabilir ('Modon'un")
+    print( "       VENEDİK'e kaybı', 'İSTANBUL Antlaşması') — o adlar toprak")
+    print( "       değiştirmez. Bu yüzden ihlal değil, gözden geçirme kademesi.")
+    for r in (eksik if ayrinti else eksik[:14]):
+        print(f"      {r[0]:2d}/{r[1]:2d} eksik  {r[2]}  {r[3]:9s} {r[4][:42]:42s} {r[5][:3]}")
+    if not ayrinti and len(eksik) > 14:
+        print(f"      … {len(eksik)-14} satır daha (--ayrinti)")
 
     print()
     print("SONUÇ:", "temiz ✓" if not ihlal else f"İHLAL VAR ({ihlal} başlık) — çıkış kodu 1")
