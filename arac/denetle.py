@@ -45,7 +45,8 @@ DATA = os.path.join(KOK, "data")
 # bu iki sabit o gece saat başı değişti. Sapma uyarısı bilgi amaçlıdır, ihlal
 # değildir — ama üretim koşturacak oturum ÖNCE girdinin donduğunu teyit etmeli.
 # 927 -> 939: Oturum 14'ün Libya partisi (12 nokta).
-BEKLENEN_YERLESIM = 951
+# 951 -> 965: YAMACI'nin 8 paketi (+14).
+BEKLENEN_YERLESIM = 965
 # 29 -> 32: Oturum 4'ün Necid noktaları (Buraydâ, Uneyze, Şakrâ) 1744
 # öncesinde kasten sahipsiz — orada devlet yoktu, Riyad ve Dir'iye ile
 # aynı desen (MIMARI.md §6: 'devletsiz' ile 'veri yok' ayrımı).
@@ -87,7 +88,8 @@ BEKLENEN_SAHIPSIZ = 50
 # emekli ediyor; zemin su anda hareketli, tavan kosudan hemen once olculmeli.
 # 448 -> 456: A5'in yedi TDV tarih duzeltmesi (Yemen/Asir).
 # 456 -> 458: uc TDV duzeltmesi daha (Sevakin/Masavva/Dahlak).
-BEKLENEN_KIRILMA = 458
+# 458 -> 462: YAMACI'nin 8 paketi.
+BEKLENEN_KIRILMA = 462
 BEKLENEN_ACIK = 0
 # ⚠️ `s:` boyutu ON AY BOYUNCA HİÇ DENETLENMEDİ (Oturum 13 buldu). Ölçüldü:
 # 566 yabancı kırılması, 115'inin ±30 günde maddesi yok. 115'i İHLAL ilan etmek
@@ -118,7 +120,22 @@ BEKLENEN_KIRILMASIZ = 65
 # 325 -> 381: Oturum 4'ün 126 yerleşimi eklendi; m alanının zamansızlık
 # borcu nokta sayısıyla doğru orantılı büyüyor. Gerçek çözüm zamanlı kd:.
 # 381 -> 383: Kanina ve Oreoi eklendi.
-BEKLENEN_CELISKI_UST_SINIR = 383
+# 383 -> 387: ⚠️ TAVAN UC AYRI SEBEPLE ARTABILIR, BU UCUNCUSU:
+#   (a) GERILEME     veri kotulesti          -> tavan ARTMAMALI, duzeltilmeli
+#   (b) ARAC DUZELDI korluk kalkti           -> tavan artar, veri ayni
+#                    (BEKLENEN_A 68->97 boyleydi)
+#   (c) SEMA SINIRI  veri DOGRULANDI ama sema yetmiyor   <- BU
+# Kok sebep BAGIMSIZ OLCUMLE dogrulandi (YAMACI olctu, ben tekrar olctum,
+# ikisi de +4 dedi ve AYNI dort cifti gosterdi):
+#     1300-06-15  Akkirman/Kili  m:"Silistre"  bogdan <-> bulgaristan
+#     1400-06-15  Akkirman/Kili  m:"Silistre"  bogdan <-> OSMANLI
+# Kili/Akkirman'in m: alani TDV kaynakli olarak "Yas" -> "Silistre" oldu.
+# O kesitlerde Kili hala bogdan, yeni merkezi Silistre baska devlette. AMA
+# 1484 fetihinden ONCE Silistre'nin Kili uzerinde idari bagi YOKTU - bag
+# fetihle kuruldu. `m:` alani ZAMANSIZ oldugu icin sema bunu ayiramiyor.
+# ⇒ Bu bir gerileme DEGIL; YAPILACAKLAR'daki "k/m alanlari zamanli olmali"
+#   borcunun olculmus bir vakasi. Duzeltme burada degil, semada.
+BEKLENEN_CELISKI_UST_SINIR = 387
 
 # Türkçe harf kümesi — kelime sınırı için. `denetle_eslesme.py` ile aynı;
 # oradan import EDİLMİYOR (stdout sarmalayıcı çakışması, bkz. _madde_yeri_aniyor).
