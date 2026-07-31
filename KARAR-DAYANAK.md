@@ -65,3 +65,30 @@ dayanaktır — çünkü su tanımı değişince değişir.
 
 📌 Bu satırın burada durmasının sebebi: kusurun **bedeli** yazılmazsa kural
 "iyi fikir" kalır. Bir üretim koşusu ≈ 40 dakika.
+
+---
+
+## PENCERE (`BOLGE`) — kullanıcının "dünya" isteğinin tek düğümü
+
+| # | karar | dayandığı ölçüm | sayı | sahip |
+|---|---|---|---|---|
+| 15 | **Pencere, verinin BİTTİĞİ yerde değil SEYRELDİĞİ yerin ötesinde kapanır** | sınırın **±5° bandındaki nokta sayısı** | bugünkü 62°D → **1 nokta** (tesadüfen boşluk) · 75°D → **89 nokta** | MOTOR |
+| 16 | **`ortaasya2` tek başına merge EDİLMEZ** — Asya ile birlikte gider | dosya bazında **en yakın komşu ortancası** (eşik 175 km) | asya **97 km ✓** · avrupa **70 km ✓** · ortaasya2 **225 km 🔴** | MOTOR |
+| 17 | **Kuzeye açmanın bedeli doğuya açmaktan FARKLI** — ayrı ölçüm, ayrı karar | **SRTM kapsama sınırı** | 56°G–**60°K**; 62°K üstünde yaslama sessizce çalışmaz ⇒ "cetvel" garanti | MOTOR · COĞRAFYA |
+| 18 | **Kutu açılınca sıra: `uret_petek.py` → `uret_altlik.py` → denetimler** | `BOLGE`'nin kaç dosyada ve **nasıl** durduğu | 4 dosya; `uret_altlik.py` kaynaktan **ayrıştırıyor ✓**, `denetle_kapsama.py:38` **elle kopya 🔴** | MOTOR · DENETÇİ |
+
+📌 15-18 birlikte, kullanıcının beş ayrı coğrafya şikâyetini tek düğüme
+indiriyor. ARAYÜZ ölçtü: Tahran 51,4D ve Meşhed 59,6D **içeride**, Buhara
+64,4D ve Semerkant 66,9D **dışarıda**; Stokholm 59,3K **içeride**, Kiruna
+67,9K **dışarıda**. Yani *"İran'ın yarısı"* aslında İran değil **Orta Asya**,
+*"İsveç'in kuzeyi"* **62°K üstü**. Renk/dosya/nokta değil — **kutu kenarı.**
+
+### 🔴 ÇÜRÜMEYE ADAY — henüz çürümedi, tetiği yazılı
+
+| dosya | risk | tetik |
+|---|---|---|
+| `denetle_kapsama.py:38` | `BOLGE` **elle kopyalanmış** (yorumu itiraf ediyor: *"Burada KOPYALANMIŞTIR"*) | Kutu açıldığı **an** çürür: denetim eski pencereyle ölçüp *"kapsama tam"* der — **yayını doğrulayan araç doğruladığı şeyden geride kalır.** Çare `uret_altlik.py`'deki dört satırlık ayrıştırma deseni. |
+
+📌 Bu satır, çürümüş dayanak kaydından **farklı**: orada olmuş bir şey yazılı,
+burada olacağı bilinen bir şey. İkisini ayrı tutmanın sebebi, ikincisinin
+**önlenebilir** olması.
