@@ -35,6 +35,35 @@ Ayrıca bir oturuma **beş kez** durum sordum ve cevap gelmedi — oysa o oturum
 > **Kural:** Bitirdiğini kendi ilerleme dosyana yazarsın. Takipçi mesaj beklemez,
 > dosyaları okur. Mesaj YALNIZ acil kesme içindir (kilit, hata, durdurma).
 
+### Karar 2b — `/compact` ÖNCE YAZ, SONRA SIKIŞTIR
+
+**`/compact` çalışmayı çöpe atmaz** — dosyalar, commit'ler, denetimler yerinde
+kalır. Yalnız **konuşmayı** sıkıştırır. Yani sıkıştırmanın maliyeti, o oturumun
+**henüz dosyaya yazmadığı** şey kadardır.
+
+> **Kural: sıkıştırmadan önce ilerleme dosyanı yaz.** Yazdıysan sıkıştırma
+> bedava; yazmadıysan ölçümünü kaybedersin ve yeniden ölçmek sıkıştırmanın
+> kazandırdığından pahalıya gelir.
+
+Bu, Karar 2'nin ("durum dosyayla akar") ikinci gerekçesi: aynı disiplin hem
+mesaj çakışmasını hem sıkıştırma kaybını önlüyor.
+
+**Ne zaman:**
+| Durum | Yapılacak |
+|---|---|
+| Uzun konuşma + **iş sınırında** (paket teslim, koşu bitti) | `/compact` — en ucuz an |
+| Uzun konuşma + **iş ortasında** | **sıkıştırma**; birazdan gerekecek ayrıntıyı kaybedersin |
+| Aynı oturum **bambaşka** bir bölgeye/işe geçiyor | `/clear` + yeni brifing |
+| Kısa konuşma | ikisi de gereksiz, sıkıştırma da token yakar |
+
+⚠️ **Gereksiz sıkıştırma iki kez ödetir:** sıkıştırmanın kendisi konuşmayı
+okuyup özet yazar (token), sonra kaybolan ayrıntı için dosyalar yeniden okunur
+(token). Bu yüzden "ne olur ne olmaz" diye sıkıştırmak zarardır.
+
+📌 **Asıl token kalemi sıkıştırma değil:** uzun oturumlar arası mesajlar ve
+büyük dosyaların tekrar tekrar okunması. Karar metinlerini mesaj yerine
+**dosyaya** yazmak ikisini birden azaltır.
+
 ### Karar 3 — Denetim, hafızanın kendisidir
 
 Bugün 12 denetim kuruldu ve bunların üçü doğrudan "yaptım mı?" sorusunu makineye
