@@ -45,7 +45,7 @@ DATA = os.path.join(KOK, "data")
 # bu iki sabit o gece saat başı değişti. Sapma uyarısı bilgi amaçlıdır, ihlal
 # değildir — ama üretim koşturacak oturum ÖNCE girdinin donduğunu teyit etmeli.
 # 927 -> 939: Oturum 14'ün Libya partisi (12 nokta).
-BEKLENEN_YERLESIM = 942
+BEKLENEN_YERLESIM = 951
 # 29 -> 32: Oturum 4'ün Necid noktaları (Buraydâ, Uneyze, Şakrâ) 1744
 # öncesinde kasten sahipsiz — orada devlet yoktu, Riyad ve Dir'iye ile
 # aynı desen (MIMARI.md §6: 'devletsiz' ile 'veri yok' ayrımı).
@@ -64,7 +64,13 @@ BEKLENEN_YERLESIM = 942
 # Uc yeni ad, sifir kaybolan ad — yani mevcut 40 in hicbiri sessizce sahiplenmedi.
 # Bu kontrol onemli: sayi 40 dan 43 e ciksa da icerik degisseydi (2 yeni + 1
 # kaybolan gibi) fark gorunmezdi. Sayi degil KUME karsilastiriliyor.
-BEKLENEN_SAHIPSIZ = 43
+# 43 -> 50: Oturum 14'un dokuz Libya noktasi (c7ce502), yedisi kasten sahipsiz.
+# Kume karsilastirmasi: yedi YENI ad, sifir kaybolan.
+#   Idehan Ubari · Ramletu Murzuk · Vadi Tanezzuft · Serir Kalansu ·
+#   Ramletu Zellaf · Ma'tan es-Sarra · Tasili n'Accer
+# NOT: merkez oturum "Ramletu Murzuk GB" diye bildirdi, veride "Ramletu Murzuk"
+# yaziyor. Adi kumeden okudum, mesajdan degil - denetim veriye bakar.
+BEKLENEN_SAHIPSIZ = 50
 # 427 -> 432: Kirmanşah 1590-1603 (+2), Tarki tâbiiyeti (+2, mevcut günlere
 # oturdu), Kaheti tâbiiyeti (+2), Şirvan ara şehirleri (+0, mevcut günler),
 # Azak'ın 1637-1642 Kazak işgali (+2), Şehrizor 1554-01-01 -> 1554-08-22 (+0).

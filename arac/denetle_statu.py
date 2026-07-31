@@ -295,6 +295,70 @@ def d_isgal_ortusu(Y, ol):
     return dsiz, acikta, kendi, maddesiz, ksiz
 
 
+# ------------------------------------------ E) `k:` etiketi anakronizmi
+# 🔴 GÖRÜNMEZ HATA SINIFI. `k:` alanını MOTOR OKUMUYOR (girdi.py:129) — etiket
+# değişince harita renk değiştirmez, geometri değişmez, kırılma doğmaz. Yedi
+# denetimin hiçbirine takılmaz. **Yalnız kullanıcı panelde okuyunca görür.**
+#
+# Yaşanmış (merkez oturum, 2026-07-31): dört kaydın anakronik
+# `k:"Cezayir Ocaklığı (dayı idaresi)"` etiketi DEĞİŞTİRİLDİ; oysa dönemi
+# BÖLMEK gerekiyordu. Ocaklık 1830'da lağvedildi ama 1671-1830 arası gerçekten
+# ocaklıktı. 2-3 yıllık bir anakronizm düzeltilirken kayıt başına 159 YILLIK
+# yenisi yazıldı — anakronizm yok olmadı, YÖNÜ TERSİNE DÖNDÜ. Hiçbir araç görmedi.
+#
+# Bu, §3.5'teki hayalet devlet denetiminin `v:` ETİKETLERİNE uygulanmış hâli.
+#
+# ⚠️ SÖZLÜK YALNIZ DOĞRULANABİLDİĞİM KURUMLARI İÇERİR. Ömrünü kaynağa
+# dayandıramadığım etiket buraya YAZILMAZ ve "denetlenmiyor" diye raporlanır —
+# denetle_anakronizm.py'nin `harita:` karşılığı olmayan 6 kimlik için yaptığının
+# aynısı. Uydurma bir ömür, denetimi kendi uydurmasını doğrulayan şeye çevirir.
+KURUM_OMRU = {
+    "Cezayir Ocaklığı (dayı idaresi)": ("1671-01-01", "1830-07-05"),
+    "Tunus Ocaklığı (Hüseynîler)": ("1705-07-15", "1881-05-12"),
+    "Trablusgarp Ocaklığı (Karamanlılar)": ("1711-03-01", "1835-05-26"),
+    "Macaristan (Zapolya vasal krallığı)": ("1526-09-01", "1541-08-29"),
+    "Erdel Prensliği": ("1541-08-29", "1687-08-12"),
+    "Crnojeviç Zetası (Osmanlı tâbii)": ("1451-01-01", "1499-01-01"),
+    # Ahmed Bey Konstantin'i 1826'da devraldı, Fransızlar 1848'de sürgün etti.
+    # ⚠️ Veride bir varyantı 1671'de başlıyor — 155 yıl erken, yukarıdaki vaka.
+    "Ahmed Bey'in Konstantin beyliği": ("1826-01-01", "1848-06-25"),
+    "Ahmed Bey'in Konstantin beyliği (Osmanlı adına)": ("1826-01-01", "1848-06-25"),
+    # Hidiv unvanı 8 Haziran 1867'de verildi; öncesinde vali/paşadır.
+    "Mısır Hidivliği": ("1867-06-08", "1914-12-18"),
+    "Mısır ordusu (işgal)": ("1831-11-01", "1841-02-25"),
+    "Osmanlı hükümranlık iddiası (ocaklık lağvedildi)": ("1830-07-05", "1837-10-13"),
+}
+# Ölçüldü: 27 ayrı `k:` değeri, 261 `v:` dönemi. Sözlükte olmayanların ömrü
+# doğrulanamadı (Mekke Şerifliği, Boğdan/Eflak Voyvodalığı, Kırım Hanlığı,
+# Sabah/Sânî emirlikleri…) — hepsi uzun ömürlü kurumlar ve veri aralıkları
+# makul görünüyor, ama "makul görünüyor" ölçüm değildir; denetlenmiyor.
+ETIKET_TASMA_GUN = 365      # bölgesel gecikme meşru, YIL mertebesi değil
+
+
+def e_etiket_anakronizmi(Y):
+    """(taşan, denetlenemeyen) — `k:` etiketi kurumun ömrünün dışına çıkıyor mu?"""
+    tasan, bilinmeyen = [], {}
+    for y in Y:
+        for p in (y.get("v") or []):
+            k = (p.get("k") or "").strip()
+            f, t = p.get("f"), p.get("t")
+            if not (k and f and t):
+                continue
+            if k not in KURUM_OMRU:
+                bilinmeyen.setdefault(k, 0)
+                bilinmeyen[k] += 1
+                continue
+            kf, kt = KURUM_OMRU[k]
+            erken = _gun(kf) - _gun(f)
+            gec = _gun(t) - _gun(kt)
+            if erken > ETIKET_TASMA_GUN:
+                tasan.append((erken / 365.2425, "ERKEN", y["ad"], f, t, k, kf, kt))
+            if gec > ETIKET_TASMA_GUN:
+                tasan.append((gec / 365.2425, "GEÇ", y["ad"], f, t, k, kf, kt))
+    tasan.sort(reverse=True)
+    return tasan, bilinmeyen
+
+
 # ---------------------------------------------------- v: etiket bütünlüğü
 def v_etiketleri(Y):
     """`k:` etiketi olmayan tâbi dönemleri — objektif şema kuralı, eşiksiz.
@@ -406,6 +470,29 @@ def main():
                 print(f"      {r}")
         elif n_ortu:
             print(f"  ✓ {ad}: 0")
+
+    # ---------------- E) k: etiketi anakronizmi
+    tasan, bilinmeyen = e_etiket_anakronizmi(Y)
+    print(f"\n=== E) `k:` ETİKETİ ANAKRONİZMİ — GÖRÜNMEZ HATA SINIFI ===")
+    print( "    `k:` alanını MOTOR OKUMUYOR: etiket değişince harita renk")
+    print( "    değiştirmez, kırılma doğmaz, yedi denetimin hiçbirine takılmaz.")
+    print( "    Yalnız kullanıcı panelde okuyunca görür.")
+    if tasan:
+        ihlal += 1
+        print(f"  ✗ kurumun ömrü dışına taşan etiket: {len(tasan)} (beklenen 0)")
+        for yil, yon, ad, f, t, k, kf, kt in (tasan if ayrinti else tasan[:10]):
+            print(f"      {yil:6.1f} yıl {yon:5s} {ad:22s} {f}→{t}")
+            print(f"                    k:\"{k}\"  kurum: {kf}→{kt}")
+        if not ayrinti and len(tasan) > 10:
+            print(f"      … {len(tasan)-10} satır daha (--ayrinti)")
+    else:
+        print( "  ✓ sözlükteki kurumların hepsi ömrü içinde")
+    print(f"  i ömrü DOĞRULANAMAYAN {len(bilinmeyen)} etiket denetlenmiyor "
+          f"({sum(bilinmeyen.values())} dönem):")
+    print( "      " + ", ".join(sorted(bilinmeyen)[:6]) +
+          (f" … +{len(bilinmeyen)-6}" if len(bilinmeyen) > 6 else ""))
+    print( "      → uydurma ömür yazmaktansa denetlenmiyor demek doğru;")
+    print( "        kaynağa dayandırılan her ömür KURUM_OMRU'ne eklenebilir.")
 
     # ---------------- C
     v_isgal, s_sandvic, fetret = c_isgal_envanteri(Y)
