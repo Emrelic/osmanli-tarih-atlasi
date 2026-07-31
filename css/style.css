@@ -814,6 +814,21 @@ body {
   pointer-events: none;
 }
 
+/* Yüzölçümü göstergesi — zaman çubuğunda, tarihin yanında.
+   Lejanttan buraya taşındı: orası gizlenebiliyordu ve tercih hatırlanıyordu,
+   yani kullanıcının şikâyetinin cevabı kullanıcı tarafından kapatılabiliyordu.
+   ⚠️ Tarihten SÖNÜK duruyor: tarih birincil bilgi (nerede olduğumuz), alan
+   ikincil (ne kadar). Aynı ağırlıkta olsalar ikisi de okunmaz. */
+#alan-goster {
+  font-size: 12px;
+  color: #e0cfa8;
+  opacity: 0.9;
+  white-space: nowrap;
+  padding: 0 2px;
+}
+/* Dar ekranda tarih kalsın, alan düşsün — tarih olmadan çubuk anlamsız. */
+@media (max-width: 720px) { #alan-goster { display: none; } }
+
 /* Konu süzgeci (PLAN-ETIKET §8) — kronoloji listesinin üstünde, KAPALI açılır.
    Varsayılan kapalı: süzgeç bir araç, atlasın kendisi değil; açık dursaydı
    listenin üstünden yedi satır yer alırdı. */

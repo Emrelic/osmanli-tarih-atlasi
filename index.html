@@ -93,6 +93,13 @@
   <button id="btn-zoom" title="Otomatik yakınlaştırma: toprak büyüdükçe uzaklaş">🔍 Oto</button>
   <input type="range" id="zaman" min="0" max="0" step="1">
   <div id="tarih-goster">—</div>
+  <!-- Yüzölçümü göstergesi. Eskiden lejant kutusunun içindeydi; o kutunun
+       gizle düğmesi var ve tercihi localStorage'da saklanıyor, yani kullanıcı
+       bir kez kapattığında alan bilgisi de kalıcı olarak kayboluyordu.
+       Kullanıcının şikâyeti "toprak kazandı mı kaybetti mi anlayamıyorum"du —
+       cevabı kapatılabilir bir yerde duramaz. Buraya taşındı: zaman çubuğu
+       zaten "şu an neredeyiz" şeridi, "şu an ne kadar toprak" onun karşılığı. -->
+  <div id="alan-goster"></div>
 </footer>
 
 <div id="olay-detay" class="gizli">

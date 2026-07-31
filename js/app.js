@@ -773,7 +773,18 @@ harita.on("load", function () {
     'filter:blur(1px)"></i> Belirsiz sınır — çöl/devletsiz alana açılan kenar</span>' +
     '<span><i style="background:none;border-top:2px dashed #5a3a24;height:0;align-self:center"></i> Bölge sınırı (yakınlaşınca)</span>' +
     '<span><i style="background:linear-gradient(90deg,#8877b8,#4e7d46,#4f7d4f,#b5885b)"></i> Komşu devletler (kendi renkleri)</span>' +
-    '<span id="alan-goster"></span>';
+    // 🔴 `#alan-goster` BURADAN ÇIKARILDI — zaman çubuğuna taşındı (index.html).
+    // Sebebi ölçüldü: bu kutunun bir gizle düğmesi var ve tercih
+    // `localStorage`'da SAKLANIYOR (kullanıcı isteğiydi: "her açılışta yeniden
+    // kapatmak gerekmesin"). Yani kullanıcı lejantı bir kez kapattıysa alan
+    // göstergesi de KALICI OLARAK kapanıyordu.
+    // Kullanıcı *"toprak kazandı mı kaybetti mi anlayamıyorum"* diye şikâyet
+    // etmişti; çözümü tam da kendi kapatabildiği bir kutuya koymuşuz. Sınavda
+    // "lejant dediğin yer neresi" demesinin sebebi terim değil, kutunun
+    // görünmüyor olması olabilir.
+    // 📌 Kural: kullanıcının şikâyetinin cevabı, kullanıcının kapatabildiği
+    // bir yerde duramaz.
+    '';
   document.getElementById("harita").appendChild(lejant);
 
   // hatalar 3.docx madde 2 — kullanıcı: "bu ekran gizlenebilir olmalı bir gizle
