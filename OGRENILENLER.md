@@ -2022,3 +2022,44 @@ Görünmeyen, yalnız bir kenar durumu bekleyen dal **savunmadır, kalır.**
 
 ⚠️ Ve silmek bilgiyi yok etmiyor: kod git geçmişinde duruyor, yer işareti
 bırakılıyor. Silinen şey **canlı sanılma ihtimali.**
+
+---
+
+## §56 — Kullanıcı ne gördüğünü DOĞRU tarif eder; yanlış yerde arayan biziz
+
+Bugün dört kullanıcı bildirimi geldi. **Dördünde de tarif doğruydu, dördünde de
+ilk hipotezimiz yanlıştı.** Ve dördünde de doğru yeri gösteren şey **tarifin
+ikinci yarısıydı**:
+
+```
+"güney Marmara'da iki kırmızı bölge, OSMANLI FETRETE GİRMEDEN ÖNCEKİ RENK VE
+ TARZ İLE"                → tam olarak `d:` katmanı; 101 yerleşim şehzade
+                            kimliğine geçerken Erdek·Edremit·Ayvalık atlanmış
+"iki fazla kırmızı bölge, OSMANLI BÖLGESİ GİBİ"
+                          → fazladan poligon YOK; dört Çelebi normal devlet
+                            kimliği ve altı renk çiftinin ΔE'si 12'nin altında
+"Çankırı'nın kuzeyinde GARİP BİR ANKARA ETİKETİ DAHA"
+                          → bölge etiketi; 62 bölgenin 62'si bir yerleşimle
+                            aynı adı taşıyor, sistematik
+"1326'da İKİ AYRI KIRMIZI"
+                          → sönen kenar katmanı; çalışıyordu ama LEJANTTA
+                            KARŞILIĞI YOKTU (`§54`)
+```
+
+🔴 **Ortak hatamız:** tarifin **birinci yarısına** takılıp (*"iki kırmızı
+bölge"*) ikinci yarısını (*"…önceki renk ve tarz ile"*) atlamak. İlk yarı
+**belirtiyi**, ikinci yarı **teşhisi** taşıyor.
+
+📌 En pahalı örnek: koordinatör *"iki kırmızı bölge"*yi şehzade katmanının
+poligon çakışmasına bağladı ve **üç yıldır ölü** bir kod üzerine hipotez kurdu
+(`§55`). Kullanıcı zaten *"Fetret'e girmeden önceki renk"* demişti — yani
+katmanı değil **rengi** işaret ediyordu, ve renk `d:` demekti.
+
+> **Kural:** kullanıcı bildirimi okunurken **niteleme cümleciği** aranır.
+> *"…gibi"* · *"…ile"* · *"…daha"* · *"…önceki"* — kusurun **sınıfını** o
+> söylüyor, konumunu değil.
+
+⚠️ Ve bunun bir sonucu daha var: **kullanıcı kusurun sebebini bilmiyor ama
+belirtisini bizden iyi görüyor.** Onun tarifini "yanlış anlamış" diye
+düzeltmek yerine **tam olarak neyi tarif ettiğini** sormak, dört vakada da
+daha kısa yol olurdu.
