@@ -35,7 +35,21 @@ Haritanın **tek elle yazılan kaynağı**. Bütün geometri buradan üretilir.
 | `d` | Doğrudan Osmanlı dönemleri |
 | `v` | Tâbi / dolaylı idare / işgal dönemleri. `k:` alanı serbest metin etiket |
 | `kur` | Kuruluş tarihi. Öncesinde yerleşim yoktur |
-| `y` | Kazanım biçimi: `savas` \| `kusatma` \| `antlasma` \| `miras` |
+| `y` | Kazanım biçimi: `kusatma` \| `savas` \| `antlasma` \| `vassal` \| `ilhak` \| `miras` |
+
+🔴 **`y:` sözlüğü 31 Temmuz'da ölçülerek düzeltildi — belge geride kalmıştı.**
+Eski satır dört değer sayıyordu (`vassal` ve `ilhak` yoktu); veri ve `js/app.js`
+altısını da kullanıyordu. Sayılar: kusatma 85 · savas 77 · antlasma 67 ·
+**vassal 13** · **ilhak 11** · miras 2.
+- **`vassal` = tâbiyet/itaat yoluyla edinim.** `v:` KADEMESİYLE karıştırılmasın:
+  `d:` içinde `y:"vassal"` çelişki DEĞİLDİR — yer doğrudan idareye geçmiştir ama
+  edinimi savaşla değil itaatle olmuştur (Basra'da şehrin anahtarlarının teslimi).
+  Adı yanıltıcı olduğu için burada tanımlandı; bir kez "geçersiz" sanılıp
+  silinmesine ramak kaldı.
+- **Bilinmiyorsa alanı hiç yazma.** Eksik alan yanlış alandan iyidir.
+⚠️ Bu alanın üç otoritesi var — bu belge, veri ve `js/app.js:769` `YONTEM_SIMGE`.
+Üçünü birden güncellemeden değer ekleme/çıkarma: `app.js`'te `|| ""` olduğu için
+tanımsız yöntem **hata vermez, sessizce simgesiz çizer.**
 
 ### Kurallar
 - `s` içindeki her devlet kimliği **`uret_petek.py` içindeki `BOYALAR` sözlüğünde
@@ -90,13 +104,40 @@ partileri. Toplam 799 madde. Hepsi `js/app.js`'te tek listede birleştirilir.
 | Alan | Anlamı |
 |---|---|
 | `t` | Tarih. **Gün yaz.** Ay hassasiyetli (`"1526-08"`) yazarsan ayın 1'ine genişler ve gün hassasiyetli yerleşim değişimlerinden *önce* sıralanır — senkron bozulur |
-| `k` | Kategori: `fetih` \| `kayip` \| `savas` \| `antlasma` \| `siyaset` \| `ayaklanma` \| `bilim` \| `kultur` \| `diger` |
+| `k` | Kategori — **25 değer**, tam liste aşağıda. `css/style.css`'te hem `.olay.k-*` hem `.ob-kat.k-*` sınıfı olmalı |
 | `etiket` | `toprak-kazanc` \| `toprak-kaybi` \| `savas` \| `antlasma` \| `diplomasi` \| `siyaset` \| `ayaklanma` \| `kultur-sanat` |
 | `b` | Başlık — tek satır |
 | `gun` | İnsan okunur tarih: `"29 Mayıs 1453"`, `"1427"`, `"680 (1281-82)"` |
 | `yer`, `kisiler` | Serbest metin, virgülle |
 | `d` | Detay paragrafı, 2-4 cümle |
 | `kaynak` | TDV slug'ı — `CLAUDE.md` §4'e göre `<title>` ile **doğrulanmış** olmalı |
+
+### `k:` — tam sözlük (31 Temmuz ölçümü, 985 madde)
+
+```
+fetih 229 · siyaset 157 · savas 151 · kayip 143 · antlasma 75 · diger 45
+ayaklanma 32 · kultur 23 · bilim 20 · diplomasi 13 · taht 12 · isyan 12
+ekonomi 10 · kusatma 9 · idari 9 · sefer 9 · darbe 9 · kesif 7 · reform 6
+vassal 4 · kanun 3 · kurulus 2 · evlilik 2 · sadrazam 2 · ittifak 1
+```
+
+🔴 **Bu satır eskiden DOKUZ değer sayıyordu, veride 25 vardı.** Yani belge
+"ihlal" gösteriyordu, gerçekte **belge geriydi.** Buna dayanarak "sözlük dışı
+`k:`" denetimi yazılsaydı **110 yanlış pozitif** verirdi.
+
+`k:` iki yerde birden kullanılır (`js/app.js:1235` ve `:1603`): hem CSS sınıf
+adı hem kullanıcıya gösterilen kategori metni. Tanımsız değer **hata vermez**,
+nötr renge düşer — 237 madde (%24) liste renginden, 261 madde (%26,5) rozet
+renginden bu yolla mahrumdu. Düzeltildi.
+
+⚠️ İki bilinçli karar:
+- **`diger` (45) BİLEREK renksiz** — gerçek kategori değil, karışık torba.
+  Nötr kenar onun için doğru gösterim.
+- **`ayaklanma` (32) ile `isyan` (12) aynı kavramın iki yazımı.** Şimdilik aynı
+  rengi paylaşıyorlar; veri tarafındaki birleştirme `YAPILACAKLAR.md`'de.
+  📌 CSS eskiden yalnız `isyan`ı tanıyordu — yani **arayüz azınlıkta olan yazımı
+  biliyordu.** Veriyle arayüzün ayrı zamanlarda ayrı sözlüklerle büyüdüğünün
+  en keskin delili buydu.
 
 **Değişmez 2:** haritadaki her kırılmanın ±30 gün içinde bir maddesi olmalı.
 

@@ -181,6 +181,21 @@ body {
 .olay.k-kesif    { border-left-color: #4527a0; }
 .olay.k-kayip    { border-left-color: #616161; }
 
+/* Sonradan eklenenler — ölçüldü (31 Temmuz): veride 25 ayrı `k:` değeri var,
+   burada 20 sınıf vardı. Renksiz kalan 237 madde (%24) `.olay`ın nötr bej
+   kenarına düşüyordu, yani "kategorisiz" ile aynı görünüyordu.
+   `siyaset` TEK BAŞINA 157 madde — atlasın ikinci en kalabalık kategorisi. */
+.olay.k-siyaset  { border-left-color: #827717; }
+.olay.k-kurulus  { border-left-color: #4a148c; }
+/* `ayaklanma` (32) ile `isyan` (12) AYNI kavramın iki yazımı; şema `ayaklanma`
+   diyor, CSS yalnız `isyan`ı tanıyordu — yani arayüz azınlıkta olanı biliyordu.
+   Aynı rengi veriyorum; veri tarafındaki birleştirme YAPILACAKLAR'da. */
+.olay.k-ayaklanma{ border-left-color: #7b1fa2; }
+.olay.k-ittifak  { border-left-color: #5c6bc0; }
+/* ⚠️ `diger` (45) BİLEREK renksiz: gerçek bir kategori değil, karışık torba
+   (Millî Mücadele · Germiyan çeyizi · şehzade kaçırılması aynı kovada).
+   Nötr kenar onun için DOĞRU gösterim — eksik değil, kasıt. */
+
 /* ---------- Zaman barı ---------- */
 #zamanbar {
   display: flex;
@@ -579,13 +594,23 @@ body {
 }
 .ob-kat.k-savas, .ob-kat.k-kusatma { background: #b3122f; }
 .ob-kat.k-fetih  { background: #1e7d32; }
-.ob-kat.k-antlasma, .ob-kat.k-diplomasi { background: #1257a8; }
+.ob-kat.k-antlasma, .ob-kat.k-diplomasi, .ob-kat.k-ittifak { background: #1257a8; }
 .ob-kat.k-taht, .ob-kat.k-sadrazam { background: #b8860b; }
-.ob-kat.k-isyan, .ob-kat.k-darbe { background: #7b1fa2; }
+.ob-kat.k-isyan, .ob-kat.k-darbe, .ob-kat.k-ayaklanma { background: #7b1fa2; }
 .ob-kat.k-reform, .ob-kat.k-kanun { background: #00838f; }
 .ob-kat.k-ekonomi { background: #ef6c00; }
 .ob-kat.k-kultur, .ob-kat.k-bilim, .ob-kat.k-kesif { background: #ad1457; }
 .ob-kat.k-kayip  { background: #616161; }
+/* Rozet listeden DAHA çok geride kalmıştı: 261 madde (%26,5) nötr kahveye
+   düşüyordu. Dördü (`idari` `sefer` `vassal` `evlilik`) listede renkliydi ama
+   rozette değildi — aynı olay, iki farklı yerde iki farklı kategori gibi
+   görünüyordu. Listeyle eşitlendi. `diger` burada da bilerek nötr. */
+.ob-kat.k-siyaset { background: #827717; }
+.ob-kat.k-kurulus { background: #4a148c; }
+.ob-kat.k-idari   { background: #455a64; }
+.ob-kat.k-sefer   { background: #33691e; }
+.ob-kat.k-vassal  { background: #7986cb; }
+.ob-kat.k-evlilik { background: #ec407a; }
 #ob-detay { font-size: 12.5px; line-height: 1.45; margin-top: 7px; }
 #ob-ozel { margin-top: 7px; display: flex; flex-direction: column; gap: 4px; }
 .ob-kutu {

@@ -32,6 +32,14 @@ durum tablosunu güncelle.
 - [ ] **Devletler dizininin dünya kapsamına çıkarılması** — Eksen 3, aşama D-1 ve
       D-2. Görev tanımı hazır: `oturumlar/OTURUM-3-DEVLETLER.md`. *Oturum 3*
 
+- [ ] **`ayaklanma` / `isyan` — aynı kavram, iki yazım.** Veride `ayaklanma` 32,
+      `isyan` 12; şemanın resmî değeri `ayaklanma`. CSS bugün ikisine de aynı rengi
+      veriyor, yani **görünürde sorun yok** — ama panelde kategori metni ham `k:`
+      değeri olarak yazıldığı için kullanıcı aynı şeyi iki adla okuyor.
+      `isyan` → `ayaklanma`, 12 kayıt, `data/olaylar*.js`. *U1 KRONOLOJİ*
+      📌 Bu çift, veriyle arayüzün ayrı sözlüklerle büyüdüğünün delili olarak
+      bulundu: CSS **yalnız azınlıkta olan `isyan`ı** tanıyordu.
+
 - [ ] 🔴 **`kazak` kimlik zinciri üç yerde uyuşmuyor — merge'den ÖNCE.** Ölçüldü
       (31 Temmuz): `renkler.py` rengi **`kazak-hanligi`** anahtarıyla tanımlıyor,
       ama `yerlesimler_ortaasya2.js:193,207,215` hâlâ `d:"kazak"` yazıyor ve

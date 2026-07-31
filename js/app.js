@@ -766,7 +766,23 @@ var sehirler = ISARET_KAYNAK.map(function (s) {
 });
 
 // Ediniliş yöntemi simgeleri (fetihten sonra ~1,5 yıl gösterilir)
-var YONTEM_SIMGE = { savas: "⚔", kusatma: "♜", antlasma: "📜", vassal: "🤝" };
+//
+// ⚠️ Bu nesne `y:` alanının ÜÇ otoritesinden biri; diğerleri veri ve
+// VERI-YAPISI.md. Üçü 31 Temmuz'da ölçüldü ve hiçbiri diğerini tutmuyordu:
+//   kusatma 85 · savas 77 · antlasma 67   → üçünde de var
+//   vassal  13  belge ✗ · burada ✓        → belge geride
+//   ilhak   11  belge ✗ · burada ✗        → 11 kayıt SİMGESİZ çiziliyordu
+//   miras    2  belge ✓ · burada ✗        → 2 kayıt SİMGESİZ çiziliyordu
+// Aşağıda `|| ""` var, yani tanımsız yöntem hata vermez — sessizce hiçbir şey
+// çizmez. Eksiği görünür kılan hiçbir şey yoktu; ölçmeseydik bulunmazdı.
+// 📌 `vassal` "tâbiyet/itaat yoluyla edinim" demek — `v:` KADEMESİYLE karışmasın.
+// `d:` içinde `y:"vassal"` çelişki değil: yer doğrudan idareye geçmiştir, ama
+// EDİNİMİ savaşla değil itaatle olmuştur (Basra'da şehrin anahtarlarının
+// teslimi gibi). Bu yüzden silinmedi, tanımı yazıldı.
+var YONTEM_SIMGE = {
+  savas: "⚔", kusatma: "♜", antlasma: "📜",
+  vassal: "🤝", ilhak: "🗝", miras: "👑"
+};
 var YONTEM_SURE = 550;   // gün
 
 // ⚠️ GENEL KURAL — OLAYIN GEÇTİĞİ YER, OLAY ANLATILIRKEN GÖRÜNÜR
