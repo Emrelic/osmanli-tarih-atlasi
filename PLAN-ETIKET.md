@@ -122,3 +122,49 @@ Faz 2-3 mevcut dalga kapanmadan başlarsa ikisi de yarım kalır.
 
 📌 Bugünün dersi: *"iş → dalga → yayın → sonraki dalga."* Bu plan **bir
 sonraki dalganın** konusudur; Faz 0 bu dalgada ölçülür.
+
+---
+
+## 7. 🔴 KULLANICI KARARI (31 Temmuz) — COĞRAFYA ETİKETİ TARİHÎ BÖLGE ADIDIR
+
+COĞRAFYA `ne_10m_admin_0_countries`'i ölçtü: **kapsam %99,8** (951'in 949'u tek
+bir ülkeye düşüyor, çakışma yok, yalnız iki küçük ada boşta). Teknik olarak
+omurga olmaya uygun.
+
+🔴 **Ama ölçümün asıl bulduğu şey kapsam değil, eksenin taşıdığı yüktü:**
+```
+Kefe · Bahçesaray · Azak   → Rusya
+Lefkoşa                    → BM tampon bölgesi (hiçbir ülkeye düşmüyor)
+Gazze                      → NAME=Palestine · SOVEREIGNT=Israel  (alanlar ÇELİŞİYOR)
+Priştine → Kosova · Magosa → Kuzey Kıbrıs
+```
+Üstüne anakronizm: Selanik→Yunanistan, Budin→Macaristan, Bağdat→Irak. Kullanıcı
+1500'e bakarken *"Yunanistan"* başlığı görürse bu `CLAUDE.md §3.5`'teki
+**hayalet devlet** hatasının arayüzdeki hâlidir — orada harita var olmayan
+devleti boyuyordu, burada dizin var olmayan ülkeyi başlık yapardı.
+
+### KARAR
+> **Omurga modern ülke KALIR** (tam kapsam mekanik olarak buradan gelir),
+> **ama GÖRÜNEN etiket TARİHÎ BÖLGE ADIDIR:** Kırım · Kıbrıs · Rumeli ·
+> Hicaz · Mısır · Anadolu · Filistin…
+
+**İki gerekçe, ikisi de bağımsız olarak yeterli:**
+1. **Siyasî pozisyon alınmıyor.** Bir Osmanlı atlasının Kefe'yi "Rusya"
+   başlığı altında süzmesi, projenin hiç almadığı bir pozisyonu **kazara**
+   almasıdır. Tarihî bölge adı bu sorunu doğurmaz.
+2. **Atlas için zaten daha kullanışlı.** Kimse *"Rusya"* diye arayıp Osmanlı
+   Kefe'sini bulmaya çalışmaz; **"Kırım"** diye arar. Aynısı Rumeli, Hicaz,
+   Mağrib için de geçerli.
+
+### ⇒ SÖZLÜK NEREDEN GELİYOR — ve bu bir tesadüf değil
+🟢 **327 "çözülmeyen" `yer:` değerinin büyük kısmı ZATEN BU SÖZLÜKTÜR.**
+DENETÇİ'nin listesi: *Anadolu · Arnavutluk · Abhazya · Attika · Acara…*
+U4'ün ilk işi olan "327'yi sınıflandır" ile bu karar **aynı yere çıkıyor**:
+çözülmeyenler hata değil, **eksik olan sözlüğün kendisiydi.**
+Yardımcı kaynaklar: `data/bolgeler.js` (61 idari bölge) · `devletler.js`.
+
+⚠️ **Modern ülke adı SİLİNMEZ, arkada durur** — tam kapsam garantisi ve
+*"bugün Yunanistan'da ne olmuş"* sorusu ona bağlı. Yalnız **birincil etiket
+olmaktan çıkar.**
+⚠️ Tarihî bölge adı olmayan yerlerde modern ülke **yedek** olarak görünür;
+ama o zaman etiket **"bugünkü ülke"** diye yazılır, çıplak ülke adı olarak değil.
