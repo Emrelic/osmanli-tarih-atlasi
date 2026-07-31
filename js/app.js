@@ -380,7 +380,86 @@ var harita = new maplibregl.Map({
 harita.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-left");
 
 var haritaHazir = false;
+
+// ---------------------------------------------------------------------------
+// ALTLIK KATMANLARI — kullanıcı kararı (31 Temmuz): kademeli geçiş
+//   1. Esri altlığı şimdilik kalır
+//   2. Üstüne bizim vektör katmanımız AÇILIR-KAPANIR eklenir   ← BURADAYIZ
+//   3. Katman yeterince iyi görününce Esri kaldırılır
+// Şartname: oturumlar/COGRAFYA-HATLAR.md · üretici: arac/uret_altlik.py
+//
+// 🔴 İKİ GRUP, VE AYRIM İŞİN ÖZÜ:
+//   Grup A (kara·gol·nehir·dag_alan)  → gerçek coğrafya, Kademe 3'te ALTLIK olur
+//   Grup B (nehir_motorun·sirt_motorun) → motorun FİİLEN yasladığı hedefler
+// Aradaki fark bir kusur değil, TEŞHİS ARACIDIR: `nehir` 329 parça çizer,
+// `nehir_motorun` 41. Farkı görmek, kırık ad eşleştirmesini gözle bulmaktır —
+// Dicle'nin bir parçası yaslanıyor, bitişik parçası yaslanmıyor.
+// `sirt_motorun` KAPALI HALKA: dağın etrafı, sırtı değil. `dag_alan` ile üst
+// üste bakılınca "sınır dağın tepesinden geçmeli" kuralının neden henüz
+// karşılanmadığı görünür.
+// ⇒ Bu yüzden iki grup AYRI AYRI açılıp kapanır; birlikte açılırsa fark kaybolur.
+var ALTLIK_KATMAN = {
+  // Grup A — rasterin ALTINDA: altlığın yerine geçecek olan
+  a: [
+    { id: "g-kara", tip: "fill", kaynak: "kara",
+      boya: { "fill-color": "#e8dfc8", "fill-opacity": 1 } },
+    { id: "g-gol", tip: "fill", kaynak: "gol",
+      boya: { "fill-color": "#a8c8dc", "fill-opacity": 1 } },
+    { id: "g-dag", tip: "fill", kaynak: "dag_alan", minzoom: 3.5,
+      boya: { "fill-color": "#6d5636", "fill-opacity": 0.15 } },
+    { id: "g-nehir", tip: "line", kaynak: "nehir", minzoom: 3.5,
+      boya: { "line-color": "#4a86b8", "line-width": 0.6, "line-opacity": 0.75 } }
+  ],
+  // Grup B — rasterin ÜSTÜNDE: raster açıkken de görünmeli, çünkü işi
+  // "fotoğraf ile motorun hattı uyuşuyor mu" sorusunu cevaplamak.
+  // ⚠️ İKİSİ DE KESİKLİ. Bugünkü sınır katmanlarının hiçbiri kesikli değil;
+  // desen tek başına ayırt edici olur ve renk körlüğünden etkilenmez.
+  // Kullanıcı "bu bir devlet sınırı mı yoksa nehir mi" diye sormamalı.
+  b: [
+    { id: "g-nehir-motor", tip: "line", kaynak: "nehir_motorun", minzoom: 4.5,
+      boya: { "line-color": "#00bcd4", "line-width": 1.5,
+              "line-dasharray": [3, 2], "line-opacity": 0.95 } },
+    { id: "g-sirt-motor", tip: "line", kaynak: "sirt_motorun", minzoom: 4.5,
+      boya: { "line-color": "#e65100", "line-width": 1.5,
+              "line-dasharray": [2, 2], "line-opacity": 0.9 } }
+  ]
+};
+
+function altlikKur() {
+  if (!window.ALTLIK) return;
+  ["a", "b"].forEach(function (grup) {
+    ALTLIK_KATMAN[grup].forEach(function (k) {
+      if (!window.ALTLIK[k.kaynak]) return;
+      harita.addSource(k.id, { type: "geojson", data: window.ALTLIK[k.kaynak] });
+      var kat = { id: k.id, type: k.tip, source: k.id, paint: k.boya,
+                  layout: { visibility: "none" } };
+      if (k.minzoom) kat.minzoom = k.minzoom;
+      // Grup A rasterin ALTINA girer (yerine geçecek), Grup B ÜSTÜNE.
+      // MapLibre'de "altlik"tan önce eklenen katman onun altında kalır.
+      harita.addLayer(kat, grup === "a" ? "altlik" : undefined);
+    });
+  });
+}
+
+// Varsayılan KAPALI: bu bir hata ayıklama katmanı, atlasın kendisi değil.
+//
+// ⚠️ Grup A rasterin ALTINDA olduğu için raster açıkken görünmez — bu doğru
+// katman sırası ama tek başına toggle'ı işlevsiz bırakır. O yüzden Grup A
+// açılınca RASTER KAPANIR: kullanıcı Kademe 3'ün nasıl görüneceğini bugünden
+// görür, ve şartnamedeki geçme ölçütü ("Esri kapatılınca harita hâlâ okunabilir
+// mi") tek tıkla sınanabilir hâle gelir.
+function altlikGoster(grup, acik) {
+  ALTLIK_KATMAN[grup].forEach(function (k) {
+    if (harita.getLayer(k.id))
+      harita.setLayoutProperty(k.id, "visibility", acik ? "visible" : "none");
+  });
+  if (grup === "a" && harita.getLayer("altlik"))
+    harita.setLayoutProperty("altlik", "visibility", acik ? "none" : "visible");
+}
+
 harita.on("load", function () {
+  altlikKur();
+
   // Yabancı devletler: Osmanlı katmanlarının ALTINA çizilir
   harita.addSource("devlet", { type: "geojson", data: bosVeri() });
   harita.addLayer({ id: "devlet-dolgu", type: "fill", source: "devlet",
@@ -1781,6 +1860,17 @@ document.getElementById("bolge").addEventListener("change", function () {
   otoZoom = false;                       // bölgeye kilitlen, dönem değişince kaçma
   document.getElementById("btn-zoom").classList.add("pasif");
   harita.fitBounds(b, { padding: 40, duration: 850 });
+});
+
+// Coğrafya katmanları — iki grup AYRI AYRI açılır (birlikte açılırsa
+// aralarındaki fark kaybolur ve bütün teşhis değeri o farkta).
+[["btn-cografya", "a"], ["btn-motorhat", "b"]].forEach(function (c) {
+  var dugme = document.getElementById(c[0]), acik = false;
+  dugme.addEventListener("click", function () {
+    acik = !acik;
+    altlikGoster(c[1], acik);
+    dugme.classList.toggle("etkin", acik);
+  });
 });
 
 // Tam ekran
