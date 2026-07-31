@@ -459,3 +459,37 @@ konum YAMACI'nın kararı.
 
 Uygulandıktan sonra beklenen: Değişmez 2 açık sayısı 3 → 0, `2s` tavanı
 117 → 114'e geri döner.
+
+---
+
+## Yedinci tur — II. Murad'ın feragati (Ağustos 1444) + tarih tutarsızlığı çözüldü (2026-07-31)
+
+**TDV doğrulaması** (`murad-ii` ve `mehmed-ii`, ikisi de `<title>` ile canlı
+sınandı): Feragat *"Cemâziyelevvel 848'de (Ağustos 1444) Mihalıç'ta kapıkulu ve
+beyler önünde"* — gün yok, yalnız ay. Edirne-Segedin barışının (12 Haziran 1444)
+kalıcı sanılmasına dayandırılıyor, tam istediğin bağlantı.
+
+### YENİ MADDE
+```js
+{ t:"1444-08-01", k:"siyaset", etiket:["siyaset"], b:"II. Murad'ın tahttan feragati — II. Mehmed'in ilk cülûsu", gun:"Ağustos 1444", yer:"Mihalıç ovası (Bursa yakını)", kisiler:"II. Murad, II. Mehmed (Fatih)", d:"İki ay önce imzalanan Edirne-Segedin Antlaşması'nın (12 Haziran 1444) barışı kalıcı kıldığına inanan II. Murad, Mihalıç ovasında kapıkulu ve beyler önünde tahtı on iki yaşındaki oğlu II. Mehmed'e resmen bıraktı. Bu ilk saltanat kısa sürecekti: antlaşma bozulup Macar-Leh ordusu güneye inince Murad üç ay sonra Varna'da orduyu bizzat komuta etmek üzere geri çağrıldı — ama padişahlık sıfatı hâlâ oğlundaydı. Kalıcı ikinci cülûsu, 1446'daki Buçuktepe Vak'ası'nın ardından gerçekleşecekti.", kaynak:"murad-ii" },
+```
+Muhtemel hedef: `olaylar_ek.js` (1444-06-12 ve 1444-08-01/Semendire kayıtlarının
+hemen yanı, kronolojik sırayı bozmadan) — dosya bende değil, YAMACI karar versin.
+
+### 🔴 Tarih tutarsızlığı — ÇÖZÜLDÜ, kronoloji değil `padisahlar.js` yanlış
+
+`murad-ii` maddesi 1446 dönüşünü TAM GÜNLE veriyor: *"II. Murad 8 Safer 850'de
+(**5 Mayıs 1446**) Manisa'dan acele yola çıktı"* → *"iki yıllık bir aradan sonra
+tekrar saltanata geçmiş oldu"*. Bu, mevcut kronoloji maddesiyle (`olaylar_ek5.js:115`,
+`t:"1446-05-05"`, Buçuktepe Vak'ası) **birebir aynı gün** — kronoloji zaten doğru,
+metnini de değiştirmedim.
+
+Tutarsız olan `data/padisahlar.js`'teki `murad2` ikinci saltanat başlangıcı
+(`1446-09`, Eylül) — TDV'nin verdiği günden **4 ay** uzakta. Bu benim dosyam
+değil, düzeltmedim; **merkeze bildiriyorum**, `padisahlar.js`'in sahibi kim ise
+`1446-05-05`'e çekmesi gerekiyor. `1451-02-18` maddesi ("Beş yıl önce Buçuktepe'de
+tahtından indirilen...") zaten 1446-05-05'i esas aldığı için kronoloji tarafında
+ek bir tutarsızlık yok — tek düzeltilecek yer `padisahlar.js`.
+
+Bu madde bir kırılma kapatmıyor (Değişmez 2'yi etkilemez), yalnız 1451-02-18 ve
+1446-05-05 maddelerinin varsaydığı olayı tamamlıyor.
