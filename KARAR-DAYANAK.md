@@ -48,7 +48,7 @@ dayanaktır — çünkü su tanımı değişince değişir.
 | 9 | **Coğrafya ekseni etiketi = tarihî bölge adı** (kullanıcı kararı) | **çözülmeyen `yer:`** sayısı + NE kapsaması | 327 çözülmeyen · %99,8 kapsama ama siyasî etiketli | U4 · DENETÇİ |
 | 11 | **Engel ölçüsü = TIRMANIŞ** (min-yol üzerindeki max yükseklik − yüksek uç), zirve yüksekliği değil (kullanıcı kararı) | **engel eşiği** (m) — ayrışma süresiyle ilişkiden | **200 m başlangıç · 500 m güçlü · 1000 m doyma** (25-75 km bandı: %39→%59→%71→%73) ⚠️ %29 kapsam | COĞRAFYA |
 | 12 | **DEM üretimi TÜM PENCERE** (~4,1 saat), kısmî değil (kullanıcı kararı) | **dağ bloğu / tam pencere süre oranı** | 2× (112 dk ↔ 246 dk) — ilk sunulan 17× YANLIŞTI | COĞRAFYA |
-| 13 | ** nehir genişletmesi BEKLEMEDE** — yön tartışmalı | **büyük nehir kesen çiftlerde ayrışma** (mesafe sabit) | %30 ↔ nehir yok %54 — nehir sınır değil BÜTÜNLÜK ⚠️ %29 kapsam, örneklem Nil 24 + Fırat 18 ağırlıklı | COĞRAFYA · MOTOR |
+| 13 | **`scalerank ≤ 7` nehir genişletmesi BEKLEMEDE** — yön tartışmalı | **büyük nehir kesen çiftlerde ayrışma** (mesafe sabit) | %30 ↔ nehir yok %54 — nehir sınır değil BÜTÜNLÜK ⚠️ %29 kapsam, örneklem Nil 24 + Fırat 18 ağırlıklı | COĞRAFYA · MOTOR |
 | 10 | **Altlık kademeli geçiş — Esri altıncı seçenek, varsayılan KAPALI** | **motorun gördüğü nehir** ile dosyanın tamamı arasındaki fark | 41 ↔ 329 parça | ARAYÜZ · COĞRAFYA |
 
 ---
