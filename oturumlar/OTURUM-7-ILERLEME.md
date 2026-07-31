@@ -340,3 +340,54 @@ düzeltmeye çalışmadım — dosya bende değil.
 Değişmez 2: ✓ 452/0. Mükerrer (benim eklediklerim): ✓ 0. Değişmez 1: ✗ (yukarıda
 açıklanan, bana ait olmayan sebepten). `SONUÇ: İHLAL VAR` çıkış kodu bu yüzden
 1 — kendi payıma düşen kısım temiz.
+
+---
+
+## Beşinci tur — Katalan oku, 639 günlük madde boşluğu (2026-07-31)
+
+⚠️ Bu görev `data/savaslar.js` konusunda geliyor — o da bende değil. Aşağıdaki
+maddeyi **yazmadım**, hazırladım; YAMACI uygulayacak. Muhtemel hedef dosya
+`data/olaylar_ek.js` (mevcut tek Katalan kaydı orada, satır 90, aynı `kaynak:"bizans"`
+zinciriyle).
+
+**Ölçüm doğrulandı:** `savaslar.js:508` — Katalan oku `f:"1303-09-01"`,
+`t:"1305-06-01"`. Kronolojide "Katalan" geçen tek madde `olaylar_ek.js:90`,
+`t:"1305-06-01"` — okun **bitişine** tarihli. Okun **başlangıcı** (1303 sonbaharı)
+639 gün boyunca maddesiz. `yerlesimler.js`'te 1303-09-01 ±45 gün içinde başka
+kırılma yok (ölçtüm, node ile) — yani tek madde bu boşluğu kapatacak, ikinci bir
+konu birleştirmeye gerek yok.
+
+**TDV doğrulaması (5 madde açıldı, `<title>` ile sınandı, hepsi CANLI):**
+- `bizans` — kronolojik iskeletin kaynağı: *"6500 kişilik Katalan birliği...
+  1303'te... Türkler'e karşı mücadele etmek üzere Bizans'ın yardımına"* koştu;
+  *"1304 yılında... Germiyanoğulları'nın kuşattığı Alaşehir'i... kurtarmıştır"*;
+  1305'te Roger de Flor öldürüldü, Trakya yağmalandı. **Gün yok, yalnız yıl.**
+- `alasehir`, `germiyanogullari` — kuşatmanın kaldırılışını doğruluyor ama
+  🔴 `germiyanogullari` tarihi **1306** olarak veriyor (Yakub Bey'in kuşatması),
+  `bizans` ve `manisa` ise **1304** diyor. TDV kendi içinde çelişiyor — `bizans`
+  ana kayıt olduğu ve okun `t:1305-06-01` sınırıyla tutarlı olduğu için 1304'ü
+  esas aldım, 1306'yı **yazmadım**. Bu satırı sana bildiriyorum, iki tarihten
+  birini tercih ettim, karar istersen değiştirilebilir.
+- `manisa` — Katalanların 1304'te Manisa'ya geldiğini ama Attalios'un onları
+  içeri almadığını ekliyor (ayrı ayrıntı, ana maddeye almadım — konu dışı).
+  `gelibolu` — Katalanların Anadolu'daki faaliyetlerinin **ardından** (1304)
+  Gelibolu'ya **yerleştiğini** yazıyor; okun rotası (Gelibolu→Alaşehir) bunu
+  çelişki saymaz — 1303 geçişi ile 1304 yerleşimi ayrı aşamalar olabilir, ama
+  bu da senin bilmen gereken bir ayrıntı.
+- Ölü slug yok bu turda. `katalanlar` slug'ı **YOK** (arama sonuç vermedi),
+  `filadelfiya` slug'ı **YOK** (Alaşehir adı kullanılıyor).
+
+**🔴 Tarih notu:** `1303-09-01` benim uydurduğum değil, okun zaten sahip olduğu
+tarih — TDV yalnız yıl veriyor (`"1303 yılı"`), aya/mevsime dair bir şey söylemiyor.
+Talimatına göre `gun:"1303 sonbaharı"` yazıp `t:`'yi okun kendi başlangıcıyla
+(1303-09-01) hizaladım; bu bir uydurma değil, okun MEVCUT tarihini açıklayan bir
+madde.
+
+**Önerilen madde (kopyala-yapıştır hazır):**
+```js
+{ t:"1303-09-01", k:"savas", etiket:["savas"], b:"Katalan Kumpanyası'nın Bizans hizmetine girip Anadolu'ya geçişi", gun:"1303 sonbaharı", yer:"Gelibolu — Batı Anadolu", kisiler:"Roger de Flor, II. Andronikos", d:"~6500 kişilik Katalan paralı asker bölüğü, Türklere karşı savaşmak üzere II. Andronikos'un hizmetine girip Anadolu'ya geçti. Ertesi yıl Germiyanoğulları'nın kuşattığı Alaşehir'i kurtaracaklar, 1305'te Roger de Flor'un öldürülmesiyle Bizans'a düşman kesilip Trakya'yı yağmalayacaklardı.", kaynak:"bizans" },
+```
+
+Bu madde eklenirse `olaylar_ek.js:90`'daki mevcut kayıtla (1305-06-01) birlikte
+okun tüm aralığı (1303-09 → 1305-06) iki uçtan maddeli hâle gelir, 639 günlük
+boşluk kapanır.
