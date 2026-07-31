@@ -357,6 +357,43 @@ def c_coklu_yer(Y, O, ix):
     return coklu, eksik
 
 
+# ============================================================================
+# 🔴 DOĞURAN VAKA SINAMASI — bu blok bir denetim değil, denetimin BEKÇİSİ
+# ============================================================================
+# İki kez aynı şey oldu ve ikisi de "iyileştirme" kılığındaydı:
+#
+#   · hâl eki kuralı  → D istisnası olmasa Mekke'yi silecekti
+#   · `m:` muafiyeti  → rafine hâli olmasa Mekke'yi sildi (ölçüldü: 93 → 61)
+#
+# İki farklı mekanizma, AYNI KURBAN: denetimin var olma sebebi olan vaka.
+# Sebep yapısal — her iyileştirme "gürültüyü azaltmak" için yazılır ve
+# motive edici vaka çoğu zaman EN ATİPİK olandır, yani en kırılgan.
+# Ve sayı düştüğü için **başarı gibi görünür.**
+#
+# ARABİSTAN oturumunun önerisi: kabul sınamalarını elle koşmak yerine koda
+# göm. Bir sonraki iyileştirme "93 → 61, harika" dediğinde bu blok itiraz eder.
+#
+# Buraya yalnız GERÇEK, KAYNAĞA DAYALI vaka girer — sentetik örnek değil.
+DOGURAN_VAKALAR = [
+    # (tarih, başlıkta geçen ibare, eksik çıkması BEKLENEN yerleşim, kim buldu)
+    ("1803-05-15", "Mekke ve Tâif", "Mekke", "ARABİSTAN · hatalar 16 md.8"),
+    ("1422-01-01", "Cüneyd Bey", "Aydın", "çoklu-yer ölçümü"),
+    ("1878-07-29", "Bosna-Hersek", "Saraybosna", "çoklu-yer ölçümü"),
+    ("1479-08-01", "İyon adaları", "Kefalonya", "çoklu-yer ölçümü"),
+    ("1345-01-01", "Karesi Beyliği", "Mihaliç (Karacabey)", "çoklu-yer ölçümü"),
+]
+
+
+def doguran_vaka_sinamasi(eksik):
+    """Denetimi doğuran vakalar HÂLÂ yakalanıyor mu?"""
+    bulgu = {(r[2], tuple(r[5])) for r in eksik}
+    kayip = []
+    for tarih, ibare, beklenen, kim in DOGURAN_VAKALAR:
+        if not any(t == tarih and beklenen in adlar for t, adlar in bulgu):
+            kayip.append((tarih, ibare, beklenen, kim))
+    return kayip
+
+
 def main():
     ayrinti = "--ayrinti" in sys.argv
     Y = girdi.yukle(sessiz=True)
@@ -438,6 +475,21 @@ def main():
         print(f"      {r[0]:2d}/{r[1]:2d} eksik  {r[2]}  {r[3]:9s} {r[4][:42]:42s} {r[5][:3]}")
     if not ayrinti and len(eksik) > 14:
         print(f"      … {len(eksik)-14} satır daha (--ayrinti)")
+
+    kayip = doguran_vaka_sinamasi(eksik)
+    print()
+    print("=== DOĞURAN VAKA SINAMASI — denetimin bekçisi ===")
+    print( "    Bir iyileştirme, denetimi doğuran vakayı silebilir; sayı")
+    print( "    düştüğü için de BAŞARI gibi görünür. Bu blok itiraz eder.")
+    if kayip:
+        ihlal += 1
+        print(f"  ✗ {len(kayip)}/{len(DOGURAN_VAKALAR)} DOĞURAN VAKA ARTIK YAKALANMIYOR:")
+        for tarih, ibare, beklenen, kim in kayip:
+            print(f"      {tarih}  \"{ibare}\" → {beklenen} bekleniyordu   ({kim})")
+        print( "      → son değişikliği geri al ya da vakanın gerçekten")
+        print( "        düzeltildiğini DOĞRULA; ikisi aynı şey değildir.")
+    else:
+        print(f"  ✓ {len(DOGURAN_VAKALAR)}/{len(DOGURAN_VAKALAR)} doğuran vaka hâlâ yakalanıyor")
 
     print()
     print("SONUÇ:", "temiz ✓" if not ihlal else f"İHLAL VAR ({ihlal} başlık) — çıkış kodu 1")
