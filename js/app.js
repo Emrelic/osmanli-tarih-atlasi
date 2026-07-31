@@ -1138,7 +1138,18 @@ function sehirGuncelle(t) {
   // Öncelik sırasında dolaşılıyor ve yerleşenlerin ekran kutuları tutuluyor:
   // büyük olan önce yerleşir, çakışan küçük elenir. Devlet ve bölge
   // etiketlerinde kurulu olan makinenin aynısı (ölçümü: taban 1·bant 47·tavan 0).
-  var yerlesenSehir = [];
+  // 🔴 `anilan` ARTIK MUAF DEĞİL, ÖNCELİKLİ — ölçüm bu kusuru buldu.
+  // Eskiden `if (!anilan[mi]) yerlesenSehir.push(m)` yazıyordu, yani anılan
+  // işaret elemeye HİÇ girmiyordu. Sonucu iki taraflıydı ve ikincisini
+  // görmemiştim: kendisi elenmiyordu (istenen) AMA `tutulan`a da girmediği
+  // için **kimseyi engellemiyordu** ve **birbirleriyle çakışabiliyordu**.
+  // Ölçüldü (z5, 1302): Söğüt ve Domaniç DOM'da var, `tutulan`da yok,
+  // `elenen`de yok — hiçbir yerde. 23 tutulan + 1 elenen = 24 aday, ikisi bu
+  // toplamın dışında. Gözlenen dört çakışan çiftin hepsi buradan çıkıyordu.
+  // ⇒ Doğrusu: anılanlar önce yerleşir (yani yerlerini KAPAR) ve kendi
+  // aralarında da normal elenirler. Böylece `anilan` gerçekten koordinatöre
+  // tarif ettiğim şey oluyor — ÖNCELİK YÜKSELTİCİ, muafiyet değil.
+  var yerlesenSehir = [], anilanSehir = [];
   sehirOncelik.forEach(function (mi) {
     var m = sehirler[mi];
     var aktif = null;
@@ -1200,8 +1211,11 @@ function sehirGuncelle(t) {
     // Eleme ikinci geçişe bırakılıyor (aşağıda). `anilan` olanlar elemeye HİÇ
     // girmiyor: madde anlatılırken "nerede?" sorusunun cevabı kalabalıktan önce
     // gelir. Bu, katman 5'in katman 3'e yaptığı ekleme.
-    if (!anilan[mi]) yerlesenSehir.push(m);
+    if (anilan[mi]) anilanSehir.push(m); else yerlesenSehir.push(m);
   });
+  // Anılanlar başa: her ikisi de `sehirOncelik` sırasını koruyor, yalnız
+  // anılan grubu bütün olarak öne alınıyor.
+  yerlesenSehir = anilanSehir.concat(yerlesenSehir);
 
   // ---- İKİNCİ GEÇİŞ: çakışma elemesi, GERÇEK DOM kutusuyla ----
   // 🔴 İLK SÜRÜM KUTUYU TAHMİN EDİYORDU VE DAR ÇIKIYORDU. Ölçüldü (1302):
