@@ -52,11 +52,28 @@ from renkler import BOYALAR
 import girdi
 R_DUNYA = 6371.0088
 
-# ⚠️ KOŞU BEKÇİSİ — parmak izi HER ŞEYDEN ÖNCE alınır
+# ⚠️ ANLIK GÖRÜNTÜ — HER ŞEYDEN ÖNCE, parmak izinden de önce.
+# Bu satırdan sonra motor girdi dosyalarının KOPYASINDAN okur; orijinaller
+# serbesttir ve koşu sırasında değiştirilebilir. Üretim kilidi bu yüzden
+# kalktı — gerekçesi ve ölçümü girdi.py, anlik_goruntu().
+# Damga da burada atılır: TAKİPÇİ bugüne kadar yalnız BİTİŞLERİ görebiliyordu,
+# kilit süresini hesaplayamıyordu.
+import datetime as _dt
+_BASLADI = _dt.datetime.now()
+io.open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..",
+                     ".uretim-basladi"), "w", encoding="utf-8").write(
+    _BASLADI.strftime("%Y-%m-%d %H:%M:%S") + "\n")
+girdi.anlik_goruntu()
+
+# ⚠️ KOŞU BEKÇİSİ — parmak izi anlık görüntüden SONRA, kopyadan alınır.
 # Sıra kritik: göller (goller.js) yerleşimlerden ÖNCE okunuyor, bu yüzden iz
 # yerleşim okumasının yanında alınamaz — o noktada goller.js çoktan okunmuş
 # olurdu ve arada değişse bekçi yanlış tarafa düşerdi (değişmiş veriyi okuyup
 # "değişmemiş" derdi). Gerekçe ve bugünkü canlı vaka: girdi.py, parmak_izi().
+# 📌 Artık kopyadan alındığı için bekçi pratikte hiç ateşlemez — ama ANLAMI
+# kalır ve daha da güçlenir: "yazdığım şey, okuduğum şeyden geldi."
+# Ve `URETIM_IZI`e yazılan iz KOPYANIN izidir, yani koşunun GERÇEKTEN okuduğu
+# hâl; diskteki hâl değil (o koşu boyunca değişebilir).
 _GIRDI_IZI = girdi.parmak_izi()
 
 # ---------------- Kara maskesi ----------------
@@ -792,6 +809,29 @@ if len(_kvdegisen) > 20:
 # Doğru okuma mutlak sayı değil TABANA GÖRE ARTIŞ: taban 32 ise sessiz kalmalı,
 # artarsa gerçekten yeni bir uyuşmazlık açılmış demektir.
 BOZUK_KIYI_TABAN = 32
+# ---------------- MOTORUN ÇİZDİĞİ KARA — altlığın kıyısı buradan gelsin ----
+# ⚠️ TEK GEOMETRİ İKİ YERDE ÜRETİLMESİN (OGRENILENLER §35).
+# Vektör altlık kıyısını kendi başına `simplify(SADE_TOL)` ile üretiyordu; motor
+# ise `simplify(KARA_TOL)` → `coverage_simplify(SADE_TOL)` zinciriyle. Douglas-
+# Peucker böyle bileşmiyor ve sapma ÖLÇÜLDÜ: 16.249 kıyı köşesi, medyan 0,26 km,
+# %90 0,94 km, %99 1,29 km — %99 dilimi SADE_TOL'ün km karşılığına (1,34 km)
+# yapışık, yani sapma gürültü değil sadeleştirme farkının kendisi.
+# z5'te 0,4 px görünmez, z10'da 13 px bariz.
+# 📌 Sabiti paylaşmak sapmanın TAVANINI indirir, SIFIRLAMAZ. Çakışmanın inşa
+# gereği tam olması için ÇIKTININ paylaşılması gerekiyor — dosya bu.
+# Hücreler BOLGE'yi döşeyip KARA'ya kırpıldığı için birleşimleri tanımı gereği
+# "motorun çizdiği kara"dır; yeni hesap değil, elimizdekinin yazılması.
+_mkara = unary_union([g for g in PETEK_D if g is not None and not g.is_empty])
+_mkyol = os.path.join(BASEMAPS, "motor_kara.geojson")
+io.open(_mkyol, "w", encoding="utf-8").write(json.dumps(
+    {"type": "FeatureCollection", "features": [
+        {"type": "Feature", "properties": {"kaynak": "uret_petek.py",
+                                           "not": "ALTLIK BUNU KULLANIR — elle düzenlemeyin"},
+         "geometry": shapely.geometry.mapping(_mkara)}]},
+    separators=(",", ":")))
+print(f"Motorun çizdiği kara → veri-kaynak/motor_kara.geojson "
+      f"({os.path.getsize(_mkyol)//1024} KB)")
+
 _nk = _bozuk_dok(PETEK_D, "kıyı")
 print(f"  kıyı kesimi sonrası örtü: {_nk} bozuk kenar (taban {BOZUK_KIYI_TABAN}, "
       f"gövde birleştirmesi yutuyor) "
@@ -1300,6 +1340,54 @@ js += "window.SERBEST_U = " + json.dumps(SRB_U, separators=(",",":")) + ";\n"
 js += "window.PETEKLER = " + json.dumps(petekler, separators=(",",":")) + ";\n"
 js += "window.PARCALAR = " + json.dumps(OSM_HAVUZ, separators=(",",":")) + ";\n"
 js += "window.DONEMLER = " + json.dumps(donemler, separators=(",",":")) + ";\n"
+
+# ---------------- PER-PETEK GÖVDE — AYRI DOSYA ----------------
+# İşgal örtüsü üreticisi (`uret_devirler.py`) "şu 55 yerleşimin hücrelerinin
+# birleşimi"ni istiyor ve bunu bugünkü çıktıdan çıkaramıyor: `PETEKLER` yalnız
+# ad taşıyor, `DONEMLER.e/c` delta, `DONEMLER.o/v` ise BİRLEŞTİRİLMİŞ gövde.
+#
+# ⚠️ `PARCALAR`a indeks verilemez — o havuzda yalnız birleşik gövdeler var,
+# per-petek parçalar hiç girmiyor. Bu yüzden kendi havuzu yazılıyor.
+# Ölçüldü: 951 petek → 2.166 eşsiz parça, 1,4 MB.
+#
+# 🔴 NEDEN AYRI DOSYA: `donemler.js`i `index.html:149` yüklüyor, yani 1,4 MB'ı
+# HER ZİYARETÇİ indirirdi — oysa bu veriyi yalnız üretim betiği kullanıyor.
+# Sitenin yükü zaten 24,5 MB; tarayıcının hiç açmayacağı veriyi oraya koymak
+# saf israf. Bu dosya `index.html`e EKLENMEZ.
+#
+# ⚠️ ZAMANSIZ — ve bu sessizce yanıltabilir. Petek geometrisi `petek_epok()`
+# ile değişebiliyor (`kur:`/`bit:` devirleri); buradaki TABAN geometridir.
+# Bugünkü tüketici için doğru: en geç `kur:` 1869-01-01, `isg:` aralıkları
+# 1878'den başlıyor, yani o tarihlerde bütün noktalar kurulmuş. Ama 1869
+# ÖNCESİNE uzanan bir örtü istenirse bu dosya yanlış cevap verir ve uyarmaz.
+_pg_havuz, _pg_ix, _pg_indeks = [], {}, []
+for _i, _g in enumerate(PETEK_D):
+    _ks = []
+    for _par in mp_koord(_g):
+        _k = json.dumps(_par, separators=(",", ":"))
+        _j = _pg_ix.get(_k)
+        if _j is None:
+            _j = len(_pg_havuz); _pg_havuz.append(_par); _pg_ix[_k] = _j
+        _ks.append(_j)
+    _pg_indeks.append(_ks)
+_pgyol = os.path.join(KOK, "data", "petek_govde.js")
+_pg = ("// Otomatik üretildi — elle düzenlemeyin. Betik: arac/uret_petek.py\n"
+       "// ⚠️ index.html BU DOSYAYI YÜKLEMEZ. Yalnız üretim betikleri okur\n"
+       "//    (uret_devirler.py). Tarayıcıya 1,4 MB fazladan yük binmesin diye\n"
+       "//    donemler.js'e KONMADI.\n"
+       "// ⚠️ ZAMANSIZ: taban geometri. kur:/bit: devirlerini TAŞIMAZ; 1869\n"
+       "//    öncesine uzanan sorularda yanlış cevap verir ve UYARMAZ.\n"
+       "// PETEK_GOVDE[i] → PETEK_GOVDE_PARCA havuzuna indeksler.\n"
+       "// Sıra PETEKLER (donemler.js) ile AYNIDIR.\n")
+_pg += ("window.PETEK_GOVDE_PARCA = "
+        + json.dumps(_pg_havuz, separators=(",", ":")) + ";\n")
+_pg += ("window.PETEK_GOVDE = "
+        + json.dumps(_pg_indeks, separators=(",", ":")) + ";\n")
+girdi.izi_dogrula(_GIRDI_IZI, "data/petek_govde.js")
+io.open(_pgyol, "w", encoding="utf-8").write(_pg)
+print(f"Per-petek gövde → data/petek_govde.js "
+      f"({os.path.getsize(_pgyol)//1024} KB, {len(_pg_havuz)} eşsiz parça) "
+      f"— index.html YÜKLEMEZ")
 # ⚠️ ÜRETİM İZİ — çıktının kendi künyesi. İki ayrı soruyu cevaplar:
 #   girdi: bu harita hangi VERİDEN üretildi → "yayın bayat mı"
 #   motor: hangi KODDAN üretildi            → "düzeltme bu çıktıda var mı"

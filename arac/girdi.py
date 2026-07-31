@@ -45,6 +45,64 @@ import re
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(KOK, "data")
 
+
+def anlik_goruntu():
+    """Girdi dosyalarını geçici bir dizine kopyalar ve DATA'yı oraya çevirir.
+
+    ⚠️ ÜRETİM KİLİDİNİ KALDIRAN DEĞİŞİKLİK. Kilit teknik bir zorunluluk değil,
+    protokoldü — ölçüldü: `uret_petek.py` 1320 satırda girdiye ÜÇ kez dokunuyor
+    ve üçü de başta (parmak_izi · oku_goller · yukle). 233. satırdan sonraki
+    1087 satır tamamen bellekle çalışıyor. Yani koşu sırasında dosyanın
+    değişmesi motorun OKUDUĞUNU değiştirmiyor; kilit, değişikliğin çıktıya
+    girdiğini SANMAYI önlemek için vardı.
+
+    Anlık görüntü o sanıyı imkânsız kılıyor: motor koşu boyunca kopyadan okur,
+    kopya değişmez, orijinaller serbest kalır.
+
+    ⚠️ KOPYA ATOMİK DEĞİL. Üç dosya sırayla kopyalanırken araya bir yazma
+    girerse KARIŞIK anlık görüntü çıkar (biri değişiklik öncesi, öteki sonrası).
+    Pencere milisaniye ama sıfır değil. Bu yüzden kopyadan sonra orijinaller
+    yeniden özetlenir; biri değiştiyse kopya TEKRARLANIR.
+    Ölçülen maliyet: 3 dosya / 369 KB / 18 ms (iki tur sha256 dahil) —
+    44 dakikalık koşuda 1/147.000.
+
+    📌 VE BUGÜN AÇIK OLAN BİR KAPIYI KAPATIYOR: `oku_goller()` motorun 125.
+    satırında, `yukle()` 233'te. Aralarında bir pencere var ve girdi orada
+    değişirse motor KARIŞIK okur; `_GIRDI_IZI` bunu ancak üçüncü yazma
+    noktasında, ~40 dakika sonra yakalar. Kilit tam bu pencereyi kapatmak için
+    konmuştu ama KAPATMIYORDU. Anlık görüntü kapatıyor.
+    """
+    global DATA
+    import hashlib
+    import shutil
+    import tempfile
+
+    def _ozet(kok):
+        iz = {}
+        for ad in list(GIRDI_DOSYALARI) + [GOL_DOSYASI]:
+            y = os.path.join(kok, ad)
+            if os.path.exists(y):
+                iz[ad] = hashlib.sha256(io.open(y, "rb").read()).hexdigest()
+        return iz
+
+    kaynak = DATA
+    hedef = tempfile.mkdtemp(prefix="petek_girdi_")
+    for deneme in range(1, 6):
+        once = _ozet(kaynak)
+        for ad in list(GIRDI_DOSYALARI) + [GOL_DOSYASI]:
+            y = os.path.join(kaynak, ad)
+            if os.path.exists(y):
+                shutil.copy2(y, os.path.join(hedef, ad))
+        if _ozet(kaynak) == once:
+            DATA = hedef
+            print(f"Girdi anlık görüntüsü: {len(once)} dosya kopyalandı"
+                  + (f" ({deneme}. denemede)" if deneme > 1 else "")
+                  + " → girdi dosyaları SERBEST")
+            return hedef
+        print(f"  anlık görüntü sırasında girdi değişti, tekrarlanıyor "
+              f"({deneme}/5)")
+    raise SystemExit("Girdi 5 denemede de durulmadı — kopya alınamadı.")
+
 # ⚠️ SIRA ÖNEMLİ: aynı ad iki dosyada varsa hangisinin kazandığı değil, HATA
 # verilmesi gerekir (aşağıda kontrol ediliyor). Sıra yalnız okunabilirlik için.
 GIRDI_DOSYALARI = [
