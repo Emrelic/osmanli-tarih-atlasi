@@ -1592,3 +1592,77 @@ işlemselleştirmedir ve sınanmadan kabul edilmedi: 12 boşluk **önce elle**
 etiketlenip sonra ölçütle karşılaştırılacak. Ters düşen tek vaka varsa ölçüt
 elenir ve `kasitli_bosluk:` alanı **elle** yazılır — 12 kayıt için elle
 işaretlemek meşrudur; kötü olan, otomatik sanıp yanlış işaretlemektir.
+
+---
+
+## §44 — Yanlış ayrıştırma, MAKUL sayı üretir; makullüğü değil TUTARLILIĞI sorgula
+
+Bugün **dört** vakası oldu ve dördü de aynı kalıptaydı: ölçüm koştu, sayı
+üretti, **ölçülen şey sanılan şey değildi** — ve çıkan sayı hiç şüphe
+uyandırmayacak kadar makuldü.
+
+```
+A5       letonya'nın `f:` alanını KOMŞU kayıttan aldı      → sayı verdi
+DENETÇİ  `kisiler:` dizisini karakter karakter saydı       → 863 yerine 86
+YAMACI   ilk sayım                                          → ikinci ölçümle tuttu
+DENETÇİ  regex'te `\b` ham dize değildi, BACKSPACE oldu    → 37 yerine 4
+KOORDİN. `grep -c '401'` dosya BOYUTLARINDAKİ "401"i saydı → 2 kimlik hatası
+         (gerçekte 0; "1401599" içinde geçiyordu)
+```
+
+🔴 **Hiçbirini sayının büyüklüğü ele vermedi.** *"37 tüketilmeyen global"*
+inandırıcı bir rakamdır. *"2 kimlik hatası"* da öyle. Yakalayan şey her
+seferinde **imkânsızlık** oldu:
+
+> DENETÇİ'nin cümlesi: *"`app.js`'in `PETEKLER`'i okumaması **mümkün değil**.
+> Makullüğü değil tutarlılığı sorguladım."*
+
+⇒ **Ayıraç:** çıkan sayı makul mü diye sorma — **listede olması imkânsız bir
+şey var mı** diye sor. Sayı doğruysa hiçbir imkânsız üye içermez; ayrıştırma
+bozuksa neredeyse her zaman içerir.
+
+📌 İkinci ders: bu kusur sınıfı **`§34`'ün tam kendisidir** — ölçüm çalıştı,
+başka bir cevap da verebilirdi, ama **başka bir şeyi** ölçüyordu. `§34`
+ölçümün *cevabına*, `§44` ölçümün *nesnesine* bakıyor.
+
+📌 Üçüncüsü ve pratik olanı: dördünde de yakalayan şey **ikinci bir bakış**
+oldu — ya başka bir oturum, ya "bu olamaz" refleksi. **Tek bakışla üretilen
+sayı, ölçüm değil taslaktır.**
+
+---
+
+## §45 — Bayrak, çoğu zaman EKSİK VERİNİN vekilidir
+
+(ARABİSTAN'ın teşhisi; BALKAN'dan bağımsız doğrulama.)
+
+`kur:` öncesi boşluğun "kasıtlı mı, yazılmamış mı" olduğunu ayırmak için
+`kasitli_bosluk:` diye bir bayrak tasarlanıyordu. ARABİSTAN sorunun yanlış
+kurulduğunu gösterdi:
+
+> Soru *"orada devlet var mıydı"* değil:
+> **"o toprağı hangi MERKEZ idare ediyordu ve o merkez veride VAR MI?"**
+> · merkez biliniyor + veride **var** → sorun yok
+> · merkez biliniyor + veride **YOK** → boşluk **kusur**; çözüm bayrak değil
+>   **eksik noktayı eklemek**
+> · merkez **bilinmiyor** → boşluk kasıtlı
+
+**Aynı gün üç bağımsız doğrulaması geldi, üçü de kararsız bantta (%40-63):**
+```
+Kuveyt  %40,5 → Benî Hâlid'in "Kût" yazlık idare merkezi vardı  (ARABİSTAN)
+Doha    %49,5 → Zübâre 1776 ve Huveyle, Doha'dan ÖNCE           (ARABİSTAN)
+Cetinje %48,9 → Podgorica eksik; bölgede 2 nokta, arada 61 km   (BALKAN)
+```
+
+📌 Ve ölçütün yanlış kurulduğunun kanıtı **kendi verimizdeydi**: `benihalid`,
+`suud`, `sammar`, `nogay`, `kazak-hanligi` zaten boyanıyor. *"Aşiret devlet
+sayılmaz"* deseydik Necid'in tamamını silmek gerekirdi. **Yeni bir ölçüt
+aramadan önce, verinin o soruyu çoktan cevaplayıp cevaplamadığına bak.**
+
+⚠️ Bunun bir sonucu daha var ve ölçüm hâline getirildi: **kararsız bant,
+ölçütün başarısızlığı değil, EKSİK YERLEŞİM DEDEKTÖRÜ olabilir.** Doğruysa
+çıktı *"şu kayıtları elle işaretle"* değil *"şu bölgelerde nokta eksik"*
+olur — biri haritayı düzeltir, öbürü kusuru saklar.
+
+📌 Genel hâli: **bir alanı elle işaretlemek zorunda kalıyorsan, önce o
+zorunluluğun eksik veriden doğup doğmadığına bak.** Bayrak ucuzdur ve tam bu
+yüzden yanlış yerde kullanılır.
