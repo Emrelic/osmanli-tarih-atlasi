@@ -1078,3 +1078,66 @@ Rumeli 1885, Bosna ilhakı, Londra, Edirne'nin geri alınışı, İstanbul Antla
 ⚠️ Ve yokluk iddiası varlık iddiasından **daha pahalıdır** (`§20`): bir şeyin var
 olduğunu tek bulguyla kanıtlarsın, olmadığını ancak eksiksiz taramayla. Eksik
 tarama "yok" der ve o "yok" mükerrer üretir.
+
+---
+
+## 22-DÜZELTME-2. D2 de kıyıdan kurtulmuyor — ve "Kırım temiz" hükmü YANLIŞTI
+
+`§22-DÜZELTME` iki şey söylüyordu. **Biri doğru, biri yanlış.**
+
+| | Durum |
+|---|---|
+| D1'in kıyı tamponuna bağımlılığı (3,5 kat oynuyor) | ✅ **doğru, kalıyor** |
+| Reçeteye kalibrasyon yazılması (kutu · gün · gövde çifti) | ✅ **doğru, kalıyor** |
+| *"D2 kıyıya dokunmaz, çözüm bu"* | ❌ **YANLIŞ** |
+| *"Kırım cetvelle çizilmiş değil, 95,6-107,6"* | ❌ **YANLIŞ — doğrusu 32-45** |
+
+### Sebep: yarımadada ortak sınırın kendisi kıyı boyunca uzanıyor
+
+```
+D2 ölçümü:  168,3 km · 18 kenar · 107,0
+   kutu kenarına yapışık :  0,5 km /  4 kenar   (%0 uzunluk)
+   KIYIYA 0,01° yakın    : 12,4 km / 19 kenar   (%7 uzunluk)
+```
+
+**Uzunluğun %7'si kenarların %106'sını taşıyor.** Ortak sınır kıyıya değdiği
+yerlerde tampon, kıyının sık düğümlü köşelerini içeri alıp sayıyı şişiriyor.
+Kıyıya yakın parçalar atılınca **35-50** çıkıyor — Oturum 13'ün 32,3'üyle aynı
+mertebe.
+
+### Ve asıl bulgu: sınır tek bir düz hat
+
+```
+127,9 km   3 kenar   → 23,5 kenar/1000 km   (Perekop hattı)
+ 19,0 km   3 kenar
+ 13,1 km   2 kenar
+  4,4 km   3 kenar
+```
+
+**128 kilometrelik iç sınır üç segmentle çiziliyor.** Kullanıcının Kırım'daki
+"cetvel" şikâyeti haklıydı; temize çıkarma yanlıştı. `§7d`'deki *"Boğdan,
+Kırım'ın üç katı"* cümlesi de doğruymuş — geri alınması geri alındı.
+
+### 🔴 İki kök sebep, ikisi de genellenebilir
+
+**1. Dayanıklılık YANLIŞ EKSENDE ölçüldü.** D2 "1,06-1,13× kararlı" diye
+savunuldu — ölçülen şey **eşleme toleransıydı**. Sonucu asıl oynatan **kıyı
+muamelesiydi** ve o eksen hiç taranmadı, çünkü *"D2 kıyıya dokunmaz"* diye
+varsayılmıştı.
+
+> **Bir yöntemin bağışık olduğunu varsaydığın eksen, taramayı en çok
+> atlayacağın eksendir.**
+
+**2. Çelişen ölçüm, karşı tarafın sayısı üretilmeden reddedildi.** İki oturum
+farklı sayı buldu; biri "benim yöntemim daha dayanıklı" deyip geçti.
+
+> **Başka bir oturumun ölçümüyle çelişiyorsan, kendi sayını savunmadan önce
+> ONUN sayısını üretebildiğini göster.** Üretebiliyorsan farkın nereden geldiği
+> zaten görünür; üretemiyorsan savunacak bir şeyin yok.
+
+Bu yapılabilseydi çelişki iki saat önce kapanırdı.
+
+### Reçeteye eklenen üçüncü zorunluluk
+
+Kutu · gün · gövde çifti **yetmiyor**; **kıyı muamelesi** de yazılmalı: hangi
+tampon, kıyıya değen parçalar atıldı mı, atılmadıysa neden.
