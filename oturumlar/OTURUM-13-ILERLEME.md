@@ -701,3 +701,52 @@ görünüyor. Kaynak: `safeviler` ✔ ve `akkoyunlular` ✔. `ismail-i`
 
 **Devreden üç blok:** Selçuklu 1243-1281 · hatalar 13'ün kalan Anadolu
 maddeleri · Kırım (md.13).
+
+---
+
+## 2026-07-31 (2. tur) — Ergani: kendi bulgumu çürüttüm
+
+Merkez 1. maddeyi "beş dakikalık iş, somut kazanç" diye verdi; dayanağı benim
+§15.2'mdi. **Dayanak yanlıştı.** §15.2 bir ölçüm değil çıkarımdı: Ergani'yi
+idarî merkezi Diyarbakır'ın 10 Eylül 1515'ine eşitlemiştim.
+
+TDV `biyikli-mehmed-pasa` ✔ eşitlemiyor — Ergani'yi "Musul, Ruha, Birecik,
+Harput, Çermik, Ergani, Palu ve Sincar" grubunda, **Mardin kuşatması sürecinde**
+sayıyor ve ayrı tarih vermiyor. Veride o grubun tarihi zaten `1516-05-01`.
+
+**Ölçüldü** (`scratchpad/sahip.js` — `donemler.js` + `devletler_harita.js`
+üzerinde nokta-içinde-poligon, yani yerleşim kaydından değil **motorun
+çıktısından**): Ergani koordinatı 1507'den 1516-05-01'e `safevi`, sonra OSMANLI.
+**Harita bugün doğru boyuyor.** Emen petek Palu (49,7 km) ve Palu'nun zinciri
+TDV'nin Ergani için işaret ettiğinin aynısı.
+
+⚠️ **Ders:** "en yakın petek yanlış sahipli" demek için peteğin sahibini
+bilmek yetmez, **noktanın gerçek sahibini kaynaktan ölçmek** gerekir. Ben
+ikincisini idarî bağlılıktan türettim. `MIMARI §2` emilmesi her boşlukta hata
+DEMEK DEĞİLDİR — boşluk, komşusuyla aynı tarihe sahipse emilme doğru sonuç verir.
+
+**Nokta yine de eklenmeli, sebebi değişti:** renk değil **çözünürlük**.
+§15.4'ün ölçtüğü 25,2 köşe/1000 km'nin sebebi ~50 km yarıçaplı boşluk. Ve
+TDV'nin kendi fetih listesindeki sekiz yerden **üçü veride yok**: Birecik ·
+Çermik · Ergani (Ruha = `Urfa` adıyla var). Üçünün de haritası ölçüldü,
+**üçü de bugün doğru boyanıyor** — yani üçü de renk-nötr, tek kazanç ağ
+aralığının ~50 km'den ~30 km'ye inmesi. Kazancın sayıya etkisi ancak üretimden
+sonra ölçülebilir.
+
+Üç kayıt tam satır hâlinde `OTURUM-13-ANADOLU.md` **§20.4**'te; 3 km kuralı,
+Değişmez 1, `BOYALAR` kimliği ve `m:` hedefi önceden denetlendi. Zincirler
+**idarî merkezi değil komşuları yansıtıyor** — merkeze eşitlemek 1401-1465
+arasında bir Akkoyunlu enklavı açardı.
+
+🔴 **Yan bulgu:** TDV `diyarbakir` Âmid'in Akkoyunlu'ya geçişini **1401**
+veriyor (Karayülük Osman Bey), veride **1378** — 23 yıl erken. Aynı madde
+Artuklu hâkimiyetinin 1183'te bittiğini söylüyor, veride 1281-1378 `artuklu`.
+Komşuların `artuklu 1281→1465`'i de şüpheli. **Ayrı iş açılmalı:
+"Diyarbekir bloğunun 1281-1465 kimlik zinciri", altı kayıt tek elden** —
+tek tek düzeltilirse enklav tuzağı altı yerde birden açılır.
+
+⚠️ İki TDV maddesi Birecik'te çelişiyor (`biyikli-mehmed-pasa` Diyarbekir
+grubunda, `birecik` Mercidâbık sonrasında). **Müstakil yer maddesi esas
+alındı.**
+
+§15.2 ve §16 C'ye geçersizlik bandı konuldu; okuyan eski iddiaya dayanmasın.

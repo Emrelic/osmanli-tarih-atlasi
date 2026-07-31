@@ -607,6 +607,8 @@ modern adla yazılıyor.*
 
 ### 15.2 (b) Yalnız bir nokta eksik: **ERGANİ**
 
+> 🔴 **GEÇERSİZ — `BÖLÜM III §20`'ye bakın.** Aşağıdaki "~7,5 ay Safevî boyanıyor" iddiası bir ölçüm değil çıkarımdı ve TDV `biyikli-mehmed-pasa` ile çürüdü: harita Ergani'yi bugün DOĞRU boyuyor. Nokta yine de eklenmeli, ama sebebi renk değil çözünürlük.
+
 Kullanıcının saydığı üç yerden ikisi veride var; **Ergani yok.** En yakın
 petekler ve o peteklerin 1515-10 sahipleri:
 
@@ -699,7 +701,7 @@ olarak değil. Bu turda öneri seviyesinde bırakıldı.
 |---|---|---|
 | Malatya | OSM `1516-08-24` | **1516-07-28** (Hadım Sinan Paşa) |
 
-**C. Yeni nokta**
+**C. Yeni nokta**  🔴 **İPTAL — yerine `§20.4`'teki üç kayıt.**
 
 | Ad | lat / lon | Zincir | Not |
 |---|---|---|---|
@@ -767,3 +769,179 @@ tarifi karşılandı.
    düzeltilse bile o hat düz çizgi kalır.
 5. 🔴 **Değişmez 2 `s:` dönemlerini hiç denetlemiyor: 543 yabancı kırılmanın
    112'si açık.** Bu, md.4'ten büyük ve bu turun asıl bulgusudur.
+
+---
+
+# BÖLÜM III — ERGANİ (merkezin 1. maddesi)
+
+> 🔴 **Bu bölüm §15.2'yi ve §16 C satırını GEÇERSİZ KILAR.** §15.2'de yazdığım
+> "~7,5 ay Safevî boyanıyor" iddiası **yanlıştı**; aşağıda hem sebebi hem ölçümü
+> var. Merkez o iddiaya dayanarak "beş dakikalık iş, somut kazanç" dedi —
+> kazanç var ama **iddia ettiğim yerde değil.**
+
+## 20. §15.2 neden yanlıştı
+
+§15.2 bir **ölçüm değil çıkarımdı**: Ergani'yi idarî merkezi Diyarbakır'ın
+tarihine (10 Eylül 1515) eşitledim ve "demek ki 1516-05-01'e kadar yanlış
+boyanıyor" dedim. **TDV bu eşitlemeyi yapmıyor.**
+
+TDV `biyikli-mehmed-pasa` (`<title>` = "BIYIKLI MEHMED PAŞA - TDV İslâm
+Ansiklopedisi" ✔ CANLI), Diyarbekir bölgesinin fethini anlatırken şu sekizini
+tek grup hâlinde sayıyor:
+
+> "Musul, Ruha, Birecik, Harput, Çermik, Ergani, Palu ve Sincar ele geçirildi"
+
+Bu grup **Âmid'in teslimiyle değil, Mardin kuşatması sürecinde** düşüyor;
+maddede Ergani'ye **ayrı bir tarih verilmiyor.** Yani Ergani'nin çapası Âmid'in
+10 Eylül 1515'i değil, **Harput-Çermik-Palu grubudur** — ve veride o grubun
+tarihi zaten `1516-05-01`.
+
+### 20.1 Üretilmiş haritada ölçüm
+
+Yerleşim kaydından değil, **motorun çıktısından** okundu: `data/donemler.js` +
+`data/devletler_harita.js` üzerinde nokta-içinde-poligon
+(`scratchpad/sahip.js`, ray casting).
+
+| Gün | Ergani koordinatını (39,7622 / 38,2683) kim boyuyor |
+|---|---|
+| 1400-06-15 | `artuklu` |
+| 1450-06-15 | `artuklu` |
+| 1470-06-15 | `akkoyunlu` |
+| 1500-06-15 | `akkoyunlu` |
+| 1510-06-15 | `safevi` |
+| 1515-08-01 | `safevi` |
+| **1515-10-01** | **`safevi`** ← §15.2 "burada Osmanlı olmalı" demişti |
+| 1516-01-15 | `safevi` |
+| 1516-04-15 | `safevi` |
+| **1516-06-15** | **OSMANLI** |
+| 1517-06-15 | OSMANLI |
+
+Emen petek **Palu**'dur (49,7 km; Diyarbakır 57,5 km, Harput 67,0 km) ve Palu'nun
+zinciri TDV'nin Ergani için işaret ettiği zincirin aynısı. **Harita Ergani'yi
+bugün doğru boyuyor.** Ortada düzeltilecek bir renk hatası yok.
+
+### 20.2 Nokta yine de eklenmeli — ama sebep renk değil, ÇÖZÜNÜRLÜK
+
+Kazanç §15.4'ün ölçtüğü kusurdadır: `1515-10-01 OSMANLI↔memluk = 25,2
+köşe/1000 km`, Libya çölü sınıfı. Sebebi bölgedeki **~50 km yarıçaplı boşluk** —
+Ergani'nin en yakın komşusu 49,7 km ötede. Petek üretecek nokta yoksa sınır
+düz çizgi olur.
+
+Ve TDV'nin **kendi fetih listesindeki sekiz yerden üçü veride hiç yok**
+(parça eşleşmeyle arandı):
+
+| TDV listesi | Veride |
+|---|---|
+| Musul · Harput · Palu · Sincar | ✔ var |
+| Ruha | ✔ var (`Urfa` adıyla) |
+| **Birecik · Çermik · Ergani** | 🔴 **YOK** |
+
+### 20.3 Üçünün de haritası ölçüldü — üçü de bugün DOĞRU boyanıyor
+
+| Nokta | Emen petek | 1515-10-01 | 1516-04-15 | 1516-06-15 | 1517-06-15 | Doğru mu |
+|---|---|---|---|---|---|---|
+| Ergani | Palu 49,7 km | `safevi` | `safevi` | OSMANLI | OSMANLI | ✔ |
+| Çermik | Siverek 44,5 km | `safevi` | `safevi` | OSMANLI | OSMANLI | ✔ |
+| Birecik | Antep 52,9 km | `memluk` | `memluk` | `memluk` | OSMANLI | ✔ |
+
+Birecik için TDV `birecik` (`<title>` = "BİRECİK - TDV İslâm Ansiklopedisi"
+✔ CANLI): *"Birecik Yavuz Sultan Selim'in Mısır seferi sırasında Mercidâbık
+Savaşı'ndan sonra Osmanlı idaresine girdi (1516)"* — harita Antep peteğinden
+1516-08-24'te çeviriyor, doğru.
+
+⚠️ **İki TDV maddesi burada çelişiyor:** `biyikli-mehmed-pasa` Birecik'i
+Diyarbekir grubunda (1515-16, Mardin kuşatması) sayıyor; `birecik` maddesi
+Mercidâbık'tan **sonraya** koyuyor. **Müstakil madde esas alındı** — bir yer
+maddesi, bir kişi maddesinin özet listesinden daha hassastır.
+
+> **Sonuç:** üç nokta da **renk-nötrdür.** Eklenmeleri hiçbir boyamayı
+> değiştirmez; yaptıkları tek şey ağ aralığını **~50 km'den ~30 km'ye**
+> düşürmektir. Somut kazanç budur ve tek başına yeterli değildir —
+> Malatya-Adıyaman arasındaki 125 km'lik boşluk ayrıca nokta ister.
+> Kazancın §15.4'teki sayıyı ne kadar iyileştirdiği **ancak üretim koşulduktan
+> sonra ölçülebilir**; şimdiden bir rakam veremem.
+
+### 20.4 Eklenecek kayıtlar — tam satır
+
+Zincir tercihi: **komşuları (Palu · Harput · Siverek) birebir yansıtır, idarî
+merkezi Diyarbakır'ı değil.** Gerekçesi §20.5.
+
+```js
+{ ad:"Ergani", tur:"kale", lat:38.2683, lon:39.7622, g:0, k:4, m:"Diyarbakır",
+  s:[{f:"1281-01-01",t:"1465-01-01",d:"artuklu"},
+     {f:"1465-01-01",t:"1507-01-01",d:"akkoyunlu"},
+     {f:"1507-01-01",t:"1516-05-01",d:"safevi"}],
+  d:[{f:"1516-05-01",t:"1923-10-29",y:"kusatma"}] },
+
+{ ad:"Çermik", tur:"kale", lat:38.1390, lon:39.4540, g:0, k:4, m:"Diyarbakır",
+  s:[{f:"1281-01-01",t:"1465-01-01",d:"artuklu"},
+     {f:"1465-01-01",t:"1507-01-01",d:"akkoyunlu"},
+     {f:"1507-01-01",t:"1516-05-01",d:"safevi"}],
+  d:[{f:"1516-05-01",t:"1923-10-29",y:"kusatma"}] },
+
+{ ad:"Birecik", tur:"kale", lat:37.0256, lon:37.9772, g:0, k:3, m:"Halep",
+  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"}],
+  d:[{f:"1516-08-24",t:"1923-10-29",y:"savas"}] },
+```
+
+Denetim kontrolleri **önceden koşuldu**:
+
+| Kontrol | Sonuç |
+|---|---|
+| 3 km kuralı | en yakın çift Ergani↔Çermik **30,5 km** ✔ |
+| Değişmez 1 (sahipsizlik) | üçü de 1281→1923 kesintisiz kaplı ✔ |
+| Değişmez 2 (kırılma maddesi) | yeni kırılma tarihi **yok** — üçü de mevcut tarihleri kullanıyor ✔ |
+| `BOYALAR` kimliği | `artuklu` · `akkoyunlu` · `safevi` · `memluk` — dördü de tanımlı ✔ |
+| Kara maskesi | üçü de iç Anadolu/Fırat havzası ✔ |
+| `m:` hedefi var mı | `Diyarbakır` ✔ · `Halep` ✔ |
+
+⚠️ Birecik `m:"Halep"` alıyor ama Osmanlı'ya **1516-08-24**'te (Antep gibi,
+Mercidâbık) geçiyor; Halep kaydı **1516-08-28**. Dört günlük fark. Değişmez 3
+kesitleri (1300/1400/…/1800) bu aralığa düşmediği için sayıya girmez, ama
+bilinsin.
+
+🔴 **Kaynak notu:** TDV'de **`ergani` maddesi yoktur** — slug ölü *ve* arama
+"başlıkta 0 eşleşme" veriyor; Ergani 34 maddenin içinde geçiyor, kendi maddesi
+yok. `Çermik` için de müstakil madde yok. İkisinin kaynağı `diyarbakir` +
+`biyikli-mehmed-pasa`'dır. Birecik'inki `birecik`.
+
+### 20.5 Neden merkezi değil komşuları yansıtıyor — ve bir yan bulgu
+
+Ergani'yi idarî merkezi Diyarbakır'a eşitlemek **1401-1465 arasında bir
+Akkoyunlu enklavı** yaratırdı: Diyarbakır kaydı `akkoyunlu` 1378'den, komşuları
+Palu-Harput-Siverek ise `artuklu` 1465'e kadar. Ergani ortada tek başına
+akkoyunlu olur, çevresi artuklu kalırdı — `CLAUDE.md §7`'nin uyardığı Hemedan
+enklavının aynısı. Dolgu noktası **yeni tarihsel iddia taşımaz**; komşusunu
+yansıtır.
+
+Ama o farkın kendisi ayrı bir hatadır ve kayda geçsin — TDV `diyarbakir`:
+
+> "25 veya 26 Nisan 1394'te Timur tarafından zaptedilerek yağma edilen şehir
+> **1401'de** Karayülük Osman Bey'e verildi ve böylece bölgede Akkoyunlu
+> hâkimiyeti başlamış oldu."
+
+Veride Diyarbakır `akkoyunlu` **1378**'den — **23 yıl erken.** Dahası aynı
+madde Âmid'de Artuklu hâkimiyetinin **1183'te** Selâhaddîn tarafından
+bitirildiğini söylüyor; veride Âmid 1281-1378 arası `artuklu`. Komşuların
+`artuklu 1281→1465`'i de aynı şüpheyi taşıyor (Harput Artukluları 1234'te,
+Mardin kolu 1409'da biter).
+
+> 📌 **Ayrı iş olarak açılmalı: "Diyarbekir bloğunun 1281-1465 kimlik zinciri".**
+> Altı kayıt (Diyarbakır · Mardin · Harput · Palu · Siverek + yeni Çermik/Ergani)
+> tek elden ele alınmalı. Bu turda **dokunulmadı** — tek tek düzeltilirse
+> §20.5'in enklav tuzağı bu sefer altı yerde birden açılır.
+
+### 20.6 §16'nın güncellenen satırları
+
+**C. Yeni nokta** — §16'daki tek satırlık Ergani önerisi **iptal**, yerine
+§20.4'teki üç kayıt. Gerekçe artık "yanlış boyanıyor" değil, "ağ çok seyrek".
+
+**Ek uyarı — §16 A'daki Diyarbakır satırında tarih tutarsızlığı:** orada
+`safevi` başlangıcı `1507-05-24` önerilmişti; komşuları (Palu · Harput ·
+Siverek · Urfa) `1507-01-01` taşıyor ve **TDV yalnız yılı veriyor**
+("1507'de … Emîr Bey Şah İsmâil'e itaatini sunarak idaresi altındaki yerleri
+ona teslim etti"). `CLAUDE.md §4`'e göre günü bilinmeyen tarih `YYYY-01-01`
+yazılır. `1507-05-24` veride hâlihazırda duran ve 18 kayıt taşıyan bir
+kırılmadır; **hangisinde birleşileceği entegrasyonun kararıdır** ama iki tarih
+yan yana kalmamalı. Yeni üç kayıt komşularla hizalı olsun diye `1507-01-01`
+aldı.
