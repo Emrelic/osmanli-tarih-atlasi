@@ -80,126 +80,126 @@ window.YERLESIMLER_AFRIKA = [
 
 { ad:"Demenhûr (Damanhur)", tur:"sehir", lat:31.034, lon:30.470, g:0, k:3, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-05-19",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-05-19",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 { ad:"Dessûk", tur:"sehir", lat:31.135, lon:30.647, g:0, k:4, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-05-19",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-05-19",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 { ad:"Kafrüşşeyh", tur:"sehir", lat:31.112, lon:30.940, g:0, k:4, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-05-19",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-05-19",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 // Burullus gölünün kuzey kordonu; Delta'nın kuzey kıyısını Reşîd ile Dimyat
 // arasında tutan tek nokta.
 { ad:"Bürüllüs (Baltîm)", tur:"liman", lat:31.556, lon:31.090, g:0, k:4, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-05-19",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-05-19",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 { ad:"Tanta", tur:"sehir", lat:30.786, lon:31.001, g:1, k:4, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-05-19",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-05-19",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 // Garbiye kâşifliğinin merkezi.
 { ad:"Mahalletülkübrâ", tur:"sehir", lat:30.970, lon:31.168, g:0, k:3, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-05-19",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-05-19",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 // Menûfiye kâşifliğinin merkezi.
 { ad:"Şibînülkûm (Menûfiye)", tur:"sehir", lat:30.552, lon:31.011, g:0, k:3, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-05-19",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-05-19",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 // Kalyûbiye kâşifliğinin merkezi.
 { ad:"Benhâ (Kalyûbiye)", tur:"sehir", lat:30.466, lon:31.184, g:0, k:4, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-05-19",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-05-19",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 // Dakahliye kâşifliğinin merkezi.
 { ad:"Mansûre", tur:"sehir", lat:31.038, lon:31.380, g:1, k:3, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-05-19",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-05-19",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 { ad:"Mît Gamr", tur:"sehir", lat:30.718, lon:31.259, g:0, k:4, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-05-19",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-05-19",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 { ad:"Menzile", tur:"sehir", lat:31.157, lon:31.937, g:0, k:4, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-05-19",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-05-19",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 // Şarkiye kâşifliğinin merkezi; Mısır'dan Suriye'ye giden ordu yolunun ilk
 // menzili.
 { ad:"Bilbîs (Şarkiye)", tur:"sehir", lat:30.417, lon:31.567, g:0, k:3, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-05-19",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-05-19",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 { ad:"Fâkûs", tur:"sehir", lat:30.729, lon:31.797, g:0, k:4, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-05-19",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-05-19",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 // Sînâ yolunun son Mısır menzili.
 { ad:"Sâlihiyye", tur:"kale", lat:30.793, lon:31.986, g:0, k:4, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-05-19",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-05-19",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 // 1798 ve 1799 Ebûkîr muharebelerinin sahnesi.
 { ad:"Ebûkîr", tur:"kale", lat:31.317, lon:30.062, g:0, k:4, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-05-19",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-05-19",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 // Süveyş Kanalı şehirleri: kur: alanı motorca okunmuyor (MIMARI.md §3.1), ama
 // kanaldan önce burada yerleşim yoktu; zaman dilimli Voronoi geldiğinde veri
 // hazır olsun diye yazıldı. Dönem zincirleri Mısır'ın geneliyle aynı.
 { ad:"Portsaid", tur:"liman", lat:31.257, lon:32.284, g:0, k:4, m:"Kahire", kur:"1859-04-25",
   s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-05-19",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-05-19",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 { ad:"İsmâiliye", tur:"sehir", lat:30.588, lon:32.271, g:0, k:4, m:"Kahire", kur:"1863-04-27",
   s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-05-19",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-05-19",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 // Sînâ'nın kuzey kıyısı — Mısır ile Suriye arasındaki tek karayolu buradan
 // geçer; Katye kervan ve hac yolu menzili, El-Arîş sınır kalesidir.
 { ad:"Katye", tur:"kale", lat:30.940, lon:32.633, g:0, k:4, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-05-19",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-05-19",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 { ad:"El-Arîş", tur:"kale", lat:31.132, lon:33.798, g:0, k:4, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-05-19",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-05-19",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 // Marmarika kıyısı: İskenderiye ile Derne arasında 700 km boyunca hiç nokta
 // yoktu, kıyı şeridi İskenderiye'nin peteğine emiliyordu.
 { ad:"Mersâ Matruh", tur:"liman", lat:31.353, lon:27.237, g:0, k:4, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-05-19",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-05-19",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 // Mısır-Trablusgarp sınırı; 1911 sınır düzenlemesinde Mısır'da kaldı.
 { ad:"Sellûm", tur:"liman", lat:31.545, lon:25.170, g:0, k:4, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-05-19",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-05-19",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 // ===========================================================================
 // 2) MISIR — Orta ve Yukarı Mısır (Nil vadisi)
@@ -210,92 +210,92 @@ window.YERLESIMLER_AFRIKA = [
 
 { ad:"Atfîh", tur:"sehir", lat:29.408, lon:31.257, g:0, k:4, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-04-13",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-04-13",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 { ad:"Benî Süveyf", tur:"sehir", lat:29.074, lon:31.098, g:0, k:3, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-04-13",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-04-13",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 // Nil vadisinin batısındaki tek büyük vaha-ova; kendi noktası olmazsa Batı
 // çölü dolgusuna ya da Kahire'ye emilir.
 { ad:"Feyyûm", tur:"sehir", lat:29.309, lon:30.842, g:1, k:3, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-04-13",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-04-13",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 { ad:"Behnesâ", tur:"sehir", lat:28.535, lon:30.650, g:0, k:4, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-04-13",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-04-13",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 { ad:"Minye", tur:"sehir", lat:28.109, lon:30.750, g:0, k:3, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-04-13",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-04-13",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 { ad:"Mellevî", tur:"sehir", lat:27.732, lon:30.841, g:0, k:4, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-04-13",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-04-13",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 { ad:"Deyrût", tur:"sehir", lat:27.554, lon:30.809, g:0, k:4, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-04-13",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-04-13",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 { ad:"Tahtâ", tur:"sehir", lat:26.768, lon:31.502, g:0, k:4, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-04-13",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-04-13",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 { ad:"Ahmîm", tur:"sehir", lat:26.564, lon:31.745, g:0, k:4, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-04-13",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-04-13",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 // Osmanlı Yukarı Mısır'ının sancak merkezi (Circe sancağı).
 { ad:"Cirge (Girga)", tur:"sehir", lat:26.340, lon:31.891, g:1, k:3, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-04-13",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-04-13",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 { ad:"Ferşût", tur:"sehir", lat:26.052, lon:32.158, g:0, k:4, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-04-13",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-04-13",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 // Kusayr limanı üzerinden Hicaz'a giden hac ve tahıl yolunun Nil ayağı.
 { ad:"Kına", tur:"sehir", lat:26.164, lon:32.716, g:0, k:3, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-04-13",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-04-13",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 { ad:"Kûs", tur:"sehir", lat:25.915, lon:32.760, g:0, k:4, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-04-13",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-04-13",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 { ad:"Uksur (Luksor)", tur:"sehir", lat:25.687, lon:32.640, g:0, k:4, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-04-13",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-04-13",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 { ad:"Esna", tur:"sehir", lat:25.293, lon:32.554, g:0, k:4, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-04-13",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-04-13",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 { ad:"Edfû", tur:"sehir", lat:24.978, lon:32.874, g:0, k:4, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-04-13",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-04-13",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 { ad:"Kûm Ombo", tur:"sehir", lat:24.476, lon:32.943, g:0, k:4, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-04-13",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-04-13",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 // ===========================================================================
 // 3) MISIR — Kızıldeniz kıyısı ve Sînâ
@@ -307,35 +307,35 @@ window.YERLESIMLER_AFRIKA = [
 // nakliyesinin ana hattıydı.
 { ad:"Kusayr", tur:"liman", lat:26.104, lon:34.283, g:0, k:4, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-01-22",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-01-22",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-01-22",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 { ad:"Sefâce", tur:"liman", lat:26.733, lon:33.933, g:0, k:4, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-01-22",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-01-22",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-01-22",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 // Kusayr ile Halâib arasındaki 300 km'lik kıyı boşluğunu kapatır.
 { ad:"Ebû Ramâd (Şalâtîn)", tur:"liman", lat:23.133, lon:35.600, g:0, k:4, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-01-22",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-01-22",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-01-22",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 // Sînâ'nın güney kıyısı: hac gemilerinin karantina ve su alma iskelesi.
 // Yarımadanın İÇ çölüne nokta konmadı; mevcut "Sina güneyi" dolgusu kasten
 // sahipsiz kalmaya devam ediyor.
 { ad:"Tûr (Sînâ)", tur:"liman", lat:28.241, lon:33.623, g:0, k:4, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-01-22",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-01-22",t:"1805-07-09"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-01-22",t:"1805-07-03"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 // Nûbe: İbrim kâşifliğinin güney ucu. Zincir mevcut İbrim kaydıyla birebir
 // (Özdemir Paşa'nın Nûbe harekâtı, 1555). Mehdî isyanı sırasında Vâdî Halfâ
 // Mısır elinde kaldı — Sudan zinciri DEĞİL, Mısır zinciri yazıldı.
 { ad:"Vâdî Halfâ", tur:"kale", lat:21.802, lon:31.352, g:0, k:4, m:"Kahire",
   s:[{f:"1281-01-01",t:"1555-01-01",d:"memluk"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1555-01-01",t:"1805-07-09",y:"kusatma"}],
-  v:[{f:"1805-07-09",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1555-01-01",t:"1805-07-03",y:"kusatma"}],
+  v:[{f:"1805-07-03",t:"1914-11-05",k:"Kavalalı hanedanı"}] },
 
 // ===========================================================================
 // 4) TUNUS EYALETİ
@@ -760,27 +760,48 @@ window.YERLESIMLER_AFRIKA = [
 // Hobyo (Obbiya) sultanlığı İtalyan himayesini Aralık 1888'de kabul etti —
 // Mecerteyn'den (7 Nisan 1889) birkaç ay önce. Gün bilinmediği için ayın
 // 1'i yazıldı.
+// 🔴 YEDİ KAYITTAN `italya` DÖNEMİ KALDIRILDI (31 Temmuz). Sebebi 39 yıllık
+// çelişkiydi: veri 1888/1889'da İtalyan sahipliği başlatıyordu, TDV `somali` ise
+// *"Mâcerteyn ve Obbia emirliklerine ait topraklar ise **1927'de** İtalyanlar
+// tarafından işgal edildi"* diyor — atlasın ufkunun (1923-10-29) DÖRT YIL ötesi.
+// 1889 antlaşmaları kâğıt üzerinde himaye kurdu, fiilî işgal olmadı.
+//
+// Üç ayrı TDV desteği: emirlikler işgal ânına kadar "hüküm süren" · Mâcerteyn
+// "XIX. yüzyılda bağımsız hale geldi" · `muhammed-b-abdullah-hasan` 1903'te
+// "Obbia'nın iç kesimlerinde" çarpışıldığını söylüyor (İtalyan idaresi olsa
+// orada savaşılmazdı).
+//
+// ⚠️ `v:` (tâbi) YAZILMADI, bilerek: `v:` bir tâbiiyet İDDİASIDIR ve dayandığı
+// 1889 himaye antlaşmalarından TDV hiçbir maddede söz etmiyor. Desteklediği tek
+// şey bağımsızlık.
+// ⚠️ Yeni kimlik de EKLENMEDİ (`obbia`/`macerteyn`): eklenseydi `somali → obbia`
+// yine bir kırılma olurdu, yani yedi madde borcu geri gelirdi — (c)'yi cazip
+// kılan faydanın tamamı kimlik EKLEMEMEYE bağlıydı. Üstelik geçişi 1888/1889'a
+// koymak, "o gün toprak el değiştirdi" anlamını reddettikten sonra arka kapıdan
+// geri sokardı. İkisi dizin kaydı olarak `devletler.js`'e girecek (Oturum 3),
+// `harita:"somali"` ile aynı renge bağlı — palet hiç büyümez.
+// ⇒ Değişmez 2s açığı yedi eksiliyor, MADDE YAZMADAN.
 { ad:"Obbiya", tur:"liman", lat:5.351, lon:48.527, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1888-12-01",d:"somali"},{f:"1888-12-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1923-10-29",d:"somali"}], d:[] },
 
 { ad:"Galkayo", tur:"sehir", lat:6.770, lon:47.431, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1888-12-01",d:"somali"},{f:"1888-12-01",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1923-10-29",d:"somali"}], d:[] },
 
 { ad:"Garove", tur:"sehir", lat:8.406, lon:48.483, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1889-04-07",d:"somali"},{f:"1889-04-07",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1923-10-29",d:"somali"}], d:[] },
 
 { ad:"Ayl", tur:"liman", lat:7.980, lon:49.816, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1889-04-07",d:"somali"},{f:"1889-04-07",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1923-10-29",d:"somali"}], d:[] },
 
 // Mecerteyn sultanlığının merkezi ve Afrika Boynuzu'nun ucu.
 { ad:"Bender Kāsım (Bosaso)", tur:"liman", lat:11.284, lon:49.183, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1889-04-07",d:"somali"},{f:"1889-04-07",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1923-10-29",d:"somali"}], d:[] },
 
 { ad:"Alula", tur:"liman", lat:11.968, lon:50.750, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1889-04-07",d:"somali"},{f:"1889-04-07",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1923-10-29",d:"somali"}], d:[] },
 
 { ad:"Hafun", tur:"liman", lat:10.437, lon:51.259, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1889-04-07",d:"somali"},{f:"1889-04-07",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1923-10-29",d:"somali"}], d:[] },
 
 // Kuzeybatı kıyısı ve ardalanı: mevcut Berbera kaydıyla aynı zincir
 // (1884-07-18 İngiliz himaye antlaşmaları).
@@ -1028,19 +1049,19 @@ window.YERLESIMLER_AFRIKA = [
 
 { ad:"Hârice (Vâhât)", tur:"bolge", lat:25.440, lon:30.546, g:0, k:4, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-04-13",t:"1805-07-09"}], v:[{f:"1805-07-09",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-04-13",t:"1805-07-03"}], v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
 { ad:"Dâhile", tur:"bolge", lat:25.494, lon:28.976, g:0, k:4, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-04-13",t:"1805-07-09"}], v:[{f:"1805-07-09",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-04-13",t:"1805-07-03"}], v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
 { ad:"Ferâfire", tur:"bolge", lat:27.058, lon:27.970, g:0, k:4, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-04-13",t:"1805-07-09"}], v:[{f:"1805-07-09",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-04-13",t:"1805-07-03"}], v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
 { ad:"Bahriye (Bâvîtî)", tur:"bolge", lat:28.349, lon:28.864, g:0, k:4, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-04-13",t:"1805-07-09"}], v:[{f:"1805-07-09",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
+  d:[{f:"1517-04-13",t:"1805-07-03"}], v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
 // ===========================================================================
 // 16) LİBYA — hatalar 11 md.17 · Oturum 16'dan havale
