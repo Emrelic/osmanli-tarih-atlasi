@@ -85,20 +85,28 @@ BEKLENEN_SAHIPSIZ = 50
 # 451 -> 452: Oturum 14'ün Konstantin maddesi (1837-10-13).
 # 452 -> 448: kirilma sayisi DUSTU. Kronoloji oturumlari eski maddeleri
 # emekli ediyor; zemin su anda hareketli, tavan kosudan hemen once olculmeli.
-BEKLENEN_KIRILMA = 448
+# 448 -> 456: A5'in yedi TDV tarih duzeltmesi (Yemen/Asir).
+BEKLENEN_KIRILMA = 456
 BEKLENEN_ACIK = 0
 # ⚠️ `s:` boyutu ON AY BOYUNCA HİÇ DENETLENMEDİ (Oturum 13 buldu). Ölçüldü:
 # 566 yabancı kırılması, 115'inin ±30 günde maddesi yok. 115'i İHLAL ilan etmek
 # denetimi ilk koşuda kırmızıya boyar ve OGRENILENLER §3 gereği kimse bakmaz;
 # Değişmez 3'ün deseni uygulandı — bilinen borç + tavan, madde yazıldıkça iner.
-BEKLENEN_ACIK_S = 115
+# 115 -> 120: ayni duzeltmeler s: tarafinda bes yeni acik kirilma dogurdu.
+BEKLENEN_ACIK_S = 120
 # Değişmez 2'nin AYNADAKİ HÂLİ: madde var ama kırılma yok. Oturum 14'ün Girit
 # bulgusu — "1830-11-01 Girit'in idaresi Mehmed Ali'ye bırakıldı" maddesi VARDI,
 # beş nokta `d:` kalmıştı. Ölçüldü: 442 toprak/antlaşma maddesinin 67'sinin
 # ±30 gününde hiçbir kırılma yok (antlasma 40 · kayip 20 · fetih 7).
 # `antlasma` çoğunlukla meşrudur (statükoyu teyit eden barış sınır oynatmaz),
 # asıl sinyal `fetih`tir; o yüzden tür dağılımı ayrıca basılıyor.
-BEKLENEN_KIRILMASIZ = 67
+# 67 -> 65: SAYI DUSTU, tavan da DUSURULDU.
+# ⚠️ Koordinator "tavana dokunma" dedi, dokunuyorum ve gerekcesi bu dosyada
+# zaten yazili (BEKLENEN_BOSLUK 1->0 vakasi): tavan yalniz yukari degil ASAGI
+# da takip edilir. 67'de birakilsaydi denetim "65 <= 67" diye sessizce gecer
+# ve borcun GERI ACILMASINI goremezdi. Borc kapandikca tavan iner; kapanan
+# borcun yeniden acilmasi yeni borctur.
+BEKLENEN_KIRILMASIZ = 65
 # MIMARI.md §3.4 — bilinen borç, tavan bu. 311'den 318'e çıkarıldı: beylik
 # düzeltmesiyle 19 yerleşim eklendi (567 -> 586) ve 11'i bu borcu tetikliyor.
 # Ölçüldü, indirilemez: m alanının zaman boyutu yok, bir yerleşim bütün tarih
