@@ -580,11 +580,11 @@ window.YERLESIMLER = [
 // gün uydurmak yerine projenin "yıl biliniyorsa -01-01" kuralına çekildi.
 // Kapsam ölçüldü: bu tarihi taşıyan başka kayıt YOK, yalnız Mekke'nin iki ucu.
 { ad:"Mekke", tur:"sehir", lat:21.423, lon:39.826, g:2, k:2,
-    s:[{f:"1281-01-01",t:"1517-07-06",d:"memluk"},{f:"1806-01-01",t:"1813-01-23",d:"suud"},{f:"1916-06-10",t:"1923-10-29",d:"hicaz"}], d:[],
-    v:[{f:"1517-07-06",t:"1806-01-01",k:"Mekke Şerifliği"},{f:"1841-05-24",t:"1916-06-10",k:"Mekke Şerifliği"},{f:"1813-01-23",t:"1841-05-24",k:"Mısır (Kavalalı)"}] },
+    s:[{f:"1281-01-01",t:"1517-07-06",d:"memluk"},{f:"1803-04-30",t:"1803-08-06",d:"suud"},{f:"1806-01-01",t:"1813-01-23",d:"suud"},{f:"1916-06-10",t:"1923-10-29",d:"hicaz"}], d:[],
+    v:[{f:"1517-07-06",t:"1803-04-30",k:"Mekke Şerifliği"},{f:"1803-08-06",t:"1806-01-01",k:"Mekke Şerifliği"},{f:"1841-05-24",t:"1916-06-10",k:"Mekke Şerifliği"},{f:"1813-01-23",t:"1841-05-24",k:"Mısır (Kavalalı)"}] },
 { ad:"Medine", tur:"sehir", lat:24.470, lon:39.612, g:2, k:2,
-    s:[{f:"1281-01-01",t:"1517-07-06",d:"memluk"},{f:"1805-07-01",t:"1812-11-08",d:"suud"},{f:"1919-01-10",t:"1923-10-29",d:"hicaz"}], d:[],
-    v:[{f:"1517-07-06",t:"1805-07-01",k:"Mekke Şerifliği"},{f:"1841-05-24",t:"1919-01-10",k:"Mekke Şerifliği"},{f:"1812-11-08",t:"1841-05-24",k:"Mısır (Kavalalı)"}] },
+    s:[{f:"1281-01-01",t:"1517-07-06",d:"memluk"},{f:"1805-06-01",t:"1812-12-03",d:"suud"},{f:"1919-01-10",t:"1923-10-29",d:"hicaz"}], d:[],
+    v:[{f:"1517-07-06",t:"1805-06-01",k:"Mekke Şerifliği"},{f:"1841-05-24",t:"1919-01-10",k:"Mekke Şerifliği"},{f:"1812-12-03",t:"1841-05-24",k:"Mısır (Kavalalı)"}] },
 { ad:"Cidde", tur:"liman", lat:21.543, lon:39.173, g:0, k:3, m:"Mekke",
     s:[{f:"1281-01-01",t:"1517-07-06",d:"memluk"},{f:"1916-06-16",t:"1923-10-29",d:"hicaz"}], d:[{f:"1517-07-06",t:"1813-01-23"},{f:"1841-05-24",t:"1916-06-16"}],
     v:[{f:"1813-01-23",t:"1841-05-24",k:"Mısır (Kavalalı)"}] },
@@ -1027,7 +1027,7 @@ window.YERLESIMLER = [
 // Anadolu ve Arabistan
 { ad:"Antep", tur:"sehir", lat:37.066, lon:37.383, g:0, k:3, m:"Halep", s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1919-01-01",t:"1921-10-20",d:"fransa"}], d:[{f:"1516-08-24",t:"1919-01-01",y:"savas"},{f:"1921-10-20",t:"1923-10-29",y:"antlasma"}] },
 { ad:"Elbistan", tur:"sehir", lat:38.207, lon:37.194, g:0, k:4, m:"Maraş", s:[{f:"1281-01-01",t:"1337-01-01",d:"memluk"},{f:"1337-01-01",t:"1515-06-13",d:"dulkadir"}], d:[{f:"1515-06-13",t:"1923-10-29",y:"savas"}] },
-{ ad:"Tâif", tur:"sehir", lat:21.437, lon:40.513, g:0, k:4, m:"Mekke", s:[{f:"1281-01-01",t:"1517-07-06",d:"memluk"},{f:"1803-05-15",t:"1813-01-23",d:"suud"},{f:"1916-06-10",t:"1923-10-29",d:"hicaz"}], d:[], v:[{f:"1517-07-06",t:"1803-05-15",k:"Mekke Şerifliği"},{f:"1813-01-23",t:"1916-06-10",k:"Mekke Şerifliği"}] },
+{ ad:"Tâif", tur:"sehir", lat:21.437, lon:40.513, g:0, k:4, m:"Mekke", s:[{f:"1281-01-01",t:"1517-07-06",d:"memluk"},{f:"1803-02-01",t:"1813-05-02",d:"suud"},{f:"1916-06-10",t:"1923-10-29",d:"hicaz"}], d:[], v:[{f:"1517-07-06",t:"1803-02-01",k:"Mekke Şerifliği"},{f:"1813-05-02",t:"1916-06-10",k:"Mekke Şerifliği"}] },
 
 // ---- Halkidiki, Batı Trakya ve Biga: komşu ada/liman peteklerinin yarımadaları
 // yutmasını önleyen gerçek yerleşimler (kullanıcı tespiti) ----
