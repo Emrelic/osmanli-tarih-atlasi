@@ -193,3 +193,27 @@ Gerekçeler: `MIMARI.md` §3.
 - [x] Sefer güzergâhları menzil yollarına oturtuldu (36 sefer)
 - [x] 36/36 padişah portresi (kamu malı, Wikimedia)
 - [x] GitHub Pages yayını — https://emrelic.github.io/osmanli-tarih-atlasi/
+
+---
+
+## 🎨 PALET STRATEJİSİ — Asya merge'inden ÖNCE çözülmeli
+
+MOTOR ölçtü (`OTURUM-16-ILERLEME.md §23`): bekleyen dört dosya tarandığında
+**24 renklik aday palet 30 kimliğe yetmedi** — `ADAY KALMADI`. Çoğu
+`yerlesimler_asya.js`'ten: Majapahit, Edo, Qing, Delhi, Ming, Ainu…
+
+Bugün acil değil çünkü harita penceresi `box(-12, 1.5, 62, 62)` ve Asya dosyası
+zaten çizilmiyor. **Ama merge sırası ona geldiğinde iş "birkaç hex daha ekle"
+olmayacak.**
+
+Ölçülmüş dayanaklar:
+- DSATUR: 261 kimliğin **hepsi** eklense **8 renk** yetiyor (maks derece 72) —
+  yani sorun renk SAYISI değil, **ayırt edilebilir hex** sayısı
+- Doğru kaldıraç **renk paylaşımı**: hiç aynı anda var olmamış kimlikler aynı
+  hex'i kullanabilir. Bugün 5 çift paylaşıyor, hiçbiri komşu değil
+- 🔴 Kimlik **birleştirme** yanlış kaldıraç: ölçüldü, DSATUR 4→5'e çıkıyor ve
+  "hayalet birleşik devlet" üretiyor (`OGRENILENLER §12`)
+
+Yani çözüm üç yoldan biri: (a) paylaşım havuzunu sistematik büyütmek,
+(b) bölgeye göre ayrı palet, (c) doygunluk/parlaklık ekseninde açılım.
+**Hangisinin kaç kimlik kazandırdığı ÖLÇÜLMEDEN seçilmemeli.**
