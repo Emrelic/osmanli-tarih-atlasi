@@ -86,7 +86,8 @@ BEKLENEN_SAHIPSIZ = 50
 # 452 -> 448: kirilma sayisi DUSTU. Kronoloji oturumlari eski maddeleri
 # emekli ediyor; zemin su anda hareketli, tavan kosudan hemen once olculmeli.
 # 448 -> 456: A5'in yedi TDV tarih duzeltmesi (Yemen/Asir).
-BEKLENEN_KIRILMA = 456
+# 456 -> 458: uc TDV duzeltmesi daha (Sevakin/Masavva/Dahlak).
+BEKLENEN_KIRILMA = 458
 BEKLENEN_ACIK = 0
 # ⚠️ `s:` boyutu ON AY BOYUNCA HİÇ DENETLENMEDİ (Oturum 13 buldu). Ölçüldü:
 # 566 yabancı kırılması, 115'inin ±30 günde maddesi yok. 115'i İHLAL ilan etmek
@@ -118,6 +119,10 @@ BEKLENEN_KIRILMASIZ = 65
 # borcu nokta sayısıyla doğru orantılı büyüyor. Gerçek çözüm zamanlı kd:.
 # 381 -> 383: Kanina ve Oreoi eklendi.
 BEKLENEN_CELISKI_UST_SINIR = 383
+
+# Türkçe harf kümesi — kelime sınırı için. `denetle_eslesme.py` ile aynı;
+# oradan import EDİLMİYOR (stdout sarmalayıcı çakışması, bkz. _madde_yeri_aniyor).
+HARF = "a-zçğıöşüâîû"
 
 
 def oku_pencere(yol, degisken):
@@ -306,6 +311,32 @@ def degismez2(Y, O, kategoriler=("d", "v")):
         if fark > 30:
             acik.append((d, kir[d]["t"], sorted(kir[d]["ad"])[:4], en_yakin["b"], fark))
     return kir, acik
+
+
+def _madde_yeri_aniyor(baslik, adlar):
+    """Bu madde, kırılmanın yerleşimlerinden BAHSEDİYOR mu?
+
+    ⚠️ Bu Değişmez 2'yi A bölümüyle BİRLEŞTİRMEZ — ölçüldü ve birleştirmemek
+    gerekiyor: `denetle_eslesme.py` A'nın 97 şüphelisinin bir kısmı DOĞRU
+    eşleşmedir (Londra Protokolü 21 noktayı adlarını saymadan devreder).
+    Burada yapılan yalnız RAPORU DÜRÜSTLEŞTİRMEK: Değişmez 2 hükmünü
+    değiştirmiyor, "yakın madde var" cümlesinin yanına o maddenin ilgili
+    olup olmadığını yazıyor. Kademe aynı, teselli kalkıyor.
+    """
+    # ⚠️ `denetle_eslesme`'yi IMPORT ETMİYORUM ve sebebi ölçüldü: o modül de
+    # stdout'u TextIOWrapper ile sarıyor, koşan denetle.py'nin içinden import
+    # edilince iki sarmalayıcı aynı buffer'ı sarıyor ve ilki çöp toplandığında
+    # buffer KAPANIYOR — "ValueError: I/O operation on closed file". Bu tuzağı
+    # denetle_statu.py'nin başında yazmıştım ve bugün yine düştüm. Kelime
+    # sınırı ifadesi bu yüzden burada tekrarlanıyor: küçük bir kopya, ama
+    # alternatifi aracı çökerten bir bağımlılık.
+    m = (baslik or "").lower().replace("’", "'")
+    for ad in adlar:
+        kok = re.sub(r"\s*\(.*?\)", "", ad).strip().lower()
+        if len(kok) >= 3 and re.search(f"(?<![{HARF}])" + re.escape(kok)
+                                       + f"(?![{HARF}])", m):
+            return True
+    return False
 
 
 # ---------------- Değişmez 2t — kırılmasız madde (aynadaki hâl) ----------------
@@ -750,7 +781,15 @@ def main():
         print(f"            ! kırılma sayısı beklenenden farklı ({n2_kirilma} ≠ {BEKLENEN_KIRILMA}) — sadece bilgi")
     if args.ayrinti and acik:
         for d, tip, adlar, baslik, fark in acik:
-            print(f"    {d}  {tip:<7} {', '.join(adlar):<40} en yakın madde {fark} gün uzakta: {baslik}")
+            # ⚠️ "31 gün uzakta bir madde var" cümlesi TESELLİ VERİYORDU.
+            # Ölçülmüş üç vaka: Sevâkin'in İngiliz kontrolüne geçişi "Reji
+            # İdaresi kuruldu (tütün tekeli)" ile eşleşiyor · Asmara 1889
+            # "Haydarpaşa demiryolu imtiyazı" ile · Hudeyde/Moha/Zebîd 1849
+            # "Baltalimanı Sözleşmesi" ile. Üçünde de madde YAKIN ama ALÂKASIZ.
+            # YAKINLIK ALÂKA DEĞİLDİR — satır bunu artık söylüyor.
+            alakali = _madde_yeri_aniyor(baslik, adlar)
+            im = "" if alakali else "   ⚠️ madde bu yerlerden BAHSETMİYOR"
+            print(f"    {d}  {tip:<7} {', '.join(adlar):<40} en yakın madde {fark} gün uzakta: {baslik}{im}")
 
     # ---- Değişmez 2'nin `s:` boyutu — ON AYLIK KÖRLÜK, bilinen borç olarak açıldı
     kir_s, acik_s = degismez2(Y, O, ("s",))
