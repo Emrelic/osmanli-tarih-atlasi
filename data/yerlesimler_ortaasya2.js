@@ -64,20 +64,21 @@
 // 45.60/58.50" yazmıştım; ikisi de tarihî gölün İÇİNE düşüyordu, taşındılar.
 //
 // ---------------------------------------------------------------------------
-// ⚠️ İKİ TANIMSIZ DEVLET KİMLİĞİ — renkler.py'ye DOKUNMADIM
+// ✅ İKİ DEVLET KİMLİĞİ — artık TANIMLI (Oturum 15/16, isim kararı kesinleşti)
 // ---------------------------------------------------------------------------
-//     nogay   Nogay Ordası      TDV: nogaylar
-//     kazak   Kazak Hanlığı     TDV: kazaklar · kazakistan
-// Tanımlı olana kadar o pencereler BOYANMAZ (uret_petek.py:174 uyarı basar),
-// ama Değişmez 1 temiz kalır — birinci partide kurulan desen.
-// ⚠️ Merkez oturum kimlik listesinde `kazak-hanligi` yazımını önerdi. Ben
-// mevcut kısa-id geleneğine uydum (`kazan`, `kirim`, `altinorda`, `hive`,
-// `buhara`). Uzun yazım tercih edilirse bu dosyada değişecek satır sayısı 3.
-// Tam künye, komşuluk çizgesi ve pencere açılışında gereken öteki kimlikler:
-// oturumlar/OTURUM-11-KIMLIK.md
+//     nogay          Nogay Ordası      TDV: nogaylar
+//     kazak-hanligi  Kazak Hanlığı     TDV: kazaklar · kazakistan
+// Merkez oturumun kararı `kazak-hanligi` oldu (kısa `kazak` DEĞİL) — gerekçe:
+// "kazak" Türkçede iki ayrı halkı gösteriyor (Kazak Hanlığı ve Ukrayna
+// kazakları), atlas ikisinin de coğrafyasını kapsıyor, kısa kimlik bir gün
+// ikisini sessizce karıştırabilirdi. `renkler.py`'ye ikisi de eklendi
+// (`kazak-hanligi` #ad1457, `nogay` #f9a825, ölçülerek: en yakın komşuya
+// ΔE 14,9 / 21,2). Bu dosyadaki üç `kazak` kaydı `kazak-hanligi`'ye
+// yeniden adlandırıldı (Aral kuzeyi, Üstyurt kuzeyi, Emba (Cem)).
+// Tam künye, komşuluk çizgesi: oturumlar/OTURUM-11-KIMLIK.md
 //
 // TANIMLI kimliklerden kullanılanlar: ilhanli · altinorda · timurlu · safevi ·
-// iran · turkmen · rusya.
+// iran · turkmen · rusya · nogay · kazak-hanligi.
 //
 // ---------------------------------------------------------------------------
 // KAYNAKLAR — slug'lar <title> ile doğrulandı
@@ -190,7 +191,7 @@ window.YERLESIMLER_ORTAASYA2 = [
 // Nogay penceresi YOK — bozkırın bu ucu doğrudan Altın Orda'dan Kazak'a geçer.
 { ad:"Aral kuzeyi", tur:"bolge", lat:47.2000, lon:61.5000, g:0, k:0, d:[],
   s:[{f:"1281-01-01", t:"1500-01-01", d:"altinorda"},
-     {f:"1500-01-01", t:"1868-01-01", d:"kazak"},
+     {f:"1500-01-01", t:"1868-01-01", d:"kazak-hanligi"},
      {f:"1868-01-01", t:"1923-10-29", d:"rusya"}] },
 
 // Üstyurt platosunun KUZEY ucu — birinci partideki "Üstyurt platosu (batı)"
@@ -204,7 +205,7 @@ window.YERLESIMLER_ORTAASYA2 = [
 { ad:"Üstyurt kuzeyi", tur:"bolge", lat:45.6000, lon:56.5000, g:0, k:0, d:[],
   s:[{f:"1281-01-01", t:"1500-01-01", d:"altinorda"},
      {f:"1500-01-01", t:"1644-01-01", d:"nogay"},
-     {f:"1644-01-01", t:"1868-01-01", d:"kazak"},
+     {f:"1644-01-01", t:"1868-01-01", d:"kazak-hanligi"},
      {f:"1868-01-01", t:"1923-10-29", d:"rusya"}] },
 
 // Emba (Cem) ırmağı havzası — TDV NOGAYLAR'ın adıyla andığı doğu sınırı.
@@ -212,7 +213,7 @@ window.YERLESIMLER_ORTAASYA2 = [
 { ad:"Emba (Cem)", tur:"bolge", lat:47.5000, lon:57.5000, g:0, k:0, d:[],
   s:[{f:"1281-01-01", t:"1500-01-01", d:"altinorda"},
      {f:"1500-01-01", t:"1644-01-01", d:"nogay"},
-     {f:"1644-01-01", t:"1868-01-01", d:"kazak"},
+     {f:"1644-01-01", t:"1868-01-01", d:"kazak-hanligi"},
      {f:"1868-01-01", t:"1923-10-29", d:"rusya"}] },
 
 // Aktöbe (Aktyubinsk) — 1869'da Rus bozkır karakolu olarak kuruldu.
