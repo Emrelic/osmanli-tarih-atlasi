@@ -95,3 +95,52 @@ elenirler**, mevcut işaretleri itmezler.
 ⚠️ **Lejantta karşılığı olacak.** Bugün sönen kenar tam bunu yapmadığı için
 kullanıcı *"iki ayrı kırmızı"* diye kusur bildirdi — görünen her yeni şey
 lejanta girmezse kusur diye rapor ediliyor.
+
+---
+
+## 5. 🔄 KULLANICI KARARI: SABİT SÜRE (365 gün) — ve tavan ölçüldü
+
+Önerim sabit sayıydı; kullanıcı **sabit süre** seçti. Gerekçesi benimkinden
+güçlü çıktı, özellikle ikinci çapa: `sonrakiOlayaKadar` zaten **tavan 365 gün**
+kullanıyor (maddenin geriye dönük etki penceresi). İleri pencereyi aynı sayıya
+eşitlemek **yeni bir sabit doğurmuyor** — tek sayı, iki yön (`§35`).
+
+### 365 günlük ileri pencerenin gerçek maliyeti
+
+```
+kapsanan MADDE : medyan 2 · %90  7 · %99 20 · azami 24
+EK İŞARET      : medyan 2 · %90  7 · %99 20 · azami 23
+
+10+ ek işaret çıkan an :  54 / 994  (%5,4)
+15+ ek işaret çıkan an :  21 / 994  (%2,1)
+en kalabalık: 1912-03-13 (23) · 1911 sonbaharı (22×3) · 1516-06-05 (21)
+```
+
+⚠️ İlk ölçümümdeki *"azami 32 işaret"* tahmini **fazla kötümserdi**: madde
+başına 1,34 yerleşimi çarpmıştım, ama aynı madde grubunda **aynı şehir tekrar
+ediyor** (Trablusgarp savaşı boyunca aynı limanlar). Gerçek azami **23**.
+📌 Kendi tahminimi ölçüm düzeltti — çarpım değil **birleşim** gerekiyormuş.
+
+### Tavan gerekiyor mu — HAYIR, ve sebebi daha iyi bir sınır var
+
+Tavan seçenekleri ölçüldü:
+```
+tavan 2 madde → azami 13    tavan 3 → azami 14    tavan 5 → azami 17
+tavan YOK     → azami 23
+```
+Tavan medyanı hiç değiştirmiyor (2), yalnız en kötü %1'i kırpıyor.
+
+> **Öneri: sabit tavan KOYMA.** Çakışma elemesi zaten ekran farkında bir sınır
+> ve sabit sayıdan iyi: 20 işaret **sığıyorsa** göstermek doğru, **sığmıyorsa**
+> zaten eleniyor. Sabit tavan ekranı bilmez, eleme bilir.
+
+🔴 **Bunun tek şartı öncelik sırası:** gelecek işaretler öncelik listesinin
+**SONUNA** konmalı. O zaman kalabalıkta **önce onlar** elenir — yani bugünkü
+görünümü asla bozmazlar, yalnız boş yer varken belirirler. Bu, sabit tavanın
+yapmaya çalıştığı şeyi **ekran ölçüsünde** yapıyor.
+
+📌 Ve bu ayrım bugün üçüncü kez çıkıyor: **sürücü kural + sigorta** (eşik +
+çakışma · pencere + eleme). Sürücü anlamı taşır, sigorta sınırı tutar.
+
+⏳ Sınav şartı değişmedi: z4/z5/z6'da `CAKISAN` yine **0** olmalı. Yoğun anlar
+(1911-1912) sınavda özellikle bakılmalı — kusur oradaysa orada görünür.
