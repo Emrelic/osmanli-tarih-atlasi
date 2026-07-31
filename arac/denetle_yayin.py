@@ -35,6 +35,7 @@ Kullanım:
 """
 import argparse
 import io
+import json
 import os
 import re
 import subprocess
@@ -131,6 +132,64 @@ def damga_denetimi(gecmis=30):
         if d_simdi is not None and d_head is not None and d_simdi <= d_head:
             simdi = [(d_head, kod)]
     return ihlal, simdi
+
+
+# ============================================================================
+# YAYIN BAYAT MI? — sekiz denetimin ORTAK körlüğü
+# ============================================================================
+# Ölçüldü (31 Temmuz 2026): yayındaki harita girdiden DOKUZ YERLEŞİM geride.
+# Fizan'a dokuz Libya noktası eklendi, r176 o eklemeden önce koştu — ve
+# **sekiz denetimin sekizi de "temiz" dedi.** Sebep tek cümle:
+#
+#     Hepsi çıktının KENDİ İÇİNDE tutarlı olup olmadığına bakıyor,
+#     hiçbiri çıktının GÜNCEL olup olmadığına bakmıyor.
+#
+# ⚠️⚠️ BU ÖLÇÜT EKSİKTİR VE BUNU BİLEREK YAZIYORUM — "denetim var" diye
+# güvenilmesin. Ad kümesi karşılaştırması DÖRT hata yüzünden üçünü kaçırır:
+#   1. yerleşim SİLİNİRSE      → PETEKLER'de fazlalık kalır  ← BU YAKALANIR
+#      (⊖ simetrik yazıldı, iki yön ayrı satır olarak raporlanıyor)
+#   2. yerleşim TAŞINIRSA      → ad kümesi aynı, hücre yanlış yerde  ✗ KAÇAR
+#   3. `d:`/`v:`/`s:` DEĞİŞİRSE → geometri güncel, boyama bayat      ✗ KAÇAR
+#   4. üretimin ORTASINDA veri değişirse → ad kümesi aynı            ✗ KAÇAR
+#      (CLAUDE.md §7 kilit kuralı; bu depoda yedi kez yaşandı)
+#
+# DOĞRU ÇÖZÜM ve geçici olmasının sebebi: çıktı kendi GİRDİ PARMAK İZİNİ
+# taşımalı. `girdi.parmak_izi()` zaten var; motor bir sonraki koşuda
+#     window.URETIM_IZI = {girdi:"<sha256>", motor:{...}}
+# yazacak ve denetim tek soru soracak: *çıktıdaki iz = bugünkü girdinin izi mi?*
+# O geldiğinde aşağıdaki fonksiyon tek satıra iner ve DÖRT yüzü birden kapatır.
+def bayat_mi():
+    """(yalnız_girdide, yalnız_ciktida, iz_durumu) — hepsi liste/str."""
+    yol = os.path.join(KOK, "data", "donemler.js")
+    if not os.path.exists(yol):
+        return None, None, "donemler.js YOK"
+    metin = open(yol, encoding="utf-8").read()
+    # URETIM_IZI geldiyse ONU kullan — ad kümesi karşılaştırmasına düşme.
+    m = re.search(r'window\.URETIM_IZI\s*=\s*(\{.*?\})\s*;', metin, re.S)
+    try:
+        sys.path.insert(0, os.path.join(KOK, "arac"))
+        import girdi as _g
+        Y = _g.yukle(sessiz=True)
+    except Exception as e:
+        return None, None, "girdi okunamadı: %s" % e
+    if m:
+        try:
+            iz = json.loads(m.group(1))
+            bugun = _g.parmak_izi()
+            simdiki = bugun.get("girdi") if isinstance(bugun, dict) else bugun
+            return [], [], ("iz UYUŞUYOR" if iz.get("girdi") == simdiki
+                            else "🔴 İZ UYUŞMUYOR — YAYIN BAYAT")
+        except Exception:
+            pass
+    i = metin.find("window.PETEKLER = ")
+    if i < 0:
+        return None, None, "PETEKLER bulunamadı"
+    j = metin.index("];", i) + 1
+    petekler = json.loads(metin[i + len("window.PETEKLER = "):j])
+    cikti = {p.get("a") for p in petekler}
+    girdi_adlar = {y["ad"] for y in Y}
+    return (sorted(girdi_adlar - cikti), sorted(cikti - girdi_adlar),
+            "ad kümesi (GEÇİCİ — 3 hata sınıfını kaçırır)")
 
 
 def git_izlenen():
@@ -294,7 +353,34 @@ def main():
             print("     %s" % y)
 
     print()
-    if yoklar or izlenmeyenler or kayitsiz or len(damgalar) > 1 or damga_ihlali:
+    # ---- YAYIN BAYAT MI (sekiz denetimin ortak körlüğü)
+    eksik, fazla, yontem = bayat_mi()
+    bayat = False
+    print()
+    if eksik is None:
+        print("!  yayın tazeliği ÖLÇÜLEMEDİ: %s" % yontem)
+    elif eksik or fazla:
+        bayat = True
+        print("✗  YAYIN BAYAT — üretim girdiden geride (%s)" % yontem)
+        if eksik:
+            print("     girdide VAR, haritada YOK: %d" % len(eksik))
+            for a in eksik[:10]:
+                print("       %s" % a)
+            if len(eksik) > 10:
+                print("       … +%d" % (len(eksik) - 10))
+        if fazla:
+            print("     haritada VAR, girdide YOK: %d  ← silinmiş nokta hâlâ boyanıyor" % len(fazla))
+            for a in fazla[:10]:
+                print("       %s" % a)
+        print("     → py arac/uret_petek.py  (girdi DONDURULDUKTAN sonra)")
+    else:
+        print("✓  yayın tazeliği: girdi ile harita aynı (%s)" % yontem)
+    if "GEÇİCİ" in (yontem or ""):
+        print("   ⚠️ BU ÖLÇÜT EKSİK — yalnız ad kümesine bakıyor. Yerleşim TAŞINIRSA,")
+        print("      `d:`/`v:`/`s:` DEĞİŞİRSE ya da üretimin ORTASINDA veri değişirse")
+        print("      TEMİZ der. Kesin çözüm window.URETIM_IZI (motorda sırada).")
+
+    if yoklar or izlenmeyenler or kayitsiz or len(damgalar) > 1 or damga_ihlali or bayat:
         print("SONUÇ: İHLAL VAR — çıkış kodu 1")
         return 1
     print("SONUÇ: temiz")
