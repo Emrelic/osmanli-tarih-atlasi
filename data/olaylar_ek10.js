@@ -371,4 +371,26 @@ window.OLAYLAR_EK10 = [
   d:"Osmanlı Şark Ordusu 23 Ekim 1912'de kendisinden üç kat kalabalık Bulgar ordusuna yenilerek İstanbul'un otuz kilometre batısındaki Çatalca hattına kadar çekildi; başşehir savaşın ilk ayında doğrudan tehdit altına girdi. Aynı günlerde Garp Ordusu 23-24 Ekim'de Kumanova'da Sırplar'a yenildi ve Tahsin Paşa 35.000 kişilik ordusuyla Selânik'te Yunanlılar'a teslim oldu. Bu bozgunlar üzerine 29 Ekim'de Gazi Ahmed Muhtar Paşa kabinesi istifa etti; Selânik'te sürgün hayatı süren II. Abdülhamid 1 Kasım'da İstanbul'a nakledildi. Çatalca hattı savaşın sonuna kadar tutuldu — Rumeli'nin beş yüz yıllık Osmanlı coğrafyası birkaç hafta içinde bu dar şeride indi.",
   kaynak:"balkan-savasi" },
 
+// ===========================================================================
+// E BLOĞU — BEKLEMEDE, BU DOSYADA DEĞİL
+// ===========================================================================
+// Böğürdelen (Šabac) zincirinin dört kırılması için TDV `bogurdelen`den
+// dört madde yazıldı ve sonra BU DOSYADAN ÇIKARILDI. Sebep ölçüldü:
+// yerleşim henüz `yerlesimler.js`te yok, dolayısıyla maddeler hiçbir
+// kırılmaya denk gelmiyor ve `denetle.py` **Değişmez 2t** ile yakaladı —
+// "kırılmasız madde" 67 tavanından 70e çıktı, SONUÇ: İHLAL VAR.
+//
+// 📌 Maddeler kaybolmadı: `oturumlar/OTURUM-11-BALKAN.md §19.5`te tam
+//    hâlleriyle duruyorlar. Böğürdelen kaydı `yerlesimler.js`e eklendiği
+//    ANDA buraya yapıştırılacaklar — ikisi AYNI ADIMDA yapılmalı, yoksa
+//    biri Değişmez 2yi, öteki Değişmez 2ti kırar.
+// ===========================================================================
+
+{ t:"1457-01-01", k:"fetih", etiket:["toprak-kazanc","idare"],
+  b:"Podgorica'nın Osmanlı topraklarına katılması — Zeta ovasının denetim altına alınması",
+  gun:"1457", yer:"Podgorica (Ribnica), Morača ile Ribnica'nın kavuştuğu yer, Zeta ovası",
+  kisiler:"Fatih Sultan Mehmed",
+  d:"İşkodra gölünün yirmi kilometre kuzeyinde, Morača ile Ribnica sularının birleştiği ovada kurulu kasaba kaynaklarda ilk defa 1216'da Ribnica, 1326'da Podgorica adıyla anılır. 1457'de Osmanlı topraklarına katıldı ve Zeta ovasının denetimi böylece Balšić-Crnojević hânedanlarının elinden çıktı. Fâtih Sultan Mehmed 1474-1478 yılları arasında iki nehrin kavşağındaki sarp kayalıklara bir kale ile cami inşa ettirdi; 1479'da İşkodra'nın fethinden sonra bölge yeni kurulan İşkodra sancağına bağlandı. 1485 tahririnde kırk hânelik hıristiyan bir kasaba olan Podgorica, 1529-30'da 800 kişiye ve kale içinde bir dizdarın emrindeki otuz iki kişilik garnizona, 1582'de 322 hâneye ulaştı. Evliya Çelebi 1662'de Fâtih Kalesi'nde üç yüz ev, ambarlar, cebehâneler ve yedi yüz muhafız saydı. Bu kayıtlar Zeta'nın ovası ile dağı arasındaki farkı da gösterir: ova sayılan, vergilendirilen ve garnizonlu bir Osmanlı kazasıdır — oysa XVIII. yüzyılda şehir, Karadağ dağlarındaki aşiretlerin baskınlarını önlemek için altı tabya ve üç kapılı surlarla tahkim edilmek zorunda kalacaktır. Podgorica 1876-1878 savaşının sonlarında Karadağ'ın eline geçti ve Berlin Antlaşması'yla orada kaldı.",
+  kaynak:"podgorica" },
+
 ];

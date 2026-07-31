@@ -1872,4 +1872,5 @@ window.YERLESIMLER = [
 { ad:"Kımpulung (Câmpulung)", tur:"sehir", lat:45.269, lon:25.045, g:0, k:4, m:"Bükreş", s:[{f:"1281-01-01",t:"1462-06-01",d:"eflak"},{f:"1878-07-13",t:"1923-10-29",d:"romanya"}], d:[], v:[{f:"1462-06-01",t:"1878-07-13",k:"Eflak Voyvodalığı"}] },
 { ad:"Soroka (Soroca)", tur:"kale", lat:48.158, lon:28.299, g:0, k:4, m:"Yaş", s:[{f:"1281-01-01",t:"1456-06-01",d:"bogdan"},{f:"1812-05-28",t:"1923-10-29",d:"rusya"}], d:[], v:[{f:"1456-06-01",t:"1812-05-28",k:"Boğdan Voyvodalığı"}] },
 { ad:"Orhei", tur:"sehir", lat:47.383, lon:28.823, g:0, k:4, m:"Yaş", s:[{f:"1281-01-01",t:"1456-06-01",d:"bogdan"},{f:"1812-05-28",t:"1923-10-29",d:"rusya"}], d:[], v:[{f:"1456-06-01",t:"1812-05-28",k:"Boğdan Voyvodalığı"}] },
+{ ad:"Podgorica", tur:"sehir", lat:42.441, lon:19.263, g:0, k:4, m:"İşkodra", s:[{f:"1281-01-01",t:"1457-01-01",d:"sirbistan"},{f:"1878-07-13",t:"1923-10-29",d:"karadag"}], d:[{f:"1457-01-01",t:"1878-07-13"}] },
 ];
