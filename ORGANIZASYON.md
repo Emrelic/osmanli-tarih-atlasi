@@ -46,13 +46,30 @@ harita kıpırdamıyor mu), `denetle_statu.py E` (etiket kurumun ömrünü aşı
 
 ---
 
-## 1. ORGANLAR — 15 tanım, aynı anda en fazla 10 açık
+## 1. ORGANLAR — 16 tanım, aynı anda en fazla 10 açık
 
 ### ÇEKİRDEK — her zaman açık (4)
 
 | # | Ad | Model | Dosyaları | İşi |
 |---|---|---|---|---|
-| **K** | **KOORDİNATÖR** | Opus | `js/` · `css/` · `index.html` · `data/yerlesimler.js` · `arac/uret_devirler.py` | Karar verir, görev dağıtır, düzeltme listelerini **tek elden** uygular, yayınlar. Kullanıcının konuştuğu oturum. |
+| **K** | **KOORDİNATÖR** | Opus | `data/yerlesimler*.js` · `arac/uret_devirler.py` · defterler | Karar verir, görev dağıtır, yayınlar. Kullanıcının konuştuğu oturum. |
+
+🔴 **KOORDİNATÖRÜN DOSYALARI 31 TEMMUZ'DA DARALTILDI — ölçülmüş sebeple.**
+Eskiden `js/` · `css/` · `index.html` de bendeydi ve *"düzeltme listelerini
+tek elden uygular"* yazıyordu. Bir günün ölçümü bunun **darboğaz** olduğunu
+gösterdi:
+```
+YAMACI (yükümü azaltmak için tanımlanan oturum)  07:32'den beri BOŞ — 7,5 saat
+BALKAN (+15 yerleşimlik paket hazır)             07:35'ten beri BOŞ
+aynı gün koordinatörün tek elden uyguladığı parti sayısı: 9
+```
+Sebep tembellik değil, **her seferinde "ben hızlıca yaparım" demek** — dokuz
+kez üst üste, ve her seferinde tek başına doğru olan karar toplamda sırayı
+kilitledi.
+> **Kural: koordinatör KARAR verir, UYGULAMAZ.** Mekanik uygulama YAMACI'ya,
+> arayüz ARAYÜZ'e gider. Koordinatör yalnız inceler, koşturur ve yayınlar.
+⚠️ İstisna: kilidin sahibi olduğu için `data/yerlesimler*.js`'e **son yazan**
+odur — ama yamayı kendisi yazmaz.
 | **D** | **DENETÇİ** | Opus | `arac/denetle*.py` · `denetim/` | Bütün denetimler. Kimseye iş yapmaz, herkesi ölçer. Kendi körlüğünü de ölçer. |
 | **M** | **MOTOR** | Opus | `arac/uret_petek.py` · `renkler.py` · `girdi.py` | Petek geometrisi, renk grafiği, epoklar. Üretim kilidinin sahibi. |
 | **T** | **TAKİPÇİ** | Fable | `KONTROL.md` · `oturumlar/RAPOR-*.md` | Word maddelerini numaralar, ilerleme dosyalarını okur, "kim ne yaptı / ne bayat" raporlar. **Karar vermez, sayar.** |
@@ -85,6 +102,16 @@ Sebep: `yerlesimler.js` tek dosya ve çok yazarlı olduğu an bozuluyor.
 | **Y** | **YAMACI** | Sonnet | `scratchpad/` | Düzeltme listelerini **sınanmış yama betiğine** çevirir. Veriye yazmaz — koordinatör inceleyip koşar. |
 | **S** | **KAYNAK** | Fable | `oturumlar/KAYNAK-DENETIMI.md` | Listelerdeki TDV slug'larını önceden doğrular (ölü slug + yönlendirme tuzağı). |
 | **G** | **COĞRAFYA** | Opus | `oturumlar/COGRAFYA-*.md` | Natural Earth katmanlarının hangisi **gerçek engel**, hangisi haritacının isim lekesi — ölçer, beyaz liste ve yaslama şartnamesi yazar. **`uret_petek.py`'ye YAZMAZ**, MOTOR uygular. |
+| **A** | **ARAYÜZ** | Opus | `js/` · `css/` · `index.html` · `arac/uret_altlik.py` | Bütün ön yüz. Harita katmanları, panel, kronoloji akışı, etiketleme, gösterim kararları. Veriye YAZMAZ. |
+
+📌 **ARAYÜZ neden ayrı bir oturum ve neden Opus:** ön yüz işi veri işiyle
+**hiç çakışmıyor** (ayrı dosya, ayrı hata sınıfı) ama bugüne kadar aynı
+oturumun sırasında bekliyordu — yani ücretsiz bir paralellik kullanılmıyordu.
+Opus olmasının sebebi §2'nin ölçütü: *"bu bir devlet sınırı mı yoksa nehir mi"*
+sorusunu doğurmayan bir gösterim seçmek, yanlış cevabı **sessizce doğru
+görünen** bir karardır — kullanıcı yanlış okur ve kimse hata vermez.
+⚠️ **`js/` ve `css/` TEK YAZARLI kalır.** Devir tamdır: koordinatör de artık
+oraya yazmaz. İki yazarlı `app.js` yedi çöpe giden üretimin aynı sınıfıdır.
 
 📌 **COĞRAFYA neden Opus:** "bu poligon gerçek bir şev mi yoksa 'ARABIAN PENINSULA'
 yazmak için çizilmiş bir leke mi" sorusunun yanlış cevabı **sessizce geometriye
