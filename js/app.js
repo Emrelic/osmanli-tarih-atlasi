@@ -1196,32 +1196,52 @@ function sehirGuncelle(t) {
       : "";
     if (m.yontemEl.textContent !== simge) m.yontemEl.textContent = simge;
 
-    // ---- Çakışma elemesi ----
-    // ⚠️ `anilan` olanlar elemeye GİRMİYOR: madde anlatılırken "nerede?"
-    // sorusunun cevabı kalabalıktan önce gelir. Bu, katman 5'in katman 3'e
-    // yaptığı ekleme — bağımlılığın tersine çevrilmiş hâli.
-    if (!anilan[mi]) {
-      var pt = harita.project([m.s.lon, m.s.lat]);
-      // Kutu: nokta + ad. Ad kutusu etiketlerdeki KARAKTER oranından türetiliyor,
-      // ayrıca ölçülmüyor — iki yerde duran sayı bayatlar (§35).
-      var punto = d >= 3 ? 13 : d >= 2 ? 11 : 10;
-      var gen = String(m.s.ad).length * KARAKTER * punto + 14, yuk = punto * 1.5;
-      var kutu = { x0: pt.x - gen / 2, x1: pt.x + gen / 2,
-                   y0: pt.y - yuk / 2, y1: pt.y + yuk / 2 };
-      var carpti = false;
-      for (var yi = 0; yi < yerlesenSehir.length; yi++) {
-        var o = yerlesenSehir[yi];
-        if (kutu.x0 < o.x1 && kutu.x1 > o.x0 &&
-            kutu.y0 < o.y1 && kutu.y1 > o.y0) { carpti = true; break; }
-      }
-      if (carpti) {
-        if (m.ekli) { m.mk.remove(); m.ekli = false; }
-        return;
-      }
-      yerlesenSehir.push(kutu);
-    }
     if (!m.ekli) { m.mk.addTo(harita); m.ekli = true; }
+    // Eleme ikinci geçişe bırakılıyor (aşağıda). `anilan` olanlar elemeye HİÇ
+    // girmiyor: madde anlatılırken "nerede?" sorusunun cevabı kalabalıktan önce
+    // gelir. Bu, katman 5'in katman 3'e yaptığı ekleme.
+    if (!anilan[mi]) yerlesenSehir.push(m);
   });
+
+  // ---- İKİNCİ GEÇİŞ: çakışma elemesi, GERÇEK DOM kutusuyla ----
+  // 🔴 İLK SÜRÜM KUTUYU TAHMİN EDİYORDU VE DAR ÇIKIYORDU. Ölçüldü (1302):
+  //     z5  25 DOM → 16 görünür (9 elendi)   ama ekranda hâlâ 4 çakışan çift
+  //     z6 101 DOM → 21 görünür (80 elendi)  ama 6 çakışan çift
+  //   Yani makine bağlıydı ve ateşliyordu — kutusu gerçeğinden dardı.
+  //   Çakışanların hepsinde Söğüt·Domaniç·Karacahisar·Kulacahisar vardı:
+  //   EMOJİ taşıyanlar (👑 🏰 ⭐). Emoji genişliği karakter oranından büyük.
+  //
+  // ⚠️ Ve düzeltmesi "emoji için pay ekle" DEĞİL. Genişlik altı ayrı CSS
+  // kuralına bağlı: .s-ad puntosu d1/d2/d3'e göre, ayrıca #harita.uzak /
+  // .cok-uzak sınıflarına göre, .baskent bir de ::after ile " ⭐" ekliyor,
+  // .s-nokta boyu ve 4px gap da işin içinde. Bunu JS'te modellemek aynı
+  // sayıyı iki yerde tutmaktır (§35) ve CSS her değiştiğinde SESSİZCE bayatlar.
+  // ⇒ Tahmin tamamen kaldırıldı; kutu tarayıcıdan okunuyor.
+  //
+  // Tek reflow: bütün yazmalar (addTo/sınıf/simge) yukarıda bitti, okumalar
+  // burada toplu yapılıyor. Marker başına ekle-ölç-kaldır yapılsaydı her
+  // işaret için ayrı yerleşim hesabı tetiklenirdi.
+  var kutular = [];
+  for (var ki = 0; ki < yerlesenSehir.length; ki++) {
+    kutular.push(yerlesenSehir[ki].ic.getBoundingClientRect());
+  }
+  var tutulan = [];
+  for (var ci = 0; ci < yerlesenSehir.length; ci++) {
+    var r = kutular[ci];
+    if (!r || !r.width) continue;            // henüz yerleşmemiş
+    var carpti = false;
+    for (var ti = 0; ti < tutulan.length; ti++) {
+      var o = tutulan[ti];
+      if (r.left < o.right && r.right > o.left &&
+          r.top < o.bottom && r.bottom > o.top) { carpti = true; break; }
+    }
+    if (carpti) {
+      var mm = yerlesenSehir[ci];
+      if (mm.ekli) { mm.mk.remove(); mm.ekli = false; }
+    } else {
+      tutulan.push(r);
+    }
+  }
 }
 
 // ---------- Savaş yerleri (⚔) ve sefer okları ----------
