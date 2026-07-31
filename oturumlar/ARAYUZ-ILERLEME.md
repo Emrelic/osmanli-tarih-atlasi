@@ -438,6 +438,45 @@ Sonucu çevirecek bir fark değil ama sayı "291 üzerinden" diye okunmalı.
 işaret kalıyor — z5/z6/z7/z8 dağılımı. Çakışma elemesinden sonra en yüksek
 zoom'da 299 kalabalık yapıyorsa bu tasarım düşer.
 
+## 🔴 GÜNÜN KÖK SEBEBİ — ölçüm ortamı, ve BÜTÜN günü açıklıyor
+
+Koordinatör yanlış alarm verdiğini bildirdi: r298'i "yayını boş haritaya
+düşürdü" diye ölçmüştü; kontrol koşusunda **dokunulmamış r307 de aynı tabloyu
+verdi.** Sebep tek satır: `document.visibilityState === "hidden"`.
+
+Kendi panelimde ölçtüm — aynısı, ve mekanizmayı da çıkardım:
+
+```
+visibilityState  "hidden"      stylesheet false · haritaHazir false · .sehir 0
+requestAnimationFrame  →  0 kez ateşledi      ← MapLibre buna bağlı
+setTimeout             →  ateşledi
+```
+
+⇒ **Gizli panelde MapLibre stili hiç yüklemiyor**; kiremit isteği bile
+yapılmıyor. Sayfa "bozuk" hâliyle **birebir aynı** görünüyor.
+
+### Bunun düşürdüğü hükümler
+
+| Hüküm | Durum |
+|---|---|
+| "r298 yayını boş haritaya düşürdü" | **kanıtlanmadı** — ölçüm ayırt edemez |
+| "r299 açılmıyor" | aynı sebep |
+| Geri alma (`d7e5606`) | **yanlış sinyale dayanıyordu** |
+| Benim gün boyu panelsizliğim | aynı kök sebep |
+
+⚠️ Geri almayı **geri almıyorum**: r307 çalışıyor, elde kanıtlanmış kusur yok,
+ve kanıtsız ikinci bir açılış değişikliği bugünün dersine aykırı olurdu.
+
+### Kural — her açılış ölçümünün İLK satırı
+
+> `document.visibilityState !== "visible"` ise **sınav koşulmaz.**
+> Gizli panelde alınan "açılmıyor" okuması ölçüm değildir.
+
+📌 Ve yamanın `setTimeout` seçimi bu ölçümle **doğrulandı**: `styledata`/rAF
+gizli sekmede hiç ateşlemiyor, `setTimeout` ateşliyor. Üstelik yama
+`isStyleLoaded()` şartı taşıdığı için gizli sekmede **doğru davranıyor** —
+hiçbir şey yapmıyor, çünkü orada onaracak bir şey yok.
+
 ## ⏳ Bloke — görsel doğrulama
 
 Tarayıcı paneli kapalı olduğu için sayfa kare üretmiyor
