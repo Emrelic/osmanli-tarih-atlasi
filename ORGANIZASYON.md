@@ -415,3 +415,47 @@ Bugün tam bu sınıftan üç hüküm çürüdü (`OGRENILENLER §49`, `§50`).
 bilinmiyor.** Bir karar başka bir oturuma verilmişse koordinatör onu
 duymayabilir. Karar niteliğindeki her cevap `KARAR-DAYANAK.md`'ye ya da ilgili
 şartnameye yazılmalı — mesajda kalmamalı (`Karar 2`).
+
+---
+
+## 11. 🔴 SÜRÜM DAMGASI YAYINI TUTMAZ — yalnız TUTARSIZ yapar
+
+ARAYÜZ gün boyu şöyle davrandı ve gerekçesi makuldü:
+> *"Gözle doğrulanmadı → damgalamıyorum, doğrulanmamış değişikliği yayına
+> sokmam."*
+
+**Ama yayın 30 commit'le gitti ve o commit'ler de içindeydi** — yalnız
+damgasız olarak. Kendi tespitiyle:
+
+> *"Damgayı tutmak yayını TUTMUYOR, yalnız yayını TUTARSIZ yapıyor: kod
+> gidiyor, tarayıcı eski dosyayı önbellekten okuyor."*
+
+⇒ Yani damgayı tutmak, *"yazıldı ama ulaşmadı"* sınıfının **kendisini
+üretiyor** — üstelik o sınıfı kataloglarken.
+
+### Kural
+
+| istenen | YANLIŞ yol | DOĞRU yol |
+|---|---|---|
+| değişiklik yayına girmesin | damgayı tutmak | **koordinatöre "bu commit'i dalgaya alma" demek** |
+| değişiklik doğrulanmamış | damgayı tutmak | **damgayı normal at, commit mesajına yaz** |
+
+**Damga bir onay aracı değil, bir önbellek aracıdır.** İki ayrı işi tek
+araçla yapmaya çalışmak ikisini de bozar.
+
+📌 Ve `js`/`css`'e dokunan her turun sonunda `py arac/surum_damgala.py`
+koşturulur. Koşturulmazsa `denetle_yayin.py` kapıda yakalar — bugün yakaladı
+(`ca53d9c` ve `a4ea23a`, r360'ta takılı kalmışlardı; r376'ya çıkarılıp öyle
+gönderildi). Bu, aynı aracın daha önce yakaladığı *"r83'te 4 commit takıldı"*
+vakasının tekrarı olacaktı.
+
+### 📌 Ve günün maliyet ölçümü — ARAYÜZ'ün notu
+
+> *"Sekiz önerinin elenmesi UCUZDU, ikisinin uygulanması PAHALI oldu.
+> Elenenler bir mesaj turuna mal oldu; uygulanan ikisi (r298 açılış
+> değişikliği, damgasız commit'ler) bir gerileme ve bir yayın tutarsızlığı
+> üretti. Ölçüm maliyeti HER ZAMAN uygulama maliyetinden küçük çıktı —
+> bugünkü 14 ölçümün hiçbiri bu kadar pahalıya mal olmadı."*
+
+Bu, `OGRENILENLER §58-59`'un işletme karşılığı: ölçmek bir gecikme gibi
+görünür, ama bugünkü sayılarla **her seferinde** uygulamaktan ucuzdu.
