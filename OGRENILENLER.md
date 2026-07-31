@@ -1141,3 +1141,69 @@ Bu yapılabilseydi çelişki iki saat önce kapanırdı.
 
 Kutu · gün · gövde çifti **yetmiyor**; **kıyı muamelesi** de yazılmalı: hangi
 tampon, kıyıya değen parçalar atıldı mı, atılmadıysa neden.
+
+---
+
+## 31. Slug canlı, madde var — ama iddiayı TAŞIMIYOR
+
+`§20` iki tuzak tanımlamıştı: **ölü slug** (sayfa açılır, arama sayfasıdır) ve
+**yönlendirme** (sayfa açılır, başka maddedir). Üçüncüsü çıktı ve ikisinden de
+sinsi.
+
+Kronolojideki *"1897-05-17 Dömeke Meydan Muharebesi"* maddesi
+`kaynak:"yunanistan"` diyor. Slug **canlı**, madde **gerçek**, başlık **doğru**.
+Ama TDV `yunanistan` **Dömeke'yi hiç anmıyor** ve savaşa hiçbir gün vermiyor —
+tek cümlesi *"savaş çıktı (1897)"*.
+
+> 🔴 `<title>` kontrolü *"madde var mı"* sorusunu cevaplıyor, **"bu maddede bu
+> bilgi var mı"** sorusunu değil.
+
+Yani slug doğrulaması bir maddenin **varlığını** kanıtlar, **içeriğini** değil.
+Atıf yapılan cümle maddede geçmiyorsa o kaynak o iddiayı desteklemiyordur —
+slug canlı olsa bile.
+
+**Kural genişledi:** bir `kaynak:` atfı üç aşamada doğrulanır —
+1. slug canlı mı (`<title>` ≠ "Arama - TDV…")
+2. **aradığım madde mi** (`<title>` beklediğim başlık mı) — `§20`
+3. **iddia maddede geçiyor mu** — 🆕 metni oku, atfedilen olguyu bul
+
+Doğru kaynak arandığında bulundu: `tesalya` (ve `teselya`, iki yazım da madde
+döndürüyor) savaşı **7 Nisan – 18 Mayıs 1897** diye veriyor ve Hâfız Abdülezel
+Paşa'yı anıyor. Ama Dömeke'yi yalnız bir yol güzergâhı sayarken geçiyor,
+**muharebe olarak değil.** Madde silinmedi, "kaynak doğrulanmalı" diye
+işaretlendi.
+
+---
+
+## 32. Başkasının ölçümünü DOĞRULAMADAN aktarma
+
+MOTOR'a şu iletildi: *"macaristan #4e7d46 ile rusya #4f7d4f arası ΔE ≈ 9,1;
+ikinci en yakın 37,8 — açık farkla en yakın çift."* Ölçümü yapan başka bir
+oturumdu; aktaran kontrol etmedi. **İki katman birden yanlıştı:**
+
+| İddia | Gerçek |
+|---|---|
+| ΔE ≈ 9,1 | **1,5** — ölçüm HAM hex üzerindeydi, gözün gördüğü bindirilmiş değer çok daha kötü |
+| "en yakın çift" | `macaristan`ın en yakın komşusu `rusya` değil **`bulgaristan`** (ΔE 4,2) |
+| 1541-45'te ikisi de sahnede | O kutuda **`rusya` HİÇ YOK** — yalnız OSMANLI, macaristan, avusturya |
+
+Yani hedef tamamen yanlış adresti ve düzeltme yapılsaydı **şikâyet kapanmazdı.**
+
+Bu, `§16`'nın (*"53 kimlik ucuz kazanç"* diye aktarılan sayı gerçekte 5'ti) ikinci
+tekrarı ve aynı kişide. Kalıp aynı: **bir oturum ölçer, koordinatör aktarır,
+aktarırken ölçümün NEYİ ölçtüğü kaybolur.**
+
+> **Kural:** bir ölçümü başka bir oturuma iletirken **neyin ölçüldüğünü** de ilet
+> — ham mı bindirilmiş mi, hangi kutu, hangi gün, hangi çift. İletemiyorsan
+> ölçümü aktarma, **ölçen oturumu doğrudan konuştur.**
+
+### Ve bağlı bir ders: ölçüt şikâyete uymuyorsa sayı doğru olsa da işe yaramaz
+
+MOTOR'un tespiti: **bitişiklik ölçütü bu şikâyet için yanlış ölçüt.** DSATUR
+*sınırların* okunurluğunu optimize ediyor; kullanıcının şikâyeti ise sınırda
+karışma değil, **aynı ekranda iki lekeyi ayırt edememe.** Birbirine hiç değmeyen
+iki devlet aynı görüntüde pekâlâ yan yana durur.
+
+Yani doğru ölçüt "sınırdaş mı" değil, **"aynı görüntüde aynı anda var mı"**.
+`§26`'nın kardeşi: kural, ateşlemesi gereken vakaya göre kurulur — burada vaka
+"ekranda ayırt edilemiyor", "sınırda karışıyor" değil.
