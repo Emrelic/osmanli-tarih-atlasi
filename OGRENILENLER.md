@@ -2116,3 +2116,44 @@ duracak, ve *"DEM işe yaramadı"* diye yanlış sonuç çıkaracaktık.
 sebep hiç ölçülmemişti. İkisinin ortak dersi aynı: **kararı taşıyan sayı
 yoksa, karar yok — sadece kanaat var.**
 
+
+---
+
+## §58 — Denetimi durduran şey aykırı sayı değil, MAKUL sayıdır
+
+ARAYÜZ bugün bir kusuru buldu ve nasıl bulduğunu şöyle anlattı:
+
+> *"Soruyu cevaplayan ölçüm değil, cevabın tuhaflığı oldu. **%2,8 gayet
+> makuldü**, kabul edip geçebilirdim. Yedi maddeyi tek tek okuyunca 'Şam
+> veride yok mu?' diye sormak zorunda kaldım."*
+
+Sorduğum soru şuydu: *"kaç fetih maddesinde hiç şehir adı geçmiyor?"*
+Cevap **%2,8** çıktı — küçük, makul, kapatılabilir. Ama yedi maddenin
+dördü Şam ve Van'dı, ve ikisi de veride **vardı**. Gerçek kusur şuydu:
+`olayYeriKur`'un `ad.length >= 4` süzgeci **33 şehri hiç eşleştirmiyordu**
+— Şam · Van · Niş · Yaş · Özi · Fas dâhil. Yani "eksik madde" sanılanın
+yarısı, "görünmeyen şehir"di.
+
+ARAYÜZ aynı deseni bugün üç kez yaşadığını söylüyor:
+
+| ölçüm | makul görünen sayı | içindeki gerçek |
+|---|---|---|
+| zaman çubuğu | *"261 gün/px"* | çubuk kullanışsız |
+| küre projeksiyonu | *"1 geçiş"* | globe hiç desteklenmiyor |
+| fetih maddeleri | *"%2,8"* | 33 şehir görünmez |
+
+🔴 **Ve bende daha pahalıya mal oldu.** *"32 işaret"* rakamını **nasıl
+türetildiğini sormadan** kabul ettim; çarpımdı, birleşim olmalıydı, gerçek
+23'tü. O sayıya bir karar dayandırdım ve sonra geri almak zorunda kaldım.
+Sayı makuldü — makul olduğu için sormadım.
+
+📌 **Kural:** aykırı sayı zaten sorgulanır; denetimi asıl durduran, beklenen
+aralığa düşen sayıdır. Bir ölçüm bir kararı taşıyacaksa **sayının kendisine
+değil içindekine** bakılmalı: hangi kayıtlar, hangi adlar, hangi tarihler.
+Toplamı okuyup geçmek, ölçmemekle aynı kapıya çıkar — üstelik ölçtüğümüzü
+sandığımız için daha kötüsüne.
+
+⚠️ Bu §52'nin ("türetilmiş sayı türetimiyle birlikte raporlanır") talep
+tarafı: orada **rapor edenin** ödevi yazılıydı, burada **kabul edenin**.
+İkisi ayrı ödev ve ikisi de gerekli — bugün ikisini de bir kez ihlal ettim.
+
