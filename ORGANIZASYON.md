@@ -357,3 +357,33 @@ Yeni bir oturum açıldığında **sırasıyla** okur:
 ⚠️ `OGRENILENLER.md` uzuyor. 40 maddeyi geçtiğinde **konu başlıklarına** bölünmeli
 (ölçüm · kaynak · araç · protokol), yoksa okunmaz hâle gelir ve okunmayan ders
 yoktur.
+
+---
+
+## 9. 🔴 BAŞLIK → ROL TABLOSU — başlığa göre yönlendirme YASAK
+
+**Neden var:** koordinatör 31 Temmuz'da **üç kez** oturum başlığına bakıp yanlış
+yönlendirdi. Üçünde de tanı aynı: *"aynı adı taşıyan iki farklı şey."* Bir
+kural üç kez ihlal edilmişse eksik olan disiplin değil, **arama hedefidir.**
+
+⚠️ Oturum başlıkları **kullanıcının açtığı sırayı** yansıtıyor, rolü değil.
+Yönlendirmeden önce buraya bak.
+
+| başlık (listede görünen) | GERÇEK ROL | dosyası |
+|---|---|---|
+| `VERİ KRONOLOJİ 2` | **U4 YER DİZİNİ** — 327 yer adı sınıflandırma | `data/cografya.js` (yeni) |
+| `VERİ KRONOLOJİ` | **U1 KRONOLOJİ** — madde yazımı | `data/olaylar*.js` |
+| `ARAYÜZ COĞRAFYA` | **G COĞRAFYA** — hat/DEM/su bölümü | `arac/uret_altlik.py`, DEM zinciri |
+| `GUI GELİŞTİRME` | **A ARAYÜZ** — arayüz | `js/`, `css/`, `index.html` |
+| `ARAŞTIRMA BALKAN` | araştırma, **`OTURUM-11-BALKAN.md`**'ye yazar | rapor dosyası |
+| `VERİ DEVLET` | Oturum 3 | `data/devletler.js` |
+| `VERİ KİMLİK` | palet / kimlik | `arac/renkler.py` |
+| `UI ELEMENT INSPECTOR` | proje DIŞI araç | ayrı depo |
+
+📌 Yeni oturum açılınca **satırı buraya ekle.** Tablo eksikse yönlendirme yine
+başlığa düşer ve hata tekrarlanır.
+
+📌 Ve doğru davranışın örneği kayda geçsin: U4, iş **dosya sahipliğini
+bozmadığı hâlde** (metni ilerleme dosyasına yazacaktı) *"iş TÜRÜ benim işimin
+dışında"* diyerek durdu. **Sahiplik ihlali olmaması, doğru adres olduğu
+anlamına gelmiyor.**
