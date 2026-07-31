@@ -283,7 +283,17 @@ TDV dışı akademik referansla yeniden kurulması gerekir.
 | **35** | `data/yerlesimler.js` | merkez | **Sofya `1877-12-10` taşıyor — bu Plevne'nin düştüğü gündür.** Ruslar Sofya'ya 4 Ocak 1878'de girdi. Tarih Plevne'den kopyalanmış görünüyor | ✔ §17.3 |
 | **36** | 🔴 **motor** | Oturum 0 | **Saraybosna 1910'da hem `DOGRUDAN` hem `dvl:avusturya`** — ilhak 1908-10-05'te yazılı, Osmanlı gövdesi 1912'ye kadar çekilmiyor (~4 yıl örtüşme). #25 Solnok'la **aynı sınıf**: çevresi (Yenipazar sancağı) Osmanlı kaldığı için gövde kopmuyor | ✔ §17.4 |
 | **37** | — | merkez | 🟡 **İKİ TDV MADDESİ ÇELİŞİYOR**: `bosna-hersek` ilhakı *"7 Ekim 1908"*, `balkan-savasi` 3 Ekim'den *"iki gün sonra"* (=5 Ekim). Veri 1908-10-05. İki gün için zincir değiştirilmedi; karar merkezin | ✔ §17.4 |
-| **38** | `olaylar.js` | merkez | İki **ay hassasiyetli** umbrella madde emekliye ayrılmalı: `1877-04` "93 Harbi" → D-1 (`1877-04-24`) karşılıyor; `1912-10` "Balkan Savaşları başladı" → D-5 (`1912-10-08`). CLAUDE.md §8: ay hassasiyeti ayın 1'ine genişler ve gün hassasiyetli yerleşim değişimlerinden **önce** sıralanır | ✔ §17.6 |
+| **38** | `olaylar.js` | merkez | ✅ **KARAR: EMEKLİ ET, ölçüldü ve güvenli.** `1877-04` ve `1912-10` **hiçbir kırılmanın en yakın maddesi değil**; silinince `d:`/`v:` açığı 0→0, `s:` açığı 107→107. Ayrıntılar (D-1, D-5 ve mevcut Plevne/Yanya/Edirne/Londra maddeleri) pencereleri zaten kapsıyor | ✔ §19.3 |
+| **39** | `olaylar_ek.js` + veri | merkez | 🟡 **TARİH ÇELİŞKİSİ**: TDV `sirbistan` özerklik fermanını **17 Ekim 1830**'a koyuyor, kronoloji maddesi **1830-11-08** taşıyor. 22 gün fark ±30 penceresinin içinde — hangisi seçilirse seçilsin Değişmez 2 sağlanıyor. Zincirlere maddedeki tarihi yazdım; TDV benimsenirse **ikisi birlikte** taşınmalı | ✔ §19.1 |
+| **40** | `data/yerlesimler.js` | merkez | **OPSİYONEL**: TDV `sirbistan` dört garnizon kalesini adıyla sayıyor, ikisi veride **yok** — **Fethülislâm (Kladovo)** 44.606K/22.610D ve **Böğürdelen (Šabac)** 44.750K/19.694D. Eklenirse Sırbistan'ın Tuna ve Sava köşeleri tutulur; zincirleri Belgrad'ınkiyle birebir aynı | ✔ §19.1 |
+| **41** | `olaylar_ek.js` | ? | ⚠️ **KAYNAK YOK, SİLİNMEYECEK — İŞARETLENECEK**: `1897-05-17` "Dömeke Meydan Muharebesi" maddesinin TDV karşılığı bulunamadı (`domeke` ve `domeke-meydan-muharebesi` ölü, `teselya` maddesinde de geçmiyor). Standart akademik kaynakla doğrulanıp `kaynak:` alanı düzeltilmeli | ✔ §7.1 |
+| **42** | `CLAUDE.md` §4 | merkez | Ölü slug listesine eklenecek: **`belgrad-antlasmasi`** (1739'un müstakil maddesi YOK, hükümleri `belgrad` şehir maddesinde) · `sarki-rumeli` · `dogu-rumeli` · `93-harbi` (doğrusu `doksanuc-harbi`) · `domeke` · `catalca` · `sipka` · `istanbul-antlasmasi` · `krayova` · `tirgoviste` · `pitesti` · `buzau` · `kalafat` · `soroka` · `orhei` · `tomarova` · `bender` · `kartal` | ✔ §7.1 |
+
+📌 **#32 ve #37 merkez tarafından karara bağlandı, uygulama karşılıkları §19'da:**
+**#32 EVET** — Sırbistan `v:` 1830 → **1878-07-13** (1867 değil); TDV `sirbistan`
+doğruluyor, ayrıca *"kale muhafızları dışında"* ifadesi Belgrad/Semendire'nin
+1867'ye kadar `d:` kalmasını gerektiriyor.
+**#37 KARAR VERİLMEDİ, İŞARETLENDİ** — `isg:` örtüsüne dokunulmadı.
 
 ⚠️ **#23 ARTIK GEÇERSİZ — yerine §15 geçti.** O satır ölçümden önce yazılmış bir
 tahmindi (Fokşani, Zimniçe, Kımpulung sayıyordu). §15 ölçülmüş, kaynaklı ve
@@ -990,18 +1000,136 @@ nesne olarak sayılır. Bu, `OGRENILENLER.md`'ye girmeye değer.
 
 ---
 
-## 18. Sırada
+## 19. ⭐ MERKEZİN DÖRT KARARININ UYGULAMA KARŞILIĞI (31 Temmuz, kilit sonrası)
+
+🔒 Girdi kilitli — Oturum 16'nın kara-kısıtlı Voronoi koşusu sürüyor. Aşağısı
+kilit kalkınca uygulanacak; **hiçbiri `yerlesimler.js`'e benim tarafımdan
+yazılmadı.**
+
+### 19.1 #32 — Sırbistan `v:` olacak. TDV kesin tarih veriyor
+
+Merkezin kararı ("1867'ye kadar değil **1878'e kadar**") TDV `sirbistan` ile
+birebir doğrulanıyor:
+
+> *"Nihayet **17 Ekim 1830**'da verilen bir imtiyaz fermanıyla Sırplar muhtar bir
+> idare elde etti. Ferman Miloş'u başknez olarak tanırken … **kale muhafızları
+> dışında** Sırp topraklarında hiçbir Türk'ün oturmayacağı gibi şartlar içeriyordu."*
+>
+> *"**1867**'de Özerk Sırp yönetimi Osmanlı askerî idaresinde bulunan **Belgrad,
+> Fethülislâm (Kladovo), Semendire ve Böğürdelen (Šabac)** kalelerindeki
+> garnizonların geri çekilmesiyle buralardaki egemenliğini güçlendirdi. Osmanlı
+> Devleti'ne bağlı bir devlet şeklinde teşkilâtlanan Sırbistan'ın Osmanlılar'dan
+> **tamamen kopuşu 1877-1878** Osmanlı-Rus Savaşı sonucunda…"*
+
+**"Kale muhafızları dışında" ifadesi modelin tamamını veriyor** — bu, Eflak'taki
+İbrail/Yergöğü yapısının aynısıdır. İki sınıf var:
+
+| Sınıf | Yerleşim | 1830-1867 | 1867-1878 | 1878 sonrası |
+|---|---|---|---|---|
+| **Kale (garnizon)** | Belgrad · Semendire | 🔴 `d:` doğrudan | 🟠 `v:` tâbi | `s:"sirbistan"` |
+| **Kır (garnizonsuz)** | Kragujevac · Çaçak *(yeni)* | 🟠 `v:` tâbi | 🟠 `v:` tâbi | `s:"sirbistan"` |
+
+⚠️ **Beklenen görüntü — bu bir hata değildir.** 1830-1867 arasında Belgrad ve
+Semendire, açık tonlu Sırbistan'ın içinde **iki koyu kırmızı nokta** olacak.
+Hotin'de kullanıcının *"hep tek başına görünüyor"* dediği şeyin aynısı ve burada
+**doğrudur** — TDV cümlesi tam olarak bunu tarif ediyor.
+
+**Mevcut iki kayıtta değişecek:**
+```
+Belgrad    d:  {f:"1739-09-18", t:"1867-04-18"}   ← DEĞİŞMİYOR
+           v:  {f:"1867-04-18", t:"1878-07-13", k:"Sırbistan Prensliği"}   ← EKLE
+           s:  {f:"1867-04-18",...} → {f:"1878-07-13", t:"1923-10-29", d:"sirbistan"}
+Semendire  aynısı, birebir
+```
+
+**Yeni iki kayıt** (§17.1'deki zincire `v:` eklenmiş hâli):
+```js
+{ ad:"Kragujevac", tur:"sehir", lat:44.013, lon:20.911, g:0, k:4, m:"Belgrad", s:[{f:"1281-01-01",t:"1439-08-27",d:"sirbistan"},{f:"1444-08-01",t:"1459-06-20",d:"sirbistan"},{f:"1717-08-18",t:"1739-09-18",d:"avusturya"},{f:"1878-07-13",t:"1923-10-29",d:"sirbistan"}], d:[{f:"1439-08-27",t:"1444-08-01"},{f:"1459-06-20",t:"1717-08-18"},{f:"1739-09-18",t:"1830-11-08"}], v:[{f:"1830-11-08",t:"1878-07-13",k:"Sırbistan Prensliği"}] },
+{ ad:"Çaçak", tur:"kale", lat:43.891, lon:20.350, g:0, k:4, m:"Belgrad", s:[{f:"1281-01-01",t:"1439-08-27",d:"sirbistan"},{f:"1444-08-01",t:"1459-06-20",d:"sirbistan"},{f:"1717-08-18",t:"1739-09-18",d:"avusturya"},{f:"1878-07-13",t:"1923-10-29",d:"sirbistan"}], d:[{f:"1439-08-27",t:"1444-08-01"},{f:"1459-06-20",t:"1717-08-18"},{f:"1739-09-18",t:"1830-11-08"}], v:[{f:"1830-11-08",t:"1878-07-13",k:"Sırbistan Prensliği"}] },
+```
+
+**Değişmez 2 — üç kırılmanın üçünün de maddesi VAR, yeni madde gerekmiyor:**
+
+| Kırılma | Madde | Dosya |
+|---|---|---|
+| `1830-11-08` | *"Sırbistan'a özerklik fermanı — irsî knezlik ve garnizon şartı"* | `olaylar_ek.js` |
+| `1867-04-18` | *"Belgrad ve Sırbistan kalelerindeki son Osmanlı garnizonlarının çekilmesi"* | `olaylar_ek5.js` |
+| `1878-07-13` | *"Berlin Antlaşması"* | `olaylar.js` |
+
+🟡 **#39 — tarih çelişkisi, karar merkezin.** TDV fermanı **17 Ekim 1830**'a
+koyuyor, kronoloji maddesi **1830-11-08** taşıyor (muhtemelen fermanın Belgrad'da
+okunduğu gün). Aradaki 22 gün ±30 penceresinin içinde, **yani hangisi seçilirse
+seçilsin Değişmez 2 sağlanıyor.** Zincirlere maddedeki tarihi (`1830-11-08`)
+yazdım ki veri ile madde aynı günde dursun. TDV'nin tarihi benimsenirse **ikisi
+birlikte** taşınmalı.
+
+🟡 **#40 — iki nokta daha, opsiyonel.** TDV dört garnizon kalesini adıyla sayıyor;
+ikisi `yerlesimler.js`'te **yok**. Eklenirlerse Sırbistan'ın Tuna ve Sava
+köşeleri de tutulur ve zincirleri Belgrad'ınkiyle birebir aynı olur:
+**Fethülislâm (Kladovo)** 44.606K / 22.610D — Demirkapı, Vidin'e 68 km ·
+**Böğürdelen (Šabac)** 44.750K / 19.694D — Sava kıyısı, Belgrad'a 60 km.
+İkisi de 3 km kuralını rahat geçiyor.
+
+### 19.2 #37 — Bosna: karar verilmedi, İŞARETLENDİ
+
+Merkezin talimatına uyuldu. **`isg:` örtüsüne dokunulmadı**, veri `1908-10-05`
+taşımaya devam ediyor. §17.4'teki kayıt "kaynak çelişiyor" olarak duruyor:
+
+| Kaynak | Verdiği tarih |
+|---|---|
+| TDV `bosna-hersek` | *"**7 Ekim 1908**'de buranın resmen Avusturya-Macaristan toprağı olduğu ilân edildi"* |
+| TDV `balkan-savasi` | 3 Ekim'den *"**iki gün sonra**"* → 5 Ekim |
+| Veri (`yerlesimler.js`) | `1908-10-05` |
+
+🔴 **Üçüncü kaynak olmadan seçilmeyecek.** İki TDV maddesi çelişiyorsa birini
+seçmek `CLAUDE.md §4`'ün "tarih uydurma" yasağına girer. Karışmanın sebebi
+muhtemelen şu: **5 Ekim 1908'de Bulgaristan bağımsızlığını ilân etti** ve aynı
+tarih iki ayrı olay için kullanılıyor.
+
+### 19.3 #38 — umbrella maddeler: ÖLÇÜLDÜ, ikisi de güvenli
+
+Merkezin şartı ("emekliye ayırmadan önce o maddenin tek çapa olduğu bir kırılma
+var mı ölç") yerine getirildi. Değişmez 2'nin kendi tanımıyla, her kırılmanın en
+yakın maddesi hesaplanıp madde tek tek çıkarıldı:
+
+| Ölçüm | `1877-04` | `1912-10` |
+|---|---|---|
+| Bu madde kaç kırılmanın **en yakın** maddesi? | **0** | **0** |
+| Silinince `d:`/`v:` açığı (taban 0) | **0** — fark 0 | **0** — fark 0 |
+| Silinince `s:` açığı (taban 107) | **107** — fark 0 | **107** — fark 0 |
+
+✅ **İkisi de emekliye ayrılabilir.** Hiçbir kırılmanın tek çapası değiller;
+ayrıntılı maddeler (D-1 `1877-04-24`, D-5 `1912-10-08` ve mevcut Plevne, Yanya,
+Edirne, Londra maddeleri) o pencereleri zaten kapsıyor. Sıralama tersine
+çevrilmeden **önce silinip sonra yazılmasına gerek yok** — ayrıntılar hâlihazırda
+yayında.
+
+### 19.4 #18 — üretim
+
+Bekleniyor. Kilit kalkınca uygulanacak liste, öncelik sırasıyla:
+**#33** (Şarkî Rumeli — 4 kayıt) · **#34** (Bulgaristan `v:` — 7 kayıt) ·
+**#31+#32** (Sırbistan — 2 yeni + 2 mevcut kayıt) · **§15** (Eflak — 10 kayıt) ·
+**§16** (Soroka + Orhei — 2 kayıt).
+Hepsi birlikte uygulanırsa **+14 yeni yerleşim**; `denetle.py`'de
+`BEKLENEN_YERLESIM` 951 → 965.
+
+---
+
+## 20. Sırada
 
 ✅ **B bloğu (hatalar 11, 1859-1913) BİTTİ** — §17. Sekiz maddenin sekizi cevaplı,
 sekiz yeni düzeltme satırı (#31-#38) açıldı, altı kronoloji maddesi yazıldı.
 ✅ **Eflak nokta kümesi BİTTİ** — §15, on kayıt hazır.
 ✅ **Soroka · Orhei · Reni BİTTİ** — §16; ikisi gerekli, Reni gereksiz çıktı.
 
-### Merkezin karar vermesi gerekenler (ben yapamam)
-- **#18 yeni üretim** — Hotin/Bender düzeltmesi hâlâ geometride yok
-- **#32** Sırbistan 1830-1867 `v:` yapılsın mı
-- **#37** Bosna ilhakı 5 mi 7 Ekim mi (iki TDV maddesi çelişiyor)
+✅ **Merkezin dört kararı alındı ve uygulama karşılıklarına çevrildi** — §19.
+`#32` EVET (1878'e kadar) · `#37` işaretlendi, karar verilmedi · `#38` ölçüldü,
+emekli edilebilir · `#18` üretim bekleniyor.
+
+### Hâlâ merkezin kararını bekleyen
 - **#30** 1594-95 üçlü isyanının toprak karşılığı işlensin mi
+- **#39** Sırbistan fermanı `1830-11-08` mi TDV'nin `17 Ekim 1830`'u mu
+- **#40** Fethülislâm ve Böğürdelen noktaları eklensin mi (opsiyonel)
 
 ### Bende kalan, henüz başlanmamış
 - **Kili/Akkirman** tarih düzeltmeleri (§5, satır #13-#15) — veri merkezin,
