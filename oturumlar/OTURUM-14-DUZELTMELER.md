@@ -1341,3 +1341,32 @@ görünürken Ümmüdurman'ı İngiliz boyar — dört buçuk ay boyunca.
 📌 Tercihim **(1)**: `s:` bu projede hukukî ekseni tutuyor (Obbiya kararında
 da böyle davrandık) ve fiilî denetim `isg:`in işi. Ama bu bir **katman
 kararı**, tek nokta kararı değil — koordinatöre.
+
+## 20h. Port Said sorusu — VAR, ve ayrıştırıcıda ikinci bir kusur çıkardı
+
+U4 Port Said'i sordu. **Kayıt var:**  (bitişik),
+31.257/32.284, . Maddedeki alan ise
+ — **boşluklu.** §20a'da
+"ad biçimi farklı" kutusundaydı, "eksik" kutusunda değil.
+
+**Bütün sınıfı taradım — 5 vaka:**
+↔ · ↔ · ↔
+· ↔ · ↔
+
+### Son ikisi ayrı bir kusur — ve daha genel
+
+ ve  yazım farkı değil, **ayrıştırıcı artefaktı**: virgülle
+naif bölme, parantez içinde virgül olan değerleri parçalıyor.
+ →  + .
+
+**Ölçüldü:** 925 parçanın **20'sinin parantezi dengesiz**, ve bunları
+**10  değeri** üretiyor. Yirmisi de hiçbir zaman çözülemez.
+
+**Parantez-derinliği gözeten bölme ile ölçülen kazanç:**
+
+Kurtulanlar:  ·  ·
+ · dört  değeri.
+
+⚠️ **Mutlak yüzdem U4'ünkiyle karşılaştırılamaz** (bende %43-44, onda %64):
+farklı normalleştirici kullanıyoruz ve ben yalnız iki canlı dosyaya
+bakıyorum. Anlamlı olan **delta**, mutlak sayı değil.
