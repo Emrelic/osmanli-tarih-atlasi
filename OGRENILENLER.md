@@ -1823,3 +1823,45 @@ sonucu, kontrolsüz okunamaz.**
 yazılmıştı ama ona karşı da doğru davranıyor — `setTimeout` gizli sekmede
 ateşliyor, `isStyleLoaded()` şartı da orada boş yere çalışmasını engelliyor.
 **Sınanmamış varsayımdan kaçınmak, henüz bilmediğin tuzaktan da korur.**
+
+---
+
+## §51 — Üç doğru vakadan yanlış kural çıkar
+
+Bugün üç ayrı oturum, üç ayrı bölgede, aynı teşhisi koydu:
+```
+Cetinje %48,9  → Podgorica eksik    (BALKAN)
+Doha    %49,5  → Zübâre eksik       (ARABİSTAN)
+Kuveyt  %40,5  → Kût idare merkezi  (ARABİSTAN)
+```
+Üçü de MOTOR'un **kararsız ölçüm bandındaydı** (%40-90). Koordinatör bundan
+bir kural çıkardı ve sınanabilir hâle getirdi:
+> *"Kararsız bant, EKSİK YERLEŞİM DEDEKTÖRÜ olabilir."*
+
+**Ölçüldü, çürüdü:**
+```
+kararsız bant medyan en-yakın-komşu   73 km
+genel dağılım (901 petek)             61 km
+oran 1,2×   ·   önceden yazılan eşik 1,3×   ⇒ İDDİA DÜŞER
+```
+Ve aynı ölçüm MOTOR'un yan tahminini de kesti: İlbasan'da *"petek seyrek"*
+sanılıyordu, **sık** çıktı (47 km ↔ genel 61 · alan 3.019 ↔ 9.570 km²).
+
+> **Üç vakanın hepsi doğruydu; onlardan çıkarılan kural yanlıştı.**
+> Üçü de **araştırma yoluyla** bulunmuştu — bant onları haber vermedi, yalnız
+> bulunduktan sonra hepsinin orada olduğu görüldü.
+
+📌 Ayıraç: *"bu örüntüyü, onu aramadan önce fark eder miydik?"* Cevap hayırsa
+örüntü bir **sonuç**, bir **sinyal** değildir.
+
+📌 Ve ölçümün en değerli kısmı sonucu değil, **kurtarılmaması** oldu. MOTOR
+41 kat güçlü bir ayrışma buldu (kararsız bantta petek alanı genelin 3,2 katı)
+ve onu iddianın kurtuluşu diye sunmadı:
+> *"Ölçüt başarısız olunca ölçüyü değiştirmek, tam da bugün kovaladığımız kalıp."*
+Alan gözlemi **yeni bir hipotez** olarak kaydedildi — *sonuç görüldükten sonra
+fark edilmiş örüntü*, yani en zayıf kanıt sınıfı, ve kendi ön-kaydını bekliyor.
+
+⚠️ Mekanizması da farklıydı ve bu ayrım işi kurtardı: büyük petek *"komşusu
+uzak"* demek değil, *"temsil ettiği toprak büyük"* demek (Kuveyt: en yakın
+komşu 82 km, alan 60.535 km²). Yani **eksik nokta** değil **düşük çözünürlük** —
+ayrı bir soru.
