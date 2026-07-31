@@ -380,11 +380,37 @@ window.OLAYLAR_EK10 = [
 // kırılmaya denk gelmiyor ve `denetle.py` **Değişmez 2t** ile yakaladı —
 // "kırılmasız madde" 67 tavanından 70e çıktı, SONUÇ: İHLAL VAR.
 //
-// 📌 Maddeler kaybolmadı: `oturumlar/OTURUM-11-BALKAN.md §19.5`te tam
-//    hâlleriyle duruyorlar. Böğürdelen kaydı `yerlesimler.js`e eklendiği
-//    ANDA buraya yapıştırılacaklar — ikisi AYNI ADIMDA yapılmalı, yoksa
-//    biri Değişmez 2yi, öteki Değişmez 2ti kırar.
+// ✅ Böğürdelen kaydı yerlesimler.js'e eklendi, dört madde aşağıda AYNI
+//    ADIMDA yapıştırıldı (kaynak: oturumlar/OTURUM-11-BALKAN.md §19.5).
 // ===========================================================================
+
+{ t:"1476-02-01", k:"kayip", etiket:["toprak-kaybi","savas"],
+  b:"Böğürdelen'in Macarlara kaybı — Sava hattındaki ilk gedik",
+  gun:"Şubat 1476", yer:"Böğürdelen (Šabac), Sava nehri kıyısı",
+  kisiler:"Fatih Sultan Mehmed, Macar Kralı Mátyás Corvin",
+  d:"Fâtih Sultan Mehmed zamanında Osmanlı eline geçen ve daha önce Zaslon adıyla anılan mevkide 1471'de ahşap ve topraktan bir hisar yapılmıştı. Belgrad'ı tehdit eden bir noktada bulunduğu ve buradan Macaristan ile Avusturya'nın güney bölgelerine kolayca akın yapılabildiği için kale, adını da bu işlevden alıyordu — Böğürdelen, \"yandan vuran tabya\" demektir. Macar Kralı Mátyás Corvin 1475 sonlarına doğru kaleyi kuşattı ve 1476 şubatında ele geçirdi. Kuşatmayı anlatan Szabács viadala adlı Macar destanı, XV. yüzyıl Macar tarih şiirlerinin metni günümüze ulaşan en uzun örneklerindendir. Macarlar bölgede bir banlık kurdu ve kaleyi taştan yeniden tahkim ederek serhad hisar zincirinin halkası yaptılar. Osmanlılar 1492'de geri almayı denediler ve başaramadılar; kale kırk beş yıl Macar elinde kaldı.",
+  kaynak:"bogurdelen" },
+
+{ t:"1521-07-07", k:"fetih", etiket:["toprak-kazanc","savas"],
+  b:"Böğürdelen'in fethi — Kanûnî'nin aldığı ilk kale ve Belgrad kararının verildiği yer",
+  gun:"7 Temmuz 1521", yer:"Böğürdelen (Šabac), Sava nehri kıyısı",
+  kisiler:"Kanûnî Sultan Süleyman, Rumeli Beylerbeyi Ahmed Paşa",
+  d:"Kanûnî Sultan Süleyman'ın birinci Macaristan seferinde bölgeye gönderilen Rumeli Beylerbeyi Ahmed Paşa'nın kuvvetleri, şiddetli bir kuşatmanın ardından kaleyi 7 Temmuz 1521'de aldı. Böğürdelen, Kanûnî'nin saltanatında fethedilen ilk kaledir. Padişah fetihten sonra bizzat kaleye girdi ve şehrin imarını emretti; Belgrad'ın fethine dair kararlar da burada alındı — yani 29 Ağustos 1521'de düşecek olan Belgrad'ın planı Böğürdelen'de yapıldı. Kale bundan sonra iki yüz yıla yakın Osmanlı elinde kaldı; önce Rumeli, 1580'den itibaren Bosna eyaletine, ardından kısa süre Semendire ve nihayet İzvornik sancağına bağlandı. Haritada bu tarih Sava hattının Osmanlı lehine kapandığı gündür.",
+  kaynak:"bogurdelen" },
+
+{ t:"1788-04-24", k:"kayip", etiket:["toprak-kaybi","savas"],
+  b:"Böğürdelen'in ikinci Avusturya işgali — Sava cephesinin açılması",
+  gun:"24 Nisan 1788", yer:"Böğürdelen (Šabac), Sava nehri kıyısı",
+  kisiler:"I. Abdülhamid, Avusturya İmparatoru II. Joseph",
+  d:"Avusturya'nın 9 Şubat 1788'de Rusya'nın yanında savaşa girmesinin ardından Sava hattı yeniden cephe oldu ve Böğürdelen 24 Nisan 1788'de Avusturya hâkimiyetine geçti. Kale daha önce 17 Ağustos 1717'de savaşsız olarak Avusturya'ya terkedilmiş ve Belgrad Antlaşması'na (1739) kadar elde tutulmuştu; o dönemde nüfusu öylesine azalmıştı ki şehirde otuz dört hıristiyan evi kalmış, hiç müslüman kalmamıştı. 1739-1788 arasındaki Osmanlı devrinde nüfus yeniden 1500-2000'e çıkmıştı. İkinci işgal Ziştovi Antlaşması'yla (4 Ağustos 1791) sona erecek ve kale Osmanlılar'a iade edilecekti.",
+  kaynak:"bogurdelen" },
+
+{ t:"1806-01-26", k:"kayip", etiket:["toprak-kaybi","isyan"],
+  b:"Böğürdelen'in Kara Yorgi'ye teslimi — Birinci Sırp İsyanı'nda ilk kale",
+  gun:"26 Ocak 1806", yer:"Böğürdelen (Šabac), Sava nehri kıyısı",
+  kisiler:"III. Selim, Karadjordje (Kara Yorgi) Petroviç",
+  d:"1804'te Belgrad'daki dayı ve yamakların baskısına tepki olarak başlayan, sonra milliyetçi bir karakter kazanan ilk Sırp ihtilâli sırasında Böğürdelen Kalesi 26 Ocak 1806'da Kara Yorgi'ye teslim edildi. Sava üzerindeki bu kale, isyancıların ele geçirdiği ilk büyük Osmanlı istihkâmıdır ve Belgrad'ın düşüşünü haber verir. İsyan 1813'te bastırılıp Belgrad geri alınınca kale de Osmanlı idaresine döndü; ancak 1830 fermanının garnizon şartıyla Böğürdelen, Belgrad, Semendire ve Fethülislâm ile birlikte özerk Sırbistan'ın içinde Osmanlı askerinin kaldığı dört kaleden biri olarak tanımlandı ve 1867'de garnizonu çekilene kadar bu statüde kaldı.",
+  kaynak:"bogurdelen" },
 
 { t:"1457-01-01", k:"fetih", etiket:["toprak-kazanc","idare"],
   b:"Podgorica'nın Osmanlı topraklarına katılması — Zeta ovasının denetim altına alınması",
