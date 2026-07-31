@@ -489,3 +489,55 @@ kısmı ve §4.4'ün geçme ölçütü **ölçülmemiş** olarak duruyor.
 - §4.2 bölge isimleri büyük punto (`md.21`in ikinci yarısı)
 - §4.3 dokuz ok tipi için lejant
 - §4.4 vektör coğrafya katmanı kademe 3 geçme ölçütü (`COGRAFYA-HATLAR.md`)
+
+---
+
+## ÖLÇÜM — bölge etiketi ile aynı adlı şehir (62 vakalık sınıf)
+
+Kullanıcı *"Çankırı'nın kuzeyinde garip bir Ankara etiketi daha var"* dedi.
+Hata değil: ikinci etiket **Ankara eyaleti**. Ve sistematik —
+**62 bölgenin 62'si bir yerleşimle aynı adı taşıyor.**
+
+```
+bolgeler.js alanları : ad · k · lat · lon · f · t · uy · g
+k: dağılımı          : k1 → 4 · k2 → 58
+kurum türü alanı     : YOK
+```
+
+**Bölge etiketi ile aynı adlı şehir arasındaki mesafe (62/62 eşleşti):**
+```
+min 7 · %25 33 · medyan 65 · %75 115 · azami 460 km
+100 km+ uzakta: 22 kayıt · 200 km+: 5
+en uzak: Basra 460 · Medine 361 · Halep 330 · Hartum 314 · Silistre 249
+en yakın: Adana 7 · Söğüt 8 · Budin 12 · Kamaniçe 13
+```
+⚠️ **Ölçümün sınırı:** bu mesafeler **ağırlık merkezine** göre. `app.js`
+içbükey gövdelerde `etiketNoktasi`'nın kaçış dalını kullanıyor (merkez dışarı
+düşerse ızgaradan en içteki nokta). Gerçek etiket konumu bazı bölgelerde bundan
+uzakta olabilir — Ankara'nın kullanıcıda 320 km görünmesi muhtemelen bu.
+
+### Üç yol, ölçümle ayrıldı
+
+**(c) Etiketi merkeze taşı — KESİN OLARAK ELENDİ.** Bölge kaydında **`lat/lon`
+zaten var** (idarî merkez = aynı adlı şehir). Etiketi oraya koymak mesafeyi
+**sıfıra** indirir, yani iki "Ankara" **birebir üst üste** biner. Bugün
+sıfırladığımız çakışmayı garanti eder.
+
+**(b) Görsel ayrımı güçlendir — yetersizliği kanıtlı.** Bölge etiketi bugün
+zaten ayrı stilde (kahve `#5a3a24`, normal yazım, 8-14 punto; devlet adı büyük
+harf, 10-26). Kullanıcı **buna rağmen** ayırt edemedi. Stil farkı *"bu ne"*
+sorusuna cevap vermiyor, yalnız *"farklı bir şey"* diyor.
+
+**(a) Ada nitelik ekle — ÖNERİM.** Çizim anında `" bölgesi"* eklenir.
+- `bolgeler.js` **üretilmiş dosya**, elle düzenlenmez — ve zaten gerekmiyor:
+  ek, çizim katmanında yapılır (`app.js`, benim dosyam). Veri değişmiyor.
+- *"eyaleti"* daha doğru ama **kurum türü alanı yok** ve kurum devirle değişiyor
+  (beylerbeylik → eyalet → vilâyet). *"bölgesi"* zamandan bağımsız ve güvenli.
+- 📌 `uy` alanı bağlı yerleşimleri tutuyor (Ankara: Kastamonu, Sinop, Çankırı…)
+  — ipucu metnine konabilir: *"Ankara bölgesi — Kastamonu, Sinop, Çankırı…"*
+
+📌 Ve bu, Arnavutluk vakasıyla **aynı sonuca** varıyor: *kullanıcının "bu ne"
+sorusunun cevabı bir ad, bir stil değil.* İki bağımsız vaka, tek yön.
+
+⏸️ **Uygulanmadı** — dört sınav kapanmadan beşincisini açmıyorum. 62 etiketi
+birden değiştiren bir iş, gözle görülmeden yayına girmemeli.
