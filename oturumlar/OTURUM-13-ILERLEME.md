@@ -1070,3 +1070,76 @@ yerleşim değil · **Larende** veride **"Karaman"** adıyla zaten var.
 CANLI ve iddiayı içeriyor: `karamanogullari` · `silifke` · `gedik-ahmed-pasa` ·
 `aksaray`
 ÖLÜ: `anamur` · `mut` · `mamure-kalesi` · `aksaray--nigde`
+
+---
+
+## 2026-08-01 (8. tur) — Fetret'te `d:` kalan üç kayıt: kusur gerçek, düzeltme tam kaynaklı
+
+Kullanıcı kusuru. Tam rapor: **`OTURUM-13-FETRET.md`**.
+
+**Kusur doğrulandı ve liste tamam.** Bütün canlı veride (967 nokta) Fetret'in
+beş kesitinde `d:`/`v:` kalan **tam üç kayıt** var — koordinatörün üçü.
+Dördüncü vaka yok. Üçünün de tek dönemi: `d:[{f:"1345-01-01",t:"1923-10-29"}]`.
+
+**🔍 Neden atlandılar — yapısal, ihmal değil kasıt.** Satır numaraları ele
+verdi: Balıkesir 141 · Bergama 143 · Biga 1071 **çekirdekte**; Edremit 1342 ·
+Erdek 1344 *"TDV KARESİOĞULLARI"* yoğunluk partisinde; Ayvalık 1376 *"Batı
+Karadeniz kıyısı ve Ayvalık"* partisinde. ⇒ **Fetret dönüşümü bir kerelik bir
+süpürmeydi; ondan SONRA eklenen yoğunluk noktaları dönüşümü hiç almadı.**
+
+> 🔴 **Genel ders:** bekçisi olmayan tek seferlik veri dönüşümünü, sonradan
+> eklenen her kayıt sessizce ıskalar. `denetle.py`'ye sorulacak yedinci soru:
+> *"1402-07-28 – 1413-07-05 arasında `d:` kalan Anadolu kaydı var mı?"* → **0**.
+
+### 🔧 YAMACI'ya paket — üç kayıt, `data/yerlesimler.js` 1342 · 1344 · 1376
+
+Üçünde de `d:[{f:"1345-01-01",t:"1923-10-29"}]` **ikiye bölünüp** `s:` dizisine
+Anadolu kanonik zinciri eklenecek. Bergama (satır 143) ile **birebir aynı** kalıp:
+
+```js
+s:[{f:"1281-01-01",t:"1297-01-01",d:"bizans"},
+   {f:"1297-01-01",t:"1345-01-01",d:"karesi"},
+   {f:"1402-07-28",t:"1403-09-01",d:"isa-celebi"},
+   {f:"1403-09-01",t:"1404-03-01",d:"mehmed-celebi"},
+   {f:"1404-03-01",t:"1411-02-17",d:"suleyman-celebi"},
+   {f:"1411-02-17",t:"1413-07-05",d:"mehmed-celebi"}],
+d:[{f:"1345-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1923-10-29"}]
+```
+
+⚠️ **Değişmez 2 riski yok ama koşulmalı:** iki yeni kırılma günü açılıyor
+(`1402-07-28` Ankara Savaşı, `1413-07-05` Çamurlu). İkisini de zaten 49-51
+komşu kayıt taşıyor, yani maddeleri var. Yine de yamadan sonra Değişmez 1+2
+koşulsun. Değişmez 1 elle kontrol edildi: zincir kesintisiz, boşluk yok.
+
+### Kaynak — dört halkanın dördü de TDV'de, uydurma yok
+- `karesiogullari` ✔ — beylik *"Balıkesir, Bergama, **Edremit**, **Erdek**,
+  Biga"*ya hâkimdi; ilhak **746/1345** (verinin 1345 başlangıcını doğruluyor)
+- `isa-celebi` ✔ — *"Kasım 1402 itibariyle Boğaz'ın Asya yakasında ve
+  **Marmara denizi güneyinde** hâkimiyet sağladı"*, Karesi dahil; Clavijo
+  **Eylül 1403** ⇒ veri `1403-09-01`
+- `suleyman-celebi-emir` ✔ — *"Ramazan 806'da (**Mart 1404**) Bursa'yı
+  hâkimiyeti altına aldı"* ⇒ `1404-03-01`; ölümü **17 Şubat 1411** ⇒ **birebir**
+- `mehmed-i` ✔ — *"5 Rebîülâhir 816'da (**5 Temmuz 1413**)"* ⇒ **birebir**
+
+⚠️ **Kaynağın sessiz kaldığı yer dürüstçe:** hiçbir TDV maddesi *"Edremit
+1404'te Süleyman'a geçti"* demiyor; Fetret'in taşra ayrıntısı kaynaklarda yok.
+Bu bir uydurma değil, iki kaynaklı olgunun bileşimi: `karesiogullari` üçünü
+Bergama-Balıkesir-Biga ile **aynı idarî bloğa** koyuyor, o blok da kanonik
+zinciri taşıyor. Ölçüt: *kaynaksız sahip yazmıyoruz; kaynaklı bir bloğun
+içindeki noktayı bloğun sahibiyle hizalıyoruz.*
+
+### Yapılmayanlar ve sebepleri
+- **Timur penceresi açılmadı.** Kaynak Timur'un *"Bursa-Edremit yoluyla
+  İzmir'e yürüdüğünü"* söylüyor — **güzergâh**, işgal değil; komşu Bergama ve
+  Balıkesir'de de böyle bir pencere yok.
+- **Ayvalık kaldırılmadı** — parti yorumu amacını söylüyor: *"en yakın nokta
+  Midilli'ydi: Ceneviz adasının peteği Anadolu anakarasını boyuyordu"* ⇒ §2
+  emilmesine karşı **dolgu noktası**, durmalı. Ama borç işaretlendi: `ayvalik`
+  maddesi **yok**, TDV'nin verdiği tek tarih *"1785'ten sonra… kaza yapıldı"*;
+  `kur:` boş ve 1345 başlangıcı Karesi'den ödünç. Ayrı bir tur.
+
+### 🔴 Slug denetimi
+ÖLÜ: `edremit` · `erdek` · `ayvalik` · `emir-suleyman` (yönlendirme kütüğü)
+CANLI ve iddiayı içeriyor: `karesiogullari` · `isa-celebi` · `mehmed-i` ·
+`fetret-devri` · **`suleyman-celebi-emir`** (⚠️ `suleyman-celebi--emir` değil,
+tek tire)
