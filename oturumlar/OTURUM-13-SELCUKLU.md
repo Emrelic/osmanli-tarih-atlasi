@@ -821,3 +821,131 @@ yöntemiyle birlikte veriliyor ve yöntem doğru.
    (Eflani 1291-1295) yazıldı. Gün hassasiyetinde olanlar yalnız kaynakta gün
    geçenlerdir: **1277-05-14 · 1277-06-20 · 1279-05-30 · 1256-11-19 ·
    1258-02-10 · 1277-04-15.**
+
+---
+
+# BÖLÜM III — EPOK MALİYETİNİN KİMLİK BOYUTU
+
+> Merkez 3. maddeyi *"açık kalan iki karar sende"* diye tekrar sordu:
+> (A) 1243-1256 boşluğu, (B) kademe kararı. **İkisi de bu dosyada zaten
+> cevaplanmıştı** — (B) §12'de, (A) §13'te. Bu bölüm o kararları değiştirmiyor;
+> **§12.3'ün eksik bıraktığı boyutu** ölçüyor ve bir rakamını düzeltiyor.
+
+## 17. §12'nin sonucu doğrulandı, sayısı düzeltildi
+
+§12.1 "B, C ve D'nin maliyeti birbirinin aynı" demişti ve `sahipsiz 898`
+yazmıştı. **Sonuç doğru, sayı yanlış.** Bugün yeniden ölçüldü (Değişmez 1'in
+kendi yöntemi, `kur:` muafiyetiyle):
+
+| Epok | Sahipsiz kayıt | `kur:` ile muaf |
+|---|---|---|
+| **1243-07-01** | **736** | 31 |
+| 1256-06-15 | **736** | 31 |
+| 1277-06-15 | **736** | 31 |
+| 1281-06-15 | 35 | 31 |
+
+✅ **§12'nin asıl iddiası tam olarak doğrulanıyor:** üç epok da **birebir aynı
+736**'yı veriyor. Kademeli iniş diye bir şey yok; eşik tek ve **1281**'dedir.
+
+🔴 **Ama `898` bir kayıt sayısı olamaz** — dosyada toplam **767** yerleşim var.
+O sayı büyük ihtimalle kayıt×kesit çifti sayıyordu. §12.1'in tablosu bu yüzden
+**736** ile okunmalı. (Toplam da değişti: `CLAUDE.md` 764 diyor, bugün 767 —
+başka oturumlar nokta eklemiş.)
+
+## 18. §12.3'ün ölçmediği boyut: **kimlik**
+
+§12.3 864 kaydı **bölgeye** göre dağıttı (Anadolu 222 · Avrupa 263 · İran-Irak
+146 …). Eksik olan soru şu: *o kaydın 1281'deki sahibi 1243'te var mıydı?*
+
+İlk dönemi tam `1281-01-01` olan **721** kayıt, 1281'deki sahibine göre üçe
+ayrılıyor:
+
+| Sınıf | Kayıt | Kimlik | Ne gerekiyor |
+|---|---|---|---|
+| **A** — sahibi 1243'te **henüz kurulmamış** | **290** | 25 | kuruluşa kadar **ayrı bir sahip** — araştırma |
+| **B** — sahibi `devletler.js`'te **hiç yok** | **118** | 12 | önce katalog kaydı, sonra epok |
+| **C** — sahibi 1243'te yaşıyor | **313** | — | **tek satırlık geriye uzatma** |
+
+⚠️ §12.3'te *"222'nin hepsi araştırma istemiyor, 1281'de `bizans` olan 99 kayda
+tek satır yeter"* demiştim. **Doğru ama eksik.** C sınıfının 313 kaydı gerçekten
+tek satırlık; ama **A + B = 408 kayıt**, yani etkilenenlerin **%57'si** yeni
+araştırma istiyor. Epok kararının gerçek fiyatı budur.
+
+### 18.1 A sınıfı — en büyük iki blok
+
+```
+ilhanli 136 · memluk 48 · napoli 16 · lehistan 12 · bogdan 11 · umman 8 ·
+kirim 7 · ispanya 7 · rusya 7 · mentese 6 · karaman 5 · fas 5 · adal 3 ·
+habesistan 3 · eflak 2 · toskana 2 · isvec 2 · danimarka 2 · esrefogullari 2 ·
+ahiler 1 · inancogullari 1 · pervane 1 · katalan 1 · somali 1 · sahibata 1
+```
+
+**1. `ilhanli` — 136 kayıt.** İlhanlı 1256'da kuruluyor; epok inince bu 136 kayıt
+13 yıllık bir başka sahip ister. **Cevabı §13.4 zaten verdi:** Anadolu →
+`selcuklu` · İran-Irak-Horasan 98 → `mogol-imparatorlugu` · Bağdat → `abbasi`.
+
+**2. `memluk` — 48 kayıt. 🔴 §13.4'te ATLANMIŞ.** Memlükler **1250**'de kuruluyor
+(`devletler.js`: `1250-01-01`). 1243-1250 arasında Mısır ve Suriye **Eyyûbî**dir.
+Ve **`eyyubi` katalogda yoktur** (parça eşleşmeyle arandı: `Eyyub`, `Eyyûb` →
+kayıt yok).
+
+> ### 🔻 §13.4'e dördüncü parça
+> **4. Mısır-Suriye (48 kayıt): `eyyubi`, 1250'ye kadar.**
+> Kimlik `devletler.js`'te yok — açılmalı (Oturum 3), `harita:` alanı ve
+> `renkler.py` rengi ile birlikte (Oturum 16).
+
+Geri kalan A kimliklerinin çoğu **beylikler ve Avrupa** — Oturum 14 ve 11/12'nin
+alanı. `mentese` (1280) · `karaman` (1256) · `esrefogullari` (1277) ·
+`pervane` (1277) · `inancogullari` (1261) · `sahibata` (1275) · `ahiler` (1290):
+yedisi de Kösedağ sonrası kuruluyor, yani **1243'te Anadolu'da Selçuklu'dan
+başka boyanacak bir şey yok** — bu, §13.1'in kararını bağımsız olarak doğruluyor.
+
+### 18.2 🔴 B sınıfı epok kararını BEKLEMEZ — bugünün hatası
+
+```
+iran 47 · ceneviz 18 · bulgaristan 15 · yemen 9 · sirbistan 8 · lusignan 6 ·
+atinadukaligi 4 · avusturya 4 · bosna 3 · arnavutluk 2 · milanoduka 1 · sardinya 1
+```
+
+Bu 12 kimlik **haritada bugün kullanılıyor** ama `devletler.js`'te karşılığı yok.
+Yani kullanıcı dizin penceresinde o devleti aradığında bulamıyor, ama haritada
+rengini görüyor. **Epok hiç inmese de bu bir eksiktir.**
+
+`iran` 47 kayıtla en büyüğü ve `CLAUDE.md §3.5`'in adıyla andığı **"İran
+hayaleti"nin ta kendisi**: katalogda kaydı olmayan, ömrü denetlenemeyen, bu
+yüzden Safevî'nin coğrafyasını ikiye bölen kimlik. Onu düzeltmek epok işi değil,
+**bugünkü işidir.** → Oturum 3.
+
+⚠️ `avusturya` ve `ceneviz` gibi isimlerin katalogda olmaması şaşırtıcı; başka
+bir adla durup durmadıkları **parça eşleşmeyle arandı** (`Avust`, `Cenev`,
+`Ceneviz`) — yok. Yanlış negatif değil.
+
+## 19. Ölçüm ve bir tuzak
+
+Betik: `scratchpad/epok1243.js` (kaynağı `OTURUM-13-OLCUM-ARACLARI.md`'ye
+alınmadı; tek kullanımlık).
+
+🔴 **Tuzak — üç haneli yıl.** İlk koşuda `bizans` (`330-05-11`), `venedik`
+(`697-01-01`), `almanya` (`962-02-02`), `papalik` (`756-01-01`) ve `nube`
+(`543-01-01`) *"1243'te henüz kurulmamış"* çıktı. Sebep: **tarihler dizgi olarak
+karşılaştırılıyor** ve `"330-05-11" > "1243-07-01"` doğrudur (`'3' > '1'`).
+Beş devlet yanlışlıkla A sınıfına düşmüştü.
+
+> Bu depodaki bütün tarih karşılaştırmaları dizgi tabanlıdır ve **1000'den küçük
+> yıl taşıyan her kayıtta sessizce ters çalışır.** Bugün yalnız `devletler.js`'te
+> var (yerleşimlerin hepsi 1281+), ama kapsam MÖ 12000'e inecek —
+> `YOL-HARITASI.md`'nin ufku. **Epok tartışmasından bağımsız, yapısal bir borç.**
+> Düzeltmesi tek satır: yılı 4 haneye tamamla, sonra karşılaştır.
+
+## 20. Merkeze — 3. maddenin durumu
+
+1. **(A) ve (B) kararları açık değil, verilmiş durumda** — §12 ve §13. Bu bölüm
+   onları değiştirmiyor, doğruluyor.
+2. **(B)'nin cevabı:** kademe yok, tek eşik 1281. Üç epok da aynı **736**
+   sahipsizi veriyor. §12.1'deki `898` yanlış sayıdır, `736` ile okunmalı.
+3. **(A)'nın cevabı dört parça oldu:** Anadolu `selcuklu` · İran-Irak
+   `mogol-imparatorlugu` · Bağdat `abbasi` · **Mısır-Suriye `eyyubi`** (yeni).
+4. **Epokun gerçek fiyatı:** 408 kayıt araştırma, 313 kayıt tek satır.
+5. **Epoktan bağımsız açılması gereken üç kimlik:** `abbasi` · `eyyubi` ·
+   `mengucuk` (§14.3) — ve `mogol-imparatorlugu`'nun `harita:` + rengi.
+   Ayrıca B sınıfının 12 kimliği, başta **`iran`**.

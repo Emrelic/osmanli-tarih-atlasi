@@ -814,3 +814,70 @@ alıntılandı, sessizce değişirse eski alıntılar okunamaz olur.
 metin gömdüm; Git Bash backtick'i komut ikamesi sandı, banner metinleri kırpıldı
 ve bir koşu iki dakika asılı kaldı. `CLAUDE.md §11` bunu zaten yazıyor —
 **betiği dosyaya yaz, sonra çalıştır.** Kırpılan iki satır Edit ile onarıldı.
+
+---
+
+## 2026-07-31 (4. tur) — Selçuklu 3. madde + hatalar 13'ün 4. maddesi
+
+🔴 **Merkezin 3. ve 4. maddeleri ZATEN CEVAPLANMIŞ dosyalarda duruyordu.**
+
+| Merkezin sorusu | Nerede cevaplı |
+|---|---|
+| (A) 1243-1256 boşluğu | `OTURUM-13-SELCUKLU.md` **§13** |
+| (B) Kademe kararı | `OTURUM-13-SELCUKLU.md` **§12** |
+| md.5 Karaman'ın kısmî ilhakı | `OTURUM-13-ANADOLU.md` **§3** |
+| md.6 + md.7 Fetret / Edremit-Erdek | `OTURUM-13-ANADOLU.md` **§6** |
+| md.9-10 Aydınoğulları | `OTURUM-13-ANADOLU.md` **§4** |
+| md.12 Germiyan | `OTURUM-13-ANADOLU.md` **§5** |
+
+Altısı da ölçülmüş, TDV'den doğrulanmış ve düzeltme listesi yazılmış hâlde. İki
+dosya da kapatma turunda kurtarılmıştı (`5def216`, `9ea2df7`) — merkez muhtemelen
+§12'den sonrasını görmedi. **Tekrar yapmadım.**
+
+### Yeni ölçüm — epok maliyetinin KİMLİK boyutu (`SELCUKLU.md` BÖLÜM III)
+
+§12.3 864 kaydı **bölgeye** göre dağıtmıştı; sorulmayan soru: *o kaydın 1281'deki
+sahibi 1243'te var mıydı?* İlk dönemi tam `1281-01-01` olan **721** kayıt:
+
+| Sınıf | Kayıt | Ne gerekiyor |
+|---|---|---|
+| A — sahibi 1243'te henüz kurulmamış | **290** (25 kimlik) | ayrı sahip, araştırma |
+| B — sahibi `devletler.js`'te hiç yok | **118** (12 kimlik) | önce katalog |
+| C — sahibi 1243'te yaşıyor | **313** | tek satır uzatma |
+
+**A + B = 408, yani etkilenenlerin %57'si araştırma istiyor.** §12.3'te "çoğu tek
+satırlık" demiştim — C için doğru, bütünü için değil.
+
+🔴 **§13.4'te bir parça atlanmış:** `memluk` 48 kayıt, ama Memlükler **1250**'de
+kuruluyor. 1243-1250 arası Mısır-Suriye **Eyyûbî**dir ve **`eyyubi` katalogda
+yok** (parça eşleşmeyle arandı). §13.4 artık dört parça: Anadolu `selcuklu` ·
+İran-Irak `mogol-imparatorlugu` · Bağdat `abbasi` · **Mısır-Suriye `eyyubi`**.
+
+🔴 **B sınıfı epok kararını beklemez** — 12 kimlik haritada bugün kullanılıyor
+ama katalogda yok; en büyüğü **`iran` 47 kayıt**, `CLAUDE.md §3.5`'in adıyla
+andığı "İran hayaleti"nin ta kendisi. Oturum 3'ün işi, bugün.
+
+### §12'nin sayısı düzeltildi, sonucu doğrulandı
+
+Yeniden ölçüldü: epok **1243 · 1256 · 1277 üçü de birebir aynı 736** sahipsizi
+veriyor (1281'de 35). ✅ "Kademe yok, tek eşik 1281" iddiası tam doğrulanıyor.
+Ama §12.1'in yazdığı **`898` bir kayıt sayısı olamaz** — dosyada toplam 767
+yerleşim var. O tablo **736** ile okunmalı.
+
+### 🔴 Yapısal borç — üç haneli yıl
+
+Ölçümün ilk koşusunda `bizans` (330), `venedik` (697), `almanya` (962),
+`papalik` (756), `nube` (543) *"1243'te kurulmamış"* çıktı. Sebep: tarihler
+**dizgi olarak** karşılaştırılıyor ve `"330-05-11" > "1243-07-01"` doğrudur.
+Beş devlet yanlış sınıfa düşmüştü.
+
+Bu depodaki **bütün** tarih karşılaştırmaları dizgi tabanlı; 1000'den küçük yıl
+taşıyan her kayıtta sessizce ters çalışır. Bugün yalnız `devletler.js`'te var
+(yerleşimler 1281+), ama kapsam MÖ 12000'e inecek. **Epoktan bağımsız yapısal
+borç**, düzeltmesi tek satır: yılı 4 haneye tamamla, sonra karşılaştır.
+
+### Devreden
+
+**Kırım'ın yedi noktası** artık uygulanabilir (kalibrasyon 3. turda çözüldü) ama
+`yerlesimler.js` benim dosyam değil — koordinat + zincir listesi yazılabilir,
+sıraya girdi.
