@@ -75,7 +75,12 @@ BEKLENEN_B = 17
 # (fetih 58 · kayip 35 · antlasma 20).
 # ⚠️ TAVAN İLK KOŞUDAN SONRA KONDU, önce değil. Bu dosyada tavanı ölçmeden
 # yazmak iki kez yanlış çıktı (bkz. denetim/BITISIKLIK-2026-07-30.md).
-BEKLENEN_C = 113
+# 113 -> 92: ARABISTAN'in hal eki + `yer:` ayrimi olcutu uygulandi. Dususun
+# 17'si `antlasma` sinifindan, yani kural tam hedefledigi yeri kesti.
+# ⚠️ Tavan ARACIN KENDI kosusundan alindi (93), on-olcum betiginden (92)
+# degil. Bir fark vardi ve kaynagi onemli degil - onemli olan tavanin
+# denetimi kosturan kodun ciktisindan gelmesi.
+BEKLENEN_C = 93
 
 # ⚠️ AD EŞLEŞTİRME İKİ KEZ YANLIŞ KURULDU; ikisi de kayda geçsin.
 #   1) "en az 4 harf" filtresi Niş, Şam, Özi'yi eliyordu — üçü de veride VARDI.
@@ -209,6 +214,65 @@ def b_madde_sehri(O, ix):
 # ⚠️ MÜKERRER DEĞİLLER. TDV `mekke` Mekke'nin iki kez düştüğünü veriyor
 # (30 Nisan 1803 işgal → ~6 Ağustos 1803 Şerif Gālib geri alır → Ocak 1806
 # ikinci düşüş → 23 Ocak 1813 Tosun Paşa). Mükerrer kademesi doğru davrandı.
+# ---- KALINTI YANLIŞ POZİTİF AYIKLAYICISI (ARABİSTAN oturumunun ölçütü) ----
+# "Modon'un VENEDİK'e kaybı" — Venedik toprak değiştirmiyor, karşı taraf.
+# Kaldıraç Türkçe HÂL EKİ: toprak değiştiren yer ile karşı taraf farklı hâlde
+# duruyor ve apostrof eki zaten ayırıyor (§19'da kurulan makine).
+#
+#   TUT  tamlayan -ın/-in · belirtme -ı/-i · bulunma -de/-da
+#        ⚠️ bulunma ATILMAZ: "Katar'da Osmanlı kontrolünün kurulması"nda
+#           Katar gerçekten el değiştiriyor.
+#   AT   yönelme -e/-a  ·  çıkma -den/-dan     → karşı taraf
+#   AT   özel ad tamlaması: "İstanbul Antlaşması", "Preveze Deniz Muharebesi"
+#
+# 🔴 D) İSTİSNA — bu olmazsa Mekke vakası KENDİ KURALIYLA ELENİR:
+#   "Vehhâbîlerin MEKKE ve TÂİF'i ele geçirmesi" → Mekke ÇIPLAK, eki yok.
+#   Türkçede ek yalnız son öğeye gelir. Bağlaçla (ve/ile/virgül) bağlanmış
+#   çıplak yer adı da TUTULUR.
+#
+# ⚠️ ÖLÇÜLDÜ, ÖNCE SINANDI SONRA UYGULANDI (ARABİSTAN kendi önerisi için
+# "bunu ölçmedim" dedi ve haklıydı — kâğıt üstünde doğru görünen ölçüt burada
+# iki kez yanlış çıkmıştı). Sonuç:
+#     şimdiki                113 (fetih 58 · kayip 35 · antlasma 20)
+#     yalnız `yer:` ayrımı   107
+#     yalnız hâl eki         107
+#     İKİSİ BİRDEN            92 (fetih 57 · kayip 32 · antlasma  3)
+# Düşüşün 17'si `antlasma` — yani kural tam hedeflediği sınıfı kesti, geri
+# kalanı değil. Beş kabul sınamasının beşi de sağ kaldı:
+#   Mekke 1/2 · Cüneyd 5/5 · Bosna 3/3 · İyon 4/4 · Karesi 2/7
+CIKMA_YONELME = tuple(sorted(("den", "dan", "ten", "tan", "ye", "ya", "e", "a"),
+                             key=len, reverse=True))
+BULUNMA_TAMLAYAN = tuple(sorted(("nın", "nin", "nun", "nün", "ın", "in", "un", "ün",
+                                 "yı", "yi", "yu", "yü", "ı", "i", "u", "ü",
+                                 "de", "da", "te", "ta"), key=len, reverse=True))
+TAMLAMA_BASI = ("antlaşması", "muahedesi", "sözleşmesi", "barışı", "mütarekesi",
+                "kongresi", "konferansı", "seferi", "savaşı", "harbi",
+                "muharebesi", "kuşatması", "bozgunu", "baskını", "fermanı",
+                "protokolü", "itilâfnâmesi", "ahidnâmesi")
+
+
+def _katilimci_mi(baslik, ad):
+    """Bu ad başlıkta TOPRAK DEĞİŞTİREN mi, yoksa karşı taraf / antlaşma adı mı?"""
+    m = baslik.lower().replace("’", "'")
+    a = ad.lower()
+    kararlar = []
+    for mt in re.finditer(re.escape(a), m):
+        son = m[mt.end():]
+        if son.startswith("'"):
+            ek = son[1:]
+            uzun_tut = max((len(t) for t in BULUNMA_TAMLAYAN if ek.startswith(t)),
+                           default=0)
+            uzun_at = max((len(e) for e in CIKMA_YONELME if ek.startswith(e)),
+                          default=0)
+            kararlar.append("AT" if uzun_at > uzun_tut else "TUT")
+            continue
+        if any(son.lstrip().startswith(b) for b in TAMLAMA_BASI):
+            kararlar.append("AT")
+            continue
+        kararlar.append("TUT")          # çıplak ad (D istisnası dahil)
+    return "TUT" in kararlar if kararlar else True
+
+
 def c_coklu_yer(Y, O, ix):
     kir = {}
     for y in Y:
@@ -221,7 +285,20 @@ def c_coklu_yer(Y, O, ix):
     for o in O:
         if o.get("k") not in ("fetih", "kayip", "antlasma"):
             continue
-        anilan = {y["ad"] for y in gecen(ix, o.get("b", "") + " " + o.get("yer", ""))}
+        # ⚠️ `antlasma` maddelerinde `yer:` İMZA YERİDİR, el değiştiren yer değil:
+        # "Baltalimanı Sözleşmesi" → yer:"Baltalimanı, İstanbul" — ikisi de toprak
+        # değiştirmiyor, masanın adresi. Ölçüldü: bu ayrım tek başına antlasma
+        # bulgularını 20'den 14'e, hâl ekiyle birlikte 3'e indiriyor.
+        baslik = o.get("b", "")
+        yer = "" if o.get("k") == "antlasma" else o.get("yer", "")
+        anilan = set()
+        for y in gecen(ix, baslik + " " + yer):
+            # `yer:` çıplak ad listesidir, ek almaz — oradan gelen ad her zaman
+            # katılımcıdır. Hâl eki ölçütü YALNIZ `b:` başlığına uygulanır.
+            if yer and any(a.lower() in yer.lower() for a in _adlar(y)):
+                anilan.add(y["ad"])
+            elif any(_katilimci_mi(baslik, a) for a in _adlar(y)):
+                anilan.add(y["ad"])
         if len(anilan) < 2:
             continue
         coklu += 1
