@@ -574,9 +574,14 @@ window.YERLESIMLER = [
 // hutbesi kaldırıldı) → haritada kayıp. Mehmed Ali'nin oğulları Tosun ve İbrâhim
 // paşaların seferleriyle geri alındı; 1841 fermanına kadar Mısır idaresinde
 // kaldığı için tâbi katmanda gösterilir.
+// ⚠️ Kayıp tarihi 1806-02-01 → 1806-01-01 (31 Tem 2026). Kırılma açıktı: aynı
+// olayın maddesi (`Mekke'nin Vehhâbîlere kaybı`) 1806-01-01'de duruyordu, veri
+// 31 gün ötesini gösteriyordu. Kaynak yalnız YILI veriyor (madde: gun:"1806"),
+// gün uydurmak yerine projenin "yıl biliniyorsa -01-01" kuralına çekildi.
+// Kapsam ölçüldü: bu tarihi taşıyan başka kayıt YOK, yalnız Mekke'nin iki ucu.
 { ad:"Mekke", tur:"sehir", lat:21.423, lon:39.826, g:2, k:2,
-    s:[{f:"1281-01-01",t:"1517-07-06",d:"memluk"},{f:"1806-02-01",t:"1813-01-23",d:"suud"},{f:"1916-06-10",t:"1923-10-29",d:"hicaz"}], d:[],
-    v:[{f:"1517-07-06",t:"1806-02-01",k:"Mekke Şerifliği"},{f:"1841-05-24",t:"1916-06-10",k:"Mekke Şerifliği"},{f:"1813-01-23",t:"1841-05-24",k:"Mısır (Kavalalı)"}] },
+    s:[{f:"1281-01-01",t:"1517-07-06",d:"memluk"},{f:"1806-01-01",t:"1813-01-23",d:"suud"},{f:"1916-06-10",t:"1923-10-29",d:"hicaz"}], d:[],
+    v:[{f:"1517-07-06",t:"1806-01-01",k:"Mekke Şerifliği"},{f:"1841-05-24",t:"1916-06-10",k:"Mekke Şerifliği"},{f:"1813-01-23",t:"1841-05-24",k:"Mısır (Kavalalı)"}] },
 { ad:"Medine", tur:"sehir", lat:24.470, lon:39.612, g:2, k:2,
     s:[{f:"1281-01-01",t:"1517-07-06",d:"memluk"},{f:"1805-07-01",t:"1812-11-08",d:"suud"},{f:"1919-01-10",t:"1923-10-29",d:"hicaz"}], d:[],
     v:[{f:"1517-07-06",t:"1805-07-01",k:"Mekke Şerifliği"},{f:"1841-05-24",t:"1919-01-10",k:"Mekke Şerifliği"},{f:"1812-11-08",t:"1841-05-24",k:"Mısır (Kavalalı)"}] },
