@@ -2123,6 +2123,34 @@ function guncelle() {
   isgalGuncelle(suanki);
   padisahGuncelle(suanki);
   olaylarGuncelle(suanki);
+  obTazele();
+}
+
+// ---------- Detay paneli senkronu (kullanıcı şikâyeti) ----------
+// ⚠️ *"Olaylar teker teker tıklanırken değişmeli. Eğer açık ise değişerek
+// ilerlemeli, bir yere takılı kalmamalı."*
+//
+// Kusur ölçüldü: `obGoster` YALNIZ iki yerden çağrılıyordu — kronoloji satırına
+// tıklayınca (`app.js:1725`) ve otomatik oynatmanın "olay olay" modunda.
+// Çağrılmadığı yerler: ⏮/⏭ düğmeleri · zaman çubuğu sürüklenince · otomatik
+// oynatmanın "zaman akışı" modunda. Yani panel açıkken tarih ilerliyor, panel
+// son tıklanan maddede donuyordu.
+//
+// ⇒ Artık `guncelle()`'nin sonunda tek bir yerden tazeleniyor: tarihi değiştiren
+// HANGİ yol olursa olsun panel onunla birlikte ilerliyor. Kaynağı da liste ile
+// aynı (`ZAMAN.suankiOlay`), yani ikisi ayrışamaz.
+//
+// 🔴 PANEL KAPALIYSA AÇILMIYOR: kullanıcı kapattıysa kapalı kalır. Kendiliğinden
+// açılan bir panel, kapatma düğmesini işlevsiz kılardı.
+var obSonIndeks = -1;
+function obTazele() {
+  if (!window.ZAMAN || !obPanel || obPanel.classList.contains("gizli")) return;
+  var i = window.ZAMAN.suankiOlay(olaylar, suanki, function (k) {
+    return !olayDom[k].classList.contains("suzuldu");   // süzülmüş maddeyi atla
+  });
+  if (i < 0 || i === obSonIndeks) return;
+  obSonIndeks = i;
+  obGoster(olaylar[i]);
 }
 
 function tarihAyarla(t) {

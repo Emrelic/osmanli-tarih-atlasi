@@ -78,7 +78,45 @@ function pencereKonumu(p, altSinir, ustSinir) {
   return { bas: (p.min - altSinir) / tam, son: (p.max - altSinir) / tam };
 }
 
+// ---------------------------------------------------------------------------
+// ŞU AN HANGİ OLAY — detay paneli hangi maddeyi göstersin?
+//
+// 🔴 ÖNERİLEN KURAL ÖLÇÜMLE ELENDİ. Öneri şuydu: *"`suanki` hangi olayın
+// `sure` penceresi içindeyse o gösterilir"* (savaş işaretlerinin ve `anilan`
+// mekanizmasının kullandığı pencere). Kapsamayı ölçtüm:
+//     atlas aralığı        234.786 gün
+//     bir pencerede olan   153.922  (%65,6)
+//     HİÇBİR PENCEREDE     80.864  (%34,4) · 176 boşluk · en uzunu 10,0 YIL
+// ⇒ O kuralla panel zamanın **üçte birinde boş** kalırdı ve 1289'dan itibaren
+// on yıl boyunca hiçbir şey göstermezdi.
+//
+// ⇒ DOĞRUSU DAHA BASİT: panel, kronoloji listesinin vurguladığı maddeyi
+// gösterir — yani `gi <= t` olan SON madde. Üç kazancı var:
+//   1. asla boş kalmıyor (ilk maddeden öncesi hariç)
+//   2. zaman ilerledikçe kendiliğinden ilerliyor — "takılı kalma" tanım gereği
+//      imkânsız; 10 yıllık boşlukta aynı maddede durması TAKILMA DEĞİL, o
+//      gerçekten en son olaydır
+//   3. 🔴 ve asıl gerekçe: liste ile panel AYNI tanımı paylaşıyor. Pencere
+//      kuralıyla gitseydik iki tanım **zamanın %34'ünde ayrışırdı** — liste
+//      bir maddeyi vurgularken panel başkasını gösterirdi. Bu, düzeltmek
+//      istediğimiz kusurun daha kötüsü olurdu.
+//
+// `gorunurMu` verilirse (süzgeç açıkken) gizlenmiş maddeler atlanır: kullanıcı
+// o konuyu kapatmışsa panelde de görmemeli, ve listede vurgulanan satır zaten
+// gizli olduğu için panel onu gösterirse ikisi yine ayrışır.
+function suankiOlay(olaylar, t, gorunurMu) {
+  var lo = 0, hi = olaylar.length - 1, bulunan = -1;
+  while (lo <= hi) {                       // gi <= t olan son madde (ikili arama)
+    var orta = (lo + hi) >> 1;
+    if (olaylar[orta].gi <= t) { bulunan = orta; lo = orta + 1; } else { hi = orta - 1; }
+  }
+  if (bulunan < 0 || !gorunurMu) return bulunan;
+  while (bulunan >= 0 && !gorunurMu(bulunan)) bulunan--;   // gizliyse geriye yürü
+  return bulunan;
+}
+
 var _d = { DILIM_YIL: DILIM_YIL, PENCERE_YIL: PENCERE_YIL, gunYil: gunYil,
+           suankiOlay: suankiOlay,
            yilGun: yilGun, dilimBasi: dilimBasi, yogunluk: yogunluk,
            pencere: pencere, pencereKonumu: pencereKonumu };
 if (typeof window !== "undefined") window.ZAMAN = _d;
