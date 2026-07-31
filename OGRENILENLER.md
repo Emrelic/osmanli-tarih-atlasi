@@ -1785,3 +1785,41 @@ epokta (1281) %49,1 görünüyor, 1383 sonrası %90,8'e çıkıyor.
 her eşik aynı sonucu veriyor.** Yani uydurulmuş eşik değeri sonucu
 belirlemiyor — bu, tek bir sayıya yaslanmaktan çok daha sağlam ve ancak
 **tam tarama** ile görülebilirdi.
+
+---
+
+## §50 — Ölçümün GEÇERLİLİK KOŞULU da ölçülmelidir
+
+Bugün bir gün boyunca *"yayındaki sayfa boş"*, *"r298 çöktü"*, *"r299
+açılmıyor"* diye üç hüküm verildi. **Üçü de yanlıştı** ve tek bir kök sebebi
+vardı:
+
+```
+gizli sekme  →  requestAnimationFrame HİÇ ateşlemiyor
+             →  MapLibre stil yüklemesini ona bağlamış
+             →  stylesheet false · kiremit isteği 0 · işaret 0
+```
+⇒ **Gizli bir sekmedeki sağlam sayfa, bozuk bir sayfayla BİREBİR AYNI
+görünüyor.** Ölçüm doğruydu, ölçüm *ortamı* hükmün dışında kalmıştı.
+
+Bedeli: bir oturum çalışan bir değişikliği geri aldı, bir gün yanlış yerde
+kusur arandı, ve koordinatör kullanıcıya *"yayın bozuk"* dedi.
+
+> **Kural:** her ölçüm, **kendisini geçersiz kılabilecek koşulla birlikte**
+> raporlanır. Tarayıcı ölçümlerinde bu `document.visibilityState`'tir;
+> `hidden` iken alınan *"yüklenmiyor"* okuması **ölçüm değildir.**
+
+📌 Ve ayıraç genel: *"bu ölçüm hangi durumda yanlış cevap verir?"* sorusu
+**ölçümden önce** sorulmalı. `§34` ölçümün başka cevap verebilmesini,
+`§38` o cevabın kararı değiştirmesini, `§42` sağlamanın iki uçlu olmasını
+istiyordu — `§50` bir basamak daha aşağıda: **ölçüm aleti çalışıyor mu.**
+
+📌 Kontrol koşusunun değeri de buradan: yamayı uygulayıp *"başarısız"* görmek
+tek başına hiçbir şey söylemiyordu. **Yamasız hâli aynı biçimde sınayınca**
+ikisinin de aynı sonucu verdiği görüldü ve suç ortamda arandı. **Bir sınavın
+sonucu, kontrolsüz okunamaz.**
+
+⚠️ İkinci ders, aynı vakadan: ARAYÜZ'ün yaması bu kök sebep **bilinmeden**
+yazılmıştı ama ona karşı da doğru davranıyor — `setTimeout` gizli sekmede
+ateşliyor, `isStyleLoaded()` şartı da orada boş yere çalışmasını engelliyor.
+**Sınanmamış varsayımdan kaçınmak, henüz bilmediğin tuzaktan da korur.**
