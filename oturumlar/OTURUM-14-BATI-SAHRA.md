@@ -394,3 +394,71 @@ Bu turda üçüncü TDV-içi tarih uyuşmazlığı (Tâcûre Fransa/İngiltere �
 himaye 18/19 Aralık · Arîş 24/25 Ocak). Hiçbiri bizim maddelerimizi
 etkilemiyor ama desen kayda değer: **TDV'nin farklı maddeleri aynı olayı
 bir gün kaydırarak verebiliyor.** Çapraz doğrulama şart.
+
+---
+
+# 7. KESELÂ `kasitli_bosluk` — cevap: **`false`**
+
+## 7a. Cevap
+
+**`kasitli_bosluk: false`** — orası boş değildi, birinin toprağıydı.
+Şüpheye düşmedim; TDV açık cümle veriyor.
+
+## 7b. Dayanak — `kesela` (✅ gerçek madde, iki aşamalı sınamadan geçti)
+
+Üç cümle, üçü de birebir:
+
+> *"**Func Sultanlığı toprakları içinde yer alan Tâkâ**"*
+
+Bu tek başına soruyu kapatıyor: 1840 öncesi Gaş vadisi (Tâkâ bölgesi)
+**Func/Sennâr sultanlığının toprağıydı** — kabile boşluğu değil.
+
+> *"Tâkâ bölgesi, **1821** yılında Kavalalı Mehmed Ali Paşa'nın ordusunun
+> kontrolü altına girmeye başladı."*
+
+1821 Mısır fethi bölgeye **ulaştı**; 1840'a kadar denetim dışı kalmadı.
+
+> *"**Evlâdünâsır köyü** burada bulunmaktaydı. … Vali **Ahmed Paşa Ebû Vidân**
+> döneminde önemli bir yerleşim mahalline dönüştürülen **ikinci köy Keselâ**
+> adıyla tanınmış"*
+
+Üçüncü delil: yer zaten **meskûndu.** Keselâ boş araziye kurulmadı, mevcut
+iki köyden ikincisi büyütüldü. `kur:1840` bir **şehirleşme** tarihi, bir
+**varoluş** tarihi değil.
+
+📌 Ahmed Paşa Ebû Vidân'ın valiliği 1838-1843 — `kur:"1840-01-01"` ile uyumlu.
+
+## 7c. Ve geometri de aynı cevabı veriyor — ölçüldü
+
+`false` seçilirse Keselâ'nın 1840 öncesi peteği komşulara dağılır. En yakın
+altı komşuyu ve 1840 öncesi ne boyadıklarını ölçtüm:
+
+| Mesafe | Komşu | 1840 öncesi taşıdığı |
+|---|---|---|
+| **191,6 km** | **Kadârif** | `nube` → `funj` → **`v:` Mısır (Kavalalı) 1821-06-14'ten** |
+| 222,6 km | Kerene | `habesistan` (1872'ye kadar) |
+| 251,9 km | Şire | `habesistan` |
+| 271,7 km | Asmara | `habesistan` |
+| 277,4 km | Metemma | `habesistan` |
+| 289,8 km | Aksum | `habesistan` |
+
+🟢 **En yakın komşu Kadârif ve zinciri TDV'nin anlattığının aynısı:**
+Func → 1821-06-14'te Kavalalı. Yani `false` seçildiğinde Keselâ'nın çekirdek
+bölgesi **1821 öncesi Func, 1821 sonrası Mısır** boyanır — TDV'nin iki
+cümlesiyle birebir.
+
+⚠️ **Tek uyarı:** kalan beş komşunun beşi de `habesistan`. Voronoi en yakına
+göre böldüğü için Keselâ hücresinin **doğu saçağı** Habeşistan'a düşecek.
+Bu bir hata değil — Kerene/Bogos gerçekten 1872'ye kadar Habeş'ti — ama
+**Gaş vadisinin doğu kenarında Habeş rengi göreceksiniz** ve bu beklenen
+davranıştır, yeni bir hata raporu olarak gelmesin.
+
+## 7d. MOTOR'un %48,6'sı üzerine
+
+Ölçüm kararsız banttaydı ve "kasıtlı" (true) etiketlenmişti. **Kaynak
+eşiği geçersiz kılıyor:** %48,6 belirsizliği veriden gelen bir belirsizlikti,
+tarihten gelen bir belirsizlik değil. TDV Tâkâ'yı açıkça Func toprağı sayıyor.
+
+📌 Ve bu, sizin 3 numaralı notunuzla uyumlu: **`false`, Keselâ'yı Kadârif'e
+bağlayarak Nil-Atbara hattının birlikte el değiştirme desenini korur.**
+`true` seçmek, çevresi 1821'de Mısır'a geçerken ortasında delik bırakırdı.
