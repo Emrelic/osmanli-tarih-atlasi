@@ -613,3 +613,28 @@ Oturum 13'ün kendi yanlış negatifi: tam adla arama Adıyaman ve Besni için "
 yok" dedi; veride **"Hısn-ı Mansûr (Adıyaman)"** ve **"Behisni (Besni)"** olarak
 duruyorlar. Tam eşleşmeyle bırakılsaydı iki uydurma "nokta eksik" bulgusu
 raporlanacaktı. `§19`'un arama tarafındaki hâli.
+
+### Orta Asya — kimlik adı kararı ve Aral'ın doğrulanması
+
+**KARAR: `kazak` DEĞİL, `kazak-hanligi`.** `yerlesimler_ortaasya2.js`'te üç satır
+değişecek (Aral kuzeyi · Üstyurt kuzeyi · Emba). Gerekçe: Türkçede **"kazak" iki
+ayrı halkı gösteriyor** — Kazak Hanlığı ve Ukrayna kazakları — ve bu atlas ikisinin
+de coğrafyasını kapsıyor. Kısa kimlik bir gün ikisini birbirine karıştırır ve o
+karışma sessiz olur: harita boyanır, denetim temiz der. `trabzon-rum`,
+`macaristan-habsburg`, `bulgaristan-kralligi` gibi ayırt edici uzun yazımlar zaten
+bu sözleşmede var. `nogay`'da çakışma yok, öyle kalsın.
+
+**Sıra:** Oturum 9 `nogay` + `kazak-hanligi` kimliklerini açar → Oturum 16
+`renkler.py`'ye renk verir → Oturum 15 üç satırı düzeltip birleştirir → dosya
+`girdi.py` izin listesine alınır. **Bu sıra bozulamaz:** kimliksiz nokta üretimde
+uyarı basar ve bölgesi hiç boyanmaz.
+
+**Aral doğrulandı — ama Oturum 15'in ölçemediği yerden.** Oturum 15 poligonu elle
+çizdi (23 köşe, pre-1960 iki loblu biçim, ~73.000 km²) ve dürüstçe *"88.000 km²'lik
+yanlış Hîve boyamasının kapandığını doğrulayamam, bunun için üretim gerekiyor"*
+dedi. Üretim koştu: **net su alanı 67.087 km² ölçüldü ve tek petek yutuyordu —
+Küngrat.** A/B'de `hive −67.196 km²` çıktı, öngörüyle **%0,16** fark. Yani poligon
+işini gördü.
+⚠️ Kayıtlı sınır: Aral'ın ortaçağdaki seviye dalgalanmaları (Amuderya'nın Uzboy'a
+akış değişiklikleri) **modellenmedi**; motor zamana bağlı göl desteklemiyor, bu
+yüzden şimdilik kayıp değil ama bir gün destek gelirse geri dönülmeli.
