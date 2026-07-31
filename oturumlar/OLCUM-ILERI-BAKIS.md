@@ -144,3 +144,66 @@ yapmaya çalıştığı şeyi **ekran ölçüsünde** yapıyor.
 
 ⏳ Sınav şartı değişmedi: z4/z5/z6'da `CAKISAN` yine **0** olmalı. Yoğun anlar
 (1911-1912) sınavda özellikle bakılmalı — kusur oradaysa orada görünür.
+
+---
+
+## 6. ✅ NİHAİ KARAR — 365 GÜN, ve karar iki kez döndü
+
+⚠️ **Kayıt açıkça yazılıyor, çünkü karar bir turda iki kez değişti** ve ileride
+biri geçmişe bakarsa hangisinin geçerli olduğunu bilmeli.
+
+| sıra | karar | dayanağı | durumu |
+|---|---|---|---|
+| 1 | sabit **süre** 365 gün | kullanıcı; üç çapa (2 sn görünürlük · `sure` simetrisi · "bir iki madde") | ✅ **GEÇERLİ** |
+| 2 | sabit **sayı** 2 madde | ARAYÜZ ölçümü: *"365 gün 32 işaret basar"* | ❌ geri alındı |
+| 3 | sabit **süre** 365 gün | o 32 sayısı **yanlıştı** — çarpım, birleşim değil | ✅ **NİHAİ** |
+
+### Neden döndü — ve neden bir daha dönmemeli
+
+Kararı iki kez oynatan şey **benim hatalı sayımdı.** *"1 yıl → azami ~32
+işaret"* demiştim: madde başına 1,34 yerleşimi **çarpmıştım.** Ama aynı madde
+grubunda **aynı şehir tekrar ediyor** (Trablusgarp boyunca aynı limanlar).
+**Çarpım değil birleşim gerekiyordu.** Gerçek:
+
+```
+365 günlük ileri pencere:  medyan 2 · %90 7 · %99 20 · AZAMİ 23 ek işaret
+10+ işaret çıkan an: %5,4 · 15+ : %2,1
+```
+
+⇒ Sabit sayıyı savunan tek somut argüman (ekranı basar) **yoktu.** Onu
+düzeltince kullanıcının ilk kararı kendiliğinden geri geldi.
+
+📌 Ve 365'in ikinci gerekçesi hiç sarsılmadı: `sonrakiOlayaKadar` **zaten
+tavan 365** kullanıyor. Yeni sabit doğmuyor — **tek sayı, iki yön** (`§35`).
+
+### Uygulama sözleşmesi — bunlar birlikte geçerli
+
+```
+pencere    365 gün ileri
+tavan      YOK
+sıralama   gelecek işaretler öncelik listesinin EN SONUNDA
+görünüm    aynı işaret · opaklık ~%55 · kesikli çerçeve
+lejant     ZORUNLU
+süzgeç     gizlenmiş maddenin şehirleri gösterilmez (panel kuralıyla aynı)
+```
+
+🔴 **Tavansızlık, sıralama şartına BAĞLI.** Gelecek işaretler listenin sonunda
+olduğu için kalabalıkta **önce onlar** elenir; bugünkü görünümü asla bozmazlar,
+yalnız boş yer varken belirirler. Biri sıralamayı değiştirirse **tavansızlık
+geçersiz olur** — ikisi tek karardır, ayrı ayrı değiştirilemez.
+
+### Geri dönüş şartı — koordinatörün notu, korunuyor
+
+İleride *"tarama modunda önizleme çok kısa"* şikâyeti gelirse çözüm **sabit
+sayıya dönmek değil**: **asgarî süre tabanı** eklenir (365 gün, ama en az N gün
+ekranda kalsın). Sürücü pencere kalır, taban yalnız sigorta olur.
+
+### Sınav — iki uçlu (`§42`)
+
+```
+kesitler : 1912-03-13 (23 işaret) · 1516-06-05 (21) · z4/z5/z6
+ölçüt 1  : CAKISAN = 0
+ölçüt 2  : gelecek işaretlerin BİR KISMI ELENMİŞ olmalı
+```
+⚠️ İkincisi kritik: *"hepsi göründü"* de bir **kusur işaretidir** — öncelik
+sırası çalışmıyor demektir.
