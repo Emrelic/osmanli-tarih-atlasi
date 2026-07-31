@@ -34,6 +34,7 @@ onu üreten ölçüm yazılı; gerekçe `denetim/STATU-2026-07-30.md`'de.
 """
 import io
 import os
+import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -359,6 +360,60 @@ def e_etiket_anakronizmi(Y):
     return tasan, bilinmeyen
 
 
+# ------------------------------------------ F) ALAN SÖZLÜĞÜ — ÜÇ OTORİTE
+# 🔴 BU DENETİM BİR REFLEKSİ MAKİNEYE ÇEVİRMEK İÇİN VAR.
+#
+# Üç kez aynı tuzağa düşüldü ve üçüncüsünde ders zaten YAZILMIŞTI:
+#   1. `y:"vassal"` "geçersiz" ilan edildi — belgeye bakılarak
+#   2. `k:` sözlüğü ölçüldü, BELGENİN bayat olduğu bulundu, ders yazıldı
+#   3. `y:` yeniden — ve yine belge tek otorite sayıldı
+#
+# ARABİSTAN'ın kendi teşhisi (kabul ediyorum, benim için de geçerli):
+#   "`k:`de CSS'e bakma refleksi doğdu çünkü sınıf adı ÜRETİLİYORDU
+#    (`'k-' + o.k`), göze çarpıyordu. `y:`de arayüz bağı GÖRÜNMÜYORDU."
+#   → Ders, onu doğuran vakanın GÖRÜNÜRLÜĞÜNE yapışmıştı; kurala dönüşmemişti.
+#
+# Ölçülmüş bedeli: `y:"vassal"` silinecekti ve **13 kaydın 🤝 simgesi sessizce
+# kaybolacaktı** — çünkü onu okuyan tek yer `YONTEM_SIMGE[aktif.y] || ""`.
+# Eksik değeri sessizce yutan bir ifade; `olaylar_ek8.js` deseninin aynısı.
+#
+# DENETİM TARAF TUTMAZ. "Şu değer geçersiz" demez; hangi otoritenin bildiğini
+# söyler ve kararı veri sahibine bırakır:
+#     belge ✗ · arayüz ✓   → ÇELİŞKİ, karar gerekiyor
+#     belge ✓ · arayüz ✗   → arayüz eksik (değer çiziliyor ama simgesiz)
+ALAN_OTORITELERI = {
+    # alan: (belgedeki sözlük, arayüz sözlüğünü çıkaran desen, dosya)
+    "y": (("savas", "kusatma", "antlasma", "miras", "ilhak"),
+          r"var YONTEM_SIMGE\s*=\s*\{([^}]*)\}", "js/app.js"),
+}
+
+
+def f_alan_sozlugu(Y):
+    """(satirlar) — her `y:` değeri için üç otoritenin ne dediği."""
+    belge, desen, dosya = ALAN_OTORITELERI["y"]
+    arayuz = set()
+    try:
+        kaynak = open(os.path.join(KOK, dosya), encoding="utf-8").read()
+        m = re.search(desen, kaynak)
+        if m:
+            arayuz = set(re.findall(r"(\w+)\s*:", m.group(1)))
+    except Exception:
+        return None
+    kullanim = {}
+    for y in Y:
+        for kat in ("s", "d", "v", "isg"):
+            for p in (y.get(kat) or []):
+                if p.get("y"):
+                    kullanim[p["y"]] = kullanim.get(p["y"], 0) + 1
+    satir = []
+    for deger, n in sorted(kullanim.items(), key=lambda x: -x[1]):
+        b, a = deger in belge, deger in arayuz
+        if b and a:
+            continue                       # iki otorite de biliyor, sorun yok
+        satir.append((n, deger, b, a))
+    return satir
+
+
 # ---------------------------------------------------- v: etiket bütünlüğü
 def v_etiketleri(Y):
     """`k:` etiketi olmayan tâbi dönemleri — objektif şema kuralı, eşiksiz.
@@ -493,6 +548,32 @@ def main():
           (f" … +{len(bilinmeyen)-6}" if len(bilinmeyen) > 6 else ""))
     print( "      → uydurma ömür yazmaktansa denetlenmiyor demek doğru;")
     print( "        kaynağa dayandırılan her ömür KURUM_OMRU'ne eklenebilir.")
+
+    # ---------------- F) alan sözlüğü — üç otorite
+    satir = f_alan_sozlugu(Y)
+    print()
+    print("=== F) `y:` ALAN SÖZLÜĞÜ — ÜÇ OTORİTE, DENETİM TARAF TUTMAZ ===")
+    print("    Bu denetim 'şu değer geçersiz' DEMEZ. Hangi otoritenin bildiğini")
+    print("    söyler; kararı veri sahibi verir. Sebebi ölçülmüş bir vaka:")
+    print("    `y:\"vassal\"` belgeye bakılarak silinecekti ve 13 kaydın 🤝")
+    print("    simgesi sessizce kaybolacaktı (js/app.js:769 onu ÇİZİYOR).")
+    if satir is None:
+        print("  !  js/app.js okunamadı — ölçülemedi")
+    elif not satir:
+        print("  ✓  bütün `y:` değerlerini hem belge hem arayüz tanıyor")
+    else:
+        for n, deger, b, a in satir:
+            if b and not a:
+                ne = "arayüz EKSİK — değer çiziliyor ama simgesiz"
+            elif a and not b:
+                ne = "ÇELİŞKİ — arayüz biliyor, belge bilmiyor; KARAR GEREKİYOR"
+            else:
+                ne = "ikisi de bilmiyor — yazım hatası mı, yeni değer mi?"
+            print("  i  %4d kayıt  y:\"%s\"   belge %s · arayüz %s"
+                  % (n, deger, "✓" if b else "✗", "✓" if a else "✗"))
+            print("                 → %s" % ne)
+        print("    ⚠️ İHLAL SAYILMADI: hangi tarafın güncelleneceği veri sahibinin")
+        print("       kararı. Denetim yalnız çelişkiyi görünür kılar.")
 
     # ---------------- C
     v_isgal, s_sandvic, fetret = c_isgal_envanteri(Y)
