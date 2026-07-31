@@ -32,7 +32,7 @@ body {
 }
 #ustbar h1 { font-size: 15px; letter-spacing: 0.3px; white-space: nowrap; }
 #ustbar .alt { font-weight: normal; font-size: 12px; opacity: 0.8; }
-#btn-dizin, #btn-tamekran, #btn-cografya, #btn-motorhat {
+#btn-dizin, #btn-tamekran, #btn-cografya, #btn-motorhat, #btn-verisiniri {
   background: #f3e6c8;
   border: 1px solid var(--altin);
   border-radius: 6px;
@@ -42,10 +42,11 @@ body {
   white-space: nowrap;
 }
 #btn-dizin:hover, #btn-tamekran:hover,
-#btn-cografya:hover, #btn-motorhat:hover { background: #ffe9a8; }
+#btn-cografya:hover, #btn-motorhat:hover,
+#btn-verisiniri:hover { background: #ffe9a8; }
 /* Açık katman görünür olmalı: bu düğmeler bir DURUM taşıyor, komut değil —
    kullanıcı hangi katmanın açık olduğunu düğmeye bakarak bilmeli. */
-#btn-cografya.etkin, #btn-motorhat.etkin {
+#btn-cografya.etkin, #btn-motorhat.etkin, #btn-verisiniri.etkin {
   background: var(--altin);
   color: #2a0a10;
   font-weight: 600;

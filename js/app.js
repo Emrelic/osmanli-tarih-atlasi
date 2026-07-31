@@ -574,6 +574,61 @@ function altlikKur() {
 // açılınca RASTER KAPANIR: kullanıcı Kademe 3'ün nasıl görüneceğini bugünden
 // görür, ve şartnamedeki geçme ölçütü ("Esri kapatılınca harita hâlâ okunabilir
 // mi") tek tıkla sınanabilir hâle gelir.
+// ---------- VERİ SINIRI — "burası neden boş" sorusunun ekrandaki cevabı ----
+// 🔴 Kullanıcı bugün BEŞ KEZ *"burası neden boş"* diye sordu (İran'ın doğusu,
+// Orta Asya, İsveç'in kuzeyi…) ve beşinde de biz kazıp cevabı bulduk. Ölçüldü:
+//   Tahran 51,4°D · Meşhed 59,6°D        → İÇERİDE
+//   Buhara 64,4°D · Semerkant 66,9°D     → DIŞARIDA (lon > 62)
+//   Stokholm 59,3°K                      → İÇERİDE
+//   Kiruna 67,9°K · Tromsø 69,6°K        → DIŞARIDA (lat > 62)
+// Yani beş ayrı şikâyet TEK BİR ŞEY: üretim penceresinin iki kenarı.
+// ⇒ Kenar çizili olsaydı kullanıcı kendisi görürdü ve sormazdı.
+// 📌 `§48`'in uygulaması: açıklayamadığında hipotez değil GÖRÜNÜRLÜK inşa et.
+//
+// ⚠️ DÖRDÜNCÜ DESEN GEREKİYOR — mevcut hatların hiçbirine benzememeli:
+//   devlet sınırı düz · `bolge-cizgi` kesikli · `serbest` bulanık hâle ·
+//   Grup B kesikli (camgöbeği/turuncu)
+// En güçlü ayırt edici desen değil BİÇİM: bu bir DİKDÖRTGEN. Ne siyasî ne
+// tabiî hiçbir sınır tam dikdörtgen değildir; kullanıcı "bu bir devlet sınırı
+// mı" diye soramaz. Desen yine de ayrı: uzun çizgi + nokta (dash-dot).
+var VERI_SINIRI = [-12, 1.5, 62, 62];      // uret_petek.py:43 `BOLGE = box(...)`
+// 🔴 SABİT İKİ YERDE DURUYOR ve bu bilinçli bir istisna: Python sabitini
+// tarayıcıya okutamıyorum. Sessiz bayatlamayı önlemek için ÇALIŞMA ANINDA
+// doğrulanıyor — `altlik.js`'in kara katmanı aynı kutuyla kesilmiş olmalı.
+// Ölçüldü: kara lon -12,0..62,0 · lat 1,5..62,0, yani birebir uyuyor.
+// Biri `BOLGE`'yi açar da burayı unutursa konsol söyler; §35'in yapabildiğim
+// en iyi hâli — çıktıyı paylaşamıyorum, ama uyuşmazlığı GÖRÜNÜR kılabiliyorum.
+function veriSiniriDogrula() {
+  var k = window.ALTLIK && window.ALTLIK.kara;
+  if (!k || !k.features || !k.features.length) return;
+  var W = 1e9, S = 1e9, E = -1e9, N = -1e9;
+  (function gez(c) {
+    if (typeof c[0] === "number") {
+      if (c[0] < W) W = c[0]; if (c[0] > E) E = c[0];
+      if (c[1] < S) S = c[1]; if (c[1] > N) N = c[1];
+    } else { for (var i = 0; i < c.length; i++) gez(c[i]); }
+  })(k.features.map(function (f) { return f.geometry.coordinates; }));
+  var v = VERI_SINIRI, tol = 0.25;
+  if (Math.abs(W - v[0]) > tol || Math.abs(S - v[1]) > tol ||
+      Math.abs(E - v[2]) > tol || Math.abs(N - v[3]) > tol) {
+    console.warn("Atlas: VERI_SINIRI (" + v.join(",") + ") altlık kutusuyla " +
+                 "uyuşmuyor (" + [W, S, E, N].map(function (x) { return x.toFixed(1); }) +
+                 "). uret_petek.py'deki BOLGE değişmiş olabilir — js/app.js güncellenmeli.");
+  }
+}
+function veriSiniriKur() {
+  var v = VERI_SINIRI;
+  harita.addSource("veri-siniri", { type: "geojson", data: {
+    type: "FeatureCollection", features: [{ type: "Feature", properties: {},
+      geometry: { type: "LineString", coordinates: [
+        [v[0], v[1]], [v[2], v[1]], [v[2], v[3]], [v[0], v[3]], [v[0], v[1]]] } }] } });
+  harita.addLayer({ id: "veri-siniri-cizgi", type: "line", source: "veri-siniri",
+    layout: { visibility: "none", "line-cap": "round" },
+    paint: { "line-color": "#5b6b7a", "line-width": 2,
+             "line-dasharray": [6, 2, 0.5, 2], "line-opacity": 0.75 } });
+  veriSiniriDogrula();
+}
+
 function altlikGoster(grup, acik) {
   ALTLIK_KATMAN[grup].forEach(function (k) {
     if (harita.getLayer(k.id))
@@ -585,6 +640,7 @@ function altlikGoster(grup, acik) {
 
 harita.on("load", function () {
   altlikKur();
+  veriSiniriKur();
 
   // Yabancı devletler: Osmanlı katmanlarının ALTINA çizilir
   harita.addSource("devlet", { type: "geojson", data: bosVeri() });
@@ -2584,6 +2640,20 @@ document.getElementById("bolge").addEventListener("change", function () {
     dugme.classList.toggle("etkin", acik);
   });
 });
+
+// Veri sınırı — varsayılan KAPALI. Atlasın kendisi değil, atlasın NEREDE
+// BİTTİĞİNİ söyleyen bir işaret; sürekli açık dursa haritayı çerçeveler.
+(function () {
+  var d = document.getElementById("btn-verisiniri");
+  if (!d) return;
+  var acik = false;
+  d.addEventListener("click", function () {
+    acik = !acik;
+    if (harita.getLayer("veri-siniri-cizgi"))
+      harita.setLayoutProperty("veri-siniri-cizgi", "visibility", acik ? "visible" : "none");
+    d.classList.toggle("etkin", acik);
+  });
+})();
 
 // Tam ekran
 document.getElementById("btn-tamekran").addEventListener("click", function () {
