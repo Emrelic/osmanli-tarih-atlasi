@@ -46,7 +46,7 @@ harita kıpırdamıyor mu), `denetle_statu.py E` (etiket kurumun ömrünü aşı
 
 ---
 
-## 1. ORGANLAR — 11 tanım, aynı anda en fazla 7 açık
+## 1. ORGANLAR — 14 tanım, aynı anda en fazla 10 açık
 
 ### ÇEKİRDEK — her zaman açık (4)
 
@@ -64,7 +64,8 @@ harita kıpırdamıyor mu), `denetle_statu.py E` (etiket kurumun ömrünü aşı
 | **A1** | **ANADOLU** | Opus | Anadolu beylikleri · Selçuklu · Fetret · Karaman/Germiyan zinciri · Kırım |
 | **A2** | **BALKAN** | Opus | Rumeli · Macaristan-Erdel · Eflak-Boğdan · Yunanistan · Balkan savaşları |
 | **A3** | **ARAP-AFRİKA** | Opus | Mısır · Kuzey Afrika · Hicaz-Yemen · Sudan · Habeşistan |
-| **A4** | **DOĞU** | Opus | İran · Irak · Kafkasya · Körfez · Orta Asya · Hindistan |
+| **A4** | **DOĞU** | Opus | İran · Irak · Kafkasya · Orta Asya · Hindistan |
+| **A5** | **ARABİSTAN** | Opus | Hicaz · Yemen · Necid · Asîr · Lahsa · Katar · Kuveyt · Umman |
 
 🔴 Araştırma oturumları **veriye yazmaz** — `oturumlar/DUZELTME-<bölge>.md` yazar.
 Sebep: `yerlesimler.js` tek dosya ve çok yazarlı olduğu an bozuluyor.
@@ -76,6 +77,21 @@ Sebep: `yerlesimler.js` tek dosya ve çok yazarlı olduğu an bozuluyor.
 | **U1** | **KRONOLOJİ** | Sonnet | `data/olaylar_ek*.js` | Araştırmanın doğrulanmış madde metinlerini işler. **Kendi başına tarihî iddia üretmez.** |
 | **U2** | **KATALOG** | Sonnet | `data/devletler.js` · `data/kimlikler.js` | Devlet kayıtları, kimlikler, renk paylaşımı ölçümü. |
 | **U3** | **SAVAŞLAR** | Sonnet | `data/savaslar.js` | Oklar, muharebeler, `tur`/`sonuc` etiketleri. |
+
+### DESTEK — koordinatörün yükünü AZALTMAK için açıldı (2)
+
+| # | Ad | Model | Dosyası | İşi |
+|---|---|---|---|---|
+| **Y** | **YAMACI** | Sonnet | `scratchpad/` | Düzeltme listelerini **sınanmış yama betiğine** çevirir. Veriye yazmaz — koordinatör inceleyip koşar. |
+| **S** | **KAYNAK** | Fable | `oturumlar/KAYNAK-DENETIMI.md` | Listelerdeki TDV slug'larını önceden doğrular (ölü slug + yönlendirme tuzağı). |
+
+⚠️ **Bu ikisi neden var:** koordinatör `yerlesimler.js`'in tek yazarı ve bu kural
+yedi çöpe giden üretimden sonra kondu — ama tek yazar olmak **darboğaz** yaratıyor.
+Bir günde üç kez desen tutmadı (Kuveyt · Annaba/Bicâye · Hanya) ve beş ölü slug
+bulundu, biri **tek harf** farkıyla. İkisi de mekanik ve devredilebilir işti.
+
+> **Yeni oturum açma ölçütü: koordinatörün yükünü AZALTIYOR mu?** Araştırma oturumu
+> ekler (çıktısı doğrulanmayı bekler), YAMACI ve KAYNAK azaltır.
 
 ### 🤖 SAHİBİ OLMAYAN — üretilir, elle yazılmaz
 
@@ -174,7 +190,18 @@ başına madde sayısıdır**.
 | ~1:1 | Mekanik düzenleme — dosya girer, aynı dosya çıkar | **Koordinatör** |
 | — | Entegrasyon, karar, yayın | **Koordinatör** |
 
-🔴 **Gerçek tavan bütçe değil, DOĞRULAMA KAPASİTESİDİR.** Her çıktı koordinatörden
+🔴 **Gerçek tavan bütçe değil, DOĞRULAMA KAPASİTESİDİR.**
+
+📏 **Ölçüldü (31 Temmuz):** bir günde ~40 mesaj gönderildi, ~15 esaslı teslimat
+doğrulandı. **10 aktif oturumu geçince** teslimatlar doğrulanabildiğinden hızlı
+geliyor. O gün üç kez bedeli ödendi: `§28`'e yanlış ders yazıldı, `§22` **iki kez**
+düzeltildi, Kırım'da iki oturum çelişti ve **ikisi de yanlıştı**.
+
+🎯 **Tavanı yükselten şey oturum sayısı değil, DENETİM.** Koordinatörün bakması
+gereken şeyleri azaltan her denetim tavanı gerçekten yükseltir:
+`Değişmez 2s` (115 vaka, elle bakılamazdı) · `Değişmez 2t` (7 `fetih` maddesi) ·
+`denetle_statu.py E` (koordinatörün kendi hatasını yakaladı) · koşu bekçisi.
+**11 oturum + güçlü denetim, 15 oturum + zayıf denetimden hızlıdır.** Her çıktı koordinatörden
 geçiyor; oturumlar doğrulanabilenden hızlı üretirse ya birikir ya doğrulanmadan
 kabul edilir — ikincisi bu projeye hatanın giriş yolu.
 
