@@ -1182,3 +1182,102 @@ buldu, hiçbir betik bulamazdı. Denetimin `k:` etiketiyle dönem tarihleri
 arasında tutarlılık aramaması sekizinci bir denetim fikri — Oturum 2'ye:
 *"bir `k:` etiketi, andığı kurumun/kişinin ömrünün dışına taşıyor mu?"*
 (§3.5'teki hayalet devlet denetiminin `v:` etiketlerine uygulanmış hâli.)
+
+---
+
+# 20. U4'ün "24 eksik nokta" listesi ölçüldü — **19'u aslında VAR**
+
+U4 (YER DİZİNİ) `yer:` alanlarını yerleşim dosyalarına karşı tarayıp benim
+bölgemde **24 çözülmemiş ad** bildirdi ve "muhtemelen unutulmuş nokta
+eksiklikleri" dedi. Ölçtüm.
+
+## 20a. Sonuç: 19 var, 6 yok (biri U4'ün listesinde bile yoktu)
+
+| | Sayı |
+|---|---|
+| Dosyada **birebir aynı dizge** olarak bulunan | **16** |
+| Ad biçimi farklı ama aynı yer | **2** (`Port Said`→`Portsaid`, `Tabarka adası`→`Tabarka`) |
+| **Gerçekten eksik** | **6** |
+
+## 20b. 🔴 Teşhis: ayrıştırıcı `yerlesimler_afrika.js`'i okumamış
+
+Ayırt edici test şu: **16 ad dosyada birebir aynı dizge olarak duruyor** —
+`"Adua"`, `"Kesela"`, `"Tokar"`, `"Şendî"`, `"Ağvât"`, `"Kerene"`…
+Normalizasyon/eşleştirme hatası **birebir eşleşmeyi kaçıramaz.**
+
+Ve dağılım tek yönlü:
+
+```
+16 yanlış-eksiğin dosya dağılımı:  yerlesimler_afrika.js  16
+                                   yerlesimler.js          0
+```
+
+⇒ Ad eşleştirmesi değil, **kapsam** sorunu: ayrıştırıcı o dosyayı okumamış.
+U4'ün mesajı "yerlesimler_afrika.js dahil" diyor ama ölçüm aksini gösteriyor.
+
+📌 **Bu `CLAUDE.md §5`'in kayıtlı tuzağının aynısı:** *"ayrıştırıcıyı
+doğrulamak yetmiyor, hangi DOSYALARI okuduğunu da doğrulamak gerekiyor."*
+O not, 767/951 vakası için yazılmıştı; bu, aynı dosyanın ikinci kurbanı.
+
+**Kontrol için tek satır** (U4 kendi ayrıştırıcısında koşturabilir):
+```
+yerlesimler.js 783 · yerlesimler_afrika.js 186 · yerlesimler_asya.js 344
+yerlesimler_avrupa.js 237 · yerlesimler_ortaasya2.js 7      = 1.557 ad
+```
+Ayrıştırıcı 1.557'den az ad görüyorsa dosya kümesi eksiktir. (Canlı olan
+yalnız ilk ikisi — 969; diğer üçü merge bekliyor. `arac/girdi.py`
+`GIRDI_DOSYALARI` tek doğru kaynaktır.)
+
+## 20c. ⚠️ Ve kendi doğrulamam bir yanlış POZİTİF üretti — düzeltiyorum
+
+İlk taramamda bulanık eşleştirme kullandım ve `Mersâ`yı **`Mersâ Matruh`**
+ile eşledim. Yanlış:
+
+| | Konum |
+|---|---|
+| **Mersâ (La Marsa)** — Tunus, benim `1883-06-08` maddemin yeri | 36.878 K / 10.325 D |
+| **Mersâ Matruh** — Mısır, Akdeniz kıyısı | 31.353 K / 27.237 D |
+| Aradaki mesafe | **~1.640 km** |
+
+İkisi apayrı yer. **La Marsa gerçekten eksik** ve U4 haklıydı.
+
+> 📌 Simetri kayda değer: U4'ün ayrıştırıcısı **yanlış negatif** üretti
+> (var olanı yok saydı), benim doğrulayıcım **yanlış pozitif** üretti
+> (olmayanı var saydı). İkisi de gevşek eşleştirmeden. Dizge karşılaştırması
+> iki yönde de yanılır ve **iki yönü de ölçmek gerekiyor.**
+
+## 20d. Gerçekten eksik altı yer — ölçülmüş
+
+| Yer | En yakın kayıt | Mesafe | 3 km |
+|---|---|---|---|
+| **Giza** | Kahire | 4,9 km | ⚠️ sınırda |
+| **Mersâ (La Marsa)** | Halkulvâdî | 6,7 km | ⚠️ sınırda |
+| **Sîdî Ferruc** | Cezayir | 12,5 km | ✅ |
+| **Ümmüdurman** | Hartum | 18,2 km | ✅ |
+| **Kasrılkebir** | Tanca | 86,0 km | ✅ |
+| **Tagdempt** | Şelif | 86,7 km | ✅ |
+
+## 20e. 🟡 Ama hiçbiri haritayı değiştirmez — beklentiyi şimdiden düşürüyorum
+
+Altısının da en yakın komşusu **aynı devletin** kaydı ve altısı da o komşunun
+peteğinin **içinde** kalıyor. Yani eklenirlerse petek bölünür, **sınır
+oynamaz, toprak büyümez.**
+
+- **Giza** (4,9 km) Kahire'nin içinde · **La Marsa** (6,7 km) Halkulvâdî'nin ·
+  **Sîdî Ferruc** (12,5 km) Cezayir'in
+- **Ümmüdurman** Hartum'un 18 km karşısında ve **aynı zinciri** taşıyacak
+  (Mehdî başkentiydi ama Hartum da 1885-01-26'da Mehdî'ye geçiyor)
+- **Tagdempt** ve **Kasrılkebir** en seyrek olanları; asıl kazanç bunlarda
+
+⇒ **Bu iş bir harita düzeltmesi değil, dizin kapsaması işidir** — U4'ün
+gerçek amacı da buydu (`yer:` alanlarının çözünürlüğü). Önceliği ona göre
+verilmeli; "altı harita hatası" diye kuyruğa girmemeli.
+
+📌 Ümmüdurman ve Sîdî Ferruc **tarihî ağırlığı olan** ikisi (Mehdî başkenti ·
+1830 Fransız çıkarma noktası) ve ikisi de maddelerde `yer:` olarak geçiyor —
+dizin açısından en değerlileri bunlar.
+
+## 20f. Yapılmadı
+
+Altısının **TDV doğrulaması ve dönem zincirleri yazılmadı.** Koordinat
+ölçümü yapıldı, tarih araştırması yapılmadı. İstenirse ayrı tur.
