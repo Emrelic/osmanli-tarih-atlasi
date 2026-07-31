@@ -686,3 +686,102 @@ kayit: 240 | harita eslesmesi olan: 118 | kirik harita baglantisi: 0
 `TEKRAR`/`EKSIK`/`TERS`/`BOZUK` yok.
 
 Commit/push yine yapılmadı. Merkez oturuma bildirildi.
+
+---
+
+## EK OTURUM 4 — Akkoyunlu tek satır düzeltmesi + Macaristan doğrulaması + yeşil çakışma ölçümü (2026-07-31)
+
+Merkez oturumdan dört madde: (1) `akkoyunlu` kaydının `t` alanı yanlış (64 taşmanın
+kaynağı), (2) Macaristan'ın 31 "hayalet" kaydı hangi kimliğe gitmeli, (3) macaristan/
+rusya yeşil renk çakışmasının haritada gerçekten çakışıp çakışmadığını ölç, (4) 6
+kimliğin `harita:` bağlantısını teyit et.
+
+### 1) `akkoyunlu` düzeltildi — TDV doğrulandı
+
+TDV `akkoyunlular` maddesi: Şah İsmâil 1501'de Tebriz'i alıp merkezî iktidara son
+verdi ama Elvend Diyarbekir'de 1505'e kadar (Âmid'de öldü), hânedan asıl 1514'te
+Murad'ın ölümüyle bitti. Kayıt `t:"1501-01-01"` → **`t:"1514-01-01"`** yapıldı,
+kronolojiye üç madde eklendi: 1501 Tebriz kaybı (iktidar merkezi bitti ama hanedan
+sürdü), 1505 Elvend'in ölümü, 1514 hanedanın sonu (`son`).
+
+**Doğrulama — `denetle_anakronizm.py` yeniden çalıştırıldı:**
+```
+ÖNCE: akkoyunlu 76/100 dönem taşıyor, en büyük 14.7 yıl
+SONRA: akkoyunlu 4/100 dönem taşıyor, en büyük 1.7 yıl
+```
+Kalan 4 dönem (Diyarbakır/Erzurum/Bitlis/Mardin, hepsi 1515-09'da Safevî'ye
+geçiyor) muhtemelen gerçek bir teslim gecikmesi — kayıt artık `A) kimlik ömrü
+şüpheli` listesinden düştü, `B) tekil hayalet` listesine 1.7 yıllık küçük bir
+kalıntıyla geçti. Merkez oturumun beklediği "64 taşma kapanıyor" doğrulandı
+(76→4 arası fark = 72, mesajdaki tahminden (64) biraz daha fazlası kapandı).
+
+### 2) Macaristan 31 kaydı — YA ZATEN ÇÖZÜLMÜŞ, yeni katalog kaydı gerekmiyor
+
+Ölçmeden önce tahmin: EK OTURUM 3'te açtığım `macaristan-habsburg` (1526→1918,
+harita:macaristan) ve önceden var olan `macaristan-naiplik`e eklediğim
+`harita:"macaristan"` bağlantısı (1918→1923) zaten 1000-1923 kesintisiz bir zincir
+kuruyordu. **Denetim aracını yeniden çalıştırıp doğruladım**: güncel çıktıda
+`macaristan` ne A listesinde ne B listesinde görünüyor — sıfır taşma. Yani:
+
+- 1526-1918 arası 18 kayıt → zaten `macaristan-habsburg`'un kapsadığı aralıkta
+  (harita kimliği aynı: `macaristan`, ayrı bir renk/id gerekmiyor)
+- 1918-1923 arası 13 kayıt → zaten `macaristan-naiplik`'in kapsadığı aralıkta
+
+**Önemli netleştirme merkez oturuma:** `yerlesimler*.js`'teki `d:` alanı
+`devletler.js`'in `id`'sine değil `harita:` (boya kimliği) alanına karşılık
+geliyor — üç macaristan kaydının üçü de `harita:"macaristan"` paylaşıyor, yani
+`d:"macaristan"` yazan hiçbir yerleşim kaydının **değişmesi gerekmiyor**. Denetim
+aracı zaten aynı `harita` değerini paylaşan birden çok `devletler.js` kaydının
+ömrünü birleştirip (union) kontrol ediyor — benim EK OTURUM 3'teki eklemem bu
+mekanizma sayesinde otomatik olarak 31 kaydı da kapatmış. Aksiyon gerekmiyor,
+yerleşim dosyası sahiplerine iletilecek bir değişiklik yok.
+
+### 3) Yeşil çakışma (macaristan #4e7d46 / rusya #4f7d4f) — ÖLÇÜLDÜ, gerçek
+
+`arac/renkler.py`'deki tüm renkler taranıp `macaristan`'a en yakın ΔE'ye göre
+sıralandı: **`rusya` (#4f7d4f) ΔE≈9.1** — ikinci en yakın renk (`taceddin`,
+ΔE≈37.8) ile arasında büyük fark var, yani asıl çakışma bu ikili.
+
+Zamanlama/coğrafya kontrolü: `rusya`'nın `devletler.js` kaydı `f:"1547-01-16"`
+ile başlıyor (kullanıcının baktığı 1541-1545 penceresinden SONRA) ama
+`yerlesimler*.js`'te `d:"rusya"` ile boyalı 125 dönemin en erkeni **`f:"1281-01-01"`**
+— yani atlas epok damgasıyla, devlet kaydından çok önce boyanmaya başlıyor
+(`ERKEN yön` — bilinen ve kasıtlı tasarım, bkz. denetim raporunun C bölümü).
+Sonuç: **evet, `rusya` ve `macaristan`/`macaristan-habsburg` 1541-1545'te
+haritada aynı anda görünüyor**, kullanıcının şikâyeti doğrulandı.
+
+Üçüncü yeşile dair: Macaristan'a coğrafî olarak komşu kimliklerden `bogdan`
+(#6b9e8a, Boğdan/Moldavya) da yeşilimsi ama ΔE≈81 — `rusya` kadar keskin bir
+çakışma değil, ayırt edilebilir olması beklenir ama kesin değilim (renk algısı
+Oturum 16'nın işi). `erdel`'in ise `renkler.py`'de hiç kendi rengi yok (boyanmıyor).
+
+**Öneri Oturum 16'ya:** `macaristan`/`rusya` ikilisinden birinin hex'i
+değiştirilmeli, ΔE en az ~25-30'a çıkarılmalı (projenin kendi 5 yeni renk
+seçiminde kullandığı eşiğe bakılırsa).
+
+### 4) Altı kimliğin `harita:` bağlantısı — 5/6 teyit edildi, `turkmen` kasıtlı hariç
+
+Denetim aracının "harita: karşılığı OLMAYAN kimlikler" uyarısı yeniden kontrol
+edildi: `cimma`, `darfur`, `kaffa`, `sidamo`, `vollayta` artık listede YOK —
+EK OTURUM 3'teki ekleme doğru çalışmış, kapanmış. `turkmen` hâlâ listede,
+beklenen (devletsiz boy, kasıtlı olarak kayıt açılmadı).
+
+**Yan bulgu (görev kapsamı dışı, ek olarak kapatıldı):** aynı uyarıda artık
+`turkmen`'e ek olarak **`abdulkadir`** ve **`katar`** de "harita: karşılığı yok"
+diye çıkıyordu — bunlar önceki denetim raporunda (30 Temmuz) yoktu, muhtemelen
+Oturum 16 aradan yeni renk eklemiş.
+- `katar`: mevcut `katar` kaydımda (Parti 6 eki, körfez şeyhlikleri, id birebir
+  aynı) `harita:` alanı gerçekten eksikmiş — tek satır `harita:"katar"` eklenip
+  kapatıldı, kendi dosyam olduğu için araştırma gerektirmedi.
+- `abdulkadir`: `devletler.js`'te **hiç kayıt yok** (Emîr Abdülkādir Devleti,
+  Cezayir direniş devleti — BOYALAR'da `#26a69a` rengi tanımlı ama katalog
+  boş). Yeni kayıt açmadım; tarih/kaynak doğrulaması gerektiren bir görev,
+  kapsam dışı, merkez oturuma yeni bir boşluk olarak flagliyorum.
+
+**Doğrulama (bu ek sonrası, iki düzenleme: akkoyunlu `t`/kronoloji + katar
+`harita:`):**
+```
+kayit: 240 | harita eslesmesi olan: 119 | tekrar id: 0
+```
+`data/devletler.js` dışında hiçbir dosyaya dokunulmadı. Commit/push yapılmadı.
+Merkez oturuma bildirildi.

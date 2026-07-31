@@ -332,8 +332,8 @@ window.DEVLETLER = [
 // ================= TIER 2b — DOĞU ANADOLU / İRAN SINIRI DEVLETLERİ =================
 
 { id:"akkoyunlu", ad:"Akkoyunlu Devleti", tur:"devlet", bolge:"iran",
-  f:"1340-01-01", t:"1501-01-01", baskent:"Diyarbekir → Tebriz", harita:"akkoyunlu",
-  ozet:"Uzun Hasan döneminde Fatih'e meydan okuyan Türkmen devleti; Safevîler tarafından yıkıldı.",
+  f:"1340-01-01", t:"1514-01-01", baskent:"Diyarbekir → Tebriz", harita:"akkoyunlu",
+  ozet:"Uzun Hasan döneminde Fatih'e meydan okuyan Türkmen devleti; Tebriz'i Safevîlere kaybettikten sonra Diyarbekir'de bir hanedan kalıntısı olarak sürdü, 1514'te Murad'ın ölümüyle tükendi.",
   kronoloji:[
     { t:"1340-01-01", tur:"kurulus", b:"Tur Ali Bey tarafından Diyarbekir bölgesinde kuruldu" },
     { t:"1378-01-01", tur:"hukumdar", b:"Kara Yülük Osman Bey (Tur Ali Bey'in soyundan) tahta çıktı, devleti bölgesel güç hâline getirdi" },
@@ -344,7 +344,9 @@ window.DEVLETLER = [
     { t:"1473-08-11", tur:"savas", b:"Otlukbeli'de Fatih'e yenildi" },
     { t:"1478-01-06", tur:"hukumdar", b:"Uzun Hasan öldü" },
     { t:"1481-01-01", tur:"antlasma", b:"Yakub Bey, Hasan Padişah Kanunnâmesi ile idareyi yeniden düzenledi" },
-    { t:"1501-01-01", tur:"son", b:"Şah İsmâil (Safevî) tarafından yıkıldı" }
+    { t:"1501-01-01", tur:"toprak-kayip", b:"Şah İsmâil (Safevî) Tebriz'i alarak hânedanın merkezî iktidarına son verdi; Elvend Diyarbekir'de hüküm sürmeyi sürdürdü" },
+    { t:"1505-01-01", tur:"hukumdar", b:"Elvend Âmid'de (Diyarbekir) öldü" },
+    { t:"1514-01-01", tur:"son", b:"Murad'ın ölümüyle hânedan tamamen sona erdi" }
   ]
 },
 { id:"karakoyunlu", ad:"Karakoyunlu Devleti", tur:"devlet", bolge:"iran",
@@ -1707,7 +1709,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"katar", ad:"Katar (Âl Sânî Şeyhliği)", tur:"devlet", bolge:"arabistan",
-  f:"1868-01-01", t:"1923-10-29", baskent:"Devha (Doha)",
+  f:"1868-01-01", t:"1923-10-29", baskent:"Devha (Doha)", harita:"katar",
   ozet:"Benî Temîm'in bir kolu olan Âl Sânî ailesinin 1868'den itibaren öne çıktığı şeyhlik; Osmanlı 1871'de Necid vilayetine bağlı bir kaza olarak idareye dahil etti, 1916'da İngiliz himayesine geçti (1923 sonrasında da sürdü). (kaynak: TDV, madde: katar)",
   kronoloji:[
     { t:"1868-01-01", tur:"kurulus", b:"Âl Sânî ailesi (Muhammed b. Sânî) İngiltere tarafından yerel yönetici tanındı" },
