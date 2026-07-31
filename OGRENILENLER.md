@@ -1381,3 +1381,94 @@ gelene kadar** ilerlemeyi durdurur, ama ölçülen soru **hemen** cevap verir ve
 yanlış cevap veremez. Bugün "commit'li mi" sorusunun mesajla sorulan hâli iki
 kez **yanlış** cevaplandı — biri "bekliyor" (girmişti), biri "senin elin"
 (başkasınınmış).
+
+---
+
+## §38 — Ölçüm başka cevap vermeli, ama o cevap KARARI DEĞİŞTİREBİLMELİ
+
+`§34` şunu istiyordu: *"cevabı belli olan ölçüm, ölçüm değil törendir."* Bugün
+o ölçütü **geçen** ama işe yaramayan bir ölçüm çıktı ve eksik olan katmanı
+gösterdi.
+
+**Vaka.** Şehir görünürlüğü için sürücü aranıyordu. Üç aday (`g:` · `tur:` ·
+kronolojide anılma) ölçülüp elendi; dördüncü aday **petek alanı** kaldı ve
+sıradaki ölçüm *"alan dağılımı sürekli mi"* diye planlandı.
+
+O ölçüm koşulsaydı **geçecekti**:
+```
+951 peteğin 927'si benzersiz · %10: 437 km² · %50: 8.722 · %90: 77.843
+```
+Dağılım pürüzsüz. Karar *"sürekli, tasarım kapanıyor"* olacaktı.
+
+**Oysa sıralamanın kendisi tersti:**
+```
+alana göre ilk 3   Timbuktu 2.820.803 km² · Ndjamena 1.933.138 · Agadez 1.194.510
+İstanbul 750/951  ·  Bursa 879/951  ·  Kahire 605/951
+```
+İlk 30'da tek bir Osmanlı merkezi yok. Uzaklaşınca ekranda Sahra kalır,
+İstanbul kaybolurdu.
+
+**Kusur ölçümde değil, sorudaydı.** Süreklilik sınavı gerçekten iki cevap
+verebilirdi — ama **hangi cevabı verirse versin** sıralamanın ters olduğunu
+gösteremezdi. Alan gerçek sayıdır; sürekli çıkacağı baştan belliydi.
+
+> `§34`: ölçüm başka bir cevap verebilmeli.
+> **`§38`: o başka cevap, alınacak kararı değiştirebilmeli.**
+> İkisi ayrı sınavdır. Birincisi ölçümün *biçimine*, ikincisi *hedefine* bakar.
+
+📌 Pratik ayıraç — ölçümü koşmadan önce sor: **"öteki cevap çıksa ne yapardım?"**
+Cevap *"yine aynı şeyi"* ise ölçüm kararın dışındadır. Burada süreklilik
+düşük çıksa da yüksek çıksa da sürücü alan olacaktı; asıl sınav *"ilk 30'da
+kim var"* idi ve **tek satırdı.**
+
+📌 İkinci ders, aynı vakadan: **geometri önem üretemez.** Alan yakınlık değil
+**ıssızlık** ölçer; tersi de kurtarmaz (Bursa 338 km², İstanbul 1.660 —
+ters alan Bursa'yı üste koyar). Her saf geometrik sürücü *yerleşim yoğunluğu*
+ölçer. Önem editoryaldir; veri yoksa ölçümle **üretilemez**, yalnız
+**yokluğu ispatlanır.**
+
+📌 Üçüncüsü, `§35`'in tekrarı: petek alanı **komşu eklendikçe değişir.** Bugün
+951 → 965 yerleşim eklendi. Alan sıralamayı sürseydi bir yerleşim eklemek
+komşularını görünürlükte aşağı iterdi — **veri işi sessizce arayüzü oynatırdı.**
+
+---
+
+## §39 — Büyük sayı, çoğu zaman yöntemin yanlış olduğunun işaretidir
+
+Sonuç *"beklenenden çok büyük"* çıktığında ilk şüphe veriye değil **yönteme**
+gitmeli. Bugün beş vakası oldu ve **beşinde de** hatalı olan yöntemdi:
+
+```
+Pen/cape eşleşmesi  %36,7      göl filtresi  %21,3      "Plain" eşleşmesi  %18,7
+Desert eşleşmesi    %14        medial eksen sapması  697 km (gerçek: 2 km)
+```
+
+📌 Sebep: yanlış yöntem genellikle **fazla** eşleştirir, **fazla** kapsar,
+**fazla** kesişir. Doğru yöntem seçicidir. Bu yüzden şaşırtıcı derecede yüksek
+bir oran, şaşırtıcı derecede düşük bir orandan **daha** şüphelidir.
+
+⚠️ Ve tersi tuzak: büyük sayı bazen doğrudur (`isg:` 55 kayıt gerçekten 55'ti).
+Ölçüt *"sayı büyük"* değil, **"sayı, yöntemin seçici olmadığını gösteriyor"**.
+
+---
+
+## §40 — Bir mekanizmanın verisinin ÜRETİLİYOR olması, ÇİZİLİYOR olması değildir
+
+(COĞRAFYA'nın tespiti.) `serbest-hale` sönen kenarı **üç üretim koşusu boyunca**
+hesaplandı, dosyaya yazıldı, hiç çizilmedi. Üç ayrı sessiz kusur üst üsteydi:
+katman tanımı `addLayer`'da patlıyordu, kaynak hiç beslenmiyordu, `SERBEST_U`
+yazılmıyordu. **Hiçbiri hata vermedi.**
+
+Aynı gün üç vakası daha: görünmeyen `isg:` örtüsü (tüketicisi vardı,
+**üreticisi yoktu**), `404: Not Found` içerikli lisans dosyası, boyasız 237 madde.
+
+> **"Yazılmış görünüyor, çalışmıyor."** Bu projenin en sık kusur sınıfı —
+> ve **hiçbir denetim** yakalamadı, çünkü denetimler *verinin doğruluğuna*
+> bakıyor, *tüketildiğine* değil.
+
+📌 Karşılığı: her yeni `window.X` için **tüketicisi de** ölçülmeli —
+`X.length > 0` **ve** çizen katmanın haritada var olması. Üretim izi yetmez.
+
+📌 Ve COĞRAFYA'nın bir üst basamağı: **"denetim, ölçtüğü şeyi ortadan
+kaldırabiliyorsa ölçmekten iyidir."** Sönen kenarı her koşuda saymak yerine
+üretimi çizime bağlayan tek bir bağ, kusuru **var olamaz** hâle getirir.
