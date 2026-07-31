@@ -41,7 +41,8 @@ dayanaktır — çünkü su tanımı değişince değişir.
 | 3 | **Çöl tavanı 300 km** (kullanıcı kararı) | **çöl poligonu** sayısı + sahipsizleşen alan | 31 poligon · 3,59 milyon km² | MOTOR · COĞRAFYA |
 | 4 | **`kur:` devri = 6 komşu OY BİRLİĞİ** (kurulmamış peteğin boşluğu kusur mu) | **kalıcı boşluk** sayısı ve komşu oy dağılımı | 12 boşluk · hisarlar 6/6 bizans · Kuveyt 5/6 | MOTOR |
 | 5 | **Şehir görünürlüğü: üç sinyal sürücü, alan son eşitlik kırıcı** | **en büyük ortak kova** (`g:`+`tur:`+anılma) | 299 / 965 | ARAYÜZ |
-| 6 | aynı karar — alanı sürücü olmaktan çıkaran ölçüm | **alana göre sıralamada İstanbul'un yeri** | 750 / 951 | KOORDİNATÖR |
+| 6 | aynı karar — alanı sürücü olmaktan çıkaran ölçüm | **alana göre sıralamada İstanbul'un yeri** | 750 / 951 ⚠️ 951 tabanlı | KOORDİNATÖR |
+| 6b | aynı karar — alanın eşitlik kırıcı olarak KALMASI | **ardışık alan farkı gürültüde** olan çift sayısı | 290'da 2 (%0,7) ⚠️ 291 petek üzerinden | ARAYÜZ |
 | 7 | **Kronoloji süzgeci `k:` alanını kullanır, `etiket:`i değil** | **çok değerlilik**: `k:` dizi sayısı vs `etiket:` ortalaması | `k:` 0 dizi · `etiket:` ~1,7/madde | ARAYÜZ |
 | 8 | **Zaman çizgisi yoğunluk göstergesi TABANI anlatır, süzgeç etkisini değil** | **dilimler arası dengesizlik** oranı | 28,8× (5 ↔ 144 madde) | ARAYÜZ |
 | 9 | **Coğrafya ekseni etiketi = tarihî bölge adı** (kullanıcı kararı) | **çözülmeyen `yer:`** sayısı + NE kapsaması | 327 çözülmeyen · %99,8 kapsama ama siyasî etiketli | U4 · DENETÇİ |
@@ -54,6 +55,7 @@ dayanaktır — çünkü su tanımı değişince değişir.
 | tarih | değişen sayı | çürüyen karar | nasıl yakalandı |
 |---|---|---|---|
 | 31 Tem 2026 | su kümesi 41 → 329 parça (MOTOR, haklı gerekçe) | çöl tavanı muafiyetinin YERLEŞİM bazlı olması | **Yakalanmadı — koşuldu.** MOTOR (B)'yi üretip Timbuktu'nun 1.475 km muaf çıktığını ölçünce görüldü. Bir koşu bedeli. |
+| 31 Tem 2026 | yerleşim 951 → 965 (YAMACI, 8 paket) | **petek tabanına dayanan HER alan ölçümü**: `data/petek_govde.js` hâlâ 951 kayıtlık | ⚠️ **Bayat, ama sonuç değişmiyor.** ARAYÜZ yakaladı (299'un 8'inin peteği yok). Etkilenen: 6 ve 6b. 14 yerleşim İstanbul'u 750/951'den başa taşıyamaz, sonuç ayakta. **Sıradaki petek koşusu kapatır.** |
 
 📌 Bu satırın burada durmasının sebebi: kusurun **bedeli** yazılmazsa kural
 "iyi fikir" kalır. Bir üretim koşusu ≈ 40 dakika.
