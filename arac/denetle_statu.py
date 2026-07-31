@@ -381,23 +381,35 @@ def e_etiket_anakronizmi(Y):
 # söyler ve kararı veri sahibine bırakır:
 #     belge ✗ · arayüz ✓   → ÇELİŞKİ, karar gerekiyor
 #     belge ✓ · arayüz ✗   → arayüz eksik (değer çiziliyor ama simgesiz)
+# ⚠️ SÖZLÜKLERİN ÜÇÜ DE KAYNAĞINDAN OKUNUR, HİÇBİRİ BURAYA KOPYALANMAZ.
+# İlk yazımda belge sözlüğü elle yazılmış bir demetti — yani bu denetim,
+# ONU DOĞURAN HASTALIĞIN ÜÇÜNCÜ NÜSHASINI kendi içinde üretiyordu: bayat
+# bir sözlük daha. Koordinatör `VERI-YAPISI.md`:38'i güncellediği an benim
+# demetim yanlışa düşecekti ve denetim "belge ✗" diye yanlış rapor verecekti.
+# Şimdi üçü de canlı okunuyor; biri değişince denetim kendiliğinden öğrenir.
 ALAN_OTORITELERI = {
-    # alan: (belgedeki sözlük, arayüz sözlüğünü çıkaran desen, dosya)
-    "y": (("savas", "kusatma", "antlasma", "miras", "ilhak"),
+    # alan: (belge satırını bulan desen, arayüz sözlüğünü çıkaran desen, dosya)
+    "y": (r"^\|\s*`y`\s*\|(.*)$",
           r"var YONTEM_SIMGE\s*=\s*\{([^}]*)\}", "js/app.js"),
 }
 
 
 def f_alan_sozlugu(Y):
     """(satirlar) — her `y:` değeri için üç otoritenin ne dediği."""
-    belge, desen, dosya = ALAN_OTORITELERI["y"]
-    arayuz = set()
+    belge_deseni, desen, dosya = ALAN_OTORITELERI["y"]
+    belge, arayuz = set(), set()
     try:
+        vy = open(os.path.join(KOK, "VERI-YAPISI.md"), encoding="utf-8").read()
+        m = re.search(belge_deseni, vy, re.M)
+        if m:
+            belge = set(re.findall(r"`(\w+)`", m.group(1)))
         kaynak = open(os.path.join(KOK, dosya), encoding="utf-8").read()
         m = re.search(desen, kaynak)
         if m:
             arayuz = set(re.findall(r"(\w+)\s*:", m.group(1)))
     except Exception:
+        return None
+    if not belge or not arayuz:
         return None
     kullanim = {}
     for y in Y:
