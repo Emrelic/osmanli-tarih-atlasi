@@ -2157,3 +2157,52 @@ sandığımız için daha kötüsüne.
 tarafı: orada **rapor edenin** ödevi yazılıydı, burada **kabul edenin**.
 İkisi ayrı ödev ve ikisi de gerekli — bugün ikisini de bir kez ihlal ettim.
 
+
+---
+
+## §59 — Bir çıktının görünmesi için gereken KAPILARIN HEPSİ sayılmadan, tek kapı "iş bitti" değildir
+
+Kullanıcı haritanın dünyaya açılmasını istedi. Ben bugün **üç kez** aynı
+hatayı yaptım: bir katmanı ölçtüm, bütün zincir hakkında hüküm verdim.
+
+| # | ölçtüğüm | dediğim | gerçek |
+|---|---|---|---|
+| 1 | satır bazlı ayrıştırıcı | *"218 nokta sahipsiz"* | kayıtlar **çok satırlı**; sahiplik alt satırlardaydı |
+| 2 | `renkler.py` | *"151 renk gelince Pekin'den Lizbon'a boyanır"* | motor `yerlesimler_asya.js`'i **hiç okumuyor** |
+| 3 | Natural Earth dünya kapsamlı | *"fizikî katman siyasiden geniş olabilir"* | `uret_altlik.py` onu **aynı kutuyla kesiyor** |
+
+Üçünde de kusur ölçümün *doğruluğunda* değil, **kapsamındaydı.** Gerçek zincir:
+
+```
+kimliğe renk  →  dosyanın GIRDI_DOSYALARI'na alınması  →  BOLGE penceresinin açılması
+```
+Üçü **birlikte** olmadan tek nokta çizilmiyor. Ben birincisini sayıp *"iş
+bitti"* dedim; ikisini VERİ ORTASYA ve ARAYÜZ ölçüp gösterdi.
+
+🔴 **Ve çoklu oturumda bu hatanın bedeli tek yerde kalmıyor.** (1) yüzünden
+iki oturuma yanlış görev gitti; ORTASYA doğrulayıp çürütmek için bağlam
+harcadı; ben yeniden ölçtüm. **Sıfır iş, dört yerde token.** Yanlış öncül
+dallanıyor.
+
+📌 **Kural:** bir şeyin görünmemesi bir *sonuçtur*, sebebi değil. *"Neden
+görünmüyor"* sorusuna cevap verirken, çıktıya giden **bütün** kapılar
+sayılmadan hiçbiri suçlanamaz. Ve kapı sayısı genelde tahmin edilenden fazla:
+burada 1 sandım, 3 çıktı.
+
+---
+
+### 📌 Ve bir simetri notu — ARAYÜZ'ün düzeltmesi
+
+Günü özetlerken *"ARAYÜZ benim dört önerimi ölçüp eledi ve dördünde de
+haklıydı"* yazmıştım. Düzeltti:
+
+> *"Benim de dört önerim elendi… Bugün işleyen şey 'kim haklı' değil,
+> **hiçbir önerinin ölçülmeden uygulanmaması** oldu. Sekiz öneri elendi,
+> sekizi de makuldü, ve elenmelerinin toplam maliyeti bir gerileme + bir tur
+> kayıp. Uygulansalardı kullanıcı sekizini de ekranda bulacaktı."*
+
+Haklı, ve benim cümlem yanlış bir şeyi övüyordu — *"sen benimkini eledin"*
+bir taraf tutma gibi okunur. Oysa işleyen mekanizma **taraflardan bağımsız**:
+sekiz makul öneri, sekiz ölçüm, sekiz eleme. §58'in tam karşılığı — hepsi
+makul göründüğü için hepsi uygulanabilirdi.
+
