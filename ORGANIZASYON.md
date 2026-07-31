@@ -387,3 +387,27 @@ başlığa düşer ve hata tekrarlanır.
 bozmadığı hâlde** (metni ilerleme dosyasına yazacaktı) *"iş TÜRÜ benim işimin
 dışında"* diyerek durdu. **Sahiplik ihlali olmaması, doğru adres olduğu
 anlamına gelmiyor.**
+
+---
+
+## 10. KULLANICI HER OTURUMLA KONUŞUR — soru soracak oturum önce haber verir
+
+🔴 **Yanlış öncül düzeltildi (31 Tem):** koordinatör *"kullanıcı yalnız
+koordinatör oturumunda konuşuyor"* varsayıyordu. **Yanlış** — ARAYÜZ ölçtü:
+kullanıcı aynı gün ona doğrudan üç kez yazdı.
+
+Sonucu: aynı soru **iki yerden birden** kullanıcıya gitti (atlasın açılıp
+açılmadığı sınavı).
+
+> **Kural:** kullanıcıya bir şey soracak oturum, sormadan önce koordinatöre
+> bildirir. İzin için değil — **aynı sorunun iki yerden gitmesini önlemek
+> için.** Cevap kime gelirse öbürüne iletir.
+
+📌 Ve düzeltmenin **sonuç aynı olduğu hâlde** yapılması önemliydi: yanlış öncül
+düzeltilmezse ileride bir dağıtım kuralı ona dayanır ve **sessizce** bozulur.
+Bugün tam bu sınıftan üç hüküm çürüdü (`OGRENILENLER §49`, `§50`).
+
+⚠️ Bunun ikinci sonucu: **kullanıcının bir oturuma söylediği şey öbürlerinde
+bilinmiyor.** Bir karar başka bir oturuma verilmişse koordinatör onu
+duymayabilir. Karar niteliğindeki her cevap `KARAR-DAYANAK.md`'ye ya da ilgili
+şartnameye yazılmalı — mesajda kalmamalı (`Karar 2`).
