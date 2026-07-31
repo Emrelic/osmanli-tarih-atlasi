@@ -1348,3 +1348,36 @@ disiplin ister; `-o` yapısal olarak çözer.
 📌 Ve bu, §35'in kardeşi: **doğru refleks (tek tek `add`) ölçümün yerini
 tutmadı.** Kural uygulandı, sonuç yine yanlış oldu, çünkü kural yanlış yeri
 koruyordu. Bir kuralın "uygulandı" olması, "işe yaradı" demek değil.
+
+## §37 — "Yaptın mı?" bir mesaj sorusu değil, ÖLÇÜM sorusudur
+
+Bugün üç kez, bir işin commit'lenip commit'lenmediğini bilmediğimiz için iş
+durdu ya da yanlış hüküm verildi:
+- MOTOR *"sönen kenar commit'i ARAYÜZ'de bekliyor"* diye çöl tavanı koşusunu
+  bekletti — commit **iki saat önce girmişti**.
+- `uret_altlik.py`'deki bir yorumun yazarını üç oturum tartıştı.
+- Ben bir oturuma *"blokajın kalktı"* dedim, blokaj hiç yoktu.
+
+Üçü de **mesajla sorulmuş**, üçü de **tek komutla ölçülebilirdi**:
+
+```bash
+git merge-base --is-ancestor <sha> HEAD     # commit'li mi
+git rev-parse HEAD  ==  git rev-parse origin/main   # yayında mı
+git show HEAD:<dosya> | grep <belirti>      # gerçekten içinde mi
+```
+
+⚠️ Üçü de **okuma**. Dosya sahipliği kuralını hiç ihlal etmiyor — başkasının
+dosyası hakkında *"durum ne"* diye sormak yerine **bakılabilir.**
+
+> `ORGANIZASYON Karar 2`'nin ("durum mesajla değil dosyayla akar") **git hâli**:
+> **"Yaptın mı?" diye sorma — `git`'e sor.**
+> Mesaj kuyruğa girer, tur bekler, yanlış hatırlanır. `git` üçünü de yapmaz.
+
+📌 Ve maliyet asimetrik: soru **saniyeler** sürüyor, cevabı beklemek **saatler**.
+Bugün bir üretim koşusu var olmayan bir blokaj yüzünden bekletildi.
+
+📌 Bunun ikinci yüzü de var ve daha sinsi: mesajla sorulan soru **cevabı
+gelene kadar** ilerlemeyi durdurur, ama ölçülen soru **hemen** cevap verir ve
+yanlış cevap veremez. Bugün "commit'li mi" sorusunun mesajla sorulan hâli iki
+kez **yanlış** cevaplandı — biri "bekliyor" (girmişti), biri "senin elin"
+(başkasınınmış).
