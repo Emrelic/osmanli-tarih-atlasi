@@ -198,6 +198,16 @@ kural, olmayan kuraldan kötüdür — çünkü "yazılıydı" diye güven verir
 | **`YAPILACAKLAR.md`** | Sıradaki işler, sahibi ve ölçülmüş gerekçesiyle | ✅ var |
 | **`OGRENILENLER.md`** | Ölçülmüş dersler (bugün 29 madde) | ✅ var |
 | **`MIMARI.md`** + `VERI-YAPISI.md` | Şema, değişmezler, veri sözleşmeleri | ✅ var |
+| **`KARAR-DAYANAK.md`** | Açık kararlar ve **yaslandıkları sayılar** — okunmaz, ARANIR | 🆕 31 Tem |
+
+🔴 **Yedinciyi eklerken kendi kuralımı çiğniyor muyum?** Hayır, ve ayrım
+kullanım biçiminde: yukarıdaki altı defter **okunur**, `KARAR-DAYANAK.md`
+**grep'lenir.** Girdi kümesi değiştiren oturum tek satır arar:
+`grep -n "su kümesi" KARAR-DAYANAK.md`. Bu yüzden `ORGANIZASYON.md`'ye
+katılamaz — burası baştan sona okunan bir dosya, arama hedefi ise **kısa ve
+sabit** olmak zorunda. Karar kapanınca satır **silinir**; defter uzarsa
+kimse aramaz, aranmayan defter yoktur.
+📌 Gerekçesi ölçülmüş: `OGRENILENLER §41`, bedeli **bir üretim koşusu (~40 dk)**.
 
 **Birleştirilenler ve sebebi:**
 - *Çalışma kuralları* → `ORGANIZASYON.md`'ye girdi; ayrı dosya olsa kimse iki
