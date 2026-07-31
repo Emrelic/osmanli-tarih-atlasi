@@ -49,7 +49,7 @@ dayanaktır — çünkü su tanımı değişince değişir.
 | 11 | **Engel ölçüsü = TIRMANIŞ** (min-yol üzerindeki max yükseklik − yüksek uç), zirve yüksekliği değil (kullanıcı kararı) | **engel eşiği — MİNİMAX** (m) | **50 m zayıf · 200 m güçlü** (25-75 km: %45→%71→%86) ⚠️ %35 kapsam · 30″ max havuzlama = ÜST SINIR | COĞRAFYA |
 | 11b | ⚠️ **KARIŞTIRMA:** 11'deki eşik MİNİMAX tırmanıştır (bütün yollar arasında en kolayı). Ayrı bir sayı olan **düz hat** ölçüsü — 200/500/1000 m — aynı şey DEĞİL | **düz hat engeli** (azamî kot − yüksek uç) | 200 m başlangıç · 500 m güçlü · 1000 m doyma | COĞRAFYA |
 | 12 | **DEM üretimi TÜM PENCERE** (~4,1 saat), kısmî değil (kullanıcı kararı) | **dağ bloğu / tam pencere süre oranı** | 2× (112 dk ↔ 246 dk) — ilk sunulan 17× YANLIŞTI | COĞRAFYA |
-| 13 | **`scalerank ≤ 7` nehir genişletmesi BEKLEMEDE** — yön tartışmalı | **büyük nehir kesen çiftlerde ayrışma** (mesafe sabit) | %30 ↔ nehir yok %54 — nehir sınır değil BÜTÜNLÜK ⚠️ %29 kapsam, örneklem Nil 24 + Fırat 18 ağırlıklı | COĞRAFYA · MOTOR |
+| 13 | **`scalerank ≤ 7` nehir genişletmesi BEKLEMEDE** — yön tartışmalı | **büyük nehir kesen çiftlerde ayrışma** (mesafe sabit) | **%7 ↔ nehir yok %61** (MİNİMAX, 25-75 km) — nehir sınır değil BÜTÜNLÜK · kapsam %84 (2.253 çift) ⚠️ etki 150 km ötesinde KAYBOLUYOR · BÜYÜK grup n=27 | COĞRAFYA · MOTOR |
 | 10 | **Altlık kademeli geçiş — Esri altıncı seçenek, varsayılan KAPALI** | **motorun gördüğü nehir** ile dosyanın tamamı arasındaki fark | 41 ↔ 329 parça | ARAYÜZ · COĞRAFYA |
 
 ---
