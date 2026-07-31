@@ -19,6 +19,7 @@ Kullanım:
 import argparse
 import json
 import os
+import re
 import sys
 
 import numpy as np
@@ -30,12 +31,31 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from denetle import yerlesimleri_yukle  # noqa: E402 — arac/ içindeki kardeş modül; stdout UTF-8 sarmalamasını da bu import yapar
 
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-# uret_petek.py'deki BASEMAPS ve BOLGE ile birebir aynı olmalı (o dosyanın 36 ve
-# 40. satırları). Burada KOPYALANMIŞTIR, uret_petek.py DEĞİŞTİRİLMEZ/ÇALIŞTIRILMAZ.
-# Not: BASEMAPS bir önceki oturumda geçici bir klasöre bakıyordu; entegrasyon
-# oturumu Natural Earth verisini depoya aldı (bkz. veri-kaynak/), artık kalıcı.
 BASEMAPS = os.path.join(KOK, "veri-kaynak")
-BOLGE = box(-12, 1.5, 62, 62)
+
+# 🔴 BOLGE ARTIK KOPYALANMIYOR — MOTORUN KAYNAĞINDAN OKUNUYOR.
+# Eski hâli `box(-12, 1.5, 62, 62)` diye elle yazılmıştı ve yorumu bunu
+# "KOPYALANMIŞTIR" diye itiraf ediyordu. Kullanıcı haritanın Orta Asya /
+# Hindistan / Çin / Kuzey İskandinavya yönünde açılmasını istedi; MOTOR
+# pencereyi genişlettiği an o satır ÇÜRÜYECEK ve bu denetim ESKİ pencereyle
+# ölçüp "kapsama tam" diyecekti.
+#
+# ⚠️ Sınıfın adı: YAYINI DOĞRULAYAN ARAÇ, DOĞRULADIĞI ŞEYDEN GERİDE KALIR
+# VE BUNU SÖYLEMEZ. Bugün aynı ailenin üç üyesi çıktı — bayat rapor, bayat
+# tavan, bayat sözlük — ve üçünün de çaresi aynıydı: kaynaktan oku, kopya tutma.
+# Desen `uret_altlik.py:58-61`'den alındı; orada zaten böyle çözülmüştü.
+_UP = os.path.join(KOK, "arac", "uret_petek.py")
+try:
+    _src = open(_UP, encoding="utf-8").read()
+    _m = re.search(r"^BOLGE\s*=\s*box\(([^)]+)\)", _src, re.M)
+    if not _m:
+        raise ValueError("BOLGE satırı bulunamadı")
+    BOLGE = box(*[float(x) for x in _m.group(1).split(",")])
+except Exception as _e:
+    # ⚠️ SESSİZCE ESKİ DEĞERE DÜŞME. Ayrıştırma başarısızsa denetim
+    # ölçemiyordur; ölçemeyen denetim, temiz denetim değildir.
+    raise SystemExit("!! BOLGE uret_petek.py'den okunamadı (%s) — "
+                     "denetim ölçemez, düzeltilmeden koşturulmamalı" % _e)
 R_DUNYA = 6371.0088
 
 # Bölge özeti — kaba, birbirini kesmeyen dikdörtgen kutular; yalnız raporu
