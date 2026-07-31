@@ -745,6 +745,20 @@ harita.on("load", function () {
     // taramasıyla karışmasın diye ayna simetrisi seçildi.
     '<span><i style="background:linear-gradient(-45deg,#8e0b22 0 62%,#555 62% 100%);background-size:8px 8px"></i> İşgal altında (nominal sahibi değişmemiş)</span>' +
     '<span><i style="background:none;border-top:3px solid #6d0d1c;height:0;align-self:center"></i> İmparatorluk sınırı (ikisini birlikte)</span>' +
+    // 🔴 SÖNEN KENAR — ÖLÇÜLMÜŞ BİR ŞİKÂYETİ KAPATIYOR.
+    // Kullanıcı 1326 ve 1331'de "iki ayrı kırmızı" gördü ve kusur sandı; ayrıca
+    // "soluk kırmızı oka benzeyen yapılar" ve "Karadeniz köşesinde yuvarlak
+    // hüzme" yazdı. Üçü de bu katman. Ölçüldü (Bitinya kutusu, lon 28,5-31,5 ·
+    // lat 39,5-41,5):
+    //     1300 → kutuda 0 hat        1326 → 1 hat, u 15,9 km
+    //     1331 → 2 hat, u 9,6-19,6   1350 → 2 hat
+    // Rengi Osmanlı dolgusunun TAM KENDİ kırmızısı (#8e0b22), %45 opaklık ve
+    // bulanık: dolgunun üstüne binince ikinci, açık bir ton olarak okunuyor.
+    // Genişlik u·2^z/67,8 — z5'te ~7,5 px.
+    // ⇒ Kusur değil, ANLATILMAMIŞ ÖZELLİK. Görünen her yeni şey lejanta
+    // girmezse kusur diye rapor ediliyor; bu satır tam onun için.
+    '<span><i style="background:linear-gradient(90deg,rgba(142,11,34,.55),rgba(142,11,34,0));' +
+    'filter:blur(1px)"></i> Belirsiz sınır — çöl/devletsiz alana açılan kenar</span>' +
     '<span><i style="background:none;border-top:2px dashed #5a3a24;height:0;align-self:center"></i> Bölge sınırı (yakınlaşınca)</span>' +
     '<span><i style="background:linear-gradient(90deg,#8877b8,#4e7d46,#4f7d4f,#b5885b)"></i> Komşu devletler (kendi renkleri)</span>' +
     '<span id="alan-goster"></span>';
