@@ -365,8 +365,49 @@ etiketleri aynı `yerlesen` kutu dizisiyle eleniyor ve ölçümü
 
 ⚠️ Sınama **dağılımla** yapılacak (§33): her zoom kademesinde kaç işaret
 görünüyor — "kalabalık değil" ölçüm değildir.
-⏳ Ölçülmedi: 846 kaydın petek alanı dağılımı gerçekten sürekli mi. Bir
-sonraki ölçüm bu.
+### 🔴 DÜZELTME — sıralamayı TERS kurmuşum
+
+Yukarıdaki öneride *"sürücü alan, üç sinyal eşitlik kırıcı"* yazmıştım.
+**Yanlış.** Koordinatör petek gövdelerini ölçtü: alan **yakınlık değil
+ıssızlık** ölçüyor — Timbuktu 2.820.803 km² ile birinci, İstanbul 750/951,
+Bursa 879/951. İlk 30'da tek Osmanlı merkezi yok.
+
+⚠️ Ve planladığım *"alan dağılımı sürekli mi"* ölçümü bunu **yakalayamazdı**:
+951'in 927'si benzersiz, yüzdelikler pürüzsüz — sınav GEÇİYOR, tasarım tersken.
+Alan gerçek sayıdır, sürekli çıkacağı baştan belliydi.
+📌 **`§34`'e eklenen kat:** ölçümün farklı cevap verebilmesi yetmez, **verdiği
+cevap kararı değiştirebilmelidir.**
+
+**Doğrusu roller ters:** üç sinyal **sürücü**, alan yalnız kova **içinde**
+eşitlik kırıcı. Ölçüldü:
+
+```
+üçlü kova (g:, tur:, anılma) — app.js'in kendi eşleştirme ölçütüyle
+  965 kayıt · 46 ayrı kova · EN BÜYÜK ORTAK KOVA 299 (g:0, sehir, anılma 0)
+  846 kümesi · 19 ayrı kova · aynı 299 · ilk üç kova 482 (%57)
+  ⇒ üç sinyal birlikte en kötü kovayı 846 → 299'a indiriyor (%65)
+
+karşı örneklerin yeri:
+  Timbuktu · Agadez · Ndjamena   g:0 sehir anılma 0    → EN ALT kova
+  İstanbul                       g:3 sehir anılma 249  → EN ÜST kova
+  Bursa · Edirne  g:3 anılma 26        Kahire  g:2 anılma 26
+```
+
+⇒ Sözlük sıralamasında (**önce kova, sonra kova içinde alan**) ters örneklerin
+tamamı çözülüyor: Timbuktu en son beliren gruptadır, İstanbul ilk. Alan
+kovalar **arasında** hiç karar vermez.
+
+Bu, "alan komşu eklendikçe değişir" itirazını da zararsızlaştırıyor: alan artık
+yalnız en düşük öncelikli kovanın **iç sırasını** belirliyor, kimin görüneceğini
+değil.
+
+⇒ **Editoryal `g:` doldurma işi gerekmiyor.** 299'un tek kovada olması sorun
+değil çünkü o kova **en sondaki**: bu kayıtlar yalnız en yüksek yakınlaştırmada,
+ekranda yer varken beliriyor.
+
+⏳ **Kalan tek sınav (panel gerekiyor):** her zoom kademesinde ekranda kaç
+işaret kalıyor — z5/z6/z7/z8 dağılımı. Çakışma elemesinden sonra en yüksek
+zoom'da 299 kalabalık yapıyorsa bu tasarım düşer.
 
 ## ⏳ Bloke — görsel doğrulama
 
