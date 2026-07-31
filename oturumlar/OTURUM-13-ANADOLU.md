@@ -1095,3 +1095,94 @@ değil. İkisi Boğdan gibi kara ile çevrili bir gövdede birbirine yakın çı
 Ölçüm aracı bu turda `scratchpad/`de kaldı. Kalıcı olması isteniyorsa yeri
 `arac/`dır ve sahibi Oturum 6'dır (`denetle.py`'nin yanına, yedinci kontrol
 olarak — "hangi sınır cetvelle çizilmiş" sorusu artık otomatik sorulabilir).
+
+---
+
+## 22. `§22-DÜZELTME` ile çelişki — kutu, kusuru yok etmiyor **seyreltiyor**
+
+Bu bölüm yazıldıktan sonra `OGRENILENLER.md`'ye **§22-DÜZELTME** eklendi
+(`162b835`). Sonucu: *"Kırım iç sınırı D2 ile 95,6-107,6; daha önce kayda geçen
+**32,5 ve 62,8'in ikisi de artefaktmış**; sınırın kabalığı diye bir sorun yok."*
+
+Benim §21.3'teki ölçümüm D2'dir (`O.boundary ∩ V.boundary`, segment kümesi
+kesişimi — kıyı hiç kullanılmaz, tampon parametresi **yoktur**) ve aynı gün için
+**32,3** veriyor. İki D2 ölçümü 3 kat ayrı düşemez; birinde tanım farkı var.
+§22-DÜZELTME'nin kendi dersi gereği bunu bırakmıyorum.
+
+### 22.1 Tanı — kutu
+
+Aynı araç, aynı gövde çifti (`OSMANLI ↔ TABI`), **yalnız kutu değişerek**:
+
+| Kutu | Gün | km | Kenar | Köşe | kenar/1000km | köşe/1000km |
+|---|---|---|---|---|---|---|
+| **32,4 · 44,3 · 36,7 · 46,3** (yarımada) | 1600 | 154,7 | **5** | 9 | **32,3** | 58,2 |
+| 32,4 · 44,3 · 36,7 · 46,3 | 1700 | 152,2 | 4 | 8 | 26,3 | 52,5 |
+| 30 · 44 · 40 · 48 (orta) | 1600 | 214,5 | 16 | 25 | 74,6 | **116,5** |
+| 30 · 44 · 40 · 48 | 1700 | 255,4 | 22 | 26 | 86,1 | **101,8** |
+| 28 · 43 · 42 · 50 (geniş) | 1600 | 466,3 | 34 | 48 | 72,9 | **102,9** |
+| 28 · 43 · 42 · 50 | 1700 | 589,1 | 46 | 51 | 78,1 | 86,6 |
+
+§22-DÜZELTME'nin **95,6-107,6**'sı, geniş kutulardaki **köşe** sütunuma
+(86,6-116,5) düşüyor. Yani iki ölçüm arasında **iki fark birden** var: kutu
+(yarımada / bozkır dahil) ve birim (kenar / köşe).
+
+⚠️ **Yuvarlama şüphesini eledim.** `toFixed`'i 6'dan 2'ye kadar değiştirdim;
+ortak kenar **her hassasiyette aynı 5 kenar / 154,7 km** çıkıyor. Kaçırdığım
+kenar yok.
+
+### 22.2 🔴 Ama asıl bulgu tabloda değil — **tek bir 127 kilometrelik düz çizgi**
+
+Yarımada kutusundaki ortak kenarın parçalarını uzunluğa göre döktüm:
+
+| Uzunluk | Başlangıç (lon, lat) | Bitiş |
+|---|---|---|
+| **127,4 km** | **34,643 · 44,775** | **34,435 · 45,911** |
+| 17,6 km | 33,187 · 46,290 | 33,075 · 46,152 |
+| 4,1 km | 34,423 · 46,008 | 34,435 · 46,044 |
+| 3,2 km | 32,989 · 46,045 | 32,969 · 46,020 |
+| 2,5 km | 34,435 · 45,911 | 34,445 · 45,932 |
+
+**154,7 kilometrenin 127,4'ü TEK BİR SEGMENTTİR.** Bir segmentin iki ucu vardır;
+yani o 127 kilometre **kusursuz düz bir çizgidir**, tanımı gereği.
+
+Ve değişmiyor — 1500 · 1600 · 1700 · 1750, dördünde de **birebir aynı iki uç
+nokta**. Sebebi belli: bu çizgi **Kefe ile Bahçesaray'ın orta dikmesidir.**
+Doğrultusunu kontrol ettim — Kefe (45,032 · 35,382) ile Bahçesaray
+(44,753 · 33,861) arasındaki vektöre tam dik. Yarımadada `d:` ve `v:` tarafında
+başka nokta olmadığı için petek sınırı **hiçbir yerde kırılmıyor**; iç sınır
+olduğu için kıyıya da yaslanmıyor, yumuşatma da tutamıyor.
+
+> ### 🔻 §22-DÜZELTME'nin sonucuna katılmıyorum
+> *"Sınırın kabalığı diye bir sorun yok"* **yarımada için doğru değil.**
+> Kullanıcının md.13'te tarif ettiği şey — *"düz kenarlı ince dikey şerit"* —
+> ekranda tam olarak bu 127 kilometrelik tek segmenttir.
+>
+> Doğru olan kısmı: `32,5` ve `62,8` sayıları **güvenilmezdi** (biri D1
+> parametresine, öbürü köşe/kenar karışıklığına bağlıydı). Ama sayıların
+> güvenilmez olması **kusurun yok olduğu anlamına gelmiyor.**
+
+### 22.3 Genel ders — kutu genişletmek ölçümü iyileştirmez, **ortalar**
+
+Yarımadanın iç sınırı 5 kenar; Pontik bozkırdaki `OSMANLI ↔ TABI` sınırı yoğun.
+İkisini tek kutuya alan ölçüm ikisinin ortalamasını verir ve **127 km'lik düz
+çizgi sayının içinde kaybolur.** Geniş kutu "sağlıklı bandın hafif altında"
+diyor; dar kutu "Libya sınıfı" diyor. **İkisi de doğru ölçüyor, biri kusurun
+üstünü örtüyor.**
+
+> 📌 `§22`'nin kalibrasyon listesine bir madde daha: **kutu, şikâyet edilen
+> sınırı ve yalnız onu kapsamalı.** Kutuyu büyütmek gürültüyü azaltmaz, kusuru
+> seyreltir. Ölçüm "bu sınır kaba mı" sorusuna cevap veriyorsa kutu o sınırın
+> kendisidir — bölgenin tamamı değil.
+>
+> Ve bu, `§22-DÜZELTME`'nin *"iki bağımsız ölçüm birbirini doğrulamaz, yalnız
+> çelişir"* uyarısının üçüncü örneğidir: bu sefer **birim de kutu da** farklıydı.
+
+### 22.4 Merkezin yedi nokta önerisine etkisi
+
+**Öneri güçleniyor.** Yarımadada `d:` tarafında iki (Kefe, Kerç), `v:` tarafında
+bir (Bahçesaray) nokta var; iç sınırı çizen tek dikme bu yüzden kırılmıyor.
+Merkezin önerdiği yedi nokta — `v:` Karasubazar · Akmescit · Gözleve · Or Kapı,
+`d:` Sudak · Balaklava · İnkirman — o tek segmenti **çok sayıda dikmeye böler.**
+
+⚠️ Ama tek başına yeterli olduğu **ölçülmedi**; kaç kenara böleceği ancak üretim
+koşulduktan sonra bilinir. Sayı vermiyorum.

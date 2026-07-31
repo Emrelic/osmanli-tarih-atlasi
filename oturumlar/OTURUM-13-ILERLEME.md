@@ -881,3 +881,60 @@ borç**, düzeltmesi tek satır: yılı 4 haneye tamamla, sonra karşılaştır.
 **Kırım'ın yedi noktası** artık uygulanabilir (kalibrasyon 3. turda çözüldü) ama
 `yerlesimler.js` benim dosyam değil — koordinat + zincir listesi yazılabilir,
 sıraya girdi.
+
+---
+
+## 2026-07-31 (5. tur) — 127 km'lik tek segment: `§22-DÜZELTME` ile çelişki
+
+Ben BÖLÜM IV'ü yazarken `OGRENILENLER.md`'ye **§22-DÜZELTME** eklendi
+(`162b835`): *"Kırım iç sınırı D2 ile 95,6-107,6; **32,5 ve 62,8'in ikisi de
+artefaktmış**; sınırın kabalığı diye bir sorun yok."*
+
+Benim §21.3 ölçümüm de D2'dir (segment kümesi kesişimi; kıyı hiç kullanılmaz,
+tampon parametresi **yoktur**) ve aynı gün **32,3** veriyor. İki D2 üç kat ayrı
+düşemez — tanı yapıldı.
+
+**Sebep: kutu.** Aynı araç, aynı gövde çifti, yalnız kutu değişerek:
+
+| Kutu | kenar/1000km | köşe/1000km |
+|---|---|---|
+| yarımada `32,4·44,3·36,7·46,3` | **32,3** | 58,2 |
+| orta `30·44·40·48` | 74,6 | **116,5** |
+| geniş `28·43·42·50` | 72,9 | **102,9** |
+
+§22-DÜZELTME'nin 95,6-107,6'sı **geniş kutulardaki köşe sütunuma** düşüyor.
+İki ölçüm arasında **iki fark birden** var: kutu ve birim. (Yuvarlama şüphesi
+elendi: `toFixed` 6→2 arasında ortak kenar hep aynı 5 kenar / 154,7 km.)
+
+### 🔴 Asıl bulgu — 154,7 km'nin 127,4'ü TEK SEGMENT
+
+Ortak kenarın parçaları döküldü: en uzunu **127,4 km**, uçları
+`34,643·44,775 → 34,435·45,911`. Bir segmentin iki ucu vardır; yani o 127
+kilometre **tanımı gereği kusursuz düz.** Ve 1500 · 1600 · 1700 · 1750'de
+**birebir aynı iki uç nokta** — hiç değişmiyor.
+
+Sebebi ölçüldü: bu çizgi **Kefe ile Bahçesaray'ın orta dikmesidir**, doğrultusu
+iki nokta arasındaki vektöre tam dik. Yarımadada `d:`/`v:` tarafında başka nokta
+olmadığı için petek sınırı hiçbir yerde kırılmıyor; **iç sınır** olduğu için
+kıyıya yaslanma da yumuşatma da tutmuyor.
+
+> **§22-DÜZELTME'nin "sınırın kabalığı diye bir sorun yok" sonucuna
+> katılmıyorum** — yarımada için doğru değil. Kullanıcının md.13'te tarif ettiği
+> *"düz kenarlı ince dikey şerit"* ekranda tam olarak bu segmenttir.
+> Doğru olan kısmı: 32,5 ve 62,8 **güvenilmez sayılardı.** Ama sayının
+> güvenilmez olması kusurun yok olduğu anlamına gelmiyor.
+
+### Ders — kutu genişletmek ölçümü iyileştirmez, **ortalar**
+
+Yarımadanın iç sınırı 5 kenar, Pontik bozkırdaki sınır yoğun. İkisini tek kutuya
+alan ölçüm ortalamayı verir ve 127 km'lik düz çizgi sayının içinde kaybolur.
+Geniş kutu "sağlıklı bandın hafif altında" diyor, dar kutu "Libya sınıfı" diyor;
+**ikisi de doğru ölçüyor, biri kusurun üstünü örtüyor.**
+
+📌 `§22` kalibrasyon listesine önerim: **kutu, şikâyet edilen sınırı ve yalnız
+onu kapsamalı.** Bu, §22-DÜZELTME'nin *"iki bağımsız ölçüm birbirini
+doğrulamaz"* uyarısının üçüncü örneği — bu sefer birim de kutu da farklıydı.
+
+**Merkezin yedi nokta önerisi güçleniyor** (o tek dikmeyi çok sayıda dikmeye
+böler) ama yeterli olduğu **ölçülmedi**; kaç kenara böleceği ancak üretimden
+sonra bilinir. Sayı vermiyorum.
