@@ -241,10 +241,21 @@ def cizilmiyor_mu():
             metin = open(yol, encoding="utf-8").read()
         except Exception:
             continue
+        yukleniyor_dosya = os.path.basename(yol) in html
         for m in re.finditer(r"^window\.(\w+)\s*=", metin, re.M):
             ad = m.group(1)
-            if ad in CIZILMEYEN_MUAF:
-                continue
+            # 🔴 MUAFİYET BOŞLUK TESTİNİ YUTAMAZ.
+            # Kural (koordinatör, 31 Temmuz): *index.html'in YÜKLEDİĞİ üretilmiş
+            # bir dosya BOŞ OLAMAZ.* Muafiyet listesi yalnız "yüklenmez" diyenler
+            # içindir. İkisi zıt yönde:
+            #     petek_govde.js  index.html YÜKLEMEZ → muaf, doğru
+            #     sirt.js         index.html YÜKLER    → muaf DEĞİL, boşsa İHLAL
+            # Sebebi ölçüldü: COĞRAFYA'nın başarısız koşusu `data/sirt.js`'i
+            # 299 bayt, `window.SIRTLAR = []` olarak yazdı. Commit edilseydi
+            # "üretiliyor" görünecek, okuyan sessizce BOŞ veri alacaktı — §40.
+            # COĞRAFYA kaynağı da kapattı (çıktı boşsa dosya hiç yazılmıyor);
+            # bu ikinci savunma, çünkü iki savunma bir savunmadan iyi.
+            muaf = ad in CIZILMEYEN_MUAF
             # (a) dolu mu — ilk 200 karaktere bak, boş dizi/nesne mi
             kuyruk = metin[m.end():m.end() + 200].strip()
             bos = kuyruk.startswith("[]") or kuyruk.startswith("{}")
@@ -257,6 +268,12 @@ def cizilmiyor_mu():
                                  + r"(?![A-Za-z0-9_])", app) is not None
             # (c) index.html dosyayı yüklüyor mu
             yukleniyor = os.path.basename(yol) in html
+            # MUAFİYET yalnız "okunmuyor/yüklenmiyor" testlerini susturur.
+            # BOŞLUK testini SUSTURAMAZ — yüklenen bir dosya boş olamaz.
+            if muaf:
+                if bos and yukleniyor:
+                    bulgular.append((ad, dosya, True, okunuyor, yukleniyor))
+                continue
             if bos or not okunuyor or not yukleniyor:
                 bulgular.append((ad, dosya, bos, okunuyor, yukleniyor))
     return bulgular, len(CIZILMEYEN_MUAF)
