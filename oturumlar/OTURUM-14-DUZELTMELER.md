@@ -1281,3 +1281,63 @@ dizin açısından en değerlileri bunlar.
 
 Altısının **TDV doğrulaması ve dönem zincirleri yazılmadı.** Koordinat
 ölçümü yapıldı, tarih araştırması yapılmadı. İstenirse ayrı tur.
+
+## 20g. A5'in "nokta ≠ tarih" uyarısı — altısına karşı ölçüldü
+
+A5 uyardı: nokta eklerken TDV'den bulunan gerçek el-değiştirme tarihi
+maddenin `t:`inden farklı çıkabilir (vakaları: Kevkebân, 2 yıl fark).
+Uyarı doğru ama **her noktaya değil, yalnız kendi tarihini alan noktaya**
+uygulanır.
+
+### Mekanizma: komşuyu birebir tekrarlayan nokta hiç kırılma üretmez
+
+Sebha/Ubârî'de (Murzuk) ve Ebâ Adası'nda (Kosti) kullandığım teknik tam
+olarak bu: dönem zinciri komşuyla **aynı** olursa yeni sınır doğmaz,
+karşılaştırılacak bir tarih de olmaz. `Değişmez 2` tetiklenemez.
+
+### Altısının ayrımı — ölçüldü
+
+| Nokta | Komşusunun tarihi | Kendi gerçek tarihi | Fark |
+|---|---|---|---|
+| Giza | Kahire zinciri | aynı | — |
+| Mersâ (La Marsa) | Halkulvâdî 1881-05-12 | aynı | — |
+| Kasrılkebir | Tanca zinciri | aynı | — |
+| **Sîdî Ferruc** | Cezayir **1830-07-05** | **1830-06-14** | 🔴 **21 gün** |
+| **Ümmüdurman** | Hartum **1899-01-19** | **1898-09-02** | 🔴 **4,5 ay** |
+| **Tagdempt** | Şelif **1843-01-01** | **1841** | 🔴 **2 yıl** |
+
+⇒ **Üçünde uyarı gerçekten tetikleniyor.** A5 haklı ve benim "hepsi komşusunu
+tekrarlar" varsayımım üçünde yanlıştı.
+
+### 🟢 Ama üçünün de maddesi ZATEN VAR — yeni borç yok
+
+| Nokta | Kullanılacak tarih | Madde |
+|---|---|---|
+| Sîdî Ferruc | `1830-06-14` | *"Sîdî Ferruc çıkarması — Fransız ordusu Cezayir toprağında"* (`ek7`) |
+| Ümmüdurman | `1898-09-02` | *"Ümmüdurman Muharebesi — Mehdî devletinin yıkılışı"* (`ek9`) |
+| Tagdempt | `1841-01-01` | *"Muaskar'ın Fransız işgali — Abdülkādir'in başkenti"* (`ek9`) |
+
+Üçü de **±0 gün.** `Değişmez 2` açığı üretmezler.
+
+⚠️ **Tagdempt'te bir kusur var:** madde Muaskar'ı anıyor, Tagdempt'i değil.
+Tarih tutuyor ama kullanıcı Tagdempt'in rengi değişince Muaskar maddesini
+okuyacak — Konstantin/Cebel-i Dürûz sınıfı "yanlış madde eşleşmesi".
+Ya maddenin metnine Tagdempt eklenmeli ya ayrı madde yazılmalı.
+(Abdülkādir Muaskar'dan Tagdempt'e taşınmıştı; ikisi de başkentti, ikisi de
+1841'de düştü — tek maddede birleştirmek meşru.)
+
+### 🟡 Ümmüdurman'da bir tercih var, karar veremem
+
+Hartum `1899-01-19`da (Kondominyum) İngiliz oluyor, oysa şehir fiilen
+`1898-09-02`de alındı. Yani **bütün Sudan katmanı hukukî tarihi kullanıyor.**
+Ümmüdurman'a fiilî tarihi vermek, 18 km ötesindeki Hartum hâlâ Mehdî
+görünürken Ümmüdurman'ı İngiliz boyar — dört buçuk ay boyunca.
+
+**İki tutarlı seçenek var, ikisi de savunulabilir:**
+1. Ümmüdurman da `1899-01-19` alsın → katman tutarlı kalır, `s:` hukukî
+   ekseni tutmaya devam eder (projenin yerleşik tercihi)
+2. Sudan katmanının tamamı `1898-09-02`ye çekilsin → fiilî, ama **çok kayıt**
+
+📌 Tercihim **(1)**: `s:` bu projede hukukî ekseni tutuyor (Obbiya kararında
+da böyle davrandık) ve fiilî denetim `isg:`in işi. Ama bu bir **katman
+kararı**, tek nokta kararı değil — koordinatöre.
