@@ -1047,19 +1047,19 @@ window.YERLESIMLER_AFRIKA = [
 // Kaynak yoksa uydurulmaz (KOORDINASYON.md §3): Siva DUZELTMELER.md §5'te
 // iki ölçülmüş seçenekle merkeze bırakıldı.
 
-{ ad:"Hârice (Vâhât)", tur:"bolge", lat:25.440, lon:30.546, g:0, k:4, m:"Kahire",
+{ ad:"Hârice (Vâhât)", isg:[{f:"1882-09-14",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"bolge", lat:25.440, lon:30.546, g:0, k:4, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
   d:[{f:"1517-04-13",t:"1805-07-03"}], v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
-{ ad:"Dâhile", tur:"bolge", lat:25.494, lon:28.976, g:0, k:4, m:"Kahire",
+{ ad:"Dâhile", isg:[{f:"1882-09-14",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"bolge", lat:25.494, lon:28.976, g:0, k:4, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
   d:[{f:"1517-04-13",t:"1805-07-03"}], v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
-{ ad:"Ferâfire", tur:"bolge", lat:27.058, lon:27.970, g:0, k:4, m:"Kahire",
+{ ad:"Ferâfire", isg:[{f:"1882-09-14",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"bolge", lat:27.058, lon:27.970, g:0, k:4, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
   d:[{f:"1517-04-13",t:"1805-07-03"}], v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
-{ ad:"Bahriye (Bâvîtî)", tur:"bolge", lat:28.349, lon:28.864, g:0, k:4, m:"Kahire",
+{ ad:"Bahriye (Bâvîtî)", isg:[{f:"1882-09-14",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"bolge", lat:28.349, lon:28.864, g:0, k:4, m:"Kahire",
   s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
   d:[{f:"1517-04-13",t:"1805-07-03"}], v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
