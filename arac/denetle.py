@@ -47,7 +47,8 @@ DATA = os.path.join(KOK, "data")
 # 927 -> 939: Oturum 14'ün Libya partisi (12 nokta).
 # 951 -> 965: YAMACI'nin 8 paketi (+14).
 # 965 -> 966: Podgorica.
-BEKLENEN_YERLESIM = 966
+# 966 -> 967.
+BEKLENEN_YERLESIM = 967
 # 29 -> 32: Oturum 4'ün Necid noktaları (Buraydâ, Uneyze, Şakrâ) 1744
 # öncesinde kasten sahipsiz — orada devlet yoktu, Riyad ve Dir'iye ile
 # aynı desen (MIMARI.md §6: 'devletsiz' ile 'veri yok' ayrımı).
@@ -451,6 +452,11 @@ def degismez3(Y):
 # yakalandı. Doğru pozitif oranını korumak için gerçekten AYRI olan çiftler
 # aşağıya tek tek yazıldı — listeye eklemeden önce iki maddeyi de OKU.
 BILINEN_AYRI = {
+    # Tâif ve Mekke AYRI düştü, 88 gün arayla — TDV `mekke`: 30 Nisan 1803
+    # Suûd birinci kez işgal. Başlık KALIBI ("Vehhâbîlerin … ele geçirmesi")
+    # tetikledi, olayların benzerliği değil.
+    ("Vehhâbîlerin Tâif'i ele geçirmesi",
+     "Vehhâbîlerin Mekke'yi ilk kez ele geçirmesi"),
     ("Halep'in Osmanlı hâkimiyetine girişi", "Şam'ın (Dımaşk) Osmanlı hâkimiyetine girişi"),
     ("Rodos'un İtalyan işgali", "Onikiada'nın İtalyan işgali"),
     ("Erzurum Kongresi'nin toplanması", "Sivas Kongresi'nin toplanması"),
