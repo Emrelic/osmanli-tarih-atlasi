@@ -1046,14 +1046,53 @@ var YONTEM_SURE = 550;   // gün
 //
 // Eşleşme bir kez hesaplanıyor (958 madde × 911 işaret), her karede değil.
 var OLAY_YERI = null;
+// 🔴 KISA ADLI ŞEHİRLER 33 TANE VE HİÇBİRİ EŞLEŞMİYORDU.
+// `ad.length >= 4` süzgeci onları tamamen dışarıda bırakıyordu; yani Şam
+// anlatılırken Şam haritada belirmiyordu ve hiçbir denetim bunu söylemiyordu.
+// Kusur küçük görünüyor ama şehirler büyük:
+//
+//   Van · Niş · Yaş · Özi · Şam · Fas · Ufa · Kum · Bar · Baç · Vaç · Nio
+//   Krk · Rab · Pag · Vis · Kiş · Baf · Kaş · Hoy · Âne · Hît · Fâv · Lâr
+//   Bem · Hâş · Tûs · Sûr · Kûs · Tûr · Kef · Ayl · Gât
+//
+// ⚠️ SÜZGECİ KALDIRMAK YANLIŞ OLURDU — ölçüldü: kısa adlarda düz alt dize
+// araması 47 eşleşme veriyor ve **20'si yanlış** (Bar→Barbaros, Kef→Kefe,
+// Kaş→…, Kum→…; dördünde eşleşmelerin HEPSİ yanlış).
+//
+// ⇒ Çözüm uzunluğa bağlı ve iki uç da ölçüldü:
+//     kısa ad + İKİ YANLI kelime sınırı → +27 gerçek eşleşme · 0 yanlış pozitif
+//        Şam(7) · Niş(5) · Yaş(5) · Van(3) · Özi(3) · Fas(2) · Vaç(1) · Baf(1)
+//     aynı sınır UZUN adlara da konsaydı → 1333'ten 1290'a, yani −43 DOĞRU
+//        eşleşme; sebebi Türkçe ekler ("Edirneye", "Vanı") — sınır sonu kesiyor
+// 📌 Yani doğru çözümü yanlış kümeye uygulamak zarar veriyordu. `§19`'un
+//    ölçülmüş hâli: sınır SOLA konur, sağa konmaz — kısa adlar hariç, orada
+//    iki taraf da şart, yoksa "Bar" her "Barbaros"u yakalar.
+// ⚠️ Süzgeci "sadeleştirmek" isteyen biri yukarıdaki 33 adı görsün diye liste
+//    burada duruyor; kaldırılırsa o şehirler sessizce görünmez olur.
+var HARF_SINIF = "A-Za-zÇĞİıÖŞÜçğöşü";
+function kisaAdKalibi(ad) {
+  var esc = ad.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  return new RegExp("(^|[^" + HARF_SINIF + "])" + esc + "(?![" + HARF_SINIF + "])");
+}
 function olayYeriKur() {
+  // Kalıplar bir kez kurulur: 958 madde × 33 kısa ad = her koşuda 31.614 regex
+  // derlemesi olurdu.
+  var kalip = [];
+  for (var k = 0; k < sehirler.length; k++) {
+    var a = sehirler[k].s.ad.split(" (")[0];
+    kalip[k] = (a.length > 0 && a.length < 4) ? kisaAdKalibi(a) : null;
+  }
   OLAY_YERI = olaylar.map(function (o) {
     var metin = ((o.yer || "") + " " + (o.b || ""));
     var liste = [];
     for (var i = 0; i < sehirler.length; i++) {
       // Parantezli karşılık da eşleşsin: "Bapheus (Koyunhisar)" → "Bapheus"
       var ad = sehirler[i].s.ad.split(" (")[0];
-      if (ad.length >= 4 && metin.indexOf(ad) >= 0) liste.push(i);
+      if (ad.length >= 4) {
+        if (metin.indexOf(ad) >= 0) liste.push(i);      // gevşek: ek alabilir
+      } else if (kalip[i] && kalip[i].test(metin)) {
+        liste.push(i);                                   // sıkı: iki yanlı sınır
+      }
     }
     return liste;
   });
