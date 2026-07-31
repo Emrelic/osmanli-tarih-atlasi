@@ -1865,3 +1865,47 @@ fark edilmiş örüntü*, yani en zayıf kanıt sınıfı, ve kendi ön-kaydın�
 uzak"* demek değil, *"temsil ettiği toprak büyük"* demek (Kuveyt: en yakın
 komşu 82 km, alan 60.535 km²). Yani **eksik nokta** değil **düşük çözünürlük** —
 ayrı bir soru.
+
+---
+
+## §52 — Türetilmiş sayı, TÜRETİMİYLE birlikte raporlanır
+
+(ARAYÜZ'ün tespiti, bir karar turu bedeliyle.) İleri bakış penceresi için
+*"sabit süre mi sabit sayı mı"* tartışılıyordu. ARAYÜZ ölçtü:
+
+> *"1 yıllık pencere → azami **32** ek işaret, ekranı basar."*
+
+Koordinatör bu sayıya dayanarak **sabit sayıyı** seçti ve kullanıcının kararını
+(sabit süre) geri çevirdi. Sonra ARAYÜZ kendi hesabına döndü:
+
+```
+yapılan : 24 madde × 1,34 yerleşim/madde = 32     ← ÇARPIM
+gereken : aynı madde grubunda AYNI şehir tekrar ediyor → BİRLEŞİM
+gerçek  : azami 23 · medyan 2
+```
+⇒ Sabit sayıyı savunan **tek somut argüman yoktu.** Düzeltilince kullanıcının
+ilk kararı kendiliğinden geri geldi. **Bir karar turu, tek bir yanlış çarpım.**
+
+📌 ARAYÜZ'ün kendi teşhisi: *"İlk hesabı yaparken **birleşim mi çarpım mı**
+diye hiç sormamışım. **Sayıyı üretirken sorulmayan soru, sayıyı savunurken
+sorulmuyor.**"*
+
+🔴 **Ve hatanın ikinci yarısı koordinatörde:** o sayı geldiğinde **nasıl
+hesaplandığı sorulmadı.** Bütün gün *"ölçmeden hüküm verme"* diye ısrar
+edilirken, bir karar **türetilmiş bir sayıya** dayandırıldı ve türetimi
+sorulmadı. Çarpımı yapan taraf ile **kabul eden** taraf aynı sınıftan hata
+yaptı.
+
+> **Kural:** bir karar türetilmiş bir sayıya dayanıyorsa, **türetim de
+> raporlanır.**
+> *"Azami 32"* değil → *"24 madde × 1,34 yerleşim = 32"*.
+> O zaman *"çarpım mı birleşim mi"* sorusu **kendiliğinden görünür** olur.
+> Sayı tek başına geldiğinde o soru sorulamaz.
+
+📌 Bu `§44`'ün ("makul görünen, yanlış hesaplanmış sayı") kardeşi ama ayrı bir
+savunma katmanı: `§44` **çıktıyı** sorguluyor (*"listede olmaması gereken bir
+üye var mı"*), `§52` **girdiyi** (*"bu sayı nasıl çıktı"*). Biri sonucu, öbürü
+yolu denetliyor.
+
+⚠️ Ve pratik ayıraç: bir sayı **tek başına** geliyorsa, o sayı **savunulamaz**
+— ne üreten ne kabul eden hatayı görebilir.
