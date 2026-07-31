@@ -1909,3 +1909,40 @@ yolu denetliyor.
 
 ⚠️ Ve pratik ayıraç: bir sayı **tek başına** geliyorsa, o sayı **savunulamaz**
 — ne üreten ne kabul eden hatayı görebilir.
+
+---
+
+## §53 — TABAN, ölçülen şey kadar doğrulanmalı; ve koşuyu öldürmek onu geri almaz
+
+Bugün **üç kez** aynı şey oldu ve üçünde de **ölçüm doğruydu, taban yanlıştı**:
+
+```
+KOORDİNATÖR  r176'yı r176 ile karşılaştırdı — MOTOR dosyayı geri almıştı,
+             "iki sürüm aynı çıktı" diye rapor yazılacaktı        (§34)
+MOTOR        petek_govde.js'in 3 ondalık (≈111 m) yuvarlamasını sonuç sandı;
+             "tavan poligonu BÜYÜTTÜ" görünüyordu — büyüyen tabandı
+MOTOR        DURDURULAN bir koşunun yarım çıktısını A/B tabanı sandı:
+             donemler.js 18:38 (r280) · bolgeler.js 21:59 (öldürülen koşu)
+```
+
+🔴 **Üçüncüsü en tehlikelisi**, çünkü öbür ikisi **ölçümü** bozuyordu; bu
+**yayını** bozacaktı. Ve `URETIM_IZI` onu **yakalayamazdı**: iz `donemler.js`'te,
+tutarsızlık `bolgeler.js`'te. İki ayrı dosya olduğu için üç buçuk saat kimse
+ikisinin aynı koşudan geldiğini sorgulamadı.
+
+> **Kural 1:** bir üretim koşusu durdurulduğunda **çalışma ağacı geri alınır.**
+> Koşuyu öldürmek yazdığı dosyaları silmez; geri alınmazsa **sonraki her
+> ölçümün tabanı olur.**
+> **Kural 2:** A/B tabanı alınmadan önce **`git status` temiz mi** diye bakılır.
+> Tek satır, ve bu sınıfı kapatıyor.
+
+📌 Yakalanma biçimi de öğretici ve bedava bir sağlama veriyor: MOTOR **dosya
+damgalarına** baktı — *"21:59 neden 18:38'den yeni?"* **Aynı koşudan çıkan
+dosyaların damgaları birbirine yakın olmalıdır**; ayrıksa taban karışıktır.
+
+⚠️ Ve ortak yanları `§44` ile aynı: **üç tabanın üçü de makul görünüyordu.**
+Bozuk bir taban "bozuk" diye görünmez — yalnız sonucu sessizce kaydırır.
+`§44` çıktıyı, `§52` girdiyi, `§53` **karşılaştırma zeminini** denetliyor.
+
+📌 Ve `§50`'nin kardeşi: orada ölçüm **aleti** çalışmıyordu, burada alet
+**yanlış kalibre** edilmişti. İkisi de "ölçüm doğru, sonuç yanlış" üretiyor.
