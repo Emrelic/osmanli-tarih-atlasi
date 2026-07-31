@@ -1319,3 +1319,76 @@ verir.
 sırasıyla aynı mı diye sorulmadan ölçüm yapılmamalı.** Bu turda ölçüm iki
 dakika, aracın doğrulanması on dakika sürdü; doğrulamasaydım "Suriye'de
 1832-1841 tamamen eksik" diye **var olmayan** bir kusur bildirecektim.
+
+---
+
+## 2026-08-01 (11. tur) — Isparta enklavı BOZUKLUK · 1354 maddesinin iki yeri yanlış
+
+Kullanıcının iki sorusu. Tam paket: **`OTURUM-13-HAMID-ANKARA.md`**.
+
+### 🔴 1) ISPARTA ENKLAVI — bozukluk, sebebi tek bir yanlış tarih
+
+Isparta'nın `hamid` dönemi `1381-06-01`'de bitiyor, komşularınınki bitmiyor.
+1385 kesiti: **Burdur 23,7 km `hamid` · Eğirdir 28,8 km `hamid` · Uluborlu
+36,7 km `hamid`** — en yakın **Osmanlı** komşu **Yalvaç 80,4 km.**
+⇒ Üç yanı Hamid toprağıyla çevrili bir ada. Motor bunu ancak enklav çizer.
+
+📌 Koordinatörün öngörüsü doğrulandı: **seyreklik değil.** Batı Anadolu
+ortancası 19 km, buradaki komşular 24-37 km — noktalar yerinde, **tarih yanlış.**
+
+**TDV `hamidogullari`** ✔ satılan beldeleri adıyla sayıyor: *"**Akşehir,
+Beyşehir, Seydişehir, Yalvaç ve Karaağaç** beldeleri 80.000 altın
+karşılığında"* — **Isparta listede YOK.**
+**TDV `isparta`** ✔ meseleyi doğrudan tartışıp hükmü veriyor: Isparta
+*"muhtemelen onun **1391**'de ölümünden sonra kesin olarak Osmanlı idaresi
+altına girdi."* (Ayrıca: Isparta beyliğin **merkezi değildi**, merkez
+Eğirdir'di — veride Isparta `k:3`, Eğirdir `k:4`; bu da gözden geçirilmeli.)
+
+🔧 **Isparta `1381-06-01` → `1391-01-01`.** Zinciri Burdur/Uluborlu ile birebir
+aynı olur, **enklav kapanır**, ve `1391-01-01` kırılmasını o üçü zaten
+taşıdığı için **Değişmez 2 riski yok.**
+🔧 **Eğirdir `1391-01-01` → `1386-01-01`** (TDV: *"1386'da Eğridir'i ele
+geçirdi"*; gün bilinmiyor, **yeni kırılma** ⇒ denetim koşulmalı).
+🟡 **Satın alma tarihinin kendisi kuşkulu:** veri `1381-06-01`, TDV
+*"**1382-1383** yılında"*. Gün hiçbir kaynakta yok. Beş kaydı birden
+kaydırmak Değişmez 2'yi tetikler ⇒ **karar vermedim**, Oturum 0'a havale.
+🔧 **Kronoloji maddesinin başlığı yanlış:** *"Hamîd ilinin satın alınışı:
+**Isparta'nın katılışı**"* — Isparta o satın almada yoktu; kullanıcının
+gördüğü yanlış izlenimi tam olarak bu üretiyor. Kullanıcının yeni kuralına
+(*her şehri teker teker say*) uygun yeni metin pakette.
+🟡 **Eksik nokta: Şarkîkaraağaç** — satın alma listesinde adıyla geçiyor,
+veride yok. Kayıt yazıldı ama **1402 sonrası sahibi kaynaklı değil**
+(Yalvaç 24 km `hamid`'e, Beyşehir 45 km `karaman`'a dönüyor); en yakın komşu
+yazıldı ve **işaretlendi**.
+
+**"Hamid ilinin katılmayan kısımları var mı?" → Evet, iki sebeple, ikisi de
+gerçeklik:** (a) kademeli ilhak — 1381'de beş belde, 1386 Eğirdir, 1390-91
+gerisi, 1402'de hepsi geri verildi, kesin ilhak **1414-06-01**; (b) **Teke
+kolu hiç Hamid değildi** — Antalya, Elmalı, Finike, Kaş 1321'de ayrılan
+`teke`'dir, 1392'de ayrıca alındı. Kullanıcı güneyde "katılmamış" toprak
+görüyorsa **o doğru veridir.**
+
+### 🔴 2) 1354 ANKARA — madde zaten iki yer sayıyor, ikisi de yanlış
+
+Mevcut metin: *"Aynı tarihte haritaya katılan diğer yerleşimler: Sivrihisar,
+Çankırı."* Veri de üçünü `1354-08-01`'e koymuş.
+
+| Yer | TDV | Hüküm |
+|---|---|---|
+| **Ankara** | `ankara` ✔ *"**1354** yılında Orhan Gazi'nin oğlu **Süleyman Paşa** tarafından"* | ✅ doğru (gün `-08-01` kaynaklı değil) |
+| **Sivrihisar** | `sivrihisar` ✔ İlhanlı sonrası **Karamanoğulları**'nda; Osmanlı'ya **757 (1356)**, *"Ankara'nın fethinin ardından"*; kesin **818/1415** | 🔴 kimlik `germiyan`→**`karaman`**, tarih **2 yıl erken** |
+| **Çankırı** | `cankiri` ✔ **I. Murad** devrinde (1362-1389) | 🔴 **1354 Orhan devri** — en az 8 yıl erken |
+
+⇒ Kullanıcının sorusunun cevabı beklenenin tersi: **zenginleştirmeden önce
+düzeltmek gerekiyor.** Çankırı 1354'ten çıkarılmalı, Sivrihisar `1356-01-01`
+ile **ayrı bir maddeye** taşınmalı.
+🔴 **Çankırı'nın doğru tarihi çözülemedi** — TDV yalnız *"I. Murad devrinde"*
+diyor, yıl vermiyor. Yanlış olduğu **biliniyor**, doğrusu bilinmiyor ⇒
+`KARAR-DAYANAK 14` gereği işaretlendi, uydurulmadı.
+
+### 📌 Koordinatöre — "hâlâ açık" dediğin üç kalem KAPALI
+- **Karaman ilhakı tarihleri** → `7f55d90` · `OTURUM-13-KARAMAN.md`
+- **Doğu Anadolu'nun 11 eksik `m:`** → öncül çürüktü (o 11'in sekizi `k:2`,
+  üçü `k:0`); `2d45f87` · `OTURUM-13-DOGU-ANADOLU.md`
+- **Fetret'in üç yerleşimi** → `054446e`, ve YAMACI **uyguladı** (`6fe9fe1`,
+  `isa-celebi` 49→52)
