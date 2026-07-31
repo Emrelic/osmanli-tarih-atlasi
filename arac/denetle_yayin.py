@@ -192,6 +192,76 @@ def bayat_mi():
             "ad kümesi (GEÇİCİ — 3 hata sınıfını kaçırır)")
 
 
+# ============================================================================
+# ÜRETİLİYOR AMA ÇİZİLMİYOR  (OGRENILENLER §40)
+# ============================================================================
+# Bugünün en sık kusur sınıfı ve HİÇBİR DENETİM YAKALAMADI — çünkü bütün
+# denetimlerimiz verinin DOĞRULUĞUNA bakıyor, TÜKETİLDİĞİNE değil.
+# Dört ölçülmüş vaka:
+#   ISGALLER        tüketicisi vardı, ÜRETİCİSİ yoktu → canlıda length === 0
+#   serbest-hale    üç koşudur üretiliyordu, HİÇ çizilmiyordu
+#   KAYNAK-LICENSE  içeriği "404: Not Found"
+#   237 madde       `k:` değeri var, CSS sınıfı yok → renksiz
+#
+# Üç soru sorulur; biri bile eksikse ⚠️:
+#   (a) X tanımlı ve DOLU mu
+#   (b) js/app.js X'i OKUYOR mu
+#   (c) index.html X'in dosyasını YÜKLÜYOR mu
+#
+# ⚠️ BEKLENEN DEĞER SIFIR DEĞİL. Kasıtlı istisnalar var ve listelenmeli —
+# aksi hâlde denetim doğru veriye ihlal der (bugün `k:`↔`etiket:`de aynı
+# tuzaktan eşiği 0 yerine ölçülen 5'e çekmiştik).
+CIZILMEYEN_MUAF = {
+    "PETEK_GOVDE": "motor ara çıktısı — index.html'e BİLEREK yüklenmiyor",
+    "PETEK_GOVDE_PARCA": "aynı, PETEK_GOVDE'nin parça havuzu",
+    "PARCALAR": "DONEMLER'in parça havuzu — app.js DONEMLER üzerinden çözer",
+    "DEVLET_PARCALAR": "DEVLET_HARITA'nın parça havuzu, aynı desen",
+    "DEVIRLER_KAYNAK_OZET": "üretim raporu, arayüz tüketicisi yok (bilerek)",
+    # MOTOR GİRDİLERİ — app.js'in okumaması DOĞRU. Bunları `girdi.py` okur ve
+    # motor geometriye çevirir; tarayıcıya ham hâlleri hiç gitmez.
+    "YERLESIMLER": "motor girdisi — app.js üretilmiş geometriyi okur, ham noktayı değil",
+    "YERLESIMLER_AFRIKA": "motor girdisi, girdi.py okur",
+    "GOLLER": "motor girdisi — girdi.oku_goller(), uret_petek.py doğrudan okur",
+    "URETIM_IZI": "üretim parmak izi — tüketicisi denetle_yayin.py'nin kendisi",
+}
+
+
+def cizilmiyor_mu():
+    """(bulgular, muaf_sayisi) — üretilen her `window.X` tüketiliyor mu?"""
+    import glob as _g
+    try:
+        app = open(os.path.join(KOK, "js", "app.js"), encoding="utf-8").read()
+        html = open(os.path.join(KOK, "index.html"), encoding="utf-8").read()
+    except Exception as e:
+        return None, 0
+    bulgular = []
+    for yol in sorted(_g.glob(os.path.join(KOK, "data", "*.js"))):
+        dosya = "data/" + os.path.basename(yol)
+        try:
+            metin = open(yol, encoding="utf-8").read()
+        except Exception:
+            continue
+        for m in re.finditer(r"^window\.(\w+)\s*=", metin, re.M):
+            ad = m.group(1)
+            if ad in CIZILMEYEN_MUAF:
+                continue
+            # (a) dolu mu — ilk 200 karaktere bak, boş dizi/nesne mi
+            kuyruk = metin[m.end():m.end() + 200].strip()
+            bos = kuyruk.startswith("[]") or kuyruk.startswith("{}")
+            # (b) app.js okuyor mu
+            # ⚠️ İLK YAZIMDA  BACKSPACE OLDU (ham dize değildi) ve regex
+            # HİÇBİR ŞEYE eşleşmedi: araç 37 bulgu verdi, PETEKLER ve DONEMLER
+            # dahil - app.js onları apaçık okuyor. Sayı MAKUL GÖRÜNÜYORDU.
+            # Bugünün dördüncü "yanlış ayrıştırma, makul sayı" vakası.
+            okunuyor = re.search(r"(?<![A-Za-z0-9_])" + re.escape(ad)
+                                 + r"(?![A-Za-z0-9_])", app) is not None
+            # (c) index.html dosyayı yüklüyor mu
+            yukleniyor = os.path.basename(yol) in html
+            if bos or not okunuyor or not yukleniyor:
+                bulgular.append((ad, dosya, bos, okunuyor, yukleniyor))
+    return bulgular, len(CIZILMEYEN_MUAF)
+
+
 def git_izlenen():
     """Depoda git tarafından İZLENEN dosyaların kümesi."""
     try:
@@ -379,6 +449,28 @@ def main():
         print("   ⚠️ BU ÖLÇÜT EKSİK — yalnız ad kümesine bakıyor. Yerleşim TAŞINIRSA,")
         print("      `d:`/`v:`/`s:` DEĞİŞİRSE ya da üretimin ORTASINDA veri değişirse")
         print("      TEMİZ der. Kesin çözüm window.URETIM_IZI (motorda sırada).")
+
+    # ---- ÜRETİLİYOR AMA ÇİZİLMİYOR (§40)
+    cizilmiyor, muaf_n = cizilmiyor_mu()
+    print()
+    if cizilmiyor is None:
+        print("!  §40 denetimi ÖLÇÜLEMEDİ (js/app.js ya da index.html okunamadı)")
+    elif not cizilmiyor:
+        print("✓  üretilen her window.X tüketiliyor (%d kasıtlı muaf hariç)" % muaf_n)
+    else:
+        print("⚠️  ÜRETİLİYOR AMA ÇİZİLMİYOR: %d  (%d kasıtlı muaf hariç)"
+              % (len(cizilmiyor), muaf_n))
+        for ad, dosya, bos, okunuyor, yukleniyor in cizilmiyor:
+            eksik = []
+            if bos:
+                eksik.append("BOŞ")
+            if not okunuyor:
+                eksik.append("app.js OKUMUYOR")
+            if not yukleniyor:
+                eksik.append("index.html YÜKLEMİYOR")
+            print("     %-22s %-28s %s" % (ad, dosya, " · ".join(eksik)))
+        print("     → §40: veri doğru olabilir ama kullanıcı GÖRMÜYOR.")
+        print("       Kasıtlıysa CIZILMEYEN_MUAF'a gerekçesiyle eklensin.")
 
     if yoklar or izlenmeyenler or kayitsiz or len(damgalar) > 1 or damga_ihlali or bayat:
         print("SONUÇ: İHLAL VAR — çıkış kodu 1")
