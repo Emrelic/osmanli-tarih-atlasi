@@ -823,6 +823,29 @@ body {
    gerekirdi; ikisi de §33'ün dersine aykırı. Bunun yerine ayrım RENK ve
    BÜYÜK/KÜÇÜK HARF'te: devlet adı büyük harf ve koyu, bölge adı normal yazım
    ve bölge sınırının kendi kahvesi (#5a3a24). */
+/* Harekât lejantı (md.4.3) — dokuz ok tipinin açıklaması.
+   Yalnız o anda sahnede olan türler listelendiği için kutu çoğu tarihte
+   iki-üç satır; ana lejanta dokuz satır eklemek yerine bu seçildi. */
+.sefer-lejant .sefer-orn {
+  width: 22px; height: 0;
+  border-top: 2px solid transparent;   /* yükseklik sabit kalsın */
+  align-self: center;
+  border-radius: 0;
+}
+.sefer-lejant .sefer-glif {
+  font-size: 13px;
+  color: #2b1006;
+  margin-right: 2px;
+}
+.sefer-lejant em { font-style: normal; opacity: 0.6; }
+.sefer-lejant .sefer-sonuc {
+  margin-top: 3px;
+  padding-top: 3px;
+  border-top: 1px solid rgba(90, 58, 36, 0.25);
+  /* Sonuç AYRI eksen: hareketin cinsi değil, nasıl bittiği. Ayırıcı çizgi
+     bunu söylüyor — yoksa "▲ kazanç" onuncu bir ok tipi sanılır. */
+}
+
 .bolge-etiket {
   /* font-size YOK: app.js bölge alanından hesaplayıp inline veriyor. */
   font: 500 1em/1.15 system-ui, sans-serif;

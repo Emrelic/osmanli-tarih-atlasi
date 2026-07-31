@@ -1211,7 +1211,7 @@ function devirLejanti(fs) {
     el.className = "devir-lejant";
     document.getElementById("harita").appendChild(el);
   }
-  if (!fs.length) { el.style.display = "none"; return; }
+  if (!fs.length) { el.style.display = "none"; lejantYerlestir(); return; }
   el.style.display = "";
   el.innerHTML = "<b>Antlaşmayla devredilen</b>" + fs.map(function (f) {
     return '<span><i style="background:linear-gradient(45deg,#8e0b22 0 25%,' +
@@ -1219,6 +1219,7 @@ function devirLejanti(fs) {
            f.properties.renk + ' 75% 100%);background-size:8px 8px"></i> ' +
            f.properties.alici + "</span>";
   }).join("");
+  lejantYerlestir();
 }
 
 // ---------- İşgal: taralı ve SÜREKLİ alanlar ----------
@@ -1288,19 +1289,36 @@ function isgalLejanti(fs) {
     el.className = "devir-lejant isgal-lejant";
     document.getElementById("harita").appendChild(el);
   }
-  if (!fs.length) { el.style.display = "none"; return; }
+  if (!fs.length) { el.style.display = "none"; lejantYerlestir(); return; }
   el.style.display = "";
-  // İki lejant aynı köşeye yerleşiyor. Sabit CSS ofseti verirsek devir lejantı
-  // yokken arada boşluk kalıyor, varken üst üste biniyorlar. devirGuncelle bu
-  // fonksiyondan ÖNCE koştuğu için o kutunun gerçek yüksekliği burada ölçülebilir.
-  var dl = document.getElementById("devir-lejant");
-  var devirAcik = dl && dl.style.display !== "none" && dl.innerHTML;
-  el.style.bottom = devirAcik ? (dl.offsetHeight + 42) + "px" : "34px";
   el.innerHTML = "<b>İşgal altında</b>" + fs.map(function (f) {
     return '<span><i style="background:linear-gradient(-45deg,#8e0b22 0 62%,' +
            f.properties.renk + ' 62% 100%);background-size:8px 8px"></i> ' +
            f.properties.isgalci + "</span>";
   }).join("");
+  lejantYerlestir();
+}
+
+// ---------- Bağlamsal lejant yığını ----------
+// Sol altta artık ÜÇ kutu var: devir · işgal · harekât. Üçü de bağlamsal —
+// yalnız o tarihte anlamı olan görünüyor.
+//
+// ⚠️ Ofset matematiği eskiden isgalLejanti'nin İÇİNDEYDİ ve yalnız İKİ kutu
+// varsayıyordu: "devir açıksa onun yüksekliği + 42, değilse 34". Üçüncü kutu
+// eklenince bu yaklaşım kırılıyor — her kutunun kendisinden AŞAĞIDAKİ bütün
+// görünür kutuların toplamını bilmesi gerekiyor, tek bir komşusunu değil.
+// Bu yüzden hesap tek yere alındı; kutular yalnız "ben açığım/kapalıyım" der.
+// 📌 Aynı ders: iki yerde duran hesap bayatlar ve hangisinin bayat olduğu
+// bilinmez (OGRENILENLER §35'in yerleşim hâli).
+var LEJANT_YIGIN = ["devir-lejant", "isgal-lejant", "sefer-lejant"];
+function lejantYerlestir() {
+  var alt = 34;
+  for (var i = 0; i < LEJANT_YIGIN.length; i++) {
+    var e = document.getElementById(LEJANT_YIGIN[i]);
+    if (!e || e.style.display === "none" || !e.innerHTML) continue;
+    e.style.bottom = alt + "px";
+    alt += e.offsetHeight + 8;
+  }
 }
 
 // ⚠️ GENEL KURAL — HAREKET TİPOLOJİSİ (kullanıcı kararı, hatalar 10-11 sonrası):
@@ -1362,7 +1380,10 @@ var seferler = (window.SEFERLER || []).map(function (s) {
   var renk = s.renk || (s.taraf === "dusman" ? "#1b7a3f" : "#2b1006");
   ic.style.color = renk;
   return { fi: gunIdx(s.f), ti: gunIdx(s.t) + 45, ad: s.ad, yol: s.yol,
-           renk: renk, tur: (s.tur || "sefer"), ekli: false,
+           // sonuc lejant için de lazım: rozet ancak sahnede o sonuçtan bir ok
+           // varsa açıklanır (md.4.3 — açıklanmayan simge kalabalıktır).
+           renk: renk, tur: (s.tur || "sefer"), sonuc: (s.sonuc || "belirsiz"),
+           ekli: false,
            mk: new maplibregl.Marker({ element: el, anchor: "center", rotation: aci - 90 })
                  .setLngLat(son),
            ad_mk: (function () {
@@ -1375,16 +1396,66 @@ var seferler = (window.SEFERLER || []).map(function (s) {
 
 function seferGuncelle(t) {
   if (!haritaHazir) return;
-  var cizgiler = [];
+  var cizgiler = [], turler = {}, sonuclar = {};
   seferler.forEach(function (m) {
     var aktif = m.fi <= t && t < m.ti;
     if (aktif) {
       cizgiler.push({ type: "Feature", properties: { renk: m.renk, tur: m.tur },
                       geometry: { type: "LineString", coordinates: m.yol } });
+      turler[m.tur] = (turler[m.tur] || 0) + 1;
+      if (m.sonuc !== "belirsiz") sonuclar[m.sonuc] = 1;
       if (!m.ekli) { m.mk.addTo(harita); m.ad_mk.addTo(harita); m.ekli = true; }
     } else if (m.ekli) { m.mk.remove(); m.ad_mk.remove(); m.ekli = false; }
   });
   harita.getSource("seferler").setData({ type: "FeatureCollection", features: cizgiler });
+  seferLejanti(turler, sonuclar);
+}
+
+// ---------- Hareket lejantı (md.4.3) ----------
+// Kullanıcı dokuz ok tipini görüyor ama hangisinin ne olduğunu bilmiyordu.
+//
+// 🔴 TASARIM KARARI — dokuzunu birden LİSTELEMİYORUZ, sahnedekini açıklıyoruz.
+// Ana lejant zaten haritanın sağ üstünü kaplıyor ve kullanıcı bir kez
+// "gizle butonu koy" demek zorunda kalmıştı (hatalar 3, md.2): tam o köşede
+// Kafkasya ve Ege adaları var. Oraya dokuz satır daha eklemek aynı şikâyeti
+// büyüterek geri getirirdi.
+// Bunun yerine devir ve işgal lejantlarının kurduğu desen izleniyor: kutu
+// yalnız O ANDA sahnede olan türleri sayar. Ölçüt de aynı — açıklanmayan
+// simge kalabalıktır, sahnede olmayan simgenin açıklaması da kalabalıktır.
+// ⇒ Ok yoksa kutu hiç görünmez; tek tip varsa tek satır.
+function seferLejanti(turler, sonuclar) {
+  var el = document.getElementById("sefer-lejant");
+  if (!el) {
+    el = document.createElement("div");
+    el.id = "sefer-lejant";
+    el.className = "devir-lejant sefer-lejant";
+    document.getElementById("harita").appendChild(el);
+  }
+  var anahtarlar = Object.keys(turler);
+  if (!anahtarlar.length) { el.style.display = "none"; lejantYerlestir(); return; }
+  el.style.display = "";
+  // HAREKET'teki tanım sırası korunuyor: kutu her tarihte aynı sırayla okunsun,
+  // yoksa kullanıcı satırları saymak zorunda kalır.
+  var sirali = Object.keys(HAREKET).filter(function (k) { return turler[k]; });
+  var html = "<b>Harekât</b>" + sirali.map(function (k) {
+    var h = HAREKET[k];
+    // Çizgi deseni haritadakiyle AYNI orandan türetiliyor (h.desen), ayrıca
+    // yazılmıyor — iki yerde duran sayı bayatlar (OGRENILENLER §35).
+    var d = h.desen[0] * 2, b = h.desen[1] * 2;
+    return '<span><i class="sefer-orn" style="background:repeating-linear-gradient(' +
+           '90deg,#2b1006 0 ' + d + 'px,transparent ' + d + 'px ' + (d + b) + 'px)"></i>' +
+           '<b class="sefer-glif">' + h.glif + '</b> ' + h.ad +
+           (turler[k] > 1 ? ' <em>×' + turler[k] + '</em>' : '') + "</span>";
+  }).join("");
+  // Rozet ekseni AYRI: aynı hareket kazançla da bozgunla da bitebilir. Yalnız
+  // sahnede o sonuçtan bir ok varsa açıklanıyor.
+  if (sonuclar.zafer || sonuclar.yenilgi) {
+    html += '<span class="sefer-sonuc">' +
+            (sonuclar.zafer ? '<b>▲</b> kazanç ' : '') +
+            (sonuclar.yenilgi ? '<b>▼</b> bozgun' : '') + "</span>";
+  }
+  el.innerHTML = html;
+  lejantYerlestir();
 }
 
 // ---------- Otomatik yakınlaştırma ----------
