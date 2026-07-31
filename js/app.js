@@ -272,10 +272,32 @@ function devletGuncelle(t) {
 // elemesinin bugüne kadar ayarlanmış davranışı bozulmasın.
 var KARAKTER = 5.4 / 11;
 
+// ---------- İKİNCİ KADEME: bölge (eyalet) adları — md.21'in ikinci yarısı ----
+// ⚠️ Görev tanımı "bölge isimleri hâlâ sabit puntoda" diyordu; ölçünce öyle
+// çıkmadı — bölge adları HİÇ ÇİZİLMİYORDU. `data/bolgeler.js` her kayıtta
+// `ad` taşıyor ama app.js yalnız `bolge-cizgi` (kesikli sınır) katmanını
+// kuruyordu, hiçbir sembol/etiket katmanı yoktu. Yani sabit puntolu bir
+// gösterimi düzeltmiyoruz, olmayan bir gösterimi açıyoruz.
+//
+// Katsayılar ÖLÇÜLEREK kondu (ORGANIZASYON §7.4 "ölçmeden eşik koyma"):
+//   62 kayıt · alan 0,143 → 107,7 derece² (Rodos → Hartum) · oran 752×
+//   %25=2,81  medyan=6,05  %75=12,43 · aynı anda sahnede en çok 61 bölge (1680)
+// Band ölçülen aralığa YAYILDI: log2(107,7/0,143) = 9,56 kademe var, 8→14
+// punto arası 6 punto ⇒ eğim 0,628. Medyan bölge 11,4 punto alıyor.
+// §33'ün dersi burada da geçerli ve bu sefer baştan uygulandı: SÜRÜCÜ ALAN,
+// sığma yalnız TAVAN. (§33'ün ilk denemesinde 86 gövdenin 40'ı tavana
+// yapışmıştı ve sığma kısıtı "temiz" diyordu.)
+var BOLGE_TABAN = 8, BOLGE_TAVAN = 14, BOLGE_EGIM = 0.628, BOLGE_REF = 0.143;
+// bolge-cizgi ile AYNI eşik: adı, sınırı görünmeyen bir bölgeye yazmak
+// "bu çizgisiz alan neyin nesi" sorusunu doğurur.
+var BOLGE_ZOOM = 5.2;
+var bolgeEtiketleri = [];
+
 function etiketleriYerlestir() {
   devletEtiketleri.forEach(function (m) { m.remove(); });
   devletEtiketleri = [];
-  if (!etiketAdaylari.length) return;
+  bolgeEtiketleri.forEach(function (m) { m.remove(); });
+  bolgeEtiketleri = [];
   var z = harita.getZoom();
   // Ekranda çok küçük kalan gövdeye etiket konmaz; yakınlaştıkça eşik düşer,
   // böylece adalar ve koloniler yakınlaşınca adlarını gösterir.
@@ -316,6 +338,65 @@ function etiketleriYerlestir() {
     el.textContent = e.ad;
     devletEtiketleri.push(new maplibregl.Marker({ element: el, anchor: "center" })
       .setLngLat(e.c).addTo(harita));
+  }
+
+  // ---- İkinci kademe: bölge adları ----
+  // Devletlerden SONRA yerleşiyor ve AYNI `yerlesen` dizisini paylaşıyor.
+  // Sıra kasıtlı: çakışmada elenen taraf bölge olsun. Bir eyalet adı, ülke
+  // adını asla itmemeli — kullanıcı önce "burası neresi", sonra "hangi eyalet"
+  // sorusunu sorar.
+  if (z < BOLGE_ZOOM) return;
+  // Fetret Devri'nde bölge katmanı boşaltılıyor (guncelle: di === -2); adları
+  // orada bırakmak çizgisiz bir haritada asılı yazı üretirdi.
+  if (aktifDonem === -2) return;
+  var bAday = [];
+  for (var bi = 0; bi < bolgeler.length; bi++) {
+    var b = bolgeler[bi];
+    if (!(b.fi <= suanki && suanki < b.ti)) continue;
+    // Geometri dönem boyunca sabit; etiket noktası ve alan kayıt başına BİR KEZ
+    // hesaplanıp saklanıyor. Her karede yeniden hesaplansaydı 61 bölgenin
+    // ağırlık merkezi her zoom hareketinde yeniden taranırdı.
+    if (!b.ec) {
+      var mp = b.ft.geometry.coordinates, enB = null, enA = 0;
+      for (var mi = 0; mi < mp.length; mi++) {
+        var dis = mp[mi][0];
+        if (!dis || dis.length < 4) continue;
+        var a = halkaAlan(dis);
+        if (a > enA) { enA = a; enB = dis; }
+      }
+      // Devlette her gövdeye ayrı etiket veriliyor (Bizans vakası); bölgede
+      // TEK etiket, en büyük parçaya. Sebep: bir eyaletin adacıkları ayrı
+      // idarî birim değil, aynı eyaletin parçası — üç kez yazmak yanlış olur.
+      b.ec = enB ? { c: etiketNoktasi(enB), alan: enA } : { yok: 1 };
+    }
+    if (b.ec.yok) continue;
+    bAday.push({ ad: b.ft.properties.ad, c: b.ec.c, alan: b.ec.alan });
+  }
+  bAday.sort(function (a, b2) { return b2.alan - a.alan; });
+  var pxDerece2 = 512 * Math.pow(2, z) / 360;
+  for (var bk = 0; bk < bAday.length; bk++) {
+    var be = bAday[bk];
+    var bpt = harita.project(be.c);
+    var bsigma = Math.sqrt(be.alan) * pxDerece2 * 0.85 / (be.ad.length * KARAKTER);
+    var bpunto = BOLGE_TABAN + BOLGE_EGIM * (Math.log(be.alan / BOLGE_REF) / Math.LN2);
+    bpunto = Math.max(BOLGE_TABAN, Math.min(BOLGE_TAVAN, Math.min(bpunto, bsigma)));
+    var bg = be.ad.length * KARAKTER * bpunto + 6, by = bpunto * 1.36;
+    var bkutu = { x0: bpt.x - bg / 2, x1: bpt.x + bg / 2,
+                  y0: bpt.y - by / 2, y1: bpt.y + by / 2 };
+    var bcarpti = false;
+    for (var bj = 0; bj < yerlesen.length; bj++) {
+      var bo = yerlesen[bj];
+      if (bkutu.x0 < bo.x1 && bkutu.x1 > bo.x0 &&
+          bkutu.y0 < bo.y1 && bkutu.y1 > bo.y0) { bcarpti = true; break; }
+    }
+    if (bcarpti) continue;
+    yerlesen.push(bkutu);
+    var bel = document.createElement("div");
+    bel.className = "bolge-etiket";
+    bel.style.fontSize = bpunto.toFixed(1) + "px";
+    bel.textContent = be.ad;
+    bolgeEtiketleri.push(new maplibregl.Marker({ element: bel, anchor: "center" })
+      .setLngLat(be.c).addTo(harita));
   }
 }
 
@@ -534,12 +615,40 @@ harita.on("load", function () {
   // payda ≈ 67,8. Yani genişlik_px = u_km × 2^zoom / 67,8 — zoom'a bağlılık
   // korunuyor (hale sabit YER genişliği), ama artık her yerde aynı yer genişliği
   // değil, o kenarın KENDİ belirsizliği kadar.
-  var PX_KM = ["/", ["^", 2, ["zoom"]], 67.8];
+  //
+  // 🔴 BU İKİ KATMAN 31 TEMMUZ'A KADAR HİÇ EKLENMİYORDU — düzeltildi.
+  // Eski hâli şuydu ve `addLayer` fırlatıyordu:
+  //     var PX_KM = ["/", ["^", 2, ["zoom"]], 67.8];
+  //     var YER_GENISLIK = ["*", U, PX_KM];
+  // MapLibre hatası: *"`zoom` expression may only be used as input to a
+  // top-level `step` or `interpolate` expression"*. `["zoom"]` burada üç kat
+  // gömülüydü (`*` içinde `/` içinde `^`), katman eklenmiyordu ve **sönen
+  // kenar gösterimi hiç çizilmiyordu.** Yorumlar mekanizmayı uzun uzun
+  // anlatıyordu; anlatılan şey ekranda yoktu. (`isg:` örtüsüyle aynı sınıf:
+  // yazılmış görünüyor, çalışmıyor.)
+  //
+  // ⚠️ DÖNÜŞÜM YAKLAŞIK DEĞİL, BİREBİR. Taban-2 `exponential` interpolate'in
+  // ara değer formülü  t = (2^(z−z₀) − 1)/(2^(z₁−z₀) − 1)  olduğu için, iki
+  // durağa da u·2^z/67,8 eğrisinin kendi değerini koyduğumuzda sadeleşiyor:
+  //     v₀ + t·(v₁ − v₀) = u·2^z⁰/67,8 · (1 + 2^(z−z₀) − 1) = u·2^z/67,8
+  // Yani eski eğri KORUNUYOR — iki durak seçimi eğriyi değiştirmiyor, bu
+  // özdeşlik her (z₀, z₁) çifti için geçerli. Duraklar haritanın gerçek zoom
+  // aralığını (minZoom 2,5 · maxZoom 8) kuşatacak şekilde 2 ve 9 seçildi ki
+  // uçlarda kırpma olmasın.
+  // `["zoom"]` artık interpolate'in DOĞRUDAN girdisi; veriye bağlı `u` ise
+  // durak DEĞERLERİNDE kalıyor — MapLibre ikisinin bu şekilde bir arada
+  // kullanılmasına izin veriyor (zoom-ve-özellik fonksiyonu).
   var U = ["coalesce", ["get", "u"], 60];          // veri yoksa 60 km varsayılan
-  var YER_GENISLIK = ["*", U, PX_KM];
-  var YER_BULANIK  = ["*", U, PX_KM, 0.85];
-  var YER_CEKIRDEK = ["*", U, PX_KM, 0.35];
-  var YER_CBULANIK = ["*", U, PX_KM, 0.28];
+  var Z0 = 2, Z1 = 9;
+  function yerOlcek(k) {                            // k: hâle/çekirdek çarpanı
+    return ["interpolate", ["exponential", 2], ["zoom"],
+            Z0, ["*", U, k * Math.pow(2, Z0) / 67.8],
+            Z1, ["*", U, k * Math.pow(2, Z1) / 67.8]];
+  }
+  var YER_GENISLIK = yerOlcek(1);
+  var YER_BULANIK  = yerOlcek(0.85);
+  var YER_CEKIRDEK = yerOlcek(0.35);
+  var YER_CBULANIK = yerOlcek(0.28);
   harita.addSource("serbest", { type: "geojson", data: bosVeri() });
   harita.addLayer({ id: "serbest-hale", type: "line", source: "serbest",
     layout: { "line-cap": "round", "line-join": "round" },
@@ -708,6 +817,24 @@ harita.on("load", function () {
     el.classList.toggle("uzak", z >= 4.0 && z < 5.2);
     var e = zoomEsigi();
     if (e !== sonEsik) { sonEsik = e; sehirGuncelle(suanki); }
+    etiketTazele();
+  }
+  // ⚠️ Etiket yerleşimi bugüne kadar YALNIZ dönem değişince hesaplanıyordu
+  // (devletGuncelle → etiketleriYerlestir). İşaretler MapLibre marker'ı olduğu
+  // için konumları zoom'da kendiliğinden düzeliyordu, ama PUNTO ve ÇAKIŞMA
+  // ELEMESİ zoom'a bağlı olduğu hâlde bayat kalıyordu: uzaklaşınca etiketler
+  // eski büyük puntolarında üst üste biniyor, yakınlaşınca elenmiş adlar geri
+  // gelmiyordu. Bölge kademesi zoom eşiğine (5.2) bağlı olduğu için bu artık
+  // seçenek değil — eşik geçildiğinde yeniden yerleşmesi ŞART.
+  // Kare başına değil, kare sonunda: zoom olayı sürüklerken saniyede onlarca
+  // kez ateşliyor ve yerleşim 61 bölge + ~86 gövde için DOM işareti kuruyor.
+  var etiketBekleyen = 0;
+  function etiketTazele() {
+    if (etiketBekleyen) return;
+    etiketBekleyen = requestAnimationFrame(function () {
+      etiketBekleyen = 0;
+      if (haritaHazir) etiketleriYerlestir();
+    });
   }
   harita.on("zoom", zoomSinifi);
   window.zoomEsigi = zoomEsigi;

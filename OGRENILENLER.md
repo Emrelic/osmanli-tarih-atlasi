@@ -1267,3 +1267,51 @@ yerine 767 ad çıkarmıştım. Onu **yakaladım**, çünkü sayı `denetle.py` 
 ÇELİŞİYORDU. Yani kurtaran şey dikkat değil, **iki bağımsız sayının birbirini
 tutmaması** oldu. Yukarıdaki vakada ikinci bir sayı yoktu ve kaçırdım. Kritik
 bir ölçümü tek yoldan yapma. (bkz. §19)
+
+## §35 — Sabiti paylaşmak yetmiyor, ÇIKTIYI paylaşmak gerekiyor
+
+Vektör altlığı yazarken kıyı çizgisinin motorunkiyle çakışması gerekiyordu.
+Doğru refleksi gösterdim: sadeleştirme toleransını kendi dosyama **yazmadım**,
+`uret_petek.py`'den ayrıştırarak okudum. "Tek sayı iki yerde durmasın."
+
+Ölçüldü — **yetmedi.** 16.249 kıyı köşesinde sapma:
+
+```
+medyan 0,26 km · %90 0,94 · %99 1,29 km
+%54'ü 0,2 km'den fazla · %8,1'i 1 km'den fazla
+```
+
+`%99 dilimi 1,29 km`, `SADE_TOL = 0,012° = 1,34 km`. Yani sapma gürültü değil,
+**sadeleştirme farkının kendisi.** Sebep: iki hat aynı SABİTTEN geçiyor ama
+aynı ALGORİTMADAN geçmiyor.
+
+```
+altlık : simplify(SADE_TOL)
+motor  : simplify(KARA_TOL) → coverage_simplify(SADE_TOL)
+```
+
+Douglas-Peucker böyle bileşilmez. Aynı toleransla iki kez sadeleştirmek, bir kez
+sadeleştirmekle aynı sonucu vermez.
+
+z5'te 0,4 piksel — görünmez. z8'de 3,3, z10'da 13 piksel — **bariz.** Ve `kara`
+katmanının `minzoom`u yok, çünkü Kademe 3'te altlığın kendisi olacak.
+
+**Ders:** iki yerde üretilen bir geometrinin çakışması, **paylaşılan bir sabitle
+garanti edilemez.** Sabit paylaşımı sapmanın tavanını indirir, sıfırlamaz.
+Çakışma isteniyorsa **geometrinin kendisi** paylaşılmalı — üretici onu dışa
+aktarır, tüketici okur.
+
+> "Tek sayı iki yerde durmasın"ın geometri hâli:
+> **tek geometri iki yerde üretilmesin.**
+
+📌 Ve bu, aynı gün çıkan üç "yazılmış ama çalışmıyor" vakasıyla (`isg:` üreticisi
+yok · `serbest-hale` katmanı hata fırlatıyor · lisans dosyasında `404: Not Found`)
+aynı aileden: **doğru görünen, ölçülmeden doğrulanmamış bir varsayım.** Farkı
+şu ki bu vakada varsayım *benimdi* ve refleks de doğruydu — yalnız yeterli
+değildi. Doğru refleks, ölçümün yerini tutmuyor. (bkz. §34)
+
+⚠️ Geçişin nasıl yapıldığı da ders: tüketici tarafı **geriye uyumlu** yazıldı —
+dışa aktarılan dosya varsa o kullanılır, yoksa eski yerel üretim sürer. Böylece
+iki oturumun aynı anda iş yapması gerekmedi, kilit gerekmedi, ve dosya belirdiği
+an davranış kendiliğinden değişti. İki taraflı bir değişikliği tek taraflı
+uygulanabilir hâle getirmek, koordinasyon maliyetini sıfırlıyor.

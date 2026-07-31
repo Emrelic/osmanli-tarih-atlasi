@@ -168,7 +168,44 @@ _kara = _kara.difference(GOL_BIRLIK).buffer(0)
 # Altlığı 0.002'de çizersem kıyı ile ona yaslanmış devlet sınırı gözle ayrışır;
 # tam kaçınmak istediğimiz şey. Ayrıca dosya 1,67 MB'den 0,74 MB'ye iniyor.
 # 📌 Kural: altlık toleransı SADE_TOL'den OKUNUR, ayrıca yazılmaz.
-KATMAN["kara"] = _fc([_kara.buffer(0).simplify(SADE_TOL, preserve_topology=True)])
+#
+# 🔴 VE BU KURAL YETMİYOR — COĞRAFYA ölçtü (31 Temmuz), sayılar aşağıda.
+# Sabiti paylaşmak çakışmayı GARANTİ ETMİYOR, çünkü iki hat aynı toleranstan
+# geçse de aynı ALGORİTMADAN geçmiyor:
+#     altlık : _kara.simplify(SADE_TOL)                    ← burası
+#     motor  : KARA.simplify(KARA_TOL) → coverage_simplify(SADE_TOL)
+# Douglas-Peucker böyle bileşilmez. Ölçülen sapma (16.249 kıyı köşesi):
+#     medyan 0,26 km · %75 0,62 · %90 0,94 · %99 1,29 km
+#     köşelerin %54'ü 0,2 km'den, %8,1'i 1 km'den fazla sapıyor
+# %99 dilimi teorik üst sınıra (0,012° = 1,34 km) yapışık — yani sapma
+# tesadüf değil, sadeleştirme farkının kendisi. z5'te görünmez (0,4 px) ama
+# z8'de 3,3 px, z10'da 13 px: `kara`nın minzoom'u yok, Kademe 3'te altlığın
+# kendisi olacağı için her yakınlaştırmada açık.
+#
+# ⇒ ÇÖZÜM SADELEŞTİRME AYARI DEĞİL, KAYNAK: motorun nihai örtüsünün birleşimi
+# ZATEN "motorun çizdiği kara"dır (hücreler BOLGE'yi döşer, KARA'ya kırpılır).
+# Onu dışa aktarıp burada TÜKETİRSEK çakışma inşa gereği tam olur.
+# 📌 Genel kural: "tek sayı iki yerde durmasın"ın geometri hâli —
+#    TEK GEOMETRİ İKİ YERDE ÜRETİLMESİN. Sabiti paylaşmak yetmiyor,
+#    ÇIKTIYI paylaşmak gerekiyor.
+#
+# ⚠️ Geçiş GERİYE UYUMLU yazıldı ve bilerek: dışa aktarım MOTOR'un işi ve
+# henüz yok. Üretimi şimdi kaldırsaydım `kara` katmanı boş kalır, Kademe 3'ün
+# TEMELİ (kara/deniz ayrımı) yerine hiçbir şey gelmezdi. Dosya varsa tüketilir,
+# yoksa eski yol sürer — MOTOR dışa aktarımı bağımsız indirebilir, kilit
+# gerekmez.
+_MOTOR_KARA = os.path.join(KOK, "veri-kaynak", "motor_kara.geojson")
+if os.path.exists(_MOTOR_KARA):
+    with io.open(_MOTOR_KARA, encoding="utf-8") as _f:
+        _mk = json.load(_f)
+    KATMAN["kara"] = _mk if _mk.get("type") == "FeatureCollection" else _fc(
+        [shape(_mk)])
+    print("   kara: MOTORUN ORTUSUNDEN alindi (sapma insa geregi 0)")
+else:
+    KATMAN["kara"] = _fc([_kara.buffer(0).simplify(SADE_TOL,
+                                                   preserve_topology=True)])
+    print("   kara: yerel uretim (motor_kara.geojson YOK) "
+          "— kiyi sapmasi %99 dilimde 1,29 km")
 
 print("nehir (pencere ici HEPSI)...")
 _rv = _yukle("ne_10m_rivers.geojson")

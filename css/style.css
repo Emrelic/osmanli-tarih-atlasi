@@ -814,6 +814,25 @@ body {
   pointer-events: none;
 }
 
+/* Bölge (eyalet) adı — md.21'in ikinci yarısı.
+   İKİNCİ KADEME olduğu ayrı bir eksende anlatılıyor: punto değil BİÇİM.
+   Sebep ölçülmüş bir çakışmadan geliyor — bölge bandı 8-14, devlet bandı
+   10-26; yani büyük bir eyalet (Hartum 14) küçük bir devletten (Ragusa 10)
+   daha iri yazılabiliyor. Kademeyi punto ile anlatmaya çalışsaydık ya
+   bölgeleri okunmaz derecede küçültmek ya da alanı sürücü olmaktan çıkarmak
+   gerekirdi; ikisi de §33'ün dersine aykırı. Bunun yerine ayrım RENK ve
+   BÜYÜK/KÜÇÜK HARF'te: devlet adı büyük harf ve koyu, bölge adı normal yazım
+   ve bölge sınırının kendi kahvesi (#5a3a24). */
+.bolge-etiket {
+  /* font-size YOK: app.js bölge alanından hesaplayıp inline veriyor. */
+  font: 500 1em/1.15 system-ui, sans-serif;
+  color: rgba(90, 58, 36, 0.82);
+  letter-spacing: 0.04em;
+  text-shadow: 0 0 0.34em #fff, 0 0 0.16em #fff, 0 0.08em 0.16em #fff;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
 
 /* Antlaşma devir lejantı — hatalar 8.docx madde 1.
    Taralı alan tek başına anlamsız: hangi renk hangi ülke, yazmak şart. */
