@@ -23,6 +23,7 @@ from shapely.geometry import (shape, box, Polygon, MultiPolygon, Point, MultiPoi
 from shapely.ops import unary_union, voronoi_diagram, nearest_points, linemerge, polygonize
 from shapely.strtree import STRtree
 from shapely.validation import make_valid
+from shapely.prepared import prep
 
 def temiz(q):
     """Geçersiz halkaları onarır; make_valid'in döndürebileceği çizgi artıklarını atar."""
@@ -575,8 +576,208 @@ for _k in _komp:
             _yalitilan += 1
 print(f"  {_tasan} taşma kesildi, {_yalitilan} boşta kalan parça içerideki yerleşime verildi")
 
+
+def _ham_km2(g):
+    """Yuvarlamasız km² — alan_km2 bini yuvarladığı için oran hesabına uymuyor."""
+    if g is None or g.is_empty:
+        return 0.0
+    ps = g.geoms if isinstance(g, MultiPolygon) else [g]
+    T = 0.0
+    for p in ps:
+        for ring, sg in [(p.exterior, 1)] + [(h, -1) for h in p.interiors]:
+            cs = list(ring.coords); s = 0.0
+            for i in range(len(cs) - 1):
+                lo1, la1 = math.radians(cs[i][0]), math.radians(cs[i][1])
+                lo2, la2 = math.radians(cs[i + 1][0]), math.radians(cs[i + 1][1])
+                s += (lo2 - lo1) * (2 + math.sin(la1) + math.sin(la2))
+            T += sg * abs(s * R_DUNYA * R_DUNYA / 2)
+    return T
+
+
+# ---------------- KARA-KISITLI SAHİPLİK ----------------
+# Ada kuralı KARA BİLEŞENİ bazlıdır ve Afrika ile Avrasya Sina üzerinden TEK
+# bileşendir; bu yüzden Oran'ın peteği İspanya anakarasına geçebiliyordu. Kural
+# "ihlal yok" diyor, sonuç saçma. Kullanıcının cümlesi (hatalar 15 md.19):
+# "PETEK BÖLGESİ DENİZAŞIRI OLAMAZ… binlerce kilometre karadan geçiş ile bu
+# bölgenin Oran'a ait olması mantıksız."
+#
+# Çare: sahipliği DÜZ mesafeyle değil KARA ÜZERİNDEN mesafeyle sormak. Kara
+# maskesi ızgaraya dökülür, bütün tohumlardan çok kaynaklı Dijkstra koşar, her
+# hücre "kara yolundan en yakın tohum"unu öğrenir.
+#
+# ⚠️ IZGARA YALNIZ SAHİPLİĞE KARAR VERİR, SINIR ÇİZMEZ. Sınır yine Voronoi'den
+#    gelir; bu yüzden ızgaranın kabalığı haritaya YANSIMAZ. Aksi hâlde çözümün
+#    kendisi yeni bir "cetvel" kusuru üretirdi — çaresi derdinden beter olurdu.
+#
+# ⚠️ KAPSAM — prototipin İLK sürümündeki hata ve düzeltmesi.
+#    İlk sürüm ızgarayı BÜTÜN parçalara sordu ve saçmaladı: en büyük iki
+#    değişiklik Nijniy Novgorod→Vologda (243.191 km²) ve Moskova→Vologda
+#    (124.467 km²) çıktı; ikisi de iç karada, denizle ilgisi yok. Sebep:
+#    0,05° ızgara mesafeyi ~%8 hatayla ölçer (oktil yaklaşımı + tohum
+#    yuvarlaması) ve KARADA bu, Voronoi'nin KESİN cevabından kötüdür.
+#    Doğru kapsam, yaklaşık yöntemi kesin yöntemin YANILDIĞI yere kısıtlamaktır:
+#      · tohum→parça düz hattı tamamen karadaysa → düz mesafe geçerli, VORONOI KALIR
+#      · hat denizden geçiyorsa                  → düz mesafe anlamsız, IZGARA KARAR VERİR
+#    Eşik yok; ölçüt "hat denizi kesiyor mu", bir sayı değil.
+#
+# GEÇME ÖLÇÜTÜ (prototipte ölçüldü, 32/32 parça kabul edildi): Oslo, Königsberg
+# ve Azak dar su geçişli MEŞRU parçalardır ve 0 km² kaybetmelidir. Kural onları
+# bozuyorsa kural yanlıştır.
+KV_ADIM = 0.05                   # ≈5,5 km enlemde
+KV_MIN_KM2 = 200.0               # ızgara çözünürlüğünün güvenilir olduğu taban
+print(f"Kara-kısıtlı sahiplik: ızgara {KV_ADIM}° kuruluyor...")
+_kvx0, _kvy0, _kvx1, _kvy1 = BOLGE.bounds
+_kvnx = int(round((_kvx1 - _kvx0) / KV_ADIM))
+_kvny = int(round((_kvy1 - _kvy0) / KV_ADIM))
+_kvkp = prep(KARA)
+_kvkara = bytearray(_kvnx * _kvny)
+for _j in range(_kvny):
+    _lat = _kvy0 + (_j + 0.5) * KV_ADIM
+    for _i in range(_kvnx):
+        if _kvkp.contains(Point(_kvx0 + (_i + 0.5) * KV_ADIM, _lat)):
+            _kvkara[_j * _kvnx + _i] = 1
+print(f"  ızgara {_kvnx}×{_kvny} = {_kvnx*_kvny:,} hücre, "
+      f"kara {sum(_kvkara):,}")
+
+# Tohumları ızgaraya oturt. ⚠️ Kıyıdaki tohum su hücresine düşebilir (0,002°
+# maske vs 0,05° ızgara); en yakın kara hücresine kaydırılmazsa ulaşılmaz olur.
+_kvtohum, _kvkaydi, _kverisilmez = {}, 0, []
+for _idx, _y in enumerate(YERLER):
+    _i = min(_kvnx - 1, max(0, int((_y["lon"] - _kvx0) / KV_ADIM)))
+    _j = min(_kvny - 1, max(0, int((_y["lat"] - _kvy0) / KV_ADIM)))
+    if not _kvkara[_j * _kvnx + _i]:
+        _en, _ed = None, 9e9
+        for _dj in range(-3, 4):
+            for _di in range(-3, 4):
+                _a, _b = _i + _di, _j + _dj
+                if 0 <= _a < _kvnx and 0 <= _b < _kvny and _kvkara[_b * _kvnx + _a]:
+                    _d = _di * _di + _dj * _dj
+                    if _d < _ed: _ed, _en = _d, (_a, _b)
+        if _en is None:
+            _kverisilmez.append(_y["ad"]); continue
+        _i, _j = _en; _kvkaydi += 1
+    _kvtohum.setdefault(_j * _kvnx + _i, []).append(_idx)
+print(f"  {sum(len(v) for v in _kvtohum.values())} tohum yerleşti "
+      f"({_kvkaydi} tanesi en yakın kara hücresine kaydırıldı)")
+if _kverisilmez:
+    print(f"  ⚠️ ızgarada yer bulunamayan {len(_kverisilmez)} tohum "
+          f"(bu noktalar için Voronoi kalır): {', '.join(_kverisilmez[:8])}")
+
+# Çok kaynaklı Dijkstra, YALNIZ kara hücreleri üzerinden. Adım maliyeti gerçek
+# km: boylam adımı cos(enlem) ile daralır, yoksa kuzeyde mesafeler şişer ve
+# Baltık/Norveç vakaları yanlış tarafa düşer.
+import heapq as _heapq
+_kvuzak = [float("inf")] * (_kvnx * _kvny)
+_kvsahip = [-1] * (_kvnx * _kvny)
+_kvq = []
+for _h, _idxs in _kvtohum.items():
+    _kvuzak[_h] = 0.0
+    _kvsahip[_h] = _idxs[0]
+    _heapq.heappush(_kvq, (0.0, _h))
+_KVDY = KV_ADIM * 111.32
+while _kvq:
+    _d, _h = _heapq.heappop(_kvq)
+    if _d > _kvuzak[_h]: continue
+    _j, _i = divmod(_h, _kvnx)
+    _dx = _KVDY * math.cos(math.radians(_kvy0 + (_j + 0.5) * KV_ADIM))
+    for _di, _dj in ((1,0),(-1,0),(0,1),(0,-1),(1,1),(1,-1),(-1,1),(-1,-1)):
+        _a, _b = _i + _di, _j + _dj
+        if not (0 <= _a < _kvnx and 0 <= _b < _kvny): continue
+        _k = _b * _kvnx + _a
+        if not _kvkara[_k]: continue
+        _nd = _d + math.hypot(_dx * _di, _KVDY * _dj)
+        if _nd < _kvuzak[_k]:
+            _kvuzak[_k] = _nd; _kvsahip[_k] = _kvsahip[_h]
+            _heapq.heappush(_kvq, (_nd, _k))
+print(f"  kara yolu çözüldü, erişilen hücre {sum(1 for s in _kvsahip if s >= 0):,}")
+
+# Parçaları sına ve el değiştirenleri UYGULA. Parça bütün olarak taşınır, yani
+# birleşim korunur: kaybolan ya da iki kez sayılan toprak olamaz. Bunu aşağıdaki
+# _bozuk_dok ayrıca doğrular.
+#
+# 🔴 ANA PARÇA DOKUNULMAZ — bu kuralın eksikliği ilk koşuyu düşürdü.
+# İlk sürümde bu koruma yoktu ve on liman peteğinin TAMAMINI kaybetti:
+# Sinop, Aden, Benzert, Koron, Hafun, Arkîko, Masavva, Şârika, ve en çarpıcısı
+# **Küngrat %0 (0 / 132.678 km²)** — yani "Küngrat → Üstyurt 132.678 km²"
+# geçme ölçütü tutuyordu ama devretilen şey Küngrat'ın peteğinin TAMAMIYDI.
+# Ölçüt bir kusuru ölçüyormuş: liman kendi ayağının altındaki toprağı da verdi.
+# Sebep: kıyı yerleşiminin parçası tohumdan körfezle ayrılabiliyor, düz hat
+# denizi kesiyor, ızgara "kara yolundan daha yakın bir iç yerleşim var" diyor —
+# ve teknik olarak haklı. Ama bir yerleşimin ÜZERİNDE DURDUĞU toprak asla
+# başkasına geçemez; bu bir mesafe sorusu değil, tanım gereği böyle.
+_kvana = []
+for _i in range(len(PETEK_D)):
+    _g = PETEK_D[_i]
+    if _g is None or _g.is_empty:
+        _kvana.append(None); continue
+    _ps = list(_g.geoms) if _g.geom_type == "MultiPolygon" else [_g]
+    _ic = [p for p in _ps if p.contains(_ptl[_i])]
+    _kvana.append(_ic[0] if _ic else min(_ps, key=lambda p: p.distance(_ptl[_i])))
+
+_kvver, _kval, _kvdegisen = {}, {}, []
+_kvkucuk_n, _kvkucuk_a = 0, 0.0
+_kvkararsiz, _kvana_korundu = 0, 0
+for _i, _g in enumerate(PETEK_D):
+    if _g is None or _g.is_empty: continue
+    for _p in (_g.geoms if _g.geom_type == "MultiPolygon" else [_g]):
+        if _p.is_empty: continue
+        if _kvana[_i] is not None and _p.equals(_kvana[_i]):
+            _kvana_korundu += 1
+            continue                      # tohumun üstündeki toprak devredilmez
+        _a = _ham_km2(_p)
+        if _a < KV_MIN_KM2:
+            _kvkucuk_n += 1; _kvkucuk_a += _a
+            continue                      # ızgara bu ölçekte karar veremez
+        _rp = _p.representative_point()
+        if _kvkp.contains(LineString([_ptl[_i], _rp])):
+            continue                      # kesin geometri geçerli — dokunma
+        _gi = min(_kvnx - 1, max(0, int((_rp.x - _kvx0) / KV_ADIM)))
+        _gj = min(_kvny - 1, max(0, int((_rp.y - _kvy0) / KV_ADIM)))
+        _s = _kvsahip[_gj * _kvnx + _gi]
+        if _s < 0:
+            _kvkararsiz += 1; continue    # ızgarada su/erişilmez → karar verme
+        if _s != _i:
+            _kval.setdefault(_i, []).append(_p)
+            _kvver.setdefault(_s, []).append(_p)
+            _kvdegisen.append((_a, YERLER[_i]["ad"], YERLER[_s]["ad"], _rp.y, _rp.x))
+for _i, _ps in _kval.items():
+    PETEK_D[_i] = poligonal(PETEK_D[_i].difference(unary_union(_ps).buffer(0)))
+for _i, _ps in _kvver.items():
+    PETEK_D[_i] = poligonal(unary_union([PETEK_D[_i]] + _ps))
+print(f"  {len(_kvdegisen)} parça el değiştirdi, toplam "
+      f"{sum(d[0] for d in _kvdegisen):,.0f} km²")
+print(f"  ızgaraya sorulmayan: {_kvkucuk_n} parça / {_kvkucuk_a:,.0f} km² "
+      f"({KV_MIN_KM2:.0f} km² altı) · kararsız {_kvkararsiz} · "
+      f"ana parça korundu {_kvana_korundu}")
+# Hiçbir petek tamamen boşalmamalı — ana parça kuralı bunu garanti eder, ama
+# garanti EDİLDİĞİNİ VARSAYMAK yerine ölçülür. İlk koşuyu düşüren tam buydu.
+_kvbos = [YERLER[_i]["ad"] for _i in range(len(PETEK_D))
+          if _kvana[_i] is not None and PETEK_D[_i].is_empty]
+print(f"  kara-kısıtlı sahiplik sonrası boşalan petek: {len(_kvbos)} "
+      + ("✓" if not _kvbos else "✗ " + ", ".join(_kvbos[:10])))
+for _a, _eski, _yeni, _lat, _lon in sorted(_kvdegisen, reverse=True)[:20]:
+    print(f"     {_a:>10,.0f} km²  {_eski:<22} → {_yeni:<22} "
+          f"{_lat:6.2f}K {_lon:7.2f}D")
+if len(_kvdegisen) > 20:
+    print(f"     … ve {len(_kvdegisen)-20} parça daha (hepsi yukarıdaki "
+          f"toplama dahil)")
+
+# ⚠️ BU SATIR YILLARDIR "✗" BASIYORDU VE KİMSE BAKMIYORDU — ölçüldü, açıklandı.
+# Sadeleştirme aşamalarında bozuk kenar SIFIR (_n0 = _n1 = 0). 32 kenar yalnız
+# `PETEK_D = g.intersection(KARA)` adımından sonra çıkıyor: örtü hücreler
+# arasında geçerli, ama her hücre kara maskesiyle AYRI AYRI kesilince ortak
+# kenar iki hücrede farklı düğümleniyor (fark 15. ondalıkta, ~1e-10 m).
+# Bu uyuşmazlık HARİTAYA ULAŞMIYOR — çıktıdan önce hücreler gövdeye
+# birleştiriliyor ve birleştirme yarığı yutuyor. r176 çıktısında ölçüldü
+# (scratchpad/bozuk_kenar.py): 1 km²'den küçük iç delik 0, 5 km² altı yarık 0,
+# dört kesitte de parça toplamı = birleşik alan (fark 0 km²).
+# Doğru okuma mutlak sayı değil TABANA GÖRE ARTIŞ: taban 32 ise sessiz kalmalı,
+# artarsa gerçekten yeni bir uyuşmazlık açılmış demektir.
+BOZUK_KIYI_TABAN = 32
 _nk = _bozuk_dok(PETEK_D, "kıyı")
-print(f"  kıyı kesimi sonrası örtü: {_nk} bozuk kenar " + ("✓" if _nk == 0 else "✗"))
+print(f"  kıyı kesimi sonrası örtü: {_nk} bozuk kenar (taban {BOZUK_KIYI_TABAN}, "
+      f"gövde birleştirmesi yutuyor) "
+      + ("✓" if _nk <= BOZUK_KIYI_TABAN else "✗ TABANIN ÜSTÜNDE — YENİ UYUŞMAZLIK"))
 
 # ---------------- Zaman çizelgesi: kırılma tarihleri ----------------
 tarihler = set()
@@ -621,23 +822,6 @@ def alan_km2(g):
 # ama sağlam). Oran, yoğunluktan bağımsız olarak yalnız KAYBI ölçer.
 SIFIR_PETEK_ORAN = 0.10          # ham hücrenin %10'unun altı: hücre yok edilmiş
 print("Petek alanları denetleniyor (yedinci denetim)...")
-
-
-def _ham_km2(g):
-    """Yuvarlamasız km² — alan_km2 bini yuvarladığı için oran hesabına uymuyor."""
-    if g is None or g.is_empty:
-        return 0.0
-    ps = g.geoms if isinstance(g, MultiPolygon) else [g]
-    T = 0.0
-    for p in ps:
-        for ring, sg in [(p.exterior, 1)] + [(h, -1) for h in p.interiors]:
-            cs = list(ring.coords); s = 0.0
-            for i in range(len(cs) - 1):
-                lo1, la1 = math.radians(cs[i][0]), math.radians(cs[i][1])
-                lo2, la2 = math.radians(cs[i + 1][0]), math.radians(cs[i + 1][1])
-                s += (lo2 - lo1) * (2 + math.sin(la1) + math.sin(la2))
-            T += sg * abs(s * R_DUNYA * R_DUNYA / 2)
-    return T
 
 
 # ⚠️ ORAN TABANI: ham hücre TÜM KARA ile değil, yerleşimin KENDİ kara bileşeni

@@ -252,4 +252,22 @@ BOYALAR = {
     # Bindirilmiş ΔE — fransa 19,8 · fas 20,5 · ispanya 23,3 · Osmanlı tonları 26-33.
     "abdulkadir": ("Emîr Abdülkādir Devleti", "#26a69a"),
     "atinadukaligi": ("Atina Dukalığı",       "#8a9e8a"),
+
+    # ---- Bozkır: `yerlesimler_ortaasya2.js` merge'ünden ÖNCE hazır olsun ----
+    # Renksiz kimlikle merge edilirse motor "kimliksiz nokta" uyarısı basar; bu
+    # yüzden renk önce girer, izin listesi sonra. Dosyada başka renksiz kimlik
+    # YOK — altinorda, timurlu ve ilhanli zaten tanımlı (ölçüldü).
+    #
+    # ⚠️ KİMLİK ADI: kısa `kazak` DEĞİL. Türkçede "kazak" hem Kazak Hanlığı'nı
+    # hem Ukrayna kazaklarını karşılıyor ve atlas ikisini de kapsıyor; karışma
+    # sessiz olurdu. Merkez oturumun kararı `kazak-hanligi`.
+    # 🔴 `yerlesimler_ortaasya2.js` bugün hâlâ `d:"kazak"` yazıyor — dosya
+    #    Oturum 9'un, düzeltmesi onda. Merge'den önce eşleşmeli.
+    #
+    # Komşuluk gerçek Voronoi'den (gün bazında dönem çakışmasıyla), ΔE dosya
+    # başındaki kurala göre BİNDİRİLMİŞ (dolgu %30, bej altlık); eşik 12,0.
+    #   kazak-hanligi: 9 komşu — safevi ΔE 14,9 · buhara 17,6 · timurlu 19,8
+    #   nogay        : 5 komşu — timurlu ΔE 21,2 · rusya 22,0 · hive 31,0
+    "kazak-hanligi": ("Kazak Hanlığı",        "#ad1457"),
+    "nogay":         ("Nogay Ordası",         "#f9a825"),
 }
