@@ -985,3 +985,63 @@ taşıyor.
 📌 Ada kuralı bugünkü hâliyle kalıyor: gerçek **adalar** için (Midilli, Bozcaada,
 Kıbrıs, Girit) doğru çalışıyor, yalnız kıtasal ölçekte kör. Kara-kısıtlı Voronoi
 devreye girince onun özel hâli olur ve kaldırılabilir — ama ayrıca ölçülmeden değil.
+
+---
+
+## 22-DÜZELTME. Reçete yarımdı: kıyıya değen gövdede D1 ölçüm değil GÜRÜLTÜ
+
+`§22` "cetvelle çizilmiş" şikâyetinin ölçüsünü **köşe/1000 km** olarak verdi ve
+doğru ölçütü *"iki gövdenin ortak kenarı"* diye yazdı. Ama uygulamada **D1**
+kullanıldı: *gövde sınırı eksi kıyı*. Oturum 16 bunun bir sınıfta çöktüğünü ölçtü.
+
+**Kırım, aynı kutu · aynı gün · aynı gövde, yalnız kıyı tamponu değişerek:**
+
+```
+kıyı tamponu   0.005   0.010   0.020   0.050
+köşe/1000 km   115,3    32,6    30,2    34,9      ← 3,5 KAT oynuyor
+```
+
+Sonuç ölçüm değil **parametre seçimi**. Sebep: Kırım gövdesinin sınırı neredeyse
+tamamen kıyı; geriye kalan kırıntının köşe sayısı tamponun kaç köşe yuttuğuna
+bağlı. Boğdan'da tutmasının sebebi orada iç sınırın 1.500-1.900 km ve gerçekten
+karasal olması — yani D1 **yarımadada çöküyor, karasal gövdede çalışıyor.**
+
+### Doğru ölçüt: D2 — iki gövdenin ORTAK kenarı
+
+`O.boundary ∩ V.boundary`. Kıyı hiç kullanılmaz, tanımda kıyı tamponu **yoktur**.
+20 kat parametre aralığında dayanıklılık:
+
+| | D1 (eski) | D2 (doğru) |
+|---|---|---|
+| Kırım dar | **3,5×** oynuyor | 1,13× |
+| Kırım geniş | — | 1,06× |
+| Boğdan 1600 | — | 1,01× |
+| Boğdan 1700 | — | 1,00× |
+
+### Ve sonuç değişti — Kırım cetvelle çizilmiş DEĞİL
+
+```
+Kırım iç sınırı (D2)   95,6 – 107,6      ← sağlıklı bandın hafif altında
+sağlıklı bant          115 – 118
+Libya çölü              18,1              ← yanına bile yaklaşmıyor
+Boğdan (D2)            93,7 – 132,7
+```
+
+Daha önce kayda geçen **32,5** ve **62,8** sayılarının ikisi de artefaktmış; ve
+"Boğdan, Kırım'ın üç katı" cümlesi de yanlışmış. Kırım'ın ikili renk **oranı**
+hâlâ düzeltilecek (%39 vs tarihen ~%15-20) ama **sınırın kabalığı diye bir sorun
+yok.**
+
+### Reçeteye eklenen: kalibrasyon da yazılır
+
+Ölçüm bildirilirken şunlar da bildirilir, yoksa iki oturum aynı yer için farklı
+sayı üretir ve ikisi de "ölçtüm" der:
+
+- **kutu sınırları** (lat/lon)
+- **ölçüm günü**
+- **hangi gövde çifti** (O↔V, O↔yabancı, …)
+- ⚠️ **ölçümün kıyıya dokunmadığı**
+
+> Bir reçete ölçüyü söylüyor ama **kalibrasyonu söylemiyorsa**, iki bağımsız
+> ölçüm birbirini doğrulamaz — yalnız birbiriyle çelişir ve hangisinin doğru
+> olduğu anlaşılmaz. Bugün tam bu oldu: 32,5'e karşı 62,8, ve **ikisi de yanlıştı.**
