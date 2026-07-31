@@ -330,6 +330,44 @@ süzgeç değil **taban dağılım**: 1250-1299'da zaten 5 madde var, 1800-1849'
 144. Kullanıcı süzgeç açmadan da seyrek bir yüzyıla yakınlaşıp "hata var"
 sanabilir. Gösterge tabanı anlatmalı, süzgeç etkisini değil.
 
+## 🔴 ÖLÇÜM — şehir görünürlük eşiği: ÜÇ ADAY SİNYALİN ÜÇÜ DE ÇÖKÜYOR
+
+Kullanıcı kararı (a): şehir katmanı yakınlaştırmaya göre çalışacak.
+Koordinatör haklı olarak uyardı: eşiği `g:`ye bağlarsan 846 kayıt **tek
+kovada** olur. Ölçtüm — ve `tur:` de, anılma sayısı da kurtarmıyor.
+
+```
+aday 1 — g:      846 tek kovada                        ✗
+aday 2 — tur:    sehir 416 · kale 222 · liman 147 · bolge 61   ✗ en büyük kova 416
+aday 3 — kronolojide anılma sayısı (app.js'in kendi ölçütüyle):
+         hiç anılmayan 538 (%63,6) · 1 kez 168 · 2-3 kez 105 · 4-9 kez 32 · 10+ kez 3
+         medyan 0 · %90 2 · azami 17 (Venedik)          ✗ 538 tek kovada
+```
+
+⇒ **Veride bu 846 kayıt için yerleşik bir önem derecesi YOK.** Hangi mevcut
+alana bağlarsak bağlayalım, yüzlerce işaret tek bir zoom kademesinde birden
+belirir — kullanıcının şikâyet ettiği "ekran çöplüğü"nün ta kendisi.
+📌 Üç sinyali de denemeden birini seçseydik "makul göründü" diye yazacaktık;
+`OGRENILENLER §34`'ün ölçütü (*"başka bir cevap verebileceği bir dünya
+olmalı"*) burada gerçekten farklı cevap verdi.
+
+### Öneri: eşiği ATTRİBÜTE değil, EKRAN YOĞUNLUĞUNA bağla
+
+Sıralama için zayıf sinyal yeter; **eleme işini çakışma yapsın.** Bu makine
+zaten var, kurulu ve ölçülmüş: devlet etiketleri ve (bugün eklenen) bölge
+etiketleri aynı `yerlesen` kutu dizisiyle eleniyor ve ölçümü
+**taban 1 · bant 47 · tavan 0** çıktı.
+
+- **Sürücü (sıralama):** petek alanı — sürekli, eşitliksiz, bedava (`PETEKLER`
+  çalışma anında elde). `g:`/`tur:`/anılma **kırıcı** olarak eklenebilir.
+- **Eleme:** ekranda kutu çakışması — zoom arttıkça yer açılır, işaretler
+  kendiliğinden kademe kademe belirir. Eşik tablosu yazmaya gerek kalmaz.
+
+⚠️ Sınama **dağılımla** yapılacak (§33): her zoom kademesinde kaç işaret
+görünüyor — "kalabalık değil" ölçüm değildir.
+⏳ Ölçülmedi: 846 kaydın petek alanı dağılımı gerçekten sürekli mi. Bir
+sonraki ölçüm bu.
+
 ## ⏳ Bloke — görsel doğrulama
 
 Tarayıcı paneli kapalı olduğu için sayfa kare üretmiyor
