@@ -61,6 +61,65 @@ durum tablosunu güncelle.
       değil.** Kademe 2'den sonra görünen hat ile motorun hattı aynı olur.
       Şartname: `oturumlar/COGRAFYA-HATLAR.md` *(COĞRAFYA yazar, K uygular)*
 
+- [ ] 🔴🔴 **BİRİM TUTARLILIĞI: `cos(enlem)` — AVRUPA MERGE'ÜNDEN ÖNCE KAPANMALI.**
+      Motor bütün mesafeleri **derece** cinsinden tutuyor ama yorumlarında **km**
+      yazıyor. `denetle_olcek.py` ölçtü (31 Temmuz):
+      ```
+      KORUMA_PAYI 0.060°   ekvator 6,7 km · Boğdan 4,5 · Riga 3,6   yorumu "~6.7 km"
+      nehir_mes   0.300°   33,4 → 22,3 km                            yorumu "33 km"
+      sirt_mes    0.350°   39,0 → 26,1 km
+      KV_ADIM     0.050°   yorumu "≈5,5 km ENLEMDE" ← bu DOĞRU yazılmış
+      ```
+      Aynı dosyada hem doğru hem yanlış yazım yan yana; doğru yazımı bilen el
+      üç satır ötede yanlışını bırakmış.
+      🔴 **BAĞIMLILIK — sırası kayarsa bedeli KATLANARAK büyür.** Bugün zararsız
+      görünmesinin tek sebebi haritanın dar olması: pencere `box(-12,1.5,62,62)`
+      ve verinin ağırlığı 35-42°'de, orada hata %18-25.
+      ```
+      40°   cos 0,77   0.30° = 25,7 km
+      55°   cos 0,57   0.30° = 19,1 km   ← Baltık; Oturum 12'nin 228 Avrupa noktası
+      62°   cos 0,47   0.30° = 15,7 km   ← pencerenin kuzey sınırı
+      ```
+      Avrupa merge'ü yapıldığı gün Baltık ve İskandinavya'da yaslama yarıçapı
+      **sessizce yarıya iner** ve o günün A/B'sinde *"yeni noktalar eklendi"*
+      gürültüsünün altında görünmez. Bugün ucuz, o gün adlî inceleme.
+      ⚠️ Gerekçesi **"ölçülen bozukluk" DEĞİL, "birim tutarlılığı"** — enlem
+      hipotezi (kuzeyde çöküş daha ağır) ölçüldü ve **çürütüldü**; belirleyici
+      değişken komşu mesafesi. Zayıf değil, dürüst gerekçe.
+      ⇒ Çöl tavanıyla **aynı koşuda**, tek kalem olarak. *(MOTOR)*
+
+- [ ] **Yedinci denetime İKİNCİ BANT** — `%10 altı` ile `%10-60` iki ayrı soru.
+      Bugünkü eşik "hücre YOK EDİLDİ" için kalibre (Estergon 8/4.819 = %0,2).
+      Ama Budin **%41** ve denetim onu görmüyor — doğru davranıyor, yanlış soru
+      soruyor. Kullanıcı ise %59'luk kaybı **görüyor**.
+      ```
+      %10 altı   ✗ HATA    hücre yok edildi, fetih maddesi haritada görünmez
+      %10-60     ⚠️ AŞINMA  hücre aşındı, gövde küçülmüş görünür   ← ölçütü YOK
+      ```
+      Eşiği oynatmak ÇÖZÜM DEĞİL: gerçek "yok edildi" vakaları 56 yanlış alarmın
+      içinde kaybolur. İkinci bant ayrı bassın, üretimi durdurmasın. *(MOTOR)*
+      ✅ Yan kazanç ölçüldü: **Estergon artık %93** — `KORUMA_PAYI` o vakayı
+      gerçekten çözmüş, 8 km²'lik çöküş yama öncesine ait. Yamanın işe yaradığı
+      ilk ölçüm. Yeni ölçüt: **Estergon %93'ün altına inmemeli.**
+
+- [ ] **Nehrin üstündeki yerleşimin peteği aşınıyor — 7 kayıt.**
+      Kural: *bir yerleşimin ÜZERİNDE DURDUĞU nehir, o yerleşimin kendi hücresi
+      için yaslama hedefi değildir.* (Aynı nehir, BAŞKA yerleşimin sınırı için
+      hedef olmaya devam eder — Kamaniçe/Hotin'de Dinyester hudut kalmalı.)
+      ```
+      Budin %41 · Kûfe %52 · Akhisar %57 · Hotin %58 · Ordubad %63 ·
+      Çarşamba %64 · Mihaliç %65        (nehre 2 km'deki 63 kaydın 56'sı %80+)
+      ```
+      📌 Kullanıcının sorusu *"Buda/Peşte gibi iki yakalı şehirlerde bölge karşıya
+      geçmeli mi"* idi. Ölçüm başka yeri gösterdi: 24 çiftin **22'si yılların
+      ≥%95'inde aynı sahip**, yani aralarındaki sınır çizilmiyor bile. Bozuk olan
+      çift değil, **tek şehir**: Tuna, Budin'in kendi hücresini içeriden yiyor.
+      Peşte %90 sağlam.
+      ⚠️ Kullanıcının çözüm önerisi (*"nehrin ötesindeki dağ sırtına dayansın"*)
+      63 vakanın yalnız **4'ünde** mümkün; kendi örneğinde imkânsız — Budin sırta
+      96 km, en yakın komşusuna 2 km. Macar ovasında sırt yok.
+      Şartname: `oturumlar/COGRAFYA-*.md` *(COĞRAFYA yazar, MOTOR uygular)*
+
 - [ ] 🔴 **ÇÖL TAVANI 300 km — kullanıcı kararı, 31 Temmuz.**
       Bugün tavan YOK: Batı Sahra'nın ortası **1.000 km öteden** Timbuktu'ya ve
       Agadir'e bağlı. Kullanıcının itirazı: *"bir yerleşim çöl kıyısında diye
