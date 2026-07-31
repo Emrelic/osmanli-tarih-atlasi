@@ -359,7 +359,11 @@ var harita = new maplibregl.Map({
         tiles: ["https://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}"],
         tileSize: 256,
         maxzoom: 8,
-        attribution: "Altlık: Esri World Physical Map | Sınır verisi: historical-basemaps (aourednik)"
+        // ⚠️ Bu satır 31 Temmuz'a kadar YANLIŞTI: kullanmadığımız
+        // `historical-basemaps`e atıf veriyor, kullandığımız Natural Earth'e
+        // vermiyordu. Motorun nehir/dağ/göl/kara vektörlerinin tamamı NE'den
+        // geliyor (`veri-kaynak/`). Kaynak değişirse BURASI da değişmeli.
+        attribution: "Altlık: Esri World Physical Map | Coğrafya verisi: Natural Earth (kamu malı) | Tarihî sınırlar: bu projenin kendi verisi"
       }
     },
     layers: [
