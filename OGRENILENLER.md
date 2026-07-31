@@ -1207,3 +1207,25 @@ iki devlet aynı görüntüde pekâlâ yan yana durur.
 Yani doğru ölçüt "sınırdaş mı" değil, **"aynı görüntüde aynı anda var mı"**.
 `§26`'nın kardeşi: kural, ateşlemesi gereken vakaya göre kurulur — burada vaka
 "ekranda ayırt edilemiyor", "sınırda karışıyor" değil.
+
+## §33 — "Sığdır" kısıtı, "ayır" işini yapmaz
+
+Devlet etiketlerinin puntosunu gövdeye göre değiştirirken ilk kurduğum ölçüt
+şuydu: *etiket, gövdesinin ekran genişliğinin %85'ini aşmasın.* Mantıklı
+görünüyordu ve tek başına doğruydu — hiçbir etiket taşmıyordu.
+
+Ölçtüm: 1541 kesitinde eşiği geçen 86 gövdenin **40'ı tavana yapışmıştı**.
+Safevî İran ile Kazan Hanlığı aynı puntoyu alıyordu. Yani kısıt sağlanıyor,
+amaç sağlanmıyordu.
+
+Sebep: yakınlaşınca gövde ekranda öyle genişler ki sığma kısıtı hiçbir şeyi
+bağlamaz. Bağlamayan kısıt sıralama üretmez.
+
+**Ders:** bir ölçütün "ihlal yok" demesi, istenen ayrımı ürettiği anlamına
+gelmez. Sığdırma kısıtı *kötü çıktıyı eler*, iyi çıktıyı *sıralamaz*. Ayrım
+isteniyorsa sürücü, ayrımın dayanacağı büyüklüğün kendisi olmalı (burada alan,
+log ölçeğinde); sığma kısıtı yalnızca tavan olarak kalmalı.
+
+Sınama biçimi de ders: "taşan var mı?" diye sormak yetmiyordu, **dağılıma**
+bakmak gerekiyordu — tabanda kaç, tavanda kaç, ortada kaç. Tavanda %47 varsa
+o ölçüt ölçmüyor, kırpıyordur. (bkz. §25 — hangi soruya cevap verdiğine bak)

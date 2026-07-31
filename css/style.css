@@ -768,11 +768,14 @@ body {
 
 /* Yabancı devlet adı etiketi (harita üzerinde, dönem gövdesinin ortasında) */
 .devlet-etiket {
-  font: 600 11px/1.15 system-ui, sans-serif;
+  /* font-size YOK: app.js gövde büyüklüğünden hesaplayıp inline veriyor. */
+  font: 600 1em/1.15 system-ui, sans-serif;
   color: rgba(52, 38, 22, 0.85);
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  text-shadow: 0 0 4px #fff, 0 0 2px #fff, 0 1px 2px #fff;
+  /* Gölge em cinsinden: punto büyüyünce hâle de büyür, yoksa 26px yazının
+     altında 4px'lik hâle ince kalıp zemine karışır. */
+  text-shadow: 0 0 0.36em #fff, 0 0 0.18em #fff, 0 0.09em 0.18em #fff;
   white-space: nowrap;
   pointer-events: none;
 }

@@ -186,7 +186,11 @@ devletler2.forEach(function (s) {
 //   • Memlûk, Karakoyunlu gibi devletlerin gövdeleri de adsız kalıyordu.
 // Artık her AYRI GÖVDEYE kendi etiketi veriliyor ve çakışanlar eleniyor.
 
-// Bir halkanın işaretli alanı (derece²); enlem düzeltmesiyle kabaca km²'ye orantılı
+// Bir halkanın işaretli alanı, DERECE² — enlem düzeltmesi YOK, yani km² değil.
+// (Yorum eskiden "enlem düzeltmesiyle" diyordu, kodda öyle bir düzeltme hiç
+// olmadı.) İki kullanıcısı da derece² istiyor: etiket eşiği ve etiket puntosu
+// ekran ölçüsüne bakar, gerçek yüzölçümüne değil. km² gereken yerde bunu
+// KULLANMA — arac/denetle_bitisiklik.py'deki alan hesabı ayrıdır.
 function halkaAlan(r) {
   var a = 0;
   for (var i = 0, j = r.length - 1; i < r.length; j = i++) {
@@ -263,6 +267,11 @@ function devletGuncelle(t) {
 // yazı tipi (glyphs) kaynağı ister; bu proje dış bağımlılık almıyor, bu yüzden
 // eleme elle yapılıyor: ekrana yansıt, büyükten küçüğe yerleştir, kutusu
 // yerleşmişlerden biriyle kesişeni gizle.
+// Punto başına ortalama karakter genişliği (600 ağırlık, uppercase, +0.08em
+// harf aralığı dahil). Eski sabit 11px'te 5.4px'ti; oran korunuyor ki çakışma
+// elemesinin bugüne kadar ayarlanmış davranışı bozulmasın.
+var KARAKTER = 5.4 / 11;
+
 function etiketleriYerlestir() {
   devletEtiketleri.forEach(function (m) { m.remove(); });
   devletEtiketleri = [];
@@ -276,7 +285,23 @@ function etiketleriYerlestir() {
     var e = etiketAdaylari[i];
     if (e.alan < esik) continue;
     var pt = harita.project(e.c);
-    var g = e.ad.length * 5.4 + 8, y = 15;          // kaba kutu ölçüsü
+    // Punto gövde büyüklüğünden türer: "Mısır" ile "Ragusa" aynı boyutta
+    // yazılmasın (md.21). Ayrı bir "büyük ülkeler listesi" tutulmuyor; sıra
+    // veriden çıkıyor.
+    //
+    // ⚠️ İlk deneme YALNIZCA sığma kısıtıydı (etiket gövdesini aşmasın) ve
+    // ÖLÇÜNCE ÇÖKTÜ: 1541 kesitinde eşiği geçen 86 gövdenin 40'ı tavana
+    // yapıştı — Safevî İran ile Kazan Hanlığı aynı puntoyu aldı. Sebep,
+    // yakınlaşınca gövdenin ekranda o kadar genişlemesi ki sığma hiçbir şeyi
+    // bağlamıyor. Sürücü alanın kendisi olmalı; sığma sadece TAVAN.
+    // Aynı kesitte yeni dağılım: tavanda 0, canlı bantta 58, tabanda 28
+    // (tabandakiler İspanya/Britanya'nın ada kalıntıları — küçük kalmaları
+    // doğru). Ölçüm defteri: OGRENILENLER.md §33.
+    var pxDerece = 512 * Math.pow(2, z) / 360;
+    var sigmaTavan = Math.sqrt(e.alan) * pxDerece * 0.85 / (e.ad.length * KARAKTER);
+    var punto = 10 + 1.6 * (Math.log(e.alan / 0.5) / Math.LN2);
+    punto = Math.max(10, Math.min(26, Math.min(punto, sigmaTavan)));
+    var g = e.ad.length * KARAKTER * punto + 8, y = punto * 1.36;
     var kutu = { x0: pt.x - g / 2, x1: pt.x + g / 2, y0: pt.y - y / 2, y1: pt.y + y / 2 };
     var carpti = false;
     for (var j = 0; j < yerlesen.length; j++) {
@@ -287,6 +312,7 @@ function etiketleriYerlestir() {
     yerlesen.push(kutu);
     var el = document.createElement("div");
     el.className = "devlet-etiket";
+    el.style.fontSize = punto.toFixed(1) + "px";
     el.textContent = e.ad;
     devletEtiketleri.push(new maplibregl.Marker({ element: el, anchor: "center" })
       .setLngLat(e.c).addTo(harita));
