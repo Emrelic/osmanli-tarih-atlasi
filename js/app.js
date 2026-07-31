@@ -538,7 +538,20 @@ function altlikGoster(grup, acik) {
     harita.setLayoutProperty("altlik", "visibility", acik ? "none" : "visible");
 }
 
-harita.on("load", function () {
+// 🔴 KURULUM `load`'A BAĞLI OLAMAZ — mimarî düzeltme (koordinatör onayladı).
+// MapLibre'de `load`, stilin VE kaynaklarının hazır olmasını bekler. Bizim
+// stilimizde bir dış raster var: `server.arcgisonline.com` (Esri). Bugün hızlı
+// ve `load` ateşliyor — ÖLÇÜLDÜ, yani bu bir hata raporu değil. Ama:
+//   · Esri yavaşladığı, engellendiği ya da kullanıcı çevrimdışı olduğu gün
+//     atlas HİÇBİR sınır ve etiket çizmez — ve hata da vermez.
+//   · `PLAN-KATMANLAR` kararı Esri'yi "altıncı seçenek, varsayılan KAPALI"
+//     yaptı. Kapatılabilen bir katman açılışın ön şartı olamaz.
+// ⇒ Kurulum artık stil hazır olur olmaz koşuyor; raster beklenmiyor.
+// `styledata` birden çok kez ateşleyebildiği için tek seferlik kilit var.
+var kurulumYapildi = false;
+function haritaKurulum() {
+  if (kurulumYapildi) return;
+  kurulumYapildi = true;
   altlikKur();
 
   // Yabancı devletler: Osmanlı katmanlarının ALTINA çizilir
@@ -860,6 +873,14 @@ harita.on("load", function () {
   window.zoomEsigi = zoomEsigi;
   zoomSinifi();
   guncelle();
+}
+// İki tetikleyici, ilki hangisi olursa: `load` normal yol, `styledata` ise
+// raster asılı kaldığında devreye giren yol. `isStyleLoaded()` şartı önemli —
+// `styledata` stil daha tamamlanmadan da ateşleyebiliyor ve o an `addLayer`
+// çağırmak hata verirdi.
+harita.on("load", haritaKurulum);
+harita.on("styledata", function () {
+  if (harita.isStyleLoaded()) haritaKurulum();
 });
 
 function bosVeri() { return { type: "FeatureCollection", features: [] }; }
