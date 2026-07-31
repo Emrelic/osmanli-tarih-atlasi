@@ -809,6 +809,188 @@ if len(_kvdegisen) > 20:
 # Doğru okuma mutlak sayı değil TABANA GÖRE ARTIŞ: taban 32 ise sessiz kalmalı,
 # artarsa gerçekten yeni bir uyuşmazlık açılmış demektir.
 BOZUK_KIYI_TABAN = 32
+
+# ---------------- ÇÖL TAVANI ----------------
+# Kullanıcının en eski açık şikâyeti: çölde sınırlar "pat diye" geçiyor.
+# Sebep ölçüldü ve cetvel DEĞİL — nokta yokluğu: Sahra'da 120 yerleşim var,
+# medyan aralık 120 km, ama tek bir peteğin erişimi 1.475 km'ye kadar çıkıyor
+# (Timbuktu). O kadar uzağa uzanan bir hâkimiyet iddiası tarihen de yanlış.
+#
+# KURAL (COGRAFYA-COL-TAVANI.md §2): bir yerleşimin peteği, ÇÖL içinde kalan
+# kısmında, noktasından 300 km'den uzağa uzanamaz.
+#
+# ⚠️ DERECE ≠ KİLOMETRE — bu kuralın en sinsi tuzağı ve A/B'de GÖRÜNMEZ.
+# Sabit 2,70° yazılsaydı gerçek erişim Sahra'da 272 km, Akdeniz kenarında
+# 246 km olurdu; hiçbir denetim patlamaz, tavan yalnız istenenden %10-18 dar
+# olurdu ve kimse aramazdı. Bu yüzden disk ENLEME GÖRE ölçekli bir elipstir:
+# boylam yarıçapı cos(enlem) ile genişler.
+#
+# 🔴 GÜVENLİK ÖZELLİĞİ: tavan yalnız ÇIKARIR, hiç EKLEMEZ. Yani
+# petek_son ⊆ petek_voronoi her zaman doğru ⇒ yeni emilme riski yapısal olarak
+# üretilemez, Değişmez 1 ve 2 etkilenmez (nokta değil ALAN çıkıyor ve her
+# yerleşim kendi diskinin merkezinde).
+# 🔴 VE ÇÖL DIŞI HİÇ ETKİLENMEZ — bu da yapısal: kesim `COL` ile kesişimden
+# türüyor. Bu yüzden "çöl dışında kısalma = 0" ölçülmez, buradan okunur.
+COL_TAVAN_KM = 300.0
+COL_SU_MUAF_KM = 30.0
+# 🔴 MUAFİYETİN KAPSAMI — şartname iki okumaya birden açıktı ve ikisi farklı
+# sonuç veriyor. Karar iki kez döndü, o yüzden TEK SATIRLIK anahtar yapıldı:
+#   False (ALAN bazlı)     kuralın lafzı: "30 km'den yakın ALANDA tavan
+#                          uygulanmaz". Nil şehrinin peteği Nil boyunca
+#                          sınırsız uzanır ama çöle doğru 300 km'de durur.
+#                          Yapısal olarak sınırlı — hiçbir petek 300 km'yi
+#                          çöle doğru aşamaz, veri ne olursa olsun.
+#   True  (YERLEŞİM bazlı) kullanıcının cümlesi: "nehrin kıyısındaki şehirler
+#                          bir tarafı Nil'e dayanan DİĞER TARAFI ÇÖLE UZANAN
+#                          bölgeyi kullanırlar". Suya 30 km'den yakın
+#                          yerleşimin peteği HİÇ kesilmez.
+# ⚠️ Seçim (True) ölçüme dayanıyor: muaf kümenin azamisi bugün 346 km, yani
+#    "muafiyet kaçak yola dönüşür" korkusu GERÇEKLEŞMİYOR. Ama bu VERİYE
+#    bağlı bir güvence, yapısal değil: suya yakın yeni bir çöl kenarı noktası
+#    eklenirse o nokta sınırsız erişim kazanır ve kimse uyarmaz.
+#    Bu yüzden aşağıda muaf peteklerin azami erişimi HER KOŞUDA raporlanıyor.
+# 🔴 (A) SEÇİLDİ — ÖLÇÜLEREK. (B) denendi ve koordinatörün İLK korkusunu
+# doğruladı: yerleşim bazlıda TIMBUKTU muaf çıkıyor (Nijer kıyısında,
+# suya 30 km'den yakın) ve peteği Sahra'yı 1.475 km boyunca kesmeye
+# devam ediyor — yani kullanıcının BİRİNCİ şikâyeti hiç çözülmüyor.
+# Ndjamena (Şari) 1.450 km ile ikinci. Alan bazlıda ikisi de kesiliyor
+# (Timbuktu tek başına 812.532 km²).
+COL_MUAF_YERLESIM_BAZLI = False
+print("Çöl tavanı hazırlanıyor...")
+_col_parca = []
+try:
+    _gr = json.load(open(os.path.join(BASEMAPS,
+                                      "ne_10m_geography_regions_polys.geojson"),
+                         encoding="utf-8"))
+    for f in _gr["features"]:
+        # ⚠️ ANAHTARLAR BÜYÜK HARF. Küçük harfle sorulunca sessizce None döner
+        # ve "pencerede çöl yok" gibi sakin bir yanlış üretir.
+        if (f["properties"].get("FEATURECLA") or "") != "Desert":
+            continue
+        _g = shape(f["geometry"])
+        if not _g.envelope.intersects(BOLGE):
+            continue
+        _g = _g.buffer(0).intersection(BOLGE)
+        if not _g.is_empty:
+            _col_parca.append(_g)
+except Exception as _e:
+    print("  UYARI çöl verisi okunamadı, tavan UYGULANMIYOR:", _e)
+COL = unary_union(_col_parca) if _col_parca else None
+print(f"  {len(_col_parca)} çöl poligonu birleşti")
+
+# Su koridoru muafiyeti (§3.1): Natural Earth'ün çöl lekeleri Nil vadisinin
+# ÜSTÜNDEN geçiyor, vadiyi oymuyor. Ham tavan Mısır'ı keserdi — çöl poligonu
+# içinde ve Nil'e 55 km'den yakın 35 yerleşim ölçülmüş.
+# ⚠️ Muafiyet ALAN bazlı yazıldı, kuralın lafzına uyarak ("30 km'den yakın
+#    ALANDA tavan uygulanmaz"). Yerleşim bazlı okuma da mümkündü ve Mısır'da
+#    fark üretiyor; ikisi ölçülüp koordinatöre sayıyla getirildi.
+# ⚠️ SU KÜMESİ, MOTORUN YASLAMA KÜMESİ DEĞİLDİR — ölçülerek ayrıldı.
+# İlk yazımda `NEHIR_HAT`ı (41 adlı akarsu parçası) kullandım ve muaf/tâbi
+# ayrımı 46/74 çıktı; şartname 55/61 diyordu. Fark 9 kayıt, yani tavana girip
+# girmeyeceği belirsiz 9 yerleşim.
+# Dosyanın TAMAMIYLA ölçtüm: 57/63 — şartnameye 2 kayıt uzaklıkta.
+# 📌 Kavramsal olarak da doğrusu bu: muafiyet *"burada su var mı"* diye soruyor,
+# *"motor buraya yaslanıyor mu"* diye değil. Adsız bir vadi kenarındaki
+# yerleşim de su kenarındadır.
+_tum_nehir = []
+try:
+    for _f in json.load(open(os.path.join(BASEMAPS, "ne_10m_rivers.geojson"),
+                             encoding="utf-8"))["features"]:
+        _g = shape(_f["geometry"])
+        if _g.envelope.intersects(BOLGE):
+            _g = _g.intersection(BOLGE)
+            if not _g.is_empty:
+                _tum_nehir.append(_g)
+except Exception as _e:
+    print("  UYARI tam nehir kümesi okunamadı, yaslama kümesine düşülüyor:", _e)
+    _tum_nehir = [NEHIR_HAT] if NEHIR_HAT is not None else []
+print(f"  su koridoru: {len(_tum_nehir)} akarsu parçası + kıyı")
+_su_hat = [x for x in (unary_union(_tum_nehir) if _tum_nehir else None,
+                       KARA.boundary) if x is not None and not x.is_empty]
+_SU = unary_union(_su_hat) if _su_hat else None
+# ⚠️ Tampon da derece uzayında: çöller 0-40° arasında, cos 1,00-0,77.
+#    Enlem yönünde tam, boylam yönünde en kötü %23 dar kalır — muafiyeti
+#    DARALTAN yönde hata, yani Nil'i kesme riskine karşı GÜVENLİ taraf değil.
+#    Bu yüzden tampon cos(enlem) EN KÖTÜ hâline göre genişletiliyor.
+_SU_TAMPON = (_SU.buffer(COL_SU_MUAF_KM / 111.32 / math.cos(math.radians(40.0)))
+              if _SU is not None else None)
+
+if COL is not None:
+    _tv_n, _tv_alan, _tv_dok = 0, 0.0, []
+    _tv_muaf = 0
+    _tv_yapisan = 0
+    _colp = prep(COL)
+    for _i in range(len(PETEK_D)):
+        _g = PETEK_D[_i]
+        if _g is None or _g.is_empty:
+            continue
+        if not _colp.intersects(_g):
+            continue                      # çöle hiç değmiyor → dokunma
+        _y = YERLER[_i]
+        if COL_MUAF_YERLESIM_BAZLI and _SU_TAMPON is not None \
+                and _SU_TAMPON.contains(Point(_y["lon"], _y["lat"])):
+            _tv_muaf += 1
+            continue                      # yerleşim suya yakın → peteği hiç kesilmez
+        # 300 km'lik disk: ELİPS, çünkü boylam derecesi enlemle daralıyor.
+        _co = max(math.cos(math.radians(_y["lat"])), 0.05)
+        _rx = COL_TAVAN_KM / 111.32 / _co
+        _ry = COL_TAVAN_KM / 111.32
+        # Elips doğrudan kuruluyor — `shapely.affinity` içeri alınmamış ve
+        # `import shapely` alt modülü açmıyor; derleme temiz geçer, koşu
+        # 20. dakikada patlardı.
+        _disk = Polygon([(_y["lon"] + _rx * math.cos(_t * math.pi / 32.0),
+                          _y["lat"] + _ry * math.sin(_t * math.pi / 32.0))
+                         for _t in range(64)])
+        # kesilecek = peteğin ÇÖLDE olan, SUYA uzak olan ve DİSK DIŞINDA kalan payı
+        _kes = _g.intersection(COL).difference(_disk)
+        if _SU_TAMPON is not None and not _kes.is_empty:
+            _kes = _kes.difference(_SU_TAMPON)
+        if _kes.is_empty:
+            continue
+        _a = _ham_km2(_kes)
+        if _a < 1.0:
+            continue                      # kırıntı
+        _yeni = poligonal(_g.difference(_kes))
+        if _yeni.is_empty:
+            # ⚠️ ANA PARÇA DEĞİŞMEZİ: bir yerleşim kendi altındaki toprağı
+            # kaybedemez. Tavan bunu üretemez (nokta kendi diskinin
+            # merkezindedir) ama sessiz kalmasın diye sınanıyor.
+            print(f"  ✗ TAVAN {_y['ad']} peteğini YOK ETTİ — uygulanmadı")
+            continue
+        PETEK_D[_i] = _yeni
+        _tv_n += 1; _tv_alan += _a
+        _tv_dok.append((_a, _y["ad"], _y["lat"], _y["lon"]))
+    print(f"  {_tv_n} petek kısaldı, toplam {_tv_alan:,.0f} km² sahipsizleşti"
+          + (f" · {_tv_muaf} petek su koridoru muafiyetiyle KESİLMEDİ"
+             if COL_MUAF_YERLESIM_BAZLI else ""))
+    # ⚠️ Yerleşim bazlı muafiyet VERİYE bağlı bir güvence: muaf bir noktanın
+    # erişimi ilkece sınırsız. Bugün azami 346 km ama yeni bir su kenarı çöl
+    # noktası bunu sessizce büyütebilir. Bu yüzden HER KOŞUDA raporlanıyor.
+    if COL_MUAF_YERLESIM_BAZLI and _SU_TAMPON is not None:
+        _mer = []
+        for _i2 in range(len(PETEK_D)):
+            _g2 = PETEK_D[_i2]
+            if _g2 is None or _g2.is_empty: continue
+            _y2 = YERLER[_i2]
+            if not _SU_TAMPON.contains(Point(_y2["lon"], _y2["lat"])): continue
+            if not _colp.intersects(_g2): continue
+            _en2 = 0.0
+            for _p2 in (_g2.geoms if _g2.geom_type == "MultiPolygon" else [_g2]):
+                for _x2, _yy2 in _p2.exterior.coords:
+                    _d2 = girdi.km(_y2["lat"], _y2["lon"], _yy2, _x2)
+                    if _d2 > _en2: _en2 = _d2
+            _mer.append((_en2, _y2["ad"]))
+        if _mer:
+            _mer.sort(reverse=True)
+            print(f"  muaf peteklerin azami erişimi: {_mer[0][0]:,.0f} km "
+                  f"({_mer[0][1]}) · ikinci {_mer[1][0]:,.0f} km"
+                  if len(_mer) > 1 else
+                  f"  muaf peteklerin azami erişimi: {_mer[0][0]:,.0f} km")
+    for _a, _ad, _la, _lo in sorted(_tv_dok, reverse=True)[:12]:
+        print(f"     {_a:>10,.0f} km²  {_ad:<26} {_la:6.2f}K {_lo:7.2f}D")
+    if len(_tv_dok) > 12:
+        print(f"     … ve {len(_tv_dok)-12} petek daha")
+
 # ---------------- MOTORUN ÇİZDİĞİ KARA — altlığın kıyısı buradan gelsin ----
 # ⚠️ TEK GEOMETRİ İKİ YERDE ÜRETİLMESİN (OGRENILENLER §35).
 # Vektör altlık kıyısını kendi başına `simplify(SADE_TOL)` ile üretiyordu; motor
@@ -918,6 +1100,31 @@ if _kayip:
         print(f"      {ad:<28} %{o*100:5.1f}   {son:>9,.0f} / {ham:>9,.0f} km²")
 else:
     print(f"  ✓ hiçbir petek ham hücresinin %{SIFIR_PETEK_ORAN*100:.0f}'unun altında değil")
+
+# ---------------- AŞINMA BANDI — iki farklı soru, iki farklı eşik ----------
+# Yedinci denetimin %10 eşiği "HÜCRE YOK EDİLDİ" sorusu için kalibre edildi
+# (Estergon 8/4.819 = %0,2). Ama bir petek yok olmadan alanının %60'ını
+# kaybedebilir ve kullanıcı bunu GÖRÜR — Budin %41 tam bu sınıf, ve çöl tavanı
+# koşusunda Dongola %38 ile aynı yere düştü.
+# İki soru tek eşiğe sıkışmıştı:
+#     %10 altı   hücre YOK EDİLDİ, fetih maddesi haritada görünmez   → ✗ HATA
+#     %10-60     hücre AŞINDI, gövde küçülmüş görünür                → ⚠️ bilgi
+# Eşiği oynatmak yanlış olurdu: o zaman gerçek "yok edildi" vakaları onlarca
+# yanlış alarmın içinde kaybolurdu. Ayrı bant, ayrı satır, üretimi DURDURMAZ.
+# ⚠️ `boşalan petek 0` bu bandı GÖREMEZ — "yok olmadı" ile "kesilmedi" ayrı
+# şeyler; koordinatörün Nil sınavında tam bu ayrım belirleyici oldu.
+ASINMA_ALT, ASINMA_UST = SIFIR_PETEK_ORAN, 0.60
+_asinan = [r for r in _oranlar if ASINMA_ALT <= r[0] < ASINMA_UST]
+if _asinan:
+    print(f"  ⚠️ AŞINMA BANDI — ham hücresinin %{ASINMA_ALT*100:.0f}-"
+          f"%{ASINMA_UST*100:.0f}'ı arasında kalan petek: {len(_asinan)}")
+    for o, son, ham, ad in _asinan[:10]:
+        print(f"      {ad:<28} %{o*100:5.1f}   {son:>9,.0f} / {ham:>9,.0f} km²")
+    if len(_asinan) > 10:
+        print(f"      … ve {len(_asinan)-10} petek daha")
+else:
+    print(f"  ✓ aşınma bandında (%{ASINMA_ALT*100:.0f}-%{ASINMA_UST*100:.0f}) "
+          f"petek yok")
 
 # ---------------- kur: / bit: — VARLIK EPOKLARI ----------------
 # ⚠️ MIMARI.md §3.1'in çözümü. Ölçüm: denetim/KUR-ALANI-OLCUMU.md

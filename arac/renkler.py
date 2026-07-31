@@ -269,6 +269,22 @@ BOYALAR = {
     "abdulkadir": ("Emîr Abdülkādir Devleti", "#26a69a"),
     "atinadukaligi": ("Atina Dukalığı",       "#8a9e8a"),
 
+    # Kütahya·Konya·Karaman'ın 1832-1833 `isg:` örtüsü için. Mısır bu atlasta
+    # hep Osmanlı tâbii olarak modellendiği için kendi kimliği hiç olmamıştı.
+    # ⚠️ Ad `misir` DEĞİL: kimlik ORDUYU/işgalciyi gösteriyor, ülkeyi değil —
+    # ileride Mısır'ın kendisi için kimlik gerekirse çakışmasın.
+    # 📌 HEX PAYLAŞILIYOR (turkmen #00acc1) ve palet BÜYÜMÜYOR. Meşru, çünkü
+    # dosya başındaki kural: paylaşım sorun değildir, yeter ki o devletler
+    # tarih boyunca hiç komşu olmasın. Ölçüldü: 1832-1833'te üç hücrenin
+    # komşularında sahnede olan kimlik sayısı **1** — yalnız OSMANLI. Engel
+    # iki renk (doğrudan #8e0b22, tâbi #b2384a), bindirilmiş ΔE **33,6**.
+    # `turkmen` o iki yılda hiçbir komşuda yok ve `kavalali` yalnız o iki yıl
+    # var ⇒ komşuluk yapısal olarak imkânsız, ihlal üretilemez.
+    # 📌 Bu vaka "ΔE ≥ 25 ulaşılamaz" hükmümü de çürüttü: tavan paletin değil
+    # DERECENİN özelliği. macaristan'ın 14 renkli komşusu var → tavan ~14;
+    # burada 1 komşu var → 33,6.
+    "kavalali":   ("Mısır (Kavalalı Ordusu)", "#00acc1"),
+
     # ---- Bozkır: `yerlesimler_ortaasya2.js` merge'ünden ÖNCE hazır olsun ----
     # Renksiz kimlikle merge edilirse motor "kimliksiz nokta" uyarısı basar; bu
     # yüzden renk önce girer, izin listesi sonra. Dosyada başka renksiz kimlik
