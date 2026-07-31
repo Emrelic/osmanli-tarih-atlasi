@@ -1946,3 +1946,38 @@ Bozuk bir taban "bozuk" diye görünmez — yalnız sonucu sessizce kaydırır.
 
 📌 Ve `§50`'nin kardeşi: orada ölçüm **aleti** çalışmıyordu, burada alet
 **yanlış kalibre** edilmişti. İkisi de "ölçüm doğru, sonuç yanlış" üretiyor.
+
+---
+
+## §54 — Kullanıcının şikâyetinin cevabı, kullanıcının KAPATABİLDİĞİ bir yerde duramaz
+
+(ARAYÜZ'ün kuralı, aynı gün üç vakayla.) Bir kusuru düzeltmek yetmiyor;
+**düzeltmenin görüneceğini garanti etmek** de gerekiyor.
+
+```
+1  alan göstergesi   Kullanıcı "toprak kazandı mı kaybetti mi anlayamıyorum"
+                     dedi. Cevap (zirveye göre oran) LEJANT KUTUSUNUN İÇİNE
+                     kondu — ve o kutunun gizle düğmesi var, tercihi
+                     localStorage'da SAKLANIYOR. Kullanıcı bir kez kapattıysa
+                     çözüm KALICI OLARAK görünmez.
+                     ⇒ sahadan kanıtı: kullanıcı "lejant dediğin yer neresi"
+                       diye sordu. Cevabı oraya koymuştuk, o görmüyordu.
+2  sönen kenar       Üç koşudur üretiliyordu, yayına girdi — ama LEJANTTA
+                     KARŞILIĞI YOKTU. Kullanıcı onu "iki ayrı kırmızı" diye
+                     KUSUR olarak bildirdi. Özellik çalışıyordu; anlatılmıyordu.
+3  ileri bakış       (tasarımda yakalandı) Gelecek olayın şehri, olmuş olayınkiyle
+                     aynı görünürse "bu şehir şimdi mi el değiştirdi" diye
+                     YANLIŞ OKUNUR. Lejant satırı zorunlu kılındı.
+```
+
+> **Kural:** bir şikâyetin cevabı **her zaman görünür** olmalı ve **lejantta
+> karşılığı bulunmalı.** Kapatılabilir bir yere konan çözüm, çözülmemiş
+> sayılır; anlatılmayan bir özellik kusur olarak geri gelir.
+
+📌 Ortak sınıf: **"çözümü gösterdik ama görünmesini garanti etmedik."**
+`§40` *"üretiliyor ama çizilmiyor"* diyordu; bu onun bir üst katmanı —
+**çiziliyor ama görünmüyor / görünüyor ama anlatılmıyor.**
+
+⚠️ Ve ikinci vaka en pahalısı: yeni bir özellik, **anlatılmadığı için kusur
+raporu üretti.** Yani lejanta bir satır yazmamanın bedeli, kullanıcının
+zamanı + bir teşhis turu oldu.
