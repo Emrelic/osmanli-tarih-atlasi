@@ -1143,3 +1143,78 @@ içindeki noktayı bloğun sahibiyle hizalıyoruz.*
 CANLI ve iddiayı içeriyor: `karesiogullari` · `isa-celebi` · `mehmed-i` ·
 `fetret-devri` · **`suleyman-celebi-emir`** (⚠️ `suleyman-celebi--emir` değil,
 tek tire)
+
+---
+
+## 2026-08-01 (9. tur) — Kırım: yedi noktalık paket, `d:`/`v:` ayrımı TDV'den
+
+Kalibrasyon çözüldükten sonra uygulanabilir hâle gelen öneri.
+Tam paket: **`OTURUM-13-KIRIM.md`**.
+
+**Yeni devlet kimliği gerekmiyor** — `altinorda` · `kirim` · `ceneviz` ·
+`rusya` dördü de `renkler.py`'de tanımlı. DSATUR dengesi bozulmuyor.
+
+**Bugünkü durum:** yarımadada **4 nokta**, üçü Kerç boğazı ucunda kümelenmiş;
+batı ve orta Kırım'ın tek noktası Bahçesaray. Ölçülen sonuç, §22'de bulduğum
+**Kefe ↔ Bahçesaray 127,4 km tek parça kenar** (iç sınırın %82'si).
+**6.725 → 2.445 km²/petek.**
+
+### `d:` / `v:` ayrımı — tahmin değil, iki canlı madde iddiayı içeriyor
+- **`kirim`** ✔ — *"Kerç'ten itibaren Balıklava'ya kadar uzanan sahiller
+  doğrudan Osmanlı kontrolü"*; hanlık merkezleri **Bahçesaray · Akmescid
+  (kalgay) · Karasubazar · Gözleve (liman) · Or Kapı (veliaht mevkii)**
+- **`kefe`** ✔ — sancak **Mangub, Sudak, Kerç, Azak, Taman** kazalarından
+  oluşuyordu; *"Balıklagu (Balıklava) ve **İnkerman**"* tâbi yerleşimlerdi
+
+⇒ Koordinatörün önerdiği bölünme **birebir doğrulandı**:
+`v:` Karasubazar · Akmescid · Gözleve · Or Kapı — `d:` Sudak · Balaklava · İnkirman
+
+### Dört kırılma günü de TDV'de
+`1441-01-01` Hacı Giray (*"en eski para 845 (1441-42)"* — gün yok) ·
+`1475-06-06` fetih (⚠️ `kefe`: *"Safer 880 / **Haziran 1475**"* — **ay doğru,
+GÜN TDV'de yok**; `06` verinin mevcut kabulü) · `1771-07-01` Dolgorukov
+(yıl doğru, gün yok) · **`1774-07-21` ve `1783-04-08` birebir**.
+
+### 🔴 Paketten önce çıkan kusur — Kefe 1774-1783
+Veri Kefe'yi 1771'de kalıcı olarak Rusya'ya veriyor. `kefe` ✔ bunu
+desteklemiyor: 1771 işgal, **1777'de ikinci saldırı**, **1783'te** *"kesin
+olarak Rus hâkimiyeti"*. ⇒ Küçük Kaynarca ile Kefe Osmanlı'ya **geri
+dönmüştür**; 1774-1783 arası dokuz yıl yanlış. Bahçesaray'ın modeliyle de
+çelişiyor (o 1774'te `kirim`'e dönüyor, Kefe dönmüyor).
+📌 Yeni `d:` noktaları bu kusuru **miras almadı**; paket Kefe'nin kendisi için
+de düzeltme öneriyor — yoksa Sudak (Kefe'ye 38 km) 1774-1783 Osmanlı, Kefe Rus
+görünür. ⚠️ Kerç 1774'te çıkıyor ve o **doğru** (Kerç/Yenikale kalıcı devir);
+düzeltilmesi gereken Kefe'dir.
+
+### Paket üzerinde koşulan denetimler — 7/7 temiz
+Zincir sürekliliği (boşluk/çakışma/sıfır uzunluk) **7/7 TEMİZ** · harita
+penceresi **7/7 içinde** · paket içi en küçük mesafe **11,6 km** · mevcut
+noktalara **25,8-157,1 km** — 3 km kuralı ihlal yok.
+
+### 🟡 İnkirman koşullu — yazmama tavsiyesi
+1475 **sonrası** kaynaklı (`kefe` sancağın tâbi yerleşimi sayıyor). Ama:
+1475 **öncesi kimlik** 🔴 `ceneviz` muhtemelen yanlış — Kalamita **Teodoro/
+Mangup** beyliğinindi, `renkler.py`'de `teodoro` kimliği **yok**, TDV'de
+`mangup` maddesi **yok**; ve Mangup Kefe'den **aylar sonra** düştüğü için
+`1475-06-06` en çok 6 ay erken. Kazancı da en düşük: toplam iyileşmenin
+**%6'sı** (Balaklava'ya 11,6 km). ⇒ **Altı noktayı yaz, İnkirman'ı bekletlet.**
+Kayıt yine de hazır yazıldı; karar merkezin.
+
+### ⚠️ Bilerek çözülmeden bırakılan: `kur:`
+`akmescid` ✔ — şehre bu ad **Mengli Giray (ö. 1514)** devrinde yapılan camiden
+verildi, *"muhtemelen bu sıralarda kurulmuş"*. Yani 1281'de var olması şüpheli.
+Ama bu **yeni bir sorun değil**: mevcut **Bahçesaray** da 16. yy kuruluşudur ve
+veride 1281'den `altinorda` taşıyor. Yeni noktalar mevcut kabulle hizalandı,
+`kur:` yazılmadı; Kırım'ın bütün `kur:` alanları **ayrı bir turda birlikte**
+çözülmeli — yedi noktayı farklı kurala tâbi tutmak yeni tutarsızlık üretirdi.
+
+### 🔴 Slug denetimi
+CANLI ve iddiayı içeriyor: `kirim` · `kefe` · `karasubazar` · `akmescid` ·
+`bahcesaray` · `gedik-ahmed-pasa` · `han-camii`
+ÖLÜ / müstakil madde YOK: `kirim-hanligi` (doğrusu **`kirim`**) · `sudak` ·
+`gozleve` · `or-kapi` · `perekop` · `balaklava` · `inkirman` · `mangup`
+
+📌 **Zübâre kuralı ihlal edilmedi.** Beşinin künyesi yok ama **beşinin de
+sahibi ve tarih çerçevesi canlı maddelerde adıyla geçiyor.** Zübâre'de hiç
+kaynak yoktu; burada kaynak var, yalnız künyesi ayrı değil. Tek istisna
+İnkirman'ın 1475 öncesidir ve **açıkça işaretlendi**.
