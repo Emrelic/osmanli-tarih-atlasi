@@ -405,6 +405,35 @@ değil.
 değil çünkü o kova **en sondaki**: bu kayıtlar yalnız en yüksek yakınlaştırmada,
 ekranda yer varken beliriyor.
 
+### Eşitlik kırıcı kararlı mı — ölçüldü, EVET
+
+MOTOR'un hassasiyet uyarısı: petek koordinatları 3 ondalıkla yazılıyor
+(`uret_petek.py:1349`), yani **0,001° ≈ 111 m**; birbirine çok yakın alanlarda
+sıra keyfîleşebilir ve her üretimde değişebilir.
+
+```
+299'luk kovada ardışık alan farkları (291 petek üzerinden)
+  ardışık çift            290
+  farkı %0,05'in ALTINDA    8   (%2,8)
+  farkı %0,01'in ALTINDA    2   (%0,7)  ← yuvarlama gürültüsünün içinde
+  alan aralığı            754 – 2.820.792 km²
+  en yakın: Antakya~Dizfûl %0,0004 · Zâviye~Blida %0,0005
+```
+
+⇒ 290 çiftin **288'i** yuvarlamanın çok üstünde ayrışıyor. **Alan eşitlik
+kırıcı olarak kalıyor.**
+
+📌 Kovanın 754 km²'den 2,8 milyon km²'ye yayılması rol değişimini bir kez daha
+doğruluyor: **Timbuktu bu kovanın içinde ve en büyüğü.** Alan sürücü olsaydı
+başa gelirdi; kova sürücü olduğu için en sona gidiyor.
+
+**Bedava sağlamlaştırma:** sıralama `(kova, alan, ad)` olsun — ad yalnız
+alanlar gürültü içindeyken karar verir, o 2 çifti de üretimden bağımsız kılar.
+
+⚠️ **Ölçümün tabanı bayat (`§41`):** `petek_govde.js` **951** kayıtlık,
+`girdi.yukle()` **965** diyor — 299'un 8'inin peteği yok, ölçüm 291 üzerinden.
+Sonucu çevirecek bir fark değil ama sayı "291 üzerinden" diye okunmalı.
+
 ⏳ **Kalan tek sınav (panel gerekiyor):** her zoom kademesinde ekranda kaç
 işaret kalıyor — z5/z6/z7/z8 dağılımı. Çakışma elemesinden sonra en yüksek
 zoom'da 299 kalabalık yapıyorsa bu tasarım düşer.
