@@ -569,7 +569,7 @@ window.YERLESIMLER = [
 { ad:"Bağdat", tur:"sehir", lat:33.340, lon:44.361, g:2, k:2, s:[{f:"1281-01-01",t:"1508-01-01",d:"iran"},{f:"1508-01-01",t:"1534-12-04",d:"safevi"},{f:"1623-11-28",t:"1638-12-24",d:"safevi"},{f:"1917-03-11",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1534-12-04",t:"1623-11-28",y:"antlasma"},{f:"1638-12-24",t:"1917-03-11",y:"kusatma"}] },
 { ad:"Kerbelâ", tur:"sehir", lat:32.616, lon:44.025, g:0, k:3, m:"Bağdat", s:[{f:"1281-01-01",t:"1508-01-01",d:"iran"},{f:"1508-01-01",t:"1534-12-04",d:"safevi"},{f:"1623-11-28",t:"1638-12-25",d:"safevi"},{f:"1917-03-11",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1534-12-04",t:"1623-11-28"},{f:"1638-12-25",t:"1917-03-11"}] },
 { ad:"Basra", tur:"liman", lat:30.508, lon:47.783, g:1, k:2, s:[{f:"1776-04-16",t:"1779-04-01",d:"iran"},{f:"1281-01-01",t:"1508-01-01",d:"iran"},{f:"1508-01-01",t:"1546-01-01",d:"safevi"},{f:"1914-11-22",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1546-01-01",t:"1776-04-16",y:"vassal"},{f:"1779-04-01",t:"1914-11-22"}] },
-{ ad:"Lahsa", tur:"bolge", lat:25.383, lon:49.588, g:0, k:3, m:"Basra", s:[{f:"1281-01-01",t:"1508-01-01",d:"iran"},{f:"1508-01-01",t:"1550-01-01",d:"safevi"},{f:"1670-01-01",t:"1795-04-01",d:"benihalid"},{f:"1795-04-01",t:"1871-04-20",d:"suud"},{f:"1913-05-08",t:"1923-10-29",d:"suud"}], d:[{f:"1550-01-01",t:"1670-01-01",y:"vassal"},{f:"1871-04-20",t:"1913-05-08",y:"savas"}] },
+{ ad:"Lahsa", tur:"bolge", lat:25.383, lon:49.588, g:0, k:3, m:"Basra", s:[{f:"1281-01-01",t:"1508-01-01",d:"iran"},{f:"1508-01-01",t:"1550-01-01",d:"safevi"},{f:"1670-01-01",t:"1795-04-01",d:"benihalid"},{f:"1795-04-01",t:"1818-09-09",d:"suud"},{f:"1818-09-09",t:"1841-10-01",d:"benihalid"},{f:"1841-10-01",t:"1871-04-20",d:"suud"},{f:"1913-07-08",t:"1923-10-29",d:"suud"}], d:[{f:"1550-01-01",t:"1670-01-01",y:"vassal"},{f:"1871-04-20",t:"1913-07-08",y:"savas"}] },
 // HİCAZ: 1803-1813 arasında Suûdî-Vehhâbî hâkimiyeti (hac yolu kapandı, Osmanlı
 // hutbesi kaldırıldı) → haritada kayıp. Mehmed Ali'nin oğulları Tosun ve İbrâhim
 // paşaların seferleriyle geri alındı; 1841 fermanına kadar Mısır idaresinde
@@ -654,8 +654,29 @@ window.YERLESIMLER = [
     v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)"}] },
 { ad:"Kordofan (Ubeyyid)", tur:"sehir", lat:13.184, lon:30.218, g:0, k:3, m:"Hartum", s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[],
     v:[{f:"1821-08-19",t:"1885-01-26",k:"Mısır (Kavalalı)"}] },
-{ ad:"Sevâkin", tur:"liman", lat:19.106, lon:37.332, g:0, k:2, s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1885-02-05",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1517-04-13",t:"1885-02-05",y:"ilhak"}] },
-{ ad:"Masavva", tur:"liman", lat:15.6117, lon:39.4723, g:0, k:3, m:"Sevâkin", s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1885-02-05",t:"1923-10-29",d:"italya"}], d:[{f:"1557-01-01",t:"1885-02-05",y:"ilhak"}] },
+// 🔴 KIZILDENİZ'İN İKİ YAKASI: üç komşu kayıt tek satır gibi işlenmişti, oysa
+// 1885'te ÜÇÜ ÜÇ AYRI YÖNE gitti. Kullanıcının "karşı kıyı neden farklı tonda"
+// sorusunun cevabı buydu.
+//   Masavva → İtalya   (TDV `masavva`: "5 Şubat 1885'te Masavva'a girdiler") ✓ doğruydu
+//   Dahlak  → İtalya   ✓ doğruydu
+//   Sevâkin → İNGİLTERE ama 1885'te DEĞİL — tarih Masavva'dan kopyalanmıştı
+//
+// Sevâkin: TDV `muhammed-ahmed-el-mehdi` — "1884 Şubatından itibaren SEVÂKİN
+// DIŞINDAKİ bütün doğu bölgeleri Muhammed Ahmed'in hâkimiyetine geçti"; General
+// Graham üç taburla Sevâkin'e geliyor. Yani Sevâkin Mehdî'ye düşmeyen TEK yerdir
+// ve Şubat 1884'ten itibaren İngiliz askerî kontrolündedir.
+// ⚠️ `habes-eyaleti` maddesi 1885'te idarenin Yemen vilâyetine bağlandığını
+// söylüyor — ÇELİŞMİYOR, iki KATMAN: fiilî İngiliz, hukukî Osmanlı/Yemen.
+// Bu projede harita FİİLÎYİ boyar (Zebîd 1517'de de böyle karar verildi), o
+// yüzden 1884-02-01. Hukukî katman madde metnine düzyazı girer.
+// ⚠️ "Şubat 1884" — TDV GÜN vermiyor; -02-01 ay hassasiyetidir, gün iddiası değil.
+//
+// 1865: TDV `masavva` — Hidiv İsmâil zamanında "Dehlek ve Sevâkin ile birlikte
+// Mısır emlâkine dahil edilerek kaymakamlık statüsünde teşkilâtlandırıldı".
+// 1846 sâlyâne (gelir tahsisi) DEĞİL 1865 (idarî ilhak) seçildi: harita idareyi
+// boyar, geliri değil.
+{ ad:"Sevâkin", tur:"liman", lat:19.106, lon:37.332, g:0, k:2, s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1884-02-01",t:"1923-10-29",d:"ingiltere"}], v:[{f:"1865-01-01",t:"1884-02-01",k:"Mısır (Kavalalı)"}], d:[{f:"1517-04-13",t:"1865-01-01",y:"ilhak"}] },
+{ ad:"Masavva", tur:"liman", lat:15.6117, lon:39.4723, g:0, k:3, m:"Sevâkin", s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1885-02-05",t:"1923-10-29",d:"italya"}], v:[{f:"1865-01-01",t:"1885-02-05",k:"Mısır (Kavalalı)"}], d:[{f:"1557-01-01",t:"1865-01-01",y:"ilhak"}] },
 // ---------------- KUZEY AFRİKA ----------------
 { ad:"Trablus", tur:"liman", lat:32.897, lon:13.191, g:1, k:2, s:[{f:"1281-01-01",t:"1510-07-25",d:"hafsi"},{f:"1510-07-25",t:"1530-03-24",d:"ispanya"},{f:"1530-03-24",t:"1551-08-15",d:"sovalye"},{f:"1912-10-15",t:"1923-10-29",d:"italya"}], d:[{f:"1551-08-15",t:"1711-03-01",y:"kusatma"},{f:"1835-05-26",t:"1912-10-15"}], v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
 { ad:"Misrata", tur:"sehir", lat:32.378, lon:15.092, g:0, k:3, m:"Trablus", s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}], d:[{f:"1551-08-15",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}], v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
@@ -1199,7 +1220,9 @@ window.YERLESIMLER = [
 { ad:"Kerkene (Kerkennah)", tur:"kale", lat:34.741, lon:11.224, g:0, k:4, m:"Tunus", s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa"}], d:[{f:"1574-08-25",t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1881-05-12",k:"Tunus Ocaklığı (Hüseynîler)"}] },
 
 // ---- Kızıldeniz ve Basra Körfezi ----
-{ ad:"Dahlak", tur:"kale", lat:15.692, lon:40.138, g:0, k:4, m:"Sevâkin", s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1885-02-05",t:"1923-10-29",d:"italya"}], d:[{f:"1557-01-01",t:"1885-02-05"}] },
+// TDV bu adayı "Dehlek" yazıyor; kayıt adı "Dahlak" olarak KALIYOR — okuyucunun
+// aradığı biçim bu. TDV yazımı madde metninde parantezle anılır.
+{ ad:"Dahlak", tur:"kale", lat:15.692, lon:40.138, g:0, k:4, m:"Sevâkin", s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1885-02-05",t:"1923-10-29",d:"italya"}], v:[{f:"1865-01-01",t:"1885-02-05",k:"Mısır (Kavalalı)"}], d:[{f:"1557-01-01",t:"1865-01-01"}] },
 { ad:"Ferasan (Farasan)", tur:"kale", lat:16.730, lon:42.009, g:0, k:4, m:"Sana", s:[{f:"1281-01-01",t:"1538-08-03",d:"yemen"},{f:"1635-01-01",t:"1849-05-01",d:"yemen"},{f:"1918-10-30",t:"1923-10-29",d:"yemen"}], d:[{f:"1538-08-03",t:"1635-01-01"},{f:"1849-05-01",t:"1918-10-30"}] },
 { ad:"Kemeran (Kamaran)", tur:"kale", lat:15.353, lon:42.587, g:0, k:4, m:"Sana", s:[{f:"1281-01-01",t:"1538-08-03",d:"yemen"},{f:"1635-01-01",t:"1849-05-01",d:"yemen"},{f:"1915-06-10",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1538-08-03",t:"1635-01-01"},{f:"1849-05-01",t:"1915-06-10"}] },
 { ad:"Hürmüz Adası", tur:"kale", lat:26.861, lon:56.366, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1510-12-02",d:"iran"},{f:"1510-12-02",t:"1515-04-01",d:"safevi"},{f:"1515-04-01",t:"1622-05-01",d:"portekiz"},{f:"1622-05-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1923-10-29",d:"iran"}] },
@@ -1556,8 +1579,8 @@ window.YERLESIMLER = [
 // --------------------------------------------------------------------------
 // 7) Körfez ve Doğu Arabistan
 // --------------------------------------------------------------------------
-{ ad:"Katîf", tur:"liman", lat:26.5570, lon:49.9873, g:0, k:3, m:"Basra", s:[{f:"1281-01-01", t:"1550-01-01", d:"iran"}, {f:"1670-01-01", t:"1795-04-01", d:"benihalid"}, {f:"1795-04-01", t:"1871-04-20", d:"suud"}, {f:"1913-05-08", t:"1923-10-29", d:"suud"}], d:[{f:"1550-01-01", t:"1670-01-01", y:"vassal"}, {f:"1871-04-20", t:"1913-05-08", y:"savas"}] },
-{ ad:"Ukayr (Uceyr)", tur:"liman", lat:25.6500, lon:50.2131, g:0, k:4, m:"Basra", s:[{f:"1281-01-01", t:"1550-01-01", d:"iran"}, {f:"1670-01-01", t:"1795-04-01", d:"benihalid"}, {f:"1795-04-01", t:"1871-04-20", d:"suud"}, {f:"1913-05-08", t:"1923-10-29", d:"suud"}], d:[{f:"1550-01-01", t:"1670-01-01", y:"vassal"}, {f:"1871-04-20", t:"1913-05-08", y:"savas"}] },
+{ ad:"Katîf", tur:"liman", lat:26.5570, lon:49.9873, g:0, k:3, m:"Basra", s:[{f:"1281-01-01", t:"1550-01-01", d:"iran"}, {f:"1670-01-01", t:"1795-04-01", d:"benihalid"}, {f:"1795-04-01",t:"1818-09-09",d:"suud"},{f:"1818-09-09",t:"1841-10-01",d:"benihalid"},{f:"1841-10-01",t:"1871-04-20",d:"suud"}, {f:"1913-07-08", t:"1923-10-29", d:"suud"}], d:[{f:"1550-01-01", t:"1670-01-01", y:"vassal"}, {f:"1871-04-20", t:"1913-07-08", y:"savas"}] },
+{ ad:"Ukayr (Uceyr)", tur:"liman", lat:25.6500, lon:50.2131, g:0, k:4, m:"Basra", s:[{f:"1281-01-01", t:"1550-01-01", d:"iran"}, {f:"1670-01-01", t:"1795-04-01", d:"benihalid"}, {f:"1795-04-01",t:"1818-09-09",d:"suud"},{f:"1818-09-09",t:"1841-10-01",d:"benihalid"},{f:"1841-10-01",t:"1871-04-20",d:"suud"}, {f:"1913-07-08", t:"1923-10-29", d:"suud"}], d:[{f:"1550-01-01", t:"1670-01-01", y:"vassal"}, {f:"1871-04-20", t:"1913-07-08", y:"savas"}] },
 // hatalar 6.docx madde 9 — kullanıcı: "lahsa kaybedilince tüm bu toprak elden
 // gitti mi katif filan". TEYİD: evet, eyaletin tamamı gitti — Lahsa ve Ukayr
 // kayıtlarının ikisi de 1670-01-01'de "benihalid"e geçiyor, yani Benî Hâlid
@@ -1570,7 +1593,7 @@ window.YERLESIMLER = [
 // düzeltmeli harfle arama yapmadığım için yok sandım. Yeni nokta eklerken
 // arama Türkçe düzeltmeli harfleri KATLAYARAK yapılmalı (bkz. denetle.py
 // mükerrer kontrolündeki _KATLA tablosu).
-{ ad:"Cübeyl", tur:"liman", lat:26.9979, lon:49.6406, g:0, k:4, m:"Basra", s:[{f:"1281-01-01", t:"1550-01-01", d:"iran"}, {f:"1670-01-01", t:"1795-04-01", d:"benihalid"}, {f:"1795-04-01", t:"1871-04-20", d:"suud"}, {f:"1913-05-08", t:"1923-10-29", d:"suud"}], d:[{f:"1550-01-01", t:"1670-01-01", y:"vassal"}, {f:"1871-04-20", t:"1913-05-08", y:"savas"}] },
+{ ad:"Cübeyl", tur:"liman", lat:26.9979, lon:49.6406, g:0, k:4, m:"Basra", s:[{f:"1281-01-01", t:"1550-01-01", d:"iran"}, {f:"1670-01-01", t:"1795-04-01", d:"benihalid"}, {f:"1795-04-01",t:"1818-09-09",d:"suud"},{f:"1818-09-09",t:"1841-10-01",d:"benihalid"},{f:"1841-10-01",t:"1871-04-20",d:"suud"}, {f:"1913-07-08", t:"1923-10-29", d:"suud"}], d:[{f:"1550-01-01", t:"1670-01-01", y:"vassal"}, {f:"1871-04-20", t:"1913-07-08", y:"savas"}] },
 { ad:"Buraydâ (Kasîm)", tur:"sehir", lat:26.3594, lon:43.9814, g:0, k:0, s:[{f:"1744-01-01", t:"1818-09-09", d:"suud"}, {f:"1824-06-01", t:"1891-01-01", d:"suud"}, {f:"1891-01-01", t:"1902-01-15", d:"sammar"}, {f:"1902-01-15", t:"1923-10-29", d:"suud"}], d:[], v:[{f:"1818-09-09", t:"1824-06-01", k:"Mısır (İbrâhim Paşa)"}] },
 { ad:"Uneyze", tur:"sehir", lat:26.0878, lon:43.9939, g:0, k:0, s:[{f:"1744-01-01", t:"1818-09-09", d:"suud"}, {f:"1824-06-01", t:"1891-01-01", d:"suud"}, {f:"1891-01-01", t:"1902-01-15", d:"sammar"}, {f:"1902-01-15", t:"1923-10-29", d:"suud"}], d:[], v:[{f:"1818-09-09", t:"1824-06-01", k:"Mısır (İbrâhim Paşa)"}] },
 { ad:"Şakrâ", tur:"sehir", lat:25.2394, lon:45.2531, g:0, k:0, s:[{f:"1744-01-01", t:"1818-09-09", d:"suud"}, {f:"1824-06-01", t:"1891-01-01", d:"suud"}, {f:"1891-01-01", t:"1902-01-15", d:"sammar"}, {f:"1902-01-15", t:"1923-10-29", d:"suud"}], d:[], v:[{f:"1818-09-09", t:"1824-06-01", k:"Mısır (İbrâhim Paşa)"}] },
