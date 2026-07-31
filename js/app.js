@@ -2309,7 +2309,31 @@ function kisiBul(ad) {
     }
     // örtüşme oranı: tek ortak kelimenin çok kelimeli bir kaydı yakalamasını önler
     if (skor / Math.max(tw.length, kw.length) < 0.5) continue;
-    var gerekli = Math.min(tw.length, kw.length) >= 2 ? 2 : 1;
+    // 🔴 `min` DEĞİL `tw.length` — kullanıcı kusuru, ölçülerek düzeltildi.
+    // Vaka: 1446 maddesinde 1916 Kûtülamâre zaferi görünüyordu.
+    //   "Çandarlı Halil Paşa" tw=[çandarlı,halil]   (paşa UNVAN, elenir)
+    //   "Halil Paşa (Kut)"    kw=[halil]            (kut < 4 harf, elenir)
+    //   skor 1 · oran 1/2 = 0,5 (eşiği geçiyor) · gerekli min(2,1)=1 ⇒ EŞLEŞTİ
+    // Yani AYIRT EDİCİ kelime (`çandarlı`) hiç tutmuyor, yalnız ortak ad
+    // tutuyor — ve dizindeki kaydın adı KISALDIKÇA eşleşme KOLAYLAŞIYORDU.
+    //
+    // Yeni ölçüt: SORGU kaç ayırt edici kelime verdiyse o kadarı tutmalı.
+    // "Çandarlı Halil Paşa" iki kelime veriyor ⇒ ikisi de tutmalı (skor 1 < 2,
+    // eşleşme reddedilir). "Tomanbay" tek kelime veriyor ⇒ biri yeter.
+    //
+    // Ölçüldü (874 benzersiz ad): 45 eşleşme kayboluyor ve **45'inin 45'i**
+    // ayırt edici kelimesi tutmayan şüpheli kümesinden geliyor; yeni yanlış
+    // eşleşme 0. Kaybolanların büyük çoğunluğu zaten yanlıştı — "Hüseyin Hilmi
+    // Paşa" → "Şah Sultan Hüseyin" (Safevî şahı), "Abbas Hilmi Paşa" →
+    // "Şah I. Abbas", "Said Halim Paşa" → "Said bin Sultan".
+    // ⚠️ Bedeli var ve gizlemiyorum: dördü beşi DOĞRU bağlantıydı ve artık
+    // kurulmuyor — "Edmund Allenby" → "General Allenby", "I. Petro (Rusya)" →
+    // "Çar I. Petro", "Ahmed Urâbî Paşa" → "Urâbî Paşa". Ortak yanları:
+    // sorguda parantezli/ek nitelik var, dizinde yok.
+    // ⇒ Takas bilinçli: EKSİK bağlantı kişi kartını hiç göstermez (sessiz
+    // yokluk), YANLIŞ bağlantı başka birinin hayatını olgu diye gösterir.
+    // İkincisi kullanıcıya doğrudan yanlış bilgi veriyordu.
+    var gerekli = tw.length >= 2 ? 2 : 1;
     if (skor >= gerekli && skor > enIyiSkor) { enIyi = liste[i]; enIyiSkor = skor; }
   }
   return enIyi;
