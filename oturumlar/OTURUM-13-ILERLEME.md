@@ -1218,3 +1218,104 @@ CANLI ve iddiayı içeriyor: `kirim` · `kefe` · `karasubazar` · `akmescid` ·
 sahibi ve tarih çerçevesi canlı maddelerde adıyla geçiyor.** Zübâre'de hiç
 kaynak yoktu; burada kaynak var, yalnız künyesi ayrı değil. Tek istisna
 İnkirman'ın 1475 öncesidir ve **açıkça işaretlendi**.
+
+---
+
+## 2026-08-01 (10. tur) — U4'ün üç eksik yerleşimi: ikisi yanlış bölgeye atanmış
+
+YER DİZİNİ (U4) Maçka · Nizip · Ulaş'ı Anadolu'ya havale etti. Ölçüldü:
+**üçünden yalnız biri gerçek.**
+
+### 🔴 MAÇKA — eksik yerleşim DEĞİL, İstanbul'un semti
+Maddenin kendi `yer:` alanı söylüyor: **`yer:"Maçka, İstanbul"`**,
+`t:"1834-07-01"`, *"Mekteb-i Harbiye'nin Maçka Kışlası'nda kurulması"*.
+Trabzon'un Maçka'sı değil, Beşiktaş'ın Maçka'sı. İstanbul'un noktası zaten var.
+⇒ **İş yok.** Bu `yer:` değeri mahalle düzeyindedir ve hiçbir zaman bir
+yerleşim kaydına çözülmeyecektir.
+
+### 🔴 ULAŞ — Sivas değil, Tuna boyu (Banat)
+`yer:"Ulaş, Tuna boyu"`, `t:"1696-08-27"`, *"Ulaş (Olaşin) zaferi"*.
+Ve `data/savaslar.js` koordinatı veriyor: **lat 45,8 · lon 21,15** — Temeşvar
+civarı, Sivas'ın 1.500 km batısı.
+⇒ **Benim bölgem değil**, Balkan oturumuna aittir. U4'e geri havale.
+
+### 🟡 NİZİP — gerçek ve gerçekten eksik, ama İSTEĞE BAĞLI
+Parça eşleşme: hiçbir `yerlesimler*.js`'te yok (merge bekleyenler dahil).
+En yakın nokta **Antep 37,1 km**. İki maddede geçiyor (`1839-04-21`
+Fırat'ın geçilmesi · `1839-06-24` Nizip Muharebesi) ve `savaslar.js`'te hem
+meydan savaşı hem sefer güzergâhının ucu **37,01/37,79**'da duruyor.
+
+⚠️ **Ama renk değiştirmez:** zinciri Antep'inkinin aynısı olurdu. Kazancı
+yalnızca "savaş okunun ucunda yerleşim olsun" tutarlılığıdır.
+
+```js
+{ ad:"Nizip", tur:"sehir", lat:37.0100, lon:37.7950, g:0, k:4, m:"Antep",
+    s:[{f:"1281-01-01",t:"1516-08-20",d:"memluk"},
+       {f:"1919-01-01",t:"1921-10-20",d:"fransa"}],
+    d:[{f:"1516-08-20",t:"1919-01-01"},{f:"1921-10-20",t:"1923-10-29"}] },
+```
+⚠️ `nizip` slug **ÖLÜ** (`<title>` = "Arama"). Zincir Antep'ten miras, tarih
+aşağıdaki düzeltmeye göre yazıldı.
+
+---
+
+### 🔵 ASIL BULGU — Antep'in katılış günü 4 gün yanlış
+
+**TDV `gaziantep`** ✔ (canlı, iddiayı içeriyor):
+> *"Yavuz Sultan Selim **20 Ağustos 1516**'da Antep'e gelerek üç gün
+> konakladı. Bu suretle Antep şehri Osmanlı Devleti'ne katılmış oldu."*
+
+Veride **`1516-08-24`** — bu **Mercidâbık'ın** tarihidir; Antep ondan
+**önce** katılmış. 🔧 Antep `1516-08-24` → **`1516-08-20`**.
+📌 Aynı günü taşıyan komşular (Behisni, Hısn-ı Mansûr, Halep…) ayrıca
+denetlenmeli — hepsi Mercidâbık'a çapalanmış olabilir.
+
+### 🟡 Antep'in Haziran 1839 işgali — yazılmadı, işaretlendi
+**TDV `gaziantep`** ✔: *"Şehir, **1839 Haziranında kısa bir süre için**
+Mısır Valisi Mehmed Ali Paşa kuvvetleri tarafından **işgal edildi**."*
+Gün yok, **bitiş yok** ⇒ pencere uydurulamaz. `KARAR-DAYANAK 14` gereği
+işaretlendi.
+📌 Doğru alan `d:`/`v:` değil, şemadaki **`isg:` (işgal örtüsü)** olurdu —
+`denetle.py:710-716` onu de jure dönemin üstüne binmek üzere tasarlamış.
+Kaynak bitiş tarihi bulunursa oraya yazılmalı.
+
+📌 U4'ün ikinci uyarısı (madde tarihi ≠ gerçek el değiştirme) **burada
+sorun çıkarmadı**: `kavalali-mehmed-ali-pasa` ✔ Nizip'i **24 Haziran 1839**
+veriyor, madde de `1839-06-24` — **birebir**, ±30 gün sorunu yok.
+
+### 🟡 Sahibine havale edilen iki tarih kuşkusu
+| Veri | TDV `kavalali-mehmed-ali-pasa` ✔ |
+|---|---|
+| Konya·Karaman·Kütahya `v:` bitişi **1833-06-30** | Kütahya Antlaşması **30 Mart 1833** |
+| Akkâ `v:` bitişi **1840-11-03** | Akkâ'nın düşüşü **4 Kasım 1840** |
+
+İkisi de farklı olayları gösteriyor olabilir (antlaşma ≠ tahliye); **iddia
+etmiyorum, denetlenmesini istiyorum.** Doğrulananlar: Akkâ'nın alınışı
+`1832-05-27` **birebir** · Beylan `1832-07-29` **birebir** · 1841 fermanı
+`1841-05-24` **birebir**.
+
+---
+
+### 🔴 ARAÇ DERSİ — kendi betiğim hayalet kusur üretiyordu
+
+Ölçüme `d:` → `v:` → `s:` sırasıyla başladım ve **bütün Suriye'nin Kavalalı
+işgali eksik** görünüyordu. Yanlıştı. Motor ters sırada çalışıyor:
+
+> `uret_petek.py:1628-1630` — `dogrudan = {d: aktif} **- tabi**`
+> ⇒ `d:` ile `v:` örtüşürse **tâbi kazanır**, ve bu `VERI-YAPISI.md:57`'de
+> **yazılı**: *"`d` ve `v` çakışırsa **tâbi kazanır** (açık ton)."*
+
+Örtüşme kusur değil, **21 kayıt çiftinde kasıtlı deyim** (Urfa · Maraş ·
+Adana · Tarsus · Antakya · Halep · Hama · Şam · Girit · Konya…): kesintisiz
+bir `d:` dönemi üstüne kısa bir `v:` penceresi biniyor.
+
+⚠️ Ve aynı ters sıra **`denetle.py:394-399`'daki `durum()` yardımcısında da
+var** — belgelenmiş kurala aykırı. Bugün zarar vermiyor çünkü Değişmez 3
+`{OSMANLI, tabi}` çiftini 422. satırda zaten muaf tutuyor; ama **gizli**
+duruyor ve o yardımcı başka bir denetimde kullanılırsa sessizce ters sonuç
+verir.
+
+📌 Ders — `sahip.js` dersinin ikinci nüshası: **bir aracın sırası motorun
+sırasıyla aynı mı diye sorulmadan ölçüm yapılmamalı.** Bu turda ölçüm iki
+dakika, aracın doğrulanması on dakika sürdü; doğrulamasaydım "Suriye'de
+1832-1841 tamamen eksik" diye **var olmayan** bir kusur bildirecektim.
