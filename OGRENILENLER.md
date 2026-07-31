@@ -1981,3 +1981,44 @@ Bozuk bir taban "bozuk" diye görünmez — yalnız sonucu sessizce kaydırır.
 ⚠️ Ve ikinci vaka en pahalısı: yeni bir özellik, **anlatılmadığı için kusur
 raporu üretti.** Yani lejanta bir satır yazmamanın bedeli, kullanıcının
 zamanı + bir teşhis turu oldu.
+
+---
+
+## §55 — Ölü ÖZELLİK kodu silinir, ölü SAVUNMA dalı kalır
+
+(ARAYÜZ'ün ayrımı.) `§40` ailesinin dördüncü türü bugün çıktı ve zararı
+öbürlerinden **farklı yerde**:
+
+```
+üretiliyor ama çizilmiyor     isg: · sönen kenar        → KULLANICI görmüyor
+çiziliyor ama görünmüyor      alan göstergesi           → KULLANICI bulamıyor
+görünüyor ama anlatılmıyor    sönen kenar               → KULLANICI kusur sanıyor
+🔴 ÖLÜ ama CANLI görünüyor    şehzade katmanı           → BİZ yanlış teşhis kuruyoruz
+```
+
+**Vaka.** `js/app.js` `sehzade-dolgu` katmanını kuruyor, `uret_donemler.py`
+`SEHZ_*` poligonlarını taşıyor — ve **`donemler.js`'te `z` alanı taşıyan dönem
+sayısı 0.** İkisi de üç yıldır hiçbir şey yapmıyor.
+
+🔴 **Zararı ölçüldü:** kullanıcı *"güney Marmara'da iki kırmızı bölge"* dedi,
+koordinatör şikâyeti **bu ölü katmana** bağladı ve *"üç Z poligonu üst üste
+biniyor"* diye hipotez kurdu. Gerçek sebep bambaşkaydı (dört Çelebi normal
+devlet kimliği, altı renk çiftinin ΔE'si eşiğin altında). MOTOR ölçmeye
+kalksaydı **ölü dosyayı ölçmüş olacaktı.**
+
+> **Kural 1:** işlevsiz **özellik** kodu **silinir**, işaretlenmez.
+> *"İşaretle"* yetmez çünkü **işaret de okunmadan geçilebiliyor** — bugünün
+> kanıtı: `CLAUDE.md` o dosyayı zaten `☠️ ESKİ MOTOR` diye işaretliyordu ve
+> koordinatör okumadan üzerine hipotez kurdu.
+>
+> **Kural 2:** ölü **savunma dalı** kalır. `donemBul`'un `-2` dönüşü bugün
+> ulaşılamaz (atlas aralığında dönemsiz gün yok) ama **beklediği durum henüz
+> oluşmadı** — veri bir gün iç boşluk üretirse o dal olmadan fonksiyon
+> tanımsız dönerdi.
+
+📌 Ayıraç: **özellik gibi mi görünüyor?** Bir katman, bir düğme, bir alan —
+biri ona bakıp *"demek bu var"* diyebiliyorsa **özelliktir, silinir.**
+Görünmeyen, yalnız bir kenar durumu bekleyen dal **savunmadır, kalır.**
+
+⚠️ Ve silmek bilgiyi yok etmiyor: kod git geçmişinde duruyor, yer işareti
+bırakılıyor. Silinen şey **canlı sanılma ihtimali.**
