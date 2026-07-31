@@ -1787,9 +1787,18 @@ window.YERLESIMLER = [
 // geldiğinde 1646'da sahneye çıkması, Köhne Ürgenç'in aynı gün sahneden
 // çekilmesi gerekir. Bugün ikisi de petek taşıyor, sahipleri aynı olduğu
 // için haritada fark görünmez.
-{ ad:"Yeni Ürgenç", tur:"sehir", lat:41.5500, lon:60.6333, g:0, k:0, kasitli_bosluk:true, d:[],
+{ ad:"Yeni Ürgenç", tur:"sehir", lat:41.5500, lon:60.6333, g:0, k:0, d:[],
   kur:"1646-01-01",
-  s:[{f:"1646-01-01", t:"1740-01-01", d:"hive"},
+  // 1646 öncesi: Köhne Ürgenç'in (Gürgenç) zinciri AYNEN taşındı. Amuderya
+  // yatak değiştirince şehir taşındı, egemen değişmedi — 1646'nın her iki
+  // yanında da `hive`. Yani bu kopya yeni bir tarihî iddia ÜRETMEZ, var olan
+  // kaydı aynalar. `kasitli_bosluk` KALDIRILDI: toprak boş değildi, Köhne
+  // Ürgenç'in peteği zaten taşıyordu. (Ölçüm: VERİ ORTASYA, canlı veriden
+  // `node -e` ile okundu — proje kendi yükleyicisiyle doğrulandı.)
+  s:[{f:"1281-01-01", t:"1379-01-01", d:"altinorda"},
+     {f:"1379-01-01", t:"1502-01-01", d:"timurlu"},
+     {f:"1502-01-01", t:"1512-01-01", d:"buhara"},
+     {f:"1512-01-01", t:"1740-01-01", d:"hive"},
      {f:"1740-01-01", t:"1747-06-20", d:"iran"},
      {f:"1747-06-20", t:"1920-04-26", d:"hive"},
      {f:"1920-04-26", t:"1923-10-29", d:"rusya"}] },
