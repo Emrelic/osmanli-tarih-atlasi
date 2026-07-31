@@ -785,3 +785,60 @@ kayit: 240 | harita eslesmesi olan: 119 | tekrar id: 0
 ```
 `data/devletler.js` dışında hiçbir dosyaya dokunulmadı. Commit/push yapılmadı.
 Merkez oturuma bildirildi.
+
+---
+
+## EK OTURUM 5 — `abdulkadir` yeni kayıt + `erdel` renk ölçümü (2026-07-31)
+
+Merkez oturum önceki oturumda bulduğum iki boşluk için görev gönderdi: (1)
+`abdulkadir` kaydını TDV doğrulamasıyla aç, (2) `erdel`in neden hiç rengi
+olmadığını ölç.
+
+### 1) `abdulkadir` — TDV doğrulandı, yeni kayıt eklendi
+
+`islamansiklopedisi.org.tr/abdulkadir-el-cezairi` WebFetch ile kontrol edildi:
+**gerçek madde**, arama/yönlendirme tuzağı değil (madde başlığı ve içeriği
+doğrudan Emîr Abdülkādir el-Cezâirî hakkında). Doğrulanan bilgiler merkez
+oturumun verdiği tarihlerle birebir örtüştü: 1832-11-22 emîrü'l-mü'minîn
+ilanı, 1847-12-23 Fransızlara teslim, ara dönemde 1843 ve 1846'da Fas'a
+sığınma, Fas'ın 1844 Isly Savaşı'nda yenilmesiyle Sultan Abdurrahman'ın
+desteğini kesmesi.
+
+Kayıt `cezayir-fransiz`'den hemen sonra eklendi (`id:"abdulkadir"`,
+`bolge:"kuzey-afrika"`, `harita:"abdulkadir"`), `ozet` alanında Osmanlı değil
+**Fas Sultanı'na tâbi olduğu** (merkez oturumun kritik uyarısı) açıkça
+belirtildi — bu yüzden veri modelinde `v:` (Osmanlı vasallığı) değil bağımsız
+bir devlet kaydı olarak temsil ediliyor. `cezayir-fransiz`'in `ozet`ine de
+çapraz referans eklendi.
+
+### 2) `erdel` renk ölçümü — BUG DEĞİL, kasıtlı tasarım
+
+`data/yerlesimler.js`'te `d:"erdel"` hiç kullanılmıyor (0 sonuç) — ama Erdel
+bölgesindeki yerleşimler (`Erdel (Kaloşvar)`, `Varad`, `Yanova`...) incelenince
+gerçek mekanizma ortaya çıktı: Erdel dönemi (1541-1687) bu yerleşimlerin `s:`
+(sahiplik/harita) dizisinde HİÇ yer almıyor — `s:` doğrudan `macaristan`
+(→1526) ile `avusturya` (1687/1692 sonrası) arasında atlıyor. Erdel dönemi
+ayrı bir `v:` (vasal) alanında `{k:"Erdel Prensliği"}` etiketiyle tutuluyor.
+`yerlesimler.js`'in kendi yorum satırı (898-899. satır, Boğdan örneği
+üzerinden) bunu doğruluyor: `v:` alanı haritada **"soluk Osmanlı-vasalı
+çekirdek"** olarak, `s:`/`harita:` renk sistemi DIŞINDA ayrı bir katmanla
+gösteriliyor.
+
+**Sonuç:** Erdel'in kendi rengi olmaması eksiklik değil — proje zaten Osmanlı
+vasalı özerk prenslikleri (Erdel, ve 1526-1541 Zapolya-Macaristanı) solid
+`harita:` rengiyle değil, ayrı bir vasal-overlay mekanizmasıyla gösterecek
+şekilde tasarlanmış. `devletler.js`'teki `erdel` kaydının `harita:` alanı
+olmaması da bununla tutarlı — dokunmadım, dokunulmamalı.
+
+**Doğrulama:**
+```
+kayit: 241 | harita eslesmesi olan: 120 | tekrar id: 0
+```
+`denetle_anakronizm.py`'nin "harita: karşılığı yok" uyarısı artık yalnızca
+`turkmen` (kasıtlı, devletsiz boy) gösteriyor — `abdulkadir` de kapandı.
+(Not: script ayrıca önceden var olan `nube` kaydında bir eksik alan uyarısı
+veriyor — bu partiden önce de vardı, benim dokunduğum bir şey değil, merkeze
+ayrıca bildirilmedi çünkü kapsam dışı ve düşük öncelikli.)
+
+`data/devletler.js` dışında hiçbir dosyaya dokunulmadı. Commit/push yapılmadı.
+Merkez oturuma bildirildi.

@@ -843,9 +843,22 @@ window.DEVLETLER = [
 },
 { id:"cezayir-fransiz", ad:"Fransız Cezayir İşgali", tur:"gecici-isgal", bolge:"kuzey-afrika",
   f:"1830-07-05", t:"1923-10-29", baskent:"Cezayir",
-  ozet:"Cezayir Ocağı'nın (bkz. [[cezayir-ocagi]]) sonunu getiren Fransız işgali; 1962'ye dek (site ufkunun dışında) sürdü.",
+  ozet:"Cezayir Ocağı'nın (bkz. [[cezayir-ocagi]]) sonunu getiren Fransız işgali; 1962'ye dek (site ufkunun dışında) sürdü. Batı'da Emîr Abdülkādir'in direniş devletiyle (bkz. [[abdulkadir]]) 1847'ye dek fiilen paylaşıldı.",
   kronoloji:[
     { t:"1830-07-05", tur:"isgal", b:"Fransız ordusu Cezayir'i işgal etti, ocaklık sona erdi" }
+  ]
+},
+{ id:"abdulkadir", ad:"Emîr Abdülkādir Devleti", tur:"devlet", bolge:"kuzey-afrika",
+  f:"1832-11-22", t:"1847-12-23", baskent:"Muaskar (Mascara) → gezici karargâh",
+  ozet:"Fransız işgaline karşı batı Cezayir kabilelerini birleştiren direniş devleti; Fas Sultanı'nın (Abdurrahman) mânevî metbûiyetini tanıyıp onun adına hutbe okutan, Osmanlı'ya değil Fas'a tâbi bir yapı olduğu için burada 's:' (yabancı sahiplik) değil bu bağımsız kayıtla temsil ediliyor. Fas'ın 1844'te Fransa'ya yenilmesiyle desteği kesilince direniş çöktü. (kaynak: TDV, madde: abdulkadir-el-cezairi)",
+  harita:"abdulkadir",
+  kronoloji:[
+    { t:"1832-11-22", tur:"kurulus", b:"Batı Cezayir kabileleri tarafından emîrü'l-mü'minîn ilan edildi" },
+    { t:"1837-05-30", tur:"antlasma", b:"Tafna Antlaşması ile Fransa iç bölgedeki hâkimiyetini tanıdı" },
+    { t:"1839-11-01", tur:"savas", b:"Antlaşma bozuldu, tam ölçekli Fransız-Cezayir savaşı yeniden başladı" },
+    { t:"1843-05-16", tur:"toprak-kayip", b:"Smala'nın (gezici başkent) baskınla ele geçirilmesi üzerine Fas'a sığınmak zorunda kaldı" },
+    { t:"1844-08-14", tur:"savas", b:"Fas, Isly Savaşı'nda Fransa'ya yenildi; Sultan Abdurrahman desteğini kesti" },
+    { t:"1847-12-23", tur:"son", b:"Fransızlara teslim oldu; sonradan Şam'a sürgün edildi" }
   ]
 },
 { id:"sarki-rumeli", ad:"Şarkî Rumeli Vilayeti (Özerk)", tur:"gecici-isgal", bolge:"balkanlar",
