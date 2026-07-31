@@ -215,6 +215,14 @@ bir maddedir ve **tam da bu yüzden tehlikelidir**: "fakir slug" değil,
 `iskenderiye` ya da `kavalali-mehmed-ali-pasa` maddesindedir (Mehmed Ali
 Fraser'ı püskürten taraftı) — **ölçmedim**, sıradaki tura.
 
+> ### ⚠️ BU BÖLÜM SONRADAN AŞILDI — **§6'ya bakın**
+> Sıradaki turda ikisi de ölçüldü ve **ikisi de çözüldü:**
+> `1807-03-17` → **`iskenderiye`** (§6a) · `1801-10-09` → **`yusuf-ziya-pasa`** (§6b).
+> Ayrıca `1802-06-25` için önerim `selim-iii`'ten **`yusuf-ziya-pasa`**'ya
+> yükseldi: `selim-iii` yalnız yıl veriyordu, `yusuf-ziya-pasa` **25 Haziran
+> 1802**'yi gün olarak veriyor (§6b, Bonus 1).
+> Ve sezgim yanlış çıktı: `kavalali-mehmed-ali-pasa`'da 1807 seferi **hiç yok.**
+
 ---
 
 # 4. Ölçülmüş kapsam
@@ -230,3 +238,159 @@ Fraser'ı püskürten taraftı) — **ölçmedim**, sıradaki tura.
 | Çözülmeyen kaynak | 2 | 1801-10-09 · 1807-03-17 |
 
 **Yazılabilir: 7 nokta + 3 kaynak düzeltmesi. Açık bırakılan: 1 nokta + 2 kaynak.**
+
+---
+
+# 5. UYGULANACAK METİNLER (girdi donuk — Merkez işleyecek)
+
+## 5a. Beş Batı Sahra noktası — `yerlesimler_afrika.js`
+
+```js
+// ===========================================================================
+// 18) BATI SAHRA KERVAN YOLU — beşi de KASTEN SAHİPSİZ
+// ---------------------------------------------------------------------------
+// Kullanıcı çöl tavanını 300 km onayladı; COĞRAFYA ise Batı Sahra medyanının
+// 391 km olduğunu ve bunun KURALIN değil VERİNİN eksikliği olduğunu ölçtü.
+// Doğrulandı: `lat 18-30 / lon -18..-2` kutusunda 1.541 noktanın içinde
+// TEK NOKTA vardı (Sahra batısı). Şinkīt'in en yakın komşusu 1.067 km
+// öteydi (Timbuktu) — kullanıcının "pat diye 1000 km öteye geçiyor"
+// itirazının birebir sayısal karşılığı.
+//
+// BEŞİ DE SAHİPSİZ ve bu iki ayrı sebeple doğru:
+//   1. CLAUDE.md §3 — çöl dolgu noktası komşu peteğin çölü yutmasını
+//      engeller, sahiplik iddia etmez.
+//   2. TDV'de beşinin de MADDESİ YOK (arandı: valata/vadan/tisit/tinduf/
+//      simara -> hepsi 0 sonuç). Sahipsizlik, "kaynak yoksa yazma"
+//      kuralıyla uyumlu TEK çözüm — sahiplik yazmak uydurma olurdu.
+//
+// UYARI: Simârâ (-11.671) ve Vâdân (-11.617) pencerenin batı sınırına
+// 0,33-0,38 derece mesafede. Petekleri BOLGE tarafından kırpılacak; bu bir
+// hata değil, bilerek kabul edilmiş sonuçtur.
+// TDV yazımı "Smara" değil SİMÂRÂ — `sus` maddesinden birebir.
+
+{ ad:"Tindûf",         tur:"bolge", lat:27.671, lon:-8.128,  g:0, k:0, s:[], d:[], v:[] },
+{ ad:"Simârâ (Smara)", tur:"bolge", lat:26.739, lon:-11.671, g:0, k:0, s:[], d:[], v:[] },
+{ ad:"Vâdân",          tur:"bolge", lat:20.933, lon:-11.617, g:0, k:0, s:[], d:[], v:[] },
+{ ad:"Tîşît",          tur:"bolge", lat:18.450, lon:-9.508,  g:0, k:0, s:[], d:[], v:[] },
+{ ad:"Vâlâta",         tur:"bolge", lat:17.297, lon:-7.023,  g:0, k:0, s:[], d:[], v:[] },
+
+// ŞİNKĪT PENCERENİN DIŞINDA — lon -12.362, box(-12,...)'nin 0,362 derece
+// batısı. Kutu dışı nokta `.intersection(BOLGE)` ile boş peteğe düşer
+// (r83 sınıfı), Barava ve Kısmâyû ile aynı sebeple YORUMDA bekliyor.
+// İRONİ KAYDA GEÇSİN: altı adaydan TDV maddesi olan TEK nokta budur
+// (`sinkit` — kuruluş 776/781, kervan ve hac yollarının toplanma merkezi,
+// 1907'de Fransız idare merkezi). Kaynağı en sağlam olan, haritaya
+// giremeyen oldu. Pencere batıya açılırsa İLK bu girer.
+// { ad:"Şinkīt", tur:"sehir", lat:20.463, lon:-12.362, g:0, k:0, s:[], d:[], v:[] },
+```
+**`BEKLENEN_SAHIPSIZ` 50 -> 55.**
+
+## 5b. Ebâ Adası — yeni kırılma YOK
+
+```js
+// Mehdî hareketinin doğduğu ada. TDV muhammed-ahmed-el-mehdi: Muhammed
+// Ahmed 1287 (1870) yılından itibaren adaya yerleşip tarikatını kurdu,
+// mehdîlik iddiasını ilk defa Rebîülâhir 1298'de (Mart 1881) açıkladı.
+// mehdi DÖNEMİ 1881'E ÇEKİLMEDİ: TDV'ye göre 1881 Ağustosunda üzerine
+// gelen kuvveti yendikten sonra KORDOFAN'A ÇEKİLDİ — ada sürekli elinde
+// kalmadı. 1881'e çekmek kaynaksız bir toprak iddiası olur ve yeni bir
+// kırılma açardı. 1881'in yeri kronoloji, harita değil.
+// Kosti'ye 25,9 km; zinciri Kosti ile BİREBİR, yeni kırılma üretmez.
+{ ad:"Ebâ Adası", tur:"bolge", lat:13.000, lon:32.500, g:0, k:4, m:"Hartum",
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},
+     {f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
+  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
+```
+
+## 5c. Bahrülgazâl — 1 yeni kırılma + maddesi
+
+```js
+{ ad:"Bahrülgazâl (Vâv)", tur:"bolge", lat:7.700, lon:28.000, g:0, k:4, m:"Hartum",
+  s:[{f:"1281-01-01",t:"1821-06-14",d:"funj"},
+     {f:"1884-04-01",t:"1899-01-19",d:"mehdi"},
+     {f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
+  v:[{f:"1821-06-14",t:"1884-04-01",k:"Mısır (Kavalalı)"}], d:[] },
+```
+
+**Maddesi** (çakışma tarandı: `1884-04-01` boş, en yakın komşu 90 gün):
+
+```js
+{ t:"1884-04-01", k:"kayip", etiket:["toprak-kaybi","ayaklanma"],
+  b:"Bahrülgazâl'in Mehdî kuvvetlerine teslimi — Sudan'ın güneybatısının kaybı",
+  gun:"Nisan 1884", yer:"Bahrülgazâl vilâyeti, Vâv",
+  kisiler:"Frank Lupton (vali)",
+  d:"Mehdî ayaklanması Kordofan ve Dârfûr'u aldıktan sonra Mısır'ın en uzak güney vilâyetlerini de kuşattı. TDV, Dârfûr ile Bahrülgazâl'in Avrupalı valilerce sırasıyla Aralık 1883 ve Nisan 1884'te Mehdî kuvvetlerine teslim edildiğini kaydeder; Bahrülgazâl valisi Frank Lupton kuşatılmış ve takviye ulaşmayınca teslim olmuştur. Böylece Hidiv İsmâil'in Nil'in yukarı havzasında kurduğu idare tamamen çözüldü ve bölge 1899'da geri alınana kadar Mehdî devletinde kaldı. TDV ay hassasiyetinde tarih vermektedir; gün doğrulanamadığı için ayın 1'i yazılmıştır.",
+  kaynak:"muhammed-ahmed-el-mehdi" },
+```
+
+Kendi `1883-12-23 Dârfûr` maddem TDV'nin *"Aralık 1883"*üyle uyuşuyor —
+aynı cümle iki maddeyi birden doğruladı.
+
+---
+
+# 6. Son iki slug — biri çözüldü, biri beklediğimden iyi
+
+## 6a. `1807-03-17` Fraser seferi -> **`iskenderiye`**
+
+`iskenderiye` gerçek madde (iki bölümlü), olayı **anlatıyor**:
+> *"Osmanlı donanmasının İskenderiye'den ayrılışından **(11 Kasım 1806)**
+> sonra İngiliz hükümeti Fransızlar'ın Mısır'a hâkim olmasını engellemek
+> için kuvvet gönderdi"*
+> *"İngiliz donanması İskenderiye'den çekilmiş **(19 Eylül 1807)**"*
+
+**Ama `17 Mart` günü TDV'de yok** — madde seferi iki ucundan tarihliyor
+(donanmanın ayrılışı ve çekilişi), çıkarma gününü vermiyor. Aseb ile aynı
+sınıf: **slug doğru, gün TDV dışı.** Aseb'de verdiğiniz karar (B) burada da
+geçerli: gün işaretlensin, kırılma oynatılmasın.
+
+`kavalali-mehmed-ali-pasa` denendi ve **1807 seferi maddede hiç yok** —
+Mehmed Ali Fraser'ı püskürten taraf olduğu hâlde. Not düşüyorum çünkü
+sezgi ("püskürten taraf anlatır") yanlış çıktı.
+
+## 6b. `1801-10-09` -> **`yusuf-ziya-pasa`** — ve bir bonus verdi
+
+`aris` elenmişti (yanlış tarihli), `misir` elenmişti (fakir), `iskenderiye`
+1801'i 1798 Ebûkīr yenilgisine bağlayarak geçiştiriyor,
+`kavalali-mehmed-ali-pasa` tahliye için tarih vermiyor.
+
+**`yusuf-ziya-pasa`** (canlı, seferi bizzat komuta eden sadrazam) olayı
+baştan sona anlatıyor:
+> *"Sadrazam **17 Temmuz 1801**'de merasimle Kahire'ye girerek askerî
+> harekâtı başarıyla sona erdirmiş oldu"*
+> *"tahliyeyi de içeren barış antlaşması **25 Haziran 1802**'de imzalanarak
+> iki devlet arasındaki düşmanlık sona erdirildi"*
+
+### BONUS 1 — `1802-06-25` maddesi GÜN OLARAK doğrulandı
+
+`selim-iii` bu olay için yalnız **yıl** veriyordu (*"1802'de barış yapmak"*).
+`yusuf-ziya-pasa` **25 Haziran 1802** diyor — verideki günün **birebir
+kendisi.**
+=> **`1802-06-25` için önerimi `selim-iii`'ten `yusuf-ziya-pasa`'ya
+yükseltiyorum.** Yıl hassasiyetli bir atıftan gün hassasiyetli atfa geçiş.
+
+### BONUS 2 — kronolojide eksik bir gün-kesin olay
+
+**17 Temmuz 1801** — sadrazamın Kahire'ye girişi, seferin askerî sonu.
+Kronolojide **yok** ve tarih boş (en yakın komşu 1801-04-01 ve 1801-10-09,
+çakışma taranmış). İsterseniz maddesini yazarım.
+
+### `1801-10-09` için karar önerisi
+
+TDV **1801 Ekiminde bir tahliye günü vermiyor.** Verinin `1801-10-09`u
+standart kayıttan (son Fransız birliklerinin ayrılışı). Aseb'de koyduğunuz
+ölçüt burada da uygulanabilir: **gün tek başına duruyor, çakışmıyor ->
+işaretle ve bırak**, `kaynak:"yusuf-ziya-pasa"`.
+
+Alternatif: maddeyi `1801-07-17`ye çekmek (TDV gün-kesin). Ama o **askerî
+harekâtın sonu**, tahliyenin değil — maddenin başlığı "tahliye" olduğu için
+tarihi taşımak yerine **`kaynak:`ı bağlamak** daha doğru.
+
+## 6c. TDV içi bir gün farkı daha
+
+`aris`: Arîş Antlaşması **24 Ocak 1800**
+`yusuf-ziya-pasa`: aynı antlaşma **25 Ocak 1800**
+
+Bu turda üçüncü TDV-içi tarih uyuşmazlığı (Tâcûre Fransa/İngiltere ·
+himaye 18/19 Aralık · Arîş 24/25 Ocak). Hiçbiri bizim maddelerimizi
+etkilemiyor ama desen kayda değer: **TDV'nin farklı maddeleri aynı olayı
+bir gün kaydırarak verebiliyor.** Çapraz doğrulama şart.
