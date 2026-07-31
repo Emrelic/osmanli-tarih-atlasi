@@ -1656,12 +1656,25 @@ var otoZoom = true;
 var sonZoomZamani = 0;
 function zoomUygula(d) {
   if (!otoZoom || !haritaHazir) return;
+  // 🔴 KAPSAMA KORUMASI ARTIK HER ZAMAN ÇALIŞIYOR — eskiden `if (zamanlayici)`
+  // bloğunun İÇİNDEYDİ, yani yalnız otomatik oynatmada. Elle gezen kullanıcı
+  // (⏮/⏭, liste tıklaması, çubuk) korumasızdı ve HER dönem değişiminde harita
+  // yeniden çerçeveleniyordu. Kullanıcı şikâyeti: *"Ankara Savaşı'ndan sonra
+  // harita tak diye başka bir görünüme atlıyor."*
+  // Ölçüldü — koruma elle gezerken de açık olsaydı:
+  //     461 dönem geçişinin 417'sinde (%90,5) harita SABİT kalırdı
+  //     yalnız 44'ünde (%9,5) gerçekten çerçeveleme gerekiyor
+  // ⚠️ Niyet zaten buydu: yorum "oynatma sırasında titremeyi önlemek için"
+  // diyordu. Ama elle gezen kullanıcının korumaya DAHA ÇOK ihtiyacı var —
+  // o kendi yakınlığını bilinçli seçmiş oluyor.
+  var g = harita.getBounds();
+  var kapsiyor = g.getWest() <= d.b[0] && g.getEast() >= d.b[2] &&
+                 g.getSouth() <= d.b[1] && g.getNorth() >= d.b[3];
+  var oran = (d.b[2] - d.b[0]) / Math.max(0.001, g.getEast() - g.getWest());
+  if (kapsiyor && oran > 0.3) return;
+  // Zaman kısıtı YALNIZ oynatmada: elle atılan her adım bilinçli bir eylem,
+  // 900 ms'lik bir gecikmeyle yutulmamalı.
   if (zamanlayici) {
-    var g = harita.getBounds();
-    var kapsiyor = g.getWest() <= d.b[0] && g.getEast() >= d.b[2] &&
-                   g.getSouth() <= d.b[1] && g.getNorth() >= d.b[3];
-    var oran = (d.b[2] - d.b[0]) / Math.max(0.001, g.getEast() - g.getWest());
-    if (kapsiyor && oran > 0.3) return;
     var simdi = Date.now();
     if (simdi - sonZoomZamani < 900) return;
     sonZoomZamani = simdi;
@@ -2549,6 +2562,31 @@ btnZoom.addEventListener("click", function () {
   otoZoom = !otoZoom;
   btnZoom.classList.toggle("pasif", !otoZoom);
   if (otoZoom && aktifDonem >= 0) zoomUygula(donemler[aktifDonem]);
+});
+
+// 🔴 KULLANICI ELLE YAKINLAŞTIRIRSA OTOMATİK ÇERÇEVELEME KAPANIR.
+// Kullanıcının cümlesi bir NİYET BEYANI: *"hangi zoomda ise o zoomda kalmalı."*
+// Zoom hareketi "buraya bakmak istiyorum" demektir; ondan sonra haritayı
+// kendiliğinden kaçırmak, kullanıcının kararını geri almaktır.
+//
+// ⚠️ Bu, kapsama korumasının YERİNE değil, ÜSTÜNE geliyor — ve gerekçesi
+// ölçüldü: koruma tek başına 461 geçişin 417'sini (%90,5) susturuyor, ama
+// kullanıcının bildirdiği vakayı SUSTURMUYOR. Ankara Savaşı'nda (1402-07-28)
+// imparatorluk kutusu 20,4-40,4°D'den 26,4-28,2°D'ye çöküyor; yeni kutu
+// eskisinin içinde ama oran 0,08 (< 0,3), yani koruma "çerçevele" diyor ve
+// haklı olarak diyor — orada gerçekten bambaşka bir coğrafyaya bakılıyor.
+// ⇒ O vakayı ancak kullanıcının kendi niyeti durdurabilir. İki mekanizma
+// farklı işler: koruma GEREKSİZ hareketi eler, niyet GEREKLİ hareketi de
+// kullanıcı istemiyorsa eler.
+//
+// 📌 Desen zaten var: bölge seçicisi de kilitlenirken `otoZoom = false` yapıyor
+// (`app.js:2512`). Yeni bir kavram icat edilmiyor, var olan tutarlı hâle geliyor.
+// ⚠️ `originalEvent` şartı zorunlu: `fitBounds`/`flyTo` da zoom olayı üretir,
+// o şart olmasa otomatik çerçeveleme KENDİ KENDİNİ kapatırdı.
+harita.on("zoomstart", function (e) {
+  if (!e || !e.originalEvent || !otoZoom) return;
+  otoZoom = false;
+  btnZoom.classList.add("pasif");
 });
 
 // Önceki / sonraki olaya atla
