@@ -220,6 +220,66 @@ davranış kendiliğinden değişir.
 **MOTOR'dan istenen:** `uret_petek.py`'de `coverage_simplify` sonrası nihai
 örtünün birleşimi `veri-kaynak/motor_kara.geojson` olarak yazılsın.
 
+## ✅ SINANDI ve YAYINDA — r246
+
+Koordinatör panelde ölçtü ve gözle baktı:
+
+```
+serbest-hale true · serbest-cekirdek true · katman 30 → 32 · 17 özellik
+gözle: 1550, z4,6 — Osmanlı kırmızısı Rub'ul Hâlî'ye YUMUŞAK sönüyor
+```
+Bugüne kadar hiç çizilmediği için taban yoktu; **bu taban.**
+
+```
+bölge etiketi (1550 · z5,4 · 48 etiket):  taban 1 · bant 47 · TAVAN 0
+§33'ün başarısız ilk denemesi          :  taban 22 · bant 24 · TAVAN 40
+devlet etiketi 43 — DÜŞMEDİ
+```
+Tavanda sıfır ⇒ "kısıt sağlandı" değil **"amaç sağlandı"**.
+⚠️ Tek kesit (1550/z5,4). Başka dönem-yakınlık çiftlerinde tavana yığılma
+sınanmadı — panel bu oturumda hiç açılmadığı için bende ölçülemedi.
+
+📌 Koordinatörün ölçüm yöntemi notu (bana da lazım): `jumpTo` sonrası **aynı
+çağrıda** ölçme — `bolgeEtiketleri` `moveend` ile doluyor, senkron okuma 0
+döndürüyor ve "etiket yok" sanılıyor.
+
+---
+
+## 🔴 OLAY — commit'im başka bir oturumun commit'ine karıştı
+
+`ORGANIZASYON §7.2`'nin önlemek için var olduğu vakanın **ayna hâli**.
+
+Sıra: dosyalarımı tek tek `git add` ettim → `git diff --cached --stat` ile
+doğruladım (5 dosya, yalnız benimkiler) → `git commit` **"no changes added to
+commit"** dedi. Sebep: aradaki pencerede koordinatör commit attı ve **benim
+hazırlanmış (staged) dosyalarım onun commit'ine girdi.**
+
+```
+b58002f  "OGRENILENLER §35: sabiti paylasmak yetmiyor..."
+         OGRENILENLER.md  +48        ← koordinatörün işi
+         js/app.js       +139        ← BENİM
+         css/style.css    +19        ← BENİM
+         arac/uret_altlik.py +39     ← BENİM
+         index.html       ±50        ← BENİM (r246 damgası)
+         oturumlar/ARAYUZ-ILERLEME.md +234  ← BENİM
+```
+
+**Kayıp YOK, içerik tam** (`git diff HEAD` benim beş dosyam için boş) ve
+**yayında** (origin ile eşit, damga r246 gitti). Bedel yalnız **izlenebilirlik**:
+beş dosyalık arayüz işi "OGRENILENLER §35" başlıklı bir commit'in içinde
+duruyor, gerekçelerin hiçbiri commit kütüğünde yok. Bu dosya o boşluğu
+kapatıyor.
+
+📌 **Ders — kuralın eksik yarısı.** `§7.2` *"`git add .` yasak, dosyaları tek
+tek ekle"* diyor ve ben aynen öyle yaptım; yine de oldu. Çünkü kural
+**ekleme**yi düzenliyor, **hazırlama ile commit arasındaki pencereyi**
+düzenlemiyor: `git add` global bir indeks yazıyor ve o pencerede commit atan
+HERKES benim hazırladığımı alır. Tek yazarlı dosya kuralı burada korumuyor —
+dosyalar gerçekten yalnız benimdi.
+> Öneri: `git add` ile `git commit` **tek çağrıda bitişik** olsun (araya
+> ölçüm/inceleme girmesin), ya da commit `git commit -o <dosya...>` ile yalnız
+> adı verilen yolları alsın. İkincisi pencereyi tamamen kapatıyor.
+
 ## ⏳ Bloke — görsel doğrulama
 
 Tarayıcı paneli kapalı olduğu için sayfa kare üretmiyor
