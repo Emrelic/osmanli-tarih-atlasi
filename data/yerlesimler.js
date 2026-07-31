@@ -657,8 +657,8 @@ window.YERLESIMLER = [
     v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)"}] },
 { ad:"Sennar", tur:"sehir", lat:13.551, lon:33.616, g:0, k:3, m:"Hartum", s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[],
     v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)"}] },
-{ ad:"Kordofan (Ubeyyid)", tur:"sehir", lat:13.184, lon:30.218, g:0, k:3, m:"Hartum", s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[],
-    v:[{f:"1821-08-19",t:"1885-01-26",k:"Mısır (Kavalalı)"}] },
+{ ad:"Kordofan (Ubeyyid)", tur:"sehir", lat:13.184, lon:30.218, g:0, k:3, m:"Hartum", s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[],
+    v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)"}] },
 // 🔴 KIZILDENİZ'İN İKİ YAKASI: üç komşu kayıt tek satır gibi işlenmişti, oysa
 // 1885'te ÜÇÜ ÜÇ AYRI YÖNE gitti. Kullanıcının "karşı kıyı neden farklı tonda"
 // sorusunun cevabı buydu.
@@ -905,7 +905,7 @@ window.YERLESIMLER = [
 { ad:"Ramletü'l-kübrâ (Büyük Kum Denizi)", tur:"bolge", lat:26.50, lon:26.00, g:0, k:0, d:[] },
 { ad:"Gilf el-Kebîr", tur:"bolge", lat:23.50, lon:26.00, g:0, k:0, d:[] },
 { ad:"Selîme (Nûbe çölü batısı)", tur:"bolge", lat:21.50, lon:29.30, g:0, k:0, d:[] },
-{ ad:"Kordofan", tur:"bolge", lat:13.00, lon:29.50, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1883-01-19",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], v:[{f:"1821-08-19",t:"1883-01-19",k:"Mısır (Kavalalı)"}] },
+{ ad:"Kordofan", tur:"bolge", lat:13.00, lon:29.50, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)"}] },
 { ad:"Darfur", tur:"bolge", lat:13.50, lon:24.00, g:0, k:0, d:[] },
 { ad:"Tibesti", tur:"bolge", lat:21.00, lon:17.50, g:0, k:0, d:[] },
 { ad:"Fizan güneyi", tur:"bolge", lat:23.00, lon:14.00, g:0, k:0, d:[] },

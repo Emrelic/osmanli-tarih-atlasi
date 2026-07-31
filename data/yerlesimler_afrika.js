@@ -852,8 +852,8 @@ window.YERLESIMLER_AFRIKA = [
 
 // Nil ile Sevâkin arasındaki kervan yolunun düğüm noktası.
 { ad:"Berber", tur:"sehir", lat:18.017, lon:33.983, g:0, k:3, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1884-05-01",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
+  v:[{f:"1821-01-04",t:"1884-05-01",k:"Mısır (Kavalalı)"}], d:[] },
 
 // İsmâil Paşa'nın 1822'de yakılarak öldürüldüğü yer (kronolojide maddesi var).
 { ad:"Şendî", tur:"sehir", lat:16.691, lon:33.433, g:0, k:3, m:"Hartum",
@@ -887,8 +887,8 @@ window.YERLESIMLER_AFRIKA = [
 
 // Kordofan: mevcut Ubeyyid kaydıyla aynı gün (1821-08-19).
 { ad:"Bâra", tur:"sehir", lat:13.700, lon:30.367, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-08-19",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-01",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
+  v:[{f:"1821-08-19",t:"1882-09-01",k:"Mısır (Kavalalı)"}], d:[] },
 
 // Batı Kordofan — Darfur ile Sennâr arasındaki tartışmalı kuşak. Darfur
 // kimliği olmadığı için Kordofan zinciriyle yazıldı; kimlik gelince
