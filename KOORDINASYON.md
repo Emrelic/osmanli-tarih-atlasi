@@ -638,3 +638,41 @@ işini gördü.
 ⚠️ Kayıtlı sınır: Aral'ın ortaçağdaki seviye dalgalanmaları (Amuderya'nın Uzboy'a
 akış değişiklikleri) **modellenmedi**; motor zamana bağlı göl desteklemiyor, bu
 yüzden şimdilik kayıp değil ama bir gün destek gelirse geri dönülmeli.
+
+### 🔴 YEDİ "FETİH" MADDESİ — kronoloji söylüyor, harita kıpırdamıyor
+
+Oturum 2'nin **Değişmez 2t**'si (Girit sınıfı, kırılmasız madde) ölçtü: 442 toprak
+maddesinin 67'sinin ±30 gününde hiçbir kırılma yok. Ama tek yığın bırakmadı —
+`antlasma×40`'ın çoğu **meşru** (statüko teyit eden barış sınır oynatmaz: Kasr-ı
+Şirin 1639, Zitvatorok 1606, Vasvar 1664). Asıl sinyal **`fetih`** ve yedi tane:
+
+| Tarih | Madde | Kime |
+|---|---|---|
+| 1426-01-01 | Cüneyd Bey ve ailesinin idamı — Aydınoğulları'nın sonu | 13 |
+| 1479-08-01 | İyon adalarının fethi — Tocco düklüğünün sonu | 11 |
+| 1516-06-20 | Zebîd'in alınması: Kızıldeniz'e ilk giriş | 4 |
+| 1529-09-08 | Budin'in alınıp Zapolya'ya verilmesi | 11 |
+| 1554-01-01 | Şehrizor'un ilhakı ve eyalet kurulması | 4 |
+| 1871-09-20 | Katar'da Osmanlı kontrolünün kurulması | 4 |
+| 1896-09-23 | Dongola'nın geri alınışı | 14 |
+
+Her biri iki şeyden biri: **madde yanlış tarihte** ya da **yerleşim kaydı eksik**.
+Kayıtlar `yerlesimler.js`'te, yani uygulaması bende; teşhis ilgili oturumda.
+
+### Değişmez 2s — on aylık körlük kapandı
+
+`566 yabancı kırılması · 115'inin ±30 günde maddesi YOK.` Listenin tepesi benim
+verdiğim örnekten kötü: orada 18 günlük yanlış eşleşme vardı, burada **yıllarca**
+uzakta — `1309-01-01 Bolu/Bartın/Akçakoca → en yakın madde 1310 gün ötede`.
+Beylikler devri ve İran/Orta Asya coğrafyası neredeyse tamamen kayıtsız el
+değiştiriyormuş.
+
+⚠️ **`s:` eklemek tek başına yetmiyor** ve Oturum 2 bunu koda yazdı: 1503'te 37
+kayıt Akkoyunlu'dan Safevî'ye geçiyor ve ölçütü *teknik olarak geçiyor*, çünkü 18
+gün ötede "Osmanlı-Venedik Savaşı'nın sona ermesi" var. Onu Değişmez 2 asla
+yakalayamaz — `denetle_eslesme.py` A bölümünün işi. **İki denetim birlikte
+kapatıyor: biri "madde var mı", diğeri "doğru madde mi".**
+
+📌 Yeni tavanlar: `BEKLENEN_ACIK_S = 115` · `BEKLENEN_KIRILMASIZ = 67`. Madde
+yazıldıkça **indirilmeleri** gerekiyor — yoksa borç kapandığı hâlde denetim sessiz
+kalır (`§29`'un ters yönde eskime dersi).
