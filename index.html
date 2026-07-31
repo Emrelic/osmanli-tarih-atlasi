@@ -149,6 +149,12 @@
 <script src="data/donemler.js?v=r307"></script>
 <script src="data/altlik.js?v=r307"></script>
 <script src="js/suzgec.js?v=r307"></script>
+<!-- ⚠️ zaman.js BU SATIR OLMADAN HİÇ YÜKLENMİYORDU. Dosya vardı, app.js onu
+     `window.ZAMAN` üzerinden çağırıyordu ama script etiketi eksikti; sonuç:
+     window.ZAMAN tanımsız, `obTazele()` daha ilk satırında geri dönüyor ve
+     detay panelinin tarihle birlikte ilerlemesi (bir kullanıcı şikâyeti üzerine
+     yazılmıştı) fiilen hiç çalışmıyordu. app.js'ten ÖNCE yüklenmeli. -->
+<script src="js/zaman.js?v=r307"></script>
 <script src="js/app.js?v=r307"></script>
 </body>
 </html>

@@ -2124,6 +2124,7 @@ function guncelle() {
   padisahGuncelle(suanki);
   olaylarGuncelle(suanki);
   obTazele();
+  baslikDamgala();
 }
 
 // ---------- Detay paneli senkronu (kullanıcı şikâyeti) ----------
@@ -2158,6 +2159,94 @@ function tarihAyarla(t) {
   kaydirici.value = suanki;
   guncelle();
 }
+
+// ---------- PENCERE BAŞLIĞI DAMGASI ----------
+// ⚠️ NEDEN VAR: kullanıcı bir kusuru ekran görüntüsüyle bildiriyor ve görüntü
+// sohbete yapıştırılınca DOSYA ADI karşı tarafa ulaşmıyor. Sonuç: elde resim
+// var ama "hangi yıl, neresi, hangi madde" yok. Dört kusur tam bu yüzden
+// çözülemedi.
+//
+// Kare alan araç (UI Element Inspector) tarayıcının dışındadır; sayfanın JS
+// durumunu okuyamaz. Okuyabildiği tek şey PENCERE BAŞLIĞIDIR. Bu yüzden
+// document.title, o anki durumun tamamını taşır:
+//
+//   Osmanlı Tarih Atlası · 1361-02-01 · 41.35N 26.50E · z6 ·
+//   g:8,131,1180,700 · b:44.1000,20.3000,38.2000,32.9000 · Edirne'nin fethi
+//
+//   g: harita tuvalinin EKRAN pikselindeki dikdörtgeni (sol,üst,en,boy)
+//   b: görünen alanın sınırları (kuzey,batı,güney,doğu)
+//
+// g ve b olmadan araç, seçilen dikdörtgenin coğrafi karşılığını hesaplayamaz;
+// yalnız harita merkezini yazabilirdi. İkisi birlikte, ekran pikselinden
+// enlem/boylama tam dönüşüm sağlar (harita hiç döndürülmüyor ve eğilmiyor —
+// app.js'te bearing/pitch hiç geçmiyor — bu yüzden Mercator matematiği kesin).
+var _damgaSon = "";
+var _tuvalDik = null;
+
+function tuvalOlc() {
+  try { _tuvalDik = harita.getCanvas().getBoundingClientRect(); } catch (e) { _tuvalDik = null; }
+}
+
+// Madde, listede vurgulanan maddeyle AYNI kaynaktan alınır (ZAMAN.suankiOlay).
+// Başka bir tanım (örn. sonVurgulanan) kullanmak cazip ama zaman.js'te ölçülmüş:
+// iki tanım zamanın %34'ünde ayrışıyor. Damganın listede görünenden başka bir
+// madde yazması, çözmeye çalıştığımız karışıklığın daha kötüsü olurdu.
+function damgaMadde() {
+  if (!window.ZAMAN || !olaylar || !olaylar.length) return "";
+  var i = window.ZAMAN.suankiOlay(olaylar, suanki, function (k) {
+    return !olayDom[k] || !olayDom[k].classList.contains("suzuldu");
+  });
+  if (i < 0 || !olaylar[i]) return "";
+  // "·" ayırıcıdır; madde metninde geçerse başlık yanlış bölünür.
+  return String(olaylar[i].b || "").replace(/[·|]/g, "-")
+         .replace(/\s+/g, " ").trim().slice(0, 90);
+}
+
+function baslikDamgala() {
+  if (!haritaHazir) return;
+  try {
+    if (!_tuvalDik) tuvalOlc();
+    var t = idxTarih(suanki);
+    var iso = String(t.y).padStart(4, "0") + "-" +
+              String(t.a).padStart(2, "0") + "-" +
+              String(t.g).padStart(2, "0");
+
+    var c = harita.getCenter(), z = harita.getZoom(), s = harita.getBounds();
+    var parcalar = ["Osmanlı Tarih Atlası", iso,
+      Math.abs(c.lat).toFixed(2) + (c.lat < 0 ? "S" : "N") + " " +
+      Math.abs(c.lng).toFixed(2) + (c.lng < 0 ? "W" : "E"),
+      "z" + (Math.round(z * 10) / 10)];
+
+    // Tuvalin ekran koordinatı: pencere konumu + tarayıcı kromunun kalınlığı.
+    // Yan kenarlıklar simetrik varsayılır (Chrome'da 0), üst krom farktan çıkar.
+    if (_tuvalDik) {
+      var dpr = window.devicePixelRatio || 1;
+      var yan = Math.max(0, (window.outerWidth - window.innerWidth) / 2);
+      var ust = Math.max(0, (window.outerHeight - window.innerHeight) - yan);
+      parcalar.push("g:" + [
+        Math.round((window.screenX + yan + _tuvalDik.left) * dpr),
+        Math.round((window.screenY + ust + _tuvalDik.top) * dpr),
+        Math.round(_tuvalDik.width * dpr),
+        Math.round(_tuvalDik.height * dpr)].join(","));
+      parcalar.push("b:" + [s.getNorth(), s.getWest(), s.getSouth(), s.getEast()]
+        .map(function (v) { return v.toFixed(4); }).join(","));
+    }
+
+    var m = damgaMadde();
+    if (m) parcalar.push(m);
+
+    var yeni = parcalar.join(" · ");
+    if (yeni !== _damgaSon) { _damgaSon = yeni; document.title = yeni; }
+  } catch (e) {
+    // Damga bir gösterim ayrıntısıdır; hatası atlası durdurmamalı.
+    if (window.console) console.warn("başlık damgası yazılamadı:", e);
+  }
+}
+
+harita.on("moveend", function () { tuvalOlc(); baslikDamgala(); });
+harita.on("zoomend", baslikDamgala);
+harita.on("resize", function () { tuvalOlc(); baslikDamgala(); });
+window.addEventListener("resize", function () { tuvalOlc(); baslikDamgala(); });
 
 kaydirici.addEventListener("input", function () {
   tarihAyarla(parseInt(kaydirici.value, 10));
