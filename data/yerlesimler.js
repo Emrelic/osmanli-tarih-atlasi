@@ -1010,7 +1010,7 @@ window.YERLESIMLER = [
 
 // Yunanistan / İyon Denizi — Venedik ile el değiştiren kıyı ve adalar
 { ad:"Korfu", tur:"kale", lat:39.624, lon:19.922, g:0, k:3, m:"Yanya", d:[], s:[{f:"1281-01-01",t:"1797-10-17",d:"venedik"},{f:"1797-10-17",t:"1815-11-05",d:"fransa"},{f:"1815-11-05",t:"1864-05-21",d:"ingiltere"},{f:"1864-05-21",t:"1923-10-29",d:"yunanistan"}] },
-{ ad:"Ayamavra (Lefkada)", tur:"kale", lat:38.716, lon:20.643, g:0, k:4, m:"Yanya", s:[{f:"1281-01-01",t:"1479-01-25",d:"venedik"},{f:"1684-08-06",t:"1923-10-29",d:"venedik"}], d:[{f:"1479-01-25",t:"1684-08-06"}] },
+{ ad:"Ayamavra (Lefkada)", tur:"kale", lat:38.716, lon:20.643, g:0, k:4, m:"Yanya", s:[{f:"1281-01-01",t:"1479-08-01",d:"napoli"},{f:"1684-08-06",t:"1923-10-29",d:"venedik"}], d:[{f:"1479-08-01",t:"1684-08-06"}] },
 // Pasarofça'da (1718) Venedik'te kalan üçlü Preveze-Parga-Vonitsa'dan yalnız
 // Preveze veride vardı; diğer ikisinin bulunduğu kıyı en yakın peteğe emiliyor,
 // yani Venedik'in elindeyken Osmanlı boyanıyordu. Parga hiç Osmanlı olmamıştı:
@@ -1196,9 +1196,9 @@ window.YERLESIMLER = [
 { ad:"Çamlıca (Hidra)", tur:"kale", lat:37.338, lon:23.474, g:0, k:4, m:"Mora (Tripoliçe)", s:[{f:"1281-01-01",t:"1460-05-29",d:"bizans"},{f:"1821-03-25",t:"1923-10-29",d:"yunanistan"}], d:[{f:"1460-05-29",t:"1821-03-25"}] },
 
 // ---- İyon adaları: 1479'da alındı, Venedik kısa sürede geri aldı ----
-{ ad:"Kefalonya", tur:"kale", lat:38.227, lon:20.575, g:0, k:4, m:"Yanya", s:[{f:"1281-01-01",t:"1479-01-25",d:"napoli"},{f:"1500-12-24",t:"1797-10-17",d:"venedik"},{f:"1797-10-17",t:"1815-11-05",d:"fransa"},{f:"1815-11-05",t:"1864-05-21",d:"ingiltere"},{f:"1864-05-21",t:"1923-10-29",d:"yunanistan"}], d:[{f:"1479-01-25",t:"1500-12-24"}] },
-{ ad:"İthaki", tur:"kale", lat:38.403, lon:20.687, g:0, k:4, m:"Yanya", s:[{f:"1281-01-01",t:"1479-01-25",d:"napoli"},{f:"1500-12-24",t:"1797-10-17",d:"venedik"},{f:"1797-10-17",t:"1815-11-05",d:"fransa"},{f:"1815-11-05",t:"1864-05-21",d:"ingiltere"},{f:"1864-05-21",t:"1923-10-29",d:"yunanistan"}], d:[{f:"1479-01-25",t:"1500-12-24"}] },
-{ ad:"Zaklise (Zakynthos)", tur:"kale", lat:37.788, lon:20.775, g:0, k:4, m:"Yanya", s:[{f:"1281-01-01",t:"1479-01-25",d:"napoli"},{f:"1482-01-01",t:"1797-10-17",d:"venedik"},{f:"1797-10-17",t:"1815-11-05",d:"fransa"},{f:"1815-11-05",t:"1864-05-21",d:"ingiltere"},{f:"1864-05-21",t:"1923-10-29",d:"yunanistan"}], d:[{f:"1479-01-25",t:"1482-01-01"}] },
+{ ad:"Kefalonya", tur:"kale", lat:38.227, lon:20.575, g:0, k:4, m:"Yanya", s:[{f:"1281-01-01",t:"1479-08-01",d:"napoli"},{f:"1500-12-24",t:"1797-10-17",d:"venedik"},{f:"1797-10-17",t:"1815-11-05",d:"fransa"},{f:"1815-11-05",t:"1864-05-21",d:"ingiltere"},{f:"1864-05-21",t:"1923-10-29",d:"yunanistan"}], d:[{f:"1479-08-01",t:"1500-12-24"}] },
+{ ad:"İthaki", tur:"kale", lat:38.403, lon:20.687, g:0, k:4, m:"Yanya", s:[{f:"1281-01-01",t:"1479-08-01",d:"napoli"},{f:"1500-12-24",t:"1797-10-17",d:"venedik"},{f:"1797-10-17",t:"1815-11-05",d:"fransa"},{f:"1815-11-05",t:"1864-05-21",d:"ingiltere"},{f:"1864-05-21",t:"1923-10-29",d:"yunanistan"}], d:[{f:"1479-08-01",t:"1500-12-24"}] },
+{ ad:"Zaklise (Zakynthos)", tur:"kale", lat:37.788, lon:20.775, g:0, k:4, m:"Yanya", s:[{f:"1281-01-01",t:"1479-08-01",d:"napoli"},{f:"1482-01-01",t:"1797-10-17",d:"venedik"},{f:"1797-10-17",t:"1815-11-05",d:"fransa"},{f:"1815-11-05",t:"1864-05-21",d:"ingiltere"},{f:"1864-05-21",t:"1923-10-29",d:"yunanistan"}], d:[{f:"1479-08-01",t:"1482-01-01"}] },
 
 // ---- Dalmaçya ve Kvarner: Venedik, 1797'de Avusturya'ya (hiçbiri Osmanlı olmadı) ----
 { ad:"Krk (Veglia)", tur:"kale", lat:45.075, lon:14.615, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1797-10-17",d:"venedik"},{f:"1797-10-17",t:"1923-10-29",d:"avusturya"}] },
