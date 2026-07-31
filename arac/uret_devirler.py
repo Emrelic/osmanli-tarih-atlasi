@@ -87,6 +87,35 @@ ANTLASMALAR = [
 TOL = 0.02
 BASAMAK = 3
 
+# ---------------------------------------------------------------------------
+# İŞGAL ÖRTÜSÜ — `window.ISGALLER`
+# ---------------------------------------------------------------------------
+# `js/app.js` bu diziyi 31 Temmuz'dan beri OKUYOR ama ÜRETİCİSİ HİÇ YAZILMAMIŞTI.
+# `girdi.py:121` "üretici arac/uret_devirler.py" diyordu, `denetle_statu.py:598`
+# "üretici henüz yok, katman BOŞ diziyle çalışıyor" diyordu — ve `app.js`teki
+# `|| []` koruması yüzünden hata vermiyordu, sadece görünmüyordu.
+# ARAYÜZ oturumu canlı sayfada ölçtü: `ISGALLER.length === 0`.
+# 📌 `data/olaylar_ek8.js`in 4 commitlik 404'ünün aynı sınıfı: yazılmış görünen,
+# çalışmayan iş. O gün korumayı eklemiştik, bugün korumanın neyi sakladığını gördük.
+#
+# ═══ `app.js` SÖZLEŞMESİ (isgalDesenleriKur + isgalGuncelle) ═══
+#   { id, ad, renk, sahipRenk, f, t, parca: <MultiPolygon koordinatları> }
+#   `renk`      → işgalcinin rengi (tarama şeridi)
+#   `sahipRenk` → ALTTAKİ de jure sahibin rengi (taban şeridi)
+#
+# 🔴 `sahipRenk` NEDEN ŞART: `app.js:1118` varsayılanı
+# `OSMANLI_KIRMIZI` (#8e0b22 = DOĞRUDAN idare). Doldurulmazsa Mısır 1882-1914
+# arası "doğrudan Osmanlı toprağı, İngiltere işgalinde" görünür ve **Kavalalı
+# vassallığı 32 yıl boyunca haritadan silinir.** Ölçüldü (ARAYÜZ):
+#   ingiltere 1882-09-14→1914-12-18   55 kayıt   tabanı TAMAMI `v:` (tâbi)
+#   avusturya 1878-07-29→1908-10-05    3 kayıt   tabanı TAMAMI `d:` (doğrudan)
+# İki bölüm de kendi içinde türdeş — bölme gerekmiyor.
+TABI_TON = "#b2384a"        # v: dolgusunun tonu (app.js vassal-dolgu ile aynı)
+DOGRUDAN_TON = "#8e0b22"    # d: dolgusu — app.js'in varsayılanıyla aynı
+
+# İşgalci kimliğin adı ve rengi. `renkler.py`den okunur, KOPYALANMAZ.
+ISGALCI_AD = {"ingiltere": "İngiltere", "avusturya": "Avusturya-Macaristan"}
+
 
 def oku_pencere(yol, degisken):
     """`window.<degisken> = [ ... ];` bloğunu okur.
@@ -177,10 +206,87 @@ def yuvarla(g):
     return parca
 
 
+def isgalleri_uret(PETEK_GOVDE, PAR):
+    """`isg:` dönemlerinden `window.ISGALLER` kayıtlarını kurar.
+
+    PETEK_GOVDE: petek indeksi → PARCALAR indeks listesi. Motorun çıktısında
+    bu eşleme YOKSA fonksiyon **None döndürür ve sebebini basar** — sessizce
+    boş dizi ÜRETMEZ. Sessiz boşluk, düzeltmeye çalıştığımız hatanın kendisi.
+    """
+    import collections
+    sys.path.insert(0, os.path.join(KOK, "arac"))
+    import girdi
+    from renkler import BOYALAR
+
+    Y = girdi.yukle(sessiz=True)
+    ad_ix = {p["a"]: i for i, p in enumerate(PETEKLER_ADLARI)}
+
+    # (işgalci, f, t) → yerleşim adları
+    bolum = collections.defaultdict(list)
+    for y in Y:
+        for p in y.get("isg") or []:
+            bolum[(p.get("d"), p["f"], p["t"])].append(y["ad"])
+
+    cikti = []
+    for (isgalci, f, t), adlar in sorted(bolum.items(), key=lambda x: x[0][1]):
+        # de jure taban: bu bölümün yerleşimleri o gün `v:` mi `d:` mi
+        taban = collections.Counter()
+        for ad in adlar:
+            y = next((x for x in Y if x["ad"] == ad), None)
+            if not y:
+                continue
+            for kat in ("d", "v"):
+                if any(q["f"] <= f < q["t"] for q in (y.get(kat) or [])):
+                    taban[kat] += 1
+                    break
+        if len(taban) > 1:
+            # Türdeş olmayan bölüm: aynı örtü altında hem doğrudan hem tâbi
+            # toprak var. Tek `sahipRenk` ikisini birden anlatamaz.
+            print("  ⚠️ %s %s: taban KARIŞIK %r — tek sahipRenk yanlış olur, "
+                  "bölüm ikiye ayrılmalı" % (isgalci, f, dict(taban)))
+        sahip = TABI_TON if taban.get("v", 0) >= taban.get("d", 0) else DOGRUDAN_TON
+
+        pl = []
+        eksik = []
+        for ad in adlar:
+            i = ad_ix.get(ad)
+            if i is None or i >= len(PETEK_GOVDE):
+                eksik.append(ad)
+                continue
+            pl += coz(PETEK_GOVDE[i], PAR)
+        if eksik:
+            print("  ⚠️ %d yerleşimin peteği bulunamadı: %s"
+                  % (len(eksik), ", ".join(eksik[:5])))
+        g = govde(pl)
+        if g is None or g.is_empty:
+            print("  ✗ %-12s %s → %s : gövde kurulamadı" % (isgalci, f, t))
+            continue
+
+        renk = (BOYALAR.get(isgalci) or ("?", "#888888"))[1]
+        cikti.append({
+            "id": isgalci, "ad": ISGALCI_AD.get(isgalci, isgalci),
+            "renk": renk, "sahipRenk": sahip,
+            "f": f, "t": t, "parca": yuvarla(g),
+        })
+        print("  ✓ %-12s %s → %s   %3d yerleşim   taban %s"
+              % (isgalci, f, t, len(adlar),
+                 "tâbi" if sahip == TABI_TON else "doğrudan"))
+    return cikti
+
+
+PETEKLER_ADLARI = []
+
+
 def main():
     print("Üretilmiş harita okunuyor...")
     D = oku_pencere(os.path.join(DATA, "donemler.js"), "DONEMLER")
     PAR = oku_pencere(os.path.join(DATA, "donemler.js"), "PARCALAR")
+    global PETEKLER_ADLARI
+    PETEKLER_ADLARI = oku_pencere(os.path.join(DATA, "donemler.js"), "PETEKLER")
+    try:
+        PETEK_GOVDE = oku_pencere(os.path.join(DATA, "donemler.js"), "PETEK_GOVDE")
+    except ValueError:
+        PETEK_GOVDE = None
     DH = oku_pencere(os.path.join(DATA, "devletler_harita.js"), "DEVLET_HARITA")
     DP = oku_pencere(os.path.join(DATA, "devletler_harita.js"), "DEVLET_PARCALAR")
     print("  %d dönem, %d devlet" % (len(D), len(DH)))
@@ -248,6 +354,23 @@ def main():
     kaynak = os.path.join(DATA, "donemler.js")
     ozet = hashlib.sha256(io.open(kaynak, "rb").read()).hexdigest()
 
+    print("\nİşgal örtüsü...")
+    if PETEK_GOVDE is None:
+        isgaller = None
+        print("  ✗ `window.PETEK_GOVDE` YOK — işgal örtüsü ÜRETİLEMEDİ.")
+        print("     Sebep: donemler.js petek başına geometri taşımıyor.")
+        print("       PETEKLER  → yalnız {\"a\": ad}")
+        print("       DONEMLER  → e/c petek indeksi ama DELTA (giren/çıkan)")
+        print("       DONEMLER  → o/v PARCALAR indeksi ama BİRLEŞTİRİLMİŞ gövde")
+        print("     Yani 'şu 55 yerleşimin hücrelerinin birleşimi' çıkarılamaz.")
+        print("     ⇒ MOTOR `uret_petek.py`ye tek satır eklemeli:")
+        print("       window.PETEK_GOVDE = [[<PARCALAR indeksleri>], ...]")
+        print("       (petek sırası `PETEKLER` ile aynı; PETEK_TAM zaten elinde)")
+        print("     ⚠️ Yaklaşık bir gövde ÜRETİLMEDİ — yanlış yerde taralı alan,")
+        print("        hiç taralı alan olmamasından kötüdür.")
+    else:
+        isgaller = isgalleri_uret(PETEK_GOVDE, PAR)
+
     yol = os.path.join(DATA, "devirler.js")
     with io.open(yol, "w", encoding="utf-8") as f:
         f.write("// Otomatik üretildi — elle düzenlemeyin. Betik: arac/uret_devirler.py\n")
@@ -260,6 +383,17 @@ def main():
         f.write("window.DEVIRLER_KAYNAK_OZET = \"%s\";\n" % ozet)
         f.write("window.DEVIRLER = " + json.dumps(cikti, ensure_ascii=False,
                                                   separators=(",", ":")) + ";\n")
+        if isgaller is None:
+            # 🔴 SESSİZ BOŞ DİZİ YAZMIYORUZ. `app.js`teki `|| []` koruması
+            # zaten devrede; buraya boş dizi yazmak "üretildi ama boş" ile
+            # "hiç üretilmedi"yi ayırt edilemez kılar — tam da bu hatayı
+            # bulmamızı 4 ay geciktiren şey buydu.
+            f.write("// ⚠️ window.ISGALLER YAZILMADI — donemler.js "
+                    "PETEK_GOVDE eşlemesi taşımıyor. Motor onu yazana kadar "
+                    "işgal örtüsü görünmez. Ayrıntı: uret_devirler.py\n")
+        else:
+            f.write("window.ISGALLER = " + json.dumps(isgaller, ensure_ascii=False,
+                                                      separators=(",", ":")) + ";\n")
     print("\ndata/devirler.js yazıldı — %d antlaşma, %.1f KB"
           % (len(cikti), os.path.getsize(yol) / 1024))
     print("   kaynak geometri özeti: %s…" % ozet[:16])
