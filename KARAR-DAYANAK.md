@@ -46,6 +46,8 @@ dayanaktır — çünkü su tanımı değişince değişir.
 | 7 | **Kronoloji süzgeci `k:` alanını kullanır, `etiket:`i değil** | **çok değerlilik**: `k:` dizi sayısı vs `etiket:` ortalaması | `k:` 0 dizi · `etiket:` ~1,7/madde | ARAYÜZ |
 | 8 | **Zaman çizgisi yoğunluk göstergesi TABANI anlatır, süzgeç etkisini değil** | **dilimler arası dengesizlik** oranı | 28,8× (5 ↔ 144 madde) | ARAYÜZ |
 | 9 | **Coğrafya ekseni etiketi = tarihî bölge adı** (kullanıcı kararı) | **çözülmeyen `yer:`** sayısı + NE kapsaması | 327 çözülmeyen · %99,8 kapsama ama siyasî etiketli | U4 · DENETÇİ |
+| 11 | **Engel ölçüsü = TIRMANIŞ** (min-yol üzerindeki max yükseklik − yüksek uç), zirve yüksekliği değil (kullanıcı kararı) | **engel eşiği** (m) — ayrışma süresiyle ilişkiden çıkacak | ⏳ HENÜZ ÖLÇÜLMEDİ | COĞRAFYA |
+| 12 | **DEM üretimi TÜM PENCERE** (~4,1 saat), kısmî değil (kullanıcı kararı) | **dağ bloğu / tam pencere süre oranı** | 2× (112 dk ↔ 246 dk) — ilk sunulan 17× YANLIŞTI | COĞRAFYA |
 | 10 | **Altlık kademeli geçiş — Esri altıncı seçenek, varsayılan KAPALI** | **motorun gördüğü nehir** ile dosyanın tamamı arasındaki fark | 41 ↔ 329 parça | ARAYÜZ · COĞRAFYA |
 
 ---
@@ -55,6 +57,7 @@ dayanaktır — çünkü su tanımı değişince değişir.
 | tarih | değişen sayı | çürüyen karar | nasıl yakalandı |
 |---|---|---|---|
 | 31 Tem 2026 | su kümesi 41 → 329 parça (MOTOR, haklı gerekçe) | çöl tavanı muafiyetinin YERLEŞİM bazlı olması | **Yakalanmadı — koşuldu.** MOTOR (B)'yi üretip Timbuktu'nun 1.475 km muaf çıktığını ölçünce görüldü. Bir koşu bedeli. |
+| 31 Tem 2026 | dağ alanı süre tahmini 24 dk → **112 dk** (COĞRAFYA, kendi hatası) | kullanıcının "dağ alanları" kapsam kararı — 17 kat tasarruf sanılarak verilmişti, gerçek 2 kat | ✅ **KOŞUDAN ÖNCE yakalandı.** COĞRAFYA gerçek karo listesini çıkarınca gördü: 435°² dağ alanı dağınık, 324 bloğa yayılıyor. Karar kullanıcıya geri götürüldü, **tam pencereye çevrildi.** Bedel: sıfır. |
 | 31 Tem 2026 | yerleşim 951 → 965 (YAMACI, 8 paket) | **petek tabanına dayanan HER alan ölçümü**: `data/petek_govde.js` hâlâ 951 kayıtlık | ⚠️ **Bayat, ama sonuç değişmiyor.** ARAYÜZ yakaladı (299'un 8'inin peteği yok). Etkilenen: 6 ve 6b. 14 yerleşim İstanbul'u 750/951'den başa taşıyamaz, sonuç ayakta. **KAPANDI: r280 koşusu petek tabanını 965'e çıkardı** (31 Tem 18:38). Sayılar yeniden ölçülmedi; sonuçlar ayakta. |
 
 📌 Bu satırın burada durmasının sebebi: kusurun **bedeli** yazılmazsa kural
