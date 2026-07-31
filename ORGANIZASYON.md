@@ -403,6 +403,10 @@ açılmadığı sınavı).
 > bildirir. İzin için değil — **aynı sorunun iki yerden gitmesini önlemek
 > için.** Cevap kime gelirse öbürüne iletir.
 
+⚠️ **Kuralın sınırı (ARAYÜZ'ün düzeltmesi):** kullanıcı bir oturuma **doğrudan**
+yazdığında o oturum haber beklemeden cevap verir — soru zaten ona gelmiştir.
+Kural yalnız **oturumun kendi başlattığı** sorular için geçerli.
+
 📌 Ve düzeltmenin **sonuç aynı olduğu hâlde** yapılması önemliydi: yanlış öncül
 düzeltilmezse ileride bir dağıtım kuralı ona dayanır ve **sessizce** bozulur.
 Bugün tam bu sınıftan üç hüküm çürüdü (`OGRENILENLER §49`, `§50`).
