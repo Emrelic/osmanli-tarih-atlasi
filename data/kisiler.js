@@ -27,7 +27,8 @@
 // ============================================================================
 window.KISILER = [
 // --- Sadrazamlar ---
-{ id:"candarli-hayreddin-pasa", tur:"sadrazam", ad:"Çandarlı Hayreddin Paşa", t:"1387", donem:"1364–1387", not:"İlk büyük sadrazam ailesinin kurucusu; Rumeli fetihlerinin örgütleyicisi" },
+{ id:"candarli-hayreddin-pasa", tur:"sadrazam", ad:"Çandarlı Hayreddin Paşa (Kara Halil)", t:"1387", donem:"1364–1387", not:"İlk büyük sadrazam ailesinin kurucusu; Rumeli fetihlerinin örgütleyicisi. Asıl adı Kara Halil'dir; oğlu Çandarlı Ali Paşa ve soyundan gelen Çandarlı Halil Paşa (İstanbul'un fethi sonrası azledilen) ile karıştırılmamalı" },
+{ id:"candarli-halil-pasa", tur:"sadrazam", ad:"Çandarlı Halil Paşa", t:"1453", donem:"II. Murad'ın sonu – II. Mehmed'in ikinci cülûsu", not:"İstanbul kuşatmasına şüpheyle yaklaştığı için II. Mehmed tarafından fetihten hemen sonra, 30 Mayıs 1453'te azledildi, kırk gün sonra idam edildi" },
 { id:"mahmud-pasa", tur:"sadrazam", ad:"Mahmud Paşa (Velî)",             donem:"1456–1466, 1472–1474", not:"Fatih'in fetih kadrosunun başı" },
 { id:"pargali-ibrahim-pasa", tur:"sadrazam", ad:"Pargalı İbrahim Paşa", t:"1536", donem:"1523–1536", not:"Kanunî'nin makbul ve maktul veziri; Irakeyn seferinin yöneticisi" },
 { id:"sokullu-mehmed-pasa", tur:"sadrazam", ad:"Sokullu Mehmed Paşa", f:"1505", t:"1579", donem:"1565–1579", not:"Üç padişah devrinin kudretli sadrazamı" },

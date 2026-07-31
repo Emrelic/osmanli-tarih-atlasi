@@ -313,3 +313,120 @@ canlı doğrulandı.
 Commit: `git add data/kisiler.js` ile yalnız bu dosya eklenecek, `git diff
 --cached --stat` ile doğrulanacak, sonra commit. `arac/uret_petek.py`
 çalıştırılmadı.
+
+---
+
+## 4. FAZ — KOORDİNATÖR vakası: eşleşme motoru kapsam ölçümü
+
+### 4.1 Vaka — Çandarlı Halil Paşa eksikti, "en yakın ad" onun yerine yanlış kişi gösterdi
+
+`data/kisiler.js`'te **Çandarlı Halil Paşa hiç yoktu**. `js/app.js`'teki
+`kisiBul()` fonksiyonu tam eşleşme bulamayınca **öz-ad örtüşmesine göre en
+yakın kaydı** döndürüyor (`ozAdlar()` unvanları/sıra sayılarını atıp geri
+kalan ≥4 harfli kelimeleri karşılaştırıyor). "Çandarlı Halil Paşa" için
+tek ortak öz-ad "halil" kelimesiydi ve bu, dizindeki **tek** "Halil"
+kaydına — 1882-1957 arası yaşamış, Kûtülamâre kahramanı **"Halil Paşa
+(Kut)"**a — bağlanıyordu. 1446-05-05 (Buçuktepe Vak'ası) ve 1453-06-01
+(Halil Paşa'nın azli/idamı) maddelerinde kullanıcı ekranda 1916 Irak
+cephesi bilgisi görüyordu.
+
+**Eklendi** (TDV `<title>` ile canlı doğrulandı —
+`islamansiklopedisi.org.tr/candarli-halil-pasa`, başlık "ÇANDARLI HALİL
+PAŞA - TDV İslâm Ansiklopedisi"):
+```js
+{ id:"candarli-halil-pasa", tur:"sadrazam", ad:"Çandarlı Halil Paşa", t:"1453",
+  donem:"II. Murad'ın sonu – II. Mehmed'in ikinci cülûsu",
+  not:"İstanbul kuşatmasına şüpheyle yaklaştığı için II. Mehmed tarafından
+  fetihten hemen sonra, 30 Mayıs 1453'te azledildi, kırk gün sonra idam edildi" }
+```
+
+⚠️ **Bu ekleme kendi başına yeni bir çakışma açtı, ve onu da bu turda
+buldum/düzelttim:** dizindeki mevcut `candarli-hayreddin-pasa` kaydının
+(1364-1387, ailenin kurucusu) asıl adı **"Kara Halil"**dir. Kronolojide
+`Çandarlı Kara Halil` diye geçen iki madde var (1331 İznik medresesi,
+1361 Pençik Kanunu) — bunlar kurucu Hayreddin Paşa'ya ait, benim yeni
+eklediğim torun/torun-oğlu Halil Paşa'ya değil. Yeni kayıt eklenmeden
+ÖNCE "Çandarlı Kara Halil" hiçbir kayda eşleşmiyordu (öz-ad çakışma oranı
+eşiğin altındaydı); eklendikten SONRA yanlışlıkla benim yeni kaydıma
+kaymaya başladı. **Düzeltme:** `candarli-hayreddin-pasa`'nın `ad` alanına
+`(Kara Halil)` eklendi, `not` alanına iki farklı Halil'le
+karıştırılmaması için açık uyarı yazıldı. Ölçüm scriptiyle doğrulandı:
+"Çandarlı Kara Halil" artık doğru kayda (skor 3) dönüyor.
+
+🔴 **Çözemediğim, veri tarafından çözülemeyen artık bir çakışma var:**
+kronolojide çıplak **"Halil Paşa"** (tek başına, soyadsız) iki farklı
+maddede geçiyor — 1916-04-29 Kûtülamâre Zaferi (= Halil Paşa Kut, doğru)
+ve 1770-08-01 Kartal (Kagul) Ovası Bozgunu (= **üçüncü, kimliği bu
+oturumda araştırılmamış bir Halil Paşa** — 1768-74 Osmanlı-Rus Savaşı
+döneminde bir başka kişi, muhtemelen bir serdar/kaptan; TDV'de
+doğrulamadım, uydurmadım). Benim eklediğim kayıt bu iki maddeyi de
+üçüncü bir yanlış kişiye (1453'te ölen Çandarlı Halil Paşa) kaydırdı,
+çünkü sıra numarası eşit skorlu (skor 1) iki aday arasında dosyadaki
+konuma göre çözülüyor. Aynı şey "Halil Bey" (1913 İstanbul Antlaşması —
+muhtemelen Halil Menteşe, doğrulanmadı) için de geçerli. **Bunu dosya
+içi sıralamayla "düzeltmedim"** — konuma bağlı bir hile gelecekte
+sessizce tekrar bozulur. Gerçek çözüm ya (a) eşleştirme kuralının tarih
+yakınlığına bakması (ARAYÜZ'ün üzerinde çalıştığı asıl düzeltme budur),
+ya da (b) kronoloji tarafının çıplak "Halil Paşa" yerine tam ad
+yazmasıdır (`olaylar*.js`, benim dosyam değil). Üç ayrı Halil Paşa'nın
+künyesi: Çandarlı Halil Paşa (ö. 1453), 1770 Kartal'daki (kimliği
+belirsiz), Halil Paşa Kut (1882-1957).
+
+### 4.2 Kapsam ölçümü — 994 maddenin `kisiler:` alanı, tek tek `kisiler.js` ile karşılaştırıldı
+
+Ölçüm scripti `kisiBul()`/`ozAdlar()`/`padisahEslesmesi()`'nin **birebir
+kopyasını** çalıştırıyor (app.js'ten kopya-yapıştır), 12 `olaylar*.js`
+dosyasının tamamını okuyor (index.html'de gerçekten yüklenen sırayla).
+
+```
+Toplam madde: 997 | kisiler: alanı olan: 983 | toplam ad geçişi: 1901 | benzersiz ad: 874
+
+Padişah eşleşmesi (portre zaten gösteriliyor, kutu gerekmiyor):  77
+Tam eşleşen (doğru):                                            118
+BULANIK eşleşen (yanlış kişi RİSKİ):                            153
+HİÇ eşleşmeyen (kutu hiç görünmüyor):                           526
+```
+
+**BULANIK 153'ün elle sınıflaması** (hedef kayda göre gruplandı, ~85
+farklı hedef): bunların önemli bir kısmı **zararsız** — aynı kişinin
+yazım/başlık farkı ("Fâzıl Ahmed Paşa" / "Köprülüzâde Fâzıl Ahmed Paşa",
+"Mustafa Kemal" / "Mustafa Kemal Paşa", "b." / "bin" farkı gibi). Ama en
+az **~50 kaydı gerçekten farklı, gerçek bir kişiyi yanlış kişiye
+bağlıyor**. En büyük ve en açık kümeler:
+
+| Ekranda yanlışlıkla görünen kayıt | Gerçekte kaç FARKLI kişiyi yutuyor | Örnekler |
+|---|---|---|
+| **Şah Sultan Hüseyin** (Safevî, ö. 1726) | **15** (hepsi yanlış) | Mezomorto Hüseyin Paşa, Ahîzâde Hüseyin Efendi, Hüseyin Hilmi Paşa, Hüseyin Rauf Bey, Hüseyin Kâmil (1630'lardan 1919'a kadar 15 farklı gerçek kişi) |
+| **I. Nikolay** (Rus çarı) | 6 (2 zaten doğru varyant) | Grandük Nikolay (kardeşi), I. Nikola (Karadağ kralı), Çar II. Nikolay (torunu), Nikola Jurišić (16.yy Hırvat komutanı — alakasız) |
+| **Gazi Osman Paşa** (Plevne kahramanı) | 4 (hepsi yanlış) | Özdemiroğlu Osman Paşa (16.yy), Çerkes Osman Paşa, Pazvandoğlu Osman, Osman Digna (Sudan Mehdî komutanı) |
+| **I. Aleksandr** (Rus çarı) | 4 (hepsi yanlış) | Aleksandros İpsilantis, Aleksandr Mavrokordato (Yunan isyancılar), Çar II. Aleksandr (torunu) |
+| **Şah I. Abbas** | 3 | Abbas Hilmi Paşa (Mısır hidivi), III. Abbas (başka bir Safevî şahı), Abbas Mirza (İran veliahdı) |
+| **Said bin Sultan** (Umman/Zengibar) | 3 (hepsi yanlış) | Said Efendi (1727, ilk matbaa), Said Halim Paşa (I. Dünya Savaşı sadrazamı), Ebû Said Bahadır Han (İlhanlı) |
+| **XI. Konstantinos** (son Bizans imp.) | 2 (hepsi yanlış) | Prens Konstantin, Veliaht Konstantin (1913 Yunan veliahdı — 460 yıl sonra, alakasız) |
+| **Turahanoğlu Ömer Bey** | 2 (hepsi yanlış) | Ömer Paşa (1853 Kırım Savaşı'nda Ömer Lütfi Paşa), Turahan Bey (kendi BABASI, ayrı kişi) |
+| **Turhan Hatice Sultan** (17.yy vâlide sultan) | 1 | Turhan Paşa (1910 Arnavutluk İsyanı — 250 yıl sonra) |
+| **Halil Paşa (Kut)** | 2 | Şehzade Halil (1357, Orhan Gazi'nin oğlu), Halil Hamid Paşa (1779 sadrazamı) |
+| **İsmâil Kâmil Paşa** | 2 | İsmâil Paşa (1867 Mısır hidivi), Kâmil Paşa (ayrı bir sadrazam) |
+
+Tam liste (153 satır, hedef + kaynak + madde örnekleri) betikte üretildi;
+istenirse tekrar koşturup JSON/metin olarak paylaşabilirim.
+
+**HİÇ eşleşmeyen 526** (kutu hiç görünmüyor — yanlış bilgi değil ama
+eksik bilgi): 414'ü tek maddede geçiyor, geri kalan 112'si 2+ maddede.
+En sık geçenler: Kanûnî Sultan Süleyman (11× — **bu aslında `kisiler.js`
+eksikliği değil**, `data/padisahlar.js`'te "Kanunî" yazılmış [aksansız
+u], kronolojide "Kanûnî" [şapkalı û] — tek harflik yazım farkı yüzünden
+padişah-eşleşmesi de düşüyor; görsel etkisi düşük çünkü tarihe göre
+düşen yedek eşleşme zaten doğru padişahı buluyor), Fuad Paşa (7×), Talat
+Bey/Paşa (6+3), Mahmud Şevket Paşa (5×), Musa Çelebi (5×), Piyâle Paşa
+(5×), Nâdir Şah (5×), Özdemir Paşa (5×).
+
+### 4.3 Sıradaki adım — birlikte karar
+
+679 sorunlu ad-geçişi (153 bulanık + 526 boş), 80 eşiğinin çok üzerinde
+— tek başıma eklemeye başlamadım, mesajındaki kurala uydum. Önerim:
+önce **BULANIK 153**'ü (yanlış bilgi gösteren, ~50 gerçek vaka)
+önceliklendirelim, çünkü kullanıcıya aktif olarak yanlış kişi gösteriyor;
+HİÇ ESLEŞMEYEN 526 daha düşük öncelikli (eksik ama yanlış değil). Nasıl
+ilerlemek istersin — kümeler hâlinde mi (önce "Şah Sultan Hüseyin"
+kümesindeki 15 kişiyi ekleyeyim), yoksa madde sıklığına göre mi?
