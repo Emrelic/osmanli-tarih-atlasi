@@ -972,7 +972,7 @@ window.YERLESIMLER = [
 // eyaleti; "Yaş" tarihen yanlıştı (komşu İsmail zaten "Silistre" taşıyor).
 { ad:"Hotin", tur:"kale", lat:48.510, lon:26.492, g:1, k:3, m:"Silistre", s:[{f:"1281-01-01",t:"1456-06-01",d:"bogdan"},{f:"1769-09-19",t:"1774-07-21",d:"rusya"},{f:"1812-05-28",t:"1923-10-29",d:"rusya"}], v:[{f:"1456-06-01",t:"1713-06-24",k:"Boğdan Voyvodalığı (Osmanlı tâbii)"}], d:[{f:"1713-06-24",t:"1769-09-19",y:"antlasma"},{f:"1774-07-21",t:"1812-05-28",y:"antlasma"}] },
 { ad:"Bender", tur:"kale", lat:46.831, lon:29.481, g:0, k:3, m:"Silistre", s:[{f:"1281-01-01",t:"1456-06-01",d:"bogdan"},{f:"1770-09-27",t:"1774-07-21",d:"rusya"},{f:"1812-05-28",t:"1923-10-29",d:"rusya"}], v:[{f:"1456-06-01",t:"1538-09-01",k:"Boğdan Voyvodalığı (Osmanlı tâbii)"}], d:[{f:"1538-09-01",t:"1770-09-27",y:"kusatma"},{f:"1774-07-21",t:"1812-05-28",y:"antlasma"}] },
-{ ad:"İsmail", tur:"kale", lat:45.351, lon:28.836, g:0, k:4, m:"Silistre", s:[{f:"1281-01-01",t:"1484-08-03",d:"bogdan"},{f:"1790-12-22",t:"1792-01-10",d:"rusya"},{f:"1812-05-28",t:"1923-10-29",d:"rusya"}], d:[{f:"1484-08-03",t:"1790-12-22",y:"kusatma"},{f:"1792-01-10",t:"1812-05-28",y:"antlasma"}] },
+{ ad:"İsmail", tur:"kale", lat:45.351, lon:28.836, g:0, k:4, m:"Silistre", s:[{f:"1281-01-01",t:"1538-09-01",d:"bogdan"},{f:"1790-12-22",t:"1792-01-10",d:"rusya"},{f:"1812-05-28",t:"1923-10-29",d:"rusya"}], d:[{f:"1538-09-01",t:"1790-12-22",y:"kusatma"},{f:"1792-01-10",t:"1812-05-28",y:"antlasma"}] },
 // hatalar 6.docx madde 10 ve 11 — kullanıcı: "Bahçesaray anlaşması ile çehrin
 // kalesi geri mi verildi? çehrin kalesi kazanılması ile gelen topraklar
 // haritada gitmiş gibi görünüyor bunu doğrulayalım."
