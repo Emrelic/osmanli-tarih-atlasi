@@ -2203,7 +2203,11 @@ function damgaMadde() {
 }
 
 function baslikDamgala() {
-  if (!haritaHazir) return;
+  // ⚠️ `haritaHazir` ŞART DEĞİL. Şart koşulmuştu ve şu kusuru üretti: bayrak
+  // yalnız MapLibre'in "load" olayında true oluyor, o da altlık stili inene
+  // kadar beklyor; yavaş bir açılışta sayfa görünür haldeyken başlık hâlâ
+  // damgasızdı ve o aralıkta alınan kareler tarihsiz çıkıyordu. Tarih ile
+  // madde haritadan bağımsızdır — kamera hazır olmasa da yazılabilir.
   try {
     if (!_tuvalDik) tuvalOlc();
     var t = idxTarih(suanki);
@@ -2211,7 +2215,9 @@ function baslikDamgala() {
               String(t.a).padStart(2, "0") + "-" +
               String(t.g).padStart(2, "0");
 
-    var c = harita.getCenter(), z = harita.getZoom(), s = harita.getBounds();
+    var c = harita.getCenter(), z = harita.getZoom();
+    var s = null;
+    try { s = harita.getBounds(); } catch (e2) { s = null; }
     var parcalar = ["Osmanlı Tarih Atlası", iso,
       Math.abs(c.lat).toFixed(2) + (c.lat < 0 ? "S" : "N") + " " +
       Math.abs(c.lng).toFixed(2) + (c.lng < 0 ? "W" : "E"),
@@ -2219,7 +2225,7 @@ function baslikDamgala() {
 
     // Tuvalin ekran koordinatı: pencere konumu + tarayıcı kromunun kalınlığı.
     // Yan kenarlıklar simetrik varsayılır (Chrome'da 0), üst krom farktan çıkar.
-    if (_tuvalDik) {
+    if (_tuvalDik && s) {
       var dpr = window.devicePixelRatio || 1;
       var yan = Math.max(0, (window.outerWidth - window.innerWidth) / 2);
       var ust = Math.max(0, (window.outerHeight - window.innerHeight) - yan);
@@ -2243,10 +2249,14 @@ function baslikDamgala() {
   }
 }
 
+harita.on("load", function () { tuvalOlc(); baslikDamgala(); });
 harita.on("moveend", function () { tuvalOlc(); baslikDamgala(); });
 harita.on("zoomend", baslikDamgala);
 harita.on("resize", function () { tuvalOlc(); baslikDamgala(); });
 window.addEventListener("resize", function () { tuvalOlc(); baslikDamgala(); });
+// Açılışta hemen bir kez: altlık inene kadar geçen sürede de başlık damgalı
+// olsun (o aralıkta alınan kareler tarihsiz kalmasın).
+baslikDamgala();
 
 kaydirici.addEventListener("input", function () {
   tarihAyarla(parseInt(kaydirici.value, 10));
