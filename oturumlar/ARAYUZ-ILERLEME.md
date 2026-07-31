@@ -280,6 +280,56 @@ dosyalar gerçekten yalnız benimdi.
 > ölçüm/inceleme girmesin), ya da commit `git commit -o <dosya...>` ile yalnız
 > adı verilen yolları alsın. İkincisi pencereyi tamamen kapatıyor.
 
+## ÖLÇÜM — süzgeç hangi alana dayanmalı: `k:` mi `etiket:` mi
+
+```
+madde 989 · k: %100 · etiket: %100
+k:      25 değer · DİZİ olan madde 0     ← TEK DEĞERLİ (bölüntü)
+etiket: 20 değer · DİZİ olan madde 989   ← ÇOK DEĞERLİ (~1,7 etiket/madde)
+11 değer ikisinde de var, sayılar çok farklı:
+   savas      k:151  etiket:336
+   diplomasi  k: 13  etiket:145
+   ekonomi    k: 10  etiket: 88
+```
+
+⇒ **İkisi aynı şeyi ölçmüyor:** `k:` maddenin *birincil* kategorisi,
+`etiket:` uygulanabilir *bütün* yönleri.
+
+### 🔴 KARAR: gruplu kutucuklar `k:`e dayanmalı — ve sebep DIŞLAMA
+
+Kullanıcının cümlesi *"…ama tahta geçmeler, hükümdar ölümleri, iç isyanlar
+**kapalı**"* — yani süzgecin işi seçmek kadar **dışlamak**.
+
+**Dışlama yalnız bölüntü üzerinde çalışır.** `etiket:` çok değerli olduğu için
+`ayaklanma` + `siyaset` taşıyan bir madde "İÇ DÜZEN"i kapatınca **yine
+görünür** (siyaset açık). Kullanıcı "iç isyanları kapattım" der, isyan
+maddesi ekranda kalır, hiçbir hata çıkmaz — bugünkü üç vakanın aynı ailesi.
+`k:` tek değerli olduğu için her madde tam bir kutuya düşer: kapatılan grup
+tam olarak kaybolur, sayılar toplanabilir.
+
+📌 `etiket:` atılmıyor — `PLAN-ETIKET.md`'nin dikey kesen KONU ekseni için
+doğru alan o. İkisi farklı iş yapıyor: `k:` **gruplar**, `etiket:` **kesişir**.
+
+⚠️ Temizlenecek yazım ikizleri: `toprak-kazanc` 296 ↔ `toprak-kazanci` 1 ·
+`idari` ↔ `idare` · `isyan` ↔ `ayaklanma` (ikisi de her iki alanda).
+
+## ÖLÇÜM — zaman çizgisi yoğunluğu: uyarı doğru, SEBEBİ farklı
+
+```
+50 yıllık dilim: 14 tane · en az 5 (1250-1299) · en çok 144 (1800-1849)
+oran 28,8×
+```
+
+Ama kullanıcının kendi örneğini (HÂNEDAN + İÇ DÜZEN kapalı) uyguladım:
+```
+kalan madde 900/989 · TAMAMEN BOŞALAN dilim: 0 · 3'ten az kalan: 0
+```
+
+⇒ **Süzgeç dilim boşaltmıyor.** Yoğunluk göstergesi yine gerekli ama gerekçesi
+süzgeç değil **taban dağılım**: 1250-1299'da zaten 5 madde var, 1800-1849'da
+144. Kullanıcı süzgeç açmadan da seyrek bir yüzyıla yakınlaşıp "hata var"
+sanabilir. Gösterge tabanı anlatmalı, süzgeç etkisini değil.
+
 ## ⏳ Bloke — görsel doğrulama
 
 Tarayıcı paneli kapalı olduğu için sayfa kare üretmiyor
