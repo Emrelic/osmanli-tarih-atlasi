@@ -727,3 +727,71 @@ Canlı: `hemedan` · `kerim-han-zend` · `basra` · `anapa` · `sohum` ·
 
 hatalar 11 **A bloğu** (Arabistan/Yemen/Hicaz — md.1, 20, 24, 25, 34, 35, 53).
 md.1'in bir yarısı bu turda cevaplandı (**Cidde**). Kalanlar sıradaki turda.
+
+---
+
+# EK 4 - DOGU (A4): hayalet nokta GERI CEKILDI + Basra karari
+
+**Tarih:** 2026-07-31
+
+## Geri cekilen bulgu
+
+Onceki turda "dogu bolgesinde 15 kur: kaydinin 10u hayalet nokta" diye rapor
+ettim. **YANLIS. Geri cektim.**
+
+Motor kur:/bit: alanlarini b781c2c commitinden beri okuyor. Kodda dogruladim:
+uret_petek.py:903 devir_kumesi() tam olarak o kumeyi hesapliyor ve noktalari
+sahneden cikarip paylarini o gun var olan komsulara dagitiyor.
+
+**Hatanin kaynagi olcum yontemimdi:** sahipligi data/yerlesimler.js ten okudum,
+yani VERININ NE YAZDIGINI olctum. Oysa soru MOTORUN NE CIZDIGIYDI. Veride
+Nasiriye nin 1600 de d:osmanli yazmasi dogru; motor onu o gun haritaya koymuyor.
+
+Rapordaki bolum geri cekildi olarak isaretlendi, asli details icinde saklandi.
+
+## Kendime ders (OGRENILENLER adayi)
+
+Bir ALANIN ya da MOTORUN DAVRANISI hakkinda hukum verilecekse belgeye veya
+baska bir oturumun raporuna degil KODA bakilmali. YAPILACAKLAR.md deki
+"motor kur: okumuyor" satiri bir gun fazla acik kaldigi icin ust uste yanlis
+teshis uretti. Bu turda ayni tuzaga iki kez dustum:
+  1. y:"vassal" gecersiz sanmak  -> js/app.js:782 de tanimli cikti
+  2. hayalet nokta                -> uret_petek.py:903 te cozulmus cikti
+Ikisinde de kaynak bir RAPORDU, kod degil.
+
+Bundan sonra olcum bildirirken KAYNAGINI da yaziyorum: ne okudum, nereden.
+
+## Basra y: - karari KORUYORUM
+
+vassal in yeni tanimiyla (tabiyet/itaat yoluyla EDINIM) yeniden sinadim.
+Tanim soruyu suna indirgiyor: bu d: donemi NASIL edinildi?
+
+  d: donemi baslangici  1546-01-01  (onerim 1545-12-26)
+  Ayas Pasa nin girisi  1545-12-26   -> alti gun
+
+Rasid b. Megamis in itaati 1534/1538 dir ve o edinim 1545 ten ONCE bozulmustur
+(TDV: Seyh Yahya "Osmanli yonetimine karsi tavir aldi"). 1545 teki sey bir
+itaat kabulu degil, kaybedilmis bir yerin geri alinmasidir: 120 gemi, karadan
+harekat, "mudafileri tesirsiz hale getirdi".
+
+=> y:"savas". vassal / ilhak / kusatma bu donem icin uygun degil.
+
+**Ama vassal kelimesi bosa yazilmamis.** Yeni tanim, onceki raporda bildirdigim
+1b bulgusunu curutmuyor, GUCLENDIRIYOR: 1534-1545 arasi Basra veride safevi
+gorunuyor, oysa TDV ye gore Osmanli tabisi ve 1538 den itibaren Kanuni adina
+sikke kesiyor. Eksik donem tam da vassal in ders kitabi ornegi:
+  v: [{ f:"1534-12-04", t:"1545-12-26", y:"vassal" }]
+Kayittaki vassal kelimesi gercek bir olayin fosili - yanlis gozde duruyor.
+
+## Iki tarih
+
+- fetih: 1546-01-01 -> **1545-12-26** (TDV gunu veriyor; mevcut deger yil
+  sinirini atliyor, harita fethi 1546 da gosteriyor)
+- Iran isgali: **yil dogru**. "1775-1779" TDV nin anlatisi degil, BASRA
+  maddesinin kaynakcasindaki makale basligi. TDV KERIM HAN ZEND: "1776 da
+  Kerim Han in kardesi Sadik Han Basra yi ele gecirdi." Baslangic gunu
+  kaynaksiz -> 1776-01-01.
+- **Bitise yil-basi kurali UYGULANMAMALI:** TDV Basra nin ancak Kerim Han in
+  vefatindan SONRA geri alindigini, olumun de 2 Mart 1779 oldugunu yaziyor.
+  1779-01-01 yazmak olayi olumden iki ay oncesine tasir - kanitlanabilir
+  bicimde yanlis. Uydurma gunu baska bir uydurmayla degistirmis oluruz.

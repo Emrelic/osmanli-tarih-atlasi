@@ -666,3 +666,327 @@ varsa bildir; yoksa sıradaki turda başka maddeden aranmalı.
    400 günden geniş olsun. (Vehhâbî çifti 1023 gün aralıklı ve başlıkları zıt.)
 2. **Cidde, 100 km kuralının karşı örneğidir** — deniz erişimi olan noktalar
    muaf tutulmalı.
+
+---
+---
+
+# DOĞU (A4) → Koordinatör — BASRA `y:` kararı, iki tarih, hayalet nokta listesi
+
+Ölçüm 2026-07-31. `data/` altına **dokunulmadı.**
+Kaynak: TDV **BASRA** (`basra`, CANLI, Osmanlı Dönemi bölümü — Yusuf Halaçoğlu)
+ve TDV **KERİM HAN ZEND** (`kerim-han-zend`, CANLI — Rıza Kurtuluş, 2022).
+
+---
+
+## 1) 🔴 BASRA `y:` — KARAR: **`y:"savas"`**
+
+### TDV iki anlatı vermiyor — bir DİZİ veriyor
+
+Koordinatörün aktardığı iki alıntı rakip anlatılar değil, **aynı zincirin iki ayrı
+halkası.** Maddenin tamamını okuyunca sıra şu:
+
+| # | Tarih | Olay | Kademe |
+|---|---|---|---|
+| 1 | **1534** | *"Basra Kanûnî Sultan Süleyman'ın 1534 yılında Bağdat'ı aldığı sırada Osmanlı idaresine girdi. Kanûnî Bağdat'ta iken Basra hâkimi olan Râşid b. Megāmis bizzat gelerek itaatini bildirdi"* | itaat |
+| 2 | **1538** | *"oğlu Mâni'i ve veziri Mîr Mehmed'i Edirne'de bulunan padişaha göndererek şehrin anahtarlarını teslim etti… Kanûnî de kendisi adına **hutbe okutulması ve sikke kestirilmesi şartıyla** Basra şehri ve çevresini **vilâyet adı altında Râşid'e iltizam etti**."* Ayrıca *"1538'den itibaren Basra'da basılan paralar üzerinde Kanûnî'nin adı görülmektedir."* | **tâbi / iltizam** |
+| 3 | ~1540'lar | Râşid'in oğlu Mâni' yerini Benû Amman Şeyhi Yahyâ'ya bıraktı, *"Şeyh Yahyâ Osmanlı yönetimine **karşı tavır aldı**"* | **kopuş** |
+| 4 | **26 Aralık 1545** | *"Bağdat Beylerbeyi **Ayas Paşa** Basra'nın alınmasına memur edildi. Ayas Paşa Musul sancak beyi Mehmed Bey'i **120 gemiyle** Fırat üzerinden harekete geçirdi, kendisi de karadan hareket ederek **müdafileri tesirsiz hale getirdi** ve 26 Aralık 1545'te Basra'ya girdi."* Bilâl Mehmed Paşa *"1 milyon akçe sâlyâne ile Basra'ya **ilk beylerbeyi** tayin edildi."* | **doğrudan idare, savaşla** |
+| 5 | **1555** | *"Amasya Muahedesi ile bu durum İran tarafından da kabul edilmiş ve böylece Basra'nın hukuken Osmanlı Devleti'ne bağlılığı kesinlik kazanmıştır."* | teyit |
+
+### Karar
+
+Veride tartışma konusu olan dönem **`d:` (doğrudan idare) ve 1546-01-01'de
+başlıyor** — yani zincirin **4. halkasını** modelliyor. O halka bir **askerî
+harekâttır**: 120 gemi, karadan kuşatma, müdafilerin tesirsiz hale getirilmesi,
+ardından ilk beylerbeyinin tayini.
+
+> ## `y:"vassal"` → **`y:"savas"`**
+
+`ilhak` **doğru değildir**: ilhak (Râşid'in kendi ayağıyla gelip anahtarları
+teslim etmesi) 1538'de oldu ve **bozuldu**; 1545'teki şey yeniden fetihtir.
+
+### ⚠️ Ama `y:"vassal"` yazan kişi hata yapmamış — EKSİK BİR DÖNEMİ işaret ediyor
+
+`vassal` kelimesi oraya boşuna girmemiş: zincirin 2. halkası **gerçekten
+tâbiliktir** (hutbe + sikke + iltizam = ders kitabı tâbilik). Sorun `y:`
+alanının değeri değil, **o tâbiliğin veride hiç bulunmaması.**
+
+```
+veri:  s: safevi  1508-01-01 > 1546-01-01     ← Basra 1546'ya kadar SAFEVÎ
+TDV :  "Basra ... 1534 yılında ... Osmanlı idaresine girdi"
+       "1538'den itibaren Basra'da basılan paralar üzerinde Kanûnî'nin adı görülmektedir"
+```
+
+**12 yıllık bir çelişki.** Basra 1534-1545 arası haritada Safevî boyanıyor, oysa
+TDV'ye göre Osmanlı tâbisiydi ve **Kanûnî adına sikke kesiyordu.**
+
+| kayıt | mevcut değer | önerilen değer | slug | gerekçe |
+|---|---|---|---|---|
+| Basra | `s:[{f:"1508-01-01", t:"1546-01-01", d:"safevi"}]` | `s:` safevi dönemi **1534-12-04**'te bitsin; araya **`v:[{f:"1534-12-04", t:"1545-12-26", y:"ilhak"}]`** girsin | `basra` | TDV 1534'te Osmanlı idaresine girdiğini, 1538'den itibaren Kanûnî adına sikke kesildiğini yazıyor. `y:"ilhak"` — Râşid *"bizzat gelerek itaatini bildirdi"*, savaş yok. |
+
+⚠️ **Başlangıç günü TDV'de yok** — madde yalnız "1534" diyor. `1534-12-04`
+**doğrulanmış komşudan** alındı (OGRENILENLER §8): TDV *"Bağdat'ı aldığı sırada"*
+diyor, Bağdat'ın veri tarihi `1534-12-04`. Kayıt yorumuna **"tarih Bağdat'tan
+alındı, TDV yalnız '1534' diyor"** notu düşülmeli. **Karar merkezde** — bu ayrı
+bir kalem, `y:` kararının parçası değil; istersen ayrı ele al.
+
+---
+
+## 2) İKİ TARİH ÇELİŞKİSİ
+
+### 2a) Fetih: `1546-01-01` → **`1545-12-26`** ✅ net
+
+TDV günü açıkça veriyor: *"…ve **26 Aralık 1545**'te Basra'ya girdi."*
+
+| kayıt | mevcut | önerilen | slug |
+|---|---|---|---|
+| Basra `d:` başlangıcı | `1546-01-01` | **`1545-12-26`** | `basra` |
+
+Verideki `1546-01-01` klasik "yıl biliniyor, gün bilinmiyor" damgası — ama gün
+**biliniyor**, sadece bir yıl ileri yuvarlanmış. 6 günlük fark önemsiz görünür,
+**ama yıl sınırını atlıyor**: harita fethi 1545'te değil 1546'da gösteriyor.
+
+### 2b) İran işgali: 🔴 **koordinatörün çerçevesi düzeltilmeli — yıl DOĞRU**
+
+Koordinatör *"veri 1776-04-16 ↔ TDV 1775-1779"* diye özetlemiş. Ölçtüm:
+**"1775-1779" TDV'nin anlatısı değil, BASRA maddesinin kaynakçasındaki bir
+makale başlığı** — Sâlih Muhammed el-Abîd, *"Baṣra fî senevâti'l-miḥne
+(1775-1779)"*, yani "Basra'nın mihnet yılları". Bir bunalım devrinin akademik
+çerçevesi; fethin tarihi değil.
+
+TDV'nin **anlatı** metni **KERİM HAN ZEND** maddesindedir ve yılı net verir:
+
+> *"**1776'da** Kerim Han'ın kardeşi **Sâdık Han** Basra'yı ele geçirdi. Bunun
+> üzerine aynı yıl İran'a karşı savaş ilân edildi. 1777 Nisan-Mayıs aylarında bir
+> Osmanlı kuvveti İran'a girip Sâdık Han'ı bozguna uğrattı… **Basra ise ancak
+> Kerim Han'ın vefatından sonra yeniden Osmanlı idaresine alınabildi. 13 Safer
+> 1193'te (2 Mart 1779)** attan düşerek öldüğünde…"*
+
+**Sonuç: verideki 1776 ve 1779 YILLARI doğru. Yalnız GÜNLER kaynaksız.**
+
+Yan düzeltme: şehri alan **Kerim Han değil, kardeşi Sâdık Han**'dır.
+
+| kayıt | mevcut | önerilen | gerekçe |
+|---|---|---|---|
+| işgal başlangıcı | `1776-04-16` | **`1776-01-01`** | Yıl TDV'de var, **gün yok**. Kuralın uygulanacağı yer burası. |
+| işgal bitişi | `1779-04-01` | **`1779-04-01` KALSIN** (ya da `1779-03-02`) | ⬇️ aşağıya bak |
+
+### ⚠️ Kuralın kırıldığı yer — bitiş tarihine `YYYY-01-01` UYGULANMAMALI
+
+Koordinatörün kuralı ("uydurma günü yıl başına indir") başlangıç için doğru, ama
+**bitiş için burada yeni bir hata üretir**:
+
+```
+TDV: Basra "ancak Kerim Han'ın vefatından SONRA" geri alındı
+     Kerim Han'ın ölümü: 2 Mart 1779   ← TDV bunu GÜN GÜN veriyor
+kural uygulanırsa: 1779-01-01
+                   ↑ Kerim Han'ın ölümünden İKİ AY ÖNCE — TDV'ye açıkça aykırı
+```
+
+> 🔴 **Genel kural önerisi:** `YYYY-01-01`'e indirme, **kaynak olayı yıl içinde
+> bir güne göre kısıtlamıyorsa** güvenlidir. Kısıtlıyorsa (*"X'ten sonra"*,
+> *"Y'nin ardından"*) yıl başı **kanıtlanabilir biçimde yanlıştır** ve uydurma
+> günü bir uydurmayla değiştirmiş oluruz. Böyle durumlarda **kaynağın verdiği
+> çıpaya** yaslanmalı — burada `1779-03-02`.
+>
+> Bu, ARABİSTAN'ın 1849 Yemen'de bulduğu tuzağın **ayna görüntüsüdür**: orada
+> uydurma gün başka bir maddenin gerçek gününe çarpıyordu; burada uydurma günün
+> "düzeltilmesi" kaynağın kendisine çarpıyor.
+
+**Önerim:** başlangıç `1776-01-01`; bitiş `1779-04-01` olduğu gibi kalsın ve
+kayıt yorumuna *"gün kaynaksız; TDV yalnız 'Kerim Han'ın vefatından (2 Mart 1779)
+sonra' diyor"* notu düşülsün. Alternatif `1779-03-02` — **karar merkezde.**
+
+📌 Hatırlatma: bu kayıt için asıl önerim hâlâ **`isg:` örtüsüne geçilmesidir**
+(hatalar 16 md.4). İşgal olarak yazılırsa nominal sahip Osmanlı kalır, Kürne
+(64,6 km) ve Fâv (88,8 km) ile arasındaki sahte kopukluk kapanır.
+
+---
+
+## 3) ~~🔴 HAYALET NOKTA — DOĞU BÖLGESİ TAM LİSTESİ~~ ❌ **GERİ ÇEKİLDİ**
+
+> # ❌ BU BÖLÜM GEÇERSİZ — 2026-07-31'de geri çekildi
+>
+> **"Hayalet nokta" diye bir sorun yok. Motor `kur:`/`bit:`i 30 Temmuz'dan beri
+> okuyor** (`b781c2c` — *"Motor kur:/bit: okuyor — 1,7 milyon km²lik hayalet
+> toprak düzeltmesi"*).
+>
+> **Kodda doğruladım** (rapora değil, koda baktım):
+> `arac/uret_petek.py:903-908`
+> ```python
+> def devir_kumesi(g):
+>     """g tarihinde SAHNEDE OLMAYAN ama veride SAHİBİ YAZILI yerleşimler."""
+>     return frozenset(
+>         i for i, y in enumerate(YERLER)
+>         if ((y.get("kur") and y["kur"] > g) or (y.get("bit") and y["bit"] <= g))
+>         and _sahipli(y, g))
+> ```
+> Yani motor tam olarak benim "hayalet" dediğim kümeyi hesaplıyor ve o noktaları
+> **sahneden çıkarıp** paylarını o gün var olan komşulara dağıtıyor
+> (`uret_petek.py:1149`, `1202-1206`).
+>
+> **Hatanın kaynağı benim ölçüm yöntemimdi:** sahipliği `data/yerlesimler.js`'ten
+> okudum, yani **verinin ne yazdığını** ölçtüm. Oysa soru **motorun ne çizdiğiydi.**
+> Veride Nâsıriye'nin 1600'de `d:osmanli` yazması **doğrudur**; motor onu o gün
+> haritaya koymuyor. İki ayrı şeyi ölçüp birini diğerinin yerine koydum.
+>
+> **Aşağıdaki 10 satırlık liste ve "motor sonrası sınama ölçütleri" tablosu
+> KULLANILMAMALIDIR.** Kayıtlara dokunmamış olmam tek isabetli tarafıydı.
+>
+> ⚠️ Bir tespit ayakta kalıyor, çünkü kaynağı bu ölçüm değildi:
+> **Şuşa 1752'de kuruldu**, dolayısıyla hatalar 16 md.2'de "1728'de Karabağ'da
+> Osmanlı olmalı mıydı?" sorusuna verdiğim **hayır** cevabı geçerlidir — ve
+> motorun `devir_kumesi`'i zaten Şuşa'yı 1728'de sahneye almıyor.
+>
+> **Kendime ders:** bir alanın ya da motorun *davranışı* hakkında hüküm
+> vereceksem `YAPILACAKLAR.md`'ye veya başka bir oturumun raporuna değil,
+> **koda** bakmalıyım. Bu turda üç oturum aynı bayat satıra dayanarak yanlış
+> teşhis koydu; ben dördüncüsü olmayayım diye artık ölçümün kaynağını da
+> yazıyorum: *ne okudum, nereden okudum.*
+
+<details>
+<summary>Geçersiz bölümün aslı (kayıt için saklandı, kullanılmayacak)</summary>
+
+
+Kapsam: `lon 38-58 · lat 23-45` (Irak + İran + Kafkasya + Körfez) = **205 nokta**.
+`kur:` taşıyan: **15**. Bunların **10'u kuruluşundan önce toprak boyuyor.**
+
+⚠️ **Kayıtlara dokunmadım** — kök sebep motorda (`kur:`/`bit:` okunmuyor).
+Bu liste motor borcu kapandıktan sonra **doğrulama listesi** olarak kullanılacak.
+
+### Hayalet olanlar (10) — `kur:` > ilk boyama
+
+| # | yerleşim | `kur:` | ilk boyadığı tarih | o tarihteki sahip | hayalet süre |
+|---|---|---|---|---|---|
+| 1 | **Ramâdi** | 1869-01-01 | 1281-01-01 | ilhanli | **588 yıl** |
+| 2 | **Nâsıriye** | 1869-01-01 | 1281-01-01 | ilhanli | **588 yıl** |
+| 3 | **Muhammere** | 1812-01-01 | 1281-01-01 | ilhanli | **531 yıl** |
+| 4 | **Erâk (Sultânâbâd)** | 1808-01-01 | 1281-01-01 | ilhanli | **527 yıl** |
+| 5 | **Şuşa** | 1752-01-01 | 1281-01-01 | ilhanli | **471 yıl** |
+| 6 | **Buşehr** | 1734-01-01 | 1281-01-01 | ilhanli | **453 yıl** |
+| 7 | **Senendec (Sine)** | 1636-01-01 | 1281-01-01 | ilhanli | **355 yıl** |
+| 8 | **Bender Abbas (Gamrûn)** | 1622-05-01 | 1281-01-01 | ilhanli | **341 yıl** |
+| 9 | **Ferahâbâd** | 1611-01-01 | 1281-01-01 | ilhanli | **330 yıl** |
+| 10 | **Sultâniye** | 1305-01-01 | 1281-01-01 | ilhanli | **24 yıl** |
+
+**Desen tek ve keskin:** onunun da ilk boyaması `1281-01-01` ve sahibi `ilhanli`.
+Yani bu noktalara **projenin standart 1281 başlangıçlı zincir şablonu** uygulanmış,
+`kur:` alanı sonradan eklenmiş ve zincirin başı hiç kırpılmamış. Elle tek tek
+yapılmış bir hata değil, **şablonun sistematik yan etkisi** — bu yüzden motor
+düzeltmesi doğru çözümdür, kayıt düzeltmesi değil.
+
+### Hayalet OLMAYANLAR (5) — doğru yazılmış, karşılaştırma için
+
+| yerleşim | `kur:` | ilk boyama | not |
+|---|---|---|---|
+| Vladikavkaz | 1784-01-01 | 1784-01-01 | ✅ birebir |
+| Kuveyt | 1716-01-01 | 1716-01-01 | ✅ birebir |
+| Krasnovodsk | 1869-01-01 | 1869-01-01 | ✅ birebir |
+| Doha (Katar) | 1825-01-01 | 1871-01-01 | ✅ kuruluştan **46 yıl sonra** boyuyor — güvenli taraf |
+| Abu Dabi | 1761-01-01 | 1820-01-08 | ✅ kuruluştan **59 yıl sonra** — güvenli taraf |
+
+Bu beşi geç kuruluşlu ve zincirleri **`kur:` tarihinden başlatılmış**. Yani doğru
+desen veride zaten var; onunda uygulanmamış.
+
+### `bit:` — doğuda **0 kayıt**
+
+`lon 38-58 · lat 23-45` kutusunda `bit:` taşıyan hiçbir nokta yok. Yani
+"ölümünden sonra boyayan" ters sınıf bu bölgede **mevcut değil**; motor borcu
+kapandığında doğuda yalnız `kur:` tarafı sınanacak.
+
+### Motor düzelince beklenen davranış — sınama ölçütü
+
+| yerleşim | motor `kur:` okuduğunda | sınanacak tarih |
+|---|---|---|
+| Ramâdi, Nâsıriye | 1869 öncesi **boyamamalı** | 1600-06-15 · 1800-06-15 |
+| Muhammere | 1812 öncesi boyamamalı | 1600-06-15 · 1750-06-15 |
+| Erâk | 1808 öncesi boyamamalı | 1750-06-15 |
+| Şuşa | 1752 öncesi boyamamalı | 1595-06-15 · **1728-06-15** |
+| Buşehr | 1734 öncesi boyamamalı | 1600-06-15 · 1728-06-15 |
+| Senendec | 1636 öncesi boyamamalı | 1595-06-15 |
+| Bender Abbas | 1622-05 öncesi boyamamalı | 1595-06-15 |
+| Ferahâbâd | 1611 öncesi boyamamalı | 1595-06-15 |
+| Sultâniye | 1305 öncesi boyamamalı | 1290-06-15 |
+
+📌 **Şuşa'ya ayrıca dikkat:** hatalar 16 md.2'de Şuşa'yı "1728'de Karabağ'da
+Osmanlı olmalı mıydı?" diye sorup **hayır** demiştim, gerekçem şehrin 1752'de
+kurulmuş olmasıydı. Bu liste o gerekçeyi doğruluyor — **ve aynı zamanda Şuşa'nın
+1728 haritasında hiç görünmemesi gerektiğini** gösteriyor. Motor borcu kapanınca
+o nokta kendiliğinden düşecek.
+
+</details>
+
+---
+
+## DOĞU (A4) — bu turun özeti
+
+| # | Kalem | Karar |
+|---|---|---|
+| 1 | Basra `y:` | **`y:"savas"` — kararımı koruyorum.** `vassal`ın yeni tanımıyla (*edinim biçimi*) yeniden baktım; `d:` dönemi **1545 harekâtından 6 gün sonra** başlıyor, yani onun edinimi harekâttır. Gerekçe §1'de genişletildi |
+| 1b | Basra'nın eksik tâbiliği | 🔴 **Yeni bulgu:** 1534-1545 arası veride `safevi`, TDV'ye göre Osmanlı tâbisi ve Kanûnî adına sikke kesiyor. `v:` dönemi eklenmeli. **Karar merkezde** |
+| 2a | Fetih tarihi | `1546-01-01` → **`1545-12-26`** (TDV günü veriyor; mevcut değer yıl sınırını atlıyor) |
+| 2b | İran işgali | **Yıl doğru** — "1775-1779" TDV'nin anlatısı değil, kaynakçadaki makale başlığı. TDV KERİM HAN ZEND **1776** diyor. Başlangıç günü kaynaksız → `1776-01-01`. **Bitişe kural uygulanmamalı** (aşağı bak) |
+| 2c | ⚠️ Kural düzeltmesi | `YYYY-01-01`'e indirme, kaynak olayı yıl içinde bir çıpaya bağlıyorsa **yeni hata üretir**. Basra'nın geri alınışı TDV'ye göre **2 Mart 1779'dan sonra**; `1779-01-01` kanıtlanabilir biçimde yanlış olurdu |
+| 3 | ~~Hayalet nokta~~ | ❌ **GERİ ÇEKİLDİ.** Sorun yok — motor `kur:`/`bit:`i `b781c2c`'den beri okuyor, `devir_kumesi()` o noktaları sahneden çıkarıyor (`uret_petek.py:903`). **Ben veriyi ölçtüm, oysa soru motorun ne çizdiğiydi.** Liste kullanılmamalı |
+
+---
+
+## 📌 EK — `y:"vassal"` tanımı geldikten sonra Basra kararının yeniden sınanması
+
+Koordinatör `y:"vassal"` = **"tâbiyet/itaat yoluyla EDİNİM"** diye tanımladı ve
+`js/app.js:782-785`'te değerin tanınıp tanınmadığını kodda doğruladım — tanınıyor:
+
+```js
+var YONTEM_SIMGE = {
+  savas: "⚔", kusatma: "♜", antlasma: "📜",
+  vassal: "🤝", ilhak: "🗝", miras: "👑"
+};
+```
+
+Yani `vassal` geçerli bir `y:` değeri; ilk mesajdaki "geçersiz" nitelemesi
+yanlışmış. **Buna rağmen Basra için kararım değişmiyor**, çünkü tanım soruyu
+şuna indirgiyor: *"bu `d:` dönemi NASIL edinildi?"*
+
+```
+d: dönemi başlangıcı   1546-01-01   (önerim: 1545-12-26)
+Ayas Paşa'nın girişi   1545-12-26
+                       ↑ altı gün. Dönem harekâtın ertesinde başlıyor.
+```
+
+Râşid b. Megāmis'in *"bizzat gelerek itaatini bildirmesi"* **1534/1538**'dir ve o
+edinim **1545'ten önce bozulmuştur** — TDV: Şeyh Yahyâ *"Osmanlı yönetimine karşı
+tavır aldı."* 1545'teki şey bir itaat kabulü değil, kaybedilmiş bir yerin geri
+alınmasıdır: *"Bağdat Beylerbeyi Ayas Paşa Basra'nın **alınmasına memur edildi**…
+Musul sancak beyi Mehmed Bey'i **120 gemiyle** Fırat üzerinden harekete geçirdi,
+kendisi de karadan hareket ederek **müdafileri tesirsiz hale getirdi**."*
+
+⚠️ **İki halka ikinci kez birbirine karıştı** — bunu ilk raporda da işaretlemiştim.
+`vassal` (1538 itaati) ile `savas` (1545 harekâtı) rakip okumalar değil, **arka
+arkaya gelen iki ayrı edinimdir** ve aralarında bir **kayıp** vardır.
+
+**Üç seçenek karşısında:**
+
+| değer | uygun mu | gerekçe |
+|---|---|---|
+| `savas` | ✅ **evet** | 120 gemi, karadan harekât, müdafilerin tesirsiz hale getirilmesi, ardından ilk beylerbeyinin tayini |
+| `vassal` | ❌ bu dönem için hayır | İtaat 1538'de oldu ve bozuldu; 1545'te teslim olan bir tâbi yok |
+| `ilhak` | ❌ hayır | 🗝 kansız katılımı anlatır; TDV askerî harekât tarif ediyor |
+| `kusatma` | ❌ hayır | TDV "kuşatma" demiyor; *"girdi"* diyor |
+
+### Ve `vassal` kelimesi boşa yazılmamış — asıl yeri şurası
+
+Yeni tanım, ilk raporda §1b olarak bildirdiğim bulguyu **çürütmüyor, güçlendiriyor**:
+1534-1545 arası Basra veride `safevi` görünüyor, oysa TDV'ye göre Osmanlı tâbisi
+ve **1538'den itibaren Kanûnî adına sikke kesiyor.** Eksik olan dönem tam da
+`y:"vassal"`ın ders kitabı örneği:
+
+```js
+v: [{ f:"1534-12-04", t:"1545-12-26", y:"vassal" }]
+```
+
+Yani kayıttaki `vassal` kelimesi **gerçek bir olayın fosili** — yanlış gözde
+duruyor. `d:`'den `v:`'ye taşınırsa hem alan doğru yere oturur hem 12 yıllık
+tarih boşluğu kapanır.
+
+⚠️ `1534-12-04` günü TDV'de **yok** (madde yalnız "1534" diyor); Bağdat'ın veri
+tarihinden alındı, kayıt yorumuna not düşülmeli. **Karar merkezde.**

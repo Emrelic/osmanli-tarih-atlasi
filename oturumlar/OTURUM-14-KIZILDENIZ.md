@@ -337,3 +337,118 @@ Hepsi uygulanırsa beklenen:
   ikisi de sahipli.
 - Cibuti'nin `kur:`ı yeni bir yabancı kırılması doğurur; maddesi yazıldığı
   için açık üretmez.
+
+---
+
+# 4. Merkez'in (6) sorusu: emirlikler 1888-1927 arasında kimin?
+
+## 4a. 🔴 ÖNCE — bu, kararınızın (5) numaralı maddesini geçersiz kılıyor
+
+Sorduğunuz cümleyi aradım ve **buldum**, ama aramanın yan ürünü daha önemli.
+İki dalgayı ayrı sınıflara koymuştunuz:
+
+| Dalga | Sizin kararınız |
+|---|---|
+| Obbiya **1888-12-01** | 🔴 madde yazma, TDV 1927 diyor |
+| Mecerteyn **1889-04-07** | ✅ (B) yolu, günü işaretle, metni yaz |
+
+**Ama TDV ikisini aynı cümlede, aynı fiille anıyor:**
+
+> *"Ülkenin iç kısımlarında hüküm süren **Mâcerteyn ve Obbia** emirliklerine
+> ait topraklar ise **1927'de** İtalyanlar tarafından işgal edildi."*
+
+Ve kayıtlar bu ikiliye **birebir oturuyor** — tesadüf değil, aynı iki devlet:
+
+| Dalga | Kayıtlar | Hangi emirlik |
+|---|---|---|
+| 1888-12-01 | Obbiya · Galkayo | **Obbia (Hobyo)** sultanlığı |
+| 1889-04-07 | Bender Kāsım · Alula · Hafun · Garove · Ayl | **Mâcerteyn** sultanlığı |
+
+> ⇒ **1889-04-07'nin sorunu "gün kaynaksız" değil.** 1888-12-01 ile
+> **tamamen aynı** sorun: TDV'ye göre o topraklar 1927'ye kadar İtalyan
+> olmadı. Gün meselesi bu 38 yılın yanında ayrıntı.
+
+Yani (5) kararı, (6)'nın cevabı bilinmeden verilmişti ve o cevap ikisini
+tek soruna indiriyor. **İkisi birlikte karara bağlanmalı.**
+
+## 4b. Aradığınız cümle — VAR
+
+TDV `somali`, iki cümle, ikisi de birebir alıntı:
+
+> *"Somali'nin kuzeyinde hüküm süren Mâcerteyn Sultanlığı XIX. yüzyılda
+> **bağımsız hale geldi**."*
+
+> *"Ülkenin iç kısımlarında **hüküm süren** Mâcerteyn ve Obbia emirliklerine
+> ait topraklar ise 1927'de İtalyanlar tarafından işgal edildi."*
+
+İkinci cümledeki **"hüküm süren"** sıfat-fiili tam olarak istediğiniz şey:
+emirlikler işgal ânına kadar **hüküm sürüyorlar.** Birincisi de bağımsızlığı
+XIX. yüzyıla koyuyor.
+
+⚠️ **Ama beklediğiniz cevabı vermiyor.** Şunu net söylemem gerek:
+
+> **TDV 1889 himaye antlaşmalarından HİÇ SÖZ ETMİYOR.** Ne `somali`'de, ne
+> `makdisu`'da, ne Derviş hareketi maddesinde geçiyorlar.
+
+Yani cümle *"kendi emirleri yönetiyordu"* diyor — bu `v:` kurmanızı
+**desteklemiyor**, çünkü `v:` bir tâbiiyet iddiasıdır ve TDV'de o tâbiiyetin
+kaynağı olan antlaşma hiç anılmıyor. TDV'nin desteklediği tek şey
+**bağımsızlık**tır.
+
+📌 Destekleyici üçüncü kayıt: `muhammed-b-abdullah-hasan` maddesi
+*"1903 yılı içinde İngilizler'in İtalyan müttefikleriyle birlikte katıldığı
+**Obbia'nın iç kesimlerindeki** çarpışmaları da kazandı"* diyor. 1903'te
+Obbia'nın içinde savaşılıyorsa orası o tarihte İtalyan idaresi değildi.
+
+## 4c. Üç yol ve her birinin bedeli
+
+| | Ne yapar | TDV | Bedel |
+|---|---|---|---|
+| **(a)** bugünkü hâl: `s:"italya"` 1888/1889'dan | — | 🔴 **39 yıl çelişki** | yok ama yanlış |
+| **(b)** `v:` tâbi 1889'dan | himaye gösterir | 🟡 **kaynaksız** — antlaşmalar TDV'de yok | 2 kimlik + 7 kayıt |
+| **(c)** emirlikler 1923'e kadar kendileri | bağımsız gösterir | 🟢 **birebir** | 2 kimlik + 7 kayıt |
+
+**Önerim (c)** ve sebebi şu ince nokta: işgal **1927**, atlasın ufku
+**1923-10-29**. Yani TDV'ye göre **atlasın kapsadığı sürenin tamamında bu iki
+emirlik bağımsızdır** — kırılma atlasın dışında kalır.
+
+🟢 **(c)'nin ölçülebilir yan faydası:** yedi kaydın `s:` kırılması **tamamen
+ortadan kalkar.** `Değişmez 2s` açığı 115'ten **yedi eksilir**, üstelik madde
+yazmadan. §3b'de "115 → ~108" demiştim; (c) seçilirse ayrıca düşer.
+
+⚠️ **(c)'nin bedeli:** `renkler.py`'de `mecerteyn` ve `obbiya` kimlikleri.
+Oturum 16'nın ölçümü (261 kimlik 8 renge sığıyor) bunun maliyetini
+sıfıra yakın gösteriyor — ama karar U2'de.
+
+## 4d. Mecerteyn maddesi — **şartlı** teslim
+
+İstediğiniz gibi yazdım. **Ama yalnız (a) ya da (b) seçilirse geçerli;**
+(c) seçilirse kapattığı kırılma ortadan kalkacağı için **bu madde çöpe gider.**
+Uygulamadan önce §4c kararını verin.
+
+```js
+{ t:"1889-04-07", k:"kayip", etiket:["toprak-kaybi","somurgecilik"],
+  b:"Mâcerteyn sahilinin İtalyan himayesine girmesi — Somali burnunun kaybı",
+  gun:"7 Nisan 1889 (gün TDV dışı kaynaktan)",
+  yer:"Bender Kāsım (Bosaso), Alula, Hafun, Garove, Ayl — Somali burnu",
+  kisiler:"❓ TDV ad vermiyor",
+  d:"Aden körfezinin doğu ağzını ve Hafun burnunu tutan Mâcerteyn Sultanlığı XIX. yüzyılda bağımsız hâle gelmiş, Zengibar'ın kıyı hâkimiyetinin dışında kalmıştı. İtalya 1889'da sultanla bir himaye antlaşması imzalayarak Kızıldeniz'in Hint Okyanusu'na açılan ağzında ikinci bir dayanak edindi; aynı yıl Benâdir limanları da Zengibar'dan kiralanmıştı. TDV bu antlaşmadan söz etmez ve emirliğin topraklarının fiilen ancak 1927'de işgal edildiğini kaydeder — himaye kâğıt üzerinde kalmış, iç idare sultanın elinde sürmüştür. TDV yalnız yılı vermektedir; gün başka bir kayıttan alınmıştır.",
+  kaynak:"somali" },
+```
+
+📌 Metnin içine çelişkiyi **kendisi anlatacak** biçimde yazdım (*"TDV bu
+antlaşmadan söz etmez … himaye kâğıt üzerinde kalmış"*). Böylece (b) seçilse
+bile madde okuyucuyu yanıltmaz. (a) seçilirse bu cümle metinle veriyi
+çelişkiye düşürür — **(a) zaten savunulabilir değil.**
+
+## 4e. Sizin "de jure ↔ de facto" listenize
+
+Bugün dört örnek saymışsınız (Katar 1913 · Zebîd 1517 · Sevâkin 1884↔1885 ·
+Obbiya). **Beşincisi bu turdan çıktı ve tersi yönde:** Napolyon'un Mısır'ı —
+orada de facto denetim vardı, de jure hiçbir şey yoktu; `isg:` tam olarak
+onun için doğdu. Obbiya ise aynanın öbür yüzü.
+
+> İkisi bir arada şunu gösteriyor: `d:`/`s:`/`v:` **hukukî** ekseni,
+> `isg:` **fiilî** ekseni tutuyor — ama fiilî denetimin *yokluğunu* gösteren
+> bir alan yok. Obbiya'da ihtiyaç duyulan buydu ve (c) onu kimliğe kaçarak
+> çözüyor. Altıncı bir alan açmaya değer mi, orası MİMARİ'nin işi.

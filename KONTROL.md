@@ -52,6 +52,8 @@ numaraları TAKİPÇİ'nin ardışık sayımıdır; eski kayıtlarla farklılaş
 `K` koordinatör · `D` denetçi · `M` motor · `T` takipçi
 `A1` Anadolu · `A2` Balkan · `A3` Arap-Afrika · `A4` Doğu · `A5` Arabistan
 `U1` kronoloji · `U2` katalog · `U3` savaşlar
+Yeni organlar (`f6ef56f`): `KAYNAK` · `YAMACI` · `COĞRAFYA`
+`📷` = kapanması için kullanıcıdan ekran görüntüsü gerekiyor
 
 ---
 
@@ -78,7 +80,7 @@ numaraları TAKİPÇİ'nin ardışık sayımıdır; eski kayıtlarla farklılaş
 | 2-02 | Osmanlı-Memlük savaşına ordu okları | U3 | iki ok eklendi (1485-1491) | ✅ 9754515 |
 | 2-03 | Sapienza/İnebahtı 1499 gösterimi | K | veri DOĞRU, teyit edildi | ✅ 9754515 |
 | 2-04 | Elazığ-Malatya-Adıyaman görünümü doğru mu | K | HATA: Fırat kavsi noktasızdı; 8 yerleşim eklendi | ✅ 9754515 |
-| 2-05 | Zebîd 1516 haritada görünmüyor | A5 | teyit: harekât Memlük hizmetindeydi, Osmanlı 1538'de aldı; AMA 1516-06-20 maddesi hâlâ kırılmasız (yedi "fetih" listesi, KOORDINASYON §9) | ⚠️ |
+| 2-05 | Zebîd 1516 haritada görünmüyor | K | A5 §E ölçtü: madde HAKLI (TDV `zebid`+`selman-reis` 20.06.1516'yı birebir veriyor); eksik olan yerleşim kaydı — çözüm önerisi hazır (memluk 1516-1517 + `v:` 1517-1538; hayalet devlet tuzağına dikkat), uygulama K'da | ⏳ |
 | 2-06 | Sina ucu ve Kızıldeniz kıyısı boşlukları | K | dolgu noktasına Mısır zinciri + üç tarih 07-06'ya hizalandı | ✅ 9754515 |
 
 ## hatalar 3 — 10 madde (turu: `9754515`, r70)
@@ -88,27 +90,27 @@ numaraları TAKİPÇİ'nin ardışık sayımıdır; eski kayıtlarla farklılaş
 | 3-01 | Simgeler yapışıp kalıyor — genel kural | K | 🏰 kalıcıydı; 550 günlük pencereye bağlandı | ✅ 9754515 |
 | 3-02 | Lejant ekranı gizlenebilir olsun | K | ☰/× düğmesi, tercih localStorage'da | ✅ 9754515 |
 | 3-03 | "Safevî İran" küçücük — Van civarı kimin | K | 73 kayıt genel `iran`dı; 40 dönem bölündü, 235 yıllık hayalet kapandı | ✅ 9754515 |
-| 3-04 | Barbaros'un aldığı adalar — harita farkları | ? | turun kaydında madde-madde karşılık yok | ❓ |
-| 3-05 | Didim alınmış görünüyor, doğru mu | ? | turun kaydında yok | ❓ |
+| 3-04 | Barbaros'un aldığı adalar — harita farkları | ? | 📷 şikâyetin kendisi ekran görüntülerinde ("iki haritayı da koyuyorum") — metinden çözülemez | ❓ 📷 |
+| 3-05 | Didim alınmış görünüyor, doğru mu | A1 | iddia net, görüntü gerekmez — TDV teyidi araştırma işi | ⏳ |
 | 3-06 | Budin ilhakı — tüm Macaristan boyanmalı mı | K | teyit: 1541 üçe bölünme gerçek (eyalet/Habsburg/Erdel); Erdel `d:`→`v:` düzeltildi | ✅ 9754515 |
 | 3-07 | Macaristan'ın yarısı duruyor, teyit | K | aynı teyit | ✅ 9754515 |
 | 3-08 | Tebriz enklavı — aradakiler alınmadı mı | K | teyit: 1548'de enklav seferin kendisi | ✅ 9754515 |
 | 3-09 | Van alınınca Tebriz'in çıkışı doğru mu | K | teyit: Kanûnî sınırı Van'da sabitledi | ✅ 9754515 |
-| 3-10 | Katîf işaretleme abartılı mı + koridor | M | petek doğru (Necid kasten boş); kopukluk Kuveyt `kur:1716`tı — motor artık okuyor | ✅ b781c2c |
+| 3-10 | Katîf işaretleme abartılı mı + koridor | K·COĞRAFYA | ÇELİŞKİ ÇÖZÜLDÜ (K hakem ölçümü, motorun `devir_kumesi` ölçütüyle): **motor `kur:` OKUYOR**, bayat olan YAPILACAKLAR satırıydı. Kuveyt deliği kusur değil KURAL (kasıtlı sahipsizlik korunuyor) → kalan iş gösterim kararı (3 seçenek, YAPILACAKLAR'da) | ⏳ |
 
 ## hatalar 4 — 11 madde (turu: `35436fe`, r76)
 
 | No | Madde | Sahip | Ölçüm / karar | Durum |
 |---|---|---|---|---|
 | 4-01 | Fizan/Murzuk ayrı madde olmalı | K | madde var (1577-01-01); ek8↔ek9 mükerrer çifti bulundu, silinmesi K'da | ⚠️ |
-| 4-02 | Rasathane Ocak+Temmuz 1577 iki madde | K | silinen mükerrer listelerinde adı geçmiyor | ❓ |
-| 4-03 | Fas 1578 — savaş yeri ve ok | U3 | kayıt doğrulanamadı | ❓ |
+| 4-02 | Rasathane Ocak+Temmuz 1577 iki madde | K | T ölçtü (31 Tem): veride TEK kuruluş maddesi kaldı (1577-01-01, ek2) + 1580 yıkılış — mükerrer temizlenmiş | ✅ |
+| 4-03 | Fas 1578 — savaş yeri ve ok | U3 | T ölçtü: madde VAR (1578-08-04 Vâdisseyl + himaye) ve konumlu savaş kaydı VAR; sefer OKU yoksa da yer gösteriliyor | ✅ |
 | 4-04 | Çıldır zaferi — Çerkezya/Soçi teyidi | K | TDV Çıldır eyaleti orayı kapsamıyor; 5 Çerkez noktası eklendi | ✅ 35436fe |
 | 4-05 | Şirvan fethi enklavı — aradakiler | K | 4 ara şehir (Kabala, Ereş, Şâbüran, Mahmudâbâd) + Zagem eklendi | ✅ 35436fe |
-| 4-06 | Sokullu suikasti iki madde | K | silinen listelerde adı geçmiyor | ❓ |
+| 4-06 | Sokullu suikasti iki madde | K | T ölçtü: veride TEK suikast maddesi kaldı (1579-10-12, ek7) — mükerrer temizlenmiş | ✅ |
 | 4-07 | Demirkapı/Derbend — Hazar'ın öte yakası kırmızı | K | karşı yaka değil Ağraham diliydi; 3 Dağıstan noktası | ✅ 35436fe |
 | 4-08 | Bakü ile Hazar'ın karşısı boyandı | K | aynı düzeltme | ✅ 35436fe |
-| 4-09 | 1585 tağşiş maddesinde Van doğusu bölge — ayrı madde | U1 | kayıt bulunamadı | ❓ |
+| 4-09 | 1585 tağşiş maddesinde Van doğusu bölge — ayrı madde | A4·K | T ölçtü: **Nahçıvan + Ordubad `1585-01-01`** taşıyor — yıl-başı yuvarlaması tağşiş maddesine çarpıyor (mekanizma bulundu); Tebriz bloğu ayrı (1585-09-25). Gün kaynağı A4'ten | ⏳ |
 | 4-10 | Ferhat Paşa antlaşması — harita teyidi, Bağdat girintisi | A4 | Kirmanşah kaması gerçekti, kapandı; Hemedan+Burucird hatta (1b759ea); **Urmiye ve Hoy hâlâ eksik** | ⚠️ |
 | 4-11 | Kirmanşah-Nihavend-Burucird-Senendec-Loristan | A4 | Kirmanşah 1590-1603 eklendi; Nihâvend/Luristan vardı; Sine vb. 9-nokta genişletmesi **karar bekliyor** | ⚠️ |
 
@@ -116,7 +118,7 @@ numaraları TAKİPÇİ'nin ardışık sayımıdır; eski kayıtlarla farklılaş
 
 | No | Madde | Sahip | Ölçüm / karar | Durum |
 |---|---|---|---|---|
-| 5-01 | Antalya/İçel/Çukurova + Tuz gölü kıyı boşlukları | M | ölçülmüş kaydı bulunamadı | ❓ |
+| 5-01 | Antalya/İçel/Çukurova + Tuz gölü kıyı boşlukları | M | konumlar net, görüntü gerekmez — kıyı yaslama ölçümü M'de hiç yapılmamış | ⏳ |
 | 5-02 | Karayazıcı isyanı — aksiyon yok + iki madde | K | tarih 1596→1599 (TDV) düzeltildi, mükerrer silindi | ✅ 35436fe |
 | 5-03 | Mükerrerleri bul, bire indir — genel | D | 26 silindi; 5. kontrol ±400 gün + kök, eşik 0.34 | ✅ 35436fe |
 | 5-04 | Sultanahmet açılışı iki madde | K | silindi; gizli hata da çıktı: açılış 1616 | ✅ 35436fe |
@@ -133,12 +135,12 @@ numaraları TAKİPÇİ'nin ardışık sayımıdır; eski kayıtlarla farklılaş
 | 6-01 | Bozcaada/Limni kaybı + Biga'da parça | K | Limni-Semadirek Venedik dönemi (1656-57) eklendi; **Biga parçası ölçülmedi** | ⚠️ |
 | 6-02 | Köprülü şartlı sadrazamlık mükerrer | K | Köprülüzâde çifti silindi | ✅ 35436fe |
 | 6-03 | Bozcaada geri alınınca Limni ne oldu | K | Limni zinciri kuruldu (1657-11-15 geri) | ✅ 35436fe |
-| 6-04 | Kâtip Çelebi ölümü mükerrer | K | silinen listelerde adı geçmiyor | ❓ |
-| 6-05 | 1657 Yunanistan'da boş bölümler | ? | kayıt bulunamadı | ❓ |
+| 6-04 | Kâtip Çelebi ölümü mükerrer | K | T ölçtü: veride TEK madde kaldı (1657-10-06, ek2) — mükerrer temizlenmiş | ✅ |
+| 6-05 | 1657 Yunanistan'da boş bölümler | K | T ölçtü: 1657-06-15 kesitinde Yunanistan kutusunda sahipsiz nokta **0** — veride boşluk yok (görüntü eski sürüme ait olmalı; tekrar görülürse 📷) | ✅ |
 | 6-06 | Yanova fethi — koridor dibi, girinti doğru mu | K | girinti YANLIŞ boyamaydı: Varad/Yanova 1541'den beri Erdel'di, düzeltildi | ✅ 35436fe |
 | 6-07 | Aynı soru Varad (Odea) için | K | aynı düzeltme | ✅ 35436fe |
 | 6-08 | Saint Gotthard'ın yeri belli değil | U3 | savaş kayıtları 169/169 konumlu | ✅ |
-| 6-09 | Lahsa kaybedilince Katîf vs. de gitti mi | A5 | Arabistan raporunun C bölümü (Körfez) henüz yazılmadı | ⏳ |
+| 6-09 | Lahsa kaybedilince Katîf vs. de gitti mi | K | A5 §C: EVET, 1670'te güney (Katîf dâhil) Benî Hâlid'e geçti; **hüküm verildi: Lahsa 1818-1841 Benî Hâlid bloğu ekleniyor** (76 yıllık blok üçe bölünüyor) — uygulama K | ⏳ |
 | 6-10 | Çehrin + Podolya topraklarını teyit | K | Podolya'ya 3 sancak merkezi; Çehrin zinciri Kamaniçe'ye eşitlendi | ✅ 35436fe |
 | 6-11 | Bahçesaray'la Çehrin geri mi verildi | K | verilmedi; sınır Dinyeper, sağ yaka 1699'a kadar Osmanlı | ✅ 35436fe |
 
@@ -151,7 +153,7 @@ numaraları TAKİPÇİ'nin ardışık sayımıdır; eski kayıtlarla farklılaş
 | 7-03 | Solnok/Tisa çözülmesi görünmüyor | M | petek 0 km² düzeldi; AMA kayıp hâlâ 13 ay geç görünüyor (Oturum 11 #25, motor) | ⚠️ |
 | 7-04 | Harşan bozgunu Erdel kayıpları + başlığa yazma | K | doğrulandı (2 bin km²); başlık "Erdel'in ve Mohaç'ın kaybı" yapıldı | ✅ 776ecb9 |
 | 7-05 | IV. Mehmed'in indirilmesi mükerrer | K | hal'+cülûs birleştirildi; `t`↔`gun` çelişkisi de düzeldi | ✅ 776ecb9 |
-| 7-06 | Azak kaybında doğu yakası da gitti mi | ? | kayıt bulunamadı | ❓ |
+| 7-06 | Azak kaybında doğu yakası da gitti mi | A1 | T ölçtü: 1695-97 penceresinde kırılan TEK kayıt Azak'ın kendisi (1696-07-19 → rusya) — "büyük toprak" görüntüsü Azak peteğinin genişliği; doğu yakasının 1696'daki gerçek statüsü A1 araştırması | ⚠️ |
 | 7-07 | Olaşin + savaş yerleri genel kuralı | U3 | 42 muharebe eklendi, savaş 127→169, konumsuz 0 | ✅ 518d70e |
 
 ## hatalar 8 — 9 madde (turlar: `dea8882` · `4e1f398`)
@@ -196,29 +198,29 @@ numaraları TAKİPÇİ'nin ardışık sayımıdır; eski kayıtlarla farklılaş
 | 10-03 | Boğdan vasalken Hotin kırmızı — saçma | K | hayalet bölünmeydi; Hotin/Bender `v:` yapıldı | ✅ cc714ac |
 | 10-04 | Vasal rengi yalnız bir ton açık olsun | K | tâbi rengi Osmanlı kırmızısının açık tonuna çekildi | ✅ 810efc9 |
 | 10-05 | "Kırım hanlığı bozkırı" ne — bağlı mı boş mu | A1 | Kırım bloğunda; taralı/boş kararı verilmedi | 🔬 |
-| 10-06 | Rus işgali Azak ötesini de almadı mı | ? | kayıt bulunamadı | ❓ |
+| 10-06 | Rus işgali Azak ötesini de almadı mı | A1 | görüntü gerekmez; 1771 işgalinin Kuban tarafı Kırım bloğu araştırmasına bağlı | ⏳ |
 | 10-07 | Askerî harekâtlar oklarla — genel kural | U3 | 9 tipli `HAREKET` tipolojisi + `SONUC_ROZET` kuruldu | ✅ d0981d8 |
-| 10-08 | Küçük Kaynarca metni ↔ harita uygunluğu | ? | taralı alan var (9-12); metin karşılaştırma kaydı yok | ❓ |
+| 10-08 | Küçük Kaynarca metni ↔ harita uygunluğu | A2 | görüntü gerekmez; antlaşma hükümleri ↔ devir alanı karşılaştırması araştırma işi (taralı alan zaten üretili, 9-12) | ⏳ |
 | 10-09 | KK sonrası Kırım cetvelle iki renk | M·A1 | Kırım bloğu (§22 reçetesi kalibre edilmeden girilmiyor) | ⏳ |
 | 10-10 | Karadeniz kuzeyi sınırları saçma | A2 | Pontik bozkır kapsama alındı (6a66b4d); nokta partisi yazılmadı | ⏳ |
 | 10-11 | Basra işgali bu kadarcık mı | K | işgal dönemi eklendi (974c4ea); alan `isg:` örtüsüyle netleşecek | ⚠️ |
 | 10-12 | Basra'nın geri alınışı da bu kadarcık | K | geri alınış maddesi yazıldı (1779, Kerim Han'ın ölümü) | ✅ 974c4ea |
 | 10-13 | Anapa/Kafkas hattı anakaraya bağlanmıyor | A5·A1 | Sohum-Anapa ekseni doğru ölçüldü (Kuban sınır); Çerkezistan statü kararı yok | ⚠️ |
-| 10-14 | Kırım'ın Rusya'ya ilhakı (1783) görünmüyor | ? | 1774 bağımsızlık zinciri kuruldu; 1783 ilhakının kaydı bulunamadı | ❓ |
+| 10-14 | Kırım'ın Rusya'ya ilhakı (1783) görünmüyor | A1 | T ölçtü: ilhak kırılması VAR (Bahçesaray `kirim→rusya` 1783-04-08) ve madde var (`1783-04`, AY hassasiyetli). 🔴 Şüphe: **Kefe 1774'ten itibaren `rusya`** — komşusu Bahçesaray 1774-83 `kirim`; KK'da Rusya'ya geçen Kerç/Yenikale idi, Kefe zinciri A1 doğrulamalı | ⚠️ |
 | 10-15 | Rusların Eflak-Boğdan giriş/boşaltmaları | A2·U1 | 1806-12 ve 1828-29 maddeleri kısmen işlendi (Oturum 4 B → Oturum 7) | ⚠️ |
-| 10-16 | İsmail kalesi "uçakla mı" + Hotin yine kırmızı | A2 | bitişiklik denetimi kuruldu (12-11); İsmail vakası tek tek ölçülmedi | ❓ |
+| 10-16 | İsmail kalesi "uçakla mı" + Hotin yine kırmızı | A2 | T ölçtü: **İsmail/İzmail yerleşim kaydı veride HİÇ YOK** — kalenin düşüşü haritada hiçbir şey oynatamaz; nokta + zincir A2'den | ⏳ |
 | 10-17 | Vehran Cezayir renginde olmalı + denizaşırı petek | M | kara-kısıtlı Voronoi koşusu + renk kararı | ⏳ |
 | 10-18 | Napolyon oku + işgal alanı Fransız rengine | K | taralı işgal katmanı kuruldu (b2e523e); Mısır `isg:` örtüsü kesinleşti, uygulama K'da | ⚠️ |
-| 10-19 | Preveze/Adriyatik Venedik→Fransa geçişi kronolojiye | U1 | s:→s: devir listesi kapsamında (Campo Formio); madde yazıldı mı belgelenmedi | ❓ |
-| 10-20 | Napolyon'un Suriye harekâtı oklar + taralı | U3 | kayıt bulunamadı (Akkâ işareti var, rota oku yok) | ❓ |
+| 10-19 | Preveze/Adriyatik Venedik→Fransa geçişi kronolojiye | U1·A2 | T ölçtü: HARİTADA VAR (Preveze `venedik→fransa` 1797-10-17 = Campo Formio), kronolojide **0 madde** — kullanıcı haklı, madde yazılmalı | ⏳ |
+| 10-20 | Napolyon'un Suriye harekâtı oklar + taralı | U3 | T ölçtü: SEFERLER'de Napolyon Suriye oku YOK (yalnız 1516 Mısır ve 1831 İbrâhim Paşa okları var); Akkâ ⚔ işareti mevcut | ⏳ |
 | 10-21 | Nelson + Mısır'ın boşaltılması kronolojiye | U1 | tahliye maddesi var (1801-10-09, +0 gün); **Nelson/Abukir maddesi bulunamadı** | ⚠️ |
-| 10-22 | Vehhâbî Mekke fethi oklarla + Mekke haritada | A5·U3 | Mekke kaydı var; tarih düzeltmeleri A.1'de, kronoloji önerileri A.3'te — uygulama K | ⏳ |
+| 10-22 | Vehhâbî Mekke fethi oklarla + Mekke haritada | U3·K | Mekke kaydı var; tarih düzeltmeleri A5 §A.1'de, kronoloji önerileri §A.3'te — uygulama K, ok U3 | ⏳ |
 | 10-23 | Mısır'ın hukukî durumu + tüm vasal statüleri etüdü | K | Kavalalı katmanı kuruldu (4342bab), Kahire `v:` 1805-1914; karşılaştırmalı statü anlatımı yazılmadı | ⚠️ |
-| 10-24 | Vehhâbî 1803/1805/1806 tarihleri karışık | A5 | HÜKÜM: mükerrer değil, Mekke iki kez düştü (TDV 30.04.1803 + Ocak 1806); dört kayıt düzeltmesi K'da | ⏳ |
+| 10-24 | Vehhâbî 1803/1805/1806 tarihleri karışık | K | HÜKÜM kesin (A5 §A.0): mükerrer değil, Mekke iki kez düştü (TDV 30.04.1803 + Ocak 1806); kayıt düzeltmeleri K uygulayacak | ⏳ |
 | 10-25 | Şehir noktaları konunca kalıyor | K | işaretler maddeyle sınırlandı + zoom kademesi | ✅ 810efc9·6cfe71e |
 | 10-26 | Alemdar'ın Rusçuk→İstanbul yürüyüşü oku | U3 | kronolojide maddesi var; ok girmedi | ⏳ |
 | 10-27 | Hanedan içi öldürmeler birer madde | U1 | 1876 krizi kadrosu tamam (9d89241); sistematik tarama yapılmadı | ⚠️ |
-| 10-28 | Etkili valide sultanlar kronolojiye | U1 | hiçbir belgede izi bulunamadı | ❓ |
+| 10-28 | Etkili valide sultanlar kronolojiye | U1 | T ölçtü: KISMEN var — Hürrem nikâhı (1534), Kösem'in öldürülmesi (1651), kisiler'de Turhan Sultan; Nurbanu/Safiye maddesi YOK, sistematik değil | ⚠️ |
 | 10-29 | Sohum bölgesi "Kırım bozkırı" görünüyor + Anapa hep kırmızı | A1·A5 | Sohum/Anapa ölçüldü, tarihen doğru; bölge ETİKETİ ve Anapa 1791-92 işgali açık | ⚠️ |
 
 ## hatalar 11 — 61 madde
@@ -245,12 +247,12 @@ numaraları TAKİPÇİ'nin ardışık sayımıdır; eski kayıtlarla farklılaş
 | 11-16 | Libya cetvelle çizilmiş gibi (md.17) | A3·M | nokta yokluğu (192.614 km²/nokta); 9 nokta uygulandı, iç liste hazır — K'da | ⚠️ |
 | 11-17 | Cebel-i Dürüz neresi, Cezayir parçası onunla mı ilgili (md.18) | A3 | HAYIR: Suriye'de; Cezayir parçası ayrı olay | ✅ OGRENILENLER §14 |
 | 11-18 | Donanmanın İskenderiye'ye teslimi oku (md.19) | U3 | `teslim` tipiyle girdi | ✅ bc89690 |
-| 11-19 | Kavalalı irsî valilik — Arabistan nüfuzu + Kızıldeniz batısı (md.20) | A5 | Arabistan raporu B/C/D yazılmadı | ⏳ |
+| 11-19 | Kavalalı irsî valilik — Arabistan nüfuzu + Kızıldeniz batısı (md.20) | K·❓ | A5 §C.4: 1841 yönü DOĞRU (Hicaz Mısır'dan çıkıyor); Kızıldeniz batısı §B.3 düzeltmesiyle kapanacak; "Arabistan'da nüfuz alanı" kısmı için **kullanıcıdan görüntü/tarih bekleniyor** | ⚠️ |
 | 11-20 | Şehir isimleri punto/zoom kuralı (eski 11-21) | K | zoom kademesi + ölçekli punto; **bölge adları büyük punto kaldı** | ⚠️ 6cfe71e |
 | 11-21 | Söğüt/Domaniç/Pelekanon 1800'de duruyor (eski 11-20) | K | `go:` sönme alanı + zoom kademesi | ✅ 6cfe71e |
 | 11-22 | Cezayir işgal sonrası iç bölgeler Osmanlı pembesi (md.23) | A3 | 21 kayıt üç grupta düzeltildi (90d4d01); **Biskra/Tuggurt dönem bölme K'da** | ⚠️ |
-| 11-23 | Yemen'de nokta nokta idare + karşı kıyı kime bağlı (md.24) | A5 | rapor B bölümü yazılmadı | ⏳ |
-| 11-24 | Şirket-i Hayriye'de Yemen artışı (md.25) | A5 | rapor B bölümü yazılmadı | ⏳ |
+| 11-23 | Yemen'de nokta nokta idare + karşı kıyı kime bağlı (md.24) | K | A5 §B.3: nokta nokta GERÇEK (1849-72 yalnız sahil Osmanlı — hata değil); karşı kıyı **MISIR'a** bağlıydı, Sevâkin/Masavva/Dahlak'a `v:` 1865-1885 bölmesi önerildi — uygulama K | ⏳ |
+| 11-24 | Şirket-i Hayriye'de Yemen artışı (md.25) | K·U1 | A5 §B.1: vaka doğrulandı — Yemen sahili Baltalimanı (1849-05-01) maddesinin altında beliriyor; çözüm `1849-01-01` + yeni Yemen maddesi + üretilmiş mükerrer cümle temizliği | ⏳ |
 | 11-25 | Sinop baskını ayrı madde (md.26) | U1 | eklendi, 1853-11-30 | ✅ bc3caef |
 | 11-26 | Tuggurt — elden çıkan bölge (md.27) | A3 | ölçüldü, C grubu (Sahra vahaları); dönem bölme + kimlik kararı açık | ⚠️ |
 | 11-27 | Eflak-Boğdan birleşmesi + vasal gösterimi (md.28) | A2 | birleşme DOĞRU çıktı; şikâyetin kökü Eflak'ta tek nokta — 10 nokta hazır, K'da | ⚠️ |
@@ -259,8 +261,8 @@ numaraları TAKİPÇİ'nin ardışık sayımıdır; eski kayıtlarla farklılaş
 | 11-30 | Girit isyanı ateş + kronoloji genişletme (md.31) | U3 | 🔥 işareti girdi | ✅ bc89690 |
 | 11-31 | Belgrad garnizonunun çekilişi oku + geri çekilme tipi (eski 11-32/33) | U3 | `cekilme` tipi + 9 tipli tipoloji | ✅ |
 | 11-32 | Abdülaziz'in Avrupa seyahati (md.34*) | U3 | `seyahat` tipiyle girdi | ✅ bc89690 |
-| 11-33 | Asîr'in doğrudan idareye alınması (md.34*) | A5 | rapor B/C yazılmadı | ⏳ |
-| 11-34 | Lahsa'da merkez/özerk ayrımı (md.35) | A5 | rapor C yazılmadı | ⏳ |
+| 11-33 | Asîr'in doğrudan idareye alınması (md.34*) | K | A5 §C.3: gösterim büyük ölçüde DOĞRU; üç ince iş — 1872/Yemen vilâyeti bağı, `kaynak:` → `asir--suudi-arabistan`, `aiz` kimliği şüpheli ama İdrîsî slug'ı bulunamadı (kaynaksız değiştirilmez) | ⚠️ |
+| 11-34 | Lahsa'da merkez/özerk ayrımı (md.35) | K | A5 §C.2 CEVAP: özerk değil — 1550-1670 beylerbeyilik, 1871-1913 Basra'ya bağlı sancak, ikisi de DOĞRUDAN. ⚠️ `y:"vassal"` kaldırma önerisi **İPTAL** (A5 geri çekti; arayüz 🤝 çiziyor, D tanımı yazdı) — kalan yalnız tarih düzeltmeleri (1547; 05-08↔07-08) | ⏳ |
 | 11-35 | Âli Paşa 1871 iki madde (md.36/37) | K·D | mükerrer silindi; eşik ölçüldü, v3 ölçütü kuruldu | ✅ |
 | 11-36 | V. Murad cülûs/hal ayrımı + 1876 olayları (md.37/38) | U1·A2 | kişi kadrosu tamam (9d89241); kronoloji maddeleri (cülûs/hal/ölüm ayrı) yazılmadı | ⚠️ |
 | 11-37 | 93 harbine giden yol (md.38/39) | A2 | D-1…D-4 maddeleri yazıldı | ✅ §17.5 |
@@ -277,7 +279,7 @@ numaraları TAKİPÇİ'nin ardışık sayımıdır; eski kayıtlarla farklılaş
 | 11-48 | İtalya'nın Kızıldeniz işgali belli değil (md.50) | A3·K | T ölçtü: 1885 Masavva maddesi TAM (0 gün); AÇIK olan üç dalga — Aseb 1882 (68 gün), Asmara/Kerene 1889 (99 gün), Somali 1888-1905 (56-201 gün) maddesiz | ⏳ |
 | 11-49 | Fransa Kızıldeniz'de toprak almış, kronolojide yok (md.51F) | A3·K | T ölçtü: haritayı boyayan TEK kayıt Tacûra (1884-01-01); kronolojide Fransız Somalisi maddesi 0 — aynı gün "Reji İdaresi" gösteriliyor | ⏳ |
 | 11-50 | Bogos Habeşistan'a bırakıldı, neresi (md.52) | A3 | KAPANDI: iş yok | ✅ OTURUM-14 §10 |
-| 11-51 | San'â'nın geri alınması ve önceki kaybı (md.53) | A5 | rapor B bölümü yazılmadı | ⏳ |
+| 11-51 | San'â'nın geri alınması ve önceki kaybı (md.53) | K·U1 | A5 §B.2+§F.2: kullanıcı HAKLI — kayıp haritada yok; çözüm: `s:"yemen"` 1905-04-01→1905-09-01, madde 09-01'e; ayrıca **Daân Antlaşması (1911-10-09) yeni madde** U1'de. Taiz sorusu KAPANDI: düşmedi (kurtaran harekâtın üssüydü), veriye dokunulmayacak | ⏳ |
 | 11-52 | Bosna önce taralı işgal sonra ilhak (md.54) | K·M | `isg:` 1878-1908 örtüsü DOĞRU çalışıyor; ilhak sonrası ~4 yıl gövde örtüşmesi motor kusuru (#36) | ⚠️ |
 | 11-53 | Arnavutluk isyanı ateş (md.55) | U3 | 🔥 girdi | ✅ bc89690 |
 | 11-54 | Trablusgarp savaşı işgalleri adım adım (md.56) | A3 | `isg:` örtüsü + madde listesi hazır — K'da | ⏳ |
@@ -295,7 +297,7 @@ numaraları TAKİPÇİ'nin ardışık sayımıdır; eski kayıtlarla farklılaş
 |---|---|---|---|---|
 | 12-01 | Baştaki iki toprak köşeden değil düzgün bağlansın | M | bitişiklik D: 1281 gövdesi iki leke, 1,66 km %100 KARA boşluk — motor işi | ⏳ |
 | 12-02 | Boğaz kuzeyi + Tuz gölü kıyıya oturmuyor | M | bulgu doğru; `bogazlar.js` çaresi ölçülüp GERİ ALINDI (002842b), doğru çare açık | ⏳ |
-| 12-03 | Osmanlı'nın kuzeyinde boş toprak çıktı | ? | hangi tarih/kesit olduğu belirsiz; ölçülmüş kaydı yok | ❓ |
+| 12-03 | Osmanlı'nın kuzeyinde boş toprak çıktı | ? | 📷 hangi tarih/kesit olduğu metinden çıkmıyor — görüntü şart | ❓ 📷 |
 | 12-04 | Katalan oku erken görünüyor | U3 | ölçüldü: tarih ve pencere DOĞRU; uzun kampanya + ara madde gerçek çakışma — düzeltilecek veri yok | ❌ EK3 |
 | 12-05 | Tarihi yer bir-iki aşama sonra silinsin + zoom kuralı | K | `g:0` sönme + zoom kademesi bunu uyguluyor | ✅ 6cfe71e |
 | 12-06 | Karesi'de Gelibolu'ya deniz aşırı geçiş (eski 15-06) | M | ada kuralı devreye girmiyor (tek kara bileşeni); çare kara-kısıtlı Voronoi | ⏳ |
@@ -344,14 +346,14 @@ numaraları TAKİPÇİ'nin ardışık sayımıdır; eski kayıtlarla farklılaş
 | 15-03 | Küns kuşatması şehri gösterilsin | A2 | SAVASLAR kaydı doğru; **Kőszeg yerleşim noktası hiçbir dosyada yok** — Avrupa yerleşim işi | ⚠️ |
 | 15-04 | 1538 Bucak/Bender kimden alındı | A2 | Boğdan'dan; hayalet bölünme düzeltildi | ✅ cc714ac |
 | 15-05 | 1541-44 Macaristan'da yeşil bölgeler | A2 | aynı üç-katman ölçümü; `macaristan-habsburg` bekliyor | ⚠️ |
-| 15-06 | Lahsa-Katîf karasal kopukluk | A4 | GERÇEK: 350 km Benî Hâlid sahası; Katîf 1871 tarihi + 1818-42 dönemleri düzeltilecek | ⚠️ |
+| 15-06 | Lahsa-Katîf karasal kopukluk | K·COĞRAFYA | HAKEM SONUCU: motor borcu DEĞİL — Kuveyt'in boşluğu kasıtlı sahipsizlik KURALI; kopukluk gerçek (A4: 350 km Benî Hâlid) + kasıtlı boş hücre iki Osmanlı bölgesi arasına düşünce kopuk okunuyor → gösterim kararı (3 seçenek YAPILACAKLAR'da); Katîf tarih işleri ayrıca K'da | ⏳ |
 | 15-07 | Eflak vasal rengi + sınırları | A2 | Eflak'ta TEK nokta var; ölçülmüş 10 kayıtlık küme hazır (§15) — K'da | ⏳ |
 | 15-08 | Ferhat Paşa savaşı/antlaşması haritası | A4 | 10/10 kırılma maddeli; Nihâvend kayıtlı; **Urmiye+Hoy eksik**, 9-nokta genişletme kararda | ⚠️ |
 | 15-09 | Hotin yeşil kalmış | A2·K | hayalet bölünme; `v:` yapıldı, r176 üretimiyle yayında | ✅ cc714ac |
 | 15-10 | Eflak'ın üçte biri açık kırmızı | A2 | = 15-07 (14 test noktasının 8'i doğrudan çıkıyordu) | ⏳ |
 | 15-11 | Kasr-ı Şirin milim milim (tekrar) | A4 | 7/7 doğru; 1296 km zaten ihtilaflıydı | ✅ |
 | 15-12 | Yanova/Varad kimden alındı (eski 15-13) | A2 | vasal ERDEL'den; veri doğru modelliyor; Yanova fetih/kayıp günleri (#26-27) K'da | ✅ |
-| 15-13 | Erdel-Eflak-Boğdan üçlü başkaldırı kronolojide yok | K | KARAR bekliyor (#30): toprak karşılığı işlensin mi; C-1…C-4 maddeleri hazır | ❓ |
+| 15-13 | Erdel-Eflak-Boğdan üçlü başkaldırı kronolojide yok | K | KARAR bekliyor (#30): toprak karşılığı işlensin mi; C-1…C-4 maddeleri hazır — görüntü gerekmez, karar işi | ⏳ |
 | 15-14 | Pencere sağ altta açılmıyor | K | = 14-01, r143'te çözüldü | ✅ |
 | 15-15 | Solnok kaybı görünmüyor | M | = 7-03: petek düzeldi, 13 aylık gecikme kusuru (#25) açık | ⚠️ |
 | 15-16 | Hotin hep tek başına görünüyor | A2 | ölçüldü ve DOĞRU: raya modeli (Boğdan içinde koyu nokta); 1788-92 ve 1806-12 Rus işgalleri eksik (#29) | ⚠️ |
@@ -366,12 +368,12 @@ numaraları TAKİPÇİ'nin ardışık sayımıdır; eski kayıtlarla farklılaş
 |---|---|---|---|---|
 | 16-01 | Şirvan/Gürcistan 1723 enklavı | A4 | harita DOĞRU: Şamahı 1723-08, aradakiler 1724-25 — enklav gerçek ve geçici | ✅ |
 | 16-02 | Hemedan — Urmiye/Nahçıvan geçmedi mi | A4 | Nahçıvan doğru (1725-30); **Urmiye gerçek eksik**; 9 nokta genişletme kararda | ⚠️ |
-| 16-03 | Hotin Ruslara nasıl terk ediliyor + üst bölüm | A2 | özel ölçümü bulunamadı (Hotin zinciri §9 1739 iadesini kapsamıyor) | ❓ |
-| 16-04 | Basra'nın İran işgali | A4·K | `s:` değil `isg:` örtüsü olmalı; 64,6 km'lik sahte kopukluğu da kapatır | ⏳ |
-| 16-05 | "Bu üçgen" (eski kayıt 15-05) | A4 | hipotez: Basra'nın 1776-79 İran peteği; md.4 çözülünce kapanabilir — **ekran görüntüsü bekleniyor** | ❓ |
+| 16-03 | Hotin Ruslara nasıl terk ediliyor + üst bölüm | A2 | 📷 "BU haritanın üst bölümü doğru mu" — kullanıcı belirli bir görüntüye bakıyor, hangi kesit olduğu metinden çıkmıyor | ❓ 📷 |
+| 16-04 | Basra'nın İran işgali | A4·K | `s:` değil `isg:` örtüsü olmalı; 64,6 km'lik sahte kopukluğu da kapatır. Ek havale (A5 §F.4 → A4): Basra `y:` seçimi (itaat mi savaş mı) + iki tarih çelişkisi (1546↔26.12.1545; işgal 1776↔1775) | ⏳ |
+| 16-05 | "Bu üçgen" (eski kayıt 15-05) | A4 | 📷 hipotez: Basra'nın 1776-79 İran peteği; 16-04 çözülünce kapanabilir — ekran görüntüsü şart | ❓ 📷 |
 | 16-06 | Napolyon'un Mısır işgali haritada yok | A3·K | kronoloji tamdı; `isg:` örtüsü 7 kayıt için kesinleşti (c7ce502) — uygulama K'da | ⏳ |
 | 16-07 | Akkâ savunması görünmüyor | U3 | SAVASLAR'a eklendi (kuşatma/zafer) | ✅ 2fedf8e |
-| 16-08 | Vehhâbîler Mekke'yi iki kez alıyor | A5·D | HÜKÜM: **mükerrer DEĞİL** — Mekke gerçekten iki kez düştü (TDV); ilk "1806'yı sil" hükmü çürütüldü; tarih düzeltmeleri K'da | ⚠️ |
+| 16-08 | Vehhâbîler Mekke'yi iki kez alıyor | K·U1 | HÜKÜM kesin (A5 §A.0): **mükerrer DEĞİL** — Mekke iki kez düştü; ilk "1806'yı sil" hükmü çürütüldü. Kalan uygulama: kayıt tarihleri (§A.1) K'da; `ek6:85` hutbe cümlesinin kaynaklı metni (§F.5, `surre`) U1'de | ⏳ |
 | 16-09 | Sohum gitti, Anapa duruyor mu | A4 | tarihen DOĞRU (Kuban sınır); Anapa'nın 1791-92 Rus işgali eksik | ⚠️ |
 | 16-10 | Eflak isyanı ateşle görünmüyor | U3 | kayıt vardı, adı düzeltildi | ✅ |
 | 16-11 | Girit hepsi açık kırmızı olmalı | K | = 11-11, beş kayda Mısır dönemi | ✅ 732663b |
@@ -383,33 +385,52 @@ numaraları TAKİPÇİ'nin ardışık sayımıdır; eski kayıtlarla farklılaş
 | Durum | Sayı |
 |---|---|
 | **Toplam** | **239** |
-| ✅ bitti | **117** |
-| ⚠️ açık borç kaldı | 50 |
-| ⏳ sırada (sahibi belli) | 42 |
+| ✅ bitti | **121** |
+| ⚠️ açık borç kaldı | 52 |
+| ⏳ sırada (sahibi belli) | 53 |
 | 🔬 ölçülüyor | 6 |
 | ❌ yapılmayacak (gerekçeli) | 3 |
-| ❓ durumu belgelenmemiş | 21 |
+| ❓ görüntü bekliyor 📷 | 4 |
 
-### ❓ listesi — cevapsız kalanlar (kullanıcıya/koordinatöre)
+*(31 Tem 3. güncelleme: `kur:` çelişkisi K hakem ölçümüyle çözüldü — motor
+OKUYOR, bayat olan YAPILACAKLAR satırıydı; 3-10 ve 15-06 gösterim kararına
+döndü. ❓21'in triyajı ölçümle yapıldı: 5'i veriden ✅ kapandı, 12'si sahipli
+işe döndü, yalnız 4'ü gerçekten görüntü istiyor.)*
 
-3-04 Barbaros adaları · 3-05 Didim · 4-02 rasathane çifti · 4-03 Fas oku ·
-4-06 Sokullu çifti · 4-09 Van doğusu 1585 · 5-01 Antalya/Tuz gölü kıyıları ·
-6-04 Kâtip Çelebi çifti · 6-05 1657 Yunanistan · 7-06 Azak doğu yakası ·
-10-06 Azak ötesi işgal · 10-08 KK metin karşılaştırması · 10-14 Kırım 1783
-ilhakı · 10-16 İsmail kalesi · 10-19 Preveze Venedik→Fransa · 10-20 Suriye
-harekât okları · 10-28 valide sultanlar · 12-03 kuzeyde boş toprak ·
-15-13 üçlü başkaldırı (KARAR) · 16-03 Hotin'in Ruslara terki · 16-05 üçgen
-(görüntü bekleniyor)
+### 📷 KULLANICIDAN GÖRÜNTÜ İSTENECEKLER — tek seferde sorulacak liste
+
+| No | Madde | Neden metin yetmiyor |
+|---|---|---|
+| 3-04 | Barbaros'un aldığı adalar — harita farkları | şikâyet "iki haritayı da koyuyorum" diyor; fark listesi görüntüde |
+| 12-03 | Osmanlı'nın kuzeyinde boş toprak | hangi tarih/kesit olduğu yazmıyor |
+| 16-03 | Hotin'in Ruslara terki — "üst bölüm doğru mu" | "BU haritanın üst bölümü" hangi kesit, belirsiz |
+| 16-05 | "Bu üçgen" | konum tarifi yalnız görüntüde (hipotez: Basra 1776-79 İran peteği) |
+| *(+ 11-19)* | *Kavalalı — "Arabistan'da nüfuz alanına geçen toprak"* | *⚠️ satırı ama A5'in de istediği görüntü bu — listeye eklensin* |
+
+Görüntü İSTEMEYEN eski ❓'lar ölçümle dağıtıldı: ✅ 4-02 · 4-03 · 4-06 · 6-04 ·
+6-05 — ⏳ 3-05(A1) · 4-09(A4·K) · 5-01(M) · 10-06(A1) · 10-08(A2) · 10-16(A2) ·
+10-19(U1·A2) · 10-20(U3) · 15-13(K karar) — ⚠️ 7-06(A1) · 10-14(A1, Kefe
+şüphesi) · 10-28(U1). Ölçüm komutu: `scratchpad/belirsiz_tarama.js`.
 
 ### ⏳ yoğunlaşması — kimde ne bekliyor
 
 | Sahip | Bekleyen |
 |---|---|
-| **A5 Arabistan** | 6-09 · 11-19 · 11-23 · 11-24 · 11-33 · 11-34 · 11-51 (+10-22, 10-24 uygulaması K'da) |
-| **A4 Doğu** | 11-58…61 (Basra, Sarıkamış, cepheler) · 16-04 |
-| **M motor** | 8-02 koşu · 12-01 · 12-02 · 12-06 · 12-07 · 15-19 · 10-17 (+#25, #36 örtüşme kusurları) |
-| **K uygulama** | 11-43/45/46/54/57 (Şarkî Rumeli #33, Bulgaristan #34, Tunus, Trablusgarp isg:, kama) · 13-02/06/07 · 14-04/05 · 15-07/10 · 16-06 |
+| **K uygulama** | ARABİSTAN hükümleri: 2-05 Zebîd (iki dönem) · 6-09 Lahsa 1818-41 · 11-23 Sevâkin/Masavva/Dahlak `v:` · 11-24 Yemen `1849-01-01` · 11-34 Lahsa tarihleri · 11-51 Sana 1905 · 16-08 kayıt tarihleri · Sevâkin 1885→Yemen vilâyeti · Taiz 1629+1547-02-01 · 1539 ayrı maddesi — ayrıca 11-43/45/46/54/57 · 13-02/06/07 · 14-04/05 · 15-07/10 · 16-06 · 15-13 (#30 kararı) |
+| **K·COĞRAFYA** | 3-10 + 15-06 Kuveyt boşluğunun GÖSTERİMİ (kusur değil kural; üç seçenek YAPILACAKLAR'da, hiçbiri ölçülmedi) |
+| **A5 Arabistan** | kalan: Sevâkin 1888 sonrası sahibi (❓ kaynak) · İdrîsî slug arayışı (KAYNAK ile) — B/C/D/E/F/G raporu TESLİM EDİLDİ |
+| **A4 Doğu** | 11-58…61 (Basra, Sarıkamış, cepheler) · 16-04 (+ §F.4 Basra `y:` ve tarih çelişkileri) · 4-09 Nahçıvan/Ordubad 1585 günü |
+| **A3 Arap-Afrika** | 11-48 · 11-49 kronolojisi (T'nin ölçümü teslim — Fransa önce) |
+| **A1 Anadolu** | 3-05 Didim teyidi · 7-06 Azak doğu yakası 1696 · 10-06 Kuban 1771 · 10-14 **Kefe 1774-83 zinciri şüphesi** (Bahçesaray'la çelişiyor) |
+| **A2 Balkan** | 10-08 KK metin karşılaştırması · 10-10 Pontik noktalar · **10-16 İsmail kalesi noktası (veride hiç yok)** · 10-19 Campo Formio maddesi (U1 ile) |
+| **M motor** | 8-02 koşu · 12-01 · 12-02 · 12-06 · 12-07 · 15-19 · 10-17 · **5-01 Antalya/Tuz gölü kıyı yaslama ölçümü** (+#25, #36 örtüşme) |
+| **U1 kronoloji** | 16-08 hutbe metni (§F.5) · "Aynı tarihte…" mükerrer cümleler (9 vaka) · 11-51 Daân maddesi · 10-19 Campo Formio · 10-28 Nurbanu/Safiye |
 | **A1·M Kırım** | 7-01 · 10-02 · 10-05 · 10-09 · 13-13 — §22 kalibrasyonu çözülmeden girilmiyor |
-| **A2 Balkan** | 10-10 Pontik noktalar |
-| **U3** | 10-26 Alemdar oku |
-| **T takipçi** | — (11-48 · 11-49 ölçümü teslim edildi → hüküm K'da, kronoloji A3'te) |
+| **U3** | 10-26 Alemdar oku · 10-20 Napolyon Suriye oku |
+| **T takipçi** | — (❓ triyajı teslim; bekleyen iş yok) |
+
+**Madde dışı ön şart (K + U2):** `kazak` kimlik zinciri — renkler.py ↔
+yerlesimler_ortaasya2.js ↔ kimlikler.js üçlüsü, Orta Asya merge'inin ön şartı.
+📌 Dosya canlılığı `index.html`'den DEĞİL `arac/girdi.py` `GIRDI_DOSYALARI`'ndan
+ölçülür (ölçüldü: `_afrika` boyamada canlı ama index'te yok; `_ortaasya2`
+ikisinde de yok = gerçekten merge bekliyor).
