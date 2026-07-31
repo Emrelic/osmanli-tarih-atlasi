@@ -80,7 +80,10 @@ BEKLENEN_B = 17
 # ⚠️ Tavan ARACIN KENDI kosusundan alindi (93), on-olcum betiginden (92)
 # degil. Bir fark vardi ve kaynagi onemli degil - onemli olan tavanin
 # denetimi kosturan kodun ciktisindan gelmesi.
-BEKLENEN_C = 93
+# 93 -> 73: kapsayan yer muafiyeti (RAFINE). Ham hali 61 veriyordu ama
+# MEKKE'YI OLDURUYORDU - denetimin var olma sebebini. Rafine kural
+# kapsayiciyi yalniz BASLIKTA ANILMAMISSA muaf tutuyor.
+BEKLENEN_C = 73
 
 # ⚠️ AD EŞLEŞTİRME İKİ KEZ YANLIŞ KURULDU; ikisi de kayda geçsin.
 #   1) "en az 4 harf" filtresi Niş, Şam, Özi'yi eliyordu — üçü de veride VARDI.
@@ -273,6 +276,28 @@ def _katilimci_mi(baslik, ad):
     return "TUT" in kararlar if kararlar else True
 
 
+def _adlar_ad(Y, ad):
+    y = next((x for x in Y if x["ad"] == ad), None)
+    return _adlar(y) if y else {ad}
+
+
+def _merkez(Y, ad):
+    y = next((x for x in Y if x["ad"] == ad), None)
+    return (y or {}).get("m")
+
+
+def _ust_zincir(Y, ad):
+    """`m:` zinciri — bir yerleşimin bağlı olduğu bütün üst merkezler."""
+    z, imlec = set(), ad
+    for _ in range(6):
+        ust = _merkez(Y, imlec)
+        if not ust or ust in z:
+            break
+        z.add(ust)
+        imlec = ust
+    return z
+
+
 def c_coklu_yer(Y, O, ix):
     kir = {}
     for y in Y:
@@ -305,9 +330,29 @@ def c_coklu_yer(Y, O, ix):
         g = denetle.gun_no(o["t"])
         kipirdayan = {a for a in anilan
                       if any(abs(x - g) <= PENCERE_GUN for x in kir.get(a, ()))}
-        if len(kipirdayan) < len(anilan):
-            eksik.append((len(anilan) - len(kipirdayan), len(anilan), o["t"],
-                          o.get("k", ""), o.get("b", ""), sorted(anilan - kipirdayan)))
+        eksik_ad = anilan - kipirdayan
+        # ---- KAPSAYAN YER MUAFİYETİ (ARABİSTAN'ın ikinci önerisi, RAFİNE)
+        # "Koron'un Venedik'e kaybı" · yer:"Mora kıyıları" — Koron kıpırdıyor,
+        # Mora bölge olarak kıpırdamıyor ve kıpırdaması da BEKLENMEZ: Koron
+        # zaten Mora'nın içinde. `m:` zinciri bu kapsamayı veride tutuyor.
+        #
+        # ⚠️ HAM HÂLİYLE UYGULAMADIM ÇÜNKÜ ÖLÇÜNCE MEKKE'Yİ ÖLDÜRÜYORDU.
+        # Mekke, Tâif'in `m:` zincirinde; ham muafiyet 93 → 61 indiriyor ama
+        # bu denetimin VAR OLMA SEBEBİ olan vakayı da eliyor — D istisnasında
+        # kaçtığımız tuzağın aynısı, başka kılıkta.
+        # RAFİNE KURAL: kapsayıcı **başlıkta anılmışsa muaf DEĞİLDİR.**
+        #   "Vehhâbîlerin MEKKE ve Tâif'i…" → Mekke başlıkta, iddia ediliyor → TUT
+        #   "Koron'un Venedik'e kaybı" + yer:"Mora kıyıları" → Mora yalnız
+        #    konum belirtiyor, iddia edilmiyor → MUAF
+        # Ölçüldü: 93 → 73, beş kabul sınamasının beşi de sağ.
+        def _kapsayici_mi(a):
+            if any(x.lower() in baslik.lower() for x in _adlar_ad(Y, a)):
+                return False                      # başlıkta anılmış → iddia
+            return any(a in _ust_zincir(Y, k) for k in kipirdayan)
+        eksik_ad = {a for a in eksik_ad if not _kapsayici_mi(a)}
+        if eksik_ad:
+            eksik.append((len(eksik_ad), len(anilan), o["t"],
+                          o.get("k", ""), o.get("b", ""), sorted(eksik_ad)))
     eksik.sort(reverse=True)
     return coklu, eksik
 
