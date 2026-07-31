@@ -493,3 +493,58 @@ ek bir tutarsızlık yok — tek düzeltilecek yer `padisahlar.js`.
 
 Bu madde bir kırılma kapatmıyor (Değişmez 2'yi etkilemez), yalnız 1451-02-18 ve
 1446-05-05 maddelerinin varsaydığı olayı tamamlıyor.
+
+---
+
+## Sekizinci tur — son açık kırılma (Silifke 1473) + iki madde-tarih hizalaması (2026-07-31)
+
+### 1. Silifke — YENİ MADDE, `t:"1473-01-01"` (kayıttaki tarihle birebir)
+
+**TDV doğrulaması** (`silifke` ✅ canlı `<title>` sınandı, `karamanogullari` da
+canlı ama bu ayrıntıyı vermiyor): Silifke 1472'de bir kez Gedik Ahmed Paşa'ya
+teslim oldu, **aynı yıl** Karamanoğlu Kasım Bey Akdeniz'deki Haçlı donanmasının
+yardımıyla geri aldı. **1473'te**, *Otlukbeli zaferinin ardından*, Fatih oğlunu ve
+Gedik Ahmed Paşa'yı bölgeyi kesin ele geçirmekle görevlendirdi; eski Osmanlı
+topçularının yardımıyla barut deposu ateşlenip kale hızla düşürüldü.
+
+⚠️ TDV ay/gün vermiyor, yalnız "Otlukbeli sonrası 1473" diyor (Otlukbeli
+11 Ağustos 1473) — kayıttaki `1473-01-01` zaten yıl-hassasiyetli yerleşim
+takma tarihi (proje kuralı, Ocak'ı işaret etmiyor), **çelişki yok**, tarihi
+kaynağına çekmeme gerek kalmadı.
+
+```js
+{ t:"1473-01-01", k:"fetih", etiket:["toprak-kazanc"], b:"Silifke'nin kesin fethi — Karamanoğulları'nın son direnişinin kırılması", gun:"1473, Otlukbeli sonrası (TDV ay/gün vermiyor)", yer:"Silifke, İçel", kisiler:"Fatih Sultan Mehmed, Gedik Ahmed Paşa, Kasım Bey", d:"Silifke Kalesi 1472'de bir kez Gedik Ahmed Paşa'ya teslim olmuş, ama aynı yıl Karamanoğlu Kasım Bey, Akdeniz'deki Haçlı donanmasının yardımıyla kaleyi geri almıştı. Otlukbeli zaferinin ardından Fatih, oğlunu ve Gedik Ahmed Paşa'yı bölgeyi kesin olarak ele geçirmekle görevlendirdi; eski Osmanlı topçularının yardımıyla barut deposu ateşlenip kale hızla düşürüldü. Böylece Karamanoğulları'nın Taşeli-İçel dağlarındaki son direnişi kırıldı; beyliğin tasfiyesi 1474'te tamamlanacaktı.", kaynak:"silifke" },
+```
+Hedef muhtemelen `olaylar_ek5.js` (Otlukbeli/Karaman bloğunun yanı) — dosya
+bende değil.
+
+### 2-3. A5'in bulduğu "veri taşındı, madde taşınmadı" sınıfı — iki hizalama
+
+Kural doğru: kırılma tarihi kaydırılınca aynı pakette maddesi de kaydırılmalı.
+İkisi de daha önce `ARABISTAN-DUZELTMELER.md` §A.1'de TDV ile doğrulanmıştı,
+yeniden araştırmadım, yalnız madde tarafını hizalıyorum:
+
+**`olaylar_ek5.js:301`** — `t:"1805-07-01"` → **`"1805-06-01"`**, `gun:"1805"` →
+**`"Haziran 1805"`**, `kaynak:"vehhabilik"` → **`"medine"`** (A.4'te "fakir slug"
+diye işaretlenmişti; `medine` maddesi tam alıntıyı veriyor: *"...işgal edip
+(Haziran 1805)"*). Başlık/gövde değişmiyor, yalnız bu üç alan.
+
+**`olaylar_ek4.js:58`** — `t:"1812-11-08"` → **`"1812-12-03"`**, `gun:"Kasım 1812"`
+→ **`"3 Aralık 1812"`** (TDV `medine`: *"3 Aralık 1812'de Medine geri alındı"*).
+Başlık/gövde değişmiyor.
+
+İkisi de bende değil (`olaylar_ek4.js`, `olaylar_ek5.js`), YAMACI uygulasın.
+
+### Yenbu — bilgi alındı, benden ek iş yok
+
+`1811-11-01→1811-09-03` veri tarafı zaten YAMACI'ya gidiyor, madde
+(`olaylar_ek4.js`'teki "Hicaz seferi başladı" kaydı) zaten `1811-09-03` günü
+anlatıyor — dokunmadım. `1805-07-20` açık borç: benim de TDV'de yalnız yıl
+bulduğum aynı sınır (A.1 madde 4'ten hatırlıyorum), kaynak yok, **madde
+yazmadım.**
+
+### Beklenen sonuç
+Silifke maddesi eklenince Değişmez 2 **3 açık → 0** olmalı (bu turun başında
+zaten Hicaz'ın 3'ü kapanmıştı, Silifke depodaki son tekildi). İki madde-tarih
+hizalaması Değişmez 2'yi etkilemiyor (ikisi de zaten "maddeli" görünüyordu,
+yanlış maddeyle) — yalnız A5'in bulduğu yanlış-eşleşme sınıfını kapatıyor.
