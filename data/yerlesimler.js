@@ -593,12 +593,40 @@ window.YERLESIMLER = [
 { ad:"Tebük", tur:"kale", lat:28.384, lon:36.566, g:0, k:4, m:"Medine", s:[{f:"1281-01-01",t:"1517-07-06",d:"memluk"},{f:"1918-01-01",t:"1923-10-29",d:"hicaz"}], d:[{f:"1517-07-06",t:"1918-01-01"}] },
 { ad:"Maan", tur:"kale", lat:30.192, lon:35.734, g:0, k:4, m:"Kudüs", s:[{f:"1281-01-01",t:"1517-01-01",d:"memluk"},{f:"1918-09-27",t:"1923-10-29",d:"hicaz"}], d:[{f:"1517-01-01",t:"1918-09-27"}] },
 // ---------------- YEMEN ----------------
-{ ad:"Zebîd", tur:"sehir", lat:14.195, lon:43.317, g:0, k:3, m:"Sana", s:[{f:"1281-01-01",t:"1538-08-03",d:"yemen"},{f:"1635-01-01",t:"1849-05-01",d:"yemen"},{f:"1918-10-30",t:"1923-10-29",d:"yemen"}], d:[{f:"1538-08-03",t:"1635-01-01",y:"savas"},{f:"1849-05-01",t:"1918-10-30",y:"savas"}] },
+// Zebîd 1516 haritada YOKTU: 1281-1538 arası 257 yıl tek blok yazılmıştı, oysa
+// 20 Haziran 1516'da el değiştirdi (TDV `zebid` + `selman-reis`, güne kadar).
+// 🔴 Akla ilk gelen çözüm — 1516-1538'i tek parça `memluk` yazmak — 21 YILLIK
+// HAYALET ETİKET üretirdi: Memlûk Devleti 1517-04-13'te yıkıldı (§3.5, Patmos/İbrim
+// sınıfı). O yüzden iki dönem: kısa Memlûk dönemi + ardından TDV'nin anlattığı
+// "Osmanlılar'ın desteğiyle Emîr İskender'in hâkimiyeti" / eski Memlûk beyleri.
+// 1517-07-06 bitişi, Mekke'ye verilen bölgesel teslim gecikmesiyle aynı ölçüt.
+// Yan kazanç: 1538 artık "yoktan fetih" değil, nominal bağın kalıcı idareye
+// çevrilmesi — TDV'nin anlattığı da bu.
+{ ad:"Zebîd", tur:"sehir", lat:14.195, lon:43.317, g:0, k:3, m:"Sana", s:[{f:"1281-01-01",t:"1516-06-20",d:"yemen"},{f:"1516-06-20",t:"1517-07-06",d:"memluk"},{f:"1635-01-01",t:"1849-01-01",d:"yemen"},{f:"1918-10-30",t:"1923-10-29",d:"yemen"}], v:[{f:"1517-07-06",t:"1538-08-03",k:"eski Memlûk beyleri (Osmanlı desteğiyle)"}], d:[{f:"1538-08-03",t:"1635-01-01",y:"savas"},{f:"1849-01-01",t:"1918-10-30",y:"savas"}] },
 { ad:"Aden", tur:"liman", lat:12.786, lon:45.019, g:1, k:3, m:"Sana", s:[{f:"1281-01-01",t:"1538-09-01",d:"yemen"},{f:"1635-01-01",t:"1839-01-19",d:"yemen"},{f:"1839-01-19",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1538-09-01",t:"1635-01-01",y:"savas"}] },
-{ ad:"Moha", tur:"liman", lat:13.319, lon:43.250, g:0, k:4, m:"Sana", s:[{f:"1281-01-01",t:"1538-08-03",d:"yemen"},{f:"1635-01-01",t:"1849-05-01",d:"yemen"},{f:"1918-10-30",t:"1923-10-29",d:"yemen"}], d:[{f:"1538-08-03",t:"1635-01-01"},{f:"1849-05-01",t:"1918-10-30"}] },
-{ ad:"Sana", tur:"sehir", lat:15.369, lon:44.191, g:1, k:2, s:[{f:"1281-01-01",t:"1547-01-01",d:"yemen"},{f:"1635-01-01",t:"1872-04-01",d:"yemen"},{f:"1918-10-30",t:"1923-10-29",d:"yemen"}], d:[{f:"1547-01-01",t:"1635-01-01",y:"savas"},{f:"1872-04-01",t:"1918-10-30",y:"savas"}] },
-{ ad:"Taiz", tur:"sehir", lat:13.579, lon:44.022, g:0, k:3, m:"Sana", s:[{f:"1281-01-01",t:"1547-01-01",d:"yemen"},{f:"1635-01-01",t:"1872-04-01",d:"yemen"},{f:"1918-10-30",t:"1923-10-29",d:"yemen"}], d:[{f:"1547-01-01",t:"1635-01-01"},{f:"1872-04-01",t:"1918-10-30"}] },
-{ ad:"Hudeyde", tur:"liman", lat:14.798, lon:42.954, g:0, k:3, m:"Sana", s:[{f:"1281-01-01",t:"1849-05-01",d:"yemen"},{f:"1918-10-30",t:"1923-10-29",d:"yemen"}], d:[{f:"1849-05-01",t:"1918-10-30"}] },
+// Moha kaybı 1635-01-01 → 1635-10-22: TDV `yemen`, Mustafa Bey 10 Cemâziyelevvel
+// 1045'te (22 Ekim 1635) kalan kuvvet ve silahlarla Moha'yı TAHLİYE etti. 294 gün.
+// 1849-05-01 → 1849-01-01: gün UYDURMAYDI ve Baltalimanı Antlaşması'nın gerçek
+// gününe çarpıyordu — Yemen sahilinin üç limanı Eflak-Boğdan antlaşmasının altında
+// haritaya giriyordu (kullanıcının şikâyeti). TDV `yemen`/`hudeyde`/`zebid` üçü de
+// yalnız YIL veriyor; uydurulmuş gün yerine bilinmediği yazıldı.
+{ ad:"Moha", tur:"liman", lat:13.319, lon:43.250, g:0, k:4, m:"Sana", s:[{f:"1281-01-01",t:"1538-08-03",d:"yemen"},{f:"1635-10-22",t:"1849-01-01",d:"yemen"},{f:"1918-10-30",t:"1923-10-29",d:"yemen"}], d:[{f:"1538-08-03",t:"1635-10-22"},{f:"1849-01-01",t:"1918-10-30"}] },
+// Sana 1905: şehir beş ay elden çıktı ve haritada HİÇ yoktu — 1872-1918 kesintisiz
+// Osmanlı görünüyordu. TDV `yemen`: 1905'te "şehri isyancılara teslim etmeye mecbur
+// oldu"; geri alınış 1 Eylül 1905. Kaybın AYI `mutevekkil-alellah-yahya-hamiduddin`
+// maddesinden geldi: İmam Yahyâ "1905 Nisanında" San'a'yı ele geçirdi.
+// ⚠️ Nisan'ın GÜNÜ kaynaklarda yok — 04-01 ay hassasiyetidir, gün iddiası değil.
+// 📌 Taiz bu dönemde DÜŞMEDİ: TDV, Ahmed Feyzi Paşa'nın "Taiz'deki kuvvetlerin
+// desteğiyle" San'a'ya girdiğini söylüyor. Taiz kurtaran harekâtın üssü, kayıp değil.
+{ ad:"Sana", tur:"sehir", lat:15.369, lon:44.191, g:1, k:2, s:[{f:"1281-01-01",t:"1547-01-01",d:"yemen"},{f:"1635-01-01",t:"1872-04-01",d:"yemen"},{f:"1905-04-01",t:"1905-09-01",d:"yemen"},{f:"1918-10-30",t:"1923-10-29",d:"yemen"}], d:[{f:"1547-01-01",t:"1635-01-01",y:"savas"},{f:"1872-04-01",t:"1905-04-01",y:"savas"},{f:"1905-09-01",t:"1918-10-30",y:"savas"}] },
+// Taiz iki tarihi de düzeltildi (TDV `taiz`): fetih "Zilhicce 953'te (Şubat 1547)
+// zaptedildi" → 1547-02-01 · kayıp "1038'de (1629) Yemen'deki hâkimiyetlerini
+// San'a'daki Kāsımî yönetimine bıraktıkları için Taiz'i de terkettiler" → 1629.
+// 🔴 Eskiden 1635-01-01'di, yani Sana/Zebîd/Moha ile AYNI gün: bölgesel çöküş
+// veriye tek tarih olarak girmiş. Altı yıl sapma. (Aynı desenin dördüncü vakası;
+// Moha'nınki 294 gün. Sana ve Zebîd için TDV ayrı tarih vermiyor, dokunulmadı.)
+{ ad:"Taiz", tur:"sehir", lat:13.579, lon:44.022, g:0, k:3, m:"Sana", s:[{f:"1281-01-01",t:"1547-02-01",d:"yemen"},{f:"1629-01-01",t:"1872-04-01",d:"yemen"},{f:"1918-10-30",t:"1923-10-29",d:"yemen"}], d:[{f:"1547-02-01",t:"1629-01-01"},{f:"1872-04-01",t:"1918-10-30"}] },
+{ ad:"Hudeyde", tur:"liman", lat:14.798, lon:42.954, g:0, k:3, m:"Sana", s:[{f:"1281-01-01",t:"1849-01-01",d:"yemen"},{f:"1918-10-30",t:"1923-10-29",d:"yemen"}], d:[{f:"1849-01-01",t:"1918-10-30"}] },
 { ad:"Ebha (Asir)", tur:"sehir", lat:18.216, lon:42.505, g:0, k:3, m:"Sana", s:[{f:"1281-01-01",t:"1871-01-01",d:"yemen"},{f:"1918-10-30",t:"1920-04-01",d:"aiz"},{f:"1920-04-01",t:"1923-10-29",d:"suud"}], d:[{f:"1871-01-01",t:"1918-10-30"}] },
 // ---------------- MISIR VE SUDAN ----------------
 // 1805: Kahire ulemâsının talebiyle Kavalalı Mehmed Ali vali oldu; Mısır o
@@ -781,11 +809,21 @@ window.YERLESIMLER = [
 // Suûdîlere geçişi) ki uydurma bir gün hassasiyeti doğmasın.
 { ad:"Kuveyt", tur:"liman", lat:29.376, lon:47.977, g:0, k:3, m:"Basra", kur:"1716-01-01", d:[],
     v:[{f:"1795-04-01",t:"1871-01-01",k:"Sabah emirliği (Osmanlı himayesinde)"},
-       {f:"1871-01-01",t:"1914-11-05",k:"Sabah emirliği (Osmanlı kazâsı)"}],
-    s:[{f:"1716-01-01",t:"1795-04-01",d:"benihalid"},{f:"1914-11-05",t:"1923-10-29",d:"ingiltere"}] },
+       {f:"1871-01-01",t:"1914-11-22",k:"Sabah emirliği (Osmanlı kazâsı)"}],
+    // 1914-11-22: TDV `kuveyt` — İngiltere, Basra'yı ele geçirince (22 Kasım 1914)
+    // Küveyt'in kendi himayesinde olduğunu ilân etti. Eskiden 1914-11-05 yazıyordu.
+    // Belirleyici olan yalnız kaynak değil YAPI: Basra da 1914-11-22 taşıyor ve TDV
+    // ikisini AYNI olaya bağlıyor — aynı tarih verilince tek kırılmada dönerler ve
+    // mevcut Basra maddesi ikisini birden karşılar (Değişmez 2 kendiliğinden kapanır).
+    // ⚠️ 3 Kasım 1914 (İngiltere'nin himaye ilânı) TDV DIŞI literatürde var; madde
+    // metnine düzyazı olarak girer, tarih alanına DEĞİL.
+    s:[{f:"1716-01-01",t:"1795-04-01",d:"benihalid"},{f:"1914-11-22",t:"1923-10-29",d:"ingiltere"}] },
 { ad:"Manama (Bahreyn)", tur:"liman", lat:26.228, lon:50.586, g:0, k:0, d:[], s:[{f:"1861-05-31",t:"1923-10-29",d:"ingiltere"}] },
 { ad:"Doha (Katar)", tur:"liman", lat:25.285, lon:51.531, g:0, k:3, m:"Basra", kur:"1825-01-01", d:[],
-    v:[{f:"1871-01-01",t:"1913-07-29",k:"Sânî emirliği (Osmanlı kazâsı)"}],
+    // 1871-09-20: madde (ek5:346) "Sonbahar 1871" diyor, kayıt 1871-01-01'di —
+    // 262 gün fark, yani madde kırılmasız görünüyordu. TDV `katar` sonbaharı
+    // doğruluyor; madde ile kayıt aynı güne çekildi, Değişmez 2 kapandı.
+    v:[{f:"1871-09-20",t:"1913-07-29",k:"Sânî emirliği (Osmanlı kazâsı)"}],
     // Değişmez 1b'nin tek boşluğuydu: 1913-07-29 → 1916-11-03, 1193 gün sahipsiz.
     // 29 Temmuz 1913 Osmanlı-İngiliz mukavelesi Osmanlı'nın Katar'dan çekilmesini
     // kararlaştırdı; 3 Kasım 1916 İngiliz-Katar antlaşması himayeyi kurdu. Arada
