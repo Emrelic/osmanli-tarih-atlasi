@@ -1011,3 +1011,62 @@ soruda aracı **düzeltmek** gerekiyor.
 `ayas` → A'YÂS (Kureyş kolu). Sayfa açılıyor, `<title>` "Arama" da değil, ama
 madde **başka bir şeyi** anlatıyor. `<title>` kontrolü bunu yakalamaz —
 **maddenin konusu da okunmalı.**
+
+---
+
+## 2026-08-01 (7. tur) — Karaman ilhakı: kademeli devir doğru, üç tarih kusurlu
+
+Kullanıcının sorusu. Tam rapor: **`OTURUM-13-KARAMAN.md`**.
+
+**Cevap: gördüğü şey TARİHÎ GERÇEKLİK.** Çekirdek (Konya · Larende · Ermenek ·
+Niğde) **1468 Nisanında** düştü; Pîr Ahmed Toroslar'a çekilip Uzun Hasan
+desteğiyle **1474'e kadar** direndi. Karaman toprağının hiçbir parçası başka
+devlete geçmedi, müstakil kaldı. Verideki 1468-1471 penceresi kastî.
+
+⚠️ Ama kullanıcının işaret ettiği yer **Alâiye** (1293'ten beri ayrı beylik)
+ya da **Ramazanoğulları** (Adana-Tarsus) ise **hata değil doğru veridir** —
+ikisi de hiç Karaman olmamıştır. Ekran koordinatı gelirse ayırt edilebilir.
+
+### 🔧 YAMACI'ya paket
+
+**A — tarih düzeltmeleri (`data/yerlesimler.js`)**
+
+| Kayıt | Şimdi | Olması gereken | Dayanak |
+|---|---|---|---|
+| Konya · Karaman · Ermenek · Niğde | `1468-01-01` | **`1468-04-01`** | TDV `karamanogullari`: *"1468 Nisanında önce Gevele'yi, ardından Konya'yı aldı"* — gün bilinmiyor |
+| Silifke | `1471-01-01` | **`1473-01-01`** | TDV `silifke`: Gedik Ahmed **1472**'de aldı, **aynı yıl kaybedildi**, Otlukbeli sonrası kesinleşti |
+| Anamur | `1471-01-01` | 🔴 **KAYNAKSIZ** | `anamur` ve `mamure-kalesi` slug'ları ÖLÜ; `gedik-ahmed-pasa`'nın 1472 listesinde yok. Yer tutucu olarak işaretle; en yakın kaynaklı çapa Silifke 1473 |
+| Alanya (`alaiye`→`d`) | `1471-01-01` | ✅ **DOĞRU** | TDV `gedik-ahmed-pasa`: Alâiye 1471 |
+
+📌 Silifke'nin 1472 al-kaybet dizisi **sıfır uzunlukta dönemle yazılmamalı**
+(`CLAUDE.md §8`, Tebriz vakası); kronoloji maddesi olarak anlatılmalı.
+
+**B — yeni nokta: AKSARAY** (tam kaynaklı, TDV `aksaray` ✔)
+```js
+{ ad:"Aksaray", tur:"sehir", lat:38.3687, lon:34.0370, g:0, k:3, m:"Konya",
+  s:[{f:"1281-01-01",t:"1308-01-01",d:"selcuklu"},
+     {f:"1308-01-01",t:"1366-01-01",d:"ilhanli"},
+     {f:"1366-01-01",t:"1397-07-01",d:"karaman"},
+     {f:"1402-09-15",t:"1468-04-01",d:"karaman"}],
+  d:[{f:"1397-07-01",t:"1402-07-28",y:"kusatma"},
+     {f:"1468-04-01",t:"1923-10-29",y:"kusatma"}] },
+```
+Yıldırım 1397'de aldı · 1402 sonrası Karaman'a döndü · **1468**'de kesin
+Osmanlı, halk İstanbul'a sürüldü (Aksaray semtinin adı buradan).
+⚠️ 1397/1468 **günü bilinmiyor**; 1402-09-15 yer tutucudur.
+
+**C — dört işaretli aday, kayıt YAZILMADI.** `gedik-ahmed-pasa` 1472'de alınan
+kaleleri adıyla sayıyor: **Mokan (Mennan) · Gorigos (Kızkalesi) · Gülek ·
+Lülye**. Müstakil maddeleri ve kaynaklı koordinatları yok ⇒ Zübâre kuralı.
+
+**D — `devletler.js` (Oturum 3).** `karaman` `t:"1487-01-01"`; harita gövdesi
+`1471-01-01`; TDV **1474**. Aradaki 1471-1487 **topraksız devlet kaydıdır.**
+
+### Koordinatörün diğer adayları
+**Mut** slug ÖLÜ · **Gülnar** müstakil madde yok · **Taşeli** yöre adı,
+yerleşim değil · **Larende** veride **"Karaman"** adıyla zaten var.
+
+### 🔴 Slug denetimi
+CANLI ve iddiayı içeriyor: `karamanogullari` · `silifke` · `gedik-ahmed-pasa` ·
+`aksaray`
+ÖLÜ: `anamur` · `mut` · `mamure-kalesi` · `aksaray--nigde`
