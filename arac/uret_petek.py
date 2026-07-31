@@ -1154,6 +1154,12 @@ else:
 # verinin bilerek boş bıraktığı alana dokunmaz.
 _VARLIK_ONBELLEK = {}
 _VARLIK_DEVIR = {}
+_KUS_IX = [i for i in range(len(PETEK_D))
+           if PETEK_D[i] is not None and not PETEK_D[i].is_empty]
+_KUS_AGAC = STRtree([PETEK_D[i] for i in _KUS_IX])
+# ⚠️ TAMPON BİR KEZ — ölçüm betiğimde bu döngü İÇİNDEYDİ ve 35 epok × 12
+# boşluk = 420 kez tam kıyı çizgisini tamponluyordu: bad allocation.
+_KIYI_TAMPON = KARA.boundary.buffer(0.01)
 
 
 def _sahipli(y, g):
@@ -1165,12 +1171,127 @@ def _sahipli(y, g):
     return False
 
 
+# ---------------- KUŞATILMIŞLIK — "yazılmamış boşluk" ile "kasıtlı" ayrımı ---
+# `_sahipli` ölçütü Kuveyt için doğru kuruldu (kur:1716, ilk sahiplik de 1716 →
+# kasıtlı boş) ama Rumeli Hisarı'na da aynı cevabı veriyordu: 1452'de yapılmış
+# bir hisara 1288 sahibi yazılmamış, oysa toprak Bizans'tı. Kural "kasıtlı
+# boşluk" ile "yazılmamış boşluk"u ayıramıyor — ikisi de veride aynı görünüyor.
+#
+# ÜÇ ÖLÇÜT SIRAYLA ELENDİ, üçü de farklı sebeple:
+#   1. "komşuları sahipli mi"        → 12'nin 10'unu işaretledi, Kuveyt dahil
+#   2. "en yakın 6 komşu oy birliği" → KOMŞULUK TANIMINA DAYANIKSIZ: düz
+#      mesafeyle Rumeli Hisarı devrediliyor, gerçek petek komşuluğuyla KUVEYT
+#      devrediliyor. Tam tersi. Sebep: düz mesafe HER ZAMAN 6 komşu bulur;
+#      Rumeli Hisarı'nın gerçekte 1 ortak-kenarlı komşusu var.
+#   3. çevre payı, kıyı paydada     → Rumeli Hisarı %35 çıktı, çünkü çevresinin
+#      çoğu Boğaz. Kıyıda komşu OLAMAZ; yokluğu kuşatılmamışlık delili değildir.
+# Kalan ölçüt: KARA komşuluğu payı (kıyı paydadan çıkarılmış), tek sahip.
+#
+# 📌 EŞİK ÖNEMSİZ — ve bu, tek uydurma sayıya yaslanmaktan çok daha sağlam.
+# 35 epokun hepsinde ölçüldü, her yerleşimin azami payı:
+#     100,0 Adapazarı · 95,6 Rumeli Hisarı · 95,4 Anadolu Hisarı
+#      90,8 Yeni Ürgenç                      ← bekletildi, aşağıya bak
+#     ───────────────── 25 puanlık boşluk ─────────────────
+#      65,6 Kesela · 62,8 Krasnovodsk · 62,7 İlbasan · 49,5 Doha · 48,9 Cetinje
+#      45,2 Kuveyt · 36,0 Vladikavkaz
+# 65,6 ile 90,8 arasında HİÇBİR vaka yok ⇒ %66 ile %90 arasındaki HER eşik
+# aynı sonucu verir. Eşiği "ayarlamaya" kalkma; ayarlanacak bir şey yok.
+#
+# ⚠️ HATA ASİMETRİSİ: yanlış devir haritayı BOZAR (Kuveyt İran boyanır),
+# devretmemek bugünkü hâli KORUR. Eşik yüksek tutulmuştur; en kötü ihtimalde
+# bugünden kötü değiliz.
+#
+# ⏸️ YENİ ÜRGENÇ (%90,8) BİLEREK DIŞARIDA. Üç eksende de tutuyordu ama üçü de
+# aynı soruyu soruyor: "orayı kim yönetiyordu". Asıl soru o değil: şehir
+# CEYHUN'UN YATAK DEĞİŞTİRMESİ üzerine kuruldu, eski Ürgenç susuz kaldı.
+# Soru "Hîve orayı yönetiyor muydu" değil, "1646'dan önce orası sulanan vahanın
+# içinde miydi, yoksa çöl müydü". Çölse boşluk DOĞRU ve kuşatılmışlık bunu
+# göremez — çöl de kuşatılmış olabilir. ARAŞTIRMA DOĞU'nun cevabı bekleniyor.
+# 🔴 ÖLÇÜT GEVŞETİLDİ — "tek sahip ≥%90" DEĞİL, "SAHİPLİ ≥%90".
+# Eski hâli deliği yeniden açıyordu ve kullanıcı onu gördü: Anadolu Hisarı
+# 1305'e kadar devrediliyor, sonra Osmanlı Bitinya'ya girince çevre
+# Bizans+Osmanlı karışımı oluyor ve tek-sahip payı %95,2 → %75,9'a düşüyor.
+# Toplam SAHİPLİ oran ise %95,4'te kalıyor:
+#     1305: en büyük %95,2 (1 sahip)   → devrediliyordu
+#     1340: en büyük %75,9 (2 sahip)   → DELİK, toplam %95,4
+# ⇒ Kasıtlı boşluğu ayıran şey "kaç sahip" değil "HİÇ sahip var mı".
+#   Kuveyt'in çevresi %45 sahipli — orada gerçekten devlet yok.
+#   Anadolu Hisarı'nın çevresi %95 — orada İKİ devlet var, toprak ikisinden
+#   birinin ve "kimsesiz" göstermek yanlış.
+# Ön-kayıtlı sınav geçti: Kuveyt %45,2 · Doha %49,4 · Abu Dabi ölçülemez —
+# üçü de eşiğin çok altında, gevşetme kasıtlı boşlukları BOZMUYOR.
+#
+# 🔴 BEYAZ LİSTE KALDIRILDI. Eskiden `KUSATMA_ADLAR` üç ölçülmüş adı tutuyordu;
+# gevşetilmiş ölçüt sekiz ad üretiyor ve liste kalsaydı ölçüt SESSİZCE
+# kısıtlanmış olurdu — kodun söylediği ile yaptığı ayrışırdı.
+# Yerine `kasitli_bosluk:` veri alanı geçti: ölçüt VARSAYILAN, kaynaklı
+# araştırma hükmü İSTİSNA.
+#
+# 🔴 DEVİR HEDEFİ DEĞİŞMEDİ — `petek_epok`'un kuralı: EN YAKIN sahnedeki komşu.
+# "En büyük paylı komşuya devret" ölçüldü ve TEHLİKELİ çıktı:
+#     1340'ta en büyük pay   OSMANLI %75,9  → hücre OSMANLI boyanırdı
+#     1340'ta en yakın komşu İSTANBUL 11 km → hücre BİZANS boyanıyor
+# Tarihen doğru olan Bizans (Boğaz kıyısı 1452'ye kadar Bizans'ta).
+# ⚠️ Yanlış renk boşluktan KÖTÜDÜR: boşluk "bilmiyoruz" der, yanlış renk
+# "biliyoruz" der. Gevşetme yalnız "devredilsin mi" sorusunu değiştiriyor,
+# "kime" sorusunu değil.
+KUSATMA_ESIK = 0.90
+_KUS_ONBELLEK = {}
+
+
+def _kusatilmis(g):
+    """g epokunda, sahibi yazılmamış ama KARA komşuluğunun ≥%90'ı tek bir
+    sahibe ait olan petekler. Karar epok gününde verilir ve epok aralığı
+    boyunca geçerlidir; devrin KİME yapılacağını `petek_epok` o günün
+    verisinden bulur, yani sahip kimliği donmuş olmuyor."""
+    if g in _KUS_ONBELLEK:
+        return _KUS_ONBELLEK[g]
+    out = set()
+    for i, y in enumerate(YERLER):
+        if y.get("kasitli_bosluk"):
+            continue                      # KAYNAKLI hüküm: boşluk kasten öyle
+        if not ((y.get("kur") and y["kur"] > g) or (y.get("bit") and y["bit"] <= g)):
+            continue
+        if _sahipli(y, g):
+            continue                      # zaten devrediliyor
+        c = PETEK_D[i]
+        if c is None or c.is_empty:
+            continue
+        ic = c.boundary.difference(_KIYI_TAMPON)
+        if ic.length <= 1e-9:
+            continue                      # tamamen kıyı — karar verilemez
+        sahipli = []
+        for q in _KUS_AGAC.query(c.buffer(0.02)):
+            j = _KUS_IX[int(q)]
+            if j == i: continue
+            yj = YERLER[j]
+            if (yj.get("kur") and yj["kur"] > g) or (yj.get("bit") and yj["bit"] <= g):
+                continue
+            if _sahipli(yj, g):
+                sahipli.append(PETEK_D[j])
+        if not sahipli:
+            continue
+        try:
+            # ⚠️ SAHİP AYRIMI YAPILMIYOR — hepsi tek birleşim. Soru "hangi
+            # devlet" değil, "HİÇ devlet var mı".
+            ort = ic.intersection(unary_union(sahipli).buffer(0.002))
+            if not ort.is_empty and min(ort.length / ic.length, 1.0) >= KUSATMA_ESIK:
+                out.add(i)
+        except Exception:
+            pass
+    _KUS_ONBELLEK[g] = frozenset(out)
+    return _KUS_ONBELLEK[g]
+
+
 def devir_kumesi(g):
-    """g tarihinde SAHNEDE OLMAYAN ama veride SAHİBİ YAZILI yerleşimler."""
-    return frozenset(
+    """g tarihinde SAHNEDE OLMAYAN ve peteği devredilecek yerleşimler:
+    (a) veride SAHİBİ YAZILI olanlar, (b) sahibi yazılmamış ama kara
+    komşuluğunun ≥%90'ı tek bir sahibe ait olanlar (bkz. yukarıdaki blok)."""
+    yazili = frozenset(
         i for i, y in enumerate(YERLER)
         if ((y.get("kur") and y["kur"] > g) or (y.get("bit") and y["bit"] <= g))
         and _sahipli(y, g))
+    return yazili | _kusatilmis(g)
 
 
 # ---------------- SERBEST KENAR — sahipli ↔ SAHİPSİZ sınırı ----------------
@@ -1316,6 +1437,37 @@ for _g in (EPOK, "1500-06-15", "1700-06-15", "1900-06-15"):
     _d = devir_kumesi(_g)
     _a = sum(_ham_km2(PETEK_D[i]) for i in _d)
     print(f"  {_g}: {len(_d)} petek devredilecek, {_a:,.0f} km²")
+
+# ⚠️ KUŞATILMIŞLIK DEVİRLERİ ADIYLA VE EPOKUYLA YAZILIR — koordinatörün şartı.
+# Sebep: %90 çizgisi 12 kayıtlık bir dağılımdan çıktı. İleride kasıtlı bir
+# boşluk ≥%90 kuşatılabilir (tek bir vahanın etrafı tümüyle sahipli olabilir).
+# Liste basılırsa YENİ BİR DEVİR SESSİZ GELMEZ.
+# 📌 Bu şartın karşılığı daha ilk turda alındı: üç ad beklenirken 35 epok
+# taraması DÖRDÜNCÜYÜ (Yeni Ürgenç, %90,8, 16 epok) buldu. Tek epoktan
+# çıkarılmış "beklenen liste" onu göremiyordu.
+# Gevşetilmiş ölçütün 35 epokta ürettiği küme (scratchpad/gevsetme_tarama.py).
+# Kaynaklı `kasitli_bosluk: true` yazılanlar buradan DÜŞER; liste yalnız
+# "beklenmedik ad çıktı mı" sorusu için duruyor.
+_KUS_BEKLENEN = {"Adapazarı", "Rumeli Hisarı", "Anadolu Hisarı",
+                 "İlbasan (Elbasan)", "Kesela", "Cetinje",
+                 "Vladikavkaz", "Yeni Ürgenç"}
+_kus_kayit = []
+for _g in [EPOK] + _epok_gun:
+    for _i in sorted(_kusatilmis(_g)):
+        _kus_kayit.append((_g, YERLER[_i]["ad"]))
+if _kus_kayit:
+    _kus_ad = sorted({a for _, a in _kus_kayit})
+    print(f"  kuşatılmışlık devri (kara komşuluğu ≥%{KUSATMA_ESIK*100:.0f}): "
+          f"{len(_kus_kayit)} epok-vaka, {len(_kus_ad)} yerleşim")
+    for _ad in _kus_ad:
+        _ep = [g for g, a in _kus_kayit if a == _ad]
+        # ⚠️ Beyaz liste kalktığı için "liste dışı" diye bir şey yok; onun
+        # yerine ÖLÇÜLMÜŞ küme ile karşılaştırılıyor. Yeni bir ad çıkarsa
+        # işaretlenir — şart "yanlış EKLEME"yi yakalamak içindi ve duruyor.
+        _im = "" if _ad in _KUS_BEKLENEN else "   ✗ BEKLENMEDİK — İNCELE"
+        print(f"     {_ad:<24} {len(_ep):>3} epok  ({_ep[0]} … {_ep[-1]}){_im}")
+else:
+    print("  kuşatılmışlık devri: yok")
 
 # ---------------- Parça havuzu ----------------
 # Aynı gövde parçası (ada, değişmeyen ana halka…) yüzlerce dönemde birebir

@@ -1,6 +1,33 @@
 # -*- coding: utf-8 -*-
 """
-Osmanlı Tarih Atlası — dönem üretim betiği
+☠️☠️ ÖLÜ BETİK — ÇALIŞTIRILMIYOR, ÇIKTISI YAYINDA YOK ☠️☠️
+==========================================================
+Bu dosya `data/donemler.js`i ARTIK ÜRETMİYOR. Canlı motor `arac/uret_petek.py`.
+
+🔴 ÖZELLİKLE: aşağıdaki `SEHZ_*` şehzade payı poligonları (Fetret Devri)
+   ÜRETİLMİYOR. Ölçüldü (31 Temmuz): `data/donemler.js` içinde `z` alanı
+   taşıyan dönem sayısı **SIFIR**. `js/app.js` hâlâ `sehzade-dolgu` katmanını
+   kuruyor ama besleyen veri hiç gelmiyor — o da ölü kod.
+   ⇒ Fetret'te şehzade payları BURADAN değil, `yerlesimler.js`'in `s:`
+     alanından NORMAL DEVLET KİMLİĞİ olarak çiziliyor:
+     `suleyman-celebi` · `mehmed-celebi` · `musa-celebi` · `isa-celebi`.
+
+⚠️ BU DAMGA NEDEN VAR: 31 Temmuz'da koordinatör, kullanıcının Fetret
+   şikâyetini bu dosyadaki `SEHZ_*` poligonlarının üst üste binmesine bağladı
+   ve hipotezi üzerine ölçüm ısmarladı. Dosya canlı sanıldı. Ölçüm yapılsaydı
+   ÖLÜ KOD ölçülmüş, gerçek sebep (kırmızı ailesinin ΔE 6,0-11,2 ile ayırt
+   edilememesi) bulunamamış olacaktı.
+   📌 Kusur ÜRETMEYEN ölü kod, kusur üretenden daha sinsi olabiliyor: hata
+     vermiyor, yalnız YANLIŞ TEŞHİSE götürüyor.
+
+📌 SİLİNMEDİ, çünkü içinde elle çizilmiş tarihî sınır poligonları var
+   (`SEHZ_*`, `KAFKAS`, `SURIYE_D`…) ve bir gün gerekebilir. Ama damgasız
+   duran kod CANLI SANILIR — bugün sanıldı.
+
+──────────────────────────────────────────────────────────────────────────
+Aşağısı tarihî kayıt; çalıştırmayın.
+
+Osmanlı Tarih Atlası — dönem üretim betiği (ESKİ)
 ==========================================
 Girdi : historical-basemaps yıl kesitleri (world_XXXX.geojson) — BASEMAPS klasöründe
 Çıktı : ../data/donemler.js  →  window.DONEMLER = [{f,t,ad,b,o,v}, ...]

@@ -33,11 +33,67 @@ RENK KURALI (ölçüldü, bkz. denetim/):
     Beş çiftin HİÇBİRİ tarih boyunca komşu değil → ihlal 0, yukarıdaki
     "renk ayırma işi görür" kuralına uygun. Yeni renk eklerken bu denetimi
     tekrarla; hex tekrarı başlı başına hata DEĞİLDİR, komşuluk hatadır.
-  ⚠️ Dolgu %30 saydamlıkla fiziki altlığın üzerine biniyor. Ekrandaki gerçek
-    renk buradaki hex DEĞİL, altlıkla karışmış hâlidir ve bu karışım renk
-    farklarını yaklaşık üçte bire sıkıştırır. ΔE ölçümü BİNDİRİLMİŞ renk
-    üzerinden yapılmalıdır; ham hex üzerinden yapılan ölçüm iyimserdir.
+  ⚠️ Dolgu SAYDAM biniyor: ekrandaki gerçek renk buradaki hex DEĞİL, altlıkla
+    karışmış hâlidir ve bu karışım renk farklarını sıkıştırır. ΔE ölçümü
+    BİNDİRİLMİŞ renk üzerinden yapılmalıdır; ham hex üzerinden yapılan ölçüm
+    iyimserdir. Parametreler aşağıda (OPAKLIK / ALTLIK) — YAZILI DEĞİL, ÖLÇÜLÜ.
+
+  🔴 BU SATIR BİR KEZ BAYATLADI VE BÜTÜN ÖLÇÜMLERİ BOZDU (31 Temmuz).
+    Burada "%30 saydamlık" yazıyordu; `js/app.js:559` gerçeği **0.44**'tü ve
+    altlık `#d8cebc` değil `#e8dfc8`'di. O gün yapılan bütün ΔE ölçümleri
+    (macaristan · kavalali · nogay · kazak-hanligi) yanlış parametreyle
+    yapıldı. Yön şanslıydı — 0,44 > 0,30, yani renkler ekranda sanılandan
+    AYRIK çıktı ve seçimler güvenli tarafta kaldı — ama ΔE ≥ 12 eşiği %30
+    için türetilmişti ve kalibrasyon yanlıştı.
+    📌 Ders (OGRENILENLER §35 + §41): sabiti YAZMAK yetmiyor, ÇIKTIYI
+    paylaşmak gerekiyor. Bu yüzden aşağıdaki `_opaklik_dogrula()` değerleri
+    `app.js`'ten OKUYUP karşılaştırıyor; ayrışırsa import anında uyarır.
 """
+
+import io as _io
+import os as _os
+import re as _re
+
+# Ekranda görülen rengi hesaplamak için gereken iki parametre.
+# ⚠️ Bunlar `js/app.js`'in KOPYASIDIR ve aşağıdaki denetim ayrışmayı yakalar.
+ALTLIK = (0xE8, 0xDF, 0xC8)     # app.js — kara altlığı, fill-opacity 1
+OPAKLIK = {
+    "yabanci":  0.44,           # app.js — yabancı devlet gövdeleri
+    "tabi":     0.60,           # app.js — Osmanlı tâbi
+    "dogrudan": 0.68,           # app.js — Osmanlı doğrudan
+}
+
+
+def _opaklik_dogrula():
+    """`app.js`'teki fill-opacity değerleriyle yukarıdaki kopyayı karşılaştırır.
+
+    Sessizce ayrışmasın diye var: bu dosyadaki sayı bir kez bayatladı ve
+    günlerce yanlış ΔE ölçümüne sebep oldu. Denetim ucuz (tek dosya okuma) ve
+    ayrışma olduğunda ÜRETİMİ DURDURMAZ, yalnız uyarır — çünkü renk seçimi
+    geometriyi etkilemiyor ve koşuyu öldürmek orantısız olur.
+    """
+    yol = _os.path.join(_os.path.dirname(_os.path.dirname(
+        _os.path.abspath(__file__))), "js", "app.js")
+    try:
+        s = _io.open(yol, encoding="utf-8").read()
+    except Exception:
+        return                                   # app.js yoksa sessiz geç
+    bulunan = [float(m) for m in
+               _re.findall(r'"fill-opacity":\s*([0-9.]+)', s)]
+    for ad, deger in OPAKLIK.items():
+        if deger not in bulunan:
+            # ⚠️ MESAJDA ASCII DIŞI KARAKTER YOK — bilerek.
+            # İlk yazımda "ΔE" geçiyordu ve uyarı, sarmalanmamış konsolda
+            # `UnicodeEncodeError` ile PATLIYORDU. Patlayabilen bir uyarı
+            # uyarısızlıktan kötüdür: sorunu haber vermek yerine kendisi
+            # sorun olur. Ateşleme yolunu sınadım, geçme yolunu değil.
+            print("  UYARI renkler.py: OPAKLIK[%r]=%s app.js'te BULUNAMADI - "
+                  "parametre ayrismis olabilir, renk olcumleri yanlis kalibre "
+                  "olur (app.js'teki degerler: %s)"
+                  % (ad, deger, sorted(set(bulunan))))
+
+
+_opaklik_dogrula()
 
 BOYALAR = {
     "bizans":     ("Bizans",                 "#8877b8"),

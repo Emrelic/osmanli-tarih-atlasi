@@ -177,6 +177,21 @@ BILINEN_ALANLAR = {
     # Bosna aynı desen: 1878 Avusturya işgali, 1908 ilhak — ikisi AYRI gösterim.
     "isg": "işgal örtüsü — motor OKUMAZ (taban rengi de jure kalır); "
            "window.ISGALLER üreticisi arac/uret_devirler.py",
+    # ⚠️ GEOMETRİNİN SORAMADIĞI SORUYU TAŞIYAN ALAN.
+    # Motor "bu peteğin çevresi sahipli mi" diye sorabiliyor ama "o dağ
+    # YÖNETİLİYOR muydu" diye soramıyor. Kuşatılmışlık ölçütü bu yüzden
+    # Cetinje'yi devretmek istiyor (%94,5) — oysa TDV `karadag` Karadağ'ı
+    # "göçebe kabilelerin GEVŞEK KONFEDERASYONU" diye tarif ediyor ve
+    # Podgorica XVIII. yy'da hâlâ dağa karşı altı tabyayla tahkim ediliyor.
+    # Kuşatılmışlık ovadan geliyor; dağ yönetilmiyordu.
+    # ⇒ Ölçüt VARSAYILAN, bu alan İSTİSNA. Ve istisna YALNIZ KAYNAKLI
+    #   araştırma hükmüyle yazılır — "bence öyle" ile değil.
+    # 📌 Alan yoksa varsayılan False'tur: yani sessizlik "kasıtlı değil"
+    #   demektir, "bilinmiyor" değil. Bilinmiyorsa yazılmaz ve ölçüt karar
+    #   verir; bu, bilgisizliği kasıt gibi göstermenin önüne geçiyor.
+    "kasitli_bosluk": "True ise kuşatılmışlık ölçütü bu peteği DEVRETMEZ — "
+                      "boşluk kasten öyle. Yalnız kaynaklı hükümle yazılır. "
+                      "Okuyan: uret_petek.py, _kusatilmis()",
 }
 
 # Dönem nesnelerinin (s/d/v/isg elemanları) alanları
