@@ -287,7 +287,18 @@ TDV dışı akademik referansla yeniden kurulması gerekir.
 | **39** | `olaylar_ek.js` + veri | merkez | 🟡 **TARİH ÇELİŞKİSİ**: TDV `sirbistan` özerklik fermanını **17 Ekim 1830**'a koyuyor, kronoloji maddesi **1830-11-08** taşıyor. 22 gün fark ±30 penceresinin içinde — hangisi seçilirse seçilsin Değişmez 2 sağlanıyor. Zincirlere maddedeki tarihi yazdım; TDV benimsenirse **ikisi birlikte** taşınmalı | ✔ §19.1 |
 | **40** | `data/yerlesimler.js` | merkez | **OPSİYONEL**: TDV `sirbistan` dört garnizon kalesini adıyla sayıyor, ikisi veride **yok** — **Fethülislâm (Kladovo)** 44.606K/22.610D ve **Böğürdelen (Šabac)** 44.750K/19.694D. Eklenirse Sırbistan'ın Tuna ve Sava köşeleri tutulur; zincirleri Belgrad'ınkiyle birebir aynı | ✔ §19.1 |
 | **41** | `olaylar_ek.js` | ? | ⚠️ **KAYNAK YOK, SİLİNMEYECEK — İŞARETLENECEK**: `1897-05-17` "Dömeke Meydan Muharebesi" maddesinin TDV karşılığı bulunamadı (`domeke` ve `domeke-meydan-muharebesi` ölü, `teselya` maddesinde de geçmiyor). Standart akademik kaynakla doğrulanıp `kaynak:` alanı düzeltilmeli | ✔ §7.1 |
-| **42** | `CLAUDE.md` §4 | merkez | Ölü slug listesine eklenecek: **`belgrad-antlasmasi`** (1739'un müstakil maddesi YOK, hükümleri `belgrad` şehir maddesinde) · `sarki-rumeli` · `dogu-rumeli` · `93-harbi` (doğrusu `doksanuc-harbi`) · `domeke` · `catalca` · `sipka` · `istanbul-antlasmasi` · `krayova` · `tirgoviste` · `pitesti` · `buzau` · `kalafat` · `soroka` · `orhei` · `tomarova` · `bender` · `kartal` | ✔ §7.1 |
+| **42** | `CLAUDE.md` §4 | merkez | Ölü slug listesine eklenecek: **`belgrad-antlasmasi`** (1739'un müstakil maddesi YOK, hükümleri `belgrad` şehir maddesinde) · `sarki-rumeli` · `dogu-rumeli` · `93-harbi` (doğrusu `doksanuc-harbi`) · `domeke` · `catalca` · `sipka` · `istanbul-antlasmasi` · `fethulislam` · `kladovo` · `sabac` (doğrusu **`bogurdelen`**) · `krayova` · `tirgoviste` · `pitesti` · `buzau` · `kalafat` · `soroka` · `orhei` · `tomarova` · `bender` · `kartal` | ✔ §7.1·§19.5 |
+| **43** | `olaylar_ek.js` | ? | 🔴 `1830-11-08` maddesinin `d:` metni garnizon kalelerini **beş** sayıyor: *"Belgrad, Semendire, **Şabac, Böğürdelen** ve Fethülislâm"*. **Šabac ile Böğürdelen aynı şehirdir.** TDV dördü sayıyor. `Şabac,` çıkarılmalı — ve **#40 uygulanırken ayrıca bir "Šabac" kaydı AÇILMAMALI** | ✔ §19.6 |
+| **44** | `olaylar_ek5.js` | ? | 🟡 **1897 savaşının başlangıcı çelişiyor**: madde `1897-04-17` (Osmanlı'nın savaş ilânı), TDV `tesalya` **"7 Nisan - 18 Mayıs 1897"**. On gün fark. #37 disiplini: karar verilmedi, işaretlendi | ✔ §19.7 |
+| **45** | `olaylar_ek.js` | ? | 🟡 Dömeke maddesi `kisiler:"Edhem Paşa"` diyor, TDV `tesalya` **Hâfız Abdülezel Paşa** diyor. İkisi de doğru — Edhem Paşa başkumandan, Abdülezel Paşa Dömeke'de düşen tümen kumandanı. İki isim birlikte yazılabilir | ✔ §19.7 |
+| **46** | `data/yerlesimler.js` | merkez | Böğürdelen zincirinde **kasten atlanan iki dönem**: TDV *"Şehir 1688 ve 1695'te kısa süreli olarak elden çıktı"* diyor ama **gün vermiyor**. Yıl uydurmamak için konmadı; kaynak bulunursa iki kısa `s:"avusturya"` penceresi eklenir | ✔ §19.5 |
+| **47** | — | merkez | **Fethülislâm (Kladovo) için KARAR**: TDV'de madde yok, zinciri kaynaksız kalır ve Böğürdelen'inkinden kopyalanamaz. Şimdilik **eklenmemesini** öneriyorum. Coğrafî gerekçe yine de güçlü: eklenmezse Sırbistan'ın Demirkapı köşesi 1878'e kadar Osmanlı kalan Vidin'in peteğine emilir — §17.1'deki Şumadya hatasının küçük kopyası | ✔ §19.5 |
+
+🔴 **#40 SIRALAMA KISITI:** Böğürdelen kaydı ile E bloğunun dört maddesi **AYNI
+ADIMDA** uygulanmalı. Önce yerleşim eklenirse **Değişmez 2** kırılır (dört
+maddesiz kırılma); önce maddeler eklenirse **Değişmez 2t** kırılır (ölçüldü:
+67 → 70, `SONUÇ: İHLAL VAR`). Maddelerin tam metni **yalnız §19.5'te** — git
+geçmişinde yok, aynı oturumda yazılıp çıkarıldılar.
 
 📌 **#32 ve #37 merkez tarafından karara bağlandı, uygulama karşılıkları §19'da:**
 **#32 EVET** — Sırbistan `v:` 1830 → **1878-07-13** (1867 değil); TDV `sirbistan`
@@ -1112,6 +1123,187 @@ Bekleniyor. Kilit kalkınca uygulanacak liste, öncelik sırasıyla:
 **§16** (Soroka + Orhei — 2 kayıt).
 Hepsi birlikte uygulanırsa **+14 yeni yerleşim**; `denetle.py`'de
 `BEKLENEN_YERLESIM` 951 → 965.
+
+---
+
+## 19.5 #40 — Böğürdelen tam kaynaklı çıktı, Fethülislâm kaynaksız
+
+TDV'de **`bogurdelen` müstakil ve tarih dolu bir madde**; zincir baştan sona
+oradan kurulabildi. `fethulislam`, `kladovo` ve `sabac` üçü de **ÖLÜ**.
+
+### Böğürdelen (Šabac) — her tarihi TDV'de yazılı
+
+| Tarih | TDV `bogurdelen`'in ifadesi |
+|---|---|
+| **1471** | *"Fâtih Sultan Mehmed zamanında Osmanlılar'ın eline geçen bu önemli mevkide 1471'de ahşap ve topraktan bir hisar yapıldı"* |
+| **Şubat 1476** | *"1475 sonlarına doğru başlayan kuşatma 1476 Şubatında kalenin ele geçirilmesiyle sonuçlandı"* (Mátyás Corvin) |
+| **7 Temmuz 1521** | *"şiddetli bir kuşatma neticesinde fethedildi (7 Temmuz 1521)… **Kanûnî Sultan Süleyman'ın ilk fethettiği kale**"* |
+| **17 Ağustos 1717** | *"savaşsız olarak Avusturya kuvvetlerine terkedilen şehir Belgrad Antlaşması'na (1739) kadar Avusturya'nın elindeydi"* |
+| **24 Nisan 1788** | *"24 Nisan 1788'de yeniden Avusturyalılar'ın hâkimiyetine girdiyse de Ziştovi Antlaşması gereğince 1791'de tekrar Osmanlılar'a geri verildi"* |
+| **26 Ocak 1806** | *"ilk Sırp ihtilâli neticesinde (26 Ocak 1806) kale Kara Yorgi'ye teslim edildi"* |
+
+```js
+{ ad:"Böğürdelen (Šabac)", tur:"kale", lat:44.750, lon:19.694, g:0, k:4, m:"Belgrad", s:[{f:"1281-01-01",t:"1471-01-01",d:"macaristan"},{f:"1476-02-01",t:"1521-07-07",d:"macaristan"},{f:"1717-08-17",t:"1739-09-18",d:"avusturya"},{f:"1788-04-24",t:"1791-08-04",d:"avusturya"},{f:"1806-01-26",t:"1813-10-05",d:"sirbistan"},{f:"1878-07-13",t:"1923-10-29",d:"sirbistan"}], d:[{f:"1471-01-01",t:"1476-02-01"},{f:"1521-07-07",t:"1717-08-17",y:"kusatma"},{f:"1739-09-18",t:"1788-04-24",y:"antlasma"},{f:"1791-08-04",t:"1806-01-26",y:"antlasma"},{f:"1813-10-05",t:"1867-04-18",y:"savas"}], v:[{f:"1867-04-18",t:"1878-07-13",k:"Sırbistan Prensliği"}] },
+```
+
+Zincir kesintisiz, çakışmasız, sıfır uzunluksuz. **1806-1813 Sırp penceresi**
+TDV `bogurdelen` 1806'da anlatımı kestiği için `sirbistan` maddesinin
+*"Sırplar'ın isyanı 1813'te tamamıyla bastırılarak Belgrad ele geçirildi"*
+cümlesinden ve mevcut `1813-10-05` maddesinden kapatıldı.
+
+⚠️ **Kasten atlanan iki dönem:** TDV *"Şehir 1688 ve 1695'te kısa süreli olarak
+elden çıktı"* diyor ama **gün vermiyor.** Yıl uydurmamak için zincire konmadı;
+kaynak bulunursa iki kısa `s:"avusturya"` penceresi eklenebilir (**#46**).
+
+### 🔴 Zincir yedi kırılma açıyor — dördünün maddesi yoktu
+
+| Kırılma | Durum | Karşılığı |
+|---|---|---|
+| `1471-01-01` | ✅ madde var (0 gün) | — |
+| `1476-02-01` | 🔴 **YOK, 176 gün** | **E-1** |
+| `1521-07-07` | 🔴 **YOK, 53 gün** | **E-2** |
+| `1717-08-17` | ✅ var (1 gün, Belgrad'ın kaybı) | — |
+| `1739-09-18` · `1791-08-04` · `1813-10-05` · `1867-04-18` · `1878-07-13` | ✅ var | — |
+| `1788-04-24` | 🔴 **YOK, 75 gün** | **E-3** |
+| `1806-01-26` | 🟡 "var" ama en yakın madde **Mekke'nin Vehhâbîlere kaybı** — 6 gün ötede, konusu bambaşka | **E-4** |
+
+### ⚠️ E bloğu bu belgede bekliyor, `olaylar_ek10.js`'te DEĞİL
+
+Dört maddeyi yazdım, `olaylar_ek10.js`'e koydum ve **denetim yakaladı**:
+
+```
+Değişmez 2t  ✗  kırılmasız madde: 70 (tavan 67)     SONUÇ: İHLAL VAR
+```
+
+Doğru davranış bu — yerleşim henüz yok, dolayısıyla maddeler hiçbir kırılmaya
+denk gelmiyor. **Çıkardım, depo yeşil kaldı** (`984 madde · SONUÇ: temiz`).
+
+🔴 **Bu bir sıralama kısıtı ve merkezin bilmesi şart:** Böğürdelen kaydı ile dört
+madde **AYNI ADIMDA** uygulanmalı. Önce yerleşim eklenirse **Değişmez 2** kırılır
+(dört maddesiz kırılma); önce maddeler eklenirse **Değişmez 2t** kırılır. İkisi
+birlikte gidince ikisi de sağlanır ve `2t` 67 tavanına geri düşer.
+
+### E bloğunun tam metni — tek nüsha burada
+
+⚠️ Bu dört madde `olaylar_ek10.js`'e yazılıp **aynı oturumda çıkarıldı**, yani
+**git geçmişinde YOK.** Aşağısı tek nüshadır; Böğürdelen kaydıyla birlikte
+`olaylar_ek10.js`'in sonuna, `];`den hemen önce yapıştırılacak.
+
+```js
+{ t:"1476-02-01", k:"kayip", etiket:["toprak-kaybi","savas"],
+  b:"Böğürdelen'in Macarlara kaybı — Sava hattındaki ilk gedik",
+  gun:"Şubat 1476", yer:"Böğürdelen (Šabac), Sava nehri kıyısı",
+  kisiler:"Fatih Sultan Mehmed, Macar Kralı Mátyás Corvin",
+  d:"Fâtih Sultan Mehmed zamanında Osmanlı eline geçen ve daha önce Zaslon adıyla anılan mevkide 1471'de ahşap ve topraktan bir hisar yapılmıştı. Belgrad'ı tehdit eden bir noktada bulunduğu ve buradan Macaristan ile Avusturya'nın güney bölgelerine kolayca akın yapılabildiği için kale, adını da bu işlevden alıyordu — Böğürdelen, \"yandan vuran tabya\" demektir. Macar Kralı Mátyás Corvin 1475 sonlarına doğru kaleyi kuşattı ve 1476 şubatında ele geçirdi. Kuşatmayı anlatan Szabács viadala adlı Macar destanı, XV. yüzyıl Macar tarih şiirlerinin metni günümüze ulaşan en uzun örneklerindendir. Macarlar bölgede bir banlık kurdu ve kaleyi taştan yeniden tahkim ederek serhad hisar zincirinin halkası yaptılar. Osmanlılar 1492'de geri almayı denediler ve başaramadılar; kale kırk beş yıl Macar elinde kaldı.",
+  kaynak:"bogurdelen" },
+
+{ t:"1521-07-07", k:"fetih", etiket:["toprak-kazanc","savas"],
+  b:"Böğürdelen'in fethi — Kanûnî'nin aldığı ilk kale ve Belgrad kararının verildiği yer",
+  gun:"7 Temmuz 1521", yer:"Böğürdelen (Šabac), Sava nehri kıyısı",
+  kisiler:"Kanûnî Sultan Süleyman, Rumeli Beylerbeyi Ahmed Paşa",
+  d:"Kanûnî Sultan Süleyman'ın birinci Macaristan seferinde bölgeye gönderilen Rumeli Beylerbeyi Ahmed Paşa'nın kuvvetleri, şiddetli bir kuşatmanın ardından kaleyi 7 Temmuz 1521'de aldı. Böğürdelen, Kanûnî'nin saltanatında fethedilen ilk kaledir. Padişah fetihten sonra bizzat kaleye girdi ve şehrin imarını emretti; Belgrad'ın fethine dair kararlar da burada alındı — yani 29 Ağustos 1521'de düşecek olan Belgrad'ın planı Böğürdelen'de yapıldı. Kale bundan sonra iki yüz yıla yakın Osmanlı elinde kaldı; önce Rumeli, 1580'den itibaren Bosna eyaletine, ardından kısa süre Semendire ve nihayet İzvornik sancağına bağlandı. Haritada bu tarih Sava hattının Osmanlı lehine kapandığı gündür.",
+  kaynak:"bogurdelen" },
+
+{ t:"1788-04-24", k:"kayip", etiket:["toprak-kaybi","savas"],
+  b:"Böğürdelen'in ikinci Avusturya işgali — Sava cephesinin açılması",
+  gun:"24 Nisan 1788", yer:"Böğürdelen (Šabac), Sava nehri kıyısı",
+  kisiler:"I. Abdülhamid, Avusturya İmparatoru II. Joseph",
+  d:"Avusturya'nın 9 Şubat 1788'de Rusya'nın yanında savaşa girmesinin ardından Sava hattı yeniden cephe oldu ve Böğürdelen 24 Nisan 1788'de Avusturya hâkimiyetine geçti. Kale daha önce 17 Ağustos 1717'de savaşsız olarak Avusturya'ya terkedilmiş ve Belgrad Antlaşması'na (1739) kadar elde tutulmuştu; o dönemde nüfusu öylesine azalmıştı ki şehirde otuz dört hıristiyan evi kalmış, hiç müslüman kalmamıştı. 1739-1788 arasındaki Osmanlı devrinde nüfus yeniden 1500-2000'e çıkmıştı. İkinci işgal Ziştovi Antlaşması'yla (4 Ağustos 1791) sona erecek ve kale Osmanlılar'a iade edilecekti.",
+  kaynak:"bogurdelen" },
+
+{ t:"1806-01-26", k:"kayip", etiket:["toprak-kaybi","isyan"],
+  b:"Böğürdelen'in Kara Yorgi'ye teslimi — Birinci Sırp İsyanı'nda ilk kale",
+  gun:"26 Ocak 1806", yer:"Böğürdelen (Šabac), Sava nehri kıyısı",
+  kisiler:"III. Selim, Karadjordje (Kara Yorgi) Petroviç",
+  d:"1804'te Belgrad'daki dayı ve yamakların baskısına tepki olarak başlayan, sonra milliyetçi bir karakter kazanan ilk Sırp ihtilâli sırasında Böğürdelen Kalesi 26 Ocak 1806'da Kara Yorgi'ye teslim edildi. Sava üzerindeki bu kale, isyancıların ele geçirdiği ilk büyük Osmanlı istihkâmıdır ve Belgrad'ın düşüşünü haber verir. İsyan 1813'te bastırılıp Belgrad geri alınınca kale de Osmanlı idaresine döndü; ancak 1830 fermanının garnizon şartıyla Böğürdelen, Belgrad, Semendire ve Fethülislâm ile birlikte özerk Sırbistan'ın içinde Osmanlı askerinin kaldığı dört kaleden biri olarak tanımlandı ve 1867'de garnizonu çekilene kadar bu statüde kaldı. ⚠️ Bu madde yazılana kadar haritadaki 1806 kırılmasına en yakın kronoloji maddesi \"Mekke'nin Vehhâbîlere kaybı\" idi — altı gün ötede ve konusu bambaşka.",
+  kaynak:"bogurdelen" },
+```
+
+### Fethülislâm (Kladovo) — 🔴 kaynak yok, zincir kurulamadı
+
+`fethulislam` · `kladovo` · `sabac` üçü de `<title>`ında "Arama" döndürdü.
+Böğürdelen'de olduğu gibi tarih tarih izlenebilecek bir madde **yok**.
+
+**Önerim: şimdilik EKLEME.** Gerekçe: zinciri kaynaksız kalır ve Böğürdelen'in
+zincirinden kopyalanamaz — Böğürdelen 1471-1476 ve 1521'de Macar/Osmanlı arasında
+el değiştirdi, Kladovo ise Demirkapı'da bambaşka bir hikâyeye sahip. Uydurulmuş
+bir zincir `CLAUDE.md §4`'ün yasağına girer.
+
+**Alternatif:** merkez isterse standart akademik kaynakla ayrı bir tur yapılır;
+o zaman **#47** olarak açılsın. Coğrafî gerekçe güçlü — Kladovo eklenmezse
+Sırbistan'ın Demirkapı köşesi 1878'e kadar Osmanlı kalan Vidin'in peteğine
+emilir, yani §17.1'deki Şumadya hatasının küçük bir kopyası doğar.
+
+---
+
+## 19.6 #39 CEVAP — madde kaynağı 8 Kasım'ı DOĞRULAMIYOR, TDV kazanıyor
+
+Merkezin sorusu: *"`1830-11-08` maddesinin kendi `kaynak:` alanı ne diyor ve o
+kaynak bu günü doğruluyor mu?"* Ölçüldü:
+
+```
+t:       "1830-11-08"
+b:       "Sırbistan'a özerklik fermanı — irsî knezlik ve garnizon şartı"
+gun:     "1830"              ← 🔴 YIL HASSASİYETİ, gün değil
+kaynak:  "sirbistan"         ← TDV'nin "17 Ekim 1830" diyen maddesinin ta kendisi
+```
+
+**İki bulgu, ikisi de aynı yöne gösteriyor:**
+
+1. `kaynak:` alanı **TDV `sirbistan`** — yani maddenin dayandığı kaynak, gününü
+   **17 Ekim 1830** olarak veren maddedir. Kaynak 8 Kasım'ı desteklemiyor.
+2. Maddenin **kendi `gun:` alanı yalnız "1830"** yazıyor. Yani maddeyi yazan
+   oturum **günü bilmediğini kendisi kaydetmiş**; `t:` alanındaki `11-08` bir
+   dolgu, kaynaklı bir tarih değil.
+
+✅ **Merkezin kuralı gereği sonuç: TDV'nin `1830-10-17`'si kazanır.** Madde ve
+veri **birlikte** taşınır. Değişmez 2 ölçüldü — `1830-10-17`'de maddenin
+kendisi 0 gün mesafede olacağı için açık doğmaz.
+📌 `gun:` alanı da `"17 Ekim 1830"` olarak düzeltilmeli, yoksa aynı belirsizlik
+kayıtta kalmaya devam eder.
+
+🔴 **#43 — aynı maddede ikinci kusur.** `d:` metni garnizon kalelerini
+*"Belgrad, Semendire, **Şabac, Böğürdelen** ve Fethülislâm"* diye **beş** sayıyor.
+**Šabac ile Böğürdelen aynı şehirdir** — Böğürdelen, Šabac'ın Osmanlıca adıdır ve
+TDV maddesinin başlığı budur. TDV dördü sayıyor: *"Belgrad, Fethülislâm (Kladovo),
+Semendire ve Böğürdelen (Šabac)"*. Madde metninden `Şabac,` çıkarılmalı.
+
+⚠️ **Bu kusur #40'ı doğrudan ilgilendiriyor:** merkez Böğürdelen'i eklerken
+**ayrıca bir "Šabac" kaydı AÇMAMALI.** Varat/Varad ile Afyon/Karahisâr-ı Sâhib
+vakalarının aynısı olur (`CLAUDE.md §11`) — bu sefer aynı noktada iki kayıt
+değil, aynı şehir için iki ad.
+
+---
+
+## 19.7 #41 CEVAP — Dömeke maddesinin kaynağı iddiayı TAŞIMIYOR
+
+```
+t:      "1897-05-17"      b: "Dömeke Meydan Muharebesi"
+gun:    "17 Mayıs 1897"   kisiler: "Edhem Paşa"
+kaynak: "yunanistan"      ← slug CANLI, ama...
+```
+
+TDV `yunanistan` maddesi **Dömeke'yi hiç anmıyor** ve savaşa hiçbir gün
+vermiyor; tek söylediği *"Yunanistan buna uymayınca Osmanlı Devleti ile
+Yunanistan arasında savaş çıktı (1897)"*. **Slug canlı ama iddiayı taşımıyor** —
+bu, ölü slug tuzağının kardeşi ve `<title>` kontrolünün yakalayamadığı bir sınıf.
+
+Aramayı genişlettim. **`tesalya` CANLI** (dikkat: `teselya` da canlı, iki ayrı
+yazım da madde döndürüyor) ve Dömeke'yi anıyor — ama savaş bahsinde değil, bir
+yol güzergâhı sayarken: *"Cumapazarı Tırhala'dan Karditsa ve Çatalca üzerinden
+Dömeke'ye (Domokos)… giden yol üstünde"*. Savaşı ise şöyle veriyor:
+
+> *"1890'ların sonunda Yunan milliyetçilerinin tahriki Osmanlı-Yunanlı savaşına
+> yol açtı (**7 Nisan - 18 Mayıs 1897**). Savaş süresince **Hâfız Abdülezel Paşa**
+> kumandasındaki Osmanlı ordusu bütün Tesalya'yı yeniden zaptetti."*
+
+**Üç sonuç:**
+
+| # | Bulgu |
+|---|---|
+| **#41** | `kaynak:"yunanistan"` **yanlış** — o madde Dömeke'yi anmıyor. `kaynak:"tesalya"` yapılmalı ve **17 Mayıs günü TDV'de YOK**; standart akademik kaynaktan geliyor. Madde metnine A-2'deki (Crnojeviç 1482) gibi açık bir not düşülmeli. **Madde SİLİNMEYECEK** — muharebe gerçek, yalnız kaynağı yanlış gösterilmiş |
+| **#44** | 🟡 **Savaşın başlangıç tarihi çelişiyor.** Kronoloji `1897-04-17` diyor (Osmanlı'nın savaş ilânı), TDV `tesalya` **7 Nisan - 18 Mayıs 1897** diyor. On günlük fark. #37 disiplini uygulandı: **karar verilmedi, işaretlendi** |
+| **#45** | 🟡 **Kumandan atfı ayrışıyor.** Madde `kisiler:"Edhem Paşa"` diyor, TDV `tesalya` **Hâfız Abdülezel Paşa** diyor. İkisi de savunulabilir — Edhem Paşa başkumandandı, Abdülezel Paşa ise Dömeke'de düşen tümen kumandanıydı. İki isim birlikte yazılabilir |
 
 ---
 

@@ -1229,3 +1229,41 @@ log ölçeğinde); sığma kısıtı yalnızca tavan olarak kalmalı.
 Sınama biçimi de ders: "taşan var mı?" diye sormak yetmiyordu, **dağılıma**
 bakmak gerekiyordu — tabanda kaç, tavanda kaç, ortada kaç. Tavanda %47 varsa
 o ölçüt ölçmüyor, kırpıyordur. (bkz. §25 — hangi soruya cevap verdiğine bak)
+
+## §34 — Ölçüm, BAŞKA bir cevap verebiliyorsa ölçümdür
+
+MOTOR'un yeni "ana parça" değişmezini bağımsız sınamak istedim: yayınlanan
+çıktının petek kümesiyle çalışma ağacındakini karşılaştırdım.
+
+```
+sadece commit'te: []
+sadece ağaçta   : []
+```
+
+Buradan "koşu geometriyi değiştirmiş ama hücre sahipliğini değiştirmemiş, yani
+düzeltme bu iki kasabayı geri getirmemiş" sonucunu çıkardım. **İkisi de
+dayanaksızdı.** MOTOR o üç dosyayı saatler önce `git checkout` ile HEAD'e geri
+almıştı — yani **aynı dosyayı kendisiyle** karşılaştırıyordum. Karşılaştırma
+koştu, çıkış 0 verdi, iki boş liste bastı ve hiçbir şey ölçmedi.
+
+Fark edebilirdim: `git status` çıktısı boştu. Bakmadım — çünkü ölçüm *çalıştı*
+ve çalışan ölçümü sorgulamak akla gelmiyor.
+
+**Ders:** bir ölçümün geçerli olması için, **başka bir cevap verebileceği bir
+dünya** olmalı. "Bu ölçüm hangi durumda FARKLI bir sonuç verirdi?" sorusunun
+somut bir cevabı yoksa, ölçüm değil törendir. İki tarafı aynı olan bir
+karşılaştırma, hangi cevabı verirse versin bilgi taşımaz.
+
+Uygulaması ucuz: yeni bir denetim ölçütü yazarken yanına **onu düşüren bir vaka**
+yaz. Yazamıyorsan ölçüt bir şey ölçmüyordur.
+
+§33'ün kardeşi — orada kısıt sağlanıyordu ama amaç sağlanmıyordu; burada ölçüm
+başarılı dönüyordu ama ayırt etmiyordu. İkisi de **"başarılı döndü, doğrulanmadı"**
+ailesinden. Aynı gün MOTOR üç, ben iki vaka gördüm; sınıf bu projede en pahalı
+sınıf.
+
+📌 Yan ders, tersinden: aynı gün `yerlesimler.js`'i kendi regex'imle okuyup 951
+yerine 767 ad çıkarmıştım. Onu **yakaladım**, çünkü sayı `denetle.py` ile
+ÇELİŞİYORDU. Yani kurtaran şey dikkat değil, **iki bağımsız sayının birbirini
+tutmaması** oldu. Yukarıdaki vakada ikinci bir sayı yoktu ve kaçırdım. Kritik
+bir ölçümü tek yoldan yapma. (bkz. §19)

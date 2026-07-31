@@ -32,6 +32,25 @@ durum tablosunu güncelle.
 - [ ] **Devletler dizininin dünya kapsamına çıkarılması** — Eksen 3, aşama D-1 ve
       D-2. Görev tanımı hazır: `oturumlar/OTURUM-3-DEVLETLER.md`. *Oturum 3*
 
+- [ ] 🔴 **`kazak` kimlik zinciri üç yerde uyuşmuyor — merge'den ÖNCE.** Ölçüldü
+      (31 Temmuz): `renkler.py` rengi **`kazak-hanligi`** anahtarıyla tanımlıyor,
+      ama `yerlesimler_ortaasya2.js:193,207,215` hâlâ `d:"kazak"` yazıyor ve
+      `kimlikler.js:199` `harita:"kazak"` diyor. `uret_petek.py:231` `d:` değerini
+      **doğrudan** BOYALAR'da arıyor → üçü eşitlenmeden Kazak Hanlığı renksiz kalır.
+      ⚠️ Bugün canlı bir kusur DEĞİL: `yerlesimler_ortaasya2.js` ne `girdi.py`
+      listesinde ne `index.html`'de — dosya merge bekliyor. Kusur **merge anında**
+      doğar, o yüzden bu satır merge'in ön şartıdır.
+      Kısa ad `kazak` bilerek reddedildi: Türkçede hem Kazak Hanlığı'nı hem Ukrayna
+      kazaklarını karşılıyor, atlas ikisini de kapsıyor, karışma sessiz olurdu.
+      Üç dosya tek commit'te. *K + Oturum 9*
+
+- [ ] **`BEKLENEN_KIRILMASIZ` tavanı 67 → 95** (`arac/denetle.py:101`). Sayı arttı
+      ama **veri kötüleşmedi**: `§26` (denetimin kendi ürettiği "Aynı tarihte…" eki
+      eşleştirmeye giriyordu — 28 kırılma sessizce geçmiş) ve `§19` (sağ kelime
+      sınırı yoktu: `Kavala ⊂ Kavalalı`) düzeltilince araç körlüğünü kaybetti.
+      🔴 Gerekçe tavanın yanına yazılmalı, yoksa sonraki oturum "denetim bozuldu"
+      sanıp geri alır. *DENETÇİ (dosya onun)*
+
 ---
 
 ## Coğrafi genişlemeden önce bitmesi şart — motor işleri

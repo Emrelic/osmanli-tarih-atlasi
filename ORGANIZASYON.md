@@ -46,7 +46,7 @@ harita kıpırdamıyor mu), `denetle_statu.py E` (etiket kurumun ömrünü aşı
 
 ---
 
-## 1. ORGANLAR — 14 tanım, aynı anda en fazla 10 açık
+## 1. ORGANLAR — 15 tanım, aynı anda en fazla 10 açık
 
 ### ÇEKİRDEK — her zaman açık (4)
 
@@ -84,6 +84,17 @@ Sebep: `yerlesimler.js` tek dosya ve çok yazarlı olduğu an bozuluyor.
 |---|---|---|---|---|
 | **Y** | **YAMACI** | Sonnet | `scratchpad/` | Düzeltme listelerini **sınanmış yama betiğine** çevirir. Veriye yazmaz — koordinatör inceleyip koşar. |
 | **S** | **KAYNAK** | Fable | `oturumlar/KAYNAK-DENETIMI.md` | Listelerdeki TDV slug'larını önceden doğrular (ölü slug + yönlendirme tuzağı). |
+| **G** | **COĞRAFYA** | Opus | `oturumlar/COGRAFYA-*.md` | Natural Earth katmanlarının hangisi **gerçek engel**, hangisi haritacının isim lekesi — ölçer, beyaz liste ve yaslama şartnamesi yazar. **`uret_petek.py`'ye YAZMAZ**, MOTOR uygular. |
+
+📌 **COĞRAFYA neden Opus:** "bu poligon gerçek bir şev mi yoksa 'ARABIAN PENINSULA'
+yazmak için çizilmiş bir leke mi" sorusunun yanlış cevabı **sessizce geometriye
+gömülür** — sınıf adı doğru, sonuç yanlış olur (`Plateau` içinde hem Üstyurt şevi
+hem PENÍNSULA IBÉRICA var). §2'nin ölçütü birebir bu.
+
+⚠️ **Açma ölçütü genişledi:** kural "koordinatörün yükünü azaltıyor mu" diyordu;
+COĞRAFYA **MOTOR'un** yükünü azaltıyor. Genişletme bilinçli — darboğaz artık tek
+bir organ değil, **üretim kilidinin sahibi olan her organ.** Ölçü aynı kalıyor:
+çıktısı doğrulanmayı bekleyen organ ekler, şartname üreten organ azaltır.
 
 ⚠️ **Bu ikisi neden var:** koordinatör `yerlesimler.js`'in tek yazarı ve bu kural
 yedi çöpe giden üretimden sonra kondu — ama tek yazar olmak **darboğaz** yaratıyor.

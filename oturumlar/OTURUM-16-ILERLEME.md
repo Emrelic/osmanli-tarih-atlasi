@@ -613,3 +613,337 @@ var. "Girdi kilitli" demek yetmiyor; koşu başlamadan önce her oturumun
 - `girdi.py`'deki `GIRDI_DOSYALARI` listesi — `yerlesimler_avrupa.js` ve
   `_asya.js` hâlâ kapalı. 17 pencere içi kimliğin rengi olmadan açılırsa
   Batı Avrupa renksiz delik olur; sıra: önce renk, sonra merge, sonra pencere.
+
+
+---
+
+# 31 Temmuz sabahı — kalibrasyon turu ve kara-kısıtlı Voronoi
+
+## 20. Kırım kalibrasyonu — İKİ SAYI DA YANLIŞMIŞ
+
+> 🔴 **BU BÖLÜMÜN SONUCU YANLIŞ — §20b'ye bak.** Teşhisin ilk yarısı
+> (D1'in kıyı tamponuna bağımlılığı) doğru; ama önerdiğim D2 de kıyıdan
+> kurtulmuyor ve "Kırım cetvelle çizilmiş değil" hükmü **geri alındı.**
+
+Merkez oturum "aynı yarımada için iki sayı dolaşmasın" dedi: bende 32,5,
+Oturum 13'te 62,8. Fark **kutu farkı değilmiş**; ölçüm yönteminin kendisi
+kararsızmış.
+
+Aynı kutu (`32.4, 44.3, 36.7, 46.3`), aynı gün (`1700-06-15`), aynı gövde;
+değişen tek şey kıyı tamponu:
+
+| kıyı tamponu | 0.005 | 0.010 | 0.020 | 0.050 |
+|---|---|---|---|---|
+| köşe/1000 km | **115,3** | **32,6** | 30,2 | 34,9 |
+
+**3,5 kat.** Sebep: Kırım gövdesinin sınırı neredeyse tamamen kıyıdır; kıyıyı
+çıkarınca geriye kalan kırıntının köşe sayısı, tamponun kaç köşe yuttuğuna
+bağlı kalır. Boğdan'da tutmasının sebebi orada iç sınırın 1.500-1.900 km ve
+gerçekten karasal olması — yani reçete Boğdan'da tesadüfen çalışıyordu.
+
+### Çözüm: reçete D2'ye geçmeli
+
+**D1** (bugünkü): gövde sınırı eksi kıyı → kıyı tamponuna bağımlı.
+**D2** (önerilen): iki gövdenin ORTAK kenarı, `O.boundary ∩ V.boundary` →
+kıyı, tanıma hiç girmiyor.
+
+20 kat parametre aralığında dayanıklılık:
+
+| vaka | D1 | D2 |
+|---|---|---|
+| Kırım dar kutu | 3,5x oynuyor | **1,13x** |
+| Kırım geniş kutu | — | **1,06x** |
+| Boğdan 1600 | — | **1,01x** |
+| Boğdan 1700 | — | **1,00x** |
+
+Kontrol olarak Boğdan D1'i aynı kodla ölçtüm: 82,2-92,6 çıktı, raporladığım
+84,9-93,1 ile uyuşuyor. Yani karşılaştırılan kod doğru, karşılaştırılan
+**tanım** yanlıştı.
+
+### Asıl sonuç — Kırım'ın iç sınırı cetvelle çizilmiş DEĞİL
+
+D2 ile **95,6 – 107,6**. Sağlıklı bant 115-118, yani hafif altında; Libya'nın
+18,1'ine yaklaşmıyor bile. Boğdan D2 ile 93,7-132,7.
+
+⚠️ **§7d'deki "Boğdan, Kırım'ın üç katı" cümlem yanlış, geri alıyorum.** O
+cümle 32,5'i çıpa alıyordu ve 32,5 bir ölçüm değil artefaktmış. Aynı şekilde
+`govde16.py`, `olc19.py` ve ilerleme notlarındaki "Kırım iç sınır 32,5" ölçek
+satırı da yanlış — hepsi tek bir ölçülmemiş sayıyı alıntılıyordu.
+
+🔎 **Bunu nasıl kaçırdım:** 32,5'i üreten betiği bugün ARAYIP BULAMADIM. Sayı
+üç ayrı dosyada ölçek çıpası olarak geçiyor ama hiçbirinde hesaplanmıyor —
+hepsi birbirinden alıntı. Kaynağı gösterilmeden dolaşmaya başlayan bir sayı,
+yanlış olduğunda kimsenin fark edemeyeceği sayıdır. **Çıpa, üreten betikle
+birlikte yazılmalı.**
+
+Reçeteye kalibrasyon olarak girmesi gerekenler: kutu sınırları · ölçüm günü ·
+hangi gövde çifti · **ve ölçümün kıyıya dokunmadığı**.
+(`OGRENILENLER.md` §22 merkez oturumun dosyası; güncellemeyi ona havale ettim.)
+
+Ölçüm betikleri: `scratchpad/kirim_kalib.py` (iki tanım × iki kutu + Boğdan
+kontrolü) · `kirim_kalib2.py` (gövde × tampon taraması + r76/r176 sürüm
+karşılaştırması) · `kirim_kalib3.py` (D2 dayanıklılık taraması).
+
+## 21. SERBEST_U — dağılım iki tepeli, soru yanlış sorulmuştu
+
+Önce kendi uyarımın düzeltmesi: dün gece "168,6 / 37,2 / 241,1 sayıları r138
+öncesi, tekrarlanmalı" demiştim. **Yanlış** — o sayıları r176'nın kendi
+`SERBEST` havuzundan hesaplamıştım, yani zaten günceldi. r138 uyarısı daha eski
+bir betiğe (`hale_olc.py`) aitti ve ona takılıp kalmışım.
+
+**Hat sayısıyla** Q3/Q1 = 6,5x görünüyor. Ama katman ekrana hat çiziyor, hat
+saymıyor. **Uzunlukla ağırlıklı** — yani gözün gördüğü dağılım — Q3/Q1 = **1,3x**
+(medyan 175,6 · Q1 168,6 · Q3 212,0). Geniş görünen kuyruk minicik hatlarda.
+
+Bölge kırılımı, dağılımın geniş değil **iki tepeli** olduğunu gösteriyor:
+
+| çöl kuşağı | km | meskûn kuşak | km |
+|---|---|---|---|
+| Arabistan | 253,2 | Kafkasya / Karadeniz K. | 72,9 |
+| Sahra | 175,6 | Rumeli / Balkanlar | 30,2 |
+| Sudan / Nil güneyi | 173,0 | Anadolu | 19,6 |
+| Libya / Mısır çölü | 168,6 | | |
+| İran / doğu | 124,3 | | |
+
+Merkezin hatırladığı "9,3 kat" işte bu: çöl ile meskûn kuşak arasındaki
+**gerçek** fark (253 ÷ 19,6 ≈ 13x). Gürültü değil sinyal — ve iki kuşak
+coğrafî olarak ayrı, bir hat ikisini birden gezmiyor. Bu yüzden hat başına tek
+`u` kavramsal olarak doğru.
+
+### Doğru soru: hat İÇİ yayılım
+
+```
+hat içi Q3/Q1 — medyan 1,47x · Q1 1,16x · Q3 2,89x · maks 4,62x
+Q3/Q1 <= 1,5 olan hat: 70/139 (%50)
+```
+
+Hatların **yarısında tek `u` yetiyor, yarısında yetmiyor.** Yetmeyenler
+dağınık değil: en oynak 8 hattın 7'si **24,5K 7,5D** civarında (güney
+Cezayir–Nijer, Tuat-Hoggar), biri 26,0K 6,8D. Bunlar meskûn kenardan derin
+Sahra'ya koşan hatlar — bir ucu 53 km belirsiz, öbür ucu 234.
+
+**Öneri:** segment başına bölme YAPILMASIN (havuzu dört katına çıkarır,
+hatların yarısında hiçbir şey kazandırmaz). Bunun yerine motor, hat içi
+Q3/Q1 > 2 olan hattı ortasından özyinelemeli bölsün: ~35 hattı etkiler, havuz
+141 → ~180, katmanın formülü hiç değişmez. **Voronoi koşusuyla aynı koşuya
+konmaz** — iki değişikliğin imzası karışır.
+
+Ölçüm betiği: `scratchpad/serbest_kalib.py` (motorun kendi yazdığı
+`window.SERBEST` + `window.SERBEST_U` üzerinden, yeniden kurmadan).
+
+## 22. Kara-kısıtlı Voronoi motora yazıldı
+
+`uret_petek.py`'ye, ada kuralından hemen SONRA. `_ham_km2` bu yüzden yukarı
+taşındı (blok ona ihtiyaç duyuyor); tek tanımı kaldığı doğrulandı.
+
+### Duman testi — üretimi başlatmadan ÖNCE
+
+`scratchpad/kv_duman.py`: motorun KENDİ kodunu boru hattının "Zaman çizelgesi"
+satırına kadar koşturur, hiçbir çıktı dosyası yazmaz. Amacı, 30+ dakikalık
+üretimi başlatıp bütün oturumları kilitlemeden önce davranışı görmek.
+
+| ölçüt | sonuç |
+|---|---|
+| Oslo · Königsberg · Azak korunmalı | **üçü de 0 km²** ✓ |
+| Küngrat -> Üstyurt | **132.678 km²** — prototiple birebir ✓ |
+| Oran -> Granada | **675 km²** — birebir ✓ |
+| toplam el değiştiren | **362.893 km²** — birebir ✓ |
+| birleşim dengesi | veren 362.893 = alan 362.893, **fark 0,000 km²** ✓ |
+
+Parça bütün olarak taşınıyor, bu yüzden birleşim korunuyor: kaybolan ya da iki
+kez sayılan toprak olamaz. Denge satırı tam bunu ölçüyor.
+
+### Kendi ölçütümü yanlış koydum
+
+Teste "bozuk kıyı kenarı 0 olmalı" yazmıştım ve test **KALDI** verdi. Yanlış
+olan kod değil ÖLÇÜTTÜ: bu motorda bozuk kıyı kenarı sayısı öteden beri **32**
+— prototipte 32 (`kv4.log:92`), **yayınlanmış r176 üretiminde de 32**
+(`uretim3.log:92`). Sıfır hiç olmamış.
+
+Kümeleri isim isim karşılaştırdım: 32 -> 32. İki isim takas olmuş
+(Hudeyde -> Aseb, Arkîko -> Adigrat) ama **koordinatlar birebir aynı** — aynı
+kenar, yalnız parça el değiştirdiği için yeni sahibin adıyla basılıyor. Kızıldeniz'in
+iki yakası: Hudeyde'nin hücresi karşı kıyıya uzanıyordu, kural onu kesti.
+**Eklediğim bozuk kenar sıfır.**
+
+Doğru ölçüt mutlak sayı değil **tabana göre artış**. Test dosyasına
+`BOZUK_TABAN = 32` olarak yazıldı, gerekçesiyle birlikte.
+
+> Ayrı bir iş: motor her koşuda bu 32 için "✗" basıyor ve bu fark edilmemiş.
+> Benim değişikliğimle ilgisi yok, ama bir denetim satırı sürekli "✗" basıp
+> kimse bakmıyorsa o satır artık denetim değil gürültüdür.
+
+## 23. Renkler — istenen iki tane, ölçülen iki tane
+
+`nogay` ve `kazak-hanligi` `renkler.py`'ye girdi (113 kimlik oldu, paylaşılan
+hex sayısı 5'te kaldı).
+
+| kimlik | hex | en yakın komşu | bindirilmiş ΔE |
+|---|---|---|---|
+| `kazak-hanligi` | `#ad1457` | safevi `#6b4a7d` | 14,9 ✓ |
+| `nogay` | `#f9a825` | timurlu `#8d6e63` | 21,2 ✓ |
+
+İlk bakışta `yerlesimler_ortaasya2.js`'te beş renksiz kimlik sandım
+(`altinorda`, `timurlu`, `ilhanli` dahil) ve merkeze öyle bildirdim — **yanlış**,
+o üçü zaten tanımlıymış. Ölçünce iki çıktı.
+
+🔴 **Veri hâlâ `d:"kazak"` yazıyor**, merkezin kararı `kazak-hanligi`'ydı.
+Renk, karar verilen ad altında duruyor; dosya Oturum 9'un, merge'den önce
+eşleşmeli.
+
+⚠️ **Palet tükeniyor.** Bekleyen dört dosyanın tamamını tarayınca 24 renklik
+aday paletim **30 kimliğe yetmedi** (`ADAY KALMADI`) — neredeyse hepsi
+`yerlesimler_asya.js`'ten (Majapahit, Edo, Qing, Delhi, Ming, Ainu...). O dosya
+harita penceresi açılmadan çizilmiyor, acil değil; ama sırası geldiğinde iş
+"birkaç hex daha ekle" değil **palet stratejisi** olacak.
+Tarama betiği: `scratchpad/renk_eksik.py` (bekleyen dosyaları `girdi.py`nin
+kendi çeviricisiyle okur, izin listesine DOKUNMADAN).
+
+## 24. Kilit — üretim BAŞLATILMADI
+
+`data/yerlesimler.js` bu sabah **09:57'de** değişti (`c969f69`, 09:58),
+`yerlesimler_afrika.js` 09:50'de. Merkezin istediği `o`/`v` izolasyonu girdinin
+sabit olmasına bağlı; dün gece 1. koşuyu tam bu yüzden kaybetmiştik.
+**Kilit istendi, cevap bekleniyor. Kod hazır, koşu başlatılmadı.**
+
+
+## 20b. 🔴 DÜZELTME — Kırım hükmüm yanlıştı, sınır GERÇEKTEN kaba
+
+§20'de "Kırım'ın iç sınırı 95,6–107,6, cetvelle çizilmiş değil" dedim ve bunu
+merkeze bildirdim; merkez §22'yi buna dayanarak düzeltti (162b835). **Hüküm
+yanlış.** Oturum 13 bağımsız olarak 32,3 ölçmüştü (dc9d87f) ve haklıymış.
+
+### Neyi kaçırdım
+
+D2'yi savunurken "kıyı tanıma hiç girmiyor" dedim. **Yarımadada girmiyor
+olamaz** — gövdenin ortak sınırının kendisi kıyı boyunca uzanıyor. Ölçüldü:
+
+```
+A (benim ilk D2)  168,3 km   18 kenar   107,0
+   bunun KUTU KENARINA yapışık payı :  0,5 km /  4 kenar  (%0 uzunluk)
+   bunun KIYIYA 0,01° yakın payı    : 12,4 km / 19 kenar  (%7 uzunluk!)
+```
+
+**Uzunluğun %7'si, kenarların %106'sını taşıyor.** Ortak sınır kıyıya değdiği
+yerlerde tampon, kıyının SIK DÜĞÜMLÜ köşelerini içeri alıyor ve kenar sayısını
+şişiriyor. Kutu kenarı bulaşması ihmal edilebilir çıktı; suçlu kıyıydı.
+
+Kıyıya yakın parçalar atılınca:
+
+| kıyı tamponu | 0.003 | 0.005 | 0.010 | 0.020 | 0.030 |
+|---|---|---|---|---|---|
+| kenar/1000 km | 49,1 | 49,7 | 45,0 | 34,7 | 36,9 |
+
+**35 – 50.** Oturum 13'ün 32,3'ü ile aynı mertebede; sağlıklı 115-118'in çok
+altında, Libya'nın 18,1'ine yakın.
+
+### Kesin cevap: sınırın kendisi tek bir düz hat
+
+Ortak kenarı parça parça döktüm. 168 km'nin 128'i **tek parça, 3 kenar**:
+
+```
+127,9 km   3 kenar   → 23,5 kenar/1000 km    (45,91K 34,44D — Perekop hattı)
+ 19,0 km   3 kenar
+ 13,1 km   2 kenar
+  4,4 km   3 kenar
+```
+
+128 kilometrelik iç sınır **üç segmentle** çiziliyor. Bu Libya sınıfıdır.
+**Kullanıcının "cetvel" şikâyeti Kırım'da haklı; benim temize çıkarmam yanlıştı.**
+
+### Kalibrasyon çıpası — DÜZELTİLMİŞ hâli
+
+| çapa | değer | kaynak |
+|---|---|---|
+| sağlıklı | 115-118 | — |
+| Boğdan gövde | 84,9-93,1 | `govde16.py` |
+| **Kırım iç sınır** | **32-45** | `kirim_kalib5.py` + Oturum 13 `ortakkenar.js` |
+| Libya | 18,1 | — |
+
+Yani §7d'deki "Boğdan, Kırım'ın üç katı" cümlesi **doğruymuş**; §20'de onu da
+yanlışlıkla geri almıştım, geri almayı geri alıyorum.
+
+### 🔎 Kendi hatamın dersi
+
+İki ayrı yerde aynı şeyi yaptım ve ikisi de aynı kökten:
+
+1. **Dayanıklılığı YANLIŞ PARAMETREDE ölçtüm.** D2'yi "1,06-1,13x kararlı" diye
+   savundum; ölçtüğüm şey EŞLEME TOLERANSIYDI. Sonucu asıl oynatan şey kıyı
+   muamelesiydi ve onu hiç taramamıştım — çünkü "D2 kıyıya dokunmaz" diye
+   varsaymıştım. **Bir yöntemin bağışık olduğunu VARSAYDIĞIN eksen, taramayı
+   en çok atlayacağın eksendir.**
+2. **Oturum 13'ün sayısını açıklayamadan kendiminkini ilan ettim.** Uzunluklar
+   uyuşuyordu (155 ↔ 168) ama kenar sayısı 4,5 kat farklıydı; bu tek başına
+   "ikimizden biri yanlış" demekti ve o an durup bakmam gerekirdi.
+
+> **Kural:** başka bir oturumun ölçümüyle çelişiyorsan, kendi sayını
+> savunmadan önce ONUN sayısını üretebildiğini göster. Üretemiyorsan çelişki
+> çözülmemiştir — hangi tarafın haklı göründüğünden bağımsız olarak.
+
+
+## 25. 🔴 İLK KOŞU DÜŞTÜ — geçme ölçütünün kendisi kusuru ölçüyormuş
+
+Koşu 10:29–11:00, çıkış 0, girdi baştan sona donuk (10:03), koruma çalıştı.
+Kara-kısıtlı Voronoi'nin imzası **birebir tuttu**: 32 parça, 362.893 km²,
+bozuk kenar 32 (taban). Ama yedinci denetim patladı ve çıktı **yayınlanmadı**;
+üç dosya da `git checkout` ile r176'ya geri alındı.
+
+```
+✗ 10 PETEK ham hücresinin %10'undan küçük
+   Küngrat   %0,0        0 / 132.678 km²      Aden      %0,0   0 / 29.737
+   Hafun     %0,0        0 /  20.925          Şârika    %0,4  27 /  6.190
+   Arkîko    %0,0        0 /   4.080          Sinop     %0,0   0 /  3.919
+   Koron     %0,0        0 /   2.339          Masavva   %0,0   1 /  2.548
+   Benzert   %0,0        0 /     865          Ankober   %7,3  ← r176'da da vardı
+```
+`BOŞ PETEK: Koron · Benzert · Arkîko`, doğrulamada 6 uyumsuzluk.
+
+### Ölçüt, ölçtüğünü sandığı şeyi ölçmüyormuş
+
+🔴 **Küngrat'a bakın.** Geçme ölçütü *"Küngrat → Üstyurt 132.678 km² el
+değiştirmeli"*ydi ve **tuttu.** Ama 132.678, Küngrat'ın peteğinin
+**TAMAMIYMIŞ**. Devlet Üstyurt'u devrederken kendi ayağının altındaki toprağı
+da devretti. Prototipin ölçtüğü ve ikimizin geçme ölçütü diye taşıdığı rakam,
+düzeltmeyi değil **yeni kusuru** ölçüyormuş.
+
+Aynı sınıf dokuz liman: Sinop, Aden, Benzert, Koron, Hafun, Arkîko, Masavva,
+Şârika — **hepsi kıyı**. Mekanizma: kıyı yerleşiminin parçası tohumdan körfezle
+ayrılıyor, tohum→parça düz hattı denizi kesiyor, ızgara devreye giriyor ve
+"kara yolundan daha yakın bir iç yerleşim var" diyor. **Teknik olarak haklı** —
+ve sonuç yine de saçma.
+
+### Eksik değişmez
+
+> **Bir yerleşimin ÜZERİNDE DURDUĞU toprak başkasına geçemez.**
+> Bu bir mesafe sorusu değil; tanım gereği böyle.
+
+Motora yazıldı: `_kvana`, her peteğin tohumunu taşıyan (yoksa tohuma en yakın)
+parçayı işaretler ve o parça devir dışıdır. Yanına `_kvbos` sayacı kondu —
+boşalan petek sayısı her koşuda basılır. Garantinin var olduğunu VARSAYMAK
+yerine ölçmek, bugün üç kez öğrendiğim şey.
+
+### ⚠️ Asıl süreç kusuru: test, denetimin bir satır öncesinde duruyordu
+
+Duman testini "üretimi başlatmadan önce davranışı gör" diye kurmuştum ve bu
+sınıfı **göremedi**. Sebep: boru hattını `# ---- Zaman çizelgesi` satırında
+kesiyordum; **yedinci denetim bir sonraki bölümde.** Yani testin kapsamı, tam
+da onu yakalayacak denetimin hemen berisinde bitiyordu.
+
+Kesme noktası `# ---- kur: / bit:` bölümüne taşındı. Yedinci denetim ve
+boş-petek kontrolü artık testin içinde ve **geçme şartı**; tabanı da yazılı
+(r176 = tek vaka, Ankober %7,3; artış gerilemedir).
+
+### 📌 Günün kalıbı — üç kez aynı hata
+
+| nerede | ölçüt neredeydi | olması gereken |
+|---|---|---|
+| bozuk kıyı kenarı | "0 olmalı" | taban 32, artışa bak |
+| Kırım D2 | eşleme toleransını taradım | kıyı muamelesini taramalıydım |
+| duman testi | denetimden bir satır önce kesiyordu | denetimi kapsamalıydı |
+
+Üçü de aynı aileden: **ölçüt, ölçmesi gereken şeyin bir adım berisinde
+duruyor.** Ve üçü de "işlem başarılı döndü" diyerek geçti.
+
+Beklenen düzeltme etkisi: 32'den az parça el değiştirecek, toplam 362.893'ün
+altına inecek. **Bu bir gerileme değil**, eski sayının kusurlu olduğunun
+kanıtıdır — Küngrat Üstyurt'u verecek ama kendi çevresini koruyacak.
