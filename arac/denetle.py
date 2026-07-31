@@ -81,6 +81,18 @@ BEKLENEN_SAHIPSIZ = 43
 # emekli ediyor; zemin su anda hareketli, tavan kosudan hemen once olculmeli.
 BEKLENEN_KIRILMA = 448
 BEKLENEN_ACIK = 0
+# ⚠️ `s:` boyutu ON AY BOYUNCA HİÇ DENETLENMEDİ (Oturum 13 buldu). Ölçüldü:
+# 566 yabancı kırılması, 115'inin ±30 günde maddesi yok. 115'i İHLAL ilan etmek
+# denetimi ilk koşuda kırmızıya boyar ve OGRENILENLER §3 gereği kimse bakmaz;
+# Değişmez 3'ün deseni uygulandı — bilinen borç + tavan, madde yazıldıkça iner.
+BEKLENEN_ACIK_S = 115
+# Değişmez 2'nin AYNADAKİ HÂLİ: madde var ama kırılma yok. Oturum 14'ün Girit
+# bulgusu — "1830-11-01 Girit'in idaresi Mehmed Ali'ye bırakıldı" maddesi VARDI,
+# beş nokta `d:` kalmıştı. Ölçüldü: 442 toprak/antlaşma maddesinin 67'sinin
+# ±30 gününde hiçbir kırılma yok (antlasma 40 · kayip 20 · fetih 7).
+# `antlasma` çoğunlukla meşrudur (statükoyu teyit eden barış sınır oynatmaz),
+# asıl sinyal `fetih`tir; o yüzden tür dağılımı ayrıca basılıyor.
+BEKLENEN_KIRILMASIZ = 67
 # MIMARI.md §3.4 — bilinen borç, tavan bu. 311'den 318'e çıkarıldı: beylik
 # düzeltmesiyle 19 yerleşim eklendi (567 -> 586) ve 11'i bu borcu tetikliyor.
 # Ölçüldü, indirilemez: m alanının zaman boyutu yok, bir yerleşim bütün tarih
@@ -240,11 +252,32 @@ def degismez1b(Y):
 
 
 # ---------------- Değişmez 2 — sessiz toprak değişimi yok ----------------
-def degismez2(Y, O):
+def degismez2(Y, O, kategoriler=("d", "v")):
+    """Belirtilen kategorilerin kırılmalarını ve ±30 günde maddesizleri döker.
+
+    ⚠️ `s:` VARSAYILANDA YOK VE BU BİR TASARIM DEĞİL, ON AYLIK BİR KÖRLÜKTÜ.
+    CLAUDE.md §3'ün tek satırlığı `(y.d||[]).concat(y.v||[])` yazıyor; yani
+    Değişmez 2 kurulduğundan beri **iki yabancı devlet arasındaki toprak
+    değişimini hiç sormadı.** Osmanlı kazanır/kaybederse denetleniyor, Akkoyunlu
+    Safevî'ye devrederse denetlenmiyordu — oysa harita ikisinde de renk
+    değiştiriyor ve kullanıcı ikisini de görüyor.
+
+    Ölçüldü (Oturum 13 buldu, burada doğrulandı): **566 `s:` kırılması, 115'inin
+    ±30 günde maddesi yok.** En kötüsü 1469-01-01'de 70 kaydın Karakoyunlu'dan
+    Akkoyunlu'ya geçmesi. 1503-01-01'de 37 kayıt Akkoyunlu'dan Safevî'ye geçiyor
+    ve ölçütü TEKNİK OLARAK GEÇİYOR — 18 gün ötede "Osmanlı-Venedik Savaşı'nın
+    sona ermesi" maddesi var. Yani `s:` eklenmesi tek başına yetmez; yanlış
+    eşleşmeyi `denetle_eslesme.py` A bölümü sorar.
+
+    `s:` ayrı çağrılıyor çünkü ayrı KADEMEDE raporlanıyor: `d:`/`v:` için açık
+    sayısı 0 olmalı (İHLAL), `s:` için bilinen borç + tavan.
+    """
     ol = [{"g": gun_no(o["t"]), "b": o["b"]} for o in O]
     kir = {}
     for y in Y:
-        donemler = (y.get("d") or []) + (y.get("v") or [])
+        donemler = []
+        for kat in kategoriler:
+            donemler += (y.get(kat) or [])
         for p in donemler:
             for d, tip in ((p.get("f"), "kazanc"), (p.get("t"), "kayip")):
                 if not d or d <= "1281-01-01" or d >= "1923-10-29":
@@ -259,6 +292,30 @@ def degismez2(Y, O):
         if fark > 30:
             acik.append((d, kir[d]["t"], sorted(kir[d]["ad"])[:4], en_yakin["b"], fark))
     return kir, acik
+
+
+# ---------------- Değişmez 2t — kırılmasız madde (aynadaki hâl) ----------------
+def kirilmasiz_madde(kir_dv, kir_s, O):
+    """Toprak/antlaşma maddesi var ama ±30 günde HİÇ kırılma yok.
+
+    Değişmez 2 "kırılmanın maddesi var mı" diye sorar; bu onun aynası:
+    "maddenin kırılması var mı". Girit vakası (Oturum 14): kronolojide
+    "1830-11-01 Girit'in idaresi Mehmed Ali'ye bırakıldı" maddesi vardı,
+    haritada beş nokta `d:` kalmıştı. Kullanıcı maddeyi okuyor, haritaya
+    bakıyor, hiçbir şey olmuyor.
+
+    Kırılma havuzuna `s:` de dahil — yabancılar arası devir de bir maddeye
+    karşılık gelebilir (1797 Campo Formio gibi).
+    """
+    gunler = sorted([gun_no(d) for d in kir_dv] + [gun_no(d) for d in kir_s])
+    yok = []
+    for o in O:
+        if o.get("k") not in ("fetih", "kayip", "antlasma"):
+            continue
+        g = gun_no(o["t"])
+        if not any(abs(x - g) <= 30 for x in gunler):
+            yok.append(o)
+    return yok
 
 
 # ---------------- Değişmez 3 — dört boyut çelişmez ----------------
@@ -680,6 +737,45 @@ def main():
     if args.ayrinti and acik:
         for d, tip, adlar, baslik, fark in acik:
             print(f"    {d}  {tip:<7} {', '.join(adlar):<40} en yakın madde {fark} gün uzakta: {baslik}")
+
+    # ---- Değişmez 2'nin `s:` boyutu — ON AYLIK KÖRLÜK, bilinen borç olarak açıldı
+    kir_s, acik_s = degismez2(Y, O, ("s",))
+    durum2s = "✓" if len(acik_s) <= BEKLENEN_ACIK_S else "✗"
+    if len(acik_s) > BEKLENEN_ACIK_S:
+        ihlal = True
+    print(f"Değişmez 2s {durum2s}  {len(kir_s)} YABANCI kırılması, {len(acik_s)} açık "
+          f"(tavan {BEKLENEN_ACIK_S}) — bilinen borç")
+    print( "            i iki yabancı devlet arasındaki devir de haritada renk")
+    print( "              değiştirir; Değişmez 2 bunu bugüne kadar hiç sormadı.")
+    if acik_s:
+        for d, tip, adlar, baslik, fark in (acik_s if args.ayrinti else
+                                            sorted(acik_s, key=lambda r: -len(r[2]))[:8]):
+            print(f"    {d}  ({len(adlar):3d}) {', '.join(adlar[:3])[:44]:44s}"
+                  f" | en yakın {fark}g: {baslik[:38]}")
+        if not args.ayrinti and len(acik_s) > 8:
+            print(f"    … {len(acik_s)-8} satır daha (--ayrinti)")
+
+    # ---- Değişmez 2'nin AYNADAKİ HÂLİ — kırılmasız madde
+    ksiz = kirilmasiz_madde(kir, kir_s, O)
+    durum2t = "✓" if len(ksiz) <= BEKLENEN_KIRILMASIZ else "✗"
+    if len(ksiz) > BEKLENEN_KIRILMASIZ:
+        ihlal = True
+    print(f"Değişmez 2t {durum2t}  kırılmasız madde: {len(ksiz)} (tavan "
+          f"{BEKLENEN_KIRILMASIZ}) — bilinen borç")
+    print( "            i kronoloji 'Girit Mehmed Ali'ye bırakıldı' diyor ama")
+    print( "              hiçbir nokta el değiştirmiyor — madde var, kırılma yok.")
+    if ksiz:
+        say = {}
+        for o in ksiz:
+            say[o.get("k")] = say.get(o.get("k"), 0) + 1
+        print("            tür dağılımı: " + ", ".join(f"{k}×{v}" for k, v in
+                                                       sorted(say.items(), key=lambda x: -x[1])))
+        print( "            ⚠️ `antlasma` çoğunlukla MEŞRU: statükoyu teyit eden")
+        print( "               barış (Kasr-ı Şirin, Zitvatorok) o gün sınır oynatmaz.")
+        print( "               ASIL SİNYAL `fetih` — bir yer fethedilip hiçbir nokta")
+        print( "               el değiştirmemişse ya madde ya veri yanlıştır.")
+        for o in [x for x in ksiz if x.get("k") == "fetih"]:
+            print(f"    {o['t']}  {o.get('b','')[:62]}")
 
     # Değişmez 3
     celiskiler = degismez3(Y)
