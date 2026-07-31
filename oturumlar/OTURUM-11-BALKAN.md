@@ -276,9 +276,23 @@ TDV dışı akademik referansla yeniden kurulması gerekir.
 | **29** | `data/yerlesimler.js` | merkez | **Hotin'de iki Rus işgali eksik**: TDV `hotin` "1788 Eylülünde" Avusturya-Rusya ortak işgali (1792'ye kadar) ve "son olarak 1806'da Ruslar'ın işgali" (1812'ye kadar). Veride 1774→1812 kesintisiz Osmanlı | ✔ §9 |
 | **30** | — | merkez | **KARAR GEREKİYOR**: 1594-1595 üçlü isyanının toprak karşılığı veriye işlensin mi? Üç voyvodalık ayaklanma yıllarında haritada hâlâ tâbi renkte. İşlenirse hem başlangıç hem bitiş için madde şart (Oturum 2 D-4 kuralı); C-1…C-4 maddeleri başlangıcı zaten karşılıyor | ✔ §9 |
 
-3, 4 ve 5 uygulandıktan sonra **`py arac/denetle.py`** koşturulmalı; benim
-koşumdaki taban: `939 yerleşim · 971 madde · Değişmez 1 = 40 sahipsiz ·
-Değişmez 2 = 452 kırılma / 0 açık · Değişmez 3 = 381 · SONUÇ: temiz`.
+| **31** | `data/yerlesimler.js` | merkez | 🔴 **ŞUMADYA'DA HİÇ NOKTA YOK — Sırbistan 1878-1912 arası halka gibi çiziliyor**, dışı Sırp ortası Osmanlı. Kragujevac ve Çaçak 1910 kesitinde hâlâ `DOGRUDAN`. İki nokta eklenecek, zincir **Semendire'den** kopyalanacak (Belgrad'dan değil) | ✔ §17.1 |
+| **32** | — | merkez | **KARAR GEREKİYOR**: Sırbistan Prensliği 1830-1867 arası `v:` yapılsın mı? `devletler.js` `sirbistan-prensligi` `f:"1804-02-14"` diyor, harita 1867'ye kadar doğrudan Osmanlı çiziyor. Eflak/Boğdan `v:` ile modellenmişken bu tutarsız. Yapılırsa 1830-08-15 Hatt-ı Şerîf'e madde şart | ✔ §17.1 |
+| **33** | `data/yerlesimler.js` | merkez | 🔴 **ŞARKÎ RUMELİ HARİTADA HİÇ YOK, üstelik ters yönde.** **Filibe** 1878'de gidiyor (7 yıl erken — 1885'e kadar Osmanlı'ya tâbi vilâyetti); **Eski Zağra · Tatarpazarcığı · İhtiman** `d:` 1923-10-29'a kadar sürüyor, **hiç gitmiyorlar** (38-45 yıl). Bulgaristan'ın içine sokulmuş Osmanlı kaması. TDV `bulgaristan` sancakları tek tek sayıyor | ✔ §17.2 |
+| **34** | `data/yerlesimler.js` | merkez | **Bulgaristan tâbi değil bağımsız renkte.** Yedi yerleşim 1877-78'de `s:"bulgaristan"` oluyor; TDV `berlin-antlasmasi`: *"Osmanlı Devleti'ne tâbi … Bulgaristan prensliği"*. `v:{1878-07-13→1908-10-05, "Bulgaristan Prensliği"}` olmalı — kullanıcının md.47 *"özerk mi bağımsız mı"* sorusunun cevabı | ✔ §17.3 |
+| **35** | `data/yerlesimler.js` | merkez | **Sofya `1877-12-10` taşıyor — bu Plevne'nin düştüğü gündür.** Ruslar Sofya'ya 4 Ocak 1878'de girdi. Tarih Plevne'den kopyalanmış görünüyor | ✔ §17.3 |
+| **36** | 🔴 **motor** | Oturum 0 | **Saraybosna 1910'da hem `DOGRUDAN` hem `dvl:avusturya`** — ilhak 1908-10-05'te yazılı, Osmanlı gövdesi 1912'ye kadar çekilmiyor (~4 yıl örtüşme). #25 Solnok'la **aynı sınıf**: çevresi (Yenipazar sancağı) Osmanlı kaldığı için gövde kopmuyor | ✔ §17.4 |
+| **37** | — | merkez | 🟡 **İKİ TDV MADDESİ ÇELİŞİYOR**: `bosna-hersek` ilhakı *"7 Ekim 1908"*, `balkan-savasi` 3 Ekim'den *"iki gün sonra"* (=5 Ekim). Veri 1908-10-05. İki gün için zincir değiştirilmedi; karar merkezin | ✔ §17.4 |
+| **38** | `olaylar.js` | merkez | İki **ay hassasiyetli** umbrella madde emekliye ayrılmalı: `1877-04` "93 Harbi" → D-1 (`1877-04-24`) karşılıyor; `1912-10` "Balkan Savaşları başladı" → D-5 (`1912-10-08`). CLAUDE.md §8: ay hassasiyeti ayın 1'ine genişler ve gün hassasiyetli yerleşim değişimlerinden **önce** sıralanır | ✔ §17.6 |
+
+⚠️ **#23 ARTIK GEÇERSİZ — yerine §15 geçti.** O satır ölçümden önce yazılmış bir
+tahmindi (Fokşani, Zimniçe, Kımpulung sayıyordu). §15 ölçülmüş, kaynaklı ve
+yapıştırmaya hazır **on kayıt** veriyor; Fokşani'nin neden alınmadığı orada yazılı.
+
+3, 4 ve 5 uygulandıktan sonra **`py arac/denetle.py`** koşturulmalı; benim son
+koşumdaki taban: `951 yerleşim · 984 madde · Değişmez 1 = 50 sahipsiz ·
+Değişmez 2 = 449 kırılma / 0 açık · Değişmez 3 = 381 · mükerrer = 0 ·
+SONUÇ: temiz`.
 
 ⚠️ **13-14-16 tarih düzeltmelerinde `CLAUDE.md §11` tuzağı:** her tarih kayıtta
 **İKİ KEZ** geçiyor (`s:` döneminin bitişi ve `d:` döneminin başı). `replace(…, 1)`
@@ -501,6 +515,27 @@ kapsamı açılınca sorun 285'ten çok daha büyüyecek.
 | **`kefalonya`** | 🔴 **ÖLÜ** — "Arama - TDV İslâm Ansiklopedisi". Müstakil madde YOK. |
 | **Crnojeviç** | 🔴 **KARŞILIĞI YOK** — arama 0 sonuç döndürüyor |
 
+### 7.1 İkinci tur (2026-07-31) — Eflak, Boğdan ve 1877-1913 bloğu
+
+**✅ CANLI** (`<title>` maddenin adını döndürdü):
+`eflak` · `pasarofca-antlasmasi` · `belgrad` · `berlin-antlasmasi` ·
+`ayastefanos-antlasmasi` · `doksanuc-harbi` · `balkan-savasi` ·
+`londra-antlasmasi` · `bulgaristan` · `sirbistan` · `bosna-hersek` · `romanya` ·
+`sofya` · `plevne` · `edirne` · `teselya` · `yenisehir` · `tirhala` · `bucak`
+
+**🔴 ÖLÜ** (`<title>` = "Arama - TDV İslâm Ansiklopedisi"):
+
+| Slug | Not |
+|---|---|
+| `belgrad-antlasmasi` | 1739 antlaşmasının **müstakil maddesi yok**; hükümleri `belgrad` şehir maddesinde geçiyor. `belgrad-antlasmalari` ve `belgrad-antlasmasi--1739` de ölü |
+| `sarki-rumeli` · `dogu-rumeli` | Doğu Rumeli vilâyetinin müstakil maddesi yok; `bulgaristan` ve `berlin-antlasmasi` içinde anlatılıyor |
+| `93-harbi` | Doğrusu **`doksanuc-harbi`** |
+| `domeke` · `domeke-meydan-muharebesi` | ⚠️ Kronolojide **1897-05-17 "Dömeke Meydan Muharebesi"** maddesi var; TDV karşılığı yok, kaynağı doğrulanmalı |
+| `istanbul-antlasmasi` · `catalca` · `sipka` | Karşılığı yok; ilgili anlatı `balkan-savasi` ve `doksanuc-harbi` içinde |
+| `krayova` · `tirgoviste` · `pitesti` · `buzau` · `kalafat` | Eflak şehirlerinin **hiçbirinin** müstakil maddesi yok. §15'in zincirleri bu yüzden `eflak` + `pasarofca-antlasmasi` üzerinden kuruldu |
+| `soroka` · `orhei` · `tomarova` | Boğdan ținut merkezlerinin karşılığı yok — §16'nın kaynak notu |
+| `bender` · `kartal` · `ismail-kalesi` | Bucak kalelerinin müstakil maddesi yok (`bucak` maddesi CANLI ama idarî birim maddesidir) |
+
 ---
 
 ## 9. hatalar 15 md.9·16·20 — Hotin zinciri
@@ -667,13 +702,311 @@ poligon deliği yanılsaması değil, gerçek örtüşme.
 
 ---
 
-## 14. Sırada
+## 15. ⭐ EFLAK NOKTA KÜMESİ — merkezin uygulayacağı kayıtlar
 
-**B bloğu (hatalar 11, 1859-1913):** md.3 Belgrad · md.28·29·30 Eflak-Boğdan
-birleşmesi ve Cuza · md.38·39 93 Harbi · md.46-49 Ayastefanos→Berlin · md.54 Bosna
-işgali (`isg:` dizisi) · md.57·58 Balkan savaşları. Ayrıca merkezin havale ettiği
-**md.29 nehir noktaları** (Soroka, Orhei, Reni) — koordinat + dönem zincirleri bu
-dosyaya yazılacak.
+§12'nin çözümü. Kullanıcının *"şu bölgenin hepsi Eflak değil mi?"* sorusunun
+doğrudan karşılığı. **Ben `yerlesimler.js`'e yazmadım**; aşağısı olduğu gibi
+yapıştırılabilir.
 
-**Devreden:** Kili/Akkirman tarih düzeltmeleri (§5) · İnebahtı bulguları (§6) ·
-Ayamavra 1502-1503 ve 1715-1718 boşluklarına madde önerisi.
+### 15.1 Tarihî dayanak — Olt ırmağı
+
+TDV `eflak` (Kemal Karpat): Eflak *"Büyük Eflak (Muntenia) ve Küçük Eflak (Oltenia)
+olmak üzere ikiye ayrılır"*; ikisinin sınırı **Olt ırmağıdır**.
+
+TDV `pasarofca-antlasmasi`, 21 Temmuz 1718 hükmü — kelimesi kelimesine:
+> *"bütün Banat bölgesiyle birlikte Eflak'ın Oltu ırmağına kadar uzanan ve Küçük
+> Eflak denilen batı yarısı … tamamen Avusturya'ya bırakılmıştır."*
+
+TDV `belgrad`: *"Belgrad Antlaşması (1739) imzalandı ve şehir Osmanlılar'a teslim
+edildi"* — Küçük Eflak da bu antlaşmayla geri döndü (18 Eylül 1739).
+
+**Sonuç: iki ayrı dönem zinciri var.** Olt'un batısı 1718-1739 arası Avusturya,
+doğusu kesintisiz vasal.
+
+⚠️ **Slatina Olt'un DOĞU yakasındadır** — Avusturya dönemi ALMAZ. Krayova, Tırgu
+Jiu, Rimnik ve Turnu Severin batıdadır, ALIR.
+
+### 15.2 A kümesi — asgarî sekiz nokta (§12'de söz verilen)
+
+Muntenia zinciri (Bükreş'in zinciriyle **birebir aynı**, yeni kırılma açmaz):
+
+```js
+{ ad:"Tırgovişte", tur:"sehir", lat:44.925, lon:25.457, g:1, k:3, m:"Bükreş", s:[{f:"1281-01-01",t:"1462-06-01",d:"eflak"},{f:"1878-07-13",t:"1923-10-29",d:"romanya"}], d:[], v:[{f:"1462-06-01",t:"1878-07-13",k:"Eflak Voyvodalığı"}] },
+{ ad:"Piteşti", tur:"sehir", lat:44.857, lon:24.869, g:0, k:4, m:"Bükreş", s:[{f:"1281-01-01",t:"1462-06-01",d:"eflak"},{f:"1878-07-13",t:"1923-10-29",d:"romanya"}], d:[], v:[{f:"1462-06-01",t:"1878-07-13",k:"Eflak Voyvodalığı"}] },
+{ ad:"Slatina", tur:"sehir", lat:44.427, lon:24.371, g:0, k:4, m:"Bükreş", s:[{f:"1281-01-01",t:"1462-06-01",d:"eflak"},{f:"1878-07-13",t:"1923-10-29",d:"romanya"}], d:[], v:[{f:"1462-06-01",t:"1878-07-13",k:"Eflak Voyvodalığı"}] },
+{ ad:"Buzău", tur:"sehir", lat:45.150, lon:26.817, g:0, k:4, m:"Bükreş", s:[{f:"1281-01-01",t:"1462-06-01",d:"eflak"},{f:"1878-07-13",t:"1923-10-29",d:"romanya"}], d:[], v:[{f:"1462-06-01",t:"1878-07-13",k:"Eflak Voyvodalığı"}] },
+{ ad:"Rimnik-i Sârat (Râmnicu Sărat)", tur:"kale", lat:45.383, lon:27.056, g:0, k:4, m:"Bükreş", s:[{f:"1281-01-01",t:"1462-06-01",d:"eflak"},{f:"1878-07-13",t:"1923-10-29",d:"romanya"}], d:[], v:[{f:"1462-06-01",t:"1878-07-13",k:"Eflak Voyvodalığı"}] },
+```
+
+Oltenya zinciri (**vasal dönem ikiye bölünür**, arasına Avusturya girer):
+
+```js
+{ ad:"Krayova (Craiova)", tur:"sehir", lat:44.330, lon:23.795, g:1, k:3, m:"Bükreş", s:[{f:"1281-01-01",t:"1462-06-01",d:"eflak"},{f:"1718-07-21",t:"1739-09-18",d:"avusturya"},{f:"1878-07-13",t:"1923-10-29",d:"romanya"}], d:[], v:[{f:"1462-06-01",t:"1718-07-21",k:"Eflak Voyvodalığı"},{f:"1739-09-18",t:"1878-07-13",k:"Eflak Voyvodalığı"}] },
+{ ad:"Tırgu Jiu", tur:"sehir", lat:45.035, lon:23.275, g:0, k:4, m:"Bükreş", s:[{f:"1281-01-01",t:"1462-06-01",d:"eflak"},{f:"1718-07-21",t:"1739-09-18",d:"avusturya"},{f:"1878-07-13",t:"1923-10-29",d:"romanya"}], d:[], v:[{f:"1462-06-01",t:"1718-07-21",k:"Eflak Voyvodalığı"},{f:"1739-09-18",t:"1878-07-13",k:"Eflak Voyvodalığı"}] },
+{ ad:"Rimnik (Râmnicu Vâlcea)", tur:"sehir", lat:45.105, lon:24.375, g:0, k:4, m:"Bükreş", s:[{f:"1281-01-01",t:"1462-06-01",d:"eflak"},{f:"1718-07-21",t:"1739-09-18",d:"avusturya"},{f:"1878-07-13",t:"1923-10-29",d:"romanya"}], d:[], v:[{f:"1462-06-01",t:"1718-07-21",k:"Eflak Voyvodalığı"},{f:"1739-09-18",t:"1878-07-13",k:"Eflak Voyvodalığı"}] },
+```
+
+### 15.3 B kümesi — ölçüm sonrası eklenen iki nokta
+
+```js
+{ ad:"Turnu Severin", tur:"kale", lat:44.632, lon:22.656, g:0, k:4, m:"Bükreş", s:[{f:"1281-01-01",t:"1462-06-01",d:"eflak"},{f:"1718-07-21",t:"1739-09-18",d:"avusturya"},{f:"1878-07-13",t:"1923-10-29",d:"romanya"}], d:[], v:[{f:"1462-06-01",t:"1718-07-21",k:"Eflak Voyvodalığı"},{f:"1739-09-18",t:"1878-07-13",k:"Eflak Voyvodalığı"}] },
+{ ad:"Kımpulung (Câmpulung)", tur:"sehir", lat:45.269, lon:25.045, g:0, k:4, m:"Bükreş", s:[{f:"1281-01-01",t:"1462-06-01",d:"eflak"},{f:"1878-07-13",t:"1923-10-29",d:"romanya"}], d:[], v:[{f:"1462-06-01",t:"1878-07-13",k:"Eflak Voyvodalığı"}] },
+```
+
+**Turnu Severin** §12'de yanlış çözülen sekiz noktadan biriydi ve Demirkapı
+köşesini tutuyor; Krayova'ya 97 km, Tırgu Jiu'ya 66 km.
+**Kımpulung** TDV `eflak`'ın saydığı tarihî şehirlerdendir (*"Cimpulung, Curtea de
+Argeş, Târgoviște"*) ve Argeş-Dâmboviţa Karpat eteğini tutar — o kuşak boş kalırsa
+Rimnik'in başına gelen olur, Erdel hücresine kapılır.
+
+### 15.4 Kasten ALINMAYAN noktalar — gerekçeli
+
+| Nokta | Neden alınmadı |
+|---|---|
+| **Kalafat** | Vidin'e **6 km**. VERI-YAPISI'nın 3 km kuralına yakın, üstelik gereksiz: motor hücre sınırını Tuna yatağına yaslar, Krayova hücresi doğunca Kalafat kendiliğinden Eflak'ta kalır. |
+| **Focşani** | Şehir **Milcov'un iki yakasına** oturur ve Milcov, Eflak-Boğdan sınırıdır. Nokta hangi yakaya konursa karşı voyvodalığı boyar. Yerine Rimnik-i Sârat alındı (72 km kuzeydoğu köşe, sınır belirsizliği yok). |
+| **Yergöğü · Turnu · İbrail** | Bunlar **gerçekten doğrudan Osmanlı**. TDV `eflak`: *"Brǎila (İbrâil) ve Giurgiu (Yergöğü, Yerkövü) bir süre doğrudan doğruya Osmanlı Devleti'ne bağlı kalmışlardır."* Kırmızı kalmaları doğru. |
+
+### 15.5 Denetim — ölçüldü, temiz
+
+| Kontrol | Sonuç |
+|---|---|
+| 3 km kuralı | ✅ On noktanın en yakını **Tırgovişte–Bükreş 75 km** |
+| Değişmez 1 (sahipsizlik) | ✅ Her nokta 1281-1923 boyunca kesintisiz sahipli |
+| Değişmez 2 — `1462-06-01` | ✅ madde var: *"Eflak seferi: Kazıklı Voyvoda"* |
+| Değişmez 2 — `1718-07-21` | ✅ madde var: *"Pasarofça Antlaşması"* (`olaylar_ek5.js`) |
+| Değişmez 2 — `1739-09-18` | ✅ madde var: *"Belgrad Antlaşması"* (`olaylar.js`) |
+| Değişmez 2 — `1878-07-13` | ✅ madde var: *"Berlin Antlaşması"* (`olaylar.js`) |
+| Değişmez 3 (`m:"Bükreş"`) | ✅ 1300/1400/1500/1600/1700/1800 kesitlerinin hiçbiri 1718-1739 penceresine düşmüyor, yeni çelişki üretmez |
+
+**Bu küme yeni bir Değişmez 2 açığı yaratmıyor** — kullandığı dört kırılma
+tarihinin dördünün de maddesi zaten var. Nokta eklemek geometriyi değiştirir,
+kronolojiyi değiştirmez.
+
+---
+
+## 16. Boğdan nehir noktaları — Soroka · Orhei · Reni ölçümü
+
+Merkez üçünü havale etti. **İkisi gerekli, biri gereksiz** — ölçtüm.
+
+Prut-Dinyester kutusunda her yarım derecelik göze en yakın yerleşim mesafesi (km):
+
+```
+        26.5  27.0  27.5  28.0  28.5  29.0  29.5  30.0  30.5
+ 48.5K     1    37    71    67    67    84   112   143   171
+ 48.0K    45    68    94    98   115   132   130   135   150   ← Kuzey Besarabya BOŞ
+ 47.5K    24    58    39    48    77    83    74    84   107   ← Orta Besarabya BOŞ
+ 45.5K   117    79    40     7    31    21    19    57    78   ← Tuna ağzı DOLU
+```
+
+| Nokta | Karar | Ölçüm |
+|---|---|---|
+| **Soroka** | ✅ **GEREKLİ** | Bulunduğu gözde en yakın nokta **115 km**. Dinyester'in tam üzerinde (0 km), Oturum 16'nın 33 km yaslama yarıçapının çok içinde. |
+| **Orhei** | ✅ **GEREKLİ** | Bulunduğu gözde en yakın nokta **77 km**. Orta Besarabya'nın tek ținut merkezi. |
+| **Reni** | ❌ **GEREKSİZ** | En yakın nokta **Kalas 21 km**. Tuna ağzı zaten dolu (7-31 km). Üstelik Reni'ye doğrudan Osmanlı zinciri verilirse vasal Kalas'ın 21 km yanında **avuç içi kadar kırmızı ada** çıkar — kullanıcının Hotin'de şikâyet ettiği hayalet bölünmenin aynısı. |
+
+```js
+{ ad:"Soroka (Soroca)", tur:"kale", lat:48.158, lon:28.299, g:0, k:4, m:"Yaş", s:[{f:"1281-01-01",t:"1456-06-01",d:"bogdan"},{f:"1812-05-28",t:"1923-10-29",d:"rusya"}], d:[], v:[{f:"1456-06-01",t:"1812-05-28",k:"Boğdan Voyvodalığı"}] },
+{ ad:"Orhei", tur:"sehir", lat:47.383, lon:28.823, g:0, k:4, m:"Yaş", s:[{f:"1281-01-01",t:"1456-06-01",d:"bogdan"},{f:"1812-05-28",t:"1923-10-29",d:"rusya"}], d:[], v:[{f:"1456-06-01",t:"1812-05-28",k:"Boğdan Voyvodalığı"}] },
+```
+
+⚠️ **Suçava/Roman/Birlad 1878'de Romanya olur, Soroka/Orhei 1812'de RUSYA olur.**
+İkisi Prut'un doğusundadır, yani Besarabya'dır — Bükreş Antlaşması'yla (28 Mayıs
+1812) Rusya'ya geçti ve 1878'de Romanya'ya dönmedi. Akkirman, Kili, Bender ve
+Hotin de aynı tarihi taşıyor; zincir onlarla tutarlı.
+
+🟡 **Yaslama tutmazsa yedek nokta:** Orhei Răut üzerindedir, Dinyester'e ~45 km.
+Sınır nehre yaslanmazsa **Rezina** (47.748K / 28.961D) eklenir — sağ yakada,
+nehre 1 km. Şimdilik önerilmedi; önce iki noktayla üretim görülmeli.
+
+**Kaynak notu:** Soroka ve Orhei için TDV'de **madde yok** (`soroka`, `orhei`,
+`tomarova` üçü de `<title>`ında "Arama" döndürdü). İkisi de Boğdan'ın standart
+ținut merkezleridir; siyasî zincir TDV `bogdan` maddesinin genel çerçevesinden ve
+Bükreş Antlaşması'nın Besarabya hükmünden türetildi.
+
+---
+
+## 17. ⭐ B BLOĞU — hatalar 11, Balkan ekseni 1859-1913 (ölçüm)
+
+Onsekiz nokta, beş kesitte, delik-farkındalıklı nokta testiyle ölçüldü. Hem
+Osmanlı gövdesi (`donemler.js`) hem yabancı devlet gövdesi (`devletler_harita.js`)
+aynı anda soruldu — **iki cevabın birden gelmesi çakışma demektir.**
+
+| Nokta | 1840 | 1880 | 1890 | 1900 | 1910 | 1913 |
+|---|---|---|---|---|---|---|
+| Sofya | 🔴 osm | bulgaristan | bulgaristan | bulgaristan | bulgaristan | — |
+| Tırnova · Varna · Rusçuk | 🔴 osm | **🔴 osm + bulgaristan** | bulgaristan | bulgaristan | bulgaristan | — |
+| **Filibe** | 🔴 osm | **🔴 osm + bulgaristan** | bulgaristan | bulgaristan | bulgaristan | — |
+| **Eski Zağra** | 🔴 osm | 🔴 osm | 🔴 osm | 🔴 osm | **🔴 osm** | **🔴 osm** |
+| **Tatarpazarcığı** | 🔴 osm | 🔴 osm | 🔴 osm | 🔴 osm | **🔴 osm** | **🔴 osm** |
+| **Kragujevac · Çaçak** | 🔴 osm | 🔴 osm | 🔴 osm | 🔴 osm | **🔴 osm** | sirbistan |
+| Kruşevac · Belgrad · Niş | 🔴 osm | sirbistan | sirbistan | sirbistan | sirbistan | sirbistan |
+| Saraybosna | 🔴 osm | 🔴 osm | 🔴 osm | 🔴 osm | **🔴 osm + avusturya** | avusturya |
+| Bükreş · Yaş | 🟠 vasal | 🟠 vasal + romanya | romanya | romanya | romanya | romanya |
+| Yenişehir (Teselya) | 🔴 osm | 🔴 osm | yunanistan | yunanistan | yunanistan | yunanistan |
+| Selânik · Üsküp | 🔴 osm | 🔴 osm | 🔴 osm | 🔴 osm | 🔴 osm | yunanistan/sirbistan |
+
+### 17.1 🔴 md.3 — Sırbistan'ın kalbi 1912'ye kadar Osmanlı boyalı
+
+**En ağır bulgu.** Sırbistan Berlin'de (13 Temmuz 1878) bağımsız oldu; Belgrad,
+Kruşevac ve Niş haritada doğru şekilde Sırbistan rengine geçiyor. Ama
+**Kragujevac ve Çaçak — Şumadya, yani prensliğin çekirdeği — 1910'da hâlâ
+`DOGRUDAN` Osmanlı** ve ancak 1913'te Sırbistan oluyor.
+
+Yani harita 1878-1912 arasında **Sırbistan'ı halka gibi çiziyor: dışı Sırp, ortası
+Osmanlı.** Otuz beş yıllık hata.
+
+Sebep CLAUDE.md §2: **Şumadya'da tek bir yerleşim noktası yok.** Belgrad ve
+Semendire kuzeyde, Niş güneydoğuda; ortadaki büyük boşluk 1912'ye kadar Osmanlı
+kalan Yenipazar/Priştine hücrelerine emiliyor.
+
+**Kullanıcının md.3'te sorduğu "Belgrad ne zaman elden çıktı da geri alındı"nın
+cevabı ise veride doğru:** Belgrad `d:` 1739-09-18 → 1867-04-18, sonra
+`s:"sirbistan"`. 1867 garnizonların çekilmesidir (maddesi var). Fakat
+**Sırbistan Prensliği 1830'dan beri özerktir** — `devletler.js` bile
+`sirbistan-prensligi` kaydına `f:"1804-02-14"` yazmış. Harita 1830-1867 arası
+Sırbistan'ı Eflak/Boğdan gibi **tâbi (`v:`)** değil, doğrudan Osmanlı çiziyor.
+İki voyvodalık `v:` ile modellenirken Sırbistan'ın edilmemesi tutarsızlıktır.
+
+**Düzeltme (#31):** Şumadya'ya en az iki nokta — **Kragujevac** (44.013K /
+20.911D, 1818-1841 arası prensliğin başşehri) ve **Çaçak** (43.891K / 20.350D).
+
+⚠️ Zincir **Belgrad'dan değil Semendire'den** kopyalanmalı. Belgrad 1427-1521
+arası Macaristan'dır; Şumadya ise Sırp despotluğunun iç toprağıdır ve
+Semendire'nin düştüğü **1459-06-20**'ye kadar Sırp kalır. Ayrıca Pasarofça'nın
+kurduğu Habsburg "Sırbistan Krallığı" (1718-1739) Şumadya'yı içine alıyordu —
+Semendire bunu zaten taşıyor, Belgrad'ın 1688-1690 işgali ise taşımıyor. İki nokta
+Semendire ile birebir aynı kırılmaları alırsa **yeni Değişmez 2 açığı doğmaz.**
+
+```js
+{ ad:"Kragujevac", tur:"sehir", lat:44.013, lon:20.911, g:0, k:4, m:"Belgrad", s:[{f:"1281-01-01",t:"1439-08-27",d:"sirbistan"},{f:"1444-08-01",t:"1459-06-20",d:"sirbistan"},{f:"1717-08-18",t:"1739-09-18",d:"avusturya"},{f:"1867-04-18",t:"1923-10-29",d:"sirbistan"}], d:[{f:"1439-08-27",t:"1444-08-01"},{f:"1459-06-20",t:"1717-08-18"},{f:"1739-09-18",t:"1867-04-18"}] },
+{ ad:"Çaçak", tur:"kale", lat:43.891, lon:20.350, g:0, k:4, m:"Belgrad", s:[{f:"1281-01-01",t:"1439-08-27",d:"sirbistan"},{f:"1444-08-01",t:"1459-06-20",d:"sirbistan"},{f:"1717-08-18",t:"1739-09-18",d:"avusturya"},{f:"1867-04-18",t:"1923-10-29",d:"sirbistan"}], d:[{f:"1439-08-27",t:"1444-08-01"},{f:"1459-06-20",t:"1717-08-18"},{f:"1739-09-18",t:"1867-04-18"}] },
+```
+
+**Düzeltme (#32) — ayrı karar:** Sırbistan 1830-1867 arası `v:` yapılacak mı?
+Yapılırsa Belgrad/Semendire kaleleri `d:` kalır (Eflak'ta İbrail-Yergöğü modeli),
+çevresi `v:` olur. **Merkezin kararı**; Değişmez 2 için 1830-08-15 Hatt-ı Şerîf'e
+madde gerekir.
+
+### 17.2 🔴 md.46-49 — Şarkî Rumeli haritada hiç yok, üstelik ters yönde
+
+TDV `berlin-antlasmasi`, ikinci bölge tarifi — kelimesi kelimesine:
+> *"idarî yönden bağımsız olmakla beraber **siyasî ve askerî yönden Osmanlı
+> Devleti'ne tâbi**, … Bâbıâli'nin beş yıl süre ile tayin edeceği bir hıristiyan
+> vali tarafından idare edilecek olan **Şarkî Rumeli eyaleti**"*
+
+TDV `bulgaristan` vilâyetin sancaklarını sayıyor:
+> *"**Filibe, İslimye, Eski Zağra, Tatarpazarcığı, Burgaz ve Hasköy** sancaklarından
+> müteşekkil Doğu Rumeli vilâyeti oluşturuldu. **Prenslik 1885'te** Doğu Rumeli
+> vilâyetini de topraklarına kattı."*
+
+Haritada bu yedi yıllık ara katman **hiç yok** ve üç yerleşim **birbirine zıt iki
+yönde** hatalı:
+
+| Yerleşim | Veride yazan | Olması gereken | Hata |
+|---|---|---|---|
+| **Filibe** | `d:` 1413-07-05 → **1878-07-13**, sonra `s:"bulgaristan"` | 1878-1885 Osmanlı'ya tâbi vilâyet | **7 yıl erken** gidiyor |
+| **Eski Zağra** | `d:` 1413-07-05 → **1923-10-29** | 1885'te Bulgaristan | **hiç gitmiyor — 38 yıl** |
+| **Tatarpazarcığı** | `d:` 1413-07-05 → **1923-10-29** | 1885'te Bulgaristan | **hiç gitmiyor — 38 yıl** |
+| **İhtiman** | `d:` 1413-07-05 → **1923-10-29** | 1878'de Bulgaristan Prensliği | **hiç gitmiyor — 45 yıl** |
+
+Sonuç haritada şu: Filibe 1880'den itibaren Bulgar rengine geçerken 30 km
+kuzeydeki Eski Zağra ve 35 km batıdaki Tatarpazarcığı 1923'e kadar Osmanlı
+kalıyor — yani **Bulgaristan'ın içine sokulmuş bir Osmanlı kaması.**
+
+**Düzeltme (#33):** dördünün de `d:` dönemi kapatılmalı.
+- Filibe · Eski Zağra · Tatarpazarcığı: `d:` … → **1878-07-13**, sonra
+  `v:[{f:"1878-07-13",t:"1885-09-18",k:"Şarkî Rumeli vilâyeti"}]`, sonra
+  `s:[{f:"1885-09-18",t:"1923-10-29",d:"bulgaristan"}]`
+- İhtiman: `d:` … → **1878-07-13**, sonra `s:"bulgaristan"` (Sofya sancağındadır,
+  Şarkî Rumeli'ye girmez — Sofya ile aynı zinciri alır)
+
+Her iki kırılmanın da maddesi **var**: 1878-07-13 Berlin (`olaylar.js`),
+1885-09-18 Doğu Rumeli'nin katılması (`olaylar_ek.js`).
+
+### 17.3 🔴 md.46-49 — Bulgaristan tâbi değil, bağımsız renkte çiziliyor
+
+Aynı TDV cümlesi birinci bölgeyi de tarif ediyor: *"**Osmanlı Devleti'ne tâbi**,
+iç işlerinde serbest, prensi halk tarafından seçilen, Bâbıâli tarafından tasdik
+… bir Bulgaristan prensliği"*. Edirne Mütarekesi'nin şartı da aynı:
+*"muhtar, milis teşkilâtı olan ve **Bâbıâli'ye vergi veren** bir Bulgaristan
+Emâreti"* (TDV `doksanuc-harbi`).
+
+**Kullanıcının sorusu — "Bulgaristan özerk mi bağımsız mı" — tam buraya oturuyor.
+Cevap: 1878-1908 arası ÖZERK, 5 Ekim 1908'den sonra BAĞIMSIZ.** Haritada ise
+Sofya, Tırnova, Varna, Şumnu, Rusçuk, Silistre ve Vidin 1877-12-10/1878-07-13'te
+doğrudan `s:"bulgaristan"` oluyor, yani **otuz yıl erken bağımsız renkte.**
+
+Eflak ve Boğdan aynı hukukî konumdayken `v:` ile modellenmiş. Bu bir tutarsızlık.
+
+**Düzeltme (#34):** yedi Bulgar yerleşiminde `s:"bulgaristan"` başlangıcı
+`v:[{f:"1878-07-13",t:"1908-10-05",k:"Bulgaristan Prensliği"}]` ile değiştirilip
+`s:` 1908-10-05'ten başlatılmalı. Her iki tarihin de maddesi var.
+⚠️ Sofya ve Plevne `1877-12-10` taşıyor (Plevne'nin düştüğü gün); Sofya'ya Ruslar
+**4 Ocak 1878'de** girdi. Tarih Plevne'den kopyalanmış görünüyor — **#35**.
+
+### 17.4 🔴 md.54 — Bosna: işgal deseni doğru, ilhak günü geç tepki veriyor
+
+`isg:` altyapısı çalışıyor: Saraybosna, Mostar ve Banaluka
+`isg:[{f:"1878-07-29",t:"1908-10-05",d:"avusturya",kaynak:"berlin-antlasmasi"}]`
+taşıyor ve TDV `bosna-hersek` bunu doğruluyor: *"29 Temmuz'da başlayan işgal
+20 Ekim 1878'de tamamlandı."*
+
+🔴 **Ama 1910 kesitinde Saraybosna hem `DOGRUDAN#2366` hem `dvl:avusturya`.**
+İlhak 1908-10-05'te yazılı, Osmanlı gövdesi ise ancak 1912'de çekiliyor —
+**~4 yıllık örtüşme**, Solnok'la (§13) aynı sınıf. Sebep aynı: Bosna'nın içinde
+üç nokta var ama çevresi (Yenipazar sancağı) 1912'ye kadar Osmanlı, gövde
+kopmuyor. **#36**
+
+🟡 **Tarih notu (#37):** TDV `bosna-hersek` ilhakı *"7 Ekim 1908"* diyor, TDV
+`balkan-savasi` ise 3 Ekim'den *"iki gün sonra"* diyerek 5 Ekim'i işaret ediyor.
+**İki TDV maddesi çelişiyor.** Veri 1908-10-05 taşıyor ve Bulgaristan'ın
+bağımsızlık ilânıyla aynı gün. İki günlük fark uğruna zincir değiştirilmedi;
+merkez isterse `bosna-hersek` esas alınabilir.
+
+### 17.5 🟢 Doğru çıkanlar — dokunulmamalı
+
+| Konu | Ölçüm |
+|---|---|
+| **md.28·29·30** Eflak-Boğdan birleşmesi | Bükreş ve Yaş 1880'de **hem vasal hem romanya**, 1890'dan itibaren temiz Romanya. Maddeler var (1859-01-24 Cuza, 1862-02-21 Romanya adı). Kullanıcının *"Boğdan vasal görünüyor Eflak görünmüyor"* şikâyeti **birleşmeyle ilgili değil** — §12/§15'teki emilme sorunudur, Eflak'ın içinde tek nokta olmasıdır. **Geriye dönük düzeltme gerekmiyor.** |
+| **md.3** Belgrad'ın 1867'de bırakılması | Veri ve madde doğru (1867-04-18) |
+| **md.38·39** 93 Harbi | Ayastefanos, Berlin, mütareke maddeleri zaten vardı; eksik olan askerî safhalardı → D-1…D-4 yazıldı |
+| **md.49** Teselya | 1881-07-02 maddesi var, Yenişehir/Tırhala `s:"yunanistan"` 1881-07-02, harita 1890'da doğru. Dömeke maddesi de var (1897-05-17) |
+| **md.57·58** Balkan savaşları | Yanya, Edirne'nin düşüşü, Londra, Edirne'nin geri alınışı, İstanbul ve Atina antlaşmaları — hepsi vardı; eksik olan savaşın ilk iki haftasıydı → D-5, D-6 |
+
+### 17.6 ⚠️ Kendi ölçüm hatam — kayda geçsin
+
+Bu bloğa *"93 Harbi kronolojide hiç yok"* diye başladım. Yanlıştı. Tarama
+`grep 't:"187[5-9]-…" … b:"…"` kalıbıyla yapılmıştı; bu kalıp `t:` ile `b:`nin
+**aynı satırda** olmasını şart koşar, oysa kronoloji kayıtlarının çoğu çok
+satırlı. Ayastefanos, Berlin, Edirne Mütarekesi, Doğu Rumeli 1885, Bosna ilhakı,
+Londra, Edirne'nin geri alınışı ve İstanbul Antlaşması maddelerinin hepsi vardı.
+
+Sekiz mükerrer madde yazıldı ve **`denetle.py`'nin 5. kontrolü hepsini yakaladı**;
+silindiler, blok 14 maddeden 6'ya indi. Yayına mükerrer madde gitmedi.
+
+📌 **Kural:** kronoloji dosyaları `grep` ile SAYILMAZ. `node -e` ile eval edilip
+nesne olarak sayılır. Bu, `OGRENILENLER.md`'ye girmeye değer.
+
+---
+
+## 18. Sırada
+
+✅ **B bloğu (hatalar 11, 1859-1913) BİTTİ** — §17. Sekiz maddenin sekizi cevaplı,
+sekiz yeni düzeltme satırı (#31-#38) açıldı, altı kronoloji maddesi yazıldı.
+✅ **Eflak nokta kümesi BİTTİ** — §15, on kayıt hazır.
+✅ **Soroka · Orhei · Reni BİTTİ** — §16; ikisi gerekli, Reni gereksiz çıktı.
+
+### Merkezin karar vermesi gerekenler (ben yapamam)
+- **#18 yeni üretim** — Hotin/Bender düzeltmesi hâlâ geometride yok
+- **#32** Sırbistan 1830-1867 `v:` yapılsın mı
+- **#37** Bosna ilhakı 5 mi 7 Ekim mi (iki TDV maddesi çelişiyor)
+- **#30** 1594-95 üçlü isyanının toprak karşılığı işlensin mi
+
+### Bende kalan, henüz başlanmamış
+- **Kili/Akkirman** tarih düzeltmeleri (§5, satır #13-#15) — veri merkezin,
+  eski maddelerin emekliye ayrılması (#17) benim dosyamda karşılanacak
+- **İnebahtı** (§6, satır #16-#17) — aynı durum
+- **Ayamavra** 1502-1503 ve 1715-1718 boşluklarına madde önerisi (satır #10)
+- **Dömeke** maddesi var (1897-05-17) ama TDV'de `domeke` slug'ı **ÖLÜ**;
+  kaynağının ne olduğu doğrulanmalı

@@ -1045,3 +1045,36 @@ sayı üretir ve ikisi de "ölçtüm" der:
 > Bir reçete ölçüyü söylüyor ama **kalibrasyonu söylemiyorsa**, iki bağımsız
 > ölçüm birbirini doğrulamaz — yalnız birbiriyle çelişir ve hangisinin doğru
 > olduğu anlaşılmaz. Bugün tam bu oldu: 32,5'e karşı 62,8, ve **ikisi de yanlıştı.**
+
+---
+
+## 30. Veri dosyaları `grep` ile SAYILMAZ — üçüncü kez aynı tuzak
+
+Oturum 11 bir bloğa *"93 Harbi kronolojide hiç yok"* diye başladı ve **sekiz
+mükerrer madde yazdı.** `denetle.py`'nin mükerrer kontrolü sekizini de yakaladı,
+silindi, blok 14 maddeden 6'ya indi — yayına mükerrer gitmedi.
+
+Sebep: tarama `grep 't:"187[5-9]-…" … b:"…"` kalıbıyla yapılmıştı ve bu kalıp
+`t:` ile `b:`nin **aynı satırda** olmasını şart koşuyor. Oysa kronoloji
+kayıtlarının çoğu çok satırlı. Ayastefanos, Berlin, Edirne Mütarekesi, Doğu
+Rumeli 1885, Bosna ilhakı, Londra, Edirne'nin geri alınışı, İstanbul Antlaşması
+— **hepsi zaten vardı.**
+
+**Bu, aynı tuzağın üçüncü tezahürü:**
+
+| | Vaka | Sonuç |
+|---|---|---|
+| `§19` | Kuveyt'i ad desenine göre hariç tutma | dışlama çalışmadı, ayrıca ölçülüp yakalandı |
+| `§19` | "Annaba ve Bicâye anakronik değil" | dördü de anakronikti |
+| **§30** | "93 Harbi kronolojide yok" | hepsi vardı, sekiz mükerrer yazıldı |
+
+Üçünde de kök aynı: **tek satırlık kayıt varsayımı.** Bu depoda geçersiz.
+
+> **Kural:** `data/*.js` dosyalarında bir kaydın VARLIĞI ya da YOKLUĞU `grep` ile
+> belirlenmez. `node -e` ile eval edilip **nesne olarak** sayılır — ya da
+> `girdi.py`/`arac` üzerinden yüklenir. `grep` yalnız *"nerede geçiyor"* sorusuna
+> yarar, *"kaç tane var"* sorusuna değil.
+
+⚠️ Ve yokluk iddiası varlık iddiasından **daha pahalıdır** (`§20`): bir şeyin var
+olduğunu tek bulguyla kanıtlarsın, olmadığını ancak eksiksiz taramayla. Eksik
+tarama "yok" der ve o "yok" mükerrer üretir.

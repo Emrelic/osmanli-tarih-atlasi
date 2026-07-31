@@ -294,4 +294,81 @@ window.OLAYLAR_EK10 = [
   d:"Prut seferinde Boğdan voyvodası Dimitrie Cantemir'in Rusya tarafına geçmesi, voyvodalığın kuzey sınırının artık voyvodaya bırakılamayacağını gösterdi. Bunun üzerine Hotin 1711'den sonra Boğdan'dan alınıp doğrudan Osmanlı idaresine sokuldu; önce bir nahiye, sonra sancak statüsü verildi. 1713'teki geçici Rus işgalinin ardından kale İstanbul'dan gönderilen Osmanlı ve Fransız teknik heyetinin nezaretinde yeniden tamir edilerek genişletildi ve Tuna'nın kuzeyindeki en güçlü Osmanlı istihkâmı hâline geldi. Haritada bu tarihten sonra Hotin'in tâbi voyvodalık tonundan çıkıp doğrudan Osmanlı rengine dönmesi, ve tâbi Boğdan'ın ortasında yalnız bir ada gibi durması işte bu idarî ayrılmanın karşılığıdır — bir çizim hatası değildir. Aynı yapı Bucak'ta 1538'den, Kili ve Akkirman'da 1484'ten beri zaten vardı: voyvodalık iç işlerinde serbest, sınır kaleleri devletin.",
   kaynak:"hotin" },
 
+// ===========================================================================
+// D BLOĞU — hatalar 11, Balkan ekseni 1877-1913 (md.38·39 · md.46-49 · md.54 ·
+//           md.57·58)
+// ===========================================================================
+// ⚠️ ÖLÇÜM HATASI VE DÜZELTİLMESİ — bu blok 14 maddeyle yazıldı, 6'ya indi.
+//    İlk tarama `grep 't:"187[5-9]-..." ... b:"..."` ile yapılmıştı; bu kalıp
+//    `t:` ile `b:`nin AYNI SATIRDA olmasını şart koşuyor, oysa bu projedeki
+//    kronoloji kayıtlarının çoğu çok satırlı. Tarama 1876-1913 aralığını neredeyse
+//    boş gösterdi ve "93 Harbi kronolojide yok" gibi YANLIŞ bir sonuca götürdü.
+//    Gerçekte Ayastefanos, Berlin, Edirne Mütarekesi, Doğu Rumeli 1885, Bosna
+//    ilhakı, Londra, Edirne'nin geri alınışı ve İstanbul Antlaşması maddelerinin
+//    HEPSİ zaten vardı (`olaylar.js`, `olaylar_ek.js`, `olaylar_ek5.js`).
+//    Sekiz mükerrer madde `denetle.py`'nin 5. kontrolüyle yakalandı ve silindi.
+//    📌 DERS: kronoloji dosyaları `grep` ile SAYILMAZ; `node -e` ile eval edilip
+//    nesne olarak sayılır. Tek satırlık kayıt varsayımı bu projede geçersizdir.
+//
+// Geriye kalan altı madde gerçekten eksik olanlardır — hepsi 93 Harbi'nin askerî
+// safhaları (`olaylar.js`'te yalnız ay hassasiyetli `1877-04` "93 Harbi" umbrella
+// maddesi vardı) ve Balkan savaşlarının ilk iki haftası.
+//
+// 🟡 MERKEZE: iki umbrella madde emekli edilmeli (benim dosyam değil):
+//    `olaylar.js`  1877-04  "93 Harbi (1877–78 Osmanlı-Rus Savaşı)"  → D-1 karşılıyor
+//    `olaylar.js`  1912-10  "Balkan Savaşları başladı"                → D-5 karşılıyor
+//    İkisi de ay hassasiyetli; CLAUDE.md §8 gün yazılmasını şart koşuyor ve ayın
+//    1'ine genişleyip gün hassasiyetli yerleşim değişimlerinden ÖNCE sıralanıyorlar.
+//
+// Kaynak: TDV `doksanuc-harbi` ve `balkan-savasi` — ikisi de `<title>` ile canlı
+// doğrulandı (31 Temmuz 2026).
+
+// --- md.38·39 — 93 Harbi'ne giden yol ve safhaları ------------------------
+
+{ t:"1877-04-24", k:"savas", etiket:["savas","diplomasi"],
+  b:"Rusya'nın savaş ilânı — Doksanüç Harbi'nin başlaması",
+  gun:"24 Nisan 1877", yer:"Tuna ve Doğu Anadolu cepheleri",
+  kisiler:"II. Abdülhamid, Serdârıekrem Abdülkerim Nâdir Paşa, Ahmed Muhtar Paşa, Grandük Nikola",
+  d:"1876 Bulgar İsyanı'nın bastırılışı Avrupa kamuoyunda büyük infial uyandırmış, Rusya bunu Bâbıâli'yi yalnızlaştırmak için sonuna kadar kullanmıştı. İstanbul (Tersane) Konferansı'nın Bulgaristan'ı iki muhtar eyalete bölme teklifi ve ardından 31 Mart 1877 tarihli Londra Protokolü Osmanlı Devleti tarafından reddedilince Rusya 24 Nisan 1877'de savaş ilân etti. Rûmî takvimde 1293 yılına rastladığı için savaş Doksanüç Harbi adıyla anılır. Harekât Tuna ve Doğu Anadolu olmak üzere iki cephede yürüdü: Tuna'da 180.000 kişilik Osmanlı ordusu nehrin sol kıyısını birinci, Balkan dağlarını ikinci savunma hattı saymıştı; doğuda Ahmed Muhtar Paşa'nın 55.000 askeri Ardahan-Doğubayazıt arasında mevzilenmişti. Bu savaş haritada Osmanlı Rumelisi'nin çöküşünü başlatan olaydır — Bulgaristan, Sırbistan, Karadağ ve Romanya'nın bugünkü sınırlarının hepsi bu on beş ayın ürünüdür.",
+  kaynak:"doksanuc-harbi" },
+
+{ t:"1877-06-27", k:"kayip", etiket:["savas","toprak-kaybi"],
+  b:"Rus ordusunun Tuna'yı geçmesi — Ziştovi ve Tırnova'nın düşüşü",
+  gun:"27 Haziran 1877", yer:"Ziştovi (Sviştov), Tuna'nın sağ yakası",
+  kisiler:"Grandük Nikola, Abdülkerim Nâdir Paşa",
+  d:"Savaşın başlamasıyla Romanya topraklarına giren ve bu prensliği kendi tarafına çeken Ruslar, biri Dobruca diğeri Bükreş istikametinde olmak üzere iki koldan ilerledi. Tuna, Rusçuk ile Niğbolu arasından geçildi ve 27 Haziran'da Ziştovi, 1 Temmuz'da eski Bulgar başşehri Tırnova ele geçirildi. Tahliyesi emredildiği halde bu hususa itina gösterilmediği için Niğbolu da bir müddet direndikten sonra teslim oldu. Birinci savunma hattının bir hafta içinde yarılması İstanbul'da büyük paniğe yol açtı; saltanat merkezinin Bursa'ya nakledileceğine dair haberler bile yayıldı ve savaşın idaresi başşehirde kurulan bir askerî meclise devredildi.",
+  kaynak:"doksanuc-harbi" },
+
+{ t:"1877-07-19", k:"kayip", etiket:["savas","toprak-kaybi"],
+  b:"Şıpka Geçidi'nin tahliyesi — Balkan hattının yarılması",
+  gun:"19 Temmuz 1877", yer:"Şıpka Geçidi, Balkan (Stara Planina) dağları",
+  kisiler:"General Gurko, Süleyman Paşa",
+  d:"Balkan dağlarını aşan geçitlerin en stratejiği olan Şıpka'daki Osmanlı kuvvetleri Rus saldırılarına şiddetle karşı koydular; ancak yenileceklerine kanaat getirince 19 Temmuz'da geçidi gizlice tahliye ettiler. Böylece ikinci savunma hattı da açıldı ve General Gurko 22 Temmuz'da Eski Zağra'yı ele geçirdi. Karadağ tarafından yetişen Süleyman Paşa Gurko'yu yenilgiye uğratıp Balkanların güneyindeki işgal altındaki yerleri geri aldıysa da 21 Ağustos'tan itibaren aylarca süren taarruzlara rağmen Şıpka'yı geri alamadı. Haritada bu, Balkan sıradağlarının kuzeyi ile güneyi arasındaki savunma bütünlüğünün bir daha kurulamamasıdır: Tuna cephesindeki mücadele bundan sonra Plevne'de düğümlenecektir.",
+  kaynak:"doksanuc-harbi" },
+
+{ t:"1877-11-18", k:"kayip", etiket:["savas","toprak-kaybi"],
+  b:"Kars'ın düşüşü — Doğu cephesinin çözülmesi ve Aziziye tabyaları",
+  gun:"18 Kasım 1877", yer:"Kars Kalesi ve Erzurum-Aziziye tabyaları",
+  kisiler:"Ahmed Muhtar Paşa, General Melikof, General Lazarof, Nene Hatun",
+  d:"Doğu Anadolu'da Kars, Doğubayazıt ve Ardahan'a doğru üç koldan ilerleyen Ruslar 30 Nisan'da Doğubayazıt'ı almış, Ardahan'a girmiş, fakat Erzurum üzerine yürürken 15 Temmuz'da mağlûp edilerek sınır dışına atılmışlardı. Ahmed Muhtar Paşa'ya \"Gazi\" unvanını kazandıran bu başarı ağustosta General Lazarof'un yeniden taarruza geçmesiyle tersine döndü ve 18 Kasım'da Kars düştü. Daha uygun bir savunma için Erzurum'a çekilen Osmanlı kuvvetleri Aziziye tabyalarında, Nene Hatun'un ahaliyi teşvikiyle büyük bir mukavemet gösterdi. Kars, Ardahan ve Batum sekiz ay sonra Berlin'de harp tazminatının bir kısmına karşılık Rusya'ya bırakılacaktır.",
+  kaynak:"doksanuc-harbi" },
+
+// --- md.46-49 — Ayastefanos'tan Berlin'e ----------------------------------
+
+// --- md.57·58 — Balkan savaşları -----------------------------------------
+
+{ t:"1912-10-08", k:"savas", etiket:["savas","ittifak"],
+  b:"I. Balkan Savaşı'nın başlaması — Karadağ'ın savaş ilânı",
+  gun:"8 Ekim 1912", yer:"Arnavutluk ve Yenipazar sancağı",
+  kisiler:"Karadağ Kralı Nikola, Sadrazam Gazi Ahmed Muhtar Paşa, Hariciye Nâzırı Noradungiyan Efendi",
+  d:"Balkan devletleri, İttihat ve Terakkî'nin 3 Temmuz 1911 tarihli kanunla kiliseler meselesini çözmesinin ardından aralarındaki en büyük engeli kaldırmış, Rusya'nın kışkırtmasıyla 1912 boyunca birbirleriyle ittifak antlaşmaları imzalamışlardı (13 Mart'ta Bulgaristan-Yunanistan, ağustosta Karadağ-Bulgaristan, 6 Ekim'de Karadağ-Sırbistan). Bâbıâli bunu farketmedi; hatta Rusya'nın teminatına güvenerek Rumeli'deki 120 tâlimli taburu terhis etti. Dört devlet 3 Ekim'de ortak nota vererek Makedonya, Arnavutluk ve Girit'e muhtariyet istedi; cevap alamayınca 8 Ekim 1912'de Karadağ'ın savaş ilânıyla harekât başladı. 13 Ekim'de Sırbistan ve Bulgaristan elçilerinin pasaportları ellerine verildi, ertesi gün bu iki devlet, ardından Yunanistan savaş ilân etti. ⚠️ Kronolojide bu olay bugüne kadar ay hassasiyetli `1912-10` olarak duruyordu; CLAUDE.md §8 gün yazılmasını şart koşuyor.",
+  kaynak:"balkan-savasi" },
+
+{ t:"1912-10-23", k:"kayip", etiket:["savas","toprak-kaybi"],
+  b:"Şark Ordusu'nun bozgunu ve Çatalca hattına çekiliş — Kumanova ve Selânik'in kaybı",
+  gun:"23 Ekim 1912", yer:"Doğu Trakya (Çatalca hattı), Kumanova, Selânik",
+  kisiler:"Tahsin Paşa, Gazi Ahmed Muhtar Paşa, Kâmil Paşa",
+  d:"Osmanlı Şark Ordusu 23 Ekim 1912'de kendisinden üç kat kalabalık Bulgar ordusuna yenilerek İstanbul'un otuz kilometre batısındaki Çatalca hattına kadar çekildi; başşehir savaşın ilk ayında doğrudan tehdit altına girdi. Aynı günlerde Garp Ordusu 23-24 Ekim'de Kumanova'da Sırplar'a yenildi ve Tahsin Paşa 35.000 kişilik ordusuyla Selânik'te Yunanlılar'a teslim oldu. Bu bozgunlar üzerine 29 Ekim'de Gazi Ahmed Muhtar Paşa kabinesi istifa etti; Selânik'te sürgün hayatı süren II. Abdülhamid 1 Kasım'da İstanbul'a nakledildi. Çatalca hattı savaşın sonuna kadar tutuldu — Rumeli'nin beş yüz yıllık Osmanlı coğrafyası birkaç hafta içinde bu dar şeride indi.",
+  kaynak:"balkan-savasi" },
+
 ];
