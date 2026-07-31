@@ -1340,9 +1340,9 @@ window.YERLESIMLER = [
 // TDV KARESİOĞULLARI: beylik Erdek, Biga, Edremit ve Bergama'ya hâkimdi;
 // ilhak 746/1345.
 { ad:"Edremit", tur:"liman", lat:39.596, lon:27.024, g:0, k:4, m:"Bursa",
-    s:[{f:"1281-01-01",t:"1297-01-01",d:"bizans"},{f:"1297-01-01",t:"1345-01-01",d:"karesi"}], d:[{f:"1345-01-01",t:"1923-10-29"}] },
+    s:[{f:"1281-01-01",t:"1297-01-01",d:"bizans"},{f:"1297-01-01",t:"1345-01-01",d:"karesi"},{f:"1402-07-28",t:"1403-09-01",d:"isa-celebi"},{f:"1403-09-01",t:"1404-03-01",d:"mehmed-celebi"},{f:"1404-03-01",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"mehmed-celebi"}], d:[{f:"1345-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1923-10-29"}] },
 { ad:"Erdek", tur:"liman", lat:40.399, lon:27.795, g:0, k:4, m:"Bursa",
-    s:[{f:"1281-01-01",t:"1297-01-01",d:"bizans"},{f:"1297-01-01",t:"1345-01-01",d:"karesi"}], d:[{f:"1345-01-01",t:"1923-10-29"}] },
+    s:[{f:"1281-01-01",t:"1297-01-01",d:"bizans"},{f:"1297-01-01",t:"1345-01-01",d:"karesi"},{f:"1402-07-28",t:"1403-09-01",d:"isa-celebi"},{f:"1403-09-01",t:"1404-03-01",d:"mehmed-celebi"},{f:"1404-03-01",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"mehmed-celebi"}], d:[{f:"1345-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1923-10-29"}] },
 // TDV KARAKOYUNLULAR: "Van-Erciş bölgesi merkez olmak üzere" kuruldu.
 { ad:"Erciş", tur:"kale", lat:39.026, lon:43.360, g:0, k:4, m:"Van",
     s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1469-01-01",d:"karakoyunlu"},{f:"1469-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-25",d:"safevi"}], d:[{f:"1548-08-25",t:"1923-10-29"}] },
@@ -1374,7 +1374,7 @@ window.YERLESIMLER = [
 { ad:"Akçakoca", tur:"liman", lat:41.086, lon:31.126, g:0, k:4, m:"Ankara",
     s:[{f:"1281-01-01",t:"1309-01-01",d:"bizans"},{f:"1309-01-01",t:"1392-11-01",d:"candar"},{f:"1402-07-28",t:"1461-06-01",d:"candar"}], d:[{f:"1392-11-01",t:"1402-07-28"},{f:"1461-06-01",t:"1923-10-29"}] },
 { ad:"Ayvalık", tur:"liman", lat:39.317, lon:26.694, g:0, k:4, m:"Bursa",
-    s:[{f:"1281-01-01",t:"1297-01-01",d:"bizans"},{f:"1297-01-01",t:"1345-01-01",d:"karesi"}], d:[{f:"1345-01-01",t:"1923-10-29"}] },
+    s:[{f:"1281-01-01",t:"1297-01-01",d:"bizans"},{f:"1297-01-01",t:"1345-01-01",d:"karesi"},{f:"1402-07-28",t:"1403-09-01",d:"isa-celebi"},{f:"1403-09-01",t:"1404-03-01",d:"mehmed-celebi"},{f:"1404-03-01",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"mehmed-celebi"}], d:[{f:"1345-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1923-10-29"}] },
 
 // ======= İRAN, IRAK, DOĞU KAFKASYA VE KÖRFEZ (Oturum 4) =======
 // 126 yerleşim. Görev tanımı: oturumlar/OTURUM-4-IRAN-YERLESIM.md
