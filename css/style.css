@@ -814,6 +814,28 @@ body {
   pointer-events: none;
 }
 
+/* Konu süzgeci (PLAN-ETIKET §8) — kronoloji listesinin üstünde, KAPALI açılır.
+   Varsayılan kapalı: süzgeç bir araç, atlasın kendisi değil; açık dursaydı
+   listenin üstünden yedi satır yer alırdı. */
+#konu-suzgec { border-bottom: 1px solid var(--altin); background: rgba(247,241,227,.5); }
+.suzgec-baslik {
+  width: 100%; text-align: left; cursor: pointer;
+  background: none; border: none; padding: 6px 10px;
+  font: 600 12px/1.3 system-ui, sans-serif; color: #4d3a20;
+}
+.suzgec-baslik:hover { background: rgba(200,162,74,.18); }
+.suzgec-govde { display: none; padding: 2px 10px 8px; }
+#konu-suzgec.acik .suzgec-govde { display: block; }
+.suzgec-govde label {
+  display: flex; align-items: center; gap: 6px;
+  padding: 2px 0; font-size: 12px; cursor: pointer;
+}
+/* Sayı sağa yaslı ve soluk: bilgi ama karar değil. */
+.suzgec-govde label i { margin-left: auto; font-style: normal; opacity: .55; font-size: 11px; }
+
+/* Süzülen kronoloji satırı GİZLENİR, silinmez — indeksler korunuyor. */
+.olay.suzuldu { display: none; }
+
 /* Bölge (eyalet) adı — md.21'in ikinci yarısı.
    İKİNCİ KADEME olduğu ayrı bir eksende anlatılıyor: punto değil BİÇİM.
    Sebep ölçülmüş bir çakışmadan geliyor — bölge bandı 8-14, devlet bandı

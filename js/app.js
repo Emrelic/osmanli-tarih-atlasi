@@ -1716,6 +1716,105 @@ olaylar.forEach(function (o, i) {
   olayDom.push(div);
 });
 
+// ---------- KRONOLOJİ SÜZGECİ — arayüz katmanı (PLAN-ETIKET §8) ----------
+// Mantık `js/suzgec.js`'te ve DOM'suz; node'da 20 sağlamayla sınandı. Burada
+// yalnız INCE katman var: kutucuklar, sayılar, URL. Karar mantığı buraya
+// KOPYALANMIYOR — iki yerde duran kural bayatlar (§35).
+//
+// 🔴 SÜZME = GİZLEME, SİLME DEĞİL. `olaylar` dizisine dokunulmuyor; yalnız
+// satıra `.suzuldu` sınıfı biniyor. Sebebi mimarî: zaman göstergesi, ikili
+// arama, "şimdiki" vurgusu ve harita senkronu hepsi indeks üzerinden çalışıyor.
+// Diziyi süzseydik bütün indeksler kayardı ve süzgeç açılınca harita yanlış
+// tarihe giderdi — kullanıcının göremeyeceği, denetimin ötmeyeceği bir hata.
+var suzgecSecim = null;                       // null = süzme yok (hepsi açık)
+
+function suzgecUygula() {
+  var gizli = 0;
+  for (var i = 0; i < olaylar.length; i++) {
+    var gorunur = !suzgecSecim ||
+                  suzgecSecim.indexOf(window.SUZGEC.maddeGrubu(olaylar[i])) >= 0;
+    olayDom[i].classList.toggle("suzuldu", !gorunur);
+    if (!gorunur) gizli++;
+  }
+  var sayacEl = document.getElementById("olay-sayac");
+  if (sayacEl) sayacEl.dataset.gizli = gizli;   // olaylarGuncelle metni yazarken okur
+  olaylarGuncelleZorla();
+  suzgecUrlYaz();
+}
+// Sayaç metnini tazelemek için: olaylarGuncelle erken dönüyor (aynı indekste
+// iş yapmıyor), süzgeç değişince metin bayat kalırdı.
+function olaylarGuncelleZorla() {
+  var eski = sonVurgulanan;
+  sonVurgulanan = -1;
+  olaylarGuncelle(suanki);
+  if (eski === sonVurgulanan) return;
+}
+
+// ⚠️ SEÇİM URL'DE TAŞINIR — kullanıcı kararı: bir süzme sonucu PAYLAŞILABİLİR
+// olmalı ("akademik başvuru kaynağı" iddiasının pratik karşılığı). Sonradan
+// eklenmesi zor, baştan kolay.
+function suzgecUrlYaz() {
+  var u = new URL(window.location.href);
+  if (suzgecSecim) u.searchParams.set("konu", suzgecSecim.join(","));
+  else u.searchParams.delete("konu");
+  window.history.replaceState(null, "", u);
+}
+function suzgecUrlOku() {
+  var s = new URL(window.location.href).searchParams.get("konu");
+  if (!s) return null;
+  var gecerli = window.SUZGEC.KONU_GRUPLARI.map(function (g) { return g.id; });
+  var secili = s.split(",").filter(function (g) { return gecerli.indexOf(g) >= 0; });
+  // Hepsi seçiliyse süzme yok sayılır: URL'de kalıntı bırakmasın.
+  return (!secili.length || secili.length === gecerli.length) ? null : secili;
+}
+
+(function suzgecKur() {
+  if (!window.SUZGEC || !olayListe) return;    // modül yüklenmediyse sessizce yok
+  var sayilar = window.SUZGEC.grupSayilari(olaylar);
+  var kutu = document.createElement("div");
+  kutu.id = "konu-suzgec";
+  var baslik = document.createElement("button");
+  baslik.className = "suzgec-baslik";
+  baslik.textContent = "⛭ Konu süzgeci";
+  var govde = document.createElement("div");
+  govde.className = "suzgec-govde";
+
+  suzgecSecim = suzgecUrlOku();
+  window.SUZGEC.KONU_GRUPLARI.forEach(function (g) {
+    var et = document.createElement("label");
+    var kt = document.createElement("input");
+    kt.type = "checkbox";
+    kt.value = g.id;
+    kt.checked = !suzgecSecim || suzgecSecim.indexOf(g.id) >= 0;
+    kt.addEventListener("change", function () {
+      var secili = [];
+      govde.querySelectorAll("input:checked").forEach(function (e) { secili.push(e.value); });
+      // Hepsi işaretliyse "süzme yok" — böylece sayaçta ve URL'de kalıntı olmaz.
+      suzgecSecim = (secili.length === window.SUZGEC.KONU_GRUPLARI.length) ? null : secili;
+      suzgecUygula();
+    });
+    et.appendChild(kt);
+    var ad = document.createElement("span");
+    ad.textContent = g.ad;
+    et.appendChild(ad);
+    // ⚠️ Sayı SÜZÜLMEMİŞ küme üzerinden: bir grubu kapatınca diğerlerinin sayısı
+    // değişmemeli, yoksa "kapattığım şey ötekini de mi azalttı" diye okunur.
+    var n = document.createElement("i");
+    n.textContent = sayilar[g.id];
+    et.appendChild(n);
+    govde.appendChild(et);
+  });
+
+  baslik.addEventListener("click", function () {
+    kutu.classList.toggle("acik");
+  });
+  kutu.appendChild(baslik);
+  kutu.appendChild(govde);
+  olayListe.parentNode.insertBefore(kutu, olayListe);
+  if (suzgecSecim) kutu.classList.add("acik");   // süzme açıksa gizli kalmasın
+  suzgecUygula();
+})();
+
 // Titreme önleme: her tıkta 234 satırı yeniden boyamak yerine yalnızca eski ve
 // yeni konum arasındaki satırlar güncellenir; kaydırma oynatmada seyreltilir.
 var sonVurgulanan = -1;
@@ -1734,7 +1833,12 @@ function olaylarGuncelle(t) {
   if (sonVurgulanan >= 0) olayDom[sonVurgulanan].classList.remove("simdiki");
   var sayacEl = document.getElementById("olay-sayac");
   if (sayacEl) {
-    sayacEl.textContent = (yeni + 1) + " / " + olaylar.length + " başlık";
+    // ⚠️ Süzgeç açıkken gizlenen sayısı YAZILIR. Yoksa sayaç "994 başlık" der,
+    // listede 905 satır görünür ve aradaki fark sessiz kalır — kullanıcı
+    // eksikliği kusur sanar. Görünen her değişikliğin sayısı da görünmeli.
+    var gizli = +(sayacEl.dataset.gizli || 0);
+    sayacEl.textContent = (yeni + 1) + " / " + olaylar.length + " başlık" +
+                          (gizli ? "  ·  " + gizli + " gizli" : "");
   }
   if (yeni >= 0) {
     olayDom[yeni].classList.add("simdiki");
