@@ -169,9 +169,33 @@ for (var _dz = 0; _dz < donemler.length; _dz++) {
 // yerleşim peteklerinin birleşimi; yalnız merkezin Osmanlı aralığında çizilir.
 var bolgeler = (window.BOLGELER || []).map(function (b) {
   return { fi: gunIdx(b.f), ti: gunIdx(b.t),
+           // `uy` = bölgeye bağlı yerleşimler. Etiketin ipucu metnine giriyor:
+           // kullanıcı "bu bölge neyi kapsıyor" diye sorduğunda cevap orada.
+           uy: b.uy || null,
            ft: { type: "Feature", properties: { ad: b.ad },
                  geometry: { type: "MultiPolygon", coordinates: b.g } } };
 });
+// 🔴 BÖLGE ETİKETİNE NİTELİK EKİ — ölçülmüş bir kusurun karşılığı.
+// Kullanıcı İKİ KEZ aynı şeyi bildirdi: *"Çankırı'nın kuzeyinde garip bir
+// Ankara etiketi daha var"* ve *"hakiki Bursa'nın doğusunda bir Bursa etiketi
+// daha var, hata galiba."* İkisi de hata değil — ikinci etiket idarî BÖLGE.
+// Ve sistematik: **62 bölgenin 62'si bir yerleşimle aynı adı taşıyor**;
+// bölge etiketi ile aynı adlı şehir arası medyan 65 km, azami 460 (Basra).
+// Kullanıcı iki vakada bildirdi, altmışı duruyordu.
+//
+// Üç yol ölçülüp ikisi elendi:
+//   (c) etiketi bölgenin merkezine taşı → bölge kaydının `lat/lon`'u ZATEN
+//       aynı adlı şehir; mesafe SIFIRA iner, iki etiket birebir üst üste biner
+//   (b) görsel ayrımı güçlendir → stil farkı ZATEN var (kahve, normal yazım,
+//       8-14 punto) ve kullanıcı buna rağmen iki kez ayırt edemedi. Stil
+//       "farklı bir şey" der, "bu ne" sorusuna cevap vermez
+//   (a) ada nitelik ekle → cevabı bir AD, ve bu uygulandı
+//
+// ⚠️ "eyaleti" DEĞİL: kurum türü alanı yok (`k:` yalnız 4×k1, 58×k2) ve kurum
+// devirle değişiyor (beylerbeylik → eyalet → vilâyet). "bölgesi" zamandan
+// bağımsız; "eyaleti" hangi tarihte doğru olduğu AYRI bir veri işi.
+// ⚠️ `bolgeler.js` ÜRETİLMİŞ dosya — ek burada, çizim anında yapılıyor.
+var BOLGE_EKI = " bölgesi";
 function bolgeVerisi(t) {
   return { type: "FeatureCollection",
            features: bolgeler.filter(function (b) { return b.fi <= t && t < b.ti; })
@@ -383,17 +407,23 @@ function etiketleriYerlestir() {
       b.ec = enB ? { c: etiketNoktasi(enB), alan: enA } : { yok: 1 };
     }
     if (b.ec.yok) continue;
-    bAday.push({ ad: b.ft.properties.ad, c: b.ec.c, alan: b.ec.alan });
+    // ⚠️ `yazi` ile `ad` AYRI tutuluyor. Ölçüler (sığma tavanı, çakışma kutusu)
+    // EKRANDA GÖRÜNEN metne göre hesaplanmalı; `ad` üzerinden hesaplansaydı
+    // kutu ekin genişliği kadar DAR çıkardı. Bu, şehir işaretlerinde bugün
+    // düzelttiğim kusurun ta kendisi (emoji yüzünden dar kutu → eleme
+    // çakışmayı göremiyordu). Aynı hatayı ek koyarken tekrarlamıyorum.
+    bAday.push({ ad: b.ft.properties.ad, yazi: b.ft.properties.ad + BOLGE_EKI,
+                 uy: b.uy, c: b.ec.c, alan: b.ec.alan });
   }
   bAday.sort(function (a, b2) { return b2.alan - a.alan; });
   var pxDerece2 = 512 * Math.pow(2, z) / 360;
   for (var bk = 0; bk < bAday.length; bk++) {
     var be = bAday[bk];
     var bpt = harita.project(be.c);
-    var bsigma = Math.sqrt(be.alan) * pxDerece2 * 0.85 / (be.ad.length * KARAKTER);
+    var bsigma = Math.sqrt(be.alan) * pxDerece2 * 0.85 / (be.yazi.length * KARAKTER);
     var bpunto = BOLGE_TABAN + BOLGE_EGIM * (Math.log(be.alan / BOLGE_REF) / Math.LN2);
     bpunto = Math.max(BOLGE_TABAN, Math.min(BOLGE_TAVAN, Math.min(bpunto, bsigma)));
-    var bg = be.ad.length * KARAKTER * bpunto + 6, by = bpunto * 1.36;
+    var bg = be.yazi.length * KARAKTER * bpunto + 6, by = bpunto * 1.36;
     var bkutu = { x0: bpt.x - bg / 2, x1: bpt.x + bg / 2,
                   y0: bpt.y - by / 2, y1: bpt.y + by / 2 };
     var bcarpti = false;
@@ -407,7 +437,9 @@ function etiketleriYerlestir() {
     var bel = document.createElement("div");
     bel.className = "bolge-etiket";
     bel.style.fontSize = bpunto.toFixed(1) + "px";
-    bel.textContent = be.ad;
+    bel.textContent = be.yazi;
+    // Bağlı yerleşimler ipucuda: "bu bölge neyi kapsıyor" sorusunun cevabı.
+    if (be.uy && be.uy.length) bel.title = be.ad + " — " + be.uy.join(", ");
     bolgeEtiketleri.push(new maplibregl.Marker({ element: bel, anchor: "center" })
       .setLngLat(be.c).addTo(harita));
   }
