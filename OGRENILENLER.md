@@ -1315,3 +1315,36 @@ dışa aktarılan dosya varsa o kullanılır, yoksa eski yerel üretim sürer. B
 iki oturumun aynı anda iş yapması gerekmedi, kilit gerekmedi, ve dosya belirdiği
 an davranış kendiliğinden değişti. İki taraflı bir değişikliği tek taraflı
 uygulanabilir hâle getirmek, koordinasyon maliyetini sıfırlıyor.
+
+## §36 — `git add` ile `git commit` arasındaki pencere ORTAKTIR
+
+Kural yazılıydı: *"`git add .` yasak, dosyaları tek tek ekle."* ARAYÜZ oturumu
+aynen uyguladı — beş dosyayı tek tek ekledi, `git diff --cached --stat` ile
+doğruladı, yalnız kendi dosyaları olduğunu gördü. Sonra `git commit` dedi ve
+**"no changes added to commit"** cevabını aldı.
+
+Aradaki saniyelerde ben başka bir iş için commit atmıştım. **Onun hazırladığı
+beş dosya benim commit'ime girdi** — `OGRENILENLER §35` başlıklı commit'in
+içinde 139 satır `app.js`, 19 satır `css`, 234 satır ilerleme dosyası.
+
+İçerik kaybolmadı, yayına doğru gitti. Kaybolan **izlenebilirlik**: arayüz işi
+alâkasız bir başlığın altında, gerekçesi kütükte yok.
+
+**Sebep, ve kuralın eksik yarısı:** `git add` **depoya ait tek bir indekse**
+yazar. Kural *eklemeyi* düzenliyor, **hazırlama ile commit arasındaki
+pencereyi** düzenlemiyor. O pencerede commit atan kim olursa olsun, başkasının
+hazırladığını da alır.
+⚠️ **Tek yazarlı dosya kuralı bunu KORUMAZ** — dosyalar gerçekten yalnız onundu.
+Sahiplik çakışması yoktu; çakışan şey *indeksti*.
+
+**Ders:**
+```bash
+git commit -o <dosya...> -m "..."     # --only: YALNIZ adı verilen yolları alır
+```
+`-o` penceyi tamamen kapatır: indekste başka ne hazırlanmış olursa olsun
+commit'e girmez. Hazırlama ile commit'i bitişik tutmak da işe yarar ama
+disiplin ister; `-o` yapısal olarak çözer.
+
+📌 Ve bu, §35'in kardeşi: **doğru refleks (tek tek `add`) ölçümün yerini
+tutmadı.** Kural uygulandı, sonuç yine yanlış oldu, çünkü kural yanlış yeri
+koruyordu. Bir kuralın "uygulandı" olması, "işe yaradı" demek değil.
