@@ -2063,3 +2063,56 @@ katmanı değil **rengi** işaret ediyordu, ve renk `d:` demekti.
 belirtisini bizden iyi görüyor.** Onun tarifini "yanlış anlamış" diye
 düzeltmek yerine **tam olarak neyi tarif ettiğini** sormak, dört vakada da
 daha kısa yol olurdu.
+
+---
+
+## §57 — Kullanıcının teşhisi belirtide doğru, SEBEPTE yanlış olabilir; sebebi biz ölçeriz
+
+Kullanıcı bugün altı ekran görüntüsü gönderdi ve dördünde sebebi de kendi
+yazdı:
+
+> *"gene **topografya eksikliğinden** kaynaklanıyor"*
+> *"Edirne'nin doğu sınırı cetvelle çizilmiş gibi, **hiçbir topografik
+> unsurdan geçmiyor** dağ tepe nehir"*
+
+Belirti tarifi kusursuzdu (§56 yine doğrulandı). Sebep tahmini ise **yarı
+doğruydu** — ve bu yarım, bir 3,6 saatlik koşuyu yanlış işe bağlayacaktı.
+
+Ölçtüm — en yakın komşuya uzaklık:
+
+| bölge | nokta | ortanca | en uzak |
+|---|---|---|---|
+| Batı Anadolu | 56 | **19 km** | 81 km |
+| Trakya | 17 | 31 km | 91 km |
+| Bosna | 10 | 57 km | 141 km |
+| Boğdan | 8 | **79 km** | 96 km |
+| Kırım bozkırı | 7 | 26 km | **495 km** |
+| tüm veri | 1556 | 64 km | %90'lık 175 km |
+
+Ve Bosna'nın veri setindeki **toplam yerleşimi 3'tü**: Saraybosna, Mostar,
+Banaluka. "Bosna'nın fethi" haritada tek peteğin rengi olarak çiziliyordu.
+
+🔴 **Sonuç: eksik olan yükselti değil, nokta.** İki nokta 300 km uzaktaysa
+aralarındaki Voronoi ayracı düz bir doğrudur — yakınına bir sırt ya da
+nehir *denk gelmedikçe* yaslanacak hiçbir şey yoktur. DEM ne kadar iyi
+olursa olsun seyrek bölgede cetvel çizgisini düzeltemez, çünkü yaslama bir
+hattı **var olan** bir doğal unsura çeker; yoksa üretmez.
+
+Yani kullanıcının gördüğü dört kusur iki ayrı hastalıktan geliyordu ve
+ikisinin ilacı ayrıydı:
+
+| hastalık | belirti | ilaç |
+|---|---|---|
+| **veri boşluğu** | tâbi olan hanedanın bir parçası dışarıda kalıyor | 4 kayda `v:` penceresi (kapatıldı) |
+| **nokta seyrekliği** | cetvel sınır · kıymık · tek nokta teması · dev kama | yeni yerleşim noktası |
+
+📌 **Kural:** kullanıcı bir kusuru bildirdiğinde belirtiyi olduğu gibi al,
+ama **sebebi ondan devralma.** Sebep bir hipotezdir ve hipotezin sahibi
+kim olursa olsun ölçülmeden iş kuyruğuna girmez. Burada sebebi devralsaydım
+COĞRAFYA'nın DEM koşusunu bekleyecek, koşu bitince kusurlar yerinde
+duracak, ve *"DEM işe yaramadı"* diye yanlış sonuç çıkaracaktık.
+
+⚠️ Bunun ikizi §41'de yazılı: orada bir ölçüt bayatlamıştı, burada bir
+sebep hiç ölçülmemişti. İkisinin ortak dersi aynı: **kararı taşıyan sayı
+yoksa, karar yok — sadece kanaat var.**
+
