@@ -32,6 +32,60 @@ durum tablosunu güncelle.
 - [ ] **Devletler dizininin dünya kapsamına çıkarılması** — Eksen 3, aşama D-1 ve
       D-2. Görev tanımı hazır: `oturumlar/OTURUM-3-DEVLETLER.md`. *Oturum 3*
 
+- [ ] 🔴 **ALTLIK: KADEMELİ GEÇİŞ — kullanıcı kararı, 31 Temmuz.**
+      Bugün ekranda görünen kabartmalı harita **Esri'nin sunucusundan** geliyor
+      (`js/app.js:359`, `World_Physical_Map`) ve kamu malı değil. Kullanıcının
+      şartı: *"harita bizim olsun, açık kaynak olsun ama uhdemizde ve
+      kontrolümüzde kalsın."* Esri bu şartı bozan **tek** bileşen — vektörlerin
+      tamamı (Natural Earth) kamu malı ve bizde.
+      ```
+      1. Esri altlığı ŞİMDİLİK KALIR
+      2. Üstüne bizim vektör katmanımız AÇILIR-KAPANIR olarak eklenir
+      3. Katman yeterince iyi görününce Esri KALDIRILIR
+      ```
+      Neden bu yol: vektör katman önce **hata ayıklama aracı** olarak işe yarar
+      (motorun gerçekten kullandığı nehir/sırt gözle görünür), sonra altlığın
+      kendisi olur. Tek iş, iki teslim, risk yok.
+      ⚠️ **İki bütçe ayrı:** depoda `ne_10m_*` zaten var (26,8 MB, yeni indirme
+      yok) ama `index.html` onlardan **hiçbir şey çekmiyor** (ölçüldü: 0 atıf) —
+      yani vektör altlık **sayfaya yeni yük**. Sayfa bugün 37 MB taşıyor.
+      Pencereye kırpılmış + zoom'a göre sadeleştirilmiş hedef boyut şartnamede
+      ölçülecek.
+      ⚠️ Kabul edilen bedel: **kabartma gölgesi gider** — dağlar 3B değil, alan
+      olarak görünür. Kullanıcı bunu bilerek seçti.
+      🔴 **OSM (ODbL) ve OpenTopoMap (CC-BY-SA) ELEME SEBEBİ** — kalite değil,
+      lisans: bulaşıcıdırlar, türevi aynı şartlarla paylaşmaya zorlarlar. Harita
+      "açık" kalır ama **kontrol bizde olmaz.** Kamu malı kaynakta kalınacak.
+      📌 İkinci kazanç: bugün kullanıcı fotoğrafta Toroslar'ı görüyor, motor
+      `Taurus Mts.` poligonunun `buffer(-0.12)` konturunu kullanıyor — **aynı yer
+      değil.** Kademe 2'den sonra görünen hat ile motorun hattı aynı olur.
+      Şartname: `oturumlar/COGRAFYA-HATLAR.md` *(COĞRAFYA yazar, K uygular)*
+
+- [ ] 🔴 **ÇÖL TAVANI 300 km — kullanıcı kararı, 31 Temmuz.**
+      Bugün tavan YOK: Batı Sahra'nın ortası **1.000 km öteden** Timbuktu'ya ve
+      Agadir'e bağlı. Kullanıcının itirazı: *"bir yerleşim çöl kıyısında diye
+      Sahra'nın diğer yakasındaki şehirle koca çöl alanını ikiye bölmemeli…
+      ülke sınırlarında suni bir büyüklük yaratır."*
+      Ölçüm (COĞRAFYA): çöl içi en yakın yerleşime medyan 201 km · %90 481 km ·
+      azami 1.077 km. Bölge bölge: Anadolu 47 · Rumeli 57 · Mısır 81 ·
+      Libya 124 · Arabistan 176 · **Batı Sahra 417** ← tek bozuk bölge.
+      300 km yerleşik toprağa **hiç dokunmuyor** (Anadolu azami 125 · Rumeli 199
+      · Mısır 225 · Libya %90'ı 206), Sahra'nın %32,4'ü sahipsiz kalır.
+      ⚠️ **İKİ MUAFİYET ŞART:**
+      1. **Su koridoru muaf** — NE'nin çöl lekesi Nil vadisinin ÜSTÜNDEN geçiyor,
+         vadiyi oymuyor. Çöl poligonunun içinde ve Nil'e 55 km'den yakın **35
+         yerleşim** var (Esna 0 km · Asyut 1 · Uksur 1 · Asvan 3 · Hartum 8).
+         Ham tavan Mısır'ı keserdi.
+      2. Kıyı ve göl boyunca uzanma sınırlanmayacak.
+      ✅ Motor bunu kaldırabiliyor: `uret_petek.py:911` SERBEST KENAR +
+      `js/app.js:435` + `SERBEST_U` belirsizlik dizisi zaten var. Görsel sonuç
+      **sönen kenar** olmalı, keskin çizgi değil — çöldeki hâkimiyet keskin
+      çizgiyle bitmez.
+      🔴 **Yarısı VERİ işi:** 391 km'lik Batı Sahra medyanı kuralın değil
+      noktasızlığın sonucu. Tindûf · Şinkît · Vâdân · Tîşît · Vâlâta · Smara
+      eklenmeli. *(A3 ARAP-AFRİKA)*
+      Şartname: `oturumlar/COGRAFYA-COL-TAVANI.md` *(COĞRAFYA yazar, MOTOR uygular)*
+
 - [ ] **`ayaklanma` / `isyan` — aynı kavram, iki yazım.** Veride `ayaklanma` 32,
       `isyan` 12; şemanın resmî değeri `ayaklanma`. CSS bugün ikisine de aynı rengi
       veriyor, yani **görünürde sorun yok** — ama panelde kategori metni ham `k:`
