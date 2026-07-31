@@ -86,7 +86,18 @@ durum tablosunu güncelle.
       ⚠️ Gerekçesi **"ölçülen bozukluk" DEĞİL, "birim tutarlılığı"** — enlem
       hipotezi (kuzeyde çöküş daha ağır) ölçüldü ve **çürütüldü**; belirleyici
       değişken komşu mesafesi. Zayıf değil, dürüst gerekçe.
-      ⇒ Çöl tavanıyla **aynı koşuda**, tek kalem olarak. *(MOTOR)*
+      🔴🔴 **`cos(enlem)` TEK BAŞINA UYGULANIRSA HARİTAYI BOZAR.** Ölçüldü
+      (COĞRAFYA, 31 Temmuz): `nehir_mes` gerçek 33 km'ye çıkınca **daha çok köşe
+      nehre çekilir** ve nehir üstündeki yerleşimler daha da aşınır:
+      ```
+      Mihaliç %65 → %26  (−39p) · Kûfe %52 → %20 (−32p) · Simav −30p · Aydın −28p
+      16 vakanın 8'i kötüleşiyor, dördü 30 puandan fazla
+      ```
+      ⚠️ Ve **kimse aramaz**, çünkü düzeltmenin kendisi "birim tutarlılığı" diye
+      meşru görünür. Fark enlem sıralı da değil (Kûfe 32°'de −32p, Budin
+      47,5°'de 0p) — etki **kalan paya** bağlı.
+      ⇒ **Aşağıdaki nehir kuralı ÖNCE devrede olacak şekilde, aynı koşuda.**
+      Ayrı adım DEĞİL. *(MOTOR)*
 
 - [ ] **Yedinci denetime İKİNCİ BANT** — `%10 altı` ile `%10-60` iki ayrı soru.
       Bugünkü eşik "hücre YOK EDİLDİ" için kalibre (Estergon 8/4.819 = %0,2).
@@ -102,7 +113,33 @@ durum tablosunu güncelle.
       gerçekten çözmüş, 8 km²'lik çöküş yama öncesine ait. Yamanın işe yaradığı
       ilk ölçüm. Yeni ölçüt: **Estergon %93'ün altına inmemeli.**
 
-- [ ] **Nehrin üstündeki yerleşimin peteği aşınıyor — 7 kayıt.**
+- [ ] 🔴 **Nehrin üstündeki yerleşimin peteği aşınıyor — 16 kayıt.**
+      ⚠️ İlk ölçüm **7** demişti ve YANLIŞTI: kesit *mesafeyle* (nehre <2 km)
+      seçilmişti. Etkiyle seçilince **en kötü üç vaka kesitin DIŞINDA** çıktı —
+      Geyve %21 · Adapazarı %25 · Balat %34, üçü de Budin'den beter.
+      📌 Mesafe ölçüt olamaz: **Mihaliç nehrin 10 METRESİNDE ve %65 koruyor**,
+      Geyve 3 km uzakta ve %21'e düşüyor. Belirleyici olan mesafe değil, nehrin
+      hücreyi **ortadan mı kesip kenarından mı geçtiği.**
+      Eşik **%80**, ölçülmüş bir boşluğa oturuyor (Aydın %74 ↕ 7 puan ↕
+      Niksar %81; altta ardışık farklar 0-5 puan). ⚠️ Keskin uçurum değil —
+      %75/%85 seçilse sınıf 14/18 olur; A/B sınırdakileri ayrıca raporlasın.
+      ```
+      Geyve %21 · Adapazarı %25 · Balat %34 · Budin %41 · Kûfe %52 ·
+      Dimetoka %53 · Akhisar %57 · Hotin %58 · Mekece %58 · Ordubad %63 ·
+      Çarşamba %64 · Simav %64 · Mihaliç %65 · Lefke %70 · Yarhisar %74 · Aydın %74
+      ```
+      🔴 **Bu kural GENİŞLETİYOR** — çöl tavanının tersi. Bir hücre büyürse
+      komşusu küçülür ⇒ sıfır alanlı petek denetimi **komşular için de**
+      koşulmalı, `KORUMA_PAYI` yeniden sınanmalı.
+      ⚠️ **Uygulama tuzağı:** yaslama birleştirilmiş ortak kenar ağında yapılıyor
+      (`uret_petek.py:439-465`), kenar hangi hücreye ait bilmiyor. Muafiyet için
+      köşeye **en yakın İKİ tohuma** bakılmalı — tek tohum YETMEZ: Voronoi
+      kenarında iki tohum eşit uzaklıktadır, `nearest` hangisini döndüreceği
+      belirsizdir ve muafiyet kenarların **yarısında rastgele** kaçırılır.
+      Sessiz hata: A/B'de "kısmen düzeldi" diye görünür.
+
+- [ ] ~~**Nehrin üstündeki yerleşimin peteği aşınıyor — 7 kayıt.**~~ *(yukarıdaki
+      madde bunun düzeltilmiş hâli; aşağıdaki gerekçeler geçerli)*
       Kural: *bir yerleşimin ÜZERİNDE DURDUĞU nehir, o yerleşimin kendi hücresi
       için yaslama hedefi değildir.* (Aynı nehir, BAŞKA yerleşimin sınırı için
       hedef olmaya devam eder — Kamaniçe/Hotin'de Dinyester hudut kalmalı.)
