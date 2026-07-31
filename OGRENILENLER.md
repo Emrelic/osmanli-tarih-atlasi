@@ -1520,3 +1520,75 @@ sağlıklı kırpmada hem gerçek kesilmede aynı alarmı verirdi, yani **ayırt
 etmiyordu.** Doğrusu alan değil **süreklilik**: Kahire–Hartum arasında vadide
 sahipsiz kesinti açılıyor mu. Ölçüt koşudan ÖNCE değiştirildi — sonra
 değiştirilseydi kale oynatılmış olurdu.
+
+---
+
+## §42 — Sağlama TEK UÇLU olmamalı: "sıfır olmalı" ile "büyük olmalı" birlikte
+
+`§34` ölçümün başka cevap verebilmesini, `§38` o cevabın kararı
+değiştirebilmesini istiyordu. Üçüncüsü **sağlamanın kendisi hakkında** ve
+bugün COĞRAFYA'nın hatası gösterdi.
+
+**Vaka.** Engel ölçüsü için iki sağlama yazılmıştı:
+```
+Edirne ↔ Dimetoka (aynı vadi, 37 km)  → engel SIFIR olmalı
+Rodoplar'ın iki yakası                 → engel BÜYÜK olmalı (~1.000 m)
+```
+COĞRAFYA yükseklik ızgarasını seyreltirken **min havuzlama** seçti; gerekçesi
+*"min geçidi korur, muhafazakâr, uydurma engel üretmez"* — makul, tutarlı ve
+**yanlış.** Min geçidi korumuyor, **uyduruyor**: her bloğa içindeki dere yatağı
+dibi düşüyor, bloklar zincirlenince dağın içinden **hayalî alçak koridor**
+doğuyor. Sonuç:
+```
+min havuzlama → tüm Anadolu'da azamî engel 253 m · çiftlerin %97'si < 50 m
+max havuzlama → Pindos 668 m · Toroslar 604 · Amanos 588   (gerçek geçitler)
+```
+
+🔴 **Ve kritik nokta:** dejenere ölçüm **birinci sağlamayı KUSURSUZ geçiyordu.**
+Her şeyi sıfıra yakın veren bir ölçü, *"burada sıfır çıkmalı"* sınavını her
+zaman geçer. Onu ancak **ters uçtan** bir sağlama yakalar.
+
+> **Tek uçlu sağlama, dejenere ölçümü doğrular.**
+> En az bir "sıfır olmalı" ve bir "büyük olmalı" çifti gerekir.
+
+📌 İkinci ders, aynı vakadan: **gerekçenin ikna edici olması doğru olduğunu
+göstermez.** "Min muhafazakârdır" cümlesi kulağa sağlam geliyordu ve yazılıydı;
+onu çürüten şey daha iyi bir muhakeme değil, **ters uçtaki sayı** oldu.
+
+---
+
+## §43 — Komşuluğu MESAFEYLE ölçmek, komşuluğu ölçmez
+
+(MOTOR'un ölçümü.) `kur:` boşluğu için *"en yakın 6 komşu oy birliğinde mi"*
+ölçütü konmuştu. Gerçek petek komşuluğuyla (ortak kenar) koşulunca **cevap
+tersine döndü:**
+```
+                  düz mesafe (en yakın 6)      ortak kenar
+Rumeli Hisarı     6/6 bizans  → DEVRET         1 komşu     → BIRAK
+Kuveyt            5/6         → bırak          4 iran      → DEVRET 🔴
+Doha              5/6         → bırak          3 iran      → DEVRET 🔴
+```
+**Ölçüt, korumak için tasarlandığı vakaları devrediyor, düzeltmek için
+tasarlandığı vakayı bırakıyordu.**
+
+**Sebep:** düz mesafe **her zaman 6 komşu bulur.** Rumeli Hisarı'nın peteği
+minicik (İstanbul'a 11 km) ve gerçekte tek komşusu var; mesafe ona altı komşu
+**uydurdu** ve oy birliğini yapay olarak kolaylaştırdı. Körfezde tersi: petekler
+kocaman, ortak kenar bol, oy birliği **gerçek** ama sonuç yanlış — orası
+kasıtlı boşluk.
+
+> **Sayıma dayanan ölçüt, sayılan şeyin tanımına dayanıksızdır.**
+> Aynı veri, iki komşuluk tanımıyla zıt cevap veriyorsa ölçüt komşuluğu değil
+> **tanımı** ölçüyordur.
+
+📌 MOTOR'un cümlesi: *"bir yöntemin bağışık olduğunu varsaydığın eksen,
+taramayı en çok atlayacağın eksendir."* İki oturum da öbür komşuluk tanımını
+denemeden sonuca bakmıştı.
+
+📌 Çözüm yönü: sayım yerine **topoloji** — "petek, kuruluşundan önce bir
+devletin gövdesinin içinde mi kalıyordu?" Kaç komşusu olduğuna bakmaz, bu
+yüzden tessellationın nasıl dilimlediğinden bağımsızdır. ⚠️ O da bir
+işlemselleştirmedir ve sınanmadan kabul edilmedi: 12 boşluk **önce elle**
+etiketlenip sonra ölçütle karşılaştırılacak. Ters düşen tek vaka varsa ölçüt
+elenir ve `kasitli_bosluk:` alanı **elle** yazılır — 12 kayıt için elle
+işaretlemek meşrudur; kötü olan, otomatik sanıp yanlış işaretlemektir.
