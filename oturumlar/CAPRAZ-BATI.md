@@ -1503,3 +1503,76 @@ Erdel penceresinden **tâbi** gösteriyor, 1680'e kadar. Yani burada Osmanlı
 hata üretir**, ve hangi yöne ürettiği komşunun kimliğine bağlı.
 🟡 Hüküm **`DOĞRULANAMADI`** — Gyula'nın 1566 fethini TDV'den teyit etmedim,
 `gyula`/`gula` slug'ı sınanmadı. **Nokta önerisi, tarih değil.**
+
+## A-20 🔴 KAPSAMA TARAMASI — Yukarı Macaristan kesitimin "Batı Sahra"sı
+
+A-18'i **tahminle** bulmuştum (aday şehir listesi). Sistematik taradım ve
+sorun tahmin ettiğimden **kat kat büyük** çıktı.
+
+**Sahne taraması** (44,5-50,0°K / 15,0-24,0°D, 0,10° ızgara, en yakın noktaya
+55 km+ olan hücreler kümelendi):
+```
+merkez 48,25K 19,10D   ~142.083 km²   azami 195,4 km   ← YUKARI MACARİSTAN
+merkez 48,78K 22,47D   ~ 29.559 km²   azami 175,5 km   ← Karpat / Rutenya
+merkez 45,74K 22,80D   ~ 12.023 km²   azami 100,8 km   ← Banat dağları
+merkez 45,16K 16,44D   ~ 12.059 km²   azami  91,4 km   ← Posavina
+```
+⇒ En büyük boşluk **142.000 km²** — A-18'de ölçtüğüm 51.178 km²'lik kutu onun
+**yalnız bir parçasıymış.**
+
+### Projenin kendi ölçeğiyle karşılaştırma
+Aynı yöntemle (ızgara hücresinden en yakın yerleşime) ölçtüm:
+```
+bölge                 medyan    %90    azami
+Yukarı Macaristan     105,8    150,8   175,5     ← AYKIRI
+Macar ovası            32,6     57,8    82,4
+Anadolu                39,2     71,0   115,8
+Rumeli                 32,8     63,0    90,6
+```
+🔴 **Yukarı Macaristan'ın medyanı, Macar ovasının/Anadolu'nun/Rumeli'nin
+ÜÇ KATI** — ve %90'ı (150,8), Macar ovasının **azamisini** (82,4) aşıyor.
+
+📌 **Ve bu tam olarak `YAPILACAKLAR §çöl tavanı`'nın deseni:**
+> *"Anadolu 47 · Rumeli 57 · Mısır 81 · Libya 124 · Arabistan 176 ·
+> **Batı Sahra 417 ← tek bozuk bölge**"*
+
+Yukarı Macaristan **105,8** ile Libya ile Arabistan arasında oturuyor.
+⇒ **Kesitimin geri kalanı sağlıklı** (Macar ovası Rumeli kadar yoğun);
+sorun tek bir bölgede toplanıyor — Batı Sahra vakasının birebir aynısı.
+
+**③ HÜKÜM: ÖLÇÜLDÜ.** Nokta önerisi A-18'de (Kassa · Tokaj · Eperjes ·
+Sopron) ama **dört nokta 142.000 km²'yi kapatmaz** — bu bir *yerleşim
+araştırması* işi, benim kesitimin değil. `MIMARI §5`'in yoğunluk ölçütü
+gerekiyor.
+⚠️ Karşılaştırma bölgeleri **benim çizdiğim kutulardır**, `YAPILACAKLAR`'ın
+resmî bölge tanımları değil — **yöntem** karşılaştırılabilir, **rakam** birebir
+değil.
+
+## A-21 🔴 KENDİ EŞİĞİM ÜÇ KAYDI SESSİZCE KESTİ — ve doğru sayı 12
+
+ÇAPRAZ AKDENİZ taramamı genişletip **10 ada** buldu (benim 8'ime karşı).
+Kendim ölçtüm: **doğru sayı 12**, ve ikimiz de eksiktik:
+```
+1918-11-11'i aşan avusturya penceresi: 12 nokta
+  10 Dalmaçya adası  (AKDENİZ'in sayısı)
++ Suçava (Suceava) · Çernovitz (Çernivtsi)   ← Bukovina, ada değil
+```
+AKDENİZ Dalmaçya'ya filtrelediği için Bukovina'yı, ben **150 km eşiği**
+koyduğum için üçünü kaçırdım:
+```
+Pag (Pago)          yazılanlara 168,0 km   ← eşiğimin dışında
+Suçava (Suceava)                158,7 km   ← eşiğimin dışında
+Uzunada (Dugi Otok)             158,6 km   ← eşiğimin dışında
+Rab (Arbe)                      145,3 km   ← eşiğin 5 km içinde kaldı
+```
+🔴 **Üçü de eşiğin hemen dışında.** Bu bir *"sessiz kırpma"*: A-16'da
+*"≤150 km"* yazdım ama **neyin dışarıda kaldığını raporlamadım.**
+
+**③ DERS — ve ölçüt düzeltiliyor:**
+> **Bir keşif taramasında YAKINLIK eşiği kullanma.** Ölçüt, aranan
+> **özelliğin kendisi** olmalı: *"X kimliğinin penceresi, X'in sona erdiği
+> tarihi aşıyor mu?"* — bu soru mesafe bilmez ve 12'sini de bulur.
+
+📌 Yakınlık eşiği **teşhiste** (aday daraltma) meşru, **envanterde** değil.
+A-16'da ikisini karıştırdım: envanter çıkarıyordum, teşhis aracı kullandım.
+⚠️ Ve `§4④` zaten söylüyordu: *"ölçmeden eşik koyma."* 150'yi ölçmeden koydum.
