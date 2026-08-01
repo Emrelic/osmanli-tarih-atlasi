@@ -649,3 +649,79 @@ wiki'leri vardı. `CLAUDE.md §4`: **Vikipedi hiçbir zaman tek dayanak değildi
 ⇒ **Madde yazılmasın.** Doğrulanmış hâli: TDV `1365` (atıfla) ve `1459-03-07`
 (kendi hükmü) veriyor; `1442` **doğrulanmadı** olarak kalır. Akademik bir
 Ragusa kaynağı bulunursa yeniden açılır.
+
+---
+
+# AVUSTURYA KESİTİ — Sırbistan · Banat · Eflak
+> Dalmaçya BALKAN'da (*Linea Mocenigo*); burada yalnız kara cephesi.
+
+## A-1 ✅ SEKTÖR SAĞLAM — ve K-1'in ilkesi İKİNCİ KEZ doğrulandı
+
+Ölçüm — antlaşma günlerindeki kırılma sayısı:
+```
+1683-09-12 Viyana      2 uç   (yalnız Estergon, +27g)
+1718-07-21 Pasarofça  12 uç   Oltenya 4 nokta + iki Venedik adası
+1739-09-18 Belgrad    20 uç   Sırbistan 5 + Oltenya 4 + Rostov
+1791-08-04 Ziştovi     2 uç   yalnız Böğürdelen
+```
+**Oltenya (Küçük Eflak) tam modellenmiş** — Krayova · Turnu Severin · Rimnik ·
+Tırgu Jiu dördü de `tabi → avusturya` **1718-07-21**'de, `→ tabi` **1739-09-18**'de.
+Dördünün de kendi noktası var (0,4-0,7 km). Dalmaçya'daki boşluğun tersi:
+burada nokta kümesi **yeterli**.
+
+🔴 **Ve K-1'in ilkesi burada bağımsız olarak yeniden doğrulandı:**
+```
+Belgrad   avusturya 1717-08-18   ← FETİH (Eugen), antlaşma 1718-07-21
+Temeşvar  avusturya 1716-10-13   ← FETİH
+Oltenya   avusturya 1718-07-21   ← ANTLAŞMA (fethedilmedi, DEVREDİLDİ)
+1739      hepsi     1739-09-18   ← ANTLAŞMA (Avusturya tahliye etti)
+```
+⇒ **Aynı ayrım, ayrı bir antlaşmada, ayrı bir oturum tarafından yazılmış.**
+Fiilen alınan yer fetih tarihiyle, devredilen yer antlaşma tarihiyle. Bu artık
+tek vakadan çıkarılmış bir yorum değil, **verinin tutarlı bir kuralı.**
+
+📌 **Yanlış "düzeltme" uyarısı:** TDV `belgrad` *"1718 Pasarofça Antlaşması ile
+Avusturya'ya bırakıldı"* diyor, bizde `1717-08-18` yazıyor. **Bu çelişki
+değil** — TDV *de jure*, biz *de facto* yazıyoruz ve ikisi de doğru. Biri
+"TDV 1718 diyor" diye düzeltirse **geriletme olur.**
+
+## A-2 🔴 BELGRAD'IN ÜÇÜNCÜ AVUSTURYA İŞGALİ YOK — 1789-1791
+
+**① BİZDE NE VAR**
+```
+Belgrad             d: OSMANLI 1739-09-18 → 1867-04-18      ← 128 yıl KESİNTİSİZ
+Böğürdelen (Šabac)  s: avusturya 1788-04-24 → 1791-08-04    ← AYNI SAVAŞ, VAR
+```
+**Desen kırılması:** 60 km arayla iki nokta, aynı savaş, aynı antlaşma —
+birinde pencere var, ötekinde yok.
+
+**② KAYNAKTA NE VAR** — TDV `belgrad` (`<title>` = "BELGRAD - TDV İslâm
+Ansiklopedisi", **canlı**), el değiştirme dizisi:
+> *"…elli yıl sonra tekrar Avusturyalılar'ın eline geçti **(1789)**"* ·
+> *"**Ziştovi Antlaşması'na (1791)** göre yine Osmanlılar'a iade edildi"*
+
+**③ HÜKÜM: ÇELİŞİYOR.** Belgrad 1789'da Avusturya'ya geçti, 1791'de iade
+edildi; bizim veride **hiç görünmüyor**. 128 yıllık tek Osmanlı penceresi
+yaklaşık **1 yıl 10 aylık** bir işgali yutuyor.
+
+### Önerilen düzeltme — KESİN / ZAYIF ayrımıyla
+```
+d: 1739-09-18 -> 1789-10-08                    ← başlangıç günü ZAYIF
+s: 1789-10-08 -> 1791-08-04   d=avusturya      ← pencere KESİN
+d: 1791-08-04 -> 1867-04-18                    ← bitiş KESİN
+```
+- **Pencerenin varlığı: `KESİN`** — TDV iki tarihi de açıkça veriyor.
+- **Bitiş `1791-08-04`: `KESİN`** — Ziştovi, ve **Böğürdelen'de zaten aynı
+  gün yazılı** (emsal elimizde).
+- 🔴 **Başlangıç `1789-10-08`: `ZAYIF`** — TDV yalnız *"1789"* diyor, gün
+  vermiyor. Laudon'un Belgrad'ı alışı için 8 Ekim 1789 yaygın tarihtir ama
+  **bu turda doğrulamadım.** ⇒ `§73` gereği yama buna dayanmasın; günü
+  VERİ KRONOLOJİ ya da KAYNAK teyit etsin.
+  ⚠️ `1789-01-01` (yıl hassasiyeti) yazmak **burada çözüm değil**: kuşatma
+  sonbahardaydı, Ocak'a koymak Değişmez 2'nin ±30 gün eşiğini kaynağıyla
+  uyumsuz hâle getirir. Gün bulunana kadar **beklemek daha doğru.**
+
+🟡 **ÖLÇÜLMEDİ — kapsam sorusu açık:** 1789-91 işgali Belgrad'ın ötesine ne
+kadar uzandı? Semendire · Kragujevac · Çaçak · Niş'te 1780-1800 arası
+**hiç kırılma yok**. Böğürdelen'in penceresi var olduğuna göre kuzey Sırbistan
+şeridinin tamamı sorulmalı. **Bu ayrı bir ölçüm**, bu turda yapılmadı.
