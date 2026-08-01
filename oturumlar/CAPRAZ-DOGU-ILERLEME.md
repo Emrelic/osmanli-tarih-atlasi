@@ -379,9 +379,100 @@ Kural bir şey *bulmadı* — **yanlış teşhisi önledi.**
 
 ---
 
+---
+
+## 1 Ağustos · Tur 5 — Memlük
+
+Takvim kararı geldi: **Gregoryen esas**, ham hâl `gun:`te. Ders önerim `§71`
+oldu. Sıra Memlük'e açıldı.
+
+### Ölçüm 20 — Memlük anatomisi: veri İran'dakinden ÇOK daha iyi
+
+```
+107 pencere / 101 nokta / 18 ayrık (f,t) çifti
+1516-17 seferi şehir şehir, gün gün: Antep 08-24 (Mercidabık'ın günü),
+Halep 08-28, Şam 09-27, Kudüs 12-29, Ridâniye 01-22, Kahire 02-15,
+Tomanbay 04-13, İskenderiye 05-19, Hicaz 07-06
+```
+Malatya grubunda 1399-1402 Osmanlı arası **boşluksuz** kurulmuş.
+⇒ **Torba yok.** İran'da kimlik yanlıştı; burada kimlik doğru, sorun
+**halefiyette.**
+
+### Ölçüm 21 — hukukî halefiyet, fiilî fetih yerine
+
+```
+1517-04-13 (Tomanbay idam)  →  30 nokta AYNI GÜN Osmanlı
+1517-05-19                   →  24 nokta
+```
+30'un içinde Nil vadisi var (doğru) ama **Sevâkin · Halâib · Akīk · Tokar ·
+Sinkat · Vâdî Halfâ · İbrim** de var. ⇒ Kafkasya'daki *"Gülistan 1813 toptan"*
+hatasının **aynası**.
+
+### 🔴🔴 Ölçüm 22 — TERS YÖNDE HAYALET: fazladan boyanan devlet OSMANLI
+
+TDV `habes-eyaleti` 🟢 doğrudan söylüyor: **"Bu kıyı toprakları 1517'de
+Memlükler'den devralınmadı"**, Osmanlı 1550'lerde kademe kademe fethetti.
+Habeş Eyaleti **5 Temmuz 1555**, Masavva **2 Nisan 1557**.
+
+```
+Sevâkin   veri 1517-04-13  TDV 1554-04-10   37,0 yıl   🟢 kesin
+Akīk      veri 1517-04-13  TDV 1555-07-05   38,2 yıl   🟢 kesin
+Halâib · Tokar · Sinkat    (aynı eyalet)    38,2 ×3    🟡 desen
+İbrim · Vâdî Halfâ         TDV 1573         55,7 ×2    🔴 zayıf
+--------------------------------------------------------------
+kesin 75,2 · desen 114,7 · zayıf 111,4 nokta-yıl
+```
+
+🔴 **Bu, projenin bugüne kadar aradığı hatanın TERSİ.** `§3.5` listesi hep
+*"fazladan yabancı devlet"* arıyor. Buradaki fazlalık **Osmanlı'da**.
+📌 Neden hiç yakalanmadığı belli: *"Osmanlı fazla mı görünüyor"* diye **kimse
+sormadı** — bütün denetimler Osmanlı'yı ölçüt alıp çevresini sorguluyor.
+⇒ Kural ⑥'nın **üçüncü ve en pahalı** vakası: soru sorulmadığı için kusur
+sınıfı tamamen görünmez kalmış.
+
+### Ölçüm 23 — Masavva · Dahlak · Arkîko hiç Memlük olmadı
+
+TDV `masavva` 🟢: XII-XIV. yy **"Dehlek emîrlerinin hâkimiyetinde"**.
+Veride üçü de `memluk 1281→1517` — **236 yıl yanlış kimlik.**
+Ve `dahlak` kimliği veride hiç yok: noktanın **adı** Dahlak, **sahibi** Memlük.
+🟢 Kısmen fark edilmiş: üçünde `habesistan 1517→1557` dönemi zaten var.
+
+### Ölçüm 24 — Masavva'nın Osmanlı başlangıcı 91 gün erken
+`1557-01-01` (yıl hassasiyeti biçimi) yazılmış ama **gün biliniyor**:
+2 Cemâziyelâhir 964 / **2 Nisan 1557**.
+
+### 📌 Ölçüm 25 — bir düzeltme, kusuru kapatırken TARAF DEĞİŞTİRMİŞ
+
+`CLAUDE.md §3.5`: *"İbrim `memluk` 1555'e kadar — 38 yıl fazla."* Bu
+**düzeltilmiş** (bugün veri `1517-04-13`). Ama TDV İbrim sancağını **1573**'e
+koyuyor ⇒ Memlük fazlalığı kaldırılırken yerine **Osmanlı** konmuş ve
+**55,7 yıllık ters hata** açılmış.
+⇒ **Hata giderilmedi, taraf değiştirdi.** Sebebi: ölçüm *"Memlük fazla mı"*
+diye soruyordu, *"yerine ne konmalı"* diye değil.
+
+---
+
+## 📌 Tur 5'ten çıkan ders önerileri (koordinatöre)
+
+**⑧ Bir kusuru KALDIRMAK ile YERİNE DOĞRUSUNU KOYMAK ayrı işlerdir; ölçüm
+yalnız birincisini sorarsa ikincisi sessizce yanlış yapılır.**
+İbrim vakası: 38 yıllık Memlük fazlalığı doğru teşhis edildi, kaldırıldı, ve
+yerine 55,7 yıllık Osmanlı fazlalığı kondu. Denetim temiz kaldı çünkü
+*"sahipsiz mi"* ve *"maddesi var mı"* sorularının ikisi de geçiyor.
+
+**⑨ Bütün denetimler bir devleti ÖLÇÜT alıyorsa, o devletin kendi hatası
+ölçülemez.** Bu projenin denetimleri Osmanlı'yı sabit alıp çevresini sorguluyor.
+Sonuç: 190+ nokta-yıllık erken Osmanlı, hiçbir denetimden geçmediği için değil,
+**hiçbir denetimin konusu olmadığı için** görünmedi.
+
+---
+
 ## Sıradaki tur
 
-1. 🟡 **İkinci iş: Memlük** — Kızıldeniz 39,7 yıl fazlalık, Suriye-Filistin-Hicaz
-2. ⏳ 6 sınanmamış Kafkasya noktası · Derbend'in doğru adresi
-3. 🔴 Fetretin İran geri kalanı (Fars · Kirman · Horasan)
-4. B4/B5 coğrafî bölme · Ç2, Ç5, Ç6 ikinci çekiş · `marasi` slug
+1. 🔴 **1517-1554 Sudan kıyısının sahibi** — Değişmez 1'in ön şartı; bulunmadan
+   Sevâkin/Akīk düzeltmesi uygulanamaz (5 nokta sahipsiz kalır)
+2. ⏳ **Suriye-Filistin kesiti ölçülmedi** — gün hassasiyetli ve tutarlı
+   görünüyor ama **bakmadım**
+3. İbrim/Vâdî Halfâ Nûbe fetih tarihi · `ibrim` ve `sevakin` adresleri
+4. Önceki turlardan: 6 Kafkasya noktası · fetretin İran geri kalanı ·
+   B4/B5 · Ç2, Ç5, Ç6 · `marasi`

@@ -953,3 +953,199 @@ Bu ayrım kural ③'ün ta kendisi ve listede belirtilmemiş.
 4. ❓ **Takvim kararı koordinatörde** — Türkmençay Jülyen mi Gregoryen mi
 5. B4/B5 coğrafî bölme · Ç2, Ç5, Ç6 ikinci çekiş · `marasi` slug
 6. 🟡 **İkinci iş: Memlük** — sıradaki turum
+
+---
+---
+
+# TESLİM 5 — MEMLÜK: hayalet bu kez BİZİM devletimizde
+
+> İkinci iş. Aynı yöntem: önce kendi verimiz, sonra TDV.
+> Ve çıkan şey bu projede ilk: **fazladan boyanan devlet Osmanlı.**
+
+---
+
+## 30. ÖNCE HAKKINI VEREYİM — Memlük verisi İran verisinden ÇOK daha iyi
+
+107 pencere / 101 nokta, **18 ayrık `(f,t)` çifti**. Ve 1516-17 seferi şehir
+şehir, gün gün izlenmiş:
+
+```
+1516-08-24  Antep            (Mercidabık'ın günü — şehir savaş alanının yanında)
+1516-08-28  Halep · Antakya · Rakka · Deyrizor      (savaştan 4 gün sonra)
+1516-09-26  Trablusşam
+1516-09-27  Şam · Hama · Humus · Beyrut
+1516-12-21  Gazze · Han Yûnus
+1516-12-28  Yafa · Nablus · Amman
+1516-12-29  Kudüs
+1517-01-01  Akkâ · Sayda · Kerak · Maan
+1517-01-22  Süveyş · Sînâ · Kusayr        (Ridâniye'nin günü)
+1517-02-15  Kahire
+1517-04-13  Nil vadisi + vahalar          (Tomanbay'ın idamı)
+1517-05-19  İskenderiye + Delta
+1517-07-06  Mekke · Medine · Cidde · Tâif (Hicaz'ın teslimi)
+```
+
+⇒ **Bu bir torba değil, düzgün bir sefer kronolojisi.** Antep'in savaş gününde,
+Halep'in dört gün sonra düşmesi bile doğru. Ve Malatya grubunda 1399-1402 Osmanlı
+arası (Yıldırım → Ankara sonrası iade) **boşluksuz** kurulmuş.
+
+📌 İran'la fark şu: İran'da **kimlik** yanlıştı (torba), Memlük'te kimlik doğru —
+sorun **çevrede** ve **halefiyette.**
+
+---
+
+## 31. 🔴 MEKANİZMA AYNI: hukukî halefiyet, fiilî fetih yerine
+
+```
+1517-04-13 (Tomanbay idam edildi)  →  30 nokta AYNI GÜN Osmanlı oluyor
+1517-05-19                          →  24 nokta
+```
+
+30 noktanın içinde Nil vadisi ve vahalar var — **oralar için doğru.** Ama aynı
+listede şunlar da var:
+
+```
+Sevâkin · Halâib · Akīk · Tokar · Sinkat     ← Sudan Kızıldeniz kıyısı
+Vâdî Halfâ · İbrim                            ← Nûbe
+```
+
+⇒ **Memlük devletinin düştüğü gün, onun çevresindeki her yer Osmanlı sayılmış.**
+Bu, Kafkasya'da bulduğum *"Gülistan 1813 toptan"* hatasının **aynası**: orada
+hukukî bir antlaşma tarihi, burada hukukî bir halefiyet tarihi — ikisi de fiilî
+fethin yerine geçmiş.
+
+---
+
+## 32. 🔴🔴 ASIL BULGU: TERS YÖNDE HAYALET — fazladan boyanan devlet OSMANLI
+
+### ② Kaynakta ne var — TDV `habes-eyaleti` 🟢, doğrudan ve açık
+
+> Habeş Eyaleti kuruldu: **15 Şâban 962 / 5 Temmuz 1555**
+> Masavva: **2 Nisan 1557**, Özdemir Paşa · Arkîko kısa süre sonra
+> Ana kaleler *"Sevâkin, Masavva' ve Debârvâ"*; Dehlek adaları ve **Akik** dâhil
+> **"Bu kıyı toprakları 1517'de Memlükler'den devralınmadı"** — Osmanlı onları
+> 1550'lerde, kademe kademe fethetti
+
+### ① / ③ Bizde ne var ve hüküm
+
+| nokta | veride Osmanlı | TDV | fazla | güç |
+|---|---|---|---|---|
+| **Sevâkin** | `1517-04-13` | **1554-04-10** (Sevâkin sancağı) | **37,0 yıl** | 🟢 kesin |
+| **Akīk** | `1517-04-13` | **1555-07-05** (eyalete dâhil) | **38,2 yıl** | 🟢 kesin |
+| Halâib | `1517-04-13` | 1555-07-05 | 38,2 yıl | 🟡 desen |
+| Tokar | `1517-04-13` | 1555-07-05 | 38,2 yıl | 🟡 desen |
+| Sinkat | `1517-04-13` | 1555-07-05 | 38,2 yıl | 🟡 desen |
+| İbrim | `1517-04-13` | 1573 (İbrim sancağı) | 55,7 yıl | 🔴 zayıf |
+| Vâdî Halfâ | `1517-04-13` | 1573 | 55,7 yıl | 🔴 zayıf |
+
+```
+🟢 kesin kaynaklı :  75,2 nokta-yıl  (2 nokta)
+🟡 desen           : 114,7 nokta-yıl (3 nokta — madde adıyla saymıyor)
+🔴 zayıf           : 111,4 nokta-yıl (2 nokta — İbrim slug'ı ölü, arama özetinden)
+```
+
+### 🔴 Ve bu, projenin bugüne kadar aradığı hatanın TERSİ
+
+`§3.5` hayalet devlet listesi hep *"fazladan **yabancı** devlet"* arıyor: Bizans
+84 yıl, Memlük 40 yıl, İran 235 yıl. Buradaki fazlalık **Osmanlı'nın kendisinde**
+— gerçekte varmadığı bir kıyıda 37-38 yıl erken boyanıyor.
+
+📌 Ve bunun neden hiç yakalanmadığı belli: *"Osmanlı fazla mı görünüyor"* diye
+**kimse sormadı.** Denetimlerin hepsi Osmanlı'yı ölçüt alıp çevresini sorguluyor.
+⇒ Bu, `§68`/kural ⑥'nın **üçüncü** vakası ve en pahalısı: soru hiç
+sorulmadığı için kusur sınıfı **tamamen görünmez** kalmış.
+
+---
+
+## 33. 🔴 İKİNCİ BULGU: MASAVVA · DAHLAK · ARKÎKO HİÇ MEMLÜK OLMADI
+
+### ② TDV `masavva` 🟢
+> XII-XIV. yüzyıllarda **"Dehlek emîrlerinin hâkimiyetinde"** bulundu.
+> *"2 Cemâziyelâhir 964'te (**2 Nisan 1557**) Özdemir Paşa tarafından Osmanlı
+> topraklarına katıldı"*
+
+### ① Bizde
+```
+Masavva · Dahlak · Arkîko:  memluk 1281-01-01 → 1517-04-13   (236 yıl)
+```
+
+### ③ Hüküm: **ÇELİŞİYOR — 236 yıl yanlış kimlik, üç noktada**
+
+Memlük değil, **Dehlek (Dahlak) emirleri.** Ve `dahlak` kimliği veride
+**hiç yok** — noktanın adı "Dahlak" ama sahibi "Memlük" yazıyor.
+
+🟢 **İyi haber:** veri bu üç noktada `habesistan 1517-04-13 → 1557-01-01`
+dönemi zaten taşıyor — yani birileri buradaki boşluğu fark etmiş ve
+doldurmuş. Kusur **1517 öncesinde** kalmış.
+
+---
+
+## 34. 🟡 ÜÇÜNCÜ BULGU: Masavva'nın Osmanlı başlangıcı 91 gün erken
+
+```
+veride : habesistan → OSMANLI  1557-01-01
+TDV    : 2 Cemâziyelâhir 964 / 2 Nisan 1557
+fark   : 91 gün
+```
+`1557-01-01` **"yıl biliniyor, gün bilinmiyor"** biçimidir (`§4⑤`). Ama gün
+**biliniyor** ve TDV veriyor. ⇒ `1557-04-02` + `gun:"2 Nisan 1557"`.
+Aynı düzeltme Dahlak ve Arkîko'ya da uygulanır (*"Arkîko kısa süre sonra"* —
+onun için ay hassasiyeti bile yok, `1557-04-02` alınıp `gun:` ile işaretlenmeli).
+
+---
+
+## 35. SLUG DURUMU — ders ⑥'nın üçüncü ve dördüncü vakası
+
+| slug | durum |
+|---|---|
+| `habes-eyaleti` · `masavva` | 🟢 canlı — **kaynak setine eklenebilir** |
+| `sevakin` | 🔴 ölü — **ama madde VAR**, içeriği arama üzerinden okundu |
+| `ibrim` | 🔴 ölü — **ama madde VAR** (İbrim sancağı 1573, İbrim eyaleti 992/1584) |
+
+⚠️ `CLAUDE.md §3.5` tablosunda *"İbrim `memluk` 1555'e kadar — 38 yıl"* yazıyor.
+**O düzeltilmiş** (bugün veri `1517-04-13` taşıyor) ama **düzeltme yönü eksik
+kalmış**: Memlük fazlalığı kaldırılırken yerine **Osmanlı** konmuş, oysa TDV
+İbrim sancağını **1573**'e koyuyor. ⇒ Hata giderilmedi, **taraf değiştirdi.**
+
+📌 Bu kayda değer: bir düzeltme, ölçtüğü kusuru kapatırken **ters yönde yeni bir
+kusur** açabiliyor — çünkü ölçüm *"Memlük fazla mı"* diye soruyordu, *"yerine ne
+konmalı"* diye değil.
+
+---
+
+## 36. ÖNERİ
+
+```
+🟢 BUGÜN UYGULANABİLİR (kaynak kesin, yeni kimlik gerekmiyor)
+   Sevâkin   OSMANLI başlangıcı  1517-04-13 → 1554-04-10
+   Akīk      OSMANLI başlangıcı  1517-04-13 → 1555-07-05
+   Masavva   OSMANLI başlangıcı  1557-01-01 → 1557-04-02  + gun:"2 Nisan 1557"
+   Dahlak · Arkîko  aynı düzeltme
+
+🟡 YENİ KİMLİK İSTİYOR (1 renk)
+   Masavva · Dahlak · Arkîko: memluk 1281→1517  →  dahlak 1281→1557-04-02
+   ⇒ `dahlak` kimliği; `habesistan` dönemi bu üçünde gereksizleşir
+
+🔴 ARADAKİ BOŞLUK — 1517-1554 arası Sudan kıyısında KİM vardı?
+   Sevâkin · Halâib · Akīk · Tokar · Sinkat için 37-38 yıllık pencere açılıyor.
+   TDV `habes-eyaleti` "kademe kademe fethedildi" diyor ama ARADAKİ sahibi
+   söylemiyor. Beca (Bece) kabile konfederasyonu muhtemel — DOĞRULANMADI.
+   ⚠️ Bu boşluk doldurulmadan düzeltme uygulanırsa Değişmez 1 ihlal olur
+   (5 nokta sahipsiz kalır). Sırası: önce sahip bulunacak, sonra yama.
+```
+
+⚠️ **Uygulama sırası kritik:** Sevâkin/Akīk düzeltmesi **tek başına** yapılamaz —
+sahipsizlik açar. Ya `dahlak`/`beca` kimliğiyle birlikte gider, ya hiç gitmez.
+
+---
+
+## 37. AÇIK KALANLAR — Teslim 5 sonu
+
+1. 🔴 **1517-1554 Sudan kıyısının sahibi** — Değişmez 1'in ön şartı
+2. 🔴 İbrim ve Vâdî Halfâ'nın Nûbe fetih tarihi (`ibrim` slug'ı ölü, adres aranacak)
+3. 🟡 Halâib · Tokar · Sinkat — desen tutuyor ama madde adıyla saymıyor
+4. ⏳ **Suriye-Filistin kesiti sınanmadı** — bu turda Kızıldeniz ucu öne çıktı;
+   Şam-Halep-Kudüs hattı gün hassasiyetinde ve ilk bakışta tutarlı görünüyor
+   ama **ölçmedim**
+5. Önceki turlardan: 6 Kafkasya noktası · fetretin İran geri kalanı · B4/B5 ·
+   Ç2, Ç5, Ç6 · `marasi`
