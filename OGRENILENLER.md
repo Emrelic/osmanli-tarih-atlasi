@@ -3676,3 +3676,26 @@ eksenindeki hâli: *hayalet yok olmadı, taraf değiştirdi.*
 🟢 Çare tek nokta: **Bihać.** Hatayı açan da kapatan da aynı sınıf — **nokta
 yoğunluğu.**
 
+### §82.2 — SIRALAMA ÖLÇÜTÜNDE GEOMETRİ YOKTU
+
+Girit, nokta ekleme kuyruğunun **başına** kondu ve gerekçe doğruydu: TDV
+maddesi **canlı**, tarihler **veriyor**, bitiş damgası (`1715-09-07`) veride
+**zaten var**. Üç ölçütün üçü de yeşildi.
+
+**Ve kalem yazılamadı** — çünkü üç kale de adacıktı (`§82`).
+
+NOKTA EKLEME oturumunun kapanış cümlesi:
+> *"Bugünün asıl dersi Girit'te değil, **Girit'in sırada NEREDE olduğundaydı.**
+> **Pahalı olan kaynak değil GEOMETRİYDİ, ve sıralama ölçütünde geometri hiç
+> yoktu.**"*
+
+> **KURAL: Bir nokta ekleme kalemi sıralanırken *"kaynağı hazır mı"* kadar
+> *"MOTOR BU ŞEKLİ ÇİZEBİLİYOR MU"* da sorulur.**
+
+🟢 Maliyeti düşük: bir aday nokta için **maske testi + çıplak Voronoi ölçümü**,
+üç dakika. Atlanırsa **en pahalı kalem EN UCUZ görünür** — ve sıranın başına
+konur.
+
+📌 Ve kusur sıralamayı yapanda (koordinatör): ölçüt *kaynak · emsal · renk*
+üçlüsüydü, **dördüncüsü yoktu.**
+
