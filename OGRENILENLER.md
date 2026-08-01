@@ -2206,3 +2206,59 @@ bir taraf tutma gibi okunur. Oysa işleyen mekanizma **taraflardan bağımsız**
 sekiz makul öneri, sekiz ölçüm, sekiz eleme. §58'in tam karşılığı — hepsi
 makul göründüğü için hepsi uygulanabilirdi.
 
+
+---
+
+## §60 — İCAT ETTİĞİN AMA KOŞTURMADIĞIN DENETİM, DENETİM DEĞİLDİR
+
+YAMACI bildirdi:
+
+> *"Bosna paketinin `yerlesimler.js` kısmını yazarken dosya, başka bir oturumun
+> (`40a66fc`, 'Deşt-i Kıpçak 1441→1502') eşzamanlı commit'ine karıştı — benim
+> **6 yeni kayıt + 2 düzeltmem o commit'in içinde gitti.** Veri doğru ama commit
+> mesajı benim işimi tarif etmiyor."*
+
+O commit benimdi. `git add data/yerlesimler.js && git commit` dedim; dosyada o
+anda YAMACI'nın yarım işi vardı ve **hepsi benim mesajımla gitti.**
+
+🔴 **Asıl mesele bu değil.** Asıl mesele şu: **aynı gün, aynı dosyada, aynı
+kontrolü ben icat etmiştim.** Sabah dört kayıtlık `v:` düzeltmesini commit
+ederken şunu koşturmuştum:
+
+```
+git diff -U0 data/yerlesimler.js | grep '^+' | grep -o 'ad:"[^"]*"'
+  → ad:"Akkirman"  ad:"Kili"  ad:"İbrail"  ad:"İsmail"
+  ⇒ "yalnız benim dört satırım" doğrulandı
+```
+
+Akşam aynı dosyaya yazarken **o kontrolü koşturmadım.** Koştursaydım altı
+yabancı ad görecektim ve durup soracaktım.
+
+📌 **Kural:** bir denetimi icat etmek onu kurmaz. Denetim ya **otomatiktir** ya
+da **yoktur** — "hatırlarsam koştururum" bir denetim değil, bir niyettir. Bugün
+`denetle_yayin.py` damgayı yakaladı çünkü otomatikti; bu kontrol yakalamadı
+çünkü elimdeydi.
+
+### Somut çare — ortak dosyaya yazan herkes için
+
+Paylaşılan bir dosyayı commit etmeden önce **sahnelenen farkın yalnız kendi işin
+olduğunu doğrula.** Tek satır:
+```
+git diff --cached --stat        ← kaç dosya, kaç satır: beklediğin mi?
+git diff --cached | grep '^+'   ← eklenen satırlar senin mi?
+```
+⚠️ Ve `git commit -o <dosya>` bunu **çözmez** — YAMACI'nın not ettiği gibi, `-o`
+dosyanın o **anki tam içeriğini** commit eder. Sorun `git add` değil, **iki
+oturumun aynı dosyada eşzamanlı çalışması.**
+
+### Ve bu, koordinatörün kendi kuralını çiğnemesiydi
+
+`ORGANIZASYON §1` şunu yazıyor: **"koordinatör KARAR verir, UYGULAMAZ"** — ve
+gerekçesi ölçülmüştü (dokuz partiyi tek elden uygulayınca iki yardımcı oturum
+7,5 saat boş bekledi). Ben `yerlesimler.js`'e doğrudan yazarak hem o kuralı hem
+kendi icat ettiğim kontrolü aynı anda atladım.
+
+📌 Bir kuralı yazan kişi onu çiğnediğinde, kural yazılı olduğu için **daha
+görünür** olmuyor — tersine, "ben zaten biliyorum" diye **daha az** kontrol
+ediliyor.
+
