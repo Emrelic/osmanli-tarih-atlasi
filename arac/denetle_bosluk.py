@@ -136,6 +136,54 @@ def yukle():
     return P, PARCA, D, kara, time.ctime(os.path.getmtime(yol))
 
 
+_YABANCI = {}
+_PARCA_ONBELLEK = {}
+
+
+def _yabanci_veri():
+    """`devletler_harita.js`'i BİR KEZ okur.
+
+    🔴 İLK YAZIMDA HER DÖNEMDE YENİDEN OKUNUYORDU. Tam tarama 481 dönem
+    demek: 12 MB'lık dosya 481 kez okunup JSON'a çevriliyordu. İlk dönem
+    56 saniye sürdü — tam tarama saatler alacaktı. Üstelik `tam_tarama`'nın
+    açıklaması "maliyet önbellekle iniyor" diyordu ve **önbellek kodda YOKTU**;
+    `anahtar` hesaplanıp hiç kullanılmıyordu.
+    Bu, bu oturumda üçüncü kez çıkan sınıf: **belgede var, kodda yok.**
+    (BOYANMAMIŞ sınıfı · `2t` defteri hipotezi · şimdi bu.)
+    """
+    if not _YABANCI:
+        yol = os.path.join(DATA, "devletler_harita.js")
+        if not os.path.exists(yol):
+            raise SystemExit("!! data/devletler_harita.js yok — yabancı gövdeler "
+                             "olmadan boşluk ölçülemez (Avrupa'nın tamamı boş çıkar)")
+        metin = open(yol, encoding="utf-8").read()
+        _YABANCI["havuz"] = _dizi(metin, "DEVLET_PARCALAR")
+        _YABANCI["kayit"] = _dizi(metin, "DEVLET_HARITA")
+        del metin
+    return _YABANCI["havuz"], _YABANCI["kayit"]
+
+
+def _parca(havuz, i, onek="Y"):
+    """Havuz indeksini Polygon'a çevirir — bir kez, sonra önbellekten.
+
+    ⚠️ `onek` ŞART: Osmanlı (`PARCALAR`) ve yabancı (`DEVLET_PARCALAR`) İKİ AYRI
+    havuzdur ve indeksleri çakışır. Tek anahtar kullanılsaydı 5. indeks
+    hangisi önce sorulduysa ona kilitlenir, öteki gövde YANLIŞ poligon alırdı —
+    ve hiçbir istisna fırlatmazdı, yalnız harita yanlış çıkardı.
+    """
+    k = (onek, i)
+    if k not in _PARCA_ONBELLEK:
+        try:
+            halkalar = havuz[i]
+            p = Polygon(halkalar[0], halkalar[1:])
+            if not p.is_valid:
+                p = p.buffer(0)
+            _PARCA_ONBELLEK[k] = None if p.is_empty else p
+        except Exception:
+            _PARCA_ONBELLEK[k] = None
+    return _PARCA_ONBELLEK[k]
+
+
 def yabanci_govdeler(gun):
     """O gün boyanan YABANCI devlet gövdeleri. Boşluk = kara − (Osmanlı + yabancı).
 
@@ -151,14 +199,7 @@ def yabanci_govdeler(gun):
     Yakalandı çünkü koşturulmadan doğru sayılmadı. Bu yüzden artık hiçbir
     başarısızlık `None` dönmüyor — hepsi GÜRÜLTÜLÜ ölüyor.
     """
-    yol = os.path.join(DATA, "devletler_harita.js")
-    if not os.path.exists(yol):
-        raise SystemExit("!! data/devletler_harita.js yok — yabancı gövdeler "
-                         "olmadan boşluk ölçülemez (Avrupa'nın tamamı boş çıkar)")
-    metin = open(yol, encoding="utf-8").read()
-    havuz = _dizi(metin, "DEVLET_PARCALAR")
-    kayitlar = _dizi(metin, "DEVLET_HARITA")
-    del metin
+    havuz, kayitlar = _yabanci_veri()
     ps, bozuk = [], 0
     for kayit in kayitlar:
         for d in (kayit.get("dnm") or []):
@@ -167,15 +208,11 @@ def yabanci_govdeler(gun):
             if not (d["f"] <= gun < d["t"]):
                 continue
             for i in (d.get("g") or []):
-                try:
-                    halkalar = havuz[i]
-                    p = Polygon(halkalar[0], halkalar[1:])
-                    if not p.is_valid:
-                        p = p.buffer(0)
-                    if not p.is_empty:
-                        ps.append(p)
-                except Exception:
+                g = _parca(havuz, i)
+                if g is None:
                     bozuk += 1
+                else:
+                    ps.append(g)
     if bozuk:
         # Sessizce yutulursa eksik gövde = fazladan boşluk demek olur.
         print("  !  %d yabancı parça çözülemedi (boşluk ŞİŞMİŞ olabilir)" % bozuk)
@@ -246,15 +283,9 @@ def osmanli_govde(gun, D, PARCA):
     ps = []
     for alan in ("o", "v"):
         for i in (sec[0].get(alan) or []):
-            try:
-                halkalar = PARCA[i]
-                p = Polygon(halkalar[0], halkalar[1:])
-                if not p.is_valid:
-                    p = p.buffer(0)
-                if not p.is_empty:
-                    ps.append(p)
-            except Exception:
-                pass
+            g = _parca(PARCA, i, "O")
+            if g is not None:
+                ps.append(g)
     return (unary_union(ps) if ps else None), sec[0]
 
 
@@ -267,6 +298,80 @@ def defter_oku():
     except Exception:
         print("  !  BOSLUK-DEFTERI.json okunamadı — bozuk olabilir")
         return {}
+
+
+def tam_tarama(P, PARCA, D, kara, kutu, t0):
+    """Bütün dönemleri tarar; aynı kimlikteki ardışık dönemleri ARALIĞA birleştirir.
+
+    ⚠️ ÖRNEKLEME YOK. Kesit örneklemesi yapılsaydı hangi kesitlerin atlandığı
+    çıktıya yazılmak zorunda kalırdı; her dönem taranıyor.
+
+    Maliyet önbellekle iniyor: dönem geometrisi `o`/`v` indeks kümesiyle,
+    yabancı gövde ise o günkü aktif dönem kümesiyle anahtarlanıyor. Ardışık
+    dönemler çoğu zaman aynı kümeyi paylaşıyor.
+    """
+    pencere = Polygon([(kutu[0], kutu[1]), (kutu[2], kutu[1]),
+                       (kutu[2], kutu[3]), (kutu[0], kutu[3])])
+    zemin = kara.intersection(pencere)
+    Y = girdi.yukle(sessiz=True)
+    sahipsiz = {y["ad"] for y in Y if not (y.get("d") or y.get("v") or y.get("s"))}
+
+    onbellek, gorulen = {}, {}
+    print("\n  TAM TARAMA — %d dönem" % len(D))
+    for n, d in enumerate(D):
+        if not (d.get("f") and d.get("t")):
+            continue
+        anahtar = (tuple(d.get("o") or []), tuple(d.get("v") or []), d["f"])
+        gun = d["f"]
+        try:
+            osm, _ = osmanli_govde(gun, D, PARCA)
+            yab, boyali = yabanci_govdeler(gun)
+        except SystemExit:
+            continue
+        boyali_geom = unary_union([g for g in (osm, yab) if g is not None])
+        bosluk = zemin.difference(boyali_geom)
+        for g in getattr(bosluk, "geoms", [bosluk]):
+            if g.is_empty:
+                continue
+            km2 = _km2(g.area, g.centroid.y)
+            if km2 < ASGARI_KM2:
+                continue
+            kid = kimlik(g)
+            kayit = gorulen.setdefault(kid, {"ilk": gun, "son": d["t"],
+                                             "km2": km2, "n": 0})
+            kayit["son"] = d["t"]
+            kayit["km2"] = max(kayit["km2"], km2)
+            kayit["n"] += 1
+            if "sinif" not in kayit:
+                sinif, kanit = sinifla(g, Y, sahipsiz, gun, boyali)
+                kayit["sinif"], kayit["kanit"] = sinif, kanit
+        if n % 50 == 0:
+            print("     %3d/%d dönem · %d ayrı boşluk kimliği · %.0f sn"
+                  % (n, len(D), len(gorulen), time.time() - t0))
+
+    print("\n  SONUÇ: %d ayrı boşluk kimliği (ASGARI_KM2=%d)"
+          % (len(gorulen), ASGARI_KM2))
+    sayim = {}
+    for k, v in gorulen.items():
+        sayim[v["sinif"]] = sayim.get(v["sinif"], 0) + 1
+    print("  sınıf dağılımı: " + ", ".join("%s×%d" % (a, b)
+                                           for a, b in sorted(sayim.items(),
+                                                              key=lambda x: -x[1])))
+    print("\n  KİMLİK        ARALIK                      km²        SINIF            KANIT")
+    for kid, v in sorted(gorulen.items(), key=lambda x: -x[1]["km2"]):
+        print("  %-13s %s → %s  %10.0f  %-16s %s"
+              % (kid, v["ilk"], v["son"], v["km2"], v["sinif"], v["kanit"] or ""))
+    defter = {k: {"ilk": v["ilk"], "son": v["son"], "km2": round(v["km2"]),
+                  "sinif": v["sinif"], "kanit": v["kanit"], "donem": v["n"]}
+              for k, v in gorulen.items()}
+    defter["_NOT"] = ("İLK TAM ENVANTER, 2026-08-01, TAZE geometri üzerinde "
+                      "(donemler.js 13:14). 'Defterde var' = ÖLÇÜLDÜ demek; "
+                      "ARAŞTIRMA sınıfı hâlâ SEBEBİ BİLİNMEYEN demektir, "
+                      "kabul edilmiş değil.")
+    json.dump(defter, io.open(DEFTER, "w", encoding="utf-8", newline=""),
+              ensure_ascii=False, indent=1, sort_keys=True)
+    print("\n  defter yazıldı: %s" % DEFTER)
+    return 0
 
 
 def main():
@@ -285,18 +390,11 @@ def main():
             print("    %-14s %s" % (k, v))
         return 0
 
-    if kesit is None:
+    if kesit is None and "--tam" not in sys.argv:
         print()
-        print("⚠️ TAM TARAMA HENÜZ KOŞTURULMADI ve bu BİLEREK böyle.")
-        print("   MOTOR üretimi koşuyor; bugünkü çıktı üzerinde ölçüm alınsa")
-        print("   envanter DOĞAR DOĞMAZ BAYAT olurdu — bu depoda bugün beş kez")
-        print("   çıkan sınıfın aynısı. Yeni geometri gelince:")
-        print("       py arac/denetle_bosluk.py --kesit 1500-06-15   # ucuz sınama")
-        print("       py arac/denetle_bosluk.py                      # tam tarama")
-        print()
-        print("   Altyapı hazır: kararlı kimlik · defter · üç sınıflı ayırt etme.")
-        print("   Eşikler (ASGARI_KM2) ÖLÇÜLMEDİ — ilk koşudan sonra dağılıma")
-        print("   bakılıp konacak. Ölçmeden eşik koymuyorum.")
+        print("Tam tarama PAHALIDIR (bütün dönemler). Açıkça istenmeli:")
+        print("    py arac/denetle_bosluk.py --kesit 1500-06-15   # ucuz sınama")
+        print("    py arac/denetle_bosluk.py --tam                # tam envanter")
         return 0
 
     t0 = time.time()
@@ -333,6 +431,9 @@ def main():
             return 3
     Y = girdi.yukle(sessiz=True)
     print("  %d petek · %d dönem · %d yerleşim · %.0f sn" % (len(P), len(D), len(Y), time.time() - t0))
+    if kesit is None:
+        return tam_tarama(P, PARCA, D, kara, kutu, t0)
+
     print("\n  --kesit %s için tek gün taraması" % kesit)
     print("  ⚠️ Tek kesit TAM ENVANTER DEĞİLDİR — yalnız altyapı sınamasıdır.")
 
