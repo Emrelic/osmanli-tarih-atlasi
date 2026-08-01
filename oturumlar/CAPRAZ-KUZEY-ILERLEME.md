@@ -345,3 +345,73 @@ bir hükümdür"* maddesi.
 - **1648 Hmelnitski günü** — üçüncü turda da yapılmadı.
 - **`astarhan` penceresinin hangi noktalara yazılacağı** — kimlik ayakta ama
   hangi altı noktanın hangi tarih aralığını alacağı ölçülmedi.
+  → *Tur 4'te ölçüldü ve paketlendi (`CAPRAZ-KUZEY.md` §21-24).*
+
+---
+
+## Tur 4 — 2026-08-01, `astarhan` paketi
+
+### Ö16 · Çizilirlik elemesi — 1500-06-15 kesiti
+
+Ölçüt: `!((kur && kur > g) || (bit && bit <= g))` — motorun `petek_epok()`
+içindeki ölçütünün aynısı (Ö13'te koddan alındı).
+
+Kutu **lat 40-56 · lon 42-60**, 1500-06-15:
+```
+ÇİZİLİYOR + altinorda   Astrahan · Terek deltası · Kalmuk bozkırı · Ural eteği
+                        Mangışlak · Garabogaz · Bozkır (Deşt-i Kıpçak)      = 7
+ÇİZİLMİYOR              Tsaritsyn (kur:1589) · Saratov (kur:1590)
+                        Ufa (kur:1574) · Vladikavkaz (kur:1784)
+                        Krasnovodsk (kur:1869)                              = 5
+ÇİZİLİYOR + sahipsiz    Üstyurt platosu (doğu) · Üstyurt platosu (batı)     = 2
+```
+
+📌 **İki kazanç:**
+1. Paket 9 nokta değil **7 nokta** — Saratov/Tsaritsyn etkisiz, dokunulmayacak.
+   (Tur 3'te düşen iddiam burada iş tasarrufuna dönüştü.)
+2. Aynı kutuda **kasten sahipsiz iki nokta** zaten var (Üstyurt) — B11'de
+   önerdiğim "kasten boş" çözümünün **çalışır emsali** aynı coğrafyada.
+
+---
+
+### Ö17 · TDV `nogaylar` — sahanın sınırı kaynaktan çıktı
+
+`<title>`: "NOGAYLAR - TDV İslâm Ansiklopedisi" 🟢
+
+> batıda **"İdil'in (Volga) sol yakasındaki alçak ovalar"** · kuzeydoğuda İrtiş
+> kolları · doğuda **"Emba nehrinden Aral gölüne kadar"** · başşehir **Sarayçık**
+> Kalmuk baskısı Nogayları batıya sürdü, **1644** çarpışması.
+
+⇒ **Ölçüt: Volga'nın sol (doğu) yakası = Nogay.** Bu, paketteki noktaları
+ikiye ayırmayı kaynağa dayandırıyor:
+```
+Volga'nın BATISI / ağzı  → astarhan   Astrahan · Kalmuk bozkırı · Terek deltası
+Volga'nın SOL yakası     → nogay      Ural eteği · Mangışlak
+```
+
+⚠️ **Nogay için tarih aralığı ölçülemedi.** TDV tek kuruluş tarihi vermiyor
+(Edige'nin 1420'deki ölümüne dayandırıyor); `devletler.js` 1440-1783 diyor.
+Kural ⑤ — gün uydurmadım, paketin **açık ucu** olarak işaretlendi.
+
+---
+
+### Ö18 · TDV slug ölçümü — tur 4
+
+| slug | `<title>` | hüküm |
+|---|---|---|
+| `nogaylar` | "NOGAYLAR - TDV İslâm Ansiklopedisi" | 🟢 canlı, dolu |
+
+📌 Dört turda **7 canlı · 1 kabuk · 3 ölü** slug. Ölülerin üçünde de kaynak
+vardı, adres yanlıştı (`ejderhan` · `karlofca-antlasmasi` · + kabuk `lehistan`).
+
+---
+
+## Tur 4'te ölçmediğim, iddia da etmediğim şeyler
+
+- **`nogay` tarih aralığı** — paketin açık ucu (Ö17).
+- **Garabogaz · Çeleken** — Türkmen kıyısı Nogay mı Hîve mi, ölçülmedi.
+- **Üstyurt'un sahipsizliği kasıtlı mı** — 34'lük listede mi, bakılmadı.
+- **Paketin Değişmez 1'e etkisi** — veriye yazamadığım için `denetle.py`
+  koşturamadım; uygulayan oturum koşturmalı.
+- **1648 Hmelnitski günü** — **dördüncü turda da yapılmadı.** Borç büyüyor,
+  sıradaki turun ilk işi.

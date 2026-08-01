@@ -648,12 +648,129 @@ tek vaka üzerinden konvansiyon değiştirilmez.
 
 ---
 
-## 19. SIRADAKİ TUR — kendi kuyruğum
+---
+---
+
+# TUR 4 — `astarhan` penceresi: uygulamaya hazır paket
+
+Koordinatörün istediği: *"hangi noktalara yazılacağını hazırla, renk gelince tek
+turda uygulanır."* Paket aşağıda. **Veriye yazmadım.**
+
+---
+
+## 21. ⚙️ ÖNCE ELEME — hangi nokta o tarihte GERÇEKTEN çiziliyor
+
+Tur 3'ün dersini kendime uyguladım: `s:` penceresine bakmak yetmez, **nokta
+çiziliyor mu** ona bakılır. 1500-06-15 kesitinde Volga-Hazar kutusu:
+
+| nokta | çiziliyor mu | bugün boyalı | `tur:` |
+|---|---|---|---|
+| Astrahan | ✅ **EVET** | `altinorda` | sehir |
+| Terek deltası (Kızlar) | ✅ EVET | `altinorda` | bolge |
+| Kalmuk bozkırı | ✅ EVET | `altinorda` | bolge |
+| Ural eteği | ✅ EVET | `altinorda` | bolge |
+| Mangışlak | ✅ EVET | `altinorda` | bolge |
+| Garabogaz (Bekdaş) | ✅ EVET | `altinorda` | bolge |
+| Bozkır (Deşt-i Kıpçak) | ✅ EVET | `altinorda` | bolge |
+| **Tsaritsyn** | ❌ hayır (`kur:1589`) | — | sehir |
+| **Saratov** | ❌ hayır (`kur:1590`) | — | sehir |
+| **Ufa** | ❌ hayır (`kur:1574`) | — | sehir |
+| Üstyurt platosu (doğu/batı) | ✅ EVET | **`—` sahipsiz** | bolge |
+
+> 🔴 **Doğrudan sonuç: Saratov ve Tsaritsyn'e DOKUNULMAYACAK.**
+> `kur:` tarihlerinden önce çizilmiyorlar; `s:` pencerelerinin 1556'da başlaması
+> haritada **hiçbir şey göstermiyor.** Tur 3'te düşen iddiam tam buydu ve şimdi
+> **iş tasarrufuna** dönüştü: paket 7 noktaya iniyor, 9'a değil.
+
+📌 Ve kayda değer: **Üstyurt platosunun iki noktası `—` (sahipsiz)** — yani
+projenin "kasten boş" sınıfı bu kutuda zaten işliyor. B11'de önerdiğim
+çözümün emsali burada, aynı coğrafyada, çalışır hâlde duruyor.
+
+---
+
+## 22. 📦 PAKET — `astarhan` ve `nogay`, TDV ile sınırlandırılmış
+
+### ② Kaynakta ne var
+**TDV `astarhan-hanligi`** (`<title>` doğrulandı):
+> Hanlık **1466-1556**. Ruslar, IV. İvan'ın **1552**'de Kazan'ı almasının
+> ardından Astarhan'ı işgal etti.
+
+**TDV `nogaylar`** (`<title>` doğrulandı: "NOGAYLAR - TDV İslâm Ansiklopedisi"):
+> Sahası Deşt-i Kıpçak'ta: **batıda "İdil'in (Volga) sol yakasındaki alçak
+> ovalar"**, kuzeydoğuda İrtiş nehrinin kolları ve ovaları, doğuda **"Emba
+> nehrinden Aral gölüne kadar"**. Başşehir **Sarayçık**.
+> Kalmukların ağır baskısı Nogayları batıya sürdü; **1644**'te bir çarpışma.
+
+⇒ **Ölçüt kaynaktan çıkıyor ve nettir: Volga'nın SOL (doğu) yakası Nogay'dır.**
+
+### ③ Öneri — nokta nokta
+
+**A) `astarhan` 1466-01-01 → 1556-01-01** *(Volga ağzı ve batısı)*
+
+| nokta | konum | gerekçe | güven |
+|---|---|---|---|
+| **Astrahan** | 46.35, 48.03 | hanlığın **başşehri** | 🟢 kesin |
+| Kalmuk bozkırı | 46.50, 45.50 | Volga'nın **batısı**, hanlığın otlağı | 🟡 orta |
+| Terek deltası (Kızlar) | 43.85, 46.72 | hanlık ile yerel güçler arasında | 🟡 zayıf |
+
+**B) `nogay`** *(Volga'nın SOL yakası — TDV'nin çizdiği sınır)*
+
+| nokta | konum | gerekçe | güven |
+|---|---|---|---|
+| **Ural eteği** | 51.00, 52.00 | Volga'nın doğusu, Yayık havzası — **tam Nogay sahası** | 🟢 kesin |
+| **Mangışlak** | 44.51, 50.27 | Hazar'ın doğu kıyısı, *"Emba'dan Aral'a"* içinde | 🟢 kesin |
+
+⚠️ **Tarih aralığı için ölçüt yok.** TDV Nogay için tek kuruluş tarihi vermiyor
+(*"Edige'nin 1420'deki ölümüne"* dayandırıyor); `devletler.js` **1440-1783**
+diyor. Kural ⑤ gereği **gün uydurmuyorum**: aralık `devletler.js`'ten alınmalı
+ya da ayrıca araştırılmalı. Bu, paketin **açık ucu** ve öyle işaretliyorum.
+
+### ⛔ PAKETE ALMADIKLARIM — ve neden
+
+| nokta | neden almadım |
+|---|---|
+| Saratov · Tsaritsyn · Ufa | `kur:` öncesi çizilmiyor — **etkisiz değişiklik** (§21) |
+| Garabogaz · Çeleken | Türkmen kıyısı; Nogay mı Hîve mi **ölçmedim** |
+| Üstyurt (doğu/batı) | zaten `—` sahipsiz; **kasten boş** olabilir, dokunmam |
+| Bozkır (Deşt-i Kıpçak) | bugün düzeltildi (1502 → `kirim`), **açmıyorum** |
+
+---
+
+## 23. ⚠️ PAKETİN ÖNÜNDEKİ İKİ KAPI — ikisi de bende değil
+
+1. **Renk.** `astarhan` ve `nogay`, `renkler.py`'de **yok** (Oturum 16 E.4).
+   Renksiz kimlik **boyanmaz** — paket renk gelmeden uygulanırsa haritada
+   `altinorda` yerine **delik** açar. Bu, düzeltmeyi düzeltmeden kötü yapar.
+2. **Değişmez 1.** Yedi noktanın hepsi bugün sahipli; paket sahipliği
+   değiştiriyor, **kaldırmıyor** — yani sahipsiz sayısı 34'te kalmalı.
+   ⚠️ **Ölçmedim** (veriye yazamadığım için koşturamam). Uygulayan oturum
+   `denetle.py`'yi koştursun.
+
+---
+
+## 24. 📌 VE BİR ÖLÇÜM SORUSU — kimin cevaplayacağını bilmiyorum
+
+`astarhan` ve `nogay` eklenince `altinorda` bu kutuda **ne kadar küçülür?**
+Bugün 22 pencere / 22 nokta taşıyor ve bunun **7'si** bu pakette. Yani Altın
+Orda'nın haritadaki gövdesinin **üçte biri**, aslında ondan sonra gelen iki
+devletin sahası.
+
+Bu bir hata değil — Altın Orda'nın halefleri hep onun içinden çıktı. Ama
+**kullanıcının "Rusya nasıl sınıra dayandı" sorusunun görsel cevabı buna bağlı**:
+bugün harita 1502'de kocaman bir `altinorda`dan doğrudan `rusya`ya atlıyor.
+Araya `astarhan` · `kazan` · `nogay` girince **Rusya'nın Volga'yı adım adım
+inişi görünür hâle geliyor** — B6'daki üç kronoloji maddesinin haritadaki
+karşılığı tam bu.
+
+---
+
+## 25. SIRADAKİ TUR — kendi kuyruğum
 
 1. **1648 Hmelnitski ayaklanmasının günü** — Ukrayna/Leh kaynağından; B3'ün
-   önerisi bu tarihe bağlı. Üç turdur sırada, hâlâ yapılmadı.
-2. **`astarhan` 90 yıllık taşması** — kayıt hazır, renk VERİ KİMLİK'te bekliyor.
-   B4'ün ayakta kalan gövdesi.
+   önerisi bu tarihe bağlı. **Dört turdur sırada, hâlâ yapılmadı** — bu turun
+   borcu, önce o yapılacak.
+2. ~~`astarhan` 90 yıllık taşması~~ → **§22'de paketlendi**, renk bekliyor.
+   Açık ucu: `nogay` tarih aralığı.
 3. **Hacıbey (Odessa)** — Tur 2'de fark edildi, ölçülmedi: `d:OSMANLI`
    **1538-09-01**'de başlıyor ama `s:kirim` **1441-1538** ile örtüşmüyor mu,
    ve 1792-01-09 (Yaş) tarihi Rus kaynağıyla tutuyor mu?
