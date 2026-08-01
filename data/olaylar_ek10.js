@@ -94,6 +94,7 @@ window.OLAYLAR_EK10 = [
   gun:"Ağustos 1479", yer:"Ayamavra (Lefkada), Kefalonya, Zaklise (Zakynthos), İthaki — İyon Denizi",
   kisiler:"Fatih Sultan Mehmed, Gedik Ahmed Paşa, Leonardo III Tocco",
   d:"Aynı yılın ocak ayında Venedik'le imzalanan İstanbul Antlaşması İşkodra ve Arnavutluk kıyısını Osmanlı'da bırakmıştı; İyon adaları ise Venedik'in değil, Kefalonya-Zaklise kontluğunu elinde tutan Tocco ailesinin idaresindeydi ve ayrı bir harekâtla alındı. TDV'nin Ayamavra maddesine göre son dük Leonardo Tocco önce Fâtih'in akrabası Milica Brankoviç ile evlenerek sadakatini korumuş, 1464'te eşi ölünce 1477'de Napoli hanedanından Francesca Marzano ile evlenerek padişahı gücendirmişti. İki yıl sonra Avlonya beyi Gedik Ahmed Paşa kumandasındaki donanma Ayamavra'yı güneydeki Kefalonya ile birlikte ele geçirdi; Leonardo ve Francesca İtalya'ya kaçtı. Gedik Ahmed Paşa maddesi aynı harekâtta Zaklise'nin (Zanta) de alındığını kaydeder; Kefalonya kontluğuna bağlı İthaki de bu devirle Osmanlı idaresine girdi. Böylece Adriyatik ağzından Mora'ya uzanan deniz yolu bütünüyle denetim altına alındı. Adalardan Zaklise üç yıl sonra Venedik'e bırakılacak, Kefalonya ile İthaki 1500'de kaybedilecek, yalnız Ayamavra iki yüz yıl Osmanlı'da kalacaktı.",
+  fethedilen:["Ayamavra (Lefkada)","Kefalonya","İthaki","Zaklise (Zakynthos)"],
   kaynak:"gedik-ahmed-pasa" },
 
 // ---------------------------------------------------------------------------
@@ -114,6 +115,7 @@ window.OLAYLAR_EK10 = [
   gun:"1482", yer:"Cetinje, Lovçen eteği, Karadağ",
   kisiler:"II. Bayezid, İvan Crnojeviç",
   d:"İşkodra'nın 1479'da Osmanlı'da kalmasıyla arka bahçesindeki Zeta dağlık bölgesi de imparatorluğun sınırları içine düştü. Bölgeyi elinde tutan Crnojeviç ailesi, Fâtih'in ölümünden sonra tahta çıkan II. Bayezid'in hükümdarlığını tanıyıp haraca bağlanarak iç işlerinde serbest kaldı; İvan Crnojeviç merkezini ovadan çekip Lovçen dağının eteğindeki Cetinje'ye taşıdı ve şehri kurdu. İki yıl sonra buraya yaptırdığı manastır bölgenin dinî merkezi oldu. Böylece Karadağ, haritada doğrudan Osmanlı toprağı olarak değil, açık tonda bir tâbi bölge olarak belirir. TDV'nin Karadağ maddesi hanedanı ve Cetinje piskoposluğunu anar, hâkimiyetin 1514'te İskender Bey (Crnojeviç soyundan, Osmanlı sarayında yetişmiş) eliyle ayrı bir sancağa dönüştüğünü yazar; 1482 yılı ise TDV'de geçmez, Karadağ tarih yazımının verdiği tarihtir. Coğrafyanın sertliği yüzünden buradaki idare hiçbir zaman ovalardaki gibi sıkı işlemedi.",
+  fethedilen:["Cetinje"], kaybedilen:["Zaklise (Zakynthos)"],
   kaynak:"karadag" },
 
 // ---------------------------------------------------------------------------
@@ -134,6 +136,7 @@ window.OLAYLAR_EK10 = [
   gun:"15 Temmuz 1484 (20 Cemâziyelâhir 889)", yer:"Kili (Chilia), Tuna deltası, Boğdan sahili",
   kisiler:"II. Bayezid, Kırım Hanı Mengli Giray, Boğdan Voyvodası Büyük Ştefan",
   d:"Boğdan 1455 eylülünden beri yılda iki bin altın haraç ödeyen tâbi bir voyvodalıktı, ama Karadeniz'e açılan iki limanı hâlâ voyvodanın elindeydi ve Tuna'dan gelen ticaret oradan geçiyordu. II. Bayezid saltanatının ilk büyük seferini bu iki limana yaptı. On gün boyunca gece gündüz topa tutulan Kili Kalesi'nin kumandanı teslim olmak zorunda kaldı. Kale doğrudan Osmanlı idaresine alınıp sancak beyliği haline getirildi; XVI. yüzyılın ikinci yarısında Kazak tehlikesi yüzünden kaza yapılıp Rumeli beylerbeyiliğine bağlı Akkirman sancağına bağlandı. Buradan sonra Boğdan haritada iki kademeli görünür: içeride voyvodalık açık tonda tâbi toprak olarak durur, kıyıdaki iki liman ise koyu tonda doğrudan Osmanlı sancağıdır. TDV'nin Boğdan maddesi bu ikisini 'Boğdan'ın anahtarları ve kapıları' diye anar ve bölgenin II. Bayezid zamanında kesin olarak Osmanlı'ya bağlandığını yazar.",
+  fethedilen:["Kili"],
   kaynak:"kili" },
 
 // ---------------------------------------------------------------------------
@@ -145,6 +148,7 @@ window.OLAYLAR_EK10 = [
   gun:"4 Ağustos 1484", yer:"Akkirman (Cetatea Albă), Dinyester haliç ağzı, Boğdan sahili",
   kisiler:"II. Bayezid, Boğdan Voyvodası Büyük Ştefan",
   d:"Kili'nin tesliminden yirmi gün sonra ordu Dinyester ağzındaki Akkirman'ın önüne geldi ve kale 4 Ağustos'ta alındı. Şehir Boğdan'ın en işlek limanıydı; Fâtih devrinde voyvoda III. Petru 1455'te Osmanlı hâkimiyetini tanıyınca Akkirman tüccarlarına ticaret izni verilmişti, şimdi liman doğrudan devletin oldu. Fetihten sonra Rumeli beylerbeyiliğine bağlı bir sancak haline getirilen Akkirman, 1593'te yeni kurulan Özü eyaletine ilhak edildi. Böylece Boğdan'ın kuzeyden Hotin, güneyden Kili ve Akkirman ile çevrelenen dış kabuğu Osmanlı'nın doğrudan denetimine girmeye başladı; voyvodalık iç işlerinde serbest kaldı ama denize çıkışı kalmadı. Haritada arada boş bir bölge yoktur — koyu tonlu liman sancakları ile açık tonlu voyvodalık toprağı birbirine değer; ikisi arasındaki Bucak bozkırı 1538'e kadar hâlâ voyvodalığın parçasıdır.",
+  fethedilen:["Akkirman"],
   kaynak:"akkirman" },
 
 // ---------------------------------------------------------------------------
@@ -165,6 +169,7 @@ window.OLAYLAR_EK10 = [
   gun:"26 Ağustos 1499", yer:"İnebahtı (Lepanto / Naupaktos), Korint körfezi ağzı, Mora",
   kisiler:"II. Bayezid, Küçük Davud Paşa, Kemal Reis",
   d:"İnebahtı 1407'den beri Venedik'in elindeydi ve Korint körfezinin ağzını tutuyordu; körfezin içindeki bütün kıyı bu kalenin menziline bağlıydı. 1499 seferinde kale karadan kuşatıldı, İnebahtı açıklarında Venedik donanmasıyla çarpışan Osmanlı donanması ise denizden kuşatma kuvvetlerine yardımcı oldu. Kaledeki Venedikliler 26 Ağustos'ta kasabayı Osmanlılar'a teslim ettiler. Şehir bundan sonra yüz seksen sekiz yıl Osmanlı'da kaldı, 1687'de Mora'nın kaybıyla yeniden Venedik'e geçti, 1715'te geri alındı. Aynı yazın deniz muharebesi ile bu teslim iki ayrı olaydır: donanma çarpışması Mora'nın batı ucunda, Sapienza-Zonchio sularında cereyan etti; İnebahtı ise Korint körfezinin ağzında bir kara kuşatmasıyla düştü.",
+  fethedilen:["İnebahtı"],
   kaynak:"inebahti" },
 
 // ===========================================================================
@@ -389,6 +394,7 @@ window.OLAYLAR_EK10 = [
   gun:"Şubat 1476", yer:"Böğürdelen (Šabac), Sava nehri kıyısı",
   kisiler:"Fatih Sultan Mehmed, Macar Kralı Mátyás Corvin",
   d:"Fâtih Sultan Mehmed zamanında Osmanlı eline geçen ve daha önce Zaslon adıyla anılan mevkide 1471'de ahşap ve topraktan bir hisar yapılmıştı. Belgrad'ı tehdit eden bir noktada bulunduğu ve buradan Macaristan ile Avusturya'nın güney bölgelerine kolayca akın yapılabildiği için kale, adını da bu işlevden alıyordu — Böğürdelen, \"yandan vuran tabya\" demektir. Macar Kralı Mátyás Corvin 1475 sonlarına doğru kaleyi kuşattı ve 1476 şubatında ele geçirdi. Kuşatmayı anlatan Szabács viadala adlı Macar destanı, XV. yüzyıl Macar tarih şiirlerinin metni günümüze ulaşan en uzun örneklerindendir. Macarlar bölgede bir banlık kurdu ve kaleyi taştan yeniden tahkim ederek serhad hisar zincirinin halkası yaptılar. Osmanlılar 1492'de geri almayı denediler ve başaramadılar; kale kırk beş yıl Macar elinde kaldı.",
+  kaybedilen:["Böğürdelen (Šabac)"],
   kaynak:"bogurdelen" },
 
 { t:"1521-07-07", k:"fetih", etiket:["toprak-kazanc","savas"],
@@ -396,6 +402,7 @@ window.OLAYLAR_EK10 = [
   gun:"7 Temmuz 1521", yer:"Böğürdelen (Šabac), Sava nehri kıyısı",
   kisiler:"Kanûnî Sultan Süleyman, Rumeli Beylerbeyi Ahmed Paşa",
   d:"Kanûnî Sultan Süleyman'ın birinci Macaristan seferinde bölgeye gönderilen Rumeli Beylerbeyi Ahmed Paşa'nın kuvvetleri, şiddetli bir kuşatmanın ardından kaleyi 7 Temmuz 1521'de aldı. Böğürdelen, Kanûnî'nin saltanatında fethedilen ilk kaledir. Padişah fetihten sonra bizzat kaleye girdi ve şehrin imarını emretti; Belgrad'ın fethine dair kararlar da burada alındı — yani 29 Ağustos 1521'de düşecek olan Belgrad'ın planı Böğürdelen'de yapıldı. Kale bundan sonra iki yüz yıla yakın Osmanlı elinde kaldı; önce Rumeli, 1580'den itibaren Bosna eyaletine, ardından kısa süre Semendire ve nihayet İzvornik sancağına bağlandı. Haritada bu tarih Sava hattının Osmanlı lehine kapandığı gündür.",
+  fethedilen:["Böğürdelen (Šabac)"],
   kaynak:"bogurdelen" },
 
 { t:"1788-04-24", k:"kayip", etiket:["toprak-kaybi","savas"],
@@ -403,6 +410,7 @@ window.OLAYLAR_EK10 = [
   gun:"24 Nisan 1788", yer:"Böğürdelen (Šabac), Sava nehri kıyısı",
   kisiler:"I. Abdülhamid, Avusturya İmparatoru II. Joseph",
   d:"Avusturya'nın 9 Şubat 1788'de Rusya'nın yanında savaşa girmesinin ardından Sava hattı yeniden cephe oldu ve Böğürdelen 24 Nisan 1788'de Avusturya hâkimiyetine geçti. Kale daha önce 17 Ağustos 1717'de savaşsız olarak Avusturya'ya terkedilmiş ve Belgrad Antlaşması'na (1739) kadar elde tutulmuştu; o dönemde nüfusu öylesine azalmıştı ki şehirde otuz dört hıristiyan evi kalmış, hiç müslüman kalmamıştı. 1739-1788 arasındaki Osmanlı devrinde nüfus yeniden 1500-2000'e çıkmıştı. İkinci işgal Ziştovi Antlaşması'yla (4 Ağustos 1791) sona erecek ve kale Osmanlılar'a iade edilecekti.",
+  kaybedilen:["Böğürdelen (Šabac)"],
   kaynak:"bogurdelen" },
 
 { t:"1806-01-26", k:"kayip", etiket:["toprak-kaybi","isyan"],
@@ -410,6 +418,7 @@ window.OLAYLAR_EK10 = [
   gun:"26 Ocak 1806", yer:"Böğürdelen (Šabac), Sava nehri kıyısı",
   kisiler:"III. Selim, Karadjordje (Kara Yorgi) Petroviç",
   d:"1804'te Belgrad'daki dayı ve yamakların baskısına tepki olarak başlayan, sonra milliyetçi bir karakter kazanan ilk Sırp ihtilâli sırasında Böğürdelen Kalesi 26 Ocak 1806'da Kara Yorgi'ye teslim edildi. Sava üzerindeki bu kale, isyancıların ele geçirdiği ilk büyük Osmanlı istihkâmıdır ve Belgrad'ın düşüşünü haber verir. İsyan 1813'te bastırılıp Belgrad geri alınınca kale de Osmanlı idaresine döndü; ancak 1830 fermanının garnizon şartıyla Böğürdelen, Belgrad, Semendire ve Fethülislâm ile birlikte özerk Sırbistan'ın içinde Osmanlı askerinin kaldığı dört kaleden biri olarak tanımlandı ve 1867'de garnizonu çekilene kadar bu statüde kaldı.",
+  kaybedilen:["Böğürdelen (Šabac)"],
   kaynak:"bogurdelen" },
 
 { t:"1457-01-01", k:"fetih", etiket:["toprak-kazanc","idare"],
@@ -417,6 +426,35 @@ window.OLAYLAR_EK10 = [
   gun:"1457", yer:"Podgorica (Ribnica), Morača ile Ribnica'nın kavuştuğu yer, Zeta ovası",
   kisiler:"Fatih Sultan Mehmed",
   d:"İşkodra gölünün yirmi kilometre kuzeyinde, Morača ile Ribnica sularının birleştiği ovada kurulu kasaba kaynaklarda ilk defa 1216'da Ribnica, 1326'da Podgorica adıyla anılır. 1457'de Osmanlı topraklarına katıldı ve Zeta ovasının denetimi böylece Balšić-Crnojević hânedanlarının elinden çıktı. Fâtih Sultan Mehmed 1474-1478 yılları arasında iki nehrin kavşağındaki sarp kayalıklara bir kale ile cami inşa ettirdi; 1479'da İşkodra'nın fethinden sonra bölge yeni kurulan İşkodra sancağına bağlandı. 1485 tahririnde kırk hânelik hıristiyan bir kasaba olan Podgorica, 1529-30'da 800 kişiye ve kale içinde bir dizdarın emrindeki otuz iki kişilik garnizona, 1582'de 322 hâneye ulaştı. Evliya Çelebi 1662'de Fâtih Kalesi'nde üç yüz ev, ambarlar, cebehâneler ve yedi yüz muhafız saydı. Bu kayıtlar Zeta'nın ovası ile dağı arasındaki farkı da gösterir: ova sayılan, vergilendirilen ve garnizonlu bir Osmanlı kazasıdır — oysa XVIII. yüzyılda şehir, Karadağ dağlarındaki aşiretlerin baskınlarını önlemek için altı tabya ve üç kapılı surlarla tahkim edilmek zorunda kalacaktır. Podgorica 1876-1878 savaşının sonlarında Karadağ'ın eline geçti ve Berlin Antlaşması'yla orada kaldı.",
+  fethedilen:["Podgorica"],
   kaynak:"podgorica" },
+
+{ t:"1448-01-01", k:"fetih", etiket:["toprak-kazanc","idare"],
+  b:"Saray ovasının ilhakı — Bosna içindeki Osmanlı ucunun kurulması",
+  gun:"1448", yer:"Hodidjed, Saray ovası (Vrhbosna), orta Bosna",
+  kisiler:"II. Murad, Üsküp beyi İshak Bey, oğlu Îsâ Bey",
+  d:"Bosna kralları 1428-1429'da haraca bağlandıktan sonra Osmanlılar krallığın içine doğru kalıcı biçimde yerleşmeye başladı. 1428-1435 arasında Hodidjed kasabası alındı; 852'de (1448) Hodidjed vilâyeti Saray ovasıyla birlikte tamamen Osmanlı idaresine girdi. Bu, Bosna'nın fethinden on beş yıl önce krallığın ortasında kurulmuş bir uç sahasıdır ve voyvoda unvanı taşıyan Üsküp beyi Îsâ Bey tarafından idare edilmiştir — çevresinde hâlâ Osmanlı'ya tâbi Bosna beyleri bulunduğu için bölge çift taraflı denetim altındaydı. Şehrin kendisi de bu dönemde doğdu: 1462'den önce İshak Bey ya da oğlu Îsâ Bey ilk müslüman mahallesini kurdu, 862'de (1458) Fâtih adına Hünkâr Camii yapıldı ve Brodec köyünün ekinliği imar edilerek Saray kasabası ortaya çıktı. 1463'teki fetih Bosna Krallığı'nı ortadan kaldırdı; Saray ovası ise o tarihte zaten on beş yıldır Osmanlı toprağıydı.",
+  kaynak:"saraybosna" },
+
+{ t:"1465-01-01", k:"fetih", etiket:["toprak-kazanc","idare"],
+  b:"Foça'nın alınışı — Hersek Düklüğü'ne ilk girişin açılması",
+  gun:"1465", yer:"Foça (Foča), Drina vadisi, Hersek",
+  kisiler:"Fatih Sultan Mehmed, Hersek Dükü Stjepan Vukçiç-Kosaça",
+  d:"Bosna Krallığı 1463'te ortadan kaldırıldıktan sonra sıra, krallıktan ayrılıp kendi düklüğünü kuran Stjepan Vukçiç-Kosaça'nın topraklarına geldi. Drina vadisinde, İstanbul'u Dubrovnik'e bağlayan ticaret yolunun kavşağında bulunan Foça 1465'te Osmanlı idaresine girdi. Şehrin önemi hemen anlaşıldı: 1470'te yeni teşkil edilen Hersek sancağının merkezi yapıldı — yani Hersek'in idarî çekirdeği, düklüğün kendisi daha yıkılmadan Foça'da kuruldu. Düklüğün tamamının ilhakı 1483'e kadar sürecekti. Foça bundan sonra elverişli iklimi ve yol kavşağındaki konumu sayesinde bir ticaret ve idare merkezi olarak gelişti. Haritada bu tarih, Bosna'nın fethinden sonra güneye doğru ikinci dalganın başladığı gündür.",
+  kaynak:"foca" },
+
+{ t:"1469-01-01", k:"fetih", etiket:["toprak-kazanc"],
+  b:"Livno ve batı Bosna'nın kesin ilhakı — Venedik sınırının kurulması",
+  gun:"1468-1469 (TDV kesin gün vermiyor)", yer:"Livno (İhlevne), Livno ovası, batı Bosna",
+  kisiler:"Fatih Sultan Mehmed, Ivaniš Vlatković",
+  d:"Livno ovasına hâkim plato üzerindeki kale, 1448-1454 arasında Hersek Düklüğü'nün kurucusu Stjepan Vukçiç-Kosaça'nın elindeydi. 1463 Bosna seferinde kısa bir süre Osmanlı kuvvetlerince işgal edilmiş, ancak aynı yıl geri alınmıştı; 1466'da şehrin hâkimi Ivaniš Vlatković'tir. TDV'nin ifadesiyle kesin Osmanlı hâkimiyeti büyük bir ihtimalle 1468-1469'da gerçekleşti ve 1485 tahriri Livno'yu artık Osmanlı toprağı olarak kaydeder. Bu, Bosna fethinin batı ucunun kapanmasıdır: Livno, düz ova boyunca yalnız otuz altı kilometre ötedeki Venedik topraklarına komşu, tehlikeli bir sınır kasabası hâline geldi ve bu konumunu 1521-1522'de Bosna Valisi Gazi Hüsrev Bey'in Venedik kalelerini almasına kadar korudu.",
+  kaynak:"livno" },
+
+{ t:"1512-01-01", k:"fetih", etiket:["toprak-kazanc"],
+  b:"Srebrenik banatlığının ilhakı — kuzey Bosna'da Macar hattının ilk kırılması",
+  gun:"1512", yer:"Srebrenik, kuzeydoğu Bosna",
+  kisiler:"II. Bayezid",
+  d:"Bosna Krallığı 1463'te yıkıldıktan sonra Mátyás Corvin karşı taarruza geçmiş ve krallığın kuzeyinde Osmanlı ilerleyişini durduran iki banatlık kurmuştu: batıda Yayça, kuzeydoğuda Srebrenik. Bunlar Macaristan'ın Bosna'daki ileri savunma hattıydı ve Sava ile Bosna arasındaki koridoru kapatıyorlardı. Srebrenik banatlığı 1512'de ele geçirildi; böylece hattın doğu kanadı çöktü ve İzvornik sancağı kuzeye doğru genişleyebildi. Batı kanadındaki Yayça ise on altı yıl daha dayanacak, ancak Mohaç'tan sonra 1528'de alınabilecekti. ⚠️ Srebrenik, Drina üzerindeki Srebrenica ile karıştırılmamalıdır; ikisi ayrı yerlerdir.",
+  kaynak:"bosna-hersek" },
 
 ];
