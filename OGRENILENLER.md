@@ -2941,3 +2941,50 @@ olaylar     tanıma, antlaşma — harita sınırı DEĞİL
 burada **ifade edebiliyordu ve az kalsın kullanılmayacaktı.** İkisinin ortak
 noktası şu soru: **elimdeki alan, söylemek istediğim şeyi söylüyor mu?**
 
+
+---
+
+## §75 — KABUKTAN GEÇEN KOMUT: KONTROLÜN KENDİSİ SESSİZCE BOŞA DÖNEBİLİR
+
+MOTOR'un üretim koşusunun bitmesini beklemek için arka plana şu kondu:
+
+```bash
+until ! powershell -c "Get-CimInstance ... | Where-Object {$_.CommandLine -like '*uret_petek*'}" \
+      | grep -q uret_petek; do sleep 20; done
+```
+
+Beklenen: koşu bitene kadar dönmesi. **Olan: anında "ÜRETİM BİTTİ" demesi.**
+
+Sebep: `$_` **çift tırnak içindeydi** ve PowerShell görmeden önce **bash onu
+boş dizeye çevirdi.** Filtre bozuldu, PowerShell hiçbir şey basmadı, `grep`
+bulamadı, `!` bunu *"süreç yok"* diye okudu. Koşu **hâlâ koşuyordu.**
+
+### Neden bu sınıf tehlikeli
+
+⚠️ Kontrol **çökmedi** — çökse fark edilirdi. **Yanlış cevabı, doğru cevabın
+biçiminde** verdi. Ve yanlış cevap tam da beklenen cevaptı: *"bitti."*
+Ölçüm yapılmış gibi görünüyordu; hiç yapılmamıştı.
+
+📌 Yakalanma sebebi ölçüm değil **tesadüf**: MOTOR bağımsız olarak *"koşum
+%82'de, 15:05'te biter"* yazdı. İki rakam çelişti, `Get-Process` ile tekrar
+bakıldı, süreç duruyordu.
+
+### Kural
+
+> **Bir kontrolün "hayır" cevabı, kontrolün ÇALIŞTIĞI anlamına gelmez.**
+> Beklemeye/koşula giren her kontrol, önce **doğru olduğu BİLİNEN bir durumda**
+> sınanır: *"süreç şu an koşuyorken bu komut onu görüyor mu?"* Görmüyorsa
+> sorun süreçte değil **komuttadır.**
+
+🔴 Ve bu projeye özgü tekrar eden tuzak — `CLAUDE.md` zaten `py -c "..."`
+içindeki backtick'ler için uyarıyordu. **Aynı sınıf, farklı karakter:**
+```
+`  →  bash komut ikamesi
+$  →  bash değişken genişletmesi     ← bu vaka
+```
+🟢 Çare basit: kabuğa gidecek PowerShell parçaları **tek tırnakla** yazılır,
+ya da `$_` gerektirmeyen bir biçim seçilir (`Get-Process -Id <PID>`).
+
+⚠️ `§72` ve `§73` ile aynı aile: orada **yeşil değişmez**, burada **sessiz
+kontrol** — ikisi de *"baktım, sorun yok"* diyor ve ikisinde de **bakılmamış.**
+
