@@ -137,6 +137,7 @@ window.OLAYLAR_EK10 = [
   kisiler:"II. Bayezid, Kırım Hanı Mengli Giray, Boğdan Voyvodası Büyük Ştefan",
   d:"Boğdan 1455 eylülünden beri yılda iki bin altın haraç ödeyen tâbi bir voyvodalıktı, ama Karadeniz'e açılan iki limanı hâlâ voyvodanın elindeydi ve Tuna'dan gelen ticaret oradan geçiyordu. II. Bayezid saltanatının ilk büyük seferini bu iki limana yaptı. On gün boyunca gece gündüz topa tutulan Kili Kalesi'nin kumandanı teslim olmak zorunda kaldı. Kale doğrudan Osmanlı idaresine alınıp sancak beyliği haline getirildi; XVI. yüzyılın ikinci yarısında Kazak tehlikesi yüzünden kaza yapılıp Rumeli beylerbeyiliğine bağlı Akkirman sancağına bağlandı. Buradan sonra Boğdan haritada iki kademeli görünür: içeride voyvodalık açık tonda tâbi toprak olarak durur, kıyıdaki iki liman ise koyu tonda doğrudan Osmanlı sancağıdır. TDV'nin Boğdan maddesi bu ikisini 'Boğdan'ın anahtarları ve kapıları' diye anar ve bölgenin II. Bayezid zamanında kesin olarak Osmanlı'ya bağlandığını yazar.",
   fethedilen:["Kili"],
+  statu_dogrudan:["Kili"],
   kaynak:"kili" },
 
 // ---------------------------------------------------------------------------
@@ -149,6 +150,7 @@ window.OLAYLAR_EK10 = [
   kisiler:"II. Bayezid, Boğdan Voyvodası Büyük Ştefan",
   d:"Kili'nin tesliminden yirmi gün sonra ordu Dinyester ağzındaki Akkirman'ın önüne geldi ve kale 4 Ağustos'ta alındı. Şehir Boğdan'ın en işlek limanıydı; Fâtih devrinde voyvoda III. Petru 1455'te Osmanlı hâkimiyetini tanıyınca Akkirman tüccarlarına ticaret izni verilmişti, şimdi liman doğrudan devletin oldu. Fetihten sonra Rumeli beylerbeyiliğine bağlı bir sancak haline getirilen Akkirman, 1593'te yeni kurulan Özü eyaletine ilhak edildi. Böylece Boğdan'ın kuzeyden Hotin, güneyden Kili ve Akkirman ile çevrelenen dış kabuğu Osmanlı'nın doğrudan denetimine girmeye başladı; voyvodalık iç işlerinde serbest kaldı ama denize çıkışı kalmadı. Haritada arada boş bir bölge yoktur — koyu tonlu liman sancakları ile açık tonlu voyvodalık toprağı birbirine değer; ikisi arasındaki Bucak bozkırı 1538'e kadar hâlâ voyvodalığın parçasıdır.",
   fethedilen:["Akkirman"],
+  statu_dogrudan:["Akkirman"],
   kaynak:"akkirman" },
 
 // ---------------------------------------------------------------------------
@@ -297,6 +299,7 @@ window.OLAYLAR_EK10 = [
   gun:"24 Haziran 1713", yer:"Hotin Kalesi, Dinyester'in sağ yakası, kuzey Boğdan",
   kisiler:"III. Ahmed, Boğdan Voyvodası Dimitrie Cantemir (1711'de Rusya'ya geçen voyvoda), Demirbaş Şarl",
   d:"Prut seferinde Boğdan voyvodası Dimitrie Cantemir'in Rusya tarafına geçmesi, voyvodalığın kuzey sınırının artık voyvodaya bırakılamayacağını gösterdi. Bunun üzerine Hotin 1711'den sonra Boğdan'dan alınıp doğrudan Osmanlı idaresine sokuldu; önce bir nahiye, sonra sancak statüsü verildi. 1713'teki geçici Rus işgalinin ardından kale İstanbul'dan gönderilen Osmanlı ve Fransız teknik heyetinin nezaretinde yeniden tamir edilerek genişletildi ve Tuna'nın kuzeyindeki en güçlü Osmanlı istihkâmı hâline geldi. Haritada bu tarihten sonra Hotin'in tâbi voyvodalık tonundan çıkıp doğrudan Osmanlı rengine dönmesi, ve tâbi Boğdan'ın ortasında yalnız bir ada gibi durması işte bu idarî ayrılmanın karşılığıdır — bir çizim hatası değildir. Aynı yapı Bucak'ta 1538'den, Kili ve Akkirman'da 1484'ten beri zaten vardı: voyvodalık iç işlerinde serbest, sınır kaleleri devletin.",
+  statu_dogrudan:["Hotin"],
   kaynak:"hotin" },
 
 // ===========================================================================
@@ -434,6 +437,7 @@ window.OLAYLAR_EK10 = [
   gun:"1448", yer:"Hodidjed, Saray ovası (Vrhbosna), orta Bosna",
   kisiler:"II. Murad, Üsküp beyi İshak Bey, oğlu Îsâ Bey",
   d:"Bosna kralları 1428-1429'da haraca bağlandıktan sonra Osmanlılar krallığın içine doğru kalıcı biçimde yerleşmeye başladı. 1428-1435 arasında Hodidjed kasabası alındı; 852'de (1448) Hodidjed vilâyeti Saray ovasıyla birlikte tamamen Osmanlı idaresine girdi. Bu, Bosna'nın fethinden on beş yıl önce krallığın ortasında kurulmuş bir uç sahasıdır ve voyvoda unvanı taşıyan Üsküp beyi Îsâ Bey tarafından idare edilmiştir — çevresinde hâlâ Osmanlı'ya tâbi Bosna beyleri bulunduğu için bölge çift taraflı denetim altındaydı. Şehrin kendisi de bu dönemde doğdu: 1462'den önce İshak Bey ya da oğlu Îsâ Bey ilk müslüman mahallesini kurdu, 862'de (1458) Fâtih adına Hünkâr Camii yapıldı ve Brodec köyünün ekinliği imar edilerek Saray kasabası ortaya çıktı. 1463'teki fetih Bosna Krallığı'nı ortadan kaldırdı; Saray ovası ise o tarihte zaten on beş yıldır Osmanlı toprağıydı.",
+  fethedilen:["Saraybosna"],
   kaynak:"saraybosna" },
 
 { t:"1465-01-01", k:"fetih", etiket:["toprak-kazanc","idare"],
@@ -441,6 +445,7 @@ window.OLAYLAR_EK10 = [
   gun:"1465", yer:"Foça (Foča), Drina vadisi, Hersek",
   kisiler:"Fatih Sultan Mehmed, Hersek Dükü Stjepan Vukçiç-Kosaça",
   d:"Bosna Krallığı 1463'te ortadan kaldırıldıktan sonra sıra, krallıktan ayrılıp kendi düklüğünü kuran Stjepan Vukçiç-Kosaça'nın topraklarına geldi. Drina vadisinde, İstanbul'u Dubrovnik'e bağlayan ticaret yolunun kavşağında bulunan Foça 1465'te Osmanlı idaresine girdi. Şehrin önemi hemen anlaşıldı: 1470'te yeni teşkil edilen Hersek sancağının merkezi yapıldı — yani Hersek'in idarî çekirdeği, düklüğün kendisi daha yıkılmadan Foça'da kuruldu. Düklüğün tamamının ilhakı 1483'e kadar sürecekti. Foça bundan sonra elverişli iklimi ve yol kavşağındaki konumu sayesinde bir ticaret ve idare merkezi olarak gelişti. Haritada bu tarih, Bosna'nın fethinden sonra güneye doğru ikinci dalganın başladığı gündür.",
+  fethedilen:["Foça (Foča)"],
   kaynak:"foca" },
 
 { t:"1469-01-01", k:"fetih", etiket:["toprak-kazanc"],
@@ -448,6 +453,7 @@ window.OLAYLAR_EK10 = [
   gun:"1468-1469 (TDV kesin gün vermiyor)", yer:"Livno (İhlevne), Livno ovası, batı Bosna",
   kisiler:"Fatih Sultan Mehmed, Ivaniš Vlatković",
   d:"Livno ovasına hâkim plato üzerindeki kale, 1448-1454 arasında Hersek Düklüğü'nün kurucusu Stjepan Vukçiç-Kosaça'nın elindeydi. 1463 Bosna seferinde kısa bir süre Osmanlı kuvvetlerince işgal edilmiş, ancak aynı yıl geri alınmıştı; 1466'da şehrin hâkimi Ivaniš Vlatković'tir. TDV'nin ifadesiyle kesin Osmanlı hâkimiyeti büyük bir ihtimalle 1468-1469'da gerçekleşti ve 1485 tahriri Livno'yu artık Osmanlı toprağı olarak kaydeder. Bu, Bosna fethinin batı ucunun kapanmasıdır: Livno, düz ova boyunca yalnız otuz altı kilometre ötedeki Venedik topraklarına komşu, tehlikeli bir sınır kasabası hâline geldi ve bu konumunu 1521-1522'de Bosna Valisi Gazi Hüsrev Bey'in Venedik kalelerini almasına kadar korudu.",
+  fethedilen:["Livno (İhlevne)"],
   kaynak:"livno" },
 
 { t:"1512-01-01", k:"fetih", etiket:["toprak-kazanc"],
@@ -455,6 +461,7 @@ window.OLAYLAR_EK10 = [
   gun:"1512", yer:"Srebrenik, kuzeydoğu Bosna",
   kisiler:"II. Bayezid",
   d:"Bosna Krallığı 1463'te yıkıldıktan sonra Mátyás Corvin karşı taarruza geçmiş ve krallığın kuzeyinde Osmanlı ilerleyişini durduran iki banatlık kurmuştu: batıda Yayça, kuzeydoğuda Srebrenik. Bunlar Macaristan'ın Bosna'daki ileri savunma hattıydı ve Sava ile Bosna arasındaki koridoru kapatıyorlardı. Srebrenik banatlığı 1512'de ele geçirildi; böylece hattın doğu kanadı çöktü ve İzvornik sancağı kuzeye doğru genişleyebildi. Batı kanadındaki Yayça ise on altı yıl daha dayanacak, ancak Mohaç'tan sonra 1528'de alınabilecekti. ⚠️ Srebrenik, Drina üzerindeki Srebrenica ile karıştırılmamalıdır; ikisi ayrı yerlerdir.",
+  fethedilen:["Srebrenik"],
   kaynak:"bosna-hersek" },
 
 { t:"1420-01-01", k:"fetih", etiket:["toprak-kazanc","idare"],
@@ -462,6 +469,7 @@ window.OLAYLAR_EK10 = [
   gun:"1420", yer:"Yergöğü (Giurgiu), Turnu (Kule), Orşova (Fethülislâm), Dobruca",
   kisiler:"Çelebi Sultan Mehmed, Eflak Voyvodası I. Mircea (ö. 1418)",
   d:"Fetret devri kapandıktan sonra Çelebi Mehmed'in Tuna hattını düzene sokma hamlesi 1420'de meyvesini verdi. Eflak Voyvodası Koca Mircea'nın kendi toprağı üzerinde, masrafını tuz satışıyla karşılayarak yaptırdığı Yergöğü Kalesi bu yıl Osmanlı eline geçti; aynı yıl Dobruca da Osmanlı topraklarına katıldı ve Tuna'nın sağ kıyısındaki Turnu (Kule/Holovnik) ile Orşova — sonraki adıyla Fethülislâm — ilhak edildi. Böylece nehrin iki yakası birden denetim altına alınmış oldu. Yergöğü'nün önemi coğrafyasındandır: Tuna'nın sol, yani Eflak yakasında kurulmuş bir Osmanlı kalesidir ve karşı kıyıdaki Rusçuk ile aynı geçidin iki ucunu tutar. Osmanlı belgeleri bu ikiliği açıkça yazar — Rusçuk için 'Yergöğü beri yaka', Giurgiu için 'Yergöğü öte yaka' denir. Kale 1427'de Eflaklılar tarafından geri alınacak, 1449'da tekrar Osmanlı denetimine girecek ve Yergöğü kazası Niğbolu sancağına bağlanarak voyvodalık içinde doğrudan idare edilen bir ada hâline gelecekti. Haritada Eflak'ın Tuna boyunun neden koyu renk olduğunun cevabı burada başlar.",
+  fethedilen:["Yergöğü (Giurgiu)"],
   kaynak:"yergogu" },
 
 ];

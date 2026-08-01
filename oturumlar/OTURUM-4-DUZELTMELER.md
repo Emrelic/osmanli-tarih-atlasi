@@ -990,3 +990,917 @@ tarih boşluğu kapanır.
 
 ⚠️ `1534-12-04` günü TDV'de **yok** (madde yalnız "1534" diyor); Bağdat'ın veri
 tarihinden alındı, kayıt yorumuna not düşülmeli. **Karar merkezde.**
+
+---
+---
+
+# ARAŞTIRMA DOĞU → Koordinatör — VLADİKAVKAZ
+
+# ✅ CEVAP: `kasitli_bosluk: true` — **yüksek güven**, "belirsiz" değil
+
+Ölçüm 2026-07-31. `data/`ya yazılmadı.
+
+**Kaynaklar** (üçü de `<title>` ile CANLI doğrulandı):
+**TDV OSETLER** (`osetler`) · **TDV KABARTAYLAR** (`kabartaylar`) ·
+**TDV KAFKASYA** (`kafkasya`).
+
+⚠️ **Yönlendirme tuzağı bu soruda belirleyici oldu.** Denediğim ilk slug'ların
+dokuzu ölü çıktı — `kabartay`, `terek`, `daryal`, `vladikavkaz`, `osetya`,
+`cerkes`, `kirim-hanligi`, `alan-osetler`, `kuzey-kafkasya`. "TDV'de Kafkasya
+kabileleri yok" diye kapatsaydım soruyu cevapsız bırakacaktım. TDV aramasıyla
+doğru adlar bulundu: **`kabartaylar`** · **`osetler`** · **`cerkezler`**
+(hepsi çoğul). Asıl maddeler bunlar ve ikisi soruyu doğrudan cevaplıyor.
+
+---
+
+## Soru 1 — 1784 öncesi Terek yukarı havzasında fiilî devlet otoritesi var mıydı?
+
+# **HAYIR.** Kabile bölgesiydi.
+
+TDV **OSETLER**, dört ayrı cümlede:
+
+> **(a)** *"Bundan dolayı **Osetler'in kontrolündeki** Daryal Geçidi'ne
+> müslümanlar Dâr-ı Alan adını vermiştir."*
+> → Geçit bir devletin değil, **Osetlerin** kontrolünde.
+
+> **(b)** *"Moğol istilâsına uğrayan, uzun yıllar **Çerkezler'e vergi vermek
+> zorunda kalan** Osetler'in tarihinde önemli bir dönüm noktasını **Küçük
+> Kaynarca Antlaşması ile Rus hâkimiyetine girmeleri** oluşturur."*
+> → 1774 öncesi tek bağ **vergi**; ve "dönüm noktası" olarak anılan şey
+> 1774'tür. Yani ondan önce Oset bölgesi hiçbir devletin idaresinde değil.
+
+> **(c)** *"Böylece Osetler bu dönemde **Vladikafkas çevresine yayılma imkânı
+> elde ettiler**…"*
+> → 🔴 Osetler **Vladikavkaz çevresine ancak 1774'ten SONRA yayılabilmiş.**
+> 1784 öncesi orada yerleşik bir halk otoritesi bile yok, devlet otoritesi
+> bir yana.
+
+> **(d)** *"Ruslar, 1784'te Terek ırmağının doğduğu yerde Vladikafkas'ı kurdular
+> ve **bölgeyi ilhak etmek yolunda önemli bir adım attılar**."*
+> → Kuruluş, ilhakın kendisi değil **ilhaka doğru bir adım**. Kaynak bölgenin
+> o tarihte henüz ilhak edilmemiş olduğunu açıkça söylüyor.
+
+**Kabartay beyleri · Gürcistan · Kırım · İran — dördü de elenir.** TDV bu
+bölgeyi anlatırken hiçbirini idareci olarak anmıyor; andığı tek ilişki
+Çerkezlere ödenen **vergidir**, ki bu idare değil haraçtır.
+
+---
+
+## Soru 2 — Kabartay'ın statüsü; Vladikavkaz'ın toprağı ona sayılır mı?
+
+# **HAYIR** — ve gerekçe beklediğimden güçlü çıktı.
+
+TDV **KABARTAYLAR**:
+
+> *"**Belgrad Antlaşması (1739)** Kabartaylar'ın yaşadığı bölgeyi **tarafsız bir
+> ülke haline getirince** Osmanlı Devleti ile Rusya arasında bir **tampon bölge**
+> haline geldiler. Bunun ardından **Küçük Kaynarca Antlaşması (1774)**
+> Kabartaylar'ı Rusya ile birleştirdi."*
+
+🔴 **1739-1774 arası Kabartay'ın kendisi antlaşmayla tarafsız ilân edilmiş bir
+tampon bölgedir** — yani hiçbir devletin toprağı değildir. Kendisi devletsizken
+100 km ötedeki dağlık bir vadiye egemenlik devredemez.
+
+Ayrıca Kabartay'ın **kendi yurdu ova**dır: *"Orta Kafkasya'daki **Terek ve Kuma
+nehirlerinin kollarının suladığı geniş bölgede** yaşayan Kabartaylar…"* —
+Vladikavkaz ise Daryal boğazının dağ ağzındadır. Oset-Kabartay ilişkisi de
+toprak idaresi değil, OSETLER maddesindeki **vergi** ilişkisidir.
+
+> **Sonuç:** Kabartay ne 1739-1774 arası (tarafsız tampon), ne öncesinde
+> (Osetlerden yalnız vergi alan komşu) Vladikavkaz'ın toprağını taşıyabilir.
+
+---
+
+## Soru 3 — Daryal geçidi kimin elindeydi; geçidi tutmak toprağı yönetmek miydi?
+
+# Geçit **Osetlerin** elindeydi. Ve tutmak yönetmek değildi — geçit zaten geçilmiyordu.
+
+> *"**Osetler'in kontrolündeki** Daryal Geçidi'ne müslümanlar Dâr-ı Alan adını
+> vermiştir."* (Alanlar = Osetlerin ataları.)
+
+Devletlerin geçitle teması **anlık ve geçici**:
+> *"735-736 yıllarında Emevî kumandanlarından Mervân b. Muhammed'in… Kafkasya
+> seferinde Osetler'le de savaştığı, **bir aralık** Daryal Geçidi'ni ele
+> geçirdiği bilinmektedir."*
+> → VIII. yüzyılda, "bir aralık". Bir sefer epizodu, idare değil.
+
+🔴 **Ve asıl belirleyici cümle:**
+> *"Osmanlı casuslarının raporlarına göre **ulaşıma pek elverişli olmayan geçit
+> 1783'lerde yapılan tamir ve inşa çalışmalarıyla asker sevkedilebilecek hale
+> getirildi**."*
+
+**1783'e kadar geçitten asker geçirilemiyordu.** Asker geçiremediğiniz bir
+boğazın çevresindeki dağlık araziyi yönetiyor olamazsınız. Geçit, 1784'ten önce
+bir **idare mevkii** değil, bir **engel**di; Ruslar onu önce inşaatla açtılar,
+ertesi yıl kaleyi kurdular. Sıra bile bunu söylüyor: **yol (1783) → kale (1784)
+→ ilhak (sonra).**
+
+### Karşı sınama: 1784'ten sonra bile otorite kurulamadı
+
+> *"Ruslar'ın kontrol çabaları ve **halktan vergi istemeleri Osetler'in
+> direnişiyle karşılaştı**. İsyan Osetya'nın Tagaur bölgesinde ortaya çıktı,
+> liderliğini de Dudariko Ahmedov üstlendi. Ancak Ahmedov **1802 Temmuzunda**
+> Ruslar karşısında yenilgiye uğradı… **1804'te isyan yeniden başladı.**"*
+
+Kaleyi kurmuş, yolu açmış, ordusu olan bir imparatorluk **yirmi yıl** vergi
+toplayamıyor. 1784 öncesinde bir devletin oraya fiilî otorite kurmuş olması
+bu tabloyla bağdaşmaz.
+
+---
+
+## Motorun ölçümü neden %62,8 çıktı — ve bu neden tutarlı
+
+Peteğin çevresinin yalnız %62,8'inin tek sahiple ortak olması bir **kusur
+işareti değil, teşhisin kendisi.** Vladikavkaz'ın çevresi 1784 öncesinde
+gerçekten çok taraflı bir kabile kuşağıdır: kuzeybatıda Kabartay (1739-1774
+tarafsız tampon), güneyde Gürcistan, doğuda Çeçen-İnguş vadileri, ortada
+vergi veren ama geçidi kendi tutan Osetler. **Tek bir sahibe %90 oranında
+yaslanmaması, tek bir sahibi olmadığı içindir.**
+
+> Yani otomatik eşiğin altında kalması, elle konan "kasıtlı" etiketini
+> **çürütmüyor — doğruluyor.** Motorun kendi etiketine düşük güven notu düşmesi
+> ihtiyatlıydı; kaynak o güveni yükseltiyor.
+
+---
+
+## 📌 YAN BULGU — sorulmadı ama aynı kaynaktan çıktı ve veriyle çelişiyor
+
+| kayıt | mevcut değer | TDV ne diyor | slug |
+|---|---|---|---|
+| **Kabartay (Nalçik)** | `s: kirim` **1281-01-01 → 1774-07-21**, sonra `rusya` | *"**Belgrad Antlaşması (1739)** Kabartaylar'ın yaşadığı bölgeyi **tarafsız bir ülke haline getirince** … **tampon bölge** haline geldiler."* Ayrıca daha önce: *"Osmanlılar Kabartaylar'ı önce **himayeleri**, sonra da **doğrudan yönetimleri** altına aldılar."* | `kabartaylar` |
+
+İki ayrı sorun:
+1. **1739-1774 arası `kirim` yazılamaz** — antlaşmayla tarafsız ilân edilmiş bir
+   bölge hiçbir devletin toprağı değildir. Bu pencere **sahipsiz** olmalı, yani
+   Kabartay da Vladikavkaz'la aynı sınıftan bir **kasıtlı boşluk** adayıdır.
+2. TDV, 1739 öncesi Kabartay üzerindeki hâkimiyeti **Kırım'a değil doğrudan
+   Osmanlı'ya** atfediyor ("himaye" sonra "doğrudan yönetim"). `kirim` savunulabilir
+   (Kırım Osmanlı tâbisidir) ama TDV'nin ifadesiyle birebir örtüşmüyor.
+
+⚠️ Bu benim sorum değildi ve **ölçümünü tamamlamadım** — tarihleri gün gün
+çıkarmadım. Ayrı bir kalem olarak işaretliyorum; istersen sıradaki turda ölçerim.
+Vladikavkaz kararını **etkilemiyor**: Kabartay 1739-1774 tarafsızsa da,
+öncesinde Osmanlı/Kırım tâbisiyse de, Vladikavkaz'ın dağlık toprağını
+taşımıyor (Soru 2).
+
+---
+
+# ÖZET
+
+```
+kasitli_bosluk: true
+```
+
+| soru | cevap | dayanak |
+|---|---|---|
+| 1 · Fiilî devlet otoritesi? | **Yok.** Kabile bölgesi | OSETLER: geçit "Osetler'in kontrolünde"; tek bağ Çerkezlere **vergi**; dönüm noktası **1774** |
+| 2 · Kabartay'ın toprağı sayılır mı? | **Hayır** | KABARTAYLAR: 1739-1774 **tarafsız tampon bölge**; kendi yurdu **ova**; Osetlerle ilişki vergi |
+| 3 · Daryal kimin? Tutmak yönetmek mi? | **Osetlerin.** Hayır | OSETLER: 1783'e kadar geçit **"asker sevkedilemez"** hâlde; 1784 kuruluşu "**ilhak yolunda bir adım**"; 1802-1804 isyanları |
+
+**Güven: yüksek.** "Belirsiz" demiyorum — kaynak dördü de (Kabartay, Gürcistan,
+Kırım, İran) elemekle kalmıyor, bölgenin 1784'te bile henüz ilhak edilmemiş
+olduğunu açıkça yazıyor. `true` hem ihtiyatlı taraf hem doğru taraf.
+
+---
+---
+
+# ARAŞTIRMA DOĞU → Koordinatör — YENİ ÜRGENÇ · KRASNOVODSK + emsal kararı
+
+Ölçüm 2026-07-31. `data/`ya yazılmadı.
+
+```
+Vladikavkaz    kasitli_bosluk: true    (önceki turda verildi, DEĞİŞMEDİ — aşağıda sınandı)
+Yeni Ürgenç    kasitli_bosluk: false
+Krasnovodsk    kasitli_bosluk: false
+```
+
+---
+
+# 🔴 ÖNCE: ÜÇÜNCÜ TUZAK ÇEŞİDİ — `<title>` DOĞRULAMASI YETMİYOR
+
+Bu turda yeni bir tuzak ölçtüm ve **doğrudan bu soruyu cevapsız bırakabilirdi.**
+
+| slug | `<title>` | gövde |
+|---|---|---|
+| `urgenc` | **"ÜRGENÇ - TDV İslâm Ansiklopedisi"** ✅ | 🔴 **BOŞ** — yalnız altbilgi metni |
+| `harezm` | **"HÂREZM - TDV İslâm Ansiklopedisi"** ✅ | 🔴 **BOŞ** — çapraz gönderme kabuğu |
+| `harizm` | "HÂRİZM - TDV İslâm Ansiklopedisi" | ✅ tam madde |
+
+`urgenc` ve `harezm` **HTTP 200 döndürüyor, `<title>` doğru madde adını taşıyor,
+"Arama - TDV" değil** — yani CLAUDE.md §4'ün ölü-slug sınamasını **geçiyorlar.**
+Ama gövdede madde metni yok; bunlar `bk. HÂRİZM` tipi **çapraz gönderme
+kabuklarıdır.** `slugpar.py` ikisini de CANLI işaretledi.
+
+> **Şu ana kadar üç tuzak var:**
+> 1. **Ölü slug** — `<title>` = "Arama - TDV…" (CLAUDE.md §4)
+> 2. **Yönlendirme** — başka maddeye gider (OGRENILENLER §20)
+> 3. 🆕 **Boş kabuk** — `<title>` doğru, **gövde yok**
+>
+> **Önerdiğim ölçüt:** slug doğrulaması `<title>`e ek olarak gövdede
+> **`Kopyalama metni`** damgasını arasın. Gerçek maddelerin hepsinde var,
+> kabuklarda yok. Tek satırlık bir kontrol:
+> ```python
+> canli = (not baslik.startswith('Arama')) and ('Kopyalama metni' in gövde)
+> ```
+> Bunu `slugpar.py`'ye ekledim; araç sahibi Oturum 6 kalıcı hale getirebilir.
+
+---
+
+# 1) YENİ ÜRGENÇ · `kur:1646` → **`kasitli_bosluk: false`**
+
+## Cevap: 1646 öncesi orası çöl DEĞİL, sulanan Hârizm vahasının GÖBEĞİ
+
+Sorunun doğru sorulduğunu teyit edeyim — mesele "Hîve yönetiyor muydu" değil,
+"su var mıydı". TDV **HÂRİZM** (`harizm`, CANLI, gövdeli) iki cümleyle kapatıyor:
+
+> **(a) Şehrin nereye kurulduğu:**
+> *"1645'ten sonra Ürgenç ve Kâs, **Hîve'nin kuzeydoğusunda** Yeni Ürgenç ve
+> Yeni Kâs adlarıyla yeniden kuruldu."*
+
+Veriyle birebir örtüşüyor: Hîve (41,378 K · 60,364 D) → Yeni Ürgenç
+(41,550 K · 60,633 D) = **kuzeydoğu, 29 km.** Şehir çöle değil, **başşehrin
+yanı başına** kurulmuş.
+
+> **(b) Oranın ne olduğu:**
+> *"Kırgız bozkırları ile Kızılkum çölünü sağında, Üstyurt düzlüğü ile Karakum
+> çöllerini solunda bırakarak Aral gölüne doğru **bir yelpaze şeklinde açılan
+> Amuderya**, bölge halkı için **geniş kum denizleri arasında bir hayat kaynağı**
+> olmuştur… **Nehirden sulanan arazi** tahıl ve pamuk üretimiyle bağcılık için
+> çok elverişlidir."*
+
+Ve TDV'nin Ortaçağ Hârizm şehir listesi bu 29 km'lik şeridi tıka basa dolduruyor:
+*"Kâs, Gürgenç, Hîve, **Hezâresb**, Dergân, Berkan, Kerder, Zemahşer, Cigerbend,
+Sedver, Kerderânhâs, Zerdûh…"* — **Hezâresb = veri kaydındaki Hazârasp**, Yeni
+Ürgenç'e 44 km. Yani nokta, **ikisi de 1281'den beri kesintisiz sahipli** iki
+ortaçağ vaha şehrinin tam arasında duruyor.
+
+## Nehir hikâyesi kararı çürütmüyor — tersine çeviriyor
+
+> *"Amuderya'nın **1576'da mecrasını değiştirip Hazar denizi yerine Aral gölüne
+> dökülmesi**…"* · Seyfi Çelebi bunu *"Hârizm için umumi bir felâket"* sayıyor.
+
+Suyun **gittiği** yer Aral'dır; Hîve-Hazârasp şeridi Amuderya'nın Aral'a giden
+aşağı mecrasındadır. Yani 1576 değişimi bu şeridi **kurutmadı**, susuz kalan
+**kuzeybatıdaki eski Gürgenç**'tir — veride **Köhne Ürgenç (Gürgenç)**, Yeni
+Ürgenç'e **151 km** uzakta ve zaten ayrı bir kayıt. Halk kuruyan kuzeybatıdan
+sulanan güneydoğuya taşındı; "yeni şehir" yeni bir **toprak** değil, aynı vahada
+yeni bir **yerleşim**dir.
+
+## %49,1 kararsızlığının sebebi bulundu — ve zararsız
+
+Peteğin çevresi iki komşu arasında bölünüyor: **Hîve 29 km · Hazârasp 44 km.**
+Hiçbiri %90'a ulaşamıyor. **Ama ikisinin sahiplik zinciri BİREBİR AYNI:**
+
+```
+Hîve      : cagatay 1281→1379 · timurlu 1379→1502 · buhara 1502→1512 · hive 1512→1740 · iran 1740→1747 · hive 1747→1920
+Hazârasp  : cagatay 1281→1379 · timurlu 1379→1502 · buhara 1502→1512 · hive 1512→1740 · iran 1740→1747 · hive 1747→1920
+```
+
+> **Kararsızlık "hangi devlet" değil, "hangi komşu" sorusundadır — ve iki komşu
+> aynı cevabı veriyor.** Devir hangisine yapılırsa yapılsın boyanacak renk
+> aynıdır. Ölçüm eşiği burada güvenle göz ardı edilebilir.
+
+---
+
+# 2) KRASNOVODSK · `kur:1869` → **`kasitli_bosluk: false`**
+
+## Cevap: fiilî otorite vardı ve veri onu ZATEN yazmış — 64 km ötede
+
+TDV **MANGIŞLAK** (`mangislak`, CANLI):
+
+> *"XVI. yüzyılın başında Hârizm'de kurulan **Hîve Hanlığı Mangışlak'ı da kendine
+> bağlamayı başardı.** Mangışlak Türkmenleri'nin **ancak bir asır sonra nisbeten
+> bağımsızlıklarını kazanabildiği**… görülmektedir."*
+
+🔴 **Bu cümle, verideki mevcut zincirin birebir kaynağıdır.** Krasnovodsk'un en
+yakın komşusu **Çeleken (64 km)** ve ondan sonraki **Garabogaz (174 km)**, ikisi de:
+
+```
+altinorda 1281→1502 · buhara 1502→1512 · hive 1512→1600 · turkmen 1600→1869 · rusya 1869→
+                                          ↑                 ↑
+                          "XVI. yy başı Hîve bağladı"   "ancak bir asır sonra
+                                                         nisbeten bağımsızlık"
+```
+
+Yani Hazar doğu kıyısının 1869 öncesi sahipliği bu projede **zaten ölçülmüş,
+kaynaklanmış ve yazılmış.** Krasnovodsk'u kasıtlı boşluk yapmak, projenin 64 km
+ötede savunduğu sahipliğin ortasına **delik açmak** olur.
+
+Noktanın kendisi de meskûn kuşakta. TDV **TÜRKMENLER** (`turkmenler`, CANLI):
+> *"**Hazar denizinin doğu kıyısında** ve Mangışlak'ın güneyindeki **Balhan
+> dağları yöresinde Ersarı oymağı** bulunuyordu."*
+
+Krasnovodsk (40,02 K · 52,96 D) tam olarak Balhan/Balkan dağları yöresi, Hazar
+doğu kıyısı, Mangışlak'ın güneyidir. **Boş kıyı değil, Ersarı yurdudur.**
+
+## Ve evet — sorduğun nokta seyrekliği burada VAR (BALKAN vakasının aynısı)
+
+```
+Krasnovodsk → Çeleken          64 km
+            → Garabogaz       174 km
+            → Uzboy           217 km   (SAHİPSİZ)
+            → Üstyurt batı    ~259 km  (SAHİPSİZ)
+```
+
+Bir komşu 64 km'de, sonraki **174 km'de**. Petek hem **meskûn kıyı şeridini** hem
+**iç çölü** temsil etmek zorunda kalıyor. %62,8 buradan geliyor: sınırın bir
+kısmı Çeleken'le (turkmen/hive zinciri), bir kısmı **SAHİPSİZ çöl noktalarıyla**
+(Uzboy, Üstyurt, Karakum) ortak.
+
+> **Yani kararsızlık "sahip kim" değil, "kıyı mı çöl mü" sorusundadır.**
+> Ve cevap: nokta **kıyıdadır** — Rus donanma üssü olarak seçilmesinin sebebi de
+> budur. `false` verildiğinde iç çöl yine boş kalır, çünkü Uzboy · Karakum ·
+> Üstyurt kendi petekleriyle orayı zaten tutuyor. **Taşma riski sınırlı.**
+
+⚠️ **Tek çekincem:** kıyı şeridini daha iyi temsil edecek bir ara nokta olsaydı
+(Krasnovodsk ile Garabogaz arasındaki 174 km'ye), devir çok daha temiz olurdu.
+Bu bir **veri seyrekliği** kalemidir, karar kalemi değil — ayrıca not ediyorum.
+
+---
+
+# 3) 🔴 EMSAL KARARI — göçebe boy bölgesi "yönetilen toprak" sayılır mı?
+
+## Cevap: **soru yanlış eksende sorulmuş.** Ayrım göçebe/yerleşik değil, **meskûn/gayrimeskûn**.
+
+Ve bunu ben icat etmiyorum — **veri bu kararı zaten vermiş**, üstelik aynı kutunun
+içinde iki farklı şekilde, ve ikisi de tutarlı:
+
+### A) Meskûn boy bölgesi → SAHİP YAZILIR, boyun kendi kimliğiyle
+
+| yerleşim | dönem | kimlik |
+|---|---|---|
+| Çeleken · Garabogaz | 1600→1869 | **`turkmen`** |
+| Dihistan · Nesâ · Ebîverd | 1860→1881 | **`turkmen`** |
+| Merv | 1860→1884 | **`turkmen`** |
+| Kabartay (Nalçik) | 1281→1774 | `kirim` |
+| Lahsa · Katîf · Cübeyl · Ukayr | 1670→1795 | **`benihalid`** |
+| Necid · Riyad · Dir'iye · Şakrâ | 1744→1818 | **`suud`** · 1891→1902 **`sammar`** |
+
+Proje göçebe/kabile konfederasyonlarına **kendi devlet kimliğini vermiş** ve
+toprağı onlara yazmış. `turkmen`, `benihalid`, `suud`, `sammar` — dördü de
+yerleşik-devlet değil, dördü de sahip olarak kabul edilmiş.
+
+### B) Gayrimeskûn çöl/bozkır → SAHİPSİZ
+
+Uzboy · Karakum · Üstyurt (batı) · Üstyurt (doğu) · Rub'ul Hâlî kuzeyi ·
+Nefud çölü · Hâil · Necid içi (1744 öncesi) · Hadramut · Mukalla.
+
+### Ölçüt bu:
+
+> ## Toprakta **insan** var mıydı, ve o insanların **adı konmuş bir siyasî çatısı** var mıydı?
+> - **İkisi de evet** → sahip yazılır; gerekirse boyun kendi kimliği açılır (`turkmen` gibi).
+>   Yerleşik olması gerekmez. Göçebelik sahipsizlik değildir.
+> - **İnsan yok** (çöl içi, buzul, yüksek dağ) → `kasitli_bosluk: true`.
+> - **İnsan var ama siyasî çatı yok / antlaşmayla tarafsız** → `true`.
+>   Vladikavkaz ve 1739-1774 Kabartay bu üçüncü halde.
+
+### Doğrulama: emsal, kaynağa çarpıyor mu?
+
+Koordinatörün andığı **Kızılarvat** emsali (Kopet Dağ vaha şeridi
+`iran/safevi/…`, `turkmen` ancak 1860'ta) bu ölçütle **tam tutarlı** — ve
+TDV **TÜRKMENLER** 1860 tarihinin *neden* orada olduğunu da veriyor:
+
+> *"Teke başbuğu Kuşid Han… **1860'ta toplarla mücehhez Kaçar ordusuna karşı
+> parlak bir zafer kazandı.**"*
+
+Yani `1860-01-01` keyfî değil; Kaçar idaresinin fiilen kırıldığı yıl. Aynı
+madde 1881'i de veriyor: *"Ruslar **1881**'de Türkmen elini imparatorluklarına
+kattılar"* — verideki `1881-01-30`'un karşılığı. **Emsal kaynaklı, uydurma değil.**
+⇒ Vaha şeridi için de Hazar kıyısı için de aynı ölçüt işliyor: fiilî otorite
+kimdeyse o yazılıyor, kimsede değilse boş kalıyor.
+
+---
+
+# 4) Emsali kendi önceki kararıma uyguladım — VLADİKAVKAZ sınandı
+
+Dürüst olmak gerekirse bu emsal, önceki turda verdiğim `true`yu **çürütebilirdi**:
+Osetler de bir boydur, boy bölgesi sahipli sayılıyorsa Vladikavkaz da sahipli
+olmalıydı. Sınadım — **çürütmüyor, keskinleştiriyor:**
+
+> TDV **OSETLER**: *"Böylece Osetler bu dönemde **Vladikafkas çevresine yayılma
+> imkânı elde ettiler**"* — ve bu, **Küçük Kaynarca'dan (1774) sonrası** için
+> söyleniyor.
+
+Yani **o noktada 1774 öncesinde Osetler bile oturmuyordu.** Vladikavkaz A
+maddesine (meskûn boy bölgesi) değil, **B maddesine** (insan yok) düşüyor.
+Ayrıca 1739-1774 arası tek komşusu Kabartay antlaşmayla **tarafsız** ilân
+edilmişti — üçüncü hal.
+
+> `true` kararı **ayakta**, ve artık "kaynak dördünü de elemiyor" gibi olumsuz
+> bir gerekçeye değil, **olumlu bir ölçüte** dayanıyor: orada o tarihte kimse
+> yaşamıyordu.
+
+---
+
+# ÖZET
+
+| yerleşim | karar | TDV künyesi | tek cümle |
+|---|---|---|---|
+| **Vladikavkaz** `kur:1784` | **`true`** | OSETLER (`osetler`) · KABARTAYLAR (`kabartaylar`) | Osetler oraya **1774'ten sonra** yayıldı; 1783'e kadar geçitten asker bile geçmiyordu, tek komşusu 1739-1774 tarafsız tampondu |
+| **Yeni Ürgenç** `kur:1646` | **`false`** | HÂRİZM (`harizm`) | *"Hîve'nin kuzeydoğusunda"* kuruldu — 29 km; sulanan vahanın göbeği, çöl değil; iki komşusunun zinciri **birebir aynı** olduğu için devir riski sıfır |
+| **Krasnovodsk** `kur:1869` | **`false`** | MANGIŞLAK (`mangislak`) · TÜRKMENLER (`turkmenler`) | Hîve XVI. yy başında Mangışlak'ı bağladı, Türkmenler bir asır sonra bağımsızlaştı — **verideki `hive 1512→1600 · turkmen 1600→1869` zinciri bu maddenin birebir karşılığı**; nokta Ersarı yurdunda |
+
+**Emsal:** göçebelik sahipsizlik değildir. Ölçüt **meskûn mu + adı konmuş siyasî
+çatısı var mı**. Proje bunu zaten uyguluyor (`turkmen` · `benihalid` · `suud` ·
+`sammar`), ben yalnız kuralı yazıya döktüm.
+
+**Yan kalemler:**
+- 🆕 **Üçüncü slug tuzağı** (boş kabuk) — `Kopyalama metni` damgası ölçütü, Oturum 6'ya
+- 🟡 **Veri seyrekliği:** Krasnovodsk ↔ Garabogaz arası **174 km**, ara nokta yok
+- 🟡 Önceki turdan devreden: **Kabartay (Nalçik)** 1739-1774 `kirim` yazılı ama
+  TDV'ye göre **tarafsız tampon** — ölçümü tamamlanmadı
+
+---
+---
+
+# YER DİZİNİ (U4) → DOĞU (A4) — üç çözülmemiş `yer:` değeri
+
+Ölçüm 2026-07-31. `data/`ya yazılmadı. Üçü **aynı sınıftan değil**:
+
+```
+Kût     → nokta VAR ("Kût el-Amâre"). Ad tutarsızlığı, eksik nokta değil.
+Serav   → nokta VAR ("Sarâb").        Ad tutarsızlığı, eksik nokta değil.
+Çıldır  → 🔴 nokta YOK ve GEREKİYOR.   Harita 27 yıl yanlış boyuyor.
+```
+
+Tarama tüm yerleşim dosyalarında yapıldı (`yerlesimler.js` + afrika + avrupa +
+asya + ortaasya2 = **1555 kayıt**).
+
+---
+
+## 1) Kût → **eksik nokta değil, üç dosyada üç ayrı yazım**
+
+Kayıt var: **`Kût el-Amâre`** — `yerlesimler.js`, 32,5125 K · 45,8189 D.
+Eşleşme başarısız çünkü `yer:` alanı **"Kût, Irak"** yazıyor; virgülden ayrılınca
+"Kût" kalıyor ve bu, "Kût el-Amâre"nin **öneki**, tam eşleşmesi değil.
+
+Aynı yer projede **üç ayrı adla** geçiyor — asıl bulgu bu:
+
+| dosya | yazım |
+|---|---|
+| `data/yerlesimler.js` | **Kût el-Amâre** |
+| `data/olaylar*.js` → `yer:` | **Kût, Irak** (1916-04-29 "Kûtülamâre Zaferi") |
+| `data/savaslar.js` → `ad:` | **Kûtülamâre** |
+| **TDV** (`kutulamare`, ✅ CANLI) | **KÛTÜL'AMÂRE** |
+
+**Önerim:** TDV'nin biçimine hizalansın.
+
+| kayıt | mevcut | önerilen | slug |
+|---|---|---|---|
+| `olaylar` 1916-04-29 `yer:` | `"Kût, Irak"` | `"Kûtülamâre, Irak"` | `kutulamare` |
+| `yerlesimler.js` `ad:` | `"Kût el-Amâre"` | `"Kûtülamâre"` — ⚠️ **karar merkezde**, ad değişimi `m:` alanlarını ve dizinleri kırabilir; yalnız `yer:`i düzeltmek de yeter | `kutulamare` |
+
+⚠️ **Bu bir "eksik nokta" değil, ölçüm yönteminin ürettiği yanlış pozitiftir.**
+Tarayıcıya **önek eşleşmesi** eklenirse bu sınıf kendiliğinden düşer.
+
+---
+
+## 2) Serav → **eksik nokta değil, parantez içi ayrıştırılamamış**
+
+Kayıt var: **`Sarâb`** — `yerlesimler.js`, 37,9408 K · 47,5364 D.
+`yer:` alanı **"Serav (Serâb), Azerbaycan"** yazıyor. Virgülden ayrılınca
+"Serav (Serâb)" kalıyor; parantez sökülmediği için "Sarâb"a ulaşamıyor.
+
+📌 **Kaydı yazan kişi zaten aynı yer olduğunu biliyordu** — parantez içine ikinci
+yazımı bunun için koymuş. Ayrıştırıcı parantezi görmüyor, o kadar.
+
+Üç yazım aynı şehirdir: **Serav ~ Serâb ~ Sarâb** (Doğu Azerbaycan, Tebriz ile
+Erdebil arasında). 1618-09-26 **Serav Antlaşması** bu şehirde imzalandı ve
+verideki `Sarâb` kaydı o tarihte Safevî'de — tutarlı (`d:` dönemleri
+1585-1603 ve 1725-1730, 1618 ikisinin arasında).
+
+⚠️ **TDV doğrulaması YAPILAMADI:** `serav` · `sarab` · `serab` **üçü de ÖLÜ.**
+Şehrin TDV maddesi yok. Kimlik tespiti coğrafya ve projenin kendi kaydına
+dayanıyor, TDV'ye değil — **bunu böyle işaretliyorum.**
+
+| kayıt | mevcut | önerilen | kaynak |
+|---|---|---|---|
+| `olaylar` 1618-09-26 `yer:` | `"Serav (Serâb), Azerbaycan"` | `"Sarâb, Azerbaycan"` | 🟡 TDV maddesi yok; veri içi kimlik |
+
+**Alternatif ve daha iyi çözüm:** ayrıştırıcı parantez içeriğini **ikinci aday**
+olarak denesin. O zaman `yer:` metni bozulmadan çözülür ve okuyucu her iki
+yazımı da görmeye devam eder. Bu sınıf tek başına birkaç kayıt daha kurtarabilir.
+
+---
+
+## 3) 🔴 Çıldır → **GERÇEK EKSİK. Ve harita 1551-1578 arası yanlış boyuyor.**
+
+### Bölge kararı: **üstleniyorum.** Çıldır eyaleti Ahıska merkezlidir ve Ahıska,
+Kars, Ardahan, Batum zaten benim ölçüm kutumda.
+
+### İlk ölçüm "nokta gerekmiyor" diyordu — TDV bunu çürüttü
+
+Salt mesafeye baksaydım kapatacaktım:
+
+```
+Çıldır (41,133 K · 43,133 D) → Ardahan  36,2 km   OSM 1551-01-01 → 1878-07-13
+                             → Ahıska   58,0 km   OSM 1578-08-01 → 1829-09-14
+                             → Kars     59,1 km   OSM 1534-06-01 → 1878-07-13
+```
+
+Ardahan 36 km ötede ve **"1551-01-01 Ardahan ve Çıldır havzasının alınması"**
+maddesiyle aynı tarihi taşıyor. Yani görünüşte Çıldır'ın toprağı Ardahan'ın
+peteğinde doğru renkle duruyor. **Öyle değilmiş.**
+
+TDV **ÇILDIR EYALETİ** (`cildir-eyaleti`, ✅ CANLI):
+
+> *"**1551'de** ise Erzurum Beylerbeyi İskender Paşa **Ardanuç ve Ardahan
+> yöresini alarak** Ahılkelek ve Ahıska civarına kadar ilerledi. Böylece Atabeglik
+> toprakları **Çıldır bölgesine kadar** Osmanlı hâkimiyetine girmiş oldu.
+> **Buna karşılık Çıldır, Ahılkelek ve Tümük** Osmanlılar'dan yüz çevirip Şah
+> Tahmasb'ın safına geçen **II. Keyhusrev'in elindeydi.**"*
+
+> *"**1574**'teki Kaheti seferinden dönüşü sırasında, [Şah Tahmasb] Hırtıs,
+> **Çıldır**, Ahıska, Posof bölgelerini … alıp … **Mahmud Han'a vermişti.**"*
+
+> *"**9 Ağustos 1578**'de Osmanlı kuvvetlerinin galibiyetiyle sonuçlanan Çıldır
+> Savaşı'nın hemen ardından Atabeg ülkesinin geri kalan kısımlarının fethi
+> tamamlanmış oldu."*
+
+### 🔴 Sonuç: 1551'de alınan **Ardahan'dır, Çıldır DEĞİL**
+
+Kaynak bunu *"buna karşılık"* diye açıkça karşıtlık kurarak söylüyor. Çıldır
+1551'de Osmanlı dışında kaldı ve ancak **1578-08-09**'da alındı — **27 yıllık
+fark.** Ardahan'ın peteği bugün Çıldır'ın toprağını yutuyor ve onu **1551'den
+itibaren Osmanlı boyuyor.** Bu tam olarak CLAUDE.md §2'nin tarif ettiği hata,
+üstelik TDV'den gün gün tarihlenmiş hâli.
+
+### Önerilen kayıt
+
+| kayıt | mevcut | önerilen | slug | gerekçe |
+|---|---|---|---|---|
+| **Çıldır** | **YOK** | yeni nokta (aşağıda) | `cildir-eyaleti` | 1551-1578 arası Ardahan'ın peteğine emiliyor ve yanlış renkte |
+
+```js
+{ ad:"Çıldır", tur:"kale", lat:41.133, lon:43.133, g:0, k:0, m:"Ahıska",
+  s:[{f:"1281-01-01", t:"1574-01-01", d:"gurcistan"},
+     {f:"1574-01-01", t:"1578-08-09", d:"safevi"},
+     {f:"1878-07-13", t:"1918-05-25", d:"rusya"}],
+  d:[{f:"1578-08-09", t:"1878-07-13"}, {f:"1918-05-25", t:"1923-10-29"}] }
+```
+
+**Her alanın dayanağı ayrı ayrı:**
+
+| alan | dayanak | güven |
+|---|---|---|
+| `1578-08-09` Osmanlı başlangıcı | TDV: *"9 Ağustos 1578'de … Çıldır Savaşı"* — **gün gün** | ✅ yüksek |
+| `1281-1574 gurcistan` | TDV: *"Safevî nüfuzu altındaki **Atabeg meliklerinin** elinde"*; Atabeglik (Samtshe) Gürcü. Ardahan · Kars · Ahıska da 1281'den fetihe kadar `gurcistan` | ✅ komşularla tutarlı |
+| `1574-1578 safevi` | TDV: Şah Tahmasb 1574'te alıp Mahmud Han'a verdi. ⚠️ **gün yok**, `YYYY-01-01` sözleşmesi | 🟡 yıl sağlam, gün yok |
+| `1878-07-13` / `1918-05-25` | ⚠️ **TDV'den DEĞİL** — Ardahan'dan alındı (36 km, aynı sancak). Çıldır bugün Ardahan ilidir | 🟡 komşudan çıkarım, kayıt yorumuna not düşülmeli |
+| `lat/lon` | ⚠️ **TDV koordinat vermiyor.** Çıldır ilçe merkezi | 🟡 |
+| `m:"Ahıska"` | TDV: Çıldır eyaletinin merkezi Ahıska | ✅ |
+
+⚠️ Mükerrer sınaması yapıldı: **3 km içinde başka nokta yok** (en yakın Ardahan
+36,2 km) — CLAUDE.md §11 kuralı sağlanıyor.
+
+### 🔴 Ve aynı kaynaktan çıkan İKİNCİ kusur — mevcut madde yanlış
+
+```js
+{ t:"1551-01-01", b:"Ardahan ve Çıldır havzasının alınması", yer:"Ardahan, Çıldır" }
+```
+
+TDV'ye göre 1551'de alınan **Ardanuç ve Ardahan**'dır; Çıldır o tarihte
+Keyhusrev'in elindeydi. **Maddenin başlığı ve `yer:` alanı Çıldır'ı yanlış
+tarihe yazıyor** — ve büyük ihtimalle Çıldır noktasının hiç açılmamış olmasının
+sebebi de bu: madde "alındı" dediği için kimse ayrı bir zaman çizgisine
+ihtiyaç duymamış.
+
+| kayıt | mevcut | önerilen | slug |
+|---|---|---|---|
+| `olaylar` 1551-01-01 `b:` | "Ardahan ve **Çıldır** havzasının alınması" | "**Ardanuç ve Ardahan** yöresinin alınması" | `cildir-eyaleti` |
+| aynı kayıt `yer:` | `"Ardahan, Çıldır"` | `"Ardahan, Ardanuç"` | " |
+
+Çıldır'ın alınışı zaten **1578-08-09 "Çıldır Zaferi"** maddesinde var; oraya
+ait olması gereken şey oradadır.
+
+### 🟡 Yan bulgu — Ahıska'da muhtemelen aynı boşluk
+
+TDV, 1574'te Şah Tahmasb'ın **Ahıska'yı da** Mahmud Han'a verdiğini yazıyor.
+Veride Ahıska `1281-01-01 → 1578-08-01 gurcistan`, yani **1574-1578 Safevî
+dönemi yok.** Ayrıca Ahıska'nın Osmanlı başlangıcı `1578-08-01`, TDV'nin verdiği
+Çıldır Savaşı tarihi ise `1578-08-09` — **8 gün önce.**
+
+⚠️ **Ölçümünü tamamlamadım**, ayrı kalem olarak işaretliyorum. Çıldır kararını
+etkilemiyor.
+
+---
+
+# ÖZET
+
+| yer | hüküm | iş |
+|---|---|---|
+| **Kût** | ✅ nokta var (`Kût el-Amâre`) — **yanlış pozitif** | `yer:` → `"Kûtülamâre, Irak"`; TDV `kutulamare` CANLI. Tarayıcıya **önek eşleşmesi** eklenirse bu sınıf düşer |
+| **Serav** | ✅ nokta var (`Sarâb`) — **yanlış pozitif** | `yer:` → `"Sarâb, Azerbaycan"`; ⚠️ TDV maddesi **yok** (`serav`/`sarab`/`serab` üçü de ölü). Tarayıcıya **parantez ayrıştırması** eklenirse bu sınıf düşer |
+| **Çıldır** | 🔴 **gerçek eksik, nokta gerekiyor** | Harita 1551-1578 arası Çıldır'ı yanlış boyuyor (Ardahan'ın peteğinden). Kayıt önerisi + `1551-01-01` maddesinin başlık düzeltmesi yukarıda |
+
+📌 **Yöntem notu YER DİZİNİ'ne:** üç adayın **ikisi ölçüm yönteminin ürünüydü.**
+Tarayıcıya iki kural eklenirse çözülme oranı ölçüm yapmadan yükselir:
+1. **önek eşleşmesi** (`Kût` → `Kût el-Amâre`)
+2. **parantez içeriğini ikinci aday say** (`Serav (Serâb)` → `Serâb` → `Sarâb`)
+
+Kalan gerçek eksikleri bana yollamaya devam et — üçte biri bile gerçek çıksa
+değer, çünkü Çıldır vakası 27 yıllık bir boyama hatasıydı ve hiçbir denetim
+görmüyordu (Değişmez 1 delik arar, bu **fazla** boyama).
+
+---
+
+## ⚠️ EK — ARABİSTAN'ın uyarısı Çıldır önerisine uygulandı (Değişmez 2 sınaması)
+
+Uyarı yerinde geldi. Önerdiğim kaydın **dört kırılmasını** kronolojiye karşı
+ölçtüm; **üçü temiz, biri açık.**
+
+| kırılma | tip | en yakın madde | fark | durum |
+|---|---|---|---|---|
+| **1578-08-09** | `d:` Osmanlı başlangıcı | **"Çıldır Zaferi — doğu savaşı başladı"** | **0 gün** | ✅ |
+| **1878-07-13** | `d:` bitiş → `rusya` | "Berlin Antlaşması" | **0 gün** | ✅ |
+| **1918-05-25** | `d:` yeniden | "Elviye-i Selâse: Kars ve Ardahan'ın geri alınışı" | **0 gün** | ✅ |
+| **1574-01-01** | `s:` gurcistan → safevi | "Tunus'un kesin fethi" | **236 gün** | 🔴 **AÇIK** |
+
+### Kevkebân vakasının aynısı ÇIKMADI — ama başka bir şey çıktı
+
+ARABİSTAN'ın uyardığı kusur (madde tarihi ≠ gerçek el değiştirme) Çıldır'da
+**yok**: TDV *"9 Ağustos 1578"* diyor, mevcut madde `1578-08-09`, **fark sıfır.**
+
+Açık olan, benim **eklemeyi önerdiğim** 1574 dönemi. Ve iki kat sinsi:
+`s:` → `s:` geçişi olduğu için **Değişmez 2'nin ölçüm komutu bunu HİÇ GÖRMEZ**
+(daha önce Gülistan 1813 vakasında bildirdiğim kör nokta). Yani denetim temiz
+raporlarken kullanıcı, Çıldır'ın renk değiştirdiği gün listede
+**"Tunus'un kesin fethi"** görecekti.
+
+### Önerim: 1574 dönemini YAZMA — `gurcistan` 1578-08-09'a kadar sürsün
+
+```js
+s:[{f:"1281-01-01", t:"1578-08-09", d:"gurcistan"},
+   {f:"1878-07-13", t:"1918-05-25", d:"rusya"}]
+d:[{f:"1578-08-09", t:"1878-07-13"}, {f:"1918-05-25", t:"1923-10-29"}]
+```
+
+Üç gerekçe:
+1. **Tarih gün düzeyinde yok** — TDV yalnız "1574" diyor; `1574-01-01`
+   sözleşmedir, iddia değil.
+2. **Olay zaten sınır içi bir el değişimi.** TDV, 1574 öncesini de *"**Safevî
+   nüfuzu altındaki** Atabeg melikleri"* diye tarif ediyor; Şah Tahmasb'ın
+   Çıldır'ı alıp yerli Varaza Bey'in müslüman olan oğlu **Mahmud Han**'a vermesi
+   bir devletten devlete devirden çok **aynı nüfuz alanı içinde yönetici
+   değişimi**. `gurcistan` → `safevi` yazmak olanı abartır.
+3. **Bir madde açmadan yazılırsa denetimin göremediği bir delik açılır.**
+   Kapsam disiplini de bunu destekliyor: 1574'te Osmanlı toprağı değişmiyor,
+   yani bu olay Osmanlı kronolojisinin konusu değil.
+
+**Alternatif (karar merkezde):** 1574 dönemi illâ yazılacaksa **önce maddesi
+yazılmalı** — ama o madde Osmanlı'nın taraf olmadığı bir Safevî-Gürcü
+işlemini anlatacağı için kapsam dışı kalır. Ben yazmamayı öneriyorum;
+nüansı **kayıt yorumuna** düşmek yeterli:
+`// 1574'te Şah Tahmasb Çıldır'ı alıp Mahmud Han'a verdi (TDV cildir-eyaleti);
+// Safevî nüfuzu 1574 öncesinde de vardı, ayrı dönem açılmadı.`
+
+---
+
+### 🔴 Ama aynı sınamada MEVCUT bir kayıtta ARABİSTAN'ın tarif ettiği kusur çıktı
+
+**Ahıska'nın Osmanlı başlangıcı `1578-08-01`.** TDV ÇILDIR EYALETİ ise Çıldır
+Savaşı'nı **9 Ağustos 1578**'e koyuyor ve *"savaşın **hemen ardından** Atabeg
+ülkesinin geri kalan kısımlarının fethi tamamlanmış oldu"* diyor.
+
+> Yani veride **Ahıska, onu Osmanlı'ya kazandıran savaştan sekiz gün ÖNCE**
+> Osmanlı oluyor. Nedensellik ters.
+
+Değişmez 2 bunu yakalamaz — 1578-08-01'e 8 gün mesafede "Çıldır Zaferi" maddesi
+var, ölçüt sağlanıyor. Ama **sıralama yanlış**: kullanıcı zaman çubuğunu
+ilerletince önce Ahıska'nın rengi değişiyor, sonra onu açıklayan madde geliyor.
+
+| kayıt | mevcut | önerilen | slug |
+|---|---|---|---|
+| Ahıska `d:` başlangıcı | `1578-08-01` | **`1578-08-09`** (Batum · Tiflis · Sohum ile aynı gün) | `cildir-eyaleti` |
+
+📌 Destekleyici: Batum, Tiflis ve Sohum zaten **`1578-08-09`** taşıyor. Ahıska
+tek başına 8 gün erken duruyor — büyük ihtimalle "Ağustos 1578" bilgisinin
+ayın 1'ine yuvarlanmasından. **Düzeltilirse hem TDV'ye hem komşularına uyar.**
+
+⚠️ Önceki raporumda Ahıska için ayrı bir kalem daha bırakmıştım (1574-1578
+Safevî dönemi). Bu ikisi **aynı kayda** dokunuyor, birlikte ele alınmalı — ve
+1574 için verdiğim karar (yazma) Ahıska için de geçerlidir.
+
+---
+---
+
+# DOĞU (A4) → Koordinatör — İran doğusu · Afganistan · Sind · Doğu Türkistan
+
+# 🔴 SAHİPLİK YAZMADIM — ÇÜNKÜ 17 NOKTANIN 16'SININ ZİNCİRİ ZATEN YAZILI
+
+Ölçüm 2026-07-31. `data/`ya yazılmadı.
+
+Verdiğin 17 noktayı **beş yerleşim dosyasının hepsinde** (1555 kayıt) taradım.
+Ölçümün ("41'i hiç sahiplik kaydı taşımıyor") **canlı dosya kümesine karşı
+doğru** — ama sebebi kayıtların yazılmamış olması değil:
+
+| nokta | dosya | zincir |
+|---|---|---|
+| Nesâ · Ebîverd · Merv | **`yerlesimler.js`** ✅ CANLI | ilhanli→iran→timurlu→safevi→iran→**turkmen 1860**→**rusya 1881/1884** — tam |
+| Karakum | `yerlesimler.js` ✅ CANLI | **kasten boş** (çöl; Uzboy · Üstyurt ile aynı sınıf) |
+| Aşkabad | `yerlesimler_ortaasya2.js` ⚠️ merge dışı | `kur:1881-01-30` → rusya |
+| Kâbil · Gazne · Kandehar · Peşâver · Attock · Multan · Şikârpûr · Karaçi · Tatta · Haydarâbâd · Kaşgar · Yarkent | **`yerlesimler_asya.js`** ⚠️ merge dışı | **hepsi tam zincirli** |
+
+Örnek — Kandehar, senin "defalarca el değiştirdi" dediği kayıt, **zaten yazılmış**:
+```
+cagatay 1281 → timurlu 1370 → babur 1522-09-06 → safevi 1537 → babur 1595
+→ safevi 1622-06-22 → babur 1638 → safevi 1649-02-22 → iran 1709-04-21
+→ afgan-durrani 1747-06-20 → afganistan 1826
+```
+Sekiz el değiştirme, altısı **gün hassasiyetinde**. Oturum 13 bu işi yapmış.
+
+> **Ben bu 14 kaydı yeniden yazsaydım Oturum 13'ün dosyasıyla çakışacaktım** —
+> KOORDINASYON.md §1'in tam olarak yasakladığı şey. Onun yerine **neden
+> görünmediklerini** ölçtüm.
+
+---
+
+## Üç somut engel — üçü de KODDA doğrulandı (rapora değil koda baktım)
+
+### 1) `GIRDI_DOSYALARI` — `arac/girdi.py:108`
+
+```python
+GIRDI_DOSYALARI = [
+    "yerlesimler.js",           # çekirdek — Osmanlı ve komşuları
+    ...
+```
+`yerlesimler_asya.js` **listede yok.** Ve `girdi.py`'nin kendi yorumu (satır
+21-24) sebebini zaten yazmış:
+
+> *"data/yerlesimler_asya.js  344 nokta — **98 devlet kimliği renkler.py'de YOK**,
+> tamamı **62°D'nin doğusunda**, harita penceresi dışı"*
+
+### 2) `renkler.py` — benim 17 noktamın istediği **14 kimliğin 14'ü de tanımsız**
+
+Ölçtüm:
+
+| tanımsız (14) | tanımlı (8) |
+|---|---|
+| `babur-imparatorlugu` · `afgan-durrani` · `afganistan` · `sih-imparatorlugu` · `ingiliz-hindistani` · `delhi-sultanligi` · `multan-langah` · `sind` · `mogulistan` · `yarkent-hanligi` · `cungar` · `qing-hanedani` · `yakub-beg` · `cin-cumhuriyeti` | `cagatay` · `timurlu` · `safevi` · `iran` · `buhara` · `turkmen` · `rusya` · `ingiltere` |
+
+Kimliği tanımsız nokta **boyanmaz** — dosya merge edilse bile bölge renksiz
+delik olur. DSATUR dengesi Oturum 16'nın işi; ben renk atamıyorum.
+
+### 3) `BOLGE = box(-12, 1.5, 62, 62)` — `arac/uret_petek.py:43`
+
+17 noktanın **12'si 62°D'nin doğusunda** (Kandehar 65,71 → Yarkent 77,24).
+Pencere açılmadan çizilmezler.
+
+---
+
+# 🔴 KULLANICININ ŞİKÂYETİNİN GERÇEK SEBEBİ — ölçüldü, ve nokta eksikliği DEĞİL
+
+*"İran'ın yarısı görünmemesi gözü kanatıyor."* Ölçüm:
+
+```
+En doğudaki CANLI nokta : Zerenc (Sîstan)  61,86°D
+BOLGE kutusunun doğu sınırı :               62,00°D
+İran'ın gerçek doğu sınırı  :             ~63,3°D
+```
+
+> **Pencere hiçbir canlı noktayı dışarıda bırakmıyor — son noktanın 0,14° doğusunda
+> GEOMETRİYİ KESİYOR.** İran, gerçek sınırına 1,3° kala **cetvelle çizilmiş dik bir
+> meridyen boyunca** kırpılıyor; Sîstan-Belûcistan çıkıntısı tamamen dışarıda kalıyor.
+
+Ve İran'ın doğusu **nokta bakımından fakir değil**:
+
+```
+lon 55-63 · lat 25-36  →  22 canlı nokta, sahiplik kaydı BOŞ olan: 0
+(Kirman, Bem, Bîrcend, Kâin, Zerenc, Çâhbahâr, Bempûr, Hâş, Cîruft, Sircân…)
+```
+
+> **Sonuç: İran için çözüm nokta eklemek değil, `BOLGE` kutusunun doğu kenarını
+> açmaktır.** ~64°D'ye çekmek İran'ın tamamını kapatır ve **hiçbir yeni kimlik
+> gerektirmez** — o 22 noktanın hepsi `ilhanli/iran/timurlu/safevi` taşıyor,
+> dördü de `renkler.py`'de tanımlı.
+
+📌 Bu, `uret_petek.py:912`'deki "SERBEST KENAR" notunun tarif ettiği şikâyetin
+(hatalar 15 md.17, *"çölde cetvelle çizilmiş sınır"*) **aynı sınıfı** — orada
+sahipli/sahipsiz kenarıydı, burada pencere kenarı.
+
+## Önerdiğim sıra (CLAUDE.md §6'nın üç adımına uygun)
+
+| adım | iş | kimlik gerekir mi | kazanç |
+|---|---|---|---|
+| **1** | `BOLGE` doğu kenarı **62 → 64** | ❌ **hayır** | **İran'ın tamamı** kapanır; kullanıcının şikâyeti biter |
+| **2** | `renkler.py`'ye 14 kimlik (Oturum 16) | ✅ | — |
+| **3** | `yerlesimler_asya.js`'i `GIRDI_DOSYALARI`'na al + `BOLGE` **64 → 78** | — | **Afganistan · Sind · Doğu Türkistan** açılır |
+
+⚠️ **Adım 1 tek başına yapılabilir ve risksizdir.** Adım 3'ü adım 2'den önce
+yapmak, `girdi.py`'nin uyardığı "renksiz delik" hâlini üretir.
+
+---
+
+# 📌 SANA DÜŞEN TEK GERÇEK ARAŞTIRMA SORUSU: KAŞGAR'IN OSMANLI BAĞI
+
+## Önce üç düzeltme — sorunun kendisinde
+
+| senin verdiğin | TDV ne diyor |
+|---|---|
+| "Yâkub **Bey**" | **Yâkub Han** |
+| "**1873**'te tâbiiyet arz etti" | **1870** — anlaşma ve elçi aynı yıl |
+| "hutbe Osmanlı adına okundu" | doğru, ama **1872**'den itibaren |
+
+🔴 **VE BİR TUZAK:** `yakub-bey` slug'ı **CANLI, gövdesi dolu** — ama madde
+**Germiyanoğlu Yâkub Bey**'i (ö. 1340 civarı, Kütahya) anlatıyor. Kaşgar'la
+alâkası yok. Bu, **dördüncü tuzak çeşidi**: slug canlı, gövde gerçek, **konu
+yanlış**. `<title>` de "YÂKUB BEY" yazdığı için hiçbir otomatik sınama yakalamaz.
+**Tek çare gövdeyi okumak.** Doğru kaynak: **`kasgar`** maddesi.
+
+## TDV **KÂŞGAR** (`kasgar`, ✅ CANLI, Keith Hitchins 2022)
+
+> *"Yâkub Han **1870**'te Hindistan'daki İngiliz idaresiyle anlaştı ve … bir
+> Kâşgar devleti kurulması ve **bu devletin Osmanlılar'a tâbi olması** konusunda
+> mutabakata vardı. **Aynı yıl İstanbul'a gelen Kâşgar elçisi** büyük bir ilgiyle
+> karşılandı ve Yâkub Han'a **birinci rütbeden nişân-ı Osmânî ile kılıç ve alem
+> gönderildi**. **1872'den itibaren** Yâkub Han'ın hâkim olduğu Kâşgar'da ve diğer
+> yerlerde **hutbeler Padişah Abdülaziz adına okundu**; **1875**'ten itibaren de
+> Kâşgar emirliğinin **babadan oğula geçmesi kabul edildi**. Fakat bu girişimler,
+> **1877**'de Yâkub Han'ın ölümü üzerine Çinliler'in Kâşgar'ı istilâ etmesiyle
+> yarım kaldı."*
+
+## `v:` mi `s:` mi — **öneri: `v:` (tâbi), 1872-01-01'den**
+
+Projenin `v:` ölçütü CLAUDE.md §3'te Boğdan · Kırım · Erdel üzerinden tarif
+ediliyor; bugün senin yazdığın `y:"vassal"` tanımı da (*"tâbiyet/itaat yoluyla
+edinim"*) aynı yere bakıyor. Kaşgar dört ölçütten **üçünü** karşılıyor:
+
+| tâbilik ölçütü | Kaşgar | dayanak |
+|---|---|---|
+| **Hutbe padişah adına** | ✅ 1872'den | TDV, birebir |
+| **Tevcih / hilat / alem** | ✅ nişân-ı Osmânî + **kılıç ve alem** | TDV, birebir |
+| **Veraset Bâbıâli'ce tanınıyor** | ✅ 1875'ten | TDV, birebir |
+| Sikke · vergi · asker · muhafız | ❌ TDV anmıyor | — |
+
+Üstelik TDV **"tâbi" kelimesini kendisi kullanıyor.** `s:"yakub-beg"` bırakmak
+bu üç somut bağı görünmez kılar.
+
+| kayıt | mevcut | önerilen | slug |
+|---|---|---|---|
+| **Kaşgar** · **Yarkent** | `s: yakub-beg 1864-06-04 → 1877-12-17` | `s: yakub-beg` **1864-06-04 → 1872-01-01**, ardından **`v:[{f:"1872-01-01", t:"1877-12-17", y:"vassal"}]`** | `kasgar` |
+
+⚠️ **1872-01-01'in günü TDV'de yok** — madde "1872'den itibaren" diyor.
+`YYYY-01-01` sözleşmesi. **1870'i değil 1872'yi seçmemin sebebi:** 1870
+anlaşma ve elçi yılıdır; projenin `v:` ölçütü olan **hutbe** 1872'de başlıyor.
+
+⚠️ **Karşı görüş (senin kararın):** Boğdan ve Kırım'da vergi, asker ve fiilî
+Osmanlı idarî varlığı vardı; Kaşgar 4500 km uzakta, bitişik değil, ve bağ
+diplomatik-sembolik kaldı. `v:` yazılırsa harita orayı **açık Osmanlı tonunda**
+boyar. Ben `v:`yi öneriyorum çünkü ölçüt hutbe+tevcihtir ve ikisi de var; ama
+"sembolik bağ toprak boyamaz" denirse **`s:` kalsın, kronoloji maddesiyle
+anlatılsın** da savunulabilir.
+
+## Kronoloji karşılığı — **eksik, madde borcu var**
+
+`1872-01-01` ve `1877-12-17` kırılmalarının maddesi **yok** (Kaşgar/Yarkent
+`s:`→`s:` olduğu için Değişmez 2 de görmüyor — bildiğin kör nokta). `v:` kararı
+verilirse **1872 kırılması `v:` olur ve denetime görünür hale gelir**, o yüzden
+maddesi şart. Hazır metin:
+
+```js
+{ t:"1872-01-01", k:"vassal", etiket:["diplomasi","ittifak"],
+  b:"Kâşgar'ın Osmanlı tâbiiyetine girmesi — hutbe Abdülaziz adına",
+  gun:"1872", yer:"Kâşgar, Yarkent",
+  kisiler:"Yâkub Han, Sultan Abdülaziz",
+  d:"Doğu Türkistan'da Çin idaresine karşı ayaklanarak bir İslâm devleti kuran Yâkub Han, 1870'te kurduğu devletin Osmanlılar'a tâbi olması konusunda mutabakata vardı; aynı yıl İstanbul'a gelen Kâşgar elçisi kabul edildi ve Yâkub Han'a birinci rütbeden nişân-ı Osmânî ile kılıç ve alem gönderildi. Bu tarihten itibaren Kâşgar'da ve hâkimiyeti altındaki diğer yerlerde hutbeler Padişah Abdülaziz adına okundu; 1875'te emirliğin babadan oğula geçmesi de kabul edildi. Osmanlı Devleti'nin doğuda ulaştığı en uzak tâbiyet bağıdır.",
+  kaynak:"kasgar" }
+```
+```js
+{ t:"1877-12-17", k:"kayip", etiket:["toprak-kaybi"],
+  b:"Kâşgar'ın Çin istilâsı — doğudaki tâbiyet bağının kopuşu",
+  gun:"1877", yer:"Kâşgar, Yarkent",
+  kisiler:"Yâkub Han",
+  d:"Yâkub Han'ın ölümü üzerine Çin kuvvetleri Kâşgar'ı istilâ etti ve beş yıl süren Osmanlı tâbiiyeti sona erdi. Çin yönetimi 1884'te bölgede Doğu Türkistan (Sinkiang) vilâyetini kurdu.",
+  kaynak:"kasgar" }
+```
+⚠️ İkisinin de **günü TDV'de yok** (madde yalnız 1872 ve 1877 diyor). Verideki
+`1877-12-17` günü TDV'den gelmiyor — **kaynağı bulunmalı ya da yıla indirilmeli.**
+
+---
+
+# ATLADIKLARIM — açıkça yazıyorum
+
+| konu | neden |
+|---|---|
+| Kandehar'ın 8 el değiştirmesine madde yazmak | Kayıtlar zaten var ama **hiçbiri haritada çizilmiyor** (dosya merge dışı). Madde yazmak, görünmeyen bir kırılmaya borç ödemek olur — **önce adım 2-3.** Merge kararı verilince madde paketini yazarım |
+| Sind zinciri (Kalhora · Talpur) | `kalhora` ve `talpur` slug'ları **ÖLÜ**; `sind` CANLI ama okumadım. Mevcut kayıt `sind` kimliğiyle 1701-1843'ü tek dönemde topluyor — hanedan ayrımı yok. **Kaynak taranmadı** |
+| Horasan'ın Hîve-Buhara çekişmesi | Nesâ/Ebîverd/Merv canlı ve zincirli; **1860 turkmen** tarihinin dayanağını önceki turda TDV TÜRKMENLER'den doğrulamıştım (Kuşid Han'ın Kaçar ordusunu yenmesi). Ek iş görmedim |
+| `nesa` · `kabil` · `tatta` · `yarkent` · `durraniler` · `hotakiler` · `nadir-sah-afsar` · `kalhora` · `talpur` | **9 slug ÖLÜ.** `dogu-turkistan` **boş kabuk**. Bu bölge TDV'de yer maddesi olarak zayıf |
+
+**Vladikavkaz** — `kasitli_bosluk: true` cevabını **iki tur önce verdim**
+(TDV OSETLER + KABARTAYLAR künyeleriyle), geçen tur da Orta Asya emsaliyle
+yeniden sınayıp doğruladım. Aynı dosyada, "ARAŞTIRMA DOĞU — VLADİKAVKAZ"
+başlığı altında. Açık kalan bir şey varsa neyi kastettiğini yaz.
+
+---
+
+# ÖZET
+
+| # | Bulgu |
+|---|---|
+| 1 | 🔴 **17 noktanın 16'sının zinciri zaten yazılı** (Kandehar'ınki 8 el değiştirmeli, 6'sı gün hassasiyetinde). Yeniden yazmadım — Oturum 13'ün dosyasıyla çakışırdı |
+| 2 | Engel üç tane, üçü de kodda doğrulandı: `GIRDI_DOSYALARI` (girdi.py:108) · **14 tanımsız kimlik** (renkler.py) · `BOLGE` 62°D (uret_petek.py:43) |
+| 3 | 🔴 **Kullanıcının şikâyetinin sebebi nokta eksikliği değil:** en doğudaki canlı nokta **61,86°D**, pencere **62,00**, İran'ın sınırı **~63,3**. Geometri son noktanın 0,14° doğusunda cetvelle kesiliyor |
+| 4 | ✅ **`BOLGE`'yi 62 → 64 yapmak İran'ı tek başına kapatır ve YENİ KİMLİK GEREKTİRMEZ** — o 22 noktanın hepsi tanımlı kimlik taşıyor. En ucuz kazanç bu |
+| 5 | **Kaşgar:** `v:` öneriyorum, **1872-01-01**'den (hutbe + nişân/kılıç/alem + veraset tanınması). İki kronoloji maddesi hazır. Senin "1873/Yâkub Bey" bilgin TDV'de **1870-1872/Yâkub Han** |
+| 6 | 🆕 **Dördüncü tuzak:** `yakub-bey` slug'ı canlı ve gövdeli ama **Germiyanoğlu** Yâkub Bey'i anlatıyor. `<title>` bile "YÂKUB BEY" diyor — otomatik sınama yakalayamaz, **gövde okunmalı** |

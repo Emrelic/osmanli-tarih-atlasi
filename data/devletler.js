@@ -601,13 +601,16 @@ window.DEVLETLER = [
   ]
 },
 { id:"rodos-sovalyeleri", ad:"Rodos (Saint Jean/Malta Şövalyeleri)", tur:"devlet", bolge:"balkanlar",
-  f:"1310-01-01", t:"1522-12-25", baskent:"Rodos", harita:"sovalye",
-  ozet:"Haçlı şövalye tarikatının Ege üssü; Kanunî'nin kuşatmasıyla adayı terk edip Malta'ya yerleşti (1530).",
+  f:"1310-01-01", t:"1798-06-12", baskent:"Rodos → (1522-1530 topraksız) → Birgu/Valletta (Malta)", harita:"sovalye",
+  ozet:"Haçlı şövalye tarikatının Ege üssü; Kanunî'nin kuşatmasıyla adayı terk edip 1530'da Malta'ya yerleşti, Napolyon'un 1798'de adayı işgaliyle tarikat topraksız kaldı. 1522-1530 arası tarikat topraksızdı, haritada karşılığı yok.",
   kronoloji:[
     { t:"1310-08-15", tur:"kurulus", b:"St. Jean Şövalyeleri Rodos'u ele geçirdi" },
     { t:"1480-05-23", tur:"savas", b:"Fatih'in kuşatması püskürtüldü" },
-    { t:"1522-12-25", tur:"toprak-kayip", b:"Kanunî'nin kuşatması sonrası ada teslim edildi" },
-    { t:"1530-03-24", tur:"bolunme", b:"Şövalyeler Malta'ya yerleşti (Malta Şövalyeleri olarak devam)" }
+    { t:"1522-12-25", tur:"toprak-kayip", b:"Kanunî'nin kuşatması sonrası ada teslim edildi; tarikat 1530'a dek topraksız kaldı" },
+    { t:"1530-03-24", tur:"bolunme", b:"V. Karl'ın bağışıyla Malta'ya yerleşti (Malta Şövalyeleri olarak devam)" },
+    { t:"1565-05-18", tur:"savas", b:"Büyük Malta Kuşatması'nda Osmanlı ordusunu püskürttü" },
+    { t:"1571-10-07", tur:"savas", b:"İnebahtı Deniz Savaşı'na Kutsal İttifak donanmasında katıldı" },
+    { t:"1798-06-12", tur:"son", b:"Napolyon'un Mısır seferi yolunda adayı işgaliyle tarikat topraksız kaldı, egemen devlet olarak sona erdi" }
   ]
 },
 { id:"kibris-krallik", ad:"Kıbrıs Krallığı (Lüzinyan)", tur:"krallik", bolge:"anadolu",
@@ -1348,7 +1351,8 @@ window.DEVLETLER = [
     { t:"1356-01-01", tur:"kurulus", b:"Balšić ailesi Sırp Krallığı'nın çözülüşünde Zeta'da bağımsızlaştı" },
     { t:"1385-01-01", tur:"savas", b:"Osmanlı ile ilk çatışma yaşandı" },
     { t:"1421-01-01", tur:"bolunme", b:"Son Balšić hükümdarı Zeta'yı Sırp despotuna miras bıraktı" },
-    { t:"1451-01-01", tur:"hukumdar", b:"Crnojević ailesi Zeta'nın başına geçti, merkezi Cetine'ye taşıdı" },
+    { t:"1451-01-01", tur:"hukumdar", b:"Crnojević ailesi Zeta'nın başına geçti" },
+    { t:"1482-01-01", tur:"hukumdar", b:"Merkez Cetine'ye (Cetinje) taşındı — bu tarih TDV'nin karadag maddesinde doğrulanamadı, yerlesimler.js'teki Cetinje kuruluş tarihiyle (kur:1482) hizalandı" },
     { t:"1514-01-01", tur:"son", b:"İskender Bey (Crnojevićlerden) döneminde Zeta doğrudan Osmanlı sancağına dönüştürüldü" }
   ]
 },

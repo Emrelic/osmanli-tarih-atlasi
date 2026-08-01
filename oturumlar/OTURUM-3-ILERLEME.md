@@ -788,6 +788,75 @@ Merkez oturuma bildirildi.
 
 ---
 
+## EK OTURUM 6 — `zeta` kaydındaki 1451/1482 çakışması (2026-07-31)
+
+Oturum 11 (ARAŞTIRMA BALKAN), Podgorica araştırırken `zeta` kaydının
+`kronoloji`sindeki `1451-01-01` satırında iki ayrı olayın birleştiğini ölçüp
+merkez üzerinden bana bildirdi: "Crnojević ailesi başa geçti" (1451) ile
+"merkez Cetine'ye taşındı" (gerçekte 1482) tek satırda karışmıştı; TDV'nin
+`karadag` maddesi ne 1451'i ne merkez taşınmasını doğruluyor, ayrıca
+`data/yerlesimler.js`'teki Cetinje kaydı `kur:"1482-01-01"` taşıyor — 31 yıllık
+çelişki.
+
+Kendim doğruladım (`grep` ile hem devletler.js hem yerlesimler.js'i kontrol
+ettim): bulgu doğru. Satırı ikiye ayırdım:
+- `1451-01-01`: yalnız "Crnojević ailesi Zeta'nın başına geçti" kaldı
+  (merkez taşınması ibaresi çıkarıldı)
+- yeni `1482-01-01` satırı eklendi: "Merkez Cetine'ye (Cetinje) taşındı" +
+  açık kaynak notu ("bu tarih TDV'nin karadag maddesinde doğrulanamadı,
+  yerlesimler.js'teki Cetinje kuruluş tarihiyle hizalandı") — Oturum 11'in
+  talimatına uyarak **silmedim**, kaynaksız olduğunu işaretleyerek tuttum.
+
+`ozet`teki `(kaynak: TDV, madde: karadag)` etiketine dokunmadım — kayıt genel
+olarak hâlâ o maddeye dayanıyor (1356/1385/1421/1514 satırları doğrulanmış),
+yalnızca bu tek alt-iddia için kaynak notu eklendi.
+
+**Doğrulama:**
+```
+kayit: 241 | harita eslesmesi olan: 120 | tekrar id: 0
+```
+`data/devletler.js` dışında hiçbir dosyaya dokunulmadı. Commit/push yapılmadı.
+Merkez oturuma ve Oturum 11'e bildirildi.
+
+---
+
+## EK OTURUM 7 — `rodos-sovalyeleri` → Malta uzatması (2026-07-31)
+
+Koordinatör onayladı, uyguladım (VERİ KİMLİK onayı gerekmedi — yeni renk
+istenmiyor, mevcut `harita:"sovalye"` korundu):
+
+- `t:"1522-12-25"` → **`t:"1798-06-12"`** (Napolyon'un Malta'yı işgali,
+  tarikatın egemen devlet olarak sonu)
+- `baskent`: Rodos → (1522-1530 topraksız) → Birgu/Valletta (Malta) — 8 yıllık
+  topraksız arayı açıkça not ettim (koordinatörün uyarısı: "biri 1525'te
+  şövalye toprağı nerede diye sorar")
+- `ozet`e topraksızlık dönemi eklendi
+- `kronoloji`ye üç yeni madde: 1565-05-18 Büyük Malta Kuşatması, 1571-10-07
+  İnebahtı (koordinatör bunları U1'e/VERİ YERLEŞİM'e iletecek, savaslar.js'in
+  zaten referans verdiği iki savaş artık kendi kaydında da var), 1798-06-12
+  son.
+
+**Not (benim dosyam değil, yalnız bilgi):** 1522-1530 arası tarikatın
+haritada karşılığı yok (topraksız) — `yerlesimler.js`'in kendi `d:` (kesinti)
+alanına bu aralığın not düşülmesi Oturum 11/VERİ YERLEŞİM'in kararı,
+dokunmadım.
+
+**Doğrulama:** `denetle_anakronizm.py` yeniden çalıştırıldı, `sovalye`
+artık ne A ne B listesinde (önceden Malta 268,2 yıl + Trablus 21,4 yıl
+taşma vardı, ikisi de kapandı).
+```
+kayit: 241 | harita eslesmesi olan: 120 | tekrar id: 0
+```
+`data/devletler.js` dışında hiçbir dosyaya dokunulmadı. Commit/push yapılmadı.
+Merkez oturuma bildirildi.
+
+**Bekleyen (koordinatörün sırasına göre):** `tabi:` alanı — A5
+`oturumlar/ARABISTAN-DUZELTMELER.md`'ye tam tâbiiyet tablosunu yazınca
+uygulanacak (mesajla değil dosyayla aktarım kuralı, `ORGANIZASYON Karar 2`).
+Memlük `t:` — A5'in TDV turu + koordinatörün kararı bekleniyor.
+
+---
+
 ## EK OTURUM 5 — `abdulkadir` yeni kayıt + `erdel` renk ölçümü (2026-07-31)
 
 Merkez oturum önceki oturumda bulduğum iki boşluk için görev gönderdi: (1)

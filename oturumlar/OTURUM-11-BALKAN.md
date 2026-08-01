@@ -294,6 +294,11 @@ TDV dışı akademik referansla yeniden kurulması gerekir.
 | **46** | `data/yerlesimler.js` | merkez | Böğürdelen zincirinde **kasten atlanan iki dönem**: TDV *"Şehir 1688 ve 1695'te kısa süreli olarak elden çıktı"* diyor ama **gün vermiyor**. Yıl uydurmamak için konmadı; kaynak bulunursa iki kısa `s:"avusturya"` penceresi eklenir | ✔ §19.5 |
 | **47** | — | merkez | **Fethülislâm (Kladovo) için KARAR**: TDV'de madde yok, zinciri kaynaksız kalır ve Böğürdelen'inkinden kopyalanamaz. Şimdilik **eklenmemesini** öneriyorum. Coğrafî gerekçe yine de güçlü: eklenmezse Sırbistan'ın Demirkapı köşesi 1878'e kadar Osmanlı kalan Vidin'in peteğine emilir — §17.1'deki Şumadya hatasının küçük kopyası | ✔ §19.5 |
 
+| **48** | `data/yerlesimler.js` | **YAMACI** | ✅ **ONAYLANDI — PODGORİCA PAKETİ.** Cetinje `kasitli_bosluk: true` kararının kırılganlığını gideren asıl düzeltme. Kayıt + 1457 maddesi + Cetinje gerekçesi **§22**'de tam hâliyle. `1457-01-01` kırılmasının maddesi yok → yerleşim ve madde **AYNI ADIMDA** | ✔ §21·§22 |
+| **49** | `data/devletler.js` | Oturum 3 | 🔴 **KÜNYE TUTMUYOR.** `zeta` kaydının `1451-01-01` satırı *"merkezi Cetine'ye taşıdı"* diyor ve künyesi *"(kaynak: TDV, madde: karadag)"*. **TDV `karadag`'da ne 1451 ne de merkezin taşınması geçiyor.** İki olay birleşmiş: hânedanın Zeta'nın başına geçmesi (1451) ile merkezin Cetinje'ye taşınması (1482). `yerlesimler.js` `kur:"1482-01-01"` diyor — iki katman **31 yıl** ayrışıyor | ✔ §24 |
+| **50** | `arac/renkler.py` | Oturum 16 | `zeta` kimliği `devletler.js`'te **var** (1356-1514) ama `BOYALAR`'da **yok**. Eklenirse Podgorica'nın 1281-1457 zinciri üçe bölünüp doğrusu yazılabilir; şimdilik tek parça `sirbistan` yazıldı | ✔ §22.1 |
+| **51** | — | merkez | **AYRI ÖNERİ (Podgorica paketiyle karıştırılmayacak):** TDV `iskodra`nın 1485 tahririnde saydığı üç kale daha — **Žabljak · Medun · Drivasto**. Üçünün de düşüş yılı TDV'de **yok**, müstakil maddeleri de yok. Žabljak için söylenebilecek en kesin şey **"1479 ile 1485 arası"**. Şimdilik eklenmemesini öneriyorum | ✔ §23 |
+
 🔴 **#40 SIRALAMA KISITI:** Böğürdelen kaydı ile E bloğunun dört maddesi **AYNI
 ADIMDA** uygulanmalı. Önce yerleşim eklenirse **Değişmez 2** kırılır (dört
 maddesiz kırılma); önce maddeler eklenirse **Değişmez 2t** kırılır (ölçüldü:
@@ -1307,7 +1312,1511 @@ Dömeke'ye (Domokos)… giden yol üstünde"*. Savaşı ise şöyle veriyor:
 
 ---
 
-## 20. Sırada
+## 21. CETİNJE — MOTOR'un sorusuna cevap
+
+# `kasitli_bosluk: true`
+
+**Kaynak: TDV `karadag` (birincil) + TDV `podgorica` + TDV `iskodra`.**
+
+### Neden — TDV bölgeyi kelimesi kelimesine "devletsiz" tarif ediyor
+
+> *"Karadağ, Osmanlı öncesi sosyopolitik yapılarla bağlantısı az olan ya da hiç
+> olmayan **göçebe kabilelerin oluşturduğu gevşek bir konfederasyondu**."*
+
+Bu, MOTOR'un "kabile bölgesi, hiçbir devletin fiilî denetiminde olmayan alan"
+tanımının birebir karşılığıdır. TDV aynı yapıyı Slav göçüne kadar geri götürüyor:
+eski Balkan halkları *"**kendi otonom yaşam tarzlarını sürdürebildikleri dağlara
+çekildiler**"*. Karadağlılar 1856 Paris Kongresi'nde de aynı iddiayı resmen ileri
+sürdüler: *"Osmanlılar'ın **hiçbir zaman topraklarına hâkim olamadığı**…"*
+
+TDV ayrıca **ova ile dağı açıkça ayırıyor** — cevabın anahtarı bu:
+
+> *"**Kadîm Zeta'nın önemli bir kısmı** İşkodra, Dukakin, Prizren, Vulçıtrın ve
+> Hersek gibi diğer sancaklar arasında bölünmüş ve **düzenli bir şekilde
+> yönetilmiştir**."*
+
+Yani Zeta'nın yönetilen kısmı **ovadır**; Çetine vladikasına bağlı beş nahiye ise
+istisnadır ve Osmanlı idaresi altında bile *"idareciler mahallî işlere ve halkın
+yaşayış tarzına fazlaca müdahale etmediler"*.
+
+### Soru 1 — 1482 öncesi Lovćen eteğinde fiilî otorite var mıydı?
+
+**Nominal iddia vardı, fiilî idare yoktu.** Duklja → Zeta → 1189'da Sırbistan
+(*"bir tür özel statü"*) → XIII. yüzyıl ikinci yarısında Sırbistan çözülünce Zeta
+büyük ölçüde bağımsız, ama *"yerel feodal beylerin komşularıyla ya da birbirleriyle
+sürekli mücadeleleri yüzünden **politik istikrara kavuşamadı**"*. 1421'de son
+Balšić, Zeta'yı Sırp despotuna miras bıraktı; ardından Venedik (Crnojevići
+desteğiyle) ve Osmanlılar bölgeyi çekiştirdi. Hiçbiri dağa yerleşmedi.
+
+### Soru 2 — Dağlık iç kesim "yönetilen toprak" sayılabilir mi?
+
+**Hayır.** Yukarıdaki üç alıntı bunu doğrudan söylüyor. En çarpıcı teyit TDV
+`podgorica`'dan geliyor ve **üç yüz yıl sonrasına** ait:
+
+> *"XVIII. yüzyılda şehir **Karadağ dağlarındaki soyguncu aşiretlerin saldırılarını
+> bertaraf etmek için** altı tabya ile güçlendirildi, üç kapılı surlarla korumaya
+> alındı."*
+
+Ovadaki Osmanlı kasabası, XVIII. yüzyılda hâlâ yanı başındaki dağa karşı
+tahkim ediliyor. Dağ, o tarihte bile yönetilen toprak değil.
+
+### Soru 3 — 1482'de neden Cetinje? Önceki merkez neredeydi, veride var mı?
+
+**Zincir:** TDV `iskodra` — Venedik İşkodra'yı **1479'a kadar** tuttu, Fâtih uzun
+bir kuşatmadan sonra antlaşmayla aldı. TDV `karadag` — *"İlk Osmanlı idaresi
+**Fâtih Sultan Mehmed döneminin son yıllarında** tesis edildiyse de **onun vefatı
+üzerine Crnojevići bazı yerleri geri almayı başardı**."* (Fâtih 3 Mayıs 1481'de
+öldü — 1481-82 penceresi buraya oturuyor.)
+
+**Önceki merkez Žabljak'tı ve Osmanlı eline geçmişti.** TDV `iskodra`, 890 (1485)
+tahririnde İskenderiye sancağının kalelerini sayıyor: *"İpek'le (Peć) Podgorica,
+Drivasto, **Zabljak** ve Medun kaleleri de sancağa dahildi."* Yani Žabljak
+**en geç 1485 tahririnde Osmanlı kalesidir**; Crnojevići ovayı kaybedip dağa
+çekilmiştir. ⚠️ TDV Žabljak'ın düşüş **yılını vermiyor** — "1479 ile 1485 arası"
+denebilir, daha kesini uydurma olur.
+
+**Veride var mı? YOK.** TDV'nin saydığı dört kaleden **hiçbiri**
+`yerlesimler.js`'te yok. 41,8-43,2K / 18,4-20,2D kutusunda **yalnızca iki nokta**
+var: Cetinje ve İşkodra, aralarında 61 km.
+
+### 🔴 Asıl mesele bayrak değil, eksik nokta — #48
+
+`true` bugünkü hâli korur ve doğrudur. **Ama Cetinje'nin peteği şu anda hem dağı
+hem ovayı temsil ediyor**, çünkü ovada tek nokta yok. MOTOR'un ölçtüğü %48,9
+kararsızlığın sebebi de bu: peteğin karşısında komşu yok, boşluk var.
+
+**Kalıcı çözüm Podgorica'yı eklemektir ve TDV zincirini tam veriyor:**
+
+> *"Şehir, **861'de (1457) Osmanlı topraklarına katıldı**."*
+> *"**1479**'da … İşkodra'nın fethinden sonra Podgorica bölgesi yeni oluşturulan
+> İşkodra sancağına dahil edildi."*
+> 890 (1485) tahririnde kırk hâne · 1529-30'da 800 kişi ve **otuz iki kişilik
+> garnizon** · 1582'de 322 hâne — yani **sayılan, vergilendirilen, garnizonlu**
+> bir Osmanlı kasabası.
+
+```js
+{ ad:"Podgorica", tur:"sehir", lat:42.441, lon:19.263, g:0, k:4, m:"İşkodra", s:[{f:"1281-01-01",t:"1457-01-01",d:"sirbistan"},{f:"1878-07-13",t:"1923-10-29",d:"karadag"}], d:[{f:"1457-01-01",t:"1878-07-13"}] },
+```
+
+Podgorica eklenirse Cetinje'nin peteği **dağa çekilir** — orada `true` doğrudur —
+ve ova 1457'den itibaren doğru şekilde Osmanlı boyanır. Cetinje'ye 29 km,
+İşkodra'ya 46 km; 3 km kuralı rahat geçiliyor.
+
+⚠️ **Sıralama kısıtı, Böğürdelen'deki ile aynı:** `1457-01-01` kırılmasının
+maddesi **YOK** (en yakın madde 163 gün ötede, *"Belgrad kuşatmasının
+başarısızlığı"*). Podgorica eklenecekse **aynı adımda** bir 1457 maddesi
+yazılmalı; ben yazarım, söylemesi yeterli.
+
+### Slug turu
+✅ CANLI: `karadag` · `podgorica` · `iskodra`
+🔴 ÖLÜ: `cetinje` · `zeta` · `zabljak` · `ulgun` — Cetinje'nin TDV'de **müstakil
+maddesi yoktur**; şehir yalnız `karadag` içinde "Çetine" olarak geçer. Bu, §3'te
+Crnojeviç için tespit ettiğim durumun aynısı.
+
+---
+
+## 22. ⭐ PODGORİCA PAKETİ — YAMACI uygular
+
+Merkez onayladı. **`data/`ya ben yazmadım.** Üç parça, hepsi tam hâliyle aşağıda.
+İlk ikisi **AYNI ADIMDA** uygulanmalı (sıralama kısıtı §22.4).
+
+### 22.1 Yerleşim kaydı → `data/yerlesimler.js`
+
+```js
+{ ad:"Podgorica", tur:"sehir", lat:42.441, lon:19.263, g:0, k:4, m:"İşkodra", s:[{f:"1281-01-01",t:"1457-01-01",d:"sirbistan"},{f:"1878-07-13",t:"1923-10-29",d:"karadag"}], d:[{f:"1457-01-01",t:"1878-07-13"}] },
+```
+
+| Alan | Dayanak |
+|---|---|
+| `lat/lon` | Morača ile Ribnica'nın kavuştuğu yer; TDV: *"İşkodra gölünün 20 km. kuzeyinde"*. Cetinje'ye **29 km**, İşkodra'ya **46 km** — 3 km kuralı rahat geçiliyor |
+| `d:` başı `1457-01-01` | TDV `podgorica`: *"Şehir, **861'de (1457) Osmanlı topraklarına katıldı**."* Gün verilmiyor → `CLAUDE.md §4` gereği `-01-01` |
+| `m:"İşkodra"` | TDV: *"**1479**'da … İşkodra'nın fethinden sonra Podgorica bölgesi yeni oluşturulan İşkodra sancağına dahil edildi"* |
+| `d:` sonu `1878-07-13` | TDV `karadag`: Karadağ 1876-78 savaşının sonlarında *"Nikšić, **Podgorica**, Bar'ı aldı"*, bağımsızlık Berlin'de tanındı. Berlin maddesi mevcut, kırılma kapalı |
+
+🟡 **Bilinçli sadeleştirme — `s:"sirbistan"` 1281-1457.** Bölge bu aralıkta sırasıyla
+Sırp Krallığı (1281-1356), **Zeta Prensliği** (1356-1421) ve yeniden Sırp
+despotluğu (1421-1457) altındaydı. `zeta` kimliği **`devletler.js`'te VAR**
+(`id:"zeta"`, *"Zeta Prensliği (Balšić / Crnojević)"*, 1356-1514) ama
+**`renkler.py`'deki `BOYALAR` sözlüğünde YOK** — yazılırsa bölge boyanmaz
+(`VERI-YAPISI.md` kuralı). Bu yüzden tek parça `sirbistan` yazdım.
+→ **#50**: Oturum 16 `zeta` rengini eklerse zincir üçe bölünüp doğrusu yazılabilir.
+
+### 22.2 Kronoloji maddesi → `data/olaylar_ek10.js`
+
+```js
+{ t:"1457-01-01", k:"fetih", etiket:["toprak-kazanc","idare"],
+  b:"Podgorica'nın Osmanlı topraklarına katılması — Zeta ovasının denetim altına alınması",
+  gun:"1457", yer:"Podgorica (Ribnica), Morača ile Ribnica'nın kavuştuğu yer, Zeta ovası",
+  kisiler:"Fatih Sultan Mehmed",
+  d:"İşkodra gölünün yirmi kilometre kuzeyinde, Morača ile Ribnica sularının birleştiği ovada kurulu kasaba kaynaklarda ilk defa 1216'da Ribnica, 1326'da Podgorica adıyla anılır. 1457'de Osmanlı topraklarına katıldı ve Zeta ovasının denetimi böylece Balšić-Crnojević hânedanlarının elinden çıktı. Fâtih Sultan Mehmed 1474-1478 yılları arasında iki nehrin kavşağındaki sarp kayalıklara bir kale ile cami inşa ettirdi; 1479'da İşkodra'nın fethinden sonra bölge yeni kurulan İşkodra sancağına bağlandı. 1485 tahririnde kırk hânelik hıristiyan bir kasaba olan Podgorica, 1529-30'da 800 kişiye ve kale içinde bir dizdarın emrindeki otuz iki kişilik garnizona, 1582'de 322 hâneye ulaştı. Evliya Çelebi 1662'de Fâtih Kalesi'nde üç yüz ev, ambarlar, cebehâneler ve yedi yüz muhafız saydı. Bu kayıtlar Zeta'nın ovası ile dağı arasındaki farkı da gösterir: ova sayılan, vergilendirilen ve garnizonlu bir Osmanlı kazasıdır — oysa XVIII. yüzyılda şehir, Karadağ dağlarındaki aşiretlerin baskınlarını önlemek için altı tabya ve üç kapılı surlarla tahkim edilmek zorunda kalacaktır. Podgorica 1876-1878 savaşının sonlarında Karadağ'ın eline geçti ve Berlin Antlaşması'yla orada kaldı.",
+  kaynak:"podgorica" },
+```
+
+`gun:"1457"` — **gerçek hassasiyet YIL.** TDV yalnız hicrî 861 / mîlâdî 1457
+veriyor; A-2 (Karadağ 1482) ile aynı biçim.
+
+### 22.3 Cetinje `kasitli_bosluk: true` — gerekçe (MOTOR/merkez işler)
+
+Tam dayanak §21'de. Pakete girecek özet:
+
+> **Cetinje `kur:1482` öncesi KASITLI boşluktur.** TDV `karadag` bölgeyi
+> *"göçebe kabilelerin oluşturduğu gevşek bir konfederasyon"* diye tarif ediyor ve
+> Kadîm Zeta'nın *"düzenli bir şekilde yönetilmiş"* kısmının **ova** olduğunu
+> söylüyor. Dağda 1482 öncesi nominal iddia vardı (Zeta, Sırp despotu, Venedik,
+> Osmanlı) ama fiilî idare yoktu — Zeta *"politik istikrara kavuşamadı"*.
+> Teyit: TDV `podgorica`, ovadaki Osmanlı kasabasının **XVIII. yüzyılda hâlâ**
+> dağa karşı altı tabyayla tahkim edildiğini kaydediyor.
+> **Podgorica eklenince bu karar kırılgan olmaktan çıkar:** Cetinje'nin peteği dağa
+> çekilir (orada boşluk doğrudur), ova 1457'den itibaren Osmanlı boyanır.
+
+### 22.4 🔴 SIRALAMA KISITI — Böğürdelen'dekiyle aynı
+
+Ölçüldü: `1457-01-01` kırılmasına en yakın madde **163 gün** ötede
+(*"Belgrad kuşatmasının başarısızlığı"*, 1456-07-22).
+
+| Sıra | Sonuç |
+|---|---|
+| Yalnız yerleşim eklenirse | 🔴 **Değişmez 2** kırılır — maddesiz kırılma |
+| Yalnız madde eklenirse | 🔴 **Değişmez 2t** kırılır — kırılmasız madde, 67 tavanı aşılır |
+| **İkisi birlikte** | ✅ ikisi de sağlanır |
+
+Madde bu belgede duruyor, `olaylar_ek10.js`'te **değil** — tam olarak bu yüzden.
+Uygulandığında `BEKLENEN_YERLESIM` **+1**, `BEKLENEN_KIRILMA` **+2**.
+
+---
+
+## 23. AYRI ÖNERİ — üç kale, Podgorica paketiyle KARIŞTIRILMAYACAK
+
+Merkezin talimatı gereği ayrı tutuldu. TDV `iskodra`, 890 (1485) tahririnde
+İskenderiye sancağının kalelerini sayarken üçünü daha adıyla anıyor:
+
+> *"Kosova'daki İpek'le (Peć / Peja) Podgorica, **Drivasto, Zabljak ve Medun**
+> kaleleri de sancağa dahildi."*
+
+| Kale | Konum | Durum |
+|---|---|---|
+| **Žabljak Crnojevića** | İşkodra gölünün kuzey kıyısı | Crnojevići'nin **1482 öncesi merkezi** |
+| **Medun** | Podgorica'nın kuzeydoğusu | Dağ eteği kalesi |
+| **Drivasto (Drisht)** | İşkodra'nın kuzeydoğusu | — |
+
+🔴 **Üçü için de zincir kurulamıyor.** TDV bu kaleleri yalnız **1485 tahririnde
+sancağa dahil** olarak anıyor; **düşüş yıllarını vermiyor** ve `zabljak`,
+`drivasto`, `medun` diye **müstakil madde yok**. Žabljak için söylenebilecek en
+kesin şey **"1479 ile 1485 arası"**dır — daha kesini uydurma olur.
+
+**Önerim: şimdilik EKLENMESİN.** Podgorica ovayı zaten tutuyor; üç kale ancak
+kaynakları netleştikten sonra değer katar. Gerekirse standart akademik kaynakla
+ayrı bir tur yapılır (**#51**).
+
+---
+
+## 24. 🔴 KATMANLAR ARASI ÇELİŞKİ — #49
+
+Podgorica araştırırken çıktı. `data/devletler.js`'teki `zeta` kaydı:
+
+```
+{ t:"1451-01-01", tur:"hukumdar",
+  b:"Crnojević ailesi Zeta'nın başına geçti, merkezi Cetine'ye taşıdı" }
+```
+
+Kayıt künyesini *"(kaynak: TDV, madde: karadag)"* olarak veriyor. **Ama TDV
+`karadag` maddesinde ne 1451 yılı ne de merkezin Cetinje'ye taşınması geçiyor.**
+Maddede Crnojevići ile ilgili tek kronolojik ifade şudur: *"İlk Osmanlı idaresi
+Fâtih Sultan Mehmed döneminin son yıllarında tesis edildiyse de onun vefatı
+üzerine Crnojevići bazı yerleri geri almayı başardı."*
+
+**İki ayrı olay tek satırda birleşmiş görünüyor:** hânedanın Zeta'nın başına
+geçmesi (1451) ile merkezin Cetinje'ye taşınması (1482). `yerlesimler.js`'teki
+Cetinje kaydı ise `kur:"1482-01-01"` diyor — yani **iki katman 31 yıl ayrışıyor.**
+
+📌 Bu, §3'te Crnojeviç için tespit ettiğim durumun tekrarı: **TDV'de karşılığı
+olmayan bir tarih, TDV künyesiyle kaydedilmiş.** `devletler.js` Oturum 3'ün
+dosyası — düzeltme onlara ait, ben yalnız ölçtüm.
+
+---
+
+## 25. İSMAİL — YAMACI'nın sorusu, eski birleşik maddeyi kim tutuyor
+
+### 25.1 Cevap: İsmail'in 1484'te alındığı TDV'de YAZMIYOR
+
+**Üç ayrı TDV maddesi 1484 seferini anlatıyor ve üçü de yalnız iki kale sayıyor.**
+
+TDV `kili` — seferin günü gününe anlatımı:
+> *"II. Bayezid … 889'da (1484) sefere çıktı. 10 Cemâziyelâhir 889'da (**5 Temmuz
+> 1484**) Kili civarına geldi. Ertesi gün kale karadan ve Tuna nehrinden kuşatıldı.
+> On gün boyunca … kumandanı teslim olmak zorunda kaldı (**15 Temmuz 1484**).
+> … **Hemen ardından Akkirman Kalesi de alındı.**"*
+
+TDV `akkirman`:
+> *"Akkirman II. Bayezid devrinde Boğdanlılar'dan alındı (**4 Ağustos 1484**)."*
+
+TDV `bucak` — en açık olanı:
+> *"II. Bayezid 1484'te … **Kili Kalesi'ni**, yine aynı yıl Mengli Giray kumandasındaki
+> Kırım ordusunun yardımı ile de … **Akkirman'ı** ele geçirdi. … **Daha sonra** ise
+> fethedilen **bu iki kaleyi** savunmak ve yollarını güven altına almak için
+> **bütün bölgeyi kontrol etme ihtiyacı belirdi**."*
+
+**İsmail hiçbirinde geçmiyor.** Künye taraması da boş: `ismail` · `izmail` ·
+`ismail-gecidi` · `ismail-kalesi` · `kalas` **hepsi ÖLÜ** — İsmail'in TDV'de
+müstakil maddesi yoktur. Adı yalnız `bucak`, `bogdan` ve `kili` maddelerinin
+içinde, hepsi de **XVII. yüzyıl ve sonrası** bağlamlarda geçiyor (Evliya Çelebi'nin
+tasviri, 1768-74 ve 1787-92 savaşları, 1856 Paris Antlaşması).
+
+⇒ **Verideki `1484-08-03` kaynaksızdır.** Eski birleşik maddenin tarihinden
+kopyalanmış görünüyor — yani madde veriyi değil, veri maddeyi takip etmiş.
+
+### 25.2 TDV bölgeyi 1538'e bağlıyor
+
+`bucak` maddesi, iki kale ile aradaki bölgeyi **açıkça ayırıyor**:
+
+> *"Bucak'ın kuzey sınırları **Kanûnî Sultan Süleyman zamanında** çizilmiştir.
+> Osmanlılar'a hücum eden Petru Rareş **1538**'de yenilgiye uğratılmış ve güneyde
+> **Prut ile Turla arasında** bulunan bir kısım kara parçası **Bucak adı altında
+> idarî bir bölge olarak teşkilâtlandırılmıştır**. Kanûnî, Bucak'ın kuzeydoğu
+> sınırını Bender'in kuzeyinden geçirmiş ve burada bir kale inşa ettirerek
+> **Osmanlı idaresini bölgede kökleştirmiştir**."*
+
+**İsmail tam da bu tarifin içindedir** — Prut ile Turla arasında, Bender'in
+güneyinde. Ve veride **Bender zaten `1538-09-01` taşıyor.**
+
+### 25.3 Etki alanı ölçüldü — engel yalnızca İsmail
+
+| Ölçüm | Sonuç |
+|---|---|
+| `1484-08-03` kırılmasını taşıyan yerleşim | **yalnız İsmail** (2 eşleşme: `s:` bitişi + `d:` başı) |
+| Kili | `1484-07-15` — zaten taşındı |
+| Akkirman | `1484-08-04` — zaten taşındı |
+
+**İki hedef tarihin de maddesi hazır, yeni madde yazmaya gerek yok:**
+
+| Hedef | Karşılayan madde | Mesafe |
+|---|---|---|
+| `1484-07-15` | *"Kili Kalesi'nin fethi — Tuna ağzının kilidi"* (B-1, `olaylar_ek10.js`) | 0 gün |
+| `1538-09-01` | *"Boğdan Seferi ve Bucak (Bender) bölgesinin ilhakı"* (`olaylar_ek5.js`) | 0 gün |
+
+### 25.4 Önerim: `1538-09-01`
+
+**Gerekçe:** TDV 1484'ü **iki kaleye** hasrediyor ve aradaki bölge için *"daha
+sonra … bütün bölgeyi kontrol etme ihtiyacı belirdi"* diyor; ardından o bölgeyi
+adıyla ve tarihiyle **1538**'e bağlıyor. İsmail bir bozkır iç kalesi değil ama
+Prut-Turla tarifinin içinde ve Bender ile aynı idarî teşkilâtlanmanın parçası.
+Veride Bender zaten 1538-09-01 taşıdığı için **iki Bucak kalesi aynı zemine
+oturur.**
+
+⚠️ **Haritadaki karşılığı:** İsmail 1484-1538 arasında **Boğdan** görünür — Kili
+ile arasında 36 km'lik bir voyvodalık cebi oluşur. Bu **doğrudur**: Bucak'ın içi
+1538'e kadar Boğdan'daydı, ve bu düzeltmeyle 1538 Boğdan Seferi haritada
+gerçekten toprak kazandırmış olur — bugün İsmail için hiçbir şey yapmıyor.
+
+**Yedek seçenek `1484-07-15`** (Kili ile aynı gün): daha küçük değişiklik,
+haritayı bugünkü hâline yakın tutar. Dayanağı `kili` maddesinin kapanış cümlesidir
+— *"Böylece Karadeniz ve Aşağı Tuna havzası tamamen Osmanlılar'ın kontrolüne
+geçmiş oldu"*. Ama bu bir **havza özeti**, İsmail'in alındığına dair bir kayıt
+değil. Zayıf dayanak.
+
+📌 **Hangisi seçilirse seçilsin eski birleşik madde emekliye ayrılabilir** — İsmail
+`1484-08-03`'ten çıktığı anda o tarihi taşıyan yerleşim kalmaz.
+
+⚠️ `CLAUDE.md §11`: İsmail kaydında tarih **İKİ KEZ** geçiyor (`s:` bitişi ve `d:`
+başı). `replace(…, 1)` yalnız ilkini değiştirir ve 54 yıllık sahipsiz pencere açar.
+**Her iki eşleşme birlikte**, sonra Değişmez 1.
+
+---
+
+## 26. ✅ ÇÖZÜLDÜ — Değişmez 3 sayaca düştü (`da5a208`)
+
+> **Bu bölüm bir alarmla başladı ve alarm yanlış çıktı.** Sıra: paketlerim
+> uygulandıktan sonra denetimi kırmızı gördüm → dört çelişkiyi ölçüp teşhis ettim
+> → iki çözüm önerdim → DENETÇİ ölçtü, ikisinin de gereksiz olduğunu gösterdi ve
+> ölçütü sayaca düşürdü. Teşhis doğru, öneriler yanlıştı. Aşağısı olduğu gibi
+> duruyor çünkü teşhis kısmı hâlâ geçerli ve `kd:` borcunun canlı bir örneği.
+
+O anki görüntü:
+
+```
+Değişmez 3  ✗  389 çelişki (beklenen ≤387)     SONUÇ: İHLAL VAR
+```
+
+Ölçtüm — **dördü benim eklediğim kayıtlardan**, ve **dördü de veri hatası değil,
+`CLAUDE.md §3`'te "henüz sağlanmıyor" diye kayıtlı yapısal borcun örneği:**
+
+| Kesit | Yerleşim | Kendi sahibi | `m:` merkezi |
+|---|---|---|---|
+| 1300 · 1400 | **Podgorica** | `sirbistan` | İşkodra = `venedik` |
+| 1500 | **Kragujevac** | OSMANLI | Belgrad = `macaristan` |
+| 1500 | **Çaçak** | OSMANLI | Belgrad = `macaristan` |
+
+### İkisi de tarihen DOĞRU — model ifade edemiyor
+
+**Podgorica:** `m:"İşkodra"` bağı **Osmanlı devrine ait** bir idarî olgudur — TDV
+`podgorica`: *"**1479**'da … İşkodra'nın fethinden sonra Podgorica bölgesi yeni
+oluşturulan İşkodra sancağına dahil edildi."* Ama `m:` alanının zaman boyutu
+olmadığı için bu bağ **1300 ve 1400 kesitlerine de uygulanıyor**, ki o tarihlerde
+İşkodra Venedik'in, Podgorica ise Sırp/Zeta yörüngesindeydi. İkisinin farklı
+devletlerde olması **doğru**; çelişki sayılması modelin kusuru.
+
+**Kragujevac · Çaçak:** Şumadya Semendire ile birlikte **1459**'da düştü, Belgrad
+ise **1521**'e kadar Macaristan'da kaldı. 1500 kesitinde ikisinin farklı
+devletlerde olması **tarihin ta kendisidir** — Belgrad'ın altmış iki yıl daha
+dayanması bu projenin zaten anlattığı bir hikâye.
+
+📌 Bu tam olarak `MIMARI.md §3.4`'ün tarif ettiği borç: **bölge boyutunun zaman
+boyutu yok.** Planlanan `kd:` alanı (`VERI-YAPISI.md`, "🔜 Planlanan alanlar")
+devreye girdiğinde dördü de kendiliğinden çözülür.
+
+### Alternatifler tartıldı, hiçbiri iyi değil
+
+| Seçenek | Neden olmaz |
+|---|---|
+| Podgorica'dan `m:` kaldır | 1479 sonrası doğru olan sancak bağı kaybolur |
+| Kragujevac/Çaçak'a `m:"Semendire"` | Semendire `k:3` ve kendi `m:`'i Belgrad — kural gereği `m:` bir k1/k2 merkezine işaret etmeli, çelişki taşınır yalnız |
+| Kayıtları geri çek | Şumadya halkası (§17.1) ve Cetinje kararı (§21) yeniden kırılganlaşır |
+
+### ✅ ÇÖZÜLDÜ — ve önerdiğim iki yolun ikisi de gereksiz çıktı
+
+DENETÇİ aynı sorunu benden bağımsız ölçüp `da5a208`'de kapattı. **Depo temiz**
+(967 yerleşim · 994 madde · çıkış kodu 0), ve `denetle.py` artık şunu yazıyor:
+
+```
+Sayaç       ·  392 `m:`/egemen uyuşmazlığı — ŞEMA borcu, veri kusuru DEĞİL
+```
+
+**Teşhisim doğruydu, çözüm önerilerim yanlıştı.** DENETÇİ'nin ölçümü:
+
+| Ölçüm | Sonuç |
+|---|---|
+| Toplam çelişki | 389 |
+| Bunun "farklı egemen" olanı | **389 — TAMAMI** |
+| Geriye kalan | **0** |
+
+Yani `Podgorica↔İşkodra` ve `Kragujevac↔Belgrad` **istisna değil, kuralın
+kendisi.** Önerdiğim muafiyet kümesi kurulsaydı 389 satır yazmak gerekirdi ve
+ölçüt sıfır dönerdi. Tavan yükseltmek de çare değildi: ölçüt **yalnız yerleşim
+eklendikçe** artıyor, hiçbir veri hatasında farklı cevap veremiyor — yani ölçüm
+değil sayaç. Değişmez'likten düşürüldü.
+
+📌 **Ders — kendi payıma:** dört kaydımı "ihlal" diye raporlayan şey veri değil,
+**ölçütün sunumuydu.** Ben de o sunumu veri kabul edip düzeltmeyi kendi
+paketlerimde aradım (geri çekmek, `m:` kaldırmak, tavan istemek). DENETÇİ'nin
+ayrımı burada değerli: *ölçütü gevşetmek* ile *ölçtüğü şeyin ne olduğunu doğru
+adlandırmak* farklı işlerdir. `CLAUDE.md §11` birincisini yasaklıyor, ikincisini
+değil.
+
+⚠️ **Bir de ölçüm hijyeni:** ilk koşumda "SONUÇ: İHLAL VAR" gördüm ve rapor ettim;
+DENETÇİ o sırada düzeltmeyi çoktan uygulamıştı. **Ölçümüm bir saat eskiydi** ve
+başka oturumların yazma anına denk gelmişti. Kırmızı bir denetim raporlamadan
+önce `git log`'a bakmak gerekiyor — sayı bana ait olmayabilir.
+
+⇒ **Paketlerimde düzeltilecek bir şey yok.** Şumadya halkası (§17.1), Cetinje
+kararı (§21) ve Podgorica paketi (§22) sağlam duruyor. Gerçek çözüm ikimizin de
+gösterdiği yerde: **zamanlı `m:`** — `VERI-YAPISI.md`'de `kd:` olarak planlı.
+
+---
+
+## 27. DEVREDEN SATIRLARIN DURUM TARAMASI (31 Temmuz, kilit sonrası)
+
+Kendi kuyruğumdaki eski satırları ölçtüm. **Üçü hâlâ açık, biri kendiliğinden
+kapanmış, hiçbirini engelleyen bir şey yok.**
+
+### 27.1 #4 — İyon adaları `1479-01-25` → `1479-08-01` · 🔴 AÇIK
+
+`1479-01-25`'i **sekiz yerleşim** taşıyor. Dördü doğru, dördü yanlış:
+
+| Kalacak (İstanbul Antlaşması gerçekten kapsıyor) | Taşınacak (Tocco adaları, ayrı harekât) |
+|---|---|
+| İşkodra · Limni · Sisam · Bozbaba (Ay Strati) | **Ayamavra (Lefkada) · Kefalonya · İthaki · Zaklise** |
+
+**Dört kayıt × 2 eşleşme = 8 eşleşme.** `1479-08-01`'i şu an **hiçbir yerleşim
+taşımıyor**; A-1 maddesi (*"İyon adalarının fethi — Tocco düklüğünün sonu"*)
+hazır ve 0 gün mesafede. Kalan dördü kendi maddesini korur.
+⇒ **Değişmez 2 açısından risksiz.**
+
+### 27.2 #6 — `1479-01-25` maddesinin metni · 🔴 AÇIK, #4'e bağlı
+
+Madde şöyle bitiyor:
+> *"Aynı tarihte haritaya katılan diğer yerleşimler: Limni, Sisam, **Ayamavra
+> (Lefkada)**."*
+
+#4 uygulandığı anda bu cümle yanlış olur. Ayamavra çıkarılmalı; **Bozbaba
+eklenebilir** (o gerçekten 25 Ocak'a ait ve cümlede sayılmamış).
+
+### 27.3 #17 — İnebahtı: eski birleşik madde hâlâ fethi üstleniyor · 🔴 AÇIK
+
+Kili/Akkirman'da merkezin bugün çözdüğü desenin aynısı, ve **engeli yok:**
+
+```
+1499-08-28  [olaylar_ek5.js]  "Sapienza deniz zaferi ve İnebahtı'nın fethi"
+            gun: "12-25 Ağustos 1499 (Sapienza) – 28 Ağustos 1499 (İnebahtı)"
+            kaynak: "inebahti"
+```
+
+🔴 **Madde kendi künyesiyle çelişiyor.** `kaynak:"inebahti"` diyor ama TDV
+`inebahti` teslimi **26 Ağustos**'a koyuyor: *"kaledeki Venedikliler 26 Ağustos'ta
+kasabayı Osmanlılar'a teslim ettiler."* Madde 28 Ağustos yazıyor.
+📌 Bu, bugünün beşinci vakası — ve artık **tek tek kusur değil, bir sınıf.**
+
+### 🔴 SINIF: "künye canlı, iddia o maddede yok/farklı"
+
+`<title>` sınaması **beşini de temiz geçiriyor**, çünkü o sınama *"bu madde var
+mı"* sorusunu cevaplıyor; *"bu bilgi o maddede var mı"* sorusunu değil.
+
+| # | Kayıt | `kaynak:` | Künye | Maddede ne var |
+|---|---|---|---|---|
+| 1 | `1897-05-17` Dömeke Meydan Muharebesi | `yunanistan` | ✅ canlı | Dömeke **hiç geçmiyor**, savaşa gün verilmiyor |
+| 2 | `devletler.js` `zeta`, 1451 satırı | `karadag` | ✅ canlı | Ne **1451** ne merkezin Cetinje'ye taşınması geçiyor |
+| 3 | `yerlesimler.js` İsmail `1484-08-03` | — | 🔴 künye **yok** | TDV 1484 seferini **yalnız Kili + Akkirman** olarak anlatıyor |
+| 4 | `abudabi` kütük kaydı | — | — | (merkezin ölçümü) |
+| 5 | `1499-08-28` Sapienza + İnebahtı | `inebahti` | ✅ canlı | TDV **26 Ağustos** diyor, madde **28** yazıyor |
+
+**Üç farklı bozulma biçimi:** iddia maddede *hiç yok* (1, 2) · künyesiz tarih
+*künyeli gibi duruyor* (3) · künye doğru ama *sayı tutmuyor* (5).
+
+⇒ **KAYNAK'ın 437 künyelik turu bu yüzden iki aşamalı olmak zorunda.** Birinci
+aşama `<title>`, ikinci aşama *"maddenin metni, iddianın anahtar kelimesini
+içeriyor mu"* — yer adı, kişi adı ya da yıl. Beş vakanın **beşi de** ikinci
+aşamada düşerdi.
+
+📌 Tek tek bildirilen bir kusur, sınıf hâline gelince **tasarım değiştiriyor.**
+
+✅ **Ölçüldü: `1499-08-28`'i hiçbir yerleşim taşımıyor** (0 eşleşme). Yani metin
+serbestçe düzeltilebilir, Değişmez 2 etkilenmez.
+
+**Önerim — madde SİLİNMESİN, ikiye ayrılsın:**
+- Sapienza deniz zaferi gerçek ve ayrı bir olaydır; madde onun maddesi olarak
+  kalsın, başlığından ve metninden **İnebahtı'nın fethi çıkarılsın**
+- İnebahtı'yı zaten **B-3** karşılıyor (`1499-08-26`, TDV'nin verdiği gün,
+  `olaylar_ek10.js`)
+- `gun:` alanı da sadeleşsin: *"12-25 Ağustos 1499"*
+
+### 27.4 #10 — Ayamavra boşlukları · ✅ KENDİLİĞİNDEN KAPANDI
+
+Eski kayıt 1502-1503 ve 1715-1718 pencerelerinde boşluk veriyordu. Bugünkü kayıt
+**kesintisiz**: `s:` venedik 1281→1479-01-25 · `d:` 1479-01-25→1684-08-06 ·
+`s:` venedik 1684-08-06→1923-10-29. **Madde önerisine gerek kalmadı, satır kapanır.**
+
+### 27.5 #5 — Ayamavra'nın 1479 öncesi sahibi · 🟡 BEKLİYOR, "önce sor" idi
+
+Kayıt hâlâ `s:{1281→1479-01-25, d:"venedik"}` diyor. §2'de ölçmüştüm: adalar 1479
+öncesinde **Venedik'in değil Tocco ailesinin** elindeydi ve Tocco Napoli
+yörüngesindeydi. Merkez "önce sor" demişti; **soru hâlâ cevapsız.**
+⚠️ #4 ile birlikte düşünülmeli — ikisi de aynı dört kaydı ilgilendiriyor, tek
+turda yapılırsa `CLAUDE.md §11`'in çoklu eşleşme tuzağına bir kez girilir.
+
+---
+
+## 28. ⭐ İYON ADALARI PAKETİ — YAMACI uygular, tek commit
+
+Merkez #4 · #5 · #6 · #17'yi onayladı. **`data/`ya ben yazmadım.**
+
+### 28.0 🔬 #5 ölçüldü — `tocco` rengi GEREKMİYOR, iş tek kayda indi
+
+Merkezin sorduğu ölçüm: `tocco` kimliği `renkler.py`'de **YOK** (114 kimlik).
+**Ama gerek de yok** — çünkü:
+
+> **Kefalonya, İthaki ve Zaklise 1479 öncesi için ZATEN `napoli` taşıyor.**
+> Dört adadan yalnız **Ayamavra** `venedik` yazıyor.
+
+`napoli` paletde var (`"napoli": ("Napoli / İki Sicilya", "#a67ba0")`) ve Tocco
+düklüğü zaten onunla temsil ediliyor. Yani #5 **yeni renk istemiyor, dört kayıt
+da değil — tek kayıtta tek alan.** Ayamavra kardeşleriyle hizalanıyor.
+
+⇒ **#5 renge bağlı değil, VERİ KİMLİK'ten beşinci renk istemeye gerek yok,
+#4 ile aynı turda gidebilir.**
+
+### 28.1 Dört ada — `1479-01-25` → `1479-08-01` (+ Ayamavra'nın kimliği)
+
+⚠️ **HER KAYITTA İKİ EŞLEŞME** — `s:` döneminin **bitişi** ve `d:` döneminin
+**başı**. `CLAUDE.md §11`: `replace(…, 1)` yalnız ilkini değiştirir ve üç aylık
+sahipsiz pencere açar. Bugün İsmail'de ikisi birlikte değiştirildiği için sorun
+çıkmadı; burada da öyle olmalı. **8 eşleşme = 4 kayıt × 2.**
+
+| Kayıt | Satır | Değişecek |
+|---|---|---|
+| **Ayamavra (Lefkada)** | 1013 | `s:` **`t:"1479-01-25"→"1479-08-01"`** ve **`d:"venedik"→"napoli"`** · `d:` `f:"1479-01-25"→"1479-08-01"` |
+| **Kefalonya** | 1199 | `s:` `t:` · `d:` `f:` — kimlik zaten `napoli` |
+| **İthaki** | 1200 | aynı |
+| **Zaklise (Zakynthos)** | 1201 | aynı |
+
+Ayamavra'nın düzeltilmiş hâli:
+```js
+{ ad:"Ayamavra (Lefkada)", tur:"kale", lat:38.716, lon:20.643, g:0, k:4, m:"Yanya", s:[{f:"1281-01-01",t:"1479-08-01",d:"napoli"},{f:"1684-08-06",t:"1923-10-29",d:"venedik"}], d:[{f:"1479-08-01",t:"1684-08-06"}] },
+```
+📌 1684 sonrası `venedik` **doğru ve değişmiyor** — Venedik Lefkada'yı 1684'te aldı.
+
+**DOKUNULMAYACAK dört kayıt:** İşkodra · Limni · Sisam · **Bozbaba (Ay Strati)**.
+Bunlar gerçekten 25 Ocak 1479 İstanbul Antlaşması'na aittir ve maddeleri yerinde.
+
+**Değişmez 2:** `1479-08-01` → A-1 maddesi *"İyon adalarının fethi — Tocco
+düklüğünün sonu"* (0 gün) · `1479-01-25` → mevcut madde, kalan dört kayıt için
+geçerliliğini koruyor. **Yeni madde gerekmiyor.**
+**Değişmez 1:** iki eşleşme birlikte taşındığı sürece zincirler kesintisiz.
+Uygulamadan sonra koşturulmalı.
+
+### 28.2 #6 — `1479-01-25` maddesinin son cümlesi
+
+`olaylar_ek.js`, *"İstanbul Antlaşması — Arnavutluk ve İşkodra"*:
+
+| | |
+|---|---|
+| **Şimdi** | *"Aynı tarihte haritaya katılan diğer yerleşimler: Limni, Sisam, **Ayamavra (Lefkada)**."* |
+| **Olmalı** | *"Aynı tarihte haritaya katılan diğer yerleşimler: Limni, Sisam, **Bozbaba (Ay Strati)**."* |
+
+Ayamavra çıkıyor (artık 1479-08-01'e ait), **Bozbaba giriyor** — o gerçekten
+25 Ocak'a ait ama cümlede hiç sayılmamış.
+
+### 28.3 #17 — Sapienza maddesi: SADELEŞTİR, ayırma
+
+Merkezin hükmü uygulandı — üçüncü bir madde üretilmiyor, **yanlış olan kısım
+çıkarılıyor.** `olaylar_ek5.js`, `t:"1499-08-28"`:
+
+| Alan | Şimdi | Olmalı |
+|---|---|---|
+| `b:` | Sapienza deniz zaferi **ve İnebahtı'nın fethi** | **Sapienza (Zonchio) Deniz Zaferi — Akdeniz'de ilk büyük donanma başarısı** |
+| `gun:` | 12-25 Ağustos 1499 (Sapienza) – **28 Ağustos 1499 (İnebahtı)** | **12-25 Ağustos 1499** |
+| `yer:` | Sapienza açıkları **– İnebahtı (Lepanto), Mora** | **Sapienza (Zonchio) açıkları, Mora'nın güneybatısı** |
+| `kisiler:` | II. Bayezid, Kemal Reis, **Rumeli Beylerbeyi Mustafa Paşa** | **II. Bayezid, Kemal Reis** |
+| `kaynak:` | `inebahti` | 🟡 artık İnebahtı anlatılmadığı için gözden geçirilmeli |
+| `d:` | İnebahtı'nın teslimini anlatan cümle | o cümle çıkarılsın; kalan Sapienza anlatımı yeterli |
+
+**İnebahtı'yı B-3 karşılıyor:** `1499-08-26`, TDV `inebahti`'nin verdiği gün,
+`olaylar_ek10.js`.
+
+✅ **Risk ölçüldü: `1499-08-28`'i hiçbir yerleşim taşımıyor** (0 eşleşme) — İsmail'de
+karşılaşılan engelin burada karşılığı yok, metin serbestçe düzeltilebilir.
+
+### 28.4 Uygulama sonrası
+
+```bash
+py arac/denetle.py
+```
+Beklenen: `Değişmez 1` ve `Değişmez 2` değişmeden temiz; `BEKLENEN_YERLESIM`
+**değişmiyor** (yeni nokta yok, yalnız tarih ve kimlik düzeltmesi).
+
+---
+
+## 29. YER DİZİNİ'nin havale ettiği 17 eksik nokta — ayıklama ve ilk paket
+
+VERİ KRONOLOJİ 2 (U4), kronoloji `yer:` alanlarını `yerlesimler*.js`'e karşı
+tarayıp Balkan bölgesinde **kaydı olmayan 17 yer adı** çıkardı. Ölçtüm:
+
+| Durum | Sayı | Hangileri |
+|---|---|---|
+| ✅ Artık **VAR** | 1 | **Böğürdelen** — benim §19.5 paketim uygulandı, dört E maddesiyle birlikte |
+| 🟡 **Ad benzerliği tuzağı** | 1 | **Aydos** — `Aydos Kalesi` var ama **40.950K/29.250D**, yani Kartal-Sultanbeyli'deki Anadolu Aydos'u. Bulgaristan'ın Aydos'u (Aytos, ~42.70K/27.25D) gerçekten YOK |
+| 🔴 Gerçekten eksik | **15** | aşağıda |
+
+📌 **Aydos vakası kayda değer:** `grep 'Aydos'` "var" der, koordinat "yok" der.
+Bugünkü ders listesine bir madde daha: **ad eşleşmesi kimlik kanıtı değildir.**
+
+### 29.1 🔴 KENDİ HATAM — §15.4'te Yergöğü'nü var sanmışım
+
+§15.4'te "kasten alınmayan noktalar" tablosunda şöyle yazmıştım:
+
+> *"**Yergöğü · Turnu · İbrail** — Bunlar **gerçekten doğrudan Osmanlı**. …
+> Kırmızı kalmaları doğru."*
+
+**Hüküm doğru ama tablo yanlış yerde.** İbrail'in kaydı **var** (satır 331);
+**Yergöğü ve Turnu'nun kaydı YOK.** Yani onları "zaten var, dokunmayın" diye
+işaretlemişim — oysa haritada Yergöğü'nün kırmızısı kendi noktasından değil,
+Niğbolu/Rusçuk peteğine **emilmesinden** geliyor. Doğru olması tesadüf.
+
+⇒ Bu, §12'de Eflak için tespit ettiğim emilme sorununun **aynı tabloda gözden
+kaçmış hâli.** Aşağıdaki paket onu kapatıyor.
+
+### 29.2 ⭐ YERGÖĞÜ PAKETİ — TDV `yergogu`, tarih tarih
+
+| Tarih | TDV'nin ifadesi |
+|---|---|
+| Kale Eflak'ın | *"Asıl Eflak toprağındaki büyük kale … Eflak Voyvodası I. Mircea tarafından yaptırıldı"* |
+| **1420** | *"Bu kale son araştırmalara göre 1417'de değil **1420**'de Osmanlılar'ca ele geçirildi. Dobruca da aynı yılda Osmanlı topraklarına katıldı. Ayrıca … **Turnu** (Kule/Holovnik) ve **Orşova (daha sonra Fethülislâm)** ilhak edildi"* |
+| **1427** | *"1427'de Eflaklılar Giurgiu Kalesi'ni geri aldı"* |
+| **1449** | *"853'te (**1449**) burası tekrar Osmanlı kontrolü altına girdi"* |
+| **27 Eylül 1810** | *"Yergöğü **27 Eylül 1810**'da Ruslar'ın eline geçti"* |
+| **1829** | *"Edirne Antlaşması'na göre … **İbrâil ve Kule/Turnu ile** Eflak Prensliği'ne bırakıldı"* |
+
+```js
+{ ad:"Yergöğü (Giurgiu)", tur:"kale", lat:43.904, lon:25.970, g:0, k:4, m:"Sofya", s:[{f:"1281-01-01",t:"1420-01-01",d:"eflak"},{f:"1427-01-01",t:"1449-01-01",d:"eflak"},{f:"1810-09-27",t:"1829-09-14",d:"rusya"},{f:"1829-09-14",t:"1923-10-29",d:"romanya"}], d:[{f:"1420-01-01",t:"1427-01-01"},{f:"1449-01-01",t:"1810-09-27",y:"savas"}] },
+```
+
+**Değişmez 2 — beş kırılmanın DÖRDÜ zaten karşılı:**
+
+| Kırılma | Madde | Mesafe |
+|---|---|---|
+| `1420-01-01` | 🔴 **YOK** — en yakın 365 gün | **E-5 gerekiyor** |
+| `1427-01-01` | *"Tâceddinoğulları Beyliği'nin ilhakı: Niksar"* | 0 gün 🟡 konusu alâkasız ama geçiyor |
+| `1449-01-01` | *"Epir kıyısının katılışı: Arta ve Preveze"* | 0 gün 🟡 aynı |
+| `1810-09-27` | *"**Rusçuk'un teslimi** — Tuna'nın güney kıyısı da elden çıktı"* | **1 gün** ✅ konusu tam yerinde |
+| `1829-09-14` | *"Edirne Antlaşması"* | 0 gün ✅ |
+
+**Tek yeni madde gerekiyor (E-5, `1420-01-01`)** ve TDV onu dolduracak malzemeyi
+veriyor: 1420'de Yergöğü, **Dobruca**, **Turnu** ve **Orşova/Fethülislâm** birlikte
+ilhak edilmiş — yani Çelebi Mehmed devrinin Aşağı Tuna konsolidasyonu. Ölçtüm:
+**1419-12 ile 1420-12 arasında hiçbir `d:`/`v:` kırılması yok**, bu yıl haritada
+tamamen sessiz.
+
+⚠️ **SIRALAMA KISITI — Böğürdelen/Podgorica ile aynı.** Kayıt ve E-5 **aynı
+adımda**. Madde bu belgede duruyor, `olaylar_ek10.js`'te değil.
+
+**E-5'in tam metni — tek nüsha burada:**
+
+```js
+{ t:"1420-01-01", k:"fetih", etiket:["toprak-kazanc","idare"],
+  b:"Aşağı Tuna'nın kapanması — Yergöğü, Turnu, Orşova ve Dobruca'nın ilhakı",
+  gun:"1420", yer:"Yergöğü (Giurgiu), Turnu (Kule), Orşova (Fethülislâm), Dobruca",
+  kisiler:"Çelebi Sultan Mehmed, Eflak Voyvodası I. Mircea (ö. 1418)",
+  d:"Fetret devri kapandıktan sonra Çelebi Mehmed'in Tuna hattını düzene sokma hamlesi 1420'de meyvesini verdi. Eflak Voyvodası Koca Mircea'nın kendi toprağı üzerinde, masrafını tuz satışıyla karşılayarak yaptırdığı Yergöğü Kalesi bu yıl Osmanlı eline geçti; aynı yıl Dobruca da Osmanlı topraklarına katıldı ve Tuna'nın sağ kıyısındaki Turnu (Kule/Holovnik) ile Orşova — sonraki adıyla Fethülislâm — ilhak edildi. Böylece nehrin iki yakası birden denetim altına alınmış oldu. Yergöğü'nün önemi coğrafyasındandır: Tuna'nın sol, yani Eflak yakasında kurulmuş bir Osmanlı kalesidir ve karşı kıyıdaki Rusçuk ile aynı geçidin iki ucunu tutar. Osmanlı belgeleri bu ikiliği açıkça yazar — Rusçuk için 'Yergöğü beri yaka', Giurgiu için 'Yergöğü öte yaka' denir. Kale 1427'de Eflaklılar tarafından geri alınacak, 1449'da tekrar Osmanlı denetimine girecek ve Yergöğü kazası Niğbolu sancağına bağlanarak voyvodalık içinde doğrudan idare edilen bir ada hâline gelecekti. Haritada Eflak'ın Tuna boyunun neden koyu renk olduğunun cevabı burada başlar.",
+  kaynak:"yergogu" },
+```
+
+📌 Bu madde aynı zamanda §12'nin *"İkili renk ilkesi DOĞRU"* hükmünün kronolojik
+karşılığıdır — Eflak'ın Tuna kıyısındaki kazaların doğrudan idaresi bir istisna
+değil, 1420'den beri süren bir yapıdır.
+
+⚠️ **Rusçuk'a 5,3 km.** 3 km kuralını geçiyor ama yakın — ve **kasten öyle.** TDV:
+Osmanlı belgelerinde Rusçuk *"Yergöğü beri yaka"*, Giurgiu *"Yergöğü öte yaka"*
+diye geçiyor; ikisi Tuna'nın iki yakasında **aynı geçidin** iki ucu. Motor hücre
+sınırını nehir yatağına yasladığı için ikisi çatışmaz, **Tuna onları ayırır** —
+ve asıl istenen bu: sol yakadaki doğrudan Osmanlı kazası gerçek bir noktadan
+doğsun, emilmeden.
+
+🟡 **İki not:**
+- TDV *"Yergöğü kazası **Niğbolu** sancak beyliğine bağlı idi"* diyor. Ama Niğbolu
+  veride `k:3`, oysa `m:` bir **k1/k2** merkezine işaret etmeli — bu yüzden
+  `m:"Sofya"` yazdım (Niğbolu'nun kendi `m:`'i de Sofya). **#52**: Niğbolu bir
+  sancak merkeziyken `k:3` görünüyor; kademe değeri gözden geçirilmeli.
+- `1829-09-14` sonrası `romanya` yazdım çünkü **İbrail birebir öyle** — ikisi aynı
+  Edirne hükmünde geçiyor, farklı davranmaları tutarsızlık olur. Ama Romanya 1859
+  öncesinde **yok**; **#53**: İbrail ve Yergöğü'nün 1829-1859 arası `eflak` olması
+  gerekir. İkisi birlikte düzeltilmeli, ayrı ayrı değil.
+
+### 29.3 Kalan 14 nokta — ayıklama, tek turda yapılmaz
+
+| Öbek | Noktalar | Durum |
+|---|---|---|
+| **A. TDV tarihi ELDE, hazırlanabilir** | **Turnu** · **Fethülislâm (Orşova)** | 🟢 `yergogu` maddesi ikisinin de 1420 ilhakını veriyor — §23'te "kaynak yok" dediğim Fethülislâm **kısmen çözüldü**. Sonraki zincirleri (Avusturya işgalleri, 1867 garnizonu) hâlâ araştırma istiyor |
+| **B. Antlaşma yerleri** | Karlofça · Pasarofça · Ziştovi · Küçük Kaynarca · Vasvár · Bucaş | 🟡 Her birinin maddesi zaten var (antlaşma maddeleri), yani **Değişmez 2 tarafı kolay**; zorluk zincirin kendisi. Ziştovi ve Pasarofça Tuna/Morava hattında, coğrafî değerleri yüksek |
+| **C. Savaş/kuşatma yerleri** | Güns (Kőszeg) · Kumanova · Missolonghi · Lugoş | 🟡 Missolonghi'nin maddesi var (`1826-04-22`), Kumanova Balkan Savaşı'nda geçiyor |
+| **D. Yerleşim, savaş dışı** | Aydos (Aytos) · Yanbolu (Yambol) · Leş (Lezhë) | 🟡 Bulgaristan ve Arnavutluk iç noktaları — nokta yoğunluğu açısından faydalı |
+
+📌 **Dürüst tahmin: 14 nokta × (TDV taraması + zincir + kırılma ölçümü) bir oturumun
+işi, bir turun değil.** Yergöğü'nü seçtim çünkü (1) kendi hatamı düzeltiyor,
+(2) kaynağı elimdeydi, (3) az önce teslim ettiğim Eflak paketinin eksik ayağı.
+Sırayı merkez versin; A öbeği en ucuz, B en yüksek görünürlükte.
+
+---
+
+## 30. ANTLAŞMA YERLERİ — U4'ün uyarısı doğru ama risk TERS yönde
+
+VERİ KRONOLOJİ 2, ARABİSTAN'ın (A5) Kevkebân vakasını aktardı: *madde 1567 diyor,
+TDV alınışı 1569 veriyor → nokta eklenirse Değişmez 2 açık verir.* Uyarı yerinde.
+**Ama antlaşma yerlerinde asıl risk bu değil.** Karlofça'yı ölçtüm.
+
+### Karlofça — üç ayrı tarih, üçü de farklı
+
+TDV `karlofca` (canlı):
+
+| Olay | Tarih | TDV'nin ifadesi |
+|---|---|---|
+| **Osmanlı'nın alışı** | **Ağustos 1521** | *"Belgrad'ın 927 Ramazanında (Ağustos 1521) Osmanlılar'ca fethi sırasında Sirem bölgesinin diğer kaleleriyle birlikte ele geçirildi"* |
+| **Fiilen elden çıkışı** | **1687** | *"1687'de Karlofça Avusturyalılar'ın eline geçti. Böylece **Osmanlı hâkimiyeti dönemi sona ermiş oldu**"* |
+| **Antlaşmanın imzası** | **26 Ocak 1699** | *"1110'da (1699) burada yapılan antlaşma ile de **resmen** Avusturya'ya terkedildi"* |
+
+⇒ **Yer, antlaşmadan on iki yıl önce el değiştirmiş.** 1699'a kırılma yazmak,
+zaten Avusturya'da olan bir kasabayı ikinci kez kaybettirmek olur.
+
+### Kural — antlaşma yerinde ÜÇ tarih ayrılmalı
+
+| Ne | Haritadaki karşılığı |
+|---|---|
+| **1. Antlaşmanın imzalandığı gün** | **HİÇBİRİ.** Bu bir kronoloji olayıdır, toprak değişimi değil. Karlofça'da imza atılmış olması Karlofça'yı el değiştirmiş yapmaz |
+| **2. Yerin fiilen el değiştirdiği gün** | 🔴 **Kırılma budur** — Karlofça'da 1687 |
+| **3. Değişimin resmîleştiği gün** | Genellikle antlaşma. Fiilî tarihle arası **yıllar** olabilir |
+
+📌 A5'in uyarısı **2 ile 3 arasındaki farkı** anlatıyor (Kevkebân'da iki yıl).
+Antlaşma yerlerinde ek olarak **1 ile 2 arasındaki fark** var ve o daha büyük:
+Karlofça'da on iki yıl, üstelik **ters yönde** — imza günü, yerin çoktan
+kaybedilmiş olduğu gündür.
+
+⚠️ **Sonuç: antlaşma yerine nokta eklerken antlaşmanın tarihine BAKMA.** O yerin
+kendi maddesini oku ve fiilî el değiştirme gününü ara. Karlofça'nın maddesi
+antlaşmayı anlatan bölümle şehri anlatan bölümü zaten ayırmış (madde iki bölümlü).
+
+📌 Bu, projede zaten tanıdık bir sınıf: §10'da Yanova'nın kaybı veride
+`1693-01-01` yazılıyken TDV **27 Mayıs 1693** diyordu; §9'da Hotin'in doğrudan
+idareye geçişi 1713 Edirne Antlaşması'na bağlıydı ama fiilî kopuş 1711 Prut
+seferiyle başlamıştı. **De facto ile de jure ayrımı bu projenin tekrar eden
+kusur ailesidir.**
+
+### Yan kazanç — Karlofça artık ucuz
+
+Zincirin iki ucu da kaynaklı çıktı: `d:` **1521-08** → **1687**, sonra
+`s:"avusturya"`. Yani §29.3'te "B öbeği pahalı" diye tahmin etmiştim, **Karlofça
+için yanlış** — TDV maddesi hem alınışı hem kaybı veriyor. Diğer beş antlaşma
+yerinin de kendi maddesi olup olmadığına bakmak gerekiyor; `zistovi`, `pasarofca`,
+`pozarevac`, `kucuk-kaynarca`, `vasvar` künyelerinin **beşi de ÖLÜ** çıktı, yani
+onlar için aynı şans yok.
+
+---
+
+## 31. HOMONİM TARAMASI — U4'ün "büyük ek iş" dediği şeyin ölçülebilir kısmı
+
+U4, `yer:` eşleştiricisinin yalnız dizge baktığını, koordinat doğrulamadığını
+söyledi ve tam taramayı ertelemişti. **Ucuz kısmını ölçtüm.**
+
+### 31.1 Sayılar
+
+| | |
+|---|---|
+| Benzersiz `yer:` parçası | **920** |
+| **TAM** eşleşen | 421 |
+| **ÖNEK/superstring** eşleşen | **119** ← Aydos bu sınıfta |
+| Hiç eşleşmeyen | 380 |
+
+### 31.2 🟢 "Belirsiz ad" sınıfı KÜÇÜK — dörtte biri gerçek
+
+Bütün korpusta aynı ada sahip **yalnız 4 kayıt öbeği** var:
+
+| Ad | Kayıtlar | Gerçek risk? |
+|---|---|---|
+| **Yenişehir** | Yenişehir (Bursa) · Yenişehir (Larissa) | 🔴 **EVET — 621 km.** İkisi de yerleşik bölgede, ikisi de olaylarda geçiyor |
+| Kordofan | Kordofan (Ubeyyid) · Kordofan | 🟡 80 km, aynı bölge — pratikte zararsız |
+| Sire | Sire (Syros) · Şire | 🟡 farklı yazım, katı eşleştirici çakıştırmaz |
+| Üstyurt platosu | batı · doğu | 🟢 kasıtlı ikili |
+
+⇒ **U4'ün korktuğu "listelerimde başka homonim tuzakları olabilir" endişesi
+ölçülünce küçüldü: kayıt tarafında tek gerçek vaka Yenişehir.**
+
+### 31.3 ÖNEK SINIFI — 119 eşleşme
+
+> ⚠️ **DÜZELTME (U4'ün sınamasından sonra).** Aşağıdaki beş vakayı "U4'ün
+> listelerindeki tehlike" diye sundum. **Yanlıştı.** U4 beşini de kendi kodunda
+> sınadı: Aydos, Açe, Dara ve Baranya **hiç eşleşmiyor**, Eğriboz **doğru**
+> eşleşiyor. Sebebi de tesadüf değil — U4'ün eşleştiricisi **tek yönlü ve
+> kelime-sınırlı**: "bilinen ad, sorgunun İÇİNDE geçiyor mu" diye soruyor.
+> Benim beş vakam ise hep **ters yöndeydi** (kayıt, sorgunun önünde). O yön
+> onların kodunda hiç denenmiyor.
+>
+> ⇒ **Ölçtüğüm şey, U4'ün boru hattındaki risk değil; kendi yazdığım
+> eşleştiricinin riskiydi.** Aşağısı bir *tasarım uyarısı* olarak duruyor —
+> "çift yönlü önek eşleştirmesi kurulursa bu beş vaka patlar" — canlı bir kusur
+> listesi olarak değil.
+>
+> 📌 Kendi payıma ders: **bir aracı ölçerken, ölçtüğüm aracın ölçülmek istenen
+> araç olduğunu doğrulamadım.** Bugünkü "sayıyı hangi durumdan geldiğini
+> doğrulamadan kullanma" hatasının üçüncü biçimi.
+
+Çoğu eşleşme **zararsız nitelemedir** (*"Ankara önleri"* → Ankara,
+*"Belgrad çevresi"* → Belgrad, *"Edirne yakını"* → Edirne). Çift yönlü bir
+eşleştirici kurulursa **kimliği değiştirecek** olanlar şunlar:
+
+| `yer:` değeri | Eşleştiği kayıt | Hata |
+|---|---|---|
+| **Aydos** | Aydos Kalesi | 🔴 Bulgaristan ↔ **Kartal**, ~1400 km |
+| **Açe (Sumatra)** | Aseb | 🔴 Sumatra ↔ **Eritre**, ~6000 km |
+| **Dara** | Dârâb | 🔴 Mezopotamya ↔ **İran** |
+| **Baranya** | Bar (Podolya) / Bâra | 🔴 Macaristan ↔ **Ukrayna** |
+| **Eğriboz adası** | Eğriboz **veya Eğri** | 🔴 Eğri seçilirse Ege ↔ **Macaristan** |
+
+📌 **Ayırt edici desen:** tehlikeli olanlar, sorgunun kayıttan **kısa** olduğu ve
+kaydın eklediği kelimenin **kimliği değiştirdiği** hâller (`Aydos` → `Aydos
+Kalesi`), ya da normalizasyonun fazla agresif olup **farklı adları çakıştırdığı**
+hâller (`Açe`→`Aseb`, `Dara`→`Dârâb`). Zararsız olanlar tersidir: kayıt kısadır,
+sorgu ona bir niteleme ekler.
+
+### 31.4 ❌ İŞE YARAMAYAN SEZGİ — kaydedilsin ki tekrar denenmesin
+
+Şunu denedim: *"bir maddenin `yer:` alanındaki değerler birbirinden çok uzağa
+çözülüyorsa biri yanlış eşleşmiştir."* **Çalışmıyor.** 900 km eşiğiyle 15 madde
+çıktı ve **on beşi de meşru**:
+
+```
+Kahire – İstanbul (1236 km)   Londra, Paris, Viyana (1274 km)
+Şam – Medine (1058 km)        İstanbul – Venedik (1480 km)
+```
+
+Diplomatik olaylar doğası gereği iki başkenti birden anar. **Yayılım homonim
+sinyali değildir.** Üstelik Aydos'u da yakalamazdı — o tek değerli bir `yer:`,
+karşılaştırılacak ikinci nokta yok.
+
+⇒ **Ucuz ve işe yarayan iki sınama:** (1) ad **birden fazla** kayda çözülüyor mu,
+(2) eşleşme **tam mı, önek mi**. İkisi de koordinat gerektirmiyor. Anlamsal
+yanlışlık (sözdizimsel olarak tek, coğrafî olarak yanlış) için ucuz bir sınama
+**yok** — orada okumak gerekiyor.
+
+### 31.5 Turdan geriye ne kaldı — üç sonuç, biri düzeltilmiş
+
+| Bulgu | Durum |
+|---|---|
+| **Aydos gerçekten eksik** — `Aydos Kalesi` var ama Kartal'daki, Bulgaristan'ınki yok | ✅ **AYAKTA.** U4'ün "eksik" damgası doğruymuş; benim katkım *neden* göründüğü kadar basit olmadığını göstermek oldu |
+| **Yenişehir tek gerçek homonim** (Bursa ↔ Larissa, 621 km) | ✅ ayakta, eşleştiriciden bağımsız — iki kayıt gerçekten aynı adı taşıyor |
+| **900 km yayılım sezgisi çalışmıyor** (15/15 meşru) | ✅ ayakta, negatif sonuç olarak değerli |
+| ~~Beş tehlikeli önek vakası~~ | 🔴 **DÜZELTİLDİ** — U4'ün kodunda yok, benimkinde vardı (§31.3) |
+
+📌 U4'ün kendi teşhisi de kayda değer: tek yönlü eşleştirici, ters yöndeki gerçek
+çözümleri **kaçırma** pahasına yanlış eşleşmeden korunuyor — yani hata yönü
+`§7.2`'nin tercih ettiği yönde: *eksik alan, yanlış alandan iyidir.*
+
+---
+
+## 32. ⭐ BOSNA — A BLOĞU (dört TDV'li şehir) · YAMACI uygular
+
+Merkez A+B'yi onayladı. **`data/`ya ben yazmadım.**
+
+### 32.1 ⚠️ ÖNCE BİR TAHMİN DÜZELTMESİ
+
+Merkeze *"A bloğu ortancayı ~72'den ~45 km'ye indirir"* demiştim. **Ölçtüm, yanlış:**
+
+```
+BUGÜN             4 nokta | ortanca 72.1 km
+A bloğu sonrası   8 nokta | ortanca 62.5 km    ← 45 değil
+```
+
+Sebep: nokta sayısı ikiye katlanıyor ama dördü kutunun **farklı köşelerine**
+dağılıyor; ortanca ancak kümelenme olunca hızlı düşer. **Gerçek sıçrama C
+bloğunda** — TDV'siz altı şehir iç Bosna'yı dolduruyor.
+📌 Önceki tahminim on şehirlik kümenin simülasyonundan geliyordu; dördünü ayırıp
+yeniden ölçmedim. Bugünkü hata ailesinin bir biçimi daha: **alt kümenin
+davranışını üst kümeden çıkarsamak.**
+
+### 32.2 Dört kayıt
+
+3 km kuralı rahat geçiliyor — en yakın komşular: Travnik 68,5 km · İzvornik 61,9 ·
+Foça 48,8 · Livno 63,1.
+
+```js
+{ ad:"Travnik", tur:"kale", lat:44.226, lon:17.665, g:0, k:3, m:"Saraybosna", s:[{f:"1281-01-01",t:"1463-06-01",d:"bosna"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"sirbistan"}], d:[{f:"1463-06-01",t:"1908-10-05",y:"savas"}], isg:[{f:"1878-07-29",t:"1908-10-05",d:"avusturya",kaynak:"berlin-antlasmasi"}] },
+{ ad:"İzvornik (Zvornik)", tur:"kale", lat:44.386, lon:19.103, g:0, k:3, m:"Saraybosna", s:[{f:"1281-01-01",t:"1460-01-01",d:"bosna"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"sirbistan"}], d:[{f:"1460-01-01",t:"1908-10-05"}], isg:[{f:"1878-07-29",t:"1908-10-05",d:"avusturya",kaynak:"berlin-antlasmasi"}] },
+{ ad:"Foça (Foča)", tur:"sehir", lat:43.506, lon:18.779, g:0, k:3, m:"Saraybosna", s:[{f:"1281-01-01",t:"1465-01-01",d:"bosna"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"sirbistan"}], d:[{f:"1465-01-01",t:"1908-10-05"}], isg:[{f:"1878-07-29",t:"1908-10-05",d:"avusturya",kaynak:"berlin-antlasmasi"}] },
+{ ad:"Livno (İhlevne)", tur:"kale", lat:43.827, lon:17.008, g:0, k:4, m:"Saraybosna", s:[{f:"1281-01-01",t:"1469-01-01",d:"bosna"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"sirbistan"}], d:[{f:"1469-01-01",t:"1908-10-05"}], isg:[{f:"1878-07-29",t:"1908-10-05",d:"avusturya",kaynak:"berlin-antlasmasi"}] },
+```
+
+Dördü de Saraybosna'nın 1878/1908/1918 kuyruğunu **birebir** taşıyor — `isg:`
+işgal deseni dâhil — ki Bosna gövdesi tek parça davransın.
+
+### 32.3 Tarihlerin dayanağı
+
+| Nokta | Tarih | TDV |
+|---|---|---|
+| **İzvornik** | **1460** | `izvornik`: *"Osmanlılar burayı **1460**'ta fethettiler… 1480'de aynı adlı sancağın merkezi oldu"* |
+| **Travnik** | **1463-06-01** | `travnik`: *"Travnik adı ilk defa **1463**'te Fâtih Sultan Mehmed'in **Bosna seferiyle** ilgili olarak zikredilir. O zamanlar Travnik … küçük bir kaleydi"* → kale sefer sırasında mevcut, Saraybosna ile aynı gün |
+| **Foça** | **1465** | `foca`: *"Buranın Osmanlı idaresine geçişi **1465**'te gerçekleşmiştir"* |
+| **Livno** | **1469** | `livno`: *"Kesin Osmanlı hâkimiyeti büyük bir ihtimalle **1468-1469**'da gerçekleşti"* |
+
+🟡 **Livno'nun tarihi ARALIKLI.** Aralığın **sonunu** aldım çünkü TDV *"kesin
+hâkimiyet"* diyor — 1468'de henüz kesin değil. `gun:` alanında aralık yazılı.
+🟡 TDV ayrıca Livno'nun **1463'te kısa süre işgal edilip aynı yıl geri alındığını**
+söylüyor ama gün vermiyor. **Modellemedim**, iki kırılma daha açardı; not düşüldü.
+
+### 32.4 🔴 İki kırılmanın maddesi YOK — E-6 ve E-7
+
+| Kırılma | Durum |
+|---|---|
+| `1460-01-01` | ✅ 0 gün — *"Batı Karadeniz kıyısının alınışı: Amasra"* 🟡 konusu alâkasız ama geçiyor |
+| `1463-06-01` | ✅ **tam yerinde** — *"Bosna'nın fethi"* |
+| `1465-01-01` | 🔴 **YOK**, en yakın 365 gün → **E-6** |
+| `1469-01-01` | 🔴 **YOK**, en yakın 275 gün → **E-7** |
+| `1878-07-29` · `1908-10-05` · `1918-11-11` | ✅ Saraybosna zaten kullanıyor |
+
+⚠️ **Sıralama kısıtı** — kayıtlar ve E-6/E-7 **aynı adımda**.
+
+```js
+{ t:"1465-01-01", k:"fetih", etiket:["toprak-kazanc","idare"],
+  b:"Foça'nın alınışı — Hersek Düklüğü'ne ilk girişin açılması",
+  gun:"1465", yer:"Foça (Foča), Drina vadisi, Hersek",
+  kisiler:"Fatih Sultan Mehmed, Hersek Dükü Stjepan Vukçiç-Kosaça",
+  d:"Bosna Krallığı 1463'te ortadan kaldırıldıktan sonra sıra, krallıktan ayrılıp kendi düklüğünü kuran Stjepan Vukçiç-Kosaça'nın topraklarına geldi. Drina vadisinde, İstanbul'u Dubrovnik'e bağlayan ticaret yolunun kavşağında bulunan Foça 1465'te Osmanlı idaresine girdi. Şehrin önemi hemen anlaşıldı: 1470'te yeni teşkil edilen Hersek sancağının merkezi yapıldı — yani Hersek'in idarî çekirdeği, düklüğün kendisi daha yıkılmadan Foça'da kuruldu. Düklüğün tamamının ilhakı 1483'e kadar sürecekti. Foça bundan sonra elverişli iklimi ve yol kavşağındaki konumu sayesinde bir ticaret ve idare merkezi olarak gelişti. Haritada bu tarih, Bosna'nın fethinden sonra güneye doğru ikinci dalganın başladığı gündür.",
+  kaynak:"foca" },
+
+{ t:"1469-01-01", k:"fetih", etiket:["toprak-kazanc"],
+  b:"Livno ve batı Bosna'nın kesin ilhakı — Venedik sınırının kurulması",
+  gun:"1468-1469 (TDV kesin gün vermiyor)", yer:"Livno (İhlevne), Livno ovası, batı Bosna",
+  kisiler:"Fatih Sultan Mehmed, Ivaniš Vlatković",
+  d:"Livno ovasına hâkim plato üzerindeki kale, 1448-1454 arasında Hersek Düklüğü'nün kurucusu Stjepan Vukçiç-Kosaça'nın elindeydi. 1463 Bosna seferinde kısa bir süre Osmanlı kuvvetlerince işgal edilmiş, ancak aynı yıl geri alınmıştı; 1466'da şehrin hâkimi Ivaniš Vlatković'tir. TDV'nin ifadesiyle kesin Osmanlı hâkimiyeti büyük bir ihtimalle 1468-1469'da gerçekleşti ve 1485 tahriri Livno'yu artık Osmanlı toprağı olarak kaydeder. Bu, Bosna fethinin batı ucunun kapanmasıdır: Livno, düz ova boyunca yalnız otuz altı kilometre ötedeki Venedik topraklarına komşu, tehlikeli bir sınır kasabası hâline geldi ve bu konumunu 1521-1522'de Bosna Valisi Gazi Hüsrev Bey'in Venedik kalelerini almasına kadar korudu.",
+  kaynak:"livno" },
+```
+
+### 32.5 B bloğu — Hersek delili yazıldı, kimlik bekliyor
+
+Merkezin talimatına uyuldu, **ama dört kayıtta da `bosna` yazmak zorunda kaldım:**
+
+| Nokta | Gerçek 1463 öncesi sahibi | Yazılan | Neden |
+|---|---|---|---|
+| Travnik · İzvornik | Bosna Krallığı | `bosna` | ✅ doğru |
+| **Foça** | **Hersek Düklüğü** (Kosaça) | `bosna` | 🔴 geçici — `hersek` rengi yok |
+| **Livno** | **Hersek Düklüğü** | `bosna` | 🔴 geçici |
+| **Mostar** (mevcut) | **Hersek Düklüğü** | `bosna` | 🔴 geçici — merkezin işaret ettiği kayıt |
+
+🎁 **Delil TDV `foca`'da ve doğrudan:** *"**1470**'te Foça yeni teşkil edilen
+**Hersek sancağının merkezi** oldu."* Düklük 1483'te yıkılıyor ama sancak
+1470'te kuruluyor — Hersek, Bosna'dan **idarî olarak da** ayrı bir birim. Ayrıca
+`1483-01-01` maddesi zaten *"**Hersek'in ilhakı**"* adını taşıyor.
+
+⇒ **#54:** `renkler.py`'ye `hersek` girince **dört kayıtta** `bosna` → `hersek`
+(Foça · Livno · Mostar + C bloğundan gelenler). Tek turda yapılmalı.
+
+---
+
+## 34. BOSNA — C BLOĞU: TDV beklediğimden fazlasını verdi, ikisi de büyük
+
+C'yi *"TDV'siz altı şehir, standart akademik kaynakla"* diye planlamıştım.
+**İkisi TDV'de çıktı — ve ikincisi mevcut bir kaydın 15 yıl yanlış olduğunu
+gösteriyor.** Kalan dördü için TDV'de gerçekten hiçbir şey yok.
+
+### 34.1 🔴 YAYÇA (Jajce) 1463'te DEĞİL, 1528'de düştü
+
+TDV `bosna-hersek`, tek cümlede:
+> *"Srebrenik banatlığı **1512**'de, **Yayça ve Banaluka** ise Mohaç Zaferi
+> sonrasında (**1527 veya 1528**) ele geçirilebildi."*
+
+⇒ Bosna Krallığı 1463'te yıkıldı ama **kuzeyi altmış beş yıl daha Macar elinde
+kaldı** — Mátyás Corvin'in karşı taarruzuyla kurulan Yayça banatlığı. Haritada
+bugün bu hiç görünmüyor çünkü Yayça'nın noktası yok.
+
+🎁 **Kronoloji maddesi ZATEN VAR ve adı birebir doğru:**
+`1528-01-01` → *"**Kuzey Bosna'nın ilhakı: Yayça ve Banaluka**"*
+Yani madde Yayça'yı adıyla anıyor, harita göstermiyor. **Yeni madde gerekmiyor.**
+
+```js
+{ ad:"Yayça (Jajce)", tur:"kale", lat:44.342, lon:17.271, g:0, k:3, m:"Saraybosna", s:[{f:"1281-01-01",t:"1463-06-01",d:"bosna"},{f:"1463-06-01",t:"1528-01-01",d:"macaristan"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"sirbistan"}], d:[{f:"1528-01-01",t:"1908-10-05"}], isg:[{f:"1878-07-29",t:"1908-10-05",d:"avusturya",kaynak:"berlin-antlasmasi"}] },
+```
+
+Her iki kırılmanın da maddesi var: `1463-06-01` *"Bosna'nın fethi"* ·
+`1528-01-01` *"Kuzey Bosna'nın ilhakı"*. Travnik'e 33,8 km.
+
+🟡 **#55 — Banaluka'da aynı kusur.** Mevcut kayıt `s:"bosna"` 1281→1528 diyor,
+oysa TDV ikisini **aynı cümlede, aynı âkıbetle** anıyor: Banaluka da 1463-1528
+arası Macar banatlığındaydı. Yayça `macaristan` yazılıp Banaluka `bosna` kalırsa
+iki komşu kale aynı yıllarda **farklı renkte** görünür. İkisi birlikte düzeltilmeli.
+
+### 34.2 🔴 SARAYBOSNA 1463 DEĞİL, 1448 — mevcut kayıt 15 yıl geç
+
+TDV `saraybosna`:
+> *"Osmanlılar ilk olarak **1428-1435** yılları arasında … **Hodidjed** kasabasını
+> ele geçirdiler. **Hodidjed vilâyeti Saray ovası ile beraber 852'de (1448)
+> tamamen Osmanlı idaresi altına girdi.**"*
+
+Ve şehrin kendisi fetihten **önce** kurulmuş: *"**1462 yılından önce** burada
+Bosna sancak beyi İshak Bey veya oğlu Îsâ Bey tarafından ilk müslüman yerleşimi
+kuruldu"*; Hünkâr Camii **862 (1458)** tarihli.
+
+⇒ **Saraybosna'nın bulunduğu ova 1448'den beri Osmanlı.** Mevcut kayıt
+`d:{f:"1463-06-01"}` diyor — bu tarih **Bosna Krallığı'nın yıkılışına** aittir,
+bu şehre değil. Îsâ Bey'in uç beyliği olarak idare ettiği Saray ovası, çevresinde
+hâlâ tâbi Bosna beyleri varken Osmanlı toprağıydı.
+
+**Düzeltme (#56):** Saraybosna `d:` başı `1463-06-01` → **`1448-01-01`**,
+`s:"bosna"` bitişi de aynı (**iki eşleşme**, `CLAUDE.md §11`).
+🔴 **`1448-01-01`'in maddesi YOK** — en yakın 274 gün (*"II. Kosova Savaşı"*,
+`1448-10`). **E-8 gerekiyor**, kayıtla aynı adımda.
+
+```js
+{ t:"1448-01-01", k:"fetih", etiket:["toprak-kazanc","idare"],
+  b:"Saray ovasının ilhakı — Bosna içindeki Osmanlı ucunun kurulması",
+  gun:"1448", yer:"Hodidjed, Saray ovası (Vrhbosna), orta Bosna",
+  kisiler:"II. Murad, Üsküp beyi İshak Bey, oğlu Îsâ Bey",
+  d:"Bosna kralları 1428-1429'da haraca bağlandıktan sonra Osmanlılar krallığın içine doğru kalıcı biçimde yerleşmeye başladı. 1428-1435 arasında Hodidjed kasabası alındı; 852'de (1448) Hodidjed vilâyeti Saray ovasıyla birlikte tamamen Osmanlı idaresine girdi. Bu, Bosna'nın fethinden on beş yıl önce krallığın ortasında kurulmuş bir uç sahasıdır ve voyvoda unvanı taşıyan Üsküp beyi Îsâ Bey tarafından idare edilmiştir — çevresinde hâlâ Osmanlı'ya tâbi Bosna beyleri bulunduğu için bölge çift taraflı denetim altındaydı. Şehrin kendisi de bu dönemde doğdu: 1462'den önce İshak Bey ya da oğlu Îsâ Bey ilk müslüman mahallesini kurdu, 862'de (1458) Fâtih adına Hünkâr Camii yapıldı ve Brodec köyünün ekinliği imar edilerek Saray kasabası ortaya çıktı. 1463'teki fetih Bosna Krallığı'nı ortadan kaldırdı; Saray ovası ise o tarihte zaten on beş yıldır Osmanlı toprağıydı.",
+  kaynak:"saraybosna" },
+```
+
+### 34.3 Srebrenik 1512 — sourced ama madde gerektiriyor
+
+Aynı TDV cümlesi: *"**Srebrenik banatlığı 1512**'de … ele geçirilebildi."*
+⚠️ **Srebrenik ≠ Srebrenica** — ikisi ayrı yer, karıştırılmaya çok müsait.
+Srebrenik 44.705K / 18.489D, İzvornik'e 60 km.
+🔴 `1512-01-01`'in maddesi **YOK** (114 gün). İstenirse yazarım — ama Yayça ve
+Saraybosna kadar acil değil, kararı merkeze bırakıyorum.
+
+### 34.4 ❌ TDV'DE HİÇBİR ŞEY BULUNAMAYAN DÖRT ŞEHİR — atlandı, atlandığı yazıldı
+
+**Srebrenica · Tuzla · Bobovac · Visoko · Ključ** için TDV'de ne müstakil madde
+var ne de başka maddelerde fetih tarihi geçiyor. Denenen künyeler:
+`srebrenica` · `srebrenice` · `tuzla` · `bobovac` · `visoko` · `visoka` · `kljuc`
+· `tesanj` · `maglaj` · `gracanica` · `yenipazar` — **hepsi ölü.**
+`bosna-hersek`, `saraybosna` ve `izvornik` maddeleri Tuzla ve Gračanica'yı yalnız
+**XVI. yüzyıl sonrası** bağlamlarda anıyor, fetih tarihi vermiyor.
+
+⇒ **Merkezin kuralı gereği koymadım.** Bobovac özellikle değerli olurdu (Bosna
+Krallığı'nın son başkenti, 1463'te düşen ilk yer) ama tarihini de konumunu da
+TDV'den doğrulayamadım; standart akademik kaynak turu ayrı bir iş olarak açılmalı.
+
+### 34.5 Yoğunluk
+
+```
+BUGÜN         4 nokta | ortanca 72.1 km
+A bloğu       8 nokta | ortanca 62.5 km
+A + C         10 nokta | ortanca 52.8 km
+```
+Hedef 36 km'ye ulaşmıyor — çünkü C'nin altı şehri ikiye indi. Kalan yol
+TDV dışı kaynak gerektiriyor.
+
+---
+
+## 35. #53 — İbrail ve Yergöğü'nün `romanya` anakronizmi
+
+Merkez ⑥'da istedi. İki kayıt da Edirne Antlaşması'nın (1829) **aynı hükmünde**
+geçiyor — TDV `yergogu`: *"Edirne Antlaşması'na göre **İbrâil ve Kule/Turnu ile**
+Eflak Prensliği'ne bırakıldı."*
+
+🔴 **Ama ikisi de `1829-09-14`'ten itibaren `s:"romanya"` taşıyor** (Yergöğü
+paketinde ben de tutarlılık için öyle yazdım). **Romanya 1859'da kuruldu** —
+otuz yıllık anakronizm.
+
+**Düzeltme:** her iki kayıtta `1829-09-14 → 1923-10-29 romanya` dönemi ikiye
+bölünsün:
+```
+{f:"1829-09-14", t:"1859-01-24", d:"eflak"}      ← Edirne'nin bıraktığı yer: Eflak Prensliği
+{f:"1859-01-24", t:"1923-10-29", d:"romanya"}    ← Cuza'nın birleştirmesi
+```
+✅ **Yeni madde gerekmiyor:** `1859-01-24` maddesi var — *"Eflak ve Boğdan'ın
+Cuza yönetiminde birleşmesi: Romanya'nın doğuşu"*. `eflak` kimliği `BOYALAR`'da
+mevcut (Bükreş kullanıyor).
+📌 Yan fayda: bu düzeltmeyle **1859 birleşmesi haritada gerçekten görünür olur** —
+şu an İbrail ve Yergöğü o tarihte hiçbir şey yapmıyor.
+
+---
+
+## 36. ① "BOSNA'NIN FETHİ" MADDESİNİN BÖLÜNMESİ
+
+Mevcut madde (`olaylar_ek.js`, `1463-06-01`) şöyle diyor:
+> *"Bosna krallığı **bir seferde tasfiye edildi**… Aynı tarihte haritaya katılan
+> diğer yerleşimler: **Saraybosna**."*
+
+🔴 **İki cümlenin ikisi de artık yanlış.** Krallık bir seferde yıkıldı ama
+**Bosna'nın fethi seksen yıl sürdü**; ve Saraybosna 1463'te değil **1448**'de
+katılıyor (§34.2).
+
+### Beş maddelik zincir — üçü hazır, ikisi yazıldı
+
+| Tarih | Madde | Durum |
+|---|---|---|
+| **1448** | Saray ovasının ilhakı — Bosna içindeki Osmanlı ucu | **E-8**, §34.2'de yazıldı |
+| **1463-06-01** | Bosna Krallığı'nın yıkılışı | mevcut — **metni düzeltilmeli**, aşağıda |
+| **1465** | Foça — Hersek'e ilk giriş | **E-6**, §32.4 |
+| **1469** | Livno — batı ucun kapanması | **E-7**, §32.4 |
+| **1483-01-01** | Hersek'in ilhakı | ✅ mevcut ve iyi |
+| **1512** | Srebrenik banatlığı | **E-9**, aşağıda |
+| **1528-01-01** | Kuzey Bosna: Yayça ve Banaluka | ✅ mevcut ve iyi |
+
+⇒ Kullanıcının *"Bosna fethinde katılan topraklar ancak bu kadar mı, hangi
+şehirler katıldı ise ayrı ayrı söyleyelim"* sorusunun cevabı: **yedi tarih,
+seksen yıl.**
+
+### 36.1 `1463-06-01` maddesinin düzeltilmiş metni
+
+`b:` **"Bosna Krallığı'nın yıkılışı — Fâtih'in Bosna seferi"**
+`gun:` "1463 yazı" (değişmiyor) · `kaynak:` `bosna-hersek` (değişmiyor)
+
+```
+d:"Son Bosna kralı Stjepan Tomašević (1461-1463) Batı desteğine güvenerek haraç ödemeyi reddedince tâbi hükümdar olmaktan çıkmış sayıldı ve Fâtih Sultan Mehmed idaresindeki ordu Bosna Krallığı'nı bir seferde tasfiye etti. Kral yakalanıp idam edildi, krallık ortadan kalktı ve bölgede Bosna sancağı kuruldu. Ancak KRALLIĞIN yıkılışı BOSNA'NIN fethiyle aynı şey değildir. Osmanlı idaresi ovada zaten on beş yıldır vardı — Hodidjed ve Saray ovası 1448'de alınmış, Îsâ Bey'in uç beyliği krallığın ortasında kurulmuştu. Fetih 1463'te de bitmedi: Foça 1465'te, Livno 1469'da, Hersek Düklüğü 1483'te, Srebrenik banatlığı 1512'de, kuzeydeki Yayça ve Banaluka ise ancak Mohaç'tan sonra 1528'de alınabildi — Macarlar 1463'ten sonra Bosna'nın kuzeyinde altmış beş yıl tutunan bir banatlık kurmuştu. Bu tarihte doğrudan el değiştiren yer Travnik'tir; Yayça ise bu tarihte Osmanlı'ya değil Macaristan'a geçmiştir."
+```
+
+📌 Metin kullanıcının sorduğu ayrımı **maddenin kendi içinde** yapıyor: krallığın
+yıkılışı ≠ bölgenin fethi.
+
+### 36.2 E-9 — Srebrenik 1512
+
+```js
+{ t:"1512-01-01", k:"fetih", etiket:["toprak-kazanc"],
+  b:"Srebrenik banatlığının ilhakı — kuzey Bosna'da Macar hattının ilk kırılması",
+  gun:"1512", yer:"Srebrenik, kuzeydoğu Bosna",
+  kisiler:"II. Bayezid",
+  d:"Bosna Krallığı 1463'te yıkıldıktan sonra Mátyás Corvin karşı taarruza geçmiş ve krallığın kuzeyinde Osmanlı ilerleyişini durduran iki banatlık kurmuştu: batıda Yayça, kuzeydoğuda Srebrenik. Bunlar Macaristan'ın Bosna'daki ileri savunma hattıydı ve Sava ile Bosna arasındaki koridoru kapatıyorlardı. Srebrenik banatlığı 1512'de ele geçirildi; böylece hattın doğu kanadı çöktü ve İzvornik sancağı kuzeye doğru genişleyebildi. Batı kanadındaki Yayça ise on altı yıl daha dayanacak, ancak Mohaç'tan sonra 1528'de alınabilecekti. ⚠️ Srebrenik, Drina üzerindeki Srebrenica ile karıştırılmamalıdır; ikisi ayrı yerlerdir.",
+  kaynak:"bosna-hersek" },
+```
+
+⚠️ **Srebrenik ≠ Srebrenica** uyarısını maddenin içine koydum — bugün ölçtüğüm
+homonim sınıfının (§31) canlı bir örneği ve kayıt açılırsa karışması çok kolay.
+
+---
+
+## 37. ② `fethedilen:` ALANI — şema önerisi
+
+Merkez istedi: ARAYÜZ *"bu maddede el değiştiren şehirler"* alanı olmadan tarih
+etiketi yazamıyor; 1.360 çiftin **739'u yanıltıcı** etiket üretiyor.
+
+### 37.1 🎁 Alan yeni değil — 56 maddede ZATEN VAR, ama düz metin olarak
+
+Ölçtüm: **997 maddenin 56'sı** şu cümleyi taşıyor:
+> *"Aynı tarihte haritaya katılan diğer yerleşimler: **Giresun, Rize**."*
+> *"… : **Bahçesaray, Kerç, Azak**."* · *"… : **Akkâ, Maan, Sayda, Kerak**."*
+
+⇒ **Öneri yeni bir kavram getirmiyor; var olan bir konvansiyonu ayrıştırılabilir
+hâle getiriyor.** Bu, kabul için en güçlü argüman — 56 madde alanı zaten
+dolduruyor, yalnız makine okuyamıyor.
+
+### 37.2 Şema
+
+```js
+fethedilen:["Travnik"]                      // bu maddede EL DEĞİŞTİREN yerleşimler
+fethedilen:["Yayça (Jajce)","Banaluka"]     // 1528 maddesi
+```
+
+- Değerler `yerlesimler*.js`'teki `ad` alanına **birebir** eşleşir (Aydos dersi:
+  ad eşleşmesi gevşek olursa kimlik kayar — §31)
+- **Zorunlu değil.** Yokluğu "bilinmiyor" demektir, "hiçbiri" değil
+- `d:` metnindeki *"Aynı tarihte haritaya katılan…"* cümlesi kaldırılır, bilgi
+  alana taşınır
+
+### 37.3 🔴 TASARIM SINIRI — ölçülmeden konmamalı
+
+Ölçtüm: **240 tarihte birden fazla yerleşim el değiştiriyor.** Ama uçlar şöyle:
+
+```
+1402-07-28  →  165 yerleşim   (Ankara sonrası çözülme)
+1413-07-05  →  106 yerleşim   (Fetret'in kapanışı)
+1923-10-29  →  180 yerleşim   (verinin ufku)
+1299-01-01  →    3 yerleşim   (İnegöl, Bilecik, Yarhisar)
+```
+
+⇒ **Alan her maddeye konamaz.** 165 ad listelemek ne yazılabilir ne okunabilir.
+`fethedilen:` yalnız **sayılabilir** kümeler için anlamlıdır; toplu geçişler
+(saltanat değişimi, verinin ufku, Fetret çözülmesi) alansız bırakılmalıdır.
+
+### 37.4 ⭐ Etiket sorununu EKLEYEREK değil, ATLAYARAK çözüyor
+
+ARAYÜZ kuralı şu olmalı: **`fethedilen:` listesinde adı geçmeyen şehre tarih
+etiketi YAZILMAZ.**
+
+| | Bugün | `fethedilen:` sonrası |
+|---|---|---|
+| Fatih 1481 maddesinde **Bursa** | *"1326"* (68 yıl sapma) | **etiket yok** — listede değil |
+| Aynı maddede **Rodos** | *"1310"* (170 yıl) | **etiket yok** |
+| 1528 maddesinde **Yayça** | yanlış ya da yok | **"1528"** — listede |
+
+⇒ **739 yanlış etiket, alan yayılmadan, ilk günde sıfırlanır.** Doğru etiketler
+`fethedilen:` yayıldıkça **birikerek** gelir. Bu yüzden alanın kısmî olması
+sorun değil — güvenli taraf varsayılan.
+
+### 37.5 Denetlenebilirlik — kullanıcının kuralı makineye bağlanıyor
+
+Alan gelince `denetle.py` iki yeni soru sorabilir:
+
+1. **İleri yön:** `fethedilen:`teki her ad `yerlesimler.js`'te var mı ve o
+   yerleşimin ±30 gün içinde bir kırılması var mı? *(yanlış ad / hayalet şehir
+   yakalar)*
+2. **Geri yön — asıl değerli olan:** bir kırılma varsa, o günün maddesi o
+   yerleşimi **adıyla anıyor mu?** *(Değişmez 2 bugün yalnız "madde var mı" diye
+   soruyor; bu "madde bu şehri biliyor mu" diye sorar)*
+
+📌 İkinci soru kullanıcının *"fethedilen şehirler teker teker sayılsın"* kuralının
+**makine karşılığıdır** — bugüne kadar denetlenemiyordu.
+
+### 37.6 Önerilen deneme kümesi — dört madde
+
+Merkezin şartına uyarak bütün kronolojiye yayılmadan önce yalnız Bosna'da:
+
+```js
+1448-01-01  fethedilen:["Saraybosna"]
+1463-06-01  fethedilen:["Travnik"]
+1465-01-01  fethedilen:["Foça (Foča)"]
+1469-01-01  fethedilen:["Livno (İhlevne)"]
+1512-01-01  fethedilen:["Srebrenik"]          // nokta eklenirse
+1528-01-01  fethedilen:["Yayça (Jajce)","Banaluka"]
+```
+
+🟡 `1463-06-01` için **Yayça listelenmiyor** — o tarihte Osmanlı'ya değil
+**Macaristan'a** geçiyor. Alanın adı `fethedilen:` ise yalnız Osmanlı'ya geçenleri
+saymalı; kayıplar için ileride `kaybedilen:` gerekebilir. **Bu ayrımı şimdiden
+kararlaştırmak gerekiyor**, sonradan eklemek 997 maddeyi ikinci kez elden geçirmek
+demek.
+
+---
+
+## 38. ✅ `fethedilen:` / `kaybedilen:` UYGULANDI — 10 madde, iki yönlü sınama geçti
+
+`data/olaylar_ek10.js` (benim dosyam). **`denetle.py` etkilenmedi** — tek açık
+hâlâ Silifke 1473, benim değil.
+
+### 38.1 ⚠️ Deneme kümesi değiştirildi — ve sebebi ölçüldü
+
+Merkez *"yalnız altı Bosna maddesi"* demişti. **Bosna maddeleri henüz uygulanmadı**
+(Travnik · İzvornik · Foça · Livno · Yayça · Srebrenik — altısı da `yerlesimler.js`'te
+**yok**), dolayısıyla o kümede alan **bugün sınanamazdı**.
+
+Yerine kendi dosyamdaki **canlı** kümeyi kullandım: madde var, yerleşim var,
+kırılma var — yani **üç tarafı da bugün doğrulanabilir.** Kısıtın ruhu korundu:
+tek dosya, on madde, 997'ye yayılmadı.
+
+### 38.2 Uygulanan on madde
+
+| Tarih | `fethedilen:` | `kaybedilen:` |
+|---|---|---|
+| 1457-01-01 | Podgorica | — |
+| 1476-02-01 | — | Böğürdelen (Šabac) |
+| 1479-08-01 | Ayamavra · Kefalonya · İthaki · Zaklise | — |
+| **1482-01-01** | **Cetinje** | **Zaklise (Zakynthos)** |
+| **1484-07-15** | **Kili** | — |
+| **1484-08-04** | **Akkirman** | — |
+| 1499-08-26 | İnebahtı | — |
+| 1521-07-07 | Böğürdelen (Šabac) | — |
+| 1788-04-24 | — | Böğürdelen (Šabac) |
+| 1806-01-26 | — | Böğürdelen (Šabac) |
+
+### 38.3 İki yönlü sınama — ileri yön çalışıyor
+
+```
+ileri yon: 14 ad sinandi | hayalet ad 0 | kirilmasiz 0
+```
+Her ad `yerlesimler.js`'te var ve her birinin maddenin tarihinden ±30 gün içinde
+doğru yönde (`f:` kazanç / `t:` kayıp) bir kırılması var.
+
+### 38.4 ⭐ ALANIN DEĞERİ İKİ SATIRDA GÖRÜNÜYOR
+
+**① `1484-07-15` ve `1484-08-04` — ±30 gün penceresi ayırt EDEMİYOR.**
+İki tarih 20 gün arayla; pencere ikisinde de **hem Kili hem Akkirman** buluyor.
+Alan ayırıyor: 15 Temmuz **Kili**, 4 Ağustos **Akkirman**. Bu tam olarak
+kullanıcının *"iki fetih tek maddeye çökmüş"* şikâyetinin makine karşılığı.
+
+**② `1482-01-01` — aynı gün hem kazanç hem kayıp.**
+Cetinje tâbi oluyor, Zaklise Venedik'e bırakılıyor. Tek alanla anlatılamazdı;
+`kaybedilen:`in neden gerekli olduğunun canlı örneği — merkezin bugün verdiği
+"ikisi de tanımlansın" kararı burada karşılığını buluyor.
+
+**③ `1806-01-26`'da `kaybedilen:` gürültüyü kesiyor.** ±30 gün penceresi o
+tarihte **Mekke**'yi de yakalıyor (Vehhâbîlere kaybı, 6 gün ötede, konusu
+bambaşka). Alan yalnız Böğürdelen'i sayıyor — ARAYÜZ Mekke'ye etiket yazmaz.
+
+### 38.5 🔴 ARAYÜZ'e — tüketici kuralı
+
+> **`fethedilen:`/`kaybedilen:` listesinde adı geçmeyen şehre tarih etiketi
+> YAZILMAZ.** Alan yoksa madde etiketsizdir.
+
+Bu kural bugün yazılırsa **739 yanlış etiket anında sıfırlanır** ve doğru
+etiketler alan yayıldıkça birikir. Şu an 14 doğru etiket üretilebilir.
+
+🟡 **Geri yön henüz anlamlı değil.** "Bu kırılmanın maddesi şehri anıyor mu"
+sorusu ancak alan yaygınlaşınca ölçülebilir; 10 maddede çalıştırmak, alanı
+olmayan 987 maddeyi ihlal gibi gösterir. Kapsam eşiği belirlenmeli.
+
+---
+
+## 39. `fethedilen:` KAPSAM ÖLÇÜSÜ — geri yön eşiği için sayılar
+
+Geri yön sınamasını (*"bu kırılmanın maddesi şehri adıyla anıyor mu"*) açmak için
+eşik gerekiyordu. Ölçtüm.
+
+### 39.1 Bugünkü kapsam — %1,1
+
+| Yüzyıl | Kırılma | Adı anılan | Kapsam |
+|---|---|---|---|
+| 1300 | 173 | 0 | 0,0% |
+| **1400** | **459** | **15** | **3,3%** |
+| 1500 | 271 | 2 | 0,7% |
+| 1700 | 119 | 1 | 0,8% |
+| 1800 | 316 | 1 | 0,3% |
+| **TOPLAM** | **1694** | **19** | **1,1%** |
+
+⇒ **Yüzyıl dilimi eşiği bugün hiçbir yerde karşılanmıyor.** En iyi dilim (1400'ler)
+%3,3'te. Geri yön şu an açılamaz — kendi önerimin ölçülmüş hâli.
+
+### 39.2 ⭐ AMA İŞ 1694 DEĞİL — yarısı zaten sayılamaz
+
+Asıl soru "kaç kırılma" değil, **"kaç TARİH sayılabilir sınıfta"**:
+
+```
+tarih-yön çifti: 502   |   toplam kırılma: 1694
+
+  1 yerleşim   255 tarih  ← tek ad yazılacak, en ucuz
+  2-5          189 tarih
+  6-20          53 tarih
+  21+            5 tarih
+
+SAYILABİLİR (≤5)   444 tarih (%88)  ·  834 kırılma (%49)
+TOPLU        (>5)   58 tarih (%12)  ·  860 kırılma (%51)
+```
+
+En kalabalık beşi: `1402-07-28` **165** · `1413-07-05` **106** ·
+`1878-07-13` **35** · `1830-02-03` **21** · `1623-11-28` **21**.
+
+⇒ **Kırılmaların yarısı 58 tarihte toplanıyor** ve bunlar gerçekten toplu
+geçişler — Ankara sonrası çözülme, Fetret'in kapanışı, Berlin 1878. §37.3'te
+"alan bunlara konmamalı" demiştim; sayı bunu doğruluyor: **51'i sayılamaz.**
+
+### 39.3 İşin gerçek büyüklüğü
+
+| | |
+|---|---|
+| Alan yazılacak tarih | **444** |
+| Bunun tek yerleşimlisi (tek ad) | **255** |
+| Bugün yazılmış | **15** |
+| Kalan | **429** |
+
+📌 *"%1,1 kapsam"* umutsuz görünüyor; **"444 tarih, 255'i tek satır, 15'i bitti"**
+yapılabilir bir iştir. Aynı veri, iki farklı büyüklük — payda doğru seçilince.
+
+### 39.4 Geri yön için önerilen eşik — revize
+
+Yüzyıl dilimi yerine **sayılabilir sınıf** ölçülsün:
+
+> Geri yön, `≤5 yerleşimli` tarihlerin **%80'i** alanlı olduğunda açılsın; toplu
+> tarihler (>5) sınamadan **muaf** tutulsun.
+
+Gerekçe: yüzyıl dilimi, içindeki toplu tarihler yüzünden asla dolmaz —
+1400'ler %3,3'te takılı çünkü 459 kırılmasının çoğu `1402-07-28` ve
+`1413-07-05`'ten geliyor. Sayılabilir sınıf ise dolabilir bir paydadır.
+
+---
+
+## 40. 🔴 ÜÇÜNCÜ KATEGORİ — `fethedilen:`/`kaybedilen:` bir kırılma sınıfını KAPSAMIYOR
+
+255 tek-yerleşimli tarihin Balkan bölümünü yazmaya başladım. **Dosyamda beş aday
+çıktı; dördü yazılamaz** — ve sebebi şemayla ilgili.
+
+### 40.1 Dört adayın yönü yanlış okunuyor
+
+| Aday | Veride ne oluyor | Gerçekte |
+|---|---|---|
+| Akkirman `1484-08-04` | `v:` biter, `d:` başlar | **Vasal Boğdan → doğrudan Osmanlı.** Kayıp değil |
+| Kili `1484-07-15` | aynı | aynı |
+| Hotin `1713-06-24` | `v:` biter **ve** `d:` başlar | aynı — hem `f` hem `t` görünüyor |
+| Yenipazar `1912-10-23` | `d:` biter, `s:"sirbistan"` başlar | ✅ **gerçek kayıp** — ama maddenin konusu Çatalca ve Kumanova, Yenipazar'ı **anmıyor**; adı listeye yazmak "madde bu şehri biliyor" demek olurdu, bilmiyor |
+
+⇒ **Dosyamda temiz yazılabilecek tek satır bile kalmadı.** Onbeşi zaten yazılmıştı.
+
+### 40.2 Ölçüm — 76 idarî geçiş
+
+```
+vasal → doğrudan   23
+doğrudan → vasal   53
+TOPLAM             76   ← ne fetih ne kayıp
+```
+
+Bunlar **egemenlik devri değil, statü değişimi**. Toprak el değiştirmiyor;
+haritadaki **ton** değişiyor (koyu ↔ açık). Örnekler doğrudan benim kendi
+düzeltmelerimden:
+
+```
+d→v  Sofya            1878-01-04     d→v  Filibe · Vidin · Tırnova
+d→v  Eski Zağra       1878-07-13     d→v  Varna · Şumnu · Silistre · Rusçuk
+v→d  Hotin            1713-06-24     v→d  Kili · Akkirman  1484
+```
+
+1878-07-13'te Bulgar şehirleri doğrudan Osmanlı idaresinden **Osmanlı'ya tâbi**
+prensliğe geçiyor (§17.3). Bu bir kayıp değil — egemenlik 1908'e kadar sürüyor.
+Aynı şekilde Hotin 1713'te Boğdan vasallığından **doğrudan** Osmanlı sancağına
+geçiyor (§9); toprak zaten Osmanlı'ydı.
+
+### 40.3 🔴 Bu, geri yön sınamasını bozar
+
+DENETÇİ'nin kuracağı geri yön (*"her kırılma bir maddede adıyla anılıyor mu"*)
+bu 76 geçişi **kalıcı yanlış-pozitif** olarak raporlar: hiçbiri
+`fethedilen:`/`kaybedilen:` ile anlatılamaz, dolayısıyla hiçbir zaman
+kapanmazlar.
+
+**İki seçenek:**
+
+| | Ne yapar | Maliyet |
+|---|---|---|
+| **A. Muafiyet** | `v:`↔`d:` sınırları geri yön sınamasından muaf tutulur | Ucuz, hemen uygulanır. Ama statü değişimi **anlatılmadan** kalır |
+| **B. Üçüncü alan** | `statu:["Hotin"]` gibi bir alan eklenir | Şemayı büyütür ama 76 geçiş **anlatılabilir** olur — ve kullanıcının *"bu Hotin hep tek başına görünüyor"* sorusu tam bu sınıftı |
+
+📌 **B'yi öneriyorum ama karar merkezin.** Gerekçe: kullanıcının bugüne kadarki
+en tekrar eden sorusu (*Hotin neden ayrı renkte, Bulgaristan özerk mi bağımsız
+mı, Sırbistan neden 1867'de değil 1878'de*) **hep bu kategorideydi.** Alan yoksa
+harita bunları gösteriyor ama kronoloji adlandıramıyor.
+
+⚠️ Ve `kaybedilen:` kararında olduğu gibi: **sonradan eklemek 1003 maddeye ikinci
+kez dokunmak demek.** Bugün karar verilirse bir kez dokunulur.
+
+---
+
+## 41. ⭐ `statu_dogrudan:` / `statu_vasal:` — biçim ölçüldü, liste hazır
+
+### 41.1 Biçim kararı — ölçüm seçti
+
+Merkez *"kayıt biçimini sen öner, ölç ve seç"* dedi. Ölçtüm:
+
+```
+aynı günde İKİ YÖN birden görülen tarih:  0
+birden fazla statü değişimi olan yerleşim: 9   (ama hepsi FARKLI tarihlerde)
+toplam: 25 tarih, 76 geçiş
+```
+
+⇒ **Yön, yerleşimin değil TARİHİN özelliği.** Hiçbir gün v→d ile d→v'yi
+karıştırmıyor. Bu, `[{ad, yon}]` gibi bileşik bir yapıyı **gereksiz** kılıyor.
+
+**Seçilen biçim — mevcut iki alanı birebir aynalıyor:**
+```js
+statu_dogrudan:["Hotin"]                    // vasallıktan DOĞRUDAN idareye
+statu_vasal:["Sofya","Filibe","Vidin"]      // doğrudan idareden VASALLIĞA
+```
+Gerekçe: `fethedilen:`/`kaybedilen:` ile aynı şekil — ARAYÜZ'ün okuyucusu
+genelleşir, yön ayrıştırmak gerekmez, alan-yön eşleşmesi bozulamaz (bileşik
+yapıda `yon` unutulabilirdi).
+
+### 41.2 ✅ İlk alan yazıldı
+
+`olaylar_ek10.js` · `1713-06-24` → `statu_dogrudan:["Hotin"]`
+`denetle.py` temiz. **Kili ve Akkirman'a yazmadım** — onlar TDV'de *fetih* olarak
+geçiyor ve `fethedilen:` zaten yazılı; ikisini birden yazmak rozeti iki kez
+gösterirdi. Bu ayrımın kararı §41.4'te.
+
+### 41.3 DAĞITIM LİSTESİ — 25 tarih, tam satırlar
+
+| Dosya | Tarih |
+|---|---|
+| `olaylar_ek5.js` | 1537-10-01 · 1538-08-03 · 1538-09-01 · 1658-08-27 · 1660-08-27 · 1671-01-01 · 1705-07-17 · 1711-03-01 · 1835-05-26 · 1865-01-01 · 1867-04-18 |
+| `olaylar_ek4.js` | 1805-07-03 · 1813-01-23 · 1825-02-24 · 1830-11-01 · 1841-02-25 · 1841-05-24 |
+| `olaylar_ek10.js` | 1484-07-15 · 1484-08-04 · **1713-06-24 ✅** |
+| `olaylar.js` | 1541-08-29 · 1878-07-13 |
+| `olaylar_ek6.js` | 1499-01-01 |
+| `olaylar_ek.js` | 1830-11-08 |
+| 🔴 **madde yok** | **1878-01-04** |
+
+**Yazılacak tam satırlar:**
+```
+1499-01-01  statu_dogrudan:["Cetinje"]
+1537-10-01  statu_dogrudan:["Batnoz (Patmos)"]
+1538-08-03  statu_dogrudan:["Zebîd"]
+1538-09-01  statu_dogrudan:["İbrail","Bender","İsmail"]
+1541-08-29  statu_dogrudan:["Budin","Peşte"]
+1658-08-27  statu_dogrudan:["Yanova (Ineu)"]
+1660-08-27  statu_dogrudan:["Varad (Oradea)"]
+1671-01-01  statu_vasal:["Cezayir","Konstantin","Tilimsan","Annaba","Bicâye","Şerşel (Cherchell)","Medea (Titteri)","Setif","Biskra","Tuggurt"]
+1705-07-17  statu_vasal:["Tunus","Kayrevan","Gabes","Sfaks","Cerbe (Djerba)","Kerkene (Kerkennah)"]
+1711-03-01  statu_vasal:["Trablus","Misrata","Bingazi","Derne","Murzuk (Fizan)"]
+1805-07-03  statu_vasal:["Kahire","İskenderiye","Dimyat","Asyut","Asvan","İbrim","Süveyş","Sina güneyi","Reşîd (Rosetta)"]
+1813-01-23  statu_vasal:["Cidde"]
+1825-02-24  statu_vasal:["Modon"]
+1830-11-01  statu_vasal:["Hanya","İsfakiye (Sfakia)","Sitiye (Sitia)"]
+1830-11-08  statu_vasal:["Kragujevac","Çaçak"]
+1835-05-26  statu_dogrudan:["Trablus","Misrata","Bingazi","Derne","Murzuk (Fizan)"]
+1841-02-25  statu_dogrudan:["Hanya","İsfakiye (Sfakia)","Sitiye (Sitia)"]
+1841-05-24  statu_dogrudan:["Cidde","Yenbu"]
+1865-01-01  statu_vasal:["Sevâkin","Masavva","Dahlak"]
+1867-04-18  statu_vasal:["Semendire","Belgrad","Böğürdelen (Šabac)"]
+1878-07-13  statu_vasal:["Eski Zağra (Stara Zagora)","Tatarpazarcığı","Filibe","Vidin","Tırnova","Varna","Şumnu","Silistre","Rusçuk"]
+```
+
+📌 Liste **anlamlı** çıktı: Cezayir 1671 dayı idaresi, Tunus 1705 Hüseynîler,
+Trablusgarp 1711 Karamanlılar ve 1835'te **geri dönüşü**, Mısır 1805 Kavalalı,
+Sırbistan 1830, Bulgaristan 1878 — yani **Osmanlı'nın merkezîlik/özerklik
+tarihinin tamamı** bu 25 tarihte. Alan bunu ilk kez adlandırılabilir yapıyor.
+
+### 41.4 🟡 KARAR GEREKEN — fetih ile statü çakışması
+
+**Kili 1484-07-15 ve Akkirman 1484-08-04**: veride `v:` bitip `d:` başlıyor,
+yani teknik olarak statü değişimi. Ama TDV ikisini de **fetih** diye anlatıyor
+(vasal Boğdan'ın elindeki kaleler alınıyor) ve `fethedilen:` zaten yazılı.
+Aynı şey `1538-09-01` (İbrail/Bender/İsmail), `1541-08-29` (Budin/Peşte),
+`1658/1660` (Yanova/Varad) ve `1499` (Cetinje) için de geçerli.
+
+**İki alan da yazılırsa rozet aynı şehri iki kez gösterir.** Öneri: bir madde
+bir yerleşimi **ya** `fethedilen:` **ya** `statu_dogrudan:` ile saysın, ikisiyle
+birden değil. Ayırt edici ölçüt: **kaynağın kendisi.** TDV "fethedildi" diyorsa
+`fethedilen:`, "idareye bağlandı / sancak yapıldı" diyorsa `statu_dogrudan:`.
+
+### 41.5 🔴 BULGU — `1878-01-04` Sofya'nın maddesi YOK
+
+Listeyi çıkarırken çıktı. Sofya'nın `d:`→`v:` geçişi **1878-01-04**'te (Rusların
+Sofya'ya girişi, §17.3 düzeltmem) ama o tarihte **hiçbir kronoloji maddesi yok.**
+Değişmez 2 temiz görünüyor çünkü ±30 gün içinde başka bir madde var — yani
+Sofya'nın statü değişimi **komşu bir maddenin altında** beliriyor.
+⇒ Madde borcu; Bulgaristan bloğuna ait, kimin dosyası olduğuna merkez karar versin.
+
+---
+
+## 33. Sırada
 
 ✅ **B bloğu (hatalar 11, 1859-1913) BİTTİ** — §17. Sekiz maddenin sekizi cevaplı,
 sekiz yeni düzeltme satırı (#31-#38) açıldı, altı kronoloji maddesi yazıldı.

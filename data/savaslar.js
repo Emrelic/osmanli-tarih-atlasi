@@ -292,7 +292,9 @@ window.SAVASLAR = [
 { t:"1511-07-02", tur:"isyan", ad:"Şahkulu (Sivas)",        taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:39.75, lon:37.02, sure:400 },
 { t:"1519-03-01", tur:"isyan", ad:"Bozoklu Şeyh Celâl",     taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:39.82, lon:34.81, sure:400 },
 { t:"1524-01-01", tur:"isyan", ad:"Hain Ahmed Paşa",        taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:30.05, lon:31.24, sure:300 },
-{ t:"1526-01-01", tur:"isyan", ad:"Kalender Çelebi",        taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:38.36, lon:38.31, sure:300 },
+// Ad düzeltmesi (Koordinatör, OTURUM-10 turu): TDV'de "Kalender Çelebi" diye madde
+// yok, doğrusu "Kalender Şah" (kalender-sah, canlı slug).
+{ t:"1526-01-01", tur:"isyan", ad:"Kalender Şah",           taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:38.36, lon:38.31, sure:300 },
 { t:"1599-06-01", tur:"isyan", ad:"Karayazıcı Abdülhalim",  taraf_metin:"Celâlî",   sonuc:"zafer", seri:"ic",  lat:37.16, lon:38.80, sure:900 },
 // hatalar 5.docx madde 2 — kullanıcı: "karayazıcı abdülhalim isyanı nerede
 // başlamış haritada aksiyon görülmüyor 1596. Bu maddenin iki ayrı maddesi
@@ -323,9 +325,19 @@ window.SAVASLAR = [
 { t:"1499-08-12", tur:"deniz", ad:"Sapienza (Zonchio)",     taraf_metin:"Venedik",  sonuc:"zafer",   seri:"venedik", lat:36.75, lon:21.70, sure:300, taraf:["osmanli","venedik"], galip:"osmanli" },
 // Diu 1509: Ottoman kuvveti henüz sahada yok — bu, Portekiz'e karşı Memlûk (+Gucerat/Kalikut)
 // donanmasının savaşı. "osmanli" taraf listesine girmiyor.
+// Gözden geçirildi (Koordinatör, OTURUM-10 turu — "kaydın dizinimizde ne aradığı
+// gözden geçirilmeli"): kayıt bilerek tutuluyor. Osmanlı'nın 1517'den sonra
+// devraldığı Kızıldeniz/Hint Okyanusu deniz mücadelesinin (Cidde 1517, Diu 1538,
+// Hürmüz 1552, Umman 1554) öncül sahnesi — Memlûk-Portekiz çekişmesi olmadan
+// zincir eksik kalır. taraf listesi zaten "osmanli" içermiyor, karıştırma riski yok.
 { t:"1509-02-03", tur:"deniz", ad:"Diu (Portekiz)",         taraf_metin:"Portekiz", sonuc:"yenilgi", seri:"memluk",  lat:20.71, lon:70.98, sure:400, taraf:["memluk","portekiz"], galip:"portekiz" },
 { t:"1517-04-18", tur:"deniz", ad:"Cidde savunması",        taraf_metin:"Portekiz", sonuc:"zafer",   seri:"memluk",  lat:21.54, lon:39.17, sure:300, taraf:["osmanli","portekiz"], galip:"osmanli" },
-{ t:"1538-02-03", tur:"deniz", ad:"Diu kuşatması",          taraf_metin:"Portekiz", sonuc:"belirsiz",seri:"memluk",  lat:20.71, lon:70.98, sure:400, taraf:["osmanli","portekiz"] },
+// Tarih düzeltmesi (Koordinatör, OTURUM-10 turu): 1538-02-03 kopyala-yapıştır
+// hatasıydı (üstteki 1509 kaydıyla aynı gün-ay). Hadım Süleyman Paşa'nın donanması
+// şubatta değil, Süveyş'ten 13 Haziran 1538'de kalktı (olaylar_ek2.js, kaynak:"diu",
+// gun:"Haziran-Kasım 1538"); TDV "diu" maddesi kuşatmanın "yaklaşık üç ay" sürdüğünü
+// yazıyor. Kasım'da kaldırıldığına göre başlangıç ~eylül başı.
+{ t:"1538-09-04", tur:"deniz", ad:"Diu kuşatması",          taraf_metin:"Portekiz", sonuc:"belirsiz",seri:"memluk",  lat:20.71, lon:70.98, sure:400, taraf:["osmanli","portekiz"] },
 { t:"1538-09-28", tur:"deniz", ad:"Preveze",                taraf_metin:"Haçlı donanması", sonuc:"zafer", seri:"venedik", lat:38.90, lon:20.70, sure:400, taraf:["osmanli","venedik","ispanya","papalik"], galip:"osmanli" },
 { t:"1552-08-10", tur:"deniz", ad:"Hürmüz seferi",          taraf_metin:"Portekiz", sonuc:"belirsiz",seri:"memluk",  lat:27.10, lon:56.45, sure:300, taraf:["osmanli","portekiz"] },
 { t:"1554-08-25", tur:"deniz", ad:"Umman denizi çarpışması",taraf_metin:"Portekiz", sonuc:"yenilgi", seri:"memluk",  lat:24.50, lon:57.50, sure:300, taraf:["osmanli","portekiz"], galip:"portekiz" },

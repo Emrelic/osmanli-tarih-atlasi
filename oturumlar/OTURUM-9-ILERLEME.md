@@ -410,3 +410,228 @@ Oturum 16 tarafından zaten düşüldü.
 4. Renk paylaşımı ölçümü: yapıldı ama **yanlış vekil** kullanıldığı öğrenildi,
    Oturum 16'nın gerçek Voronoi ölçümü (8 renk, kıtlık yok) esas alınmalı;
    benimki bu notla birlikte okunmalı.
+
+---
+
+## EK-5 — Dört renk hesabı: zeta · bahreyn · idrisi · macaristan-habsburg
+
+Merkez oturum bu dört kimliğin renksiz kaldığını bildirdi (dört paket bekliyor)
+ve sınırdaş listelerini verdi. **`arac/renkler.py` `BOYALAR`'a yazma yetkim
+YOK** (`KOORDINASYON.md §1`: dosya yalnız Oturum 16'nın). Bu yüzden burada
+yalnız **hesabı** yaptım; uygulamayı Oturum 16 yapmalı — sonucu merkez
+oturuma chat'te bildirdim.
+
+### ⚠️ Yan bulgu: `renkler.py`'nin "%30 saydamlık" notu güncel değil
+Dosya başlığı ΔE'nin "BİNDİRİLMİŞ (%30 saydamlıkla altlığa binmiş) renk"
+üzerinden ölçülmesini istiyor. `js/app.js:547` okundu: yabancı devlet dolgusu
+(`devlet-dolgu`, `["get","renk"]` — yani `BOYALAR` hex'lerinin fiilen çizildiği
+katman) **`fill-opacity: 0.44`**, %30 değil. (`osmanli-dolgu` 0.68, `vassal-dolgu`
+0.60 — bu ikisi zaten doğru biliniyordu.) Altlık `#e8dfc8` (g-kara) doğruydu.
+**Yön önemli:** 0.44 > 0.30 olduğu için gerçek opaklıkta renkler DAHA AZ
+karışıyor, yani %30 varsayımıyla hesaplanmış geçmiş ΔE'ler **iyimser değil,
+kötümserdi** — geçen her ölçüm gerçekte daha rahat geçiyor olmalı. Yine de
+dosyanın kendi notu düzeltilmeli; ben yazamadığım için burada bırakıyorum,
+Oturum 16'ya bildirdim.
+
+### Yöntem
+- ΔE76 (Lab öklid mesafesi), BİNDİRİLMİŞ renk üzerinden (gerçek opaklık: 0.44
+  yabancı / 0.68 Osmanlı doğrudan / 0.60 Osmanlı tâbi, altlık `#e8dfc8`)
+- Komşu listesi **aynen merkez oturumun verdiği** — gerçek Voronoi komşuluğunu
+  kendim üretemedim (motor/geometri erişimim yok, bu Oturum 16'nın işi); yani
+  komşuluk verisi doğrulanmadan, olduğu gibi kullanıldı. Bu bir varsayımdır,
+  gizlemiyorum.
+- Kırmızı aile (Osmanlı, hue ~345-15°) aday havuzundan çıkarıldı
+- S/L, paletin genel dağılımına yakın tutuldu (S 35-65, L 38-58) — H 80,
+  L 50 gibi "ekran birincil rengi" adaylar iyi ΔE veriyordu ama palet
+  üslubuna aykırıydı (bkz. betik çıktısı, ilk tur), o yüzden ikinci turda
+  daraltıldı.
+
+### Sonuç (eşik referansı: dosyanın kendi notu ΔE ≥ 12 "yeni kimliğe" uygulanıyor)
+
+| Kimlik | Hex | En yakın komşu (bindirilmiş ΔE) |
+|---|---|---|
+| `zeta` | `#30a661` (koyu zümrüt yeşil) | venedik 19,9 |
+| `bahreyn` | `#b234a7` (mor-eflatun) | portekiz 29,5 |
+| `idrisi` | `#303aa6` (çivit mavisi) | OSMANLI-tâbi 37,5 |
+| `macaristan-habsburg` | `#773399` (mürdüm) | OSMANLI-tâbi 26,7 |
+
+Dördü de 12 eşiğinin belirgin üstünde. `zeta` için en zor komşu venedik'ti
+(üçü de mavi-gri-kahve ailesindeydi uyarısı doğruydu, bu yüzden yeşile
+çekildi — yeşil ailede bölgede sınırdaş yok). `idrisi` bilerek mavi seçildi
+ki `suud`/`hicaz`'ın sarı-yeşil/toprak ailesine üçüncü bir yakın ton
+eklenmesin (merkez oturumun uyarısı). `macaristan-habsburg` mor seçildi;
+1541-45 kutusundaki "üç yeşil leke" vakasının tekrarını önlemek için yeşil
+aileden bilerek kaçınıldı, mavi (`macaristan`) ve altın (`avusturya`) ile de
+belirgin ayrık.
+
+**Dörtlünün kendi aralarında** (zorunlu değil, hiçbiri birbirine sınırdaş
+değil — Balkan/Körfez/Asîr/Orta Avrupa dört ayrı coğrafya): en yakın çift
+`bahreyn`↔`macaristan-habsburg` ΔE 10,4. İkisi tarih ve coğrafya olarak hiç
+kesişmiyor, dosyanın kendi kuralına göre bu **ihlal değil** (paylaşım/yakınlık
+sorun değil, komşuluk sorun); yalnız bilgi amaçlı not düşüyorum.
+
+### Oturum 16'ya teslim edilecek satırlar (taslak — ad alanları öneridir, kendisi düzeltebilir)
+```python
+"zeta":                ("Zeta (Karadağ öncesi)",   "#30a661"),
+"bahreyn":              ("Bahreyn (Âl Halîfe)",     "#b234a7"),
+"idrisi":               ("İdrîsî Emirliği (Asîr)",  "#303aa6"),
+"macaristan-habsburg":  ("Habsburg Macaristanı",    "#773399"),
+```
+
+### Dokunulan dosyalar (bu ek)
+Yalnız bu ilerleme dosyası. `arac/renkler.py` OKUNDU, YAZILMADI (dosya
+Oturum 16'nın). `js/app.js` OKUNDU (opaklık/altlık değerleri için), YAZILMADI.
+Hesap betiği scratchpad'te kaldı, repoya girmedi.
+
+---
+
+## EK-6 — Beşinci kimlik: `hersek` — ⚠️ sınırdaş listesi DOĞRULANMADI
+
+Merkez oturum `hersek`i (Hersek sancağı, Bosna'dan ayrı fetih — Mostar 1483,
+Saraybosna 1463, TDV `foca`: "1470'te Hersek sancağının merkezi oldu")
+bugün ekledi ama **sınırdaş listesi vermedi**. Kural gereği ("ölçemediğini
+'ölçülemedi' diye işaretle, tahmin yazma") bunu açıkça ayırıyorum:
+
+- **Kesin olan tek şey:** `bosna` (#8f7d5b) — merkez oturumun kendi
+  gerekçesi, aynı bölgenin BÖLÜNMÜŞ hâli, yani ikisi kesinlikle bir arada
+  görünecek.
+- **Coğrafi çıkarımla eklediklerim (DOĞRULANMADI):** `zeta` (Karadağ sınırı
+  bitişik), `venedik` (Adriyatik kıyısı, Raguza/Dubrovnik hattı), OSMANLI
+  doğrudan/tâbi (1463-1483 fetih dönemi). Bunlar benim coğrafya bilgime
+  dayanıyor, Oturum 16'nın gerçek Voronoi ölçümüyle **doğrulanmadı**.
+
+Bu varsayımsal kümeyle hesaplanan sonuç:
+
+| Kimlik | Hex | En yakın komşu (varsayımsal kümede) |
+|---|---|---|
+| `hersek` | `#2c498c` (lacivert) | venedik ΔE 18,5 |
+
+Diğer dört yeni renkle çapraz (zorunlu değil, hiçbiri coğrafi/zamansal
+sınırdaş değil — bilgi amaçlı): zeta 37,7 · bahreyn 28,1 · idrisi 10,8
+(en yakını) · macaristan-habsburg 18,1.
+
+**Bunu "ölçülemedi" değil "doğrulanmamış varsayımla ölçüldü" olarak
+teslim ediyorum** — merkez oturumun "sessiz kalma, üretemiyorsan yaz"
+talebi net; tamamen boş bırakmak yerine, hangi girdinin doğrulanmadığını
+işaretleyerek veriyorum. Oturum 16 gerçek komşuluğu ölçtüğünde `venedik`
+yerine farklı bir komşu çıkarsa bu hex yeniden sınanmalı.
+
+---
+
+## EK-7 — "151 renksiz kimlik" bildirimi: bir önerme düzeltmesi + 10 Avrupa rengi
+
+### 🔴 Önerme düzeltmesi: 98'i (Asya) rengi olsa da haritada GÖRÜNMEZ
+
+Merkez oturum "151 rengi ürettiğin gün harita Pekin'den Lizbon'a boyanır" dedi.
+Bu **kısmen yanlış**. `arac/girdi.py` başlığını okudum (yazma yetkim yok,
+salt okundu):
+
+> `data/yerlesimler_asya.js`  344 nokta — 98 devlet kimliği renkler.py'de YOK,
+> **tamamı 62°D'nin doğusunda, harita penceresi dışı**
+
+"151 renksiz" listesindeki Çin/Hindistan/Japonya/Kore/Vietnam/Orta Asya
+kimlikleri (qing-hanedani, babur-imparatorlugu, ingiliz-hindistani,
+cin-cumhuriyeti, delhi-sultanligi, yuan-hanedani, ming-hanedani,
+meiji-japonya, sur-hanedani, edo-bakufu, maratha, azuchi-momoyama, racput,
+bengal-sultanligi, muromachi, kazak, cungar, yarkent-hanligi, yakub-beg…) bu
+98'in içinde. `girdi.py`'nin kendi notu: bu dosya **motorun bugünkü
+`BOLGE = box(-12, 1.5, 62, 62)` penceresinin dışında**, yani `CLAUDE.md §6`'nın
+kademe kuralı henüz açmadı. Bunlara renk vermek onları haritada GÖSTERMEZ —
+geometri, boyanmadan önce pencere dışı bırakılıp kırpılıyor. Bu bir renk
+sorunu değil, **§6'nın "harita penceresi" kademe kararı**, sahibi Oturum 16.
+Rengi hazır olsa bile o kademe açılmadan Pekin/Delhi görünmez.
+
+**`kastilya`nın da dahil olduğu Avrupa 15-16'lık kısım bunun DIŞINDA** —
+`yerlesimler_avrupa.js` zaten pencere içinde (`-12, 1.5, 62, 62` Avrupa'yı
+kapsıyor), yalnız merge bekliyor ve rengi eksik. **Gerçek darboğaz bu 15-16,
+Asya'nın 98'i değil.**
+
+### 10 Avrupa kimliği — ilk tur (gerçek f/t verim var, coğrafyası iyi bilinen)
+
+`data/kimlikler.js`'te zaten kayıtlı olan (Oturum 3'ün eklediği) 16 Batı
+Avrupa/İtalya kaydından, coğrafi komşuluğu **iyi belgelenmiş** (İskoçya-
+İngiltere, Kastilya-Aragon-Navarra gibi ders kitabı düzeyinde bilinen
+sınırlar) 10 tanesini hesapladım — gerçek `f`/`t` tarihleriyle çakıştıklarını
+doğruladım, komşuluk ise standart Batı Avrupa coğrafyası (motorla
+doğrulanmadı, ama İskoçya'nın İngiltere'ye komşu olduğu gibi önermeler
+tartışmalı değil):
+
+| Kimlik | Hex | Komşu kümesi |
+|---|---|---|
+| `kastilya` | `#a63aa6` | portekiz, granada, aragon, navarra |
+| `aragon` | `#358d35` | kastilya, fransa, navarra |
+| `navarra` | `#a16b36` | kastilya, aragon, fransa |
+| `iskocya` | `#3ea33e` | ingiltere, irlanda |
+| `irlanda` | `#b87a3d` | ingiltere, iskocya |
+| `bretanya` | `#46b946` | fransa |
+| `burgonya` | `#307e30` | fransa, almanya, isvicre |
+| `isvicre` | `#8f328f` | fransa, almanya, italya, avusturya, milanoduka, burgonya |
+| `belcika` | `#64c464` | hollanda, fransa, almanya, luksemburg |
+| `luksemburg` | `#bf4abf` | belcika, fransa, almanya |
+
+Tüm çiftler (yeni↔mevcut VE yeni↔yeni) bindirilmiş ΔE ≥ 12 eşiğini geçiyor,
+programatik olarak doğrulandı (script scratchpad'te).
+
+### 🔴 5 İtalyan şehir devleti BİLEREK HESAPLANMADI: `siena` · `ferrara` · `mantua` · `parma` · `piza`
+
+Bunlar 8 mevcut İtalya-bölgesi rengiyle (venedik, ceneviz, napoli, papalik,
+toskana, milanoduka, sardinya, italya) VE birbirleriyle sık sık aynı anda
+sahnede — orta çağ İtalyası'nın şehir devletleri çoğu zaman gerçekten komşu.
+Bu tam olarak dosyanın kendi uyarısının verdiği örnek: **`ferrara`/`mantua`/
+`parma` DSATUR'u 4'ten 5'e çıkarmıştı** (kimlik birleştirme yasağının
+gerekçesi). Yoğun, çok-taraflı bir küme elle/varsayımla güvenle çözülemez —
+motorun gerçek komşuluk verisi olmadan burada yanlış karar riski yüksek.
+**Bilerek boş bırakıyorum, Oturum 16'ya havale ediyorum** — bu da "ölçülemedi,
+tahmin yazma" ilkesinin ta kendisi.
+
+### Öneri: kalan ~135'i (Asya + henüz değinilmeyen küçük Avrupa/diğer) TEK TEK ÜRETME
+
+`renkler.py`'nin kendi bulgusu hatırlanmalı: **261 kimliğin TAMAMI eklense
+bile gerçek Voronoi grafiğinde 8 renk yetiyor.** Yani asıl iş 151 YENİ hex
+TASARLAMAK değil, **hangi kimliğin hangi mevcut kimlikle HİÇ komşu olmadığını
+bulup mevcut paletten pay etmek** — mekanik bir atama, motor + gerçek
+komşuluk grafiği gerektiriyor (Oturum 16). Örnek: `qing-hanedani` ile
+`ispanya` hiçbir zaman komşu olamaz (iki kıta) — mevcut `ispanya` #c98f4a'yı
+doğrudan paylaşabilir, yeni hex gerekmez. Bunu tek tek elle yapmak hem
+gereksiz iş hem (benim yapmam durumunda) doğrulanamayan coğrafi varsayım
+demek. **135'in büyük kısmı bu şekilde ÜCRETSİZ kapanır** — yeni tasarım
+gereken küme, muhtemelen tahmin ettiğimden çok daha küçük.
+
+### Dokunulan dosyalar (bu ek)
+Yalnız bu ilerleme dosyası. `arac/girdi.py` OKUNDU (pencere/dosya durumu
+için), YAZILMADI. `data/kimlikler.js` OKUNDU (mevcut 16 Avrupa kaydının f/t'si
+için, zaten benim dosyam). `arac/renkler.py` YAZILMADI.
+
+---
+
+## EK-8 — `buyuk-orda` (Oturum 15/Orta Asya'nın ihtiyacı) + durum netleştirmesi
+
+### `buyuk-orda`
+⚠️ **Düşük güven — bozkır kimlikleri için sezgisel komşuluk daha önce
+yanılmıştı.** `renkler.py`'nin kendi kaydı: `nogay`'ın GERÇEK ölçülmüş
+komşuları `timurlu`/`rusya`/`hive` çıkmıştı, benim önce tahmin edeceğim
+"kırım/kazan/lehistan" değil. Bu yüzden `buyuk-orda` için hem sezgisel hem
+`nogay`/`kazak-hanligi`'nin gerçek ölçümünde çıkan komşuların BİRLEŞİMİYLE
+geniş bir küme kullandım (kırım, kazan, nogay, rusya, lehistan, altinorda,
+timurlu, kazak-hanligi):
+
+| Kimlik | Hex | En yakın komşu (geniş varsayımsal kümede) |
+|---|---|---|
+| `buyuk-orda` | `#3b7791` (çelik mavisi-teal) | altinorda ΔE 15,9 |
+
+Diğer üçüyle (kırım/kazan/nogay) ΔE payı daha da geniş; en dar olan
+`altinorda`. **Bu da doğrulanmadı, motor ölçümüyle sınanmalı.**
+
+### Netleştirme — üç nokta
+1. **`arac/renkler.py`'ye yazma yetkim yok** (`KOORDINASYON.md §1`, satır 16).
+   Ne kadar hesap yaparsam yapayım, uygulama adımı benden geçmez — Oturum
+   16'nın dosyasıdır. "Tamamı sende" ifadesi bu adım için teknik olarak
+   mümkün değil; ben yalnız hesabı üretebilirim.
+2. **Bugüne kadar teslim edilen 16 kimlik** (zeta, bahreyn, idrisi,
+   macaristan-habsburg, hersek, buyuk-orda + 10 Avrupa) uygulamaya hazır,
+   EK-5/6/7/8'de toplu.
+3. **151'in 98'i (Asya) hâlâ harita penceresi dışı** (`girdi.py`, EK-7) —
+   bu düzeltme merkez oturumun son mesajında tekrarlanmadı; mesajın
+   ulaşmadığından şüpheleniyorum (önceki "durum sorusu" tekrarlarıyla aynı
+   desen). Kısa yanıtta tekrar ettim.
+yerine farklı bir komşu çıkarsa bu hex yeniden sınanmalı.
