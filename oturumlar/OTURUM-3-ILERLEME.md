@@ -987,6 +987,80 @@ dosyadan (bu 8 kayıttan) okuması gerekiyor.
 
 ---
 
+## EK OTURUM 11 — Mısır başlangıcı + commit protokolü değişti (2026-07-31)
+
+A5, TDV `kavalali-mehmed-ali-pasa` maddesinden Mısır'ın başlangıcını da
+doğruladı: `1805-07-09` yanlış, `1805-07-03` doğru (Bâbıâli'nin oldubittiyi
+tanıması). `yerlesimler.js` (56 kayıt) ve `olaylar*.js` zaten bu tarihi
+kullanıyordu — yalnız `devletler.js` aykırıydı, tıpkı bir önceki oturumda
+düzelttiğim bitiş tarihi gibi (aynı kaydın iki ucu da ayrı ayrı yanlıştı).
+
+Düzeltme: `misir-kavalali` `f:"1805-07-09"`→`"1805-07-03"`, `tabi:` içindeki
+`f:` de aynı güne çekildi, kronolojideki `kurulus` maddesi güncellendi,
+`ozet`e `(kaynak: TDV, madde: kavalali-mehmed-ali-pasa)` eklendi (önceki
+6-günlük belirsizlik notu artık gereksiz, kaldırıldı).
+
+**Doğrulama:**
+```
+kayit: 241 | harita eslesmesi olan: 120 | tabi alani olan: 8 | sema ihlali: 0
+```
+
+### Commit protokolü değişti — koordinatör artık benim dosyamı commit'lemiyor
+`ORGANIZASYON §13`: bugün üç commit çakışması oldu (paylaşılan git index,
+başka oturumun `git add`'i araya giriyor). Koordinatör bundan sonra her
+oturumun kendi dosyasını `git commit -F - -- <yol>` ile (yalnız o yolu
+commit'leyen, index'teki başka stage'lerden etkilenmeyen biçimde)
+commit'lemesini istedi ve kendisinin artık benim işimi commit'lemeyeceğini
+söyledi. Bu, CLAUDE.md'nin eski "yalnız Oturum 0/Entegrasyon commit'ler"
+kuralının bu koordinasyon sistemi içinde güncellendiği anlamına geliyor —
+**yalnız commit**, push hâlâ istenmedi/yapılmadı, dokunmadım.
+
+---
+
+## EK OTURUM 12 — Nemanjić Sırbistanı yeni kayıt + Arnavutluk yanlış alarm (2026-07-31)
+
+Oturum 11 (BALKAN) iki "katalogda hiç yok" bulgusu bildirdi. İkincisi
+kontrol edilince zaten var çıktı.
+
+### 1) `sirbistan-nemanjic` — GERÇEK boşluktu, TDV doğrulandı, eklendi
+`devletler.js`'te Sırp tarihi 1402'de (Despotluk) başlıyordu; Nemanjić
+Krallığı ve Stefan Duşan İmparatorluğu hiç yoktu. `islamansiklopedisi.org.tr/
+sirbistan` WebFetch ile doğrulandı (gerçek madde): 1217 Stefan Prvovenčani'nin
+krallık ilanı, Duşan'ın 1331 tahta çıkışı, 1345 çarlık ilanı, 1355 ani ölümü
+ve parçalanma, Çirmen (1371)/Kosova (1389) yenilgileri, haraca bağlanma —
+hepsi TDV'nin kendi metninde. Yeni kayıt `sirp-despotlugu`'nun hemen önüne
+eklendi: `f:1217-01-01 → t:1402-01-01` (despotluğun kendi `f`'siyle temiz
+devir). 1346 Üsküp taç giyme tarihi TDV'de yok, yaygın bilinen tarih olarak
+eklendi (ozet'te belirtilmedi çünkü genel tarih, tartışmalı değil).
+
+`harita:` **eklenmedi** — koordinatörün notu doğru: "renksiz kayıt, kayıtsız
+renkten iyi." VERİ KİMLİK renk atarsa (muhtemelen mevcut `sirbistan`
+rengiyle çakışmaması gerekir, çünkü 1281-1402 arası aynı coğrafyada iki ayrı
+kimlik yan yana gelmiyor ama zaman ekseninde net ayrım isteniyorsa ayrı renk
+mantıklı) tek satır `harita:"..."` eklerim.
+
+### 2) `arnavutluk-bagimsiz` — YANLIŞ ALARM, zaten vardı
+Koordinatör "1912 Arnavutluk'un dizinde hiç karşılığı yok" dedi ama kontrol
+edince **EK OTURUM 2'de zaten eklediğim** `arnavutluk-bagimsiz` kaydı
+(`f:1912-11-28 → t:1923-10-29`) tam bu pencereleri kapsıyor (Draç/Avlonya/
+Kanina/Berat/İlbasan/Akçahisar 1912-11-28, İşkodra 1913-04-23 — ikisi de bu
+aralığın içinde). **Yeni kayıt açmadım**, yalnız düzelttim: eksik olan katalog
+değil, `harita:` bağlantısı (renk) — tıpkı `astarhan` gibi. Koordinatöre bu
+şekilde bildirdim, yanlış anlaşılmayı düzelttim.
+
+**Doğrulama:**
+```
+kayit: 242 | harita eslesmesi olan: 120 | tekrar id: 0
+```
+`data/devletler.js` dışında hiçbir dosyaya dokunulmadı. Commit henüz
+yapılmadı (kural: yalnız kendi dosyamı `git commit -F - -- data/devletler.js`
+ile). Merkez oturuma bildirildi.
+
+**Bekleyen renkler (VERİ KİMLİK'ten):** `astarhan`, `arnavutluk-bagimsiz`,
+`sirbistan-nemanjic` — üçü de kayıt tarafında hazır, yalnız renk bekliyor.
+
+---
+
 ## EK OTURUM 5 — `abdulkadir` yeni kayıt + `erdel` renk ölçümü (2026-07-31)
 
 Merkez oturum önceki oturumda bulduğum iki boşluk için görev gönderdi: (1)

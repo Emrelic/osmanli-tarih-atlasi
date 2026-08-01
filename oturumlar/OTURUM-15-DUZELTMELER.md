@@ -113,7 +113,7 @@ için özel bir cümle bulamadım (ÇERKEZLER maddesi genel coğrafyayı
 "Kafkaslar" olarak veriyor, bu iki nokta için ayrıştırıcı bilgi yok).
 **Kaynak yok, dokunmadım.**
 
-### 4.3 ⏸️ ARAŞTIRILMADI — kapsam dışında kaldı
+### 4.3 ⏸️ ARAŞTIRILMADI — kullanıcı kararıyla SONRAKİ OTURUMA DEVREDİLDİ
 
 - **Voronej/Harkov (Yabani Ova mı Kırım mı):** TDV'de aradım, doğrudan
   madde bulamadım (bu daha çok Rusya/Ukrayna tarihi kapsamı — CLAUDE.md §4

@@ -634,4 +634,189 @@ Diğer üçüyle (kırım/kazan/nogay) ΔE payı daha da geniş; en dar olan
    bu düzeltme merkez oturumun son mesajında tekrarlanmadı; mesajın
    ulaşmadığından şüpheleniyorum (önceki "durum sorusu" tekrarlarıyla aynı
    desen). Kısa yanıtta tekrar ettim.
-yerine farklı bir komşu çıkarsa bu hex yeniden sınanmalı.
+
+---
+
+## EK-9 — `astarhan` (ACİL, 54 yıllık taşmayı kapatıyor) + kontrast metriği açıklığı
+
+### `astarhan`
+`data/devletler.js:1482` ve kendi dosyam `data/kimlikler.js:170`'te zaten
+kayıtlı (`f:"1466-01-01", t:"1556-01-01", bolge:"sibirya-bozkir"`), yalnız
+`harita:null`. Komşu kümesi: aynı bölgedeki diğer bozkır kimlikleri +
+zamanda gerçekten çakışanlar (`buyuk-orda` 1466-1502 örtüşüyor):
+
+| Kimlik | Hex | En yakın komşu |
+|---|---|---|
+| `astarhan` | `#3838a8` (çivit/lacivert) | altinorda ΔE 23,1 |
+
+`nogay`/`kazan`/`kirim`/`kazak-hanligi`/`rusya`/`buyuk-orda`'ya ΔE payı daha
+geniş. Komşu kümesi yine doğrulanmadı (bozkır — aynı düşük güven notu EK-8
+ile geçerli), ama ΔE payı bu yedisinde de rahat.
+
+⚠️ `harita:"astarhan"` alanının `devletler.js`'e yazılması gerekiyor — o
+dosya benim değil, Oturum 3'ün. Renk + kimlik hazır, satır Oturum 3/16
+arasında tamamlanmalı.
+
+### "Kontrast" metriği — benim ölçtüğüm ΔE ile AYNI ŞEY DEĞİL, formülünü bilmiyorum
+Merkez oturum iki farklı sayı bildirdi (`akkoyunlu` için önce "kontrast 15",
+sonra "kontrast 10,3") — muhtemelen ARAYÜZ/MOTOR tarafında ayrı bir ölçüm,
+belki parlaklık/luminans karşıtlığı (WCAG tarzı), ΔE76 değil. Bu formülü
+`renkler.py`'de veya `js/app.js`'te bulamadım; ölçen oturumun (ARAYÜZ mü,
+MOTOR mü?) formülü paylaşması lazım — yoksa ben kendi ΔE'mi "kontrast" diye
+sunmuş olurum ve bu iki farklı ölçütü karıştırır. **Kendi payıma düşen:**
+teslim ettiğim 17 rengin (16 + astarhan) hepsi dosyanın kendi ΔE ≥ 12
+eşiğini raporlanan margin'lerle geçiyor; "kontrast" ayrı bir denetim ise
+onu ölçen taraf uygulamalı.
+
+### Plan — "kaç renk / ne kadar sürede"
+- **Astarhan**: teslim edildi (yukarıda).
+- **5 eski borç + buyuk-orda**: teslim edildi (EK-5/6/7/8).
+- **`cerkez`/`adige`**: `devletler.js`'te kayıt yok, tarih/bölge bilmeden
+  ΔE hesaplanamaz — TDV araştırması ilgili bölge oturumunun işi
+  (`KOORDINASYON.md §0 Kural 2`: kaynak gerektiren maddede Sonnet durur).
+  Kayıt geldiği gün (muhtemelen aynı oturum içinde, birkaç dakika) rengi
+  hazırlarım.
+- **İtalyan 5'lisi** (siena/ferrara/mantua/parma/piza): motor komşuluğu
+  olmadan üretmiyorum (EK-7), Oturum 16'ya havale.
+- **151'lik liste (Asya)**: siz de doğruladınız — pencere kapalı, üretmenin
+  bugün görünür karşılığı yok. Pencere açılana kadar bu listeye
+  dokunmuyorum; sıra geldiğinde aynı yöntemle (gerçek komşuluk + ΔE ≥ 12)
+  ilerlerim, tek tek elle değil toplu/reuse mantığıyla (EK-7'nin önerisi).
+
+---
+
+## EK-10 — "Sırbistan dörtlüsü" yanlış alarm + `macaristan-naiplik` ücretsiz kapandı + iki soru
+
+### Sırbistan ailesi: MOTOR'un Çelebi-şehzade duvarına ÇARPMIYORUZ
+Merkez oturum, MOTOR'un bulduğu "aynı aile içinde ΔE≥12 + tutarlı ton aynı
+opaklıkta çelişiyor" duvarının (Çelebi şehzadeleri, L* genişliği 28,7)
+`sirbistan`/`sirp-despotlugu`/`sirbistan-prensligi`/`sirbistan-kralligi`
+dörtlüsünde de çıkacağını söyledi. **Kendi dosyamı kontrol ettim, çıkmıyor:**
+
+```
+sirp-despotlugu       harita:"sirbistan"   (kimlikler.js:71)
+sirbistan-prensligi   harita:"sirbistan"   (kimlikler.js:101)
+sirbistan-kralligi    harita:"sirbistan"   (kimlikler.js:102)
+```
+
+Üçü de **zaten** `sirbistan`'ın kendi hex'ini (#6a8fa0) paylaşıyor — bu
+tesadüf değil, EK-3'te (ilk turda) bilerek böyle kurulmuştu: aynı ulusun
+sürekliliği tek renkle, aşama farkı etiketle gösteriliyor. Yani dört-tonlu
+bir "aile" ürettirilmiyor, MOTOR'un ölçtüğü duvara hiç girmiyoruz. Bu
+karışıklık muhtemelen Çelebi vakasıyla bu vakayı benzer sanmaktan geliyor —
+ikisi yüzeyde benziyor ama biri (Çelebi) gerçekten 4 EŞ ZAMANLI ayrı ton
+istiyor, diğeri (Sırbistan) 1 renk + 3 etiket istiyor.
+
+### `macaristan-naiplik` ÜCRETSİZ kapandı — `renkler.py`'ye hiç dokunulmadı
+`devletler.js:410` kendi notu: `macaristan` **tam** 1918-11-16'da bitiyor
+("cumhuriyet ilan edildi, bkz. macaristan-naiplik") — sıfır zamansal
+örtüşme. `data/kimlikler.js`'i (benim dosyam) düzenledim:
+`esad:["macaristan"], harita:"macaristan"` — mevcut #1e88e5'i güvenle
+paylaşıyor. **Yeni hex gerekmedi, renkler.py'de iş yok.** `bulgar-carligi`
+de zaten aynı şekilde `harita:"bulgaristan"` ile çözülüydü (kontrol ettim).
+
+### İki açık soru — tahmin etmek yerine soruyorum
+1. **`nemanjic-sirbistan` / `arnavutluk-1912`**: "harita çiziyor, katalog
+   bilmiyor" ifadesi şunu düşündürdü — bu noktalar ŞİMDİDEN var olan bir
+   kimlikle (muhtemelen `sirbistan` / `arnavutluk`) mı boyanıyor, yoksa
+   BOYASIZ mı duruyor? Birincisiyse bu **renk sorunu değil, yalnız
+   `devletler.js` katalog eksiği** (Oturum 3'ün işi, benim değil) — hersek
+   gibi "renk yok → boyanmıyor" değil. İkincisiyse gerçekten yeni hex
+   gerekiyor ama tarih/coğrafya için `devletler.js` kaydını bekliyorum
+   (kaynaksız tarih uydurmam, `KOORDINASYON.md §3`). Hangisi, netleşince
+   hemen hesaplarım.
+2. Önceki EK-9'daki "kontrast" formülü sorusu hâlâ açık.
+
+---
+
+## EK-11 — dosya sahipliği itirazı + dört yeni tespit + iki açık soru
+
+### `oturumlar/OTURUM-16-KUZEY-DOGU-AVRUPA.md` benim değil
+Merkez oturum "dosya senin" dedi ve o dosyadaki E.6 blokaj notunu güncellememi
+istedi. **`KOORDINASYON.md §1` satır 16'yı tekrar okudum: bu dosya Oturum
+16'nın satırında.** Benim satırım (9) yalnız `data/kimlikler.js`. Dosyaya
+dokunmadım — Kural 1 ("görev DOSYAYA göre dağıtılır") gereği bu iş
+gerçek sahibine (Oturum 16 ya da o notu yazan kim ise) gitmeli.
+
+### Önceki teslimler hâlâ "🔴 renk yok" diye raporlanıyor — mesaj kaybı doğrulandı
+`astarhan` · `buyuk-orda` · `hersek` · `zeta` · `bahreyn` · `idrisi` ·
+`macaristan-habsburg` — hepsi önceki EK'lerde teslim edildi, biri (astarhan)
+**bir mesaj önce** verildi. Son mesajda yedisi de yeniden "bekliyor" diye
+listelendi. Bu, "durum sorusu" turlarındaki desenin devamı; mesajlarımın
+düzenli ulaşmadığından artık eminim. Bu EK'te tekrar etmiyorum, tablo EK-5/
+6/8/9'da duruyor.
+
+### Dört yeni tespit — ikisi ücretsiz kapandı, ikisi gerçek yeni renk
+Kendi dosyamı (`data/kimlikler.js`) kontrol ederek çözdüm, hiçbiri
+`renkler.py`'ye dokunmadı:
+
+| Kimlik | Durum | Uygulanan |
+|---|---|---|
+| `sirbistan-nemanjic` | devletler.js:496'da GERÇEKTEN var (f:1217,t:1402), kimlikler.js'te eksikti | `harita:"sirbistan"` (sıfır örtüşme, sirp-despotlugu tam 1402'de başlıyor) |
+| `zend` | harita:null idi, gerçek gap | `harita:"safevi"` (ÇAPRAZ DOĞU'nun kendi validated tier tasarımı: safevi 1736 biter, zend 1751 başlar, sıfır örtüşme) |
+| `arnavutluk-bagimsiz` | harita:null idi, "7 pencere boyanmıyor" | `harita:"arnavutluk"` (arnavutluk-iskenderbey zaten aynı mantıkla paylaşıyordu) |
+| `macaristan-naiplik` | (önceki EK-10'da yapıldı) | `harita:"macaristan"` |
+
+**Dördü de `data/kimlikler.js`'te commit edilmeyi bekliyor** (dosyam,
+yazdım). Toplam kayıt: 235.
+
+### `afsar` — mevcut çözüm muhtemelen YANLIŞ, ama düzeltmedim (risk: çalışan bir şeyi bozmak)
+Şu an `harita:"iran"` diyor ve ÇALIŞIYOR (boyanıyor). Ama ÇAPRAZ DOĞU'nun
+tier tasarımı afsar'ı TEK BAŞINA 3. basamağa koyuyor — safevi/zend'den VE
+"iran"dan ayrı bir ton istediklerini gösteriyor. Gerçek örtüşme de var:
+afsar 1736-1796, zend 1751-1794 (kesişiyor, aynı safevi/zend rengini
+paylaşamaz — zaten paylaşmıyor) ve Kaçar/İran 1789'da başlıyor, afsar
+1796'ya kadar sürüyor (7 yıl örtüşme, "iran" bu dönemde kullanılıyorsa
+sorun). **Kimlikler.js'i DEĞİŞTİRMEDİM** çünkü şu an çalışan bir kurulumu
+doğrulanmamış bir varsayımla bozmak istemedim. Hazır aday:
+
+| Kimlik | Aday hex | En yakın komşu |
+|---|---|---|
+| `afsar` (öneri, henüz uygulanmadı) | `#38749f` (çelik mavisi) | zend/safevi ΔE 15,7 |
+
+Karar (uygula/uygulama) Oturum 16'ya veya İran bölgesini bilen oturuma ait.
+
+### `zaporojye` — gerçek gap, hazır
+harita:null, "Çehrin/Poltava 1648-1654 hâlâ Lehistan boyalı" bildirildi.
+Komşular: lehistan, rusya, kirim.
+
+| Kimlik | Hex | En yakın komşu |
+|---|---|---|
+| `zaporojye` | `#a68e30` (hardal/altın sarısı) | kirim ΔE 14,6 |
+
+Bunu da kimlikler.js'e UYGULAMADIM — `harita:"zaporojye"` yazmak için önce
+bu hex'in `renkler.py` `BOYALAR`'a girmesi gerekiyor (id `renkler.py`'de yoksa
+motor "kimliksiz nokta" uyarısı basar). Astarhan'da da aynı sıra izlendi:
+ben hesaplıyorum, Oturum 16 `BOYALAR`'a ekliyor, ondan SONRA ben `harita:`
+alanını yazıyorum.
+
+### İki açık soru
+1. **`kafkas-hanliklari`**: "kullanıcı kararı verildi" dendi ama tarih/bölge/
+   nokta listesi bende yok. `devletler.js`'de kaydı da yok (grep ettim).
+   Tarih olmadan ΔE hesaplayamam (kaynaksız uydurmam). Kaydı kim yazacak,
+   ne zaman — bilgi gelince hemen hesaplarım.
+2. **"15 tanımsız kimlik"** (228 noktalık partinin "ikinci kapısı") — liste
+   bende yok. Hangi 15 kimlik olduğunu paylaşırsanız hepsini aynı yöntemle
+   (gerçek/verilen komşuluk + bindirilmiş ΔE ≥ 12) tek turda hesaplarım.
+
+---
+
+## EK-12 — `dehlek` (Öncelik 1, tek başına teslim)
+
+Merkez oturumun "sırayla git, her birinden sonra haber ver" isteğine uyarak
+bu EK yalnız `dehlek`i içeriyor; 2/3 zaten önceki EK-11'de bitmişti.
+
+Komşu kümesi: memluk (aynı sahnede geniş çevre), habesistan, funj, adal,
+yemen (Kızıldeniz karşı kıyısı) — hepsi kahve/toprak/zeytin ailesinden
+(`CLAUDE.md`'nin kendi notu: "bu köşenin komşuları kahve/tan ailesinden").
+
+| Kimlik | Hex | En yakın komşu |
+|---|---|---|
+| `dehlek` | `#a838a8` (mürdüm/eflatun) | habesistan ΔE 36,2 |
+
+Diğer dördüne (memluk/funj/adal/yemen) payı daha geniş. Sıcak toprak
+ailesinden bilerek çıkarıldı (Habeş köşesindeki beş rengin hepsi kahve/tan
+olduğu için, `renkler.py`'nin kendi Darfur/Kaffa notundaki gibi soğuk ton
+seçildi). **Uygulanmadı** — önce `renkler.py` `BOYALAR`'a girmesi lazım
+(sıra astarhan/zaporojye ile aynı).
+  ilerlerim, tek tek elle değil toplu/reuse mantığıyla (EK-7'nin önerisi).

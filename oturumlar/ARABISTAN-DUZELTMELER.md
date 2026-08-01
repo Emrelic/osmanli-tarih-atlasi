@@ -4301,3 +4301,560 @@ Koordinatörün kararı betiğe girdi ve **koda yorum olarak** yazıldı:
 "elle tabloya dayanıyor" damgalı** — kesinleşmiş sayılmasın. Ve `savaslar.js`'in
 62 boş `taraf:` alanı dolunca betiği yeniden koşup 193'ün ne kadarının elle
 okunacağını ölçerim.
+
+---
+
+# AJ. 🔴 TÂBİİYET TABLOSU — VERİ DEVLET İÇİN · dayanaklarıyla ve HATALARIYLA
+
+> Koordinatörün acil talebi. Tablo bugüne kadar **yalnız benim betiğimde** duruyordu;
+> `ORGANIZASYON Karar 2` gereği dosyaya geçiyor. **8 `ic-savas` kararının tamamı
+> buna dayanıyor.**
+>
+> 🔴 **Yazarken kendi tablomu kendi verimizle çarpıştırdım (§63) ve ÜÇ HATA
+> buldum. Biri 82 yıllık.** Tabloyu düzeltilmiş hâliyle veriyorum ama **hangi
+> satırın nereden geldiğini** ve **hangisine güvenilmeyeceğini** ayrı ayrı yazıyorum.
+
+## AJ.1 ⚠️ ÖNCE: `tabi:` bir ALT-ARALIK alanıdır, `t:`'nin aynası değil
+
+VERİ DEVLET'in bulgusu tasarımı doğruluyor: `sirbistan-prensligi` kaydının kendi
+`t:`'si **1882** (krallık ilânı), ama tâbiiyeti **1878**'de (Berlin) bitiyor.
+**Sırbistan dört yıl bağımsız prenslik olarak yaşıyor.** `t:`'yi aynalamak o dört
+yılı tâbi gösterirdi.
+
+⇒ Aşağıdaki her aralık **kaydın kendi ömrünün içinde bir alt-aralıktır** ve
+ikisi bağımsız değişir.
+
+## AJ.2 TABLO — dayanak kademesiyle
+
+Dayanak kademeleri:
+**🟢 VERİ** = kendi kronolojimizde birebir maddesi var ·
+**🟡 TDV** = bu oturumda TDV'den doğrulandı ·
+**🟠 GENEL** = yaygın bilgi, bu oturumda doğrulanmadı ·
+**🔴 ZAYIF** = keyfî ya da esastan tartışmalı
+
+| kimlik | başlangıç | bitiş | dayanak | not |
+|---|---|---|---|---|
+| `kirim` | **`1475-06-06`** | `1774-07-21` | 🟢 / 🟠 | Başlangıç kronolojimizde birebir var: `1475-06-06 "Kırım'ın Osmanlı himayesine girişi"`. TDV `kirim` de 1475'i veriyor (gün yok). Bitiş Küçük Kaynarca — 🟠 doğrulanmadı. |
+| `bogdan` | **`1456-06-01`** | **`1859-01-24`** | 🟢 | 🔴 **İKİ UÇ DA DÜZELTİLDİ.** Başlangıç `1538-09-01` idi — **82 YIL GEÇ**; kronolojimizde `1456-06-01 "Boğdan'ın haraca bağlanışı"` var (1538 Bucak'ın ilhakı, tâbiiyetin başı değil). Bitiş `1877-05-21` idi — **kaydın kendi `t:`'sinden 18 YIL SONRA**; bkz. §AJ.6. |
+| `eflak` | **`1462-06-01`** | **`1859-01-24`** | 🟢 | 🔴 **İKİ UÇ DA DÜZELTİLDİ.** Başlangıç `1462-01-01` yer tutucusuydu; kronolojimizde `1462-06-01 "Eflak seferi: Kazıklı Voyvoda"` var. Bitiş `1877-05-21` idi — aynı hata; bkz. §AJ.6. |
+| `misir-kavalali` | `1805-07-03` | `1914-12-18` | 🟢 | İkisi de bu oturumda doğrulanıp veriye uygulandı (Kavalalı'nın valiliği ↔ İngiliz himayesi). En sağlam satır. |
+| `bulgaristan-prensligi` | `1878-07-13` | `1908-10-05` | 🟠 | Berlin ↔ bağımsızlık ilânı. Kaydın kendi `f`/`t`'si de aynı — tâbiiyet ömrüyle çakışıyor. |
+| `sirbistan-prensligi` | `1817-01-01` | `1878-07-13` | 🟠 | ⚠️ Başlangıç **yer tutucu** (`-01-01`), gün bilinmiyor. Bitiş sağlam (Berlin) ve kaydın `t:`'sinden (1882) **farklı** — alt-aralık örneği. |
+| `erdel` | 🔴 **YAZMAYIN** | 🔴 **YAZMAYIN** | 🔴 | ⚠️ Betiğimde `1541-08-29 → 1699-01-26` yazıyordu. **Başlangıç ÖDÜNÇ** (Budin ilhakı maddemizin tarihi) **ve kaydın kendi `f:"1570-01-01"`'inden 29 YIL ÖNCE** — yani kayıt daha yokken tâbiiyet başlatıyor. **İmkânsız aralık. VERİ DEVLET bunu kendi kaynağıyla koysun, benim değerimi kullanmasın.** |
+| `dulkadir` | `1515-06-13` | `1522-01-01` | 🔴 | ⚠️ **Başlangıç savaşın KENDİ GÜNÜ** — Turnadağ. Keyfî: bir gün kaydırılsa sınıflandırma değişir. Bitiş tamamen yer tutucu. **En zayıf satır.** |
+| `suud-birinci` | `1744-01-01` | **`1818-09-09`** | 🔴 | 🔴 **DÜZELTİLDİ — betiğimde `1818-09-11` yazıyordu**, kronolojimiz `1818-09-09 "Dir'iye düştü"` diyor. **AMA ESAS SORU AYRI, aşağı bak.** |
+| `yemen-zeydi` | `1538-08-03` | `1635-01-01` | 🔴 | **ESASTAN TARTIŞMALI, aşağı bak.** |
+
+## AJ.3 🔴 İKİ SATIR ESASTAN YANLIŞ OLABİLİR — VERİ DEVLET KARAR VERSİN
+
+### `suud-birinci` — tâbi miydi, ÂSİ miydi?
+
+İlk Suûdî Emirliği'ni tâbiiyet tablosuna koymuşum. **Ama o bir tâbi değil, Osmanlı
+otoritesine karşı kurulmuş bir devletti** — Mekke'yi ve Medine'yi Osmanlı'dan
+aldı, üzerine sefer düzenlendi. CLAUDE.md §3 bile *"1744 öncesi Necid"*i kasten
+boş bırakılan bölgeler arasında sayıyor, yani **Necid Osmanlı toprağı olarak
+modellenmiyor.**
+
+🔴 **Etkilediği karar:** `1815-01-20 "Bisel Muharebesi"` bu satır yüzünden
+**`ic-savas`** çıktı. `suud-birinci` tablodan düşerse **`dis-savas`** olur.
+
+### `yemen-zeydi` — Zeydîler tâbi değil, RAKİPTİ
+
+Zeydî imâmeti Osmanlı'nın Yemen'deki **karşı tarafıydı**: Osmanlı sahili ve
+Zebîd'i tuttu, Zeydîler dağlık iç bölgeyi; 1635'te Osmanlı Yemen'den çekildi.
+Bunu "tâbi" saymak, savaşın iki tarafını da aynı hâkimiyete koymak olur.
+
+🟡 Bu satır **hiçbir kararı etkilemedi** (104 madde içinde `yemen-zeydi` karşı
+taraf olarak çıkmadı), ama tabloda kalırsa ilerde yanlış sınıflandırma üretir.
+
+## AJ.4 📊 8 `ic-savas` KARARININ DAYANAK DAĞILIMI
+
+| karar | dayandığı satır | sağlamlık |
+|---|---|---|
+| `1832-07-08` Humus | `misir-kavalali` | 🟢 sağlam |
+| `1832-07-29` Belen | `misir-kavalali` | 🟢 sağlam |
+| `1832-11-21` Konya'ya giriş | `misir-kavalali` | 🟢 sağlam |
+| `1832-12-21` Konya Meydan | `misir-kavalali` | 🟢 sağlam |
+| `1839-06-24` Nizip | `misir-kavalali` | 🟢 sağlam |
+| `1875-06-19` Hersek İsyanı | `sirbistan-prensligi` | 🟠 bitiş sağlam, olay 1875 aralığın içinde |
+| `1515-06-13` Turnadağ | `dulkadir` | 🔴 **keyfî sınır** |
+| `1815-01-20` Bisel | `suud-birinci` | 🔴 **esastan tartışmalı** |
+
+⇒ **6'sı sağlam, 2'si şüpheli.** Koordinatörün "kesinleşmiş sayma" damgası
+**altısından kalkabilir**, ikisi damgalı kalmalı.
+
+## AJ.5 📌 BU TABLONUN KENDİSİ §63'ÜN VAKASI
+
+Kuralı sabah ben önerdim: *"gelen her tarih, elimizdeki bağımsız bir veriyle
+çarpıştırılır."* Tabloyu yazarken **kendi tabloma uyguladım** ve üç hata çıktı:
+Boğdan 82 yıl, Eflak yer tutucu, Suûdî 2 gün.
+
+📌 İnceliği şu: bu tablo **hiçbir zaman bir kaynaktan gelmemişti.** Ben onu
+ölçüt çalışsın diye kafamdan yazdım ve **betiğin içinde kaldığı sürece kimse
+sorgulayamadı** — çıktısı makul göründüğü için de kimse şüphelenmedi. Dosyaya
+yazma zorunluluğu onu **sorgulanabilir** hâle getirdi ve üç hata aynı saatte
+düştü.
+
+🔴 **Genel ders: betiğin içindeki elle yazılmış sabit, veri değildir — ama veri
+gibi davranır.** `ORGANIZASYON Karar 2` bunu "durum bilgisi dosyayla akar" diye
+söylüyor; ben buna şunu eklerim: **ölçütün içindeki varsayım da bir durum
+bilgisidir.**
+
+---
+
+# AK. TÂBİİYET TABLOSU — İKİNCİ TUR · üç hata daha, ve bir DOSYALAR ARASI ÇELİŞKİ
+
+> §AJ'yi yazdıktan sonra tabloyu **`devletler.js`'in kendi `f`/`t` değerleriyle**
+> çarpıştırdım (§63). Üç hata daha çıktı. **§AJ'deki tablo yerinde düzeltildi** —
+> uygulayıcı oradaki hâli kullansın, bu bölüm neyin niye değiştiğini anlatıyor.
+
+## AK.1 ✅ ÖNCE İYİ HABER — iki önerim uygulanmış
+
+`devletler.js` bugün şöyle:
+```
+memluk             1250-01-01 .. 1517-04-13   ✅ §Aİ önerisi uygulandı
+rodos-sovalyeleri  1310-01-01 .. 1798-06-12   ✅ Malta'ya uzatılmış
+```
+§AG'deki 14 uyarı **10'a** düştü; kalan 10'un 9'u Balkan Savaşları'ndaki
+`sirbistan-prensligi` / `bulgaristan-prensligi` kimlikleri (ardılları hazır,
+`savaslar.js` güncellenmemiş), 1'i `1799-05-20` Akkâ'nın eksik `taraf:`ı.
+
+`tabi:` alanı **henüz 0 kayıtta** — VERİ DEVLET tabloyu bekliyordu, §AJ ile gitti.
+
+## AK.2 🔴 ÜÇ HATA DAHA — hepsi "alt-aralık kaydın ömrünü aşıyor"
+
+| kimlik | benim yazdığım | kaydın kendi ömrü | sorun |
+|---|---|---|---|
+| `bogdan` | → `1877-05-21` | `1359-01-01 .. **1859-01-24**` | bitiş **18 yıl sonrasına** taşıyor |
+| `eflak` | → `1877-05-21` | `1330-01-01 .. **1859-01-24**` | bitiş **18 yıl sonrasına** taşıyor |
+| `erdel` | `1541-08-29` → | `**1570-01-01** .. 1711-04-30` | başlangıç **29 yıl öncesine**, kayıt henüz yokken |
+
+**Sebep — tek bir yanlış varsayım:** Eflak ve Boğdan'ın tâbiiyetini **1877
+Romanya bağımsızlığında** bitirmişim. Ama o tarihte Eflak ve Boğdan **artık ayrı
+varlık değildi**: kronolojimizde `1859-01-24 "Eflak ve Boğdan'ın birleşmesi"`
+maddesi var ve `devletler.js` ikisini de tam o güne kapatıyor. **Birleşmeden
+sonraki 18 yıl Romanya'nın tarihidir, Eflak'ın değil.**
+
+📌 `erdel` ise ters yönde aynı hata: tâbiiyeti kaydın **doğuşundan önce**
+başlatmışım. Bir alt-aralık, üzerinde durduğu kaydın dışına taşamaz —
+bu **şema düzeyinde** bir kural ve `tabi:` alanı yazılırken denetlenebilir.
+
+🟢 **VERİ DEVLET'e öneri: `tabi:` alanına şu kontrolü koy —**
+> `f_kayit <= f_tabi < t_tabi <= t_kayit`
+>
+> Benim üç hatamın **üçünü birden** yakalardı ve bedava.
+
+## AK.3 🔴 DOSYALAR ARASI ÇELİŞKİ — MISIR, iki tarih iki dosyada
+
+Tabloyu çarpıştırırken **benim tablomla ilgisi olmayan** bir çelişki çıktı:
+
+| | başlangıç | bitiş |
+|---|---|---|
+| `data/yerlesimler.js` | **`1805-07-03`** (56 kayıt) | **`1914-12-18`** (111 kayıt) |
+| `data/devletler.js` `misir-kavalali` | **`1805-07-09`** | **`1914-11-05`** |
+
+**İki canlı dosyamız Kavalalı hanedanının iki ucunu da farklı yazıyor.**
+
+- **Bitişte kronoloji `yerlesimler.js`'i destekliyor:** `1914-12-18 "Mısır'ın
+  İngiliz himayesine alınarak sultanlık ilan edilmesi"` maddesi var.
+  `1914-11-05` başka bir olayın günü (İngiltere'nin Osmanlı'ya savaş ilânı ve
+  Kıbrıs'ın ilhakı) — **himaye tarihi değil.**
+- **Başlangıçta hüküm vermiyorum:** `1805-07-03` bu oturumda doğrulanıp 56 kayda
+  uygulanmıştı; `devletler.js` `1805-07-09` diyor. **Altı günlük fark ve ikisi de
+  makul** (Kavalalı'nın valiliğe tayini için kaynaklarda birden çok gün geçiyor).
+  **TDV'den ayrıca doğrulanmalı** — bu turda yapmadım, yapmadan söylemiyorum.
+
+⇒ **Bitiş için `1914-12-18` öneriyorum** (kronoloji + 111 yerleşim kaydı aynı
+günü söylüyor, `devletler.js` tek başına kalıyor).
+⇒ **Başlangıç için "doğrulanmalı" diyorum**, öneri yapmıyorum.
+
+## AK.4 📊 ON SATIRLIK TABLOMUN KARNESİ
+
+Dürüst dökümü: **10 satırın 6'sında hata vardı.**
+
+| satır | durum |
+|---|---|
+| `misir-kavalali` | 🟡 kendisi doğru ama `devletler.js` ile çelişiyor (AK.3) |
+| `kirim` | ✅ sağlam — `1475-06-06 .. 1774-07-21`, kaydın `1441..1783` ömrünün düzgün alt-aralığı |
+| `bulgaristan-prensligi` | ✅ sağlam |
+| `sirbistan-prensligi` | ✅ bitiş sağlam, başlangıç yer tutucu |
+| `bogdan` | 🔴 **iki uç da yanlıştı** — düzeltildi |
+| `eflak` | 🔴 **iki uç da yanlıştı** — düzeltildi |
+| `erdel` | 🔴 **imkânsız aralık** — çekildi, VERİ DEVLET koysun |
+| `dulkadir` | 🔴 keyfî sınır — damgalı kalıyor |
+| `suud-birinci` | 🔴 tarih düzeltildi ama **esastan tartışmalı** (âsi mi tâbi mi) |
+| `yemen-zeydi` | 🔴 **tablodan çıkarıldı** — Zeydîler tâbi değil rakipti |
+
+## AK.5 📌 ASIL DERS — ve koordinatörün ısrarı haklıydı
+
+Bu tablo **bir gün boyunca betiğin içinde durdu** ve o süre boyunca:
+- çıktısı makul göründü (95/8/1 — kimse şüphelenmedi),
+- **8 `ic-savas` kararının tamamını** belirledi,
+- ve **kimse göremediği için kimse sorgulamadı.**
+
+Dosyaya yazma zorunluluğu geldiği anda **iki turda altı hata** düştü. Hiçbiri yeni
+araştırmayla bulunmadı — hepsi **zaten elimizdeki veriyle çarpıştırınca** çıktı:
+kronolojimiz Boğdan'ın 1456'da haraca bağlandığını, Eflak ile Boğdan'ın 1859'da
+birleştiğini, `devletler.js` Erdel'in 1570'te doğduğunu **zaten yazıyordu.**
+
+🔴 **Betiğin içindeki elle yazılmış sabit, veri gibi davranır ama veri değildir:
+kaynağı yoktur, denetimi yoktur, görünürlüğü yoktur.** §63'ün ("gelen tarih iç
+veriyle çarpıştırılır") bir adım ötesi şu olmalı:
+> **Ölçütün içindeki varsayım da bir tarihtir ve aynı çarpıştırmaya tâbidir.**
+
+---
+
+# AL. `tabi:` VERİDEN OKUNUYOR — §64 kapandı · ve KENDİ CÜMLEMİ ÇÜRÜTTÜM
+
+> Elle kurulmuş tablo betikten **silindi**, `devletler.js`'in `tabi:` alanından
+> okunuyor. Koordinatörün istediği kıyas yapıldı ve **sonuç beklediğimden farklı.**
+
+## AL.1 🔴 ÖNCE: DÜN YANLIŞ SÖYLEDİM
+
+Dün §AK.5'te şöyle bitirmiştim:
+> *"Betik tabloyla hizalandı, sayılar değişmedi — yani **altı hatanın hiçbiri bir
+> sınıflandırmayı çevirmiyordu.**"*
+
+**Bu yanlıştı.** Bugün VERİ SAVAŞ 62 boş `taraf:` alanını doldurunca ölçüm kesiti
+108 → 170 kayda çıktı, ve **Boğdan düzeltmem iki sınıflandırmayı çevirdi:**
+
+```
+1475-01-10  Boğdan'da Racova (Vaslui) bozgunu
+1476-07-26  Akdere (Valea Albă) zaferi — Boğdan seferi
+     ILK tablo (bogdan 1538'den başlıyor)  → dis-savas   ❌
+     DÜZELTİLMİŞ (bogdan 1456'dan)         → ic-savas    ✅
+```
+
+Dün bu iki maddenin `taraf:` alanı **boştu**, yani sınıflandırmaya hiç girmiyordu.
+Hata **görünmez** değil, **henüz taşımıyor**du.
+
+📌 **Doğru cümle şu olmalıydı:** *"altı hatanın hiçbiri BUGÜNKÜ kesitte bir
+sınıflandırmayı çevirmiyor."* Kesit büyüdüğü anda çevirdi.
+🔴 **Ve asıl ders bu:** gizli bir hata "sonuç değişmiyor" diye zararsız sayılamaz —
+**yalnız henüz yük taşımıyordur.** Veri büyüdüğünde yük binmesi an meselesidir.
+Koordinatörün "tabloyu dosyaya yaz" ısrarı tam **bir gün** önce geldi.
+
+## AL.2 📊 KONTROLLÜ KIYAS — aynı gün, aynı veri, üç tâbiiyet kaynağı
+
+| kaynak | `dis-savas` | `ic-savas` | taraf değil | uyarı | toplam |
+|---|---:|---:|---:|---:|---:|
+| İLK elle tablo (düzeltilmemiş) | 123 | 10 | 1 | 12 | 146 |
+| Düzeltilmiş elle tablo (§AK) | 121 | 12 | 1 | 12 | 146 |
+| **`devletler.js` `tabi:`** | **124** | **9** | 1 | 12 | 146 |
+
+**Beş madde ayrışıyor — ikisi Boğdan (yukarıda), üçü `suud-birinci`:**
+
+| madde | elle tablo | veriden |
+|---|---|---|
+| `1801-03-08` Kavalalı Mehmed Ali Mısır'a çıktı | ic-savas | **dis-savas** |
+| `1811-12-01` Safra-Cedîde boğazında ilk bozgun | ic-savas | **dis-savas** |
+| `1815-01-20` Bisel Muharebesi | ic-savas | **dis-savas** |
+
+Üçü de `suud-birinci`'yi tâbi saymamın sonucuydu. **VERİ DEVLET onu `tabi:`
+alanına koymadı** (âsi/rakip devletti) ⇒ üçü `dis-savas` oldu. **İtirazım
+uygulandı ve sonucu burada görünüyor.**
+
+⇒ **Ölçüm 105 değil 146 maddeye çıktı** (`taraf:` dolu 108 → 170).
+`dis-savas` **95 → 124**, `ic-savas` 8 → 9.
+
+## AL.3 🔴 KENDİ ARACIMDA BİR KUSUR — YAKINLIKLA BAĞLAMA
+
+`1801-03-08 "Kavalalı Mehmed Ali Mısır'a çıktı"` maddesi neden `suud-birinci`
+taşıyor? Çünkü betiğim onu **24 gün ötedeki** şu kayda bağlamış:
+
+```
+savaslar.js  1801-04-01  "Vehhâbîlerin Kerbelâ baskını"
+```
+**Alâkasız.** Mehmed Ali'nin Mısır'a çıkışının Kerbelâ baskınıyla ilgisi yok.
+
+📌 Bu, tam da bu oturumda tekrar tekrar bulduğum sınıfın **kendi aracımdaki**
+hâli: *"madde var mı ≠ **doğru** madde mi"*. Betiğim ±30 gün penceresindeki **en
+yakın** savaş kaydını alıyor ve **anlamsal doğrulama yapmıyor.**
+
+### Bağlanma kalitesi ölçüldü
+
+| fark | adet |
+|---|---:|
+| **tam aynı gün** | **90** |
+| 1-7 gün | 14 |
+| 8-15 gün | 15 |
+| 16-30 gün | 27 |
+
+90'ı (%62) tam gün — güvenli. Gevşek olan 56'nın **18'ini elle okudum**:
+çoğu **doğru** (Çaldıran, Niğbolu, Haçova, Viyana, Belgrad, Trablusgarp, Navarin —
+hepsi aynı olay), ama en az **beşi yanlış**:
+
+| madde | yanlış bağlandığı kayıt |
+|---|---|
+| `1801-03-08` Kavalalı'nın Mısır'a çıkışı | Vehhâbîlerin Kerbelâ baskını |
+| `1896-09-23` Dongola'nın geri alınışı | Osmanlı Bankası baskını |
+| `1515-05-19` Kemah Kalesi'nin fethi | Turnadağ |
+| `1737-07-13` Özi'nin Ruslara düşüşü | Banaluka zaferi |
+| `1832-11-21` Mısır ordusu Konya'ya girdi | Konya Meydan Muharebesi |
+
+⚠️ Sonuncusu özellikle can sıkıcı: **§R'de bu ikisinin AYRI olay olduğunu ben
+göstermiştim** (kendi önerimi çürüterek). Aracım şimdi onları yeniden birleştiriyor.
+
+⇒ **Gevşek bağlanan 56 maddenin sınıfı, anlamsal doğrulama yapılmadan
+kesinleşmiş sayılmamalı.** 90'ı güvenli.
+
+## AL.4 🎁 GEVŞEKLİĞİN SEBEBİ ÖLÇÜLDÜ — §8 ihlalleri
+
+Gevşek bağlanmaların çoğu benim aracımın kusuru değil, **verinin ay
+hassasiyetinde olması**: `1514-08` Çaldıran · `1396-09` Niğbolu · `1596-10`
+Haçova · `1529-09` I. Viyana · `1911-09` Trablusgarp · `1877-04` 93 Harbi ·
+`1827-10` Navarin.
+
+Ölçtüm:
+```
+tüm kronoloji maddesi          1009
+AY hassasiyetinde (§8 ihlali)    35
+  bunlardan `savas` etiketli     20
+```
+**35 madde günsüz.** Bu 20'si benim ölçümümde doğrudan gevşeklik üretiyor —
+ve aynı 35, Değişmez 2'nin ±30 gün penceresinde de kayma üretiyor.
+
+🟢 **Öneri: 35 ay-hassasiyetli maddenin günü tamamlansın.** Çoğunun günü
+`savaslar.js`'te **zaten var** (Çaldıran `1514-08-23`, Niğbolu `1396-09-25`
+gibi) — yani yeni araştırma değil, **kendi dizinimizden aktarma** işi.
+Bu, §Aİ.2'de bulduğum Ridâniye vakasının (`1517-01` → `1517-01-22`) genel hâli.
+
+## AL.5 🟡 12 UYARI — 9'u aslında `ic-savas`
+
+Kalan 12 uyarının hepsi `taraf:["osmanli"]`, yani **karşı taraf yazılmamış**.
+Ama okuyunca **9'unda bu doğru veri**: iki taraf da Osmanlı.
+
+```
+1403-09-01 Ulubat · 1405-01-01 Yenişehir Ovası · 1410-06-15 Kosmidion
+1412-10-01 İnceğiz · 1413-07-05 Çamurlu           → Fetret, iki taraf da Osmanlı
+1481-06-20 Yenişehir (Cem Sultan) · 1559-05-30 Konya Şehzâdeler → hanedan
+1607-10-23 Oruç Ovası · 1608-08-05 Alaçayır       → Celâlî, tebaa
+```
+**Üçünde ise karşı taraf gerçekten eksik:**
+`1371-09-26` Çirmen (Sırp beyleri) · `1799-05-20` Akkâ (Fransa) ·
+`1896-09-23` Dongola (Mehdî devleti).
+
+🟢 **Öneri: `taraf:["osmanli"]` tek başına "iç savaş" demenin geçerli yoludur** —
+eksik veri değil. Ama üç kayda karşı taraf eklenmeli. Aracımı buna göre
+düzeltmiyorum çünkü **hangisinin kasıtlı hangisinin eksik olduğu veriden
+okunamıyor**; VERİ SAVAŞ üçünü doldurunca kural otomatik işler.
+
+## AL.6 Özet
+
+| ✅ | 🔴 |
+|---|---|
+| Elle tablo silindi, `tabi:` veriden okunuyor — **§64 kapandı** | Dünkü *"hiçbiri sınıflandırma çevirmiyordu"* cümlem **yanlıştı** |
+| Ölçüm 105 → **146 madde** (`taraf:` 108 → 170) | Aracımda **yakınlıkla bağlama** kusuru — en az 5 yanlış eşleşme |
+| `suud-birinci` itirazım uygulandı, 3 madde `dis-savas` oldu | 56 gevşek bağlanma **kesinleşmiş sayılmasın** |
+| Boğdan düzeltmem 2 sınıflandırmayı **doğruya çevirdi** | 35 ay-hassasiyetli madde §8'i ihlal ediyor |
+
+---
+
+# AM. MISIR BAŞLANGICI — TDV KESTİ · ve bir SLUG dersi daha
+
+> §AK.3'te *"başlangıçta hüküm vermiyorum, TDV'den doğrulanmalı"* demiştim.
+> Doğrulandı.
+
+## AM.1 🔴 SLUG — `mehmed-ali-pasa` ÖLÜ ÇIKTI
+
+Koordinatörün önerdiği üç slug'dan ilkini denedim:
+```
+mehmed-ali-pasa            ❌ ÖLÜ  (arama sayfasına düşüyor)
+kavalali-mehmed-ali-pasa   ✅ CANLI  "KAVALALI MEHMED ALİ PAŞA - TDV İslâm Ansiklopedisi"
+```
+📌 **Slug kuralı yine iş gördü** (*"bir slug ölü çıktığında 'kaynak yok' denmez,
+alternatif denenir"*). Aramada iki aday çıktı — `kavalali-mehmed-ali-pasa` ve
+`mehmed-ali-pasa-kavalali`; ilki tuttu.
+
+## AM.2 ✅ `1805-07-03` DOĞRU — `devletler.js` tek aykırı
+
+`kavalali-mehmed-ali-pasa`, **iki çekiş birebir aynı**:
+
+> **"…ulemâ, eşraf ve Mısır halkının desteğini de elde edip Bâbıâli tarafından
+> valiliğe getirildi (3 Temmuz 1805)."**
+
+⇒ **`1805-07-03`.** Hicrî karşılık verilmiyor.
+
+| kaynak | değer | |
+|---|---|---|
+| TDV `kavalali-mehmed-ali-pasa` | **`1805-07-03`** | ✅ |
+| `data/olaylar*.js` | `1805-07-03 "Bâbıâli oldubittiyi kabul etti"` | ✅ |
+| `data/yerlesimler.js` | `1805-07-03` — **56 kayıt** | ✅ |
+| **`data/devletler.js`** `misir-kavalali` | `1805-07-09` | 🔴 **tek aykırı** |
+
+### 🟢 DÜZELTME
+`devletler.js` `misir-kavalali` `f:"1805-07-09"` → **`"1805-07-03"`**,
+ve `tabi:` alanındaki `f:` de aynı güne. `kaynak:"kavalali-mehmed-ali-pasa"`.
+
+📌 Bitişte de aynı desen çıkmıştı (§AK.3): `devletler.js` `1914-11-05`, geri
+kalan her şey `1914-12-18`. **Kavalalı kaydının iki ucu da yalnız `devletler.js`'te
+farklıydı** ve ikisi de düzeltiliyor.
+
+## AM.3 🎁 MADDE DÖRT TARİH DAHA VERDİ — üçü tuttu, biri boşluk
+
+`kavalali-mehmed-ali-pasa` maddesindeki tarihleri kendi verimizle çarpıştırdım
+(§63):
+
+| TDV | bizde | |
+|---|---|---|
+| **8 Mart 1801** Mısır'a gelişi | `1801-03-08 "Kavalalı Mehmed Ali Mısır'a çıktı"` | ✅ |
+| **1 Mart 1811** Memlüklerin öldürüldüğü davet | `1811-03-01 "Kal'a Vakası: Kölemen beylerinin tasfiyesi"` | ✅ |
+| **24 Haziran 1839** Nizip | `1839-06-24 "Nizip Muharebesi"` | ✅ |
+| **27 Kasım 1840** Napier ile anlaşma | `1840-11-27 "İskenderiye Konvansiyonu"` | ✅ |
+| **24 Mayıs 1841** irsî idare fermanı | `1841-05-24` | ✅ |
+| **2 Ağustos 1849** ölümü | `1849-08-02 "Kavalalı Mehmed Ali Paşa'nın ölümü"` | ✅ |
+| **6 Nisan 1818** Dir'iye kuşatması başladı | — | 🔴 **YOK** |
+
+**Altı tarihin altısı tuttu.** Bu, verinin bu kuşakta sağlam olduğunun bağımsız
+teyidi — ve `devletler.js`'in tek aykırı kalmasını daha da güçlendiriyor.
+
+### 🟡 YENİ ADAY — `1818-04-06` Dir'iye kuşatmasının başlaması
+
+1818 penceresini okudum: **bütün yılda TEK madde var** —
+`1818-09-09 "Dir'iye düştü — ilk Suûdî Devleti sona erdi"`.
+
+TDV *"6 Nisan 1818: Dir'iye kuşatması başladı"* diyor. **Beş aylık bir kuşatma,
+başlangıç maddesi olmadan duruyor.**
+
+📌 Bu tam da §Z.4'te bulduğum desenin tersi: orada **dizin başlangıcı, kronoloji
+sonucu** yazıyordu; burada **kronoloji yalnız sonucu** yazıyor ve başlangıç
+hiçbir yerde yok.
+
+⚠️ **Madde önerisi yazmıyorum, çünkü tarihi tek çekişten aldım** (§63). İkinci
+çekişte "Diğer Önemli Tarihler" listesinde göründü ama **cümlesini görmedim** —
+kuşatmanın başlangıcı mı, İbrâhim Paşa'nın şehre varışı mı ayırt edemiyorum.
+**İkinci tur gerekiyor.**
+
+## AM.4 🟡 KÜÇÜK BİR ŞÜPHE — Akkâ'nın günü
+
+Bu turda gözüme çarptı, **doğrulamadım, iddia etmiyorum**: veride
+`1840-11-03 "Akkâ iki saatte düştü"` duruyor. Bu oturumun erken bir turunda
+Akkâ için `1840-11-04` doğrulamıştım (§ geçerli listesi). **Bir günlük fark.**
+
+Hangisinin doğru olduğunu **bugün ölçmedim** — belki uygulanırken değişti, belki
+benim eski notum yanlıştı. **Ucuz bir kontrol**, kim bakarsa `akka` slug'ından
+teyit etsin.
+
+## AM.5 Özet
+
+| ✅ | 🔴 / 🟡 |
+|---|---|
+| `1805-07-03` **iki çekişle doğrulandı** | `devletler.js` `f:"1805-07-09"` → **düzeltilecek** |
+| Maddedeki 6 tarihin 6'sı verimizle tuttu | `1818-04-06` Dir'iye kuşatması — **aday, ikinci tur gerek** |
+| `mehmed-ali-pasa` ölü, doğrusu bulundu | Akkâ `1840-11-03` ↔ `1840-11-04` — **kontrol edilsin** |
+
+**Bu turda canlı sınanmış slug:** `kavalali-mehmed-ali-pasa`
+**ÖLÜ olduğu ölçülmüş:** `mehmed-ali-pasa`
+
+---
+
+# AN. "193"ÜN GERÇEK BÜYÜKLÜĞÜ ÖLÇÜLDÜ — **47**, ve kendi tavsiyemi düzeltiyorum
+
+> Koordinatörün 3. kalemi: *"193'ün gerçek büyüklüğünü ölç."* Ölçtüm.
+> **Cevap 193 değil 47** — ve yolu `savaslar.js` değil `yerlesimler.js`'ten geçiyor.
+
+## AN.1 🔴 ÖNCE: TAVSİYEM YARIM DOĞRUYDU
+
+§AG.6'da şöyle demiştim:
+> *"62 boş `taraf:` alanını doldurmak, 193 kronoloji maddesini tek tek okumaktan
+> **çok daha ucuz.**"*
+
+VERİ SAVAŞ doldurdu (108 → **170/170**). Ölçtüm:
+
+```
+BAGLANMAYAN madde   ONCE 193   →   SONRA 196
+```
+**Hiç azalmadı.** (196 olması 3 yeni `savas` etiketli madde eklenmesinden.)
+
+**Sebebi basit ve baştan görülebilirdi:** bu maddelerin ±30 gün penceresinde
+**hiç savaş kaydı yok.** `taraf:` alanı ancak **bağlanan** bir kaydı çözebilir;
+bağlanmayanı hiçbir zaman çözemezdi.
+
+📌 **Tavsiyem faydalıydı ama tarif ettiğim işi yapmadı:** 62 alan, *"bağlanıyor
+ama karar verilemiyor"* durumundaki **42 maddeyi** karara bağladı (104 → 146).
+Bu gerçek bir kazanç. Ama ben onu *"193'ü küçültür"* diye sundum ve **küçültmedi.**
+
+🔴 Bu, §67'nin kardeşi: orada *"sonuç değişmiyor"* aldatıyordu, burada
+**doğru iş, yanlış gerekçeyle** savunuldu. İkisi de aynı şeyi gerektiriyor —
+**tavsiyenin hangi mekanizmayla işleyeceğini önceden yazmak.**
+
+## AN.2 ✅ GERÇEK YOL — `yer:` alanı
+
+196 bağlanmayan maddeyi inceledim:
+
+```
+BAGLANMAYAN madde                     196
+  yer: alani DOLU olan                196   ← %100
+  yer: yerlesimler.js'te TUTAN        149   ← %76
+```
+
+**196'sının 196'sında `yer:` alanı dolu**, ve **149'unda adı geçen yerleşim
+`yerlesimler.js`'te var.** Bu maddeler için karşı taraf **veriden okunabilir**:
+> *o yerleşimin, olay tarihinden hemen önce sahibi kimdi?*
+
+Bu tam olarak ölçütün istediği girdi — ve `savaslar.js`'e hiç ihtiyaç duymuyor.
+
+**Örnekler:** `1481-09-10` Otranto'nun tahliyesi (`yer:Otranto`) ·
+`1501-08-17` Draç'ın fethi (`yer:Draç`) · `1476-02-01` Böğürdelen'in Macarlara
+kaybı · `1388-01-01` Şumnu, Rusçuk · `1919-05-15` İzmir'in işgali.
+
+### ⚠️ Ve bu sayının 114'ten 149'a çıkması BENİM AYIRICIMIN düzeltilmesiyle oldu
+
+İlk kaba ayırıcım **114** demişti. `yer:"Kili (Chilia), Tuna deltası"` gibi
+kayıtlarda parantezli adı olduğu gibi arıyordu ve tutmuyordu. Parantezi atıp
+"Kalesi/Geçidi/Limanı" eklerini soyunca **149** oldu.
+
+📌 **35 kayıt veri kusuru değil ayırıcı kusuruydu** — §AD.3'te aynı şeyi
+yaşamıştım ("43 aday, 12'si gerçek"). **Bir ölçümün düşük çıkması, önce ölçen
+aracın sorgulanmasını gerektirir.**
+
+## AN.3 📊 GERÇEK ARTIK: 47 MADDE
+
+```
+etiket "savas" tasiyan madde                342
+├─ savaslar.js'e baglanan  → taraf: ile     146   ✅ siniflandi
+└─ baglanmayan                              196
+   ├─ yer: yerlesimler.js'te tutuyor        149   🟢 MAKINEYLE COZULEBILIR
+   └─ yer: bolge adi, yerlesim degil         47   🔴 ELLE
+```
+
+**Elle okunacak gerçek artık: 47 madde.** Benim §AG'de *"234 madde elle
+okunacak"* dediğim sayının **beşte biri.**
+
+Kalan 47'nin cinsi belli: `yer:` alanı **bölge** adı taşıyor, yerleşim değil —
+`Mısır` · `Batı Anadolu` · `Eflak` · `Rumeli` · `Gemlik körfezi` · `Horasan`.
+Bunlar için ölçüt yerleşim düzeyinde çalışmaz, **bölge düzeyinde** bir karar
+gerekir.
+
+## AN.4 🟢 ÖNERİ — ama bu sefer mekanizmasını yazıyorum
+
+**149 madde için:** `yer:` alanındaki yerleşim adı `yerlesimler.js`'te bulunur,
+olay tarihinden bir gün öncesinin sahibi okunur, o sahip karşı taraftır. Sonra
+mevcut üç sonuçlu ölçüt aynen uygulanır.
+
+**Bunun işlemesi için gereken üç şey — ve hangisi eksik:**
+| gereken | durum |
+|---|---|
+| `yer:` alanı dolu | ✅ 196/196 |
+| ad `yerlesimler.js`'te tutuyor | ✅ 149/196 |
+| yerleşimin o tarihteki sahibi okunabiliyor | ✅ `girdi.yukle` ile |
+
+**Üçü de var.** Yani bu iş bugün yapılabilir; yeni veri girişi gerekmiyor.
+
+⚠️ **Ama bir tuzağı var ve şimdiden söylüyorum:** `yer:` alanı çoğu zaman
+**birden çok yer** sayıyor (`"Şumnu, Rusçuk, Tuna"`). Bunların sahipleri
+farklıysa karşı taraf belirsizleşir. **Kaç maddede birden çok yerleşim tuttuğunu
+ölçmedim** — 149'a girmeden önce o ölçülmeli, yoksa §AL.3'teki "yakınlıkla
+bağlama" kusurunun ikizini üretirim.
+
+## AN.5 Özet
+
+| ölçü | değer |
+|---|---:|
+| `savas` etiketli madde | 342 |
+| `savaslar.js` üzerinden sınıflanan | **146** |
+| `yerlesimler.js` üzerinden sınıflanabilir | **149** |
+| **elle okunacak gerçek artık** | **47** |
+
+🔴 **Düzeltmem:** 62 `taraf:` alanı bağlanmayanı hiç küçültmedi; 42 bağlı maddeyi
+karara bağladı. Faydalıydı, ama *"193'ü küçültür"* diye sunmam yanlıştı.

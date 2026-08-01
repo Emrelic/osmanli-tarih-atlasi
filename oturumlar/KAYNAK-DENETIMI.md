@@ -1095,3 +1095,28 @@ BALKAN'ın kayda geçen yönlendirme bilgisi (onların bulgusu, künye ölçüm�
 tutarlı): Cetinje ve Zeta için müstakil madde yok → kaynak `karadag`
 gösterilmeli; `sabac`/`fethulislam`/`kladovo` → `bogurdelen`;
 1739 Belgrad Antlaşması hükümleri → `belgrad` şehir maddesi.
+
+## TARİH AVLARI — koordinatör görevi (2026-08-01, rapor anındaki HEAD: 2d45b17)
+
+### ① Laudon'un Belgrad'ı alışı — TESLİM GÜNÜ BULUNDU
+
+| bulgu | güç | dayanak |
+|---|---|---|
+| **Teslim: 1789-10-08** | **KESİN** | üç bağımsız kaynak: (1) ÇAĞDAŞ 1789 baskısı Löschenkohl gravürü, Wien Museum katalog kaydı: *"Die Belagerung von Belgrad ... im September 1789 bis zur Übergabe am 8. Oktober 1789"* — sammlung.wienmuseum.at/en/object/396156 · (2) King's College London Mozart & Material Culture projesi: *"Between 15 September and 8 October 1789 ... laid siege to the Ottoman forces at the fortress of Belgrade"* — mmc.kdl.kcl.ac.uk/entities/event/siege-belgrade/ · (3) SANU Belgrad kronolojisi: 7 Ekim'de alındı, Türkler 10 Ekim'e kadar çıktı — mi.sanu.ac.rs/muzej.beograd/d/eng/sad/hron_7.htm |
+| Gün yayılımı: 7 Ekim müzakere/kapitülasyon · 8 Ekim teslim · 10 Ekim tahliye tamam | DESEN | SANU 7'sini, çağdaş gravür ve KCL 8'ini veriyor |
+| Kuşatma başlangıcı: Sava geçişi 11-15 Eylül 1789 | DESEN | SANU 11 Eylül · KCL 15 Eylül |
+| ⚠️ ÇELİŞKİLİ: habsburger.net *"am 8. Oktober 1788 die Eroberung Belgrads"* | ÇELİŞKİLİ | yıl öbür üç kaynakla ve Ziştovi 1791 iadesiyle bağdaşmıyor (Laudon'un 1788 seferi Dubica/Novi'dir); o sayfa KULLANILMAMALI |
+
+⇒ ÇAPRAZ BATI paketi penceresi: **1789-10-08 → 1791-08-04** (bitiş Ziştovi'den zaten kesin). Veriye yazmak koordinatörün.
+
+### ② Ragusa'nın ilk düzenli haracı — 1442 AKADEMİK KAYNAKLA DOĞRULANDI
+
+| bulgu | güç | dayanak |
+|---|---|---|
+| **1442: yıllık 1.000 altın duka değerinde gümüş "hediye" yükümlülüğü** | **KESİN** | Vesna MIOVIĆ (HAZU Tarih Bilimleri Enstitüsü, Dubrovnik), Dubrovnik Annals 24 (2020) 65-95, s.67: *"According to the terms negotiated at the Porte in 1442, Ragusan ambassadors agreed that the Dubrovnik Republic would present the sultan with an annual gift of silverware worth 1,000 gold ducats."* — dizbi.hazu.hr/d17b118n/main/g/69/7mt/g697mtk79z81.pdf |
+| Gün: YOK — elçiler Mart 1442'de Dubrovnik'e döndü (müzakere ondan önce bitti) | KESİN (ay); gün bilinmiyor | aynı makale: *"In March 1442, the ambassadors returned to Dubrovnik."* §76: gün uydurulmadı |
+| 1442 hükümleri 1458 imtiyazında esasen TEKRARLANDI; kesin vasallık+haraç 1458 | KESİN | "The Legal Position of the Dubrovnik Republic against Turkey in the 15th and Early 16th Century..." (ejournals.eu, Krakow hukuk tarihi dergisi) |
+| 1458 ahidnâmesi: Üsküp, 23 Ekim 1458 (kâtip Toma Katavoljin, Mehmed II) | KESİN | Miović 2020, s.68 |
+| 1447'de iptal edilip 1458'de yeniden kurulduğu iddiası | **ZAYIF — DOĞRULANAMADI** | yalnız bir arama özetinde geçti; alıntılanabilir pasaj alınamadı (hrcak PDF inmiyor, ejournals tam metni sertifika hatası). **Bulamadım — negatif sonuç.** 1442-1458 kesintisizliği AÇIK soru |
+
+⇒ 1442 satırı artık Vikipedi'ye değil Miović/HAZU'ya dayanabilir: **1365 (500 duka, TDV) → 1442 (1.000 duka, Miović) → 1458 (1.500 duka, TDV+veri)**.

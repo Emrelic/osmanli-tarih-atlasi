@@ -7,29 +7,47 @@
 //    Oturum 0'ın (koordinatör) kararıdır ve AŞAĞIDAKİ BORÇ ÖDENMEDEN
 //    yapılmamalıdır.
 //
-// ── CANLIYA ALMADAN ÖNCE ÖDENECEK BORÇ: DÖRT KRONOLOJİ MADDESİ ────────────
+// ── CANLIYA ALMADAN ÖNCE ÖDENECEK BORÇ: İKİ KRONOLOJİ MADDESİ ─────────────
 //    Değişmez 2 yalnız `d:` ve `v:` kırılmalarını sayar; `s:` geçişleri madde
-//    istemez. Aşağıdaki dört tarih bu partinin AÇTIĞI d: kırılmasıdır ve
-//    ±30 gün içinde maddesi YOKTUR (ölçüldü, 1009 madde tarandı):
+//    istemez. Bu partinin AÇTIĞI d: kırılmalarından ikisinin ±30 gün içinde
+//    maddesi YOK (son ölçüm; 15 noktanın 28 kırılması tarandı):
 //
-//      1522-05-29  Knin'in fethi (Gazi Hüsrev Bey)      en yakın madde 206 gün
-//      1513-01-01  Sin'in (Sinj) fethi                  en yakın madde  59 gün
-//      1537-03-12  Klis'in fethi (Murad Bey)            en yakın madde 166 gün
-//      1648-03-31  Klis'in Venedik'e kaybı              en yakın madde  31 gün
+//      1513-01-01  Sin'in (Sinj) fethi        en yakın madde  59 gün
+//      1522-01-01  Skradin'in fethi           en yakın madde 125 gün
 //
-//    Bu dosya girdiye eklenirse AÇIK 0'dan 4'e çıkar. Maddeler Kronoloji
-//    oturumunun işidir; bu oturumun yazma yetkisi yoktur.
-//    ⚠️ Knin/Sin/Klis kaydını çıkarıp gerisini almak da mümkündür —
-//    kalan sekiz nokta sıfır borç doğurur.
+//    Bu dosya bugün girdiye eklenirse AÇIK 0'dan 2'ye çıkar.
+//    ⚠️ Sin ve Skradin kayıtları çıkarılıp gerisi alınırsa kalan
+//    ON ÜÇ nokta SIFIR borç doğurur.
+//
+//    📌 Bu liste ilk yazıldığında BEŞ maddeydi; ÜÇÜ bu oturum çalışırken
+//    yazıldı (`Knin'in fethi` 1522-05-29 · `Klis Kalesi'nin fethi ve
+//    Dalmaçya sancağının kurulması` 1537-03-12 · `Klis'in Venedik'e kaybı`
+//    1648-03-31 — üçü de tam gün eşleşiyor). Kalan ikisinin ortak sebebi
+//    aynı: GÜN BİLİNMİYOR (§76 → YYYY-01-01) ve madde gerçek güne yazılırsa
+//    ±30 penceresi tutmaz. Yani bu iki kalemde önce TARİH bulunmalı,
+//    sonra madde yazılmalı — ters sıra çalışmaz.
 //
 // ── ÖLÇÜM: NEDEN BU NOKTALAR ──────────────────────────────────────────────
-//    CLAUDE.md §2: noktası olmayan bölge en yakın peteğe emilir. Üç boşluk
-//    ölçüldü (ÇAPRAZ BATI cb8f5a0 · 5aed391, ARAŞTIRMA BALKAN §43-44).
-//    Bu partinin peteklerinin ÇIPLAK VORONOİ ile iddia edeceği toprak
+//    CLAUDE.md §2: noktası olmayan bölge en yakın peteğe emilir. Boşluklar
+//    ölçüldü (ÇAPRAZ BATI cb8f5a0 · 5aed391, ARAŞTIRMA BALKAN §43-44,
+//    ÇAPRAZ AKDENİZ 3fd8fc0 · 252325e).
+//    Bu partinin 15 peteğinin ÇIPLAK VORONOİ ile iddia edeceği toprak
 //    (0,004° ızgara, kara maskesiyle kesilmiş — bu oturum ölçtü):
 //
-//      Yukarı Macaristan   54.407 km²   (ÇAPRAZ BATI'nın ölçtüğü boşluk 51.178)
-//      Dalmaçya            14.829 km²
+//      Yukarı Macaristan   54.406,5 km²  (ÇAPRAZ BATI'nın ölçtüğü boşluk 51.178)
+//        Eperjes 21.613,1 · Tokaj 15.282,3 · Kassa 9.715,1 · Sopron 7.796,0
+//      Dalmaçya            15.047,9 km²
+//        Knin 5.424,1 · Nadin 2.000,0 · Herseknovi 1.257,2 · Kotor 1.193,0 ·
+//        Sin 1.452,2 · Skradin 860,5 · Vrana 657,1 · Şibenik 654,5 ·
+//        Zadar 537,6 · Klis 536,7 · Split 474,9
+//      ────────────────────────────────
+//      TOPLAM              69.454,4 km²
+//
+//    📌 Klis sancağının beş iç noktası (Knin·Sin·Klis·Skradin·Vrana·Nadin)
+//    kıyı şehirlerinin iddiasını da DÜŞÜRÜYOR — Zadar 2.005,3 → 537,6 ·
+//    Şibenik 1.668,6 → 654,5 · Knin 6.238,9 → 5.424,1. Yani iç noktalar
+//    yalnız kendi boşluklarını değil, kıyının KURGUSAL genişliğini de
+//    düzeltiyor. Nokta eklemenin faydası tek noktada ölçülemez.
 //
 // ── GİRİT YOK — ÖLÇÜLDÜ, YAZILMADI ────────────────────────────────────────
 //    Suda · Spinalonga · Granbosa bu dosyada YOKTUR ve bu bir eksiklik değil,
@@ -140,11 +158,10 @@ window.YERLESIMLER_EK = [
        {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}] },
 
 // ═══ ③ DALMAÇYA — OSMANLI DÖNEMİ OLAN KALELER ═════════════════════════════
-// 🔴 Knin · Sin · Klis: aşağıdaki DÖRT kırılmanın maddesi YOK (dosya başına
-//    bakınız). Bu üçü canlıya alınmadan önce Kronoloji oturumu yazmalı.
-//
-// Herseknovi'nin İKİ kırılmasının da maddesi VAR (1482-01-01 tam gün,
-// 1687-09-30'a 4 gün) — bu üç kalenin aksine borç doğurmuyor.
+// Bu dörtlüden ÜÇÜ artık sıfır borç: Knin (1522-05-29 ve 1688-09-11),
+// Klis (1537-03-12 ve 1648-03-31) ve Herseknovi (1482-01-01 ve 1687-09-30)
+// kırılmalarının HEPSİNİN maddesi var. **Yalnız Sin'in 1513-01-01 fethi
+// açık** — dosya başına bakınız.
 //
 // TDV `karlofca` (CANLI, 26 Ocak 1699): Venedik'te kalanları adıyla sayıyor —
 // "Knin, Signe (Sin), Verlice, Delovar, Zadvar, Vergoriçe ve Çiklit".
@@ -186,16 +203,93 @@ window.YERLESIMLER_EK = [
     d:[{f:"1537-03-12",t:"1648-03-31",y:"kusatma"}] },
 // Herseknovi: 1382'de Bosna kralı I. Tvrtko kurdu (`kur:` bu yüzden var),
 // Osmanlı 1482, Venedik 30 Eylül 1687 (Girolamo Cornaro).
-// ⚠️ 1538-1539 Kutsal İttifak/İspanyol ara işgali MODELLENMEDİ — kaynaklar
-//    çelişiyor (alınış Ekim 1538; Barbaros'un geri alışı kimi kaynakta
-//    Temmuz 1539 başı, kiminde Ağustos), ikisinin de ±30 günde maddesi yok.
-//    ÇELİŞKİLİ etiketiyle koordinatöre bildirildi; eksik alan yanlış alandan iyidir.
+// 1538-1539 İspanyol ara işgali `isg:` ile yazıldı — TDV `dalmacya`:
+//    "Castelnuovo Kalesi ise aynı yıl **Andrea Doria** tarafından zaptedilmiş,
+//    ancak **bir yıl sonra** Barbaros Hayreddin Paşa ve Bosna Beyi Gazi Hüsrev
+//    Bey'in gayretiyle geri alınmıştı."
+//    ⚠️ Neden `d:` değil `isg:`: girdi.py'nin şema kararı — işgal bir dönem
+//    TÜRÜ değil ÖRTÜ katmanıdır, taban rengini değiştirmez. Osmanlı hükümranlığı
+//    hukuken sürdü. Yan faydası: `isg:` Değişmez 2 borcu doğurmaz (motor okumaz).
+//    ⚠️ Tarihler YIL hassasiyetli — TDV gün vermiyor, §76 gereği uydurulmadı.
+//    Karşılaştırma turunda Ekim 1538 / Temmuz-Ağustos 1539 da geçiyor; TDV esas.
 { ad:"Herseknovi (Herceg Novi)", tur:"kale", lat:42.453, lon:18.538, g:0, k:0,
     kur:"1382-01-01",
     s:[{f:"1382-01-01",t:"1482-01-01",d:"bosna"},
        {f:"1687-09-30",t:"1797-10-17",d:"venedik"},
        {f:"1797-10-17",t:"1918-11-11",d:"avusturya"},
        {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
-    d:[{f:"1482-01-01",t:"1687-09-30"}] },
+    d:[{f:"1482-01-01",t:"1687-09-30"}],
+    isg:[{f:"1538-01-01",t:"1539-01-01",d:"ispanya",kaynak:"dalmacya"}] },
+
+// ═══ ④ KLİS SANCAĞI — brifingin 1.4'ü ═════════════════════════════════════
+// ÇAPRAZ AKDENİZ'in ölçtüğü boşluk (`3fd8fc0`): Dalmaçya iç kesiminde
+// (43,3-44,6°K / 15,3-17,5°D) toplam ÜÇ nokta var ve biri ADA. TDV `dalmacya`
+// (CANLI) sekiz yeri adıyla sayıyor; bu parti bunlardan ALTISINI yazdı
+// (Klis · Knin · Sin yukarıda, Skradin · Vrana · Nadin burada).
+//
+// TDV `dalmacya` verbatim:
+//   "1537'de Klis Kalesi'nin fethinden sonra Dalmaçya sınırında YENİ BİR
+//    SANCAK tesis edildi."
+//   "1538'de Dalmaçya'da taarruza geçen Venedikliler, Osmanlı hâkimiyeti
+//    altındaki Ostrovica (Sivrihisar), Obrovac ve Scardona kasabalarını
+//    almışlar … buna karşılık Osmanlı kuvvetleri de Nadin, Doubicza ve diğer
+//    bazı kaleleri ele geçirmişlerdi."
+//   "1540'taki Osmanlı-Venedik antlaşması ile Venedikliler Dalmaçya'daki
+//    Nadin ve Urana kalelerini Osmanlılar'a bırakmışlardı."
+//
+// 🔴 OSTROVICA ve OBROVAC YAZILMADI — koordinatları hazır (GeoNames:
+//    Ostrovica 43.9589/15.7936 · Obrovac 44.2006/15.6822) ama **Osmanlı fetih
+//    tarihleri bulunamadı.** TDV yalnız 1538'de Venedik'in onları "Osmanlı
+//    hâkimiyeti altındaki" kasabalar olarak aldığını söylüyor; ne zaman Osmanlı
+//    olduklarını söylemiyor. Knin'in 1522-05-29'unu ödünç almak §76 ihlali
+//    olurdu. Kaynak turu kalemi olarak koordinatöre bildirildi.
+//
+// ⚠️ ÇIKIŞ TARİHİ NEDEN 1699-01-26 (Karlofça) VE 1683 DEĞİL:
+//    1683 Ekim'inde Dalmaçya ahalisi ayaklanıp Skradin · Karin · Vrana ·
+//    Benkovac · Obrovac'ı aldı; Skradin için "1684'te Venedik'e düştü" diyen
+//    kaynak da var (ÇELİŞKİLİ, ve ikisi de TDV dışı). Buna karşılık Karlofça
+//    **TDV'de ve KESİN** (26 Ocak 1699), maddesi veride tam gün mevcut.
+//    girdi.py'nin şema kararı gereği `d:`/`s:` **DE JURE** sahipliği taşır —
+//    fiilî denetim `isg:` katmanının işidir. O yüzden devir Karlofça'ya yazıldı;
+//    1683-1699 arasındaki fiilî Venedik denetimi tarihleri gelince `isg:` olarak
+//    eklenebilir ve taban rengini değiştirmez.
+//
+// Skradin (Scardona): Osmanlı 1522 (gün YOK, §76 → YYYY-01-01). Şibenik'in
+// 12 km kuzeyindeki liman kasabası; 1522 kuşatmasından sonra surlandırıldı.
+// 🔴 Bu kaydın 1522-01-01 kırılmasının maddesi YOK (en yakın 125 gün) —
+//    dosya başındaki iki borçtan biri. Çıkışı (1699-01-26 Karlofça) temiz.
+// ⚠️ 1412-1522 arası Venedik ara dönemi MODELLENMEDİ: Skradin, Şibenik'le
+//    birlikte Venedik'e geçmişti ama tarihi ancak Şibenik'ten ÖDÜNÇ alınarak
+//    yazılabilirdi (§78 — emsale benzemek doğruluğun delili değildir).
+{ ad:"Skradin (Scardona)", tur:"kale", lat:43.820, lon:15.924, g:0, k:0,
+    s:[{f:"1281-01-01",t:"1522-01-01",d:"macaristan"},
+       {f:"1699-01-26",t:"1797-10-17",d:"venedik"},
+       {f:"1797-10-17",t:"1918-11-11",d:"avusturya"},
+       {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
+    d:[{f:"1522-01-01",t:"1699-01-26",y:"kusatma"}] },
+// Vrana (Urana) ve Nadin: ikisi de Zadar contado'sundaydı, bu yüzden 1540
+// öncesi zinciri Zadar'ın zinciriyle AYNI (1358 Zadar Antlaşması → Macaristan,
+// 1409 Ladislas satışı → Venedik). Osmanlı'ya geçişleri TDV'de: 1540
+// antlaşması. Antlaşma 2 Ekim 1540'ta imzalandı.
+// ✅ İKİSİ DE SIFIR BORÇ: 1540-10-02'nin ±30 gününde madde VAR (Anabolu'nun
+//    antlaşmayla devralınması — AYNI antlaşma), 1699-01-26 tam gün.
+// ⚠️ Nadin'i Osmanlı kuvvetleri fiilen 1538'de almıştı (TDV); kayıt DE JURE
+//    devri (1540) yazar, fiilî alışı değil — §74, ikisi ayrı sorunun cevabı.
+{ ad:"Vrana (Urana)", tur:"kale", lat:43.956, lon:15.562, g:0, k:0,
+    s:[{f:"1281-01-01",t:"1358-02-18",d:"venedik"},
+       {f:"1358-02-18",t:"1409-01-01",d:"macaristan"},
+       {f:"1409-01-01",t:"1540-10-02",d:"venedik"},
+       {f:"1699-01-26",t:"1797-10-17",d:"venedik"},
+       {f:"1797-10-17",t:"1918-11-11",d:"avusturya"},
+       {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
+    d:[{f:"1540-10-02",t:"1699-01-26",y:"antlasma"}] },
+{ ad:"Nadin", tur:"kale", lat:44.074, lon:15.498, g:0, k:0,
+    s:[{f:"1281-01-01",t:"1358-02-18",d:"venedik"},
+       {f:"1358-02-18",t:"1409-01-01",d:"macaristan"},
+       {f:"1409-01-01",t:"1540-10-02",d:"venedik"},
+       {f:"1699-01-26",t:"1797-10-17",d:"venedik"},
+       {f:"1797-10-17",t:"1918-11-11",d:"avusturya"},
+       {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
+    d:[{f:"1540-10-02",t:"1699-01-26",y:"antlasma"}] },
 
 ];

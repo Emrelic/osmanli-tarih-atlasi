@@ -2816,6 +2816,303 @@ Sofya'nın statü değişimi **komşu bir maddenin altında** beliriyor.
 
 ---
 
+## 42. BALKAN KİMLİKLERİNDE TORBA VAR MI — ölçüm
+
+Merkezin sorusu: İran'da `s:"iran"` dört hanedanı birden yutuyor; Balkanlar'da
+benzeri var mı?
+
+**Cevap: EVET, ama iki ayrı biçimde — ve ikincisi İran'ınkinin tersi.**
+
+### 42.1 BİÇİM 1 — İran'ın hastalığı: dizin ayırıyor, harita ayırmıyor
+
+`devletler.js` **ayrımı zaten yapmış** ama `yerlesimler.js` ince kimlikleri
+**hiç kullanmıyor:**
+
+| Boya | Yerleşim penceresi | Dizindeki devlet | İnce kimlik kullanımı |
+|---|---|---|---|
+| `macaristan` | 44 | **3** — bağımsız · Habsburg · naiplik | **0** |
+| `sirbistan` | 39 | **3** — despotluk · prenslik · krallık | **0** |
+| `bulgaristan` | 32 | **3** — çarlık · prenslik · krallık | **0** |
+| `romanya` | 20 | **2** — Romanya · krallık | **0** |
+
+```
+sirp-despotlugu · sirbistan-prensligi · sirbistan-kralligi
+bulgar-carligi · bulgaristan-prensligi · bulgaristan-kralligi
+macaristan-habsburg · macaristan-naiplik · romanya-kralligi
+        → DOKUZUNUN DA yerlesimler.js'te kullanımı: 0
+```
+
+**Sınır aşan pencere sayısı — bölünmesi gerekenler:**
+```
+macaristan   25 pencere  bağımsız↔Habsburg sınırını aşıyor
+             13 pencere  Habsburg↔naiplik
+sirbistan     6 pencere  prenslik↔krallık        (+1 tam prenslik içinde)
+bulgaristan   6 pencere  prenslik↔krallık
+romanya      18 pencere  Romanya↔krallık
+TOPLAM       68 pencere
+```
+📌 Bunların 31'i zaten `#19`/`#20` olarak açıktı (Macaristan). Ölçüm onları
+**doğruluyor ve iki katına çıkarıyor.**
+
+### 42.2 🔴 BİÇİM 2 — TERSİ: harita boyuyor, dizinde devlet YOK
+
+Aynı sınama beklemediğim bir şey buldu: **16 pencere hiçbir dizin kaydına
+düşmüyor.** Burada `yerlesimler.js` **doğru**, eksik olan `devletler.js`.
+
+**`sirbistan` — 8 pencere, hepsi XIV. yüzyıl:**
+```
+Üsküp 1281-1392 · Ohri 1281-1385 · Manastır 1281-1385 · Niş 1281-1386
+Serez 1345-1383 · Drama · Petriç · Nevrokop 1345-1374
+```
+Dizinde Sırp tarihi **1402'de (Despotluk) başlıyor.** Nemanjić krallığı ve
+Duşan'ın imparatorluğu (XIII-XIV. yy) **hiç yok** — oysa haritada bu şehirler
+o dönemde doğru şekilde Sırp boyanıyor.
+
+**`arnavutluk` — 8 pencere, yedisi MODERN:**
+```
+Draç · Avlonya · Kanina · Berat · İlbasan · Akçahisar   1912-11-28 → 1923
+İşkodra                                                  1913-04-23 → 1923
+Berat                                                    1281 → 1417
+```
+Dizinde tek Arnavut kaydı var: `arnavutluk-iskenderbey` **1443-1479**.
+🔴 **1912'de kurulan Arnavutluk Devleti dizinde YOK** — harita onu çiziyor,
+"Hakkında" paneli açıklayamıyor.
+
+### 42.3 Kime ait
+
+| Bulgu | Dosya | Oturum |
+|---|---|---|
+| 68 pencerenin ince kimliğe bölünmesi | `yerlesimler.js` | YAMACI (kaynak: bu ölçüm) |
+| Nemanjić Sırbistanı dizine eklensin | `devletler.js` | **VERİ DEVLET** |
+| **Modern Arnavutluk (1912-) dizine eklensin** | `devletler.js` | **VERİ DEVLET** |
+| İnce kimliklerin `renkler.py` karşılığı | `renkler.py` | Oturum 16 |
+
+⚠️ **Sıra önemli:** ince kimlik `BOYALAR`'da yoksa yazıldığı yer **boyanmaz**
+(`VERI-YAPISI.md`). Yani renk önce, bölme sonra — Hersek'te (§32.5) aynı kısıt
+vardı.
+
+---
+
+## 43. DALMAÇYA — ölçüm (HEAD `8f96f5f`)
+
+§14 gereği ölçüm commit'i: **`8f96f5f`**. Kaynak brifing: ÇAPRAZ BATI `5aed391`.
+
+### 43.1 🔴 GÖREV ① YAPILAMAZ — "mevcut dört nokta" YOK
+
+Brifing *"dört mevcut noktayı düzelt (Knin · Sinj · Kotor · Herseknovi)"* diyor.
+Bütün `yerlesimler*.js` dosyalarında aradım:
+
+```
+Knin 0 · Sinj 0 · Signe 0 · Kotor 0 · Cattaro 0 · Herseknovi 0 · Herceg 0
+Zadar 0 · Zara 0 (yalnız "Zaragoza" eşleşiyor) · Split 0 · Spalato 0
+Šibenik 0 · Klis 0 · Verlice 0 · Vergorice 0
+```
+
+**Dördü de yok. Zadar, Split, Šibenik de yok.**
+⇒ ÇAPRAZ BATI'nın *"Knin 1700'de OSMANLI"* ölçümü bir **test noktası** ölçümüdür,
+bir kayıt ölçümü değil. Kayıt olmadığı için o koordinatta ne varsa komşu peteğe
+emiliyor — yani bulgu **doğru** ama tarifi yanlış: düzeltilecek kayıt yok,
+**eklenecek** kayıt var.
+
+📌 **Bu benim §15.4'te yaptığım hatanın aynısı** — Yergöğü'nü "zaten var, dokunmayın"
+diye işaretlemiştim, yoktu. Aynı sınıf: **test noktası ölçümünü kayıt ölçümü gibi
+raporlamak.** ① ile ② tek işe iniyor: hepsi eklenecek.
+
+### 43.2 Kaynak taraması
+
+**TDV canlı:** `dalmacya` · `klis`
+**TDV ÖLÜ:** `kotor` · `knin` · `sinj` · `split` · `zadar` · `sibenik` ·
+`hersek-novi` — yedisi de.
+⇒ Karlofça'nın yedi kalesinden (Knin · Signe · Verlice · Delovar · Zadvar ·
+Vergorice · Ciklit) **hiçbirinin müstakil TDV maddesi yok.**
+
+### 43.3 Bulgular — §73 güç etiketleriyle
+
+**KESİN** — TDV `dalmacya`, tarihli:
+| Olay | Tarih |
+|---|---|
+| Dalmaçya Venedik'e katıldı | **1420** |
+| Klis fethi, Dalmaçya sınırında yeni sancak | **1537** |
+| Venedik: Ostrovica · Obrovac · Scardona | 1538 |
+| Osmanlı: Nadin · Doubicza | 1538 |
+| **Castelnuovo (= Herseknovi)** Andrea Doria'ya | **1538** |
+| **Castelnuovo geri alındı** — Barbaros + Gazi Hüsrev Bey | **1539** ("bir yıl sonra") |
+| Venedik Nadin ve Urana'yı Osmanlı'ya bıraktı | 1540 |
+| Venedik Dalmaçya'da pek çok kale aldı | 1684 |
+| **Castelnuovo Venedik'e** | **1686** |
+| Karlofça ve Pasarofça: Dalmaçya'daki Osmanlı hâkimiyetinin sonu | 1699 · 1718 |
+
+🟡 **Not — brifingle fark:** ÇAPRAZ BATI *"Herseknovi VENEDİK **1687**'den"* diyor;
+TDV **1686**. Bir yıl.
+
+**KESİN** — TDV `klis`: *"Bölge **1537**'de Gazi Hüsrev Bey'e bağlı … Murad Bey
+tarafından zaptedildi. Fetihten hemen sonra Klis sancak ve kaza merkezi yapıldı."*
+
+**ÇELİŞKİLİ** — TDV `dalmacya` kendi içinde tutarsız:
+> *"Dalmaçya'daki Venedik hâkimiyeti **1737**'ye kadar sürdü. Bu tarihte Venedik
+> **Campo Formio** Antlaşması'yla Avusturya'ya bırakılınca…"*
+
+Campo Formio **1797**'dir, 1737 değil. Aynı cümlede altmış yıllık çelişki.
+⇒ **Venedik'in Dalmaçya'daki sonu için bu madde kullanılamaz.**
+
+**🔴 §74 UYARISI — iki tarih AYNI SORUNUN cevabı değil.**
+TDV `klis`: *"1699 ve 1718'deki kısmî toprak kayıplarına rağmen **Klis 1826'ya
+kadar Osmanlı sancağı olarak varlığını devam ettirdi.**"*
+Bu, **kalenin** değil **sancağın** ömrüdür. Kale ile idarî birim ayrı sorular:
+kale el değiştirse de sancak adı ve teşkilâtı sürebilir (Klis sancak beyi zaten
+**Livno'da**, kadısı **Skradin'de** otururdu — TDV bunu açıkça yazıyor).
+⇒ `1826` bir **yerleşim kaydına yazılamaz**; o tarih idarî bir olgudur.
+
+### 43.4 Yazılabilir tek kayıt — Klis
+
+Zinciri TDV'den kurulabilen tek nokta bu, ve **sonu bile eksik**:
+```
+KESİN   1537        Osmanlı fethi (Gazi Hüsrev Bey / Murad Bey)
+ZAYIF   1596        "kısa bir süre" Habsburg himayesindeki mahallî güçler — gün yok
+ZAYIF   1645        Venedik desteğiyle aynı durum — gün yok, süre yok
+YOK     kalenin kesin kaybı — TDV vermiyor
+```
+⇒ **Kayıt önermiyorum.** Başlangıcı kesin, bitişi yok; `d:` dönemini
+kapatamadan yazmak Değişmez 1'i kırar ya da uydurma tarih gerektirir.
+
+### 43.5 ❌ BULUNAMADI — açıkça yazılıyor
+
+| Ne | Durum |
+|---|---|
+| Knin · Signe (Sinj) · Verlice · Delovar · Zadvar · Vergorice · Ciklit | **TDV'de madde YOK**, `dalmacya` da bunları saymıyor. Koordinat ve zincir **bulunamadı** |
+| Kotor'un Venedik dönemi (1420-1797) | `kotor` künyesi ölü; `dalmacya` Kotor'u yalnız coğrafî sınır tarifinde anıyor. **Doğrulanamadı** |
+| Zadar · Split · Šibenik | künyeler ölü. Brifingdeki *"rengi doğru ama peteği adadan"* uyarısı **kayıt olmadığı için konusuz** |
+| Venedik'in Dalmaçya'daki sonu | TDV **çelişkili** (1737 ↔ Campo Formio 1797) |
+
+⇒ **Yedi kalenin hiçbiri, dört noktanın hiçbiri TDV ile yazılamıyor.** Standart
+akademik kaynak turu gerekiyor — merkezin kararı.
+
+---
+
+## 44. DALMAÇYA KAYNAK TURU — tenkitli neşir YOK, ama damar var
+
+Merkezin sorusu: *"Venedik-Osmanlı sınırının tenkitli neşri var mı?"* Bir tur
+yapıldı. **Cevap: tenkitli neşir bulunamadı — ama aranan şey zaten o değilmiş.**
+
+### 44.1 ❌ Tenkitli neşir — BULUNAMADI
+
+Grimani/Mocenigo sınır belgelerinin bir belge neşri (ASVe yayını, HAZU serisi vb.)
+taramada **çıkmadı**. ÇAPRAZ DOĞU'nun Gaskonya rulolarındaki türden bir kaynak
+Dalmaçya için görünmüyor.
+
+### 44.2 ✅ Ama başka bir damar var — ve daha uygun
+
+| Ne | Nitelik |
+|---|---|
+| **Alberghetti'nin 1732 haritası** | **Birincil kartografik kaynak.** Üç sınır hattını birden gösteriyor. Sınır belgesinin kendisi değil ama sınırın **çizimi** |
+| Fürst-Bjeliš, *New 18th Century Venetian Border in Croatia* (2007) | Hakemli, açık erişim (hrcak.srce.hr) — hattı ve demografik sonuçlarını işliyor |
+| Tea Mayhew, *Dalmatia between Ottoman and Venetian Rule: Contado di Zara 1645-1718* | Monografi, tam da bizim aralığımız |
+
+📌 **ÇAPRAZ DOĞU'nun kuralı burada da doğrulandı — damar konuya bağlı.**
+Dalmaçya'nın damarı belge neşri değil, **haritacılık**: sınırı Venedik askerî
+mühendisi Giusto Emilio Alberghetti'nin ekibi ölçüp çizmiş.
+
+### 44.3 🔴 YAPISAL BULGU — sınır ÜÇ KEZ değişti, biri değil
+
+Turun asıl kazancı bu:
+
+```
+Linea Nani      1671            → Acquisto Vecchio
+Linea Grimani   1699/1700       → Acquisto Nuovo        (Şubat 1701'de araziye çizildi)
+Linea Mocenigo  1718/1720/1721  → Acquisto Nuovissimo
+```
+Alberghetti'nin 1732 haritası **üçünü birden** gösteriyor.
+
+⇒ **"Venedik Dalmaçyası" tek bir sınır değil, üç kademeli bir sınırdır.**
+Tek bir kayıt kümesiyle yazmak — hangi tarih seçilirse seçilsin — diğer iki
+kademeyi siler. Bu, `§74`'ün coğrafî karşılığı: **üç hat, aynı sorunun üç cevabı
+değil; üç ayrı sorunun cevapları.**
+
+### 44.4 🟡 Bulunan ama DOĞRULANMAMIŞ tarihler (§73: ZAYIF)
+
+| Yer | Tarih | Kaynak niteliği |
+|---|---|---|
+| Venedik'in savaş ilânı | 25 Nisan 1684 | ZAYIF |
+| **Sinj** Venedik'e | **30 Eylül 1686** (öncesinde başarısız 1684 ve 1685 kuşatmaları) | ZAYIF |
+| **Knin** Venedik'e | **11 Eylül 1688**, on iki günlük kuşatma | ZAYIF |
+| Sinj'i geri alma teşebbüsü | 1715 kuşatması, başarısız | ZAYIF |
+
+⚠️ **Hiçbiri veriye yazılmadı.** Dördü de ansiklopedik ikincil kaynak düzeyinde;
+`CLAUDE.md §4`: *"Vikipedi hiçbir zaman tek dayanak değildir."*
+🟢 Ama TDV ile **çelişmiyorlar**: TDV `dalmacya` *"1684'te Venedikliler Dalmaçya
+cephesinde pek çok kaleyi zaptettiler"* diyor — desen tutuyor (§73: **DESEN**).
+
+### 44.5 Sonuç ve öneri
+
+**Dalmaçya yazılabilir hâle gelebilir, ama TDV ile değil ve tek hamlede değil.**
+Gereken: Fürst-Bjeliš makalesinin tam metni (hrcak sunucusu HTTP 418 döndürdü,
+academia.edu kopyası var) ya da Mayhew monografisi — ikisi de hat üzerindeki
+yerleşimleri sayıyor olmalı.
+
+⇒ **Kararı merkez versin:** (a) ikincil literatür turu ayrı bir iş olarak açılsın,
+(b) açılırsa çıktısı **üç kademeli** olmalı — Nani/Grimani/Mocenigo — yoksa
+sınır yine tek güne çöker.
+
+---
+
+## 45. CETİNJE'NİN 3.901 km² BOŞLUĞU — sebebi bilinmiyor değil, YAZILI
+
+DENETÇİ envanterinde *"sebebi bilinmiyor"* diye duruyordu. **Sebep biliniyor ve
+bu belgede kayıtlı: boşluk kasıtlı ve benim önerim.**
+
+### 45.1 Kayıt zaten söylüyor
+
+```js
+{ ad:"Cetinje", … kur:"1482-01-01", kasitli_bosluk:true,
+  s:[{f:"1697-01-01",t:"1923-10-29",d:"karadag"}], d:[{f:"1499-01-01",t:"1697-01-01"}],
+  v:[{f:"1482-01-01",t:"1499-01-01",k:"Crnojeviç Zetası (Osmanlı tâbii)"}] }
+```
+
+**`kasitli_bosluk:true` uygulanmış** — MOTOR'un sorusuna verdiğim cevabın (`§21`)
+karşılığı. Alanı taşıyan beş kayıttan biri (diğerleri Vladikavkaz · Kuveyt ·
+Doha · Abu Dabi).
+
+### 45.2 Gerekçe — TDV, §21'de tam alıntılarıyla
+
+> `karadag`: *"Karadağ, Osmanlı öncesi sosyopolitik yapılarla bağlantısı az olan
+> ya da hiç olmayan **göçebe kabilelerin oluşturduğu gevşek bir konfederasyondu**."*
+> Karadağlılar 1856 Paris Kongresi'nde: *"Osmanlılar'ın **hiçbir zaman
+> topraklarına hâkim olamadığı**…"*
+
+Yani Lovćen kütlesi 1482 öncesinde **yönetilen toprak değildi**; boş kalması
+doğrudur. Alternatif — komşuya emdirmek — orada hiç bulunmamış bir devletin
+rengini yayardı.
+
+### 45.3 Ölçü tutarlı
+
+| | |
+|---|---|
+| Boşluğun süresi | **1281 → 1482**, 201 yıl (Cetinje'nin `kur:`ından öncesi) |
+| 1482 sonrası | zincir **kesintisiz** — `v:` 1482-1499 · `d:` 1499-1697 · `s:karadag` 1697-1923 |
+| Alan | **3.901 km²** — Lovćen kütlesi ve eski Katunska nahiyesi büyüklüğüne oturuyor |
+
+⇒ **Envanterde "sebebi bilinmiyor"dan "defterde kabul edilmiş boşluk"a taşınmalı.**
+Defterde 135 kabul edilmiş boşluk var; bu 136. olmalı.
+
+### 45.4 ⚠️ Yeniden ölçmedim — ve bilerek
+
+`denetle_bosluk.py --kesit 1500-06-15` ölçümü **reddetti**:
+```
+🔴 GEOMETRİ BAYAT — girdi üretimden sonra değişmiş.
+🔴 ÜRETİM SÜRÜYOR GİBİ — devletler_harita.js, donemler.js'ten YENİ.
+   iki dosya FARKLI KOŞULARA ait olabilir. Ölçüm alınmamalı.
+   (yine de ölçmek için: --yine-de)
+```
+**`--yine-de` kullanmadım.** Araç haklı: üretim koşarken alınan sayı iki ayrı
+koşunun karışımı olabilir. Bugün tam bu yüzden bir kez yanlış kırmızı
+raporlamıştım (§26); tekrarlamadım.
+
+⇒ **3.901 km² rakamı DENETÇİ'nin ölçümüdür, ben doğrulamadım** (`§12`). Ama
+sebebin ne olduğu geometriye bağlı değil — girdideki `kasitli_bosluk:true`
+alanından okunuyor.
+
+---
+
 ## 33. Sırada
 
 ✅ **B bloğu (hatalar 11, 1859-1913) BİTTİ** — §17. Sekiz maddenin sekizi cevaplı,

@@ -68,17 +68,22 @@ window.KIMLIKLER = {
   "fransa": { ad:"Fransa Krallığı", f:"987-01-01", t:"1792-09-21", bolge:"bati-avrupa", harita:"fransa" },
   "ingiltere": { ad:"İngiltere / Büyük Britanya", f:"1066-01-01", t:"1923-10-29", bolge:"bati-avrupa", harita:"ingiltere" },
   "isvec": { ad:"İsveç Krallığı", f:"1523-06-06", t:"1923-10-29", bolge:"kuzey-avrupa", harita:"isvec" },
+  // devletler.js:496, f/t oradan; sirp-despotlugu'nun TAM bittiği günde
+  // başlıyor (1402-01-01) — sıfır örtüşme, aynı "sirbistan" ailesi hex'ini
+  // paylaşıyor (Oturum 9, KOORDİNATÖR bildirimi üzerine — kayıt Oturum 3
+  // tarafından yazılmış, kimlikler.js'te eksikti).
+  "sirbistan-nemanjic": { ad:"Sırbistan Krallığı (Nemanjić Hanedanı)", f:"1217-01-01", t:"1402-01-01", bolge:"balkanlar", esad:["sirbistan"], harita:"sirbistan" },
   "sirp-despotlugu": { ad:"Sırp Despotluğu", f:"1402-01-01", t:"1459-06-20", bolge:"balkanlar", esad:["sirbistan"], harita:"sirbistan" },
   "bulgar-carligi": { ad:"İkinci Bulgar İmparatorluğu", f:"1185-01-01", t:"1396-01-01", bolge:"balkanlar", esad:["bulgaristan"], harita:"bulgaristan" },
   "bosna-kralligi": { ad:"Bosna Krallığı", f:"1377-01-01", t:"1463-05-01", bolge:"balkanlar", esad:["bosna"], harita:"bosna" },
   "arnavutluk-iskenderbey": { ad:"Arnavutluk (Kastriota Direnişi)", f:"1443-01-01", t:"1479-01-25", bolge:"balkanlar", esad:["arnavutluk"], harita:"arnavutluk" },
   // Ortaçağ arnavutluk-iskenderbey'den (1443-1479) AYRI, modern ulus-devlet
-  // kaydı — Oturum 3 bilerek ayrı id açtı. harita:null bırakıldı (Oturum 3'ün
-  // devletler.js'te de eklemediği alan); zaman aralığı iskenderbey döneminden
-  // 433 yıl sonra başlıyor, hiç kesişmiyor — "arnavutluk" rengini renk
-  // paylaşımı kuralına göre GÜVENLE devralabilir ama bu kararı ben vermedim,
-  // renkler.py sahibi (Oturum 16) verir.
-  "arnavutluk-bagimsiz": { ad:"Arnavutluk Prensliği (Bağımsız)", f:"1912-11-28", t:"1923-10-29", bolge:"balkanlar", harita:null },
+  // kaydı — Oturum 3 bilerek ayrı id açtı. Zaman aralığı iskenderbey
+  // döneminden 433 yıl sonra başlıyor, hiç kesişmiyor — arnavutluk-iskenderbey
+  // zaten aynı mantıkla "arnavutluk" hex'ini paylaşıyor (satır üstte), bu da
+  // aynı şekilde uygulandı (Oturum 9, KOORDİNATÖR'ün "7 pencere boyanmıyor"
+  // bildirimi üzerine — 7 pencerenin sebebi buydu).
+  "arnavutluk-bagimsiz": { ad:"Arnavutluk Prensliği (Bağımsız)", f:"1912-11-28", t:"1923-10-29", bolge:"balkanlar", esad:["arnavutluk"], harita:"arnavutluk" },
   "eflak": { ad:"Eflak Voyvodalığı (Wallachia)", f:"1330-01-01", t:"1859-01-24", bolge:"balkanlar", harita:"eflak" },
   "bogdan": { ad:"Boğdan Voyvodalığı (Moldavia)", f:"1359-01-01", t:"1859-01-24", bolge:"balkanlar", harita:"bogdan" },
   "erdel": { ad:"Erdel Prensliği (Transilvanya)", f:"1570-01-01", t:"1711-04-30", bolge:"orta-avrupa", harita:null },
@@ -165,7 +170,10 @@ window.KIMLIKLER = {
   "sardinya-piyemonte": { ad:"Sardinya-Piyemonte Krallığı (Savoya)", f:"1720-08-02", t:"1861-03-17", bolge:"italya", esad:["sardinya"], harita:"sardinya" },
   "italya": { ad:"İtalya Krallığı", f:"1861-03-17", t:"1923-10-29", bolge:"italya", harita:"italya" },
   "trabzon-rum": { ad:"Trabzon Rum İmparatorluğu", f:"1204-01-01", t:"1461-08-15", bolge:"anadolu", harita:"trabzon-rum" },
-  "zend": { ad:"Zend Hanedanı (İran)", f:"1751-01-01", t:"1794-01-01", bolge:"iran", harita:null },
+  // safevi 1736'da bitiyor, zend 1751'de başlıyor — sıfır örtüşme, ÇAPRAZ
+  // DOĞU'nun kendi validated tier tasarımı da bu ikisini aynı basamakta
+  // paylaştırıyor (Oturum 9, KOORDİNATÖR bildirimi üzerine).
+  "zend": { ad:"Zend Hanedanı (İran)", f:"1751-01-01", t:"1794-01-01", bolge:"iran", esad:["safevi"], harita:"safevi" },
   "kazan": { ad:"Kazan Hanlığı", f:"1437-01-01", t:"1552-10-02", bolge:"sibirya-bozkir", harita:"kazan" },
   "astarhan": { ad:"Astarhan (Ejderhan) Hanlığı", f:"1466-01-01", t:"1556-01-01", bolge:"sibirya-bozkir", harita:null },
   "sibir": { ad:"Sibir Hanlığı", f:"1420-01-01", t:"1598-01-01", bolge:"sibirya-bozkir", harita:null },
@@ -190,7 +198,10 @@ window.KIMLIKLER = {
   "bahreyn": { ad:"Bahreyn (Âl Halîfe Şeyhliği)", f:"1783-01-01", t:"1923-10-29", bolge:"arabistan", harita:null },
   "katar": { ad:"Katar (Âl Sânî Şeyhliği)", f:"1868-01-01", t:"1923-10-29", bolge:"arabistan", harita:null },
   "avusturya-cumhuriyet": { ad:"Avusturya Cumhuriyeti (I. Cumhuriyet)", f:"1918-11-12", t:"1923-10-29", bolge:"orta-avrupa", harita:null },
-  "macaristan-naiplik": { ad:"Macaristan (1918 Sonrası: Cumhuriyet → Naiplik)", f:"1918-11-16", t:"1923-10-29", bolge:"orta-avrupa", harita:null },
+  // "macaristan" tam bu tarihte bitiyor (devletler.js:410, tur:"son",
+  // 1918-11-16 cumhuriyet ilanı) — sıfır zamansal örtüşme, aynı hex güvenle
+  // paylaşılabilir (Oturum 9, KOORDİNATÖR'ün "renk kuyruğu" bildirimi üzerine).
+  "macaristan-naiplik": { ad:"Macaristan (1918 Sonrası: Cumhuriyet → Naiplik)", f:"1918-11-16", t:"1923-10-29", bolge:"orta-avrupa", esad:["macaristan"], harita:"macaristan" },
   "tbmm-turkiye": { ad:"Türkiye Büyük Millet Meclisi Hükûmeti", f:"1920-04-23", t:"1923-10-29", bolge:"anadolu", harita:null },
   "cagatay": { ad:"Çağatay Hanlığı", f:"1227-01-01", t:"1370-01-01", bolge:"orta-asya", harita:"cagatay" },
   "buhara": { ad:"Buhara Hanlığı / Emirliği", f:"1500-01-01", t:"1920-09-02", bolge:"orta-asya", harita:"buhara" },
