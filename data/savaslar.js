@@ -513,9 +513,17 @@ window.SEFERLER = [
 // ⚠️ `taraf` alanı: okun rengini belirler. Yazılmazsa "osmanli" varsayılır.
 //   osmanli -> koyu kırmızı/siyah   dusman -> yeşil, sarı ya da mavi
 // Kullanıcı kuralı: Türk okları kırmızı/siyah, düşman okları soğuk renkler.
-{ ad:"Savoy Haçlı seferi (1366) — Gelibolu'nun kaybı", tur:"sefer", sonuc:"yenilgi", taraf:"dusman", renk:"#1b7a3f",
+// Etiket ve güzergâh düzeltmesi (Koordinatör, OTURUM-10 turu — ARAYÜZ ölçümü):
+// tur "sefer" idi, DENİZ DEĞİL diye işaretlenmişti (Venedik'ten Amedeo VI'nın
+// donanmasıyla yola çıkışı, karadan değil denizden). "deniz"e çevrildi.
+// Güzergâh da düzeltildi: eski 6 nokta düz hatla Attika/orta Yunanistan
+// karasını kesiyordu (%34,6 kara). Yeni güzergâh Mora'yı Tenaron burnundan
+// (Cape Matapan) dolanıp açık denizden Çanakkale'ye çıkıyor (kara-maskesi
+// ölçümüyle ~%7,3 — kalanı Çanakkale Boğazı'nın kendisi, motorun kıyı
+// çözünürlüğü boğazı tam ayırt edemiyor, bkz. §2).
+{ ad:"Savoy Haçlı seferi (1366) — Gelibolu'nun kaybı", tur:"deniz", sonuc:"yenilgi", taraf:"dusman", renk:"#1b7a3f",
   f:"1366-06-01", t:"1366-09-01",
-  yol:[[12.34,45.44],[15.20,42.30],[19.92,39.62],[23.60,38.46],[26.20,40.05],[26.67,40.41]] },
+  yol:[[12.34,45.44],[15.20,42.30],[19.92,39.62],[20.3,38.3],[21.0,37.0],[22.5,36.1],[23.2,35.9],[24.7,38.0],[25.3,39.5],[26.17,40.02],[26.67,40.41]] },
 
 { ad:"Katalan Kumpanyası'nın Anadolu seferi (1303-1305)", tur:"sefer", sonuc:"belirsiz", f:"1303-09-01", t:"1305-06-01",
   yol:[[26.67,40.41],[27.20,40.42],[27.84,40.40],[28.52,38.35]] },
@@ -558,13 +566,24 @@ window.SEFERLER = [
   yol:[[28.98,41.01],[32.49,37.87],[35.48,38.73],[37.02,39.75],[41.27,39.90],[46.29,38.08],
        [48.52,34.80],[44.36,33.34]] },
 // Donanma Ege'de ada ada ilerledi, Mora'yı dolanıp İyon'a girdi — kara üstünden geçmez.
+// Güzergâh düzeltmesi (Koordinatör, OTURUM-10 turu — ARAYÜZ ölçümü %18,9 kara):
+// eski nokta zinciri Girit/Kithira açığından değil doğrudan Mora'nın üstünden
+// kesiyordu. Tenaron burnundan (Cape Matapan) dolanacak şekilde yeniden çizildi
+// (kara-maskesi ölçümüyle ~%4,7 — kalanı Çanakkale Boğazı'nın motor tarafından
+// tam ayırt edilemeyen dar geçişi, bkz. §2).
 { ad:"Preveze harekâtı (1538)", tur:"deniz", sonuc:"zafer",     f:"1538-07-01", t:"1538-10-28",
-  yol:[[28.98,40.97],[26.67,40.41],[24.57,38.90],[24.85,37.86],[21.70,36.82],[20.64,38.72],[20.75,38.96]] },
+  yol:[[28.98,40.97],[26.67,40.41],[26.17,40.02],[25.3,39.5],[24.7,38.0],[23.2,35.9],[22.5,36.1],[21.0,37.0],[20.1,37.6],[20.15,38.1],[20.25,38.45],[20.75,38.96]] },
 { ad:"Zigetvar seferi (1566)", tur:"kusatma", sonuc:"zafer",      f:"1566-05-01", t:"1566-10-01",
   yol:[[28.98,41.01],[26.56,41.68],[23.32,42.70],[21.90,43.32],[20.46,44.82],[19.86,45.25],
        [18.69,45.55],[17.80,46.05]] },
+// Güzergâh düzeltmesi (Koordinatör, OTURUM-10 turu — ARAYÜZ ölçümü %42,7 kara):
+// Rodos'tan çıkışın ardından iki nokta doğrudan Anadolu'nun güney kıyısını
+// (Antalya-Alanya hattı) kesiyordu. Açık denizden (kıyıdan uzakta) Kıbrıs'a
+// çıkarma noktasına yönlendirildi (deniz bacağı ~%3-6). Larnaka'dan sonraki
+// Lefkoşa/Mağusa bacağı KASTEN kara: çıkarma sonrası adanın içindeki kara
+// harekâtı, Otranto/Preveze'nin varış noktalarında olduğu gibi.
 { ad:"Kıbrıs harekâtı (1570)", tur:"deniz", sonuc:"zafer",      f:"1570-05-01", t:"1571-09-01",
-  yol:[[28.23,36.45],[30.15,36.30],[32.00,36.54],[33.63,34.92],[33.36,35.17],[33.94,35.12]] },
+  yol:[[28.23,36.45],[28.3,35.9],[28.1,35.55],[29.5,35.2],[31.0,34.85],[32.5,34.75],[33.63,34.92],[33.36,35.17],[33.94,35.12]] },
 // hatalar 4.docx madde 3'ün ok ayağı — iki ok, biri her tarafın hamlesi
 // (Memlûk seferindeki kalıbın aynısı). Portekiz kolu "dusman" rengiyle çizilir.
 // Sebastian'ın donanması 24 Haziran 1578'de Lizbon'dan kalktı, Cebelitarık'ı
@@ -594,8 +613,12 @@ window.SEFERLER = [
 // Anadolu Sol Kol: Sivas-Diyarbekir-Musul üzerinden Bağdat'a.
 { ad:"Bağdat seferi (1638)", tur:"kusatma", sonuc:"zafer",        f:"1638-05-08", t:"1639-01-01",
   yol:[[28.98,41.01],[29.02,41.02],[37.02,39.75],[40.23,37.91],[43.13,36.34],[44.36,33.34]] },
+// Güzergâh düzeltmesi (Koordinatör, OTURUM-10 turu — ARAYÜZ ölçümü %31,0 kara):
+// Çanakkale çıkışından sonraki nokta Midilli/Ayvalık kıyı şeridini kesiyordu.
+// Ege'nin batısından açık suda güneye indirildi (kara-maskesi ölçümüyle ~%7,7 —
+// kalanı yine Çanakkale Boğazı, bkz. §2).
 { ad:"Girit harekâtı (1645)", tur:"deniz", sonuc:"zafer",       f:"1645-04-30", t:"1645-09-01",
-  yol:[[28.98,40.97],[26.41,40.15],[26.14,38.37],[25.38,37.10],[24.44,36.71],[24.02,35.51]] },
+  yol:[[28.98,40.97],[26.17,40.02],[25.3,39.5],[24.7,38.0],[24.6,37.0],[24.4,36.0],[24.02,35.51]] },
 { ad:"Viyana seferi (1683)", tur:"kusatma", sonuc:"yenilgi",        f:"1683-04-01", t:"1683-09-13",
   yol:[[26.56,41.68],[24.75,42.14],[23.32,42.70],[21.90,43.32],[20.46,44.82],[18.69,45.55],
        [19.04,47.50],[17.63,47.68],[16.37,48.21]] },
@@ -614,11 +637,23 @@ window.SEFERLER = [
 { ad:"Hicaz seferi (1811-13)", tur:"sefer", sonuc:"zafer",      f:"1811-09-03", t:"1813-01-24", yol:[[31.24,30.05],[32.55,29.97],[38.06,24.09],[39.61,24.47],[39.83,21.42]] },
 { ad:"Necid seferi (1816-18)", tur:"sefer", sonuc:"zafer",      f:"1816-09-01", t:"1818-09-09", yol:[[39.61,24.47],[41.7,25.4],[43.5,25.9],[46.57,24.73]] },
 { ad:"Sudan seferi (1820-21)", tur:"sefer", sonuc:"zafer",      f:"1820-07-20", t:"1821-08-19", yol:[[32.9,24.09],[31.99,22.66],[30.47,19.17],[32.56,15.50],[33.62,13.55]] },
-{ ad:"Mora çıkarması (1825)", tur:"deniz", sonuc:"zafer",       f:"1825-02-24", t:"1825-06-22", yol:[[29.92,31.20],[25.13,35.34],[23.0,36.4],[21.70,36.82],[22.38,37.51]] },
+// Güzergâh düzeltmesi (Koordinatör, OTURUM-10 turu — ARAYÜZ ölçümü %16,3 kara):
+// Kithira açığından Tenaron burnunu (Cape Matapan) daha güneyden dolanacak
+// şekilde bir nokta eklendi (deniz bacağı ~%9 civarına indi). Son bacak
+// (21.70,36.82 → 22.38,37.51) KASTEN kara: Tripoliçe'nin geri alınışı
+// çıkarma sonrası Mora içine yürüyen bir kara harekâtı, Kıbrıs'taki
+// Larnaka→Lefkoşa bacağıyla aynı mantık.
+{ ad:"Mora çıkarması (1825)", tur:"deniz", sonuc:"zafer",       f:"1825-02-24", t:"1825-06-22", yol:[[29.92,31.20],[25.13,35.34],[23.0,36.1],[22.5,36.1],[21.70,36.82],[22.38,37.51]] },
 { ad:"Suriye harekâtı (1831-32)", tur:"sefer", sonuc:"yenilgi",   f:"1831-10-31", t:"1832-07-29", yol:[[31.24,30.05],[34.47,31.50],[35.08,32.93],[36.29,33.51],[36.71,34.73],[37.16,36.20],[36.20,36.52]] },
 { ad:"Anadolu ilerleyişi (1832-33)", tur:"sefer", sonuc:"yenilgi",f:"1832-08-01", t:"1833-02-02", yol:[[36.20,36.52],[35.32,37.00],[33.22,37.18],[32.49,37.87],[29.98,39.42]] },
 { ad:"Nizip seferi (1839)", tur:"sefer", sonuc:"yenilgi",         f:"1839-04-21", t:"1839-06-24", yol:[[38.33,38.35],[37.98,37.03],[37.79,37.01]] },
-{ ad:"Müttefik donanma harekâtı (1840)", tur:"deniz", sonuc:"zafer", f:"1840-09-11", t:"1840-11-27", yol:[[26.4,38.5],[33.5,34.9],[35.50,33.89],[35.08,32.93],[29.92,31.20]] },
+// Güzergâh düzeltmesi (Koordinatör, OTURUM-10 turu — ARAYÜZ ölçümü %40,1 kara):
+// eski nokta zinciri Rodos'tan doğrudan Kıbrıs'a atlarken Anadolu'nun güney
+// kıyısını kesiyordu, üçüncü bacak da Kıbrıs adasının üstünden geçiyordu.
+// Açık deniz üzerinden Levant kıyısına, oradan Akkâ ve İskenderiye'ye
+// indirildi (kara-maskesi ölçümüyle ~%7,5 — kalanı Akkâ/İskenderiye
+// varışlarındaki liman kıyısı, beklenen).
+{ ad:"Müttefik donanma harekâtı (1840)", tur:"deniz", sonuc:"zafer", f:"1840-09-11", t:"1840-11-27", yol:[[26.4,38.5],[26.6,37.0],[27.5,36.0],[28.1,35.4],[29.5,35.0],[31.0,34.7],[32.5,34.5],[34.0,34.4],[35.35,33.95],[35.15,33.4],[35.08,32.93],[32.0,31.9],[29.92,31.20]] },
 // --- MERKEZ OTURUM görevi (2026-07-30) — kronolojide zaten var olan 10 olaya ok.
 // İç isyanlar (Sırbistan/Eflak/Girit/Arnavutluk) için Osmanlı'nın kendi
 // (koyu kırmızı) ve düşman devlet (soğuk renk) ikilisinden ayrı, üçüncü bir
@@ -636,8 +671,15 @@ window.SEFERLER = [
   f:"1821-02-22", t:"1821-02-22", yol:[[27.59,47.16],[26.10,44.43]] },
 { ad:"Müttefik donanmasının Navarin'e gelişi (1827)", tur:"deniz", sonuc:"yenilgi", taraf:"dusman", renk:"#1f5fa8",
   f:"1827-10-20", t:"1827-10-20", yol:[[21.30,36.65],[21.70,36.82]] },
+// Güzergâh iyileştirmesi (Koordinatör, OTURUM-10 turu — ARAYÜZ ölçümü %42,2 kara):
+// orta noktaya kanalın kendisine daha yakın bir nokta eklenince kara oranı
+// düştü ama sıfırlanamadı — Boğaz bu ölçekte (~1-3 km genişlik) motorun kara
+// maskesinin (motor_kara.geojson, Chaikin ile yumuşatılmış) çözemeyeceği kadar
+// dar; aynı sınır Büyükdere gibi bütün Boğaz içi kayıtlar için geçerli (bkz.
+// CLAUDE.md §2). Gerçek düzeltme motor tarafında, savaslar.js'in yapabileceği
+// bir şey değil.
 { ad:"Rus donanmasının Büyükdere'ye gelişi (1833)", tur:"deniz", sonuc:"belirsiz", taraf:"dusman", renk:"#0d7d8a",
-  f:"1833-02-20", t:"1833-02-20", yol:[[29.15,41.24],[29.05,41.17]] },
+  f:"1833-02-20", t:"1833-02-20", yol:[[29.15,41.24],[29.10,41.20],[29.06,41.10]] },
 { ad:"Osmanlı donanmasının İskenderiye'ye teslimi (1839)", tur:"teslim", sonuc:"yenilgi",
   f:"1839-07-14", t:"1839-07-14", yol:[[26.4,38.5],[29.92,31.20]] },
 { ad:"Girit İsyanı'nın başlaması (1866)", tur:"isyan", sonuc:"belirsiz", renk:"#6b2d8a",
