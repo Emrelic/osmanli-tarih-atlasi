@@ -1725,7 +1725,7 @@ window.DEVLETLER = [
 // ================================================================================
 
 { id:"merini", ad:"Merînî ve Vattâsî Fas Krallığı", tur:"krallik", bolge:"kuzey-afrika",
-  f:"1196-01-01", t:"1549-01-01", baskent:"Fas (Fez)",
+  f:"1196-01-01", t:"1549-01-01", baskent:"Fas (Fez)", harita:"fas",
   ozet:"Muvahhidler'in Zenâte kökenli vezirliğinden bağımsızlaşan, Fas'ı başkent yapan Berberî hanedan; Endülüs Nasrî Krallığı'na destek verdi, Portekiz'in kıyı şehirlerini almasıyla zayıflayıp Vattâsî vezirlerine, sonra Sâdîlere devretti (bkz. [[fas]]). (kaynak: TDV, madde: meriniler)",
   kronoloji:[
     { t:"1196-01-01", tur:"kurulus", b:"Abdülhak b. Mahyû, Zenâte Merînî boyunun beyliğini kurdu (henüz Muvahhid hizmetinde)" },
