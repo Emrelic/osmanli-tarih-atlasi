@@ -115,6 +115,18 @@ GIRDI_DOSYALARI = [
     # ocaklık ayrımı (Cezayir 23 / Tunus 21 / Trablus 14 nokta) geçirildi ve
     # tek açık kırılma üretmedi.
     "yerlesimler_afrika.js",
+    # 15 nokta (NOKTA EKLEME, 1 Ağustos 2026). Beş boşluğun ölçülmüş kapanışı:
+    # Yukarı Macaristan 4 (Kassa·Eperjes·Tokaj·Sopron, ~28.000 km² 91 yıl yanlış
+    # Osmanlı) · Dalmaçya kıyı 4 (Zadar·Şibenik·Split·Kotor) · Klis sancağı 5
+    # (Knin·Sin·Klis·Vrana·Nadin) · Herseknovi · Bihaç. Toplam 76.353 km² petek.
+    # Kabul ölçütü canlıymış gibi ayrıca koşturuldu: ad çakışması YOK, 3 km en
+    # yakın çift 8,38 km, maske 15/15 içeride, Değişmez 1 15/15 KESİNTİSİZ
+    # (günlük tam tarama), 8 kimliğin 8'i renkler.py'de — YENİ RENK GEREKMEDİ.
+    # Dört kırılma borcu VERİ KRONOLOJİ tarafından kapatıldı (Sin 1513 · Knin
+    # 1522-05-29 · Klis 1537-03-12 · Klis kaybı 1648-03-31 · Bihaç 1592-06-19).
+    # ⚠️ Skradin ÇIKARILDI: 1522 fethinin GÜNÜ bilinmiyor; madde uydurma gün
+    #    taşımasın diye kayıt dosyada YORUM olarak bekliyor (§76).
+    "yerlesimler_ek.js",
     # HAZIR DEĞİL — kimlikleri renkler.py'de tanımsız, açılırsa renksiz delik:
     # "yerlesimler_asya.js",    # 344 nokta, 98 tanımsız kimlik, 62°D'nin doğusu
     # "yerlesimler_avrupa.js",  # 228 nokta, 15 tanımsız kimlik, DSATUR gerekiyor
