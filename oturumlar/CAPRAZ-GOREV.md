@@ -69,9 +69,26 @@ söylemiyordu. İki oturum aynı gün bu boşluğa çarptı:
 > gun: alanı      →  HAM HÂL, kaynağın takvimiyle   ("10/22 Şubat 1828")
 > ```
 
-Dört gerekçe: ① verinin geri kalanı zaten Gregoryen · ② **zaman ekseni tek ölçek
-ister** — karışık takvim olayları yanlış sıralar · ③ TDV Gregoryen veriyor ve
-birincil kaynağımız · ④ `gun:` ham hâli zaten taşıyor.
+Üç gerekçe: ① verinin geri kalanı zaten Gregoryen · ② **zaman ekseni tek ölçek
+ister** — karışık takvim olayları yanlış sıralar · ③ `gun:` ham hâli zaten taşıyor.
+
+🔴 **DÖRDÜNCÜ GEREKÇE ÇÜRÜDÜ — ÖLÇÜLDÜ.** Kararı ilk yazarken *"TDV Gregoryen
+verir, birincil kaynağımızdır"* demiştim. **Yanlış.** ÇAPRAZ KUZEY tur 5'te
+ölçtü: TDV `kirim` maddesi 1783 ilhakını **"8 Nisan 1783"** veriyor — yani
+**Jülyen günün kendisi** (Gregoryen'i 19 Nisan). *"TDV'den geldiyse temizdir"*
+ölçütüne dayanan bir tarama, iki açık vakadan birini **kaçırırdı.**
+
+> **TDV'nin tarihi, kaynağının takvimini taşır.** Madde Rus/Batı belgesine
+> dayanıyorsa tarih çevrilmemiş olabilir.
+
+🟢 Yerine geçen ölçüt (ÇAPRAZ KUZEY, n=5, beşinde de tutuyor — **eşik
+önerilmedi**, örneklem küçük):
+```
+TDV tarihi GÜN-AY hicrîsiyle veriyorsa   → Osmanlı belgesi var, DOĞRU
+   (Karlofça 24 Receb 1110 · Küçük Kaynarca 12 Cemâziyelevvel 1188)
+TDV yalnız YIL veriyorsa (1197, 1108)    → birincil belge Rus/Batı,
+                                            ÇEVRİLMEMİŞ OLABİLİR
+```
 
 🔴 **Ve fark 10-13 gün ise Jülyen ŞÜPHESİ doğar** (XVI. yy 10 · XVII. 10 ·
 XVIII. 11 · XIX. 12 · XX. 13) — ama **otomatik teşhis değildir.** İmza ile
