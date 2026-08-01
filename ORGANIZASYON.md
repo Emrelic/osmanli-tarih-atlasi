@@ -632,3 +632,51 @@ Bayatlık o zaman **kendini gösterir**, tartışma gerektirmez.
 burada sayı **doğru ölçülmüş ama ölçüldüğü ağaç geçmiş.** İkisinin de çaresi
 aynı: **kaynakta say.**
 
+
+---
+
+## 15. 🔴 TEST NOKTASI ÖLÇÜMÜ, KAYIT ÖLÇÜMÜ DEĞİLDİR
+
+ARAŞTIRMA BALKAN, 1 Ağustos:
+
+> *"Brifing **'dört mevcut noktayı düzelt (Knin · Sinj · Kotor · Herseknovi)'**
+> diyor. Bütün `yerlesimler*.js`'te aradım: **dördü de yok.**"*
+
+Koordinatör bu dört adı ÇAPRAZ BATI'dan almıştı. ÇAPRAZ BATI'nın ölçümü
+**doğruydu** — *"Knin 1700'de Osmanlı görünüyor"* gerçekten öyleydi. Ama o
+ölçüm bir **koordinatın hangi peteğe emildiğini** ölçüyordu, **bir kaydın ne
+yazdığını** değil. Knin diye bir kayıt yok; o koordinat komşu peteğe emiliyor.
+
+⇒ Rölede *"düzeltilecek dört kayıt"*a dönüştü. **Yapılacak iş `düzelt` değil,
+`ekle`ydi** — ve bu, bambaşka bir maliyet ve bambaşka bir kaynak ihtiyacı.
+
+### İkinci vaka — desen olduğunu BALKAN gösterdi
+
+> *"Bu benim `§15.4`'te yaptığım hatanın aynısı — Yergöğü'nü **'zaten var,
+> dokunmayın'** diye işaretlemiştim, **yoktu.**"*
+
+İki farklı oturum, aynı sınıf: **haritada bir yerin GÖRÜNMESİ, orada bir KAYIT
+olduğu anlamına gelmiyor.** Petek motoru sahipsiz koordinatı en yakın komşuya
+emiyor (`uret_petek.py` §2 emilmesi) — yani **kaydı olmayan yer de boyanıyor,
+üstelik bir renkle.**
+
+### Kural
+
+> **Bir yerin haritada bir rengi olması, o yerin bir kaydı olduğunu
+> göstermez.** *"Şu nokta yanlış görünüyor"* diyen her bulgu, **kaydın var
+> olup olmadığını** ayrıca söylemek zorundadır:
+> ```
+> KAYIT VAR, değeri yanlış   → düzelt   (ucuz, tek satır)
+> KAYIT YOK, komşuya emiliyor → EKLE     (pahalı: koordinat + zincir + kaynak)
+> ```
+
+🟢 Ucuz sınama, bir satır:
+```bash
+grep -c 'ad:"Knin"' data/yerlesimler*.js
+```
+
+⚠️ Ve koordinatör için ek yük: `§12` *"doğrulamadığın sayıyı şarta çevirme"*
+diyordu; bu madde onu genişletiyor — **doğrulamadığın bir VARLIĞI da şarta
+çevirme.** Bu vakada koordinatör *"ben doğrulamadım"* diye yazmıştı ama yine de
+*"mevcut dört nokta"* dedi. **Uyarı, yanlış çerçeveyi düzeltmiyor.**
+

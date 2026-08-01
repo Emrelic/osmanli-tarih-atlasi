@@ -2988,3 +2988,62 @@ ya da `$_` gerektirmeyen bir biçim seçilir (`Get-Process -Id <PID>`).
 ⚠️ `§72` ve `§73` ile aynı aile: orada **yeşil değişmez**, burada **sessiz
 kontrol** — ikisi de *"baktım, sorun yok"* diyor ve ikisinde de **bakılmamış.**
 
+
+---
+
+## §76 — BELİRSİZLİK, PAYLAŞILDIĞI ANDA KESİNLİĞE DÖNÜŞÜR
+
+`CLAUDE.md §4` diyor ki:
+> *"Gün bilinmiyorsa `YYYY-01-01` yaz — bu, **'yıl biliniyor, gün bilinmiyor'**
+> demenin kabul edilmiş yoludur."*
+
+Kural doğru. **Ama damganın nasıl OKUNDUĞU hesaba katılmamış.**
+
+ÇAPRAZ DOĞU (Teslim 9) Suriye-Filistin kesitinde fark etti: dört yer —
+Akkâ · Sayda · Kerak · Maan — `1517-01-01` damgasını paylaşıyor ve **377 km'ye
+yayılmış.** Onların cümlesi:
+
+> *"**Bilinmeyen gün damgası, paylaşıldığı anda bir OLAY gibi görünüyor.**"*
+
+### Ölçüm — dört nokta değil, yetmiş iki
+
+Koordinatör bütün veri kümesini taradı. Aynı `YYYY-01-01` damgasını paylaşan
+kayıtlar ve aralarındaki **en uzak mesafe**:
+
+```
+damga         kayıt   en uzak    örnek
+1469-01-01       72    7.553 km   Erciş · Nihâvend · Kasr-ı Şîrîn
+1508-01-01       46    1.589 km   Hemedan · Kirmanşah · Luristan
+1452-01-01       42    3.601 km   Kilitbahir · Nihâvend · Kasr-ı Şîrîn
+1503-01-01       37    1.775 km   Isfahan · Kazvin · Kum
+1512-01-01       15   12.606 km   Çeleken · Garabogaz · Mangışlak
+```
+
+⇒ **Harita, 72 yerin 7.553 km'ye yayılmış hâlde AYNI GÜN el değiştirdiğini
+çiziyor.** Hiçbiri o gün el değiştirmedi; **hiçbirinin günü bilinmiyor.**
+
+### Kural
+
+> **Bir "bilinmiyor" damgası, birden çok kayıt tarafından paylaşıldığında
+> artık "bilinmiyor" demiyor — "hepsi aynı anda oldu" diyor.** Belirsizliği
+> göstermek için seçilen biçim, belirsizliği **silen** bir iddiaya dönüşüyor.
+
+📌 Ve bu `§72`'nin **zaman eksenindeki tam eşi.** Orada mekân ekseninde:
+```
+§72  boşluk "bilmiyoruz" der, yanlış renk "biliyoruz" der
+§76  YYYY-01-01 "gün bilinmiyor" demeliydi, "1 Ocak'ta oldu" diyor
+```
+İkisinde de **veri dürüsttü, GÖSTERİM yalan söyledi.**
+
+⚠️ Ve kusur veriyi yazanlarda değil: kural *"böyle yaz"* dedi, **yazdılar.**
+Kusur, **kuralın okunma tarafını hiç ölçmemesinde.**
+
+🟢 Çare yönü (henüz seçilmedi, MOTOR'a gidiyor): damganın **hassasiyetini**
+taşıyan bir alan — `hassasiyet:"yil"` gibi — ve arayüzün onu *"1469'da
+(gün bilinmiyor)"* diye göstermesi, sıralamada da tekil bir güne
+çakmaması. **Tarihi değiştirmek çözüm değil; tarihin NE OLDUĞUNU söylemek çözüm.**
+
+📌 Not: `1469-01-01`'in 72 kaydı Akkoyunlu-Osmanlı-Safevî geçiş kuşağında
+yığılıyor — yani damga en çok **kaynağın en zayıf olduğu yerde** paylaşılıyor.
+Beklenen bir desen, ama **ölçülmemişti.**
+
