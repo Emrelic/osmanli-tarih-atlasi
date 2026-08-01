@@ -162,7 +162,36 @@ def oku_pencere(yol, degisken):
     js = "\n".join(l for l in js.split("\n") if not l.strip().startswith("//"))
     anahtar = f"window.{degisken} = "
     govde = js[js.index(anahtar) + len(anahtar):]
-    govde = govde[:govde.rindex("]") + 1]
+    # 🔴 ESKİDEN `govde.rindex("]")` idi: dosyanın SON köşeli parantezi.
+    # Tek dizili dosyalarda (olaylar*.js) doğru çalışıyordu, ama `savaslar.js`
+    # DÖRT dizi taşıyor (SAVASLAR · ANTLASMALAR · SERILER · SEFERLER) ve dilim
+    # dördünü birden kapsıyordu → "Extra data" ile çöküyordu. Aracın katı
+    # olduğu yer veriyi okunamaz sanmaya yol açıyordu; veri sağlamdı.
+    # Şimdi EŞLEŞEN parantez bulunuyor — metin içindeki köşeli parantezler
+    # sayılmasın diye dizge ve kaçış farkındalığıyla.
+    derinlik, i, dizge, kacis = 0, 0, None, False
+    for i, c in enumerate(govde):
+        if kacis:
+            kacis = False
+            continue
+        if c == "\\":
+            kacis = True
+            continue
+        if dizge:
+            if c == dizge:
+                dizge = None
+            continue
+        if c in "\"'":
+            dizge = c
+        elif c == "[":
+            derinlik += 1
+        elif c == "]":
+            derinlik -= 1
+            if derinlik == 0:
+                break
+    if derinlik != 0:
+        raise ValueError("%s içinde %s dizisi kapanmıyor" % (yol, degisken))
+    govde = govde[:i + 1]
     j = re.sub(r'([{,]\s*)([A-Za-zçğıöşüÇĞİÖŞÜ_]\w*)\s*:', r'\1"\2":', govde)
     # JS dizi/nesne sonundaki fazladan virgul gecerlidir, JSON'da degildir.
     # olaylar_ek7.js bu yuzden ceviriciyi dusuruyordu: veri saglamdi, arac katiydi.
@@ -672,6 +701,43 @@ def onek_olcutu(O):
     return sorted(out, reverse=True)
 
 
+# ============================================================================
+# 7. DENETİM — SAVAŞ ↔ KRONOLOJİ SENKRONU (ARABİSTAN oturumu buldu)
+# ============================================================================
+# Değişmez 2 `yerlesimler.js` kırılmalarını kronolojiye bağlar. Ama
+# `savaslar.js` kayıtları da HARİTADA GÖRÜNÜYOR — `lat/lon` ile ⚔ işareti
+# çiziliyor — ve onları hiçbir denetim kronolojiye bağlamıyordu.
+# Vaka: Rodos kuşatması `1522-06-26`'da kılıç beliriyor, "Rodos'un fethi"
+# maddesi 178 GÜN SONRA akıyor. Kullanıcı altı ay boyunca sebebi anlatılmayan
+# bir kılıç görüyor — Değişmez 2'nin tam önlemek için var olduğu şey.
+#
+# ⚠️ `sure:` ALANI SÜREYİ ANLATMAZ. Dosyanın kendi yorumu: "işaretin kaç gün
+# görüneceği (varsayılan ~2 yıl)". Değerleri 200/300/365 gibi yuvarlak
+# kovalardır — ÇİZİM parametresi, olgu değil. 170 kaydın 55'inde dolu.
+# Kuşatmanın gerçek uzunluğu veride YOK; KOORDİNATÖR ikinci tarih alanına
+# karar verdi, VERİ SAVAŞ yazacak. Bu alan gelene kadar denetim tek tarihe
+# bakar ve KAYMAYI ölçer.
+SAVAS_PENCERE = 30
+
+
+def savas_senkronu(S, O):
+    """(toplam, aykiri) — aykiri: (tarih, ad, tur, en yakın maddeye gün, başlık)."""
+    ol = [(gun_no(tam(o["t"])), o.get("b", "")) for o in O]
+    aykiri = []
+    for r in S:
+        if not r.get("t"):
+            continue
+        try:
+            g = gun_no(tam(r["t"]))
+        except Exception:
+            continue
+        en = min(ol, key=lambda o: abs(o[0] - g))
+        fark = en[0] - g
+        if abs(fark) > SAVAS_PENCERE:
+            aykiri.append((r["t"], r.get("ad", ""), r.get("tur", ""), fark, en[1]))
+    return len(S), aykiri
+
+
 def mukerrer_maddeler(O):
     """İki ölçüt: (1) başlık benzerliği + ±400 gün, (2) ortak kişi + ±3 gün."""
     S = sorted(O, key=lambda o: o["t"])
@@ -1034,7 +1100,24 @@ def main():
         if not args.ayrinti and len(onek) > 6:
             print(f"              … {len(onek)-6} çift daha (--ayrinti)")
 
-    # Ek denetim — KONUM: her nokta kara maskesinin içinde mi
+    # Ek denetim 7 — SAVAŞ ↔ KRONOLOJİ: haritadaki ⚔ anlatılıyor mu
+    try:
+        S = oku_pencere(os.path.join(DATA, "savaslar.js"), "SAVASLAR")
+    except Exception as e:
+        S = None
+        print("Ek denetim  !  savaş senkronu ÖLÇÜLEMEDİ: %s" % str(e)[:60])
+    if S is not None:
+        n_s, ayk = savas_senkronu(S, O)
+        durum7 = "✓" if not ayk else "i"
+        print(f"Ek denetim  {durum7}  savaş senkronu: {n_s-len(ayk)}/{n_s} kaydın "
+              f"±{SAVAS_PENCERE} gün içinde maddesi var")
+        if ayk:
+            print(f"            i {len(ayk)} kayıt açık — ihlal DEĞİL, çünkü çoğu")
+            print( "              KUŞATMA BAŞLANGICI↔SONUÇ kaymasıdır: dizin kuşatmanın")
+            print( "              başladığı günü, kronoloji bittiği günü yazıyor.")
+            print( "              İkinci tarih alanı gelince ölçüt sonuca bakacak.")
+            for t, ad, tur, fark, b in sorted(ayk, key=lambda r: -abs(r[3])):
+                print(f"              {t}  {tur:8s} {ad[:30]:30s} {fark:+5d}g  {b[:34]}")
     kd = konum_denetimi(Y)
     if kd is None:
         print("Ek denetim  i  konum: shapely ya da veri-kaynak yok, ATLANDI")
