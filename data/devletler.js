@@ -745,11 +745,11 @@ window.DEVLETLER = [
 // ===================== TIER 7 — MISIR MESELESİ (çapraz referans) =====================
 
 { id:"misir-kavalali", ad:"Mısır Kavalalı Hanedanı", tur:"hanedanlik", bolge:"misir-sudan",
-  f:"1805-07-09", t:"1914-12-18", baskent:"Kahire",
-  tabi:[{f:"1805-07-09", t:"1914-12-18", ust:"osmanli"}],
-  ozet:"Hukuken Osmanlı toprağı sayılan ama Kavalalı hanedanınca özerk yönetilen vilayet; ayrıntılı savaş/antlaşma kronolojisi data/olaylar_ek4.js ve data/savaslar.js (seri: misir, vehhabi) dosyalarında. Başlangıç günü (1805-07-09) yerlesimler.js'teki 1805-07-03 ile 6 gün farklı, TDV'den ayrıca doğrulanmadı (bkz. oturumlar/ARABISTAN-DUZELTMELER.md §AK.3).",
+  f:"1805-07-03", t:"1914-12-18", baskent:"Kahire",
+  tabi:[{f:"1805-07-03", t:"1914-12-18", ust:"osmanli"}],
+  ozet:"Hukuken Osmanlı toprağı sayılan ama Kavalalı hanedanınca özerk yönetilen vilayet; ayrıntılı savaş/antlaşma kronolojisi data/olaylar_ek4.js ve data/savaslar.js (seri: misir, vehhabi) dosyalarında. (kaynak: TDV, madde: kavalali-mehmed-ali-pasa)",
   kronoloji:[
-    { t:"1805-07-09", tur:"kurulus", b:"Kavalalı Mehmed Ali, Mısır valisi ilan edildi" },
+    { t:"1805-07-03", tur:"kurulus", b:"Kavalalı Mehmed Ali, Bâbıâli tarafından Mısır valiliğine getirildi (oldubittinin tanınması)" },
     { t:"1811-01-01", tur:"savas", b:"Vehhâbî seferleri başladı (bkz. [[suud-birinci]])" },
     { t:"1831-10-31", tur:"savas", b:"Birinci Mısır Krizi — Suriye'nin işgali (bkz. seri: misir)" },
     { t:"1841-06-01", tur:"antlasma", b:"Londra çözümü — Mısır'da irsî valilik tanındı, Suriye/Hicaz iade edildi" },
