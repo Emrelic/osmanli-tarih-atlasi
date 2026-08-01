@@ -208,6 +208,37 @@ gecikmeleri meşrudur (Mekke'nin memlûk dönemi 1517-07-06'da biter, devlet
 
 Bu, dördüncü bir değişmez olarak araca girecek — `YAPILACAKLAR.md`.
 
+### 3.5.1 🔴 TERS YÖN — "OSMANLI FAZLA MI GÖRÜNÜYOR?"
+
+Yukarıdaki tablonun **her satırı fazladan boyanan YABANCI devleti ölçüyor.**
+On beş oturum boyunca kimse şunu sormadı:
+
+> **Osmanlı, olmadığı yerde ve olmadığı tarihte boyanıyor mu?**
+
+Bir Osmanlı tarih atlasının en kolay yanılgısı budur ve tablo ona **kör.**
+1 Ağustos'ta ÇAPRAZ DOĞU sordu ve Kızıldeniz'de buldu:
+
+```
+İbrim                     d: 1517-04-13'ten   TDV sancak 1573    ~55,7 yıl
+Sevâkin                   d: 1517-04-13'ten   sancak beyi 1554-04-10  ~37,0 yıl
+Akîk · Halâib · Tokar · Sinkat   aynı desen   Habeş Eyaleti 1555-07-05  ~38,2 yıl
+TDV habes-eyaleti: "Bu kıyı toprakları 1517'de Memlükler'den DEVRALINMADI."
+```
+
+⚠️ **Ve bu satırlar yukarıdaki tablonun İbrim/Sevâkin satırları düzeltilirken
+DOĞDU.** Memlük fazlalığı 1517'ye çekildi, boşluk Osmanlı ileri sarılarak
+kapandı — **hayalet yok olmadı, taraf değiştirdi.** Sebebi `OGRENILENLER §72`:
+`Değişmez 1` *"kimsenin değildi"* cevabını ifade edemiyor, o yüzden veriyi en
+yakın komşuya itiyor.
+
+> **KURAL: Bir sınır kayması önerildiğinde iki uç da ölçülür.** *"Bu tarafta
+> fazlalık var mı"* yetmez; **"öbür tarafta fazlalık doğuyor mu"** da sorulur.
+> Tek uçtan bakan düzeltme, hatayı taşır — silmez.
+
+📌 Ve fetih tarihini yazarken ayırt et: **devletin yıkılışı ≠ o yerin fethi.**
+1517-04-13 Memlük Devleti'nin sonudur; Kızıldeniz kıyısının, Nûbe'nin, Habeş'in
+fethi **değildir.** Merkez düştü diye çevre otomatik devrolmaz.
+
 Ölçüm komutu (Değişmez 3):
 ```bash
 node -e "global.window={};eval(require('fs').readFileSync('data/yerlesimler.js','utf8'));const Y=window.YERLESIMLER,ix={};for(const y of Y)ix[y.ad]=y;const S=(y,g)=>{for(const p of (y.d||[]))if(p.f<=g&&g<p.t)return'OSMANLI';for(const p of (y.v||[]))if(p.f<=g&&g<p.t)return'tabi';for(const p of (y.s||[]))if(p.f<=g&&g<p.t)return p.d;return'—';};let n=0;for(const g of ['1300-06-15','1400-06-15','1500-06-15','1600-06-15','1700-06-15','1800-06-15'])for(const y of Y){if(!y.m)continue;const m=ix[y.m];if(!m)continue;const a=S(y,g),b=S(m,g);if(a!=='—'&&b!=='—'&&a!==b&&!(a==='OSMANLI'&&b==='tabi')&&!(a==='tabi'&&b==='OSMANLI'))n++;}console.log('merkezi ile farkli devlette olan yerlesim-tarih cifti:',n);"
