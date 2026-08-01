@@ -3521,3 +3521,22 @@ süreç yaşı · satır sayısı · echo çıktısı · geçen süre · dosya z
 ```
 📌 Beşinde de **bir sayı vardı** ve beşi de **yanlış şeyi** ölçüyordu.
 
+🔴 **VE MOTOR BU ÇERÇEVEYİ DÜZELTTİ — kritik incelik:**
+> *"Ucuz ölçüt genelde **doğrudur** — `976=976` bugün de doğruydu, yalnız
+> **yeterli değildi.** Tehlike yanlış cevap vermesi değil, **DOĞRU CEVABI
+> YANLIŞ SORUYA vermesi.**"*
+
+⇒ Kural *"ucuz ölçütü at"* değil:
+> **Ucuz ölçüt yeşil yandığında, pahalı olanın da yandığını görmeden
+> yayınlama.**
+
+⚠️ Ve en rahatsız edici kısmı:
+> *"Bugün ikisi **çeliştiği için** yakaladık; **çelişmeselerdi ikisi de yeşil
+> yanacaktı ve hangisinin bir şey ölçtüğünü sormayacaktık.**"*
+
+📌 Yani bugün bu kusuru bulmamızın sebebi ölçüm disiplini değil **tesadüf**:
+iki ölçüt aynı anda farklı cevap verdi. Aynı hata, ölçütler uyuştuğu her gün
+**sessizce** geçmiş olabilir. `§77`'nin (dairesel doğrulama) genel hâli:
+**uyuşma bir kanıt değildir; ne zaman kanıt olduğunu ancak ölçütlerin
+BAĞIMSIZ olduğunu bilerek söyleyebiliriz.**
+
