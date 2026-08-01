@@ -399,6 +399,7 @@ DOGURAN_VAKALAR = [
 #     KAPANAN → defterde olup artık çıkmayan (borç ödenmiş)
 # Tavanın kendisi kalıyor; defter onun neden değiştiğini SÖYLEYEN kısım.
 A_DEFTERI = os.path.join(denetle.KOK, "denetim", "ESLESME-A-DEFTERI.json")
+B_DEFTERI = os.path.join(denetle.KOK, "denetim", "ESLESME-B-DEFTERI.json")
 
 
 def _a_kimlik(kayit):
@@ -411,31 +412,54 @@ def _a_kimlik(kayit):
     return "%s|%s" % (dt, yerler[0] if yerler else "?")
 
 
-def a_defteri(supheli, yaz=False):
-    """(yeni, kapanan, defter_boyu). `yaz=True` ise defteri günceller."""
-    simdi = {_a_kimlik(k): k[2] for k in supheli}
+def _defter(yol, simdi, yaz, not_metni):
+    """(yeni, kapanan, defter_boyu). A ve B aynı mantığı paylaşır.
+
+    ⚠️ Tek gövde, çünkü iki kopya yazmak bu depoda beş kez "bayat kopya"
+    üretti: biri düzeltiliyor, öteki eskisiyle kalıyor ve ikisi çelişince
+    hangisinin doğru olduğu bilinmiyor.
+    """
     eski = {}
-    if os.path.exists(A_DEFTERI):
+    if os.path.exists(yol):
         try:
-            eski = json.load(io.open(A_DEFTERI, encoding="utf-8"))
+            eski = json.load(io.open(yol, encoding="utf-8"))
             eski.pop("_NOT", None)
         except Exception:
-            print("  !  ESLESME-A-DEFTERI.json okunamadı — bozuk olabilir")
+            print("  !  %s okunamadı — bozuk olabilir" % os.path.basename(yol))
     yeni = sorted(k for k in simdi if k not in eski)
     kapanan = sorted(k for k in eski if k not in simdi)
     if yaz:
         kayit = dict(simdi)
-        kayit["_NOT"] = (
-            "TEMEL DEFTER, 2026-08-01. ⚠️ TAVAN AŞILMIŞ HÂLDEYKEN yazıldı "
-            "(109 şüpheli / tavan 97). Yani bu defterdeki üyelerin yaklaşık "
-            "12'si tavan konduktan SONRA ortaya çıkmış ve TEK TEK "
-            "İNCELENMEMİŞTİR — 'defterde var' demek 'incelendi ve kabul "
-            "edildi' DEMEK DEĞİLDİR. Defterin bugünkü işlevi ileriye dönük: "
-            "bundan sonraki her ekleme YENİ diye adıyla raporlanır. "
-            "Geriye dönük temizlik ayrı bir iştir.")
-        io.open(A_DEFTERI, "w", encoding="utf-8", newline="").write(
+        kayit["_NOT"] = not_metni
+        io.open(yol, "w", encoding="utf-8", newline="").write(
             json.dumps(kayit, ensure_ascii=False, indent=1, sort_keys=True))
     return yeni, kapanan, len(eski)
+
+
+_A_NOT = ("TEMEL DEFTER, 2026-08-01. ⚠️ TAVAN AŞILMIŞ HÂLDEYKEN yazıldı "
+          "(109 şüpheli / tavan 97). Yani bu defterdeki üyelerin yaklaşık "
+          "12'si tavan konduktan SONRA ortaya çıkmış ve TEK TEK "
+          "İNCELENMEMİŞTİR — 'defterde var' demek 'incelendi ve kabul edildi' "
+          "DEMEK DEĞİLDİR. Defterin işlevi ileriye dönük: bundan sonraki her "
+          "ekleme YENİ diye adıyla raporlanır. Geriye dönük temizlik ayrı iş.")
+
+_B_NOT = ("TEMEL DEFTER, 2026-08-01. ⚠️ TAVAN AŞILMIŞ HÂLDEYKEN yazıldı "
+          "(19 / tavan 17). Üyelerin çoğu BÖLGE adıdır (Teselya, Dobruca, "
+          "Bosna, Kıbrıs) — yerleşim kaydı beklenmez ama haritada da hiçbir "
+          "nokta yanmaz; yani hepsi 'kabul edilmiş' değil, 'bilinen'dir. "
+          "'Defterde var' ≠ 'incelendi ve kabul edildi'.")
+
+
+def a_defteri(supheli, yaz=False):
+    return _defter(A_DEFTERI, {_a_kimlik(k): k[2] for k in supheli},
+                   yaz, _A_NOT)
+
+
+def b_defteri(yok, yaz=False):
+    """B kimliği: `tarih|yer:` — madde başlığı kimliğe GİRMEZ (A'daki gerekçe)."""
+    return _defter(B_DEFTERI,
+                   {"%s|%s" % (t, (y or "?")): b for t, y, b in yok},
+                   yaz, _B_NOT)
 
 
 def doguran_vaka_sinamasi(eksik):
@@ -508,6 +532,17 @@ def main():
         print(f"      {dt}  yer:{yer:24s} {b}")
     if not ayrinti and len(yok) > 14:
         print(f"      … {len(yok)-14} satır daha (--ayrinti)")
+
+    # ---- B DEFTERİ: A ile aynı gerekçe — 19 > 17 diyor, HANGİ İKİSİ demiyor
+    yeni_b, kapanan_b, b_boyu = b_defteri(yok, yaz="--defter-yaz" in sys.argv)
+    if b_boyu == 0:
+        print("    i B defteri BOŞ — ilk kez yazmak için: --defter-yaz")
+    else:
+        print(f"    B defteri: {b_boyu} kayıt · YENİ {len(yeni_b)} · KAPANAN {len(kapanan_b)}")
+        for k in yeni_b[:10]:
+            print(f"      + YENİ    {k}")
+        for k in kapanan_b[:10]:
+            print(f"      - KAPANAN {k}")
     if donemsiz:
         ihlal += 1
         print(f"  ✗ şehir VAR ama o tarihte hiçbir döneme ait DEĞİL: {len(donemsiz)}")
