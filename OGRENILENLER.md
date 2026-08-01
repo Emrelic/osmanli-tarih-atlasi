@@ -3805,3 +3805,52 @@ aragon    1164 → 1479-01-20        kastilya  1230 → 1479-01-20
 📌 Ve fark inceydi: bugün kurtaran iki kalem **ardışıktı** (`1217-1402` ↔
 `1402-…`), batıracak iki kalem **eşzamanlıydı.** Aynı kalıp, ters sonuç.
 
+### §83.1 — ARAÇ YAZILDI, İLK KOŞUSU 87 KUSUR BULDU
+
+`§83` şunu söylüyordu: *"ölçüm aracını yazmak dokuz kalemi birden açar."*
+MOTOR aynı gün yazdı (`arac/renk_olc.py`, `ef4a018`) ve **ilk koşu dokuz
+kalemi açmakla kalmadı — kimsenin bakmadığı 87 kusur çıkardı:**
+```
+ALTLIKTAN AYRIŞMAYAN   14 kimlik (ΔE < 15)
+    5,1  papalik    #c9c1a3   ← neredeyse GÖRÜNMEZ
+    9,7  sovalye · 12,2 almanya · 13,1 karadag · 14,7 hicaz …
+KOMŞUSUYLA ÇAKIŞAN     73 çift (ΔE < 12)
+    0,8  hicaz ↔ sammar       ← KOMŞU iki devlet, pratikte AYNI RENK
+    2,9  adal ↔ somali · 3,3 karaman ↔ kilikya-ermeni · 3,5 memluk ↔ yemen
+```
+**Hiçbiri daha önce görülebilir değildi** — çünkü bakacak araç yoktu.
+
+### Ve aracı yazarken üç kusur çıktı; ikincisi bir kural
+
+MOTOR'un kendi listesi:
+```
+1. Araç MEVCUT kimliği reddediyordu — oysa en sık işi 73 çakışmayı düzeltmek,
+   yani VAR OLAN bir rengi değiştirmek. Olmayan bir kullanım için yazılmış.
+2. UÇLARA KAÇIYORDU — ilk öneri #00fc00 (saf yeşil), #fc00fc (macenta)
+3. SystemExit mesajında Türkçe karakter, stderr sarmalanmamış (bugün 3. kez)
+```
+
+🔴 **İkincisi bir kural doğuruyor:**
+> *"Bu, o sabah renk turunda **ölçerek çözdüğüm** hatanın aynısı — ve araca
+> taşımasaydım, **araç düzelttiğim hatayı kalıcılaştıracaktı.**"*
+
+> **KURAL: Bir kerelik ölçümde öğrenilen şey ARACA TAŞINMAZSA, araç onu
+> yeniden öğrenmez — UNUTUR.** Ve otomatikleştirilen her adım, o adımı
+> yazarken bilinmeyen her şeyi **kalıcılaştırır.**
+
+📌 Bu bugünün ana temasının araç tarafı: **karar verilmiş ama makinenin
+okuyacağı yere yazılmamış** (DENETÇİ'nin `kasitli_bosluk`'u · VERİ KİMLİK'in
+sohbette kalan renkleri · `merini`'nin metinde duran bağı · `renkler.py`'ye
+elle taşınmış ΔE sayıları). Burada fark şu: **yazılmayan şey bu sefer bir
+KURAL'dı, bir veri değil** — ve kural yazılmazsa araç onu **tersine** öğrenir.
+
+🟢 Ve koordinatörün şartı araca girdi: *"'tek satır' ölçütü kuyruğun tamamına
+BİRLİKTE uygulanmalı"* — `--oner` N kimliği birlikte çözüyor ve **yeniler
+arası komşuluğu ayrıca raporluyor.** `hicaz`↔`sammar` çiftinde çalıştı:
+ikincisi seçilirken birincisi engel kümesine girdi.
+
+⚠️ Ve MOTOR bir kör nokta daha kapattı: **komşusuz kimlik uyarısı.**
+`girdi.py`'nin okumadığı bir dosyadaki kimlik (`aragon` gibi) **sıfır komşu**
+gösterir; araç onu *"kısıtsız"* sanıp en ayrık rengi verir ve **öneri
+dayanaksız olur.** Sessiz geçmiyor.
+
