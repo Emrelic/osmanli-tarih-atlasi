@@ -742,3 +742,214 @@ sorulacak sınıfta. Ben ölçtüm, karar sende.
 2. 🔴 1747-1751 fetreti — hâlâ kaynaksız (§11)
 3. B4/B5 coğrafî bölme · Ç2, Ç5, Ç6 ikinci çekiş · `marasi` slug
 4. 🟡 **İkinci iş: Memlük** — henüz başlamadım
+
+---
+---
+
+# TESLİM 4 — Kalan 20 Kafkasya noktası: dört yeni hata, biri 95 yıl
+
+> Koordinatör *"kalan 20'yi sına, sonra tek pakette gelsin"* dedi. Ondördü
+> kaynakla kapandı, altısı adres bulunamadığı için açık.
+
+---
+
+## 19. 🔴 NAHÇIVAN — 95 YIL. Bu oturumun bulduğu en büyük tek nokta hatası
+
+### ① Bizde ne var
+```
+Nahçıvan   s: … | safevi 1501-07-01→1736-03-08 | iran 1736-03-08→1923-10-29
+```
+**Nahçıvan veride hiçbir zaman Rus olmuyor.** 1736'dan 1923'e kadar İran.
+
+### ② Kaynakta ne var — TDV `nahcivan` 🟢
+> *"Nahcıvan şehri bu dönemde ortaya çıkan **Nahcıvan Hanlığı**'nın Rusya'ya
+> ilhakına kadar **(1828)** bu hanlığın merkezi oldu."*
+> *"1826-1828 yıllarındaki Rus-İran savaşı neticesinde Ruslar'ın hâkimiyetine girdi."*
+
+### ③ Hüküm: **ÇELİŞİYOR — 95 yıl**
+```
+1828 → 1923-10-29 = 95,6 yıl fazladan İran
+```
+Karşılaştırma: `CLAUDE.md §3.5`'in en büyük vakası Batnoz **84 yıl**'dı.
+**Bu ondan büyük.**
+
+---
+
+## 20. ⭐ ORDUBAD — 15 YIL, VE TERS YÖNDE. Kural ⑥'nın birebir vakası
+
+### ① Bizde ne var
+```
+Ordubad   s: … | iran 1736-03-08→1813-10-24 | rusya 1813-10-24→1923-10-29
+```
+
+### ② Kaynakta ne var — TDV `nahcivan` 🟢
+Ordubad **Nahçıvan Hanlığı'nın parçasıydı** ve aynı **1828** ilhakına dâhildi.
+
+### ③ Hüküm: **ÇELİŞİYOR — 15 yıl, ama TERS yönde (erken)**
+
+🔴 **Ve asıl bulgu bu:** Nahçıvan ile Ordubad **63 km arayla, aynı hanlığın
+iki şehri** — biri **95 yıl geç**, öteki **15 yıl erken**.
+
+📌 `CAPRAZ-GOREV §4⑥` diyor ki: *"Bir ölçüm TEK YÖNDE sorulursa ters yöndeki
+kusuru göremez."* Ben Kafkasya'yı *"fazladan İran var mı"* diye sormaya
+başlamıştım. O soru Nahçıvan'ı bulurdu, **Ordubad'ı asla bulamazdı** — orada
+İran fazla değil, **eksik.** İkisi de aynı satırın iki ucu.
+⇒ Kuralın bu turdaki bedeli sıfır oldu çünkü hanlık hanlık sordum, nokta nokta
+değil. **Doğru payda, ters yöndeki hatayı da yakaladı.**
+
+---
+
+## 21. 🔴 TALIŞ (Lenkeran · Astara) — 15 yıl geç
+
+### ② TDV `talis-hanligi` 🟢 (yeni slug, aşağıda)
+> kuruluş **1736**, merkez önce **Astara**, sonra **Lenkeran** ·
+> 1747'den sonra bağımsız · *"**1 Ocak 1813**'te Lenkeran'ı aldı"* ·
+> Gülistan (1813) ile *"Taliş Hanlığı'nın büyük kısmı Ruslar'ın eline geçti"* ·
+> Türkmençay 4. madde ile Lenkeran Ruslar'da kaldı
+
+### ① / ③ Bizde `iran 1736-03-08 → 1828-02-10` ⇒ **ÇELİŞİYOR, 15 yıl**
+Fiilî fetih **1813-01-01**, hukukî tescil **1813 Gülistan**; veri ikisini de
+atlayıp 1828'e bağlamış.
+
+---
+
+## 22. 🟡 REVAN — 3,9 ay, ve yine "hukukî ↔ fiilî"
+
+TDV `revan` 🟢: kale **13 Ekim 1827**'de Paskieviç'in ikinci saldırısında düştü;
+Türkmençay Şubat 1828'de resmîleştirdi. Veride `1828-02-10`.
+⇒ **Uyuyor ama hassasiyeti eksik** — fiilî fetih 3,9 ay önce.
+📌 TDV ayrıca doğruluyor: *"1747'de bağımsız bir hanlık oluşturuldu."*
+
+---
+
+## 23. ✅ ŞEKİ — UYUYOR, ve kuruluşu 1747'den de eski
+
+TDV `seki` 🟢:
+> *"Nâdir Şah da onu affedip Şeki'ye han tayin etti. **1747'de Nâdir Şah'ın
+> öldürülmesiyle 1743'te kurulan Şeki Hanlığı tamamen bağımsız hale geldi.**"*
+> Rusya'ya geçiş: **1813 Gülistan**.
+
+⇒ Veri (`1813-10-24`) **uyuyor** ✓ — ve hanlık **1743**'te, Nâdir daha
+sağken kurulmuş. Yani fetret sınırım (`1747-06-20`) Şeki için bile geç.
+**"Uyuyor" da bir hükümdür** ve bu, ölçtüğüm ikinci temiz nokta.
+
+---
+
+## 24. 🔴 DERBEND — 1759-1796 arası Kuba Hanlığı'nın elinde
+
+TDV DERBEND maddesinin arama özeti:
+> *"**1759 sonbaharında Kuba Hanı Feth Ali Han'ın idaresi altına girdi. 1796'ya
+> kadar Kuba hanlarının hâkimiyetinde**"* kaldı.
+
+⇒ Veride `iran 1736-03-08 → 1813-10-24`. **37 yıl boyunca Kuba Hanlığı'nın
+elindeyken İran boyalı.** ⚠️ Bunu maddenin **arama özetinden** aldım; `derbend`
+slug'ı ölü çıktı (aşağıda), tam metin okunmadı ⇒ **doğrulama yarım.**
+
+---
+
+## 25. ⭐⭐ TAKVİM TUZAĞI YAKALANDI — §2 bunu veri gelmeden ÖNCE haber vermişti
+
+`CAPRAZ-GOREV §2` şöyle diyordu: *"Bu iş başlar başlamaz sistematik bir çelişki
+üretecek ve anlaşmazlık sanılacak… Rus kaynağı '12 Eylül', bizim kaynağımız
+'24 Eylül' diyecek — **aynı gün.**"*
+
+**Çıktı. Aynen tarif edildiği gibi:**
+
+| antlaşma | veride | TDV'de | veri hangi takvim |
+|---|---|---|---|
+| Gülistan | `1813-10-24` | 24 Ekim 1813 | **Gregoryen** ✓ |
+| Türkmençay | `1828-02-10` | *"**22 Şubat 1828**'de imzalanan"* (`talis-hanligi`) | **Jülyen** ✗ |
+
+```
+Türkmençay: 10 Şubat 1828 (Jülyen) = 22 Şubat 1828 (Gregoryen)   fark 12 gün
+Gülistan  : 12 Ekim  1813 (Jülyen) = 24 Ekim  1813 (Gregoryen)   fark 12 gün
+```
+
+### ③ Hüküm: **ÇELİŞMİYOR — bu bir takvim artefaktı. Ama veri KENDİ İÇİNDE tutarsız.**
+
+🔴 **Aynı savaş serisinin iki antlaşması, iki farklı takvimle yazılmış.**
+Gülistan Gregoryen'e çevrilmiş, Türkmençay çevrilmemiş. Etkilenen: **6 pencere
+ucu / 3 nokta** (Revan · Astara · Lenkeran) — ve Nahçıvan ile Ordubad
+düzeltilince **5 nokta** olacak.
+
+📌 Bu, `§2`'nin *"kural olmadan yüzlerce sahte çelişki üretir ve gerçek olanları
+gizlersiniz"* uyarısının tersi: kural **vardı**, o yüzden 12 günü *"TDV yanlış"*
+diye kaydetmedim, **kendi verimizin tutarsızlığı** olarak teşhis ettim.
+⇒ **Öneri:** `1828-02-10` → `1828-02-22`, ve `gun:"10/22 Şubat 1828"`.
+Karar koordinatörün — proje hangi takvimi esas alıyorsa ona hizalanmalı, ama
+**ikisi birden olamaz.**
+
+---
+
+## 26. ⭐ VE `azerbaycan` MADDESİ FETRETİ KISMEN KAYNAKLADI — hayalet 25'ten 31 noktaya çıkıyor
+
+§8.6'da 1747-1751 fetretini *"doğrulanamadı"* diye kapatmıştım. TDV `azerbaycan`
+🟢 maddesi onun bir kısmını **kaynaklıyor**:
+
+> Nâdir Şah'ın ölümünden sonra *"Azerbaycan'ın Safevî hâkimiyeti son buldu"*;
+> bölge yaklaşık **elli yıl** *"bağımsız fakat şiddetli politik çekişme ve iç
+> savaşlara sahne"* oldu.
+>
+> Kurulan hanlıklar — **Kuzey**: *"Karabağ, Şeki, Gence, Bakü, Derbend, Kuba,
+> Nahcıvan, Taliş ve Revan"* · **Güney**: *"**Tebriz, Urmiye, Erdebil, Hoy,
+> Mâkû ve Merâga**"*
+
+🔴 **Güney listesi benim kapsamımı genişletiyor.** Tebriz · Urmiye · Erdebil ·
+Hoy · Mâku · Merâga benim **ORTA-BATI İRAN** bloğumda ve hepsi
+`iran 1736-03-08 → 1923-10-29` taşıyor. TDV'ye göre onlar da 1747-1795 arası
+**yarı bağımsız hanlıklardı.**
+
+```
+hayalet İran hâkimiyeti:  25 nokta (Kafkasya)  →  31 nokta
+                          1188 nokta-yıl       →  1473 nokta-yıl
+```
+
+📌 Ve bu, tek bir maddenin iki oturumluk bir boşluğu kapatması: fetret artık
+**Azerbaycan için kaynaklı**. İran'ın geri kalanı (Fars, Kirman, Horasan) hâlâ
+açık.
+
+---
+
+## 27. SLUG DURUMU — bu turun adres bilançosu
+
+| slug | durum |
+|---|---|
+| `nahcivan` · `revan` · `seki` · `talis-hanligi` · `azerbaycan` · `dagistan` | 🟢 canlı |
+| `kuba` | 🔴 **ölü** — müstakil "Kuba Hanlığı" maddesi **yok**, bilgi `derbend` ve `azerbaycan` içinde |
+| `derbend` | 🔴 **ölü** — ama arama dizininde **DERBEND diye bir madde var**, yani adres başka (`ordu--sehir` deseni) |
+
+⚠️ **`CLAUDE.md`'nin ölü slug listesi için not:** `derbend` orada zaten ölü
+yazıyor ✓ — ama *"madde yok"* değil, **"adres bilinmiyor"** demek daha doğru.
+Bu ayrım kural ③'ün ta kendisi ve listede belirtilmemiş.
+🟢 **Yeni canlı slug:** `talis-hanligi` · `azerbaycan` · `seki` · `revan` ·
+`karabag` · `gence` · `baku` · `sirvan` — kaynak setine eklenebilir.
+
+---
+
+## 28. KAFKASYA BİLANÇOSU — 25 noktanın 19'u kapandı
+
+| nokta | hata | kaynak |
+|---|---|---|
+| Nahçıvan | **95,6 yıl** fazla | `nahcivan` |
+| Ordubad | **15 yıl** eksik (ters yön) | `nahcivan` |
+| Lenkeran · Astara | **15 yıl** fazla | `talis-hanligi` |
+| Gence | 9,8 yıl fazla | `gence` |
+| Berde · Şuşa | 8,4 yıl fazla | `karabag` |
+| Bakü | 7,8 yıl fazla | `baku` |
+| Derbend | 37 yıl (Kuba Hanlığı) ⚠ yarım doğrulama | `derbend` özeti |
+| Revan | 3,9 ay (fiilî ↔ hukukî) | `revan` |
+| Şeki · Şamahı | ✅ **uyuyor** | `seki` · `sirvan` |
+| + 31 noktanın hepsi | **1747-1795 fetret hayaleti** | `azerbaycan` |
+| Tarki · Ağraham · Kabala · Ereş · Şâbüran · Mahmudâbâd | ⏳ **sınanmadı** | adres yok |
+
+---
+
+## 29. AÇIK KALANLAR — Teslim 4 sonu
+
+1. ⏳ **6 nokta sınanmadı** (Tarki · Ağraham burnu · Kabala · Ereş · Şâbüran ·
+   Mahmudâbâd) — müstakil TDV maddesi bulunamadı
+2. 🔴 Derbend'in doğru adresi — madde var, slug bilinmiyor
+3. 🔴 Fetretin **İran geri kalanı** (Fars · Kirman · Horasan) hâlâ kaynaksız
+4. ❓ **Takvim kararı koordinatörde** — Türkmençay Jülyen mi Gregoryen mi
+5. B4/B5 coğrafî bölme · Ç2, Ç5, Ç6 ikinci çekiş · `marasi` slug
+6. 🟡 **İkinci iş: Memlük** — sıradaki turum

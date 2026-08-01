@@ -296,9 +296,92 @@ Kafkasya'nın 25 noktasına aynı zinciri önermiştim; tek tek sınayınca ikis
 
 ---
 
+---
+
+## 1 Ağustos · Tur 4 — kalan 20 Kafkasya noktası
+
+Koordinatör gösterim kararını verdi (**Seçenek 2**, tek `kafkas-hanliklari`
+kimliği) ve *"kalan 20'yi sına, tek pakette gelsin"* dedi.
+
+### Ölçüm 16 — TDV turu 4: 9 adres denendi
+
+🟢 canlı: `nahcivan` · `revan` · `seki` · `talis-hanligi` · `azerbaycan` ·
+`dagistan`
+🔴 ölü: `kuba` (müstakil madde yok) · `derbend` (**madde VAR, adres bilinmiyor**)
+
+**Sonuç: 25 noktanın 19'u kapandı, 6'sı sınanmadı** (Tarki · Ağraham ·
+Kabala · Ereş · Şâbüran · Mahmudâbâd — müstakil madde bulunamadı).
+
+```
+Nahçıvan          95,6 yıl FAZLA   (veri 1923-10-29, TDV 1828)
+Ordubad           15   yıl EKSİK   (veri 1813-10-24, TDV 1828)  <- TERS YÖN
+Lenkeran·Astara   15   yıl fazla   (Lenkeran 1 Ocak 1813'te düştü)
+Gence              9,8 yıl fazla
+Berde·Şuşa         8,4 yıl fazla
+Bakü               7,8 yıl fazla
+Derbend           37   yıl (1759-1796 Kuba Hanlığı) ⚠ yarım doğrulama
+Revan              3,9 ay  (kale 13 Ekim 1827)
+Şeki·Şamahı       ✅ uyuyor
+```
+
+### ⭐ Ölçüm 17 — Kural ⑥ birebir çıktı: Nahçıvan ↔ Ordubad
+
+**Aynı hanlığın iki şehri, 63 km arayla, hatalar ZIT yönde.** Nahçıvan 95 yıl
+fazla İran, Ordubad 15 yıl eksik. Kafkasya'yı *"fazladan İran var mı"* diye
+sormaya başlamıştım — o soru Nahçıvan'ı bulurdu, **Ordubad'ı asla bulamazdı.**
+⇒ Hanlık hanlık sorduğum için ikisi de çıktı. **Doğru payda, ters yöndeki
+hatayı da yakalıyor.** Kuralın bedeli bu turda sıfır oldu.
+
+### ⭐⭐ Ölçüm 18 — TAKVİM TUZAĞI: görev tanımı bunu veri gelmeden haber vermişti
+
+```
+Gülistan    veride 1813-10-24   = 24 Ekim 1813 Gregoryen     ✓ GREGORYEN
+Türkmençay  veride 1828-02-10   = 10 Şubat 1828 JÜLYEN       ✗
+            TDV talis-hanligi: "22 Şubat 1828'de imzalanan"  = Gregoryen
+            fark tam 12 gün — XIX. yy Jülyen-Gregoryen farkı
+```
+Etkilenen: **6 pencere ucu / 3 nokta** (Revan · Astara · Lenkeran); Nahçıvan
+ve Ordubad düzeltilince **5 nokta**.
+
+⇒ **Aynı savaş serisinin iki antlaşması iki farklı takvimle yazılmış.**
+`CAPRAZ-GOREV §2` kuralı olmasaydı bunu *"TDV yanlış"* diye kaydedecektim;
+kural sayesinde **kendi verimizin tutarsızlığı** olarak teşhis edildi.
+📌 Kuralın ölçülmüş faydası: **bir sahte çelişki önlendi, bir gerçek tutarsızlık
+bulundu** — ikisi aynı 12 günün içindeydi.
+
+### ⭐ Ölçüm 19 — `azerbaycan` maddesi fetretin bir kısmını kaynakladı
+
+§8.6'da *"doğrulanamadı"* diye kapattığım 1747-1751 fetreti, Azerbaycan için
+kaynaklandı: *"Azerbaycan'ın Safevî hâkimiyeti son buldu"*, ~50 yıl *"bağımsız
+fakat şiddetli politik çekişme"*. Ve madde **güney hanlıklarını da sayıyor**:
+Tebriz · Urmiye · Erdebil · Hoy · Mâkû · Merâga.
+
+```
+hayalet İran:  25 nokta / 1188 nokta-yıl  →  31 nokta / 1473 nokta-yıl
+```
+İran'ın geri kalanı (Fars · Kirman · Horasan) hâlâ kaynaksız.
+
+---
+
+## 📌 Tur 4'ten çıkan ders önerileri (koordinatöre)
+
+**⑥ "Ölü slug" ile "madde yok" aynı şey değil — üçüncü bir hâl var: MADDE VAR,
+ADRES BİLİNMİYOR.** `derbend` slug'ı ölü döndü ama arama dizininde DERBEND diye
+bir madde duruyor ve içeriğinden alıntı yapılabiliyor. `CLAUDE.md`'nin ölü slug
+listesi bu üçünü ayırmıyor; ayırmazsa *"kaynak yok"* hükmü yanlış verilir —
+kural ③'ün tam da uyardığı şey.
+
+**⑦ Bir kuralın faydası, ÖNLEDİĞİ hatayla ölçülür ve bu genelde görünmez.**
+Takvim kuralı (`§2`) veri gelmeden önce yazılmıştı. Bugün 12 günlük bir fark
+çıktı ve kural olmasaydı **iki hata birden** yapılacaktı: TDV'yi yanlış
+sanmak (sahte çelişki) ve kendi tutarsızlığımızı görmemek (gerçek hata).
+Kural bir şey *bulmadı* — **yanlış teşhisi önledi.**
+
+---
+
 ## Sıradaki tur
 
-1. 🔴 Kalan 20 Kafkasya noktasının Rus fetih tarihi (5'inde desen çıktı)
-2. 🔴 1747-1751 fetretine erişilebilir akademik kaynak
-3. B4/B5 coğrafî bölme · Ç2, Ç5, Ç6 ikinci çekiş · `marasi` slug
-4. 🟡 İkinci iş: **Memlük** — Kızıldeniz 39,7 yıl fazlalık, Suriye-Filistin-Hicaz
+1. 🟡 **İkinci iş: Memlük** — Kızıldeniz 39,7 yıl fazlalık, Suriye-Filistin-Hicaz
+2. ⏳ 6 sınanmamış Kafkasya noktası · Derbend'in doğru adresi
+3. 🔴 Fetretin İran geri kalanı (Fars · Kirman · Horasan)
+4. B4/B5 coğrafî bölme · Ç2, Ç5, Ç6 ikinci çekiş · `marasi` slug
