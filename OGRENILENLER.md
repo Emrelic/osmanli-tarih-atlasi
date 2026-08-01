@@ -2609,3 +2609,55 @@ etkisiz bir kusur **etkili hâle gelene kadar** hiçbir sinyal üretmez.
 **hangi koşulda değiştireceği** yazılır. ARAŞTIRMA ARABİSTAN'ın vakasında o
 koşul tek satırdı: *"`taraf:` alanı dolunca."*
 
+
+---
+
+## §68 — BİR ÖLÇÜM TEK YÖNDE SORULURSA, TERS YÖNDEKİ KUSURU HİÇ GÖREMEZ
+
+Kullanıcı İran'ın haritada *"benekli parçalı"* göründüğünü söyledi. Ölçüm sebebi
+buldu: `s:"iran"` **326 pencerelik bir torba** — Afşar, Zend, Kaçar hanedanları
+veride **hiç yok** (0 kayıt), o yüzden `akkoyunlu` ile `iran` aynı bölgede
+yerleşim yerleşim değişiyor.
+
+BALKAN'a *"Balkanlarda da böyle torba var mı"* diye sordum. Ölçtü ve **iki ayrı
+biçim** buldu — ikincisi birincinin **tersi:**
+
+| | BİÇİM 1 (İran'ın hastalığı) | BİÇİM 2 |
+|---|---|---|
+| `devletler.js` | ince kimlikler **VAR** | kayıt **YOK** |
+| `yerlesimler.js` | ince kimlikleri **KULLANMIYOR** | **DOĞRU** boyuyor |
+| kusur | dizin ayırıyor, harita ayırmıyor | **harita çiziyor, dizin bilmiyor** |
+| büyüklük | 68 pencere | 16 pencere |
+
+**Biçim 2'nin somut hâli:**
+```
+Nemanjić Sırbistanı  Üsküp 1281-1392 · Serez 1345-1374 …   dizinde HİÇ YOK
+                     (dizinde Sırp tarihi 1402 Despotluk'ta başlıyor)
+Modern Arnavutluk    Draç · Avlonya · Berat 1912-1923      dizinde HİÇ YOK
+                     (tek Arnavut kaydı 1443-1479 İskender Bey)
+```
+⇒ **Harita, kataloğun varlığını bilmediği devletleri çiziyor.**
+
+### Ve asıl ders BALKAN'ın metodolojik notu
+
+> *"Bu ölçümü İran'ın kalıbıyla (**'bir boya kaç devleti yutuyor'**) yaptım ve
+> **yalnız Biçim 1'i bulacaktı.** Biçim 2 ancak **ters soruyu** sorunca çıktı:
+> *'bu pencere hangi devlete düşüyor — hiçbirine düşmüyorsa?'*"*
+
+### Kural
+
+> **Bir eşleşme ölçülürken soru İKİ YÖNDEN de sorulur:**
+> *"A'nın karşılığı B'de var mı"* **ve** *"B'nin karşılığı A'da var mı."*
+> Tek yön, ötekinin kusurunu **yapısal olarak** göremez.
+
+📌 `§42` ("doğrulama iki uçlu olmalı") bir **değişikliğin** iki ucuydu; bu, bir
+**sorunun** iki yönü. İkisi farklı: §42 yaptığın şeyi sınar, §68 sorduğun şeyin
+kapsamını.
+
+🟢 Ve bu alışkanlık aynı gün **üç kez** iş gördü:
+```
+dört alan sınaması   "ad kırılmaya bağlanıyor mu" + "kırılma adı anıyor mu"
+künye doğrulaması    "slug canlı mı" + "canlı slug DOĞRU olay mı"
+torba ölçümü         "boya kaç devleti yutuyor" + "pencere hangi devlete düşüyor"
+```
+
