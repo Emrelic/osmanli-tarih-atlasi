@@ -1111,3 +1111,52 @@ Dubrovnik  s:avusturya 1814-01-01 → …   ✓ V-1 uygulanmış, kayıt haritad
 Ve `Uyvar 1281-01-01 → 1663-09-24` **hâlâ duruyor** — B-5 (kur:1545 +
 macaristan + 1663-09-26) Macaristan paketine bağlı olduğu için beklemede,
 beklendiği gibi.
+
+---
+
+## 🔴 B-1'İN "ÇÜRÜTÜLMESİ" — commit diff'iyle kapandı
+
+1 Ağustos akşamı ÇAPRAZ AKDENİZ B-1'i sınayıp *"tutmuyor, ölçüm artefaktı"*
+dedi; koordinatör doğrulayıp *"126,5 yıl hayalet yoktu"* diye kabul etti.
+**İkisi de post-fix kaydı okumuş.** Kesin delil, düzeltmeyi yapan commit'in
+kendi diff'i:
+
+```
+$ git show 894bb82 -- data/yerlesimler.js   # 1 Ağustos 14:06
+                                            # "Ayamavra tam zincir (CAPRAZ-BATI.md B-1/B-2)"
+
+- s:[{…napoli}, {f:"1684-08-06", t:"1923-10-29", d:"venedik"}]      ← ÖNCE: TEK PENCERE
++ s:[{…napoli}, {f:"1684-08-06", t:"1715-09-01", d:"venedik"},
++                {f:"1718-07-21", t:"1797-10-17", d:"venedik"},
++                {f:"1797-10-17", t:"1815-11-05", d:"fransa"},
++                {f:"1815-11-05", t:"1864-05-21", d:"ingiltere"},
++                {f:"1864-05-21", t:"1923-10-29", d:"yunanistan"}]   ← SONRA
+```
+⇒ **`t:"1923-10-29"` gerçekten `d:"venedik"` penceresinin bitişiydi.** Artefakt
+değildi; kayıt bugün doğru olduğu için öyle görünüyor.
+
+### Yanlış doğrulamanın ortak sebebi — iki oturumda da aynı araç
+```
+git log -S'Ayamavra'   → 39f3f49 (29 Tem)   "dosya değişmemiş" sonucu
+git log -G'Ayamavra'   → 078ad4d · 894bb82 (1 Ağu)   GERÇEK
+```
+`-S` **pickaxe**'tir: dizgenin **sayısı** değişmediyse commit'i göstermez.
+Kaydın **içindeki** dönemleri düzenlemek `"Ayamavra"` sayısını 1'de bırakır.
+
+🔴 **Somut risk:** B-1 *"çürüdü"* diye kayda geçerse, `894bb82` geri alınabilir
+ve **hata geri gelir.** Bu satır tam onu önlemek için yazıldı.
+
+### 🟢 Ve koordinatörün buradaki ölçümü DOĞRU, ayrı tutulmalı
+```
+venedik penceresi dizin t:'si (1797-05-12) sonrasına taşan: 19 KAYIT, hepsi → 1797-10-17
+fark: 5 ay  (Cumhuriyet'in düşüşü 12 Mayıs ↔ Campo Formio 17 Ekim 1797)
+```
+`CLAUDE.md §3.5`: *"teslim gecikmeleri… yıllar değil **aylar mertebesinde**
+olmalıdır"* ⇒ **5 ay meşru, hayalet değil.** Bir sonraki tur bu 19 kaydı
+görürse *"hayalet"* dememeli — **ölçüldü ve meşru.**
+
+### 📌 Kendi payıma çıkardığım ders
+Koordinatörün önerisi haklı: *"X devleti Y yıl fazla"* derken **hangi
+pencerenin `d:`si okundu** yazılmalı. B-1'i yazarken kaydın tamamını dökmüştüm
+ama **raporda yalnız uç tarihleri** verdim; sınayan kişi hangi pencereden
+geldiğini göremedi. Bulgu doğruydu, **sunumu sınanabilir değildi.**
