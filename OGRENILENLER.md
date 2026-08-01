@@ -3641,3 +3641,38 @@ burada çare **hiç harita yazmamak.**
 hazırdı, emsal hazırdı, itiraz edilecek hiçbir şey yoktu. **Pahalı olan
 kaynak değil geometriydi, ve kimse ona bakmamıştı.**
 
+### §82.1 — BİR NOKTANIN FAYDASI TEK BAŞINA ÖLÇÜLEMEZ
+
+NOKTA EKLEME oturumu 15 peteği ölçtü ve şunu fark etti: **iç bölgeye konan
+noktalar, kıyı noktalarının KURGUSAL genişliğini de kesti.**
+```
+Zadar    2.005,3  →    537,6 km²
+Şibenik  1.668,6  →    654,5 km²
+Knin     6.238,9  →  5.424,1 km²
+```
+> *"**Bir noktanın faydası tek başına ölçülemez.**"*
+
+⇒ Nokta eklemenin getirisi *"kaç km² kazandım"* değil — **komşularının yanlış
+iddiasını da kesiyor.** Zadar tek başına eklenseydi 2.005 km² iddia edecekti
+ve bunun dörtte üçü yanlış olacaktı; Knin/Vrana/Nadin onu **doğru boyuta**
+indirdi.
+
+### Ve tersi de doğru: bir nokta eklemek YENİ bir hata açabilir
+
+Aynı oturum, kendi işinin doğurduğu hatayı **kendi bulup bildirdi**
+(`§3.5.1`'in *"iki uç da ölçülür"* kuralını kendine uygulayarak):
+```
+Knin'in 5.424 km²'lik peteği KUZEYE taşıyor
+Lika'da başka nokta yok — Bihać eksik (1592-1878 Osmanlı sancak merkezi)
+Knin 1688'den VENEDİK · Lika 1689'da HABSBURG
+⇒ Lika 1688-1797 arası VENEDİK boyanacaktı
+```
+📌 **Doğru bir nokta, yanlış bir yere taşabilir.** Ve bu `§72`'nin nokta
+eksenindeki hâli: *hayalet yok olmadı, taraf değiştirdi.*
+
+> **KURAL: Bir nokta eklendiğinde peteğinin NEREYE KADAR taştığı ölçülür.
+> Taştığı yerde başka nokta yoksa, orada YENİ bir hata doğar.**
+
+🟢 Çare tek nokta: **Bihać.** Hatayı açan da kapatan da aynı sınıf — **nokta
+yoğunluğu.**
+
