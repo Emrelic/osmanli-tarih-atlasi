@@ -309,27 +309,27 @@ doğrulayıcı, `girdi.py`'nin kendi ayrıştırıcısıyla):
                                  (avusturya·bosna·cekoslovakya·ispanya·
                                   macaristan·sirbistan·venedik·yugoslavya
                                   — YENİ RENK GEREKMİYOR)
-⑦ Değişmez 2                   🔴 2 AÇIK KIRILMA — aşağıda
+⑦ Değişmez 2                   🔴 1 AÇIK KIRILMA — aşağıda
 ```
 
-### 4.2 🔴 CANLIYA ALMADAN ÖNCE ÖDENECEK BORÇ: İKİ KRONOLOJİ MADDESİ
+### 4.2 🔴 CANLIYA ALMADAN ÖNCE ÖDENECEK BORÇ: TEK KRONOLOJİ MADDESİ
 ```
-1513-01-01  Sin'in (Sinj) fethi     en yakın madde  59 gün
 1522-01-01  Skradin'in fethi        en yakın madde 125 gün
 ```
-Dosya bugün girdiye eklenirse **Değişmez 2 AÇIK 0'dan 2'ye çıkar.**
-⚠️ **Alternatif:** Sin ve Skradin çıkarılıp kalan **on üç nokta** alınabilir —
-o on üç **sıfır borç** doğuruyor.
+Dosya bugün girdiye eklenirse **Değişmez 2 AÇIK 0'dan 1'e çıkar.**
+⚠️ **Alternatif:** Skradin çıkarılıp kalan **on dört nokta** alınabilir —
+o on dört **sıfır borç** doğuruyor.
 
-📌 **Bu liste ilk yazıldığında DÖRT maddeydi; üçü ben çalışırken yazıldı.**
-`Knin'in fethi` (1522-05-29) · `Klis Kalesi'nin fethi ve Dalmaçya sancağının
-kurulması` (1537-03-12) · `Klis'in Venedik'e kaybı` (1648-03-31) — üçü de
-**tam gün** eşleşiyor. Teşekkürler; ölçümü tekrarladım, üçü de kapandı.
+📌 **Bu liste ilk yazıldığında BEŞ maddeydi; dördü ben çalışırken başka
+oturumlarca yazıldı** — `Knin'in fethi` (1522-05-29) · `Klis Kalesi'nin fethi
+ve Dalmaçya sancağının kurulması` (1537-03-12) · `Klis'in Venedik'e kaybı`
+(1648-03-31) · Sin'in 1513 fethi. Ölçümü her seferinde tekrarladım.
+⚠️ **Sayı hareketli: canlıya almadan önce doğrulayıcıyı TEKRAR koştur.**
 
-🔴 **Kalan ikisinin ortak sebebi aynı ve sıra ÖNEMLİ:** ikisinde de **gün
-bilinmiyor** (`§76` → `YYYY-01-01`). Madde gerçek güne yazılırsa ±30 penceresi
-tutmaz; `1513-01-01`/`1522-01-01`'e yazılırsa madde uydurma gün taşır.
-⇒ **Önce TARİH bulunmalı, sonra madde yazılmalı.** Ters sıra çalışmaz.
+🔴 **Skradin'in kalma sebebi ve SIRANIN önemi:** günü bilinmiyor
+(`§76` → `1522-01-01`). Madde gerçek güne yazılırsa ±30 penceresi tutmaz;
+`1522-01-01`'e yazılırsa madde uydurma gün taşır. ⇒ **Önce TARİH bulunmalı,
+sonra madde.** Ters sıra çalışmaz.
 ⚠️ Ve Knin (1522-05-29) ile Skradin (1522-01-01) **aynı seferin iki kalesi**
 ama 148 gün arayla yazılı — tek bir "1522 seferi" maddesi ikisini birden
 kapatamaz.
@@ -338,15 +338,15 @@ kapatamaz.
 `py arac/denetle.py` **benim işimden ÖNCE de** çıkış kodu 1 veriyor:
 ```
 Değişmez 1  ✓  976 yerleşim, 50 sahipsiz (beklenen 50)
-Değişmez 2  ✗  484 kırılma, 1 açık (beklenen 0)
-Değişmez 2s ✗  596 YABANCI kırılması, 116 açık (tavan 114) — bilinen borç
-Değişmez 2t ✗  kırılmasız madde: 50 (tavan 49) — bilinen borç
+Değişmez 2  ✓  484 kırılma, 0 açık (beklenen 0)     ← ben çalışırken 1'den 0'a indi
+Değişmez 2s ✗  596 YABANCI kırılması, 115 açık (tavan 114) — bilinen borç
+Değişmez 2t ✗  kırılmasız madde: 56 (tavan 49) — bilinen borç
 Ek denetim  ✓  konum: 0 nokta kara maskesinin dışında
 SONUÇ: İHLAL VAR — çıkış kodu 1
 ```
-Bu **benim eserim değil** (dosyam okunmuyor, sayı 976'da sabit) ama bilinmesi
-gerekiyor: `CLAUDE.md §1.5` hâlâ *"764 yerleşim · 433 kırılma · 34 sahipsiz ·
-AÇIK 0"* diyor; gerçek **976 · 484 · 50 · 1**. Belge dört sayının dördünde de
+Bu **benim eserim değil** (dosyam okunmuyor, sayı **976**'da sabit — 991 değil)
+ama bilinmesi gerekiyor: `CLAUDE.md §1.5` hâlâ *"764 yerleşim · 433 kırılma ·
+34 sahipsiz · AÇIK 0"* diyor; gerçek **976 · 484 · 50**. Belge üç sayıda birden
 geride. `§5`'teki *"bayat satır bir araştırma oturumunu doğrudan yanılttı"*
 dersinin tekrarı.
 
@@ -356,9 +356,9 @@ dersinin tekrarı.
 
 1. **`arac/girdi.py` → `GIRDI_DOSYALARI`'na `"yerlesimler_ek.js"` satırı.**
    Yalnız sen ekleyebilirsin (`§7`: `arac/*.py` bu oturuma kapalı).
-   **İki madde yazılmadan ekleme**, ya da Sin+Skradin'i çıkarıp on üçü al (4.2).
-2. **İki tarih araştırması** (4.2): Sin'in 1513 fethinin GÜNÜ, Skradin'in 1522
-   fethinin GÜNÜ. Madde bunlardan SONRA yazılmalı.
+   **Skradin maddesi yazılmadan ekleme**, ya da Skradin'i çıkarıp on dördü al (4.2).
+2. **Bir tarih araştırması** (4.2): Skradin'in 1522 fethinin GÜNÜ. Madde
+   bundan SONRA yazılmalı — ters sıra ±30 penceresini tutturamıyor.
 3. **Tököli / Orta Macar `v:` kalemi** araştırma oturumuna (2. bölüm sonu).
 4. **Ostrovica ve Obrovac'ın Osmanlı fetih tarihi** (3.5) — koordinatları
    raporda hazır, tek eksik tarih. 1616'da ikisi de Krka sancağı kapetanijesi.

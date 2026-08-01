@@ -7,25 +7,27 @@
 //    Oturum 0'ın (koordinatör) kararıdır ve AŞAĞIDAKİ BORÇ ÖDENMEDEN
 //    yapılmamalıdır.
 //
-// ── CANLIYA ALMADAN ÖNCE ÖDENECEK BORÇ: İKİ KRONOLOJİ MADDESİ ─────────────
+// ── CANLIYA ALMADAN ÖNCE ÖDENECEK BORÇ: TEK KRONOLOJİ MADDESİ ─────────────
 //    Değişmez 2 yalnız `d:` ve `v:` kırılmalarını sayar; `s:` geçişleri madde
-//    istemez. Bu partinin AÇTIĞI d: kırılmalarından ikisinin ±30 gün içinde
-//    maddesi YOK (son ölçüm; 15 noktanın 28 kırılması tarandı):
+//    istemez. 15 noktanın 30 kırılması tarandı; ±30 gün içinde maddesi
+//    olmayan TEK tarih kaldı:
 //
-//      1513-01-01  Sin'in (Sinj) fethi        en yakın madde  59 gün
 //      1522-01-01  Skradin'in fethi           en yakın madde 125 gün
 //
-//    Bu dosya bugün girdiye eklenirse AÇIK 0'dan 2'ye çıkar.
-//    ⚠️ Sin ve Skradin kayıtları çıkarılıp gerisi alınırsa kalan
-//    ON ÜÇ nokta SIFIR borç doğurur.
+//    Bu dosya bugün girdiye eklenirse AÇIK 0'dan 1'e çıkar.
+//    ⚠️ Skradin kaydı çıkarılıp gerisi alınırsa kalan ON DÖRT nokta
+//    SIFIR borç doğurur.
 //
-//    📌 Bu liste ilk yazıldığında BEŞ maddeydi; ÜÇÜ bu oturum çalışırken
-//    yazıldı (`Knin'in fethi` 1522-05-29 · `Klis Kalesi'nin fethi ve
-//    Dalmaçya sancağının kurulması` 1537-03-12 · `Klis'in Venedik'e kaybı`
-//    1648-03-31 — üçü de tam gün eşleşiyor). Kalan ikisinin ortak sebebi
-//    aynı: GÜN BİLİNMİYOR (§76 → YYYY-01-01) ve madde gerçek güne yazılırsa
-//    ±30 penceresi tutmaz. Yani bu iki kalemde önce TARİH bulunmalı,
-//    sonra madde yazılmalı — ters sıra çalışmaz.
+//    📌 Bu liste ilk yazıldığında BEŞ maddeydi; DÖRDÜ bu oturum çalışırken
+//    başka oturumlarca yazıldı (`Knin'in fethi` 1522-05-29 · `Klis Kalesi'nin
+//    fethi ve Dalmaçya sancağının kurulması` 1537-03-12 · `Klis'in Venedik'e
+//    kaybı` 1648-03-31 · Sin'in 1513 fethi). Sayı hareketli — canlıya almadan
+//    önce doğrulayıcıyı TEKRAR koştur.
+//    🔴 Skradin'in kalmasının sebebi: GÜN BİLİNMİYOR (§76 → YYYY-01-01). Madde
+//    gerçek güne yazılırsa ±30 penceresi tutmaz, 1522-01-01'e yazılırsa madde
+//    uydurma gün taşır. ⇒ Önce TARİH bulunmalı, sonra madde. Ters sıra
+//    çalışmaz. Ve Knin (1522-05-29) ile Skradin AYNI seferin iki kalesi ama
+//    148 gün arayla yazılı — tek bir "1522 seferi" maddesi ikisini kapatamaz.
 //
 // ── ÖLÇÜM: NEDEN BU NOKTALAR ──────────────────────────────────────────────
 //    CLAUDE.md §2: noktası olmayan bölge en yakın peteğe emilir. Boşluklar
