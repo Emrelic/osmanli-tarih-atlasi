@@ -333,8 +333,8 @@ window.YERLESIMLER_AFRIKA = [
 // (Özdemir Paşa'nın Nûbe harekâtı, 1555). Mehdî isyanı sırasında Vâdî Halfâ
 // Mısır elinde kaldı — Sudan zinciri DEĞİL, Mısır zinciri yazıldı.
 { ad:"Vâdî Halfâ", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"kale", lat:21.802, lon:31.352, g:0, k:4, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1555-01-01",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1555-01-01",t:"1805-07-03",y:"kusatma"}],
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+  d:[{f:"1517-04-13",t:"1805-07-03",y:"kusatma"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
 // ===========================================================================
@@ -640,28 +640,28 @@ window.YERLESIMLER_AFRIKA = [
 // Masavva'nın karşı kıyısındaki liman; Habeş Eyaleti'nin üçüncü kurucu
 // noktası (Bahrinegus'un merkezi).
 { ad:"Arkîko", tur:"liman", lat:15.548, lon:39.449, g:0, k:4, m:"Sevâkin",
-  s:[{f:"1281-01-01",t:"1557-01-01",d:"memluk"},{f:"1885-02-05",t:"1923-10-29",d:"italya"}],
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1885-02-05",t:"1923-10-29",d:"italya"}],
   d:[{f:"1557-01-01",t:"1885-02-05"}] },
 
 // Mısır ile Sevâkin arasındaki kıyı; 1899 Anglo-Mısır sınırında Sudan'da
 // kaldı.
 { ad:"Halâib", tur:"liman", lat:22.219, lon:36.647, g:0, k:4, m:"Sevâkin",
-  s:[{f:"1281-01-01",t:"1557-01-01",d:"memluk"},{f:"1885-02-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1557-01-01",t:"1885-02-05"}] },
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1885-02-05",t:"1923-10-29",d:"ingiltere"}],
+  d:[{f:"1517-04-13",t:"1885-02-05"}] },
 
 { ad:"Akīk", tur:"liman", lat:18.230, lon:38.200, g:0, k:4, m:"Sevâkin",
-  s:[{f:"1281-01-01",t:"1557-01-01",d:"memluk"},{f:"1885-02-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1557-01-01",t:"1885-02-05"}] },
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1885-02-05",t:"1923-10-29",d:"ingiltere"}],
+  d:[{f:"1517-04-13",t:"1885-02-05"}] },
 
 // Sevâkin'in iç ardalanı (Bece ülkesi). 1883-1891 arası fiilen Mehdî
 // kuvvetlerinin elindeydi; bu ara dönem yazılmadı, Sevâkin zinciri korundu.
 { ad:"Tokar", tur:"sehir", lat:18.427, lon:37.729, g:0, k:4, m:"Sevâkin",
-  s:[{f:"1281-01-01",t:"1557-01-01",d:"memluk"},{f:"1884-01-01",t:"1891-02-06",d:"mehdi"},{f:"1891-02-06",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1557-01-01",t:"1884-01-01"}] },
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1884-01-01",t:"1891-02-06",d:"mehdi"},{f:"1891-02-06",t:"1923-10-29",d:"ingiltere"}],
+  d:[{f:"1517-04-13",t:"1884-01-01"}] },
 
 { ad:"Sinkat", tur:"sehir", lat:18.833, lon:36.833, g:0, k:4, m:"Sevâkin",
-  s:[{f:"1281-01-01",t:"1557-01-01",d:"memluk"},{f:"1885-02-05",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1557-01-01",t:"1885-02-05"}] },
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1885-02-05",t:"1923-10-29",d:"ingiltere"}],
+  d:[{f:"1517-04-13",t:"1885-02-05"}] },
 
 // ===========================================================================
 // 8) HABEŞİSTAN İMPARATORLUĞU — iç yayla
