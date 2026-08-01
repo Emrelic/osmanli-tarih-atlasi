@@ -1160,3 +1160,76 @@ Koordinatörün önerisi haklı: *"X devleti Y yıl fazla"* derken **hangi
 pencerenin `d:`si okundu** yazılmalı. B-1'i yazarken kaydın tamamını dökmüştüm
 ama **raporda yalnız uç tarihleri** verdim; sınayan kişi hangi pencereden
 geldiğini göremedi. Bulgu doğruydu, **sunumu sınanabilir değildi.**
+
+## A-13 📊 SAYIM — `isg:` genişletmesi kaç vakayı kapsar
+
+Koordinatör *"kesitinin tamamında kaç tane var? Ölç, ama yazma"* dedi.
+Ölçütü mekanikleştirdim: **`d:`OSMANLI → `s:`yabancı → `d:`OSMANLI sandviçi**
+(toprak Osmanlı'ya geri dönüyor ⇒ devir kalıcı değildi).
+
+### Benim kesitim — 10 sandviç, ama yalnız **4'ü aday**
+```
+✗ ADAY   Niş        1689-09-24 → 1690-09-09    1,0 yıl   zorla geri alındı
+✗ ADAY   Vidin      1689-09-24 → 1690-09-09    1,0 yıl   zorla geri alındı
+✗ ADAY   Belgrad    1688-09-06 → 1690-09-09    2,0 yıl   zorla geri alındı
+✗ ADAY   Estergon   1595-09-02 → 1605-10-03   10,1 yıl   zorla geri alındı
+─────────────────────────────────────────────────────────────────────
+✓ s: DOĞRU  Belgrad·Kragujevac·Çaçak·Böğürdelen 1717→1739  Pasarofça DEVRETTİ
+✓ s: DOĞRU  Semendire 1717-08-18 → 1738-08-01              (A-6 uygulanmış ✓)
+✓ s: DOĞRU  Böğürdelen macaristan 1476-02-01 → 1521-07-07  45,4 yıl — Macar
+            GERİ FETHİ (Matthias Corvinus 1476), işgal değil
+```
+⇒ **Cevap: 4.** Üçünü A-12'de bulmuştum, sayım dördüncüyü doğruladı ve
+altısını eledi.
+
+### 🔴 VE GENİŞLETMENİN ASIL RİSKİ — bütün veride 134 sandviç
+```
+safevi 21 · venedik 12 · aydin 11 · candar 10 · rusya 9 · avusturya 9 ·
+mehmed-celebi 7 · yemen 7 · mentese 6 · memluk 6 · germiyan 6 · bizans 5 …
+--- 22 kimlik, TOPLAM 134 pencere
+```
+🔴 **Sandviç ölçütü tek başına uygulanırsa 134 pencereyi süpürür** — ve
+listenin başı **Anadolu beylikleri**: `aydin` 11 · `candar` 10 · `mentese` 6 ·
+`germiyan` 6 · `teke` 4 · `karaman` 3. Beylik dönemindeki el değiştirmeler
+**işgal değil**; orada "de facto/de jure ayrımı" kavramsal olarak yok.
+
+⇒ **Sandviç gerekli ama yeterli değil.** İkinci şart olmadan kategori
+seyrelir — ki A-12'deki çekincem tam buydu, şimdi **sayıyla** duruyor:
+```
+sandviç                     134  ← ölçüt yalnız bu olursa
++ "devir hiç olmadı"          ?   ← her vakada KAYNAK gerekiyor
++ 1771 sonrası (bugünkü isg:) 0   ← benim 4 adayımın hiçbiri bu bandda değil
+```
+📌 Benim 4 adayım **1595-1690** arasında; mevcut 72 `isg:` kaydının hepsi
+**1771+**. Yani genişletme yapılırsa **81-176 yıl geriye** uzanır.
+
+**③ HÜKÜM: ÖLÇÜLDÜ, YAZILMADI.** Veriye dokunulmadı, karar koordinatörde.
+
+## A-14 ✅ 1683 ÖNCESİ KUŞAK — Estergon ve Zigetvar TEMİZ, Uyvar bilinen
+
+```
+Estergon   s:macaristan 1281 → 1543-08-10 · d: 1543-1595 · s:avusturya 1595-1605
+           · d: 1605-1683 · s:avusturya 1683-1918 · s:macaristan 1918-1923
+Zigetvar   s:macaristan 1281 → 1566-09-07 · d: 1566-1689 · s:avusturya 1689-1918
+           · s:macaristan 1918-1923
+Uyvar      s:avusturya 1281 → 1663-09-24 · d: 1663-1685 · s:avusturya 1685-1918
+           · s:cekoslovakya 1918-1923
+```
+**③ HÜKÜM: UYUYOR** — iki kayıtta kusur yok.
+- **Estergon** doğru: Macar → 1543 Osmanlı fethi → 1595-1605 Avusturya
+  (A-13'ün adayı) → 1605 geri alınış → 1683. `y:"kusatma"` iki fetihte de yazılı.
+- **Zigetvar** doğru: Macar → **1566-09-07** fetih (Kanûnî'nin kuşatması) →
+  1689 Avusturya. Tek pencere, temiz.
+- **Uyvar** — kusurları **B-5'te zaten raporlandı** (yanlış kimlik + `kur:`
+  yok + fetih günü `1663-09-24` yerine TDV `1663-09-26`). Macaristan paketine
+  bağlı, beklemede.
+✅ Ve Uyvar'ın 1918 sonrası **`cekoslovakya`** yazılmış — Nové Zámky için doğru.
+
+### Koordinatörün Uyvar sorusuna cevap
+> *"Uyvar 1685'te **iade mi edildi, fethedildi mi**?"*
+
+**FETHEDİLDİ.** TDV `uyvar`: *"7 Temmuz'da başlayan kuşatma, kale ve şehrin
+**19 Ağustos 1685**'te Habsburg denetimine geçmesiyle sona erdi."* ⇒
+`s:avusturya 1685-08-19` bir **fetih tarihidir**, doğru yazılmış; A-1 kuralına
+uygun. Ve Uyvar bir daha Osmanlı'ya dönmediği için **sandviç değil**, `isg:`
+sorusu hiç doğmuyor.
