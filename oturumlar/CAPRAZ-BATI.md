@@ -470,16 +470,143 @@ yazılmış — İngiltere Parga'yı Ali Paşa'ya sattı, ada değil anakara old
 
 ---
 
-## SIRADAKİ
+---
 
-1. **1699 Karlofça** — kasıtlı örtüşme noktası (`§1`): benim Avusturya ve
-   Venedik'im + KUZEY'in Lehistan ve Rusya'sı. Dört kaynak karşılaştırılacak.
-2. **Kraliyet Macaristanı kaynaklandırması** — Bratislava ve Ausgleich zinciri
-   (renk kararı ertelendi, kaynak işi sürüyor).
-3. **Fransa EN SON** — `yerlesimler_avrupa.js` merge kararı çıkınca.
+# KARLOFÇA 1699 — dörtlü örtüşme noktası
+
+> Takvim tarafı **ÇAPRAZ KUZEY'de ölçüldü** (Gregoryen; TDV gün-ay hicrîsi
+> veriyor ⇒ Osmanlı belgesi var ⇒ çeviri sağlam). Burada yalnız **toprak
+> devirleri** var.
+
+**② KAYNAK** — TDV `karlofca` (`<title>` = "KARLOFÇA ANTLAŞMASI - TDV İslâm
+Ansiklopedisi", **canlı**): *"24 Receb 1110 (26 Ocak 1699)"*, yirmi beş yıllık.
+```
+Avusturya   Tımışvar (Banat) eyaleti DIŞINDA bütün Macaristan ve Erdel
+Venedik     Dalmaçya'da "Knin, Signe (Sin), Verlice, Delovar, Zadvar,
+            Vergoriçe ve Çiklit kaleleri" + Mora
+Lehistan    Podolya boşaltılıyor, Kamaniçe yıkılıyor; karşılığında Boğdan'da
+            Suçeva, Roman, Nemçe, Soroka, Kampulek Osmanlı'ya GERİ dönüyor
+Rusya       tam barış yok — iki yıllık mütareke; Azak sonra bırakıldı
+```
+
+## K-1 ✅ TARİHLEME DOĞRU — ve sebebi ilkeli, **kimse "düzeltmesin"**
+
+Ölçüm: `1699-01-26`'da veride **10 kırılma ucu var ve hepsi Podolya'nın**
+(Kamaniçe · Bar · Meciboj · Yazlofça · Çehrin → `lehistan`). Mora, Erdel ve
+Macaristan'da o gün **hiçbir şey olmuyor.**
+
+**Bu bir eksiklik değil, doğru modelleme:**
+```
+Mora        venedik 1687-08-01→1715   ← FETİH tarihi (Morosini)
+Erdel       avusturya 1687-08-12      ← FETİH tarihi
+Macaristan  avusturya 1686-1692       ← FETİH tarihleri
+Podolya     lehistan 1699-01-26       ← ANTLAŞMA tarihi
+Temeşvar    osmanlı → 1716-10-13      ← Karlofça'da Osmanlı'da KALDI ✓
+```
+⇒ Karlofça, zorla alınmış yerlerde yalnız **oldu-bittiyi tanıdı**; fiilî
+değişim yıllar önce olmuştu. **Podolya tek istisna çünkü Kamaniçe hiç
+fethedilmedi** — Osmanlı orayı antlaşma gereği *boşalttı*. Yani antlaşma
+tarihini kullanan tek yer, gerçekten o tarihte el değiştiren tek yer.
+✅ Temeşvar'ın 1716'ya kadar Osmanlı kalması TDV ile **birebir** tutuyor.
+
+📌 **Bu satır bu yüzden yazıldı:** ileride biri *"Karlofça'da Mora Venedik'e
+geçti ama veri 1687 diyor"* diye bakıp **düzeltmeye kalkarsa geriletme olur.**
+Model bilinçli: taban renk **fiilî hâkimiyeti** izliyor (`girdi.py`'nin
+de jure/de facto ayrımıyla aynı felsefe).
+
+⚠️ **Ama kullanıcı tarafında bir beklenti açığı var.** `olaylar.js`'te madde
+şöyle: *"Karlofça Antlaşması — **ilk büyük toprak kaybı**"*. Kullanıcı bu
+maddeye tıkladığında haritada **yalnız Podolya'nın kıpırdadığını** görecek;
+"büyük kayıp" 1686-1692'de zaten olmuştu. Bu `Değişmez 2t`'nin sınırdaki bir
+vakası — kırılma **var** (10 uç), o yüzden denetim geçiyor, ama başlığın vaat
+ettiği ölçekte değil. **Öneri: madde metnine bir cümle** — *"kayıpların
+çoğu 1686-1692 fetihleriyle fiilen gerçekleşmişti; antlaşma bunları tanıdı."*
+
+## K-2 🔴 DALMAÇYA — antlaşmanın SAYDIĞI YEDİ KALEDEN HİÇBİRİ VERİDE YOK
+
+**① BİZDE NE VAR.** Dalmaçya kutusunda (42,3-44,5°K / 15-19°D) **14 nokta**:
+```
+7 Venedik  → HEPSİ ADA   Pag · Uzunada · Brakya · Hvar · Korçula · Vis · Mliyet
+7 diğeri   → HEPSİ İÇ    Saraybosna · Mostar · Travnik · Livno · Foça · Yayça · Cetinje
+ANAKARA KIYISI: SIFIR NOKTA
+```
+TDV'nin saydığı yedi kaleden (Knin · Sin · Verlice · Delovar · Zadvar ·
+Vergoriçe · Çiklit) **hiçbirinin kaydı yok**; Zadar · Split · Şibenik · Klis ·
+Kotor · Herseknovi de yok.
+
+**③ HÜKÜM: ÇELİŞİYOR — ve noktasızlık ÜÇ AYRI hata üretiyor.** Ölçüldü:
+
+| aranan yer | en yakın nokta | km | 1700'de boyanıyor | doğrusu |
+|---|---|---|---|---|
+| **Knin** | Livno (İhlevne) | 69,1 | **OSMANLI** | **Venedik** (TDV adıyla sayıyor) |
+| **Sinj** | Livno (İhlevne) | 32,7 | **OSMANLI** | **Venedik** ("Signe (Sin)") |
+| **Kotor** | Cetinje | 12,3 | **karadağ** | **Venedik** (1420-1797 kesintisiz) |
+| **Herseknovi** | Cetinje | 31,7 | **karadağ** | **Venedik** (1687'den) |
+| Zadar · Split · Şibenik · Klis | ada peteği | 19-74 | venedik | venedik ✓ *ama tesadüfen* |
+
+1. 🔴 **Karlofça'nın Dalmaçya kazancı haritada HİÇ GÖRÜNMÜYOR.** Knin ve Sinj
+   1699'da Venedik'e geçti; bizde ikisi de 1750'de hâlâ **Osmanlı** — çünkü
+   noktaları yok ve Livno'nun Osmanlı peteğine düşüyorlar.
+2. 🔴 **Venedik Arnavutluğu (Albania Veneta) tamamen yok.** Kotor ve
+   Herseknovi **Karadağ** boyanıyor. Kotor 1420'den 1797'ye kesintisiz
+   Venedik'ti; Karadağ hiçbir zaman sahip olmadı. Cetinje 12,3 km'den bütün
+   Boka Kotorska'yı yutuyor.
+3. 🟡 **Doğru renkli yerlerde bile sınır kurgusal.** Zadar/Split/Şibenik
+   "venedik" görünüyor ama bunu **ada peteklerinden** alıyorlar; Osmanlı-Venedik
+   kara sınırı — antlaşmanın asıl konusu — ada ile iç bölge petekleri arasında,
+   gerçek hattın çok uzağında çiziliyor.
+
+📌 Ve bu, atlasın **en çok yeniden çizilen kara sınırıydı**: Karlofça (1699,
+*Linea Grimani*) ve Pasarofça (1718, *Linea Mocenigo*) iki kez taşıdı.
+Bugün ikisi de haritada **hiç yok**.
+
+### 🟢 Öneri — nokta ekleme işi, yeni renk gerekmiyor
+`venedik` · `osmanli` · `avusturya` hepsi mevcut. Asgari küme (TDV'nin saydığı
+dördü + iki büyük iskele):
+```
+Knin · Sinj · Klis · Zadar · Split · Kotor      (+ Herseknovi)
+```
+⚠️ **A2 BALKAN'ın alanıyla örtüşüyor** — nokta eklemek onun işi olabilir;
+koordinatör dağıtsın. Ben yalnız **hangi noktanın neden gerektiğini** ölçtüm.
+⚠️ Ve Dubrovnik kaydı girdiğinde Kotor'un yokluğu daha görünür olacak: iki
+komşu liman, biri kayıtlı biri değil.
+
+## K-3 🟡 ÖLÜ SLUG — iki kronoloji maddesinde
+```
+data/olaylar.js      1699-01-26  kaynak="karlofca-antlasmasi"   ❌ ÖLÜ
+data/olaylar_ek3.js  1698-11-13  kaynak="karlofca-antlasmasi"   ❌ ÖLÜ
+doğrusu: karlofca                                               ✅ canlı (bu turda kullandım)
+```
+KAYNAK oturumu bunu zaten tespit etmiş (`KAYNAK-DENETIMI.md`); **veride hâlâ
+düzeltilmemiş.** İki satır, VERİ KRONOLOJİ'ye.
+
+## K-4 📌 ÇAPRAZ KUZEY'E — Karlofça'nın TERS yönü
+TDV: Osmanlı Podolya'yı boşaltırken **karşılığında Boğdan'da beş kale geri
+aldı** — *Suçeva · Roman · Nemçe · Soroka · Kampulek*. Bizim veride Podolya'nın
+beş noktası doğru devrediliyor ama **bu geri alışın karşılığı ölçülmedi**;
+Boğdan/Moldova KUZEY'in alanı. Örtüşme noktası bu: **aynı antlaşma, iki yönlü
+devir, iki oturum.**
 
 ## KOORDİNATÖRDE BEKLEYEN KARARLAR
 1. **B-2 renk seçimi** (a/b/c) — kullanıcı kararı, harita görünür değişiyor.
 2. **B-4 Viyana/Graz** — dizinin `f:`'i mi geri çekilecek?
 3. **B-6** — Fransa'ya başlamadan `yerlesimler_avrupa.js` merge sırası.
 4. B-1 ve B-5'in uygulaması kime gidiyor — YAMACI mı?
+
+---
+
+## SIRADAKİ
+
+1. **Kraliyet Macaristanı kaynaklandırması** — Bratislava ve Ausgleich zinciri
+   (renk kararı ertelendi, kaynak işi sürüyor).
+2. **Mljet'in kimliği** — Ragusa arşivi erişilebilirse Dubrovnik'le birlikte.
+3. **Fransa EN SON** — `yerlesimler_avrupa.js` merge kararı çıkınca.
+
+## 📌 1442 SORUSUNA CEVAP — madde YAZILMASIN
+Koordinatör sordu: *"`1442` TDV'de mi yoksa yalnız Batı kaynağında mı?"*
+**Yalnız Batı kaynağında, ve o kaynak da proje ölçütünü karşılamıyor.**
+`1442`yi bir web taramasından aldım; sonuçlar arasında Vikipedi ve hayran
+wiki'leri vardı. `CLAUDE.md §4`: **Vikipedi hiçbir zaman tek dayanak değildir.**
+⇒ **Madde yazılmasın.** Doğrulanmış hâli: TDV `1365` (atıfla) ve `1459-03-07`
+(kendi hükmü) veriyor; `1442` **doğrulanmadı** olarak kalır. Akademik bir
+Ragusa kaynağı bulunursa yeniden açılır.
