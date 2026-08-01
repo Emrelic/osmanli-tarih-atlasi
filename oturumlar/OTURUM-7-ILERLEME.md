@@ -557,3 +557,64 @@ girmedi") doğrudan `data/olaylar.js`, `data/olaylar_ek4.js`,
 beklemeden. Commit `f0093da`, yalnız bu üç dosya, `py arac/denetle.py` sonrası
 `SONUÇ: temiz` (Değişmez 2: 0 açık). Normalde bu dosyalar bende değil; bu
 istisna koordinatörün açık talimatıyla ve depo kırmızıyken yapıldı.
+
+---
+
+## Dokuzuncu tur — Girit iki madde + Dalmaçya dört madde + iki eski kalem (2026-08-01, ÜRETİM KOŞARKEN — COMMIT ATILMADI)
+
+⚠️ Koordinatör "veri dondu, `data/olaylar*.js`'e commit atma" dedi (üretim
+~18:08'de bitecek). Aşağıdaki hepsi **dosyalara yazıldı, çalışma alanında
+bekliyor**, hiçbiri commit edilmedi. `py arac/denetle.py`: Değişmez 2 **0
+açık** (Dubrovnik dahil beş yeni kırılma kapandı).
+
+**B) Girit — iki madde, `olaylar.js`, Kandiye fethi maddesinin hemen
+ardına:**
+- `1692-01-01` Granbosa'nın fethi (TDV `girit`, canlı, yalnız yıl)
+- `1715-01-01` Suda ve Spinalonga'nın fethi (TDV `girit`: "1127 (1715) Mora
+  seferi sırasında") — **1715-09-07'deki mevcut Çuha Adası maddesine
+  bağlamadım**: coğrafya farklı (Kythira ≠ Girit) ve TDV o günü Suda/
+  Spinalonga'ya bağlamıyor; §76.1 "komşunun gününü ödünç alma" tam bu
+  vakayı yasaklıyor. Yıl hassasiyetinde kaldı.
+- İkisi de `fethedilen:` almadı — Suda/Spinalonga/Granbosa kasıtlı olarak
+  `yerlesimler*.js`'te yok (OGRENILENLER §82), alan zaten karşılıksız kalırdı.
+
+**A) Dalmaçya — dört + bir madde, `olaylar_ek5.js`:**
+`yerlesimler_ek.js`'i okudum (NOKTA EKLEME'nin kendi kaynak notları
+satırların üstünde duruyor) — dört tarihin hepsi zaten oradaki `s:`
+alanlarıyla birebir eşleşiyordu, kaynak taramamı buna göre ayarladım:
+- `1513-01-01` Sin (Sinj)'in fethi — **başta hata sandım**: TDV `livno`
+  Sinj'i Gazi Hüsrev Bey'in 1521-22 seferinde sayıyor, 1513 ile 8 yıl
+  çelişiyor gibi göründü. `yerlesimler_ek.js:183-184`'teki yorum satırı
+  konuyu çözdü: 1513 ayrı, daha erken bir akıncı fethi — Gazi Hüsrev Bey
+  henüz sancakbeyi bile değildi. Maddede bu yüzden **Gazi Hüsrev Bey adını
+  vermedim**, TDV bu 1513 olayını doğrulamıyor; `kaynak:"dalmacya"` (genel,
+  zayıf ama en yakın canlı slug), kisiler boş bırakıldı. ⚠️ Bu, uydurmadan
+  kaçınmak için özellikle temkinli yazılmış bir madde — istersen ARAŞTIRMA
+  BALKAN/DALMAÇYA daha iyi kaynak bulursa değiştirilsin.
+- `1522-05-29` Knin'in fethi (TDV `gazi-husrev-bey`, canlı, yalnız yıl)
+- `1537-03-12` Klis'in fethi ve sancağın kuruluşu (TDV `klis`, canlı, yalnız
+  yıl — ama fetih+sancak kuruluşunu ayrı ayrı anlatan metin istendiği gibi)
+- `1648-03-31` Klis'in Venedik'e kaybı — TDV (`klis`, `ibrahim--padisah`)
+  yalnız "1645-1648 arası" diyor, ama `yerlesimler_ek.js:192-193`'teki yorum
+  daha kesin bir kaynak veriyor: **31 Mart 1648, Leonardo Foscolo**. Bunu
+  kullandım, gun: alanında ikisini de belirttim.
+
+**Eski kalemler:**
+- **Dubrovnik `1806-05-27`** — TDV `dubrovnik` (canlı) birebir doğruladı:
+  *"27 Mayıs 1806'da Dubrovnik'i zaptederek..."* — depodaki TEK açık
+  Değişmez 2 ihlaliydi, şimdi kapandı. `olaylar_ek6.js`'e eklendi.
+- **`karlofca-antlasmasi` ölü slug** — `<title>` ile doğrulandı (ölü,
+  "Arama" sayfasına düşüyor). İki dosyada (`olaylar.js:104`,
+  `olaylar_ek3.js:42`) `kaynak:"karlofca"` (canlı) ile değiştirildi.
+
+**Toplam bu turda dokunulan dosyalar (hepsi commit'siz):** `olaylar.js`,
+`olaylar_ek3.js`, `olaylar_ek5.js`, `olaylar_ek6.js`.
+
+⚠️ Değişmez 2s (115/tavan 114) ve 2t (56/tavan 49) şu an tavan üstü — ama bu
+sayılar bugün başka oturumların işiyle birkaç kez zaten oynadı (2t tek
+başına 62→48→49 arası gezindi), tavanı ben değiştiremem. Girit'in iki
+maddesi kesinlikle 2t'ye katkı yapıyor (kırılmasız, kasıtlı) — geri kalanı
+başka oturumların eş zamanlı işi olabilir, ayırt edemedim.
+
+**Üretim bitip haber gelince**: bu dört dosyayı `git add` + tek commit'te
+göndereceğim, `git diff --cached` ile yalnız bunları doğrulayacağım.
