@@ -1158,7 +1158,118 @@ değişiminden önce sıralanır** — yani gün verilmezse madde 1 Nisan'a, har
 
 ---
 
-## 39. SIRADAKİ TUR — kendi kuyruğum
+---
+---
+
+# TUR 8 — borç kapandı + beş kale
+
+---
+
+## 40. ✅ BORÇ KAPANDI — 1648'in günü **TDV'de YOK**
+
+Yedi turdur sıradaydı. Cevap: **aranan gün mevcut kaynakta yok**, ve bu bir
+eksiklik değil **bir hüküm** (`CAPRAZ-GOREV §8`).
+
+### ② Kaynakta ne var
+Üç adres denendi:
+| adres | sonuç |
+|---|---|
+| TDV `ukrayna` | yalnız **"1648"** |
+| TDV `arama/?q=Hmelnitski` | üç madde çıkıyor (`hatman` · `ukrayna` · `vasal`), **hiçbirinde gün yok** |
+| TDV **`hatman`** (`<title>` doğrulandı) | **"1648"**: Hmelnitski Zaporog Kazaklarınca **hatman seçildi** |
+
+### ③ HÜKÜM — **DOĞRULANAMADI**, ve kayıt böyle yazılmalı
+```
+t:"1648-01-01"   gun:"1648"
+```
+`CLAUDE.md §4` (*"gün bilinmiyorsa YYYY-01-01"*) + kural ⑤ (*"kaynağın verdiği
+hassasiyet, verildiği gibi yazılır"*). **Gün uydurmadım ve uydurulmamalı.**
+
+### 🔴 VE BORÇ ARANIRKEN B3'Ü BÜYÜTEN İKİ ŞEY ÇIKTI
+
+**① TDV `hatman` — 1650'de Osmanlı himayesi:**
+> **1648**: Hmelnitski hatman seçildi
+> **1650**: Ukrayna-Kazak devletini **Osmanlı himayesi altına soktu**
+> **1657**: Hmelnitski'nin ölümü · **Doroşenko 1665-1676**
+
+⇒ Tur 1'de B3 için `v:` penceresi olarak `1672-08-27 → 1699-01-26` önermiştim
+(Oturum 16 E.5'ten). **Eksikmiş:** TDV **1650**'de de bir Osmanlı himayesi
+kaydediyor. Yani **iki ayrı himaye dönemi** var ve haritamızda **ikisi de yok.**
+
+**② TDV `karlofca` — hatmanlık Karlofça'da LAĞVEDİLDİ:**
+> *"Osmanlı Devleti Podolya'yı boşaltıyor, **Ukrayna'da kurduğu Kazak
+> Hatmanlığı'nı lağvediyor**, Kamaniçe Kalesi'ni boşaltıp yıkıyor"*
+
+⇒ Bu, B3'ün en güçlü dayanağı: **Osmanlı'nın Ukrayna'da kurduğu bir Kazak
+hatmanlığı vardı ve 1699'da lağvedildi.** Haritamız o hatmanlığı hiç çizmiyor
+(`zaporojye` 0 pencere) — yani **kurulduğunu da lağvedildiğini de** göstermiyor.
+
+---
+
+## 41. 🟢 K-4 — BEŞ KALE `KESİN`, ama asıl bulgu daha büyük
+
+### ⚠️ Önce: ÇAPRAZ BATI'nın iddiası doğru, **adresi ben yanlış aradım**
+İlk denediğim TDV `bogdan` beş kaleyi **anmıyor**. Bir an *"doğrulanamadı"*
+yazacaktım. `karlofca`'ya bakınca **kelimesi kelimesine** çıktı:
+
+> *"Boğdan'da **Leh işgali altındaki Suçeva (Suczawa), Roman, Nemçe (Njamtzo),
+> Soroka ve Kampulek** kalelerini geri alıyordu."*
+
+📌 Kural ③'ün üçüncü kez işlemesi: **kaynak vardı, ben yanlış maddeye baktım.**
+ÇAPRAZ BATI'nın bulgusu **`KESİN`** — beş ad da kaynakta, tek tek.
+
+### ① Bizde ne var — ve asıl mesele bu
+| kale | veride | zinciri |
+|---|---|---|
+| **Suçava (Suceava)** | ✅ var (47.63, 26.25) | `v:OSMANLI` **1456-06-01 → 1775-05-07** kesintisiz |
+| **Roman** | ✅ var (46.92, 26.93) | `v:OSMANLI` **1456-06-01 → 1878-07-13** kesintisiz |
+| **Soroka (Soroca)** | ✅ var (48.16, 28.30) | `v:OSMANLI` **1456-06-01 → 1812-05-28** kesintisiz |
+| **Nemçe** (Neamț) | 🔴 **YOK** | — |
+| **Kampulek** (Câmpulung) | 🔴 **YOK** | — |
+
+### ③ HÜKÜM — koordinatörün tarifinden **farklı ve daha büyük**
+Koordinatör *"aldığını çizmemişiz"* dedi. Ölçünce görülen şu:
+
+> **Leh işgalini hiç çizmemişiz.** Üç kale de 1456'dan 1775/1878/1812'ye kadar
+> **kesintisiz Osmanlı tâbii** görünüyor. Yani 1699'da bir "geri alış" yok,
+> çünkü haritada bir "kayıp" da yok.
+
+⇒ Eksik olan **bir sınır değil, bir bölüm**: Boğdan'ın kuzey kalelerinin Leh
+işgali (1680'ler–1699) haritada **hiç geçmiyor.**
+
+### 📦 Ve çözüm, Kefe'de doğrulanan mekanizmanın aynısı: `isg:`
+```
+Suçava · Roman · Soroka
+   v:OSMANLI   (mevcut, kesilmez)
+   isg:        ????-??-?? → 1699-01-26   d:"lehistan"
+```
+| parça | etiket | dayanak |
+|---|---|---|
+| işgalin **bitişi** `1699-01-26` | **`KESİN`** | TDV `karlofca`, beş ad tek tek |
+| işgalin **başlangıcı** | 🔴 **ÖLÇÜLMEDİ** | TDV *"Leh işgali altındaki"* diyor, **tarih vermiyor** |
+
+⚠️ **Başlangıç tarihi olmadan `isg:` yazılamaz.** Sobieski'nin Boğdan
+seferleri sorulacak adres; ben ölçmedim. **Yamaya bu hâliyle gitmez.**
+
+### 🟡 İki kale veride yok — ayrı iş
+`Nemçe` (Neamț) ve `Kampulek` (Câmpulung) **nokta olarak eklenmeli**, ve bu
+`yerlesimler.js` işi (benim değil). ⚠️ **Koordinat vermiyorum** — hafızadan
+koordinat yazmak tam olarak bu projenin yasakladığı şey. GeoNames'ten alınmalı.
+
+📌 Ve `CLAUDE.md §2`'nin uyarısı burada geçerli: iki nokta yoksa o bölge
+**en yakın peteğe emiliyor** demektir — yani Boğdan'ın kuzeybatısı şu an
+Suçava'nın ya da Çernovitz'in peteğinden boyanıyor.
+
+### 📌 Bir tarih daha çıktı — kronolojiye
+TDV `karlofca`: Osmanlı-Leh anlaşması **on bir maddelik** ve
+**22 Receb 1110 (18-22 Kasım 1698)**'de bağlanmış.
+Bizim kronolojide `1698-11-13 Karlofça barış görüşmeleri başladı` var —
+**Osmanlı-Leh mutabakatının kendisi yok.** Ve gün-ay hicrîsi verildiği için
+B14 ölçütüne göre **güvenilir.**
+
+---
+
+## 42. SIRADAKİ TUR — kendi kuyruğum
 
 1. **1648 Hmelnitski ayaklanmasının günü** — Ukrayna/Leh kaynağından; B3'ün
    önerisi bu tarihe bağlı. **Dört turdur sırada, hâlâ yapılmadı** — bu turun

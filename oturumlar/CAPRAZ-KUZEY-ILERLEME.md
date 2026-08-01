@@ -655,3 +655,97 @@ kalınır.
   alındı; TDV *"1771"* diyor, **günü doğrulanmadı.**
 - **Kabartay (Nalçik)** — hâlâ bakılmadı.
 - **1648 Hmelnitski günü** — **yedinci turda da yapılmadı.**
+  → *Tur 8'de KAPANDI: gün TDV'de yok, hüküm "doğrulanamadı".*
+
+---
+
+## Tur 8 — 2026-08-01, borç + beş kale
+
+**Ölçüm ağacı: `7462b26` sonrası** (Kefe `05d799e` ile uygulanmış hâliyle).
+
+### Ö32 · Kefe doğrulaması — önerim aynen girmiş
+
+```
+Kefe   d:   OSMANLI  1475-06-06 → 1783-04-19
+       s:   ceneviz  1281-01-01 → 1475-06-06
+       s:   rusya    1783-04-19 → 1923-10-29
+       isg: rusya     1771-07-01 → 1783-04-19
+```
+✅ Art arda iki `rusya` penceresi kapandı.
+
+---
+
+### Ö33 · 1648'in günü — üç adres, üç kez yok
+
+| adres | `<title>` | gün var mı |
+|---|---|---|
+| `ukrayna` | UKRAYNA | ❌ yalnız "1648" |
+| `arama/?q=Hmelnitski` | — | ❌ üç madde (`hatman`·`ukrayna`·`vasal`), günsüz |
+| **`hatman`** | HATMAN | ❌ yalnız "1648" |
+
+⇒ **Hüküm: doğrulanamadı.** Kayıt `t:"1648-01-01"` + `gun:"1648"` olmalı.
+
+**Ve `hatman`'dan iki yeni tarih:**
+```
+1648  Hmelnitski hatman seçildi
+1650  Ukrayna-Kazak devletini OSMANLI HİMAYESİ altına soktu   ← B3'e yeni
+1657  ölümü        ·   Doroşenko 1665-1676
+```
+
+---
+
+### Ö34 · Beş kale — TDV `karlofca` doğruladı
+
+⚠️ **İlk adresim yanlıştı:** TDV `bogdan` beş kaleyi **anmıyor**; az kalsın
+*"doğrulanamadı"* yazacaktım. `karlofca`'da kelimesi kelimesine var:
+> *"Boğdan'da Leh işgali altındaki **Suçeva (Suczawa), Roman, Nemçe (Njamtzo),
+> Soroka ve Kampulek** kalelerini geri alıyordu."*
+
+Aynı maddeden iki şey daha:
+> *"Osmanlı Devleti Podolya'yı boşaltıyor, **Ukrayna'da kurduğu Kazak
+> Hatmanlığı'nı lağvediyor**, Kamaniçe Kalesi'ni boşaltıp yıkıyor"*
+> Osmanlı-Leh anlaşması **on bir madde**, **22 Receb 1110 (18-22 Kasım 1698)**
+
+---
+
+### Ö35 · Üç kalenin veri zinciri — işgal HİÇ YOK
+
+```
+Suçava (Suceava)   s:bogdan 1281→1456-06-01 · v:OSMANLI 1456-06-01→1775-05-07
+Roman              s:bogdan 1281→1456-06-01 · v:OSMANLI 1456-06-01→1878-07-13
+Soroka (Soroca)    s:bogdan 1281→1456-06-01 · v:OSMANLI 1456-06-01→1812-05-28
+Nemçe (Neamț)      YOK
+Kampulek (Câmpulung) YOK
+```
+1699 civarında **hiçbir kırılma yok.** Yani "geri alış" çizilmemiş çünkü
+**"kayıp" da çizilmemiş** — eksik olan bir sınır değil, **bir bölüm.**
+
+📌 Karşılaştırma: `1699-01-26` günü yalnız 5 Podolya/Ukrayna noktasını
+oynatıyor (Kamaniçe·Çehrin·Bar·Meciboj·Yazlofça) — Boğdan tarafı **sıfır**.
+
+---
+
+### Ö36 · TDV slug ölçümü — tur 8
+
+| slug | `<title>` | hüküm |
+|---|---|---|
+| `hatman` | "HATMAN - TDV İslâm Ansiklopedisi" | 🟢 canlı, dolu |
+| `bogdan` | "BOĞDAN - TDV İslâm Ansiklopedisi" | 🟢 canlı — **ama beş kaleyi anmıyor** |
+| `arama/?q=Hmelnitski` | — | 📌 `hatman`·`ukrayna`·`vasal` |
+
+Sekiz turda: **13 canlı · 1 kabuk · 5 ölü.**
+📌 `bogdan` yeni bir sınıf: **canlı, dolu, konuyla ilgili — ama aranan bilgi
+başka maddede.** *"Madde doğru görünüyor"* ile *"cevap burada"* aynı şey değil.
+
+---
+
+## Tur 8'de ölçmediğim, iddia da etmediğim şeyler
+
+- **Leh işgalinin BAŞLANGIÇ tarihi** — TDV *"Leh işgali altındaki"* diyor ama
+  tarih vermiyor. **`isg:` bu olmadan yazılamaz.** Sobieski'nin Boğdan
+  seferleri (1686 · 1691) aday, **ölçmedim.**
+- **Nemçe ve Kampulek'in koordinatları** — hafızadan yazmadım, GeoNames gerek.
+- **1650 Osmanlı himayesinin süresi** — TDV başlangıcı veriyor, bitişini vermiyor.
+- **Helsinki boşluğu** (70.637 km², 1566-1623) — koordinatör üçüncü sıraya
+  koydu, **başlanmadı.**
+- **Kabartay (Nalçik)** — hâlâ bakılmadı.
