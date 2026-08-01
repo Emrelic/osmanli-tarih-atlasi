@@ -3449,3 +3449,75 @@ doğru tarihle kullanılıyor. **Kopyalanacak, keşfedilmeyecek.**
 `§74` gereği önce sorulacak: **aynı sorunun cevapları mı?** (Krallığın ilhakı
 ile krallığın ilanı ayrı olaylar olabilir.)
 
+
+---
+
+## §81 — KOŞU, VERİ AKIŞINDAN YAVAŞ: TUTARLILIK ≠ GÜNCELLİK
+
+1 Ağustos'ta üç üretim koşusu yapıldı ve **üçü de bitişinde geride kalmıştı.**
+
+```
+koşu süresi     82 dakika
+veri akışı      beş oturum, sürekli yazıyor
+⇒ 15:22-16:44 arası yedi commit, 25 yerleşim değişti
+   Brač · Brindisi · Böğürdelen · Dubrovnik · Hama · Humus · Hvar · Kalyari ·
+   Korçula · Krk · Lecce · Mljet · Niş · Pag · Peşte · Rab · Sasari ·
+   Semendire · Taranto · Uzunada · Varad · Vis · Yanova · Győr · İstolni Belgrad
+```
+
+Sabah MOTOR bir girdi kilidi isteğini reddetmişti:
+> *"İhtiyacımız olan girdinin **donması** değil, hangi anı yakaladığımızın
+> **bilinmesi.**"*
+
+Akşam kendi pozisyonunu güncelledi — ve teşhis bu:
+> *"O argüman hâlâ doğru ama **yanlış soruya cevaptı.** Anlık görüntü çıktının
+> **tutarlı** olmasını garanti ediyor… ama **tutarlılık ≠ güncellik.**"*
+
+**Sistem bozulmadı — YETİŞEMEDİ.** Anlık görüntü karışık veri üretmedi,
+`URETIM_IZI` bayatlığı yakaladı. **İkisi de çalıştı ve çıktı yine
+yayınlanamadı.**
+
+### Kural
+
+> **Bir üretim adımı, kendisini besleyen veri akışından yavaşsa, çıktı
+> ÜRETİLDİĞİ ANDA bayattır** — ve bunu hiçbir izleme aracı çözmez, çünkü
+> sorun ölçümde değil **hızda.**
+
+🟢 Çare bir araç değil, bir **protokol:**
+```
+ÜRETİM PROTOKOLÜ
+1. koordinatör "VERİ DONDU" ilan eder → data/ altına commit YOK
+2. koşu başlar (~82 dk)
+3. koşu biter → türetilmiş üreticiler → damga → commit → yayın
+4. koordinatör "ÇÖZÜLDÜ" der → yazma serbest
+```
+📌 Ve donma **işi durdurmuyor**: araştırma, ölçüm, dosya yazımı serbest;
+yalnız `data/` **commit'i** bekliyor. İki oturum aynı gün sorunsuz uyguladı.
+
+⚠️ Reddedilen alternatif: *"bilerek bayat yayınla, eksiği commit'e yaz."*
+MOTOR savunmadı, koordinatör de kabul etmedi — **aynı sabah tam olarak
+*"kullanıcı eskisini görüyor"* diye koşulmuştu.**
+
+### Ve ölçütün ucuzu, ölçütün doğrusundan sık seçilir
+
+Aynı çıktıda iki ölçüt çeliştir:
+```
+ad kümesi karşılaştırması   976 girdi / 976 çıktı, fark 0   → "GÜNCEL" ✓
+URETIM_IZI sha256           yerlesimler.js DEĞİŞMİŞ         → BAYAT 🔴
+```
+`sha256` haklıydı. Ve `uret_petek.py:1756` bunu **aylar önce** yazmıştı:
+> *"Ad kümesi karşılaştırması bu işi göremez: yerleşim taşınırsa ya da
+> `d:`/`v:`/`s:` değişirse **ad kümesi aynı kalır**, ölçüt 'temiz' der,
+> harita bayattır."*
+
+DENETÇİ deseni adlandırdı — bugünkü **beş** vekil-ölçümün ortak yanı:
+> *"Hepsi **ucuz** ölçümlerdi. Gerçek ölçüt her seferinde daha pahalıydı —
+> karma hesaplamak, süreç komut satırını okumak, `URETIM_IZI` ayrıştırmak.
+> **Vekil seçmenin sebebi tembellik değil, UCUZLUK; ve ucuz ölçüm yanlış
+> olduğunda ucuz olduğu için tekrar tekrar seçiliyor.**"*
+
+```
+süreç yaşı · satır sayısı · echo çıktısı · geçen süre · dosya zaman damgası
+```
+📌 Beşinde de **bir sayı vardı** ve beşi de **yanlış şeyi** ölçüyordu.
+
