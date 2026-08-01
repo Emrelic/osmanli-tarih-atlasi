@@ -61,6 +61,26 @@ HARF = "a-zçğıöşüâîû"
 # demek olurdu.
 KIYAS_KAPSAMI = 366
 
+# ═══ TOLERANS — ÖLÇÜLDÜ, EŞİK KENDİNİ GÖSTERDİ ═══
+# İki artefakt (sıra sayısı · bileşik başlık) kapandıktan SONRA ölçüldü:
+#
+#     0 –  1 gün :  5 çift        31 – 92 gün :  0 çift   ← BOŞ BANT
+#     1 –  8 gün : 11 çift        92 –366 gün :  1 çift   ← 1446 vakası
+#     8 – 31 gün : 37 çift
+#
+# 54 çiftin 53'ü 31 günün altında ve **31 ile 92 arasında hiçbir şey yok.**
+# Eşiği seçmedim; dağılım seçti. Üstelik boş bant, yapısal açıklamayla birebir
+# örtüşüyor: `padisahlar.js` AY hassasiyetinde, ay tarihi ayın 1'ine genişliyor,
+# yani yapısal pay en fazla 31 gün olabilir.
+# ⚠️ KOORDİNATÖR'ün tahminî ±45'i tam bu boş bandın İÇİNE düşüyordu — bugün
+# zarar vermezdi ama sınırın yanlış tarafındaydı ve gerçek bir vaka 40 gün
+# kaysa yutardı. "Ölç, tahmin etme" bu vakada ölçülebilir bir fark yarattı.
+TOLERANS = 31
+
+# Bilinen borç: 1446 vakası (II. Murad 2. saltanat cülûsu, -119 gün).
+# ⚠️ Bu sayı YÜKSELTİLMEZ. Yükselirse yeni bir belge çelişkisi doğmuş demektir.
+BEKLENEN_CELISKI = 1
+
 # Cülûs/hal maddesini ayırt eden kökler. ⚠️ Kök listesi ÖLÇÜLEREK büyütülmeli;
 # eksik kök, maddeyi "yok" göstererek SAHTE bulgu üretir — yani bu listenin
 # eksikliği veriyi değil ARACI suçlar.
@@ -85,6 +105,21 @@ def _gecen_mi(metin, kokler):
     return any(k in m for k in kokler)
 
 
+def _sira_no(ad):
+    """'IV. Mustafa' → 'iv' · 'Orhan Gazi' → None.
+
+    🔴 SIRA SAYISI AYIRT EDİCİDİR VE İLK YAZIMDA ATILIYORDU. Sonucu ölçüldü:
+    `IV. Mustafa`'nın hal tarihi, **"Alemdar Mustafa Paşa'nın ölümü"** maddesiyle
+    eşleşti — BAŞKA BİR KİŞİ. Ad kökü yalnız {mustafa} kaldığı için ikisi
+    ayırt edilemiyordu.
+    Çare ARAYÜZ'ün `kisiBul` ölçümünden alındı (js/app.js:2593): **sorgu kaç
+    ayırt edici kelime veriyorsa o kadarı tutmalı.** Sıra sayısı da ayırt edici
+    bir kelimedir; padişah adlarında çoğu zaman TEK ayırt edici olandır.
+    """
+    m = re.match(r"\s*([IVX]+)\.", ad or "")
+    return m.group(1).lower() if m else None
+
+
 def _ad_kokleri(ad):
     """'II. Murad (Koca)' → {'murad'} gibi anlamlı ad kökleri."""
     t = re.sub(r"\(.*?\)", " ", ad or "")
@@ -104,6 +139,32 @@ def _anar_mi(baslik, kokler):
     return any(re.search("(?<![%s])%s" % (HARF, re.escape(k)), b) for k in kokler)
 
 
+def _bentler(baslik):
+    """Başlığı BENTLERE böler — bileşik başlıkta hangi fiil kime ait?
+
+    🔴 İKİNCİ ARTEFAKTIN ÇARESİ. Ölçüldü: `V. Murad`ın **cülûs** sınırı şu
+    maddeyle eşleşti — **"V. Murad'ın hal'i ve II. Abdülhamid'in cülûsu"**.
+    Başlık HEM hal HEM cülûs kökü taşıyor; cülûs olan Abdülhamid'in, Murad'ın
+    değil. Bütün başlıkta kök aramak, iki kişinin iki ayrı fiilini birbirine
+    karıştırıyordu.
+    Bent ayracı ` ve ` — bu başlıklarda iki olayı ayıran fiilî sınır odur.
+    """
+    return [p for p in re.split(r"\s+ve\s+|\s+—\s+|;\s*", baslik or "") if p.strip()]
+
+
+def _ayni_bentte(baslik, adk, sira, kokler):
+    """Ad VE fiil kökü AYNI bentte mi? Sıra sayısı varsa o da tutmalı."""
+    for bent in _bentler(baslik):
+        if not _anar_mi(bent, adk):
+            continue
+        if sira and not re.search(r"(?<![a-zçğıöşü])%s\." % sira,
+                                  _sadelestir(bent)):
+            continue
+        if _gecen_mi(bent, kokler):
+            return True
+    return False
+
+
 def padisah_tutarliligi(P, O):
     """Her saltanat sınırı için en yakın ilgili maddeyi bulur.
 
@@ -114,6 +175,7 @@ def padisah_tutarliligi(P, O):
     kayit, olculemeyen = [], []
     for p in P:
         adk = _ad_kokleri(p.get("ad", ""))
+        sira = _sira_no(p.get("ad", ""))
         if not adk:
             olculemeyen.append((p.get("ad", ""), "ad kökü çıkarılamadı"))
             continue
@@ -124,7 +186,7 @@ def padisah_tutarliligi(P, O):
                 continue
             g = denetle.gun_no(denetle.tam(t))
             aday = [(abs(og - g), og, b, ot) for og, b, ot in ol
-                    if _anar_mi(b, adk) and _gecen_mi(b, kokler)
+                    if _ayni_bentte(b, adk, sira, kokler)
                     and abs(og - g) <= KIYAS_KAPSAMI]
             if not aday:
                 olculemeyen.append(("%s %s" % (p.get("ad", ""), yon),
@@ -202,8 +264,10 @@ def main():
     if not ayrinti and len(olculemeyen) > 8:
         print("     … %d satır daha (--ayrinti)" % (len(olculemeyen) - 8))
 
-    buyuk = sorted((k for k in kayit if abs(k[4]) > 31), key=lambda k: -abs(k[4]))
-    print("\n  31 GÜNDEN BÜYÜK FARK (ay hassasiyetinin açıklayamadığı): %d" % len(buyuk))
+    buyuk = sorted((k for k in kayit if abs(k[4]) > TOLERANS), key=lambda k: -abs(k[4]))
+    durum = "✗" if len(buyuk) > BEKLENEN_CELISKI else "✓"
+    print("\n  %s TOLERANS(%d gün) AŞAN BELGE ÇELİŞKİSİ: %d (bilinen borç %d)"
+          % (durum, TOLERANS, len(buyuk), BEKLENEN_CELISKI))
     for ad, yon, bt, ot, fark, b in (buyuk if ayrinti else buyuk[:12]):
         print("     %-30s %-10s belge:%-10s madde:%-10s %+5dg  %s"
               % (ad[:30], yon, bt, ot, fark, b[:34]))
