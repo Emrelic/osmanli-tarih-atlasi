@@ -68,7 +68,7 @@ window.DEVLETLER = [
 },
 
 { id:"memluk", ad:"Memlûk Sultanlığı (Mısır-Suriye)", tur:"sultanlik", bolge:"misir-sudan",
-  f:"1250-01-01", t:"1517-01-22", baskent:"Kahire", harita:"memluk",
+  f:"1250-01-01", t:"1517-04-13", baskent:"Kahire", harita:"memluk",
   ozet:"Mısır ve Suriye'yi 267 yıl yöneten köle-asker (memlûk) kökenli sultanlık; Yavuz Sultan Selim tarafından ilhak edildi.",
   kronoloji:[
     { t:"1250-05-02", tur:"kurulus", b:"Memlûk emirleri Eyyûbî hanedanına son verdi" },

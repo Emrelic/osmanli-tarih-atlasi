@@ -857,6 +857,37 @@ Memlük `t:` — A5'in TDV turu + koordinatörün kararı bekleniyor.
 
 ---
 
+## EK OTURUM 8 — Memlük `t:` düzeltmesi (2026-07-31)
+
+Koordinatörün kararı geldi: `t:` son hükümdarın düştüğü gün (Tomanbay'ın
+idamı), hukukî devir günü değil. Tek satır değişti:
+
+```
+memluk  t:"1517-01-22" (Ridâniye, Kahire'nin düşüşü) → t:"1517-04-13" (Tomanbay'ın idamı)
+```
+
+Kayda değer: kaydın `kronoloji`sinde `1517-04-13` "son" maddesi (Tomanbay'ın
+idamı, Mısır'ın Osmanlı'ya katılması) **zaten vardı** — yalnızca üstteki
+özet `t:` alanı yanlış tarihi (bir önceki `1517-01-22` "Ridaniye" maddesini)
+taşıyordu. Tek alan düzeltmesi, kronoloji hiç değişmedi.
+
+**Doğrulama:** `denetle_anakronizm.py` yeniden çalıştırıldı. `memluk`'ün
+kalan B-listesi taşması küçüldü (Kızıldeniz kıyısı kalıntıları: 39,9→39,7
+yıl, Vâdî Halfâ 37,9→37,7 yıl) ama **sıfırlanmadı** — bu, ayrı ve önceden
+bilinen bir "kesin" B-listesi vakası (Arkîko/Halâib/Akīk/Tokar/Sinkat/Vâdî
+Halfâ'nın Memlûk kalıntıları haritada Osmanlı fethinden onlarca yıl sonra
+da Memlûk boyalı görünüyor) — bugünkü görevin kapsamı dışı, dokunmadım.
+```
+kayit: 241 | harita eslesmesi olan: 120 | tekrar id: 0
+```
+`data/devletler.js` dışında hiçbir dosyaya dokunulmadı. Commit/push yapılmadı.
+Merkez oturuma bildirildi.
+
+**Bekleyen:** yalnız `tabi:` alanı — A5'in tam tâbiiyet tablosunu
+`ARABISTAN-DUZELTMELER.md`'ye yazması bekleniyor.
+
+---
+
 ## EK OTURUM 5 — `abdulkadir` yeni kayıt + `erdel` renk ölçümü (2026-07-31)
 
 Merkez oturum önceki oturumda bulduğum iki boşluk için görev gönderdi: (1)
