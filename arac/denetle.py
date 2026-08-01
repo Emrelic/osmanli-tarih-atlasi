@@ -493,6 +493,20 @@ BILINEN_AYRI = {
     # tetikledi, olayların benzerliği değil.
     ("Vehhâbîlerin Tâif'i ele geçirmesi",
      "Vehhâbîlerin Mekke'yi ilk kez ele geçirmesi"),
+    # ⭐ "AYNI KURUM, FARKLI AŞAMA" SINIFI — ARABİSTAN'ın TDV turu kesti.
+    # Önek ölçütü bunu 0,500 benzerlikle mükerrer sandı ve ben "üç gerçek
+    # mükerrer" diye raporladım; üçünden biri GERÇEK DEĞİLMİŞ. TDV
+    # `sura-yi-devlet`: 5 Mart 1868 irade ile kuruldu, 10 Mayıs 1868 Bâbıâli'de
+    # resmî açılış — İKİSİ DE DOĞRU, gerçekten ayrı olay.
+    # 🟡 Bu bir AYAR sorunu değil, YAPISAL SINIR: aynı kurumun iki aşaması
+    # kelime benzerliğiyle ayrılamaz, çünkü fark tam da FİİLDE (kuruldu ↔
+    # açılışı) ve fiil ikisinde de tek kelime. Jaccard 0,500 çıkması DOĞRU.
+    # Aynı sınıfa düşecek başka çiftler: tayin↔azil · kuşatma↔fetih ·
+    # sefer↔antlaşma. Otomatik ayırmak yerine elle elenmesi daha ucuz.
+    # ⚠️ Aynı `kaynak:` slug'ını paylaşmaları AYIRT EDİCİ DEĞİL — tek TDV
+    # maddesi iki olayı anlatabilir ve doğru davranış zaten budur. Bu, "kaynak
+    # slug'ı güçlü sinyal" hipotezimin ölçülmüş bir karşı örneğidir.
+    ("Şûrâ-yı Devlet kuruldu", "Şûrâ-yı Devlet'in açılışı: Osmanlı Danıştayı'nın kuruluşu"),
     ("Halep'in Osmanlı hâkimiyetine girişi", "Şam'ın (Dımaşk) Osmanlı hâkimiyetine girişi"),
     ("Rodos'un İtalyan işgali", "Onikiada'nın İtalyan işgali"),
     ("Erzurum Kongresi'nin toplanması", "Sivas Kongresi'nin toplanması"),
@@ -718,6 +732,41 @@ def onek_olcutu(O):
 # karar verdi, VERİ SAVAŞ yazacak. Bu alan gelene kadar denetim tek tarihe
 # bakar ve KAYMAYI ölçer.
 SAVAS_PENCERE = 30
+
+
+# ---- HASSASİYET DÜŞÜŞÜ — "madde doğru, TARİHİ KABA" (ARABİSTAN buldu) -----
+# Vaka:
+#     olaylar*.js   t:"1517-01"      "Ridaniye — Mısır'ın fethi ve hilâfet"
+#     savaslar.js   t:"1517-01-22"   "Ridaniye"
+#     TDV ridaniye-savasi: 22 Ocak 1517
+# Kronoloji AY hassasiyetinde, dizin ve TDV GÜN veriyor → 21 gün kayma.
+#
+# ⚠️ 7. DENETİM BUNU GÖREMEZ VE GÖRMEMESİ DOĞRU: 21 gün, ±30 penceresinin
+# içinde — "maddesi var" diyor ve haklı. Ama tarih yine de kaba. Bu, "madde
+# var mı ≠ doğru madde mi" ailesinin üçüncü üyesi: **madde doğru, tarihi kaba.**
+#
+# Ölçüt tam eşleşme ARAMIYOR, yalnız HASSASİYET DÜŞÜŞÜ arıyor: iki belge aynı
+# olaydan bahsediyorsa ve biri günü biliyorsa, öteki de bilmeli. CLAUDE.md §8
+# zaten "gün yaz" diyor; bu, o kuralın ölçülebilir hâli.
+def hassasiyet_dususu(S, O):
+    """(çift_sayısı, düşenler) — dizin günü biliyor, kronoloji bilmiyor."""
+    ol = [(gun_no(tam(o["t"])), o.get("b", ""), o["t"]) for o in O]
+    dusen, cift = [], 0
+    for r in S:
+        t = r.get("t")
+        if not t or len(t) < 10:
+            continue                      # dizin de gün vermiyorsa kıyas yok
+        g = gun_no(t)
+        yakin = [(abs(og - g), og, b, ot) for og, b, ot in ol
+                 if abs(og - g) <= SAVAS_PENCERE]
+        if not yakin:
+            continue
+        cift += 1
+        yakin.sort()
+        _, og, b, ot = yakin[0]
+        if len(ot) < 10:                  # kronoloji ay/yıl hassasiyetinde
+            dusen.append((t, r.get("ad", "")[:30], ot, b[:40], og - g))
+    return cift, dusen
 
 
 def savas_senkronu(S, O):
@@ -1118,6 +1167,17 @@ def main():
             print( "              İkinci tarih alanı gelince ölçüt sonuca bakacak.")
             for t, ad, tur, fark, b in sorted(ayk, key=lambda r: -abs(r[3])):
                 print(f"              {t}  {tur:8s} {ad[:30]:30s} {fark:+5d}g  {b[:34]}")
+
+        # HASSASİYET DÜŞÜŞÜ — madde doğru olabilir, TARİHİ kaba
+        n_cift, dusen = hassasiyet_dususu(S, O)
+        if dusen:
+            print(f"Ek denetim  i  hassasiyet düşüşü: {len(dusen)}/{n_cift} çiftte "
+                  f"dizin GÜNÜ biliyor, kronoloji bilmiyor")
+            print( "              §8 'gün yaz' kuralının ölçülebilir hâli. 7. denetim")
+            print( "              bunları GÖREMEZ ve görmemesi doğru — ±30 içindeler.")
+            for t, ad, ot, b, fark in sorted(dusen, key=lambda r: -abs(r[4])):
+                print(f"              {t}  {ad:30s} ↔ {ot:10s} {fark:+4d}g  {b}")
+
     kd = konum_denetimi(Y)
     if kd is None:
         print("Ek denetim  i  konum: shapely ya da veri-kaynak yok, ATLANDI")

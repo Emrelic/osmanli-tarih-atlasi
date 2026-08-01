@@ -55,102 +55,102 @@ window.SAVASLAR = [
 // konum tek tek yazildi ve gerekcesi yorumda duruyor.
 // ---------------------------------------------------------------------------
 // koordinat yerlesimler.js'ten: Kulacahisar
-{ t:"1285-01-01", tur:"kusatma", ad:"Kulacahisar baskını", taraf_metin:"Bizans", sonuc:"zafer", seri:"bizans", lat:40.04, lon:29.45 },
+{ t:"1285-01-01", tur:"kusatma", ad:"Kulacahisar baskını", taraf_metin:"Bizans", sonuc:"zafer", seri:"bizans", lat:40.04, lon:29.45, taraf:["osmanli","bizans"] },
 // koordinat yerlesimler.js'ten: Bilecik
-{ t:"1299-01-01", tur:"kusatma", ad:"Bilecik ve Yarhisar baskını", taraf_metin:"Bizans", sonuc:"zafer", seri:"bizans", lat:40.142, lon:29.979 },
+{ t:"1299-01-01", tur:"kusatma", ad:"Bilecik ve Yarhisar baskını", taraf_metin:"Bizans", sonuc:"zafer", seri:"bizans", lat:40.142, lon:29.979, taraf:["osmanli","bizans"] },
 // koordinat yerlesimler.js'ten: İznik
-{ t:"1302-08-01", tur:"kusatma", ad:"İznik'in ilk kuşatması", taraf_metin:"Bizans", sonuc:"belirsiz", seri:"bizans", lat:40.429, lon:29.721 },
+{ t:"1302-08-01", tur:"kusatma", ad:"İznik'in ilk kuşatması", taraf_metin:"Bizans", sonuc:"belirsiz", seri:"bizans", lat:40.429, lon:29.721, taraf:["osmanli","bizans"] },
 // koordinat yerlesimler.js'ten: Dimbos
-{ t:"1303-01-01", tur:"meydan", ad:"Dimbos zaferi", taraf_metin:"Bizans", sonuc:"zafer", seri:"bizans", lat:40.14, lon:29.33 },
+{ t:"1303-01-01", tur:"meydan", ad:"Dimbos zaferi", taraf_metin:"Bizans", sonuc:"zafer", seri:"bizans", lat:40.14, lon:29.33, taraf:["osmanli","bizans"] },
 // koordinat yerlesimler.js'ten: İzmit
-{ t:"1333-08-01", tur:"kusatma", ad:"İzmit kuşatması", taraf_metin:"Bizans", sonuc:"zafer", seri:"bizans", lat:40.766, lon:29.917 },
+{ t:"1333-08-01", tur:"kusatma", ad:"İzmit kuşatması", taraf_metin:"Bizans", sonuc:"zafer", seri:"bizans", lat:40.766, lon:29.917, taraf:["osmanli","bizans"] },
 // koordinat yerlesimler.js'ten: Konya
-{ t:"1386-06-01", tur:"meydan", ad:"Frenkyazısı Savaşı", taraf_metin:"Karamanoğulları", sonuc:"zafer", lat:37.872, lon:32.492 },
+{ t:"1386-06-01", tur:"meydan", ad:"Frenkyazısı Savaşı", taraf_metin:"Karamanoğulları", sonuc:"zafer", lat:37.872, lon:32.492, taraf:["osmanli","karaman"] },
 // koordinat yerlesimler.js'ten: Ulubat
-{ t:"1403-09-01", tur:"meydan", ad:"Ulubat çarpışması", taraf_metin:"İsa Çelebi", sonuc:"belirsiz", seri:"ic", lat:40.171, lon:28.573 },
+{ t:"1403-09-01", tur:"meydan", ad:"Ulubat çarpışması", taraf_metin:"İsa Çelebi", sonuc:"belirsiz", seri:"ic", lat:40.171, lon:28.573, taraf:["osmanli"] },
 // koordinat yerlesimler.js'ten: Yenişehir
-{ t:"1405-01-01", tur:"meydan", ad:"Yenişehir Ovası savaşı", taraf_metin:"Emîr Süleyman", sonuc:"yenilgi", seri:"ic", lat:40.267, lon:29.633 },
+{ t:"1405-01-01", tur:"meydan", ad:"Yenişehir Ovası savaşı", taraf_metin:"Emîr Süleyman", sonuc:"yenilgi", seri:"ic", lat:40.267, lon:29.633, taraf:["osmanli"] },
 // Kosmidion (Eyüp), İstanbul surları dışı
-{ t:"1410-06-15", tur:"meydan", ad:"Kosmidion Savaşı", taraf_metin:"Mûsâ Çelebi", sonuc:"belirsiz", seri:"ic", lat:41.05, lon:28.93 },
+{ t:"1410-06-15", tur:"meydan", ad:"Kosmidion Savaşı", taraf_metin:"Mûsâ Çelebi", sonuc:"belirsiz", seri:"ic", lat:41.05, lon:28.93, taraf:["osmanli"] },
 // koordinat yerlesimler.js'ten: İstanbul
-{ t:"1411-06-01", tur:"kusatma", ad:"Mûsâ Çelebi'nin İstanbul kuşatması", taraf_metin:"Bizans – Emîr Süleyman", sonuc:"belirsiz", seri:"ic", lat:41.008, lon:28.98 },
+{ t:"1411-06-01", tur:"kusatma", ad:"Mûsâ Çelebi'nin İstanbul kuşatması", taraf_metin:"Bizans – Emîr Süleyman", sonuc:"belirsiz", seri:"ic", lat:41.008, lon:28.98, taraf:["osmanli","bizans"] },
 // İnceğiz, Çatalca yakını
-{ t:"1412-10-01", tur:"meydan", ad:"İnceğiz Savaşı", taraf_metin:"Mûsâ Çelebi", sonuc:"yenilgi", seri:"ic", lat:41.2, lon:28.35 },
+{ t:"1412-10-01", tur:"meydan", ad:"İnceğiz Savaşı", taraf_metin:"Mûsâ Çelebi", sonuc:"yenilgi", seri:"ic", lat:41.2, lon:28.35, taraf:["osmanli"] },
 // Çamurlu, Samokov güneyi
-{ t:"1413-07-05", tur:"meydan", ad:"Çamurlu Savaşı", taraf_metin:"Mûsâ Çelebi", sonuc:"zafer", seri:"ic", lat:42.28, lon:23.42 },
+{ t:"1413-07-05", tur:"meydan", ad:"Çamurlu Savaşı", taraf_metin:"Mûsâ Çelebi", sonuc:"zafer", seri:"ic", lat:42.28, lon:23.42, taraf:["osmanli"] },
 // koordinat yerlesimler.js'ten: Konya
-{ t:"1414-06-01", tur:"kusatma", ad:"Konya kuşatması (1414)", taraf_metin:"Karamanoğulları", sonuc:"zafer", lat:37.872, lon:32.492 },
+{ t:"1414-06-01", tur:"kusatma", ad:"Konya kuşatması (1414)", taraf_metin:"Karamanoğulları", sonuc:"zafer", lat:37.872, lon:32.492, taraf:["osmanli","karaman"] },
 // koordinat yerlesimler.js'ten: Konya
-{ t:"1415-03-01", tur:"kusatma", ad:"Konya kuşatması (1415)", taraf_metin:"Karamanoğulları", sonuc:"zafer", lat:37.872, lon:32.492 },
+{ t:"1415-03-01", tur:"kusatma", ad:"Konya kuşatması (1415)", taraf_metin:"Karamanoğulları", sonuc:"zafer", lat:37.872, lon:32.492, taraf:["osmanli","karaman"] },
 // Racova – Vaslui, Boğdan
-{ t:"1475-01-10", tur:"meydan", ad:"Racova (Vaslui) bozgunu", taraf_metin:"Boğdan (Stefan cel Mare)", sonuc:"yenilgi", lat:46.64, lon:27.73 },
+{ t:"1475-01-10", tur:"meydan", ad:"Racova (Vaslui) bozgunu", taraf_metin:"Boğdan (Stefan cel Mare)", sonuc:"yenilgi", lat:46.64, lon:27.73, taraf:["osmanli","bogdan"] },
 // Valea Albă – Războieni
-{ t:"1476-07-26", tur:"meydan", ad:"Akdere (Valea Albă) zaferi", taraf_metin:"Boğdan (Stefan cel Mare)", sonuc:"zafer", lat:47.15, lon:26.3 },
+{ t:"1476-07-26", tur:"meydan", ad:"Akdere (Valea Albă) zaferi", taraf_metin:"Boğdan (Stefan cel Mare)", sonuc:"zafer", lat:47.15, lon:26.3, taraf:["osmanli","bogdan"] },
 // koordinat yerlesimler.js'ten: Yenişehir
-{ t:"1481-06-20", tur:"meydan", ad:"Yenişehir Muharebesi (1481)", taraf_metin:"Cem Sultan", sonuc:"zafer", seri:"ic", lat:40.267, lon:29.633 },
+{ t:"1481-06-20", tur:"meydan", ad:"Yenişehir Muharebesi (1481)", taraf_metin:"Cem Sultan", sonuc:"zafer", seri:"ic", lat:40.267, lon:29.633, taraf:["osmanli"] },
 // koordinat yerlesimler.js'ten: Yenişehir
-{ t:"1513-04-01", tur:"meydan", ad:"Yenişehir Muharebesi (1513)", taraf_metin:"Şehzade Ahmed", sonuc:"zafer", seri:"ic", lat:40.267, lon:29.633 },
+{ t:"1513-04-01", tur:"meydan", ad:"Yenişehir Muharebesi (1513)", taraf_metin:"Şehzade Ahmed", sonuc:"zafer", seri:"ic", lat:40.267, lon:29.633, taraf:["osmanli"] },
 // Koçhisar (Kızıltepe), Mardin batısı
-{ t:"1516-05-01", tur:"meydan", ad:"Koçhisar (Kızıltepe) Savaşı", taraf_metin:"Safevî", sonuc:"zafer", seri:"safevi", lat:37.19, lon:40.59 },
+{ t:"1516-05-01", tur:"meydan", ad:"Koçhisar (Kızıltepe) Savaşı", taraf_metin:"Safevî", sonuc:"zafer", seri:"safevi", lat:37.19, lon:40.59, taraf:["osmanli","safevi"] },
 // koordinat yerlesimler.js'ten: Han Yûnus
-{ t:"1516-12-21", tur:"meydan", ad:"Gazze (Han Yûnus) Muharebesi", taraf_metin:"Memlük (Canbirdi Gazâlî)", sonuc:"zafer", seri:"memluk", lat:31.34, lon:34.3 },
+{ t:"1516-12-21", tur:"meydan", ad:"Gazze (Han Yûnus) Muharebesi", taraf_metin:"Memlük (Canbirdi Gazâlî)", sonuc:"zafer", seri:"memluk", lat:31.34, lon:34.3, taraf:["osmanli","memluk"] },
 // koordinat yerlesimler.js'ten: Kahire
-{ t:"1517-01-27", tur:"meydan", ad:"Tomanbay'ın Kahire baskını", taraf_metin:"Memlük (Tomanbay)", sonuc:"zafer", seri:"memluk", lat:30.047, lon:31.243 },
+{ t:"1517-01-27", tur:"meydan", ad:"Tomanbay'ın Kahire baskını", taraf_metin:"Memlük (Tomanbay)", sonuc:"zafer", seri:"memluk", lat:30.047, lon:31.243, taraf:["osmanli","memluk"] },
 // Kőszeg, Batı Macaristan
-{ t:"1532-08-05", tur:"kusatma", ad:"Güns (Kőszeg) kuşatması", taraf_metin:"Avusturya", sonuc:"belirsiz", seri:"habsburg", lat:47.39, lon:16.54 },
+{ t:"1532-08-05", tur:"kusatma", ad:"Güns (Kőszeg) kuşatması", taraf_metin:"Avusturya", sonuc:"belirsiz", seri:"habsburg", lat:47.39, lon:16.54, taraf:["osmanli","habsburg"] },
 // koordinat yerlesimler.js'ten: Eğri
-{ t:"1552-09-04", tur:"kusatma", ad:"Eğri kuşatması (1552)", taraf_metin:"Avusturya", sonuc:"yenilgi", seri:"habsburg", lat:47.902, lon:20.377 },
+{ t:"1552-09-04", tur:"kusatma", ad:"Eğri kuşatması (1552)", taraf_metin:"Avusturya", sonuc:"yenilgi", seri:"habsburg", lat:47.902, lon:20.377, taraf:["osmanli","habsburg"] },
 // koordinat yerlesimler.js'ten: Konya
-{ t:"1559-05-30", tur:"meydan", ad:"Konya Şehzâdeler Muharebesi", taraf_metin:"Şehzade Bayezid – Şehzade Selim", sonuc:"belirsiz", seri:"ic", lat:37.872, lon:32.492 },
+{ t:"1559-05-30", tur:"meydan", ad:"Konya Şehzâdeler Muharebesi", taraf_metin:"Şehzade Bayezid – Şehzade Selim", sonuc:"belirsiz", seri:"ic", lat:37.872, lon:32.492, taraf:["osmanli"] },
 // Parkan (Štúrovo), Estergon'un karşı yakası
-{ t:"1683-10-09", tur:"meydan", ad:"Parkan bozgunu", taraf_metin:"Kutsal İttifak", sonuc:"yenilgi", seri:"habsburg", lat:47.79, lon:18.72 },
+{ t:"1683-10-09", tur:"meydan", ad:"Parkan bozgunu", taraf_metin:"Kutsal İttifak", sonuc:"yenilgi", seri:"habsburg", lat:47.79, lon:18.72, taraf:["osmanli","habsburg","lehistan"] },
 // Harşan (Nagyharsány) dağı, Mohaç yakını
-{ t:"1687-08-12", tur:"meydan", ad:"İkinci Mohaç (Harşan) bozgunu", taraf_metin:"Kutsal İttifak", sonuc:"yenilgi", seri:"habsburg", lat:45.86, lon:18.4 },
+{ t:"1687-08-12", tur:"meydan", ad:"İkinci Mohaç (Harşan) bozgunu", taraf_metin:"Kutsal İttifak", sonuc:"yenilgi", seri:"habsburg", lat:45.86, lon:18.4, taraf:["osmanli","habsburg"] },
 // Slankamen, Tuna-Tisa kavşağı
-{ t:"1691-08-19", tur:"meydan", ad:"Salankamen bozgunu", taraf_metin:"Kutsal İttifak", sonuc:"yenilgi", seri:"habsburg", lat:45.13, lon:20.28 },
+{ t:"1691-08-19", tur:"meydan", ad:"Salankamen bozgunu", taraf_metin:"Kutsal İttifak", sonuc:"yenilgi", seri:"habsburg", lat:45.13, lon:20.28, taraf:["osmanli","habsburg"] },
 // Lugoj, Banat
-{ t:"1695-09-22", tur:"meydan", ad:"Lugoş zaferi", taraf_metin:"Kutsal İttifak", sonuc:"zafer", seri:"habsburg", lat:45.69, lon:21.9 },
+{ t:"1695-09-22", tur:"meydan", ad:"Lugoş zaferi", taraf_metin:"Kutsal İttifak", sonuc:"zafer", seri:"habsburg", lat:45.69, lon:21.9, taraf:["osmanli","habsburg"] },
 // Ulaş/Olaş, Bega boyu — Temeşvar doğusu
-{ t:"1696-08-27", tur:"meydan", ad:"Ulaş (Olaşin) zaferi", taraf_metin:"Kutsal İttifak", sonuc:"zafer", seri:"habsburg", lat:45.8, lon:21.15 },
+{ t:"1696-08-27", tur:"meydan", ad:"Ulaş (Olaşin) zaferi", taraf_metin:"Kutsal İttifak", sonuc:"zafer", seri:"habsburg", lat:45.8, lon:21.15, taraf:["osmanli","habsburg"] },
 // koordinat yerlesimler.js'ten: Korfu
-{ t:"1716-08-20", tur:"kusatma", ad:"Korfu kuşatması", taraf_metin:"Venedik", sonuc:"yenilgi", seri:"venedik", lat:39.624, lon:19.922 },
+{ t:"1716-08-20", tur:"kusatma", ad:"Korfu kuşatması", taraf_metin:"Venedik", sonuc:"yenilgi", seri:"venedik", lat:39.624, lon:19.922, taraf:["osmanli","venedik"] },
 // koordinat yerlesimler.js'ten: Tiflis
-{ t:"1723-06-15", tur:"kusatma", ad:"Tiflis'in alınışı", taraf_metin:"Safevî / Gürcü", sonuc:"zafer", seri:"safevi", lat:41.716, lon:44.783 },
+{ t:"1723-06-15", tur:"kusatma", ad:"Tiflis'in alınışı", taraf_metin:"Safevî / Gürcü", sonuc:"zafer", seri:"safevi", lat:41.716, lon:44.783, taraf:["osmanli","safevi","gurcistan"] },
 // Baghavard, Arpaçay-Revan arası
-{ t:"1735-06-19", tur:"meydan", ad:"Baghavard (Arpaçay) bozgunu", taraf_metin:"Nâdir Han", sonuc:"yenilgi", seri:"safevi", lat:40.15, lon:43.9 },
+{ t:"1735-06-19", tur:"meydan", ad:"Baghavard (Arpaçay) bozgunu", taraf_metin:"Nâdir Han", sonuc:"yenilgi", seri:"safevi", lat:40.15, lon:43.9, taraf:["osmanli","safevi"] },
 // Banaluka (Banja Luka), Bosna
-{ t:"1737-08-04", tur:"meydan", ad:"Banaluka zaferi", taraf_metin:"Avusturya", sonuc:"zafer", seri:"habsburg", lat:44.77, lon:17.19 },
+{ t:"1737-08-04", tur:"meydan", ad:"Banaluka zaferi", taraf_metin:"Avusturya", sonuc:"zafer", seri:"habsburg", lat:44.77, lon:17.19, taraf:["osmanli","habsburg"] },
 // Grocka, Belgrad doğusu
-{ t:"1739-07-22", tur:"meydan", ad:"Hisarcık (Grocka) zaferi", taraf_metin:"Avusturya", sonuc:"zafer", seri:"habsburg", lat:44.67, lon:20.72 },
+{ t:"1739-07-22", tur:"meydan", ad:"Hisarcık (Grocka) zaferi", taraf_metin:"Avusturya", sonuc:"zafer", seri:"habsburg", lat:44.67, lon:20.72, taraf:["osmanli","habsburg"] },
 // koordinat yerlesimler.js'ten: Preveze
-{ t:"1798-10-23", tur:"meydan", ad:"Preveze (Nikopolis) Muharebesi", taraf_metin:"Fransa", sonuc:"zafer", lat:38.9607, lon:20.7469 },
+{ t:"1798-10-23", tur:"meydan", ad:"Preveze (Nikopolis) Muharebesi", taraf_metin:"Fransa", sonuc:"zafer", lat:38.9607, lon:20.7469, taraf:["osmanli","fransiz-misir-seferi"] },
 // taraf'ta "fransa" yok: devletler.js'teki fransa id'si 1792'de kapanıyor
 // (bkz. OTURUM-10-ILERLEME.md EK1, Cumhuriyet/Napolyon sonrası hiç id yok),
 // bu yüzden yalnız osmanli yazıldı — Preveze (Nikopolis) kaydıyla aynı durum.
 { t:"1799-05-20", tur:"kusatma", ad:"Akkâ Savunması", taraf_metin:"Fransa (Napolyon)", sonuc:"zafer",
   seri:"", lat:32.93, lon:35.08, taraf:["osmanli"], galip:"osmanli" },
 // koordinat yerlesimler.js'ten: Kerbelâ
-{ t:"1801-04-01", tur:"meydan", ad:"Vehhâbîlerin Kerbelâ baskını", taraf_metin:"Suûdî (Vehhâbî)", sonuc:"yenilgi", seri:"vehhabi", lat:32.616, lon:44.025 },
+{ t:"1801-04-01", tur:"meydan", ad:"Vehhâbîlerin Kerbelâ baskını", taraf_metin:"Suûdî (Vehhâbî)", sonuc:"yenilgi", seri:"vehhabi", lat:32.616, lon:44.025, taraf:["osmanli","suud-birinci"] },
 // Safra geçidi, Yenbu-Medine yolu
-{ t:"1811-12-01", tur:"meydan", ad:"Safra-Cedîde bozgunu", taraf_metin:"Suûdî (Vehhâbî)", sonuc:"yenilgi", seri:"vehhabi", lat:24.08, lon:38.35 },
+{ t:"1811-12-01", tur:"meydan", ad:"Safra-Cedîde bozgunu", taraf_metin:"Suûdî (Vehhâbî)", sonuc:"yenilgi", seri:"vehhabi", lat:24.08, lon:38.35, taraf:["osmanli","suud-birinci"] },
 // Cebel-i Lübnan
-{ t:"1860-05-30", tur:"isyan", ad:"Cebel-i Lübnan iç savaşı", taraf_metin:"Dürzî – Mârûnî", sonuc:"belirsiz", seri:"ic", lat:33.83, lon:35.65 },
+{ t:"1860-05-30", tur:"isyan", ad:"Cebel-i Lübnan iç savaşı", taraf_metin:"Dürzî – Mârûnî", sonuc:"belirsiz", seri:"ic", lat:33.83, lon:35.65, taraf:["osmanli"] },
 // Galata, İstanbul
-{ t:"1896-08-26", tur:"isyan", ad:"Osmanlı Bankası baskını", taraf_metin:"Taşnak", sonuc:"belirsiz", seri:"ic", lat:41.02, lon:28.97 },
+{ t:"1896-08-26", tur:"isyan", ad:"Osmanlı Bankası baskını", taraf_metin:"Taşnak", sonuc:"belirsiz", seri:"ic", lat:41.02, lon:28.97, taraf:["osmanli"] },
 // Bâbıâli, İstanbul
-{ t:"1913-01-23", tur:"isyan", ad:"Bâb-ı Âli Baskını", taraf_metin:"İttihat ve Terakkî", sonuc:"belirsiz", seri:"ic", lat:41.01, lon:28.98 },
+{ t:"1913-01-23", tur:"isyan", ad:"Bâb-ı Âli Baskını", taraf_metin:"İttihat ve Terakkî", sonuc:"belirsiz", seri:"ic", lat:41.01, lon:28.98, taraf:["osmanli"] },
 // Sivastopol – Odessa – Novorossiysk hattı
-{ t:"1914-10-29", tur:"deniz", ad:"Karadeniz Baskını", taraf_metin:"Rusya", sonuc:"zafer", seri:"cihan", lat:44.61, lon:33.53 },
+{ t:"1914-10-29", tur:"deniz", ad:"Karadeniz Baskını", taraf_metin:"Rusya", sonuc:"zafer", seri:"cihan", lat:44.61, lon:33.53, taraf:["osmanli","rusya"] },
 // koordinat yerlesimler.js'ten: Gazze
-{ t:"1917-11-07", tur:"meydan", ad:"Üçüncü Gazze Muharebesi", taraf_metin:"İngiltere", sonuc:"yenilgi", seri:"cihan", lat:31.502, lon:34.466 },
-{ t:"1400-08-26", ad:"Sivas kuşatması", taraf_metin:"Timur", sonuc:"yenilgi", galip:"timurlu", lat:39.75, lon:37.02, tur:"kusatma" },
-{ t:"1385-09-18", ad:"Savra (Saurian) Ovası", taraf_metin:"Zeta — II. Balşa", sonuc:"zafer", galip:"osmanli", lat:40.94, lon:19.71, tur:"meydan" },
+{ t:"1917-11-07", tur:"meydan", ad:"Üçüncü Gazze Muharebesi", taraf_metin:"İngiltere", sonuc:"yenilgi", seri:"cihan", lat:31.502, lon:34.466, taraf:["osmanli","ingiltere"] },
+{ t:"1400-08-26", ad:"Sivas kuşatması", taraf_metin:"Timur", sonuc:"yenilgi", galip:"timurlu", lat:39.75, lon:37.02, tur:"kusatma", taraf:["osmanli","timurlu"] },
+{ t:"1385-09-18", ad:"Savra (Saurian) Ovası", taraf_metin:"Zeta — II. Balşa", sonuc:"zafer", galip:"osmanli", lat:40.94, lon:19.71, tur:"meydan", taraf:["osmanli","zeta"] },
 { t:"1302-07-27", tur:"meydan", ad:"Koyunhisar (Bapheus)",      taraf_metin:"Bizans",            sonuc:"zafer",   seri:"bizans",  lat:40.72, lon:29.85, taraf:["osmanli","bizans"], galip:"osmanli" },
 { t:"1329-06-10", tur:"meydan", ad:"Pelekanon (Maltepe)",       taraf_metin:"Bizans",            sonuc:"zafer",   seri:"bizans",  lat:40.92, lon:29.15, taraf:["osmanli","bizans"], galip:"osmanli" },
 { t:"1364-07-01", tur:"meydan", ad:"Sırpsındığı",               taraf_metin:"Sırp-Macar ordusu", sonuc:"zafer",   seri:"hacli",   lat:41.55, lon:26.35, taraf:["osmanli","macaristan"], galip:"osmanli" },
 // Sırbistan 1364'te Nemanjić İmparatorluğu'nun dağılma döneminde; devletler.js'te
 // bu tarihe denk gelen bir Sırp devleti id'si yok (bkz. OTURUM-10-ILERLEME.md).
-{ t:"1371-09-26", tur:"meydan", ad:"Çirmen",                    taraf_metin:"Sırp beyleri",      sonuc:"zafer",   seri:"hacli",   lat:41.72, lon:26.20, galip:"osmanli" },
+{ t:"1371-09-26", tur:"meydan", ad:"Çirmen",                    taraf_metin:"Sırp beyleri",      sonuc:"zafer",   seri:"hacli",   lat:41.72, lon:26.20, galip:"osmanli", taraf:["osmanli"] },
 { t:"1388-08-27", tur:"meydan", ad:"Bileća",                    taraf_metin:"Bosna",             sonuc:"yenilgi", seri:"hacli",   lat:42.87, lon:18.43, taraf:["osmanli","bosna-kralligi"], galip:"bosna-kralligi" },
 { t:"1389-06-15", tur:"meydan", ad:"I. Kosova",                 taraf_metin:"Balkan ittifakı",   sonuc:"zafer",   seri:"hacli",   lat:42.63, lon:21.12, taraf:["osmanli","bosna-kralligi"], galip:"osmanli" },
 { t:"1395-05-17", tur:"meydan", ad:"Rovine",                    taraf_metin:"Eflak",             sonuc:"belirsiz",seri:"hacli",   lat:44.85, lon:24.87, taraf:["osmanli","eflak"] },
@@ -226,11 +226,12 @@ window.SAVASLAR = [
 { t:"1877-04-24", tur:"kusatma", ad:"93 Harbi (Plevne)",         taraf_metin:"Rusya",             sonuc:"yenilgi", seri:"rus",     lat:43.41, lon:24.62, taraf:["osmanli","rusya","romanya"], galip:"rusya" },
 { t:"1897-05-17", tur:"meydan", ad:"Dömeke",                    taraf_metin:"Yunanistan",        sonuc:"zafer",   seri:"yunan",   lat:39.05, lon:22.55, taraf:["osmanli","yunanistan"], galip:"osmanli" },
 { t:"1911-09-29", tur:"meydan", ad:"Trablusgarp Savaşı",        taraf_metin:"İtalya",            sonuc:"yenilgi", seri:"italya",  lat:32.90, lon:13.19, taraf:["osmanli","italya"], galip:"italya" },
-// Sırbistan ve Bulgaristan 1912'de fiilen tam bağımsız krallıklardır; devletler.js'teki
-// karşılıkları (sirbistan-prensligi, bulgaristan-prensligi) 1882/1908'de bitiyor —
-// bağlantı yine de bu id'lerle kuruldu (bkz. OTURUM-10-ILERLEME.md, aralık uyarısı).
-{ t:"1912-10-08", tur:"meydan", ad:"I. Balkan Savaşı",          taraf_metin:"Balkan ittifakı",   sonuc:"yenilgi", seri:"balkan",  lat:41.40, lon:27.35, taraf:["osmanli","yunanistan","karadag","sirbistan-prensligi","bulgaristan-prensligi"], galip:"bulgaristan-prensligi" },
-{ t:"1913-07-21", tur:"kusatma", ad:"II. Balkan Savaşı (Edirne)",taraf_metin:"Bulgaristan",       sonuc:"zafer",   seri:"balkan",  lat:41.68, lon:26.56, taraf:["osmanli","bulgaristan-prensligi"], galip:"osmanli" },
+// Düzeltme (Koordinatör, OTURUM-10 turu — A5 ölçümü): Sırbistan ve Bulgaristan
+// 1912'de fiilen tam bağımsız krallıklardır; devletler.js'teki ardıl id'ler
+// (sirbistan-kralligi 1882-, bulgaristan-kralligi 1908-) kullanılıyor —
+// eskiden burada prensligi id'leri vardı, ömürleri 1882/1908'de bitiyordu.
+{ t:"1912-10-08", tur:"meydan", ad:"I. Balkan Savaşı",          taraf_metin:"Balkan ittifakı",   sonuc:"yenilgi", seri:"balkan",  lat:41.40, lon:27.35, taraf:["osmanli","yunanistan","karadag","sirbistan-kralligi","bulgaristan-kralligi"], galip:"bulgaristan-kralligi" },
+{ t:"1913-07-21", tur:"kusatma", ad:"II. Balkan Savaşı (Edirne)",taraf_metin:"Bulgaristan",       sonuc:"zafer",   seri:"balkan",  lat:41.68, lon:26.56, taraf:["osmanli","bulgaristan-kralligi"], galip:"osmanli" },
 // Fransa 1792'de devletler.js'te "son" olarak kapanıyor; 1915 sonrası Fransız
 // devleti için ayrı id yok, bu yüzden taraf listesine eklenemedi (bildirildi).
 { t:"1915-03-18", tur:"meydan", ad:"Çanakkale",                 taraf_metin:"İngiltere-Fransa",  sonuc:"zafer",   seri:"cihan",   lat:40.15, lon:26.28, taraf:["osmanli","ingiltere"], galip:"osmanli" },
@@ -285,17 +286,17 @@ window.SAVASLAR = [
 // Not: bu bölümdeki isyanların çoğu devlet-i aliyye içi hareketlerdir; devletler.js'te
 // karşılığı olan bir "taraf devlet" yok, o yüzden taraf alanı yalnız Sırp/Rum isyanlarında
 // var (bu ikisi doğrudan bir devletler.js kaydının kuruluş anına denk geliyor).
-{ t:"1416-05-01", tur:"isyan", ad:"Şeyh Bedreddin isyanı",  taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:41.10, lon:26.60, sure:400 },
-{ t:"1416-05-01", tur:"isyan", ad:"Börklüce Mustafa",       taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:37.86, lon:27.26, sure:400 },
-{ t:"1416-09-01", tur:"isyan", ad:"Torlak Kemal",           taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:38.61, lon:27.43, sure:300 },
-{ t:"1511-03-01", tur:"isyan", ad:"Şahkulu (Teke)",         taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:36.89, lon:30.70, sure:400 },
-{ t:"1511-07-02", tur:"isyan", ad:"Şahkulu (Sivas)",        taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:39.75, lon:37.02, sure:400 },
-{ t:"1519-03-01", tur:"isyan", ad:"Bozoklu Şeyh Celâl",     taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:39.82, lon:34.81, sure:400 },
-{ t:"1524-01-01", tur:"isyan", ad:"Hain Ahmed Paşa",        taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:30.05, lon:31.24, sure:300 },
+{ t:"1416-05-01", tur:"isyan", ad:"Şeyh Bedreddin isyanı",  taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:41.10, lon:26.60, sure:400, taraf:["osmanli"] },
+{ t:"1416-05-01", tur:"isyan", ad:"Börklüce Mustafa",       taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:37.86, lon:27.26, sure:400, taraf:["osmanli"] },
+{ t:"1416-09-01", tur:"isyan", ad:"Torlak Kemal",           taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:38.61, lon:27.43, sure:300, taraf:["osmanli"] },
+{ t:"1511-03-01", tur:"isyan", ad:"Şahkulu (Teke)",         taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:36.89, lon:30.70, sure:400, taraf:["osmanli"] },
+{ t:"1511-07-02", tur:"isyan", ad:"Şahkulu (Sivas)",        taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:39.75, lon:37.02, sure:400, taraf:["osmanli"] },
+{ t:"1519-03-01", tur:"isyan", ad:"Bozoklu Şeyh Celâl",     taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:39.82, lon:34.81, sure:400, taraf:["osmanli"] },
+{ t:"1524-01-01", tur:"isyan", ad:"Hain Ahmed Paşa",        taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:30.05, lon:31.24, sure:300, taraf:["osmanli"] },
 // Ad düzeltmesi (Koordinatör, OTURUM-10 turu): TDV'de "Kalender Çelebi" diye madde
 // yok, doğrusu "Kalender Şah" (kalender-sah, canlı slug).
-{ t:"1526-01-01", tur:"isyan", ad:"Kalender Şah",           taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:38.36, lon:38.31, sure:300 },
-{ t:"1599-06-01", tur:"isyan", ad:"Karayazıcı Abdülhalim",  taraf_metin:"Celâlî",   sonuc:"zafer", seri:"ic",  lat:37.16, lon:38.80, sure:900 },
+{ t:"1526-01-01", tur:"isyan", ad:"Kalender Şah",           taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:38.36, lon:38.31, sure:300, taraf:["osmanli"] },
+{ t:"1599-06-01", tur:"isyan", ad:"Karayazıcı Abdülhalim",  taraf_metin:"Celâlî",   sonuc:"zafer", seri:"ic",  lat:37.16, lon:38.80, sure:900, taraf:["osmanli"] },
 // hatalar 5.docx madde 2 — kullanıcı: "karayazıcı abdülhalim isyanı nerede
 // başlamış haritada aksiyon görülmüyor 1596. Bu maddenin iki ayrı maddesi
 // varmış." İki sebep vardı: (1) olaylar_ek7.js'te isyanı 1596'ya koyan MÜKERRER
@@ -308,14 +309,14 @@ window.SAVASLAR = [
 // zaferi — "otuz bin kişilik kuvvetin üçte biri telef" oldu.
 // galip alanı YOK: devletler.js'te Celâlî kimliği bulunmuyor ve mevcut bütün
 // iç isyan kayıtları da galip yazmıyor (arayüz id'yi çözemeyip ham metin basar).
-{ t:"1600-09-23", tur:"meydan", ad:"Kayseri ovası (Karayazıcı)", taraf_metin:"Celâlî", sonuc:"yenilgi", seri:"ic", lat:38.73, lon:35.48, sure:300 },
-{ t:"1601-08-12", tur:"meydan", ad:"Sepetli (Elbistan) — Karayazıcı'nın bozgunu", taraf_metin:"Celâlî", sonuc:"zafer", seri:"ic", lat:38.20, lon:37.20, sure:300 },
-{ t:"1603-01-01", tur:"isyan", ad:"Deli Hasan",             taraf_metin:"Celâlî",   sonuc:"zafer", seri:"ic",  lat:39.75, lon:37.02, sure:600 },
-{ t:"1607-10-23", tur:"isyan", ad:"Canbolatoğlu Ali Paşa",  taraf_metin:"Celâlî",   sonuc:"zafer", seri:"ic",  lat:36.20, lon:37.13, sure:500 },
-{ t:"1608-08-05", tur:"isyan", ad:"Kalenderoğlu",           taraf_metin:"Celâlî",   sonuc:"zafer", seri:"ic",  lat:38.02, lon:36.53, sure:400 },
-{ t:"1628-09-22", tur:"isyan", ad:"Abaza Mehmed Paşa",      taraf_metin:"Celâlî",   sonuc:"zafer", seri:"ic",  lat:39.91, lon:41.27, sure:600 },
-{ t:"1659-02-16", tur:"isyan", ad:"Abaza Hasan Paşa",       taraf_metin:"Celâlî",   sonuc:"zafer", seri:"ic",  lat:36.20, lon:37.13, sure:400 },
-{ t:"1795-03-01", tur:"isyan", ad:"Pazvandoğlu Osman",      taraf_metin:"iç isyan", sonuc:"belirsiz", seri:"ic", lat:43.99, lon:22.87, sure:1500 },
+{ t:"1600-09-23", tur:"meydan", ad:"Kayseri ovası (Karayazıcı)", taraf_metin:"Celâlî", sonuc:"yenilgi", seri:"ic", lat:38.73, lon:35.48, sure:300, taraf:["osmanli"] },
+{ t:"1601-08-12", tur:"meydan", ad:"Sepetli (Elbistan) — Karayazıcı'nın bozgunu", taraf_metin:"Celâlî", sonuc:"zafer", seri:"ic", lat:38.20, lon:37.20, sure:300, taraf:["osmanli"] },
+{ t:"1603-01-01", tur:"isyan", ad:"Deli Hasan",             taraf_metin:"Celâlî",   sonuc:"zafer", seri:"ic",  lat:39.75, lon:37.02, sure:600, taraf:["osmanli"] },
+{ t:"1607-10-23", tur:"isyan", ad:"Canbolatoğlu Ali Paşa",  taraf_metin:"Celâlî",   sonuc:"zafer", seri:"ic",  lat:36.20, lon:37.13, sure:500, taraf:["osmanli"] },
+{ t:"1608-08-05", tur:"isyan", ad:"Kalenderoğlu",           taraf_metin:"Celâlî",   sonuc:"zafer", seri:"ic",  lat:38.02, lon:36.53, sure:400, taraf:["osmanli"] },
+{ t:"1628-09-22", tur:"isyan", ad:"Abaza Mehmed Paşa",      taraf_metin:"Celâlî",   sonuc:"zafer", seri:"ic",  lat:39.91, lon:41.27, sure:600, taraf:["osmanli"] },
+{ t:"1659-02-16", tur:"isyan", ad:"Abaza Hasan Paşa",       taraf_metin:"Celâlî",   sonuc:"zafer", seri:"ic",  lat:36.20, lon:37.13, sure:400, taraf:["osmanli"] },
+{ t:"1795-03-01", tur:"isyan", ad:"Pazvandoğlu Osman",      taraf_metin:"iç isyan", sonuc:"belirsiz", seri:"ic", lat:43.99, lon:22.87, sure:1500, taraf:["osmanli"] },
 { t:"1804-02-14", tur:"isyan", ad:"Birinci Sırp isyanı",    taraf_metin:"Sırplar",  sonuc:"belirsiz", seri:"ic", lat:44.82, lon:20.46, sure:1200, taraf:["osmanli","sirbistan-prensligi"] },
 { t:"1821-03-25", tur:"isyan", ad:"Mora isyanı",            taraf_metin:"Rumlar",   sonuc:"yenilgi", seri:"yunan", lat:37.51, lon:22.38, sure:1500, taraf:["osmanli","yunanistan"] },
 { t:"1875-06-19", tur:"isyan", ad:"Hersek isyanı",          taraf_metin:"Sırplar",  sonuc:"yenilgi", seri:"rus",  lat:43.34, lon:17.81, sure:900, taraf:["osmanli","sirbistan-prensligi"] },
@@ -404,8 +405,10 @@ window.ANTLASMALAR = [
   topraklar:"Sırbistan, Romanya ve Karadağ tam bağımsızlığını kazandı (toprakları büyüdü); küçültülmüş özerk Bulgaristan Prensliği kuruldu, Rumeli-i Şarkî ayrı özerk vilayet oldu; Bosna-Hersek'in idaresi Osmanlı'dan Avusturya-Macaristan'a geçti (egemenlik nominal Osmanlı'da kaldı); Kars, Ardahan, Batum Rusya'ya bırakıldı." },
 { t:"1912-10-18", ad:"Uşi", savas_basi:"1911-09-29",                  taraf_metin:"İtalya",           ozet:"Libya ve Oniki Ada kaybı",
   taraf:["osmanli","italya"], topraklar:"Trablusgarp ve Bingazi (Libya) Osmanlı'dan İtalya'ya geçti; Oniki Ada İtalya'ya \"geçici\" işgal olarak bırakıldı (fiilen kalıcılaştı)." },
+// Düzeltme (Koordinatör, OTURUM-10 turu — A5 ölçümü): ardıl id'ler kullanıldı,
+// bkz. yukarıdaki I./II. Balkan Savaşı notu.
 { t:"1913-05-30", ad:"Londra", savas_basi:"1912-10-08",               taraf_metin:"Balkan devletleri",ozet:"Midye-Enez hattı; Rumeli'nin kaybı",
-  taraf:["osmanli","bulgaristan-prensligi","sirbistan-prensligi","yunanistan","karadag"],
+  taraf:["osmanli","bulgaristan-kralligi","sirbistan-kralligi","yunanistan","karadag"],
   topraklar:"Midye-Enez hattının batısındaki bütün Rumeli toprakları (Selanik, Yanya, Girit dahil) Osmanlı'dan Balkan devletlerine bırakıldı." },
 { t:"1918-10-30", ad:"Mondros Mütarekesi", savas_basi:"1914-11-05",   taraf_metin:"İtilaf devletleri",ozet:"Fiilî teslimiyet; işgaller başladı",
   taraf:["osmanli","ingiltere","italya"], topraklar:"Toprak resmen devredilmedi ama İtilaf devletlerine stratejik nokta ve demiryollarını işgal hakkı tanındı; fiilen Anadolu ve Trakya'nın işgalinin yolu açıldı." },
@@ -449,7 +452,7 @@ window.ANTLASMALAR.push(
   { t:"1878-03-03", ad:"Ayastefanos (San Stefano)", savas_basi:"1877-04-24", taraf_metin:"Rusya", ozet:"Büyük Bulgaristan öngörüldü — üç ay sonra Berlin'de küçültüldü",
     taraf:["osmanli","rusya"], topraklar:"Ege'ye kadar uzanan büyük özerk Bulgaristan, Sırbistan/Karadağ/Romanya'nın tam bağımsızlığı ve Kars-Ardahan-Batum Rusya'ya öngörüldü; büyük devletlerin itirazıyla Berlin Kongresi'nde küçültüldü." },
   { t:"1913-09-29", ad:"İstanbul (Bulgaristan, 1913)", savas_basi:"1912-10-08", taraf_metin:"Bulgaristan", ozet:"Edirne ve Kırklareli Osmanlı'da kesin kaldı",
-    taraf:["osmanli","bulgaristan-prensligi"], topraklar:"Edirne ve Kırklareli, II. Balkan Savaşı'nda geri alındığı gibi Osmanlı'da kesin kaldı; sınır Meriç'in biraz doğusundan çizildi." },
+    taraf:["osmanli","bulgaristan-kralligi"], topraklar:"Edirne ve Kırklareli, II. Balkan Savaşı'nda geri alındığı gibi Osmanlı'da kesin kaldı; sınır Meriç'in biraz doğusundan çizildi." },
   { t:"1913-11-14", ad:"Atina", savas_basi:"1912-10-08", taraf_metin:"Yunanistan", ozet:"Girit'in Yunanistan'a ilhakı tanındı",
     taraf:["osmanli","yunanistan"], topraklar:"Girit'in fiilen 1908'den beri süren Yunanistan'a bağlılığı Osmanlı tarafından resmen tanındı; Ege adalarının statüsü büyük devletlere bırakıldı." }
 );
