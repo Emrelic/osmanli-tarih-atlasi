@@ -150,7 +150,8 @@ etkilemiyor. `.uretim-basladi` damgası kökte duruyorsa MOTOR temizleyecek.
 
 🔴 **Birinci iş: `iran` bir TORBA ve üç hanedan hiç yok.**
 ```
-s:"iran"   326 pencere  ← İlhanlı sonrası her şeyi içine almış
+s:"iran"   317 pencere / 169 nokta  (CANLI taban — ÇAPRAZ DOĞU ölçtü)
+s:"iran"   326 = beş dosya toplamı; 9'u merge dışı, ÇİZİLMİYOR
 s:"afsar"  0 kayıt   ·  s:"zend"  0  ·  s:"kacar"  0
 ```
 Kullanıcı haritada İran'ın *"benekli parçalı"* göründüğünü bildirdi. Sebebi ölçüldü:
@@ -161,7 +162,8 @@ Kullanıcının istediği adlandırma: **"Safevî İranı" · "Afşar İranı" �
 İranı" · "Kaçar İranı"** — ayrı kimlikler, ve *"İran"* bunların **birleşimi**
 olarak türetilecek.
 
-⇒ **326 pencerenin her biri hangi hanedana ait?** Ölç, öner, `CAPRAZ-DOGU.md`'ye yaz.
+⇒ **317 pencere yalnız 24 ayrık `(f,t)` çifti kullanıyor — iş 317 karar değil, 24 karar.**
+⇒ Her biri hangi hanedana ait? Ölç, öner, `CAPRAZ-DOGU.md`'ye yaz.
 ⚠️ Yeni kimlik = yeni renk gerektirir; VERİ KİMLİK'in kuyruğu bugün çok uzun.
 **Renk olmadan yazılan kimlik BOYANMAZ** — önerini renk ihtiyacıyla birlikte ver.
 
