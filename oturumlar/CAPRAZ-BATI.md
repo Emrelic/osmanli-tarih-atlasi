@@ -1296,3 +1296,64 @@ kullanıyor ve **25 kayıtta tutarlı.** A-1 kuralı da bunu destekliyor: fiilî
 değişim fiilî tarihle. **Emsalden sapılmamalı.**
 🟡 Romanya ayağı için not: Erdel ve Temeşvar zaten `romanya 1918-11-11` —
 Varad ve Yanova onlarla aynı bölgede, aynı gün doğru.
+
+## A-16 📊 "KISMEN YAZILMIŞ OLAY" TARAMASI — kesitim TEMİZ, tek istisna 1918
+
+`OGRENILENLER §80`'in deseni (*"olay birkaç noktaya yazılıyor, gerisi eski
+penceresinde kalıyor"*) kesitimin bütün büyük olaylarında arandı.
+
+**Ölçüt** (dış kaynak istemiyor, doğrusu veride): olay günü `D` için ①
+kırılan noktalar kümesi ② `D`'de kaybeden tarafta olup **kırılmayan** ve
+yazılanlara ≤150 km olan noktalar. ②'nin **meşru olarak etkilenmemiş**
+olanları elenir.
+
+### Sonuç — altı olayda YANLIŞ YOK
+```
+1526-09-01 Mohaç      9 yazılmış · 15 aday → HEPSİ MEŞRU (o şehirler 1543-1566'da düştü)
+1541-08-29 Budin      6 yazılmış · 12 aday → HEPSİ MEŞRU (aynı sebep)
+1683-10-09 Estergon   1 yazılmış · 10 aday → HEPSİ MEŞRU (Budin 1686, Uyvar 1685'te düştü)
+1699-01-26 Karlofça   5 yazılmış ·  0 aday → TEMİZ
+1718-07-21 Pasarofça  6 yazılmış · 18 aday → HEPSİ MEŞRU
+1739-09-18 Belgrad    9 yazılmış ·  4 aday → HEPSİ MEŞRU
+```
+📌 **Pasarofça özellikle iyi çıktı:** yazılan dört Eflak noktası (Krayova ·
+Turnu Severin · Rimnik · Tırgu Jiu) **tam olarak Oltenya'dır**; yazılmayanlar
+(Slatina · Piteşti · Kımpulung · Tırgovişte) **Olt'un doğusunda**, yani
+Eflak'ta kaldılar — doğru. Sınır nehir hassasiyetinde tutmuş.
+📌 **1739'da** Varadin · Baç · Ösek · Temeşvar'ın `avusturya` kalması da
+doğru: Belgrad Antlaşması Banat'ı ve Bácska'yı Avusturya'da bıraktı.
+
+### 🔴 TEK İSTİSNA: 1918-11-11 — ve A-15'ten DAHA GENİŞ
+Aynı tarama **pozitif kontrol** olarak 1918'e uygulandı ve A-15'in altısını
+yakaladı — **artı dokuz tane daha.** A-15 yalnız "Macar tacı" kümesine (30
+yerleşim) bakıyordu; tarama coğrafi olduğu için **Adriyatik ve Bukovina'yı da**
+gördü:
+```
+40 nokta 1918-11-11'de doğru kırılıyor · 15 nokta kırılmıyor:
+
+macaristan olmalı   Peşte (1,6 km!) · İstolni Belgrad · Yanıkkale (Győr)
+romanya olmalı      Varad (Oradea) · Yanova (Ineu) · Çernovitz (Çernivtsi)
+yugoslavya olmalı   Dubrovnik
+KAYNAK GEREK        Brakya · Hvar · Korçula · Mliyet · Krk · Vis · Cres · Rab
+```
+⇒ **A-15'i genişletiyorum: 6 değil 15 kayıt.**
+
+### ⚠️ SEKİZ ADA İÇİN HÜKÜM VERMİYORUM — Rapallo böldü
+Sekiz Dalmaçya adası `s:avusturya 1797-10-17 → 1923-10-29` taşıyor ve 1918'de
+kırılmıyor. **Kırılmamaları KESİN bir kusur** (Avusturya-Macaristan 1918'de
+dağıldı). Ama **ardılları tek değil**: 1920 Rapallo Antlaşması Adriyatik'i
+İtalya ile Yugoslavya arasında **böldü** ve hangi adanın hangisine gittiği
+ada ada değişiyor.
+⇒ `§8`: bu sekizi için hükmüm **`DOĞRULANAMADI`** — *"1918'de kırılmalı"*
+kısmı `KESİN`, *"kime geçmeli"* kısmı **kaynak istiyor.**
+🔴 **Ve bu ada kümesi ÇAPRAZ AKDENİZ'in kesitinde** (Venedik → Avusturya
+zinciri). Ölçümü onlara devrediyorum; ben yalnız **kırılmadıklarını** ölçtüm.
+
+### 📌 Yöntem notu
+Tarama **altı olayda sıfır yanlış pozitif** verdi ve **bilinen kusuru
+yakaladı** — yani ölçüt çalışıyor. Ama tek başına yetmiyor: ham aday listeleri
+gürültülü (Mohaç'ta 15 aday, hepsi meşru). **Eleme elle yapıldı**, çünkü
+*"meşru olarak etkilenmemiş"* sorusu tarih bilgisi istiyor.
+⇒ Bu ölçüt bir **denetim betiğine** çevrilecekse, çıktısı *"hata"* değil
+**"bakılacak liste"** diye etiketlenmeli. Aksi hâlde `§4④`'ün tuzağına
+düşer: ölçmeden eşik koymak.
