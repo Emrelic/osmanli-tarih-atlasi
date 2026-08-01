@@ -499,3 +499,85 @@ Tur 2'de *"TDV kısa adı kullanıyor"* diye desen çıkarmıştım — **o da �
 - **63 sınır gününün çoğu** — yalnız antlaşmaya bağlananlar tarandı; geri kalan
   (fetih/kuşatma günleri) **taranmadı.**
 - **1648 Hmelnitski günü** — beşinci turda da yapılmadı.
+
+---
+
+## Tur 6 — 2026-08-01, Kırım paketi
+
+### Ö24 · B15 geri çekildi — yarış durumu, hata bende değil ama ders bende
+
+Koordinatör ölçtü: YAMACI `00ffed0`'da Kafkasya paketini bitirmiş,
+`1828-02-10` artık veride **0 adet**. Ben commit'ten **önceki** ağacı ölçmüşüm.
+
+📌 **Kendi payıma ders:** paralel oturumda *"veri şu an şöyle"* demeden önce
+`git log`'a bakılır. Ölçümüm o an doğruydu ama **raporladığımda bayattı** —
+yani ölçümün doğruluğu, raporun doğruluğunu garanti etmiyor.
+⇒ §20'deki listeye **dördüncü satır**: *hangi dosya kümesi · hangi alanlar ·
+birincil belge kimin · **ağacın hangi hâli.***
+
+---
+
+### Ö25 · 1783-04-08 ve 1774-07-21 günlerinin taşıdığı noktalar
+
+```
+1783-04-08 → rusya   Bahçesaray · Kuban (Yekaterinodar) · Bozkır (Deşt-i Kıpçak)   = 3
+1774-07-21 → rusya   Kefe · Kerç · Azak · Taman · Kabartay (Nalçik)                = 5
+devletler.js  kirim t:"1783-04-08"                                                 = 1 kayıt
+"1784-01-08" geçen kayıt (devletler.js + yerlesimler.js)                           = 0
+```
+
+Kefe ve Taman'ın tam zinciri:
+```
+Kefe    s:ceneviz 1281→1475 · d:OSMANLI 1475-06-06→1771-07-01 ·
+        s:rusya 1771-07-01→1774-07-21 · s:rusya 1774-07-21→1923
+Taman   s:ceneviz 1281→1482 · d:OSMANLI 1482-06-01→1774-07-21 · s:rusya 1774→1923
+```
+
+---
+
+### Ö26 · TDV — Kırım'ın üç tarihi
+
+| soru | TDV'nin cevabı | madde |
+|---|---|---|
+| ilhak ilanı | *"Ruslar da **8 Nisan 1783**'te Kırım'ın ilhakını resmen ilân ettiler"* | `sahin-giray` |
+| fiilî son | Şâhin Giray **14 Mayıs 1782** Ruslara sığındı; Potemkin **Ekim 1782** işgal | `sahin-giray` |
+| **Osmanlı'nın tanıması** | *"**8 Ocak 1784**'te İstanbul'da imzaladığı bir antlaşma ile **Kırım, Taman ve Kuban**'ın ilhakını tanıdı"* | `kirim` |
+| Yaş 1792 | *"Dinyester'e kadar ihtilâflı arazi"* + Bucak — **Kırım değil** | `kirim` |
+| 1774'te Rusya'ya geçenler | *"**Azak, Kerç, Yenikale ve Kılburun**"* — Kefe/Taman **YOK** | `kucuk-kaynarca-antlasmasi` |
+
+⇒ Koordinatörün *"1783-1792 arası 9 yıl"* endişesi ölçülünce **9 ay** çıktı
+(1783-04-19 → 1784-01-08).
+
+⚠️ **`1784-01-08` B14 ölçütüyle SINANMADI** — TDV bu çekişte hicrî karşılığını
+vermedi. Kendi kuralıma göre *"yalnız yıl"* sınıfına girip girmediği belirsiz;
+**bu tarih de Jülyen olabilir.**
+
+---
+
+### Ö27 · TDV slug ölçümü — tur 6
+
+| slug | `<title>` | hüküm |
+|---|---|---|
+| `sahin-giray` | "ŞÂHİN GİRAY - TDV İslâm Ansiklopedisi" | 🟢 canlı, dolu |
+| `aynalikavak-tenkihnamesi` | **"Arama - TDV İslâm Ansiklopedisi"** | 🔴 **ÖLÜ** |
+| `arama/?q=Aynalıkavak` | — | 📌 yalnız **AYNALIKAVAK SARAYI** ve **TERSANE SARAYI** çıkıyor |
+
+🔴 **Bu, ölü slug'ın farklı bir çeşidi:** `aynalikavak-tenkihnamesi` ölü **ve
+arama da müstakil madde bulmuyor.** Yani antlaşmanın TDV'de kendi maddesi
+**yok**; hükümleri `kirim` · `sahin-giray` · `abdulhamid-i` maddelerine dağılmış.
+📌 `CLAUDE.md §4`'teki **Ferhat Paşa Antlaşması** vakasının aynısı — *"müstakil
+maddesi yok, hükümleri yer maddelerinden toplanır."* İkinci emsal.
+
+Altı turda: **10 canlı · 1 kabuk · 4 ölü** slug.
+
+---
+
+## Tur 6'da ölçmediğim, iddia da etmediğim şeyler
+
+- **`1784-01-08`'in takvimi** — hicrî karşılığı gelmedi, B14 ile sınanmadı.
+- **Kefe ve Taman'ın doğru günü** — çeliştiğini ölçtüm, **hangi güne** taşınacağını
+  ölçmedim (1782 Ekim · 1783-04-19 · 1784-01-08 arasında).
+- **Kabartay (Nalçik)** — Küçük Kaynarca'daki statüsü ayrı maddeye bağlıydı,
+  bakmadım.
+- **`kirim t:` kararı** — üç aday sıralandı, **karar vermedim** (koordinatörün).
+- **1648 Hmelnitski günü** — **altıncı turda da yapılmadı.**

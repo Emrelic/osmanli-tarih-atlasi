@@ -900,7 +900,142 @@ açılmıştı.
 
 ---
 
-## 29. SIRADAKİ TUR — kendi kuyruğum
+---
+---
+
+# TUR 6 — Kırım paketi: üç sorunun cevabı + Nystad
+
+Koordinatörün sorduğu ①②③. **Veriye yazmadım.**
+
+---
+
+## 30. ① `1783-04-19` TAM OLARAK NE?
+
+**Cevap: Rusya'nın tek taraflı ilhak İLANI.** Ne antlaşma, ne fiilî işgal.
+
+TDV **`sahin-giray`** (`<title>` doğrulandı):
+> *"Ruslar da **8 Nisan 1783**'te Kırım'ın ilhakını **resmen ilân ettiler**."*
+
+Ve fiilî son **daha erken**:
+| tarih | olay | kaynak |
+|---|---|---|
+| **14 Mayıs 1782** | Şâhin Giray desteğini yitirip **Ruslara sığındı** — fiilî hanlık bitti | TDV `sahin-giray` |
+| **Ekim 1782** | General Potemkin **resmî işgali başlattı** | TDV `sahin-giray` |
+| **8/19 Nisan 1783** | Rusya ilhakı **ilân etti** (tek taraflı) | TDV + çift gösterim |
+
+⇒ İlhak günü bir **ilan**dır; ne öncesi boş ne sonrası tamamlanmış.
+
+---
+
+## 31. ② HANLIĞIN `t:`'Sİ — cevap ne 1783 ne 1792, **1784**
+
+Koordinatörün sorusu *"1783 mü, Yaş 1792 mi"* idi. **İkisi de değil.**
+
+TDV **`kirim`**:
+> *"Osmanlı Devleti, **8 Ocak 1784**'te İstanbul'da imzaladığı bir antlaşma ile
+> **Kırım, Taman ve Kuban**'ın Rusya'ya ilhakını **tanıdı**."*
+
+Yaş (1792) ise başka bir işe bakıyor: *"Dinyester'e kadar ihtilâflı araziyi
+Rusya'ya terketti"* ve Bucak — **Kırım'ın tanınması değil.**
+
+### 🔴 Ve bu, koordinatörün endişesini büyük ölçüde kaldırıyor
+> *"Kırım'ın `t:`'sini 1783'e çekersen 1783-1792 arası hanlık yok görünür;
+> oysa Osmanlı onu **9 yıl** daha tanıyor olabilir."*
+
+**Boşluk 9 yıl değil, 9 AY** — 19 Nisan 1783 → 8 Ocak 1784. §72'nin *"iki ucu da
+ölç"* uyarısı yerindeydi ama ölçünce **ikinci uç çok daha yakın** çıktı.
+
+### Üç aday, karar koordinatörde
+| aday | ne demek | dayanağı |
+|---|---|---|
+| `1782-05-14` | fiilî son (Şâhin Giray kaçtı) | TDV `sahin-giray` |
+| **`1783-04-19`** | Rusya'nın ilhak ilanı | TDV + çift gösterim |
+| `1784-01-08` | **Osmanlı'nın tanıması** (de jure) | TDV `kirim` |
+
+> **Önerim — ama kararı vermiyorum:** `yerlesimler.js`'in üç noktası
+> **`1783-04-19`** olsun, çünkü projenin yerleşim ekseni **fiilî hâkimiyeti**
+> yazıyor (B10'da Karlofça'da ölçtük: Avusturya'nın kazanımları antlaşma
+> gününe değil **fetih gününe** yazılı). `devletler.js`'in `kirim t:` alanı da
+> aynı gün olsun ki iki eksen çelişmesin; **1784-01-08 kayıt notuna** yazılsın.
+>
+> ⚠️ Bu bir **tercih**, ölçüm değil. Ters yönü de savunulabilir: `devletler.js`
+> bir **kurum** dizinidir ve kurumun hukukî sonu 1784'tür. Karar senin.
+
+⚠️ **`1784-01-08` B14 ölçütüyle sınanmadı:** TDV bu tarihin **hicrî
+karşılığını vermedi** (bu çekişte). Kendi kuralıma göre *"yalnız yıl veren"*
+sınıfa girip girmediği belirsiz — yani **bu tarih de Jülyen olabilir** ve
+öyleyse Gregoryen'i `1784-01-19`. **Ölçülmedi, uyarı olarak bırakıyorum.**
+
+---
+
+## 32. ③ ÜÇ NOKTA AYNI GÜNDE Mİ — evet, ama **dördüncüsü 9 yıl erken**
+
+### Sorulan kısmın cevabı
+`1783-04-08` üç nokta taşıyor ve üçü de manifestonun kapsamında:
+```
+Bahçesaray (44.75, 33.86)  → Kırım
+Kuban (Yekaterinodar)      → Kuban
+Bozkır (Deşt-i Kıpçak)     → bozkır
+```
+TDV'nin saydığı üçlü — *"Kırım, Taman ve Kuban"* — ile örtüşüyor. **Yayılma yok.**
+
+### 🔴 B16 — ama TDV'nin üçlüsündeki **TAMAN** başka günde
+```
+1774-07-21'de rusya'ya geçenler:  Kefe · Kerç · Azak · Taman · Kabartay
+```
+**② KAYNAK:** TDV `kucuk-kaynarca-antlasmasi`, 1774'te Rusya'ya geçenleri
+sayıyor: **"Azak, Kerç, Yenikale ve Kılburun"** — *Kefe ve Taman listede YOK.*
+Ve TDV `kirim`, **Taman**'ın ilhakının **1784**'te tanındığını söylüyor.
+
+**③ HÜKÜM — ÇELİŞİYOR.** İki nokta 1774'te Rus boyanıyor:
+| nokta | bizde | kaynağa göre |
+|---|---|---|
+| **Kefe** | `rusya` 1774-07-21'den | Küçük Kaynarca listesinde yok → hanlıkta kalmalı |
+| **Taman** | `rusya` 1774-07-21'den | 1784'te tanınan üçlünün içinde → 1783'e ait |
+
+⇒ **Kefe, Osmanlı'nın Kırım'daki sancak merkeziydi** ve haritamız onu
+**9 yıl erken** Rus gösteriyor.
+
+🟡 **Kabartay (Nalçik) ölçülmedi** — Küçük Kaynarca'da Kabartay'ın statüsü ayrı
+bir maddeye bağlanmıştı; hüküm vermiyorum.
+
+📌 Bu bulgu **③'ü sorarken çıktı** ve sorunun cevabını tersine çevirdi: üç nokta
+dağılmış değil, **dördüncüsü kopmuş.**
+
+---
+
+## 33. 📦 TESLİM PAKETİ — Kırım + Nystad
+
+### A) Nystad — temiz, tek nokta, bağımsız
+```
+Riga    s:"isvec" biter → s:"rusya" başlar
+        1721-08-30  →  1721-09-10
+```
+✅ Çift gösterim var (*"10 September [O.S. 30 August] 1721"*) · taraf İsveç ·
+`devletler.js`'te bu tarihe bağlı kayıt **yok** (ölçtüm: 0) · başka nokta
+etkilenmiyor. **Tek başına uygulanabilir.**
+
+### B) Kırım — üç dosya, birlikte gitmeli
+```
+data/yerlesimler.js   Bahçesaray · Kuban (Yekaterinodar) · Bozkır (Deşt-i Kıpçak)
+                      s:"kirim" t: ve s:"rusya" f:   1783-04-08 → 1783-04-19
+data/devletler.js     kirim  t:"1783-04-08" → "1783-04-19"      (1 kayıt, ölçüldü)
+data/olaylar*.js      "1783-04"  Kırım'ın Rusya'ya ilhakı  → gün eklenebilir
+```
+⚠️ Kronoloji maddesi `t:"1783-04"` — **ay hassasiyetinde.** `CLAUDE.md §8` ay
+hassasiyetinin gün hassasiyetli yerleşim değişimlerinden **önce sıralandığını**
+ve senkronu bozduğunu söylüyor. Gün verilecekse `1783-04-19` olmalı.
+
+### C) Ayrı karar bekleyen — pakete koymadım
+```
+Kefe · Taman   1774-07-21 → ?   (B16 — kaynak çelişiyor, doğru gün belirsiz)
+```
+Kefe/Taman'ın **hangi güne** taşınacağı ayrı bir araştırma: 1783-04-19 mu,
+1784-01-08 mi, yoksa Potemkin'in Ekim 1782 işgali mi? **Ölçmedim.**
+
+---
+
+## 34. SIRADAKİ TUR — kendi kuyruğum
 
 1. **1648 Hmelnitski ayaklanmasının günü** — Ukrayna/Leh kaynağından; B3'ün
    önerisi bu tarihe bağlı. **Dört turdur sırada, hâlâ yapılmadı** — bu turun
