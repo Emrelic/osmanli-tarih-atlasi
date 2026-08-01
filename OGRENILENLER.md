@@ -3010,17 +3010,42 @@ yayılmış.** Onların cümlesi:
 Koordinatör bütün veri kümesini taradı. Aynı `YYYY-01-01` damgasını paylaşan
 kayıtlar ve aralarındaki **en uzak mesafe**:
 
+⚠️ Koordinatörün ilk ölçümü (**72 kayıt / 7.553 km**) DÜŞÜKTÜ — dar bir
+düzenli ifade kullanmış, `1281` damgasını da elemişti. MOTOR bütün sınır
+damgalarını saydı; **geçerli sayılar bunlar:**
+
 ```
-damga         kayıt   en uzak    örnek
-1469-01-01       72    7.553 km   Erciş · Nihâvend · Kasr-ı Şîrîn
-1508-01-01       46    1.589 km   Hemedan · Kirmanşah · Luristan
-1452-01-01       42    3.601 km   Kilitbahir · Nihâvend · Kasr-ı Şîrîn
-1503-01-01       37    1.775 km   Isfahan · Kazvin · Kum
-1512-01-01       15   12.606 km   Çeleken · Garabogaz · Mangışlak
+SINIR TARİHİ DAMGALARI (8.908)
+   gün            5.135   %57,6
+   yıl (-01-01)   2.516   %28,2   ← her DÖRT sınır tarihinden BİRİ
+   ay  (gün=01)   1.257   %14,1
+
+EN KALABALIK -01-01
+   1281-01-01   917 kayıt   7.648 km    ← kuruluş damgası
+   1469-01-01   142 kayıt   4.501 km
+   1508-01-01    92 kayıt   1.593 km
+   1452-01-01    82 kayıt   1.780 km
 ```
 
-⇒ **Harita, 72 yerin 7.553 km'ye yayılmış hâlde AYNI GÜN el değiştirdiğini
+⇒ **Harita, 917 yerin 7.648 km'ye yayılmış hâlde AYNI GÜN el değiştirdiğini
 çiziyor.** Hiçbiri o gün el değiştirmedi; **hiçbirinin günü bilinmiyor.**
+Ve sınır tarihlerinin **%28'i** bir gün iddiası değil.
+
+🔴 **VE KONVANSİYONUN GERİ DÖNÜŞSÜZ BİR KAYBI VAR** (MOTOR):
+`-01-01` hem *"gün bilinmiyor"* hem *"gerçekten 1 Ocak"* demek. `app.js`'in
+`kesinlikliYazi()`'si ikisini **ayırt edemez** — `-01-01` görünce *"yalnız
+yıl"* gösterir. ⇒ **Gerçekten 1 Ocak'ta olmuş bir sınır değişimini yazacak
+yol yok.** Biçimden çıkarım yapmanın yerine **açık alan** gerektiğinin kanıtı
+budur.
+
+📌 Ve bilgi aslında **kayıp değil** — biri oturup yazmış, ama makinenin
+okuyamayacağı yere:
+```
+app.js:43            tarihin BİÇİMİNDEN çıkarım
+olaylar verisi       ay hassasiyeti KISA STRING olarak (YYYY-MM)
+yerlesimler verisi   hassasiyet YALNIZ YORUM SATIRINDA
+```
+Üç ayrı yer, üç ayrı biçim, **hiçbiri makinece okunamaz.**
 
 ### Kural
 
@@ -3046,4 +3071,41 @@ taşıyan bir alan — `hassasiyet:"yil"` gibi — ve arayüzün onu *"1469'da
 📌 Not: `1469-01-01`'in 72 kaydı Akkoyunlu-Osmanlı-Safevî geçiş kuşağında
 yığılıyor — yani damga en çok **kaynağın en zayıf olduğu yerde** paylaşılıyor.
 Beklenen bir desen, ama **ölçülmemişti.**
+
+
+### §76.1 — Aynı kusurun ikinci biçimi: KOMŞUNUN GÜNÜNÜ ÖDÜNÇ ALMAK
+
+ÇAPRAZ DOĞU (Teslim 10) Suriye kesitinde ikinci biçimi buldu:
+
+```
+             VERİDE          KAYNAKTA              
+Hama         1516-09-27      1516-09-19    8 gün geç   🟢 İKİ TDV maddesi
+Humus        1516-09-27      1516-09-21    6 gün geç   🟢 KESİN
+Beyrut       1516-09-27      "1516", gün YOK          ← SAHTE HASSASİYET
+```
+
+`mercidabik-muharebesi` sırayı da doğruluyor: *"Ardından Hama, Humus, Şam gibi
+şehirler teslim oldu"* — **ardışık**, aynı gün değil. Veri tam tersini söylüyordu.
+
+Beyrut'ta tarih **yanlış değil, uydurma**: kaynak *"1516"* diyor, veri
+*"27 Eylül 1516"* diyor.
+
+```
+§76      gün bilinmiyor → 01-01 yazılıyor          → "1 Ocak'ta oldu" okunur
+§76.1    gün bilinmiyor → KOMŞUNUN GÜNÜ yazılıyor  → "onunla aynı gün" okunur
+```
+
+> **İkisi de aynı kusurun iki biçimi: belirsizliğin veride yeri olmadığı için
+> kesinliğe çevriliyor.** Birinde takvimin başına, ötekinde yandaki şehrin
+> gününe.
+
+⚠️ Ve `§76.1` **daha sinsi**: `-01-01` hiç değilse *"şüphelen"* diye bakılabilir
+bir işaret taşıyor; ödünç alınmış gün **hiçbir iz bırakmıyor.** Halep'in
+gerçek günü (`1516-08-28`, TDV `halep` ile doğrulanmış) üç şehre daha
+kopyalanmış — ve o üçü, doğru bir tarihin yanlış yerde durmasından ibaret.
+
+🔴 **Yama tuzağı** (ÇAPRAZ DOĞU'nun uyarısı): `1516-09-27` her şehirde **iki
+kez** geçiyor — `s:` bitişi *ve* `d:` başlangıcı. `CLAUDE.md §11`'in
+`replace(eski, yeni, 1)` vakası birebir geçerli; tek uç değiştirilirse
+**8 günlük sahipsiz pencere** açılır.
 
