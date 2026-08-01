@@ -337,16 +337,56 @@ Ansiklopedisi", **canlı**):
 **③ HÜKÜM: ÇELİŞİYOR — üç ayrı katmanda.**
 
 1. **Nokta eksik** ⇒ toprak yanlış devlete boyanıyor (yukarıda).
-2. 🔴 **Tarih çelişkisi — ve bu bir "temas olgusu", ÇÖZMÜYORUM:**
+2. ✅ **Tarih çelişkisi ÇÖZÜLDÜ — üç ayrı olay, iki kayıt, bir eksik.**
+
+   ⚠️ Önce **kural ①** işletildi: `1365` tek çekişten gelmişti, ikinci çekişte
+   **birebir alıntıyla** doğrulandı — çekiş uydurmamış.
+
+   **TDV `dubrovnik` (ikinci çekiş, alıntı):**
+   > *"Dubrovnik kaynaklarına göre 1365 tarihli olan bu ahidnâme ile Dubrovnik
+   > Osmanlılar'ın haraçgüzârı oluyor…"* — **I. Murad**, yılda **500 altın duka**,
+   > ticaret serbestliği.
+   > *"7 Mart 1459'da verilen yeni bir ahidnâme"*
+   > **`1458` TDV metninde HİÇ GEÇMİYOR.**
+
+   **Batı/akademik tarih yazımı (çapraz kontrol):** 1442'de **Murad II**'ye
+   yılda **1.000 duka**; **1458** antlaşması *"1442 belgesinin hükümlerini
+   esasen tekrarlıyor"*, haraç **1.500**; sonra 12.500'e çıkıyor.
+
+   ⇒ **Üç ayrı olay, ve ikisi bizde yok:**
    ```
-   bizim kronolojimiz   1458       "Dubrovnik (Raguza) haracı"
-   TDV dubrovnik        1365       ahidnâme ile haraçgüzâr oldu
-                        1459       haraç 1.500 florine çıktı  ← 1458'e YAKIN
+   1365  I. Murad ahidnâmesi     500 duka    TDV — "Dubrovnik kaynaklarına göre"
+   1442  II. Murad             1.000 duka    Batı — bizde YOK, TDV'de YOK
+   1458  Fâtih antlaşması      1.500 duka    BİZDE VAR (olaylar_ek2)
+   1459-03-07  ahidnâme belgesi              TDV — 1458'in belgesi
    ```
-   Bizim 1458'imiz TDV'nin **1459 haraç artışına** denk düşüyor olabilir —
-   yani iki kayıt **farklı olayları** anlatıyor olabilir (tâbiliğin başlangıcı
-   vs. haracın yeniden belirlenmesi). `CAPRAZ-GOREV §3`: **kaydedildi,
-   çözülmedi.** Ragusa arşivi (*Acta Consilii Rogatorum*) ile sınanmalı.
+
+   **③ HÜKÜM: ÇELİŞKİ DEĞİL, KATMANLI BİR SÜREÇ.** Bizim `1458`imiz ile TDV'nin
+   `1459-03-07`si **aynı işlemin** iki yüzü (antlaşma ve ahidnâme belgesi
+   arasında bir yıl, olağan). Gerçek ayrışma `1365` ile `1442` arasında ve
+   **TDV'nin kendisi 1365'i "Dubrovnik kaynaklarına göre" diye atıfla
+   veriyor** — kendi hükmü olarak değil.
+
+   ### 🟢 KARAR ÖNERİM: `v:` penceresi **1458**'de başlasın
+   Gerekçe sırayla:
+   - Kendi kronolojimiz zaten `1458-01-01` taşıyor — **yeni iddia üretmiyoruz**
+   - TDV'de `1458`e karşı çıkan bir ifade **yok** (tarih metinde hiç geçmiyor)
+   - `1365` **ticaret ahidnâmesidir**, toprak tâbiliği değil; üstelik TDV onu
+     kendi hükmü olarak değil **atıfla** aktarıyor
+   - `1442` gerçek bir aşama ama **hiçbir kaydımızda yok**; onu eklemek
+     kronoloji işidir, harita kırılması değil
+   - Ragusa 1358-1806 boyunca **fiilen özerkti**; pencerenin başlangıcı
+     Macar himayesinden Osmanlı himayesine geçişi işaretler, 1458 bunun
+     kabul edilmiş tarihidir
+
+   📌 **Kalan belirsizlik dürüstçe yazılıyor:** Ragusa aynı anda birden çok
+   güce haraç ödedi; tek bir "geçiş günü" tarihsel olarak zorlamadır. `1458`
+   en savunulabilir tek tarih, **kesin gün değil** ⇒ `1458-01-01` yazılır ve
+   bu `CLAUDE.md §4`'ün *"yıl biliniyor, gün bilinmiyor"* sözleşmesidir.
+
+   🟡 **KRONOLOJİYE ÖNERİ (VERİ KRONOLOJİ'ye):** `1442` maddesi eksik —
+   II. Murad'a 1.000 duka ile başlayan ilk düzenli haraç. Bugün kronoloji
+   1458'den başlatıyor ve **on altı yıllık bir aşamayı atlıyor.**
 3. **Mljet'in kendi kimliği de şüpheli.** Mljet 1345'ten itibaren **Ragusa
    Cumhuriyeti'nin** adasıydı, Venedik'in değil. TDV maddesi Mljet ve Lastovo'ya
    **hiç değinmiyor** ⇒ `§8` gereği hüküm **"doğrulanamadı"** — bu tam bir
@@ -356,18 +396,27 @@ Ansiklopedisi", **canlı**):
 Osmanlı'ya haraçgüzâr bir cumhuriyet, tam olarak **`v:` tâbi katmanının** işidir
 — Erdel'in modellendiği gibi (`v:` + `k:`), ve tâbi tonu zaten var:
 ```
-Dubrovnik  lat 42.650  lon 18.094
+Dubrovnik  lat 42.650  lon 18.094   tur:"sehir"
   s: 1281-01-01 -> 1358-01-01   d=venedik
-  s: 1358-01-01 -> <tâbilik>    d=macaristan          ← Zadar sonrası Macar himayesi
-  v: <tâbilik>   -> 1806-05-27  k="Dubrovnik Cumhuriyeti (haraçgüzâr)"
-  s: 1806-05-27 -> 1814-xx      d=fransa
-  s: 1814-xx    -> 1923-10-29   d=avusturya
+  s: 1358-01-01 -> 1458-01-01   d=macaristan          ← Zadar sonrası Macar himayesi
+  v: 1458-01-01 -> 1806-05-27   k="Dubrovnik Cumhuriyeti (haraçgüzâr)"
+  s: 1806-05-27 -> 1814-01-01   d=fransa
+  s: 1814-01-01 -> 1923-10-29   d=avusturya
 ```
-⚠️ `<tâbilik>` **kasten boş**: 1365 (TDV) mi 1458 (bizim kronoloji) mi kararı
-yukarıdaki çelişki çözülmeden verilemez. **Uydurmuyorum.**
-⚠️ TDV Macar dönemine ve 1814 Avusturya devrine tarih vermiyor; ikisi de
-Ragusa/Habsburg kaynağından tamamlanacak.
+✅ **Tâbilik tarihi artık dolu: `1458-01-01`** — gerekçesi yukarıda, kendi
+kronolojimizin taşıdığı tarih ve TDV'de karşı ifade yok.
+⚠️ **İki tarih hâlâ zayıf ve öyle işaretleniyor:**
+- `1358-01-01` — TDV yalnız *"1358'e kadar sürdü"* diyor, gün vermiyor.
+  Zadar Antlaşması **18 Şubat 1358**'dir; gün istenirse oradan alınır, ama
+  Ragusa'nın Macar himayesine girişi ayrı bir işlemdir ⇒ **yıl hassasiyeti.**
+- `1814-01-01` — TDV 1806'dan sonrasına hiç değinmiyor. Avusturya'nın Dubrovnik'i
+  alması 1814 başıdır (Viyana Kongresi'yle 1815'te teyit) ⇒ **doğrulanmadı**,
+  Habsburg kaynağından tamamlanmalı. Bu tarih yanlışsa yalnız 1806-1815 arası
+  bir dilim etkilenir, Ragusa'nın 348 yıllık tâbilik penceresi etkilenmez.
+
 📌 3 km kuralı temiz: en yakın nokta 48,2 km (`CLAUDE.md §11`).
+📌 Değişmez 2: `1458` · `1806-05-27` kırılmaları madde ister. `1458` maddesi
+**zaten var** (`olaylar_ek2`); `1806-05-27` için yeni madde gerekir.
 
 ## V-2 ✅ RODOS — kullanıcının saydığı ada, ama Venedik'in DEĞİLDİ
 
