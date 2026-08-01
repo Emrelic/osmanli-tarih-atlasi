@@ -725,3 +725,52 @@ d: 1791-08-04 -> 1867-04-18                    ← bitiş KESİN
 kadar uzandı? Semendire · Kragujevac · Çaçak · Niş'te 1780-1800 arası
 **hiç kırılma yok**. Böğürdelen'in penceresi var olduğuna göre kuzey Sırbistan
 şeridinin tamamı sorulmalı. **Bu ayrı bir ölçüm**, bu turda yapılmadı.
+
+## A-3 ✅ GERİ FETİH DALGASI 1683-1700 — A-1'in kuralı **36/36 TUTTU**
+
+Ölçüm: bu aralıkta `OSMANLI → avusturya/venedik` **36 geçiş** var.
+```
+1699-01-26 (antlaşma tarihi) kullanan  :  0 / 36     ← kural TUTTU
+gün hassasiyetli                       : 35 / 36
+yıl hassasiyetli (YYYY-01-01)          :  1 / 36     ← Yanova (Ineu)
+```
+**Hiçbir nokta Karlofça'ya çekilmemiş.** Estergon 1683-10-09 · Budin 1686-09-02
+· Erdel 1687-08-12 · Belgrad 1688-09-06 · Kanije 1690-04-13 · Varad 1692-06-05
+— hepsi kendi fetih günüyle. Dalganın yoğunluğu da tarihle uyumlu:
+1686'da 9, 1687'de 10 geçiş (Budin ve Mora'nın düşüşü).
+
+✅ **Geri dönüşler de doğru yazılmış:** Niş ve Vidin `avusturya 1689-09-24 →
+1690-09-09`, sonra Osmanlı — 1689 Avusturya ilerlemesi ve Köprülüzâde Fâzıl
+Mustafa Paşa'nın 1690 karşı harekâtı. **Bir yıllık pencere, iki noktada da
+aynı iki gün.**
+
+⇒ A-1 artık **üç bağımsız sınamadan** geçti (Karlofça · Pasarofça/Belgrad ·
+geri fetih dalgası). Bu veri kümesi bu konuda **güvenilir**; buraya yapılacak
+"düzeltme"lerin ispat yükü ağır olmalı.
+
+## A-4 🟡 YANOVA (INEU) — 36 kaydın tek yıl hassasiyetlisi
+
+**① BİZDE NE VAR**
+```
+Yanova (Ineu)   d: 1658-08-27 → 1693-01-01   (gün hassasiyetli fetih)
+                s: 1693-01-01 → 1923-10-29   d=avusturya   ← 231 yıl, YIL hassasiyetli başlangıç
+kronoloji       olaylar_ek6.js  1693-01-01  "Yanova'nın kaybı — Erdel yolunun kapanması"
+```
+**③ HÜKÜM: DOĞRULANAMADI — ve desen kırılması işaret ediyor.**
+
+35 komşusu gün hassasiyetliyken bu tek başına `-01-01`. Kendi **fethi**
+(1658-08-27) gün hassasiyetli, **kaybı** değil — aynı kayıt içinde iki farklı
+titizlik. Bu, `CLAUDE.md §4`'ün *"yıl biliniyor, gün bilinmiyor"* sözleşmesinin
+meşru kullanımı **olabilir**, ama bir yer tutucu da olabilir; ayırt etmedim.
+
+⚠️ **Ve bu MOTOR'un ölçtüğü sınıfın görünür bir örneği:** 2.516 damga
+(sınır tarihlerinin %28'i) yıl hassasiyetli ve hepsi `Değişmez 2`'ye ±30 günle
+giriyor, oysa belirsizlik 365 gün. Burada kronoloji maddesi de aynı
+`1693-01-01`'i taşıdığı için **denetim temiz görünüyor** — iki kayıt da aynı
+yer tutucuyu paylaşıyor.
+📌 Yani sağlama, hatayı bulamıyor çünkü **hata iki tarafta da aynı.**
+
+🟡 **Kaynak durumu:** `KAYNAK-DENETIMI.md` Yanova'nın **1658 fethi** için
+`koprulu-mehmed-pasa` slug'ını doğrulamış; **1693 kaybı** için doğrulanmış
+kaynak yok. Müstakil bir `yanova` maddesi arandı, listede görünmüyor.
+⇒ **KAYNAK oturumuna:** Yanova/Ineu'nun 1693'te Habsburg'a geçiş **günü**.
