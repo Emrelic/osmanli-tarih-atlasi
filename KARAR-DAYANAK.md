@@ -99,3 +99,31 @@ bölümde tutulmasının tek sebebi buydu ve önlendi.
 📌 Bu satır, çürümüş dayanak kaydından **farklı**: orada olmuş bir şey yazılı,
 burada olacağı bilinen bir şey. İkisini ayrı tutmanın sebebi, ikincisinin
 **önlenebilir** olması.
+
+---
+
+## HÜKÜMDAR / DEVLET ÖMRÜ — "hangi gün bitti" sorusunun tek ilkesi
+
+| # | karar | dayandığı ölçüm | sayı | sahip |
+|---|---|---|---|---|
+| 19 | **Bir devletin `t:`'si, hükümdarın FİİLEN sahneden çekildiği gündür** — ne savaşın günü, ne hukukî devir günü | Memlük: dört belgenin üçü zaten hizadaydı | `devletler.js` **1517-01-22** (tek aykırı) ↔ CLAUDE.md §3.5 · TDV · kronoloji **1517-04-13** | ARABİSTAN · KOORDİNATÖR |
+| 20 | **Aynı ilke saltanat için de geçerli: I. Bayezid'in saltanatı ANKARA'da biter** (1402-07-28), esarette ölümü (1403-03-08) ayrı olaydır | Fetret Devri haritada 1402-07-28'de başlıyor | uzatılsa **8 ay** boyunca hem Fetret hem hüküm süren padişah olurdu | DENETÇİ · KOORDİNATÖR |
+| 21 | **İki TDV maddesi çeliştiğinde OLAYIN KENDİ maddesi esastır** | `memlukler` Ridâniye'yi 23 Ocak veriyor; `ridaniye-savasi` **22 Ocak** diyor ve 23'ün yanlış kaydedildiğini **yazıyor** | `savaslar.js` zaten 22 Ocak — doğru olan | ARABİSTAN |
+| 22 | **Kaynağın verdiği hassasiyet, verildiği gibi yazılır** — mevsimi aya, ayı güne çevirmek aynı kusur | `gun:` alanında mevsim emsali | **18 kayıt** (`1390 kışı` · `1463 yazı` · `1468 baharı`…) | ARABİSTAN |
+
+📌 19 ve 20 **aynı ilkenin iki yüzü** ve birlikte okunmalı: Tomanbay Ridâniye'den
+sonra **hâlâ direniyordu** (o yüzden 22 Ocak değil 13 Nisan); Bayezid Ankara'dan
+sonra **hiç direnmedi** (o yüzden 1403 değil 1402). Ölçüt "savaş" da değil "ölüm"
+de değil — **fiilî çekilme.**
+
+### 🔴 ÇÜRÜMEYE ADAY — `padisahlar.js` AY hassasiyetinde
+
+DENETÇİ ölçtü: belge-tutarlılık denetiminde **59 çiftin 53'ü 31 günün altında**
+ve fark **yapısal** — `padisahlar.js` ay, kronoloji gün hassasiyetinde; ay tarihi
+ayın 1'ine genişleyince ortalama ~15 gün fark **beklenen.**
+
+⚠️ Ve koordinatörün tahminle koyduğu **±45 gün** eşiği, yapısal payın (31) hemen
+üstündeydi: **bir gün öteye kaysa gerçek vakayı yutardı.** DENETÇİ ölçmekte
+ısrar etti ve haklı çıktı.
+⇒ Asıl çare eşik değil: **`padisahlar.js` gün hassasiyetine çıkarılırsa eşik
+gerekmeyebilir.** Kaç kaydın gün, kaçının ay taşıdığı ölçülecek.
