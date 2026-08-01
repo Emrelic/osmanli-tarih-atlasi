@@ -2299,3 +2299,61 @@ yakalanıyor mu?" Sorulsaydı `min(len)`in yetmediği ilk denemede görülürdü
 📌 Ve düzeltmeyi **başkasının** ölçmesi en ucuz çare: bugün üç vakanın üçünde de
 kusuru **düzelten değil, üçüncü bir taraf** buldu.
 
+
+---
+
+## §62 — BAĞIŞIK OLDUĞUNU VARSAYDIĞIN EKSEN, EN ÇOK ATLADIĞIN EKSENDİR
+
+MOTOR, kendi kurduğu koruma mekanizmasında bir delik buldu:
+
+```
+uret_petek.py:77    _GIRDI_IZI = girdi.parmak_izi()   ← koşunun BAŞINDA, kopyadan
+uret_petek.py:1763  "motor": girdi.motor_izi()        ← koşunun SONUNDA, DİSKTEN
+```
+
+Girdi tarafı korunmuş: anlık görüntü koşu başında alınıyor, `izi_dogrula()` üç
+ayrı yerde koşu-içi değişimi yakalayıp **süreci öldürüyor.** Kod tarafında ise
+**ne anlık görüntü var ne doğrulama.** Koşu sürerken `renkler.py` değişse çıktı
+etkilenmez ama **damga etkilenir**: `URETIM_IZI.motor`, koşunun hiç çalıştırmadığı
+bir kodun sha256'sını yazar.
+
+⇒ *"Bu çıktı hangi koddan üretildi?"* sorusuna **sessizce yanlış** cevap verir —
+ve damga tam o soruyu kapatmak için vardı.
+
+MOTOR'un kendi teşhisi:
+
+> *"Anlık görüntü mekanizmasını **girdiye** kurdum, aynı sorunun **kodda** da
+> olduğunu düşünmedim. **Bir yöntemin bağışık olduğunu varsaydığın eksen,
+> taramayı en çok atlayacağın eksendir.**"*
+
+### Neden bu §61'den ayrı
+
+§61 *"düzeltme turunda ikinci kez aynı kör noktaya basmak"*tı — orada hata ile
+çare **aynı** eksende. Burada çare **doğru** eksende kuruldu ve **çalışıyor**;
+kusur, çarenin **uygulanmadığı ikinci eksende.** Yani:
+
+| | §61 | §62 |
+|---|---|---|
+| hata | çare yanlış kurulmuş | çare doğru kurulmuş |
+| kusur | aynı eksende tekrar | **başka bir eksene taşınmamış** |
+| görünürlüğü | düzeltme sınandığında çıkar | **hiç sınanmaz** — o eksende sorun olduğu akla gelmez |
+
+⚠️ Ve ikincisi daha sinsi: bir mekanizmayı kuran kişi, onu kurduğu eksende
+uzmandır ve **o uzmanlık diğer ekseni görünmez kılar.** Aynı gün üç vaka:
+
+```
+girdi korunuyor ↔ KOD korunmuyor        (MOTOR, bugün)
+ilk yazımda uygulandı ↔ GENİŞLEMEDE değil (ARAYÜZ: rozet `fethedilen:` okuyordu,
+                                          `kaybedilen:` sonradan geldi, 6 ad görünmedi)
+raporun tarihi yazılı ↔ DENETİMİN tarihi değil (DENETÇİ: "raporum bayatladı")
+```
+
+### Kural
+
+> **Bir koruma kurulduğunda, aynı sorunun geçerli olabileceği DİĞER eksenler
+> tek tek sayılır.** "Burada olmaz" bir ölçüm değil, bir varsayımdır.
+
+📌 Somut kontrol listesi: bir mekanizma **girdi** için kurulduysa — **kod**,
+**çıktı**, **yapılandırma** ve **zaman** eksenlerinde de gerekli mi diye sorulur.
+MOTOR'un vakasında ikinci eksen (kod) gerekliydi ve boştu.
+
