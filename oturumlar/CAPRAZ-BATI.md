@@ -171,34 +171,95 @@ harita Viyana · Graz · Ljubljana · Uyvar   s:avusturya  f=1281-01-01
        fark 89.723 gün = 245,6 yıl
 ```
 
-**③ HÜKÜM: ÜÇÜ FARKLI, tek düzeltme olmaz.**
-- **Viyana · Graz — dizin dar.** Habsburglar Avusturya'yı 1278 Marchfeld'den
-  sonra, 1282 tevcihiyle aldı. Dizin kaydı 1526'da başlıyor çünkü *"Osmanlı'nın
-  komşusu Habsburg"* diye tanımlanmış. ⇒ **Veri doğru, dizin kaydının `f:`'i
-  geriye çekilmeli.**
-- **Ljubljana — veri yanlış.** Kranj (Carniola) Habsburg'a **1335**'te geçti.
-  54 yıllık gerçek anakronizm.
-- **Uyvar — çift hata**, aşağıda.
+**② KAYNAKTA NE VAR** — Kranj/Carniola'nın Habsburg'a geçişi:
+> 1286'da Gorizia-Tyrol (Meinhardiner) hattı Kärnten dükü ve **Kranj markisi**
+> oldu. Henry'nin 1335'teki ölümüyle hat tükendi; İmparator IV. Ludwig
+> **2 Mayıs 1335'te Linz'de** Kärnten'i ve Kranj markiliğini Habsburglara
+> imparatorluk tımarı olarak verdi. Tirol 1363'te eklendi.
+> *(Die Welt der Habsburger — habsburger.net, Schönbrunn kurumsal tarih portalı;
+> Vikipedi aday üretici olarak kullanıldı, kaynak olarak değil — `§3`)*
+
+**③ HÜKÜM: ÜÇÜ FARKLI — ve koordinatörün kararı bir vakadan genelleme.**
+
+🔴 **Koordinatörün hükmü: *"dizinin `f:`'i değil, YERLEŞİMLERİN `f:`'i
+düzelecek — gerekçe senin kendi ölçümün: Ljubljana savunulamaz."***
+⚠️ **Gerekçe tek vakadan alınmış, öteki ikisine uymuyor.** Ölçtüm:
+
+| kayıt | doğru başlangıç | bugünkü `f:` | hüküm |
+|---|---|---|---|
+| **Ljubljana** | **1335-05-02** (Linz tımarı) | 1281-01-01 | ✗ **veri yanlış**, 54 yıl 4 ay |
+| **Viyana** | 1278 Marchfeld / 1282-12-27 tevcihi | 1281-01-01 | ✓ **veri DOĞRU** — 1281'de Rudolf zaten hâkim |
+| **Graz** | aynı (Styria, 1282 tevcihi) | 1281-01-01 | ✓ **veri DOĞRU** |
+
+Viyana ve Graz'da düzeltilecek şey **yerleşim değil, dizin**: `habsburg`
+kaydının `f:1526-08-29`'u Mohaç'tan alınmış, oysa Habsburg Avusturyası 1526'da
+kurulmadı. ⇒ **Ljubljana'da veri, Viyana/Graz'da dizin düzelir.** İkisi ayrı iş.
+
+### 🔴 UYARI — `f:` ileri alınırsa DEĞİŞMEZ 1 DELİĞİ AÇILIR
+Ljubljana'nın `f:`'ini 1335'e çekmek **54 yıl 4 aylık sahipsiz pencere**
+demektir; bugünkü sahipsiz sayısı 34 ve hepsi kasten. Delik açmadan düzeltmenin
+tek yolu o pencereyi **doldurmak**:
+```
+s: 1281-01-01 -> 1335-05-02   d=almanya     (Kutsal Roma — Kranj imparatorluk markiliği)
+s: 1335-05-02 -> 1918-11-11   d=avusturya
+```
+🎨 **`almanya` zaten var** — `renkler.py` `("Kutsal Roma / Almanya", "#9a9a9a")`,
+`devletler.js` `f=962-02-02`. **Yeni renk gerekmiyor.**
+⚠️ Alternatif `goricya`/`karniola` kimliği daha kesin olurdu ama **ikisi de
+`BOYALAR`'da yok** ve yeni hex DSATUR dengesine yük — `almanya` hem doğru hem
+bedava. (Meinhardiner Kranj'ı imparatorluk tımarı olarak tutuyordu.)
+
+📌 **Renk envanteri — önerilerimin ihtiyacı:**
+```
+almanya              #9a9a9a  ✓ VAR      Ljubljana dolgusu
+venedik fransa
+ingiltere yunanistan          ✓ VAR      Ayamavra zinciri — yeni renk YOK
+macaristan           #1e88e5  ✓ VAR      paylaşıma aday
+habsburg                      ✗ YOK      (dizin kaydı, haritada karşılığı avusturya)
+macaristan-habsburg           ✗ YOK      B-2'nin (a) seçeneği paylaşımla çözer
+erdel                         ✗ YOK      bugün v:/k: ile çiziliyor, gerekmiyor
+```
 
 ---
 
-## B-5 🟡 UYVAR — iki kat yanlış
+## B-5 🟡 UYVAR — üç kat yanlış (TDV'den doğrulandı)
 
-**① BİZDE NE VAR:** `s:avusturya 1281-01-01 → 1663-09-24`
+**① BİZDE NE VAR:** `s:avusturya 1281-01-01 → 1663-09-24`, `kur:` alanı yok.
 
-**③ HÜKÜM: ÇELİŞİYOR, iki ayrı sebeple.**
-1. **Yanlış devlet.** Uyvar 1526'ya kadar Macaristan Krallığı toprağı.
-   Havzadaki bütün komşuları (Estergon · Budin · Peçuy · Segedin · İstolni
-   Belgrad · Kanije…) `macaristan` 1281→fetih yazılmış; **Uyvar tek istisna.**
-   Desen kırılması tek başına yazım hatası işaretidir.
-2. **Kale 1281'de yok.** Uyvar (Nové Zámky) **1573-1581**'de inşa edildi;
-   kayıtta `kur:` alanı yok. `girdi.py` bu alanı tam bunun için taşıyor
-   (*"motor petek_epok() bu tarihten önce peteği komşuya devreder"*).
-   ⇒ 292 yıl boyunca var olmayan bir kale petek sahibi.
+**② KAYNAKTA NE VAR** — TDV `uyvar` (`<title>` = "UYVAR - TDV İslâm
+Ansiklopedisi", **canlı**):
+```
+1545         kalenin çekirdeği — Estergon başpiskoposu, Osmanlı akınlarına karşı
+1573-1585    yıldız-kale sistemine göre büyük yenileme
+1663-08-17   Köprülüzâde Fâzıl Ahmed Paşa kuşatmayı başlattı
+1663-09-26   Adam Forgács teslim etti
+1685-08-19   Habsburg'a geçti
+fetih öncesi bölge: MACARİSTAN KRALLIĞI
+```
 
-📌 TDV `uyvar` **canlı** (KAYNAK-DENETIMI, 2 kullanım) — kuruluş tarihi oradan
-teyit edilmeli; yukarıdaki 1573-1581 aralığı henüz TDV'den okunmadı,
-**doğrulanmadı olarak işaretli.**
+**③ HÜKÜM: ÇELİŞİYOR, üç ayrı sebeple.**
+1. **Yanlış devlet — TDV doğruladı.** *"Bölge, Osmanlı fethinden önce Macaristan
+   Krallığı'na aitti."* Havzadaki bütün komşuları `macaristan` 1281→fetih
+   yazılmış; **Uyvar tek istisna.** Desen kırılması tek başına yazım hatası
+   işaretiydi, kaynak teyit etti.
+2. **Kale 1281'de yok — `kur:` = 1545.**
+   ⚠️ **Kendi tahminimi düzeltiyorum:** ilk turda *"1573-1581'de inşa edildi"*
+   yazmış ve **doğrulanmadı** diye işaretlemiştim. TDV çekirdeğin **1545**'te
+   kurulduğunu, 1573-1585'in **yenileme** olduğunu söylüyor. Doğru `kur:`
+   değeri **1545**; 1573-1585 aralığı kuruluş değil.
+   ⇒ Bugün 264 yıl (1281-1545) boyunca var olmayan bir kale petek sahibi.
+3. 🔴 **YENİ: fetih tarihi iki gün yanlış.** Bizde `1663-09-24`, TDV
+   **`1663-09-26`**. Kayıp tarihi (`1685-08-19`) ise **tutuyor** ✓.
+
+### Önerilen düzeltme
+```
+kur: "1545-01-01"                                  ← gün yok, §4⑤: yıl hassasiyeti
+s:   1545-01-01 -> 1663-09-26   d=macaristan       ← avusturya DEĞİL
+d:   1663-09-26 -> 1685-08-19                      ← 09-24 değil 09-26
+s:   1685-08-19 -> 1918-11-11   d=avusturya        (değişmiyor)
+```
+⚠️ `kur:` gününü TDV vermiyor; `1545-01-01` **"yıl biliniyor, gün bilinmiyor"**
+sözleşmesidir (`CLAUDE.md §4`), 1 Ocak iddiası değil.
 
 ---
 
