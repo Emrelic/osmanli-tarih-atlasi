@@ -1,7 +1,7 @@
 # ÇAPRAZ OTURUMLAR — GÖREV TANIMI
 
-> Üç oturum: **ÇAPRAZ DOĞU · ÇAPRAZ KUZEY · ÇAPRAZ BATI**
-> Bu dosya üçünü birden tanımlar. Kendi bölümünü oku, ortak kuralları hepiniz uygulayın.
+> Dört oturum: **ÇAPRAZ DOĞU · ÇAPRAZ KUZEY · ÇAPRAZ BATI · ÇAPRAZ AKDENİZ**
+> Bu dosya dördünü birden tanımlar. Kendi bölümünü oku, ortak kuralları hepiniz uygulayın.
 > Kullanıcının isteği: *"O devletlerin haritalarını düzeltirsek bizim haritamızda düzelmiş, çaprazlama doğrulanmış olur."*
 
 ---
@@ -18,17 +18,33 @@ Kullanıcının kurduğu mantık: Osmanlı 1288-1923 arasında sekiz devletle uz
 
 ---
 
-## 1. KAPSAM — sekiz devlet, üç oturum
+## 1. KAPSAM — sekiz devlet, BEŞ oturum
+
+⚠️ **1 Ağustos 15:55'te güncellendi.** Belge 1 Ağustos boyunca **plan A**'yı
+(üç oturum) anlatmaya devam etti; bu sürede ÇAPRAZ AKDENİZ açıldı ve Fransa
+el değiştirdi. Yeni açılan bir oturum belgeyi okuyup **çelişkiyi bildirdi** —
+bayat belge, bir günde beşinci vaka.
 
 | oturum | devletler | bugünkü veri (pencere / nokta) |
 |---|---|---|
-| **ÇAPRAZ DOĞU** | **İran** (İlhanlı → Timurlu → Karakoyunlu → Akkoyunlu → Safevî → **Afşar → Zend → Kaçar**) + **Memlük** | iran 326/176 · safevi 201/164 · ilhanli 143 · timurlu 110 · akkoyunlu 100 · karakoyunlu 94 · **afsar 0 · zend 0 · kacar 0** · memluk 107/101 |
+| **ÇAPRAZ DOĞU** | **İran** (İlhanlı → Timurlu → Karakoyunlu → Akkoyunlu → Safevî → **Afşar → Zend → Kaçar**) + **Memlük** + **Fransa** | iran 326/176 · safevi 201/164 · memluk 107/101 · fransa 178/149 |
 | **ÇAPRAZ KUZEY** | **Rusya + Lehistan** | rusya 128/113 · **lehistan 23/16** ← en zayıf |
-| **ÇAPRAZ BATI** | **Avusturya + Macaristan + Venedik + Fransa** | fransa 178/149 · avusturya 90/84 · venedik 83/78 · macaristan 44/30 |
+| **ÇAPRAZ BATI** | **Avusturya + Macaristan** | avusturya 90/84 · macaristan 44/30 |
+| **ÇAPRAZ AKDENİZ** | **Venedik** + **Kuzey Afrika** (292 yerleşim) | venedik 83/78 |
+
+🔴 **Fransa ÇAPRAZ DOĞU'da, ÇAPRAZ BATI'da DEĞİL.** Sebep: DOĞU Memlük'ü
+bitirince ilk bakışı yaptı, 642 yıllık torbayı buldu ve **Bordo'yu
+kaynaklandırdı** (`cca1861`, 172,5 yıl, Gascon Rolls Project). Yapılmış işi
+çöpe atmamak için orada bırakıldı. **Plan B'nin Venedik+Fransa eşleştirmesi bu
+noktada uygulanmadı** — AKDENİZ yalnız Venedik'i aldı.
+
+📌 **Kuzey Afrika artık atanmış** (ÇAPRAZ AKDENİZ). Gerekçe: Cezayir/Tunus
+ocaklıkları hem Venedik hem Fransa muhatabı, 1830 işgali aynı eksende.
+⚠️ `ARAŞTIRMA ARAP AFRİKA` oturumuyla çakışma ihtimali var; çakışırsa
+koordinatör ayırır.
 
 ⚠️ **Sınır boylam değil, DEVLET.** Bir olay birden çok oturumu ilgilendiriyorsa (ör. 1699 Karlofça: Avusturya + Venedik + Lehistan + Rusya) **ilgili oturumlar ayrı ayrı bakar** ve sonuçları karşılaştırılır. Bu bir çakışma değil, **kasıtlı örtüşme** — dört ayrı kaynağın aynı antlaşmayı nasıl anlattığı bilginin kendisidir.
 
-🟡 **Kuzey Afrika henüz atanmadı** (Hafsî · Zeyyânî · ocaklıklar · 1830-1911 sömürge dalgası, 292 yerleşim). Ayrı oturum ya da BATI'ya ek olarak sonra karara bağlanacak.
 
 ---
 
