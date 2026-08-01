@@ -312,9 +312,9 @@ window.YERLESIMLER = [
 { ad:"Priştine", tur:"sehir", lat:42.663, lon:21.162, g:0, k:3, m:"Üsküp", s:[{f:"1281-01-01",t:"1455-06-01",d:"sirbistan"},{f:"1912-10-22",t:"1923-10-29",d:"sirbistan"}], d:[{f:"1455-06-01",t:"1912-10-22"}] },
 { ad:"Semendire", tur:"kale", lat:44.663, lon:20.930, g:1, k:3, m:"Belgrad", s:[{f:"1281-01-01",t:"1439-08-27",d:"sirbistan"},{f:"1444-08-01",t:"1459-06-20",d:"sirbistan"},{f:"1717-08-18",t:"1739-09-18",d:"avusturya"},{f:"1878-07-13",t:"1923-10-29",d:"sirbistan"}], d:[{f:"1439-08-27",t:"1444-08-01",y:"kusatma"},{f:"1459-06-20",t:"1717-08-18",y:"kusatma"},{f:"1739-09-18",t:"1867-04-18",y:"antlasma"}], v:[{f:"1867-04-18",t:"1878-07-13",k:"Sırbistan Prensliği"}] },
 { ad:"Belgrad", tur:"kale", lat:44.818, lon:20.457, g:2, k:2, s:[{f:"1281-01-01",t:"1427-01-01",d:"sirbistan"},{f:"1427-01-01",t:"1521-08-29",d:"macaristan"},{f:"1688-09-06",t:"1690-09-09",d:"avusturya"},{f:"1717-08-18",t:"1739-09-18",d:"avusturya"},{f:"1878-07-13",t:"1923-10-29",d:"sirbistan"}], d:[{f:"1521-08-29",t:"1688-09-06",y:"kusatma"},{f:"1690-09-09",t:"1717-08-18",y:"savas"},{f:"1739-09-18",t:"1867-04-18",y:"antlasma"}], v:[{f:"1867-04-18",t:"1878-07-13",k:"Sırbistan Prensliği"}] },
-{ ad:"Saraybosna", tur:"sehir", lat:43.856, lon:18.413, g:1, k:2, s:[{f:"1281-01-01",t:"1463-06-01",d:"bosna"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"sirbistan"}], d:[{f:"1463-06-01",t:"1908-10-05",y:"savas"}], isg:[{f:"1878-07-29",t:"1908-10-05",d:"avusturya",kaynak:"berlin-antlasmasi"}] },
+{ ad:"Saraybosna", tur:"sehir", lat:43.856, lon:18.413, g:1, k:2, s:[{f:"1281-01-01",t:"1448-01-01",d:"bosna"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"sirbistan"}], d:[{f:"1448-01-01",t:"1908-10-05",y:"savas"}], isg:[{f:"1878-07-29",t:"1908-10-05",d:"avusturya",kaynak:"berlin-antlasmasi"}] },
 { ad:"Mostar", tur:"sehir", lat:43.343, lon:17.808, g:0, k:3, m:"Saraybosna", s:[{f:"1281-01-01",t:"1483-01-01",d:"bosna"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"sirbistan"}], d:[{f:"1483-01-01",t:"1908-10-05"}], isg:[{f:"1878-07-29",t:"1908-10-05",d:"avusturya",kaynak:"berlin-antlasmasi"}] },
-{ ad:"Banaluka", tur:"kale", lat:44.772, lon:17.191, g:0, k:3, m:"Saraybosna", s:[{f:"1281-01-01",t:"1528-01-01",d:"bosna"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"sirbistan"}], d:[{f:"1528-01-01",t:"1908-10-05"}], isg:[{f:"1878-07-29",t:"1908-10-05",d:"avusturya",kaynak:"berlin-antlasmasi"}] },
+{ ad:"Banaluka", tur:"kale", lat:44.772, lon:17.191, g:0, k:3, m:"Saraybosna", s:[{f:"1281-01-01",t:"1463-06-01",d:"bosna"},{f:"1463-06-01",t:"1528-01-01",d:"macaristan"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"sirbistan"}], d:[{f:"1528-01-01",t:"1908-10-05"}], isg:[{f:"1878-07-29",t:"1908-10-05",d:"avusturya",kaynak:"berlin-antlasmasi"}] },
 { ad:"Bükreş", tur:"sehir", lat:44.427, lon:26.103, g:1, k:2, s:[{f:"1281-01-01",t:"1462-06-01",d:"eflak"},{f:"1878-07-13",t:"1923-10-29",d:"romanya"}], d:[], v:[{f:"1462-06-01",t:"1878-07-13",k:"Eflak Voyvodalığı"}] },
 { ad:"Yaş", tur:"sehir", lat:47.157, lon:27.601, g:0, k:2, s:[{f:"1281-01-01",t:"1456-06-01",d:"bogdan"},{f:"1878-07-13",t:"1923-10-29",d:"romanya"}], d:[], v:[{f:"1456-06-01",t:"1878-07-13",k:"Boğdan Voyvodalığı"}] },
 { ad:"Akkirman", tur:"kale", lat:46.1968, lon:30.3431, g:0, k:3, m:"Silistre", s:[{f:"1281-01-01",t:"1456-06-01",d:"bogdan"},{f:"1812-05-28",t:"1923-10-29",d:"rusya"}], v:[{f:"1456-06-01",t:"1484-08-04",k:"Boğdan Voyvodalığı"}], d:[{f:"1484-08-04",t:"1812-05-28",y:"kusatma"}] },
@@ -947,7 +947,20 @@ window.YERLESIMLER = [
 { ad:"Hoggar", tur:"bolge", lat:24.00, lon:3.00, g:0, k:0, d:[] },
 { ad:"Sahra batısı", tur:"bolge", lat:27.00, lon:-4.00, g:0, k:0, d:[] },
 { ad:"Sirte iç çölü", tur:"bolge", lat:28.50, lon:18.50, g:0, k:0, d:[] },
-{ ad:"Bozkır (Deşt-i Kıpçak)", tur:"bolge", lat:48.50, lon:42.00, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1783-04-08",d:"kirim"},{f:"1783-04-08",t:"1923-10-29",d:"rusya"}] },
+// ⚠️ DEŞT-İ KIPÇAK 1441'DE DEĞİL 1502'DE KIRIM'A GEÇER — 61 yıllık hata düzeltildi.
+// Kullanıcı 1476-02-01'de dört ekran görüntüsü gönderip "bu bölgede Kırım
+// Hanlığı var mıydı, nerede başlayıp nerede bitiyordu" diye sordu; gördüğü üç
+// dev "KIRIM HANLIĞI BOZKIRI" alanının tamamı BU TEK KAYITTAN geliyordu.
+// TDV `altin-orda-hanligi`: "1241-1502 Deştikıpçak'ta hüküm süren". Kırım
+// Hanlığı Altın Orda'dan ayrı ve ondan ÖNCE kurulmuş bir devlettir; bozkırı
+// devralması Büyük Orda'nın yıkılışıyladır.
+// 📌 Ve tarih kronolojide ZATEN yazılı: `1502-03-01 "Altın Orda Hanlığı'nın
+// yıkılışı ve Kırım'ın yükselişi"`. Eski sınır olan 1441'in ise HİÇBİR maddesi
+// yoktu — yani kaynaksız bir tarih, kaynaklı bir maddenin yerini tutuyordu.
+// (Ölçüm: VERİ ORTASYA, TDV'den; slug `kirim-hanligi` ÖLÜ, `altin-orda-hanligi` canlı.)
+// 🟡 1502 SONRASI `kirim` bırakıldı: bozkırın Kırım'da mı Nogay'da mı olduğu
+// kaynakla ayrılamadı, ORTASYA dokunmadı ve haklıydı.
+{ ad:"Bozkır (Deşt-i Kıpçak)", tur:"bolge", lat:48.50, lon:42.00, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1783-04-08",d:"kirim"},{f:"1783-04-08",t:"1923-10-29",d:"rusya"}] },
 { ad:"Kalmuk bozkırı", tur:"bolge", lat:46.50, lon:45.50, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1556-01-01",d:"altinorda"},{f:"1556-01-01",t:"1923-10-29",d:"rusya"}] },
 { ad:"Ural eteği", tur:"bolge", lat:51.00, lon:52.00, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1556-01-01",d:"altinorda"},{f:"1556-01-01",t:"1923-10-29",d:"rusya"}] },
 { ad:"Zagros içi", tur:"bolge", lat:31.50, lon:50.50, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1508-01-01",d:"iran"},{f:"1508-01-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1923-10-29",d:"iran"}] },
@@ -1925,4 +1938,10 @@ window.YERLESIMLER = [
      {f:"1402-09-15",t:"1468-04-01",d:"karaman"}],
   d:[{f:"1397-07-01",t:"1402-07-28",y:"kusatma"},
      {f:"1468-04-01",t:"1923-10-29",y:"kusatma"}] },
+{ ad:"Travnik", tur:"kale", lat:44.226, lon:17.665, g:0, k:3, m:"Saraybosna", s:[{f:"1281-01-01",t:"1463-06-01",d:"bosna"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"sirbistan"}], d:[{f:"1463-06-01",t:"1908-10-05",y:"savas"}], isg:[{f:"1878-07-29",t:"1908-10-05",d:"avusturya",kaynak:"berlin-antlasmasi"}] },
+{ ad:"İzvornik (Zvornik)", tur:"kale", lat:44.386, lon:19.103, g:0, k:3, m:"Saraybosna", s:[{f:"1281-01-01",t:"1460-01-01",d:"bosna"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"sirbistan"}], d:[{f:"1460-01-01",t:"1908-10-05"}], isg:[{f:"1878-07-29",t:"1908-10-05",d:"avusturya",kaynak:"berlin-antlasmasi"}] },
+{ ad:"Foça (Foča)", tur:"sehir", lat:43.506, lon:18.779, g:0, k:3, m:"Saraybosna", s:[{f:"1281-01-01",t:"1465-01-01",d:"bosna"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"sirbistan"}], d:[{f:"1465-01-01",t:"1908-10-05"}], isg:[{f:"1878-07-29",t:"1908-10-05",d:"avusturya",kaynak:"berlin-antlasmasi"}] },
+{ ad:"Livno (İhlevne)", tur:"kale", lat:43.827, lon:17.008, g:0, k:4, m:"Saraybosna", s:[{f:"1281-01-01",t:"1469-01-01",d:"bosna"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"sirbistan"}], d:[{f:"1469-01-01",t:"1908-10-05"}], isg:[{f:"1878-07-29",t:"1908-10-05",d:"avusturya",kaynak:"berlin-antlasmasi"}] },
+{ ad:"Yayça (Jajce)", tur:"kale", lat:44.342, lon:17.271, g:0, k:3, m:"Saraybosna", s:[{f:"1281-01-01",t:"1463-06-01",d:"bosna"},{f:"1463-06-01",t:"1528-01-01",d:"macaristan"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"sirbistan"}], d:[{f:"1528-01-01",t:"1908-10-05"}], isg:[{f:"1878-07-29",t:"1908-10-05",d:"avusturya",kaynak:"berlin-antlasmasi"}] },
+{ ad:"Srebrenik", tur:"kale", lat:44.705, lon:18.489, g:0, k:4, m:"Saraybosna", s:[{f:"1281-01-01",t:"1512-01-01",d:"bosna"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"sirbistan"}], d:[{f:"1512-01-01",t:"1908-10-05"}], isg:[{f:"1878-07-29",t:"1908-10-05",d:"avusturya",kaynak:"berlin-antlasmasi"}] },
 ];
