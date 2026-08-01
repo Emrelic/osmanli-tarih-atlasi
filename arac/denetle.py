@@ -128,7 +128,23 @@ BEKLENEN_ACIK_S = 114
 # Sebep: yeni payda, eski `k:` kümesinde HİÇ OLMAYAN 61 maddeyi de kapsıyor ve
 # onların 16'sının kırılması yok. Yani 63 − 31 (düşen) + 16 (yeni giren) = 48.
 # Ön ölçüme güvenip koşturmasaydım "32" diye raporlayacaktım.
-BEKLENEN_KIRILMASIZ = 48
+#
+# 48 → 49: MEŞRU ÜYE, GERİLEME DEĞİL — ve ayrımı yapan şey ÖNGÖRÜLMÜŞ OLMASI.
+# YAMACI Kızıldeniz paketinde Vâdî Halfâ'yı TDV'ye uyarak 1555 → 1517-04-13'e
+# taşıdı; geriye "1555-01-01 İbrim ve Nübye sınırının güneye taşınması" maddesi
+# KIRILMASIZ kaldı. Madde gerçek bir olayı anlatıyor (Nûbe sınırının güneye
+# kayması) ve hiçbir yerleşim el değiştirmiyor — ölçütün tanımı gereği sayılır.
+#
+# ⚠️ "Tavan gerilemede artmaz" duruşum burada GEÇERSİZ, ve sebebi şu:
+# A3 bunu paketi teslim ederken ÖNCEDEN yazdı — *"kırılmasız madde olur,
+# Değişmez 2t artar"*. Sonradan gerekçelendirilmiş bir artış değil, önceden
+# ilan edilmiş bir yan etki. Ayrımı yapan şey açıklamanın kendisi değil,
+# NE ZAMAN yazıldığı: koşudan önce yazılan tahmin, koşudan sonra yazılan
+# gerekçeden başka bir şeydir.
+#
+# 📌 Ve artışın hangi üyeden geldiğini DEFTER söyledi, tahmin değil:
+#     + YENİ  1555-01-01|İbrim ve Nübye sınırının güneye taşınması
+BEKLENEN_KIRILMASIZ = 49
 # MIMARI.md §3.4 — bilinen borç, tavan bu. 311'den 318'e çıkarıldı: beylik
 # düzeltmesiyle 19 yerleşim eklendi (567 -> 586) ve 11'i bu borcu tetikliyor.
 # Ölçüldü, indirilemez: m alanının zaman boyutu yok, bir yerleşim bütün tarih
@@ -454,6 +470,24 @@ def kirilmasiz_madde(kir_dv, kir_s, O):
             yok.append(o)
     return yok
 
+
+# ---------------- ÖRNEKLEME — A3'ün önerisi ÖLÇÜLDÜ ve UYGULANMADI ---------
+# A3 şunu önerdi: *"örneklemeye devlet ömürlerinin bittiği yıllar eklensin
+# (1517, 1453, 1502…) — hayalet devletler tam oralarda doğuyor."* Gerekçe
+# doğru: hata "kayıt bitiş tarihini güncellemeyi unutmak"tır ve yüzyıl başları
+# (1300 · 1400 · …) 1517-1557 penceresine hiç düşmez.
+#
+# 🔴 AMA ÖLÇTÜM VE ÖNERİ YANLIŞ DENETİME NİŞAN ALIYOR:
+#   · Hayalet devletleri bulan araç `denetle_anakronizm.py` ve o **HİÇ
+#     ÖRNEKLEME YAPMIYOR** — bütün `s:` dönemlerini tarıyor (958 ham taşma) ve
+#     Kızıldeniz vakasını zaten yakalıyor (`memluk` 31/107 dönem).
+#   · Aşağıdaki sayaç ise `m:`/egemen uyuşmazlığını sayıyor; hayalet devlet
+#     ARAMIYOR. Ölüm yılları eklenince sayaç 390 → 12.953'e fırladı (33 kat) —
+#     yeni bir hata sınıfı değil, aynı şeyin 33 kat daha çok örneklenmesi.
+#
+# ⇒ Uygulanmadı. Kazancı sıfır, bedeli sayacın kıyaslanabilirliğini yitirmesi.
+# 📌 Ders: bir örnekleme önerisi, önerinin hedeflediği hatayı hangi aracın
+# aradığı doğrulanmadan uygulanmamalı. Öneri doğruydu, adresi yanlıştı.
 
 # ---------------- 2t DEFTERİ — tavan bir sayı, defter bir küme -------------
 # KOORDİNATÖR onayladı. Gerekçe A ve B defterlerininkiyle birebir aynı:
