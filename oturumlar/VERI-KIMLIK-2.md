@@ -56,7 +56,19 @@ Kilit mekanizması yok; **dosya claim'i** kullanılacak:
 
 ---
 
-## 3. RENK — sende, ama iki kısıtla
+## 3. RENK — 🔴 SENDE DEĞİL, MOTOR'DA (1 Ağustos 18:15 düzeltmesi)
+
+🔴 **KOORDİNATÖRÜN HATASI:** bu bölüm başta *"renk sende"* diyordu ve
+`arac/renkler.py`'ye yazma yetkisi veriyordu. **`CLAUDE.md §7` ihlali** —
+`renkler.py` **MOTOR'un dosyası.**
+⇒ **Bulgu sende, YAZMA MOTOR'da.** Renk gerektiğinde ölçümü yap, öneriyi
+MOTOR'a ilet, uygulamayı o yapar.
+
+⚠️ Ve zaten uygulanamıyor: `renkler.py`'de **ΔE hesaplayan hiçbir fonksiyon
+yok** (ölçüldü: 0). MOTOR `#28 arac/renk_olc.py`'yi açtı — dokuz kalem onu
+bekliyor (`OGRENILENLER §83`).
+
+### Eski metin — kısıtlar hâlâ geçerli, yalnız uygulayan değişti
 
 `arac/renkler.py` → `BOYALAR` sözlüğü.
 ```python
