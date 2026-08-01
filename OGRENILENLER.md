@@ -3109,3 +3109,77 @@ kez** geçiyor — `s:` bitişi *ve* `d:` başlangıcı. `CLAUDE.md §11`'in
 `replace(eski, yeni, 1)` vakası birebir geçerli; tek uç değiştirilirse
 **8 günlük sahipsiz pencere** açılır.
 
+
+---
+
+## §77 — ÖLÇÜT İLE ÖLÇÜLEN AYNI KAYNAKTAN BESLENİYORSA, ÖLÇÜT SIFIR BİLGİ TAŞIR
+
+`Değişmez 2` şunu sorar: *"her sınır kırılmasının bir kronoloji maddesi var mı,
+ve tarihleri ±30 gün içinde uyuşuyor mu?"* Aylardır **AÇIK = 0** veriyor.
+
+Koordinatör *"bu sıfırın bir kısmı ortak varsayımdan geliyor olabilir"* diye
+bir kuşku attı. MOTOR **ölçtü:**
+
+```
+DEĞİŞMEZ 2'NİN SAYDIĞI KIRILMALAR (2.276)
+   gün hassasiyetli   1.633   %71,7
+   ay  (gün=01)         353   %15,5
+   yıl (-01-01)         290   %12,7
+
+YIL HASSASİYETLİ 290 KIRILMAYI "KURTARAN" MADDE NE TAŞIYOR?
+   madde de -01-01  → DAİRESEL        280   %96,6    ← fark SIFIR gün
+   madde gerçek gün taşıyor → sahici    10    %3,4
+```
+
+Örnekler, hepsi **0 gün fark**:
+```
+1301-01-01 ↔ 1301-01-01   Yenişehir (Bursa)
+1304-01-01 ↔ 1304-01-01   Geyve
+1300-01-01 ↔ 1300-01-01   Köprühisar
+```
+
+⇒ Sınır *"yıl biliniyor, gün bilinmiyor"* dediği için 1 Ocak'a çakılmış; madde
+**aynı sebeple** 1 Ocak'a çakılmış; fark sıfır çıkmış; denetim yeşil yanmış.
+
+> **Denetim, verinin doğruluğunu değil, İKİ TARAFIN DA AYNI KONVANSİYONU
+> KULLANDIĞINI doğruluyor.**
+
+MOTOR'un formülasyonu:
+> **Ölçüt ile ölçülen şey aynı kaynaktan besleniyorsa, ölçüt sıfır bilgi taşır.**
+
+⚠️ **Bu bir hata raporu değil** — o 280 kırılmanın maddesi gerçekten var ve
+muhtemelen doğru. İddia daha dar ve daha ciddi: **`Değişmez 2` onları
+doğrulamadı, doğruladığını sandı.** Gerçek doğrulama oranı 2.276'da **1.643
+(%72)**, 2.276'da 2.276 değil.
+
+### Mekanizması — ÇAPRAZ BATI tek vakada gösterdi
+
+**Yanova (Ineu)**, A-3'ün 36 geçişindeki tek yıl hassasiyetlisi:
+```
+d: 1658-08-27 → 1693-01-01     fethi GÜN hassasiyetli
+s: 1693-01-01 → 1923-10-29     kaybı YIL hassasiyetli
+olaylar_ek6.js  AYNI 1693-01-01'i taşıyor
+```
+> *"**Sağlama hatayı bulamıyor çünkü hata iki tarafta da aynı.** Yer tutucu
+> **çift taraflı** konmuşsa senkron denetimi onu asla göremez."*
+
+⇒ Sorun yalnız *"belirsizlik 365 gün ama eşik 30 gün"* değil; **yer tutucunun
+kronolojiye de kopyalanmış olması.**
+
+### Kural
+
+> **Bir denetim kurarken sor: ölçüt ile ölçülen bağımsız mı?** Aynı elden,
+> aynı konvansiyondan, aynı varsayımdan geliyorlarsa **uyuşma bir kanıt
+> değil, bir totolojidir.**
+
+🟢 Çare (MOTOR): tolerans `hassasiyet:`e bağlanacak — **ama tek başına
+yetmez.** Gevşetilirse sayı yine 0 çıkar ve **daha da az şey ölçmüş oluruz.**
+Şart: dairesel eşleşmeler **ayrı sayılsın** —
+```
+"eşleşti (gerçek gün)"  ·  "eşleşti (ikisi de yıl damgası)"
+```
+📌 Aynı hafta **üçüncü kez** aynı biçim: `Değişmez 1`'de *kaynaklı/kaynaksız
+ayrı sayılsın*, `bos:` alanında *sayaç ayrı olsun*, şimdi `Değişmez 2`'de
+*dairesel ayrı sayılsın*. **Bir sayacın iki farklı şeyi tek sayıda toplaması,
+bu projenin en sık kusuru.**
+
