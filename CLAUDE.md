@@ -70,10 +70,12 @@ gerekir. Projenin bütün kalite kuralları (§3) bu tek cümleden türer.
 
 | Katman | Durum |
 |---|---|
-| Osmanlı sınırları 1281-1923 | 🟢 764 yerleşimden gün gün üretiliyor, 433 kırılma |
-| Kronoloji | 🟢 937 madde, tamamı TDV bağlantılı |
-| Harita ↔ kronoloji senkronu | 🟢 433 kırılmanın 433'ü maddeli |
-| Sahipsiz bölge | 🟢 34 nokta, hepsi kasten boş (çöl / devletsiz bölge) |
+| Osmanlı sınırları 1281-1923 | 🟢 **976** yerleşimden gün gün üretiliyor, **484** kırılma |
+| Kronoloji | 🟢 **1009** madde, tamamı TDV bağlantılı |
+| Harita ↔ kronoloji senkronu | 🟡 **484 kırılmanın 483'ü maddeli — 1 AÇIK** (Dubrovnik `1806-05-27`) |
+| Sahipsiz bölge | 🟢 **50** nokta, hepsi kasten boş (çöl / devletsiz bölge) |
+| Yabancı kırılma senkronu (`2s`) | 🔴 596 kırılma, **116 açık** (tavan 114) — bilinen borç |
+| Kırılmasız madde (`2t`) | 🔴 **50** (tavan 49) — `isg:` örtüsü üretilmemiş, `devirler.js` bayat |
 | Yabancı devletler haritada | 🟢 104 devlet kendi renginde (`arac/renkler.py`) |
 | Padişahlar ve portreler | 🟢 41 kayıt, 36/36 portre |
 | Savaş/antlaşma/sefer dizinleri | 🟢 123 + 33 kayıt, 41 sefer güzergâhı |
@@ -83,6 +85,21 @@ gerekir. Projenin bütün kalite kuralları (§3) bu tek cümleden türer.
 | **Görsel doğrulama** | 🟡 Kullanıcı ekran görüntüsüyle yürütüyor (`hatalar N.docx`) |
 | **Dünya kapsamı: yerleşimler** | 🟡 İran 126 · Orta Asya 16 · **Afrika 186 birleşti (951 nokta canlı)**; Avrupa 228 · Asya 344 merge bekliyor |
 | **Dünya kapsamı: harita penceresi** | 🔴 `box(-12, 1.5, 62, 62)` hâlâ dar; §6'daki sıra beklenecek |
+
+🔴 **1 Ağustos 17:15 — bu tablo DÖRT SAYIDA BİRDEN BAYATTI ve bir oturum
+onu ölçüm tabanı olarak kullanmayı REDDETTİ.** NOKTA EKLEME oturumu şunu
+yazdı:
+> *"**'denetle.py temiz' bu partinin kabul ölçütü OLAMAZ**"* — çünkü zemin
+> zaten kırmızıydı (`2` 1 açık · `2s` 116 · `2t` 50) ve tablo `764 · 433 ·
+> 34 · AÇIK 0` diyordu.
+
+⇒ Partiyi **canlıymış gibi ayrıca ölçtüler**: ad çakışması · dönem sağlığı ·
+`Değişmez 1` günlük tam tarama · 3 km en yakın çift · maske testi · renk
+varlığı. **Bayat bir tabloya güvenmek yerine kendi tabanını kurmak** doğru
+davranıştı.
+
+📌 Ve `§5`'teki *"bayat satır bir araştırma oturumunu yanılttı"* dersinin
+**ikinci vakası** — bu sefer oturum yanılmadı, **tabloyu yanlış ilan etti.**
 
 ## 1.6 Kapsam disiplini
 
