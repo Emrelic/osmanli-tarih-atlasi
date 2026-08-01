@@ -2743,3 +2743,45 @@ Gün sayısına çevirince **7 → 0**. Ve yakalanma yolu yine aynı: *listede
 olamayacak üye* — yedi bulgunun yedisinin de üç haneli yıl taşıması tesadüf
 olamazdı.
 
+
+---
+
+## §71 — BİR KURALIN FAYDASI, ÖNLEDİĞİ HATAYLA ÖLÇÜLÜR — VE O HATA GÖRÜNMEZ
+
+`CAPRAZ-GOREV.md §2` (takvim kuralı) **veri gelmeden önce** yazılmıştı ve o gün
+hiçbir şey bulmamıştı. Kural şuydu:
+
+> *Her dış tarih, kaynağın takvimiyle birlikte kaydedilir. Dönüştürme yapılır ama
+> **ham hâli de kalır.***
+
+Aynı gün iki oturum iki ayrı vakaya çarptı:
+```
+ÇAPRAZ KUZEY   Kiev 1667-01-30        ham Jülyen   (Pereyaslav 1654 dönüştürülmüş)
+ÇAPRAZ DOĞU    Türkmençay 1828-02-10  ham Jülyen   (Gülistan 1813 Gregoryen)
+                TDV: "22 Şubat 1828"   fark TAM 12 GÜN
+```
+
+Ve ÇAPRAZ DOĞU kuralın gerçek faydasını yazdı:
+
+> *"O kural olmasaydı bu 12 günü **'TDV yanlış'** diye kaydedecektim. Kural bir şey
+> **BULMADI — yanlış teşhisi ÖNLEDİ.** Bir sahte çelişki önlendi, bir gerçek
+> tutarsızlık bulundu, **ikisi aynı 12 günün içindeydi.**"*
+
+### Kural
+
+> **Bir kuralın değeri, ürettiği bulguyla değil, ÖNLEDİĞİ yanlış teşhisle
+> ölçülür.** Ve önlenen hata **hiçbir yerde görünmez** — çünkü olmadı.
+
+📌 Bunun pratik sonucu ağır: **hiçbir şey bulmayan bir kural, işe yaramaz
+sanılır.** Takvim kuralı yazıldığı gün sıfır bulgu üretti; bugün iki oturumu
+yanlış bir sonuca varmaktan alıkoydu. Kuralı *"bir şey bulmadı"* diye kaldıran
+biri, kaldırdığının ne olduğunu **asla** öğrenemezdi.
+
+🟢 Somut çare: **önlenen hatayı yazmak.** ÇAPRAZ DOĞU *"TDV yanlış diye
+kaydedecektim"* cümlesini yazdığı için, kuralın bir faydası **ölçülebilir hâle
+geldi.** Yazmasaydı kural yine işe yarardı ama kimse bilmezdi.
+
+⚠️ Ve `§67` ile birlikte okunmalı: orada **etkisi olmayan bir kusur** zararsız
+sanılıyordu; burada **bulgusu olmayan bir kural** gereksiz sanılıyor. İkisi de
+aynı yanılgının iki ucu — **görünmeyen şeyin olmadığı varsayımı.**
+
