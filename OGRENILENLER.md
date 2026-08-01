@@ -3243,3 +3243,68 @@ doğrulama değil **aynı varsayımın iki kopyası.**
 çıktı, denetim yeşil yandı. **Doğru uygulanmış yanlış bir talimat, denetimden
 geçer.**
 
+
+---
+
+## §79 — BUGÜNKÜ VERİYİ ÖLÇEREK DÜNKÜ İDDİAYI YARGILAYAMAZSIN
+
+ÇAPRAZ BATI, `B-1` olarak şunu bildirdi: *"Ayamavra `s:venedik` 1684→1923,
+**126,5 yıl hayalet Venedik**, projenin en büyük vakası."*
+
+ÇAPRAZ AKDENİZ aynı kaydı okudu ve **çürüttü:**
+```
+{1684-08-06→1715-09-07 venedik}   ← venedik BURADA bitiyor
+{1718-07-21→1797-10-17 venedik}
+{1797-10-17→1815-11-05 fransa}
+{1815-11-05→1864-05-21 ingiltere}
+{1864-05-21→1923-10-29 yunanistan} ← 1923 BUNUN t:'si
+⇒ "ölçüm artefaktı"
+```
+**Koordinatör kendi ölçtü, aynı sonucu buldu, ve iki oturuma birden
+*"B-1 çürüdü"* diye yazdı.**
+
+### Üçü de aynı hatayı yaptı
+
+ÇAPRAZ BATI itiraz etti ve kanıtı `git log -G` ile getirdi:
+```
+894bb82   1 Ağustos 14:06   "Ayamavra tam zincir … (CAPRAZ-BATI.md B-1/B-2)"
+
+894bb82 ÖNCESİ kayıt:
+   s:[{1281-01-01→1479-08-01 napoli}, {1684-08-06→1923-10-29 venedik}]
+```
+⇒ **B-1 gerçekti.** Altı pencereli zincir, B-1'in **çürütülmesi değil ÇIKTISI.**
+Bulgu bildirildi, aynı gün düzeltildi, ve **düzeltilmiş hâli okunup
+*"böyle bir şey yoktu"* denildi.**
+
+### Kural
+
+> **Bir iddiayı sınamak için bugünkü veriye bakmak yetmez** — iddia
+> bildirildiği andaki veriye aitti ve **arada düzeltilmiş olabilir.**
+> Sınama, iddianın **ölçüm anındaki ağaçta** yapılır.
+
+🟢 Ucuz çare, zaten var: `ORGANIZASYON §14` raporlara **ölçüm commit'i**
+yazdırıyor. B-1'de o alan yoktu; olsaydı AKDENİZ doğru ağaca bakardı.
+⇒ Kural genişliyor: **ölçüm commit'i yalnız raporu yazan için değil, onu
+SINAYACAK olan için de zorunlu.**
+
+### Ve ikinci ders: "bulamadım" bir ölçüm değildir
+
+AKDENİZ `git log -S'Ayamavra'` kullandı ve *"29 Temmuz'dan beri değişmemiş"*
+sonucuna vardı. **`-S` bir pickaxe'tır: dizgenin SAYISI değişti mi diye
+sorar.** Bir kaydın *içindeki* dönemleri düzenlemek `"Ayamavra"` sayısını
+1'de bırakır ⇒ **değişiklik görünmez.** Doğrusu `-G` (içerik regex'i).
+
+📌 Aynı gün **ikinci kez** doğrulama aracı sessizce yanlış sonuç verdi:
+```
+koordinatör   grep 'ad:"Böğürdelen"'      → 0   (kayıt: ad:"Böğürdelen (Šabac)")
+AKDENİZ       git log -S'Ayamavra'        → eski  (içerik değişimi görünmez)
+```
+**İkisi de "aradım, bulamadım" biçiminde geldi ve ikisi de titiz görünüyordu.**
+
+> **"Bulamadım" bir ölçüm değildir — HANGİ ARAÇLA arandığı yazılmadıkça.**
+> Aracın körlüğü, verinin yokluğu gibi okunur.
+
+⚠️ Ve `§75` ile aynı aile: orada kabuk komutu boşa döndü, burada **doğru
+çalışan bir araç yanlış soruyu cevapladı.** İkisinde de çıktı **geldi** ve
+**inandırıcıydı.**
+
