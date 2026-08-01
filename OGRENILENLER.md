@@ -2262,3 +2262,40 @@ kendi icat ettiğim kontrolü aynı anda atladım.
 görünür** olmuyor — tersine, "ben zaten biliyorum" diye **daha az** kontrol
 ediliyor.
 
+
+---
+
+## §61 — DÜZELTME TURUNDA AYNI KÖR NOKTAYA İKİNCİ KEZ BASILIYOR
+
+1 Ağustos'ta **üç oturum, birbirinden bağımsız olarak, aynı şeyi yaşadı.**
+
+| kim | ilk hata | DÜZELTİRKEN yapılan ikinci hata |
+|---|---|---|
+| DENETÇİ | mükerrer belirteci kelimeleri **sabit 6 harfe** kırpıyordu (`katli` ↔ `katled`, ortak kök `katl` kayboluyor) | düzeltmeyi `min(len)` ile kurdu — vaka **yine kaçtı**; ölçüt *ortak önek uzunluğu* olmalıydı |
+| ARAŞTIRMA ARABİSTAN | `dis-savas` ölçütünü **iki sonuçlu** yazdı | üçüncü sınıfı (*Osmanlı hiçbir tarafta değil*) kaçırdı; Diu 1509'u "tek tuhaf kayıt" sandı, **kategoriymiş** |
+| KOORDİNATÖR | bir commit başkasının yarım işini yuttu (§60) | çareyi **kilit** diye istedi — oysa sorun **commit sınırındaydı**, üretimde değil; MOTOR *"çözülmüş bir sorunu ikinci kez çözüyoruz"* diye düzeltti |
+
+Üçü de aynı biçimde: **hata bulundu → çare üretildi → çare aynı kategoride
+ikinci bir sorgulanmamış varsayım taşıyordu.**
+
+📌 **Sebebi:** düzeltme turunda dikkat *hatanın kendisine* kilitleniyor. O an
+"nasıl düzeltirim" sorusu, "düzeltmem doğru yere mi bakıyor" sorusunu bastırıyor
+— ve ikincisi tam da ilk hatayı doğuran soru.
+
+⚠️ Ve bu, sıradan bir dikkatsizlik değil: üçünde de düzeltmeyi yapan kişi
+**konunun en iyi bilen kişisiydi.** Bilgi, bu kör noktayı kapatmıyor; belki
+açıyor — "ben zaten biliyorum" refleksi (§60'ta da çıkmıştı).
+
+### Kural
+
+> **Düzeltmenin kendisi de bir öneri gibi ölçülür. "Düzelttim" bir sınav
+> değildir.**
+
+Somut hâli, bu projede zaten kurulmuş olan araçla: **her düzeltme iki uçlu
+sınanır** (§42). DENETÇİ'nin vakası tam bunu gösteriyor — üst uç *"katli/katledilmesi
+artık eşleşiyor"* dese bile, **alt uç yoktu**: "aynı sınıftan başka vakalar da
+yakalanıyor mu?" Sorulsaydı `min(len)`in yetmediği ilk denemede görülürdü.
+
+📌 Ve düzeltmeyi **başkasının** ölçmesi en ucuz çare: bugün üç vakanın üçünde de
+kusuru **düzelten değil, üçüncü bir taraf** buldu.
+
