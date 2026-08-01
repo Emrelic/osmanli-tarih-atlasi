@@ -691,6 +691,29 @@ Aynı biçim `Kuban (Yekaterinodar)` · `Bozkır (Deşt-i Kıpçak)` ·
 > `§15`'in tersi olur: **var olanı yok sanmak**, ve bu daha sinsidir çünkü
 > *"aradım, bulamadım"* titiz bir cümle gibi görünür.
 
+🔴 **AMA ÖTEKİ UÇ DA VAR — ÇAPRAZ AKDENİZ aynı gün ölçtü.** Çıplak alt dizge
+kullandılar ve **dört sahte "VAR"** üretti:
+```
+"Herceg Novi"     → "Çernovitz (Çernivtsi)"    ("Novi" eşleşti)
+"Bar (Antivari)"  → "Bar (Podolya)"            başka bir Bar
+"Zadar (Zara)"    → "Hazârasp"                 ("zara" eşleşti)
+"Lefke"           → "Lefke (Osmaneli)"         Anadolu'da, Kıbrıs'ta değil
+```
+**Dördü de "kayıt VAR" diye raporlandı, gerçekte YOKTU** — ve yalnız
+**koordinat kontrolüyle** yakalandılar.
+
+> **Tam eşleşme çok DAR, çıplak alt dizge çok GENİŞ. İkisi de yanlış cevap
+> verir, TERS yönlerde.**
+> ```
+> tam eşleşme      → var olanı YOK sanmak      (Rab → Rabat kaçtı)
+> çıplak alt dizge → olmayanı VAR sanmak       (Zadar → Hazârasp)
+> DOĞRUSU          → alt dizge + KOORDİNAT DOĞRULAMASI
+> ```
+
+📌 Ve iki yanılgı **aynı gün, iki ayrı oturumda, ters yönlerde** çıktı. Ortak
+noktaları: **ikisi de bir ölçüm sonucu gibi raporlandı**, ikisinde de arama
+biçimi yazılmamıştı.
+
 ⚠️ Ve koordinatör için ek yük: `§12` *"doğrulamadığın sayıyı şarta çevirme"*
 diyordu; bu madde onu genişletiyor — **doğrulamadığın bir VARLIĞI da şarta
 çevirme.** Bu vakada koordinatör *"ben doğrulamadım"* diye yazmıştı ama yine de
