@@ -177,3 +177,61 @@ satır aşağıdaki yorum hâlâ "%30" diyor. **Bir sonraki ölçen kişi yanlı
 sabitle türetir.** Sayıları ben düzeltmiyorum (ölçmedim, uyduramam); yalnız
 işaret ediyorum.
 
+---
+
+## 📊 KUYRUK SINIFLANDIRMASI — ölçüm (koordinatör isteği)
+
+Soru: *"kuyruk göründüğünden ucuz mu?"* Ölçüt, koordinatörün verdiği üç soru:
+```
+① devletler.js'te kayıt VAR mı   ② bağlanacak renk anahtarı VAR mı
+③ harita: DOLU mu
+```
+②'de **bitişik hanedan** ölçütü uygulandı (kaydın bitiş günü = başka bir
+kaydın başlangıç günü, ve o kaydın `harita:`sı dolu) — bugün
+`sirbistan-nemanjic` ve `merini`'yi kurtaran kural.
+
+**🔴 CEVAP: HAYIR — kuyruk ucuz değil. Bugünkü iki kalem istisnaydı.**
+
+| sınıf | sayı | kalemler |
+|---|---|---|
+| **ZATEN BAĞLI** | 1 | `afsar` → `harita:"iran"` (⚠️ aşağıya bak) |
+| **TEK SATIR** | 1 | `nogay` — kendi anahtarı var (`#f9a825`) |
+| **RENK GEREKLİ** | 9 | `astarhan` · `arnavutluk-bagimsiz` · `zend` · `hersek` · `zeta` · `bahreyn` · `navarra` · `aragon` · `kastilya` |
+| **ARAŞTIRMA** (kayıt yok) | 5 | `dehlek` · `kafkas-hanliklari` · `buyuk-orda` · `idrisi` · `suriye-arap-kralligi` |
+
+### ⚠️ Ölçüm aracımdaki açığı da ölçtüm
+İlk geçiş `aragon` ve `kastilya`yı **ayrı ayrı** "tek satır" saydı: ikisi de
+`ispanya`'nın başladığı gün bitiyor, ikisi de aday olarak `ispanya` anahtarını
+alıyor ve **mevcut** `ispanya` kaydıyla çakışmıyorlar. Açık şurada: araç
+adayları **birbirine** karşı sınamıyordu.
+```
+aragon    1164-01-01 → 1479-01-20
+kastilya  1230-09-23 → 1479-01-20     249 yıl YAN YANA
+```
+İkisine de `ispanya` verilseydi **eşzamanlı iki komşu aynı rengi** paylaşırdı —
+`renkler.py`'nin tek yasak dediği şey. İkinci geçiş eklendi, ikisi de
+**RENK GEREKLİ**'ye düştü. Elle vardığım sonuçla artık örtüşüyor.
+📌 Ders: "tek satır" ölçütü kalem başına uygulanamaz; **kuyruğun tamamına
+birlikte** uygulanmalı.
+
+### ⚠️ `afsar` boş değil ama DOĞRU da olmayabilir
+`afsar` `harita:"iran"` taşıyor — yani kuyrukta "renk bekliyor" diye durması
+yanlış. **Ama** kullanıcının bağlayıcı kararı şuydu: *"`afsar`/`zend`, `safevi`
+ile **aynı renk ailesi, farklı parlaklık**."* `iran` anahtarı bunu karşılıyor
+mu, ölçmedim — `zend` ise hâlâ boş ve adayı yok. **İkisi bir arada
+değerlendirilmeli**; "afsar bitti" demiyorum, "boş değil" diyorum.
+
+### ⇒ YARIN İÇİN NE DEMEK
+```
+1 kalem   bugünkü hızda kapanır          (nogay)
+9 kalem   ÖLÇÜM ARACI olmadan kapanmaz   ← gerçek darboğaz
+5 kalem   kaynak oturumlardan tanım bekliyor
+```
+🔴 **Darboğaz kimlik oturumunun hızı değil, renk ölçüm aracının yokluğu.**
+İkinci oturum açmak dokuz kalemin hiçbirini açmaz; **ölçüm aracını yazmak
+dokuzunu birden açar.** Yarının en yüksek getirili işi bu.
+
+📌 Ölçüm betiği geçici (scratchpad), projeye eklemedim — koordinatör *"yeni
+kalem açma, ölçüm yeter"* dedi. Kalıcı araç olarak istenirse `arac/`'a
+taşınabilir; ΔE/komşuluk ölçen asıl araç ise ayrı ve daha büyük bir iş.
+
