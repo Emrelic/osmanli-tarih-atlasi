@@ -35,7 +35,7 @@ Hepsi `Ctrl+F5` sonrası:
 | # | karar | neden sende | durum |
 |---|---|---|---|
 | K1 | **Amerika / Batı Afrika / Avustralya için KAYNAK BARI** | TDV oraları kapsamıyor. Karar verilmeden iş verilirse ilk paket **kaynaksız** gelir. Seçenekler: (a) bölge başına standart akademik kaynak, künyeye yazılarak · (b) o bölgeleri "atlas" değil "arka plan" olarak tutmak | ⏳ |
-| K2 | **DENETÇİ ve A5'e `/compact`** | Komutu ben gönderemiyorum — metin olarak algılanıyor (denendi). İkisi de bağlamının dolduğunu bildirdi, ikisi de açık listesini yazdı | ⏳ |
+| K2 | **`DENETÇİ` ve `ARAŞTIRMA ARABİSTAN` oturumlarına `/compact`** | Komutu ben gönderemiyorum — metin olarak algılanıyor (denendi). İkisi de bağlamının dolduğunu bildirdi, ikisi de açık listesini yazdı | ⏳ |
 | K3 | **Hindistan oturumu açılacak mı** | Görev tanımı dar olmalı: *"Hindistan'ı ekle"* değil. Ama önce pencere (`BOLGE`) açılmalı, yoksa yazılan görünmez | ⏳ |
 
 ---

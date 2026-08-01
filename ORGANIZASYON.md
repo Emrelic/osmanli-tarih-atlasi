@@ -379,9 +379,39 @@ Yönlendirmeden önce buraya bak.
 | `VERİ DEVLET` | Oturum 3 | `data/devletler.js` |
 | `VERİ KİMLİK` | palet / kimlik | `arac/renkler.py` |
 | `UI ELEMENT INSPECTOR` | proje DIŞI araç | ayrı depo |
+| `MOTOR` | petek üretimi, geometri, tavanlar | `arac/uret_petek.py`, `uret_devirler.py` |
+| `DENETÇİ` | değişmezler ve denetim araçları | `arac/denetle*.py` |
+| `TAKİPÇİ` | kontrol/kanıt defteri | `KONTROL.md`, `arac/kontrol_dogrula.py` |
+| `YAMACI` | paket uygulama (başkasının önerisini veriye işler) | `data/yerlesimler*.js` |
+| `KAYNAK` | kaynak denetimi | `oturumlar/KAYNAK-DENETIMI.md` |
+| `ARAŞTIRMA ARABİSTAN` | **kendini "A5" diye imzalar** — Arabistan/Hicaz/Yemen/Sudan | `oturumlar/ARABISTAN-DUZELTMELER.md` |
+| `ARAŞTIRMA ANADOLU` | Anadolu beylikleri, Karaman, Doğu Anadolu | rapor dosyası |
+| `ARAŞTIRMA DOĞU` | İran doğusu, Afganistan, Sind, Doğu Türkistan | rapor dosyası |
+| `ARAŞTIRMA ARAP AFRİKA` | Kuzey Afrika ocaklıkları | rapor dosyası |
+| `VERİ ORTASYA` | Hârizm, Hîve, Kazak bozkırı, **Kırım/Deşt-i Kıpçak** | `data/yerlesimler_ortaasya2.js` |
+| `VERİ KİŞİ` | kişi dizini | `data/kisiler.js` |
+| `VERİ SAVAŞ` | sefer/savaş verisi, `tur:"deniz"` etiketleri | `data/savaslar.js` |
+| `ÖLÇÜM GEOMETRİ` | ölçüm oturumu (iki nüsha var) | — |
 
 📌 Yeni oturum açılınca **satırı buraya ekle.** Tablo eksikse yönlendirme yine
 başlığa düşer ve hata tekrarlanır.
+
+### 🔴 EK KURAL — kullanıcıya yazarken KOD ADI kullanılmaz
+
+1 Ağustos: koordinatör kullanıcıya *"DENETÇİ ve A5'e `/compact`"* yazdı.
+Kullanıcı **A5'i bulamadı** — çünkü o ad hiçbir yerde görünmüyor; oturumun
+listedeki başlığı `ARAŞTIRMA ARABİSTAN`. Kod ad oturumun **kendi imzası**.
+
+⚠️ Ve o sırada bu tablo **21 oturumun yalnız 8'ini** taşıyordu, yani §9'un
+kendi bakım kuralı işletilmemişti. Kural yazmak yetmiyor; **tabloyu güncel
+tutmak da bir iş** ve sahibi koordinatör.
+
+⇒ İki yönlü kural:
+- **Oturumlar arası** yazışmada kod ad serbest (oturum kendini öyle tanıyor)
+- **Kullanıcıya** yazarken **yalnız listedeki başlık** kullanılır
+
+📌 Bu, §9'un asıl dersinin kullanıcı tarafı: *"aynı şeyin iki adı varsa,
+karşındakinin gördüğü adı kullan."*
 
 📌 Ve doğru davranışın örneği kayda geçsin: U4, iş **dosya sahipliğini
 bozmadığı hâlde** (metni ilerleme dosyasına yazacaktı) *"iş TÜRÜ benim işimin
