@@ -207,6 +207,39 @@ bunlar aynı sorunun cevapları mı?**
 ⚠️ Kademe **SIRASI** karar verebilir: Ç2'de ①→1335, ②→1353 çıkıyor. Sıra
 yukarıdaki gibidir, değiştirilmez.
 
+### 3.2 🟢 ADLANDIRILMIŞ OLAY TARİHİ KİLİTLER — ÇAPRAZ AKDENİZ, 1 Ağustos
+
+TDV `dalmacya` kendi içinde **60 yıl** yanlış:
+> *"Venedik hâkimiyeti **1737**'ye kadar sürdü. Bu tarihte Venedik **Campo
+> Formio Antlaşması**'yla Avusturya'ya bırakılınca…"*
+
+**Campo Formio 17 Ekim 1797'dir.** Cümle kendini yalanlıyor — ve aynı madde
+başka yerde *"1699 Karlofça ve ardından 1718 Pasarofça"* diyerek Venedik
+hâkimiyetinin 1718'den sonra da sürdüğünü **kendi içinde** doğruluyor.
+
+> **KURAL: Bir tarih çelişkisi ADLANDIRILMIŞ bir olaya (antlaşma · savaş ·
+> sefer) bağlıysa, AD TARİHİ KİLİTLER** — ve çelişki `SEBEBİ BELİRSİZ`
+> kalmaz, `§3.1 ①` (BELGE > ÖZET) ile çözülür. **Özel isim yoruma açık
+> değildir.**
+
+📌 Aynı gün üç TDV-içi çelişki çıktı ve **yalnız bu çözüldü:**
+```
+B-6  "21 Mart" ⟷ "3 Nisan 1800"       SEBEBİ BELİRSİZ  (Jülyen şüphesi, teşhis değil)
+G-3  "Temmuz 1920" ⟷ "14 Temmuz"      §74 — ayrı sorular olabilir
+H-1  "1737" ⟷ "Campo Formio"          ÇÖZÜLDÜ         ← ad kilitledi
+```
+⇒ Takvim farkı ve olay çokluğu **yoruma açık**; adlandırılmış olay **değil.**
+
+⚠️ Ve `CLAUDE.md §4`'ün *"çelişirse TDV esastır"* kuralı **burada işletilemez**
+— çelişki bizimle değil, **TDV'nin kendisiyle.** Bizim verimiz doğruydu
+(on Dalmaçya adasının onunda da `s:venedik → 1797-10-17`).
+
+📌 **Ve yakalanış biçimi ayrıca öğretici:** ilk çekiş bunu **özet** olarak
+verdi, oturum `§4①` gereği güvenmedi, ikinci çekişte **verbatim** istedi —
+cümle aynen çıktı.
+> *"Özetleyici hata yapmamış, hata **maddenin kendisindeymiş.** `§4①` burada
+> beklenmedik bir iş gördü: özetleyiciyi değil **KAYNAĞI** doğruladı."*
+
 ---
 
 ## 4. 🔴 BUGÜN ÖĞRENİLEN VE SİZE GEÇEN ALTI KURAL
