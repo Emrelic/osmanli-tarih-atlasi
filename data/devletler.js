@@ -493,6 +493,20 @@ window.DEVLETLER = [
 
 // ===================== TIER 4 — BALKAN DEVLET/PRENSLİKLERİ =====================
 
+{ id:"sirbistan-nemanjic", ad:"Sırbistan Krallığı (Nemanjić Hanedanı)", tur:"krallik", bolge:"balkanlar",
+  f:"1217-01-01", t:"1402-01-01", baskent:"Ras → Skopje → Serez (Duşan döneminde)",
+  ozet:"Stefan Nemanja'nın kurduğu hanedanın krallığa, Stefan Duşan döneminde kısa süreliğine imparatorluğa dönüştüğü ortaçağ Sırp devleti; Duşan'ın ölümüyle parçalandı, Osmanlı karşısındaki yenilgilerle (Çirmen, Kosova) vasallığa düştü. Devam: bkz. [[sirp-despotlugu]]. Henüz renk/harita karşılığı yok (kaynak: TDV, madde: sirbistan).",
+  kronoloji:[
+    { t:"1217-01-01", tur:"kurulus", b:"Stefan Prvovenčani (İlk Taçlı) Sırbistan Krallığı'nı ilan etti" },
+    { t:"1331-01-01", tur:"hukumdar", b:"Stefan Duşan tahta çıktı" },
+    { t:"1345-01-01", tur:"hukumdar", b:"Duşan kendini Sırpların ve Rumların çarı ilan etti" },
+    { t:"1346-04-16", tur:"hukumdar", b:"Üsküp'te resmî imparatorluk tacı giydi, başkenti Serez'e taşıdı" },
+    { t:"1355-12-20", tur:"bolunme", b:"Duşan'ın ani ölümüyle imparatorluk parçalanmaya başladı" },
+    { t:"1371-09-26", tur:"savas", b:"Çirmen (Meriç) Savaşı'nda ağır yenilgi" },
+    { t:"1389-06-15", tur:"savas", b:"I. Kosova Savaşı sonrası Osmanlı'ya haraca bağlandı" },
+    { t:"1402-01-01", tur:"son", b:"Stefan Lazarević'in despot unvanını almasıyla Sırp Despotluğu'na dönüştü" }
+  ]
+},
 { id:"sirp-despotlugu", ad:"Sırp Despotluğu", tur:"prenslik", bolge:"balkanlar",
   f:"1402-01-01", t:"1459-06-20", baskent:"Belgrad → Smederevo", harita:"sirbistan",
   ozet:"Osmanlı vasalı olarak kurulan, sonunda ilhak edilen son bağımsız Sırp devleti.",
