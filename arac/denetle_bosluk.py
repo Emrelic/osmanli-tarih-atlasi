@@ -251,6 +251,25 @@ def sinifla(geom, Y, sahipsiz_adlar, gun=None, boyali_kimlikler=None):
     kasitli = [y["ad"] for y in icinde if y["ad"] in sahipsiz_adlar]
     if kasitli:
         return "KASITLI SAHİPSİZ", kasitli[0]
+    # ═══ `kasitli_bosluk` — VERİLMİŞ KARAR, ENVANTERDE AÇIK İŞ GİBİ GÖRÜNÜYORDU
+    # BALKAN buldu: girdide `kasitli_bosluk:true` alanı var ve bu araç onu
+    # OKUMUYORDU. Sonuç: verilmiş bir karar, envanterde "sebebi bilinmiyor"
+    # diye görünüyordu. İki taraf da doğru çalışıyor, aralarında bağ yok —
+    # bugün aradığım "bulgu üretiliyor ama akmıyor" sınıfının kardeşi:
+    # **karar veriliyor ama okunmuyor.**
+    #
+    # ⚠️ AMA HEPSİNİ SUSTURMUYORUM. Ölçtüm: `kasitli_bosluk:true` taşıyan BEŞ
+    # kaydın **hiçbirinde `neden:` YOK** (Vladikavkaz · Kuveyt · Doha · Abu Dabi
+    # · Cetinje). Hepsini "kabul edilmiş" saymak, gerekçesiz beş kararı
+    # görünmez yapardı — kullanıcının istediği tam tersi: *"boş bıraksın VE
+    # SEBEBİNİ KAYDETSİN."*
+    # ⇒ Gerekçesi olan susar, olmayan AYRI SINIFTA görünür.
+    for y in icinde:
+        if y.get("kasitli_bosluk"):
+            neden = y.get("neden") or y.get("bos_neden")
+            if neden:
+                return "KASITLI (gerekçeli)", "%s: %s" % (y["ad"], neden[:40])
+            return "KASITLI (GEREKÇESİZ)", y["ad"]
     # BOYANMAMIŞ: sahibi YAZILI ama o kimlik haritada boyanmıyor. Bu sınıf
     # belgede vardı, KODDA YOKTU — Yeni Ürgenç 1500'de `timurlu` elinde olduğu
     # hâlde ARAŞTIRMA'ya düşüyordu, yani araştırılacak diye insana havale
