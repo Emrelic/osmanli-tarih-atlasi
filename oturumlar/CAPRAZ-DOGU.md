@@ -1347,3 +1347,139 @@ hemen uygulandı ve hayalet taraf değiştirdi.
 3. `sevakin` ve `ibrim` müstakil madde YOK (içerik `habes-eyaleti` ve `nube`'de)
 4. Önceki turlardan: 6 Kafkasya noktası · fetretin İran geri kalanı · B4/B5 ·
    Ç2, Ç5, Ç6 · `marasi`
+
+---
+---
+
+# TESLİM 7 — Ölçüt sınandı (yedi çelişkiye birden) + Fransa'ya ilk bakış
+
+---
+
+## 46. Ç7 ÖLÇÜT SINAMASI — tek vakada "tuttu" demek bir şey söylemez
+
+Koordinatör üç kademeli ölçüt verdi ve *"sen sına, tutmazsa ölçüt yanlıştır"*
+dedi. **Tek vakada sınamadım** — o vaka ölçütü seçemez, yalnız onaylar.
+Kayıtlı **yedi çelişkinin hepsine** uyguladım.
+
+| vaka | ① BELGE>ÖZET | ② ÖZEL>GENEL | |
+|---|---|---|---|
+| Ç1 Nâdir Şah ölümü | `nadir-sah--iran` | `nadir-sah--iran` | aynı |
+| **Ç2 İlhanlı sonu** | **`iran` (1335)** | **`ilhanlilar` (1353)** | 🔴 **AYRI** |
+| Ç3 Serbedârî kuruluş | `serbedariler` | `serbedariler` | aynı |
+| Ç4 Şirvan sonu | — aynı madde — | — aynı madde — | uygulanamaz |
+| Ç5 Isfahan | — tek kaynak — | — tek kaynak — | uygulanamaz |
+| **Ç6 Horasan Afşar sonu** | ikisi de olay | **`avsarlilar` (1804)** | 🔴 **AYRI** |
+| **Ç7 Sudan kıyısı** | **`habes-eyaleti`** | **`habes-eyaleti`** | **aynı** |
+
+```
+uygulanabilir 5 · iki kademe aynı yön 3 · AYRI yön 2
+```
+
+### ✅ Ç7: ölçüt AYIRT ETTİ — `habes-eyaleti` kazanıyor
+
+①: *"Sevâkin sancağı **10 Nisan 1554**'te kuruldu"* ve *"eyalet **5 Temmuz
+1555**"* — tarihli, failli (Özdemir Paşa), tekil **tayin/tesis kayıtları**.
+`bece`'nin *"1517'de Osmanlılar bölgeye hâkim oldular"*ı fail ve olay taşımayan
+bir dönem cümlesi. **Belge kazanır.**
+②: `habes-eyaleti`'nin konusu **o kıyının idaresi**, `bece`'nin konusu bir
+**kavim**. Yer ↔ kavim ekseninde ② de ayırt ediyor.
+
+⇒ Teslim 6'da *"kural iki yöne işaret ediyor"* demiştim; **senin ② formülasyonun
+(`konusu O YER olan`) o belirsizliği kapatıyor.** Ç7 çözüldü:
+**Sevâkin/Akīk bulgusu 🟡 ÇELİŞKİLİ → 🟢 KESİN'e döner.**
+⚠️ Ama etiketi yükseltme kararı sende — ben ölçütü uyguladım, hükmü sen ver.
+
+### 🔴 AMA ÖLÇÜT İKİ YERDE ÇATLADI — ve çatlaklar aynı cinsten
+
+**Ç2 — kademe SIRASI burada karar veriyor, dekoratif değil.**
+`iran` maddesi tarihli-failli olaylar veriyor (Ebû Said'in vefatı 736/1335,
+Melik Eşref'in ölümü 758/1357); `ilhanlilar` bir **kurum ömrü etiketi** veriyor
+(1256-1353). ① → 1335, ② → 1353.
+🟢 **①'i önce uygulamak bizim mevcut verimizi doğruluyor** (`1335-12-01`, 164
+pencere). Yani sıralaman boşuna değil: **Ç2'de sonucu belirliyor.**
+
+**Ç6 — ölçüt burada YANLIŞ cevabı veriyor.**
+② `avsarlilar`'ı (**Şubat 1804**) seçer. Ama onaylanmış cevap **1796** ve
+gerekçesi ölçütte hiç yok: *"harita **hâkimiyet** boyuyor, **iddia** değil."*
+
+### 📌 Ve iki çatlağın ortak tanısı — ölçüte KADEME ⓪ öneriyorum
+
+Ç6 ve Ç4 aslında **kaynak çelişkisi değil.** İki madde farklı **soruya** cevap
+veriyor:
+```
+Ç6  1796 = hâkimiyetin sonu      1804 = iddianın sonu       → farklı SORU
+Ç4  1500 = Ferruh Yesâr'ın ölümü  1538 = ilhak  1607 = kesin son
+    üçü de AYNI maddede — çünkü üç ayrı soru               → farklı SORU
+```
+Ölçüt *"hangi kaynak daha güvenilir"* diye soruyor ve bu ikisinde **kaynakların
+ikisi de doğru.** Güvenilirlik sıralaması burada kendinden emin bir **yanlış**
+cevap üretiyor (Ç6 → 1804).
+
+```
+KADEME ⓪ — önce sor: iki madde AYNI soruya mı cevap veriyor?
+   Hayırsa çelişki yoktur; haritanın sorduğu soru hangisiyse O alınır.
+   (Bu atlasın sorduğu soru: "o gün orada fiilen kim hâkimdi?")
+   Ancak aynı soruysa ①②③'e geç.
+```
+⇒ Bu uygulanınca: Ç6 → **1796** ✓ (onaylanmış cevap), Ç4 → **1538** ✓
+(ilhak, hâkimiyet sorusu), Ç7 → ⓪'ı geçer (ikisi de *"ne zaman aldı"* diyor),
+①②'ye iner, **`habes-eyaleti`** ✓.
+
+📌 **Ölçütün kendi sınavı:** yedi vakanın ikisinde yanlış cevap veriyordu ve
+ikisi de aynı sebepten. Kademe ⓪ olmadan ölçüt, **çelişki olmayan yerde çelişki
+görüp** taraf seçiyor.
+
+---
+
+## 47. FRANSA — ilk bakış, ve bir uyarı
+
+⚠️ **Kapsam notu:** `CAPRAZ-GOREV §1`'de Fransa **ÇAPRAZ BATI**'da listeli.
+Koordinatör bana verdi; §1'in *"kasıtlı örtüşme"* kuralına giriyorsa sorun yok
+ama **ikimizin aynı işi iki kez yapmaması** için koordinatöre bildirdim.
+
+### Anatomi
+
+```
+90 pencere / 90 nokta / 29 ayrık (f,t) çifti
+```
+Ve veri büyük ölçüde **iyi**: Cezayir fethi şehir şehir gün gün
+(1830-07-05 Cezayir · 1831-01-04 Oran · 1832-03-01 Annaba · 1833-09-29 Bicâye ·
+1837-10-13 Konstantin · 1843-06-12 Sîdî Bel Abbès · 1852-12-04 Ağvât),
+Tunus 1881-05-12 (Bardo), Suriye-Lübnan 1918 Ekim'i gün gün, İyon adaları
+1797-1815, Malta 1798-1800, Cenova 1797-1815, Korsika 1768-05-15.
+
+### 🔴 AMA BİR TORBA VAR — ve tam da çekirdek Fransa'da
+
+```
+1281-01-01 → 1923-10-29   (4 nokta)   Paris · Lyon · Marsilya · Bordo
+```
+**642 yıl, tek pencere.** `iran` torbasının aynısı, bu kez Fransa'nın kendisinde.
+
+### 🟡 Sınanacak üç iddia (DESEN — henüz kaynak turu yapılmadı)
+
+| nokta | iddia | tahminî büyüklük |
+|---|---|---|
+| **Bordo** | 1453'e kadar **İngiliz** (Guyenne/Akitanya) | ~172 yıl |
+| **Marsilya** | Provence 1481'e kadar Fransa değil (Anjou kontluğu) | ~200 yıl |
+| **Paris** | 1420-1436 İngiliz-Burgonya işgali (Troyes) | ~16 yıl |
+| Lyon | 1312'ye kadar imparatorluk toprağı | ~31 yıl |
+
+⚠️ **Bunlar `DESEN` etiketli** — genel tarih bilgisinden geliyor, **kaynak turu
+yapılmadı** (`§73`: yama yalnız `KESİN` satıra dayanır). Sıradaki turda
+doğrulanacak.
+
+📌 Ama şu şimdiden söylenebilir: `1281→1923` penceresi **Yüzyıl Savaşları'nı
+haritadan tamamen siliyor.** Osmanlı atlası için çevre bir ayrıntı değil —
+Fransa'nın Osmanlı'yla ittifakı (1536) **Bordo'nun Fransız olmasından yalnız
+83 yıl sonra** ve harita bunu hiç göstermiyor.
+
+---
+
+## 48. AÇIK KALANLAR — Teslim 7 sonu
+
+1. ❓ **Kademe ⓪ önerisi koordinatörde** — Ç6/Ç4'ü ölçüt yanlış çözüyor
+2. ❓ **Ç7 etiket yükseltmesi** (🟡→🟢) koordinatörün hükmüne bağlı
+3. 🟡 **Fransa çekirdeğinin dört noktası** — kaynak turu sıradaki iş
+4. ⏳ Suriye-Filistin kesiti (üçüncü turdur sırada)
+5. Önceki turlardan: 6 Kafkasya noktası · fetretin İran geri kalanı · B4/B5 ·
+   Ç2, Ç5 · `marasi`
