@@ -394,8 +394,8 @@ window.YERLESIMLER = [
     v:[{f:"1830-11-01",t:"1841-02-25",k:"Mısır (Kavalalı)"}] },
 { ad:"Karpatos", tur:"kale", lat:35.508, lon:27.213, g:0, k:4, m:"Rodos", s:[{f:"1281-01-01",t:"1537-10-01",d:"venedik"},{f:"1912-05-12",t:"1923-10-29",d:"italya"}], d:[{f:"1537-10-01",t:"1912-05-12"}] },
 // ---------------- KIRIM VE KARADENİZ KUZEYİ ----------------
-{ ad:"Kefe", tur:"liman", lat:45.032, lon:35.382, g:1, k:2, s:[{f:"1771-07-01",t:"1774-07-21",d:"rusya"},{f:"1281-01-01",t:"1475-06-06",d:"ceneviz"},{f:"1774-07-21",t:"1923-10-29",d:"rusya"}], d:[{f:"1475-06-06",t:"1771-07-01",y:"kusatma"}] },
-{ ad:"Bahçesaray", tur:"sehir", lat:44.753, lon:33.861, g:0, k:2, s:[{f:"1771-07-01",t:"1774-07-21",d:"rusya"},{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1475-06-06",d:"kirim"},{f:"1774-07-21",t:"1783-04-08",d:"kirim"},{f:"1783-04-08",t:"1923-10-29",d:"rusya"}], d:[], v:[{f:"1475-06-06",t:"1771-07-01",k:"Kırım Hanlığı"}] },
+{ ad:"Kefe", tur:"liman", lat:45.032, lon:35.382, g:1, k:2, s:[{f:"1281-01-01",t:"1475-06-06",d:"ceneviz"},{f:"1783-04-19",t:"1923-10-29",d:"rusya"}], d:[{f:"1475-06-06",t:"1783-04-19",y:"kusatma"}], isg:[{f:"1771-07-01",t:"1783-04-19",d:"rusya",kaynak:"kefe"}] },
+{ ad:"Bahçesaray", tur:"sehir", lat:44.753, lon:33.861, g:0, k:2, s:[{f:"1771-07-01",t:"1774-07-21",d:"rusya"},{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1475-06-06",d:"kirim"},{f:"1774-07-21",t:"1783-04-19",d:"kirim"},{f:"1783-04-19",t:"1923-10-29",d:"rusya"}], d:[], v:[{f:"1475-06-06",t:"1771-07-01",k:"Kırım Hanlığı"}] },
 { ad:"Kerç", tur:"kale", lat:45.356, lon:36.467, g:0, k:3, m:"Kefe", s:[{f:"1281-01-01",t:"1475-06-06",d:"ceneviz"},{f:"1774-07-21",t:"1923-10-29",d:"rusya"}], d:[{f:"1475-06-06",t:"1774-07-21"}] },
 // hatalar 5.docx madde 9 — kullanıcı: "azak kalesinin geri alınması maddesinde
 // haritada hiçbir değişiklik olmuyor". SEBEP BULUNDU: kayıtta Azak 1475'ten
@@ -430,7 +430,7 @@ window.YERLESIMLER = [
 // Hepsi s:→s: geçişi olduğu için KIRILMA ÜRETMEZ (Değişmez 2 etkilenmez).
 { ad:"Soçi (Sâşe)", tur:"liman", lat:43.585, lon:39.723, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1829-09-14",d:"kirim"},{f:"1829-09-14",t:"1923-10-29",d:"rusya"}] },
 { ad:"Tuapse", tur:"liman", lat:44.103, lon:39.080, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1829-09-14",d:"kirim"},{f:"1829-09-14",t:"1923-10-29",d:"rusya"}] },
-{ ad:"Kuban (Yekaterinodar)", tur:"sehir", lat:45.035, lon:38.975, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1783-04-08",d:"kirim"},{f:"1783-04-08",t:"1923-10-29",d:"rusya"}] },
+{ ad:"Kuban (Yekaterinodar)", tur:"sehir", lat:45.035, lon:38.975, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1783-04-19",d:"kirim"},{f:"1783-04-19",t:"1923-10-29",d:"rusya"}] },
 { ad:"Maykop (Çerkezya)", tur:"bolge", lat:44.609, lon:40.101, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1829-09-14",d:"kirim"},{f:"1829-09-14",t:"1923-10-29",d:"rusya"}] },
 { ad:"Kabartay (Nalçik)", tur:"bolge", lat:43.498, lon:43.618, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1774-07-21",d:"kirim"},{f:"1774-07-21",t:"1923-10-29",d:"rusya"}] },
 
@@ -960,7 +960,7 @@ window.YERLESIMLER = [
 // (Ölçüm: VERİ ORTASYA, TDV'den; slug `kirim-hanligi` ÖLÜ, `altin-orda-hanligi` canlı.)
 // 🟡 1502 SONRASI `kirim` bırakıldı: bozkırın Kırım'da mı Nogay'da mı olduğu
 // kaynakla ayrılamadı, ORTASYA dokunmadı ve haklıydı.
-{ ad:"Bozkır (Deşt-i Kıpçak)", tur:"bolge", lat:48.50, lon:42.00, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1783-04-08",d:"kirim"},{f:"1783-04-08",t:"1923-10-29",d:"rusya"}] },
+{ ad:"Bozkır (Deşt-i Kıpçak)", tur:"bolge", lat:48.50, lon:42.00, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1783-04-19",d:"kirim"},{f:"1783-04-19",t:"1923-10-29",d:"rusya"}] },
 { ad:"Kalmuk bozkırı", tur:"bolge", lat:46.50, lon:45.50, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1556-01-01",d:"altinorda"},{f:"1556-01-01",t:"1923-10-29",d:"rusya"}] },
 { ad:"Ural eteği", tur:"bolge", lat:51.00, lon:52.00, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1556-01-01",d:"altinorda"},{f:"1556-01-01",t:"1923-10-29",d:"rusya"}] },
 { ad:"Zagros içi", tur:"bolge", lat:31.50, lon:50.50, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1508-01-01",d:"iran"},{f:"1508-01-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1923-10-29",d:"iran"}] },

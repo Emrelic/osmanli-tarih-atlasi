@@ -146,7 +146,7 @@ window.DEVLETLER = [
 },
 
 { id:"kirim", ad:"Kırım Hanlığı", tur:"hanlik", bolge:"sibirya-bozkir",
-  f:"1441-01-01", t:"1783-04-08", baskent:"Bahçesaray", harita:"kirim",
+  f:"1441-01-01", t:"1783-04-19", baskent:"Bahçesaray", harita:"kirim",
   tabi:[{f:"1475-06-06", t:"1774-07-21", ust:"osmanli"}],
   ozet:"Osmanlı'nın en uzun süreli ve en yakın vasalı; 1475'ten itibaren Osmanlı himayesinde, 1783'te Rusya tarafından ilhak edildi.",
   kronoloji:[
@@ -159,7 +159,7 @@ window.DEVLETLER = [
     { t:"1711-07-08", tur:"ittifak", b:"Devlet II Giray, Prut Seferi'nde Osmanlı ordusuna katıldı" },
     { t:"1736-01-01", tur:"isgal", b:"Rus orduları Bahçesaray'ı yaktı" },
     { t:"1774-07-21", tur:"antlasma", b:"Küçük Kaynarca — Kırım siyaseten bağımsız ilan edildi, dinî bağ Osmanlı'da kaldı" },
-    { t:"1783-04-08", tur:"son", b:"Rusya, Kırım'ı ilhak etti" }
+    { t:"1783-04-19", tur:"son", b:"Rusya, Kırım'ı ilhak etti" }
   ]
 },
 
@@ -197,7 +197,7 @@ window.DEVLETLER = [
     { t:"1711-07-21", tur:"toprak-kayip", b:"Prut'ta Osmanlı'ya yenildi, Azak geri verildi" },
     { t:"1721-10-22", tur:"kurulus", b:"Rusya İmparatorluğu ilan edildi" },
     { t:"1774-07-21", tur:"toprak-kazanc", b:"Küçük Kaynarca — Kırım bağımsız, Karadeniz'de donanma hakkı kazanıldı" },
-    { t:"1783-04-08", tur:"toprak-kazanc", b:"Kırım'ı ilhak etti" },
+    { t:"1783-04-19", tur:"toprak-kazanc", b:"Kırım'ı ilhak etti" },
     { t:"1812-05-28", tur:"toprak-kazanc", b:"Bükreş Antlaşması ile Besarabya alındı" },
     { t:"1829-09-14", tur:"antlasma", b:"Edirne Antlaşması — Osmanlı-Rus savaşı sonu" },
     { t:"1853-10-04", tur:"savas", b:"Kırım Savaşı'nda yenildi (1856'ya dek)" },
