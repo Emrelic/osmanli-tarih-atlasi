@@ -1260,13 +1260,27 @@ function sehirGuncelle(t) {
       //     ±30 gün penceresi ikisini de her iki maddede buluyordu, alan ayırıyor
       //   1806-01-26 Böğürdelen'in KAYBI → alan YOK, dolayısıyla 25 gün ötedeki
       //     "Mekke'nin Vehhâbîlere kaybı" maddesine de etiket sızmıyor
-      if (o.fethedilen && o.fethedilen.length) {
-        for (var fi = 0; fi < o.fethedilen.length; fi++) {
-          var fad = String(o.fethedilen[fi]).split(" (")[0];
+      // 🔴 İKİ ALAN, İKİ YÖN — `kaybedilen:` sonradan geldi ve rozet onu
+      // okumuyordu: 5 maddede 6 ad GÖRÜNMÜYORDU. Ölçüldü ve kapatıldı.
+      // ⚠️ Kazanç ile kaybın AYRILMASI şart: 1463-06-01 maddesi aynı anda
+      // Travnik'i kazanıp Yayça ile Srebrenik'i kaybediyor. Ayrım olmasa
+      // Yayça 1463'te Osmanlı'ya geçmiş gibi okunurdu — kullanıcıya doğrudan
+      // yanlış bilgi, bugün altı kez gördüğümüz sınıf.
+      // 📌 Ayrım için YENİ bir görsel dil icat edilmedi: kronoloji listesi
+      // zaten `k-fetih` yeşili ve `k-kayip` grisini kullanıyor. Kullanıcı o
+      // ikiliyi panelde her gün görüyor; haritada aynısını görmesi öğrenme
+      // gerektirmiyor. (Punto önem derecesini, renk devlet sahipliğini
+      // anlatıyor; rozetin kendi rengi serbest olan tek eksendi.)
+      var yonler = [["fethedilen", "kazanc"], ["kaybedilen", "kayip"]];
+      for (var yi = 0; yi < yonler.length; yi++) {
+        var alan = o[yonler[yi][0]];
+        if (!alan || !alan.length) continue;
+        for (var fi = 0; fi < alan.length; fi++) {
+          var fad = String(alan[fi]).split(" (")[0];
           for (var si = 0; si < sehirler.length; si++) {
             if (sehirler[si].s.ad.split(" (")[0] === fad) {
               // Aynı şehir birden çok maddede geçerse EN SON (en yakın) kazanır.
-              fetihTarihi[si] = o.gun || idxYazi(o.gi);
+              fetihTarihi[si] = { t: o.gun || idxYazi(o.gi), yon: yonler[yi][1] };
               break;
             }
           }
@@ -1350,8 +1364,13 @@ function sehirGuncelle(t) {
     // ⚠️ Kutu ölçüsü GERÇEK DOM'dan okunuyor (ikinci geçiş), yani rozet
     // eklenince çakışma elemesi onu kendiliğinden hesaba katıyor — bugün
     // emoji yüzünden yaşadığımız "dar kutu" kusuru burada tekrarlanamaz.
-    var ftar = fetihTarihi[mi] || "";
+    var frz = fetihTarihi[mi] || null;
+    var ftar = frz ? (frz.yon === "kayip" ? "− " : "+ ") + frz.t : "";
     if (m.fetihEl.textContent !== ftar) m.fetihEl.textContent = ftar;
+    // Sınıf yalnız değiştiğinde yazılıyor: her karede className atamak
+    // gereksiz yeniden boyama üretir.
+    var fsin = "s-fetih" + (frz ? " " + frz.yon : "");
+    if (m.fetihEl.className !== fsin) m.fetihEl.className = fsin;
 
     if (!m.ekli) { m.mk.addTo(harita); m.ekli = true; }
     // Eleme ikinci geçişe bırakılıyor (aşağıda). `anilan` olanlar elemeye HİÇ

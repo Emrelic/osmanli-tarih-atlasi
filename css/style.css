@@ -413,6 +413,23 @@ body {
   line-height: 1.35;
 }
 .sehir .s-fetih:empty { display: none; border: none; padding: 0; margin: 0; }
+/* 🔴 KAZANÇ ve KAYIP AYRILMALI — 1463-06-01 maddesi aynı anda Travnik'i
+   kazanıp Yayça ile Srebrenik'i kaybediyor. Ayrım olmasa Yayça 1463'te
+   Osmanlı'ya geçmiş gibi okunurdu.
+   ⚠️ Yeni bir renk dili İCAT EDİLMEDİ: kronoloji listesi zaten `k-fetih`
+   yeşilini (#1e7d32) ve `k-kayip` grisini (#616161) kullanıyor. Kullanıcı o
+   ikiliyi panelde her gün görüyor; haritada aynısı öğrenme gerektirmiyor.
+   Ayrıca metinde +/− işareti var — renk körlüğünde de ayrım kalsın. */
+.sehir .s-fetih.kazanc {
+  color: #1e5d2a;
+  border-color: rgba(30, 125, 50, 0.55);
+  background: rgba(232, 245, 233, 0.88);
+}
+.sehir .s-fetih.kayip {
+  color: #4a4a4a;
+  border-color: rgba(97, 97, 97, 0.55);
+  background: rgba(238, 238, 238, 0.88);
+}
 /* Uzakta okunmaz ve kalabalık yapar; yalnız yakınlaşınca çıksın. */
 #harita.cok-uzak .sehir .s-fetih, #harita.uzak .sehir .s-fetih { display: none; }
 
