@@ -3528,13 +3528,32 @@ yayınlanamadı.**
 🟢 Çare bir araç değil, bir **protokol:**
 ```
 ÜRETİM PROTOKOLÜ
-1. koordinatör "VERİ DONDU" ilan eder → data/ altına commit YOK
-2. koşu başlar (~82 dk)
-3. koşu biter → türetilmiş üreticiler → damga → commit → yayın
-4. koordinatör "ÇÖZÜLDÜ" der → yazma serbest
+1. koordinatör "GİRDİ DONDU" ilan eder
+   → girdi.py'nin OKUDUĞU dosyalara commit YOK
+     (yerlesimler.js · yerlesimler_afrika.js · goller.js)
+   → data/ altındaki ÖTEKİ her şey SERBEST
+2. koşu başlar (~80 dk)
+3. koşu biter → uret_devirler.py → damga → commit → yayın
+4. koordinatör "ÇÖZÜLDÜ" der
 ```
-📌 Ve donma **işi durdurmuyor**: araştırma, ölçüm, dosya yazımı serbest;
-yalnız `data/` **commit'i** bekliyor. İki oturum aynı gün sorunsuz uyguladı.
+
+🔴 **VE PROTOKOL İLAN EDİLDİĞİNDEN DAHA DAR İŞLEDİ — MOTOR ölçtü.**
+Koordinatör *"`data/` altına commit atma"* dedi. Gerçekte olan:
+```
+koşu sırasında data/ altına YEDİ commit atıldı
+   (yerlesimler_ek.js · devletler.js · kimlikler.js — 17:03→17:52)
+URETIM_IZI girdi izleri: ÜÇÜ DE AYNI  →  BAYAT: False
+```
+> *"Protokol fiilen *'`data/` kilitli'* değil *'**GİRDİ** kilitli'* olarak
+> işledi — **daha dar ve daha sürdürülebilir.**"*
+
+⇒ **Kural bu hâliyle yazıldı.** Oturumlar `data/` altında çalışmaya devam
+edebiliyor; yalnız **motorun okuduğu üç dosya** bekliyor. Geniş ilan edilen
+kilit gereksiz yere iş durdurur ve **uyulmadığı için de** güvenilmez hâle
+gelir; dar kilit hem tutar hem tutulur.
+
+📌 Bugünün üçüncü koşusu ve **ilk bayat olmayanı** — protokol ilk denemesinde
+tuttu.
 
 ⚠️ Reddedilen alternatif: *"bilerek bayat yayınla, eksiği commit'e yaz."*
 MOTOR savunmadı, koordinatör de kabul etmedi — **aynı sabah tam olarak
@@ -3698,4 +3717,62 @@ konur.
 
 📌 Ve kusur sıralamayı yapanda (koordinatör): ölçüt *kaynak · emsal · renk*
 üçlüsüydü, **dördüncüsü yoktu.**
+
+
+---
+
+## §83 — İKİNCİ OTURUM AÇMAK DARBOĞAZI ÇÖZMEDİ, GÖRÜNÜR KILDI
+
+`VERİ KİMLİK` bütün gün sessiz kaldı, kuyruk **8 → 12 kaleme** çıktı ve yedi
+oturumun bitmiş araştırması haritaya giremedi. Teşhis şuydu: *"oturum yavaş."*
+Kullanıcı ikinci bir kimlik oturumu açtı.
+
+**İkinci oturum aynı duvara çarptı — ve duvarı ölçtü:**
+```
+ZATEN BAĞLI     1   afsar → harita:"iran"
+TEK SATIR       1   nogay
+RENK GEREKLİ    9   astarhan · arnavutluk-bagimsiz · zend · hersek · zeta ·
+                    bahreyn · navarra · aragon · kastilya
+ARAŞTIRMA       5   dehlek · kafkas-hanliklari · buyuk-orda · idrisi ·
+                    suriye-arap-kralligi
+```
+Ve dokuzun dokuzu tek bir şeyde takılı:
+> **`renkler.py`'de ΔE hesaplayan HİÇBİR FONKSİYON YOK** (ölçüldü: 0).
+> Dosyadaki sayılar bir DSATUR koşusundan **elle taşınmış**, üstelik **yanlış
+> opaklıkla** (`%30`, gerçeği `0,44`).
+
+> *"Darboğaz kimlik oturumunun **hızı** değildi. **Renk seçmenin ölçülebilir
+> bir aracı hiç olmamış.** İkinci bir kimlik oturumu dokuz kalemin hiçbirini
+> açmaz — **ölçüm aracını yazmak dokuzunu birden açar.**"*
+
+### Kural
+
+> **Bir kuyruk birikiyorsa, önce kuyruğu işleyenin hızını değil, kuyruğun
+> GEÇTİĞİ DARBOĞAZI ölç.** Kaynak eklemek, eksik olan şey **kapasite değilse**
+> yalnız aynı duvara daha çok kişi yığar.
+
+🟢 Ve ikinci oturum boşa gitmedi — **teşhisi değiştirdi.** Kapasite eklemek
+sorunu çözmedi ama *"sorun kapasite değilmiş"* bilgisini üretti; bu, üç gün
+daha *"neden bu kuyruk akmıyor"* diye beklemekten ucuz.
+
+⚠️ Ve bugün kapanan iki kalem (`sirbistan-nemanjic` · `merini`) **yanıltıcıydı**:
+ikisi de renk gerektirmedi, *"kuyruk göründüğünden ucuz"* izlenimi verdi.
+Ölçüm bunu da çürüttü — **iki kolay kalem, on dört zor kalem hakkında hiçbir
+şey söylemiyor.**
+
+### Ve ikinci oturum KENDİ ARACINDA da bir açık buldu
+
+İlk geçiş `aragon` ve `kastilya`yı **ayrı ayrı** *"tek satır"* saydı; ikisi de
+`ispanya`nın başladığı gün bitiyordu, kalıp uyuyordu.
+```
+aragon    1164 → 1479-01-20        kastilya  1230 → 1479-01-20
+⇒ ikisi 249 YIL YAN YANA yaşadı
+⇒ ikisine de harita:"ispanya" verilseydi EŞZAMANLI İKİ KOMŞU aynı rengi
+   paylaşırdı — renkler.py'nin tek yasak dediği şey
+```
+> **`"tek satır"` ölçütü KALEM BAŞINA uygulanamaz; kuyruğun tamamına BİRLİKTE
+> uygulanmalı** — yoksa iki ucuz kalem birleşip bir hata üretir.
+
+📌 Ve fark inceydi: bugün kurtaran iki kalem **ardışıktı** (`1217-1402` ↔
+`1402-…`), batıracak iki kalem **eşzamanlıydı.** Aynı kalıp, ters sonuç.
 
