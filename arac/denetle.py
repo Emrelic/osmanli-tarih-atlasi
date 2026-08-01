@@ -422,6 +422,45 @@ def kirilmasiz_madde(kir_dv, kir_s, O):
     return yok
 
 
+# ---------------- 2t DEFTERİ — tavan bir sayı, defter bir küme -------------
+# KOORDİNATÖR onayladı. Gerekçe A ve B defterlerininkiyle birebir aynı:
+# tavan aşıldığında (63 > 62) sayı **hangisinin yeni olduğunu söyleyemiyor.**
+# Elimde makul bir hipotez vardı — "içerik oturumları toprak kırılması olmayan
+# maddeler yazıyor (ittifak, muhasara, Sofya 1878-01-04)" — ama bugün üç kez
+# makul hipotez yanlış çıktı. Defter kurulunca ölçülmüş olacak.
+#
+# ⚠️ Kimlik `tarih|başlık`: A defterinde başlığı KASTEN dışarıda bırakmıştım
+# (madde düzeltilince kırılma "kapandı + yeni açıldı" görünürdü). Burada
+# tersi geçerli — **kayıt maddenin kendisi**, kırılma değil. Maddeyi tanımlayan
+# şey başlığıdır; tarih tek başına aynı gün yazılmış iki maddeyi ayıramaz.
+KIRILMASIZ_DEFTERI = os.path.join(KOK, "denetim", "KIRILMASIZ-DEFTERI.json")
+
+
+def kirilmasiz_defteri(ksiz, yaz=False):
+    """(yeni, kapanan, defter_boyu)."""
+    simdi = {"%s|%s" % (o["t"], o.get("b", "")): (o.get("k") or "?") for o in ksiz}
+    eski = {}
+    if os.path.exists(KIRILMASIZ_DEFTERI):
+        try:
+            eski = json.load(open(KIRILMASIZ_DEFTERI, encoding="utf-8"))
+            eski.pop("_NOT", None)
+        except Exception:
+            print("  !  KIRILMASIZ-DEFTERI.json okunamadı — bozuk olabilir")
+    yeni = sorted(k for k in simdi if k not in eski)
+    kapanan = sorted(k for k in eski if k not in simdi)
+    if yaz:
+        kayit = dict(simdi)
+        kayit["_NOT"] = (
+            "TEMEL DEFTER, 2026-08-01. ⚠️ TAVAN AŞILMIŞ HÂLDEYKEN yazıldı "
+            "(63 / tavan 62). 'Defterde var' ≠ 'incelendi ve kabul edildi'. "
+            "`antlasma` türündekilerin çoğu MEŞRU: statükoyu teyit eden barış "
+            "(Kasr-ı Şirin, Zitvatorok) o gün sınır oynatmaz. Defterin işlevi "
+            "ileriye dönük: bundan sonraki her ekleme YENİ diye adıyla çıkar.")
+        open(KIRILMASIZ_DEFTERI, "w", encoding="utf-8", newline="").write(
+            json.dumps(kayit, ensure_ascii=False, indent=1, sort_keys=True))
+    return yeni, kapanan, len(eski)
+
+
 # ---------------- Değişmez 3 — dört boyut çelişmez ----------------
 def degismez3(Y):
     ix = {y["ad"]: y for y in Y}
@@ -965,6 +1004,8 @@ def donem_sagligi(Y):
 def main():
     ap = argparse.ArgumentParser(description="Üç değişmezi tek komutta denetler.")
     ap.add_argument("--ayrinti", action="store_true", help="her ihlali tek tek listele")
+    ap.add_argument("--defter-yaz", action="store_true",
+                    help="2t defterini bugünkü durumla güncelle (temel yazımı)")
     args = ap.parse_args()
 
     print("Veri okunuyor...")
@@ -1060,6 +1101,17 @@ def main():
                                                        sorted(say.items(), key=lambda x: -x[1])))
         print( "            ⚠️ `antlasma` çoğunlukla MEŞRU: statükoyu teyit eden")
         print( "               barış (Kasr-ı Şirin, Zitvatorok) o gün sınır oynatmaz.")
+        yeni_k, kapanan_k, boy_k = kirilmasiz_defteri(
+            ksiz, yaz="--defter-yaz" in sys.argv)
+        if boy_k == 0:
+            print("            i 2t defteri BOŞ — ilk kez yazmak için: --defter-yaz")
+        else:
+            print(f"            2t defteri: {boy_k} kayıt · YENİ {len(yeni_k)} · "
+                  f"KAPANAN {len(kapanan_k)}")
+            for k in yeni_k[:10]:
+                print(f"              + YENİ    {k[:78]}")
+            for k in kapanan_k[:6]:
+                print(f"              - KAPANAN {k[:78]}")
         print( "               ASIL SİNYAL `fetih` — bir yer fethedilip hiçbir nokta")
         print( "               el değiştirmemişse ya madde ya veri yanlıştır.")
         for o in [x for x in ksiz if x.get("k") == "fetih"]:
