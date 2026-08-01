@@ -734,7 +734,7 @@ window.YERLESIMLER = [
 { ad:"Viyana", tur:"sehir", lat:48.208, lon:16.373, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"avusturya"}] },
 { ad:"Graz", tur:"sehir", lat:47.071, lon:15.439, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"avusturya"}] },
 { ad:"Zagreb", tur:"sehir", lat:45.815, lon:15.982, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan"},{f:"1526-08-29",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}] },
-{ ad:"Ljubljana", tur:"sehir", lat:46.056, lon:14.506, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}] },
+{ ad:"Ljubljana", tur:"sehir", lat:46.056, lon:14.506, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1335-05-02",d:"almanya"},{f:"1335-05-02",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}] },
 { ad:"Bratislava", tur:"sehir", lat:48.146, lon:17.107, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan"},{f:"1526-08-29",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"cekoslovakya"}] },
 { ad:"Krakov", tur:"sehir", lat:50.065, lon:19.945, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"polonya"}] },
 { ad:"Lvov", tur:"sehir", lat:49.840, lon:24.030, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1772-08-05",d:"lehistan"},{f:"1772-08-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"polonya"}] },
@@ -1057,7 +1057,7 @@ window.YERLESIMLER = [
 
 // Yunanistan / İyon Denizi — Venedik ile el değiştiren kıyı ve adalar
 { ad:"Korfu", tur:"kale", lat:39.624, lon:19.922, g:0, k:3, m:"Yanya", d:[], s:[{f:"1281-01-01",t:"1797-10-17",d:"venedik"},{f:"1797-10-17",t:"1815-11-05",d:"fransa"},{f:"1815-11-05",t:"1864-05-21",d:"ingiltere"},{f:"1864-05-21",t:"1923-10-29",d:"yunanistan"}] },
-{ ad:"Ayamavra (Lefkada)", tur:"kale", lat:38.716, lon:20.643, g:0, k:4, m:"Yanya", s:[{f:"1281-01-01",t:"1479-08-01",d:"napoli"},{f:"1684-08-06",t:"1923-10-29",d:"venedik"}], d:[{f:"1479-08-01",t:"1684-08-06"}] },
+{ ad:"Ayamavra (Lefkada)", tur:"kale", lat:38.716, lon:20.643, g:0, k:4, m:"Yanya", s:[{f:"1281-01-01",t:"1479-08-01",d:"napoli"},{f:"1684-08-06",t:"1715-09-01",d:"venedik"},{f:"1718-07-21",t:"1797-10-17",d:"venedik"},{f:"1797-10-17",t:"1815-11-05",d:"fransa"},{f:"1815-11-05",t:"1864-05-21",d:"ingiltere"},{f:"1864-05-21",t:"1923-10-29",d:"yunanistan"}], d:[{f:"1479-08-01",t:"1684-08-06"},{f:"1715-09-01",t:"1718-07-21"}] },
 // Pasarofça'da (1718) Venedik'te kalan üçlü Preveze-Parga-Vonitsa'dan yalnız
 // Preveze veride vardı; diğer ikisinin bulunduğu kıyı en yakın peteğe emiliyor,
 // yani Venedik'in elindeyken Osmanlı boyanıyordu. Parga hiç Osmanlı olmamıştı:
