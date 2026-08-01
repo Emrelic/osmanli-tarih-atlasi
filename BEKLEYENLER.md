@@ -27,6 +27,7 @@ Hepsi `Ctrl+F5` sonrası:
 | ⑤ | `1516-09-27` Şam maddesine git | **Şam haritada işaretli** olmalı (33 kısa adlı şehir düzeltmesi) | ⏳ |
 | ⑥ | **▦ Veri sınırı** düğmesini aç | Dikdörtgen bir kenar — göremediğin her yer bu çizginin **dışında** | ⏳ |
 | ⑦ | **🗺 Coğrafya** düğmesini aç, **ekran görüntüsü gönder** | Bu bir **ölçüm**: beş katman açıkken harita okunabiliyor mu? Katman paneli buna bağlı | ⏳ |
+| ⑧ | **1484 Temmuz–Ağustos**'a git, yakınlaş | **Kili**'nin yanında `1484-07-15`, **Akkirman**'ın yanında `1484-08-04` rozeti — iki ayrı tarih. Mantık sınandı, **görünüm** sınanmadı | ⏳ |
 
 ---
 

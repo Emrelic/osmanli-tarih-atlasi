@@ -489,3 +489,47 @@ vakasının tekrarı olacaktı.
 
 Bu, `OGRENILENLER §58-59`'un işletme karşılığı: ölçmek bir gecikme gibi
 görünür, ama bugünkü sayılarla **her seferinde** uygulamaktan ucuzdu.
+
+---
+
+## 12. 🔴 KOORDİNATÖR BİR RÖLEDİR — ve röle, doğrulamadığı sayıyı ŞARTA ÇEVİRİR
+
+1 Ağustos: BALKAN *"10 maddeye işlendi, 14 etiket"* diye bildirdi ve üç vaka
+tarif etti. Koordinatör bunu **doğrulamadan** ARAYÜZ'e **sınav şartnamesi**
+olarak geçirdi. ARAYÜZ ölçtü, üçü de tutmadı:
+
+| koordinatörün ilettiği | gerçek |
+|---|---|
+| *"10 madde, 14 etiket"* | **7 madde, 10 ad** |
+| *"1482-01-01'de aynı maddede hem kazanç hem kayıp — iki alanı da oku"* | O tarihte **iki ayrı madde** var; Zaklise'ninki alansız (o kayıt 1479 listesinde) |
+| *"1806-01-26'da alan Mekke'yi kesiyor"* | O maddede alan **yok**; alanlı Böğürdelen `1521-07-07` |
+
+⚠️ Üçünde de **kural doğruydu, vakalar yanlıştı.** ARAYÜZ sınavı koordinatörün
+tarifinden kursaydı **olmayan bir davranışı** sınamış olurdu — ve geçseydi
+"çalışıyor" diye damgalanacaktı.
+
+### Neden bu koordinatöre özgü bir kusur
+
+Bir oturum kendi ölçümünü yanlış raporlarsa, hata **bir** yerde kalır. Ama
+koordinatör onu başka bir oturuma **şart** olarak geçirdiğinde:
+
+1. Sayı doğrulanmış **gibi** görünür — çünkü artık koordinatörden geliyor
+2. Alıcı oturum onu **hedef** kabul eder, kaynak saymaz
+3. Ve o hedefe göre kurulan sınav, yanlış şeyi doğrular
+
+⇒ **Röle, aktardığı iddianın otoritesini yükseltiyor.** Oturumun *"ölçtüm,
+şöyle çıktı"* sözü koordinatörün ağzında *"şöyle olmalı"* hâline geliyor.
+
+### Kural
+
+> **Bir oturumun sayısı başka bir oturuma ŞART olarak geçecekse, geçmeden
+> önce doğrulanır. Doğrulanamıyorsa "X şöyle bildirdi, teyit edilmedi" diye
+> KAYNAĞIYLA aktarılır — şart olarak değil.**
+
+📌 Bu `OGRENILENLER §52`'nin ("türetilmiş sayı türetimiyle raporlanır") röle
+tarafı. §52 rapor edenin ödevini, §58 kabul edenin ödevini yazıyordu; bu
+üçüncüsü **aktaranın** ödevi ve en kolay atlanan.
+
+📌 Aynı gün ikinci kez oldu: 31 Temmuz'da *"32 işaret"* rakamı nasıl
+türetildiği sorulmadan kabul edilip bir karara dayanak yapılmış, karar sonra
+geri alınmıştı. Orada koordinatör **kabul eden**di, burada **aktaran**.
