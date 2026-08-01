@@ -235,6 +235,33 @@ yakın komşuya itiyor.
 > fazlalık var mı"* yetmez; **"öbür tarafta fazlalık doğuyor mu"** da sorulur.
 > Tek uçtan bakan düzeltme, hatayı taşır — silmez.
 
+#### 🔴 VE BU BAŞLIĞIN KENDİSİ TEK YÖNLÜYDÜ — 1 Ağustos'ta düzeltildi
+
+Başlık *"Osmanlı fazla mı görünüyor?"* diye soruyor. ÇAPRAZ BATI Yukarı
+Macaristan'ı ölçtü ve **sorunun da tek yönlü olduğunu** gösterdi:
+
+```
+Yukarı Macaristan   noktasız → komşusu OSMANLI  → Osmanlı FAZLA görünüyor
+                    ~28.000 km² · 91 yıl (1596-1687)
+Gyula               noktasız → komşusu tâbi     → Osmanlı EKSİK görünüyor
+                    1566'da fethedilip sancak merkezi olmuş
+```
+
+> **Noktasızlık İKİ YÖNE de hata üretir, ve hangi yöne ürettiği tamamen
+> KOMŞUNUN KİMLİĞİNE bağlıdır.** Tek yönlü aramak (*"fazla mı"*) yarısını
+> kaçırır.
+
+📌 Ve ikisinde de **kusur veride değil**: kayıtlar doğru, motor doğru, `§2`
+emilme kuralı doğru çalışıyor. **Kusur NOKTASIZLIKTA** — `§2`'nin *"bir
+'harita yanlış' raporu geldiğinde ilk sorulacak soru budur"* dediği vaka.
+Koordinatör doğruladı: `48,0-49,6°K / 18,8-22,6°D` kutusunda **sıfır nokta**;
+Kassa · Tokaj · Eperjes · Sopron · Gyula'nın **hiçbirinin kaydı yok.**
+
+⚠️ Ve aynı sınıfın bugün ölçülen öteki vakaları: **Dalmaçya anakarası** (0
+nokta, Karlofça'nın yedi kalesi yok) · **Girit'in üç kalesi** (Suda ·
+Spinalonga · Granbosa yok, ada 1669'dan beri bütünüyle Osmanlı boyanıyor).
+**Üçü de aynı sebep, üçü de on binlerce km².**
+
 📌 Ve fetih tarihini yazarken ayırt et: **devletin yıkılışı ≠ o yerin fethi.**
 1517-04-13 Memlük Devleti'nin sonudur; Kızıldeniz kıyısının, Nûbe'nin, Habeş'in
 fethi **değildir.** Merkez düştü diye çevre otomatik devrolmaz.
