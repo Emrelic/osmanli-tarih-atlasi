@@ -170,12 +170,60 @@ değildir.** Dalmaçya'da TDV yetmiyor ⇒ akademik kaynak, künyesiyle.
 
 ---
 
+### 1.4 🔴 KLİS SANCAĞI — 1 Ağustos 17:05'te eklendi
+**Ölçen:** ÇAPRAZ AKDENİZ (`3fd8fc0`) · TDV `dalmacya` **verbatim**
+
+> *"**1537**'de **Klis Kalesi'nin fethinden sonra Dalmaçya sınırında YENİ BİR
+> SANCAK tesis edildi**"* · *"Ostrovica (Sivrihisar), Obrovac ve **Scardona**"*
+> · *"**Nadin ve Urana** kalelerini Osmanlılar'a bırakmışlardı"*
+
+```
+Klis · Knin · Sinj · Skradin · Vrana · Nadin · Ostrovica · Obrovac   ✗ HİÇBİRİ YOK
+Dalmaçya iç kesimi (lat 43,3-44,6 / lon 15,3-17,5): TOPLAM 3 nokta
+   Brakya (ADA) · Livno · Yayça (Bosna içleri)
+```
+
+🔴 **VE KIYI İLE İÇ KESİM AYRILMALI — aynı boşluk, ters sonuç:**
+```
+KIYI      Zadar·Split·Trogir·Şibenik·Nin  yutan venedik → renk KAZARA DOĞRU
+İÇ KESİM  Klis sancağı, sekiz kale        yutan venedik → renk KAZARA YANLIŞ
+                                                          çünkü orası OSMANLI'ydı
+```
+⇒ **İç kesim önceliklidir.** Kıyıda hata *görünmüyor*; iç kesimde **bir Osmanlı
+sancağı tamamen kayıp.**
+
+📌 Ve `CLAUDE.md §2`'nin kayıtlı vakası bunun **ters yönü**: *"Brač, Hvar,
+Korčula 1483'ten itibaren Osmanlı oldu — Mostar'dan."* **Aynı boşluk, iki
+yönde de patlamış.**
+
+### 1.5 🟡 VENEDİK ARNAVUTLUĞU — tarihleri ÇAPRAZ AKDENİZ'de
+**Ölçen:** ÇAPRAZ AKDENİZ (`252325e`)
+```
+Kotor (Cattaro) ✗   Budva ✗   Herceg Novi ✗   Bar (Antivari) ✗   Ülgün ✗
+   yutan: Cetinje 12-32 km · İşkodra 30-34 km
+   1500/1600 → OSMANLI · 1700/1790 → karadag        ← ikisi de YANLIŞ
+```
+🔴 **Kotor, Venedik Arnavutluğu'nun tahkimli liman başkentiydi** ve bugün onu
+**12 km ötedeki bir dağ köyü (Cetinje)** yutuyor.
+
+⚠️ **Tarihler henüz gelmedi.** ÇAPRAZ AKDENİZ *"tarihsiz nokta göndermek
+istemem"* diyerek kaynaklamayı tuttu. Şu an elde olan:
+```
+🟢 Herceg Novi   Venedik'e 1686   (TDV dalmacya, YIL hassasiyetli; 1687 de geçiyor)
+🔴 Kotor · Budva · Bar · Ülgün    TDV'de DAYANAK YOK — karşı taraf arşivi gerekiyor
+```
+⇒ **Bu kalemi en sona bırak**, tarihler gelince aç.
+
+---
+
 ## 5. SIRA — büyükten küçüğe, ama kaynağı hazır olandan
 
 ```
-1. GİRİT üç kale      kaynak HAZIR (TDV girit canlı), emsal tarih HAZIR   → en ucuz
-2. YUKARI MACARİSTAN  kullanıcı ONAYLADI, renk gerekmiyor, 4 nokta
-3. DALMAÇYA           en büyük, ama kaynak turu gerekiyor — ÜÇ KADEMELİ yaz
+1. GİRİT üç kale       kaynak HAZIR (TDV girit canlı), emsal tarih HAZIR  → en ucuz
+2. KLİS SANCAĞI        sekiz kale, TDV adıyla sayıyor, OSMANLI SANCAĞI KAYIP
+3. YUKARI MACARİSTAN   kullanıcı ONAYLADI, renk gerekmiyor, 4 nokta
+4. DALMAÇYA KIYISI     renk kazara doğru — ÜÇ KADEMELİ sınır yazılacak
+5. VENEDİK ARNAVUTLUĞU tarihler AKDENİZ'de, gelince aç
 ```
 📌 ①'den başla: bir noktayı baştan sona doğru eklemenin **yöntemini** orada
 kur, sonra ölçekle.
