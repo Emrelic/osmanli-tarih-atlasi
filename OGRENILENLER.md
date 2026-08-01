@@ -2357,3 +2357,52 @@ raporun tarihi yazılı ↔ DENETİMİN tarihi değil (DENETÇİ: "raporum bayat
 **çıktı**, **yapılandırma** ve **zaman** eksenlerinde de gerekli mi diye sorulur.
 MOTOR'un vakasında ikinci eksen (kod) gerekliydi ve boştu.
 
+
+---
+
+## §63 — İKİ ÇEKİŞ AYNI YANLIŞI ÜRETEBİLİR; GELEN TARİH İÇ VERİYLE ÇARPIŞTIRILIR
+
+Bu sabah kural şuydu: **"sayısal veri tek çekişten alınmaz."** Doğdu çünkü TDV
+özetleyicisi bir çekişte olmayan bir tarih üretmişti (`bucuktepe-vakasi` →
+*"1444"*), ikinci çekişte o cümle yoktu.
+
+Öğleden sonra kural **yetmedi.** ARAŞTIRMA ARABİSTAN `ceneviz` maddesini iki kez
+çekti; ikinci özet şunu yazdı:
+
+> ❌ *"Bu anlaşma **Orhan Gazi döneminde** imzalanmıştır."*
+
+**İmkânsız:** anlaşma `1387-06-08`, Orhan Gazi **1362'de** öldü. TDV metni
+*"Orhan Gazi ile yapılmış anlaşmayı **yenileyen** ahidnâme"* diyor; özetleyici
+adı görüp dönemi uydurmuş. İki çekiş **aynı yanlışı** üretebilirdi.
+
+Yakalanma yolu tekrar sayısı değil, **çarpıştırma** oldu:
+`padisahlar.js` I. Murad'ı `1362-03 → 1389-06` diye yazıyor.
+
+### Kural
+
+> **Gelen her tarih, elimizdeki BAĞIMSIZ bir veriyle çarpıştırılır** —
+> `padisahlar.js` saltanat aralığı · hicrî↔milâdî tutarlılık · `devletler.js`
+> ömrü. Kaynak canlı ve iki çekiş aynı olsa bile.
+
+📌 Bu kontrol **aynı gün üç kez** iş gördü:
+
+| vaka | çarpıştırılan iç veri | sonuç |
+|---|---|---|
+| Buçuktepe 1446 | hicrî ↔ milâdî | özetin ürettiği 1444 düştü |
+| Ceneviz 1387 | `padisahlar.js` saltanat aralığı | *"Orhan Gazi dönemi"* düştü |
+| `dis-savas` aracı | üç haneli yıllar (Bizans 330…) | **19 sahte hayalet** düştü |
+
+⚠️ Üçüncüsü özellikle önemli: orada çarpıştırılan şey **dış kaynak değil, kendi
+ölçüm aracımızın çıktısıydı.** Yani kural yalnız kaynağa değil, **kendi
+üretimimize** de uygulanıyor.
+
+### Ve bunun neden "daha çok çekiş" ile çözülemeyeceği
+
+Tekrar, **bağımsız olmayan** hataları çoğaltmaz — aynı özetleyici, aynı metinden,
+aynı yanlış çıkarımı ikinci kez yapabilir. Bağımsızlık **kaynakta** değil,
+**ölçüt ekseninde** aranmalı: tarih ↔ saltanat, tarih ↔ takvim, tarih ↔ devlet
+ömrü. Bunlar birbirinden bağımsız eksenler ve biri yanılırken öteki tutmaz.
+
+📌 `OGRENILENLER §42`'nin ("doğrulama iki uçlu olmalı") kaynak tarafı: orada
+**düzeltmenin** iki ucu vardı, burada **verinin.**
+
