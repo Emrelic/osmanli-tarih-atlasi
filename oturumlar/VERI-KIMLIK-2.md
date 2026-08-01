@@ -18,7 +18,7 @@ başlamaması riskini taşıyor — bugün tam bu yüzden kuyruk büyüdü.
 
 | # | kimlik | niçin bekliyor | kaynak |
 |---|---|---|---|
-| 1 | **`dehlek`** | Masavva · Dahlak · Arkîko **236 yıl yanlış devlet** (`memluk` yazılı) | ÇAPRAZ DOĞU `9078760`+`b620dc1`, iki bağımsız TDV maddesi, **KESİN** |
+| 1 | 🔴 **`dehlek`** | Masavva · Dahlak · Arkîko **236 yıl yanlış devlet** (`memluk` yazılı) | ⚠️ **SINIFI DÜZELTİLDİ 17:55** — koordinatör *"kayıt var, yalnız renk yok"* yazmıştı, **YANLIŞ.** VERİ KİMLİK 2 ölçtü, koordinatör doğruladı: `id:"dehlek"` **0** · `renkler.py` **0**. ⇒ **Sıfırdan kayıt** (`f:`·`t:`·`bolge:`·`baskent:`·`ozet:`) **+ yeni renk** (13,6 eşiği burada GERÇEKTEN uygulanacak; komşuları `memluk`·`habesistan`·`func`·`adal`·`yemen`). **ARAŞTIRMA kalemi, tek satır değil.** Tanım ÇAPRAZ DOĞU'dan gelmeli |
 | 2 | **`sirbistan-nemanjic`** | kayıt **var**, ömür `1217-1402` **yazılı** — eksik olan **yalnız renk** | en ucuz kalem, tek satır |
 | 3 | **`merini`** | Fas · Merakeş · Rabat · Agadir **642 yıllık tek pencere**, 1.340 yıl-nokta | ÇAPRAZ GÜNEY `9a145c5`. Kayıt **var** (`merini` 1196-1549), `harita:` **boş** |
 | 4 | **`astarhan` + `nogay`** | ÇAPRAZ KUZEY paketi **hazır**, 7 nokta. 🔴 **Renksiz uygulanırsa `altinorda` yerine DELİK açar** | ÇAPRAZ KUZEY tur 4 |
@@ -56,7 +56,22 @@ Kilit mekanizması yok; **dosya claim'i** kullanılacak:
 "dehlek": ("Dehlek Melikleri", "#RRGGBB"),
 ```
 
-🔴 **KISIT 1 — komşu çakışması.** Yeni renk, o kimliğin **haritada komşu
+⚠️ **17:55 DÜZELTMESİ — "iki dosya, ikisi birden" kuralı FAZLA GENELDİ.**
+VERİ KİMLİK 2 `sirbistan-nemanjic`te gösterdi: `sirbistan` anahtarı
+(`#6a8fa0`) **zaten vardı** ve üç Sırp kaydı onu kullanıyordu
+(`sirp-despotlugu` 1402-1459 · `sirbistan-prensligi` 1804-1882 ·
+`sirbistan-kralligi` 1882-1918). Nemanjić **1217-1402**, despotluğun
+başlangıcıyla **birebir aynı gün** — örtüşme yok.
+> **Doğru kural: renk VAR OLMALI ve `harita:` ona işaret etmeli.**
+> *"Her kaleme YENİ renk"* **değil.**
+
+🔴 Ve gerekçeleri de doğru: *"Yeni renk açsaydım Sırbistan dönemlere göre iki
+ayrı ülke rengine bölünürdü."* — `§78` gereği **emsali kendileri sınadı**
+(üç bağımsız kayıt, bitişik tarihler, hepsi `bolge:"balkanlar"`).
+⇒ `merini` de aynı sınıf: `fas` (`#9e6b5b`, 1549-1923) var, `merini`
+1196-**1549** tam bitişik.
+
+🔴 **KISIT 1 — komşu çakışması** (yalnız GERÇEKTEN yeni renk açılacaksa)**.** Yeni renk, o kimliğin **haritada komşu
 olduğu** devletlerin renginden ayırt edilebilmeli. MOTOR bugün ölçtü:
 **mevcut paletteki en dar aralık 13,6** (HSV mesafesi). Yeni renk o eşiğin
 altına inmesin.
