@@ -974,9 +974,9 @@ window.YERLESIMLER = [
 
 // ---- TR-Wikipedia kronoloji karşılaştırmasıyla eklenen yerleşimler (parti 5) ----
 // Macaristan / Erdel cephesi
-{ ad:"İstolni Belgrad", tur:"kale", lat:47.190, lon:18.411, g:0, k:3, m:"Budin", s:[{f:"1281-01-01",t:"1543-08-10",d:"macaristan"},{f:"1688-05-19",t:"1923-10-29",d:"avusturya"}], d:[{f:"1543-08-10",t:"1688-05-19",y:"kusatma"}] },
-{ ad:"Peşte", tur:"sehir", lat:47.494, lon:19.060, g:0, k:3, m:"Budin", s:[{f:"1281-01-01",t:"1526-09-01",d:"macaristan"},{f:"1686-09-02",t:"1923-10-29",d:"avusturya"}], v:[{f:"1526-09-01",t:"1541-08-29",k:"Macaristan (Zapolya vasal krallığı)"}], d:[{f:"1541-08-29",t:"1686-09-02"}] },
-{ ad:"Yanıkkale (Győr)", tur:"kale", lat:47.685, lon:17.635, g:0, k:4, m:"Budin", s:[{f:"1281-01-01",t:"1594-09-27",d:"macaristan"},{f:"1598-03-29",t:"1923-10-29",d:"avusturya"}], d:[{f:"1594-09-27",t:"1598-03-29",y:"kusatma"}] },
+{ ad:"İstolni Belgrad", tur:"kale", lat:47.190, lon:18.411, g:0, k:3, m:"Budin", s:[{f:"1281-01-01",t:"1543-08-10",d:"macaristan"},{f:"1688-05-19",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"macaristan"}], d:[{f:"1543-08-10",t:"1688-05-19",y:"kusatma"}] },
+{ ad:"Peşte", tur:"sehir", lat:47.494, lon:19.060, g:0, k:3, m:"Budin", s:[{f:"1281-01-01",t:"1526-09-01",d:"macaristan"},{f:"1686-09-02",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"macaristan"}], v:[{f:"1526-09-01",t:"1541-08-29",k:"Macaristan (Zapolya vasal krallığı)"}], d:[{f:"1541-08-29",t:"1686-09-02"}] },
+{ ad:"Yanıkkale (Győr)", tur:"kale", lat:47.685, lon:17.635, g:0, k:4, m:"Budin", s:[{f:"1281-01-01",t:"1594-09-27",d:"macaristan"},{f:"1598-03-29",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"macaristan"}], d:[{f:"1594-09-27",t:"1598-03-29",y:"kusatma"}] },
 // hatalar 6.docx madde 6 ve 7 — kullanıcı: "Yanovanın fethi maddesi ile
 // macaristandaki içeri girinti yapan koridorun dibindeki parça fethedilmiş, bu
 // tarihe kadar orası fethedilmemiş durumda mıydı yoksa önce ele geçirilip sonra
@@ -995,12 +995,12 @@ window.YERLESIMLER = [
 // Zincir artık Erdel (Kaloşvar) kaydının birebir aynısı: 1281-1526 macaristan,
 // 1526-09-01 Zapolya vasal krallığı, 1541-08-29 Erdel Prensliği, sonra fetih.
 // İki tarih de mevcut kırılma günü olduğu için YENİ kırılma üretilmedi.
-{ ad:"Varad (Oradea)", tur:"kale", lat:47.053, lon:21.941, g:0, k:3, m:"Erdel (Kaloşvar)", s:[{f:"1281-01-01",t:"1526-09-01",d:"macaristan"},{f:"1692-06-05",t:"1923-10-29",d:"avusturya"}], v:[{f:"1526-09-01",t:"1541-08-29",k:"Macaristan (Zapolya vasal krallığı)"},{f:"1541-08-29",t:"1660-08-27",k:"Erdel Prensliği"}], d:[{f:"1660-08-27",t:"1692-06-05",y:"kusatma"}] },
+{ ad:"Varad (Oradea)", tur:"kale", lat:47.053, lon:21.941, g:0, k:3, m:"Erdel (Kaloşvar)", s:[{f:"1281-01-01",t:"1526-09-01",d:"macaristan"},{f:"1692-06-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"romanya"}], v:[{f:"1526-09-01",t:"1541-08-29",k:"Macaristan (Zapolya vasal krallığı)"},{f:"1541-08-29",t:"1660-08-27",k:"Erdel Prensliği"}], d:[{f:"1660-08-27",t:"1692-06-05",y:"kusatma"}] },
 // Varad kaydındaki gerekçenin aynısı (hatalar 6.docx madde 6). Yanova 1658'de
 // Erdel seferi sırasında II. Rákóczi György'nin cezalandırılması üzerine
 // Erdel'den koparılıp Osmanlı'ya bağlandı; öncesinde Habsburg değil Erdel
 // toprağıydı.
-{ ad:"Yanova (Ineu)", tur:"kale", lat:46.426, lon:21.741, g:0, k:4, m:"Temeşvar", s:[{f:"1281-01-01",t:"1526-09-01",d:"macaristan"},{f:"1693-01-01",t:"1923-10-29",d:"avusturya"}], v:[{f:"1526-09-01",t:"1541-08-29",k:"Macaristan (Zapolya vasal krallığı)"},{f:"1541-08-29",t:"1658-08-27",k:"Erdel Prensliği"}], d:[{f:"1658-08-27",t:"1693-01-01",y:"kusatma"}] },
+{ ad:"Yanova (Ineu)", tur:"kale", lat:46.426, lon:21.741, g:0, k:4, m:"Temeşvar", s:[{f:"1281-01-01",t:"1526-09-01",d:"macaristan"},{f:"1693-01-01",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"romanya"}], v:[{f:"1526-09-01",t:"1541-08-29",k:"Macaristan (Zapolya vasal krallığı)"},{f:"1541-08-29",t:"1658-08-27",k:"Erdel Prensliği"}], d:[{f:"1658-08-27",t:"1693-01-01",y:"kusatma"}] },
 
 // Tuna deltası ve Karadeniz kuzeyi
 // 🔴 HAYALET BÖLÜNME DÜZELTMESİ (Oturum 11'in ölçümü, hatalar 14 md.2 + hatalar 15 md.9/16/20)
@@ -1945,5 +1945,5 @@ window.YERLESIMLER = [
 { ad:"Yayça (Jajce)", tur:"kale", lat:44.342, lon:17.271, g:0, k:3, m:"Saraybosna", s:[{f:"1281-01-01",t:"1463-06-01",d:"bosna"},{f:"1463-06-01",t:"1528-01-01",d:"macaristan"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"sirbistan"}], d:[{f:"1528-01-01",t:"1908-10-05"}], isg:[{f:"1878-07-29",t:"1908-10-05",d:"avusturya",kaynak:"berlin-antlasmasi"}] },
 { ad:"Srebrenik", tur:"kale", lat:44.705, lon:18.489, g:0, k:4, m:"Saraybosna", s:[{f:"1281-01-01",t:"1463-06-01",d:"bosna"},{f:"1463-06-01",t:"1512-01-01",d:"macaristan"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"sirbistan"}], d:[{f:"1512-01-01",t:"1908-10-05"}], isg:[{f:"1878-07-29",t:"1908-10-05",d:"avusturya",kaynak:"berlin-antlasmasi"}] },
 { ad:"Yergöğü (Giurgiu)", tur:"kale", lat:43.904, lon:25.970, g:0, k:4, m:"Sofya", s:[{f:"1281-01-01",t:"1420-01-01",d:"eflak"},{f:"1427-01-01",t:"1449-01-01",d:"eflak"},{f:"1810-09-27",t:"1829-09-14",d:"rusya"},{f:"1829-09-14",t:"1859-01-24",d:"eflak"},{f:"1859-01-24",t:"1923-10-29",d:"romanya"}], d:[{f:"1420-01-01",t:"1427-01-01"},{f:"1449-01-01",t:"1810-09-27",y:"savas"}] },
-{ ad:"Dubrovnik", tur:"sehir", lat:42.650, lon:18.094, g:0, k:3, s:[{f:"1281-01-01",t:"1358-01-01",d:"venedik"},{f:"1358-01-01",t:"1458-01-01",d:"macaristan"},{f:"1806-05-27",t:"1814-01-01",d:"fransa"},{f:"1814-01-01",t:"1923-10-29",d:"avusturya"}], d:[], v:[{f:"1458-01-01",t:"1806-05-27",k:"Dubrovnik Cumhuriyeti (haraçgüzâr)"}] },
+{ ad:"Dubrovnik", tur:"sehir", lat:42.650, lon:18.094, g:0, k:3, s:[{f:"1281-01-01",t:"1358-01-01",d:"venedik"},{f:"1358-01-01",t:"1458-01-01",d:"macaristan"},{f:"1806-05-27",t:"1814-01-01",d:"fransa"},{f:"1814-01-01",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}], d:[], v:[{f:"1458-01-01",t:"1806-05-27",k:"Dubrovnik Cumhuriyeti (haraçgüzâr)"}] },
 ];
