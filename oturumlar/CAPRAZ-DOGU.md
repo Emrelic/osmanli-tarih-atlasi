@@ -1149,3 +1149,201 @@ sahipsizlik açar. Ya `dahlak`/`beca` kimliğiyle birlikte gider, ya hiç gitmez
    ama **ölçmedim**
 5. Önceki turlardan: 6 Kafkasya noktası · fetretin İran geri kalanı · B4/B5 ·
    Ç2, Ç5, Ç6 · `marasi`
+
+---
+---
+
+# TESLİM 6 — Kızıldeniz'in sahibi: iki ayrı cevap, ve BİR BULGUMU GERİ ALIYORUM
+
+> Görev: *"1517-1554 arası Kızıldeniz kıyısını kim tutuyordu?"*
+> Cevap tek değil — **iki farklı grup, iki farklı cevap** — ve üçüncü grup için
+> kendi bulgumu geri çekiyorum.
+
+---
+
+## 38. ⚠️ ÖNCE BİR DÜZELTME — Func'u ELEMEMİŞTİM
+
+Koordinatörün mesajı *"`func` (zaten elemiştin — ama neden elendiğini yaz)"*
+diyor. **Elememiştim.** Teslim 5'te yazdığım şuydu: *"Beca konfederasyonu
+muhtemel, **doğrulanmadı**."* Func'u ne eledim ne de değerlendirdim; adını hiç
+anmadım.
+
+📌 Bunu düzeltiyorum çünkü `ORGANIZASYON §12`'nin ta kendisi: **röle, aktardığı
+iddianın otoritesini yükseltiyor.** *"Zaten elemişti"* diye geçseydi, elenmemiş
+bir aday elenmiş sayılacaktı ve **kimse bir daha bakmayacaktı.**
+
+**Şimdi eledim, kaynağıyla** — §41'de.
+
+---
+
+## 39. ✅ CEVAP 1 — MASAVVA · DAHLAK · ARKÎKO: `dahlak` (adı konmuş hâkimiyet)
+
+### ② İki bağımsız TDV maddesi
+
+| madde | ne diyor |
+|---|---|
+| `dehlek` 🟢 | *"VI. (XII.) yüzyıldan itibaren de **kendi meliklerince bağımsız olarak** yönetilmiştir"* · **Memlük yönetimi belgelenmiyor** · Özdemir Paşa Yemen fethi sırasında aldı; Habeş eyaleti **5 Temmuz 1555** kurulunca ona bağlandı |
+| `masavva` 🟢 | XII-XIV. yy *"**Dehlek emîrlerinin** hâkimiyetinde"* · Osmanlı **2 Nisan 1557** |
+
+### ③ Hüküm: **Teslim 5'teki bulgu DOĞRULANDI ve güçlendi**
+
+İki ayrı madde, aynı şeyi söylüyor: bu adalar ve karşı kıyı **Memlük değil,
+kendi meliklerinin** elindeydi. Öneri kesinleşti:
+
+```
+Masavva · Dahlak · Arkîko
+   memluk 1281-01-01 → 1517-04-13     ✗  (236 yıl yanlış kimlik)
+   habesistan 1517-04-13 → 1557-01-01 ✗  (dolgu; artık gereksiz)
+                ↓
+   dahlak 1281-01-01 → 1557-04-02  +  OSMANLI 1557-04-02 →
+```
+🟢 **Sahipsizlik açmıyor** — dolgu kimliği hazır. **1 yeni renk** (`dahlak`).
+⚠️ Arkîko için TDV *"Masavva'dan kısa süre sonra"* diyor; gün yok ⇒ `1557-04-02`
+alınıp `gun:"1557 baharı"` işaretlenmeli (`§4⑤`).
+
+---
+
+## 40. 🔴 CEVAP 2 — SEVÂKİN · HALÂİB · AKĪK · TOKAR · SİNKAT: kabile, devlet değil — VE İKİ MADDE ÇELİŞİYOR
+
+### ② TDV `bece` 🟢 (doğru slug `bece`, `beca` değil)
+
+> Bece'ler Kınâ-Kusayr, Atbara nehri ve Eritre-Sudan sınırı tepeleriyle
+> sınırlı üçgende — **Kızıldeniz kıyısı dâhil**
+> Boylar: **Hadârib · Zenâfice · Abâbde · Bişârîn · Ummarâr · Hadenduva**
+> **Merkezî devlet değil, kabile konfederasyonu**; liderlik boy başkanlarında
+> **"1517'de Osmanlılar bölgeye hâkim oldular"**
+
+### 🔴 Ç7 — VE BU, `habes-eyaleti` İLE ÇELİŞİYOR
+
+```
+bece           : "1517'de Osmanlılar bölgeye hâkim oldular"
+habes-eyaleti  : "Bu kıyı toprakları 1517'de Memlükler'den DEVRALINMADI";
+                 Osmanlı 1550'lerde kademe kademe fethetti; eyalet 5 Temmuz 1555
+```
+
+### ③ Hüküm: **ÇELİŞİYOR — kaydediyorum, çözmüyorum** (`§8`)
+
+⚠️ **Teslim 5'teki Sevâkin/Akīk bulgumu geri çekmiyorum ama GÜCÜNÜ düşürüyorum:**
+🟢 kesin → 🟡 **çelişkili**. İki TDV maddesi karşı karşıya.
+
+📌 İki okuma da mümkün ve ayırt edemiyorum:
+- *"1517'de Osmanlı **bölgenin** hâkim gücü oldu"* (Mısır'ın fethiyle Kızıldeniz'in
+  hâkimi değişti) ile *"1554'te **Sevâkin sancağı** kuruldu"* **çelişmez** — biri
+  nüfuz, öteki idare.
+- Ama harita **idare** boyuyor, nüfuz değil. O hâlde `habes-eyaleti` esas olur.
+
+⇒ **Kararı vermiyorum.** `§4④` (*olayın kendi maddesi esas*) burada net değil:
+olay *"Osmanlı bu kıyıyı ne zaman aldı"* ve **`habes-eyaleti` tam o olayın
+maddesi** — ama `bece` de **tam o bölgenin** maddesi. Kural iki farklı yöne
+işaret ediyor; **kuralın kendisinin bir boşluğu** ve koordinatöre bildiriyorum.
+
+### Ve sahip sorusunun cevabı: **② KABİLE — devlet değil**
+
+Koordinatörün üç seçeneğinden **②** çıktı. Bece'ler devlet kurmadı; Sevâkin
+çevresinde **Hadârib** boyu var. ⇒ Eğer `habes-eyaleti` okuması seçilirse
+1517-1554 penceresine `bece` (ya da `hadaribe`) kimliği yazılabilir ve
+**sahipsizlik açılmaz.**
+🟡 Ama bu bir **kabile konfederasyonuna devlet muamelesi** yapmak olur —
+haritada Osmanlı'yla aynı ağırlıkta bir gövde çizilir. Gösterim kararı;
+koordinatörde.
+
+---
+
+## 41. ✅ FUNC ELENDİ — kaynağıyla
+
+### ② TDV `func` 🟢
+> Kuruluş **1504**, Amâre (Dûnkas) b. Adlân, başkent Sennâr
+> **II. Bâdî devrinde (1649-1680)** sınırlar *"Üçüncü Şelâle'den Mavi Nil'e,
+> **Kızıldeniz'den** Kordofan'a"* ulaştı
+
+### ③ Hüküm: **Func bizim penceremizde DEĞİL**
+
+Func Kızıldeniz'e **1649-1680 arasında** ulaşıyor. Bizim aradığımız pencere
+**1517-1554** — yani Func'un kıyıya varmasından **bir buçuk asır önce.**
+⇒ Aday olarak elendi. **Gerekçe artık yazılı.**
+
+---
+
+## 42. 🔴 VE TESLİM 5'TEKİ BİR BULGUMU GERİ ALIYORUM — İbrim ve Vâdî Halfâ
+
+### ② TDV `nube` 🟢
+> Memlük hâkimiyeti Yavuz'un Mısır fethiyle sona erdi. Ardından
+> **"Osmanlılar, Aşağı Nûbe'de Halfa vadisine kadar olan bölgeyi kontrolleri
+> altına aldı"**
+> **981 (1573)**: İbrim **sancağı** Habeş eyaletine bağlandı
+> **992 (1584)**: İbrim eyalet yapıldı, iki yıl sonra tekrar sancak
+
+### ③ Hüküm: **BULGUM ÇÜRÜDÜ — verimiz doğru**
+
+Teslim 5'te İbrim ve Vâdî Halfâ için *"55,7 yıl erken Osmanlı"* demiştim ve
+**🔴 zayıf** diye etiketlemiştim. Gerekçem `ibrim` maddesinin arama özetindeki
+*"İbrim sancağı 1573"* ibaresiydi. `nube` maddesi bunu açıklıyor:
+
+> **1573 fetih tarihi değil, İDARÎ BAĞLANMA tarihi.** Fetih Mısır'ın
+> fethiyle, yani **1517**'de olmuş.
+
+⇒ **Veri (`OSMANLI 1517-04-13`) doğru. 111,4 nokta-yıllık iddiam geçersiz.**
+
+📌 Ve bu, etiketlemenin işe yaradığı yer: bulguyu **🔴 zayıf** diye
+işaretlediğim için kimse ona dayanarak yama yazmadı. **Güç etiketi olmasaydı
+doğru bir kaydı bozacaktık.**
+⇒ Ders önerisi ⑩ (§43).
+
+---
+
+## 43. BİLANÇO — Teslim 5'in üç iddiası, Teslim 6'da ne oldu
+
+| iddia | Teslim 5 | Teslim 6 | sonuç |
+|---|---|---|---|
+| Masavva·Dahlak·Arkîko Memlük değil | 🟢 kesin | **iki maddeyle doğrulandı** | ✅ güçlendi |
+| Sevâkin·Akīk 37-38 yıl erken Osmanlı | 🟢 kesin | **`bece` çelişiyor** | 🟡 çelişkili |
+| İbrim·Vâdî Halfâ 55,7 yıl erken | 🔴 zayıf | **`nube` çürüttü** | ❌ **geri alındı** |
+
+⇒ Erken Osmanlı hayaletinin ölçülmüş toplamı **190,9 → 75,2 nokta-yıl**
+(ve o 75,2 de artık 🟡 çelişkili).
+
+### 📌 Ders önerisi ⑩ — koordinatöre
+
+> **Bulguya güç etiketi koymak, yanlış bulgunun maliyetini sıfıra indirir.**
+> Teslim 5'te üç iddia vardı; biri çürüdü. Çürüyeni **🔴 zayıf** diye
+> işaretlediğim için hiçbir yama ona dayanmadı, hiçbir şey bozulmadı. Etiket
+> olmasaydı *"55,7 yıl fazla"* diye doğru bir kayıt bozulacaktı.
+> ⇒ **Yanlış bulgu ücretsizdir; etiketsiz bulgu değildir.**
+
+📌 Ve bunun ikinci yüzü: `§72`'deki sabah vakası tam bunun eksikliğiydi —
+*"hayalet Memlük 39,7 yıl"* teşhisi doğruydu ama **güç etiketi yoktu**, yama
+hemen uygulandı ve hayalet taraf değiştirdi.
+
+---
+
+## 44. ÖNERİ ÖZETİ — sıraya konmuş hâlde
+
+```
+🟢 ŞİMDİ UYGULANABİLİR — kaynak iki maddeyle sağlam, sahipsizlik açmıyor
+   Masavva · Dahlak · Arkîko
+     memluk 1281→1517-04-13  +  habesistan 1517-04-13→1557-01-01
+        ↓
+     dahlak 1281-01-01 → 1557-04-02  +  OSMANLI 1557-04-02 →
+     (1 yeni renk: `dahlak`)
+
+🟢 ŞİMDİ UYGULANABİLİR — gün hassasiyeti düzeltmesi
+     Masavva OSMANLI başlangıcı 1557-01-01 → 1557-04-02 + gun:"2 Nisan 1557"
+
+🟡 KARAR BEKLİYOR — iki TDV maddesi çelişiyor (Ç7)
+     Sevâkin · Halâib · Akīk · Tokar · Sinkat  1517-1554
+     bece: "1517'de Osmanlılar hâkim oldular"  ↔  habes-eyaleti: "devralınmadı"
+
+❌ GERİ ALINDI
+     İbrim · Vâdî Halfâ — veri doğru, iddiam yanlıştı
+```
+
+---
+
+## 45. AÇIK KALANLAR — Teslim 6 sonu
+
+1. 🟡 **Ç7 kararı** — `bece` mi `habes-eyaleti` mi; ve seçilirse `bece`
+   kimliği kabile konfederasyonuna devlet muamelesi yapar mı
+2. ⏳ **Suriye-Filistin kesiti** — hâlâ ölçmedim
+3. `sevakin` ve `ibrim` müstakil madde YOK (içerik `habes-eyaleti` ve `nube`'de)
+4. Önceki turlardan: 6 Kafkasya noktası · fetretin İran geri kalanı · B4/B5 ·
+   Ç2, Ç5, Ç6 · `marasi`

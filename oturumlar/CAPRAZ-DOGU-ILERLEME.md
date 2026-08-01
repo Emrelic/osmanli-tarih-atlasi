@@ -467,12 +467,85 @@ Sonuç: 190+ nokta-yıllık erken Osmanlı, hiçbir denetimden geçmediği için
 
 ---
 
+---
+
+## 1 Ağustos · Tur 6 — Kızıldeniz'in sahibi
+
+Koordinatör `§72`'yi yazdı: sabah başka bir oturum **aynı 38 yılı** ters uçtan
+ölçmüş, yamayı uygulamış ve hayalet **taraf değiştirmiş**. Benim *"tek başına
+yapılamaz"* uyarım o tuzağın öbür yüzüymüş.
+
+### ⚠️ Ölçüm 26 — önce bir röle düzeltmesi
+
+Koordinatör *"`func`'u zaten elemiştin"* dedi. **Elememiştim** — Teslim 5'te
+yazdığım *"Beca konfederasyonu muhtemel, doğrulanmadı"*; Func'un adını hiç
+anmadım. Düzelttim (`§38`), sonra **gerçekten eledim** (`§41`).
+📌 `ORGANIZASYON §12`: röle, aktardığı iddianın otoritesini yükseltiyor.
+*"Zaten elemişti"* diye geçseydi elenmemiş bir aday elenmiş sayılacaktı.
+
+### Ölçüm 27 — TDV turu 6: 6 adres
+
+🟢 canlı: `func` · `nube` · `bece` · `dehlek`
+🔴 ölü: `beca` (**doğrusu `bece`** — ders ⑥'nın 5. vakası) · `sevakin` ·
+`ibrim` (ikisinin de müstakil maddesi yok, içerik `habes-eyaleti` ve `nube`'de)
+
+### Sonuç — sahip sorusu ikiye ayrıldı
+
+```
+Masavva · Dahlak · Arkîko   → ① ADI KONMUŞ HÂKİMİYET: Dehlek melikleri
+   dehlek : "XII. yy'dan itibaren kendi meliklerince BAĞIMSIZ"
+            Memlük yönetimi BELGELENMİYOR
+   masavva: "Dehlek emîrlerinin hâkimiyetinde"
+   ⇒ iki bağımsız madde, Teslim 5 bulgusu GÜÇLENDİ, sahipsizlik açmıyor
+
+Sevâkin · Halâib · Akīk · Tokar · Sinkat → ② KABİLE, DEVLET DEĞİL
+   bece: Hadârib·Zenâfice·Abâbde·Bişârîn·Ummarâr·Hadenduva
+         "merkezî devlet değil, kabile konfederasyonu"
+   🔴 AMA: bece "1517'de Osmanlılar bölgeye hâkim oldular" diyor
+      habes-eyaleti ise "1517'de devralınmadı, 1550'lerde fethedildi"
+   ⇒ Ç7: İKİ TDV MADDESİ ÇELİŞİYOR — kaydettim, çözmedim
+```
+
+### Ölçüm 28 — Func elendi, gerekçesiyle
+
+`func` 🟢: kuruluş **1504** Sennâr; Kızıldeniz'e **II. Bâdî devrinde
+(1649-1680)** ulaşıyor. Bizim pencere 1517-1554 ⇒ **bir buçuk asır önce.**
+Aday değil.
+
+### 🔴 Ölçüm 29 — TESLİM 5'TEKİ BİR BULGUMU GERİ ALDIM
+
+`nube` 🟢: Memlük hâkimiyeti Mısır'ın fethiyle bitti, ardından *"Osmanlılar,
+Aşağı Nûbe'de **Halfa vadisine kadar** olan bölgeyi kontrolleri altına aldı"*.
+**981 (1573) fetih değil, İDARÎ BAĞLANMA tarihi.**
+
+⇒ İbrim ve Vâdî Halfâ için ileri sürdüğüm **55,7 yıl × 2 = 111,4 nokta-yıl**
+iddiası **geçersiz. Veri doğru.**
+
+```
+erken Osmanlı hayaleti:  190,9  →  75,2 nokta-yıl   (ve o da artık 🟡 çelişkili)
+```
+
+---
+
+## 📌 Tur 6'dan çıkan ders önerisi (koordinatöre)
+
+**⑩ Bulguya GÜÇ ETİKETİ koymak, yanlış bulgunun maliyetini sıfıra indirir.**
+Teslim 5'te üç iddia vardı: biri güçlendi, biri çelişkiye düştü, biri çürüdü.
+Çürüyeni **🔴 zayıf** diye işaretlediğim için hiçbir yama ona dayanmadı ve
+hiçbir şey bozulmadı. Etiket olmasaydı `İbrim/Vâdî Halfâ`'nın **doğru** olan
+kaydı bozulacaktı.
+> **Yanlış bulgu ücretsizdir; etiketsiz bulgu değildir.**
+
+📌 Ve `§72`'deki sabah vakası tam bunun eksikliği: *"hayalet Memlük 39,7 yıl"*
+teşhisi doğruydu ama **güç etiketi yoktu**, yama hemen uygulandı, hayalet taraf
+değiştirdi. Aynı gün, aynı 38 yıl, iki oturum — **etiketli olan zarar vermedi.**
+
+---
+
 ## Sıradaki tur
 
-1. 🔴 **1517-1554 Sudan kıyısının sahibi** — Değişmez 1'in ön şartı; bulunmadan
-   Sevâkin/Akīk düzeltmesi uygulanamaz (5 nokta sahipsiz kalır)
-2. ⏳ **Suriye-Filistin kesiti ölçülmedi** — gün hassasiyetli ve tutarlı
-   görünüyor ama **bakmadım**
-3. İbrim/Vâdî Halfâ Nûbe fetih tarihi · `ibrim` ve `sevakin` adresleri
-4. Önceki turlardan: 6 Kafkasya noktası · fetretin İran geri kalanı ·
+1. 🟡 **Ç7 kararı koordinatörde** — `bece` ↔ `habes-eyaleti`
+2. ⏳ **Suriye-Filistin kesiti** — hâlâ ölçmedim, sıradaki iş
+3. Önceki turlardan: 6 Kafkasya noktası · fetretin İran geri kalanı ·
    B4/B5 · Ç2, Ç5, Ç6 · `marasi`
+4. Koordinatörün haber verdiği yeni iş: **Fransa**
