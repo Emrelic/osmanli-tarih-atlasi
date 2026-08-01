@@ -100,7 +100,7 @@ BOYALAR = {
     "memluk":     ("Memlûk",                 "#c9a15b"),
     "iran":       ("İran",                   "#b5885b"),
     "karakoyunlu":("Karakoyunlular",         "#4a5b6b"),
-    "akkoyunlu":  ("Akkoyunlular",           "#b5bcc9"),
+    "akkoyunlu":  ("Akkoyunlular",           "#48ae48"),
     "safevi":     ("Safevî İran",            "#6b4a7d"),
     "gurcistan":  ("Gürcistan",              "#6b7da0"),
     # Kullanıcı şikâyeti (hatalar 15 md.5): "1541-1545 Macaristan'da üç yeşil
@@ -266,10 +266,10 @@ BOYALAR = {
     # Ankara Savaşı'ndan sonra Timur, aldığı yerlere kendi valilerini tayin etti;
     # Sivas 1408'e kadar Timurlu valisi Mezid Bey'in elinde kaldı. Ad açıldı.
     "timurlu":         ("Timurlu valiliği",              "#8d6e63"),
-    "suleyman-celebi": ("Emîr Süleyman Çelebi (Rumeli)", "#b71c1c"),
-    "isa-celebi":      ("İsa Çelebi (Bursa)",            "#e04b2a"),
-    "mehmed-celebi":   ("Çelebi Mehmed (Amasya)",        "#a8183f"),
-    "musa-celebi":     ("Musa Çelebi (Rumeli)",          "#d81b60"),
+    "suleyman-celebi": ("Emîr Süleyman Çelebi (Rumeli)", "#570012"),
+    "isa-celebi":      ("İsa Çelebi (Bursa)",            "#ff96a5"),
+    "mehmed-celebi":   ("Çelebi Mehmed (Amasya)",        "#f90c15"),
+    "musa-celebi":     ("Musa Çelebi (Rumeli)",          "#e14e5a"),
     # ⚠️ Eski #7a9e6b, Bulgaristan'ın #7aa06a'sına ΔE 1.8 — pratikte AYNI RENK.
     # Tuna'nın iki yakası 1281-1878 boyunca tek gövde gibi görünüyordu. Yeşil
     # kimlik korundu ama parlaklık/doygunluk ayrıldı: Bulgaristan'a ΔE 33.

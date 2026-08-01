@@ -75,6 +75,12 @@ girdi.anlik_goruntu()
 # Ve `URETIM_IZI`e yazılan iz KOPYANIN izidir, yani koşunun GERÇEKTEN okuduğu
 # hâl; diskteki hâl değil (o koşu boyunca değişebilir).
 _GIRDI_IZI = girdi.parmak_izi()
+# ⚠️ MOTOR İZİ DE BAŞTA — 1 Ağustos 2026'da bulundu. Eskiden çıktı yazılırken
+# diskten okunuyordu; koşu sırasında `renkler.py` değişse süreç etkilenmez
+# (kod başta belleğe alınır) ama DAMGA etkilenirdi: koşunun çalıştırmadığı
+# kodun özeti yazılırdı. Aşağıda GİRDİ için yazılmış olan gerekçe, koda
+# uygulanmamıştı.
+_MOTOR_IZI = girdi.motor_izi()
 
 # ---------------- Kara maskesi ----------------
 # KARA_TOL: kıyı çizgisinin sadeleştirme toleransı (derece). Bütün gövdeler
@@ -1760,9 +1766,13 @@ print(f"Per-petek gövde → data/petek_govde.js "
 # aksi hâlde koşu ortasında değişen bir girdi kendi izini damgalar ve damga
 # yalanı doğrular.
 js += ("window.URETIM_IZI = "
-       + json.dumps({"girdi": _GIRDI_IZI, "motor": girdi.motor_izi()},
+       + json.dumps({"girdi": _GIRDI_IZI, "motor": _MOTOR_IZI},
                     separators=(",", ":"), sort_keys=True) + ";\n")
 girdi.izi_dogrula(_GIRDI_IZI, "data/donemler.js")
+# Damganın DOĞRU olması yetmez, KORUNMASI da gerek: kod koşu sırasında
+# değiştiyse çıktı karışık koddan üretilmiş olabilir. Girdiyle aynı
+# felsefe — sessiz geçiş yok.
+girdi.motor_izi_dogrula(_MOTOR_IZI, "data/donemler.js")
 open(CIKTI, "w", encoding="utf-8").write(js)
 
 print(f"Dönem sayısı: {len(donemler)}")

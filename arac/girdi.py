@@ -372,6 +372,33 @@ def motor_izi():
     return iz
 
 
+def motor_izi_dogrula(baslangic, nerede):
+    """Motor KODU koşu sırasında değiştiyse ÖLDÜRÜR.
+
+    `izi_dogrula`nın kod eksenindeki eşi. 1 Ağustos 2026'da ölçüldü: girdi
+    koşunun BAŞINDA damgalanıp üç yerde doğrulanıyordu, kod ise SONUNDA
+    diskten okunuyordu ve hiç doğrulanmıyordu. Koşu sırasında `renkler.py`
+    düzenlense süreç etkilenmez (Python dosyayı başta belleğe alır) ama
+    damga, koşunun ÇALIŞTIRMADIĞI kodun özetini yazardı — "çıktı hangi
+    koddan üretildi" sorusuna sessizce yanlış cevap.
+
+    📌 Sebep bilgi eksikliği değildi: `uret_petek.py`nin çıktı bölümünde
+    aynı gerekçe GİRDİ için yazılıydı. Gerekçe yazılmış, bir argüman
+    ötesine uygulanmamıştı.
+    ⇒ Bir yöntemin bağışık olduğunu varsaydığın eksen, taramayı en çok
+      atlayacağın eksendir.
+    """
+    simdi = motor_izi()
+    degisen = [a for a in set(baslangic) | set(simdi)
+               if baslangic.get(a) != simdi.get(a)]
+    if degisen:
+        raise SystemExit(
+            "MOTOR KODU KOSU SIRASINDA DEGISTI: " + ", ".join(sorted(degisen))
+            + " (" + nerede + " yazilmadan once olculdu). Cikti karisik"
+            " koddan uretilmis olabilir ve damga da yalan soylerdi."
+            " Kosu OLDURULDU -- bastan baslat.")
+
+
 def izi_dogrula(baslangic, nerede):
     """Girdi koşu sırasında değiştiyse ÖLDÜRÜR. Sessiz geçiş yok."""
     simdi = parmak_izi()
