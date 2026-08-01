@@ -332,3 +332,59 @@ BATI'nın *"tek ardıl yazmak yanlış olur"* çekincesi **ölçümle doğruland
 
 ⚠️ Ve o çekince olmasaydı bugün **on adaya birden `yugoslavya`** yazılması
 önerilebilirdi; Cres yanlış olurdu. **Hüküm vermemek burada doğru hamleydi.**
+
+---
+
+# TUR 5 — kapsam yine değişti + kendi borcum kapandı
+
+## 15. KAPSAM — Kuzey Afrika GERİ ALINDI
+
+```
+BENDE      Venedik (1281→1797-05-12) · İyon/Adriyatik zinciri · Suriye-Lübnan (A-4)
+BENDE DEĞİL  Kuzey Afrika (→ ÇAPRAZ GÜNEY) · Fransa (→ ÇAPRAZ DOĞU)
+             Avusturya + Macaristan (ÇAPRAZ BATI)
+```
+**B-4 (Fizan/Hafsî, 841 gün × 6) ÇAPRAZ GÜNEY'e devredildi** — ölçüm ve
+*"1577-01-01 yıl hassasiyetli, şimdi düzeltilmesin"* çekincem birlikte gitti.
+
+⚠️ Bu, bu oturumun **üçüncü kapsam değişikliği** (Fransa alındı → Kuzey Afrika
+verildi → Kuzey Afrika alındı). Üçünde de ölçümler geçerli kaldı ve devredildi;
+hiçbiri boşa gitmedi. 📌 Ama not düşüyorum: **kapsam belgeye yazılmadan
+dağıtıldığı için üç kez değişti.** `ORGANIZASYON Karar 2`'nin aynı vakası.
+
+## 16. ⚠️ ÇAKIŞMA — sıra 1 zaten teslim edilmişti
+
+Koordinatörün *"1. sekiz Dalmaçya adası"* talimatı ile benim `e63a750`
+teslimim **çakıştı**. İş yapılmıştı: sekiz değil **on**, ardıl Rapallo'dan
+kaynaklandı, `Cres` ayrıldı. Tekrar yapılmadı.
+
+## 17. TESLİM
+
+| kod | konu | hüküm | güç (`§73`) |
+|---|---|---|---|
+| **E-1** | Parga — `ÇELİŞİYOR` → **`EKSİK KATMAN`** | 🔄 DÜZELTİLDİ | KESİN |
+| **E-2** | B-7'nin ucu: 1809/1810/1814, 1815 değil | 🔴 ÇELİŞİYOR | **DESEN** (gün yok) |
+
+### E-2'nin iki rakamı
+```
+üçüncü kırılma tek başına   11.470 gün = 31,4 yıl-nokta  (ilk tahminimin 3,7 katı)
+tek pencerenin anatomisi     %24,8 doğru · %75,2 yanlış
+```
+
+## 18. 🔴 YENİ SINIF ÖNERİSİ — "yutulmuş kırılma"
+
+`§3.5` hayalet devleti tarif ediyor: **var olmayan** devlet boyanıyor.
+E-2 farklı bir şey: **var olan** devlet boyanıyor ama **sahip değişimi yok
+ediliyor** — üç değişim tek pencereye sıkışmış.
+
+⇒ `Değişmez 2` (sessiz toprak değişimi yok) bunu **yapısal olarak göremez**:
+kırılma yoksa maddesi de aranmaz. **Denetim, olmayan kırılmayı sorgulayamıyor.**
+
+📌 Ve bu `§80`in kardeşi ama aynısı değil:
+```
+§80              olay k noktaya yazılmış, komşusuna yazılmamış   → NOKTA ekseni
+yutulmuş kırılma olay hiçbir noktaya yazılmamış, pencere tek     → ZAMAN ekseni
+```
+⚠️ BATI'nın uyarısıyla da örtüşüyor: kendi 1918 vakasının *"ufka kadar yazıp
+bırakmak"* olduğunu, benim üç vakamdan **ayrı sınıf** olduğunu ölçmüştü.
+⇒ **Üç ayrı sınıf var ve araç üçünü ayırmalı**, yoksa tek sorguda karışırlar.

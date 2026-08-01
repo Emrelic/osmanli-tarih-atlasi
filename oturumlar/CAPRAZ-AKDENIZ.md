@@ -702,6 +702,113 @@ maddesi. **Bu turda bulamadım ve tahmin etmiyorum.**
 
 ---
 
+---
+---
+
+# TUR 5 — kendi açtığım borcu kapatıyorum (B-7'nin ucu) + C-4 düzeltildi
+
+> Ölçüm commit'i: `e63a750`.
+> ⚠️ Koordinatörün 1. sıra işi (**sekiz Dalmaçya adası**) mesajlar çakışırken
+> **zaten teslim edilmişti** — `TUR 4 · D-1/D-2/D-3`, commit `e63a750`. Sekiz
+> değil **on** çıktı, ardıl kaynaklandı, `Cres` ötekilerden ayrıldı.
+
+## 🔴 E-1 · PARGA "EKSİK" DEĞİLMİŞ — ÇAPRAZ BATI'nın ölçütü C-4'ü düzeltiyor
+
+C-4'te *"Parga 1800'de Osmanlı egemenliğinde olmalıydı, bizde 1819'a kadar
+fransa/ingiltere ⇒ ÇELİŞİYOR"* demiştim. **Teşhis eksikti.**
+
+BATI'nın bugün koordinatörle kurduğu ölçüt (`OGRENILENLER §78`):
+> **Pencere BOYUNCA hükümranlık kimdeydi?** Osmanlı hükümranlığı hukuken sürüyor
+> + başkası fiilen tutuyor ⇒ **`isg:`**. Hükümranlık hukuken devrettiyse ⇒ `s:`.
+> ⚠️ Soru **başlangıçta** sorulur, bitişte değil.
+
+Parga'ya uygulandığında **iki kayıt da doğru çıkıyor, çelişmiyorlar:**
+```
+1800 konvansiyonu   "Parga… Osmanlı egemenliğinde kalacak"   → de jure  → d:
+1800-1819           fiilen Rus/Fransız/İngiliz denetiminde   → de facto → isg:
+1819-05-10          İngiltere Ali Paşa'ya devretti           → fiilî devir
+```
+
+⇒ **Hükmümü değiştiriyorum: `ÇELİŞİYOR` değil, `EKSİK KATMAN`.** Veri yanlış
+bir tarih taşımıyor; **taşıyamadığı bir ayrımı tek alana sıkıştırmış.**
+
+### Önerim (BATI'nın taslağı, ölçütü kendim sınadım)
+```
+d:   1800-04-03 → 1819-05-10                    Osmanlı de jure
+isg: 1800-04-03 → 1815-11-05  d="fransa"        fiilî denetim
+isg: 1815-11-05 → 1819-05-10  d="ingiltere"     fiilî denetim
+d:   1819-05-10 → 1913-03-06                    (mevcut, DEĞİŞMİYOR)
+```
+🟢 `isg:` motor tarafından **okunmuyor** ⇒ petek geometrisi değişmez, **üretim
+koşusu gerekmez, yeni renk yok.** Emsal: Mısır 1798-1801, Bosna 1878-1908.
+🟢 BATI'nın bant uyarısı sınandı: mevcut 72 `isg:` kaydının hepsi **1771 sonrası**;
+Parga **1800**, bant içinde ⇒ genişletme sorunu yok.
+⚠️ Başlangıcı `1800-03-21` değil **`1800-04-03`** yazdım — `B-6`'daki takvim
+hükmüm (hicrî gün taşıyan taraf esas) burada da geçerli, tutarlı olmak zorundayım.
+
+📌 **Ve C-4'ün ASIL değeri bu düzeltmeden sonra da duruyor:** Preveze/Vonitsa
+aynı maddede geçiyor ve onlar `d:OSMANLI` taşıyor, Parga taşımıyor. **§80 deseni
+ayakta** — değişen, eksiğin `s:` mi `isg:` mi olduğu.
+
+---
+
+## 🔴 E-2 · B-7'NİN UCU ÖLÇÜLDÜ — **3,7 kat büyük**, ve pencere kendi süresinin ancak dörtte birinde doğru
+
+B-7'de *"1814-1815 ucu ölçülmedi, tek başına ≈1,5 yıl × 7 ekleyebilir"* diye
+**kendi borcumu açık bırakmıştım.** Kapatıyorum — ve tahminim yanlıştı.
+
+### ② KAYNAKTA NE VAR
+İngiliz fethi **tek bir tarih değil**, üç dalga:
+```
+Ekim 1809      Zaklise · Kefalonya · İthaki · Çuha Adası (Zante·Cephalonia·Ithaca·Cerigo)
+Nisan 1810     Ayamavra (Santa Maura kuşatması, Mart-Nisan 1810)
+Haziran 1814   Korfu (Napolyon'un tahttan çekilmesinden sonra garnizon teslim)
+```
+> *"In 1809 the British drove the French out of what before 1797 had been
+> Venetian territory and annexed the islands in 1814."*
+
+### ③ HÜKÜM — **ÇELİŞİYOR**, güç: **DESEN** (`§73`)
+⚠️ **`KESİN` demiyorum:** üç kaynak birbiriyle tutarlı ama **gün vermiyorlar**,
+ve hiçbiri TDV/akademik birincil değil. `§76`: gün uydurmuyorum, **ay
+hassasiyetli** yazılmalı (`1809-10-01` · `1810-04-01` · `1814-06-01` yer tutucu).
+
+### ÖLÇÜ — ve rakam ilk tahminimi çürütüyor
+```
+üçüncü kırılma tek başına     11.470 gün = 31,4 yıl-nokta   (6 nokta)
+ilk turda "hepsi 1814" sansaydım        = 8,6 yıl-nokta
+                              ⇒ 3,7 KAT BÜYÜK
+```
+
+### 🔴 VE ASIL SAYI BU — tek pencerenin anatomisi
+`fransa 1797-10-17 → 1815-11-05` = **6.592 gün / 18,05 yıl.** Bunun ne kadarı
+gerçekten Fransız? (en temkinli hesapla — birinci çıkış için Korfu'nun günü)
+```
+                        GERÇEKTEN fransız        YANLIŞ
+Zaklise·Kefalonya·      1.319 gün (3,61 yıl)     5.273 gün (14,44 yıl)
+İthaki·Çuha  ×4
+Ayamavra                1.501 gün (4,11 yıl)     5.091 gün (13,94 yıl)
+Korfu                   3.023 gün (8,28 yıl)     3.569 gün ( 9,77 yıl)
+─────────────────────────────────────────────────────────────────────
+6 nokta                 9.800 gün = 26,8 y-n     29.752 gün = 81,5 y-n
+```
+> ⇒ **Pencere kendi süresinin yalnız %24,8'inde doğru. %75,2'si yanlış.**
+
+📌 **Ve bu, `§3.5`'in "hayalet devlet" sınıfından farklı bir şey söylüyor:** kayıt
+hayalet bir devlet boyamıyor — Fransa 1797-1815 arasında **gerçekten vardı.**
+Kusur, **bir pencerenin varlığında değil, tekliğinde.** Üç sahip değişimi tek
+pencereye sıkıştırılmış ve `Değişmez 2` bunu göremiyor çünkü **kırılma yok ki
+maddesi aransın.**
+
+⇒ **Sınıfın adı önerim: "yutulmuş kırılma".** Hayalet devlet *var olmayanı*
+boyar; yutulmuş kırılma *var olanı* boyar ama **değişimi yok eder.** İkisi de üç
+değişmezin kör noktasında, ama farklı sebeple.
+
+⚠️ **A-1'in 58,4 yıl-nokta rakamı hâlâ geçerli ve ayrı** — o `1799→1807`
+kesitiydi. E-2 `1809/1810/1814→1815` kesitini ölçüyor. **Toplanmazlar, üst üste
+binmezler; ikisi aynı pencerenin iki ayrı yarası.**
+
+---
+
 ## Sıradaki (aksi söylenmezse)
 
 1. **Ada ada gün kaynaklama** — 1798 sonbaharı Osmanlı-Rus seferi: Çuha · Zaklise ·
