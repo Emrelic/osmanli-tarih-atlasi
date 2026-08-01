@@ -3695,6 +3695,35 @@ eksenindeki hâli: *hayalet yok olmadı, taraf değiştirdi.*
 🟢 Çare tek nokta: **Bihać.** Hatayı açan da kapatan da aynı sınıf — **nokta
 yoğunluğu.**
 
+### 🔴 VE BİHAÇ EKLENİNCE — TEK NOKTA, İKİ YÖNDE İKİ HATA
+
+Eklendi ve ölçüldü. Beklenen kazanç Lika'ydı; **çıkan iki katıydı:**
+```
+Bihaç'ın peteği           8.872,9 km²
+   yeni noktalardan          1.768,8   ← beklenen
+   Banaluka + Yayça'dan      7.104,1   ← BEKLENMEYEN
+```
+Banaluka ve Yayça `d:` **1528**'den Osmanlı. Petekleri Bihaç bölgesini
+kapsadığı için harita orayı **1528'den itibaren Osmanlı** boyuyordu — oysa
+Bihaç **19 Haziran 1592**'ye kadar Habsburg'du.
+
+```
+1528-1592   OSMANLI fazla görünüyordu    ← MEVCUT hata, 64 yıl
+1688-1797   VENEDİK fazla görünecekti    ← BİZİM açtığımız hata
+```
+
+⇒ **`CLAUDE.md §3.5.1`'in *"noktasızlık İKİ YÖNE de hata üretir"* cümlesi
+aynı noktada, aynı anda doğrulandı.** Bir nokta eklendi, iki ayrı yöndeki iki
+ayrı hata birden kapandı.
+
+📌 Ve bu, `§82.1`'in ilk yarısını da güçlendiriyor: **bir noktanın faydası tek
+başına ölçülemez** — burada faydanın **%80'i** o noktayla hiç ilgisi olmayan
+iki komşunun yanlış iddiasını kesmekten geldi.
+
+⚠️ Ve tersi de ölçüldü: Skradin **çıkarılınca** 860,5 km²'si komşularına
+dağıldı ve Şibenik `654,5 → 1.230,0` km²'ye çıktı. **Aynı kural ters yönde
+çalışıyor** — bir noktayı çıkarmak da komşularının iddiasını büyütüyor.
+
 ### §82.2 — SIRALAMA ÖLÇÜTÜNDE GEOMETRİ YOKTU
 
 Girit, nokta ekleme kuyruğunun **başına** kondu ve gerekçe doğruydu: TDV
