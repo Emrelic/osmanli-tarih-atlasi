@@ -106,10 +106,49 @@ Dizin kendi `harita:` alanında *"beni `macaristan` diye boya"* diyor; veri
 `avusturya` yazıyor; **hiçbir denetim bu iki dosyayı karşılaştırmıyor.**
 
 En keskin vaka **Bratislava**: `s:avusturya 1526-08-29 → 1918-11-11`. Oysa
-Pozsony **Kraliyet Macaristanı'nın başkenti** ve 1536-1783 arası taç giyme
-şehriydi. Aynısı **Zagreb** (Hırvatistan-Slavonya, Macar tacı).
-İkinci keskin vaka **1867-1918**: Ausgleich'ten sonra Macaristan eş-egemen
-krallıktı; harita Budapeşte'yi **51 yıl** "Avusturya" gösteriyor.
+Pozsony **Kraliyet Macaristanı'nın başkentiydi.** Aynısı **Zagreb**
+(Hırvatistan-Slavonya, Macar tacı). İkinci keskin vaka **1867-1918**:
+Ausgleich'ten sonra Macaristan eş-egemen krallıktı; harita Budapeşte'yi
+**51 yıl** "Avusturya" gösteriyor.
+
+### 📚 Kaynaklandırma (2. tur) — ve kendi sayımı düzeltiyorum
+
+**② KAYNAKTA NE VAR** — *Die Welt der Habsburger* (habsburger.net, Schönbrunn
+kurumsal portalı) + Britannica:
+```
+1536         Pozsony/Pressburg Kraliyet Macaristanı'nın BAŞKENTİ ilan edildi
+             (Budin'in düşmesi üzerine)
+1542-1848    Macar Diyeti'nin toplanma yeri (aralıklarla)
+1536-1830    TAÇ GİYME şehri (Aziz Martin Katedrali)
+```
+🔴 **DÜZELTME — koordinatöre yanlış sayı ilettim.** İlk turda *"1536-1783 taç
+giyme şehri"* yazmıştım; doğrusu **taç giyme 1536-1830**'dur. `1783` ayrı bir
+olayın tarihi (II. Joseph idareyi Budin'e taşıdı) ve ikisini birleştirmişim.
+⇒ Pozsony 1783'te **idarî** başkentliği kaybetti ama **taç giyme şehri
+1830'a kadar kaldı.** İki ayrı işlev, iki ayrı tarih.
+📌 Bu tam `OGRENILENLER §74`'ün kendi vakası — ve **bu sefer ben düştüm.**
+
+### ⚠️ AUSGLEICH'İN DÖRT TARİHİ VAR — §74 yine
+```
+1867-02-08   uzlaşma metni sonuçlandı
+1867-03-30   Macar Diyeti onayladı        ← koordinatörün kullandığı
+1867-05-29   Diyet 1867/XII. kanunu kabul etti
+1867-06-08   Franz Joseph Macar kralı olarak TAÇ GİYDİ
+```
+**Hangisi haritanın tarihi?** Soru *"hangisi doğru"* değil, *"harita neyi
+gösteriyor"*: taban renk **hükümranlığı** izliyorsa ölçüt **taç giyme
+(1867-06-08)** olmalı — Macaristan'ın ayrı kral tarafından yönetilen ayrı
+krallık hâline geldiği an odur. `1867-03-30` bir parlamento kararıdır,
+hükümranlık devri değil.
+🟡 **Ama bu kalem zaten ertelendi**, karar anında yeniden açılır. Şimdilik
+**dört tarih de kaydedildi**, seçim yapılmadı.
+
+⚠️ **Kaynak zayıflığı dürüstçe:** yukarıdaki dört tarih bir web taramasından
+geldi ve sonuçlar arasında Vikipedi ve hayran wiki'leri vardı. Sağlam olanlar
+**habsburger.net** ve **Britannica**; ötekiler aday üreticidir. `1442`de
+uyguladığım ölçütü burada da uyguluyorum: **bu tarihler uygulanmadan önce
+akademik bir Macar/Habsburg kaynağıyla teyit edilmeli.** Bugün yalnız
+*"kaç ayrı tarih var"* sorusunu cevaplıyorlar — o soru için yeterli.
 
 ### 🎨 Renk — yeni hex GEREKMİYOR, ama karar gerekiyor
 `macaristan` (#1e88e5) ile `macaristan-habsburg` **hiç aynı anda var olmadı**
