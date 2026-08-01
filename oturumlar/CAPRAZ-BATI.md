@@ -291,15 +291,143 @@ sınıfını üretirim.
 
 ---
 
+---
+
+# VENEDİK — kullanıcının kendi sorusu
+
+> *"Venedik kaynaklarında Dubrovnik, Parga, Preveze, Modon, Koron ve çeşitli
+> adalar hakkında — Girit, Kıbrıs, Rodos vesaire — ne anlatıyor, **bizdeki
+> karşılığı nedir**?"*
+
+**Ölçüm:** `venedik` penceresi taşıyan **73 yerleşim**. Sahipsizlik taraması:
+**0/73** — Venedik ailesinde delik yok, zincirler kapalı. Genel sağlık iyi;
+aşağıdaki üç madde istisnadır.
+
+## V-1 🔴 DUBROVNİK — KAYDI HİÇ YOK, ve toprağı VENEDİK boyanıyor
+
+**① BİZDE NE VAR**
+```
+data/yerlesimler.js     Dubrovnik: KAYIT YOK
+data/olaylar_ek2.js     t:"1458-01-01"  b:"Dubrovnik (Raguza) haracı"   ← madde VAR
+```
+Yani **kronolojide madde var, haritada gösterecek nokta yok.**
+
+Noktasızlığın sonucu ölçüldü — `CLAUDE.md §2`'nin emilme davranışı:
+```
+Dubrovnik'e en yakın nokta:  Mliyet (Mljet), 48,2 km
+Mljet'in sahibi:             venedik 1281→1797, sonra avusturya
+```
+⇒ **Ragusa Cumhuriyeti, bağımsız var olduğu bütün süre boyunca haritamızda
+VENEDİK renginde görünüyor.** Ragusa'nın bütün kimliği Venedik'ten bağımsız
+olmaktı; bu, o devlet için verilebilecek en ters renktir.
+
+📌 `CLAUDE.md §2` bu vakayı **isim isim** öngörmüş: *"Brač, Hvar, Korčula
+1483'ten itibaren Osmanlı oldu (Mostar'dan)."* Aynı kıyı, aynı mekanizma —
+o sefer Mostar'dan Osmanlı, bu sefer Mljet'ten Venedik.
+
+**② KAYNAKTA NE VAR** — TDV `dubrovnik` (`<title>` = "DUBROVNİK - TDV İslâm
+Ansiklopedisi", **canlı**):
+```
+1358         Venedik hâkimiyeti sona erdi
+1365         ahidnâme — Dubrovnik Osmanlılar'ın HARAÇGÜZÂRI oluyor
+             haraç: 500 altın duka → 1.500 florin (1459) → 12.500 florin (1478)
+1806-05-27   Fransızlar Dubrovnik'i zaptetti, cumhuriyete son verdi
+```
+
+**③ HÜKÜM: ÇELİŞİYOR — üç ayrı katmanda.**
+
+1. **Nokta eksik** ⇒ toprak yanlış devlete boyanıyor (yukarıda).
+2. 🔴 **Tarih çelişkisi — ve bu bir "temas olgusu", ÇÖZMÜYORUM:**
+   ```
+   bizim kronolojimiz   1458       "Dubrovnik (Raguza) haracı"
+   TDV dubrovnik        1365       ahidnâme ile haraçgüzâr oldu
+                        1459       haraç 1.500 florine çıktı  ← 1458'e YAKIN
+   ```
+   Bizim 1458'imiz TDV'nin **1459 haraç artışına** denk düşüyor olabilir —
+   yani iki kayıt **farklı olayları** anlatıyor olabilir (tâbiliğin başlangıcı
+   vs. haracın yeniden belirlenmesi). `CAPRAZ-GOREV §3`: **kaydedildi,
+   çözülmedi.** Ragusa arşivi (*Acta Consilii Rogatorum*) ile sınanmalı.
+3. **Mljet'in kendi kimliği de şüpheli.** Mljet 1345'ten itibaren **Ragusa
+   Cumhuriyeti'nin** adasıydı, Venedik'in değil. TDV maddesi Mljet ve Lastovo'ya
+   **hiç değinmiyor** ⇒ `§8` gereği hüküm **"doğrulanamadı"** — bu tam bir
+   hükümdür, boşluk değil. Ragusa kaynağından sınanmalı.
+
+### 🟢 Önerilen düzeltme — YENİ RENK GEREKMİYOR
+Osmanlı'ya haraçgüzâr bir cumhuriyet, tam olarak **`v:` tâbi katmanının** işidir
+— Erdel'in modellendiği gibi (`v:` + `k:`), ve tâbi tonu zaten var:
+```
+Dubrovnik  lat 42.650  lon 18.094
+  s: 1281-01-01 -> 1358-01-01   d=venedik
+  s: 1358-01-01 -> <tâbilik>    d=macaristan          ← Zadar sonrası Macar himayesi
+  v: <tâbilik>   -> 1806-05-27  k="Dubrovnik Cumhuriyeti (haraçgüzâr)"
+  s: 1806-05-27 -> 1814-xx      d=fransa
+  s: 1814-xx    -> 1923-10-29   d=avusturya
+```
+⚠️ `<tâbilik>` **kasten boş**: 1365 (TDV) mi 1458 (bizim kronoloji) mi kararı
+yukarıdaki çelişki çözülmeden verilemez. **Uydurmuyorum.**
+⚠️ TDV Macar dönemine ve 1814 Avusturya devrine tarih vermiyor; ikisi de
+Ragusa/Habsburg kaynağından tamamlanacak.
+📌 3 km kuralı temiz: en yakın nokta 48,2 km (`CLAUDE.md §11`).
+
+## V-2 ✅ RODOS — kullanıcının saydığı ada, ama Venedik'in DEĞİLDİ
+
+**① BİZDE NE VAR:** `bizans 1281→1310-08-15` · **`sovalye` 1310-08-15→1522-12-21**
+· Osmanlı 1522-12-21→1912 · `italya` 1912-05-04→1923.
+
+**③ HÜKÜM: UYUYOR — ve sorunun kendisi düzeltilmeli.** Rodos hiçbir zaman
+Venedik'in olmadı; **Saint-Jean şövalyelerinindi** ve veri bunu doğru gösteriyor.
+Kullanıcının listesinde Rodos'un bulunması, Ege'deki Latin hâkimiyetinin tek
+blok sanılmasından — oysa üç ayrı güçtü: **Venedik** (Girit, Kıbrıs, İyon,
+Kiklad'ın bir kısmı) · **Ceneviz** (Sakız, Midilli) · **Şövalyeler** (Rodos, On İki Ada).
+
+## V-3 ✅ 1715 ÇELİŞKİSİ ÇÖZÜLDÜ — kanıt kendi verimizde
+
+Ayamavra'da kaydettiğim *"TDV 1715'te Osmanlı geri aldı diyor, batı tarih
+yazımının bir kısmı kesintisiz Venedik sayıyor"* çelişkisi için **verimizde
+emsal buldum**:
+```
+Çuha Adası (Kythira)   s:venedik 1281→1715-09-07
+                       d:OSMANLI 1715-09-07→1718-07-21     ← AYNI DESEN
+                       s:venedik 1718-07-21→1797-10-17
+```
+Kythira ve Lefkada **aynı 1715 Mora seferinde** alındı ve **aynı Pasarofça ile**
+(1718-07-21) Venedik'e iade edildi. Kythira'nın zinciri doğru yazılmış,
+Lefkada'nınki yazılmamış.
+
+**③ HÜKÜM: TDV'yi destekliyor.** Çelişki artık "iki tarih yazımı ayrışıyor"
+değil, **"aynı olay bir kayıtta var, ötekinde yok"**. Ayamavra düzeltmesindeki
+`1715-09-01` tahminim **`1715-09-07`'ye çekilmeli** — Kythira'nın tarihi zaten
+elimizde ve iki ada aynı seferde düştü.
+⚠️ Yine de Lefkada'nın **kendi** teslim günü Kythira'nınkiyle aynı olmak
+zorunda değil; Venedik Senato kaydından teyit edilene kadar `gun:` alanına
+*"1715 Eylülü"* yazılır.
+
+## V-4 📋 GERİ KALAN 70 KAYIT — nokta doğrulaması yapıldı, çelişki yok
+
+Kullanıcının saydığı öteki yerler ölçüldü ve **hepsi tutuyor**:
+```
+Kıbrıs      Venedik 1489-02-26 (Cornaro'nun devri) → Lefkoşa 1570-09-09 ·
+            Magosa 1571-08-01 · Baf/Limasol 1570-07-23 · Girne 1570-09-17
+Girit       Hanya 1645-08-22 → Resmo 1646-11-13 → Kandiye 1669-09-27
+            (Sitiye ve İsfakiye de 1669-09-27)
+Modon/Koron 1500-08-09 Osmanlı · 1685-86 Venedik geri aldı · 1715 tekrar Osmanlı
+Preveze     1449 Osmanlı · 1684-09-29 Venedik · 1797 Fransa · 1798-10-23 Osmanlı
+Parga       1401 Venedik · 1797 Fransa · 1815 İngiltere · 1819-05-10 Osmanlı
+Selanik     Venedik 1423-09-14 → 1430-03-29
+```
+📌 Parga'nın İyon zincirinden **1819'da ayrılıp Osmanlı'ya geçmesi** doğru
+yazılmış — İngiltere Parga'yı Ali Paşa'ya sattı, ada değil anakara olduğu için
+1864 Yunanistan devrine girmedi. Kaydı bu farkı taşıyor.
+
+---
+
 ## SIRADAKİ
 
-1. **Venedik adaları** (kullanıcının kendi sorusu) — Girit · Kıbrıs · Rodos ·
-   Modon · Koron · Preveze · Parga · Dubrovnik. Slugların hepsi KAYNAK
-   oturumunda **canlı** doğrulanmış; `preveze-deniz-savasi` ölü, doğrusu
-   `preveze-deniz-muharebesi`.
-2. **1699 Karlofça** — kasıtlı örtüşme noktası (`§1`): benim Avusturya ve
+1. **1699 Karlofça** — kasıtlı örtüşme noktası (`§1`): benim Avusturya ve
    Venedik'im + KUZEY'in Lehistan ve Rusya'sı. Dört kaynak karşılaştırılacak.
-3. **Uyvar `kur:`** TDV'den teyit.
+2. **Kraliyet Macaristanı kaynaklandırması** — Bratislava ve Ausgleich zinciri
+   (renk kararı ertelendi, kaynak işi sürüyor).
+3. **Fransa EN SON** — `yerlesimler_avrupa.js` merge kararı çıkınca.
 
 ## KOORDİNATÖRDE BEKLEYEN KARARLAR
 1. **B-2 renk seçimi** (a/b/c) — kullanıcı kararı, harita görünür değişiyor.
