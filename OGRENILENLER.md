@@ -2661,3 +2661,85 @@ künye doğrulaması    "slug canlı mı" + "canlı slug DOĞRU olay mı"
 torba ölçümü         "boya kaç devleti yutuyor" + "pencere hangi devlete düşüyor"
 ```
 
+
+---
+
+## §69 — ALARMI AÇIKLAMAK, ALARMI SUSTURMANIN KİBAR HÂLİDİR
+
+MOTOR r430 koşusunu yayınladıktan sonra kendi doğrulamasında bir hata buldu ve
+bildirdi:
+
+> *"Sana **'A/B tabanı `git show HEAD:`ten alındı'** demiştim. **Alınmamış.**
+> Kullandığım klasör `ab_r280` idi — iki koşuluk eski hâl. İlk A/B bugünkü
+> değişikliği değil **iki koşuluk farkı** ölçüyordu."*
+
+Ama asıl olay bundan sonrası:
+
+> *"Ve daha kötüsü: kendi taban sağlamam **'🔴 HEAD'DEN FARKLI'** diye bağırdı.
+> Ben **'HEAD ilerlemiştir, alarm yanlıştır'** diye **açıklamaya kalktım.**
+> Ölçünce taban gerçekten bayat çıktı — **alarm haklıydı.**"*
+
+### Kural
+
+> **Tabanı doğrulamak yetmiyor; doğrulama ALARM VERİNCE ONA İNANMAK gerekiyor.**
+> Alarmı açıklamak, alarmı susturmanın kibar hâlidir — **ve daha ikna edicidir,
+> çünkü gerekçelidir.**
+
+📌 Susturma açık bir eylemdir, fark edilir. Açıklama ise **düşünme gibi
+görünür**: "şu yüzden olmuştur" cümlesi, alarmın kendisinden daha akıllıca
+duyar. Ve o cümle doğru olabilir de — MOTOR'un "HEAD ilerlemiştir" açıklaması
+**genel olarak doğru bir olguydu**, yalnız o vakada geçerli değildi.
+
+⚠️ Sınama basit: **açıklamanı ölçebiliyor musun?** Ölçemiyorsan o bir açıklama
+değil, bir **tercihtir.** MOTOR ölçtü ve alarmın haklı olduğunu gördü.
+
+---
+
+## §70 — DOĞURAN VAKASINI KAÇIRAN DENETİM, DENETİM YOKLUĞUNDAN KÖTÜDÜR
+
+ÇAPRAZ BATI bir kusur buldu: `devletler.js` **"Macaristan Krallığı (Habsburg
+Tacı) 1526→1918, `harita:"macaristan"`"** diyor, ama Macar havzasında 1600'den
+1918'e `macaristan` **sıfır** — hepsi `avusturya`. Görünür sonucu: **1867-1918
+arası 51 yıl Budapeşte haritada "Avusturya".**
+
+DENETÇİ bunu ölçen bir denetim yazdı. Ölçüt: *"devletin ömrü boyunca kimliği hiç
+boyanmıyor mu?"* Sonuç: **120 sözleşmenin 0'ı ihlal.** Temiz.
+
+Ve denetimi **kurmadı:**
+
+> *"Kursaydım çıktı *'`harita:` sözleşmesi tutuluyor ✓'* derdi ve **Budapeşte'nin
+> 51 yıl Avusturya görünmesini meşrulaştırırdı.** `macaristan` başka
+> yerlerde/dönemlerde boyanıyor (13 pencere), yani *'hiç boyanmıyor mu'*
+> **YANLIŞ SORU.**"*
+
+### Kural
+
+> **Doğuran vakasını kaçıran bir denetim, denetim yokluğundan kötüdür — çünkü
+> yokluk arayışı SÜRDÜRÜR, sahte ✓ DURDURUR.**
+
+📌 Bu, `§65`'in ("bilinen vaka olmadan eşik türetilmez") kardeşi ama daha güçlü
+bir hâli: orada eşik yanlış çıkabilirdi; burada **ölçütün kendisi yanlış soruyu
+soruyor** ve doğru cevap veriyor.
+
+🟢 Ve doğru yön de teşhis edildi: soru *"kimlik hiç boyanıyor mu"* değil,
+**"devletin ÇEKİRDEK BÖLGESİNDE, kendi ömrü boyunca hangi kimlik baskın?"** —
+yani ölçüt **coğrafi** olmalı. `baskent:` alanı çıpa olabilir, ama yarıçap bir
+eşiktir ve ölçülmeden konmayacak.
+
+### 📌 Ek: ALINAN BİR UYARI, UYGULANAN BİR UYARI DEĞİLDİR
+
+Aynı turda DENETÇİ'nin ilk ölçümü **7 ihlal** verdi ve yedisinin de yılı **üç
+haneliydi** (`almanya 962 · bizans 330 · fransa 987 · nube 543 · papalik 756 ·
+venedik 697 · yemen 897`).
+
+ARAŞTIRMA ARABİSTAN bunu **aynı gün, açıkça** yazmıştı: *"tarihleri gün sayısına
+çevir, metin olarak kıyaslama — üç haneli yıl her metin-kıyasını bozar, ben 19
+sahte hayalet ürettim."*
+
+> **Bir uyarıyı okumak, onu uygulamak değildir.** Uyarı bir **kural** hâline
+> gelene kadar (koda, denetime, kontrol listesine) yalnız bir anıdır.
+
+Gün sayısına çevirince **7 → 0**. Ve yakalanma yolu yine aynı: *listede
+olamayacak üye* — yedi bulgunun yedisinin de üç haneli yıl taşıması tesadüf
+olamazdı.
+
