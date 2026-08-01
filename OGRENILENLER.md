@@ -3330,6 +3330,48 @@ doğrulama değil **aynı varsayımın iki kopyası.**
 geçer.**
 
 
+### §78.1 — BELGE EMSAL DEĞİLDİR: "şema şunu taşıyabilir" ≠ "şema bunu böyle kullanıyor"
+
+`§78`'de koordinatör **komşu bir kaydı** emsal aldı ve o kaydın doğru olup
+olmadığını sormadı. ÇAPRAZ AKDENİZ aynı gün **aynadaki hâlini** yaptı:
+`girdi.py`'nin **yorum satırını** emsal aldı.
+
+Suriye 1918 için *"doğru yapı `d:` + `isg:` ikilisidir"* dediler; gerekçe
+`girdi.py`'nin Mısır 1882-1914 açıklamasıydı. **Paketlemeden önce emsali
+ölçtüler:**
+```
+1918-1923 arası açılan pencereler:   [s] 88   ·   [isg] 0
+   Bağdat  d:OSM→1917-03-11 · s:ingiltere →1923
+   Kudüs   d:OSM→1917-12-09 · s:ingiltere →1923
+   Musul   d:OSM→1918-11-08 · s:ingiltere →1923
+```
+**Ev kuralı tek tip ve istisnasız:** 1914-1923 bandında `s:` = fiilî askerî
+denetim. Osmanlı hükümranlığı Lozan'a kadar hukuken sürüyor ve veri bunu
+**hiçbir yerde** `isg:` ile göstermiyor.
+
+🟢 Ve Mısır **istisna değil, kanıt**: orada `isg:` kullanılmış çünkü Osmanlı
+idaresi **yerinde kalmıştı** (`v:` Kavalalı 1914'e kadar). 1918 Suriye'de
+kaldırılmıştı.
+
+### Kural
+
+> ***"Şema şunu taşıyabilir"* ile *"şema bunu BÖYLE KULLANIYOR"* ayrı
+> şeylerdir. Birincisi belgeden okunur, ikincisi ÖLÇÜLÜR.**
+> **Yorum belgeyi anlatır, emsal veriyi.**
+
+📌 İkisi birlikte `§78`'i tamamlıyor:
+```
+§78     komşu KAYIT emsal alındı, kaydın doğruluğu sorulmadı
+§78.1   BELGE emsal alındı, verinin gerçek kullanımı ölçülmedi
+```
+⚠️ Ve ikincisi daha sinsi: **belge otoriter görünür.** Bir kaydın yanlış
+olabileceğini düşünürsün; şema açıklamasının **eksik** olabileceğini
+düşünmezsin.
+
+🔴 Ve sonucu somut: öneri uygulansaydı **88 kayıtlık tek tip bir kural tek
+kesit için bozulacaktı** — ve bozan taraf, kuralı bilmediği için değil,
+**belgeyi okuduğu için** bozacaktı.
+
 ---
 
 ## §79 — BUGÜNKÜ VERİYİ ÖLÇEREK DÜNKÜ İDDİAYI YARGILAYAMAZSIN
