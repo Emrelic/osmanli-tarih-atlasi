@@ -1738,3 +1738,112 @@ dimask   🟢 <title> "DIMAŞK - TDV İslâm Ansiklopedisi"  AMA GÖVDE OKUNAMAD
 5. 🟡 Ç8 (`nube` ↔ `sudan`) · `kasitli_bosluk:` alanı koordinatörde
 6. Önceki turlardan: 6 Kafkasya noktası · fetretin İran geri kalanı · B4/B5 ·
    Ç2, Ç5 · `marasi`
+
+---
+---
+
+# TESLİM 10 — `1516-09-27` grubu ÇÖZÜLDÜ: iki gün bulundu, biri sahte hassasiyet çıktı
+
+---
+
+## 57. ② Kaynak turu — dört şehir, dört ayrı sonuç
+
+| şehir | TDV | sonuç |
+|---|---|---|
+| **Hama** | `hama` 🟢: *"Yavuz Sultan Selim'in Suriye-Mısır seferi sırasında Hama da Osmanlı hâkimiyetine girdi (**19 Eylül 1516**)"* | **gün bulundu** |
+| **Humus** | `humus--suriye` 🟢: *"**19 Eylül 1516**'da Hama'yı alan I. Selim **21 Eylül**'de Humus'a girdi"* | **gün bulundu** |
+| **Beyrut** | `beyrut` 🟢: *"Beyrut Yavuz Sultan Selim'in Mısır seferi sırasında bölge ile birlikte Osmanlı hâkimiyetine girdi (**1516**)"* — gün/ay **yok** | **yıl hassasiyeti** |
+| **Şam** | `dimask` 🟢 ama **gövde ikinci çekişte de boş** · `mercidabik-muharebesi` 🟢: *"Ardından Hama, Humus, Şam gibi şehirler teslim oldu"* — **tarih vermiyor** | **doğrulanamadı** |
+
+🟢 **Hama iki bağımsız maddede aynı çıktı** (`hama` ve `humus--suriye` ikisi de
+19 Eylül diyor) ⇒ etiket **`KESİN`**.
+🟢 Ve `mercidabik-muharebesi` **sırayı** doğruluyor: Hama → Humus → Şam. Yani üçü
+**ardışık**, aynı gün değil — bizim verimizin tam tersi.
+
+## 58. ③ Hüküm — grup dağıldı, ve içinden üç ayrı kusur çıktı
+
+```
+             BİZDE          GERÇEK              fark
+Hama         1516-09-27     1516-09-19          8 gün geç    🟢 KESİN
+Humus        1516-09-27     1516-09-21          6 gün geç    🟢 KESİN
+Beyrut       1516-09-27     "1516", gün YOK     SAHTE HASSASİYET
+Şam          1516-09-27     doğrulanamadı       —
+```
+
+📌 **Ve Beyrut'unki en ilginç olanı:** orada tarih *yanlış* değil, **var
+olmayan bir kesinlik uydurulmuş.** Kaynak *"1516"* diyor, veri *"27 Eylül
+1516"* diyor. Bu `§76`'nın **ters yüzü**: orada bilinmeyen gün paylaşılıp olay
+gibi görünüyordu, burada bilinmeyen gün **doldurulup** olay yapılmış.
+
+> `§76` : gün bilinmiyor → `01-01` yazılıyor → *"1 Ocak'ta oldu"* okunuyor
+> **Beyrut**: gün bilinmiyor → **komşunun günü yazılıyor** → *"onunla aynı gün"* okunuyor
+
+İkisi de aynı kusurun iki biçimi: **belirsizliğin veride yeri yok, o yüzden
+kesinliğe çevriliyor.**
+
+---
+
+## 59. ⚠️ YAMA UYARISI — `1516-09-27` damgası HER ŞEHİRDE İKİ KEZ geçiyor
+
+```
+Hama     s: memluk 1281-01-01 → 1516-09-27
+         d: OSMANLI 1516-09-27 → 1918-10-01     ← aynı damga, ikinci kez
+Humus    s: … → 1516-09-27   ·   d: 1516-09-27 → …
+Şam      s: … → 1516-09-27   ·   d: 1516-09-27 → …
+Beyrut   s: … → 1516-09-27   ·   d: 1516-09-27 → …
+                                        toplam 8 pencere ucu
+```
+
+🔴 **`CLAUDE.md §11`'in `replace(eski, yeni, 1)` tuzağı burada birebir geçerli.**
+İbrail ve Özi'de olan şey aynen tekrarlanır: ilk eşleşme `s:` bitişidir,
+değişir, `d:` başlangıcı eski kalır ve **8 günlük sahipsiz pencere** açılır.
+
+⇒ **Her şehirde İKİ uç birden değişmeli.** Hama ve Humus için 4 pencere ucu.
+
+## 60. ÖNERİ
+
+```
+🟢 UYGULANABİLİR — iki uç birden, KESİN etiketli
+   Hama     1516-09-27 → 1516-09-19   (s: bitişi VE d: başlangıcı)
+   Humus    1516-09-27 → 1516-09-21   (s: bitişi VE d: başlangıcı)
+   ⇒ yeni kimlik yok, renk yok, sahipsizlik yok (iki uç birlikte gittiği sürece)
+
+🔴 DOKUNULMAZ
+   Şam      doğrulanamadı — dimask gövdesi iki çekişte de okunamadı
+   Beyrut   gün gerçekten bilinmiyor; §76 alanı (`hassasiyet:`) gelmeden
+            düzeltilemez. Bugün `1516-01-01` yazmak kusuru başka kılığa sokar
+```
+
+⚠️ **Beyrut'a bugün dokunulmamalı** ve sebebi `§76`'nın kendisi: elimizdeki tek
+seçenek `1516-01-01` yazmak ve o da *"1 Ocak'ta oldu"* diye okunur. **Kusuru
+düzeltmiş olmayız, taşımış oluruz.** Alan gelince tek turda kapanır.
+
+---
+
+## 61. SLUG — `ordu--sehir` deseninin birebir tekrarı, ve zincir ÜÇ adım
+
+```
+humus          🔴 ölü
+hims           🟡 KABUK — gövdesi yalnız "bk. HUMUS (/humus--suriye)"
+humus--suriye  🟢 CANLI, gövde okundu
+```
+📌 `CLAUDE.md`'nin yazdığı `ordu` → `ordu--sehir` deseninin aynısı; ama burada
+**arada bir kabuk maddesi var** ve doğru adresi o veriyor. ⇒ Ölü slug avında
+**kabuk maddesi bir çıkmaz değil, bir işaret levhası.**
+
+🔴 **`dimask` ikinci çekişte de gövde boş** — sınıf ③ **kararlı**, geçici bir
+ağ hatası değil. İki bağımsız çekişle ölçüldü.
+
+🟢 Kaynak defterine: `hama` · `humus--suriye` · `beyrut` · `mercidabik-muharebesi`.
+
+---
+
+## 62. AÇIK KALANLAR — Teslim 10 sonu
+
+1. 🔴 **Şam'ın fetih tarihi** — `dimask` gövdesi okunamıyor; başka madde
+   denenecek (`suriye`? `yavuz-sultan-selim`?)
+2. 🔴 Rakka · Deyrizor (`1516-08-28`, Halep'in günü kopyalanmış)
+3. 🔴 `1517-01-01` kümesi (Akkâ · Sayda · Kerak · Maan) — `§76` alanına bağlı
+4. 🟡 Beyrut — `§76` alanına bağlı
+5. Önceki turlardan: Marsilya/Paris/Lyon (doğrulanamadı) · Ç8 · 6 Kafkasya
+   noktası · fetretin İran geri kalanı · B4/B5 · Ç2, Ç5 · `marasi`
