@@ -25,12 +25,25 @@ Kullanıcının kurduğu mantık: Osmanlı 1288-1923 arasında sekiz devletle uz
 el değiştirdi. Yeni açılan bir oturum belgeyi okuyup **çelişkiyi bildirdi** —
 bayat belge, bir günde beşinci vaka.
 
-| oturum | devletler | bugünkü veri (pencere / nokta) |
+| oturum | devletler | CANLI GİRDİ (pencere / nokta) |
 |---|---|---|
-| **ÇAPRAZ DOĞU** | **İran** (İlhanlı → Timurlu → Karakoyunlu → Akkoyunlu → Safevî → **Afşar → Zend → Kaçar**) + **Memlük** + **Fransa** | iran 326/176 · safevi 201/164 · memluk 107/101 · fransa 178/149 |
-| **ÇAPRAZ KUZEY** | **Rusya + Lehistan** | rusya 128/113 · **lehistan 23/16** ← en zayıf |
-| **ÇAPRAZ BATI** | **Avusturya + Macaristan** | avusturya 90/84 · macaristan 44/30 |
-| **ÇAPRAZ AKDENİZ** | **Venedik** + **Kuzey Afrika** (292 yerleşim) | venedik 83/78 |
+| **ÇAPRAZ DOĞU** | **İran** (İlhanlı → Timurlu → Karakoyunlu → Akkoyunlu → Safevî → **Afşar → Zend → Kaçar**) + **Memlük** + **Fransa** | iran 317/169 · safevi 197/162 · memluk 107/101 · **fransa 99/98** |
+| **ÇAPRAZ KUZEY** | **Rusya + Lehistan** | rusya 117/102 · **lehistan 23/16** ← en zayıf |
+| **ÇAPRAZ BATI** | **Avusturya + Macaristan** | avusturya 85/68 · macaristan 45/31 |
+| **ÇAPRAZ AKDENİZ** | **Venedik** + **Kuzey Afrika** (292 yerleşim) | venedik 80/74 |
+
+🔴 **SAYILAR 1 Ağustos 16:05'te YENİDEN ÖLÇÜLDÜ — öncekiler YANLIŞTI.**
+Eski tablo `fransa 178/149` diyordu; canlı girdide **99/98.** Fark, sayının
+**merge edilmemiş `yerlesimler_avrupa.js`'i de sayması**ndan geliyordu — yani
+haritada **görünmeyen** noktalar sayıya dâhildi. ÇAPRAZ AKDENİZ ölçtü ve
+bildirdi; koordinatör tabloyu bir saat önce **eski sayılarla** güncellemişti.
+```
+ölçüm tabanı: data/yerlesimler.js + data/yerlesimler_afrika.js
+              (girdi.py GIRDI_DOSYALARI'nın okuduğu küme)
+```
+⚠️ `iran` da 326→**317**, `avusturya` 90→**85**, `venedik` 83→**80** düştü.
+📌 Ders: **kapsam tablosu bir ÖLÇÜM sonucudur, elle taşınmaz** — `§14`'ün
+belge tarafındaki hâli.
 
 🔴 **Fransa ÇAPRAZ DOĞU'da, ÇAPRAZ BATI'da DEĞİL.** Sebep: DOĞU Memlük'ü
 bitirince ilk bakışı yaptı, 642 yıllık torbayı buldu ve **Bordo'yu
