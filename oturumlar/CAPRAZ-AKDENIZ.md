@@ -809,6 +809,169 @@ binmezler; ikisi aynı pencerenin iki ayrı yarası.**
 
 ---
 
+---
+---
+
+# TUR 6 — Girit'in sorusu bütün Venedik kesitine
+
+> Ölçüm commit'i: `8c083c7`. Koordinatörün 1. sıra işi: *"tarihler doğru ama
+> EKSİK KALE var mı?"* — Kıbrıs'a soruldu, **ve kesitin tamamına.**
+
+## Yöntem — ve iki adımlı olması şart
+
+C-1'i bulduran soru *"tarih doğru mu"* değil *"nokta var mı"*ydı. Bunu 34 bilinen
+Venedik mülküne uyguladım, **sonra her eksiğin peteğini kimin yuttuğunu ölçtüm**
+(`§2`: noktası olmayan bölge en yakın peteğe emilir).
+
+⚠️ **İkinci adım şart:** eksik nokta tek başına hüküm değil. Peteği yutan nokta
+**doğru sahibi taşıyorsa** renk kazara doğru çıkar; **yanlış taşıyorsa** hata
+görünür hâle gelir. İkisi ayrı sınıf ve ayrı öncelik.
+
+---
+
+## 🔴 F-1 · GİRİT'İN ÜÇ KALESİ — C-1 **mekanizmayla** doğrulandı
+
+```
+Suda        → Hanya            7 km    yutanın sahibi: 1700=OSMANLI · 1790=OSMANLI
+Spinalonga  → Sitiye (Sitia)  34 km                    1700=OSMANLI · 1790=OSMANLI
+Granbosa    → Hanya           41 km                    1700=OSMANLI · 1790=OSMANLI
+```
+⇒ Üç kale de **Venedik oldukları dönemde Osmanlı boyalı.** C-1'in 114,2
+yıl-noktası artık yalnız *"kayıt yok"*a değil, **emilme yönünün ölçümüne**
+dayanıyor. `§3.5.1`'in tam vakası.
+
+---
+
+## 🔴 F-2 · VENEDİK ARNAVUTLUĞU — bütün kıyıda **SIFIR nokta**, ve emilme TERS
+
+Kesitimin bu turda çıkan en büyük boşluğu. Kotor Körfezi ve Karadağ kıyısı —
+370 yıllık Osmanlı-Venedik sınırı — **veride hiç yok.**
+
+```
+Kotor (Cattaro)  → Cetinje  12 km   yutan: 1500=OSMANLI 1600=OSMANLI 1700/1790=karadag
+Budva            → Cetinje  13 km   yutan: 1500=OSMANLI 1600=OSMANLI 1700/1790=karadag
+Herceg Novi      → Cetinje  32 km   yutan: 1500=OSMANLI 1600=OSMANLI 1700/1790=karadag
+Bar (Antivari)   → İşkodra  34 km   yutan: dört kesitte de OSMANLI
+Ülgün (Ulcinj)   → İşkodra  30 km   yutan: dört kesitte de OSMANLI
+```
+
+🔴 **Ve emilme F-1'in TERSİ yönde:** Girit'te Venedik kalesi Osmanlı boyanıyordu;
+burada **Venedik'in kendi merkezi** (Kotor, Venedik Arnavutluğu'nun başkenti)
+önce Osmanlı sonra **Karadağ** boyanıyor. Kıyı, **iç bölgedeki dağ noktalarından**
+boyanıyor.
+
+⚠️ **Ve bu, DENETÇİ'nin Cetinje tartışmasına doğrudan değiyor.** `girdi.py`'de
+kayıtlı: *"Kuşatılmışlık ovadan geliyor; dağ yönetilmiyordu"* — Cetinje'nin
+`kasitli_bosluk` istisnası oradan çıkmıştı. **Ama Cetinje bugün 12 km ötedeki
+Kotor'u da yutuyor**, ve Kotor bir dağ köyü değil **Venedik'in tahkimli liman
+başkenti.** ⇒ Cetinje'nin peteği yalnız *"boş bırakılmalı mı"* sorusunu değil,
+*"neyi yutuyor"* sorusunu da doğuruyor.
+
+### HÜKÜM — boşluğun yapısı **KESİN**, tarihî düzeltme **kaynak istiyor**
+```
+KESİN   beş mülkün beşinde de kayıt YOK · yutan nokta ve sahibi ÖLÇÜLDÜ
+ZAYIF   "Kotor 1420-1797 Venedik'ti" — bu turda KAYNAKLANMADI, genel bilgi
+```
+⚠️ Venedik Arnavutluğu'nun tarihlerini (1420 kazanım · 1571 Bar/Ülgün kaybı ·
+1687 Herceg Novi) **bu turda kaynaklamadım** ve rakam vermiyorum. `§73`: yama
+yalnız `KESİN`e dayanır. **Kaynaklanması gereken ayrı bir paket.**
+
+---
+
+## 🟡 F-3 · DALMAÇYA ANAKARASI — **doğru renk, uydurma sınır**
+
+Beş büyük Venedik şehri eksik; ama emilme onları **doğru** renge taşıyor:
+```
+Zadar (Zara) → Uzunada 19 km      Split → Brakya 26 km
+Nin          → Uzunada 27 km      Trogir → Brakya 38 km
+Şibenik      → Uzunada 75 km   ← en uzak
+yutanların hepsi: 1500·1600·1700·1790 = venedik
+```
+⇒ **Renk kazara doğru.** Ama bir şey doğru değil:
+
+🔴 **Venedik-Osmanlı KARA SINIRI Dalmaçya'da veriden gelmiyor.** Anakarada tek
+Venedik noktası yok; sınır, bir **ada** ile içerideki bir **Osmanlı** noktası
+(Mostar vb.) arasındaki orta çizgi olarak çıkıyor. Yani sınırın yeri bir ölçüm
+değil, **geometrik artık.**
+
+📌 Ve bu bölge bu projede zaten suçlu: `CLAUDE.md §2` *"Brač, Hvar, Korčula
+1483'ten itibaren Osmanlı oldu (Mostar'dan)"* diye kayıtlı. **Aynı boşluk, ters
+yönde tekrar ediyor.**
+
+⚠️ Önceliği F-2'nin altında: renk yanlış değil, **sınır belirsiz.** Ama Şibenik'in
+75 km'si `MIMARI.md §5` nokta yoğunluğu ölçütünün altında kalıyor olabilir —
+o ölçüt benim değil, **MOTOR'a soru olarak bırakıyorum.**
+
+---
+
+## 🔴 F-4 · PAKSOS — **Yedi Ada'nın üyesi, kaydı yok; ve A-1'in kendi listesi eksikti**
+
+```
+Paksos (Paxos)  → Parga 22 km   yutan: dört kesitte de venedik
+```
+Renk kazara doğru. **Ama bulgu bu değil:**
+
+🔴 **A-1'de *"yedi nokta"* demiştim ve o yedi, Yedi Ada değildi.** Listem şuydu:
+Korfu · Kefalonya · Zaklise · İthaki · Ayamavra · Çuha · **Parga**.
+1800 konvansiyonunun yedi adası ise: Korfu · **Paksos** · Ayamavra · Kefalonya ·
+İthaki · Zaklise · Çuha.
+
+⇒ **Parga bir ada değil, anakara kasabası** (ve C-4/E-1'de zaten ayrı işlendi);
+**Paksos gerçek üye ve veride hiç yok.**
+
+📌 **Nokta başına ölçümlerim geçerli** (58,4 ve 31,4 yıl-nokta, her nokta tek tek
+hesaplandı) — **yanlış olan kümenin bileşimiydi.** Paksos eklenirse rakam
+büyür, Parga'nın payı `isg:` tarafına geçer.
+
+⚠️ Ve bu, kendi `§80` desenimin bana üçüncü kez dönmesi: **"olayın bütün üyeleri
+sayıldı mı?"** sorusunu bulguyu yazarken kendime sormamışım.
+
+## 🟡 F-5 · BUTRİNTO ve MONEMVASİA
+```
+Butrinto            → Korfu    16 km   yutan: venedik (C-5 doğrulandı)
+Monemvasia (Menekşe)→ Çuha Ad. 50 km   yutan: venedik — DÖRT kesitte de
+```
+⚠️ Monemvasia Osmanlı dönemlerinde de **venedik** boyanıyor (yutan nokta hiç
+Osmanlı olmuyor). Tarihleri bu turda kaynaklamadım ⇒ **`ZAYIF`, ayrı kalem.**
+
+---
+
+## 🟢 F-6 · KIBRIS — sorusu soruldu, **cevap BOŞ**, ve bu tam bir hüküm
+
+Koordinatörün 1. sıra işi. Kıbrıs kutusunda **6 nokta**, altısı da kayıtlı;
+**eksik Venedik kalesi çıkmadı.**
+
+⇒ Ve sebebi yapısal: **Girit'in deseni Kıbrıs'ta olamaz.** Girit'te boşluk,
+Venedik'in 1669'dan sonra **elde tuttuğu** kalelerden doğuyordu; Kıbrıs
+1570-71'de **bütünüyle** düştü, elde kalan kale yok.
+
+⇒ **C-6 (Kıbrıs UYUYOR) ikinci ve bağımsız bir sınamadan geçti**: birincisi
+tarih ekseninde, bu ikincisi nokta ekseninde. **Kıbrıs kapanabilir.**
+
+---
+
+## ⚠️ F-7 · VE KENDİ ARAMAMDA HATA — bu sefer ters yönde
+
+Koordinatörün bugünkü tuzağı *"`ad:"X"` tam eşleşme **çok dar**"*tı. Ben alt
+dizge kullandım ve **çok geniş** oldu — tarama **dört sahte eşleşme** üretti:
+```
+"Herceg Novi"  → "Çernovitz (Çernivtsi)"   ("Novi" alt dizgesi)
+"Bar (Antivari)" → "Bar (Podolya)"          (başka bir Bar)
+"Zadar (Zara)" → "Hazârasp"                 ("zara" alt dizgesi)
+"Lefke"        → "Lefke (Osmaneli)"         (Anadolu'da, Kıbrıs'ta değil)
+```
+Dördü de **"VAR" diye raporlanmıştı** ve gerçekte **YOK**. Koordinat kontrolüyle
+yakalandılar.
+
+> ⇒ **Tam eşleşme çok dar, çıplak alt dizge çok geniş — ikisi de yanlış cevap
+> veriyor, ters yönlerde.** Doğrusu: **alt dizge + koordinat doğrulaması.**
+
+📌 Bugünkü beşinci araç hatası, ve ilk dördüyle aynı biçimde geldi: *"aradım,
+buldum/bulamadım."* Kendi cümlemi tekrar ediyorum çünkü bana da geçerli:
+**ölçüm aracı, ölçtüğü veriden daha az denetleniyor.**
+
+---
+
 ## Sıradaki (aksi söylenmezse)
 
 1. **Ada ada gün kaynaklama** — 1798 sonbaharı Osmanlı-Rus seferi: Çuha · Zaklise ·

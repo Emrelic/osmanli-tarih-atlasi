@@ -388,3 +388,63 @@ yutulmuş kırılma olay hiçbir noktaya yazılmamış, pencere tek     → ZAMA
 ⚠️ BATI'nın uyarısıyla da örtüşüyor: kendi 1918 vakasının *"ufka kadar yazıp
 bırakmak"* olduğunu, benim üç vakamdan **ayrı sınıf** olduğunu ölçmüştü.
 ⇒ **Üç ayrı sınıf var ve araç üçünü ayırmalı**, yoksa tek sorguda karışırlar.
+
+---
+
+# TUR 6 — "eksik nokta" taraması (koordinatörün 1. sıra işi)
+
+> Ölçüm commit'i: `8c083c7`. 34 bilinen Venedik mülkü tarandı, her eksiğin
+> peteğini yutan nokta ve **o noktanın dört kesitteki sahibi** ölçüldü.
+
+## 19. TESLİM
+
+| kod | konu | hüküm | güç |
+|---|---|---|---|
+| **F-1** | Girit'in üç kalesi — emilme yönü ölçüldü | 🔴 C-1 DOĞRULANDI | KESİN |
+| **F-2** | Venedik Arnavutluğu: kıyıda **sıfır nokta**, 5 mülk | 🔴 BOŞLUK | yapı KESİN · tarih ZAYIF |
+| **F-3** | Dalmaçya anakarası: 5 şehir yok | 🟡 doğru renk, **uydurma sınır** | KESİN |
+| **F-4** | **Paksos** — Yedi Ada üyesi, kaydı yok | 🔴 EKSİK + A-1 listesi düzeltildi | KESİN |
+| **F-5** | Butrinto · Monemvasia | 🟡 eksik, kaynak gerekli | ZAYIF |
+| **F-6** | **Kıbrıs: cevap BOŞ** | 🟢 C-6 ikinci kez geçti | KESİN |
+| **F-7** | kendi aramamda 4 sahte eşleşme | ⚠️ ARAÇ HATASI | — |
+
+## 20. 🔴 F-4 — kendi bulgumun kümesi yanlıştı
+
+A-1'de *"yedi nokta"* dedim; o yedi **Yedi Ada değildi.** Listemde **Parga**
+vardı (anakara kasabası), **Paksos** yoktu (gerçek üye, veride hiç yok).
+
+🟢 **Nokta başına ölçümler geçerli** — 58,4 ve 31,4 yıl-nokta her nokta için tek
+tek hesaplandı. **Yanlış olan kümenin bileşimiydi**, rakamların türetilişi değil.
+
+📌 Ve bu, `§80`in bana **üçüncü** dönüşü:
+```
+1. BATI'nın sekizi → on çıktı              (başkasının bulgusunda)
+2. B-7'nin ucu → 3,7 kat büyük çıktı       (kendi tahminimde)
+3. A-1'in yedi noktası → küme yanlıştı     (kendi bulgumun kapsamında)
+```
+⇒ **"Olayın bütün üyeleri sayıldı mı?"** sorusunu bulguyu **yazarken** kendime
+sormamışım. Araç önerisinin gerekçesi artık altı vakalı.
+
+## 21. ⚠️ F-7 — arama tuzağının ÖTEKİ ucu
+
+Koordinatörün bugünkü tuzağı: `ad:"X"` tam eşleşme **çok dar**.
+Benimki: çıplak alt dizge **çok geniş** — dört sahte eşleşme:
+```
+"Herceg Novi"→"Çernovitz"  ·  "Bar (Antivari)"→"Bar (Podolya)"
+"Zadar (Zara)"→"Hazârasp"  ·  "Lefke"→"Lefke (Osmaneli)"
+```
+Dördü de **"VAR" raporlandı, gerçekte YOK.** Koordinat kontrolüyle yakalandı.
+
+> ⇒ **`ORGANIZASYON §15`'e ek: tam eşleşme çok dar, çıplak alt dizge çok geniş.
+> İkisi de yanlış cevap verir, TERS yönlerde. Doğrusu alt dizge + koordinat.**
+
+📌 Bugünkü **beşinci** araç hatası ve beşi de *"aradım, buldum/bulamadım"*
+biçiminde geldi.
+
+## 22. YÖNTEM NOTU — iki adımlı olması şart
+
+Eksik nokta **tek başına hüküm değil.** Peteği yutan nokta doğru sahibi
+taşıyorsa renk kazara doğru çıkıyor (F-3, F-4), yanlış taşıyorsa hata görünür
+oluyor (F-1, F-2). **Aynı boşluk, iki ayrı sonuç.**
+⇒ Bir *"eksik nokta"* listesini önceliklendirmenin tek yolu **emilme yönünü
+ölçmek.** Yalnız listeyi vermek, BATI'nın uyardığı gürültüyü üretir.
