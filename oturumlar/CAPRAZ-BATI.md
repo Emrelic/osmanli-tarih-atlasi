@@ -1357,3 +1357,74 @@ gürültülü (Mohaç'ta 15 aday, hepsi meşru). **Eleme elle yapıldı**, çün
 ⇒ Bu ölçüt bir **denetim betiğine** çevrilecekse, çıktısı *"hata"* değil
 **"bakılacak liste"** diye etiketlenmeli. Aksi hâlde `§4④`'ün tuzağına
 düşer: ölçmeden eşik koymak.
+
+## A-17 📊 §80'İN ORANI + MEKANİZMA DÜZELTMESİ + ATTIĞIM BİR ÖLÇÜM
+
+### Koordinatörün sorduğu oran (A-16'dan)
+> *"1918'de 25 doğru / 6 eksik çıktı. Öteki olaylarda oran ne?"*
+```
+1526 Mohaç      9 yazılmış ·  0 eksik
+1541 Budin      6 ·  0
+1683 Estergon   1 ·  0
+1699 Karlofça   5 ·  0
+1718 Pasarofça  6 ·  0
+1739 Belgrad    9 ·  0
+────────────────────────────
+1918 dağılma   40 · 15 eksik     ← TEK istisna, %27
+```
+⇒ **Kesitimde §80 yaygın DEĞİL — tek bir olayda toplanıyor.**
+
+### 🔴 VE MEKANİZMA §80'DEN FARKLI — düzeltme
+15 kaydın **hepsinin** son penceresi tam olarak `1923-10-29`'da bitiyor —
+yani **atlas ufkunda.** Bu *"olay birkaç noktaya yazıldı, gerisi unutuldu"*
+değil:
+```
+§80        olay yazılırken bazı noktalar atlandı        → dağınık, olayla ilgili
+A-16/1918  kayıt UFKA kadar kapatıldı, sonra dönülmedi  → toplu, ufukla ilgili
+```
+⇒ **İkisi ayrı sınıf.** §80 *"kısmen yazılmış olay"*, bu *"ufka kadar yazıp
+bırakmak"*. Ve ikincisinin **doğal bir toplanma yeri** var: atlasın son 5 yılı.
+📌 Sonucu pratik: §80 için olay olay aramak gerekir; bu sınıf için **tek
+sorgu yeter** — *"son penceresi ufukta biten kayıtların kimliği o tarihte
+yaşıyor mu?"*
+
+### ⚠️ VE O SORGUYU KOŞTUM — SONRA ATTIM (`§7.5`)
+Ufka uzanan bütün `s:` pencerelerini kimliğe göre saydım ve dizin ömrüyle
+karşılaştırdım. **Sekiz kimlik "devlet ölmüş ama pencere ufka gidiyor" diye
+kırmızı yandı** — `iran` 100 · `rusya` 87 · `fransa` 78 · `romanya` 22 ·
+`sirbistan` 20 · `macaristan` 16 · `bulgaristan` 13 · `arnavutluk` 7.
+
+**Sayı büyüktü ⇒ önce yöntemi sorguladım (`ORGANIZASYON §7.5`), ve yöntem
+yanlıştı:**
+```
+macaristan  ← macaristan(t=1526) · macaristan-habsburg(t=1918) · macaristan-naiplik(t=1923)
+sirbistan   ← sirp-despotlugu(1459) · sirbistan-prensligi(1882) · sirbistan-kralligi(1918)
+bulgaristan ← bulgar-carligi(1396) · bulgaristan-prensligi(1908) · bulgaristan-kralligi(1923)
+iran        ← afsar(1796) · kacar(1923)
+```
+Bir `harita:` değerine **birden çok dizin kaydı** bağlı ve benim aramam
+**en erken `t:`yi** alıyordu. ⇒ **Sekiz kırmızının beşi benim ölçüm hatam.**
+**Rapor edilmedi.**
+
+### ✅ Elemeden sonra kalan ÜÇ gerçek boşluk — B-2'nin TERSİ
+Bunlarda `harita:` değerine **tek** dizin kaydı bağlı ve o kayıt ufuktan
+önce bitiyor; **sonraki dönemi kapsayan kayıt yok:**
+```
+fransa      ← yalnız fransa(t=1792-09-21)            78 pencere ufka gidiyor
+rusya       ← yalnız rusya(t=1917-03-15)             87 pencere
+arnavutluk  ← yalnız arnavutluk-iskenderbey(1479)     7 pencere
+```
+📌 **B-2'nin aynadaki hâli:** orada *dizinde olup haritada kullanılmayan*
+kayıt vardı (`macaristan-habsburg`); burada *haritada kullanılıp dizinde
+karşılığı olmayan* dönem var. **İki yön de ölçülmeli.**
+🔴 **Üçü de benim kesitimin DIŞINDA** — Fransa ÇAPRAZ DOĞU'da, Rusya
+KUZEY'de, Arnavutluk atanmamış. **Ölçtüm, devrediyorum, hüküm vermiyorum.**
+
+### 🟡 Kesitimdeki karşılığı: `avusturya-cumhuriyet`
+```
+devletler.js  avusturya-cumhuriyet  f=1918-11-12  t=1923-10-29  harita: YOK
+```
+⇒ Viyana ve Graz 1918-11-11'de **doğru kırılıyor** ama sonraki pencere yine
+`avusturya` — yani **imparatorluk ile cumhuriyet aynı renkte.** Kusur değil
+(kırılma var, sahip doğru) ama dizin ayrımı haritaya **yansımıyor.**
+`§8` hükmü: **UYUYOR**, not olarak kayda geçti.
