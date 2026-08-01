@@ -1089,6 +1089,139 @@ düşüyor, `<title>` *"Arama - TDV İslâm Ansiklopedisi"*.
 
 ---
 
+---
+---
+
+# TUR 8 — F-2 kaynaklaması: bir TDV hatası ve görünmeyen bir Osmanlı sancağı
+
+> Ölçüm commit'i: `005eb20`. Onaylı iş: Venedik Arnavutluğu tarihlerini
+> kaynaklamak. **Kesit beklediğimden başka bir yere açıldı.**
+
+## 🔴 H-1 · TDV `dalmacya` KENDİ İÇİNDE YANLIŞ — ve **bizim verimiz doğru**
+
+### ② KAYNAKTA NE VAR — verbatim
+> *"Dalmaçya'daki Venedik hâkimiyeti **1737**'ye kadar sürdü. Bu tarihte Venedik
+> **Campo Formio Antlaşması**'yla Avusturya'ya bırakılınca Dalmaçya da onların
+> idaresi altına girdi."*
+
+### ③ HÜKÜM — **TDV YANLIŞ**, ve bu bir yorum değil, cümlenin kendi içinde çözülüyor
+
+**Campo Formio 17 Ekim 1797'dir.** Bir antlaşma adı özel isimdir ve tarihi
+sabittir; cümle *"1737'de Campo Formio"* diyerek **kendini yalanlıyor.** Ve aynı
+madde başka yerde tutarlı:
+```
+"1699 Karlofça ve ardından 1718 Pasarofça … Osmanlılar'ın Dalmaçya'daki
+ hâkimiyetlerinin sonu oldu"
+⇒ Venedik hâkimiyetinin 1718'den SONRA da sürdüğü aynı maddede yazılı;
+  1737'de biten hiçbir şey yok, o yıl bir antlaşma yılı bile değil.
+```
+
+🟢 **VE BİZİM VERİMİZ DOĞRU:** on Dalmaçya adasının onunda da
+`s:venedik → 1797-10-17` yazıyor — Campo Formio'nun **gerçek günü.**
+
+⇒ **`CLAUDE.md §4` *"çelişirse TDV esastır"* diyor; burada esas alınamaz**, çünkü
+çelişki bizimle değil **TDV'nin kendisiyle.** `§3.1`'in kademeleri de bunu
+çözüyor: kademe ① **BELGE > ÖZET** — *"Campo Formio"* tarihli ve failli bir
+kayıttır, *"1737'ye kadar sürdü"* genel bir dönem cümlesidir.
+
+📌 Bu, bugün bulduğum **üçüncü TDV-içi çelişki** (B-6 takvim · G-3 temmuz 1920 ·
+bu). Ama öncekilerden farkı: **ötekiler çözülemiyordu, bu çözülüyor.** Fark,
+çelişkinin bir **özel isme** çarpması — antlaşma adı tarihi kilitliyor.
+⚠️ **60 yıllık bir hata** ve `dalmacya` maddesine dayanan herhangi bir oturum
+Dalmaçya'yı 1737'de Avusturya'ya verirdi.
+
+## 🔴 H-2 · KLİS SANCAĞI — bir Osmanlı sancağı haritada **görünmüyor**
+
+F-3'te *"Dalmaçya'da sınır veriden gelmiyor, geometrik artık"* demiştim.
+TDV bunu **çok daha ileri** götürdü.
+
+### ② KAYNAKTA
+> *"1527-1528'deki akınlarda, bazı kaleler alındığı gibi **1537'de Klis
+> Kalesi'nin fethinden sonra Dalmaçya sınırında YENİ BİR SANCAK tesis edildi.**"*
+>
+> *"1538'de … Venedikliler, Osmanlı hâkimiyeti altındaki **Ostrovica
+> (Sivrihisar), Obrovac ve Scardona** kasabalarını almışlar…"*
+>
+> *"1540'taki Osmanlı-Venedik antlaşması ile Venedikliler Dalmaçya'daki **Nadin
+> ve Urana** kalelerini Osmanlılar'a bırakmışlardı."*
+
+### ① BİZDE — ölçüldü
+```
+Klis · Knin · Sinj · Skradin (Scardona) · Vrana (Urana) · Nadin ·
+Ostrovica · Obrovac        ✗ HİÇBİRİ YOK
+
+Dalmaçya iç kesimi (lat 43.3-44.6 · lon 15.3-17.5) TOPLAM 3 nokta:
+   Brakya (Brač)   ← ADA, iç kesimde değil
+   Livno (İhlevne) · Yayça (Jajce)   ← Bosna içleri
+```
+
+### ③ HÜKÜM — **ÇELİŞİYOR**, ve F-3'ten daha ağır bir sınıf
+
+F-3 *"sınırın yeri belirsiz"* diyordu. Gerçek şu: **1537'de kurulmuş bir Osmanlı
+sancağının tek bir noktası yok.** Yani eksik olan Venedik tarafı değil —
+**Osmanlı tarafı.**
+
+🔴 Ve `§3.5.1`'in sorusu burada **ters cevap veriyor.** O bölüm *"Osmanlı fazla
+mı görünüyor?"* diye soruyor; Dalmaçya'da Osmanlı **eksik görünüyor**: sancağın
+toprağı, veride komşu olan **adalara** (Brač 26-38 km) emiliyor ve **Venedik**
+boyanıyor.
+```
+Sinj    → en yakın Livno 33 km      Knin  → en yakın Livno 69 km
+Skradin → en yakın Uzunada 74 km (ADA)   Vrana → en yakın Uzunada 39 km (ADA)
+```
+⇒ **F-3'ün "renk kazara doğru" hükmü YALNIZ KIYI İÇİN geçerliydi.** İç kesimde
+renk kazara doğru değil, **kazara yanlış** — Osmanlı sancağı Venedik boyanıyor.
+
+📌 Ve `CLAUDE.md §2`'nin kayıtlı vakası bunun aynısıydı ters yönde: *"Brač, Hvar,
+Korčula 1483'ten itibaren Osmanlı oldu (Mostar'dan)."* O zaman ada Osmanlı
+olmuştu; **bugün anakara Venedik oluyor.** Aynı boşluk, ondört yıl arayla iki
+yönde de patlamış.
+
+⇒ **NOKTA EKLEME'ye:** Klis öncelikli — hem sancak merkezi hem `1537` gün
+aranabilir bir fetih. Ötekiler (Knin · Sinj · Skradin · Vrana · Nadin ·
+Ostrovica · Obrovac) TDV'de **adıyla geçiyor**, yani kaynak zemini var.
+
+## 🟡 H-3 · F-2 KISMEN KAYNAKLANDI — beşte bir
+
+TDV `karadag` (CANLI) **tarihleri vermiyor** — yalnız *"Sahil kasabaları Katolik
+olarak kalırken iç bölgelerde Ortodoks kilisesi üstünlük sağladı"* ve Venedik
+gücü için tarihsiz bir cümle. Kotor · Budva · Bar · Ülgün için **TDV'de dayanak
+bulamadım.**
+
+🟢 **Ama `dalmacya` bir tanesini verdi:**
+> *"1684'te Venedikliler Dalmaçya cephesinde pek çok kaleyi zaptettiler ve son
+> olarak da **1686'da Castelnuovo'yu** aldılar."*
+
+**Castelnuovo = Herceg Novi.** ⇒ Venedik'e geçişi **1686** (TDV).
+⚠️ **Yıl hassasiyetli** (`§4⑤`) ve yaygın olarak 1687 de veriliyor — **günü
+uydurmuyorum**, `1686` TDV'nin verdiği hâliyle kaydedilsin, KAYNAK'a *"Castelnuovo
+1686 mı 1687 mi"* kalemi düşülsün.
+
+### F-2'nin durumu — dürüst tablo
+```
+Herceg Novi   Venedik'e 1686        🟢 TDV `dalmacya`, yıl hassasiyetli
+Kotor · Budva · Bar · Ülgün         🔴 TDV'de DAYANAK YOK — açık
+```
+⇒ **Beş noktanın biri kaynaklandı.** Kalan dördü için TDV yetmiyor; `§3`'e göre
+bunlar **temas olguları** ve karşı taraf (Venedik arşivi / Karadağ tarihyazımı)
+gerekiyor. **Tahmin etmiyorum.**
+
+## 🟢 H-4 · VE İKİ TEYİT — veri TDV ile tutuyor
+
+```
+TDV  "1479'daki Osmanlı-Venedik barışı ile Akçahisar (Kruya) ve İŞKODRA'nın
+      teslimi karşılığında Dalmaçya'dan ele geçirilen yerler Venedik'e iade edildi"
+bizde İşkodra   s:venedik 1281-01-01 → 1479-01-25        ✓ UYUYOR
+      Akçahisar s:arnavutluk → 1478-06-15                ✓ UYUYOR (kuşatma 1478)
+```
+📌 Bunu yazıyorum çünkü **tur boyunca üç hata buldum ve teyitler de kayda geçmeli**
+— yoksa rapor yalnız kusur listesi olur ve verinin sağlam olduğu yerler görünmez.
+
+⚠️ **F-7 yine tetiklendi:** `Klis` araması `Zaklise (Zakynthos)`'u getirdi
+(alt dizge). Koordinat kontrolüyle elendi — kural çalışıyor.
+
+---
+
 ## Sıradaki (aksi söylenmezse)
 
 1. **Ada ada gün kaynaklama** — 1798 sonbaharı Osmanlı-Rus seferi: Çuha · Zaklise ·

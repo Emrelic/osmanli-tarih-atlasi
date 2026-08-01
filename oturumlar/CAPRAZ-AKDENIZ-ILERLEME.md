@@ -498,3 +498,57 @@ veride zaten boyalı kimlik). **G-2 çözülmüyor:** Faysal'ın idaresi dizinde
 **Hüküm vermedim** (`§5`), iki yolun maliyetini ölçtüm.
 
 ⚠️ Slug kütüğü: **`sam` ÖLÜ** (arama sayfasına düşüyor) · `faysal-i` CANLI.
+
+---
+
+# TUR 8 — F-2 kaynaklaması
+
+> Ölçüm commit'i: `005eb20`.
+
+## 26. TESLİM
+
+| kod | konu | hüküm | güç |
+|---|---|---|---|
+| **H-1** | TDV `dalmacya` 1737 ⟷ Campo Formio 1797 | 🔴 **TDV YANLIŞ**, bizimki doğru | KESİN |
+| **H-2** | Klis sancağı (1537) — 8 kale, **hiçbiri yok** | 🔴 ÇELİŞİYOR, F-3'ten ağır | KESİN |
+| **H-3** | F-2 kaynaklaması | 🟡 **beşte bir** (Herceg Novi 1686) | yıl hassasiyetli |
+| **H-4** | İşkodra 1479 · Akçahisar 1478 | 🟢 UYUYOR | KESİN |
+
+## 27. 🔴 H-1 — çözülebilen ilk TDV-içi çelişki
+
+Bugün üç TDV-içi çelişki buldum ve **yalnız bu üçüncüsü çözülüyor:**
+```
+B-6  21 Mart ⟷ 3 Nisan 1800     → SEBEBİ BELİRSİZ (Jülyen şüphesi, teşhis değil)
+G-3  "Temmuz 1920" ⟷ "14 Temmuz" → §74, ayrı sorular olabilir
+H-1  "1737" ⟷ "Campo Formio"     → ÇÖZÜLDÜ
+```
+📌 **Farkı ne yapıyor: çelişkinin bir ÖZEL İSME çarpması.** Campo Formio bir
+antlaşma adıdır ve tarihi (17 Ekim 1797) sabittir; *"1737'de Campo Formio"*
+cümlesi kendi içinde imkânsız. Takvim farkı ya da olay çokluğu **yoruma açık**,
+özel isim **değil.**
+
+⇒ **Ölçüt önerisi:** bir tarih çelişkisi **adlandırılmış bir olaya** (antlaşma,
+savaş, sefer) bağlıysa, ad tarihi kilitler ve çelişki `SEBEBİ BELİRSİZ`
+kalmaz — **çözülür.**
+
+⚠️ Ve yakalanış biçimi kayda değer: **ilk çekiş bana "1737 ... Campo Formio"yu
+özet olarak verdi ve ben o özete güvenmedim** (`§4①`: sayısal veri tek çekişten
+alınmaz). İkinci çekişte **verbatim** istedim; cümle aynen çıktı, yani özetleyici
+hata yapmamıştı — **hata maddenin kendisindeydi.**
+📌 `§4①` burada beklenmedik bir iş gördü: özetleyiciyi değil **kaynağı** doğruladı.
+
+## 28. 🔴 H-2 — F-3'ün hükmü DARALTILDI
+
+F-3'te *"Dalmaçya'da renk kazara doğru, sınır uydurma"* demiştim. **Yalnız kıyı
+için doğruymuş.**
+```
+kıyı (Zadar·Split·Trogir·Şibenik·Nin)  → yutan venedik  → renk kazara DOĞRU
+iç kesim (Klis sancağı, 8 kale)        → yutan venedik  → renk kazara YANLIŞ
+                                          çünkü orası OSMANLI'ydı
+```
+⇒ Aynı boşluk, **aynı yutan renk**, ama biri doğru biri yanlış çıkıyor — çünkü
+gerçek sahip farklı. **Emilme yönünü ölçmek yetmiyor; gerçek sahibi de bilmek
+gerekiyor.** Tur 6'daki yöntem notumun sınırı bu.
+
+📌 Ve `§3.5.1` burada ters cevap veriyor: soru *"Osmanlı fazla mı görünüyor"*du;
+Dalmaçya'da **eksik görünüyor.**
