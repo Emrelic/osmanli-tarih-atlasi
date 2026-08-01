@@ -3308,3 +3308,58 @@ AKDENİZ       git log -S'Ayamavra'        → eski  (içerik değişimi görün
 çalışan bir araç yanlış soruyu cevapladı.** İkisinde de çıktı **geldi** ve
 **inandırıcıydı.**
 
+
+---
+
+## §80 — BİR OLAY, NOKTALARININ HEPSİNE YAZILMIYOR — VE DENETİM BUNU GÖREMEZ
+
+ÇAPRAZ AKDENİZ aynı gün **iki bağımsız vakada** aynı deseni buldu:
+
+```
+İTALYAN BİRLİĞİ 1861-02-13 — aynı krallığın on noktası
+  ✓ YAZILMIŞ    Napoli · Palermo · Messina · Sirakuza · Trapani · Pantelerya
+                  napoli 1281→1861-02-13 · italya 1861-02-13→1923
+  ✗ YAZILMAMIŞ  Brindisi · Taranto · Lecce · Otranto
+                  napoli 1281-01-01 → 1923-10-29        ← 62,7 yıl × 4 nokta
+
+1798 İYON SEFERİ — yedi ada
+  ✓ YAZILMIŞ    Preveze · Vonitsa   (1798-10-23)
+  ✗ YAZILMAMIŞ  öteki altı ada
+```
+
+> **Bir olay veriye yazılırken bütün noktalarına yazılmıyor: birkaçı yazılıyor,
+> gerisi eski penceresinde kalıyor.**
+
+### Neden hiçbir değişmez göremiyor
+
+```
+Değişmez 1   sahipsiz mi?      → HAYIR, sahibi var
+Değişmez 2   maddesi var mı?   → VAR, altı nokta zaten kırılıyor
+Değişmez 3   merkeziyle uyum?  → UYUYOR, merkez de eski sahipte
+```
+**Üçü de yeşil.** Kalan pencerenin bir sahibi **var** — yalnız **yanlış** sahibi.
+
+⚠️ Ve `§2` emilme sınıfından **ayrı ve daha sinsi**: emilme **delik ya da taşma**
+üretir, göze çarpar. Bu **temiz ama yanlış** görünür.
+
+### Ayırt edici işaret — ve ucuz
+
+🟢 **Doğrusu zaten veride.** İki vakada da olayın **doğru tarihi başka
+noktalarda yazılı.** Yani sınama bir dış kaynak istemiyor:
+
+> **Aynı olayın aynı gününü taşıyan noktalar kümesi ile, o olaydan
+> etkilenmesi gereken noktalar kümesi aynı mı?**
+
+📌 Ve bu, `§76`'nın **tersi**: orada bir gün **fazla paylaşılıyordu** (917 kayıt
+`1281-01-01`), burada **yeterince paylaşılmıyor.** İkisi de *"kaç nokta bu
+tarihi taşımalı"* sorusunun cevabını bilmemekten geliyor.
+
+🔴 Ve çare ucuz olduğu için önceliklidir: `napoli` düzeltmesi **yeni kimlik
+istemiyor** — halefi (`italya`) zaten veride, zaten renkli, zaten altı noktada
+doğru tarihle kullanılıyor. **Kopyalanacak, keşfedilmeyecek.**
+
+⚠️ Küçük bir uyarı, aynı taramada çıktı: `Napoli 1861-02-13` ⟷
+`Torino 1861-03-17` — **birleşmenin iki ayrı günü**, iki ayrı kayıtta.
+`§74` gereği önce sorulacak: **aynı sorunun cevapları mı?** (Krallığın ilhakı
+ile krallığın ilanı ayrı olaylar olabilir.)
+
