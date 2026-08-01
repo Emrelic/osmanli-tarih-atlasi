@@ -352,8 +352,22 @@ BOYALAR = {
     # 🔴 `yerlesimler_ortaasya2.js` bugün hâlâ `d:"kazak"` yazıyor — dosya
     #    Oturum 9'un, düzeltmesi onda. Merge'den önce eşleşmeli.
     #
+    # 🔴 1 Ağustos 2026 18:05 — BU BLOKTAKİ ΔE SAYILARI BAYAT VE GÜVENİLMEZ.
+    # Aşağıda "dolgu %30" yazıyor; dosya başındaki §41 satırı o değerin
+    # YANLIŞ olduğunu ve gerçeğin `js/app.js:559` → 0.44 olduğunu söylüyor.
+    # Üstelik §41'in "yanlış parametreyle ölçüldü" diye SAYDIĞI kimlikler
+    # (nogay · kazak-hanligi) tam da aşağıda listelenenler.
+    # ⇒ Bir sonraki ölçen kişi bu bloktan türetirse 31 Temmuz'daki hatayı
+    #   AYNEN tekrarlar. VERİ KİMLİK 2 bunu 1 Ağustos'ta yakaladı ve
+    #   sayıları DÜZELTMEDİ — ölçemediği için uydurmadı, doğru davranış.
+    # 🔴 VE ASIL SORUN: bu dosyada ΔE hesaplayan HİÇBİR FONKSİYON YOK
+    #   (ölçüldü: 0). Aşağıdaki sayılar Oturum 16'nın tek seferlik DSATUR
+    #   koşusundan ELLE taşınmış. Yani "koştur ve doğrula" MÜMKÜN DEĞİL.
+    #   Ölçüm aracı yazılana kadar yeni renk üretilemiyor — kimlik
+    #   kuyruğunun gerçek darboğazı budur, oturum yavaşlığı değil.
+    #
     # Komşuluk gerçek Voronoi'den (gün bazında dönem çakışmasıyla), ΔE dosya
-    # başındaki kurala göre BİNDİRİLMİŞ (dolgu %30, bej altlık); eşik 12,0.
+    # başındaki kurala göre BİNDİRİLMİŞ (dolgu %30 ← BAYAT, bej altlık); eşik 12,0.
     #   kazak-hanligi: 9 komşu — safevi ΔE 14,9 · buhara 17,6 · timurlu 19,8
     #   nogay        : 5 komşu — timurlu ΔE 21,2 · rusya 22,0 · hive 31,0
     "kazak-hanligi": ("Kazak Hanlığı",        "#ad1457"),
