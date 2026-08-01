@@ -920,3 +920,68 @@ aldım (Belgrad 1688-09-06).
 taşıyor (`1689-09-24` → `1690-09-09`). İki ayrı şehrin aynı gün düşüp aynı gün
 geri alınması mümkün ama **kopyalama işareti** de olabilir. Vidin'in kendi
 tarihleri ayrıca kaynaklanmalı — **bu turda sınanmadı.**
+
+## A-10 🔴🔴 İTİRAZ — 1789-91 `s:` DEĞİL `isg:` OLMALI
+
+Koordinatör Semendire yamasını `s:avusturya` ile hazırladı ve gerekçesi:
+*"Avusturya savaşta aldı, antlaşmayla iade etti; ayrıca Böğürdelen zaten
+`s:avusturya` ile modellenmiş, 60 km'deki komşuyla tutarlı olmalı."*
+
+**İtiraz ediyorum, ve dayanağım verinin KENDİ deseni.**
+
+**① BİZDE NE VAR** — `isg:` kayıtlarının tamamı sayıldı: **72 kayıt**, ve
+hepsinde **tek bir ölçüt** işliyor:
+
+> **`d:` OSMANLI kesintisiz altta akmaya devam ediyor; başka bir güç fiilen
+> tutuyor. Yani `isg:`'in ölçütü "savaşta alındı mı" değil — *Osmanlı
+> hükümranlığı hukuken sağ kaldı mı?*"**
+
+```
+Bosna 1878-1908    d:OSMANLI →1908-10-05 · isg:avusturya 1878-1908 · s:avusturya 1908'de İLHAK
+Mısır 1882-1914    d: sürüyor · isg:ingiltere
+Mısır 1798-1801    d: sürüyor · isg:fransa          ← FRANSIZ İŞGALİ
+Kefe  1771-1783    d: sürüyor · isg:rusya
+```
+
+**③ HÜKÜM: 1789-91, Mısır 1798-1801'in YAPISAL İKİZİDİR.**
+```
+Mısır 1798-1801    Fransa savaşta aldı · askerî idare kurdu · tamamen çekildi
+                   · hükümranlık devri YOK          → isg:  ✓
+Sırbistan 1789-91  Avusturya savaşta aldı · askerî idare kurdu · tamamen çekildi
+                   · hükümranlık devri YOK          → s:    ✗ ŞU AN
+```
+Ziştovi (1791-08-04) bir **devir** değil **iade**dir — statüko ante'ye dönüş.
+Osmanlı hükümranlığı hiçbir an hukuken sona ermedi. ⇒ Ölçüt `isg:`'i gösteriyor.
+
+🔴 **Ve bu, Böğürdelen'in MEVCUT kaydının da yanlış olduğu anlamına gelir:**
+`Böğürdelen s:avusturya 1788-04-24 → 1791-08-04` ⇒ `isg:` olmalı.
+⚠️ **Koordinatörün "komşuyla tutarlılık" gerekçesi bu yüzden ters çalışıyor:**
+tutarlılık **yanlış olanı çoğaltır.** Böğürdelen emsal değil, **düzeltilecek
+ilk kayıt.**
+
+### Karşılaştırma — 1717-1739 neden `s:` olarak DOĞRU
+```
+1717-1739  Pasarofça hükümranlığı DEVRETTİ      → s:avusturya   ✓ doğru
+1788-1791  Ziştovi hükümranlığı İADE ETTİ       → isg:avusturya   düzeltme
+```
+İki dönem aynı şehirlerde geçiyor ama **hukukî nitelikleri farklı**, ve veri
+bugün ikisini de aynı biçimde yazıyor. Fark **görünür**: `isg:` tarama
+katmanıdır, `s:` taban rengini değiştirir. Bugünkü hâliyle harita
+*"Avusturya buranın SAHİBİYDİ"* diyor; doğrusu *"Avusturya burayı İŞGAL
+ETMİŞTİ"*.
+
+📌 Ve `girdi.py` bunu zaten yazmış: *"işgal bir dönem TÜRÜ değil ÖRTÜ
+katmanıdır… `d:/v:/s:` → DE JURE → taban rengi; `isg:` → DE FACTO → tarama."*
+Ve **Bosna'yı örnek olarak veriyor**: *"1878 Avusturya işgali, 1908 ilhak —
+ikisi AYRI gösterim."* 1789-91'in ilhakı **hiç olmadı.**
+
+### Etki
+```
+düzeltilecek   Böğürdelen 1788-04-24 → 1791-08-04    s: → isg:
+eklenecek      Semendire  1789-10-13 → 1791-08-04    isg:  (s: değil)
+eklenecek      Belgrad    1789-10-?? → 1791-08-04    isg:  (günü KAYNAK'ta)
+```
+✅ **Yan kazanç:** `isg:` motor tarafından **okunmuyor** (taban rengi de jure
+kalır) ⇒ bu düzeltme **petek geometrisini hiç değiştirmez**, yalnız örtü
+katmanına girer. Üretim koşusu gerektirmez.
+⚠️ Ama `uret_devirler.py`'nin `ISGALLER` üreticisine girer — MOTOR'un kalemi.
