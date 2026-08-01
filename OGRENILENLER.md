@@ -2512,3 +2512,50 @@ Bugünün diğer derslerinden farkı şu: §61-§64'te *ölçülen şey* yanlı�
 soruya uydurmaktır — ve dört şikâyetin tarihi (1361 · 1362 · 1363 · 1372 · 1381)
 kronolojide **zaten yazılıydı**, kimse aramamıştı.
 
+
+---
+
+## §66 — DOĞRULAMAYI COMMIT'E ZİNCİRLEMEK, DENETİMİ TÖREN HÂLİNE GETİRİR
+
+DENETÇİ kendi ihlalini bildirdi:
+
+> *"Komutu `git add … && git diff --cached --stat && git commit …` diye
+> **zincirledim.** Kural *'`git diff --cached --stat` ile **gördükten sonra**
+> commit et'* diyor — ben çıktıyı **commit'ten sonra** gördüm. Yani doğru komutu
+> çalıştırıp **yanlış sırada baktım.**"*
+
+🔴 **Ve koordinatör bugün aynı ihlali en az on kez yaptı** — `uret_bekleyenler`,
+oturum teslimleri, `tabi:` alanı, bütün `OGRENILENLER` commit'leri. Hepsinde
+`git add X && git diff --cached --stat && git commit` zinciri kuruldu; çıktı
+ekrana geldi ama **commit çoktan çalışmıştı.** Görmek, durdurabilmek demek
+değil.
+
+### Neden bu §60'tan farklı
+
+`§60` *"icat ettiğin ama koşturmadığın denetim"*ti — kontrol **hiç
+çalıştırılmamıştı**. Burada kontrol **çalıştı**, çıktısı **doğruydu**, ve
+**hiçbir şeyi engelleyemedi.**
+
+| | §60 | §66 |
+|---|---|---|
+| kontrol | koşturulmadı | **koşturuldu** |
+| çıktı | yok | **doğru** |
+| etkisi | yok | **yok** |
+| görünüşü | eksik | **tam** ← daha kötüsü |
+
+⚠️ İkincisi daha tehlikeli çünkü **kayıtta iyi görünüyor**: commit çıktısında
+doğrulama satırı duruyor, sanki bakılmış gibi.
+
+### Kural
+
+> **Kapıya konan kontrol, kapıyı kapatabilmelidir.** Doğrulama adımı `&&` ile
+> commit'e zincirlenmez: ayrı çalıştırılır, **bakılır**, sonra commit edilir.
+
+📌 Ve genel hâli: **bir kontrolün değeri, çalışmasında değil, sonucuna göre
+davranışı DEĞİŞTİREBİLMESİNDE.** Çalışan ama akışı durduramayan kontrol,
+`denetle_yayin.py`'nin bugün yaptığının aynısıdır — bayatlığı **gördü**, doğru
+teşhis etti, ekrana yazdı, ve **✓ verdi.**
+
+🟢 Somut çare, DENETÇİ'nin kendi formülü: **ayrı çalıştır, bak, sonra commit et.**
+Bir tur fazla mesaj, ama kontrolün tören olmaktan çıkması o kadar ediyor.
+
