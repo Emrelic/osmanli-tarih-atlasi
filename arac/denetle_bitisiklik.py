@@ -88,6 +88,42 @@ TEMAS_SIFIR = 1e-9
 BEKLENEN_KARA_KOPUK = 4         # ihlal kademesi (yakın + kara + büyük)
 BEKLENEN_KOSE = 2               # ALAN_KM2 üstü tek nokta teması
 BEKLENEN_UZAK_SICRAMA = 33      # >=100 km kara boşluğu — bilinen borç
+# ⚠️ TAVAN BUGÜN AŞILDI (34) VE YÜKSELTİLMEDİ. Önce defter, sonra karar:
+# yeni üye adıyla görünmeden tavan oynatılmaz. Ayrıca YAMACI'nın Semendire
+# paketi (bir pencere üçe bölünüyor) sayıyı bir daha oynatabilir — defter
+# olmadan iki artışı birbirinden ayırmak imkânsız olurdu.
+SICRAMA_DEFTERI = os.path.join(KOK, "denetim", "SICRAMA-DEFTERI.json")
+
+
+def sicrama_defteri(uzak, yaz=False):
+    """(yeni, kapanan, defter_boyu).
+
+    Kimlik `tarih|yerleşim` — km² ve km KİMLİĞE GİRMEZ. Geometri her üretimde
+    birkaç yüz metre oynuyor; alan kimliğe girseydi aynı sıçrama her koşuda
+    "kapandı + yeni açıldı" görünürdü. Bu tuzağa A defterinde madde başlığıyla,
+    boşluk defterinde ham merkezle düşülmüştü — üçüncüsünü yapmıyorum.
+    """
+    simdi = {"%s|%s" % (r["f"], r["ad"]): round(r["km"]) for r in uzak}
+    eski = {}
+    if os.path.exists(SICRAMA_DEFTERI):
+        try:
+            eski = json.load(io.open(SICRAMA_DEFTERI, encoding="utf-8"))
+            eski.pop("_NOT", None)
+        except Exception:
+            print("  !  SICRAMA-DEFTERI.json okunamadı — bozuk olabilir")
+    yeni = sorted(k for k in simdi if k not in eski)
+    kapanan = sorted(k for k in eski if k not in simdi)
+    if yaz:
+        kayit = dict(simdi)
+        kayit["_NOT"] = (
+            "TEMEL DEFTER, 2026-08-01. ⚠️ TAVAN AŞILMIŞ HÂLDEYKEN yazıldı "
+            "(34 / tavan 33). 'Defterde var' ≠ 'incelendi ve kabul edildi'. "
+            "Uzak sıçrama çoğunlukla MEŞRUDUR (Tebriz 1514, Bağdat 1638 — ordu "
+            "araya giren yabancı toprağı aşmıştır) ama meşru olması KAYITSIZ "
+            "olabileceği anlamına gelmez.")
+        io.open(SICRAMA_DEFTERI, "w", encoding="utf-8", newline="").write(
+            json.dumps(kayit, ensure_ascii=False, indent=1, sort_keys=True))
+    return yeni, kapanan, len(eski)
 # ⚠️ 24 İLK YAZIMDA UYDURULMUŞTU ve yanlıştı — bu dosyanın kendi kuralını ihlal
 # ediyordu. Sebebi: D bölümü iki kez 9 dakikada bitmeyince tavan ölçülmeden
 # kondu. Ölçüldüğünde 128 çıktı, ama o da yanlıştı: imza alana bakıyordu ve
@@ -333,6 +369,23 @@ def main():
         print(f"      {r['km2']:9.0f} km²  {r['km']:6.0f} km  {r['f']}  {r['ad'][:34]:34s} {r['e'][:2]}")
     if not ayrinti and len(uzak) > 10:
         print(f"      … {len(uzak)-10} satır daha (--ayrinti)")
+
+    # ---- SIÇRAMA DEFTERİ ---------------------------------------------------
+    # 🔴 BUGÜN DÖRT DEFTER KURULDU (A · B · 2t · tâbiyet) VE BU ARAÇ ATLANDI.
+    # Sonucu hemen görüldü: tavan aşıldı (34 > 33) ve araç **hangisinin yeni
+    # olduğunu söyleyemedi.** "Muhtemelen bugünkü paketlerden biri" ile tavan
+    # yükseltmek, ölçütün kendi varsayımını doğrulaması olurdu.
+    # 📌 Ders (MOTOR'un aynı gün yazdığı hâliyle): *bir yöntemin bağışık
+    # olduğunu varsaydığın eksen, taramayı en çok atlayacağın eksendir.*
+    yeni_s, kapanan_s, boy_s = sicrama_defteri(uzak, yaz="--defter-yaz" in sys.argv)
+    if boy_s == 0:
+        print("  i sıçrama defteri BOŞ — ilk kez yazmak için: --defter-yaz")
+    else:
+        print(f"  sıçrama defteri: {boy_s} kayıt · YENİ {len(yeni_s)} · KAPANAN {len(kapanan_s)}")
+        for k in yeni_s[:10]:
+            print(f"    + YENİ    {k[:78]}")
+        for k in kapanan_s[:6]:
+            print(f"    - KAPANAN {k[:78]}")
 
     # ---------------- D) gövde içi kopukluk
     gk = sorted(govde_ici_kopukluk(D, PARCA, kara), key=lambda r: -r["kucuk"])
