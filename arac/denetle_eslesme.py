@@ -31,6 +31,7 @@ zıt yönlerden: A kırılmadan maddeye, B maddeden yerleşime.
 ⚠️ İKİSİ DE İHLAL DEĞİL, GÖZDEN GEÇİRME KADEMESİ — sebebi ölçümde (§A).
 """
 import io
+import json
 import os
 import re
 import sys
@@ -384,6 +385,59 @@ DOGURAN_VAKALAR = [
 ]
 
 
+# ============================================================================
+# A DEFTERİ — tavan bir SAYI, defter bir KÜMEDİR
+# ============================================================================
+# 2026-08-01'de tavan aşıldı: 97 → 109. Sayıya bakıp "veri büyüdü" demek
+# mümkündü (476 → 482 kırılma) ama SAYI BU SORUYU CEVAPLAYAMIYOR: kırılma 6
+# arttı, şüpheli 12. Demek ki en az 6 tanesi ESKİDEN TEMİZ OLAN kırılmaydı.
+# Hangileri? Tavan söyleyemez — çünkü tavan bir sayıdır, küme değil.
+#
+# Aynı ders boşluk envanterinde de çıktı ve orada baştan doğru kurulmuştu:
+# kararlı kimlik + defter. Burada eksikti. Defter iki yönü de adlandırır:
+#     YENİ    → bu koşuda ortaya çıkan şüpheli (gerileme adayı)
+#     KAPANAN → defterde olup artık çıkmayan (borç ödenmiş)
+# Tavanın kendisi kalıyor; defter onun neden değiştiğini SÖYLEYEN kısım.
+A_DEFTERI = os.path.join(denetle.KOK, "denetim", "ESLESME-A-DEFTERI.json")
+
+
+def _a_kimlik(kayit):
+    """(tarih, kırılan ilk yer) — kırılmanın kararlı kimliği.
+
+    ⚠️ Madde başlığı kimliğe GİRMEZ: madde düzeltilince kimlik değişir ve
+    aynı kırılma "kapandı + yeni açıldı" diye iki kez görünürdü.
+    """
+    dt, yerler = kayit[0], kayit[1]
+    return "%s|%s" % (dt, yerler[0] if yerler else "?")
+
+
+def a_defteri(supheli, yaz=False):
+    """(yeni, kapanan, defter_boyu). `yaz=True` ise defteri günceller."""
+    simdi = {_a_kimlik(k): k[2] for k in supheli}
+    eski = {}
+    if os.path.exists(A_DEFTERI):
+        try:
+            eski = json.load(io.open(A_DEFTERI, encoding="utf-8"))
+            eski.pop("_NOT", None)
+        except Exception:
+            print("  !  ESLESME-A-DEFTERI.json okunamadı — bozuk olabilir")
+    yeni = sorted(k for k in simdi if k not in eski)
+    kapanan = sorted(k for k in eski if k not in simdi)
+    if yaz:
+        kayit = dict(simdi)
+        kayit["_NOT"] = (
+            "TEMEL DEFTER, 2026-08-01. ⚠️ TAVAN AŞILMIŞ HÂLDEYKEN yazıldı "
+            "(109 şüpheli / tavan 97). Yani bu defterdeki üyelerin yaklaşık "
+            "12'si tavan konduktan SONRA ortaya çıkmış ve TEK TEK "
+            "İNCELENMEMİŞTİR — 'defterde var' demek 'incelendi ve kabul "
+            "edildi' DEMEK DEĞİLDİR. Defterin bugünkü işlevi ileriye dönük: "
+            "bundan sonraki her ekleme YENİ diye adıyla raporlanır. "
+            "Geriye dönük temizlik ayrı bir iştir.")
+        io.open(A_DEFTERI, "w", encoding="utf-8", newline="").write(
+            json.dumps(kayit, ensure_ascii=False, indent=1, sort_keys=True))
+    return yeni, kapanan, len(eski)
+
+
 def doguran_vaka_sinamasi(eksik):
     """Denetimi doğuran vakalar HÂLÂ yakalanıyor mu?"""
     bulgu = {(r[2], tuple(r[5])) for r in eksik}
@@ -422,6 +476,22 @@ def main():
               f" | {fark:2d}g | {b[:44]}")
     if not ayrinti and len(supheli) > 16:
         print(f"      … {len(supheli)-16} satır daha (--ayrinti)")
+
+    # ---- A DEFTERİ: tavanın NEDEN değiştiğini söyleyen kısım --------------
+    yeni_a, kapanan_a, defter_boyu = a_defteri(supheli, yaz="--defter-yaz" in sys.argv)
+    if defter_boyu == 0:
+        print("    i A defteri BOŞ — ilk kez yazmak için: --defter-yaz")
+    else:
+        print(f"    A defteri: {defter_boyu} kayıt · YENİ {len(yeni_a)} · KAPANAN {len(kapanan_a)}")
+        for k in yeni_a[:12]:
+            print(f"      + YENİ    {k}")
+        if len(yeni_a) > 12:
+            print(f"      … +{len(yeni_a)-12} yeni daha")
+        for k in kapanan_a[:8]:
+            print(f"      - KAPANAN {k}")
+        if yeni_a:
+            print("      → YENİ olanlar gerileme adayıdır: kırılma eskiden bir maddenin")
+            print("        andığı yerdeydi, artık değil. Veri mi değişti, madde mi?")
 
     yok, donemsiz = b_madde_sehri(O, ix)
     n_top = sum(1 for o in O if o.get("k") in ("fetih", "kayip"))
