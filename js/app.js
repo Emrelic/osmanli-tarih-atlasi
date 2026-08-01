@@ -2166,6 +2166,93 @@ function dizinDoldur(sekme) {
     });
   }
 }
+// ---------- Hakkında penceresi ----------
+// Kullanıcı: *"Sitenin bir 'Hakkında' menüsü ve içinde benden bakma isteyen,
+// BEKLEYENLER.md'deki işlerin göründüğü bir tablo istiyorum. Proje klasöründen
+// md'ye bakmaktansa oradan görebilirim."*
+//
+// 🔴 TEK KAYNAK: tablo `BEKLEYENLER.md`'den ÜRETİLİYOR (arac/uret_bekleyenler.py
+// → data/bekleyenler.js). Elle kopyalanmıyor. İki nüsha olsaydı iki otorite
+// doğardı ve ayrışırdı — bugün üç yerde yaşandı (`y:` simgeleri üç otorite,
+// BOLGE sabiti dört dosya, 1446 tarihi 119 gün fark).
+// ⚠️ `fetch()` ile md'yi doğrudan çekmek DEĞERLENDİRİLDİ ve elendi: `file://`
+// altında CORS engeli yer, yani yayında çalışıp yerelde çalışmazdı. Bugün tam
+// tersi sınıftan üç vaka gördük; birini de ben üretmeyeyim.
+//
+// Pencere `#dizin`in AYNI desenini kullanıyor — yeni bir kalıp icat etmiyorum.
+var hakkindaPencere = document.getElementById("hakkinda");
+function hakkindaKur() {
+  var k = document.getElementById("hakkinda-icerik");
+  if (!k || k.dataset.kuruldu) return;
+  k.dataset.kuruldu = "1";
+  var B = window.BEKLEYENLER;
+  var h = "";
+
+  // Künye — kaynak rejimi kullanıcının en çok sorduğu şey, en üstte.
+  var damga = (document.querySelector('script[src*="js/app.js"]') || {}).src || "";
+  var m = damga.match(/v=(r\d+)/);
+  h += '<section class="hk-blok"><h4>Bu atlas nedir</h4>' +
+       '<p>Zaman göstergesi ilerledikçe devlet sınırlarının gün gün değiştiği, ' +
+       'yanında kronoloji ve dönemin hükümdarının aktığı eğitim amaçlı bir ' +
+       'tarih atlası. Sınırlar elle çizilmiyor: her yerleşimin çevresindeki ' +
+       'toprak bir <b>petek</b> olarak hesaplanıyor, kıyıya ve nehirlere ' +
+       'yaslanıyor.</p>' +
+       '<p><b>Kaynak rejimi:</b> İslâm dünyası ve Osmanlı için birincil kaynak ' +
+       '<b>TDV İslâm Ansiklopedisi</b>. Vikipedi tek başına kaynak sayılmaz. ' +
+       'Gün bilinmiyorsa uydurulmaz.</p>' +
+       (m ? '<p class="hk-kucuk">Sürüm ' + m[1] + '</p>' : "") +
+       '</section>';
+
+  // 👁 Asıl istenen: bakılması beklenenler
+  if (B && B.bolum) {
+    h += bekleyenTablo("👁 Senden bakması beklenenler", B.bolum.gorsel);
+    h += bekleyenTablo("❓ Senden karar beklenenler", B.bolum.karar);
+  } else {
+    // ⚠️ Sessiz boşluk YOK: veri gelmediyse sebebi yazılır. Bugün altı kez
+    // "yazılmış görünüyor, çalışmıyor" vakası gördük; bu kutu onu söyler.
+    h += '<section class="hk-blok"><h4>👁 Bakılması beklenenler</h4>' +
+         '<p class="hk-uyari">Liste yüklenemedi — <code>data/bekleyenler.js</code> ' +
+         'eksik ya da eski. <code>arac/uret_bekleyenler.py</code> koşturulmalı.</p>' +
+         '</section>';
+  }
+  k.innerHTML = h;
+}
+function bekleyenTablo(baslik, b) {
+  if (!b || !b.satir || !b.satir.length)
+    return '<section class="hk-blok"><h4>' + baslik + '</h4>' +
+           '<p class="hk-kucuk">Bekleyen iş yok.</p></section>';
+  var h = '<section class="hk-blok"><h4>' + baslik +
+          ' <span class="hk-rozet">' + b.satir.length + '</span></h4>' +
+          '<table class="hk-tablo"><thead><tr>';
+  for (var i = 0; i < b.baslik.length; i++) h += "<th>" + b.baslik[i] + "</th>";
+  h += "</tr></thead><tbody>";
+  for (var r = 0; r < b.satir.length; r++) {
+    h += "<tr>";
+    for (var c = 0; c < b.satir[r].length; c++) h += "<td>" + b.satir[r][c] + "</td>";
+    h += "</tr>";
+  }
+  return h + "</tbody></table></section>";
+}
+document.getElementById("btn-hakkinda").addEventListener("click", function () {
+  hakkindaKur();
+  hakkindaPencere.classList.remove("gizli");
+});
+document.getElementById("hakkinda-kapat").addEventListener("click", function () {
+  hakkindaPencere.classList.add("gizli");
+});
+hakkindaPencere.addEventListener("click", function (e) {
+  if (e.target === hakkindaPencere) hakkindaPencere.classList.add("gizli");
+});
+// Menü başlığında açık iş sayısı — kullanıcı pencereyi AÇMADAN kaç iş
+// beklediğini görsün. Sıfırsa rozet hiç çıkmıyor: "0" yazan bir rozet de
+// kalabalıktır.
+(function () {
+  var B = window.BEKLEYENLER;
+  if (!B || !B.ozet || !B.ozet.toplam_acik) return;
+  var d = document.getElementById("btn-hakkinda");
+  d.innerHTML += ' <span class="hk-rozet">' + B.ozet.toplam_acik + "</span>";
+})();
+
 document.getElementById("btn-dizin").addEventListener("click", function () {
   dizinPencere.classList.remove("gizli");
   dizinDoldur("kisiler");

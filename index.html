@@ -5,12 +5,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Osmanlı Tarih Atlası (1281–1923)</title>
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
-<link rel="stylesheet" href="css/style.css?v=r395">
+<link rel="stylesheet" href="css/style.css?v=r398">
 </head>
 <body>
 <header id="ustbar">
   <h1>🕌 Osmanlı Tarih Atlası <span class="alt">1281–1923</span></h1>
   <button id="btn-dizin" title="Kişi, savaş ve antlaşma dizinleri">📚 Dizin</button>
+  <!-- Hakkında: proje künyesi + BEKLEYENLER.md'den üretilen "senden bakılması
+       istenenler" tablosu. Tablo elle KOPYALANMIYOR — data/bekleyenler.js
+       arac/uret_bekleyenler.py tarafından md'den üretiliyor. İki nüsha olsaydı
+       iki otorite doğar ve ayrışırdı (bugün üç yerde yaşandı). -->
+  <button id="btn-hakkinda" title="Proje künyesi ve senden bakması beklenen işler">ℹ️ Hakkında</button>
   <button id="btn-cografya" title="Kendi coğrafya katmanımız: kara, göl, nehir, dağ. Açılınca Esri altlığı kapanır — altlığın bize geçtiğinde nasıl görüneceği.">🗺 Coğrafya</button>
   <button id="btn-motorhat" title="Motorun sınırları yasladığı hatlar: gördüğü nehirler (camgöbeği) ve dağ konturları (turuncu). Kesikli çizilir, sınırla karışmasın.">📐 Motor hatları</button>
   <!-- Veri sınırı: üretim penceresinin (BOLGE) kenarı. Kullanıcı beş kez
@@ -120,6 +125,14 @@
   </div>
 </div>
 
+<div id="hakkinda" class="gizli">
+  <div id="hakkinda-kutu">
+    <button id="hakkinda-kapat" title="Kapat">✕</button>
+    <h3>ℹ️ Hakkında</h3>
+    <div id="hakkinda-icerik"></div>
+  </div>
+</div>
+
 <div id="dizin" class="gizli">
   <div id="dizin-kutu">
     <button id="dizin-kapat">✕</button>
@@ -137,37 +150,39 @@
 </div>
 
 <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
-<script src="data/padisahlar.js?v=r395"></script>
-<script src="data/olaylar.js?v=r395"></script>
-<script src="data/olaylar_ek.js?v=r395"></script>
-<script src="data/olaylar_ek2.js?v=r395"></script>
-<script src="data/olaylar_ek3.js?v=r395"></script>
-<script src="data/olaylar_ek4.js?v=r395"></script>
-<script src="data/olaylar_ek5.js?v=r395"></script>
-<script src="data/olaylar_ek6.js?v=r395"></script>
-<script src="data/olaylar_ek7.js?v=r395"></script>
-<script src="data/olaylar_ek8.js?v=r395"></script>
-<script src="data/olaylar_ek9.js?v=r395"></script>
-<script src="data/olaylar_ek10.js?v=r395"></script>
-<script src="data/olaylar_ek11.js?v=r395"></script>
+<script src="data/padisahlar.js?v=r398"></script>
+<script src="data/olaylar.js?v=r398"></script>
+<script src="data/olaylar_ek.js?v=r398"></script>
+<script src="data/olaylar_ek2.js?v=r398"></script>
+<script src="data/olaylar_ek3.js?v=r398"></script>
+<script src="data/olaylar_ek4.js?v=r398"></script>
+<script src="data/olaylar_ek5.js?v=r398"></script>
+<script src="data/olaylar_ek6.js?v=r398"></script>
+<script src="data/olaylar_ek7.js?v=r398"></script>
+<script src="data/olaylar_ek8.js?v=r398"></script>
+<script src="data/olaylar_ek9.js?v=r398"></script>
+<script src="data/olaylar_ek10.js?v=r398"></script>
+<script src="data/olaylar_ek11.js?v=r398"></script>
 <!-- hatalar 8.docx madde 1: antlasmalarda taralı devir alanları. Uretici: arac/uret_devirler.py -->
-<script src="data/devirler.js?v=r395"></script>
-<script src="data/devletler.js?v=r395"></script>
-<script src="data/kisiler.js?v=r395"></script>
-<script src="data/savaslar.js?v=r395"></script>
-<script src="data/yerlesimler.js?v=r395"></script>
-<script src="data/bolgeler.js?v=r395"></script>
-<script src="data/devletler_harita.js?v=r395"></script>
-<script src="data/sehirler.js?v=r395"></script>
-<script src="data/donemler.js?v=r395"></script>
-<script src="data/altlik.js?v=r395"></script>
-<script src="js/suzgec.js?v=r395"></script>
+<script src="data/devirler.js?v=r398"></script>
+<script src="data/devletler.js?v=r398"></script>
+<script src="data/kisiler.js?v=r398"></script>
+<script src="data/savaslar.js?v=r398"></script>
+<script src="data/yerlesimler.js?v=r398"></script>
+<script src="data/bolgeler.js?v=r398"></script>
+<script src="data/devletler_harita.js?v=r398"></script>
+<script src="data/sehirler.js?v=r398"></script>
+<script src="data/donemler.js?v=r398"></script>
+<script src="data/altlik.js?v=r398"></script>
+<!-- BEKLEYENLER.md'den uretilir; elle duzenlenmez. -->
+<script src="data/bekleyenler.js?v=r398"></script>
+<script src="js/suzgec.js?v=r398"></script>
 <!-- ⚠️ zaman.js BU SATIR OLMADAN HİÇ YÜKLENMİYORDU. Dosya vardı, app.js onu
      `window.ZAMAN` üzerinden çağırıyordu ama script etiketi eksikti; sonuç:
      window.ZAMAN tanımsız, `obTazele()` daha ilk satırında geri dönüyor ve
      detay panelinin tarihle birlikte ilerlemesi (bir kullanıcı şikâyeti üzerine
      yazılmıştı) fiilen hiç çalışmıyordu. app.js'ten ÖNCE yüklenmeli. -->
-<script src="js/zaman.js?v=r395"></script>
-<script src="js/app.js?v=r395"></script>
+<script src="js/zaman.js?v=r398"></script>
+<script src="js/app.js?v=r398"></script>
 </body>
 </html>

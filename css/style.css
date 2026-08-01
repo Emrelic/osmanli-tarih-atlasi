@@ -740,6 +740,50 @@ body {
 #btn-zoom.pasif { opacity: 0.45; }
 
 /* ---------- Dizin penceresi ---------- */
+/* ---------- Hakkında penceresi ---------- */
+/* `#dizin`in aynı deseni — yeni bir kalıp icat edilmiyor. Kullanıcı bir modal
+   davranışını zaten biliyor; ikinci bir tür öğrenmek zorunda kalmasın. */
+#hakkinda {
+  position: fixed; inset: 0; background: rgba(0,0,0,0.55);
+  display: flex; align-items: center; justify-content: center; z-index: 60;
+}
+#hakkinda.gizli { display: none; }
+#hakkinda-kutu {
+  background: var(--panel); border: 2px solid var(--altin); border-radius: 10px;
+  width: min(820px, 94vw); max-height: 84vh;
+  display: flex; flex-direction: column; padding: 16px 20px; position: relative;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+}
+#hakkinda-kutu h3 { margin-bottom: 10px; }
+#hakkinda-kapat {
+  position: absolute; top: 8px; right: 10px; border: none; background: none;
+  font-size: 18px; cursor: pointer; color: #6b5a33;
+}
+#hakkinda-icerik { overflow-y: auto; min-height: 0; font-size: 13px; line-height: 1.45; }
+.hk-blok { margin-bottom: 16px; }
+.hk-blok h4 {
+  font-size: 13.5px; color: #6b4a1f; margin-bottom: 6px;
+  border-bottom: 1px solid #d8c9a3; padding-bottom: 3px;
+}
+.hk-blok p { margin-bottom: 6px; }
+.hk-kucuk { font-size: 11.5px; color: #8a6d2f; }
+.hk-uyari { color: #8c0f26; font-size: 12px; }
+/* Açık iş sayısı — menü açılmadan görünsün. */
+.hk-rozet {
+  display: inline-block; min-width: 17px; padding: 0 5px;
+  background: var(--osmanli-kirmizi); color: #fff;
+  border-radius: 9px; font-size: 11px; font-weight: 600; text-align: center;
+}
+/* ⚠️ Tablo GENİŞ olabilir (dört sütun, uzun cümleler). Kutu taşmasın diye
+   kendi içinde yatay kaydırılıyor; sayfa gövdesi asla yana kaymamalı. */
+.hk-tablo { width: 100%; border-collapse: collapse; font-size: 12px; }
+.hk-tablo th, .hk-tablo td {
+  border: 1px solid #d8c9a3; padding: 4px 6px; text-align: left; vertical-align: top;
+}
+.hk-tablo th { background: var(--panel-koyu); font-size: 11.5px; color: #6b5a33; }
+.hk-tablo td:first-child, .hk-tablo th:first-child { width: 28px; text-align: center; }
+.hk-tablo td:last-child, .hk-tablo th:last-child { width: 44px; text-align: center; }
+
 #dizin {
   position: fixed;
   inset: 0;
