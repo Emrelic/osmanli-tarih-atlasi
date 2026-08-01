@@ -2891,6 +2891,32 @@ yanlış **yeşil değişmezin arkasına saklanır** (`§72`) ve onu bulmak içi
 bir oturum gerekir.
 
 
+### §73.1 — Güç etiketinin kendi kör noktası: YAZILMAYANA etiket konmuyor
+
+ÇAPRAZ BATI, Dubrovnik önerisinde `1814-01-01`'i **`ZAYIF`** diye işaretledi
+ve haklıydı. Ama kaydın **1918 ardılını hiç koymadı** — komşuları
+(Zagreb · Ösek · Varadin · Baç) `1918-11-11`'de `yugoslavya`ya geçerken
+Dubrovnik `avusturya 1814 → 1923` diye kaldı.
+
+Öneriyi **koordinatör onayladı**, **YAMACI uyguladı**, ve **üçü de** eksikliği
+görmedi. Onların kendi cümlesi:
+
+> *"`ZAYIF` işaretlemiştim ama **eksikliği** işaretlememiştim — **zayıf olan
+> tarih değil, eksik olan pencereydi.**"*
+
+> **KURAL: `KESİN`/`DESEN`/`ZAYIF`/`ÇELİŞKİLİ` etiketleri YAZILANA konuyor;
+> YAZILMAYANA konmuyor.** Bir öneri değerlendirilirken *"yazılanlar doğru mu"*
+> yetmez — **"yazılması gereken her şey yazılmış mı"** ayrı bir sorudur ve
+> etiket sistemi onu hiç sormuyor.
+
+📌 Ve bu `§80`'in kendisi: **bir olay noktalarının hepsine yazılmıyor.** Fark
+şu ki `§80`'de yazmayan geçmiş bir eldi; burada **bugün, üç kişi, kuralı
+bilerek.**
+
+🟢 Ucuz çare — `§80`'in sınamasının aynısı, öneri aşamasında:
+> **Bu kaydın komşuları hangi tarihlerde kırılıyor, bu kayıt onların
+> hepsini taşıyor mu?**
+
 ---
 
 ## §74 — "RAKİP CEVAPLAR" ÇOĞU ZAMAN AYRI SORULARIN CEVAPLARIDIR
