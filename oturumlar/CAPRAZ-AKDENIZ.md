@@ -972,6 +972,123 @@ buldum/bulamadım."* Kendi cümlemi tekrar ediyorum çünkü bana da geçerli:
 
 ---
 
+---
+---
+
+# TUR 7 — A-4 paketlendi (Suriye/Lübnan 1918-1920)
+
+> Ölçüm commit'i: `252325e`. Koordinatörün önerisi ①.
+> ⚠️ Üretim koşuyor, `data/`ya yazılmadı — zaten yazmıyorum.
+
+## 🔴 G-1 · ÖNCE EV KURALINI ÖLÇTÜM — ve **ilk önerimi çürüttü**
+
+A-4'ü ilk yazdığımda *"doğru yapı `d:` + `isg:` ikilisidir, tek `s:` değil"*
+demiştim ve gerekçem `girdi.py`'nin Mısır yorumuydu. **Önce emsali aradım.**
+
+```
+1914-1918 kayıplarında veri NE YAPIYOR:
+  Bağdat   d:OSM→1917-03-11  ·  s:ingiltere 1917-03-11→1923-10-29
+  Kudüs    d:OSM→1917-12-09  ·  s:ingiltere 1917-12-09→1923-10-29
+  Musul    d:OSM→1918-11-08  ·  s:ingiltere 1918-11-08→1923-10-29
+  Cidde    d:OSM→1916-06-16  ·  s:hicaz     1916-06-16→1923-10-29
+  ⇒ 1918-1923 arası açılan pencerelerin dağılımı: [s] 88 · [isg] 0
+```
+**Ev kuralı tek tip ve istisnasız:** 1914-1923 bandında `s:` = **fiilî askerî
+denetim**, hukukî hükümranlık değil. Osmanlı hükümranlığı Lozan'a (1923-07-24)
+kadar hukuken sürüyor ama veri bunu **hiçbir yerde** `isg:` ile göstermiyor.
+
+🟢 **Ve Mısır bu kuralın istisnası değil, KANITI:** orada `isg:` kullanılmış
+çünkü **Osmanlı idaresi yerinde kalmıştı** (`v:` Kavalalı hanedanı 1914'e kadar
+sürüyor). 1918 Suriye/Irak/Filistin'de Osmanlı idaresi **kaldırıldı.**
+⇒ `§78` ölçütü (*"pencere boyunca hükümranlık kimdeydi"*) burada `s:` diyor.
+
+⇒ **İlk önerimi geri alıyorum.** Suriye'yi 1923'e kadar Osmanlı yapmak **72
+kayıtlık tek tip bir kuralı tek kesit için bozmak** olurdu. `§5`: şema kararı
+benim değil — ama şema kararı **gerekmediğini** ölçebilirim, ve gerekmiyor.
+
+## 🔴 G-2 · ASIL HATA DAHA DAR VE DAHA NET: **işgalci yanlış**
+
+Ev kuralı doğru; yanlış olan **kimin yazıldığı.**
+
+### ① BİZDE
+```
+Şam · Hama · Humus         d:OSM→1918-10-01  ·  s:fransa 1918-10-01→1923-10-29
+Halep · Deyrizor · Rakka   d:OSM→1918-10-26  ·  s:fransa 1918-10-26→1923-10-29
+Beyrut · Sayda · Trablusşam · Antakya        ·  s:fransa 1918-10-06/08/13/26→
+```
+### ② KAYNAKTA
+TDV `suriye` (CANLI): *"Şam, **İngiliz-Arap kuvvetleri** tarafından Ekim 1918
+başında işgal edildi"* — ve Şam'da **Faysal'ın Arap idaresi** kuruldu.
+> *"İtilâf devletlerinin **Nisan 1920** San Remo Konferansı'nda Suriye'yi Fransız
+> manda yönetimine vermesiyle…"* · *"**Temmuz 1920**'de … Han Meyselûn'da …
+> Faysal dönemi sona erdi."*
+
+TDV `faysal-i` (CANLI): Arap Krallığı **8 Mart 1920**'de ilan edildi; Fransızlar
+*"**14 Temmuz 1920**'de Şam'ı işgal edip Faysal'ı tahttan uzaklaştırdı."*
+
+### ③ HÜKÜM
+```
+🔴 ÇELİŞİYOR  Şam · Hama · Humus · Halep · Deyrizor · Rakka   (iç şehirler)
+🟢 UYUYOR     Beyrut · Sayda · Trablusşam · Antakya           (kıyı, Fransız idaresi
+                                                               gerçekten Ekim 1918)
+```
+⚠️ Ayrım keyfî değil: kıyı **OETA West** (Fransız), iç şehirler **OETA East**
+(Faysal'ın Arap idaresi). Veri ikisini **tek renge** indirmiş.
+
+### ÖLÇÜ
+```
+Şam · Hama · Humus         1918-10-01 → 1920-07-14   652 gün × 3
+Halep · Deyrizor · Rakka   1918-10-26 → 1920-07-14   627 gün × 3
+                                      toplam 3.837 gün = 10,5 yıl-nokta
+```
+
+## ⚠️ G-3 · TDV KENDİYLE YİNE ÇELİŞİYOR — temmuz 1920'nin günü
+
+```
+suriye     "Temmuz 1920'de … Meyselûn'da …"      → GÜN YOK
+faysal-i   "14 Temmuz 1920'de Şam'ı işgal edip"  → GÜN VAR
+```
+`§3.1 ②` **ÖZEL > GENEL**: konusu **o yer** olan madde kazanır ⇒ `suriye`.
+Ama `suriye` **gün vermiyor.**
+
+⚠️ Ve `§74`: temmuz 1920'de **birden çok olay** var (ültimatom · muharebe ·
+şehre giriş) ve TDV'nin verdiği `14 Temmuz`un **hangisi** olduğu maddeden
+çıkmıyor. **Bunlar aynı sorunun cevapları olmayabilir.**
+
+⇒ **Önerim `§4⑤` gereği:** `t:`/`f:` **`1920-07`** (ay hassasiyetli — kaynağın
+verdiği hassasiyet), `gun:` alanına **"14 Temmuz 1920 (TDV `faysal-i`)"**.
+**Gün uydurmuyorum ve tek maddeye dayanarak güne çıkmıyorum.**
+📌 KAYNAK oturumuna: *"Meyselûn muharebesinin ve Fransızların Şam'a girişinin
+günü ayrı ayrı"* — bu bir kalem.
+
+## 🟡 G-4 · KİMLİK — ve bu **benim kararım değil**, ama maliyeti ölçtüm
+
+Ev kuralı `s:` + işgalci istiyor ⇒ Faysal'ın idaresi için bir kimlik gerekiyor.
+Dizinde **yok.** İki yol var:
+
+```
+(a) mevcut `hicaz`            renk GEREKMİYOR · zaten kullanılıyor ve KOMŞU:
+                              Medine · Tebük · MAAN  s:hicaz 1918-1923
+                              Faysal, Şerif Hüseyin'in oğlu; OETA East onun adına
+                              ⚠️ ama Suriye Arap Krallığı (8 Mart 1920) AYRI devlet
+(b) yeni `suriye-arap-kralligi`  tarihen daha sıkı · RENK gerekiyor
+                                 ⇒ VERİ KİMLİK kuyruğu (bugün 10 kalem tıkalı)
+```
+
+⇒ **Tarihen (b) doğru, ucuz olan (a).** `§5` gereği hüküm vermiyorum; ama şunu
+ölçtüm: **(a) seçilirse 8 Mart 1920 - 14 Temmuz 1920 arası dört ay yanlış
+kimlikle boyanır** (Hicaz değil, Suriye Arap Krallığı). Yani (a) hatayı
+**10,5 yıl-noktadan ~1,1 yıl-noktaya indirir, sıfırlamaz.**
+
+📌 Bu, kesitimde **rengin gerçekten gerektiği ilk paket.** Önceki altı `KESİN`
+bulgunun beşi renksiz çözülüyordu; bu çözülmüyor.
+
+⚠️ Yeni ÖLÜ slug (`CLAUDE.md §4` listesine): **`sam`** — arama sayfasına
+düşüyor, `<title>` *"Arama - TDV İslâm Ansiklopedisi"*.
+⚠️ Yeni CANLI slug: `faysal-i`.
+
+---
+
 ## Sıradaki (aksi söylenmezse)
 
 1. **Ada ada gün kaynaklama** — 1798 sonbaharı Osmanlı-Rus seferi: Çuha · Zaklise ·

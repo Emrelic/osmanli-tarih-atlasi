@@ -448,3 +448,53 @@ taşıyorsa renk kazara doğru çıkıyor (F-3, F-4), yanlış taşıyorsa hata 
 oluyor (F-1, F-2). **Aynı boşluk, iki ayrı sonuç.**
 ⇒ Bir *"eksik nokta"* listesini önceliklendirmenin tek yolu **emilme yönünü
 ölçmek.** Yalnız listeyi vermek, BATI'nın uyardığı gürültüyü üretir.
+
+---
+
+# TUR 7 — A-4 paketlendi
+
+> Ölçüm commit'i: `252325e`.
+
+## 23. TESLİM
+
+| kod | konu | hüküm | güç |
+|---|---|---|---|
+| **G-1** | ev kuralı ölçüldü — `s:` tek tip, `isg:` gerekmiyor | 🔄 **kendi önerimi çürüttüm** | KESİN |
+| **G-2** | işgalci yanlış: 6 iç şehir Faysal'ın idaresinde | 🔴 ÇELİŞİYOR | KESİN · 10,5 yıl-nokta |
+| **G-3** | TDV kendiyle çelişiyor: temmuz 1920'nin günü | ⚠️ ay hassasiyeti öneriliyor | DESEN |
+| **G-4** | kimlik gerekiyor — kesitimde **renk isteyen ilk paket** | 🟡 karar koordinatörde | — |
+
+## 24. 🔄 G-1 — İLK ÖNERİMİ GERİ ALDIM
+
+A-4'ü ilk yazdığımda *"doğru yapı `d:`+`isg:`dir, tek `s:` değil"* demiştim ve
+`girdi.py`'nin Mısır yorumuna dayanmıştım. **Emsali ölçünce çürüdü:**
+
+```
+1918-1923 arası açılan pencereler:  [s] 88  ·  [isg] 0
+Bağdat · Kudüs · Musul · Cidde … hepsi d:OSM→gün, sonra s:<işgalci>
+```
+Ev kuralı **tek tip ve istisnasız**. Mısır istisna değil **kanıt**: orada `isg:`
+kullanılmış çünkü Osmanlı idaresi (`v:` Kavalalı) yerinde kalmıştı; 1918
+Suriye'de kaldırılmıştı.
+
+📌 **Ders:** *"şema şunu taşıyabilir"* ile *"şema bunu böyle kullanıyor"* ayrı
+şeyler. Birincisini `girdi.py` yorumundan okudum, ikincisini **ölçmeliydim** —
+ve ölçünce öneri değişti. **Yorum belgeyi anlatır, emsal veriyi.**
+
+⚠️ Ve bu, bu oturumda **üçüncü kez** kendi hükmümü düzeltmem oldu (A-3 · C-4/E-1 ·
+şimdi G-1). Üçünde de sebep aynı sınıf: **elimdeki kaynağı ölçümün yerine
+koymuşum.**
+
+## 25. G-4 — kesitimin ilk "renk gerektiren" paketi
+
+Şimdiye kadar yedi `KESİN` bulgunun altısı renksiz çözülüyordu (`v:`/`k:`, ya da
+veride zaten boyalı kimlik). **G-2 çözülmüyor:** Faysal'ın idaresi dizinde yok.
+```
+(a) mevcut `hicaz`               renksiz · komşu kullanımı var (Maan · Tebük)
+                                 ama 8 Mart-14 Temmuz 1920 yanlış kimlik kalır
+                                 ⇒ hatayı 10,5 → ~1,1 yıl-noktaya indirir
+(b) yeni `suriye-arap-kralligi`  tarihen sıkı · VERİ KİMLİK kuyruğu
+```
+**Hüküm vermedim** (`§5`), iki yolun maliyetini ölçtüm.
+
+⚠️ Slug kütüğü: **`sam` ÖLÜ** (arama sayfasına düşüyor) · `faysal-i` CANLI.
