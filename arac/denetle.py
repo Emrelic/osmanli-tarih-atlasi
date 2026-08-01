@@ -587,6 +587,91 @@ def _kisiler_kumesi(o):
     return kumesi
 
 
+# ============================================================================
+# ÖNEK ÖLÇÜTÜ — `_kelimeler`in SABİT 6 HARF kırpması ortak kökü öldürüyor
+# ============================================================================
+# ARABİSTAN oturumunun vakası açığa çıkardı: "katli" (5 harf) ile
+# "katledilmesi"[:6] = "katled". Ortak kök `katl` VAR ama küme kesişimi BOŞ,
+# çünkü kırpma SABİT uzunlukta. Kelimelerden biri kırpma boyundan kısaysa
+# ortak kök sessizce kayboluyor — benzerlik olduğundan düşük ölçülüyor.
+#
+# ⚠️ ÖLÇÜLDÜ, VE VAKAYI YİNE DE ÇÖZMÜYOR. Önek eşleşmesiyle 1622 çiftinin
+# benzerliği 0,125 → 0,286 çıkıyor ama eşik 0,34. Yakalamak için eşiği 0,28'e
+# indirmek gerekirdi; bu daha önce ölçüldü ve zararlıydı (0,15 → 182 çiftin
+# 207'si yanlış). Yani bu bir EŞİK sorunu değil: o iki başlık gerçekten
+# dokuz kökten yalnız ikisini paylaşıyor.
+# 📌 1622 çiftinin asıl kusuru başka: `1622-05` AY hassasiyetinde yazılmış
+# (CLAUDE.md §8 ihlali). Gün yazılsaydı "aynı gün" kademesi devreye girerdi.
+#
+# ÖLÇÜLEN KAZANÇ (n=4, ortak önek uzunluğu ≥ 4 harf): bugünkü ölçütün
+# GÖRMEDİĞİ 9 çift · en az 3'ü GERÇEK mükerrer —
+#     Pîrî Reis'in idamı 1554-01-01  ↔  Kaptan-ı derya Pîrî Reis idam edildi 1553-12-01
+#     Şûrâ-yı Devlet'in açılışı 1868-05-10  ↔  Şûrâ-yı Devlet kuruldu 1868-03-05
+#     Balkan Savaşları başladı 1912-10  ↔  I. Balkan Savaşı'nın başlaması 1912-10-08
+#
+# ⚠️ İHLAL KADEMESİNE KOYMUYORUM. Dokuz çiftin altısı yanlış pozitif ve ana
+# denetimin "temiz" hükmü başka oturumlar için taşıyıcı; bir gecede kırmızıya
+# çevirmek yanlış olurdu. Mevcut "ZAYIF ölçüt" listesi gibi GÖZDEN GEÇİRME
+# listesi olarak basılıyor. Kademe yükseltmesi, üç gerçek çift kapandıktan
+# sonra ve ölçülerek yapılır.
+ONEK_ASGARI = 4
+
+
+def _onek_orani(A, B, n=ONEK_ASGARI):
+    """İki kök kümesi arasında ORTAK ÖNEK eşleşmeli Jaccard.
+
+    ⚠️ Ölçüt ortak önek UZUNLUĞUDUR, `min(len(a), len(b))` değil. İlk yazımda
+    min(len) kullanılmıştı ve vakayı kaçırıyordu: "katli"(5) vs "katledilmesi"
+    beş harf kıyaslanınca "katli" ≠ "katle" çıkıyor, oysa ortak önek "katl"=4.
+    """
+    esles, kullanildi = 0, set()
+    for a in A:
+        for b in B:
+            if b in kullanildi:
+                continue
+            lcp = 0
+            for x, y in zip(a, b):
+                if x != y:
+                    break
+                lcp += 1
+            if lcp >= n:
+                esles += 1
+                kullanildi.add(b)
+                break
+    return esles / max(1, len(A) + len(B) - esles)
+
+
+def _tam_kokler(b):
+    """Kırpma YOK — `_kelimeler`in 6 harfe kırpan hâlinin önek eşleşmeli eşi."""
+    t = b.lower().translate(_KATLA)
+    t = "".join(c if (c.isalpha() or c == " ") else " " for c in t)
+    return {w for w in t.split() if len(w) > 3} - _DURAK
+
+
+def onek_olcutu(O):
+    """Bugünkü ölçütün GÖRMEDİĞİ, önek eşleşmesiyle görünen çiftler."""
+    S = sorted(O, key=lambda o: o["t"])
+    out = []
+    for i in range(len(S)):
+        gi = _gun_no(S[i]["t"])
+        for j in range(i + 1, len(S)):
+            if _gun_no(S[j]["t"]) - gi > MUKERRER_GUN:
+                break
+            cift = (S[i]["b"], S[j]["b"])
+            if cift in BILINEN_AYRI or cift[::-1] in BILINEN_AYRI:
+                continue
+            a, b = _kelimeler(S[i]["b"]), _kelimeler(S[j]["b"])
+            ortak = len(a & b)
+            eski = ortak / (len(a) + len(b) - ortak) if (a and b) else 0.0
+            if eski >= MUKERRER_ESIK:
+                continue                      # zaten bugünkü ölçüt yakalıyor
+            yeni = _onek_orani(_tam_kokler(S[i]["b"]), _tam_kokler(S[j]["b"]))
+            if yeni >= MUKERRER_ESIK:
+                out.append((round(yeni, 3), S[i]["t"], S[i]["b"],
+                            S[j]["t"], S[j]["b"]))
+    return sorted(out, reverse=True)
+
+
 def mukerrer_maddeler(O):
     """İki ölçüt: (1) başlık benzerliği + ±400 gün, (2) ortak kişi + ±3 gün."""
     S = sorted(O, key=lambda o: o["t"])
@@ -937,6 +1022,17 @@ def main():
             print(f"    [{olcut}] {yil}  {a['t']}  {a['b'][:52]}")
             print(f"           {b['t']}  {b['b'][:52]}")
         print("    → gerçekten ayrı olaylarsa denetle.py'deki BILINEN_AYRI kümesine ekle")
+
+    # ÖNEK ÖLÇÜTÜ — bugünkü belirtecin 6-harf kırpmasının GÖRMEDİĞİ çiftler
+    onek = onek_olcutu(O)
+    if onek:
+        print(f"            i {len(onek)} çift ÖNEK ölçütünde (ortak kök var ama "
+              f"6-harf kırpma öldürüyor) — ihlal DEĞİL, gözden geçirme")
+        for oran, t1, b1, t2, b2 in (onek if args.ayrinti else onek[:6]):
+            print(f"              {oran:.3f}  {t1:11s} {b1[:44]}")
+            print(f"                     {t2:11s} {b2[:44]}")
+        if not args.ayrinti and len(onek) > 6:
+            print(f"              … {len(onek)-6} çift daha (--ayrinti)")
 
     # Ek denetim — KONUM: her nokta kara maskesinin içinde mi
     kd = konum_denetimi(Y)
