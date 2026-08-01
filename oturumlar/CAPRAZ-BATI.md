@@ -1428,3 +1428,78 @@ devletler.js  avusturya-cumhuriyet  f=1918-11-12  t=1923-10-29  harita: YOK
 `avusturya` — yani **imparatorluk ile cumhuriyet aynı renkte.** Kusur değil
 (kırılma var, sahip doğru) ama dizin ayrımı haritaya **yansımıyor.**
 `§8` hükmü: **UYUYOR**, not olarak kayda geçti.
+
+---
+
+## A-18 🔴🔴 YUKARI MACARİSTAN'DA OSMANLI FAZLA GÖRÜNÜYOR — ~28.000 km², 91 yıl
+
+> `CLAUDE.md §3.5.1`: *"On beş oturum boyunca kimse şunu sormadı: **Osmanlı,
+> olmadığı yerde ve olmadığı tarihte boyanıyor mu?**"* — kesitimde sordum,
+> cevap **evet** ve ölçek büyük.
+
+**① BİZDE NE VAR.** Yukarı Macaristan'da (bugünkü Slovakya + KD Macaristan)
+**hiç yerleşim noktası yok.** En yakın noktalar:
+```
+Kassa (Košice)     → Eğri, 112,1 km      Yukarı Macaristan'ın BAŞKENTİ
+Tokaj              → Eğri,  80,7 km
+Eperjes (Prešov)   → Eğri, 137,8 km
+```
+Eğri **1596-10-12 → 1687-12-17** arası Osmanlı. `CLAUDE.md §2`'nin emilme
+kuralı gereği bu noktasız bölge **Eğri'nin peteğine düşüyor ve Osmanlı
+boyanıyor:**
+```
+                    1570        1600      1650      1680
+Kassa (Košice)      macaristan  OSMANLI   OSMANLI   OSMANLI
+Tokaj               macaristan  OSMANLI   OSMANLI   OSMANLI
+Eperjes (Prešov)    macaristan  OSMANLI   OSMANLI   OSMANLI
+```
+
+**Alan ölçümü** (48,0-49,6°K / 18,8-22,6°D kutusu, 0,05° ızgara, 1650 kesiti):
+```
+toplam kutu            51.178 km²
+  OSMANLI              27.982 km²   %54,7   ← 91,2 YIL boyunca
+  lehistan             19.577 km²   %38,3
+  tabi (Erdel)          2.210 km²    %4,3
+  avusturya             1.408 km²    %2,8
+```
+
+**② KAYNAKTA NE VAR.** Yukarı Macaristan **hiçbir zaman Osmanlı eyaleti
+olmadı.** Kassa, Habsburg'un **Yukarı Macaristan Kaptanlığı'nın** merkeziydi;
+bölge Kraliyet Macaristanı'nın çekirdeğiydi. Bocskai (1604-06) ve Bethlen
+dönemlerinde **Erdel prenslerinin** eline geçti — ama Erdel Osmanlı'ya tâbi
+bir prenslikti, **Osmanlı eyaleti değildi**, ve harita bu farkı zaten `v:`
+ile ifade edebiliyor (Erdel öyle modellenmiş).
+
+**③ HÜKÜM: ÇELİŞİYOR — ve bu bir VERİ hatası değil, NOKTA EKSİĞİ.**
+Kod doğru, motor doğru, Eğri'nin kaydı doğru. **Bölgede nokta olmadığı için**
+petek 112 km öteden geliyor. `CLAUDE.md §2`'nin *"bir 'harita yanlış' raporu
+geldiğinde ilk sorulacak soru budur"* dediği vaka.
+
+### 🟢 Öneri: dört nokta — yeni renk YOK
+```
+Kassa (Košice)     48,72 / 21,26    macaristan → 1526 · Kraliyet Macaristanı
+Tokaj              48,12 / 21,41    aynı
+Eperjes (Prešov)   49,00 / 21,24    aynı
+Sopron             47,68 / 16,59    aynı (Viyana'dan 61 km, avusturya boyanıyor)
+```
+`macaristan` · `avusturya` zaten `BOYALAR`'da. 3 km kuralı temiz (en yakınları
+35+ km). ⚠️ Bunlar **B-2'nin kapsamına giriyor** (Kraliyet Macaristanı =
+`macaristan-habsburg`) ⇒ **kullanıcının ertelediği pakete bağlı.**
+
+⚠️ **ÖLÇÜMÜN SINIRI, dürüstçe:** ızgara **proxy**'dir — gerçek petek
+`uret_petek.py`'de kara maskesi, nehir ve sırt yaslamasıyla kesiliyor, sayı
+birebir aynı çıkmaz. **Mertebe kesin** (on binlerce km²), **rakam yaklaşık.**
+Kesin değer üretilmiş `donemler.js`'ten okunur; ben girdi üzerinden ölçtüm.
+
+## A-19 🟡 GYULA — 1566'da Osmanlı sancağı oldu, haritada `tabi` görünüyor
+```
+Gyula 46,65 / 21,28   en yakın: Yanova (Ineu), 43,2 km
+                      1570 tabi · 1600 tabi · 1650 tabi · 1680 OSMANLI
+```
+Gyula **1566'da fethedildi ve sancak merkezi oldu**; harita onu Yanova'nın
+Erdel penceresinden **tâbi** gösteriyor, 1680'e kadar. Yani burada Osmanlı
+**eksik** görünüyor — A-18'in tersi, aynı sebepten (nokta yok).
+📌 İkisi birlikte `§3.5.1`'in dersini tamamlıyor: **noktasızlık iki yöne de
+hata üretir**, ve hangi yöne ürettiği komşunun kimliğine bağlı.
+🟡 Hüküm **`DOĞRULANAMADI`** — Gyula'nın 1566 fethini TDV'den teyit etmedim,
+`gyula`/`gula` slug'ı sınanmadı. **Nokta önerisi, tarih değil.**
