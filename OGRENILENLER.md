@@ -2785,3 +2785,60 @@ geldi.** Yazmasaydı kural yine işe yarardı ama kimse bilmezdi.
 sanılıyordu; burada **bulgusu olmayan bir kural** gereksiz sanılıyor. İkisi de
 aynı yanılgının iki ucu — **görünmeyen şeyin olmadığı varsayımı.**
 
+
+---
+
+## §72 — BİR DEĞİŞMEZ, DOĞRU CEVABI YASAKLAYABİLİR
+
+Bugün iki oturum Kızıldeniz'de **aynı 38 yılı** buldu ve **ters uçlarından**
+ölçtü:
+
+```
+sabah  (d9e8987)   memluk 1517-04-13 → 1557    HAYALET MEMLÜK   39,7 yıl
+öğle   (CAPRAZ D.) osmanlı 1517-04-13 → ...    HAYALET OSMANLI  37,0 / 38,2 yıl
+                   TDV habes-eyaleti: "Bu kıyı toprakları 1517'de
+                   Memlükler'den DEVRALINMADI." Sevâkin sancak beyi
+                   10 Nisan 1554 · Habeş Eyaleti 5 Temmuz 1555
+```
+
+**İki teşhis de doğruydu. İki tamir de yanlıştı.** Çünkü gerçek cevap
+üçüncüydü: **1517-1554 arası orayı İKİSİ DE tutmuyordu.**
+
+Sabahki yama sınırı uzak uçtan yakın uca kaydırdı — yani 38 yılı Memlük'ten
+alıp **Osmanlı'ya verdi.** Hayalet yok olmadı, **taraf değiştirdi.**
+
+### Neden — ve suçlu yamacı değil
+
+`Değişmez 1` her noktanın bir sahibi olmasını ister. Tarihî doğru *"kimse"*
+olduğunda **değişmez bu cevabı ifade edemez.** O yüzden veriyi sessizce en
+yakın komşuya doğru iter; en ucuz düzenleme sınırı kaydırmaktır. **Değişmez
+yeşile döndü, harita yanlışlandı.**
+
+📌 Ve tam bu ilke projede **zaten yazılıydı** — `uret_petek.py:1243`, MOTOR'un
+eliyle:
+> *"⚠️ **Yanlış renk boşluktan KÖTÜDÜR:** boşluk 'bilmiyoruz' der, yanlış renk
+> 'biliyoruz' der."*
+
+Motor biliyordu. **Veri süreci bilmiyordu.** Kural bir dosyada durup komşu
+dosyada çiğnendi.
+
+⚠️ Sabahki commit'in kendi metninde uyarı da vardı: *"Funj dolgusu **ELENDİ**"*.
+Dolgu adayı elendiği an doğru hamle **durup bildirmekti**; onun yerine boşluğu
+kapatacak başka bir sahip arandı ve Osmanlı uzatıldı. **Dolgu bulunamaması, o
+dolguya ihtiyaç olmadığı anlamına gelmez.**
+
+### Kural
+
+> **Bir değişmezin yeşil olması, verinin doğru olduğunu göstermez — yalnız
+> ifade edilebilir olduğunu gösterir.** Değişmez *"sahipsiz nokta olmasın"*
+> diyorsa ve gerçek *"sahipsizdi"* ise, **değişmez veriyi yalana zorlar.**
+
+🟢 Somut çare — **iki yönlü ölçüm** (`§68`'in genellemesi): bir sınır kayması
+önerildiğinde *"bu tarafta fazlalık var mı"* yetmez, **"öbür tarafta fazlalık
+doğuyor mu"** da sorulmalıdır. Sabah yalnız Memlük ucu ölçülseydi bugünkü
+bulgu asla çıkmazdı — ve nitekim çıkmadı.
+
+🔴 Ve teknik eksik: `kasitli_bosluk:` **kayıt düzeyinde**. *"Bu nokta ŞU
+TARİHLER ARASINDA kasten sahipsiz"* denemiyor. Yani şu an doğru cevabı
+**yazacak alan yok.** MOTOR'a gitti.
+
