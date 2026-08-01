@@ -45,3 +45,40 @@ Sıfırdan kayıt gerekiyor (`f` · `t` · `bolge` · `baskent` · `ozet` ·
 `kronoloji`) **artı** yeni renk — ve burada Kısıt 1 (13,6 eşiği) gerçekten
 uygulanacak. Bugünkü ilk üçün diğer ikisi tek satırdı; bu değil.
 
+**Tarih verisi ÇAPRAZ DOĞU'da var** (`9078760` · `b620dc1`), iki bağımsız TDV
+maddesi, güç etiketi KESİN:
+```
+TDV dehlek   "VI. (XII.) yy'dan itibaren kendi meliklerince BAĞIMSIZ"
+             Memlük yönetimi belgelenmiyor
+TDV masavva  XII-XIV. yy "Dehlek emîrlerinin hâkimiyetinde"
+önerilen pencere:  1281-01-01 → 1557-04-02   (sonrası OSMANLI)
+```
+
+🔴 **AMA İKİ ŞEY ÇÖZÜLMEDEN YAZILAMAZ:**
+
+**① SLUG ÇELİŞKİSİ — `dahlak` mı `dehlek` mi?** ÇAPRAZ DOĞU kendi içinde
+tutarsız:
+```
+CAPRAZ-DOGU.md            `dahlak` 6 kez  ← somut önerilerin HEPSİ burada
+                          `dehlek` 1 kez
+CAPRAZ-DOGU-ILERLEME:488  "canlı slug: func · nube · bece · dehlek"
+b620dc1 commit mesajı     "Yeni canli slug: bece, dehlek, func, nube"
+KOORDİNATÖR kuyruğu       dehlek
+VERİ KİMLİK'in rengi      "dehlek": ("Dehlek Melikleri", "#a838a8")
+```
+`yerlesimler*.js`'te ikisinin de izi **yok** (0 eşleşme), yani veriden
+çözülemiyor. Yanlış olanı seçersem `renkler.py` anahtarı ile `harita:` değeri
+tutmaz → kayıt **"dizinde var, kullanım 0"** olur; §4'ün uyardığı sessiz
+başarısızlığın **tam kendisi**.
+
+**② `f:` GERÇEK KURULUŞ DEĞİL.** 1281 bir kuruluş tarihi değil, yanlış
+atfın *başladığı* yıl. TDV "XII. yüzyıldan beri bağımsız" diyor, kesin gün
+vermiyor. `f:"1281-01-01"` yazmak uydurma kuruluş tarihi olur.
+
+⇒ **Yazmıyorum.** *"Yanlış renk boşluktan kötüdür"* kuralı tarihe de geçerli:
+236 yıllık yanlış atfı düzeltirken uydurma tarihle yeni bir yanlış yazmam.
+
+📌 Not: noktaların memluk → yeni kimliğe geçirilmesi **bende değil** —
+`yerlesimler*.js` bana kapalı (koordinatör talimatı). Benim payıma kimlik
+kaydı + renk düşüyor; ikisi de yukarıdaki iki cevabı bekliyor.
+
