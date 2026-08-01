@@ -449,6 +449,158 @@ içindi ve **geçerli**, hattâ temkinli. 1814-1815 ucu **ayrı bir kalemdir**,
 
 ---
 
+---
+---
+
+# TUR 3 — Girit · Kıbrıs · anakara Venedik yerleri
+
+> Ölçüm commit'i: `995e608`. Onaylı sıra: ada ada 1798 → Kıbrıs → Girit.
+
+## 🔴 C-1 · GİRİT 1669'DA OSMANLI OLMADI — üç Venedik kalesi haritada **hiç yok**
+
+`§3.5.1`'in **tam vakası**: *"Osmanlı, olmadığı yerde ve olmadığı tarihte
+boyanıyor mu?"* — Girit'te cevap **evet**.
+
+### ① BİZDE NE VAR
+```
+Girit kutusunda (lat 34.7-35.8 · lon 23.4-26.4) TOPLAM 5 nokta:
+   Hanya · Girit (Resmo) · Kandiye · Sitiye · İsfakiye
+Kandiye · Sitiye · İsfakiye:  s:venedik → 1669-09-27, sonra d:OSMANLI
+⇒ 27 Eylül 1669'dan itibaren ada BÜTÜNÜYLE Osmanlı boyalı.
+```
+
+### ② KAYNAKTA NE VAR — TDV `girit` (`<title>` sınandı: **CANLI**)
+> *"Bu anlaşma ile Venedikliler'in elinde kalmış olan **Spinalonga ile Suda**
+> kaleleri daha sonra **1127 (1715)** yılında Venedik'e karşı açılan Mora seferi
+> sırasında fethedildi."*
+>
+> *"**Granbosa** Kalesi ise **1692** yılında ele geçirilmişti."*
+
+```
+Suda        ✗ kayıt YOK        Spinalonga  ✗ kayıt YOK
+Granbosa    ✗ kayıt YOK        (yedi ad denendi, hiçbiri tutmadı)
+```
+
+### ③ HÜKÜM — **ÇELİŞİYOR**, ve sınıfı `CLAUDE.md §2` (noktası olmayan bölge)
+```
+Suda + Spinalonga   1669-09-27 → 1715-09-07   16.780 gün = 45,9 yıl × 2
+Granbosa            1669-09-27 → 1692          8.131 gün = 22,3 yıl × 1
+                                        toplam ≈ 114,2 yıl-nokta
+```
+⚠️ Ama bu **"veriyi düzelt" işi değil, NOKTA EKLEME işi** — üç kale veride
+yokken petek onları en yakın komşuya emiyor ve Osmanlı boyuyor. `§2`: *"Bir
+'harita yanlış' raporu geldiğinde ilk sorulacak soru budur: o bölgede yerleşim
+noktası var mı?"* **Cevap hayır.**
+
+🟢 **VE EMSAL VERİDE HAZIR:** `1715-09-07` bu projede zaten kullanılıyor —
+Ayamavra ve Çuha Adası'nın Mora seferi tarihi **birebir aynı gün.** Yani üç
+kalenin bitiş tarihi uydurulmayacak, **var olan emsalden gelecek.**
+
+⚠️ `Granbosa 1692` **yıl hassasiyetli** — `§76` gereği gün uydurulmasın,
+`1692-01-01` yer tutucu olarak yazılsın.
+
+📌 Nokta ekleme `data/yerlesimler_ek.js`'in işidir, benim değil (`§5`). Öneri
+olarak veriyorum; koordinatör dağıtır.
+
+---
+
+## 🟡 C-2 · RESMO — TDV ile 2 gün, ve **`§3.1 ②` burada karar veriyor**
+
+```
+bizde              Girit (Resmo)  s:venedik → 1646-11-13
+TDV `girit` (genel)               "Resmo 1055/1645'te alındı"      ← YIL bile farklı
+TDV `resmo` (özel)  "6 Şevval 1056'da (15 Kasım 1646) emanla teslim alınmıştır"
+```
+**`§3.1` kademe ②: ÖZEL > GENEL** ⇒ `resmo` maddesi esas, `girit`in 1645'i
+düşüyor. Ve `§2.1` ölçütü de aynı yöne bakıyor: `resmo` **gün-ay hicrîsi**
+taşıyor (**6 Şevval 1056**) ⇒ Osmanlı belgesi var.
+
+### HÜKÜM — **ÇELİŞİYOR**, 2 gün. `t:` `1646-11-15` olmalı.
+⚠️ Küçük ama bu bir *"aynı sorunun iki cevabı"* vakasıdır (`§74` değil): ikisi de
+**teslim gününü** söylüyor, biri yanlış. 40 günlük kuşatmanın sonu tek gündür.
+
+## 🟢 C-3 · KANDİYE — 21 gün fark, ama **çelişki DEĞİL** (`§74`)
+
+```
+bizde        s:venedik → 1669-09-27
+TDV `girit`  "9 Rebîülâhir 1080'de (6 Eylül 1669) imzalanan on sekiz maddelik
+              bir teslim anlaşmasıyla sona erdi"
+```
+**21 gün.** Ama `§74`'ü uyguluyorum: *"bunlar aynı sorunun cevapları mı?"*
+**Hayır** — biri **anlaşmanın imzası** (6 Eylül), öteki **kalenin fiilen
+devri/tahliyesi** (27 Eylül). Bizim `s:` eksenimiz `§3.1 ⓪`'a göre *"o gün orayı
+FİİLEN kim yönetiyordu"* diye soruyor ⇒ **27 Eylül yerinde duruyor.**
+
+⇒ **Veriye dokunulmasın.** Ama kronoloji maddesi **6 Eylül**'ü de taşımalı —
+21 günlük bu aralık `Değişmez 2`'nin ±30 gün penceresine sığıyor, yani bugün
+görünmüyor ve **bir maddeyle iki tarih birden kaydedilebilir.**
+
+---
+
+## 🔴 C-4 · PARGA — **doğru tarih, yanlış soru**; ve desen ÜÇÜNCÜ kez
+
+A-1'de *"Parga ayrı incelenmeli, TDV `parga` slug'ı ölü"* diye **açık
+bırakmıştım.** Cevap `yedi-ada-cumhuriyeti` maddesinden geldi.
+
+### ② KAYNAKTA NE VAR
+> *"**Parga, Preveze, Voniça ve Butrinto**, Osmanlı egemenliğinde kalacak, halkı
+> anlaşmanın imzalanmasından itibaren iki yıl vergiden muaf tutulacaktı."*
+
+⚠️ Ve TDV belirsizliği de söylüyor: bu dört yer cumhuriyetin sınırlarına
+*"şeklen de olsa"* dâhil edilmiş, ihtilaf **1819 anlaşmasına** kadar sürmüş.
+
+### ① BİZDE NE VAR
+```
+Preveze · Vonitsa   1798-10-23 → d:OSMANLI      ✓ DOĞRU (TDV'yle uyuyor)
+Parga               1797-10-17 → 1815-11-05 s:fransa
+                    1815-11-05 → 1819-05-10 s:ingiltere
+                    1819-05-10 → d:OSMANLI     ← 1819 var ama SEBEBİ başka
+```
+
+### ③ HÜKÜM — **ÇELİŞİYOR**, ve kusur ilginç:
+Parga'nın `1819-05-10`'u **doğru bir tarih** — ama o, **ihtilafın çözüldüğü**
+gündür, **egemenliğin başladığı** gün değil. TDV'ye göre Osmanlı egemenliği
+**1800 konvansiyonuyla** başlıyor. `§74`: iki ayrı soru, veri ikincisini
+birincinin yerine koymuş.
+
+🔴 **VE BU, BUGÜN ÜÇÜNCÜ KEZ AYNI DESEN:**
+```
+A-1  1798 seferi   Preveze/Vonitsa DOĞRU  ·  yedi ada HİÇ
+B-2  1861 ilhakı   Napoli/Palermo… DOĞRU  ·  Brindisi/Taranto/Lecce/Otranto HİÇ
+C-4  1800 konv.    Preveze/Vonitsa DOĞRU  ·  Parga HİÇ
+```
+> **Bir olay veriye yazılırken o olayın bütün noktalarına yazılmıyor.** Ve üç
+> değişmezin hiçbiri göremiyor, çünkü kalan pencerenin **sahibi var — yanlış sahip.**
+
+📌 Üçünde de *"doğru yazılmış nokta"* aynı kaydın komşusu. Yani hata bilgi
+eksikliğinden değil, **uygulamanın kapsamının ölçülmemesinden** doğuyor.
+
+## 🟡 C-5 · BUTRİNTO — konvansiyonun saydığı dört yerden biri, haritada yok
+`Butrinto` · `Butrint` · `Bûtrinto` — üç yazım denendi, **kayıt yok.** C-1 ile
+aynı sınıf (eksik nokta). Kaynaklanması gereken ayrı bir kalem.
+
+---
+
+## 🟢 C-6 · KIBRIS — **UYUYOR**, bulgu yok
+
+```
+Lefkoşa  1489-02-26 → 1570-09-09    Girne   1489-02-26 → 1570-09-17
+Magosa   1489-02-26 → 1571-08-01    Baf · Limasol → 1570-07-23
+Tuzla    → 1570-09-09               (öncesi altısında da s:lusignan)
+```
+Altı noktanın altısı da **gün hassasiyetli**, Lusignan → Venedik → Osmanlı
+zinciri eksiksiz, ve `1489-02-26` (Caterina Cornaro'nun tahttan çekilişi) altı
+kayıtta **tutarlı.**
+
+⚠️ **Ölçümün sınırı:** bu bir **kayıt düzeyinde** doğrulamadır — zincirin
+tutarlılığını ve tarihlerin bilinen fetih günleriyle uyumunu ölçtüm; **madde
+madde TDV turu yapmadım.** ÇAPRAZ BATI da aynı kesitte *"tarihler tutuyor ama
+derinlemesine sınamadım"* demişti. ⇒ **İki bağımsız yüzeysel sınama aynı sonucu
+verdi**; bu bir kanıt değil, ama Kıbrıs'ı öncelik sırasının **altına** taşımak
+için yeter.
+
+---
+
 ## Sıradaki (aksi söylenmezse)
 
 1. **Ada ada gün kaynaklama** — 1798 sonbaharı Osmanlı-Rus seferi: Çuha · Zaklise ·

@@ -235,3 +235,61 @@ veriyle sınamak"* refleksi üçümüzde de vardı.
 🟢 **Etkilenmeyen:** A-1 · A-2 · A-4 · tur 2'nin tamamı (B-1…B-7). A-1 özellikle
 etkilenmiyor — BATI'nın kendi sözüyle *"zincir düzeltilmeseydi dördüncü halkanın
 eksikliği görünmezdi bile."*
+
+---
+
+# TUR 3 — Girit · Kıbrıs · anakara (onaylı sıra)
+
+> Ölçüm commit'i: `995e608`.
+
+## 9. ②'NİN GÜN AYAĞI KAPANMADI — ve bu tam bir hüküm
+
+Koordinatörün ②. işi *"ada ada 1798 sefer günleri"* idi. **TDV veremiyor:**
+
+```
+yedi-ada-cumhuriyeti   "ilk olarak 1799'da Zanta'yı ele geçirdi"
+                       → ada ada GÜN yok, ve YIL bile 1798 değil 1799 diyor
+korfu                  "Kasım 1798 kuşatma · 5 Mart 1799 teslim"
+                       → yalnız Korfu, gün hassasiyetli
+ayamavra               "Osmanlılar ve Ruslar 1800'de geri aldı"
+                       → yıl hassasiyetli
+```
+
+⇒ **HÜKÜM: DOĞRULANAMADI** (`CAPRAZ-GOREV §8`: tam bir hükümdür). Ada ada gün
+için Rus donanma tarihyazımı gerekiyor — `§3`'e göre *temas olgusu*, yani
+**ikisi birden** okunmalı; tek başına TDV yetmiyor.
+
+🟢 **A-1'in rakamı bundan ETKİLENMİYOR:** ilk turda ölçüyü kasten en temkinli
+tarihe (Korfu'nun 1799-03-05'i) dayamıştım. TDV'nin 1798 yerine 1799 demesi
+ölçümü **büyütmez de küçültmez de** — zaten o tarihten sonrasını sayıyordum.
+📌 Temkinli ölçüm seçmenin karşılığı bugün alındı.
+
+## 10. TUR 3 TESLİM
+
+| kod | konu | hüküm | ölçü |
+|---|---|---|---|
+| **C-1** | Girit'te Suda·Spinalonga·Granbosa yok | 🔴 ÇELİŞİYOR | ≈114,2 yıl-nokta |
+| **C-2** | Resmo 1646-11-13 ⟷ TDV 1646-11-15 | 🔴 ÇELİŞİYOR | 2 gün |
+| **C-3** | Kandiye 1669-09-27 ⟷ TDV 1669-09-06 | 🟢 `§74`, çelişki değil | 21 gün |
+| **C-4** | Parga 1800'de Osmanlı egemenliğinde | 🔴 ÇELİŞİYOR | 19 yıl |
+| **C-5** | Butrinto kaydı yok | 🟡 EKSİK NOKTA | — |
+| **C-6** | Kıbrıs 1489-1571 | 🟢 UYUYOR | 6/6 gün hassasiyetli |
+
+⚠️ Yeni CANLI slug: `girit` · `resmo`.
+
+## 11. 🔴 ÜÇ TURUN ORTAK DESENİ — ve bu artık tesadüf değil
+
+```
+A-1  1798 seferi    Preveze·Vonitsa DOĞRU  ·  yedi ada HİÇ
+B-2  1861 ilhakı    Napoli·Palermo… DOĞRU  ·  Brindisi·Taranto·Lecce·Otranto HİÇ
+C-4  1800 konvans.  Preveze·Vonitsa DOĞRU  ·  Parga HİÇ
+```
+> **Bir olay veriye yazılırken bütün noktalarına yazılmıyor; birkaçına yazılıyor,
+> gerisi eski penceresinde kalıyor.** Üç değişmez de kör — kalan pencerenin
+> **sahibi VAR, yalnız yanlış sahip.**
+
+📌 Üç vakada da doğru yazılmış nokta, eksik kalanın **komşusu**. Yani sebep bilgi
+eksikliği değil: **uygulamanın kapsamı ölçülmüyor.**
+⇒ **Araç önerisi (DENETÇİ'ye):** bir `f`/`t` tarihi veride *k* noktada geçiyorsa,
+aynı tarihin *"neden bu k nokta ve şu komşusu değil"* sorusu sorulabilir. Bugünkü
+üç vakanın üçü de böyle bir taramayla **yazıldıkları gün** yakalanırdı.
