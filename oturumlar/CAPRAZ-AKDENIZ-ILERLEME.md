@@ -109,7 +109,7 @@ kaynaklanamadı ve **açık bırakıldı**, tahmin edilmedi.
 |---|---|---|---|
 | **A-1** | İyon adaları 1799-1807 | 🔴 ÇELİŞİYOR | 58,4 yıl-nokta · 7 nokta |
 | **A-2** | `fransa` torba + dizin 1792'de ölü | 🔴 ÇELİŞİYOR (tanım) | 85 pencere · 131,1 yıl |
-| **A-3** | BATI'nın B-1 Venedik hayaleti | 🟢 TUTMADI (ölçüm artefaktı) | — |
+| **A-3** | BATI'nın B-1 Venedik hayaleti | 🔴 **GERİ ÇEKİLDİ — B-1 gerçekti** | — |
 | **A-4** | Şam/Halep 1918 Fransız | 🟡 ÇELİŞİYOR (6 nokta) | ≈10,6 yıl-nokta |
 
 Ayrıntı ve kaynak künyeleri: `CAPRAZ-AKDENIZ.md`.
@@ -210,3 +210,28 @@ bir tutarlılığı** ortaya çıkardı.
 
 ⚠️ Yeni CANLI slug (`CLAUDE.md §4` listesine eklenebilir):
 `yedi-ada-cumhuriyeti` · `korfu` · `suriye` · `ayamavra` · `koron` · `avlonya`.
+
+---
+
+## 8. 🔴 A-3 GERİ ÇEKİLDİ — bu oturumun kendi hatası
+
+Tur 1'de ÇAPRAZ BATI'nın B-1 bulgusunu *"ölçüm artefaktı"* ilan etmiştim.
+**Yanlıştı.** B-1 gerçekti ve **aynı gün 14:06'da `894bb82` ile düzeltilmişti**;
+ben düzeltilmiş veriyi ölçüp düzeltme öncesi iddiayı yargıladım.
+
+**Kök sebep bir araç körlüğü:** `git log -S` bir *pickaxe*'tır — dizgenin
+**sayısını** izler, içeriğini değil. Kaydın **içindeki** dönemleri düzenlemek
+`"Ayamavra"` sayısını 1'de bıraktığı için değişiklik bana **hiç görünmedi.**
+Doğru araç `-G`.
+
+📌 Ayrıntı, kanıt ve iki genel kural: `CAPRAZ-AKDENIZ.md` A-3.
+📌 `OGRENILENLER §79` (`0f9258d`) bu vakadan yazıldı.
+
+⚠️ **Ve hata bende bitmedi:** koordinatör ölçümümü *"kendim doğruladım"* diye
+onayladı — o da bugünkü kaydı ölçmüştü. **Üç oturum aynı hatayı yaptı.** Bu,
+hatanın kişisel değil **yöntemsel** olduğunu gösteriyor: *"iddiayı bugünkü
+veriyle sınamak"* refleksi üçümüzde de vardı.
+
+🟢 **Etkilenmeyen:** A-1 · A-2 · A-4 · tur 2'nin tamamı (B-1…B-7). A-1 özellikle
+etkilenmiyor — BATI'nın kendi sözüyle *"zincir düzeltilmeseydi dördüncü halkanın
+eksikliği görünmezdi bile."*

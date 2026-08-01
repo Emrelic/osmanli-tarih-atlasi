@@ -160,50 +160,62 @@ kaynaklamadım — `CAPRAZ-GOREV §3`: çelişki **çözülmeden kaydedilir.**
 
 ---
 
-## 🟢 A-3 · ÇAPRAZ BATI'nın B-1'i (Venedik 126,5 yıl) — **SINANDI, TUTMADI**
+## 🔴 A-3 · **GERİ ÇEKİLDİ** — B-1 gerçekti; ben düzeltilmiş veriyi ölçtüm
 
-BATI bunu *"projenin en büyüğü, `CLAUDE.md` tablosundaki en büyük vakadan %50 daha
-büyük"* diye raporladı. Kesitim olduğu için sınadım.
+> ⚠️ **Bu bölümün ilk hâli yanlıştı ve silinmedi, çürütüldü.** İlk hâlinde
+> ÇAPRAZ BATI'nın B-1 bulgusunu (*"Ayamavra `s:venedik` 1684→1923, 126,5 yıl"*)
+> **"ölçüm artefaktı"** ilan etmiştim. **Değildi.**
 
-### ① İDDİA
+### NE OLDU
 ```
-harita Ayamavra (Lefkada)  s:venedik  1684-08-06 → 1923-10-29   fazlalık 126,5 yıl
-ve: "1797-1923 arasında Lefkada'nın gerçek sahipleri de haritada hiç yok —
-     Fransız/Rus dönemleri, 1815-1864 İngiliz himayesi, 1864 Yunanistan devri.
-     Yani tek satırlık bir düzeltme değil, bir zincir eksik."
+$ git show 894bb82^:data/yerlesimler.js | grep Ayamavra
+   s:[{1281-01-01→1479-08-01 napoli}, {1684-08-06 → 1923-10-29 venedik}]
+                                       ↑ 239 YILLIK TEK PENCERE — B-1 tam olarak buydu
+
+894bb82   1 Ağustos 14:06   "Ayamavra tam zincir (CAPRAZ-BATI.md B-1/B-2)"
+```
+⇒ Benim okuduğum **altı pencereli temiz zincir, B-1'in çürütülmesi değil ÇIKTISI.**
+Bulgu bildirilmiş, aynı gün uygulanmış, ben düzeltilmiş hâli ölçmüşüm.
+
+### 🔴 ARAÇ HATASI — `git log -S` bir PICKAXE'tır
+*"Değişmemiş"* hükmümü şuna dayandırmıştım:
+```
+git log -S'Ayamavra' -- data/yerlesimler.js   →   39f3f49, 29 Temmuz
+```
+`-S` **dizgenin SAYISININ** değişip değişmediğini sorar. Bir kaydın **içindeki**
+dönemleri düzenlemek `"Ayamavra"` sayısını 1'de bırakır ⇒ **pickaxe'a görünmez.**
+İçerik değişimi için **`-G`** gerekir:
+```
+git log -G'Ayamavra' -- data/yerlesimler.js
+   078ad4d · 894bb82 · 39f3f49        ← ikisi 1 Ağustos'ta, ikisi de B-1'in ürünü
 ```
 
-### ② CANLI VERİDE NE VAR — ham kayıt, `yerlesimler.js`
-```
-s:[ {1281-01-01→1479-08-01 napoli}
-    {1684-08-06→1715-09-07 venedik}      ← venedik penceresi BURADA bitiyor
-    {1718-07-21→1797-10-17 venedik}
-    {1797-10-17→1815-11-05 fransa}       ← "hiç yok" denen zincir
-    {1815-11-05→1864-05-21 ingiltere}    ←        ...
-    {1864-05-21→1923-10-29 yunanistan} ] ←        ... ÜÇÜ DE VAR
-d:[ {1479-08-01→1684-08-06} {1715-09-07→1718-07-21} ]
-```
+### ⇒ İKİ KURAL (`OGRENILENLER §79`)
+> **① Bir iddiayı sınamak için BUGÜNKÜ veriye bakmak yetmez.** İddia bildirildiği
+> andaki veriye aitti ve arada düzeltilmiş olabilir. Sınama, iddianın tarihindeki
+> ağaca yapılır: `git show <commit>^:<dosya>`.
+>
+> **② "Bulamadım" bir ölçüm değildir — HANGİ ARAÇLA arandığı yazılmadıkça.**
+> Aracın körlüğü, verinin gerçeği diye rapor edilebiliyor.
 
-### ③ HÜKÜM — **ÖLÇÜM ARTEFAKTI**, veri hatası değil.
+⚠️ **VE SOMUT RİSK:** *"B-1 çürüdü"* kayda geçseydi biri `894bb82`'yi geri alabilir
+ve Ayamavra yeniden **239 yıllık tek pencere** olurdu. Bu satır o yüzden burada
+duruyor — `KARAR-DAYANAK`'a *"B-1 tutmuyor"* **yazılmasın.**
 
-`1684-08-06 → 1923-10-29` = **ilk `venedik` penceresinin `f`'i + kaydın SON
-penceresinin `t`'si.** Aradaki dört pencere atlanmış. Ve bu bir "bu arada
-düzeltilmiş olabilir" vakası değil: `git log -S'Ayamavra' -- data/yerlesimler.js`
-son dokunuşu **`39f3f49`, 2026-07-29** veriyor — BATI'nın ölçümünden önce.
+### 🟢 GEÇERLİ KALAN TEK ŞEY — ve o da B-1'in yerine geçmiyor
+`venedik`in bütün veride ölçümü ayrı bir bulgudur ve ayakta: dizin ölümünden
+sonra **açılan pencere 0**, kalan 19 pencerenin hepsi `1797-10-17` (Campo Formio),
+**158 gün** ⇒ meşru. Bu ölçüm **tur 2 · B-1** olarak ayrıca yazıldı ve
+koordinatör bağımsız doğruladı. **Ama bu, BATI'nın B-1'inin yokluğunu değil,
+DÜZELTİLDİKTEN SONRAKİ hâlin temizliğini gösteriyor.**
 
-📌 **Ve `venedik` bütün veride ölçüldü:** dizin ölümünden (`1797-05-12`) sonra
-açılan pencere **0**; en uzun tekil fazlalık **158 gün**. O 158 gün de meşrudur —
-Venedik Cumhuriyeti 12 Mayıs 1797'de dağıldı, mülkleri **17 Ekim 1797 Campo
-Formio** ile devroldu; `CLAUDE.md §3.5` bölgesel teslim gecikmesini *"aylar
-mertebesinde"* meşru sayıyor. **Hayalet Venedik yok.**
+⇒ Ayakta kalan kural önerisi (BATI da katıldı, burada uygulanmıyor ama geneldir):
+**bir pencere fazlalığı ölçülürken o kimliğin kendi penceresinin `t`'si alınır,
+kaydın son penceresinin değil** — `iran` gibi çok pencereli kayıtlarda gerçek tuzak.
 
-⚠️ Bunu BATI'yı düzeltmek için değil, **kaynakları doğru yere yönlendirmek için**
-yazıyorum: `CLAUDE.md §3.5` tablosuna 126,5 yıllık bir satır girseydi, gerçek
-bulgu (A-1'deki 58,4 yıl-nokta) onun gölgesinde kalırdı.
-
-⇒ **Kural önerisi:** bir pencere fazlalığı ölçülürken **o kimliğin kendi
-penceresinin `t`'si** alınır, kaydın son penceresinin değil. Aynı hata sınıfı
-`iran` gibi çok pencereli kayıtlarda sessizce tekrar eder.
+📌 Ve A-1 (Yedi Ada) **bu geri çekmeden etkilenmiyor**: BATI'nın kendi sözüyle,
+*"zincir düzeltilmeseydi dördüncü halkanın eksikliği görünmezdi bile."* A-1
+B-1'e **rağmen değil, üstüne** geliyor.
 
 ---
 
