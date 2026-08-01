@@ -36,7 +36,7 @@ Hepsi `Ctrl+F5` sonrası:
 | # | karar | neden sende | durum |
 |---|---|---|---|
 | K1 | **Amerika / Batı Afrika / Avustralya için KAYNAK BARI** | TDV oraları kapsamıyor. Karar verilmeden iş verilirse ilk paket **kaynaksız** gelir. Seçenekler: (a) bölge başına standart akademik kaynak, künyeye yazılarak · (b) o bölgeleri "atlas" değil "arka plan" olarak tutmak | ⏳ |
-| K3 | **Hindistan / Çin oturumu açılacak mı** | Artık **ölçüldü, üç kapı var**: ① `BOLGE` kutusu (`uret_petek.py:43`) ② `renkler.py` kimlikleri ③ `index.html` script satırı. `yerlesimler_asya.js` **zaten var ama üçünden de geçmiyor** — yazılan hiçbir şey görünmez. Oturum açmadan önce kapılar açılmalı, yoksa iş boşa gider | ⏳ |
+| K3 | **Hindistan / Çin oturumu açılacak mı** | Artık **ölçüldü, DÖRT kapı var**: ① `girdi.py` GIRDI_DOSYALARI ② `renkler.py` kimlikleri (98+15) ③ `BOLGE` kutusu (`uret_petek.py:43`) ④ `app.js`+`index.html`. `yerlesimler_asya.js` **zaten var ama dördünden de geçmiyor** — yazılan hiçbir şey görünmez. Oturum açmadan önce kapılar açılmalı, yoksa iş boşa gider. (Önce "üç kapı" demiştim, MOTOR dördüncüyü ölçtü — ilk üçü onun, sonuncusu ARAYÜZ'ün) | ⏳ |
 | K4 | **VERİ KİMLİK darboğazı: bölelim mi** | Yedi oturumun bitmiş araştırması **yalnız renk beklediği için** haritaya giremiyor (8 kalem). Tek oturum yetişemiyor. Seçenekler: (a) beklemeye devam · (b) ikinci bir kimlik oturumu açmak · (c) renk seçimini koordinatörün yapması | ⏳ |
 
 ---

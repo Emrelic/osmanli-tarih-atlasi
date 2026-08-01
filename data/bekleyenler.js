@@ -81,7 +81,7 @@ window.BEKLEYENLER = {
     [
      "K3",
      "Hindistan / Çin oturumu açılacak mı",
-     "Artık ölçüldü, üç kapı var: ① BOLGE kutusu (uret_petek.py:43) ② renkler.py kimlikleri ③ index.html script satırı. yerlesimler_asya.js zaten var ama üçünden de geçmiyor — yazılan hiçbir şey görünmez. Oturum açmadan önce kapılar açılmalı, yoksa iş boşa gider",
+     "Artık ölçüldü, DÖRT kapı var: ① girdi.py GIRDI_DOSYALARI ② renkler.py kimlikleri (98+15) ③ BOLGE kutusu (uret_petek.py:43) ④ app.js+index.html. yerlesimler_asya.js zaten var ama dördünden de geçmiyor — yazılan hiçbir şey görünmez. Oturum açmadan önce kapılar açılmalı, yoksa iş boşa gider. (Önce \"üç kapı\" demiştim, MOTOR dördüncüyü ölçtü — ilk üçü onun, sonuncusu ARAYÜZ'ün)",
      "⏳"
     ],
     [
