@@ -3582,3 +3582,62 @@ iki ölçüt aynı anda farklı cevap verdi. Aynı hata, ölçütler uyuştuğu 
 **uyuşma bir kanıt değildir; ne zaman kanıt olduğunu ancak ölçütlerin
 BAĞIMSIZ olduğunu bilerek söyleyebiliriz.**
 
+
+---
+
+## §82 — MOTORUN İFADE EDEMEDİĞİ ŞEKİL: ADACIK KALESİ
+
+NOKTA EKLEME oturumuna Girit'in üç kalesi verildi (Suda · Spinalonga ·
+Granbosa) — `~114,2 yıl-nokta`, kaynağı hazır, emsal tarihi veride. **En ucuz
+kalem** diye sıranın başına konmuştu.
+
+**Oturum yazmadı. Ölçtü, ve reddetti.**
+
+```
+Suda        Nisi Souda adacığı     35.48860/24.15237   ✗ kara maskesi DIŞI
+Spinalonga  Kalydon adacığı        35.29760/25.73840   ✗ maske DIŞI
+Granbosa    İmeri Gramvusa         35.61125/23.57901   ✗ maske DIŞI
+```
+Üçü de **adacık.** Maskenin dışındaki nokta hiç toprak sahibi olamaz; içeri
+kaydırılınca çıplak Voronoi ne iddia ediyor diye ölçtüler:
+```
+Suda           305,5 km²
+Spinalonga   1.171,6 km²
+Granbosa       685,8 km²
+──────────────────────────
+             2.163,0 km²    ⇒ Girit'in %26'sı
+```
+Venedik'in 1669'dan sonra Girit'te **fiilen tuttuğu toprak ~1 km²**dir —
+kaleler etrafı Osmanlı olduğu için zaten adacıktaydı.
+
+```
+BUGÜNKÜ HATA        ~1 km²'yi Osmanlı boyamak
+ÖNERİLEN DÜZELTME   2.162 km²'yi VENEDİK boyamak
+```
+
+⇒ **Düzeltme, hatayı 2000 katına çıkarırdı.** Ve oturum bunu koordinatörün
+kendi kuralıyla söyledi (`CLAUDE.md §3.5.1`):
+> *"Bir sınır kayması önerildiğinde **iki uç da ölçülür**… tek uçtan bakan
+> düzeltme hatayı **taşır, silmez.**"*
+
+### Ve teşhis "bulunamadı"dan başka bir şey
+
+> *"Bu **'bulunamadı' değil — motorun İFADE EDEMEDİĞİ bir şekil.** `§2`'nin
+> emilme kuralı *'her nokta çevresindeki toprak demektir'* kabulünü taşıyor;
+> **adacık kalesi tam tersi: toprağı olmayan tutunma noktası.**"*
+
+> **KURAL: Petek motoru "nokta = çevresindeki toprak" varsayar. Bu varsayımın
+> tutmadığı yerler vardır** — adacık kalesi, garnizon, kuşatılmış iç kale —
+> **ve oralarda doğru düzeltme HARİTA DEĞİL KRONOLOJİDİR.**
+
+🟢 Girit'in çaresi: `1692` ve `1715` için **kronoloji maddesi.** Petek
+istemiyor.
+
+📌 Ve bu `§72`/`§76`/`nufuz:` ailesinin dördüncü üyesi — hepsinde **veri
+dürüst, gösterim yetersiz.** Fark şu ki ötekilerde çare **yeni bir alan**dı;
+burada çare **hiç harita yazmamak.**
+
+⚠️ Ve en değerli kısmı: bu, sıranın **en ucuz kalemi** sanılıyordu. Kaynak
+hazırdı, emsal hazırdı, itiraz edilecek hiçbir şey yoktu. **Pahalı olan
+kaynak değil geometriydi, ve kimse ona bakmamıştı.**
+
