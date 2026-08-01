@@ -1576,3 +1576,76 @@ Rab (Arbe)                      145,3 km   ← eşiğin 5 km içinde kaldı
 📌 Yakınlık eşiği **teşhiste** (aday daraltma) meşru, **envanterde** değil.
 A-16'da ikisini karıştırdım: envanter çıkarıyordum, teşhis aracı kullandım.
 ⚠️ Ve `§4④` zaten söylüyordu: *"ölçmeden eşik koyma."* 150'yi ölçmeden koydum.
+
+## A-22 🔴 "YUTULMUŞ KIRILMA" KESİTİMDE — Ljubljana 638 yıllık tek pencerede
+
+ÇAPRAZ AKDENİZ'in bulduğu üçüncü sınıfı (*"olay hiçbir noktaya yazılmamış,
+pencere tek — `Değişmez 2` yapısal olarak göremez, çünkü kırılma yoksa
+maddesi de aranmaz"*) kendi kesitimde aradım. En uzun pencerelerden başladım:
+```
+Viyana · Graz    s:avusturya 1281-01-01 → 1918-11-11   637,8 yıl, TEK pencere
+Ljubljana        s:avusturya 1335-05-02 → 1918-11-11   583,5 yıl, TEK pencere
+Bratislava · Prag · Zagreb   1526-08-29 → 1918-11-11   392,2 yıl, TEK pencere
+```
+
+**② KAYNAKTA NE VAR** — *Fondation Napoléon* (napoleon.org) + Springer
+akademik derlemesi:
+> **14 Ekim 1809** — Schönbrunn (Viyana) Antlaşması imzalandı ve Napolyon
+> **aynı gün** İlirya Eyaletleri'ni kuran idarî kararnameyi çıkardı.
+> Avusturya **Kranj (Carniola)**, Gorizia-Gradisca, Trieste, İstria, batı
+> Kärnten ve **Sava'nın güneybatısındaki Hırvat toprakları**nı Fransa
+> İmparatorluğu'na bıraktı. **Başkent: Ljubljana (Laibach).**
+> Fransız idaresi 1809-1814; Avusturya'nın resmî ilhakı **9 Haziran 1815**
+> (Viyana Kongresi).
+
+**③ HÜKÜM: ÇELİŞİYOR — ve `Değişmez 2` bunu göremez.**
+Ljubljana **İlirya Eyaletleri'nin başkentiydi** ve bu topraklar Fransa
+İmparatorluğu'na **hukuken katıldı** — işgal değil, **ilhak.**
+⇒ `isg:` değil **`s:fransa`** olmalı. (Viyana'nın 1805/1809 işgalleri farklı
+sınıf, aşağıda.)
+
+### Önerilen düzeltme
+```
+s: 1335-05-02 -> 1809-10-14   d=avusturya
+s: 1809-10-14 -> <bitiş>      d=fransa        ← EKSİK
+s: <bitiş>    -> 1918-11-11   d=avusturya
+```
+```
+başlangıç 1809-10-14   KESİN   antlaşma ve kararname AYNI GÜN, iki kaynak
+bitiş                  ZAYIF   üç aday, §74 deseni:
+                                 1813 sonbaharı   Avusturya'nın fiilî geri alışı
+                                 1814-05-30       Paris Antlaşması
+                                 1815-06-09       Viyana Kongresi, resmî ilhak
+```
+🔴 **Bitişi SEÇMİYORUM.** Projenin ölçütü (A-1: fiilî değişim fiilî tarihle)
+**1813 sonbaharını** gösteriyor, ama elimde o geri alış için **gün veren
+kaynak yok** — ve `§76` gereği yıl hassasiyetli bir damga `Değişmez 2`'nin
+±30 gün eşiğine sahte kesinlik verir. **Kaynak gerekiyor.**
+🟢 `fransa` `BOYALAR`'da **var**, yeni renk gerekmiyor.
+
+⚠️ **Kapsam:** İlirya Eyaletleri Trieste · İstria · Gorizia · Sava'nın
+güneybatısını da içeriyordu; kesitimde **yalnız Ljubljana** var. **Zagreb
+Sava'nın kuzeyinde kaldığı için etkilenmiyor** — kaydı doğru.
+📌 Dalmaçya adaları da bu döneme giriyor (`avusturya 1797→1923` onları da
+yutuyor) ama orası **ÇAPRAZ AKDENİZ'in kesiti** — onlara bildirdim.
+
+## A-23 🟡 VİYANA 1805 ve 1809 — ayrı sınıf, ve DOĞRULANMADI
+
+Viyana `s:avusturya 1281 → 1918` içinde iki Fransız işgali kalıyor
+(1805 Kasım–1806 Ocak ve 1809 Mayıs–Kasım). Bunlar **ilhak değil işgal**:
+Habsburg hükümranlığı sürdü ⇒ `§78` ölçütüyle **`isg:fransa`**.
+🔴 **Ama bu turda KAYNAKLANDIRMADIM** — tarihleri genel bilgiden yazıyorum,
+akademik künyeye bağlamadım. `§8` hükmü: **`DOĞRULANAMADI`.**
+⇒ **Öneri değil, aday.** Kaynak bulunmadan yamaya girmesin.
+📌 Ve bant sorunu yok: 1805/1809, mevcut `isg:` kayıtlarının 1771+ bandında.
+
+### 📌 Sınıf tablosu — dördü birden
+```
+§80                olay k noktaya yazılmış, komşusuna yazılmamış    NOKTA ekseni
+yutulmuş kırılma   olay hiçbir noktaya yazılmamış, pencere tek      ZAMAN ekseni  ← A-22
+ufuk kenarı        kayıt ufka kadar yazılıp bırakılmış              UFUK kenarı   ← A-16
+noktasızlık        bölgede hiç nokta yok, komşu petek boyuyor       MEKAN ekseni  ← A-18/A-20
+```
+🔴 **Dördü de üç değişmezin körü**, ve dördü **ayrı sorgu** istiyor. Bir araç
+yazılacaksa **dördünü ayırmalı** — tek sorgu hepsini bulmaz, ve bulduğunu da
+yanlış sınıfa koyar.
