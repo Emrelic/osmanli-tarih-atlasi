@@ -597,3 +597,65 @@ kararı — bana söylersen (SAVASLAR'a taşı, 🔥 kullan) taşırım ama bu
 şemanı değiştirir, tek başıma karar vermedim.
 
 Doğrulama: `SEFERLER: 61 | SAVASLAR: 170 | tur/sonuc eksik: 0`.
+
+## EK 7 — Kalender Şah, Diu 1538, 8 deniz seferi güzergâhı (Koordinatör, tur bilinmiyor)
+
+### 1. Kalender Çelebi → Kalender Şah
+SAVASLAR'daki `t:"1526-01-01"` kaydının adı düzeltildi. TDV'de "Kalender Çelebi"
+diye madde yok, doğrusu "Kalender Şah" (`kalender-sah`, Koordinatör'ün canlı
+diye sınadığı slug). Koordinatör'ün haber verdiği yeni kronoloji maddesi
+(1527-06-22, Başsaz Muharebesi) `olaylar_ek*.js`'e ait — o dosyalar bende
+değil, sadece kayıt adını kronolojiyle eşleşecek isimde tuttum.
+
+### 2. Diu kuşatması (1538) tarihi
+`1538-02-03` gerçekten kopyala-yapıştır hatasıydı — üstündeki 1509 kaydıyla
+birebir aynı gün-ay. Hadım Süleyman Paşa'nın donanması Süveyş'ten 13 Haziran
+1538'de kalktı (`olaylar_ek2.js`, `kaynak:"diu"`, `gun:"Haziran-Kasım 1538"`);
+TDV "diu" maddesi kuşatmanın "yaklaşık üç ay" sürdüğünü yazıyor, Kasım'da
+kaldırıldığına göre başlangıç ~eylül başı. `1538-09-04`'e çektim.
+
+`1509-02-03` kaydı (Portekiz-Memlûk savaşı, Osmanlı sahada yok) gözden
+geçirildi ve BİLEREK tutuldu: Cidde 1517 → Diu 1538 → Hürmüz 1552 → Umman
+1554 zincirinin öncül sahnesi, `taraf` listesi zaten "osmanli" içermiyor.
+
+### 3-4. Deniz seferi etiketleri ve güzergâhları — ölçülerek düzeltildi
+Kendi kara-maskesi denetleyicimi yazdım (`motor_kara.geojson` + ray-casting,
+proje kaynağıyla aynı dosya) çünkü ARAYÜZ'ün ölçtüğü yüzdeleri doğrulamadan
+"düzelttim" diyemezdim. Sonuçlar birebir örtüşmüyor (farklı maske çözünürlüğü/
+kaynak olabilir) ama aynı kayıtları aynı yönde işaret ediyor.
+
+- **Savoy Haçlı seferi (1366)**: `tur:"sefer"` → `"deniz"` (ARAYÜZ: %28 kara,
+  DENİZ DEĞİL diye işaretlenmişti). Başka `tur:"sefer"` etiketli deniz seferi
+  taradım, bulmadım — 40'a yakın "sefer" kaydının tamamı gerçekten kara
+  yürüyüşü (bkz. dosyadaki tam liste, hepsini tek tek kontrol ettim).
+- **7 `tur:"deniz"` kaydının güzergâhına** kara-maskesiyle doğrulanmış ara
+  noktalar eklendi (Kıbrıs 1570, Rus donanması 1833, Müttefik 1840, Girit
+  1645, Preveze 1538, Mora 1825 + yeni deniz olan Savoy 1366):
+
+| Kayıt | Önce (benim ölçümüm) | Sonra |
+|---|---|---|
+| Savoy (1366) | %34,6 | %7,3 |
+| Preveze (1538) | %23,2 | %4,7 |
+| Girit (1645) | %27,8 | %7,7 |
+| Müttefik (1840) | %39,6 | %7,5 |
+| Rus donanması (1833) | %41,5 | %15,9 |
+| Kıbrıs (1570) | %60,5 | %38,7 |
+| Mora (1825) | %32,3 | %23,9 |
+
+⚠️ **İki kayıt %0'a inmiyor, ve bunun iki FARKLI sebebi var — ikisi de
+dosyadaki yorumlarda belirtildi:**
+1. **Çanakkale/İstanbul Boğazı çok dar.** `motor_kara.geojson` (Chaikin ile
+   yumuşatılmış, CLAUDE.md §2) bu genişlikte bir kanalı çözemiyor — hem
+   Rus donanması (Boğaziçi) hem Preveze/Girit/Savoy'un Çanakkale bacağı bu
+   yüzden kalan kara payının çoğunu taşıyor. Bu motor tarafında bir sınır,
+   `savaslar.js`'in düzeltebileceği bir şey değil.
+2. **Kıbrıs ve Mora'da kalan pay KASTEN kara.** Çıkarmadan sonraki bacak
+   (Larnaka→Lefkoşa→Mağusa; Peloponnese kıyısı→Tripoliçe) gerçek bir kara
+   harekâtı — adanın/yarımadanın içine yürüyüş. Bunu "deniz" güzergâhından
+   çıkarıp ayrı bir kara oku yapmak isterseniz söyleyin, tek başıma
+   kayıtları ikiye bölmedim (kapsam dışı bir tasarım kararı gibi geldi).
+
+Otranto çıkarması (1480, %6,1) zaten düşüktü, dokunmadım — iki ucu da liman
+şehri, kaçınılmaz kıyı teması.
+
+Commit: `10e2434`.
