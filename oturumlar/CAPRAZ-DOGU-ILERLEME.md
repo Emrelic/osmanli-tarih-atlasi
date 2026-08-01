@@ -125,8 +125,104 @@ devlet ömrünü aşıyordu, burada ad devletten geniş.)
 
 ---
 
+---
+
+## 1 Ağustos · Tur 2 — Grup A bölünmesi ve renk ailesi
+
+Kullanıcı kararı geldi (koordinatör üzerinden): **"aynı renk ailesi, farklı
+parlaklık."** Gerekçem aynen kabul edildi. MOTOR'un L\* tavanı ölçümü uyarı
+olarak iletildi.
+
+### Ölçüm 7 — Grup A'nın altı coğrafî bloğu
+
+130 pencere (1736 sonrası + Hârizm 1740 + Basra 1776):
+```
+FARS-GÜNEY-KİRMAN        41   bitiş 1923-10-29 ×41
+KAFKASYA                 25   1813-10-24 ×16 · 1923-10-29 ×6 · 1828-02-10 ×3
+ORTA-BATI İRAN           23   1923-10-29 ×23
+HORASAN-SÎSTAN           23   1923-10-29 ×19 · 1860-01-01 ×3 · 1785-01-01 ×1
+HAZAR-GÎLÂN-MÂZENDERAN   12   1923-10-29 ×12
+HÂRİZM                    5   1747-06-20 ×5
+IRAK (Basra)              1   1779-04-01 ×1
+```
+Risk sınıfları: 🟢 6 pencere tek kelime · 🟢 130 pencerenin ön dilimi kaynaklı ·
+🟡 Horasan 23 · 🔴 fetret 76 + Kafkasya 25 açık. Ayrıntı `CAPRAZ-DOGU.md §8`.
+
+### Ölçüm 8 — TDV turu 2: gün hassasiyeti bir basamak kazanıldı
+
+`kerim-han-zend` 🟢 canlı: Kerim Han'ın ölümü **13 Safer 1193 / 2 Mart 1779**.
+`zendler` maddesi yalnız *"Mart 1779"* veriyordu.
+⇒ `§4④` (olayın kendi maddesi esas) bu kez **çelişki çözmedi, HASSASİYET
+kazandırdı** — hanedan maddesinden kişinin maddesine inmek bir basamak keskinlik
+verdi. Kuralın bilinmeyen bir faydası; not edilmeye değer.
+
+Ayrıca `kerim-han-zend`: Isfahan **Ocak 1751**, Şiraz'a yerleşme **1765**.
+⚠️ "Ağa Muhammed Han" için TDV'de **müstakil madde YOK** (madde başlıkları 0);
+Kaçar başlangıcı yalnız `kacarlar`'ın verdiği **1796** yıl hassasiyetinde.
+
+### 🔴 Ölçüm 9 — çapraz kaynak erişilemiyor
+
+```
+iranicaonline.org   HTTP 403   (afsharids · zand-dynasty · aga-mohammad-khan)
+britannica.com      HTTP 403   (Qajar-dynasty · Zand-dynasty)
+```
+Görev tanımının istediği *"karşı tarafın kendi tarih yazımı"* bu turda
+sağlanamadı; çapraz doğrulama **TDV'nin kendi maddeleri arasında** yapıldı.
+Bu gerçek bir çapraz kontrol ama farklı bir şey. KUZEY ve BATI aynı duvara
+çarpacaksa ortak çözüm gerekiyor — koordinatöre bildirildi.
+
+⇒ 1747-1751 fetreti bu yüzden **"doğrulanamadı"** diye kapatıldı: bölgesel
+hâkimiyet dağılımı yalnız Vikipedi türevi aramalarda vardı, `§3` gereği
+kaynak sayılmaz.
+
+### ⭐ Ölçüm 10 — renk ailesi: basamak hanedan başına değil, ÇAKIŞMA başına
+
+Soru şuydu: aile kaç üye taşır? Cevap sabit değil — **kaç üyenin aynı anda
+yaşadığına** bağlı. On altı hanedanın ömrü yıl yıl tarandı:
+
+```
+AZAMİ EŞ ZAMANLI ÜYE: 9  (yıl 1378)
+  celayirli muzafferi kert serbedari marasi sirvansah timurlu karakoyunlu akkoyunlu
+
+1300: 3   1375: 8   1450: 5   1525: 4   1600: 1   1750: 1   1800: 2   1825+: 1
+```
+
+| dönem | eş zamanlı | 28,7 L* böleni | hüküm |
+|---|---|---|---|
+| 1600-1923 | 1-2 | 14,3 | 🟢 uygulanabilir |
+| 1500-1600 | 3-5 | 7,2-9,6 | 🟡 sınırda |
+| 1335-1500 | 6-9 | 3,2-5,7 | 🔴 imkânsız |
+
+**Çözüm ölçümden çıktı:** örtüşmeyen hanedanlar aynı basamağı paylaşır.
+```
+basamak 1: ilhanli (1256-1335) + kacar (1796-1925)   hiç örtüşmüyor
+basamak 2: safevi  (1501-1736) + zend  (1751-1794)   hiç örtüşmüyor
+basamak 3: afsar   (1736-1804)
+sınama: afsar+zend → 3↔2 ✓   afsar+kacar → 3↔1 ✓
+3 basamak → 2 aralık → 28,7/2 = 14,3 L*  ⇒ istenen 10'un ÜSTÜNDE
+```
+⇒ Beş hanedana beş basamak arandığı için tavan yetmiyor görünüyordu; **zaman
+ekseni hesaba katılınca üç basamak yetiyor ve tavanın yarısı boş kalıyor.**
+
+---
+
+## 📌 Tur 2'den çıkan ders önerisi (yazma yetkim yok, koordinatöre)
+
+**③ Bir renk kısıtı, ZAMAN eksenini hesaba katmadan ölçülürse olduğundan dar çıkar.**
+L\* tavanı *"altı hanedan, altı basamak"* varsayımıyla ölçüldü ve karar
+*"imkânsız"* görünüyordu. Oysa boyanın ayırt edilmesi gereken tek an, iki
+hanedanın **aynı anda haritada bulunduğu** andır. Aynı ölçü, çakışma grafiği
+üzerinden sorulduğunda gereken basamak 5'ten 3'e, gereken aralık 5,7'den
+14,3'e çıktı — **aynı veri, aynı tavan, farklı soru.**
+📌 Bu `OGRENILENLER §68`'in (*"bir ölçüm tek yönde sorulursa ters yöndeki kusuru
+göremez"*) kardeşi: burada ölçüm **doğru yöndeydi ama eksik boyutluydu.**
+
+---
+
 ## Sıradaki tur
 
-1. Grup A'nın gün hassasiyetli Afşar→Zend→Kaçar bölünmesi (fetret 1747-1751 dahil)
-2. B4/B5 coğrafî bölme · Ç2, Ç5 ikinci çekiş · `marasi` slug araması
-3. 🟡 İkinci iş: **Memlük** — Kızıldeniz 39,7 yıl fazlalık, Suriye-Filistin-Hicaz
+1. 🔴 **Kafkasya hanlıkları 1747-1795** — sınanacak iddia: 48 yıl × 25 nokta
+   hayalet İran hâkimiyeti. Her hanlığın TDV maddesi ayrı sınanacak.
+2. 🔴 1747-1751 fetretine erişilebilir akademik kaynak
+3. B4/B5 coğrafî bölme · Ç2, Ç5, Ç6 ikinci çekiş · `marasi` slug
+4. 🟡 İkinci iş: **Memlük** — Kızıldeniz 39,7 yıl fazlalık, Suriye-Filistin-Hicaz

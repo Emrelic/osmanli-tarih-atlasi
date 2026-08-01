@@ -306,13 +306,245 @@ gereği kullanıcıya sorulması gereken sınıfta. Kararı koordinatöre bırak
 
 ---
 
-## 7. AÇIK KALANLAR — sıradaki turum
+## 7. AÇIK KALANLAR — Teslim 1 sonunda
 
-1. **Grup A'nın gün hassasiyetli sınırları.** Afşar→Zend→Kaçar geçişi tek bir
-   tarih değil: 1747-1751 fetret, Zend güneybatıda / Afşar Horasan'da **aynı anda**.
-   Nokta nokta bölme gerekiyor; kaynak `zendler` + `avsarlilar` + `kacarlar`.
-2. **B4 ve B5'in coğrafî bölünmesi** (Çobanlı↔Celâyirli, Kert↔Serbedârî).
-3. **Ç2 ve Ç5'in ikinci çekişi** — `devletler.js`'teki `ilhanli` ömrü ve `isfahan`.
-4. **`marasi` (Mâzenderan) doğrulaması** — TDV'de slug aranacak.
-5. 🟡 **İkinci iş: Memlük** — Kızıldeniz kıyısındaki 39,7 yıl fazlalık ve
-   Suriye-Filistin-Hicaz kesiti. Henüz başlamadım.
+1. ✅ **Grup A'nın gün hassasiyetli sınırları** → §8'de yapıldı
+2. **B4 ve B5'in coğrafî bölünmesi** (Çobanlı↔Celâyirli, Kert↔Serbedârî)
+3. **Ç2 ve Ç5'in ikinci çekişi** — `devletler.js`'teki `ilhanli` ömrü ve `isfahan`
+4. **`marasi` (Mâzenderan) doğrulaması** — TDV'de slug aranacak
+5. 🟡 **İkinci iş: Memlük** — Kızıldeniz 39,7 yıl fazlalık, Suriye-Filistin-Hicaz
+
+---
+---
+
+# TESLİM 2 — Grup A'nın hanedan bölünmesi ve renk ailesi ölçümü
+
+> Kullanıcı kararı geldi: **"aynı renk ailesi, farklı parlaklık."** §9'da ölçtüm —
+> karar **uygulanabilir**, ama uygulanabildiği yer ile uygulanamadığı yer ayrı.
+
+---
+
+## 8. GRUP A — 130 pencerenin blok blok bölünmesi
+
+### 8.1 · Kaynak iskeleti — yalnız TDV'den, gün hassasiyeti korunarak
+
+| olay | tarih | kaynak | hassasiyet |
+|---|---|---|---|
+| Nâdir Şah Mugan'da taç giydi | **1736-03-08** | `nadir-sah--iran` + `avsarlilar` (24 Şevval 1148) | **gün** ✓ iki madde |
+| Nâdir Şah öldürüldü | **1747-06-20** | `nadir-sah--iran` (11 Cemâziyelâhir 1160) | **gün** ✓ |
+| Kerim Han Isfahan'a girdi | **1751-01** | `kerim-han-zend` (*"1751 yılının Ocak ayında"*) | **ay** |
+| Kerim Han Şiraz'a yerleşti | **1765** | `kerim-han-zend` | **yıl** |
+| Kerim Han öldü | **1779-03-02** | `kerim-han-zend` (13 Safer 1193) | **gün** ✓ |
+| Lutf Ali Han öldürüldü | **1794-12** | `zendler` (Cemâziyelâhir 1209) | **ay** |
+| Ağa Muhammed Han Tahran'da taç giydi | **1796** | `kacarlar` | **yıl** |
+| Son Afşar Horasan'da idam edildi | **1804-02** | `avsarlilar` | **ay** |
+
+⚠️ `§4⑤` gereği **hassasiyet olduğu gibi taşınır**: ay bilinen yerde `YYYY-MM-01`
++ `gun:` alanı; yıl bilinen yerde `YYYY-01-01`. **Gün uydurmadım.**
+
+🟢 **Yeni kazanç:** `kerim-han-zend` Kerim Han'ın ölümüne **13 Safer 1193 / 2 Mart
+1779** diyor; `zendler` maddesi yalnız *"Mart 1779"* veriyordu. `§4④` (olayın kendi
+maddesi esastır) burada **gün hassasiyeti kazandırdı** — hanedan maddesinden
+kişinin maddesine inmek bir basamak keskinlik verdi.
+
+### 8.2 · 130 pencere altı coğrafî bloğa ayrıldı
+
+| blok | pencere | mevcut bitişler |
+|---|---|---|
+| FARS-GÜNEY-KİRMAN | 41 | 1923-10-29 ×41 |
+| KAFKASYA | 25 | 1813-10-24 ×16 · 1923-10-29 ×6 · 1828-02-10 ×3 |
+| ORTA-BATI İRAN | 23 | 1923-10-29 ×23 |
+| HORASAN-SÎSTAN | 23 | 1923-10-29 ×19 · 1860-01-01 ×3 · 1785-01-01 ×1 |
+| HAZAR-GÎLÂN-MÂZENDERAN | 12 | 1923-10-29 ×12 |
+| HÂRİZM | 5 | 1747-06-20 ×5 |
+| IRAK (Basra) | 1 | 1779-04-01 ×1 |
+
+### 8.3 · 🟢 SIFIR RİSKLİ — 6 pencere, tek kelime değişiyor
+
+Bu altısında **tarih hiç değişmiyor**, yalnız `d:"iran"` → doğru hanedan:
+
+```
+HÂRİZM      Hîve · Hazârasp · Köhne Ürgenç · Yeni Ürgenç · Küngrat
+            {f:"1740-01-01", t:"1747-06-20", d:"iran"}  →  d:"afsar"
+            gerekçe: pencerenin bitişi Nâdir Şah'ın öldüğü GÜN
+
+IRAK        Basra
+            {f:"1776-04-16", t:"1779-04-01", d:"iran"}  →  d:"zend"
+            gerekçe: TDV `zendler` — Sâdık Han Zend'in 1776 Basra işgali
+```
+
+📌 Bu altı pencere §5'te söylediğim şeyin kanıtı: **veri hanedanı zaten biliyor,
+adını koymuyor.** Tarihler hanedan sınırına gün gün oturmuş.
+
+### 8.4 · 🟢 DÜŞÜK RİSKLİ — 130 pencerenin HEPSİNİN ön dilimi
+
+```
+BÜTÜN Grup A:  {f:"1736-03-08", …, d:"iran"}
+            →  {f:"1736-03-08", t:"1747-06-20", d:"afsar"}  + arkasından blok zinciri
+```
+İki ucu da **gün hassasiyetinde ve iki bağımsız TDV maddesiyle** doğrulanmış.
+Bu tek adım **11 yıl × 130 pencereyi** torbadan çıkarıyor ve hiçbir yorum istemiyor.
+
+### 8.5 · 🟡 ORTA RİSKLİ — HORASAN-SÎSTAN (23 pencere)
+
+Horasan, Nâdir'in ölümünden sonra **Afşar elinde kaldı** (Şahruh Şah); İran'ın geri
+kalanından ayrı bir zaman çizgisi izliyor.
+
+```
+afsar   1736-03-08 → 1796-01-01     (Şahruh, TDV `avsarlilar` süreklilik veriyor)
+kacar   1796-01-01 → [mevcut bitiş: 1923-10-29 ×19 · 1860-01-01 ×3 · 1785-01-01 ×1]
+```
+
+⚠️ **Çelişki Ç6 (kaydedildi, çözülmedi):** TDV `avsarlilar` Afşar hâkimiyetinin
+Horasan'da **Şubat 1804**'e kadar sürdüğünü söylüyor; `kacarlar` ve Ağa Muhammed
+Han'ın Meşhed seferi **1796**'yı veriyor. İkisi çelişmiyor da olabilir (1796
+Şahruh'un tahttan indirilmesi, 1804 son Afşar iddiacısının idamı) ama **hangisinin
+"hâkimiyet sonu" olduğu kaynaklarda ayrılmıyor.** Ben 1796'yı önerdim çünkü
+haritada *hâkimiyet* boyanıyor, *iddia* değil — ama karar koordinatörün.
+
+### 8.6 · 🔴 AÇIK — 76 pencere fetret, 25 pencere Kafkasya
+
+**Fetret (FARS-GÜNEY 41 + ORTA-BATI 23 + HAZAR 12 = 76):**
+```
+afsar    1736-03-08 → 1747-06-20      ✓ kaynaklı
+???      1747-06-20 → 1751-01-01      🔴 DOĞRULANAMADI — kimlik önermiyorum
+zend     1751-01-01 → 1794-12-01      ✓ kaynaklı (ay hassasiyeti)
+kacar    1794-12-01 → 1923-10-29      ✓ kaynaklı
+```
+🔴 **1747-1751 fetreti için kabul edilebilir kaynak bulamadım.** Bölgesel
+hâkimiyet dağılımını (Azerbaycan'da Âzâd Han, Mâzenderan'da Muhammed Hasan Han
+Kaçar, Horasan'da Şahruh) yalnız **Vikipedi türevi** aramalarda bulabildim ve
+`CAPRAZ-GOREV §3` gereği *"Vikipedi aday üreticidir, kaynak değil."*
+**Hüküm: doğrulanamadı** — ve `§8` gereği bu **tam bir hüküm**, boşluk değil.
+
+⚠️ Aynı sebeple **HAZAR bloğunun 12 penceresi işaretli**: 1751-1759 arası
+Gîlân/Mâzenderan'ın Zend değil Kaçar (Muhammed Hasan Han) elinde olduğu iddiası
+var ama doğrulanmadı. Şimdilik Zend zinciriyle bıraktım, **işaretli**.
+
+**KAFKASYA (25 pencere) — bir sonraki turun asıl işi:**
+```
+afsar    1736-03-08 → 1747-06-20      ✓ kaynaklı
+???      1747-06-20 → 1795/96         🔴 HANLIKLAR — sınanacak iddia
+kacar    1795/96 → [1813-10-24 ×16 · 1828-02-10 ×3 · 1923-10-29 ×6]
+```
+🔴 **Sınanacak iddia:** *"Nâdir Şah'ın ölümünden Ağa Muhammed Han'ın 1795 seferine
+kadar Kafkasya hanlıkları (Karabağ · Şeki · Şirvan · Bakü · Kuba · Gence · Revan ·
+Nahçıvan · Talış) fiilen bağımsızdı; veri onları kesintisiz İran boyuyor."*
+Doğruysa **48 yıl × 25 nokta** hayalet İran hâkimiyeti demektir. Her hanlığın TDV
+maddesi ayrı ayrı sınanacak — sonraki tur.
+
+### 8.7 · Uygulama uyarısı — YAMACI'ya
+
+`1736-03-08` damgası **130 kayıtta aynı**. `CLAUDE.md §11`'in
+`replace(eski, yeni, 1)` tuzağı birebir geçerli: tek eşleşme değiştirilirse
+sessiz sahipsizlik penceresi açılır. **Tüm eşleşmeler** değişmeli, arkasından
+**Değişmez 1 + Değişmez 2** koşmalı.
+
+---
+
+## 9. ⭐ RENK AİLESİ — kullanıcının kararı ölçüldü: uygulanabilir, ama her yerde değil
+
+Kullanıcı *"aynı renk ailesi, farklı parlaklık"* dedi. MOTOR'un ölçtüğü tavan:
+**%44 opaklıkta bir ailenin L\* genişliği 28,7** ve altı üye 10'ar basamak
+istediğinde ulaşılabilir azami fark **6**. Yani *"aile kaç üye taşır"* sorusunun
+cevabı sabit değil — **kaç üyenin AYNI ANDA yaşadığına** bağlı.
+
+### 9.1 · Ölçüm: İran ailesinin azami eş zamanlı üye sayısı
+
+```
+AZAMİ EŞ ZAMANLI ÜYE: 9   (yıl 1378)
+   celayirli · muzafferi · kert · serbedari · marasi
+   sirvansah · timurlu · karakoyunlu · akkoyunlu
+
+yıl    eş zamanlı üye
+1300    3      1450    5      1600    1      1750    1
+1350    6      1500    5      1650    1      1775    2
+1375    8      1525    4      1700    1      1800    2
+1400    6      1550    3      1725    1      1825+   1
+```
+
+### 9.2 · 🔴 Sonuç: karar 1600 SONRASI bedava, 1335-1500 arası İMKÂNSIZ
+
+| dönem | eş zamanlı üye | 28,7 L\* kaç basamağa böler | hüküm |
+|---|---|---|---|
+| 1600-1923 | **1-2** | 14,3 · **istenen 10'un üstünde** | 🟢 **uygulanabilir** |
+| 1500-1600 | 3-5 | 7,2-9,6 | 🟡 sınırda |
+| 1335-1500 | **6-9** | 3,2-5,7 · **istenenin yarısından az** | 🔴 **imkânsız** |
+
+### 9.3 · Ve bu bir kusur değil — DOĞRU okuma zaten farklı
+
+1378'de İran'da dokuz devlet var çünkü **İran gerçekten parçalanmıştı.** Orada
+kullanıcının istediği okuma (*"aynı ülke, başka hanedan"*) tarihen **yanlış** olur;
+doğru okuma *"İran dağıldı, birbiriyle savaşan ayrı devletler"*. Aile boyası
+o okumayı **gizler.**
+
+⇒ **Önerim — iki ayrı kural, ikisi de kullanıcının kararına sadık:**
+
+```
+① ARDIL ZİNCİR  →  AİLE (aynı ton, parlaklıkla ayrılır)
+   ilhanli → safevi → afsar → zend → kacar
+   "aynı ülkenin ardıl hanedanı" okuması DOĞRU olduğu tek küme
+
+② PARÇALANMA DEVLETLERİ  →  AYRI TON (normal DSATUR)
+   cobanli · celayirli · muzafferi · kert · serbedari · marasi
+   sirvansah · timurlu · karakoyunlu · akkoyunlu · ozbek
+   bunlar birbirinin ardılı DEĞİL, birbirinin RAKİBİ
+```
+
+### 9.4 · 🟢 Ve ① için ölçüm çok rahat çıkıyor — üç basamak yetiyor
+
+Ardıl zincirin beş üyesi var ama **hiçbir anda ikiden fazlası yaşamıyor.**
+Örtüşmeyen üyeler **aynı parlaklık basamağını paylaşabilir**:
+
+| basamak | üyeler | örtüşür mü |
+|---|---|---|
+| **1** | `ilhanli` (1256-1335) + `kacar` (1796-1925) | hiç örtüşmüyor ✓ |
+| **2** | `safevi` (1501-1736) + `zend` (1751-1794) | hiç örtüşmüyor ✓ |
+| **3** | `afsar` (1736-1804) | — |
+
+Sınama: `afsar`+`zend` 1751-94'te birlikte → basamak 3 ↔ 2 **farklı** ✓ ·
+`afsar`+`kacar` 1796-1804'te birlikte → 3 ↔ 1 **farklı** ✓
+
+```
+3 basamak → 2 aralık → 28,7 / 2 = 14,3 L*  ⇒ istenen 10'un ÜSTÜNDE, payı da var
+```
+
+📌 **Kilit fikir:** parlaklık basamağı **hanedan başına değil, ÇAKIŞMA başına**
+dağıtılır. Beş hanedana beş basamak arandığı için tavan yetmiyor görünüyordu;
+zaman ekseni hesaba katılınca üç basamak yetiyor ve **ölçülen tavanın yarısı boş
+kalıyor.** Kullanıcının kararı, kısıtı zorlamadan uygulanabiliyor.
+
+⚠️ `renkler.py` benim dosyam değil — hex önermiyorum. Yukarıdaki **kısıt**
+VERİ KİMLİK'e girdi: `safevi #6b4a7d` ile `ilhanli #7a5ba0` zaten bu ailenin
+içinde, zincir onların tonundan türetilebilir.
+
+---
+
+## 10. AÇIK KALANLAR — sıradaki tur
+
+1. 🔴 **Kafkasya hanlıkları 1747-1795** — 48 yıl × 25 nokta hayalet İran olabilir.
+   Her hanlığın TDV maddesi ayrı sınanacak. **En yüksek öncelik.**
+2. 🔴 **1747-1751 fetretine kabul edilebilir kaynak** — Iranica ve Britannica
+   **HTTP 403** veriyor (§11), başka bir akademik kaynak gerekiyor.
+3. B4/B5 coğrafî bölme · Ç2, Ç5, Ç6 ikinci çekiş · `marasi` slug araması
+4. 🟡 **İkinci iş: Memlük**
+
+---
+
+## 11. ⚠️ KAYNAK ERİŞİMİ — ÇAPRAZ KUZEY ve BATI'yı da ilgilendirir
+
+`CAPRAZ-GOREV §3` *"bir dış devletin kendi iç kronolojisi → o devletin akademik
+kaynağı"* diyor. İran için o kaynak **Encyclopaedia Iranica**'dır ve:
+
+```
+iranicaonline.org        HTTP 403 Forbidden   (3 deneme, farklı maddeler)
+britannica.com           HTTP 403 Forbidden   (2 deneme)
+```
+
+⇒ Bu turda çapraz kaynak olarak **yalnız TDV'nin kendi içindeki farklı maddeleri**
+kullanabildim (`avsarlilar` ↔ `nadir-sah--iran` gibi). Bu **gerçek bir çapraz
+doğrulama** ama *"karşı tarafın kendi tarih yazımı"* değil — görev tanımının asıl
+istediği şey henüz sağlanamıyor.
+
+📌 KUZEY (Rus kaynakları) ve BATI (Venedik arşivi) aynı duvara çarpacaksa **ortak
+bir çözüm gerekiyor** — koordinatöre bildirdim.
