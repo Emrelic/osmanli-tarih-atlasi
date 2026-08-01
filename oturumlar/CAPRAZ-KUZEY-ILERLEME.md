@@ -263,3 +263,85 @@ Toplam tablo: **TDV kaynaklı 4/4 doğru · Rus kaynaklı 3 tarihten 2'si ham J�
 - **`nogay` sahası** — TDV `kirim` "tâbiiyetleri gevşek" diyor; Nogay Ordası'nın
   kendi coğrafyası ölçülmedi.
 - **1648 Hmelnitski günü** — hâlâ yok.
+
+---
+
+## Tur 3 — 2026-08-01, kendi iddiamı ölçtüm
+
+### Ö12 · `kur:` alanı — B4'ün düşen yarısı
+
+```
+Saratov                   kur:1590-07-12   bit:—   tur:sehir
+Tsaritsyn                 kur:1589-07-02   bit:—   tur:sehir
+Kalmuk bozkırı            kur:—            bit:—   tur:bolge
+Ural eteği                kur:—            bit:—   tur:bolge
+Terek deltası (Kızlar)    kur:—            bit:—   tur:bolge
+Astrahan                  kur:—            bit:—   tur:sehir
+Harkov                    kur:—            bit:—   tur:sehir   ← B11 ayakta
+Voronej                   kur:—            bit:—   tur:sehir   ← B11 ayakta
+St. Petersburg            kur:1703-05-27
+CANLI veride kur: taşıyan nokta: 35
+```
+→ Koordinatörün ölçümü **bağımsız olarak doğrulandı**; iddiamın o yarısı düştü.
+
+---
+
+### Ö13 · Motor `kur:`/`bit:` okuyor mu — koda bakıldı
+
+```bash
+grep -n '"kur"\|\bkur\b\|"bit"' arac/uret_petek.py arac/girdi.py
+```
+Belirleyici satırlar:
+```
+uret_petek.py:1135   # ---------------- kur: / bit: — VARLIK EPOKLARI ----------------
+uret_petek.py:1138   # Motor `kur:` alanını okumuyordu:  ← GEÇMİŞ ZAMAN
+uret_petek.py:1259   if not ((y.get("kur") and y["kur"] > g) or (y.get("bit") and y["bit"] <= g)):
+uret_petek.py:1274   (aynı ölçüt, komşu tarama)
+uret_petek.py:1298   (aynı ölçüt, devir)
+uret_petek.py:1435   print("Varlık epokları (kur:/bit:) hazırlanıyor...")
+girdi.py:166         "kur": "kuruluş tarihi — motor: petek_epok() bu tarihten önce peteği ..."
+```
+⇒ **Motor `kur:`'u uyguluyor.** Blokaj kapanmış; `OTURUM-16 §E.6` bayat
+(`CAPRAZ-KUZEY.md` B13).
+
+⚠️ **Ölçmediğim:** merge'in önündeki **öbür** kapı (15 tanımsız kimlik / renk).
+Yalnız `kur:` gerekçesinin düştüğünü söylüyorum, "merge yapılabilir" demiyorum.
+
+---
+
+### Ö14 · Bahçesaray — üçüncü takvim adayı elendi
+
+`data/olaylar_ek5.js:242`:
+```js
+t:"1681-01-11",  gun:"1681",  kaynak:"merzifonlu-kara-mustafa-pasa"
+```
+TDV `bahcesaray` (`<title>` doğrulandı): yalnız *"1681'de"*, gün yok.
+
+⇒ `gun:` alanı zaten yıl hassasiyeti bildiriyor — **takvim sapması vakası değil.**
+B12'nin vaka sayısı 3'te kaldı, eşik önermemek doğruydu.
+
+🟡 Yan gözlem: `t:"1681-01-11"`, `CLAUDE.md §4`'ün `YYYY-01-01` konvansiyonuna
+uymuyor. Zararsız (çünkü `gun:` doğruyu söylüyor), düzeltme önermedim.
+
+---
+
+### Ö15 · TDV slug ölçümü — tur 3
+
+| slug | `<title>` | hüküm |
+|---|---|---|
+| `bahcesaray` | "BAHÇESARAY - TDV İslâm Ansiklopedisi" | 🟢 canlı — ama 1681 antlaşması için **gün yok** |
+
+📌 Madde canlı ve dolu olduğu hâlde **aradığım veriyi taşımıyor.** Bu da bir
+hüküm: *"kaynak var, cevap yok"* — `CAPRAZ-GOREV.md §8`'in *"doğrulanamadı tam
+bir hükümdür"* maddesi.
+
+---
+
+## Tur 3'te ölçmediğim, iddia da etmediğim şeyler
+
+- **Kuzey-Doğu Avrupa merge'inin önündeki renk/kimlik kapısı** — E.6'nın `kur:`
+  gerekçesi düştü, **öbür gerekçe ölçülmedi.**
+- **Harkov/Voronej kuruluş yılları** — hâlâ ikinci kaynaksız (Tur 2'den devir).
+- **1648 Hmelnitski günü** — üçüncü turda da yapılmadı.
+- **`astarhan` penceresinin hangi noktalara yazılacağı** — kimlik ayakta ama
+  hangi altı noktanın hangi tarih aralığını alacağı ölçülmedi.

@@ -525,14 +525,163 @@ Bu, tek tek bakmadan **sınıfı daraltıyor** — koordinatörün istediği şe
 
 ---
 
-## 15. SIRADAKİ TUR — kendi kuyruğum
+---
+---
+
+# TUR 3 — kendi iddiamı çürüttüm, altından blokaj çıktı
+
+---
+
+## 16. ❌ B4'ÜN YARISI DÜŞTÜ — `kur:` alanına bakmamıştım
+
+Koordinatör ölçtü, ben de bağımsız ölçtüm. **İkisi de aynı sonucu verdi: hatalıydım.**
+
+```
+Saratov      kur:"1590-07-12"   tur:"sehir"     ← VAR
+Tsaritsyn    kur:"1589-07-02"   tur:"sehir"     ← VAR
+Kalmuk bozkırı  kur: yok        tur:"bolge"     ← bölgenin kuruluş tarihi olmaz
+```
+
+Ve motorun `kur:`'u **gerçekten uyguladığını** doğruladım — `arac/uret_petek.py`
+1259 · 1274 · 1298. satırlar `petek_epok()` içinde:
+```python
+if not ((y.get("kur") and y["kur"] > g) or (y.get("bit") and y["bit"] <= g)):
+```
+
+⇒ **`s:` penceresinin 1556'da başlaması kusur değil.** Kayıt *"kurulduğunda Rus
+toprağındaydı"* diyor ve nokta 1590'a kadar haritada **hiç çizilmiyor.**
+
+### Hatanın sınıfı — ve kendi bulgumun aynısı
+`s:` alanına baktım, `kur:` alanına bakmadım. Bu, **B12'de kendi bulduğum kural
+⑥'nın bana çarpmış hâli**: ölçüm doğru yöndeydi, **eksik boyutluydu.** Tur 2'de
+aynı şeyi B5'te yaşamıştım (`altinorda`nın bitişine bakıp devamına bakmamak).
+**Aynı tur içinde üçüncü kez.**
+
+> 📌 Kayda geçsin: bir kaydı *"yanlış"* ilan etmeden önce **bütün alanları**
+> okunur — `s:` · `d:` · `v:` · `kur:` · `bit:` · `tur:`. Tek alan hikâyeyi
+> anlatmıyor.
+
+### B4'ten AYAKTA KALAN — ve asıl iddia buydu
+| iddia | durum |
+|---|---|
+| Saratov/Tsaritsyn 1556'da yok | ❌ **düştü** — `kur:` var, motor uyguluyor |
+| Kalmuk bozkırı `kur:` yok | ❌ **düştü** — `tur:"bolge"`, kuruluşu olmaz |
+| **`astarhan` 0 pencere — hanlık 1466-1556 boyunca hiç boyanmıyor** | ✅ **ayakta** |
+| **Harkov ve Voronej `kur:` taşımıyor** | ✅ **ayakta** (Ö9, B11) |
+
+⇒ B4'ün asıl gövdesi — **`astarhan` kimliğinin hiç kullanılmaması** — etkilenmedi.
+Düşen kısım, ona eklediğim ikincil gerekçeydi.
+
+---
+
+## 17. 🔴 B13 — `OTURUM-16 E.6` BAYAT: KAPALI SANILAN KAPI AÇIK
+
+İddiamı ölçerken beklemediğim bir şey çıktı ve **bu, düşen iddiadan daha
+değerli.**
+
+### ① Belgede ne yazıyor
+`oturumlar/OTURUM-16-KUZEY-DOGU-AVRUPA.md §E.6`:
+> **⛔ BLOKAJ: motor `kur:`/`bit:` okumuyor**
+> `arac/uret_petek.py` `kur:` alanını **görmüyor**; henüz kurulmamış şehrin
+> peteği 1281'den beri var ve komşularından toprak koparıyor.
+> → *"**merge motor düzelene kadar yapılmayacak.**"*
+
+### ② Kodda ne var
+`arac/uret_petek.py:1135-1160` — o blokajın **çözümü yazılmış ve yürürlükte.**
+Başlık: `# ---------------- kur: / bit: — VARLIK EPOKLARI ----------------`
+Açıklama **geçmiş zamanda**: *"Motor `kur:` alanını **okumuyordu**"*.
+Ve çözümün kanonik örneği olarak **tam da bu bölgeden** bir nokta anılıyor:
+> *"St. Petersburg ise `kur:1703` olduğu hâlde `s:` 1281'den rusya diyor — işte
+> yanlış boyanan budur ve **devredilir**."*
+
+Ölçtüm: `St. Petersburg  kur:"1703-05-27"` ✓ · canlı veride **35 nokta** `kur:` taşıyor.
+
+### ③ HÜKÜM — **BAYAT BELGE**, ve maliyeti somut
+E.6 bir **kapı kapatıyor**: *"Kuzey-Doğu Avrupa partisi (228 nokta) merge
+edilmeyecek, çünkü motor `kur:` okumuyor."* **O kapı artık açık.**
+
+⚠️ Bugün o dosyayı okuyan bir oturum, **var olmayan bir blokaj yüzünden**
+merge'i bekletir. Ve bekletirken haklı olduğunu sanır — çünkü belge öyle diyor.
+
+📌 **Bu, CLAUDE.md §5'in kendi uyardığı sınıfın aynısı** (*"bayat satır bir
+araştırma oturumunu doğrudan yanılttı"*). Aynı belge ailesinde ikinci vaka.
+Ve benim Tur 1'deki `yerlesimler_avrupa.js` hatamla **aynı kök**: belgeye
+güvenip ölçmemek.
+
+> **Öneri (koordinatöre):** `OTURUM-16 §E.6` bloğu **kapandı** diye
+> işaretlensin. ⚠️ Merge'in önünde başka engel var mı **ölçmedim** — E.6'nın
+> saydığı kimlik/renk şartı (15 tanımsız kimlik) ayrı bir kapı ve **o hâlâ
+> kapalı olabilir.** Yalnız `kur:` gerekçesinin düştüğünü söylüyorum.
+
+---
+
+## 18. ❌ ÜÇÜNCÜ TAKVİM VAKASI ÇÖZÜLDÜ — vaka değilmiş
+
+Bahçesaray `1681-01-11`'i üçüncü takvim adayı olarak sıraya almıştım. Ölçtüm:
+
+### ① Bizde ne var
+`data/olaylar_ek5.js:242`:
+```js
+t:"1681-01-11", b:"Bahçesaray Antlaşması — Rusya ile ilk resmî barış",
+gun:"1681", kaynak:"merzifonlu-kara-mustafa-pasa"
+```
+**`gun:` alanı "1681" diyor — yalnız yıl.**
+
+### ② Kaynakta ne var
+TDV `bahcesaray` (`<title>` doğrulandı): *"1681'de Bahçesaray'da Osmanlı Devleti
+ile Rusya arasında bir antlaşma imzalandı"* — **gün vermiyor.**
+
+### ③ HÜKÜM — **TAKVİM VAKASI DEĞİL**, kayıt doğru davranmış
+Maddeyi yazan oturum günü bilmediğini **açıkça yazmış** (`gun:"1681"`) ve
+`t:` alanını yalnız sıralama damgası olarak kullanmış. Bu, `CAPRAZ-GOREV.md`
+kural ⑤'in birebir doğru uygulanışı: *kaynağın verdiği hassasiyet, verildiği
+gibi yazılır.*
+
+⇒ Takvim hipotezimin (B12) vaka sayısı **artmadı**: hâlâ 3 Rus kaynaklı tarih.
+Eşik önermemekte haklıymışım.
+
+🟡 **Küçük bir tutarsızlık** yine de var, ayrı sınıftan: `CLAUDE.md §4` günü
+bilinmeyen tarih için **`YYYY-01-01`** diyor; bu kayıt `1681-01-11` kullanıyor.
+Zararsız (çünkü `gun:` doğruyu söylüyor) ama `t:`'yi gün sanan bir okuyucu
+**sahte hassasiyet** görür. Kayıt olarak bırakıyorum, düzeltme önermiyorum —
+tek vaka üzerinden konvansiyon değiştirilmez.
+
+---
+
+## 19. SIRADAKİ TUR — kendi kuyruğum
 
 1. **1648 Hmelnitski ayaklanmasının günü** — Ukrayna/Leh kaynağından; B3'ün
-   önerisi bu tarihe bağlı. (Tur 2'de sıraya alındı, yapılmadı.)
-2. **Üçüncü takvim vakası** — aday: Bahçesaray `1681-01-11` (bizde) ↔ 3/13 Ocak
-   1681. B12'nin ölçütünü eşiğe çevirecek vaka sayısı buradan gelir.
+   önerisi bu tarihe bağlı. Üç turdur sırada, hâlâ yapılmadı.
+2. **`astarhan` 90 yıllık taşması** — kayıt hazır, renk VERİ KİMLİK'te bekliyor.
+   B4'ün ayakta kalan gövdesi.
 3. **Hacıbey (Odessa)** — Tur 2'de fark edildi, ölçülmedi: `d:OSMANLI`
    **1538-09-01**'de başlıyor ama `s:kirim` **1441-1538** ile örtüşmüyor mu,
    ve 1792-01-09 (Yaş) tarihi Rus kaynağıyla tutuyor mu?
 4. **`nogay` kimliği** — 0 pencere. TDV `kirim` *"Nogaylar'ın hana tâbiiyetleri
    gevşek"* diyor; Nogay Ordası'nın kendi sahası B11'in çözümünün parçası.
+5. **Dördüncü takvim vakası aranacak** — Bahçesaray aday olmaktan çıktı (§18).
+   B12 hâlâ 3 vakalı; eşik için yenisi gerek.
+
+---
+
+## 20. 📌 BU OTURUMUN KENDİ HATA DESENİ — üç turda üç kez
+
+Kayda geçiyorum çünkü **üçü de aynı sınıftan** ve bir sonraki turumu bağlıyor:
+
+| tur | ne yaptım | eksik boyut |
+|---|---|---|
+| 1 | Kapsamı bütün `yerlesimler*.js` üzerinden ölçtüm | **hangi dosyalar canlı** (`girdi.py`) |
+| 2 | `altinorda`nın bitişine baktım, B5'i "yarım düzeltme" ilan ettim | **sonra kim alıyor** (`kirim` zinciri) |
+| 3 | `s:` penceresine baktım, Saratov'u "yok" ilan ettim | **`kur:` alanı** |
+
+Üçünde de **ölçüm yönü doğru, boyutu eksikti** — ve üçünde de düzeltme yine
+ölçümden geldi, tartışmadan değil.
+
+⇒ **Kendi kuralım:** bir kaydı ya da bir sayıyı *"yanlış"* ilan etmeden önce
+şu iki soruyu sor: **(a)** hangi dosya kümesini okuyorum · **(b)** bu kaydın
+başka hangi alanı bu hükmü değiştirebilir. İkisi de ucuz; ikisini atlamanın
+bedeli bu turda **iki düşen iddia** oldu.
+
+📌 Ve teselli edici olan taraf: **aynı yöntem hem hatayı üretti hem yakaladı.**
+B13 (bayat blokaj) tam da düşen iddiayı ölçerken çıktı — yani yanlış iddiayı
+kovalamak, doğru bulguyu getirdi.
