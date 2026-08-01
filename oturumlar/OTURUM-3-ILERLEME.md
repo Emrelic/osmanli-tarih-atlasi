@@ -888,6 +888,105 @@ Merkez oturuma bildirildi.
 
 ---
 
+## EK OTURUM 9 — B-listesi tam ölçüm (tabi: beklerken, düzeltme yapılmadı, 2026-07-31)
+
+Koordinatör "boştaysan B-listesine bak, ölç ve bildir, düzeltme" dedi.
+`denetle_anakronizm.py`'nin B-listesindeki 17 kimlik/74 dönemin her biri
+incelendi: devletler.js'te ardıl/renk zaten var mı (o zaman yerlesimler.js
+kusuru) yoksa katalog/renk gerçekten eksik mi diye ayrıştırıldı.
+
+**Kesin yerlesimler.js kusuru (katalog tam):**
+- `ilhanli→eretna` (Konya/Niğde/Aksaray, 13,0 yıl) — `eretna` kaydı
+  `harita:"eretna"` ile zaten var, üç şehrin `d:`si güncellenmemiş.
+- `sirbistan→yugoslavya` (20 Sırp şehri, 4,9 yıl) — benim eklediğim
+  `yugoslavya` kaydı zaten renkli, 1918-1923 arası şehirlerin `d:`si
+  güncellenmemiş.
+
+**devletler.js/renkler.py tarafında gerçek boşluk:**
+- `altinorda→astarhan` (6 nokta, 54,0 yıl) — **en somut bulgu**: `astarhan`
+  kaydı var ama `harita:` alanı YOK, BOYALAR'da da "astarhan" rengi YOK.
+  Oturum 16 renk eklerse tek satırla (`harita:"astarhan"`) 6 dönem birden
+  kapanır.
+- `kirim→çerkez kıyısı` (3 nokta, 46,4 yıl) — yeni kimlik+renk gerektiriyor,
+  104 Asya kimliği listesine benzer bir boşluk.
+- `benihalid` (4 nokta, 23,1 yıl, dönemler kaydın `t:`sinden SONRA
+  1818'de başlıyor) — muhtemelen kayıtsız bir restorasyon dönemi var.
+- `bosna` (3 nokta), `gurcistan` (2 nokta, 30 Temmuz raporunda zaten vardı),
+  `bizans`/Limni-Ay Strati (2 nokta, 30 Temmuz raporunda "kesin" işaretliydi)
+  — hepsi araştırma gerektiriyor, iddia etmedim.
+
+**Zaten bilinen, düşük öncelikli:** `lehistan` (Varşova Dükalığı adayı),
+`hamid`/`mutahharten`/`saruhan`/`mentese`/`hafsi` (Fetret Devri kısa
+restorasyonlar).
+
+**D bölümü (savaslar.js, benim dosyam değil):** 5 taraf-kayıt
+`sirbistan-prensligi`/`bulgaristan-prensligi`nı 1882/1908 sonrası
+kullanıyor; ardılları (`sirbistan-kralligi`/`bulgaristan-kralligi`) zaten
+katalogda var — savaslar.js güncellenmemiş, A5'in AG.3-b bulgusuyla aynı
+sınıf.
+
+Hiçbir dosyaya dokunulmadı. `kayit:241 | harita eslesmesi olan:120` —
+değişmedi. Merkez oturuma bildirildi.
+
+---
+
+## EK OTURUM 10 — `tabi:` alanı + Mısır bitiş tarihi (2026-07-31)
+
+A5'in `oturumlar/ARABISTAN-DUZELTMELER.md` §AJ/§AK'ye yazdığı tâbiiyet
+tablosu (iki turda kendi kendini düzeltmiş, 10 satırın 6'sı hatalıydı)
+kullanılarak `tabi:` alanı uygulandı. Şema kısıtı A5'in önerisiyle koda
+gömüldü ve **tüm kayıtlar bu kısıtla doğrulandı** (node script):
+`f_kayit <= f_tabi < t_tabi <= t_kayit` — 8 kayıt, 0 ihlal.
+
+### 1) Başlık yorumuna `tabi:` alanı dokümante edildi
+Dosyanın en üstündeki alan sözlüğüne (`harita` maddesinin hemen altına)
+kısa açıklama + kaynak referansı eklendi.
+
+### 2) Mısır bitiş tarihi düzeltildi (AK.3)
+`misir-kavalali` `t:"1914-11-05"` → **`t:"1914-12-18"`**. Kronolojideki
+"son" maddesi de düzeltildi: 1914-11-05 artık ayrı bir `savas` maddesi
+(İngiltere'nin Osmanlı'ya savaş ilanı + Kıbrıs ilhakı — bu tarih doğru ama
+Mısır'ın himayeye alınmasının tarihi DEĞİL), 1914-12-18 "son" (gerçek
+himaye/sultanlık ilanı). `ozet`e başlangıç günündeki (1805-07-09 vs
+yerlesimler.js'in 1805-07-03) 6 günlük, TDV'den doğrulanmamış farkı not
+düştüm — **düzeltmedim**, A5 de hüküm vermemişti.
+
+### 3) `tabi:` eklenen 8 kayıt
+```
+kirim                   1475-06-06 → 1774-07-21   (🟢 sağlam)
+bogdan                  1456-06-01 → 1859-01-24   (🟢 A5'in iki turda düzelttiği)
+eflak                   1462-06-01 → 1859-01-24   (🟢 A5'in iki turda düzelttiği)
+misir-kavalali          1805-07-09 → 1914-12-18   (kayıtla birebir mirror)
+bulgaristan-prensligi   1878-07-13 → 1908-10-05   (kayıtla birebir mirror)
+sirbistan-prensligi     1817-01-01 → 1878-07-13   (alt-aralık, kayıt 1882'ye kadar sürüyor)
+dulkadir                1515-06-13 → 1522-01-01   (🔴 A5'in kendi işaretlediği zayıf/keyfî satır — ozet'te not var)
+erdel                   1570-01-01 → 1711-04-30   (kendi kaynağım: kaydın ozet'i zaten "Osmanlı vasalı özerk
+                                                     prenslik" diyor, tüm ömrü tâbiiyet — A5'in çektiği 1541
+                                                     başlangıcını (kaydın kendi f'sinden 29 yıl önceye düşüyordu)
+                                                     KULLANMADIM, kendi kaydımın f/t'sini aynaladım)
+```
+
+### 4) İki satır BİLEREK dışarıda bırakıldı (benim kararım, A5 "VERİ DEVLET karar versin" demişti)
+- **`suud-birinci`**: tabloya girmedi. A5'in kendi itirazına katılıyorum —
+  I. Suûdî Devleti Osmanlı'ya tâbi değil, Haremeyn'i Osmanlı'dan alan bir
+  **rakip/âsi** devletti (CLAUDE.md §3 de 1744-öncesi Necid'i Osmanlı
+  toprağı olarak modellemiyor). Etkisi: `1815-01-20` Bisel Muharebesi
+  savaslar.js'in ölçütünde artık `dis-savas` çıkar (önceden bu satır
+  yüzünden `ic-savas` çıkıyordu) — bunu savaslar.js'e ben yazmıyorum,
+  yalnız devletler.js tarafında `tabi:` eklemedim.
+- **`yemen-zeydi`**: A5 zaten tablodan çekmişti (Zeydîler tâbi değil
+  Osmanlı'nın Yemen'deki rakibiydi), katılıyorum, eklemedim.
+
+**Doğrulama:**
+```
+kayit: 241 | harita eslesmesi olan: 120 | tabi alani olan: 8 | sema ihlali: 0
+```
+`data/devletler.js` dışında hiçbir dosyaya dokunulmadı. Commit/push
+yapılmadı. Merkez oturuma bildirildi — A5'in betiğinin tabloyu artık
+dosyadan (bu 8 kayıttan) okuması gerekiyor.
+
+---
+
 ## EK OTURUM 5 — `abdulkadir` yeni kayıt + `erdel` renk ölçümü (2026-07-31)
 
 Merkez oturum önceki oturumda bulduğum iki boşluk için görev gönderdi: (1)

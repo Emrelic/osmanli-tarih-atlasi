@@ -28,6 +28,14 @@
 //   baskent   : başkent(ler), değiştiyse " → " ile
 //   harita    : arac/uret_petek.py'deki BOYALAR sözlüğündeki karşılığı (harita
 //               boyaması için). Karşılığı yoksa alan hiç yazılmaz.
+//   tabi      : [{f,t,ust}] — ALT-ARALIK, kaydın kendi f/t'sinin dışına
+//               taşamaz: f <= tabi.f < tabi.t <= t. Devletin ömrü ile bir
+//               üst güce (ör. Osmanlı) tâbi olduğu dönem AYNI ŞEY DEĞİLDİR
+//               (ör. sirbistan-prensligi 1882'ye kadar yaşıyor ama tâbiiyeti
+//               1878 Berlin'de bitiyor — kalan 4 yıl bağımsız prenslik).
+//               savaslar.js'in ic-savas/dis-savas ölçütü bunu okur. Karşılığı
+//               yoksa alan hiç yazılmaz. Kaynak: oturumlar/ARABISTAN-
+//               DUZELTMELER.md §AJ/§AK (ARAŞTIRMA ARABİSTAN'ın tablosu).
 //   ozet      : 1-2 cümlelik tanım
 //   kronoloji : [{ t, tur, b }] — tur: kurulus | hukumdar | toprak-kazanc |
 //               toprak-kayip | savas | antlasma | bolunme | birlesme |
@@ -139,6 +147,7 @@ window.DEVLETLER = [
 
 { id:"kirim", ad:"Kırım Hanlığı", tur:"hanlik", bolge:"sibirya-bozkir",
   f:"1441-01-01", t:"1783-04-08", baskent:"Bahçesaray", harita:"kirim",
+  tabi:[{f:"1475-06-06", t:"1774-07-21", ust:"osmanli"}],
   ozet:"Osmanlı'nın en uzun süreli ve en yakın vasalı; 1475'ten itibaren Osmanlı himayesinde, 1783'te Rusya tarafından ilhak edildi.",
   kronoloji:[
     { t:"1441-01-01", tur:"kurulus", b:"Hacı Giray, Altın Orda'dan bağımsızlığını ilan etti" },
@@ -300,7 +309,8 @@ window.DEVLETLER = [
 },
 { id:"dulkadir", ad:"Dulkadiroğulları", tur:"beylik", bolge:"anadolu",
   f:"1337-01-01", t:"1522-01-01", baskent:"Elbistan / Maraş", harita:"dulkadir",
-  ozet:"Osmanlı-Memlûk arasında tampon beylik; Yavuz döneminde kesin ilhak edildi.",
+  tabi:[{f:"1515-06-13", t:"1522-01-01", ust:"osmanli"}],
+  ozet:"Osmanlı-Memlûk arasında tampon beylik; Yavuz döneminde kesin ilhak edildi. tabi: başlangıcı Turnadağ Zaferi'nin (Osmanlı'ya tâbi oluşun) kendi günü — A5'in kendi işaretlediği gibi keyfî bir sınır, bitiş de yer tutucu (bkz. ARABISTAN-DUZELTMELER.md §AJ.2/§AJ.4, en zayıf satır).",
   kronoloji:[
     { t:"1337-01-01", tur:"kurulus", b:"Zeyneddin Karaca Bey tarafından kuruldu" },
     { t:"1479-01-01", tur:"hukumdar", b:"Alâüddevle Bozkurt Bey tahta çıktı, Memlûk-Osmanlı arasında dengeleyici siyaset izledi" },
@@ -529,6 +539,7 @@ window.DEVLETLER = [
 },
 { id:"eflak", ad:"Eflak Voyvodalığı (Wallachia)", tur:"prenslik", bolge:"balkanlar",
   f:"1330-01-01", t:"1859-01-24", baskent:"Bükreş", harita:"eflak",
+  tabi:[{f:"1462-06-01", t:"1859-01-24", ust:"osmanli"}],
   ozet:"Tuna'nın kuzeyinde Osmanlı'ya vasal kalan voyvodalık; Boğdan ile birleşerek Romanya'nın çekirdeğini oluşturdu.",
   kronoloji:[
     { t:"1330-11-09", tur:"kurulus", b:"Basarab I bağımsızlığını kazandı" },
@@ -540,6 +551,7 @@ window.DEVLETLER = [
 },
 { id:"bogdan", ad:"Boğdan Voyvodalığı (Moldavia)", tur:"prenslik", bolge:"balkanlar",
   f:"1359-01-01", t:"1859-01-24", baskent:"Suceava → Iaşi", harita:"bogdan",
+  tabi:[{f:"1456-06-01", t:"1859-01-24", ust:"osmanli"}],
   ozet:"Osmanlı'ya vasal kuzey Tuna voyvodalığı; Eflak'la birleşerek Romanya'nın çekirdeğini oluşturdu.",
   kronoloji:[
     { t:"1359-01-01", tur:"kurulus", b:"Bogdan I tarafından kuruldu" },
@@ -552,7 +564,8 @@ window.DEVLETLER = [
 },
 { id:"erdel", ad:"Erdel Prensliği (Transilvanya)", tur:"prenslik", bolge:"orta-avrupa",
   f:"1570-01-01", t:"1711-04-30", baskent:"Gyulafehérvár",
-  ozet:"Mohaç sonrası Macaristan'ın üçe bölünmesiyle doğan, Osmanlı vasalı özerk prenslik.",
+  tabi:[{f:"1570-01-01", t:"1711-04-30", ust:"osmanli"}],
+  ozet:"Mohaç sonrası Macaristan'ın üçe bölünmesiyle doğan, Osmanlı vasalı özerk prenslik. Tâbiiyeti kaydın kendi ömrünü aynalıyor (kayıt zaten Speyer Antlaşması'yla başlayıp Habsburg'a bağlanmayla bitiyor, arada özerk vasallık dışında bir dönem yok — bkz. oturumlar/ARABISTAN-DUZELTMELER.md §AJ/§AK, A5'in önerdiği 1541 başlangıcı kaydın kendi f:'sinden 29 yıl önceye düştüğü için burada kullanılmadı).",
   kronoloji:[
     { t:"1570-08-16", tur:"kurulus", b:"Speyer Antlaşması ile bağımsız prenslik statüsü kazandı" },
     { t:"1571-05-25", tur:"hukumdar", b:"Báthory István voyvoda oldu (1576'da Polonya kralı da seçildi)" },
@@ -732,14 +745,16 @@ window.DEVLETLER = [
 // ===================== TIER 7 — MISIR MESELESİ (çapraz referans) =====================
 
 { id:"misir-kavalali", ad:"Mısır Kavalalı Hanedanı", tur:"hanedanlik", bolge:"misir-sudan",
-  f:"1805-07-09", t:"1914-11-05", baskent:"Kahire",
-  ozet:"Hukuken Osmanlı toprağı sayılan ama Kavalalı hanedanınca özerk yönetilen vilayet; ayrıntılı savaş/antlaşma kronolojisi data/olaylar_ek4.js ve data/savaslar.js (seri: misir, vehhabi) dosyalarında.",
+  f:"1805-07-09", t:"1914-12-18", baskent:"Kahire",
+  tabi:[{f:"1805-07-09", t:"1914-12-18", ust:"osmanli"}],
+  ozet:"Hukuken Osmanlı toprağı sayılan ama Kavalalı hanedanınca özerk yönetilen vilayet; ayrıntılı savaş/antlaşma kronolojisi data/olaylar_ek4.js ve data/savaslar.js (seri: misir, vehhabi) dosyalarında. Başlangıç günü (1805-07-09) yerlesimler.js'teki 1805-07-03 ile 6 gün farklı, TDV'den ayrıca doğrulanmadı (bkz. oturumlar/ARABISTAN-DUZELTMELER.md §AK.3).",
   kronoloji:[
     { t:"1805-07-09", tur:"kurulus", b:"Kavalalı Mehmed Ali, Mısır valisi ilan edildi" },
     { t:"1811-01-01", tur:"savas", b:"Vehhâbî seferleri başladı (bkz. [[suud-birinci]])" },
     { t:"1831-10-31", tur:"savas", b:"Birinci Mısır Krizi — Suriye'nin işgali (bkz. seri: misir)" },
     { t:"1841-06-01", tur:"antlasma", b:"Londra çözümü — Mısır'da irsî valilik tanındı, Suriye/Hicaz iade edildi" },
-    { t:"1914-11-05", tur:"son", b:"İngiltere, Mısır'ı resmen protektora ilan etti — nominal Osmanlı bağı sona erdi" }
+    { t:"1914-11-05", tur:"savas", b:"İngiltere Osmanlı'ya savaş ilan etti, Kıbrıs'ı ilhak etti (Mısır'daki nominal Osmanlı bağı henüz bitmedi)" },
+    { t:"1914-12-18", tur:"son", b:"İngiltere Mısır'ı resmen himayesine aldı, Hidivlik yerine sultanlık ilan edildi — nominal Osmanlı bağı sona erdi" }
   ]
 },
 
@@ -747,6 +762,7 @@ window.DEVLETLER = [
 
 { id:"sirbistan-prensligi", ad:"Sırbistan Prensliği", tur:"prenslik", bolge:"balkanlar",
   f:"1804-02-14", t:"1882-03-06", baskent:"Belgrad", harita:"sirbistan",
+  tabi:[{f:"1817-01-01", t:"1878-07-13", ust:"osmanli"}],
   ozet:"İki büyük isyanla özerkliğe, sonra bağımsızlığa ulaşan Balkan devleti.",
   kronoloji:[
     { t:"1804-02-14", tur:"isyan", b:"Birinci Sırp İsyanı (Kara Yorgi)" },
@@ -784,6 +800,7 @@ window.DEVLETLER = [
 },
 { id:"bulgaristan-prensligi", ad:"Bulgaristan Prensliği", tur:"prenslik", bolge:"balkanlar",
   f:"1878-07-13", t:"1908-10-05", baskent:"Sofya", harita:"bulgaristan",
+  tabi:[{f:"1878-07-13", t:"1908-10-05", ust:"osmanli"}],
   ozet:"93 Harbi sonrası Berlin Kongresi'yle özerk prenslik olarak doğdu, 1908'de bağımsızlığını ilan etti.",
   kronoloji:[
     { t:"1878-07-13", tur:"kurulus", b:"Berlin Kongresi ile özerk prenslik statüsü kazandı" },
