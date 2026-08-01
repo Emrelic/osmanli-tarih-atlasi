@@ -293,3 +293,42 @@ eksikliği değil: **uygulamanın kapsamı ölçülmüyor.**
 ⇒ **Araç önerisi (DENETÇİ'ye):** bir `f`/`t` tarihi veride *k* noktada geçiyorsa,
 aynı tarihin *"neden bu k nokta ve şu komşusu değil"* sorusu sorulabilir. Bugünkü
 üç vakanın üçü de böyle bir taramayla **yazıldıkları gün** yakalanırdı.
+
+---
+
+# TUR 4 — Adriyatik (ÇAPRAZ BATI'nın devri)
+
+> Ölçüm commit'i: `63ff8b9`.
+
+## 12. TESLİM
+
+| kod | konu | hüküm | güç (`§73`) |
+|---|---|---|---|
+| **D-1** | 1918'de kırılmayan Dalmaçya adası **8 değil 10** | 🔴 ÇELİŞİYOR | KESİN · 49,6 yıl-nokta |
+| **D-2a** | dokuz adanın ardılı `yugoslavya 1918-11-11` | 🟢 ÇÖZÜLDÜ | **KESİN** |
+| **D-2b** | Cres (Cherso) ardılı `italya` | 🟡 ek kaynak gerekli | **DESEN** |
+| **D-3** | Mliyet 1345'ten Ragusa'nın mı | 🟡 DOĞRULANAMADI | **ZAYIF** |
+
+## 13. 🔴 BATI'NIN BULGUSU DA §80'E YAKALANDI — ve bu ilginç
+
+BATI sekiz kayıt devretti. Kendi taramamı koşturdum: **on.** `Pag (Pago)` ve
+`Uzunada (Dugi Otok)` aynı kusuru taşıyor, listede yoktu.
+
+📌 Yani **§80 deseninin kendisi, o deseni bildiren bulguda tekrar etti.** Yöntem
+doğruydu, kapsam dardı. Bu bir eleştiri değil ölçüm: desen o kadar sistematik ki
+**onu arayan taramanın kendisi de eksik kapsıyor.**
+⇒ Bu, `§80` araç önerisinin gerekçesini güçlendiriyor: elle eleme kapsamı
+kaçırıyor, **taramanın kendisi araç olmalı.**
+
+## 14. BATI'NIN YÖNTEM UYARISI UYGULANDI
+
+BATI: *"Ölçüt eleme için iyi, teşhis için değil — çıktısını 'hata' diye değil
+'bakılacak liste' diye oku, yoksa 15 sahte bulgu üretir."*
+
+⇒ D-1'i **liste** olarak aldım, on adayın onunu da **tek tek** kaydından
+doğruladım (hepsi iki dönemli, hepsi aynı iki tarih). Ardılı ise ayrı
+kaynaklandım ve **ada ada aynı çıkmadı** — Cres ötekilerden ayrıldı. Yani
+BATI'nın *"tek ardıl yazmak yanlış olur"* çekincesi **ölçümle doğrulandı.**
+
+⚠️ Ve o çekince olmasaydı bugün **on adaya birden `yugoslavya`** yazılması
+önerilebilirdi; Cres yanlış olurdu. **Hüküm vermemek burada doğru hamleydi.**

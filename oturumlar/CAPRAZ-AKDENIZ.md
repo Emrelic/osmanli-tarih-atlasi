@@ -601,6 +601,107 @@ için yeter.
 
 ---
 
+---
+---
+
+# TUR 4 — Adriyatik: ÇAPRAZ BATI'nın devrettiği kayıtlar
+
+> Ölçüm commit'i: `63ff8b9`. BATI sekiz kayıt devretti (*"kusur `KESİN`, ardıl
+> kaynak istiyor, adres sende"*). **Ardılları kaynaklandım ve listeyi genişlettim.**
+
+## 🔴 D-1 · SEKİZ DEĞİL **ON** KAYIT — ikisini BATI'nın listesi kaçırmış
+
+Deseni kendi ölçümümle taradım: `s:avusturya` penceresi `1918-11-11`den **sonra**
+devam eden bütün noktalar.
+
+```
+1918-11-11'de DOĞRU kırılan avusturya noktası:  43
+kırılmayan Dalmaçya adası:                      10   ← BATI sekiz saymıştı
+
+  Krk (Veglia) · Cres (Cherso) · Rab (Arbe) · Brakya (Brač) · Hvar (Lesina)
+  Korçula (Kurzola) · Vis (Lissa) · Mliyet (Mljet)          ← BATI'nın sekizi
+  Pag (Pago) · Uzunada (Dugi Otok)                          ← + BENİM İKİM
+```
+Onunun da kaydı **birebir aynı**: iki dönem, `s:venedik 1281→1797-10-17` +
+`s:avusturya 1797-10-17→1923-10-29`. **Pag ve Uzunada aynı kusuru taşıyor.**
+
+📌 Bu, D-1'in kendisinden çok **§80 deseninin** teyidi: bir olay noktalarının
+hepsine değil birkaçına yazılıyor — ve şimdi **bulgunun kendisi** de aynı şekilde
+eksik çıktı. BATI'nın yöntemi doğruydu, kapsamı dar kaldı.
+
+⇒ **Fazlalık: 1.813 gün × 10 nokta = 49,6 yıl-nokta hayalet Avusturya.**
+
+## 🟢 D-2 · ARDIL KAYNAKLANDI — ve ikiye ayrılıyor
+
+Rapallo Antlaşması, **12 Kasım 1920**. `CLAUDE.md §4`: Avrupa'nın iç tarihi için
+standart akademik referans yeterli; iki kaynak okundu.
+
+> *"Italy received Zara, the islands of **Cherso, Lussino, Lagosta and Pelagosa**."*
+> *"the other islands and Dalmatia remained in the new kingdom of Yugoslavia."*
+
+| nokta | ardıl | güç (`§73`) |
+|---|---|---|
+| Krk · Rab · Pag · Uzunada · Brakya · Hvar · Korçula · Vis · Mliyet | **yugoslavya** | **KESİN** |
+| **Cres (Cherso)** | **italya** | **DESEN** — bir kaynak adıyla sayıyor, öteki "İstria" formülüyle örtük kapsıyor |
+
+⚠️ **Cres'i `KESİN` yazmıyorum.** Britannica 403 döndü, elimde bir bölgesel
+tarih sitesi + bir genel özet var ve **genel özet Cherso'yu adıyla saymıyor** —
+yalnız Lastovo/Palagruža/Zadar diyor. İki kaynak **çelişmiyor** ama biri ötekini
+kapsamıyor. `§73`: yama yalnız `KESİN`e dayanır ⇒ **Cres için ek kaynak gerekiyor.**
+
+### 🟢 VE TARİH SORUSU: 1918-11-11 mi, 1920-11-12 mi?
+Veride **emsal tek tip ve altı kayıtta aynı**:
+```
+Zagreb · Ljubljana · Ösek · Varadin · Baç · Dubrovnik
+    s:yugoslavya  1918-11-11 → 1923-10-29
+```
+⇒ Ev kuralı **1918-11-11**, ve `§3.1 ⓪` (*"o gün orayı FİİLEN kim yönetiyordu"*)
+bunu destekliyor: Avusturya-Macaristan o gün dağıldı. Rapallo **1920-11-12**
+sınırı *tanıyan* antlaşmadır, kuran değil — `§74`: ayrı sorular.
+⇒ **Dokuz ada için `1918-11-11 → yugoslavya`**, emsale birebir uyar, **yeni renk
+gerekmez** (`yugoslavya` zaten boyalı).
+
+⚠️ Cres için aynı tarih **de facto** doğrudur (İtalyan işgali Kasım 1918'de
+başladı) ama **de jure** 1920-11-12'dir. Şema bu ayrımı taşıyor (`isg:`). Karar
+koordinatörün; ben iki tarihi de veriyorum, **birini ötekinin yerine koymuyorum.**
+
+---
+
+## 🟡 D-3 · MLİYET — BATI'nın şüphesi güçlendi ama **KANITLANMADI**
+
+BATI: *"Mljet 1345'ten itibaren Ragusa Cumhuriyeti'nin adasıydı, Venedik'in
+değil; TDV `dubrovnik` hiç değinmiyor, hükmüm `DOĞRULANAMADI`."*
+
+### ① BİZDE
+```
+Mliyet (Mljet)   s:venedik 1281-01-01 → 1797-10-17   (452 yıl tek pencere)
+```
+### ② BULABİLDİĞİM
+Mljet'i Ragusa'nın **1345**'te aldığı, Benedikten keşişlerin o yıl idareden
+çekildiği, **1410**'da tam denetimin kurulduğu; ve Venedik'in Dalmaçya
+iddialarından **1358 Zadar Antlaşması** ile çekildiği.
+
+### ③ HÜKÜM — **ZAYIF** (`§73`), yama dayanağı DEĞİL
+⚠️ **Kaynaklarım Vikipedi türevi ve turizm siteleri.** `CLAUDE.md §4`: *"Vikipedi
+hiçbir zaman tek dayanak değildir."* Bulduğum şey deseni **güçlendiriyor** ama
+452 yıllık bir kimlik değişikliği için gereken kanıt bu değil.
+
+🔴 **AMA SONUCU BÜYÜK, O YÜZDEN ADINI KOYUYORUM:** Mljet Ragusa'nınsa,
+**Dubrovnik'in kendi kaydını izlemesi gerekir** — ve o kayıt bizde şöyle:
+```
+Dubrovnik  v: 1458-01-01 → 1806-05-27  k:"Dubrovnik Cumhuriyeti (haraçgüzâr)"
+```
+⇒ Mljet de **1458-1806 arası Osmanlı haraçgüzârı** olurdu. Yani bu doğrulanırsa
+**A-1 ile aynı sınıfta ikinci vaka**: `§3.5.1`'in tersi — fazla görünen yabancı,
+**eksik olan bizim kendi tâbimiz**, bu sefer **348 yıl.**
+
+⇒ **Ne gerekiyor:** Ragusa arşiv tarihyazımı ya da `dubrovnik` dışında bir TDV
+maddesi. **Bu turda bulamadım ve tahmin etmiyorum.**
+📌 BATI'nın ikinci uyarısı da burada geçerli: Mljet'in **1918 ardılı** ile
+**1281-1797 kimliği** iki ayrı sorudur; D-2 birincisini çözdü, D-3 ikincisi.
+
+---
+
 ## Sıradaki (aksi söylenmezse)
 
 1. **Ada ada gün kaynaklama** — 1798 sonbaharı Osmanlı-Rus seferi: Çuha · Zaklise ·
