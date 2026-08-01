@@ -120,3 +120,60 @@ koordinatörün `abd`/`abdulkadir` vakasında uyardığı şeyin aynısı.
 
 ⇒ **Yazmıyorum.** Koordinatörden kategori kararı bekliyor.
 
+---
+
+### 🔴 `aragon` + `kastilya` — YAZILMADI, emsal buraya TAŞINMIYOR
+
+Bu kalem `sirbistan`/`merini` sınıfında **değil** ve sebebi tek kelime:
+**eşzamanlılar.**
+```
+kastilya   1230-09-23 → 1479-01-20   harita YOK
+aragon     1164-01-01 → 1479-01-20   harita YOK
+navarra     824-01-01 → 1512-07-25   harita YOK
+ispanya    1479-01-20 → 1923-10-29   harita:"ispanya"
+granada    1238-01-01 → 1492-01-02   harita:"granada"
+portekiz   1139-07-25 → 1923-10-29   harita:"portekiz"
+```
+İkisi de tam `ispanya`'nın başladığı gün bitiyor — yani *"ardışık halef"*
+kalıbı ilk bakışta uyuyor. **Uymuyor:** `sirbistan`/`merini`'de kayıtlar
+**arka arkaya**ydı, hiç örtüşmüyorlardı. Burada Kastilya ile Aragon
+**249 yıl boyunca yan yana** yaşadı. İkisine de `harita:"ispanya"` yazmak,
+İspanya'yı **var olmadan 249 yıl önce** haritaya koyar ve iki tacı tek ülke
+gösterir. `§78`: *mevcut bir kayda benzemek doğru olmanın delili değildir.*
+⇒ **İki ayrı yeni renk gerekiyor** — ve `navarra` da boyasız, yani İber
+yarımadası tutarlı olsun diye aslında **üç.**
+
+### 📌 VE KURAL ASLINDA FARKLI — `renkler.py` başlığından
+> *"Renk KİMLİK taşımaz, **AYIRMA** işi görür… bir rengi birden çok devletin
+> paylaşması sorun değildir — yeter ki o devletler tarih boyunca **hiç komşu
+> olmasın**."* · *"hex tekrarı başlı başına hata DEĞİLDİR, **komşuluk**
+> hatadır."*
+
+⇒ Yeni renk "icat etmek" şart değil; `aragon`/`kastilya` **uzak** bir devletin
+hex'ini paylaşabilir. Ama bunu söyleyebilmek için **gerçek Voronoi
+komşuluğunu** bilmek gerekiyor.
+
+### ⛔ VE ÖLÇÜM ARACI YOK
+Görev tanımı *"`renkler.py`'de zaten bir mesafe kontrolü var, koştur"* diyor.
+**Yok.** Dosyada yalnız `BOYALAR` sözlüğü ve `_opaklik_dogrula()` var;
+ΔE/komşuluk hesaplayan hiçbir fonksiyon yok. `arac/` altındaki 12 `denetle_*`
+aracının hiçbiri de renk mesafesi ölçmüyor (`denetle_gorunurluk.py` **alan**
+değişimi ölçüyor, renk değil). Yorumlardaki ΔE sayıları Oturum 16'nın
+tek seferlik DSATUR koşusundan elle taşınmış.
+⇒ Renk seçmek için önce **ölçüm aracının yazılması** gerekiyor. Bu bir kimlik
+kalemi değil, ayrı bir iş.
+
+### ⚠️ AYRICA: `renkler.py:355` BAYAT YORUM — ölçüm yanlış kalibre ettirir
+```
+satır 355-356:  "ΔE ... BİNDİRİLMİŞ (dolgu %30, bej altlık); eşik 12,0"
+                 kazak-hanligi ΔE 14,9 · nogay ΔE 21,2 …
+```
+Ama **aynı dosyanın başlığı (satır 41-47)** diyor ki: *"%30 bir kez bayatladı
+ve bütün ölçümleri bozdu; `app.js:559` gerçeği **0,44**"* — ve yanlış
+parametreyle ölçülenler olarak **tam bu iki kimliği** sayıyor
+(`macaristan · kavalali · nogay · kazak-hanligi`).
+⇒ Dosya kendi kendisiyle çelişiyor: başlık "0,44, %30 yanlıştı" derken, 300
+satır aşağıdaki yorum hâlâ "%30" diyor. **Bir sonraki ölçen kişi yanlış
+sabitle türetir.** Sayıları ben düzeltmiyorum (ölçmedim, uyduramam); yalnız
+işaret ediyorum.
+
