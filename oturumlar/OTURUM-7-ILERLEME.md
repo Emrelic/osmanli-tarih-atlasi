@@ -548,3 +548,12 @@ Silifke maddesi eklenince Değişmez 2 **3 açık → 0** olmalı (bu turun baş
 zaten Hicaz'ın 3'ü kapanmıştı, Silifke depodaki son tekildi). İki madde-tarih
 hizalaması Değişmez 2'yi etkilemiyor (ikisi de zaten "maddeli" görünüyordu,
 yanlış maddeyle) — yalnız A5'in bulduğu yanlış-eşleşme sınıfını kapatıyor.
+
+### ⚠️ Sonradan not — bu üçü YAMACI'ya değil, doğrudan uygulandı
+
+Koordinatör bu üç işi ilerleme dosyasında bulunca ("yazıldı ama veriye
+girmedi") doğrudan `data/olaylar.js`, `data/olaylar_ek4.js`,
+`data/olaylar_ek5.js`'e uygulamamı istedi — sıradaki YAMACI adımını
+beklemeden. Commit `f0093da`, yalnız bu üç dosya, `py arac/denetle.py` sonrası
+`SONUÇ: temiz` (Değişmez 2: 0 açık). Normalde bu dosyalar bende değil; bu
+istisna koordinatörün açık talimatıyla ve depo kırmızıyken yapıldı.
