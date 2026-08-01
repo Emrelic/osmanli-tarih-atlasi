@@ -30,7 +30,8 @@ bayat belge, bir günde beşinci vaka.
 | **ÇAPRAZ DOĞU** | **İran** (İlhanlı → Timurlu → Karakoyunlu → Akkoyunlu → Safevî → **Afşar → Zend → Kaçar**) + **Memlük** + **Fransa** | iran 317/169 · safevi 197/162 · memluk 107/101 · **fransa 99/98** |
 | **ÇAPRAZ KUZEY** | **Rusya + Lehistan** | rusya 117/102 · **lehistan 23/16** ← en zayıf |
 | **ÇAPRAZ BATI** | **Avusturya + Macaristan** | avusturya 85/68 · macaristan 45/31 |
-| **ÇAPRAZ AKDENİZ** | **Venedik** + **Kuzey Afrika** (292 yerleşim) | venedik 80/74 |
+| **ÇAPRAZ AKDENİZ** | **Venedik** + İyon/Adriyatik zinciri + **Suriye/Lübnan** (A-4) | venedik 80/74 |
+| **ÇAPRAZ GÜNEY** | **KUZEY AFRİKA** — Mağrib · Tunus · Trablusgarp · ocaklıklar · 1830-1911 dalgası | **151 nokta** (lon −18…26 / lat 18…38) |
 
 🔴 **SAYILAR 1 Ağustos 16:05'te YENİDEN ÖLÇÜLDÜ — öncekiler YANLIŞTI.**
 Eski tablo `fransa 178/149` diyordu; canlı girdide **99/98.** Fark, sayının
@@ -51,10 +52,28 @@ kaynaklandırdı** (`cca1861`, 172,5 yıl, Gascon Rolls Project). Yapılmış i�
 çöpe atmamak için orada bırakıldı. **Plan B'nin Venedik+Fransa eşleştirmesi bu
 noktada uygulanmadı** — AKDENİZ yalnız Venedik'i aldı.
 
-📌 **Kuzey Afrika artık atanmış** (ÇAPRAZ AKDENİZ). Gerekçe: Cezayir/Tunus
-ocaklıkları hem Venedik hem Fransa muhatabı, 1830 işgali aynı eksende.
-⚠️ `ARAŞTIRMA ARAP AFRİKA` oturumuyla çakışma ihtimali var; çakışırsa
-koordinatör ayırır.
+🔴 **ÇAPRAZ GÜNEY 1 Ağustos 16:25'te eklendi — ve düşürülmesi KOORDİNATÖRÜN
+HATASIYDI.** 10:25'te beş oturumluk plan onaylanmıştı; 15:56'da `§1` plan B'ye
+çevrilirken tablo *"şu an kim çalışıyor"* diye dolduruldu, *"kim çalışacak"*
+diye değil ⇒ **GÜNEY sessizce düştü.** Belgeyi düzeltirken **yeni bir bayatlık
+üretildi** — `§1`'in kendi uyarısının altıncı vakası.
+
+📌 **Kesit sınırı COĞRAFYA, kimlik değil.** 10:25'teki *"Fransa 1798-1923 →
+GÜNEY"* fikri **terk edildi**; GÜNEY ölçtü ve o kesitin saf Afrika olmadığını
+gösterdi (Şam · Halep · Dubrovnik · Malta · Antep içeriyor). Bir devleti
+**tarihle** bölmek, coğrafyayla bölmekten kırılgan.
+```
+fransa DEVLET olarak        → ÇAPRAZ DOĞU
+Kuzey Afrika'daki fransa    → ÇAPRAZ GÜNEY   (coğrafya gereği)
+Suriye/Lübnan'daki fransa   → ÇAPRAZ AKDENİZ (A-4 onların bulgusu)
+```
+⚠️ **Mısır kasten üçünün de dışında** — `isg:` deseni (1798-1801 · 1882-1914)
+`ARAŞTIRMA ARAP AFRİKA`'da. GÜNEY'in sınırı Trablusgarp'ta biter.
+
+⚠️ **`292` sayısı koordinatörün aktarmasıydı ve DOĞRULANMADI.** ÇAPRAZ GÜNEY
+canlı tabanda ölçtü: **151 nokta.** Aynı sınıf hata `fransa 178/149 → 99/98`
+ve `iran 326 → 317`'de de çıktı — **merge edilmemiş dosyaları sayan bir
+taramadan** geliyor.
 
 ⚠️ **Sınır boylam değil, DEVLET.** Bir olay birden çok oturumu ilgilendiriyorsa (ör. 1699 Karlofça: Avusturya + Venedik + Lehistan + Rusya) **ilgili oturumlar ayrı ayrı bakar** ve sonuçları karşılaştırılır. Bu bir çakışma değil, **kasıtlı örtüşme** — dört ayrı kaynağın aynı antlaşmayı nasıl anlattığı bilginin kendisidir.
 
