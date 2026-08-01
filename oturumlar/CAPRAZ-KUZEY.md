@@ -1269,7 +1269,114 @@ B14 ölçütüne göre **güvenilir.**
 
 ---
 
-## 42. SIRADAKİ TUR — kendi kuyruğum
+---
+---
+
+# TUR 9 — Helsinki boşluğu: iki yanlış iz elendi, soru daraldı
+
+DENETÇİ'nin `ARAŞTIRMA` sınıfındaki beş boşluktan biri bana verildi:
+```
+kimlik 25.0,61.0   1566-04-14 → 1623-11-28   70.637 km²   yakınındaki nokta: Helsinki
+```
+**Sebebini bulamadım.** Ama iki yanlış izi eledim ve soruyu daralttım — ve bu,
+`§71`'in mantığı: *kontrolün değeri bulduğunda değil, yanlış teşhisi
+önlediğinde.*
+
+---
+
+## 43. ❌ YANLIŞ İZ 1 — "Helsinki boşluğu" **Helsinki'de değil**
+
+`ARAŞTIRMA` tablosu boşluğu *"yakınındaki nokta: Helsinki"* diye anıyor ve bu
+ad, işi Helsinki'nin kaydında aramaya yöneltiyor. **Orada bir şey yok:**
+```
+Helsinki  (60.17, 24.94)  kur:"1550-06-12"
+   s: isvec       1281-01-01 → 1809-09-17     ← 1566-1623 boyunca KESİNTİSİZ SAHİPLİ
+   s: rusya       1809-09-17 → 1917-12-06
+   s: finlandiya  1917-12-06 → 1923-10-29
+```
+Kayıt **kusursuz**: `kur:` var, sahiplik kesintisiz, boşluk yok.
+
+Boşluğun gerçek yeri **`61.0N, 25.0D`** — Helsinki'ye **92 km**. Yani iç
+Finlandiya (Häme / Päijänne gölleri bölgesi), Helsinki'nin kendisi değil.
+
+⚠️ **Ad yanıltıyor.** `"yakınındaki nokta"` bir **konum etiketi**, bir **sebep
+işareti değil** — ama tabloda sebep sütununun yanında durunca öyle okunuyor.
+
+---
+
+## 44. ❌ YANLIŞ İZ 2 — 1566 ve 1623'ün Baltık'la **hiç ilgisi yok**
+
+Aralığın uçlarını aradım. İkisi de bu coğrafyaya ait değil:
+```
+1566-04-14   Sakız · İpsara      (Ege — Cenevizlilerden Osmanlı'ya)
+1623-11-28   Bağdat · Kerkük · Şehrizor · Necef … 22 nokta  (Irak — Safevî işgali)
+```
+⇒ Bunlar **küresel epok sınırları.** Motor bütün haritayı bu günlerde yeniden
+kesiyor; boşluğun aralığı, boşluğa ait bir olaydan değil **dilimlemeden** doğuyor.
+
+> 🔴 **Uyarı — buna bakacak oturuma:** *"1566'da Finlandiya'da ne oldu"* diye
+> aramak **boşa gider.** O tarihte Finlandiya'da bir şey olmadı; tarih, Sakız'ın
+> fethinden geliyor.
+
+📌 Bu, takvim kuralının yaptığı işin aynısı: **bir yanlış teşhisi baştan
+önlemek.** Ben de bu izi bir tur boyunca kovalayacaktım.
+
+---
+
+## 45. 🟡 GEÇERLİ KALAN İZ — nokta seyrekliği, ve nokta **merge dışı partide**
+
+Boşluğun çevresini iki veri kümesinde ölçtüm:
+
+| küme | boşluğa en yakın nokta | uzaklık |
+|---|---|---|
+| **CANLI** (`yerlesimler.js` + `afrika`) | Helsinki | **92 km** |
+| | St. Petersburg | 315 km |
+| | Novgorod | 446 km |
+| **MERGE DIŞI** (`yerlesimler_avrupa.js`) | **Hämeenlinna** | **29 km** ← üç kat yakın |
+| | Turku (Åbo) | 161 km |
+| | Viipuri (Vyborg) | 205 km |
+
+⇒ Boşluğu dolduracak nokta **zaten yazılmış**, sadece **canlı değil.**
+
+### Ve bu, envanterin kendi sınıflandırmasıyla çelişiyor
+DENETÇİ'nin `NOKTA YOK` sınıfının tarifi: *"o bölgede yerleşim noktası yok"* —
+**boşluğun durumu tam bu.** Ama `ARAŞTIRMA`ya konmuş. Sebebini tahmin
+ediyorum ve **tahmin olduğunu da söylüyorum**: envanter `NOKTA YOK` sınıfını
+*"aynı yerler **bütün zaman boyunca** boş"* diye tarif ediyor — yani
+**zamandan bağımsız** olmasını bekliyor. Bu boşluk ise **zamana bağlı**
+(1566-1623), o yüzden imzaya uymamış.
+
+> **⇒ ASIL SORU BU, ve benim cevaplayamayacağım yerde:**
+> **Nokta seyrekliği zamandan bağımsızsa, boşluk neden yalnız 1566-1623 arası
+> var?** Helsinki 1550'de kuruluyor, boşluk 16 yıl sonra başlıyor ve 1623'te
+> kapanıyor — ikisi de Helsinki'nin kaydındaki hiçbir şeye denk gelmiyor.
+
+⚠️ **Cevap motorda**, ve `uret_petek.py` benim dosyam değil; üstelik üretim
+koşuyor. **Ölçmedim, tahmin de yürütmüyorum.** MOTOR'a / DENETÇİ'ye net soru:
+*bir alanın sahipsizliği, hiçbir noktanın kaydı değişmediği hâlde nasıl
+zamana bağlı olabiliyor?*
+
+---
+
+## 46. 📌 VE ÜÇÜNCÜ KEZ AYNI PARTİ
+
+Bu, merge dışı `yerlesimler_avrupa.js`'e işaret eden **üçüncü** bulgum:
+| tur | bulgu | partiyle bağı |
+|---|---|---|
+| 1 | kapsam ölçümünü yanlış tabanla yaptım | partiyi canlı sandım |
+| 3 | **B13** — E.6'nın `kur:` blokajı **bayat**, kapı açık | partiyi bekleten gerekçe düştü |
+| **9** | Helsinki boşluğu, dolduracak nokta **partide** | partinin bekletilmesinin **bedeli** |
+
+⇒ B13 partiyi bekleten **bir** gerekçenin düştüğünü göstermişti; bu tur
+bekletmenin **ne kaybettirdiğini** ölçüyor: 70.637 km²'lik bir boşluk,
+29 km'deki bir nokta yüzünden `ARAŞTIRMA` kuyruğunda duruyor.
+
+⚠️ **"Merge edin" demiyorum** — ikinci kapı (15 tanımsız kimlik / renk) hâlâ
+ölçülmedi ve o **benim işim değil.** Yalnız maliyeti kayda geçiriyorum.
+
+---
+
+## 47. SIRADAKİ TUR — kendi kuyruğum
 
 1. **1648 Hmelnitski ayaklanmasının günü** — Ukrayna/Leh kaynağından; B3'ün
    önerisi bu tarihe bağlı. **Dört turdur sırada, hâlâ yapılmadı** — bu turun

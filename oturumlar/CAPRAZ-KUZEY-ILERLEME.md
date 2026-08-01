@@ -747,5 +747,73 @@ başka maddede.** *"Madde doğru görünüyor"* ile *"cevap burada"* aynı şey 
 - **Nemçe ve Kampulek'in koordinatları** — hafızadan yazmadım, GeoNames gerek.
 - **1650 Osmanlı himayesinin süresi** — TDV başlangıcı veriyor, bitişini vermiyor.
 - **Helsinki boşluğu** (70.637 km², 1566-1623) — koordinatör üçüncü sıraya
-  koydu, **başlanmadı.**
+  koydu, **başlanmadı.** → *Tur 9'da bakıldı; sebep bulunamadı, iki yanlış iz elendi.*
 - **Kabartay (Nalçik)** — hâlâ bakılmadı.
+
+---
+
+## Tur 9 — 2026-08-01, Helsinki boşluğu
+
+**Ölçüm ağacı: `5e0264d`.** Kaynak: `denetim/BOSLUK-ENVANTERI-2026-08-01.md:38`
+
+### Ö37 · Helsinki'nin kaydı — kusursuz
+
+```json
+{"ad":"Helsinki","tur":"liman","lat":60.17,"lon":24.938,"kur":"1550-06-12",
+ "d":[], "s":[{1281-01-01→1809-09-17 isvec},{1809-09-17→1917-12-06 rusya},
+              {1917-12-06→1923-10-29 finlandiya}]}
+```
+1566-1623 boyunca **kesintisiz `isvec`**. Boşluk Helsinki'nin kaydından gelmiyor.
+Boşluğun gerçek konumu `61.0N, 25.0D` — Helsinki'ye **92 km**.
+
+---
+
+### Ö38 · Aralığın uçları — Baltık'a ait değil
+
+```
+1566-04-14  → Sakız · İpsara (Psara)          Ege, ceneviz → OSMANLI
+1623-11-28  → Bağdat · Kerkük · Şehrizor · Necef · Kerbelâ · Erbil …
+              22 nokta, Irak, OSMANLI → safevi
+```
+⇒ Küresel epok sınırları. **Finlandiya'da o tarihlerde bir olay yok.**
+
+---
+
+### Ö39 · Boşluk çevresi — canlı vs merge dışı
+
+```
+CANLI          Helsinki         92 km   (kur:1550-06-12)
+               St. Petersburg  315 km
+               Novgorod        446 km
+MERGE DIŞI     Hämeenlinna      29 km   ← üç kat yakın
+(avrupa.js)    Turku (Åbo)     161 km
+               Viipuri         205 km
+avrupa partisi: 237 nokta, bu kutuda 3
+```
+
+---
+
+### Ö40 · Sınıflandırma tutarsızlığı — TAHMİN, ölçüm değil
+
+Envanterin `NOKTA YOK` tarifi *"o bölgede yerleşim noktası yok"* — boşluğun
+durumu bu. Ama `ARAŞTIRMA`ya konmuş.
+
+**Tahminim** (ve tahmin olduğunu işaretliyorum): envanter `NOKTA YOK` sınıfını
+*"aynı yerler **bütün zaman boyunca** boş"* diye tarif ediyor, yani zamandan
+bağımsız bekliyor; bu boşluk **zamana bağlı** (1566-1623) olduğu için imzaya
+uymamış.
+
+---
+
+## Tur 9'da ölçmediğim, iddia da etmediğim şeyler
+
+- 🔴 **Boşluğun SEBEBİ** — bulamadım. Açık soru: *bir alanın sahipsizliği,
+  hiçbir noktanın kaydı değişmediği hâlde nasıl zamana bağlı olabiliyor?*
+  Cevap `uret_petek.py`'de ve **benim dosyam değil**; üretim de koşuyor.
+  **Tahmin yürütmedim.**
+- **`ARAŞTIRMA` sınıfının diğer dördü** (Hâil · Vladikavkaz · Cetinje · Manama)
+  — bana verilmedi, bakmadım.
+- **Merge'in ikinci kapısı** (15 tanımsız kimlik / renk) — hâlâ ölçmedim,
+  benim işim değil. *"Merge edin"* demiyorum, yalnız maliyeti kaydediyorum.
+- **Leh işgalinin başlangıcı · Nemçe/Kampulek koordinatları · Kazak
+  Hatmanlığı paketi** — sıradaki turlar.
