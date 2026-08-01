@@ -54,8 +54,24 @@ değişmemişti ve "kararlı" demiştim. **Tam tarama bunu sınırladı**: Rub'u
 `49.5,19.5` → `49.0,19.5`), Karakum ikiye. Sebep: Osmanlı sınırı kaydıkça dev
 bloğun ağırlık merkezi de kayıyor.
 
-⇒ **134 kimlik, ~124 ayrı YER.** Fark küçük ama sayının ne olduğu önemli:
-kimlik bir konum etiketi, yer sayısı değil.
+⇒ **134 kimlik ≠ 134 yer.** Ve "kaç yer" sorusunun tek bir cevabı YOK:
+komşu kimlikleri birleştirme yarıçapı sonucu belirliyor.
+
+| yarıçap | ayrı yer |
+|---|---|
+| 0,50° | **97** |
+| 0,75° | **97** ← tek kararlı bölge |
+| 1,00° | 73 |
+| 1,50° | 50 |
+| 2,00° | 41 |
+
+⚠️ İlk raporlamamda "~124 yer" demiştim; o sayı yalnız `kanit` alanı dolu olan
+iki kümeyi birleştiriyordu ve **119 `NOKTA YOK` kimliğine hiç dokunmuyordu.**
+Doğru yöntem uzamsal birleştirme, ve tek dayanaklı sayı **97**: 0,5° ile 0,75°
+aynı sonucu veriyor, yani o aralıkta küme yapısı sağlam. Daha kaba yarıçaplar
+ayrı boşlukları birbirine yapıştırıyor.
+
+**Kullanılacak sayı: ~97 ayrı yer**, bunun ~90'ı `NOKTA YOK` sınıfı.
 
 ### Eşik ölçüldü, ödünç alınmadı
 `ASGARI_KM2 = 10`. Önceki değer 500'dü ve başka bir araçtan **ödünç alınmış
