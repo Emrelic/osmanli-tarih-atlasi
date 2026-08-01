@@ -1483,3 +1483,135 @@ Fransa'nın Osmanlı'yla ittifakı (1536) **Bordo'nun Fransız olmasından yaln�
 4. ⏳ Suriye-Filistin kesiti (üçüncü turdur sırada)
 5. Önceki turlardan: 6 Kafkasya noktası · fetretin İran geri kalanı · B4/B5 ·
    Ç2, Ç5 · `marasi`
+
+---
+---
+
+# TESLİM 8 — `bece` cevabı: BOŞLUK · ve Bordo: 172 yıl, KESİN
+
+---
+
+## 49. ✅ `bece` SORUSU — cevap **(b) sahipsiz**, kimlik açılmamalı
+
+Soru şuydu: *"Hadârib/Bişârîn vs. bir SİYASÎ BİRİM oluşturuyor mu, yoksa yan
+yana kabileler mi?"*
+
+### ② İki TDV maddesi, ikisi de aynı yönde
+
+| madde | ne diyor |
+|---|---|
+| `bece` 🟢 | Boylar **ayrı ayrı reislerle** anılıyor — *"reisleri **Ali Bâbâ** eman diledi"*, *"reisi **Bişr b. Mervân**"* — farklı zamanlarda farklı reisler. **Birleşik merkezî yönetimden söz edilmiyor.** Hadârib için Sevâkin'de **emirlik kurduğuna dair bilgi yok**; yalnız *"kuzeyde hâkim olan Hadâribler"* |
+| `sudan` 🟢 **(yeni canlı slug)** | Kıyı **birleşik denetim altında değildi**, bölge parçalıydı. Bece/Hadâribe *"merkezî devlet yapılarından yoksundu; resmî emirlik ya da beylik değil, **dağınık akrabalık temelli topluluklar** olarak işliyordu"* |
+
+### ③ Hüküm: **siyasî birim YOK ⇒ (b) sahipsiz**
+
+⚠️ İki maddede de *"devlet kurmadılar"* diye **açık bir cümle yok** — hüküm
+merkezî otoritenin **yokluğunun belgelenmesinden** çıkıyor. Bunu böyle
+yazıyorum, daha güçlü göstermiyorum. **Etiket: `KESİN` değil, `DESEN`.**
+
+📌 Ama karar yönü değişmiyor, çünkü `MOTOR`un `uret_petek.py:1243`'teki kendi
+ilkesi burada belirleyici:
+> *"Yanlış renk boşluktan **kötüdür**: boşluk 'bilmiyoruz' der, yanlış renk
+> 'biliyoruz' der."*
+
+Kabile konfederasyonuna devlet rengi vermek, **kaynağın söylemediği bir şeyi
+haritaya yazmak** olur — hem de tam kaynağın *"merkezî yapı yoktu"* dediği yerde.
+
+⇒ **(b): 1517-1554 arası Sevâkin · Halâib · Akīk · Tokar · Sinkat sahipsiz
+kalmalı.** MOTOR'dan **pencere düzeyinde `kasitli_bosluk:`** gerekiyor —
+koordinatörün zaten açtırmayı üstlendiği alan.
+
+⚠️ **O alan açılmadan bu düzeltme uygulanamaz** (`Değişmez 1` öter). Sıra:
+alan → yama.
+
+### 📌 Yan bulgu: `sudan` maddesi Ç8 açıyor — İbrim yeniden gündemde
+
+`sudan` şunu da söylüyor: **Özdemir Bey** *"İbrim ve Der kaleleriyle Mağrak ve
+Say şehirlerini"* fethetti. Bu, Teslim 6'da **geri aldığım** İbrim iddiasına
+dokunuyor: `nube` *"Osmanlılar Aşağı Nûbe'yi Halfa vadisine kadar (1517'den
+sonra) aldı"* diyordu.
+
+**Geri almamı geri almıyorum** — bir iddiayı iki kez döndürmek, kanıtın değil
+benim salınmam olur. Ama çelişkiyi kaydediyorum:
+```
+Ç8  nube  : Aşağı Nûbe 1517 sonrası Osmanlı kontrolünde
+    sudan : İbrim'i Özdemir Bey fethetti (1550'ler)
+    ⇒ kademe ⓪: aynı soruya mı cevap veriyorlar?
+       "nominal kontrol" ↔ "kale fethi" farklı sorular OLABİLİR — ölçülmedi
+```
+**Etiket: `ÇELİŞKİLİ`. Veri dokunulmaz.** Sıradaki turlardan birine.
+
+---
+
+## 50. 🔴 BORDO — 172 yıl, ve etiket `KESİN`
+
+### ① Bizde ne var
+```
+Bordo   s: fransa 1281-01-01 → 1923-10-29     (642 yıl, tek pencere)
+```
+
+### ② Kaynakta ne var — **Gascon Rolls Project**, King's College London, Department of Digital Humanities
+
+Akademik bir edisyon projesi (Gaskonya rulolarının tenkitli neşri). Verdiği
+tarihler **gün hassasiyetinde**:
+
+| olay | tarih |
+|---|---|
+| İngiliz (Plantagenet) hâkimiyetinin başlangıcı | **XII. yy ortası** |
+| Bordo'nun **birinci** teslimi | **30 Haziran 1451** |
+| İngiliz **geri alışı** (Talbot) | **23 Ekim 1452** |
+| **Castillon Muharebesi** | **17 Temmuz 1453** |
+| Bordo'nun **kesin** teslimi | **19 Ekim 1453** |
+
+### ③ Hüküm: **ÇELİŞİYOR — 172,5 yıl**, ve önerisi hazır
+
+```
+ŞU AN     fransa 1281-01-01 → 1923-10-29
+
+ÖNERİ     ingiltere 1281-01-01 → 1451-06-30
+          fransa    1451-06-30 → 1452-10-23
+          ingiltere 1452-10-23 → 1453-10-19
+          fransa    1453-10-19 → 1923-10-29
+```
+
+🟢 **Ve bu BUGÜN UYGULANABİLİR:**
+- `ingiltere` kimliği **zaten var ve renkli** (Sevâkin/Halâib/Tokar zincirlerinde
+  kullanılıyor) ⇒ **yeni renk gerekmiyor**
+- Sahipsizlik açmıyor — dört pencere kesintisiz
+- Dört tarihin dördü de **gün hassasiyetinde ve tek akademik kaynaktan**
+- Bordo `BOLGE = box(-12, 1.5, 62, 62)` **penceresinin içinde** (lon -0,6 /
+  lat 44,8) ⇒ **haritada görünür**
+
+📌 Ve 1451-52 arasındaki **16 aylık Fransız arası** özellikle kıymetli: veri
+bugün *"hep Fransa"* diyor; doğrusu *"172 yıl İngiltere, 16 ay Fransa, 12 ay
+İngiltere, sonra Fransa"*. Tek pencerelik torba, **iki kez el değiştiren** bir
+şehri hiç değişmemiş gösteriyor.
+
+---
+
+## 51. 🟡 MARSİLYA — kaynak BULUNAMADI, `DOĞRULANAMADI` olarak kalıyor
+
+Provence'ın Fransa'ya katılışı için bulabildiğim bütün kaynaklar **Vikipedi
+türevi** çıktı. `CAPRAZ-GOREV §3`: *"Vikipedi aday üreticidir, kaynak değil."*
+
+Aday tarihler (yazıyorum ki sıradaki tur aramayı sıfırdan yapmasın):
+1481 Charles du Maine'in ölümü · 1482-01-15 Provence Meclisi · **1486 Ekim**
+Charles VIII'in *lettres patentes*'ı · 1487 Nisan tebliğ.
+
+**Hüküm: doğrulanamadı** — ve bu tam bir hükümdür. Marsilya'ya
+**dokunulmamalı.**
+
+⚠️ Aynı sebeple Paris (1420-36 işgali) ve Lyon (1312) da **DESEN** etiketinde
+kalıyor. Fransa çekirdeğinin dört noktasından **yalnız biri** (Bordo) `KESİN`.
+
+---
+
+## 52. AÇIK KALANLAR — Teslim 8 sonu
+
+1. 🔴 **`kasitli_bosluk:` pencere düzeyi** — Sudan kıyısı düzeltmesinin ön şartı
+2. 🟡 **Ç8** (`nube` ↔ `sudan`, İbrim) — kaydedildi, çözülmedi
+3. 🟡 Marsilya · Paris · Lyon — Fransa için **akademik kaynak** gerekiyor;
+   Iranica/Britannica 403 verdiği için Avrupa tarihi kaynağı da aynı sınıfta
+4. ⏳ Suriye-Filistin kesiti (dördüncü turdur sırada)
+5. Önceki turlardan: 6 Kafkasya noktası · fetretin İran geri kalanı · B4/B5 ·
+   Ç2, Ç5 · `marasi`
