@@ -55,7 +55,7 @@ window.OLAYLAR_EK4 = [
   kisiler:"Tosun Paşa, Abdullah b. Suûd",
   d:"Dar dağ geçitlerinde pusuya düşürülen Mısır öncü kuvveti dağıldı. Yenilgi seferin taktik dersi oldu: bedevî kabilelerin desteği alınmadan Hicaz'da yürümenin mümkün olmadığı anlaşıldı.",
   kaynak:"vehhabilik" },
-{ t:"1812-11-08", k:"fetih", etiket:["toprak-kazanc"], b:"Medine geri alındı", gun:"Kasım 1812", yer:"Medine",
+{ t:"1812-12-03", k:"fetih", etiket:["toprak-kazanc"], b:"Medine geri alındı", gun:"3 Aralık 1812", yer:"Medine",
   kisiler:"Tosun Paşa",
   d:"Uzun bir kuşatmanın ardından Medine teslim oldu. Hz. Peygamber'in şehrinin geri alınışı İstanbul'da top şenlikleriyle kutlandı; Mehmed Ali'ye mükâfat olarak Cidde valiliği de verildi.",
   kaynak:"medine" },
