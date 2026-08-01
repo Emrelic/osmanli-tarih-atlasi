@@ -394,6 +394,28 @@ body {
   box-shadow: 0 0 3px rgba(0,0,0,0.6);
   flex: 0 0 auto;
 }
+/* Fetih tarihi rozeti — kullanıcı: "harita üzerinde fetih tarihi küçük punto
+   ile gösterilsin". KÜÇÜK PUNTO isteğin kendisi, süs değil: şehir adından
+   sönük durmalı ki adı bastırmasın. Ad birincil (burası neresi), tarih ikincil
+   (ne zaman alındı).
+   ⚠️ Boşken hiç yer kaplamıyor (`:empty`), çünkü maddelerin ezici çoğunluğunda
+   `fethedilen:` alanı yok ve rozet o zaman HİÇ olmamalı — boş bir kutu bile
+   şehir adını kaydırırdı. */
+.sehir .s-fetih {
+  font-size: 9.5px;
+  color: #6b4a1f;
+  background: rgba(247, 241, 227, 0.82);
+  border: 1px solid rgba(184, 134, 11, 0.55);
+  border-radius: 3px;
+  padding: 0 3px;
+  margin-left: 3px;
+  white-space: nowrap;
+  line-height: 1.35;
+}
+.sehir .s-fetih:empty { display: none; border: none; padding: 0; margin: 0; }
+/* Uzakta okunmaz ve kalabalık yapar; yalnız yakınlaşınca çıksın. */
+#harita.cok-uzak .sehir .s-fetih, #harita.uzak .sehir .s-fetih { display: none; }
+
 .sehir .s-ad {
   font-size: 11px;
   color: #1d1006;

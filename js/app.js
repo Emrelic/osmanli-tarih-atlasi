@@ -1047,7 +1047,10 @@ var sehirler = ISARET_KAYNAK.map(function (s) {
   var dis = document.createElement("div");
   var ic = document.createElement("div");
   ic.className = "sehir";
-  ic.innerHTML = '<span class="s-nokta"></span><span class="s-yontem"></span><span class="s-ad"></span>';
+  // `s-fetih`: fetih tarihi rozeti. VARSAYILAN BOŞ — yalnız `fethedilen:`
+  // alanı olan bir madde sahnedeyken doluyor (bkz. sehirGuncelle).
+  ic.innerHTML = '<span class="s-nokta"></span><span class="s-yontem"></span>' +
+                 '<span class="s-ad"></span><span class="s-fetih"></span>';
   // ⚠️ GENEL KURAL (kullanıcı, hatalar 3.docx madde 1): "Dimbos, Kulacahisar,
   // Karacahisar, Adranos'ta görülen simgeler ... en başından beri yapıştı
   // gitmiyor. Madde geçtikten sonra bu simgeler kaldırılmalı."
@@ -1061,7 +1064,8 @@ var sehirler = ISARET_KAYNAK.map(function (s) {
   dis.appendChild(ic);
   return { s: s, ic: ic, gecici: !!s.gecici, kale: s.tur === "kale",
            go: s.go ? gunIdx(s.go) : null,
-           yontemEl: ic.querySelector(".s-yontem"), ekli: false,
+           yontemEl: ic.querySelector(".s-yontem"),
+           fetihEl: ic.querySelector(".s-fetih"), ekli: false,
            mk: new maplibregl.Marker({ element: dis, anchor: "left", offset: [-5, 0] })
                  .setLngLat([s.lon, s.lat]),
            kayitlar: s.k.map(function (r) {
@@ -1231,7 +1235,7 @@ function sehirGuncelle(t) {
 
   // O an sahnede olan maddelerin andığı yerleşimler — savaş işaretleriyle aynı
   // pencere kuralı (bir sonraki maddeye kadar, taban 60 tavan 365 gün).
-  var anilan = {};
+  var anilan = {}, fetihTarihi = {};
   for (var oi = 0; oi < olaylar.length; oi++) {
     var o = olaylar[oi];
     if (o.gi > t) break;                       // liste tarihe göre sıralı
@@ -1239,6 +1243,35 @@ function sehirGuncelle(t) {
     if (t < o.gi + o.sure) {
       var L = OLAY_YERI[oi];
       for (var li = 0; li < L.length; li++) anilan[L[li]] = true;
+      // 🔴 FETİH TARİHİ ETİKETİ — YALNIZ `fethedilen:` ALANINDAN.
+      // Kullanıcı: *"harita üzerinde fetih tarihi küçük punto ile gösterilsin."*
+      // ⚠️ Bunu METİN EŞLEŞMESİNDEN türetmek ÖLÇÜLDÜ ve elendi: 1.360 madde-şehir
+      // çiftinde 554'ü maddenin tarihini TEKRAR ederdi, 739'u ALAKASIZ bir tarih
+      // gösterirdi (Fatih'in 1481 ölümü maddesinde Bursa'nın yanına "1326",
+      // Rodos'a 170 yıl öteden bir tarih). Metin *"bahsedilen şehir"* ile
+      // *"el değiştiren şehir"* arasında ayrım yapmıyor.
+      // ⇒ Ayrımı ancak veri yapabilir. `fethedilen:` alanı bunun için açıldı.
+      //
+      // 🔴 KURAL: listede adı geçmeyen şehre tarih YAZILMAZ; alan yoksa madde
+      // etiketsizdir. Güvenli taraf VARSAYILAN — bugün 991 madde alansız ve
+      // hiç etiket çıkmıyor, 7 madde alanlı ve 10 ad taşıyor.
+      // Ölçülmüş vakalar:
+      //   1484-07-15 Kili · 1484-08-04 Akkirman → 20 gün arayla iki ayrı fetih;
+      //     ±30 gün penceresi ikisini de her iki maddede buluyordu, alan ayırıyor
+      //   1806-01-26 Böğürdelen'in KAYBI → alan YOK, dolayısıyla 25 gün ötedeki
+      //     "Mekke'nin Vehhâbîlere kaybı" maddesine de etiket sızmıyor
+      if (o.fethedilen && o.fethedilen.length) {
+        for (var fi = 0; fi < o.fethedilen.length; fi++) {
+          var fad = String(o.fethedilen[fi]).split(" (")[0];
+          for (var si = 0; si < sehirler.length; si++) {
+            if (sehirler[si].s.ad.split(" (")[0] === fad) {
+              // Aynı şehir birden çok maddede geçerse EN SON (en yakın) kazanır.
+              fetihTarihi[si] = o.gun || idxYazi(o.gi);
+              break;
+            }
+          }
+        }
+      }
     }
   }
 
@@ -1313,6 +1346,12 @@ function sehirGuncelle(t) {
       ? (m.kale ? "🏰" : "") + (aktif.y ? YONTEM_SIMGE[aktif.y] || "" : "")
       : "";
     if (m.yontemEl.textContent !== simge) m.yontemEl.textContent = simge;
+    // Fetih tarihi rozeti: yalnız `fethedilen:` listesinde adı geçen şehirde.
+    // ⚠️ Kutu ölçüsü GERÇEK DOM'dan okunuyor (ikinci geçiş), yani rozet
+    // eklenince çakışma elemesi onu kendiliğinden hesaba katıyor — bugün
+    // emoji yüzünden yaşadığımız "dar kutu" kusuru burada tekrarlanamaz.
+    var ftar = fetihTarihi[mi] || "";
+    if (m.fetihEl.textContent !== ftar) m.fetihEl.textContent = ftar;
 
     if (!m.ekli) { m.mk.addTo(harita); m.ekli = true; }
     // Eleme ikinci geçişe bırakılıyor (aşağıda). `anilan` olanlar elemeye HİÇ
