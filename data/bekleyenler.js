@@ -79,22 +79,32 @@ window.BEKLEYENLER = {
      "⏳"
     ],
     [
-     "K2",
-     "DENETÇİ ve ARAŞTIRMA ARABİSTAN oturumlarına /compact",
-     "Komutu ben gönderemiyorum — metin olarak algılanıyor (denendi). İkisi de bağlamının dolduğunu bildirdi, ikisi de açık listesini yazdı",
+     "K3",
+     "Hindistan / Çin oturumu açılacak mı",
+     "Artık ölçüldü, üç kapı var: ① BOLGE kutusu (uret_petek.py:43) ② renkler.py kimlikleri ③ index.html script satırı. yerlesimler_asya.js zaten var ama üçünden de geçmiyor — yazılan hiçbir şey görünmez. Oturum açmadan önce kapılar açılmalı, yoksa iş boşa gider",
      "⏳"
     ],
     [
-     "K3",
-     "Hindistan oturumu açılacak mı",
-     "Görev tanımı dar olmalı: \"Hindistan'ı ekle\" değil. Ama önce pencere (BOLGE) açılmalı, yoksa yazılan görünmez",
+     "K4",
+     "VERİ KİMLİK darboğazı: bölelim mi",
+     "Yedi oturumun bitmiş araştırması yalnız renk beklediği için haritaya giremiyor (8 kalem). Tek oturum yetişemiyor. Seçenekler: (a) beklemeye devam · (b) ikinci bir kimlik oturumu açmak · (c) renk seçimini koordinatörün yapması",
      "⏳"
     ]
    ]
   },
   "kapanan": {
-   "baslik": [],
-   "satir": []
+   "baslik": [
+    "#",
+    "neydi",
+    "nasıl kapandı"
+   ],
+   "satir": [
+    [
+     "K2",
+     "DENETÇİ ve ARAŞTIRMA ARABİSTAN'a /compact",
+     "1 Ağustos — kullanıcı ikisini de compact'ledi, oturumlar tetiklendi"
+    ]
+   ]
   }
  },
  "ozet": {
