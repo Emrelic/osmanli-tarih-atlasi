@@ -531,7 +531,7 @@ içinde, zincir onların tonundan türetilebilir.
 
 ---
 
-## 11. ⚠️ KAYNAK ERİŞİMİ — ÇAPRAZ KUZEY ve BATI'yı da ilgilendirir
+## 11. ⚠️ KAYNAK ERİŞİMİ — ÇAPRAZ KUZEY ve BATI'yı da ilgilendirir (Teslim 2)
 
 `CAPRAZ-GOREV §3` *"bir dış devletin kendi iç kronolojisi → o devletin akademik
 kaynağı"* diyor. İran için o kaynak **Encyclopaedia Iranica**'dır ve:
@@ -548,3 +548,197 @@ istediği şey henüz sağlanamıyor.
 
 📌 KUZEY (Rus kaynakları) ve BATI (Venedik arşivi) aynı duvara çarpacaksa **ortak
 bir çözüm gerekiyor** — koordinatöre bildirdim.
+
+---
+---
+
+# TESLİM 3 — Kafkasya: iddia DOĞRULANDI, altından ikinci hata çıktı
+
+> Sınanacak iddia: *"Nâdir Şah'ın ölümünden Ağa Muhammed Han'ın 1795 seferine
+> kadar Kafkasya hanlıkları fiilen bağımsızdı; veri onları kesintisiz İran
+> boyuyor."* **Doğrulandı** — dört bağımsız TDV maddesiyle.
+
+---
+
+## 12. 🔴 BULGU: 1188 NOKTA-YIL HAYALET İRAN HÂKİMİYETİ
+
+### ② Kaynakta ne var — dört madde, dördü de aynı şeyi söylüyor
+
+| madde | ne diyor |
+|---|---|
+| `karabag` 🟢 | *Penah Ali*, Nâdir Şah'ın 1747'deki ölümünden sonra Horasan'dan dönüp **hanlığı kurdu**; 1748-1750'de Bayat, Şahbulak, Askeran ve **Şuşa (Penahâbâd)** kalelerini yaptırdı |
+| `gence` 🟢 | *"Nâdir Şah'ın ölümünden sonra Gence, XVIII. yüzyılın ortalarında Azerbaycan'da kurulan **yarı müstakil hanlıklardan biri** oldu"* |
+| `baku` 🟢 | *"**bağımsız** Bakü Hanlığı kurulduğunda (1747)"* |
+| `sirvan` 🟢 | 1747'den sonra Şirvan hanları belirgin **özerklikle** yönetti |
+
+### ① Bizde ne var
+
+25 Kafkasya noktasının **hepsi** `iran 1736-03-08 → 1813-10-24` (ya da
+`1828-02-10`) taşıyor. Hanlıkların hiçbiri veride **yok**.
+
+```
+25 nokta × 47,5 yıl (1747-06-20 → 1795-01-01) = 1188 nokta-yıl hayalet İran
+```
+
+### ③ Hüküm: **ÇELİŞİYOR** — `§3.5` sınıfının Doğu'daki en büyük vakası
+
+Karşılaştırma: `CLAUDE.md §3.5` tablosunda Batnoz 84 yıl, İbrim 38 yıl, Sevâkin
+40 yıl. **Bu vaka 25 noktada 47,5 yıl** — tek tek daha küçük, toplamda hepsinden
+büyük.
+
+📌 **Ama kusurun cinsi farklı ve bu önemli.** `§3.5` *"devlet o tarihte yaşıyor
+mu"* diye soruyor; İran 1795'te **gerçekten vardı.** Buradaki kusur şu: **o
+tarihte oraya hâkim değildi.** Ömür denetimi bunu göremez.
+⇒ **Ayrı bir denetim sınıfı gerekiyor** — DENETÇİ'ye not.
+
+---
+
+## 13. 🔴 İKİNCİ HATA: RUS FETHİ TOPTAN 1813'E BAĞLANMIŞ
+
+İddiayı sınarken beklemediğim bir şey çıktı. Üç hanlık **Gülistan'dan önce**
+Rus oldu:
+
+| nokta | veride | TDV'de | fazla |
+|---|---|---|---|
+| **Gence** | `1813-10-24` | **1804-01-03** — *"Han Cevâd Han şehid düşerek şehir Rusya'nın eline geçti"* (kuşatma 20 Kasım 1803) | **9,8 yıl** |
+| **Berde (Karabağ)** | `1813-10-24` | **1805-05** Kürekçay | **8,4 yıl** |
+| **Şuşa** | `1813-10-24` | **1805-05** Kürekçay | **8,4 yıl** |
+| **Bakü** | `1813-10-24` | **1806** Rus ilhakı | **7,8 yıl** |
+| Şamahı | `1813-10-24` | 1813 Gülistan | ✓ uyuyor |
+
+⚠️ **Yalnız 5 nokta sınandı, 20'si sınanmadı.** Desen tuttuğuna göre oradan da
+çıkması beklenir ama **ölçmeden söylemiyorum** (`§7④`).
+
+📌 Gülistan **hukukî** tarihtir, fiilî fetih değil. Proje bu ayrımı zaten biliyor
+(`KARAR-DAYANAK 19-20`, *"fiilî çekilme"*) — burada uygulanmamış.
+
+---
+
+## 14. ⭐ VE AĞA MUHAMMED HAN ŞUŞA'YI ALAMADI — kendi önerimi çürüttüm
+
+`karabag`: Ağa Muhammed Han **1795'te Şuşa'yı kuşattı ve alamadı**; 1797'deki
+ikinci kuşatmada İbrâhim Halil Han çekildi, ama Ağa Muhammed **Haziran 1797'de
+öldürülünce** geri döndü.
+
+⇒ §8.6'da önerdiğim `kacar 1795/96 → …` zinciri Karabağ'ın iki noktasında
+(Berde, Şuşa) **tutmuyor**: orada Kaçar hâkimiyeti hiç kurulmadı, hanlık
+doğrudan **1805 Kürekçay'la Rusya'ya** geçti.
+
+📌 Kendi önerimi kendi turumda çürüttüğüm ilk vaka — ve tam bu yüzden nokta
+nokta sınanması gerekiyordu. Toplu kabul edilseydi **1795-1805 arası on yıllık
+sahte Kaçar hâkimiyeti** yazmış olacaktık.
+
+---
+
+## 15. ⭐ KENDİ VERİMİZİN İÇ KANITI — kardeş nokta çelişkisi
+
+Koordinatörün çerçeve düzeltmesini (*"bir kaydımız, kardeşlerinin taşıdığı
+zinciri taşıyor mu"*) Kafkasya'ya uyguladım. **Yöntem:** 100 km içindeki
+çiftler, aynı tarihte farklı devlet gösteriyor mu? (Osmanlı↔tâbi muaf.)
+
+```
+1300-06-15   18 çelişkili kardeş çift
+1350-06-15    0
+1400-06-15   12
+1440-06-15   12
+1480-06-15   12
+             --  54 vaka
+```
+
+**En sıkı vakalar:**
+```
+34 km   Nahçıvan  iran  <->  Culfa    ilhanli / timurlu / karakoyunlu / akkoyunlu
+43 km   Ereş      iran  <->  Berde    (aynı dört kesitte dört ayrı devlet)
+63 km   Nahçıvan  iran  <->  Ordubad
+73 km   Gence     iran  <->  Berde
+```
+
+### Kafkasya'da iki kodlama deseni var, komşular birbirine karışmış
+
+```
+DESEN A (13 nokta) — ayrıntılı, büyük ölçüde doğru
+  ilhanli 1281→1335 | iran 1335→1386 | timurlu 1386→1406-10-21
+  karakoyunlu 1406→1468-04-01 | akkoyunlu 1468→1501-07-01 | safevi 1501→…
+  Hoy · Merend · Culfa · Ahar · Mâku · Astara · Lenkeran · Berde · Şuşa · Ordubad
+  (+ Salyan · Kuba · Şeki, `iran 1335→1538` varyantı)
+
+DESEN B (12 nokta) — düz torba
+  iran 1281→1501-07-01 | safevi 1501→…
+  Tarki · Ağraham · Nahçıvan · Revan · Gence · Şamahı · Bakü · Derbend
+  Kabala · Ereş · Şâbüran · Mahmudâbâd
+```
+
+⇒ **Onarım tarifi hazır: Desen B noktaları Desen A'daki kardeşinin zincirini
+alır.** Nahçıvan → Culfa'nınki, Gence → Berde'ninki.
+
+⚠️ **`40a66fc`/Srebrenik dersi birebir geçerli:** *"yanlış komşu kopyalanmıştı."*
+Kardeş **coğrafî yakınlığa göre değil, aynı siyasî birime ait olmaya göre**
+seçilmeli. Nahçıvan-Culfa doğru (ikisi de Nahçıvan hattı), Gence-Berde doğru;
+ama **Tarki** (Dağıstan, Kumuk şamhallığı) hiçbirine benzemez, ayrı ele alınmalı.
+
+### 📌 Ve yöntemin kendi körlüğü ölçüldü: 1350'de sıfır çelişki
+
+1350 kesitinde hiç çelişki çıkmadı — çünkü **o tarihte iki desen de `iran`**
+diyor (Desen A'nın `iran 1335→1386` dilimi).
+
+> **Torba, kardeş karşılaştırmasına tam olarak kendi en geniş olduğu pencerede
+> görünmez oluyor.**
+
+⇒ Yöntem güçlü ama **torbanın çakıştığı yerde kör.** Orada tek çare dış kaynak —
+bu da §11'deki erişim sorununu daha önemli yapıyor. Sınırı **ölçerek**
+söylüyorum, tahmin ederek değil.
+
+---
+
+## 16. 🔴 ÜÇÜNCÜ BULGU: ŞİRVAN İKİYE BÖLÜNMÜŞ, BAŞKENT YANLIŞ TARAFTA
+
+TDV `sirvan`: bölge **Şamahı · Bakü · Kabala · Şâbüran · Mahmudâbâd · Salyan ·
+Derbend**'i kapsıyor. Bizde bu noktalar **iki ayrı zincire** dağılmış:
+
+```
+sirvansah davranışı (3)   iran 1335→1538 | safevi 1538→…   Salyan · Kuba · Şeki
+düz torba          (7)    iran 1281→1501 | safevi 1501→…   Şamahı · Bakü · Kabala
+                                                           Şâbüran · Mahmudâbâd
+                                                           Ereş · Derbend
+```
+
+🔴 **Şamahı Şirvanşahlar'ın başkenti**, Bakü ise XV. yüzyıldan sonra başkent
+(TDV `baku`: *"Şirvanşahlar'ın başşehri"*). **İkisi de yanlış grupta** —
+başkent, taşrasından daha kaba kodlanmış.
+
+⇒ §3.2'deki B7 önerim genişliyor: `sirvansah` **3 noktaya değil 10 noktaya**
+uygulanmalı, bitiş TDV'nin verdiği **Ekim 1538**.
+
+---
+
+## 17. ÖNERİ — Kafkasya nasıl modellenecek (iki seçenek, karar sende)
+
+25 nokta yaklaşık **12 hanlığa** dağılıyor: Karabağ · Gence · Şirvan · Bakü ·
+Kuba · Şeki · Derbend · Talış · Revan · Nahçıvan · Karadağ · Hoy-Mâku
+(+ Tarki: Kumuk şamhallığı).
+
+| | **Seçenek 1 — her hanlık ayrı kimlik** | **Seçenek 2 — tek `kafkas-hanliklari`** |
+|---|---|---|
+| renk | **12 yeni renk** | **1 yeni renk** |
+| gösterir | hanlıkların ayrı olduğunu | *"ne İran ne Rusya"* ara sınıfı |
+| gizler | — | hanlıklar arası rekabeti |
+| §9 kuralı | çağdaş rakipler → ayrı ton **gerekir** | — |
+
+🟡 **Önerim Seçenek 2**, gerekçesi §9'un ölçümü: 12 çağdaş kimlik 12 ayrı ton
+ister, oysa bu 25 nokta haritada **avuç içi kadar** bir alanda. 12 ton orada
+okunmaz. Tek sınıf + nokta başına `k:` etiketi, kullanıcının gördüğü asıl
+bilgiyi (*"İran burayı 1747'de kaybetti, Rusya 1804-1813'te aldı"*)
+kaybetmeden veriyor.
+⚠️ Bu bir **gösterim kararı**, ölçümden çıkan kusur değil — kullanıcıya
+sorulacak sınıfta. Ben ölçtüm, karar sende.
+
+---
+
+## 18. AÇIK KALANLAR — Teslim 3 sonu
+
+1. 🔴 **Kalan 20 Kafkasya noktasının Rus fetih tarihi** — 5'inde desen çıktı,
+   20'si **sınanmadı** (Revan 1827, Nahçıvan 1828, Kuba/Derbend 1806, Şeki 1805
+   beklenir ama ölçülmedi)
+2. 🔴 1747-1751 fetreti — hâlâ kaynaksız (§11)
+3. B4/B5 coğrafî bölme · Ç2, Ç5, Ç6 ikinci çekiş · `marasi` slug
+4. 🟡 **İkinci iş: Memlük** — henüz başlamadım

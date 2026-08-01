@@ -219,10 +219,86 @@ göremez"*) kardeşi: burada ölçüm **doğru yöndeydi ama eksik boyutluydu.**
 
 ---
 
+---
+
+## 1 Ağustos · Tur 3 — Kafkasya hanlıkları
+
+Koordinatörün çerçeve düzeltmesi geldi: *"en keskin bulguların hiçbiri dış
+kaynaktan gelmedi, kendi verimizden geldi… dış kaynak bunu DOĞRULAMAK için
+gerekli, BULMAK için değil."* Bu turda sırayı ona göre kurdum: **önce kendi
+verimizin iç kanıtı, sonra TDV.** Doğru sıra çıktı — iç kanıt, TDV'ye hangi
+maddeyi soracağımı söyledi.
+
+### Ölçüm 11 — kardeş nokta çelişkisi (kendi verimiz)
+
+25 Kafkasya noktası, 100 km içindeki çiftler, beş kesit:
+```
+1300: 18 çelişkili çift · 1350: 0 · 1400: 12 · 1440: 12 · 1480: 12   toplam 54
+en sıkı: Nahçıvan–Culfa 34 km, dört kesitte dört ayrı devlet
+```
+Kafkasya'da **iki kodlama deseni** olduğu ortaya çıktı: Desen A (13 nokta,
+ayrıntılı zincir) ve Desen B (12 nokta, düz `iran 1281→1501` torbası).
+Komşular birbirine karışmış.
+
+📌 **Yöntemin körlüğü de ölçüldü:** 1350'de sıfır çelişki çıktı, çünkü orada iki
+desen de `iran` diyor. **Torba, kardeş karşılaştırmasına tam kendi en geniş
+olduğu pencerede görünmez oluyor.** Yöntemin sınırı tahmin değil, ölçüm.
+
+### Ölçüm 12 — TDV turu 3: iddia doğrulandı
+
+`karabag` · `gence` · `baku` · `sirvan` — **dördü de canlı, dördü de aynı şeyi
+söylüyor:** 1747'den sonra hanlıklar kuruldu, bağımsız/yarı müstakil.
+```
+25 nokta × 47,5 yıl (1747-06-20 → 1795-01-01) = 1188 nokta-yıl hayalet İran
+```
+
+### Ölçüm 13 — beklenmeyen ikinci hata: Rus fethi geç
+
+```
+Gence   veri 1813-10-24  TDV 1804-01-03  fazla 9,8 yıl
+Berde   veri 1813-10-24  TDV 1805-05     fazla 8,4 yıl
+Şuşa    veri 1813-10-24  TDV 1805-05     fazla 8,4 yıl
+Bakü    veri 1813-10-24  TDV 1806        fazla 7,8 yıl
+Şamahı  veri 1813-10-24  TDV 1813        uyuyor
+```
+⚠️ Yalnız 5 nokta sınandı; **20'si sınanmadı ve tahmin yazmadım.**
+
+### ⭐ Ölçüm 14 — kendi önerimi çürüttüm
+
+`karabag`: Ağa Muhammed Han **1795'te Şuşa'yı alamadı.** §8.6'da önerdiğim
+`kacar 1795/96 → …` zinciri Berde ve Şuşa'da tutmuyor; oralarda Kaçar
+hâkimiyeti hiç kurulmadı, hanlık 1805 Kürekçay'la doğrudan Rusya'ya geçti.
+⇒ Öneri toplu kabul edilseydi **1795-1805 arası on yıllık sahte Kaçar
+hâkimiyeti** yazılmış olacaktı. Nokta nokta sınamanın bedeli değil, **kârı**.
+
+### Ölçüm 15 — Şirvan ikiye bölünmüş, başkent yanlış tarafta
+
+TDV `sirvan`'ın saydığı yedi yerleşimden **üçü** `sirvansah` davranışı
+(`iran 1335→1538`), **yedisi** düz torba. Şamahı (Şirvanşah başkenti) ve Bakü
+(XV. yy sonrası başkent) **yanlış grupta.**
+⇒ B7 önerisi genişledi: `sirvansah` 3 noktaya değil **10 noktaya**.
+
+---
+
+## 📌 Tur 3'ten çıkan ders önerisi (koordinatöre)
+
+**④ Bir devletin ÖMRÜNÜ denetlemek, HÂKİMİYETİNİ denetlemez.**
+`§3.5` hayalet devlet denetimi *"bu devlet o tarihte yaşıyor mu"* diye sorar.
+Kafkasya vakasında İran 1795'te **gerçekten yaşıyordu** — hâkim değildi.
+1188 nokta-yıllık kusur, mevcut denetimin **tanım gereği** göremeyeceği yerde
+duruyordu. ⇒ Ayrı bir denetim sınıfı gerekiyor: *"bu devlet bu noktada bu
+tarihte hâkim miydi"* — ve onun ölçüsü ömür değil, **kaynakla doğrulanmış
+hâkimiyet kesiti.**
+
+**⑤ Öneriyi toplu kabul etmek, tek tek sınamaktan ucuz görünür ve değildir.**
+Kafkasya'nın 25 noktasına aynı zinciri önermiştim; tek tek sınayınca ikisinde
+(Berde, Şuşa) çürüdü. **Vakaların %8'i, önerinin tamamını yanlış yapardı.**
+
+---
+
 ## Sıradaki tur
 
-1. 🔴 **Kafkasya hanlıkları 1747-1795** — sınanacak iddia: 48 yıl × 25 nokta
-   hayalet İran hâkimiyeti. Her hanlığın TDV maddesi ayrı sınanacak.
+1. 🔴 Kalan 20 Kafkasya noktasının Rus fetih tarihi (5'inde desen çıktı)
 2. 🔴 1747-1751 fetretine erişilebilir akademik kaynak
 3. B4/B5 coğrafî bölme · Ç2, Ç5, Ç6 ikinci çekiş · `marasi` slug
 4. 🟡 İkinci iş: **Memlük** — Kızıldeniz 39,7 yıl fazlalık, Suriye-Filistin-Hicaz
