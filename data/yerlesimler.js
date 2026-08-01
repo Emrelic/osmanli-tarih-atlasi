@@ -767,7 +767,7 @@ window.YERLESIMLER = [
 { ad:"Paris", tur:"sehir", lat:48.857, lon:2.352, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"fransa"}] },
 { ad:"Lyon", tur:"sehir", lat:45.760, lon:4.836, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"fransa"}] },
 { ad:"Marsilya", tur:"liman", lat:43.297, lon:5.370, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"fransa"}] },
-{ ad:"Bordo", tur:"liman", lat:44.838, lon:-0.579, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"fransa"}] },
+{ ad:"Bordo", tur:"liman", lat:44.838, lon:-0.579, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1451-06-30",d:"ingiltere"},{f:"1451-06-30",t:"1452-10-23",d:"fransa"},{f:"1452-10-23",t:"1453-10-19",d:"ingiltere"},{f:"1453-10-19",t:"1923-10-29",d:"fransa"}] },
 { ad:"Amsterdam", tur:"liman", lat:52.373, lon:4.893, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1581-07-26",d:"ispanya"},{f:"1581-07-26",t:"1923-10-29",d:"hollanda"}] },
 { ad:"Lizbon", tur:"liman", lat:38.722, lon:-9.139, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"portekiz"}] },
 { ad:"Porto", tur:"liman", lat:41.150, lon:-8.611, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"portekiz"}] },
