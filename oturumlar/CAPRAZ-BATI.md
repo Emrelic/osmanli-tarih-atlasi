@@ -985,3 +985,67 @@ eklenecek      Belgrad    1789-10-?? → 1791-08-04    isg:  (günü KAYNAK'ta)
 kalır) ⇒ bu düzeltme **petek geometrisini hiç değiştirmez**, yalnız örtü
 katmanına girer. Üretim koşusu gerektirmez.
 ⚠️ Ama `uret_devirler.py`'nin `ISGALLER` üreticisine girer — MOTOR'un kalemi.
+
+## A-11 🔴🔴 1737-39 SAVAŞI TEK GÜNE SIKIŞMIŞ — ve aynı savaşın Rus cephesi DOĞRU
+
+**① BİZDE NE VAR.** 1737-01-01 – 1739-12-31 arasındaki **bütün** kırılmalar:
+```
+1737-07-13   Özi        d:bit OSMANLI · s:basla rusya      ← RUS CEPHESİ
+1738-08-01   Özi        d:basla OSMANLI · s:bit rusya      ← RUS CEPHESİ
+1739-09-18   20 uç      Belgrad · Böğürdelen · Kragujevac · Semendire · Çaçak
+                        · Krayova · Rimnik · Turnu Severin · Tırgu Jiu · Rostov
+--- 24 kırılma ucu, yalnız 3 ayrı tarih
+```
+Sahnedeki 19 noktanın **12'sinde 1737-39 arası hiç kırılma yok** (Niş · Vidin ·
+Temeşvar · Yanova · Yenipazar · Ösek · Mohaç · Varadin · Baç · Segedin ·
+İzvornik · Foça).
+
+**③ HÜKÜM: ÇELİŞİYOR — ve iç tutarsızlık kendi verimizde görünüyor.**
+
+🔴 **Aynı savaş, iki cephe, iki ayrı titizlik:**
+```
+RUS cephesi        Özi  1737-07-13 alındı → 1738-08-01 geri alındı   ✓ SEFER tarihleri
+AVUSTURYA cephesi  hepsi 1739-09-18                                  ✗ tek ANTLAŞMA günü
+```
+⇒ Sorun *"proje bu konvansiyonu bilmiyor"* değil — **biliyor ve Rus cephesinde
+uyguluyor.** Avusturya cephesi **yapılmamış.**
+
+Kaynaklardan bilinen savaş arkı (TDV, bu oturumda çekildi):
+```
+1737 Temmuz   Seckendorf Niş'i aldı                      TDV nis   → veride YOK
+1737 Ekim     Köprülüzâde Hâfız Ahmed Paşa geri aldı     TDV nis   → veride YOK
+1738 Ağustos  Avusturyalılar Semendire bölgesinden çıktı TDV semendire → veride YOK
+1739 Eylül    Belgrad ANTLAŞMAYLA teslim edildi          TDV belgrad → veride VAR ✓
+```
+
+### Hangi kayıt doğru, hangisi değil — ayırdım
+```
+✓ DOĞRU    Belgrad 1739-09-18       TDV: "Belgrad Antlaşması ile teslim edildi"
+                                     — antlaşmayla devredildi, tarih yerinde
+✓ MUHTEMEL Oltenya dörtlüsü 1739-09-18  Krayova · Rimnik · Turnu Severin · Tırgu Jiu
+                                     antlaşmayla iade edildi (fethedilmedi)
+✗ YANLIŞ   Semendire 1739-09-18     TDV: Ağustos 1738 → ~13 ay geç (A-6)
+? AÇIK     Böğürdelen · Kragujevac · Çaçak 1739-09-18   kaynaksız, muhtemelen 1738
+✗ EKSİK    Niş 1737-07 → 1737-10 Avusturya penceresi (A-8)
+```
+
+📌 **A-1'in kuralı burada da hakem:** *fiilen alınan yer fetih tarihiyle,
+devredilen yer antlaşma tarihiyle.* Belgrad **devredildi** ⇒ `1739-09-18`
+doğru. Semendire **fiilen kaybedildi** ⇒ 1738 olmalı. Grubun tek tip yazılmış
+olması **kurala uyduğu için değil, ayrıştırılmadığı için.**
+
+⚠️ **Ve A-6'daki hükmümü bu ölçüm tamamlıyor:** *"1739 grubu tek tip DEĞİL"*
+demiştim; şimdi hangi üyenin hangi sınıfta olduğu da ayrıldı — **Belgrad'ı
+düzeltmeye kalkmak geriletme olur**, yalnız Semendire (ve muhtemelen üç
+komşusu) düzelir.
+
+### İhtiyaç listesi
+```
+KESİN, hazır    Niş  1737-07 → 1737-10   isg:avusturya   (ay hassasiyetli)
+KESİN, hazır    Semendire bitişi 1738-08 → ~1738-08-01   (ay hassasiyetli)
+KAYNAK gerek    Böğürdelen · Kragujevac · Çaçak: 1738 mi 1739 mu
+DOKUNMA         Belgrad 1739-09-18 · Oltenya dörtlüsü 1739-09-18
+```
+🔴 **Ve A-10 buraya da uzanıyor:** Niş 1737'si `s:` değil **`isg:`** olmalı —
+Osmanlı hükümranlığı üç ay boyunca hukuken sürdü, Avusturya fiilen tuttu ve
+**savaşsız** geri verdi. Aynı ölçüt, aynı sonuç.
