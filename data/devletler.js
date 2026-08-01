@@ -494,8 +494,8 @@ window.DEVLETLER = [
 // ===================== TIER 4 — BALKAN DEVLET/PRENSLİKLERİ =====================
 
 { id:"sirbistan-nemanjic", ad:"Sırbistan Krallığı (Nemanjić Hanedanı)", tur:"krallik", bolge:"balkanlar",
-  f:"1217-01-01", t:"1402-01-01", baskent:"Ras → Skopje → Serez (Duşan döneminde)",
-  ozet:"Stefan Nemanja'nın kurduğu hanedanın krallığa, Stefan Duşan döneminde kısa süreliğine imparatorluğa dönüştüğü ortaçağ Sırp devleti; Duşan'ın ölümüyle parçalandı, Osmanlı karşısındaki yenilgilerle (Çirmen, Kosova) vasallığa düştü. Devam: bkz. [[sirp-despotlugu]]. Henüz renk/harita karşılığı yok (kaynak: TDV, madde: sirbistan).",
+  f:"1217-01-01", t:"1402-01-01", baskent:"Ras → Skopje → Serez (Duşan döneminde)", harita:"sirbistan",
+  ozet:"Stefan Nemanja'nın kurduğu hanedanın krallığa, Stefan Duşan döneminde kısa süreliğine imparatorluğa dönüştüğü ortaçağ Sırp devleti; Duşan'ın ölümüyle parçalandı, Osmanlı karşısındaki yenilgilerle (Çirmen, Kosova) vasallığa düştü. Devam: bkz. [[sirp-despotlugu]]. (kaynak: TDV, madde: sirbistan)",
   kronoloji:[
     { t:"1217-01-01", tur:"kurulus", b:"Stefan Prvovenčani (İlk Taçlı) Sırbistan Krallığı'nı ilan etti" },
     { t:"1331-01-01", tur:"hukumdar", b:"Stefan Duşan tahta çıktı" },
