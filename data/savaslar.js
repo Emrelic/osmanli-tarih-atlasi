@@ -6,6 +6,17 @@
 //              taraf_metin: serbest metin (eskiden "taraf" idi, ekranda gösterim için)
 //              taraf: data/devletler.js id listesi — OTURUM 10 (2026-07-29) eklendi
 //              galip: yalnız açık galibi olan meydan/deniz muharebelerinde var
+//              bitis: (opsiyonel, OTURUM 10 2026-08-01 eklendi) çok aylık
+//              kuşatma/harekâtlarda SONUÇ tarihi — t: başlangıcı taşımaya devam
+//              ediyor. Koordinatör'ün ölçtüğü "kılıç beliriyor ama kronoloji
+//              maddesi aylar sonra akıyor" sorununa karşı: js/app.js bugün
+//              yalnız t:+sure: okuyor, bitis: alanını KULLANMIYOR — devreye
+//              girmesi Oturum 1'in işi. Yalnız kronolojide gerçek bir madde
+//              tarihi olan 5 kayda eklendi (uydurma yok): Rodos 1480/1522,
+//              Bağdat 1638, Hotin 1621, Çanakkale zaferi 1657. Şahkulu (Teke,
+//              +31 gün) bu kalıba girmiyor — kuşatma değil, isyan; kronolojide
+//              başlangıcı için İKİ çelişen madde var (Mart/Nisan 1511), o yüzden
+//              t: değiştirilmedi, bkz. OTURUM-10-ILERLEME.md.
 // ANTLASMALAR: {t, ad, taraf_metin, ozet, taraf, topraklar}
 //              topraklar: hangi yerin kimden kime geçtiği (OTURUM 10 eklendi)
 // SERILER    : ülkeler arası savaş dizileri {id, ad, aralik, ozet}
@@ -168,9 +179,13 @@ window.SAVASLAR = [
 { t:"1516-08-24", tur:"meydan", ad:"Mercidabık",                taraf_metin:"Memlûk",            sonuc:"zafer",   seri:"memluk",  lat:36.60, lon:37.00, taraf:["osmanli","memluk"], galip:"osmanli" },
 { t:"1517-01-22", tur:"meydan", ad:"Ridaniye",                  taraf_metin:"Memlûk",            sonuc:"zafer",   seri:"memluk",  lat:30.06, lon:31.28, taraf:["osmanli","memluk"], galip:"osmanli" },
 { t:"1526-08-29", tur:"meydan", ad:"Mohaç",                     taraf_metin:"Macaristan",        sonuc:"zafer",   seri:"habsburg",lat:45.94, lon:18.64, taraf:["osmanli","macaristan"], galip:"osmanli" },
-{ t:"1529-09-27", tur:"kusatma", ad:"I. Viyana Kuşatması",       taraf_metin:"Habsburg",          sonuc:"belirsiz",seri:"habsburg",lat:48.21, lon:16.37, taraf:["osmanli","habsburg"] },
+// Mükerrer kayıt bulundu ve kaldırıldı (Koordinatör turu, kendi denetimim):
+// bu satır aşağıdaki (~263. satır) "I. Viyana kuşatması" ile aynı t/lat/lon —
+// iki ⚔ işareti aynı yerde aynı tarihte çakışıyordu. sonuc burada "belirsiz"
+// yazıyordu, doğrusu (kuşatma başarısız, ordu geri çekildi) "yenilgi" —
+// hayatta kalan kayıt zaten doğru değeri taşıyor.
 { t:"1538-09-28", tur:"deniz", ad:"Preveze (deniz)",           taraf_metin:"Haçlı donanması",   sonuc:"zafer",   seri:"venedik", lat:38.95, lon:20.75, taraf:["osmanli","venedik","ispanya","papalik"], galip:"osmanli" },
-{ t:"1565-05-18", tur:"kusatma", ad:"Malta kuşatması",           taraf_metin:"Saint Jean",        sonuc:"yenilgi", seri:"venedik", lat:35.90, lon:14.42, taraf:["osmanli","rodos-sovalyeleri"], galip:"rodos-sovalyeleri" },
+{ t:"1565-05-18", tur:"kusatma", ad:"Malta kuşatması",           taraf_metin:"Saint Jean",        sonuc:"yenilgi", seri:"venedik", lat:35.90, lon:14.42, sure:300, taraf:["osmanli","rodos-sovalyeleri"], galip:"rodos-sovalyeleri" },
 { t:"1571-10-07", tur:"deniz", ad:"İnebahtı (deniz)",          taraf_metin:"Kutsal İttifak",    sonuc:"yenilgi", seri:"venedik", lat:38.25, lon:21.30, taraf:["osmanli","ispanya","venedik","papalik","cenova","rodos-sovalyeleri"], galip:"ispanya" },
 // hatalar 4.docx madde 3 — kullanıcı: "1578 fasın osmanlı himayesine girmesi ile
 // ilgili savaşın yeri ve bir tane ok gösterebiliriz". Vâdisseyl (Kasrülkebir)
@@ -259,12 +274,14 @@ window.SAVASLAR = [
 { t:"1422-06-10", tur:"kusatma", ad:"İstanbul kuşatması",   taraf_metin:"Bizans",    sonuc:"yenilgi", seri:"bizans",   lat:41.01, lon:28.95, sure:200, taraf:["osmanli","bizans"] },
 { t:"1440-04-28", tur:"kusatma", ad:"Belgrad kuşatması",    taraf_metin:"Macaristan",sonuc:"yenilgi", seri:"hacli",    lat:44.82, lon:20.46, sure:200, taraf:["osmanli","macaristan"] },
 { t:"1456-07-04", tur:"kusatma", ad:"Belgrad kuşatması",    taraf_metin:"Macaristan",sonuc:"yenilgi", seri:"hacli",    lat:44.82, lon:20.46, sure:300, taraf:["osmanli","macaristan"] },
-{ t:"1480-05-23", tur:"kusatma", ad:"Rodos kuşatması",      taraf_metin:"St. Jean",  sonuc:"yenilgi", seri:"venedik",  lat:36.44, lon:28.22, sure:300, taraf:["osmanli","rodos-sovalyeleri"] },
+{ t:"1480-05-23", tur:"kusatma", ad:"Rodos kuşatması",      taraf_metin:"St. Jean",  sonuc:"yenilgi", seri:"venedik",  lat:36.44, lon:28.22, sure:300, bitis:"1480-07-28", taraf:["osmanli","rodos-sovalyeleri"] },
 { t:"1529-09-27", tur:"kusatma", ad:"I. Viyana kuşatması",  taraf_metin:"Habsburg",  sonuc:"yenilgi", seri:"habsburg", lat:48.21, lon:16.37, sure:300, taraf:["osmanli","habsburg"] },
-{ t:"1565-05-18", tur:"kusatma", ad:"Malta kuşatması",      taraf_metin:"St. Jean",  sonuc:"yenilgi", seri:"venedik",  lat:35.90, lon:14.51, sure:300, taraf:["osmanli","rodos-sovalyeleri"] },
+// Mükerrer kayıt bulundu ve kaldırıldı (Koordinatör turu, kendi denetimim):
+// yukarıdaki (~173. satır) kayıtla aynı t — sure:300 oraya taşındı, galip
+// alanı yalnız orada vardı, bu kopyada eksikti.
 // Hotin: kesin sonuca ulaşmadı — Osmanlı kaleyi alamadı, Lehistan da savaşı sürdüremeyip
 // masaya oturdu (1621 Hotin Antlaşması, statüko). "Belirsiz" sayıldı, galip yazılmadı.
-{ t:"1621-09-02", tur:"kusatma", ad:"Hotin kuşatması",      taraf_metin:"Lehistan",  sonuc:"belirsiz",seri:"lehistan", lat:48.51, lon:26.49, sure:200, taraf:["osmanli","lehistan"] },
+{ t:"1621-09-02", tur:"kusatma", ad:"Hotin kuşatması",      taraf_metin:"Lehistan",  sonuc:"belirsiz",seri:"lehistan", lat:48.51, lon:26.49, sure:200, bitis:"1621-10-09", taraf:["osmanli","lehistan"] },
 { t:"1683-07-14", tur:"kusatma", ad:"II. Viyana kuşatması", taraf_metin:"Habsburg",  sonuc:"yenilgi", seri:"habsburg", lat:48.21, lon:16.37, sure:300, taraf:["osmanli","habsburg"] },
 { t:"1516-08-02", tur:"kusatma", ad:"Aden kuşatması",       taraf_metin:"Yemen",     sonuc:"yenilgi", seri:"memluk",   lat:12.79, lon:45.02, sure:200, taraf:["osmanli","yemen-zeydi"] },
 { t:"1537-08-25", tur:"kusatma", ad:"Korfu kuşatması",      taraf_metin:"Venedik",   sonuc:"yenilgi", seri:"venedik",  lat:39.62, lon:19.92, sure:200, taraf:["osmanli","venedik"] },
@@ -277,10 +294,10 @@ window.SAVASLAR = [
 // --- Başarılı büyük kuşatmalar ---
 { t:"1453-04-06", tur:"kusatma", ad:"İstanbul kuşatması",   taraf_metin:"Bizans",    sonuc:"zafer",   seri:"bizans",   lat:41.01, lon:28.95, sure:120, taraf:["osmanli","bizans"] },
 { t:"1521-06-25", tur:"kusatma", ad:"Belgrad kuşatması",    taraf_metin:"Macaristan",sonuc:"zafer",   seri:"habsburg", lat:44.82, lon:20.46, sure:200, taraf:["osmanli","macaristan"] },
-{ t:"1522-06-26", tur:"kusatma", ad:"Rodos kuşatması",      taraf_metin:"St. Jean",  sonuc:"zafer",   seri:"venedik",  lat:36.44, lon:28.22, sure:300, taraf:["osmanli","rodos-sovalyeleri"] },
+{ t:"1522-06-26", tur:"kusatma", ad:"Rodos kuşatması",      taraf_metin:"St. Jean",  sonuc:"zafer",   seri:"venedik",  lat:36.44, lon:28.22, sure:300, bitis:"1522-12-21", taraf:["osmanli","rodos-sovalyeleri"] },
 { t:"1570-07-25", tur:"kusatma", ad:"Lefkoşa kuşatması",    taraf_metin:"Venedik",   sonuc:"zafer",   seri:"venedik",  lat:35.19, lon:33.36, sure:200, taraf:["osmanli","venedik"] },
 { t:"1648-05-01", tur:"kusatma", ad:"Kandiye kuşatması",    taraf_metin:"Venedik",   sonuc:"zafer",   seri:"venedik",  lat:35.34, lon:25.13, sure:800, taraf:["osmanli","venedik"] },
-{ t:"1638-11-15", tur:"kusatma", ad:"Bağdat kuşatması",     taraf_metin:"Safevî",    sonuc:"zafer",   seri:"safevi",   lat:33.34, lon:44.36, sure:200, taraf:["osmanli","safevi"] },
+{ t:"1638-11-15", tur:"kusatma", ad:"Bağdat kuşatması",     taraf_metin:"Safevî",    sonuc:"zafer",   seri:"safevi",   lat:33.34, lon:44.36, sure:200, bitis:"1638-12-24", taraf:["osmanli","safevi"] },
 
 // --- İç isyanlar (ateş) ---
 // Not: bu bölümdeki isyanların çoğu devlet-i aliyye içi hareketlerdir; devletler.js'te
@@ -345,7 +362,7 @@ window.SAVASLAR = [
 { t:"1560-05-14", tur:"deniz", ad:"Cerbe",                  taraf_metin:"İspanya",  sonuc:"zafer",   seri:"venedik", lat:33.81, lon:10.86, sure:400, taraf:["osmanli","ispanya"], galip:"osmanli" },
 { t:"1571-10-07", tur:"deniz", ad:"İnebahtı (Lepanto)",     taraf_metin:"Haçlı donanması", sonuc:"yenilgi", seri:"venedik", lat:38.20, lon:21.30, sure:400, taraf:["osmanli","ispanya","venedik","papalik","cenova","rodos-sovalyeleri"], galip:"ispanya" },
 { t:"1656-06-26", tur:"deniz", ad:"Çanakkale bozgunu",      taraf_metin:"Venedik",  sonuc:"yenilgi", seri:"venedik", lat:40.05, lon:26.05, sure:300, taraf:["osmanli","venedik"], galip:"venedik" },
-{ t:"1657-07-19", tur:"deniz", ad:"Çanakkale zaferi",       taraf_metin:"Venedik",  sonuc:"zafer",   seri:"venedik", lat:40.05, lon:26.05, sure:300, taraf:["osmanli","venedik"], galip:"osmanli" },
+{ t:"1657-07-19", tur:"deniz", ad:"Çanakkale zaferi",       taraf_metin:"Venedik",  sonuc:"zafer",   seri:"venedik", lat:40.05, lon:26.05, sure:300, bitis:"1657-08-25", taraf:["osmanli","venedik"], galip:"osmanli" },
 { t:"1770-07-06", tur:"deniz", ad:"Çeşme baskını",          taraf_metin:"Rusya",    sonuc:"yenilgi", seri:"rus",     lat:38.32, lon:26.31, sure:400, taraf:["osmanli","rusya"], galip:"rusya" },
 { t:"1827-10-20", tur:"deniz", ad:"Navarin baskını",        taraf_metin:"İngiltere-Fransa-Rusya", sonuc:"yenilgi", seri:"yunan", lat:36.92, lon:21.69, sure:400, taraf:["osmanli","misir-kavalali","ingiltere","rusya"], galip:"ingiltere" },
 { t:"1853-11-30", tur:"deniz", ad:"Sinop baskını",          taraf_metin:"Rusya",    sonuc:"yenilgi", seri:"rus",     lat:42.03, lon:35.15, sure:300, taraf:["osmanli","rusya"], galip:"rusya" }
