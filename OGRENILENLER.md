@@ -2842,3 +2842,51 @@ bulgu asla çıkmazdı — ve nitekim çıkmadı.
 TARİHLER ARASINDA kasten sahipsiz"* denemiyor. Yani şu an doğru cevabı
 **yazacak alan yok.** MOTOR'a gitti.
 
+
+---
+
+## §73 — BULGUYA GÜÇ ETİKETİ KOYMAK, YANLIŞ BULGUNUN MALİYETİNİ SIFIRA İNDİRİR
+
+`§72` bir yamanın yanlış yöne gitmesini anlatıyor. Bu madde onun **eksik
+yarısı**: yanlış bulgu **kaçınılmazdır**, mesele onu **zararsız** kılmaktır.
+
+ÇAPRAZ DOĞU, Teslim 5'te yedi noktalık bir "erken Osmanlı hayaleti" listesi
+verdi — **ama her satırı güç etiketiyle:**
+```
+Sevâkin · Akîk           KESİN     (dated: sancak beyi 10 Nisan 1554)
+Halâib · Tokar · Sinkat  DESEN     (aynı kalıp, doğrudan alıntı yok)
+İbrim · Vâdî Halfa       ZAYIF     (dolaylı çıkarım)
+```
+Teslim 6'da `nube` maddesini okudu ve **ZAYIF olan ikisini geri aldı**: 1573
+fetih değil **idarî bağlanma** tarihiymiş, veri zaten doğruymuş.
+```
+erken Osmanlı hayaleti:  190,9  →  75,2 nokta-yıl
+```
+
+🟢 **Ve geri alma HİÇBİR ŞEYE MAL OLMADI** — çünkü hiçbir yama ZAYIF satıra
+dayanmamıştı. Onların cümlesi:
+
+> *"Çürüyen iddiayı **ZAYIF** diye işaretlediğim için hiçbir yama ona
+> dayanmadı."*
+
+### Kural
+
+> **Her bulgu, kanıtının gücüyle birlikte yazılır** — `KESİN` (tarihli/alıntılı)
+> · `DESEN` (aynı kalıp, doğrudan kanıt yok) · `ZAYIF` (dolaylı çıkarım) ·
+> `ÇELİŞKİLİ` (kaynaklar uyuşmuyor).
+> **Ve yama yalnız `KESİN` satıra dayanır.** Diğerleri **bulgudur ama emir
+> değildir.**
+
+📌 `§72`'deki sabah vakasının eksiği **tam buydu.** Orada *"hayalet Memlük 39,7
+yıl"* tek bir güvenle yazıldı, sınır kaydırıldı ve **hata taraf değiştirdi.**
+Etiket olsaydı `DESEN` olurdu — ve `DESEN`'e yama yapılmazdı.
+
+⚠️ Ve etiket **sonradan düşebilir.** Teslim 5'te `KESİN` olan Sevâkin/Akîk,
+Teslim 6'da iki TDV maddesi çeliştiği için `ÇELİŞKİLİ`ye indi. **Güç, bulgunun
+sabit özelliği değil — o anki kanıtın özelliğidir.**
+
+🔴 Bunun bir bedeli var ve kabul ediyoruz: **`ZAYIF` etiketli doğru bulgular
+gecikir.** Ama gecikmiş doğru, uygulanmış yanlıştan ucuzdur — çünkü uygulanmış
+yanlış **yeşil değişmezin arkasına saklanır** (`§72`) ve onu bulmak için ikinci
+bir oturum gerekir.
+
