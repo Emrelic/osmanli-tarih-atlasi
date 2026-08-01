@@ -1,0 +1,1075 @@
+{
+ "-6.5,54.5": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 379,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "10.0,60.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 136,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "10.5,45.5": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 349,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "11.0,60.5": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 390,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "12.0,59.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 289,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "12.0,62.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 13,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "13.5,57.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 230,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "13.5,59.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 5735,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "14.5,56.5": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 152,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "14.5,58.5": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 1953,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "15.0,58.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 178,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "15.0,61.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 326,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "16.0,59.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 506,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "17.0,60.5": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 262,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "17.5,59.5": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 1836,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "18.0,47.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 526,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "18.5,42.5": {
+  "donem": 116,
+  "ilk": "1281-01-01",
+  "kanit": "Cetinje",
+  "km2": 3901,
+  "sinif": "ARAŞTIRMA",
+  "son": "1482-01-01"
+ },
+ "19.5,42.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 378,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "20.0,54.5": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 737,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "20.5,41.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 364,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "21.0,41.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 278,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "21.5,60.0": {
+  "donem": 58,
+  "ilk": "1566-04-14",
+  "kanit": null,
+  "km2": 47,
+  "sinif": "NOKTA YOK",
+  "son": "1623-11-28"
+ },
+ "21.5,60.5": {
+  "donem": 58,
+  "ilk": "1566-04-14",
+  "kanit": null,
+  "km2": 18,
+  "sinif": "NOKTA YOK",
+  "son": "1623-11-28"
+ },
+ "22.0,60.0": {
+  "donem": 58,
+  "ilk": "1566-04-14",
+  "kanit": null,
+  "km2": 58,
+  "sinif": "NOKTA YOK",
+  "son": "1623-11-28"
+ },
+ "22.0,60.5": {
+  "donem": 116,
+  "ilk": "1566-04-14",
+  "kanit": null,
+  "km2": 93,
+  "sinif": "NOKTA YOK",
+  "son": "1623-11-28"
+ },
+ "22.5,59.0": {
+  "donem": 29,
+  "ilk": "1566-04-14",
+  "kanit": null,
+  "km2": 31,
+  "sinif": "NOKTA YOK",
+  "son": "1623-11-28"
+ },
+ "22.5,60.0": {
+  "donem": 145,
+  "ilk": "1566-04-14",
+  "kanit": null,
+  "km2": 456,
+  "sinif": "NOKTA YOK",
+  "son": "1623-11-28"
+ },
+ "22.5,60.5": {
+  "donem": 29,
+  "ilk": "1566-04-14",
+  "kanit": null,
+  "km2": 33,
+  "sinif": "NOKTA YOK",
+  "son": "1623-11-28"
+ },
+ "22.5,61.0": {
+  "donem": 452,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 155,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "23.0,59.0": {
+  "donem": 58,
+  "ilk": "1566-04-14",
+  "kanit": null,
+  "km2": 103,
+  "sinif": "NOKTA YOK",
+  "son": "1623-11-28"
+ },
+ "23.0,60.0": {
+  "donem": 58,
+  "ilk": "1566-04-14",
+  "kanit": null,
+  "km2": 22,
+  "sinif": "NOKTA YOK",
+  "son": "1623-11-28"
+ },
+ "23.0,61.5": {
+  "donem": 452,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 129,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "23.5,61.5": {
+  "donem": 452,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 515,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "24.0,60.0": {
+  "donem": 452,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 137,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "24.0,61.5": {
+  "donem": 452,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 595,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "24.5,59.5": {
+  "donem": 29,
+  "ilk": "1566-04-14",
+  "kanit": null,
+  "km2": 14,
+  "sinif": "NOKTA YOK",
+  "son": "1623-11-28"
+ },
+ "24.5,62.0": {
+  "donem": 452,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 25,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "25.0,61.0": {
+  "donem": 29,
+  "ilk": "1566-04-14",
+  "kanit": "Helsinki",
+  "km2": 70637,
+  "sinif": "ARAŞTIRMA",
+  "son": "1623-11-28"
+ },
+ "25.5,60.5": {
+  "donem": 29,
+  "ilk": "1566-04-14",
+  "kanit": null,
+  "km2": 29,
+  "sinif": "NOKTA YOK",
+  "son": "1623-11-28"
+ },
+ "25.5,61.5": {
+  "donem": 452,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 1757,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "26.0,58.5": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 266,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "26.0,61.5": {
+  "donem": 452,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 464,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "26.5,60.5": {
+  "donem": 29,
+  "ilk": "1566-04-14",
+  "kanit": null,
+  "km2": 22,
+  "sinif": "NOKTA YOK",
+  "son": "1623-11-28"
+ },
+ "26.5,61.5": {
+  "donem": 452,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 299,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "26.5,62.0": {
+  "donem": 452,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 667,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "27.0,60.0": {
+  "donem": 29,
+  "ilk": "1566-04-14",
+  "kanit": null,
+  "km2": 21,
+  "sinif": "NOKTA YOK",
+  "son": "1623-11-28"
+ },
+ "27.5,58.5": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 3578,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "27.5,61.0": {
+  "donem": 452,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 162,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "28.0,59.5": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 220,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "28.5,61.5": {
+  "donem": 452,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 4623,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "29.5,10.0": {
+  "donem": 403,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 38063,
+  "sinif": "NOKTA YOK",
+  "son": "1916-06-10"
+ },
+ "30.0,60.5": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 173,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "30.0,62.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 285,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "30.0,8.5": {
+  "donem": 1,
+  "ilk": "1882-09-07",
+  "kanit": null,
+  "km2": 13,
+  "sinif": "NOKTA YOK",
+  "son": "1883-12-23"
+ },
+ "30.5,46.5": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 339,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "31.0,2.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 3680,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "31.0,38.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 443,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "31.0,62.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 92,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "31.5,38.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 646,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "31.5,50.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 244,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "31.5,58.5": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 906,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "31.5,61.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 17625,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "32.5,1.5": {
+  "donem": 962,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 564,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "32.5,30.5": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 235,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "33.0,1.5": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 614,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "33.0,57.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 200,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "33.0,62.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 210,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "33.5,39.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 1583,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "34.0,21.0": {
+  "donem": 450,
+  "ilk": "1281-01-01",
+  "kanit": "Nûbe çölü",
+  "km2": 66524,
+  "sinif": "KASITLI SAHİPSİZ",
+  "son": "1914-12-18"
+ },
+ "34.5,46.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 2324,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "35.5,31.5": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 659,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "35.5,61.5": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 6867,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "36.0,2.0": {
+  "donem": 411,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 3937,
+  "sinif": "NOKTA YOK",
+  "son": "1898-12-01"
+ },
+ "36.0,3.5": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 7735,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "37.0,30.5": {
+  "donem": 5,
+  "ilk": "1918-01-01",
+  "kanit": null,
+  "km2": 12,
+  "sinif": "NOKTA YOK",
+  "son": "1918-09-25"
+ },
+ "37.0,4.5": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 766,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "37.5,12.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 3148,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "37.5,6.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 331,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "37.5,60.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 1094,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "38.0,3.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 56271,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "38.0,6.5": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 1129,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "39.0,60.5": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 436,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "39.0,61.5": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 349,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "39.5,59.5": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 438,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "40.0,31.5": {
+  "donem": 176,
+  "ilk": "1769-09-19",
+  "kanit": null,
+  "km2": 31761,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "40.5,58.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 559,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "42.0,11.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 319,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "42.0,27.5": {
+  "donem": 67,
+  "ilk": "1769-09-19",
+  "kanit": "Hâil",
+  "km2": 81631,
+  "sinif": "ARAŞTIRMA",
+  "son": "1837-10-13"
+ },
+ "43.0,38.5": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 3493,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "43.5,33.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 1430,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "43.5,34.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 1517,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "44.0,7.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": "Somali çölü",
+  "km2": 157037,
+  "sinif": "KASITLI SAHİPSİZ",
+  "son": "1923-10-29"
+ },
+ "45.0,43.5": {
+  "donem": 313,
+  "ilk": "1281-01-01",
+  "kanit": "Vladikavkaz",
+  "km2": 28597,
+  "sinif": "ARAŞTIRMA",
+  "son": "1788-04-24"
+ },
+ "45.5,37.5": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 4334,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "45.5,40.5": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 1373,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "46.5,30.5": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 14,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "46.5,49.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 168,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "47.0,22.5": {
+  "donem": 19,
+  "ilk": "1716-10-13",
+  "kanit": "Rub'ul Hâlî kuzeyi",
+  "km2": 1422047,
+  "sinif": "KASITLI SAHİPSİZ",
+  "son": "1769-09-19"
+ },
+ "47.0,23.0": {
+  "donem": 286,
+  "ilk": "1281-01-01",
+  "kanit": "Rub'ul Hâlî kuzeyi",
+  "km2": 1483215,
+  "sinif": "KASITLI SAHİPSİZ",
+  "son": "1716-10-13"
+ },
+ "47.0,31.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 915,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "48.0,29.5": {
+  "donem": 286,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 144,
+  "sinif": "NOKTA YOK",
+  "son": "1716-10-13"
+ },
+ "48.5,29.5": {
+  "donem": 286,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 58,
+  "sinif": "NOKTA YOK",
+  "son": "1716-10-13"
+ },
+ "48.5,49.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 215,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "49.0,19.5": {
+  "donem": 53,
+  "ilk": "1898-12-01",
+  "kanit": "Rub'ul Hâlî kuzeyi",
+  "km2": 772775,
+  "sinif": "KASITLI SAHİPSİZ",
+  "son": "1923-10-29"
+ },
+ "49.5,19.5": {
+  "donem": 22,
+  "ilk": "1871-09-20",
+  "kanit": "Rub'ul Hâlî kuzeyi",
+  "km2": 816750,
+  "sinif": "KASITLI SAHİPSİZ",
+  "son": "1898-12-01"
+ },
+ "49.5,20.0": {
+  "donem": 101,
+  "ilk": "1769-09-19",
+  "kanit": "Rub'ul Hâlî kuzeyi",
+  "km2": 867791,
+  "sinif": "KASITLI SAHİPSİZ",
+  "son": "1913-07-21"
+ },
+ "5.5,52.5": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 1977,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "50.0,49.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 238,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "50.5,26.0": {
+  "donem": 770,
+  "ilk": "1281-01-01",
+  "kanit": "Manama (Bahreyn)",
+  "km2": 587,
+  "sinif": "ARAŞTIRMA",
+  "son": "1865-01-01"
+ },
+ "50.5,26.5": {
+  "donem": 385,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 32,
+  "sinif": "NOKTA YOK",
+  "son": "1865-01-01"
+ },
+ "51.5,50.5": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 185,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "52.0,24.0": {
+  "donem": 389,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 10,
+  "sinif": "NOKTA YOK",
+  "son": "1871-09-20"
+ },
+ "52.5,24.5": {
+  "donem": 778,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 83,
+  "sinif": "NOKTA YOK",
+  "son": "1871-09-20"
+ },
+ "52.5,45.5": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 112,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "53.0,46.5": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 20,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "53.5,24.5": {
+  "donem": 340,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 126,
+  "sinif": "NOKTA YOK",
+  "son": "1821-01-04"
+ },
+ "54.0,24.0": {
+  "donem": 340,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 286,
+  "sinif": "NOKTA YOK",
+  "son": "1821-01-04"
+ },
+ "54.0,24.5": {
+  "donem": 680,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 52,
+  "sinif": "NOKTA YOK",
+  "son": "1821-01-04"
+ },
+ "54.0,25.0": {
+  "donem": 340,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 11,
+  "sinif": "NOKTA YOK",
+  "son": "1821-01-04"
+ },
+ "54.5,24.5": {
+  "donem": 680,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 45,
+  "sinif": "NOKTA YOK",
+  "son": "1821-01-04"
+ },
+ "56.0,43.5": {
+  "donem": 387,
+  "ilk": "1281-01-01",
+  "kanit": "Karakum",
+  "km2": 442979,
+  "sinif": "KASITLI SAHİPSİZ",
+  "son": "1871-01-01"
+ },
+ "56.0,44.0": {
+  "donem": 94,
+  "ilk": "1871-01-01",
+  "kanit": "Karakum",
+  "km2": 432287,
+  "sinif": "KASITLI SAHİPSİZ",
+  "son": "1923-10-29"
+ },
+ "59.0,52.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 323,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "6.5,46.5": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 524,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "60.0,45.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 74458,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "61.5,46.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 364,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "7.0,17.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": "Ndjamena",
+  "km2": 10763495,
+  "sinif": "KASITLI SAHİPSİZ",
+  "son": "1923-10-29"
+ },
+ "7.0,33.0": {
+  "donem": 16,
+  "ilk": "1552-01-01",
+  "kanit": null,
+  "km2": 10,
+  "sinif": "NOKTA YOK",
+  "son": "1574-08-25"
+ },
+ "7.0,4.5": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 187,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "7.5,1.5": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 157,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "7.5,4.5": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 111,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "8.5,3.5": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 1999,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "8.5,46.0": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 202,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "9.5,47.5": {
+  "donem": 481,
+  "ilk": "1281-01-01",
+  "kanit": null,
+  "km2": 447,
+  "sinif": "NOKTA YOK",
+  "son": "1923-10-29"
+ },
+ "_NOT": "İLK TAM ENVANTER, 2026-08-01, TAZE geometri üzerinde (donemler.js 13:14). 'Defterde var' = ÖLÇÜLDÜ demek; ARAŞTIRMA sınıfı hâlâ SEBEBİ BİLİNMEYEN demektir, kabul edilmiş değil."
+}
