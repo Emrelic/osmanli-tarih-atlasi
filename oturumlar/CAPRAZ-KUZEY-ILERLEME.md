@@ -415,3 +415,87 @@ vardı, adres yanlıştı (`ejderhan` · `karlofca-antlasmasi` · + kabuk `lehis
   koşturamadım; uygulayan oturum koşturmalı.
 - **1648 Hmelnitski günü** — **dördüncü turda da yapılmadı.** Borç büyüyor,
   sıradaki turun ilk işi.
+  → *Tur 5'te de yapılmadı — koordinatör takvim taramasını öne aldı.*
+
+---
+
+## Tur 5 — 2026-08-01, sistematik takvim taraması
+
+### Ö19 · Tarama tabanı
+
+`rusya` · `lehistan` · `isvec` pencerelerinin 1582-1918 arası **bütün** sınır
+günleri çıkarıldı: **63 ayrı gün.**
+
+```bash
+node -e "…for(const g of [p.f,p.t]){if(g<='1582-01-01'||g>='1919-01-01')continue;…}"
+```
+En kalabalık günler: `1813-10-24` (15 nokta, Gülistan) · `1723-09-23` (10, Petro'nun
+Hazar seferi) · `1774-07-21` (8, Küçük Kaynarca) · `1793-01-23` (7, 2. taksim) ·
+`1812-05-28` (7, Bükreş).
+
+📌 Yan gözlem: `1667-02-09` listede — **Tur 1'deki Kiev düzeltmem uygulanmış.**
+
+---
+
+### Ö20 · Çift gösterimli kanıt bulunan iki vaka
+
+| olay | kaynağın verdiği | bizdeki | fark |
+|---|---|---|---|
+| Kırım'ın ilhakı | **"19 April [O.S. 8 April] 1783"** | `1783-04-08` | 11 gün |
+| Nystad | **"10 September [O.S. 30 August] 1721"** | `1721-08-30` | 11 gün |
+
+Fark, XVIII. yy için beklenen **11 gün** ile birebir tutuyor — koordinatörün
+verdiği kademe tablosuyla uyumlu.
+
+⚠️ Kırım vakası **üç dosyaya** birden dokunuyor: `yerlesimler.js` (3 nokta) ·
+`devletler.js` (`kirim` `t:`) · kronoloji (`1783-04`).
+
+---
+
+### Ö21 · TDV'nin hicrî karşılığı — B14'ün dayanağı
+
+| TDV maddesi | verdiği hicrî | milâdî günü doğru mu |
+|---|---|---|
+| `karlofca` (Karlofça) | 24 Receb 1110 | 🟢 |
+| `karlofca` (İstanbul 1700) | 27 Muharrem 1112 | 🟢 |
+| `kucuk-kaynarca-antlasmasi` | 12 Cemâziyelevvel 1188 | 🟢 |
+| `kirim` (1783 ilhak) | **1197** (yalnız yıl) | 🔴 Jülyen |
+| `azak` (1696) | **1108** (yalnız yıl) | 🟡 tutmuyor |
+
+**n=5, ayrım beş vakada da tutuyor.** Eşik ÖNERİLMEDİ (`ORGANIZASYON §7.4`).
+
+---
+
+### Ö22 · Türkmençay'ın veride ikiye bölünmüş hâli
+
+```
+1828-02-10   Astara · Lenkeran            (2 nokta)  ← düzeltilmemiş
+1828-02-22   Nahçıvan · Revan · Ordubad   (3 nokta)  ← düzeltilmiş
+```
+Aynı antlaşma, 12 gün arayla iki gün. Yarım uygulanmış düzeltme.
+
+---
+
+### Ö23 · TDV slug ölçümü — tur 5
+
+| slug | `<title>` | hüküm |
+|---|---|---|
+| `kucuk-kaynarca-antlasmasi` | "KÜÇÜK KAYNARCA ANTLAŞMASI - TDV İslâm Ansiklopedisi" | 🟢 canlı, dolu |
+
+📌 Beş turda **8 canlı · 1 kabuk · 3 ölü.** Bu turun slug'ı **uzun ad olduğu
+hâlde canlı** — yani `karlofca-antlasmasi`'nın ölü, `kucuk-kaynarca-antlasmasi`'nın
+canlı olması TDV'de **tek bir adlandırma kuralı olmadığını** gösteriyor.
+Tur 2'de *"TDV kısa adı kullanıyor"* diye desen çıkarmıştım — **o da çürüdü.**
+
+---
+
+## Tur 5'te ölçmediğim, iddia da etmediğim şeyler
+
+- **`1617-02-27` Stolbovo · `1621-09-15` Riga · `1769-09-19` Hotin** — kaynak
+  aranmadı, "sebebi belirsiz" olarak bırakıldı.
+- **`isvec` pencerelerinin tamamı** — İsveç 1753'e kadar Jülyen kullandı, yani
+  5 nokta/5 pencerenin hepsi aday. **Taranmadı.**
+- **`1637-06-18` Azak** — TDV gün vermiyor, çift gösterim bulunamadı.
+- **63 sınır gününün çoğu** — yalnız antlaşmaya bağlananlar tarandı; geri kalan
+  (fetih/kuşatma günleri) **taranmadı.**
+- **1648 Hmelnitski günü** — beşinci turda da yapılmadı.

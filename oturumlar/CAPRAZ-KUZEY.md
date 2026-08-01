@@ -764,7 +764,143 @@ karşılığı tam bu.
 
 ---
 
-## 25. SIRADAKİ TUR — kendi kuyruğum
+---
+---
+
+# TUR 5 — sistematik takvim taraması
+
+Koordinatörün verdiği görev. Yöntem onun tarif ettiği üç adım; **kanıt ölçütü
+katı tutuldu:** bir tarihe "Jülyen" demek için kaynağın **çift gösterim**
+(`19 April [O.S. 8 April]`) vermesi şart. Vermiyorsa fark ne olursa olsun
+*"sebebi belirsiz"* yazdım.
+
+---
+
+## 26. 📋 TARAMA TABANI
+
+`rusya` · `lehistan` · `isvec` pencerelerinin **1582-1918 arasındaki bütün sınır
+günleri: 63 ayrı gün.** Bunların TDV'de karşılığı olan ve/veya antlaşmaya bağlı
+olanları tarandı.
+
+### 🟢 GREGORYEN — doğru, dokunulmayacak (7)
+
+| tarih | olay | kaynak | hicrî karşılığı |
+|---|---|---|---|
+| `1654-01-18` | Pereyaslav → Poltava | çift gösterim | — |
+| **`1667-02-09`** | Andrusova → Kiev | çift gösterim | — |
+| `1672-08-27` | Kamaniçe | TDV `polonya` | — |
+| `1672-10-18` | Bucaş | TDV `polonya` | — |
+| `1699-01-26` | Karlofça | TDV `karlofca` | **24 Receb 1110** |
+| `1700-07-14` | İstanbul | TDV `karlofca` | **27 Muharrem 1112** |
+| **`1774-07-21`** | Küçük Kaynarca | TDV `kucuk-kaynarca-antlasmasi` | **12 Cemâziyelevvel 1188** |
+
+✅ **`1667-02-09` — Tur 1'deki Kiev düzeltmem veride uygulanmış**, ölçtüm ve gördüm.
+
+### 🔴 JÜLYEN — çift gösterimle kanıtlı (2 yeni)
+
+**① Kırım'ın ilhakı — `1783-04-08` → `1783-04-19`**
+```
+② KAYNAK:  "19 April [O.S. 8 April] 1783"   ← çift gösterim, 11 gün
+① BİZDE:   Bahçesaray · Kuban (Yekaterinodar) · Bozkır (Deşt-i Kıpçak)
+           s:"kirim" biter → s:"rusya" başlar   1783-04-08
+           + data/devletler.js  kirim  t:"1783-04-08"
+           + kronoloji  t:"1783-04"  "Kırım'ın Rusya'ya ilhakı"
+③ HÜKÜM:   ÇELİŞİYOR — ham Jülyen. Üç veri dosyasına birden dokunuyor.
+```
+
+**② Nystad Antlaşması — `1721-08-30` → `1721-09-10`**
+```
+② KAYNAK:  "10 September [O.S. 30 August] 1721"   ← çift gösterim, 11 gün
+① BİZDE:   Riga  s:"isvec" biter → s:"rusya" başlar   1721-08-30
+③ HÜKÜM:   ÇELİŞİYOR — ham Jülyen.
+```
+📌 Bu ikincisi ayrıca **İsveç kapısını** açıyor: İsveç 1753'e kadar Jülyen
+kullandı, yani `isvec` pencerelerinin **hepsi** aynı şüphe altında.
+
+### 🟡 SEBEBİ BELİRSİZ — fark var ama çift gösterim YOK (4)
+
+| tarih | olay | neden hüküm veremiyorum |
+|---|---|---|
+| `1696-07-19` | Azak'ın Petro'ya kaybı | TDV **6 Ağustos** diyor; ne Jülyen (19 Tem) ne Gregoryen (29 Tem) ile tutuyor. **Üç ayrı tarih**, çift gösterim yok |
+| `1637-06-18` | Azak'ın Kazaklara kaybı | TDV yalnız **yıl** veriyor |
+| `1617-02-27` | Stolbovo → St. Petersburg | ölçülmedi, kaynak aranmadı |
+| `1621-09-15` | Riga'nın İsveç'e geçişi | İsveç Jülyen'i (1753'e kadar) — **aday**, ölçülmedi |
+| `1769-09-19` | Hotin'in Ruslara kaybı | ölçülmedi |
+
+⚠️ Bunları **düzeltme önerisi olarak vermiyorum.** Koordinatörün kuralı açık:
+çift gösterim yoksa fark başka sebeptendir.
+
+---
+
+## 27. 🔴 B14 — HİPOTEZİMDE DELİK VAR: **TDV DE JÜLYEN TAŞIYABİLİYOR**
+
+Tur 2'de şunu yazmıştım (B12):
+> *"TDV'den gelen dört tarihin dördü de doğru. Sapma yalnız Rus tarih
+> yazımından alınan tarihlerde var."*
+
+**Bu turda çürüdü.** Kırım'ın ilhakı için TDV `kirim` şöyle diyor:
+> *"Kırım'ın Rusya tarafından ilhakı **8 Nisan 1783** tarihinde gerçekleşmiştir.
+> Hicrî karşılığı ise **1197**."*
+
+**TDV'nin verdiği gün, Jülyen günün ta kendisi.** Yani *"TDV'den geldiyse
+temizdir"* ölçütü **yanlış** — ve bu ölçüte dayanan bir tarama, en açık iki
+vakadan birini kaçırırdı.
+
+### Ve yerine geçecek ölçüt kendini gösterdi: **hicrî karşılık**
+
+| olay | TDV'nin verdiği hicrî | sonuç |
+|---|---|---|
+| Karlofça | **24 Receb 1110** (gün+ay) | 🟢 Gregoryen |
+| İstanbul 1700 | **27 Muharrem 1112** (gün+ay) | 🟢 Gregoryen |
+| Küçük Kaynarca | **12 Cemâziyelevvel 1188** (gün+ay) | 🟢 Gregoryen |
+| Kırım ilhakı | **1197** (yalnız yıl) | 🔴 **Jülyen** |
+| Azak 1696 | **1108** (yalnız yıl) | 🟡 tutmuyor |
+
+**Mekanizma:** TDV bir tarihi **gün-ay hicrîsiyle** veriyorsa elinde bir
+**Osmanlı belgesi** var demektir; hicrî ↔ milâdî çevirisi o belgeden yapılmış ve
+doğrudur. Yalnız **yıl** veriyorsa olayın birincil kaydı **Rus/Batı belgesidir**
+ve TDV o günü **çevirmeden aktarmış** olabilir.
+
+⇒ Doğru ölçüt *"kaynak TDV mi"* değil, **"olayın birincil belgesi Osmanlı mı"**.
+
+⚠️ **EŞİK ÖNERMİYORUM.** n=5 ve ayrım beş vakada da tutuyor — ama beş vaka
+kural yapmaz (`ORGANIZASYON §7.4`, bugün bunu üç kez kendime uyguladım).
+Hipotez olarak kaydediliyor; sınanacak.
+
+📌 Ve şunu kendi payıma yazıyorum: **B12'yi kuran da ben, çürüten de ben.**
+Tur 2'de dört temiz TDV vakası gördüm ve genelleme yaptım; beşincisi kırdı.
+Bu, §20'deki desenin dördüncü tekrarı — **yön doğru, boyut eksik**: "kaynak
+kim" boyutuna baktım, "birincil belge hangi devletin" boyutuna bakmadım.
+
+---
+
+## 28. 🔴 B15 — TÜRKMENÇAY VERİDE **İKİ AYRI GÜNDE** DURUYOR
+
+Tarama sırasında çıktı; alanı ÇAPRAZ DOĞU'nun ama bulan benim.
+
+```
+1828-02-10   Astara · Lenkeran           → s:"rusya"    ← JÜLYEN, düzeltilmemiş
+1828-02-22   Nahçıvan · Revan · Ordubad  → s:"rusya"    ← Gregoryen, düzeltilmiş
+```
+
+**Tek antlaşma, iki gün, 12 gün arayla.** ÇAPRAZ DOĞU'nun düzeltmesi üç noktaya
+uygulanmış, **iki noktaya uygulanmamış.**
+
+### ③ HÜKÜM — **YARIM DÜZELTME**, ve düzeltmeden önceki hâlden kötü
+Önce hepsi tutarlı biçimde yanlıştı; şimdi harita 12 gün boyunca **Talış'ı Rus,
+Revan'ı Osmanlı** gösteriyor — yani antlaşmanın yarısı yürürlükte.
+
+⚠️ Bu, `CLAUDE.md §11`'deki **`replace(eski, yeni, 1)`** vakasının aynı sınıfı:
+toplu düzeltmede bazı eşleşmelerin atlanması. O vakada 8 aylık sahipsiz pencere
+açılmıştı.
+
+> **Öneri (ÇAPRAZ DOĞU'ya / uygulayan oturuma):** `Astara` ve `Lenkeran`
+> `1828-02-10` → **`1828-02-22`**. Ve düzeltmeden sonra
+> *"bu tarihi taşıyan başka kayıt kaldı mı"* diye **tekrar taransın.**
+
+---
+
+## 29. SIRADAKİ TUR — kendi kuyruğum
 
 1. **1648 Hmelnitski ayaklanmasının günü** — Ukrayna/Leh kaynağından; B3'ün
    önerisi bu tarihe bağlı. **Dört turdur sırada, hâlâ yapılmadı** — bu turun
