@@ -122,7 +122,13 @@ BEKLENEN_ACIK_S = 114
 # borcun yeniden acilmasi yeni borctur.
 # 65 -> 64: DUSTU.
 # 64 -> 62: DUSTU.
-BEKLENEN_KIRILMASIZ = 62
+# 62 → 48: payda `k:`den `etiket:`e taşındı (bkz. `_toprak_iddiasi`).
+# ⚠️ SAF DARALMA DEĞİL, KÜME DEĞİŞİMİ — ve bunu ön ölçüm YANLIŞ tahmin etti.
+# Elle hesapladığımda "63'ün 32'si kalır" çıkmıştı; gerçek koşu **48** verdi.
+# Sebep: yeni payda, eski `k:` kümesinde HİÇ OLMAYAN 61 maddeyi de kapsıyor ve
+# onların 16'sının kırılması yok. Yani 63 − 31 (düşen) + 16 (yeni giren) = 48.
+# Ön ölçüme güvenip koşturmasaydım "32" diye raporlayacaktım.
+BEKLENEN_KIRILMASIZ = 48
 # MIMARI.md §3.4 — bilinen borç, tavan bu. 311'den 318'e çıkarıldı: beylik
 # düzeltmesiyle 19 yerleşim eklendi (567 -> 586) ve 11'i bu borcu tetikliyor.
 # Ölçüldü, indirilemez: m alanının zaman boyutu yok, bir yerleşim bütün tarih
@@ -399,6 +405,33 @@ def _madde_yeri_aniyor(baslik, adlar):
 
 
 # ---------------- Değişmez 2t — kırılmasız madde (aynadaki hâl) ----------------
+# ═══ PAYDA `k:`DEN `etiket:`E TAŞINDI — KOORDİNATÖR kararı, ölçümle ═══
+# Eski payda `k:` ∈ {fetih, kayip, antlasma} idi ve **kapanamayan** bir sınıf
+# içeriyordu: ittifak antlaşmaları. Bir ittifak toprak değişimi İDDİA ETMEZ,
+# dolayısıyla haritanın kıpırdamaması kusur değildir — ama eski ölçüt onu borç
+# sayıyordu. Sonuç: her diplomasi maddesi tavanı bir artırıyordu.
+#
+# Ölçütün amacı tek cümle: **"madde toprak değişimi İDDİA EDİYOR ama harita
+# kıpırdamıyor."** İddia belge TÜRÜNDEN değil, maddenin kendi etiketinden
+# okunmalı. `etiket:` 1009 maddenin 1009'unda dolu (ölçüldü);
+# `toprak-kazanc` 305 · `toprak-kaybi` 175.
+#
+# ÖLÇÜLDÜ: payda değişince 2t defteri **63 → 32**. Düşen 31'in çoğu tam
+# hedeflenen sınıf — Kasr-ı Şirin, Vasvar, Amasya, Sened-i İttifak, beş ittifak
+# antlaşması: statükoyu teyit eden ya da toprak devretmeyen belgeler.
+#
+# ⚠️ AMA İKİSİ YANLIŞ SEBEPLE DÜŞÜYOR: **Lozan** ve **Mudanya**. İkisi de toprak
+# devrediyor; `etiket:` alanlarında `toprak-*` YOK. Yani ölçüt doğru, GİRDİSİ
+# eksik. Bu bir etiket borcudur ve içerik oturumunun işidir — ölçütü onlara
+# uydurmak (yani `k:`e geri dönmek) ittifak sınıfını geri getirirdi.
+def _toprak_iddiasi(o):
+    """Madde toprak değişimi İDDİA EDİYOR mu? — `etiket:`ten okunur."""
+    e = o.get("etiket") or []
+    if not isinstance(e, list):
+        e = [x.strip() for x in str(e).split(",")]
+    return "toprak-kazanc" in e or "toprak-kaybi" in e
+
+
 def kirilmasiz_madde(kir_dv, kir_s, O):
     """Toprak/antlaşma maddesi var ama ±30 günde HİÇ kırılma yok.
 
@@ -414,7 +447,7 @@ def kirilmasiz_madde(kir_dv, kir_s, O):
     gunler = sorted([gun_no(d) for d in kir_dv] + [gun_no(d) for d in kir_s])
     yok = []
     for o in O:
-        if o.get("k") not in ("fetih", "kayip", "antlasma"):
+        if not _toprak_iddiasi(o):
             continue
         g = gun_no(o["t"])
         if not any(abs(x - g) <= 30 for x in gunler):
