@@ -3183,3 +3183,63 @@ ayrı sayılsın*, `bos:` alanında *sayaç ayrı olsun*, şimdi `Değişmez 2`'
 *dairesel ayrı sayılsın*. **Bir sayacın iki farklı şeyi tek sayıda toplaması,
 bu projenin en sık kusuru.**
 
+
+---
+
+## §78 — MEVCUT BİR KAYITLA "TUTARLILIK" KANIT DEĞİLDİR
+
+ÇAPRAZ BATI, Semendire'nin 1789-91 Avusturya penceresini buldu. Koordinatör
+sınıfına karar verdi:
+
+> *"**`isg:` değil, `s:avusturya`** — çünkü 60 km ötedeki Böğürdelen zaten
+> `s:avusturya` ile modellenmiş; **ikisi tutarlı olmalı.**"*
+
+YAMACI uyguladı, sayım tuttu, `denetle.py` temiz çıktı. **Ve sınıf yanlıştı.**
+
+ÇAPRAZ BATI itiraz etti ve 66 `isg:` kaydını sayarak ölçütü çıkardı:
+
+> `isg:`'in ölçütü *"savaşta alındı mı"* **değil** —
+> ***"Osmanlı hükümranlığı HUKUKEN sağ kaldı mı?"***
+
+```
+Kahire       isg:fransa     1798-1801   savaşta alındı · askerî idare ·
+                                        tamamen çekildi · DEVİR YOK
+Saraybosna   isg:avusturya  1878-1908   sonra 1908'de İLHAK → s: oldu
+Kefe         isg:rusya      1771-1783
+```
+
+**Kahire kesin delil:** Fransa'nın Mısır'ı, Avusturya'nın Sırbistan'ıyla
+**birebir aynı şekil** — ve `isg:`. Ziştovi bir **devir** değil **iadedir**;
+Osmanlı hükümranlığı hiçbir an hukuken sona ermedi.
+
+### Asıl kusur gerekçedeydi
+
+⚠️ Ve ÇAPRAZ BATI'nın en keskin cümlesi:
+> *"Bu, **Böğürdelen'in kendi kaydının da yanlış olduğu** anlamına geliyor.
+> **Tutarlılık yanlış olanı ÇOĞALTIR.** Böğürdelen emsal değil, **düzeltilecek
+> ilk kayıt.**"*
+
+Koordinatör mevcut bir kaydı **emsal** olarak kullandı ve **o kaydın doğru olup
+olmadığını hiç sormadı.**
+
+### Kural
+
+> **Mevcut bir kayda benzemek, doğru olmanın delili değildir.** Emsal
+> göstermeden önce **emsalin kendisi sınanır** — yoksa "tutarlılık" adına
+> hata yayılır ve her yeni kopya onu daha da meşru gösterir.
+
+🟢 Ayırt edici soru **veriden değil, tanımdan** gelir: `girdi.py` zaten
+yazmıştı —
+> *"`d:/v:/s:` → **DE JURE** → taban rengi · `isg:` → **DE FACTO** → tarama.
+> Bosna: 1878 işgali, 1908 ilhak — **ikisi AYRI gösterim.**"*
+
+**Tanım ortadaydı; koordinatör tanıma değil komşuya baktı.**
+
+📌 Ve `§77` ile aynı aile: orada **ölçüt ile ölçülen** aynı kaynaktan besleniyordu,
+burada **karar ile emsal.** İkisinde de *"uyuşuyor"* denen şey, bağımsız bir
+doğrulama değil **aynı varsayımın iki kopyası.**
+
+⚠️ Ve uygulamanın kusursuz olması hatayı **gizledi**: sayım tuttu, `1b` sıfır
+çıktı, denetim yeşil yandı. **Doğru uygulanmış yanlış bir talimat, denetimden
+geçer.**
+
