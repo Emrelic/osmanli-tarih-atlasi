@@ -425,6 +425,25 @@ body {
   border-color: rgba(30, 125, 50, 0.55);
   background: rgba(232, 245, 233, 0.88);
 }
+/* 🔴 STATÜ — üçüncü eksen, ve YENİ RENK İCAT EDİLMEDİ.
+   Statü ne kazanç ne kayıp: toprak el değiştirmiyor, TONU değişiyor. Bu
+   yüzden yeşil/gri ikilisi yanlış olurdu — o ikili "girdi/çıktı" demek.
+   ⇒ Haritanın kendi dili kullanılıyor: doğrudan idare koyu kırmızı (#8e0b22),
+   tâbi toprak açık kırmızı (#b2384a). Rozet aynı iki tona gönderme yapıyor,
+   yani kullanıcı gövde renginde zaten gördüğü ayrımı rozette tekrar görüyor.
+   ⚠️ Renk körlüğünde iki statü yönü aynı oku paylaşıyor; sözel karşılık
+   `title` ipucunda ("tâbilikten doğrudan idareye geçti"). Rozete kelime
+   sığmıyor — küçük punto kullanıcının kendi isteğiydi. */
+.sehir .s-fetih.dogrudan {
+  color: #6d0d1c;
+  border-color: rgba(142, 11, 34, 0.6);
+  background: rgba(250, 235, 238, 0.9);
+}
+.sehir .s-fetih.vasal {
+  color: #8c3444;
+  border-color: rgba(178, 56, 74, 0.5);
+  background: rgba(252, 244, 245, 0.9);
+}
 .sehir .s-fetih.kayip {
   color: #4a4a4a;
   border-color: rgba(97, 97, 97, 0.55);

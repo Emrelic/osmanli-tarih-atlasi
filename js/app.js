@@ -1271,7 +1271,23 @@ function sehirGuncelle(t) {
       // ikiliyi panelde her gün görüyor; haritada aynısını görmesi öğrenme
       // gerektirmiyor. (Punto önem derecesini, renk devlet sahipliğini
       // anlatıyor; rozetin kendi rengi serbest olan tek eksendi.)
-      var yonler = [["fethedilen", "kazanc"], ["kaybedilen", "kayip"]];
+      // DÖRT ALAN, TEK OKUYUCU. Şema bilerek aynı şekilde: `[ad, ad, …]`.
+      // ⚠️ `statu_vasal` bugün BOŞ (0 kayıt) ve yine de okunuyor — sebebi
+      // dünkü kendi kusurum: `kaybedilen:` benden sonra gelmişti ve rozet onu
+      // okumadığı için 5 maddede 6 ad ekranda hiç görünmedi. Alan büyüdüğünde
+      // tüketici de büyümeli; dördünü tek döngüde okumak o riski kapatıyor.
+      // 📌 Bu, "veri ile onu okuyan kod aynı dalgada gider" kuralının eksik
+      // yarısıydı: kuralı ilk yazımda uyguladık, GENİŞLEMEDE uygulamamıştık.
+      //
+      // Sıra ÖNCELİK sırası: aynı ad birden çok alanda geçerse ilki kazanır.
+      // Kili 1484'te hem fetih hem statü değişimi olabilir ve İKİSİ DE DOĞRU
+      // (askerî olarak alındı, şema olarak tâbi voyvodalıktan doğrudan sancağa
+      // geçti) — ama ekranda iki rozet çift kayıt gibi okunur.
+      // ⚠️ Ölçüldü: bugün çakışan ad-madde çifti **0**. Yani bu bir savunma
+      // dalı, ölü özellik değil — kod zaten her karede koşuyor, tekilleştirme
+      // onun içinde üç satır. (Ölü ÖZELLİK silinir, ölü SAVUNMA kalır.)
+      var yonler = [["fethedilen", "kazanc"], ["kaybedilen", "kayip"],
+                    ["statu_dogrudan", "dogrudan"], ["statu_vasal", "vasal"]];
       for (var yi = 0; yi < yonler.length; yi++) {
         var alan = o[yonler[yi][0]];
         if (!alan || !alan.length) continue;
@@ -1279,8 +1295,11 @@ function sehirGuncelle(t) {
           var fad = String(alan[fi]).split(" (")[0];
           for (var si = 0; si < sehirler.length; si++) {
             if (sehirler[si].s.ad.split(" (")[0] === fad) {
-              // Aynı şehir birden çok maddede geçerse EN SON (en yakın) kazanır.
-              fetihTarihi[si] = { t: o.gun || idxYazi(o.gi), yon: yonler[yi][1] };
+              // Aynı şehir birden çok maddede geçerse EN SON (en yakın) kazanır;
+              // AYNI maddede birden çok alanda geçerse İLK alan kazanır.
+              if (!(fetihTarihi[si] && fetihTarihi[si].gi === o.gi))
+                fetihTarihi[si] = { t: o.gun || idxYazi(o.gi),
+                                    yon: yonler[yi][1], gi: o.gi };
               break;
             }
           }
@@ -1365,12 +1384,26 @@ function sehirGuncelle(t) {
     // eklenince çakışma elemesi onu kendiliğinden hesaba katıyor — bugün
     // emoji yüzünden yaşadığımız "dar kutu" kusuru burada tekrarlanamaz.
     var frz = fetihTarihi[mi] || null;
-    var ftar = frz ? (frz.yon === "kayip" ? "− " : "+ ") + frz.t : "";
+    // İŞARET — üç anlam, üç ayrı glif:
+    //   +  toprak KAZANILDI     −  toprak KAYBEDİLDİ
+    //   →  toprak EL DEĞİŞTİRMEDİ, statüsü değişti (tâbi ↔ doğrudan)
+    // ⚠️ Statü ne kazanç ne kayıp; +/− ile göstermek yanlış olurdu. Ok,
+    // "aynı yerde kaldı ama başka bir şey oldu" demenin en kısa hâli.
+    var ISARET = { kazanc: "+ ", kayip: "− ", dogrudan: "→ ", vasal: "→ " };
+    var ftar = frz ? (ISARET[frz.yon] || "") + frz.t : "";
     if (m.fetihEl.textContent !== ftar) m.fetihEl.textContent = ftar;
     // Sınıf yalnız değiştiğinde yazılıyor: her karede className atamak
     // gereksiz yeniden boyama üretir.
     var fsin = "s-fetih" + (frz ? " " + frz.yon : "");
     if (m.fetihEl.className !== fsin) m.fetihEl.className = fsin;
+    // ⚠️ Rozet çok küçük; kelime sığmıyor. Renk körlüğünde `+`/`−` ayrımı
+    // kalıyor ama iki statü yönü aynı oku paylaşıyor — sözel karşılık
+    // ipucunda duruyor.
+    var YAZI = { kazanc: "Osmanlı'ya katıldı", kayip: "Osmanlı'dan çıktı",
+                 dogrudan: "tâbilikten doğrudan idareye geçti",
+                 vasal: "doğrudan idareden tâbiliğe geçti" };
+    var ftit = frz ? m.s.ad + " — " + YAZI[frz.yon] + " (" + frz.t + ")" : "";
+    if (m.fetihEl.title !== ftit) m.fetihEl.title = ftit;
 
     if (!m.ekli) { m.mk.addTo(harita); m.ekli = true; }
     // Eleme ikinci geçişe bırakılıyor (aşağıda). `anilan` olanlar elemeye HİÇ
