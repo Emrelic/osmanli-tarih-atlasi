@@ -52,6 +52,36 @@ Rus kaynağı *"12 Eylül"*, bizim kaynağımız *"24 Eylül"* diyecek — **ayn
 
 ⚠️ Bu kural olmadan yüzlerce **sahte çelişki** üretir ve gerçek olanları gizlersiniz.
 
+### 2.1 HANGİ YÖNE — 1 Ağustos'ta karara bağlandı
+
+Kural yukarıda *"dönüştürülür"* diyordu ama **hangi takvime** dönüştürüleceğini
+söylemiyordu. İki oturum aynı gün bu boşluğa çarptı:
+
+```
+ÇAPRAZ KUZEY   Kiev 1667-01-30        ham Jülyen  (Pereyaslav 1654 dönüştürülmüş)
+ÇAPRAZ DOĞU    Türkmençay 1828-02-10  ham Jülyen  (Gülistan 1813 Gregoryen)
+               TDV talis-hanligi: "22 Şubat 1828"  →  fark TAM 12 gün
+```
+
+> **KARAR: Proje GREGORYEN esaslıdır.**
+> ```
+> t: / f: ekseni  →  GREGORYEN, istisnasız
+> gun: alanı      →  HAM HÂL, kaynağın takvimiyle   ("10/22 Şubat 1828")
+> ```
+
+Dört gerekçe: ① verinin geri kalanı zaten Gregoryen · ② **zaman ekseni tek ölçek
+ister** — karışık takvim olayları yanlış sıralar · ③ TDV Gregoryen veriyor ve
+birincil kaynağımız · ④ `gun:` ham hâli zaten taşıyor.
+
+🔴 **Ve fark 10-13 gün ise Jülyen ŞÜPHESİ doğar** (XVI. yy 10 · XVII. 10 ·
+XVIII. 11 · XIX. 12 · XX. 13) — ama **otomatik teşhis değildir.** İmza ile
+onay, ateşkes ile barış arasında da gerçekten 12 gün olabilir. Ayırt edici
+soru: **kaynak çift tarih ya da "eski/yeni takvim" diyor mu?** Demiyorsa
+*"sebebi belirsiz"* diye ayrı yazılır — Jülyen denmez.
+
+📌 Bu kural yazıldığı gün **sıfır bulgu** üretti, iki gün sonra iki oturumu
+yanlış teşhisten alıkoydu. Gerekçesi `OGRENILENLER §71`.
+
 ---
 
 ## 3. KAYNAK HİYERARŞİSİ — alana göre değişir
