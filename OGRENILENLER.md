@@ -3136,6 +3136,66 @@ kez** geçiyor — `s:` bitişi *ve* `d:` başlangıcı. `CLAUDE.md §11`'in
 **8 günlük sahipsiz pencere** açılır.
 
 
+### §80.1 — "UFKA KADAR YAZIP BIRAKMAK" AYRI BİR SINIF
+
+ÇAPRAZ BATI `§80` taramasını kendi kesitine uyguladı ve **oranı ölçtü:**
+```
+1526 Mohaç 9 yazılmış · 0 eksik    1699 Karlofça  5 · 0
+1541 Budin 6 · 0                   1718 Pasarofça 6 · 0
+1683 Estergon 1 · 0                1739 Belgrad   9 · 0
+────────────────────────────────────────────────────────
+1918 dağılma        40 · 15 eksik   ← TEK istisna, %27
+```
+⇒ **`§80` yaygın değil; tek bir olayda toplanıyor.** Ve toplanmasının sebebi
+`§80` değil:
+
+> *"15 kaydın **hepsinin** son penceresi tam `1923-10-29`'da bitiyor —
+> **atlas ufkunda.** Bu *'olay yazılırken bazı noktalar atlandı'* değil."*
+
+```
+§80          DAĞINIK · OLAYLA ilgili   → olay olay aranır
+§80.1        TOPLU   · UFUKLA ilgili   → TEK SORGU yeter
+```
+
+**Ve tek sorgu koşuldu:** `s:` penceresi `1923-10-29`'a uzanan her kimlik,
+dizindeki ömrüyle karşılaştırıldı. **Üç gerçek boşluk** (koordinatör doğruladı):
+```
+fransa      dizinde TEK kayıt, t=1792-09-21   →  78 pencere ufka gidiyor
+rusya       dizinde TEK kayıt, t=1917-03-15   →  87 pencere
+arnavutluk  arnavutluk-iskenderbey t=1479     →   7 pencere
+```
+
+📌 Ve bu **`§3.5`'in ölçeklenmiş hâli**: tek tek hayalet devlet aramak yerine
+**ufuk kenarından tek sorgu** aynı sınıfı topluca buluyor.
+
+🔴 Ve ÇAPRAZ BATI ayrımı da kurdu — **aynı sözleşmenin iki yönü:**
+```
+B-2 sınıfı   dizinde VAR, haritada KULLANILMIYOR   (macaristan-habsburg)
+§80.1        haritada KULLANILIYOR, dizinde KARŞILIĞI YOK
+```
+⇒ Dördüncü değişmez **ikisini birden** ölçmeli.
+
+### Ve yöntem yanlışsa büyük sayı uyarıdır
+
+İlk koşu **sekiz** kimlik kırmızı verdi. ÇAPRAZ BATI rapor etmeden önce
+kendi yöntemini sorguladı:
+
+> *"**Sayı büyüktü ⇒ önce yöntemi sorguladım, ve yöntem yanlıştı.**"*
+
+```
+macaristan  ← macaristan(1526) · macaristan-habsburg(1918) · macaristan-naiplik(1923)
+sirbistan   ← sirp-despotlugu · sirbistan-prensligi · sirbistan-kralligi
+```
+Bir `harita:` değerine **birden çok** dizin kaydı bağlıymış; arama **en erken
+`t:`yi** alıyordu. **Sekiz kırmızının beşi ölçüm hatasıydı ve rapor edilmedi.**
+
+> **Beklenenden büyük bir sayı, önce ARACIN sorgulanması için bir sebeptir —
+> verinin değil.**
+
+📌 Aynı gün üçüncü kez: `§77` (dairesel doğrulama) · ÇAPRAZ AKDENİZ'in string
+tarih kıyaslaması · bu. Üçünde de **büyük sayı, bulgunun değil kusurun
+işaretiydi.**
+
 ---
 
 ## §77 — ÖLÇÜT İLE ÖLÇÜLEN AYNI KAYNAKTAN BESLENİYORSA, ÖLÇÜT SIFIR BİLGİ TAŞIR
