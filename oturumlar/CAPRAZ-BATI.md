@@ -1049,3 +1049,65 @@ DOKUNMA         Belgrad 1739-09-18 · Oltenya dörtlüsü 1739-09-18
 🔴 **Ve A-10 buraya da uzanıyor:** Niş 1737'si `s:` değil **`isg:`** olmalı —
 Osmanlı hükümranlığı üç ay boyunca hukuken sürdü, Avusturya fiilen tuttu ve
 **savaşsız** geri verdi. Aynı ölçüt, aynı sonuç.
+
+## A-12 🔴 ÖLÇÜTÜ BÜTÜN KESİTE UYGULADIM — üç yeni aday
+
+A-10 kabul edilince ölçütü **38 `s:avusturya` penceresinin tamamına** uyguladım.
+Ölçüt (A-10'da kurulan): *"Osmanlı de jure hükümranlığı bu pencere boyunca
+kesintisiz sürdü mü?"* Sürdüyse `isg:`, hukuken devrettiyse `s:`.
+
+### ⚠️ ÖNCE — koordinatörün ölçüt tarifinde kayma var, düzeltiyorum
+> Koordinatör: *"hükümranlık devretti mi (`s:`), yoksa **iade mi edildi**
+> (`isg:`)? **1739 Belgrad Antlaşması iadedir**; 1718 Pasarofça devir."*
+
+🔴 **Bu tarif 1717-1739'u `isg:`'e çevirir ve yanlış olur.** Ölçüt *"pencere
+nasıl bitti"* değil, ***"pencere boyunca hükümranlık kimdeydi"***:
+```
+1717-1739   Pasarofça DEVRETTİ → Avusturya hükümran → s:   ✓  (bitişi iade OLSA DA)
+1789-1791   devir YOK → Osmanlı hükümran → isg:            ✓
+```
+Bir pencere **iadeyle bitip** yine de `s:` olabilir — 1717-39 tam bu. Doğru
+soru **başlangıçta** sorulur, bitişte değil.
+
+### Sınıflandırma — 25 yıldan kısa bütün pencereler
+```
+✗ isg: ADAYI   Estergon  1595-09-02 → 1605-10-03   10,1 yıl   Uzun Savaş
+✗ isg: ADAYI   Belgrad   1688-09-06 → 1690-09-09    2,0 yıl   zorla geri alındı
+✗ isg: ADAYI   Niş·Vidin 1689-09-24 → 1690-09-09    1,0 yıl   zorla geri alındı
+✓ s: DOĞRU     1717-08-17/18 → 1739-09-18          22,1 yıl   Pasarofça DEVRETTİ
+✓ s: DOĞRU     Oltenya 1718-07-21 → 1739-09-18      21,2 yıl   Pasarofça DEVRETTİ
+✓ s: DOĞRU     Bosna 1908-10-05 → 1918-11-11        10,1 yıl   İLHAK (öncesi zaten isg:)
+✓ s: DOĞRU     Viyana·Graz 1918-11-11 →              5,0 yıl   ardıl devlet
+```
+Üçü de aynı sınıf: **savaşta alındı, hiçbir antlaşma devretmedi, zorla geri
+alındı.** Mısır 1798-1801'in (`isg:fransa`) birebir yapısı — orası da zorla
+geri alındı, antlaşmayla değil.
+
+### 🔴 AMA BU BİR GENİŞLETME, UYGULAMA DEĞİL — karar projede
+Ölçtüm: **mevcut 72 `isg:` kaydının hepsi 1771 ve sonrasıdır.**
+```
+Kefe   1771 · Mısır 1798 · Mısır 1882 · Bosna 1878
+en eski isg: kaydı: 1771-07-01
+```
+⇒ `isg:` bugüne kadar **modern hukuk çağına** uygulanmış. 1595 ve 1688-90'a
+uzatmak, de jure/de facto ayrımını **erken modern döneme taşımak** demektir ve
+bu bir **oturum kararı değil**:
+- Lehte: ölçüt tutarlı, Osmanlı hukukî görüşü de o toprakları "geçici
+  kaybedilmiş" sayıyordu
+- Aleyhte: 1595'te "işgal" kavramının bugünkü hukukî karşılığı yok; her kısa
+  savaş penceresini `isg:`e çevirmek **kategoriyi seyreltebilir**
+
+⇒ **Önerim: 1789-91 ve 1737 paketi uygulansın** (orada karar zaten verildi ve
+dönem 1771 sonrası ölçütüne yakın). **1595 · 1688-90 için önce karar
+verilsin.** Ben ölçtüm ve sınıfladım; **veriye dokunulmasın.**
+📌 `§8`: hükmüm bu üçü için **`DOĞRULANAMADI`** — ölçüt uyuyor, **uygulanabilirliği
+belirsiz.**
+
+### ✅ Yan doğrulama — iki düzeltmem yayına girmiş
+```
+Ljubljana  s:avusturya 1335-05-02 → …   ✓ B-4 uygulanmış (1281 değil)
+Dubrovnik  s:avusturya 1814-01-01 → …   ✓ V-1 uygulanmış, kayıt haritada
+```
+Ve `Uyvar 1281-01-01 → 1663-09-24` **hâlâ duruyor** — B-5 (kur:1545 +
+macaristan + 1663-09-26) Macaristan paketine bağlı olduğu için beklemede,
+beklendiği gibi.
