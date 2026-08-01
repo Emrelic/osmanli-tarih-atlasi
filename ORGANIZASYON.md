@@ -589,3 +589,46 @@ commit'ledi. **İkisi birden yapılırsa çakışma kaçınılmaz.**
 
 📌 Gerekçe `ORGANIZASYON §1`'in aynısı: *koordinatör karar verir, uygulamaz.*
 Commit de bir uygulamadır.
+
+---
+
+## 14. 🔴 PARALEL OTURUMDA "VERİ ŞU AN ŞÖYLE" DEMEDEN ÖNCE `git log`
+
+ÇAPRAZ KUZEY, 1 Ağustos, bulgu B15:
+
+> *"Türkmençay veride İKİ GÜNDE: `1828-02-10` (Astara, Lenkeran) hâlâ Jülyen,
+> `1828-02-22` (Nahçıvan, Revan, Ordubad) düzeltilmiş. **Tek antlaşma, 12 gün
+> arayla iki gün** — harita antlaşmanın yarısını yürürlükte gösteriyor."*
+
+Bulgu **ölçüldüğü an doğruydu.** Ama YAMACI aynı paketi `00ffed0`'da bitirmişti
+ve altı sınırın hepsi girmişti. Sayım şimdi sıfır. **ÇAPRAZ KUZEY commit'ten
+önceki ağacı ölçmüştü.**
+
+### Neden bu sınıf bu projede kaçınılmaz
+
+Yirmi oturum **tek çalışma ağacını** paylaşıyor. Bir oturumun dosyayı okuduğu
+an ile rapor yazdığı an arasında başka bir oturum aynı dosyayı değiştirmiş
+olabilir. Rapor **doğru ölçümden yanlış sonuç** üretir — ve en kötüsü, **inandırıcı
+görünür**, çünkü ölçüm gerçekten yapılmıştır.
+
+⚠️ Ve maliyeti çift taraflı: koordinatör bu raporu doğrulamadan röleye verirse
+(`§12`) düzeltilmiş bir şeyi ikinci kez düzelttirir; **iki kez uygulanan sınır
+kayması, hatayı geri getirir.**
+
+### Kural
+
+> **Bir oturum *"veri şu an şöyle"* diye rapor yazacaksa, ölçümü ile raporu
+> arasında `git log --oneline -5` çalıştırır.** İlgili dosyaya dokunan yeni bir
+> commit varsa **ölçüm tekrarlanır.**
+
+> **Ve koordinatör, gelen her *"veride şu var"* iddiasını kaynakta SAYAR**
+> (`§12`). Sayı sıfırsa iddia bayattır, yanlış değil — **ve rapor edene "hata
+> yaptın" denmez.**
+
+🟢 Ucuz çare: rapora **ölçüm anının commit'i** yazılır (`ölçüm: 0c7f2e9`).
+Bayatlık o zaman **kendini gösterir**, tartışma gerektirmez.
+
+📌 `§12` ile farkı: orada koordinatör **doğrulamadığı sayıyı** aktarıyordu;
+burada sayı **doğru ölçülmüş ama ölçüldüğü ağaç geçmiş.** İkisinin de çaresi
+aynı: **kaynakta say.**
+
