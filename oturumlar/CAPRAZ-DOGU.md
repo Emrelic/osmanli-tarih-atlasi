@@ -1615,3 +1615,126 @@ kalıyor. Fransa çekirdeğinin dört noktasından **yalnız biri** (Bordo) `KES
 4. ⏳ Suriye-Filistin kesiti (dördüncü turdur sırada)
 5. Önceki turlardan: 6 Kafkasya noktası · fetretin İran geri kalanı · B4/B5 ·
    Ç2, Ç5 · `marasi`
+
+---
+---
+
+# TESLİM 9 — Fransa kaynak turu NEGATİF · Suriye-Filistin'de üç "toplu gün"
+
+---
+
+## 53. ❌ FRANSA KAYNAK TURU — aradım, bulamadım, dokunmuyorum
+
+Koordinatör *"Gascon Rolls damarından git"* dedi. Gittim. **Damar Bordo'da
+işledi, Provence'ta işlemedi.**
+
+| denenen | sonuç |
+|---|---|
+| **Persée** (Fransız açık erişim akademik platformu) — Provence 1481-86 | **indekste makale YOK.** Sonuçlar Avignon/Comtat Venaissin (XVIII. yy) ve Franche-Comté'ye düşüyor |
+| TDV `fransa` 🟢 **canlı** | Toprak birliğini anlatıyor ama **tarih vermiyor**: *"VII. Charles düzenli ve güçlü bir ordu kurarak ülkedeki **İngiliz varlığına son vermiş (Calais dışında)**"*. Provence ve Lyon geçmiyor |
+| Lyon 1312 · Marsilya 1481/1486 aramaları | dönen her şey **Vikipedi türevi** |
+
+### ③ Hüküm: **DOĞRULANAMADI** — Marsilya · Paris · Lyon'a dokunulmuyor
+
+📌 **Yan kazanç:** TDV `fransa`'nın *"İngiliz varlığına son verdi (Calais
+dışında)"* cümlesi Bordo bulgusunu **dolaylı destekliyor** — İngiliz varlığı
+diye bir şey vardı ve sona erdi. Tarih vermiyor, o yüzden Bordo'nun `KESİN`
+etiketi hâlâ **tek kaynağa** (Gascon Rolls) dayanıyor; bunu böyle yazıyorum.
+
+### 📌 Yöntem notu — damar gerçek ama GENEL DEĞİL
+
+Bordo'da işe yarayan şey *"üniversite dijital projesi"* değil, **o konuda bir
+tenkitli neşir projesi olması**ydı (Gaskonya ruloları). Provence'ın öyle bir
+projesi yok. ⇒ Damar **konuya bağlı, coğrafyaya değil.** Sıradaki turlar bunu
+bilerek arasın; *"KCL'de vardı, Persée'de de vardır"* diye aramak boşa gitti.
+
+---
+
+## 54. 🔴 SURİYE-FİLİSTİN — üç "TOPLU GÜN", ve üçü farklı sınıftan
+
+Dört turdur sıradaydı. Ölçüt: sefer **kuzeyden güneye** ilerledi ⇒ aynı gün
+düşen yerler birbirine **yakın** olmalı.
+
+### ① Bizde ne var — aynı güne düşen kümeler ve yayılımları
+
+```
+1516-08-28   4 yer   en uzak çift 372 km   Antakya · Halep · Rakka · Deyrizor
+1516-09-27   4 yer   en uzak çift 185 km   Hama · Şam · Humus · Beyrut
+1516-12-21   2 yer   en uzak çift  24 km   Gazze · Han Yûnus              ✅
+1516-12-28   3 yer   en uzak çift 112 km   Yafa · Nablus · Amman
+1517-01-01   4 yer   en uzak çift 377 km   Akkâ · Sayda · Kerak · Maan    🔴
+```
+
+### ② Kaynakta ne var
+
+| madde | ne diyor |
+|---|---|
+| `halep` 🟢 | Mercidâbık **24 Ağustos 1516**; Halep **28 Ağustos 1516** ✅ **verimiz doğru** · Rakka ve Deyrizor için tarih **vermiyor** |
+| `sam` 🔴 ölü → `dimask` | adres bulundu ama **gövde okunamadı** (§55) ⇒ Şam tarihi **doğrulanamadı** |
+
+### ③ Hüküm
+
+**🟢 1516-12-21 Gazze + Han Yûnus (24 km):** sıkı ve doğru — Han Yûnus
+Muharebesi'nin günü. **Örnek alınacak kayıt.**
+
+**🟡 1516-08-28 (372 km):** Halep TDV ile doğrulandı; Rakka ve Deyrizor Fırat
+boyunda, 200-370 km doğuda ve TDV onlara tarih vermiyor.
+⇒ **Halep'in günü üç şehre daha kopyalanmış.** Etiket `DESEN`.
+
+**🟡 1516-09-27 (185 km):** Hama · Humus · Şam · Beyrut tek gün. Sefer bu dördünü
+aynı gün alamaz — Hama ile Şam arası 185 km ve arada Humus var. **Şam'ın gerçek
+günü doğrulanamadığı için hangi tarihin doğru olduğunu söylemiyorum**; yalnız
+*"bu dördü aynı gün olamaz"* diyorum.
+
+**🔴 1517-01-01 (377 km) — ve bu diğer ikisinden BAŞKA bir şey:**
+`1517-01-01` bu projede **"yıl biliniyor, gün bilinmiyor"** damgasıdır
+(`CLAUDE.md §4`). Yani Akkâ · Sayda · Kerak · Maan aslında **tarihsiz**. Sorun
+tarihin yanlışlığı değil — **dört ayrı yerin, 377 km'ye yayılmış hâlde, tek bir
+bilinmeyen-gün damgasını paylaşması.**
+
+> **Bilinmeyen gün damgası, paylaşıldığı anda bir OLAY gibi görünüyor.**
+
+📌 Bu, `§72`'nin (*"boşluk 'bilmiyoruz' der, yanlış renk 'biliyoruz' der"*)
+**zaman eksenindeki karşılığı**: belirsizlik, paylaşıldığında kesinliğe
+dönüşüyor. Sayda (33,56) Kudüs'ün kuzeyinde, Maan (30,19) çok güneyde — tek
+olay olamaz.
+
+### Öneri
+
+```
+🟢 dokunulmaz  : Gazze · Han Yûnus (1516-12-21) · Halep (1516-08-28) · Kudüs
+🟡 kaynak turu : Rakka · Deyrizor · Hama · Humus · Şam · Beyrut
+🔴 ayrıştırma  : Akkâ · Sayda · Kerak · Maan — aynı damgayı paylaşmasınlar
+```
+⚠️ Hiçbiri için tarih **önermiyorum** — `dimask` gövdesi okunmadan Şam'a tarih
+yazmak, tam da bu turda eleştirdiğim şeyi yapmak olurdu.
+
+---
+
+## 55. SLUG — ölü slug taksonomisi DÖRT hâlli çıktı
+
+```
+sam      🔴 ölü  →  doğrusu dimask
+dimask   🟢 <title> "DIMAŞK - TDV İslâm Ansiklopedisi"  AMA GÖVDE OKUNAMADI
+         (yalnız gezinti, geri bildirim formu ve künye döndü)
+```
+📌 `CLAUDE.md`'nin zaten kaydettiği **`urgenc`/`harezm` sınıfı**. Taksonomi:
+```
+① slug ölü  + madde YOK               → gerçekten kaynak yok
+② slug ölü  + madde VAR, adres yanlış → kural ③'ün uyardığı hata
+③ slug CANLI + gövde okunamıyor       → adres doğru, ERİŞİM eksik   ← bu vaka
+④ slug canlı + gövde okunuyor         → normal
+```
+🟢 Kaynak defterine: `fransa` · `halep`.
+
+---
+
+## 56. AÇIK KALANLAR — Teslim 9 sonu
+
+1. 🔴 **Şam'ın fetih tarihi** — `dimask` gövdesi ikinci çekişle okunmalı
+2. 🔴 Rakka · Deyrizor · Hama · Humus · Beyrut — kaynak turu
+3. 🔴 `1517-01-01` kümesi ayrıştırılmalı (Akkâ · Sayda · Kerak · Maan)
+4. ❌ Marsilya · Paris · Lyon — doğrulanamadı, aday tarihler §51'de duruyor
+5. 🟡 Ç8 (`nube` ↔ `sudan`) · `kasitli_bosluk:` alanı koordinatörde
+6. Önceki turlardan: 6 Kafkasya noktası · fetretin İran geri kalanı · B4/B5 ·
+   Ç2, Ç5 · `marasi`
