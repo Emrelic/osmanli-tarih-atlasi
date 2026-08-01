@@ -26,7 +26,11 @@ import io
 import os
 import sys
 
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+# ⚠️ KORUMALI. İki TextIOWrapper aynı buffer'ı sararsa ilki çöp toplandığında
+# buffer KAPANIR ve bu modülü İÇE AKTARAN aracın çıktısı
+# "ValueError: I/O operation on closed file" ile ölür. Üç kez yaşandı.
+if getattr(sys.stdout, "encoding", "").lower() not in ("utf-8", "utf8"):
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import girdi

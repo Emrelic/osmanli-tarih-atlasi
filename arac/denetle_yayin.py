@@ -41,7 +41,11 @@ import re
 import subprocess
 import sys
 
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+# ⚠️ KORUMALI. İki TextIOWrapper aynı buffer'ı sararsa ilki çöp toplandığında
+# buffer KAPANIR ve bu modülü İÇE AKTARAN aracın çıktısı
+# "ValueError: I/O operation on closed file" ile ölür. Üç kez yaşandı.
+if getattr(sys.stdout, "encoding", "").lower() not in ("utf-8", "utf8"):
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -159,10 +163,26 @@ def damga_denetimi(gecmis=30):
 # yazacak ve denetim tek soru soracak: *çıktıdaki iz = bugünkü girdinin izi mi?*
 # O geldiğinde aşağıdaki fonksiyon tek satıra iner ve DÖRT yüzü birden kapatır.
 def bayat_mi():
-    """(yalnız_girdide, yalnız_ciktida, iz_durumu) — hepsi liste/str."""
+    """(yalnız_girdide, yalnız_ciktida, yöntem, BAYAT) — son değer üç durumlu:
+    True = bayat · False = taze · None = ölçülemedi.
+
+    🔴 DÖRDÜNCÜ DEĞER SONRADAN EKLENDİ, ÇÜNKÜ YOKLUĞU HATAYA YOL AÇTI.
+    `URETIM_IZI` yöntemi bu fonksiyona sonradan eklendi ve hükmü YALNIZ
+    `yöntem` metnine yazıldı; çağıran ise kararını hâlâ eski ad-kümesi
+    listelerine (`eksik or fazla`) bakarak veriyordu. İz yöntemi boş liste
+    döndürdüğü için çıktı şunu bastı:
+
+        ✓  yayın tazeliği: girdi ile harita aynı (🔴 İZ UYUŞMUYOR — YAYIN BAYAT)
+
+    Yani araç bayatlığı GÖRDÜ, doğru teşhis etti, ekrana yazdı — ve ✓ verdi.
+    Güçlü yöntemin cevabı MESAJ kanalına konup KARAR kanalına bağlanmayınca
+    ölçüm bir sayaca dönüşmüştü. Ders: yeni bir yöntem eklerken hükmün
+    nereden okunduğu da taşınmalı, yoksa eski yöntem sessizce hükmetmeye
+    devam eder.
+    """
     yol = os.path.join(KOK, "data", "donemler.js")
     if not os.path.exists(yol):
-        return None, None, "donemler.js YOK"
+        return None, None, "donemler.js YOK", None
     metin = open(yol, encoding="utf-8").read()
     # URETIM_IZI geldiyse ONU kullan — ad kümesi karşılaştırmasına düşme.
     m = re.search(r'window\.URETIM_IZI\s*=\s*(\{.*?\})\s*;', metin, re.S)
@@ -171,25 +191,45 @@ def bayat_mi():
         import girdi as _g
         Y = _g.yukle(sessiz=True)
     except Exception as e:
-        return None, None, "girdi okunamadı: %s" % e
+        return None, None, "girdi okunamadı: %s" % e, None
     if m:
         try:
             iz = json.loads(m.group(1))
-            bugun = _g.parmak_izi()
-            simdiki = bugun.get("girdi") if isinstance(bugun, dict) else bugun
-            return [], [], ("iz UYUŞUYOR" if iz.get("girdi") == simdiki
-                            else "🔴 İZ UYUŞMUYOR — YAYIN BAYAT")
+            # `parmak_izi()` DÜZ sözlük döndürür: {dosya: sha256}. Çıktıdaki iz
+            # ise kümelenmiştir: {"girdi": {...}, "motor": {...}}.
+            # 🔴 Burada `bugun.get("girdi")` yazılıydı ve düz sözlükte o anahtar
+            # olmadığı için HER ZAMAN None geliyordu → karşılaştırma HER ZAMAN
+            # eşitsiz → denetim üretimden bir saniye sonra bile "BAYAT" derdi.
+            # Eski hâlinde görünmüyordu çünkü hüküm ✓ dalına düşüyordu; yani iki
+            # hata birbirini örtüyordu. Yakalandı çünkü elle alınan sha256 ile
+            # aracın söylediği ÇELİŞTİ: el "1 dosya değişti" dedi, araç "3".
+            eski = iz.get("girdi") or {}
+            yeni = _g.parmak_izi() or {}
+            if not isinstance(yeni, dict) or not yeni:
+                return None, None, "parmak_izi() boş/beklenmedik döndü", None
+            if set(eski) != set(yeni):
+                # Girdi dosyası kümesi değişmiş: kıyas anlamlı değil, ama bu da
+                # bir bulgudur — sessizce "taze" deme.
+                return [], [], ("girdi DOSYA KÜMESİ değişmiş: %s"
+                                % ", ".join(sorted(set(eski) ^ set(yeni)))), True
+            if eski == yeni:
+                return [], [], "sha256 izi", False
+            # Hangi dosyanın değiştiğini SÖYLE — "bayat" tek başına iş görmez,
+            # üretimi kimin bozduğu bilinmezse kilit protokolü uygulanamaz.
+            degisen = sorted(set(eski) | set(yeni))
+            fark = [a for a in degisen if eski.get(a) != yeni.get(a)]
+            return [], [], "sha256 izi — değişen: %s" % (", ".join(fark) or "?"), True
         except Exception:
             pass
     i = metin.find("window.PETEKLER = ")
     if i < 0:
-        return None, None, "PETEKLER bulunamadı"
+        return None, None, "PETEKLER bulunamadı", None
     j = metin.index("];", i) + 1
     petekler = json.loads(metin[i + len("window.PETEKLER = "):j])
     cikti = {p.get("a") for p in petekler}
     girdi_adlar = {y["ad"] for y in Y}
-    return (sorted(girdi_adlar - cikti), sorted(cikti - girdi_adlar),
-            "ad kümesi (GEÇİCİ — 3 hata sınıfını kaçırır)")
+    _e, _f = sorted(girdi_adlar - cikti), sorted(cikti - girdi_adlar)
+    return _e, _f, "ad kümesi (GEÇİCİ — 3 hata sınıfını kaçırır)", bool(_e or _f)
 
 
 # ============================================================================
@@ -441,14 +481,15 @@ def main():
 
     print()
     # ---- YAYIN BAYAT MI (sekiz denetimin ortak körlüğü)
-    eksik, fazla, yontem = bayat_mi()
-    bayat = False
+    eksik, fazla, yontem, _bayat = bayat_mi()
+    bayat = bool(_bayat)
     print()
-    if eksik is None:
+    if _bayat is None:
         print("!  yayın tazeliği ÖLÇÜLEMEDİ: %s" % yontem)
-    elif eksik or fazla:
-        bayat = True
+    elif _bayat:
         print("✗  YAYIN BAYAT — üretim girdiden geride (%s)" % yontem)
+        print("     data/donemler.js ve devletler_harita.js GİRDİYİ TEMSİL ETMİYOR;")
+        print("     bu geometri üzerinde alınan HER ölçüm bayat sayı üretir.")
         if eksik:
             print("     girdide VAR, haritada YOK: %d" % len(eksik))
             for a in eksik[:10]:
