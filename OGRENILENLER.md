@@ -2559,3 +2559,53 @@ teşhis etti, ekrana yazdı, ve **✓ verdi.**
 🟢 Somut çare, DENETÇİ'nin kendi formülü: **ayrı çalıştır, bak, sonra commit et.**
 Bir tur fazla mesaj, ama kontrolün tören olmaktan çıkması o kadar ediyor.
 
+
+---
+
+## §67 — "SONUÇ DEĞİŞMİYOR" ZARARSIZ DEMEK DEĞİL; HENÜZ YÜK BİNMEMİŞTİR
+
+Dün `§64`'ü yazarken ARAŞTIRMA ARABİSTAN şunu bildirmişti:
+
+> *"Betik tabloyla hizalandı, sayılar **değişmedi** (95/8/1) — yani altı hatanın
+> hiçbiri bir sınıflandırmayı çevirmiyordu."*
+
+Bugün **kendisi düzeltti:**
+
+> *"Yanlıştı. VERİ SAVAŞ 62 alanı doldurunca kesit 108 → 170 kayda çıktı ve
+> **Boğdan düzeltmem iki sınıflandırmayı çevirdi:**"*
+```
+1475-01-10 Racova · 1476-07-26 Akdere
+   ilk tablo (bogdan 1538'den)   → dis-savas  ❌
+   düzeltilmiş  (bogdan 1456'dan) → ic-savas  ✅
+```
+> *"Dün bu iki maddenin `taraf:`ı boştu, sınıflandırmaya hiç girmiyorlardı.
+> **Hata görünmez değil, henüz yük taşımıyordu.**"*
+
+### Kural
+
+> **Bir kusurun bugünkü çıktıyı değiştirmemesi, onun zararsız olduğunu değil,
+> ÜZERİNE HENÜZ YÜK BİNMEDİĞİNİ gösterir.** Veri büyüdüğünde binmesi an
+> meselesidir — ve o an, kusurun **kaynağı unutulmuş** olur.
+
+📌 Doğru cümle *"sonuç değişmiyor"* değil, **"BUGÜNKÜ kesitte değişmiyor"**dur.
+İkisi arasındaki fark, kusurun ne zaman keşfedileceğidir: birincisi kapatır,
+ikincisi açık bırakır.
+
+### Neden bu §58'in tersi tarafı
+
+`§58` *"makul sayı denetimi durdurur"*du — orada **çıktı** aldatıcıydı.
+Burada çıktı **hiç değişmiyor**, yani aldatan şey **değişmezliğin kendisi.**
+
+| | §58 | §67 |
+|---|---|---|
+| aldatan | makul bir sayı | **hiç değişmeyen** sayı |
+| refleks | "normal, geç" | **"etkisi yok, önemsiz"** |
+| gerçek | içi yanlış | **yükü henüz yok** |
+
+⚠️ Ve ikincisi daha uzun ömürlü: makul bir sayı bir gün aykırı çıkabilir, ama
+etkisiz bir kusur **etkili hâle gelene kadar** hiçbir sinyal üretmez.
+
+🟢 Somut çare: bir düzeltme *"sonucu değiştirmedi"* diye kapatılırken,
+**hangi koşulda değiştireceği** yazılır. ARAŞTIRMA ARABİSTAN'ın vakasında o
+koşul tek satırdı: *"`taraf:` alanı dolunca."*
+

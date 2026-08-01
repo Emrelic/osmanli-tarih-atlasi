@@ -533,3 +533,53 @@ tarafı. §52 rapor edenin ödevini, §58 kabul edenin ödevini yazıyordu; bu
 📌 Aynı gün ikinci kez oldu: 31 Temmuz'da *"32 işaret"* rakamı nasıl
 türetildiği sorulmadan kabul edilip bir karara dayanak yapılmış, karar sonra
 geri alınmıştı. Orada koordinatör **kabul eden**di, burada **aktaran**.
+
+---
+
+## 13. 🔴 COMMIT KOMUTUNDA YOL ADI YAZILIR — ortak çalışma ağacının tek çaresi
+
+1 Ağustos'ta **üç commit çakışması** oldu:
+
+```
+40a66fc  koordinatörün commit'i  →  YAMACI'nın 6 kayıt + 2 düzeltmesini yuttu
+b755a21  DENETÇİ'nin commit'i    →  VERİ SAVAŞ'ın savaslar.js düzenlemesini yuttu
+1c34fa0  DENETÇİ'nin commit'i    →  koordinatörün §67 metnini yuttu
+```
+
+Üçünde de **veri kayıp değildi** ama commit mesajı işi tarif etmiyordu. Yani
+`git log` bir daha güvenilir bir tarih anlatmıyor.
+
+### Sebep — ve neden `-o` çözmüyor
+
+Ortak bir çalışma ağacında birden çok oturum var. Oturum A bir dosyayı
+**sahneler**; oturum B `git add`/`git commit` koşar ve **sahnedeki her şeyi**
+alır.
+
+MOTOR'un tespiti: `git commit -o <dosya>` bunu **çözmüyor**, çünkü `-o` dosyanın
+o **anki tam içeriğini** commit eder — aynı dosyada iki oturum çalışıyorsa yine
+karışır.
+
+### Kural
+
+> **Commit komutunda yol adı YAZILIR:**
+> ```
+> git commit -F - -- <yol> [<yol> …]
+> ```
+> Böylece **başkasının sahnelediği dosya senin commit'ine giremez.**
+
+⚠️ Bu, kendi işini başkasının yutmasını engellemez — **onu ancak herkes aynı
+kuralı uygularsa** engelleyebiliriz. O yüzden kural **herkese** geçerli.
+
+📌 Ve `§66` ile birlikte okunmalı: önce **ayrı** sahnele, **ayrı** kontrol et,
+sonra **yol adı yazarak** commit et. Üç adım, üç ayrı komut.
+
+### İkinci kural — kim commit'ler
+
+Bugün hem oturumlar kendi işlerini commit'ledi hem koordinatör onların işini
+commit'ledi. **İkisi birden yapılırsa çakışma kaçınılmaz.**
+
+> **Oturum kendi dosyasını kendi commit'ler.** Koordinatör yalnız **kendi**
+> dosyalarını ve **kimsenin sahiplenmediği** teslimleri commit'ler.
+
+📌 Gerekçe `ORGANIZASYON §1`'in aynısı: *koordinatör karar verir, uygulamaz.*
+Commit de bir uygulamadır.
