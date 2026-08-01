@@ -659,3 +659,94 @@ Otranto çıkarması (1480, %6,1) zaten düşüktü, dokunmadım — iki ucu da 
 şehri, kaçınılmaz kıyı teması.
 
 Commit: `10e2434`.
+
+## EK 8 — 62 taraf alanı (⭐ öncelikli), 9 anakronik id, mükerrer kayıt, bitis: alanı
+
+### 🔴 Commit karışması — üçüncü kez, bu sefer BENİM lehime
+
+`git log -- data/savaslar.js` bende iki ayrı iş oturumu arasında `b755a21
+Hassasiyet dususu denetimi + Sura-yi Devlet yanlis pozitifi kapatildi` diye bir
+commit buldum — konusu `arac/denetle.py` (benim değil), ama diff'i
+`data/savaslar.js`'i de içeriyor (141 satır). O an dosyada benim 62 alan +
+anakronik-id düzeltmem sahnedeydi (henüz commit etmemiştim). Başka bir oturum
+kendi `denetle.py` işini commit ederken paylaşılan index'te duran benim
+değişikliklerimi de süpürmüş — EK 3'teki iki olayın aynısı, bu kez ben zarar
+görmedim (iş kayıp değil, sadece commit mesajı benim yaptığımı anlatmıyor).
+Git geçmişini yeniden yazmadım (paylaşılan, aktif depo — CLAUDE.md prensibi).
+Aşağıdaki iki madde o commit'in İÇİNDE zaten var, ben üstüne devam ettim.
+
+### 1. ⭐ 62 boş `taraf:` alanı — TAMAMLANDI
+Hepsi dolduruldu, doğrulama: `taraf eksik: 0` (170→168, aşağıya bkz).
+Yöntem: `taraf_metin` ve `seri`'ye bakıp `devletler.js`'teki gerçek id'yi
+buldum, tarih aralığını (`f`-`t`) doğruladım. İki kategori:
+
+- **Gerçek yabancı devlet vardı** → id yazıldı (bizans, karaman, bogdan,
+  safevi, memluk, habsburg, venedik, gurcistan, timurlu, zeta, suud-birinci,
+  rusya, ingiltere). Hepsi tarih aralığı kontrolünden geçti (0 tarih-dışı).
+- **Gerçekten iç mesele, karşı devlet yok** (şehzade mücadeleleri, Celâlî
+  isyanları, Fetret Devri) → `taraf:["osmanli"]` — dosyanın kendi üst-yorumu
+  zaten bunu söylüyor ("çoğu devlet-i aliyye içi hareketlerdir, karşılığı olan
+  bir taraf devlet yok"). Tek elemanlı dizi burada HATA değil, A5'in
+  iç-savaş/dış-savaş ayrımı için gereken SİNYAL.
+
+**Bulgu — Akkâ Savunması'nın "fransa" sorunu farklı çözüldü:** `devletler.js`
+`fransa` id'si 1792'de kapanıyor (bildirilmişti). Ama `fransiz-misir-seferi`
+diye AYRI bir kayıt var (1798-07-01 – 1801-10-02, "Napolyon'un Mısır Seferi") —
+1799 Akkâ ve 1798 Preveze/Nikopolis'in İKİSİ de bu aralığa düşüyor. "Fransa"
+yazmak yerine bu id'yi kullandım — daha doğru, hazır duruyordu, kimse
+bulmamıştı. İki kayıt da artık iki taraflı.
+
+**Karamanoğulları not:** `taraf_metin`'de "Karamanoğulları" yazan 3 kayıtta
+`seri` boştu (Osmanlı-Karaman diye ayrı bir seri yok) — dokunmadım, sadece
+`taraf` eklendi.
+
+### 2. 9 anakronik id — 6'sı düzeltildi, sayı farkı var
+`sirbistan-prensligi`/`bulgaristan-prensligi`'nin 1912-13 kayıtlarındaki
+kullanımını taradım: **I. Balkan Savaşı** (taraf+galip), **II. Balkan Savaşı**,
+**Londra Antlaşması**, **İstanbul (Bulgaristan, 1913)** — 4 kayıt, 6 alan
+(sirbistan×2, bulgaristan×4) → `sirbistan-kralligi`/`bulgaristan-kralligi`'ye
+çevrildi. Siz "sirbistan (4), bulgaristan (5)" demiştiniz, ben 2/4 buluyorum —
+1804/1830/1875/1878 kayıtları tarih içinde kaldığı için dokunmadım (Berlin
+1878 hâlâ prensligi döneminde, doğru). Fark varsa ölçütünüzü paylaşın,
+tekrar bakarım; ama kalan 7 "prensligi" geçişinin hepsini tek tek tarih
+aralığıyla doğruladım, hepsi geçerli.
+
+`rodos-sovalyeleri`/Malta konusu (🟡, sizin notunuzla benim değil) —
+dokunmadım.
+
+### 3. Bonus bulgu: 2 mükerrer SAVASLAR kaydı (kendi denetimim, istenmedi ama düzeltildi)
+`bitis:` eklemeden önce ilgili kayıtları tararken **I. Viyana Kuşatması**
+(1529-09-27) ve **Malta kuşatması** (1565-05-18) SAVASLAR'da BİREBİR aynı
+tarih/konumla ikişer kez kayıtlıydı — aynı ⚔/◎ işareti aynı yerde çakışıyordu.
+İkisi de silindi, tekiller kaldı (170→168 kayıt). Viyana'da `sonuc` alanı
+çelişiyordu ("belirsiz" vs "yenilgi") — doğrusu yenilgi (kuşatma kaldırıldı),
+hayatta kalan kayıt zaten onu taşıyordu.
+
+### 4. İki tarihli kuşatma — `bitis:` alanı eklendi (öneri, Oturum 1'e)
+Yeni opsiyonel alan: `t:` başlangıç olarak kalıyor, `bitis:` kronolojide
+doğrulanmış sonuç tarihi. **js/app.js bugün bu alanı okumuyor** — devreye
+almak (ikinci bir işaret durumu, ya da pencereyi `bitis:`e kadar uzatmak)
+Oturum 1'in kararı ve işi, ben sadece veriyi hazırladım.
+
+| Kayıt | t (başlangıç) | bitis (kronoloji doğrulu) | Kaynak madde |
+|---|---|---|---|
+| Rodos kuşatması (1480) | 1480-05-23 | 1480-07-28 | "Rodos kuşatmasının başarısızlığı" |
+| Rodos kuşatması (1522) | 1522-06-26 | 1522-12-21 | "Rodos'un fethi" |
+| Bağdat kuşatması (1638) | 1638-11-15 | 1638-12-24 | "Bağdat'ın geri fethi" |
+| Hotin kuşatması (1621) | 1621-09-02 | 1621-10-09 | "Hotin Seferi ve Hotin Antlaşması" |
+| Çanakkale zaferi (1657) | 1657-07-19 | 1657-08-25 | "Çanakkale zaferi ve Bozcaada'nın geri alınışı" |
+
+**II. Viyana Kuşatması (1683) bu kalıba girmedi** — zaten İKİ ayrı kayıt var
+(kusatma 07-14 + meydan 09-12), aynı sonucu farklı bir yoldan çözüyor; `bitis:`
+eklemek mükerrerleştirirdi.
+
+**Şahkulu (Teke), +31 gün, bu kalıba HİÇ girmiyor**: kuşatma değil isyan, ve
+kronolojide başlangıcı için İKİ çelişen madde var — `olaylar_ek5.js`
+"Mart 1511'de Antalya çarşısını basmış" derken `olaylar_ek7.js` ayrı bir
+madde olarak "Nisan 1511" başlangıcı yazıyor. Hangisi doğruysa `t:` ona göre
+düzeltilmeli ama bu benim dosyamda çözülecek bir çelişki değil — kronoloji
+sahibine bildirilmeli.
+
+Doğrulama: `SAVASLAR: 168 | taraf eksik: 0 | bilinmeyen id: 0 | tarih-dışı: 0`.
+Commit'ler: `368c08b` (bu EK'in içeriği) + `b755a21` (62 alan + 6 id, başka
+oturumun commit'ine karıştı, bkz. yukarı).
