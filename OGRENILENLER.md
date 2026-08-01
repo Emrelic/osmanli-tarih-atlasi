@@ -2462,3 +2462,53 @@ f_kayit <= f_tabi < t_tabi <= t_kayit
 *"Alt-aralık, üzerinde durduğu kaydın dışına taşamaz."* Bu tek satır, altı
 hatanın **üçünü** yakalardı (erdel 29 yıl önce, boğdan/eflak 18 yıl sonra).
 
+
+---
+
+## §65 — ÖLÇÜTÜ ÖNCEDEN YAZMAK, KONTROL KÜMESİNİ YANLI SEÇMEYE KARŞI KORUMAZ
+
+MOTOR geometri kusur taramasının üçüncü denemesini kurdu. Geçiş ölçütünü
+**koşudan önce** yazdı: *"kontrol ortancası / vaka ortancası ≥ 2×"*.
+
+Sonuç **2,32×** çıktı — ölçüt sağlandı. Ve MOTOR **geçişi reddetti:**
+
+> *"Oranı yükselten, vakaların darlığı değil, **benim kontrol adlarımın
+> genişliği** (Konya %91, Sofya %87, Ankara %87 — hepsi derin iç bölge). Kendi
+> kontrol listemde **Selanik 1,1 km ve Yenişehir 2,5 km, dört vakanın hepsinden
+> dar.** Tarafsız kontrol zaten elimdeydi: 608 yerleşimin tam dağılımı, ve o
+> 'bu dördü sıradan' diyor."*
+
+### Kural
+
+> **Önceden yazılmış eşik + elle seçilmiş karşılaştırma kümesi = istenen sonucu
+> üreten bir düzenek** — ve eşiğin öncedenliği ona meşruiyet görüntüsü verir.
+
+> **Kontrol kümesi seçilmez, dağılımın tamamı alınır. Seçilecekse, seçimi
+> ölçümü yapan yapmaz.**
+
+📌 Bu, `§42`'nin ("doğrulama iki uçlu olmalı") boşta kalan tarafı: iki uç da
+**doğru ölçülebilir** ve karşılaştırma yine de yanlı olabilir. Eşik, dağılımın
+**hangi kısmıyla** kıyaslandığını söylemez.
+
+### Ve aynı taramanın ikinci denemesi "geçmişti"
+
+```
+"✓ DÖRDÜ DE BULUNDU"                         ← rapor edilecekti
+kontrol: şikâyet edilmemiş 10 addan 8'i de bulundu   ← geçiş BOŞTU
+`boğum` göstergesi parçaların %40,3'ünde ateşliyor   ← her şeyi işaretleyen
+                                                       gösterge hiçbir şey söylemez
+```
+
+⚠️ Üç deneme, üç farklı biçimde yanlış — ve **üçünü de ölçümü yapan yakaladı.**
+Bugünün diğer derslerinden farkı şu: §61-§64'te *ölçülen şey* yanlıştı; burada
+**ölçüm doğru, ölçülen şey doğru, KARŞILAŞTIRMA yanlı.** En ince hâli.
+
+### Dördüncü kusur: yanlış soru
+
+> *"Bütün dönemlerin **en dar anını** aldım. Kullanıcı ise **belirli bir tarihte**
+> kusur bildirdi. 'Tarihi boyunca en dar' ≠ 'o gün nasıl görünüyordu'."*
+
+📌 Kusur bildirimi bir **an**a aittir. O anı bilmeden kalibrasyon yapmak, cevabı
+soruya uydurmaktır — ve dört şikâyetin tarihi (1361 · 1362 · 1363 · 1372 · 1381)
+kronolojide **zaten yazılıydı**, kimse aramamıştı.
+
