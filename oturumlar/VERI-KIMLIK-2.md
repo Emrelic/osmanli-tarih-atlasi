@@ -31,8 +31,15 @@ başlamaması riskini taşıyor — bugün tam bu yüzden kuyruk büyüdü.
 | 11 | `suriye-arap-kralligi` | 🟡 **ERTELENDİ** — koordinatör `hicaz`ı seçti, kalıntı **4 ay** | ÇAPRAZ AKDENİZ G-4 |
 | 12 | 15 tanımsız kimlik | 228 noktalık partiyi kilitliyor | |
 
-📌 **1-3 arası bugün ölçüldü ve üçü de "kayıt var, yalnız renk yok" sınıfı** —
-yani en ucuz ve en yüksek getirili olanlar başta.
+🔴 **SIRA DEĞİŞTİ 17:55:** `dehlek` en başta değil. Ölçülen sınıflar:
+```
+2 sirbistan-nemanjic   kayıt VAR · renk VAR · yalnız harita: eksik   ✅ BİTTİ (fe9c96c)
+3 merini               kayıt VAR · renk VAR (fas) · harita: boş      ← EN UCUZ, sıradaki
+1 dehlek               kayıt YOK · renk YOK                          ← ARAŞTIRMA, sona
+```
+📌 Ve ders koordinatörde: brifing ÇAPRAZ DOĞU'nun raporundan yazıldı, **dizin
+durumu doğrulanmadı** (`ORGANIZASYON §12`). *"236 yıl yanlış devlet"* doğruydu;
+*"yalnız renk yok"* değildi.
 
 ---
 
