@@ -144,8 +144,41 @@ def oku_devletler():
     js = "\n".join(l for l in js.split("\n") if not l.strip().startswith("//"))
     anahtar = "window.DEVLETLER = "
     govde = js[js.index(anahtar) + len(anahtar):]
-    govde = govde[:govde.rindex("]") + 1]
-    return _json.loads(_anahtarlari_tirnakla(govde))
+    return _json.loads(_anahtarlari_tirnakla(_dizi_kes(govde)))
+
+
+def _dizi_kes(govde):
+    """`[` ile başlayan gövdeyi EŞLEŞEN `]`'de keser.
+
+    🔴 Eskiden `govde.rindex("]")` idi — dosyanın SON köşeli parantezi. Dosyada
+    tek dizi varsa doğru, ama bu varsayım bugün `denetle.py`'de `savaslar.js`
+    üzerinde çöktü (dört dizi taşıyor). Burada aynı varsayımın ikinci kopyası
+    duruyordu: `devletler.js`'e bugün ikinci bir dizi eklense sessizce bozulurdu.
+    Kopyayı düzeltmek yerine bırakmak, aynı hatayı iki kez öğrenmek olurdu.
+    """
+    derinlik, i, dizge, kacis = 0, 0, None, False
+    for i, c in enumerate(govde):
+        if kacis:
+            kacis = False
+            continue
+        if c == "\\":
+            kacis = True
+            continue
+        if dizge:
+            if c == dizge:
+                dizge = None
+            continue
+        if c in "\"'":
+            dizge = c
+        elif c == "[":
+            derinlik += 1
+        elif c == "]":
+            derinlik -= 1
+            if derinlik == 0:
+                break
+    if derinlik != 0:
+        raise ValueError("dizi kapanmıyor")
+    return govde[:i + 1]
 
 
 def gun_no(s):
@@ -223,6 +256,81 @@ def topla(Y, D):
                 "beyaz": gerekce,
             })
     return bulgular, kimliksiz, omur
+
+
+# ============================================================================
+# SAVAŞ TARAFLARI — "devlet öldü ama hâlâ savaşıyor"
+# ============================================================================
+# A5 üç vakayı ELLE buldu; makine bulmalıydı ve bulamıyordu, çünkü bu araç
+# kurulduğunda yalnız `yerlesimler.js` sahipliklerini tarıyordu. `savaslar.js`
+# hiç okunmuyordu — yani "hangi devlet ne zaman yaşıyordu" sorusu verinin
+# yalnız BİR yüzünde soruluyordu.
+#
+#     sirbistan-prensligi   ömür 1882'de bitiyor  ↔  1912-13 Balkan kayıtları
+#     bulgaristan-prensligi ömür 1908'de bitiyor  ↔  1912-13 Balkan kayıtları
+#     rodos-sovalyeleri     ömür 1522'de bitiyor  ↔  1565 Malta · 1571 İnebahtı
+#
+# ⚠️ Kimliği `omurler()`de ÇÖZÜLEMEYEN taraf, ihlal sayılmaz ama SAYILIR ve
+# yazılır. Sessizce atlamak, denetimin kapsamını gizlice daraltırdı: "0 ihlal"
+# ile "0 ölçülebilen" arasındaki farkı çıktı söylemeli.
+SAVAS_TOLERANS_GUN = 365
+
+
+def savas_taraflari(om, D):
+    """(ölçülen, çözülemeyen_kimlikler, aykırı) — savaş/sefer/antlaşma tarafları.
+
+    🔴 İLK YAZIMDA YANLIŞ EKSENDE ARIYORDU ve sonuç tam §44 deseniydi:
+    çıktı "✓ ölçülebilen tarafların hepsi kendi ömrü içinde" diyordu, ama
+    A5'in elle bulduğu ÜÇ VAKANIN ÜÇÜ DE "çözülemedi" kovasındaydı
+    (rodos-sovalyeleri · sirbistan-prensligi · bulgaristan-prensligi).
+    Sebep: `taraf:` alanı `devletler.js`'in **id**'sini kullanıyor, ben ise
+    `harita:` boya kimliğiyle arıyordum — iki ayrı eksen.
+    Çözülemeyeni GÜRÜLTÜLÜ saydırmasaydım denetim temiz görünecekti; "0 ihlal"
+    ile "0 ölçülebilen" arasındaki farkı çıktının söylemesi bu yüzden şart.
+    """
+    kimlik_omru = {}
+    for d in D:
+        if d.get("id") and d.get("f") and d.get("t"):
+            kimlik_omru[d["id"]] = (gun_no(d["f"]), gun_no(d["t"]))
+    import denetle as _d
+    kaynaklar = [("savaslar.js", "SAVASLAR"), ("savaslar.js", "SEFERLER"),
+                 ("savaslar.js", "ANTLASMALAR")]
+    olculen, cozulemeyen, aykiri = 0, {}, []
+    for dosya, dizi in kaynaklar:
+        try:
+            kayitlar = _d.oku_pencere(os.path.join(girdi.DATA, dosya), dizi)
+        except Exception as e:
+            print("  !  %s/%s okunamadı: %s" % (dosya, dizi, str(e)[:50]))
+            continue
+        for r in kayitlar:
+            t = r.get("t") or r.get("f")
+            if not t or not isinstance(r.get("taraf"), list):
+                continue
+            try:
+                g = gun_no(t if len(t) == 10 else (t + "-01-01")[:10])
+            except Exception:
+                continue
+            for kimlik in r["taraf"]:
+                if kimlik == "osmanli":
+                    continue                  # çekirdek katman, ömrü ayrı iş
+                # ÖNCE id ekseni (taraf: bunu kullanıyor), SONRA boya kimliği.
+                if kimlik in kimlik_omru:
+                    ilk, son = kimlik_omru[kimlik]
+                else:
+                    bilgi = om.get(kimlik)
+                    if not bilgi or not bilgi["parca"]:
+                        cozulemeyen[kimlik] = cozulemeyen.get(kimlik, 0) + 1
+                        continue
+                    ilk = min(p[0] for p in bilgi["parca"])
+                    son = max(p[1] for p in bilgi["parca"])
+                olculen += 1
+                if g > son + SAVAS_TOLERANS_GUN:
+                    aykiri.append((t, r.get("ad", "")[:34], kimlik,
+                                   "ÖLÜ", (g - son) / 365.2425))
+                elif g < ilk - SAVAS_TOLERANS_GUN:
+                    aykiri.append((t, r.get("ad", "")[:34], kimlik,
+                                   "HENÜZ YOK", (ilk - g) / 365.2425))
+    return olculen, cozulemeyen, sorted(aykiri, key=lambda r: -r[4])
 
 
 def dagilim(bulgular):
@@ -336,6 +444,25 @@ def main():
         ek[b["kimlik"]] = ek.get(b["kimlik"], 0) + 1
     print("    en çok: " + ", ".join(f"{k}×{v}" for k, v in
                                      sorted(ek.items(), key=lambda a: -a[1])[:8]))
+
+    # --- D) SAVAŞ TARAFLARI — bu aracın ESKİDEN HİÇ BAKMADIĞI yüz -----------
+    olculen, cozulemeyen, ayk = savas_taraflari(omur, D)
+    print(f"\n--- D) SAVAŞ/SEFER/ANTLAŞMA TARAFLARI — {olculen} taraf-kayıt ölçüldü ---")
+    print("    'Devlet öldü ama hâlâ savaşıyor.' Bu araç eskiden yalnız")
+    print("    yerlesimler.js sahipliklerine bakıyordu; savaslar.js hiç")
+    print("    okunmuyordu, yani soru verinin tek yüzünde soruluyordu.")
+    if cozulemeyen:
+        print(f"    ⚠️ {len(cozulemeyen)} kimlik devletler.js'te ÇÖZÜLEMEDİ "
+              f"({sum(cozulemeyen.values())} taraf-kayıt) — ölçüm dışı:")
+        print("       " + ", ".join(f"{k}×{v}" for k, v in
+                                    sorted(cozulemeyen.items(), key=lambda a: -a[1])[:10]))
+    if not ayk:
+        print("    ✓ ölçülebilen tarafların hepsi kendi ömrü içinde")
+    else:
+        print(f"    ✗ {len(ayk)} taraf-kayıt devletin ömrü DIŞINDA "
+              f"(tolerans {SAVAS_TOLERANS_GUN} gün):")
+        for t, ad, kimlik, yon, yil in ayk:
+            print(f"      {t}  {ad:34s} {kimlik:22s} {yon:9s} {yil:5.1f} yıl")
 
     print()
     print("SONUÇ:", "temiz ✓" if not kalan else
