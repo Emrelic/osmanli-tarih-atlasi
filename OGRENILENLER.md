@@ -2406,3 +2406,59 @@ aynı yanlış çıkarımı ikinci kez yapabilir. Bağımsızlık **kaynakta** d
 📌 `OGRENILENLER §42`'nin ("doğrulama iki uçlu olmalı") kaynak tarafı: orada
 **düzeltmenin** iki ucu vardı, burada **verinin.**
 
+
+---
+
+## §64 — BETİĞİN İÇİNDEKİ ELLE YAZILMIŞ SABİT, VERİ GİBİ DAVRANIR AMA VERİ DEĞİLDİR
+
+ARAŞTIRMA ARABİSTAN `dis-savas`/`ic-savas` ölçütünü kurdu. Ölçütün bir ayağı
+*"o tarihte Osmanlı hâkimiyetinde miydi"* diye soruyor ve `devletler.js`'te
+tâbiiyet alanı olmadığı için **on kimliğin aralığını betiğin içine elle yazdı.**
+
+Betik koştu, çıktı makuldü (`95 dış / 8 iç / 1 taraf değil`), ve **8 `ic-savas`
+kararının tamamı** o tabloya dayandı.
+
+VERİ DEVLET alanı yazmak isteyince tabloyu aradı ve **bulamadı** — tablo bir
+dosyada değil, bir betiğin içindeydi. Dosyaya yazma zorunluluğu gelince
+ARAŞTIRMA ARABİSTAN §63'ü kendi tablosuna uyguladı ve **iki turda altı hata
+düştü:**
+
+```
+bogdan  başlangıcı 1538-09-01    →  kronolojide 1456-06-01 var          82 YIL geç
+eflak   başlangıcı 1462-01-01    →  kronolojide 1462-06-01 var          yer tutucu
+suud    bitişi     1818-09-11    →  kronolojide 1818-09-09 var
+bogdan+eflak bitişi 1877-05-21   →  ikisi 1859-01-24'te BİRLEŞTİ        18 YIL taştı
+erdel   başlangıcı 1541-08-29    →  kaydın kendi f:'si 1570-01-01       29 YIL ÖNCE
+yemen-zeydi tâbi yazılmış        →  Zeydîler tâbi değil RAKİPTİ
+```
+
+🔴 **Hiçbiri yeni araştırmayla bulunmadı.** Altısı da **zaten elimizdeki veriyle
+çarpıştırınca** düştü — kronoloji, `devletler.js`'in kendi `f`/`t` değerleri.
+
+### Ve asıl bulgu, hataların kendisi değil
+
+> *"Betik tabloyla hizalandı, sayılar **değişmedi** (95/8/1) — yani altı hatanın
+> hiçbiri bir sınıflandırmayı çevirmiyordu. **Bu rahatlatıcı değil, tam tersi:
+> yanlış tablo doğru sonuç ürettiği için bir gün fark edilmedi.**"*
+
+📌 Bu, `§58`'in ("denetimi durduran şey makul sayıdır") en keskin hâli: burada
+**çıktı da makuldü, hem de doğruydu.** Doğru çıktı, yanlış girdiyi bir gün
+boyunca kamufle etti.
+
+### Kural
+
+> **Betiğin içine elle yazılmış her tablo/sabit, veriye taşınana kadar
+> DAMGALIDIR** — kaynağı yok, denetimi yok, görünürlüğü yok. Ona dayanan sonuç
+> "ölçüldü" değil, "hesaplandı" sayılır.
+
+Ve ARAŞTIRMA ARABİSTAN'ın §63'e getirdiği uzantı:
+
+> **Ölçütün içindeki varsayım da bir tarihtir ve aynı çarpıştırmaya tâbidir.**
+
+🟢 Somut çare de ölçümden çıktı — alt-aralık **şema düzeyinde** sınırlanabilir:
+```
+f_kayit <= f_tabi < t_tabi <= t_kayit
+```
+*"Alt-aralık, üzerinde durduğu kaydın dışına taşamaz."* Bu tek satır, altı
+hatanın **üçünü** yakalardı (erdel 29 yıl önce, boğdan/eflak 18 yıl sonra).
+
