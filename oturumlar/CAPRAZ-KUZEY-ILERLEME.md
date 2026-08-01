@@ -581,3 +581,77 @@ Altı turda: **10 canlı · 1 kabuk · 4 ölü** slug.
   bakmadım.
 - **`kirim t:` kararı** — üç aday sıralandı, **karar vermedim** (koordinatörün).
 - **1648 Hmelnitski günü** — **altıncı turda da yapılmadı.**
+
+---
+
+## Tur 7 — 2026-08-01, Kefe/Taman + paket envanteri
+
+**Ölçüm ağacı: `1fecf5d`** (§14 gereği commit yazılıyor).
+
+### Ö28 · `1783-04-08` tam envanteri
+
+```
+data/yerlesimler.js   6 sınır / 3 nokta
+  Bahçesaray              s:kirim 1774-07-21→1783-04-08 · s:rusya 1783-04-08→1923
+  Kuban (Yekaterinodar)   s:kirim 1281-01-01→1783-04-08 · s:rusya 1783-04-08→1923
+  Bozkır (Deşt-i Kıpçak)  s:kirim 1502-03-01→1783-04-08 · s:rusya 1783-04-08→1923
+data/devletler.js     3 sınır  (satır 149 · 162 · 200)
+data/olaylar.js       1 kayıt  (satır 120, "1783-04" — AY hassasiyetli)
+```
+
+🔴 **Tur 6'da `devletler.js` için "1 kayıt" demiştim — yanlıştı, 3.**
+Sebebi: `grep -o` desenim dardı, `grep -c` üç saydı. **Aracın çıktısına güvenip
+aracı sınamadım.**
+
+---
+
+### Ö29 · TDV `kefe` — `KESİN`
+
+`<title>`: "KEFE - TDV İslâm Ansiklopedisi" 🟢
+> **"1783'te Kefe kesin olarak Rus hâkimiyeti altına girdi."**
+> Osmanlı idaresi 1475 → 1783, ~308 yıl.
+> 1771'de işgal edildi · 1777 ikinci saldırı ·
+> **"Ruslar anlaşmaya rağmen Kefe'yi ellerinde tuttular."**
+
+⇒ Bizde `1774-07-21`. **9 yıl fark**, ve TDV'nin ifadesi **beyan** (çıkarım değil).
+📌 *"Anlaşmaya rağmen ellerinde tuttular"* = koordinatörün `isg:` modelinin
+kaynaktaki karşılığı.
+
+---
+
+### Ö30 · TDV `taman` — madde YOK, etiket `DESEN`
+
+```
+islamansiklopedisi.org.tr/taman   <title> "Arama - TDV İslâm Ansiklopedisi"  ← ÖLÜ
+arama sonucu: yalnız "TAMÂNÎ, Hüseyin Rifkı" (matematikçi) — alâkasız
+```
+TDV'de müstakil Taman maddesi **yok**. Üç dolaylı işaret var (1774 listesinde
+yok · 1784 üçlüsünde var · coğrafî eşi Kuban bizde zaten 1783) ama **hiçbiri
+doğrudan beyan değil** ⇒ `DESEN`, yamaya girmez.
+
+---
+
+### Ö31 · TDV slug ölçümü — tur 7
+
+| slug | `<title>` | hüküm |
+|---|---|---|
+| `kefe` | "KEFE - TDV İslâm Ansiklopedisi" | 🟢 canlı, dolu |
+| `taman` | **"Arama - TDV İslâm Ansiklopedisi"** | 🔴 **ÖLÜ, ve madde yok** |
+
+Yedi turda: **11 canlı · 1 kabuk · 5 ölü.**
+📌 Ölü beşin ikisi (`aynalikavak-tenkihnamesi`, `taman`) **gerçekten madde yok**
+sınıfı; üçünde (`ejderhan`, `karlofca-antlasmasi`, + `lehistan` kabuk) adres
+yanlıştı. **Ayrım önemli:** ilkinde başka kaynağa gidilir, ikincisinde TDV'de
+kalınır.
+
+---
+
+## Tur 7'de ölçmediğim, iddia da etmediğim şeyler
+
+- **Taman'ın doğru günü** — `DESEN` etiketiyle açık bırakıldı, akademik kaynak gerek.
+- **`devletler.js:200`'ün hangi devlete ait olduğu** — satır numarasından
+  `rusya` olduğunu **çıkardım**, kaydın başını okumadım.
+- **Kefe'nin `isg:` penceresinin başlangıcı** — `1771-07-01` mevcut veriden
+  alındı; TDV *"1771"* diyor, **günü doğrulanmadı.**
+- **Kabartay (Nalçik)** — hâlâ bakılmadı.
+- **1648 Hmelnitski günü** — **yedinci turda da yapılmadı.**

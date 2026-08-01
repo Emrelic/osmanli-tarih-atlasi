@@ -1035,7 +1035,130 @@ Kefe/Taman'ın **hangi güne** taşınacağı ayrı bir araştırma: 1783-04-19 
 
 ---
 
-## 34. SIRADAKİ TUR — kendi kuyruğum
+---
+---
+
+# TUR 7 — Kefe/Taman'ın günü + paket envanteri düzeltmesi
+
+---
+
+## 35. ⚠️ ÖNCE DÜZELTME — `devletler.js` 1 değil **3 sınır**
+
+Tur 6'da koordinatöre *"`devletler.js` `kirim t:`, **1 kayıt** (ölçüldü)"*
+dedim. **Yanlıştı.** Grep desenim dardı; `grep -c` ile saydığımda üç çıktı:
+
+```
+data/devletler.js:149    f:"1441-01-01", t:"1783-04-08", baskent:"Bahçesaray"
+data/devletler.js:162    { t:"1783-04-08", tur:"son",           b:"Rusya, Kırım'ı ilhak etti" }
+data/devletler.js:200    { t:"1783-04-08", tur:"toprak-kazanc", b:"Kırım'ı ilhak etti" }
+```
+149 `kirim`'in **ömrü**, 162 `kirim`'in **kendi kronolojisi**, 200 (muhtemelen)
+`rusya`'nın kronolojisi. **Üçü de aynı güne bağlı ve üçü birden değişmeli** —
+biri kalırsa devlet dizini kendi içinde çelişir.
+
+📌 Hatanın sınıfı **yine** §20: *"ölçüm yönü doğru, boyutu eksik."* Beşinci kez.
+Bu kez fark şu: **kendi aracımın çıktısına güvendim, aracı sınamadım.**
+⇒ §20 listeme beşinci satır: **kullandığım grep/desen, saymak istediğim şeyin
+hepsini yakalıyor mu?**
+
+---
+
+## 36. 🟢 KEFE — `KESİN`, ve `isg:` modeline birebir oturuyor
+
+### ① Bizde ne var
+```
+Kefe   s:ceneviz  1281-01-01 → 1475-06-06
+       d:OSMANLI  1475-06-06 → 1771-07-01
+       s:rusya    1771-07-01 → 1774-07-21     ← art arda iki rusya penceresi
+       s:rusya    1774-07-21 → 1923-10-29
+```
+
+### ② Kaynakta ne var
+TDV **`kefe`** (`<title>` doğrulandı: "KEFE - TDV İslâm Ansiklopedisi"):
+> **"1783'te Kefe kesin olarak Rus hâkimiyeti altına girdi."**
+> Osmanlı idaresi **1475**'teki fetihten **1783**'e kadar — yaklaşık **308 yıl**.
+> 1768 savaşında **1771'de işgal edildi**; 1777'de ikinci Rus saldırısı oldu ve
+> **"Ruslar anlaşmaya rağmen Kefe'yi ellerinde tuttular."**
+
+### ③ HÜKÜM — **ÇELİŞİYOR**, etiket **`KESİN`**
+TDV Osmanlı idaresini **1783'e kadar** sayıyor; haritamız 1774'te bitiriyor.
+**9 yıllık fark**, ve TDV'nin *"kesin olarak"* ifadesi doğrudan bu soruya cevap
+veriyor — çıkarım değil, **beyan.**
+
+Ve TDV'nin *"anlaşmaya rağmen ellerinde tuttular"* cümlesi, koordinatörün az
+önce kurduğu üçlü modelin **tam karşılığı**: fiilî işgal var, hukukî hâkimiyet
+değişmemiş.
+
+> **Öneri — `isg:` modeliyle:**
+> ```
+> Kefe   d:OSMANLI  1475-06-06 → 1783-04-19        (1771 kesmesi kaldırılır)
+>        isg:       1771-07-01 → 1783-04-19  d:"rusya"
+>        s:rusya    1783-04-19 → 1923-10-29
+> ```
+> ⚠️ Mevcut **art arda iki `rusya` penceresi** (1771-1774, 1774-1923) da bu
+> düzeltmeyle kapanır — sıfır bilgi taşıyan bir bölünme.
+
+---
+
+## 37. 🟡 TAMAN — `DESEN`, **yamaya girmez**
+
+### ② Kaynakta ne var — ve yok
+```
+islamansiklopedisi.org.tr/taman   <title> "Arama - TDV İslâm Ansiklopedisi"  ← ÖLÜ
+arama sonucu                      yalnız "TAMÂNÎ, Hüseyin Rifkı" (matematikçi)
+```
+**TDV'de Taman maddesi yok.** Elimdeki tek TDV beyanı dolaylı:
+TDV `kirim` — *"8 Ocak 1784'te … **Kırım, Taman ve Kuban**'ın Rusya'ya ilhakını
+tanıdı."*
+
+### ③ HÜKÜM — **DESEN**, üç dolaylı işaret üst üste
+1. TDV `kucuk-kaynarca-antlasmasi`'nın 1774 listesinde **Taman yok**
+   (*"Azak, Kerç, Yenikale ve Kılburun"*)
+2. TDV `kirim`, Taman'ı **1784'te tanınan üçlünün** içinde sayıyor
+3. Coğrafî eşi **Kuban (Yekaterinodar) bizde zaten `1783-04-08`** — Taman'ın
+   1774'te olması **kendi verimiz içinde** de tutarsız
+
+⇒ Üçü aynı yöne işaret ediyor **ama hiçbiri "Taman şu tarihte Rus oldu"
+demiyor.** §73'e göre bu `DESEN`dir, `KESİN` değil.
+
+> **Öneri: yamaya KOYMAYIN.** İkinci kaynak gerek. TDV'de müstakil madde
+> olmadığına göre akademik referans aranmalı — ve bu, `CAPRAZ-GOREV §3`'ün
+> *"TDV'nin kapsamadığı yerler"* kuralına giren bir vaka.
+
+📌 **Ve ölçütün kendini doğrulaması sürüyor:** TDV'nin 1774 listesindeki iki ad
+(Kerç, Azak) veride **doğru**, listede olmayan iki ad (Kefe, Taman) **şüpheli**
+— ve şimdi biri `KESİN` olarak doğrulandı. Liste, ölçüt olarak **iş görüyor.**
+
+---
+
+## 38. 📦 KIRIM PAKETİ — tam envanter, ölçüldü
+
+Ağacın hâli: `1fecf5d` (B15 dersi — ölçüm commit'i yazılıyor).
+
+### Koordinatörün sorduğu iki nokta
+```
+Bahçesaray               (44.75, 33.86)   ← koordinatörün bulduğu
+Kuban (Yekaterinodar)    (45.03, 38.98)   ← ARANAN 1
+Bozkır (Deşt-i Kıpçak)   (48.50, 42.00)   ← ARANAN 2
+```
+⚠️ Koordinatör *Gözleve/Akmescit* aradığı için bulamadı — **veride o adlar yok.**
+
+### Tam paket
+| dosya | ne | adet |
+|---|---|---|
+| `data/yerlesimler.js` | 3 nokta × 2 sınır (`s:kirim` `t:` + `s:rusya` `f:`) | **6 sınır** |
+| `data/devletler.js` | satır 149 (`kirim` ömrü) · 162 (`kirim` kronolojisi) · 200 (`rusya` kronolojisi) | **3 sınır** |
+| `data/olaylar.js` | satır 120, `1783-04` (ay hassasiyetli) | **1 kayıt** |
+| **`KESİN` ek** | Kefe: `d:` uzatma + `isg:` penceresi + `s:rusya` başlangıcı | **1 nokta** |
+
+⚠️ `olaylar.js:120` **ay hassasiyetinde** (`1783-04`). `CLAUDE.md §8`: ay
+hassasiyetli tarih ayın 1'ine genişler ve **gün hassasiyetli yerleşim
+değişiminden önce sıralanır** — yani gün verilmezse madde 1 Nisan'a, harita
+19 Nisan'a düşer ve **senkron bozulur.** Gün verilecekse `1783-04-19`.
+
+---
+
+## 39. SIRADAKİ TUR — kendi kuyruğum
 
 1. **1648 Hmelnitski ayaklanmasının günü** — Ukrayna/Leh kaynağından; B3'ün
    önerisi bu tarihe bağlı. **Dört turdur sırada, hâlâ yapılmadı** — bu turun
