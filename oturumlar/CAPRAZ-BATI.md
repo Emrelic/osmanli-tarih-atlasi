@@ -774,3 +774,69 @@ yer tutucuyu paylaşıyor.
 `koprulu-mehmed-pasa` slug'ını doğrulamış; **1693 kaybı** için doğrulanmış
 kaynak yok. Müstakil bir `yanova` maddesi arandı, listede görünmüyor.
 ⇒ **KAYNAK oturumuna:** Yanova/Ineu'nun 1693'te Habsburg'a geçiş **günü**.
+
+## A-5 🔴 SEMENDİRE'NİN 1789-91 PENCERESİ DE YOK — ama bu sefer GÜN elimizde
+
+**① BİZDE NE VAR.** Kuzey Sırbistan/Banat kutusunda (43,2-45,2°K / 18,8-23,2°D)
+**9 nokta** var; 1788-91 Avusturya penceresi taşıyan **1/9** (yalnız Böğürdelen).
+```
+Belgrad      OSMANLI 1739-09 → 1867-04     ← pencere yok (A-2)
+Semendire    OSMANLI 1739-09 → 1867-04     ← pencere yok
+Kragujevac · Çaçak · Niş · Vidin · İzvornik · Turnu Severin — pencere yok
+```
+
+**② KAYNAKTA NE VAR** — TDV `semendire` (`<title>` = "SEMENDİRE - TDV İslâm
+Ansiklopedisi", **canlı**):
+> **13 Ekim 1789** — *"300 askerin silâhlarını bırakarak geri çekilebilmesi
+> şartıyla teslim oldu"*
+> **4 Ağustos 1791** — Ziştovi Antlaşması, *"Osmanlılar'a geri verildi"*
+
+**③ HÜKÜM: ÇELİŞİYOR — ve düzeltmenin iki ucu da `KESİN`.**
+```
+d: 1739-09-18 -> 1789-10-13
+s: 1789-10-13 -> 1791-08-04   d=avusturya    ← EKSİK; iki uç da TDV'den, GÜN hassasiyetli
+d: 1791-08-04 -> 1867-04-18
+```
+✅ Belgrad'dan farklı olarak burada **beklemeye gerek yok** — TDV günü veriyor.
+
+🟢 **VE BELGRAD'IN GÜNÜNÜ DARALTIYOR.** Semendire **13 Ekim 1789**'da teslim
+oldu ve Belgrad'ın düşüşü bunun **öncesindedir** (Semendire, Belgrad
+düştükten sonra tutunamadı). ⇒ Belgrad için yaygın verilen **8 Ekim 1789**
+tarihi bu sırayla **tutarlı**. Kanıt değil ama **destekleyici** — KAYNAK
+oturumu teyit ederken bu üst sınırı kullanabilir: *Belgrad < 13 Ekim 1789.*
+
+🟡 **Kragujevac · Çaçak hâlâ ölçülmedi** — Avusturya işgalinin güney sınırı
+kaynaklanmadı. Niş · Vidin · İzvornik'te pencere **olmaması doğru** (Avusturya
+oraya ulaşmadı).
+
+## A-6 🔴 VE A-1'İN SINIRI ÇIKTI — kendi bulgumu daraltıyorum
+
+**① BİZDE NE VAR:** `Semendire  s:avusturya 1717-08-18 → 1739-09-18`
+— yani 1739 grubunun tamamı gibi **antlaşma tarihiyle** bitiyor.
+
+**② KAYNAKTA NE VAR** — aynı TDV maddesi:
+> *"Avusturyalılar bu bölgede **Ağustos 1738**'e kadar kaldılar."*
+
+**③ HÜKÜM: ÇELİŞİYOR — ~13 ay.**
+
+A-3'te *"1739 grubu antlaşma tarihini kullanıyor çünkü Avusturya tahliye etti"*
+demiştim ve bunu **tutarlılık** diye övmüştüm. TDV'ye göre Semendire için bu
+**yanlış**: orası 1739'da tahliye edilmedi, **Ağustos 1738'de fiilen kaybedildi.**
+
+⇒ **A-1'in kuralı ayakta ama uygulaması 1739 grubunda tek tip DEĞİL.**
+Kural *"fiilî değişim fiilî tarihle"* diyor; Semendire'de fiilî tarih 1738,
+veride 1739 yazılı. Yani grup **kuralın kendisine** aykırı, kurala uygun değil.
+
+📌 **Kendi A-3 hükmümü daraltıyorum:** *"36/36 tuttu"* ölçümü **geri fetih
+dalgasının başlangıç tarihleri** içindi ve o hâlâ geçerli. Ama *"1739 grubu
+tutarlı"* yorumum **bitiş tarihleri** hakkındaydı ve **sınanmamıştı** — şimdi
+sınandı, en az bir üyesi tutmuyor.
+⚠️ Belgrad'ın `1739-09-18`'i muhtemelen **doğru** (1739 kuşatması antlaşmayla
+sonuçlandı); yani grup gerçekte **karışık**, ve tek tip yazılmış olması
+kolaylıktan geliyor olabilir.
+
+🟡 **ÖLÇÜLMEDİ:** Böğürdelen · Kragujevac · Çaçak 1738'de mi 1739'da mı
+kaybedildi? Dördü ayrı ayrı kaynaklanmalı. **Bu turda yalnız Semendire
+sınandı.**
+⚠️ Ve düzeltme `1738-08-01` **ay hassasiyetlidir** (TDV gün vermiyor) —
+`§4⑤` gereği öyle işaretlenmeli.
