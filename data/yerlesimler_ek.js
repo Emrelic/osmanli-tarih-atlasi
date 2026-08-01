@@ -8,26 +8,24 @@
 //    yapılmamalıdır.
 //
 // ── CANLIYA ALMADAN ÖNCE ÖDENECEK BORÇ: TEK KRONOLOJİ MADDESİ ─────────────
-//    Değişmez 2 yalnız `d:` ve `v:` kırılmalarını sayar; `s:` geçişleri madde
-//    istemez. 15 noktanın 30 kırılması tarandı; ±30 gün içinde maddesi
-//    olmayan TEK tarih kaldı:
+//    Değişmez 2 yalnız `d:` ve `v:` kırılmalarını sayar; `s:` geçişleri ve
+//    `isg:` örtüsü madde istemez. 15 noktanın 30 kırılması tarandı; ±30 gün
+//    içinde maddesi olmayan TEK tarih:
 //
-//      1522-01-01  Skradin'in fethi           en yakın madde 125 gün
+//      1592-06-19  Bihaç'ın fethi (Hasan Paşa)   en yakın madde 377 gün
 //
 //    Bu dosya bugün girdiye eklenirse AÇIK 0'dan 1'e çıkar.
-//    ⚠️ Skradin kaydı çıkarılıp gerisi alınırsa kalan ON DÖRT nokta
-//    SIFIR borç doğurur.
+//    ✅ Ve bu borç ÖDENEBİLİR: **günü BİLİNİYOR ve kaynaklı** (10-19 Haziran
+//    1592 kuşatması, Lamberg 19 Haziran'da teslim oldu; TDV `bihac` yılı ve
+//    fâtihi veriyor, gün TDV dışı kaynaklarda ve TDV ile ÇELİŞMİYOR).
+//    ⇒ Madde tam güne yazılır, pencere tutar, borç kapanır.
 //
-//    📌 Bu liste ilk yazıldığında BEŞ maddeydi; DÖRDÜ bu oturum çalışırken
+//    📌 Bu liste ilk yazıldığında BEŞ maddeydi. DÖRDÜ bu oturum çalışırken
 //    başka oturumlarca yazıldı (`Knin'in fethi` 1522-05-29 · `Klis Kalesi'nin
 //    fethi ve Dalmaçya sancağının kurulması` 1537-03-12 · `Klis'in Venedik'e
-//    kaybı` 1648-03-31 · Sin'in 1513 fethi). Sayı hareketli — canlıya almadan
-//    önce doğrulayıcıyı TEKRAR koştur.
-//    🔴 Skradin'in kalmasının sebebi: GÜN BİLİNMİYOR (§76 → YYYY-01-01). Madde
-//    gerçek güne yazılırsa ±30 penceresi tutmaz, 1522-01-01'e yazılırsa madde
-//    uydurma gün taşır. ⇒ Önce TARİH bulunmalı, sonra madde. Ters sıra
-//    çalışmaz. Ve Knin (1522-05-29) ile Skradin AYNI seferin iki kalesi ama
-//    148 gün arayla yazılı — tek bir "1522 seferi" maddesi ikisini kapatamaz.
+//    kaybı` 1648-03-31 · Sin'in 1513 fethi); BEŞİNCİSİ (Skradin 1522) kaydın
+//    kendisi ÇIKARILARAK kapatıldı — sebebi aşağıda, ③ bölümünün sonunda.
+//    ⚠️ Sayı hareketli — canlıya almadan önce doğrulayıcıyı TEKRAR koştur.
 //
 // ── ÖLÇÜM: NEDEN BU NOKTALAR ──────────────────────────────────────────────
 //    CLAUDE.md §2: noktası olmayan bölge en yakın peteğe emilir. Boşluklar
@@ -38,18 +36,17 @@
 //
 //      Yukarı Macaristan   54.406,5 km²  (ÇAPRAZ BATI'nın ölçtüğü boşluk 51.178)
 //        Eperjes 21.613,1 · Tokaj 15.282,3 · Kassa 9.715,1 · Sopron 7.796,0
-//      Dalmaçya            15.047,9 km²
-//        Knin 5.424,1 · Nadin 2.000,0 · Herseknovi 1.257,2 · Kotor 1.193,0 ·
-//        Sin 1.452,2 · Skradin 860,5 · Vrana 657,1 · Şibenik 654,5 ·
-//        Zadar 537,6 · Klis 536,7 · Split 474,9
+//      Dalmaçya + Lika     21.946,8 km²
+//        Bihaç 8.872,9 · Knin 4.125,7 · Nadin 1.581,1 · Sin 1.439,0 ·
+//        Herseknovi 1.239,0 · Şibenik 1.230,0 · Kotor 1.179,4 · Vrana 741,6 ·
+//        Klis 538,5 · Zadar 532,0 · Split 467,7
 //      ────────────────────────────────
-//      TOPLAM              69.454,4 km²
+//      TOPLAM              76.353,3 km²
 //
-//    📌 Klis sancağının beş iç noktası (Knin·Sin·Klis·Skradin·Vrana·Nadin)
-//    kıyı şehirlerinin iddiasını da DÜŞÜRÜYOR — Zadar 2.005,3 → 537,6 ·
-//    Şibenik 1.668,6 → 654,5 · Knin 6.238,9 → 5.424,1. Yani iç noktalar
-//    yalnız kendi boşluklarını değil, kıyının KURGUSAL genişliğini de
-//    düzeltiyor. Nokta eklemenin faydası tek noktada ölçülemez.
+//    📌 İç noktalar KIYININ iddiasını da DÜŞÜRÜYOR — Zadar 2.005,3 → 532,0 ·
+//    Split 474,5 → 467,7 · Knin 6.238,9 → 4.125,7. Yani bir nokta yalnız
+//    kendi boşluğunu değil, KOMŞUSUNUN KURGUSAL genişliğini de kesiyor.
+//    ⇒ Nokta eklemenin faydası tek noktada ölçülemez.
 //
 // ── GİRİT YOK — ÖLÇÜLDÜ, YAZILMADI ────────────────────────────────────────
 //    Suda · Spinalonga · Granbosa bu dosyada YOKTUR ve bu bir eksiklik değil,
@@ -226,8 +223,9 @@ window.YERLESIMLER_EK = [
 // ═══ ④ KLİS SANCAĞI — brifingin 1.4'ü ═════════════════════════════════════
 // ÇAPRAZ AKDENİZ'in ölçtüğü boşluk (`3fd8fc0`): Dalmaçya iç kesiminde
 // (43,3-44,6°K / 15,3-17,5°D) toplam ÜÇ nokta var ve biri ADA. TDV `dalmacya`
-// (CANLI) sekiz yeri adıyla sayıyor; bu parti bunlardan ALTISINI yazdı
-// (Klis · Knin · Sin yukarıda, Skradin · Vrana · Nadin burada).
+// (CANLI) sekiz yeri adıyla sayıyor; bu parti bunlardan BEŞİNİ yazdı
+// (Klis · Knin · Sin yukarıda, Vrana · Nadin burada). Skradin yazılmıştı ve
+// GERİ ÇEKİLDİ (aşağıda), Ostrovica ile Obrovac hiç yazılmadı.
 //
 // TDV `dalmacya` verbatim:
 //   "1537'de Klis Kalesi'nin fethinden sonra Dalmaçya sınırında YENİ BİR
@@ -256,19 +254,16 @@ window.YERLESIMLER_EK = [
 //    1683-1699 arasındaki fiilî Venedik denetimi tarihleri gelince `isg:` olarak
 //    eklenebilir ve taban rengini değiştirmez.
 //
-// Skradin (Scardona): Osmanlı 1522 (gün YOK, §76 → YYYY-01-01). Şibenik'in
-// 12 km kuzeyindeki liman kasabası; 1522 kuşatmasından sonra surlandırıldı.
-// 🔴 Bu kaydın 1522-01-01 kırılmasının maddesi YOK (en yakın 125 gün) —
-//    dosya başındaki iki borçtan biri. Çıkışı (1699-01-26 Karlofça) temiz.
-// ⚠️ 1412-1522 arası Venedik ara dönemi MODELLENMEDİ: Skradin, Şibenik'le
-//    birlikte Venedik'e geçmişti ama tarihi ancak Şibenik'ten ÖDÜNÇ alınarak
-//    yazılabilirdi (§78 — emsale benzemek doğruluğun delili değildir).
-{ ad:"Skradin (Scardona)", tur:"kale", lat:43.820, lon:15.924, g:0, k:0,
-    s:[{f:"1281-01-01",t:"1522-01-01",d:"macaristan"},
-       {f:"1699-01-26",t:"1797-10-17",d:"venedik"},
-       {f:"1797-10-17",t:"1918-11-11",d:"avusturya"},
-       {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
-    d:[{f:"1522-01-01",t:"1699-01-26",y:"kusatma"}] },
+// 🔴 SKRADİN (SCARDONA) ÇIKARILDI — koordinatörün kararı, gerekçesi ölçüm.
+//    GeoNames 43.820278 / 15.923611 · Osmanlı 1522 · Venedik'e Karlofça'da.
+//    Kayıt hazırdı ama TEK EKSİĞİ fethin GÜNÜYDÜ ve bu, madde yazımını
+//    kilitliyordu: `1522-01-01`e madde yazmak MADDEYE uydurma gün taşıtır
+//    (§76), gerçek güne yazmak ise ±30 penceresini tutturmaz. Knin'in
+//    1522-05-29'unu ödünç almak da §76 ihlali.
+//    📌 Çıkarmanın maliyeti ÖLÇÜLDÜ ve düşük: 860,5 km²'si Knin ile Vrana'ya
+//    gidiyor, ikisi de o dönemde OSMANLI ⇒ renk doğru kalır, yalnız sınır
+//    kabalaşır. Skradin, günü kaynaklanınca döner.
+//
 // Vrana (Urana) ve Nadin: ikisi de Zadar contado'sundaydı, bu yüzden 1540
 // öncesi zinciri Zadar'ın zinciriyle AYNI (1358 Zadar Antlaşması → Macaristan,
 // 1409 Ladislas satışı → Venedik). Osmanlı'ya geçişleri TDV'de: 1540
@@ -293,5 +288,54 @@ window.YERLESIMLER_EK = [
        {f:"1797-10-17",t:"1918-11-11",d:"avusturya"},
        {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}],
     d:[{f:"1540-10-02",t:"1699-01-26",y:"antlasma"}] },
+
+// ═══ ⑤ LİKA / BİHAÇ — BU PARTİNİN KENDİ AÇTIĞI HATANIN KAPAĞI ═════════════
+// 🔴 Bu nokta bir boşluğu değil, BİZİM ÜRETTİĞİMİZ bir fazlalığı kapatıyor.
+//    Knin eklenince peteği 5.424 km² oldu ve kuzeye, LİKA'ya taştı — çünkü
+//    `44,2-46,0°K / 14,5-17,5°D` kutusunda Zagreb·Krk·Rab·Pag·Banaluka·Yayça
+//    dışında nokta YOK. Knin 1688'den sonra VENEDİK, Lika ise 1689'da
+//    HABSBURG oldu ⇒ Knin'in peteği Lika'yı 1688-1797 arası Venedik boyardı.
+//    OGRENILENLER §72'nin tarifi: "hayalet yok olmadı, TARAF DEĞİŞTİRDİ."
+//    ⇒ Düzeltmeyi yapan taraf, düzeltmenin öbür ucunu da kapatır (§3.5.1).
+//
+// TDV `bihac` **CANLI** ("BİHAÇ - TDV İslâm Ansiklopedisi", "Bosna'da tarihî
+// bir şehir") ve zincirin ÜÇ düğümünü de veriyor:
+//   fetih   "Kasım 1591'de Bihaç'ın ön kalesi Ripaç'ı, 1592'de şehri ve
+//            kaleyi aldı" (Hasan Paşa) — ardından SANCAK MERKEZİ ve
+//            "Bihaç kaptanı"
+//   1699    "Karlofça Antlaşması'nın (1699) ardından Bihaç ve çevresi
+//            OSMANLILAR'IN ELİNDE KALDI, ancak Bihke sancağı kaldırılarak
+//            Bosna sancağına bağlandı"   ⇒ 1699'da RENK DEĞİŞMİYOR, doğrusu bu
+//   1878    "18 Eylül 1878'de Avusturya-Macaristan ordusu … Bihaç'ı almayı
+//            başardı"
+//
+// ⚠️ GÜN: TDV fethe YIL veriyor (1592). 10-19 Haziran 1592 kuşatması ve
+//    Lamberg'in 19 Haziran'da teslimi TDV DIŞI kaynaklarda, TDV ile
+//    ÇELİŞMİYOR — bu yüzden gün yazıldı ve etiketi DESEN. §76 ihlali değil:
+//    ödünç alınmış bir gün değil, kendi vakasının kaynaklanmış günü.
+// 🔴 1592-06-19'un ±30 gününde madde YOK (en yakın 377 gün) — dosyadaki TEK
+//    borç. Ama Skradin'inkinden FARKLI ve ödenebilir: gün BİLİNİYOR, yani
+//    madde tam güne yazılır ve pencere tutar.
+//
+// ⚠️ 1527-01-01 = Cetin sabor'u; Hırvat asilzadeleri Ferdinand'ı kral seçti.
+//    Uydurma YYYY-01-01 DEĞİL, olayın gerçek günü. Mohaç (1526-08-29) burada
+//    kullanılmadı: Hırvatistan'ın Habsburg'a geçişi ayrı bir olaydır (§74).
+// ⚠️ 1878-09-18 `isg:` — komşu Bosna kayıtları 1878-07-29 + kaynak
+//    "berlin-antlasmasi" kullanıyor; Bihaç'ın KENDİ tarihi TDV'de var, o
+//    yüzden komşununki ÖDÜNÇ ALINMADI (§76).
+// ⚠️ 1918 kuyruğu `sirbistan` — Dalmaçya kayıtlarındaki `yugoslavya` DEĞİL.
+//    Bihaç Bosna'dadır ve bütün Bosna kayıtları (Saraybosna·Banaluka·Travnik·
+//    Yayça·Mostar·İzvornik) `sirbistan` yazıyor. Farklı yazılsa Bosna'nın
+//    içinden geçen KURGUSAL bir 1918 sınırı doğardı.
+// ⚠️ k:0 / m: yok — Bihaç 1592-1699 sancak MERKEZİ, 1699'dan sonra Bosna
+//    sancağına BAĞLI. `k`/`m`'nin zaman boyutu olmadığı için (Değişmez 3)
+//    hangisi yazılsa öbür dönemde yanlış olurdu. Eksik alan yanlış alandan iyidir.
+{ ad:"Bihaç (Bihać)", tur:"kale", lat:44.817, lon:15.871, g:0, k:0,
+    s:[{f:"1281-01-01",t:"1527-01-01",d:"macaristan"},
+       {f:"1527-01-01",t:"1592-06-19",d:"avusturya"},
+       {f:"1908-10-05",t:"1918-11-11",d:"avusturya"},
+       {f:"1918-11-11",t:"1923-10-29",d:"sirbistan"}],
+    d:[{f:"1592-06-19",t:"1908-10-05",y:"kusatma"}],
+    isg:[{f:"1878-09-18",t:"1908-10-05",d:"avusturya",kaynak:"bihac"}] },
 
 ];

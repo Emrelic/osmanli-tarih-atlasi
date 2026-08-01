@@ -12,8 +12,9 @@
 ## 0. TEK CÜMLE
 
 Beş boşluktan **dördü tamamen ya da büyük ölçüde kapatıldı** (Yukarı
-Macaristan 4 · Dalmaçya kıyısı 4 · Klis sancağı 6 · Venedik Arnavutluğu 2 —
-toplam **69.454 km²** petek); **Girit kapatılmadı ve bu bir eksiklik değil,
+Macaristan 4 · Dalmaçya kıyısı 4 · Klis sancağı 5 · Venedik Arnavutluğu 2 ·
++ Bihaç — toplam **76.353 km²** petek: Yukarı Macaristan 54.406,5 ·
+Dalmaçya+Lika 21.946,8); **Girit kapatılmadı ve bu bir eksiklik değil,
 ölçülmüş bir karardır** — önerilen düzeltme ölçüldüğünde kapatacağı hatadan
 **2000 kat büyük** bir hata üretiyor.
 
@@ -149,15 +150,18 @@ sınır KURGUSAL"*).
 
 | Nokta | Koordinat | En yakın komşu | Peteğin iddiası | Güç |
 |---|---|---|---|---|
-| Zadar (Zara) | 44.124 / 15.232 ⚠️ | Uzunada 19,21 km | 537,6 km² | **KESİN** |
-| Şibenik (Sebenico) | 43.734 / 15.894 | Skradin 9,87 km | 654,5 km² | **KESİN** |
-| Split (Spalato) | 43.511 / 16.439 ⚠️ | Klis 8,38 km | 474,9 km² | **KESİN** |
-| Kotor (Cattaro) | 42.421 / 18.768 | Cetinje 12,46 km | 1.193,0 km² | **KESİN** |
+| Zadar (Zara) | 44.124 / 15.232 ⚠️ | Uzunada 19,21 km | 532,0 km² | **KESİN** |
+| Şibenik (Sebenico) | 43.734 / 15.894 | Vrana 36,35 km | 1.230,0 km² | **KESİN** |
+| Split (Spalato) | 43.511 / 16.439 ⚠️ | Klis 8,38 km | 467,7 km² | **KESİN** |
+| Kotor (Cattaro) | 42.421 / 18.768 | Cetinje 12,46 km | 1.179,4 km² | **KESİN** |
 
-📌 **Kıyı iddiaları, iç noktalar eklenince ÜÇTE BİRE düştü** (Zadar 2.005,3 →
-537,6 · Şibenik 1.668,6 → 654,5 · Knin 6.238,9 → 5.424,1). Yani `§1.4`'ün iç
-noktaları yalnız kendi boşluklarını kapatmıyor, **kıyının kurgusal
-genişliğini de kesiyor.** Bir noktanın faydası tek başına ölçülemez.
+📌 **Kıyı iddiaları, iç noktalar eklenince ÜÇTE BİRE düştü** — Zadar 2.005,3
+→ 532,0 · Split 474,5 → 467,7 · Knin 6.238,9 → 4.125,7. Yani `§1.4`'ün iç
+noktaları yalnız kendi boşluklarını kapatmıyor, **kıyının kurgusal genişliğini
+de kesiyor.** **Bir noktanın faydası tek başına ölçülemez.**
+⚠️ Şibenik ters yönde hareket etti (654,5 → 1.230,0) çünkü Skradin çıkarıldı
+(3.5) — yani aynı mekanizma ters yönde de işliyor ve bu, çıkarmanın bedelinin
+nereye gittiğini gösteriyor.
 
 ⚠️ **Zadar ve Split GeoNames değeriyle kara maskesinin DIŞINDA kalıyordu.**
 `denetle.py`'nin talimatı uyarınca en yakın kara hücresine kaydırıldı:
@@ -175,10 +179,10 @@ Split 1420 (gün belirsiz) · Kotor Venedik himayesi 1420.
 ### 3.2 Osmanlı dönemi olan kaleler
 | Nokta | Koordinat | Osmanlı dönemi | Peteğin iddiası | Güç |
 |---|---|---|---|---|
-| Knin | 44.041 / 16.197 | 1522-05-29 → 1688-09-11 | 5.424,1 km² | **KESİN** |
-| Sin (Sinj) | 43.704 / 16.639 | 1513-01-01 → 1686-09-30 | 1.452,2 km² | **DESEN** |
-| Klis | 43.559 / 16.519 | 1537-03-12 → 1648-03-31 | 536,7 km² | **DESEN** |
-| Herseknovi | 42.453 / 18.538 | 1482-01-01 → 1687-09-30 | 1.257,2 km² | **KESİN** |
+| Knin | 44.041 / 16.197 | 1522-05-29 → 1688-09-11 | 4.125,7 km² | **KESİN** |
+| Sin (Sinj) | 43.704 / 16.639 | 1513-01-01 → 1686-09-30 | 1.439,0 km² | **DESEN** |
+| Klis | 43.559 / 16.519 | 1537-03-12 → 1648-03-31 | 538,5 km² | **DESEN** |
+| Herseknovi | 42.453 / 18.538 | 1482-01-01 → 1687-09-30 | 1.239,0 km² | **KESİN** |
 
 - **Knin** — Gazi Hüsrev Bey'in kuşatması; Vojković 28 Mayıs 1522'de teslim
   oldu, Osmanlı **29 Mayıs**'ta girdi. Venedik **11 Eylül 1688** (Cornaro).
@@ -250,11 +254,21 @@ TDV `dalmacya` **CANLI** ve üç cümlede sekiz yeri adıyla sayıyor:
 
 | Nokta | Koordinat (GeoNames) | Osmanlı dönemi | Peteğin iddiası | Güç |
 |---|---|---|---|---|
-| Skradin (Scardona) | 43.820 / 15.924 | 1522-01-01 → 1699-01-26 | 860,5 km² | **DESEN** |
-| Vrana (Urana) | 43.956 / 15.562 | 1540-10-02 → 1699-01-26 | 657,1 km² | **KESİN** |
-| Nadin | 44.074 / 15.498 | 1540-10-02 → 1699-01-26 | 2.000,0 km² | **KESİN** |
+| Vrana (Urana) | 43.956 / 15.562 | 1540-10-02 → 1699-01-26 | 741,6 km² | **KESİN** |
+| Nadin | 44.074 / 15.498 | 1540-10-02 → 1699-01-26 | 1.581,1 km² | **KESİN** |
 
-Klis · Knin · Sin zaten `2b59aa8`'te yazılmıştı ⇒ **sekizin altısı tamam.**
+Klis · Knin · Sin zaten `2b59aa8`'te yazılmıştı ⇒ **sekizin beşi tamam.**
+
+### 🔴 SKRADİN ÇIKARILDI — koordinatör kararı, gerekçe ölçüm
+Skradin (`43.820 / 15.924`, Osmanlı 1522, Venedik'e Karlofça'da) yazılmıştı ve
+`b977dd9`'da dosyadaydı. **Tek eksiği fethin GÜNÜYDÜ** ve o eksik madde yazımını
+kilitliyordu: `1522-01-01`'e madde yazmak **maddeye uydurma gün taşıtır**
+(`§76`), gerçek güne yazmak ±30 penceresini tutturmaz, Knin'in 1522-05-29'unu
+ödünç almak da `§76` ihlali.
+
+📌 **Çıkarmanın maliyeti ölçüldü ve düşük:** 860,5 km²'si Knin ile Vrana'ya
+gidiyor ve **ikisi de o dönemde Osmanlı** ⇒ renk doğru kalır, yalnız sınır
+kabalaşır. **Yanlışlaşmaz.** Skradin, günü kaynaklanınca döner.
 
 ### ⚠️ ÇIKIŞ TARİHİ NEDEN 1699 (KARLOFÇA), 1683 DEĞİL — bilerek verilmiş karar
 Ekim 1683'te Dalmaçya ahalisi ayaklanıp `Skradin · Karin · Vrana · Benkovac ·
@@ -280,6 +294,79 @@ onları *"Osmanlı hâkimiyeti altındaki"* kasabalar olarak aldığını söyl�
 📌 Elimde kalan iz: 1616'da **Krka sancağı** altı kapetanijeden oluşuyordu —
 `Knin · Skradin · Nadin · Zemunik · Seddi-islam · Obrovac`, 24 garnizonlu
 kasaba. Yani 1616'da Obrovac kesin Osmanlı. Aralık 1538-1616.
+
+---
+
+## 3.6 ✅ BİHAÇ — bu partinin KENDİ açtığı hatanın kapağı
+
+🔴 Bu nokta bir boşluğu değil, **bizim ürettiğimiz bir fazlalığı** kapatıyor.
+`§5`'te ölçüp bildirdiğim hata buydu; koordinatör kapatılmasını istedi.
+
+```
+Knin eklendi        → peteği 5.510,4 km² oldu, kuzeye LİKA'ya taştı
+Lika'da nokta YOK   → Zagreb·Krk·Rab·Pag·Banaluka·Yayça dışında hiçbir şey
+Knin 1688'den       → VENEDİK
+Lika 1689'da        → HABSBURG
+⇒ Lika 1688-1797 arası VENEDİK boyanacaktı
+```
+`OGRENILENLER §72`'nin tarifi: *"hayalet yok olmadı, TARAF DEĞİŞTİRDİ."*
+
+### Kaynak — TDV `bihac` **CANLI**, zincirin üç düğümünü de veriyor
+Slug avı gerekti: `bihke` **ÖLÜ**, `bosna` **ÖLÜ**, arama `Bihıç` **0 sonuç**.
+Doğru yazım `Bihaç` ile bulundu ⇒ **`bihac`** (`<title>` = "BİHAÇ - TDV İslâm
+Ansiklopedisi", *"Bosna'da tarihî bir şehir"*).
+
+> *"Kasım 1591'de Bihaç'ın ön kalesi Ripaç'ı, **1592**'de şehri ve kaleyi aldı"*
+> *"Karlofça Antlaşması'nın (1699) ardından Bihaç ve çevresi **Osmanlılar'ın
+> elinde kaldı**, ancak Bihke sancağı kaldırılarak Bosna sancağına bağlandı"*
+> *"**18 Eylül 1878**'de Avusturya-Macaristan ordusu … Bihaç'ı almayı başardı"*
+
+📌 **Karlofça sorunu senin uyarındı ve TDV cevapladı: 1699'da renk DEĞİŞMİYOR.**
+Sancak kaldırıldı, toprak kalmadı — idarî değişiklik, sahiplik değişikliği değil
+(`§74`). Kayıt bunu doğru yazıyor: `d:` 1592→1908 kesintisiz.
+
+| Nokta | Koordinat (GeoNames) | Osmanlı dönemi | Peteğin iddiası | Güç |
+|---|---|---|---|---|
+| Bihaç (Bihać) | 44.817 / 15.871 | 1592-06-19 → 1908-10-05 | 8.872,9 km² | **DESEN** |
+
+`DESEN` çünkü TDV fethe **yıl** veriyor; **10-19 Haziran 1592 kuşatması ve
+Lamberg'in 19 Haziran'da teslimi TDV dışı kaynaklarda** ve TDV ile
+**çelişmiyor**. `§76` ihlali değil: ödünç alınmış bir gün değil, **kendi
+vakasının kaynaklanmış günü.**
+
+### ⭐ ÖLÇÜM: Bihaç ne yapıyor — aynı kutuda iki koşu
+```
+nokta                     Bihaçsız      Bihaçlı        fark
+Knin                       5.510,4      4.125,7    -1.384,7
+Nadin                      1.965,2      1.581,1      -384,1
+Bihaç                            0      8.872,9    +8.872,9
+(öteki on iki nokta DEĞİŞMEDİ — tam sıfır)
+```
+**Bihaç'ın 8.872,9 km²'sinin yalnız 1.768,8'i benim noktalarımdan geliyor.**
+Kalan **7.104,1 km²** MEVCUT noktalardan — Banaluka ve Yayça'dan.
+
+🔴 **Ve bu ikinci bir düzeltme, ummadığım yerden:** Banaluka ile Yayça
+`d:` **1528-01-01**'den Osmanlı. Peteği Bihaç bölgesini kapsadığı için harita
+orayı **1528'den itibaren Osmanlı** boyuyordu — oysa Bihaç **19 Haziran
+1592**'ye kadar Habsburg'du. ⇒ Bihaç aynı zamanda **64 yıllık bir "Osmanlı
+FAZLA görünüyor" hatasını** kapatıyor (`§3.5.1`'in ilk yönü).
+📌 Yani tek nokta iki ayrı yönde iki hata kapattı: 1528-1592 Osmanlı fazlalığı
+ve 1688-1797 Venedik fazlalığı.
+
+### Şema kararları — üçü de ödünç almamak için
+```
+1527-01-01  Cetin sabor'u, Hırvat asilzadeleri Ferdinand'ı kral seçti.
+            UYDURMA YYYY-01-01 DEĞİL, olayın GERÇEK günü. Mohaç (1526-08-29)
+            kullanılmadı: Hırvatistan'ın Habsburg'a geçişi ayrı olaydır (§74).
+1878-09-18  isg: — komşu Bosna kayıtları 1878-07-29 + "berlin-antlasmasi"
+            kullanıyor; Bihaç'ın KENDİ tarihi TDV'de var, ödünç ALINMADI (§76).
+sirbistan   1918 kuyruğu — Dalmaçya'daki `yugoslavya` DEĞİL. Bihaç Bosna'da ve
+            altı Bosna kaydının altısı da `sirbistan` yazıyor; farklı yazılsa
+            Bosna'nın İÇİNDEN geçen kurgusal bir 1918 sınırı doğardı.
+k:0 / m: yok  Bihaç 1592-1699 sancak MERKEZİ, sonra Bosna sancağına BAĞLI.
+            k/m'nin zaman boyutu olmadığı için (Değişmez 3) hangisi yazılsa
+            öbür dönemde yanlış olurdu.
+```
 
 ---
 
@@ -314,25 +401,27 @@ doğrulayıcı, `girdi.py`'nin kendi ayrıştırıcısıyla):
 
 ### 4.2 🔴 CANLIYA ALMADAN ÖNCE ÖDENECEK BORÇ: TEK KRONOLOJİ MADDESİ
 ```
-1522-01-01  Skradin'in fethi        en yakın madde 125 gün
+1592-06-19  Bihaç'ın fethi (Hasan Paşa)   en yakın madde 377 gün
 ```
 Dosya bugün girdiye eklenirse **Değişmez 2 AÇIK 0'dan 1'e çıkar.**
-⚠️ **Alternatif:** Skradin çıkarılıp kalan **on dört nokta** alınabilir —
-o on dört **sıfır borç** doğuruyor.
 
-📌 **Bu liste ilk yazıldığında BEŞ maddeydi; dördü ben çalışırken başka
-oturumlarca yazıldı** — `Knin'in fethi` (1522-05-29) · `Klis Kalesi'nin fethi
-ve Dalmaçya sancağının kurulması` (1537-03-12) · `Klis'in Venedik'e kaybı`
-(1648-03-31) · Sin'in 1513 fethi. Ölçümü her seferinde tekrarladım.
+✅ **Ama bu borç Skradin'inkinden FARKLI ve doğrudan ödenebilir:** günü
+**biliniyor ve kaynaklı** (10-19 Haziran 1592 kuşatması, Lamberg 19 Haziran'da
+teslim oldu). ⇒ **Madde tam güne yazılır, pencere tutar, borç kapanır.**
+Skradin'de kilitlenen şey buydu ve burada kilit yok.
+
+📌 **Borcun tarihçesi — hepsi ölçülerek kapandı:**
+```
+başlangıç   5 madde
+-4          Knin 1522-05-29 · Klis 1537-03-12 · Klis 1648-03-31 · Sin 1513
+            (ben çalışırken başka oturumlar yazdı, ölçümü her seferinde
+             tekrarladım, dördü de TAM GÜN eşleşiyor)
+-1          Skradin — MADDE İLE DEĞİL, KAYDIN ÇIKARILMASIYLA (3.5)
++1          Bihaç 1592-06-19 — yeni nokta, ödenebilir borç
+────────────
+sonuç       1
+```
 ⚠️ **Sayı hareketli: canlıya almadan önce doğrulayıcıyı TEKRAR koştur.**
-
-🔴 **Skradin'in kalma sebebi ve SIRANIN önemi:** günü bilinmiyor
-(`§76` → `1522-01-01`). Madde gerçek güne yazılırsa ±30 penceresi tutmaz;
-`1522-01-01`'e yazılırsa madde uydurma gün taşır. ⇒ **Önce TARİH bulunmalı,
-sonra madde.** Ters sıra çalışmaz.
-⚠️ Ve Knin (1522-05-29) ile Skradin (1522-01-01) **aynı seferin iki kalesi**
-ama 148 gün arayla yazılı — tek bir "1522 seferi" maddesi ikisini birden
-kapatamaz.
 
 ### 4.3 ⚠️ ZEMİN ZATEN KIRMIZI — ve belgeler bayat
 `py arac/denetle.py` **benim işimden ÖNCE de** çıkış kodu 1 veriyor:
@@ -356,9 +445,10 @@ dersinin tekrarı.
 
 1. **`arac/girdi.py` → `GIRDI_DOSYALARI`'na `"yerlesimler_ek.js"` satırı.**
    Yalnız sen ekleyebilirsin (`§7`: `arac/*.py` bu oturuma kapalı).
-   **Skradin maddesi yazılmadan ekleme**, ya da Skradin'i çıkarıp on dördü al (4.2).
-2. **Bir tarih araştırması** (4.2): Skradin'in 1522 fethinin GÜNÜ. Madde
-   bundan SONRA yazılmalı — ters sıra ±30 penceresini tutturamıyor.
+   Tek borç Bihaç'ın 1592-06-19'u ve **doğrudan ödenebilir** (4.2).
+2. **Bir kronoloji maddesi:** `Bihaç'ın fethi — 19 Haziran 1592, Hasan Paşa`.
+   Tam güne yazılır, pencere tutar. (Skradin'de kilitlenen buydu; burada kilit yok.)
+2b. **Skradin'in 1522 fethinin GÜNÜ** — bulunursa kayıt geri döner (3.5).
 3. **Tököli / Orta Macar `v:` kalemi** araştırma oturumuna (2. bölüm sonu).
 4. **Ostrovica ve Obrovac'ın Osmanlı fetih tarihi** (3.5) — koordinatları
    raporda hazır, tek eksik tarih. 1616'da ikisi de Krka sancağı kapetanijesi.
@@ -381,8 +471,10 @@ dersinin tekrarı.
 
 ```
 Girit üç kale         YAZILMADI — ölçüldü, gerekçe §1
+Skradin (Scardona)    ÇIKARILDI — yazılmıştı, fethin GÜNÜ yok (3.5)
 Karlofça'nın 5 kalesi YAZILMADI — Delovar BULUNAMADI, dördü kaynak yetersiz
 Ostrovica · Obrovac   YAZILMADI — koordinat hazır, Osmanlı fetih tarihi yok
+Gospić · Otočac       YAZILMADI — ölçmedim, kapsam büyütmedim (koordinatör kararı)
 Budva · Bar · Ülgün   YAZILMADI — brifing "en sona bırak" diyor, tarih AKDENİZ'de
 Tököli v: dönemi      YAZILMADI — §80, şehir şehir tarih yok
 Butrinto              KAPSAMIMDA DEĞİL — koordinatör ÇAPRAZ AKDENİZ'de tuttu
@@ -391,15 +483,10 @@ py arac/uret_petek.py ÇALIŞTIRILMADI — koordinatör tetikler
 data/yerlesimler.js   DOKUNULMADI
 ```
 
-### 🟡 KAPSAMIM DIŞINDA AMA ÖLÇTÜM: LİKA'DA SIFIR NOKTA
-`44,2-46,0°K / 14,5-17,5°D` kutusunda yalnız Zagreb · Krk · Rab · Pag ·
-Banaluka · Yayça var. **Bihać yok** — oysa 1592-1878 arası Osmanlı sancak
-merkeziydi. Sonuç: Knin'in peteği hâlâ **5.424,1 km²** ve kuzeye, Habsburg
-Askerî Sınır Boyu'na (Lika) taşıyor. Knin 1688'den sonra **Venedik**;
-Lika ise 1689'da **Habsburg** oldu — yani Knin'in peteği oraya uzandığı sürece
-Lika 1688-1797 arası Venedik boyanacak.
-
-⚠️ Bu, benim eklediğim noktanın **yeni bir hata doğurduğu tek yer** ve
-`§3.5.1`'in kuralı gereği kendim raporluyorum: *"öbür tarafta fazlalık
-doğuyor mu."* Doğuyor. Çaresi Bihać (ve muhtemelen Gospić/Otočac) —
-bir sonraki nokta ekleme kalemi.
+### ✅ LİKA — KAPANDI (3.6)
+`§3.5.1` gereği kendi işimin doğurduğu fazlalığı ölçüp bildirmiştim; koordinatör
+kapatılmasını istedi ve **Bihaç eklendi.** Knin'in Lika'ya taşan payı
+**1.384,7 km²** ölçüldü ve geri alındı; Bihaç ayrıca Banaluka/Yayça'nın
+1528'den beri Habsburg Lika'sını Osmanlı boyamasını da kesti (7.104,1 km²).
+⚠️ **Gospić/Otočac EKLENMEDİ** — ölçmedim, koordinatör de "kapsam büyütme"
+dedi. Lika'nın iç yoğunluğu hâlâ düşük; ölçülmesi gereken bir sonraki kalem.
