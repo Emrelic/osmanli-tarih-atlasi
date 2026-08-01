@@ -675,6 +675,22 @@ emiyor (`uret_petek.py` §2 emilmesi) — yani **kaydı olmayan yer de boyanıyo
 grep -c 'ad:"Knin"' data/yerlesimler*.js
 ```
 
+🔴 **AMA TAM EŞLEŞME ARAMA — proje `ad:"Türkçe (Yerel)"` biçimini kullanıyor.**
+Koordinatör aynı gün bunun tersine düştü: ÇAPRAZ BATI'nın *"Böğürdelen'de
+`1791-08-04` zaten yazılı"* ölçümünü **doğrulayamadı** ve *"o adla veride
+yok"* dedi. Kayıt duruyordu:
+```
+aranan:  ad:"Böğürdelen"           → 0
+gerçek:  ad:"Böğürdelen (Šabac)"   → 1
+```
+Aynı biçim `Kuban (Yekaterinodar)` · `Bozkır (Deşt-i Kıpçak)` ·
+`İzvornik (Zvornik)`'te de var — **bir oturumda üç kez** yanlış "yok"
+üretti.
+
+> **`ad:"X"` diye tam eşleşme arama; `ad:"[^"]*X` diye ara.** Aksi hâlde
+> `§15`'in tersi olur: **var olanı yok sanmak**, ve bu daha sinsidir çünkü
+> *"aradım, bulamadım"* titiz bir cümle gibi görünür.
+
 ⚠️ Ve koordinatör için ek yük: `§12` *"doğrulamadığın sayıyı şarta çevirme"*
 diyordu; bu madde onu genişletiyor — **doğrulamadığın bir VARLIĞI da şarta
 çevirme.** Bu vakada koordinatör *"ben doğrulamadım"* diye yazmıştı ama yine de
