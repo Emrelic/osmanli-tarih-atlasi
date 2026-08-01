@@ -82,3 +82,41 @@ vermiyor. `f:"1281-01-01"` yazmak uydurma kuruluş tarihi olur.
 `yerlesimler*.js` bana kapalı (koordinatör talimatı). Benim payıma kimlik
 kaydı + renk düşüyor; ikisi de yukarıdaki iki cevabı bekliyor.
 
+---
+
+### 🔴 `cezayir-fransiz` — YAZILMADI, kategori kararı gerekiyor
+
+Bu kalem `sirbistan`/`merini` sınıfında **değil.** Ölçtüm:
+
+**① `tur:"gecici-isgal"` kayıtlarının 15'inin 15'inde `harita:` YOK.**
+```
+bosna-isgal · girit-devleti · fransiz-misir-seferi · kibris-ingiliz
+oniki-ada-italyan · cezayir-fransiz · sarki-rumeli · ingiliz-hindistani
+hollanda-dogu-hint · ingiliz-malaya · yeni-ispanya · ispanyol-peru
+portekiz-brezilyasi · ingiliz-kuzey-amerika · yeni-zelanda
+```
+Dizinde `harita:` dolu **123** kayıt var; işgallerden **hiçbiri** onlarda değil.
+⇒ Bu bir unutma değil, **örüntü.** `§78.1`: *"şema şunu taşıyabilir" ≠ "şema
+bunu BÖYLE KULLANIYOR."* Şema `harita:`yı işgalde taşıyabilir; **hiç
+kullanmamış.**
+⇒ `cezayir-fransiz`e renk vermek **tek kalem değil, 15 kayıtlık kategori
+politikası** kurar: İngiliz Hindistanı, Hollanda Doğu Hint, Yeni İspanya,
+Brezilya, Kanada, Yeni Zelanda… hepsi aynı kuralla boyanır. Bu benim tek
+başıma vereceğim karar değil.
+
+**② Ve boyarsam `abdulkadir`i eziyorum.** Kaydın kendi özeti:
+> *"Batı'da Emîr Abdülkādir'in direniş devletiyle (bkz. [[abdulkadir]])
+> **1847'ye dek fiilen paylaşıldı**."*
+```
+cezayir-fransiz  1830-07-05 → 1923-10-29   harita YOK
+abdulkadir       satır 885                 harita YOK
+cezayir-ocagi    satır 706                 harita YOK
+```
+Cezayir'in **üçü de** boyasız. Yalnız `cezayir-fransiz`e `harita:"fransa"`
+yazarsam harita 1830'dan itibaren **bütün Cezayir'i Fransa** gösterir ve
+Abdülkādir'in 17 yıllık direniş devleti **hiç var olmamış** gibi görünür.
+Bu, *"yanlış renk boşluktan kötüdür"*ün ders kitabı örneği — ve bugün
+koordinatörün `abd`/`abdulkadir` vakasında uyardığı şeyin aynısı.
+
+⇒ **Yazmıyorum.** Koordinatörden kategori kararı bekliyor.
+
