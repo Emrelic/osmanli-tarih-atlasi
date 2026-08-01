@@ -246,6 +246,197 @@ ama bu bir **şema kararı** ve benim değil.
 
 ---
 
+---
+---
+
+# TUR 2 — koordinatörün ① ve ② numaralı işleri
+
+> Ölçüm commit'i: `c0bc9a8` (`ORGANIZASYON §14`). Girdi 976 nokta, dizin 242 kayıt.
+
+## 🟢 B-1 · HAYALET VENEDİK TARAMASI — **sınıf BOŞ, ve boş olması bir bulgudur**
+
+Koordinatörün ①. işi: *"`venedik t=1797-05-12` sonrasına taşan BÜTÜN `s:venedik`
+pencerelerini say. Ayamavra'yı BATI buldu; kaçı daha var?"*
+
+**Cevap: 19 pencere var, hepsi aynı, ve hiçbiri hayalet değil.**
+
+```
+s:"venedik"                      80 pencere / 74 nokta
+  t: > 1797-05-12                19 pencere
+  bu 19'un BİTİŞ tarihi          1797-10-17 ×19    ← TEK BİR GÜN, istisnasız
+  f: > 1797-05-12 (ölümden sonra AÇILAN)   0
+  en uzun tekil fazlalık         158 gün
+```
+
+19 nokta: Korfu · Kefalonya · İthaki · Zaklise · Ayamavra · Çuha · Parga ·
+Preveze · Vonitsa · Brakya · Cres · Hvar · Korçula · Krk · Mliyet · Pag · Rab ·
+Uzunada · Vis.
+
+**HÜKÜM — UYUYOR.** Bu bir dağılım değil **tek bir olay**: Venedik Cumhuriyeti
+12 Mayıs 1797'de dağıldı, mülkleri **17 Ekim 1797 Campo Formio** ile devroldu.
+`CLAUDE.md §3.5` teslim gecikmesini *"aylar mertebesinde"* meşru sayıyor; bu 5,2 ay
+ve **19 noktada birden aynı gün** — yani veri tutarlı, hatalı değil.
+
+### 🔴 VE BURADA BİR TUZAK VAR — düzeltmeye kalkılırsa `Değişmez 1` kırılır
+
+Bu 19 pencere *"dizine uysun"* diye `1797-05-12`ye çekilirse:
+```
+19 noktada 158 günlük SAHİPSİZ pencere açılır → sahipsiz 34 → 53
+   ya da halef (fransa/avusturya) 158 gün ÖNE alınır → hayalet taraf değiştirir
+```
+📌 `CLAUDE.md §3.5.1`'in kendi cümlesi: *"hayalet yok olmadı, taraf değiştirdi."*
+⇒ **Doğru düzeltme dizin tarafındadır**, veri tarafında değil: `venedik` kaydının
+`t:`i mülklerin devrini mi (17 Ekim 1797) yoksa cumhuriyetin ilgasını mı
+(12 Mayıs 1797) anlatıyor? **`§74`: bunlar aynı sorunun cevapları değil.**
+
+---
+
+## 🔴 B-2 · NAPOLİ — 62,7 yıl × 4 nokta, **ve aynı desen aynı gün ikinci kez**
+
+Taramanın kesitimde bulduğu **gerçek** hayalet.
+
+```
+dizin  napoli   1282-01-01 → 1861-02-13      (Gaeta düştü, İki Sicilya bitti)
+harita Brindisi · Taranto · Lecce · Otranto   s:"napoli" → 1923-10-29
+       22.902 gün = 62,7 yıl × 4 nokta
+```
+
+🔴 **Ve halefi zaten veride, zaten doğru tarihle:** aynı krallığın öteki altı
+noktası — **Napoli · Palermo · Messina · Sirakuza · Trapani · Pantelerya** —
+`1861-02-13`'te düzgünce `s:"italya"`ya geçiyor.
+
+⇒ **Veri aynı olayı altı noktada doğru, dört noktada hiç taşıyor.**
+
+📌 **Bu, A-1'in birebir aynısı** — orada da Preveze/Vonitsa 1798 seferini doğru
+biliyordu, öteki altı ada hiç bilmiyordu. **Aynı gün, aynı sınıf, ikinci kez:**
+
+> **Bir olay veriye yazılırken o olayın BÜTÜN noktalarına yazılmıyor; birkaçı
+> yazılıyor, gerisi eski penceresinde kalıyor. Ve üç değişmezin hiçbiri sormuyor,
+> çünkü kalan pencerenin sahibi VAR — yanlış sahip.**
+
+⚠️ Bu, *"eksik nokta"* sınıfından (`CLAUDE.md §2` emilme) **ayrıdır** ve ondan
+daha sinsidir: emilme haritada delik/taşma yapar, bu **temiz ama yanlış** görünür.
+
+---
+
+## 🔴 B-3 · SARDUNYA — 141,1 yıl, **ve doğru kimlik elde duruyor, kullanılmamış**
+
+Kesitimin en büyük tekil fazlalığı, A-2'den (131,1 yıl) **büyük**.
+
+```
+harita Kalyari (Cagliari) · Sasari (Sassari)
+   s: 1324-01-01 → 1720-02-24  d:"ispanya"    ← dizin ispanya 1479-01-20'de başlıyor
+   s: 1720-02-24 → 1923-10-29  d:"italya"     ← dizin italya  1861-03-17'de başlıyor
+        155,0 yıl erken                            141,1 yıl erken
+```
+
+🟢 **1720-02-24 günü DOĞRU** — Lahey Antlaşması, Savoya Sicilya'yı verip
+Sardunya'yı aldı. Yani kırılma noktası bilinen ve gün hassasiyetli; **yanlış olan
+yalnız o günden sonraki kimlik.**
+
+🟢 **Ve kimlik dizinde VAR:** `sardinya-piyemonte` → `harita:"sardinya"`,
+`1720-08-02 → 1861-03-17`. **Torino zaten onu kullanıyor**, yani `renkler.py`'de
+boyası var. ⇒ **Renk gerekmiyor, VERİ KİMLİK kuyruğuna girmiyor.**
+
+⚠️ Ama iki tarih birbirini tutmuyor: dizin `sardinya-piyemonte f=1720-08-02`,
+harita kırılması `1720-02-24`. **160 gün.** `§74`: Lahey'in imzası mı, Sardunya
+Krallığı unvanının alınması mı? **Çözmedim, kaydettim.**
+
+📌 1324-1479 kesiti ayrı bir kalem: o dönem ada **Aragon**'undur, birleşik
+İspanya'nın değil. Dizinde Aragon kaydı **yok** — bu bir kimlik isteği.
+
+---
+
+## 🟡 B-4 · FİZAN — Hafsî 2,3 yıl fazla (Kuzey Afrika, artık bende)
+
+```
+dizin  hafsi 1229-01-01 → 1574-09-13
+harita Murzuk (Fizan) · Gât · Sokna · Câlû · Sebha · Ubârî
+       s:"hafsi" → 1577-01-01        841 gün = 2,3 yıl × 6 nokta
+```
+**HÜKÜM — ÇELİŞİYOR**, ama küçük ve `1577-01-01` yıl hassasiyetli bir yer
+tutucu (`§76`). Kuzey Afrika turumda kaynaklanacak; **şimdi düzeltilmesini
+önermiyorum** — gerçek gün bulunmadan 1574'e çekmek `§76`'nın yasakladığı şey.
+
+## 🟡 B-5 · TOSKANA ve İTALYA'nın kendi başlangıcı — `§74` vakası, hata değil
+
+```
+toskana  dizin t=1860-03-22 · harita t=1861-03-17   360 gün × 2 (Floransa, Elba)
+italya   dizin f=1861-03-17 · harita f=1861-02-13    32 gün × 6
+```
+İkisi de **aynı sorunun cevapları değil**: ilhak referandumu / Gaeta'nın düşüşü /
+İtalya Krallığı'nın ilanı üç ayrı olay. **ÇELİŞKİ SAYMIYORUM** — ama o 32 günde
+altı nokta dizine göre **hiçbir devlete ait değil**, ve bunu kaydediyorum.
+
+---
+
+## 🔴 B-6 · TAKVİM KURALININ İLK AKDENİZ VAKASI — TDV kendiyle 13 gün çelişiyor
+
+`CAPRAZ-GOREV §2` bu çelişkiyi **veri gelmeden önce** haber vermişti. İlk vakası:
+
+### ① İKİ TDV MADDESİ, İKİ TARİH
+```
+yedi-ada-cumhuriyeti   "21 Mart 1800"  İstanbul Konvansiyonu, 12 madde
+korfu                  "8 Zilkade 1214'te (3 Nisan 1800)"  Korfu Antlaşması
+                       ve adı veriyor: "Cezâyir-i Seb'a-i Müctemia Cumhuru"
+```
+**Fark tam 13 gün.**
+
+### ② ÖLÇÜT UYGULANDI — `§3.1` kademeleri
+- **Kademe ⓪ (aynı soruya mı cevap veriyor?):** Muhtemelen **HAYIR** — biri
+  Rusya ile Bâbıâli arasındaki *konvansiyon*, öteki adalarda *ilan/akit*.
+  İkisi de doğru olabilir.
+- **`§2.1` ölçütü:** *"TDV tarihi GÜN-AY hicrîsiyle veriyorsa → Osmanlı belgesi
+  var, DOĞRU."* `korfu` **8 Zilkade 1214** diyor; `yedi-ada-cumhuriyeti` hicrî
+  gün **vermiyor.**
+- **Jülyen kontrolü:** 21 Mart 1800 Jülyen + 12 gün = **2 Nisan 1800** Gregoryen.
+  TDV'nin verdiği 3 Nisan'a **bir gün** kalıyor.
+
+### ③ HÜKÜM — **`t:` ekseni için `1800-04-03`; sebep SEBEBİ BELİRSİZ kalır**
+
+⚠️ **Jülyen DEMİYORUM.** `§2.1`'in kendi şartı: *"Ayırt edici soru: kaynak çift
+tarih ya da 'eski/yeni takvim' diyor mu? Demiyorsa 'sebebi belirsiz' diye ayrı
+yazılır — Jülyen denmez."* **İki madde de demiyor.** Şüphe kuvvetli (12 günlük
+XIX. yy farkı bire bir oturuyor) ama **teşhis değil.**
+
+⇒ Öneri: `t:`/`f:` **1800-04-03** (hicrî gün ile çapraz doğrulanmış) ·
+`gun:` alanı **"21 Mart / 3 Nisan 1800"** ham hâliyle.
+📌 Ve dizin kaydının adı uydurulmasın — Osmanlı belgesindeki adı elimizde:
+**Cezâyir-i Seb'a-i Müctemia Cumhuru.**
+
+---
+
+## 🔴 B-7 · A-1 DARALTILDI — ve zincir **üçüncü** bir yerde daha kırık
+
+TDV `korfu` (CANLI) A-1'i gün hassasiyetine çekti **ve yeni bir kusur çıkardı**:
+
+```
+Kasım 1798    Osmanlı-Rus kuşatması başladı
+5 Mart 1799   Korfu teslim
+1807-1814     "yeniden Fransa'nın kontrolüne geçen Korfu"      ← 1814, 1815 DEĞİL
+1815          "İngiltere'nin himayesine girdi"
+```
+
+⇒ Bizim tek `fransa 1797-10-17 → 1815-11-05` penceremiz **üç ayrı yerde** yanlış:
+```
+1799-03-05 → 1800-04-03   Osmanlı-Rus askerî idaresi   → bizde fransa (YANLIŞ)
+1800-04-03 → 1807-07-09   OSMANLI HARAÇGÜZÂRI          → bizde fransa (YANLIŞ)
+1807-07-09 → 1814         Fransa                       → bizde fransa (DOĞRU)
+1814       → 1815-11-05   İngiltere                    → bizde fransa (YANLIŞ)
+```
+⚠️ Üçüncüsü **A-1'in ilk hâlinde yoktu** — ilk turda `1815-11-05`i doğru
+saymıştım. `1815-11-05` **Paris Antlaşması**dır (Birleşik İyon Devletleri'nin
+kuruluşu) ve **hukukî** tarihtir; Korfu'nun **fiilen** İngiliz eline geçişi
+1814'tür. `§74`: iki ayrı soru — ama bizim `s:` eksenimiz **fiilî** hâkimiyeti
+sorduğu için (`§3.1 ⓪`: *"o gün orayı FİİLEN kim yönetiyordu"*) burada
+**fiilî tarih gerekiyor.** Günü TDV vermiyor; **kaynaklanmadan yazılmasın.**
+
+📌 **Hükmümü ayırıyorum:** A-1'in **58,4 yıl-nokta** ölçümü `1799→1807` kesiti
+içindi ve **geçerli**, hattâ temkinli. 1814-1815 ucu **ayrı bir kalemdir**,
+ölçülmedi, ve tek başına ≈1,5 yıl × 7 nokta daha ekleyebilir.
+
+---
+
 ## Sıradaki (aksi söylenmezse)
 
 1. **Ada ada gün kaynaklama** — 1798 sonbaharı Osmanlı-Rus seferi: Çuha · Zaklise ·

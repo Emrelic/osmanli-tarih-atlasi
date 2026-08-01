@@ -117,3 +117,96 @@ Ayrıntı ve kaynak künyeleri: `CAPRAZ-AKDENIZ.md`.
 📌 **Bu turda hiçbir çelişki ÇÖZÜLMEDİ** (`CAPRAZ-GOREV §8`). A-1'in ortasındaki
 1799-03-05 → 1800-03-21 penceresi **kasten boş bırakıldı**: TDV o kesitin idarî
 statüsünü bu maddede söylemiyor ve *"doğrulanamadı"* tam bir hükümdür.
+
+---
+
+# TUR 2 — koordinatörün cevabı geldi, kapsam DEĞİŞTİ
+
+> Ölçüm commit'i: `c0bc9a8` (`ORGANIZASYON §14`).
+
+## 5. KAPSAM DÜZELTMESİ — Fransa bende DEĞİL
+
+Koordinatör bildirdi: **Fransa ÇAPRAZ DOĞU'da kaldı** (bugün Bordo'yu
+kaynaklandırdılar, `cca1861`, 172,5 yıl). Benim *"Fransa hiç kimsenin dokunmadığı
+tek kalem"* hükmüm **ölçüm anında doğruydu ama artık geçerli değil.**
+
+```
+BENDE   Venedik (tarih sınırı YOK: 1281 → 1797-05-12)
+        Kuzey Afrika (292 yerleşim) — sıraya alındı, önce Venedik
+        1536 kapitülasyonunun VENEDİK tarafı
+BENDE DEĞİL  Fransa (ÇAPRAZ DOĞU) · Avusturya+Macaristan (ÇAPRAZ BATI, aktif)
+```
+
+⚠️ **A-2 ve A-4 artık benim kalemim değil** — ölçümleri geçerli, ama sahibi
+ÇAPRAZ DOĞU. Koordinatöre devredildi; ben devam ettirmiyorum.
+📌 `ARAŞTIRMA ARAP AFRİKA` oturumu ile Kuzey Afrika'da çakışma riski var,
+koordinatör ayıracak.
+
+## 6. HAYALET TARAMASI — ve **kendi ölçümümde bulduğum hata**
+
+Koordinatörün ①. işi. Araç: dizin `f`/`t` birleşimi ↔ bütün `s:`/`isg:` pencereleri,
+242 dizin kaydı × 976 nokta.
+
+### 🔴 v1 YANLIŞTI — string kıyaslaması, üç haneli yıl
+
+İlk koşuda `venedik` **516,8 yıl**, `papalik` **589,7 yıl**, `nube` **223 yıl**
+"erken" çıktı. Hepsi **uydurma**: sınır tarihleri string olarak kıyaslanıyordu ve
+```
+"1281-01-01" < "697-01-01"   →  True    ('1' < '6')
+```
+⇒ 1000'den önce kurulmuş **her** devlet "atlas başında erken başlamış" görünüyordu.
+`venedik` (697) · `papalik` (756) · `nube` (543) · `almanya` (962) · `fransa` (987)
+· `yemen` (897) · `bizans` (330) satırlarının **tamamı** bu yüzden sahteydi.
+
+🟢 v2 `datetime.date` kullanıyor **ve ufuk kenarını muaf tutuyor**: `1281-01-01`de
+açılan pencere *"devletten önce"* değil, *"atlastan önce bilinmiyor"*dur.
+
+📌 **Ders — ve bu tam da A-3'te BATI'ya söylediğim şeyin bana dönmesi:**
+> *Ölçüm aracının kendisi, ölçtüğü veriden daha az denetleniyor.*
+
+⇒ Ve bir işaret vardı, görmezden gelinebilirdi: çıktıda sınır `987-01-01-01-01`
+diye **beş parçalı** basılıyordu. Biçimsiz görünen çıktı, bozuk mantığın ilk
+belirtisiydi. **`GEÇ` ekseni v1'de de doğruydu** (bütün sınırlar 4 haneli), o
+yüzden B-1/B-2/B-4 rakamları iki koşuda da aynı çıktı.
+
+### Sonuç — kesitim
+
+| kimlik | yön | ölçü | hüküm |
+|---|---|---|---|
+| **napoli** | GEÇ | 22.902 gün = **62,7 yıl × 4** | 🔴 ÇELİŞİYOR |
+| **italya** (Sardunya) | ERKEN | **141,1 yıl × 2** | 🔴 ÇELİŞİYOR |
+| **ispanya** (Sardunya) | ERKEN | **155,0 yıl × 2** | 🔴 ÇELİŞİYOR (Aragon kimliği yok) |
+| **hafsi** (Fizan) | GEÇ | 841 gün = 2,3 yıl × 6 | 🟡 ÇELİŞİYOR, küçük |
+| **toskana** · **italya** | — | 360 gün · 32 gün | 🟢 `§74`, çelişki değil |
+| **venedik** | GEÇ | 158 gün × 19, **tek gün** | 🟢 UYUYOR |
+
+### Kesitim dışı — koordinatöre bildirildi, dokunmadım
+```
+iran        260,1 yıl × 140 pencere   (ÇAPRAZ DOĞU)
+lehistan    207,5 yıl · Kiev/Poltava 1362  (ÇAPRAZ KUZEY)
+avusturya   Ljubljana 191,3 yıl ERKEN + Viyana/Graz 1918-11-11→1923 GEÇ (BATI)
+arnavutluk  dizin 1443-1479, harita 1912-1923 kullanıyor — TORBA, 10,9 yıl
+rusya       Smolensk 32,5 yıl ERKEN + 5 nokta 1917 sonrası GEÇ
+umman · kirim · altinorda · artuklu · bosna · gurcistan · benihalid …
+turkmen     7 pencere — dizinde KARŞILIĞI YOK (tek kimlik)
+```
+
+## 7. TUR 2 TESLİM
+
+| kod | konu | hüküm | ölçü |
+|---|---|---|---|
+| **B-1** | hayalet Venedik taraması (koordinatörün ①) | 🟢 SINIF BOŞ | 158 gün × 19, tek gün |
+| **B-2** | Napoli 1861 sonrası | 🔴 ÇELİŞİYOR | 62,7 yıl × 4 |
+| **B-3** | Sardunya — kimlik elde, kullanılmamış | 🔴 ÇELİŞİYOR | 141,1 + 155,0 yıl |
+| **B-4** | Fizan / Hafsî | 🟡 ÇELİŞİYOR | 2,3 yıl × 6 |
+| **B-5** | Toskana · İtalya başlangıcı | 🟢 `§74`, çelişki değil | 360 · 32 gün |
+| **B-6** | TDV kendiyle 13 gün çelişiyor (1800) | 🔴 SEBEBİ BELİRSİZ | 13 gün |
+| **B-7** | A-1 daraltıldı, zincir 3. yerde kırık | 🔴 ÇELİŞİYOR | 1814-1815 ucu ÖLÇÜLMEDİ |
+
+📌 **B-1 bir "bulgu yok" değil.** Sınıfın boş çıkması, `venedik`in 19 noktada
+**tek bir güne** hizalanmış olduğunu gösteriyor — ve o hizayı bozacak bir
+"düzeltme" `Değişmez 1`i 34'ten 53'e çıkarırdı. Boş sınıf, **korunması gereken
+bir tutarlılığı** ortaya çıkardı.
+
+⚠️ Yeni CANLI slug (`CLAUDE.md §4` listesine eklenebilir):
+`yedi-ada-cumhuriyeti` · `korfu` · `suriye` · `ayamavra` · `koron` · `avlonya`.
