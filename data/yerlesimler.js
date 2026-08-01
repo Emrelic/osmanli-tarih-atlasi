@@ -1248,16 +1248,16 @@ window.YERLESIMLER = [
 { ad:"Zaklise (Zakynthos)", tur:"kale", lat:37.788, lon:20.775, g:0, k:4, m:"Yanya", s:[{f:"1281-01-01",t:"1479-08-01",d:"napoli"},{f:"1482-01-01",t:"1797-10-17",d:"venedik"},{f:"1797-10-17",t:"1815-11-05",d:"fransa"},{f:"1815-11-05",t:"1864-05-21",d:"ingiltere"},{f:"1864-05-21",t:"1923-10-29",d:"yunanistan"}], d:[{f:"1479-08-01",t:"1482-01-01"}] },
 
 // ---- Dalmaçya ve Kvarner: Venedik, 1797'de Avusturya'ya (hiçbiri Osmanlı olmadı) ----
-{ ad:"Krk (Veglia)", tur:"kale", lat:45.075, lon:14.615, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1797-10-17",d:"venedik"},{f:"1797-10-17",t:"1923-10-29",d:"avusturya"}] },
+{ ad:"Krk (Veglia)", tur:"kale", lat:45.075, lon:14.615, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1797-10-17",d:"venedik"},{f:"1797-10-17",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}] },
 { ad:"Cres (Cherso)", tur:"kale", lat:44.879, lon:14.399, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1797-10-17",d:"venedik"},{f:"1797-10-17",t:"1923-10-29",d:"avusturya"}] },
-{ ad:"Rab (Arbe)", tur:"kale", lat:44.7636, lon:14.7702, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1797-10-17",d:"venedik"},{f:"1797-10-17",t:"1923-10-29",d:"avusturya"}] },
-{ ad:"Pag (Pago)", tur:"kale", lat:44.4676, lon:15.0186, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1797-10-17",d:"venedik"},{f:"1797-10-17",t:"1923-10-29",d:"avusturya"}] },
-{ ad:"Uzunada (Dugi Otok)", tur:"kale", lat:44.014, lon:15.047, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1797-10-17",d:"venedik"},{f:"1797-10-17",t:"1923-10-29",d:"avusturya"}] },
-{ ad:"Brakya (Brač)", tur:"kale", lat:43.323, lon:16.644, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1797-10-17",d:"venedik"},{f:"1797-10-17",t:"1923-10-29",d:"avusturya"}] },
-{ ad:"Hvar (Lesina)", tur:"kale", lat:43.164, lon:16.699, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1797-10-17",d:"venedik"},{f:"1797-10-17",t:"1923-10-29",d:"avusturya"}] },
-{ ad:"Korçula (Kurzola)", tur:"kale", lat:42.945, lon:16.904, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1797-10-17",d:"venedik"},{f:"1797-10-17",t:"1923-10-29",d:"avusturya"}] },
-{ ad:"Vis (Lissa)", tur:"kale", lat:43.054, lon:16.148, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1797-10-17",d:"venedik"},{f:"1797-10-17",t:"1923-10-29",d:"avusturya"}] },
-{ ad:"Mliyet (Mljet)", tur:"kale", lat:42.753, lon:17.522, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1797-10-17",d:"venedik"},{f:"1797-10-17",t:"1923-10-29",d:"avusturya"}] },
+{ ad:"Rab (Arbe)", tur:"kale", lat:44.7636, lon:14.7702, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1797-10-17",d:"venedik"},{f:"1797-10-17",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}] },
+{ ad:"Pag (Pago)", tur:"kale", lat:44.4676, lon:15.0186, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1797-10-17",d:"venedik"},{f:"1797-10-17",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}] },
+{ ad:"Uzunada (Dugi Otok)", tur:"kale", lat:44.014, lon:15.047, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1797-10-17",d:"venedik"},{f:"1797-10-17",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}] },
+{ ad:"Brakya (Brač)", tur:"kale", lat:43.323, lon:16.644, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1797-10-17",d:"venedik"},{f:"1797-10-17",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}] },
+{ ad:"Hvar (Lesina)", tur:"kale", lat:43.164, lon:16.699, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1797-10-17",d:"venedik"},{f:"1797-10-17",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}] },
+{ ad:"Korçula (Kurzola)", tur:"kale", lat:42.945, lon:16.904, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1797-10-17",d:"venedik"},{f:"1797-10-17",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}] },
+{ ad:"Vis (Lissa)", tur:"kale", lat:43.054, lon:16.148, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1797-10-17",d:"venedik"},{f:"1797-10-17",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}] },
+{ ad:"Mliyet (Mljet)", tur:"kale", lat:42.753, lon:17.522, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1797-10-17",d:"venedik"},{f:"1797-10-17",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}] },
 
 // ---- Batı Akdeniz: Osmanlı'nın hiç almadığı, ama noktasızlıktan Osmanlı boyanan adalar ----
 { ad:"Kalyari (Cagliari)", tur:"liman", lat:39.220, lon:9.120, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1324-01-01",d:"ceneviz"},{f:"1324-01-01",t:"1720-02-24",d:"ispanya"},{f:"1720-02-24",t:"1861-03-17",d:"sardinya"},{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
