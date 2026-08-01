@@ -550,7 +550,7 @@ window.YERLESIMLER = [
 // çekildi; tahliye Şubat 1841'de tamamlandı.
 { ad:"Halep", tur:"sehir", lat:36.202, lon:37.161, g:2, k:2, s:[{f:"1281-01-01",t:"1516-08-28",d:"memluk"},{f:"1918-10-26",t:"1923-10-29",d:"fransa"}], d:[{f:"1516-08-28",t:"1918-10-26",y:"savas"}],
     v:[{f:"1832-06-25",t:"1841-02-25",k:"Mısır (İbrâhim Paşa)"}] },
-{ ad:"Hama", tur:"sehir", lat:35.132, lon:36.750, g:0, k:3, m:"Trablusşam", s:[{f:"1281-01-01",t:"1516-09-27",d:"memluk"},{f:"1918-10-01",t:"1923-10-29",d:"fransa"}], d:[{f:"1516-09-27",t:"1918-10-01"}],
+{ ad:"Hama", tur:"sehir", lat:35.132, lon:36.750, g:0, k:3, m:"Trablusşam", s:[{f:"1281-01-01",t:"1516-09-19",d:"memluk"},{f:"1918-10-01",t:"1923-10-29",d:"fransa"}], d:[{f:"1516-09-19",t:"1918-10-01"}],
     v:[{f:"1832-06-15",t:"1841-02-25",k:"Mısır (İbrâhim Paşa)"}] },
 { ad:"Şam", tur:"sehir", lat:33.513, lon:36.292, g:2, k:2, s:[{f:"1281-01-01",t:"1516-09-27",d:"memluk"},{f:"1918-10-01",t:"1923-10-29",d:"fransa"}], d:[{f:"1516-09-27",t:"1918-10-01",y:"savas"}],
     v:[{f:"1832-06-15",t:"1841-02-25",k:"Mısır (İbrâhim Paşa)"}] },
@@ -1086,7 +1086,7 @@ window.YERLESIMLER = [
 // ---- Yavuz dönemi (1514-1517): fetih zincirinin ara halkaları ----
 // Mısır tek seferde düşmedi; Ridâniye'den İskenderiye'ye dört ay geçti.
 { ad:"Kemah", tur:"kale", lat:39.600, lon:39.030, g:1, k:4, m:"Erzurum", s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1401-02-01",d:"akkoyunlu"},{f:"1402-07-28",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1515-05-19",d:"safevi"}], d:[{f:"1401-02-01",t:"1402-07-28",y:"savas"},{f:"1515-05-19",t:"1923-10-29",y:"kusatma"}] },
-{ ad:"Humus", tur:"sehir", lat:34.730, lon:36.710, g:0, k:4, m:"Şam", s:[{f:"1281-01-01",t:"1516-09-27",d:"memluk"},{f:"1918-10-01",t:"1923-10-29",d:"fransa"}], d:[{f:"1516-09-27",t:"1918-10-01"}] },
+{ ad:"Humus", tur:"sehir", lat:34.730, lon:36.710, g:0, k:4, m:"Şam", s:[{f:"1281-01-01",t:"1516-09-21",d:"memluk"},{f:"1918-10-01",t:"1923-10-29",d:"fransa"}], d:[{f:"1516-09-21",t:"1918-10-01"}] },
 { ad:"Han Yûnus", tur:"kale", lat:31.340, lon:34.300, g:1, k:4, m:"Kudüs", s:[{f:"1281-01-01",t:"1516-12-21",d:"memluk"},{f:"1917-11-07",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1516-12-21",t:"1917-11-07",y:"savas"}] },
 { ad:"Reşîd (Rosetta)", isg:[{f:"1798-07-01",t:"1801-10-09",d:"fransa",kaynak:"kahire"},{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"liman", lat:31.399, lon:30.417, g:0, k:4, m:"Kahire", s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1517-05-19",t:"1805-07-03"}],
     v:[{f:"1805-07-03",t:"1914-12-18",k:"Mısır (Kavalalı)"}] },
