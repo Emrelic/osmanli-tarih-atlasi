@@ -1057,7 +1057,7 @@ window.YERLESIMLER = [
 
 // Yunanistan / İyon Denizi — Venedik ile el değiştiren kıyı ve adalar
 { ad:"Korfu", tur:"kale", lat:39.624, lon:19.922, g:0, k:3, m:"Yanya", d:[], s:[{f:"1281-01-01",t:"1797-10-17",d:"venedik"},{f:"1797-10-17",t:"1815-11-05",d:"fransa"},{f:"1815-11-05",t:"1864-05-21",d:"ingiltere"},{f:"1864-05-21",t:"1923-10-29",d:"yunanistan"}] },
-{ ad:"Ayamavra (Lefkada)", tur:"kale", lat:38.716, lon:20.643, g:0, k:4, m:"Yanya", s:[{f:"1281-01-01",t:"1479-08-01",d:"napoli"},{f:"1684-08-06",t:"1715-09-01",d:"venedik"},{f:"1718-07-21",t:"1797-10-17",d:"venedik"},{f:"1797-10-17",t:"1815-11-05",d:"fransa"},{f:"1815-11-05",t:"1864-05-21",d:"ingiltere"},{f:"1864-05-21",t:"1923-10-29",d:"yunanistan"}], d:[{f:"1479-08-01",t:"1684-08-06"},{f:"1715-09-01",t:"1718-07-21"}] },
+{ ad:"Ayamavra (Lefkada)", tur:"kale", lat:38.716, lon:20.643, g:0, k:4, m:"Yanya", s:[{f:"1281-01-01",t:"1479-08-01",d:"napoli"},{f:"1684-08-06",t:"1715-09-07",d:"venedik"},{f:"1718-07-21",t:"1797-10-17",d:"venedik"},{f:"1797-10-17",t:"1815-11-05",d:"fransa"},{f:"1815-11-05",t:"1864-05-21",d:"ingiltere"},{f:"1864-05-21",t:"1923-10-29",d:"yunanistan"}], d:[{f:"1479-08-01",t:"1684-08-06"},{f:"1715-09-07",t:"1718-07-21"}] },
 // Pasarofça'da (1718) Venedik'te kalan üçlü Preveze-Parga-Vonitsa'dan yalnız
 // Preveze veride vardı; diğer ikisinin bulunduğu kıyı en yakın peteğe emiliyor,
 // yani Venedik'in elindeyken Osmanlı boyanıyordu. Parga hiç Osmanlı olmamıştı:
