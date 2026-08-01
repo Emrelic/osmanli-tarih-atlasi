@@ -2890,3 +2890,54 @@ gecikir.** Ama gecikmiş doğru, uygulanmış yanlıştan ucuzdur — çünkü u
 yanlış **yeşil değişmezin arkasına saklanır** (`§72`) ve onu bulmak için ikinci
 bir oturum gerekir.
 
+
+---
+
+## §74 — "RAKİP CEVAPLAR" ÇOĞU ZAMAN AYRI SORULARIN CEVAPLARIDIR
+
+1 Ağustos'ta üç ayrı vakada aynı hata sınıfına girmenin eşiğinden dönüldü:
+elde **birden çok tarih** vardı ve refleks **"hangisi doğru"** diye sormaktı.
+Üçünde de doğru cevap **"hepsi"** çıktı.
+
+```
+Kırım    1782-05-14 fiilî işgal · 1783-04-19 ilhak ilanı · 1784-01-08 tanıma
+Kefe     1771 işgal · 1774 antlaşma · 1783 "kesin hâkimiyet"
+Şirvan   TEK maddede ÜÇ ayrı "son"
+Ç6       1796 hâkimiyetin sonu · 1804 iddianın sonu
+```
+
+Hiçbiri çelişki değildi. **Farklı sorulara verilmiş, hepsi doğru cevaplardı.**
+
+### Nasıl yakalandı — ve niçin neredeyse kaçırılıyordu
+
+Koordinatör TDV'nin kendiyle çelişmesi için üç kademeli bir ölçüt yazdı
+(`belge > özet`, `özel > genel`, eşitse çelişkili kalır). ÇAPRAZ DOĞU bunu
+**tek vakada doğrulamak yerine kayıtlı yedi çelişkiye birden uyguladı** ve
+şunu yazdı:
+
+> *"**Tek vakada 'tuttu' demek ölçütü seçmez, onaylar.**"*
+
+Yedide **ikisinde çatladı.** Ölçüt *"hangi kaynak güvenilir"* diye soruyordu;
+oysa o iki vakada **iki kaynak da güvenilirdi ve iki ayrı şeyi söylüyordu.**
+
+🟢 Eklenen kademe — ve artık **birincisi** o:
+> **⓪ İki madde AYNI SORUYA mı cevap veriyor?** Hayırsa **çelişki yoktur;**
+> haritanın sorduğu soru alınır: *"o gün orayı fiilen kim yönetiyordu."*
+
+### Kural
+
+> **Elde birden çok tarih varsa, önce "hangisi doğru" değil, "bunlar aynı
+> sorunun cevapları mı" diye sorulur.** Değilse **hiçbiri diğerinin yerine
+> yazılmaz** — her biri kendi alanına gider.
+
+📌 Şemanın bunu ifade edecek alanları **zaten var** ve bu vakalar onların ne
+işe yaradığını gösterdi:
+```
+isg:        işgal   — "tutuyor ama hukuken sahibi değil"
+s: / d:     hâkimiyet
+olaylar     tanıma, antlaşma — harita sınırı DEĞİL
+```
+⚠️ `§72`'nin tersi bir ders: orada şema doğru cevabı **ifade edemiyordu**;
+burada **ifade edebiliyordu ve az kalsın kullanılmayacaktı.** İkisinin ortak
+noktası şu soru: **elimdeki alan, söylemek istediğim şeyi söylüyor mu?**
+

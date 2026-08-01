@@ -118,6 +118,47 @@ biriktiğinde görünür. Tek çelişkiyi *"hangisi doğru"* diye çözmek desen
 ⚠️ **Wikipedia aday üreticidir, kaynak değil.** *"Hangi olaya bakmalıyım"* sorusunu
 cevaplar; tarih oradan alınıp **doğrulanmadan yazılmaz.**
 
+### 3.1 🔴 İKİ TDV MADDESİ ÇELİŞİRSE — dört kademe
+
+`CLAUDE.md §4` *"TDV esastır"* diyor ama **TDV kendiyle çelişince** ne olacağını
+söylemiyordu. Kızıldeniz'de çelişti (`bece` *"1517'de hâkim oldular"* ⟷
+`habes-eyaleti` *"1517'de devralınmadı"*) ve ölçüt yazıldı.
+
+📌 **Ölçüt tek vakada değil, kayıtlı YEDİ çelişkide sınandı** (ÇAPRAZ DOĞU,
+Teslim 7) ve **iki yerde çatladı.** Aşağıdaki hâli, çatlaktan sonraki hâlidir.
+
+```
+⓪  İki madde AYNI SORUYA mı cevap veriyor?
+      Hayırsa ÇELİŞKİ YOKTUR. Haritanın sorduğu soru alınır:
+      "o gün orayı FİİLEN kim yönetiyordu."
+①  BELGE > ÖZET.   Tarihli + failli tekil kayıt  >  genel dönem cümlesi.
+②  ÖZEL > GENEL.   Konusu O YER olan madde  >  oradan geçerken değinen madde.
+③  İkisi de eşitse → `ÇELİŞKİLİ` kalır, VERİYE DOKUNULMAZ, kullanıcıya gider.
+```
+
+🔴 **Kademe ⓪ sonradan eklendi ve en önemlisi odur.** İlk hâlde yoktu; ölçüt
+Ç6'da **yanlış cevap verdi.** Teşhis:
+
+> *"Ç6 ve Ç4 **kaynak çelişkisi değil** — iki madde **farklı SORUYA** cevap
+> veriyor (1796 hâkimiyetin sonu / 1804 iddianın sonu). Ölçüt 'hangi kaynak
+> güvenilir' diye soruyor, **oysa ikisi de doğru.**"*
+
+⇒ ⓪ eklenince: Ç6→1796 ✓ · Ç4→1538 ✓ · Ç7 ⓪'ı geçip ①②'ye iniyor ✓.
+
+📌 **Ve ⓪ bu belgenin dışında da geçerli.** Aynı gün üç ayrı vaka aynı sınıf
+çıktı — hepsinde "rakip cevaplar" sanılan şey **ayrı sorulara ayrı cevaplardı**:
+```
+Kırım    1782 fiilî işgal · 1783 ilhak ilanı · 1784 Osmanlı tanıması
+Kefe     1771 işgal · 1774 antlaşma · 1783 kesin hâkimiyet
+Şirvan   aynı maddede ÜÇ "son" — çünkü üç ayrı soru
+```
+Üçünde de doğru hamle **birini seçmek değil, üçünü ayrı alana yazmaktı**
+(`isg:` · `s:` · olay). ⚠️ **Bir tarihi diğerinin yerine koymadan önce sor:
+bunlar aynı sorunun cevapları mı?**
+
+⚠️ Kademe **SIRASI** karar verebilir: Ç2'de ①→1335, ②→1353 çıkıyor. Sıra
+yukarıdaki gibidir, değiştirilmez.
+
 ---
 
 ## 4. 🔴 BUGÜN ÖĞRENİLEN VE SİZE GEÇEN ALTI KURAL
