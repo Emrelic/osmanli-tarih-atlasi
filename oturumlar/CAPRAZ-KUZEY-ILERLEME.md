@@ -162,3 +162,104 @@ Kural ⑥'ya uyarak açık bırakıyorum — "doğrulanamadı" tam bir hükümd�
 - **`rusya` 116 vs koordinatörün 128'i** — fark merge dışı dosyalardan geliyor
   olmalı ama **doğrulamadım**; koordinatörün sayısını çürütmüyorum, tabanının
   farklı olduğunu söylüyorum.
+  → *Tur 2 notu: koordinatör kabul etti, taban farkı teyit edildi.*
+
+---
+
+## Tur 2 — 2026-08-01, Karlofça kesişimi + Vahşi Bozkır
+
+### Ö7 · Karlofça günü haritada ne yapıyor
+
+1697-1701 arasındaki **bütün** kırılma günleri tarandı:
+```
+1697-01-01   Cetinje                                    (2 kırılma)
+1699-01-26   Kamaniçe · Bar · Meciboj · Yazlofça · Çehrin  (10 kırılma)
+        ... ve BAŞKA HİÇBİR GÜN YOK
+```
+→ Karlofça haritada **yalnız 5 nokta** oynatıyor ve **hepsi Lehistan tarafı.**
+Avusturya/Venedik hiç kımıldamıyor, Rusya hiç kımıldamıyor.
+
+`avusturya` + `venedik` pencerelerinin 1680-1720 arası **başlangıç** tarihleri
+ayrıca çıkarıldı: **33 ayrı gün**, hepsi fetih günü (Budin 1686-09-02, Erdel
+1687-08-12, Mora 1687-08-01 …), **1699-01-26 listede yok.**
+
+📌 Bu bir kusur DEĞİL: iki grup da fiilî hâkimiyeti yazıyor. Kamaniçe 1699'a
+kadar Osmanlı garnizonundaydı, Budin 1686'da fiilen düştü. (`CAPRAZ-KUZEY.md` B10)
+
+---
+
+### Ö8 · Bozkır noktalarının tam zinciri
+
+```
+Harkov         altinorda 1281→1441 · kirim 1441→1654 · rusya 1654→1923   kur: YOK
+Voronej        altinorda 1281→1441 · kirim 1441→1585 · rusya 1585→1923   kur: YOK
+Rostov (Don)   altinorda 1281→1441 · kirim 1441→1739 · rusya 1739→1923   kur:1749-12-15
+Hacıbey        altinorda 1281→1441 · kirim 1441→1538 · d:OSMANLI 1538-09-01→1792-01-09
+Bozkır (D.K.)  altinorda 1281→1502 · kirim 1502→1783 · rusya 1783→1923
+Bahçesaray     altinorda 1281→1441 · kirim 1441→1475 · v:OSMANLI 1475→1771 …
+```
+
+📌 **Tur 1'de eksik ölçtüğüm yer:** `altinorda`nın bitişine bakıp durmuştum;
+**sonrasına** bakmamıştım. Beş noktanın hepsi 1441'de `kirim`'e geçiyor —
+yani B5'te *"düzeltme yarım kaldı"* derken kastettiğim şey aslında
+**tutarlı bir zincirin parçasıymış.** Asıl soru `altinorda`nın bitişi değil,
+`kirim`'in o bozkırda **ne anlama geldiği** (B11).
+⚠️ Kural ⑥'nın bana çarpan hâli: ölçümü tek yönde sordum (*"altinorda ne zaman
+bitiyor"*), ters yön (*"sonra kim alıyor"*) bambaşka bir sınıf gösterdi.
+
+---
+
+### Ö9 · Kuruluş yılı ↔ geçiş tarihi çakışması
+
+| nokta | veride geçiş | şehrin kuruluşu | `kur:` |
+|---|---|---|---|
+| Voronej | `1585-01-01` | Voronej kalesi 1585 | YOK |
+| Harkov | `1654-01-01` | Harkov 1654 | YOK |
+| Rostov (Don) | `1739-09-18` (Belgrad) | — | **`1749-12-15` VAR** |
+
+→ İlk ikisinde **kuruluş yılı el değiştirme günü olarak kullanılmış.**
+⚠️ **Doğrulanmadı:** iki kuruluş yılı için ikinci kaynak aramadım; veri-içi
+çakışmadan çıkardım. TDV kapsamı dışı (Rus iç tarihi), akademik referans gerek.
+Bu yüzden §8'e göre hükmüm *"doğrulanmadı"* — B11'in (a) önerisi bu doğrulamaya
+bağlı.
+
+---
+
+### Ö10 · TDV slug ölçümü — tur 2
+
+| slug | `<title>` | hüküm |
+|---|---|---|
+| `karlofca` | "KARLOFÇA ANTLAŞMASI - TDV İslâm Ansiklopedisi" | 🟢 canlı, dolu |
+| `kirim` | "KIRIM - TDV İslâm Ansiklopedisi" | 🟢 canlı, dolu |
+| `karlofca-antlasmasi` | **"Arama - TDV İslâm Ansiklopedisi"** | 🔴 **ÖLÜ** → `karlofca` |
+
+📌 Bu turun ölü slug'ı yine *"uzun ad denedim"* sınıfından — `kirim-hanligi`
+(bilinen ölü) ile aynı desen: **TDV kısa adı kullanıyor.** İki turda dört ölü/
+kabuk slug: `ejderhan` · `lehistan` · `karlofca-antlasmasi` · (bilinen)
+`kirim-hanligi`. Üçünde de kaynak vardı.
+
+---
+
+### Ö11 · Takvim hipotezinin sınanması (B12)
+
+Tur 2'de **iki yeni TDV tarihi** eklendi ve ikisi de temiz çıktı:
+```
+1699-01-26 Karlofça   TDV "24 Receb 1110 / 26 Ocak 1699"    ✓
+1700-07-14 İstanbul   TDV "27 Muharrem 1112 / 14 Temmuz 1700" ✓
+```
+Toplam tablo: **TDV kaynaklı 4/4 doğru · Rus kaynaklı 3 tarihten 2'si ham Jülyen.**
+
+⚠️ **Eşik önermiyorum.** 3 vakalı bir tarafta 1 istisna var; `ORGANIZASYON §7.4`
+*"ölçmeden eşik koyma"*. Hipotez kayıtlı, vaka biriktikçe sınanacak.
+
+---
+
+## Tur 2'de ölçmediğim, iddia da etmediğim şeyler
+
+- **Harkov/Voronej kuruluş yılları** — ikinci kaynak aranmadı (Ö9).
+- **Venedik'in Karlofça'da kaybettiği bir şey var mı** — ÇAPRAZ BATI'nın ucu,
+  ben ölçmedim.
+- **Hacıbey'in 1538-09-01 ve 1792-01-09 tarihleri** — fark edildi, sınanmadı.
+- **`nogay` sahası** — TDV `kirim` "tâbiiyetleri gevşek" diyor; Nogay Ordası'nın
+  kendi coğrafyası ölçülmedi.
+- **1648 Hmelnitski günü** — hâlâ yok.

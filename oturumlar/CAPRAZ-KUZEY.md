@@ -358,14 +358,181 @@ Kiev/Smolensk'i bölmeyi gerektirdiğini yazmış. Karar koordinatörde.
 
 ---
 
-## 11. SIRADAKİ TUR — kendi kuyruğum
+---
+---
+
+# TUR 2 — Karlofça kesişimi ve Vahşi Bozkır
+
+Koordinatörün bıraktığı iki soru. Sırasıyla.
+
+---
+
+## 12. 🟢 B10 — KARLOFÇA: DÖRT KAYNAKTAN OKUNDU, HARİTAMIZ **DOĞRU**
+
+Görev tanımı §1'in *"asıl sınav"* dediği kesişim. Sonuç beklediğimin tersi çıktı:
+**bulacağım hata çıkmadı, onun yerine tasarımın neden doğru olduğu ortaya çıktı.**
+
+### ① Bizde ne var
+`1699-01-26` günü haritada **yalnız 5 nokta** kımıldıyor — ve **hepsi Lehistan**:
+```
+Kamaniçe · Bar (Podolya) · Meciboj · Yazlofça · Çehrin (Çigirin)
+        d:OSMANLI biter  →  s:"lehistan" başlar
+```
+Avusturya'nın ve Venedik'in kazanımları **o gün hiç kımıldamıyor**; hepsi
+1683-1694 arasındaki **fetih günlerine** yazılmış (Budin 1686-09-02, Erdel
+1687-08-12, Mora 1687-08-01, Atina 1687-09-26 …). Ve **hiçbir Rus noktası**
+1699'da kımıldamıyor.
+
+### ② Kaynakta ne var
+TDV **`karlofca`** (`<title>` doğrulandı; ⚠️ `karlofca-antlasmasi` **ÖLÜ**):
+> İmza **24 Receb 1110 / 26 Ocak 1699**
+> **Avusturya:** Banat (Timişvar) hariç Macaristan'ın çoğu ve Erdel
+> **Venedik:** Dalmaçya kıyı kaleleri ve Mora'nın bir kısmı
+> **Lehistan:** *"Kamaniçe Kalesi'ni ve Podolya bölgesini geri aldı"*
+> **Rusya:** tam antlaşma **değil** — *"barış antlaşmasının daha sonra akdi
+> şartıyla … iki yıllığına beş maddelik bir **mütareke**"*
+> Tam Osmanlı-Rus barışı ayrıca İstanbul'da: **27 Muharrem 1112 / 14 Temmuz 1700**,
+> Azak Rusya'ya bırakıldı.
+
+### ③ HÜKÜM — **UYUYOR**, üç ayrı noktada
+1. **Tarih tutuyor.** `1699-01-26` ↔ TDV "26 Ocak 1699". 🟢
+2. **Lehistan tarafı tam.** TDV "Kamaniçe + Podolya" diyor; bizde Kamaniçe ve
+   Podolya'nın **dört sancak merkezinin hepsi** o gün Lehistan'a dönüyor. 🟢
+3. **Rusya'nın farklı statüsü haritada doğru görünüyor.** Karlofça'da Rusya'ya
+   toprak geçmediği için hiçbir Rus noktası kımıldamıyor; Azak ise
+   kronolojimizde **`1700-07-14 İstanbul Antlaşması`** maddesiyle duruyor —
+   TDV'nin verdiği **14 Temmuz 1700** ile **gün gün aynı.** 🟢
+
+📌 **Ve görünürdeki tutarsızlık aslında tutarlılık:** aynı antlaşmada Lehistan
+**antlaşma gününü**, Avusturya/Venedik **fetih günlerini** kullanıyor. İki ayrı
+konvansiyon gibi duruyor ama değil — ikisi de **fiilî hâkimiyeti** yazıyor:
+Budin 1686'da fiilen düştü, Kamaniçe 1699'a kadar Osmanlı garnizonundaydı.
+Karlofça Avusturya için *"olanı tescil etti"*, Lehistan için *"el değiştirtti"*.
+**Harita bunu doğru ayırmış.**
+
+### 📌 ÇAPRAZ BATI'ya devrettiğim uç
+TDV Venedik için *"Dalmaçya kıyı kaleleri"* diyor; bizim veride **1699'da Venedik
+tarafında hiçbir hareket yok.** Karlofça'da Venedik'in *kaybettiği* bir şey var
+mı (özellikle Dalmaçya'da ve Mora dışındaki iskelelerde) — bu benim değil
+**ÇAPRAZ BATI'nın** ucu. Aynı antlaşmanın dört kaynaktan okunması budur.
+
+---
+
+## 13. 🔴 B11 — VAHŞİ BOZKIR: `kirim` BOYASI KAYNAĞIN SÖYLEDİĞİNDEN FAZLASINI İDDİA EDİYOR
+
+Koordinatörün sorusu: *"Harkov/Voronej ikisi `s:"kirim"` taşıyor ve 1476'da orası
+devletsizdi. Senin kaynakların ne diyor?"*
+
+### ① Bizde ne var
+```
+Harkov         altinorda 1281→1441 · kirim 1441→1654 · rusya 1654→1923
+Voronej        altinorda 1281→1441 · kirim 1441→1585 · rusya 1585→1923
+Rostov (Don)   altinorda 1281→1441 · kirim 1441→1739 · rusya 1739→1923   kur:1749-12-15
+```
+Yani Kırım Hanlığı bu üç noktada **213 · 144 · 298 yıl** boyunca tek renk toprak
+sahibi olarak boyanıyor.
+
+### ② Kaynakta ne var
+TDV **`kirim`** (`<title>` doğrulandı: "KIRIM - TDV İslâm Ansiklopedisi"):
+> Kuzey sınırları **belirsiz ve değişken** idi.
+> Kuzey bozkırlar esas olarak **nüfuz ve akın sahasıydı, yerleşik merkezî idare
+> değil.**
+> *"Steplerdeki göçebeler"* · *"Nogaylar'ın hana tâbiiyetleri **gevşek**"*
+> Hanlık bu bölgelerde doğrudan kontrol yerine **göçebe kabileler vasıtasıyla**
+> etkiliydi.
+> Kuruluş: *"gerçek kurucusu Hacı Giray olup adını taşıyan en eski para
+> **845 (1441-42)** tarihini taşır."*
+
+### ③ HÜKÜM — **ÇELİŞİYOR**, ve koordinatörün sezgisi doğru
+TDV, Kırım'ın kuzey bozkırında **yerleşik idaresi olmadığını açıkça yazıyor.**
+Bizim haritamız ise orayı Kırım'ın **doğrudan toprağı** olarak boyuyor. Yani
+kaynak *"nüfuz sahası"* derken harita *"mülk"* diyor.
+
+📌 **1441 tarihi ise doğru** — TDV Hacı Giray'ın en eski parasını 845 (1441-42)
+veriyor, `devletler.js`'teki 1441 ile tutuyor. Sorun **tarihte değil,
+tarihin neye uygulandığında.**
+
+### 🔴 Ve altında ikinci bir kusur çıktı: iki nokta 1441'de HENÜZ YOK
+Verinin kendi geçiş tarihleri, o şehirlerin **kuruluş yıllarıyla** birebir aynı:
+```
+Voronej  kirim → rusya  1585-01-01     Voronej kalesi 1585'te kuruldu
+Harkov   kirim → rusya  1654-01-01     Harkov 1654'te kuruldu
+```
+Yani kaydı yazan oturum, kuruluş yılını **el değiştirme günü** olarak kullanmış.
+Ama o zaman **öncesindeki 144/213 yıl**, var olmayan bir şehrin peteğini
+Kırım'a veriyor.
+
+⚠️ Ve aynı dosyada **doğru deseni** taşıyan bir emsal var:
+```
+Rostov (Don)   kur:"1749-12-15"     ← bu noktada kur: VAR
+Harkov         kur: YOK
+Voronej        kur: YOK
+```
+Aynı bölgede, aynı sınıftan üç noktaya **üç farklı muamele.**
+
+> **Öneri — iki kademeli, ikincisi bende değil:**
+> **(a) Mekanik, hemen yapılabilir:** `Harkov` `kur:"1654-01-01"`,
+> `Voronej` `kur:"1585-01-01"`. Bu, Rostov'daki mevcut deseni izler ve
+> hiçbir kırılma üretmez.
+> ⚠️ Motor `kur:` okumuyor (Oturum 16 E.6) — kayıt doğru olur, **etki blokajın
+> arkasında bekler.**
+>
+> **(b) Tasarım kararı, koordinatörde:** 1441-1585/1654 arası bozkır ne
+> boyanmalı? Üç seçenek var ve üçü de projede **zaten mevcut**:
+> | seçenek | emsali | sonucu |
+> |---|---|---|
+> | `kirim` kalsın | bugünkü | kaynak *"nüfuz"* derken harita *"mülk"* diyor |
+> | **kasten boş** | Sahra / Rub'ul Hâlî'nin 34 noktası | Değişmez 1'in muaf listesine girer |
+> | **`serbest-hale`** (sönen kenar) | `KOORDINATOR-DURUM §3.1` | sahipsizlik **keskin çizgi değil**, sönerek biter |
+>
+> 📌 **Üçüncüsünü öneriyorum** ve sebebi tam bu vaka: Vahşi Bozkır'ın sınırı
+> gerçekten keskin değildi — TDV'nin *"belirsiz ve değişken"* ve *"tâbiiyetleri
+> gevşek"* ifadeleri, `serbest-hale` mekanizmasının **görsel karşılığıyla**
+> birebir aynı şeyi anlatıyor. Sönen kenar bu proje için bir estetik değil,
+> **bir kaynak ifadesinin doğru çevirisi.**
+> ⚠️ `KOORDINATOR-DURUM §3.1`: sönen kenar **yayına girmeden** çöl tavanı
+> inmemeli. Bu öneri o sıra bağının **arkasında** durur.
+
+---
+
+## 14. ⭐ B12 — TAKVİM SAPMASI SINIF OLARAK TARANABİLİR: **KAYNAĞA BAĞLI**
+
+Koordinatör *"yönlü olması sınıf olarak taranabilir demek"* dedi. Tur 2'de iki
+yeni vaka çıktı ve **hipotezi doğruladılar.** Bütün tablo:
+
+| olayın tarihi bizde | kaynağı | sonuç |
+|---|---|---|
+| `1672-08-27` Kamaniçe | TDV `polonya` | 🟢 gün gün aynı |
+| `1672-10-18` Bucaş | TDV `polonya` | 🟢 gün gün aynı |
+| `1699-01-26` Karlofça | TDV `karlofca` | 🟢 gün gün aynı |
+| **`1700-07-14` İstanbul** | TDV `karlofca` | 🟢 **gün gün aynı** |
+| `1667-01-30` Andrusova → Kiev | Rus tarih yazımı | 🔴 **ham Jülyen, 10 gün** |
+| `1696-07-19` Azak | Rus tarih yazımı | 🔴 ham Jülyen (TDV: 6 Ağustos) |
+| `1654-01-18` Pereyaslav → Poltava | Rus tarih yazımı | 🟢 dönüştürülmüş |
+
+### HÜKÜM
+> **TDV'den gelen dört tarihin dördü de doğru. Sapma yalnız Rus tarih
+> yazımından alınan tarihlerde var — ve orada bile tutarsız: biri dönüştürülmüş,
+> ikisi ham.**
+
+⇒ Tarama ölçütü artık yazılabilir: **`kaynak:` alanı TDV olmayan ve 1582-1918
+arası Rusya/Lehistan/İsveç kaynaklı her tarih**, Jülyen olma ihtimali taşır.
+Bu, tek tek bakmadan **sınıfı daraltıyor** — koordinatörün istediği şey buydu.
+
+⚠️ Ama **ölçüt henüz eşik değil**: elimde 3 Rus kaynaklı vaka var, biri temiz.
+`ORGANIZASYON §7.4` (*"ölçmeden eşik koyma"*) gereği bunu **denetim kuralı diye
+önermiyorum**; önce vaka sayısı artmalı.
+
+---
+
+## 15. SIRADAKİ TUR — kendi kuyruğum
 
 1. **1648 Hmelnitski ayaklanmasının günü** — Ukrayna/Leh kaynağından; B3'ün
-   önerisi bu tarihe bağlı.
-2. **Üçüncü takvim vakası** — B1 ve B2 bir desen kurdu; üçüncüsü hangi ucun
-   (hicrî mi Jülyen mi) kaydığını söyleyecek. Aday: Bahçesaray 1681-01-11
-   (bizde) ↔ 3/13 Ocak 1681.
-3. **Vahşi Bozkır** — Harkov · Voronej · Rostov 1441-1502 arası gerçekten
-   Kırım'ın mıydı, yoksa "kasten boş" sınıfına mı giriyor (B5).
-4. **1699 Karlofça'nın dört oturumluk kesişimi** — görev tanımı §1'in kasıtlı
-   örtüşmesi; Lehistan ve Rusya tarafını ben yazacağım.
+   önerisi bu tarihe bağlı. (Tur 2'de sıraya alındı, yapılmadı.)
+2. **Üçüncü takvim vakası** — aday: Bahçesaray `1681-01-11` (bizde) ↔ 3/13 Ocak
+   1681. B12'nin ölçütünü eşiğe çevirecek vaka sayısı buradan gelir.
+3. **Hacıbey (Odessa)** — Tur 2'de fark edildi, ölçülmedi: `d:OSMANLI`
+   **1538-09-01**'de başlıyor ama `s:kirim` **1441-1538** ile örtüşmüyor mu,
+   ve 1792-01-09 (Yaş) tarihi Rus kaynağıyla tutuyor mu?
+4. **`nogay` kimliği** — 0 pencere. TDV `kirim` *"Nogaylar'ın hana tâbiiyetleri
+   gevşek"* diyor; Nogay Ordası'nın kendi sahası B11'in çözümünün parçası.
