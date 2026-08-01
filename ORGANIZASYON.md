@@ -392,6 +392,12 @@ Yönlendirmeden önce buraya bak.
 | `VERİ KİŞİ` | kişi dizini | `data/kisiler.js` |
 | `VERİ SAVAŞ` | sefer/savaş verisi, `tur:"deniz"` etiketleri | `data/savaslar.js` |
 | `ÖLÇÜM GEOMETRİ` | ölçüm oturumu (iki nüsha var) | — |
+| `ÇAPRAZ DOĞU` | **çapraz doğrulama** — İran (altı hanedan) + Memlük | `oturumlar/CAPRAZ-DOGU.md` |
+| `ÇAPRAZ KUZEY` | **çapraz doğrulama** — Rusya + Lehistan | `oturumlar/CAPRAZ-KUZEY.md` |
+| `ÇAPRAZ BATI` | **çapraz doğrulama** — Avusturya + Macaristan + Venedik + Fransa | `oturumlar/CAPRAZ-BATI.md` |
+
+📌 Üçünün ortak görev tanımı: **`oturumlar/CAPRAZ-GOREV.md`**. Veriye YAZMAZLAR;
+öneri üretirler, uygulamayı veri oturumları yapar.
 
 📌 Yeni oturum açılınca **satırı buraya ekle.** Tablo eksikse yönlendirme yine
 başlığa düşer ve hata tekrarlanır.
