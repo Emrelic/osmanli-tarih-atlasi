@@ -1233,3 +1233,66 @@ Uyvar      s:avusturya 1281 → 1663-09-24 · d: 1663-1685 · s:avusturya 1685-1
 `s:avusturya 1685-08-19` bir **fetih tarihidir**, doğru yazılmış; A-1 kuralına
 uygun. Ve Uyvar bir daha Osmanlı'ya dönmediği için **sandviç değil**, `isg:`
 sorusu hiç doğmuyor.
+
+## A-15 🔴 1918 SONRASI ALTI KAYIT HÂLÂ "AVUSTURYA" — biri BENİM hatam
+
+**① BİZDE NE VAR.** Macar tacının 30 yerleşimini 1910/1919/1922 kesitlerinde
+ölçtüm. **25'i 1918-11-11'de doğru ardıla geçiyor** (macaristan · romanya ·
+yugoslavya · çekoslovakya · sırbistan). **6'sı geçmiyor:**
+```
+yerleşim                1910        1919        1922        olması gereken
+Peşte                   avusturya   avusturya   avusturya   macaristan
+İstolni Belgrad         avusturya   avusturya   avusturya   macaristan
+Yanıkkale (Győr)        avusturya   avusturya   avusturya   macaristan
+Varad (Oradea)          avusturya   avusturya   avusturya   romanya
+Yanova (Ineu)           avusturya   avusturya   avusturya   romanya
+Dubrovnik               avusturya   avusturya   avusturya   yugoslavya  ← BENİM HATAM
+```
+Avusturya-Macaristan **11 Kasım 1918'de** dağıldı; bu altı nokta 1923'e kadar
+onun rengini taşımaya devam ediyor.
+
+### 🔴 En keskin vaka — BUDAPEŞTE İKİYE BÖLÜNMÜŞ
+```
+Budin  (47.498, 19.040)   avusturya 1686-09-02 → 1918-11-11 · macaristan 1918-11-11 → 1923 ✓
+Peşte  (47.494, 19.060)   avusturya 1686-09-02 → 1923-10-29                                ✗
+                          aradaki mesafe: 1,57 km
+```
+⇒ **Aynı şehrin iki yakası, 1918-1923 arası iki ayrı devlet.** Tuna'nın bir
+yanı Macaristan, öteki yanı Avusturya. Kullanıcının ekranda görebileceği en
+belirgin sınıftan bir hata — ve **Değişmez 3'ün (`k`/`m` merkez tutarlılığı)
+göremediği** bir tür, çünkü ikisi de kayıt olarak tutarlı.
+
+📌 `CLAUDE.md §11` *"yakın mükerrer yerleşim"* tuzağını anlatıyor (Varat/Varad,
+Afyon/Karahisâr **çelişen zaman çizgileriyle**). Budin/Peşte mükerrer değil —
+**gerçekten iki ayrı nokta** — ama aynı sınıfın akrabası: 1,57 km arayla
+çelişen zaman çizgisi.
+
+### 🔴 Ve altıncısı benim: DUBROVNİK
+V-1'de önerdiğim kayıtta son satırı şöyle yazmıştım:
+```
+s: 1814-01-01 -> 1923-10-29   d=avusturya
+```
+**1918 ardılını hiç koymadım.** Komşuları (Zagreb · Ösek · Varadin · Baç)
+1918-11-11'de `yugoslavya`ya geçiyor; Dubrovnik geçmiyor.
+⇒ Kendi bulduğum *"zinciri yazan el beş adadan dördünü yapmış"* hatasının
+aynısını **kendi önerimde** yaptım: zincirin sonunu kapatmadım.
+📌 Ve V-1'de `1814-01-01`'i **`ZAYIF`** diye işaretlemiştim, ama eksikliği
+işaretlememiştim — **zayıf olan tarih değil, eksik olan penceredir.**
+
+### Önerilen düzeltme — tarih emsalden, yeni renk YOK
+25 doğru kaydın hepsi `1918-11-11` kullanıyor; aynı gün alınır.
+```
+Peşte            avusturya → 1918-11-11 · macaristan 1918-11-11 → 1923-10-29
+İstolni Belgrad  aynı                                    (Székesfehérvár, Macaristan)
+Yanıkkale        aynı                                    (Győr, Macaristan)
+Varad (Oradea)   avusturya → 1918-11-11 · romanya    1918-11-11 → 1923-10-29
+Yanova (Ineu)    aynı                                    (Ineu, Romanya)
+Dubrovnik        avusturya → 1918-11-11 · yugoslavya 1918-11-11 → 1923-10-29
+```
+✅ `macaristan` · `romanya` · `yugoslavya` üçü de `BOYALAR`'da **var**
+(emsallerde kullanılıyor) ⇒ **yeni renk gerekmiyor.**
+⚠️ Trianon **4 Haziran 1920**'dir; ama veri **fiilî çözülmeyi** (1918-11-11)
+kullanıyor ve **25 kayıtta tutarlı.** A-1 kuralı da bunu destekliyor: fiilî
+değişim fiilî tarihle. **Emsalden sapılmamalı.**
+🟡 Romanya ayağı için not: Erdel ve Temeşvar zaten `romanya 1918-11-11` —
+Varad ve Yanova onlarla aynı bölgede, aynı gün doğru.
