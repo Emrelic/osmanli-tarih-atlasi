@@ -840,3 +840,83 @@ kaybedildi? Dördü ayrı ayrı kaynaklanmalı. **Bu turda yalnız Semendire
 sınandı.**
 ⚠️ Ve düzeltme `1738-08-01` **ay hassasiyetlidir** (TDV gün vermiyor) —
 `§4⑤` gereği öyle işaretlenmeli.
+
+## A-7 ✅ NİŞ 1788-91 — pencere OLMAMASI doğru, kaynakla teyit
+
+**② KAYNAK** — TDV `nis` (canlı): 1788-1791 savaşında Niş'in Avusturya'ya
+geçtiğine dair **metinde hiçbir ifade yok**; madde 1809'a kadar gidiyor.
+İkinci, hedefli çekişte de doğrulandı: *"Metinde yok. Metin sadece 1688 ve
+1737 tarihli işgallerden söz etmektedir."*
+
+**③ HÜKÜM: UYUYOR.** Niş'te 1780-1800 arası kırılma olmaması **doğru** —
+Avusturya oraya ulaşmadı. Önceki turda bunu **kaynaksız** söylemiştim,
+şimdi kaynaklandı.
+
+## A-8 🔴 NİŞ'İN 1737 AVUSTURYA İŞGALİ YOK — 3 ay, veride hiç
+
+**① BİZDE NE VAR:** `Niş d:OSMANLI 1690-09-09 → 1878-01-11` — **188 yıl kesintisiz.**
+
+**② KAYNAKTA NE VAR** — TDV `nis`, birebir alıntı:
+> *"Rebîülevvel 1150'de (Temmuz 1737) Avusturya İmparatorluğu ile yapılan
+> savaşta Seckendorf Niş'i ele geçirdi; fakat aynı yılın **ekim** ayında
+> Rumeli Beylerbeyi Köprülüzâde Hâfız Ahmed Paşa tarafından **savaşsız**
+> geri alındı."*
+
+**③ HÜKÜM: ÇELİŞİYOR.** 188 yıllık tek pencere ~3 aylık bir işgali yutuyor.
+```
+s: 1737-07-01 -> 1737-10-01   d=avusturya     ← EKSİK, AY hassasiyetli
+```
+⚠️ `§4⑤`: TDV **ay** veriyor (Rebîülevvel 1150 / Temmuz · ekim), gün vermiyor
+⇒ ay hassasiyetiyle yazılır, `gun:` alanına *"Temmuz 1737"* / *"Ekim 1737"*.
+📌 Hicrî ay verilmiş olması (Rebîülevvel 1150) KUZEY'in ölçütüne göre **Osmanlı
+belgesi var** demek — tarih sağlam, yalnız gün yok.
+
+📌 **Ve bu A-6'nın savaşıdır:** 1737-39 harbi. Semendire'nin Ağustos 1738'de
+geri alınması, Niş'in Ekim 1737'de geri alınması — **aynı savaşın iki ayrı
+safhası**, ve ikisi de veride yok. 1737-39 kuşağı bütünüyle sınanmamış.
+
+## A-9 🔴🔴 TDV İLE ÇELİŞİYORUZ — ve bu sefer **BİZİM DOĞRU** olduğumuzu düşünüyorum
+
+**① BİZDE NE VAR**
+```
+Niş    s:avusturya 1689-09-24 → 1690-09-09
+Vidin  s:avusturya 1689-09-24 → 1690-09-09     ← Niş ile BİREBİR aynı iki gün
+```
+
+**② KAYNAKTA NE VAR** — TDV `nis`, **iki ayrı çekişte aynı cümle**:
+> *"**24 Eylül 1688**'de Niş, Margrave Ludwig von Baden'in birlikleri
+> tarafından ele geçirildi."*
+
+**③ HÜKÜM: ÇELİŞİYOR — ve `CLAUDE.md §4`'ün varsayılanına AYKIRI yönde.**
+
+Proje kuralı *"çelişirse TDV esastır"* der. Burada **TDV'nin şüpheli olduğunu
+düşünüyorum** ve gerekçem TDV'nin **kendi içindeki** sıra:
+```
+bizim veri   Belgrad avusturya 1688-09-06   ← TDV ile uyumlu
+TDV          Niş     avusturya 1688-09-24   ← Belgrad'dan 18 GÜN sonra
+```
+Avusturya ordusunun Belgrad'ı 6 Eylül 1688'de alıp **18 gün içinde** 200 km
+güneydeki Niş'i de alması, o seferin bilinen iki-kampanya yapısına aykırı.
+Batı tarih yazımında Niş **24 Eylül 1689** muharebesiyle düşer — yani
+**gün ve ay aynı, yıl bir eksik**: klasik bir yıl kayması işareti.
+
+⚠️ **Kural ① ve ② birlikte işletildi:** iki çekiş yaptım, **ikisi de aynı
+cümleyi** verdi ⇒ bu bir çekiş hatası değil, **TDV metninin kendisi.** Ama
+`§4②` zaten *"iki çekiş de aynı yanlışı üretebilir"* diyor — çünkü ikisi de
+aynı metni okuyor. Bağımsız veri gerekiyordu ve onu **kendi verimizden**
+aldım (Belgrad 1688-09-06).
+
+🔴 **KARAR BENDE DEĞİL.** İki sebeple koordinatöre bırakıyorum:
+1. TDV'ye aykırı hüküm vermek `CLAUDE.md §4`'ün varsayılanını tersine çevirir —
+   bu bir **oturum kararı değil, proje kararıdır.**
+2. Elimde TDV'nin karşısına koyacak **akademik bir künye yok**; yalnız iç
+   tutarlılık argümanı var. `§8`'e göre hükmüm **"doğrulanamadı"**dır,
+   *"TDV yanlış"* değil.
+⇒ **Öneri: veriye DOKUNULMASIN**, ve bu satır ikinci bir akademik kaynakla
+(Habsburg sefer tarihçesi) sınansın. Veri bugün zaten `1689` diyor; yani
+**hiçbir şey yapmamak en düşük riskli seçenek.**
+
+🟡 **Yan bulgu — Vidin şüpheli:** Vidin, Niş ile **birebir aynı iki günü**
+taşıyor (`1689-09-24` → `1690-09-09`). İki ayrı şehrin aynı gün düşüp aynı gün
+geri alınması mümkün ama **kopyalama işareti** de olabilir. Vidin'in kendi
+tarihleri ayrıca kaynaklanmalı — **bu turda sınanmadı.**
