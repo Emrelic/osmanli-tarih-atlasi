@@ -314,6 +314,23 @@ def main():
             print("     Aşağıdaki her sayı DÜNKÜ haritaya aittir; defter yazılmamalı.")
     except Exception as _e:
         print("  !  tazelik ölçülemedi (%s) — sayılar doğrulanmamış" % _e)
+
+    # ⚠️ İKİ DOSYA AYNI KOŞUDAN MI? — canlı gözlendi, 2026-08-01 12:53
+    # Motor `devletler_harita.js`'i koşu ORTASINDA, `donemler.js`'i SONUNDA
+    # yazıyor. Üretim sürerken bu araç çalıştırılırsa YENİ yabancı gövdeler
+    # ESKİ Osmanlı gövdesiyle birleştirilir ve boşluk sessizce yanlış çıkar —
+    # üstelik iki dosya da tek başına "var ve okunabilir" görünür.
+    # `devletler_harita.js`'te `URETIM_IZI` YOK, o yüzden ölçüt zaman damgası:
+    # yabancı dosya daha YENİYSE koşu henüz bitmemiştir.
+    _dh = os.path.join(DATA, "devletler_harita.js")
+    if os.path.exists(_dh) and os.path.getmtime(_dh) > os.path.getmtime(
+            os.path.join(DATA, "donemler.js")):
+        print("  🔴 ÜRETİM SÜRÜYOR GİBİ — devletler_harita.js, donemler.js'ten YENİ.")
+        print("     Motor donemler.js'i koşunun SONUNDA yazar; şu an iki dosya")
+        print("     FARKLI KOŞULARA ait olabilir. Ölçüm alınmamalı.")
+        if "--yine-de" not in sys.argv:
+            print("     (yine de ölçmek için: --yine-de)")
+            return 3
     Y = girdi.yukle(sessiz=True)
     print("  %d petek · %d dönem · %d yerleşim · %.0f sn" % (len(P), len(D), len(Y), time.time() - t0))
     print("\n  --kesit %s için tek gün taraması" % kesit)
