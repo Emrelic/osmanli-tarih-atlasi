@@ -381,3 +381,45 @@ Kenar hükümleri (ölçümden):
 
 ⏳ başladım: İş K — adacık zararı sayıya (kilitli kutu −12,−11,142,64) — 2026-08-02 16:55
 
+## ✅ İş K — adacık zararı SAYIDA (17:15) — kutu açılmadı
+
+Yöntem: kilitli kutu box(−12,−11,142,64) maske taklidi; nokta evreni 1.579
+(kutu açıldığında girdide olacak küme). Soğurucu = parçaya en yakın nokta
+(düz mesafe — motorun kara-yolu Dijkstra'sının YAKLAŞIKLIĞI, alt sınır).
+"Kendi anakarası" vekili: en yakın NOKTALI kara parçası (M). Soğurucu M'nin
+üstünde değilse ANAKARA UYUŞMAZLIĞI; soğurucu ile M'deki en yakın noktanın
+devlet kümeleri (s:+OSMANLI, zamansız kesişim → muhafazakâr) AYRIKSA
+YANLIŞ DEVLET adayı.
+
+**YENİ KUTU:**
+- ① noktasız parça **3.023/3.156** · alan **884.543 km²** (kutu karasının %1,2'si)
+- ② soğurma mesafesi: medyan **96 km** · P90 **497 km** · maks **2.014 km**
+  (118 km²'lik bir parça Ndjamena'ya soğuruluyor!)
+- ③ anakara uyuşmazlığı: **464 parça · 78.117 km²**
+  YANLIŞ DEVLET adayı: **161 parça · 25.566 km²**. En büyükler:
+  Palawan 11.534 km² → Manila (anakarası Brunei tarafı) · 3.026 km² →
+  Sapporo (anakarası Aygun/Mançurya) · Singapur, Sumatra kıyı adalarını
+  çekiyor (anakara Johor/Palembang) · Banda Açe 633 km öteden Mergui
+  adalarını alıyor.
+
+**④ BUGÜNKÜ KUTU (kıyas, canlı 998 nokta):**
+- noktasız parça 1.006/1.102 · 47.794 km² (%0,1)
+- soğurma: medyan 80 · P90 252 · maks 1.431 km (yine Ndjamena)
+- anakara uyuşmazlığı 184 parça · 6.997 km²; **YANLIŞ DEVLET adayı 27
+  parça · 2.751 km² — BUGÜN DE VAR**: Bornholm sınıfı adalar Kopenhag↔
+  Berlin↔Hamburg↔Stokholm arasında; Abu Dabi↔Buraymî kıyı adacıkları;
+  Manş adaları Londra↔Paris (286 km).
+
+**HÜKÜM (④'ün cevabı):** Sorun kutuyla DOĞMUYOR — bugün de var (27 parça,
+2.751 km²). Kutu onu ×6 parça / ×9,3 alan BÜYÜTÜYOR (27→161, 2.751→25.566
+km²). Yani adacık kuralı kutunun ÖN KOŞULU olmak zorunda değil, AYRI ve
+zaten-açık bir iştir — ama kutuyla birlikte yarım Hırvatistan büyüklüğüne
+çıkar.
+
+**"Yanlış renk boşluktan kötüdür" kuralının bedeli (ilk kez sayıda):**
+kural uygulanırsa yeni kutuda 25.566 km² YANLIŞ RENK adayı; uygulanmazsa
+(noktasız parça boş bırakılırsa) 884.543 km² BOŞLUK. Oran 1:35 — kuralın
+bedeli, önlediğinin %2,9'u. Kural ucuz; ama bedelin %45'i tek parçada
+(Palawan) — hedefli birkaç nokta (Palawan, Sahalin/Hokkaido, Sumatra doğu
+kıyısı) bedelin yarısını tek başına düşürür.
+
