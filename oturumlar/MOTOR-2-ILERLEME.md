@@ -423,3 +423,7 @@ bedeli, önlediğinin %2,9'u. Kural ucuz; ama bedelin %45'i tek parçada
 (Palawan) — hedefli birkaç nokta (Palawan, Sahalin/Hokkaido, Sumatra doğu
 kıyısı) bedelin yarısını tek başına düşürür.
 
+---
+
+⏳ başladım: İş L — yanlış-renk düşürme HEDEF LİSTESİ (nokta önerisi, veri YAZILMAZ) — 2026-08-02 17:25
+
