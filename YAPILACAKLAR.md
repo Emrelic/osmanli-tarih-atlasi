@@ -10,6 +10,111 @@ durum tablosunu güncelle.
 
 ## Şimdi
 
+---
+
+# 🆕 ANSİKLOPEDİ EKSENİ — kullanıcı isteği, 2 Ağustos 2026
+
+> 🔴 **BU BİR SINIF DEĞİŞİKLİĞİDİR, ve adını koymak gerekiyor.** Atlas bugüne
+> kadar bir **HARİTA**: "1453'te burası kimindi" sorusunu cevaplıyor. Aşağıdaki
+> yedi kalem onu bir **ANSİKLOPEDİ**ye çeviriyor: "bu devlet neydi, kim yönetti,
+> parası neye benziyordu, hangi eserleri bıraktı".
+> İkisi de meşru ama **ayrı ürünler** — ve ikincisi birincinin üstüne kurulur.
+> ⚠️ Sıra karışırsa harita yarım kalır, ansiklopedi de dayanaksız olur.
+
+## 🔴 HEPSİNİ BAĞLAYAN İKİ KURAL — kullanıcının kendi koyduğu
+
+**① İSTENİNCE YÜKLENİR.** Kullanıcının sözü: *"bu tip veriler her harita
+yüklendiğinde browsere yüklenmeyecektir, ilgili galeriye kullanıcının girmesi
+hâlinde gösterilecektir."*
+Bu **doğru ve bağlayıcı.** Bugün sayfa zaten 11,9 MB (gzip) indiriyor ve
+kademeli yükleme tam bu yüzden kuruluyor. Galeriler **ana yüke asla katılmaz.**
+
+**② LİSANS — ve bu proje bu konuda zaten titiz.** OSM ve OpenTopoMap altlık
+olarak **lisans yüzünden** elendi (`ODbL`/`CC-BY-SA` bulaşıcı). Aynı ölçü
+görsellere de uygulanmalı:
+```
+eserin kendisi kamu malı  ≠  o eserin FOTOĞRAFI kamu malı
+```
+XVI. yüzyıl minyatürü kamu malıdır; müzenin çektiği fotoğraf olmayabilir.
+⇒ Her görsel için **kaynak + lisans** alanı zorunlu; künyesiz görsel girmez.
+
+---
+
+## E-1 · DEVLET KÜNYESİ — genişletildi
+Yukarıdaki künye maddesine kullanıcı ekledi: **büyük şehirler · ekonomi ·
+askerî güç · nüfus · yönetim biçimi.**
+⚠️ *"Eğer bu verileri bulabiliyor isek"* — kullanıcının kendi kaydı, ve
+doğru kayıt. Nüfus ve ekonomi rakamları XIV-XVIII. yüzyıl için **çoğu zaman
+tahmin**; kaynaksız yazılırsa `§D8` (uydurulmuş kesinlik) ihlali olur.
+⇒ Bu alanlar **künyeli ve aralıklı** olmalı ("~1520: 400-500 bin, kaynak X").
+
+## E-2 · 🔴 SAVAŞ ŞEMATİĞİ — en büyük kalem, ayrı uygulama
+Kullanıcı: iki tarafın ordularını **muharebe alanına** yerleştiren, sağ/sol
+kanat · süvari · piyade · topçu · okçu ayrımıyla, arazi (dağ/tepe/vadi/ova,
+kale içi-dışı) üstünde, savaşın **ilerleyişini** gösteren şematik anlatım.
+Kumandanlar · sayılar · teçhizat · sonuç.
+
+**Bugün elimizde:** `data/savaslar.js` 83 KB · ~77 kayıt ·
+alanlar `ad·t·tur·sonuc·taraf_metin·seri·galip·topraklar·savas_basi`
+⇒ **İskelet VAR** — seri, taraf, sonuç, galip zaten kayıtlı. Eksik olan
+**muharebe alanı geometrisi ve birlik yerleşimi.**
+
+🔴 **Dürüst uyarı:** bu kalem tek başına ötekilerin toplamından büyük.
+Her muharebe için ayrı bir **sahne** demek — konum, birlik, hareket, zaman.
+⇒ Önce **tek bir muharebede prototip** (ör. Çaldıran ya da Mohaç), sonra karar.
+Ve kaynak: birlik yerleşimi çoğu savaşta **tartışmalıdır**; şema
+"böyleydi" değil "şu kaynağa göre böyle" demeli.
+
+## E-3 · BAYRAK · SANCAK · ARMA
+Devlet künyesine eklenir; ayrıca **haritada belli şartla** gösterilebilir.
+⚠️ Anakronizm tuzağı büyük: bugünkü bayraklar çoğu tarihî devlet için
+**sonradan üretilmiş**. Osmanlı'nın "ay-yıldızlı kırmızı bayrağı" 1844
+sonrasıdır; XIV. yüzyıla konması `§D8` ihlali olur.
+⇒ Alan **pencereli** olmalı ve kaynaksız sembol girmemeli.
+
+## E-4 · SİKKELER
+Devletlerin bastığı paralar + görselleri. Künyeye bağlı galeri.
+📌 Bu, `E-3`'ten **daha sağlam** bir eksen: sikke fiziksel bir nesnedir,
+üstünde tarih ve darphane yazar — yani **kendi künyesini taşır.**
+
+## E-5 · PORTRE GALERİSİ
+Hükümdar · şehzade · vâlide sultan · kumandan tarihî resimleri.
+Kullanıcının şartı: *"bu resmi kim yapmış, ne zaman yapmış"* — **doğru şart**,
+ve `E-3`'ün anakronizm tuzağının çaresi de bu.
+**Bugün elimizde:** `data/kisiler.js` 281 kayıt (`tur·ad·donem·devlet·not`)
+`data/padisahlar.js` 41 kayıt. ⇒ **Kişi omurgası VAR**, eksik olan görsel.
+
+## E-6 · MİMARÎ ESERLER
+Eserlerin resimleri ve hikâyeleri, galeri hâlinde. *(Kullanıcı: "ilerleyen
+safhalarda.")*
+📌 Bunun haritayla doğal bağı var: her eserin bir **konumu** var ⇒ yerleşim
+noktalarına bağlanabilir. Diğer galerilerden farklı olarak **haritaya geri
+besleme** yapar.
+
+## E-7 · KURUMLAR
+Tımar sistemi · yeniçeri ocağı · devşirme usulü vb. galeri.
+📌 Bu kalem **görselsiz de çalışır** — metin ağırlıklı, lisans sorunu yok,
+ve TDV bu konuları **kapsıyor.** ⇒ En ucuz ve en hızlı teslim edilebilir olanı.
+
+---
+
+## 📌 SIRALAMA ÖNERİSİ — maliyet/kaynak sağlamlığına göre
+
+```
+1. E-7 KURUMLAR      metin · TDV kapsıyor · lisans sorunu YOK · en ucuz
+2. E-1 KÜNYE         alan işi · yarısı zaten var
+3. E-5 PORTRE        kişi omurgası VAR · görsel + künye eklenir
+4. E-4 SİKKE         nesne kendi künyesini taşır
+5. E-6 MİMARÎ        haritaya geri besleme yapar
+6. E-3 BAYRAK        anakronizm riski yüksek, pencereli şema gerek
+7. E-2 SAVAŞ ŞEMASI  🔴 ayrı uygulama · önce TEK prototip
+```
+⚠️ **Hiçbiri harita eksenini beklemeye almaz.** Bunlar üstüne kurulur;
+altındaki veri (kimlik, tarih, konum) sağlam olmadan ansiklopedi de yanlış olur.
+
+
+## Şimdi (harita ekseni)
+
 - [ ] 🆕 **DEVLET KÜNYESİ — her devletin kimlik kartı** *(kullanıcı isteği, 2 Ağustos)*
       Her devlet kaydı; **ne zaman kuruldu · başkenti · kurucusu · kaç hükümdarı
       oldu · hangi millet · hangi din · hangi mezhep** gibi temel bilgileri
