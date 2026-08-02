@@ -1005,3 +1005,36 @@ parçası, kayda geçti.
 (④ cevabı gönderildi: bölme koşu SONRASI yapılabilir, EVET — yapısal gerekçeyle.
  Ondalık uygulaması koordinatör talimatıyla DURDU; round değişikliği YAPILMADI.)
 
+## ✅ İş T2 — ARA YOL ölçüldü: C'nin kazancı B'NİN ÇOK ALTINDA (01:50)
+
+**① A/B/C tablosu (donemler.js TAM dosya, gzip -9; kıyı sınıfı: köşenin
+örtü sınırına uzaklığı < 0,0005° ≈ 55 m):**
+  A) hepsi 3 ondalık    ham 34,2 · gzip **9,49 MB**   kıyı 220 m (bugün)
+  B) hepsi 2 ondalık    ham 29,9 · gzip **6,25 MB**   kıyı ~500 m (−%34)
+  C) iç 2 · kıyı 3      ham 33,7 · gzip **9,14 MB**   kıyı 220 m (−%3,7)
+🔴 DÜRÜST CEVAP (③): **C'nin kazancı B'nin çok altında** — sebep ölçümde:
+donemler.js'in benzersiz köşelerinin **%70,8'i kıyı sınıfında** (55 m
+eşikle) → C'de 3 ondalıkta kalıyorlar, kazanç yalnız iç %29'dan geliyor.
+⇒ Soru "220 m mi 500 m mi" ikilemine iner; kullanıcı ona karar vermeli.
+
+**② Uygulama maliyeti + yarık güvencesi:** karışık parça (hem kıyı hem iç
+köşe) **1.858/3.052 = %61** → parça-düzeyi ayrım İMKÂNSIZ, köşe düzeyi
+ŞART. Ama köşe kararı KOORDİNATIN SAF FONKSİYONU (kıyıya uzaklık eşiği) —
+paylaşılan köşe iki komşuda AYNI karara varır ⇒ B'deki yapısal yarık
+kapalılığı C'de de KORUNUR. Maliyet: mp_koord'a köşe-başına kıyı testi
+(~15 satır + koşuya tahminen +2-3 dk STRtree sorgusu).
+
+**KADEMELİ YÜKLEME FİZİBİLİTESİ:**
+- ① 8×8 ızgara: parçaların %65'i TEK hücreye sığıyor, %35'i taşıyor
+  (taşanlar karolara kopyalanır ya da kesilir — MVT ikisini de yapar).
+- ② 🔴 PAYDA UYARISI: Osmanlı penceresi (-12..50/25..50) BUGÜNKÜ
+  PARCALAR'ın **%98'ini** (33,1/33,8 MB) kapsıyor — çünkü bugünkü çıktı
+  zaten eski kutunun çıktısı ve o pencere eski kutunun neredeyse tamamı.
+  Kademeli yüklemenin kazancı ancak KOŞU SONRASI çıktıda gerçekleşir:
+  türetim — pencere geometrisi sabit (~34 MB sınıfı), toplam kara ×~2,1
+  → koşu sonrası pencere payı kabaca %50 ⇒ "Osmanlı'ya bakan yarısını
+  indirmez" o zaman doğru olur. Bugünkü dosyada bölmenin kazancı YOK.
+- ③ z4-z6 genel-bakış karosu (DP 0,03 + 2 ondalık, 1/10 örnekleme, KABA):
+  ham %20'ye iner (~6,6 MB) — düşük zoom ucuz bir özet katmanı olabilir.
+- ④ (önceden cevaplandı) bölme koşu SONRASI son-işlem: **EVET.**
+
