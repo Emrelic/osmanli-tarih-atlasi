@@ -1,0 +1,159 @@
+# `dehlek` — ÇAPRAZ DOĞU'YA DEVİR
+
+> **Yazan:** VERİ KİMLİK 2, 2 Ağustos 2026
+> **Karar:** `oturumlar/KARAR-DEHLEK.md` (`60d5c8f`) — **`dehlek` YAZILMIYOR**
+> **Ölçüm:** `oturumlar/VERI-KIMLIK-2-ILERLEME.md` (`23b484f`)
+
+---
+
+## 1. NİÇİN GERİ GELİYOR
+
+`dehlek` bana *"kayıt var, yalnız renk yok, araştırma gerekmiyor"* diye geldi.
+Üçü de yanlıştı:
+
+```
+kayit var mi      HAYIR  -> devletler.js'te id:"dehlek" yok
+yalniz renk mi    HAYIR  -> renk (#a838a8) HAZIR olan tek sey
+arastirma yok mu  HAYIR  -> f: alani icin TDV yil vermiyor
+```
+
+Ve TDV'yi okuyunca **dördüncü ve asıl sorun** çıktı: sizin önerdiğiniz
+düzeltme penceresi **sürekli değil.**
+
+---
+
+## 2. 🔴 ASIL BULGU — ÖNERİ OLDUĞU GİBİ UYGULANAMAZ
+
+Öneriniz (`CAPRAZ-DOGU.md` satır 1198, 1326):
+
+```
+Masavva · Dahlak · Arkîko
+  memluk 1281-01-01 → 1517-04-13     (bugünkü YANLIŞ)
+  dahlak 1281-01-01 → 1557-04-02     (önerilen düzeltme, TEK ve SÜREKLİ blok)
+```
+
+**TDV `masavva` maddesi sahipliği ÜÇE ayırıyor:**
+
+| dönem | TDV'nin ifadesi | güç |
+|---|---|---|
+| XII–XIV. yy | Masavva *"kendilerine sultan diyen **Dehlek emîrlerinin** hâkimiyetinde"* | **KESİN** |
+| **XIV. yy sonu** | **"Habeş topraklarına katıldığı"** belirtiliyor | **KESİN** (varlık) |
+| XVI. yy | *"**tekrar** Dehlek'in himaye ve kontrolüne girdiği"* anlaşılıyor | **KESİN** (varlık) |
+| 1557-04-02 | *"2 Cemâziyelâhir 964 / 2 Nisan 1557"* — Özdemir Paşa | **KESİN** |
+
+⇒ **Aradaki ~bir yüzyıl Masavva Dehlek'in değil HABEŞ'in elinde.**
+
+### Ve bunun maliyeti sayı değil, KAYIT
+
+```
+bugun   236 yil yanlis   ama DEFTERLI  -> sonraki kisi TEKRAR BAKAR
+oneri   ~100 yil yanlis  ama ARASTIRILMIS gorunur -> sonraki kisi BAKMAZ
+```
+
+Sayı olarak öneri daha iyi, **kayıt olarak daha kötü.** Koordinatör bu yüzden
+236 yıllık hatayı **bilinçli olarak yerinde bıraktı** — "sonra bakarız" değil,
+ölçülmüş tercih. `uret_petek.py:1243`: *"yanlış renk 'biliyoruz' der."*
+
+### 📌 Ve şunu kırıcı olsun diye değil, işe yarasın diye yazıyorum
+
+Kesinti bilgisi **sizin gösterdiğiniz maddenin içinde.** *"Dehlek emîrlerinin
+hâkimiyetinde"* alıntısı `masavva` maddesinden alınmış; **aynı paragrafın
+devamı** alınmamış. Alıntı doğru, okuma eksik.
+
+⇒ `§78`'in yeni bir yüzü: **bir düzeltmenin KAYNAĞI doğru olabilir ve düzeltme
+yine de yanlış olabilir — çünkü kaynak, OKUNDUĞU YERE KADAR doğrudur.**
+
+---
+
+## 3. ⚠️ ALINTILARIN STATÜSÜ — devralan mutlaka okusun
+
+Yukarıdaki alıntılara **`WebFetch` üzerinden** ulaştım; sayfayı ham hâlde
+kendim görmedim, bir özetleyici katmandan geçti.
+
+```
+YUKSEK GUVEN (tirnak icinde donmustu, birebir olma ihtimali yuksek):
+   "kendilerine sultan diyen Dehlek emirlerinin hakimiyetinde bulunmakta"
+   "VI. (XII.) yuzyildan itibaren de kendi meliklerince bagimsiz olarak
+    yonetilmistir"
+   "III. (IX.) yuzyilda Abbasi idaresinden cikan Dehlek, Yemen'in Zebid
+    sehrinde hukum suren mahalli hanedanlarin eline gecmis"
+   "2 Cemaziyelahir 964 / 2 Nisan 1557"
+
+OZETLEYICININ IFADESI (birebir DEGIL, dogrulanmali):
+   "XIV. yuzyilin sonu: Habes topraklarina katildigi belirtilmektedir"
+   "XVI. yuzyilda tekrar Dehlek'in himaye ve kontrolune girdigi anlasilmaktadir"
+```
+
+🔴 **Kesintiyi kuran iki cümle, tam da özetleyici ifadesi olanlar.** Bulgunun
+kendisi sağlam görünüyor ama **maddeyi açıp bu iki cümleyi ham metinden
+doğrulamak devralanın ilk işi olmalı.** Kaynak: `islamansiklopedisi.org.tr/masavva`
+
+---
+
+## 4. ÜÇ SOMUT SORU
+
+### ① Üç dönemi YIL düzeyinde tarihlendiren bir kaynak var mı?
+TDV üçünü de **yüzyıl** olarak veriyor (*"XIV. yüzyılın sonu"*, *"XVI.
+yüzyılda"*). Habeş/Etiyopya külliyatı TDV'den keskin olabilir — Dahlak
+Sultanlığı ve Etiyopya-Adal ilişkileri üzerine neşirler yıl verebilir.
+⇒ **Kesintinin varlığı KESİN, sınırları ZAYIF.** Sınırlar yıl düzeyine
+inmeden repoint yapılamaz.
+
+### ② Orta dönemi `habesistan` mı alacak?
+`habesistan` kimliğinin **rengi hazır** — VERİ KİMLİK `dehlek`i ondan
+kaçırırken ölçmüştü (min ΔE 36,2). Yani orta dönem için karşılık **mevcut**,
+eksik olan yalnız tarih.
+⇒ Ama bu bir **kaynak hükmü**: TDV *"Habeş toprakları"* diyor; bu, dizindeki
+`habesistan` kimliğiyle aynı siyasî varlık mı, yoksa daha gevşek bir ifade mi?
+Maddeyi okuyan siz karar verin.
+
+### ③ `f:` için yıl veren bir neşir var mı?
+TDV **hiçbir yıl vermiyor** — ne kuruluş ne bağımsızlık için.
+```
+"III. (IX.) yuzyilda Abbasi idaresinden cikan"       -> yuzyil
+"VI. (XII.) yuzyildan itibaren ... bagimsiz"          -> yuzyil
+```
+⇒ `f:"1100-01-01"` ya da `f:"1281-01-01"` yazmak `§D8` (uydurulmuş kesinlik)
+ve `§76` (paylaşılan yer tutucu) ihlali **aynı anda**. Dizideki tarihlerin
+**%60'ı zaten `YYYY-01-01`**; kuyruğa bir tane daha eklemek kapatmaktan kötü.
+
+---
+
+## 5. 🔴 VE ÜÇÜ DE CEVAPSIZ KALIRSA — DOĞRU SONUÇ "YAZMAMAK" DEĞİL
+
+Bugün kalemi açık bıraktık çünkü **belirsizliği taşıyacak bir şema yok.**
+Ama "yazmamak" kalıcı çözüm değil: bilgi **var**, yalnız kesin değil.
+Kaydı hiç yazmamak, *"bilmiyoruz"*u da *"yok"*a çeviriyor.
+
+Şemanın taşıması gereken şey en az şu:
+```
+· f: icin ARALIK ya da BELIRSIZLIK derecesi (yil degil, pencere)
+· bir kimligin ARALIKLI sahipligi (Dehlek → Habes → Dehlek)
+· ve haritanin "bu donemde kim oldugu belirsiz"i BOSLUKTAN AYIRT etmesi
+```
+⚠️ **Bu bir şema kararıdır, ÇAPRAZ DOĞU'nun değil koordinatör + MOTOR'un
+işidir.** Buraya yalnız *"ihtiyaç ölçüldü ve şurada doğdu"* diye yazıyorum.
+`dehlek` bu şemaya ihtiyaç duyan **ilk ölçülmüş vaka**; muhtemelen tek değil.
+
+---
+
+## 6. DEVREDİLEN — kazanç kalıcı
+
+```
+✅ t: 1557-04-02      KESIN. "2 Cemaziyelahir 964 / 2 Nisan 1557".
+                      Sizin oneriniz birincil kaynakta gun duzeyinde tuttu.
+✅ slug = dehlek      baglayici (koordinator karari; dahlak YER adi,
+                      dehlek KIMLIK adi)
+✅ renk = #a838a8     hazir, min dE 36,2 (habesistan'a karsi), VERI KIMLIK
+                      olcumu, OTURUM-9-ILERLEME EK-12
+🔴 f:                 BULUNAMADI
+🔴 pencere            SUREKLI DEGIL — repoint plani revizyon istiyor
+```
+
+**Sıra:** ÇAPRAZ DOĞU üç soruyu cevaplar → kimlik oturumu kaydı+rengi yazar →
+YAMACI noktaları çevirir. **Zincirin ikinci halkası, birincisi cevaplanmadan
+başlayamaz.**
+
+🔴 **YAMACI'ya bu hâliyle paket göndermeyin.** Kalem *"f: eksik"* diye açık
+duruyor ama gerçek engel o değil; repoint hazır sanılırsa ~100 yıllık yeni
+hata canlıya girer.
