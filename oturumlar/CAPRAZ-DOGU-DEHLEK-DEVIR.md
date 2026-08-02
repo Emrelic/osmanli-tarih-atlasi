@@ -34,14 +34,31 @@ Masavva · Dahlak · Arkîko
 
 **TDV `masavva` maddesi sahipliği ÜÇE ayırıyor:**
 
+**HAM METİN** (koordinatör bağımsız ikinci çekişle doğruladı, `9c31e0c`):
+
+> *"Adanın XIV. yüzyılın sonunda **yine** Habeş topraklarına katıldığı, XVI.
+> yüzyılda ise tekrar Dehlek'in himaye ve kontrolüne girdiği
+> **anlaşılmaktadır**."*
+
 | dönem | TDV'nin ifadesi | güç |
 |---|---|---|
-| XII–XIV. yy | Masavva *"kendilerine sultan diyen **Dehlek emîrlerinin** hâkimiyetinde"* | **KESİN** |
-| **XIV. yy sonu** | **"Habeş topraklarına katıldığı"** belirtiliyor | **KESİN** (varlık) |
-| XVI. yy | *"**tekrar** Dehlek'in himaye ve kontrolüne girdiği"* anlaşılıyor | **KESİN** (varlık) |
+| XII–XIV. yy | Masavva *"kendilerine sultan diyen Dehlek emîrlerinin hâkimiyetinde"* | **KESİN** |
+| XIV. yy sonu | *"**yine** Habeş topraklarına katıldığı … **anlaşılmaktadır**"* | **DESEN** |
+| XVI. yy | *"tekrar Dehlek'in himaye ve kontrolüne girdiği … **anlaşılmaktadır**"* | **DESEN** |
 | 1557-04-02 | *"2 Cemâziyelâhir 964 / 2 Nisan 1557"* — Özdemir Paşa | **KESİN** |
 
 ⇒ **Aradaki ~bir yüzyıl Masavva Dehlek'in değil HABEŞ'in elinde.**
+
+### 🔴 VE İKİ KELİME HÜKMÜ DEĞİŞTİRİYOR
+
+**① `anlaşılmaktadır` — TDV İDDİA ETMİYOR, ÇIKARIM YAPIYOR.**
+Kaynak kendi hedge'ini koyuyor. ⇒ Kesintinin **varlığı** bile `KESİN` değil,
+**`DESEN`**. (İlk yazımımda `KESİN` demiştim; **düşürüldü.**)
+
+**② `yine` — Masavva DAHA ÖNCE DE Habeş'in olmuş.**
+Manzara üç dönemli değil, **DÖNÜŞÜMLÜ**. XII–XIV. yüzyıldaki Dehlek evresi
+zincirin **başı bile olmayabilir**; öncesinde en az bir Habeş evresi daha var.
+⇒ *"Dehlek → Habeş → Dehlek → Osmanlı"* modeli **eksik** olabilir.
 
 ### Ve bunun maliyeti sayı değil, KAYIT
 
@@ -65,39 +82,55 @@ yine de yanlış olabilir — çünkü kaynak, OKUNDUĞU YERE KADAR doğrudur.**
 
 ---
 
-## 3. ⚠️ ALINTILARIN STATÜSÜ — devralan mutlaka okusun
+## 3. ⚠️ ALINTI STATÜSÜ — ÇÖZÜLDÜ, ve dersi burada
 
-Yukarıdaki alıntılara **`WebFetch` üzerinden** ulaştım; sayfayı ham hâlde
-kendim görmedim, bir özetleyici katmandan geçti.
+Alıntılara ilk turda **`WebFetch` üzerinden** ulaştım; ham sayfayı kendim
+görmedim. Bunu bir risk olarak işaretledim; koordinatör uyarıyı ciddiye alıp
+**bağımsız ikinci bir çekişle birebir metni aldı** (`9c31e0c`).
+
+**Sonuç: kesinti GERÇEK, özetleyici uydurmamış. Ama İKİ KELİME düşürmüş.**
 
 ```
-YUKSEK GUVEN (tirnak icinde donmustu, birebir olma ihtimali yuksek):
-   "kendilerine sultan diyen Dehlek emirlerinin hakimiyetinde bulunmakta"
-   "VI. (XII.) yuzyildan itibaren de kendi meliklerince bagimsiz olarak
-    yonetilmistir"
-   "III. (IX.) yuzyilda Abbasi idaresinden cikan Dehlek, Yemen'in Zebid
-    sehrinde hukum suren mahalli hanedanlarin eline gecmis"
-   "2 Cemaziyelahir 964 / 2 Nisan 1557"
-
-OZETLEYICININ IFADESI (birebir DEGIL, dogrulanmali):
-   "XIV. yuzyilin sonu: Habes topraklarina katildigi belirtilmektedir"
-   "XVI. yuzyilda tekrar Dehlek'in himaye ve kontrolune girdigi anlasilmaktadir"
+OZETIN VERDIGI:
+  "XIV. yuzyilin sonu: Habes topraklarina KATILDIGI BELIRTILMEKTEDIR"
+HAM METIN:
+  "Adanin XIV. yuzyilin sonunda YINE Habes topraklarina katildigi, XVI.
+   yuzyilda ise tekrar Dehlek'in himaye ve kontrolune girdigi ANLASILMAKTADIR"
 ```
 
-🔴 **Kesintiyi kuran iki cümle, tam da özetleyici ifadesi olanlar.** Bulgunun
-kendisi sağlam görünüyor ama **maddeyi açıp bu iki cümleyi ham metinden
-doğrulamak devralanın ilk işi olmalı.** Kaynak: `islamansiklopedisi.org.tr/masavva`
+🔴 **Özetleyici İÇERİĞİ korudu, KİPLİĞİ düşürdü.** Kaybolan şey olgu değil,
+*"bu bir çıkarımdır"* uyarısıydı — **yani tam da güç etiketinin dayandığı
+bilgi.**
+
+⇒ **Ders: özet, bilginin kendisini değil GÜVENİLİRLİĞİNİ siler.** Cümle hâlâ
+doğru, ama artık ne kadar güveneceğini bilmiyorsun. Ve bir düzeltmeyi
+haklı çıkaran şey cümlenin içeriği değil, **güvenilirliğidir.**
+
+📌 Bu dosyanın ilk hâlinde bu iki cümle `KESİN` etiketiyle duruyordu. Şimdi
+`DESEN`. **Etiketi değiştiren şey yeni bir bilgi değil, aynı bilginin ham
+hâliydi.**
 
 ---
 
 ## 4. ÜÇ SOMUT SORU
 
-### ① Üç dönemi YIL düzeyinde tarihlendiren bir kaynak var mı?
-TDV üçünü de **yüzyıl** olarak veriyor (*"XIV. yüzyılın sonu"*, *"XVI.
-yüzyılda"*). Habeş/Etiyopya külliyatı TDV'den keskin olabilir — Dahlak
-Sultanlığı ve Etiyopya-Adal ilişkileri üzerine neşirler yıl verebilir.
-⇒ **Kesintinin varlığı KESİN, sınırları ZAYIF.** Sınırlar yıl düzeyine
-inmeden repoint yapılamaz.
+### ① 🔴 TDV'nin ÇIKARIMI DOĞRU MU? — soru değişti
+**İlk yazımımda soru *"üç dönemi yıl düzeyinde tarihlendiren kaynak var mı"*
+idi. Artık değil.** Ham metin TDV'nin *"anlaşılmaktadır"* dediğini gösterdi:
+ortada bir **iddia değil, çıkarım** var.
+
+⇒ Soru artık **"TDV ne diyor"** değil, **"TDV'nin çıkarımı doğru mu"**.
+```
+· Kesinti gercekten oldu mu?  (varlik: DESEN, KESIN degil)
+· "yine" ne demek — oncesinde kac Habes evresi var?
+· Ve ancak bunlar tutarsa: sinirlar yil duzeyine iner mi?
+```
+Habeş/Etiyopya külliyatı TDV'den keskin olabilir; Dahlak Sultanlığı ve
+Etiyopya–Adal ilişkileri üzerine neşirler hem çıkarımı sınayabilir hem yıl
+verebilir.
+⚠️ **Sıra önemli:** önce çıkarım sınanır, sonra tarihlendirilir. Tarihlendirme
+çalışması, sınanmamış bir çıkarımı *"araştırılmış"* gösterir — bugün
+`dehlek`i durduran hatanın tam kendisi.
 
 ### ② Orta dönemi `habesistan` mı alacak?
 `habesistan` kimliğinin **rengi hazır** — VERİ KİMLİK `dehlek`i ondan
@@ -146,13 +179,19 @@ işidir.** Buraya yalnız *"ihtiyaç ölçüldü ve şurada doğdu"* diye yazıy
                       dehlek KIMLIK adi)
 ✅ renk = #a838a8     hazir, min dE 36,2 (habesistan'a karsi), VERI KIMLIK
                       olcumu, OTURUM-9-ILERLEME EK-12
-🔴 f:                 BULUNAMADI
-🔴 pencere            SUREKLI DEGIL — repoint plani revizyon istiyor
+✅ ham metin          koordinator birebir cekti (9c31e0c) - devralanin
+                      ham metni yeniden gormesine GEREK YOK
+🔴 f:                 BULUNAMADI (TDV yalniz yuzyil veriyor)
+🔴 pencere            SUREKLI DEGIL — ama bu TDV'nin CIKARIMI (DESEN),
+                      iddiasi degil. Once cikarim sinanmali.
+🔴 "yine"             oncesinde en az bir Habes evresi daha var - manzara
+                      uc donemli degil DONUSUMLU olabilir
 ```
 
-**Sıra:** ÇAPRAZ DOĞU üç soruyu cevaplar → kimlik oturumu kaydı+rengi yazar →
-YAMACI noktaları çevirir. **Zincirin ikinci halkası, birincisi cevaplanmadan
-başlayamaz.**
+**Sıra:** ÇAPRAZ DOĞU **önce TDV'nin çıkarımını sınar** → tutarsa tarihlendirir
+→ kimlik oturumu kaydı+rengi yazar → YAMACI noktaları çevirir.
+**Zincirin hiçbir halkası, öncekini atlayarak başlayamaz** — bugünkü durdurma
+tam da bir halkanın atlanmasından doğdu.
 
 🔴 **YAMACI'ya bu hâliyle paket göndermeyin.** Kalem *"f: eksik"* diye açık
 duruyor ama gerçek engel o değil; repoint hazır sanılırsa ~100 yıllık yeni
