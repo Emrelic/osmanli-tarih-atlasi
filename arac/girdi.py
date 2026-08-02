@@ -20,10 +20,10 @@ merge'e hazır OLMAYAN partiler duruyor ve desen onları sessizce içeri alır.
 
   data/yerlesimler_asya.js    344 nokta — 135 devlet kimliği renkler.py'de YOK,
                               tamamı 62°D'nin doğusunda, harita penceresi dışı
-  data/yerlesimler_avrupa.js  237 nokta — 15 kimlik renkler.py'de YOK, DSATUR
-                              renk dağıtımı gerekiyor
   (sayılar 2 Ağustos 2026 ölçümü — yorumdaki sayı ölçümün fotoğrafıdır ve
-  eskir; partiye dokunan oturum yeniden ölçüp burayı düzeltir)
+  eskir; partiye dokunan oturum yeniden ölçüp burayı düzeltir.
+  yerlesimler_avrupa.js de bir dönem bu listedeydi: 15 kimliği renksizdi;
+  RENK 15'ini yazınca — BOYALAR 114→129, 9f4d2c8 — canlıya alındı, aşağıda.)
 
 Kimliği tanımsız nokta üretimde uyarı verir ve bölgesi BOYANMAZ; yani glob
 kullanmak "bir dosya ekledim" ile "haritada renksiz delik açtım"ı aynı işleme
@@ -135,9 +135,19 @@ GIRDI_DOSYALARI = [
     # tanımlı (yeni renk gerekmedi), ② 7/7 nokta BOLGE kutusunun İÇİNDE
     # (lon 51,92..61,50 — kutu işi yok), ③ canlı 991 noktaya karşı 3 km çakışması
     # YOK (en yakın çift 17,36 km: Aşkabad ↔ Nesâ), partinin kendi içinde de yok.
+    "yerlesimler_avrupa.js",
+    # 237 nokta (MOTOR 2 İş O, 2 Ağustos 2026). Canlıya alınma gerekçesi —
+    # dört ön koşul ÖLÇÜLDÜ (İş I, 73bded7) ve son engel RENK'le kapandı:
+    # ① 35 kimliğin 35'i renkler.py'de tanımlı (RENK 15'ini yazdı: BOYALAR
+    #   114→129, 9f4d2c8; bu oturum 15/15'i yeniden doğruladı),
+    # ② canlı 998 noktaya karşı 3 km çakışması YOK (en yakın 12,31 km:
+    #   Reggio Calabria ↔ Messina), partinin kendi içinde de yok,
+    # ③ 235/237 BOLGE kutusunun içinde — Sundsvall (62,4°K) ve Trondheim
+    #   (63,4°K) BUGÜN kutu dışında: kuzey kenarı 64 olunca girecekler,
+    #   o zamana dek maske-dışı görünmeleri BEKLENEN durumdur,
+    # ④ tarih hassasiyeti: YYYY-01-01 yer tutucu %25 (ortaasya2: %59).
     # HAZIR DEĞİL — kimlikleri renkler.py'de tanımsız, açılırsa renksiz delik:
     # "yerlesimler_asya.js",    # 344 nokta, 135 tanımsız kimlik, 62°D'nin doğusu
-    # "yerlesimler_avrupa.js",  # 237 nokta, 15 tanımsız kimlik, DSATUR gerekiyor
 ]
 
 YAKINLIK_ESIK_KM = 3.0          # CLAUDE.md §11: 3 km içinde ikinci nokta açma
