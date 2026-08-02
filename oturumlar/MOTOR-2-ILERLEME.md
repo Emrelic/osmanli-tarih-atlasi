@@ -331,3 +331,16 @@ Hepsi kendi ölçümüm (betik scratchpad'de; salt okuma):
 girdi.py'ye EKLENMEDİ — renkler gelmeden eklenirse 235 nokta boyasız girer.
 Ekleme kararı koordinatörün.
 
+### Ek (koordinatör istedi): `zaporojye` renksiz listeye katıldı (16:15)
+
+Koşu için renk bekleyen küme: Avrupa'nın 15'i + **zaporojye** = 16 kimlik.
+⚠️ AMA ölçüldü: hiçbir yerlesimler*.js kaydı (avrupa dahil) `d:"zaporojye"`
+KULLANMIYOR — 0 nokta. Motorda yabancı gövde `s:` dönemlerinden kurulur
+(uret_petek.py:1556-1557: kimliğe s: kaydı olan nokta yoksa `continue`);
+yani zaporojye'ye renk + `harita:` verilse bile haritada GÖVDE ÇIKMAZ.
+Zincirin üç halkası var ve bugün üçü de eksik:
+  ① renk (RENK oturumunda) · ② devletler.js `harita:` (RENK'e devredildi)
+  · ③ en az bir yerleşimin s: zincirinde `d:"zaporojye"` dönemi (VERİ işi —
+  Dinyeper boyu nokta ister; muhtemel aday mevcut Kırım/bozkır noktalarının
+  s: zincirleri ya da yeni nokta). ③ olmadan ①+② yalnız palet kaydı olur.
+
