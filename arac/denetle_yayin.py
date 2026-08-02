@@ -338,10 +338,30 @@ CIZILMEYEN_MUAF = {
     "PARCALAR": "DONEMLER'in parça havuzu — app.js DONEMLER üzerinden çözer",
     "DEVLET_PARCALAR": "DEVLET_HARITA'nın parça havuzu, aynı desen",
     "DEVIRLER_KAYNAK_OZET": "üretim raporu, arayüz tüketicisi yok (bilerek)",
-    # MOTOR GİRDİLERİ — app.js'in okumaması DOĞRU. Bunları `girdi.py` okur ve
-    # motor geometriye çevirir; tarayıcıya ham hâlleri hiç gitmez.
-    "YERLESIMLER": "motor girdisi — app.js üretilmiş geometriyi okur, ham noktayı değil",
-    "YERLESIMLER_AFRIKA": "motor girdisi, girdi.py okur",
+    # ⚠️ ESKİ GEREKÇE ÇÜRÜKTÜ VE BİR BOŞLUĞU GİZLEDİ (3 Ağustos 2026):
+    # burada "app.js üretilmiş geometriyi okur, HAM NOKTAYI DEĞİL" yazıyordu.
+    # ÖLÇÜM tersini söylüyor: app.js ham noktayı İKİ yerde okur —
+    # app.js:1022 (ISARET_KAYNAK: harita işaretleri) ve app.js:2162 (yer
+    # dizini). O çürük cümle yüzünden 789 nokta (afrika·asya·avrupa·ek·
+    # ortaasya2) toprağı çizilirken ADI GÖRÜNMEZ kaldı ve denetim eşikte
+    # yakaladı. Yorumdaki gerekçe ölçüm değildir — bu satırlar artık ölçümle
+    # yazılıyor. Çözüm: index.html:190-195 beş parti dosyasını TEK yerde
+    # `window.YERLESIMLER`e birleştirir; app.js yalnız birleşik diziyi okur.
+    "YERLESIMLER": "app.js HAM noktayı OKUR (app.js:1022 işaretler, :2162 "
+                   "yer dizini) ve index.html yükler — muafiyet aslında "
+                   "gereksiz; kayıt, eski 'okumaz' gerekçesinin geri "
+                   "yazılmaması için ölçümüyle duruyor",
+    "YERLESIMLER_AFRIKA": "index.html:190-195'te window.YERLESIMLER'e "
+                          "BİRLEŞTİRİLİR; app.js birleşik diziyi okur "
+                          "(adıyla okumaz, bu yüzden muaf)",
+    "YERLESIMLER_AVRUPA": "aynı — index.html'de birleştirilir, app.js "
+                          "birleşik diziyi okur (app.js:1022, :2162)",
+    "YERLESIMLER_ASYA": "aynı — index.html'de birleştirilir",
+    "YERLESIMLER_EK": "aynı — index.html'de birleştirilir",
+    "YERLESIMLER_ORTAASYA2": "aynı — index.html'de birleştirilir",
+    "KIMLIKLER": "EMEKLİ dosya (0408bca, İş F) — okunmaması/yüklenmemesi "
+                 "KASITLI: harita: değerleri devletler.js'e taşındı, tek "
+                 "otorite o (EMEKLI sözlüğüyle tutarlı)",
     "GOLLER": "motor girdisi — girdi.oku_goller(), uret_petek.py doğrudan okur",
     "URETIM_IZI": "üretim parmak izi — tüketicisi denetle_yayin.py'nin kendisi",
 }
@@ -508,7 +528,18 @@ def main():
                              "arayüz HİÇ kullanmayacak",
     }
 
+    # ARA ÇIKTI — yetim DEĞİL: tarayıcı yüklemez, girdi.py okumaz ama bir
+    # ÜRETİM aracı tüketir. petek_govde.js 3 Ağustos yayın eşiğinde yetim
+    # sanılıyordu; ölçüm: uret_devirler.py:294-296 onu okuyor (işgal örtüsü
+    # gövdeleri oradan kurulur) ve kendi başlığı "index.html BU DOSYAYI
+    # YÜKLEMEZ, yalnız üretim betikleri okur" diye zaten söylüyor.
+    ARA_CIKTI = {
+        "data/petek_govde.js": "uret_devirler.py:294-296 okur — motor ara "
+                               "çıktısı, tarayıcıya bilerek gitmez",
+    }
+
     diskte, kayitsiz, bekleyen_bulunan, emekli_bulunan = [], [], [], []
+    ara_bulunan = []
     veri_dizini = os.path.join(KOK, "data")
     if os.path.isdir(veri_dizini):
         for f in sorted(os.listdir(veri_dizini)):
@@ -522,6 +553,8 @@ def main():
                 bekleyen_bulunan.append(yol)
             elif yol in EMEKLI:
                 emekli_bulunan.append(yol)
+            elif yol in ARA_CIKTI:
+                ara_bulunan.append(yol)
             else:
                 kayitsiz.append(yol)
 
@@ -542,6 +575,11 @@ def main():
               % len(emekli_bulunan))
         for y in emekli_bulunan:
             print("      %-34s %s" % (y, EMEKLI[y]))
+    if ara_bulunan:
+        print("  i %d dosya ARA ÇIKTI (üretim aracı tüketir, tarayıcı "
+              "bilerek yüklemez):" % len(ara_bulunan))
+        for y in ara_bulunan:
+            print("      %-34s %s" % (y, ARA_CIKTI[y]))
 
     # sürüm damgası tutarlılığı: hepsi aynı ?v=rNN taşımalı
     damgalar = set(re.findall(r'\?v=(r\d+)', html))
