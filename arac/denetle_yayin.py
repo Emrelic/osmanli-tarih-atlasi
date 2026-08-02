@@ -407,14 +407,27 @@ def main():
 
     # Henüz aktif olmayan, gerekçesi belgeli partiler. Buraya bir dosya
     # eklenirken NEDEN aktif olmadığı yazılır, yoksa liste çöplüğe döner.
+    # (yerlesimler_ortaasya2.js buradan ÇIKTI: İş A/27e234c ile canlıya
+    #  alındı, artık girdi.py izin listesinde. Sayılar 2 Ağustos ölçümü.)
     BEKLEYEN = {
         "data/yerlesimler_avrupa.js":    "237 nokta, 15 kimlik renkler.py'de tanımsız",
-        "data/yerlesimler_asya.js":      "344 nokta, 98 kimlik + harita penceresi 62°D'de bitiyor",
-        "data/yerlesimler_ortaasya2.js": "7 nokta, nogay+kazak kimliği tanımsız",
-        "data/kimlikler.js":             "kimlik sözlüğü, arayüz henüz kullanmıyor (ETIKETLEME.md)",
+        "data/yerlesimler_asya.js":      "344 nokta, 135 kimlik tanımsız + harita penceresi 62°D'de bitiyor",
     }
 
-    diskte, kayitsiz, bekleyen_bulunan = [], [], []
+    # 🔴 EMEKLİ ≠ BEKLEYEN. Bekleyen "önkoşul kapanınca BAĞLANACAK" vaadi
+    # taşır; emekli "HİÇ bağlanmayacak" hükmü. kimlikler.js bir dönem
+    # BEKLEYEN'de "arayüz henüz kullanmıyor" diye duruyordu — "henüz" yanlış
+    # umut veriyordu: VERİ KİMLİK 2 dosyayı EMEKLİ etti (0408bca), 4 harita:
+    # değeri devletler.js'e taşındı, tek otorite artık devletler.js
+    # (okuyucusu: girdi.oku_devletler). Satır buraya gerekçesiyle taşındı;
+    # gerekçesiz satır bir sonraki oturuma "bu neden burada" diye sorar.
+    EMEKLI = {
+        "data/kimlikler.js": "EMEKLİ (0408bca) — harita: değerleri "
+                             "devletler.js'e taşındı, tek otorite o; "
+                             "arayüz HİÇ kullanmayacak",
+    }
+
+    diskte, kayitsiz, bekleyen_bulunan, emekli_bulunan = [], [], [], []
     veri_dizini = os.path.join(KOK, "data")
     if os.path.isdir(veri_dizini):
         for f in sorted(os.listdir(veri_dizini)):
@@ -426,6 +439,8 @@ def main():
                 continue
             if yol in BEKLEYEN:
                 bekleyen_bulunan.append(yol)
+            elif yol in EMEKLI:
+                emekli_bulunan.append(yol)
             else:
                 kayitsiz.append(yol)
 
@@ -441,6 +456,11 @@ def main():
         print("  i %d parti bilerek bekliyor:" % len(bekleyen_bulunan))
         for y in bekleyen_bulunan:
             print("      %-34s %s" % (y, BEKLEYEN[y]))
+    if emekli_bulunan:
+        print("  i %d dosya EMEKLİ (bağlanmayacak — bekleyen DEĞİL):"
+              % len(emekli_bulunan))
+        for y in emekli_bulunan:
+            print("      %-34s %s" % (y, EMEKLI[y]))
 
     # sürüm damgası tutarlılığı: hepsi aynı ?v=rNN taşımalı
     damgalar = set(re.findall(r'\?v=(r\d+)', html))

@@ -201,3 +201,25 @@ diff 0; paylaşımlı 8 anahtar aynı). denetle.py çıktısı da BİREBİR AYNI
 
 ⏳ başladım: İş F — denetle_yayin.py:414 kimlikler.js BEKLEYEN'den çıksın — 2026-08-02 14:30
 
+## ✅ İş F — kimlikler.js BEKLEYEN'den çıktı, EMEKLİ sınıfı açıldı (14:40)
+
+denetle_yayin.py'ye `EMEKLI` sözlüğü eklendi (BEKLEYEN'in yanına, ayrımı
+yorumda: bekleyen "bağlanacak" vaadi, emekli "hiç bağlanmayacak" hükmü).
+kimlikler.js oraya taşındı, gerekçe satırında: EMEKLİ (0408bca), harita:
+değerleri devletler.js'e taşındı, tek otorite devletler.js.
+
+Kabul: önce/sonra tam çıktı diff'i — TEK fark kimlikler.js satırının
+"bilerek bekliyor"dan "EMEKLİ (bağlanmayacak — bekleyen DEĞİL)" bölümüne
+geçmesi. Yetim sayısı değişmedi (1: petek_govde.js — önceden vardı, benim
+dışımda). "YAYIN BAYAT" uyarısı İş A'nın beklenen sonucu (girdi kümesi
+değişti; üretim koordinatörde).
+
+Aynı sözlükte iki çürük daha düzeltildi (§79 refleksi, kendi ölçümümle):
+- yerlesimler_ortaasya2.js satırı SİLİNDİ — "nogay+kazak tanımsız" artık
+  yanlıştı: kimlikler tanımlı ve parti İş A (27e234c) ile canlıda.
+- yerlesimler_asya.js "98 kimlik" → **135** (İş A'daki kendi ölçümüm).
+
+Not — ORGANIZASYON §16 (stash yasağı) okundu ve zaten uyumluyum: bütün
+geçici değişikliklerim dosya bazlı edit + geri alma; git komutlarım hep
+yol adlı (pathspec'li commit). stash hiç kullanılmadı, kullanılmayacak.
+
