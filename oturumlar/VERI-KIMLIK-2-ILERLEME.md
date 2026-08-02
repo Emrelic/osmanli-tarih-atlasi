@@ -312,3 +312,54 @@ afsar 1736-1796  ∩  zend 1751-1794   =  43 YIL eszamanli
 değil."* Ama üç halkanın ikisi **zaten atanmış**; yeniden atama MOTOR'un ve
 kullanıcının sahası. **Karar bende değil, ölçüm bende.**
 
+### 🔴 İRAN ZİNCİRİ — üç düzeltme, ölçüldü
+
+**① `zend`in kaydı VAR.** Koordinatör *"`zend` kaydı yok, sınıfı `dehlek` ile
+aynı"* dedi. **Değil:**
+```
+data/devletler.js:1477
+{ id:"zend", ad:"Zend Hanedanı (İran)", tur:"devlet", bolge:"iran",
+  f:"1751-01-01", t:"1794-01-01", baskent:"Şiraz",
+  ozet:"... Kaçarlar tarafından ortadan kaldırıldı (bkz. [[kacar]]).
+        TDV'de ayrı maddesi yok; tarihler standart akademik kaynaklara göre",
+  kronoloji:[ ... ] }
+```
+Kayıt **tam** — `bolge`, `baskent`, `ozet`, `kaynak notu`, `kronoloji` hepsi
+yerinde. **Eksik olan yalnız `harita:`.** Yani `dehlek` sınıfı değil,
+`sirbistan-nemanjic` sınıfı. Tek engel renk ailesi kararı.
+📌 Koordinatör muhtemelen `kimlikler.js`'e bakıp *"orada var, canlıda yok"*
+diye okudu; ikimizin de bugün düştüğü aynı tuzağın üçüncü tekrarı — **kaynağı
+sormadan değer okumak.**
+
+**② Çakışma ikili değil ÜÇLÜ.** Ölçtüm:
+```
+safevi x afsar   ortusme YOK        (safevi 1736-03-08'de biter, afsar baslar)
+afsar  x zend    1751-01-01 -> 1794-01-01   43 yil
+afsar  x kacar   1789-03-21 -> 1796-01-01   <<< IKISI DE harita:"iran"
+zend   x kacar   1789-03-21 -> 1794-01-01
+
+UCU BIRDEN sahnede:  1789-03-21 -> 1794-01-01   (~4,8 yil)
+```
+⇒ O pencerede **üç ayrı renk** gerekiyor, iki değil. Ve `safevi` o pencerede
+sahnede **değil** — yani *"safevi ailesi"* dendiğinde `safevi` taban rengi
+olarak kalır ama asıl ayrışması gereken üçlü **`afsar` · `zend` · `kacar`**.
+
+**③ Mevcut ihlal:** `afsar` ve `kacar` **ikisi de** `harita:"iran"` → aynı
+`#b5885b` → **1789-1796 arası haritada ayırt edilemiyorlar.** Bu, `zend` için
+öne sürdüğüm yasağın **hâlihazırda çiğnenmiş** hâli. Kimse ölçmemiş.
+
+### ⚠️ VE `renk_olc.py` BU SINIFI GÖREMİYOR — araç açığı
+Aracı koşturdum; `afsar ↔ kacar` çakışması **çıktıda yok.** Sebep yapısal:
+```
+arac cift kurarken ANAHTAR-ANAHTAR olcuyor:  "iran ↔ memluk", "gurcistan ↔ safevi"
+afsar ve kacar AYNI anahtari kullaniyor  ->  ortada cift YOK  ->  dE hic hesaplanmiyor
+```
+⇒ Araç *"iki farklı rengin birbirine yakın olması"*nı yakalıyor; **"eşzamanlı
+iki kimliğin aynı rengi paylaşması"**nı yakalayamıyor. İkincisi ΔE 0, yani
+sonsuz kötü — ama hiçbir listeye düşmüyor. `71 çakışma` sayısı bu sınıfı
+**hiç saymıyor.**
+📌 Bu bir denetim körlüğü: aracın yeşil verdiği yerde en kötü hata durabilir.
+Düzeltmek tek geçişlik iş (aynı anahtarı paylaşan kayıtlar arasında tarih
+örtüşmesi taraması) ama `renk_olc.py` MOTOR'un sahası — **teklif ettim,
+dokunmadım.**
+
