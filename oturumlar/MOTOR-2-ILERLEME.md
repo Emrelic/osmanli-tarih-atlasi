@@ -725,3 +725,7 @@ Hepsi emsal tavanının (1,39 km) altında. Sundsvall/Trondheim'a DOKUNULMADI
 (kaydırma vakası değil, kuzey 64 bekliyor). data/*.js'e yazılmadı — yazım
 koordinatörde.
 
+---
+
+⏳ başladım: İş P — denetle_kapsama BOLGE_KUTULARI yeni coğrafyaya — 2026-08-02 21:05
+
