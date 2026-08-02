@@ -57,3 +57,48 @@ Kabul ölçütü ÜÇ UÇLU, üçü de koşuldu:
 
 ⏳ başladım: İş C — BOLGE 142° genişletme MALİYET ÖLÇÜMÜ (kutu açılmayacak) — 2026-08-02 12:45
 
+## ✅ İş C — BOLGE genişletme MALİYET ÖLÇÜMÜ (12:55) — KUTU AÇILMADI
+
+Yöntem: `uret_petek.py:91-152` maske kurulumu ayrı betikte BİREBİR taklit
+edildi (KARA_TOL 0.002, göl filtresi, goller.js tarihî göl düzeltmeleri
+dahil). `uret_petek.py` ÇALIŞTIRILMADI; hiçbir depo dosyasına yazılmadı.
+
+### İstenen dört sayı
+
+**① Bugünkü maske** — box(-12, 1.5, 62, 62), 74° genişlik:
+- alan **3.363 derece²** (~35,5 milyon km²) · poligon **1.102** ·
+  köşe 52.339 · çıkarılan göl 90
+
+**② Kutu 142°'ye açılınca** — box(-12, 1.5, 142, 62), 154° genişlik:
+- alan **6.417 derece²** (~64,5 milyon km², ×1,91) · poligon **2.522**
+  (×2,29) · köşe 98.933 (×1,89) · çıkarılan göl 204
+- kv ızgarası (0,05°): 1,79 M → 3,73 M hücre (×2,08)
+
+**③ Kutuya giren yeni nokta**: yerlesimler_asya.js 344 noktadan **320**.
+🔴 **24 nokta 142° kutusuna SIĞMIYOR** — boylamdan değil GÜNEY sınırından:
+hepsi 1,5°K'nın altında (Endonezya/Malaya: Singapur, Cava, Bali, Makassar,
+Ternate, Timor… lat −10,18'e iniyor). Yani "lon 142" tek başına Asya
+partisini TAM almıyor; karar verirken bilinmeli.
+- **③b ek ölçüm — TAM kutu** box(-12, −11, 142, 62): 344/344 girer;
+  alan 6.915 derece² (×2,06) · poligon 3.047 (×2,76) · köşe 117.955
+  (×2,25) · kv ızgara 4,50 M hücre (×2,51)
+
+**④ Tahminî koşu süresi** — dayanak r578 = 43 dk (10:24→11:07, bugünkü
+maske + 991 nokta). TÜRETİM: koşu maliyetinin sürücüleri ölçülen dört
+çarpanla büyür — kara alanı ×1,91 (ızgara Dijkstra + rasterleştirme),
+ızgara ×2,08, maske köşesi ×1,89 (Voronoi kırpması), poligon ×2,29 (ada
+kuralı), nokta ×1,32 (998→1318, Voronoi). Doğrusal ölçekleme varsayımıyla
+çarpanlar ×1,9–2,3 kümesinde ⇒ **43 × (1,9..2,3) ≈ 82–99 dk, merkez ~90 dk
+(≈ 2,1 kat)**.
+⚠️ DOĞRUSAL OLMAYABİLİR — takımada ölçüldü: eklenen 62°..142° şeridinde
+1.421 poligonun **1.261'i 0,01 derece²'den küçük ada**. Ada kuralı kara
+parçası başına iş yapıyor; o aşama parça×nokta ile ölçeklenirse
+(×2,29 × ×1,32 ≈ ×3,0) tavan **~130 dk**. TAM kutuda (③b) çarpanlar
+×2,1–2,8 ⇒ 90–120 dk merkez ~105 dk, takımada tavanı ~160 dk.
+⚠️ §82 uyarısı ölçümle doğrulandı: 1.261 küçük adanın çoğunda nokta
+olmayacak — "nokta = çevresindeki toprak" varsayımı her adada kırılır;
+süre kadar ÇIKTI kalitesi de takımadada ayrı karar ister.
+
+KARAR KOORDİNATÖRÜN — kutu açılmadı, uret_petek.py'ye dokunulmadı
+(İş B'nin ③ geçici denemesi anında geri alınmıştı, `git diff` boş).
+
