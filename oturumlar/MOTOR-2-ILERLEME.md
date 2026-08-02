@@ -163,3 +163,7 @@ Görülüp DOKUNULMAYAN (Kapı B/renk partisi kapsamı):
 - renkler.py:355+ bayat ΔE bloğu — kendini BAYAT diye işaretliyor zaten;
   sayılar %30 opaklıkla ölçülmüş, gerçek 0,44 (satır 41 ve app.js:559).
 
+---
+
+⏳ başladım: İş E — devletler.js ORTAK OKUYUCU (girdi.py) + renk_olc.py taşıma — 2026-08-02 14:00
+
