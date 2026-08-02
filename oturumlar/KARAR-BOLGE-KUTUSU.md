@@ -51,6 +51,53 @@ sorun.
 
 ---
 
+## 2c. ✅ ADACIK ZARARI ÖLÇÜLDÜ (İş K, `12a2a1a`) — **ENGEL SAYISI 2'DEN 1'E DÜŞTÜ**
+
+`§2` *"kutu bugün açılırsa 1.261 adacık yanlış boyanır"* diyordu. **Doğruydu
+ama eksikti:** o cümle sorunun kutuyla **doğduğunu** îma ediyordu. Ölçüm
+tersini gösterdi.
+
+```
+                          parça   yanlış devlet adayı        alan
+BUGÜNKÜ kutu, canlı veri   1.006   27 parça              2.751 km²
+KİLİTLİ kutu (142/−11/64)  3.023  161 parça             25.566 km²
+                                   ────────────────────────────────
+                                   ×6 parça · ×9,3 alan
+```
+
+🔴 **SORUN BUGÜN DE VAR.** Bornholm sınıfı adalar Kopenhag↔Berlin↔Hamburg
+arasında, Manş adaları Londra↔Paris (286 km), Abu Dabi↔Buraymî kıyı
+adacıkları. ⇒ **Kutu sorunu YARATMIYOR, BÜYÜTÜYOR.**
+
+⇒ **Adacık kuralı kutunun ÖN KOŞULU DEĞİL.** Ayrı ve **zaten açık** bir iş.
+Kutunun önünde bugün **tek engel kaldı: Asya'nın 135 rengi.**
+
+### 📌 Ve kuralın bedeli İLK KEZ sayıda
+
+```
+kural UYGULANIRSA    25.566 km²  yanlış renk adayı
+kural UYGULANMAZSA  884.543 km²  boşluk
+oran                 1 : 35   ⇒ kuralın bedeli önlediğinin %2,9'u
+```
+*"Yanlış renk boşluktan kötüdür"* doğruymuş — ve artık **ucuz olduğu da
+ölçülü.**
+
+### 🟢 VE UCUZ BİR AZALTMA YOLU ÇIKTI
+
+Zararın **%45'i TEK parçada**: **Palawan 11.534 km² → Manila'ya soğuruluyor**
+(anakarası Brunei tarafı). Diğer büyükler: Sahalin/Hokkaido (3.026 km² →
+Sapporo), Sumatra doğu kıyısı (Singapur çekiyor), Mergui adaları (Banda
+Açe'den 633 km).
+
+⇒ **Birkaç hedefli veri noktası zararın yarısını tek başına düşürür.**
+Şema işi değil, **nokta ekleme** işi.
+
+⚠️ Soğurma mesafeleri: medyan 96 km · P90 497 km · **maks 2.014 km**
+(118 km²'lik bir parça **Ndjamena'ya** soğuruluyor). Ölçüm düz mesafe;
+motorun kara-yolu Dijkstra'sının **alt sınırı**.
+
+---
+
 ## 3. KARAR ① — SIRA DEĞİŞTİ, kutu ÜÇÜNCÜ
 
 ```
