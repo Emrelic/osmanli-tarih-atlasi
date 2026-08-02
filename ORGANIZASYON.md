@@ -802,3 +802,60 @@ gerekmez.
 
 ⚠️ `CLAUDE.md §7` tablosu zaten `Opus`/`Sonnet` diye **ad veriyor.**
 `BEKLEYENLER.md` o tabloyla hizalı yazılır; iki belge iki dil konuşamaz.
+
+---
+
+## 18. 🔴 OTURUM YANLIŞ DİZİNDE AÇILABİLİR — ÇARE TAŞINMAK DEĞİL, MUTLAK YOL
+
+**Ölçüm (2 Ağustos):** sekiz oturumun **üçü** yanlış dizinde açılmıştı
+(`Projeler\Uibul`), koordinatörün kendisi ise **iki dizinli**.
+
+```
+MOTOR 2            Projeler\Uibul               ← yanlış, ama sorunsuz çalıştı
+VERİ KİMLİK 2      Projeler\Uibul               ← yanlış, ama sorunsuz çalıştı
+NOKTA EKLEME       Projeler\Uibul               ← yanlış (15 nokta yazdı, r578'de yayında)
+RENK · MOTOR · DENETÇİ · VERİ KRONOLOJİ   doğru
+```
+
+**Ve zarar ÖLÇÜLDÜ: sıfır.**
+```
+Ranking deposu   bugün 0 commit, çalışma ağacı temiz
+Uibul deposu     bugün 0 commit (son commit dünden)
+atlas deposu     bugünün bütün commit'leri burada
+```
+⇒ Sebep: bütün oturumlar **mutlak yolla** çalıştı ve commit'lerinde **yol adı**
+verdi (`§13`).
+
+### 🔴 Ama risk gerçek — ve tehlikeli olan sessiz olanı
+
+| ne olur | sınıf |
+|---|---|
+| `py arac/denetle.py` | 🟢 **GÜRÜLTÜLÜ** — dosya yok, hemen patlar |
+| `data/x.js` yazımı | 🔴 **SESSİZ** — yanlış depoda dosya oluşur, kimse görmez |
+| çıplak `git status` / `git log` | 🔴 **EN TEHLİKELİSİ** |
+
+Sonuncusu neden en tehlikeli: **hata vermez, GÜVENLE YANLIŞ cevap verir.**
+Bir oturum `git status` koşup *"çalışma ağacı temiz"* diye rapor edebilir —
+oysa Uibul'un ağacına bakmıştır, atlas kirlidir. `§14` *"veri şu an şöyle
+demeden önce `git log`"* diyordu; **yanlış depoda `git log` o kuralı
+sağlamış gibi gösterir.**
+
+### Kural — taşıma, YOLU ZORLA
+
+```
+❌ cd <proje>              ← koordinatörün kabuğu her komuttan sonra sıfırlanıyor
+❌ git status · git log    ← çıplak hâli, hangi depoya baktığını söylemez
+✅ git -C "<mutlak yol>" log --oneline -1
+✅ git -C "<mutlak yol>" commit -F - -- <yol adı>
+✅ py "<mutlak yol>/arac/denetle.py"
+```
+
+**Görev tanımının İLK maddesi** mutlak proje yolunu vermeli, ve oturumun **ilk
+işi** doğrulama olmalı:
+```bash
+git -C "<mutlak yol>" log --oneline -1     # beklenen commit mi?
+```
+
+⚠️ **Çalışan bir oturumu taşıma.** Bağlamı gider, kazancı yoktur: mutlak yol
+zaten çareyi veriyor. Taşıma yalnız oturum **kapalıyken** ve **yeni açılışta**
+anlamlıdır.
