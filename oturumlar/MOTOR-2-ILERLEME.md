@@ -515,3 +515,7 @@ dersi doğrulandı: kenar verinin yayılımına göre değil coğrafyanın
 dikişlerine göre seçilmeli — ve doğuda dikişsiz yer olmadığı İÇİN doğru
 soru "hangi kenar en az ve en zararsız keser" (cevap: 146).
 
+---
+
+⏳ başladım: İş N — kutu açılınca ne kırılır (uçuş öncesi denetim, YALNIZ LİSTE) — 2026-08-02 18:35
+
