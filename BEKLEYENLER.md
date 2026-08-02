@@ -16,12 +16,11 @@ oturum açmaktan geçiyor ve **oturum açmayı koordinatör yapamaz.**
 
 | # | iş | niçin sen | süre |
 |---|---|---|---|
-| **B1** | 🔴 **MOTOR oturumunu aç.** Brifing hazır: `oturumlar/MOTOR-KAPILAR.md`. **En güçlü model** — renk kontrastı ölçümü ve `BOLGE` maliyeti muhakeme işi | oturum açmak sende | 1 dk |
-| **B2** | **VERİ KİMLİK 2 açık mı, bak.** Açıksa dokunma, söyle. Kapalıysa **şimdilik açma** — iki kalemi (`aragon`·`kastilya`) MOTOR'un Kapı B'sine girdi, ikisi birden çalışırsa çift iş | çakışmayı ancak sen görürsün | 1 dk |
-| **B3** | 🔴 **ASYA oturumunu AÇMA.** Brifingi hazır (`c155a6a`) ama **ölçüm sırayı değiştirdi**: Asya artık **en son** kapı. Şimdi açılırsa kapalı kapı önünde bekler | dünkü "pazartesi açarız" sözün — iptal değil, **erteleme** | — |
 | **B4** | **ClaudEmre için GitHub deposu aç.** `gh` kurulu değil, ben açamıyorum. Ad: `ClaudEmre`, **private** öneriyorum. Açınca söyle, push'layayım | depo senin hesabında | 2 dk |
+| **B6** | 🔴 **KARAR: `kacar` da safevî ailesinden mi?** Kararın *"`afsar`/`zend`, `safevî` ile aynı renk ailesi, farklı parlaklık"* idi — **`kacar`ı adıyla saymadın.** Bugün `afsar` ve `kacar` **aynı rengi** (`#b5885b`) paylaşıyor ve **7 yıl eşzamanlılar** (1789-1796) ⇒ o yıllarda haritada ayırt edilemiyorlar. Bu her hâlükârda kusur; sorum yalnız **`kacar`ın rengi mor aileden mi olsun, ayrı mı** | kural senin | 1 dk |
+| **B7** | **Tarih çatışması oturumu aç** — `kimlikler.js` ile `devletler.js` **altı tarihte** ayrışmış, en büyüğü `rodos-sovalyeleri`'nde **275 yıl**. Kararı verilmeden `kimlikler.js` emekli edilemez. Brifing: `oturumlar/KARAR-KIMLIKLER-JS.md §2` | oturum açmak sende | 1 dk |
 
-📌 **B1 dışındakiler birer dakikalık.** B1 açılmazsa üç kapı da bekler.
+📌 **Hepsi birer dakikalık.** `B6` cevaplanmadan İran zinciri boyanamaz.
 
 ---
 
