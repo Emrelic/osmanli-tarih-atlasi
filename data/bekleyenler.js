@@ -19,13 +19,8 @@ window.BEKLEYENLER = {
    "satir": [
     [
      "K1",
-     "Amerika / Batı Afrika / Avustralya için kaynak barı",
+     "Amerika / Batı Afrika / Avustralya için kaynak barı — TDV bu coğrafyaları kapsamıyor",
      "\"bugün değil, yarın ya da pazartesi\""
-    ],
-    [
-     "K3",
-     "Hindistan / Çin oturumu — dört kapı açılmalı (girdi.py · renkler.py · BOLGE · app.js)",
-     "\"bu büyük iş… pazar ya da pazartesi başlatırız\""
     ]
    ]
   },
@@ -45,6 +40,11 @@ window.BEKLEYENLER = {
      "K2",
      "DENETÇİ + ARAŞTIRMA ARABİSTAN'a /compact",
      "1 Ağustos — yapıldı"
+    ],
+    [
+     "K3",
+     "Hindistan / Çin oturumu",
+     "2 Ağustos — brifing yazıldı (c155a6a), ama ölçüm sırayı değiştirdi: Asya son kapı oldu → B3"
     ],
     [
      "K4",

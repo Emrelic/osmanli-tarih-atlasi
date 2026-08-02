@@ -9,20 +9,35 @@ kapananları temizler.
 
 ---
 
-## 🟢 ŞU AN SENDEN BEKLENEN: HİÇBİR ŞEY
+## 🔴 ŞU AN SENDEN BEKLENEN — dördü de YALNIZ senin yapabileceğin işler
 
-**1 Ağustos 17:30** — sekiz görsel doğrulamanın sekizi de yapıldı, üç soru
-cevaplandı, dört karar verildi. **Kutu boş.**
-📌 Sorularının ayrıntılı cevabı: **`ARAYUZ-CEVAPLAR.md`**
+**2 Ağustos** — r578 yayında (`c58445e`), kapılar açıldı. Sıradaki adım
+oturum açmaktan geçiyor ve **oturum açmayı koordinatör yapamaz.**
+
+| # | iş | niçin sen | süre |
+|---|---|---|---|
+| **B1** | 🔴 **MOTOR oturumunu aç.** Brifing hazır: `oturumlar/MOTOR-KAPILAR.md`. **En güçlü model** — renk kontrastı ölçümü ve `BOLGE` maliyeti muhakeme işi | oturum açmak sende | 1 dk |
+| **B2** | **VERİ KİMLİK 2 açık mı, bak.** Açıksa dokunma, söyle. Kapalıysa **şimdilik açma** — iki kalemi (`aragon`·`kastilya`) MOTOR'un Kapı B'sine girdi, ikisi birden çalışırsa çift iş | çakışmayı ancak sen görürsün | 1 dk |
+| **B3** | 🔴 **ASYA oturumunu AÇMA.** Brifingi hazır (`c155a6a`) ama **ölçüm sırayı değiştirdi**: Asya artık **en son** kapı. Şimdi açılırsa kapalı kapı önünde bekler | dünkü "pazartesi açarız" sözün — iptal değil, **erteleme** | — |
+| **B4** | **ClaudEmre için GitHub deposu aç.** `gh` kurulu değil, ben açamıyorum. Ad: `ClaudEmre`, **private** öneriyorum. Açınca söyle, push'layayım | depo senin hesabında | 2 dk |
+
+📌 **B1 dışındakiler birer dakikalık.** B1 açılmazsa üç kapı da bekler.
 
 ---
 
-## 🟡 KARAR BEKLEYENLER — senin ERTELEDİKLERİN, bugün için iş değil
+## 🟢 İSTERSEN — acele değil
+
+| # | iş |
+|---|---|
+| **B5** | **Kutu programını bir kez çalıştır:** `Desktop/ClaudEmre/` içinde `py kutu/kutu.py`. Sende nasıl görünüyor, ne eksik — söyle, düzelteyim. **35 hatalık partiyi ondan sonra topla**; bugün toplarsan alete güvenmeden toplamış olursun |
+
+---
+
+## 🟡 KARAR BEKLEYENLER — senin ERTELEDİKLERİN
 
 | # | karar | senin sözün |
 |---|---|---|
-| K1 | **Amerika / Batı Afrika / Avustralya için kaynak barı** | *"bugün değil, yarın ya da pazartesi"* |
-| K3 | **Hindistan / Çin oturumu** — dört kapı açılmalı (`girdi.py` · `renkler.py` · `BOLGE` · `app.js`) | *"bu büyük iş… pazar ya da pazartesi başlatırız"* |
+| K1 | **Amerika / Batı Afrika / Avustralya için kaynak barı** — TDV bu coğrafyaları kapsamıyor | *"bugün değil, yarın ya da pazartesi"* |
 
 ---
 
@@ -32,6 +47,7 @@ cevaplandı, dört karar verildi. **Kutu boş.**
 |---|---|---|
 | ①-⑧ | **Sekiz görsel doğrulama** | **1 Ağustos** — sekizi de ekranda doğrulandı |
 | K2 | `DENETÇİ` + `ARAŞTIRMA ARABİSTAN`'a `/compact` | **1 Ağustos** — yapıldı |
+| K3 | **Hindistan / Çin oturumu** | **2 Ağustos** — brifing yazıldı (`c155a6a`), ama ölçüm sırayı değiştirdi: Asya **son** kapı oldu → `B3` |
 | K4 | **VERİ KİMLİK darboğazı** | **1 Ağustos** — *"ikinci bir kimlik oturumu açalım"*. Kuyruk 12 kaleme çıkmıştı |
 | K5 | Kalan görsel doğrulamalar gerekli mi | **1 Ağustos** — sekizi de yapıldı, soru düştü |
 | K6 | Yukarı Macaristan: 4 nokta şimdi mi | **1 Ağustos** — *"şimdi ekle"*. ~28.000 km², 91 yıl |
