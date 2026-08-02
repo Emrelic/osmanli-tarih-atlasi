@@ -603,3 +603,46 @@ GÜRÜLTÜLÜ, koşu sonrası yeniden ölçüm.
 
 ⏳ başladım: İş O — Avrupa girdiye (②) + renk_olc aynı-hex dedektörü (①) — 2026-08-02 19:10
 
+## ✅ İş O-② — yerlesimler_avrupa.js CANLIDA (19:25)
+
+Önce kendim doğruladım: BOYALAR 114→**129**, 15/15 Avrupa kimliği tanımlı,
+zaporojye hâlâ tanımsız (beklenen). girdi.py'ye gerekçeli satır eklendi.
+
+Kabul koşusu (önce/sonra):
+- Değişmez 1: **50 sahipsiz sabit** (998→1.235 yerleşim) ✓ KABUL SAĞLANDI
+- 3 km çakışma: 0 (değişmedi) ✓ · Değişmez 2: 0 açık ✓
+- 2s (bilinen borç): açık 121→**192 (+71)** — Avrupa s: kırılmaları
+  maddesiz; 2t 52→**51 (−1**: Avrupa verisi bir maddeyi eşledi)
+- ⚠️ konum: **7 maske dışı** — 2'si BEKLENEN (Sundsvall 43,5 km + Trondheim
+  159,3 km; kuzey 64 açılınca girecek), **5'i BEKLENMEDİK ama <1 km kıyı
+  sapması**: Toulon 0,84 · Helsingborg 0,70 · Santander 0,40 · Stornoway
+  0,08 · Saint-Malo 0,08 km. MASKE-DISI-NOKTALAR.md emsalinin aynısı
+  (koordinat kaydırma, piksel-altı); data yazma yetkim yok → koordinatöre.
+- zaporojye: rengi ve s: kaydı yok — Avrupa koşusunda GÖVDE BEKLENMİYOR
+  (işaretlendi ki koşudan sonra aranmasın).
+
+## ✅ İş O-① — renk_olc.py AYNI-HEX dedektörü (19:35)
+
+`ayni_hex()`: aynı hex'i paylaşan FARKLI anahtar çiftlerinde eşzamanlılık
+(kimlik-düzeyi zarf: canlı s:/v: dönemlerinin min-maks aralığı) + yakınlık
+(nokta kümeleri arası en kısa mesafe). Nokta/dönemi olmayan kimlik SESSİZ
+GEÇİLMEZ: "ÖLÇÜLEMEDİ ≠ temiz" satırı basılır.
+
+EŞİK 600 km — türetimi koda yazıldı: ateşlemesi gereken 312 km, susması
+gereken en yakın meşru çift 1.232 km (bosna↔ahiler); geometrik orta
+√(312×1232)≈620→600. Bağımsız dayanak: İş K soğurma erişimi P90 497 km —
+600 km arası olan iki gövdenin arasında başka devlet şeridi olur.
+
+İki uçlu kabul, ikisi de koşuldu (canlı 1.235 noktayla):
+- ① ATEŞLEDİ: **dulkadir ↔ trabzon-rum · 313 km · #00838f** (koordinatör
+  312 demişti — ölçüm payı). Örtüşme penceremi kaba zarf verdi (1337→1461;
+  koordinatörünki 1350'ydi — yöntem farkı: kimlik-düzeyi zarf vs dönem
+  bazlı; ateşleme kararı AYNI).
+- ② SUSTU: uzak/eşzamansız 4 çift sessiz; kavalali↔turkmen "ÖLÇÜLEMEDİ"
+  bilgi satırında (yanlış alarm 0).
+
+YAN BULGU (RENK'e): Avrupa merge'ü komşu ΔE listesini değiştirdi — 71→72:
+YENİ hollanda↔ispanya ΔE **4,7** ve almanya↔papalik **9,3**; DÜŞEN
+fransa↔portekiz. Yeni noktalar komşuluk çizgesini değiştirdi; RENK'in
+mevcut-renk çakışma kuyruğuna iki aday daha.
+

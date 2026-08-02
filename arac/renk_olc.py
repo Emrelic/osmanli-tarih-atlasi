@@ -191,6 +191,62 @@ def ayni_anahtar():
     return ortusen, sessiz, paylasan, len(D)
 
 
+# ═══════════════ AYNI HEX — ayni_anahtar()'ın AYNADAKİ YÖNÜ ═══════════════
+# ayni_anahtar() "aynı anahtar + eşzamanlılık"ı yakalar; bu ise FARKLI
+# anahtarların AYNI HEX'i paylaşmasını. İkisi de ΔE 0 üretir ve ΔE taraması
+# ikisini de göremez (çift kurulmaz ya da fark sıfırdır). Vaka (2 Ağustos,
+# koordinatör ölçümü, bu araçla yeniden doğrulandı): trabzon-rum ↔ dulkadir
+# ikisi de #00838f, 1337-1350 arası eşzamanlı, en yakın noktaları ~312 km.
+#
+# ⚠️ EŞİK 600 km — türetimi (bir yerde, adıyla):
+#   ateşlemesi gereken çift 312 km'de, susması gereken en yakın meşru çift
+#   1.232 km'de (bosna↔ahiler). Geometrik orta √(312×1232) ≈ 620 → 600.
+#   Ve bağımsız dayanak: İş K ölçümünde peteğin soğurma erişimi P90 497 km —
+#   iki gövde arasında 600 km varsa arada başka devletin şeridi vardır,
+#   aynı ekranda bitişik görünmezler. Eşiğin altı + eşzamanlı = karışır.
+AYNI_HEX_ESIK_KM = 600.0
+
+
+def ayni_hex():
+    """(cakisan, olculemedi) — aynı hex'i paylaşan FARKLI anahtar çiftleri:
+    eşzamanlı VE 600 km'den yakınsa çakışma; nokta yoksa ÖLÇÜLEMEDİ (sessiz
+    geçilmez — 'ölçülemedi' ile 'temiz' aynı şey değildir)."""
+    gruplar = collections.defaultdict(list)
+    for a, (_, hx) in BOYALAR.items():
+        gruplar[hx.lower()].append(a)
+    Y = girdi.yukle(sessiz=True)
+    nokta = collections.defaultdict(list)
+    aralik = {}
+    for y in Y:
+        donemler = [(p.get("d"), p.get("f"), p.get("t"))
+                    for p in (y.get("s") or [])]
+        donemler += [(p.get("d"), p.get("f"), p.get("t"))
+                     for p in (y.get("v") or []) if p.get("d")]
+        for d, f, t in donemler:
+            if not (d and f and t):
+                continue
+            nokta[d].append((y["lat"], y["lon"]))
+            eski = aralik.get(d)
+            aralik[d] = (min(eski[0], f), max(eski[1], t)) if eski else (f, t)
+    cakisan, olculemedi = [], []
+    for hx, anahtarlar in sorted(gruplar.items()):
+        for a, b in itertools.combinations(sorted(anahtarlar), 2):
+            eksik = [k for k in (a, b) if k not in aralik]
+            if eksik:
+                olculemedi.append((hx, a, b, ", ".join(eksik)))
+                continue
+            fa, ta = aralik[a]
+            fb, tb = aralik[b]
+            if not (fa < tb and fb < ta):
+                continue                    # eşzamanlı değil: meşru, sus
+            d = min(girdi.km(p[0], p[1], q[0], q[1])
+                    for p in nokta[a] for q in nokta[b])
+            if d < AYNI_HEX_ESIK_KM:
+                cakisan.append((d, hx, a, b, max(fa, fb), min(ta, tb)))
+            # uzak + eşzamanlı: meşru paylaşım, sus
+    return cakisan, olculemedi
+
+
 # ═══════════════ DENETİM ═══════════════
 def denetle():
     k, n = komsuluk()
@@ -246,11 +302,27 @@ def denetle():
     if not ortusen:
         print("  yok")
 
+    hex_cak, hex_olc = ayni_hex()
+    print("\n" + "=" * 72)
+    print(f"AYNI HEX'İ PAYLAŞIP EŞZAMANLI VE {AYNI_HEX_ESIK_KM:.0f} KM'DEN "
+          f"YAKIN — {len(hex_cak)} çift (ΔE 0!)")
+    print("=" * 72)
+    for d, hx, a, b, f, t in sorted(hex_cak):
+        print(f"  {d:>6.0f} km  {a:<18} ↔ {b:<18} {hx}  "
+              f"örtüşme {f} → {t}")
+    if not hex_cak:
+        print("  yok")
+    for hx, a, b, kimde in hex_olc:
+        print(f"  i ÖLÇÜLEMEDİ: {a} ↔ {b} ({hx}) — canlı veride dönemi yok: "
+              f"{kimde} ('ölçülemedi' ≠ 'temiz')")
+
     print("\n" + "=" * 72)
     print("  " + ("✓ TEMİZ" if not gorunmez and not cakisan and not ortusen
+                  and not hex_cak
                   else f"🔴 {len(gorunmez)} görünmez · {len(cakisan)} çakışma"
-                       f" · {len(ortusen)} aynı-anahtar örtüşmesi"))
-    return gorunmez, cakisan, ortusen
+                       f" · {len(ortusen)} aynı-anahtar örtüşmesi"
+                       f" · {len(hex_cak)} aynı-hex çakışması"))
+    return gorunmez, cakisan, ortusen, hex_cak
 
 
 # ═══════════════ ÖNERİ — N kimliği BİRLİKTE ═══════════════
