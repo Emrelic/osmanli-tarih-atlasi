@@ -98,18 +98,20 @@ motorun kara-yolu Dijkstra'sının **alt sınırı**.
 
 ---
 
-## 3. KARAR ① — SIRA DEĞİŞTİ, kutu ÜÇÜNCÜ
+## 3. KARAR ① — SIRA (⚠️ §2c ile GÜNCELLENDİ, iki engel BİRE düştü)
 
 ```
-1. RENK PARTİSİ      15 Avrupa + İran zinciri (3-4) + Asya'nın 135'i
-                     renk_olc.py --oner ile BİRLİKTE, tek tek değil
-2. ADACIK KURALI     noktasız kara parçası ne olacak?
-                     boya / boş bırak / kasitli_bosluk — `bos:` şemasının vakası
-3. KUTU              ikisi bitince, TEK koşuda
+1. RENK PARTİSİ      Asya'nın 135'i        ← kutunun TEK kalan engeli
+2. KUTU              tek koşuda
 ```
+
+~~2. ADACIK KURALI~~ — **artık ön koşul değil.** `§2c` ölçtü: sorun bugün de
+var (27 parça / 2.751 km²), kutu onu **büyütüyor, yaratmıyor.** Ayrı ve
+zaten açık bir iş; hedef listesi `§7`'de hazır.
 
 📌 Ve bu, `§82.2`'nin uygulanmış hâli: *"sıralarken 'kaynağı hazır mı' kadar
-'MOTOR BU ŞEKLİ ÇİZEBİLİYOR MU' diye sor."* Sordum, cevap **bugün hayır.**
+'MOTOR BU ŞEKLİ ÇİZEBİLİYOR MU' diye sor."* Sordum, cevap **bugün hayır** —
+ama sebebi ikiden bire indi.
 
 ---
 
@@ -187,16 +189,21 @@ ikinci bir koşu             ≈ 105 dk + ikinci göç + ikinci denetim turu
 
 ---
 
-## 4b. KARAR ② — açılınca **TAM KUTU**, `lon142` değil
+## 4b. NİÇİN TEK SEFERDE — gerekçe (değer için `§4`'e bak)
 
 ```
-lon142 → TAM kutu farkı:   ~15 dk (90 → 105)
+lon142 → tam kutu farkı:   ~15 dk (90 → 105)
 ikinci bir koşu maliyeti:  ~105 dk + ikinci göç olayı + ikinci denetim turu
 ```
-⇒ **İki adımda açmak, tek adımda açmaktan yedi kat pahalı.** 24 Endonezya
-noktasını dışarıda bırakıp sonra ikinci kez açmanın hiçbir gerekçesi yok.
+⇒ **İki adımda açmak, tek adımda açmaktan yedi kat pahalı.**
 
-🔴 Açılacak değer: **`box(-12, -11, 142, 62)`**
+⚠️ **BU BÖLÜMDEKİ ESKİ DEĞER SİLİNDİ.** Burada bir ara `box(-12,-11,142,62)`
+yazıyordu; `§3c` kuzey kenarını ölçtükten sonra **`64`** oldu ve iki bölüm
+birbirini tutmuyordu. **Geçerli değer YALNIZ `§4`'te**, ve `§6` gereği
+**geçici** (Sahalin).
+
+📌 Bu dosyanın kendisi bugün *"iki otorite"* tuzağına düştü: aynı sayı iki
+bölümde durdu ve ayrıştı. Projede bu **dördüncü** vaka.
 
 ⚠️ Ve açılırken `denetle.py:980-981`'deki iki elle kopya (`_KARA_TOL`,
 `_DOGAL_GOL`) da kaynağa bağlanmış olmalı — İş B-2. Biri açıkken kutu
