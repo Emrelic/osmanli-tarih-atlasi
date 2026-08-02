@@ -470,3 +470,7 @@ Not: önerilen koordinatlar ADA ÜSTÜNDE temsil noktalarıdır (yaklaşık);
 veri oturumu yerleşim seçerken adanın tarihî merkezine kaydırmalı
 (ör. Palawan → Taytay; Sahalin → kutu içinde kalan kıyı; Riau → Bintan).
 
+---
+
+⏳ başladım: İş M — dört kenar kara kütlesi bölüyor mu + 145 uzatma maliyeti — 2026-08-02 18:00
+
