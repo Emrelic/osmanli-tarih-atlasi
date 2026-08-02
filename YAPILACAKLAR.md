@@ -137,6 +137,43 @@ altındaki veri (kimlik, tarih, konum) sağlam olmadan ansiklopedi de yanlış o
 
 ## Şimdi (harita ekseni)
 
+- [ ] 🆕 **KRONOLOJİ ARAMA KUTUSU** *(kullanıcı isteği, 2 Ağustos)*
+      Kronoloji sütununun **tepesine** bir metin kutusu. Yazılan kelime
+      kronolojide aranır; *"5 tane Belgrad bulursa"* **ileri tuşuyla** bulunanlar
+      arasında sırayla gezilir.
+
+      **ÖLÇÜLDÜ — altyapı hazır, iş küçük:**
+      ```
+      index.html:60   <section id="olay-akisi"> · <h2> · #olay-sayac · #olay-listesi
+      app.js:1908     olaylar.forEach → her satır için div, olayDom[] dizisinde
+      app.js:1937     🟢 SÜZGEÇ ALTYAPISI ZATEN VAR — ve doğru kurulmuş:
+                      "SÜZME = GİZLEME, SİLME DEĞİL. olaylar dizisine
+                       dokunulmuyor; yalnız satıra .suzuldu sınıfı biniyor."
+      ```
+      ⇒ Arama **aynı deseni** kullanmalı: dizi süzülmez, satıra sınıf binerdi.
+      🔴 Sebep dosyanın kendi yorumunda yazılı: *"zaman göstergesi, ikili arama,
+      'şimdiki' vurgusu ve harita senkronu hepsi İNDEKS üzerinden çalışıyor.
+      Diziyi süzseydik bütün indeksler kayardı."*
+
+      **İstenen davranış:**
+      ```
+      · kutuya yazılınca eşleşen satırlar VURGULANIR (gizlenmez — bağlam kalsın)
+      · sayaç:  "Belgrad — 5 sonuç, 2/5"
+      · ileri ⏭ / geri ⏮  sonuçlar arasında gezer
+      · gezilen sonuca gidince tarihAyarla(o.gi) çağrılır ⇒ HARİTA DA GİDER
+        (app.js:1921'de satır tıklamasının yaptığı şeyin aynısı)
+      · Enter = ileri · Esc = aramayı temizle
+      ```
+      ⚠️ **Türkçe arama tuzağı:** `toLowerCase()` Türkçede `I/ı` ve `İ/i`'yi
+      yanlış eşler. *"Istanbul"* yazan *"İstanbul"*u bulamaz.
+      ⇒ Karşılaştırma `localeCompare`/`toLocaleLowerCase("tr")` ile, ve
+      aksan/şapka normalleştirmesi (`â→a`, `î→i`) düşünülmeli.
+      📌 Bu, sitede **arama olmadığı için bugüne kadar hiç çıkmamış** bir
+      sınıf — ilk arama kutusu onu getirecek.
+
+      ⚠️ `js/app.js` ve `index.html` **ARAYÜZ'ün dosyaları** (`CLAUDE.md §7`).
+      Şartname hazır; bir ARAYÜZ oturumu açıldığında tek turda biter.
+
 - [ ] 🆕 **DEVLET KÜNYESİ — her devletin kimlik kartı** *(kullanıcı isteği, 2 Ağustos)*
       Her devlet kaydı; **ne zaman kuruldu · başkenti · kurucusu · kaç hükümdarı
       oldu · hangi millet · hangi din · hangi mezhep** gibi temel bilgileri
