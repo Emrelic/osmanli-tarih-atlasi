@@ -646,3 +646,7 @@ YENİ hollanda↔ispanya ΔE **4,7** ve almanya↔papalik **9,3**; DÜŞEN
 fransa↔portekiz. Yeni noktalar komşuluk çizgesini değiştirdi; RENK'in
 mevcut-renk çakışma kuyruğuna iki aday daha.
 
+---
+
+⏳ başladım: N1 DÜZELTMESİ — renk_olc.py KUTU zarfı BOLGE'den türesin (RENK bekliyor) — 2026-08-02 19:50
+
