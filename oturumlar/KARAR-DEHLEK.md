@@ -56,11 +56,50 @@ kimse bir daha açmazdı. Motorun kuralı burada da geçerli:
 
 ---
 
+## 2b. 🔴 EK DOĞRULAMA — ham metin alındı, ve ÖZETLEYİCİ BİR KELİME DÜŞÜRMÜŞ
+
+VERİ KİMLİK 2 kendi alıntılarının statüsünü işaretledi: TDV'ye `WebFetch`
+üzerinden ulaşmış, **ham sayfayı görmemiş**, ve *"kesintiyi kuran iki cümle
+tam da özetleyici ifadesi olanlar"* diye uyardı. ⇒ Koordinatör ikinci,
+bağımsız bir çekiş yaptı ve **birebir alıntı** istedi:
+
+> *"XII-XIV. yüzyıllarda Masavva' kendilerine sultan diyen **Dehlek
+> emîrlerinin** hâkimiyetinde bulunmakta ve yerli bir nâib tarafından
+> yönetilmekteydi."*
+>
+> *"Adanın XIV. yüzyılın sonunda **yine** Habeş topraklarına katıldığı, XVI.
+> yüzyılda ise tekrar Dehlek'in himaye ve kontrolüne girdiği
+> **anlaşılmaktadır**."*
+>
+> *"…**2 Cemâziyelâhir 964'te (2 Nisan 1557)** Özdemir Paşa tarafından
+> Osmanlı topraklarına katıldı."*
+
+**Kesinti GERÇEK** — özetleyici uydurmamış. Ama iki kelime düşmüş ve ikisi de
+hükmü değiştiriyor:
+
+**① `anlaşılmaktadır`** — TDV **iddia etmiyor, ÇIKARIM yapıyor.** Özet bunu
+düz bir olgu cümlesine çevirmiş.
+⇒ Kesintinin **varlığı KESİN değil, DESEN.** Güç etiketi düşürüldü.
+
+**② `yine`** — *"yine Habeş topraklarına katıldığı"*. Yani Masavva **daha
+önce de** Habeş'in olmuş. Manzara üç dönemli değil, **dönüşümlü**; XII-XIV
+Dehlek evresi zincirin başı bile olmayabilir.
+
+📌 Ve dersin kendisi: özetleyici katman **içeriği** korudu, **kipliği**
+düşürdü. Kaybolan şey olgu değil, *"bu bir çıkarımdır"* uyarısıydı — yani
+tam da güç etiketinin dayandığı bilgi. **Özet, bilginin kendisini değil
+GÜVENİLİRLİĞİNİ siliyor.**
+
+⇒ Karar (yazılmıyor) **değişmiyor, güçleniyor**: kaynak kendi hedge'ini
+koyuyor.
+
+---
+
 ## 3. NE KESİN, NE DEĞİL — güç etiketleriyle
 
 ```
 t: 1557-04-02 Osmanlı fethi        KESİN   TDV, hicrî+milâdî, gün düzeyinde
-kesintinin VARLIĞI                 KESİN   TDV üç dönem sayıyor
+kesintinin VARLIĞI                 DESEN   TDV 'anlaşılmaktadır' diyor (çıkarım)
 kesintinin SINIRLARI               ZAYIF   "XIV. yy sonu" · "XVI. yy"
 f: (kuruluş)                       YOK     TDV yalnız yüzyıl veriyor
                                            ("III./IX." ve "VI./XII." yy)
