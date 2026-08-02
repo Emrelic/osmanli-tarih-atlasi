@@ -364,6 +364,115 @@ eşik dayatmak anlamsız. ⇒ **Doğru kısıt bölgesel:** her coğrafi küme k
 içinde karşılıklı, kümeler arası yalnız komşuluk. Kümeleri zarf düzelince
 ölçeceğim.
 
+### 🔴 ZARF "DÜZELTİLDİ" AMA DEĞER DEĞİŞMEDİ — doğrulandı
+
+Koordinatör *"zarf düzeldi, Asya'ya dönebilirsin"* dedi. **Ölçtüm, düzelmemiş:**
+
+```
+renk_olc.py:76   KUTU = box(_b[0]-13, _b[1]-6.5, _b[2]+13, _b[3]+10)
+uret_petek.py    BOLGE = box(-12, 1.5, 62, 62)
+⇒ KUTU.bounds = (-25.0, -5.0, 75.0, 72.0)
+⇒ ESKİ ELLE YAZILMIŞ DEĞERİN BİREBİR AYNISI
+```
+MOTOR 2'nin işi **yapısal olarak doğru** — elle kopya silindi, kutu açılınca
+otomatik izleyecek. Ama **sayı değişmedi**; Asya lon 141,35'e gidiyor.
+
+📌 **Ders: "düzeltildi" bir DURUM bildirimi, DEĞER bir ÖLÇÜMDÜR.** İkisi ayrı
+şey ve ikincisi doğrulanmadan birincisine güvenilmez — §B10'un araç sürümü.
+⚠️ Sonuç: `renk_olc.denetle()` Asya çakışmalarını **BOLGE açılana kadar
+göremez**, ve BOLGE açılması bu renklere bağlı ⇒ **tavuk-yumurta.** Kabul
+ölçütü buna göre kurulmalı: aracın "temiz" demesi Asya için delil değil.
+
+### Ölçüm — kendi zarfımla (`box(-25,-10,155,75)`), `arac/*.py`'ye dokunmadan
+
+```
+canlı 1235 + asya 344 = 1579 nokta · ad çakışması 0
+komşuluk (renksiz 135 arasında)   672 kenar
+  en yüksek derece 41 (babur-imparatorlugu) · ortanca 8 · komşusuz 0
+  renkli komşusu olan 80/135 · en çok renkli komşu 10
+
+🔴 KROMATİK SAYI (DSATUR) : 7
+```
+
+**135 kimlik için gereken ayrı renk: YEDİ.**
+Eşzamanlılık tavanı 69'du; komşuluk ekseni **62 düşürdü**
+(6.640 eşzamanlılık kenarının yalnız **672**'si gerçek komşuluk).
+Dosya başındaki eski ölçümle tutarlı: 261 kimlik → 8 renk.
+
+⇒ **Parti 3'ün şekli değişti:** bu "135 hex üret" işi değil, "7 renk sınıfı
+ata, 80 kimliğin renkli komşu kısıtlarına uy" işi.
+
+### Ve `trabzon-rum` testi 135 kimliğe uygulandı
+
+Aynı renk sınıfına düşen çiftler komşu **değil** — ama yakın olabilirler.
+Ölçtüm (eşzamanlı + 600 km, MOTOR 2'nin dedektör eşiği):
+
+```
+56 çift riskli — 7'si 0 km (aynı yerleşimi paylaşıyorlar):
+  afgan-durrani ↔ ingiliz-hindistani · babur-imparatorlugu ↔ delhi-sultanligi
+  behmeni ↔ berar · delhi-sultanligi ↔ pandya · hanthawaddy ↔ ingiliz-hindistani
+  karnatik ↔ nayak-devletleri · nguyen-beyligi ↔ nguyen-hanedani
+
+⇒ 600 km kuralı KENAR sayılıp yeniden boyandı: YİNE 7 RENK
+```
+✅ **Sonuç sağlam:** görsel yakınlık kuralı eklense bile 7 yetiyor. Yani
+`trabzon-rum` sınıfı risk Asya'da renk sayısını artırmıyor, yalnız **hangi
+kimliğin hangi sınıfa gireceğini** değiştiriyor.
+
+⚠️ Ölçümün gevşekliğini kaydediyorum: `eşzamanlı` ve `yakın` bağımsız
+kontrol ediliyor (A'nın P noktası ile B'nin Q noktası yakın **ve** A'nın bir
+dönemi B'nin bir dönemiyle örtüşüyor — ama aynı nokta-dönem çifti olmak
+zorunda değil). Yani 56 sayısı **fazla saymadır**; ve fazla saymayla bile 7
+tutuyor ⇒ hüküm güçleniyor, zayıflamıyor.
+
+### ✅ YAZILDI — 37/135, SIFIR YENİ HEX
+
+Liste boyama koştu: her kimliğe kendi renkli komşularından ΔE≥12 olan mevcut
+palet renkleri aday, çatışma çizgesi (komşuluk ∪ 600 km yakınlık) kısıt.
+
+```
+135/135 atandı · çözülemeyen 0 · ΔE<12 ihlali 0
+kullanılan farklı palet rengi: 11
+🔴 PALET BÜYÜMESİ: 0 yeni hex — 167 kimlik, 125 farklı hex
+```
+
+**Ama yalnız 37'si yazıldı.** Sebep: `BOYALAR` girdisi `(ad, hex)` çifti ister
+ve 135'in **yalnız 37'sinin `devletler.js`'te kaydı var.** Kalan 98 için ad
+üretmek slug düzeltmek demekti — *"Bengal Sultanligi"*, *"Cin Cumhuriyeti"* —
+bozuk Türkçe, üstelik **haritanın lejantında** görünecek. **Ad uydurulmadı.**
+⇒ 98'lik kalan bir `devletler.js` KAYIT işi; bu oturumun yetkisi yalnız
+`harita:` alanı. Renkleri ölçülmüş ve hazır, kayıtlar gelince tek adımda girer.
+
+### 🔴 VE DENETİM BENİ YAKALADI — süzgeç eksikti
+
+İlk yazımda `görünmez` 13 → **14** çıktı. Sebep bendeydi: aday süzgecim
+*"renkli komşulardan ΔE≥12"* uyguluyordu ama **altlıktan görünürlüğü (≥15)
+şart koşmuyordu.** `babur-imparatorlugu` — Bâbürlü İmparatorluğu, Asya'nın en
+büyük gövdelerinden biri — `yemen`'in sınırdaki rengini (`#b5a05b`, altlıktan
+tam 15,0) miras aldı.
+
+Düzeltildi: `#0288d1` (`darfur` ile paylaşımlı), altlıktan **34,6**.
+⚠️ Kırmızı aile adayları (`mehmed-celebi` · `musa-celebi`) elendi — Fetret
+payları Osmanlı ailesindendir.
+
+📌 **Ders: liste boyamada aday süzgeci, tekil rengin BÜTÜN kabul ölçütlerini
+taşımalı.** Komşudan ayrışma yetmiyor; görünürlük de kabul ölçütü ve onu
+süzgece koymadığım için ihlal ancak denetimde çıktı.
+
+### Nihai durum
+
+```
+py arac/renk_olc.py   →  1235 nokta · 167 kimlik
+  görünmez             13   (Asya öncesiyle AYNI)
+  komşu çakışması      66   (Asya öncesiyle AYNI)
+  aynı-hex çakışması    0
+  aynı-anahtar          1   (afsar↔kacar — VERİ işi)
+  aktarım 37/37 birebir · çatışma çizgesinde ihlal 0
+```
+📌 Çıktıdaki çok sayıda `ÖLÇÜLEMEDİ` satırı **ihlal değil**: aynı-hex
+dedektörü, canlı veride dönemi olmayan kimlikler için doğru biçimde
+*"ölçülemedi ≠ temiz"* diyor. Asya girdiye alınınca ölçülebilir hâle gelecek.
+
 ---
 
 ## 5. ESKİ §4 — PARTİ 3 notu (aşıldı)

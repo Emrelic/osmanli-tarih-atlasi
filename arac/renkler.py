@@ -555,4 +555,102 @@ BOYALAR = {
     # Kızıl-magenta `kazak-hanligi` ile menekşe-mavi `zaporojye` tonca da
     # karıştırılamaz — kullanıcının istediği ayrım budur.
     "zaporojye":     ("Zaporojye Kazak Hetmanlığı", "#8c92fe"),
+
+    # ═══════════ ASYA PARTİSİ — 37/135 (RENK oturumu, 2 Ağustos 2026) ═══════════
+    # 🔴 SIFIR YENİ HEX. Palet BÜYÜMÜYOR — hepsi mevcut renklerin paylaşımı.
+    # Dosya başı kuralı: "bir rengi birden çok devletin paylaşması sorun
+    # değildir, yeter ki o devletler tarih boyunca hiç komşu olmasın."
+    #
+    # ── ÖLÇÜM: "135 kimlik = 135 renk mi?" — HAYIR ──────────────────────────
+    #   yerlesimler_asya.js  344 nokta · 147 kimlik · renksiz 135
+    #   eşzamanlılık çizgesi     6.640 kenar · aynı anda en çok 69 kimlik (1514)
+    #   GERÇEK KOMŞULUK             672 kenar   ⇒ kromatik sayı 7
+    #   + 600 km görsel yakınlık kuralı kenar sayılınca ⇒ YİNE 7
+    #   liste boyama (her kimlik kendi renkli komşularından ΔE≥12) ⇒ 11 renk
+    #   135/135 atandı · çözülemeyen 0 · ΔE<12 ihlali 0
+    # 📌 Zaman tavanı 69'du; komşuluk ekseni 62 düşürdü. Dosya başındaki eski
+    #   ölçümle tutarlı (261 kimlik → 8 renk): yeni kimlikler grafiği
+    #   yoğunlaştırmıyor, GENİŞLETİYOR.
+    #
+    # ── ⚠️ ZARF UYARISI — bu ölçüm renk_olc.py ile TEKRARLANAMAZ ────────────
+    #   renk_olc.KUTU = BOLGE(-12,1.5,62,62) + paylar = (-25,-5,75,72)
+    #   Asya lon 65,71..141,35 ⇒ 344 noktanın 302'si (%88) zarfın DIŞINDA.
+    #   Ölçüm scratchpad'de box(-25,-10,155,75) ile yapıldı; arac/*.py'ye
+    #   dokunulmadı. `renk_olc.denetle()` Asya çakışmalarını BOLGE açılana
+    #   kadar GÖREMEZ — aracın "temiz" demesi bu 37 için DELİL DEĞİLDİR.
+    #   🔴 KUTU AÇILDIKTAN SONRA YENİDEN DOĞRULANACAK. Ertelenmiş doğrulama,
+    #      atlanmış doğrulama değildir — ama ancak YAZILIRSA. Yazıldı.
+    #
+    # ── ① EKSİK, GÖVDE BEKLENMİYOR ─────────────────────────────────────────
+    #   yerlesimler_asya.js girdi.py'nin izin listesinde DEĞİL ⇒ bu 37 kimlik
+    #   bugün hiçbir nokta boyamaz. uret_petek.py:1564 gövdesi olmayan kimliği
+    #   tamamen ATLIYOR, yani üretim maliyeti de sıfır. "Niye çizilmedi" diye
+    #   ARANMASIN — veri gelince hazır olsun diye.
+    #
+    # ── 🔴 NEDEN 135 DEĞİL 37: 98 KİMLİĞİN ADI YOK ─────────────────────────
+    #   Renk ataması 135'in 135'i için ÇÖZÜLDÜ ve doğrulandı. Ama BOYALAR
+    #   girdisi (ad, hex) çifti ister ve 135'in yalnız 37'sinin `devletler.js`de
+    #   kaydı var. Kalan 98 için ad üretmek slug'ı düzeltmek demekti —
+    #   "Bengal Sultanligi", "Cin Cumhuriyeti" gibi bozuk Türkçe, üstelik
+    #   haritanın LEJANTINDA görünecek. Ad uydurulmadı.
+    #   ⇒ 98'lik kalan bir `devletler.js` KAYIT işidir (bu oturumun yetkisi
+    #     yalnız `harita:` alanı). Renkleri ölçülmüş ve hazır; kayıtlar
+    #     gelince tek adımda girer.
+    # ── #6ba0a0 ile paylaşımlı (zeyyani) · 7 kimlik
+    "abd":                     ("Amerika Birleşik Devletleri",       "#6ba0a0"),
+    "ayutthaya":               ("Ayutthaya Krallığı (Siyam)",        "#6ba0a0"),
+    "edo-bakufu":              ("Edo (Tokugawa) Şogunluğu",          "#6ba0a0"),
+    "kamakura":                ("Kamakura Şogunluğu (Japonya)",      "#6ba0a0"),
+    "maratha":                 ("Maratha Konfederasyonu",            "#6ba0a0"),
+    "muromachi":               ("Muromachi (Ashikaga) Şogunluğu",    "#6ba0a0"),
+    "siyam-chakri":            ("Siyam Krallığı (Rattanakosin / Chakri Hanedanı)", "#6ba0a0"),
+    # ── #636f03 ile paylaşımlı (siena) · 5 kimlik
+    "behmeni":                 ("Behmenî Sultanlığı (Dekken)",       "#636f03"),
+    "qing-hanedani":           ("Qing Hanedanı (Mançu)",             "#636f03"),
+    "sulu-sultanligi":         ("Sulu Sultanlığı",                   "#636f03"),
+    "toungoo":                 ("Toungoo Hanedanı (Birmanya)",       "#636f03"),
+    "yuan-hanedani":           ("Yuan Hanedanı (Moğol Çin)",         "#636f03"),
+    # ── #7b1fa2 ile paylaşımlı (sidamo) · 5 kimlik
+    "brunei-sultanligi":       ("Brunei Sultanlığı",                 "#7b1fa2"),
+    "cungar":                  ("Cungar Hanlığı (Kalmuk)",           "#7b1fa2"),
+    "konbaung":                ("Konbaung Hanedanı (Birmanya)",      "#7b1fa2"),
+    "ryukyu":                  ("Ryukyu Krallığı",                   "#7b1fa2"),
+    "yakub-beg":               ("Doğu Türkistan (Yâkub Bey Kâşgar Emirliği)", "#7b1fa2"),
+    # ── #00695c ile paylaşımlı (yugoslavya) · 5 kimlik
+    "goryeo":                  ("Goryeo Hanedanı (Kore)",            "#00695c"),
+    "hollanda-dogu-hint":      ("Hollanda Doğu Hint Adaları",        "#00695c"),
+    "joseon":                  ("Joseon Hanedanı (Kore)",            "#00695c"),
+    "majapahit":               ("Majapahit İmparatorluğu (Cava)",    "#00695c"),
+    "sih-imparatorlugu":       ("Sih İmparatorluğu (Pencap)",        "#00695c"),
+    # ── #2d8f4a ile paylaşımlı (taceddin) · 4 kimlik
+    "ace-sultanligi":          ("Açe Sultanlığı (Sumatra)",          "#2d8f4a"),
+    "malaka-sultanligi":       ("Malaka Sultanlığı",                 "#2d8f4a"),
+    "meiji-japonya":           ("Meiji ve Sonrası Japonya İmparatorluğu", "#2d8f4a"),
+    "ming-hanedani":           ("Ming Hanedanı",                     "#2d8f4a"),
+    # ── #b34da5 ile paylaşımlı (saruhan) · 4 kimlik
+    "mataram-sultanligi":      ("Mataram Sultanlığı (Cava)",         "#b34da5"),
+    "meysur":                  ("Meysûr Sultanlığı (Haydar Ali / Tipu Sultan)", "#b34da5"),
+    "nguyen-hanedani":         ("Nguyễn Hanedanı (Vietnam)",         "#b34da5"),
+    "tibet-ganden-phodrang":   ("Tibet (Dalai Lama Hükûmeti, Ganden Phodrang)", "#b34da5"),
+    # ── #00acc1 ile paylaşımlı (turkmen) · 3 kimlik
+    "delhi-sultanligi":        ("Delhi Sultanlığı",                  "#00acc1"),
+    "ingiliz-hindistani":      ("İngiliz Hindistanı (Şirket ve Taç Dönemi)", "#00acc1"),
+    "ingiliz-malaya":          ("İngiliz Malaya",                    "#00acc1"),
+    # ── #8d6e63 ile paylaşımlı (timurlu) · 2 kimlik
+    "kamboc-kralligi":         ("Kamboçya Krallığı (Post-Angkor)",   "#8d6e63"),
+    "vijayanagara":            ("Vijayanagara İmparatorluğu",        "#8d6e63"),
+    # ── #0288d1 ile paylaşımlı (darfur) · 1 kimlik
+    # 🔴 DÜZELTME: önce `yemen` #b5a05b atanmıştı ve DENETİM YAKALADI —
+    # görünmez sayısı 13→14 çıktı. Sebep bendeydi: atama süzgecim adayları
+    # "renkli komşulardan ΔE≥12" ile eliyordu ama ALTLIKTAN GÖRÜNÜRLÜĞÜ
+    # (≥15) şart koşmuyordu. #b5a05b altlıktan tam 15,0 — sınırda ve eşiğin
+    # altında. Bâbürlü, Asya'nın en büyük gövdelerinden biri; görünmez renk
+    # kabul edilemez. Yeni hâl altlıktan 34,6.
+    # ⚠️ Kırmızı aile adayları (mehmed-celebi #f90c15 · musa-celebi #e14e5a)
+    #   ELENDİ: Fetret payları Osmanlı ailesindendir, yabancı devlete verilmez.
+    # 📌 Ders: liste boyamada aday süzgeci, tekil rengin BÜTÜN kabul
+    #   ölçütlerini taşımalı — komşudan ayrışma yetmiyor, görünürlük de şart.
+    "babur-imparatorlugu":     ("Bâbürlü (Timurlu-Hint) İmparatorluğu", "#0288d1"),
+    # ── #6b4a7d ile paylaşımlı (safevi) · 1 kimlik
+    "le-hanedani":             ("Lê Hanedanı (Đại Việt)",            "#6b4a7d"),
 }
