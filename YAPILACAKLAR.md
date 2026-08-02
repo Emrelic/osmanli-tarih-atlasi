@@ -222,10 +222,10 @@ altındaki veri (kimlik, tarih, konum) sağlam olmadan ansiklopedi de yanlış o
       Sıra: ① şema kararı (pencereli alanlar) → ② `hukumdar_sayisi` üreticisi
       → ③ özetlerden çıkarım + kaynak doğrulaması → ④ ARAYÜZ künye paneli
 
-- [ ] 🔴 **KOŞU BİTER BİTMEZ — ISPARTA (tek satır, gerekçesi hazır)**
+- [x] ✅ **ISPARTA — YAPILDI (`47aa386`, 3 Ağustos 2026)**
       ```
       data/yerlesimler.js  ·  Isparta
-      hamid dönemi:  t:"1381-06-01"  →  t:"1391-01-01"
+      hamid dönemi:  t:"1381-06-01"  →  t:"1391-01-01"   ✅ yazıldı
       ```
       Komşuları (Burdur · Eğirdir · Uluborlu) zaten `1391-01-01`; Isparta on yıl
       erken bittiği için **enklav görünüyor.**
@@ -243,6 +243,39 @@ altındaki veri (kimlik, tarih, konum) sağlam olmadan ansiklopedi de yanlış o
       ⇒ "Karar verildi" ile "uygulandı" ayrı olaylar; ikincisi yazılmazsa
       birincisi buhar oluyor. Sicil (`kutu/SICIL.md`) bunun için kuruldu ve
       `✅ ÇÖZÜLDÜ` hükmü artık **commit numarası** olmadan yazılamıyor.
+      ✅ **Ve bu kez uygulandı** — sicil `S-011` commit numarasıyla kapandı.
+
+- [x] ✅ **IRAK / ARABİSTAN `iran` TEMİZLİĞİ — YAPILDI (`47aa386`)**
+      Kullanıcının kendi gözlemi (`parti-0001/H-0001`): *"Arabistan
+      yarımadasında da iran diye bölgeler var."* Doğruydu.
+      ```
+      Irak       33 nokta · 38 dönem   iran → ilhanli · celayirli
+                                              karakoyunlu · akkoyunlu · safevi
+      D. Arabistan 4 nokta             iran → usfuri (1281-1417)
+                                              cebri  (1417-1524)
+      Umman kıyısı 2 nokta             iran → nebhani (1281-1515)
+      ```
+      Zincirin duvarları zaten projenin **kendi** Tikrit kaydında duruyordu;
+      eksik olan yalnız kutunun adıydı. Yeni kimlik 4, hiçbir borç artmadı
+      (`2s` 119, `2t` 52, sahipsiz 50, çakışma 56 — hepsi r690 ile aynı).
+      `iran` dönemi **326 → 282.**
+
+- [ ] 🔵 **İRAN ÇEKİRDEĞİ — hânedan bölünmesi (kullanıcının asıl sorusu)**
+      Kullanıcının sözü: *"Safevî, Afşar, Kaçar, Zend… hepsi birbirini takip
+      ediyor, aralarının hiç kesişim kümesi olmaması gerekiyor."* **Haklı.**
+      ```
+      kalan `iran` dönemi     282  (176 → 138 nokta)
+      1281-1393  ilhanli sonrası: muzafferi · celayirli · timurlu
+      1736-1923  afsar · zend · kacar   ← ŞU AN HEPSİ TEK `iran` KUTUSUNDA
+      ```
+      ⚠️ **Renk engeli var ve adı konmalı:** `afsar` · `zend` · `kacar`
+      devletler.js'te VAR ama `harita:"iran"` paylaşıyorlar — `BOYALAR`'da
+      kendi anahtarları YOK. Yani veriyi bölmek **tek başına yetmez**, üç
+      yeni boya da gerekir; yoksa motor boyayamaz.
+      📌 Ölçüm bunu zaten söylüyor: `renk_olc.py` aynı-anahtar denetimi
+      `afsar ↔ kacar` çiftini ateşliyor ve **bu veri bölünmeden sönmeyecek.**
+      🔴 Basra'nın `1776-1779 iran` dönemi (Kerim Han Zend işgali) bu işin
+      parçası — bilerek bırakıldı, `zend` boyası gelince onunla düzelir.
 
 - [ ] **Değişmez 2s borcu 119 → 121 — KABUL EDİLDİ, defteri burası.**
       `ortaasya2` canlıya alınınca (`27e234c`) iki kırılma maddesiz kaldı:
