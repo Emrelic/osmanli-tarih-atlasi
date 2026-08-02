@@ -363,3 +363,18 @@ Düzeltmek tek geçişlik iş (aynı anahtarı paylaşan kayıtlar arasında tar
 örtüşmesi taraması) ama `renk_olc.py` MOTOR'un sahası — **teklif ettim,
 dokunmadım.**
 
+### ✅ VE KÖRLÜĞÜN BOYUTUNU ÖLÇTÜM — tek vaka, küme yok
+Bütün dizini bu sınıf için taradım (salt okuma):
+```
+harita: dolu kayit    125
+kullanilan anahtar    112      -> 13 anahtar birden cok kayitta paylasiliyor
+AYNI ANAHTAR + ESZAMANLI:  1 cift
+    7 yil  'iran'  afsar x kacar   1789-03-21 -> 1796-01-01
+```
+⇒ **`afsar`/`kacar` yalnız.** Denetim körlüğü gerçek ama arkasında saklı bir
+küme **yok** — düzeltme tek kalemlik.
+📌 Ve bu, bugünkü `sirbistan`/`merini` yaklaşımının da doğrulaması: **13
+anahtar birden çok kayıt tarafından paylaşılıyor** ve biri hariç hepsi
+ardışık/örtüşmesiz. Yani "halef aynı anahtarı alır" konvansiyonu dizinde
+yerleşik ve doğru uygulanmış; tek istisna İran zinciri.
+
