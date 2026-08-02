@@ -21,7 +21,29 @@ durum tablosunu güncelle.
 > İkisi de meşru ama **ayrı ürünler** — ve ikincisi birincinin üstüne kurulur.
 > ⚠️ Sıra karışırsa harita yarım kalır, ansiklopedi de dayanaksız olur.
 
-## 🔴 HEPSİNİ BAĞLAYAN İKİ KURAL — kullanıcının kendi koyduğu
+## 🔴 HEPSİNİ BAĞLAYAN ÜÇ KURAL — kullanıcının kendi koyduğu
+
+**⓪ KISA OLACAK.** Kullanıcının sözü: *"basit birer metin ile okuyucuyu
+sıkmadan; bu uzun uzun maddeler olmayacak."*
+🔴 **Bu bir üslup tercihi değil, KAPSAM KARARIDIR** ve üç şeyi birden
+değiştirir:
+```
+· künye bir ANSİKLOPEDİ MADDESİ değil, bir KARTVİZİT
+· galeri metni görselin ALTINDAKİ İKİ SATIR — makale değil
+· savaş şeması GÖRSEL anlatır; yanındaki metin yalnız okutur
+```
+📌 Ve ölçüm bunu destekliyor: `ozet` alanının **ortancası 175 karakter**,
+%68'i 200'ün altında. Yani **doğru uzunluk zaten kurulu** — yeni alanlar da
+o ölçüde kalmalı.
+> *"Mohaç sonrası Macar tacını alan Habsburg hanedanı; üç asır boyunca
+> Osmanlı'nın Orta Avrupa'daki ana rakibi, sonunda Avusturya-Macaristan
+> olarak I. Dünya Savaşı'nda dağıldı."* — 172 karakter. **Hedef bu.**
+
+⚠️ Ve bu kural işi **ucuzlatıyor**: kısa metin daha az kaynak taraması, daha
+az çeviri, daha az bakım demek. Uzun madde yazmak yalnız pahalı değil, aynı
+zamanda **eskiyen** bir şeydir.
+
+## 🔴 ÖTEKİ İKİ KURAL
 
 **① İSTENİNCE YÜKLENİR.** Kullanıcının sözü: *"bu tip veriler her harita
 yüklendiğinde browsere yüklenmeyecektir, ilgili galeriye kullanıcının girmesi
