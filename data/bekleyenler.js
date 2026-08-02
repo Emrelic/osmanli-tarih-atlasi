@@ -15,21 +15,15 @@ window.BEKLEYENLER = {
    ],
    "satir": [
     [
-     "B4",
-     "ClaudEmre için GitHub deposu aç. gh kurulu değil, ben açamıyorum. Ad: ClaudEmre, private öneriyorum. Açınca söyle, push'layayım",
-     "depo senin hesabında",
-     "2 dk"
-    ],
-    [
-     "B6",
-     "🔴 KARAR: kacar da safevî ailesinden mi? Kararın \"afsar/zend, safevî ile aynı renk ailesi, farklı parlaklık\" idi — kacarı adıyla saymadın. Bugün afsar ve kacar aynı rengi (#b5885b) paylaşıyor ve 7 yıl eşzamanlılar (1789-1796) ⇒ o yıllarda haritada ayırt edilemiyorlar. Bu her hâlükârda kusur; sorum yalnız kacarın rengi mor aileden mi olsun, ayrı mı",
-     "kural senin",
+     "B5",
+     "🔴 RENK oturumunu aç — EN GÜÇLÜ MODEL. Bugün açılacak TEK oturum. Brifing: oturumlar/MOTOR-KAPILAR.md Kapı B + oturumlar/KARAR-KIMLIKLER-JS.md. Kapsamı: 15 Avrupa rengi (235 nokta açar) + İran zinciri + Asya'nın 135'i. Üçü de tek partide ölçülmeli; bitişik devletler tek tek çözülemez",
+     "oturum açmak sende",
      "1 dk"
     ],
     [
-     "B7",
-     "Tarih çatışması oturumu aç — kimlikler.js ile devletler.js altı tarihte ayrışmış, en büyüğü rodos-sovalyeleri'nde 275 yıl. Kararı verilmeden kimlikler.js emekli edilemez. Brifing: oturumlar/KARAR-KIMLIKLER-JS.md §2",
-     "oturum açmak sende",
+     "B6",
+     "❓ KARAR: kacar da safevî ailesinden mi? Kararın \"afsar/zend, safevî ile aynı renk ailesi, farklı parlaklık\" idi — kacarı adıyla saymadın, ve Kaçar 134 yıl sürmüş ayrı bir çağ. Tek sorum bu. (afsar–kacar çakışması cevabından bağımsız olarak düzeltilecek.)",
+     "kural senin, zevk senin",
      "1 dk"
     ]
    ]
@@ -115,10 +109,10 @@ window.BEKLEYENLER = {
   }
  },
  "ozet": {
-  "bekleyen_acik": 3,
+  "bekleyen_acik": 2,
   "gorsel_acik": 0,
   "karar_acik": 1,
   "istege_bagli": 1,
-  "toplam_acik": 4
+  "toplam_acik": 3
  }
 };

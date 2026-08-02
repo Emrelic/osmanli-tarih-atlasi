@@ -16,11 +16,11 @@ oturum açmaktan geçiyor ve **oturum açmayı koordinatör yapamaz.**
 
 | # | iş | niçin sen | süre |
 |---|---|---|---|
-| **B4** | **ClaudEmre için GitHub deposu aç.** `gh` kurulu değil, ben açamıyorum. Ad: `ClaudEmre`, **private** öneriyorum. Açınca söyle, push'layayım | depo senin hesabında | 2 dk |
-| **B6** | 🔴 **KARAR: `kacar` da safevî ailesinden mi?** Kararın *"`afsar`/`zend`, `safevî` ile aynı renk ailesi, farklı parlaklık"* idi — **`kacar`ı adıyla saymadın.** Bugün `afsar` ve `kacar` **aynı rengi** (`#b5885b`) paylaşıyor ve **7 yıl eşzamanlılar** (1789-1796) ⇒ o yıllarda haritada ayırt edilemiyorlar. Bu her hâlükârda kusur; sorum yalnız **`kacar`ın rengi mor aileden mi olsun, ayrı mı** | kural senin | 1 dk |
-| **B7** | **Tarih çatışması oturumu aç** — `kimlikler.js` ile `devletler.js` **altı tarihte** ayrışmış, en büyüğü `rodos-sovalyeleri`'nde **275 yıl**. Kararı verilmeden `kimlikler.js` emekli edilemez. Brifing: `oturumlar/KARAR-KIMLIKLER-JS.md §2` | oturum açmak sende | 1 dk |
+| **B5** | 🔴 **RENK oturumunu aç — EN GÜÇLÜ MODEL. Bugün açılacak TEK oturum.** Brifing: `oturumlar/MOTOR-KAPILAR.md` Kapı B + `oturumlar/KARAR-KIMLIKLER-JS.md`. Kapsamı: **15 Avrupa rengi** (235 nokta açar) + **İran zinciri** + **Asya'nın 135'i**. Üçü de tek partide ölçülmeli; bitişik devletler tek tek çözülemez | oturum açmak sende | 1 dk |
+| **B6** | ❓ **KARAR: `kacar` da safevî ailesinden mi?** Kararın *"`afsar`/`zend`, `safevî` ile aynı renk ailesi, farklı parlaklık"* idi — **`kacar`ı adıyla saymadın**, ve Kaçar 134 yıl sürmüş ayrı bir çağ. **Tek sorum bu.** (`afsar`–`kacar` çakışması cevabından bağımsız olarak düzeltilecek.) | kural senin, zevk senin | 1 dk |
 
-📌 **Hepsi birer dakikalık.** `B6` cevaplanmadan İran zinciri boyanamaz.
+📌 **Bugün senden bunlar.** `B5` açılmazsa harita ilerlemez; `B6` cevaplanmazsa
+İran zinciri boyanamaz. Gerisini ben hallediyorum.
 
 ---
 
