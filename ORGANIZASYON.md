@@ -859,3 +859,43 @@ git -C "<mutlak yol>" log --oneline -1     # beklenen commit mi?
 ⚠️ **Çalışan bir oturumu taşıma.** Bağlamı gider, kazancı yoktur: mutlak yol
 zaten çareyi veriyor. Taşıma yalnız oturum **kapalıyken** ve **yeni açılışta**
 anlamlıdır.
+
+---
+
+## 19. 🔴 PAYLAŞILAN AĞAÇTA YAZAN OTURUM, **BİTMEDEN ÖNCE** HABER VERİR
+
+**Doğuran vaka (2 Ağustos):** RENK, `arac/renkler.py`'ye `iran` rengini yazdı
+ama işi bitmediği için **haber vermedi.** Aynı anda MOTOR 2 `renk_olc.py`'de
+bir düzeltme yapıp önce/sonra çıktısını karşılaştırıyordu.
+
+```
+MOTOR 2'nin gördüğü:   çakışma 72 → 69
+MOTOR 2'nin sandığı:   "benim değişikliğim mi bozdu?"
+gerçek:                RENK'in commit'lenmemiş yazısı, iki koşu ARASINA denk geldi
+```
+
+MOTOR 2 kaynağı **izole etti** ve kendi değişikliğinin masum olduğunu
+kanıtladı — ama bu **fazladan bir ölçüm turu** demekti.
+
+### Sebep
+
+Bu depoda **ölçüm tabanı çalışma ağacıdır.** Bir oturum ölçtüğünde,
+görmediği başka bir oturumun yarım işi tabana karışıyor. Ve fark **makul**
+görünüyor (72→69 iyileşme gibi), o yüzden `§58` gereği alarm vermiyor.
+
+📌 `§13`/`§16`'nın üçüncü kardeşi: orada `git add` ve `git stash` **global**
+davranıyordu, burada **yazma eyleminin kendisi** global.
+
+### Kural
+
+```
+❌ "iş bitince haber veririm"           ← taban o zamana kadar kayar
+✅ "X dosyasına yazdım, henüz BİTMEDİ"  ← durum bildirimi, teslim değil
+```
+
+Bir dosyaya ilk yazışta bildirilir. **Bitmiş iş beklemek darboğaz yaratıyordu
+(`§4`); bitmemiş yazıyı gizlemek ÖLÇÜMÜ BOZUYOR.** İkisi ayrı hata ve ikisinin
+de çaresi aynı: **durum akar, teslim beklenmez.**
+
+⚠️ Ve ölçüm yapan oturum için karşı önlem: taban alınacaksa **HEAD'den** alınır
+(`git show HEAD:<yol>`), çalışma ağacından değil. Ağaç ortak, HEAD sabittir.
