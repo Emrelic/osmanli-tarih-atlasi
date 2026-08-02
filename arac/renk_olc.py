@@ -352,6 +352,61 @@ def denetle():
     return gorunmez, cakisan, ortusen, hex_cak
 
 
+# ═══════════════ AKTARIM DENETİMİ — öneri ↔ dosya ═══════════════
+def dogrula(yol):
+    """Öneri listesindeki (kimlik → hex) her rengi renkler.py'deki GERÇEK
+    değerle karşılaştırır. RENK oturumunun scratchpad denetiminin araca
+    gömülmüş hâli (İş R, 2 Ağustos): öneri `piza #2ac9a8` iken dosyada bir
+    önceki turun `#305d84`'ü bulundu — kendi yazdığını ölçüme karşı
+    denetlemeyen adım bunu SESSİZCE geçirirdi. Scratchpad bir kişiyi korur,
+    araç herkesi (YASALAR C1).
+
+    Satır biçimi: `kimlik #hex` (satırdaki İLK kimlik + İLK 6 haneli hex;
+    boş ve `//` satırları atlanır). 🔴 SESSİZ SIFIR YASAK: dosya yok/boş/
+    ayrıştırılamaz → SystemExit — '0 fark' ile 'hiç karşılaştırmadım'
+    ekranda aynı görünemez (bugün üç kez düşülen sınıf).
+    Çıkış kodu: fark varsa 1, yoksa 0."""
+    if not os.path.exists(yol):
+        raise SystemExit(f"!! öneri dosyası yok: {yol} — karşılaştırma "
+                         f"YAPILMADI ('0 fark' değil)")
+    oneriler = {}
+    for satir in io.open(yol, encoding="utf-8").read().splitlines():
+        s = satir.strip()
+        if not s or s.startswith("//"):
+            continue
+        mk = re.search(r'[a-z0-9][a-z0-9-]*', s)
+        mh = re.search(r'#[0-9a-fA-F]{6}\b', s)
+        if mk and mh:
+            kimlik = mk.group(0)
+            if kimlik in oneriler and oneriler[kimlik] != mh.group(0).lower():
+                raise SystemExit(f"!! öneri listesi çelişkili: '{kimlik}' iki "
+                                 f"farklı hexle geçiyor — hangisi doğru?")
+            oneriler[kimlik] = mh.group(0).lower()
+    if not oneriler:
+        raise SystemExit(f"!! öneri dosyası ayrıştırılamadı/boş: {yol} — "
+                         f"karşılaştırma YAPILMADI ('0 fark' değil)")
+    farklar, yoklar = [], []
+    for kimlik, hx in sorted(oneriler.items()):
+        if kimlik not in BOYALAR:
+            yoklar.append(kimlik)
+            continue
+        gercek = BOYALAR[kimlik][1].lower()
+        if gercek != hx:
+            farklar.append((kimlik, hx, gercek))
+    print(f"aktarım denetimi: {len(oneriler)} öneri karşılaştırıldı "
+          f"(renkler.py {len(BOYALAR)} kimlik)")
+    for kimlik, hx, gercek in farklar:
+        print(f"  🔴 FARK  {kimlik:<22} öneri {hx} ≠ dosyada {gercek}")
+    for kimlik in yoklar:
+        print(f"  🔴 PALETTE YOK  {kimlik} — öneri var, renkler.py'de kimlik yok")
+    if farklar or yoklar:
+        print(f"  ⇒ {len(farklar)} fark · {len(yoklar)} eksik kimlik — "
+              f"AKTARIM BOZUK, yazılan ≠ önerilen")
+        return 1
+    print("  ✓ 0 fark — yazılan, önerilenle birebir aynı")
+    return 0
+
+
 # ═══════════════ ÖNERİ — N kimliği BİRLİKTE ═══════════════
 def oner(yeni):
     k, n = komsuluk()
@@ -451,5 +506,10 @@ if __name__ == "__main__":
         if len(sys.argv) < 3:
             raise SystemExit("kullanim: --oner kimlik1,kimlik2,...")
         oner([x.strip() for x in sys.argv[2].split(",") if x.strip()])
+    elif len(sys.argv) > 1 and sys.argv[1] == "--dogrula":
+        if len(sys.argv) < 3:
+            raise SystemExit("kullanim: --dogrula oneri_listesi.txt "
+                             "(satir bicimi: kimlik #hex)")
+        sys.exit(dogrula(sys.argv[2]))
     else:
         denetle()

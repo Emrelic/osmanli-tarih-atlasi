@@ -817,3 +817,25 @@ UYGULANMADI — yalnız ölçüm; karar kullanıcının (B8).
 
 ⏳ başladım: İş R — aktarım denetimi (öneri↔dosya) renk_olc.py'ye gömülüyor — 2026-08-02 22:45
 
+## ✅ İş R — aktarım denetimi araca gömüldü: renk_olc.py --dogrula (23:00)
+
+`py arac/renk_olc.py --dogrula oneri.txt` — satır biçimi `kimlik #hex`
+(satırdaki ilk kimlik + ilk 6 haneli hex; boş ve // satırları atlanır).
+Öneri ↔ renkler.py gerçek değeri; FARK ve PALETTE-YOK ayrı raporlanır;
+çıkış kodu fark varsa 1. Çelişkili öneri listesi (aynı kimlik iki hex)
+de SystemExit. RENK'ten kendi betiği/formatı istendi — farklıysa tek
+satır uyarlanır (mesaj gitti, cevap beklenmeden gömme tamamlandı).
+
+Kabul üç uçlu:
+- ① ATEŞLEDİ: kasıtlı `piza #000000` → "FARK … öneri #000000 ≠ dosyada
+  #2ac9a8" + `olmayan-kimlik` → "PALETTE YOK"; doğru satır (aragon) sustu.
+- ② SUSTU: paletin TAMAMI (167 kimlik — aşağıya bak) → 0 fark, çıkış 0.
+- ③ SESSİZ SIFIR YASAK: boş dosya → SystemExit "karşılaştırma YAPILMADI
+  ('0 fark' değil)"; olmayan dosya da aynı.
+
+⚠️ TAZELİK BULGUSU (§B10): koordinatör "bugünkü 130 kimlik" demişti —
+kendi ölçümüm **167**: RENK Asya renklerini yazmaya devam ediyor
+(renkler.py working tree'de commit'lenmemiş, 37+ yeni kimlik). "130"
+mesaj yazıldığı andaki fotoğraftı. Ve piza dosyada #2ac9a8 — RENK'in
+bugün yakaladığı aktarım hatası düzeltilmiş, denetim teyit ediyor.
+
