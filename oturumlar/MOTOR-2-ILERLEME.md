@@ -271,3 +271,32 @@ ile aynı hüküm.
 
 ⏳ başladım: İş H — Ukrayna/Zaporojye kazakları taraması (yalnız ölçüm) — 2026-08-02 15:30
 
+## ✅ İş H — Zaporojye taraması: KAYIT VAR, adı `zaporojye` (15:40)
+
+Aranan: zaporo/zaporijya/siç/sich/hetman/kozak/ukrayna (büyük-küçük
+duyarsız) — devletler.js + renkler.py + yerlesimler*.js + data geneli.
+
+**BULUNDU:**
+- `devletler.js:1116-1125` — `id:"zaporojye"`, "Zaporojye Kazak Hetmanlığı",
+  tur:"cumhuriyet", f:1552-01-01 → t:1775-06-16, başkent "Zaporojye Seçi",
+  4 kronoloji maddesi. **`harita:` alanı YOK** → haritada hiç çizilmiyor.
+- `kimlikler.js:180` (EMEKLİ dosya) — "zaporojye" anahtarı, harita:null;
+  eski sözlükte de aynı adla vardı.
+
+**BULUNAMADI:**
+- renkler.py BOYALAR'da ne `zaporojye` ne kısa `kazak` anahtarı var
+  (yalnız `kazak-hanligi` #ad1457).
+- Hiçbir yerlesimler*.js kaydı `d:"zaporojye"` kullanmıyor.
+- Düzyazı geçişleri kimlik değil: devletler.js:157 (kirim kronolojisinde
+  Hmelnitski), olaylar_ek5.js:244 (Çehrin 1678, "Ukrayna" yer adı).
+
+**SONUÇ / KOORDİNATÖRE:**
+① Karışma riski BUGÜN GERÇEKLEŞMEMİŞ: `kazak-hanligi` ile çakışan hiçbir
+  anahtar yok; renkler.py:349-351 notu karışma UYARISI değil, gerçekleşmemiş
+  RİSK notu — öyle yazılmalı (renkler.py bende değil, dokunmadım).
+② Önerilen YENİ anahtar `zaporojye-kazaklari` GEREKMEYEBİLİR: dizin aynı
+  yapıyı ZATEN `zaporojye` id'siyle taşıyor. Yeni ad açmak aynı kuruma
+  İKİ kimlik verir (bugün kapatılan "iki otorite" sınıfı — İş D/E dersleri).
+  Ad değişecekse mevcut kayıt yeniden adlandırılmalı, ikilenmemeli.
+  Karar koordinatörün.
+
