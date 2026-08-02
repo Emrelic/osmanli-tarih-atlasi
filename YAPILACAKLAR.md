@@ -10,6 +10,54 @@ durum tablosunu güncelle.
 
 ## Şimdi
 
+- [ ] 🆕 **DEVLET KÜNYESİ — her devletin kimlik kartı** *(kullanıcı isteği, 2 Ağustos)*
+      Her devlet kaydı; **ne zaman kuruldu · başkenti · kurucusu · kaç hükümdarı
+      oldu · hangi millet · hangi din · hangi mezhep** gibi temel bilgileri
+      taşısın ve arayüzde künye olarak görünsün.
+
+      **ÖNCE ÖLÇÜLDÜ — yarısı zaten var, yarısı yok:**
+      ```
+      242 kayıt · alan doluluğu
+        ✅ id · ad · tur · bolge · f · t · ozet   %100
+        ✅ baskent                                 %99,6
+        ✅ kronoloji (madde madde olay)            %100
+        🟡 harita                                  %52   (yalnız çizilenlerde)
+        ❌ kurucu · hukumdar_sayisi · millet · din · mezhep   %0 — ALAN YOK
+      ```
+      Ve `tur` alanı **zaten ayrıntılı**: krallık 48 · devlet 44 · imparatorluk 22 ·
+      beylik 22 · cumhuriyet 21 · sultanlık 17 · geçici-işgal 15 · dukalık 12 ·
+      hanedanlık 12 · hanlık 11 · prenslik 11 · şehzadelik 4 · ocaklık 3.
+      ⇒ Kullanıcının istediği *"imparatorluk/krallık/sultanlık/beylik"* ayrımı
+      **KURULU.** Eksik olan biyografik/kültürel eksen.
+
+      🔴 **BEŞ YENİ ALAN — ve üçü tuzaklı, ölçülerek yazılmalı:**
+      ```
+      kurucu            metin. Tuzak: "kurucu" hanedanın mı devletin mi?
+                        (Osman Bey ↔ Osmanlı; Selçuklu'da Tuğrul mu Selçuk mu)
+      hukumdar_sayisi   SAYI DEĞİL TÜRETİLMİŞ OLMALI — data/padisahlar.js zaten
+                        var; elle yazılırsa iki otorite doğar (§bugünün dersi).
+                        ⇒ Alan değil, ÜRETİCİ: kişiler dosyasından sayılsın.
+      millet            🔴 EN TUZAKLISI. Anakronizm riski: "Türk", "Arap" gibi
+                        modern ulus kategorileri XIV. yüzyıla taşınamaz.
+                        Hanedanın kökeni ile tebaanın bileşimi AYRI şeyler.
+                        ⇒ `hanedan_kokeni` daha dürüst bir ad olabilir.
+      din               görece güvenli (İslam · Hıristiyan · Budist …)
+      mezhep            Sünnî/Şiî/Ortodoks/Katolik — ama DEĞİŞEBİLİR
+                        (Safevî 1501'de Şiîliği devlet mezhebi yaptı;
+                        İlhanlılar Budist→Müslüman). ⇒ tek değer YETMEZ,
+                        `f:`/`t:` pencereli olmalı — `tabi:` gibi.
+      ```
+      ⚠️ **`mezhep` ve `millet` tek değerle yazılırsa YANLIŞ olur.** İkisi de
+      zaman içinde değişiyor; şema `tabi:` deseninde pencereli tutmalı.
+
+      📌 Ve `ozet` alanı bugün bu bilgilerin bir kısmını **düzyazı** olarak
+      taşıyor (%100 dolu). Yani iş "sıfırdan toplamak" değil, **düzyazıyı
+      alana çevirmek** — çok daha ucuz. Önce bir ölçüm: 242 özetin kaçında
+      kurucu adı geçiyor?
+
+      Sıra: ① şema kararı (pencereli alanlar) → ② `hukumdar_sayisi` üreticisi
+      → ③ özetlerden çıkarım + kaynak doğrulaması → ④ ARAYÜZ künye paneli
+
 - [ ] 🔴 **KOŞU BİTER BİTMEZ — ISPARTA (tek satır, gerekçesi hazır)**
       ```
       data/yerlesimler.js  ·  Isparta
