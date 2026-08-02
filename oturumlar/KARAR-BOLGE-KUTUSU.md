@@ -66,6 +66,30 @@ sorun.
 
 ---
 
+## 3b. 🔴 KUTU DÖRT KENARLI — ve bugün ÜÇÜ ayrı ayrı soruldu
+
+```
+box(-12, 1.5, 62, 62)
+     │    │   │   └── KUZEY 62°K   ← İş I: Trondheim (63,4) · Sundsvall (62,4) DIŞARIDA
+     │    │   └────── DOĞU  62°D   ← İş C: Asya 65,7'den başlıyor
+     │    └────────── GÜNEY 1,5°K  ← İş C: Endonezya −10,18'e iniyor
+     └─────────────── BATI −12°B   ← HİÇ SORULMADI
+```
+
+📌 Ve deseni gör: **her ölçüm kendi eksenini buldu, ötekini bulamadı.**
+- Ben doğuyu sordum (`lon 141`), İş C güneyi **buldu**
+- İş I Avrupa'yı ölçtü, kuzeyi **buldu**
+- Batıyı **kimse sormadı** ve kimse bulmadı
+
+⇒ `YASALAR C9` üçüncü kez: aracın kör noktası **aynadaki yönü sormamaktır.**
+Burada ayna dört yüzlü ve üç kez farklı yüzünden yakalandık.
+
+⚠️ **Kuzey kenarı için erken hüküm verme:** 2 nokta için tavan 62→64'e
+çıkarmak *az* görünüyor, ama 62→71 (Nordkapp) **bütün Kuzey İskandinavya ve
+Kuzey Rusya'yı** ekler. **Nokta başına maliyet** ölçülmeden karar verilmez.
+
+---
+
 ## 4. KARAR ② — açılınca **TAM KUTU**, `lon142` değil
 
 ```
