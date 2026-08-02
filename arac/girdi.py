@@ -405,6 +405,12 @@ def yukle(sessiz=False):
                                 f"{ad}:{y['ad']}")
             for alan, deger in VARSAYILAN.items():
                 y.setdefault(alan, [] if deger == [] else deger)
+            # Kaynak damgası — dosyadan OKUNMAZ, yükleyici basar (bu yüzden
+            # BILINEN_ALANLAR kontrolüne girmez; kontrol yukarıda, damga
+            # burada). Tüketicisi denetle.py'nin İŞ KUYRUĞU ayrımı (İş O):
+            # yeni partinin kırılmaları çekirdek tavanına KATILMAZ, kaynağa
+            # göre ayrı sayaçta raporlanır.
+            y["_kaynak"] = ad
         hepsi.extend(kayitlar)
         if not sessiz:
             print(f"  {ad}: {len(kayitlar)} nokta")

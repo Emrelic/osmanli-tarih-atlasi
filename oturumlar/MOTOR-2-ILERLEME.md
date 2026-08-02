@@ -673,3 +673,22 @@ birebir sadık). Bulunamazsa SystemExit.
   zarfta YOK, yenide VAR. "Sabit okunuyor" değil, kırılan şeyin kendisi
   (komşuluk) doğrulandı.
 
+## ✅ İş O-③ (koordinatörün İş O'su) — Asya AYRI SAYAÇ: kuyruk ≠ borç (20:25)
+
+girdi.yukle() artık her kayda `_kaynak` damgası basıyor (dosyadan okunmaz,
+yükleyici basar — BILINEN_ALANLAR kontrolüne girmez, gerekçe yorumda).
+denetle.py'de `KUYRUK_DOSYALARI = {"yerlesimler_asya.js"}`: bu dosyaların
+kırılmaları Değişmez 2 ve 2s'nin ÇEKİRDEK sayımına KATILMAZ; ayrı "Kuyruk"
+satırında raporlanır — borç değil İŞ KUYRUĞU, tavana etki etmez, çıkış
+koduna etkimez, düşmesi beklenir. Gerekçe koda yazıldı: borç etiketi alarmı
+uyuşturuyor (2s 119→192 bugün sessizce normalleşti), kuyruk EKSİLİR.
+
+İki uçlu kabul:
+- ① Kuyruk BOŞKEN (bugün): çıktı öncekiyle **satır satır BİREBİR AYNI** ✓
+- ② Asya BELLEKTE eklenince (dosya değişmedi, runpy ile):
+  Değişmez 2 **✓ 493 kırılma, 0 açık — ÇEKİRDEK KORUNDU**; 2s çekirdek
+  192'de sabit; yeni satır: "Kuyruk i yerlesimler_asya.js: 344 nokta ·
+  **481 kırılma · 374 MADDESİZ** — İŞ KUYRUĞU, borç değil".
+  Bonus ölçüm: Asya sahipsizlik de AÇMIYOR (Değişmez 1 ✓ 50 sabit,
+  1.579 yerleşim) — N8 endişesinin ilk cevabı.
+

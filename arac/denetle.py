@@ -101,6 +101,15 @@ BEKLENEN_SAHIPSIZ = 50
 # 462 -> 476: Oturum 14 in Port Said/parantez duzeltmeleri.
 BEKLENEN_KIRILMA = 476
 BEKLENEN_ACIK = 0
+# 🔴 İŞ KUYRUĞU AYRIMI (İş O, koordinatör kararı 2 Ağustos 2026, N9):
+# Asya partisi girdiye alındığında yüzlerce kırılması olaylar.js'te maddesiz
+# olacak. Bu sayı 2s/2t gibi bir BORÇ kalemine ÇEVRİLMEZ, çünkü ölçüldü:
+# borç etiketi alarmı uyuşturuyor (2s 119→121→192 bugün sessizce normalleşti).
+# ⇒ Değişmez 2 MEVCUT külliyat için 0 kalır ve 0 kalmaya devam eder;
+#   buradaki dosyaların kırılmaları ayrı sayaçta "İŞ KUYRUĞU" diye raporlanır.
+#   Fark davranışta: borç normalleşir, kuyruk EKSİLİR — madde yazıldıkça iner.
+# Kaynak ayrımı girdi.py'nin `_kaynak` damgasıyla yapılır (yükleyici basar).
+KUYRUK_DOSYALARI = {"yerlesimler_asya.js"}
 # ⚠️ `s:` boyutu ON AY BOYUNCA HİÇ DENETLENMEDİ (Oturum 13 buldu). Ölçüldü:
 # 566 yabancı kırılması, 115'inin ±30 günde maddesi yok. 115'i İHLAL ilan etmek
 # denetimi ilk koşuda kırmızıya boyar ve OGRENILENLER §3 gereği kimse bakmaz;
@@ -1143,8 +1152,10 @@ def main():
         print("               Bicâye · Hacıbey · Ankara bozgunu sonrası 16 Anadolu şehri")
         print("               (1402-07-28 → 09-15: Timur'un elindeydi, 'timurlu' yazılacak)")
 
-    # Değişmez 2
-    kir, acik = degismez2(Y, O)
+    # Değişmez 2 — çekirdek/kuyruk ayrımıyla (KUYRUK_DOSYALARI yorumu)
+    Y_cekirdek = [y for y in Y if y.get("_kaynak") not in KUYRUK_DOSYALARI]
+    Y_kuyruk = [y for y in Y if y.get("_kaynak") in KUYRUK_DOSYALARI]
+    kir, acik = degismez2(Y_cekirdek, O)
     n2_kirilma, n2_acik = len(kir), len(acik)
     durum2 = "✓" if n2_acik <= BEKLENEN_ACIK else "✗"
     if n2_acik > BEKLENEN_ACIK:
@@ -1165,7 +1176,7 @@ def main():
             print(f"    {d}  {tip:<7} {', '.join(adlar):<40} en yakın madde {fark} gün uzakta: {baslik}{im}")
 
     # ---- Değişmez 2'nin `s:` boyutu — ON AYLIK KÖRLÜK, bilinen borç olarak açıldı
-    kir_s, acik_s = degismez2(Y, O, ("s",))
+    kir_s, acik_s = degismez2(Y_cekirdek, O, ("s",))
     durum2s = "✓" if len(acik_s) <= BEKLENEN_ACIK_S else "✗"
     if len(acik_s) > BEKLENEN_ACIK_S:
         ihlal = True
@@ -1180,6 +1191,18 @@ def main():
                   f" | en yakın {fark}g: {baslik[:38]}")
         if not args.ayrinti and len(acik_s) > 8:
             print(f"    … {len(acik_s)-8} satır daha (--ayrinti)")
+
+    # ---- İŞ KUYRUĞU — borç DEĞİL, tavana KATILMAZ, çıkış koduna etkimez
+    if Y_kuyruk:
+        kuyruk_dosya = ", ".join(sorted({y["_kaynak"] for y in Y_kuyruk}))
+        k_dv, a_dv = degismez2(Y_kuyruk, O)
+        k_s, a_s = degismez2(Y_kuyruk, O, ("s",))
+        print(f"Kuyruk      i  {kuyruk_dosya}: {len(Y_kuyruk)} nokta · "
+              f"{len(k_dv) + len(k_s)} kırılma · "
+              f"{len(a_dv) + len(a_s)} MADDESİZ — İŞ KUYRUĞU, borç değil")
+        print( "            i tavana katılmaz (borç etiketi alarmı uyuşturur —")
+        print( "              2s 119→192 vakası); kuyruk EKSİLİR: madde yazıldıkça")
+        print( "              iner, düşmüyorsa VERİ KRONOLOJİ'ye haber ver.")
 
     # ---- Değişmez 2'nin AYNADAKİ HÂLİ — kırılmasız madde
     ksiz = kirilmasiz_madde(kir, kir_s, O)
