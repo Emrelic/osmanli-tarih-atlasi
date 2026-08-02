@@ -102,3 +102,14 @@ süre kadar ÇIKTI kalitesi de takımadada ayrı karar ister.
 KARAR KOORDİNATÖRÜN — kutu açılmadı, uret_petek.py'ye dokunulmadı
 (İş B'nin ③ geçici denemesi anında geri alınmıştı, `git diff` boş).
 
+---
+
+📌 ÇÜRÜK UYARI BİLDİRİMİ (koordinatör istedi, YAZILMADI — Kapı B kapsamı):
+`arac/renkler.py:352` "ortaasya2 hâlâ d:\"kazak\" yazıyor" uyarısı ÇÜRÜK —
+dosya bugün `kazak-hanligi` yazıyor (üç kayıt) ve palette `#ad1457` ile
+tanımlı; kendi ölçümüm de 9 kimlik / 0 eksik dedi. renkler.py'ye dokunmadım.
+
+---
+
+⏳ başladım: İş B-2 — denetle.py _KARA_TOL + _DOGAL_GOL kaynaktan okusun — 2026-08-02 13:05
+
