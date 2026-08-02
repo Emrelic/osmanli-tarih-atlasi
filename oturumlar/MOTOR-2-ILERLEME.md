@@ -519,3 +519,83 @@ soru "hangi kenar en az ve en zararsız keser" (cevap: 146).
 
 ⏳ başladım: İş N — kutu açılınca ne kırılır (uçuş öncesi denetim, YALNIZ LİSTE) — 2026-08-02 18:35
 
+## ✅ İş N — UÇUŞ ÖNCESİ DENETİM: kutu (−12,−11,146,64) açılınca ne kırılır (19:00)
+
+Biçim: dosya:satır · bugünkü değer · kutu açılınca NE OLUR · SESSİZ/GÜRÜLTÜLÜ.
+DÜZELTME YAPILMADI — yalnız liste. Karar koordinatörün.
+
+### 🔴 SESSİZ KIRILMALAR (koşu tamamlar, YANLIŞ sonuç üretir)
+
+**N1. arac/renk_olc.py:56** · `KUTU = box(-25, -5, 75, 72)` — Voronoi
+zarfı ELLE KOPYA · Asya girince lon>75 noktaların hücreleri
+`intersection(KUTU)` ile BOŞALIR → komşuluk sessizce eksik → **RENK'in 135
+Asya rengi yanlış/eksik komşulukla önerilir**; denetle() çakışma çiftlerini
+hiç göremez · SESSİZ. 🔴 EN ACİL: RENK oturumu ŞU AN çalışıyor; bugünkü
+canlı veri (61,5°D) zarfın içinde ama Asya işlenirken kırılacak. İş B
+sınıfının kardeşi — BOLGE'den (pay ile) türetilmeli.
+
+**N2. js/app.js:594** · `VERI_SINIRI = [-12, 1.5, 62, 62]` — elle kopya
+(yorumu kaynağa işaret ediyor, değeri kopya) · kutu açılınca "Veri sınırı"
+düğmesi ESKİ dikdörtgeni çizer; veriSiniriDogrula() yalnız console.warn
+basar, kullanıcı görmez · SESSİZ (kullanıcıya yanlış sınır). ARAYÜZ dosyası
+— dokunmadım.
+
+**N3. index.html:21-26** · "Veri sınırı" yorum+tooltip metni eski pencereyi
+anlatıyor ("62°D'nin doğusu boş") · kutu açılınca kullanıcıya bakan metin
+YANLIŞLAŞIR · SESSİZ. ARAYÜZ — dokunmadım.
+
+**N4. arac/denetle_kapsama.py:64-80** · BOLGE_KUTULARI 15 elle bölge
+kutusu, yalnız eski pencereyi kaplıyor · yeni coğrafyanın TAMAMI (Hindistan
+Çin, Endonezya, 62°K kuzeyi) rapora "diğer" diye yığılır — yanlış değil
+ama boşluk avı yeni bölgelerde İSİMSİZ/işlevsiz kalır · SESSİZ (rapor
+kalitesi çöker).
+
+**N5. kapasite: data/donemler.js 35,9 MB (index.html HER ziyarette yükler)
++ devletler_harita.js 12,9 MB + altlik.js 1,85 MB** · kara ×1,9 · nokta
+×1,58 · devlet ~114→~250 ile kaba tahmin: donemler ~60-70 MB,
+devletler_harita ~25-35 MB, toplam tarayıcı yükü ~×2 (≈100 MB) · koşu
+başarılı biter, denetimler temiz der, site YAVAŞLAR (mobil çökebilir) ·
+SESSİZ. Türetim kaba (parça/nokta oranlarından) — işaretli.
+
+**N6. arac/denetle_bosluk.py:440** · yorum "devletler_harita.js'te
+URETIM_IZI YOK → ölçüt zaman damgası" · İş G'den sonra İZ VAR olacak;
+davranış bozulmaz ama araç zayıf ölçütte kalır · YARI-SESSİZ (fırsat).
+
+### 📢 GÜRÜLTÜLÜ KIRILMALAR (denetim ✗ basar — koşudan ÖNCE politika gerek)
+
+**N7. arac/denetle.py:56** · BEKLENEN_YERLESIM=968 · bugün BİLE bayat
+(998); 1.579'da bilgi satırı basar · gürültüsüz bilgi, sabit güncellenmeli.
+
+**N8. arac/denetle.py:81** · BEKLENEN_SAHIPSIZ=50 · 1.579 evreninde
+sahipsiz sayısı DEĞİŞECEK (asya'nın kasıtlı sahipsizleri ölçülmedi) →
+aşarsa Değişmez 1 ✗ · GÜRÜLTÜLÜ (istenen davranış) — koşudan önce
+yeniden ölçülmeli.
+
+**N9. arac/denetle.py:102-103** · BEKLENEN_KIRILMA=476 · BEKLENEN_ACIK=0 ·
+🔴 EN BÜYÜK GÜRÜLTÜ: Asya'nın 320 noktasının kırılmaları olaylar.js'te
+MADDESİZ → Değişmez 2 açığı YÜZLERCE olabilir ve bu "bilinen borç" değil
+İHLAL sınıfında — denetim kutu koşusundan sonra kıpkırmızı. Asya
+kronolojisi (VERİ KRONOLOJİ işi) ya koşudan önce yazılmalı ya tavan/borç
+kararı önceden verilmeli.
+
+**N10. arac/denetle.py:110·147·173** · BEKLENEN_ACIK_S=114 (bugün 121 ✗) ·
+BEKLENEN_KIRILMASIZ=49 (bugün 52 ✗) · CELISKI_UST_SINIR=387 · Asya s:
+kırılmalarıyla yüzlere fırlar · GÜRÜLTÜLÜ ama ⚠️ "bilinen borç" etiketi
+alarmı UYUŞTURUYOR (2s 119→121 büyümesi bugün sessizce normalleşti) —
+tavan politikası koşudan önce netleşmeli.
+
+**N11. arac/denetle_eslesme.py:68·73·87** · BEKLENEN_A=97 · B=17 · C=73 ·
+mevcut veri üstünde ölçülmüş tavanlar; Asya girince aşılır → ✗ ·
+GÜRÜLTÜLÜ, koşu sonrası yeniden ölçüm.
+
+### ✓ KIRILMAYANLAR (arandı, doğrulandı)
+- denetle.py maske sabitleri (B/B-2 ile kaynağa bağlı) · denetle_kapsama/
+  bosluk BOLGE (kaynaktan) → kutu değişince OTOMATİK izler ✓
+- uret_altlik.py bütün sabitleri kaynaktan ayrıştırıyor ✓ (çıktısı ~×2-4
+  büyür, N5'e dahil)
+- uret_devirler.py: kutu sabiti BULUNAMADI ✓ (donemler.js'ten türer)
+- js/app.js:500-503 merkez [30,40]/zoom: kutuya bağlı DEĞİL (başlangıç
+  tercihi); maxBounds YOK → yeni coğrafya gezilebilir ✓
+- kv ızgarası belleği: 4,74 M hücre (bytearray ~5 MB) — bellek riski yok;
+  süre zaten İş J tahmininde ✓
+
