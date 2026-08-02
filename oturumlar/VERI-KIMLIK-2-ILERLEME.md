@@ -235,3 +235,80 @@ dokuzunu birden açar.** Yarının en yüksek getirili işi bu.
 kalem açma, ölçüm yeter"* dedi. Kalıcı araç olarak istenirse `arac/`'a
 taşınabilir; ΔE/komşuluk ölçen asıl araç ise ayrı ve daha büyük bir iş.
 
+---
+
+## 2 Ağustos 2026
+
+### 🔴 KÖK SEBEP: `kimlikler.js` canlı değil — VERİ KİMLİK'in işi kaybolmamış
+
+VERİ KİMLİK *"`sirbistan-nemanjic`'i yazdım"* derken **doğru söylüyormuş** —
+`data/kimlikler.js:75`'e yazmış, gerekçesi de bugün benim bağımsız olarak
+vardığımla birebir aynı. Ama:
+```
+arac/denetle_yayin.py:414   BEKLEYEN listesinde:
+  "data/kimlikler.js": "kimlik sözlüğü, ARAYÜZ HENÜZ KULLANMIYOR"
+index.html                  24 data/*.js yüklüyor, kimlikler.js ARALARINDA YOK
+```
+⇒ **VERİ KİMLİK canlı olmayan bir dosyaya yazıyormuş.** İş yapılmış, harita boş
+kalmış, kuyruk aynı kalemleri ona tekrar göndermiş. *"Sessiz kaldı"* teşhisi
+haksızdı: **sessiz değil, görünmezdi.**
+
+İki dosyayı `harita:` alanında karşılaştırdım: **113 kalemde aynı, 0 uyuşmazlık,
+4 kalem kurtarılabilir.**
+⚠️ Koordinatörün düzeltmesi yerinde: bu ölçüm **tek alan** üzerindeydi. Bütün
+alanlara bakınca **6 tarih çatışması** var (`rodos-sovalyeleri` 275 yıl,
+`akkoyunlu` 13 yıl, `memluk` 81 gün…) — en az üçü `§74` vakası, yani rakip
+cevap değil **ayrı soruların** cevapları. Ders: bir alanda çatışma yokluğu,
+dosyaların uyuştuğu demek değil.
+
+### ✅ KURTARMA — üç kalem taşındı (koordinatör talimatı, `2a61bc4`)
+```
+arnavutluk-bagimsiz  ->  harita:"arnavutluk"      devletler.js:935
+nogay                ->  harita:"nogay"           devletler.js:1528
+kazak-hanligi        ->  harita:"kazak-hanligi"   devletler.js:1862
+```
+🔴 `kazak-hanligi` kısa `kazak` **DEĞİL**. `kimlikler.js` `harita:"kazak"`
+diyordu ama `renkler.py`'de öyle bir anahtar yok; kısa ad **bilerek
+reddedilmiş** (satır 349: Türkçede "kazak" hem Kazak Hanlığı'nı hem Ukrayna
+kazaklarını karşılıyor, karışma sessiz olurdu). Olduğu gibi taşınsaydı kayıt
+*"dizinde var, kullanım 0"* olurdu. `renkler.py`'ye **dokunulmadı.**
+
+**Ölçüm — iki araç, öncesi/sonrası:**
+```
+renk_olc.py   14 gorunmez · 71 cakisma   ->   14 gorunmez · 71 cakisma
+denetle.py    cikti BAYT BAYT AYNI (diff bos)
+node --check  temiz
+```
+Sıfır yeni ihlal, sıfır yeni çakışma.
+
+### 🔴 `zend` TAŞINMADI — bağlayıcı kullanıcı kararına aykırı
+
+Dördüncü kalem `zend -> safevi` idi. **Taşımadım.** Ölçüm:
+```
+safevi  1501-07-01 -> 1736-03-08   harita:"safevi"   #6b4a7d  (mor)
+afsar   1736-03-08 -> 1796-01-01   harita:"iran"     #b5885b  (kahve)
+zend    1751-01-01 -> 1794-01-01   harita: YOK
+```
+**① Kullanıcının bağlayıcı kararı** (görev tanımı Kısıt 2):
+> *"`afsar`/`zend`, `safevi` ile **aynı renk AİLESİ, farklı PARLAKLIK**."*
+
+`zend`e `harita:"safevi"` yazmak `safevi` ile **birebir aynı rengi** verir —
+*"farklı parlaklık"* değil, **sıfır** parlaklık farkı. Kararın tam tersi.
+Üstelik `afsar` şu an `iran` (**kahve**) taşıyor, `safevi` ise **mor** —
+yani zincirin üç halkası şu an **iki ayrı aileye** dağılmış durumda. Karar
+*"ayrı renkler İran'ı üç ayrı devlet gibi gösterir"* diye konmuştu; bugünkü
+hâli tam olarak o.
+
+**② Ve `afsar` ile `zend` ÇAKIŞIYOR:**
+```
+afsar 1736-1796  ∩  zend 1751-1794   =  43 YIL eszamanli
+```
+İkisi aynı anda sahnede ve komşu ⇒ `renkler.py`'nin tek yasağı gereği
+**aynı rengi alamazlar.** Yani `zend` tek başına çözülemez; `safevi`+`afsar`+
+`zend` **birlikte** çözülmeli.
+
+⇒ Ve araç artık tam bunun için var: `py arac/renk_olc.py --oner safevi,afsar,zend`
+— docstring'in kendi deyişiyle *"`--oner` N kimliği BİRLİKTE çözer, tek tek
+değil."* Ama üç halkanın ikisi **zaten atanmış**; yeniden atama MOTOR'un ve
+kullanıcının sahası. **Karar bende değil, ölçüm bende.**
+

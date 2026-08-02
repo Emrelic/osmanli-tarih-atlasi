@@ -932,7 +932,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"arnavutluk-bagimsiz", ad:"Arnavutluk Prensliği (Bağımsız)", tur:"devlet", bolge:"balkanlar",
-  f:"1912-11-28", t:"1923-10-29", baskent:"Vlorë (Avlonya) → Tiran",
+  f:"1912-11-28", t:"1923-10-29", baskent:"Vlorë (Avlonya) → Tiran", harita:"arnavutluk",
   ozet:"Balkan Savaşları sırasında ilan edilen bağımsızlık; büyük güçlerin Londra Konferansı'yla sınırları çizildi (1923 sonrasında da sürdü). Ortaçağ İskender Bey direnişinden (bkz. [[arnavutluk-iskenderbey]]) ayrı, modern ulus-devlet kaydı.",
   kronoloji:[
     { t:"1912-11-28", tur:"kurulus", b:"İsmail Kemal Vlorë'de bağımsızlığı ilan etti" },
@@ -1525,7 +1525,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"nogay", ad:"Nogay Ordası", tur:"devlet", bolge:"sibirya-bozkir",
-  f:"1440-01-01", t:"1783-01-01", baskent:"(bozkırda göçebe, sabit başkent yok)",
+  f:"1440-01-01", t:"1783-01-01", baskent:"(bozkırda göçebe, sabit başkent yok)", harita:"nogay",
   ozet:"Altın Orda'nın dağılma sürecinde Mangıt beyi Edigü'nün mirasından doğan Türk-Tatar konfederasyonu; 1557-58'de Osmanlı yanlısı Büyük Nogay ile Moskova/Kırım yanlısı Küçük Nogay olarak ikiye bölündü, Rus/Kalmuk baskısıyla bağımsızlığını yitirdi. (kaynak: TDV, madde: nogaylar)",
   kronoloji:[
     { t:"1420-01-01", tur:"hukumdar", b:"Mangıt beyi Edigü öldü; ardından oğulları konfederasyonun çekirdeğini oluşturdu" },
@@ -1859,7 +1859,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"kazak-hanligi", ad:"Kazak Hanlığı", tur:"hanlik", bolge:"orta-asya",
-  f:"1465-01-01", t:"1847-01-01", baskent:"(göçebe, sabit başkent yok)",
+  f:"1465-01-01", t:"1847-01-01", baskent:"(göçebe, sabit başkent yok)", harita:"kazak-hanligi",
   ozet:"Ebü'l-Hayr Özbek konfederasyonundan ayrılan Kerey ve Canibek'in kurduğu, Büyük/Orta/Küçük Cüz olarak örgütlenen bozkır hanlığı; 19. yüzyılda kademeli Rus ilhakıyla son buldu. (kaynak: TDV, madde: kazaklar)",
   kronoloji:[
     { t:"1465-01-01", tur:"kurulus", b:"Kerey ve Canibek hanlar, Ebü'l-Hayr Han'a bağlı olmayan bir topluluk kurdu (Çu-Talas arası)" },
