@@ -999,3 +999,9 @@ Not: mogulistan örneği "diğer" coğrafyada çıktı — lon 82-92/lat 35-45
 dilimi (Tarım havzası) kutusuz; öz-denetimin %1'lik meşru kuyruğunun
 parçası, kayda geçti.
 
+---
+
+⏳ başladım: İş T2 — ondalık ARA YOL (iç 2 · kıyı 3) ölçümü + kademeli yükleme fizibilitesi — 2026-08-03 01:20
+(④ cevabı gönderildi: bölme koşu SONRASI yapılabilir, EVET — yapısal gerekçeyle.
+ Ondalık uygulaması koordinatör talimatıyla DURDU; round değişikliği YAPILMADI.)
+
