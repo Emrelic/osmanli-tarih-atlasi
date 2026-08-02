@@ -90,7 +90,57 @@ Kuzey Rusya'yı** ekler. **Nokta başına maliyet** ölçülmeden karar verilmez
 
 ---
 
-## 4. KARAR ② — açılınca **TAM KUTU**, `lon142` değil
+## 3c. ✅ KENAR FİYATLARI ÖLÇÜLDÜ (İş J, `5492b1c`) — ve kutu değeri KİLİTLENDİ
+
+```
+kenar              yeni nokta   +alan der²   tahmin      dk/nokta
+DOĞU  62 → 142        +320        +3.054      88 dk       0,1     🟢 açık ara en verimli
+GÜNEY 1,5 → −11         +0          +354      48 dk       —       (tek başına getirisiz)
+KUZEY 62 → 64           +2           +99      46 dk       1,4     🟢 ucuz
+KUZEY 62 → 71           +2 (AYNI)   +325      53 dk       5,2     🔴 3,3 kat pahalı, EK GETİRİ SIFIR
+BATI  −12 → ?            —            —        —          —       SORU YOK: lon<−12 nokta BULUNAMADI (0/1.579)
+```
+
+🔴 **KENAR ETKİLEŞİMİ — getiri TOPLAMSAL DEĞİL, ölçüldü:**
+```
+GÜNEY tek başına        +0 nokta
+GÜNEY, DOĞU açıkken    +24 nokta (Endonezya)
+```
+⇒ **Maliyette bağımsız, getiride değil.** Güney kenarı yalnız Doğu ile
+birlikte anlam taşıyor (koşullu maliyeti ~0,2 dk/nokta).
+
+📌 Ve Batı kenarı için doğru cevap **"ölçmedim" değil "soru yok"**: evrenin
+en batısı Tralee (−9,70). MOTOR 2 kenarı ölçmeyi **reddetti** ve gerekçesini
+yazdı — negatif sonuç da sonuçtur.
+
+---
+
+## 4. KARAR ② — açılacak değer: **`box(-12, -11, 142, 64)`**
+
+Üç kenar açılır, biri açılmaz:
+```
+✅ DOĞU  142    0,1 dk/nokta — 320 nokta, tartışmasız
+✅ GÜNEY −11    yalnız Doğu ile birlikte +24 nokta
+✅ KUZEY  64    +3 dk'ya 2 nokta; Avrupa partisini 235/237 → 237/237 tamamlar
+❌ KUZEY  71    AYNI 2 nokta için 3,3 kat — Norveç fiyortu +424 poligon,
+                EK GETİRİ SIFIR. Nordkapp ancak Kuzey İskandinavya/Rusya
+                noktaları YAZILIRSA anlam kazanır.
+❌ BATI         soru yok
+```
+
+⚠️ **`64`'ü aşan her derece bugün getirisizdir.** Kuzey kenarı ileride
+tekrar açılabilir — ama o zaman gerekçe **veri** olacak, coğrafya değil.
+
+### Niçin tek seferde
+```
+üç kenarı birlikte açmak   ≈ 95-105 dk (İş C tavanı: ~160)
+ikinci bir koşu             ≈ 105 dk + ikinci göç + ikinci denetim turu
+```
+⇒ Kademeli açmanın hiçbir gerekçesi yok.
+
+---
+
+## 4b. KARAR ② — açılınca **TAM KUTU**, `lon142` değil
 
 ```
 lon142 → TAM kutu farkı:   ~15 dk (90 → 105)
