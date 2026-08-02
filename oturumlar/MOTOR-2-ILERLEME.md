@@ -1062,3 +1062,47 @@ koordinatör diff'i bağımsız doğrulayıp commit'ledi. ~95-105 dk.
 4. `renk_olc.py --dogrula` son artefakta.
 Kural: beklenmedik sayı → ÖNCE BİLDİR, yorumlama (bugünün üç vakası).
 
+## ✅ KOŞU SONRASI DOĞRULAMA — DÖRT ADIM DA YEŞİL (2026-08-03 20:15)
+
+Koşu: 15:10→19:49 (4s39dk; çıkış 0). Doğrulama sırayla:
+
+**1. BÜTÜNLÜK (denetle_yayin):** üretim izi **7/7** (İş G ① TAM KAPANDI —
+izsiz 0) · **VERI_SINIRI donemler.js'te: [-12,-11,146,64]** ✓ · bayat_mi
+**TAZE** ("girdi ile harita aynı, sha256 izi") ✓. İki BAYAT satırı DOĞRU
+POZİTİF: altlik.js (uret_petek/motor_kara değişti) ve devirler.js
+(donemler/devletler_harita/petek_govde yenilendi) — türev üreticiler
+yeniden koşmalı (ucuz; işaretle koşarım).
+
+**2. denetle.py:** Değişmez 1 ✓ **1.579 yerleşim · 50 sahipsiz** ·
+Değişmez 2 ÇEKİRDEK ✓ **493/0 açık — kuyruk yalıtımı SAĞLAM** · kuyruk
+satırları BEKLENENLE BİREBİR: ortaasya2 7·12·6 / avrupa 237·109·83 /
+**asya 344·481·374** · konum **2→0** ✓ (İskandinav çifti içeride) ·
+2s 610/119, 2t 52 (çekirdek sabit, bilinen borç).
+
+**3. renk_olc TAM koşu (ertelenmiş Asya teyidi):** 1.579 nokta · 167
+kimlik, GERÇEK zarf. Çakışma 72→**56** (13 çift düştü — RENK'in
+düzeltmeleri; almanya grisi #16c6fe olmuş, görünmez 14→10) ·
+**YENİ GELEN ÇİFT: 0 — RENK'in "yeni ihlal 0" beklentisi satır düzeyinde
+DOĞRULANDI** · aynı-hex 0 · ÖLÇÜLEMEDİ 113→4 (Asya canlıya girince
+dönemler ölçülür oldu) · aynı-anahtar 1: afsar↔kacar (bilinen İran
+zinciri harita: işi, kuyrukta).
+
+**4. --dogrula:** denetim/oneri-*.txt yok (RENK yeni akışı henüz
+koşmadı); güncel-palet referans artefaktıyla koşuldu → 1 fark: almanya
+#9a9a9a≠#16c6fe — artefaktım koşu ÖNCESİ fotoğraftı, fark RENK'in bilinçli
+düzeltmesi (sapma tespiti yine doğru çalıştı).
+
+**KOORDİNATÖRÜN İKİ SORUSU (ölçüldü):**
+① donemler.js küçülmesi: PARCALAR 3.052→3.002 parça · köşe 2.248.523→
+2.205.105 (−%1,9) · köşe/parça SABİT (737→735). İki zıt kuvvet dengelenmiş:
+yeni kıyı köşeleri eklendi (+) ama nokta 998→1.579 olunca Avrupa'nın
+eskiden tek devasa hücrelerde toplanan uzun kıyı halkaları yeni noktalara
+bölünüp coverage_simplify kavşaklarında sadeleşti (−). Net −%1,9. Tam
+kıyı/iç ayrıştırması istenirse ayrı ölçüm (~10 dk).
+② devletler_harita ×2,9 = İÇERİK, şişme değil: devlet 111→**165** · dönem
+gövdesi 949→**1.737** · parça 5.732→**15.250** · köşe 804k→**2.315k** —
+RENK'in boyadığı 54 yeni devletin (15 Avrupa + 37 Asya + İran zinciri)
+gövdeleri. **gzip TOPLAM: 12,47 → 18,47 MB** (donemler sabit 9,50;
+büyüme devletler_harita 2,42→8,17) — kademeli yükleme işinin değeri arttı;
+devletler_harita da aynı havuz yapısında, aynı yöntemle bölünebilir.
+
