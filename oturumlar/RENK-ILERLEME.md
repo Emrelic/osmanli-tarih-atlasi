@@ -475,6 +475,73 @@ dedektörü, canlı veride dönemi olmayan kimlikler için doğru biçimde
 
 ---
 
+## 4b. BALTIK/İSKANDİNAV KÜMESİ — `almanya` çözüldü · ✅ YAZILDI
+
+### Teşhis: sorun `almanya` değil, KÖŞE
+
+`almanya` beş çakışmadaydı ve tek tek bakınca çözülemiyordu (24 komşu,
+paletin **en kısıtlı** düğümü). Ölçünce kök sebep göründü — köşede **altı
+yakın-nötr renk** yan yana:
+
+```
+almanya #9a9a9a gri · letonya #78909c mavi-gri · litvanya #a1887f sıcak gri
+finlandiya #90a4ae mavi-gri · isvec #7bb5c9 soluk mavi · danimarka #8f8fb5 soluk mor
+⇒ aralarında DOKUZ çakışma, en kötüsü finlandiya↔letonya 3,4
+```
+📌 Kullanıcının *"1541-45 Macaristan'da üç yeşil leke, hangisi ne belli
+değil"* şikâyetinin aynısı — Baltık'ta ve **altı** renkle.
+
+### Çözüm: koordinatör yönü — "onu değil KOMŞUSUNU oynat"
+
+`almanya` **sabit** tutuldu, beş komşusu **birlikte** çözüldü. Tek tek
+çözülemezdi: beşi birbiriyle de çakışıyordu.
+
+| kimlik | eski | yeni | ton kayması |
+|---|---|---|---|
+| `letonya` | `#78909c` | `#c96990` | 122,5° |
+| `litvanya` | `#a1887f` | `#a87b57` | 1,2° |
+| `isvec` | `#7bb5c9` | `#63bda2` | 30,0° |
+| `finlandiya` | `#90a4ae` | `#99a857` | 17,7° |
+| `danimarka` | `#8f8fb5` | `#b484e7` | 10,9° |
+
+`letonya` en uzağa taşındı çünkü köşenin **en kalabalık düğümüydü** (4
+çakışma); uzağa gitmesi dördünü birden kapattı. Yeni tonu 13,9°, paletin
+meşru bandında (`altinorda` 13,2 · `arnavutluk` 14,4 zaten orada; Osmanlı
+şeridi 15-35°, dışında).
+
+### ⚠️ TAVAN ÖLÇÜLDÜ AMA KASTEN KULLANILMADI
+
+Beşinin karşılıklı tavanı **ΔE 26**. O çözüm uçlara kaçıyordu:
+`finlandiya #0387fc` (S 0,99, ton kayması 126°) · `letonya #096612` (S 0,91).
+
+⇒ Amaç **çakışmayı kapatmak** ve bunun için 12 yeterli; **15** uygulandı.
+**Eşiği yükseltmek kapanmaya bir şey KATMAZ, yalnız paletin donuk kimliğini
+bozar.** Beşinin de ham doygunluğu **S 0,48 = paletin medyanı**.
+
+📌 Bu, bu oturumda üçüncü kez öğrenilen şey: *tavanı ölçmek ile tavanı
+kullanmak ayrı kararlardır.* (Avrupa'da 23→17, burada 26→15.)
+
+### Doğrulama
+
+```
+aktarım 5/5 birebir ✓ · dokuz hedef çakışmanın DOKUZU kapandı ✓
+  almanya↔danimarka  9,0→24,4    almanya↔isvec     10,7→16,0
+  almanya↔letonya    5,4→19,0    almanya↔litvanya   5,3→12,5
+  danimarka↔isvec   10,9→37,3    finlandiya↔isvec   6,6→17,6
+  finlandiya↔letonya 3,4→33,3    isvec↔letonya      7,4→35,0
+  letonya↔litvanya   9,7→19,0
+
+py arac/renk_olc.py  →  1235 nokta · 167 kimlik
+  görünmez         13 → 11   (letonya ve finlandiya de görünür oldu)
+  komşu çakışması  66 → 57
+  aynı-hex          0 · aynı-anahtar 1 (afsar↔kacar, VERİ işi)
+```
+🔴 `almanya`nın kalan **tek** çakışması: `venedik` 11,4 (28 komşulu, ayrı iş).
+Ve `almanya` hâlâ altlıktan 12,2 — **görünmez**; rengi değişmedi, yalnız
+komşuları açıldı. Kendi görünürlüğü ayrı bir karar.
+
+---
+
 ## 5. ESKİ §4 — PARTİ 3 notu (aşıldı)
 
 Yöntem hazır ve Parti 2'de sınandı: merge sonrası komşuluk + karşılıklı eşik

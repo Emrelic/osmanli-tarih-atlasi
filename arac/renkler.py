@@ -149,8 +149,38 @@ BOYALAR = {
     "altinorda":  ("Altın Orda ve ardılları","#9e7d9e"),
     "kazan":      ("Kazan Hanlığı",          "#c98f6b"),
     "kirim":      ("Kırım Hanlığı bozkırı",  "#c9825b"),
-    "isvec":      ("İsveç",                  "#7bb5c9"),
-    "danimarka":  ("Danimarka-Norveç",       "#8f8fb5"),
+    # ═══ BALTIK/İSKANDİNAV KÜMESİ — beşi BİRLİKTE değişti (RENK, 2 Ağustos) ═══
+    # 🔴 KÖK SEBEP: `almanya`nın beş çakışması vardı ve tek tek bakınca
+    # çözülemiyordu (24 komşu, paletin EN KISITLI düğümü). Ölçünce görüldü ki
+    # sorun almanya değil KÖŞE: altı yakın-nötr renk yan yana duruyordu —
+    #   almanya #9a9a9a gri · letonya #78909c mavi-gri · litvanya #a1887f
+    #   sıcak gri · finlandiya #90a4ae mavi-gri · isvec #7bb5c9 soluk mavi ·
+    #   danimarka #8f8fb5 soluk mor
+    # ve aralarında DOKUZ çakışma vardı (en kötüsü finlandiya↔letonya 3,4).
+    # 📌 Kullanıcının "1541-45 Macaristan'da üç yeşil leke, hangisi ne belli
+    #   değil" şikâyetinin aynısı, Baltık'ta ve altı renkle.
+    # ⇒ Koordinatör yönü uygulandı: "onu değil KOMŞUSUNU oynat."
+    #   `almanya` SABİT tutuldu (en pahalı hamle), beş komşusu BİRLİKTE çözüldü.
+    #   Tek tek çözülemezdi: beşi birbiriyle de çakışıyordu.
+    #
+    # ⚠️ TAVAN ZORLANMADI — ölçüldü ve KASTEN kullanılmadı: beşinin karşılıklı
+    #   tavanı ΔE 26, ama o çözüm uçlara kaçıyordu (finlandiya #0387fc S 0,99
+    #   ton kayması 126° · letonya #096612 S 0,91). Amaç ÇAKIŞMAYI KAPATMAK ve
+    #   bunun için 12 yeterli; 15 uygulandı, makul pay bıraksın diye.
+    #   Eşiği yükseltmek kapanmaya bir şey KATMAZ, yalnız paletin donuk
+    #   kimliğini bozar. Beşinin de ham doygunluğu S 0,48 = paletin MEDYANI.
+    #
+    # SONUÇ — dokuz çakışmanın DOKUZU kapandı:
+    #   almanya↔danimarka  9,0→24,4   almanya↔isvec     10,7→16,0
+    #   almanya↔letonya    5,4→19,0   almanya↔litvanya   5,3→12,5
+    #   danimarka↔isvec   10,9→37,3   finlandiya↔isvec   6,6→17,6
+    #   finlandiya↔letonya 3,4→33,3   isvec↔letonya      7,4→35,0
+    #   letonya↔litvanya   9,7→19,0
+    # `almanya`nın kalan tek çakışması: venedik 11,4 (28 komşulu, ayrı iş).
+    "isvec":      ("İsveç",                  "#63bda2"),
+    # ↑ Baltık kümesi (bkz. `isvec` üstündeki blok) · ton kayması 10,9° —
+    #   mor kimliği korundu, en yakın engel ΔE 12,1 · altlıktan 31,1
+    "danimarka":  ("Danimarka-Norveç",       "#b484e7"),
     # Eski #b55b6b gül kırmızısıydı (H=349°, S=0.38) — kırmızı tonları Osmanlı
     # ailesine ayrılmıştır, yabancı devlete verilmez. Mora çekildi.
     "ingiltere":  ("Britanya",               "#7e3d8f"),
@@ -250,9 +280,18 @@ BOYALAR = {
     "cekoslovakya": ("Çekoslovakya",          "#5d4037"),
     "polonya":      ("Polonya Cumhuriyeti",   "#ab47bc"),
     "yugoslavya":   ("Yugoslavya (SHS)",      "#00695c"),
-    "letonya":      ("Letonya",               "#78909c"),
-    "litvanya":     ("Litvanya",              "#a1887f"),
-    "finlandiya":   ("Finlandiya",            "#90a4ae"),
+    # ↓ Baltık kümesi — üçü de değişti (bkz. `isvec` üstündeki blok)
+    #   letonya    ton kayması 122,5° — köşenin en kalabalık düğümüydü (4
+    #              çakışma), uzağa taşınması dördünü birden kapattı. Ton 13,9°
+    #              paletin meşru bandında: altinorda 13,2 · arnavutluk 14,4
+    #              zaten orada (Osmanlı şeridi 15-35°, dışında).
+    #   litvanya   ton kayması 1,2° — sıcak gri kimliği korundu
+    #   finlandiya ton kayması 17,7°
+    #   üçünün de C* ve ham doygunluk paletin medyanında; en yakın engel
+    #   ΔE 19,0 / 12,5 / 12,2 · altlıktan 25,0 / 16,5 / 17,3
+    "letonya":      ("Letonya",               "#c96990"),
+    "litvanya":     ("Litvanya",              "#a87b57"),
+    "finlandiya":   ("Finlandiya",            "#99a857"),
     "norvec":       ("Norveç",                "#5c6bc0"),
     # --- İtalya birliğinden (1861) önceki sahipler ---
     "sardinya":     ("Sardinya-Piyemonte",    "#795548"),
@@ -596,7 +635,7 @@ BOYALAR = {
     #   ⇒ 98'lik kalan bir `devletler.js` KAYIT işidir (bu oturumun yetkisi
     #     yalnız `harita:` alanı). Renkleri ölçülmüş ve hazır; kayıtlar
     #     gelince tek adımda girer.
-    # ── #6ba0a0 ile paylaşımlı (zeyyani) · 7 kimlik
+    # ── #6ba0a0  [ASYA · ① EKSİK, gövde yok · zarf(-25,-10,155,75)]  ile paylaşımlı (zeyyani) · 7 kimlik
     "abd":                     ("Amerika Birleşik Devletleri",       "#6ba0a0"),
     "ayutthaya":               ("Ayutthaya Krallığı (Siyam)",        "#6ba0a0"),
     "edo-bakufu":              ("Edo (Tokugawa) Şogunluğu",          "#6ba0a0"),
@@ -604,42 +643,42 @@ BOYALAR = {
     "maratha":                 ("Maratha Konfederasyonu",            "#6ba0a0"),
     "muromachi":               ("Muromachi (Ashikaga) Şogunluğu",    "#6ba0a0"),
     "siyam-chakri":            ("Siyam Krallığı (Rattanakosin / Chakri Hanedanı)", "#6ba0a0"),
-    # ── #636f03 ile paylaşımlı (siena) · 5 kimlik
+    # ── #636f03  [ASYA · ① EKSİK, gövde yok · zarf(-25,-10,155,75)]  ile paylaşımlı (siena) · 5 kimlik
     "behmeni":                 ("Behmenî Sultanlığı (Dekken)",       "#636f03"),
     "qing-hanedani":           ("Qing Hanedanı (Mançu)",             "#636f03"),
     "sulu-sultanligi":         ("Sulu Sultanlığı",                   "#636f03"),
     "toungoo":                 ("Toungoo Hanedanı (Birmanya)",       "#636f03"),
     "yuan-hanedani":           ("Yuan Hanedanı (Moğol Çin)",         "#636f03"),
-    # ── #7b1fa2 ile paylaşımlı (sidamo) · 5 kimlik
+    # ── #7b1fa2  [ASYA · ① EKSİK, gövde yok · zarf(-25,-10,155,75)]  ile paylaşımlı (sidamo) · 5 kimlik
     "brunei-sultanligi":       ("Brunei Sultanlığı",                 "#7b1fa2"),
     "cungar":                  ("Cungar Hanlığı (Kalmuk)",           "#7b1fa2"),
     "konbaung":                ("Konbaung Hanedanı (Birmanya)",      "#7b1fa2"),
     "ryukyu":                  ("Ryukyu Krallığı",                   "#7b1fa2"),
     "yakub-beg":               ("Doğu Türkistan (Yâkub Bey Kâşgar Emirliği)", "#7b1fa2"),
-    # ── #00695c ile paylaşımlı (yugoslavya) · 5 kimlik
+    # ── #00695c  [ASYA · ① EKSİK, gövde yok · zarf(-25,-10,155,75)]  ile paylaşımlı (yugoslavya) · 5 kimlik
     "goryeo":                  ("Goryeo Hanedanı (Kore)",            "#00695c"),
     "hollanda-dogu-hint":      ("Hollanda Doğu Hint Adaları",        "#00695c"),
     "joseon":                  ("Joseon Hanedanı (Kore)",            "#00695c"),
     "majapahit":               ("Majapahit İmparatorluğu (Cava)",    "#00695c"),
     "sih-imparatorlugu":       ("Sih İmparatorluğu (Pencap)",        "#00695c"),
-    # ── #2d8f4a ile paylaşımlı (taceddin) · 4 kimlik
+    # ── #2d8f4a  [ASYA · ① EKSİK, gövde yok · zarf(-25,-10,155,75)]  ile paylaşımlı (taceddin) · 4 kimlik
     "ace-sultanligi":          ("Açe Sultanlığı (Sumatra)",          "#2d8f4a"),
     "malaka-sultanligi":       ("Malaka Sultanlığı",                 "#2d8f4a"),
     "meiji-japonya":           ("Meiji ve Sonrası Japonya İmparatorluğu", "#2d8f4a"),
     "ming-hanedani":           ("Ming Hanedanı",                     "#2d8f4a"),
-    # ── #b34da5 ile paylaşımlı (saruhan) · 4 kimlik
+    # ── #b34da5  [ASYA · ① EKSİK, gövde yok · zarf(-25,-10,155,75)]  ile paylaşımlı (saruhan) · 4 kimlik
     "mataram-sultanligi":      ("Mataram Sultanlığı (Cava)",         "#b34da5"),
     "meysur":                  ("Meysûr Sultanlığı (Haydar Ali / Tipu Sultan)", "#b34da5"),
     "nguyen-hanedani":         ("Nguyễn Hanedanı (Vietnam)",         "#b34da5"),
     "tibet-ganden-phodrang":   ("Tibet (Dalai Lama Hükûmeti, Ganden Phodrang)", "#b34da5"),
-    # ── #00acc1 ile paylaşımlı (turkmen) · 3 kimlik
+    # ── #00acc1  [ASYA · ① EKSİK, gövde yok · zarf(-25,-10,155,75)]  ile paylaşımlı (turkmen) · 3 kimlik
     "delhi-sultanligi":        ("Delhi Sultanlığı",                  "#00acc1"),
     "ingiliz-hindistani":      ("İngiliz Hindistanı (Şirket ve Taç Dönemi)", "#00acc1"),
     "ingiliz-malaya":          ("İngiliz Malaya",                    "#00acc1"),
-    # ── #8d6e63 ile paylaşımlı (timurlu) · 2 kimlik
+    # ── #8d6e63  [ASYA · ① EKSİK, gövde yok · zarf(-25,-10,155,75)]  ile paylaşımlı (timurlu) · 2 kimlik
     "kamboc-kralligi":         ("Kamboçya Krallığı (Post-Angkor)",   "#8d6e63"),
     "vijayanagara":            ("Vijayanagara İmparatorluğu",        "#8d6e63"),
-    # ── #0288d1 ile paylaşımlı (darfur) · 1 kimlik
+    # ── #0288d1  [ASYA · ① EKSİK, gövde yok · zarf(-25,-10,155,75)]  ile paylaşımlı (darfur) · 1 kimlik
     # 🔴 DÜZELTME: önce `yemen` #b5a05b atanmıştı ve DENETİM YAKALADI —
     # görünmez sayısı 13→14 çıktı. Sebep bendeydi: atama süzgecim adayları
     # "renkli komşulardan ΔE≥12" ile eliyordu ama ALTLIKTAN GÖRÜNÜRLÜĞÜ
@@ -651,6 +690,6 @@ BOYALAR = {
     # 📌 Ders: liste boyamada aday süzgeci, tekil rengin BÜTÜN kabul
     #   ölçütlerini taşımalı — komşudan ayrışma yetmiyor, görünürlük de şart.
     "babur-imparatorlugu":     ("Bâbürlü (Timurlu-Hint) İmparatorluğu", "#0288d1"),
-    # ── #6b4a7d ile paylaşımlı (safevi) · 1 kimlik
+    # ── #6b4a7d  [ASYA · ① EKSİK, gövde yok · zarf(-25,-10,155,75)]  ile paylaşımlı (safevi) · 1 kimlik
     "le-hanedani":             ("Lê Hanedanı (Đại Việt)",            "#6b4a7d"),
 }
