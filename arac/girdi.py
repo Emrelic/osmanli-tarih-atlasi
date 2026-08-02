@@ -18,10 +18,12 @@ değişecek tek şey aşağıdaki `GIRDI_DOSYALARI` listesidir.
 `data/yerlesimler_*.js` desenini çıplak okumak cazip ama TEHLİKELİ: depoda
 merge'e hazır OLMAYAN partiler duruyor ve desen onları sessizce içeri alır.
 
-  data/yerlesimler_asya.js    344 nokta — 98 devlet kimliği renkler.py'de YOK,
+  data/yerlesimler_asya.js    344 nokta — 135 devlet kimliği renkler.py'de YOK,
                               tamamı 62°D'nin doğusunda, harita penceresi dışı
-  data/yerlesimler_avrupa.js  228 nokta — 15 kimlik renkler.py'de YOK, DSATUR
+  data/yerlesimler_avrupa.js  237 nokta — 15 kimlik renkler.py'de YOK, DSATUR
                               renk dağıtımı gerekiyor
+  (sayılar 2 Ağustos 2026 ölçümü — yorumdaki sayı ölçümün fotoğrafıdır ve
+  eskir; partiye dokunan oturum yeniden ölçüp burayı düzeltir)
 
 Kimliği tanımsız nokta üretimde uyarı verir ve bölgesi BOYANMAZ; yani glob
 kullanmak "bir dosya ekledim" ile "haritada renksiz delik açtım"ı aynı işleme
@@ -127,9 +129,15 @@ GIRDI_DOSYALARI = [
     # ⚠️ Skradin ÇIKARILDI: 1522 fethinin GÜNÜ bilinmiyor; madde uydurma gün
     #    taşımasın diye kayıt dosyada YORUM olarak bekliyor (§76).
     "yerlesimler_ek.js",
+    "yerlesimler_ortaasya2.js",
+    # 7 nokta (MOTOR 2, 2 Ağustos 2026). Canlıya alınma gerekçesi — üç ön koşulun
+    # üçü de ölçülerek sağlandı: ① 9 devlet kimliğinin 9'u renkler.py BOYALAR'da
+    # tanımlı (yeni renk gerekmedi), ② 7/7 nokta BOLGE kutusunun İÇİNDE
+    # (lon 51,92..61,50 — kutu işi yok), ③ canlı 991 noktaya karşı 3 km çakışması
+    # YOK (en yakın çift 17,36 km: Aşkabad ↔ Nesâ), partinin kendi içinde de yok.
     # HAZIR DEĞİL — kimlikleri renkler.py'de tanımsız, açılırsa renksiz delik:
-    # "yerlesimler_asya.js",    # 344 nokta, 98 tanımsız kimlik, 62°D'nin doğusu
-    # "yerlesimler_avrupa.js",  # 228 nokta, 15 tanımsız kimlik, DSATUR gerekiyor
+    # "yerlesimler_asya.js",    # 344 nokta, 135 tanımsız kimlik, 62°D'nin doğusu
+    # "yerlesimler_avrupa.js",  # 237 nokta, 15 tanımsız kimlik, DSATUR gerekiyor
 ]
 
 YAKINLIK_ESIK_KM = 3.0          # CLAUDE.md §11: 3 km içinde ikinci nokta açma
