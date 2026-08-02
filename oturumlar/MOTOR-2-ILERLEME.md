@@ -778,3 +778,38 @@ Toplam yeni kutu: 20 (13 yeni coğrafya + 7 eski-pencere boşluğu).
 
 ⏳ başladım: İş Q — B8 hazırlığı: 2 ondalık yuvarlamanın YARIK riski (yalnız ölçüm) — 2026-08-02 22:00
 
+## ✅ İş Q — ondalık kısaltma ölçümü: YARIK ÇIKMIYOR, gzip −%32 (22:30)
+
+Örnek küme: petek_govde.js'ten Anadolu (26-45/36-42) 209 hücre, 951.073 km².
+
+**① 0,01° kaç metre:** boylamda enleme bağlı — lat 40'ta 853 m, lat 62'de
+523 m; enlemde sabit 1.113 m. Maks yuvarlama hatası yarım adım: ~430-560 m.
+(Görsel bedel: z8'de ~1 px sınır kayması; KARA_TOL 0,002=220 m kıyı
+hassasiyeti felsefesinin ~2,5 katı — bilgi, karar kullanıcının.)
+
+**② YARIK: ÇIKMIYOR — saf iç yarık 0,000 km² (0 parça).** İlk ölçümde
+görünen 1.136 km²/1.128 parça, iç bölge (−0,02° erozyon) ile ayrıştırılınca
+tamamen DIŞ KIYI ŞERİDİNİN kayması çıktı (kaçınılmaz yarım-adım ötelemesi,
+çatlak değil). Sebep yapısal: coverage_simplify paylaşılan kenarları köşe-
+köşe ÖZDEŞ bırakıyor; özdeş girdi özdeş yuvarlanır. Üstelik donemler.js
+PARÇA HAVUZU kullanıyor — paylaşılan geometri TEK KEZ saklanıp indexle
+başvuruluyor: havuz yuvarlanınca komşular otomatik aynı değeri alır.
+⚠️ Küçük yan etki: 22,7 km² BİNDİRME doğuyor (%0,0024) — çatlak değil
+üst-üste binme; farklı devlet sınırında yerel, yarım-adım renk taşması
+olabilir (beyaz çizgiden çok daha az görünür).
+
+**③ Topoloji-korumalı yol VAR ve ölçüldü** (gerekirse): kenar ağını TEK KEZ
+yuvarlayıp polygonize (motorun kendi deseni, uret_petek.py:501) — iç yarık
+0, bindirme de 0 (yüzler döşeme gereği). Ama ② zaten 0 yarık verdiği için
+basit yuvarlama yeterli; en güvenlisi yuvarlamayı HAVUZA uygulamak.
+Not: per-hücre set_precision(0.01) ÇÖZÜM DEĞİL (aynı sonuç, ayrıca
+tek başına bindirmeyi artırıyor) — ölçüldü.
+
+**④ Gerçek (gzip) kazanç:** donemler.js ham 34,2→30,3 MB (−%11),
+**gzip 9,5→6,5 MB (−%32)**; devletler_harita ham 12,3→10,9 (−%11),
+**gzip 2,4→1,6 MB (−%34)**. Koordinatör kaba ölçümüyle uyumlu.
+⇒ Kullanıcıya inen yük: bugün ~11,9 MB gzip → 2 ondalıkla ~8,1 MB;
+kutu sonrası ~×1,9 ile ~15-16 MB (2 ondalıkla) tahmini.
+
+UYGULANMADI — yalnız ölçüm; karar kullanıcının (B8).
+
