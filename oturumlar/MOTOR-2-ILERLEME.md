@@ -197,3 +197,7 @@ Regresyon: renk_olc.py çıktısı taşıma sonrası BİREBİR AYNI (satır sat�
 diff 0; paylaşımlı 8 anahtar aynı). denetle.py çıktısı da BİREBİR AYNI
 (girdi.py eklemesi yan etkisiz).
 
+---
+
+⏳ başladım: İş F — denetle_yayin.py:414 kimlikler.js BEKLEYEN'den çıksın — 2026-08-02 14:30
+
