@@ -2,7 +2,7 @@
 """
 RENK ÖLÇÜM ARACI — "koştur ve doğrula", elle taşınmış sayı değil.
 
-⚠️ NEDEN VAR (1 Ağustos 2026, VERİ KİMLİK 2 ölçtü):
+⚠️ NEDEN VAR (1 Ağustos 2026):
    `renkler.py`de ΔE hesaplayan **hiçbir fonksiyon yoktu** (ölçüldü: 0).
    Dosyadaki ΔE sayıları Oturum 16'nın tek seferlik bir koşusundan ELLE
    taşınmıştı ve üstelik **%30 opaklıkla** ölçülmüştü — gerçek değer 0,44.
@@ -11,6 +11,17 @@ RENK ÖLÇÜM ARACI — "koştur ve doğrula", elle taşınmış sayı değil.
    yavaşlığı değil.
    📌 Ve bayat blok bir sonraki ölçeni yanıltıyordu: sayılar orada durduğu
       için "ölçülmüş" görünüyordu.
+
+   🔴 TEŞHİS VERİ KİMLİK'İNDİ, ölçüm VERİ KİMLİK 2'nin.
+      VERİ KİMLİK aynı gün koordinatöre şunu yazmıştı: *"(c) hacim değil,
+      gizli bir dördüncü şey — renk seçimi hızlı, asıl sürtünme her kalemde
+      `renkler.py`'ye kendim yazamayıp uygulamayı bekleyen bir round-trip;
+      ikinci bir kimlik oturumu bunu çözmez."* **Haklıydı ve dinlenmedi:**
+      ikinci oturum açıldı ve tam aynı duvara çarptı. VERİ KİMLİK 2'nin
+      yaptığı, o teşhisi sayıya dökmekti (`ΔE fonksiyonu: 0`).
+      📌 Ders: darboğazı yaşayan oturum onu genellikle DOĞRU adlandırır;
+         eksik olan tarif değil, ÖLÇÜ olur. Tarifi olan yerde ikinci bir
+         işçi değil, bir alet gerekir.
 
 KOMUTLAR
    py arac/renk_olc.py                    bütün kimlikleri DENETLE
