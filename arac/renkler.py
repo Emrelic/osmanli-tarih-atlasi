@@ -123,6 +123,12 @@ BOYALAR = {
     "iran":       ("İran",                   "#fe84c6"),
     "karakoyunlu":("Karakoyunlular",         "#4a5b6b"),
     "akkoyunlu":  ("Akkoyunlular",           "#48ae48"),
+    # Irak'ın 1335-1411 penceresi `iran` battaniyesinin altındaydı: İlhanlı
+    # ile Karakoyunlu arasındaki 76 yılın sahibi yazılı değildi. Duvarlar
+    # zaten Tikrit kaydında duruyordu, eksik olan yalnız kutunun adıydı.
+    # TDV CELÂYİRLİLER: 1340-1431, Hasan-ı Büzürg; Bağdat'ı Karakoyunlu
+    # Kara Yûsuf aldı (devletler.js karakoyunlu kronolojisi de 1410 diyor).
+    "celayirli":  ("Celâyirliler",           "#b5432f"),
     "safevi":     ("Safevî İran",            "#6b4a7d"),
     "gurcistan":  ("Gürcistan",              "#6b7da0"),
     # Kullanıcı şikâyeti (hatalar 15 md.5): "1541-1545 Macaristan'da üç yeşil
@@ -269,6 +275,19 @@ BOYALAR = {
     # Lahsa 1670'te Benî Hâlid'e kaybedildi, 1795'te Suûî́lere geçti; arada
     # hiçbir sahip yazılı olmadığı için bölge haritada boş kalıyordu.
     "benihalid":  ("Benî Hâlid Emirliği (Lahsa)", "#8a9440"),
+    # Benî Hâlid'den ÖNCEKİ üç yüzyıl da boştu — daha doğrusu `iran` yazıyordu.
+    # Kullanıcının kendi gözlemi (parti-0001/H-0001): "Arabistan yarımadasında
+    # da iran diye bölgeler var." Doğu Arabistan hiçbir dönemde İran değildi.
+    # TDV CEBRÎLER: 820/1417'de Seyf b. Zâmil kurdu (son Cervânî'yi tasfiye
+    # ederek), merkez Lahsâ, 931/1524-25'te sona erdi.
+    "usfuri":     ("Usfûrîler (Benî Usfûr)", "#2c5f8a"),
+    "cebri":      ("Cebrîler (Benî Cebr)",   "#d1601f"),
+    # Umman kıyısı (Cülfâr, Şârika) Portekiz'den önce de `iran` yazıyordu.
+    # TDV UMAN: Portekiz 1507'den itibaren sahil şehirlerini aldı; öncesinde
+    # bölgede Nebhânîler hüküm sürüyordu.
+    # 🟡 İNCELTİLECEK: Cülfâr limanının Hürmüz Krallığı'na tâbiiyeti
+    #    literatürde var ama TDV'de ayrı madde yok — kaynaklanınca ayrılır.
+    "nebhani":    ("Nebhânîler (Uman)",      "#a0326b"),
     "hicaz":      ("Hicaz Krallığı",         "#9e8a5b"),
     # Doha'nın 1913-1916 arası 1193 günlük sahipsizliğini kapatan kimlik
     # (Değişmez 1b'nin tek açık boşluğuydu). 29 Temmuz 1913 Osmanlı-İngiliz

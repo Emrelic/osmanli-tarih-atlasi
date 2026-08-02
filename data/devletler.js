@@ -359,6 +359,19 @@ window.DEVLETLER = [
     { t:"1514-01-01", tur:"son", b:"Murad'ın ölümüyle hânedan tamamen sona erdi" }
   ]
 },
+{ id:"celayirli", ad:"Celâyirliler", tur:"devlet", bolge:"iran",
+  f:"1340-01-01", t:"1431-01-01", baskent:"Bağdat → Tebriz", harita:"celayirli",
+  ozet:"İlhanlı çöküşünün ardından Irak ve batı İran'da kurulan Moğol asıllı hânedan; Bağdat'ı 1410'da Karakoyunlu Kara Yûsuf'a kaptırdıktan sonra Basra-Hille hattında sürünerek 1431'de tasfiye edildi. (kaynak: TDV, madde: celayirliler)",
+  kronoloji:[
+    { t:"1340-01-01", tur:"kurulus", b:"Hasan-ı Büzürg, İlhanlı otoritesinin dağılması üzerine Bağdat'ta bağımsızlığını ilan etti" },
+    { t:"1382-01-01", tur:"hukumdar", b:"Sultan Ahmed tahta çıktı; saltanatı Timur baskısı altında geçti" },
+    { t:"1393-01-01", tur:"toprak-kayip", b:"Timur Bağdat'ı aldı, Sultan Ahmed Memlûk topraklarına kaçtı" },
+    { t:"1405-01-01", tur:"toprak-kazanc", b:"Timur'un ölümünden sonra Sultan Ahmed Bağdat'ı geri aldı" },
+    { t:"1410-01-01", tur:"toprak-kayip", b:"Karakoyunlu Kara Yûsuf, Sultan Ahmed'i yenip Bağdat'ı ele geçirdi" },
+    { t:"1431-01-01", tur:"son", b:"Karakoyunlu Şah Muhammed son Celâyirli hükümdarını ortadan kaldırdı" }
+  ]
+},
+
 { id:"karakoyunlu", ad:"Karakoyunlu Devleti", tur:"devlet", bolge:"iran",
   f:"1351-01-01", t:"1467-01-01", baskent:"Van-Erciş → Tebriz", harita:"karakoyunlu",
   ozet:"Timur'a tâbi olan, sonra Akkoyunlu'ya yenilen Türkmen devleti.",
@@ -1545,6 +1558,31 @@ window.DEVLETLER = [
 // "sahipsiz" boşlukları doldurmak için özellikle eklenmiş id'lerdi (kod
 // içindeki yorumlar bunu açıkça belirtiyor), TDV'de ikisi de madde var.
 // ================================================================================
+
+{ id:"usfuri", ad:"Usfûrîler (Benî Usfûr)", tur:"devlet", bolge:"arabistan",
+  f:"1281-01-01", t:"1417-01-01", baskent:"Katîf / Lahsâ", harita:"usfuri",
+  ozet:"Uyûnîler'in ardından doğu Arabistan'a (Lahsâ, Katîf, Bahreyn) hâkim olan Benî Ukayl kolu; Cebrîler bu hânedanın içinden çıktı. ⚠️ Atlasta kullanılan 1281 tarihi hânedanın kuruluşu değil, atlasın kendi pencere başlangıcıdır; aradaki Cervânî safhası henüz ayrılmamıştır. (kaynak: TDV, madde: cebriler ve arabistan içinde geçer)",
+  kronoloji:[
+    { t:"1417-01-01", tur:"son", b:"Seyf b. Zâmil, son Cervânî emîri İbrâhim b. Nâsır'ı bertaraf ederek yerine Cebrîler'i kurdu" }
+  ]
+},
+
+{ id:"cebri", ad:"Cebrîler (Benî Cebr)", tur:"devlet", bolge:"arabistan",
+  f:"1417-01-01", t:"1524-01-01", baskent:"Hufuf (Lahsâ)", harita:"cebri",
+  ozet:"XV-XVI. yüzyıllarda Lahsâ merkez olmak üzere doğu Arabistan'da hüküm süren hânedan; Basra körfezinin Arap kıyısını ve Bahreyn'i denetledi, Osmanlı'ya bağlı Müntefik reisi Râşid b. Megāmis tarafından tasfiye edildi. Mescidü'l-Cebrî ile Hufuf'taki Kasr-ı Ecved bugüne kalan eserleridir. (kaynak: TDV, madde: cebriler)",
+  kronoloji:[
+    { t:"1417-01-01", tur:"kurulus", b:"Seyf b. Zâmil, Cervânî hâkimiyetine son vererek hânedanı kurdu (820)" },
+    { t:"1524-01-01", tur:"son", b:"Müntefik reisi Râşid b. Megāmis Cebrî hâkimiyetine son verdi (931)" }
+  ]
+},
+
+{ id:"nebhani", ad:"Nebhânîler (Uman)", tur:"devlet", bolge:"arabistan",
+  f:"1281-01-01", t:"1515-04-01", baskent:"Bahlâ", harita:"nebhani",
+  ozet:"Portekiz işgalinden önce Uman'da ve körfezin güney kıyısında (Cülfâr, Şârika) hüküm süren hânedan. ⚠️ Atlastaki 1281 tarihi hânedanın kuruluşu değil atlasın pencere başlangıcıdır; Cülfâr limanının Hürmüz Krallığı'na tâbiiyeti literatürde geçer ama TDV'de ayrı madde bulunmadığı için henüz ayrılmamıştır. (kaynak: TDV, madde: uman)",
+  kronoloji:[
+    { t:"1515-04-01", tur:"son", b:"Portekiz, 1507'den itibaren aldığı Uman sahilinde hâkimiyeti tamamladı" }
+  ]
+},
 
 { id:"benihalid", ad:"Benî Hâlid Emirliği (Lahsa)", tur:"devlet", bolge:"arabistan",
   f:"1670-01-01", t:"1795-01-01", baskent:"Hufuf", harita:"benihalid",
