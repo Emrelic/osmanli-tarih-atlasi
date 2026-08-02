@@ -1,6 +1,44 @@
 // ============================================================================
 // KIMLIKLER — devlet kimlik sözlüğü (ETIKETLEME.md §5)
 // ============================================================================
+//
+// 🔴🔴🔴  E M E K L İ  —  BU DOSYA CANLI DEĞİL. YAZMAYIN, OKUMAYIN.  🔴🔴🔴
+//         (2 Ağustos 2026, VERİ KİMLİK 2 ölçtü · koordinatör kararı)
+//
+//   · `index.html` 24 veri dosyası yüklüyor; BU DOSYA ARALARINDA YOK.
+//     Arayüz onu hiç okumuyor, hiç okumadı. Buraya yazılan hiçbir şey
+//     haritada görünmez.
+//   · TEK OTORİTE: `data/devletler.js`. Haritaya giden köprü onun
+//     `harita:` alanıdır — buradaki `harita` alanı DEĞİL.
+//
+//   ⚠️ NEDEN ÖNEMLİ (bu dosya bir oturumun bütün gününü yuttu):
+//     VERİ KİMLİK kimlikleri buraya doğru doğru yazdı, iş görünmedi,
+//     kuyruk aynı kalemleri ona tekrar tekrar gönderdi ve oturum
+//     "sessiz kaldı" diye teşhis edildi. Sessiz değildi — GÖRÜNMEZDİ.
+//
+//   ✅ BURADAKİ İŞ KURTARILDI, kaybolan yok:
+//     · 4 `harita:` değeri `devletler.js`'e taşındı        (104eb0b)
+//       arnavutluk-bagimsiz · nogay · kazak-hanligi · (zend beklemede)
+//     · 117 `harita:` değerinin 113'ü zaten birebir aynıydı, 0 uyuşmazlık
+//     · 6 tarih farkı hükme bağlandı                       (76414f8)
+//       ALTISINDA DA `devletler.js` haklı: 5'i §74 vakası (iki dosya
+//       rakip cevap değil, AYRI SORULARIN cevabını tutuyor — "devlet ne
+//       zaman bitti" vs "toprağını ne zaman kaybetti"), 1'i takvim farkı
+//       (kirim: 1783-04-08 Eski Takvim = 1783-04-19 Yeni Takvim).
+//
+//   📌 SİLİNMEDİ, çünkü tarihî kayıt: neyin denendiğini ve niçin
+//      yürümediğini gösteriyor. Ama artık YAZILMAZ ve OKUNMAZ.
+//
+// ----------------------------------------------------------------------------
+// Aşağısı dosyanın ÖZGÜN başlığıdır; tarihî kayıt olarak DEĞİŞTİRİLMEDİ.
+// ⚠️ İki iddiası GERÇEKLEŞMEDİ, ölçüldü:
+//    1. "TEK doğruluk kaynağı olmak üzere tasarlandı" — olmadı; hiç
+//       yüklenmedi ve otorite `devletler.js`te kaldı.
+//    2. "f / t : DEVLETLER.f/.t ile BİREBİR" — değil; 6 kayıtta sapıyor
+//       (rodos-sovalyeleri 275 yıl · akkoyunlu 13 yıl · memluk 81 gün ·
+//        misir-kavalali t 43 gün / f 6 gün · kirim 11 gün).
+// ----------------------------------------------------------------------------
+//
 // Oturum 9 (devlet derinleştirme) tarafından üretildi, merkez oturumun
 // isteği üzerine. TEK doğruluk kaynağı OLMAK ÜZERE TASARLANDI ama bugün
 // yalnız `devlet` ekseni dolu; `cografya`, `kisi`, `devir` eksenleri
@@ -207,7 +245,10 @@ window.KIMLIKLER = {
   "buhara": { ad:"Buhara Hanlığı / Emirliği", f:"1500-01-01", t:"1920-09-02", bolge:"orta-asya", harita:"buhara" },
   "hive": { ad:"Hive Hanlığı", f:"1512-01-01", t:"1920-04-26", bolge:"orta-asya", harita:"hive" },
   "hokand": { ad:"Hokand Hanlığı", f:"1710-01-01", t:"1876-02-19", bolge:"orta-asya", harita:null },
-  "kazak-hanligi": { ad:"Kazak Hanlığı", f:"1465-01-01", t:"1847-01-01", bolge:"orta-asya", esad:["kazak"], harita:"kazak" },
+  // BOYALAR'daki gerçek anahtar "kazak-hanligi"dir, "kazak" DEĞİL (renkler.py
+  // doğrudan okundu, doğrulandı) — harita:"kazak" sessizce çökerdi (VERİ
+  // KİMLİK 2'nin bulgusu, Oturum 9 düzeltti).
+  "kazak-hanligi": { ad:"Kazak Hanlığı", f:"1465-01-01", t:"1847-01-01", bolge:"orta-asya", harita:"kazak-hanligi" },
   "cungar": { ad:"Cungar Hanlığı (Kalmuk)", f:"1634-01-01", t:"1758-01-01", bolge:"orta-asya", harita:null },
   "yakub-beg": { ad:"Doğu Türkistan (Yâkub Bey Kâşgar Emirliği)", f:"1865-01-01", t:"1878-03-16", bolge:"orta-asya", harita:null },
   "delhi-sultanligi": { ad:"Delhi Sultanlığı", f:"1206-01-01", t:"1526-04-21", bolge:"guney-asya", harita:null },

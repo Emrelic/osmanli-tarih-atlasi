@@ -159,7 +159,7 @@ window.DEVLETLER = [
     { t:"1711-07-08", tur:"ittifak", b:"Devlet II Giray, Prut Seferi'nde Osmanlı ordusuna katıldı" },
     { t:"1736-01-01", tur:"isgal", b:"Rus orduları Bahçesaray'ı yaktı" },
     { t:"1774-07-21", tur:"antlasma", b:"Küçük Kaynarca — Kırım siyaseten bağımsız ilan edildi, dinî bağ Osmanlı'da kaldı" },
-    { t:"1783-04-19", tur:"son", b:"Rusya, Kırım'ı ilhak etti" }
+    { t:"1783-04-19", tur:"son", b:"Rusya, Kırım'ı ilhak etti (II. Katerina'nın ilhak manifestosu; kaynaklarda 8 Nisan 1783 olarak da geçer — o ESKİ TAKVİM/Julian karşılığıdır, XVIII. yy'da fark 11 gün. Bu dizin YENİ TAKVİM/Gregoryen kullanır; aynı konvansiyon Küçük Kaynarca'da da geçerli: 1774-07-21 Yeni, Eski'de 10 Temmuz)" }
   ]
 },
 
