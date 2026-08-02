@@ -39,8 +39,18 @@ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # veri-kaynak/README.md. Yol betiğin konumundan türetilir, makineye bağlı değildir.
 BASEMAPS = os.path.join(KOK, "veri-kaynak")
 CIKTI = os.path.join(KOK, "data", "donemler.js")
-# Kapsam: Batı Avrupa'dan Ural batısına, İskandinav güneyinden Afrika boynuzuna
-BOLGE = box(-12, 1.5, 62, 62)
+# Kapsam (2 Ağustos 2026 genişletmesi — KARAR-BOLGE-KUTUSU): Batı Avrupa'dan
+# Japonya'ya, Endonezya'dan Kuzey İskandinavya'ya. Kenar gerekçeleri ölçülü:
+#   DOĞU 146: Hokkaido+Sahalin BÜTÜN girer (İş M; 142 Sapporo'nun kendi
+#     adasını bölüyordu, 145 Hokkaido'yu yarım bırakıyordu); Yeni Gine
+#     bölünmesi BİLİNÇLİ kabul (noktasız, hiçbir kenar kapatamıyor, kesik
+#     tarihî 141° Hollanda sınırının yanında — §82 notu).
+#   GÜNEY −11: Endonezya takımadası (24 nokta yalnız Doğu+Güney birlikte
+#     açılınca girer — İş J kenar etkileşimi).
+#   KUZEY 64: Sundsvall+Trondheim girer; 64'ü aşan her derece bugün
+#     getirisiz (İş J: 71'e uzatmak aynı 2 nokta için 3,3 kat pahalı).
+#   BATI −12: değişmedi (lon<−12'de nokta YOK — İş J, bulunamadı).
+BOLGE = box(-12, -11, 146, 64)
 
 # ---------------- Devlet boya tablosu ----------------
 # Yerleşimlerin s alanındaki kimlikler; her devlet haritada kendi renginde

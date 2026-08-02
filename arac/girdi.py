@@ -146,8 +146,17 @@ GIRDI_DOSYALARI = [
     #   (63,4°K) BUGÜN kutu dışında: kuzey kenarı 64 olunca girecekler,
     #   o zamana dek maske-dışı görünmeleri BEKLENEN durumdur,
     # ④ tarih hassasiyeti: YYYY-01-01 yer tutucu %25 (ortaasya2: %59).
-    # HAZIR DEĞİL — kimlikleri renkler.py'de tanımsız, açılırsa renksiz delik:
-    # "yerlesimler_asya.js",    # 344 nokta, 135 tanımsız kimlik, 62°D'nin doğusu
+    "yerlesimler_asya.js",
+    # 344 nokta (MOTOR 2, 2 Ağustos 2026 — kutu genişletme koşusuyla).
+    # KOORDİNATÖR KARARI: 37-renkle açılış — 147 kimliğin 49'u boyalı, 98'i
+    # renksiz ve renksiz dönem BOŞLUK üretir (yanlış renk değil; motor
+    # kuralı). Ölçüldü (İş T): kalıcı boşluk 13 nokta / kara %1,2; dönemsel
+    # tepe 1550'de yeni gelen alanın ~%33'ü; bugün boyalı HİÇBİR alan
+    # boşalmaz (regresyon 0 km² — ölçüm). 98 kayıt koşu SONRASI iş kuyruğu
+    # (denetle.py KUYRUK_DOSYALARI bu dosyayı zaten ayrı sayaçla izliyor;
+    # 1550 öncelik listesi: kuzey-yuan · mogulistan · yarkent · tibet).
+    # Ön koşullar: 3 km çakışma 0 (İş J evreninde) · kutu ölçümleri İş C/J/M
+    # · maske-dışı 0 beklenir (344/344 yeni kutunun içinde — İş C ③b).
 ]
 
 YAKINLIK_ESIK_KM = 3.0          # CLAUDE.md §11: 3 km içinde ikinci nokta açma
