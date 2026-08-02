@@ -751,3 +751,26 @@ Kıbrıs; Akkirman·Kili·Özi·Kefe: bozkır kutusu lat 47'den). Üç kutuyla
 kapatıldı. Kalan 59 "diğer" dağınık tekil noktalar (Lvov, Astrahan, Maskat,
 Murzuk, Ndjamena…) — kaba kutu amacına uygun meşru kuyruk, kutulanmadı.
 
+## ✅ İş P eki — KUTUSUZ ALAN öz-denetimi + doğrulama koşusu (21:45)
+
+**Doğrulama koşusu (koordinatör 5 koordinatı yazdı, a3f8e91):**
+konum denetimi **7 → 2** — kalan ikisi tam beklenen Sundsvall (43,5 km) +
+Trondheim (159,3 km), kuzey 64'ü bekliyorlar. Değişmez 1: 50 sabit ✓.
+5 kıyı vakası KAPANDI.
+
+**Öz-denetim (koordinatör şartı — "eksikliği görünür kıl"):**
+denetle_kapsama.py artık kutusuz kara ızgarasını KENDİSİ sayıyor ve en
+kalabalık isimsiz yığınları 5°lik kovalarla KOORDINATIYLA basıyor —
+liste elle yazılır, araç eksikliği söyler; hatırlamak kimsenin görevi değil.
+
+Aracın ilk müşterisi kendisi oldu — üç turda:
+- 1. koşu: **%31 kutusuz!** En büyük yığın Batı Afrika/Sahel — eski listede
+  hiç yokmuş, "diğer"in 1.468 km'lik en kötüsü bu yüzden isimsizdi.
+  → ("Batı Afrika/Sahel") eklendi → %6,2
+- 2. tur: üç yığın adlandı (Batı Ukrayna/Baltık arası · Hazar doğusu/
+  Üstyurt · Sudan güneyi) → **%1,0** (554 ızgara noktası: Umman köşesi,
+  Volga-Don şeritleri — meşru kuyruk, araç raporluyor)
+- Regresyon her turda ölçüldü: eski ataması değişen nokta **0** ✓;
+  "diğer"den isim kazanan toplam **436 nokta**.
+Toplam yeni kutu: 20 (13 yeni coğrafya + 7 eski-pencere boşluğu).
+

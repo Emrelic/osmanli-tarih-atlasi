@@ -105,6 +105,15 @@ BOLGE_KUTULARI = [
     # Akkirman·Kili·Özi·Kefe açıkta kalıyordu).
     ("Kıbrıs",               32.0, 35.0, 34.5, 35.8),
     ("Karadeniz kuzey kıyısı", 29.0, 42.0, 44.0, 47.0),
+    # KUTUSUZ-ALAN öz-denetiminin İLK koşusunun bulgusu (aşağıdaki blok):
+    # bugünkü pencerenin %31'i kutusuzdu ve en büyük yığın Batı Afrika /
+    # Sahel'di (lat 5-15) — eski listede hiç yokmuş, "diğer"in en kötüsü
+    # 1.468 km bu yüzden isimsizdi. Aracın ilk gerçek müşterisi kendisi oldu.
+    ("Batı Afrika/Sahel",   -12.0, 24.0,  1.5, 27.0),
+    # Öz-denetimin ikinci turunda kalan üç yığın (%6,2'nin gövdesi):
+    ("Batı Ukrayna/Baltık arası", 24.0, 29.0, 48.0, 56.0),
+    ("Hazar doğusu/Üstyurt",      50.0, 62.0, 41.0, 47.0),
+    ("Sudan güneyi",              24.0, 36.0,  1.5,  8.0),
 ]
 
 
@@ -249,6 +258,33 @@ def main():
         en_kotu = uzaklik[maske].max()
         durum = "✓" if en_kotu <= esik else "✗"
         print(f"   {b:<20} en kötü {en_kotu:6.0f} km   {durum}")
+
+    # 🔴 KUTUSUZ ALAN — listenin eksikliğini ARAÇ SÖYLER (İş P, 2 Ağustos).
+    # BOLGE_KUTULARI elle yazılır ve BOLGE'den TÜRETİLEMEZ (coğrafî ad işi);
+    # elle listenin kaderi eksik kalmaktır — bugün ölçüldü: eski pencerede
+    # bile 110 canlı nokta "diğer"deydi ve kimse sorgulamamıştı, çünkü
+    # "diğer" özetde tek anonim satıra sıkışıyor ve NEREDE olduğu
+    # görünmüyordu. Bu blok kutusuz kara ızgarasını sayar ve en kalabalık
+    # isimsiz yığınları KOORDINATIYLA basar: coğrafya genişleyince liste
+    # eksik kalırsa bunu hatırlamak kimsenin görevi değil, aracın işi.
+    diger = np.array([bolge_adi(lo, la) == "diğer"
+                      for lo, la in zip(izg_lon, izg_lat)])
+    n_diger = int(diger.sum())
+    if n_diger:
+        print(f"\n⚠️  KUTUSUZ ALAN: kara ızgarasının {n_diger} noktası "
+              f"(%{100 * n_diger / max(1, len(izg_lon)):.1f}) hiçbir bölge "
+              f"kutusuna girmiyor. En kalabalık isimsiz yığınlar (5° kova):")
+        kova = {}
+        for lo, la in zip(izg_lon[diger], izg_lat[diger]):
+            k = (int(lo // 5) * 5, int(la // 5) * 5)
+            kova[k] = kova.get(k, 0) + 1
+        for (lo, la), n in sorted(kova.items(), key=lambda t: -t[1])[:5]:
+            print(f"      lon {lo}..{lo + 5} · lat {la}..{la + 5}: "
+                  f"{n} ızgara noktası")
+        print("    → BOLGE_KUTULARI'na kutu ekle — liste elle yazılır, "
+              "araç ancak eksikliği söyleyebilir")
+    else:
+        print("\n✓  kutusuz alan yok — kara ızgarasının tamamı adlandırılmış")
 
     if args.gorsel:
         print(f"\nGörsel üretiliyor: {args.gorsel}")
