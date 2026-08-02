@@ -382,7 +382,82 @@ yerleşik ve doğru uygulanmış; tek istisna İran zinciri.
 
 ## 🔍 ALTI TARİH ÇATIŞMASI — hükme bağlama
 
-⏳ **başladım: altı tarih çatışması — 2 Ağustos**
+✅ **altı tarih çatışması — 2 Ağustos, hükme bağlandı**
 Yetki: yalnız `data/devletler.js` (hükme bağlanan tarih) + bu defter.
-`kimlikler.js`'e **dokunulmuyor** (emekli).
+`kimlikler.js`'e **dokunulmadı** (emekli).
+
+### 🔴 SONUÇ: ALTISINDA DA `devletler.js` HAKLI — HİÇBİR TARİH DEĞİŞMİYOR
+
+Ve daha önemlisi: **beşi "çatışma" bile değil.** Koordinatörün `§74` sezgisi
+doğruydu, ama vaka üçle sınırlı değil — **beş.**
+
+| # | id | hüküm | güç |
+|---|---|---|---|
+| 1 | `rodos-sovalyeleri` | `§74` ayrı sorular | **KESİN** |
+| 2 | `akkoyunlu` | `§74` ayrı sorular | **KESİN** |
+| 3 | `memluk` | `§74` ayrı sorular | **KESİN** |
+| 4 | `misir-kavalali` `t` | `§74` ayrı sorular | **KESİN** |
+| 5 | `kirim` | **çatışma değil — aynı olay, iki TAKVİM** | **KESİN** |
+| 6 | `misir-kavalali` `f` | `§74` değil; kaynak farkı | **DESEN** |
+
+### ⭐ ASIL BULGU: dördünün cevabı ZATEN canlı dosyanın içinde
+`kronoloji:` dizilerine baktım — `kimlikler.js`'in "rakip" saydığı tarih
+**dördünde de orada, üstelik ne olduğu yazılı:**
+```
+rodos      { t:"1522-12-25", tur:"toprak-kayip",
+             "ada teslim edildi; tarikat 1530'a dek TOPRAKSIZ kaldı" }
+akkoyunlu  { t:"1501-01-01", tur:"toprak-kayip",
+             "Şah İsmâil Tebriz'i aldı; Elvend Diyarbekir'de SÜRDÜ" }
+memluk     { t:"1517-01-22", tur:"savas",
+             "Ridaniye'de Tomanbay'ın ordusu dağıtıldı, KAHİRE DÜŞTÜ" }
+kavalali   { t:"1914-11-05", tur:"savas", "İngiltere savaş ilan etti
+             (Mısır'daki nominal Osmanlı bağı HENÜZ BİTMEDİ)" }
+```
+⇒ İki dosya **rakip cevap tutmuyor**: `devletler.js` `f`/`t` alanında
+*"devlet ne zaman bitti"*yi, `kronoloji:`de *"toprağını ne zaman kaybetti"*yi
+ayrı ayrı taşıyor. `kimlikler.js` ikisini **tek alana** sıkıştırmış ve
+*"toprak kaybı"* olanı seçmiş.
+📌 `kavalali` kaydı bunu **kendi cümlesiyle** söylüyor: *"nominal Osmanlı bağı
+henüz bitmedi."* Canlı dosya yalnız daha doğru değil, **farkın bilincinde.**
+⇒ **`kimlikler.js` emekli olunca bu dört bilgiden hiçbiri kaybolmuyor.**
+
+### ⑤ `kirim` — çatışma değil, TAKVİM
+```
+kimlikler.js  1783-04-08        devletler.js  1783-04-19        fark: 11 GÜN
+```
+11 gün, XVIII. yüzyılda **Julian↔Gregoryen** farkının tam kendisi. II.
+Katerina'nın ilhak manifestosu 8 Nisan 1783 (Eski Takvim) = 19 Nisan 1783
+(Yeni Takvim). **Aynı olay, iki takvim.**
+Dizinin konvansiyonu ölçüldü: Küçük Kaynarca `1774-07-21` yazılı — Yeni
+Takvim (Eski Takvim'de 10 Temmuz). ⇒ Dizin **baştan sona Yeni Takvim**
+kullanıyor, `devletler.js` tutarlı.
+⚠️ **TEK GERÇEK KAYIP BURADA:** `04-08`'in Eski Takvim karşılığı olduğu bilgisi
+canlı dosyada **hiçbir yerde yok**. `kimlikler.js` emekli olunca bu kaybolur.
+`kronoloji`deki `{ t:"1783-04-19", tur:"son" }` girdisine tek cümlelik bir not
+düşülmesini **öneriyorum** — ama bu "hükme bağlanan tarih" değil, **metin
+eklemesi**; yetkimi aştığı için yapmadım, koordinatöre sordum.
+
+### ⑥ `misir-kavalali` `f:` — `§74` DEĞİL, kaynak farkı
+```
+kimlikler.js  1805-07-09   kunye YOK
+devletler.js  1805-07-03   "(kaynak: TDV, madde: kavalali-mehmed-ali-pasa)"
+              kronoloji:   { t:"1805-07-03", tur:"kurulus",
+                             "Bâbıâli tarafından Mısır valiliğine getirildi
+                              (oldubittinin tanınması)" }
+```
+6 gün — takvim farkı **değil** (Julian farkı 12 gün, Hicrî dönüşüm başka türlü
+sapar). İkisi de **aynı** soruyu cevaplıyor: *"Mehmed Ali ne zaman vali oldu?"*
+⇒ `§74` uygulanmıyor. Ayrım kaynakta: canlı dosya **TDV künyeli**, ölü dosya
+**künyesiz**. Proje kuralı TDV'yi birincil sayıyor ⇒ `devletler.js` kalır.
+🔴 **DÜRÜSTLÜK NOTU:** TDV maddesini **ben okumadım** — internet erişimim yok.
+Bu yüzden güç etiketi **KESİN değil, DESEN**: *"künyeli kayıt künyesizden
+üstündür"* desenine dayanıyor, tarihin kendisinin doğrulanmasına değil.
+`1805-07-03`'ün TDV'de birebir böyle geçtiği **doğrulanmadı**. Kesinlik
+isteniyorsa maddeyi okuyan bir oturum bakmalı.
+
+### ⇒ ADIM 2 BİTTİ, ADIM 3'ÜN ÖNÜ AÇIK
+Koordinatörün sırası bağlayıcıydı: *2 bitmeden 3'e geçilmez.* Altı çatışmanın
+altısı hükme bağlandı, **hiçbiri `devletler.js`'i değiştirmiyor**, biri
+(`kirim` Eski Takvim notu) tek cümlelik bir ekleme öneriyor.
+⇒ `kimlikler.js`'e **emeklilik notu yazılabilir.**
 
