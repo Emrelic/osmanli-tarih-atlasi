@@ -349,27 +349,111 @@ BOYALAR = {
     # ⚠️ KİMLİK ADI: kısa `kazak` DEĞİL. Türkçede "kazak" hem Kazak Hanlığı'nı
     # hem Ukrayna kazaklarını karşılıyor ve atlas ikisini de kapsıyor; karışma
     # sessiz olurdu. Merkez oturumun kararı `kazak-hanligi`.
-    # 🔴 `yerlesimler_ortaasya2.js` bugün hâlâ `d:"kazak"` yazıyor — dosya
-    #    Oturum 9'un, düzeltmesi onda. Merge'den önce eşleşmeli.
+    # ✅ ÇÜRÜK DÜZELTİLDİ (RENK oturumu, 2 Ağustos 2026). Burada
+    #    "`yerlesimler_ortaasya2.js` bugün hâlâ `d:"kazak"` yazıyor" yazıyordu.
+    #    ÖLÇÜLDÜ, artık doğru değil — dosya merge edildi ve girdi.py okuyor:
+    #      d:"kazak-hanligi" 3 · altinorda 3 · iran 3 · rusya 7 · nogay 2 ·
+    #      ilhanli 1 · safevi 1 · timurlu 1 · turkmen 1     → kısa `kazak` SIFIR
+    #    9 kimliğin 9'u da BOYALAR'da tanımlı. Uyarı geçmişte doğruydu, bugün
+    #    okuyanı olmayan bir işe yönlendiriyordu.
     #
-    # 🔴 1 Ağustos 2026 18:05 — BU BLOKTAKİ ΔE SAYILARI BAYAT VE GÜVENİLMEZ.
-    # Aşağıda "dolgu %30" yazıyor; dosya başındaki §41 satırı o değerin
-    # YANLIŞ olduğunu ve gerçeğin `js/app.js:559` → 0.44 olduğunu söylüyor.
-    # Üstelik §41'in "yanlış parametreyle ölçüldü" diye SAYDIĞI kimlikler
-    # (nogay · kazak-hanligi) tam da aşağıda listelenenler.
-    # ⇒ Bir sonraki ölçen kişi bu bloktan türetirse 31 Temmuz'daki hatayı
-    #   AYNEN tekrarlar. VERİ KİMLİK 2 bunu 1 Ağustos'ta yakaladı ve
-    #   sayıları DÜZELTMEDİ — ölçemediği için uydurmadı, doğru davranış.
-    # 🔴 VE ASIL SORUN: bu dosyada ΔE hesaplayan HİÇBİR FONKSİYON YOK
-    #   (ölçüldü: 0). Aşağıdaki sayılar Oturum 16'nın tek seferlik DSATUR
-    #   koşusundan ELLE taşınmış. Yani "koştur ve doğrula" MÜMKÜN DEĞİL.
-    #   Ölçüm aracı yazılana kadar yeni renk üretilemiyor — kimlik
-    #   kuyruğunun gerçek darboğazı budur, oturum yavaşlığı değil.
-    #
-    # Komşuluk gerçek Voronoi'den (gün bazında dönem çakışmasıyla), ΔE dosya
-    # başındaki kurala göre BİNDİRİLMİŞ (dolgu %30 ← BAYAT, bej altlık); eşik 12,0.
-    #   kazak-hanligi: 9 komşu — safevi ΔE 14,9 · buhara 17,6 · timurlu 19,8
-    #   nogay        : 5 komşu — timurlu ΔE 21,2 · rusya 22,0 · hive 31,0
+    # ✅ BAYAT ΔE BLOĞU KALDIRILDI (aynı oturum). Burada "dolgu %30" ile
+    #    ölçülmüş kazak-hanligi/nogay ΔE sayıları duruyordu; dosya başındaki
+    #    §41 o parametrenin YANLIŞ olduğunu (gerçek 0.44) söylüyordu — yani
+    #    blok kendi dosyasının uyarısıyla çelişiyordu. Sayılar SİLİNDİ,
+    #    düzeltilmedi: yeniden ölçmeden yenisini yazmak aynı hatanın tekrarı
+    #    olurdu (§B3 — dokümandaki sayı ölçümün fotoğrafıdır ve eskir).
+    # 📌 Ve blokta "bu dosyada ΔE hesaplayan hiçbir fonksiyon yok, koştur-ve-
+    #    doğrula mümkün değil" yazıyordu. O DA GEÇTİ: `arac/renk_olc.py`
+    #    (1 Ağustos, ef4a018) tam bunun için yazıldı. Ölçüm artık
+    #    `py arac/renk_olc.py` ile tekrarlanabilir; elle taşınan sayıya
+    #    gerek yok. Bu yüzden buraya yeni sayı YAZILMIYOR — araç var.
     "kazak-hanligi": ("Kazak Hanlığı",        "#ad1457"),
     "nogay":         ("Nogay Ordası",         "#f9a825"),
+
+    # ═══ AVRUPA PARTİSİ — 15 kimlik (RENK oturumu, 2 Ağustos 2026) ═══
+    # `data/yerlesimler_avrupa.js`in 237 noktasının 235'i BOLGE kutusunun
+    # içinde; kutuya dokunmadan çizilir. Önündeki tek engel bu 15 rengin
+    # olmamasıydı. Renk ÖNCE girer, izin listesi (girdi.py) sonra — renksiz
+    # kimlikle merge edilirse motor "bilinmeyen devlet kimliği" basar ve
+    # bölge BOYANMAZ.
+    #
+    # 🔴 NEDEN `renk_olc.py --oner` TEK BAŞINA YETMEDİ — ölçüldü:
+    #   girdi.py `yerlesimler_avrupa.js`i OKUMUYOR, dolayısıyla bu 15 kimliğin
+    #   canlı veride SIFIR noktası var. `--oner` onlara "komşusu ölçülemeyen
+    #   kimlik" der ve öneriyi yalnız altlık + Osmanlı ikilisine dayandırır —
+    #   yani DAYANAKSIZ. Aracın kendi uyarısı bunu söylüyor (renk_olc.py:269).
+    #   ⇒ Komşuluk MERGE SONRASI dünya için kuruldu: canlı 998 + avrupa 237 =
+    #     1235 nokta üzerinde gerçek Voronoi + GÜN düzeyinde dönem örtüşmesi.
+    #     Renk, merge sonrası dünyada geçerli olmalı; bugünkü dünyada zaten inert.
+    #     (arac/*.py değiştirilmedi, yalnız import edildi.)
+    #
+    # ÖLÇÜLEN KOMŞULUK — yeniler arası 12 çift, birbirinden de ayrışmalı:
+    #   aragon↔kastilya · aragon↔navarra · kastilya↔navarra   (İber üçlüsü)
+    #   ferrara↔mantua · ferrara↔parma · ferrara↔piza · mantua↔parma ·
+    #   piza↔siena                                            (İtalya beşlisi)
+    #   belcika↔luksemburg · bretanya↔kastilya · irlanda↔iskocya ·
+    #   irlanda↔kastilya
+    #
+    # 🔴 VE KOMŞULUK KISITI TEK BAŞINA YETMEZ — ilk çözümüm bu yüzden ÇÖPE GİTTİ:
+    #   yalnız "komşudan ΔE ≥ 12" uygulanınca komşu OLMAYAN kimliklere hiçbir
+    #   kısıt kalmıyor ve yetinmeci tercih hepsini aynı köşeye çöktürüyor:
+    #       luksemburg #4baf5a ↔ isvicre #4baf4b   ΔE 3,5   ← pratikte AYNI RENK
+    #       altı mavi 182-218° bandında, dört yeşil 133-150° bandında
+    #   Brifingin uyarısı tam buydu: "beşi yakın tonda çıkarsa İtalya tek renk
+    #   olur ve kimse fark etmez." Voronoi komşuluğu görsel karışmanın
+    #   TAMAMINI yakalamıyor: aynı ekranda duran iki gövde komşu olmasa da karışır.
+    #   ⇒ EK KISIT: 15'i BİRBİRİNDEN ΔE ≥ 17 (komşuluktan bağımsız).
+    #
+    # 🔴 EŞİK VERİLMEDİ, ÖLÇÜLDÜ (koordinatör "13,6" rakamını doğrulamadığı
+    #   için aktarmamıştı — doğru davranış; ölçtüm ve 13,6 çıkmadı):
+    #     kısıtsız matematik tavanı            karşılıklı ΔE 23
+    #     ama çözüm UÇLARA kaçıyor: #e808f8 macenta · #28d428 saf yeşil ·
+    #     #f01058 ve #e43c1c KIRMIZI (aşağıdaki kuralı çiğniyor) ·
+    #     #182840 L*59 bej altlıkta neredeyse siyah
+    #     ⇒ 23 matematik tavan, KULLANILABİLİR tavan değil (renk_olc.py:324
+    #       aynı tuzağı zaten kaydetmiş: "en ayrık'ı seçmek uçlara kaçıyor")
+    #     palet kutusu + kırmızı yasağı ile   karşılıklı ΔE 17   ← UYGULANAN
+    #
+    # KABUL KUTUSU — mevcut 114 rengin bindirilmiş dağılımından ölçüldü:
+    #     L* [63,5 · 80,8]  (p05-p95)      C* [4,9 · 33,0]  (p05-p95)
+    #     altlıktan ΔE ≥ 15                komşudan ΔE ≥ 12
+    #
+    # ⚠️ KIRMIZI YASAĞININ YERİ DE ÖLÇÜLDÜ — iki kez yanlış kurdum:
+    #   Önce 20°±22, sonra 20°±30 denedim; ikisi de çözümü kendi sınırına
+    #   oturttu (isvicre 43,0° · iskocya 50,6° — hâlâ tuğla kırmızısı). Yasağı
+    #   genişletmek sorunu çözmedi, TAŞIDI. Hata yasağın genişliğinde değil
+    #   YERİNDEYDİ. Paletin 0-70° bandı ölçülünce gerçek şu çıktı:
+    #       19,3 / 21,5   OSMANLI doğrudan / tâbi
+    #       30,0-30,3     süleyman·musa·mehmed·isa çelebi ← Fetret payları
+    #       ——————————— 32°-63° arası BOŞ ———————————
+    #       63,8-69,7     fas · kirim · haciemir · sardinya ← meşru yabancı kahveleri
+    #   ve 350-15° bandında YEDİ yabancı devlet ZATEN var: lehistan 359,3 ·
+    #   esrefogullari 0,2 · kazak-hanligi 5,2 · selcuklu 7,1 · napoli 8,8 ·
+    #   altinorda 13,2 · arnavutluk 14,4
+    #   ⇒ Kural kırmızının TAMAMINI değil, Osmanlı ailesinin oturduğu
+    #     15-35° şeridini ayırıyor. ±22 yasağı bu yedi MEŞRU rengi de dışlıyor
+    #     ve aday havuzunu yanlış yerden kırpıyordu. Uygulanan: 25°±10.
+    #
+    # DOĞRULAMA (yazmadan önce koşuldu):
+    #   15 yeni arasında en dar ΔE   17,0  (navarra ↔ parma)
+    #   komşu engelinden en dar ΔE   12,0  (kastilya)
+    #   farklı hex 15/15 · mevcut paletle hex çarpışması 0 · kırmızıya düşen 0
+    #   küme içi en dar: İtalya 17,4 · İber 33,1 · Kuzeybatı 19,3 · Adalar 37,0
+    #   ⇒ "İtalya tek renk olur" riski kapandı; beşlinin en dar çifti 17,4.
+    "aragon":        ("Aragon Krallığı",           "#c639b1"),
+    "belcika":       ("Belçika",                   "#4b9cae"),
+    "bretanya":      ("Bretanya Dukalığı",         "#36693f"),
+    "burgonya":      ("Burgonya Dukalığı",         "#ab9ccf"),
+    "ferrara":       ("Ferrara Dukalığı",          "#ae7e4b"),
+    "irlanda":       ("İrlanda",                   "#06b1fc"),
+    "iskocya":       ("İskoçya Krallığı",          "#3633d5"),
+    "isvicre":       ("İsviçre Konfederasyonu",    "#754bae"),
+    "kastilya":      ("Kastilya Krallığı",         "#4bae4e"),
+    "luksemburg":    ("Lüksemburg",                "#4b3f51"),
+    "mantua":        ("Mantua Dukalığı",           "#2a6fd5"),
+    "navarra":       ("Navarra Krallığı",          "#c94530"),
+    "parma":         ("Parma Dukalığı",            "#ae4b75"),
+    "piza":          ("Piza Cumhuriyeti",          "#2ac9a8"),
+    "siena":         ("Siena Cumhuriyeti",         "#636f03"),
 }
