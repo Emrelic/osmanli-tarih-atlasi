@@ -41,10 +41,21 @@ HEDEF = os.path.join(KOK, "data", "bekleyenler.js")
 # Başlık → çıktı anahtarı. Başlık metninde ARANAN parça (tam eşleşme değil),
 # çünkü başlıklarda emoji ve açıklama var.
 BOLUMLER = [
+    ("SENDEN BEKLENEN", "bekleyen"),
     ("GÖRSEL DOĞRULAMA", "gorsel"),
     ("KARAR BEKLEYENLER", "karar"),
+    ("İSTERSEN", "istege_bagli"),
     ("KAPANANLAR", "kapanan"),
 ]
+
+# Tablosu olduğu hâlde hiçbir bölüme bağlanmayan başlık = SESSİZ KAYIP.
+# 🔴 2 Ağustos'ta yaşandı ve tam bu betiğin var oluş gerekçesini deldi:
+# koordinatör "ŞU AN SENDEN BEKLENEN" başlığı altına DÖRT iş yazdı, betik
+# başlığı tanımadığı için tabloyu hiç okumadı, "toplam 0" dedi ve sitenin
+# menüsü "bekleyen yok" gösterdi. İki `dur()` çağrısı vardı ama ikisi de
+# "HİÇBİR bölüm bulunamadı" diye soruyordu; iki bölüm bulunduğu için
+# sessiz kaldı. ⇒ Kısmî tanıma da başarısızlıktır.
+BOS_BOLUM_MAZERETI = ("SORUNDAN DOĞAN İŞ",)
 
 
 def dur(mesaj):
@@ -124,6 +135,7 @@ def main():
 
     cikti = {}
     bulunan = []
+    sahipli = set()
     for aranan, anahtar in BOLUMLER:
         idx = None
         for i, s in basliklar:
@@ -134,6 +146,7 @@ def main():
             cikti[anahtar] = {"baslik": [], "satir": []}
             continue
         bulunan.append(aranan)
+        sahipli.add(idx)
         bas, kayit = tablo_oku(satirlar, idx + 1)
         cikti[anahtar] = {"baslik": bas or [], "satir": kayit}
 
@@ -141,15 +154,36 @@ def main():
         dur("beklenen bölüm başlıklarının HİÇBİRİ bulunamadı: "
             + ", ".join(a for a, _ in BOLUMLER))
 
-    # Açık iş sayısı — menüde rozet olarak gösterilebilir.
+    # 🔴 SAHİPSİZ TABLO DENETİMİ — kısmî tanımanın sessiz kalmasını engeller.
+    # Yukarıdaki `if not bulunan` yalnız TAM başarısızlığı yakalıyordu; iki
+    # bölüm tanınıp üçüncüsü kaçtığında betik memnun görünüyordu.
+    for i, s in basliklar:
+        if i in sahipli or any(m in s.upper() for m in BOS_BOLUM_MAZERETI):
+            continue
+        _, kayit = tablo_oku(satirlar, i + 1)
+        if kayit:
+            dur("başlığı tanınmayan bir bölümde %d satırlık TABLO var ve\n"
+                "      hiçbir yere yazılmıyor:  %s\n"
+                "      → BOLUMLER listesine ekle, ya da tabloyu kaldır."
+                % (len(kayit), s))
+
+    # Açık iş sayısı.
+    # 🔴 ESKİ ÖLÇÜT VEKİLDİ ve yanlış sayıyordu: satırda `⏳` arıyordu, oysa
+    # açıklığı belirleyen şey satırın HANGİ BÖLÜMDE durduğudur. İki karar
+    # (K1, K3) günlerce açıkken rozet `0` gösterdi, çünkü satırlarda o simge
+    # yoktu. ⇒ Açık bölümdeki satır açıktır; `✅` taşıyan satır kapalıdır.
     def acik_say(anahtar):
-        return sum(1 for r in cikti[anahtar]["satir"] if "⏳" in " ".join(r))
+        return sum(1 for r in cikti[anahtar]["satir"]
+                   if "✅" not in " ".join(r))
 
     ozet = {
+        "bekleyen_acik": acik_say("bekleyen"),
         "gorsel_acik": acik_say("gorsel"),
         "karar_acik": acik_say("karar"),
+        "istege_bagli": acik_say("istege_bagli"),   # rozete GİRMEZ, acele değil
     }
-    ozet["toplam_acik"] = ozet["gorsel_acik"] + ozet["karar_acik"]
+    ozet["toplam_acik"] = (ozet["bekleyen_acik"] + ozet["gorsel_acik"]
+                           + ozet["karar_acik"])
 
     govde = json.dumps({"bolum": cikti, "ozet": ozet}, ensure_ascii=False, indent=1)
 
@@ -167,8 +201,10 @@ def main():
         n = len(cikti[anahtar]["satir"])
         isaret = "✓" if aranan in bulunan else "—"
         print("   %s %-22s %2d satır" % (isaret, aranan, n))
-    print("   açık iş: görsel %d · karar %d · toplam %d"
-          % (ozet["gorsel_acik"], ozet["karar_acik"], ozet["toplam_acik"]))
+    print("   açık iş: beklenen %d · görsel %d · karar %d  →  ROZET %d"
+          % (ozet["bekleyen_acik"], ozet["gorsel_acik"], ozet["karar_acik"],
+             ozet["toplam_acik"]))
+    print("   (isteğe bağlı %d — rozete girmez)" % ozet["istege_bagli"])
 
 
 if __name__ == "__main__":

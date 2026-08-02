@@ -10,6 +10,17 @@ durum tablosunu güncelle.
 
 ## Şimdi
 
+- [ ] 🔴 **ARAYÜZ — `js/app.js:2241` yeni bölümü çizmiyor.** `BEKLEYENLER.md`'ye
+      **`SENDEN BEKLENEN`** diye açık iş bölümü eklendi ve `uret_bekleyenler.py`
+      artık `B.bolum.bekleyen` üretiyor (bugün **4 satır**). `app.js` yalnız
+      `gorsel` ve `karar`ı çiziyor ⇒ **dört iş sitede görünmüyor.** Tek satır:
+      ```js
+      h += bekleyenTablo("🔴 Şu an senden beklenenler", B.bolum.bekleyen);
+      ```
+      `bolum.istege_bagli` da eklenebilir (rozete girmiyor, acele değil).
+      ⚠️ `js/app.js` **ARAYÜZ'ün dosyası** (`CLAUDE.md §7`) — koordinatör yazmadı.
+      📌 Ve bu tam `§40`'ın vakası: **veri üretiliyor, çizilmiyor.**
+
 - [x] **Görsel doğrulama turu** — kullanıcı yürütüyor: ekran görüntülerini
       "hatalar N.docx" dosyalarına madde madde yazıyor, oturum okuyup düzeltiyor.
       Üç tur yapıldı. Bu yol veri denetiminin göremediği bütün bir hata sınıfını
