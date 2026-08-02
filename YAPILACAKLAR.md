@@ -10,6 +10,28 @@ durum tablosunu güncelle.
 
 ## Şimdi
 
+- [ ] 🔴 **KOŞU BİTER BİTMEZ — ISPARTA (tek satır, gerekçesi hazır)**
+      ```
+      data/yerlesimler.js  ·  Isparta
+      hamid dönemi:  t:"1381-06-01"  →  t:"1391-01-01"
+      ```
+      Komşuları (Burdur · Eğirdir · Uluborlu) zaten `1391-01-01`; Isparta on yıl
+      erken bittiği için **enklav görünüyor.**
+      **Kaynak:** TDV `hamidogullari` satılan beldeleri adıyla sayıyor —
+      *"Akşehir, Beyşehir, Seydişehir, Yalvaç ve Karaağaç"* — **Isparta YOK.**
+      TDV `isparta`: *"muhtemelen 1391'de kesin olarak Osmanlı idaresi altına
+      girdi."*
+      ⚠️ `Değişmez 2` riski YOK: `1391-01-01` kırılmasını üç komşu zaten taşıyor.
+      🔴 **ŞİMDİ YAZILMIYOR** — üretim koşuyor, girdi kilitli (`CLAUDE.md §7`).
+      Beş üretim bu kuralın çiğnenmesiyle kaybedildi.
+
+      📌 **Ve bu maddenin kendisi bir ders:** karar **1 Ağustos'ta verildi**,
+      gerekçesi TDV'den alındı, `OTURUM-13-HAMID-ANKARA.md`ye yazıldı —
+      **ve veriye hiç işlenmedi.** Kullanıcı bugün haritaya bakıp yine gördü.
+      ⇒ "Karar verildi" ile "uygulandı" ayrı olaylar; ikincisi yazılmazsa
+      birincisi buhar oluyor. Sicil (`kutu/SICIL.md`) bunun için kuruldu ve
+      `✅ ÇÖZÜLDÜ` hükmü artık **commit numarası** olmadan yazılamıyor.
+
 - [ ] **Değişmez 2s borcu 119 → 121 — KABUL EDİLDİ, defteri burası.**
       `ortaasya2` canlıya alınınca (`27e234c`) iki kırılma maddesiz kaldı:
       ```
