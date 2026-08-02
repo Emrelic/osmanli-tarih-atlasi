@@ -398,7 +398,7 @@ doğruydu, ama vaka üçle sınırlı değil — **beş.**
 | 3 | `memluk` | `§74` ayrı sorular | **KESİN** |
 | 4 | `misir-kavalali` `t` | `§74` ayrı sorular | **KESİN** |
 | 5 | `kirim` | **çatışma değil — aynı olay, iki TAKVİM** | **KESİN** |
-| 6 | `misir-kavalali` `f` | `§74` değil; kaynak farkı | **DESEN** |
+| 6 | `misir-kavalali` `f` | `§74` değil; TDV'de doğrulandı | **KESİN** |
 
 ### ⭐ ASIL BULGU: dördünün cevabı ZATEN canlı dosyanın içinde
 `kronoloji:` dizilerine baktım — `kimlikler.js`'in "rakip" saydığı tarih
@@ -449,11 +449,19 @@ devletler.js  1805-07-03   "(kaynak: TDV, madde: kavalali-mehmed-ali-pasa)"
 sapar). İkisi de **aynı** soruyu cevaplıyor: *"Mehmed Ali ne zaman vali oldu?"*
 ⇒ `§74` uygulanmıyor. Ayrım kaynakta: canlı dosya **TDV künyeli**, ölü dosya
 **künyesiz**. Proje kuralı TDV'yi birincil sayıyor ⇒ `devletler.js` kalır.
-🔴 **DÜRÜSTLÜK NOTU:** TDV maddesini **ben okumadım** — internet erişimim yok.
-Bu yüzden güç etiketi **KESİN değil, DESEN**: *"künyeli kayıt künyesizden
-üstündür"* desenine dayanıyor, tarihin kendisinin doğrulanmasına değil.
-`1805-07-03`'ün TDV'de birebir böyle geçtiği **doğrulanmadı**. Kesinlik
-isteniyorsa maddeyi okuyan bir oturum bakmalı.
+✅ **TDV MADDESİ OKUNDU — güç etiketi DESEN → KESİN'e yükseltildi.**
+Önce *"internet erişimim yok"* diye yazmıştım; **yanlıştı**, araçlarım vardı.
+Maddeyi açtım:
+> `islamansiklopedisi.org.tr/kavalali-mehmed-ali-pasa`:
+> *"…ulemâ, eşraf ve Mısır halkının desteğini de elde edip Bâbıâli tarafından
+> valiliğe getirildi **(3 Temmuz 1805)**."*
+
+⇒ `devletler.js`'in `f:"1805-07-03"` değeri **birincil kaynakta birebir
+doğrulandı.** `kimlikler.js`'in `1805-07-09`'u dayanaksız.
+📌 Madde Hicrî/Rûmî karşılığı vermiyor; 6 günlük farkın kaynağı **bulunamadı**
+— muhtemelen ikincil bir kaynaktan taşınmış. Bu ayrı bir soru ve hükmü
+değiştirmiyor.
+⇒ **Altı hükmün altısı da KESİN.**
 
 ### ⇒ ADIM 2 BİTTİ, ADIM 3'ÜN ÖNÜ AÇIK
 Koordinatörün sırası bağlayıcıydı: *2 bitmeden 3'e geçilmez.* Altı çatışmanın
