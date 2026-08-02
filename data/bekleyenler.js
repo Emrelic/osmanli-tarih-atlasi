@@ -47,8 +47,8 @@ window.BEKLEYENLER = {
    "satir": [
     [
      "K1",
-     "Amerika / Batı Afrika / Avustralya için kaynak barı — TDV bu coğrafyaları kapsamıyor",
-     "\"bugün değil, yarın ya da pazartesi\""
+     "Kaynak barı — TDV'nin kapsamadığı coğrafyalar. Kullanıcı kapsamı düzeltti: \"klasik tarihî bölgeler (Avrupa · Asya'nın Japon-Çin-Hindistan-Ortaasya-Ortadoğu kesimleri · Sahra üstü Afrika) HARİCİNDE her yer\". Yani: Amerika (kuzey·orta·güney) · Sahra altı Afrika (komple) · Avustralya + Yeni Zelanda + Papua + Endonezya + Malezya + Filipinler + Mikronezya · Sibirya · Kamçatka · İrkutsk · Ural (Asya'nın tenha kesimleri). ⚠️ Bunlardan Endonezya/Malezya/Filipinler ARTIK KUTUNUN İÇİNDE (bugünkü koşuyla) — onlar için soru ertelenmiş değil, canlı. Gerekirse bölge bölge yapılır",
+     "\"sonraya bırakalım\""
     ]
    ]
   },
@@ -122,4 +122,4 @@ window.BEKLEYENLER = {
   "toplam_acik": 2
  }
 };
-window.URETIM_IZI = {"girdi":{"BEKLEYENLER.md":"d2d3f37658ef6e415937fdfc10deea9c0dd02fd77d7193e5fd1e466a57f45adb"},"motor":{"uret_bekleyenler.py":"273541b6292dae69b60c7a09db1daca544e3a07dfc9577022c73935e9a92e364"}};
+window.URETIM_IZI = {"girdi":{"BEKLEYENLER.md":"08a26eafc110910b10beb1805f899fdc6f68e620c27431bcf6af617d52e3509f"},"motor":{"uret_bekleyenler.py":"273541b6292dae69b60c7a09db1daca544e3a07dfc9577022c73935e9a92e364"}};

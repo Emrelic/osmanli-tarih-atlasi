@@ -43,7 +43,7 @@ oturum açmaktan geçiyor ve **oturum açmayı koordinatör yapamaz.**
 
 | # | karar | senin sözün |
 |---|---|---|
-| K1 | **Amerika / Batı Afrika / Avustralya için kaynak barı** — TDV bu coğrafyaları kapsamıyor | *"bugün değil, yarın ya da pazartesi"* |
+| K1 | **Kaynak barı — TDV'nin kapsamadığı coğrafyalar.** Kullanıcı kapsamı düzeltti: *"klasik tarihî bölgeler (Avrupa · Asya'nın Japon-Çin-Hindistan-Ortaasya-Ortadoğu kesimleri · Sahra üstü Afrika) HARİCİNDE her yer"*. Yani: **Amerika** (kuzey·orta·güney) · **Sahra altı Afrika** (komple) · **Avustralya + Yeni Zelanda + Papua + Endonezya + Malezya + Filipinler + Mikronezya** · **Sibirya · Kamçatka · İrkutsk · Ural** (Asya'nın tenha kesimleri). ⚠️ Bunlardan **Endonezya/Malezya/Filipinler ARTIK KUTUNUN İÇİNDE** (bugünkü koşuyla) — onlar için soru ertelenmiş değil, **canlı**. Gerekirse bölge bölge yapılır | *"sonraya bırakalım"* |
 
 ---
 
