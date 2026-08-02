@@ -113,3 +113,19 @@ tanımlı; kendi ölçümüm de 9 kimlik / 0 eksik dedi. renkler.py'ye dokunmad�
 
 ⏳ başladım: İş B-2 — denetle.py _KARA_TOL + _DOGAL_GOL kaynaktan okusun — 2026-08-02 13:05
 
+## ✅ İş B-2 — _KARA_TOL ve _DOGAL_GOL de kaynaktan okunuyor (13:15)
+
+denetle.py'deki maske sabiti bloğu tek parse'a birleştirildi: BOLGE +
+KARA_TOL + DOGAL_GOL üçü de `uret_petek.py`'den regex ile okunuyor
+(DOGAL_GOL `ast.literal_eval` ile küme olarak; küme değilse hata).
+Herhangi biri bulunamazsa SystemExit — sessizce eski değere düşme YOK.
+
+Kabul ölçütü ÜÇ UÇLU, üçü de koşuldu:
+- ① önce: çıktı X (İş B sonrası koşu)
+- ② sonra: aynı koşu → **satır satır diff 0 fark** (çıkış kodu aynı: 1,
+  bilinen 2s/2t borçları)
+- ③ uret_petek.py'de GEÇİCİ: KARA_TOL 0.002→0.003 VE DOGAL_GOL'e beşinci
+  göl ("GECICI TEST GOLU") eklendi → denetle **0.003** ve **5 elemanlı
+  kümeyi** okudu = YENİ değerleri GÖRDÜ. Geri alındı; doğrulama: 0.002 +
+  4 göl, `git diff arac/uret_petek.py` boş — kalıcı iz YOK.
+

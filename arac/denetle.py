@@ -959,26 +959,39 @@ def mukerrer_maddeler(O):
 # KARA_TOL sadeleştirmesi ve göl çıkarma kuralı (modern baraj gölleri hariç).
 # Aksi hâlde araç ile motor farklı şey ölçer.
 BEKLENEN_MASKE_DISI = 0
-# 🔴 BOLGE ELLE KOPYALANMAZ — MOTORUN KAYNAĞINDAN OKUNUR.
-# Eski hâli `_BOLGE_KUTU = (-12, 1.5, 62, 62)` diye elle yazılmıştı; motor
-# pencereyi genişlettiği an o satır SESSİZCE çürür ve konum denetimi ESKİ
-# pencereyle ölçerdi — denetim yeşil yanarken harita bozulur. Aynı hata
+# 🔴 MASKE SABİTLERİ ELLE KOPYALANMAZ — MOTORUN KAYNAĞINDAN OKUNUR.
+# Yukarıdaki yorumun kendisi sayıyor: maske motorunkiyle BİREBİR aynı olmalı
+# ve bunu ÜÇ sabit belirliyor — BOLGE kırpması, KARA_TOL sadeleştirmesi,
+# DOGAL_GOL kurtarma kümesi. Eskiden üçü de elle kopyaydı; motor tarafında
+# biri değiştiği an buradaki kopya SESSİZCE çürür ve konum denetimi FARKLI
+# bir maskeyle ölçerdi — denetim yeşil yanarken harita bozulur. Aynı hata
 # denetle_kapsama.py'de yaşandı ve a6215ce'de kaynaktan okumaya çevrildi;
-# desen oradan (denetle_kapsama.py:47-58) alındı.
+# desen oradan (denetle_kapsama.py:47-58) alındı. En sinsisi DOGAL_GOL:
+# motora beşinci bir göl eklense kopya küme bilmezdi ve iki maske ayrışırdı.
 # ⚠️ Ayrıştırma başarısızsa SESSİZCE eski değere düşülMEZ: ölçemeyen denetim
 # temiz denetim değildir, SystemExit ile durulur.
 _UP = os.path.join(KOK, "arac", "uret_petek.py")
 try:
-    _m = re.search(r"^BOLGE\s*=\s*box\(([^)]+)\)",
-                   io.open(_UP, encoding="utf-8").read(), re.M)
+    _src = io.open(_UP, encoding="utf-8").read()
+    _m = re.search(r"^BOLGE\s*=\s*box\(([^)]+)\)", _src, re.M)
     if not _m:
         raise ValueError("BOLGE satırı bulunamadı")
     _BOLGE_KUTU = tuple(float(x) for x in _m.group(1).split(","))
+    _m = re.search(r"^KARA_TOL\s*=\s*([0-9.eE+-]+)", _src, re.M)
+    if not _m:
+        raise ValueError("KARA_TOL satırı bulunamadı")
+    _KARA_TOL = float(_m.group(1))
+    _m = re.search(r"^DOGAL_GOL\s*=\s*(\{[^}]*\})", _src, re.M)
+    if not _m:
+        raise ValueError("DOGAL_GOL satırı bulunamadı")
+    import ast
+    _DOGAL_GOL = ast.literal_eval(_m.group(1))
+    if not isinstance(_DOGAL_GOL, set):
+        raise ValueError("DOGAL_GOL küme olarak ayrıştırılamadı")
 except Exception as _e:
-    raise SystemExit("!! BOLGE uret_petek.py'den okunamadı (%s) — konum "
-                     "denetimi ölçemez, düzeltilmeden koşturulmamalı" % _e)
-_KARA_TOL = 0.002
-_DOGAL_GOL = {"Lake Il'Men'", "Ozero Kubenskoye", "Mjøsa", "Kostroma Reservoir"}
+    raise SystemExit("!! Maske sabitleri uret_petek.py'den okunamadı (%s) — "
+                     "konum denetimi ölçemez, düzeltilmeden "
+                     "koşturulmamalı" % _e)
 
 
 def konum_denetimi(Y):
