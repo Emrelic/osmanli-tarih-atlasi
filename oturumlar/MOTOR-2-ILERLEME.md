@@ -650,3 +650,26 @@ mevcut-renk çakışma kuyruğuna iki aday daha.
 
 ⏳ başladım: N1 DÜZELTMESİ — renk_olc.py KUTU zarfı BOLGE'den türesin (RENK bekliyor) — 2026-08-02 19:50
 
+## ✅ N1 DÜZELTİLDİ — renk_olc.py KUTU zarfı BOLGE'den türüyor (20:05)
+
+`KUTU = box(-25,-5,75,72)` elle kopyası silindi; KUTU artık uret_petek.py
+BOLGE'sinden PAY ile türetiliyor (batı/doğu 13° · güney 6,5° · kuzey 10° —
+paylar eski elle kutunun o günkü BOLGE'ye göre ölçülen payları, davranış
+birebir sadık). Bulunamazsa SystemExit.
+
+Üç uçlu kabul:
+- ① Türetilen KUTU == eski elle kutu **BİREBİR**: bounds (−25,−5,75,72) ==
+  (−25,−5,75,72) ✓. Çıktı diff'inde görünen 72→69 farkının kaynağı İZOLE
+  EDİLDİ: benim değişikliğim DEĞİL — RENK'in commit'lenmemiş renkler.py
+  değişikliği (iran #b5885b→#fe84c6 mor aile) iki koşum arasına denk geldi;
+  düşen üç çift (iran↔memluk/timurlu/suud) İran kahvesinin çakışmalarıydı,
+  RENK'in düzeltmesi ÇÖZDÜ. Baseline hareketliydi, kutu değil.
+- ② BOLGE GEÇİCİ (−12,−11,146,64) yapıldı → KUTU **(−25,−17.5,159,74)**
+  İZLEDİ ✓ (geri alındı, git diff boş).
+- ③ KOMŞULUK KANITI (istenen yeni uç): Asya bellekte eklenip (dosya
+  değişmedi) lon>75 kimlikler arası komşuluk sayıldı — eski zarfla **7
+  çift**, yeni zarfla **456 çift**. Yani 449 komşuluk çifti eski zarfta
+  SESSİZCE KAYIPTI; örnek: abd↔brunei-sultanligi, abd↔qing-hanedani eski
+  zarfta YOK, yenide VAR. "Sabit okunuyor" değil, kırılan şeyin kendisi
+  (komşuluk) doğrulandı.
+

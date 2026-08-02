@@ -39,7 +39,7 @@ KOMUTLAR
       "Aynı haritada görünüyorlar" yetmez; aynı ANDA komşu olmaları gerek.
    3. Osmanlı ikilisi ayrı opaklıkta: doğrudan 0,68 · tâbi 0,60.
 """
-import io, os, sys, math, collections, itertools
+import io, os, re, sys, math, collections, itertools
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -53,7 +53,27 @@ from shapely.strtree import STRtree
 DE_KOMSU   = 12.0     # komşu devletten ayrışma
 DE_ALTLIK  = 15.0     # altlıktan ayrışma (görünürlük)
 TON_MERKEZ = 30.0     # kırmızı ailesinin merkezi (Osmanlı ailesi için)
-KUTU = box(-25, -5, 75, 72)
+# 🔴 KUTU ELLE YAZILMAZ — BOLGE'den PAY ile türetilir (İş N bulgu N1).
+# Eski hâli `KUTU = box(-25, -5, 75, 72)` elle kopyaydı: Asya partisi
+# girince lon>75 noktaların Voronoi hücreleri intersection(KUTU) ile
+# SESSİZCE boşalacaktı — komşuluk eksik, 135 Asya rengi yanlış komşulukla
+# önerilir, denetle() çakışma çiftlerini hiç göremezdi. denetle.py:962'nin
+# (İş B) birebir kardeşi.
+# Paylar, eski elle kutunun o günkü BOLGE(-12, 1.5, 62, 62)'ye göre ölçülen
+# payları — bugünkü davranışa BİREBİR sadık, kutu büyüyünce otomatik izler:
+#   batı/doğu 13° · güney 6,5° · kuzey 10°
+# Zarf yalnız Voronoi kırpma sınırı: BOLGE'yi her yönden aşması yeterli,
+# değeri hassas değil — hassas olan ELLE KOPYA OLMAMASI.
+# Bulunamazsa SystemExit — sessizce eski değere düşme YOK (ölçemeyen
+# denetim temiz denetim değildir).
+_UP = os.path.join(os.path.dirname(os.path.abspath(__file__)), "uret_petek.py")
+_m = re.search(r"^BOLGE\s*=\s*box\(([^)]+)\)",
+               io.open(_UP, encoding="utf-8").read(), re.M)
+if not _m:
+    raise SystemExit("!! BOLGE uret_petek.py'den okunamadı — KUTU "
+                     "türetilemez, komşuluk ölçülemez")
+_b = [float(x) for x in _m.group(1).split(",")]
+KUTU = box(_b[0] - 13.0, _b[1] - 6.5, _b[2] + 13.0, _b[3] + 10.0)
 
 
 def h2r(h):
