@@ -15,8 +15,14 @@ window.BEKLEYENLER = {
    ],
    "satir": [
     [
+     "B8",
+     "🔴 KARAR: site her ziyarette 36 MB indiriyor — kutu açılınca ~65 MB olacak. donemler.js 35,9 MB + devletler_harita.js 12,9 MB; koşudan sonra ikisi de yaklaşık iki katına çıkıyor ⇒ toplam ~100 MB. Masaüstünde yavaşlar, mobilde çökebilir. Seçenekler: (a) böl — bölgeye/döneme göre parça parça yükle (b) sıkıştır (c) olduğu gibi bırak, mobil kullanıcıyı kaybet. Bu bir yayın stratejisi kararı, teknik değil",
+     "ürünün senin",
+     "2 dk"
+    ],
+    [
      "✅ ~~B5~~",
-     "RENK oturumu AÇILDI (Opus 5) — görev tanımı verildi, çalışıyor",
+     "RENK oturumu AÇILDI (Opus 5) — 15 Avrupa rengi teslim edildi, Asya sürüyor",
      "—",
      "✅"
     ]
@@ -103,11 +109,11 @@ window.BEKLEYENLER = {
   }
  },
  "ozet": {
-  "bekleyen_acik": 0,
+  "bekleyen_acik": 1,
   "gorsel_acik": 0,
   "karar_acik": 1,
   "istege_bagli": 1,
-  "toplam_acik": 1
+  "toplam_acik": 2
  }
 };
-window.URETIM_IZI = {"girdi":{"BEKLEYENLER.md":"a5fc2ba0124ba9c3b4c9dc977c2b36a0bd339671c2fadc064e5f75cf032c26ac"},"motor":{"uret_bekleyenler.py":"273541b6292dae69b60c7a09db1daca544e3a07dfc9577022c73935e9a92e364"}};
+window.URETIM_IZI = {"girdi":{"BEKLEYENLER.md":"fdeb63db196816e1d596e2094029731b1f3b58b3c88404b44c45719170f6ba05"},"motor":{"uret_bekleyenler.py":"273541b6292dae69b60c7a09db1daca544e3a07dfc9577022c73935e9a92e364"}};
