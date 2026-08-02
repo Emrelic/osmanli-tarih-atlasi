@@ -959,7 +959,24 @@ def mukerrer_maddeler(O):
 # KARA_TOL sadeleştirmesi ve göl çıkarma kuralı (modern baraj gölleri hariç).
 # Aksi hâlde araç ile motor farklı şey ölçer.
 BEKLENEN_MASKE_DISI = 0
-_BOLGE_KUTU = (-12, 1.5, 62, 62)
+# 🔴 BOLGE ELLE KOPYALANMAZ — MOTORUN KAYNAĞINDAN OKUNUR.
+# Eski hâli `_BOLGE_KUTU = (-12, 1.5, 62, 62)` diye elle yazılmıştı; motor
+# pencereyi genişlettiği an o satır SESSİZCE çürür ve konum denetimi ESKİ
+# pencereyle ölçerdi — denetim yeşil yanarken harita bozulur. Aynı hata
+# denetle_kapsama.py'de yaşandı ve a6215ce'de kaynaktan okumaya çevrildi;
+# desen oradan (denetle_kapsama.py:47-58) alındı.
+# ⚠️ Ayrıştırma başarısızsa SESSİZCE eski değere düşülMEZ: ölçemeyen denetim
+# temiz denetim değildir, SystemExit ile durulur.
+_UP = os.path.join(KOK, "arac", "uret_petek.py")
+try:
+    _m = re.search(r"^BOLGE\s*=\s*box\(([^)]+)\)",
+                   io.open(_UP, encoding="utf-8").read(), re.M)
+    if not _m:
+        raise ValueError("BOLGE satırı bulunamadı")
+    _BOLGE_KUTU = tuple(float(x) for x in _m.group(1).split(","))
+except Exception as _e:
+    raise SystemExit("!! BOLGE uret_petek.py'den okunamadı (%s) — konum "
+                     "denetimi ölçemez, düzeltilmeden koşturulmamalı" % _e)
 _KARA_TOL = 0.002
 _DOGAL_GOL = {"Lake Il'Men'", "Ozero Kubenskoye", "Mjøsa", "Kostroma Reservoir"}
 

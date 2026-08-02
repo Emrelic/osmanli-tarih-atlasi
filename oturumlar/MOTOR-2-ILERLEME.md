@@ -37,3 +37,19 @@ Kabul koşusu (`py arac/denetle.py`, öncesi/sonrası tam çıktı karşılaşt�
 
 ⏳ başladım: İş B — denetle.py:962 _BOLGE_KUTU kaynaktan okusun — 2026-08-02 12:30
 
+## ✅ İş B — denetle.py _BOLGE_KUTU artık kaynaktan okunuyor (12:40)
+
+Elle kopya `(-12, 1.5, 62, 62)` silindi; `_BOLGE_KUTU` artık
+`uret_petek.py`'deki `BOLGE = box(...)` satırından regex ile okunuyor —
+desen `denetle_kapsama.py:47-58` emsalinden (a6215ce) aynen alındı.
+Ayrıştırma başarısızsa SystemExit (sessizce eski değere düşme YOK).
+
+Kabul ölçütü ÜÇ UÇLU, üçü de koşuldu:
+- ① önce: `py arac/denetle.py` → çıktı X (İş A sonrası koşu)
+- ② sonra: aynı koşu → **çıktı BİREBİR AYNI** (satır satır diff: 0 fark;
+  çıkış kodu da aynı, 1 — bilinen 2s/2t borçları)
+- ③ `uret_petek.py` BOLGE GEÇİCİ olarak 62→63 yapıldı →
+  `denetle._BOLGE_KUTU` **(-12.0, 1.5, 63.0, 62.0)** okudu = YENİ değeri
+  gördü. Sonra geri alındı; doğrulama: tekrar (-12.0, 1.5, 62.0, 62.0) ve
+  `git diff arac/uret_petek.py` boş — kalıcı iz YOK.
+
