@@ -843,3 +843,64 @@ bugün yakaladığı aktarım hatası düzeltilmiş, denetim teyit ediyor.
 
 ⏳ başladım: İş T (ACİL) — kutu 37 renkle açılırsa ne kaybederiz + İş S şartname — 2026-08-02 23:10
 
+## ✅ İş T (ACİL) — kutu BUGÜNKÜ paletle açılırsa ne kaybederiz (23:30)
+
+Palet (working tree): 167 kimlik. Asya 147 kimliğinin **49'u boyalı, 98'i
+renksiz** (koordinatör sayısı doğrulandı). Bellek-içi ölçüm, kutu açılmadı.
+
+**① HİÇ boyanamayan nokta: 13/344** — bütün sahiplik dönemleri paletsiz;
+her kesitte fiilen sahipsiz. **② KISMEN: 295/344 · TAM: 36/344.**
+**③ Değişmez 1 (veri düzeyi): 50 SABİT** (İş O'da ölçülmüştü — renk
+eksikliği veri denetimini etkilemez); harita düzeyi fiilî her-kesit
+sahipsizliği = ①'in 13'ü.
+**④ ALAN:** hiç-boyanmayanların Voronoi payı **867.668 km² — kutu
+karasının %1,2'si** (her kesitte boş). Kısmen-boyananların hücre toplamı
+26,8 M km² ama bu YALNIZ renksiz dönemlerde boş — zaman dağılımı asıl ölçü:
+
+  kesit   aktif   boyalı   RENKSİZ pay
+  1300     262     150      %43
+  1450     276     175      %37
+  1550     287     151      **%47**   ← en kötü yüzyıl
+  1650     310     221      %29
+  1750     330     235      %29
+  1850     339     295      %13
+  1910     344     294      %15
+
+Yorum (karar koordinatörün): kalıcı boşluk KÜÇÜK (%1,2); dönemsel boşluk
+1300-1650 arası BÜYÜK (aktif Asya noktalarının üçte biri-yarısı renksiz —
+Çin gövdesi guney-ming/sur-hanedani/cin-cumhuriyeti dönemlerinde, Hindistan
+racput/bengal dönemlerinde boş görünür), 1850 sonrası küçük (%13-15).
+98 kaydın öncelik sırası (nokta-dönem yükü): cin-cumhuriyeti 85 ·
+guney-ming 34 · sur-hanedani 32 · azuchi-momoyama 31 · racput 22 ·
+bengal-sultanligi 22 · kenmu 17 · fransiz-cinhindi 16 · bicapur 16.
+
+Ayrıca: ÖLÇÜLEMEDİ özeti uygulandı (RENK önerisi) — tek satır sayı +
+`--ayrinti` dökümü; 113 çift tek satıra indi, disiplin korunur. Ve
+aynı-hex çakışması 0'a düştü: RENK dulkadir↔trabzon-rum'u working tree'de
+çözmüş, dedektör doğru şekilde sustu.
+
+## ✅ İş S — ARAYÜZ YAMA ŞARTNAMESİ (dokunulmadı, tarif) (23:40)
+
+**S1. js/app.js:594** —
+bugünkü: `var VERI_SINIRI = [-12, 1.5, 62, 62];      // uret_petek.py:43 \`BOLGE = box(...)\``
+olması gereken (geçiş): `var VERI_SINIRI = window.VERI_SINIRI || [-12, -11, 146, 64]; // kaynak: donemler.js URETIM sınırı; yedek elle değer koşuyla güncellenir`
+**Kaynaktan okuma önerisi (ölçüldü, üç seçenek):**
+  a) ✅ ÖNERİLEN: uret_petek.py, donemler.js'e `window.VERI_SINIRI =
+     [minx,miny,maxx,maxy];` satırı yazsın (URETIM_IZI'nin yanına — tek
+     otorite motor, kutu değişince OTOMATİK; app.js `window.VERI_SINIRI ||
+     yedek` okur). Motor tarafı 1 satır, benim yetkimde — işaretle yaparım.
+  b) ❌ altlik.js: Kademe-2'de opsiyonel yükleniyor; sınır düğmesi
+     altlıksız da çalışmalı.
+  c) ❌ yeni sinir.js: fazladan HTTP isteği, gereksiz dosya.
+**S2. js/app.js:601-614 (veriSiniriDogrula)** — console.warn kullanıcıya
+görünmüyor (§54). Öneri: uyarı durumunda `btn-verisiniri` düğmesinin
+title'ına "⚠ " öneki + turuncu kenarlık (`d.style.outline`), warn da
+kalsın. Alternatif: `#donem-etiketi` benzeri küçük sarı şerit.
+**S3. index.html:21-25 (yorum)** — "(Orta Asya 62°D'nin doğusu, kuzey
+İskandinavya 62°K'nin kuzeyi)" örnekleri kutu değerine bağlı ve bayatlayacak.
+Öneri metin: "Kullanıcı beş kez 'burası neden boş' diye sordu; beşi de o
+GÜNKÜ kutunun kenarıydı. Kenar değeri app.js VERI_SINIRI'dan çizilir;
+örnek koordinat YAZMA — kutu değişince bu yorum bayatlıyor (2 Ağustos'ta
+yaşandı)." **index.html:26 tooltip: DEĞİŞİKLİK GEREKMEZ** — ölçtüm, metin
+genel, kutu değeri anmıyor.
+

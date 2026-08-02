@@ -339,9 +339,17 @@ def denetle():
               f"örtüşme {f} → {t}")
     if not hex_cak:
         print("  yok")
-    for hx, a, b, kimde in hex_olc:
-        print(f"  i ÖLÇÜLEMEDİ: {a} ↔ {b} ({hx}) — canlı veride dönemi yok: "
-              f"{kimde} ('ölçülemedi' ≠ 'temiz')")
+    # ⚠️ ÖZET + --ayrinti (RENK'in önerisi, 2 Ağustos): 37 Asya kimliği 110
+    # ÖLÇÜLEMEDİ satırı üretti, 135'te ~600 olurdu ve gerçek bulguları
+    # boğardı. Disiplin bozulmaz: SAYI her zaman basılır ('ölçülemedi' ≠
+    # 'temiz'), yalnız DÖKÜM --ayrinti'ye alınır.
+    if hex_olc:
+        print(f"  i {len(hex_olc)} çift ÖLÇÜLEMEDİ — canlı veride dönemi "
+              f"olmayan kimlikler ('ölçülemedi' ≠ 'temiz')"
+              + ("" if "--ayrinti" in sys.argv else " — dökümü: --ayrinti"))
+        if "--ayrinti" in sys.argv:
+            for hx, a, b, kimde in hex_olc:
+                print(f"      {a} ↔ {b} ({hx}) — dönemi yok: {kimde}")
 
     print("\n" + "=" * 72)
     print("  " + ("✓ TEMİZ" if not gorunmez and not cakisan and not ortusen
