@@ -648,6 +648,19 @@ BOYALAR = {
     #   🔴 KUTU AÇILDIKTAN SONRA YENİDEN DOĞRULANACAK. Ertelenmiş doğrulama,
     #      atlanmış doğrulama değildir — ama ancak YAZILIRSA. Yazıldı.
     #
+    #   🔴 VE İLK ZARFIM DA KUSURLUYDU — kendi uyarıma kendim düştüm.
+    #   MOTOR 2 kilitli kutu zarfını verince (box(-25,-17.5,159,74))
+    #   karşılaştırdım: Asya'nın en güney noktası KUPANG (Timor, lat -10,18)
+    #   benim -10 güney sınırımın DIŞINDA kalmış, hücresi boşalmış.
+    #   Kaybolan komşuluk: 4 çift — bali-kralliklari↔yogyakarta ·
+    #   banten-sultanligi↔yogyakarta · italya↔travankur · seylan-sinhala↔somali
+    #   ⇒ YENİDEN ÖLÇÜLDÜ (kilitli kutu zarfıyla, yalnız bu 37 kimlik için):
+    #     İHLAL 0. Dördünün de hiçbiri bu 37'yi ilgilendirmiyor; kusur
+    #     SONUCU DEĞİŞTİRMEDİ. Ama kayda geçiyor, çünkü "sonuç değişmedi"
+    #     ancak ÖLÇÜLDÜKTEN sonra söylenebilir.
+    #   📌 Ders (kendi payıma): zarfı veriye göre değil, ÜRETİMİN KULLANACAĞI
+    #     zarfa göre kur. "Yeterince geniş" bir tahmindir; kilitli kutu bir ölçü.
+    #
     # ── ① EKSİK, GÖVDE BEKLENMİYOR ─────────────────────────────────────────
     #   yerlesimler_asya.js girdi.py'nin izin listesinde DEĞİL ⇒ bu 37 kimlik
     #   bugün hiçbir nokta boyamaz. uret_petek.py:1564 gövdesi olmayan kimliği
@@ -663,7 +676,7 @@ BOYALAR = {
     #   ⇒ 98'lik kalan bir `devletler.js` KAYIT işidir (bu oturumun yetkisi
     #     yalnız `harita:` alanı). Renkleri ölçülmüş ve hazır; kayıtlar
     #     gelince tek adımda girer.
-    # ── #6ba0a0  [ASYA · ① EKSİK, gövde yok · zarf(-25,-10,155,75)]  ile paylaşımlı (zeyyani) · 7 kimlik
+    # ── #6ba0a0  [ASYA · ① EKSİK, gövde yok · zarf(-25,-17.5,159,74) teyitli]  ile paylaşımlı (zeyyani) · 7 kimlik
     "abd":                     ("Amerika Birleşik Devletleri",       "#6ba0a0"),
     "ayutthaya":               ("Ayutthaya Krallığı (Siyam)",        "#6ba0a0"),
     "edo-bakufu":              ("Edo (Tokugawa) Şogunluğu",          "#6ba0a0"),
@@ -671,42 +684,42 @@ BOYALAR = {
     "maratha":                 ("Maratha Konfederasyonu",            "#6ba0a0"),
     "muromachi":               ("Muromachi (Ashikaga) Şogunluğu",    "#6ba0a0"),
     "siyam-chakri":            ("Siyam Krallığı (Rattanakosin / Chakri Hanedanı)", "#6ba0a0"),
-    # ── #636f03  [ASYA · ① EKSİK, gövde yok · zarf(-25,-10,155,75)]  ile paylaşımlı (siena) · 5 kimlik
+    # ── #636f03  [ASYA · ① EKSİK, gövde yok · zarf(-25,-17.5,159,74) teyitli]  ile paylaşımlı (siena) · 5 kimlik
     "behmeni":                 ("Behmenî Sultanlığı (Dekken)",       "#636f03"),
     "qing-hanedani":           ("Qing Hanedanı (Mançu)",             "#636f03"),
     "sulu-sultanligi":         ("Sulu Sultanlığı",                   "#636f03"),
     "toungoo":                 ("Toungoo Hanedanı (Birmanya)",       "#636f03"),
     "yuan-hanedani":           ("Yuan Hanedanı (Moğol Çin)",         "#636f03"),
-    # ── #7b1fa2  [ASYA · ① EKSİK, gövde yok · zarf(-25,-10,155,75)]  ile paylaşımlı (sidamo) · 5 kimlik
+    # ── #7b1fa2  [ASYA · ① EKSİK, gövde yok · zarf(-25,-17.5,159,74) teyitli]  ile paylaşımlı (sidamo) · 5 kimlik
     "brunei-sultanligi":       ("Brunei Sultanlığı",                 "#7b1fa2"),
     "cungar":                  ("Cungar Hanlığı (Kalmuk)",           "#7b1fa2"),
     "konbaung":                ("Konbaung Hanedanı (Birmanya)",      "#7b1fa2"),
     "ryukyu":                  ("Ryukyu Krallığı",                   "#7b1fa2"),
     "yakub-beg":               ("Doğu Türkistan (Yâkub Bey Kâşgar Emirliği)", "#7b1fa2"),
-    # ── #00695c  [ASYA · ① EKSİK, gövde yok · zarf(-25,-10,155,75)]  ile paylaşımlı (yugoslavya) · 5 kimlik
+    # ── #00695c  [ASYA · ① EKSİK, gövde yok · zarf(-25,-17.5,159,74) teyitli]  ile paylaşımlı (yugoslavya) · 5 kimlik
     "goryeo":                  ("Goryeo Hanedanı (Kore)",            "#00695c"),
     "hollanda-dogu-hint":      ("Hollanda Doğu Hint Adaları",        "#00695c"),
     "joseon":                  ("Joseon Hanedanı (Kore)",            "#00695c"),
     "majapahit":               ("Majapahit İmparatorluğu (Cava)",    "#00695c"),
     "sih-imparatorlugu":       ("Sih İmparatorluğu (Pencap)",        "#00695c"),
-    # ── #2d8f4a  [ASYA · ① EKSİK, gövde yok · zarf(-25,-10,155,75)]  ile paylaşımlı (taceddin) · 4 kimlik
+    # ── #2d8f4a  [ASYA · ① EKSİK, gövde yok · zarf(-25,-17.5,159,74) teyitli]  ile paylaşımlı (taceddin) · 4 kimlik
     "ace-sultanligi":          ("Açe Sultanlığı (Sumatra)",          "#2d8f4a"),
     "malaka-sultanligi":       ("Malaka Sultanlığı",                 "#2d8f4a"),
     "meiji-japonya":           ("Meiji ve Sonrası Japonya İmparatorluğu", "#2d8f4a"),
     "ming-hanedani":           ("Ming Hanedanı",                     "#2d8f4a"),
-    # ── #b34da5  [ASYA · ① EKSİK, gövde yok · zarf(-25,-10,155,75)]  ile paylaşımlı (saruhan) · 4 kimlik
+    # ── #b34da5  [ASYA · ① EKSİK, gövde yok · zarf(-25,-17.5,159,74) teyitli]  ile paylaşımlı (saruhan) · 4 kimlik
     "mataram-sultanligi":      ("Mataram Sultanlığı (Cava)",         "#b34da5"),
     "meysur":                  ("Meysûr Sultanlığı (Haydar Ali / Tipu Sultan)", "#b34da5"),
     "nguyen-hanedani":         ("Nguyễn Hanedanı (Vietnam)",         "#b34da5"),
     "tibet-ganden-phodrang":   ("Tibet (Dalai Lama Hükûmeti, Ganden Phodrang)", "#b34da5"),
-    # ── #00acc1  [ASYA · ① EKSİK, gövde yok · zarf(-25,-10,155,75)]  ile paylaşımlı (turkmen) · 3 kimlik
+    # ── #00acc1  [ASYA · ① EKSİK, gövde yok · zarf(-25,-17.5,159,74) teyitli]  ile paylaşımlı (turkmen) · 3 kimlik
     "delhi-sultanligi":        ("Delhi Sultanlığı",                  "#00acc1"),
     "ingiliz-hindistani":      ("İngiliz Hindistanı (Şirket ve Taç Dönemi)", "#00acc1"),
     "ingiliz-malaya":          ("İngiliz Malaya",                    "#00acc1"),
-    # ── #8d6e63  [ASYA · ① EKSİK, gövde yok · zarf(-25,-10,155,75)]  ile paylaşımlı (timurlu) · 2 kimlik
+    # ── #8d6e63  [ASYA · ① EKSİK, gövde yok · zarf(-25,-17.5,159,74) teyitli]  ile paylaşımlı (timurlu) · 2 kimlik
     "kamboc-kralligi":         ("Kamboçya Krallığı (Post-Angkor)",   "#8d6e63"),
     "vijayanagara":            ("Vijayanagara İmparatorluğu",        "#8d6e63"),
-    # ── #0288d1  [ASYA · ① EKSİK, gövde yok · zarf(-25,-10,155,75)]  ile paylaşımlı (darfur) · 1 kimlik
+    # ── #0288d1  [ASYA · ① EKSİK, gövde yok · zarf(-25,-17.5,159,74) teyitli]  ile paylaşımlı (darfur) · 1 kimlik
     # 🔴 DÜZELTME: önce `yemen` #b5a05b atanmıştı ve DENETİM YAKALADI —
     # görünmez sayısı 13→14 çıktı. Sebep bendeydi: atama süzgecim adayları
     # "renkli komşulardan ΔE≥12" ile eliyordu ama ALTLIKTAN GÖRÜNÜRLÜĞÜ
@@ -718,6 +731,6 @@ BOYALAR = {
     # 📌 Ders: liste boyamada aday süzgeci, tekil rengin BÜTÜN kabul
     #   ölçütlerini taşımalı — komşudan ayrışma yetmiyor, görünürlük de şart.
     "babur-imparatorlugu":     ("Bâbürlü (Timurlu-Hint) İmparatorluğu", "#0288d1"),
-    # ── #6b4a7d  [ASYA · ① EKSİK, gövde yok · zarf(-25,-10,155,75)]  ile paylaşımlı (safevi) · 1 kimlik
+    # ── #6b4a7d  [ASYA · ① EKSİK, gövde yok · zarf(-25,-17.5,159,74) teyitli]  ile paylaşımlı (safevi) · 1 kimlik
     "le-hanedani":             ("Lê Hanedanı (Đại Việt)",            "#6b4a7d"),
 }

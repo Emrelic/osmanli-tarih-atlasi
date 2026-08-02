@@ -576,6 +576,56 @@ py arac/renk_olc.py  →  1235 nokta · 167 kimlik
 
 ---
 
+## 4c. 🔴 KENDİ ZARFIM DA KUSURLUYDU — kendi uyarıma kendim düştüm
+
+MOTOR 2 kilitli kutu zarfını verdi: `box(-25, -17.5, 159, 74)`. Benimki
+`box(-25, -10, 155, 75)` idi — **güneyde dar.** Karşılaştırdım:
+
+```
+Asya lat aralığı  -10,18 .. 50,24
+KUPANG (Timor)    lat -10,18  ⇒ BENİM ZARFIMIN DIŞINDA, hücresi boşalmış
+kaybolan komşuluk: 4 çift
+  bali-kralliklari↔yogyakarta · banten-sultanligi↔yogyakarta
+  italya↔travankur · seylan-sinhala↔somali
+```
+
+📌 **Bu, koordinatörü uyardığım hatanın aynısı.** "Zarf lon>75'i kesiyor"
+diye N1'i durdurmuştum; kendi zarfım da lat<−10'u kesiyormuş.
+
+### Etkisi ÖLÇÜLDÜ — sıfır
+
+Kilitli kutu zarfıyla, **yalnız yazdığım 37 kimlik için** yeniden koştum:
+```
+İHLAL 0
+```
+Kaybolan dört çiftin hiçbiri bu 37'yi ilgilendirmiyor. **Kusur sonucu
+değiştirmedi** — ama bu ancak *ölçüldükten sonra* söylenebilir, ve ölçülmeden
+söylenseydi tahmin olurdu.
+
+⚠️ İlk teyit koşum **yanlış alarm** verdi: betiğim "Asya verisinde geçen ve
+rengi olan" **49** kimliği aldı, benim **37**'mi değil. Rapor ettiği altı
+"ihlal" (`safevi↔altinorda` 9,2 · `fransa↔toskana` 9,3 · `timurlu↔altinorda`
+10,8 · `safevi↔gurcistan` 11,3 · `timurlu↔karakoyunlu` 11,5 ·
+`ispanya↔ceneviz` 11,7) **zeminde zaten vardı** — hepsi ilk gün ölçtüğüm 71
+çakışmanın içinde. Ölçütü daralttım, ihlal 0 çıktı.
+📌 Ders: *denetimin kapsamı da bir ölçüdür.* Yanlış kümeye bakan bir denetim,
+yanlış cevabı kendinden emin verir.
+
+### Bonus — kalan 98 için renk ihtiyacı
+
+Doğru zarfla, renksiz kalan **98** kimliğin alt çizgesi üzerinde:
+```
+kromatik sayı: 4
+```
+⇒ 98 kayıt geldiğinde **dört renk** yetiyor. Yine sıfır yeni hex beklenebilir.
+
+📌 **Ders (kendi payıma): zarfı veriye göre değil, ÜRETİMİN KULLANACAĞI zarfa
+göre kur.** "Yeterince geniş" bir tahmindir; kilitli kutu bir ölçüdür.
+`renkler.py`'deki 10 grup başlığı ve blok kütüğü buna göre düzeltildi
+(`grep "ASYA · ① EKSİK"` → 10 satır, hepsi `zarf(-25,-17.5,159,74) teyitli`).
+
+---
+
 ## 5. ESKİ §4 — PARTİ 3 notu (aşıldı)
 
 Yöntem hazır ve Parti 2'de sınandı: merge sonrası komşuluk + karşılıklı eşik
