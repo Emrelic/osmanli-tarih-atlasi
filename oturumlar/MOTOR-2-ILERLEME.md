@@ -729,3 +729,25 @@ koordinatörde.
 
 ⏳ başladım: İş P — denetle_kapsama BOLGE_KUTULARI yeni coğrafyaya — 2026-08-02 21:05
 
+## ✅ İş P — BOLGE_KUTULARI yeni coğrafyaya genişletildi (21:20)
+
+denetle_kapsama.py'ye 13 yeni bölge kutusu eklendi (LİSTENİN SONUNA — ilk
+uyan kazanır, eski atamalar yapısal olarak korunur): Kuzey şerit (62°K+) ·
+Orta Asya/Türkistan · Sibirya/Moğolistan · Hint alt kıtası · Çin/Japonya ·
+Çinhindi · Filipinler · Malaya/Endonezya · Doğu Afrika güneyi · Orta
+Afrika · Yunanistan/Ege · Kıbrıs · Karadeniz kuzey kıyısı.
+
+Kabul (1.579 nokta üstünde ölçüldü):
+- ① ESKİ ataması değişen nokta: **0** ✓ (yapı + ölçüm)
+- ② "diğer"den isim kazanan: **394 nokta** (Çin/Japonya 138 · Hint 129 ·
+  Malaya/Endonezya 34 · Yunanistan/Ege 32 · Çinhindi 25 · Karadeniz kuzey
+  13 · Sibirya 7 · Kıbrıs 6 · Orta Asya 4 · Filipinler 4 · Kuzey şerit 2)
+- Örnek doğrulamalar: Delhi→Hint · Kanton→Çin/Japonya · Cakarta→Malaya/
+  Endonezya · Manila→Filipinler · Trondheim→Kuzey şerit · Rangun→Çinhindi
+
+YAN BULGU: "diğer" yalnız yeni coğrafyanın sorunu değilmiş — ESKİ pencerede
+de 110 nokta isimsizdi (Mora/Atina: Rumeli kutusu lat 39'dan başlıyor;
+Kıbrıs; Akkirman·Kili·Özi·Kefe: bozkır kutusu lat 47'den). Üç kutuyla
+kapatıldı. Kalan 59 "diğer" dağınık tekil noktalar (Lvov, Astrahan, Maskat,
+Murzuk, Ndjamena…) — kaba kutu amacına uygun meşru kuyruk, kutulanmadı.
+

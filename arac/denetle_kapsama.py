@@ -77,6 +77,34 @@ BOLGE_KUTULARI = [
     ("Mısır/Sudan",         24.0, 36.0,  8.0, 31.5),
     ("Kuzey Afrika",       -12.0, 26.0, 27.0, 37.0),
     ("Doğu Afrika",         36.0, 52.0,  1.5, 15.0),
+    # ---- İş P (2 Ağustos 2026): kutu box(-12,-11,146,64) için yeni bölgeler.
+    # Eski 15 kutu yalnız eski pencereyi kaplıyordu; kutu açılınca Hindistan/
+    # Çin/Endonezya boşluk avında "diğer"e yığılacak ve rapor İSİMSİZ
+    # kalacaktı — koşudan sonra bakılacak yer tam orası. Kutular kaba,
+    # yalnız rapor okunurluğu için (üstteki not aynen geçerli). ESKİ kutular
+    # LİSTEDE ÖNCE durur: ilk uyan kazanır, eski atamalar değişmez —
+    # 1.579 noktanın tamamında ölçülerek doğrulandı (İş P kabulü).
+    ("Kuzey şerit (62°K+)", -12.0, 62.0, 62.0, 64.0),
+    ("Orta Asya/Türkistan",  62.0, 82.0, 35.0, 64.0),
+    ("Sibirya/Moğolistan",   82.0, 146.0, 45.0, 64.0),
+    ("Hint alt kıtası",      62.0, 92.0,  1.5, 35.0),
+    ("Çin/Japonya",          92.0, 146.0, 20.0, 45.0),
+    ("Çinhindi",             92.0, 110.0,  8.0, 20.0),
+    ("Filipinler",          117.0, 146.0,  5.0, 20.0),
+    ("Malaya/Endonezya",     92.0, 146.0, -11.0,  8.0),
+    ("Doğu Afrika güneyi",   34.0, 62.0, -11.0,  1.5),
+    ("Orta Afrika",         -12.0, 34.0, -11.0,  1.5),
+    # İş P'nin yan bulgusu: ESKİ listede de Yunanistan güneyi (Mora, Atina,
+    # Ege adaları) "diğer"deydi — Rumeli kutusu lat 39'dan başlıyor. 110
+    # canlı nokta isimsizdi ve bugüne dek kimse sorgulamamıştı. Listenin
+    # SONUNDA durduğu için eski atamaları değiştirmez, yalnız "diğer"i adlar.
+    ("Yunanistan/Ege",       19.0, 29.0, 34.0, 39.0),
+    # Aynı sınıftan iki eski boşluk daha (canlı noktalarla ölçüldü):
+    # Kıbrıs (Anadolu kutusu lat 35,5'ten, Suriye kutusu lon 34'ten başlıyor)
+    # ve Karadeniz kuzey kıyısı (bozkır kutusu lat 47'den başlıyor —
+    # Akkirman·Kili·Özi·Kefe açıkta kalıyordu).
+    ("Kıbrıs",               32.0, 35.0, 34.5, 35.8),
+    ("Karadeniz kuzey kıyısı", 29.0, 42.0, 44.0, 47.0),
 ]
 
 
