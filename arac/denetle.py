@@ -101,15 +101,19 @@ BEKLENEN_SAHIPSIZ = 50
 # 462 -> 476: Oturum 14 in Port Said/parantez duzeltmeleri.
 BEKLENEN_KIRILMA = 476
 BEKLENEN_ACIK = 0
-# 🔴 İŞ KUYRUĞU AYRIMI (İş O, koordinatör kararı 2 Ağustos 2026, N9):
-# Asya partisi girdiye alındığında yüzlerce kırılması olaylar.js'te maddesiz
-# olacak. Bu sayı 2s/2t gibi bir BORÇ kalemine ÇEVRİLMEZ, çünkü ölçüldü:
-# borç etiketi alarmı uyuşturuyor (2s 119→121→192 bugün sessizce normalleşti).
-# ⇒ Değişmez 2 MEVCUT külliyat için 0 kalır ve 0 kalmaya devam eder;
-#   buradaki dosyaların kırılmaları ayrı sayaçta "İŞ KUYRUĞU" diye raporlanır.
-#   Fark davranışta: borç normalleşir, kuyruk EKSİLİR — madde yazıldıkça iner.
-# Kaynak ayrımı girdi.py'nin `_kaynak` damgasıyla yapılır (yükleyici basar).
-KUYRUK_DOSYALARI = {"yerlesimler_asya.js"}
+# 🔴 İŞ KUYRUĞU AYRIMI (İş O + O-3, koordinatör kararı 2 Ağustos 2026):
+# önce Asya için verildi, aynı gün Avrupa +71 maddesiz kırılma getirince
+# PARTİ-BAĞIMSIZ kurala çevrildi: YENİ MERGE EDİLEN HER PARTİ kendi
+# sayacıyla raporlanır, çekirdek tavanına KATILMAZ. Çünkü ölçüldü: borç
+# etiketi alarmı uyuşturuyor (2s 119→121→192 bugün sessizce normalleşti).
+# ⇒ Değişmez 2 ve 2s tavanları MEVCUT KÜLLİYAT (yerlesimler.js + afrika +
+#   ek) için hüküm verir; partiler "dosya: N nokta · K kırılma · M MADDESİZ"
+#   diye AYRI satırlar alır. Fark davranışta: borç normalleşir, kuyruk
+#   EKSİLİR — madde yazıldıkça iner. Kaynak ayrımı girdi.py `_kaynak`
+#   damgasıyla. Parti kronolojisi tamamlanınca dosya bu listeden çekirdeğe
+#   ALINIR (satırı silmek = külliyata kabul, bilinçli karar).
+KUYRUK_DOSYALARI = ("yerlesimler_ortaasya2.js", "yerlesimler_avrupa.js",
+                    "yerlesimler_asya.js")
 # ⚠️ `s:` boyutu ON AY BOYUNCA HİÇ DENETLENMEDİ (Oturum 13 buldu). Ölçüldü:
 # 566 yabancı kırılması, 115'inin ±30 günde maddesi yok. 115'i İHLAL ilan etmek
 # denetimi ilk koşuda kırmızıya boyar ve OGRENILENLER §3 gereği kimse bakmaz;
@@ -1194,12 +1198,15 @@ def main():
 
     # ---- İŞ KUYRUĞU — borç DEĞİL, tavana KATILMAZ, çıkış koduna etkimez
     if Y_kuyruk:
-        kuyruk_dosya = ", ".join(sorted({y["_kaynak"] for y in Y_kuyruk}))
-        k_dv, a_dv = degismez2(Y_kuyruk, O)
-        k_s, a_s = degismez2(Y_kuyruk, O, ("s",))
-        print(f"Kuyruk      i  {kuyruk_dosya}: {len(Y_kuyruk)} nokta · "
-              f"{len(k_dv) + len(k_s)} kırılma · "
-              f"{len(a_dv) + len(a_s)} MADDESİZ — İŞ KUYRUĞU, borç değil")
+        for dosya in KUYRUK_DOSYALARI:
+            Yk = [y for y in Y_kuyruk if y.get("_kaynak") == dosya]
+            if not Yk:
+                continue
+            k_dv, a_dv = degismez2(Yk, O)
+            k_s, a_s = degismez2(Yk, O, ("s",))
+            print(f"Kuyruk      i  {dosya}: {len(Yk)} nokta · "
+                  f"{len(k_dv) + len(k_s)} kırılma · "
+                  f"{len(a_dv) + len(a_s)} MADDESİZ — iş kuyruğu, borç değil")
         print( "            i tavana katılmaz (borç etiketi alarmı uyuşturur —")
         print( "              2s 119→192 vakası); kuyruk EKSİLİR: madde yazıldıkça")
         print( "              iner, düşmüyorsa VERİ KRONOLOJİ'ye haber ver.")

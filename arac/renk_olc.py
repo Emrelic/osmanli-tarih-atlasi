@@ -230,7 +230,14 @@ AYNI_HEX_ESIK_KM = 600.0
 def ayni_hex():
     """(cakisan, olculemedi) — aynı hex'i paylaşan FARKLI anahtar çiftleri:
     eşzamanlı VE 600 km'den yakınsa çakışma; nokta yoksa ÖLÇÜLEMEDİ (sessiz
-    geçilmez — 'ölçülemedi' ile 'temiz' aynı şey değildir)."""
+    geçilmez — 'ölçülemedi' ile 'temiz' aynı şey değildir).
+
+    ⚠️ ÖRTÜŞME PENCERESİ KİMLİK ZARFIDIR, dönem bazlı değil: kimliğin bütün
+    canlı s:/v: dönemlerinin min-maks aralığı alınır. Bu yüzden rapordaki
+    pencere dönem-bazlı elle ölçümden GENİŞ çıkabilir (vaka: dulkadir↔
+    trabzon-rum — zarf 1337→1461 der, dönem bazlı 1350'de biter; ATEŞLEME
+    KARARI İKİSİNDE DE AYNI). Zarf kasıtlı: soru "bu iki devlet aynı
+    haritada hiç buluşur mu"dur, kaç yıl buluştukları değil."""
     gruplar = collections.defaultdict(list)
     for a, (_, hx) in BOYALAR.items():
         gruplar[hx.lower()].append(a)

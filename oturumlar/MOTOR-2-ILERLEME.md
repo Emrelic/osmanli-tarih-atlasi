@@ -692,3 +692,36 @@ uyuşturuyor (2s 119→192 bugün sessizce normalleşti), kuyruk EKSİLİR.
   Bonus ölçüm: Asya sahipsizlik de AÇMIYOR (Değişmez 1 ✓ 50 sabit,
   1.579 yerleşim) — N8 endişesinin ilk cevabı.
 
+## ✅ İş O-3 — kuyruk PARTİ-BAĞIMSIZ genelleştirildi + 5 kıyı koordinatı (20:50)
+
+**Kuyruk genelleştirmesi:** KUYRUK_DOSYALARI artık üç parti (ortaasya2,
+avrupa, asya); her biri AYRI satır. Çekirdek = eski külliyat (yerlesimler +
+afrika + ek). Doğrulama:
+- Çekirdek 2s: **610 kırılma / 119 açık** — parti ÖNCESİ taban ölçümümle
+  (denetle_taban.txt) BİREBİR: bağımsız çapraz doğrulama ✓
+- Kuyruk satırları: ortaasya2 **7n·12k·6 MADDESİZ** · avrupa
+  **237n·109k·83 MADDESİZ** · (asya bellekte) **344n·481k·374 MADDESİZ**
+- ⚠️ YÖNTEM NOTU: kuyruk sayısı partinin İZOLE yükü, çekirdeğe marjinal
+  katkısı değil — tarih kesişmeleri yüzünden toplamlar eski birleşik sayıya
+  eşit ÇIKMAZ (ör. ortaasya2 izole 6 maddesiz, marjinali +2 idi; 1869/1881
+  günleri çekirdekte zaten açıktı). İzole sayı doğru ölçü: VERİ KRONOLOJİ
+  o partiyi işlerken önündeki gerçek liste bu.
+- ⚠️ Bilinen küçük bedel: avrupa verisinin eşlediği 1 madde çekirdek 2t'ye
+  geri döndü (51→52) — ayrım çekirdeği partiden gelen iyileşmeden de yalıtır.
+- renk_olc.ayni_hex()'e örtüşme YÖNTEM notu eklendi (kimlik zarfı vs dönem
+  bazlı; 1461/1350 farkının açıklaması — koordinatör istedi).
+
+**5 kıyı noktası — koordinatöre teslim (maske covers() DOĞRULAMALI, sınırdan
+0,15 km payla içeri):**
+```
+ad          · bugünkü lat,lon    · önerilen lat,lon  · sapma  · maske
+Toulon      · 43.1250,5.9300    · 43.1222,5.9384    · 0,75 km · İÇİNDE ✓
+Helsingborg · 56.0460,12.6940   · 56.0500,12.7005   · 0,60 km · İÇİNDE ✓
+Santander   · 43.4620,-3.8100   · 43.4667,-3.8115   · 0,53 km · İÇİNDE ✓
+Stornoway   · 58.2090,-6.3870   · 58.2111,-6.3870   · 0,23 km · İÇİNDE ✓
+Saint-Malo  · 48.6490,-2.0260   · 48.6479,-2.0242   · 0,18 km · İÇİNDE ✓
+```
+Hepsi emsal tavanının (1,39 km) altında. Sundsvall/Trondheim'a DOKUNULMADI
+(kaydırma vakası değil, kuzey 64 bekliyor). data/*.js'e yazılmadı — yazım
+koordinatörde.
+
