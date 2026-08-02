@@ -33,3 +33,7 @@ Kabul koşusu (`py arac/denetle.py`, öncesi/sonrası tam çıktı karşılaşt�
 - Değişmez 2t: 52 — değişmedi (taban zaten ✗ 52/49).
 - Çıkış kodu her iki koşuda da 1 (bilinen borçlar yüzünden) — SINIF DEĞİŞMEDİ.
 
+---
+
+⏳ başladım: İş B — denetle.py:962 _BOLGE_KUTU kaynaktan okusun — 2026-08-02 12:30
+
