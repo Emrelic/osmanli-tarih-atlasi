@@ -164,7 +164,11 @@ yazdı — negatif sonuç da sonuçtur.
 
 ---
 
-## 4. KARAR ② — açılacak değer: **`box(-12, -11, 142, 64)`**
+## 4. KARAR ② — açılacak değer: **`box(-12, -11, 146, 64)`** ✅ KESİN
+
+> ⚠️ `142` idi. İş M (`1c87765`) ölçtü, **`146` oldu.** Gerekçe `§6b`'de.
+> Aşağıdaki kenar tablosu `142` üzerinden ölçülmüştür; `146`'nın ek maliyeti
+> **+2 dakika · +68 poligon.**
 
 Üç kenar açılır, biri açılmaz:
 ```
@@ -273,3 +277,57 @@ yazmak ölçümün parçasıdır.**
 🟡 Atanmadı — veri oturumu işi. Koordinatlar **temsil noktası**; tarihî
 merkeze kaydırılmalı (Palawan → Taytay gibi) ve `s:`/`d:` zinciri kaynakla
 kurulmalı. **MOTOR 2 tarih uydurmadı.**
+
+---
+
+## 6b. ✅ DOĞU KENARI `142` → `146` — ve `§6`'nın "geçici" kaydı KALKTI
+
+İş M (`1c87765`), iki soru:
+
+### ① Başka bölünme var mı — **evet, üç ada, hepsi DOĞU kenarında**
+
+```
+Yeni Gine   787.829 km²   %40,9 dışarıda   bbox 130,9..150,9   nokta YOK
+Hokkaido     78.358 km²   %68,0 dışarıda   🔴 SAPPORO ÜSTÜNDE
+Sahalin      75.453 km²   %94,2 dışarıda   nokta yok
+BATI · GÜNEY · KUZEY      başka bölünme BULUNAMADI (üç kenar temiz)
+```
+
+🔴 **VE BUGÜNÜN EN ZARİF BULGUSU HOKKAIDO'DA:** kutu kenarını
+*"evrenin en doğu noktası Sapporo = 141,35"* diye türetmiştim. **Sapporo
+Hokkaido'nun üstünde ve ada 145,8'e uzanıyor.**
+⇒ Kenarı belirleyen nokta, **kendi adasını ikiye bölen kenarı** belirlemiş.
+Sonuç: *"nokta var, ada yarım."*
+
+📌 `§6`'daki ders bundan daha iyi doğrulanamazdı: **nokta listesi kenarın
+nerede olması gerektiğini söylemez.** Burada nokta listesi kenarı
+söyledi — ve **yanlış söyledi.**
+
+### ② Uzatma maliyeti — ve `145` bir TUZAK
+
+```
+145   +2 dk · +52 poligon   → yalnız Sahalin kapanır, HOKKAIDO KAPANMAZ (145,8)
+146   +2 dk · +68 poligon   → HOKKAIDO + SAHALİN İKİSİ DE BÜTÜN GİRER   ✅
+```
+⚠️ `145` **yanlış durak**: aynı parayı ödeyip işin yarısını alıyor.
+
+**Meridyen taraması 143–151: DİKİŞSİZ BOYLAM YOK.** Anakara her boylamda
+kesiliyor, Yeni Gine de öyle.
+⇒ Doğru soru *"hangi kenar dikişsiz"* değil, **"hangi kenar en az ve en
+zararsız keser"** — ölçülen cevap **146**.
+
+### Kabul edilen zarar
+
+```
+Yeni Gine   %40,9 dışarıda   nokta YOK · İş K bütçesinde zaten sayılı
+Kunaşir      1.566 km²       Kuril, noktasız
+Manam çevresi  372 km²       PNG kıyısı, noktasız
+```
+🟡 Yeni Gine bölünmesi **bilerek kabul ediliyor** ve `§82` notuna yazılmalı.
+📌 Ve kesik, tarihî **141° Hollanda sınırının** yakınında — bölünme
+kabullenilecekse coğrafî olarak en savunulabilir yer zaten orası.
+
+⇒ **`§6`'daki "değer geçici" kaydı KALKTI. Kutu değeri KESİN:**
+```
+box(-12, -11, 146, 64)
+```
