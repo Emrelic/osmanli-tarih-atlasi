@@ -348,3 +348,32 @@ Zincirin üç halkası var ve bugün üçü de eksik:
 
 ⏳ başladım: İş J — kutunun DÖRT KENARI, kenar başına dk/nokta — 2026-08-02 16:25
 
+## ✅ İş J — dört kenar, kenar başına dk/nokta (16:40) — KUTU AÇILMADI
+
+Yöntem İş C ile aynı (maske taklidi; uret_petek ÇALIŞTIRILMADI). Nokta
+evreni: canlı 998 + avrupa 237 + asya 344 = 1.579. Süre türetimi (§B5):
+her kenar için dört çarpan (kara alanı · poligon · köşe · ızgara oranı),
+tahmin = 43 dk × çarpan ortalaması; aralık = 43 × [min, maks çarpan].
+dk/nokta = (tahmin − 43) / yeni nokta.
+
+  kenar             yeni nokta   +alan der²   +poligon   tahmin     dk/nokta
+  DOĞU  62→142         320        +3.054      +1.420     88 (81-98)   0,1
+  GÜNEY 1,5→−11          0          +354          +69     48 (46-52)   TANIMSIZ*
+  KUZEY 62→64            2           +99         +109     46 (44-47)   1,4
+  KUZEY 62→71            2          +325         +424     53 (47-60)   5,2
+  BATI  −12→?      SORU YOK — lon<−12 nokta BULUNAMADI (0); evrendeki en
+                   batı nokta Tralee (−9,70, avrupa). Kenar sorusu yok.
+
+* KENAR ETKİLEŞİMİ — getiri TOPLAMSAL DEĞİL: GÜNEY tek başına 0 nokta ama
+  DOĞU AÇIKKEN +24 nokta getiriyor (Endonezya; yalnız ikisi birden açılınca
+  girer: G 0 + D 320 ≠ G+D 344). GÜNEY'in koşullu maliyeti ~5 dk / 24 nokta
+  ≈ 0,2 dk/nokta — ama YALNIZ Doğu ile birlikte anlamlı.
+
+Kenar hükümleri (ölçümden):
+- DOĞU açık ara en verimli: 0,1 dk/nokta (İş C takımada tavanıyla bile
+  ~0,3). GÜNEY, DOĞU'nun ucuz yolcusu. KUZEY 64 ucuz (+3 dk, 2 nokta);
+  KUZEY 71 aynı 2 nokta için 3,3 kat pahalı — Norveç fiyort kıyısı +424
+  poligon ekliyor, sıfır ek getiri. 64'ü aşan her derece bugün getirisiz.
+- İş C'nin takımada uyarısı yalnız DOĞU/GÜNEY için geçerli; KUZEY
+  kenarında parçalılık fiyortlardan geliyor (poligon ×1,38) ama alan küçük.
+
