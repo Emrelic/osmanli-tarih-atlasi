@@ -214,3 +214,55 @@ MOTOR 2'nin ölçtüğü tavan: ada kuralı parça×nokta ile ölçeklenirse sü
 
 ⇒ Adacık kuralı kararı **hem çıktıyı hem süreyi** belirliyor; kutudan önce
 gelmesinin ikinci sebebi bu.
+
+---
+
+## 6. 🔴 KİLİTLENEN DEĞER KUSURLU ÇIKTI — kenar Sahalin'i ikiye bölüyor
+
+MOTOR 2, İş L (`9154665`): kilitli kutunun doğu kenarı **142**, Sahalin adası
+**141,6 – 144,7** ⇒ **ada ortadan ikiye bölünüyor.**
+
+🔴 **Ve bu benim türetme hatam:** değeri *"Asya partisinin en doğu noktası
+141,35"* diye çıkardım. Yani kutuyu **VERİNİN yayılımına** göre
+boyutlandırdım, **COĞRAFYAYA** göre değil.
+
+> **Yarım ada, yanlış renkten de kötü görünebilir** — yanlış renk
+> *"biliyoruz"* der, yarım ada *"harita bozuk"* der.
+
+📌 Ders, ve bugün kutuda **dördüncü** kez aynı sınıf:
+> **Kutu kenarı verinin yayılımına göre değil, COĞRAFYANIN DİKİŞLERİNE göre
+> seçilir.** Nokta listesi kenarın *nerede olması gerektiğini* söylemez;
+> yalnız **en az nerede** olması gerektiğini söyler.
+
+⇒ İş M açıldı: (①) dört kenarın herhangi biri **başka** bir kara kütlesini
+bölüyor mu — %5 eşiğiyle · (②) doğu kenarını ~145'e uzatmanın maliyeti.
+**Kutu değeri, ① cevaplanana kadar GEÇİCİ sayılır.**
+
+---
+
+## 7. 📌 HEDEF NOKTA LİSTESİ HAZIR (İş L) — kutudan bağımsız çalışabilir
+
+```
+YENİ KUTU     12 nokta → 25.566 km²'nin %98'i
+              ilk 3 nokta %75 · ilk 5 %84 · ilk 10 %95
+BUGÜN         gerçek acil yük ~1.000 km² (Rügen 969 km²)
+```
+
+⚠️ **Ve MOTOR 2 kendi vekilini kendi bulgusuna karşı sınadı:** İş K'nin
+*"bugün 27 parça / 2.751 km²"* rakamının bir kısmı **yanlış alarm.**
+`Jersey` tarihen İngiliz tacına bağlı, `Bornholm`/`Samsø` Danimarka —
+coğrafî anakara vekili orada tarihe aykırı konuşuyor. Liste **güven
+sütunuyla** işaretli.
+
+⇒ `YASALAR B13`: vekil ölçüt sonucu değiştirir; **vekilin NEYİ ölçmediğini
+yazmak ölçümün parçasıdır.**
+
+**İlk üç hedef:**
+```
+1  Palawan/Balabac   (7,01 · 118,47)  11.881 km² · 19 parça · anakara Brunei
+2  Riau takımadası   (0,76 · 104,23)   3.900 km² · 52 parça · Singapur çekiyor
+3  Sahalin batı şer. (52,50 · 141,90)  3.392 km² · Sapporo 943 km öteden
+```
+🟡 Atanmadı — veri oturumu işi. Koordinatlar **temsil noktası**; tarihî
+merkeze kaydırılmalı (Palawan → Taytay gibi) ve `s:`/`d:` zinciri kaynakla
+kurulmalı. **MOTOR 2 tarih uydurmadı.**
