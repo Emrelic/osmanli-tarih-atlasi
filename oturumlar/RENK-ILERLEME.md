@@ -536,9 +536,43 @@ py arac/renk_olc.py  →  1235 nokta · 167 kimlik
   komşu çakışması  66 → 57
   aynı-hex          0 · aynı-anahtar 1 (afsar↔kacar, VERİ işi)
 ```
-🔴 `almanya`nın kalan **tek** çakışması: `venedik` 11,4 (28 komşulu, ayrı iş).
-Ve `almanya` hâlâ altlıktan 12,2 — **görünmez**; rengi değişmedi, yalnız
-komşuları açıldı. Kendi görünürlüğü ayrı bir karar.
+### 4b-2. `almanya`nın kendi rengi — griden maviye ✅
+
+Koordinatör kararı: görünür yap. **Şartı önce yerine getirdim** — grinin
+kasıtlı olduğuna dair gerekçe arandı, **bulunamadı:**
+```
+· satırın yanında gerekçe yorumu YOK
+· git log -S'"almanya"' -- arac/renkler.py → tek commit (6cb69b1,
+  Oturum 3'ün 77→212 kayıtlık TOPLU işi) — tasarım kararı değil
+· belgelerde "gri kimliktir" diyen bir kural YOK
+```
+⇒ Gri bir **varsayılandı.** Ve mesele yalnız görünürlük değil: bu atlasta
+**gri "veri yok" rengidir.** Kutsal Roma 1281-1806 arası Avrupa'nın en büyük
+gövdelerinden biri ve "bilmiyoruz" rengiyle çiziliyordu — görünmezlik değil,
+**yanlış bir mesaj.**
+
+**Ton seçimi ölçümle:** 24 komşunun tonları çemberin neredeyse tamamını
+kaplıyor (14·51·54·70·71·76·80·97·120·126·127·152·165·185·249·283·289·290·
+318·321·330·333·336·359) — **tek boşluk 185-249 arası.** Almanya oraya kondu.
+
+```
+#9a9a9a → #16c6fe   ton 213,5° (en yakın komşu tonundan ~28° uzak)
+  altlıktan  12,2 → 32,6      pay (24 komşu + Osmanlı) ΔE 15,4
+  C* 23,5 = %68 yüzdelik      tavan 17,4 idi — ZORLANMADI
+```
+⚠️ Ham doygunluk S 0,91 = %83 yüzdelik, paletin üst çeyreğinde. Kabul edildi
+ve sebebi ölçüldü: L\* 80 civarında kromatik bir MAVİ üretmenin RGB'de başka
+yolu yok. Algısal ölçü C\* ve o %68'de — aykırı değil.
+
+🟢 **Yan fayda:** `almanya ↔ venedik` 11,4 → 19,8. Almanya'nın kalan tek
+çakışmasıydı; bu hamle onu da kapattı. **`almanya` artık tamamen temiz** —
+ne çakışmada ne görünmezler listesinde.
+
+```
+py arac/renk_olc.py  →  1235 nokta · 167 kimlik
+  görünmez         11 → 10
+  komşu çakışması  57 → 56
+```
 
 ---
 

@@ -143,7 +143,35 @@ BOYALAR = {
     # altında. YAPILACAKLAR'da "palet stratejisi" olarak duruyor.
     "macaristan": ("Macaristan",             "#1e88e5"),
     "avusturya":  ("Avusturya (Habsburg)",   "#d9c76a"),
-    "almanya":    ("Kutsal Roma / Almanya",  "#9a9a9a"),
+    # 🔴 GRİDEN MAVİYE (RENK oturumu, 2 Ağustos; koordinatör kararı).
+    # Eski #9a9a9a altlıktan ΔE 12,2 — GÖRÜNMEZ. Ve mesele yalnız görünürlük
+    # değildi: bu atlasta GRİ, "veri yok" rengidir. Kutsal Roma İmparatorluğu
+    # 1281-1806 arası Avrupa'nın en büyük gövdelerinden biri ve "bilmiyoruz"
+    # rengiyle çiziliyordu — görünmezlik değil, YANLIŞ BİR MESAJ.
+    #
+    # ⚠️ ÖNCE GRİNİN KASITLI OLUP OLMADIĞI ARANDI (koordinatörün şartı):
+    #   · bu satırın yanında gerekçe yorumu YOK
+    #   · git log -S'"almanya"' -- arac/renkler.py → tek commit (6cb69b1,
+    #     Oturum 3'ün 77→212 kayıtlık TOPLU işi), tasarım kararı değil
+    #   · belgelerde "gri kimliktir" diyen bir kural YOK
+    #   ⇒ Gri bir VARSAYILANDI. Ton sürekliliği kısıtı bu yüzden uygulanmadı:
+    #     nötr rengin (C* 7,1) korunacak bir tonu yok.
+    #
+    # ÖLÇÜM — 24 komşusunun tonları çemberin NEREDEYSE TAMAMINI kaplıyor:
+    #   14·51·54·70·71·76·80·97·120·126·127·152·165·185·249·283·289·290·
+    #   318·321·330·333·336·359    ⇒ tek boşluk 185-249 arası.
+    # Almanya oraya kondu: ton 213,5°, en yakın komşu tonundan ~28° uzak.
+    # Yani ΔE'den bağımsız olarak da AYRI OKUNUR.
+    #   pay (24 komşu + Osmanlı ikilisi) ΔE 15,4  · altlıktan 32,6 (eski 12,2)
+    #   C* 23,5 = %68 yüzdelik
+    # ⚠️ Ham doygunluk S 0,91 = %83 yüzdelik — paletin üst çeyreğinde, kabul
+    #   ediyorum ve sebebi ölçüldü: L* 80 civarında kromatik bir MAVİ üretmenin
+    #   RGB'de başka yolu yok. Algısal ölçü C* ve o %68'de, aykırı değil.
+    # 📌 TAVAN ZORLANMADI: bantta ulaşılabilir azami pay 17,4; 15 uygulandı.
+    #
+    # 🟢 YAN FAYDA: `almanya ↔ venedik` 11,4 → 19,5. Almanya'nın kalan TEK
+    #   çakışmasıydı ve bu hamle onu da kapattı ⇒ almanya artık TEMİZ.
+    "almanya":    ("Kutsal Roma / Almanya",  "#16c6fe"),
     "lehistan":   ("Lehistan-Litvanya",      "#b56ba0"),
     "rusya":      ("Rusya",                  "#4f7d4f"),
     "altinorda":  ("Altın Orda ve ardılları","#9e7d9e"),
