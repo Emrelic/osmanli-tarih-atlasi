@@ -167,3 +167,33 @@ Görülüp DOKUNULMAYAN (Kapı B/renk partisi kapsamı):
 
 ⏳ başladım: İş E — devletler.js ORTAK OKUYUCU (girdi.py) + renk_olc.py taşıma — 2026-08-02 14:00
 
+## ✅ İş E — girdi.oku_devletler(): devletler.js'in TEK okuyucusu (14:20)
+
+KÖK NEDEN TEŞHİSİ (ölçüldü): `_cevir`'in anahtar-tırnaklama regex'i dizelerin
+İÇİNE işliyor — sirbistan-nemanjic özetindeki "(kaynak: TDV, madde:
+sirbistan)" düzyazısında `madde:` anahtara çevrilip JSON kırılıyordu
+(JSONDecodeError satır 442 sütun 289). yerlesimler düzyazısında `, kelime:`
+deseni yok, devletler.js'inkinde var — üç oturumun üç ayrı geçici çözüm
+yazmasının kökü bu.
+
+Çözüm: `girdi.oku_devletler()` — DİZE-FARKINDA tek geçişli çevirici:
+dizelerin içi hiç değiştirilmez; yorumlar ve sondaki virgüller yalnız dize
+DIŞINDA ayıklanır; çıplak anahtarlar yalnız `{`/`,` sonrasında tırnaklanır.
+Başarısızlıkta SystemExit (sessiz sıfır YASAK), 0 kayıt da SystemExit.
+renk_olc.py'deki yerel ayrıştırıcı SİLİNDİ, ortak okuyucuya bağlandı —
+iki otorite kalmadı.
+
+Kabul ölçütü DÖRT UÇLU, dördü de koşuldu:
+- ① kayıt sayısı **242** ✓
+- ② `zend` BULUNDU ✓ — f=1751-01-01 t=1794-01-01, kronoloji 4 madde
+- ③ harita: taşıyan **125** ✓ — 1724. satırdaki yorum içi `harita:"bosna"`
+  SIZMADI; "bosna"yı yalnız gerçek kayıt (bosna-kralligi) taşıyor
+- ④ SESSİZ SIFIR YASAK ✓ — iki sınama, ikisi de bozuk KOPYA üstünde
+  (depo verisine dokunulmadı): ④a tırnağı silinmiş kopya → SystemExit
+  "ayrıştırılamadı… bu 'veri yok' DEĞİLDİR"; ④b window.DEVLETLER'siz
+  kopya → SystemExit "window.DEVLETLER bulunamadı"
+
+Regresyon: renk_olc.py çıktısı taşıma sonrası BİREBİR AYNI (satır satır
+diff 0; paylaşımlı 8 anahtar aynı). denetle.py çıktısı da BİREBİR AYNI
+(girdi.py eklemesi yan etkisiz).
+

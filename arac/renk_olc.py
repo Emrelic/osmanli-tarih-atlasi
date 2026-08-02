@@ -39,7 +39,7 @@ KOMUTLAR
       "Aynı haritada görünüyorlar" yetmez; aynı ANDA komşu olmaları gerek.
    3. Osmanlı ikilisi ayrı opaklıkta: doğrudan 0,68 · tâbi 0,60.
 """
-import io, os, re, sys, math, collections, itertools
+import io, os, sys, math, collections, itertools
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -166,32 +166,14 @@ def ayni_anahtar():
     afsar↔kacar 1789-1796, ikisi de "iran" — VERİ KİMLİK 2'nin bulgusu).
     ⚠️ ARDIŞIK paylaşım (halef aynı anahtarı alır) YERLEŞİK desendir —
     örtüşme yoksa SUSULUR, yoksa 12 yanlış alarm üretirdi."""
-    # ⚠️ girdi._cevir devletler.js'i ÇEVİREMİYOR (ölçüldü: JSONDecodeError,
-    # dosya yerleşim şeması için yazılmış çeviriciyle uyumsuz). Yalnız dört
-    # düz alan gerektiği için hedefli ayrıştırma: kayıtlar satır başındaki
-    # `{ id:` ile başlar. Kronoloji maddelerinin kendi t: alanları karışmasın
-    # diye `{` ile başlayan İÇ satırlar atılır (maddeler hep öyle yazılı);
-    # alan SIRASINA güvenilmez — harita: bazı kayıtlarda kronolojiden sonra.
-    src = io.open(os.path.join(girdi.DATA, "devletler.js"),
-                  encoding="utf-8").read()
-    D = []
-    for parca in re.split(r"(?m)^\{\s*id:", src)[1:]:
-        m_id = re.match(r'\s*"([^"]+)"', parca)
-        govde = "\n".join(
-            l for l in parca.split("\n")
-            if not l.lstrip().startswith(("{", "//")))
-        # ⚠️ // filtresi süs değil: devletler.js:1724'te yorum içinde
-        # harita:"bosna" geçiyor — filtresiz, komşu kayda alan sızardı.
-        m_f = re.search(r'\bf:\s*"([^"]+)"', govde)
-        m_t = re.search(r'\bt:\s*"([^"]+)"', govde)
-        m_h = re.search(r'\bharita:\s*"([^"]+)"', govde)
-        if m_id:
-            D.append({"id": m_id.group(1),
-                      "f": m_f and m_f.group(1), "t": m_t and m_t.group(1),
-                      "harita": m_h and m_h.group(1)})
+    # Okuma girdi.oku_devletler() ile — TEK ortak okuyucu. Bu araçta önce
+    # hedefli bir yerel ayrıştırıcı vardı; aynı gün üç oturum üç ayrı geçici
+    # çözüm yazıp yarısı yanlış cevap alınca okuyucu girdi.py'de
+    # ortaklaştırıldı (gerekçesi orada). İki ayrıştırıcı = iki otorite.
+    D = girdi.oku_devletler()
     grup = collections.defaultdict(list)
     for d in D:
-        if d["harita"] and d["f"] and d["t"]:
+        if d.get("harita") and d.get("f") and d.get("t"):
             grup[d["harita"]].append(d)
     ortusen, sessiz = [], 0
     for anahtar, kayitlar in sorted(grup.items()):

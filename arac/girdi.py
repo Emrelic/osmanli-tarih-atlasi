@@ -251,6 +251,112 @@ def _cevir(js, degisken):
     return json.loads(j)
 
 
+# ⚠️ DEVLETLER.JS'İN TEK OKUYUCUSU — "herkes kendi ayrıştırıcısını yazıyor"
+# sınıfının kapağı (2 Ağustos 2026). O gün AYNI dosya için ÜÇ geçici çözüm
+# yazıldı ve yarısı YANLIŞ cevap verdi: düz regex 0 kayıt döndürdü (sessiz
+# sıfır "veri yok" diye okundu), parantez sayan "zend KAYIT YOK" dedi (kayıt
+# vardı), hedefli dört-alan çalıştı ama işine özeldi. Sebep: `_cevir`
+# devletler.js'i ÇEVİREMİYOR — anahtar-tırnaklama regex'i dizelerin İÇİNE
+# işliyor ve özet düzyazısındaki "(kaynak: TDV, madde: sirbistan)" gibi
+# `, kelime:` desenlerini anahtar sanıp JSON'u kırıyor. yerlesimler
+# dosyalarının düzyazısında bu desen yok, devletler.js'inkinde var.
+# Bu okuyucu bu yüzden DİZE-FARKINDA tek geçiş yapar: dizelerin içi hiç
+# değiştirilmez, yorumlar yalnız dize DIŞINDA atılır (1724. satırdaki yorum
+# içi `harita:"bosna"` kayda sızmaz), sondaki virgül dize dışında ayıklanır.
+# 🔴 SESSİZ SIFIR YASAK: ayrıştırma tutmazsa boş liste değil SystemExit —
+# "bulamadım" ile "yok" ekranda aynı görünür, araç farkı SÖYLEMEK zorunda.
+DEVLET_DOSYASI = "devletler.js"
+
+
+def oku_devletler():
+    """data/devletler.js → kayıt listesi (bütün alanlar, kronoloji dahil).
+    Kullanıcıları: renk_olc.py, denetle*.py ve yarın yazılacaklar."""
+    yol = os.path.join(DATA, DEVLET_DOSYASI)
+    if not os.path.exists(yol):
+        raise SystemExit(f"!! {DEVLET_DOSYASI} bulunamadı: {yol}")
+    js = io.open(yol, encoding="utf-8").read()
+    m = re.search(r"window\.DEVLETLER\s*=", js)
+    if not m:
+        raise SystemExit(f"!! {DEVLET_DOSYASI}: window.DEVLETLER bulunamadı")
+    govde = js[m.end():]
+    son = govde.rfind("]")
+    if son < 0:
+        raise SystemExit(f"!! {DEVLET_DOSYASI}: kapanış ']' bulunamadı")
+    govde = govde[:son + 1]
+    out, i, n = [], 0, len(govde)
+    dize = False
+    son_anlam = ""                      # son anlamlı karakter (dize dışı)
+    while i < n:
+        c = govde[i]
+        if dize:                        # dizenin İÇİ: olduğu gibi geçir
+            out.append(c)
+            if c == "\\" and i + 1 < n:
+                out.append(govde[i + 1])
+                i += 2
+                continue
+            if c == '"':
+                dize = False
+            i += 1
+            continue
+        if c == '"':
+            dize = True
+            out.append(c)
+            son_anlam = c
+            i += 1
+            continue
+        if govde[i:i + 2] == "//":      # yorum: satır sonuna dek at
+            while i < n and govde[i] != "\n":
+                i += 1
+            continue
+        if c == ",":                    # sondaki virgül: JSON'da geçersiz
+            j = i + 1
+            while j < n:
+                if govde[j] in " \t\r\n":
+                    j += 1
+                elif govde[j:j + 2] == "//":
+                    while j < n and govde[j] != "\n":
+                        j += 1
+                else:
+                    break
+            if j < n and govde[j] in "]}":
+                i += 1
+                continue
+            out.append(c)
+            son_anlam = c
+            i += 1
+            continue
+        if c.isalpha() or c == "_":     # çıplak anahtar → tırnakla
+            j = i
+            while j < n and (govde[j].isalnum() or govde[j] == "_"):
+                j += 1
+            kelime = govde[i:j]
+            k = j
+            while k < n and govde[k] in " \t\r\n":
+                k += 1
+            if k < n and govde[k] == ":" and son_anlam in "{,":
+                out.append('"' + kelime + '"')
+            else:
+                out.append(kelime)      # true/false/null gibi değerler
+            son_anlam = kelime[-1]
+            i = j
+            continue
+        out.append(c)
+        if not c.isspace():
+            son_anlam = c
+        i += 1
+    try:
+        kayitlar = json.loads("".join(out))
+    except ValueError as e:
+        raise SystemExit(f"!! {DEVLET_DOSYASI} ayrıştırılamadı ({e}) — "
+                         f"bu 'veri yok' DEĞİLDİR, okuyucu düzeltilmeden "
+                         f"sonuç kullanılamaz")
+    if not isinstance(kayitlar, list) or not kayitlar:
+        raise SystemExit(f"!! {DEVLET_DOSYASI}: 0 kayıt döndü — dosya boş "
+                         f"olamaz, ayrıştırma çürümüş demektir (sessiz sıfır "
+                         f"yasak)")
+    return kayitlar
+
+
 def oku_dosya(ad):
     """Tek dosyayı okur; `window.YERLESIMLER*` değişkenini kendisi bulur."""
     yol = os.path.join(DATA, ad)
