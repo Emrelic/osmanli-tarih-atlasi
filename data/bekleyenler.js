@@ -15,6 +15,12 @@ window.BEKLEYENLER = {
    ],
    "satir": [
     [
+     "B9",
+     "🔴 KARAR: kıyı hassasiyeti 220 m mi, 500 m mi? Koşu bunu bekliyor. A) 3 ondalık kalsın — kıyı 220 m, boyutu kademeli yükleme çözer (kutu sonrası ~15-16 MB → pencere payı ~%50 → ~8 MB). B) 2 ondalık — gzip 9,49→6,25 MB (−%34), kıyı ~500 m, z8'de ~1 px kayma. Ara yol (iç 2 · kıyı 3) ölçüldü ve elendi: köşelerin %70,8'i kıyıda, kazanç yalnız −%3,7. 🟢 Önerim A — kademeli yükleme kayıpsız, ondalık kalıcı; ve kıyı bugün en çok emek verdiğin yer (Dalmaçya, Ege). Tek harf yeter",
+     "ürünün senin",
+     "1 dk"
+    ],
+    [
      "B8",
      "🔴 KARAR: site her ziyarette 36 MB indiriyor — kutu açılınca ~65 MB olacak. donemler.js 35,9 MB + devletler_harita.js 12,9 MB; koşudan sonra ikisi de yaklaşık iki katına çıkıyor ⇒ toplam ~100 MB. Masaüstünde yavaşlar, mobilde çökebilir. Seçenekler: (a) böl — bölgeye/döneme göre parça parça yükle (b) sıkıştır (c) olduğu gibi bırak, mobil kullanıcıyı kaybet. Bu bir yayın stratejisi kararı, teknik değil",
      "ürünün senin",
@@ -109,11 +115,11 @@ window.BEKLEYENLER = {
   }
  },
  "ozet": {
-  "bekleyen_acik": 1,
+  "bekleyen_acik": 2,
   "gorsel_acik": 0,
   "karar_acik": 1,
   "istege_bagli": 1,
-  "toplam_acik": 2
+  "toplam_acik": 3
  }
 };
-window.URETIM_IZI = {"girdi":{"BEKLEYENLER.md":"f8e181d6bcc5e62a6bfe2bc7f1a56fd67c3df45f1fbe7a050c51b8ff6f0aca64"},"motor":{"uret_bekleyenler.py":"273541b6292dae69b60c7a09db1daca544e3a07dfc9577022c73935e9a92e364"}};
+window.URETIM_IZI = {"girdi":{"BEKLEYENLER.md":"d1d579f52f469bb54d9f80a970cbd57a30eff1b8b9a33dba3c71e8ff95c1240e"},"motor":{"uret_bekleyenler.py":"273541b6292dae69b60c7a09db1daca544e3a07dfc9577022c73935e9a92e364"}};
