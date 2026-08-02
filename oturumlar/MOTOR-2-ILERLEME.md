@@ -304,3 +304,30 @@ duyarsız) — devletler.js + renkler.py + yerlesimler*.js + data geneli.
 
 ⏳ başladım: İş I — Avrupa partisi ÖN ÖLÇÜMÜ (girdi.py'ye EKLEME YOK) — 2026-08-02 15:55
 
+## ✅ İş I — Avrupa partisi ön ölçümü (16:05) — GİRDİYE EKLENMEDİ
+
+Hepsi kendi ölçümüm (betik scratchpad'de; salt okuma):
+
+**① Kutu içi: 235/237** — koordinatör ölçümü DOĞRULANDI. Dışarıdaki 2:
+  Sundsvall (62,391°K) ve Trondheim (63,431°K) — ikisi de KUZEY sınırından
+  (lat 62), boylamdan değil. Kutu kararına girdi: 142° tartışması güney ve
+  doğuyu konuşuyordu; İskandinav çifti KUZEY tavanını da soruyor.
+
+**② 3 km çakışma: 0 çift** (canlı 998 noktaya karşı — beklenen negatif
+  sonuç, çıkmadı). En yakın çift 12,31 km: Reggio Calabria ↔ Messina
+  (yerlesimler.js). Partinin kendi içinde de 3 km çifti 0.
+
+**③ Renksiz kimlik: 15/35** — koordinatör ölçümü DOĞRULANDI, liste birebir
+  Kapı B'nin listesi: aragon · belcika · bretanya · burgonya · ferrara ·
+  irlanda · iskocya · isvicre · kastilya · luksemburg · mantua · navarra ·
+  parma · piza · siena. En ağır beşi (nokta): kastilya 22 · irlanda 12 ·
+  burgonya 12 · aragon 10 · iskocya 9.
+
+**④ YYYY-01-01 yer tutucu: 267/1070 damga = %25** (ortaasya2: %59 —
+  aynı betikle yeniden ölçüldü, 26/44). Avrupa partisi tarih hassasiyetinde
+  Orta Asya'dan 2,4 kat iyi; hassasiyet: alanı tartışması burada daha az
+  yakıcı ama 267 damga yine de bilinmeyen gün taşıyor.
+
+girdi.py'ye EKLENMEDİ — renkler gelmeden eklenirse 235 nokta boyasız girer.
+Ekleme kararı koordinatörün.
+
