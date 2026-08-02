@@ -19,12 +19,6 @@ window.BEKLEYENLER = {
      "🔴 RENK oturumunu aç — EN GÜÇLÜ MODEL. Bugün açılacak TEK oturum. Brifing: oturumlar/MOTOR-KAPILAR.md Kapı B + oturumlar/KARAR-KIMLIKLER-JS.md. Kapsamı: 15 Avrupa rengi (235 nokta açar) + İran zinciri + Asya'nın 135'i. Üçü de tek partide ölçülmeli; bitişik devletler tek tek çözülemez",
      "oturum açmak sende",
      "1 dk"
-    ],
-    [
-     "B6",
-     "❓ KARAR: kacar da safevî ailesinden mi? Kararın \"afsar/zend, safevî ile aynı renk ailesi, farklı parlaklık\" idi — kacarı adıyla saymadın, ve Kaçar 134 yıl sürmüş ayrı bir çağ. Tek sorum bu. (afsar–kacar çakışması cevabından bağımsız olarak düzeltilecek.)",
-     "kural senin, zevk senin",
-     "1 dk"
     ]
    ]
   },
@@ -109,10 +103,11 @@ window.BEKLEYENLER = {
   }
  },
  "ozet": {
-  "bekleyen_acik": 2,
+  "bekleyen_acik": 1,
   "gorsel_acik": 0,
   "karar_acik": 1,
   "istege_bagli": 1,
-  "toplam_acik": 3
+  "toplam_acik": 2
  }
 };
+window.URETIM_IZI = {"girdi":{"BEKLEYENLER.md":"9177dc1493b2aabd2f47cd5896bd3eb5b273a633f0186fed027b06f2332b8105"},"motor":{"uret_bekleyenler.py":"273541b6292dae69b60c7a09db1daca544e3a07dfc9577022c73935e9a92e364"}};

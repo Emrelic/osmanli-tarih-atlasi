@@ -17,10 +17,15 @@ oturum açmaktan geçiyor ve **oturum açmayı koordinatör yapamaz.**
 | # | iş | niçin sen | süre |
 |---|---|---|---|
 | **B5** | 🔴 **RENK oturumunu aç — EN GÜÇLÜ MODEL. Bugün açılacak TEK oturum.** Brifing: `oturumlar/MOTOR-KAPILAR.md` Kapı B + `oturumlar/KARAR-KIMLIKLER-JS.md`. Kapsamı: **15 Avrupa rengi** (235 nokta açar) + **İran zinciri** + **Asya'nın 135'i**. Üçü de tek partide ölçülmeli; bitişik devletler tek tek çözülemez | oturum açmak sende | 1 dk |
-| **B6** | ❓ **KARAR: `kacar` da safevî ailesinden mi?** Kararın *"`afsar`/`zend`, `safevî` ile aynı renk ailesi, farklı parlaklık"* idi — **`kacar`ı adıyla saymadın**, ve Kaçar 134 yıl sürmüş ayrı bir çağ. **Tek sorum bu.** (`afsar`–`kacar` çakışması cevabından bağımsız olarak düzeltilecek.) | kural senin, zevk senin | 1 dk |
+📌 **Bugün senden bir tek bu.** `B5` açılmazsa harita ilerlemez. Gerisini ben
+hallediyorum.
 
-📌 **Bugün senden bunlar.** `B5` açılmazsa harita ilerlemez; `B6` cevaplanmazsa
-İran zinciri boyanamaz. Gerisini ben hallediyorum.
+### ✅ Bugün verdiğin iki karar — uygulanıyor
+
+| karar | ne oldu |
+|---|---|
+| **`kacar` MOR aileden** | İran zinciri tam tanımlı: `safevi` taban (`#6b4a7d`) · `afsar` · `zend` · `kacar` **dördü de mor ailesi, farklı parlaklık**. 1789-1794'te üçü birden sahnede → üç ton ayırt edilebilmeli. Renk partisine yazıldı |
+| **Kazak ayrımı** | Türk olan `kazak-hanligi` **olduğu gibi kalır**. Ukrayna tarafı için literatür karşılığı **`zaporojye-kazaklari`** (Zaporijya Siçi — *"Ukrayna kazakları"* coğrafî, *"Zaporojye"* kurumsal). ⚠️ Önce ölçüm: dizinde bugün böyle bir kayıt var mı? MOTOR 2 tarıyor. Yoksa bu bir *"ileride lazım"* kalemi, şimdi yazılmaz |
 
 ---
 
