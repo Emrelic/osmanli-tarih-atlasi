@@ -227,3 +227,43 @@ yol adlı (pathspec'li commit). stash hiç kullanılmadı, kullanılmayacak.
 
 ⏳ başladım: İş G — URETIM_IZI 7 üretilen çıktının 7'sine — 2026-08-02 14:50
 
+## ✅ İş G — URETIM_IZI: yazıcılar 7/7, iz bugün 4/7 (petek koşusu bekliyor) (15:15)
+
+Doğruladım (kendi ölçümüm): 7 üretilen çıktıdan yalnız donemler.js iz
+taşıyordu — koordinatörün 1/7 sayısı doğru.
+
+Yapılan:
+- `girdi.uretim_izi_js(girdiler, betikler)` ortak yardımcı — KÖK'e göre
+  yollarla girdi özetleri; EKSİK dosya SystemExit (küçülen iz taze okunur).
+- `uret_petek.py`: bolgeler + devletler_harita + petek_govde yazımlarına
+  donemler'inkiyle AYNI iz satırı eklendi (koşu BAŞINDA alınan _GIRDI_IZI —
+  yardımcı KULLANILMADI, yeniden hashlemek koşu ortası değişikliğe taze
+  damgası basardı). ÇALIŞTIRILMADI; py_compile temiz. Koşu koordinatörde.
+- `uret_altlik.py`: iz — 4 NE geojson + uret_petek.py (sabit kaynağı) +
+  varsa goller.js/motor_kara.geojson. KOŞTURULDU.
+- `uret_devirler.py`: iz — donemler + devletler_harita + petek_govde +
+  parmak_izi() dosyaları (isg: kaynağı); motor: uret_devirler + renkler.
+  DEVIRLER_KAYNAK_OZET olduğu gibi duruyor. KOŞTURULDU.
+- `uret_bekleyenler.py`: iz — BEKLEYENLER.md. dur() disiplini bozulmadı
+  (uretim_izi_js zaten SystemExit atar). KOŞTURULDU.
+- `denetle_yayin.py`: yeni İZ KAPSAMI bölümü — URETILENLER (7 dosya) tek
+  tek: İZSİZ / BAYAT / taze SAYILIP ADIYLA yazılıyor; izsiz ya da bayat
+  varsa ✗ ve çıkış koduna bağlı. uret_petek çıktılarında bayat_mi'nin küme
+  kıyası da uygulanıyor (ortaasya2 vakası anahtar-anahtar kıyasta görünmez).
+  Hüküm yalnız girdi ekseninde (bayat_mi ile tutarlı; motor ekseni koşu
+  sırasında motor_izi_dogrula'da).
+
+Kabul ölçütü ÜÇ UÇLU:
+- ① Yazıcı kapsamı 7/7 tamam; BUGÜN iz 4/7 (altlik+devirler+bekleyenler
+  taze, donemler eski koşudan BAYAT-bilinen). Kalan 3 uret_petek çıktısı
+  izini İLK KOŞUDA alacak — koşu koordinatörde (43 dk, tetiklemedim).
+- ② denetle_yayin artık SUSMUYOR: "✗ üretim izi: 4/7 taşıyor · taze 3 ·
+  bayat 1 · izsiz 3" + üç izsiz ADIYLA listeleniyor.
+- ③ ELLE BOZMA sınandı: bekleyenler.js izinin ilk hex'i değiştirildi →
+  denetim "BAYAT data/bekleyenler.js — değişen: BEKLEYENLER.md" dedi;
+  üretici yeniden koşturulup iz düzeldi (taze 3'e döndü).
+
+Ayrıca doğru pozitif: donemler.js izi "girdi DOSYA KÜMESİ değişmiş:
+yerlesimler_ortaasya2.js" ile BAYAT — İş A'nın bilinen sonucu, bayat_mi
+ile aynı hüküm.
+

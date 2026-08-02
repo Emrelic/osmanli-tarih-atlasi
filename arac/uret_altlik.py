@@ -255,6 +255,20 @@ for ad in ("kara", "gol", "nehir", "dag_alan", "nehir_motorun", "sirt_motorun"):
 metin = ("// 🤖 ÜRETİLMİŞ — arac/uret_altlik.py. ELLE DÜZENLEME.\n"
          "// Şartname: oturumlar/COGRAFYA-HATLAR.md\n"
          "window.ALTLIK = {" + ",".join(parcalar) + "};\n")
+# Üretim izi (İş G): bu çıktının bayatlığı artık ölçülebilir. Girdi kümesi
+# betiğin GERÇEKTEN okuduklarıdır; goller.js ve motor_kara.geojson isteğe
+# bağlı girdiler, varsa ize girer (yokken üretim de onlarsız koşuyor).
+# uret_petek.py girdide: sabitler (BOLGE·KARA_TOL·SADE_TOL·BUYUK) oradan
+# ayrıştırılıyor — motor penceresi değişince altlık da bayatlar.
+_iz_girdi = ["veri-kaynak/ne_10m_land.geojson",
+             "veri-kaynak/ne_10m_lakes.geojson",
+             "veri-kaynak/ne_10m_rivers.geojson",
+             "veri-kaynak/ne_10m_geography_regions_polys.geojson",
+             "arac/uret_petek.py"]
+for _ops in ("data/goller.js", "veri-kaynak/motor_kara.geojson"):
+    if os.path.exists(os.path.join(KOK, _ops)):
+        _iz_girdi.append(_ops)
+metin += _girdi.uretim_izi_js(_iz_girdi, ["uret_altlik.py"])
 io.open(CIKTI, "w", encoding="utf-8", newline="\n").write(metin)
 
 print()

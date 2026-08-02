@@ -413,6 +413,16 @@ def main():
         else:
             f.write("window.ISGALLER = " + json.dumps(isgaller, ensure_ascii=False,
                                                       separators=(",", ":")) + ";\n")
+        # Üretim izi (İş G) — DEVIRLER_KAYNAK_OZET'in genel hâli: o yalnız
+        # donemler.js'i damgalıyordu, oysa bu çıktı petek_govde +
+        # devletler_harita + isg: taşıyan yerleşim dosyalarından da türüyor.
+        import girdi
+        _iz_girdi = ["data/donemler.js", "data/devletler_harita.js"]
+        if os.path.exists(os.path.join(DATA, "petek_govde.js")):
+            _iz_girdi.append("data/petek_govde.js")
+        _iz_girdi += sorted("data/" + a for a in girdi.parmak_izi())
+        f.write(girdi.uretim_izi_js(_iz_girdi,
+                                    ["uret_devirler.py", "renkler.py"]))
     print("\ndata/devirler.js yazıldı — %d antlaşma, %.1f KB"
           % (len(cikti), os.path.getsize(yol) / 1024))
     print("   kaynak geometri özeti: %s…" % ozet[:16])

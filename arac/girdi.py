@@ -498,6 +498,45 @@ def motor_izi():
     return iz
 
 
+# ⚠️ ÜRETİM İZİ YARDIMCISI — "7 üretilen çıktının 6'sında iz yok" ölçümünün
+# (2 Ağustos, İş G) kapağı. denetle_yayin.py yayın tazeliğini URETIM_IZI'yle
+# ölçüyor ve hükmü YALNIZ izi taşıyan dosya için geçerli — izi olmayan çıktı
+# hakkında hiçbir şey bilinmiyor ama ekran "✓ tazelik" diyordu. Her üretici
+# kendi çıktısına bu satırı yazar; denetim her izi kendi girdileriyle
+# karşılaştırır. uret_petek.py BUNU KULLANMAZ: onun izi koşu BAŞINDA alınan
+# _GIRDI_IZI'dir (motorun okuduğu hâl) — burada yeniden hashlemek koşu
+# ortasında değişen girdiye taze damgası basardı.
+def uretim_izi_js(girdiler, betikler):
+    """`window.URETIM_IZI = …;` satırı — üretilen çıktının künyesi.
+
+    girdiler: KÖK'e göre yollar ("data/donemler.js", "BEKLEYENLER.md",
+    "veri-kaynak/ne_10m_land.geojson"…). betikler: arac/ içindeki üretici
+    dosya adları. 🔴 Eksik dosya SystemExit — listeden sessizce düşen girdi,
+    izi küçültür ve küçük iz 'taze' okunur.
+    """
+    import hashlib
+
+    def _oz(yol):
+        return hashlib.sha256(io.open(yol, "rb").read()).hexdigest()
+
+    iz_g = {}
+    for ad in girdiler:
+        yol = os.path.join(KOK, ad)
+        if not os.path.exists(yol):
+            raise SystemExit("URETIM_IZI: girdi dosyası yok: %s — iz eksik "
+                             "yazılamaz, eksik iz taze okunur" % ad)
+        iz_g[ad] = _oz(yol)
+    iz_m = {}
+    for ad in betikler:
+        yol = os.path.join(os.path.dirname(os.path.abspath(__file__)), ad)
+        if not os.path.exists(yol):
+            raise SystemExit("URETIM_IZI: betik yok: %s" % ad)
+        iz_m[ad] = _oz(yol)
+    return ("window.URETIM_IZI = "
+            + json.dumps({"girdi": iz_g, "motor": iz_m},
+                         separators=(",", ":"), sort_keys=True) + ";\n")
+
+
 def motor_izi_dogrula(baslangic, nerede):
     """Motor KODU koşu sırasında değiştiyse ÖLDÜRÜR.
 

@@ -1540,6 +1540,12 @@ _bj  = "// Otomatik üretildi — elle düzenlemeyin. Betik: arac/uret_petek.py\
 _bj += "// k1/k2 merkezlerin toplu bölge sınırları (üye peteklerinin birleşimi).\n"
 _bj += "// f/t: merkezin Osmanlı aralığı — çizgi haritada yalnız bu aralıkta görünür.\n"
 _bj += "window.BOLGELER = " + json.dumps(BOLGELER, ensure_ascii=False, separators=(",",":")) + ";\n"
+# İz donemler.js'inkiyle AYNI kaynaktan: koşu BAŞINDA alınan _GIRDI_IZI.
+# (İş G, 2 Ağustos: 7 üretilen çıktının 6'sında iz yoktu — denetle_yayin
+#  tazeliği yalnız donemler.js için ölçebiliyordu, gerisi kör noktaydı.)
+_bj += ("window.URETIM_IZI = "
+        + json.dumps({"girdi": _GIRDI_IZI, "motor": _MOTOR_IZI},
+                     separators=(",", ":"), sort_keys=True) + ";\n")
 girdi.izi_dogrula(_GIRDI_IZI, "data/bolgeler.js")
 open(_byol, "w", encoding="utf-8").write(_bj)
 print(f"  {len(BOLGELER)} bölge → data/bolgeler.js ({os.path.getsize(_byol)//1024} KB)")
@@ -1600,6 +1606,9 @@ _dj += "// Yabancı devletlerin dönem gövdeleri (yerlesimler.js s alanından).
 _dj += "// dnm[].g, DEVLET_PARCALAR havuzuna indekstir (js/app.js çözer).\n"
 _dj += "window.DEVLET_PARCALAR = " + json.dumps(DEV_HAVUZ, separators=(",",":")) + ";\n"
 _dj += "window.DEVLET_HARITA = " + json.dumps(DEVLET_KAYIT, ensure_ascii=False, separators=(",",":")) + ";\n"
+_dj += ("window.URETIM_IZI = "
+        + json.dumps({"girdi": _GIRDI_IZI, "motor": _MOTOR_IZI},
+                     separators=(",", ":"), sort_keys=True) + ";\n")
 girdi.izi_dogrula(_GIRDI_IZI, "data/devletler_harita.js")
 open(_dyol, "w", encoding="utf-8").write(_dj)
 print(f"  {len(DEVLET_KAYIT)} devlet, {sum(len(d['dnm']) for d in DEVLET_KAYIT)} dönem → "
@@ -1748,6 +1757,9 @@ _pg += ("window.PETEK_GOVDE_PARCA = "
         + json.dumps(_pg_havuz, separators=(",", ":")) + ";\n")
 _pg += ("window.PETEK_GOVDE = "
         + json.dumps(_pg_indeks, separators=(",", ":")) + ";\n")
+_pg += ("window.URETIM_IZI = "
+        + json.dumps({"girdi": _GIRDI_IZI, "motor": _MOTOR_IZI},
+                     separators=(",", ":"), sort_keys=True) + ";\n")
 girdi.izi_dogrula(_GIRDI_IZI, "data/petek_govde.js")
 io.open(_pgyol, "w", encoding="utf-8").write(_pg)
 print(f"Per-petek gövde → data/petek_govde.js "

@@ -233,6 +233,87 @@ def bayat_mi():
 
 
 # ============================================================================
+# ÜRETİM İZİ KAPSAMI (İş G, 2 Ağustos) — "✓ tazelik" HANGİ dosyalar için?
+# ============================================================================
+# Ölçüldü: 7 üretilen çıktının 6'sında URETIM_IZI yoktu. bayat_mi() hükmü
+# YALNIZ izi taşıyan dosya için geçerli (yukarıdaki kendi yorumu söylüyor) —
+# yani tek dosya için "taze" deyip gerisi hakkında HİÇBİR ŞEY bilmeden ✓
+# basıyorduk. Bugün üçüncü kez çıkan sınıf: araç yeşil veriyor, KAPSAMINI
+# söylemiyor. Bu bölüm kapsamı sayar ve izsizleri ADIYLA yazar.
+URETILENLER = {
+    "data/donemler.js":         "uret_petek.py",
+    "data/bolgeler.js":         "uret_petek.py",
+    "data/devletler_harita.js": "uret_petek.py",
+    "data/petek_govde.js":      "uret_petek.py",
+    "data/altlik.js":           "uret_altlik.py",
+    "data/devirler.js":         "uret_devirler.py",
+    "data/bekleyenler.js":      "uret_bekleyenler.py",
+}
+
+
+def iz_kapsami():
+    """(izsiz, bayatlar, taze, diskte_yok) — üretilen her çıktının izi var mı,
+    varsa kayıtlı girdi özetleri BUGÜNKÜ dosyalarla tutuyor mu?
+
+    Hüküm yalnız `girdi` eksenindedir; `motor` ekseni koşu SIRASINDA
+    motor_izi_dogrula ile korunuyor ve kod her düzenlendiğinde bütün
+    çıktıları kırmızıya boyamak ayrı bir karar ister (bayat_mi de yalnız
+    girdiye bakar). İz anahtarı "/" içeriyorsa KÖK'e göre yoldur; içermiyorsa
+    önce data/, sonra KÖK denenir (uret_petek izleri data-adlarıyla,
+    bekleyenler izi "BEKLEYENLER.md" ile yazar)."""
+    import hashlib
+    izsiz, bayatlar, taze, yok = [], [], [], []
+    for yol, uretici in sorted(URETILENLER.items()):
+        tam = os.path.join(KOK, yol)
+        if not os.path.exists(tam):
+            yok.append(yol)
+            continue
+        metin = open(tam, encoding="utf-8").read()
+        m = re.search(r'window\.URETIM_IZI\s*=\s*(\{.*?\})\s*;', metin, re.S)
+        if not m:
+            izsiz.append((yol, uretici))
+            continue
+        try:
+            iz = json.loads(m.group(1))
+            kayitli = iz.get("girdi") or {}
+        except ValueError:
+            izsiz.append((yol, uretici + " — iz VAR ama AYRIŞTIRILAMADI"))
+            continue
+        fark = []
+        # uret_petek izleri girdi.parmak_izi() kümesidir; KÜME değişmişse
+        # anahtar-anahtar kıyas kör kalır (yeni dosya eski izde hiç yok —
+        # ortaasya2 vakası). bayat_mi'nin küme kıyası buraya da uygulanır.
+        if uretici == "uret_petek.py":
+            try:
+                sys.path.insert(0, os.path.join(KOK, "arac"))
+                import girdi as _g
+                simdiki = set(_g.parmak_izi())
+                if set(kayitli) != simdiki:
+                    fark.append("girdi DOSYA KÜMESİ değişmiş: %s"
+                                % ", ".join(sorted(set(kayitli) ^ simdiki)))
+            except Exception:
+                pass
+        for ad, ozet in sorted(kayitli.items()):
+            if "/" in ad:
+                kyol = os.path.join(KOK, ad)
+            else:
+                kyol = os.path.join(KOK, "data", ad)
+                if not os.path.exists(kyol):
+                    kyol = os.path.join(KOK, ad)
+            if not os.path.exists(kyol):
+                fark.append(ad + " (girdi diskte YOK)")
+                continue
+            simdi = hashlib.sha256(open(kyol, "rb").read()).hexdigest()
+            if simdi != ozet:
+                fark.append(ad)
+        if fark:
+            bayatlar.append((yol, fark))
+        else:
+            taze.append(yol)
+    return izsiz, bayatlar, taze, yok
+
+
+# ============================================================================
 # ÜRETİLİYOR AMA ÇİZİLMİYOR  (OGRENILENLER §40)
 # ============================================================================
 # Bugünün en sık kusur sınıfı ve HİÇBİR DENETİM YAKALAMADI — çünkü bütün
@@ -528,6 +609,25 @@ def main():
         print("      `d:`/`v:`/`s:` DEĞİŞİRSE ya da üretimin ORTASINDA veri değişirse")
         print("      TEMİZ der. Kesin çözüm window.URETIM_IZI (motorda sırada).")
 
+    # ---- ÜRETİM İZİ KAPSAMI (İş G) — tazelik hükmü KAÇAK dosyayı sayar
+    izsiz, iz_bayat, iz_taze, iz_yok = iz_kapsami()
+    n_var = len(URETILENLER) - len(izsiz) - len(iz_yok)
+    durum_iz = "✓" if not izsiz and not iz_bayat else "✗"
+    print()
+    print("%s  üretim izi: %d/%d üretilen çıktı iz taşıyor · taze %d · "
+          "bayat %d · izsiz %d%s"
+          % (durum_iz, n_var, len(URETILENLER), len(iz_taze), len(iz_bayat),
+             len(izsiz), (" · diskte yok %d" % len(iz_yok)) if iz_yok else ""))
+    for yol, uretici in izsiz:
+        print("     İZSİZ  %-28s üretici: %s" % (yol, uretici))
+    for yol, fark in iz_bayat:
+        print("     BAYAT  %-28s değişen: %s"
+              % (yol, ", ".join(fark[:4]) + ("…" if len(fark) > 4 else "")))
+    if izsiz:
+        print("     → izsiz çıktı tazelik hükmünün KAPSAMI DIŞINDA — 'hakkında")
+        print("       hiçbir şey bilinmiyor' demek, 'taze' demek DEĞİL. Üretici")
+        print("       bir sonraki koşuda izi yazar (İş G, 2 Ağustos).")
+
     # ---- ÜRETİLİYOR AMA ÇİZİLMİYOR (§40)
     cizilmiyor, muaf_n = cizilmiyor_mu()
     print()
@@ -550,7 +650,8 @@ def main():
         print("     → §40: veri doğru olabilir ama kullanıcı GÖRMÜYOR.")
         print("       Kasıtlıysa CIZILMEYEN_MUAF'a gerekçesiyle eklensin.")
 
-    if yoklar or izlenmeyenler or kayitsiz or len(damgalar) > 1 or damga_ihlali or bayat:
+    if (yoklar or izlenmeyenler or kayitsiz or len(damgalar) > 1
+            or damga_ihlali or bayat or izsiz or iz_bayat):
         print("SONUÇ: İHLAL VAR — çıkış kodu 1")
         return 1
     print("SONUÇ: temiz")

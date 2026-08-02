@@ -195,6 +195,10 @@ def main():
         f.write("//    yerde durursa ayrışır ve kullanıcı yanlış olana bakar. Değişiklik\n")
         f.write("//    BEKLEYENLER.md'ye yazılır, sonra bu betik koşturulur.\n")
         f.write("window.BEKLEYENLER = " + govde + ";\n")
+        # Üretim izi (İş G) — girdi tek dosya: BEKLEYENLER.md. İz yazılamazsa
+        # uretim_izi_js SystemExit atar; bu betiğin dur() disipliniyle uyumlu.
+        import girdi
+        f.write(girdi.uretim_izi_js(["BEKLEYENLER.md"], ["uret_bekleyenler.py"]))
 
     print("data/bekleyenler.js yazıldı")
     for aranan, anahtar in BOLUMLER:
