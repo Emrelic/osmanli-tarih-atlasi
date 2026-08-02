@@ -369,27 +369,43 @@ def dogrula(yol):
     denetlemeyen adım bunu SESSİZCE geçirirdi. Scratchpad bir kişiyi korur,
     araç herkesi (YASALAR C1).
 
-    Satır biçimi: `kimlik #hex` (satırdaki İLK kimlik + İLK 6 haneli hex;
-    boş ve `//` satırları atlanır). 🔴 SESSİZ SIFIR YASAK: dosya yok/boş/
-    ayrıştırılamaz → SystemExit — '0 fark' ile 'hiç karşılaştırmadım'
-    ekranda aynı görünemez (bugün üç kez düşülen sınıf).
-    Çıkış kodu: fark varsa 1, yoksa 0."""
+    🔴 TASARIM (RENK'in devri, 2 Ağustos): karşılaştırma, öneriyi üreten
+    KOŞUNUN DİSKE YAZDIĞI ARTEFAKTA karşı yapılır — öneri doğrulama anında
+    yeniden üretilirse denetim anlamsızdır (ikinci koşu değişmiş BOYALAR'ı
+    okur, farklı öneri üretir ve 'sapma yok' der; piza vakası tam buydu).
+    `--oner` artefaktı denetim/oneri-<damga>.txt'ye kendisi yazar.
+
+    Satır biçimi: `kimlik #hex` — # ÖNEKİ ZORUNLU (öneksiz 636f03 'kimlik'
+    sanılmasın); kimlik ilk sözcük ve slug'a tam uymalı (BÜYÜK harf ayrı
+    anahtar demektir, sessizce eşitlenmez); boş ve `//` satırları atlanır;
+    BAŞKA hiçbir satır sessiz atlanmaz → SystemExit. Aynı kimlik iki kez →
+    SystemExit (çelişkili öneri). Kimlik dosyada var BOYALAR'da yok → HATA
+    (yazmayı-unuttum vakası). BOYALAR'da olup dosyada olmayan → hata DEĞİL
+    (öneri, paletin alt kümesidir). Aynı hex iki kimliğe → hata DEĞİL
+    (paylaşım kural; komşuluk hatasını denetle() ölçer).
+    🔴 SESSİZ SIFIR YASAK: dosya yok/boş → SystemExit — '0 fark' ile 'hiç
+    karşılaştırmadım' ekranda aynı görünemez. Çıkış: fark varsa 1."""
     if not os.path.exists(yol):
         raise SystemExit(f"!! öneri dosyası yok: {yol} — karşılaştırma "
                          f"YAPILMADI ('0 fark' değil)")
     oneriler = {}
-    for satir in io.open(yol, encoding="utf-8").read().splitlines():
+    # utf-8-sig: Windows araçları (PowerShell dahil) BOM yazar; BOM'lu ilk
+    # satır meşru öneriyken 'ayrıştırılamadı' diye reddediliyordu (ölçüldü).
+    for satir in io.open(yol, encoding="utf-8-sig").read().splitlines():
         s = satir.strip()
         if not s or s.startswith("//"):
             continue
-        mk = re.search(r'[a-z0-9][a-z0-9-]*', s)
+        parcalar = s.split()
         mh = re.search(r'#[0-9a-fA-F]{6}\b', s)
-        if mk and mh:
-            kimlik = mk.group(0)
-            if kimlik in oneriler and oneriler[kimlik] != mh.group(0).lower():
-                raise SystemExit(f"!! öneri listesi çelişkili: '{kimlik}' iki "
-                                 f"farklı hexle geçiyor — hangisi doğru?")
-            oneriler[kimlik] = mh.group(0).lower()
+        if not parcalar or not re.fullmatch(r'[a-z0-9][a-z0-9-]*',
+                                            parcalar[0]) or not mh:
+            raise SystemExit(f"!! öneri satırı ayrıştırılamadı (biçim: "
+                             f"`kimlik #hex`, # zorunlu): {satir!r}")
+        kimlik = parcalar[0]
+        if kimlik in oneriler and oneriler[kimlik] != mh.group(0).lower():
+            raise SystemExit(f"!! öneri listesi çelişkili: '{kimlik}' iki "
+                             f"farklı hexle geçiyor — hangisi doğru?")
+        oneriler[kimlik] = mh.group(0).lower()
     if not oneriler:
         raise SystemExit(f"!! öneri dosyası ayrıştırılamadı/boş: {yol} — "
                          f"karşılaştırma YAPILMADI ('0 fark' değil)")
@@ -403,6 +419,15 @@ def dogrula(yol):
             farklar.append((kimlik, hx, gercek))
     print(f"aktarım denetimi: {len(oneriler)} öneri karşılaştırıldı "
           f"(renkler.py {len(BOYALAR)} kimlik)")
+    # RENK'in bonus notu: aktarım doğru olsa da ÖNERİ hatalı olabilir
+    # (babur vakası: altlıktan tam 15,0). Ucuz olan altlık görünürlüğü
+    # burada BİLGİ olarak sınanır; komşu ekseni denetle()'nin işi.
+    for kimlik, hx in sorted(oneriler.items()):
+        d_alt = dE(lab(bind(h2r(hx))), ALT)
+        if d_alt < DE_ALTLIK:
+            print(f"  ⚠ GÖRÜNÜRLÜK  {kimlik:<20} {hx} altlıktan ΔE "
+                  f"{d_alt:.1f} < {DE_ALTLIK:.0f} — aktarım sorunu değil, "
+                  f"ÖNERİ sorunu (denetle() ile teyit et)")
     for kimlik, hx, gercek in farklar:
         print(f"  🔴 FARK  {kimlik:<22} öneri {hx} ≠ dosyada {gercek}")
     for kimlik in yoklar:
@@ -507,6 +532,28 @@ def oner(yeni):
         print(f"  {a:<24} {hx}  L*{L[0]:5.1f} ton {ton(L):5.1f}°  "
               f"en yakın engel ΔE {min(dE(L, x) for x in e):.1f}")
     print("\n  📌 Bu liste ONAY İSTER. Araç 'meşru' der, 'güzel' demez.")
+
+    # 🔴 ARTEFAKT (RENK'in devri): öneri DİSKE yazılır ki --dogrula, öneriyi
+    # üreten koşunun çıktısına karşı koşulabilsin. Doğrulama anında yeniden
+    # üretmek anlamsızdır: BOYALAR bu arada değişmişse ikinci koşu farklı
+    # öneri üretir ve "sapma yok" der (piza #2ac9a8/#305d84 vakası).
+    if secim:
+        import time
+        ddir = os.path.join(os.path.dirname(os.path.dirname(
+            os.path.abspath(__file__))), "denetim")
+        os.makedirs(ddir, exist_ok=True)
+        ayol = os.path.join(ddir, "oneri-%s.txt"
+                            % time.strftime("%Y%m%d-%H%M%S"))
+        with io.open(ayol, "w", encoding="utf-8") as f:
+            f.write("// renk_olc.py --oner çıktısı — aktarımdan SONRA:\n"
+                    "//   py arac/renk_olc.py --dogrula %s\n"
+                    % os.path.basename(ayol))
+            for a in yeni:
+                if a in secim:
+                    f.write("%s %s\n" % (a, secim[a][0].lower()))
+        print(f"  artefakt: {ayol}")
+        print(f"  aktarımdan sonra: py arac/renk_olc.py --dogrula "
+              f"denetim/{os.path.basename(ayol)}")
 
 
 if __name__ == "__main__":

@@ -904,3 +904,32 @@ GÜNKÜ kutunun kenarıydı. Kenar değeri app.js VERI_SINIRI'dan çizilir;
 yaşandı)." **index.html:26 tooltip: DEĞİŞİKLİK GEREKMEZ** — ölçtüm, metin
 genel, kutu değeri anmıyor.
 
+## ✅ İş T ek + İş R rötuşları (RENK devri işlendi) (00:05)
+
+**Koordinatörün ④ düzeltmesi — "aynı anda en çok ne kadar boş":**
+  kesit  renksiz nokta   BOŞ ALAN        kutu karası payı
+  1300      112           5,69 M km²      %8,0
+  1450      101          11,31 M km²     %16,0
+  1550      136        **13,19 M km²    %18,7  ← EN KÖTÜ**
+  1650       89           8,77 M km²     %12,4
+  1850       44           3,10 M km²      %4,4
+  1910       50           3,36 M km²      %4,7
+
+**RENK'in tasarım şartları --dogrula/--oner'e işlendi (hepsi sınandı):**
+- 🔴 ARTEFAKT modeli: `--oner` artık önerisini `denetim/oneri-<damga>.txt`
+  dosyasına KENDİSİ yazıyor; --dogrula o artefakta karşı koşulur — öneriyi
+  doğrulama anında yeniden üretmek anlamsız (BOYALAR değişmişse ikinci koşu
+  farklı öneri üretir ve "sapma yok" der; piza vakasının kökü).
+- Sıkı ayrıştırma: # öneki ZORUNLU; kimlik ilk sözcük + slug'a TAM uymalı
+  (büyük harf sessizce eşitlenmez → SystemExit); hiçbir satır sessiz atlanmaz.
+- utf-8-sig: PowerShell BOM'u meşru ilk satırı reddettiriyordu (ölçüldü).
+- Kenar durumları RENK'in dörtlüsüyle birebir: dosyada-var-palette-yok HATA ·
+  palette-var-dosyada-yok değil (alt küme) · çift kayıt HATA · hex paylaşımı
+  değil (kural; komşuluk denetle()'nin işi).
+- Bonus: her öneri hexi için ALTLIK görünürlüğü BİLGİ satırı (babur vakası
+  sınıfı — "aktarım doğru ama öneri hatalı"); komşu ekseni denetle()'de.
+- CANLI KANIT: İş R'deki eski artefaktım güncel palete karşı 5 FARK verdi
+  (litvanya #a1887f≠#a87b57…) — RENK bu arada paleti değiştirmişti; araç
+  tam tasarlandığı sapmayı yakaladı. Güncel paletten üretilen artefakt:
+  167/167, 0 fark, çıkış 0.
+
