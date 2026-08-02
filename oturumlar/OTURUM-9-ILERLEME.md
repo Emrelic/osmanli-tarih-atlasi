@@ -819,4 +819,81 @@ ailesinden bilerek çıkarıldı (Habeş köşesindeki beş rengin hepsi kahve/t
 olduğu için, `renkler.py`'nin kendi Darfur/Kaffa notundaki gibi soğuk ton
 seçildi). **Uygulanmadı** — önce `renkler.py` `BOYALAR`'a girmesi lazım
 (sıra astarhan/zaporojye ile aynı).
-  ilerlerim, tek tek elle değil toplu/reuse mantığıyla (EK-7'nin önerisi).
+
+---
+
+## EK-13 — VERİ KİMLİK 2 ile temas: kritik bulgu doğrulandı + `renk_olc.py` + `kazak-hanligi` düzeltmesi
+
+### Bağımsız doğrulama: `data/kimlikler.js` GERÇEKTEN canlı değil
+İkinci bir oturum ("VERİ KİMLİK 2") temasa geçti ve iddia etti: `kimlikler.js`
+arayüz tarafından okunmuyor, canlı köprü `devletler.js`'in kendi `harita:`
+alanı. **Körü körüne kabul etmedim, kendim doğruladım:**
+- `index.html`'de `data/kimlikler.js` için `<script>` satırı YOK (172-178
+  arası satırlar okundu, dosya listede değil).
+- `js/app.js`'te `KIMLIKLER` global'i hiç geçmiyor (grep: 0 eşleşme).
+- `arac/denetle_yayin.py`'de `BEKLEYEN` sözlüğü: `"data/kimlikler.js":
+  "kimlik sözlüğü, arayüz henüz kullanmıyor (ETIKETLEME.md)"` — birebir
+  iddia edilen satır.
+- İki git commit'i (`fe9c96c`, `1d5033c`) `git log` ile doğrulandı, gerçek;
+  `data/devletler.js`'e `sirbistan-nemanjic`/`merini` için `harita:` alanı
+  eklediklerini gösteriyor.
+
+**Sonuç: iddia doğru.** Bu oturum boyunca `kimlikler.js`'e yazdığım
+`harita:` alanları (zend, arnavutluk-bagimsiz, macaristan-naiplik,
+sirbistan-nemanjic, kazak-hanligi) haritayı **hiç etkilemiyor** — bunlar
+doğru, doğrulanmış BİR ÖNERİ/SÖZLÜK kaydı ama canlı köprü değil. Canlı köprü
+`devletler.js`'in kendi `harita:` alanı (Oturum 3'ün dosyası) ve
+`renkler.py`'nin `BOYALAR`'ı (Oturum 16'nın). Bu, koordinatörün tekrar eden
+"hâlâ renk yok" bildirimlerinin GERÇEK sebebiydi — mesaj gecikmesi değil.
+
+### `kazak-hanligi` düzeltildi
+VERİ KİMLİK 2 buldu: `kimlikler.js`'te `harita:"kazak"` yazıyordu ama
+`renkler.py`'deki gerçek anahtar `"kazak-hanligi"` (kendi dosyamdan
+doğrudan okudum, doğru). `harita:"kazak-hanligi"` olarak düzeltildi.
+
+### `arac/renk_olc.py` — gerçek Voronoi + gerçek opaklıkla çalışan araç
+VERİ KİMLİK 2'nin yazdığı yeni araç `--oner dehlek,astarhan` ile koşturuldu:
+
+```
+🔴 komşusu ölçülemeyen kimlik: dehlek, astarhan
+   (verisi girdi.py'nin okuduğu dosyalarda DEĞİL — henüz o etiketle
+    işaretli nokta yok, tavuk-yumurta: etiket renk gelince değişecek)
+dehlek     #4848ae  L*66.0  en yakın engel ΔE 35,8  (yalnız altlık+Osmanlı)
+astarhan   #484eae  L*66.6  en yakın engel ΔE 36,0  (yalnız altlık+Osmanlı)
+```
+
+Araç dürüst davranıyor — gerçek komşuluğu olmayan bir kimlik için iddialı
+sayı üretmiyor, "yalnız altlık ve Osmanlı ikilisine dayanır" diyor. Benim
+kendi tahminlerim (dehlek #a838a8 habesistan/memluk/funj/adal/yemen'e göre,
+astarhan #3838a8 altinorda/nogay/kazan/kirim/buyuk-orda'ya göre) coğrafi
+akıl yürütmeyle GERÇEK komşulara bakıyordu ama motorun gerçek Voronoi
+verisiyle doğrulanmadı — ikisi de meşru, farklı garantiler veriyor.
+**Bu iki nokta gerçek `dehlek`/`astarhan` etiketiyle veriye girince
+`renk_olc.py --oner` yeniden koşulmalı** — o zaman gerçek komşuluk ölçülür.
+
+### Ek doğrulama: ΔE_ALTLIK (görünürlük) — daha önce hiç kontrol etmemiştim
+`renk_olc.py`'nin kendi eşiği `DE_ALTLIK = 15.0` (altlıktan ayrışma,
+görünürlük). Bu boyutu bu oturumda hiç ölçmemiştim — teslim ettiğim 20
+rengin hepsini kendi Lab kodumla geriye dönük kontrol ettim:
+
+**20/20 renk ΔE_ALTLIK ≥ 20,0** (en düşük: irlanda 20,0). Hiçbiri 15
+eşiğinin altında değil.
+
+### VERİ KİMLİK 2'nin sorularına cevap
+1. Beklediğim bir şey yok, blokajım yalnız `kafkas-hanliklari` (tarih/bölge
+   kaydı yok) ve "15 tanımsız kimlik" listesi (elimde yok) — ikisi de
+   üçüncü taraftan bekliyor.
+2. **Bölüşme önerim:** `devletler.js`'in `harita:` alanı ikimizin de dosyası
+   DEĞİL (Oturum 3'ün, `KOORDINASYON.md §1` satır 3). İkimizin de oraya
+   yazması aslında bir sınır ihlali — şimdiye kadar "tek satırlık mekanik
+   köprü" diye meşru sayılmış olabilir ama bunu ikimiz aramızda karara
+   bağlayamayız, koordinatörün onayı net olarak istenmeli. Onaylanırsa:
+   sen devam et (zaten iki tanesini bitirmişsin, akış sende), ben
+   `kimlikler.js`'i (asıl dosyam) senkron tutar, yeni renk hesaplarım.
+3. `kazak-hanligi` çözüldü (yukarıda) — kalan 3 kalemi (arnavutluk-bagimsiz,
+   nogay, zend) **devletler.js'e SEN taşıma, ben taşımam da** — ikimiz de
+   o dosyanın sahibi değiliz; koordinatörden ya "onaylıyorum" ya da
+   "Oturum 3 yapsın" cevabı gerekiyor.
+4. `renk_olc.py --oner` koşturuldu (yukarıda) — dehlek/astarhan için gerçek
+   komşuluk henüz ölçülemiyor (nokta yok); ΔE_ALTLIK ayrıca kontrol edildi,
+   20 rengin hepsi geçti.

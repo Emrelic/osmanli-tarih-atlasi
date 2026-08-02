@@ -591,7 +591,14 @@ function altlikKur() {
 // En güçlü ayırt edici desen değil BİÇİM: bu bir DİKDÖRTGEN. Ne siyasî ne
 // tabiî hiçbir sınır tam dikdörtgen değildir; kullanıcı "bu bir devlet sınırı
 // mı" diye soramaz. Desen yine de ayrı: uzun çizgi + nokta (dash-dot).
-var VERI_SINIRI = [-12, 1.5, 62, 62];      // uret_petek.py:43 `BOLGE = box(...)`
+// 🔴 2 Agustos 2026 — ARTIK MOTORDAN OKUNUYOR, ELLE KOPYA DEGIL.
+// uret_petek.py donemler.js'e `window.VERI_SINIRI` yaziyor (BOLGE.bounds'tan
+// turetilerek). Asagidaki dizi yalniz YEDEK: donemler.js yuklenmemisse.
+// ⚠️ VE BU SATIR BIR KUSURU KAPATIYOR: ust duzey `var` window'a yazar ve
+// app.js donemler.js'ten SONRA yukleniyor -- yani eski hali motorun yazdigi
+// dogru degeri EZIYORDU. Kutu 62'den 146'ya acildi, "Veri siniri" dugmesi
+// ESKI dikdortgeni cizmeye devam ediyordu (tarayicida olculdu).
+var VERI_SINIRI = window.VERI_SINIRI || [-12, 1.5, 62, 62];
 // 🔴 SABİT İKİ YERDE DURUYOR ve bu bilinçli bir istisna: Python sabitini
 // tarayıcıya okutamıyorum. Sessiz bayatlamayı önlemek için ÇALIŞMA ANINDA
 // doğrulanıyor — `altlik.js`'in kara katmanı aynı kutuyla kesilmiş olmalı.
