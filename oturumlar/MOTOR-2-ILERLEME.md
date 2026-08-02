@@ -933,3 +933,41 @@ genel, kutu değeri anmıyor.
   tam tasarlandığı sapmayı yakaladı. Güncel paletten üretilen artefakt:
   167/167, 0 fark, çıkış 0.
 
+## ✅ S1 uygulandı + KIYI ORANI (ACELE) + koşu hazırlık paketi (00:30)
+
+**S1 UYGULANDI** (koordinatör işareti): uret_petek.py, donemler.js'e
+`window.VERI_SINIRI = [BOLGE.bounds]` yazacak — DEĞER ELLE YAZILMADI,
+BOLGE nesnesinden türetiliyor; URETIM_IZI'nin yanında. py_compile temiz.
+İlk koşuda dosyaya girer; app.js tarafı S1 şartnamesindeki gibi
+`window.VERI_SINIRI || yedek` okuyacak (ARAYÜZ'ün işi).
+
+**KIYI / İÇ-SINIR ORANI (B8'in kilit sayısı) — beklentinin TERSİ çıktı:**
+petek_govde'nin 991 hücresi üstünde, örtü birleşiminin sınırı = gerçek kıyı:
+- UZUNLUK payı: kıyı **%51,8** · iç (Voronoi, yapay) %48,2
+- KÖŞE payı (dosya yükünü köşe taşır; 1/5 örnekleme, 15.100 köşe):
+  **kıyı %75,2** · iç %24,8 — kıyı KARA_TOL 0,002'de yoğun köşeli, iç
+  sınırlar SADE_TOL 0,012'de seyrek.
+⇒ "İç sınırlar zaten yapay, kabalaşsın" savunması geometrinin (köşe
+cinsinden) yalnız DÖRTTE BİRİNİ kapsıyor. 2 ondalık, veri yükünün dörtte
+üçünü oluşturan GERÇEK kıyıyı 220 m sınıfından ~500 m sınıfına kabalaştırır.
+Karşı kefe: gzip −%32 kazancın çoğu da tam o kıyı köşelerinden geliyor.
+İki taraf da sayıda — karar kullanıcının.
+
+**KOŞU ÖNCESİ HAZIRLIK PAKETİ — HAZIR, UYGULANMADI (işaretle tek tur):**
+- A) `arac/uret_petek.py:43`: `BOLGE = box(-12, 1.5, 62, 62)` →
+  `BOLGE = box(-12, -11, 146, 64)` (tek satır; denetle/kapsama/bosluk/
+  renk_olc/altlik HEPSİ kaynaktan okuyor — başka değişiklik GEREKMEZ,
+  bugünün işlerinin meyvesi).
+- B) `arac/girdi.py` GIRDI_DOSYALARI'na `"yerlesimler_asya.js",` + gerekçe
+  bloğu (hazır metin: 344 nokta; 49 kimlik boyalı/98 renksiz — koordinatör
+  kararı 37-renkle-açılış; çakışma ve kutu ölçümleri İş C/J/T; kuyruk
+  sayacı KUYRUK_DOSYALARI'nda hazır).
+- C) B8 "evet" ise ondalık: `uret_petek.py:1405` ve `:1507`'deki
+  `round(x, 3)` → `round(x, 2)` (iki satır; mp_koord bütün çıktı
+  katmanlarını, 1507 petek_govde'yi kapsar). B8 "hayır" ise dokunulmaz.
+- Koşu SONRASI doğrulama listesi (hazır): denetle.py (sahipsiz yeniden
+  ölç + kuyruk asya satırı) · denetle_yayin (7/7 iz + VERI_SINIRI satırı
+  donemler.js'te) · konum 2→0 (Sundsvall/Trondheim kuzey 64 ile girer) ·
+  renk_olc denetle() tam koşu (Asya komşulukları asıl zarfla) ·
+  --dogrula son artefakta karşı.
+

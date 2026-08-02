@@ -1780,6 +1780,13 @@ print(f"Per-petek gövde → data/petek_govde.js "
 js += ("window.URETIM_IZI = "
        + json.dumps({"girdi": _GIRDI_IZI, "motor": _MOTOR_IZI},
                     separators=(",", ":"), sort_keys=True) + ";\n")
+# VERI_SINIRI — arayüzün "Veri sınırı" düğmesinin TEK otoritesi (İş S1,
+# koordinatör onayı 2 Ağustos). app.js:594'teki elle kopya bu satırdan
+# beslenecek (`window.VERI_SINIRI || yedek`): kutu değişince çizgi otomatik
+# izler, kimse elle güncellemez. Değer ELLE YAZILMAZ — BOLGE'den türetilir
+# (bugün üç elle kopya temizlendi; dördüncüsü burada açılmasın).
+js += ("window.VERI_SINIRI = "
+       + json.dumps(list(BOLGE.bounds)) + ";\n")
 girdi.izi_dogrula(_GIRDI_IZI, "data/donemler.js")
 # Damganın DOĞRU olması yetmez, KORUNMASI da gerek: kod koşu sırasında
 # değiştiyse çıktı karışık koddan üretilmiş olabilir. Girdiyle aynı
