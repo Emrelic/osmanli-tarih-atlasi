@@ -267,3 +267,7 @@ Ayrıca doğru pozitif: donemler.js izi "girdi DOSYA KÜMESİ değişmiş:
 yerlesimler_ortaasya2.js" ile BAYAT — İş A'nın bilinen sonucu, bayat_mi
 ile aynı hüküm.
 
+---
+
+⏳ başladım: İş H — Ukrayna/Zaporojye kazakları taraması (yalnız ölçüm) — 2026-08-02 15:30
+
