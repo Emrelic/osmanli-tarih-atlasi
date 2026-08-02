@@ -599,3 +599,7 @@ GÜRÜLTÜLÜ, koşu sonrası yeniden ölçüm.
 - kv ızgarası belleği: 4,74 M hücre (bytearray ~5 MB) — bellek riski yok;
   süre zaten İş J tahmininde ✓
 
+---
+
+⏳ başladım: İş O — Avrupa girdiye (②) + renk_olc aynı-hex dedektörü (①) — 2026-08-02 19:10
+
