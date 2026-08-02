@@ -158,11 +158,39 @@ BOYALAR = {
     "ispanya":    ("İspanya",                "#c98f4a"),
     "portekiz":   ("Portekiz",               "#6b8ac9"),
     "granada":    ("Gırnata Emirliği",       "#7ba05b"),
-    "hollanda":   ("Hollanda",               "#d98f5b"),
+    # 🔴 DEĞİŞTİ (RENK oturumu, 2 Ağustos). Eski #d98f5b turuncu-tandı ve
+    # `ispanya` #c98f4a ile bindirilmiş ΔE **4,7** — pratikte AYNI RENK.
+    # ⚠️ VE BU ÇAKIŞMAYI HİÇBİR RENK DEĞİŞİKLİĞİ ÜRETMEDİ: `yerlesimler_avrupa.js`
+    # merge edilince (998→1235 nokta) ikisi İLK KEZ petek komşusu oldu. İki renk
+    # yıllardır aynıydı; onları yan yana getiren VERİYDİ.
+    # 📌 Ders (defterde): renk kararı verinin bir FONKSİYONU, sabit değil.
+    #    Bugün temiz bir palet, yarın merge edilen bir partiyle kirlenir ve
+    #    kimse rengi değiştirmemiş olur.
+    # DEĞİŞEN UÇ SEÇİMİ ÖLÇÜLDÜ: hollanda 9 komşu · ispanya 26 komşu ⇒ az
+    # kısıtlı uç değişti. `ispanya` ile aynı tonda kalınca (ikisi de ~70-80°)
+    # ayrışmanın tek yolu parlaklık: L* 78,6 → 64,1.
+    # ÖLÇÜM: L* 64,1 · C* 18,6 (= paletin MEDYANI, %46 yüzdelik) · ton 50,6°
+    #   en yakın engel ΔE 19,0 (eski hâlde ispanya'ya 4,7) · altlıktan 27,9
+    #   ton kayması 19,5° — turuncu-kızıl aile korundu, kimlik sürekliliği var.
+    "hollanda":   ("Hollanda",               "#7e332a"),
     "venedik":    ("Venedik",                "#4a8a8f"),
     "ceneviz":    ("Ceneviz",                "#8a6b4a"),
     "napoli":     ("Napoli / İki Sicilya",   "#a67ba0"),
-    "papalik":    ("Papalık",                "#c9c1a3"),
+    # 🔴 DEĞİŞTİ (RENK oturumu, 2 Ağustos). Eski #c9c1a3 soluk krem-altındı ve
+    # İKİ kusuru birden taşıyordu:
+    #   ① altlıktan ΔE **5,1** — paletin EN GÖRÜNMEZ rengi. Bej altlıkta
+    #      pratikte hiç yoktu; Papalık haritada bir boşluk gibi okunuyordu.
+    #   ② `almanya` #9a9a9a ile ΔE 9,3 (petek komşusu, eşik 12).
+    # Tek değişiklik ikisini birden kapatıyor.
+    # DEĞİŞEN UÇ ÖLÇÜLDÜ: papalik 15 komşu · almanya 24 komşu ⇒ az kısıtlı uç.
+    # ⚠️ ALTIN/KREM KORUNAMADI, ölçüldü: ton ±25° penceresinde (70-120°) C*
+    #   12-24 aralığında ΔE≥12 sağlayan aday YALNIZ 118-120° ucunda çıkıyor —
+    #   95° civarı (altın) İtalya'nın kalabalık komşuluğunda dolu. Kimlik
+    #   sürekliliğini korumak İSTEDİM ama veri izin vermedi; "yanlış renk
+    #   boşluktan kötüdür" kuralı gereği görünürlük tercih edildi.
+    # ÖLÇÜM: L* 63,5 · C* 18,5 (= paletin MEDYANI, %43 yüzdelik) · ton 120,2°
+    #   en yakın engel ΔE 13,7 · altlıktan 27,1 (eski 5,1 → 5,3 KAT görünür)
+    "papalik":    ("Papalık",                "#2a4b1e"),
     "italya":     ("İtalya",                 "#74a074"),
     "sovalye":    ("St. Jean Şövalyeleri",   "#b0a08a"),
     "bulgaristan":("Bulgaristan",            "#7aa06a"),
@@ -253,7 +281,23 @@ BOYALAR = {
     # TDV: Anadolu Selçuklu Devleti 1308'de sona erdi (II. Mesud'un ölümü).
     "selcuklu":     ("Anadolu Selçukluları",  "#c2185b"),
     # Trabzon Rum İmparatorluğu 1204-1461, Komnenos hanedanı — Bizans'tan AYRI.
-    "trabzon-rum":  ("Trabzon Rum İmparatorluğu", "#00838f"),
+    # 🔴 DEĞİŞTİ (RENK oturumu, 2 Ağustos). Eski #00838f `dulkadir` ile BİREBİR
+    # AYNI hex'ti (ΔE 0,0) ve dönemleri örtüşüyor (1337-01-01 → 1350-01-01).
+    # ⚠️ ÖLÇTÜM: petek komşusu DEĞİLLER. Yani dosya başındaki "paylaşım sorun
+    #   değildir, yeter ki komşu olmasınlar" kuralına göre bu paylaşım MEŞRUDU
+    #   ve dosya başı onu meşru diye sayıyordu. Yine de değiştirildi, çünkü:
+    #   en yakın noktaları 312 km ve İKİSİ DE ANADOLU'DA — 1340 kesitinde aynı
+    #   ekranda iki özdeş turkuaz gövde olarak okunurlar.
+    # 📌 Bu, bu oturumun ①. dersinin doğrudan uygulaması: Voronoi komşuluğu
+    #   görsel karışmanın TAMAMINI yakalamıyor. Kural "komşu değilse serbest"
+    #   diyor; ölçüt bundan DAHA GENİŞ olmalı. (Aynı boşluğu MOTOR 2 de gördü
+    #   ve 600 km eşikli dedektörü yazdı, 54a080f.)
+    # Değişen uç: ikisi de 8 komşu; `dulkadir` Osmanlı kuruluş coğrafyasının
+    # yerleşik beylik renk ailesinde, `trabzon-rum` daha serbest.
+    # ÖLÇÜM: L* 80,8 · C* 13,9 (%31 yüzdelik) · ton 172,1° (kayma 13,1° —
+    #   turkuaz kimliği korundu) · en yakın engel ΔE 12,0 · altlıktan 18,6
+    #   · ham doygunluk S 0,48 = paletin MEDYANI
+    "trabzon-rum":  ("Trabzon Rum İmparatorluğu", "#63bdc0"),
     # Kilikya Ermeni Krallığı 1198-1375; Çukurova'nın Ramazanoğulları öncesi sahibi.
     "kilikya-ermeni": ("Kilikya Ermeni Krallığı", "#5e35b1"),
     # --- Anadolu beylikleri (Osmanlı kuruluş coğrafyasının fetih öncesi sahipleri) ---

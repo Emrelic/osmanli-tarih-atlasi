@@ -264,7 +264,109 @@ bildiriyor — **benim değil**, `renkler.py`'de kasten paylaşımlı olduğu ya
 
 ---
 
-## 4. PARTİ 3 — ASYA'NIN 135'İ · başlanmadı
+## 2c. ÜÇÜNCÜ DALGA — üç çakışma · ✅ YAZILDI
+
+| çift | önce | sonra | değişen | gerekçe |
+|---|---|---|---|---|
+| `hollanda` ↔ `ispanya` | **4,7** | 19,3 | `hollanda` `#7e332a` | komşu · 9 vs 26 kısıt |
+| `almanya` ↔ `papalik` | 9,3 | 19,1 | `papalik` `#2a4b1e` | komşu · 15 vs 24 kısıt |
+| `trabzon-rum` ↔ `dulkadir` | **0,0** | 12,0 | `trabzon-rum` `#63bdc0` | komşu DEĞİL, 312 km |
+
+### 🔴 `hollanda ↔ ispanya`: hiçbir renk değişmedi, VERİ değişti
+
+Bu çakışmayı bir renk kararı üretmedi. `yerlesimler_avrupa.js` merge edilince
+(998→1235 nokta) iki renk **ilk kez petek komşusu oldu.** İkisi yıllardır
+aynıydı; onları yan yana getiren veriydi.
+
+📌 **Ders: renk kararı verinin bir FONKSİYONU, sabit değil.** Bugün temiz olan
+bir palet, yarın merge edilen bir partiyle kirlenir ve kimse rengi
+değiştirmemiş olur. ⇒ Palet, her merge'den sonra yeniden denetlenmeli.
+
+### `papalik`: tek değişiklik İKİ kusuru kapattı
+
+Eski `#c9c1a3` altlıktan **ΔE 5,1** — paletin **en görünmez** rengiydi;
+Papalık haritada boşluk gibi okunuyordu. Yeni hâl 27,1 (**5,3 kat**).
+⚠️ Altın/krem kimliği **korunamadı**, ölçüldü: ton ±25° penceresinde ΔE≥12
+sağlayan aday yalnız 118-120° (yeşil) ucunda; 95° civarı İtalya'nın kalabalık
+komşuluğunda dolu. Kimlik sürekliliğini istedim, veri izin vermedi —
+*"yanlış renk boşluktan kötüdür"* gereği görünürlük tercih edildi.
+
+### `trabzon-rum`: kural "meşru" diyordu, yine de değiştirdim
+
+Ölçtüm: **petek komşusu değiller.** Dosya başındaki kural (*"paylaşım sorun
+değildir, yeter ki komşu olmasınlar"*) bu paylaşımı meşru sayıyor ve zaten
+meşru diye listelemişti. Yine de değiştirildi: 312 km, ikisi de Anadolu'da,
+1337-1350 örtüşmesi ⇒ 1340 kesitinde **aynı ekranda iki özdeş turkuaz gövde.**
+📌 ①. dersin doğrudan uygulaması: **kural komşuluğa bakıyor, ölçüt daha geniş
+olmalı.**
+
+### 🔴 `almanya` — DOKUNULMADI, ölçülmüş gerekçeyle
+
+`almanya` **beş** çakışmada birden (`litvanya` 5,3 · `letonya` 5,4 ·
+`danimarka` 9,0 · `isvec` 10,7 · `venedik` 11,4) **ve** altlıktan 12,2
+(görünmez). Paletin en sorunlu düğümü.
+
+**Neden bırakıldı:** 24 komşu — paletin en kısıtlı kimliği. Ton ±30° / C\*
+12-24 penceresinde ΔE≥12 sağlayan aday var ama **en iyi pay 12,0-12,6**, yani
+eşiğin tam üstünde; ve hepsi C\* %62+ yüzdelikte. Beş çakışmayı kapatmak
+`almanya`yı tek başına düzeltmekle olmuyor — **palet düzeyinde bir karar**
+gerekiyor (kutu genişletme ya da komşularından bazılarının taşınması).
+⇒ Ayrı iş olarak bildirildi. *"Ölçtüm, bırakıyorum"* — sebebi rakamlı.
+
+### Doğrulama
+
+```
+① aktarım                3/3 birebir ✓
+② hedeflenen çiftler      3/3 çözüldü ✓
+③ değişenlerin kendisi    3/3 temiz (en dar pay 12,0 · en dar altlık 18,6) ✓
+④ py arac/renk_olc.py     1235 nokta · 130 kimlik
+     görünmez            14 → 13
+     komşu çakışması     72 → 66     (iran 3 · bu dalga 3)
+     aynı-hex çakışması   1 →  0
+     aynı-anahtar          1 (afsar↔kacar — VERİ işi, bende değil)
+     🔴 20 kimliğimin HİÇBİRİ çakışma listesinde YOK
+```
+
+---
+
+## 4. PARTİ 3 — ASYA · zaman ekseni ÖLÇÜLDÜ, komşuluk BLOKE
+
+🔴 **N1 engeli doğrulandı ve tahminden büyük:** `renk_olc.py:56`
+`KUTU = box(-25,-5,75,72)`. Asya `lon 65,71 .. 141,35` ⇒ **344 noktanın 302'si
+(%88) zarfın dışında.** Komşuluk ölçümü sessizce eksik çıkar. MOTOR 2 düzeltiyor.
+
+### Zarftan bağımsız olan: EŞZAMANLILIK
+
+```
+yerlesimler_asya.js   344 nokta · 147 kimlik · renkler.py'de tanımsız 135
+eşzamanlılık çizgesi  6.640 kenar · en yüksek derece 146 (travankur)
+                      ortanca derece 87 · eşzamanlısı olmayan 0
+🔴 AYNI ANDA SAHNEDE EN ÇOK: 69 kimlik (1514 civarı)
+   ⇒ 69 boyutunda KLİK var ⇒ eşzamanlılık çizgesinin kromatik sayısı = 69
+   DSATUR de 69 verdi (alt sınır = üst sınır, çizge o noktada tam)
+```
+
+### Bunun anlamı — "135 kimlik ≠ 135 renk" sorusunun cevabı
+
+**Tavan 135 değil 69.** Ve 69 da yalnız ZAMAN ekseninin tavanı; komşuluk
+eklenince gerçek ihtiyaç bunun **altına** iner, çünkü eşzamanlı olup **komşu
+olmayan** çiftler renk paylaşabilir.
+
+📌 Ve dosya başındaki ölçüm bu beklentiyi destekliyor: 1515 nokta / 261 kimlik
+üzerinde **gerçek Voronoi komşuluğuyla DSATUR 8 renk** vermişti. Yeni kimlikler
+grafiği yoğunlaştırmıyor, **genişletiyor.**
+
+⚠️ **Ve kendi ①. dersimin sınırı burada:** 15 Batı Avrupa devletine uyguladığım
+*"hepsi birbirinden ΔE ≥ 17"* kısıtı 135'e **taşınamaz** ve taşınmamalı. O
+kısıt meşruydu çünkü 15'i tek bir dar coğrafyada, aynı ekranda duruyordu.
+Asya'nın 135'i bütün kıtaya yayılmış — Travankur ile Kamçatka'ya karşılıklı
+eşik dayatmak anlamsız. ⇒ **Doğru kısıt bölgesel:** her coğrafi küme kendi
+içinde karşılıklı, kümeler arası yalnız komşuluk. Kümeleri zarf düzelince
+ölçeceğim.
+
+---
+
+## 5. ESKİ §4 — PARTİ 3 notu (aşıldı)
 
 Yöntem hazır ve Parti 2'de sınandı: merge sonrası komşuluk + karşılıklı eşik
 ölçümü + palet kutusu. 135 kimlik için tavanın 17'nin **altına** ineceğini
