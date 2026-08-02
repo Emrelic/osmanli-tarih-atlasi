@@ -300,3 +300,7 @@ duyarsız) — devletler.js + renkler.py + yerlesimler*.js + data geneli.
   Ad değişecekse mevcut kayıt yeniden adlandırılmalı, ikilenmemeli.
   Karar koordinatörün.
 
+---
+
+⏳ başladım: İş I — Avrupa partisi ÖN ÖLÇÜMÜ (girdi.py'ye EKLEME YOK) — 2026-08-02 15:55
+
