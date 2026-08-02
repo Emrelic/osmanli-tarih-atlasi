@@ -1106,3 +1106,22 @@ gövdeleri. **gzip TOPLAM: 12,47 → 18,47 MB** (donemler sabit 9,50;
 büyüme devletler_harita 2,42→8,17) — kademeli yükleme işinin değeri arttı;
 devletler_harita da aynı havuz yapısında, aynı yöntemle bölünebilir.
 
+## ✅ TÜREVLER YENİLENDİ — yayın önü TERTEMİZ (20:40)
+
+Koordinatör işaretiyle: uret_altlik (4,21 MB — yeni kutu coğrafyası) ve
+uret_devirler (11 antlaşma; kaynak özeti 805a6550…, yeni donemler'e bağlı)
+koşturuldu. uret_petek'e DOKUNULMADI.
+
+Son bütünlük koşusu (denetle_yayin):
+- üretim izi: **7/7 taşıyor · TAZE 7 · BAYAT 0 · İZSİZ 0** ✓
+- yayın tazeliği ✓ (sha256 izi) · damga tutarlı (r578 — yenisini yayın basar)
+- kalan tek ✗: petek_govde.js yetimi — koşu ÖNCESİ de vardı, bilinen sınıf
+  (motor ara çıktısı; BEKLEYEN/muaf kaydı koordinatör kararı).
+Üretilen data dosyaları working tree'de, COMMIT'LENMEDİ — yayın akışı
+(damga+commit) koordinatörde.
+
+Yayın sonrası kuyruk (koordinatörün listesi): Isparta düzeltmesi (veri) ·
+4s39dk sapma kalibrasyonu (petek aşaması >6x — İş J/K modeliyle
+karşılaştırılacak) · kademeli yükleme (kapsam netleşti: devletler_harita
+dahil, aynı havuz yöntemi).
+
