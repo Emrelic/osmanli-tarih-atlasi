@@ -427,3 +427,46 @@ kıyısı) bedelin yarısını tek başına düşürür.
 
 ⏳ başladım: İş L — yanlış-renk düşürme HEDEF LİSTESİ (nokta önerisi, veri YAZILMAZ) — 2026-08-02 17:25
 
+## ✅ İş L — YANLIŞ-RENK DÜŞÜRME HEDEF LİSTESİ (17:45) — nokta ÖNERİSİ, veri yazılmadı
+
+Yöntem: İş K'nin yanlış-devlet kümesi üstünde AÇGÖZLÜ seçim — aday konum =
+en büyük parçaların temsil noktası; bir aday, mevcut soğurucusundan daha
+yakın olduğu her yanlış parçayı "yakalar"; her turda en çok km² düşüren
+seçilir. Ada adları koordinattan benim coğrafî teşhisim (işaretli).
+
+⚠️ VEKİL UYARISI (veri oturumu için kritik): "anakara kanıtı" COĞRAFÎ
+vekildir ve tarih onu bozabilir. Ölçülen örnek: Jersey coğrafyaca Fransa'ya
+yakın ama tarihen İngiliz tacı; Bornholm/Samsø tarihen Danimarka. Bu
+satırlarda mevcut soğurma muhtemelen ZATEN DOĞRU — nokta yine de yararlı
+(belirsizliği kapatır) ama aciliyeti düşük. Satırlar GERÇEK/ŞÜPHELİ diye
+işaretlendi; kronoloji hükmü veri oturumunun (uydurma tarih YOK).
+
+### A) BUGÜN çalışan satırlar (kutu beklemez) — toplam 2.751 km²
+  #  koordinat        ad (teşhis)         kazanç   kümül.  güven
+  1  54.46, 13.40    Rügen               969 km²    %35   GERÇEK — Alman adası Kopenhag'a düşüyor (anakara: Berlin/almanya)
+  2  55.15, 14.90    Bornholm            647 km²    %59   ŞÜPHELİ — tarihen Danimarka; soğurucu Kopenhag muhtemelen doğru, vekil İsveç diyor
+  3  55.88, 10.60    Samsø/Kattegat      530 km²    %78   ŞÜPHELİ — Danimarka iç adaları, aynı sınıf
+  4  24.27, 54.15    BAE kıyı adaları    386 km²    %92   ARAŞTIRMA — Abu Dabi↔Buraymî (umman/portekiz) çekişmeli kıyı
+  5  49.22, −2.12    Jersey (Manş)       192 km²    %99   ŞÜPHELİ — tarihen İngiliz; vekil Fransa diyor
+  → Bugünün GERÇEK acil vakası tek: Rügen. Kalan 2 parça · 26 km².
+
+### B) YENİ kutu satırları — toplam 25.566 km² (ilk 3: %75 · ilk 5: %84 · ilk 10: %95)
+  #  koordinat         ad (teşhis)              kazanç    kümül.  güven
+  1   7.01, 118.47   Palawan gün./Balabac     11.881 km²   %46   GERÇEK — 19 parça; soğurucu Jolo/Manila, anakara kanıtı Brunei
+  2   0.76, 104.23   Riau takımadası          3.900 km²    %62   GERÇEK — 52 parça; Singapur çekiyor, dünyası Johor/Malaka
+  3  52.50, 141.90   Sahalin BATI ŞERİDİ      3.392 km²    %75   GERÇEK — kutu 142'de kesiyor, kalan şerit Sapporo'ya düşüyor (943 km!); anakara Aigun/Qing. NOT: kutu 142 Sahalin'i İKİYE BÖLÜYOR — ayrı karar gerekebilir (144,7'ye uzatmak ya da şeridi bilerek dışarıda bırakmak)
+  4  −7.93, 129.73   Tanimbar/Babar           1.334 km²    %80   GERÇEK — Banda Neira çekiyor, anakara Dili/Timor
+  5   4.27, 126.81   Talaud (Karakelong)        960 km²    %84   ARAŞTIRMA — Manado↔Magindanao arası
+  6   5.20, 120.03   Tawi-Tawi (Sulu)           839 km²    %87   ŞÜPHELİ — soğurucu Jolo=Sulu muhtemelen doğru, vekil Brunei diyor
+  7  10.69,  92.49   Andaman adaları            730 km²    %90   GERÇEK — Banda Açe 633 km öteden çekiyor; dünyası Burma/İngiliz Hindistanı
+  8  −0.84, 130.66   Raja Ampat (Waigeo)        508 km²    %92   GERÇEK — Tidore çekiyor, anakara Ambon (ikisi de Maluku ama ayrı sultanlık/koloni zinciri — araştırma)
+  9  19.33, 121.46   Babuyan/Batanes            467 km²    %94   GERÇEK — Tainan (Tayvan) çekiyor, dünyası İspanyol Filipinleri
+ 10  24.27, 54.15    BAE kıyı adaları           386 km²    %95   (A-4 ile AYNI satır — bugün de yazılabilir)
+ 11  −5.32, 123.59   Buton/Wakatobi             342 km²    %97   GERÇEK — Dili çekiyor, anakara Makassar
+ 12  22.05, 113.36   Makao önü adalar           196 km²    %98   ŞÜPHELİ — vekil Hong Kong/İngiltere diyor; gerçek sahip muhtemelen Qing — doğru çözüm Kanton noktası varsa ona bağlamak
+  → kalan 34 parça · 631 km² (uzun kuyruk, nokta başına <100 km²)
+
+Not: önerilen koordinatlar ADA ÜSTÜNDE temsil noktalarıdır (yaklaşık);
+veri oturumu yerleşim seçerken adanın tarihî merkezine kaydırmalı
+(ör. Palawan → Taytay; Sahalin → kutu içinde kalan kıyı; Riau → Bintan).
+
