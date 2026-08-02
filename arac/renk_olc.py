@@ -39,7 +39,7 @@ KOMUTLAR
       "Aynı haritada görünüyorlar" yetmez; aynı ANDA komşu olmaları gerek.
    3. Osmanlı ikilisi ayrı opaklıkta: doğrudan 0,68 · tâbi 0,60.
 """
-import io, os, sys, math, collections, itertools
+import io, os, re, sys, math, collections, itertools
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -157,6 +157,58 @@ def komsuluk(sessiz=True):
     return k, len(Y)
 
 
+# ═══════════════ AYNI ANAHTAR — ΔE taramasının KÖR NOKTASI ═══════════════
+def ayni_anahtar():
+    """Aynı `harita:` anahtarını paylaşan devlet kayıtları tarihleri
+    ÖRTÜŞÜRSE haritada aynı renge boyanır — ΔE 0, mümkün olan en kötü hâl.
+    Aşağıdaki ΔE taraması bunu GÖREMEZ: ölçüm anahtar↔anahtar kuruludur,
+    aynı anahtarın iki kullanıcısı arasında ortada çift yoktur (vaka:
+    afsar↔kacar 1789-1796, ikisi de "iran" — VERİ KİMLİK 2'nin bulgusu).
+    ⚠️ ARDIŞIK paylaşım (halef aynı anahtarı alır) YERLEŞİK desendir —
+    örtüşme yoksa SUSULUR, yoksa 12 yanlış alarm üretirdi."""
+    # ⚠️ girdi._cevir devletler.js'i ÇEVİREMİYOR (ölçüldü: JSONDecodeError,
+    # dosya yerleşim şeması için yazılmış çeviriciyle uyumsuz). Yalnız dört
+    # düz alan gerektiği için hedefli ayrıştırma: kayıtlar satır başındaki
+    # `{ id:` ile başlar. Kronoloji maddelerinin kendi t: alanları karışmasın
+    # diye `{` ile başlayan İÇ satırlar atılır (maddeler hep öyle yazılı);
+    # alan SIRASINA güvenilmez — harita: bazı kayıtlarda kronolojiden sonra.
+    src = io.open(os.path.join(girdi.DATA, "devletler.js"),
+                  encoding="utf-8").read()
+    D = []
+    for parca in re.split(r"(?m)^\{\s*id:", src)[1:]:
+        m_id = re.match(r'\s*"([^"]+)"', parca)
+        govde = "\n".join(
+            l for l in parca.split("\n")
+            if not l.lstrip().startswith(("{", "//")))
+        # ⚠️ // filtresi süs değil: devletler.js:1724'te yorum içinde
+        # harita:"bosna" geçiyor — filtresiz, komşu kayda alan sızardı.
+        m_f = re.search(r'\bf:\s*"([^"]+)"', govde)
+        m_t = re.search(r'\bt:\s*"([^"]+)"', govde)
+        m_h = re.search(r'\bharita:\s*"([^"]+)"', govde)
+        if m_id:
+            D.append({"id": m_id.group(1),
+                      "f": m_f and m_f.group(1), "t": m_t and m_t.group(1),
+                      "harita": m_h and m_h.group(1)})
+    grup = collections.defaultdict(list)
+    for d in D:
+        if d["harita"] and d["f"] and d["t"]:
+            grup[d["harita"]].append(d)
+    ortusen, sessiz = [], 0
+    for anahtar, kayitlar in sorted(grup.items()):
+        if len(kayitlar) < 2:
+            continue
+        vurdu = False
+        for a, b in itertools.combinations(
+                sorted(kayitlar, key=lambda x: x["f"]), 2):
+            if a["f"] < b["t"] and b["f"] < a["t"]:
+                ortusen.append((anahtar, a, b))
+                vurdu = True
+        if not vurdu:
+            sessiz += 1
+    paylasan = sum(1 for k in grup.values() if len(k) > 1)
+    return ortusen, sessiz, paylasan, len(D)
+
+
 # ═══════════════ DENETİM ═══════════════
 def denetle():
     k, n = komsuluk()
@@ -198,10 +250,25 @@ def denetle():
     if not cakisan:
         print("  yok")
 
+    ortusen, sessiz, paylasan, n_dev = ayni_anahtar()
     print("\n" + "=" * 72)
-    print("  " + ("✓ TEMİZ" if not gorunmez and not cakisan
-                  else f"🔴 {len(gorunmez)} görünmez · {len(cakisan)} çakışma"))
-    return gorunmez, cakisan
+    print(f"AYNI ANAHTARI PAYLAŞIP TARİHİ ÖRTÜŞEN — {len(ortusen)} çift (ΔE 0!)")
+    print(f"  (devletler.js {n_dev} kayıt · {paylasan} anahtar paylaşımlı · "
+          f"{sessiz} anahtar ardışık/örtüşmesiz: susuldu)")
+    print("=" * 72)
+    for anahtar, a, b in ortusen:
+        bas, son = max(a["f"], b["f"]), min(a["t"], b["t"])
+        print(f"  {anahtar:<14} {a['id']} ({a['f']}→{a['t']}) ↔ "
+              f"{b['id']} ({b['f']}→{b['t']})")
+        print(f"  {'':<14} örtüşme {bas} → {son} — bu pencerede AYIRT EDİLEMEZLER")
+    if not ortusen:
+        print("  yok")
+
+    print("\n" + "=" * 72)
+    print("  " + ("✓ TEMİZ" if not gorunmez and not cakisan and not ortusen
+                  else f"🔴 {len(gorunmez)} görünmez · {len(cakisan)} çakışma"
+                       f" · {len(ortusen)} aynı-anahtar örtüşmesi"))
+    return gorunmez, cakisan, ortusen
 
 
 # ═══════════════ ÖNERİ — N kimliği BİRLİKTE ═══════════════

@@ -133,3 +133,33 @@ Kabul ölçütü ÜÇ UÇLU, üçü de koşuldu:
 
 ⏳ başladım: İş D — renk_olc.py aynı-anahtar tarih örtüşmesi denetimi — 2026-08-02 13:25
 
+## ✅ İş D — renk_olc.py'ye aynı-anahtar örtüşme denetimi eklendi (13:45)
+
+`ayni_anahtar()`: devletler.js kayıtlarını aynı `harita:` anahtarında
+gruplar, grup içinde TARİH ÖRTÜŞMESİ arar (f_a < t_b ∧ f_b < t_a).
+`denetle()` çıktısına yeni bölüm + son karar satırına eklendi.
+Not: `girdi._cevir` devletler.js'i çeviremiyor (ölçüldü: JSONDecodeError) —
+dört düz alan hedefli ayrıştırılıyor; kronoloji maddeleri (`{` ile başlayan
+satırlar) ve `//` yorumları atılıyor (devletler.js:1724 yorumunda
+`harita:"bosna"` geçiyor, filtresiz komşu kayda sızardı — ölçülüp görüldü).
+
+Kabul ölçütü İKİ UÇLU, ikisi de koşuldu:
+- ① ATEŞLEDİ: `iran → afsar (1736-03-08→1796-01-01) ↔ kacar
+  (1789-03-21→1923-10-29)`, örtüşme penceresi **1789-03-21 → 1796-01-01**
+  (7 yıl) — beklenen vaka, tam pencereyle yakalandı.
+- ② SUSTU: diğer bütün paylaşımlı anahtarlarda sıfır alarm.
+
+KENDİ ölçümüm (koordinatör sayılarıyla karşılaştırma):
+- 242 kayıt · **125'i harita: taşıyor · 112 benzersiz anahtar** — koordinatörle birebir.
+- ⚠️ Paylaşımlı anahtar **8** (13 değil): arnavutluk(2) · bulgaristan(3) ·
+  fas(2) · iran(2) · macaristan(3) · romanya(2) · sirbistan(4) · suud(3)
+  = 21 kayıt. "13" muhtemelen 125−112 çıkarmasından geliyor; o sayı
+  FAZLA KULLANIM sayısıdır (21 kayıt − 8 anahtar = 13), anahtar sayısı değil.
+- Susulan: **7 anahtar** (çift olarak: 19 çiftten 18'i sessiz, 1'i ateşledi).
+  Hepsi ardışık/örtüşmesiz desen — yanlış alarm 0.
+
+Görülüp DOKUNULMAYAN (Kapı B/renk partisi kapsamı):
+- renkler.py:352-353 çürük "d:kazak" uyarısı (önceden bildirildi)
+- renkler.py:355+ bayat ΔE bloğu — kendini BAYAT diye işaretliyor zaten;
+  sayılar %30 opaklıkla ölçülmüş, gerçek 0,44 (satır 41 ve app.js:559).
+
