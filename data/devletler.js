@@ -1114,7 +1114,7 @@ window.DEVLETLER = [
 },
 
 { id:"zaporojye", ad:"Zaporojye Kazak Hetmanlığı", tur:"cumhuriyet", bolge:"sibirya-bozkir",
-  f:"1552-01-01", t:"1775-06-16", baskent:"Zaporojye Seçi",
+  f:"1552-01-01", t:"1775-06-16", baskent:"Zaporojye Seçi", harita:"zaporojye",
   ozet:"Dinyeper aşağısında yarı-askerî kazak topluluğu; zaman zaman Osmanlı/Kırım'a karşı Rusya'yla, zaman zaman onlara karşı Osmanlı'yla ittifak kurdu.",
   kronoloji:[
     { t:"1552-01-01", tur:"kurulus", b:"Dmytro Vyshnevetsky tarafından örgütlendi" },

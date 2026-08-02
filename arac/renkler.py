@@ -98,7 +98,29 @@ _opaklik_dogrula()
 BOYALAR = {
     "bizans":     ("Bizans",                 "#8877b8"),
     "memluk":     ("Memlûk",                 "#c9a15b"),
-    "iran":       ("İran",                   "#b5885b"),
+    # 🔴 KAHVEDEN MOR AİLEYE ÇEKİLDİ (RENK oturumu, 2 Ağustos 2026; koordinatör
+    # onayı + kullanıcı kuralı). Eski #b5885b kahveydi.
+    # GEREKÇE — kullanıcının kendi kuralı: "ayrı renkler İran'ı üç ayrı devlet
+    # gibi gösterir" ve "Kaçar İran tarihine dair olacak, O RENK GRUBUNDAN olsun".
+    # ÖLÇÜM: `iran` 320 dönem · 1281-01-01 → 1923-10-29 (642 yıl, bütün çizgi);
+    # `safevi` 198 dönem · 1501-07-01 → 1736-03-08. Harita 1736-03-08'de yaylayı
+    # safevi MORUNDAN iran KAHVESİNE atlatıyordu — kullanıcının şikâyet ettiği
+    # kopuş buydu ve tek sebebi bu iki renkti.
+    # ⚠️ AYNI RENK OLAMAZ: ikisi EŞZAMANLI SINIRDAŞ (komşuluk çizgesinde doğrudan
+    # çift). İstenen zaten o değil — "aynı aile, farklı parlaklık".
+    #   safevi #6b4a7d  bindirilmiş L* 66,8 · C*  9,2 · ton 345,1°
+    #   iran   #fe84c6  bindirilmiş L* 80,1 · C* 23,6 · ton   0,3°   ΔE 20,0
+    #   ⇒ ton farkı 15,2° (aile), parlaklık farkı 13,3 (ayrım)
+    # 📌 İLK ADAY #c03fab ÖLÇÜLÜP REDDEDİLDİ: C* 29,7 = paletin %88 yüzdeliği.
+    #   Tek renk paletten belirgin ayrılırsa göz onu "vurgu" sanır — 642 yıl ve
+    #   111 nokta için istenmeyen okuma. #fe84c6: C* %73 yüzdelik (p75 = 23,7,
+    #   yani çeyrekler içinde) · ham doygunluk S 0,48 = paletin MEDYANI.
+    #   Ve ayrışması da daha iyi: en yakın engel 17,1 (#c03fab'ta 12,5).
+    # ⚠️ NEDEN L* 80: safevi ile aynı tonda kalıp ondan ΔE≥12 ayrışmanın tek
+    #   yolu parlaklık/kroma; "farklı parlaklık" kısıtının doğrudan sonucu.
+    # 23 engelin hepsinden ΔE ≥ 12 (en yakın: 17,1). `parma`ya 12,1 — komşu
+    # DEĞİLLER (iran'ın 22 komşusu ölçüldü, Avrupa partisi içinde yok).
+    "iran":       ("İran",                   "#fe84c6"),
     "karakoyunlu":("Karakoyunlular",         "#4a5b6b"),
     "akkoyunlu":  ("Akkoyunlular",           "#48ae48"),
     "safevi":     ("Safevî İran",            "#6b4a7d"),
@@ -456,4 +478,37 @@ BOYALAR = {
     "parma":         ("Parma Dukalığı",            "#ae4b75"),
     "piza":          ("Piza Cumhuriyeti",          "#2ac9a8"),
     "siena":         ("Siena Cumhuriyeti",         "#636f03"),
+
+    # ═══ ZAPOROJYE — kullanıcı kararından doğdu, Parti 2'nin 16. kimliği ═══
+    # KULLANICI: "Ukrayna kazakları ile Türk olan Kazaklar karışmasın."
+    # Bu dosya 349. satırda zaten uyarıyordu: Türkçede "kazak" hem Kazak
+    # Hanlığı'nı hem Ukrayna kazaklarını karşılıyor, karışma SESSİZ olurdu.
+    # devletler.js:1115 kaydı TAM (id:"zaporojye" · 1552-01-01 → 1775-06-16 ·
+    # Zaporojye Seçi · 4 kronoloji maddesi); eksik olan yalnız renk + `harita:`.
+    # Yeni slug AÇILMADI — aynı kuruma iki kimlik "iki otorite" sınıfıdır.
+    #
+    # 🔴 ① EKSİK, GÖVDE BEKLENMİYOR: `d:"zaporojye"` hiçbir yerleşim dosyasında
+    #   YOK (ölçüldü: 0 kayıt). Zincir üç halkalı — ① yerleşimin d:/v:/s:'inde
+    #   kimlik geçmeli (VERİ işi) ② BOYALAR'da renk olmalı (bu satır)
+    #   ③ devletler.js harita: (yalnız denetim). Burada ② ve ③ yapıldı, ①
+    #   YAPILMADI. ⇒ Üretimden sonra haritada GÖVDE ÇIKMAZ; bu bir hata değil,
+    #   veri gelince hazır olsun diye. "Niye çizilmedi" diye aranmasın.
+    #
+    # KOMŞULAR VARSAYILMADI, ÖLÇÜLDÜ — Dinyeper aşağısı (lon 30-38, lat 46-50,5)
+    # 1552-1775 penceresinde sahnede olanlar: OSMANLI 5 dönem · rusya 4 ·
+    # lehistan 4 · kirim 1.
+    # ⚠️ KISIT SIRALAMASI DÜZELTİLDİ: önce 15 Avrupa renginden ΔE≥17 dayatıldı ve
+    #   tek aday kaldı, bedeli kazak-hanligi'ndan ayrışmanın 22,3'e düşmesiydi —
+    #   YANLIŞ ÖNCELİK. Kullanıcının isteği tam olarak zaporojye↔kazak-hanligi
+    #   ayrımı; 15 Batı Avrupa devleti ise zaporojye ile ne komşu ne aynı
+    #   coğrafyada. ⇒ kazakΔE azamileştirildi, ötekilere proje kuralı (12).
+    # 📌 Ve 17 zaten ULAŞILAMAZDI: 15 renk kutuyu karşılıklı 17 ile doldurdu,
+    #   16. kimlik için tavan 15,0'a düştü. Tavan kimlik sayısıyla düşer.
+    #
+    # ÖLÇÜM: kazak-hanligi #ad1457'den ΔE 33,0 (proje eşiği 12, kullanıcı için
+    # 25 dayatıldı) · komşulardan 18,9 · 15 Avrupa renginden 12,1 ·
+    # altlıktan 32,5 · C* 18,6 = paletin MEDYANI (%47 yüzdelik) · S 0,45.
+    # Kızıl-magenta `kazak-hanligi` ile menekşe-mavi `zaporojye` tonca da
+    # karıştırılamaz — kullanıcının istediği ayrım budur.
+    "zaporojye":     ("Zaporojye Kazak Hetmanlığı", "#8c92fe"),
 }

@@ -175,6 +175,86 @@ dosya MOTOR 2'nin. **235 nokta BOLGE kutusuna dokunmadan çizilir.**
 
 ---
 
+## 2b. İKİNCİ DALGA — `iran` moru + `zaporojye` · ✅ YAZILDI
+
+### `iran` — kahveden mor aileye (koordinatör onayı + kullanıcı kuralı)
+
+Koordinatör `#c03fab`'ı **şartlı** onayladı: paletin doygunluk profiline uyuyor
+mu? Ölçtüm — **uymuyordu:**
+
+| | C\* (bindirilmiş) | yüzdelik | ham HSV S | yüzdelik |
+|---|---|---|---|---|
+| palet medyanı (113 renk) | 18,6 | — | 0,48 | — |
+| `#c03fab` (ilk aday) | **29,7** | **%88** | 0,67 | %73 |
+| `#fe84c6` (yazılan) | 23,6 | %73 | **0,48** | %49 |
+
+`#c03fab` p90'a (30,0) dayanıyordu ⇒ göz onu **vurgu** sanardı; 642 yıl ve 111
+nokta için istenmeyen okuma. `#fe84c6` çeyrekler içinde (p75 = 23,7), ham
+doygunluğu **tam medyan**, ve ayrışması da daha iyi: en yakın engel **17,1**
+(`#c03fab`'ta 12,5).
+
+```
+safevi #6b4a7d   L* 66,8 · C*  9,2 · ton 345,1°
+iran   #fe84c6   L* 80,1 · C* 23,6 · ton   0,3°     ΔE 20,0
+⇒ ton farkı 15,2° (AİLE) · parlaklık farkı 13,3 (AYRIM)
+```
+⚠️ L\* 80 bir tercih değil **sonuç**: aynı tonda kalıp `safevi`den ΔE≥12
+ayrışmanın tek yolu parlaklık/kroma — kullanıcının istediği "farklı parlaklık"
+kısıtının doğrudan çıktısı.
+
+### `zaporojye` — kullanıcının "kazaklar karışmasın" kararı
+
+Kayıt tamdı (`devletler.js:1115`), eksik olan renk + `harita:`. Yeni slug
+**açılmadı** (aynı kuruma iki kimlik = "iki otorite" sınıfı).
+`harita:"zaporojye"` yazıldı — yetkimdeki tek alan.
+
+🔴 **① EKSİK, GÖVDE BEKLENMİYOR.** `d:"zaporojye"` hiçbir yerleşim dosyasında
+yok (ölçüldü: **0**). Zincir: ① yerleşim `d:`/`v:`/`s:` (VERİ işi) → ② `BOYALAR`
+(bende) → ③ `harita:` (yalnız denetim). ② ve ③ yapıldı, ① yapılmadı.
+**Üretimden sonra gövde çıkmaz; hata değil.**
+
+Komşular **varsayılmadı, ölçüldü** — Dinyeper aşağısı (lon 30-38, lat 46-50,5),
+1552-1775: `OSMANLI` 5 dönem · `rusya` 4 · `lehistan` 4 · `kirim` 1.
+
+⚠️ **Kısıt sıralamasını önce yanlış kurdum.** 15 Avrupa renginden ΔE≥17
+dayattım; tek aday kaldı ve bedeli `kazak-hanligi`'ndan ayrışmanın **22,3'e
+düşmesiydi** — oysa kullanıcının istediği tam olarak o ayrım. Öncelik
+düzeltildi: `kazak`tan ayrışma azamileştirildi, ötekilere proje kuralı (12).
+📌 Ve 17 zaten **ulaşılamazdı**: 15 renk kutuyu karşılıklı 17 ile doldurunca
+16. kimlik için tavan **15,0**'a düştü. **Tavan kimlik sayısıyla düşer.**
+
+```
+zaporojye #8c92fe   C* 18,6 = paletin MEDYANI (%47) · S 0,45
+  kazak-hanligi #ad1457'den ΔE 33,0   ← kullanıcının istediği ayrım
+  komşulardan 18,9 · 15 Avrupa'dan 12,1 · altlıktan 32,5
+```
+Kızıl-magenta `kazak-hanligi` ↔ menekşe-mavi `zaporojye`: tonca da karışmaz.
+
+### Doğrulama — CANLI, Avrupa MERGE EDİLMİŞ hâlde
+
+MOTOR 2 bu arada `yerlesimler_avrupa.js`'i izin listesine aldı; denetim artık
+**1235 nokta** okuyor, yani 15 rengim **varsayılan değil ölçülmüş** komşuluğa
+karşı sınandı.
+
+```
+① AKTARIM                              17/17 birebir ✓
+② CANLI KOMŞULUK (1235 nokta)          17 kimliğin 17'si OK · ihlal 0
+     en dar komşu ΔE  12,0  (kastilya)      en dar altlık ΔE 17,5 (ferrara)
+③ py arac/renk_olc.py
+     130 kimlik · 14 görünmez · 69 çakışma · 1 aynı-anahtar örtüşmesi
+     🔴 16 yeni kimliğin HİÇBİRİ çakışma listesinde YOK
+     🔴 `iran` da artık listede YOK — önce 3 çiftteydi
+        (iran↔memluk 6,6 · iran↔timurlu 9,4 · iran↔suud 11,6 → üçü de kapandı)
+④ 16 yeni arasında en dar ΔE  12,1  (mantua ↔ zaporojye — komşu değiller)
+```
+⚠️ Çakışma 71→69: nokta kümesi de 998→1235 değiştiği için bu **saf
+karşılaştırma değil.** Saf ölçüt şu ve sağlandı: *benim kimliklerim listede yok.*
+
+📌 Yeni denetim (MOTOR 2, aynı-hex) `kavalali ↔ turkmen #00acc1` çiftini
+bildiriyor — **benim değil**, `renkler.py`'de kasten paylaşımlı olduğu yazılı.
+
+---
+
 ## 3. ÇÜRÜK DÜZELTMELERİ — `renkler.py`
 
 | yer | neydi | ölçüm |
