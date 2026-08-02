@@ -719,3 +719,48 @@ diyordu; bu madde onu genişletiyor — **doğrulamadığın bir VARLIĞI da şa
 çevirme.** Bu vakada koordinatör *"ben doğrulamadım"* diye yazmıştı ama yine de
 *"mevcut dört nokta"* dedi. **Uyarı, yanlış çerçeveyi düzeltmiyor.**
 
+
+---
+
+## 16. 🔴 PAYLAŞILAN ÇALIŞMA AĞACINDA `git stash` YASAK
+
+**Doğuran vaka (2 Ağustos, VERİ KİMLİK 2 — kendi bildirdi):** temel çizgi
+ölçümü için `git stash` kullanıldı. Komut kendi dosyalarını değil, **çalışma
+ağacının tamamını** aldı:
+
+```
+oturumlar/OTURUM-9-ILERLEME.md      78 satır · BAŞKA bir oturumun işi
+veri-kaynak/motor_kara.geojson      kaydedilmemiş
+```
+
+Hemen geri yüklendi, doğrulandı (`stash list` boş, ikisi de yerinde, **kayıp
+yok**). Bu turda şans yaver gitti.
+
+### Neden bu hata bu depoda kaçınılmaz görünüyor
+
+`git stash` **oturum başına** değil **ağaç başına** çalışır. Yedi oturum aynı
+ağaçta yazarken *"kendi değişikliğimi bir kenara koyayım"* diye düşünen bir
+oturum, **görmediği altı oturumun işini** kenara koyar. Ve `stash` sessizdir:
+çıktısı *"saved working directory"* der, kimin işini aldığını söylemez.
+
+📌 `§13`'ün (commit'te yol adı yaz) tam kardeşi: orada `git add`, burada
+`git stash` — **ikisi de varsayılan olarak GLOBAL, oysa iş YERELDİR.**
+
+### Kural
+
+```
+❌ git stash · git stash pop · git checkout <dal> · git reset --hard
+✅ kopyala + ölç + geri al:
+     cp <dosya> <dosya>.olcum
+     git checkout HEAD -- <dosya>        ← YOL ADIYLA, dosya dosya
+     <ölçümü koştur>
+     mv <dosya>.olcum <dosya>
+```
+
+**Ölçüt:** bir git komutu **yol adı almadan** çalışıyorsa, muhtemelen senin
+olmayan dosyalara da dokunuyordur. Yol adı almayan komut, paylaşılan ağaçta
+**tehlikeli** kabul edilir.
+
+⭐ Ve bu maddenin kendisi bir şey daha gösteriyor: **kusuru oturum kendi
+bildirdi**, kimse yakalamadı. Kaydı düzelten bir ekip, hata yapmayan ekipten
+değerlidir — ikincisi zaten yoktur.
