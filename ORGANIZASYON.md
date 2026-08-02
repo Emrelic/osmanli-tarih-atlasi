@@ -899,3 +899,55 @@ de çaresi aynı: **durum akar, teslim beklenmez.**
 
 ⚠️ Ve ölçüm yapan oturum için karşı önlem: taban alınacaksa **HEAD'den** alınır
 (`git show HEAD:<yol>`), çalışma ağacından değil. Ağaç ortak, HEAD sabittir.
+
+---
+
+## 20. 🔴 "DÜZELTİLDİ" BİR DURUM BİLDİRİMİ; **DEĞER** BİR ÖLÇÜMDÜR
+
+**Doğuran vaka (2 Ağustos, RENK yakaladı):** MOTOR 2 `renk_olc.py`deki elle
+kopya zarfı sildi ve `BOLGE`den türetilir hâle getirdi. Raporunda **açıkça**
+yazdı: *"BOLGE'yi **geçici olarak** kilitli değere aldım → KUTU izledi"* ve
+*"eski zarfla 7 çift, **kilitli-kutu zarfıyla** 456 çift."*
+
+Koordinatör bunu *"zarf düzeldi, Asya'ya dönebilirsin"* diye aktardı.
+
+```
+DÜZELEN   mekanizma — elle kopya gitti, kutu açılınca otomatik izleyecek
+DEĞİŞMEYEN değer — BOLGE hâlâ 62'de, dolayısıyla KUTU hâlâ (-25,-5,75,72)
+```
+
+RENK **aktarılanı doğruladı**, değerin değişmediğini ölçtü ve durdu. Doğrulamasaydı
+344 Asya noktasının **%88'i zarf dışındayken** komşuluk ölçecekti.
+
+### Sebep
+
+Ölçüm doğru raporlanmıştı. **Hata AKTARIMDA üretildi.** İki ayrı şey tek
+cümleye sıkıştı: *"düzeltildi"* eylemi anlatır, *"değer şu"* durumu anlatır.
+Bir düzeltme **gelecekte** etki edecekse, bugünkü değer **değişmemiştir** —
+ve bunu söylemeyen her cümle yanlıştır.
+
+📌 `§12`'nin (doğrulanmamış sayıyı şarta çevirme) ve `§B10`'un kardeşi; ama
+buradaki incelik şu: **kaynak dürüsttü.** Röle bozdu.
+
+### Kural
+
+```
+❌ "X düzeltildi, devam edebilirsin"
+✅ "X'in mekanizması düzeltildi. BUGÜNKÜ DEĞER: <ölçüm>. Ne zaman değişir: <koşul>"
+```
+
+Bir düzeltmeyi aktarırken **üç şey** birlikte gider: ne değişti · **bugünkü
+değer ne** · hangi koşulda değişecek. Üçüncüsü olmadan ikincisi yanıltır.
+
+### Ve ikinci kural — ERTELENMİŞ DOĞRULAMA
+
+Bugün ölçülemeyen bir şey varsa (tavuk-yumurta: araç ancak kutu açılınca
+görebiliyor, kutu ancak renkler bitince açılabiliyor), doğru davranış
+**geçici bir düzenekle ölçüp SONRAKİ DOĞRULAMAYI YAZMAKTIR.**
+
+```
+ŞİMDİ   geçici zarfla ölçüldü        ← yapıldı
+SONRA   asıl araçla YENİDEN ölçülecek ← KABUL LİSTESİNE YAZILDI
+```
+⚠️ **Ertelenmiş doğrulama, atlanmış doğrulama değildir — ama ancak yazılırsa.**
+Yazılmayan erteleme, unutulmuş doğrulamadır.
