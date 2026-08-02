@@ -10,6 +10,29 @@ durum tablosunu güncelle.
 
 ## Şimdi
 
+- [ ] **Değişmez 2s borcu 119 → 121 — KABUL EDİLDİ, defteri burası.**
+      `ortaasya2` canlıya alınınca (`27e234c`) iki kırılma maddesiz kaldı:
+      ```
+      1500-01-01  Nogay Ordası + Kazak Hanlığı'nın sahneye çıkışı
+      1640-01-01  Guryev'in (Atyrau) kuruluşu
+      ```
+      🔴 **Karar gerekçesi:** kabul ölçütü sahipsizlikti ve sağlandı
+      (50 → 50, yerleşim 991 → 998). `2s` zaten adlı ve defterli bir borç
+      (tavan 114); +2 sınıfını değiştirmiyor. Geri almak **7 noktayı ve
+      gerçek kapsamı** *madde eksikliği* için feda etmek olurdu.
+      ⇒ Kapanışı **madde yazmak**, geri almak değil. *VERİ KRONOLOJİ sınıfı.*
+
+- [ ] 🟡 **`hassasiyet:` için ÜÇÜNCÜ ölçülmüş vaka çıktı.**
+      `yerlesimler_ortaasya2.js` belirsizliğini **yorumda** dürüstçe yazmış
+      (satır 103: *"TDV ikisi…"*, satır 114: *"yıl hassasiyetinde, gün
+      yazılmadı"*) — ama **motor yorumu okumuyor**, haritaya `1500-01-01`
+      *bilinen bir gün* gibi çiziliyor.
+      ```
+      dosyadaki 62 tarih damgasının 37'si (%60) YYYY-01-01
+      ```
+      📌 Yani `§76`'nın çaresi artık "iyi olurdu" değil: **veri dürüst,
+      şema taşıyamıyor.** Belirsizlik yorumdan alana taşınmalı.
+
 - [ ] 🔴 **ARAYÜZ — `js/app.js:2241` yeni bölümü çizmiyor.** `BEKLEYENLER.md`'ye
       **`SENDEN BEKLENEN`** diye açık iş bölümü eklendi ve `uret_bekleyenler.py`
       artık `B.bolum.bekleyen` üretiyor (bugün **4 satır**). `app.js` yalnız
