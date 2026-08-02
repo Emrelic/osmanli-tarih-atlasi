@@ -1038,3 +1038,27 @@ kapalılığı C'de de KORUNUR. Maliyet: mp_koord'a köşe-başına kıyı testi
   ham %20'ye iner (~6,6 MB) — düşük zoom ucuz bir özet katmanı olabilir.
 - ④ (önceden cevaplandı) bölme koşu SONRASI son-işlem: **EVET.**
 
+---
+
+## 🚀 KOŞU BAŞLADI (koordinatör tetikledi; paket commit'i 6bfcc0d) — 2026-08-03
+
+Kullanıcı kararı **A** (kıyı 220 m; round DOKUNULMADI — zaman penceresi
+ölçümü ondalıktan fazlasını kayıpsız kazandırdı: 9,49→0,20 MB/kesit).
+Paket: BOLGE=(-12,-11,146,64) + asya canlı listede; işlevsel 2 satır;
+koordinatör diff'i bağımsız doğrulayıp commit'ledi. ~95-105 dk.
+
+**KOŞU BİTİNCE DOĞRULAMA SIRAM (haber gelmeden HİÇBİR araç koşturulmaz —
+çıktılar yazılırken ölçüm karışık okur):**
+1. `denetle_yayin.py` — ÖNCE bu: çıktı BÜTÜNLÜĞÜ (7/7 üretim izi ·
+   VERI_SINIRI donemler.js'te · bayat_mi TAZE'ye dönmeli). Bütünlük
+   doğrulanmadan içerik ölçülmez.
+2. `denetle.py` — Değişmez 1 sahipsiz yeniden ölç · kuyruk satırları
+   (BEKLENEN: asya 344n·481k·374 maddesiz) · 🔴 Değişmez 2 ÇEKİRDEK 0 açık
+   KALMALI (bozulursa kuyruk yalıtımı kusuru — HEMEN bildir) ·
+   konum 2→0 (Sundsvall+Trondheim artık içeride).
+3. `renk_olc.py` TAM koşu — ERTELENMİŞ DOĞRULAMA: RENK'in geçici zarf
+   ölçümü ASIL araçla teyit; "ASYA · ① EKSİK" işaretleriyle karşılaştır.
+   RENK beklentisi: yeni ihlal 0.
+4. `renk_olc.py --dogrula` son artefakta.
+Kural: beklenmedik sayı → ÖNCE BİLDİR, yorumlama (bugünün üç vakası).
+
