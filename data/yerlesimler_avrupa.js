@@ -102,7 +102,7 @@ window.YERLESIMLER_AVRUPA = [
 { ad:"Dumfries", tur:"sehir", lat:55.070, lon:-3.603, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1707-05-01",d:"iskocya"},{f:"1707-05-01",t:"1923-10-29",d:"ingiltere"}] },
 { ad:"Wick", tur:"liman", lat:58.439, lon:-3.093, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1707-05-01",d:"iskocya"},{f:"1707-05-01",t:"1923-10-29",d:"ingiltere"}] },
 // Dış Hebridler 1266'da (Perth Antlaşması) Norveç'ten İskoçya'ya geçti — 1281'de İskoç
-{ ad:"Stornoway", tur:"liman", lat:58.209, lon:-6.387, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1707-05-01",d:"iskocya"},{f:"1707-05-01",t:"1923-10-29",d:"ingiltere"}] },
+{ ad:"Stornoway", tur:"liman", lat:58.2111, lon:-6.3870, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1707-05-01",d:"iskocya"},{f:"1707-05-01",t:"1923-10-29",d:"ingiltere"}] },
 // Orkney ve Shetland 1472'ye kadar Norveç tacında (1468-69 rehin, 1472 ilhak)
 { ad:"Kirkwall (Orkney)", tur:"liman", lat:58.981, lon:-2.960, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1472-02-20",d:"norvec"},{f:"1472-02-20",t:"1707-05-01",d:"iskocya"},{f:"1707-05-01",t:"1923-10-29",d:"ingiltere"}] },
 { ad:"Lerwick (Shetland)", tur:"liman", lat:60.153, lon:-1.145, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1472-02-20",d:"norvec"},{f:"1472-02-20",t:"1707-05-01",d:"iskocya"},{f:"1707-05-01",t:"1923-10-29",d:"ingiltere"}] },
@@ -131,7 +131,7 @@ window.YERLESIMLER_AVRUPA = [
 { ad:"Brest", tur:"liman", lat:48.390, lon:-4.486, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1532-08-13",d:"bretanya"},{f:"1532-08-13",t:"1923-10-29",d:"fransa"}] },
 { ad:"Quimper", tur:"sehir", lat:47.996, lon:-4.102, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1532-08-13",d:"bretanya"},{f:"1532-08-13",t:"1923-10-29",d:"fransa"}] },
 { ad:"Vannes", tur:"liman", lat:47.658, lon:-2.760, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1532-08-13",d:"bretanya"},{f:"1532-08-13",t:"1923-10-29",d:"fransa"}] },
-{ ad:"Saint-Malo", tur:"liman", lat:48.649, lon:-2.026, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1532-08-13",d:"bretanya"},{f:"1532-08-13",t:"1923-10-29",d:"fransa"}] },
+{ ad:"Saint-Malo", tur:"liman", lat:48.6479, lon:-2.0242, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1532-08-13",d:"bretanya"},{f:"1532-08-13",t:"1923-10-29",d:"fransa"}] },
 
 // ── FRANSA: Normandiya ve Manş kıyısı (Yüzyıl Savaşları pencereleriyle) ────
 { ad:"Rouen", tur:"sehir", lat:49.443, lon:1.099, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1419-01-19",d:"fransa"},{f:"1419-01-19",t:"1449-10-29",d:"ingiltere"},{f:"1449-10-29",t:"1923-10-29",d:"fransa"}] },
@@ -188,7 +188,7 @@ window.YERLESIMLER_AVRUPA = [
 // Provence 1481'e kadar Anjou kontluğu — mevcut Marsilya kaydı gibi fransa'ya
 // sadeleştirildi (bkz. ILERLEME); Dauphiné (1349 devri) aynı şekilde.
 { ad:"Aix-en-Provence", tur:"sehir", lat:43.530, lon:5.447, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"fransa"}] },
-{ ad:"Toulon", tur:"liman", lat:43.125, lon:5.930, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"fransa"}] },
+{ ad:"Toulon", tur:"liman", lat:43.1222, lon:5.9384, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"fransa"}] },
 { ad:"Grenoble", tur:"sehir", lat:45.188, lon:5.724, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"fransa"}] },
 // Avignon 1348'de Papalığa satıldı, 1791'de Fransa ilhak etti
 { ad:"Avignon", tur:"sehir", lat:43.949, lon:4.806, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1348-06-09",d:"fransa"},{f:"1348-06-09",t:"1791-09-14",d:"papalik"},{f:"1791-09-14",t:"1923-10-29",d:"fransa"}] },
@@ -209,7 +209,7 @@ window.YERLESIMLER_AVRUPA = [
 { ad:"Salamanca", tur:"sehir", lat:40.965, lon:-5.664, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},{f:"1479-01-20",t:"1923-10-29",d:"ispanya"}] },
 { ad:"León", tur:"sehir", lat:42.599, lon:-5.567, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},{f:"1479-01-20",t:"1923-10-29",d:"ispanya"}] },
 { ad:"Oviedo", tur:"sehir", lat:43.362, lon:-5.849, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},{f:"1479-01-20",t:"1923-10-29",d:"ispanya"}] },
-{ ad:"Santander", tur:"liman", lat:43.462, lon:-3.810, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},{f:"1479-01-20",t:"1923-10-29",d:"ispanya"}] },
+{ ad:"Santander", tur:"liman", lat:43.4667, lon:-3.8115, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},{f:"1479-01-20",t:"1923-10-29",d:"ispanya"}] },
 { ad:"Bilbao", tur:"liman", lat:43.263, lon:-2.935, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},{f:"1479-01-20",t:"1923-10-29",d:"ispanya"}] },
 { ad:"San Sebastián", tur:"liman", lat:43.318, lon:-1.981, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},{f:"1479-01-20",t:"1923-10-29",d:"ispanya"}] },
 { ad:"Cuenca", tur:"sehir", lat:40.071, lon:-2.134, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},{f:"1479-01-20",t:"1923-10-29",d:"ispanya"}] },
@@ -310,7 +310,7 @@ window.YERLESIMLER_AVRUPA = [
 { ad:"Visby (Gotland)", tur:"liman", lat:57.635, lon:18.294, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1361-07-27",d:"isvec"},{f:"1361-07-27",t:"1645-08-13",d:"danimarka"},{f:"1645-08-13",t:"1923-10-29",d:"isvec"}] },
 // Skåne 1658'e (Roskilde), Halland 1645'e (Brömsebro) kadar Danimarka
 { ad:"Malmö", tur:"liman", lat:55.605, lon:13.000, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1658-02-26",d:"danimarka"},{f:"1658-02-26",t:"1923-10-29",d:"isvec"}] },
-{ ad:"Helsingborg", tur:"liman", lat:56.046, lon:12.694, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1658-02-26",d:"danimarka"},{f:"1658-02-26",t:"1923-10-29",d:"isvec"}] },
+{ ad:"Helsingborg", tur:"liman", lat:56.0500, lon:12.7005, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1658-02-26",d:"danimarka"},{f:"1658-02-26",t:"1923-10-29",d:"isvec"}] },
 { ad:"Halmstad", tur:"liman", lat:56.674, lon:12.857, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1645-08-13",d:"danimarka"},{f:"1645-08-13",t:"1923-10-29",d:"isvec"}] },
 // Bohuslän 1658'e kadar Norveç tacında
 { ad:"Uddevalla", tur:"liman", lat:58.348, lon:11.938, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec"},{f:"1537-01-01",t:"1658-02-26",d:"danimarka"},{f:"1658-02-26",t:"1923-10-29",d:"isvec"}] },
