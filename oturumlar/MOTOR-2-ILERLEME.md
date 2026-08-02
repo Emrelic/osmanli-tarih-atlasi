@@ -129,3 +129,7 @@ Kabul ölçütü ÜÇ UÇLU, üçü de koşuldu:
   kümeyi** okudu = YENİ değerleri GÖRDÜ. Geri alındı; doğrulama: 0.002 +
   4 göl, `git diff arac/uret_petek.py` boş — kalıcı iz YOK.
 
+---
+
+⏳ başladım: İş D — renk_olc.py aynı-anahtar tarih örtüşmesi denetimi — 2026-08-02 13:25
+
