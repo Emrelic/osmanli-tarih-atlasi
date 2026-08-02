@@ -474,3 +474,44 @@ veri oturumu yerleşim seçerken adanın tarihî merkezine kaydırmalı
 
 ⏳ başladım: İş M — dört kenar kara kütlesi bölüyor mu + 145 uzatma maliyeti — 2026-08-02 18:00
 
+## ✅ İş M — kenar bölmeleri genel tarama + 145/146 maliyeti (18:20)
+
+Yöntem: NE 10m kara katmanının HAM poligonları (maskeden önce), kilitli
+kutu box(−12,−11,142,64); eşik toplam ≥100 km² VE içeride ≥%5 VE dışarıda
+≥%5 ("burun kesiği" elenir). Ek: 143–151 meridyen taraması + 145/146 maske
+maliyeti (İş J yöntemi).
+
+**① BÖLÜNEN KÜTLELER — Sahalin yalnız değil, ÜÇ ada bölünüyor, hepsi DOĞU:**
+- Avrasya+Afrika anakarası (87,9 M km², %21,9 dışarıda) — KAÇINILMAZ,
+  her kutu kıtayı keser.
+- **Yeni Gine** 787.829 km² · %40,9 dışarıda · bbox 130,9..150,9 —
+  hiçbir makul kenar kapatamaz (151 gerekir). Üstünde VERİ NOKTASI YOK.
+  Kesik, tarihî 141° Hollanda sınırının 1° doğusunda — bölünme
+  kabullenilecekse en savunulabilir yer zaten burası.
+- 🔴 **Hokkaido** 78.358 km² · **%68'İ DIŞARIDA** · bbox ..145,8 —
+  EN KÖTÜ SINIF: evrenin en doğu noktası SAPPORO (141,35) bu adanın
+  üstünde. Kilitli kutu Sapporo'yu alıp adasının ÜÇTE İKİSİNİ kesiyor —
+  "nokta var, ada yarım".
+- **Sahalin** 75.453 km² · %94,2 dışarıda · bbox ..144,8 (İş L bulgusu).
+- **BAŞKA BULUNAMADI**: BATI, GÜNEY, KUZEY kenarları hiçbir ≥100 km²
+  kütleyi %5-95 aralığında bölmüyor — üç kenar temiz (negatif sonuç).
+
+**② Doğu kenarı uzatma maliyeti** (dayanak r578=43 dk; 0 yeni nokta girer,
+evrenin en doğusu Sapporo 141,35):
+- kilitli 142: 7.174 der² · 3.156 poligon · tahmin 107 dk (92–123)
+- 145: +43,6 der² · +52 poligon · **+2 dk** → yalnız SAHALİN kapanır;
+  Hokkaido KAPANMAZ (145,8'e uzanıyor)
+- **146: +52 der² · +68 poligon · +2 dk → HOKKAIDO + SAHALİN İKİSİ DE
+  kapanır**; bedel: Kunaşir (1.566 km², Kuril) ve Manam çevresi (372 km²,
+  PNG kıyısı) kesilmeye başlar — ikisi de noktasız ve küçük.
+- Meridyen taraması 143–151: **DİKİŞSİZ BOYLAM YOK** (anakara + Yeni Gine
+  her adayda kesiliyor). En az kesen pratik değer: 146.
+
+**HÜKÜM ADAYI (karar koordinatörün):** 145 yanlış durak — Sahalin'i alır,
+Hokkaido'yu yarım bırakır (üstünde nokta olan tek bölünmüş ada!). 146,
++2 dk'ya iki bütün ada alır; Yeni Gine bölünmesi hiçbir kenarla çözülmüyor
+ve noktasız — bilerek kabul edilip §82 notuna yazılmalı. Koordinatörün
+dersi doğrulandı: kenar verinin yayılımına göre değil coğrafyanın
+dikişlerine göre seçilmeli — ve doğuda dikişsiz yer olmadığı İÇİN doğru
+soru "hangi kenar en az ve en zararsız keser" (cevap: 146).
+
