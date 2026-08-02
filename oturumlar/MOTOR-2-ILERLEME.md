@@ -971,3 +971,31 @@ Karşı kefe: gzip −%32 kazancın çoğu da tam o kıyı köşelerinden geliyo
   renk_olc denetle() tam koşu (Asya komşulukları asıl zarfla) ·
   --dogrula son artefakta karşı.
 
+## ✅ SON KİLİT — 1550 zirvesi İSİMLENDİ + REGRESYON SIFIR (01:00)
+
+**REGRESYON SORUSUNUN CEVABI (ölçüldü, varsayılmadı): 0 km².** Yeni koşuda
+1550'de renksiz kalan asya hücrelerinin ESKİ KUTU içine taşan alanı SIFIR —
+bugün boyalı hiçbir yer boşalmıyor. Kullanıcıya doğru cümle:
+"harita %18,7 boşalmıyor; YENİ GELEN alanın ~%33,5'i boş geliyor"
+(yeni kara ≈ 74,9−35,5 = 39,35 M km²; 13,19/39,35 = %33,5).
+
+**1550 boşluğunun isim listesi** (aktif tek s: kimliğine bölündü — dönem
+sağlığı 0 çakışma bunu benzersiz kılar; coğrafya bolge_adi ile):
+  kuzey-yuan        2,34 M km²  küm %18   Moğol bozkırı
+  mogulistan        1,93 M km²  küm %32   Tarım/Yedisu
+  yarkent-hanligi   1,40 M km²  küm %43   Orta Asya
+  tibet             1,08 M km²  küm %51   plato
+  sur-hanedani      1,05 M km²  küm %59   Kuzey Hindistan
+  banda-adalari     0,73 M km²  küm %65   Endonezya (soğurma taşması!)
+  …toplam 49 kimlik
+**③ YARIYA indirmek için İLK 4 KAYIT yeter** (kuzey-yuan · mogulistan ·
+yarkent-hanligi · tibet) — dördü de büyük bozkır/plato kütlesi.
+**④ Kaydı VAR/YOK:** 1550 boşluğunun **%100'ü devletler.js kaydı OLMAYAN
+kimliklerde** (49/49). "RENK bugün yazabilir" payı SIFIR — RENK'in yazdığı
+37, kaydı olanların tamamıydı; 1550'yi kapatmak tamamen ARAŞTIRMA işi
+(ama 4 kayıtlık hedefli bir araştırma).
+
+Not: mogulistan örneği "diğer" coğrafyada çıktı — lon 82-92/lat 35-45
+dilimi (Tarım havzası) kutusuz; öz-denetimin %1'lik meşru kuyruğunun
+parçası, kayda geçti.
+
