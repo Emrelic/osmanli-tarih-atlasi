@@ -377,3 +377,7 @@ Kenar hükümleri (ölçümden):
 - İş C'nin takımada uyarısı yalnız DOĞU/GÜNEY için geçerli; KUZEY
   kenarında parçalılık fiyortlardan geliyor (poligon ×1,38) ama alan küçük.
 
+---
+
+⏳ başladım: İş K — adacık zararı sayıya (kilitli kutu −12,−11,142,64) — 2026-08-02 16:55
+
