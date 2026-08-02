@@ -813,3 +813,7 @@ kutu sonrası ~×1,9 ile ~15-16 MB (2 ondalıkla) tahmini.
 
 UYGULANMADI — yalnız ölçüm; karar kullanıcının (B8).
 
+---
+
+⏳ başladım: İş R — aktarım denetimi (öneri↔dosya) renk_olc.py'ye gömülüyor — 2026-08-02 22:45
+
