@@ -18,8 +18,8 @@ oturum açmaktan geçiyor ve **oturum açmayı koordinatör yapamaz.**
 |---|---|---|---|
 | **B8** | 🔴 **KARAR: site her ziyarette 36 MB indiriyor — kutu açılınca ~65 MB olacak.** `donemler.js` 35,9 MB + `devletler_harita.js` 12,9 MB; koşudan sonra ikisi de yaklaşık iki katına çıkıyor ⇒ **toplam ~100 MB**. Masaüstünde yavaşlar, **mobilde çökebilir**. Seçenekler: (a) böl — bölgeye/döneme göre parça parça yükle (b) sıkıştır (c) olduğu gibi bırak, mobil kullanıcıyı kaybet. **Bu bir yayın stratejisi kararı, teknik değil** | ürünün senin | 2 dk |
 | ✅ ~~**B5**~~ | **RENK oturumu AÇILDI** (Opus 5) — 15 Avrupa rengi teslim edildi, Asya sürüyor | — | ✅ |
-📌 **Bugün senden bir tek bu.** `B5` açılmazsa harita ilerlemez. Gerisini ben
-hallediyorum.
+
+📌 **Bugün senden bir tek bu: B8.** Gerisini ben hallediyorum.
 
 ### ✅ Bugün verdiğin iki karar — uygulanıyor
 
