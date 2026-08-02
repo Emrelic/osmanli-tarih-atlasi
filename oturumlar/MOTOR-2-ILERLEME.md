@@ -774,3 +774,7 @@ Aracın ilk müşterisi kendisi oldu — üç turda:
   "diğer"den isim kazanan toplam **436 nokta**.
 Toplam yeni kutu: 20 (13 yeni coğrafya + 7 eski-pencere boşluğu).
 
+---
+
+⏳ başladım: İş Q — B8 hazırlığı: 2 ondalık yuvarlamanın YARIK riski (yalnız ölçüm) — 2026-08-02 22:00
+
