@@ -469,3 +469,58 @@ altısı hükme bağlandı, **hiçbiri `devletler.js`'i değiştirmiyor**, biri
 (`kirim` Eski Takvim notu) tek cümlelik bir ekleme öneriyor.
 ⇒ `kimlikler.js`'e **emeklilik notu yazılabilir.**
 
+
+---
+
+## 🔴 `dehlek` — TDV OKUNDU, KAPANMADI. Ve plan da gözden geçirilmeli.
+
+Koordinatör izin verdi, iki TDV maddesini açtım (`dehlek` · `masavva`).
+
+### ① `t:` — **KESİN**, doğrulandı
+```
+TDV masavva: "2 Cemâziyelâhir 964 / 2 Nisan 1557" — Özdemir Paşa fethi
+```
+⇒ ÇAPRAZ DOĞU'nun önerdiği `1557-04-02` **birincil kaynakta, hicrî+milâdî,
+gün düzeyinde** doğrulandı. Güç etiketi **KESİN**.
+
+### ② `f:` — **BULUNAMADI**, ve uydurmuyorum
+```
+TDV dehlek: "III. (IX.) yüzyılda Abbâsî idaresinden çıkan Dehlek..."
+            "VI. (XII.) yüzyıldan itibaren de kendi meliklerince
+             BAĞIMSIZ olarak yönetilmiştir"
+```
+İki tarih de **yüzyıl**, yıl değil. Madde kuruluş için hiçbir yıl vermiyor.
+⇒ `f:"1100-01-01"` ya da `f:"1281-01-01"` yazmak **uydurulmuş kesinlik**
+olur. Koordinatörün uyarısı yerinde: dizideki tarihlerin **%60'ı zaten
+`YYYY-01-01`**; kuyruğa bir tane daha eklemek kapatmaktan kötüdür.
+⇒ **Kalem AÇIK bırakıldı.** Kayıt yazılmadı, renk (`#a838a8`) beklemede.
+
+### ③ 🔴 VE ARAMADIĞIM BİR ŞEY BULDUM — pencere SÜREKLİ DEĞİL
+TDV `masavva` maddesi, Masavva'nın sahipliğini **üç döneme** ayırıyor:
+```
+XII-XIV. yy       "Masavva' ... DEHLEK EMÎRLERİNİN hâkimiyetinde"
+XIV. yy SONU      "HABEŞ topraklarına katıldığı" belirtiliyor
+XVI. yy           "TEKRAR DEHLEK'in himaye ve kontrolüne girdiği" anlaşılıyor
+1557-04-02        Osmanlı
+```
+⚠️ **ÇAPRAZ DOĞU'nun önerisi tek ve sürekli bir blok:** `dahlak 1281-01-01 →
+1557-04-02`. TDV'ye göre bu **yanlış**: aradaki ~bir yüzyıl boyunca Masavva
+Dehlek'in değil **Habeş'in** elinde.
+⇒ Öneri olduğu gibi uygulanırsa, 236 yıllık `memluk` hatası düzeltilirken
+yerine **~100 yıllık yeni bir `dehlek` hatası** konur. *"Yanlış renk
+boşluktan kötüdür"* — düzeltmenin kendisi bu sefer hatayı taşır.
+📌 `habesistan` kimliğinin **rengi zaten var** (VERİ KİMLİK `dehlek`i ondan
+kaçırırken ölçmüştü, min ΔE 36,2) — yani orta dönem için hazır karşılık var.
+
+⚠️ **AMA ORTA DÖNEMİN SINIRLARI DA YÜZYIL SEVİYESİNDE:** *"XIV. yüzyılın
+sonu"* ve *"XVI. yüzyılda"* — gün/yıl yok. Yani üçe bölme **doğru** ama
+**tarihlendirilemez**; aynı `f:` sorunu orta dönemde de var.
+⇒ Güç etiketi: kesintinin **varlığı KESİN**, sınırları **ZAYIF**.
+
+### ⇒ HÜKÜM
+```
+dehlek KAPANMADI.  Engel artik tek alan degil, IKI sey:
+  · f: bulunamadi (TDV yuzyil veriyor)
+  · ve pencere surekli degil -> CAPRAZ DOGU'nun repoint plani revizyon istiyor
+t: 1557-04-02 KESIN olarak dogrulandi - bu kazanc kalici.
+```
