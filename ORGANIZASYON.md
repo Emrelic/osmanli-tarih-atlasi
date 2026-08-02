@@ -764,3 +764,41 @@ olmayan dosyalara da dokunuyordur. Yol adı almayan komut, paylaşılan ağaçta
 ⭐ Ve bu maddenin kendisi bir şey daha gösteriyor: **kusuru oturum kendi
 bildirdi**, kimse yakalamadı. Kaydı düzelten bir ekip, hata yapmayan ekipten
 değerlidir — ikincisi zaten yoktur.
+
+---
+
+## 17. 🔴 OTURUM AÇMA TALEBİNDE MODEL **ADIYLA** YAZILIR
+
+**Doğuran vaka (2 Ağustos):** `BEKLEYENLER.md`'de *"RENK oturumunu aç — **EN
+GÜÇLÜ MODEL**"* yazdı. Kullanıcı ne yapacağını bilemedi:
+
+> *"«en güçlü model» diyerek neyi kastediyor anlamıyorum, Fable'de mi açmam
+> lazım? Neden açılacak model ismini belirtmiyor?"*
+
+Ve aynı gün bunun **bedeli ödendi**: MOTOR oturumu *"en güçlü model"*
+denilerek istendi, kullanıcı **Fable 5** açtı. (İyi çalıştı — ama bu şans,
+tasarım değil.)
+
+### Sebep
+
+*"En güçlü"* koordinatörün kafasında **bir sıralamaya** karşılık geliyor;
+kullanıcının kafasında **bir tahmine.** Koordinatör bir sıfat yazıp
+sıralamayı kullanıcıya **çözdürüyor** — ve o sıralamayı kullanıcının bilmesi
+için hiçbir sebep yok.
+
+📌 `§12`'nin kardeşi: orada *doğrulanmamış sayıyı şarta çevirme*, burada
+**çözülmemiş bir sıfatı talimata çevirme.**
+
+### Kural
+
+```
+❌ "en güçlü model"  ·  "güçlü bir model"  ·  "iyi bir model"
+✅ "Opus 5 ile aç"   ·  "Sonnet 5 yeter"   ·  "Fable 5 uygun"
+```
+
+Ve gerekçesi tek cümleyle yanına yazılır — *"renk kontrastı muhakeme işi"*
+gibi. Kullanıcı **ne açacağını** ve **niçin** öğrenir; sıralamayı ezberlemesi
+gerekmez.
+
+⚠️ `CLAUDE.md §7` tablosu zaten `Opus`/`Sonnet` diye **ad veriyor.**
+`BEKLEYENLER.md` o tabloyla hizalı yazılır; iki belge iki dil konuşamaz.

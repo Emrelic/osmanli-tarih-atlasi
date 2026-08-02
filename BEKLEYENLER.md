@@ -16,7 +16,7 @@ oturum açmaktan geçiyor ve **oturum açmayı koordinatör yapamaz.**
 
 | # | iş | niçin sen | süre |
 |---|---|---|---|
-| **B5** | 🔴 **RENK oturumunu aç — EN GÜÇLÜ MODEL. Bugün açılacak TEK oturum.** Brifing: `oturumlar/MOTOR-KAPILAR.md` Kapı B + `oturumlar/KARAR-KIMLIKLER-JS.md`. Kapsamı: **15 Avrupa rengi** (235 nokta açar) + **İran zinciri** + **Asya'nın 135'i**. Üçü de tek partide ölçülmeli; bitişik devletler tek tek çözülemez | oturum açmak sende | 1 dk |
+| ✅ ~~**B5**~~ | **RENK oturumu AÇILDI** (Opus 5) — görev tanımı verildi, çalışıyor | — | ✅ |
 📌 **Bugün senden bir tek bu.** `B5` açılmazsa harita ilerlemez. Gerisini ben
 hallediyorum.
 

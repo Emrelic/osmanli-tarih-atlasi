@@ -15,10 +15,10 @@ window.BEKLEYENLER = {
    ],
    "satir": [
     [
-     "B5",
-     "🔴 RENK oturumunu aç — EN GÜÇLÜ MODEL. Bugün açılacak TEK oturum. Brifing: oturumlar/MOTOR-KAPILAR.md Kapı B + oturumlar/KARAR-KIMLIKLER-JS.md. Kapsamı: 15 Avrupa rengi (235 nokta açar) + İran zinciri + Asya'nın 135'i. Üçü de tek partide ölçülmeli; bitişik devletler tek tek çözülemez",
-     "oturum açmak sende",
-     "1 dk"
+     "✅ ~~B5~~",
+     "RENK oturumu AÇILDI (Opus 5) — görev tanımı verildi, çalışıyor",
+     "—",
+     "✅"
     ]
    ]
   },
@@ -103,11 +103,11 @@ window.BEKLEYENLER = {
   }
  },
  "ozet": {
-  "bekleyen_acik": 1,
+  "bekleyen_acik": 0,
   "gorsel_acik": 0,
   "karar_acik": 1,
   "istege_bagli": 1,
-  "toplam_acik": 2
+  "toplam_acik": 1
  }
 };
-window.URETIM_IZI = {"girdi":{"BEKLEYENLER.md":"9177dc1493b2aabd2f47cd5896bd3eb5b273a633f0186fed027b06f2332b8105"},"motor":{"uret_bekleyenler.py":"273541b6292dae69b60c7a09db1daca544e3a07dfc9577022c73935e9a92e364"}};
+window.URETIM_IZI = {"girdi":{"BEKLEYENLER.md":"a5fc2ba0124ba9c3b4c9dc977c2b36a0bd339671c2fadc064e5f75cf032c26ac"},"motor":{"uret_bekleyenler.py":"273541b6292dae69b60c7a09db1daca544e3a07dfc9577022c73935e9a92e364"}};
