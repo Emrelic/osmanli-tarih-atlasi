@@ -378,3 +378,11 @@ anahtar birden çok kayıt tarafından paylaşılıyor** ve biri hariç hepsi
 ardışık/örtüşmesiz. Yani "halef aynı anahtarı alır" konvansiyonu dizinde
 yerleşik ve doğru uygulanmış; tek istisna İran zinciri.
 
+---
+
+## 🔍 ALTI TARİH ÇATIŞMASI — hükme bağlama
+
+⏳ **başladım: altı tarih çatışması — 2 Ağustos**
+Yetki: yalnız `data/devletler.js` (hükme bağlanan tarih) + bu defter.
+`kimlikler.js`'e **dokunulmuyor** (emekli).
+
