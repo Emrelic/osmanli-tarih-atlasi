@@ -151,6 +151,96 @@ karar veremez; `mogolistan/mogulistan` ayırt edilebilmesinin sebebi
 
 ---
 
+---
+
+# ✅ UYGULANDI — 52 KÖPRÜ YAZILDI (3 Ağustos, kilit kalktıktan sonra)
+
+`data/devletler.js`e 52 satır `harita:"<id>"` eklendi. Araştırma
+gerekmedi: id ile `BOYALAR` anahtarı birebir aynıydı.
+
+```
+harita: alanı olan kayıt      185 → 238   (+52 köprü +1 don-kazak)
+denetlenebilen boya kimliği   172 → 225
+denetlenemeyen kimlik          97 →  45   (kalan 44 künyesiz + turkmen)
+denetime giren dönem        4.397 → 5.437  (+1.040)
+kapsama                       %76  → %94
+```
+
+## 🔴 VE 24 GİZLİ HAYALET DÖNEM ORTAYA ÇIKTI
+
+Anakronik dönem **189 → 213**. Bu bir kötüleşme değil, **köprü kurulunca
+görünür hâle gelen borç** — dün de oradaydılar, araç bakamıyordu.
+
+### En büyük yediler
+
+```
+meysur         124,5 yıl ×3   Bangalor · Seringapatam · Meysûr → 1923
+                              künye 1761-1799, veri 1565-1923
+maratha        105,4 yıl ×5   Gvalyar · İndor · Uccayn · Mandu · Kolhapûr → 1923
+                              künye 1674-1818
+navarra        108,2 yıl      Pau (Béarn) 1479→1620, künye 1512'de bitiyor
+mataram-sult.   56,5 yıl      Surakarta 1745→1811, künye 1755'te bitiyor
+ming-hanedani   17,0 yıl      Penghu 1624→1661, künye 1644'te bitiyor
+malaka-sult.    16,4 yıl      Johor 1400→1528, künye 1511'de bitiyor
+yuan-hanedani   13,3 yıl ×3   Kunming · Dali · Guiyang 1281→1382
+vijayanagara    10,0 yıl ×2   Vellor · Arkot 1378→1656, künye 1646
+timurlu         15,3 yıl      Kandehar 1370→1522
+cungar           4 dönem
+```
+
+### 📌 VE ÖNEMLİ OLAN ŞU: ÇOĞUNDA VERİ DEĞİL KÜNYE DAR
+
+Bu bulguların büyük kısmı "veri yanlış" demiyor; **künye, verinin
+kastettiği gövdeyi kapsamıyor** diyor. Üç örnek, üçü de belgeli:
+
+```
+meysur       OTURUM-13-ILERLEME.md §B bunu ZATEN yazmış:
+             "devletler.js 1761-1799 · bu dosya 1565-1923 · Vodeyar
+              krallığının tamamı; boyanan toprak aynı"
+             ⇒ Veri bilinçli. Künye Haydar Ali/Tipu ile sınırlı.
+             Düzeltme künye tarafında: 1565-1923'e genişletilmeli mi,
+             yoksa Vodeyar için ayrı kimlik mi? KARAR gerekiyor.
+maratha      Gvalyar (Scindia) · İndor (Holkar) hânedanları 1818'den
+             sonra da tahttaydı — İngiliz himayesinde prens devleti.
+             Künye Konfederasyon'un sonunu (1818) alıyor, veri
+             hânedanların sürekliliğini. İkisi de doğru, ölçüt farklı.
+             ⇒ OTURUM-13'ün "İngiliz hâkimiyeti ≠ İngiliz Hindistanı"
+               kararının aynı sınıfı; o karar burada da uygulanmalı.
+navarra      Künyenin KENDİ kronolojisinde son madde şu:
+             1620-10-19 "Kuzeydeki Béarn/Fransız kolu da Fransa'ya katıldı"
+             ama t:"1512-07-25". ⇒ Kayıt kendi kendisiyle çelişiyor.
+             En net düzeltme bu; yine de kaydı yazan oturumun kararı.
+yuan-hanedani Kunming/Dali 1382'ye kadar Yuan — TARİHSEL OLARAK DOĞRU.
+             Liang Prensi Yunnan'da 1382'ye kadar direndi. Künye
+             1368'i (Dadu'nun düşüşü) alıyor.
+             ⇒ §3.5.1'in tersi: "merkez düştü diye çevre otomatik
+               devrolmaz" — burada çevre 14 yıl daha dayandı.
+```
+
+⚠️ **Hiçbirini tek taraflı düzeltmedim.** Beşi de karar gerektiriyor ve
+üçünün verisi başka oturumların dosyasında. Ölçüm teslim, karar değil.
+
+## ✅ Değişmezler — köprüler yazıldıktan sonra
+
+```
+Değişmez 1  ✓  1615 yerleşim, 55 sahipsiz (beklenen 55)
+Değişmez 1b ✓  pencere arası boşluk 0
+Değişmez 2  ✓  496 kırılma, 0 açık
+Değişmez 2s ✗  620 yabancı kırılması, 119 açık (tavan 114)  ← değişmedi
+Değişmez 2t ✗  kırılmasız madde 61 (tavan 49)               ← 52'den YÜKSELDİ
+```
+🔴 **`2t`nin 52 → 61 yükselişi BENDEN DEĞİL — ölçüldü.** `2t`,
+`olaylar*.js` maddelerini `yerlesimler*.js` kırılmalarına karşı sayar;
+bu oturumun düzenlemesi yalnız `devletler.js` künyelerine dokundu, o iki
+dosyaya değil. Aracın kendi 2t defteri yeni 13 maddeyi sayıyor ve hepsi
+r724 ile gelen CAPRAZ İBERYA kalemleri: Safi · Azemmûr · Mazagan ·
+Agadir · Arzila · Cerbe · Tunus (1569 ve 1573) · Granbosa. `don-kazak`ın
+altı kronoloji maddesinin hiçbiri listede yok.
+📌 Yine de kayda geçiyor: **bir sayı yükseldiğinde "ben yapmadım" demek
+yetmiyor, defteri açıp göstermek gerekiyor.**
+
+---
+
 ## ÖNERİLEN İŞ SIRASI
 
 ```

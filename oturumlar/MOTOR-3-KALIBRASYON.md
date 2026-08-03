@@ -167,3 +167,25 @@ sonucu bugünküyle **birebir aynı** olmalı:
 1 ✓ 1579/50 · 1b ✓ 0 · 2 ✓ 493/0 · 2s 119 · 2t 52 · konum ✓ 0
 ```
 Bir sayı bile oynarsa yama geri alınır ve sebebi aranır.
+
+---
+
+# 🔴 YAYIN ZİNCİRİ — sırası atlanamaz (MOTOR 3, 3 Ağustos 2026)
+
+```
+py arac/uret_petek.py      → data/donemler.js · devletler_harita.js · bolgeler.js
+                             · petek_govde.js · veri-kaynak/motor_kara.geojson
+py arac/uret_altlik.py     → data/altlik.js      ⚠️ motor_kara.geojson'u OKUR
+py arac/uret_devirler.py   → data/devirler.js
+py arac/denetle_yayin.py   → tazelik kapısı
+py arac/surum_damgala.py   → index.html ?v=rNN
+```
+
+⚠️ **`uret_altlik.py` ATLANIRSA altlık ESKİ kıyı maskesiyle kalır.**
+Sebep: `uret_petek.py` her koşuda `veri-kaynak/motor_kara.geojson`u yeniden
+yazar (motorun çizdiği kara), `uret_altlik.py` ise onu okur. Koşu bittiğinde
+altlık bir önceki maskeden üretilmiş hâlde durur ve **hiçbir şey bağırmaz** —
+`denetle_yayin.py` bunu 3 Ağustos'ta yakaladı, ama elle.
+
+📌 Bu, deponun bilinen hata sınıfı: *bir çıktı, başka bir çıktının girdisi ve
+bağımlılık yalnız insanın aklında.* `OGRENILENLER §35` ile aynı desen.

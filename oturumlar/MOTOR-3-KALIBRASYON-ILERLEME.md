@@ -443,3 +443,90 @@ ayrılabilir, hiçbiri diğerini gerektirmez:
 📌 ①'in ve ③'ün `donemler.js` · `devletler_harita.js` · `bolgeler.js`
 üzerinde **hiçbir etkisi olamaz**: ikisi de yalnız `print` yapıyor, tek
 veri yazan ②'dir ve o da çıktı-aynılığı sınavından geçti.
+
+---
+
+# ⑦ KOŞU 3 SONRASI — ölçülmüş bilanço ve üç yama
+
+## Kazanç (kosu3.log, 12:43:31 → 13:59:13)
+```
+YABANCI GÖVDE   222 dk → 33dk 41sn    6,59× ham · 6,94× EŞDEĞER
+TOPLAM KOŞU     281 dk → 75dk 42sn    3,71×
+KUŞATILMIŞLIK   241 dk → 10dk 14sn   23,6×   ← yamanın vurduğu yer
+```
+⚠️ Eşdeğer, çünkü girdi büyüdü: hücre-birleşimi +%5,3 · gövde 1738 → 1962.
+
+🟢 Model sınavı: öngörü **1.965** gövde · gerçek **1.962** (sapma %0,15).
+
+## ③ `kapat()` NİÇİN pahalı — ÖLÇÜLDÜ, YAMA YAZILMADI
+Koordinatörün sorusu: yarıçap mı, karmaşıklık mı, çağrı sayısı mı?
+
+```
+[A] alt işlem dağılımı (40 gövde)
+    buffer(+r)            %64,9   ← baskın
+    unary_union(k, g)     %23,3
+    buffer(−r)            %10,0
+    temiz() (iki çağrı)    %1,8   ← temizlik ihmal edilebilir
+
+[B] süre ~ köşe^1,23     (µs/köşe 40 → 142, gövde büyüdükçe)
+
+[C] yarıçap taraması (25 gövde, 0,15'e göre)
+    0,02→1,15×  0,05→0,71×  0,08→0,89×  0,10→1,15×  0,12→1,25×
+    0,15→1,00×  0,20→1,35×  0,25→2,57×  0,30→3,30×
+```
+
+**Cevap: KALDIRAÇ YOK — en azından çıktıyı değiştirmeden.**
+- Maliyet **karmaşıklıkta** (köşe^1,23), yarıçapta değil.
+- Yarıçap 0,15'in **üstünde** maliyet dik ve düzenli artıyor; **altında
+  düzensiz** (0,05 ucuz, 0,10-0,12 pahalı) — yani aşağı inmek güvenilir
+  kazanç vermiyor, o dalgalanma yarıçapın değil her gövdenin kendi
+  geometrisinin eseri.
+- En iyimser okumada bile (0,05 ile %29) kazanç koşunun ~%10'u; bedeli
+  kapama yarıçapının 16,7 km'den 5,5 km'ye inmesi, yani **haritanın
+  görüntüsünün değişmesi** (İnegöl'ün Söğüt-Bilecik'ten kopması sınıfı).
+- Kalan iki büyük kalem de taşıyıcı: `buffer(+r)` kapamanın kendisi,
+  `unary_union(k, g)` ise motorun kendi notuyla "buffer'ın sayısal
+  aşındırması ortak kenarı oynatmasın" diye orada.
+
+⇒ Burada optimizasyon değil **karar** vardır; sıraya girmesi için önce
+"kapama yarıçapı 0,15 kalsın mı" sorusunun sorulması gerekir.
+
+## ① `ilerleme()` iş ağırlıklı — YAZILDI
+Doğrusal tahmin, `devlet 10/226` satırında "kalan 1s 41dk" bastı; gerçek
+33dk 41sn. Yeni tahmin kümülatif **hücre-birleşimi** payını kullanıyor
+(süreyi açıklayan değişken: hücre R²=0,96 · gövde R²=0,51).
+
+Geriye dönük kosu3'e uygulandı:
+```
+adım      doğrusal     iş ağırlıklı
+  10        +215%          −49%
+  20        +421%          −16%
+  30        +440%           +7%
+  40-80  +114…+318%      +4…+5%
+```
+⚠️ İlk iki kontrol noktası hâlâ güvenilmez (ilk devletler hücre başına
+0,0155 sn, kararlı hız 0,0300). Docstring'e "ilk iki satırı atla" diye
+yazıldı. 📌 Doğrusalın hiçbir noktada yakınsamadığına dikkat.
+
+⚠️ Ağırlık bloğu ana döngünün set mantığını TEKRARLIYOR. Döngüyü ikiye bölmek
+denendi ve bırakıldı: dönem birleştirme ölçütü `aktif == onceki and dnm`,
+yani set mantığı geometri sonucuna bağlı. Arıza biçimi zararsız — saparsa
+tahmin bozulur, çıktı bozulmaz. Motorun kendi bloğu bağımsız ölçümle
+doğrulandı: **66.816 = 66.816 ✓**
+
+## ② Izgara vektörleştirme — YAZILDI
+4,74M `prep.contains(Point)` → satır satır `shapely.contains_xy`.
+```
+189.600 hücrelik örnek: FARKLI HÜCRE = 0  ✓ birebir aynı maske
+hız 25,7×  ·  tam ızgara ~170 sn → ~7 sn  (aşama 3dk 20sn → ~10 sn)
+```
+
+## Taban 57 → 48
+Koşu ölçtü, çift yönlü nöbetçinin ALT dalı yakaladı. Ayrıntı §⑥.
+
+## Beklenen bir sonraki koşu
+```
+75,7 dk − ızgara ~3 dk = ~73 dk
+```
+⚠️ ①/②/taban üçü de yalnız `print` ve maske **birebir aynı** ölçüldü;
+`denetle.py` çıktısı değişmemeli.

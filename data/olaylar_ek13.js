@@ -336,4 +336,69 @@ window.OLAYLAR_EK13 = [
   d:"TDV'nin kaydına göre \"21 Mayıs 1861'de İngiltere ile Bahreyn'i temsilen Şeyh Muhammed'in kardeşi Ali, bölgede köle ticaretini ve korsanlığı meneden bir anlaşma imzaladılar\"; İngiliz belgelerinde aynı antlaşma (Perpetual Truce of Friendship and Peace) 31 Mayıs 1861 tarihini taşır. Antlaşma Bahreyn'in dış ilişkilerini İngiltere'ye bağlayan himaye düzeninin ilk halkasıdır ve ada, Osmanlı'nın 1871'de Lahsa ile Katîf'e yeniden yerleşmesinden sonra da bu düzenin dışında kaldı. ⚠️ İki tarih arasındaki on günlük fark bu turda çözülemedi; atlas bugün 31 Mayıs'ı taşıyor.",
   kaynak:"bahreyn" },
 
+// ===========================================================================
+// İŞ ④ — MARDİN ÇELİŞKİSİ (PETEK/NOKTA'nın iddia denetiminden)
+// ===========================================================================
+// Koordinatörün sorusu: "Koçhisar 1516'da mı 1517'de mi? Mardin kalesi
+// şehirden sonra mı düştü — yani ikisi de doğru olabilir mi?"
+// CEVAP: 🟢 EVET, ikisi de doğru olabilir — ÇÜNKÜ AYNI OLAYA AİT DEĞİLLER.
+//
+// ── ÖLÇÜM ───────────────────────────────────────────────────────────────────
+//   veri  Mardin  safevi 1507-01-01 → 1517-05-01 · OSMANLI 1517-05-01 →
+//   veri  Urfa    safevi 1507-01-01 → 1516-05-01 · OSMANLI 1516-05-01 →
+//   madde 1516-05-01 "Koçhisar (Kızıltepe) Savaşı ve Mardin ile Urfa'nın fethi"
+//   ⇒ URFA maddeyle UYUŞUYOR. Ayrışan yalnız MARDİN — ve madde ikisini
+//     TEK BAŞLIKTA anıyor. Kusur veride değil, MADDENİN KAPSAMINDA.
+//
+// ── TDV TURU — iki slug 🟢, biri ÖLÜ ────────────────────────────────────────
+//   /mardin                🟢 CANLI  "MARDİN - TDV İslâm Ansiklopedisi"
+//   /biyikli-mehmed-pasa   🟢 CANLI  "BIYIKLI MEHMED PAŞA - TDV İslâm …"
+//   /koc-hisar             🔴 MADDE YOK — arama 36 içerik eşleşmesi, 0 başlık.
+//                             Koçhisar müstakil madde DEĞİL. `kaynak:` yazılmadı.
+//
+// ── İKİ TDV MADDESİ NE DİYOR ────────────────────────────────────────────────
+//   TDV mardin (birebir):
+//     "…Bıyıklı Mehmed Paşa idaresindeki Osmanlı ordusu Koçhisar (bugünkü
+//      Kızıltepe) yakınlarında Dede Garkın sahrasında Koruk mevkiinde Kara
+//      Han'ı yendi (MAYIS 1516)."
+//     "Fakat Safevî kuvvetleri KALEYE ÇEKİLDİ (EKİM 1515)."
+//     şehrin zaptı: "1516 SONLARINDA (VEYA MAYIS 1517) burayı zaptetti"
+//   TDV biyikli-mehmed-pasa (birebir):
+//     "Koçhisar yakınlarında Dede Garkın sahrasında vuku bulan ve bütün gün
+//      süren savaşta Kara Han'ın başı kesildi ve ordusu dağıldı (MAYIS 1516)."
+//     "Bu arada Mardin şehri de fethedildi, fakat KALESİ ANCAK DOKUZ AY SONRA
+//      teslim alındı."
+//
+// ── HÜKÜM ───────────────────────────────────────────────────────────────────
+//   ① KOÇHİSAR SAVAŞI = MAYIS 1516. Kümenin EN SAĞLAM olgusu; İKİ TDV maddesi
+//     de aynı ayı veriyor. ⇒ Mevcut maddenin `t:"1516-05-01"`i DOĞRU.
+//   ② MARDİN KALESİ ŞEHİRDEN SONRA DÜŞTÜ — koordinatörün hipotezi TUTTU.
+//     Safevîler Ekim 1515'te kaleye çekildi; kale "ancak dokuz ay sonra"
+//     teslim oldu. Şehir ile kale AYRI TARİHLERDE düştü.
+//   ③ ⚠️ AMA TDV KENDİ İÇİNDE TEREDDÜTLÜ ve iki madde birbiriyle de ayrışıyor:
+//        mardin                : şehrin zaptı "1516 sonları VEYA Mayıs 1517"
+//        biyikli-mehmed-pasa   : şehir erken, kale "dokuz ay sonra"
+//     Bu ikisi tek bir takvime oturmuyor. ⇒ Verideki `1517-05-01`,
+//     TDV `mardin`in PARANTEZ İÇİ İKİNCİ OKUMASINA ("veya Mayıs 1517")
+//     karşılık geliyor — yani veri UYDURMA DEĞİL, ama TDV'nin ilk tercihi de değil.
+//   ⇒ 🔴 KARAR KOORDİNATÖRÜN. Ben iki okumayı da yazdım, seçmedim.
+//
+// ── 🔴 ASIL KUSUR: MARDİN'İN KIRILMASI YANLIŞ MADDENİN ALTINDA BELİRİYOR ────
+//   `1517-05-01` kırılmasına en yakın maddeler bugün:
+//        1517-04-18  "Portekiz donanmasının Cidde'ye saldırısı"     13 gün
+//        1517-05-19  "İskenderiye'nin donanmayla teslim alınması"   18 gün
+//   İkisi de ±30 gün içinde ⇒ DEĞİŞMEZ 2 TEMİZ RAPORLUYOR. Ama kullanıcı
+//   Mardin'in fethini Kızıldeniz ya da İskenderiye maddesinin altında görüyor —
+//   `CLAUDE.md §3`'ün "değişim, o güne rastgele denk gelen alakasız bir
+//   maddenin altında belirir — kullanıcının en çok şikâyet ettiği hata bu"
+//   dediği şeyin ta kendisi. Denetim temiz, gösterim yanlış.
+//   ⇒ A-20 bu boşluğu kapatır.
+
+{ t:"1517-05-01", k:"fetih", etiket:["toprak-kazanc"],
+  b:"Mardin kalesinin teslimi — Diyarbekir'in güneyinde Safevî direncinin sonu",
+  gun:"Mayıs 1517 (TDV `mardin`: şehrin zaptı \"1516 sonlarında VEYA Mayıs 1517\"; TDV `biyikli-mehmed-pasa`: şehir alındı, \"kalesi ancak dokuz ay sonra teslim alındı\". Gün hiçbirinde YOK)",
+  yer:"Mardin, Diyarbekir", kisiler:"Bıyıklı Mehmed Paşa, Kara Han (Safevî valisi)",
+  d:"Çaldıran'dan sonra Diyarbekir bölgesine yürüyen Bıyıklı Mehmed Paşa Mardin'i kuşattığında Safevî kuvvetleri Ekim 1515'te kaleye çekildi; şehir Osmanlı eline geçtiği hâlde kale direndi. Safevî valisi Kara Han'ın takviyeyle karşı taarruza geçmesi Mayıs 1516'daki Koçhisar (Kızıltepe) Savaşı'yla sonuçlandı — Dede Garkın sahrasında bütün gün süren muharebede Kara Han'ın başı kesildi ve ordusu dağıldı. Kale ise TDV'nin ifadesiyle \"ancak dokuz ay sonra\" teslim oldu; TDV `mardin` maddesi zaptı \"1516 sonlarında (veya Mayıs 1517)\" diye iki okumayla verir. ⚠️ Bu madde, atlasın Mardin için taşıdığı 1517 Mayıs tarihinin karşılığıdır ve Koçhisar Savaşı maddesinden (1516-05-01) AYRI bir olaydır: biri meydan muharebesi, öteki kalenin teslimi. İkisi bir yıl arayla durur ve ikisi de doğrudur.",
+  kaynak:"mardin" },
+
 ];

@@ -1606,3 +1606,53 @@ Don Kazak Ordası kimliği                     hücre 8 · 10          → VERİ
 Mardin 1516 mı 1517 mi                       bir yıl çelişki       → ÇAPRAZ
 Hamâd'ın 1517-1557 penceresi (Kızıldeniz)    sahibi yazılmalı      → §3.5.1
 ```
+
+---
+---
+
+# PARTİ 10 — `ek3` uyuyan çatışma uyandırdı mı? **HAYIR** (ölçüldü)
+
+## Yöntem
+Komşuluk grafiği `renk_olc.komsuluk()`ün birebir kopyasıyla **iki kez** kuruldu
+— `ek3` ile ve `ek3` olmadan — sonra kimlik çiftleri diff'lendi ve her yeni
+çiftin ΔE'si `renk_olc.dE()` (CIE76, bindirilmiş hex) ile hesaplandı.
+`ek3` = 9 nokta: Sebte · Melîle · Mersa'l-Kebîr · Yediçkul · Camboyluk +
+Oturum 0'ın Portekiz Fası dördü (Arzila · Azemmûr · Mazagan · Safi).
+
+## SONUÇ
+```
+ΔE<12 ÇATIŞMA SAYISI    ek3 YOKken 55  →  ek3 VARken 55     fark +0
+kimlik çifti            1595 → 1596
+ek3'ün ürettiği YENİ çift: 2
+   ✓ ΔE 44,48  OSMANLI ↔ altinorda   (tanık Azak ↔ Camboyluk bozkırı)
+   ✓ ΔE 31,17  granada ↔ portekiz    (tanık Sebte ↔ Cebelitarık)
+```
+🟢 **`ek3` hiçbir uyuyan çatışmayı uyandırmadı.** İki yeni komşuluk da eşiğin
+çok üstünde. `renk_olc`un 56'sı ile RENK'in 55'i arasındaki fark **bu partiden
+gelmiyor** — komşuluk ΔE<12 sayımı bu partiyle ve bu parti olmadan aynı: 55.
+⚠️ Kalan farkın kaynağı bende ölçülemez: `renk_olc` ayrıca `ALTLIK` (eşik 15)
+ve `ayni_anahtar` / `ayni_hex` kör noktalarını da sayıyor; ben yalnız
+**komşu çifti ΔE<12** kolonunu ölçtüm. Fark muhtemelen sayım kapsamında,
+yeni bir çatışmada değil — ama bunu RENK doğrulamalı.
+
+## 🔴 YİNE DE RENK'E BİR ŞEY VAR — `altinorda ↔ lehistan` ΔE **8,37**
+```
+tanık: Poltava ↔ Camboyluk bozkırı
+```
+Bu çift `ek3`ten ÖNCE de vardı — yani **uyandırılmadı**. Ama `Camboyluk
+bozkırı` ona **yeni bir tanık** ekledi: Karadeniz kuzeyi bozkırında iki
+kimliğin paylaştığı sınır artık daha uzun, dolayısıyla çatışma haritada
+**daha görünür**. Uyuyan çatışma değil, **derinleşen** çatışma.
+📌 Bu, RENK'in "uyanma olasılığı" modeline eksik bir boyut ekliyor: bir merge
+yalnız yeni çift DOĞURMAKLA zarar vermez, **var olan çiftin sınırını
+uzatarak** da verir. İkincisini bugünkü ölçüt saymıyor.
+
+## ⚠️ KARŞI-OLGU PÜRÜZÜ — ölçümün kendi sınırı
+"ek3 olmadan" hâli **temiz bir karşı-olgu değil**: bir nokta çıkarılınca peteği
+komşularına dağılır ve o komşular **birbirine değmeye başlar.** Ölçüldü:
+```
+ek3 çıkarılınca DOĞAN çift: 1 → ceneviz ↔ lehistan (ΔE 21,34, Kerç ↔ Poltava)
+```
+Yani "+2 yeni çift" ile "toplam +1" arasındaki fark bu. Diff yorumlanırken
+**iki yön birden** okunmalı; tek yön okunursa nokta eklemenin etkisi olduğundan
+büyük görünür.

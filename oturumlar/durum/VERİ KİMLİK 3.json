@@ -1,6 +1,6 @@
 {
  "ad": "VERİ KİMLİK 3",
  "hal": "hazir",
- "not": "DON KAZAK taslagi hazir: oturumlar/KIMLIK-DON-KAZAK.md. 'yok' iddiasi bu sefer OLCULDU - gercekten yok. Renk #429cba (turkuaz): zaporojye'den 23.2, en dar marj 19.6 (esik 12), zeminden 23.6 (esik 15). Kaynak TDV azak maddesi (1637 fetih, 1641 kusatma, 1642 cekilis). Onerilen pencere 1570-1721 + tabi:rusya 1671'den. UYARI 1: komsu listendeki 'kalmuk' de YOK - Volga Kalmuk Hanligi (1630-1771) eksik kimlik, Don'un dogu komsusu. UYARI 2: PALET DOYDU, olculdu - havuzdaki hicbir aday palet geneline 4.6'dan fazla acamiyor. Kilit korundu.",
- "damga": "2026-08-03 13:08"
+ "not": "devletler.js YAZILDI (302 kayit): don-kazak kunyesi + 52 KOPRU satiri. renkler.py'ye DOKUNMADIM (RENK'in). Kapsama: denetlenebilen kimlik 172->225, denetlenemeyen 97->45, denetime giren donem +1040, kapsama %76->%94. 24 GIZLI HAYALET ortaya cikti (meysur 124y, maratha 105y, navarra 108y...) - cogunda VERI degil KUNYE dar, hicbirini tek tarafli duzeltmedim, karar gerekiyor. don-kazak RENGI RENK'ten bekleniyor (onerim #429cba, olcusu KIMLIK-DON-KAZAK.md). 2t 52->61 BENDEN DEGIL: defter r724'un CAPRAZ IBERYA maddelerini gosteriyor.",
+ "damga": "2026-08-03 14:15"
 }

@@ -2487,8 +2487,16 @@ document.getElementById("detay-git").addEventListener("click", function () {
 
 // ---------- Dizin penceresi (kişiler / savaşlar / antlaşmalar / seriler) ----------
 var dizinPencere = document.getElementById("dizin");
+// p2/H-0010 (denetim, 3 Ağustos) — kullanıcının kendi cümlesiyle "sessiz
+// kayıp" sınıfı: mimar (4) ve edebiyatçı (4) kayıtları kisiler.js'te VARDI
+// ama burada tanımlı olmadıkları için bu sekmede HİÇ görünmüyorlardı —
+// veri doğru, ekran eksikti. `dizinDoldur`deki döngü yalnız bu sözlüğün
+// KENDİ anahtarlarını geziyor (`Object.keys(TUR_ADI)`), yani kisiler.js'te
+// yeni bir `tur` değeri açılırsa buraya da eklenmesi ŞART — aksi hâlde
+// aynı sessiz kayıp tekrarlanır.
 var TUR_ADI = { padisah:"Padişahlar", sadrazam:"Sadrazamlar", "vezir-pasa":"Vezirler ve Paşalar",
-  komutan:"Komutanlar", denizci:"Denizciler", alim:"Âlimler", hanedan:"Hanedan",
+  komutan:"Komutanlar", denizci:"Denizciler", alim:"Âlimler", mimar:"Mimarlar",
+  edebiyatci:"Edebiyatçılar", hanedan:"Hanedan",
   "yabanci-hukumdar":"Yabancı Hükümdarlar", "yabanci-komutan":"Yabancı Komutanlar", siyasi:"Siyasî Figürler" };
 
 function dizinDoldur(sekme) {
@@ -2575,12 +2583,49 @@ function dizinDoldur(sekme) {
               function () { dizinPencere.classList.add("gizli"); tarihAyarla(gunIdx(d.f)); });
       });
     });
+  } else if (sekme === "kartvizitler") {
+    // PADISAH-KARTVIZITI.md — "kart sessizce kaybolamaz." Bu sekme K1-K5
+    // kademelerindeki HERKESİ listeler; `vefat_id` çözülen satır tıklanıp
+    // o maddeye götürüyor, çözülemeyen satır TIKSIZ kalıyor ama SİLİNMİYOR
+    // — sağ sütunda "henüz kronolojiye bağlanmadı" yazıyor. Kırpma yok ·
+    // boş alan yok · kayıp satır yok, aynı ilkenin üçüncü görünümü
+    // (oturumlar/ARAYUZ-3-SARTNAME.md § "çapasız kart").
+    if (!VEFAT_INDEX) vefatIndexKur();
+    var K1 = (window.PADISAHLAR || []).filter(function (p) { return !p.ozel; })
+      .filter(function (p, i, a) { return a.findIndex(function (q) { return q.id === p.id; }) === i; });
+    var KV_KADEME = [
+      { ad: "K1 — Padişahlar", kisi: K1 },
+      { ad: "K2 — Taht mücadelesini kaybedenler", kisi: (window.KISILER || []).filter(function (k) { return k.tur === "sehzade"; }) },
+      { ad: "K3 — Vâlide sultanlar ve hanedan kadınları", kisi: (window.KISILER || []).filter(function (k) { return k.tur === "valide" || k.tur === "hanedan"; }) },
+      { ad: "K4 — Sadrazamlar", kisi: (window.KISILER || []).filter(function (k) { return k.tur === "sadrazam"; }) },
+      { ad: "K5 — Komutanlar ve denizciler", kisi: (window.KISILER || []).filter(function (k) { return k.tur === "komutan" || k.tur === "denizci"; }) }
+    ];
+    KV_KADEME.forEach(function (grp) {
+      if (!grp.kisi.length) return;
+      var bagli = grp.kisi.filter(function (k) { return !!VEFAT_INDEX[k.id]; }).length;
+      baslik(grp.ad + " (" + bagli + "/" + grp.kisi.length + " bağlı)");
+      grp.kisi.forEach(function (k) {
+        var orta = k.donem || ((k.from && k.to) ? k.from + " → " + k.to : "");
+        var madde = VEFAT_INDEX[k.id];
+        if (madde) {
+          satir(k.ad, orta, idxYazi(madde.gi),
+                function () { dizinPencere.classList.add("gizli"); tarihAyarla(madde.gi); obGoster(madde); });
+        } else {
+          satir(k.ad, orta, "henüz kronolojiye bağlanmadı");
+        }
+      });
+    });
   } else {
     (window.SERILER || []).forEach(function (s) {
       var say = (window.SAVASLAR || []).filter(function (x) { return x.seri === s.id; }).length;
       satir(s.aralik, s.ad + (say ? " (" + say + " kayıtlı muharebe)" : ""), s.ozet);
     });
   }
+}
+var VEFAT_INDEX = null;
+function vefatIndexKur() {
+  VEFAT_INDEX = {};
+  olaylar.forEach(function (o) { if (o.vefat_id) VEFAT_INDEX[o.vefat_id] = o; });
 }
 // p2/H-0010 — kullanıcı: "Hakkında butonuna artık gerek yok." Bütün
 // hakkindaKur/bekleyenTablo mekanizması ve #hakkinda modalı (proje künyesi +
@@ -2961,6 +3006,81 @@ function padisahBul(t) {
   return null;
 }
 
+// ---------- Kartvizit — PADISAH-KARTVIZITI.md ----------
+// ⚠️ İsimden eşleştirme YAPILMIYOR (kisiBul/padisahEslesmesi bulanık —
+// kartvizit 1-1 ve kesin bir bağ istiyor). `vefat_id`, önce PADISAHLAR'de
+// sonra KISILER'de aranır; id alanları zaten benzersiz, tek fonksiyon
+// iki kaynağı okuyor (oturumlar/ARAYUZ-3-SARTNAME.md §1).
+function vefatKisiBul(id) {
+  if (!id) return null;
+  var i;
+  for (i = 0; i < window.PADISAHLAR.length; i++) if (window.PADISAHLAR[i].id === id) return window.PADISAHLAR[i];
+  for (i = 0; i < (window.KISILER || []).length; i++) if (window.KISILER[i].id === id) return window.KISILER[i];
+  return null;
+}
+// Portre yoksa (K2-K5 için bugün hep böyle — hiç portre klasörü yok)
+// kişinin TÜRÜNE göre bir rozet: boş bir "?" yerine kişinin ne olduğunu
+// anlatan bir simge (mevcut savaş/antlaşma rozet mantığının aynısı).
+var KARTVIZIT_ROZET = { padisah: "☾", sadrazam: "🕌", "vezir-pasa": "🕌",
+  komutan: "⚔", denizci: "⚓", hanedan: "👑", alim: "📖", edebiyatci: "📖",
+  mimar: "🏛", siyasi: "🕌" };
+
+var obKartvizit = document.getElementById("ob-kartvizit");
+function kartvizitGuncelle(o) {
+  if (!obKartvizit) return;
+  if (!o.vefat_id) { obKartvizit.classList.add("gizli"); return; }
+  var k = vefatKisiBul(o.vefat_id);
+  if (!k) { obKartvizit.classList.add("gizli"); return; }   // id bozuk/silinmiş — sessizce göstermiyoruz, veri hatası ayrı denetimin işi
+  obKartvizit.classList.remove("gizli");
+
+  var kunye = obKartvizit.querySelector(".kv-kunye");
+  var satirlar = [];
+  if (k.dogum) satirlar.push("Doğum: " + k.dogum + (k.dogum_yer ? " · " + k.dogum_yer : ""));
+  if (k.olum) satirlar.push("Ölüm: " + k.olum + (k.olum_yer ? " · " + k.olum_yer : "") + (k.olum_sebep ? " (" + k.olum_sebep + ")" : ""));
+  if (k.baba) satirlar.push("Baba: " + k.baba);
+  if (k.anne) satirlar.push("Anne: " + k.anne);
+  if (k.tahta) satirlar.push("Tahta çıkış: " + k.tahta + (k.yas_tahta ? " (yaş " + k.yas_tahta + ")" : ""));
+  if (k.saltanat_yil) satirlar.push("Saltanat: " + k.saltanat_yil + " yıl");
+  if (k.lakap && k.lakap.length) satirlar.push("Lakap: " + k.lakap.join(", "));
+  if (k.unvan && k.unvan.length) satirlar.push("Unvan: " + k.unvan.join(", "));
+  kunye.textContent = satirlar.join("  ·  ");
+
+  var magazin = obKartvizit.querySelector(".kv-magazin");
+  var mSatir = [];
+  if (k.esler && k.esler.length) mSatir.push("Eşleri: " + k.esler.join(", "));
+  if (k.cocuk) mSatir.push("Çocukları: " + [k.cocuk.oglan ? k.cocuk.oglan + " oğlan" : "",
+    k.cocuk.kiz ? k.cocuk.kiz + " kız" : ""].filter(Boolean).join(", "));
+  magazin.textContent = mSatir.join("  ·  ");
+  if (k.skandal) {
+    var sk = document.createElement("div");
+    sk.className = "kv-skandal";
+    sk.textContent = k.skandal;
+    magazin.appendChild(sk);
+  }
+
+  // "Nasıl bilirdiniz" — kartın kalbi. `ovgu` alanının varlığı, kartvizit
+  // METNİNİN yazılıp yazılmadığının ölçütü (künye önce, içerik sonra
+  // gelebilir — oturumlar/ARAYUZ-3-SARTNAME.md "çapasız kart" §B).
+  var nb = obKartvizit.querySelector(".kv-nasil-bilirdiniz");
+  if (k.ovgu || k.yergi || k.tartisma) {
+    nb.classList.remove("kv-eksik");
+    setKv(".kv-ovgu", "Övgü", k.ovgu);
+    setKv(".kv-yergi", "Yergi", k.yergi);
+    setKv(".kv-tartisma", "Tartışma", k.tartisma);
+    setKv(".kv-tarihciler", "Tarihçiler", k.tarihciler);
+  } else {
+    // Boş alan yok, NİÇİN boş var — künye hazır ama "nasıl bilirdiniz"
+    // henüz yazılmamışsa bu AÇIKÇA söylenir, bölüm sessizce boş kalmaz.
+    nb.classList.add("kv-eksik");
+    nb.querySelector(".kv-ovgu").textContent = "Bu kişinin kartviziti henüz yazılmadı.";
+    setKv(".kv-yergi", "", ""); setKv(".kv-tartisma", "", ""); setKv(".kv-tarihciler", "", "");
+  }
+  function setKv(sec, etiket, metin) {
+    var el = nb.querySelector(sec);
+    el.textContent = metin ? etiket + ": " + metin : "";
+  }
+}
+
 function obGoster(o) {
   document.getElementById("ob-tarih").textContent = o.gun || idxYazi(o.gi);
   document.getElementById("ob-baslik").textContent = o.b;
@@ -2974,17 +3094,30 @@ function obGoster(o) {
   // Görsel: olayda adı geçen padişah varsa onun portresi, yoksa dönemin padişahı
   var gorsel = document.getElementById("ob-gorsel");
   gorsel.innerHTML = "";
+  // p4/H-0015 kuralının BİLEREK İSTİSNASI (PADISAH-KARTVIZITI.md): vefat
+  // maddesi kişinin KENDİSİ hakkında, o günün padişahı hakkında değil —
+  // Fatih'in ölüm maddesinde dönemin padişahı ARTIK II. Bayezid'dir ama
+  // portre yine Fatih'in olmalı. `vefat_id` varsa bulanık yola hiç girilmez.
+  var vefatKisi = o.vefat_id ? vefatKisiBul(o.vefat_id) : null;
   var pad = null;
-  if (o.kisiler) {
-    var adlar = o.kisiler.split(",");
-    for (var i = 0; i < adlar.length && !pad; i++) pad = padisahEslesmesi(adlar[i]);
+  if (vefatKisi) {
+    pad = vefatKisi;
+  } else {
+    if (o.kisiler) {
+      var adlar = o.kisiler.split(",");
+      for (var i = 0; i < adlar.length && !pad; i++) pad = padisahEslesmesi(adlar[i]);
+    }
+    if (!pad) pad = padisahBul(o.gi);
   }
-  if (!pad) pad = padisahBul(o.gi);
   if (pad && !pad.ozel) {
     var img = new Image();
     img.src = "assets/portreler/" + pad.id + ".jpg";
     img.alt = pad.ad;
-    img.onerror = function () { gorsel.innerHTML = '<span class="ob-rozet">☾</span>'; };
+    // Portre yoksa (K2-K5'te bugün hep böyle) boş bir "?" değil, kişinin
+    // TÜRÜNE göre bir rozet — vefat_id yolundaysa `tur` alanından, aksi
+    // hâlde padişah her zaman aynı ay simgesini kullanır (eski davranış).
+    var rozetGlif = vefatKisi ? (KARTVIZIT_ROZET[vefatKisi.tur] || "☾") : "☾";
+    img.onerror = function () { gorsel.innerHTML = '<span class="ob-rozet">' + rozetGlif + '</span>'; };
     gorsel.appendChild(img);
     var alt = document.createElement("div");
     alt.className = "ob-gorsel-ad";
@@ -3040,6 +3173,7 @@ function obGoster(o) {
     a.textContent = "📖 TDV İslâm Ansiklopedisi";
     ozel.appendChild(a);
   }
+  kartvizitGuncelle(o);
   ekOkumaButonlariGuncelle(o);
   obPanel.classList.remove("gizli");
 }

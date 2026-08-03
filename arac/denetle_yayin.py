@@ -405,8 +405,19 @@ def cizilmiyor_mu():
             # HİÇBİR ŞEYE eşleşmedi: araç 37 bulgu verdi, PETEKLER ve DONEMLER
             # dahil - app.js onları apaçık okuyor. Sayı MAKUL GÖRÜNÜYORDU.
             # Bugünün dördüncü "yanlış ayrıştırma, makul sayı" vakası.
-            okunuyor = re.search(r"(?<![A-Za-z0-9_])" + re.escape(ad)
-                                 + r"(?![A-Za-z0-9_])", app) is not None
+            # p2/H-0010 (koordinatör, 3 Ağustos) — EN SON YANLIŞ ALARM:
+            # YERLESIMLER_EK2/EK3/KIRIM/SEYREK eklendiğinde araç dördünü de
+            # "çizilmiyor" diye işaretledi; hepsi index.html:216-225'teki
+            # concat zincirinde GERÇEKTEN tüketiliyordu, araç yalnız app.js'e
+            # bakıyordu. Önceki beş parti (AFRIKA/AVRUPA/ASYA/EK/ORTAASYA2)
+            # için çözüm CIZILMEYEN_MUAF'a elle satır eklemekti — ama bu HER
+            # yeni parti dosyasında AYNI yanlış alarmı tekrarlıyordu (tam da
+            # bu koşuda oldu). Kalıcı çözüm: index.html'in KENDİSİ de aranır
+            # — merge bloğu adı ('window.YERLESIMLER_EK2 || []') OLDUĞU GİBİ
+            # taşıyor, aynı kelime-sınırı testi ona da uygulanabilir.
+            AD_DESENI = r"(?<![A-Za-z0-9_])" + re.escape(ad) + r"(?![A-Za-z0-9_])"
+            okunuyor = (re.search(AD_DESENI, app) is not None
+                        or re.search(AD_DESENI, html) is not None)
             # (c) index.html dosyayı yüklüyor mu
             yukleniyor = os.path.basename(yol) in html
             # MUAFİYET yalnız "okunmuyor/yüklenmiyor" testlerini susturur.

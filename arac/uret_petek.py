@@ -128,13 +128,44 @@ def sayac(ad, sn, n=1):
     r[0] += n; r[1] += sn
 
 
-def ilerleme(i, n, her, etiket):
-    """Uzun döngüde ilerleme satırı — kalan süre tahminiyle."""
+def ilerleme(i, n, her, etiket, kum=None):
+    """Uzun döngüde ilerleme satırı — kalan süre tahminiyle.
+
+    🔴 `kum` VERİLMEZSE TAHMİN DOĞRUSALDIR VE YANILTIR. Yaşandı (3 Ağustos
+    2026): yabancı gövde döngüsünde `devlet 10/226` satırı "tahminî kalan
+    1s 41dk" bastı, gerçek 33dk 41sn çıktı — 3 kat. Koordinatör o satıra
+    bakıp yayın saatini 15:00 diye duyurmaya hazırlanıyordu.
+    Sebep: döngü adımları EŞİT MALİYETLİ DEĞİL. Ölçüldü — ilk 10 devlet
+    gövdelerin %14,7'si ama işin %27,3'ü.
+
+    `kum` = adım başına KÜMÜLATİF iş (uzunluk n+1). Verilirse tahmin işe
+    göre ağırlıklanır.
+
+    ÖLÇÜLMÜŞ İSABET — yeni tahmin kosu3'e GERİYE DÖNÜK uygulandı
+    (gerçek 33,7 dk):
+        adım      doğrusal      iş ağırlıklı
+          10        +215%            −49%
+          20        +421%            −16%
+          30        +440%             +7%
+          40-80  +114…+318%        +4…+5%
+    ⚠️ İLK KONTROL NOKTASI YİNE GÜVENİLMEZ ve sebebi ölçüldü: ilk devletler
+    hücre başına 0,0155 sn ile ilerliyor, kararlı hız 0,0300 — oran ancak
+    ~%25 ilerlemede oturuyor. Yani bu satır "%10'da ne dediyse o" diye
+    okunmaz; **ilk iki satırı atla, üçüncüden itibaren ±%5 güven.**
+    📌 Doğrusal tahminin hiçbir noktada yakınsamadığına dikkat: sorun
+    "erken olması" değildi, ÖLÇÜTÜN YANLIŞ olmasıydı.
+    """
     if i % her and i != n: return
     gec = time.time() - _ASAMA_T
-    kalan = gec / max(i, 1) * (n - i)
-    print(f"      {etiket} {i}/{n}  geçen {_sure(gec)}  tahminî kalan "
-          f"{_sure(kalan)}")
+    if kum is not None and kum[n] > 0 and kum[i] > 0:
+        pay = kum[i] / kum[n]
+        kalan = max(gec / pay - gec, 0.0)
+        print(f"      {etiket} {i}/{n}  geçen {_sure(gec)}  iş %{pay*100:.0f}"
+              f"  tahminî kalan {_sure(kalan)}")
+    else:
+        kalan = gec / max(i, 1) * (n - i)
+        print(f"      {etiket} {i}/{n}  geçen {_sure(gec)}  tahminî kalan "
+              f"{_sure(kalan)} ⚠️doğrusal")
 
 
 def asama_ozet():
@@ -769,13 +800,24 @@ asama(f"Kara-kısıtlı sahiplik: ızgara {KV_ADIM}° kuruluyor")
 _kvx0, _kvy0, _kvx1, _kvy1 = BOLGE.bounds
 _kvnx = int(round((_kvx1 - _kvx0) / KV_ADIM))
 _kvny = int(round((_kvy1 - _kvy0) / KV_ADIM))
-_kvkp = prep(KARA)
+_kvkp = prep(KARA)          # aşağıda LineString sınamasında da kullanılıyor
+# ⚠️ VEKTÖRLEŞTİRİLDİ — MOTOR 3, 3 Ağustos 2026.
+# Eski hâli 4,74 milyon ayrı `_kvkp.contains(Point(...))` çağrısıydı ve aşama
+# bilançosunda 3dk 20sn tutuyordu (koşunun %4,4'ü) — ızgara kurulumu, faz-1'in
+# çöl tavanından sonraki en pahalı kalemiydi. `shapely.contains_xy` AYNI GEOS
+# yüklemini dizi üzerinde koşturur.
+# ÖLÇÜLDÜ (scratchpad, 60 satır × 3.160 = 189.600 hücre): FARKLI HÜCRE = 0,
+# yani birebir aynı maske; hız 25,7× (6,78 sn → 0,26 sn), tam ızgara ~170 sn → ~7 sn.
+# 📌 Satır satır çağrılıyor: 4,74M'lik tek dizi ~76 MB ara bellek isterdi,
+# satır başına 3.160 nokta hem hızın tamamını verir hem belleği düz tutar.
+import numpy as _np
+shapely.prepare(KARA)
+_kvxs = _kvx0 + (_np.arange(_kvnx) + 0.5) * KV_ADIM
 _kvkara = bytearray(_kvnx * _kvny)
 for _j in range(_kvny):
     _lat = _kvy0 + (_j + 0.5) * KV_ADIM
-    for _i in range(_kvnx):
-        if _kvkp.contains(Point(_kvx0 + (_i + 0.5) * KV_ADIM, _lat)):
-            _kvkara[_j * _kvnx + _i] = 1
+    _kvkara[_j * _kvnx:(_j + 1) * _kvnx] = shapely.contains_xy(
+        KARA, _kvxs, _np.full(_kvnx, _lat)).astype(_np.uint8).tobytes()
 print(f"  ızgara {_kvnx}×{_kvny} = {_kvnx*_kvny:,} hücre, "
       f"kara {sum(_kvkara):,}")
 
@@ -958,7 +1000,15 @@ if len(_kvdegisen) > 20:
 #    "taban gevşek, şu sayıya çek" der. Bu deponun tekrarlayan hastalığı
 #    ölçülmüş bir sabitin motor altından değişince yeniden ölçülmemesi; çift
 #    yönlü nöbetçi tam onu yakalar.
-BOZUK_KIYI_TABAN = 57
+# 🔴 57 → 48: İLK KOŞU ÖLÇTÜ VE BENİ DÜZELTTİ (kosu3.log, 12:49:39).
+# 57 türetilmiş bir sayıydı — çöl tavanı SONRASI çıktıyı sınıflandırarak
+# bulunmuştu, oysa nöbetçi tavandan ÖNCE duruyor. Aradaki 9 kenar 'kıyı'
+# gibi görünüp aslında tavanın açtığı kenarlarmış; yani çöl tavanının payı
+# 73 değil 82. Çift yönlü nöbetçinin ALT dalı bunu ilk koşuda yakaladı:
+#   'çöl tavanı ÖNCESİ örtü: 48 bozuk kenar (taban 57) ✓ — TABAN GEVŞEK'
+# ⚠️ Tek yönlü bir nöbetçi burada sessiz '✓' basar, taban 57'de kalır ve
+# 48-57 arasındaki her gerçek regresyon görünmez olurdu.
+BOZUK_KIYI_TABAN = 48
 
 # 🔴 NÖBETÇİ BURADA — ÇÖL TAVANINDAN ÖNCE. Bu çağrı, taban 32'yi üreten r217
 # koşusuyla AYNI ölçümdür (kıyı kesimi + ada kuralı + kara-kısıtlı sahiplik
@@ -1804,8 +1854,56 @@ DEV_HAVUZ, DEV_IX = [], {}
 # ⚠️ BU BLOK 3 SAAT 42 DAKİKA BOYUNCA TEK SATIR BASMIYORDU (r-öncesi koşu,
 # 01:56 → 05:38). Log sessiz kalınca "takıldı mı, ilerliyor mu" sorusunun
 # cevabı yoktu ve üç oturum boş yere bekledi. İlerleme satırı bu yüzden var.
+#
+# ---- ETA AĞIRLIĞI (yalnız `ilerleme()` için — ÇIKTIYA GİRMEZ) ----
+# 🔴 NİÇİN: doğrusal tahmin bu döngüde 3 kat yanıldı ve bir yayın saatinin
+# yanlış duyurulmasına ramak kaldı (bkz. ilerleme() başlığı). Ağırlık, o
+# devletin kuracağı HÜCRE-BİRLEŞİMİ sayısıdır — süreyi açıklayan değişkenin
+# bu olduğu 23 kontrol noktasıyla ölçüldü: hücre R²=0,96 · gövde R²=0,51.
+#
+# ⚠️ BU BLOK AŞAĞIDAKİ DÖNGÜNÜN SET MANTIĞINI TEKRARLIYOR ve bu bilinçli bir
+# ödün. Döngüyü ikiye bölüp (önce plan, sonra geometri) tekrarı kaldırmak
+# denendi ve BIRAKILDI: dönem birleştirme ölçütü `aktif == onceki and dnm`,
+# yani set mantığı GEOMETRİ SONUCUNA bağlı (`dnm` yalnız gövde boş çıkmayınca
+# büyüyor). Ayırmak çıktıyı değiştirebilirdi; "hiçbir çıktı değişmemeli"
+# kuralı tekrarı kabul etmekten daha ağır bastı.
+# 📌 ARIZA BİÇİMİ ZARARSIZ: bu blok ana döngüden saparsa TAHMİN bozulur,
+#    ÇIKTI bozulmaz — burada üretilen tek şey bir yüzde.
+# 📌 `devir_kumesi()` KASTEN çağrılmıyor: ağırlığın mutlak doğruluğu değil
+#    ORANI önemli, ve onu çağırmak "aşamanın maliyetini ölçmek için aşamayı
+#    koşturmak" olurdu.
+_DV_KUM = [0]
+for _wdid in BOYALAR:
+    _whj = [j for j, y in enumerate(YERLER) if any(sp["d"] == _wdid for sp in y["s"])]
+    _w = 0
+    if _whj:
+        _wts = set()
+        for _wj in _whj:
+            for _wsp in YERLER[_wj]["s"]:
+                if _wsp["d"] == _wdid:
+                    _wts.add(_wsp["f"]); _wts.add(_wsp["t"])
+            for _wdn in YERLER[_wj]["d"] + YERLER[_wj]["v"]:
+                _wts.add(_wdn["f"]); _wts.add(_wdn["t"])
+        _wts = sorted(t for t in _wts if EPOK <= t <= "1923-11-01")
+        if _wts:
+            if _wts[0] != EPOK: _wts.insert(0, EPOK)
+            _wonce = None
+            for _wk in range(len(_wts) - 1):
+                _wa = _wts[_wk]
+                _wak = frozenset(
+                    j for j in _whj
+                    if any(sp["d"] == _wdid and sp["f"] <= _wa < sp["t"]
+                           for sp in YERLER[j]["s"])
+                    and not _osm_aktif(YERLER[j], _wa))
+                if _wak == _wonce and _w and _wak: continue
+                _wonce = _wak
+                if not _wak: continue
+                _w += len(_wak)
+    _DV_KUM.append(_DV_KUM[-1] + _w)
+print(f"  ETA ağırlığı hazır: {_DV_KUM[-1]:,} hücre-birleşimi bekleniyor")
+
 for _dv_i, (did, (dad, renk)) in enumerate(BOYALAR.items(), 1):
-    ilerleme(_dv_i, len(BOYALAR), 10, "devlet")
+    ilerleme(_dv_i, len(BOYALAR), 10, "devlet", _DV_KUM)
     hj = [j for j, y in enumerate(YERLER) if any(sp["d"] == did for sp in y["s"])]
     if not hj: continue
     ts = set()
@@ -1880,8 +1978,21 @@ SRB_HAVUZ, SRB_IX = [], {}   # serbest kenar hatları (sahipli ↔ sahipsiz sın
 SRB_U = []                   # havuza PARALEL: her hattın belirsizliği (km)
 onceki_aktif = None      # işaret/marker için: doğrudan + tâbi hepsi
 onceki_anahtar = None    # geometri için: (doğrudan, tâbi) ikilisi
+# ETA ağırlığı — yukarıdaki gerekçenin aynısı, ama burada tekrar YOK: bu
+# döngüde iş, o tarihte aktif olan petek sayısıdır ve iki satırla çıkar.
+# Osmanlı toprağı 1281'den 1683'e büyüdüğü için iş SONA yığılı; doğrusal
+# tahmin burada tersine, olduğundan KISA gösteriyordu.
+_DN_KUM = [0]
+for _i in range(len(tarihler) - 1):
+    _a = tarihler[_i]
+    _wt = set(j for j, y in enumerate(YERLER)
+              if any(dn["f"] <= _a < dn["t"] for dn in y["v"]))
+    _wd = set(j for j, y in enumerate(YERLER)
+              if any(dn["f"] <= _a < dn["t"] for dn in y["d"])) - _wt
+    _DN_KUM.append(_DN_KUM[-1] + len(_wd) + len(_wt))
+
 for i in range(len(tarihler) - 1):
-    ilerleme(i + 1, len(tarihler) - 1, 50, "kırılma")
+    ilerleme(i + 1, len(tarihler) - 1, 50, "kırılma", _DN_KUM)
     a, b = tarihler[i], tarihler[i+1]
     # kur:/bit: — kurulmamış nokta Osmanlı gövdesine de katılmaz. Örnek:
     # St. Petersburg'un s: alanı 1281'den rusya diyor ve kur:1703; Kesela'nın

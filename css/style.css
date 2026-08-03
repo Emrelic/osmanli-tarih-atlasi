@@ -821,6 +821,54 @@ body {
   line-height: 1.35;
 }
 .ob-kutu b { display: block; color: #5c1020; font-size: 11.5px; }
+
+/* ---------- Kartvizit — PADISAH-KARTVIZITI.md ---------- */
+#ob-kartvizit {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 2px solid var(--altin);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+#ob-kartvizit.gizli { display: none; }
+.kv-kunye {
+  font-size: 11.5px;
+  color: #6b5a33;
+  line-height: 1.5;
+}
+.kv-magazin {
+  font-size: 12px;
+  color: #4d3419;
+  line-height: 1.4;
+}
+.kv-skandal {
+  margin-top: 3px;
+  font-size: 11.5px;
+  font-style: italic;
+  color: #6d0d1c;
+}
+.kv-nasil-bilirdiniz {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  /* p4/H-0011 sartname ⓪: tavan veri tarafinda zorlanir, arayuz KIRPMAZ —
+     tasarsa kaydirilir. */
+  max-height: 260px;
+  overflow-y: auto;
+}
+.kv-satir { font-size: 12.5px; line-height: 1.45; }
+.kv-satir:empty { display: none; }
+.kv-ovgu { color: #1a6b33; }
+.kv-yergi { color: #8c3444; }
+.kv-tartisma { color: #6b4a1f; }
+.kv-tarihciler { color: #2b2313; }
+/* "Boş alan yok, niçin boş var" — icerik henuz yazilmadiginda tek satirlik
+   acikca isaretli uyari, sessiz bosluk degil. */
+.kv-nasil-bilirdiniz.kv-eksik .kv-ovgu {
+  color: #8a6d2f;
+  font-style: italic;
+}
 .ob-kaynak {
   font-size: 12px;
   color: #1257a8;

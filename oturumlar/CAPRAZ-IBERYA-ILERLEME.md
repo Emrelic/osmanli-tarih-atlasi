@@ -1235,3 +1235,109 @@ Batı okumasında hiçbir kırılma doğmaz, yalnız A-14 yazılır.
 ```
 Bu üçü çözülünce `Manama (Bahreyn)` kaydı **1281'den 1923'e kesintisiz**
 yazılabilir ve `Değişmez 1b` deliği kapanır.
+
+---
+
+# İŞ ④ — MARDİN ÇELİŞKİSİ ✅ ÇÖZÜLDÜ
+
+**Cevap: 🟢 EVET, ikisi de doğru — çünkü AYNI OLAYA AİT DEĞİLLER.**
+Senin hipotezin (*"Mardin kalesi şehirden sonra mı düştü"*) **tuttu.**
+
+### Önce ölçüm — çelişki senin tarif ettiğinden dar
+```
+veri  Mardin  safevi → 1517-05-01 · OSMANLI 1517-05-01 →
+veri  Urfa    safevi → 1516-05-01 · OSMANLI 1516-05-01 →
+madde 1516-05-01 "Koçhisar (Kızıltepe) Savaşı ve Mardin ile Urfa'nın fethi"
+```
+⇒ **URFA maddeyle UYUŞUYOR.** Ayrışan yalnız Mardin — ama madde ikisini
+**tek başlıkta** anıyor. ⇒ Kusur veride değil, **maddenin KAPSAMINDA.**
+
+### TDV turu
+```
+/mardin                🟢 CANLI
+/biyikli-mehmed-pasa   🟢 CANLI
+/koc-hisar             🔴 MADDE YOK — 36 içerik eşleşmesi, 0 BAŞLIK eşleşmesi
+                          ⇒ `kaynak:` alanına YAZILMADI
+```
+
+### İki TDV maddesi ne diyor (birebir)
+```
+mardin              "…Koçhisar (bugünkü Kızıltepe) yakınlarında Dede Garkın
+                     sahrasında Koruk mevkiinde Kara Han'ı yendi (MAYIS 1516)"
+                    "Fakat Safevî kuvvetleri KALEYE ÇEKİLDİ (EKİM 1515)"
+                    şehrin zaptı: "1516 SONLARINDA (VEYA MAYIS 1517)"
+biyikli-mehmed-pasa "…Kara Han'ın başı kesildi ve ordusu dağıldı (MAYIS 1516)"
+                    "Bu arada Mardin şehri de fethedildi, fakat KALESİ ANCAK
+                     DOKUZ AY SONRA teslim alındı"
+```
+
+### Hüküm
+```
+① KOÇHİSAR = MAYIS 1516 — kümenin EN SAĞLAM olgusu, İKİ TDV maddesi de aynı ay.
+   ⇒ mevcut maddenin t:"1516-05-01"i DOĞRU, dokunulmamalı.
+② KALE ŞEHİRDEN SONRA DÜŞTÜ — Safevîler Ekim 1515'te kaleye çekildi,
+   kale "ancak dokuz ay sonra" teslim oldu. İki AYRI olay.
+③ ⚠️ AMA TDV KENDİ İÇİNDE TEREDDÜTLÜ ve iki maddesi birbiriyle de ayrışıyor;
+   tek bir takvime oturmuyorlar. Verideki 1517-05-01, TDV `mardin`in
+   PARANTEZ İÇİ ikinci okumasına ("veya Mayıs 1517") karşılık geliyor —
+   yani veri UYDURMA DEĞİL, ama TDV'nin ilk tercihi de değil.
+🔴 Seçim yapılmadı — karar senin.
+```
+
+### 🔴 VE ASIL KUSUR BAŞKAYDI: kırılma YANLIŞ MADDENİN ALTINDA beliriyordu
+`1517-05-01` kırılmasına **düzeltmeden önceki** en yakın maddeler:
+```
+1517-04-18  "Portekiz donanmasının Cidde'ye saldırısı"      13 gün
+1517-04-13  "Tomanbay'ın Bâbüzüveyle'de idamı"              18 gün
+```
+İkisi de ±30 gün içinde ⇒ **Değişmez 2 TEMİZ raporluyordu.** Ama kullanıcı
+Mardin'in fethini **Cidde saldırısının altında** görüyordu. `CLAUDE.md §3`:
+*"değişim, o güne rastgele denk gelen alakasız bir maddenin altında belirir —
+kullanıcının en çok şikâyet ettiği hata bu."* **Denetim temiz, gösterim yanlış.**
+
+⇒ **A-20 yazıldı** (`1517-05-01`, `kaynak:"mardin"`). Ölçüm:
+```
+DÜZELTMEDEN SONRA en yakın madde:  0 GÜN — "Mardin kalesinin teslimi"
+```
+
+---
+
+# 📌 ② ve ③ — CEVAPLARI ZATEN YAZILMIŞTI, yeri burası
+
+Bu ikisini iki tur önce teslim ettim; tekrar yazmıyorum, **yerini söylüyorum**
+(`ONCELIK K2`: dosya asıldır, sohbet işarettir).
+
+```
+② TUNUS 1569/1573 TDV karşılığı   → bu dosyada "KOORDİNATÖRÜN İKİ SORUSUNA
+                                     DOĞRUDAN CEVAP" §① — üç okuma yan yana
+③ BAHREYN zinciri, halka halka    → aynı bölüm §② — kapanan/açık tablosu
+```
+
+**Üç satırlık özet, kararın için yeter:**
+```
+② Uluç Ali'nin girişine GÜN VEREN KAYNAK YOK. TDV tunus "1569" · TDV
+  kilic-ali-pasa "Şevval 977 / Mart 1570" · batı "Ekim 1569". Üçü de maddede.
+  Don Juan 1573-10-10 KESİN (TDV birebir: "10 Ekim 1573'te İspanyollar…").
+③ Bahreyn'de zincirin TEK açık halkası 1783→1861 ve engel KAYNAK DEĞİL, RENK:
+  BOYALAR'ın 226 kimliğinde `alihalife`/`utub`/`bahreyn` YOK.
+  1281→1521 · 1602→1717 · 1717→1783'ün hepsi kaynaklı ve renkleri hazır;
+  tam zincir dosyada satır satır yazılı.
+```
+
+---
+
+# ✅ YAYIN DOĞRULAMASI — r724 üzerinde koşturuldu
+
+Dosya artık canlı olduğu için tarayıcıda ölçtüm (`localhost:8000`, koşan
+sunucuya dokunulmadı):
+```
+window.OLAYLAR_EK13    20 madde YÜKLÜ
+toplam kronoloji       1044 madde
+konsol hatası          YOK
+örnek maddeler         1517-05-01 · 1573-10-10 · 1541-03-12 · 1783-01-01 ·
+                       1769-03-11 — beşi de listede çözülüyor
+bağlantı               index.html:203 ✓  ·  js/app.js:2286 concat ✓
+```
+📌 Kendi uyarımı düzeltiyorum: bir ara *"app.js'te ek13 geçmiyor"* dedim —
+yanlıştı, `app.js` dosya adını değil **değişken adını** (`OLAYLAR_EK13`)
+kullanıyor. Bağlantı eksiksiz.
