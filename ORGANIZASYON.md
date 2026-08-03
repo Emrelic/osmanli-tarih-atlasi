@@ -767,7 +767,49 @@ değerlidir — ikincisi zaten yoktur.
 
 ---
 
-## 17. 🔴 OTURUM AÇMA TALEBİNDE MODEL **ADIYLA** YAZILIR
+## 17. 🔴 OTURUM AÇMA TALEBİ — DÖRT ALAN, HEPSİ ZORUNLU
+
+**Kullanıcının kuralı (3 Ağustos 2026):** *"Bana bir oturum açmamı
+söylediğinde ona ne prompt yazacağımı, hangi modelde açacağımı, oturum
+isminin ne olduğunu, ClaudEmre komutunu çalıştırıp çalıştırmayacağımı
+söylemelisin. Bunu da kural hâline getirmelisin."*
+
+Oturum istenirken **dört alanın dördü birden** yazılır — brifing
+dosyasında **ve sohbette**. Eksik bırakılan alan, kullanıcıyı tahmin
+etmeye zorlar; bunun bedeli iki kez ödendi (aşağıda).
+
+```
+① AD        oturumun adı — takip bu adla yapılır (ARAYÜZ 2, MOTOR 2…)
+② MODEL     Opus · Sonnet · Fable — ADIYLA. "En güçlü model" YASAK.
+③ PROMPT    kullanıcının yazacağı CÜMLE, birebir. Genelde tek satır:
+            "oturumlar/<DOSYA>.md dosyasını oku ve sırayla uygula."
+④ ClaudEmre  /claudemre-basla çalıştırılacak mı — EVET / HAYIR
+```
+
+### ④'ün cevabı neredeyse her zaman HAYIR
+
+`/claudemre-basla` bir **koordinatör** komutudur: oturuma *"sen bu
+projenin koordinatörüsün"* der, çekirdeği + yasaları + proje arşivini
+yükler. İşçi oturumda çalıştırılırsa iki zarar birden olur:
+
+```
+· oturum kendini koordinatör sanır → iş dağıtmaya, karar vermeye kalkar
+· işçinin ihtiyacı olmayan onlarca sayfa boşuna okunur (ONCELIK.md §1)
+```
+
+⇒ **`/claudemre-basla` YALNIZ koordinatör (Oturum 0) oturumunda.**
+İşçi oturumun açılışı **brifing dosyasıdır** ve o dosya kendi açılış
+listesini taşır (bu dosya + `CLAUDE.md §7` + `ONCELIK.md §2`).
+
+### Model seçimi — K5'in pratiği
+
+```
+Opus     karar · ölçüm · şüphe · "bu doğru mu"   → koordinatör, araştırma
+Sonnet   kararı verilmiş uygulama                → arayüz, mekanik veri
+Fable    şu an bu projenin işlerinde yeri yok
+```
+
+### Doğuran vaka — bu kural neden var
 
 **Doğuran vaka (2 Ağustos):** `BEKLEYENLER.md`'de *"RENK oturumunu aç — **EN
 GÜÇLÜ MODEL**"* yazdı. Kullanıcı ne yapacağını bilemedi:
