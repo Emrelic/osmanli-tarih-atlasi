@@ -80,6 +80,38 @@ maddeler: `p2/H-0001 · H-0012 · H-0014 · H-0018 · H-0019 · H-0020` ·
 `p3/H-0012 · H-0016` · `p5/H-0007 · H-0009`.
 🔴 Yeni dosya: `data/yerlesimler_seyrek.js` (Kırım dosyasına dokunma).
 
+## 🔴 DÜZELTME — PETEK/NOKTA'nın itirazı haklı çıktı (aynı gün)
+
+Talimatım **iki farklı ölçeği tek cümlede birleştirmişti**: "seyreklik
+listesinin ilk 5 bölgesi" (60 km+ eşikli ızgara ölçümü) ile "kapattığın
+maddeler" (25-45 km yarıçaplı tekil şikâyetler). Bunlar aynı ölçüm
+değil — ilk beşe nokta eklemek o maddelerden **hiçbirini kapatmazdı**.
+
+Oturumun kendi cümlesi kuralı veriyor:
+> *"Sıralamada görünmemeleri 'sorun yok' demek değil, 'farklı ölçekte'
+> demek."*
+
+⇒ Sıra değişti: **önce şikâyet maddeleri** (Halka 0, kullanıcının GÖRDÜĞÜ
+hatalar), **sonra** seyreklik listesi.
+
+## 🔴 VE DAHA BÜYÜK BİR TUZAK ÇIKTI — seyreklik listesi HAM VERİ
+
+Listenin ilk beşinin **üçü** (kuzey Necid ×2, Bâdiye/Şam çölü) `CLAUDE.md`
+Değişmez 1'in *"34 nokta KASTEN sahipsiz"* kümesine giriyor: Sahra,
+Rub'ul Hâlî, **1744 öncesi Necid**, körfez şeyhlikleri.
+
+```
+Oraya nokta eklemek "seyrekliği gidermek" DEĞİL,
+DOĞRU OLAN BOŞLUĞU YOK ETMEKTİR.
+```
+Ve `denetle.py`nin `50 sahipsiz (beklenen 50)` satırını bozar — yani
+kusur, kendini bir "iyileştirme" gibi göstererek girer.
+
+📌 **Bulgu:** "nokta başına km²" ölçümü, bir bölgenin **aç** mı yoksa
+**kasten boş** mu olduğunu ayırt edemiyor. ⇒ Seyreklik listesine
+`kasitli_bosluk` sütunu eklenecek; yoksa bir sonraki oturum aynı tuzağa
+düşer ve bu kez fark edilmeyebilir.
+
 ---
 
 # DALGA 2 — AÇILACAK (yuvası boş, çakışma yok)
