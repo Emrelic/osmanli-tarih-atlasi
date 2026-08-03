@@ -173,11 +173,26 @@ window.YERLESIMLER = [
 { ad:"Denizli", tur:"sehir", lat:37.783, lon:29.094, g:0, k:3, m:"İzmir", s:[{f:"1402-07-28",t:"1402-09-15",d:"timurlu"}, {f:"1402-09-15",t:"1425-06-01",d:"germiyan"},{f:"1281-01-01",t:"1368-01-01",d:"inancogullari"},{f:"1368-01-01",t:"1390-01-01",d:"germiyan"}], d:[{f:"1390-01-01",t:"1402-07-28"},{f:"1425-06-01",t:"1923-10-29"}] },
 { ad:"Muğla", tur:"sehir", lat:37.215, lon:28.363, g:0, k:2, s:[{f:"1281-01-01",t:"1390-01-01",d:"mentese"},{f:"1402-07-28",t:"1425-06-01",d:"mentese"}], d:[{f:"1390-01-01",t:"1402-07-28"},{f:"1425-06-01",t:"1923-10-29"}] },
 { ad:"Antalya", tur:"liman", lat:36.887, lon:30.703, g:1, k:2, s:[{f:"1281-01-01",t:"1300-01-01",d:"selcuklu"},{f:"1300-01-01",t:"1321-01-01",d:"hamid"},{f:"1321-01-01",t:"1392-01-01",d:"teke"},{f:"1402-07-28",t:"1423-01-01",d:"teke"}], d:[{f:"1392-01-01",t:"1402-07-28",y:"savas"},{f:"1423-01-01",t:"1923-10-29",y:"kusatma"}] },
-{ ad:"Konya", tur:"sehir", lat:37.872, lon:32.492, g:2, k:2, s:[{f:"1402-07-28",t:"1402-09-15",d:"timurlu"}, {f:"1402-09-15",t:"1468-04-01",d:"karaman"},{f:"1281-01-01",t:"1308-01-01",d:"selcuklu"},{f:"1308-01-01",t:"1366-01-01",d:"ilhanli"},{f:"1366-01-01",t:"1397-07-01",d:"karaman"}], d:[{f:"1397-07-01",t:"1402-07-28",y:"savas"},{f:"1468-04-01",t:"1923-10-29",y:"savas"}],
+// p3/H-0019 + H-0020 + H-0003 — kullanıcı ÜÇ ayrı madde yazdı, üçü de AYNI
+// kusurun yüzleriydi: "Karaman'ın ilhak edildiği görünmüyor" · "ilhak İKİ
+// MADDE SONRA haritada işleniyor". PETEK/NOKTA ölçtü:
+//   madde 1468-01-01  "Karaman'ın kesin ilhakı"      ← ilhakın KENDİ maddesi
+//   madde 1468-04-01  "Uzun Hasan Karakoyunlu'ya son verdi"
+//   VERİ  1468-04-01  beş kayıt burada el değiştiriyordu
+// ⇒ İlhak, kendi maddesinde değil İKİ MADDE SONRA, alâkasız bir maddenin
+//   altında boyanıyordu. 🔴 Ve Değişmez 2 bunu GÖREMİYOR: 1468-04-01'de bir
+//   madde VAR, sadece YANLIŞ madde. CLAUDE.md §3'ün gerekçesinde anlatılan
+//   "değişim, o güne rastgele denk gelen alâkasız bir maddenin altında
+//   belirir" vakası — canlı örneği bu.
+// ⇒ 1468-04-01 → 1468-01-01. Yeni gün açılmıyor, madde zaten orada, borç yok.
+// 🟢 H-0003 ("katılmayan topraklar") ise GERÇEK, düzeltilmedi: Alanya ve
+//   Anamur 1471, Silifke 1473'e kadar Karamanoğulları'nda — Taşeli sahili
+//   gerçekten birkaç yıl daha direndi.
+{ ad:"Konya", tur:"sehir", lat:37.872, lon:32.492, g:2, k:2, s:[{f:"1402-07-28",t:"1402-09-15",d:"timurlu"}, {f:"1402-09-15",t:"1468-01-01",d:"karaman"},{f:"1281-01-01",t:"1308-01-01",d:"selcuklu"},{f:"1308-01-01",t:"1366-01-01",d:"ilhanli"},{f:"1366-01-01",t:"1397-07-01",d:"karaman"}], d:[{f:"1397-07-01",t:"1402-07-28",y:"savas"},{f:"1468-01-01",t:"1923-10-29",y:"savas"}],
     v:[{f:"1832-11-21",t:"1833-06-30",k:"Mısır ordusu (işgal)"}] },
-{ ad:"Karaman", tur:"sehir", lat:37.181, lon:33.215, g:0, k:3, m:"Konya", s:[{f:"1402-07-28",t:"1402-09-15",d:"timurlu"}, {f:"1402-09-15",t:"1468-04-01",d:"karaman"},{f:"1281-01-01",t:"1397-07-01",d:"karaman"}], d:[{f:"1397-07-01",t:"1402-07-28"},{f:"1468-04-01",t:"1923-10-29"}],
+{ ad:"Karaman", tur:"sehir", lat:37.181, lon:33.215, g:0, k:3, m:"Konya", s:[{f:"1402-07-28",t:"1402-09-15",d:"timurlu"}, {f:"1402-09-15",t:"1468-01-01",d:"karaman"},{f:"1281-01-01",t:"1397-07-01",d:"karaman"}], d:[{f:"1397-07-01",t:"1402-07-28"},{f:"1468-01-01",t:"1923-10-29"}],
     v:[{f:"1832-11-21",t:"1833-06-30",k:"Mısır ordusu (işgal)"}] },
-{ ad:"Niğde", tur:"sehir", lat:37.966, lon:34.679, g:0, k:3, m:"Konya", s:[{f:"1281-01-01",t:"1308-01-01",d:"selcuklu"},{f:"1308-01-01",t:"1366-01-01",d:"ilhanli"},{f:"1366-01-01",t:"1468-04-01",d:"karaman"}], d:[{f:"1468-04-01",t:"1923-10-29"}] },
+{ ad:"Niğde", tur:"sehir", lat:37.966, lon:34.679, g:0, k:3, m:"Konya", s:[{f:"1281-01-01",t:"1308-01-01",d:"selcuklu"},{f:"1308-01-01",t:"1366-01-01",d:"ilhanli"},{f:"1366-01-01",t:"1468-01-01",d:"karaman"}], d:[{f:"1468-01-01",t:"1923-10-29"}] },
 // Alâiye 1293'ten 1471'e kadar kendi bey soyuyla yönetilen ayrı bir beylikti
 // (TDV ALÂİYE BEYLİĞİ). Karamanoğulları rengiyle boyandığı için haritada 178 yıl
 // boyunca Karaman'ın içinde eriyordu.
@@ -693,7 +708,7 @@ window.YERLESIMLER = [
 // Mısır emlâkine dahil edilerek kaymakamlık statüsünde teşkilâtlandırıldı".
 // 1846 sâlyâne (gelir tahsisi) DEĞİL 1865 (idarî ilhak) seçildi: harita idareyi
 // boyar, geliri değil.
-{ ad:"Sevâkin", tur:"liman", lat:19.106, lon:37.332, g:0, k:2, s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1884-02-01",t:"1923-10-29",d:"ingiltere"}], v:[{f:"1865-01-01",t:"1884-02-01",k:"Mısır (Kavalalı)"}], d:[{f:"1517-04-13",t:"1865-01-01",y:"ilhak"}] },
+{ ad:"Sevâkin", tur:"liman", lat:19.106, lon:37.332, g:0, k:2, s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1884-02-01",t:"1923-10-29",d:"ingiltere"}], v:[{f:"1865-01-01",t:"1884-02-01",k:"Mısır (Kavalalı)"}], d:[{f:"1557-01-01",t:"1865-01-01",y:"ilhak"}] },
 { ad:"Masavva", tur:"liman", lat:15.6117, lon:39.4723, g:0, k:3, m:"Sevâkin", s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1885-02-05",t:"1923-10-29",d:"italya"}], v:[{f:"1865-01-01",t:"1885-02-05",k:"Mısır (Kavalalı)"}], d:[{f:"1557-01-01",t:"1865-01-01",y:"ilhak"}] },
 // ---------------- KUZEY AFRİKA ----------------
 { ad:"Trablus", tur:"liman", lat:32.897, lon:13.191, g:1, k:2, s:[{f:"1281-01-01",t:"1510-07-25",d:"hafsi"},{f:"1510-07-25",t:"1530-03-24",d:"ispanya"},{f:"1530-03-24",t:"1551-08-15",d:"sovalye"},{f:"1912-10-15",t:"1923-10-29",d:"italya"}], d:[{f:"1551-08-15",t:"1711-03-01",y:"kusatma"},{f:"1835-05-26",t:"1912-10-15"}], v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
@@ -1362,7 +1377,7 @@ window.YERLESIMLER = [
     s:[{f:"1281-01-01",t:"1308-01-01",d:"selcuklu"},{f:"1308-01-01",t:"1309-01-01",d:"ilhanli"},{f:"1309-01-01",t:"1392-11-01",d:"candar"},{f:"1402-07-28",t:"1461-06-01",d:"candar"}], d:[{f:"1392-11-01",t:"1402-07-28"},{f:"1461-06-01",t:"1923-10-29"}] },
 // TDV KARAMANOĞULLARI: Karaman Bey Ermenek-Mut yöresinde faaliyete başladı.
 { ad:"Ermenek", tur:"kale", lat:36.640, lon:32.891, g:0, k:4, m:"Konya",
-    s:[{f:"1402-07-28",t:"1402-09-15",d:"timurlu"}, {f:"1281-01-01",t:"1397-07-01",d:"karaman"},{f:"1402-09-15",t:"1468-04-01",d:"karaman"}], d:[{f:"1397-07-01",t:"1402-07-28"},{f:"1468-04-01",t:"1923-10-29"}] },
+    s:[{f:"1402-07-28",t:"1402-09-15",d:"timurlu"}, {f:"1281-01-01",t:"1397-07-01",d:"karaman"},{f:"1402-09-15",t:"1468-01-01",d:"karaman"}], d:[{f:"1397-07-01",t:"1402-07-28"},{f:"1468-01-01",t:"1923-10-29"}] },
 // TDV KARESİOĞULLARI: beylik Erdek, Biga, Edremit ve Bergama'ya hâkimdi;
 // ilhak 746/1345.
 { ad:"Edremit", tur:"liman", lat:39.596, lon:27.024, g:0, k:4, m:"Bursa",
@@ -1948,9 +1963,9 @@ window.YERLESIMLER = [
      {f:"1308-01-01",t:"1366-01-01",d:"ilhanli"},
      {f:"1366-01-01",t:"1397-07-01",d:"karaman"},
      {f:"1402-07-28",t:"1402-09-15",d:"timurlu"},
-     {f:"1402-09-15",t:"1468-04-01",d:"karaman"}],
+     {f:"1402-09-15",t:"1468-01-01",d:"karaman"}],
   d:[{f:"1397-07-01",t:"1402-07-28",y:"kusatma"},
-     {f:"1468-04-01",t:"1923-10-29",y:"kusatma"}] },
+     {f:"1468-01-01",t:"1923-10-29",y:"kusatma"}] },
 { ad:"Travnik", tur:"kale", lat:44.226, lon:17.665, g:0, k:3, m:"Saraybosna", s:[{f:"1281-01-01",t:"1463-06-01",d:"bosna"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"sirbistan"}], d:[{f:"1463-06-01",t:"1908-10-05",y:"savas"}], isg:[{f:"1878-07-29",t:"1908-10-05",d:"avusturya",kaynak:"berlin-antlasmasi"}] },
 { ad:"İzvornik (Zvornik)", tur:"kale", lat:44.386, lon:19.103, g:0, k:3, m:"Saraybosna", s:[{f:"1281-01-01",t:"1460-01-01",d:"bosna"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"sirbistan"}], d:[{f:"1460-01-01",t:"1908-10-05"}], isg:[{f:"1878-07-29",t:"1908-10-05",d:"avusturya",kaynak:"berlin-antlasmasi"}] },
 { ad:"Foça (Foča)", tur:"sehir", lat:43.506, lon:18.779, g:0, k:3, m:"Saraybosna", s:[{f:"1281-01-01",t:"1465-01-01",d:"bosna"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"sirbistan"}], d:[{f:"1465-01-01",t:"1908-10-05"}], isg:[{f:"1878-07-29",t:"1908-10-05",d:"avusturya",kaynak:"berlin-antlasmasi"}] },
