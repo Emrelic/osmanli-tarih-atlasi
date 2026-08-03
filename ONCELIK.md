@@ -178,3 +178,133 @@ DAHA FAZLA madde üretebilir — ve üretmelidir.
 📌 Bu, `ANSİKLOPEDİ EKSENİ / Kural ⓪` (kısa metin) ile çelişmez:
 **madde SAYISI artar, madde UZUNLUĞU artmaz.** Beş cephe için beş
 kartvizit, tek uzun makale değil.
+
+
+---
+
+# 🔴 KALİTE KADEMELERİ — kapsam ve keskinliğin ÖLÇÜTÜ
+
+> Emre, 3 Ağustos 2026. Bu bölüm `ONCELIK.md`nin en bağlayıcı kısmıdır:
+> **nereye ne kadar emek verileceğini bir sayıya bağlar.**
+
+## ⓪ Neden gerekli — Pareto ve yarılanan yol
+
+Bir işe eşit emek verildikçe her adım öncekinden azını bitirir:
+```
+1. adım  %50      6. adım  %97,825
+2. adım  %75      7. adım  %98,918
+3. adım  %82,5    8. adım  %99,45
+4. adım  %91,25
+5. adım  %95,625
+```
+⇒ İlk adım işin **yarısını**, sekizinci adım **binde beşini** bitiriyor.
+**Aynı token, her seferinde daha azını satın alıyor.**
+
+📌 Sonuç: hiç dokunulmamış bir işi %50'ye getiren 100 token, %99,45'teki
+bir işi %99,73'e getiren 100 tokenden **yüz kat** değerlidir.
+
+## ① NET FAYDA — bir kapsam kaç puan eder
+
+Yarısı doğru yarısı yanlış bir iş **sıfır** eder: doğrular yanlışları götürür.
+Ölçüt `net = doğru − yanlış`:
+
+| kalite | kapsam | net fayda | hüküm |
+|---|---|---|---|
+| **0** | %50 altı | NEGATİF | 🔴 **YAPILMAMIŞ SAYILIR.** Yarım imam dinden eder, yarım doktor candan eder — **yarım bilmek hiç bilmemekten tehlikelidir.** |
+| **1** | %50 | 0 | Komple ziyan. Emek, token, zaman boşa gitti. |
+| **2** | %75 | %50 | Geçer ama başarısız. İşin ancak yarısı kotarılmış. |
+| **3** | %82,5 | %65 | Artıya geçmeye başlamış. **Uzak coğrafya/zaman için YETER.** |
+| **4** | %91,25 | %82,5 | Başarılı. **Yakın çevre için hedef.** |
+| **5** | %95,625 | %91,25 | Mükemmel. **BURASI TAVANDIR, ötesi israftır.** |
+
+🔴 **5'ten sonrası niçin israf:** ulaşacağımız kitlenin %99'u, %95,625
+doğrulukta bir siteyle %91,25 doğrulukta bir siteyi **ayırt edemez.**
+Aradaki farkı ancak İlber Ortaylı ya da Feridun Emecen ayarında bir hoca
+görür — ve bu atlas o seviyede bir iddia taşımıyor.
+
+## ② HANGİ KADEMENİN NEREYE — yakınlık ölçütü
+
+**Kural: zaman bize yaklaştıkça, coğrafya bize yaklaştıkça KESKİNLİK ARTAR.**
+
+```
+KADEMe 5   Söğüt · Domaniç · Bursa · Mudanya — kuruluş çekirdeği
+           1923 Türkiye haritası
+KADEMe 4   Cezayir · Mısır · İran · Avusturya · Macaristan · Rusya'nın
+           bize bakan yüzü
+KADEMe 3   Danimarka · Portekiz · uzak Avrupa
+KADEMe 2   Tiksi · Sibirya kuzeyi · Mikronezya — oralar için MÜKEMMEL sayılır
+```
+
+🔴 **Ve orantı hükmü:** Osman Gazi döneminde Mudanya'daki bir enklav
+görünümü, 1590'da Cezayir kıyısındaki **yüz katı büyüklükte** bir hatadan
+daha çok göze batar. Çünkü imparatorluğun bütün coğrafyası o an bir avuç
+yerdir ve okuyanın gözü oradadır.
+⇒ Cezayir'i %80'de bırakmak, Osman Gazi'yi %95'e çıkarmaktan **daha çok
+iş bitirir** — ikisi de aynı tokeni yiyorsa.
+
+⚠️ Ve veri her yerde aynı kaliteyi **kaldırmıyor**: Anadolu beylikleri
+döneminde kaynaklar %80'i belki hiç desteklemiyor. Oraya %95 aramak,
+olmayan bilgiyi uydurmaya davettir.
+
+## ③ ÜSTÜNKÖRÜ GEÇME HAKKI — İskandinavya kuralı
+
+🔴 **Bir işi "çok zahmetli" diye bekletmek, onu %0'da tutmaktır — ve %0
+KADEME 0'dır.**
+
+Norveç ve İsveç'in fiyortları, Ege adaları hassasiyetiyle çizilmeyi
+beklemesin. **Girinti çıkıntı hesaplanmadan, sınır kabataslak karaların
+üzerinden geçilerek %50-80 bandında yapılır** ve gözü kanatan boş alan
+kapanır. %100 keskinliğin zamanı gelene kadar bu bizi rahatlatır.
+
+📌 Bir işin durumunu adlandırma eşikleri:
+```
+"üstünden geçtim"        en az %30
+"başladım, yarım bıraktım" en az %60-70
+"bitirdim"                 en az %85
+%100'e ulaşmak zaten mümkün değildir
+```
+
+## ④ AÇILMA SIRASI — zaman ve coğrafya durakları
+
+Kapsam, Osmanlı merkezinden **yakınlık sırasıyla** genişler.
+
+**İLERİ (1923 → bugün)**
+```
+1. durak  1945   II. Dünya Savaşı'nın bitişi
+2. durak  1989   Soğuk Savaş'ın bitişi
+3. durak  bugün
+```
+
+**GERİ (1281 → öncesi)** — kronolojik sırayla:
+```
+1204  IV. Haçlı Seferi · Latin işgali
+1071  Anadolu kapılarının açılması
+1000  bin yılı
+ 750  Abbâsî Devleti'nin kuruluşu
+ 570  Hz. Muhammed'in doğuşu · 661 Emevî hilâfeti
+ 476  Batı Roma'nın yıkılışı
+   0  Milât
+MÖ 600
+```
+
+**COĞRAFYA**
+```
+Amerika kıtası · Sahra altı Afrika · Uzak Asya · Kuzey ve İç Asya ·
+Avustralya · Yeni Zelanda · Mikronezya · Endonezya · Malezya · Filipinler
+```
+
+## ⑤ TOKEN KARARI — 4. yüz birim nereye gider
+
+Bir iş açılır, 100 birimle %50'ye, ikinci 100'le %75'e, üçüncü 100'le
+%82,5'e gelir. **Dördüncü 100 birim** iki adaya bakar:
+```
+(a) YENİ bir işi %50'ye getirmek
+(b) mevcut işi %82,5 → %91,25'e çıkarmak
+```
+⇒ **Cevap işin bize yakınlığındadır.** Kademe hedefi neyse ona kadar
+gidilir, oradan sonra token **yeni işe** kayar.
+⚠️ Ve tersi de yasak: her 100 tokenle yeni bir iş açıp hepsini %50'de
+bırakmak, KADEME 1 yığını üretir — net faydası sıfır.
+
+> **Allah'ın verdiği nefesi ve Claude'un verdiği tokenleri boşa
+> harcamayalım; en kısa ve en verimli zamanda en isabetli işi çıkaralım.**
