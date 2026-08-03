@@ -2233,3 +2233,141 @@ Mardin 1516 mı 1517 mi  bir yıl çelişki → ÇAPRAZ
 Kuzey Eritre kıyısı     Masavva↔Akīk 321 km, nokta YOK ama kaynaklı yerleşim
                         de yok — Ç7 ile aynı coğrafya
 ```
+
+---
+
+## SABİTLER EKİ — `enklav` ölçütünün ADA yarısı OTOMATİKLEŞTİ
+
+Koordinatör Menorka'yı A listesinden çıkardı: İngiltere 1708-1802'de **adanın
+tamamını** tutuyordu ⇒ hinterlandı vardı (kendi adası). Hüküm doğru, ve
+kuralı bir adım ileri götürüyor — ben aynı ayrımı `fransa 1831-1923`te
+yapmıştım ama Menorka'da uygulamamıştım.
+
+### 🟢 VE BU, TARAMANIN YARISINI SINANABİLİR YAPIYOR
+```
+ADA noktası      MEKANİK SINANABİLİR:
+                 "bu kara bileşeninde BAŞKA SAHİPLİ nokta var mı?"
+                 varsa  → ENKLAV        yoksa → enklav DEĞİL
+ANAKARA noktası  SINANAMAZ — elle + kaynakla
+                 (v1/v2 çöküşünün sebebi: anakarada doğal sınır yok)
+```
+Ölçüldü, beş vakada da doğru cevabı verdi:
+```
+Kolombo    ada #1739 (66.504 km²) · 3 nokta: Kolombo=portekiz · Kandy=kandy
+           · Yafna=yafna                        ⇒ 🔴 ENKLAV
+           (tarihen doğru: Portekiz yalnız SAHİL Seylan'ını tuttu, Kandy
+            1815'e kadar bağımsız kaldı)
+Sokotra    ada #2199 · TEK nokta                ⇒ ✓ değil
+Manama     ada #2234 (586 km²) · TEK nokta      ⇒ ✓ değil
+Dahlak     ada #2278 (679 km²) · TEK nokta      ⇒ ✓ değil
+Menorka    ada #3103 (695 km²) · TEK nokta      ⇒ ✓ değil  ← koordinatörün hükmü
+```
+📌 **Kaba eşik ("bileşen < 200.000 km² ise ada, ada ise enklav değil")
+YANLIŞTI** — Kolombo'yu eler, oysa Kolombo gerçek bir enklav. Doğru soru
+büyüklük değil, **"adada başkası var mı".**
+
+⇒ **B listesi işlenirken bu süzgeç ÖNCE koşsun:** `Sokotra` · `Manama` ·
+`Dahlak` üçü de ada ve tek sahipli — `enklav` YAZILMAMALI. `Kolombo`
+yazılmalı. Kalanlar (Pondişeri · Çandernagor · Bombay · Kannûr · Koçin ·
+Nagapatnam · Goa · Maskat · Aden) anakara ⇒ elle karar.
+
+### ⚠️ Küçük düzeltme — benim sayım
+A listesini "14 nokta / 20 dönem" diye vermiştim. Veriye giren **13 nokta /
+17 dönem** ve doğrusu bu: Menorka çıkınca 13 kalıyor, dönem sayısı da 17.
+Benim 20'm gevşek bir sayımdı. (On birinci öz düzeltme, küçük olanı.)
+
+---
+
+## ADA ENKLAV SÜZGECİ — koştu, ve **kendi iddiamı düzeltti**
+
+Süzgeç `arac/` altına YAZILMADI (yayın kapısı). Betik scratchpad'de,
+ölçütü ve çıktısı burada; yeniden koşturmak isteyen için mantığı üç satır:
+```
+her kara bileşeni için  → üzerindeki noktaların sahiplerini tarih tarih topla
+tek sahip  → enklav DEĞİL (ada kuralı zaten peteği o adaya hapsediyor)
+çok sahip  → ADAY (hüküm insanın)
+anakara bileşeni (>1.000.000 km²) süzgeç dışı — orada doğal sınır yok
+```
+
+### Çıktı: **112 tek sahipli ada · 11 bölünmüş ada**
+
+🔴 **VE BURADA ÖNCEKİ MESAJIMI DÜZELTİYORUM.** *"Ada yarısı mekanik olarak
+sınanabilir"* demiştim — **fazla güçlü bir iddiaydı.** Süzgeç yalnız
+**OLUMSUZ** tarafı mekanik olarak kapatıyor:
+```
+🟢 MEKANİK   112 tek sahipli ada → kesinlikle enklav DEĞİL
+🔴 DEĞİL     11 bölünmüş ada → yalnız ADAY, ve çoğu enklav ÇIKMADI
+```
+On bir adayın dökümü:
+```
+BÖLÜNMÜŞ ADA (enklav değil, iki akran paylaşıyor)
+   Britanya (29 nokta, ingiltere↔iskocya) · İskandinavya (21, isvec↔danimarka)
+   Borneo (3) · Sumatra (5) · Timor (Dili portekiz ↔ Kupang hollanda)
+   Seylan (Kolombo ↔ Kandy ↔ Yafna) · +2
+CEPHE HATTI (enklav değil, savaş anı)
+   Girit 1660 — Resmo/Hanya OSMANLI ↔ Kandiye/Sitiye/İsfakiye venedik
+   (Girit savaşı 1645-1669'un ortası; ada BÖLÜNMÜŞ değil, CEPHE)
+🔴 GERÇEK ENKLAV — 1 tane, ve listede yoktu
+   NAGAZAKİ  portekiz 1580-06-09 → 1587-07-24
+```
+
+### 🔴 YENİ ADAY: NAGAZAKİ (1580-1587)
+```
+Nagazaki  32,750/129,878   azuchi-momoyama →1580-06-09 · PORTEKİZ →1587-07-24
+                           · azuchi-momoyama →1603 · edo-bakufu →1868 · meiji
+Kyūşū adası (#269, 36.661 km²) · 5 nokta · öteki dördü azuchi-momoyama
+```
+Ōmura Sumitada 1580'de şehri Cizvitlere devretti, Hideyoshi 1587'de geri
+aldı. **Yedi yıl, Japon adasında yabancı elde tek liman — enklavın ders
+kitabı tanımı.** Ve kimsenin listesinde yoktu; süzgeç onu buldu.
+⇒ `Nagazaki` `portekiz` dönemine `enklav:true` önerilir.
+
+### ⚠️ VE BİR ÖNERİMİ GERİ ALIYORUM: KOLOMBO İŞARETLENMEMELİ
+Önceki mesajda *"Kolombo yazılmalı"* demiştim. **Geri alıyorum.**
+`enklav` bayrağının işi, bir noktanın **hiç sahip olmadığı toprağı yutmasını**
+engellemek. Seylan'da Kandy ve Yafna'nın **kendi noktaları var** — Voronoi
+adayı zaten üçe bölüyor, yutulacak yetim yok. Bayrak burada işe yaramaz,
+yalnız Portekiz'in gerçekten tuttuğu sahil şeridini haksız yere kısar.
+📌 Ayırt edici soru: *"adadaki öteki sahiplerin NOKTASI var mı?"*
+   varsa → Voronoi hallediyor, bayrak GEREKSİZ
+   yoksa → foothold her şeyi yutar, bayrak GEREKLİ  ← Nagazaki'nin durumu değil
+   ⚠️ Nagazaki'de de öteki dördün noktası VAR. Yani bayrak orada da
+      geometrik olarak gereksiz olabilir — ama tarihî kayıt olarak doğrudur
+      ve `enklav` alanı ileride başka amaçla da okunabilir. **Kararı
+      MOTOR 3'ün ölçümü versin: Nagazaki 1580-1587'de yetim yüz emiyor mu?**
+```
+On ikinci öz düzeltme: "mekanik sınanabilir" iddiam yarım doğruydu — olumsuz
+tarafı mekanik, olumlu tarafı değil.
+```
+
+---
+
+## ⚠️ DÜZELTME — Kolombo kararı doğru, GEREKÇESİ yanlıştı
+
+Koordinatör `girdi.py` kütüğüne şunu yazıyor:
+> `enklav:` bir DAVRANIŞ ANAHTARI değil, bir **HÜKÜM**. Etkisiz olması
+> yanlış olduğu anlamına gelmez — 13 işaretin 11'i şu an hiçbir şey yapmıyor
+> [MOTOR 3 ölçümü: yalnız Sebte ve Oran yetim yüz emiyor] ve yine de doğrular.
+
+🔴 Bu, benim Kolombo gerekçemi **geçersiz kılıyor.** Ben *"Kandy ve Yafna'nın
+noktası var ⇒ yutulacak yetim yok ⇒ bayrak gereksiz ⇒ işaretleme"* demiştim.
+Aynı mantık o 11 işaretin de silinmesini gerektirirdi.
+
+**DOĞRU GEREKÇE:** Portekiz Seylanı (1518-1656) surla çevrili bir dayanak
+değildi — Kotte krallığının ardılı olarak gerçek bir sahil toprağı
+yönetiyordu ve iç bölgede Kandy'yle sınırdaştı. ⇒ Kolombo **presidio değil,
+sömürge çekirdeğidir**; Menorka ve `fransa 1831-1923` ile aynı sınıf.
+Karar aynı, dayanağı başka: **geometrik etkisizlik değil, tarihî sınıf.**
+
+### Ve kendi "ayırt edici soru"mun sınırı
+*"Adadaki öteki sahiplerin noktası var mı"* sorusu bayrağın **ısırıp
+ısırmayacağını** tahmin eder, **doğru olup olmadığını değil.** İkisini
+Kolombo'da karıştırdım.
+⚠️ Tahmin gücü de zayıf: **Sebte'nin komşuları VAR** (Tanca 45 km,
+Cebelitarık 28 km) ama yine de yetim emiyor — çünkü yetim nokta yokluğundan
+değil **yaslama bölünmesinden** doğuyor. Soru yanlış şeyi ölçüyormuş.
+⇒ Nagazaki için de aynısı: "öteki dördün noktası var" demem hükmü değil
+beklenen etkiyi anlatıyordu. Tarihî hüküm ayrı durur ve nettir —
+1580-1587'de Cizvitlere devredilmiş bir liman, hinterlandı yok.
+
+**On üçüncü öz düzeltme.**

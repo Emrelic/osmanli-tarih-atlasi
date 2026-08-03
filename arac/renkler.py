@@ -121,7 +121,35 @@ BOYALAR = {
     #   yolu parlaklık/kroma; "farklı parlaklık" kısıtının doğrudan sonucu.
     # 23 engelin hepsinden ΔE ≥ 12 (en yakın: 17,1). `parma`ya 12,1 — komşu
     # DEĞİLLER (iran'ın 22 komşusu ölçüldü, Avrupa partisi içinde yok).
-    "iran":       ("İran",                   "#fe84c6"),
+    # 🔴 İKİNCİ KEZ DEĞİŞTİ — MARUZİYET ÖLÇÜSÜ (RENK, 2026-08-03).
+    # #b5885b (kahve) → #fe84c6 (mor aile) → #cc1664.
+    # İlk değişiklik kullanıcının "İran'ı üç ayrı devlet gibi göstermesin"
+    # kuralıydı. Bu ikincisi ONDAN FARKLI bir şeyden geldi: hiçbir eşik
+    # ihlal edilmiyordu, ama `iran` üç ayrı kimlikle UZUN sınırlar boyunca
+    # sınırda ΔE taşıyordu:
+    #     iran ↔ ilhanli  ΔE 14,8 · çizili sınır **97,58°**  ← en büyük maruziyet
+    #     iran ↔ afsar    ΔE 12,0 ·               26,46°
+    #     iran ↔ safevi   ΔE 12,7 ·                8,66°
+    #   Tek hamle üçünü birden açtı: 24,4 · 23,2 · 24,0.
+    #
+    # 📌 `ilhanli↔iran` BUGÜNE KADAR HİÇBİR ÖLÇÜMDE GÖRÜNMEMİŞTİ, çünkü ΔE'si
+    #   14,8 ile eşiğin rahat üstünde. Yalnız MARUZİYET ekseni eklenince
+    #   listenin başına çıktı. ⇒ Sıralama ölçütünü değiştirmek yalnız
+    #   öncelikleri değil, LİSTENİN KENDİSİNİ değiştiriyor.
+    # ⚠️ Ve gerekçe yanlış çifte dayanıyordu: `safevi↔iran`ı en büyük risk
+    #   sanmıştım (girdi ekseninde 101 tanık). Çıktı ekseninde ilk onda bile
+    #   değil — girdide her HÜCRE çifti ayrı sayılıyor, çıktıda hepsi tek
+    #   gövdeye birleşiyor. Hamle doğru çıktı ama gerekçesi yanlıştı; ikisi
+    #   ayrı şeydir ve kayda öyle geçiyor.
+    # ⇒ ÖLÇÜ: bir metrik, eksen değişince anlamını koruduğu VARSAYILAMAZ.
+    #   `renk_cikti.py` bu yüzden tanık sayısını değil SINIR UZUNLUĞUNU kullanır.
+    #
+    # `ilhanli` oynatılabilirdi (iran'dan 52,2'ye kadar açılıyor) ama
+    # dokunulmadı: yerleşik bir Anadolu/İran rengi ve `iran` hamlesi zaten
+    # üç çifti birden kapatıyor. En az sarsıcı olan seçildi.
+    # ÖLÇÜM: L* 65,6 · C* 35,3 · ton 4,1 · aile bandında (352°±18) ·
+    #   bütün komşulardan en dar ΔE 12,2 · altlıktan ayrık
+    "iran":       ("İran",                   "#cc1664"),
     # ═══ İRAN HANEDAN AİLESİ — afsar + kacar (RENK, 2026-08-03) ═══
     # Kullanıcı kararı: "afsar/zend/kacar, safevî ile AYNI RENK AİLESİ, farklı
     # parlaklık" · gerekçesi "ayrı renkler İran'ı üç ayrı devlet gibi gösterir".

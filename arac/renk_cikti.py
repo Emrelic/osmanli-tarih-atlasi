@@ -136,6 +136,14 @@ def denetle(guncel_palet=False):
           % ("renkler.py GÜNCEL palet — kestirim"
              if guncel_palet else "haritanın KENDİ yazdığı renk"))
     print("=" * 74)
+    # 🔴 TANIK KOLONU — ΔE tek başına öncelik ölçütü DEĞİL (PETEK/NOKTA'nın
+    #   "derinleşen çatışma" bulgusu, 2026-08-03). Aynı ΔE tek noktada
+    #   görünüyorsa zararsız, sınır boyunca görünüyorsa ciddi. Ölçülmüş vaka:
+    #     safevi↔iran  ΔE 12,7 · 101 tanık · 90,68° sınır  ← EN BÜYÜK maruziyet
+    #     afsar↔iran   ΔE 12,0 ·  12 tanık · 26,46°
+    #   ΔE'ye göre sıralansa `afsar↔iran` önce gelirdi; gerçek risk ötekiydi.
+    #   ⇒ Liste ΔE ile DEĞİL, ΔE × tanık ile sıralanır.
+    tanik = collections.defaultdict(lambda: [0, 0.0])
     degen, cakisan = set(), collections.defaultdict(set)
     for gun in KESIT:
         aktif = []
@@ -159,15 +167,55 @@ def denetle(guncel_palet=False):
                 ort = ag.intersection(bg)
                 if ort.is_empty or (ort.length < 1e-6 and ort.area < 1e-12):
                     continue
-                degen.add(tuple(sorted((ai, bi))))
+                cift = tuple(sorted((ai, bi)))
+                degen.add(cift)
+                tanik[cift][0] += 1
+                tanik[cift][1] += ort.length
                 d_e = dE(renk_lab(ai), renk_lab(bi))
                 if d_e < DE_KOMSU:
-                    cakisan[tuple(sorted((ai, bi)))].add(gun)
+                    cakisan[cift].add(gun)
                     n_cak += 1
         print("  %s: %3d gövde çizili · ΔE<%.0f değen çift %d"
               % (gun, len(aktif), DE_KOMSU, n_cak))
 
     print("\n  toplam DEĞEN kimlik çifti: %d" % len(degen))
+
+    # ── ③ SINIRDA OLANLAR — eşiği geçiyor ama maruziyeti büyük
+    # Eşiği geçmek "güvenli" demek değil: ΔE 12,7 bir noktada görünüyorsa
+    # sorun yok, uzun bir sınır boyunca görünüyorsa gözle ayırt edilemez.
+    #
+    # 🔴 MARUZİYET ÖLÇÜSÜ ÇIKTI EKSENİNDE **SINIR UZUNLUĞU**, TANIK SAYISI DEĞİL.
+    #   Ölçüldü ve iki eksen AYNI ŞEYİ ÖLÇMÜYOR:
+    #     girdi  (Voronoi hücreleri) safevi↔iran = 101 tanık · 90,68°
+    #     çıktı  (birleşik gövdeler) safevi↔iran =   1 tanık ·  8,66°
+    #   Sebep: girdide her HÜCRE ÇİFTİ ayrı sayılıyor; çıktıda o hücrelerin
+    #   hepsi TEK gövdeye birleşiyor ve tek (uzun) sınır olarak değiyorlar.
+    #   ⇒ Çıktıda tanık sayısı yapısal olarak küçük (çoğu çiftte 1-3); onunla
+    #     süzmek bütün uyarıları söndürürdü. Uzunluk taşınabilir ölçüdür.
+    #   📌 Bir metrik, eksen değişince anlamını koruduğu VARSAYILAMAZ.
+    sinirda = []
+    for cift in degen:
+        a, b = cift
+        if cift in cakisan:
+            continue
+        d_e = dE(renk_lab(a), renk_lab(b))
+        t, uz = tanik[cift]
+        if d_e < DE_KOMSU + 4 and uz >= 5.0:
+            sinirda.append((d_e / max(1.0, uz ** 0.5), d_e, a, b, t, uz))
+    if sinirda:
+        print("\n" + "=" * 74)
+        # ⚠️ BAŞLIK SÜZGEÇLE AYNI ŞEYİ SÖYLEMELİ. İlk yazımda "≥10 tanık"
+        #   yazıyordu ama süzgeç sınır uzunluğuna çevrilmişti — etiket kodla
+        #   çelişiyordu. Bugün gün boyu avladığımız sınıfın kendisi.
+        print("  ⚠️ SINIRDA — eşiği geçiyor ama SINIR UZUNLUĞU büyük")
+        print("     (ΔE < %.0f ve paylaşılan sınır ≥ 5°; ihlal DEĞİL, "
+              "öncelik uyarısı)" % (DE_KOMSU + 4))
+        print("=" * 74)
+        print("     %-19s %-19s %6s %7s %9s"
+              % ("a", "b", "ΔE", "tanık", "sınır°"))
+        for _, d_e, a, b, t, uz in sorted(sinirda)[:10]:
+            print("     %-19s %-19s %6.1f %7d %9.2f" % (a, b, d_e, t, uz))
+
     print("\n" + "=" * 74)
     if not cakisan:
         print("  ✓ ÇİZİLİ HARİTADA ΔE<%.0f DEĞEN ÇİFT YOK" % DE_KOMSU)
@@ -175,9 +223,19 @@ def denetle(guncel_palet=False):
     else:
         print("  🔴 %d ÇİFT ÇİZİLİ HARİTADA DEĞİYOR VE AYIRT EDİLEMİYOR:"
               % len(cakisan))
-        for (a, b), gunler in sorted(cakisan.items()):
-            print("     %-20s ↔ %-20s  kesitler: %s"
-                  % (a, b, ", ".join(sorted(gunler))))
+        # 🔴 ΔE ile DEĞİL, ΔE × tanık ile sıralanır — bkz. yukarıdaki kütük.
+        # ΔE ile DEĞİL, ΔE ÷ √sınır ile sıralanır — uzun sınır boyunca görünen
+        # marjinal bir çift, tek noktada görünen daha kötü ΔE'den önce gelir.
+        sirali = sorted(cakisan.items(),
+                        key=lambda x: dE(renk_lab(x[0][0]), renk_lab(x[0][1]))
+                        / max(1.0, tanik[x[0]][1] ** 0.5))
+        print("     %-19s %-19s %6s %7s %9s"
+              % ("a", "b", "ΔE", "tanık", "sınır°"))
+        for (a, b), gunler in sirali:
+            t, uz = tanik[(a, b)]
+            print("     %-19s %-19s %6.1f %7d %9.2f   %s"
+                  % (a, b, dE(renk_lab(a), renk_lab(b)), t, uz,
+                     ", ".join(sorted(gunler))))
     print("=" * 74)
     return len(sapma), len(cakisan)
 
