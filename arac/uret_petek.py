@@ -1901,6 +1901,94 @@ print(f"  {len(BOLGELER)} bölge → data/bolgeler.js ({os.path.getsize(_byol)//
 # ---------------- Yabancı devlet gövdeleri ----------------
 # Her boya kimliği için: o kimliğe s dönemi olan hücrelerden, Osmanlı d/v'nin
 # AKTİF OLMADIĞI aralıklarda birleşik gövde üretilir → data/devletler_harita.js
+# 🔴 ÇIKTI KIYASININ İKİNCİ EKSENİ — ölçüldüğü için eklendi, tahminle değil.
+# `URETIM_OLCU` ilk yazıldığında YALNIZ Osmanlı `ao`/`av` ölçüyordu. Koşu 5'te
+# sınandı ve kör noktası KANITLANDI: o koşuda iki büyük yapısal değişiklik
+# vardı — yetim emilim ölçütü (78.368 km² yer değiştirdi) ve `iran`ın üçe
+# bölünmesi (123 kayıt) — ve kıyas İKİSİNİ DE GÖREMEDİ, "2/9 kesit, %0,0"
+# dedi. Sebep tek: değişikliklerin ~%98'i YABANCI gövdelerde, kıyas ise
+# Osmanlı eksenini ölçüyordu.
+# 📌 Genel kural (koordinatör, 3 Ağustos): *bir denetim, ölçtüğü eksenin
+#    dışında hiçbir şey söylemez — ve o eksen künyesine yazılmazsa okuyan
+#    onu "her şey" sanar.* Bu yüzden aşağıda yalnız sayı değil KAPSAM da
+#    künyeye yazılıyor.
+# ⚠️ Alan YALNIZ kesit tarihlerini kapsayan dönemler için hesaplanıyor:
+#    1.966 gövdenin tamamına `alan_km2` koşturmak ~20 sn tutardı, oysa
+#    dokuz kesit için birkaç yüz hesap yetiyor.
+OLCU_KESIT = ["1300-06-15", "1400-06-15", "1453-05-29", "1500-06-15",
+              "1517-07-06", "1600-06-15", "1700-06-15", "1800-06-15",
+              "1900-06-15"]
+_DEV_ALAN = []          # (f, t, km²) — yalnız künye için; ÇIKTIYA YAZILMAZ
+
+
+# 🔴 ESKİ ÇIKTIDAN TABAN — ve NİÇİN TAM BURADA.
+# Kıyas aşaması koşunun SONUNDA çalışıyor, oysa `devletler_harita.js` bu
+# bloğun sonunda ÜZERİNE YAZILIYOR. Yani taban orada aranırsa YENİ dosya
+# okunur ve kıyas kendini kendiyle karşılaştırır — sessizce "fark yok" der.
+# Bu yüzden eski dosya, üzerine yazılmadan ÖNCE burada okunuyor.
+# ⚠️ Yalnız bir kez ödenir: önceki künyede `yabanci` varsa 40 MB hiç açılmaz.
+def _eski_yabanci_taban():
+    _dy = os.path.join(KOK, "data", "donemler.js")
+    if os.path.exists(_dy):
+        try:
+            _e = io.open(_dy, encoding="utf-8").read()
+            _i = _e.find("window.URETIM_OLCU = ")
+            if _i >= 0:
+                _o = json.loads(_e[_i + 21:_e.find(";\n", _i)])
+                if _o.get("yabanci"):
+                    return None          # künyede zaten var, türetmeye gerek yok
+        except Exception:
+            pass
+    _dh = os.path.join(KOK, "data", "devletler_harita.js")
+    if not os.path.exists(_dh):
+        return None
+    _t0 = time.time()
+    try:
+        _s = io.open(_dh, encoding="utf-8").read()
+
+        def _al(ad):
+            _a = "window." + ad + " = "
+            _i = _s.find(_a)
+            return json.loads(_s[_i + len(_a):_s.find(";\n", _i)]) if _i >= 0 else None
+
+        _hav, _dev = _al("DEVLET_PARCALAR"), _al("DEVLET_HARITA")
+        if _hav is None or _dev is None:
+            return None
+    except Exception as _e2:
+        print(f"  eski yabancı taban okunamadı: {_e2}")
+        return None
+    _pa = {}
+
+    def _parca_km2(j):
+        if j in _pa: return _pa[j]
+        T = 0.0
+        for _r, _sg in [(_hav[j][0], 1)] + [(h, -1) for h in _hav[j][1:]]:
+            _s2 = 0.0
+            for _k in range(len(_r) - 1):
+                lo1, la1 = math.radians(_r[_k][0]), math.radians(_r[_k][1])
+                lo2, la2 = math.radians(_r[_k+1][0]), math.radians(_r[_k+1][1])
+                _s2 += (lo2 - lo1) * (2 + math.sin(la1) + math.sin(la2))
+            T += _sg * abs(_s2 * R_DUNYA * R_DUNYA / 2)
+        _pa[j] = T
+        return T
+
+    _out = {}
+    for _g in OLCU_KESIT:
+        _tp = 0
+        for _d in _dev:
+            for _p in _d["dnm"]:
+                if _p["f"] <= _g < _p["t"]:
+                    # alan_km2 ile AYNI: gövde başına yuvarla, sonra topla
+                    _tp += int(round(sum(_parca_km2(j) for j in _p["g"]), -3))
+                    break
+        _out[_g] = _tp
+    print(f"  eski yabancı taban türetildi ({time.time()-_t0:.0f}sn, "
+          f"{len(_dev)} devlet · {len(_hav)} parça) — kıyas ilk koşuda çalışacak")
+    return _out
+
+
+_ESKI_YABANCI = _eski_yabanci_taban()
+
 asama("Yabancı devlet gövdeleri")
 def _osm_aktif(y, a):
     return (any(dn["f"] <= a < dn["t"] for dn in y["d"]) or
@@ -2002,6 +2090,8 @@ for _dv_i, (did, (dad, renk)) in enumerate(BOYALAR.items(), 1):
         rp = g.representative_point()
         dnm.append({"f": a, "t": b, "g": havuza(mp_koord(g), DEV_HAVUZ, DEV_IX),
                     "c": [round(rp.x, 2), round(rp.y, 2)]})
+        if any(a <= _kg < b for _kg in OLCU_KESIT):
+            _DEV_ALAN.append((a, b, alan_km2(g)))
         sayac("yabancı gövde geometrisi", time.time() - _t_gv)
     if dnm: DEVLET_KAYIT.append({"id": did, "ad": dad, "renk": renk, "dnm": dnm})
 _dyol = os.path.join(KOK, "data", "devletler_harita.js")
@@ -2233,9 +2323,11 @@ js += ("window.VERI_SINIRI = "
 # ⚠️ BU BİR KAPI DEĞİL, TEŞHİSTİR: üretimi DURDURMAZ, hüküm VERMEZ.
 # "Bu sapma meşru mu" sorusunun cevabı her seferinde insanda kalır —
 # bugün olduğu gibi. Rapor eder, yorumlamaz.
-OLCU_KESIT = ["1300-06-15", "1400-06-15", "1453-05-29", "1500-06-15",
-              "1517-07-06", "1600-06-15", "1700-06-15", "1800-06-15",
-              "1900-06-15"]
+def _yabanci_g(g):
+    """g gününde boyalı YABANCI toplam (Osmanlı dışı), km².
+    ⚠️ Osmanlı d/v aktifken o petek zaten yabancı gövdeye girmiyor
+    (`_osm_aktif` bastırıyor), yani çifte sayım yok."""
+    return sum(al for f, t, al in _DEV_ALAN if f <= g < t)
 
 
 def _alan_g(dnm, g):
@@ -2268,7 +2360,12 @@ def _onceki_olcu():
             return None
 
     o = _pencere("URETIM_OLCU")
-    if o: return o
+    if o:
+        # `yabanci` ekseni sonradan eklendi; eski künyede yoksa koşunun
+        # BAŞINDA eski devletler_harita.js'ten türetilen taban kullanılır.
+        if not o.get("yabanci") and _ESKI_YABANCI:
+            o["yabanci"] = _ESKI_YABANCI
+        return o
     d = _pencere("DONEMLER")
     if not d: return None
     return {"donem": len(d),
@@ -2277,7 +2374,14 @@ def _onceki_olcu():
 
 asama("Çıktı kıyası (geçen koşuya göre)")
 _OLCU = {"donem": len(donemler), "nokta": len(YERLER),
-         "kesit": {g: list(_alan_g(donemler, g)) for g in OLCU_KESIT}}
+         "kesit": {g: list(_alan_g(donemler, g)) for g in OLCU_KESIT},
+         "yabanci": {g: _yabanci_g(g) for g in OLCU_KESIT},
+         # 🔴 KAPSAM KÜNYEYE YAZILIR — bu satır olmadan okuyan, ölçülmeyeni
+         # "değişmemiş" sanar. Koşu 5'te tam bu oldu.
+         "kapsam": ("ao=Osmanlı doğrudan · av=tâbi · yabanci=Osmanlı dışı "
+                    "boyalı toplam · 9 kesit örneklenir, ARALARI ÖLÇÜLMEZ "
+                    "(ör. 1865-1885 penceresi hiçbir kesite düşmüyor) · "
+                    "alanlar 1.000 km²'ye yuvarlı, ±1.000 gürültü tabanıdır")}
 _esk = _onceki_olcu()
 if _esk is None:
     print("  önceki çıktı yok ya da ölçüsü okunamadı — KIYAS YAPILAMADI")
@@ -2298,6 +2402,18 @@ else:
         print(f"    {_g}   doğrudan {_a[0]:>11,} → {_b[0]:>11,} km²  "
               f"{_d:>+11,} ({_p:+5.1f}%)")
         if _d: _oyn.append((_g, _d, _p))
+        # ikinci eksen — koşu 5'te ölçülen kör noktanın kapağı
+        _ya = (_esk.get("yabanci") or {}).get(_g)
+        _yb = _OLCU["yabanci"][_g]
+        if _ya is None:
+            print(f"                 YABANCI            —  → {_yb:>11,} km²"
+                  f"   (önceki koşuda ölçülmemiş, TABAN kuruluyor)")
+        else:
+            _yd = _yb - _ya
+            _yp = (_yd / _ya * 100) if _ya else 0.0
+            print(f"                 YABANCI {_ya:>11,} → {_yb:>11,} km²  "
+                  f"{_yd:>+11,} ({_yp:+5.1f}%)")
+            if _yd: _oyn.append((_g + " (yabancı)", _yd, _yp))
     # ⚠️ İLK SAPMA GÜNÜ — teşhisi veren satır budur, toplam fark değil.
     _ilk = None
     for _d in donemler:
@@ -2312,7 +2428,10 @@ else:
         _en = max(_oyn, key=lambda x: abs(x[1]))
         print(f"  → SAPMA VAR: {len(_oyn)}/{len(OLCU_KESIT)} kesit oynadı · "
               f"en büyük {_en[0]} tarihinde {_en[1]:+,} km² ({_en[2]:+.1f}%)")
-        _once = [g for g in OLCU_KESIT if g < _oyn[0][0]]
+        # ⚠️ Etiket "1300-06-15 (yabancı)" olabilir; kıyas TARİH kısmıyla
+        # yapılmalı, yoksa dize karşılaştırması kendi kesitini de "önceki"
+        # sayar ve "ondan önceki N kesitte fark YOK" satırı yanlış çıkar.
+        _once = [g for g in OLCU_KESIT if g < _oyn[0][0][:10]]
         print(f"  → ilk oynayan kesit {_oyn[0][0]}"
               + (f"; ondan önceki {len(_once)} kesitte fark YOK" if _once else "")
               + (f" · ilk sapan dönem başlangıcı {_ilk[0]} ({_ilk[1]:+,} km²)"
