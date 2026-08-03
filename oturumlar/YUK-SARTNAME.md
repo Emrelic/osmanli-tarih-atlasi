@@ -9,26 +9,38 @@
 
 `index.html` 41 betiği **eager** (hepsi, peşin) yüklüyor:
 
-```
-data/devletler_harita.js    37,9 MB   ┐
-data/donemler.js            25,6 MB   ┘  ikisi = %92,6
-data/altlik.js               4,2 MB
-kalan 38 dosya               2,5 MB
-────────────────────────────────────
-TOPLAM                      70,2 MB      dosya baytı toplamı
-```
-
-🔴 **Bu satırlar TAHMİN değil dosya baytıdır; ARAYÜZ 2 ağdan ÖLÇTÜ ve
-gerçek sayı daha yüksek çıktı** — `oturumlar/YUK-OLCU.md`:
+🔴 **BU BELGEDE BÜTÜN BAYTLAR 1000-TABANLI MB'DİR.** Birim yazılmayan sayı,
+ölçüsü yazılmayan denetim gibidir — aşağıda niçin.
 
 ```
-                     koordinatörün kâğıt hesabı   ARAYÜZ 2 ölçtü
-açılışta inen ham              70,2 MB               73,64 MB
-gzip                          ~18 MB                 18,90 MB
-heap                          ~350 MB                 453 MB   🔴
+data/devletler_harita.js    39,76 MB   ┐
+data/donemler.js            26,82 MB   ┘  ikisi = %90,4
+data/altlik.js               4,41 MB
+kalan 38 dosya               2,61 MB
+─────────────────────────────────────
+TOPLAM                      73,60 MB
 ```
-📌 Heap tahminim yalnız koordinat dizilerini sayıyordu; DOM, MapLibre ve
-uygulama durumu üstüne biniyor. **Ölçülen sayı esastır, benimki değil.**
+
+### ⚠️ ÜÇ OTURUM ÜÇ FARKLI SAYI SÖYLEDİ — hepsi doğruydu, birim farklıydı
+```
+                      söylenen        gerçekte
+koordinatör (ben)     70,2 "MB"       70,19 MiB  = 73,60 MB
+MOTOR 3               65,57 MB        havuzlar, 1000 tabanlı
+ARAYÜZ 2 (ağdan)      73,64 MB        1000 tabanlı
+```
+📌 Benim sayım hiç yanlış değildi: **MiB ölçüp "MB" yazmışım.** ARAYÜZ'ün
+ağ ölçümüyle farkı **0,04 MB** — yani aynı sayı.
+🔴 `909/1019/1811` dersinin küçük kardeşi: **uyuşmazlık ölçünün ADINDAYDI.**
+Ağ araçları ondalık MB kullanır, Windows Gezgini 1024 kullanıp "MB" yazar;
+karışıklık oradan geliyor. ⇒ Bu belgede birim **her zaman** yazılır.
+
+### 🔴 GERÇEKTEN YANILDIĞIM TEK SAYI: BELLEK
+```
+                 tahminim      ARAYÜZ 2 ölçtü
+heap             ~350 MB          453 MB
+```
+Tahminim yalnız koordinat dizilerini sayıyordu; DOM, MapLibre ve uygulama
+durumu üstüne biniyor. **Ölçülen sayı esastır.**
 
 ### Ağırlık dosyalarda DEĞİL, iki havuzda
 
