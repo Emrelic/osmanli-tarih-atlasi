@@ -9,44 +9,58 @@
 </head>
 <body>
 <header id="ustbar">
+  <!-- p2/H-0010 — kullanıcı: "Hakkında butonuna artık gerek yok. Buradaki
+       butonları tek bir 'butonları aç' butonuna tıklanınca dizilecek şekilde
+       saklayalım. İmparatorluk combobox'ını da üst çubuğa alalım."
+       Düzen soldan sağa: [butonları aç] · orta (tarih+dönem) · bölge · YIL ·
+       başlık. Hakkında (proje künyesi + BEKLEYENLER tablosu) TAMAMEN
+       kaldırıldı — js/app.js'teki hakkindaKur ve eşleri de silindi. -->
+  <button id="btn-menu" title="Araç düğmelerini göster/gizle">☰ Butonlar</button>
+  <div id="menu-butonlar" class="gizli">
+    <button id="btn-dizin" title="Kişi, savaş ve antlaşma dizinleri">📚 Dizin</button>
+    <button id="btn-cografya" title="Kendi coğrafya katmanımız: kara, göl, nehir, dağ. Açılınca Esri altlığı kapanır — altlığın bize geçtiğinde nasıl görüneceği.">🗺 Coğrafya</button>
+    <button id="btn-motorhat" title="Motorun sınırları yasladığı hatlar: gördüğü nehirler (camgöbeği) ve dağ konturları (turuncu). Kesikli çizilir, sınırla karışmasın.">📐 Motor hatları</button>
+    <!-- Veri sınırı: üretim penceresinin (BOLGE) kenarı. Kullanıcı beş kez
+         "burası neden boş" diye sordu; beşi de bu kutunun iki kenarıydı
+         (Orta Asya 62°D'nin doğusu, kuzey İskandinavya 62°K'nin kuzeyi).
+         Çizgi açıkken cevap ekranda oluyor. Dikdörtgen olması kasıtlı:
+         hiçbir siyasî/tabiî sınır tam dikdörtgen değildir. -->
+    <button id="btn-verisiniri" title="Atlasın veri sınırı: bu dikdörtgenin ötesi henüz atlasa dâhil değil. Boş görünen yerlerin sebebi budur.">▦ Veri sınırı</button>
+    <button id="btn-tamekran" title="Tam ekran (F11)">⛶</button>
+  </div>
+  <div id="ustbar-orta">
+    <span id="ustbar-tarih"></span>
+    <span id="donem-etiketi"></span>
+  </div>
+  <div id="bolge-secici">
+    <select id="bolge" title="Bölgeye yakınlaş">
+      <option value="">🌍 Tüm imparatorluk</option>
+      <option value="anadolu">Anadolu</option>
+      <option value="rumeli">Rumeli / Balkanlar</option>
+      <option value="avrupa">Orta Avrupa (Macaristan)</option>
+      <option value="ege">Ege ve adalar</option>
+      <option value="karadeniz">Karadeniz kuzeyi / Rus sınırı</option>
+      <option value="kafkas">Kafkasya ve İran sınırı</option>
+      <option value="suriye">Suriye ve Irak</option>
+      <option value="hicaz">Hicaz ve Yemen</option>
+      <option value="misir">Mısır ve Sudan</option>
+      <option value="afrika">Kuzey Afrika</option>
+    </select>
+  </div>
+  <div id="ustbar-yil"></div>
   <h1>🕌 Osmanlı Tarih Atlası <span class="alt">1281–1923</span></h1>
-  <button id="btn-dizin" title="Kişi, savaş ve antlaşma dizinleri">📚 Dizin</button>
-  <!-- Hakkında: proje künyesi + BEKLEYENLER.md'den üretilen "senden bakılması
-       istenenler" tablosu. Tablo elle KOPYALANMIYOR — data/bekleyenler.js
-       arac/uret_bekleyenler.py tarafından md'den üretiliyor. İki nüsha olsaydı
-       iki otorite doğar ve ayrışırdı (bugün üç yerde yaşandı). -->
-  <button id="btn-hakkinda" title="Proje künyesi ve senden bakması beklenen işler">ℹ️ Hakkında</button>
-  <button id="btn-cografya" title="Kendi coğrafya katmanımız: kara, göl, nehir, dağ. Açılınca Esri altlığı kapanır — altlığın bize geçtiğinde nasıl görüneceği.">🗺 Coğrafya</button>
-  <button id="btn-motorhat" title="Motorun sınırları yasladığı hatlar: gördüğü nehirler (camgöbeği) ve dağ konturları (turuncu). Kesikli çizilir, sınırla karışmasın.">📐 Motor hatları</button>
-  <!-- Veri sınırı: üretim penceresinin (BOLGE) kenarı. Kullanıcı beş kez
-       "burası neden boş" diye sordu; beşi de bu kutunun iki kenarıydı
-       (Orta Asya 62°D'nin doğusu, kuzey İskandinavya 62°K'nin kuzeyi).
-       Çizgi açıkken cevap ekranda oluyor. Dikdörtgen olması kasıtlı:
-       hiçbir siyasî/tabiî sınır tam dikdörtgen değildir. -->
-  <button id="btn-verisiniri" title="Atlasın veri sınırı: bu dikdörtgenin ötesi henüz atlasa dâhil değil. Boş görünen yerlerin sebebi budur.">▦ Veri sınırı</button>
-  <button id="btn-tamekran" title="Tam ekran (F11)">⛶</button>
-  <div id="donem-etiketi"></div>
 </header>
 
 <main id="govde">
   <div id="harita">
     <button id="btn-panel" title="Yan paneli gizle/göster (haritayı büyüt)">⇥ Panel</button>
-    <!-- Bölge önayarları: seçilen bölgeye yakınlaşır, oradaki yerleşimler açılır -->
-    <div id="bolge-secici">
-      <select id="bolge" title="Bölgeye yakınlaş">
-        <option value="">🌍 Tüm imparatorluk</option>
-        <option value="anadolu">Anadolu</option>
-        <option value="rumeli">Rumeli / Balkanlar</option>
-        <option value="avrupa">Orta Avrupa (Macaristan)</option>
-        <option value="ege">Ege ve adalar</option>
-        <option value="karadeniz">Karadeniz kuzeyi / Rus sınırı</option>
-        <option value="kafkas">Kafkasya ve İran sınırı</option>
-        <option value="suriye">Suriye ve Irak</option>
-        <option value="hicaz">Hicaz ve Yemen</option>
-        <option value="misir">Mısır ve Sudan</option>
-        <option value="afrika">Kuzey Afrika</option>
-      </select>
-    </div>
+    <!-- Bölge önayarları p2/H-0010 ile üst çubuğa taşındı (id="bolge" aynı,
+         yalnız DOM konumu değişti — js/app.js id üzerinden çalışıyor). -->
+    <!-- p2/H-0006 — kullanıcı: "sağdaki kronoloji sütunu kapatılabilir ve tam
+         ekran harita bakılabilir olmalı. Sütun kapatılırsa kronoloji başlığı
+         haritanın en altında ... sene, tarih ve olay başlığı ile görünsün."
+         #btn-panel ile aynı tıkta yönetiliyor (js/app.js). -->
+    <div id="kronoloji-serit" class="gizli"></div>
   </div>
 
   <aside id="yanpanel">
@@ -122,14 +136,6 @@
     <p id="detay-metin"></p>
     <a id="detay-kaynak" target="_blank" rel="noopener"></a>
     <button id="detay-git">📍 Bu tarihe git</button>
-  </div>
-</div>
-
-<div id="hakkinda" class="gizli">
-  <div id="hakkinda-kutu">
-    <button id="hakkinda-kapat" title="Kapat">✕</button>
-    <h3>ℹ️ Hakkında</h3>
-    <div id="hakkinda-icerik"></div>
   </div>
 </div>
 

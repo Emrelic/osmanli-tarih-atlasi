@@ -20,6 +20,9 @@ body {
 }
 
 /* ---------- Üst bar (ince: dikey alan haritaya kalsın) ---------- */
+/* p2/H-0010 — kullanıcının tarif ettiği düzen, soldan sağa:
+   [butonları aç] · orta (tarih+dönem) · bölge combobox · YIL (kocaman) ·
+   "Osmanlı Tarih Atlası" başlığı. Hakkında düğmesi TAMAMEN kaldırıldı. */
 #ustbar {
   display: flex;
   align-items: center;
@@ -29,9 +32,41 @@ body {
   color: #f3e6c8;
   border-bottom: 2px solid var(--altin);
   flex: 0 0 auto;
+  position: relative;   /* #menu-butonlar bunun altına asılıyor */
 }
-#ustbar h1 { font-size: 15px; letter-spacing: 0.3px; white-space: nowrap; }
+#ustbar h1 { font-size: 15px; letter-spacing: 0.3px; white-space: nowrap; flex: 0 0 auto; }
 #ustbar .alt { font-weight: normal; font-size: 12px; opacity: 0.8; }
+
+#btn-menu {
+  background: #f3e6c8;
+  border: 1px solid var(--altin);
+  border-radius: 6px;
+  padding: 3px 10px;
+  font-size: 12.5px;
+  cursor: pointer;
+  white-space: nowrap;
+  flex: 0 0 auto;
+}
+#btn-menu:hover { background: #ffe9a8; }
+/* Araç düğmeleri artık akışta değil — açılınca üst barın altına asılan bir
+   panel. Böylece açıp kapatmak diğer öğeleri (orta, bölge, yıl) ötelemiyor. */
+#menu-butonlar {
+  position: absolute;
+  top: 100%;
+  left: 8px;
+  z-index: 20;
+  margin-top: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  max-width: min(520px, calc(100vw - 16px));
+  background: #3a0f18;
+  border: 1px solid var(--altin);
+  border-radius: 8px;
+  padding: 8px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.4);
+}
+#menu-butonlar.gizli { display: none; }
 #btn-dizin, #btn-tamekran, #btn-cografya, #btn-motorhat, #btn-verisiniri {
   background: #f3e6c8;
   border: 1px solid var(--altin);
@@ -53,15 +88,54 @@ body {
   box-shadow: inset 0 1px 3px rgba(0,0,0,0.25);
 }
 #btn-tamekran { padding: 3px 8px; font-size: 14px; }
+
+/* Orta: tarih + dönem/kronoloji başlığı — geri kalan alanı paylaşıyor ki
+   YIL ve başlık sağda sabit kalsın. */
+#ustbar-orta {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 8px;
+  overflow: hidden;
+}
+#ustbar-tarih {
+  font-size: 13px;
+  color: #f3e6c8;
+  white-space: nowrap;
+  flex: 0 0 auto;
+}
 #donem-etiketi {
-  margin-left: auto;
   font-size: 13px;
   font-style: italic;
   color: #e8d9a8;
-  text-align: right;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  min-width: 0;
+}
+
+/* Bölge combobox'ı p2/H-0010 ile haritanın üstünden üst çubuğa taşındı. */
+#bolge-secici { flex: 0 0 auto; }
+#bolge {
+  background: rgba(247, 241, 227, 0.94);
+  border: 1px solid var(--altin);
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-size: 12.5px;
+  cursor: pointer;
+  max-width: 210px;
+}
+
+/* YIL — kullanıcının kendi tarifi: "en sağda KOCAMAN, kalın, vurgulu." */
+#ustbar-yil {
+  flex: 0 0 auto;
+  font-size: 22px;
+  font-weight: 800;
+  color: #ffd700;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+  letter-spacing: 0.5px;
 }
 
 /* ---------- Gövde ---------- */
@@ -83,6 +157,44 @@ body {
   cursor: pointer;
 }
 #btn-panel:hover { background: #ffe9a8; }
+
+/* p2/H-0006 — panel katlanınca kronoloji tamamen kaybolmasın diye haritanın
+   en altında ince bir özet şerit. Yalnız #yanpanel .katli iken görünür
+   (js/app.js btn-panel tıklamasında sınıfı birlikte yönetiyor). */
+#kronoloji-serit {
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  z-index: 6;
+  background: rgba(43, 35, 19, 0.86);
+  color: #f3e6c8;
+  font-size: 13px;
+  padding: 6px 14px;
+  text-align: center;
+  pointer-events: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#kronoloji-serit.gizli { display: none; }
+
+/* p2/H-0024 — bölge parlama, basılı tutunca çıkan ad etiketi */
+.bolge-parlama-etiket {
+  position: absolute;
+  transform: translate(-50%, -130%);
+  z-index: 7;
+  background: rgba(43, 35, 19, 0.9);
+  color: #ffd700;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 3px 9px;
+  border-radius: 5px;
+  border: 1px solid #ffd700;
+  white-space: nowrap;
+  pointer-events: none;
+  display: none;
+}
+#kronoloji-serit .ks-sene { font-weight: bold; color: #ffd700; margin-right: 8px; }
+#kronoloji-serit .ks-tarih { color: #d8c9a3; margin-right: 8px; }
 
 #yanpanel {
   flex: 0 0 clamp(280px, 24vw, 380px);
@@ -366,6 +478,11 @@ body {
   flex-direction: column;
   gap: 4px;
   pointer-events: none;
+  /* p2/H-0017+H-0021: sembol bölümü eklenince lejant harita boyunu aşabiliyor.
+     Kaydırma gerektiği için bu panel içinde pointer-events tekrar açılıyor. */
+  max-height: calc(100% - 84px);
+  overflow-y: auto;
+  pointer-events: auto;
 }
 .lejant.kapali { display: none; }
 .lejant i {
@@ -376,6 +493,29 @@ body {
   border-radius: 2px;
   opacity: 0.75;
 }
+.lejant i.lj-nokta {
+  border-radius: 50%;
+  background: #2b1006;
+  border: 1.5px solid #f7f1e3;
+  opacity: 1;
+  vertical-align: middle;
+}
+.lejant b.lj-sim {
+  display: inline-block;
+  width: 14px;
+  margin-right: 5px;
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+}
+.lejant-baslik {
+  font-weight: bold;
+  color: #6d0d1c;
+  margin-top: 4px;
+  border-top: 1px solid rgba(109, 13, 28, 0.25);
+  padding-top: 4px;
+}
+.lejant-baslik:first-child { margin-top: 0; border-top: none; padding-top: 0; }
 #alan-goster {
   border-top: 1px solid #d8c9a3;
   padding-top: 4px;
@@ -480,22 +620,7 @@ body {
 #harita.cok-uzak .sehir .s-nokta { width: 6px; height: 6px; }
 /* Ediniliş simgesi (⚔ ♜ 📜 🤝 🏰) uzakta okunmuyor, yalnız kalabalık yapıyor. */
 #harita.cok-uzak .sehir .s-yontem { display: none; }
-/* Bölge seçici */
-#bolge-secici {
-  position: absolute;
-  top: 8px;
-  left: 50px;
-  z-index: 9;
-}
-#bolge {
-  background: rgba(247, 241, 227, 0.94);
-  border: 1px solid var(--altin);
-  border-radius: 6px;
-  padding: 4px 8px;
-  font-size: 12.5px;
-  cursor: pointer;
-  max-width: 210px;
-}
+/* Bölge seçici stili artık üst barda tanımlı (p2/H-0010) — bkz. dosya başı. */
 .sehir.d2 .s-nokta { width: 9px; height: 9px; }
 .sehir.d2 .s-ad { font-size: 12px; font-weight: bold; }
 .sehir.d3 .s-nokta {
@@ -504,7 +629,16 @@ body {
   border-color: #ffd700;
 }
 .sehir.d3 .s-ad { font-size: 13.5px; font-weight: bold; color: #4d0713; }
-.sehir.baskent .s-ad::after { content: " ⭐"; font-size: 11px; }
+/* p2/H-0008 — kullanıcı: "hem yıldız hem kırmızı yuvarlak var, bir tane olmalı
+   noktasal olarak." İkisi aynı şehri iki ayrı sembolle işaretliyordu: kırmızı
+   .s-nokta dairesi VE ada eklenen " ⭐" son eki. Başkentte nokta tamamen
+   yıldıza dönüşüyor, ada ayrı yıldız eklenmiyor — TEK sembol kalıyor. */
+.sehir.baskent .s-nokta {
+  width: auto; height: auto;
+  background: none; border: none; box-shadow: none; border-radius: 0;
+  font-size: 13px; line-height: 1;
+}
+.sehir.baskent .s-nokta::after { content: "⭐"; }
 .sehir .s-yontem {
   font-size: 13px;
   line-height: 1;
@@ -759,50 +893,9 @@ body {
 #btn-zoom.pasif { opacity: 0.45; }
 
 /* ---------- Dizin penceresi ---------- */
-/* ---------- Hakkında penceresi ---------- */
-/* `#dizin`in aynı deseni — yeni bir kalıp icat edilmiyor. Kullanıcı bir modal
-   davranışını zaten biliyor; ikinci bir tür öğrenmek zorunda kalmasın. */
-#hakkinda {
-  position: fixed; inset: 0; background: rgba(0,0,0,0.55);
-  display: flex; align-items: center; justify-content: center; z-index: 60;
-}
-#hakkinda.gizli { display: none; }
-#hakkinda-kutu {
-  background: var(--panel); border: 2px solid var(--altin); border-radius: 10px;
-  width: min(820px, 94vw); max-height: 84vh;
-  display: flex; flex-direction: column; padding: 16px 20px; position: relative;
-  box-shadow: 0 8px 30px rgba(0,0,0,0.5);
-}
-#hakkinda-kutu h3 { margin-bottom: 10px; }
-#hakkinda-kapat {
-  position: absolute; top: 8px; right: 10px; border: none; background: none;
-  font-size: 18px; cursor: pointer; color: #6b5a33;
-}
-#hakkinda-icerik { overflow-y: auto; min-height: 0; font-size: 13px; line-height: 1.45; }
-.hk-blok { margin-bottom: 16px; }
-.hk-blok h4 {
-  font-size: 13.5px; color: #6b4a1f; margin-bottom: 6px;
-  border-bottom: 1px solid #d8c9a3; padding-bottom: 3px;
-}
-.hk-blok p { margin-bottom: 6px; }
-.hk-kucuk { font-size: 11.5px; color: #8a6d2f; }
-.hk-uyari { color: #8c0f26; font-size: 12px; }
-/* Açık iş sayısı — menü açılmadan görünsün. */
-.hk-rozet {
-  display: inline-block; min-width: 17px; padding: 0 5px;
-  background: var(--osmanli-kirmizi); color: #fff;
-  border-radius: 9px; font-size: 11px; font-weight: 600; text-align: center;
-}
-/* ⚠️ Tablo GENİŞ olabilir (dört sütun, uzun cümleler). Kutu taşmasın diye
-   kendi içinde yatay kaydırılıyor; sayfa gövdesi asla yana kaymamalı. */
-.hk-tablo { width: 100%; border-collapse: collapse; font-size: 12px; }
-.hk-tablo th, .hk-tablo td {
-  border: 1px solid #d8c9a3; padding: 4px 6px; text-align: left; vertical-align: top;
-}
-.hk-tablo th { background: var(--panel-koyu); font-size: 11.5px; color: #6b5a33; }
-.hk-tablo td:first-child, .hk-tablo th:first-child { width: 28px; text-align: center; }
-.hk-tablo td:last-child, .hk-tablo th:last-child { width: 44px; text-align: center; }
-
+/* p2/H-0010: Hakkında penceresi (proje künyesi + BEKLEYENLER tablosu) ve
+   düğmesi TAMAMEN kaldırıldı — kullanıcı: "Hakkında butonuna artık gerek
+   yok." Stilleri de (.hk-*) bu yüzden burada değil. */
 #dizin {
   position: fixed;
   inset: 0;
@@ -872,20 +965,6 @@ body {
 .dz-satir .dz-sag { color: #6b5a33; font-size: 12px; text-align: right; max-width: 260px; }
 .dz-satir.tikla { cursor: pointer; }
 .dz-satir.tikla:hover { background: #fdf3d7; }
-
-/* harita üstü uyarı rozeti */
-.taslak-rozet {
-  position: absolute;
-  bottom: 26px;
-  left: 8px;
-  z-index: 5;
-  background: rgba(43, 35, 19, 0.75);
-  color: #f3e6c8;
-  font-size: 11px;
-  padding: 3px 8px;
-  border-radius: 5px;
-  pointer-events: none;
-}
 
 /* dar ekran */
 @media (max-width: 900px) {

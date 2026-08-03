@@ -772,6 +772,30 @@ harita.on("load", function () {
   harita.addLayer({ id: "bolge-cizgi", type: "line", source: "bolge", minzoom: 5.2,
     paint: { "line-color": "#5a3a24", "line-width": 0.9, "line-opacity": 0.5,
              "line-dasharray": [2, 3] } });
+  // Görünmez tıklama hedefi: bolge-cizgi yalnız ÇİZGİ, gövdenin içine
+  // tıklanınca hiçbir şey yakalanmazdı. opacity:0 bir fill katmanı,
+  // MapLibre'de görünürlükten bağımsız olarak sorgulanabilir/tıklanabilir.
+  harita.addLayer({ id: "bolge-dolgu-hit", type: "fill", source: "bolge", minzoom: 5.2,
+    paint: { "fill-opacity": 0 } });
+
+  // p2/H-0024 — kullanıcı: "eyalet merkezine tıklanınca kapsadığı alan kısa
+  // bir an parlasın ve sönsün; basılı tutulursa parlak vaziyette kalsın ve
+  // üstünde adı yazan bir metin görünsün."
+  // 🔴 GÖREV TANIMI AÇIKÇA SINIRLADI: eyalet/sancak AYRIMI veriye henüz
+  // işlenmedi (k:1 yalnız 4 noktada var), o yüzden burada YALNIZ parlama
+  // mekanizması kuruluyor — ayrı bir "eyalet simgesi" ÇİZİLMİYOR. Tetikleyici
+  // bugün için bölgenin KENDİ ALANINA (bolge-dolgu-hit) tıklamak/basılı
+  // tutmak; simge veri gelince buraya bağlanacak.
+  // Etiket metni bugünkü tek doğru ada dayanıyor (`bolgeler.js` `ad` + aynı
+  // " bölgesi" eki BOLGE_EKI'de kullanılan) — "Anadolu Eyaleti" gibi kurum
+  // adı UYDURULMADI, çünkü hangi bölgenin eyalet/sancak olduğu bugün bilinmiyor.
+  harita.addSource("bolge-parlama", { type: "geojson", data: bosVeri() });
+  harita.addLayer({ id: "bolge-parlama-dolgu", type: "fill", source: "bolge-parlama",
+    paint: { "fill-color": "#ffd700", "fill-opacity": 0,
+             "fill-opacity-transition": { duration: 250 } } });
+  harita.addLayer({ id: "bolge-parlama-cizgi", type: "line", source: "bolge-parlama",
+    paint: { "line-color": "#ffd700", "line-width": 2.6, "line-opacity": 0,
+             "line-opacity-transition": { duration: 250 } } });
 
   // ☠️ FETRET ŞEHZADE KATMANI KALDIRILDI (1 Ağustos 2026).
   // `sehzade` kaynağı ve iki katmanı buradaydı. Ölçüldü: `donemler.js`'in
@@ -884,6 +908,41 @@ harita.on("load", function () {
     // görünmüyor olması olabilir.
     // 📌 Kural: kullanıcının şikâyetinin cevabı, kullanıcının kapatabildiği
     // bir yerde duramaz.
+    //
+    // p2/H-0017 + p2/H-0021 — kullanıcı: "Dimetoka'nın oradaki sembol tam
+    // olarak ne anlama geliyor?" / "bu sarı gösterim, sarı semboller tam
+    // olarak nedir?" İkisi de NOKTA sembollerini soruyordu ve lejant o güne
+    // kadar yalnız toprak renklerini anlatıyordu — nokta sembolleri hiç
+    // yoktu. "Sarı gösterim" .tur-kusatma .sv-ikon'un rengi (#b8860b,
+    // koyu altın sarısı) — aşağıdaki liste koddan (YONTEM_SIMGE,
+    // SAVAS_TUR_SIMGE, .s-fetih renkleri, .s-nokta boyutları) ÖLÇÜLEREK
+    // çıkarıldı, tahmin edilmedi.
+    '<div class="lejant-baslik">Yerleşim noktaları</div>' +
+    '<span><i class="lj-nokta" style="width:7px;height:7px"></i> Küçük yerleşim</span>' +
+    '<span><i class="lj-nokta" style="width:9px;height:9px"></i> Orta önemli merkez</span>' +
+    '<span><i class="lj-nokta" style="width:12px;height:12px;background:var(--osmanli-kirmizi);border-color:#ffd700"></i> Büyük merkez</span>' +
+    '<span><b class="lj-sim">⭐</b> Başkent</span>' +
+    '<div class="lejant-baslik">Fetih sonrası ediniliş simgesi (~1,5 yıl görünür)</div>' +
+    '<span><b class="lj-sim">⚔</b> Savaşla alındı</span>' +
+    '<span><b class="lj-sim">♜</b> Kuşatmayla alındı</span>' +
+    '<span><b class="lj-sim">📜</b> Antlaşmayla alındı</span>' +
+    '<span><b class="lj-sim">🤝</b> Tâbiiyetle (itaatle) alındı</span>' +
+    '<span><b class="lj-sim">🗝</b> İlhakla alındı</span>' +
+    '<span><b class="lj-sim">👑</b> Mirasla alındı</span>' +
+    '<span><b class="lj-sim">🏰</b> Kale</span>' +
+    '<div class="lejant-baslik">Fetih tarihi rozeti (şehir adının yanında)</div>' +
+    '<span><b class="lj-sim" style="color:#1e5d2a">+</b> Osmanlı’ya katıldı</span>' +
+    '<span><b class="lj-sim" style="color:#4a4a4a">−</b> Osmanlı’dan çıktı</span>' +
+    '<span><b class="lj-sim" style="color:#6d0d1c">→</b> tâbilik ⇄ doğrudan idare geçişi</span>' +
+    '<div class="lejant-baslik">Savaş / olay işaretleri</div>' +
+    '<span><b class="lj-sim">⚔</b> Meydan savaşı</span>' +
+    '<span><b class="lj-sim" style="color:#b8860b">◎</b> Kuşatma (sarı, nabız gibi atar)</span>' +
+    '<span><b class="lj-sim">🔥</b> İç isyan</span>' +
+    '<span><b class="lj-sim">⚓</b> Deniz muharebesi</span>' +
+    '<span><b class="lj-sim" style="color:#d32f2f">✕</b> Başarısız girişim</span>' +
+    '<span><i style="background:#1b5e20"></i> Zafer (ad zemini)</span>' +
+    '<span><i style="background:#8c0f26"></i> Yenilgi (ad zemini)</span>' +
+    '<span><i style="background:#455a64"></i> Belirsiz sonuç (ad zemini)</span>' +
     '';
   document.getElementById("harita").appendChild(lejant);
 
@@ -909,13 +968,89 @@ harita.on("load", function () {
   });
   document.getElementById("harita").appendChild(lejantDugme);
 
-  var rozet = document.createElement("div");
-  rozet.className = "taslak-rozet";
-  rozet.textContent = "Sınırlar akademik atlas verisine dayalıdır; yaklaşıktır, doğrulama sürüyor";
-  document.getElementById("harita").appendChild(rozet);
-
   haritaHazir = true;
   aktifDonem = -1;
+
+  // p2/H-0024 — bölge parlama mekanizması (yalnız mekanizma; simge YOK).
+  // Tıklanan noktanın hangi AKTİF bölgeye düştüğü `noktaIcinde` ile elle
+  // bulunuyor — `bolge-dolgu-hit` bir katman olsa da MapLibre'nin olay nesnesi
+  // zaten `queryRenderedFeatures` ile ayrıştırıp `properties.ad`i veriyor,
+  // ama MultiPolygon'un HANGİ parçası olduğunu ve dış halkasını vermiyor;
+  // parlama katmanına tam o parçayı basmak için ham bolgeler dizisi kullanıldı.
+  function bolgeninIcindekiKayit(lngLat) {
+    var t = suanki;
+    for (var i = 0; i < bolgeler.length; i++) {
+      var b = bolgeler[i];
+      if (t < b.fi || t >= b.ti) continue;
+      var mp = b.ft.geometry.coordinates;
+      for (var k = 0; k < mp.length; k++) {
+        var dis = mp[k][0];
+        if (dis && noktaIcinde([lngLat.lng, lngLat.lat], dis)) return b;
+      }
+    }
+    return null;
+  }
+  var bolgeParlamaEtiket = null;
+  function bolgeEtiketiGoster(ad, lngLat) {
+    if (!bolgeParlamaEtiket) {
+      bolgeParlamaEtiket = document.createElement("div");
+      bolgeParlamaEtiket.className = "bolge-parlama-etiket";
+      document.getElementById("harita").appendChild(bolgeParlamaEtiket);
+    }
+    bolgeParlamaEtiket.textContent = ad;
+    var p = harita.project(lngLat);
+    bolgeParlamaEtiket.style.left = p.x + "px";
+    bolgeParlamaEtiket.style.top = p.y + "px";
+    bolgeParlamaEtiket.style.display = "block";
+  }
+  function bolgeEtiketiGizle() {
+    if (bolgeParlamaEtiket) bolgeParlamaEtiket.style.display = "none";
+  }
+  function bolgeParlamaGoster(ft) {
+    harita.getSource("bolge-parlama").setData({ type: "FeatureCollection", features: [ft] });
+    harita.setPaintProperty("bolge-parlama-dolgu", "fill-opacity", 0.45);
+    harita.setPaintProperty("bolge-parlama-cizgi", "line-opacity", 0.9);
+  }
+  function bolgeParlamaGizle() {
+    harita.setPaintProperty("bolge-parlama-dolgu", "fill-opacity", 0);
+    harita.setPaintProperty("bolge-parlama-cizgi", "line-opacity", 0);
+    bolgeEtiketiGizle();
+  }
+  var BOLGE_BASILI_ESIK = 350;   // ms — bu süreden kısa tık "parla ve sön", uzunu "basılı tut"
+  var bolgeBasiliZamanlayici = null;
+  var bolgeBasiliTutuluyor = false;
+  var bolgeAktifKayit = null;
+  function bolgeBasiliBaslat(e) {
+    var b = bolgeninIcindekiKayit(e.lngLat);
+    if (!b) return;
+    bolgeAktifKayit = b;
+    bolgeBasiliTutuluyor = false;
+    bolgeParlamaGoster(b.ft);
+    bolgeBasiliZamanlayici = setTimeout(function () {
+      bolgeBasiliTutuluyor = true;
+      bolgeEtiketiGoster(b.ft.properties.ad + BOLGE_EKI, e.lngLat);
+    }, BOLGE_BASILI_ESIK);
+  }
+  function bolgeBasiliBitir() {
+    if (bolgeBasiliZamanlayici) { clearTimeout(bolgeBasiliZamanlayici); bolgeBasiliZamanlayici = null; }
+    if (!bolgeAktifKayit) return;
+    if (bolgeBasiliTutuluyor) {
+      bolgeParlamaGizle();
+    } else {
+      // kısa tık: bir an parlayıp kendiliğinden sönsün (fill-opacity-transition
+      // 250ms bunu zaten yumuşatıyor, burada yalnız GÖRÜNÜR KALMA süresi veriliyor)
+      setTimeout(bolgeParlamaGizle, 450);
+    }
+    bolgeAktifKayit = null;
+    bolgeBasiliTutuluyor = false;
+  }
+  harita.on("mousedown", "bolge-dolgu-hit", bolgeBasiliBaslat);
+  harita.on("touchstart", "bolge-dolgu-hit", bolgeBasiliBaslat);
+  document.addEventListener("mouseup", bolgeBasiliBitir);
+  document.addEventListener("touchend", bolgeBasiliBitir);
+  harita.on("mouseenter", "bolge-dolgu-hit", function () { harita.getCanvas().style.cursor = "pointer"; });
+  harita.on("mouseleave", "bolge-dolgu-hit", function () { harita.getCanvas().style.cursor = ""; });
+
   // ⚠️ GENEL KURAL — ETİKET KALABALIĞI (kullanıcı, hatalar 10 madde 25 ve
   // hatalar 11 madde 19-20):
   //   "Bu şehir noktaları bir kere kondu mu orada kalıyor, haritayı uzaktan
@@ -1516,6 +1651,39 @@ function savasGuncelle(t) {
     if (goster && !m.ekli) { m.mk.addTo(harita); m.ekli = true; }
     else if (!goster && m.ekli) { m.mk.remove(); m.ekli = false; }
   });
+
+  // p3/H-0002 — kullanıcı: "Niğbolu seferinde metinler, semboller üst üste
+  // binmiş, okunmuyor." Ölçüldü: savas-isaret hiç çakışma elemesinden
+  // GEÇMİYORDU; sehirGuncelle'deki DOM tabanlı ikinci geçiş (satır ~1470)
+  // yalnız şehir işaretlerine bakıyordu. Bir kuşatma/muharebe çoğunlukla TAM
+  // O ŞEHRİN üstünde olduğu için sv-ikon + sv-ad, o şehrin s-nokta + s-ad'ının
+  // birebir üstüne biniyordu — Niğbolu 1396'da hem "Niğbolu" şehir etiketi hem
+  // "Niğbolu Savaşı" işareti aynı noktada.
+  // ⇒ Aynı yöntem: gerçek DOM kutusu, şehir öncelikli (o zaten kendi elemesini
+  // geçmiş durumda). Sonra savaş işaretleri KENDİ aralarında da elenir —
+  // aynı haftada birden çok muharebe olduğunda (ör. sefer güzergâhı) onlar da
+  // çakışabiliyordu.
+  var tutulan = [];
+  for (var si = 0; si < sehirler.length; si++) {
+    if (!sehirler[si].ekli) continue;
+    var sr = sehirler[si].ic.getBoundingClientRect();
+    if (sr && sr.width) tutulan.push(sr);
+  }
+  for (var mi2 = 0; mi2 < savasIsaretleri.length; mi2++) {
+    var mm = savasIsaretleri[mi2];
+    if (!mm.ekli) continue;
+    var el = mm.mk.getElement();
+    var r = el ? el.getBoundingClientRect() : null;
+    if (!r || !r.width) continue;
+    var carpti = false;
+    for (var ti = 0; ti < tutulan.length; ti++) {
+      var o = tutulan[ti];
+      if (r.left < o.right && r.right > o.left &&
+          r.top < o.bottom && r.bottom > o.top) { carpti = true; break; }
+    }
+    if (carpti) { mm.mk.remove(); mm.ekli = false; }
+    else { tutulan.push(r); }
+  }
 }
 
 // ---------- Antlaşma devirleri: taralı alanlar ----------
@@ -2206,92 +2374,12 @@ function dizinDoldur(sekme) {
     });
   }
 }
-// ---------- Hakkında penceresi ----------
-// Kullanıcı: *"Sitenin bir 'Hakkında' menüsü ve içinde benden bakma isteyen,
-// BEKLEYENLER.md'deki işlerin göründüğü bir tablo istiyorum. Proje klasöründen
-// md'ye bakmaktansa oradan görebilirim."*
-//
-// 🔴 TEK KAYNAK: tablo `BEKLEYENLER.md`'den ÜRETİLİYOR (arac/uret_bekleyenler.py
-// → data/bekleyenler.js). Elle kopyalanmıyor. İki nüsha olsaydı iki otorite
-// doğardı ve ayrışırdı — bugün üç yerde yaşandı (`y:` simgeleri üç otorite,
-// BOLGE sabiti dört dosya, 1446 tarihi 119 gün fark).
-// ⚠️ `fetch()` ile md'yi doğrudan çekmek DEĞERLENDİRİLDİ ve elendi: `file://`
-// altında CORS engeli yer, yani yayında çalışıp yerelde çalışmazdı. Bugün tam
-// tersi sınıftan üç vaka gördük; birini de ben üretmeyeyim.
-//
-// Pencere `#dizin`in AYNI desenini kullanıyor — yeni bir kalıp icat etmiyorum.
-var hakkindaPencere = document.getElementById("hakkinda");
-function hakkindaKur() {
-  var k = document.getElementById("hakkinda-icerik");
-  if (!k || k.dataset.kuruldu) return;
-  k.dataset.kuruldu = "1";
-  var B = window.BEKLEYENLER;
-  var h = "";
-
-  // Künye — kaynak rejimi kullanıcının en çok sorduğu şey, en üstte.
-  var damga = (document.querySelector('script[src*="js/app.js"]') || {}).src || "";
-  var m = damga.match(/v=(r\d+)/);
-  h += '<section class="hk-blok"><h4>Bu atlas nedir</h4>' +
-       '<p>Zaman göstergesi ilerledikçe devlet sınırlarının gün gün değiştiği, ' +
-       'yanında kronoloji ve dönemin hükümdarının aktığı eğitim amaçlı bir ' +
-       'tarih atlası. Sınırlar elle çizilmiyor: her yerleşimin çevresindeki ' +
-       'toprak bir <b>petek</b> olarak hesaplanıyor, kıyıya ve nehirlere ' +
-       'yaslanıyor.</p>' +
-       '<p><b>Kaynak rejimi:</b> İslâm dünyası ve Osmanlı için birincil kaynak ' +
-       '<b>TDV İslâm Ansiklopedisi</b>. Vikipedi tek başına kaynak sayılmaz. ' +
-       'Gün bilinmiyorsa uydurulmaz.</p>' +
-       (m ? '<p class="hk-kucuk">Sürüm ' + m[1] + '</p>' : "") +
-       '</section>';
-
-  // 👁 Asıl istenen: bakılması beklenenler
-  if (B && B.bolum) {
-    h += bekleyenTablo("👁 Senden bakması beklenenler", B.bolum.gorsel);
-    h += bekleyenTablo("❓ Senden karar beklenenler", B.bolum.karar);
-  } else {
-    // ⚠️ Sessiz boşluk YOK: veri gelmediyse sebebi yazılır. Bugün altı kez
-    // "yazılmış görünüyor, çalışmıyor" vakası gördük; bu kutu onu söyler.
-    h += '<section class="hk-blok"><h4>👁 Bakılması beklenenler</h4>' +
-         '<p class="hk-uyari">Liste yüklenemedi — <code>data/bekleyenler.js</code> ' +
-         'eksik ya da eski. <code>arac/uret_bekleyenler.py</code> koşturulmalı.</p>' +
-         '</section>';
-  }
-  k.innerHTML = h;
-}
-function bekleyenTablo(baslik, b) {
-  if (!b || !b.satir || !b.satir.length)
-    return '<section class="hk-blok"><h4>' + baslik + '</h4>' +
-           '<p class="hk-kucuk">Bekleyen iş yok.</p></section>';
-  var h = '<section class="hk-blok"><h4>' + baslik +
-          ' <span class="hk-rozet">' + b.satir.length + '</span></h4>' +
-          '<table class="hk-tablo"><thead><tr>';
-  for (var i = 0; i < b.baslik.length; i++) h += "<th>" + b.baslik[i] + "</th>";
-  h += "</tr></thead><tbody>";
-  for (var r = 0; r < b.satir.length; r++) {
-    h += "<tr>";
-    for (var c = 0; c < b.satir[r].length; c++) h += "<td>" + b.satir[r][c] + "</td>";
-    h += "</tr>";
-  }
-  return h + "</tbody></table></section>";
-}
-document.getElementById("btn-hakkinda").addEventListener("click", function () {
-  hakkindaKur();
-  hakkindaPencere.classList.remove("gizli");
-});
-document.getElementById("hakkinda-kapat").addEventListener("click", function () {
-  hakkindaPencere.classList.add("gizli");
-});
-hakkindaPencere.addEventListener("click", function (e) {
-  if (e.target === hakkindaPencere) hakkindaPencere.classList.add("gizli");
-});
-// Menü başlığında açık iş sayısı — kullanıcı pencereyi AÇMADAN kaç iş
-// beklediğini görsün. Sıfırsa rozet hiç çıkmıyor: "0" yazan bir rozet de
-// kalabalıktır.
-(function () {
-  var B = window.BEKLEYENLER;
-  if (!B || !B.ozet || !B.ozet.toplam_acik) return;
-  var d = document.getElementById("btn-hakkinda");
-  d.innerHTML += ' <span class="hk-rozet">' + B.ozet.toplam_acik + "</span>";
-})();
+// p2/H-0010 — kullanıcı: "Hakkında butonuna artık gerek yok." Bütün
+// hakkindaKur/bekleyenTablo mekanizması ve #hakkinda modalı (proje künyesi +
+// BEKLEYENLER tablosu) bu yüzden kaldırıldı. `data/bekleyenler.js` başka
+// hiçbir yerden okunmuyor (tek kullanıcısı buydu) ama dosya arac/uret_
+// bekleyenler.py'nin ürettiği bir üretim çıktısı — o script'e dokunmak bu
+// oturumun (ARAYÜZ) dosya sahipliği dışında, script etiketi silinmedi.
 
 document.getElementById("btn-dizin").addEventListener("click", function () {
   dizinPencere.classList.remove("gizli");
@@ -2313,6 +2401,9 @@ var tarihGoster = document.getElementById("tarih-goster");
 var donemEtiketi = document.getElementById("donem-etiketi");
 var btnOynat = document.getElementById("btn-oynat");
 var hizSec = document.getElementById("hiz");
+// p2/H-0010 — üst çubuğun ortası (tarih) ve sağdaki kocaman YIL.
+var ustbarTarih = document.getElementById("ustbar-tarih");
+var ustbarYil = document.getElementById("ustbar-yil");
 
 kaydirici.min = BASLANGIC;
 kaydirici.max = BITIS;
@@ -2329,6 +2420,8 @@ function alanYazi(km2) {
 
 function guncelle() {
   tarihGoster.textContent = idxYazi(suanki);
+  if (ustbarTarih) ustbarTarih.textContent = idxYazi(suanki);
+  if (ustbarYil) ustbarYil.textContent = idxTarih(suanki).y;
   var di = donemBul(suanki);
   if (haritaHazir && di === -2 && di !== aktifDonem) {
     // Fetret Devri: Osmanlı, tâbi ve bölge katmanları boşaltılır; sahnede yalnız
@@ -2411,8 +2504,23 @@ function guncelle() {
   isgalGuncelle(suanki);
   padisahGuncelle(suanki);
   olaylarGuncelle(suanki);
+  kronolojiSeritGuncelle();
   obTazele();
   baslikDamgala();
+}
+
+// p2/H-0006 — panel katlıyken (#yanpanel.katli) kronoloji tamamen kaybolmasın:
+// haritanın altında sene + tarih + en yakın geçmiş olayın başlığını gösteren
+// ince bir şerit. Panel açıkken şerit zaten gizli, gereksiz DOM yazımı ucuz.
+var kronolojiSerit = document.getElementById("kronoloji-serit");
+function kronolojiSeritGuncelle() {
+  if (!kronolojiSerit || kronolojiSerit.classList.contains("gizli")) return;
+  var y = idxTarih(suanki).y;
+  var o = sonVurgulanan >= 0 ? olaylar[sonVurgulanan] : null;
+  kronolojiSerit.innerHTML =
+    '<span class="ks-sene">' + y + '</span>' +
+    '<span class="ks-tarih">' + idxYazi(suanki) + '</span>' +
+    '<span class="ks-baslik">' + (o ? o.b : "") + '</span>';
 }
 
 // ---------- Detay paneli senkronu (kullanıcı şikâyeti) ----------
@@ -2840,6 +2948,26 @@ document.getElementById("bolge").addEventListener("change", function () {
   });
 })();
 
+// p2/H-0010 — "butonları aç": Dizin/Coğrafya/Motor hatları/Veri sınırı/Tam
+// ekran düğmeleri artık üst barda tek tek durmuyor, bu düğmenin altına asılan
+// bir panelde saklı. Dışarı tıklanınca ya da bir araç düğmesine tıklanınca
+// kapanıyor — açık kalıp haritayı örtmesin diye.
+(function () {
+  var btn = document.getElementById("btn-menu");
+  var panel = document.getElementById("menu-butonlar");
+  btn.addEventListener("click", function (e) {
+    e.stopPropagation();
+    panel.classList.toggle("gizli");
+  });
+  panel.addEventListener("click", function (e) {
+    if (e.target.tagName === "BUTTON") panel.classList.add("gizli");
+  });
+  document.addEventListener("click", function (e) {
+    if (!panel.classList.contains("gizli") && !panel.contains(e.target) && e.target !== btn)
+      panel.classList.add("gizli");
+  });
+})();
+
 // Tam ekran
 document.getElementById("btn-tamekran").addEventListener("click", function () {
   if (document.fullscreenElement) document.exitFullscreen();
@@ -2853,8 +2981,14 @@ document.addEventListener("fullscreenchange", function () {
 // Yan paneli katlama (haritaya azami alan)
 document.getElementById("btn-panel").addEventListener("click", function () {
   var yp = document.getElementById("yanpanel");
-  yp.classList.toggle("katli");
-  this.textContent = yp.classList.contains("katli") ? "⇤ Panel" : "⇥ Panel";
+  var katli = yp.classList.toggle("katli");
+  this.textContent = katli ? "⇤ Panel" : "⇥ Panel";
+  // p2/H-0006: panel katlanınca kronoloji tamamen kaybolmasın diye alttaki
+  // özet şerit açılıyor; panel geri açılınca şerit gereksiz, kapanıyor.
+  if (kronolojiSerit) {
+    kronolojiSerit.classList.toggle("gizli", !katli);
+    if (katli) kronolojiSeritGuncelle();
+  }
   setTimeout(function () { harita.resize(); }, 60);
 });
 
