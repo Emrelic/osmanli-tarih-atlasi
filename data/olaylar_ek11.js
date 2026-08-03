@@ -181,4 +181,30 @@ window.OLAYLAR_EK11 = [
   d:"Portekiz'in bağımsızlık savaşında İngiliz desteğini sağlamak için yapılan evlilik antlaşmasının (23 Haziran 1661) ikinci maddesi Tanca'yı Catherine de Braganza'nın çeyizi olarak İngiltere'ye bırakıyordu. Sandwich Kontu'nun filosu 29 Ocak 1662'de demirledi ve ertesi gün Peterborough Kontu'nun töreniyle resmî devir yapıldı. Atlas bu kaydı önce 23 Ocak 1661 olarak taşıyordu — antlaşma günüyle fiilî devir günü arasında bir karışma; Bombay için zaten fiilî devir tarihi (18 Şubat 1665) yazıldığından aynı ölçüt Tanca'ya da uygulandı. İngilizler şehri 1684'te terk edecekti." },
 
 
+
+// ---------------------------------------------------------------------------
+// IRAN'IN UC HANEDANI — Oturum 0, 3 Agustos 2026
+// ---------------------------------------------------------------------------
+// RENK olctu: `d:"iran"` tasiyan 130 donemden 123'u `1736-03-08 → 1923-10-29`
+// gibi TEK BIR PENCEREDE uc ayri hanedani birlestiriyordu. Asagidaki iki
+// madde o pencerenin iki kirilma gununu tasiyor.
+// 📌 `1747-06-20` UYDURULMADI: veride 5 kayit onu zaten tasiyordu.
+// ⚠️ Aradaki 1747-1796 penceresi bilerek `iran` birakildi — o kirk dokuz
+//    yilda Iran gercekten parcaliydi (ayni gun Horasan'da Afsar, Siraz'da
+//    Zend, Tahran'da Kacar) ve genel etiketin en mesru oldugu yer orasi.
+//    Sehir sehir bolunmesi ayri bir TDV taramasi istiyor, uydurulmayacak.
+
+{ t:"1747-06-20", k:"siyaset", etiket:["siyaset"],
+  b:"Nâdir Şah'ın öldürülmesi — Afşar hâkimiyetinin dağılışı",
+  gun:"20 Haziran 1747", yer:"Fethâbâd, Horasan",
+  kisiler:"Nâdir Şah Afşar",
+  d:"Safevî tahtını sona erdirip 1736'da kendi adına saltanat ilân eden, Hindistan seferiyle Delhi'ye kadar giden ve Osmanlı ile üç savaş yapıp 1746 Kerden Antlaşması'yla barışan Nâdir Şah, kendi muhafızları tarafından çadırında öldürüldü. Ardından İran tek elden yönetilemedi: Horasan'da Afşar kalıntısı, güneyde Zend, kuzeyde yükselen Kaçar kırk dokuz yıl boyunca ülkeyi paylaştı. Osmanlı doğu sınırı bu dağınıklık sayesinde uzun süre sakin kaldı." },
+
+{ t:"1796-01-01", k:"siyaset", etiket:["siyaset"],
+  b:"Kaçar hânedanının İran'a hâkim oluşu",
+  gun:"1796 (gün kaynakta yok; devlet dizini bu tarihi Afşar'ın bitişi olarak taşıyor)",
+  yer:"Tahran", kisiler:"Ağa Muhammed Şah Kaçar",
+  d:"Kaçar aşiretinin reisi Ağa Muhammed Han, Zend hâkimiyetini yıkıp Horasan'daki son Afşar direncini de kırarak İran'ı yeniden tek elde topladı ve Tahran'ı başkent yaptı. Kırk dokuz yıllık parçalanma dönemi böylece kapandı; bundan sonra Osmanlı'nın doğu komşusu 1923'e kadar Kaçar İran'ı olacaktı. ⚠️ Atlas 1747-1796 arasını bilerek genel `İran` etiketiyle gösteriyor: o pencerede ülke gerçekten bölünmüştü ve şehir şehir hangi hânedanın elinde olduğu ayrı bir kaynak taraması gerektiriyor." },
+
+
 ];
