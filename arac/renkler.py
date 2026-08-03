@@ -122,6 +122,43 @@ BOYALAR = {
     # 23 engelin hepsinden ΔE ≥ 12 (en yakın: 17,1). `parma`ya 12,1 — komşu
     # DEĞİLLER (iran'ın 22 komşusu ölçüldü, Avrupa partisi içinde yok).
     "iran":       ("İran",                   "#fe84c6"),
+    # ═══ İRAN HANEDAN AİLESİ — afsar + kacar (RENK, 2026-08-03) ═══
+    # Kullanıcı kararı: "afsar/zend/kacar, safevî ile AYNI RENK AİLESİ, farklı
+    # parlaklık" · gerekçesi "ayrı renkler İran'ı üç ayrı devlet gibi gösterir".
+    #
+    # NEDEN ŞİMDİ: `d:"iran"` 1736-03-08 → 1923-10-29 arasını TEK dönemde
+    # taşıyordu — üç hanedan, 187 yıl, tek etiket (100 kayıt). Koordinatör
+    # `yerlesimler.js`i üç pencereye bölüyor:
+    #     1736-03-08 → 1747-06-20   `afsar`   (Nadir Şah, tartışmasız)
+    #     1747-06-20 → 1796-01-01   `iran`    (İran PARÇALI — genel etiket
+    #                                          burada MEŞRU; Horasan afsar,
+    #                                          Şiraz zend, Tahran kacar aynı gün)
+    #     1796-01-01 → dönem sonu   `kacar`
+    # ⚠️ RENK ÖNCE GİRER: renk olmadan `d:"afsar"` yazılırsa motor
+    #   "bilinmeyen devlet kimliği" basar ve bölge BOYANMAZ (uret_petek.py:272).
+    #
+    # ÖLÇÜM: aile bandı ton 352°±18 · `iran`ın 25 komşusunu MİRAS alıyorlar ve
+    #   hepsinden ΔE≥12 · `safevi` ve `iran`dan ≥12 · birbirlerinden ≥12 ·
+    #   palet kutusu · Osmanlı kırmızı şeridi dışı · S sert sınırlı.
+    #   DÖRT ÜYELİ AİLE, ikili mesafeler:
+    #     safevi↔afsar 16,0 · safevi↔iran 12,7 · safevi↔kacar 16,5
+    #     afsar↔iran   12,0 · afsar↔kacar  12,1 · iran↔kacar   13,4
+    #
+    # 🔴 `zend` YAZILMADI ve sebebi ÖLÇÜLDÜ, unutulduğu için değil:
+    #   ① Şimdilik GEREKMİYOR — pencere 2 `iran` kalıyor.
+    #   ② YER DE YOK: bu kutuda beşinci aile üyesi için uygun aday SIFIR.
+    #      (Kutu bugün kaydı: C* tabanı 4,9 → 8,8, kendi son partim yüzünden.
+    #       Palet kendi geçmişinin fonksiyonu.)
+    #   ⇒ Pencere 2'nin TDV araştırması bitince kutu YENİDEN ÖLÇÜLMELİ;
+    #     gerekirse aile ikiye bölünür (safevi+afsar · iran+kacar+zend).
+    #
+    # ⚠️ VE KULLANICININ TARİFİ LAFZEN SAĞLANAMIYOR — ölçüldü:
+    #   palet kutusu L* aralığı 17,3 birim; beş üye ikili ΔE≥12 için SALT
+    #   parlaklıkla 4×12 = 48 birim ister. 17,3 < 48 ⇒ ayrım L* + kroma + ton'u
+    #   BİRLİKTE taşımak zorunda. Tarifin RUHU sağlanıyor (aynı aile, ayırt
+    #   edilebilir), LAFZI sağlanamıyor. Gizlenmiyor.
+    "afsar":      ("Afşâr Devleti (Nâdir Şah)", "#f488fc"),
+    "kacar":      ("Kaçar Hanedanı (İran)",     "#c840a8"),
     "karakoyunlu":("Karakoyunlular",         "#305d30"),
     "akkoyunlu":  ("Akkoyunlular",           "#48ae48"),
     # Irak'ın 1335-1411 penceresi `iran` battaniyesinin altındaydı: İlhanlı

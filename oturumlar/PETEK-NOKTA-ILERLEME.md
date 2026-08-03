@@ -1918,3 +1918,318 @@ ve bölünemediği için tamamı ona gitmeli"**.
 tarihi (Pireneler Antlaşması 7 Kasım 1659; Perpignan Roussillon'un başkenti)
 — `CLAUDE.md §4`in "TDV'nin kapsamadığı coğrafyalar için standart akademik
 referans yeterlidir" maddesi kapsamında, ama **TDV'ye basmıyor.**
+
+---
+---
+
+# PARTİ 14 — `enklav` alanının tasarımı · 🔴 TARAMA ÇÜRÜDÜ, tasarım DEĞİŞTİ
+
+## ① OTOMATİK TARAMA YAPILAMIYOR — iki ölçüt, iki çöküş, ölçüldü
+
+**v1** — "yakında aynı sahipli ≤2 VE farklı sahipli ≥3, tarihlerin %60'ında":
+35 aday buldu ama **bilinen altı enklavın DÖRDÜNÜ kaçırdı** (Sebte · Melîle ·
+Mersa'l-Kebîr · Harar).
+```
+kusur ①  FARKLI_TABAN=3 seyrek bölgede çöküyor. Melilla'nın 150 km'sinde
+         zaten nokta yok — yani enklavı GÖRÜNMEZ yapan seyreklik testi de
+         kör ediyor. Ters etki.
+kusur ②  Oran %60 bütün zaman çizgisinden hesaplanıyor. Mersa'l-Kebîr
+         yalnız 1509-1792 arası enklav; 1350'de sıradan bir Zeyyânî limanı.
+```
+
+**v2** — "R km içinde, 30 km'den uzak, aynı sahipli nokta YOKSA":
+**340/1620 (%21)** aday çıkardı ve listenin başı **Kiev · Kazan · Varşova ·
+Riga — 623 yıl "enklav"**. Saçma.
+```
+kök sebep: ölçüt ENKLAV ile SEYREK HARİTALANMIŞ BÖLGEYİ ayırt edemiyor.
+Kiev'in 200 km'sinde başka `rusya` noktası yok — Kiev enklav olduğu için
+değil, atlas orada seyrek olduğu için.
+```
+
+🔴 **HÜKÜM: enklavlık veriden ÖLÇÜLEMEZ.** "Bu devlet burada hinterland
+yönetiyor muydu" **tarihî** bir sorudur; nokta yoğunluğu onu maskeliyor.
+⇒ Liste **elle ve kaynakla** kurulmalı. Makine burada listeyi bile
+daraltamıyor — `PARTİ 8`deki "makine daraltır, insan hüküm verir"
+kuralının sınırı: bazen makine daraltamaz da.
+
+## 🔴 ② `enklav:true` BOOLEAN'I YANLIŞ — alan DÖNEME ait
+
+Ölçüm bunu kendiliğinden gösterdi:
+```
+Sebte          1281-1415 fas      ← enklav DEĞİL, sıradan Fas kasabası
+               1415-1581 portekiz ← ENKLAV
+               1581-1923 ispanya  ← ENKLAV
+Melîle         1281-1497 fas      ← DEĞİL      1497-1923 ispanya ← ENKLAV
+Mersa'l-Kebîr  1281-1509 zeyyani  ← DEĞİL      1509-1792 ispanya ← ENKLAV
+                                                1831-1923 fransa  ← DEĞİL (sömürge)
+```
+⇒ Enklavlık **noktanın değil DÖNEMİN** özelliğidir. Nokta düzeyinde boolean,
+Ceuta'yı 1415 öncesi için de enklav ilan eder ve o dönemin peteğini haksız
+yere kısar.
+
+### ⇒ ÖNERİLEN ŞEMA: alan `s:` DÖNEM NESNESİNİN İÇİNDE
+```js
+s:[{f:"1415-01-01", t:"1581-04-16", d:"portekiz", enklav:true},
+   {f:"1581-04-16", t:"1923-10-29", d:"ispanya",  enklav:true}]
+```
+📌 Bu, mevcut desene **birebir oturuyor**: `y:` (kazanım biçimi) ve `k:`
+(tâbi adı) da dönem nesnesinin içinde. Yeni bir kavram değil, var olan
+sözleşmenin devamı.
+⇒ Kütük yeri: `girdi.py` **`BILINEN_DONEM_ALANLARI`** (nokta düzeyindeki
+`BILINEN_ALANLAR` değil) — `y:` ve `kaynak:`ın yanına.
+
+```python
+"enklav": "True ise bu dönemde nokta HİNTERLANDSIZ bir dayanaktır "
+          "(presidio, faktorya, ada üssü); yetim yüz EMEMEZ. Yalnız "
+          "kaynaklı hükümle yazılır — otomatik taranamaz (ölçüldü: "
+          "nokta yoğunluğu enklavı seyrek bölgeden ayırt edemiyor). "
+          "Okuyan: uret_petek.py, yetim yüz emilim döngüsü",
+```
+
+## ③ ELLE KURULMUŞ ADAY LİSTESİ — üç güven kademesi
+
+### 🟢 A · KESİN — presidio/faktorya tanımı gereği hinterlandsız
+```
+Sebte (Ceuta)      portekiz 1415-1581 · ispanya 1581-1923
+Melîle (Melilla)   ispanya 1497-1923
+Mersa'l-Kebîr      ispanya 1509-1708 · 1732-1792     ⎫ ikisi TEK birim
+Oran               ispanya 1509-1708 · 1732-1792     ⎭ (7,5 km)
+Bicâye             ispanya 1510-1555
+Halkulvâdî         ispanya 1535-1574
+Tanca              portekiz 1471-1662 · ingiltere 1662-1684
+Mazagan            portekiz 1514-1769   ← Fas'ta en uzun Portekiz dönemi
+Safi               portekiz 1488-1541
+Azemmûr            portekiz 1513-1541
+Arzila             portekiz 1471-1549
+Agadir             portekiz 1505-1541
+Cebelitarık        ingiltere 1704-1923
+Menorka (Mahon)    ingiltere 1708-1802
+```
+⚠️ **`fransa 1831-1923` dönemleri enklav DEĞİL** — Cezayir'in Fransız
+işgali sömürge idaresidir, hinterlandı vardır. Aynı nokta bir dönem enklav,
+başka dönem değil: şemanın döneme bağlanmasının en somut kanıtı.
+
+### 🟡 B · GÜÇLÜ ADAY — her biri ayrı kaynak ister
+```
+Hint faktoryaları  Pondişeri · Çandernagor · Bombay · Kolombo · Kannûr ·
+                   Koçin · Nagapatnam · Goa
+                   (Avrupa kıyı faktoryaları; XVIII. yy sonuna kadar
+                    hinterlandsız, sonra sömürgeye dönüşüyor — KESİM
+                    TARİHİ her biri için ayrı araştırma)
+Körfez/Kızıldeniz  Sokotra (portekiz 1507-1511) · Maskat (portekiz 1507-1650)
+                   Aden (ingiltere 1839-1923) · Manama (ingiltere 1861-1923)
+                   Arkîko · Masavva · Dahlak
+```
+
+### 🟡 C · ÖZEL VAKA — enklav değil, KİMLİK eksiği
+```
+Harar   `adal` 1281-1887. TDV `harar`: emirlik 1856'da "yalnız şehir merkezi
+        ve çevresinden ibaretti"; aradaki topraklarda OROMO hâkimiyeti vardı.
+        ⇒ Bu bir enklav bayrağıyla çözülmez; eksik olan `oromo` kimliğidir.
+        Koordinatör zaten VERİ KİMLİK 3'e yazdı — doğru kutu orası.
+```
+
+## ④ MOTOR 3'E — ölçtürülecek soru
+`enklav` dönem alanıyla birlikte yeni ölçüt **kaç petek düzeltir, kaç bozar?**
+A listesi (14 nokta / 20 dönem) hazır; B ve C girmemeli — B kaynaksız,
+C yanlış kutuda.
+⚠️ Ve ölçüm **dönem bazlı** olmalı: aynı noktanın enklav döneminde peteği
+kısılacak, sömürge döneminde kısılmayacak. Nokta bazlı ölçüm bunu göremez.
+
+---
+---
+
+# PARTİ 15 — ARKÎKO %246,7'nin kök sebebi + Cebelitarık/Menorka düzeltmesi
+
+## 🔴 ① ARKÎKO — sebep bulundu, ve **veri boşluğu**
+
+```
+Arkîko   ham (kara) 4.082 km²   ← MOTOR 3'ün "4.080"i ile birebir tutuyor
+         nihai      10.067 km²  ⇒ +5.987 km² EMİLİM
+```
+Nihai > ham olabilmesinin tek yolu yetim yüz emilimidir. Donör ölçüldü:
+
+```
+DAHLAK   ham hücre              43.960 km²
+         hücre ∩ KARA            5.544 km²
+         ├─ KENDİ adası (#2278)    679 km²  ← ada kuralı bunu bırakır
+         └─ ANAKARA (YETİM)      4.865 km²  🔴 komşulara dağıtılır
+```
+⇒ **Dahlak'ın anakara yetimi 4.865 km², Arkîko'nun kazancının %81'i.**
+
+### Zincir — beş adım, hepsi ölçülü
+```
+① Masavva (15,61K) ile Akīk (18,23K) arası 321 km kıyıda SIFIR nokta
+② Dahlak — 88 km açıktaki bir ADA — o kıyının en yakın noktası olduğu için
+   Voronoi hücresi anakarayı kaplıyor
+③ ADA KURALI doğru çalışıyor: Dahlak kendi 679 km²lik adasına hapsediliyor
+④ geriye 4.865 km² ANAKARA yetim kalıyor
+⑤ "en uzun ortak kenar" onu ARKÎKO'ya veriyor — Masavva'ya 7,5 km
+   uzaklıktaki küçük bir demirleme yerine
+```
+🔴 **Yani geometrik belirti (%246,7) bir VERİ boşluğunun sonucu** —
+`CLAUDE.md §2`nin ta kendisi, ama bu kez ters yönde: noktasızlık peteği
+yutmuyor, **şişiriyor.**
+
+### Tarihî hüküm: yetim **MASAVVA'nın**, Arkîko'nun değil
+Buri yarımadası ve Zula körfezi kıyısı Osmanlı **Habeş eyaleti**nin
+toprağıydı ve eyaletin merkezi/limanı **Masavva**dır (TDV `habes-eyaleti`:
+eyalet 5 Temmuz 1555'te kuruldu, Masavva 2 Nisan 1557'de alındı).
+Arkîko (Hergigo) Masavva'nın **anakara demirleme yeri**dir — nâibi
+Masavva'nın karadaki adamıydı, ayrı bir idarî merkez değil.
+⇒ 4.865 km²'lik yetim **Masavva'ya** gitmeli.
+
+📌 **Ve bu, bugünün ÜÇÜNCÜ "en uzun ortak kenar yanlış komşuyu seçti" vakası**
+(Sebte · Eperjes · şimdi Arkîko). Üçünde de ölçüt geometrik olarak tutarlı,
+tarihen yanlış.
+
+⚠️ **AMA yeni ölçüt (en çok örtüşen) bunu ÇÖZMEZ** — ölçtüm: yetimin doğal
+sahibi Dahlak'ın kendisi ve o ada kuralıyla zaten dışlanmış. Dışlandıktan
+sonra "en çok örtüşen" diye bir aday kalmıyor; geriye yine mesafe/kenar
+kalıyor. ⇒ Ada kuralının ürettiği yetimler **ayrı bir kural** ister:
+*"ada yetimi, o kıyının İDARÎ merkezine gider."*
+
+### 🟡 Kalıcı çare bende: kıyıya nokta
+321 km'lik boşluk kapanırsa yetim hiç doğmaz. Ama o kıyıda (Buri yarımadası,
+Zula körfezi) kaynaklı bir Osmanlı yerleşimi bulamadım — Habeş eyaletinin
+sayılan limanları Masavva · Arkîko · Sevâkin · Akīk ve dördü de zaten
+haritada. **Uydurma nokta koymaktansa hükmü yazıyorum**; kıyı gerçekten
+tenhaydı.
+📌 `Ç7` açık kalemi aynı coğrafyada — orada bir kaynak çıkarsa nokta da çıkar.
+
+## ✅ ② CEBELİTARIK ve MENORKA — **İKİSİ DE ZATEN VAR**, ekleme yok
+```
+Cebelitarık (Gibraltar)  36,140/−5,353  kale
+   granada 1281→1462-08-20 · kastilya →1479-01-20 · ispanya →1704-08-04
+   · ingiltere 1704-08-04→1923          ← enklav dönemi HAZIR
+Menorka (Mahon)          39,890/ 4,260  liman
+   ispanya 1281→1708-09-29 · ingiltere 1708-09-29→1802-03-25
+   · ispanya 1802-03-25→1923            ← enklav dönemi HAZIR
+```
+⇒ `yerlesimler_ek5.js`e hiçbir şey eklenmedi. İkisinin de `ingiltere`
+dönemine `enklav:true` işaretlenmesi yeter — ve o, sıraya göre MOTOR 3 şemayı
+yazdıktan sonra Oturum 0'ın işi.
+📌 A listesindeki 14 noktanın **hepsi zaten veride var**; hiçbiri eksik değil.
+Liste bir *ekleme* listesi değil, bir *işaretleme* listesidir.
+
+---
+---
+
+# 🔴 ÖLÇÜLMÜŞ SABİTLER — İKİNCİ TAKSİT (PARTİ 10-15)
+
+> İlk taksit `PARTİ 9`dan sonra yazıldı ve partiler 1-9'u kapsıyordu.
+> Bu blok **10-15**i ekliyor. Aynı kural: burada yazan hiçbir sayı yeniden
+> ölçülmesin. Kaynağı belirtilmeyen her sayı bu oturumun kendi ölçümüdür;
+> `[M3]` işaretliler MOTOR 3'ün, `[K]` işaretliler koordinatörün.
+
+## ①+ PETEK GEOMETRİSİ — üç yeni sabit
+
+```
+YETİM EMİLİM ÖLÇÜTÜ  "en uzun ortak kenar" TARİHEN ÜÇ KEZ YANILDI:
+                     Sebte · Eperjes · Arkîko. Üçünde de geometrik olarak
+                     tutarlı, tarihen yanlış.
+                     [M3] önerilen ölçüt ("en çok örtüşen") ile
+                     %10 altı petek:  6 → 0 → 2 (yeni+enklav)
+                     [M3] korunum: toplam boyanan alan 65.374.719 km², fark −0
+                          ⇒ değişiklik toprak YARATMIYOR, adresini düzeltiyor
+                     [M3] nihai yer değiştirme 78.368 km² (ara aşamada 119.658
+                          görünüyordu — ada kuralı Reggio'yu zaten geri veriyor)
+
+ENKLAV BEDELİ        [M3] dönem bazlı şema yerine nokta bazlı yaklaşım:
+                     1.609 km² · 155 yıl · TEK nokta (Oran)
+                     = Osmanlı tepe gövdesinin on binde 3'ü
+
+ADA YETİMİ           Dahlak: ham 43.960 · ∩kara 5.544 · kendi adası 679
+                     ⇒ ANAKARA YETİMİ 4.865 km²
+                     Arkîko'nun +5.987 km² şişmesinin %81'i
+                     🔴 AYRI SINIF: "yaslama yetimi" değil "ada yetimi".
+                        Yeni ölçüt bunu ÇÖZMEZ — yetimin doğal sahibi ada
+                        kuralıyla zaten dışlanmış, geriye aday kalmıyor.
+```
+
+### Petek "yok edilmiş" mi, doğru mu küçük — ölçülmüş ayrım
+```
+%60 altındaki 15 noktanın 15'i de KIYIDA (liman/kıyı kalesi)
+%100 çıkanların hepsi iç bölgede (sehir/bolge)
+⇒ kıyı presidiosu için KÜÇÜK PETEK DOĞRU CEVAPTIR (Ceuta bugün 18,5 km²)
+⇒ "maddeleri görünmez" bayrağı İKİ ŞEYİ birleştiriyor:
+     geometrik doğruluk (doğru)  +  etiket görünürlüğü (ARAYÜZ'ün işi)
+⚠️ eşik `tur:`e göre olmalı — `liman` için %10 normal, `sehir` için alarm
+```
+
+### Yaslama yarıçapı — Sebte'nin sayıları
+```
+benim ölçümüm  ham Voronoi 12.066 → ∩KARA 4.323 km²
+[M3]           ham hücre    4.345 → nihai    145 km²
+⇒ kayıp kara kesiminden ÖNCE (kıyı kesimi uret_petek.py:709'da EN SON)
+ada kuralı ELENDİ: Sebte·Tanca·Melîle·Balaklava·Eperjes·Mazagan
+                   altısı da AYNI kara bileşeninde (#2, Afro-Avrasya)
+kalan aday: yaslama yarıçapı — nehir 0,30°≈33 km · sırt 0,35°≈39 km
+            Sebte'nin komşuları 28 ve 45 km ⇒ hücre yarıçapı ile AYNI MERTEBE
+            KORUMA_PAYI (0,06°≈6,7 km) yerleşimi korur, HÜCREYİ korumaz
+```
+
+## ⑤+ ŞEMA SINIRLARI — `enklav` alanının tasarımı
+
+```
+🔴 OTOMATİK TARANAMAZ. İki ölçüt denendi, ikisi de çürüdü:
+   v1 (yakında aynı sahipli ≤2 & farklı ≥3, %60)
+      → 35 aday ama BİLİNEN ALTININ DÖRDÜNÜ kaçırdı
+      kusur: seyrek bölgede FARKLI_TABAN çöküyor
+   v2 (R km içinde aynı sahipli yoksa)
+      → 340/1620 (%21), listenin başı Kiev·Kazan·Varşova "623 yıl enklav"
+      kusur: ENKLAV ile SEYREK HARİTALANMIŞ BÖLGE ayrılamıyor
+   ⇒ liste ELLE + KAYNAKLA kurulur.
+
+🔴 BOOLEAN DEĞİL, DÖNEM ALANI.
+   Sebte 1281-1415 fas = enklav DEĞİL · 1415'ten ENKLAV
+   Mersa'l-Kebîr 1509-1792 ispanya = ENKLAV · 1831-1923 fransa = DEĞİL (sömürge)
+   ⇒ `s:` dönem nesnesinin içinde, `y:` ve `k:`ın yanında
+   ⇒ kütük: girdi.py BILINEN_DONEM_ALANLARI (BILINEN_ALANLAR değil)
+
+📌 A listesi (14 nokta / 20 dönem) bir EKLEME listesi DEĞİL, İŞARETLEME
+   listesidir — on dört noktanın hepsi zaten veride var.
+```
+
+## ⑥+ ÖLÇÜM DİSİPLİNİ — bugünkü toplam ONA çıktı
+
+```
+⑦  ek3 uyuyan çatışma uyandırdı mı → HAYIR (55→55); ama "derinleşen çatışma"
+    diye YENİ bir kavram çıktı: merge var olan çiftin SINIRINI uzatarak da
+    zarar verir, mevcut ölçüt bunu saymıyor
+⑧  karşı-olgunun kendisi bir müdahale: ek3 çıkarılınca 1 YENİ çift DOĞUYOR
+    (ceneviz↔lehistan) — "ekle" ile "çıkar" petek haritasında SİMETRİK DEĞİL
+⑨  30K 22D'yi "kasten boş" etiketledim → ölçüm AÇ dedi (dolgu 400 km batıda)
+⑩  enklav taramasını iki kez kurdum, ikisi de çürüdü
+```
+
+### Kurala dönüşen yeni dersler
+```
+· "yok" da bir ÖLÇÜMDÜR — doğrulanmadan söylenmez
+  (bugün dört kez çürüdü: zaporojye kimliği · Limni'nin maddesi ·
+   1747-06-20 tarihi · Cebelitarık/Menorka noktaları)
+· bir kusuru gizleyen sebep, o kusuru ARAYAN ARACI da gizler
+  (Melilla'nın 112,86 km boşluğu hem hatayı doğuruyor hem testi köreltiyor)
+· "makine daraltır, insan hüküm verir"in eksik yarısı: BAZEN MAKİNE
+  DARALTAMAZ DA
+· bir ölçütü değiştirirken ikincisini değiştirmek, hangi düzeltmenin ne
+  yaptığını ÖLÇÜLEMEZ kılar  [K]
+· bir kusuru bulmak ile onu TEKRAR ÜRETMEMEK ayrı iki iştir  [K]
+· toprak, HİNTERLANDI OLAN tarafa gider — "en uzun kenar" enklava kördür,
+  "en çok örtüşen" de kördür, yalnız çoğu zaman doğru tahmin eder
+```
+
+## ⑦+ AÇIK KALANLAR — güncel
+```
+Arkîko %246,7           bilinen borç [K]; teşhis + hüküm hazır, çare koşu 5 SONRASI
+                        ⇒ ada yetimi AYRI KURAL ister
+Eperjes %2,4            yaslama çöküşü; §3.5.1 kapanışı ÇÖKMEMİŞ [M3]
+                        (Kassa %73,2 · Tokaj %110,8 · Sopron %110,9 · Bihaç %102,8)
+Hint faktoryaları       B listesi — sömürgeye dönüşme tarihi her biri için ayrı
+                        araştırma → ÇAPRAZ İBERYA
+Harar / oromo kimliği   enklav değil KİMLİK eksiği → VERİ KİMLİK 3
+Don Kazak Ordası        hücre 8 · 10 → VERİ KİMLİK 3
+Mardin 1516 mı 1517 mi  bir yıl çelişki → ÇAPRAZ
+Kuzey Eritre kıyısı     Masavva↔Akīk 321 km, nokta YOK ama kaynaklı yerleşim
+                        de yok — Ç7 ile aynı coğrafya
+```
