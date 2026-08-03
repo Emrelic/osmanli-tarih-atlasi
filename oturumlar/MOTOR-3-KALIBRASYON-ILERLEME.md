@@ -573,3 +573,71 @@ da kıyaslanabilsin diye.
 ```
 📌 (b) koordinatörün **elle** yaptığı teşhisin biçimini birebir üretti. Ayrıca
 kesit değerleri onun elle ölçtükleriyle çakışıyor (1517-07-06 → 2.484.000 km²).
+
+---
+
+# ⑨ YETİM EMİLİM ÖLÇÜTÜ — kök sebep, ölçüm, yama
+
+## Kök sebep
+Yaslama bir hücreyi ikiye böldüğünde noktayı barındırmayan büyük parça
+**yetim** kalıyor, sonra "EN UZUN ORTAK KENARI paylaşan yüze" veriliyordu.
+O ölçüt *"bu toprak aslında kimindi"* sorusunu sormuyor:
+```
+Eperjes'in 23.357 km²'si → KRAKOV     (Karpatlar'ın öte yakası)
+Reggio Calabria'nın payı → SİRAKUZA   (Messina Boğazı'nın öte yakası)
+```
+⇒ Motor Slovak toprağını Krakov'a yazıyordu.
+
+📌 İki hipotez de yanlıştı: koordinatörünki **yaslama yarıçapı** (tetikleyici
+ama suçsuz), benimki **yüz atama** (elendi — Eperjes'te komşuya giden SIFIR).
+Sebep **ara istasyondaydı**: yüz önce sahipsiz kalıyor, sonra emiliyor.
+
+## Ölçüm
+```
+yer değiştiren yüzlerde BUGÜNKÜ sahibin kendi ham hücresiyle örtüşmesi
+   ortalama %3,1 · 8 yüzün 6'sı %2'DEN AZ      → "kazanmamış, YUTMUŞ"
+   Sirakuza %0,0 · Dahlak %0,0 · Vellor %0,0 · Fas %0,1
+   tek gerçek takas: Girona %19,4 ↔ Perpignan %79,3
+```
+⚠️ *"Önerilen sahip %96 örtüşüyor"* dairesel bir sayıdır (ölçüt zaten
+örtüşmeyi maksimize eder). Kanıt öteki sütundadır: **Sirakuza'nın aldığı
+26.387 km² kendi hücresinde HİÇ YOK.**
+
+### Nihai (boru hattının sonu)
+```
+%10 altı petek   BUGÜNKÜ 6  →  ÖNERİLEN 0  →  ÖNERİ+ENKLAV 2
+nihai yer değiştiren   78.368 km² · 47 petek
+🟢 korunum: toplam boyanan alan iki ölçütte de 65.374.719 km², fark −0
+```
+📌 Ara aşamada 119.658 km² görünüyordu; 41.290'ını alt aşamalar zaten geri
+veriyormuş. **Reggio Calabria ada kuralıyla kendiliğinden düzeliyor** (%110,6)
+— ara ölçümü nihai diye sunsaydım yanlış vaka bildirmiş olurdum.
+
+## Enklav — ölçütün soramadığı soru
+Yeni ölçüt 7 çiftin 6'sında doğru, ama **ilkeden değil tesadüfen** (enklav
+çoğu zaman kısa kenarlıdır). Presidionun hinterlandı yoktur ve bu **hukukî**
+bir durumdur, geometrik değil — `kasitli_bosluk` ile aynı sınıf.
+
+**Dönem bazlı şema ↔ zamansız taban geometri çatışması** ölçüldü:
+```
+uygulama    "bir dönemde bile enklavsa hiç ememez" (yaklaşık)
+bedeli      1.609 km² · 155 yıl · TEK nokta (Oran)  = on binde 3
+Sebte'nin bedeli SIFIR — enklav olmadığı tek dönemde (1281-1415) toprak
+   fas'tan fas'a geçiyor, harita AYNI kalıyor
+```
+⇒ Dönem bazlı gerçek çözüm bu bedele değmedi (koordinatör kararı).
+
+## Yazılanlar (`uret_petek.py`)
+```
+① yetim emilimi → ham hücre örtüşmesi
+② enklav kısıtı + veri yoksa GÜRÜLTÜLÜ UYARI (iki dal da sınandı)
+③ yedinci denetimde enklav muafiyeti + muafların ayrıca listelenmesi
+```
+⚠️ ③ olmasaydı denetim Sebte ve Oran'ı sonsuza kadar işaretlerdi — `BOZUK_KIYI_TABAN = 32`'nin başına gelenin aynısı.
+
+## ⚠️ KENDİ HATAM
+`Cebelitarık` ve `Menorka`yı *"veride yok"* diye bildirdim; **varlar**, adları
+parantezli (`Cebelitarık (Gibraltar)` · `Menorka (Mahon)`) ve tam-eşleşme
+aradığım için ıskaladım. Ölçüme etkisi sınandı: **ikisi de sıfır yetim yüz
+alıyor, sonuç değişmiyor.** 📌 Ders: *"yok" da bir ölçümdür* — ad eşlemesi
+tam-eşleşmeyse "bulunamadı" ile "yok" ayrı şeylerdir.

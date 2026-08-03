@@ -30,7 +30,7 @@ window.YERLESIMLER_EK3 = [
 // 📌 Gün yok, yıl var ⇒ `YYYY-01-01` (ev kuralı). Zaten üçü de s:→s:
 //    geçişi olduğu için KIRILMA ÜRETMİYOR — Değişmez 2 borcu sıfır.
 { ad:"Sebte (Ceuta)", tur:"liman", lat:35.889, lon:-5.318, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1415-01-01",d:"fas"},{f:"1415-01-01",t:"1581-04-16",d:"portekiz"},{f:"1581-04-16",t:"1923-10-29",d:"ispanya"}] },
+  s:[{f:"1281-01-01",t:"1415-01-01",d:"fas"},{f:"1415-01-01",t:"1581-04-16",d:"portekiz",enklav:true},{f:"1581-04-16",t:"1923-10-29",d:"ispanya",enklav:true}] },
 
 // 🔴 BU PARTİNİN EN ZAYIF KAYDI — ve zayıflığı burada yazılı.
 // TDV'de `melile` slug'ı ÖLÜ, müstakil madde YOK. Arama içeriklerinde
@@ -46,7 +46,7 @@ window.YERLESIMLER_EK3 = [
 // ⚠️ Kamengrad'dan farkı bu: orada hiç tarih yoktu ve komşusunu kopyalamak
 //    100 yıl yanlış olurdu; burada tarih var, yalnız TDV'siz.
 { ad:"Melîle (Melilla)", tur:"liman", lat:35.292, lon:-2.938, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1497-01-01",d:"fas"},{f:"1497-01-01",t:"1923-10-29",d:"ispanya"}] },
+  s:[{f:"1281-01-01",t:"1497-01-01",d:"fas"},{f:"1497-01-01",t:"1923-10-29",d:"ispanya",enklav:true}] },
 
 // Oran'ın limanı, ona 7,51 km. TDV `vehran`: "Kastilya Krallığı 17 Mayıs
 // 1509'da Vehrân'ı işgal edip"; Mersa'l-Kebîr için AYRI tarih VERMİYOR.
@@ -61,7 +61,7 @@ window.YERLESIMLER_EK3 = [
 //    (Oran) ve Mersalkebîr'in İspanyollardan alınışı"` maddesi VAR ama
 //    haritada karşılığı olan bir yer YOKTU. Madde artık bir yere basıyor.
 { ad:"Mersa'l-Kebîr", tur:"liman", lat:35.728, lon:-0.709, g:0, k:4, m:"Oran",
-  s:[{f:"1281-01-01",t:"1509-05-17",d:"zeyyani"},{f:"1509-05-17",t:"1708-04-04",d:"ispanya"},{f:"1732-07-01",t:"1792-02-12",d:"ispanya"},{f:"1831-01-04",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1509-05-17",d:"zeyyani"},{f:"1509-05-17",t:"1708-04-04",d:"ispanya",enklav:true},{f:"1732-07-01",t:"1792-02-12",d:"ispanya",enklav:true},{f:"1831-01-04",t:"1923-10-29",d:"fransa"}],
   d:[{f:"1708-04-04",t:"1732-07-01",y:"kusatma"},{f:"1792-02-12",t:"1831-01-04",y:"antlasma"}] },
 
 // ── ② SEYREKLİK LİSTESİ 6-15 — ÜÇ SINIF UYGULANDI ───────────────────
@@ -117,16 +117,16 @@ window.YERLESIMLER_EK3 = [
 //    Portekiz'in Fas'ta en son bıraktığı yer (1769). En yakın nokta
 //    Rabat'tı, 176 km — yani orası da düz Fas boyanıyordu.
 { ad:"Mazagan (El Jadida)", tur:"kale", lat:33.256, lon:-8.506, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1514-01-01",d:"fas"},{f:"1514-01-01",t:"1769-01-01",d:"portekiz"},{f:"1769-01-01",t:"1923-10-29",d:"fas"}] },
+  s:[{f:"1281-01-01",t:"1514-01-01",d:"fas"},{f:"1514-01-01",t:"1769-01-01",d:"portekiz",enklav:true},{f:"1769-01-01",t:"1923-10-29",d:"fas"}] },
 
 { ad:"Safi (Asfi)", tur:"liman", lat:32.299, lon:-9.237, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1488-01-01",d:"fas"},{f:"1488-01-01",t:"1541-01-01",d:"portekiz"},{f:"1541-01-01",t:"1923-10-29",d:"fas"}] },
+  s:[{f:"1281-01-01",t:"1488-01-01",d:"fas"},{f:"1488-01-01",t:"1541-01-01",d:"portekiz",enklav:true},{f:"1541-01-01",t:"1923-10-29",d:"fas"}] },
 
 { ad:"Azemmûr", tur:"liman", lat:33.289, lon:-8.342, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1513-01-01",d:"fas"},{f:"1513-01-01",t:"1541-01-01",d:"portekiz"},{f:"1541-01-01",t:"1923-10-29",d:"fas"}] },
+  s:[{f:"1281-01-01",t:"1513-01-01",d:"fas"},{f:"1513-01-01",t:"1541-01-01",d:"portekiz",enklav:true},{f:"1541-01-01",t:"1923-10-29",d:"fas"}] },
 
 { ad:"Arzila (Asilah)", tur:"liman", lat:35.466, lon:-6.036, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1471-01-01",d:"fas"},{f:"1471-01-01",t:"1549-01-01",d:"portekiz"},{f:"1549-01-01",t:"1923-10-29",d:"fas"}] },
+  s:[{f:"1281-01-01",t:"1471-01-01",d:"fas"},{f:"1471-01-01",t:"1549-01-01",d:"portekiz",enklav:true},{f:"1549-01-01",t:"1923-10-29",d:"fas"}] },
 
 
 ];

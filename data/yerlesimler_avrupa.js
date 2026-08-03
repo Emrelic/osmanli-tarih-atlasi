@@ -228,7 +228,7 @@ window.YERLESIMLER_AVRUPA = [
 { ad:"Ronda", tur:"sehir", lat:36.742, lon:-5.167, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1485-05-22",d:"granada"},{f:"1485-05-22",t:"1923-10-29",d:"ispanya"}] },
 { ad:"Almería", tur:"liman", lat:36.834, lon:-2.464, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1489-12-22",d:"granada"},{f:"1489-12-22",t:"1923-10-29",d:"ispanya"}] },
 // Cebelitarık: 1462 Kastilya fethi, 1704 İngiliz işgali (1713 Utrecht ile kalıcı)
-{ ad:"Cebelitarık (Gibraltar)", tur:"kale", lat:36.140, lon:-5.353, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1462-08-20",d:"granada"},{f:"1462-08-20",t:"1479-01-20",d:"kastilya"},{f:"1479-01-20",t:"1704-08-04",d:"ispanya"},{f:"1704-08-04",t:"1923-10-29",d:"ingiltere"}] },
+{ ad:"Cebelitarık (Gibraltar)", tur:"kale", lat:36.140, lon:-5.353, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1462-08-20",d:"granada"},{f:"1462-08-20",t:"1479-01-20",d:"kastilya"},{f:"1479-01-20",t:"1704-08-04",d:"ispanya"},{f:"1704-08-04",t:"1923-10-29",enklav:true,d:"ingiltere"}] },
 
 // ── İBERYA: Aragon tacı ────────────────────────────────────────────────────
 { ad:"Zaragoza", tur:"sehir", lat:41.649, lon:-0.888, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1479-01-20",d:"aragon"},{f:"1479-01-20",t:"1923-10-29",d:"ispanya"}] },

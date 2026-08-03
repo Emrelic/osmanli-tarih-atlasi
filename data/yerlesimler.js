@@ -721,7 +721,7 @@ window.YERLESIMLER = [
 { ad:"Gabes", tur:"liman", lat:33.881, lon:10.098, g:0, k:3, m:"Tunus", s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa"}], d:[{f:"1574-08-25",t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1881-05-12",k:"Tunus Ocaklığı (Hüseynîler)"}] },
 { ad:"Cezayir", tur:"liman", lat:36.753, lon:3.059, g:1, k:2, s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1830-07-05",t:"1923-10-29",d:"fransa"}], d:[{f:"1519-09-01",t:"1671-01-01",y:"antlasma"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)"}] },
 { ad:"Konstantin", tur:"sehir", lat:36.365, lon:6.615, g:0, k:3, m:"Cezayir", s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1837-10-13",t:"1923-10-29",d:"fransa"}], d:[{f:"1519-09-01",t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05",t:"1837-10-13",k:"Ahmed Bey'in Konstantin beyliği (Osmanlı adına)"}] },
-{ ad:"Oran", tur:"liman", lat:35.699, lon:-0.634, g:0, k:3, m:"Cezayir", s:[{f:"1281-01-01",t:"1509-05-17",d:"zeyyani"},{f:"1509-05-17",t:"1708-04-04",d:"ispanya"},{f:"1732-07-01",t:"1792-02-12",d:"ispanya"},{f:"1831-01-04",t:"1923-10-29",d:"fransa"}], d:[{f:"1708-04-04",t:"1732-07-01",y:"kusatma"},{f:"1792-02-12",t:"1831-01-04",y:"antlasma"}] },
+{ ad:"Oran", tur:"liman", lat:35.699, lon:-0.634, g:0, k:3, m:"Cezayir", s:[{f:"1281-01-01",t:"1509-05-17",d:"zeyyani"},{f:"1509-05-17",t:"1708-04-04",d:"ispanya",enklav:true},{f:"1732-07-01",t:"1792-02-12",d:"ispanya",enklav:true},{f:"1831-01-04",t:"1923-10-29",d:"fransa"}], d:[{f:"1708-04-04",t:"1732-07-01",y:"kusatma"},{f:"1792-02-12",t:"1831-01-04",y:"antlasma"}] },
 { ad:"Tilimsan", tur:"sehir", lat:34.882, lon:-1.315, g:0, k:3, m:"Cezayir", s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1830-07-05",t:"1923-10-29",d:"fransa"}], d:[{f:"1552-01-01",t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)"}] },
 // ---------------- YENİ OSMANLI YERLEŞİMLERİ (bölge yoğunlaştırma) ----------------
 { ad:"Batum", tur:"liman", lat:41.6439, lon:41.6420, g:1, k:3, m:"Trabzon", d:[{f:"1578-08-09",t:"1878-07-13",y:"savas"},{f:"1918-04-14",t:"1918-12-01",y:"antlasma"}],
@@ -753,7 +753,7 @@ window.YERLESIMLER = [
 { ad:"Annaba", tur:"liman", lat:36.900, lon:7.766, g:0, k:4, m:"Cezayir", d:[{f:"1534-09-22",t:"1671-01-01"}],
     s:[{f:"1281-01-01",t:"1535-01-01",d:"zeyyani"},{f:"1832-03-01",t:"1923-10-29",d:"fransa"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05",t:"1832-03-01",k:"Ahmed Bey'in Konstantin beyliği (Osmanlı adına)"}] },
 { ad:"Bicâye", tur:"liman", lat:36.751, lon:5.056, g:0, k:4, m:"Cezayir", d:[{f:"1555-09-27",t:"1671-01-01"}],
-    s:[{f:"1281-01-01",t:"1510-01-01",d:"zeyyani"},{f:"1510-01-01",t:"1555-09-27",d:"ispanya"},{f:"1833-09-29",t:"1923-10-29",d:"fransa"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05",t:"1833-09-29",k:"Ahmed Bey'in Konstantin beyliği (Osmanlı adına)"}] },
+    s:[{f:"1281-01-01",t:"1510-01-01",d:"zeyyani"},{f:"1510-01-01",t:"1555-09-27",d:"ispanya",enklav:true},{f:"1833-09-29",t:"1923-10-29",d:"fransa"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05",t:"1833-09-29",k:"Ahmed Bey'in Konstantin beyliği (Osmanlı adına)"}] },
 { ad:"Zeyla", tur:"liman", lat:11.355, lon:43.473, g:0, k:3, m:"Sevâkin", d:[{f:"1559-01-01",t:"1884-01-01",y:"ilhak"}],
     s:[{f:"1281-01-01",t:"1559-01-01",d:"adal"},{f:"1884-01-01",t:"1923-10-29",d:"ingiltere"}] },
 { ad:"Hacıbey (Odessa)", tur:"kale", lat:46.485, lon:30.733, g:0, k:3, m:"Silistre", d:[{f:"1538-09-01",t:"1792-01-09"}],
@@ -930,8 +930,8 @@ window.YERLESIMLER = [
 { ad:"Asmara", tur:"sehir", lat:15.339, lon:38.932, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1923-10-29",d:"italya"}] },
 // ---- FAS EK ----
 { ad:"Rabat", tur:"liman", lat:34.021, lon:-6.841, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"fas"}] },
-{ ad:"Tanca", tur:"liman", lat:35.777, lon:-5.804, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1471-08-28",d:"fas"},{f:"1471-08-28",t:"1662-01-30",d:"portekiz"},{f:"1662-01-30",t:"1684-02-05",d:"ingiltere"},{f:"1684-02-05",t:"1923-10-29",d:"fas"}] },
-{ ad:"Agadir", tur:"liman", lat:30.428, lon:-9.598, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1505-01-01",d:"fas"},{f:"1505-01-01",t:"1541-01-01",d:"portekiz"},{f:"1541-01-01",t:"1923-10-29",d:"fas"}] },
+{ ad:"Tanca", tur:"liman", lat:35.777, lon:-5.804, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1471-08-28",d:"fas"},{f:"1471-08-28",t:"1662-01-30",d:"portekiz",enklav:true},{f:"1662-01-30",t:"1684-02-05",d:"ingiltere",enklav:true},{f:"1684-02-05",t:"1923-10-29",d:"fas"}] },
+{ ad:"Agadir", tur:"liman", lat:30.428, lon:-9.598, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1505-01-01",d:"fas"},{f:"1505-01-01",t:"1541-01-01",d:"portekiz",enklav:true},{f:"1541-01-01",t:"1923-10-29",d:"fas"}] },
 // ---- KARADAĞ ----
 { ad:"Cetinje", tur:"sehir", lat:42.391, lon:18.914, g:0, k:4, m:"İşkodra", kur:"1482-01-01", kasitli_bosluk:true,
     s:[{f:"1697-01-01",t:"1923-10-29",d:"karadag"}], d:[{f:"1499-01-01",t:"1697-01-01"}],

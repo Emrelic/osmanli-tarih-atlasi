@@ -657,25 +657,65 @@ for f in _yuzler:
 # Nokta içermeyen yüzler: en uzun ortak kenarı paylaştığı sahipli yüzün
 # hücresine katılır (birkaç tur: yetim zinciri olabilir); komşusuz kalan
 # en yakın noktaya verilir.
-_sahipli = [(f, i) for i, fs in enumerate(_kume) for f in fs]
-_kalan = _yetim
-for _tur in range(4):
-    if not _kalan: break
-    _agacY = STRtree([f for f, _ in _sahipli])
-    _sonra = []
-    for f in _kalan:
-        en, enuz = None, -1.0
-        for k in _agacY.query(f, predicate="intersects"):
-            ort = f.boundary.intersection(_sahipli[int(k)][0].boundary).length
-            if ort > enuz: enuz, en = ort, _sahipli[int(k)][1]
-        if en is None or enuz <= 0:
-            _sonra.append(f)
-        else:
-            _kume[en].append(f); _sahipli.append((f, en))
-    _kalan = _sonra
-for f in _kalan:
-    i = min(range(len(noktalar)), key=lambda i: f.distance(noktalar[i]))
-    _kume[i].append(f)
+# 🔴 ÖLÇÜT DEĞİŞTİ — "en uzun ortak kenar" → "ham hücre örtüşmesi".
+# MOTOR 3, 3 Ağustos 2026. Bugüne kadarki en pahalı tek kusur buradaydı.
+#
+# ESKİ ÖLÇÜT: yetim yüz, EN UZUN ORTAK KENARI paylaştığı yüzün sahibine
+# veriliyordu. Ama "en uzun ortak kenar" ile "bu toprak aslında kimindi"
+# aynı soru DEĞİL. Yaslama bir hücreyi ikiye böldüğünde, kopan parçanın en
+# uzun kenarı çoğu zaman DAĞ SIRTININ ya da BOĞAZIN ÖTE YAKASINDAKİ şehirle
+# oluyordu:
+#     Eperjes'in 23.357 km²'si  → KRAKOV      (Karpatlar'ın öte yakası)
+#     Reggio Calabria'nın payı  → SİRAKUZA    (Messina Boğazı'nın öte yakası)
+# Yani motor Slovak toprağını Krakov'a yazıyordu.
+#
+# ÖLÇÜLDÜ (MOTOR 3 raporu §⑦, canlı 1619 noktalı veriyle):
+#   yer değiştiren yüzlerde BUGÜNKÜ sahibin kendi ham hücresiyle örtüşmesi
+#   ortalama %3,1 — 8 yüzün 6'sında %2'DEN AZ. Yani "kazanmamış, YUTMUŞ".
+#   Nihai etki: %10 altında kalan petek 6 → 0 · yer değiştiren 78.368 km².
+#   🟢 Korunum sınavı: toplam boyanan alan iki ölçütte de 65.374.719 km²,
+#      fark −0. Değişiklik toprak yaratmıyor/yok etmiyor, ADRESİNİ düzeltiyor.
+#
+# ⚠️ ENKLAV KISITI — ölçütün tek başına yetmediği yer.
+# Yeni ölçüt 7 çiftin 6'sında doğru sonuç verdi ama Sebte'de yanıldı ve
+# doğru olduğu yerlerde de İLKEDEN değil TESADÜFEN doğruydu (enklav çoğu
+# zaman kısa kenarlıdır). Presidionun hinterlandı YOKTUR; bu geometrik
+# değil HUKUKÎ bir durumdur ve hiçbir örtüşme ölçütü onu soramaz —
+# `kasitli_bosluk` ile aynı sınıf. Veri alanı: `s:` içinde `enklav:`.
+# 📌 Yaklaşıklık: taban geometri ZAMANSIZ olduğu için "bir dönemde bile
+#    enklavsa hiç ememez" okuması uygulanıyor. Bedeli ÖLÇÜLDÜ —
+#    1.609 km² · 155 yıl · tek nokta (Oran), yani on binde 3. Dönem bazlı
+#    gerçek çözüm bu bedele değmedi (koordinatör kararı, 3 Ağustos).
+_ENKLAV = frozenset(i for i, y in enumerate(YERLER)
+                    if any(p.get("enklav") for p in y["s"]))
+if not _ENKLAV:
+    print("  " + "=" * 66)
+    print("  ⚠️ `enklav:` ALANI TAŞIYAN HİÇBİR KAYIT YOK.")
+    print("     A listesi (14 nokta / 20 dönem) veriye işlenmemiş olabilir.")
+    print("     BU KOŞUDA PRESİDİOLAR HİNTERLAND KAZANIR — ölçüldü:")
+    print("       Sebte %3,3 → %87,1 · Oran %7,9 → hinterland kazanır")
+    print("     Beklenen bu değilse koşuyu durdurup A listesini işleyin.")
+    print("  " + "=" * 66)
+else:
+    print(f"  enklav: {len(_ENKLAV)} nokta yetim yüz EMMEYECEK "
+          f"({', '.join(sorted(YERLER[i]['ad'] for i in _ENKLAV)[:6])}"
+          f"{'…' if len(_ENKLAV) > 6 else ''})")
+
+_PETEK_AGACI = STRtree(PETEK)
+for f in _yetim:
+    _en, _ea = None, 0.0
+    for k in _PETEK_AGACI.query(f):
+        i = int(k)
+        if i in _ENKLAV: continue
+        try:
+            _a = PETEK[i].intersection(f).area
+        except Exception:
+            continue
+        if _a > _ea: _ea, _en = _a, i
+    if _en is None:                      # hiçbir ham hücreyle örtüşmüyor
+        _en = min((i for i in range(len(noktalar)) if i not in _ENKLAV),
+                  key=lambda i: f.distance(noktalar[i]))
+    _kume[_en].append(f)
 
 PETEK_TAM = []
 for i, fs in enumerate(_kume):
@@ -1318,14 +1358,30 @@ if _YASLAMA_IPTAL:
           f"({len(set(_YASLAMA_IPTAL))} yerleşim korundu)")
 print("  en düşük 6 oran: " + " · ".join(
     f"{ad} %{o*100:.0f} ({son:,.0f}/{ham:,.0f} km²)" for o, son, ham, ad in _oranlar[:6]))
-_kayip = [r for r in _oranlar if r[0] < SIFIR_PETEK_ORAN]
+# 🔴 ENKLAV MUAFİYETİ — MOTOR 3, 3 Ağustos 2026.
+# Enklav bir presidiodur; peteğinin ham hücresine oranla KÜÇÜK kalması
+# kusur değil, İSTENEN sonuçtur. Muaf tutulmazsa bu denetim doğduğu günden
+# itibaren Sebte'yi (%3,3) ve Oran'ı (%7,9) SONSUZA KADAR işaretler —
+# yani tam olarak `BOZUK_KIYI_TABAN = 32`'nin başına gelen şey: her koşuda
+# "✗" basan, kimsenin bakmadığı, gerçek bir regresyonu artık gizleyen satır.
+# ⚠️ Muafiyet SESSİZ DEĞİL: muaf tutulanlar ayrıca yazılır, çünkü "muaf"
+#    ile "gözden kaçtı" ekranda aynı görünmemeli.
+_ENK_AD = {YERLER[i]["ad"] for i in _ENKLAV}
+_kayip = [r for r in _oranlar if r[0] < SIFIR_PETEK_ORAN and r[3] not in _ENK_AD]
+_kayip_muaf = [r for r in _oranlar if r[0] < SIFIR_PETEK_ORAN and r[3] in _ENK_AD]
 if _kayip:
     print(f"  ✗ {len(_kayip)} PETEK ham hücresinin %{SIFIR_PETEK_ORAN*100:.0f}'undan "
           f"küçük — bu yerleşimlerin fetih/kayıp maddeleri haritada GÖRÜNMEZ:")
     for o, son, ham, ad in _kayip:
         print(f"      {ad:<28} %{o*100:5.1f}   {son:>9,.0f} / {ham:>9,.0f} km²")
 else:
-    print(f"  ✓ hiçbir petek ham hücresinin %{SIFIR_PETEK_ORAN*100:.0f}'unun altında değil")
+    print(f"  ✓ hiçbir petek ham hücresinin %{SIFIR_PETEK_ORAN*100:.0f}'unun altında değil"
+          + (" (enklavlar hariç)" if _kayip_muaf else ""))
+if _kayip_muaf:
+    print(f"  ⓘ enklav muafiyeti: {len(_kayip_muaf)} petek eşiğin altında ama "
+          f"BEKLENEN (presidionun hinterlandı yoktur):")
+    for o, son, ham, ad in _kayip_muaf:
+        print(f"      {ad:<28} %{o*100:5.1f}   {son:>9,.0f} / {ham:>9,.0f} km²")
 
 # ---------------- AŞINMA BANDI — iki farklı soru, iki farklı eşik ----------
 # Yedinci denetimin %10 eşiği "HÜCRE YOK EDİLDİ" sorusu için kalibre edildi

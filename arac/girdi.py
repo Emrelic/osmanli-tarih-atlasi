@@ -299,6 +299,50 @@ BILINEN_DONEM_ALANLARI = {
     "t": "bitiş",
     "d": "devlet kimliği — s: ve isg: içinde; renkler.py'de tanımlı olmalı",
     "k": "tâbi devletin adı — v: içinde (motor okumaz, gösterim için)",
+    # ⚠️ `enklav:` — GEOMETRİNİN SORAMADIĞI SORUYU TAŞIYAN İKİNCİ ALAN.
+    # `kasitli_bosluk` ile aynı sınıftır ve gerekçesi tek cümle:
+    # ENKLAVLIK HUKUKÎ BİR DURUMDUR, GEOMETRİK DEĞİL. Motor "bu peteğin
+    # çevresi kimin" diye sorabiliyor ama "burası bir presidio muydu, yoksa
+    # hinterlandı olan bir şehir mi" diye soramıyor.
+    # Ölçüldü (MOTOR 3, 3 Ağustos): yetim petek payı EN ÇOK ÖRTÜŞEN noktaya
+    # verilince ölçüt 7 çiftin 6'sında doğru sonuç verdi — ama Sebte'de
+    # yanıldı ve İLKEDEN değil TESADÜFEN tutuyordu (enklav çoğu zaman kısa
+    # kenarlı olur). Presidionun hinterlandı YOKTUR; toprağı ona vermek ayrı,
+    # ondan almak ayrı sorudur ve hiçbir geometrik ölçüt ikisini ayıramaz.
+    #
+    # 🔴 DÖNEM BAZLIDIR, NOKTA BAZLI DEĞİL — ayrım şart:
+    #     Sebte 1281-1415 fas       → sıradan Fas kasabası, enklav DEĞİL
+    #           1415-1581 portekiz  → ENKLAV
+    #     Mersa'l-Kebîr 1509-1792 ispanya → ENKLAV
+    #                   1831-1923 fransa  → DEĞİL (sömürge, hinterlandı VAR)
+    # ⚠️ Motorun taban geometrisi ZAMANSIZ olduğu için bugünkü uygulama
+    #    yaklaşıktır: bir dönemde bile enklavsa nokta hiç yetim ememez.
+    #    Bedeli ÖLÇÜLDÜ — 1.609 km² · 155 yıl · tek nokta (Oran), yani
+    #    Osmanlı tepe gövdesinin on binde 3'ü. Dönem bazlı gerçek çözüm
+    #    (petek_epok deseni) bu bedele değmedi; ölçüm MOTOR-3 raporunda.
+    #
+    # ⚠️ COĞRAFÎ TARİF DEĞİL. Bu depoda "enklav" kelimesi dokuz yorumda
+    #    GÖRÜNTÜ anlamında geçiyor ("Şirvan enklav görünüyor", "Saraybosna
+    #    enklavı", "Dubrovnik enklavı") ve orada kastedilen şey bir KUSURDUR.
+    #    Buradaki alan ise bir HÜKÜMDÜR: "bu dönemde hinterlandı yoktu".
+    #    İkisi karıştırılırsa alan, düzeltilmesi gereken bir görüntü hatasına
+    #    yazılır ve hatayı kalıcılaştırır.
+    #
+    # 📌 A LİSTESİ (PETEK/NOKTA parti 14, Oturum 0 işledi): 13 nokta / 17
+    #    dönem. Sebte · Melîle · Mersa'l-Kebîr · Oran · Bicâye · Halkulvâdî ·
+    #    Tanca · Mazagan · Safi · Azemmûr · Arzila · Agadir · Cebelitarık.
+    # 🔴 MENORKA LİSTEDEYDİ, YAZILMADI: İngiltere 1708-1802'de ADANIN
+    #    TAMAMINI tutuyordu, yani hinterlandı VARDI (kendi adası). Ölçüt
+    #    "yabancı hâkimiyet" değil "hinterlandı yok" — ikisi karıştırılırsa
+    #    alan bütün sömürgelere yayılır ve anlamını yitirir. Aynı sebeple
+    #    Oran'ın ve Mersa'l-Kebîr'in `fransa 1831-1923` dönemleri de HARİÇ.
+    # 📌 Otomatik tarama DENENDİ ve ÇÜRÜDÜ (iki ölçüt, PETEK/NOKTA parti 14):
+    #    enklavı görünmez yapan seyreklik, testi de kör ediyor. Liste ELLE
+    #    kurulur.
+    "enklav": "True ise yerleşimin BU DÖNEMDE hinterlandı yoktur (presidio, "
+              "karşı-kıyı karakolu) — yetim petek payı ona DEVREDİLMEZ ve "
+              "yedinci denetimin %10 bayrağından MUAFTIR. s: içinde. "
+              "Okuyan: uret_petek.py. Yalnız kaynaklı hükümle yazılır.",
     # ⚠️ `y:` İKİ ANLAMDA KULLANILMIŞTI — Oturum 2'nin bulgusu, kütüğün ilk
     # gerçek müşterisi. d:/s: içinde KAZANIM BİÇİMİ enum'u (kusatma 85, savas
     # 77, antlasma 67 kayıt), isg: içinde ise KAYNAK SLUG'ı. Aynı ada iki
