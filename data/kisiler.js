@@ -69,7 +69,35 @@ window.KISILER = [
 { id:"enver-pasa", tur:"komutan", ad:"Enver Paşa",                      f:"1881", t:"1922", donem:"1881–1922", not:"Harbiye nâzırı; Edirne'nin geri alınışı" },
 { id:"mustafa-kemal-pasa", tur:"komutan", ad:"Mustafa Kemal Paşa (Atatürk)",    f:"1881", t:"1938", donem:"1881–1938", not:"Çanakkale, Millî Mücadele önderi, ilk cumhurbaşkanı" },
 // --- Denizciler ---
-{ id:"barbaros-hayreddin-pasa", tur:"denizci", ad:"Barbaros Hayreddin Paşa",         f:"1478", t:"1546", donem:"1478–1546", not:"Kaptan-ı deryâ; Preveze zaferi" },
+{ id:"barbaros-hayreddin-pasa", tur:"denizci", ad:"Barbaros Hayreddin Paşa",         f:"1478", t:"1546", donem:"1478–1546", not:"Kaptan-ı deryâ; Preveze zaferi",
+    dogum:"1478 dolayı",
+    dogum_yer:"Midilli",
+    olum:"1546-07-05",
+    olum_yer:"İstanbul (Beşiktaş)",
+    olum_sebep:"kısa süreli bir hastalık sonrası",
+    baba:"Yâkub Ağa (Vardar Yenicesi'nden bir sipahi)",
+    gorev:"Kaptan-ı Deryâ (1534-1546)",
+    esler:[],
+    cocuk:{},
+    skandal:"Avrupalılarca kızıl sakalı yüzünden 'Barbarossa' diye "
+    + "anıldı; asıl adı Hızır'dı, 'Hayreddin' unvanını I. Selim'den aldı "
+    + "— bir korsan kaptanın imparatorluğun resmî donanma komutanına "
+    + "dönüşümü, döneminin en olağan dışı yükseliş hikâyelerinden biri.",
+    ovgu:"Cezayir'i Osmanlı hâkimiyetine kesin biçimde bağladı, 1538 "
+    + "Preveze Muharebesi'nde Haçlı donanmasını dağıtıp Akdeniz'de "
+    + "Osmanlı üstünlüğünü kurdu, Ege ve Doğu Akdeniz'de 28 Venedik "
+    + "adasını aldı, 1543'te Fransa'ya (Toulon) müttefik filo gönderdi.",
+    yergi:"Ağabeyi Oruç Reis'in Kuzey Afrika'daki korsanlık mirasını "
+    + "devralması, bazı çağdaş Avrupalı kaynaklarca hâlâ 'korsanlık' "
+    + "kökeni üzerinden itibarsızlaştırılmaya çalışıldı.",
+    tartisma:"Preveze'nin kesin bir zafer mi yoksa Haçlı donanmasının "
+    + "çekilmesiyle sonuçlanan sınırlı bir çatışma mı olduğu Batı ve "
+    + "Osmanlı tarihyazımında farklı vurgularla anlatılır.",
+    tarihciler:"Klasik anlatı onu 'Akdeniz'in efendisi' sayar; modern "
+    + "araştırmalar Osmanlı deniz gücünün onun yetiştirdiği kaptanlar "
+    + "(Turgut Reis, Piyale Paşa) sayesinde ölümünden sonra da "
+    + "sürdüğünü, kurumsal bir mirasa işaret ederek vurgular.",
+    kaynak:"TDV: barbaros-hayreddin-pasa" },
 { id:"turgut-reis", tur:"denizci", ad:"Turgut Reis",                     f:"1485", t:"1565", donem:"1485–1565", not:"Trablusgarp'ın fatihi" },
 { id:"kilic-ali-pasa", tur:"denizci", ad:"Kılıç Ali Paşa (Uluç)",           f:"1500", t:"1587", donem:"1500–1587", not:"İnebahtı'dan filoyu kurtaran, Tunus'u geri alan kaptan-ı deryâ" },
 { id:"muezzinzade-ali-pasa", tur:"denizci", ad:"Müezzinzâde Ali Paşa",            t:"1571", donem:"ö. 1571", not:"İnebahtı'da şehit düşen kaptan-ı deryâ" },
