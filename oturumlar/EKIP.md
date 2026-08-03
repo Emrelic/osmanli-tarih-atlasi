@@ -36,19 +36,21 @@
 | oturum | model | durumu | ne yapılmalı |
 |---|---|---|---|
 | **MOTOR 2** | Fable | 2 Ağu 20:02'de kapanış raporunu verdi, sonra boş | 🔴 **İş var:** koşu süresi kalibrasyonu. Ama koşu işlemciyi tutuyor — **koşu bitince** aç |
-| **VERİ KİMLİK 2** | Opus | 2 Ağu 12:46, kuyruğu bitti | 🔴 **İş var:** 98 Asya kimliği hâlâ adsız (koşu logunda 559 "bilinmeyen devlet kimliği" uyarısı) |
+
 
 ## ⬜ KAPANDI
 
 | oturum | nasıl kapandı |
 |---|---|
 | **RENK** | 2 Ağu 14:49 — 53 kimlik yazdı, palet büyümedi, kendini kapattı |
+| **VERİ KİMLİK 2** | 3 Ağu — kuyruğu bitmişti, 17 saat boş durdu. ⚠️ Yeni iş **devamı değil**: bayat bağlam her turda para yakar, brifing zaten kendine yeter ⇒ **VERİ KİMLİK 3** açıldı |
 
 ## 🔵 BRİFİNGİ HAZIR, AÇILMADI
 
 | oturum | model | brifing | neden bekliyor |
 |---|---|---|---|
 | **PETEK / NOKTA** | Opus | `PETEK-NOKTA-GOREV.md` | 🟢 **ŞİMDİ AÇILABİLİR** — yeni dosyaya yazar, motor girdisi değil |
+| **VERİ KİMLİK 3** | Opus | `VERI-KIMLIK-3-ASYA.md` | 🟢 **ŞİMDİ AÇILABİLİR** — koşu bitti, `devletler.js` serbest |
 | **VERİ ARAŞTIRMA** | Opus | *(yazılacak)* | 10 madde, yeni dosyaya yazar → koşuyu beklemez |
 | **KRONOLOJİ** | Sonnet | *(yazılacak)* | 7 madde ama `devletler.js` yazar = **motor girdisi**, koşuyu bekler |
 | **ASYA / Hindistan-Çin** | Opus | `ASYA-HINDISTAN-CIN.md` | Kapı sırası; halka 2 kimlikleri önce |

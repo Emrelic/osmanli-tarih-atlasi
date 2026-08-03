@@ -1,6 +1,9 @@
-# VERİ KİMLİK 2 — Asya'nın 98 adsız kimliği
+# VERİ KİMLİK 3 — Asya'nın 98 adsız kimliği
 
-**Model: Opus.** Kaynak taraması ve künye yazımı; her kimlik için tarih,
+**Model: Opus.**
+
+📌 *VERİ KİMLİK 2 kapatıldı; bu onun devamı değil,
+yeni ve bağımsız bir görevdir. Eski oturumun kuyruğu bitmişti.* Kaynak taraması ve künye yazımı; her kimlik için tarih,
 başkent ve özet kararı gerekiyor.
 
 ## 🔴 AÇILIŞ — yalnız bunlar
@@ -16,7 +19,7 @@ başkent ve özet kararı gerekiyor.
 ## 🔴 DURUM DAMGASI
 
 ```
-BAŞLARKEN   py <ClaudEmre>/kutu/ekip.py "<proje>" "VERİ KİMLİK 2" calisiyor "not"
+BAŞLARKEN   py <ClaudEmre>/kutu/ekip.py "<proje>" "VERİ KİMLİK 3" calisiyor "not"
 SORU VARSA  ...aynı komut... soru "cevap bekleyen soru"     🔴 kutuda KIRMIZI
 BİTİNCE     ...aynı komut... hazir "teslim ettim"
 ```
@@ -154,7 +157,7 @@ zararlıdır.
 
 ## TESLİMAT
 
-`oturumlar/VERI-KIMLIK-2-ILERLEME.md` dosyasına:
+`oturumlar/VERI-KIMLIK-3-ILERLEME.md` dosyasına:
 - yazılan künyeler: `id` · tarih aralığı · kaynak (TDV madde adı)
 - verilen renkler: `id` · hex · **`renk_olc.py` sonucu** (görünmez /
   çakışma / aynı-hex sayıları, öncesi-sonrası)
