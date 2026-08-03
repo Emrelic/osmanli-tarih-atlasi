@@ -1512,3 +1512,111 @@ hâkimiyetine girdi"), eksik olan yalnız RENK.** RENK oturumuna tek satır iş.
 **`alihalife` rengi yazılınca `Manama` kaydı 1281'den 1923'e kesintisiz
 yazılabilir ve `Değişmez 1b` deliği kapanır.** Başka hiçbir şey beklemiyor.
 
+
+---
+
+# 🔴 İŞ ① KAPANIŞ — AÇTIĞIM ÇELİŞKİYİ GERİ ALIYORUM: **1796 DOĞRU, KÜNYEYE DOKUNMA**
+
+> ⚠️ **ACİL:** *"TDV 1786 diyorsa KÜNYE düzeltilecek"* demiştin. **DÜZELTİLMEYECEK.**
+> Benim bulgum çürüdü ve gerekçesi aşağıda.
+
+## Ne oldu — ve niçin ilk turda yanıldım
+
+İlk turda `1786`yı **iki BİYOGRAFİ maddesinden** almıştım:
+```
+/kacarlar--ek       "Kaçar Devleti'nin kurucusu (1786-1797)"
+/aga-muhammed-sah   "11 Cemâziyelevvel 1200 (12 Mart 1786) tarihinde Tahran'da
+                     şahlık tahtına oturdu; adına hutbe okundu ve sikke kesildi"
+```
+Bu turda **HANEDAN maddesini** açtım — ve o, aynı iddiayı **adıyla reddediyor**:
+
+> *"Tarihçi **Rızâ Kulı Han**, Ağa Muhammed Han'ın Zend Hükümdarı Câfer Han'ı
+> Hemedan'da mağlûp ettikten sonra **(1786)** Tahran'da şahlık tahtına
+> oturduğunu **söylüyorsa da diğer kaynaklar bunu teyit etmemektedir**."*
+> — TDV `kacarlar`
+
+> *"…kendisine başşehir edindiği Tahran'da kalabalık bir davetli topluluğu
+> önünde **'şehinşahlık' tacını giyerek** … **böylece Kaçar Devleti resmen
+> kurulmuş oldu (1796)**."*
+> — TDV `kacarlar`
+
+Ve künye satırı: *"Bir Türkmen oymağı ve İran'da hüküm süren bir hânedan
+**(1796-1925)**."*
+
+## ⇒ Hüküm
+```
+1786   TEK BİR TARİHÇİNİN (Rızâ Kulı Han) iddiası; TDV "diğer kaynaklar
+       teyit etmemektedir" diyor. Ve olay zaten TAÇ GİYME değil, tahta oturma.
+1796   RESMÎ KURULUŞ — şehinşahlık tacı. TDV künyesi de 1796-1925.
+```
+🟢 **Atlasın `kacar 1796-01-01` sınırı DOĞRU. `devletler.js` künyesi DOĞRU.
+Değiştirme.**
+
+## 📌 Ve bu, projenin kendi dersinin bana çıkan faturası
+`KARAR-DEHLEK.md §2`: *"bir düzeltmenin KAYNAĞI doğru olabilir ve düzeltme
+yine de yanlış olabilir — çünkü kaynak, OKUNDUĞU YERE KADAR doğrudur."*
+
+Ben `1786`yı doğru okudum; **yanlış maddeden** okudum. Biyografi maddesi
+olayı anlatıyor, hanedan maddesi onu **tartıyor**. ⇒ Kural olarak yazılmalı:
+> **Bir hanedanın BAŞLANGIÇ tarihi, hükümdarın biyografisinden değil
+> HANEDAN maddesinden alınır.** Biyografi olayı verir, künye hükmü verir.
+
+⚠️ Ve `§78`in yeni bir yüzü daha: iki TDV maddesi çelişmiyordu aslında —
+biri **hedge'liydi**, öteki değildi. Hedge hangi maddedeyse hüküm oradadır.
+
+---
+
+# İŞ ① — KALAN İKİ SORU
+
+## · Meşhed ne zaman düştü — 🔴 ve cevap "Afşar" DEĞİL
+
+TDV `meshed--iran` (şehir maddesi; ⚠️ `/meshed` **genel terim** maddesidir,
+`CLAUDE.md §4`'teki `ordu` / `ordu--sehir` tuzağının aynısı):
+
+> *"…Nâdir Şah'ın ölümünün ardından İran'ın başşehri olmaktan çıkan Meşhed,
+> taht mücadeleleri yüzünden meydana gelen kargaşa ortamında **Afgan Şahı
+> Ahmed Dürrânî'nin eline geçti (1163/1750 veya 1167/1754)**."*
+>
+> Şâhruh'un konumu: Ahmed Şah Dürrânî ve halefi Timur Şah **"Afşarlı
+> Şâhruh"u VALİ olarak atadı**.
+>
+> *"Timur Şah'ın ölümünden sonra Kaçar hânedanından Ağa Muhammed Han,
+> **Şâhruh'u idam ettirip**…"*
+
+⇒ **HORASAN 1747-1796 ARASI DÜZ `afsar` DEĞİL.** TDV'ye göre şehir
+**1750 ya da 1754'ten itibaren Dürrânî hâkimiyetinde**; Şâhruh bağımsız
+hükümdar değil, **Afgan atamalı vali**.
+🟢 **`afgan-durrani` kimliği BOYALAR'da ZATEN VAR** (veride 15 kayıtta
+kullanılıyor) — yeni renk gerekmiyor.
+
+⚠️ **İki TDV maddesi Şâhruh'un sonunda ayrışıyor** (ikisi de yazılsın):
+```
+avsarlilar    "Şâhruh Mâzenderan'a giderken YOLDA VEFAT ETTİ (1210/1796)"
+meshed--iran  "Ağa Muhammed Han, Şâhruh'u İDAM ETTİRİP…"
+```
+Ortak olan: **1796, Ağa Muhammed Han.** Ay/gün hiçbirinde yok.
+
+## · Afşar kuyruğu 1804
+TDV `avsarlilar`: Nâdir Sultan ve oğulları Abbas ile İbrâhim'in *"hayatına
+son verildi (**Şubat 1804**)"*; madde hanedanı **1736-1804** sayıyor.
+⇒ Ama bu **Meşhed'in sahipliği değil**, hanedan artığının tasfiyesi.
+Harita için belirleyici olan 1796'dır.
+
+---
+
+# ⇒ İRAN PENCERE 2'NİN SON HÂLİ — üç devlet, ve biri değişti
+
+```
+HORASAN    afsar          1747-06-20 → 1750/1754   ⚠️ TDV iki tarih veriyor
+           afgan-durrani  1750/1754  → 1796        🟢 RENK HAZIR, kimlik var
+GÜNEY/FARS zend           1751       → 1793-07-10  🔴 RENK YOK (RENK'te)
+KUZEY      kacar          1796       → …           🟢 ATLASIN TARİHİ DOĞRU
+```
+
+**Gün düzeyinde kesin olan tek tarih hâlâ `1793-07-10` (Şiraz).**
+Ötekilerin hepsi yıl düzeyinde ve TDV ikisinde (Meşhed 1750/1754, Şâhruh'un
+sonu) **kendi içinde ayrışıyor** — ikisi de yukarıda yazılı.
+
+⚠️ Nokta dağıtımını yine yapmadım: hangi noktanın Horasan, hangisinin Fars
+sayılacağı coğrafî bir ayrım ve senin kararın.
+

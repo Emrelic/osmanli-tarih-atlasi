@@ -1,6 +1,6 @@
 {
  "ad": "ARAYUZ 2",
- "hal": "hazir",
- "not": "ARAYUZ-4 ucus kipi tamam: onay kutusu, kip A/jumpTo + kip B/flyTo, uc ayar, yer_id/yer_kon okuma (0/1047 dolu, veri koordinatorde), yer yoksa fitBounds(donem sinirlari)+dorduncu ayar (kenar payi). node --check + CSS/HTML denge temiz, tum mantik javascript_tool ile gercek veriyle test edildi. ⑤/⑥ (kisa mesafe/kesme davranisi) render calismadigi icin GOZLE dogrulanamadi, koda not dusuldu.",
- "damga": "2026-08-04 00:58"
+ "hal": "calisiyor",
+ "not": "TESPIH KUSAK 0/1: sessiz kayip taramasi basliyor (arac/denetle_gorunur.py)",
+ "damga": "2026-08-04 01:02"
 }

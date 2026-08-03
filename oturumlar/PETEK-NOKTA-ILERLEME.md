@@ -2509,3 +2509,76 @@ kur: YAZILMADI
    komşularıyla aynı; uydurma gün kalıcı yanlış olurdu.
    Akmescid · Or Kapı · Kırcaali kararının dördüncü tekrarı.
 ```
+
+---
+---
+
+# PARTİ 18 — İSKANDİNAVYA + BALTIK · `yerlesimler_ek7.js` (39 nokta)
+
+**KADEME 3 partisi.** `YASALAR K7`: fiyort kovalanmadı, kıyı çizilmedi.
+🔴 **"Bitirdim" demiyorum — üstünden geçtim.**
+
+## Ölçüm: ÖNCE / SONRA (54-64°K / 4-32°D · kara 1.100.616 km²)
+```
+                 ÖNCE      SONRA
+nokta            46        85
+km²/nokta        23.926    12.948      (1,85× yoğun)
+ort. yarıçap     115 km    64 km       (%44'e indi)
+en uzak nokta    387 km    213 km
+```
+### Kendi değerlendirmem — bandın neresindeyim
+Anadolu ≈ 5.000 km²/nokta. İskandinavya **12.948** ⇒ hâlâ **2,6 kat seyrek**,
+ve bu **kasıtlı**: Halka 3-4 için Kademe 3 hedefti, Kademe 5 değil.
+⇒ Bandın **üst ucuna yakın (~%75-80)** olduğumu söylüyorum; %100 değil,
+olması da istenmiyordu. Kalan boşluk fiyort ve göl bölgesinde ve oraya
+girmek tanım gereği bu partinin işi değildi.
+
+## Sekiz kontrol
+```
+① 39/39 ✓  ② alan kütüğü temiz ✓  ③ renk 9/9 BOYALAR'da ✓
+④ ad çakışma 39/39 ✓  ⑤ dönem sağlığı temiz ✓  ⑥ Değişmez 1: 39/39 KESİNTİSİZ ✓
+⑦ Değişmez 2: kırılma günü SIFIR — hepsi `s:`, yapısal olarak borçsuz ✓
+⑧ Değişmez 3: çelişki 0 ✓   + maske 39/39 ✓  + 3 km en yakın 38,38 km ✓
+```
+📌 Bu partinin Değişmez 2 borcu **yapısal olarak sıfır**: hiçbiri Osmanlı
+değil ⇒ hepsi `s:`, `s:`→`s:` geçişi kırılma üretmiyor. Tek gün bile madde
+istemiyor — bu yüzden tarih seçiminde serbesttim, yine de hepsini veride
+zaten var olan günlere oturttum.
+
+## 🔴 BOLGE KUZEY SINIRI 64°K — ölçüldü, kapsam daraldı
+`uret_petek.py:60` `box(-12,-11,146,64)`. **Tromsø · Narvik · Luleå · Oulu ·
+Kajaani · Lapland çizilmiyor**; oraya nokta koymak boşa giderdi. Aday listesi
+buna göre kesildi; kuzey açılırsa ayrı parti gerekir.
+
+## Komşu zincirini KÖRÜ KÖRÜNE kopyalamadığım dört yer
+```
+Kristianstad · Karlskrona   Skåne/Blekinge 1658'e kadar DANİMARKA
+                            (`isvec 1281-1923` yazmak 377 yıl yanlış olurdu)
+Östersund                   Jämtland 1645'e kadar Norveç/Danimarka
+Lappeenranta                ESKİ FİNLANDİYA — Viipuri ile 1721'de Rusya'ya
+                            geçti, 1809'da DEĞİL. 48 km ötedeki komşusuyla
+                            farklı tarih taşısaydı harita orada yarılırdı.
+Daugavpils                  LEH LİVONYASI — İsveç'e HİÇ geçmedi, birinci
+                            taksimde (1772) Rusya'ya. Cēsis'in zincirini
+                            kopyalamak yüz yıl yanlış olurdu.
+Klaipėda (Memel)            Litvanya DEĞİL — 1923 Ocak'a kadar Almanya.
+```
+
+## 🔴 ESTONYA YAZILMADI — `estonya` kimliği YOK
+`renkler.py`de `letonya` ve `litvanya` var, **`estonya` yok.** Dört nokta
+ölçüldü (maske ✓ · 3 km ✓ · en yakın 82-136 km) ama yazılmadı: 1918-1923
+penceresine `rusya` yazmak bugün kataloglağım ödüncün (Azak · Kalmuk
+bozkırı · Donets) **dördüncüsü** olurdu.
+```
+Tallinn (Reval) 59,437/24,754 · Tartu 58,378/26,729
+Narva 59,377/28,190 · Pärnu 58,386/24,497
+zincir hazır: almanya →1561-11-28 · isvec →1721-08-30 · rusya →1918 · estonya
+```
+📌 **Tallinn atlasın en büyük Baltık boşluğu** — Helsinki'ye 82 km ama Fin
+körfezinin öte yakası; bugün Helsinki'nin peteğine düşüyor, yani Estonya
+kıyısı Finlandiya boyanıyor.
+
+## ⚠️ Altı nokta maske dışı çıktı, KAYDIRILDI (kovalanmadı)
+Ålesund · Kristiansund (takımada) · Östersund (Storsjön) · Karlskrona
+(takımada) · Savonlinna · Nurmes (Fin göl bölgesi). Brief'in kuralı gereği
+fiyort/göl kıyısı çizilmedi, noktalar karaya kaydırıldı. Altısı da kurtarıldı.

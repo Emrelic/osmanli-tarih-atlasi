@@ -1,6 +1,6 @@
 {
  "ad": "PETEK / NOKTA",
- "hal": "calisiyor",
- "not": "ISKANDINAVYA -> data/yerlesimler_ek7.js. Hedef KADEME 3 (%82,5), fiyort kovalamak YOK. Once bugunku hal olculuyor.",
- "damga": "2026-08-04 00:59"
+ "hal": "hazir",
+ "not": "ISKANDINAVYA: yerlesimler_ek7.js 39 nokta HAZIR. 8 kontrol temiz, Degismez 2 borcu YAPISAL OLARAK SIFIR (hepsi s:). Olcum 54-64K/4-32D: nokta 46->85, km2/nokta 23.926->12.948, ort yaricap 115->64 km. Kendi degerlendirmem: bandin ust ucu ~%75-80, Anadolu'dan hala 2,6 kat seyrek ve bu KASITLI. 'Bitirdim' demiyorum, ustunden gectim. ⚠️ BOLGE kuzey siniri 64K - Lapland/Tromso/Lulea CIZILMIYOR, aday listesi ona gore kesildi. ⚠️ ESTONYA YAZILMADI - estonya kimligi YOK; Tallinn/Tartu/Narva/Parnu olculdu, zincir hazir, kimlik bekliyor.",
+ "damga": "2026-08-04 01:06"
 }
