@@ -2332,7 +2332,8 @@ var olaylar = (window.OLAYLAR || []).concat(window.OLAYLAR_EK || [])
                                     .concat(window.OLAYLAR_EK10 || [])
                                     .concat(window.OLAYLAR_EK11 || [])
                                     .concat(window.OLAYLAR_EK12 || [])
-                                    .concat(window.OLAYLAR_EK13 || []).map(function (o) {
+                                    .concat(window.OLAYLAR_EK13 || [])
+                                    .concat(window.OLAYLAR_EK14 || []).map(function (o) {
   var kaba = gunIdx(o.t);
   return Object.assign({ gi: o.t.split("-").length > 2 ? kaba : gunMetniIdx(o.gun, kaba) }, o);
 }).sort(function (a, b) { return a.gi - b.gi; });
@@ -3592,6 +3593,38 @@ function olayKonumu(o) {
   return null;
 }
 
+// §⑧③ — Emre: "çok yaklaşıyor, etrafı göremiyorum." Sürgü zoom SAYISI
+// gösteriyordu, insan zoom sayısıyla düşünmüyor. Gerçek km'yi MapLibre'nin
+// KENDİ döşeme dönüşümüyle (512px, 256 DEĞİL — Google/Bing'in eski 256px
+// kuralı burada YANLIŞ sonuç verir, ölçüldü ve düzeltildi: aradaki fark tam
+// 2× çıkıyordu) hesaplıyoruz — `harita.getBounds()` ile ampirik doğrulandı.
+function yakinlikKm(zoom) {
+  var lat = harita.getCenter().lat;
+  var genislikPx = harita.getContainer().offsetWidth || 973;
+  var metrePerPiksel = Math.cos(lat * Math.PI / 180) * 2 * Math.PI * 6378137 / (512 * Math.pow(2, zoom));
+  return Math.round(metrePerPiksel * genislikPx / 1000);
+}
+// Ölçülmüş çapa noktaları (gerçek şehir/bölge çiftleri arası haversine
+// mesafesi — TAHMİN EDİLMEDİ): bir şehir ~66 km (İstanbul metropolü),
+// bir sancak ~141 km (Bosna sancağı), Batı Anadolu ~521 km (Çanakkale-
+// Antalya), Anadolu ~1.499 km (Çanakkale-Iğdır), imparatorluk ~3.306 km
+// (Viyana kapıları-Basra).
+var YAKINLIK_CAPA = [
+  { km: 66, ad: "bir şehir" }, { km: 141, ad: "bir sancak" },
+  { km: 521, ad: "Batı Anadolu" }, { km: 1499, ad: "Anadolu" },
+  { km: 3306, ad: "imparatorluk" }
+];
+function yakinlikEtiket(zoom) {
+  var km = yakinlikKm(zoom);
+  var enYakin = YAKINLIK_CAPA[0], enKucukFark = Infinity;
+  YAKINLIK_CAPA.forEach(function (c) {
+    var fark = Math.abs(Math.log(km / c.km));
+    if (fark < enKucukFark) { enKucukFark = fark; enYakin = c; }
+  });
+  var kmYazi = km >= 1000 ? (km / 1000).toFixed(1).replace(".0", "") + " bin km" : km + " km";
+  return "~" + kmYazi + " (" + enYakin.ad + " ölçeğinde)";
+}
+
 var ucusAcEl = document.getElementById("ucus-ac");
 var ucusKipEl = document.getElementById("ucus-kip");
 var obYerYokEl = document.getElementById("ob-yer-yok");
@@ -3603,6 +3636,36 @@ var obYerYokEl = document.getElementById("ob-yer-yok");
   ucusKipEl.addEventListener("change", function () { localStorage.setItem("ucusKip", ucusKipEl.value); });
 })();
 
+// §⑧④(a) — koordinatör bunu AYAR değil GERÇEK KUSUR sayıyor: `flyTo`
+// hedefi kabın GEOMETRİK merkezine koyar; `#kronoloji-serit` (yanpanel
+// katlıyken haritanın ALTINDA duran şerit) açıksa nokta o şeridin arkasına
+// düşebilir. ⚠️ ÖLÇÜLDÜ VE SINIRLI: `#yanpanel` açıkken (varsayılan durum)
+// `#harita`nın KENDİ kabı zaten yanpanel'i DIŞLIYOR (`#govde{display:flex}`,
+// `#harita{flex:1 1 auto}` — CSS'te ayrı sütun, üst üste binme YOK), yani
+// o durumda merkezleme zaten doğru ve ofsete gerek yok. Tek doğrulanan
+// örtüşme: yanpanel KATLIYKEN görünen `#kronoloji-serit` haritanın ALT
+// kenarını kaplıyor — hedefi hafifçe YUKARI kaydırıyoruz. Emre'nin
+// şikâyeti panel AÇIKKEN de sürerse bu ölçüm eksik demektir, gözle
+// sınanmalı (§⑧⑤).
+function haritaOfseti() {
+  var serit = document.getElementById("kronoloji-serit");
+  if (serit && !serit.classList.contains("gizli") && serit.offsetHeight) {
+    return [0, -Math.round(serit.offsetHeight / 2)];
+  }
+  return [0, 0];
+}
+
+// §⑧④(b) — "aynı yerde iki olay → uçma." Art arda iki olay AYNI konuma
+// düşüyorsa harita zaten oradadır, boşuna havalanmak göz yorar (§⑥⑤'in
+// doğrudan uzantısı).
+var sonUcusKonumAnahtari = null;
+// §⑧④(c) — hızlı ⏭'de uçuşu ATLA, `jumpTo`ya düş. Eşik ÖLÇÜLMEDİ (görsel
+// doğrulama bu ortamda mümkün değildi) — 500 ms, "art arda tıklama" için
+// yaygın kabul edilen alt sınır (insan tepki/tıklama aralığının altı);
+// Emre'nin gerçek kullanımında gözle ayarlanmalı, sabit sayı değil niyet.
+var UCUS_HIZLI_ESIK_MS = 500;
+var sonUcusZamani = 0;
+
 // p2/H-0010 ④ — "ikisi de yoksa kart SESSİZCE ATLAMAZ." Yalnız uçuş
 // AÇIKKEN gösterilir: kapalıyken kimse bir uçuş beklemiyor, açıklanacak
 // bir yokluk da yok.
@@ -3612,6 +3675,7 @@ function haritayiOlayaGotur(o) {
   if (!ucusAcEl.checked) { if (obYerYokEl) obYerYokEl.textContent = ""; return; }
   var hedef = olayKonumu(o);
   if (!hedef) {
+    sonUcusKonumAnahtari = null;   // genel görünüme düşünce "ayni yer" hafizasi da sifirlanir
     var di = donemBul(o.gi);
     var kenar = +document.getElementById("ayar-kenarpay").value;
     if (di >= 0 && donemler[di].b) {
@@ -3624,10 +3688,21 @@ function haritayiOlayaGotur(o) {
     return;
   }
   if (obYerYokEl) obYerYokEl.textContent = "";
+  var konumAnahtari = hedef.lat.toFixed(3) + "," + hedef.lon.toFixed(3);
+  if (konumAnahtari === sonUcusKonumAnahtari) return;   // §⑧④(b) — zaten oradayız
+  sonUcusKonumAnahtari = konumAnahtari;
+
+  var simdi = performance.now();
+  var hizliGecis = (simdi - sonUcusZamani) < UCUS_HIZLI_ESIK_MS;
+  sonUcusZamani = simdi;
+
   var yakinlik = +document.getElementById("ayar-yakinlik").value;
-  if (ucusKipEl.value === "ani") {
-    // KİP A — tak diye, animasyonsuz.
-    harita.jumpTo({ center: [hedef.lon, hedef.lat], zoom: yakinlik });
+  var ofset = haritaOfseti();
+  if (ucusKipEl.value === "ani" || hizliGecis) {
+    // KİP A — tak diye, animasyonsuz. §⑧④(c): uçuş kipindeyken de hızlı
+    // art arda geçişte aynı yola düşer, yarım kalmış uçuşların titremesini
+    // önler.
+    harita.jumpTo({ center: [hedef.lon, hedef.lat], zoom: yakinlik, offset: ofset });
   } else {
     // KİP B — uçuş. ⚠️ `flyTo` kendi içinde ÖNCEKİ animasyonu KESER
     // (MapLibre/Mapbox GL'nin belgelenmiş davranışı: yeni bir kamera
@@ -3636,7 +3711,7 @@ function haritayiOlayaGotur(o) {
     // oturumda harita render olmadığı için GÖZLE doğrulanamadı, ilk
     // gerçek kullanımda `⑥` sınaması yapılmalı.
     harita.flyTo({
-      center: [hedef.lon, hedef.lat], zoom: yakinlik,
+      center: [hedef.lon, hedef.lat], zoom: yakinlik, offset: ofset,
       curve: +document.getElementById("ayar-irtifa").value,
       speed: +document.getElementById("ayar-hiz").value
     });
@@ -3647,7 +3722,7 @@ function haritayiOlayaGotur(o) {
 // modal deseni). Değerler kalıcı, sürgünün yanında sayı olarak da yazılır.
 (function () {
   var pencere = document.getElementById("ayarlar-pencere");
-  [["ayar-irtifa", "ayarIrtifa"], ["ayar-yakinlik", "ayarYakinlik"], ["ayar-hiz", "ayarHiz"], ["ayar-kenarpay", "ayarKenarPay"]].forEach(function (p) {
+  [["ayar-irtifa", "ayarIrtifa"], ["ayar-hiz", "ayarHiz"], ["ayar-kenarpay", "ayarKenarPay"]].forEach(function (p) {
     var girdi = document.getElementById(p[0]);
     var deger = document.getElementById(p[0] + "-deger");
     var kayitli = localStorage.getItem(p[1]);
@@ -3658,7 +3733,18 @@ function haritayiOlayaGotur(o) {
       localStorage.setItem(p[1], girdi.value);
     });
   });
+  // `ayar-yakinlik` ayrı: etiketi zoom sayısı değil km (§⑧③, yakinlikEtiket).
+  var yakinlikGirdi = document.getElementById("ayar-yakinlik");
+  var yakinlikDeger = document.getElementById("ayar-yakinlik-deger");
+  var yakinlikKayitli = localStorage.getItem("ayarYakinlik");
+  if (yakinlikKayitli) yakinlikGirdi.value = yakinlikKayitli;
+  yakinlikDeger.textContent = yakinlikEtiket(+yakinlikGirdi.value);
+  yakinlikGirdi.addEventListener("input", function () {
+    yakinlikDeger.textContent = yakinlikEtiket(+yakinlikGirdi.value);
+    localStorage.setItem("ayarYakinlik", yakinlikGirdi.value);
+  });
   document.getElementById("btn-ayarlar").addEventListener("click", function () {
+    yakinlikDeger.textContent = yakinlikEtiket(+yakinlikGirdi.value);   // acilista harita merkezine gore taze
     pencere.classList.remove("gizli");
   });
   document.getElementById("ayarlar-kapat").addEventListener("click", function () {

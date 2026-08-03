@@ -27,7 +27,8 @@
          hiçbir siyasî/tabiî sınır tam dikdörtgen değildir. -->
     <button id="btn-verisiniri" title="Atlasın veri sınırı: bu dikdörtgenin ötesi henüz atlasa dâhil değil. Boş görünen yerlerin sebebi budur.">▦ Veri sınırı</button>
     <button id="btn-tamekran" title="Tam ekran (F11)">⛶</button>
-    <button id="btn-ayarlar" title="Uçuş kipi ayarları: irtifa, yakınlık, hız">⚙ Ayarlar</button>
+    <!-- ⚙ Ayarlar düğmesi §⑧②'de kronoloji başlığına taşındı — burada
+         DUPLICATE id AÇMAMAK için tekrar edilmedi (bkz. #olay-akisi h2). -->
   </div>
   <div id="ustbar-orta">
     <span id="ustbar-tarih"></span>
@@ -73,22 +74,29 @@
       </div>
     </section>
     <section id="olay-akisi">
+      <!-- ARAYUZ-4-SARTNAME.md §⑧ — Emre: "ayar checkbox'ın yanında olsun,
+           kronoloji başlığıyla YAN YANA TEK SATIR." Eskiden #ucus-kontrol
+           başlığın ALTINDA ayrı satırdı; Emre ayarın varlığını göremiyordu
+           ("bu ayar olmadan çok yaklaşıyor" — ayar zaten vardı, yerleşim
+           kusuruydu). ⚙ düğmesi de BURAYA taşındı (§⑧②: ikinci pencere
+           YOK, mevcut #ayarlar-pencere'yi açıyor — btn-ayarlar id'si aynı
+           kaldığı için js/app.js'teki dinleyici DOKUNULMADAN çalışıyor). -->
       <h2>
-        <span>📜 Kronoloji</span>
-        <span id="olay-sayac"></span>
+        <span id="olay-akisi-baslik">
+          <span>📜 Kronoloji</span>
+          <span id="olay-sayac"></span>
+        </span>
+        <span id="ucus-grup">
+          <label id="ucus-kontrol" title="Sıradaki olaya geçilince harita o yeri kendiliğinden ortalar">
+            <input type="checkbox" id="ucus-ac"> 🛩
+          </label>
+          <select id="ucus-kip" title="Geçiş biçimi">
+            <option value="ani">Ani</option>
+            <option value="ucus" selected>Uçuş</option>
+          </select>
+          <button id="btn-ayarlar" title="Uçuş kipi ayarları: irtifa, yakınlık, hız, kenar payı">⚙</button>
+        </span>
       </h2>
-      <!-- ARAYUZ-4-SARTNAME.md — "haritayı kronolojik olaya götür". Onay
-           kutusu + kip kronoloji BAŞLIĞINDA durur (Emre'nin isteği), üç
-           ayar (irtifa/yakınlık/hız) ⚙ Ayarlar penceresinde. -->
-      <div id="ucus-kontrol">
-        <label title="Sıradaki olaya geçilince harita o yeri kendiliğinden ortalar">
-          <input type="checkbox" id="ucus-ac"> 🛩 Haritayı olaya götür
-        </label>
-        <select id="ucus-kip" title="Geçiş biçimi">
-          <option value="ani">Ani</option>
-          <option value="ucus" selected>Uçuş</option>
-        </select>
-      </div>
       <div id="olay-listesi"></div>
     </section>
     <!-- Olay bilgi paneli: haritanın üzerinde değil, kronolojinin ALTINDA -->
@@ -173,8 +181,16 @@
       <span id="ayar-irtifa-deger" class="ayar-deger"></span>
     </div>
     <div class="ayar-satir">
-      <label for="ayar-yakinlik">Yakınlık <span class="ayar-ipucu">(olay mahalline inilecek zoom)</span></label>
-      <input type="range" id="ayar-yakinlik" min="4" max="8" step="0.1" value="6.5">
+      <label for="ayar-yakinlik">Yakınlık <span class="ayar-ipucu">(olay mahalline inilecek zoom — etiket GÖRÜNEN ALANI gösterir)</span></label>
+      <!-- §⑧③ — Emre: "çok yaklaşıyor, etrafı göremiyorum." Sürgü zoom
+           SAYISI değil ekranda kaç km göründüğünü göstermeli. Uçlar/varsayılan
+           GERÇEK ölçümle kondu (js/app.js yakinlikKmHesapla, harita
+           kapsayıcısının kendi genişliği + MapLibre'nin 512px döşeme
+           dönüşümüyle): min 3 ≈ 9.000 km (imparatorluk + komşular),
+           max 8 ≈ 230 km (bir sancak ölçeği), varsayılan 5.5 ≈ 950-1.360 km
+           (Anadolu ölçeği) — eski varsayılan 6.5 ≈ 660 km'ydi, "çok
+           yaklaşıyor" şikâyetinin ölçülen karşılığı buydu. -->
+      <input type="range" id="ayar-yakinlik" min="3" max="8" step="0.1" value="5.5">
       <span id="ayar-yakinlik-deger" class="ayar-deger"></span>
     </div>
     <div class="ayar-satir">

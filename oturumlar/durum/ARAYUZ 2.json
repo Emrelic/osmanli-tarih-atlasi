@@ -1,6 +1,6 @@
 {
  "ad": "ARAYUZ 2",
  "hal": "hazir",
- "not": "TESPIH KUSAK0/1 sessiz kayip taramasi bitti: arac/denetle_gorunur.py yazildi + iki gercek hata (epok-damgasi filtresi 130 yerlesimi haritadan siliyordu, DEVLET_TUR_ADI sehzadelik'i unutmustu) js/app.js'te DUZELTILDI. Detay: send_message.",
- "damga": "2026-08-04 01:29"
+ "not": "ARAYUZ-4 SS8 bitti: ayarlar tek satirda kronoloji basligina tasindi, yakinlik surgusu km gosteriyor (olculmus capa noktalari), panel-ofseti/ayni-yer-atlama/hizli-gecis-jumpTo hepsi yazildi ve gercek veriyle test edildi. Emre'nin gozle onaylamasi gereken 2 madde var.",
+ "damga": "2026-08-04 02:52"
 }

@@ -220,9 +220,11 @@ esarette ölümü."
     + "baskıyla değil, kırılgan bir hayatta kalma stratejisiyle okur.",
   kaynak:"TDV: abdulhamid-ii" }
 ```
-🔴 **vefat_id çapası — GERÇEK EKSİK:** yakınında yalnız "Hareket Ordusu
-ve II. Abdülhamid'in hal'i" (1909, tahttan indirilişi) var — kendi ÖLÜM
-maddesi (1918) `ARAYUZ-3-SARTNAME.md`nin 8 eksiğinden biri.
+✅ **vefat_id çapası ARTIK TEMİZ (4 Ağustos'ta düzeltildi):** yazıldığı
+gün yakınında yalnız 1909 hal' maddesi vardı ve "gerçek eksik" diye
+işaretlenmişti; bugün taze veri kontrolünde `olaylar_ek14.js`de kendi
+ÖLÜM maddesi bulundu: "II. Abdülhamid'in Beylerbeyi Sarayı'nda vefatı"
+(1918-02-10) — kart artık DOĞRUDAN bu maddeye bağlanır.
 
 ---
 
@@ -553,20 +555,447 @@ ağırlık kaymıyor.
 
 ---
 
-## Durum — 🔴 15'TE DURULDU (koordinatörün talimatı)
+## 16) Orhan Gazi — 4 Ağustos, TDV'de MÜSTAKİL MADDE YOK
+
+⚠️ **Kaynak istisnası, açıkça işaretli:** TDV İslâm Ansiklopedisi'nde Orhan
+Gazi'nin kendi biyografisine ayrılmış bir madde YOK — yalnız yaptırdığı
+yapılara ait maddeler var (`orhan-gazi-turbesi`, `orhan-gazi-camii-ve-
+imareti`). Bu kart o iki maddeden çıkan doğrulanabilir bilgi (baba, ölüm-
+gömülme yeri, Bursa fethi) + Ottoman tarihyazımında ihtilafsız kabul edilen
+temel olgularla (İznik fethi 1331, ilk divan, ilk gümüş akçe) yazıldı.
+`kesinlik:"tartismali"` yalnız doğum tarihi gibi kaynağı gerçekten zayıf
+noktalara işaretlendi, gövdenin tamamına değil.
+
+```javascript
+{ id:"orhan", ad:"Orhan Gazi", from:"1326-04", to:"1362-03",
+  dogum:"1281 dolayı (TDV'de müstakil madde yok, tarih akademik icmâ)",
+  dogum_yer:"Söğüt",
+  olum:"1362-03-01", olum_yer:"Bursa",
+  olum_sebep:"bulunamadı — kaynaklarda yaşlılıkla vefat dışında ayrıntı yok",
+  baba:"Osman Gazi", anne:"Mal Hatun",
+  tahta:"1326-04 (Bursa'nın fethiyle örtüşür)", saltanat_yil:36,
+  esler:["Nilüfer Hatun (Bizanslı, Murad I'in annesi)","Theodora (Bizans prensesi, siyasi evlilik)"],
+  cocuk:{oglan:5},
+  skandal:"bulunamadı — kaynaklar bu denli erken dönem için kişisel "
+    + "skandal değil kurumsal genişleme kaydediyor.",
+  ovgu:"Bursa'yı (1326) ve İznik'i (1331) fethederek beyliği devlete "
+    + "dönüştürdü; ilk divan teşkilatını, ilk gümüş akçeyi ve ilk Osmanlı "
+    + "külliyesini (Bursa) kurdu; Rumeli'ye ilk Osmanlı ayak basışı "
+    + "(Çimpe Kalesi, 1352) onun döneminde oldu.",
+  yergi:"bulunamadı — TDV'nin türbe/câmi maddelerinde eleştirel bir "
+    + "değerlendirme yok, dönem kaynaklarının azlığı bunu zaten sınırlıyor.",
+  tartisma:"Doğum tarihi kesin değil (TDV'de müstakil madde bulunmadığı "
+    + "için akademik icmâya dayanıyor); saltanatının başlangıcı da "
+    + "Bursa'nın fethiyle (1326) mi yoksa babasının 1324'teki vefatıyla mı "
+    + "başladığı kaynaklarda net ayrışmıyor.",
+  tarihciler:"Erken dönem kaynak kıtlığı yüzünden Orhan Gazi genelde "
+    + "'kurumsallaşmanın mimarı' olarak özetlenir; modern araştırmalar "
+    + "onu babasının fetih hamlesini DEVLETE çeviren isim sayar.",
+  kaynak:"TDV: orhan-gazi-turbesi, orhan-gazi-camii-ve-imareti" }
+```
+✅ **vefat_id çapası TEMİZ (4 Ağustos'ta YENİ oluştu):** `olaylar_ek*.js`
+"Orhan Gazi'nin vefatı — beylikten devlete geçen kırk yılın sonu" (1362-03-01).
+
+---
+
+## 17) II. Murad — 4 Ağustos
+
+```javascript
+{ id:"murad2", ad:"II. Murad", from:"1421-06", to:"1451-02",
+  dogum:"1404-06 dolayı", dogum_yer:"Amasya",
+  olum:"1451-02-03", olum_yer:"Edirne",
+  olum_sebep:"doğal (48 yaşında, oğlu II. Mehmed'in düğününden kısa süre sonra)",
+  baba:"I. Mehmed (Çelebi)", anne:"cariye (bazı kaynaklarda Şehzade Hatun)",
+  tahta:"1421-06-25 (ilk saltanat); 1446-05 (ikinci saltanat)", saltanat_yil:28,
+  skandal:"1444'te oğlu II. Mehmed lehine tahttan çekildi ama Varna "
+    + "bunalımı ve yeniçeri ayaklanması üzerine 1446'da genç oğlunu "
+    + "tahttan indirip yeniden tahta çıktı — Osmanlı tarihinde nadir "
+    + "görülen bir çift-el-değiştirme.",
+  ovgu:"Selanik'i (1430) fethetti, Varna'da (1444) haçlı ordusunu "
+    + "bozguna uğratarak Balkanlar'daki Osmanlı hâkimiyetini kalıcı "
+    + "kıldı, Üç Şerefeli Camii ve Muradiye külliyelerini yaptırdı.",
+  yergi:"Eğlence ve şaraba düşkünlüğü, güç dönemlerde kararlılığını "
+    + "zayıflattığı çağdaş kaynaklarca not edilir; 1444 çekilme kararı "
+    + "devlete iki yıllık bir yönetim krizi açtı.",
+  tartisma:"1444 tahttan çekilişinin gerçek sebebi — gönüllü bir "
+    + "manevî yorgunluk mu, yoksa saray içi hesaplaşmanın sonucu mu — "
+    + "kaynaklar arasında net değil.",
+  tarihciler:"Klasik anlatı onu Varna zaferiyle 'Balkanlar'ı kurtaran' "
+    + "hükümdar sayar; modern araştırmalar çift-saltanat düzenini erken "
+    + "Osmanlı veraset sisteminin esnekliğine örnek gösterir.",
+  kaynak:"TDV: murad-ii" }
+```
+✅ **vefat_id çapası TEMİZ:** `olaylar.js` "II. Murad'ın vefatı ve II.
+Mehmed'in ikinci cülûsu."
+
+---
+
+## 18) III. Murad — 4 Ağustos
+
+```javascript
+{ id:"murad3", ad:"III. Murad", from:"1574-12", to:"1595-01",
+  dogum:"1546-07-04", dogum_yer:"Bozdağ yaylağı (Manisa yakını)",
+  olum:"1595-01-16", olum_yer:"İstanbul",
+  olum_sebep:"soğuk algınlığı sonrası hastalık",
+  baba:"II. Selim", anne:"Nurbânû Sultan (Venedikli, asıl adı Cecilia Baffo)",
+  tahta:"1574-12-22", saltanat_yil:20,
+  esler:["Safiye Sultan (hasekisi, III. Mehmed'in annesi)"],
+  cocuk:{oglan:"en az 20 (kaynaklarda 49 çocuk rivayeti de var)"},
+  skandal:"49 çocuğu ve yedi hamile cariyesi olduğu rivayet edilir — "
+    + "haremde geçirdiği zamanın devlet işlerinden uzaklaşmasıyla "
+    + "birlikte anılan bir ölçüsüzlük örneği olarak kaydedilir.",
+  ovgu:"İngiltere ile ilk kapsamlı ticarî ve diplomatik ilişkiler onun "
+    + "döneminde kuruldu; Koca Sinan Paşa gibi sadrazamlarla Habsburglara "
+    + "karşı 'On Beş Yıl Savaşları'nı başlattı.",
+  yergi:"Annesi Nurbânû ve eşi Safiye Sultan'ın devlet işlerindeki "
+    + "nüfuzuna göz yumması, sık saray değişimi ve savaş yönetimindeki "
+    + "ilgisizliği eleştirilir.",
+  tartisma:"Çocuk sayısındaki rivayetler (20'den 49'a) kaynaklar "
+    + "arasında tutarsız; tarihçiler kesin bir rakamda birleşmiyor.",
+  tarihciler:"Klasik anlatı onu haremin devlet işlerine karıştığı "
+    + "dönemin başlangıcı sayar ('kadınlar saltanatı'nın habercisi); "
+    + "modern araştırmalar bunun tek başına onun kişisel zaafı değil, "
+    + "büyüyen bürokrasinin yapısal bir sonucu olduğunu vurgular.",
+  kaynak:"TDV: murad-iii" }
+```
+✅ **vefat_id çapası TEMİZ:** `olaylar.js` "III. Murad'ın vefatı ve III.
+Mehmed'in cülûsu" (1595-01-16) — ⚠️ dikkat: aynı ad geçen 1574-12-22
+maddesi ("II. Selim'in vefatı ve III. Murad'ın cülûsu") III. Murad'ın
+KENDİ ölümü DEĞİL, tahta çıkışı — kart o maddeye BAĞLANMAMALI.
+
+---
+
+## 19) III. Mehmed — 4 Ağustos
+
+```javascript
+{ id:"mehmed3", ad:"III. Mehmed", from:"1595-01", to:"1603-12",
+  dogum:"1566-05-26", dogum_yer:"Manisa",
+  olum:"1603-12-22", olum_yer:"İstanbul",
+  olum_sebep:"mide rahatsızlığı / kalp krizi (kaynaklar netleşmiyor)",
+  baba:"III. Murad", anne:"Safiye Sultan (Arnavut asıllı)",
+  tahta:"1595-01-16", saltanat_yil:9,
+  skandal:"Tahta çıkar çıkmaz on dokuz erkek kardeşini boğdurttu — "
+    + "Osmanlı tarihinin en kalabalık kardeş katli; 1603'te de kendi "
+    + "oğlu Şehzade Mahmud'u veraset korkusuyla idam ettirdi.",
+  ovgu:"1596 Eğri seferini bizzat yönetti (Kanunî'den beri sefere "
+    + "çıkan ilk padişah) ve Haçova Muharebesi'nde zor anda sahada kaldı.",
+  yergi:"Annesi Safiye Sultan'ın devlet işlerindeki hâkimiyetine izin "
+    + "verdi; kararsız ve kolay etki altına giren mizacı, Celâlî "
+    + "isyanları ve ekonomik krizle boğuşan bir dönemde devleti "
+    + "yönetmekte yetersiz kaldığı şeklinde eleştirildi.",
+  tartisma:"On dokuz kardeşinin katli döneminde bile aşırı bulunup "
+    + "halk arasında tepkiyle karşılandı — kardeş katlinin MEŞRULUĞUNUN "
+    + "sorgulandığı ilk büyük kamuoyu tepkilerinden biri sayılır.",
+  tarihciler:"Klasik anlatı onu 'zayıf ve kararsız' bir padişah sayar; "
+    + "modern araştırmalar 19 kardeşin katlini kardeş-katli kurumunun "
+    + "kendi mantığının vardığı uç nokta ve bu yüzden kurumun "
+    + "sorgulanmaya başladığı dönüm noktası olarak okur.",
+  kaynak:"TDV: mehmed-iii" }
+```
+✅ **vefat_id çapası TEMİZ:** `olaylar.js` "III. Mehmed'in vefatı ve I.
+Ahmed'in cülûsu" (1603-12-22).
+
+---
+
+## 20) I. Mahmud — 4 Ağustos
+
+```javascript
+{ id:"mahmud1", ad:"I. Mahmud", from:"1730-10", to:"1754-12",
+  dogum:"1696-08-02", dogum_yer:"Edirne",
+  olum:"1754-12-13", olum_yer:"Topkapı Sarayı, Demirkapı",
+  olum_sebep:"doğal (Cuma selamlığı dönüşü, ansızın)",
+  baba:"II. Mustafa", anne:"Sâliha Sultan",
+  tahta:"1730-10-02 (Patrona Halil İsyanı sonrası)", saltanat_yil:24,
+  skandal:"27 yıl kafeste (şehzade hapsinde) geçirdikten sonra tahta "
+    + "çıktı; ilk icraatı isyancı Patrona Halil ve adamlarını birkaç ay "
+    + "içinde tuzağa düşürüp bertaraf etmek oldu.",
+  ovgu:"1739 Belgrad Antlaşması'yla 27 yıllık savaş döngüsünü "
+    + "avantajlı bitirdi, Tebriz'i alarak 'Gazi' unvanını kazandı, "
+    + "İstanbul'a Taksim su sistemini kurdurdu ve İbrahim "
+    + "Müteferrika'nın matbaa çalışmalarını destekledi.",
+  yergi:"İran seferlerindeki kazanımlar kalıcı olmadı; devlet "
+    + "yönetiminde amcası III. Ahmed'in 'kimseye güvenme' öğüdüne aşırı "
+    + "bağlı kalarak sık sadrazam değişikliğine gitti.",
+  tartisma:"Dönemi 'Lâle Devri sonrası sükûnet' mi yoksa 'ıslahatların "
+    + "yüzeysel kaldığı bir ara dönem' mi olduğu tarihçiler arasında "
+    + "tartışmalıdır.",
+  tarihciler:"Klasik anlatı 24 yıllık saltanatını imparatorluğun "
+    + "'son parlak dönemi' sayar; modern araştırmalar askerî "
+    + "modernleşme girişimlerinin (Humbaracı Ahmed Paşa) sınırlı "
+    + "kalışını, yapısal reform eksikliğine bağlar.",
+  kaynak:"TDV: mahmud-i--osmanli" }
+```
+✅ **vefat_id çapası TEMİZ:** `olaylar.js` "I. Mahmud'un ölümü ve III.
+Osman'ın cülûsu" (1754-12-13).
+
+---
+
+## 21) III. Osman — 4 Ağustos
+
+```javascript
+{ id:"osman3", ad:"III. Osman", from:"1754-12", to:"1757-10",
+  dogum:"1699-01-03", dogum_yer:"Edirne Sarayı",
+  olum:"1757-10-30", olum_yer:"İstanbul",
+  olum_sebep:"mide rahatsızlığı (Cuma selamlığına çıkamadı)",
+  baba:"II. Mustafa", anne:"Şehsuvar Vâlide Sultan",
+  tahta:"1754-12-13", saltanat_yil:3,
+  skandal:"Tahta çıkmadan önce kafeste geçirdiği 53 yıl, Osmanlı "
+    + "tarihinde bir şehzadenin tahta çıkmadan beklediği EN UZUN süre — "
+    + "58 yaşında tahta çıktı.",
+  ovgu:"Nuruosmaniye Camii külliyesini tamamlatıp açtırdı (1755), "
+    + "Üsküdar'da İhsaniye mahallesini kurdurdu, ilk Osmanlı-Danimarka "
+    + "antlaşmasını imzaladı (1756).",
+  yergi:"Üç yıllık saltanatında altı sadrazam ve dört şeyhülislâm "
+    + "değiştirdi — kafeste geçen onca yılın ardından ani ve tutarsız "
+    + "kararlar aldığı çağdaşlarınca not edildi.",
+  tartisma:"Rüşvet ve yalandan nefret ettiği ama aldığı kararların "
+    + "çoğuna sonradan pişman olduğu aktarılır — mizacındaki bu "
+    + "çelişki kaynaklarda tekrar eder.",
+  tarihciler:"Kısa ve olaysız saltanatı yüzünden tarihyazımında "
+    + "sınırlı yer tutar; modern araştırmalar onu 'kafes sisteminin' "
+    + "hükümdarlık yeteneği üzerindeki yıpratıcı etkisinin açık bir "
+    + "örneği olarak ele alır.",
+  kaynak:"TDV: osman-iii" }
+```
+✅ **vefat_id çapası TEMİZ:** `olaylar.js` "III. Osman'ın ölümü ve III.
+Mustafa'nın cülûsu" (1757-10-30) — ⚠️ 1754-12-13 maddesi ("I. Mahmud'un
+ölümü ve III. Osman'ın cülûsu") onun tahta çıkışı, ölümü DEĞİL.
+
+---
+
+## 22) III. Mustafa — 4 Ağustos
+
+```javascript
+{ id:"mustafa3", ad:"III. Mustafa", from:"1757-10", to:"1774-01",
+  dogum:"1717-01-28", dogum_yer:"Edirne",
+  olum:"1774-01-21", olum_yer:"İstanbul",
+  olum_sebep:"doğal",
+  baba:"III. Ahmed", anne:"Mihrişah Emine Sultan",
+  tahta:"1757-10-30", saltanat_yil:16,
+  skandal:"1768'de sadrazamının yetersiz hazırlık uyarılarına rağmen "
+    + "Rusya'ya savaş açtı — sonucu Çeşme'de donanmanın yakılması ve "
+    + "imparatorluğun en ağır yenilgilerinden biri oldu.",
+  ovgu:"İlk yıllarında vergi kolaylıkları ve bürokratik tasarruflarla "
+    + "hazineyi güçlendirdi; 1766 depreminden sonra Fâtih Camii'ni "
+    + "yeniden yaptırdı, Laleli Külliyesi'ni (1760-64) inşa ettirdi.",
+  yergi:"1768-1774 Osmanlı-Rus Savaşı'nda Boğdan ve Eflak'ın Rus "
+    + "işgaline uğraması, Tuna'nın aşılması ve devletin öz oğlundan "
+    + "borç almaya varan mali çöküşü onun döneminde yaşandı.",
+  tartisma:"Savaşı başlatma kararında astrolojiye aşırı güvendiği "
+    + "aktarılır — bu ayrıntının rivayet mi yoksa belgeli bir olgu mu "
+    + "olduğu net değil.",
+  tarihciler:"Klasik anlatı ilk yıllarındaki tasarruf reformlarını "
+    + "över, 1768 savaşını hazırlıksız bir hata sayar; modern "
+    + "araştırmalar savaşı Osmanlı-Rus güç dengesinin geri "
+    + "dönüşsüz biçimde değiştiği dönüm noktası olarak okur.",
+  kaynak:"TDV: mustafa-iii" }
+```
+✅ **vefat_id çapası TEMİZ:** `olaylar.js` "III. Mustafa'nın ölümü ve I.
+Abdülhamid'in cülûsu" (1774-01-21).
+
+---
+
+## 23) Abdülmecid — 4 Ağustos
+
+```javascript
+{ id:"abdulmecid", ad:"Sultan Abdülmecid", from:"1839-07", to:"1861-06",
+  dogum:"1823-04-25", dogum_yer:"İstanbul",
+  olum:"1861-06-25", olum_yer:"Ihlamur Kasrı", olum_sebep:"verem",
+  baba:"II. Mahmud", anne:"Bezmiâlem Vâlide Sultan",
+  tahta:"1839-07-01", saltanat_yil:22,
+  skandal:"22 yıllık saltanatında 22 kez sadrazam değiştirdi — bu "
+    + "sıklık dönemin sarayında dengeleri gözeten ama kararsız bir "
+    + "yönetim tarzına yorulur.",
+  ovgu:"3 Kasım 1839'da Tanzimat Fermanı'nı (Gülhane Hatt-ı Hümâyunu) "
+    + "ilan ederek modernleşme çağını açtı; Kırım Savaşı'nda (1853-56) "
+    + "İngiltere ve Fransa ile ittifak kurup Rusya'yı durdurdu; 1856 "
+    + "Islahat Fermanı'yla gayrimüslim tebaaya yeni haklar tanıdı.",
+  yergi:"Yabancı devletlerin iç işlere müdahalesine kapı araladığı, "
+    + "dış borçlanmayla mali krize zemin hazırladığı ve reformlara "
+    + "rağmen azınlık milliyetçi hareketlerini durduramadığı eleştirilir.",
+  tartisma:"Tanzimat'ın kendi kişisel vizyonu mu yoksa bürokrasinin "
+    + "(Mustafa Reşid Paşa gibi devlet adamlarının) onu yönlendirmesiyle "
+    + "mi ilan edildiği tarihçiler arasında tartışmalıdır.",
+  tarihciler:"Klasik anlatı onu 'modernleşmenin mimarı' sayar; modern "
+    + "araştırmalar Tanzimat'ı tek bir hükümdarın kararından çok, "
+    + "bürokratik bir reform hareketinin ürünü olarak okur.",
+  kaynak:"TDV: abdulmecid" }
+```
+✅ **vefat_id çapası TEMİZ:** `olaylar.js` "Abdülmecid'in vefatı ve
+Sultan Abdülaziz'in cülûsu" (1861-06-25).
+
+---
+
+## 24) V. Mehmed (Reşad) — 4 Ağustos
+
+```javascript
+{ id:"mehmed5", ad:"V. Mehmed (Reşad)", from:"1909-04", to:"1918-07",
+  dogum:"1844-11-02", dogum_yer:"Çırağan Sarayı",
+  olum:"1918-07-03", olum_yer:"İstanbul", olum_sebep:"doğal",
+  baba:"Sultan Abdülmecid", anne:"Gülcemal Kadınefendi",
+  tahta:"1909-04-27 (31 Mart Vak'ası'nda II. Abdülhamid'in hal'i sonrası)",
+  saltanat_yil:9,
+  skandal:"bulunamadı — meşrutiyet sisteminde yürütme yetkisi büyük "
+    + "ölçüde İttihat ve Terakki'deydi, kendisi kişisel iktidar "
+    + "iddiasında bulunmadı.",
+  ovgu:"'Meşrutiyetle idare edeceksem her işe karışırsam kardeşimin "
+    + "suçu neydi' diyerek anayasal sınırlara bilerek uydu; sembolik "
+    + "rolüyle geçiş dönemini istikrarsızlığa sürüklemeden atlattı.",
+  yergi:"I. Dünya Savaşı'na giriş kararına (1914) fiilen etkisi "
+    + "olmadan padişah sıfatıyla ortak sorumlu tutuldu; Trablusgarp "
+    + "(1911-12), Balkan Savaşları (1912-13) ve I. Dünya Savaşı'nın "
+    + "ağır toprak kayıpları onun saltanatına denk düştü.",
+  tartisma:"Yetkisiz bir figüran mı yoksa bilinçli biçimde anayasal "
+    + "sınırı koruyan bir hükümdar mı olduğu tarihçiler arasında "
+    + "farklı okunur.",
+  tarihciler:"Klasik anlatı onu İttihat ve Terakki'nin gölgesinde "
+    + "'törensel padişah' sayar; modern araştırmalar meşruti "
+    + "monarşiye sadakatini, sonraki cumhuriyet geçişinin sarsıntısız "
+    + "olmasına katkısı olarak değerlendirir.",
+  kaynak:"TDV: mehmed-v" }
+```
+✅ **vefat_id çapası TEMİZ:** `olaylar.js` "V. Mehmed Reşad'ın vefatı ve
+VI. Mehmed Vahdeddin'in cülûsu" (1918-07-03).
+
+---
+
+## 25) VI. Mehmed (Vahideddin) — 4 Ağustos ⚠️ ÖZEL ÇAPA, atlasın kendi sınırı
+
+```javascript
+{ id:"mehmed6", ad:"VI. Mehmed (Vahideddin)", from:"1918-07", to:"1922-11",
+  dogum:"1861-01-04", dogum_yer:"Dolmabahçe Sarayı",
+  olum:"1926-05-16", olum_yer:"San Remo, İtalya (sürgünde)",
+  olum_sebep:"doğal",
+  baba:"Sultan Abdülmecid", anne:"Gülüstü Kadınefendi",
+  tahta:"1918-07-03", saltanat_yil:4,
+  skandal:"30 Ekim 1918 Mondros Mütarekesi'ni onayladı ve işgal "
+    + "kuvvetleriyle iş birliği arayışı, Millî Mücadele'yi yürüten "
+    + "Ankara hükümetince 'vatana ihanet' sayıldı.",
+  ovgu:"Son padişah olarak 623 yıllık hanedanın çöküşünü savaşsız "
+    + "atlatmaya çalıştı; hilâfet hakkından saltanat kaldırıldıktan "
+    + "sonra bile (Kasım 1922) vazgeçmedi.",
+  yergi:"İtilaf devletleriyle uzlaşma arayışı ve Millî Mücadele'ye "
+    + "karşı Anadolu'ya gönderdiği fetva/kuvvetler (Kuvâ-yı İnzibâtiye) "
+    + "yüzünden 'işgalcilerle iş birlikçi' olarak anıldı.",
+  tartisma:"Gerçekten teslimiyetçi mi, yoksa çöküş sürecinde devleti "
+    + "içeriden yıkımdan korumaya çalışan gerçekçi bir hükümdar mı "
+    + "olduğu tarihçiler arasında en çok tartışılan konulardan biridir.",
+  tarihciler:"Klasik cumhuriyet tarihyazımı onu 'işbirlikçi son "
+    + "padişah' sayar; modern araştırmalar sınırlı seçenekleri olan bir "
+    + "hükümdarın çöküş yönetimi olarak daha nüanslı okur.",
+  kaynak:"TDV: mehmed-vi" }
+```
+⚠️ **vefat_id çapası — ÖZEL:** Gerçek ölümü (1926-05-16) atlasın kendi
+sınırının (1923-10-29) DIŞINDA — `olum:` alanı doğru yazıldı ama kart bu
+tarihe BAĞLANAMAZ. En yakın gerçek çapa: `olaylar.js` "VI. Mehmed
+Vahdeddin'in İstanbul'dan ayrılışı ve Abdülmecid Efendi'nin halife
+seçilmesi" (1922-11-17) — kendi adı geçen, kendisiyle ilgili SON madde.
+
+---
+
+## Durum — 4 Ağustos, K1 25/36'ya çıktı
 
 ```
-Çapası TEMİZ (12)  Kanunî · I. Murad · Yıldırım Bayezid · II. Selim ·
+Çapası TEMİZ (21)  Kanunî · I. Murad · Yıldırım Bayezid · II. Selim ·
                    IV. Murad · III. Selim · Osman Gazi · II. Bayezid ·
-                   I. Ahmed · Genç Osman · Sultan İbrahim · II. Mahmud
+                   I. Ahmed · Genç Osman · Sultan İbrahim · II. Mahmud ·
+                   Orhan Gazi · II. Murad · III. Murad · III. Mehmed ·
+                   I. Mahmud · III. Osman · III. Mustafa · Abdülmecid ·
+                   V. Mehmed
                    (Osman Gazi'de incelik: kart olum:"1324-08-01"e
                    bağlanır, to:"1326-04"e değil)
+ÖZEL çapa (1)      VI. Mehmed — atlas sınırı dışı ölüm, 1922-11-17
+                   "İstanbul'dan ayrılış" maddesine bağlanır
 İnce madde (1)     Fatih — madde yeniden yazılınca bağlanır
-Gerçek eksik (2)   Yavuz · II. Abdülhamid — yeni madde ister
-KAYNAKSIZ (1)      Orhan Gazi — TDV'de müstakil madde YOK, akademik
-                   kaynak gerekiyor — içerik oturumunun işi (ÇAPRAZ İBERYA)
+✅ ARTIK TEMİZ (1) II. Abdülhamid — 4 Ağustos'ta yeni madde oluştu
+                   (1918-02-10 "Beylerbeyi Sarayı'nda vefatı"), kartın
+                   ESKİ notu ("gerçek eksik") GEÇERSİZ, düzeltildi.
+Gerçek eksik (11)  I. Mehmed (Çelebi) · I. Mustafa · Yavuz · IV. Mehmed ·
+                   II. Süleyman · II. Ahmed · II. Mustafa · III. Ahmed ·
+                   I. Abdülhamid · IV. Mustafa · Abdülaziz · V. Murad
+                   — koordinatörün yeni madde yazmasını bekliyor, bu
+                   oturumun işi değil (12 isim gibi görünüyor, listede
+                   13 var çünkü Yavuz zaten YAZILMIŞ karttı, kalan 11
+                   HENÜZ yazılmadı)
 ```
-**15/26 yazıldı, burada duruyorum.** 12'si ŞİMDİ bağlanabilir (çapası
-hazır). Kalan 11 (Yavuz, II. Abdülhamid dahil) koordinatörün yazacağı 8
-yeni madde + Fatih'in "ince madde" düzeltmesini bekliyor — o gelince
-devam.
+**25/26 yazıldı, K1 bugünkü tavanına ulaştı.** Kalan 11 padişah
+koordinatörün 8+ yeni madde yazmasını bekliyor. Sırada K5 (komutan/
+denizci) var — TESPIH'in "çapası hazır" notu tek tek doğrulanacak.
+
+---
+
+# K5 — KOMUTANLAR VE DENİZCİLER (`data/kisiler.js`e gider)
+
+🔴 **ÖLÇÜM SONUCU, TESPIH'in varsayımını DÜZELTİYOR.** "K5 çapası hazır"
+notu `kisiler.js`teki `t:` (ölüm yılı) alanının VARLIĞINA dayanıyordu.
+Bugün tek tek denendi (aynı Roman-rakam/isim çakışması dikkatiyle, K1'de
+öğrenilen ders): **25 kayıttan (20 komutan + 5 denizci) yalnız 18'inde
+`t:` var, ve o 18'in içinde GERÇEKTEN kendi ölümünü anlatan bir madde
+yalnız 1 tanesinde — Barbaros Hayreddin Paşa.**
+
+```
+Barbaros Hayreddin  ✅ "Barbaros Hayreddin Paşa öldü" (1546-07-05) — TEMİZ
+
+Gazi Osman Paşa      🔴 tek eşleşme 1877 Plevne SAVUNMASININ BAŞLAMASI,
+                      ölümü (1900) DEĞİL — yanlış çapa olurdu, atlandı
+Mustafa Kemal        🔴 tek eşleşme 1919 Samsun'a ÇIKIŞ, ölümü (1938) DEĞİL
+Kılıç Ali Paşa        🔴 tek eşleşme 1572 donanmanın YENİDEN KURULUŞU,
+                      ölümü (1587) DEĞİL
+İbrâhim Paşa (Kavalalı) 🔴 dört eşleşme, hepsi seferleri — ölümü (1848) YOK
+                      (ilginç: 1848-09-01 "fiilen vali oldu" ölümüyle AYNI
+                      yıl ama farklı olay, madde "öldü" demiyor — bağlanmadı)
+Tosun Paşa · Humbaracı Ahmed Paşa  🔴 yalnız sefer/ıslahat maddeleri var
+Gazi Ahmed Muhtar · Halil Paşa(Kut) · Fahreddin Paşa · Kâzım Karabekir ·
+Fevzi Paşa · İsmet Paşa · Enver Paşa · Turgut Reis · Müezzinzâde Ali Paşa ·
+İsmâil Kâmil Paşa · Mehmed Nâmık Paşa   🔴 HİÇ eşleşme yok
+```
+⚠️ "Halil Paşa" araması `Çandarlı Halil Paşa`yı (1453'te idam edilen, 15.
+yüzyıl) yakaladı — `kisiler.js`teki "Halil Paşa (Kut)" (1957'de ölen, I.
+Dünya Savaşı komutanı) TAMAMEN FARKLI kişi, çakışma fark edilip elendi.
+
+**Sonuç: K5'in "hazır" görünen 18 kaydından yalnız 1'i bugün yazılabilir.**
+Kalan 17'si K1'in 11 eksiğiyle AYNI sınıf: `kisiler.js`teki `t:` alanı bir
+ÖLÜM YILI bilgisidir, bir KRONOLOJİ MADDESİ DEĞİL — ikisi ayrı şey, biri
+veride var diye öbürü de var sanılmamalı (bugünün TESPIH'e giden en genel
+dersi budur). Koordinatöre ayrıca bildirildi.
+
+---
+
+## 26) Barbaros Hayreddin Paşa — 4 Ağustos
+
+```javascript
+{ id:"barbaros-hayreddin-pasa", ad:"Barbaros Hayreddin Paşa",
+  dogum:"1478 dolayı", dogum_yer:"Midilli",
+  olum:"1546-07-05", olum_yer:"İstanbul (Beşiktaş)",
+  olum_sebep:"kısa süreli bir hastalık sonrası",
+  baba:"Yâkub Ağa (Vardar Yenicesi'nden bir sipahi)",
+  gorev:"Kaptan-ı Deryâ (1534-1546)",
+  esler:[], cocuk:{},
+  skandal:"Avrupalılarca kızıl sakalı yüzünden 'Barbarossa' diye "
+    + "anıldı; asıl adı Hızır'dı, 'Hayreddin' unvanını I. Selim'den aldı "
+    + "— bir korsan kaptanın imparatorluğun resmî donanma komutanına "
+    + "dönüşümü, döneminin en olağan dışı yükseliş hikâyelerinden biri.",
+  ovgu:"Cezayir'i Osmanlı hâkimiyetine kesin biçimde bağladı, 1538 "
+    + "Preveze Muharebesi'nde Haçlı donanmasını dağıtıp Akdeniz'de "
+    + "Osmanlı üstünlüğünü kurdu, Ege ve Doğu Akdeniz'de 28 Venedik "
+    + "adasını aldı, 1543'te Fransa'ya (Toulon) müttefik filo gönderdi.",
+  yergi:"Ağabeyi Oruç Reis'in Kuzey Afrika'daki korsanlık mirasını "
+    + "devralması, bazı çağdaş Avrupalı kaynaklarca hâlâ 'korsanlık' "
+    + "kökeni üzerinden itibarsızlaştırılmaya çalışıldı.",
+  tartisma:"Preveze'nin kesin bir zafer mi yoksa Haçlı donanmasının "
+    + "çekilmesiyle sonuçlanan sınırlı bir çatışma mı olduğu Batı ve "
+    + "Osmanlı tarihyazımında farklı vurgularla anlatılır.",
+  tarihciler:"Klasik anlatı onu 'Akdeniz'in efendisi' sayar; modern "
+    + "araştırmalar Osmanlı deniz gücünün onun yetiştirdiği kaptanlar "
+    + "(Turgut Reis, Piyale Paşa) sayesinde ölümünden sonra da "
+    + "sürdüğünü, kurumsal bir mirasa işaret ederek vurgular.",
+  kaynak:"TDV: barbaros-hayreddin-pasa" }
+```
+✅ **vefat_id çapası TEMİZ:** `olaylar.js`/`olaylar_ek*.js` "Barbaros
+Hayreddin Paşa öldü" (1546-07-05).
+
+⚠️ **Şema notu:** K1 (padişah) şeması `from/to` (saltanat) kullanıyordu;
+K5 için bu alan anlamsız, yerine `gorev:` (unvan + görev yılları)
+kullandım — `PADISAH-KARTVIZITI.md`nin K4/K5 için "kademeye göre alan
+uyarlanır" notuyla uyumlu. Koordinatör farklı bir alan adı isterse
+kolayca değişir, veri henüz koda gitmedi.
