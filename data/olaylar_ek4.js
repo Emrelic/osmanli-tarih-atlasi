@@ -232,7 +232,7 @@ window.OLAYLAR_EK4 = [
 { t:"1839-07-01", k:"taht", etiket:["siyaset"], b:"II. Mahmud'un ölümü, Abdülmecid'in cülûsu", gun:"1 Temmuz 1839", yer:"İstanbul", yer_id:"İstanbul",
   kisiler:"II. Mahmud, Abdülmecid",
   d:"Otuz bir yıllık saltanatı boyunca yeniçeriliği kaldıran, merkezî idareyi yeniden kuran padişah, en büyük hasmını yenemeden vefat etti. Yerine on altı yaşındaki oğlu Abdülmecid geçti.",
-  kaynak:"abdulmecid" },
+  kaynak:"abdulmecid", vefat_id:"mahmud2" },
 { t:"1839-07-14", k:"darbe", etiket:["siyaset","ayaklanma"], b:"Donanmanın İskenderiye'ye teslimi", gun:"14 Temmuz 1839", yer:"İskenderiye", yer_id:"İskenderiye",
   kisiler:"Ahmed Fevzi Paşa (Firârî), Kavalalı Mehmed Ali",
   d:"Kaptan-ı derya Ahmed Fevzi Paşa, sadrazam Koca Hüsrev Paşa'nın donanmayı Rusya'ya vereceği şüphesiyle filoyu İskenderiye'ye götürüp Mehmed Ali'ye teslim etti. Osmanlı Devleti aynı ay içinde ordusuz, padişahsız ve donanmasız kaldı.",
