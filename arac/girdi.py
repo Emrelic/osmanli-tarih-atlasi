@@ -23,7 +23,7 @@ merge'e hazır OLMAYAN partiler duruyor ve desen onları sessizce içeri alır.
   (sayılar 2 Ağustos 2026 ölçümü — yorumdaki sayı ölçümün fotoğrafıdır ve
   eskir; partiye dokunan oturum yeniden ölçüp burayı düzeltir.
   yerlesimler_avrupa.js de bir dönem bu listedeydi: 15 kimliği renksizdi;
-  RENK 15'ini yazınca — BOYALAR 114→129, 9f4d2c8 — canlıya alındı, aşağıda.)
+  RENK 15'ini yazınca — BOYALAR 114→129, c8cb964 — canlıya alındı, aşağıda.)
 
 Kimliği tanımsız nokta üretimde uyarı verir ve bölgesi BOYANMAZ; yani glob
 kullanmak "bir dosya ekledim" ile "haritada renksiz delik açtım"ı aynı işleme
@@ -170,10 +170,15 @@ GIRDI_DOSYALARI = [
     # (lon 51,92..61,50 — kutu işi yok), ③ canlı 991 noktaya karşı 3 km çakışması
     # YOK (en yakın çift 17,36 km: Aşkabad ↔ Nesâ), partinin kendi içinde de yok.
     "yerlesimler_avrupa.js",
+    # ⚠️ 3 Agustos 2026: bu blokta iki kez '9f4d2c8' yaziyordu ve o hash
+    # REPODA YOK -- uydurulmus bir referansti (RENK oturumu olctu, koordinator
+    # dogruladi). Gercegi c8cb964 "RENK Parti 2: 15 Avrupa rengi yazildi".
+    # 📌 KURAL: belgeye hash yazmadan once `git cat-file -e <hash>^{commit}`
+    #   ile dogrula. Cozulmeyen referans guven kaynagi degil, GUVEN TUZAGIDIR.
     # 237 nokta (MOTOR 2 İş O, 2 Ağustos 2026). Canlıya alınma gerekçesi —
     # dört ön koşul ÖLÇÜLDÜ (İş I, 73bded7) ve son engel RENK'le kapandı:
     # ① 35 kimliğin 35'i renkler.py'de tanımlı (RENK 15'ini yazdı: BOYALAR
-    #   114→129, 9f4d2c8; bu oturum 15/15'i yeniden doğruladı),
+    #   114→129, c8cb964; bu oturum 15/15'i yeniden doğruladı),
     # ② canlı 998 noktaya karşı 3 km çakışması YOK (en yakın 12,31 km:
     #   Reggio Calabria ↔ Messina), partinin kendi içinde de yok,
     # ③ 235/237 BOLGE kutusunun içinde — Sundsvall (62,4°K) ve Trondheim
