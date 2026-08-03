@@ -419,7 +419,7 @@ window.OLAYLAR_EK13 = [
 { t:"1362-03-01", k:"taht", etiket:["siyaset"],
   b:"Orhan Gazi'nin vefatı — beylikten devlete geçen kırk yılın sonu",
   gun:"Mart 1362 (gün bilinmiyor; kaynakların bir kısmı Nisan 1362 der. `padisahlar.js` 1362-03 taşıyor)",
-  yer:"Bursa", kisiler:"Orhan Gazi, I. Murad, Süleyman Paşa",
+  yer:"Bursa", yer_id:"Bursa", kisiler:"Orhan Gazi, I. Murad, Süleyman Paşa",
   d:"Osman Gazi'nin 1324'te ölümüyle beyliğin başına geçen Orhan Gazi, otuz sekiz yıllık idaresinde Osmanlı'yı bir uç beyliğinden Marmara'nın iki yakasına oturmuş bir devlete dönüştürdü: Bursa (1326), İznik (1331) ve İzmit (1337) alındı, Karesi Beyliği ilhak edildi, ilk akçe basıldı (1327), ilk medrese İznik'te kuruldu (1331) ve Rumeli'ye geçiş Çimpe (1352) ile Gelibolu (1354) üzerinden kalıcı hâle geldi. Rumeli fütuhatını yürüten büyük oğlu Süleyman Paşa'yı 1357'de bir av kazasında kaybetti; kendisi Mart 1362'de Bursa'da vefat etti ve yerine oğlu I. Murad geçti. ⚠️ TDV İslâm Ansiklopedisi'nde Orhan Gazi'nin müstakil bir maddesi bulunmadığından bu kayıt akademik literatüre dayanmaktadır (Halil İnalcık; Colin Imber, The Ottoman Empire 1300-1650; Feridun Emecen; Cemal Kafadar, Between Two Worlds)." },
 
 ];

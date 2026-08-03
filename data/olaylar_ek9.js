@@ -238,7 +238,7 @@ window.OLAYLAR_EK9 = [
 
 { t:"1882-07-11", k:"kayip", etiket:["toprak-kaybi","savas"],
   b:"İskenderiye'nin bombardımanı ve İngiliz çıkarması",
-  gun:"11-12 Temmuz 1882 (bombardıman) · 15 Temmuz (işgal)", yer:"İskenderiye", kisiler:"Ahmed Urâbî Paşa, Amiral Seymour, Hidiv Tevfik",
+  gun:"11-12 Temmuz 1882 (bombardıman) · 15 Temmuz (işgal)", yer:"İskenderiye", yer_id:"İskenderiye", kisiler:"Ahmed Urâbî Paşa, Amiral Seymour, Hidiv Tevfik",
   d:"Urâbî Paşa'nın önderliğindeki subay hareketi hidivi denetim altına alınca İngiltere Süveyş yolunun güvenliğini bahane ederek müdahale etti. Amiral Seymour'un filosu 11-12 Temmuz 1882'de İskenderiye'nin sahil tabyalarını bombaladı; şehirde çıkan yangın ve yağmadan sonra 15 Temmuzda İngiliz birlikleri karaya çıktı. Osmanlı Devleti hukuken hükümran olduğu bir vilâyetinde bu harekâta engel olamadı ve müdahaleye katılma çağrısını da cevapsız bıraktı. Böylece otuz iki yıl sürecek işgalin ilk adımı atılmış oldu.",
   kaynak:"urabi-pasa" },
 
@@ -275,7 +275,7 @@ window.OLAYLAR_EK9 = [
 
 { t:"1911-10-21", k:"kayip", etiket:["toprak-kaybi","savas"],
   b:"Bingazi'ye İtalyan çıkarması — Berka sancağının merkezinin kaybı",
-  gun:"21 Ekim 1911", yer:"Bingazi", kisiler:"—",
+  gun:"21 Ekim 1911", yer:"Bingazi", yer_id:"Bingazi", kisiler:"—",
   d:"Berka'nın merkezi Bingazi 21 Ekim 1911'de, kıyıdaki dördüncü ve en önemli çıkarmayla işgal edildi. Böylece İtalya, savaş ilânından üç hafta sonra Trablusgarp vilâyetinin bütün büyük limanlarını (Trablus, Tobruk, Derne, Bingazi) elinde tutuyordu; ama hiçbirinin ardalanına giremedi. Savaşın kalan bir yılı, kıyıdaki bu dört noktadan içeri doğru sonuçsuz hamlelerle geçti.",
   kaynak:"trablusgarp-savasi" },
 

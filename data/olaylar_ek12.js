@@ -75,7 +75,7 @@ window.OLAYLAR_EK12 = [
 //   1560-05-14'ten 1560-07-30'a çekilebilir; kırılma bu maddeye basar.
 { t:"1560-07-30", k:"fetih", etiket:["toprak-kazanc"],
   b:"Cerbe kalesinin düşüşü — adanın Osmanlı idaresine geçişi",
-  gun:"30 Temmuz 1560", yer:"Cerbe (Djerba)",
+  gun:"30 Temmuz 1560", yer:"Cerbe (Djerba)", yer_id:"Cerbe (Djerba)",
   kisiler:"Piyâle Paşa, Turgut Paşa",
   d:"Piyâle Paşa'nın 14 Mayıs 1560'taki deniz zaferinden sonra Haçlı kuvvetleri adada inşa ettikleri kaleye kapandı; Trablusgarp beylerbeyi Turgut Paşa'nın kuvvetleri karadan kuşattı. İki ay süren muhasara 30 Temmuz 1560'ta kalenin düşmesiyle bitti ve ada Trablusgarp beylerbeyiliğine bağlandı. Deniz zaferi ile kalenin fethi arasında yetmiş yedi gün vardır; haritada toprak değişimi ikincisine bağlanmalıdır, çünkü ada 14 Mayıs'ta değil 30 Temmuz'da fiilen el değiştirmiştir.",
   kaynak:"cerbe" },

@@ -164,7 +164,7 @@ window.OLAYLAR_EK11 = [
 
 { t:"1640-12-01", k:"siyaset", etiket:["siyaset","toprak-kayip"],
   b:"Restauração: Portekiz bağımsızlığını geri aldı",
-  gun:"1 Aralık 1640", yer:"Lizbon",
+  gun:"1 Aralık 1640", yer:"Lizbon", yer_id:"Lizbon",
   kisiler:"IV. João (Braganza Dükü), Kont-Dük Olivares",
   d:"Katalonya isyanının İspanya'yı meşgul ettiği günlerde Lizbon'da bir grup soylu saraya baskın yaparak İspanyol idaresini devirdi ve Braganza Dükü'nü IV. João adıyla kral ilan etti. Altmış yıllık İberya Birliği böylece sona erdi; ancak Sebte İspanya'da kalmayı seçti ve bu 1668 Lizbon Antlaşması'yla tanındı. Portekiz'in Habsburg savaşlarına eklemlendiği bu pencere Asya'daki kayıplarının da çerçevesidir: Hürmüz 1622'de, Malaka 1641'de, Kolombo 1656'da elden çıktı; Tanca ile Bombay ise bağımsızlığın bedeli olarak İngiltere'ye verildi. Kaynak: Britannica, History of Portugal — Restoration." },
 
@@ -203,7 +203,7 @@ window.OLAYLAR_EK11 = [
 { t:"1796-01-01", k:"siyaset", etiket:["siyaset"],
   b:"Kaçar hânedanının İran'a hâkim oluşu",
   gun:"1796 (gün kaynakta yok; devlet dizini bu tarihi Afşar'ın bitişi olarak taşıyor)",
-  yer:"Tahran", kisiler:"Ağa Muhammed Şah Kaçar",
+  yer:"Tahran", yer_id:"Tahran", kisiler:"Ağa Muhammed Şah Kaçar",
   d:"Kaçar aşiretinin reisi Ağa Muhammed Han, Zend hâkimiyetini yıkıp Horasan'daki son Afşar direncini de kırarak İran'ı yeniden tek elde topladı ve Tahran'ı başkent yaptı. Kırk dokuz yıllık parçalanma dönemi böylece kapandı; bundan sonra Osmanlı'nın doğu komşusu 1923'e kadar Kaçar İran'ı olacaktı. ⚠️ Atlas 1747-1796 arasını bilerek genel `İran` etiketiyle gösteriyor: o pencerede ülke gerçekten bölünmüştü ve şehir şehir hangi hânedanın elinde olduğu ayrı bir kaynak taraması gerektiriyor." },
 
 
