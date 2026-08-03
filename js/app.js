@@ -87,13 +87,29 @@ var PETEKLER = window.PETEKLER || [];
 // havuz indeksi taşır. Sayı → parça çözümü burada, yüklemede bir kez yapılır;
 // aynı parça bütün dönemlerde tek nesne olarak paylaşılır. Eski format
 // (indekssiz, doğrudan koordinat) de tanınır.
-function parcaCoz(dizi, havuz) {
+// 🔴 YÜK-SARTNAME.md C — MOTOR halka havuzlama yazacak (5,1 MB kazanç):
+// `havuz[p]` artık bir POLİGON değil, TEK HALKA olabilir; hangi halkaların
+// hangi poligonu oluşturduğunu `parcaHalka[p]` (havuz indeksi dizisi) söyler.
+// Geriye uyumluluk: `parcaHalka` boşsa (eski üretim) davranış AYNEN eskisi gibi.
+// ⚠️ Format kararı DİZİ BAŞINA bir kez veriliyor, İNDEKS BAŞINA değil — MOTOR'un
+// ilk taslağı `ph ? ph.map(...) : havuz[p]` yazmıştı, o hâliyle PARCA_HALKA'da
+// TEK bir delik sessizce eski davranışa düşer ve bozuk geometri üretir, kimse
+// fark etmez. "Boş alan yok, niçin boş var" kuralı burada: delik varsa GÜRÜLTÜ
+// ÇIKAR (throw), sessizce yanlış çizme.
+function parcaCoz(dizi, havuz, parcaHalka) {
   if (!dizi) return null;
+  var yeniBicim = !!(parcaHalka && parcaHalka.length);
   return { type: "MultiPolygon",
            coordinates: dizi.map(function (p) {
-             return typeof p === "number" ? havuz[p] : p; }) };
+             if (typeof p !== "number") return p;         // eski format: doğrudan koordinat
+             if (!yeniBicim) return havuz[p];              // eski veri: havuz zaten poligon
+             var ph = parcaHalka[p];
+             if (!ph) throw new Error("PARCA_HALKA deliği: " + p);
+             return ph.map(function (h) { return havuz[h]; });
+           }) };
 }
 var PARCALAR = window.PARCALAR || [];
+var PARCA_HALKA = window.PARCA_HALKA || [];
 
 // ⚠️ SERBEST KENAR — gövdenin SAHİPSİZ alanla komşu olduğu sınır parçaları.
 // (hatalar 15 md.17-19 tartışmasından; Oturum 16 üretiyor, sözleşme: hat havuzu
@@ -133,8 +149,8 @@ function hatCoz(dizi) {
 var donemler = window.DONEMLER.map(function (d) {
   return { fi: gunIdx(d.f), ti: gunIdx(d.t), ad: d.ad, b: d.b, ao: d.ao,
            av: d.av || 0, e: d.e || [], c: d.c || [],
-           o: parcaCoz(d.o, PARCALAR),
-           v: parcaCoz(d.v, PARCALAR),
+           o: parcaCoz(d.o, PARCALAR, PARCA_HALKA),
+           v: parcaCoz(d.v, PARCALAR, PARCA_HALKA),
            // "sb" boşsa hiç yazılmıyor (çoğu dönemde çölle sınırdaşlık yok),
            // yani d.sb undefined olabilir — hatCoz bunu null'a çeviriyor.
            sb: hatCoz(d.sb),
@@ -206,11 +222,12 @@ function bolgeVerisi(t) {
 // boyanır; Osmanlı d/v dönemi aktifken üreteç o hücreleri devletten düşer.
 var devletler2 = (window.DEVLET_HARITA || []);
 var DEVLET_PARCALAR = window.DEVLET_PARCALAR || [];
+var DEVLET_PARCA_HALKA = window.DEVLET_PARCA_HALKA || [];
 devletler2.forEach(function (s) {
   s.dnm.forEach(function (p) {
     p.fi = gunIdx(p.f); p.ti = gunIdx(p.t);
     p.ft = { type: "Feature", properties: { renk: s.renk },
-             geometry: parcaCoz(p.g, DEVLET_PARCALAR) };
+             geometry: parcaCoz(p.g, DEVLET_PARCALAR, DEVLET_PARCA_HALKA) };
   });
 });
 // ---------- Devlet etiketleri ----------
