@@ -28,6 +28,26 @@ yazarsın, koşu biter, Oturum 0 dosyayı `arac/girdi.py`ye bağlar.
 ⚠️ Şemayı `VERI-YAPISI.md`den oku ve **birebir** uy. Dosya başına
 `window.YERLESIMLER_KIRIM = [` ile başla.
 
+
+## 🔴 DURUM DAMGASI — her oturum kendini bildirir
+
+Koordinatör senin ne yaptığını **göremez**. Bu yüzden üç anda damga
+vurursun; damgasız oturum kutuda "sessiz" görünür ve unutulur.
+
+```
+BAŞLARKEN   py <ClaudEmre>/kutu/ekip.py "<proje>" "<OTURUM ADI>" calisiyor "ne yapıyorum"
+SORU VARSA  ...aynı komut... soru "cevap bekleyen soru"      🔴 kutuda KIRMIZI
+BİTİNCE     ...aynı komut... hazir "teslim ettim, Oturum 0 alsın"
+TIKANDIYSAN ...aynı komut... tikandi "engel ne"
+```
+`<ClaudEmre>` = `~/OneDrive/Desktop/ClaudEmre`
+`<proje>`     = bu deponun kökü
+
+📌 **`soru` hâli en önemlisi.** Sohbete soru yazmak yetmez — kullanıcı
+mesaj kalabalığında görmeyebilir; kutudaki kırmızı satır görünür kalır.
+⚠️ Kendi dosyandan başkasına yazma (`oturumlar/durum/<AD>.json`) —
+dosya başına tek sahip kuralı burada da geçerli.
+
 ---
 
 ## PROBLEM — ölçüldü, tahmin değil
