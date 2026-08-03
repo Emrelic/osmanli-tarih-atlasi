@@ -257,6 +257,21 @@ body {
   color: #8a6d2f;
   white-space: nowrap;
 }
+/* ARAYÜZ 4 — "haritayı olaya götür" onay kutusu + kip, kronoloji başlığının
+   hemen altında (Emre'nin isteği). */
+#ucus-kontrol {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+  padding: 3px 10px;
+  font-size: 11.5px;
+  background: rgba(184, 134, 11, 0.08);
+  border-bottom: 1px solid #d8c9a3;
+}
+#ucus-kontrol label { display: flex; align-items: center; gap: 4px; cursor: pointer; white-space: nowrap; }
+#ucus-kip { font-size: 11px; padding: 1px 4px; }
 #olay-listesi { flex: 1 1 auto; overflow-y: auto; padding: 5px; }
 
 .olay {
@@ -829,6 +844,15 @@ body {
 .ob-kat.k-sefer   { background: #33691e; }
 .ob-kat.k-vassal  { background: #7986cb; }
 .ob-kat.k-evlilik { background: #ec407a; }
+/* ARAYÜZ 4 ④ — "yer_id/yer_kon ikisi de yoksa kart SESSİZCE ATLAMAZ."
+   Boşken hiç yer kaplamaz (`:empty`), doluyken belirgin bir uyarı satırı. */
+#ob-yer-yok {
+  font-size: 11.5px;
+  color: #8a6d2f;
+  font-style: italic;
+  margin-top: 4px;
+}
+#ob-yer-yok:empty { display: none; }
 #ob-detay { font-size: 12.5px; line-height: 1.45; margin-top: 7px; }
 #ob-ozel { margin-top: 7px; display: flex; flex-direction: column; gap: 4px; }
 .ob-kutu {
@@ -988,6 +1012,30 @@ body {
   color: var(--metin);
 }
 .ob-ek-btn:hover { background: #ffe9a8; }
+
+/* ARAYÜZ 4 ② — üç ayar penceresi, `#ekokuma-pencere` ile AYNI modal deseni. */
+#ayarlar-pencere {
+  position: fixed; inset: 0; background: rgba(0,0,0,0.55);
+  display: flex; align-items: center; justify-content: center; z-index: 60;
+}
+#ayarlar-pencere.gizli { display: none; }
+#ayarlar-kutu {
+  background: var(--panel); border: 2px solid var(--altin); border-radius: 10px;
+  width: min(420px, 92vw);
+  padding: 16px 20px; position: relative;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+}
+#ayarlar-kutu h3 { margin-bottom: 12px; }
+#ayarlar-kapat {
+  position: absolute; top: 8px; right: 10px; border: none; background: none;
+  font-size: 18px; cursor: pointer; color: #6b5a33;
+}
+.ayar-satir { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 12px; }
+.ayar-satir label { flex: 1 1 100%; font-size: 12.5px; }
+.ayar-ipucu { font-size: 11px; color: #8a6d2f; font-weight: normal; }
+.ayar-satir input[type="range"] { flex: 1 1 auto; }
+.ayar-deger { font-size: 12px; color: #6b4a1f; min-width: 2.5em; text-align: right; }
+.ayar-not { font-size: 11px; color: #8c3444; line-height: 1.4; margin-top: 4px; }
 
 #ekokuma-pencere {
   position: fixed; inset: 0; background: rgba(0,0,0,0.55);

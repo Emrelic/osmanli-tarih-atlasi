@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Osmanlı Tarih Atlası (1281–1923)</title>
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
-<link rel="stylesheet" href="css/style.css?v=r737">
+<link rel="stylesheet" href="css/style.css?v=r748">
 </head>
 <body>
 <header id="ustbar">
@@ -27,6 +27,7 @@
          hiçbir siyasî/tabiî sınır tam dikdörtgen değildir. -->
     <button id="btn-verisiniri" title="Atlasın veri sınırı: bu dikdörtgenin ötesi henüz atlasa dâhil değil. Boş görünen yerlerin sebebi budur.">▦ Veri sınırı</button>
     <button id="btn-tamekran" title="Tam ekran (F11)">⛶</button>
+    <button id="btn-ayarlar" title="Uçuş kipi ayarları: irtifa, yakınlık, hız">⚙ Ayarlar</button>
   </div>
   <div id="ustbar-orta">
     <span id="ustbar-tarih"></span>
@@ -76,6 +77,18 @@
         <span>📜 Kronoloji</span>
         <span id="olay-sayac"></span>
       </h2>
+      <!-- ARAYUZ-4-SARTNAME.md — "haritayı kronolojik olaya götür". Onay
+           kutusu + kip kronoloji BAŞLIĞINDA durur (Emre'nin isteği), üç
+           ayar (irtifa/yakınlık/hız) ⚙ Ayarlar penceresinde. -->
+      <div id="ucus-kontrol">
+        <label title="Sıradaki olaya geçilince harita o yeri kendiliğinden ortalar">
+          <input type="checkbox" id="ucus-ac"> 🛩 Haritayı olaya götür
+        </label>
+        <select id="ucus-kip" title="Geçiş biçimi">
+          <option value="ani">Ani</option>
+          <option value="ucus" selected>Uçuş</option>
+        </select>
+      </div>
       <div id="olay-listesi"></div>
     </section>
     <!-- Olay bilgi paneli: haritanın üzerinde değil, kronolojinin ALTINDA -->
@@ -89,6 +102,10 @@
           <div id="ob-meta"></div>
         </div>
       </div>
+      <!-- ARAYUZ-4-SARTNAME.md ④ — "yer_id/yer_kon ikisi de yoksa kart
+           SESSİZCE ATLAMAZ." Yalnız uçuş açıkken ve konum çözülemediğinde
+           dolar (js/app.js haritayiOlayaGotur). -->
+      <div id="ob-yer-yok"></div>
       <div id="ob-detay"></div>
       <div id="ob-ozel"></div>
       <!-- PADISAH-KARTVIZITI.md — yalnız o.vefat_id çözülen maddede dolar
@@ -144,6 +161,39 @@
   <div id="alan-goster"></div>
 </footer>
 
+<!-- ARAYUZ-4-SARTNAME.md ② — üç ayar (irtifa/yakınlık/hız) burada, kip ve
+     onay kutusu kronoloji başlığında (Emre'nin isteği, ikisi ayrı yerde). -->
+<div id="ayarlar-pencere" class="gizli">
+  <div id="ayarlar-kutu">
+    <button id="ayarlar-kapat" title="Kapat">✕</button>
+    <h3>⚙ Uçuş kipi ayarları</h3>
+    <div class="ayar-satir">
+      <label for="ayar-irtifa">İrtifa <span class="ayar-ipucu">(yayın tepe yüksekliği)</span></label>
+      <input type="range" id="ayar-irtifa" min="0.5" max="3" step="0.1" value="1.42">
+      <span id="ayar-irtifa-deger" class="ayar-deger"></span>
+    </div>
+    <div class="ayar-satir">
+      <label for="ayar-yakinlik">Yakınlık <span class="ayar-ipucu">(olay mahalline inilecek zoom)</span></label>
+      <input type="range" id="ayar-yakinlik" min="4" max="8" step="0.1" value="6.5">
+      <span id="ayar-yakinlik-deger" class="ayar-deger"></span>
+    </div>
+    <div class="ayar-satir">
+      <label for="ayar-hiz">Hız <span class="ayar-ipucu">(küçük = yavaş)</span></label>
+      <input type="range" id="ayar-hiz" min="0.3" max="3" step="0.1" value="1.2">
+      <span id="ayar-hiz-deger" class="ayar-deger"></span>
+    </div>
+    <div class="ayar-satir">
+      <label for="ayar-kenarpay">Kenar payı <span class="ayar-ipucu">(nokta yeri olmayan olayda imparatorluk görünümünün çevre boşluğu)</span></label>
+      <input type="range" id="ayar-kenarpay" min="10" max="120" step="5" value="55">
+      <span id="ayar-kenarpay-deger" class="ayar-deger"></span>
+    </div>
+    <p class="ayar-not">⚠️ Bu dört değer MapLibre'nin belgelenmiş varsayılanları
+      (curve 1.42 · speed 1.2) çevresinde kuruldu — bu oturumda harita
+      render olmadığı için GÖZLE ayarlanamadı. İlk gerçek kullanımda
+      gözden geçirilmeli.</p>
+  </div>
+</div>
+
 <div id="olay-detay" class="gizli">
   <div id="olay-detay-kutu">
     <button id="detay-kapat">✕</button>
@@ -186,26 +236,26 @@
 </div>
 
 <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
-<script src="data/padisahlar.js?v=r737"></script>
-<script src="data/olaylar.js?v=r737"></script>
-<script src="data/olaylar_ek.js?v=r737"></script>
-<script src="data/olaylar_ek2.js?v=r737"></script>
-<script src="data/olaylar_ek3.js?v=r737"></script>
-<script src="data/olaylar_ek4.js?v=r737"></script>
-<script src="data/olaylar_ek5.js?v=r737"></script>
-<script src="data/olaylar_ek6.js?v=r737"></script>
-<script src="data/olaylar_ek7.js?v=r737"></script>
-<script src="data/olaylar_ek8.js?v=r737"></script>
-<script src="data/olaylar_ek9.js?v=r737"></script>
-<script src="data/olaylar_ek10.js?v=r737"></script>
-<script src="data/olaylar_ek11.js?v=r737"></script>
-<script src="data/olaylar_ek12.js?v=r737"></script>
-<script src="data/olaylar_ek13.js?v=r737"></script>
+<script src="data/padisahlar.js?v=r748"></script>
+<script src="data/olaylar.js?v=r748"></script>
+<script src="data/olaylar_ek.js?v=r748"></script>
+<script src="data/olaylar_ek2.js?v=r748"></script>
+<script src="data/olaylar_ek3.js?v=r748"></script>
+<script src="data/olaylar_ek4.js?v=r748"></script>
+<script src="data/olaylar_ek5.js?v=r748"></script>
+<script src="data/olaylar_ek6.js?v=r748"></script>
+<script src="data/olaylar_ek7.js?v=r748"></script>
+<script src="data/olaylar_ek8.js?v=r748"></script>
+<script src="data/olaylar_ek9.js?v=r748"></script>
+<script src="data/olaylar_ek10.js?v=r748"></script>
+<script src="data/olaylar_ek11.js?v=r748"></script>
+<script src="data/olaylar_ek12.js?v=r748"></script>
+<script src="data/olaylar_ek13.js?v=r748"></script>
 <!-- hatalar 8.docx madde 1: antlasmalarda taralı devir alanları. Uretici: arac/uret_devirler.py -->
-<script src="data/devirler.js?v=r737"></script>
-<script src="data/devletler.js?v=r737"></script>
-<script src="data/kisiler.js?v=r737"></script>
-<script src="data/savaslar.js?v=r737"></script>
+<script src="data/devirler.js?v=r748"></script>
+<script src="data/devletler.js?v=r748"></script>
+<script src="data/kisiler.js?v=r748"></script>
+<script src="data/savaslar.js?v=r748"></script>
 <!-- YERLESIM PARTILERI - hepsi yuklenir ve TEK diziye birlestirilir.
      2 Agustos 2026: kutu acildiginda 789 nokta (afrika 186 - asya 344 -
      avrupa 237 - ek 15 - ortaasya2 7) TOPRAGI CIZILIYOR ama ADI GORUNMUYORDU
@@ -215,19 +265,19 @@
      denetle_yayin.py bunu 40 ("uretiliyor ama cizilmiyor") diye YAKALADI -
      ve muaf listesindeki gerekce ("app.js ham noktayi okumaz") CURUKTU.
      Bedel olculdu: gzip +0,09 MB. -->
-<script src="data/yerlesimler.js?v=r737"></script>
-<script src="data/yerlesimler_afrika.js?v=r737"></script>
-<script src="data/yerlesimler_avrupa.js?v=r737"></script>
-<script src="data/yerlesimler_asya.js?v=r737"></script>
-<script src="data/yerlesimler_ek.js?v=r737"></script>
-<script src="data/yerlesimler_ortaasya2.js?v=r737"></script>
-<script src="data/yerlesimler_kirim.js?v=r737"></script>
-<script src="data/yerlesimler_seyrek.js?v=r737"></script>
-<script src="data/yerlesimler_ek2.js?v=r737"></script>
-<script src="data/yerlesimler_ek3.js?v=r737"></script>
-<script src="data/yerlesimler_ek4.js?v=r737"></script>
-<script src="data/yerlesimler_ek5.js?v=r737"></script>
-<script src="data/yerlesimler_ek6.js?v=r737"></script>
+<script src="data/yerlesimler.js?v=r748"></script>
+<script src="data/yerlesimler_afrika.js?v=r748"></script>
+<script src="data/yerlesimler_avrupa.js?v=r748"></script>
+<script src="data/yerlesimler_asya.js?v=r748"></script>
+<script src="data/yerlesimler_ek.js?v=r748"></script>
+<script src="data/yerlesimler_ortaasya2.js?v=r748"></script>
+<script src="data/yerlesimler_kirim.js?v=r748"></script>
+<script src="data/yerlesimler_seyrek.js?v=r748"></script>
+<script src="data/yerlesimler_ek2.js?v=r748"></script>
+<script src="data/yerlesimler_ek3.js?v=r748"></script>
+<script src="data/yerlesimler_ek4.js?v=r748"></script>
+<script src="data/yerlesimler_ek5.js?v=r748"></script>
+<script src="data/yerlesimler_ek6.js?v=r748"></script>
 <script>
   // Parti dosyalari KENDI kuresel degiskenlerini tanimliyor; app.js yalniz
   // window.YERLESIMLER okuyor. Birlestirme burada, TEK yerde yapilir --
@@ -246,20 +296,20 @@
     .concat(window.YERLESIMLER_EK5 || [])
     .concat(window.YERLESIMLER_EK6 || []);
 </script>
-<script src="data/bolgeler.js?v=r737"></script>
-<script src="data/devletler_harita.js?v=r737"></script>
-<script src="data/sehirler.js?v=r737"></script>
-<script src="data/donemler.js?v=r737"></script>
-<script src="data/altlik.js?v=r737"></script>
+<script src="data/bolgeler.js?v=r748"></script>
+<script src="data/devletler_harita.js?v=r748"></script>
+<script src="data/sehirler.js?v=r748"></script>
+<script src="data/donemler.js?v=r748"></script>
+<script src="data/altlik.js?v=r748"></script>
 <!-- BEKLEYENLER.md'den uretilir; elle duzenlenmez. -->
-<script src="data/bekleyenler.js?v=r737"></script>
-<script src="js/suzgec.js?v=r737"></script>
+<script src="data/bekleyenler.js?v=r748"></script>
+<script src="js/suzgec.js?v=r748"></script>
 <!-- ⚠️ zaman.js BU SATIR OLMADAN HİÇ YÜKLENMİYORDU. Dosya vardı, app.js onu
      `window.ZAMAN` üzerinden çağırıyordu ama script etiketi eksikti; sonuç:
      window.ZAMAN tanımsız, `obTazele()` daha ilk satırında geri dönüyor ve
      detay panelinin tarihle birlikte ilerlemesi (bir kullanıcı şikâyeti üzerine
      yazılmıştı) fiilen hiç çalışmıyordu. app.js'ten ÖNCE yüklenmeli. -->
-<script src="js/zaman.js?v=r737"></script>
-<script src="js/app.js?v=r737"></script>
+<script src="js/zaman.js?v=r748"></script>
+<script src="js/app.js?v=r748"></script>
 </body>
 </html>

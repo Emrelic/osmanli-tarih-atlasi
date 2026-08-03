@@ -2328,6 +2328,7 @@ olaylar.forEach(function (o, i) {
   div.addEventListener("click", function () {
     tarihAyarla(o.gi);
     obGoster(o);
+    haritayiOlayaGotur(o);
   });
   olayListe.appendChild(div);
   olayDom.push(div);
@@ -3389,6 +3390,7 @@ function oynatDurdur() {
       suankiOlayI = i;
       tarihAyarla(olaylar[i].gi);
       obGoster(olaylar[i]);
+      haritayiOlayaGotur(olaylar[i]);
     };
     adimla();
     zamanlayici = setInterval(adimla, bekleme);
@@ -3539,6 +3541,104 @@ harita.on("zoomstart", function (e) {
   btnZoom.classList.add("pasif");
 });
 
+// ---------- ARAYÜZ 4 — "haritayı olaya götür" (uçuş kipi) ----------
+// oturumlar/ARAYUZ-4-SARTNAME.md. `map.flyTo`nun kendi eğrisi (van Wijk &
+// Nuij) tam olarak istenen "eğik atış" — elle parabol hesabı YAZILMADI.
+//
+// Konum çözümü — BULANIK EŞLEŞME YOK (bugün beş kez yanlış çıktı, hepsi
+// isim/skor tabanlıydı — kisiBul, K1 sayımı, MOTOR 3, Kösem, III. Ahmed).
+// `yer_id` (yerleşim adı, birebir) ve `yer_kon` (savaş meydanları için
+// [lat,lon]) — `vefat_id` deseninin aynısı, aynı sebeple.
+function olayKonumu(o) {
+  if (o.yer_kon && o.yer_kon.length === 2) return { lat: o.yer_kon[0], lon: o.yer_kon[1] };
+  if (o.yer_id) {
+    for (var i = 0; i < sehirler.length; i++) {
+      var ad = sehirler[i].s.ad;
+      // Birebir eşleşme + parantezli lakabın öncesi (deterministik dönüşüm,
+      // skor YOK — "Bapheus (Koyunhisar)" gibi kayıtlar için tek esneklik).
+      if (ad === o.yer_id || ad.split(" (")[0] === o.yer_id) return { lat: sehirler[i].s.lat, lon: sehirler[i].s.lon };
+    }
+  }
+  return null;
+}
+
+var ucusAcEl = document.getElementById("ucus-ac");
+var ucusKipEl = document.getElementById("ucus-kip");
+var obYerYokEl = document.getElementById("ob-yer-yok");
+// Tercihler kalıcı — `lejantKapali`/`panel katli` ile aynı desen.
+(function () {
+  ucusAcEl.checked = localStorage.getItem("ucusAc") === "1";
+  if (localStorage.getItem("ucusKip")) ucusKipEl.value = localStorage.getItem("ucusKip");
+  ucusAcEl.addEventListener("change", function () { localStorage.setItem("ucusAc", ucusAcEl.checked ? "1" : "0"); });
+  ucusKipEl.addEventListener("change", function () { localStorage.setItem("ucusKip", ucusKipEl.value); });
+})();
+
+// p2/H-0010 ④ — "ikisi de yoksa kart SESSİZCE ATLAMAZ." Yalnız uçuş
+// AÇIKKEN gösterilir: kapalıyken kimse bir uçuş beklemiyor, açıklanacak
+// bir yokluk da yok.
+// §⑦ — nokta yeri olmayan olay sessiz kalmaz: o günkü imparatorluk
+// sınırına (`donemler[i].b`) çerçevelenir. Metin niçin uzaklaşıldığını söyler.
+function haritayiOlayaGotur(o) {
+  if (!ucusAcEl.checked) { if (obYerYokEl) obYerYokEl.textContent = ""; return; }
+  var hedef = olayKonumu(o);
+  if (!hedef) {
+    var di = donemBul(o.gi);
+    var kenar = +document.getElementById("ayar-kenarpay").value;
+    if (di >= 0 && donemler[di].b) {
+      var b = donemler[di].b;
+      harita.fitBounds([[b[0], b[1]], [b[2], b[3]]], { padding: kenar, duration: 800 });
+      if (obYerYokEl) obYerYokEl.textContent = "📍 Bu olayın haritada nokta yeri yok — imparatorluk görünümüne geçildi.";
+    } else if (obYerYokEl) {
+      obYerYokEl.textContent = "📍 Bu olayın haritada yeri işaretlenmemiş.";
+    }
+    return;
+  }
+  if (obYerYokEl) obYerYokEl.textContent = "";
+  var yakinlik = +document.getElementById("ayar-yakinlik").value;
+  if (ucusKipEl.value === "ani") {
+    // KİP A — tak diye, animasyonsuz.
+    harita.jumpTo({ center: [hedef.lon, hedef.lat], zoom: yakinlik });
+  } else {
+    // KİP B — uçuş. ⚠️ `flyTo` kendi içinde ÖNCEKİ animasyonu KESER
+    // (MapLibre/Mapbox GL'nin belgelenmiş davranışı: yeni bir kamera
+    // çağrısı öncekini kuyruğa almaz, DEVRALIR) — ⏭ üst üste basılırsa
+    // önceki uçuş yarıda kesilip yenisi başlar, kuyruk OLUŞMAZ. Bu
+    // oturumda harita render olmadığı için GÖZLE doğrulanamadı, ilk
+    // gerçek kullanımda `⑥` sınaması yapılmalı.
+    harita.flyTo({
+      center: [hedef.lon, hedef.lat], zoom: yakinlik,
+      curve: +document.getElementById("ayar-irtifa").value,
+      speed: +document.getElementById("ayar-hiz").value
+    });
+  }
+}
+
+// ⚙ Ayarlar penceresi — dört sürgü, `#ayarlar-pencere` (`#dizin`in aynı
+// modal deseni). Değerler kalıcı, sürgünün yanında sayı olarak da yazılır.
+(function () {
+  var pencere = document.getElementById("ayarlar-pencere");
+  [["ayar-irtifa", "ayarIrtifa"], ["ayar-yakinlik", "ayarYakinlik"], ["ayar-hiz", "ayarHiz"], ["ayar-kenarpay", "ayarKenarPay"]].forEach(function (p) {
+    var girdi = document.getElementById(p[0]);
+    var deger = document.getElementById(p[0] + "-deger");
+    var kayitli = localStorage.getItem(p[1]);
+    if (kayitli) girdi.value = kayitli;
+    deger.textContent = girdi.value;
+    girdi.addEventListener("input", function () {
+      deger.textContent = girdi.value;
+      localStorage.setItem(p[1], girdi.value);
+    });
+  });
+  document.getElementById("btn-ayarlar").addEventListener("click", function () {
+    pencere.classList.remove("gizli");
+  });
+  document.getElementById("ayarlar-kapat").addEventListener("click", function () {
+    pencere.classList.add("gizli");
+  });
+  pencere.addEventListener("click", function (e) {
+    if (e.target === pencere) pencere.classList.add("gizli");
+  });
+})();
+
 // Önceki / sonraki olaya atla — p5/H-0006: sıra numarası (index) üzerinden,
 // bkz. suankiOlayI/olayIndexTazele yorumu.
 document.getElementById("btn-geri").addEventListener("click", function () {
@@ -3546,12 +3646,14 @@ document.getElementById("btn-geri").addEventListener("click", function () {
   if (suankiOlayI <= 0) { suankiOlayI = -1; tarihAyarla(BASLANGIC); return; }
   suankiOlayI--;
   tarihAyarla(olaylar[suankiOlayI].gi);
+  haritayiOlayaGotur(olaylar[suankiOlayI]);
 });
 document.getElementById("btn-ileri").addEventListener("click", function () {
   olayIndexTazele();
   if (suankiOlayI >= olaylar.length - 1) { tarihAyarla(BITIS); return; }
   suankiOlayI++;
   tarihAyarla(olaylar[suankiOlayI].gi);
+  haritayiOlayaGotur(olaylar[suankiOlayI]);
 });
 
 // Klavye: ←→ gün (Shift: yıl), boşluk oynat/durdur
