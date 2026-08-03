@@ -15,8 +15,20 @@ data/donemler.js            25,6 MB   ┘  ikisi = %92,6
 data/altlik.js               4,2 MB
 kalan 38 dosya               2,5 MB
 ────────────────────────────────────
-TOPLAM                      70,2 MB      gzip'li tele ~18 MB iner
+TOPLAM                      70,2 MB      dosya baytı toplamı
 ```
+
+🔴 **Bu satırlar TAHMİN değil dosya baytıdır; ARAYÜZ 2 ağdan ÖLÇTÜ ve
+gerçek sayı daha yüksek çıktı** — `oturumlar/YUK-OLCU.md`:
+
+```
+                     koordinatörün kâğıt hesabı   ARAYÜZ 2 ölçtü
+açılışta inen ham              70,2 MB               73,64 MB
+gzip                          ~18 MB                 18,90 MB
+heap                          ~350 MB                 453 MB   🔴
+```
+📌 Heap tahminim yalnız koordinat dizilerini sayıyordu; DOM, MapLibre ve
+uygulama durumu üstüne biniyor. **Ölçülen sayı esastır, benimki değil.**
 
 ### Ağırlık dosyalarda DEĞİL, iki havuzda
 
@@ -31,8 +43,9 @@ devletler_harita.js  DEVLET_PARCALAR   37,4 MB   %98,6
 🔴 **Geometri havuzları — 62,5 MB.**
 
 ### Asıl maliyet indirme değil, BELLEK
-4,1 milyon koordinat çifti JS dizisi olarak kuruluyor. V8'de her `[lon,lat]`
-≈ 85 bayt ⇒ **~350 MB heap.** Telefonda sekme öldürme sınırına yakın.
+4,1 milyon koordinat çifti JS dizisi olarak kuruluyor.
+⇒ **ÖLÇÜLDÜ: 453 MB heap** (dört ayrı taze yüklemede ±1,5 MB).
+🔴 Telefonda sekme öldürme sınırının **içinde.**
 
 ---
 
@@ -104,14 +117,26 @@ deseniyle duruyor. Aynı desen halkaların kendisine uygulanmamış, o kadar.
 ⚠️ **A'yı C ve D'den ÖNCE yapma.** C+D havuzu küçültür; A'nın blok
 bölmesi küçülmüş havuza göre kurulmalı, yoksa iş iki kere yapılır.
 
-## ④ SINAMA ÖLÇÜTÜ
+## ④ SINAMA ÖLÇÜTÜ — ÖNCESİ ölçüldü, `oturumlar/YUK-OLCU.md`
+
 ```
-① açılışta inen toplam bayt        70,2 MB → ölç ve yaz
-② ilk boyalı harita kaç saniyede   önce/sonra, aynı makine
-③ heap (Chrome görev yöneticisi)   ~350 MB → ölç ve yaz
-④ dönem değiştirince takılma var mı — gecikmeli yüklemenin bedeli budur
-⑤ denetle_yayin.py hâlâ TEMİZ mi   — URETIM_IZI zinciri kırılmamalı
+                              ÖNCESİ (4 Ağustos)        SONRASI
+① açılışta inen        73,64 MB ham · 18,90 MB gzip     ...
+② domContentLoaded     soğuk 13.031 ms · ılık 3.695 ms  ...
+③ heap                 453 MB                            ...
+④ dönem değiştirme     41-43 ms · 500 yıl sıçraması 101 ms ...
+⑤ denetle_yayin.py     İHLAL 4 (dördü de A/B/C/D dışı)  liste BÜYÜMEMELİ
 ```
+
+⚠️ **②'nin sınırı dosyada yazılı ve önemli:** gerçek "ilk boyalı harita"
+ölçülemedi (oturumun tarayıcı bölmesi `document.hidden=true` açılıyor, paint
+hiç olmuyor). `domContentLoaded` vekil olarak alındı; MapLibre'nin kendi
+çizim payı bunun DIŞINDA ⇒ gerçek sayı biraz daha yüksek.
+📌 Bu bir eksiklik değil, **ölçünün dürüst sınırı.** SONRASI da aynı vekille
+ölçülürse karşılaştırma geçerlidir — vekil değişirse kıyas çöker.
+
+⚠️ **④ için A'dan sonra ÖNBELLEKLİ ve ÖNBELLEKSİZ sıçrama AYRI raporlanır.**
+Yoksa gecikmeli yüklemenin fetch payı "yavaşladı" diye yanlış okunur.
 
 ⚠️ **Değişmezler pazarlık dışı:** C ve D geometriyi **değiştirmez**, yalnız
 tekrarı siler. B geometriyi **değiştirir** ⇒ Değişmez 1/1b (sahipsiz alan ·
