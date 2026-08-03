@@ -153,3 +153,43 @@ KOORDİNATÖR  `yer_id:` alanını `olaylar*.js`e işlemek (BENİM dosyalarım)
 ⚠️ ⑥ özellikle: Emre kronolojide hızlı gezerken her olay için tam bir uçuş
    beklerse arayüz kilitlenmiş gibi hissettirir. Yeni istek geldiğinde
    öncekinin iptal edilmesi gerekir.
+
+---
+
+# ⑦ ÜÇÜNCÜ KİP: BÖLGESEL OLMAYAN OLAY — ve BEDAVA ÇIKTI
+
+> Emre, 4 Ağustos: *"eğer belli bir bölgeye ait bir gelişme değilse Osmanlı
+> haritası ekrana sığdırılacak kadar yukarı çıkılıp harita ortalanır."*
+
+## 🟢 ÖLÇÜLDÜ: VERİ ZATEN VAR, YENİ ALAN GEREKMİYOR
+
+`donemler.js`in **495 döneminin 495'i** kendi sınır kutusunu taşıyor:
+```
+DONEMLER[i].b = [lonMin, latMin, lonMax, latMax]
+
+1281-01-01   [29.32, 39.58, 30.54, 40.22]    Söğüt-Domaniç, bir avuç yer
+1570-07-23   [-2.88, 10.30, 50.91, 49.51]    Atlantik'ten Hazar'a, tepe
+1922-09-09   [21.93, 36.03, 44.14, 43.06]    Anadolu + Trakya
+```
+⇒ **`map.fitBounds(DONEMLER[i].b, {padding})` tam olarak Emre'nin istediğidir**
+ve üstelik SABİT bir kutu değil: **o TARİHTEKİ imparatorluğun kendi sınırı.**
+1281'de Söğüt'ü, 1570'te Akdeniz'in tamamını gösterir.
+
+## Üç kip birleşti
+```
+① NOKTA olayı        yer_id / yer_kon var   →  flyTo(nokta)
+② GENEL olay         ikisi de yok           →  fitBounds(DONEMLER[i].b)
+③ (ileride) BÖLGE    Rumeli · Anadolu · Mağrib gibi
+```
+📌 Ve ② **varsayılan davranış** olur: koordinatı olmayan 364+ madde
+   "yeri işaretlenmemiş" diye sessiz kalmak yerine **imparatorluğun o günkü
+   hâlini** gösterir. Yani eksik veri bile anlamlı bir görüntü üretiyor.
+⚠️ Ama kart yine de söyler: *"bu olayın haritada nokta yeri yok, imparatorluk
+   görünümüne geçildi"* — kullanıcı niçin uzaklaştığını bilsin.
+
+## Dördüncü ayar
+```
+4. KENAR PAYI   imparatorluk görünümünde çevrede ne kadar boşluk kalsın
+                (fitBounds padding — piksel ya da oran)
+```
+⇒ Ayar sekmesinde artık DÖRT sürgü: irtifa · yakınlık · hız · kenar payı.
