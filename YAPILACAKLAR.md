@@ -12,6 +12,119 @@ durum tablosunu güncelle.
 
 ---
 
+# 🆕 İDARÎ KATMAN — kullanıcı isteği, 3 Ağustos 2026
+
+> *"Bölgeleri ülke, eyalet, sancak, vilâyet şeklinde bölelim… bir idarî
+> bölümleme katmanı yapalım, o katmana basınca bunlar görünsün. Vassal
+> devletler, özerk yapılar da var… zaman katmanı boyutu ile değişen yapıda."*
+>
+> Ve `p2/H-0002`'ye verdiği cevap bu işin **yerini** tanımlıyor:
+> *"Normal haritada Söğüt bölgesi göstermeyiz. Ama Söğüt sancağı ya da
+> beylerbeyliği varsa **idarî haritada ayrı bir katman olarak** gösteririz."*
+> ⇒ Bugünkü bölge etiketleri **ana haritadan çıkar**, bu katmana taşınır.
+
+## 🟢 ÖNCE İYİ HABER: YARISI ZATEN KURULU — ölçüldü
+
+```
+bolgeler.js       63 bölge · 328 KB · ÜRETİLİYOR
+                  her k1/k2 merkezin ÜYE PETEKLERİNİN BİRLEŞİMİ = sınır
+k:  alanı         idarî kademe 0-4 (0=kademesiz · 1-2=merkez · 3-4=alt)
+m:  alanı         bağlı olduğu merkez; `k12_merkez()` zinciri takip ediyor
+uret_petek.py     Kural 6 bu sınırları zaten hesaplıyor (satır 1523-1561)
+```
+
+**Yani sınır üretme sorunu ÇÖZÜLMÜŞ.** Yapılacak iş sınır çıkarmak değil,
+o sınırlara **ad, kademe ve ZAMAN** vermek.
+
+## 🔴 DÖRT EKSİK — hepsi ölçüldü
+
+```
+① ZAMAN YOK        kd:[{f,t,k,m}] şeması VERI-YAPISI.md:70'te TASARLANDI
+                   ama veride 0 (SIFIR) noktada kullanılıyor.
+                   m: tek değer → bir sancak asırlar boyunca hep aynı
+                   eyalete bağlıymış gibi görünüyor. YANLIŞ.
+② KADEME ADSIZ     k:1 = 4 nokta · k:2 = 58 nokta. İkisi de "merkez"
+                   diye tek torbada; hangisi EYALET hangisi SANCAK belli
+                   değil. 4 tane k:1 gerçek eyalet sayısı olamaz.
+③ KAPSAM YARIM     Osmanlı dönemi olan 614 noktanın 540'ında m: dolu,
+                   ama k1/k2 merkez yalnız 55 tane.
+④ TÂBİİYET SERBEST v: alanı 263 noktada, 305 dönem — ve etiketi
+   METİN            33 AYRI SERBEST METİN. Sözlük yok, sayılamıyor.
+```
+
+## 🔴 VE BİR TARİH DÜZELTMESİ — istekteki sıralama yanlış
+
+**Eyalet ve vilâyet ayrı kademe DEĞİL; aynı kademenin iki devri.**
+TDV *EYALET*: 1864 Vilâyet Nizamnâmesi eyaletin yerine vilâyeti getirdi.
+
+```
+1864 ÖNCESİ   eyalet (beylerbeyilik) → sancak (livâ) → kaza → nahiye
+1864 SONRASI  vilâyet                → sancak (mutasarrıflık) → kaza
+                                     → nahiye → karye
+```
+📌 Bu tam da **zaman boyutunun neden şart olduğunun** kanıtı: aynı toprak
+1600'de "Anadolu **eyaleti**", 1870'te "Ankara **vilâyeti**". Tek değerli
+bir alan bunu yazamaz.
+
+⚠️ Ayrıca TDV bir ayrım daha veriyor ve kullanıcının *"özerk yapılar"*
+isteğine doğrudan bağlanıyor: **1609'da 32 eyaletin 23'ü timarlı, 9'u
+salyaneli.** Salyaneli eyaletler (Mısır, Cezayir, Habeş, Basra, Bağdat,
+Yemen…) tımar sisteminin DIŞINDAYDI — yani özerklik ayrı bir katman
+değil, **eyalet türünün kendisi.**
+
+## ŞEMA ÖNERİSİ — iki alan
+
+```javascript
+// ① zamanlı idarî bağlılık (VERI-YAPISI.md:70'teki kd: canlandırılıyor)
+kd:[{ f:"1362-01-01", t:"1864-11-08", kad:"sancak", m:"Kütahya",
+      tur:"timarli" },
+    { f:"1864-11-08", t:"1923-10-29", kad:"sancak", m:"Konya" }]
+
+kad:  ulke · eyalet · vilayet · sancak · kaza · nahiye
+tur:  timarli · salyaneli        (yalnız eyalet/vilâyet kademesinde)
+
+// ② tâbiiyet — 33 serbest metnin yerine KAPALI sözlük
+v:[{ f:.., t:.., tabi:"ocaklik", ad:"Cezayir Ocaklığı (dayı idaresi)" }]
+
+tabi: ocaklik · voyvodalik · prenslik · seriflik · hidiviyet
+      imtiyazli-sancak · muhtar-vilayet · himaye · vassal-krallik
+```
+📌 `ad:` serbest kalır (okunacak metin), `tabi:` kapalı kalır (sayılacak
+şey). Bugünkü 33 metin **sayılamıyor**; bu ikili yapı ikisini de verir.
+
+## 🔴 KAPSAM STRATEJİSİ — sürekli kapsama DEĞİL, İKİ KESİT
+
+Kullanıcının kendi sözü: *"veri eksiği olan yerler olursa onlar da
+tamamlanmadan kalır, ne kadar aparırsak o kadar gösteririz."* Kabul —
+ve doğru yol da bu:
+
+```
+KESİT 1  1609   32 eyalet (23 timarlı + 9 salyaneli) — Ayn Ali Efendi
+                risâlesi standart kaynak, TDV EYALET maddesi sayıyor
+KESİT 2  1867   Vilâyet Nizamnâmesi sonrası — salnâmeler tam liste verir
+ARASI    interpolasyon YOK; iki kesit arası "veri yok" diye gösterilir
+```
+⚠️ **Sürekli kapsama istemek bu işi öldürür.** Sancak sınırları her on
+yılda oynuyor ve kaynak ancak kesitlerde toplu. İki sağlam kesit, üç yüz
+yıllık bulanık bir sürekliliğe yeğdir — ve dürüsttür.
+
+## SIRA
+
+```
+- [ ] ① `kd:` ve `tabi:` şemasını VERI-YAPISI.md'ye YAZ (karar belgesi)
+- [ ] ② k:1/k:2 ayrımını netleştir — 4 k:1 gerçek olamaz, ölç
+- [ ] ③ v: alanındaki 33 serbest metni kapalı sözlüğe eşle (mekanik)
+- [ ] ④ 1609 kesiti: 32 eyalet + merkezleri (TDV + Ayn Ali)
+- [ ] ⑤ motor: bolgeler.js'i kd: penceresine göre üret
+- [ ] ⑥ ARAYÜZ: idarî katman düğmesi; bölge etiketleri ana haritadan ÇIK
+- [ ] ⑦ 1867 kesiti: vilâyetler (salnâme)
+```
+📌 ①-③ **ucuz ve bugünkü veriyle yapılabilir**; ④ ve ⑦ araştırma.
+🔵 `S-006` (bölge adları bugünün adını taşıyor) bu işin İÇİNDE çözülür —
+ayrı kalem olmaktan çıkar.
+
+---
+
 # 🆕 ANSİKLOPEDİ EKSENİ — kullanıcı isteği, 2 Ağustos 2026
 
 > 🔴 **BU BİR SINIF DEĞİŞİKLİĞİDİR, ve adını koymak gerekiyor.** Atlas bugüne
