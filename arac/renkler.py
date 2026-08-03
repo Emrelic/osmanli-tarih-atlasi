@@ -807,7 +807,18 @@ BOYALAR = {
     "behmeni":                 ("Behmenî Sultanlığı (Dekken)",       "#636f03"),
     "qing-hanedani":           ("Qing Hanedanı (Mançu)",             "#636f03"),
     "sulu-sultanligi":         ("Sulu Sultanlığı",                   "#636f03"),
-    "toungoo":                 ("Toungoo Hanedanı (Birmanya)",       "#636f03"),
+    # 🔴 ÇIKTI DENETİMİNİN YAKALADIĞI KUSUR (RENK, 2026-08-03).
+    # `qing-hanedani` ile BİREBİR aynı hex'i (#636f03) taşıyordu — ikisini de
+    # ben paylaştırmıştım, çünkü GİRDİ komşuluğu (Voronoi hücreleri) "komşu
+    # değil" diyordu. ÇİZİLEN gövdeler ise 1700 kesitinde DEĞİYOR: Çin ile
+    # Birmanya sınırında iki devlet ΔE 0,0 ile aynı renkte görünüyordu.
+    # ⚠️ Motor hücreleri BİRLEŞTİRİYOR, delikleri dolduruyor, kıyıya kırpıyor —
+    #   çizilen gövdelerin komşuluğu Voronoi komşuluğuyla AYNI DEĞİL.
+    #   Ölçüldü: çizili haritada 608 değen çift var, 13'ü girdi komşuluğunda
+    #   HİÇ YOK. `arac/renk_cikti.py` bu ekseni denetliyor.
+    # Az kısıtlı uç seçildi: toungoo 12 girdi komşusu · qing-hanedani 34.
+    # ÖLÇÜM: ton kayması 0,2° · pay 12,1 · S 0,52 · altlıktan ayrık
+    "toungoo":                 ("Toungoo Hanedanı (Birmanya)",       "#545d2d"),
     "yuan-hanedani":           ("Yuan Hanedanı (Moğol Çin)",         "#636f03"),
     # ── #7b1fa2  [ASYA · ① EKSİK, gövde yok · zarf(-25,-17.5,159,74) teyitli]  ile paylaşımlı (sidamo) · 5 kimlik
     "brunei-sultanligi":       ("Brunei Sultanlığı",                 "#7b1fa2"),
@@ -932,7 +943,13 @@ BOYALAR = {
     "ladak":                   ("Ladakh Krallığı",                   "#a8c63c"),
     "gond-kralliklari":        ("Gond Krallıkları",                  "#78c63c"),
     "manipur":                 ("Manipûr Krallığı",                  "#3cc642"),
-    "berar":                   ("İmâdşâhî Sultanlığı (Berâr)",       "#3c3cc6"),
+    # 🔴 ÇIKTI DENETİMİ — `golkonda` ile ΔE 7,4 ve çizili gövdeler Dekken'de
+    # DEĞİYOR (girdi komşuluğunda komşu DEĞİLLER; yalnız çıktıda görünüyor).
+    # Kimlik VERİ KİMLİK 3'ün, renk ölçüsü RENK'in. Az kısıtlı uç: berar
+    # 4 girdi komşusu · golkonda 9. `golkonda` engel kümesine ELLE eklendi —
+    # çıktı komşuluğu girdi grafiğinde olmadığı için otomatik gelmiyor.
+    # ÖLÇÜM: ton kayması 0,6° · pay 12,7 · S 0,43
+    "berar":                   ("İmâdşâhî Sultanlığı (Berâr)",       "#9090fc"),
     "kalikut":                 ("Kalikut Zamorinliği",               "#428a36"),
     "travankur":               ("Travankur Krallığı",                "#723cc6"),
     "kandy":                   ("Kandy Krallığı (Seylan)",           "#a23cc6"),
@@ -1037,9 +1054,13 @@ PAYLASIM = {
     "#7b1fa2": ("Asya partisi — sidamo ile paylaşımlı",
                 ["sidamo", "brunei-sultanligi", "cungar", "konbaung",
                  "ryukyu", "yakub-beg"]),
-    "#636f03": ("Asya partisi — siena ile paylaşımlı",
+    # 🟢 BEYAN GÜNCELLENDİ — `toungoo` çıktı denetimi yüzünden #545d2d'ye
+    #   taşındı (qing-hanedani ile çizili gövdeleri değiyordu). Kalan beşi
+    #   birbirine değmiyor; paylaşım meşru.
+    "#636f03": ("Asya partisi — siena ile paylaşımlı (toungoo 2026-08-03'te "
+                "çıktı denetimiyle ayrıldı)",
                 ["siena", "behmeni", "qing-hanedani", "sulu-sultanligi",
-                 "toungoo", "yuan-hanedani"]),
+                 "yuan-hanedani"]),
     "#00acc1": ("kavalali↔turkmen (Oturum 16) + Asya partisi",
                 ["turkmen", "kavalali", "delhi-sultanligi",
                  "ingiliz-hindistani", "ingiliz-malaya"]),

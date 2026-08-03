@@ -1656,3 +1656,91 @@ ek3 çıkarılınca DOĞAN çift: 1 → ceneviz ↔ lehistan (ΔE 21,34, Kerç �
 Yani "+2 yeni çift" ile "toplam +1" arasındaki fark bu. Diff yorumlanırken
 **iki yön birden** okunmalı; tek yön okunursa nokta eklemenin etkisi olduğundan
 büyük görünür.
+
+---
+---
+
+# PARTİ 11 — "PETEK AYAKTA MI" · koşuyu beklemeden ölçülen kısım
+
+MOTOR 3'ün sorusunun **geometri ayağı koşu çıktısına bağlı değil**: Voronoi
+hücresi ve kara maskesi kesişimi bugünkü veriden hesaplanabilir. Ölçüldü —
+bugün eklenen **40 noktanın hepsi** için ham hücre → kara payı.
+
+## ① SONUÇ: %60 altındaki 15 noktanın **15'i de KIYIDA**
+
+```
+✗ %10 altı (7)   Balaklava 0,9 · Safi 2,8 · Yalta 5,5 · Boğaziçi 5,7
+                 Sudak 6,4 · Mazagan 6,9 · Mersa'l-Kebîr 8,9
+⚠ %10-60 (8)     Aluşta 21,3 · Gözleve 23,3 · İnkirman 28,3 · Karabiga 34,1
+                 Sebte 35,8 · Arzila 38,5 · Azemmûr 44,8 · Eski Kırım 55,3
+✓ %60+ (25)      Melîle 62,3 … Vâdî Sirhân · Teymâ · Hamâd · Tedmür  %100
+```
+🔴 **Korelasyon tam: %60 altındaki her nokta `liman` ya da kıyı `kale`si;
+%100 çıkan her nokta iç bölgede (`sehir`/`bolge`).** Tesadüf değil, sebep.
+
+## ② VE BU, "KUSUR" DEĞİL — sınıf ayrımı gerekiyor
+
+Ceuta bugün **18,5 km²**dir. Peteğinin 4.345 km² olması *yanlış* olurdu;
+145 km² zaten cömert. Balaklava bir liman burnudur. Yani:
+
+> **Kıyı presidiosu için KÜÇÜK petek DOĞRU cevaptır.**
+
+⇒ MOTOR 3'ün `%10 altı → maddeleri haritada GÖRÜNMEZ` bayrağı **iki ayrı
+şeyi birleştiriyor**:
+```
+① geometrik doğruluk  — petek küçük çünkü YER küçük        ✓ doğru
+② etiket görünürlüğü  — poligon küçük olduğu için yazı çizilmiyor  ← SORUN
+```
+İkincisinin çaresi nokta ya da yaslama DEĞİL, **asgarî etiket/işaretçi
+kuralı** — yani ARAYÜZ'ün işi. Koordinatörün `geometri → SENDE ·
+kronoloji → BENDE` ayrımına **üçüncü bir kutu** gerekiyor: `gösterim → ARAYÜZ`.
+
+## 🔴 ③ AMA SEBTE'DE BİR UYUŞMAZLIK VAR — ve sebebi kodda yazılı
+
+```
+benim ölçümüm   ham Voronoi 12.066 km² → kara payı 4.323 km²
+MOTOR 3         ham hücre    4.345 km² → kalan petek  145 km²
+```
+Kara payım (4.323) motorun **ham** hücresine (4.345) neredeyse eşit. Yani
+motorun raporladığı kayıp **kara kesiminden ÖNCE** olmuş.
+
+`uret_petek.py` sırası: Voronoi → **yaslama** → Chaikin → coverage_simplify
+→ kıyı kesimi (satır 709, EN SON) → ada kuralı.
+⇒ Kara kesimi son adım olduğuna göre, 4.345 → 145 kaybı **yaslamada** oluyor.
+
+**ADA KURALI ELENDİ** — ölçtüm: Sebte, Tanca, Melîle, Balaklava, Eperjes ve
+Mazagan'ın **altısı da aynı kara bileşeninde** (#2, Afro-Avrasya). Ceuta ayrı
+bir ada/parça değil.
+
+### Kalan tek aday: yaslama yarıçapı
+```
+nehir 0,30° ≈ 33 km · sırt 0,35° ≈ 39 km · KORUMA_PAYI 0,06° ≈ 6,7 km
+Sebte'nin komşuları: Cebelitarık 28 km · Tanca 45 km
+⇒ hücrenin yarıçapı yaslama yarıçapıyla AYNI MERTEBEDE, ve Rif sırtı tam orada
+```
+`uret_petek.py:503` bu çöküşü **Estergon ve Solnok için zaten belgelemiş**
+("sınır şehrin kendi üstüne çöküyor ve petek yok oluyor"). Konan koruma
+(`KORUMA_PAYI`) sınırın **yerleşimin üstüne** çekilmesini engelliyor — ama
+**küçük bir hücrenin tümden yutulmasını** engellemiyor.
+
+🔴 **BULGU (MOTOR 3'e):** yaslama yarıçapının hücre boyutuyla ilişkisi YOK.
+Yarıçapı hücrenin kendi yarıçapının bir oranıyla sınırlamak (ör. yarısı)
+Estergon yamasının genelleştirilmiş hâli olur.
+⚠️ Bu bir **hipotez**: kodla ve sayılarla tutarlı, ama kesinleşmesi için
+koşunun `PETEK_TAM` ↔ `PETEK_D` alanları gerekiyor. Ben ölçemem, MOTOR ölçer.
+
+## ④ EPERJES AYRI — ve asıl endişe orada haklı
+`Eperjes %2,4` **iç bölgede** (Slovakya). Kıyı kesimiyle de ada kuralıyla da
+açıklanamaz ⇒ **yaslama çöküşünün saf örneği**, ve Torysa nehri üstünde.
+📌 `CLAUDE.md §3.5.1`in "Yukarı Macaristan ~28.000 km² 91 yıl" kapanışı
+**bu yüzden tutmamış olabilir** — nokta eklendi, peteği yaslamada eridi.
+Koordinatörün endişesi yerinde; bu benim partim değil ama sınıfı aynı.
+
+## 📌 DOKUZUNCU KONTROL ÖNERİSİ
+Sekiz kontrolün dokuzuncusu: **"eklenen noktanın peteği ayakta mı"**
+```
+ham hücre → kalan petek oranı  ·  ✓ >%60  ⚠ %10-60  ✗ <%10
+ve <%10 çıkan her nokta için SEBEP: kıyı / ada kuralı / yaslama / komşu
+```
+⚠️ Ama eşik `tur:`e göre olmalı — `liman` için %10 normal, `sehir` için alarm.
+Bugünkü tek eşik kıyı noktalarını haksız yere suçlu gösteriyor.

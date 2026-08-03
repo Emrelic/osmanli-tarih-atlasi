@@ -413,17 +413,160 @@ yolunda ölümü."
 
 ---
 
-## Durum
+## 12) I. Ahmed — 836/900
+
+```javascript
+{ id:"ahmed1", ad:"I. Ahmed", from:"1603-12", to:"1617-11",
+  dogum:"1590-04-28", dogum_yer:"Manisa",
+  olum:"1617-11-22", olum_yer:"İstanbul", olum_sebep:"mide hastalığı, 28 yaşında",
+  baba:"III. Mehmed", anne:"Handan Sultan",
+  tahta:"1603-12-22", saltanat_yil:14,
+  esler:["Kösem Sultan (Mahpeyker)","Mahfiruz Hatun"],
+  ovgu:"Sultanahmet Camii ve külliyesini yaptırdı; kardeş katli "
+    + "yerine 'ekberiyet' usulünü (hanedanın en yaşlı üyesinin tahta "
+    + "geçmesi) ve kafes usulünü getirerek şehzadelerin idamını kalıcı "
+    + "biçimde sona erdirdi.",
+  yergi:"Saltanatı boyunca Celâlî isyanları Anadolu'yu harap etti, "
+    + "köyler boşaldı, vergi geliri çöktü; Zsitvatorok Antlaşması "
+    + "(1606) Habsburg'lardan alınan haracı kaldırıp padişahla "
+    + "imparatoru eşit sayarak Osmanlı üstünlüğünü sona erdirdi.",
+  tartisma:"Getirdiği kafes usulü kardeş katlini kaldırdı ama sonraki "
+    + "padişahları tecrübesizlik ve tecritle zayıflattı — bir çözüm mü "
+    + "yeni bir sorun mu, tarihçiler arasında tartışılır.",
+  tarihciler:"Klasik anlatı onu ekberiyet/kafes reformuyla anar; "
+    + "modern araştırmalar bu reformun kısa vadede kardeş katlini "
+    + "bitirirken uzun vadede padişah otoritesini nasıl zayıflattığını "
+    + "(I. Mustafa, İbrahim gibi tecrübesiz hükümdarlar) sorgular.",
+  kaynak:"TDV: ahmed-i" }
+```
+✅ **vefat_id çapası TEMİZ:** `olaylar.js` "I. Ahmed'in ölümü ve I.
+Mustafa'nın cülûsu — ekberiyet usulü."
+
+---
+
+## 13) II. Osman (Genç Osman) — 823/900
+
+```javascript
+{ id:"osman2", ad:"II. Osman (Genç)", from:"1618-02", to:"1622-05",
+  dogum:"1604-11-03", dogum_yer:"İstanbul",
+  olum:"1622-05-20", olum_yer:"Yedikule, İstanbul",
+  olum_sebep:"isyancı yeniçeriler tarafından boğularak katledildi",
+  baba:"I. Ahmed", anne:"Mahfiruz Hatun",
+  tahta:"1618-02-26", saltanat_yil:4,
+  ovgu:"14 yaşında tahta çıkıp yeniçeri ocağını ıslah etmeye ve "
+    + "devlet yönetimini yeniden düzenlemeye girişti; ata biniciliği "
+    + "ve silah kullanımında becerikliydi.",
+  yergi:"Çağdaş kaynaklar tecrübesizliğini, sert mizacını ve "
+    + "'hükümdarlara yakışan vakarı taşımadığını' vurgular — sıradan "
+    + "kılıkla meyhanelere gittiği, bu yüzden otoritesini zedelediği "
+    + "anlatılır.",
+  tartisma:"Hac niyetiyle çıkmak istediği sefer isyanı tetikledi ve "
+    + "isyancılar onu at üstünde ağır hakaretlerle dolaştırıp "
+    + "Yedikule'de boğdu. Modern tarihçilik onu ROMANTİZE EDİLMİŞ bir "
+    + "'reformcu şehit' anlatısından ayırıp, kontrolü yeniden ele "
+    + "geçirmeye çalışan genç ve yalnız bir hükümdar olarak yeniden "
+    + "değerlendiriyor.",
+  tarihciler:"Klasik anlatı onu yeniçeri zulmüne kurban giden bir "
+    + "reformcu sayar; modern araştırmalar bu romantize edilmiş imajı "
+    + "sorgulayıp tecrübesizliğinin isyanı nasıl beslediğini vurgular.",
+  kaynak:"TDV: osman-ii" }
+```
+✅ **vefat_id çapası TEMİZ:** `olaylar.js` "II. Osman'ın katli
+(Hâile-i Osmâniye)."
+
+---
+
+## 14) Sultan İbrahim — 803/900
+
+⚠️ **Slug tuzağı yaşandı, kayıt düşülüyor:** `ibrahim`, `ibrahim-i`,
+`ibrahim--osmanli` ÜÇÜ DE ya arama sayfası ya da BAŞKA bir İbrahim'e
+(Ağlebî hânedanı kurucusu!) düşüyordu. Doğru slug aramadan bulundu:
+**`ibrahim--padisah`**. CLAUDE.md'nin "ölü slug tuzağı" listesine
+eklenmeye değer bir vaka daha.
+
+```javascript
+{ id:"ibrahim", ad:"Sultan İbrahim", from:"1640-02", to:"1648-08",
+  dogum:"1615-11-04", olum:"1648-08-08", olum_yer:"İstanbul",
+  olum_sebep:"hal' sonrası idam",
+  baba:"I. Ahmed", anne:"Kösem Sultan",
+  tahta:"1640-02-09", saltanat_yil:8,
+  esler:["Turhan Hatice Sultan"],
+  ovgu:"Erken saltanat yılları Kemankeş Mustafa Paşa'nın "
+    + "sadrazamlığında görece istikrarlıydı; kişisel mektupları devlet "
+    + "işleriyle ilgilendiğini gösterir — sonradan yerleşen 'Deli "
+    + "İbrahim' imajının aksine.",
+  yergi:"Girit seferi (1645 sonrası) devlet kaynaklarını ağır "
+    + "biçimde tüketti; 1645'ten sonra yönetimi Kösem Sultan, saray "
+    + "görevlileri ve hocası Cinci Hüseyin Efendi'nin etkisine büyük "
+    + "ölçüde bıraktı.",
+  tartisma:"Akıl sağlığı tarihçiler arasında TARTIŞMALI: bazıları "
+    + "gerçek bir ruhsal hastalık, bazıları geçici bir bunalım "
+    + "olduğunu savunur. TDV, sonradan yaygınlaşan 'Deli İbrahim' "
+    + "nitelemesinin kişisel yazışmalarıyla birebir örtüşmediğini "
+    + "vurgular.",
+  tarihciler:"Popüler anlatı onu akıl sağlığı bozuk, sarayın oyuncağı "
+    + "bir padişah sayar; TDV'nin aktardığı belgeler devlet işleriyle "
+    + "ilgilenen ama giderek yalnızlaşan bir hükümdar tablosu çiziyor.",
+  kaynak:"TDV: ibrahim--padisah" }
+```
+✅ **vefat_id çapası TEMİZ:** `olaylar.js` "Sultan İbrahim'in hal'i ve
+katli."
+
+---
+
+## 15) II. Mahmud — 807/900
+
+```javascript
+{ id:"mahmud2", ad:"II. Mahmud", from:"1808-07", to:"1839-07",
+  dogum:"1785-07-20", olum:"1839-07-01", olum_yer:"İstanbul",
+  olum_sebep:"bulunamadı — TDV özeti sebep belirtmiyor (yaygın "
+    + "anlatı verem der, doğrulanmamış)",
+  baba:"I. Abdülhamid", anne:"Nakşidil Sultan",
+  tahta:"1808-07-28", saltanat_yil:31,
+  skandal:"Kayıtlara göre 17 eşi ve 36 çocuğu vardı; çocukların çoğu "
+    + "küçük yaşta öldü — dönemin yüksek çocuk ölüm oranının hanedan "
+    + "içindeki en çarpıcı örneklerinden biri.",
+  ovgu:"1826'da Yeniçeri Ocağı'nı kaldırdı ('Vak'a-i Hayriye'), "
+    + "merkezî otoriteyi yeniden tesis etti, orduyu modernize etti, "
+    + "Hariciye Nezareti gibi yeni kurumlar ve eğitim reformları "
+    + "başlattı.",
+  yergi:"Yunan isyanı (1821) uluslararası bir krize dönüştü ve "
+    + "bağımsızlıkla sonuçlandı; Kavalalı Mehmed Ali'nin Mısır "
+    + "kuvvetlerine karşı ağır yenilgiler aldı, toprak kaybetti. "
+    + "Kuruşun gümüş oranı on devalüasyonla yüzde 80 düştü.",
+  tartisma:"Reformlarının hızı ve sertliği (Yeniçeri Ocağı'nın topa "
+    + "tutularak dağıtılması) tarihçiler arasında hâlâ tartışılır: "
+    + "bazıları zorunlu bir modernleşme adımı, bazıları aşırı kanlı "
+    + "bir yöntem sayar.",
+  tarihciler:"Klasik anlatı onu Tanzimat'ın habercisi bir "
+    + "modernleşme mimarı sayar; modern değerlendirmeler aynı dönemde "
+    + "yaşanan toprak ve prestij kayıplarını (Yunanistan, Mısır) "
+    + "reform başarısının karşı ağırlığı olarak okur.",
+  kaynak:"TDV: mahmud-ii--osmanli" }
+```
+✅ **vefat_id çapası TEMİZ — gövdesi de okundu:** `olaylar_ek4.js:232`
+"II. Mahmud'un ölümü, Abdülmecid'in cülûsu" — gövde ("Otuz bir yıllık
+saltanatı boyunca ... en büyük hasmını yenemeden vefat etti. Yerine on
+altı yaşındaki oğlu Abdülmecid geçti.") baştan sona kendisi hakkında,
+halefe geçiş yalnız SON cümlede ve tek satır — Fatih/V. Mehmed'deki gibi
+ağırlık kaymıyor.
+
+---
+
+## Durum — 🔴 15'TE DURULDU (koordinatörün talimatı)
 
 ```
-Çapası TEMİZ (7)   Kanunî · I. Murad · Yıldırım Bayezid · II. Selim ·
-                   IV. Murad · III. Selim · Osman Gazi · II. Bayezid
-                   (8 yazdım ama Osman Gazi'de bir inceliğe dikkat: kart
-                   olum:"1324-08-01"e bağlanır, to:"1326-04"e değil)
+Çapası TEMİZ (12)  Kanunî · I. Murad · Yıldırım Bayezid · II. Selim ·
+                   IV. Murad · III. Selim · Osman Gazi · II. Bayezid ·
+                   I. Ahmed · Genç Osman · Sultan İbrahim · II. Mahmud
+                   (Osman Gazi'de incelik: kart olum:"1324-08-01"e
+                   bağlanır, to:"1326-04"e değil)
 İnce madde (1)     Fatih — madde yeniden yazılınca bağlanır
 Gerçek eksik (2)   Yavuz · II. Abdülhamid — yeni madde ister
-KAYNAKSIZ (1)      Orhan Gazi — TDV'de müstakil madde YOK (üç slug + arama
-                   denendi), akademik kaynak gerekiyor — içerik oturumunun işi
+KAYNAKSIZ (1)      Orhan Gazi — TDV'de müstakil madde YOK, akademik
+                   kaynak gerekiyor — içerik oturumunun işi (ÇAPRAZ İBERYA)
 ```
-11/26 yazıldı. Sıradaki (tanınırlık sırası devam): I. Ahmed, II. Mahmud,
-Genç Osman, Sultan İbrahim, III. Ahmed, III. Murad…
+**15/26 yazıldı, burada duruyorum.** 12'si ŞİMDİ bağlanabilir (çapası
+hazır). Kalan 11 (Yavuz, II. Abdülhamid dahil) koordinatörün yazacağı 8
+yeni madde + Fatih'in "ince madde" düzeltmesini bekliyor — o gelince
+devam.
