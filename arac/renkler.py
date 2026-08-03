@@ -96,7 +96,8 @@ def _opaklik_dogrula():
 _opaklik_dogrula()
 
 BOYALAR = {
-    "bizans":     ("Bizans",                 "#8877b8"),
+    # ↑ Anadolu kümesi (bkz. `candar` üstündeki blok) · ton kayması  1,6°
+    "bizans":     ("Bizans",                 "#4e3c81"),
     "memluk":     ("Memlûk",                 "#c9a15b"),
     # 🔴 KAHVEDEN MOR AİLEYE ÇEKİLDİ (RENK oturumu, 2 Ağustos 2026; koordinatör
     # onayı + kullanıcı kuralı). Eski #b5885b kahveydi.
@@ -264,17 +265,49 @@ BOYALAR = {
     "yunanistan": ("Yunanistan",             "#6b9ec9"),
     "romanya":    ("Romanya",                "#c9b56b"),
     "karadag":    ("Karadağ",                "#9e8f6b"),
-    "yemen":      ("Yemen İmamlığı",         "#b5a05b"),
+    # ═══ KIZILDENİZ/HABEŞ/ARABİSTAN KÜMESİ — 11 renk BİRLİKTE değişti ═══
+    # (RENK oturumu, 2026-08-03 · koordinatör onaylı · üç turda çözüldü)
+    #
+    # 🔴 KÖK SEBEP: bu köşede ON BİR yakın-nötr toprak tonu yan yana duruyordu
+    # ve aralarında ON YEDİ çakışma vardı (en kötüsü hicaz↔sammar ΔE 0,8 —
+    # pratikte AYNI RENK). Üstelik BEŞİ aynı zamanda GÖRÜNMEZDİ (altlıktan
+    # ΔE < 15). Baltık'ta çözülen sorunun aynısı, iki katı büyüklükte.
+    # Köprüler SABİT tutuldu: `memluk` (Anadolu+Tunus'a bağlı) · `italya`.
+    #
+    # ⚠️ İLK İKİ TURUM REDDEDİLDİ, ikisi de kendi kusurumdu:
+    #   tur 1  eşik 15 (gerekli 12) + ton cezası 0,05 (en düşük)
+    #          → ortalama ton kayması 62,5°, aile korunan 6/11.
+    #          "Kimliği savurmak da bir maliyet" yazıp cezayı en düşük ayarda
+    #          bırakmışım; üç puanlık pay karşılıksız harcanıyordu.
+    #   tur 2  ton cezası yükseltildi → DOYGUNLUK denetimden çıktı:
+    #          `hicaz` S 0,08 ile GRİYE düştü (aynı gün `almanya` için
+    #          "gri = veri yok" kuralını yazmıştım) ya da S 1,00'e fırladı.
+    #   tur 3  doygunluk YUMUŞAK CEZADAN SERT SINIRA çevrildi (0,20 ≤ S ≤ 0,90)
+    # 📌 DERS (üçüncü tekrarı, `babur` ve `hicaz` ile birlikte):
+    #   HER ZAMAN GEÇERLİ OLMASI GEREKEN ÖLÇÜT, CEZA DEĞİL SÜZGEÇ OLMALI.
+    #   Ceza pazarlık eder, süzgeç etmez.
+    #
+    # 🔴 VE "BÖLGENİN TOPRAK KİMLİĞİ KORUNAMAZ" HÜKMÜM YANLIŞ ÇIKTI:
+    #   korunabiliyor. On birin ON BİRİ kendi ton ailesinde kalıyor
+    #   (ortalama kayma 11,4°) VE 17 çakışmanın 17'si kapanıyor VE beşi
+    #   görünür oluyor. Hükmü ölçmeden vermiştim.
+    #
+    # ÖLÇÜM: eşik 12 (kapanmanın istediği; tavan 18 idi, ZORLANMADI) ·
+    #   17/17 kapandı · altlıktan en dar 15,4 · doygunluk aykırısı 0
+    "yemen":      ("Yemen İmamlığı",         "#9fb454"),
     "umman":      ("Umman",                  "#5b9e8f"),
-    "suud":       ("Suûdî / Vehhâbî",        "#8f9e5b"),
-    "sammar":     ("Şammar (Hâil)",          "#a0885b"),
+    # ↑ Kızıldeniz kümesi (bkz. `yemen` üstündeki blok) · kayma  5,6° · pay 14,0 · altlık 27,8
+    "suud":       ("Suûdî / Vehhâbî",        "#304b0f"),
+    # ↑ Kızıldeniz kümesi (bkz. `yemen` üstündeki blok) · kayma 11,0° · pay 14,3 · altlık 26,4
+    "sammar":     ("Şammar (Hâil)",          "#ba6f15"),
     # TDV ASÎR: Mondros'tan sonra bölge Osmanlı idaresinden çıktı; Ebhâ'da
     # Hasan b. Muhammed Âiz'in emirliği kaldı, 1920'de Abdülazîz b. Suûd
     # Ebhâ'yı zaptetti. Bu 15 ay yazılı olmadığı için Asîr yaylası boştu.
     "aiz":        ("Âiz Emirliği (Ebhâ)",     "#00897b"),
     # Lahsa 1670'te Benî Hâlid'e kaybedildi, 1795'te Suûî́lere geçti; arada
     # hiçbir sahip yazılı olmadığı için bölge haritada boş kalıyordu.
-    "benihalid":  ("Benî Hâlid Emirliği (Lahsa)", "#8a9440"),
+    # ↑ Kızıldeniz kümesi (bkz. `yemen` üstündeki blok) · kayma 18,8° · pay 14,0 · altlık 16,3
+    "benihalid":  ("Benî Hâlid Emirliği (Lahsa)", "#729f6f"),
     # Benî Hâlid'den ÖNCEKİ üç yüzyıl da boştu — daha doğrusu `iran` yazıyordu.
     # Kullanıcının kendi gözlemi (parti-0001/H-0001): "Arabistan yarımadasında
     # da iran diye bölgeler var." Doğu Arabistan hiçbir dönemde İran değildi.
@@ -288,7 +321,8 @@ BOYALAR = {
     # 🟡 İNCELTİLECEK: Cülfâr limanının Hürmüz Krallığı'na tâbiiyeti
     #    literatürde var ama TDV'de ayrı madde yok — kaynaklanınca ayrılır.
     "nebhani":    ("Nebhânîler (Uman)",      "#a0326b"),
-    "hicaz":      ("Hicaz Krallığı",         "#9e8a5b"),
+    # ↑ Kızıldeniz kümesi (bkz. `yemen` üstündeki blok) · kayma 22,5° · pay 14,3 · altlık 28,1
+    "hicaz":      ("Hicaz Krallığı",         "#78360c"),
     # Doha'nın 1913-1916 arası 1193 günlük sahipsizliğini kapatan kimlik
     # (Değişmez 1b'nin tek açık boşluğuydu). 29 Temmuz 1913 Osmanlı-İngiliz
     # mukavelesi Osmanlı'yı Katar'dan çekiyor, 3 Kasım 1916 İngiliz-Katar
@@ -300,10 +334,14 @@ BOYALAR = {
     # ingiltere 16,1 · umman 18,2 · sammar 25,4 · hicaz 25,5 · Osmanlı tâbi 26,4.
     # Körfezin bütün komşuları toprak/zeytin tonunda; mavi kasten seçildi.
     "katar":      ("Katar (Âl Sânî)",        "#1565c0"),
-    "funj":       ("Func (Sennâr) Sultanlığı","#7d6b4a"),
-    "habesistan": ("Habeşistan",             "#7d5b3a"),
-    "adal":       ("Adal / Harar",           "#a08f5b"),
-    "somali":     ("Somali sultanlıkları",   "#b5a06b"),
+    # ↑ Kızıldeniz kümesi (bkz. `yemen` üstündeki blok) · kayma 30,4° · pay 12,2 · altlık 15,4
+    "funj":       ("Func (Sennâr) Sultanlığı","#a28184"),
+    # ↑ Kızıldeniz kümesi (bkz. `yemen` üstündeki blok) · kayma  0,6° · pay 12,2 · altlık 25,6
+    "habesistan": ("Habeşistan",             "#4e3f39"),
+    # ↑ Kızıldeniz kümesi (bkz. `yemen` üstündeki blok) · kayma  5,2° · pay 12,0 · altlık 25,9
+    "adal":       ("Adal / Harar",           "#786c0c"),
+    # ↑ Kızıldeniz kümesi (bkz. `yemen` üstündeki blok) · kayma  0,1° · pay 12,0 · altlık 18,2
+    "somali":     ("Somali sultanlıkları",   "#847245"),
     # --- Darfur ve güney Habeş krallıkları (Oturum 16, 2026-07-30) ---
     # Bunlar renkler.py'de tanımsız olduğu için üretim her koşuda 12 satır
     # "UYARI boya: … bilinmeyen devlet kimliği" basıyordu ve dört Darfur
@@ -346,9 +384,11 @@ BOYALAR = {
     "milanoduka":   ("Milano Dukalığı",        "#7986cb"),
     # Hartum 1885'te düştükten sonra Sudan 14 yıl Mehdî Devleti'ndeydi;
     # yazılı olmadığı için bölge o pencerede haritada boş kalıyordu.
-    "mehdi":        ("Mehdî Devleti (Sudan)",  "#4e342e"),
+    # ↑ Kızıldeniz kümesi (bkz. `yemen` üstündeki blok) · kayma  0,1° · pay 20,2 · altlık 15,6
+    "mehdi":        ("Mehdî Devleti (Sudan)",  "#e19c69"),
     # --- Func Sultanlığı'ndan (1504) önceki Hıristiyan Nûbe krallıkları ---
-    "nube":         ("Nûbe krallıkları (Makurya-Alve)", "#6d4c41"),
+    # ↑ Kızıldeniz kümesi (bkz. `yemen` üstündeki blok) · kayma 14,2° · pay 16,6 · altlık 26,5
+    "nube":         ("Nûbe krallıkları (Makurya-Alve)", "#cf5d33"),
     # --- Orta Asya (Oturum 11) — Hazar doğusu ve Harezm ---
     # Çağatay Hanlığı 1227-1370; Timurlu'nun selefi. Hîve (Harezm) 1511-1920 ve
     # Buhara 1500-1920 Özbek hanlıkları. Türkmen boyları çoğu zaman devletsizdi;
@@ -365,7 +405,8 @@ BOYALAR = {
     # beylikler yanlış; hepsi 1281'de başlıyordu, gerçek kuruluşları onlarca yıl
     # sonra. Doğru tarihlere çekilince yerlerini bu devletler dolduruyor.) ---
     # TDV: Anadolu Selçuklu Devleti 1308'de sona erdi (II. Mesud'un ölümü).
-    "selcuklu":     ("Anadolu Selçukluları",  "#c2185b"),
+    # ↑ Anadolu kümesi (bkz. `candar` üstündeki blok) · ton kayması  0,2°
+    "selcuklu":     ("Anadolu Selçukluları",  "#d878a8"),
     # Trabzon Rum İmparatorluğu 1204-1461, Komnenos hanedanı — Bizans'tan AYRI.
     # 🔴 DEĞİŞTİ (RENK oturumu, 2 Ağustos). Eski #00838f `dulkadir` ile BİREBİR
     # AYNI hex'ti (ΔE 0,0) ve dönemleri örtüşüyor (1337-01-01 → 1350-01-01).
@@ -385,27 +426,60 @@ BOYALAR = {
     #   · ham doygunluk S 0,48 = paletin MEDYANI
     "trabzon-rum":  ("Trabzon Rum İmparatorluğu", "#63bdc0"),
     # Kilikya Ermeni Krallığı 1198-1375; Çukurova'nın Ramazanoğulları öncesi sahibi.
-    "kilikya-ermeni": ("Kilikya Ermeni Krallığı", "#5e35b1"),
+    # ↑ Anadolu kümesi (bkz. `candar` üstündeki blok) · ton kayması  0,3°
+    "kilikya-ermeni": ("Kilikya Ermeni Krallığı", "#a26fff"),
     # --- Anadolu beylikleri (Osmanlı kuruluş coğrafyasının fetih öncesi sahipleri) ---
-    "karaman":    ("Karamanoğulları",         "#4527a0"),
+    # ↑ Anadolu kümesi (bkz. `candar` üstündeki blok) · ton kayması  0,1°
+    "karaman":    ("Karamanoğulları",         "#5133ab"),
     # Eski #8f6b3a Ceneviz'e (#8a6b4a) ΔE 9.5, Hamîd'e 12.8, Ahi'ye 14.5 mesafedeydi.
     # Germiyan sahnede 15 devletle sınırdaş — Anadolu'nun en kalabalık köşesi.
-    "germiyan":   ("Germiyanoğulları",        "#3d748f"),
-    "aydin":      ("Aydınoğulları",           "#4a8f7d"),
+    # ↑ Anadolu kümesi (bkz. `candar` üstündeki blok) · ton kayması  0,2°
+    "germiyan":   ("Germiyanoğulları",        "#3cc3db"),
+    # ↑ Anadolu kümesi (bkz. `candar` üstündeki blok) · ton kayması  0,0°
+    "aydin":      ("Aydınoğulları",           "#488d7b"),
     # Eski #6b8f4a, 60 km ötedeki Karesi'ye (#6b9e5b) ΔE 7.5 idi — iki beylik
     # haritada tek gövde gibi görünüyordu.
     "saruhan":    ("Saruhanoğulları",         "#b34da5"),
     # Eski #3a7d8f, Venedik'in turkuazına (#4a8a8f) ΔE 9.2 idi; Ege'de ikisi
     # sürekli yan yana duruyor. Venedik köklü renk olduğu için Menteşe taşındı.
     "mentese":    ("Menteşeoğulları",         "#83b34d"),
-    "hamid":      ("Hamîdoğulları",           "#8f7d3a"),
+    # ↑ Anadolu kümesi (bkz. `candar` üstündeki blok) · ton kayması 17,8°
+    "hamid":      ("Hamîdoğulları",           "#6f8448"),
     # TDV TEKEOĞULLARI: Hamîdoğulları'ndan ayrılan kol; Dündar Bey'in fethinden
     # sonra Antalya kardeşi Yûnus Bey'e verildi (~1321) ve ayrı beylik doğdu.
     # Antalya bu tarihten sonra Hamîd değil TEKE toprağıdır.
-    "teke":       ("Tekeoğulları",            "#b58f2d"),
-    "candar":     ("Candaroğulları",          "#5b6b9e"),
+    # ↑ Anadolu kümesi (bkz. `candar` üstündeki blok) · ton kayması  0,0°
+    "teke":       ("Tekeoğulları",            "#574212"),
+    # ═══ ANADOLU BEYLİKLERİ KÜMESİ — 15 renk BİRLİKTE değişti ═══
+    # (RENK oturumu, 2026-08-03 · koordinatör onaylı · ①'den SONRA yeniden ölçüldü)
+    #
+    # 🔴 KÖK SEBEP: Anadolu'nun küçük ve bitişik gövdeleri birbirinden
+    # ayrışmıyordu — 17 çakışma (en kötüsü karaman↔kilikya-ermeni ΔE 3,3).
+    # Köprüler SABİT: `memluk` · `altinorda` · `napoli` · `arnavutluk` · `timurlu`.
+    # `memluk`un iki köprü çakışması (memluk↔teke · hamid↔memluk) BURADA kapandı —
+    # çünkü teke ve hamid oynadı, memluk kıpırdamadı.
+    # 📌 KURAL (iki bağımsız vakayla ayakta): köprüyü sabit tutmak, ona bağlı
+    #   çakışmaları kapatmayı ENGELLEMİYOR — yalnız köprünün ÖTEKİ ucunu
+    #   bozmamayı garanti ediyor.
+    #
+    # 🟢 SARSINTI NEREDEYSE SIFIR: ortalama ton kayması 1,5° · 15/15 kimlik
+    #   ±20° içinde. `teke` · `aydin` tonlarını BİREBİR koruyor.
+    # 📌 NEDEN BU KADAR UCUZ (① 11,4° idi): bu kümenin hiçbiri GÖRÜNMEZ değildi.
+    #   Yalnız birbirlerinden ayrışmaları gerekiyordu ve bu, tonu hiç
+    #   değiştirmeden parlaklık/kroma ile çözülüyor.
+    #   ⇒ GENELLEME: GÖRÜNMEZLİK TONU ZORLAR, ÇAKIŞMA ZORLAMAZ.
+    #
+    # ⚠️ `selcuklu` SONRADAN EKLENDİ: kendi çakışma listem onu KAÇIRMIŞTI.
+    #   Betiğim yalnız kimlik↔kimlik bakıyordu; `denetle()` OSMANLI ikilisine de
+    #   bakıyor ve `selcuklu ↔ OSMANLI tâbi` ΔE 9,8'i orada yakaladı.
+    #   📌 "Denetimin kapsamı da bir ölçüdür" — yanlış kümeye bakan denetim
+    #   yanlış cevabı kendinden emin verir. Bu, o dersin üçüncü tekrarı.
+    #
+    # ÖLÇÜM: eşik 12 · 17/17 kapandı · altlıktan en dar 18,9 · doygunluk aykırısı 0
+    "candar":     ("Candaroğulları",          "#7896ff"),
     "dulkadir":   ("Dulkadiroğulları",        "#00838f"),
-    "ramazanoglu":("Ramazanoğulları",         "#33691e"),
+    # ↑ Anadolu kümesi (bkz. `candar` üstündeki blok) · ton kayması  0,4°
+    "ramazanoglu":("Ramazanoğulları",         "#2d483c"),
     "karesi":     ("Karesioğulları",          "#6b9e5b"),
     "katalan":    ("Katalan Dukalığı (Atina-Neopatras)", "#9e8f3a"),
     # --- Fetret Devri (1402-1413): şehzade payları ---
@@ -431,9 +505,12 @@ BOYALAR = {
     # ⚠️ Orta Anadolu renkleri kasten doygun seçildi: önceki toprak tonları
     # (#a08a6b / #9e8a6b) arazi kabartma katmanının beji ile karışıyor ve
     # "Ankara civarında kimse yok" görüntüsü veriyordu.
-    "ilhanli":    ("İlhanlı Devleti",         "#7a5ba0"),
-    "eretna":     ("Eretna Beyliği",          "#3f8f6b"),
-    "burhaneddin":("Kadı Burhâneddin Devleti","#455a64"),
+    # ↑ Anadolu kümesi (bkz. `candar` üstündeki blok) · ton kayması  0,4°
+    "ilhanli":    ("İlhanlı Devleti",         "#9f66c3"),
+    # ↑ Anadolu kümesi (bkz. `candar` üstündeki blok) · ton kayması  0,2°
+    "eretna":     ("Eretna Beyliği",          "#5dc38a"),
+    # ↑ Anadolu kümesi (bkz. `candar` üstündeki blok) · ton kayması  0,6°
+    "burhaneddin":("Kadı Burhâneddin Devleti","#155412"),
     "artuklu":    ("Artukoğulları",           "#6b8a9e"),
     "ahiler":     ("Ahi Birliği (Ankara)",    "#8f7d5b"),
     # --- kullanıcının sorduğu, haritada temsili olmayan beylikler ---
@@ -441,10 +518,12 @@ BOYALAR = {
     # Eski #3a6b9e, komşusu Candaroğulları'na (#5b6b9e) ΔE 8.6 idi; Kastamonu ile
     # Sinop 135 km arayla iki ayırt edilemez mavi gövdeydi.
     "pervane":        ("Pervâneoğulları",      "#70c28b"),
-    "esrefogullari":  ("Eşrefoğulları",        "#b5548f"),
+    # ↑ Anadolu kümesi (bkz. `candar` üstündeki blok) · ton kayması  0,1°
+    "esrefogullari":  ("Eşrefoğulları",        "#8a3069"),
     "inancogullari":  ("İnançoğulları",        "#5b4ab5"),
     "sahibata":       ("Sâhib Ataoğulları",    "#8f9e2d"),
-    "taceddin":       ("Tâceddinoğulları",     "#2d8f4a"),
+    # ↑ Anadolu kümesi (bkz. `candar` üstündeki blok) · ton kayması  0,3°
+    "taceddin":       ("Tâceddinoğulları",     "#1b8d36"),
     # TDV ALÂİYE BEYLİĞİ: 1293'te Karamanoğlu Mecdüddin Mahmud Bey'in eline geçti,
     # o tarihten 1471'de Gedik Ahmed Paşa'nın kuşatmasına kadar kendi bey soyuyla
     # yönetildi. Haritada Karaman'ın içinde eriyordu; ayrı renk verildi.
@@ -898,3 +977,121 @@ BOYALAR = {
     #   o koşuda görünmez/çakışma sayıları ARTMAMALI.
     "teodoro":                 ("Theodoro Prensliği (Mankup)",       "#42ba42"),
 }
+
+
+# ═══════════════════ KASITLI HEX PAYLAŞIMLARI ═══════════════════
+# 🔴 NEDEN VAR (RENK oturumu, 2026-08-03):
+#   13 hex, 55 kimlik tarafından paylaşılıyor. ÖLÇÜLDÜ: 13'ünün 13'ü de
+#   KASITLI (0 tesadüf) — kanıt üç bağımsız izden geldi: girdinin üstündeki
+#   yorumda "paylaş" geçiyor · öteki üyeyi ADIYLA anıyor · dosya başındaki
+#   2026-07-30 "PAYLAŞILAN HEX DENETİMİ" listesinde.
+#   AMA kasıt yalnız DÜZ YAZIDA duruyordu ve hiçbir denetim onu tutmuyordu.
+#   ⇒ Biri oynatılınca ötekiler İZLEMİYOR, paylaşım SESSİZCE bozuluyor,
+#     gerekçe kütüğü bayatlıyor ve sonraki okuyan yanılıyor.
+#   Canlı vaka: `timurlu` üçüncü partide oynatılacaktı; #8d6e63'ü paylaşan
+#   `kamboc-kralligi` ve `vijayanagara` onu izlemeyecekti — kimse fark etmezdi.
+#
+# 📌 `_opaklik_dogrula()` ile AYNI DESEN: örtük/kopyalanmış bir bilgi sessizce
+#   ayrışabiliyorsa, ayrışmayı IMPORT ANINDA bağıran bir denetim koy.
+# ⚠️ ŞEMA DEĞİŞMİYOR: uret_petek.py `for did,(dad,renk) in BOYALAR.items()`
+#   diye okuyor; ayrı bir sözlük onu etkilemez. MOTOR'un dosyasına dokunulmadı.
+#
+# ⚠️ NE KAPSAMAZ — bilinçli sınır:
+#   Bu sözlük BOYALAR ANAHTARLARININ hex paylaşımını tutar. `afsar`/`kacar`
+#   gibi `devletler.js` KAYITLARININ aynı `harita:` anahtarını paylaşması AYRI
+#   BİR EKSENDİR ve onu `renk_olc.ayni_anahtar()` zaten yakalıyor (bugün açık
+#   olan tek vaka: afsar 1736-1796 ↔ kacar 1789-1923, örtüşme 1789-1796).
+#   Çözümü renk değil VERİ: `yerlesimler.js`in `iran` dönemleri bölünmeli.
+# 📌 Ve ZAMANSAL ÖRTÜŞME denetimi buraya KONMADI: `devletler.js`i import anında
+#   okumak gerekirdi ve motor bu dosyayı her koşuda yüklüyor, hafif kalmalı.
+#   O denetimin yeri `renk_olc.py` — veriyi zaten orada okuyor.
+PAYLASIM = {
+    # hex: (gerekçe, [kimlikler])
+    "#6ba0a0": ("Asya partisi — zeyyani ile paylaşımlı, komşuluk yok",
+                ["zeyyani", "abd", "ayutthaya", "edo-bakufu", "kamakura",
+                 "maratha", "muromachi", "siyam-chakri"]),
+    "#00695c": ("2026-07-30 denetimi (yugoslavya/hive) + Asya partisi",
+                ["yugoslavya", "hive", "goryeo", "hollanda-dogu-hint",
+                 "joseon", "majapahit", "sih-imparatorlugu"]),
+    "#7b1fa2": ("Asya partisi — sidamo ile paylaşımlı",
+                ["sidamo", "brunei-sultanligi", "cungar", "konbaung",
+                 "ryukyu", "yakub-beg"]),
+    "#636f03": ("Asya partisi — siena ile paylaşımlı",
+                ["siena", "behmeni", "qing-hanedani", "sulu-sultanligi",
+                 "toungoo", "yuan-hanedani"]),
+    "#00acc1": ("kavalali↔turkmen (Oturum 16) + Asya partisi",
+                ["turkmen", "kavalali", "delhi-sultanligi",
+                 "ingiliz-hindistani", "ingiliz-malaya"]),
+    "#b34da5": ("Asya partisi — saruhan ile paylaşımlı",
+                ["saruhan", "mataram-sultanligi", "meysur",
+                 "nguyen-hanedani", "tibet-ganden-phodrang"]),
+    # 🟢 BEYAN GÜNCELLENDİ — self-check bunu YAKALADI (yazıldıktan ~1 saat sonra,
+    #   ilk gerçek koşusunda). `taceddin` Anadolu partisinde #1b8d36'ya taşındı;
+    #   dört Asya kimliği #2d8f4a'da kaldı ve İZLEMEDİ. Tam yakalamak için
+    #   yazıldığı vaka. MADDE ölçüldü ve SAĞLAM: dördü de birbirine komşu değil,
+    #   paylaşım meşru; bozulan yalnız beyandı. ⇒ Renk değil BEYAN düzeltildi.
+    "#2d8f4a": ("Asya partisi — taceddin buradan ayrıldı (Anadolu kümesi, "
+                "2026-08-03); kalan dördü birbirine komşu değil",
+                ["ace-sultanligi", "malaka-sultanligi",
+                 "meiji-japonya", "ming-hanedani"]),
+    "#8d6e63": ("Asya partisi — timurlu ile paylaşımlı",
+                ["timurlu", "kamboc-kralligi", "vijayanagara"]),
+    "#6b4a7d": ("Asya partisi — safevi ile paylaşımlı (İran↔Vietnam, komşu değil)",
+                ["safevi", "le-hanedani"]),
+    "#0288d1": ("Asya partisi — darfur ile paylaşımlı (babur görünürlük düzeltmesi)",
+                ["darfur", "babur-imparatorlugu"]),
+    "#8f7d5b": ("2026-07-30 denetimi — bosna/ahiler, tarih boyunca komşu değil",
+                ["bosna", "ahiler"]),
+    "#5c6bc0": ("2026-07-30 denetimi — vollayta/norvec, 6.204 km",
+                ["vollayta", "norvec"]),
+    # 🟢 GRUP KALDIRILDI — self-check yakaladı. `karaman` Anadolu partisinde
+    #   #5133ab'ye taşındı; #4527a0'ı artık YALNIZ `buhara` kullanıyor, yani
+    #   ortada paylaşım KALMADI. Beyanda tutmak yanlış olurdu: var olmayan bir
+    #   bağı beyan etmek, bağı hiç beyan etmemek kadar yanıltıcıdır.
+    #   (2026-07-30 denetiminin buhara/karaman satırı bu tarihten itibaren
+    #   tarihsel bir kayıttır, geçerli bir bağ değil.)
+}
+
+
+def _paylasim_dogrula():
+    """BOYALAR'daki GERÇEK paylaşımı yukarıdaki BEYANLA karşılaştırır.
+
+    Üç şeyi yakalar:
+      ① beyan edilmiş bir grup BOZULMUŞ (biri oynatılmış, ötekiler izlememiş)
+      ② beyan edilmemiş YENİ paylaşım doğmuş (kasıt mı tesadüf mü belirsiz)
+      ③ beyandaki kimlik BOYALAR'da yok (silinmiş / adı değişmiş)
+
+    ⚠️ ÜRETİMİ DURDURMAZ, yalnız uyarır. Gerekçe: renk seçimi geometriyi
+    etkilemiyor; bu bir VERİ BÜTÜNLÜĞÜ değil KÜTÜK TUTARLILIĞI denetimidir ve
+    sert kapı yanlış yerde durur. (`_opaklik_dogrula()` ile aynı gerekçe.)
+    ⚠️ MESAJLARDA ASCII DIŞI KARAKTER YOK — sarmalanmamış konsolda
+    `UnicodeEncodeError` ile patlamasın; patlayabilen bir uyarı uyarısızlıktan
+    kötüdür (bu dosyanın kendi kaydettiği ders).
+    """
+    import collections as _c
+    _gercek = _c.defaultdict(set)
+    for _a, _v in BOYALAR.items():
+        _gercek[_v[1].lower()].add(_a)
+
+    for _hx, (_ger, _uye) in PAYLASIM.items():
+        _yok = [u for u in _uye if u not in BOYALAR]
+        if _yok:
+            print("  UYARI renkler.py: PAYLASIM[%s] beyaninda BOYALAR'da "
+                  "olmayan kimlik: %s" % (_hx, ", ".join(_yok)))
+        _su_an = _gercek.get(_hx.lower(), set())
+        _kacan = [u for u in _uye if u in BOYALAR and u not in _su_an]
+        if _kacan:
+            print("  UYARI renkler.py: BEYAN EDILEN PAYLASIM BOZULDU %s -- "
+                  "%s artik bu hex'i kullanmiyor. Kasitli paylasimdi; biri "
+                  "oynatildiysa otekiler de oynatilmali ya da beyan "
+                  "guncellenmeli." % (_hx, ", ".join(_kacan)))
+
+    _beyan = {h.lower() for h in PAYLASIM}
+    for _hx, _uye in _gercek.items():
+        if len(_uye) > 1 and _hx not in _beyan:
+            print("  UYARI renkler.py: BEYAN EDILMEMIS PAYLASIM %s -- %s. "
+                  "Kasitliysa PAYLASIM'a yazilmali, tesadufse ayrilmali."
+                  % (_hx, ", ".join(sorted(_uye))))
+
+
+_paylasim_dogrula()
