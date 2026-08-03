@@ -12,6 +12,51 @@ durum tablosunu güncelle.
 
 ---
 
+# 🔴 YENİ DENETİM GEREKİYOR — madde ile veri birbirini tutmuyor
+
+**Doğuran vaka (`p4/H-0006`, 3 Ağustos):** Kullanıcı gördü ve haklıydı —
+kronoloji maddesi *"1502: Erzurum ve Van havzası Safevî'ye geçti"* diyordu,
+**harita Erzurum'u boyamıyordu.** Van, Erciş, Kemah'ta Safevî penceresi
+vardı; Erzurum'da yoktu (`akkoyunlu 1348→1515` tek parça).
+
+🔴 **Bu bir kusur SINIFI ve bugünkü denetimlerin hiçbiri göremiyor:**
+```
+kronoloji tarafı  ✓ sağlıklı — madde var, tarihi var, kaynağı var
+veri tarafı       ✓ sağlıklı — dönemler kesintisiz, sahipsizlik yok
+ama İKİSİ BİRBİRİNİ TUTMUYOR                    ← kimse bakmıyor
+```
+📌 Değişmez 2 tersini denetliyor (*kırılmanın maddesi var mı*). Eksik olan
+yön: **maddenin kırılması var mı.**
+
+## Şartname — `arac/denetle_iddia.py`
+
+```
+① kronoloji maddelerinde YER ADI + EL DEĞİŞTİRME fiili ara
+   ("… Safevî'ye geçti", "… Osmanlı idaresine katıldı", "… ele geçirdi")
+② maddenin `yer:` alanındaki yerleşimleri çöz
+③ o yerleşimlerde, maddenin tarihinde ± tolerans, kırılma VAR MI
+④ yoksa: İDDİA KARŞILIKSIZ → rapor
+```
+⚠️ **Tolerans şart:** madde "1502 (ay ve gün kaynakta yok)" diyorsa gün
+eşleşmesi aranamaz. `hassasiyet:` kalemiyle akraba.
+⚠️ Yanlış pozitif beklenir (madde bir savaşı anlatır, toprak değişmez).
+İlk sürüm **rapor eder, ihlal saymaz** — tavan sonra konur.
+
+## Aynı kökten dört nokta bulundu — üçü AÇIK
+
+```
+Erzurum      ✅ DÜZELTİLDİ  akkoyunlu→1502 · safevi 1502→1518 · OSM 1518→
+             TDV/erzurum: 1502 Şah İsmâil aldı, 1518-19 Osmanlı'ya katıldı
+Bitlis       🔵 akkoyunlu 1467→1515-09-15 · Safevî penceresi YOK
+Diyarbakır   🔵 akkoyunlu 1378→1515-09-19 · Safevî penceresi YOK
+Mardin       🔵 akkoyunlu 1467→1515-09-15 · Safevî penceresi YOK
+```
+🔴 Üçü de Şah İsmâil'in 1507-1508 Diyarbekir harekâtıyla Safevî'ye geçmiş
+olmalı, 1515'te Osmanlı'ya. **Ama TDV ile doğrulanmadan yazılmayacak** —
+Erzurum'da TDV yıl verdi, ötekiler için de vermeli.
+📌 Akkoyunlu Devleti fiilen 1508'de bitti; dördünün de kimliği kendi
+ömrünün ötesine uzanıyordu.
+
 # 🆕 KARTVİZİT — "NASIL BİLİRDİNİZ" (kullanıcı isteği, 3 Ağustos 2026)
 
 > Şartname: **`PADISAH-KARTVIZITI.md`** (tam şema, üç kural, kademeler)
