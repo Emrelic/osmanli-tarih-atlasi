@@ -41,6 +41,32 @@ pencerenin içini dolduruyor, listesi SONLU, ve ölüm tarihleri zaten
 kronolojide kırılma. O yüzden itiraz edilmedi ve **ANSİKLOPEDİ
 EKSENİ'nin BİRİNCİ kalemi** oldu (önceki sırada "kurumlar" birinciydi).
 
+# 🆕 EK OKUMA — sebep-sonuç · magazin · skandal (3 Ağustos 2026)
+
+> Şartname: **`EK-OKUMA.md`** · kardeşi: **`PADISAH-KARTVIZITI.md`**
+
+Kronoloji maddesine tıkla → özet penceresi → **[📖 EK OKUMA]
+[🔗 SEBEP-SONUÇ] [🎭 MAGAZİN]** → ek okuma penceresi.
+
+🔴 **Bu eksenin belkemiği tek bir alan: `kesinlik:`**
+```
+kesin · tartismali · iddia · rivayet     ← BOŞ BIRAKILAMAZ
+```
+Kullanıcının kendi kuralı: *"söylenti olan magazinel şeyleri tarihî
+gerçek olmasından ziyade rivayet ya da magazin haberi gibi vermeliyiz."*
+📌 Bu eksenin bütün cazibesi rivayetlerde, bütün riski de. Etiket
+olmadan atlas **dedikodu deposu** olur; etiketle **rivayetin kendisini
+de tarih olarak** gösterir. Fark bu tek alanda.
+
+🔴 **İkinci kural, yine kullanıcının:** *"«mıymıntı» yorumu benim
+yorumum, sen onu maddeye yazma."* Taraf tutulmaz, taraflar yazılır.
+
+Kullanıcı **28 sebep-sonuç halkası** verdi ve bunlar ayrı çift değil
+**tek zincir**: Fetret → kardeş katli → III. Murad'ın 100+ çocuğu →
+III. Mehmed'in 19 kardeşi → tepki: ekberiyet + KAFES → tecrübesiz
+padişahlar → Genç Osman'ın sonu → IV. Murad'ın demir yumruğu.
+⚠️ Zincir görünmezse kartlar anekdota düşer.
+
 # 🆕 İDARÎ KATMAN — kullanıcı isteği, 3 Ağustos 2026
 
 > *"Bölgeleri ülke, eyalet, sancak, vilâyet şeklinde bölelim… bir idarî
