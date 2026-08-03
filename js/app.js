@@ -285,7 +285,7 @@ function devletGuncelle(t) {
         for (var k = 0; k < mp.length; k++) {
           var dis = mp[k][0];
           if (!dis || dis.length < 4) continue;
-          et.push({ ad: s.ad, c: etiketNoktasi(dis), alan: halkaAlan(dis) });
+          et.push({ ad: s.ad, id: s.id, c: etiketNoktasi(dis), alan: halkaAlan(dis) });
         }
         break;
       }
@@ -298,6 +298,42 @@ function devletGuncelle(t) {
   et.sort(function (a, b) { return b.alan - a.alan; });
   etiketAdaylari = et;
   etiketleriYerlestir();
+}
+
+// p5/H-0003 — kullanıcı: "haritaya yay" düğmesi: devlete tıkla, sınırlarını
+// ekrana sığdır, üstten alttan taşırma. `devletler_harita.js` her devletin
+// dönem gövdesini (dnm[].ft, MultiPolygon) zaten taşıyor — ayrı bir bbox
+// tablosu TUTULMUYOR, aksi hâlde `suanki` değişince bayatlardı (§35).
+// Sınır kutusu her tıklamada O ANKİ aktif döneme göre TAZE hesaplanıyor.
+function devletEtiketiTiklandi() {
+  devletiYay(this.dataset.devletId);
+}
+function devletiYay(id) {
+  var s = null;
+  for (var i = 0; i < devletler2.length; i++) if (devletler2[i].id === id) { s = devletler2[i]; break; }
+  if (!s) return;
+  var p = null;
+  for (var k = 0; k < s.dnm.length; k++) {
+    if (s.dnm[k].fi <= suanki && suanki < s.dnm[k].ti) { p = s.dnm[k]; break; }
+  }
+  if (!p) return;   // o an bu devlet sahnede değil (nesli tükenmiş/henüz doğmamış)
+  var x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
+  var mp = p.ft.geometry.coordinates;
+  for (var a = 0; a < mp.length; a++)
+    for (var b = 0; b < mp[a].length; b++)
+      for (var c = 0; c < mp[a][b].length; c++) {
+        var nk = mp[a][b][c];
+        if (nk[0] < x0) x0 = nk[0]; if (nk[0] > x1) x1 = nk[0];
+        if (nk[1] < y0) y0 = nk[1]; if (nk[1] > y1) y1 = nk[1];
+      }
+  if (x0 === Infinity) return;
+  // "üstten alttan taşırma" — kullanıcının kendi sözü. Sağda kronoloji sütunu
+  // açıksa gövde onun ALTINDA kalmasın diye sağ payı sütun genişliği kadar
+  // artırılıyor (H-0006'daki #yanpanel.katli ile aynı durum okunuyor).
+  var yp = document.getElementById("yanpanel");
+  var sagPay = 50 + (yp && !yp.classList.contains("katli") ? yp.getBoundingClientRect().width : 0);
+  harita.fitBounds([[x0, y0], [x1, y1]],
+    { padding: { top: 50, bottom: 50, left: 50, right: sagPay }, duration: 800, maxZoom: 7.5 });
 }
 
 // Çakışma elemesi. MapLibre'nin sembol katmanı çakışmayı kendi çözerdi ama o
@@ -373,6 +409,14 @@ function etiketleriYerlestir() {
     el.className = "devlet-etiket";
     el.style.fontSize = punto.toFixed(1) + "px";
     el.textContent = e.ad;
+    // p5/H-0003 — "haritaya yay": devlet adına tıklayınca o devletin O ANKİ
+    // gövdesi ekrana sığdırılıyor. `e` for döngüsünün değişkeni olduğu için
+    // kapanışa doğrudan alınmıyor — id, elemanın kendi dataset'ine yazılıp
+    // tıklamada OKUNUYOR (§35: aynı bilgiyi iki değişkende taşımak yerine tek
+    // yerde tutulan DOM'dan okunuyor).
+    el.dataset.devletId = e.id;
+    el.title = e.ad + " — haritaya yay";
+    el.addEventListener("click", devletEtiketiTiklandi);
     devletEtiketleri.push(new maplibregl.Marker({ element: el, anchor: "center" })
       .setLngLat(e.c).addTo(harita));
   }
@@ -922,6 +966,7 @@ harita.on("load", function () {
     '<span><i class="lj-nokta" style="width:9px;height:9px"></i> Orta önemli merkez</span>' +
     '<span><i class="lj-nokta" style="width:12px;height:12px;background:var(--osmanli-kirmizi);border-color:#ffd700"></i> Büyük merkez</span>' +
     '<span><b class="lj-sim">⭐</b> Başkent</span>' +
+    '<span><i class="lj-nokta lj-yaklasan" style="width:9px;height:9px"></i> Yaklaşan — 365 gün içinde değişecek yer (soluk, kesikli)</span>' +
     '<div class="lejant-baslik">Fetih sonrası ediniliş simgesi (~1,5 yıl görünür)</div>' +
     '<span><b class="lj-sim">⚔</b> Savaşla alındı</span>' +
     '<span><b class="lj-sim">♜</b> Kuşatmayla alındı</span>' +
@@ -930,6 +975,9 @@ harita.on("load", function () {
     '<span><b class="lj-sim">🗝</b> İlhakla alındı</span>' +
     '<span><b class="lj-sim">👑</b> Mirasla alındı</span>' +
     '<span><b class="lj-sim">🏰</b> Kale</span>' +
+    // p4/H-0008 — aynı yuva, mülkiyet değişmiyorsa savaş maddesini de gösterir;
+    // lejant bu ikinci anlamı açıklamazsa kullanıcı yine "bu ne" diye sorar.
+    '<span><b class="lj-sim">⚔</b> Aynı yuva — mülkiyet değişmiyorsa, o an anılan bir savaş/kuşatma/isyan maddesini gösterir</span>' +
     '<div class="lejant-baslik">Fetih tarihi rozeti (şehir adının yanında)</div>' +
     '<span><b class="lj-sim" style="color:#1e5d2a">+</b> Osmanlı’ya katıldı</span>' +
     '<span><b class="lj-sim" style="color:#4a4a4a">−</b> Osmanlı’dan çıktı</span>' +
@@ -1300,6 +1348,27 @@ function olayYeriKur() {
   });
 }
 
+// p4/H-0008 — kullanıcı, Hemedan örneği: "savaş yerinin haritada bir savaş
+// simgesiyle gösterilmesi iyi olurdu." Ölçüldü: `window.SAVASLAR` (⚔/◎/🔥/⚓
+// pencere-lejant sistemi) `olaylar`dan TAMAMEN BAĞIMSIZ, elle küratörlüğü
+// yapılan ayrı bir veri seti — Hemedan'ın orada karşılığı yok ve olmayabilir
+// de (`data/savaslar.js` bu oturumun dosyası değil, CLAUDE.md §7).
+// ⇒ Yeni bir veri kümesi AÇILMADI. `olaylar[].k`/`etiket` zaten savaş türünü
+// taşıyor, `OLAY_YERI` zaten maddeyi şehre bağlıyor — ikisi birleşince
+// hiçbir veri dosyasına dokunmadan aynı sonuç çıkıyor. Glif SAVAS_TUR_SIMGE
+// ile AYNI (kullanıcı lejanttan zaten öğrendi, yeni bir dil icat edilmedi).
+var MUHAREBE_K = { savas: "meydan", kusatma: "kusatma", isyan: "isyan", ayaklanma: "isyan" };
+function olayMuharebeTuru(o) {
+  var tur = MUHAREBE_K[o.k];
+  if (!tur && o.etiket) {
+    for (var i = 0; i < o.etiket.length; i++) {
+      tur = MUHAREBE_K[o.etiket[i]];
+      if (tur) break;
+    }
+  }
+  return tur ? SAVAS_TUR_SIMGE[tur] : null;
+}
+
 // ---------- Şehir görünürlük önceliği — (kova, alan, ad) ----------
 // Kullanıcı kararı (a): şehir katmanı OLAYLARDAN BAĞIMSIZ, yakınlaştırmaya
 // göre çalışır. Uzaktan yalnız önemli şehirler, yakınlaştıkça hepsi; olaylar
@@ -1370,6 +1439,52 @@ function sehirOncelikKur() {
   });
 }
 
+// p4/H-0011 — kullanıcı: "başkent yıldızı DİĞER DEVLETLER için de, hangisi
+// başkent ise ONA koymalı." ÖLÇÜLDÜ VE ENGEL DOĞRULANDI: `data/devletler.js`
+// künyesinde `baskent` TEK DEĞER — zaman penceresi yok, yani "İran'ın 1600'de
+// başkenti neresiydi" sorusuna bugün veri cevap veremiyor. O iş devletler.js
+// sahibini bekliyor (CLAUDE.md §7, bu oturum data/ dosyalarına yazamaz).
+//
+// ⇒ YALNIZ OSMANLI için yapılabildi — ve eski mekanizma (`y.g===3`, "büyük
+// şehir" katmanı) buna YETMİYORDU: ölçüldü, g:3 olan BEŞ şehir var (Söğüt,
+// Bursa, ANKARA, Edirne, İstanbul — Ankara hiç başkent olmadı) ve `b` her
+// birine SÜREKLİ yapışıktı; 1453'ten sonra BEŞİ DE aynı anda yıldız
+// taşıyordu. Kullanıcının "hepsine yıldız koymuş" şikâyeti tam bu.
+// Doğrusu: dört ismin SIRASI tartışmasız (Söğüt→Bursa→Edirne→İstanbul),
+// tarihler AYRI bir sabit tabloya YAZILMADI (§35) — her geçiş, o şehrin
+// KENDİ `d:` (doğrudan Osmanlı) ilk periyodunun başlangıcından okunuyor;
+// veri bir gün düzeltilirse yıldız da kendiliğinden düzelir.
+// ⚠️ Bursa→Edirne geçişi bir YAKLAŞIKLIK: Edirne `d.f`si "ne zaman Osmanlı
+// toprağı oldu"yu taşıyor, "ne zaman başkent oldu"yu birebir DEĞİL — TDV'de
+// birkaç yıl ayrışabilir. Daha iyisi devletler.js künye işi bitmeden
+// yapılamaz; bu, "yapılamadı + sebep" değil "yaklaşık yapıldı + sebep."
+var OSMANLI_BASKENT_SIRA = ["Söğüt", "Bursa", "Edirne", "İstanbul"];
+function osmanliBaskentPencereleriKur() {
+  var basl = [];
+  var ham = {};
+  (window.YERLESIMLER || []).forEach(function (y) {
+    if (OSMANLI_BASKENT_SIRA.indexOf(y.ad) >= 0 && !ham[y.ad]) ham[y.ad] = y;
+  });
+  for (var i = 0; i < OSMANLI_BASKENT_SIRA.length; i++) {
+    var ad = OSMANLI_BASKENT_SIRA[i];
+    var y = ham[ad];
+    if (!y || !y.d || !y.d.length) continue;   // veri eksikse sessizce atla, uydurma yok
+    basl.push({ ad: ad, fi: gunIdx(y.d[0].f) });
+  }
+  basl.sort(function (a, b) { return a.fi - b.fi; });
+  for (var j = 0; j < basl.length; j++) {
+    basl[j].ti = (j + 1 < basl.length) ? basl[j + 1].fi : Infinity;
+  }
+  return basl;
+}
+var OSMANLI_BASKENT = osmanliBaskentPencereleriKur();
+function osmanliBaskentMi(ad, t) {
+  for (var i = 0; i < OSMANLI_BASKENT.length; i++) {
+    if (OSMANLI_BASKENT[i].ad === ad) return t >= OSMANLI_BASKENT[i].fi && t < OSMANLI_BASKENT[i].ti;
+  }
+  return false;
+}
+
 function sehirGuncelle(t) {
   if (!haritaHazir) return;
   if (!OLAY_YERI) olayYeriKur();
@@ -1377,14 +1492,38 @@ function sehirGuncelle(t) {
 
   // O an sahnede olan maddelerin andığı yerleşimler — savaş işaretleriyle aynı
   // pencere kuralı (bir sonraki maddeye kadar, taban 60 tavan 365 gün).
-  var anilan = {}, fetihTarihi = {};
+  //
+  // p4/H-0013 — kullanıcı: "bir iki madde sonra gerçekleşecek tarihî olaydan
+  // önce, o olayda geçecek olan şehirleri haritada görünür kılmalıyız."
+  // Sözleşme `oturumlar/OLCUM-ILERI-BAKIS.md §6`de yazılı ve NİHAİ:
+  //   pencere 365 gün ileri · tavan YOK · gelecek işaretler öncelik
+  //   listesinin EN SONUNDA · aynı işaret ama opaklık ~%55 + kesikli çerçeve ·
+  //   süzgeç: gizlenmiş maddenin şehirleri gösterilmez.
+  // Aynı O(n) taramaya bindiriliyor — ayrı bir geçiş açmak `olaylar`ı iki kere
+  // gezmek olurdu (1000+ madde × her kare).
+  var anilan = {}, fetihTarihi = {}, yaklasan = {}, savasSimgesi = {};
   for (var oi = 0; oi < olaylar.length; oi++) {
     var o = olaylar[oi];
-    if (o.gi > t) break;                       // liste tarihe göre sıralı
+    if (o.gi > t + 365) break;                 // ne şimdiki ne 365 gün içindeki gelecek
     if (o.sure === undefined) o.sure = sonrakiOlayaKadar(o.gi);
+    if (o.gi > t) {
+      // Henüz olmamış ama 365 gün içinde olacak — "yaklaşan" önizlemesi.
+      // Süzgeç kuralı panelle AYNI: gizlenmiş maddenin şehri de gizli kalır.
+      if (!olayDom[oi] || !olayDom[oi].classList.contains("suzuldu")) {
+        var Ly = OLAY_YERI[oi];
+        for (var liy = 0; liy < Ly.length; liy++) yaklasan[Ly[liy]] = true;
+      }
+      continue;
+    }
     if (t < o.gi + o.sure) {
       var L = OLAY_YERI[oi];
       for (var li = 0; li < L.length; li++) anilan[L[li]] = true;
+      // p4/H-0008 — bu madde savaş/muharebe türündeyse, andığı şehirlerin
+      // ediniliş-simgesi yuvasına (boşsa) bir savaş simgesi düşüyor.
+      var muhSimge = olayMuharebeTuru(o);
+      if (muhSimge) {
+        for (var lim = 0; lim < L.length; lim++) savasSimgesi[L[lim]] = { s: muhSimge, b: o.b };
+      }
       // 🔴 FETİH TARİHİ ETİKETİ — YALNIZ `fethedilen:` ALANINDAN.
       // Kullanıcı: *"harita üzerinde fetih tarihi küçük punto ile gösterilsin."*
       // ⚠️ Bunu METİN EŞLEŞMESİNDEN türetmek ÖLÇÜLDÜ ve elendi: 1.360 madde-şehir
@@ -1464,7 +1603,7 @@ function sehirGuncelle(t) {
   // ⇒ Doğrusu: anılanlar önce yerleşir (yani yerlerini KAPAR) ve kendi
   // aralarında da normal elenirler. Böylece `anilan` gerçekten koordinatöre
   // tarif ettiğim şey oluyor — ÖNCELİK YÜKSELTİCİ, muafiyet değil.
-  var yerlesenSehir = [], anilanSehir = [];
+  var yerlesenSehir = [], anilanSehir = [], yaklasanSehir = [];
   sehirOncelik.forEach(function (mi) {
     var m = sehirler[mi];
     var aktif = null;
@@ -1506,13 +1645,24 @@ function sehirGuncelle(t) {
     // Maddede adı geçen yer, uzaklaşınca da görünür: olay anlatılırken okuyucunun
     // "nerede?" sorusunu cevaplamak zoom kademesinden önce gelir. `go:` sönmesini
     // de geçersiz kılar — Pelekanon 1329'da anlatılırken görünmeli, 1800'de değil.
-    if (anilan[mi]) d = Math.max(d, 2);
+    // p4/H-0013: "şimdiki" (anilan) her zaman "yaklaşan"dan daha güçlü — aynı
+    // şehir ikisine de düşerse (art arda iki maddede geçiyorsa) önizleme
+    // damgası yanlış okunur ("bu şimdi mi oldu"), o yüzden anilan öncelikli.
+    var oncedenGoruluyordu = d >= zoomEsigi();
+    var yalnizYaklasan = false;
+    if (anilan[mi]) {
+      d = Math.max(d, 2);
+    } else if (yaklasan[mi]) {
+      d = Math.max(d, 2);
+      yalnizYaklasan = !oncedenGoruluyordu;   // sırf önizleme yüzünden mi görünüyor
+    }
     if (d < zoomEsigi()) {
       if (m.ekli) { m.mk.remove(); m.ekli = false; }
       return;
     }
 
-    var sinif = "sehir d" + d + (aktif.b && d >= 3 ? " baskent" : "");
+    var sinif = "sehir d" + d + (osmanliBaskentMi(m.s.ad, t) && d >= 3 ? " baskent" : "") +
+                (yaklasan[mi] && !anilan[mi] ? " yaklasan" : "");
     if (m.ic.className !== sinif) m.ic.className = sinif;
     // Pencere içindeyse: ediniliş yöntemi simgesi (⚔ ♜ 📜 🤝) ve kale ise 🏰.
     // Pencere dışında ikisi de kalkar — kalıcı simge bırakmıyoruz.
@@ -1520,7 +1670,13 @@ function sehirGuncelle(t) {
     var simge = pencerede
       ? (m.kale ? "🏰" : "") + (aktif.y ? YONTEM_SIMGE[aktif.y] || "" : "")
       : "";
+    // p4/H-0008 — ediniliş simgesi boşsa (mülkiyet o an değişmiyor) ve andığı
+    // madde savaş türündeyse, aynı yuvada savaş simgesi çıkar. İkisi aynı anda
+    // olmaz: mülkiyet değişimi zaten daha somut bir olgu, öncelik onda.
+    var simgeBaslik = "";
+    if (!simge && savasSimgesi[mi]) { simge = savasSimgesi[mi].s; simgeBaslik = savasSimgesi[mi].b; }
     if (m.yontemEl.textContent !== simge) m.yontemEl.textContent = simge;
+    if (m.yontemEl.title !== simgeBaslik) m.yontemEl.title = simgeBaslik;
     // Fetih tarihi rozeti: yalnız `fethedilen:` listesinde adı geçen şehirde.
     // ⚠️ Kutu ölçüsü GERÇEK DOM'dan okunuyor (ikinci geçiş), yani rozet
     // eklenince çakışma elemesi onu kendiliğinden hesaba katıyor — bugün
@@ -1551,11 +1707,18 @@ function sehirGuncelle(t) {
     // Eleme ikinci geçişe bırakılıyor (aşağıda). `anilan` olanlar elemeye HİÇ
     // girmiyor: madde anlatılırken "nerede?" sorusunun cevabı kalabalıktan önce
     // gelir. Bu, katman 5'in katman 3'e yaptığı ekleme.
-    if (anilan[mi]) anilanSehir.push(m); else yerlesenSehir.push(m);
+    // p4/H-0013 — sözleşme: "gelecek işaretler öncelik listesinin EN SONUNDA."
+    // Yalnız SIRF önizleme yüzünden görünür olanlar (`yalnizYaklasan`) sona
+    // atılıyor; zaten kendi tier'iyle görünecek bir şehir (büyük merkez, ya da
+    // aynı anda anılan) kendi doğal sırasında kalıyor — önizleme onu geri
+    // ittirmiyor, yalnız üstüne kesikli/soluk rozeti biniyor.
+    if (anilan[mi]) anilanSehir.push(m);
+    else if (yalnizYaklasan) yaklasanSehir.push(m);
+    else yerlesenSehir.push(m);
   });
-  // Anılanlar başa: her ikisi de `sehirOncelik` sırasını koruyor, yalnız
-  // anılan grubu bütün olarak öne alınıyor.
-  yerlesenSehir = anilanSehir.concat(yerlesenSehir);
+  // Anılanlar başa, yaklaşanlar sona: üçü de `sehirOncelik` sırasını koruyor,
+  // yalnız gruplar bütün olarak öne/arkaya alınıyor (p4/H-0013 sözleşmesi).
+  yerlesenSehir = anilanSehir.concat(yerlesenSehir).concat(yaklasanSehir);
 
   // ---- İKİNCİ GEÇİŞ: çakışma elemesi, GERÇEK DOM kutusuyla ----
   // 🔴 İLK SÜRÜM KUTUYU TAHMİN EDİYORDU VE DAR ÇIKIYORDU. Ölçüldü (1302):
@@ -1892,7 +2055,46 @@ var HAREKET = {
 // Sonuç eksenі: aynı hareket kazançla da bozgunla da bitebilir.
 var SONUC_ROZET = { zafer: "▲", yenilgi: "▼", belirsiz: "" };
 
-var seferler = (window.SEFERLER || []).map(function (s) {
+// p4/H-0012 — kullanıcı: "isyan yayılma gösterimi: küçük ateş simgeleri,
+// yayıldığı şehirlere oklarla bağlanmış." Tasarımı ve sınırlarını kullanıcı
+// KENDİSİ koydu: taralı alan KULLANILAMAZ (işgale ayrılmış), farklı renk
+// KULLANILAMAZ (ayrı devlet gibi görünür).
+// 🔴 YENİ VERİ DOSYASI AÇILMADI — ikisi de zaten VARDI, birleştirilmediler:
+//   ateş simgesi:  `window.SAVASLAR`da `tur:"isyan"` zaten 🔥 üretiyor
+//                  (SAVAS_TUR_SIMGE, savasIsaretleri) — Şahkulu (Teke) ve
+//                  (Sivas) ayrı ayrı zaten yanıp sönüyordu.
+//   ok + desen:    `HAREKET.isyan` (glif "✹") ZATEN TANIMLI ama hiçbir
+//                  `window.SEFERLER` kaydı `tur:"isyan"` kullanmıyordu — ölü
+//                  kapasiteydi (YONTEM_SIMGE'nin `ilhak`/`miras`ı gibi).
+// ⇒ Köprü: aynı isim önekini (" (" öncesi) paylaşan `tur:"isyan"` SAVASLAR
+// kayıtları tarihe göre sıralanıp ardışık ikili ok'a çevriliyor. Bugün bu
+// desene uyan TEK zincir Şahkulu (Teke → Sivas); veri değişirse (yeni bir
+// çok-noktalı isyan eklenirse) kod ELLE DOKUNULMADAN yeni oku üretir.
+function isyanYayilmaUret() {
+  var grup = {};
+  (window.SAVASLAR || []).forEach(function (s) {
+    if (s.tur !== "isyan" || !s.lat || s.ad.indexOf(" (") < 0) return;
+    var kok = s.ad.split(" (")[0];
+    (grup[kok] = grup[kok] || []).push(s);
+  });
+  var out = [];
+  Object.keys(grup).forEach(function (kok) {
+    var nk = grup[kok];
+    if (nk.length < 2) return;
+    nk.sort(function (a, b) { return a.t < b.t ? -1 : a.t > b.t ? 1 : 0; });
+    for (var i = 1; i < nk.length; i++) {
+      var a = nk[i - 1], b = nk[i];
+      out.push({
+        fi: gunIdx(b.t), ti: gunIdx(b.t) + (b.sure || 400),
+        yol: [[a.lon, a.lat], [b.lon, b.lat]], tur: "isyan",
+        ad: kok + " yayılıyor", renk: "#bf360c", sonuc: b.sonuc || "belirsiz"
+      });
+    }
+  });
+  return out;
+}
+
+var seferler = (window.SEFERLER || []).concat(isyanYayilmaUret()).map(function (s) {
   var son = s.yol[s.yol.length - 1], onceki = s.yol[s.yol.length - 2];
   // ok başının dönüşü: son parçanın ekran yönü (kuzeyden saat yönünde derece)
   var dx = (son[0] - onceki[0]) * Math.cos(son[1] * Math.PI / 180);
@@ -1920,7 +2122,11 @@ var seferler = (window.SEFERLER || []).map(function (s) {
   // Taraf rengi: Osmanlı seferi koyu kırmızı-siyah, düşman seferi soğuk renk.
   var renk = s.renk || (s.taraf === "dusman" ? "#1b7a3f" : "#2b1006");
   ic.style.color = renk;
-  return { fi: gunIdx(s.f), ti: gunIdx(s.t) + 45, ad: s.ad, yol: s.yol,
+  // `isyanYayilmaUret()` fi/ti'yi hazır veriyor (SAVASLAR'ın kendi `sure`si
+  // üstünden); window.SEFERLER hâlâ f/t METİN tarihinden hesaplatıyor.
+  var fi = s.fi !== undefined ? s.fi : gunIdx(s.f);
+  var ti = s.fi !== undefined ? s.ti : gunIdx(s.t) + 45;
+  return { fi: fi, ti: ti, ad: s.ad, yol: s.yol,
            // sonuc lejant için de lazım: rozet ancak sahnede o sonuçtan bir ok
            // varsa açıklanır (md.4.3 — açıklanmayan simge kalabalıktır).
            renk: renk, tur: (s.tur || "sefer"), sonuc: (s.sonuc || "belirsiz"),
@@ -2853,9 +3059,23 @@ akisModu.addEventListener("change", function () {
 });
 moduUygula();
 
-function sonrakiOlayIndex(t) {
-  for (var i = 0; i < olaylar.length; i++) if (olaylar[i].gi > t) return i;
-  return -1;
+// p5/H-0006 — kullanıcı: "aynı tarihli iki madde tek adımda geçiliyor."
+// Ölçüldü: ⏮/⏭ ve "olay olay" akışı SAF TARİH karşılaştırması kullanıyordu
+// (`gi > t` / `gi < t`). İki madde aynı günse (ör. Mercidabık + Ramazanoğulları
+// ikisi de 1516-08-24), o tarihe bir kez ulaşılınca ikinci madde `> t`'yi hiç
+// sağlamıyor ve TAMAMEN ATLANIYORDU — kullanıcı ikisini ayrı ayrı göremiyordu.
+// ⇒ Gezinme artık TARİH değil SIRA NUMARASI (olaylar dizisindeki index)
+// üzerinden yapılıyor. `suankiOlayI` en son hedeflenen maddenin indeksini
+// tutuyor; ⏮/⏭ ondan ±1 gidiyor — aynı güne düşen komşu madde de dahil.
+// Slider'la ya da başka bir yolla tarih değişip index bayatlarsa, ilk tık
+// `olayIndexTazele` ile en yakın maddeye yeniden oturuyor.
+var suankiOlayI = -1;
+function olayIndexTazele() {
+  if (suankiOlayI >= 0 && olaylar[suankiOlayI] && olaylar[suankiOlayI].gi === suanki) return;
+  suankiOlayI = -1;
+  for (var i = 0; i < olaylar.length; i++) {
+    if (olaylar[i].gi <= suanki) suankiOlayI = i; else break;
+  }
 }
 
 function oynatDurdur() {
@@ -2871,8 +3091,10 @@ function oynatDurdur() {
   if (akisModu.value === "olay") {
     var bekleme = parseInt(olayHizSec.value, 10);
     var adimla = function () {
-      var i = sonrakiOlayIndex(suanki);
-      if (i < 0) { oynatDurdur(); return; }
+      olayIndexTazele();
+      var i = suankiOlayI + 1;
+      if (i >= olaylar.length) { oynatDurdur(); return; }
+      suankiOlayI = i;
       tarihAyarla(olaylar[i].gi);
       obGoster(olaylar[i]);
     };
@@ -3025,18 +3247,19 @@ harita.on("zoomstart", function (e) {
   btnZoom.classList.add("pasif");
 });
 
-// Önceki / sonraki olaya atla
+// Önceki / sonraki olaya atla — p5/H-0006: sıra numarası (index) üzerinden,
+// bkz. suankiOlayI/olayIndexTazele yorumu.
 document.getElementById("btn-geri").addEventListener("click", function () {
-  for (var i = olaylar.length - 1; i >= 0; i--) {
-    if (olaylar[i].gi < suanki) { tarihAyarla(olaylar[i].gi); return; }
-  }
-  tarihAyarla(BASLANGIC);
+  olayIndexTazele();
+  if (suankiOlayI <= 0) { suankiOlayI = -1; tarihAyarla(BASLANGIC); return; }
+  suankiOlayI--;
+  tarihAyarla(olaylar[suankiOlayI].gi);
 });
 document.getElementById("btn-ileri").addEventListener("click", function () {
-  for (var i = 0; i < olaylar.length; i++) {
-    if (olaylar[i].gi > suanki) { tarihAyarla(olaylar[i].gi); return; }
-  }
-  tarihAyarla(BITIS);
+  olayIndexTazele();
+  if (suankiOlayI >= olaylar.length - 1) { tarihAyarla(BITIS); return; }
+  suankiOlayI++;
+  tarihAyarla(olaylar[suankiOlayI].gi);
 });
 
 // Klavye: ←→ gün (Shift: yıl), boşluk oynat/durdur

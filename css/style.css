@@ -500,6 +500,7 @@ body {
   opacity: 1;
   vertical-align: middle;
 }
+.lejant i.lj-yaklasan { opacity: 0.55; border-style: dashed; border-color: #2b1006; }
 .lejant b.lj-sim {
   display: inline-block;
   width: 14px;
@@ -639,6 +640,12 @@ body {
   font-size: 13px; line-height: 1;
 }
 .sehir.baskent .s-nokta::after { content: "⭐"; }
+/* p4/H-0013 — "gelecek olayın şehri, olmuş olayın şehrinden ayrılmazsa
+   kullanıcı yanlış okur" (oturumlar/OLCUM-ILERI-BAKIS.md §4). Serbest kalan
+   tek eksen opaklık + kenar deseni: punto önemi, renk sahipliği anlatıyor,
+   ikisine de dokunulmuyor. */
+.sehir.yaklasan { opacity: 0.55; }
+.sehir.yaklasan .s-nokta { border-style: dashed; }
 .sehir .s-yontem {
   font-size: 13px;
   line-height: 1;
@@ -983,8 +990,12 @@ body {
      altında 4px'lik hâle ince kalıp zemine karışır. */
   text-shadow: 0 0 0.36em #fff, 0 0 0.18em #fff, 0 0.09em 0.18em #fff;
   white-space: nowrap;
-  pointer-events: none;
+  /* p5/H-0003 — "haritaya yay": etiket artık tıklanabilir, o yüzden
+     pointer-events açık (eskiden none'du, salt görsel etiketti). */
+  pointer-events: auto;
+  cursor: pointer;
 }
+.devlet-etiket:hover { color: rgba(52, 38, 22, 1); text-decoration: underline; }
 
 /* Yüzölçümü göstergesi — zaman çubuğunda, tarihin yanında.
    Lejanttan buraya taşındı: orası gizlenebiliyordu ve tercih hatırlanıyordu,
