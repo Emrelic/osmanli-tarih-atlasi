@@ -752,4 +752,149 @@ BOYALAR = {
     "babur-imparatorlugu":     ("Bâbürlü (Timurlu-Hint) İmparatorluğu", "#0288d1"),
     # ── #6b4a7d  [ASYA · ① EKSİK, gövde yok · zarf(-25,-17.5,159,74) teyitli]  ile paylaşımlı (safevi) · 1 kimlik
     "le-hanedani":             ("Lê Hanedanı (Đại Việt)",            "#6b4a7d"),
+
+    # ═══════════════════════════════════════════════════════════════════════
+    # ASYA PARTİ 1 — 1550 kesitinin 12 adsız kimliği (VERİ KİMLİK 3, 3 Ağustos)
+    # ═══════════════════════════════════════════════════════════════════════
+    # Yukarıdaki "98 kimliğin ADI YOK" notunun kapanmaya başladığı yer:
+    # onikisinin de `devletler.js` künyesi bu partide yazıldı, ad artık var.
+    # ⚠️ Ve o notun aksine bu 12 GÖVDE ÜRETİR — `yerlesimler_asya.js` 2 Ağustos'ta
+    #   girdi.py'nin izin listesine girdi (344 nokta canlı). Renksizlikleri
+    #   kosu_47aa386.log'da 145 uyarı ve 1550'de Hindistan'ın yarısı kadar
+    #   boşluk demekti.
+    #
+    # ÖLÇÜM — `renk_olc.py`nin gerçek Voronoi komşuluğu üzerinde, iki EK kısıtla:
+    #   ① KIRMIZI AİLE ELENDİ (ton 70°-330° dışı). Aracın kendi önerisi
+    #     `bicapur`a #ae4242 vermişti; `VERI-YAPISI.md:184` kırmızıyı Osmanlı
+    #     ailesine ayırıyor. Araç bu kuralı bilmiyor — bilen ölçen olmalı.
+    #   ② YENİLER BİRBİRİNDEN DE ΔE ≥ 12 — KOMŞU OLMASALAR BİLE. Aracın ölçütü
+    #     yalnız komşu çiftleri bağlar; ilk öneri bu yüzden Hindistan'a yedi
+    #     ayırt edilemez mavi verdi (#4242ae · #4248ae · #424eae · #4254ae ·
+    #     #425aae · #4260ae · #4272ae). Sur ile Gucerât Voronoi'de değmiyor ama
+    #     1550 kesitinde YAN YANA duruyorlar; okuyucu için ikisi de mavidir.
+    #   Seçim yine `uyum()` sırasına göre — "en ayrık değil, yetinmeci" dersi
+    #   korundu; eşik gevşetilmedi, yalnız aday havuzu daraltıldı.
+    #   Sonuç (öncesi → sonrası): görünmez 10 → 10 · çakışma 56 → 56 · aynı-hex 0 → 0.
+    #   Artefakt: denetim/oneri-asya-parti1.txt
+    "sur-hanedani":            ("Sûrîler (Sûr Hânedanı)",            "#4272ae"),
+    "gucerat-sultanligi":      ("Gucerât Sultanlığı",                "#72ae42"),
+    "racput":                  ("Racput Devletleri",                 "#42ae6c"),
+    "bicapur":                 ("Âdilşâhî Sultanlığı (Bîcâpûr)",     "#ae7e42"),
+    "ahmednagar":              ("Nizamşâhî Sultanlığı (Ahmednagar)", "#42aea2"),
+    "golkonda":                ("Kutubşâhî Sultanlığı (Golkonda)",   "#4242ae"),
+    "nayak-devletleri":        ("Nâyak Beylikleri",                  "#bab442"),
+    "orissa":                  ("Orissa (Gacapati Krallığı)",        "#9042ae"),
+    "tibet":                   ("Tibet (Phagmodrupa-Tsangpa)",       "#3cc048"),
+    "yarkent-hanligi":         ("Yarkent (Sa'îdiyye) Hanlığı",       "#6c7e36"),
+    "kuzey-yuan":              ("Kuzey Yuan (Moğol Hanlığı)",        "#306c78"),
+    "demak":                   ("Demak Sultanlığı (Cava)",           "#9072c0"),
+
+    # ═══════════════════════════════════════════════════════════════════════
+    # ASYA PARTİ 1b — 1550 kesitinin KALAN 37 kimliği (VERİ KİMLİK 3)
+    # ═══════════════════════════════════════════════════════════════════════
+    # Görev dosyası PARTİ 1'i 12 kimlik sayıyordu; bitiş ölçütü ise "1550
+    # kesitinde adsız kimlik kalmadı" istiyordu. ÖLÇÜLDÜ: 12'si yazıldıktan
+    # sonra 1550-06-15 sahnesinde 37 kimlik / 55 nokta hâlâ adsızdı.
+    # Bu blok o kuyruğu kapatır — 1550 sahnesi artık BÜTÜN (110 kimliğin 110'u).
+    #
+    # 🔴 EŞİK BURADA 12 DEĞİL, İKİ AYRI EŞİK — ve ikincisi ÖLÇÜLEREK seçildi:
+    #   • KOMŞUDAN ΔE ≥ 12 — değişmedi, aracın eşiği.
+    #   • YENİLER BİRBİRİNDEN ΔE ≥ 8 — komşu olmasalar bile.
+    #   Neden 12 değil: 37+12 kimliğe karşılıklı 12 dayatıldığında çözüm
+    #   BULUNUYOR ama palet uçlara kaçıyor (#e4e424 neon sarı · #122430
+    #   neredeyse siyah · #eaea90 solgun) — `renk_olc.py`nin kendi yazdığı
+    #   "en ayrık değil, yetinmeci" dersinin tam ihlali.
+    #   Neden 0 değil (yani aracın ham kuralı): o zaman on kimlik
+    #   (#42ae8a·#42ae84·#42ae7e·#42ae78·#42ae72·#42ae66·#42ae60·#42ae5a·
+    #   #42ae54·#42ae4e) ayırt edilemez yeşile düşüyor ve Nepal'den Kerala'ya,
+    #   oradan Moluk'a uzanan tek bir yeşil leke gibi okunuyordu.
+    #   ⇒ 8, "aynı renk sanılmasın" eşiği; 12 "komşuyu ayır" eşiği. İkisi ayrı
+    #     iştir ve tek sayıya indirilince biri feda ediliyor.
+    # ⚠️ Kırmızı aile (ton 70°-330° dışı) yine elendi — VERI-YAPISI.md:184.
+    # Ölçüm: görünmez 10 → 10 · çakışma 56 → 56 · aynı-hex 0 → 0.
+    # Artefakt: denetim/oneri-asya-parti1b.txt
+    "mogulistan":              ("Moğulistan (Doğu Çağatay Hanlığı)", "#4254ae"),
+    "mac-hanedani":            ("Mạc Hanedanı (Đại Việt)",           "#5a42ae"),
+    "malay-sultanliklari":     ("Malay Sultanlıkları",               "#78ae42"),
+    "sind":                    ("Sind",                              "#a8ae42"),
+    "kesmir":                  ("Keşmir Sultanlığı",                 "#48ae42"),
+    "malva-sultanligi":        ("Mâlvâ Sultanlığı",                  "#8a42ae"),
+    "arakan":                  ("Arakan (Mrauk U) Krallığı",         "#42ae66"),
+    "ahom":                    ("Ahom Krallığı (Assam)",             "#ae9042"),
+    "bidar":                   ("Barîdşâhî Sultanlığı (Bîdar)",      "#426ca8"),
+    "ava":                     ("Yukarı Birmanya (Ava Krallığı)",    "#428aae"),
+    "lan-xang":                ("Lan Xang Krallığı (Laos)",          "#ba7842"),
+    "pagaruyung":              ("Pagaruyung (Minangkabau) Krallığı", "#42a8b4"),
+    "bali-kralliklari":        ("Bali Krallıkları",                  "#42b490"),
+    "timor-beylikleri":        ("Timor Beylikleri",                  "#78903c"),
+    "filipin-racaliklari":     ("Filipin Racalıkları",               "#368a78"),
+    "nepal":                   ("Nepal Krallığı",                    "#8a5a3c"),
+    "ladak":                   ("Ladakh Krallığı",                   "#a8c63c"),
+    "gond-kralliklari":        ("Gond Krallıkları",                  "#78c63c"),
+    "manipur":                 ("Manipûr Krallığı",                  "#3cc642"),
+    "berar":                   ("İmâdşâhî Sultanlığı (Berâr)",       "#3c3cc6"),
+    "kalikut":                 ("Kalikut Zamorinliği",               "#428a36"),
+    "travankur":               ("Travankur Krallığı",                "#723cc6"),
+    "kandy":                   ("Kandy Krallığı (Seylan)",           "#a23cc6"),
+    "yafna":                   ("Yafna (Jaffna) Krallığı",           "#603684"),
+    "san-devletleri":          ("Şan Beylikleri",                    "#9066c0"),
+    "lan-na":                  ("Lan Na Krallığı",                   "#36c6c0"),
+    "campa":                   ("Champa Krallığı",                   "#305a78"),
+    "angkor-kmer":             ("Kmer (Angkor) İmparatorluğu",       "#36cc72"),
+    "cohor-sultanligi":        ("Cohor (Johor) Sultanlığı",          "#7e723c"),
+    "palembang-sultanligi":    ("Palembang Sultanlığı",              "#303c78"),
+    "banten-sultanligi":       ("Banten Sultanlığı",                 "#78b46c"),
+    "banjar-sultanligi":       ("Bancar Sultanlığı",                 "#ccb430"),
+    "gova-makassar":           ("Gova (Makassar) Sultanlığı",        "#7eb4c6"),
+    "ternate-sultanligi":      ("Ternate Sultanlığı (Moluk)",        "#36d29c"),
+    "tidore-sultanligi":       ("Tidore Sultanlığı (Moluk)",         "#72ccc0"),
+    "banda-adalari":           ("Banda Adaları",                     "#d2d230"),
+    "magindanao-sultanligi":   ("Magindanao Sultanlığı",             "#426c30"),
+
+    # ═══════════════════════════════════════════════════════════════════════
+    # ASYA PARTİ 2 — 17. YÜZYIL, beş kimlik (VERİ KİMLİK 3)
+    # ═══════════════════════════════════════════════════════════════════════
+    # Sıra LİSTEDEN değil SAHNEDEN kuruldu. On dört kesit ölçüldü; 1600 · 1650 ·
+    # 1700'ün ÜÇÜ BİRDEN yalnız bu beş kimliği bekliyordu:
+    #   1600  adsız 2 (31 nokta) · 1650  adsız 4 (19 nokta) · 1700  adsız 2 (6 nokta)
+    # Kimlik başına getirisi en yüksek parti buydu — beş kayıt, üç kesit.
+    # Eşikler PARTİ 1b ile aynı: komşudan ΔE ≥ 12 · yeniler birbirinden ΔE ≥ 8 ·
+    # kırmızı aile (ton 70°-330° dışı) elendi.
+    # Artefakt: denetim/oneri-asya-parti2.txt
+    "azuchi-momoyama":         ("Azuchi-Momoyama (Oda-Toyotomi)",    "#6042ae"),
+    "guney-ming":              ("Güney Ming",                        "#429cae"),
+    "nguyen-beyligi":          ("Nguyễn Beyleri (Đàng Trong)",       "#4266b4"),
+    "hosut":                   ("Hoşut (Kokonor) Hanlığı",           "#427eae"),
+    "tungning":                ("Tungning Krallığı (Zheng)",         "#66b442"),
+
+    # ═══════════════════════════════════════════════════════════════════════
+    # THEODORO — Kırım'ın güneybatısı (VERİ KİMLİK 3, koordinatörün ek işi)
+    # ═══════════════════════════════════════════════════════════════════════
+    # PETEK/NOKTA oturumu Mankup ve İnkirman'ı bu anahtar yok diye EKLEYEMEDİ
+    # (data/yerlesimler_kirim.js:87). `bizans` yazmayı reddetmesi doğruydu:
+    # Bizans 1453'te biter, Theodoro 1475'e kadar sürer — CLAUDE.md §3.5.
+    #
+    # 🔴 ÖLÇÜM ELLE YAPILDI ve SEBEBİ ÖLÇÜLDÜ: `teodoro` CANLI veride YOK
+    #   (`yerlesimler_kirim.js` girdi.py'nin izin listesinde değil), bu yüzden
+    #   `renk_olc.py --oner` ona SIFIR komşu döner ve aracın kendi uyarısı
+    #   devreye girer: "komşusu ölçülemeyen kimlik … öneri yalnız altlık ve
+    #   Osmanlı ikilisine dayanır" = DAYANAKSIZ. Komşu kümesi koordinatörün
+    #   bildirdiği hâliyle kullanıldı: ceneviz · bizans · kirim · altinorda
+    #   (+ Osmanlı ikilisi). Ölçüm bindirilmiş renk üzerinden.
+    #
+    #   #42ba42  ton 135,0°  L* 78,3   ΔE:  ceneviz 32,9 · bizans 49,2
+    #            kirim 37,3 · altinorda 43,8 · OSMANLI doğrudan 75,3 ·
+    #            OSMANLI tâbi 62,8 · ALTLIK 32,9        (eşikler 12 / 15)
+    #
+    # ⚠️ NEDEN "SINIRDA GEÇEN" DEĞİL, EN GENİŞ MARJLI SEÇİLDİ: bu kimliğin
+    #   verisi canlı olmadığı için `renk_olc.py` onu BUGÜN ölçemiyor —
+    #   global tarama onu "ölçülemedi" kutusunda tutuyor. Sınırda geçen bir
+    #   renk (uyum sırasının başı #4248ae, bizans'a ΔE 12,7) yanlış çıksa
+    #   denetim onu YAKALAYAMAZDI. Ölçülemeyen kimlikte marj, denetimin
+    #   yerine geçer. `uyum() ≤ 0,05` havuzu içinde en geniş marjlı alındı;
+    #   yani palet ölçütü korundu, yalnız eşitler arasında tercih değişti.
+    # 📌 Veri canlıya alınınca (Mankup + İnkirman eklenip yerlesimler_kirim.js
+    #   girdi.py'ye girince) `py arac/renk_olc.py` bunu KENDİ ölçecek —
+    #   o koşuda görünmez/çakışma sayıları ARTMAMALI.
+    "teodoro":                 ("Theodoro Prensliği (Mankup)",       "#42ba42"),
 }
