@@ -1,6 +1,11 @@
-# MOTOR 2 — koşu 4,7 saat: nerede yanıyor, kısaltılabilir mi
+# MOTOR 3 — koşu 4,7 saat: nerede yanıyor, kısaltılabilir mi
 
-**Model: Opus.** Ölçüm ve mimarî karar işi; "hızlandır" demek kolay,
+**Model: Opus.** Ölçüm ve mimarî karar işi
+
+📌 *MOTOR 2 (Fable) kapatıldı. Bu onun devamı değil, ve kasten değil:*
+*① bu iş Fable'ın değil Opus'un işi ② MOTOR 2'nin kendi hipotezi*
+*("petek aşaması >6×") burada TEST EDİLECEK — bir hipotezi onu kuran*
+*oturuma doğrulatmak en zayıf denetimdir (`YASALAR F6`).*; "hızlandır" demek kolay,
 **neyi bozmadan** hızlandırılacağını bulmak zor.
 
 ## 🔴 AÇILIŞ — yalnız bunlar
@@ -15,7 +20,7 @@
 
 ## 🔴 DURUM DAMGASI
 ```
-BAŞLARKEN   py <ClaudEmre>/kutu/ekip.py "<proje>" "MOTOR 2" calisiyor "not"
+BAŞLARKEN   py <ClaudEmre>/kutu/ekip.py "<proje>" "MOTOR 3" calisiyor "not"
 SORU VARSA  ...aynı komut... soru "…"        🔴 kutuda KIRMIZI
 BİTİNCE     ...aynı komut... hazir "…"
 ```
@@ -23,7 +28,7 @@ BİTİNCE     ...aynı komut... hazir "…"
 ## 🔴 YAZMA YETKİN
 ```
 arac/uret_petek.py   ← yalnız bu
-oturumlar/MOTOR-2-KALIBRASYON-ILERLEME.md
+oturumlar/MOTOR-3-KALIBRASYON-ILERLEME.md
 ```
 🔴 **`arac/uret_petek.py`yi ÇALIŞTIRMA.** Koşuyu yalnız Oturum 0
 tetikler. Sen **ölçersin ve yamayı yazarsın**; koşuyu o dener.
@@ -120,7 +125,7 @@ sonra hedef konuşuruz.**
 
 ---
 
-## TESLİMAT — `MOTOR-2-KALIBRASYON-ILERLEME.md`
+## TESLİMAT — `MOTOR-3-KALIBRASYON-ILERLEME.md`
 
 ```
 ① aşama zamanlayıcısı yaması (yazıldı, denenmedi — Oturum 0 deneyecek)
