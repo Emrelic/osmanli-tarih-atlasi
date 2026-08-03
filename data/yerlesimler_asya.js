@@ -2793,7 +2793,7 @@ window.YERLESIMLER_ASYA = [
 { ad:"Nagazaki", tur:"liman", lat:32.7500, lon:129.8780, g:2, k:0, d:[],
   kur:"1571-01-01",
   s:[{f:"1571-01-01", t:"1580-06-09", d:"azuchi-momoyama"},
-     {f:"1580-06-09", t:"1587-07-24", d:"portekiz"},
+     {f:"1580-06-09", t:"1587-07-24", d:"portekiz", enklav:true},
      {f:"1587-07-24", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
