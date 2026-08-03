@@ -245,3 +245,39 @@ SEN   Osmanlı çizgisi · toprak kazançları · kronoloji hataları
 BEN   öteki memleketler · kimlikler · içerik eksenleri · motor · denetim
 ```
 İkimiz aynı yere bakarsak **aynı işi iki kez öderiz.**
+
+
+---
+
+# V. KOŞU 9'UN YÜKÜ — karar verildi, ölçüm bekliyor
+
+## 🔴 HARİTA PENCERESİ KUZEYE AÇILIYOR
+Emre, 4 Ağustos: *"haritanın kuzey sınırı kuzey kutup noktası olsun ya da
+kuzey kutup dairesi olsun. Yani kara parçalarının hepsini istiyorum —
+İzlanda, Norveç'in Skarsvåg adası, Mehamn, Gamvik, Novaya Zemlya,
+Severnaya Zemlya, Rudolf Island."*
+
+```
+bugün    uret_petek.py:60   box(-12, -11, 146, 64)
+sonra                       box(-12, -11, 146, 82)   Rudolf Adası 81,8°K
+```
+⚠️ Bugün **çizilmeyenler**: Tromsø · Narvik · Luleå · Oulu · Kajaani ·
+bütün Lapland · İzlanda · Novaya Zemlya · Severnaya Zemlya · Frans Josef.
+PETEK/NOKTA İskandinavya adaylarını **bu sınıra göre kesti** (parti 18).
+
+📌 MOTOR 3'ün *"+%14 köşe → aşamaya +%3,3"* ölçümü **enlem değil karmaşıklık**
+eksenindeydi. Kuzeyi açmanın gerçek maliyeti **ÖLÇÜLMEDİ.**
+⇒ MOTOR 3 ölçecek: 82°K penceresi kaç köşe · kaç ada bileşeni · kaç saniye.
+  Sayı gelince koşu 9'da açılır.
+
+## Koşu 9'da birlikte inecekler
+```
+① pencere 64°K → 82°K              (ölçüm sonrası)
+② yerlesimler_ek5 · ek6 · ek7      Gyula · Don bozkırı 3 · İskandinavya 39
+③ estonya kimliği + 4 nokta        VERİ KİMLİK 3 → PETEK/NOKTA
+④ Arkîko ada yetimi çaresi         MOTOR 3 ölçüyor
+⑤ SINIRDA üçü                      ming↔tibet · isveç↔rusya · danimarka↔norveç
+```
+🔴 **Kuzey açılınca İskandinavya partisi YENİDEN ölçülmeli** — bugünkü
+`12.948 km²/nokta` 64°K kutusunun içindi; Lapland girince payda büyüyecek
+ve oran kötüleşecek. PETEK/NOKTA'ya ikinci bir parti gerekir.
