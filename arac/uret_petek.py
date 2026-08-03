@@ -2155,12 +2155,127 @@ js += ("window.URETIM_IZI = "
 # (bugün üç elle kopya temizlendi; dördüncüsü burada açılmasın).
 js += ("window.VERI_SINIRI = "
        + json.dumps(list(BOLGE.bounds)) + ";\n")
+# ---------------- ÇIKTI KIYASI — "geçen koşuya göre ne oynadı" ----------------
+# 🔴 NİÇİN VAR (3 Ağustos 2026, koordinatör şartnamesi). `donemler.js` bir
+# koşuda 34.362 KB → 26.303 KB düştü (%24) ve bunu HİÇBİR DENETİM SORMADI:
+# `denetle.py` yalnız girdiyi okur, `denetle_yayin.py` izin TAZE olduğunu
+# doğrular, boyutun MAKUL olduğunu değil. Koordinatör elle yakaladı; bir
+# sonraki koşuda gerçek bir kusur olsa yine kimse sormayacaktı.
+#
+# 🔴 VE NİÇİN EŞİK YOK. Bu depoda sabit eşikler ölçülüp sonra motor altından
+# değişince çürüyor — `BOZUK_KIYI_TABAN = 32` (çöl tavanı eklenince
+# anlamsızlaştı, her koşu ✗ bastı) ve `_KUS_BEKLENEN` 8 ad (veri 1.579
+# noktaya çıktı, 44 "BEKLENMEDİK" üretti). *"%20'den fazla oynarsa uyar"*
+# tipi bir ölçüt tam bu sınıftır: %24'lük o düşüş MEŞRUYDU, eşik ilk günden
+# yanlış alarma dönerdi, ikinci koşuda susturulurdu, üçüncüde kimse bakmazdı.
+# ⇒ Ölçüt her zaman "GEÇEN SEFERE GÖRE"dir; sabit sayı yoktur.
+#
+# 🔴 VE ASIL ÖLÇÜ BOYUT DEĞİL. Boyut yalnız bakmaya sevk eder; teşhisi
+# TARİH KESİTİ verdi: *"1453'e kadar fark sıfır, 1517'de başlıyor"* — yani
+# Osmanlı Mısır ve Arabistan'a girdiği an. Otomatikleşen şey teşhistir.
+#
+# ⚠️ BU BİR KAPI DEĞİL, TEŞHİSTİR: üretimi DURDURMAZ, hüküm VERMEZ.
+# "Bu sapma meşru mu" sorusunun cevabı her seferinde insanda kalır —
+# bugün olduğu gibi. Rapor eder, yorumlamaz.
+OLCU_KESIT = ["1300-06-15", "1400-06-15", "1453-05-29", "1500-06-15",
+              "1517-07-06", "1600-06-15", "1700-06-15", "1800-06-15",
+              "1900-06-15"]
+
+
+def _alan_g(dnm, g):
+    """g gününde yürürlükteki dönemin (doğrudan, tâbi) alanı."""
+    for d in dnm:
+        if d["f"] <= g < d["t"]:
+            return d.get("ao", 0), d.get("av", 0)
+    return None, None
+
+
+def _onceki_olcu():
+    """Önceki koşunun ölçüsü. `URETIM_OLCU` varsa oradan (ucuz), yoksa eski
+    `DONEMLER`den türetir — böylece bu yamanın İLK koşusu da kıyaslanabilir."""
+    if not os.path.exists(CIKTI):
+        return None
+    try:
+        _e = io.open(CIKTI, encoding="utf-8").read()
+    except Exception:
+        return None
+
+    def _pencere(ad):
+        a = f"window.{ad} = "
+        i = _e.find(a)
+        if i < 0: return None
+        j = _e.find(";\n", i + len(a))
+        if j < 0: return None
+        try:
+            return json.loads(_e[i + len(a):j])
+        except Exception:
+            return None
+
+    o = _pencere("URETIM_OLCU")
+    if o: return o
+    d = _pencere("DONEMLER")
+    if not d: return None
+    return {"donem": len(d),
+            "kesit": {g: list(_alan_g(d, g)) for g in OLCU_KESIT}}
+
+
+asama("Çıktı kıyası (geçen koşuya göre)")
+_OLCU = {"donem": len(donemler), "nokta": len(YERLER),
+         "kesit": {g: list(_alan_g(donemler, g)) for g in OLCU_KESIT}}
+_esk = _onceki_olcu()
+if _esk is None:
+    print("  önceki çıktı yok ya da ölçüsü okunamadı — KIYAS YAPILAMADI")
+    print("  (bu yamanın ilk koşusuysa normaldir; sonraki koşu kıyaslar)")
+else:
+    print(f"  dönem  {_esk.get('donem','?')} → {_OLCU['donem']}"
+          + (f"   ·   nokta {_esk['nokta']} → {_OLCU['nokta']}"
+             if _esk.get("nokta") else ""))
+    _oyn = []
+    for _g in OLCU_KESIT:
+        _a = (_esk.get("kesit") or {}).get(_g)
+        _b = _OLCU["kesit"][_g]
+        if not _a or _a[0] is None or _b[0] is None:
+            print(f"    {_g}   —  kesit karşılaştırılamadı")
+            continue
+        _d = _b[0] - _a[0]
+        _p = (_d / _a[0] * 100) if _a[0] else 0.0
+        print(f"    {_g}   doğrudan {_a[0]:>11,} → {_b[0]:>11,} km²  "
+              f"{_d:>+11,} ({_p:+5.1f}%)")
+        if _d: _oyn.append((_g, _d, _p))
+    # ⚠️ İLK SAPMA GÜNÜ — teşhisi veren satır budur, toplam fark değil.
+    _ilk = None
+    for _d in donemler:
+        _a = (_esk.get("kesit") or {}).get(_d["f"])
+        if _a is None: continue
+        if _a[0] != _d.get("ao"):
+            _ilk = (_d["f"], _d.get("ao", 0) - _a[0]); break
+    if not _oyn:
+        print("  → BÜTÜN KESİTLER AYNI. Girdi değiştiyse bu da bir haberdir: "
+              "değişiklik boyanan alana yansımamış.")
+    else:
+        _en = max(_oyn, key=lambda x: abs(x[1]))
+        print(f"  → SAPMA VAR: {len(_oyn)}/{len(OLCU_KESIT)} kesit oynadı · "
+              f"en büyük {_en[0]} tarihinde {_en[1]:+,} km² ({_en[2]:+.1f}%)")
+        _once = [g for g in OLCU_KESIT if g < _oyn[0][0]]
+        print(f"  → ilk oynayan kesit {_oyn[0][0]}"
+              + (f"; ondan önceki {len(_once)} kesitte fark YOK" if _once else "")
+              + (f" · ilk sapan dönem başlangıcı {_ilk[0]} ({_ilk[1]:+,} km²)"
+                 if _ilk else ""))
+        print("  ⚠️ Bu bir HÜKÜM DEĞİL. Sapma meşru olabilir (yeni nokta, yeni "
+              "renk, kasıtlı sahipsiz dolgu) ya da olmayabilir — kararı veren "
+              "sensin. Sapmanın BAŞLADIĞI TARİH sebebi gösterir.")
+js += ("window.URETIM_OLCU = "
+       + json.dumps(_OLCU, separators=(",", ":"), sort_keys=True) + ";\n")
+
 _muhru_dogrula("data/donemler.js")
 girdi.izi_dogrula(_GIRDI_IZI, "data/donemler.js")
 # Damganın DOĞRU olması yetmez, KORUNMASI da gerek: kod koşu sırasında
 # değiştiyse çıktı karışık koddan üretilmiş olabilir. Girdiyle aynı
 # felsefe — sessiz geçiş yok.
 girdi.motor_izi_dogrula(_MOTOR_IZI, "data/donemler.js")
+# Kıyas aşaması bittiyse dosya yazımı ONUN hanesine yazılmasın — 26 MB'lık
+# yazım kıyasın maliyeti değil. (Bu dosyanın bütün derdi doğru etiket.)
+asama("donemler.js yazımı")
 open(CIKTI, "w", encoding="utf-8").write(js)
 
 print(f"Dönem sayısı: {len(donemler)}")

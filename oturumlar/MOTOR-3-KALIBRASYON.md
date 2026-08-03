@@ -177,9 +177,22 @@ py arac/uret_petek.py      → data/donemler.js · devletler_harita.js · bolgel
                              · petek_govde.js · veri-kaynak/motor_kara.geojson
 py arac/uret_altlik.py     → data/altlik.js      ⚠️ motor_kara.geojson'u OKUR
 py arac/uret_devirler.py   → data/devirler.js
+── ÇIKTI DENETİMLERİ ──────────────────────────────────────────────────
+py arac/denetle_bitisiklik.py    ⎫ ÜÇÜ DE ÇIKTIYI OKUR — atlanırsa
+py arac/denetle_bosluk.py        ⎬ haritanın kendisi HİÇ sınanmamış olur
+py arac/denetle_gorunurluk.py    ⎭
+──────────────────────────────────────────────────────────────────────
 py arac/denetle_yayin.py   → tazelik kapısı
 py arac/surum_damgala.py   → index.html ?v=rNN
 ```
+
+🔴 **`denetle.py` BU ZİNCİRİN ÇIKTI KAPISI DEĞİLDİR — ölçüldü (3 Ağustos).**
+Yalnız `girdi.yukle()` ve `olaylar*.js` okur; `donemler.js` ·
+`devletler_harita.js` · `bolgeler.js` · `petek_govde.js` dosyalarını **hiç
+açmaz.** Bir motor yaması haritayı tamamen bozsa da `denetle.py` aynı satırı
+basar. Girdi denetimidir ve öyle kalmalıdır — ama **çıktı kanıtı diye
+kullanılamaz.** 3 Ağustos yayınında tam bu olmuştu: yayın, çıktı tarafı hiç
+sınanmadan yapıldı; sonuç iyi çıktı ama bu şanstı.
 
 ⚠️ **`uret_altlik.py` ATLANIRSA altlık ESKİ kıyı maskesiyle kalır.**
 Sebep: `uret_petek.py` her koşuda `veri-kaynak/motor_kara.geojson`u yeniden

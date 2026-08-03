@@ -530,3 +530,46 @@ Koşu ölçtü, çift yönlü nöbetçinin ALT dalı yakaladı. Ayrıntı §⑥.
 ```
 ⚠️ ①/②/taban üçü de yalnız `print` ve maske **birebir aynı** ölçüldü;
 `denetle.py` çıktısı değişmemeli.
+
+## ⑧ ÇIKTI KIYASI — yazıldı (koordinatör şartnamesi, 3 Ağustos)
+
+`donemler.js` bir koşuda %24 oynadı ve **hiçbir denetim sormadı**. Sebep
+ölçüldü: `denetle.py` yalnız `girdi.yukle()` ve `olaylar*.js` okuyor —
+`donemler.js` · `devletler_harita.js` · `bolgeler.js` · `petek_govde.js`
+dosyalarını **hiç açmıyor**. Yani bir motor yaması haritayı tamamen bozsa
+`denetle.py` yine aynı satırı basardı.
+
+⚠️ Bu, bu oturumun kabul ölçütünü de etkiliyor: görev tanımındaki
+*"`denetle.py` sonucu birebir aynı olmalı"* şartı, bu yama sınıfı için
+**yanlış kapıdır**. Yamaların doğruluğu ondan değil, hedefli sınavlardan
+geliyor (önbellek 25 tarih fark 0 · ızgara 189.600 hücre fark 0 · zamanlayıcı
+yalnız `print` · `_PETEK_MUHUR` ateşlemedi) ve bir canlı işaretten: kosu3
+`kuşatılmışlık devri: 2126 epok-vaka, 50 yerleşim` bastı — koşu 1 ile
+**birebir aynı satır**, girdi büyümüş olmasına rağmen.
+
+### Tasarım — ve niçin EŞİK YOK
+```
+① ölçüt her zaman "GEÇEN SEFERE GÖRE"     sabit sayı yok
+② teşhis TARİH KESİTİdir, boyut değil     sapmanın BAŞLADIĞI gün sebebi gösterir
+③ çift yönlü                              büyüme · küçülme · "hiç oynamadı"
+④ üretimi DURDURMAZ                       teşhis, kapı değil
+⑤ rapor eder, YORUMLAMAZ                  "meşru mu" sorusu insanda kalır
+```
+🔴 Sabit eşik bu depoda üçüncü kez ölürdü: `BOZUK_KIYI_TABAN = 32` çöl tavanı
+eklenince anlamsızlaştı, `_KUS_BEKLENEN` 8 ad veri büyüyünce çürüdü.
+*"%20'den fazla oynarsa uyar"* tipi bir ölçüt, %24'lük MEŞRU düşüşü ilk günden
+yanlış alarma çevirir; ikinci koşuda susturulur, üçüncüde kimse bakmaz.
+
+`window.URETIM_OLCU` çıktıya yazılır (dönem · nokta · 9 tarih kesiti);
+sonraki koşu onu okur. Yoksa eski `DONEMLER`den türetir — yamanın ilk koşusu
+da kıyaslanabilsin diye.
+
+### Sınandı — gerçek 26 MB `donemler.js` üzerinde, üç dal
+```
+(a) aynı çıktı        → "BÜTÜN KESİTLER AYNI"                          ✓
+(b) yapay sapma       → 1517'den −%10 verildi; çıktı "ilk oynayan kesit
+    1517-07-06; ondan önceki 4 kesitte fark YOK" dedi                  ✓
+(c) önceki dosya yok  → çökmeden "KIYAS YAPILAMADI"                    ✓
+```
+📌 (b) koordinatörün **elle** yaptığı teşhisin biçimini birebir üretti. Ayrıca
+kesit değerleri onun elle ölçtükleriyle çakışıyor (1517-07-06 → 2.484.000 km²).

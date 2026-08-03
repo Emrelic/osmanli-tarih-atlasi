@@ -98,7 +98,7 @@ _opaklik_dogrula()
 BOYALAR = {
     # ↑ Anadolu kümesi (bkz. `candar` üstündeki blok) · ton kayması  1,6°
     "bizans":     ("Bizans",                 "#4e3c81"),
-    "memluk":     ("Memlûk",                 "#c9a15b"),
+    "memluk":     ("Memlûk",                 "#f09087"),
     # 🔴 KAHVEDEN MOR AİLEYE ÇEKİLDİ (RENK oturumu, 2 Ağustos 2026; koordinatör
     # onayı + kullanıcı kuralı). Eski #b5885b kahveydi.
     # GEREKÇE — kullanıcının kendi kuralı: "ayrı renkler İran'ı üç ayrı devlet
@@ -122,7 +122,7 @@ BOYALAR = {
     # 23 engelin hepsinden ΔE ≥ 12 (en yakın: 17,1). `parma`ya 12,1 — komşu
     # DEĞİLLER (iran'ın 22 komşusu ölçüldü, Avrupa partisi içinde yok).
     "iran":       ("İran",                   "#fe84c6"),
-    "karakoyunlu":("Karakoyunlular",         "#4a5b6b"),
+    "karakoyunlu":("Karakoyunlular",         "#305d30"),
     "akkoyunlu":  ("Akkoyunlular",           "#48ae48"),
     # Irak'ın 1335-1411 penceresi `iran` battaniyesinin altındaydı: İlhanlı
     # ile Karakoyunlu arasındaki 76 yılın sahibi yazılı değildi. Duvarlar
@@ -130,8 +130,8 @@ BOYALAR = {
     # TDV CELÂYİRLİLER: 1340-1431, Hasan-ı Büzürg; Bağdat'ı Karakoyunlu
     # Kara Yûsuf aldı (devletler.js karakoyunlu kronolojisi de 1410 diyor).
     "celayirli":  ("Celâyirliler",           "#b5432f"),
-    "safevi":     ("Safevî İran",            "#6b4a7d"),
-    "gurcistan":  ("Gürcistan",              "#6b7da0"),
+    "safevi":     ("Safevî İran",            "#a56cab"),
+    "gurcistan":  ("Gürcistan",              "#1b75cf"),
     # Kullanıcı şikâyeti (hatalar 15 md.5): "1541-1545 Macaristan'da üç yeşil
     # leke, hangisi ne belli değil." Eski #4e7d46 yeşildi.
     # ⚠️ VERİLEN ADRES YANLIŞTI, ölçüldü: çift `macaristan ↔ rusya` diye
@@ -149,7 +149,7 @@ BOYALAR = {
     # ΔE ≥ 12 eşiği uygulanıyor ama mevcut paletin 112 çifti o eşiğin yarısının
     # altında. YAPILACAKLAR'da "palet stratejisi" olarak duruyor.
     "macaristan": ("Macaristan",             "#1e88e5"),
-    "avusturya":  ("Avusturya (Habsburg)",   "#d9c76a"),
+    "avusturya":  ("Avusturya (Habsburg)",   "#bdab3f"),
     # 🔴 GRİDEN MAVİYE (RENK oturumu, 2 Ağustos; koordinatör kararı).
     # Eski #9a9a9a altlıktan ΔE 12,2 — GÖRÜNMEZ. Ve mesele yalnız görünürlük
     # değildi: bu atlasta GRİ, "veri yok" rengidir. Kutsal Roma İmparatorluğu
@@ -179,11 +179,32 @@ BOYALAR = {
     # 🟢 YAN FAYDA: `almanya ↔ venedik` 11,4 → 19,5. Almanya'nın kalan TEK
     #   çakışmasıydı ve bu hamle onu da kapattı ⇒ almanya artık TEMİZ.
     "almanya":    ("Kutsal Roma / Almanya",  "#16c6fe"),
-    "lehistan":   ("Lehistan-Litvanya",      "#b56ba0"),
+    "lehistan":   ("Lehistan-Litvanya",      "#fc87c9"),
     "rusya":      ("Rusya",                  "#4f7d4f"),
-    "altinorda":  ("Altın Orda ve ardılları","#9e7d9e"),
-    "kazan":      ("Kazan Hanlığı",          "#c98f6b"),
-    "kirim":      ("Kırım Hanlığı bozkırı",  "#c9825b"),
+    # ═══ SON PARTİ — kalan 21 çakışma + 5 görünmez BİRLİKTE çözüldü ═══
+    # (RENK oturumu, 2026-08-03 · ①·② yazıldıktan SONRA güncel palete karşı)
+    #
+    # 30 kimlik oynadı · 21/21 çakışma kapandı · 5 görünmezin 5'i görünür oldu
+    # eşik 12 (kapanmanın istediği) · ortalama ton kayması 9,0° · S sert sınırlı
+    #
+    # 🔴 PAYLASIM SELF-CHECK BURADA KARAR ZORLADI — ve iki grup FARKLI çözüldü:
+    #   `safevi` → #a56cab ve `le-hanedani` ONU İZLEDİ. Bağ KORUNDU.
+    #      ölçüldü: le-hanedani yeni renkte komşularından ΔE 14,5 · altlık 26,3
+    #      ⇒ geçerli, ve palet bir hex tasarruf etti.
+    #   `timurlu` → #9c7563 ama `kamboc-kralligi`/`vijayanagara` İZLEYEMEDİ.
+    #      ölçüldü: ikisi de yeni renkte komşularından yalnız ΔE 10,1 alıyor
+    #      (eşik 12) ⇒ GEÇERSİZ. Eski hexlerinde kaldılar, beyan güncellendi.
+    # 📌 Aynı uyarı, iki farklı doğru cevap. Uyarının işi düzeltmeyi dayatmak
+    #   değil, SEÇİMİ görünür kılmak — ve seçim ancak ÖLÇÜLDÜKTEN sonra yapılır.
+    #
+    # ⚠️ `karadag` 102,7° kayıyor (tan → turkuaz): görünmezdi ve altlığın ton
+    #   ailesinden çıkmak zorundaydı. `memluk` 40,8°, `arnavutluk` 24,5°,
+    #   `kazan` 21,5°, `sardinya` 21,2° — kalanların 24'ü ±20° içinde.
+    # 📌 Ve bu parti "GÖRÜNMEZLİK TONU ZORLAR, ÇAKIŞMA ZORLAMAZ" kuralını
+    #   üçüncü kez doğruladı: büyük kaymaların hepsi görünmez olanlarda.
+    "altinorda":  ("Altın Orda ve ardılları","#873057"),
+    "kazan":      ("Kazan Hanlığı",          "#ff6f4b"),
+    "kirim":      ("Kırım Hanlığı bozkırı",  "#b45a1e"),
     # ═══ BALTIK/İSKANDİNAV KÜMESİ — beşi BİRLİKTE değişti (RENK, 2 Ağustos) ═══
     # 🔴 KÖK SEBEP: `almanya`nın beş çakışması vardı ve tek tek bakınca
     # çözülemiyordu (24 komşu, paletin EN KISITLI düğümü). Ölçünce görüldü ki
@@ -219,8 +240,8 @@ BOYALAR = {
     # Eski #b55b6b gül kırmızısıydı (H=349°, S=0.38) — kırmızı tonları Osmanlı
     # ailesine ayrılmıştır, yabancı devlete verilmez. Mora çekildi.
     "ingiltere":  ("Britanya",               "#7e3d8f"),
-    "fransa":     ("Fransa",                 "#5b74c9"),
-    "ispanya":    ("İspanya",                "#c98f4a"),
+    "fransa":     ("Fransa",                 "#7b99ff"),
+    "ispanya":    ("İspanya",                "#d59f63"),
     "portekiz":   ("Portekiz",               "#6b8ac9"),
     "granada":    ("Gırnata Emirliği",       "#7ba05b"),
     # 🔴 DEĞİŞTİ (RENK oturumu, 2 Ağustos). Eski #d98f5b turuncu-tandı ve
@@ -238,9 +259,9 @@ BOYALAR = {
     #   en yakın engel ΔE 19,0 (eski hâlde ispanya'ya 4,7) · altlıktan 27,9
     #   ton kayması 19,5° — turuncu-kızıl aile korundu, kimlik sürekliliği var.
     "hollanda":   ("Hollanda",               "#7e332a"),
-    "venedik":    ("Venedik",                "#4a8a8f"),
-    "ceneviz":    ("Ceneviz",                "#8a6b4a"),
-    "napoli":     ("Napoli / İki Sicilya",   "#a67ba0"),
+    "venedik":    ("Venedik",                "#51c0b1"),
+    "ceneviz":    ("Ceneviz",                "#633c0c"),
+    "napoli":     ("Napoli / İki Sicilya",   "#d23f78"),
     # 🔴 DEĞİŞTİ (RENK oturumu, 2 Ağustos). Eski #c9c1a3 soluk krem-altındı ve
     # İKİ kusuru birden taşıyordu:
     #   ① altlıktan ΔE **5,1** — paletin EN GÖRÜNMEZ rengi. Bej altlıkta
@@ -257,14 +278,14 @@ BOYALAR = {
     #   en yakın engel ΔE 13,7 · altlıktan 27,1 (eski 5,1 → 5,3 KAT görünür)
     "papalik":    ("Papalık",                "#2a4b1e"),
     "italya":     ("İtalya",                 "#74a074"),
-    "sovalye":    ("St. Jean Şövalyeleri",   "#b0a08a"),
-    "bulgaristan":("Bulgaristan",            "#7aa06a"),
-    "sirbistan":  ("Sırbistan",              "#6a8fa0"),
+    "sovalye":    ("St. Jean Şövalyeleri",   "#3c424b"),
+    "bulgaristan":("Bulgaristan",            "#2d6c0c"),
+    "sirbistan":  ("Sırbistan",              "#518790"),
     "bosna":      ("Bosna Krallığı",         "#8f7d5b"),
-    "arnavutluk": ("Arnavutluk",             "#8f5b7d"),
-    "yunanistan": ("Yunanistan",             "#6b9ec9"),
-    "romanya":    ("Romanya",                "#c9b56b"),
-    "karadag":    ("Karadağ",                "#9e8f6b"),
+    "arnavutluk": ("Arnavutluk",             "#f95ac3"),
+    "yunanistan": ("Yunanistan",             "#42bdff"),
+    "romanya":    ("Romanya",                "#6c6912"),
+    "karadag":    ("Karadağ",                "#18c9e1"),
     # ═══ KIZILDENİZ/HABEŞ/ARABİSTAN KÜMESİ — 11 renk BİRLİKTE değişti ═══
     # (RENK oturumu, 2026-08-03 · koordinatör onaylı · üç turda çözüldü)
     #
@@ -379,9 +400,9 @@ BOYALAR = {
     "finlandiya":   ("Finlandiya",            "#99a857"),
     "norvec":       ("Norveç",                "#5c6bc0"),
     # --- İtalya birliğinden (1861) önceki sahipler ---
-    "sardinya":     ("Sardinya-Piyemonte",    "#795548"),
-    "toskana":      ("Floransa / Toskana",     "#9575cd"),
-    "milanoduka":   ("Milano Dukalığı",        "#7986cb"),
+    "sardinya":     ("Sardinya-Piyemonte",    "#93392d"),
+    "toskana":      ("Floransa / Toskana",     "#b484f3"),
+    "milanoduka":   ("Milano Dukalığı",        "#515d9c"),
     # Hartum 1885'te düştükten sonra Sudan 14 yıl Mehdî Devleti'ndeydi;
     # yazılı olmadığı için bölge o pencerede haritada boş kalıyordu.
     # ↑ Kızıldeniz kümesi (bkz. `yemen` üstündeki blok) · kayma  0,1° · pay 20,2 · altlık 15,6
@@ -491,7 +512,7 @@ BOYALAR = {
     # "Timurlu idaresi" ne demek olduğu haritada anlaşılmıyordu (kullanıcı sordu).
     # Ankara Savaşı'ndan sonra Timur, aldığı yerlere kendi valilerini tayin etti;
     # Sivas 1408'e kadar Timurlu valisi Mezid Bey'in elinde kaldı. Ad açıldı.
-    "timurlu":         ("Timurlu valiliği",              "#8d6e63"),
+    "timurlu":         ("Timurlu valiliği",              "#9c7563"),
     "suleyman-celebi": ("Emîr Süleyman Çelebi (Rumeli)", "#570012"),
     "isa-celebi":      ("İsa Çelebi (Bursa)",            "#ff96a5"),
     "mehmed-celebi":   ("Çelebi Mehmed (Amasya)",        "#f90c15"),
@@ -500,7 +521,7 @@ BOYALAR = {
     # Tuna'nın iki yakası 1281-1878 boyunca tek gövde gibi görünüyordu. Yeşil
     # kimlik korundu ama parlaklık/doygunluk ayrıldı: Bulgaristan'a ΔE 33.
     "eflak":      ("Eflak Voyvodalığı",      "#4db34d"),
-    "bogdan":     ("Boğdan Voyvodalığı",     "#6b9e8a"),
+    "bogdan":     ("Boğdan Voyvodalığı",     "#24905a"),
     "lusignan":   ("Kıbrıs Krallığı (Lüzinyan)", "#8a6ba0"),
     # ⚠️ Orta Anadolu renkleri kasten doygun seçildi: önceki toprak tonları
     # (#a08a6b / #9e8a6b) arazi kabartma katmanının beji ile karışıyor ve
@@ -511,7 +532,7 @@ BOYALAR = {
     "eretna":     ("Eretna Beyliği",          "#5dc38a"),
     # ↑ Anadolu kümesi (bkz. `candar` üstündeki blok) · ton kayması  0,6°
     "burhaneddin":("Kadı Burhâneddin Devleti","#155412"),
-    "artuklu":    ("Artukoğulları",           "#6b8a9e"),
+    "artuklu":    ("Artukoğulları",           "#18cca2"),
     "ahiler":     ("Ahi Birliği (Ankara)",    "#8f7d5b"),
     # --- kullanıcının sorduğu, haritada temsili olmayan beylikler ---
     "cobanogullari":  ("Çobanoğulları",        "#4a8f8f"),
@@ -533,7 +554,7 @@ BOYALAR = {
     # bağlandı, 1427'de ilhak edildi. Ordu-Ünye kıyısı haritada noktasızdı.
     "haciemir":       ("Hacıemîroğulları (Ordu)", "#ef6c00"),
     "mutahharten":    ("Erzincan Beyliği (Mutahharten)", "#827717"),
-    "hafsi":      ("Hafsîler (Tunus)",        "#7d8f3a"),
+    "hafsi":      ("Hafsîler (Tunus)",        "#84bd51"),
     "zeyyani":    ("Zeyyânîler (Tilimsan)",   "#6ba0a0"),
     # --- Emîr Abdülkādir Devleti (Oturum 14'ün md.23 araştırması, Oturum 16 rengi)
     # Cezayir Ocaklığı 1830-07-05'te lağvedildi ama 27 kayıt `v:"Cezayir Ocaklığı
@@ -554,7 +575,7 @@ BOYALAR = {
     # OSMANLI (38 nokta-dönem), fransa (31), ispanya (1); metbûu Fas da sınırdaş.
     # Bindirilmiş ΔE — fransa 19,8 · fas 20,5 · ispanya 23,3 · Osmanlı tonları 26-33.
     "abdulkadir": ("Emîr Abdülkādir Devleti", "#26a69a"),
-    "atinadukaligi": ("Atina Dukalığı",       "#8a9e8a"),
+    "atinadukaligi": ("Atina Dukalığı",       "#81a86f"),
 
     # Kütahya·Konya·Karaman'ın 1832-1833 `isg:` örtüsü için. Mısır bu atlasta
     # hep Osmanlı tâbii olarak modellendiği için kendi kimliği hiç olmamıştı.
@@ -830,7 +851,7 @@ BOYALAR = {
     #   ölçütlerini taşımalı — komşudan ayrışma yetmiyor, görünürlük de şart.
     "babur-imparatorlugu":     ("Bâbürlü (Timurlu-Hint) İmparatorluğu", "#0288d1"),
     # ── #6b4a7d  [ASYA · ① EKSİK, gövde yok · zarf(-25,-17.5,159,74) teyitli]  ile paylaşımlı (safevi) · 1 kimlik
-    "le-hanedani":             ("Lê Hanedanı (Đại Việt)",            "#6b4a7d"),
+    "le-hanedani":             ("Lê Hanedanı (Đại Việt)",            "#a56cab"),
 
     # ═══════════════════════════════════════════════════════════════════════
     # ASYA PARTİ 1 — 1550 kesitinin 12 adsız kimliği (VERİ KİMLİK 3, 3 Ağustos)
@@ -1034,9 +1055,18 @@ PAYLASIM = {
                 "2026-08-03); kalan dördü birbirine komşu değil",
                 ["ace-sultanligi", "malaka-sultanligi",
                  "meiji-japonya", "ming-hanedani"]),
-    "#8d6e63": ("Asya partisi — timurlu ile paylaşımlı",
-                ["timurlu", "kamboc-kralligi", "vijayanagara"]),
-    "#6b4a7d": ("Asya partisi — safevi ile paylaşımlı (İran↔Vietnam, komşu değil)",
+    # 🟢 BEYAN GÜNCELLENDİ — self-check yakaladı (son parti, 2026-08-03).
+    #   `timurlu` #9c7563'e taşındı. İzleyenler TAŞINAMADI: ölçüldü, ikisi de
+    #   yeni renkte komşularından yalnız ΔE 10,1 alıyor (eşik 12).
+    #   ⇒ Bağ korunamadı, eski hexte kaldılar; ikisi birbirine komşu DEĞİL,
+    #     yani aralarındaki paylaşım hâlâ meşru.
+    "#8d6e63": ("timurlu buradan ayrıldı (son parti); kalan ikisi komşu değil",
+                ["kamboc-kralligi", "vijayanagara"]),
+    # 🟢 HEX GÜNCELLENDİ — bağ KORUNDU. Son partide `safevi` #a56cab'e taşındı
+    #   ve `le-hanedani` ONU İZLEDİ (ölçüldü: komşularından ΔE 14,5, altlık 26,3).
+    #   Kasıtlı paylaşımın nasıl korunacağının örneği: önder oynayınca izleyen
+    #   de oynar — ama ancak ölçüm izin veriyorsa.
+    "#a56cab": ("Asya partisi — safevi ile paylaşımlı (İran↔Vietnam, komşu değil)",
                 ["safevi", "le-hanedani"]),
     "#0288d1": ("Asya partisi — darfur ile paylaşımlı (babur görünürlük düzeltmesi)",
                 ["darfur", "babur-imparatorlugu"]),
