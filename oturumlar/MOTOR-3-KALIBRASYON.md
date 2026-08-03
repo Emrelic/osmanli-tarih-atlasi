@@ -65,6 +65,22 @@ verir, "hesabın başladığı an"ı değil. İlk işin bunu **kesinleştirmek.*
 
 ---
 
+## ⚠️ ZAMANLAMA UYARISI — taban ölçümün AYAĞININ ALTINDAN KAYABİLİR
+
+**VERİ KİMLİK 3 oturumu ŞU ANDA açık** ve `data/devletler.js`e **98 yeni
+kimlik** yazıyor. Senin ölçtüğün 4s41dk'lık koşu **bu kimlikler
+YOKKEN** yapıldı.
+
+```
+· ölçümlerini yaparken hangi devletler.js hâlini kullandığını YAZ
+  (git rev-parse HEAD ve devletler.js kayıt sayısı yeter)
+· "98 kimlik eklenince ne olur" sorusunu TAHMİNLE cevaplama —
+  ilişkiyi ölç: bugünkü kimlik sayısıyla süre arasında bir bağ var mı
+```
+📌 Bu bir engel değil **bedava deney**: kimlikler inince aynı ölçüm
+tekrarlanır ve ilişki doğrudan görünür. Ama tabanı **şimdi** kaydetmezsen
+o deney kaybolur.
+
 ## GÖREV ① — ÖNCE GÖRÜNÜRLÜK, sonra hız
 
 ```
