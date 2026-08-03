@@ -12,6 +12,35 @@ durum tablosunu güncelle.
 
 ---
 
+# 🆕 KARTVİZİT — "NASIL BİLİRDİNİZ" (kullanıcı isteği, 3 Ağustos 2026)
+
+> Şartname: **`PADISAH-KARTVIZITI.md`** (tam şema, üç kural, kademeler)
+
+Hükümdarın **ölüm tarihinde** kronolojide bir kart çıkar: künye +
+magazin + 🔴 `ovgu` / `yergi` / `tartisma`. Kullanıcının çerçevesi:
+*"imam soruyor ya, nasıl bilirdiniz diye."*
+
+```
+K1 padişahlar            36   liste hazır (padisahlar.js)
+K2 kaybeden şehzadeler  ~18   🔴 dizinde YOK, önce toplanacak
+K3 valide sultanlar     ~12   🔴 dizinde YOK (hanedan yalnız 3 kayıt)
+K4 sadrazamlar           20   dizinde var, kart alanı yok
+K5 komutan + denizci     25   dizinde var
+                        ───
+                        ≈111 kart
+```
+
+⚠️ **Tek ölçüt:** kart ölüm tarihine oturur; **ölüm tarihi bilinmeyene
+kart yapılamaz.** Kısıt değil, doğal filtre.
+🔴 **Üç kural:** ① kart 900 karakteri geçmez ② `ovgu`+`yergi`+`tartisma`
+üçü birden yazılır, biri yoksa "bulunamadı" denir ③ taraf tutulmaz,
+taraflar yazılır.
+
+📌 **Öncelik notu (`YASALAR G8`):** bu iş yeni pencere AÇMIYOR — mevcut
+pencerenin içini dolduruyor, listesi SONLU, ve ölüm tarihleri zaten
+kronolojide kırılma. O yüzden itiraz edilmedi ve **ANSİKLOPEDİ
+EKSENİ'nin BİRİNCİ kalemi** oldu (önceki sırada "kurumlar" birinciydi).
+
 # 🆕 İDARÎ KATMAN — kullanıcı isteği, 3 Ağustos 2026
 
 > *"Bölgeleri ülke, eyalet, sancak, vilâyet şeklinde bölelim… bir idarî
