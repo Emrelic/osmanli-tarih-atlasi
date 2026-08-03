@@ -150,6 +150,19 @@ GIRDI_DOSYALARI = [
     # 📌 Ucu de s:→s:, Degismez 2 borcu SIFIR. Sebte'nin 1581-01-01'i
     #    Oturum 0 tarafindan 1581-04-16'ya (Tomar Cortes) hizalandi.
     "yerlesimler_ek3.js",
+    # 4 nokta (PETEK/NOKTA parti 6, 3 Agustos 2026). IKISI KASTEN SAHIPSIZ
+    # dolgu -- BEKLENEN_SAHIPSIZ 55 -> 57 bu yuzden.
+    # 🔴 Hamad (Badiyetu's-Sam): olculdu, cevre vahalarin petegi cole
+    #    uzaniyordu ve 248.342 km2'nin %74'u OSMANLI boyaniyordu. Kimse
+    #    karar vermedi; "dokunmamak" tarafsiz degildi. Tek dolgu %74 -> %52.
+    # 🔴 Libya ic colu: ayni sinif, %64 -> ~%50. Orada zaten uc dolgu vardi,
+    #    yani karar coktan verilmisti; eksik olan tek hucreydi.
+    # 📌 Zaporojye Seci: `zaporojye` kimligi renkler.py ve devletler.js'te
+    #    AYLARDIR tamdi (kunye · pencere · olculmus ΔE 33,0) ama haritada
+    #    TEK METREKARESI YOKTU. Bu, ona verilen ILK GOVDE (33.669 km2).
+    # 📌 Sloboda bozkiri: YENI IDDIA TASIMIYOR -- zinciri Harkov'un birebir
+    #    aynisi, tek isi hucrenin cozunurlugunu 115 -> 67 km indirmek.
+    "yerlesimler_ek4.js",
     "yerlesimler_afrika.js",
     # 15 nokta (NOKTA EKLEME, 1 Ağustos 2026). Beş boşluğun ölçülmüş kapanışı:
     # Yukarı Macaristan 4 (Kassa·Eperjes·Tokaj·Sopron, ~28.000 km² 91 yıl yanlış

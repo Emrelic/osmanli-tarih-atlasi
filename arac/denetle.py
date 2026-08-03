@@ -82,7 +82,11 @@ BEKLENEN_YERLESIM = 968
 # Dumetulcendel, Teyma, Necid guneybatisi, Necid guneyi). Besi de KASTEN
 # sahipsiz -- Nefud/Rub'ul Hali ile ayni sinif. Bunlar delik ACMIYOR,
 # petek yildizini KESIYOR: kuzey Arabistan sifir noktaydi.
-BEKLENEN_SAHIPSIZ = 55
+# 55 -> 57: PETEK/NOKTA parti 6'nin iki KASTEN SAHIPSIZ dolgusu
+# (Hamad 33,05/40,28 · Libya ic colu 29,50/21,50). Delik degil, DELIGIN
+# ILACI: cevre vahalarin petegi cole uzanip orayi Osmanli boyuyordu.
+# Olculmus sabit: bir sahipsiz dolgu ~46.000-54.000 km2 dondurur.
+BEKLENEN_SAHIPSIZ = 57
 # 427 -> 432: Kirmanşah 1590-1603 (+2), Tarki tâbiiyeti (+2, mevcut günlere
 # oturdu), Kaheti tâbiiyeti (+2), Şirvan ara şehirleri (+0, mevcut günler),
 # Azak'ın 1637-1642 Kazak işgali (+2), Şehrizor 1554-01-01 -> 1554-08-22 (+0).

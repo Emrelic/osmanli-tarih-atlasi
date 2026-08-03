@@ -524,12 +524,6 @@ def main():
     BEKLEYEN = {
         "data/yerlesimler_avrupa.js":    "237 nokta, 15 kimlik renkler.py'de tanımsız",
         "data/yerlesimler_asya.js":      "344 nokta, 135 kimlik tanımsız + harita penceresi 62°D'de bitiyor",
-        # PETEK/NOKTA parti 6, 3 Ağustos 2026. Hamâd · Zaporojye Seçi ·
-        # Libya iç çölü · Sloboda bozkırı. Bağlanması BEKLENEN_SAHIPSIZ'i
-        # 55 → 57 çıkarıyor (ikisi kasten sahipsiz dolgu) ve bu, koşu
-        # 12:43'te girdinin anlık görüntüsünü aldıktan SONRA yazıldı —
-        # şimdi bağlamak YAYIN BAYAT verir. Önkoşul: yayın tamamlansın.
-        "data/yerlesimler_ek4.js":       "4 nokta, yayın sonrası bağlanacak (koşu anlık görüntüsünden sonra yazıldı)",
     }
 
     # 🔴 EMEKLİ ≠ BEKLEYEN. Bekleyen "önkoşul kapanınca BAĞLANACAK" vaadi
