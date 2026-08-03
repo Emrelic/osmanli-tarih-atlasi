@@ -2,6 +2,21 @@
 
 **Model: Sonnet.** Ölçüm değil uygulama işi; karar zaten verildi.
 
+## 🔴 AÇILIŞ — yalnız bunlar, başka hiçbir şey
+
+```
+① bu dosya (baştan sona)
+② CLAUDE.md  §7 dosya sahipliği
+③ ONCELIK.md §2 altı bütçe kuralı
+```
+
+⚠️ **`/claudemre-basla` ÇALIŞTIRMA.** O komut koordinatör komutudur;
+oturuma *"sen bu projenin koordinatörüsün"* der ve çekirdek + yasalar +
+proje arşivini yükler. İşçi oturumda iki zararı birden olur: oturum
+kendini koordinatör sanıp iş dağıtmaya kalkar, ve ihtiyacı olmayan
+onlarca sayfa boşuna okunur (`ONCELIK.md` §1).
+📌 **Senin açılışın bu dosyadır.** Koordinatör Oturum 0'dır, o da açık.
+
 ## 🔴 YAZMA YETKİN — yalnız bunlar
 
 ```
