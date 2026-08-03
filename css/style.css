@@ -646,6 +646,25 @@ body {
    ikisine de dokunulmuyor. */
 .sehir.yaklasan { opacity: 0.55; }
 .sehir.yaklasan .s-nokta { border-style: dashed; }
+/* p2/H-0010 (koordinatör, 3 Ağustos) — ASGARÎ İŞARETÇİ. `g:0` yerleşimlerin
+   %82'si — Sebte, Melilla, Balaklava, Yalta, Sudak gibi küçük ama gerçek
+   yerler bugüne kadar z≥5.2'ye kadar TAMAMEN görünmezdi. Seçici bir önem
+   ölçütü YOK (oturumlar/ASGARI-ISARETCI-OLCUM.md — iki aday ölçüldü, ikisi
+   de elendi), o yüzden ayrım iddia edilmiyor: isimsiz, soluk, küçük bir
+   nokta — HER zoom sınıfında (`#harita.cok-uzak/.uzak/.yakin` fark etmez,
+   bu yüzden ID'siz, düz sınıf seçicisiyle en sonda tanımlanıp önceki zoom
+   kurallarının üstüne biniyor). */
+/* ⚠️ `#harita` ÖNEKİ ŞART: `#harita.cok-uzak .sehir .s-nokta` (satır ~621)
+   ID taşıdığı için salt `.sehir.asgari .s-nokta`dan DAHA SPESİFİK olurdu
+   ve en uzak zoom'da 4px'i ezip 6px'e dönerdi — asgarînin "her zoom'da
+   aynı küçüklük" sözü orada bozulurdu. */
+#harita .sehir.asgari .s-nokta {
+  width: 4px; height: 4px;
+  opacity: 0.5;
+}
+.sehir.asgari .s-ad,
+.sehir.asgari .s-yontem,
+.sehir.asgari .s-fetih { display: none; }
 .sehir .s-yontem {
   font-size: 13px;
   line-height: 1;

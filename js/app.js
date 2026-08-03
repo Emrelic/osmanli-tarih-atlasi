@@ -1603,7 +1603,7 @@ function sehirGuncelle(t) {
   // ⇒ Doğrusu: anılanlar önce yerleşir (yani yerlerini KAPAR) ve kendi
   // aralarında da normal elenirler. Böylece `anilan` gerçekten koordinatöre
   // tarif ettiğim şey oluyor — ÖNCELİK YÜKSELTİCİ, muafiyet değil.
-  var yerlesenSehir = [], anilanSehir = [], yaklasanSehir = [];
+  var yerlesenSehir = [], anilanSehir = [], yaklasanSehir = [], asgariSehir = [];
   sehirOncelik.forEach(function (mi) {
     var m = sehirler[mi];
     var aktif = null;
@@ -1656,12 +1656,31 @@ function sehirGuncelle(t) {
       d = Math.max(d, 2);
       yalnizYaklasan = !oncedenGoruluyordu;   // sırf önizleme yüzünden mi görünüyor
     }
+    // p2/H-0010 (koordinatör, 3 Ağustos) — "ASGARÎ İŞARETÇİ". Ölçüldü:
+    // yerleşimlerin %82'si (1324/1615) `g:0` — yani bugünkü kural DIŞI
+    // değil KURALIN KENDİSİ. Sebte, Melilla, Balaklava, Yalta, Sudak gibi
+    // küçük ama gerçek yerler bu yüzden z≥5.2'ye kadar TAMAMEN görünmezdi.
+    // İki seçici ölçüt ölçüldü ve İKİSİ DE ELENDİ (oturumlar/ASGARI-
+    // ISARETCI-OLCUM.md): tur+kırılma → 534 aday (çok gevşek); kronolojide
+    // anılma sayısı → 8 örneğin 6'sı hiç anılmıyor (ölçüt "önemi" değil
+    // "veri eksikliğini" ölçüyor). ⇒ SEÇİCİ BİR ÖLÇÜT YOK, o yüzden ayrım
+    // İDDİA EDİLMİYOR: `g:0` olan HER yerleşim eşit, isimsiz, soluk bir
+    // nokta olarak HER zoomda görünür. Öncelik sırası (`sehirOncelik`)
+    // zaten g:0'ı en sona koyuyor, çakışma elemesi normal şehirleri asla
+    // itmez — aynı "gelecek işaretler listenin sonunda" deseni
+    // (p4/H-0013), üçüncü kullanımı.
+    var asgariMi = false;
     if (d < zoomEsigi()) {
-      if (m.ekli) { m.mk.remove(); m.ekli = false; }
-      return;
+      if (m.gecici) {
+        asgariMi = true;
+      } else {
+        if (m.ekli) { m.mk.remove(); m.ekli = false; }
+        return;
+      }
     }
 
-    var sinif = "sehir d" + d + (osmanliBaskentMi(m.s.ad, t) && d >= 3 ? " baskent" : "") +
+    var sinif = "sehir d" + d + (asgariMi ? " asgari" : "") +
+                (osmanliBaskentMi(m.s.ad, t) && d >= 3 ? " baskent" : "") +
                 (yaklasan[mi] && !anilan[mi] ? " yaklasan" : "");
     if (m.ic.className !== sinif) m.ic.className = sinif;
     // Pencere içindeyse: ediniliş yöntemi simgesi (⚔ ♜ 📜 🤝) ve kale ise 🏰.
@@ -1714,11 +1733,15 @@ function sehirGuncelle(t) {
     // ittirmiyor, yalnız üstüne kesikli/soluk rozeti biniyor.
     if (anilan[mi]) anilanSehir.push(m);
     else if (yalnizYaklasan) yaklasanSehir.push(m);
+    else if (asgariMi) asgariSehir.push(m);
     else yerlesenSehir.push(m);
   });
-  // Anılanlar başa, yaklaşanlar sona: üçü de `sehirOncelik` sırasını koruyor,
-  // yalnız gruplar bütün olarak öne/arkaya alınıyor (p4/H-0013 sözleşmesi).
-  yerlesenSehir = anilanSehir.concat(yerlesenSehir).concat(yaklasanSehir);
+  // Anılanlar başa, yaklaşanlar sona, asgarî işaretçiler EN sona: dördü de
+  // `sehirOncelik` sırasını koruyor, yalnız gruplar bütün olarak öne/arkaya
+  // alınıyor (p4/H-0013 sözleşmesi + p2/H-0010'un aynı deseni). Asgarî
+  // yaklaşandan bile geride — "bir yer var" bilgisi "yakında bir şey
+  // olacak" bilgisinden daha düşük öncelikli, ikisi çakışırsa yaklaşan kazanır.
+  yerlesenSehir = anilanSehir.concat(yerlesenSehir).concat(yaklasanSehir).concat(asgariSehir);
 
   // ---- İKİNCİ GEÇİŞ: çakışma elemesi, GERÇEK DOM kutusuyla ----
   // 🔴 İLK SÜRÜM KUTUYU TAHMİN EDİYORDU VE DAR ÇIKIYORDU. Ölçüldü (1302):

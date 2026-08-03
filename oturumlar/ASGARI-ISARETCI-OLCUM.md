@@ -1,8 +1,12 @@
-# ASGARÎ İŞARETÇİ — ölçüm (kod değil, öneri)
+# ASGARÎ İŞARETÇİ — ölçüm + UYGULANDI
 
 **Yazan:** ARAYÜZ 2 · 3 Ağustos 2026 · Koordinatörün sorusu: küçük petekli
 ama tarihsel önemli yerleşimler (Sebte, Melilla, Mersa'l-Kebîr, Mazagan,
 Balaklava, Yalta, Sudak, Boğaziçi) neden haritada görünmüyor.
+
+🔴 **GÜNCELLEME — Parça 1 yazıldı ve kalabalık kesitte ölçüldü** (aşağıda,
+"UYGULAMA SONRASI ÖLÇÜM" başlığı altında). Aşağıdaki ilk bölüm hâlâ
+KARAR ÖNCESİ ölçümdür, değiştirilmedi (§35: ölçüm kaydı silinmez).
 
 ---
 
@@ -135,3 +139,43 @@ kapatır (nokta görünür). Parça 2 olmadan kalan tek eksik: nokta var,
 üstüne tıklayınca/yakınlaşınca anlatacak bir şey yok — ama bu ARTIK
 "görünmüyor" değil "hikâyesi yazılmamış" sorunu, farklı ve daha kolay
 teşhis edilen bir sınıf.
+
+---
+
+## UYGULAMA SONRASI ÖLÇÜM — kalabalık kesitte okunabilirlik
+
+`js/app.js` (`sehirGuncelle`, yeni `asgariMi` dalı) + `css/style.css`
+(`.sehir.asgari`) yazıldı. `m.gecici` (zaten var olan `g:0` bayrağı)
+DOĞRUDAN kullanıldı — yeni bir veri alanı AÇILMADI.
+
+⚠️ **Ölçüm yöntemi notu:** bu oturumda Browser pane render etmiyordu
+(`document.hidden=true`, aynı bilinen kısıt). `haritaHazir`/`zoomEsigi`'yi
+elle enjekte edip `sehirGuncelle`'i GERÇEK veri üzerinde çalıştırdım —
+tahmin değil, kodun kendisini çalıştırıp DOM'dan ölçtüm.
+
+```
+z=6.3 (yakın)     asgari: 0    normal: 828   — beklenen: bu zoom'da
+                  g:0 noktalar zaten NORMAL yoldan görünüyor, asgari
+                  dalı hiç devreye girmiyor (tasarım gereği)
+z=6.0 (Istanbul)  toplam: 819 marker, hata yok
+z=4.8 (Ege)       asgari: 199  normal: 14   çakışan çift: 0
+z=3.5 (bütün      asgari: 379  normal: 2    çakışan çift: 0
+      imparatorluk)
+```
+Gerçek ekran (973×640, masaüstü boyutu) üzerinde **hiçbir çakışan çift
+YOK** — mevcut ikinci-geçiş çakışma elemesi asgarî noktalara da aynen
+uygulanıyor ve iş görüyor.
+
+🔴 **Ama dürüst bir uyarı — "çakışmıyor" ile "seyrek" AYNI ŞEY DEĞİL.**
+Bütün imparatorluk görünümünde (z=3.5) **379 nokta** ekranda; hiçbiri
+üst üste binmiyor ama bu, ege/dalmaçya gibi yoğun kesitlerde gözle
+"benekli/gürültülü" bir izlenim verebilir — 4px'lik solgun noktalar
+teker teker OKUNAKLI ama TOPLU hâlde göze bir doku gibi çarpabilir. Bu
+**estetik bir yargı**, çakışma testinin ölçemediği bir şey; ben
+"çakışma yok" diyebilirim, "göze hoş geliyor mu" diyemem — ekran
+görüntüsü alamadığım için bu turda GÖZLE doğrulayamadım.
+
+**Karar noktası:** çakışma sıfır, mekanizma çalışıyor, kod hazır. Yoğunluk
+öznel değerlendirmeni bekliyor — beğenmezsen geri alınacak kadar küçük
+bir değişiklik (`.sehir.asgari` CSS'i + `sehirGuncelle`'deki tek `if`
+dalı), commit'ten önce ekran görüntüsüyle de bakmanı öneririm.
