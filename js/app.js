@@ -3038,8 +3038,141 @@ function obGoster(o) {
     a.textContent = "📖 TDV İslâm Ansiklopedisi";
     ozel.appendChild(a);
   }
+  ekOkumaButonlariGuncelle(o);
   obPanel.classList.remove("gizli");
 }
+
+// ---------- EK OKUMA (sebep-sonuç · magazin) ve MERAK ----------
+// EK-OKUMA.md + MERAK.md: kronoloji maddesinin özet penceresinde, varsa,
+// üç kart türüne buton açılır. Veri dosyaları (`data/ekokuma.js`,
+// `data/merak.js`) bu satırlar yazıldığı gün HENÜZ YOK — içerik oturumları
+// yazacak; panel BOŞ VERİYLE çalışır hâlde kuruluyor.
+// 🔴 İKİ KURAL (koordinatör, ikisi de bağlayıcı):
+//   ① Buton yalnız kart VARSA çıkar — boş buton olmayan içeriği vaat eder.
+//   ② `kesinlik:"rivayet"` kart GÖRSEL olarak da ayrılır (zemin + rozet);
+//      metinde yazmak yetmez, hızlı geçen rozeti görür cümleyi görmez.
+//
+// Yükleme — ANSİKLOPEDİ EKSENİ Kural ①: bu iki dosya index.html'in statik
+// <script> listesinde YOK (ana yük onlarsız 19,8 MB); ilk özet penceresi
+// açılışında arka planda TEK SEFERLİK indiriliyor. Dosya henüz yoksa (404)
+// sessizce hiçbir şey olmaz — buton hiç çıkmaz. Dosya bir gün ortaya
+// çıkarsa (başka bir oturum yazınca) kod DOKUNULMADAN bir sonraki sayfa
+// yüklemesinde kendiliğinden çıkar.
+var EKOKUMA_DURUM = { yuklendi: false, deneniyor: false };
+function ekOkumaMerakYukle(biterse) {
+  if (EKOKUMA_DURUM.yuklendi || EKOKUMA_DURUM.deneniyor) { if (biterse) biterse(); return; }
+  EKOKUMA_DURUM.deneniyor = true;
+  var damga = (document.querySelector('script[src*="js/app.js"]') || {}).src || "";
+  var v = (damga.match(/v=(r\d+)/) || [])[1];
+  var kalan = 2;
+  function biri() { kalan--; if (kalan <= 0) { EKOKUMA_DURUM.yuklendi = true; if (biterse) biterse(); } }
+  [["data/ekokuma.js", "EKOKUMA"], ["data/merak.js", "MERAK"]].forEach(function (pair) {
+    var s = document.createElement("script");
+    s.src = pair[0] + (v ? "?v=" + v : "");
+    s.onload = biri;
+    s.onerror = biri;   // dosya henüz yok — sessiz, buton çıkmaz
+    document.head.appendChild(s);
+  });
+}
+
+// Bir kartın verilen kronoloji maddesine bağlı olup olmadığı — üç örnek
+// şema üç farklı bağlama alanı kullanıyor (dosyalardaki kendi örnekleri),
+// kod hepsini okuyor, tek bir ad dayatmıyor:
+//   sebep-sonuç `olay:[...]`   magazin `t` (tek tarih)   merak `baglanti:[...]`
+function ekKartBagliMi(kart, o) {
+  if (kart.tur === "magazin") return kart.t === o.t;
+  var liste = kart.olay || kart.baglanti || [];
+  return liste.indexOf(o.t) >= 0;
+}
+var EKOKUMA_TUR = {
+  "sebep-sonuc": { etiket: "🔗 Sebep-Sonuç", kaynak: function () { return window.EKOKUMA || []; } },
+  "magazin":     { etiket: "🎭 Magazin",     kaynak: function () { return window.EKOKUMA || []; } },
+  "merak":       { etiket: "❓ Merak",        kaynak: function () { return window.MERAK || []; } }
+};
+
+function ekOkumaButonlariGuncelle(o) {
+  var kutu = document.getElementById("ob-ekokuma-butonlar");
+  if (!kutu) return;
+  // İlk çağrıda veri yoksa yükle, gelince AYNI maddeyi yeniden çiz — buton
+  // "geldiğinde kendiliğinden çıkar."
+  if (!EKOKUMA_DURUM.yuklendi) {
+    ekOkumaMerakYukle(function () { if (aktifOlay === o) ekOkumaButonlariGuncelle(o); });
+  }
+  aktifOlay = o;
+  kutu.innerHTML = "";
+  Object.keys(EKOKUMA_TUR).forEach(function (tur) {
+    var eslesen = EKOKUMA_TUR[tur].kaynak().filter(function (k) { return k.tur === tur && ekKartBagliMi(k, o); });
+    if (!eslesen.length) return;
+    var b = document.createElement("button");
+    b.className = "ob-ek-btn";
+    b.textContent = EKOKUMA_TUR[tur].etiket + (eslesen.length > 1 ? " (" + eslesen.length + ")" : "");
+    b.addEventListener("click", function () { ekOkumaPenceresiAc(tur, eslesen); });
+    kutu.appendChild(b);
+  });
+}
+var aktifOlay = null;   // ekOkumaButonlariGuncelle'nin gecikmeli geri çağrısı için
+
+function ekEsc(s) {
+  return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+}
+function kesinlikRozeti(k) {
+  var YAZI = { kesin: "kesin", tartismali: "tartışmalı", iddia: "iddia", rivayet: "rivayet" };
+  return '<span class="ek-kesinlik ' + ekEsc(k || "") + '">' + ekEsc(YAZI[k] || k || "?") + "</span>";
+}
+function ekKartHtml(k) {
+  var rivayet = k.kesinlik === "rivayet";
+  var h = '<div class="ek-kart' + (rivayet ? " rivayet" : "") + '">';
+  h += kesinlikRozeti(k.kesinlik);
+  if (k.tur === "sebep-sonuc") {
+    h += "<h4>" + ekEsc(k.sebep && k.sebep.b) + " → " + ekEsc(k.sonuc && k.sonuc.b) + "</h4>";
+    if (k.bag) h += '<p class="ek-alt">' + ekEsc(k.bag) + "</p>";
+    if (k.metin) h += "<p>" + ekEsc(k.metin) + "</p>";
+    if (k.zincir && k.zincir.length) {
+      h += '<p class="ek-alt">İlgili: ' + k.zincir.map(function (id) {
+        return '<span class="ek-zincir-link" data-id="' + ekEsc(id) + '">' + ekEsc(id) + "</span>";
+      }).join(" ") + "</p>";
+    }
+  } else if (k.tur === "magazin") {
+    h += "<h4>" + ekEsc(k.baslik) + "</h4>";
+    if (k.metin) h += "<p>" + ekEsc(k.metin) + "</p>";
+    if (k.not) h += '<p class="ek-alt">' + ekEsc(k.not) + "</p>";
+  } else if (k.tur === "merak") {
+    h += "<h4>" + ekEsc(k.soru) + "</h4>";
+    if (k.kisa) h += "<p>" + ekEsc(k.kisa) + "</p>";
+    (k.goruşler || k.gorusler || []).forEach(function (g, i) {
+      h += '<div class="ek-goruş"><b>Görüş ' + (i + 1) + "</b>" + ekEsc(g.tez) +
+           (g.dayanak ? " — " + ekEsc(g.dayanak) : "") + "</div>";
+    });
+  }
+  if (k.kaynak) h += '<p class="ek-alt">Kaynak: ' + ekEsc(k.kaynak) + "</p>";
+  h += "</div>";
+  return h;
+}
+
+var ekokumaPencere = document.getElementById("ekokuma-pencere");
+function ekOkumaPenceresiAc(tur, kartlar) {
+  document.getElementById("ekokuma-baslik").textContent = EKOKUMA_TUR[tur].etiket;
+  var el = document.getElementById("ekokuma-icerik");
+  el.innerHTML = kartlar.map(ekKartHtml).join("");
+  // Zincir bağlantıları: sebep-sonuç kartları birbirine `zincir:` ile atıfta
+  // bulunuyor; tıklanınca AYNI pencerede o karta atlanıyor ("bu neyin
+  // sonucu, neye sebep oldu" gezinmesi — EK-OKUMA.md).
+  var linkler = el.querySelectorAll(".ek-zincir-link");
+  for (var i = 0; i < linkler.length; i++) {
+    linkler[i].addEventListener("click", function () {
+      var id = this.dataset.id;
+      var hedef = (window.EKOKUMA || []).filter(function (k) { return k.id === id; })[0];
+      if (hedef) ekOkumaPenceresiAc(hedef.tur, [hedef]);
+    });
+  }
+  ekokumaPencere.classList.remove("gizli");
+}
+document.getElementById("ekokuma-kapat").addEventListener("click", function () {
+  ekokumaPencere.classList.add("gizli");
+});
+ekokumaPencere.addEventListener("click", function (e) {
+  if (e.target === ekokumaPencere) ekokumaPencere.classList.add("gizli");
+});
 
 // ---------- Oynatma: zaman akışı ve olay-olay akışı ----------
 akisModu = document.getElementById("akis-modu");

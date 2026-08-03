@@ -91,6 +91,10 @@
       </div>
       <div id="ob-detay"></div>
       <div id="ob-ozel"></div>
+      <!-- EK-OKUMA.md + MERAK.md — buton yalnız kart VARSA çıkar (js/app.js).
+           data/ekokuma.js + data/merak.js ana yüke KATILMAZ, ilk gerektiğinde
+           arka planda yükleniyor. -->
+      <div id="ob-ekokuma-butonlar"></div>
     </section>
   </aside>
 </main>
@@ -136,6 +140,16 @@
     <p id="detay-metin"></p>
     <a id="detay-kaynak" target="_blank" rel="noopener"></a>
     <button id="detay-git">📍 Bu tarihe git</button>
+  </div>
+</div>
+
+<!-- EK-OKUMA.md (sebep-sonuç · magazin) + MERAK.md (tartışma) ortak penceresi.
+     `#dizin`in aynı deseni — yeni bir modal kalıbı icat edilmiyor. -->
+<div id="ekokuma-pencere" class="gizli">
+  <div id="ekokuma-kutu">
+    <button id="ekokuma-kapat" title="Kapat">✕</button>
+    <h3 id="ekokuma-baslik"></h3>
+    <div id="ekokuma-icerik"></div>
   </div>
 </div>
 
@@ -191,6 +205,7 @@
 <script src="data/yerlesimler_ortaasya2.js?v=r690"></script>
 <script src="data/yerlesimler_kirim.js?v=r690"></script>
 <script src="data/yerlesimler_seyrek.js?v=r690"></script>
+<script src="data/yerlesimler_ek2.js?v=r690"></script>
 <script>
   // Parti dosyalari KENDI kuresel degiskenlerini tanimliyor; app.js yalniz
   // window.YERLESIMLER okuyor. Birlestirme burada, TEK yerde yapilir --
@@ -202,7 +217,8 @@
     .concat(window.YERLESIMLER_EK || [])
     .concat(window.YERLESIMLER_ORTAASYA2 || [])
     .concat(window.YERLESIMLER_KIRIM || [])
-    .concat(window.YERLESIMLER_SEYREK || []);
+    .concat(window.YERLESIMLER_SEYREK || [])
+    .concat(window.YERLESIMLER_EK2 || []);
 </script>
 <script src="data/bolgeler.js?v=r690"></script>
 <script src="data/devletler_harita.js?v=r690"></script>

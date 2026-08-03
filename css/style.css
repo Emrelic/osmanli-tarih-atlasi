@@ -899,6 +899,83 @@ body {
 #btn-zoom { width: auto !important; padding: 0 10px; font-size: 13px !important; }
 #btn-zoom.pasif { opacity: 0.45; }
 
+/* ---------- EK OKUMA / MERAK — buton şeridi ve pencere ---------- */
+/* EK-OKUMA.md + MERAK.md: "buton yalnız kart VARSA çıkar." Şerit boşsa
+   `:empty` ile hiç yer kaplamıyor — olmayan bir içeriği vaat etmesin. */
+#ob-ekokuma-butonlar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid #d8c9a3;
+}
+#ob-ekokuma-butonlar:empty { display: none; border: none; padding: 0; margin: 0; }
+.ob-ek-btn {
+  background: var(--panel-koyu);
+  border: 1px solid var(--altin);
+  border-radius: 6px;
+  padding: 3px 9px;
+  font-size: 12px;
+  cursor: pointer;
+  color: var(--metin);
+}
+.ob-ek-btn:hover { background: #ffe9a8; }
+
+#ekokuma-pencere {
+  position: fixed; inset: 0; background: rgba(0,0,0,0.55);
+  display: flex; align-items: center; justify-content: center; z-index: 60;
+}
+#ekokuma-pencere.gizli { display: none; }
+#ekokuma-kutu {
+  background: var(--panel); border: 2px solid var(--altin); border-radius: 10px;
+  width: min(640px, 94vw); max-height: 84vh;
+  display: flex; flex-direction: column; padding: 16px 20px; position: relative;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+}
+#ekokuma-baslik { margin-bottom: 10px; padding-right: 24px; }
+#ekokuma-kapat {
+  position: absolute; top: 8px; right: 10px; border: none; background: none;
+  font-size: 18px; cursor: pointer; color: #6b5a33;
+}
+#ekokuma-icerik { overflow-y: auto; min-height: 0; font-size: 13px; line-height: 1.5; }
+
+.ek-kart {
+  border: 1px solid #d8c9a3;
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin-bottom: 12px;
+  background: var(--panel-koyu);
+}
+.ek-kart:last-child { margin-bottom: 0; }
+.ek-kart h4 { font-size: 13.5px; color: #6b4a1f; margin-bottom: 6px; }
+.ek-kart p { margin-bottom: 6px; }
+.ek-kart .ek-alt { font-size: 11.5px; color: #8a6d2f; }
+/* kesinlik rozeti — HER kartta görünür, "rivayet" en güçlü ayrım (kullanıcı:
+   "metinde yazmak yetmez; okuyan hızlı geçerken rozeti görür, cümleyi görmez") */
+.ek-kesinlik {
+  display: inline-block;
+  font-size: 10.5px;
+  font-weight: 600;
+  padding: 1px 7px;
+  border-radius: 9px;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.ek-kesinlik.kesin      { background: #dcecdd; color: #1a6b33; }
+.ek-kesinlik.tartismali { background: #fde8c8; color: #8a5a10; }
+.ek-kesinlik.iddia      { background: #f3d9d9; color: #8c3444; }
+/* rivayet: farklı ZEMİN de değişiyor, yalnız rozet değil — spesifikasyon şartı */
+.ek-kart.rivayet { background: #f2e6f5; border-color: #9c6bb0; }
+.ek-kesinlik.rivayet    { background: #9c6bb0; color: #fff; }
+.ek-goruş { border-left: 3px solid var(--altin); padding-left: 8px; margin-bottom: 8px; }
+.ek-goruş b { display: block; font-size: 12.5px; color: #4d3419; }
+.ek-zincir-link {
+  display: inline-block; font-size: 11.5px; color: #6b4a1f;
+  text-decoration: underline; cursor: pointer; margin-right: 8px;
+}
+
 /* ---------- Dizin penceresi ---------- */
 /* p2/H-0010: Hakkında penceresi (proje künyesi + BEKLEYENLER tablosu) ve
    düğmesi TAMAMEN kaldırıldı — kullanıcı: "Hakkında butonuna artık gerek

@@ -134,6 +134,11 @@ GIRDI_DOSYALARI = [
     #    Konjic, Zenitsa, Prusac, Kamengrad, Sanski Most) TDV'de mustakil
     #    madde tasimiyor. VERI ARASTIRMA oturumuna devredildi.
     "yerlesimler_seyrek.js",
+    # 3+ nokta (PETEK/NOKTA, VERI ARASTIRMA turu). Konice · Visoko ·
+    # Bogazici Rumeli yakasi. Saraybosna 2. en yakin nokta 49,3 -> 23,4 km
+    # (p3/H-0016 kapandi). Bogaz kuzeyinde kazanan artik BIZANS (7,0 km),
+    # Anadolu Hisari (13,5 km) degil -- p3/H-0001+H-0013.
+    "yerlesimler_ek2.js",
     "yerlesimler_afrika.js",
     # 15 nokta (NOKTA EKLEME, 1 Ağustos 2026). Beş boşluğun ölçülmüş kapanışı:
     # Yukarı Macaristan 4 (Kassa·Eperjes·Tokaj·Sopron, ~28.000 km² 91 yıl yanlış
