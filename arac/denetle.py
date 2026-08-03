@@ -78,7 +78,11 @@ BEKLENEN_YERLESIM = 968
 #   Ramletu Zellaf · Ma'tan es-Sarra · Tasili n'Accer
 # NOT: merkez oturum "Ramletu Murzuk GB" diye bildirdi, veride "Ramletu Murzuk"
 # yaziyor. Adi kumeden okudum, mesajdan degil - denetim veriye bakar.
-BEKLENEN_SAHIPSIZ = 50
+# 50 -> 55: PETEK/NOKTA parti 2'nin bes col dolgusu (Vadi Sirhan,
+# Dumetulcendel, Teyma, Necid guneybatisi, Necid guneyi). Besi de KASTEN
+# sahipsiz -- Nefud/Rub'ul Hali ile ayni sinif. Bunlar delik ACMIYOR,
+# petek yildizini KESIYOR: kuzey Arabistan sifir noktaydi.
+BEKLENEN_SAHIPSIZ = 55
 # 427 -> 432: Kirmanşah 1590-1603 (+2), Tarki tâbiiyeti (+2, mevcut günlere
 # oturdu), Kaheti tâbiiyeti (+2), Şirvan ara şehirleri (+0, mevcut günler),
 # Azak'ın 1637-1642 Kazak işgali (+2), Şehrizor 1554-01-01 -> 1554-08-22 (+0).

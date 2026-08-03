@@ -116,6 +116,24 @@ GIRDI_DOSYALARI = [
     # kimliğinin hepsi renkler.py'de tanımlı, yeni renk gerekmiyor. 58 dönemde
     # ocaklık ayrımı (Cezayir 23 / Tunus 21 / Trablus 14 nokta) geçirildi ve
     # tek açık kırılma üretmedi.
+    # 9 nokta (PETEK/NOKTA, 3 Agustos 2026). Kirim Hanligi 3 noktayla
+    # temsil ediliyordu: Bahcesaray-Kefe-Kerc. 70.868 km2 / 3 nokta =
+    # nokta basina 23.623 km2; Bati Anadolu 2.154 km2 -- 11 KAT SEYREK.
+    # Kullanicinin "cetvelle bolunmus Kirim" sikayeti (p3/H-0015, H-0022)
+    # o uc noktanin ORTA DIKMELERIYDI. Sekiz kontrol temiz, Degismez 2
+    # borcu 0, yeni renk gerekmedi.
+    "yerlesimler_kirim.js",
+    # 13 nokta (PETEK/NOKTA parti 2). Col 7 + Rumeli 6.
+    # 🔴 BESI KASTEN SAHIPSIZ (Vadi Sirhan, Dumetulcendel, Teyma, Necid
+    #    guneybatisi, Necid guneyi) -- BEKLENEN_SAHIPSIZ 50 -> 55 bu yuzden.
+    #    Bunlar delik degil, DELIGIN ILACI: kuzey Arabistan sifir noktaydi,
+    #    alti petek oraya 268-345 km'den uzanip tek noktada bulusuyordu
+    #    (p5/H-0007'nin "yildiz ucgen" gorunumu). En yakin nokta mesafesi
+    #    268 -> 87 km (3,1x).
+    # ⚠️ Saraybosna ve Bosna ucu KAPANMADI: gereken alti nokta (Visoko,
+    #    Konjic, Zenitsa, Prusac, Kamengrad, Sanski Most) TDV'de mustakil
+    #    madde tasimiyor. VERI ARASTIRMA oturumuna devredildi.
+    "yerlesimler_seyrek.js",
     "yerlesimler_afrika.js",
     # 15 nokta (NOKTA EKLEME, 1 Ağustos 2026). Beş boşluğun ölçülmüş kapanışı:
     # Yukarı Macaristan 4 (Kassa·Eperjes·Tokaj·Sopron, ~28.000 km² 91 yıl yanlış

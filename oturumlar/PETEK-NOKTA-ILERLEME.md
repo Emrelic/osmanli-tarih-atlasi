@@ -1,9 +1,20 @@
 # PETEK / NOKTA — ilerleme ve teslimat
 
 **Oturum:** PETEK/NOKTA · 3 Ağustos 2026 · Opus
-**Görev tanımı:** `oturumlar/PETEK-NOKTA-GOREV.md`
-**Yazdığı dosyalar:** `data/yerlesimler_kirim.js` (yeni) · bu dosya
-**Durum:** 🟢 HAZIR — Oturum 0 alabilir.
+**Görev tanımı:** `oturumlar/PETEK-NOKTA-GOREV.md` + koordinatörün 2. parti sevki
+**Yazdığı dosyalar:** `data/yerlesimler_kirim.js` · `data/yerlesimler_seyrek.js` · bu dosya
+
+| parti | konu | dosya | durum |
+|---|---|---|---|
+| 1 | Kırım — 9 nokta | `yerlesimler_kirim.js` | 🟢 **KAPANDI**, bağlanabilir |
+| 2a | Çöl / bozkır — 7 nokta (listenin ilk 5'i) | `yerlesimler_seyrek.js` | 🟢 **HAZIR** |
+| 2b | Rumeli/Anadolu maddeleri | `yerlesimler_seyrek.js` | 🔵 sürüyor |
+
+⚠️ `yerlesimler_seyrek.js` 2b ile **DEĞİŞECEK** — bağlamadan önce 2b'nin
+teslimini bekle, yoksa koşu bayat girdiyle çalışır (`CLAUDE.md §7`).
+`yerlesimler_kirim.js` ise donmuştur, bugün bağlanabilir.
+
+**Durum:** 🟢 Parti 1 ve 2a HAZIR — Oturum 0 alabilir.
 🔴 Commit/push YAPILMADI · `uret_petek.py` ÇALIŞTIRILMADI · başka hiçbir
 dosyaya dokunulmadı (`yerlesimler*.js`'in hiçbiri, `arac/`'ın hiçbiri).
 
@@ -303,4 +314,224 @@ kovalamak boşa koşu olurdu.
 🟡 VERİ      Gemlik/Kios ve Saroz kuzeyi — nokta bol, kusur veride
 🟡 NOKTA     Kafkasya (43-44K/41-44D, yarıçap 87-124 km) · Cezîre / Şam çölü
              (35-36K/37-43D, 65-84 km) · Doğu Anadolu (37-40K/40-43D, 62-80 km)
+```
+
+---
+---
+
+# PARTİ 2a — ÇÖL / BOZKIR (`data/yerlesimler_seyrek.js`, 7 nokta)
+
+## 🔴 ÖNCE BİR DÜZELTME — kendi itirazım yanlıştı
+
+Koordinatöre *"listenin ilk 5'i ile kapattığın maddeler aynı coğrafya değil"*
+diye yazdım. **Yarısı yanlıştı ve görselleri açınca anlaşıldı.**
+
+`p5/H-0007` ve `p5/H-0009`'un metninde yer bilgisi yok, yalnız görselde var.
+Görsellerin künye satırları:
+
+```
+H-0007-1.png   1517-01-02 · 29,41-31,90K / 37,35-40,14D · z5,8
+               "yıldız şeklinde üçken üçken görünümler"
+H-0009-1.png   1517-07-12 · 20,07-23,24K / 41,93-44,99D · z6,2
+               "işte bozuk görüntülere bir örnek daha"
+```
+
+⇒ **İkisi de tam olarak listemin ilk beşinin içinde.** Koordinatörün bağlantısı
+bu iki madde için DOĞRUYDU; benim itirazım yalnız p2/p3 maddeleri (Gemlik,
+Biga, Saroz, Gümülcine, Bosna, Dubrovnik) için geçerliydi.
+
+📌 Ders — ve `ONCELIK.md K4`'ün ta kendisi: **"görsel pahalıdır" kuralı,
+"görsel gereksizdir" demek değildir.** Metinde konum yoksa görsel TEK
+kaynaktır ve açılmadan verilen hüküm yanlış çıkar. İki görsel açıldı, itirazın
+yarısı düştü.
+
+## Teşhis — ölçüldü
+
+`H-0007` yıldızının merkezinde (30,5K/38,5D) **en yakın nokta 268 km ötede.**
+Altı petek oraya uzanıyor ve altı uzun ince Voronoi dilimi tek noktada
+buluşuyor — yıldız şekli tam olarak budur:
+
+```
+Maan 268 km · Kerak 278 · Amman 293 · Tebük 301 · Kudüs 342 · Nefud çölü 345
+```
+`H-0009` kamasının merkezinde (21,6K/43,5D) en yakın nokta **310 km** (Tâif).
+`box(29-33K / 37-43D)` — kuzey Arabistan'ın tamamı — bugün **sıfır nokta.**
+
+⇒ İkisi de `CLAUDE.md §2`, saf petek artefaktı. **Veri hatası değil.**
+
+## Eklenen 7 nokta
+
+| ad | lat, lon | tür | sahiplik | TDV |
+|---|---|---|---|---|
+| Tedmür (Palmyra) | 34,550 · 38,270 | şehir | **OSMANLI** (Şam eyaleti) | `tedmur` |
+| Dûmetülcendel (Cevf) | 29,812 · 39,868 | şehir | 1836 sammar → 1921 suud | `dumetulcendel` · `cevf` |
+| Vâdî Sirhân | 31,000 · 37,800 | bölge | 🔴 **kasten sahipsiz** | `dumetulcendel` |
+| Teymâ | 27,632 · 38,545 | şehir | 1836 sammar → 1921 suud | `teyma` |
+| Necid güneybatısı | 21,500 · 42,600 | bölge | 1744 suud zinciri | `necid` |
+| Necid güneyi | 21,000 · 45,000 | bölge | 1744 suud zinciri | `necid` |
+| Rın kumulları (Volga-Yayık) | 49,000 · 47,500 | bölge | altinorda → 1556 rusya | — (coğrafî dolgu) |
+
+**Tek Osmanlı kaydı Tedmür**, ve gerekçesi TDV `tedmur`un kendi cümlesi:
+*"XVI. yüzyıldan itibaren Şam eyaletine bağlı bir idarî merkez."* Zincir Şam'ın
+birebir aynısı.
+
+Ötekilerin zinciri komşularından kopyalandı: Dûmetülcendel ve Teymâ →
+**Hâil** (Şammar'ın başkenti, `yerlesimler.js:829`); Necid ikilisi →
+**Necid içi**; Rın kumulları → **Kalmuk bozkırı**.
+
+## Ölçülen etki
+
+```
+H-0007 merkezi (30,5K/38,5D)   268 km →  87 km   3,1× yakın   ← Vâdî Sirhân
+H-0009 merkezi (21,6K/43,5D)   310 km →  94 km   3,3× yakın   ← Necid güneybatısı
+③⑤ Hazar kuzeyi (49K/47D)      185 km →  37 km   5,1× yakın   ← Rın kumulları
+④ Bâdiye (33K/40D)             243 km → 180 km   1,4× yakın   ← Tedmür (KISMÎ)
+```
+
+## Kabul ölçütü — sekiz kontrol
+
+```
+① ayrıştırma 7/7 ✓   ② alan kütüğü temiz ✓   ③ renk 6/6 BOYALAR'da ✓
+④ ad çakışma 7/7 benzersiz ✓   ⑤ dönem sağlığı temiz ✓
+⑥ Değişmez 1: 2 kayıt kesintisiz + 5 KASITLI dolgu (aşağıda)
+⑦ Değişmez 2: kırılma günleri {1516-09-27, 1818-09-09, 1824-06-01,
+   1832-06-15, 1841-02-25, 1918-10-01} — ALTISI DA veride zaten var ✓
+   ⇒ MADDE BORCU SIFIR
+⑧ Değişmez 3: çelişki 0 ✓
++ maske 7/7 içeride ✓   + 3 km: en yakın çift 144,27 km (Tedmür ↔ Humus) ✓
+```
+
+🔴 **OTURUM 0 İÇİN UYARI — "kasten sahipsiz" sayacı 5 ARTIYOR.**
+```
+Vâdî Sirhân          tamamen sahipsiz  (Ruvale otlağı, hiçbir devlette değil)
+Dûmetülcendel        1281 → 1836 sahipsiz
+Teymâ                1281 → 1836 sahipsiz
+Necid güneybatısı    1281 → 1744 sahipsiz
+Necid güneyi         1281 → 1744 sahipsiz
+```
+Beşi de **kasıtlıdır ve dolgu noktasıdır** — `Nefud çölü`, `Necid içi`,
+`Rub'ul Hâlî kuzeyi` ile aynı sınıf. TDV `necid`in hükmü açık:
+*"bu coğrafyada tarihte etkin olmuş bir devlet ortaya çıkmamıştır."*
+⚠️ `denetle.py`'nin beklenen sahipsiz sayısı bu partiyle **+5** yapılmalı;
+yapılmazsa denetim yanlış alarm verir. Bunlar delik DEĞİL, deliğin İLACI.
+
+📌 Ve `§3.5.1`'in dersi burada işledi: yıldızı asıl kesen nokta
+**Vâdî Sirhân'ın BOŞ olması.** Oraya sahiplik yazmak Osmanlı gövdesini
+Maan'dan 270 km doğuya fırlatan davranışı geri getirirdi.
+
+## Eklenmeyenler
+
+| aday | niçin |
+|---|---|
+| **Hamâd** (Şam-Bağdat bâdiyesi, ~32,6K/40,0D) — listenin **④. sırası** | 🔴 **KAYNAK BULUNAMADI.** `§3.5.1` "iki uç da ölçülür": Osmanlı yazsam kaynaksız olarak gövdeyi çöle uzatırım; devletsiz yazsam Suriye ile Irak'ın arasına **beyaz delik** açarım — kullanıcının şikâyet ettiği "kopuk parça"nın yenisi. TDV `necid` aşiretlerin "geleneksel idarelerinin devamı" ile Osmanlı hâkimiyetini tanıdığını söylüyor ama bunun **hâkimiyet mi tâbiyet mi** olduğunu ayırmıyor. Ekleyeceğime atladım. **Cell ④ AÇIK KALIYOR.** |
+| **Saraycık** (Yayık, ~47,5K/51,75D) | TDV'de müstakil madde YOK (`saraycik` ölü). Yalnız içerik geçişi: "Sarayçık şehriydi", Nogay kışlağı, XV-XVI. yy. Terk/yıkılış tarihi yok ⇒ dönem yazılamaz. |
+| **Hâil** | **ZATEN VAR** (`yerlesimler.js:829`). Aday listeme yazmıştım, 3 km ölçümü 0,46 km'de yakaladı — envanter kutumu 28K'nın altına indirmediğim için gözden kaçmıştı. Ölçüm yakaladı, kayıt değil. |
+| **Bîşe (Bisha)** | TDV'de madde yok (`arama/?q=bîşe` → `biset`, `zeyd-b-amr`, `darulerkam`). Yerine coğrafî dolgu kondu. |
+| **Büreyde (Kasîm)** | Uneyze'ye 27 km; ayrı petek kazancı yok. |
+
+### TDV slug turu (`<title>` ile sınandı)
+```
+CANLI : tedmur · dumetulcendel · cevf · teyma · necid · residiler
+ÖLÜ   : hail · saraycik · bise
+```
+📌 `hail` ölü ama Hâil'in künyesi `residiler` maddesinde: Reşîdî emirliğinin
+merkezi, 1835 kuruluş, 1921 Suud yenilgisi, *"Osmanlı hâkimiyetini kabul etti."*
+
+## Cell ④ için sıradaki oturuma soru — tek cümle
+
+> **Şam ile Bağdat arasındaki Hamâd bâdiyesi, 1516-1918 arası Osmanlı
+> toprağı mıydı, yoksa hiçbir devletin idaresinde olmayan aşiret çölü müydü?**
+
+Cevap "Osmanlı" ise `Deyrizor` zinciriyle bir `bolge` noktası; "devletsiz" ise
+`Vâdî Sirhân` gibi boş dolgu. İkisi de tek satır — eksik olan **kaynak**.
+
+---
+
+# PARTİ 2b — RUMELİ / ANADOLU (`yerlesimler_seyrek.js`, +6 nokta → 13)
+
+Bunlar seyreklik listesinin ilk 5'inde **değil** — yarıçapları 25-45 km,
+listenin eşiği 60 km+. §④'te nokta bazlı ayrıca ölçüldüler.
+
+| ad | lat, lon | k · m | zincir kaynağı | TDV |
+|---|---|---|---|---|
+| İskeçe | 41,140 · 24,890 | 4 · Selanik | Gümülcine, `d:` 1373-01-01 | `iskece` |
+| Kırcaali | 41,650 · 25,370 | 4 · Edirne | Gümülcine, **Bulgar kuyruğu** | `kircaali` |
+| Trebinye | 42,711 · 18,344 | 3 · Saraybosna | Foça, `d:` 1466-06-01 | `trebinye` |
+| Vişegrad | 43,783 · 19,288 | 3 · Saraybosna | Foça, `d:` 1463-06-01 | `bosna-hersek` · `drina-koprusu` |
+| Tuzla (Bosna) | 44,538 · 18,676 | 3 · Saraybosna | İzvornik, `d:` 1460-01-01 | `tuzla--bosna-hersek` · `bosna-hersek` |
+| Karabiga | 40,410 · 27,300 | 4 · **Biga** | Biga, birebir | (içerik geçişi) |
+
+## Ölçülen etki — şikâyet noktalarında
+
+```
+                    50 km içinde     2. en yakın nokta
+p2/H-0018 Gümülcine    1 → 2         72 km → 43 km   🟢
+p3/H-0016 Dubrovnik    3 → 4         43 km → 22 km   🟢
+p2/H-0012 Biga KD      4 → 5         33 km → 25 km   🟢
+p3/H-0016 Saraybosna   2 → 2         49 km → 49 km   🔴 KAPANMADI
+p3/H-0012 Bosna ucu    3 → 3         33 km → 33 km   🔴 KAPANMADI
+```
+
+## 🔴 KAPANMAYAN İKİ MADDE — kaynak bulunamadı
+
+`p3/H-0016 Saraybosna` ve `p3/H-0012 Bosna ucu` için gereken noktalar
+**Visoko · Konjic · Zenitsa · Prusac (Akhisar) · Kamengrad · Sanski Most**.
+Altısının da TDV'de müstakil maddesi **YOK** ve TDV `bosna-hersek` maddesi
+şehirleri sayarken (Saraybosna · Travnik · Banaluka · Mostar · Foça ·
+Vişegrad · Tuzla · Yayça) **hiçbirini anmıyor.** `arama/?q=akhisar` yalnız
+Manisa'daki Akhisar'ı ve Akhisârî nisbeli âlimleri döndürüyor.
+⇒ Koordinatörün kuralı uygulandı: **eklemektense atlandı.** İki madde
+`VERİ ARAŞTIRMA` oturumuna gitmeli — orada Bosna için TDV dışı akademik
+referans (Pitcher, İnalcık) kullanılabilir; bu oturumun yetkisi TDV'ydi.
+
+## İki karar, ikisi de ölçümle alındı
+
+**① Kırcaali'nin kuyruğu Gümülcine'den FARKLI yazıldı.** Gümülcine 1913'te
+Bulgaristan'a, sonra kısa Osmanlı dönüşü, 1920'de Yunanistan'a geçer.
+Kırcaali **Bulgaristan'da kaldı.** Zinciri kopyalarken kuyruğu kesmek
+gerekti — kopyala-yapıştır yapılsaydı Kırcaali haritada Yunanistan olurdu.
+
+**② Karabiga'nın `m:` alanı "Bursa" değil "Biga".** Önce Biga'yı birebir
+kopyalamıştım; **Değişmez 3 denetimi yakaladı:** 1300-06-15'te
+`Karabiga=karesi ↔ Bursa=bizans`. Çelişki gerçek ama kusur Karabiga'nın
+değil **Biga kaydının**: `m:` alanının zaman boyutu yok (`MIMARI.md §3.1`,
+planlanan `kd:`), o yüzden Biga 1281-1326 arası Bizans Bursası'na bağlı
+görünüyor. TDV Karabiga'yı açıkça Biga'ya bağlıyor.
+📌 **Var olan bir kusuru kopyalamak yerine kopyalamamak seçildi.**
+
+## Parti 2 toplu kabul ölçütü (13 nokta)
+
+```
+① ayrıştırma 13/13 ✓          ② alan kütüğü temiz ✓
+③ renk 15/15 BOYALAR'da ✓     ④ ad çakışma 13/13 benzersiz ✓
+⑤ dönem sağlığı temiz ✓ (Tedmür'ün d×v örtüşmesi denetle.py:1280'e göre
+   KASITLI, ihlal değil — canlı veride 21 kayıtta var, Şam dahil)
+⑥ Değişmez 1: 8 kesintisiz + 5 KASITLI dolgu
+⑦ Değişmez 2: 18 kırılma günü, ON SEKİZİ DE veride zaten var ✓ BORÇ SIFIR
+⑧ Değişmez 3: çelişki 0 ✓
++ maske 13/13 içeride ✓   + 3 km: en yakın çift 20,83 km (Karabiga ↔ Biga) ✓
+```
+
+## Maddelerin son durumu
+
+```
+✅ KAPANDI (nokta eklendi)
+   p3/H-0015 · p3/H-0022 · p2/H-0019 · p2/H-0020   Kırım (parti 1)
+   p5/H-0007  çöl yıldızı        268 km → 87 km
+   p5/H-0009  Hicaz-Necid kaması 310 km → 94 km
+   p2/H-0018  Gümülcine          72 km → 43 km
+   p3/H-0016  Dubrovnik          43 km → 22 km
+   p2/H-0012  Biga KD            33 km → 25 km
+
+🔴 SEYREKLİK DEĞİL — VERİ HATASI, Oturum 0'a
+   p2/H-0001  Gemlik/Kios      50 km'de 17 nokta (haritanın en sık yeri)
+   p2/H-0014  Saroz körfezi K  50 km'de 7 nokta, en yakın Keşan 11 km
+   ⇒ Nokta eklemek bunları ÇÖZMEZ. Kusur dönem/sahiplik verisinde.
+
+🔴 KAYNAK BULUNAMADI — VERİ ARAŞTIRMA'ya
+   p3/H-0016  Saraybosna çevresi   (Visoko·Konjic·Zenitsa: TDV maddesi yok)
+   p3/H-0012  Bosna ucu / Krajina  (Kamengrad·Sanski Most: TDV maddesi yok)
+
+🟡 AÇIK KALAN ÖLÇÜM
+   seyreklik listesi ④  Hamâd bâdiyesi — Osmanlı mı, devletsiz mi?
 ```
