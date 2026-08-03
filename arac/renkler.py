@@ -420,6 +420,40 @@ BOYALAR = {
     # ingiltere 16,1 · umman 18,2 · sammar 25,4 · hicaz 25,5 · Osmanlı tâbi 26,4.
     # Körfezin bütün komşuları toprak/zeytin tonunda; mavi kasten seçildi.
     "katar":      ("Katar (Âl Sânî)",        "#1565c0"),
+    # ═══ BAHREYN (Âl Halîfe Şeyhliği) — ÇAPRAZ İBERYA'nın zincirini açar ═══
+    # (RENK oturumu, 2026-08-04 · devletler.js:1787 · 1783-01-01 → 1923-10-29)
+    #
+    # 🔴 ANAHTAR ADI DÜZELTİLDİ: koordinatöre `alihalife` diye gelmişti ve bana
+    #   öyle geçirildi. `devletler.js`te `alihalife` diye KAYIT YOK; kimliğin
+    #   id'si **`bahreyn`**. O adla yazsaydım hiçbir verinin atıfta bulunmadığı
+    #   ölü bir anahtar üretilir, `bahreyn` renksiz kalır ve beklenen zincir
+    #   yine açılmazdı.
+    #   📌 `zaporojye` deseninin TERSİ: orada kimlik vardı, yok sanıyorduk;
+    #     burada kimlik var ama BAŞKA ADLA aranıyordu. İkisi de "depoda olanı
+    #     doğrulamadan yeni üretmek" ailesinden — bugün beşinci vaka.
+    #   ⇒ KURAL: bir anahtar, KAYNAĞINDA GÖRÜLMEDEN yazılmaz. `git grep` bir
+    #     saniye; ölü anahtar aylarca yaşar.
+    #
+    # ÖLÇÜM — körfez paletin en kalabalık köşelerinden (12 renkli engel).
+    #   Komşular ÖLÇÜLDÜ (lon 48-57 · lat 24-30 · 1783-1923 sahnede olanlar):
+    #     iran 15 · kacar 15 · suud 12 · benihalid 8 · OSMANLI 6 ·
+    #     ingiltere 6 · umman 4 · katar 1   (+ cebri · sammar · hicaz)
+    #   L* 66,3 · C* 21,8 (palet medyanı) · ton 297,8 · S 0,62 (medyan)
+    #   en yakın komşu: `ingiltere` ΔE 13,5
+    # ⚠️ DAHA İYİ PALET UYUMLU BİR ADAY REDDEDİLDİ (#5466de): en yakını
+    #   `katar`a 12,1 — eşiğin TAM üstünde. Bu köşede bugün `hicaz↔sammar 0,8`
+    #   vakası çıktı; eşiğin tam üstünde durmak, eşiğin üstünde durmak değil.
+    #   1,4 puanlık pay farkı burada ucuz.
+    #
+    # 🔴 GÖVDE YOK (`d:"bahreyn"` 0 kayıt) — renk ÖNCE giriyor ki PETEK/NOKTA
+    #   hücreyi açabilsin (`don-kazak` deseni; `zaporojye`nin "künye var gövde
+    #   yok" hâli tekrarlanmasın).
+    #   ⇒ İKİ ŞEY ERTELENDİ, ikisi de gövde gelince yapılacak:
+    #     ① komşu kümesi VARSAYIM — `renk_olc` gerçek komşuluğu ölçecek,
+    #        görünmez/çakışma sayıları ARTMAMALI
+    #     ② MARUZİYET (sınır uzunluğu) ölçülemedi — gövdesiz kimlikte o eksen
+    #        kör. `renk_cikti.py` gövde gelince bakacak.
+    "bahreyn":    ("Bahreyn (Âl Halîfe Şeyhliği)", "#4a48be"),
     # ↑ Kızıldeniz kümesi (bkz. `yemen` üstündeki blok) · kayma 30,4° · pay 12,2 · altlık 15,4
     "funj":       ("Func (Sennâr) Sultanlığı","#a28184"),
     # ↑ Kızıldeniz kümesi (bkz. `yemen` üstündeki blok) · kayma  0,6° · pay 12,2 · altlık 25,6

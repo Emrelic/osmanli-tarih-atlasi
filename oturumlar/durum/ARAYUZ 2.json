@@ -1,6 +1,6 @@
 {
  "ad": "ARAYUZ 2",
- "hal": "calisiyor",
- "not": "TESPIH KUSAK 0/1: sessiz kayip taramasi basliyor (arac/denetle_gorunur.py)",
- "damga": "2026-08-04 01:02"
+ "hal": "hazir",
+ "not": "TESPIH KUSAK0/1 sessiz kayip taramasi bitti: arac/denetle_gorunur.py yazildi + iki gercek hata (epok-damgasi filtresi 130 yerlesimi haritadan siliyordu, DEVLET_TUR_ADI sehzadelik'i unutmustu) js/app.js'te DUZELTILDI. Detay: send_message.",
+ "damga": "2026-08-04 01:29"
 }

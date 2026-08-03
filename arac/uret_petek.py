@@ -2461,8 +2461,16 @@ else:
               "değişiklik boyanan alana yansımamış.")
     else:
         _en = max(_oyn, key=lambda x: abs(x[1]))
-        print(f"  → SAPMA VAR: {len(_oyn)}/{len(OLCU_KESIT)} kesit oynadı · "
-              f"en büyük {_en[0]} tarihinde {_en[1]:+,} km² ({_en[2]:+.1f}%)")
+        # ⚠️ PAYDA İKİ EKSENİ SAYAR. Yabancı ekseni eklenince payda 9 kalmıştı
+        # ve satır "13/9 kesit oynadı" diye ANLAMSIZ bir şey bastı. Kendi
+        # teşhis satırının yanlış sayması, bu dosyanın bütün derdi.
+        _payda = len(OLCU_KESIT) * (2 if (_esk.get("yabanci") or _OLCU["yabanci"])
+                                    else 1)
+        _osm_n = sum(1 for x in _oyn if "(yabancı)" not in x[0])
+        _yab_n = len(_oyn) - _osm_n
+        print(f"  → SAPMA VAR: {len(_oyn)}/{_payda} ölçüm oynadı "
+              f"(Osmanlı {_osm_n}/{len(OLCU_KESIT)} · yabancı {_yab_n}/{len(OLCU_KESIT)})"
+              f" · en büyük {_en[0]} tarihinde {_en[1]:+,} km² ({_en[2]:+.1f}%)")
         # ⚠️ Etiket "1300-06-15 (yabancı)" olabilir; kıyas TARİH kısmıyla
         # yapılmalı, yoksa dize karşılaştırması kendi kesitini de "önceki"
         # sayar ve "ondan önceki N kesitte fark YOK" satırı yanlış çıkar.

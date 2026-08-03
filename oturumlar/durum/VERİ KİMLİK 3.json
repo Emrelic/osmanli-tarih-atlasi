@@ -1,6 +1,6 @@
 {
  "ad": "VERİ KİMLİK 3",
  "hal": "hazir",
- "not": "KALMUK taslagi hazir: oturumlar/KIMLIK-KALMUK.md. TDV kalmuklar KENDIM dogruladim, dort tarih de sabit (1618 goc / 1632 kurulus / 1724 Rus bagimliligi / 1770 Ubasi gocu). Kunye 1632-1770 + tabi rusya 1724'ten. RENK SECMEDIM. RENK'e not: kalmuk ve don-kazak 1632-1721 arasi ESZAMANLI ve SINIRDAS, ikisi BIRLIKTE cozulmeli (renk_olc'un aragon/kastilya kurali). ISIM TUZAGI: cungar'in gorunen adi zaten 'Cungar Hanligi (Kalmuk)' ve tarihleri ORTUSUYOR - mogolistan/mogulistan sinifi. Kalmuk bozkiri kaydinda IKI hata var, ikincisi (altinorda 1281-1556) benim maruziyet olcumumde 2. sirada; tam zincir icin astarhan RENGI gerekiyor.",
- "damga": "2026-08-03 18:08"
+ "not": "ESTONYA: kunye YAZILMADI cunku ZATEN VARDI (devletler.js:1728, 1918-02-24 -> 1923-10-29, Tallinn, kronoloji tam). Eksik olan renk ve harita: koprusuydu. Kopruyu yazdim (239 harita: alani) + bayat ozet cumlesini duzelttim: eski metin 'BOYALAR'da ayri id'si yok, haritada Letonya/Litvanya ile ayni bolgeye dahil' diyordu - bu bir cozum degil ODUNC tarifiydi. Anahtar yazimlari birebir dogrulandi (letonya/litvanya/finlandiya). RENK'e: estonya + kalmuk + don-kazak + astarhan + irlanda-serbest-devlet BESI DE kunyeli, BESI DE renksiz - birlikte cozulmeli. PETEK/NOKTA'ya: Tartu'nun 1561-1625 sahibi Isvec DEGIL Lehistan, dort noktaya ayni zincir yazilamaz.",
+ "damga": "2026-08-04 01:11"
 }

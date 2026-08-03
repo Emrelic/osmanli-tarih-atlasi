@@ -1212,12 +1212,21 @@ var ISARET_KAYNAK = (window.YERLESIMLER && window.YERLESIMLER.length)
           (y[alan] || []).forEach(function (dn) {
             if (!dn || !dn.f) return;
             // 883 kaydın en erken dönemi tam 1281-01-01: bu bir tarih değil, epok
-            // damgası. Geçici işaret olarak saysaydık atlas açılır açılmaz 883 etiket
-            // birden belirip 550 gün ekranda kalırdı — düzeltmeye çalıştığımız
-            // kalabalığın ta kendisi.
-            if (dn.f === EPOK_DAMGASI && y.g === 0) return;
-            pencereler.push({ f: dn.f, t: dn.t, d: Math.max(y.g, 1),
-                              b: y.g === 3, y: alan === "d" ? dn.y : undefined });
+            // damgası. Ediniliş simgesini (⚔ ♜ 📜 vb.) geçici işaret olarak
+            // saysaydık atlas açılır açılmaz 883 etiket birden belirip 550 gün
+            // ekranda kalırdı — düzeltmeye çalıştığımız kalabalığın ta kendisi.
+            // 🔴 TESPİH KUŞAK 0/1 sessiz kayıp taraması (4 Ağustos) — eskiden bu
+            // satır PENCEREYİ TAMAMEN atlıyordu (`return`), yalnız simgeyi değil.
+            // 130 yerleşimde (Londra, Paris, Berlin, Moskova… hepsi `s:` ile tek
+            // pencereli, epoktan 1923'e sabit referans şehirleri) bu TEK pencere
+            // atlanınca `kayitlar` boş kalıyordu — hiçbir zoomda, hiçbir tarihte
+            // görünmüyorlardı. Ölçüldü: 130/1582 yerleşim `aktif` hiç olmuyordu.
+            // ⇒ Pencere KALIR, yalnız edinme simgesi bastırılır — 883 kaydın çoğu
+            // zaten ikinci bir pencereye sahip (ilk görünüşleri zaten simgesizdi,
+            // fark etmezdi); 130'u için bu TEK pencere ve artık kayboluyorlardı.
+            var epokBaslangici = dn.f === EPOK_DAMGASI && y.g === 0;
+            pencereler.push({ f: dn.f, t: dn.t, d: Math.max(y.g, 1), b: y.g === 3,
+                              y: epokBaslangici ? undefined : (alan === "d" ? dn.y : undefined) });
           });
         });
         pencereler.sort(function (a, b) { return a.f < b.f ? -1 : a.f > b.f ? 1 : 0; });
@@ -2593,10 +2602,14 @@ function dizinDoldur(sekme) {
       });
     });
   } else if (sekme === "devletler") {
+    // 🔴 TESPİH KUŞAK 0/1 sessiz kayıp taraması (4 Ağustos, arac/denetle_gorunur.py
+    // ölçtü) — `sehzadelik` (4 kayıt: Fetret Devri'nin şehzade saltanatları) bu
+    // sözlükte yoktu, TUR_ADI'nin mimar/edebiyatci'yi unutmasıyla AYNI hata sınıfı.
     var DEVLET_TUR_ADI = { imparatorluk:"İmparatorluklar", sultanlik:"Sultanlıklar", devlet:"Devletler",
       hanlik:"Hanlıklar", krallik:"Krallıklar", cumhuriyet:"Cumhuriyetler", prenslik:"Prenslikler",
       dukalik:"Dükalıklar", beylik:"Anadolu Beylikleri", ocaklik:"Kuzey Afrika Ocakları",
-      hanedanlik:"Özerk Hanedanlıklar", "gecici-isgal":"Geçici İşgaller / Statü Değişimleri" };
+      hanedanlik:"Özerk Hanedanlıklar", sehzadelik:"Fetret Devri Şehzade Saltanatları",
+      "gecici-isgal":"Geçici İşgaller / Statü Değişimleri" };
     var dgruplar = {};
     (window.DEVLETLER || []).forEach(function (d) { (dgruplar[d.tur] = dgruplar[d.tur] || []).push(d); });
     Object.keys(DEVLET_TUR_ADI).forEach(function (tur) {

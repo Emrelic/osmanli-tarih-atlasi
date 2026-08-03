@@ -1726,8 +1726,15 @@ window.DEVLETLER = [
   ]
 },
 { id:"estonya", ad:"Estonya Cumhuriyeti", tur:"cumhuriyet", bolge:"dogu-avrupa",
-  f:"1918-02-24", t:"1923-10-29", baskent:"Tallinn",
-  ozet:"Rusya İmparatorluğu'nun dağılmasıyla bağımsızlığını ilan eden Baltık devleti; Bağımsızlık Savaşı'nda Sovyetler'e karşı direndi (1923 sonrasında da sürdü). BOYALAR'da ayrı id'si yok (haritada Letonya/Litvanya ile aynı bölgeye dahil), yine de tam bir devlet olarak kaydedildi.",
+  f:"1918-02-24", t:"1923-10-29", baskent:"Tallinn", harita:"estonya",
+  // 🔴 KÖPRÜ YAZILDI (VERİ KİMLİK 3, 3 Ağustos) — renk RENK'ten bekleniyor.
+  // Eski ozet şöyle diyordu: "BOYALAR'da ayrı id'si yok (haritada
+  // Letonya/Litvanya ile aynı bölgeye dahil), yine de tam bir devlet olarak
+  // kaydedildi." O cümle bir ÇÖZÜM DEĞİL, bir ÖDÜNÇ tarifiydi ve artık
+  // geçersiz: PETEK/NOKTA dört Estonya noktasıyla bekliyor (Tallinn · Tartu ·
+  // Narva · Pärnu) ve Tallinn Helsinki'ye 82 km — nokta gelince Estonya kıyısı
+  // `finlandiya` boyanır. Ayrıntı: oturumlar/KIMLIK-ESTONYA.md
+  ozet:"Rusya İmparatorluğu'nun dağılmasıyla bağımsızlığını ilan eden Baltık devleti; Bağımsızlık Savaşı'nda Sovyetler'e karşı direndi ve Tartu Barışı'yla tanındı (1923 sonrasında da sürdü).",
   kronoloji:[
     { t:"1918-02-24", tur:"kurulus", b:"Tallinn'de bağımsızlık ilan edildi" },
     { t:"1918-11-28", tur:"savas", b:"Sovyet Rusya saldırısıyla Bağımsızlık Savaşı başladı" },

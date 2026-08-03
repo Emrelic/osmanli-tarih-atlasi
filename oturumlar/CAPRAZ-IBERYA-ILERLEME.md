@@ -1620,3 +1620,205 @@ sonu) **kendi içinde ayrışıyor** — ikisi de yukarıda yazılı.
 ⚠️ Nokta dağıtımını yine yapmadım: hangi noktanın Horasan, hangisinin Fars
 sayılacağı coğrafî bir ayrım ve senin kararın.
 
+
+---
+
+# İŞ ③ — MERAK KARTLARI ✅ SEKİZ KART TESLİM
+
+## 🔴 DOSYA ADI DEĞİŞTİ — `olaylar_ek15.js` DEĞİL, `data/merak.js`
+
+Bu ek12 vakasının aynısı ama sebebi farklı: **hedef dosya teknik olarak
+çalışmazdı.** Üçü de ölçüldü, varsayılmadı:
+
+```
+① js/app.js:3229   [["data/ekokuma.js","EKOKUMA"],["data/merak.js","MERAK"]]
+                   tembel yükleyici SABİT bu yolu okuyor
+                   ⇒ ek15'e yazılan kart merak paneline HİÇ düşmezdi
+② js/app.js:3250   "merak": kaynak = window.MERAK — değişken adı da sabit
+③ arac/denetle.py:282  glob("data/olaylar*.js")
+                   Merak kartında `t:` alanı YOK; ek15 adıyla yazılsaydı
+                   denetim onları KRONOLOJİ MADDESİ sanıp okumaya çalışırdı
++  MERAK.md Kural ① : bu dosya ANA YÜKE KATILMAZ. index.html:125 zaten
+                   "data/ekokuma.js + data/merak.js ana yüke KATILMAZ" diyor;
+                   olaylar_ek*.js'lerin HEPSİ ana yükte.
+```
+📌 Ve `MERAK.md §168` zaten **`data/merak.js`** diyor. Şartnameye uydum.
+
+🟢 **BAĞLAMA GEREKMİYOR** — altyapı hazır, dosya yerine konunca kendiliğinden
+çalışıyor. `index.html`e satır EKLENMEZ (olaylar_ek*.js'lerin aksine).
+
+## Teslim — 8 kart
+
+```
+karaman-nicin-zor                3 görüş · 890 krk · 5 bağlantı
+gurcistan-nicin-alinmadi         3 görüş · 899 krk · 3 bağlantı
+kardes-katli-karsilastirmali     3 görüş · 869 krk · 5 bağlantı
+siyasi-evlilikler                3 görüş · 899 krk · 3 bağlantı
+kadinlar-saltanati               3 görüş · 878 krk · 4 bağlantı
+kapitulasyon-zaaf-mi-arac-mi     3 görüş · 879 krk · 4 bağlantı
+i-murad-sehadeti                 3 görüş · 879 krk · 1 bağlantı
+hint-okyanusu-rekabeti           3 görüş · 873 krk · 4 bağlantı
+```
+**Sekizinin de ÜÇ görüşü var** (şartname en az iki istiyor), hepsi
+`kesinlik:"tartismali"`.
+
+## ✅ İKİ ÖLÇÜT DE KOŞTURULDU — ve ilki başta TUTMADI
+
+```
+900 KARAKTER SINIRI (MERAK.md §42)
+   ilk yazımda 8 karttan 7'si sınırı AŞIYORDU (949-1120 krk)
+   ⇒ hepsi kısaltıldı, şimdi en uzunu 899. Sınır ölçülmeden "uydum" denmedi.
+
+BAĞLANTI GEÇERLİLİĞİ
+   app.js:3245 `liste.indexOf(o.t)` — BİREBİR eşleşme istiyor.
+   29 bağlantının 29'u canlı kronolojiye karşı ölçüldü. Uydurma tarih YOK.
+   ⚠️ Ay hassasiyetli olanlar (`1389-06`) bilerek öyle — madde öyle taşıyor.
+```
+
+## ✅ CANLI DOĞRULAMA — tarayıcıda, koşan sunucuya dokunmadan
+```
+fetch('data/merak.js')      200, ayrıştı
+window.MERAK                8 kart
+app.js'in eşleştirme fonksiyonunun aynısı koşturuldu:
+   karaman 5 · gurcistan 3 · kardes-katli 6 · evlilikler 3 · kadinlar 4 ·
+   kapitulasyon 4 · i-murad 1 · hint-okyanusu 4      = 30 madde
+⇒ Sekiz kartın SEKİZİ de en az bir maddede görünüyor. Sessiz kart yok.
+```
+
+## ⚠️ KAYNAK ALANI — dürüst olmak gerekiyor
+`kaynak:` burada **düz metin** basılıyor (`app.js:3307`), `olaylar*.js`teki
+gibi **TDV bağlantısı üretmiyor**. Bu yüzden madde **adlarıyla** yazıldı,
+slug'la değil — ve **slug doğrulaması YAPILMADI**.
+🔴 Bu alan ileride bağlantıya çevrilirse, çevirmeden önce her slug `<title>`
+ile sınanmalıdır. Dosyanın başına da yazdım.
+
+## ⚠️ KAPSAM — iki liste birbirinden farklı, ve bunu bilerek yazdım
+Verdiğin yedi başlık **kutudaki kullanıcı sorularından** geliyor; beşini
+kutuda buldum ve doğruladım:
+```
+H-0013  Karaman niçin zorladı + ilhaklar nasıl gerçekleşti (savaşsız mı)
+H-0015  Gürcistan niçin komple alınmadı
+H-0020  kardeş katli başka devletlerde kurumsal olarak var mı
+H-0021/22  siyasî evlilikler, çok eşlilik (Despina Hatun örneğiyle)
+H-0023  kadınlar saltanatı
+```
+**Kapitülasyon ve I. Murad kutuda bulunamadı** — senin listene güvendim.
+
+🔴 **Ama `MERAK.md`in KENDİ kuyruğu (④-⑪) bunlardan FARKLI ve hâlâ açık:**
+```
+④ Otranto · ⑤ Timur niçin yutmadı · ⑥ Arabistan-körfez · ⑦ müslümanlaşma
+⑧ keşifler · ⑨ Orta Asya · ⑪ kardeş katli   ← kesişen TEK başlık buydu
+⑩ Hint Okyanusu  ← BU OTURUM zaten birincil kaynakla çalıştığı için
+                   sekizinci kart olarak YAZILDI
+```
+⇒ Şartnamenin **altı kalemi hâlâ yazılmamış.** Kart sayısı 3 (şartnamede) +
+8 (bu dosya) = **11**, yani "ilk 10" hedefi aşıldı — ama şartnamenin kendi
+kuyruğu kapanmadı. İkisi ayrı iş.
+
+⚠️ Ve `MERAK.md §152`nin uyardığı **⑦ müslümanlaşma kartını yazmadım**:
+en hassas olanı o ve listende yoktu; taraf tutmayan bir kart için ayrıca
+kaynak taraması gerekir.
+
+
+---
+
+# BAHREYN ZİNCİRİ — SON HÂL, halka halka kaynak durumuyla
+
+## 🔴 Önce kendi hatam: `alihalife` diye bir anahtar yok
+
+Doğru anahtar **`bahreyn`** — `devletler.js:1794`, *"Bahreyn (Âl Halîfe
+Şeyhliği)"*, `1783-01-01 → 1923-10-29`. `alihalife` deposun **hiçbir yerinde
+geçmiyor**; ölçtüm, doğrulandı.
+
+Ben o adı **künyeye bakmadan**, hanedanın Türkçe adından türeterek yazdım ve
+"tek engel `alihalife` rengi" diye rapor ettim. **Ölçmedim, türettim.** Kuralı
+kabul ediyorum: *bir anahtarı raporda anmadan önce grep at.*
+📌 Ve bu, bu oturumun kendi dersinin bana çıkan ikinci faturası — `1786`da
+yanlış maddeden okumuştum, burada hiç okumadım.
+
+## ⚠️ Bir düzeltme de sana: **1559 maddesi VAR ve CANLI**
+
+*"`1559 Bahreyn seferi` maddesi hâlâ yok"* dedin. Ölçüm:
+```
+1559-01-01  "Osmanlı'nın Bahreyn seferi — körfezde Portekiz'e karşı son büyük hamle"
+            olaylar_ek13.js A-14 · kaynak:"bahreyn" · CANLI
+```
+Bahreyn'in **sekiz maddesinin sekizi de** yazılı ve canlı (A-12…A-19):
+`1417 · 1521 · 1559 · 1602 · 1717 · 1753 · 1783 · 1861`.
+
+---
+
+## ZİNCİR — yapıştırmaya hazır, halka halka kaynak durumu
+
+```js
+// data/yerlesimler.js:916 — "Manama (Bahreyn)"
+s:[{f:"1281-01-01",t:"1417-01-01",d:"usfuri"},
+   {f:"1417-01-01",t:"1521-01-01",d:"cebri"},
+   {f:"1521-01-01",t:"1602-01-01",d:"portekiz"},
+   {f:"1602-01-01",t:"1717-01-01",d:"safevi"},
+   {f:"1717-01-01",t:"1753-01-01",d:"umman"},
+   {f:"1753-01-01",t:"1783-01-01",d:"iran"},
+   {f:"1783-01-01",t:"1861-05-31",d:"bahreyn"},
+   {f:"1861-05-31",t:"1923-10-29",d:"ingiltere"}]
+```
+
+| halka | kaynak durumu |
+|---|---|
+| `usfuri` 1281→1417 | 🔴 **KAYNAK YOK.** TDV `bahreyn` hanedan sırası veriyor ama **Usfûrîler'i ANMIYOR**: *"sırasıyla Uyûnîler, Salgurlular, Tabîler, Cebrîler"*. `usfuri` komşu Katîf/Lahsa kayıtlarından **türetildi**, tarihi de öyle. **UYDURULMADI, ÖDÜNÇ ALINDI** — ama TDV'nin dediği değil. |
+| `cebri` 1417→1521 | 🟡 **KİMLİK TDV'DEN, TARİH DEĞİL.** TDV Cebrîler'i Bahreyn için **adıyla** anıyor (*"Cebrîler devrinde çoğunluğun Şiîler'den Sünnîler'e geçtiği"*) ama yıl vermiyor. `1417` yine Katîf/Lahsa deseninden ödünç. Bitiş 1521 sağlam. |
+| `portekiz` 1521→1602 | 🟢 **İKİ UCU DA TDV.** *"Portekizliler, 1521'de Bahreyn'i ele geçirdiler"* · *"1602'de İran'a bağlı kuvvetler tarafından"* çıkarıldılar. D9'un aradığı 81 yıl. |
+| `safevi` 1602→1717 | 🟡 **BAŞI TDV, SONU DEĞİL.** 1602 TDV'den; **1717'yi TDV hiç anmıyor**, batı literatüründen (Ya'rubî Umman istilâsı). |
+| `umman` 1717→1753 | 🔴 **TDV'DE YOK.** Yalnız batı literatürü. ⚠️ Ve **iç ayrıntısı karışık**: ada 1717-1753 arasında Umman, İran ve yerel güçler arasında birkaç kez el değiştirdi. Tek blok yazmak bir **sadeleştirme**dir, ölçüm değil. |
+| `iran` 1753→1783 | 🟡 **KİMLİK ZORLAMA.** Gerçek sahip **Âl-i Mezkûr** (Bûşehr'de yerleşik, Huvele sayılan aile) ve Zend idaresinin atadığı valiydi. `huveyle` diye kimlik **YOK** (ölçtüm); `iran` mevcut kimlikler içinde en yakını ve Zend bağı sebebiyle savunulabilir — ama **birebir doğru değil**. |
+| `bahreyn` 1783→1861 | 🟢 **TDV + KÜNYE UYUYOR.** *"Bahreyn 1783 yılında Utûb kabilesinden Âl-i Halîfe'nin hâkimiyetine girdi"*; `devletler.js` künyesi de `1783-01-01`. Renk RENK'te (`#4a48be`). |
+| `ingiltere` 1861→1923 | ✓ **ZATEN VAR.** ⚠️ Atlas `1861-05-31`, TDV **21 Mayıs 1861** diyor. On günlük fark **çözülmedi**; madde atlasın gününü taşıyor, TDV'ninki metinde yazılı. |
+
+### ⇒ Özet: sekiz halkanın **ikisi tam sağlam**, dördü kısmî, ikisi kaynaksız
+```
+🟢 tam      portekiz 1521-1602 · bahreyn 1783-1861
+🟡 kısmî    cebri · safevi · iran · (ingiltere'nin günü)
+🔴 kaynaksız usfuri 1281-1417 · umman 1717-1753
+```
+**Kaynağı olmayan iki halkayı uydurmadım, işaretledim.** İkisi de zinciri
+kapatmak için gerekli (`Değişmez 1b` delik kabul etmiyor) ama ikisi de
+**"bilmiyoruz"un yerine konmuş en makul komşu tahmini**.
+
+---
+
+## 🔴 VE ZİNCİRİ YAZMADAN ÖNCE KARAR VERMEN GEREKEN ŞEY: 1559
+
+Üçüncü kez yazıyorum çünkü **zincirin şeklini değiştiriyor.**
+
+*"Başarısız sefer kırılma üretmez"* dedin — **TDV bunu desteklemiyor:**
+```
+TDV bahreyn  Osmanlılar "1559 yılında Bahreyn'i ele geçirip orada bir üs" kurdu
+             ve HEMEN SONRAKİ cümle:
+             "Daha sonra TEKRAR Portekizliler'in idaresine geçen adalar,
+              1602'de İran'a bağlı kuvvetler tarafından dışarı çıkarılmalarına
+              kadar onların idaresinde kaldı."
+             ⇒ "TEKRAR" kelimesi, Portekiz idaresinin ARADA KESİLDİĞİNİ söylüyor
+batı lit.    Lahsa beylerbeyi Mustafa Paşa'nın kuşatması BAŞARISIZ — Hürmüz'den
+             gelen Portekiz takviyesi, veba, Osmanlı'nın teslim şartı istemesi
+```
+
+**İki okumanın veriye etkisi:**
+```
+BATI OKUMASI (yukarıdaki zincir)
+   portekiz 1521 → 1602 kesintisiz. Yeni kırılma YOK. A-14 maddesi
+   yazıldı, veri değişmedi. ⇒ senin tarif ettiğin "en ucuz kazanç".
+
+TDV OKUMASI
+   portekiz 1521 → 1559
+   OSMANLI  1559 → ?        ← `d:` dönemi, HARD Değişmez 2 kırılması
+   portekiz ?    → 1602
+   🔴 VE TDV KAPANIŞ TARİHİ VERMİYOR. Soru işareti doldurulamıyor.
+```
+⇒ TDV okuması seçilirse **zincir yazılamaz**, çünkü bir uç bilinmiyor.
+🔴 **Seçimi yapmadım** (brifingim: *"hangisini seçtiğini SÖYLEME"*). Ama
+şunu söylemek zorundayım: **yukarıdaki zincir batı okumasına dayanıyor.**
+TDV okumasını seçersen zincir olduğu gibi uygulanamaz.
+
+📌 Ve `KARAR-DEHLEK`in dersi burada da geçerli: `1559-1602` arasını
+uydurulmuş bir tarihle kapatmak, 43 yıllık **araştırılmış görünen** bir hata
+üretir. Bilinen boşluk, makul uydurmadan iyidir.
+

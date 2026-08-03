@@ -530,6 +530,9 @@ def main():
         # girdinin anlik goruntusunu aldiktan SONRA yazildi; simdi baglamak
         # YAYIN BAYAT verir.
         "data/yerlesimler_ek5.js":       "1 nokta (Gyula), yayin sonrasi baglanacak",
+        # PETEK/NOKTA parti 18: Iskandinavya 39 nokta, %75-80 bandi.
+        # Kosu 8 anlik goruntusunden SONRA yazildi.
+        "data/yerlesimler_ek7.js":       "39 nokta (Iskandinavya), yayin sonrasi baglanacak",
     }
 
     # 🔴 EMEKLİ ≠ BEKLEYEN. Bekleyen "önkoşul kapanınca BAĞLANACAK" vaadi
@@ -551,6 +554,13 @@ def main():
     # gövdeleri oradan kurulur) ve kendi başlığı "index.html BU DOSYAYI
     # YÜKLEMEZ, yalnız üretim betikleri okur" diye zaten söylüyor.
     ARA_CIKTI = {
+        # TEMBEL YUKLEME — <script> etiketi YOK ve olmamali. index.html:125
+        # kendisi yaziyor: "data/ekokuma.js + data/merak.js ana yuke
+        # KATILMAZ, ilk gerektiginde yuklenir." ARAYUZ 2 canli dogruladi:
+        # ekOkumaMerakYukle() dosyayi kod DOKUNULMADAN yakaladi, 8 kart
+        # yuklendi ve gercek bir olaya baglandi. ⇒ Yetim DEGIL, TEMBEL.
+        "data/merak.js": "index.html:125 — tembel yukleme, ekOkumaMerakYukle() ilk gerektiginde ceker",
+        "data/ekokuma.js": "index.html:125 — tembel yukleme, ayni mekanizma",
         "data/petek_govde.js": "uret_devirler.py:294-296 okur — motor ara "
                                "çıktısı, tarayıcıya bilerek gitmez",
     }
