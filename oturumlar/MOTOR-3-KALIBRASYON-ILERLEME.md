@@ -641,3 +641,61 @@ parantezli (`Cebelitarık (Gibraltar)` · `Menorka (Mahon)`) ve tam-eşleşme
 aradığım için ıskaladım. Ölçüme etkisi sınandı: **ikisi de sıfır yetim yüz
 alıyor, sonuç değişmiyor.** 📌 Ders: *"yok" da bir ölçümdür* — ad eşlemesi
 tam-eşleşmeyse "bulunamadı" ile "yok" ayrı şeylerdir.
+
+---
+
+# ⑩ "ALTI KAT YAVAŞLAMA" — ölçüm hatasıydı, makine uyudu
+
+## Bulgu
+```
+koşu 4  yabancı gövdeler  33dk 34sn
+koşu 5                    28dk 16sn
+koşu 7                  3s 13dk 34sn   ← 6 kat
+```
+Girdi neredeyse aynı (+4 nokta). Üç şüphe de **ölçülerek elendi**:
+```
+CPU rekabeti     yavaşlama 10 devlete sıkışmış, eşit yayılmamış
+İran bölmesi     gövde sayısı 1966 → 1974, yalnız +8
+yetim emilimi    koşu 5 ve 6'da da vardı, 28 dakikaydı
+geometri         aynı 10 devlet YALITILMIŞ hâlde 14,5 SANİYE
+```
+
+## Sebep — Windows olay günlüğü
+```
+Power-Troubleshooter:
+   Uykuya geçiş  2026-08-03 20:08:55
+   Uyanma        2026-08-03 22:38:45
+   ⇒ 2 saat 29 dakika 50 saniye UYKU
+```
+Zaman çizgisi birebir oturuyor:
+```
+20:07:06   devlet 170 basıldı  (aşama içi 34dk 21sn)
+20:08:55   MAKİNE UYUDU
+22:38:45   uyandı
+22:42:08   devlet 180 basıldı  (aşama içi 3s 09dk 23sn)
+23:13:51   Kernel-Power 41 — sistem DÜZGÜN KAPANMADAN yeniden başladı
+```
+⇒ **Gerçek hesap ≈ 44 dakika**, 3 saat 13 değil. Ve koşuyu öldüren şey de kod
+değil: 23:13:51'deki temiz olmayan yeniden başlatma.
+
+## 🔴 Ve kusur BU DOSYANIN kendisindeydi
+`asama()` `time.time()` kullanıyordu — **duvar saati uykuyu da sayar.** Yani
+bugün kurduğum bütün bilanço, makine uyursa yalan söyleyecek bir tabana
+oturuyormuş. Bugünün beşinci "araç yanlış ekseni ölçüyor" vakası, ve bu sefer
+ölçen araç bendim.
+
+**Düzeltildi:** her aşama artık **duvar + işlemci** süresi yazıyor; duvar 60 sn'yi
+aşıyor ve işlemci payı %60'ın altındaysa satır kendini işaretliyor:
+```
+⏱ Uyku taklidi — 5dk 00sn (işlemci 0sn)   ⚠️ duvar ≫ işlemci: UYKU ya da REKABET
+```
+Bilanço tablosuna da `işlemci` sütunu ve aynı işaret eklendi. Sınandı.
+📌 İşaret yalnız uykuyu değil **CPU rekabetini** de yakalar — bugün ölçümlerimi
+koşuyla yan yana çalıştırdığım her seferde bu satır uyarabilirdi.
+
+## Etkilenmeyenler
+```
+duvar hesabı (~2.361 nokta)   koşu 4/5'in TEMİZ 33,6 dk'sından kuruldu, geçerli
+N^1,52 üssü                   aynı sebeple geçerli
+yetim emilim ölçütü           koşu 5-6-7'de tutarlı, geometri sağlam
+```

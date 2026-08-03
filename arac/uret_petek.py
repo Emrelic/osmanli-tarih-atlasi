@@ -98,7 +98,7 @@ io.open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..",
 #               blok, "takıldı mı bitiyor mu" sorusunu cevaplayamaz
 _T0 = time.time()
 _ASAMA_KAYIT, _SAYAC = [], {}
-_ASAMA_AD, _ASAMA_T = None, _T0
+_ASAMA_AD, _ASAMA_T, _ASAMA_C = None, _T0, time.process_time()
 
 
 def _sure(s):
@@ -110,14 +110,32 @@ def _sure(s):
 
 
 def asama(ad=None):
-    """Açık aşamayı kapatır, yenisini açar. ad=None ise yalnız kapatır."""
-    global _ASAMA_AD, _ASAMA_T
-    simdi = time.time()
+    """Açık aşamayı kapatır, yenisini açar. ad=None ise yalnız kapatır.
+
+    🔴 DUVAR SAATİ TEK BAŞINA YALAN SÖYLER — 3 Ağustos 2026'da ölçüldü.
+    Koşu 7'nin "Yabancı devlet gövdeleri" aşaması **3s 13dk 34sn** bildirdi;
+    koşu 4-6'da aynı aşama 28-34 dakikaydı. Altı kat. Girdi neredeyse aynıydı
+    (+4 nokta) ve geometri ayrıca ölçüldü: aynı 10 devlet yalıtılmış hâlde
+    **14,5 saniye** sürüyor. Sebep koda ait değildi:
+        Windows Power-Troubleshooter — Uykuya geçiş 20:08:55, uyanma 22:38:45
+        ⇒ makine aşamanın ORTASINDA 2 saat 29 dakika 50 saniye UYUDU
+    `time.time()` duvar saatidir; uykuyu da sayar. Gerçek hesap ~44 dakikaydı.
+    ⚠️ Ve bu, bugünün beşinci "araç yanlış ekseni ölçüyor" vakası — bu sefer
+    ölçen araç bu dosyanın kendisiydi.
+    ⇒ Çare: İŞLEMCİ SÜRESİ de yazılır. İkisi ayrışırsa sebep uyku ya da
+      başka bir sürecin rekabetidir; aşama gerçekten yavaşlamış DEĞİLDİR.
+    """
+    global _ASAMA_AD, _ASAMA_T, _ASAMA_C
+    simdi, simdi_c = time.time(), time.process_time()
     if _ASAMA_AD is not None:
-        _ASAMA_KAYIT.append((_ASAMA_AD, simdi - _ASAMA_T))
-        print(f"  ⏱ {_ASAMA_AD} — {_sure(simdi - _ASAMA_T)} "
-              f"(koşu {_sure(simdi - _T0)})")
-    _ASAMA_AD, _ASAMA_T = ad, simdi
+        _ASAMA_KAYIT.append((_ASAMA_AD, simdi - _ASAMA_T, simdi_c - _ASAMA_C))
+        _duvar, _cpu = simdi - _ASAMA_T, simdi_c - _ASAMA_C
+        # %60'tan azı işlemcide geçtiyse aşama BEKLEMİŞTİR, çalışmamıştır
+        _not = ("   ⚠️ duvar ≫ işlemci: UYKU ya da REKABET"
+                if _duvar > 60 and _cpu < _duvar * 0.6 else "")
+        print(f"  ⏱ {_ASAMA_AD} — {_sure(_duvar)} "
+              f"(işlemci {_sure(_cpu)}) (koşu {_sure(simdi - _T0)}){_not}")
+    _ASAMA_AD, _ASAMA_T, _ASAMA_C = ad, simdi, simdi_c
     if ad is not None:
         print(f"[{_dt.datetime.now():%H:%M:%S}] ▶ {ad}")
 
@@ -173,11 +191,15 @@ def asama_ozet():
     asama(None)
     top = time.time() - _T0
     print("\n" + "=" * 64)
-    print(f"AŞAMA BİLANÇOSU — koşu {_sure(top)}")
+    print(f"AŞAMA BİLANÇOSU — koşu {_sure(top)} "
+          f"(işlemci {_sure(time.process_time())})")
+    print(f"  {'aşama':<38} {'duvar':>11} {'işlemci':>11}   pay")
     print("=" * 64)
-    for ad, sn in _ASAMA_KAYIT:
-        print(f"  {ad[:44]:<44} {_sure(sn):>12}  %{sn/top*100:4.1f}")
-    olculen = sum(s for _, s in _ASAMA_KAYIT)
+    for ad, sn, cp in _ASAMA_KAYIT:
+        _im = " ⚠️uyku/rekabet" if sn > 60 and cp < sn * 0.6 else ""
+        print(f"  {ad[:38]:<38} {_sure(sn):>11} {_sure(cp):>11}  "
+              f"%{sn/top*100:4.1f}{_im}")
+    olculen = sum(s for _, s, _c in _ASAMA_KAYIT)
     print(f"  {'(aşama dışı: kurulum/import)':<44} "
           f"{_sure(top - olculen):>12}  %{(top-olculen)/top*100:4.1f}")
     if _SAYAC:
@@ -2088,10 +2110,23 @@ for _dv_i, (did, (dad, renk)) in enumerate(BOYALAR.items(), 1):
             sayac("yabancı gövde geometrisi", time.time() - _t_gv)
             continue
         rp = g.representative_point()
-        dnm.append({"f": a, "t": b, "g": havuza(mp_koord(g), DEV_HAVUZ, DEV_IX),
-                    "c": [round(rp.x, 2), round(rp.y, 2)]})
-        if any(a <= _kg < b for _kg in OLCU_KESIT):
-            _DEV_ALAN.append((a, b, alan_km2(g)))
+        _kayit = {"f": a, "t": b, "g": havuza(mp_koord(g), DEV_HAVUZ, DEV_IX),
+                  "c": [round(rp.x, 2), round(rp.y, 2)]}
+        dnm.append(_kayit)
+        # 🔴 KAYDIN KENDİSİ TUTULUR, KOPYASI DEĞİL — ve sebebi ölçüldü.
+        # İlk yazımda `(a, b, alan)` üçlüsü saklanıyordu. Ama bu döngü
+        # dönemleri BİRLEŞTİRİYOR: `aktif == onceki` olunca `dnm[-1]["t"] = b`
+        # ile bir önceki kaydın bitişi UZATILIYOR. Kopyalanmış `b` o uzamayı
+        # görmüyordu, dolayısıyla uzatılmış bir dönem kesit tarihini kapsasa
+        # bile toplama girmiyordu → yabancı toplam SİSTEMATİK EKSİK çıkıyordu.
+        # Koşu 6 bunu canlı gösterdi: eksen ilk kıyasında "-6.947.000 km²
+        # (-%14,5)" diye BAĞIRDI ve sapmanın tamamı bu hataydı — yani aracın
+        # ilk alarmı YANLIŞ ALARMDI. Kaydın kendisini tutunca `["t"]`
+        # mutasyonu doğrudan görülüyor.
+        # ⚠️ Bu yüzden alan artık HER gövde için hesaplanıyor: uzama sonradan
+        # olduğu için "bu dönem kesiti kapsıyor mu" sorusu yaratılış anında
+        # cevaplanamaz. Maliyet ~1.970 çağrı; ölçüp bildireceğim.
+        _DEV_ALAN.append((_kayit, alan_km2(g)))
         sayac("yabancı gövde geometrisi", time.time() - _t_gv)
     if dnm: DEVLET_KAYIT.append({"id": did, "ad": dad, "renk": renk, "dnm": dnm})
 _dyol = os.path.join(KOK, "data", "devletler_harita.js")
@@ -2327,7 +2362,7 @@ def _yabanci_g(g):
     """g gününde boyalı YABANCI toplam (Osmanlı dışı), km².
     ⚠️ Osmanlı d/v aktifken o petek zaten yabancı gövdeye girmiyor
     (`_osm_aktif` bastırıyor), yani çifte sayım yok."""
-    return sum(al for f, t, al in _DEV_ALAN if f <= g < t)
+    return sum(al for k, al in _DEV_ALAN if k["f"] <= g < k["t"])
 
 
 def _alan_g(dnm, g):

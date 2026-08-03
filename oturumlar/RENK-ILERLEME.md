@@ -1106,6 +1106,126 @@ denetlenen** bir bağ olur, düz yazıda kalan bir niyet değil.
 
 ---
 
+## 12. GÜNÜN TAŞINABİLİR KURALLARI
+
+Hepsi bu oturumda **ölçülerek** bulundu; hiçbiri baştan bilinmiyordu.
+
+### Ölçüm ve zaman
+
+> **Hiçbir ölçüm, ölçüldüğü andan sonra geçerli değildir.**
+
+Dört vaka, dördü de aynı gün:
+```
+veri değişti      → hollanda↔ispanya çakışması DOĞDU (hiçbir renk değişmeden)
+palet değişti     → ② ①'den sonra yeniden ölçüldü
+kendi partim      → `zend`e yer KAPANDI (C* tabanı 4,9 → 8,8)
+başkasının partisi→ `zend`e yer AÇILDI  (iran komşusu 25 → 23)
+```
+📌 Kural iyiye de çalışıyor: **"imkânsız" hükmü de tıpkı "mümkün" gibi
+TARİHLİDİR.** Sabah "toprak kimliği korunamaz" ve "zend'e yer yok" dedim;
+ikisi de öğleden sonra çürüdü.
+
+> **Bekçinin kendisi de bir ölçümdür ve o da eskir.**
+
+Koşu bekçisi 17:54'te 2 saatlik pencereyle kurulmuştu; koşu 7 penceresinden
+sonra bitecekti ve bekçi **yanlış "takıldı" sinyali** verecekti.
+⇒ *Bir denetimin geçerlilik süresi, denetlediği şeyin süresinden kısa olamaz.*
+
+### Ölçüm ve eksen
+
+> **Bir sayı, ölçüldüğü eksen yazılmadan tam değildir.**
+
+"0 çakışma" dedim; girdi ekseninde doğruydu, çıktı ekseninde iki gerçek
+çakışma vardı (`qing-hanedani↔toungoo` ΔE 0,0 · `berar↔golkonda` 7,4).
+
+> **Bir metrik, eksen değişince anlamını koruduğu VARSAYILAMAZ.**
+
+`tanık sayısı` girdide 101, çıktıda 1 — aynı çift. Girdide her HÜCRE çifti
+sayılıyor, çıktıda hepsi tek gövdeye birleşiyor. "ΔE × tanık ile sırala"
+talimatı çıktı ekseninde aracı **susturacaktı**; ölçü sınır uzunluğuna
+çevrildi.
+
+### Ölçüt ve süzgeç
+
+> **Her zaman geçerli olması gereken ölçüt, CEZA değil SÜZGEÇ olmalı.
+> Ceza pazarlık eder, süzgeç etmez.**
+
+```
+babur : süzgeçte altlık yoktu     → görünmez renk seçildi
+hicaz : süzgeçte doygunluk yoktu  → GRİ seçildi (üç saat önce "gri = veri yok"
+                                    kuralını kendim yazmıştım)
+```
+
+> **Denetimin KAPSAMI da bir ölçüdür.**
+
+Üç kez: betiğim Osmanlı ikilisine bakmadı (`selcuklu↔OSMANLI tâbi` kaçtı) ·
+37 yerine 49 kimliğe baktı (yanlış alarm) · girdi/çıktı eksenini karıştırdı.
+
+> **Etiket süzgeçle aynı şeyi söylemeli.**
+
+Kendi aracımda `SINIRDA` başlığı "≥10 tanık" diyordu, süzgeç sınır uzunluğu
+kullanıyordu. Etiket kodla çelişince denetim yanlış gerekçeyle okunur.
+
+### Ölçüt ve maruziyet
+
+> **ΔE tek başına öncelik ölçütü değildir.**
+
+`ilhanli↔iran` ΔE 14,8 ile hiçbir listede yoktu; **97,58° sınır** boyunca
+görünüyordu ve en büyük maruziyetti. `afsar↔kacar` ΔE 12,1 ile endişe
+konusuydu; **sıfır tanık** — hiç komşu değiller.
+⇒ Sıralama ölçütünü değiştirmek yalnız öncelikleri değil, **listenin
+kendisini** değiştiriyor.
+
+### Karar ve tavan
+
+> **Tavanı ÖLÇMEK ile tavanı KULLANMAK ayrı kararlardır.**
+
+Avrupa 23→17 · Baltık 26→15 · Kızıldeniz 18→12. Azamiye çıkmak her seferinde
+başka bir ölçütü (paletin donuk kimliği) sessizce feda ediyordu.
+
+> **Kimliği savurmak da bir maliyettir** ve ancak karşılığında bir şey
+> alınıyorsa meşru.
+
+Kızıldeniz turu 1: ortalama ton kayması 62,5°. Tur 3: **11,4°**, aynı 17/17.
+Sarsıntının bedeli vardı, getirisi yoktu.
+
+### Kural ve sınır
+
+> **Bir kuralı uygularken kuralın SINIRINI da veriden ölç.**
+
+"Kırmızı Osmanlı'ya ayrılmıştır" cümlesi hangi dereceleri kapsadığını
+söylemiyor. İki kez yanlış kurdum (20°±22, 20°±30) ve ikisi de çözümü kendi
+sınırına oturttu. Paletin kendi pratiği ölçülünce gerçek şerit **15-35°**
+çıktı — 350-15° bandında zaten yedi meşru yabancı devlet vardı.
+
+### İşbölümü
+
+> **Köprüyü sabit tutmak, ona bağlı çakışmaları kapatmayı engellemez —
+> yalnız köprünün ÖTEKİ ucunu bozmamayı garanti eder.**
+
+`memluk` kıpırdamadan `memluk↔yemen` ve `memluk↔teke` kapandı, çünkü öteki
+uçlar oynadı. İki bağımsız vakayla doğrulandı.
+
+> **Görünmezlik tonu zorlar, çakışma zorlamaz.**
+
+Kızıldeniz (5 görünmez) 11,4° kayma istedi; Anadolu (0 görünmez) 1,5°.
+⇒ Görünmez içeren kümeler pahalıdır, önce onlar ölçülmeli.
+
+> **Uyarı bir KARAR NOKTASIDIR, otomatik düzeltme talimatı değil.**
+
+`PAYLASIM` üç kez ateşledi, üçünde de doğru cevap ÖLÇMEKTİ: `taceddin`de
+beyan düzeltildi, `safevi`de bağ korundu, `timurlu`da bağ koptu. Aynı uyarı,
+iki farklı doğru cevap.
+
+### Ve iki taraflı kurallar
+
+> Koşu sürerken oturumlara `arac/` işi **verilmez** — *koordinatör*
+> `arac/`ye yazan oturum, yazmadan önce koşu durumunu **ölçer** — *oturum*
+
+Tek taraflı olsaydı tek nokta arızası kalırdı. KOŞU 6 tam o boşluktan öldü.
+
+---
+
 ## 5. ESKİ §4 — PARTİ 3 notu (aşıldı)
 
 Yöntem hazır ve Parti 2'de sınandı: merge sonrası komşuluk + karşılıklı eşik
