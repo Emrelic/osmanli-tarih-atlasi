@@ -524,6 +524,12 @@ def main():
     BEKLEYEN = {
         "data/yerlesimler_avrupa.js":    "237 nokta, 15 kimlik renkler.py'de tanımsız",
         "data/yerlesimler_asya.js":      "344 nokta, 135 kimlik tanımsız + harita penceresi 62°D'de bitiyor",
+        # PETEK/NOKTA parti 12, 3 Agustos 2026. Gyula (Gole) -- CLAUDE.md
+        # 3.5.1 onu ACIKCA sayiyordu ama dort nokta eklenirken ATLANMISTI;
+        # MOTOR 3 bugun okudu, TDV timisvar maddesi dogruladi. Kosu 15:00'da
+        # girdinin anlik goruntusunu aldiktan SONRA yazildi; simdi baglamak
+        # YAYIN BAYAT verir.
+        "data/yerlesimler_ek5.js":       "1 nokta (Gyula), yayin sonrasi baglanacak",
     }
 
     # 🔴 EMEKLİ ≠ BEKLEYEN. Bekleyen "önkoşul kapanınca BAĞLANACAK" vaadi

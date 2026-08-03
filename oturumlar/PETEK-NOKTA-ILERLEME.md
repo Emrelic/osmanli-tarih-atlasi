@@ -1744,3 +1744,177 @@ ve <%10 çıkan her nokta için SEBEP: kıyı / ada kuralı / yaslama / komşu
 ```
 ⚠️ Ama eşik `tur:`e göre olmalı — `liman` için %10 normal, `sehir` için alarm.
 Bugünkü tek eşik kıyı noktalarını haksız yere suçlu gösteriyor.
+
+---
+---
+
+# PARTİ 12 — YEDİ ÇİFTİN TARİHÎ HÜKMÜ
+
+MOTOR 3 ölçtü, ben tarihe sordum. Tek soru: **bu toprak hangi şehrin
+hinterlandıydı?** — "hangi ölçüt daha temiz" değil.
+
+| # | çift | km² | hüküm |
+|---|---|---|---|
+| 1 | Eperjes ← Krakov | 24.480 | ✓ **yeni ölçüt doğru** |
+| 2 | Reggio Calabria ← Sirakuza | 26.387 | ✓ **yeni ölçüt doğru** |
+| 3 | Arkîko ← Dahlak | 3.223 | ✓ **yeni ölçüt doğru** |
+| 4 | Arkot ← Madras | 7.702 | ✓ **yeni ölçüt doğru** |
+| 5 | Perpignan ← Girona | 11.464 | ✓ **yeni ölçüt doğru** |
+| 6 | Ankober ← Harar | 35.302 | 🟡 **belirsiz** — ama yeni ölçüt daha az yanlış |
+| 7 | **Sebte ← Fas (Fez)** | **11.017** | ✗ **ESKİ ÖLÇÜT DOĞRU** |
+
+## ✓ Beş tartışmasız
+```
+1 Eperjes    Sáros/Szepes, YUKARI MACARİSTAN. Karpatlar yüzyıllarca
+             Macar-Leh sınırıdır; Slovak toprağı Krakov'un hinterlandı
+             hiç olmadı. (Szepes şehirlerinin 1412-1769 rehin dönemi
+             küçük bir enklavdır, bütün bölge değil.)
+2 Reggio     Messina Boğazı iki AYRI krallığı ayırır — Kalabriya Napoli,
+             Sicilya Sicilya. Ada anakarayı tutamaz.
+3 Arkîko     Dahlak bir TAKIMADA; anakara kıyısı Arkîko'nundur. (2)'nin
+             birebir aynı ilkesi.
+4 Arkot      Karnatik nevvabının merkezidir; MADRAS bir Şirket
+             faktoryasıydı (Fort St George), iç toprağı yoktu.
+5 Perpignan  Roussillon Pireneler'in KUZEYİ. 1659 Pireneler Antlaşması'ndan
+             sonra Fransa, öncesinde de dağın kuzey yamacı. Girona'nın
+             hinterlandı değil.
+```
+
+## 🟡 6 — ANKOBER ↔ HARAR: belirsizliğin CİNSİ önemli
+TDV `harar`: emirlik 1856'da *"yalnız şehir merkezi ve çevresinden ibaretti"*;
+Harar ile Şeva arasındaki topraklarda **Oromo (Galla) hâkimiyeti** vardı;
+Menelik şehri 7 Ocak 1887'de aldı.
+⇒ O 35.302 km² **ikisinin de değildi — ÜÇÜNCÜ bir tarafındı.** İkisinden
+birini seçmek modelin zorlaması, tarihin cevabı değil.
+📌 Ama zorunlu seçimde **Ankober daha az yanlış**: Şeva krallığının
+başkentidir ve gerçek bir toprağı vardı; Harar surla çevrili bir şehir
+devletiydi. ⇒ yeni ölçüt kabul, **gerekçesi "temizlik" değil "Harar'ın
+hinterlandı yoktu"**.
+⚠️ Doğru çözüm bir Oromo kimliği ya da kasıtlı boşluktur — `S-007` kuyruğuna.
+
+## 🔴 7 — SEBTE: YENİ ÖLÇÜT BURADA YANILIYOR
+Ceuta bir **presidio**dur ve presidionun tanımı zaten şudur: surlar tutulur,
+ötesi tutulmaz. 11.017 km²'lik Fas içi **Fas'ındı**, Ceuta'nın değil.
+⇒ Toprak **Fas'ta kalmalı** — yani bu çiftte ESKİ davranış doğru.
+📌 Ve bu, benim `PARTİ 11`deki tespitimle aynı kapıya çıkıyor:
+*"kıyı presidiosu için küçük petek DOĞRU cevaptır."*
+
+## 🔴 ASIL BULGU — ölçüt DEĞİL, EKSİK OLAN BİR ALAN
+
+Yedi çift tek bir kurala indi:
+
+> **Toprak, HİNTERLANDI OLAN tarafa gider.**
+> "En uzun ortak kenar" ölçütü bunu göremez — enklav olup olmadığına kördür.
+
+Kanıt, iki vakanın **ters yönde** aynı sebeple çalışması:
+```
+Sebte ↔ Fas    yeni ölçüt toprağı ENKLAVA VERİYOR   → YANLIŞ
+Arkot ↔ Madras yeni ölçüt toprağı ENKLAVDAN ALIYOR  → DOĞRU
+Ankober ↔ Harar yeni ölçüt toprağı ENKLAVDAN ALIYOR → DOĞRU
+```
+Yeni ölçüt 6/7'de tutuyor ama **ilkeden değil, tesadüfen**: enklav çoğu zaman
+kısa kenarlı olur. Ceuta'da öyle olmayınca yanılıyor.
+
+### ⇒ ÖNERİ: `enklav: true` alanı
+```
+enklav:true → bu nokta YETİM YÜZ EMEMEZ; peteği kendi kara parçasıyla sınırlı
+adaylar: Sebte · Melîle · Mersa'l-Kebîr · Madras · Harar · Arkîko …
+         (presidio, faktorya, surla çevrili şehir devleti)
+```
+Bir satırlık alan, hem Sebte'yi düzeltir hem öteki altısını **ilkeye** bağlar.
+⚠️ `girdi.py` `BILINEN_ALANLAR` kütüğüne kaydı gerekir (`neden:` gibi).
+
+## 📌 §3.5.1 KAYDI — Yukarı Macaristan kapanışı sorgulanmalı
+`CLAUDE.md §3.5.1`: *"Kassa·Eperjes·Tokaj·Sopron eklendi, ~28.000 km² 91 yıl
+yanlış Osmanlı kapandı."* Eperjes'in **%94,5'i Krakov'a gitmiş** — yani
+kapanış en az bir noktada gerçekleşmemiş. Öteki üçü MOTOR 3'te ölçülüyor;
+dördü de aynıysa o satır **düzeltilmeli**, çünkü bugün olmamış bir işi
+olmuş gibi kaydediyor.
+
+---
+---
+
+# PARTİ 13 — GYULA + Girona↔Perpignan hükmü
+
+## ① `data/yerlesimler_ek5.js` — Gyula (Göle)
+
+```
+Gyula (Göle)   46,650K / 21,277D   kale   k:3   (m: YOK, gerekçe aşağıda)
+s: macaristan 1281 → 1566-09-02 · avusturya 1699-01-26 → 1918-11-11
+   macaristan 1918-11-11 → 1923-10-29
+d: 1566-09-02 → 1699-01-26  (y:"kusatma")
+```
+maske ✓ · 3 km ✓ 43,41 km (Yanova) · renk 2/2 ✓ · Değişmez 1 ✓ · Değişmez 3 ✓
+
+**Değişmez 2 — ölçüldü, TEMİZ:**
+```
+1566-09-02 → 1566-09-07 "Zigetvar — Kanunî'nin vefatı"        5 gün ✓
+1699-01-26 → 1699-01-26 "Karlofça Antlaşması"                 0 gün ✓
+```
+⚠️ Kendi kontrol betiğimin ⑦'si "veride olmayan gün" diye öttü — ama o benim
+koyduğum **daha katı bir vekil** ("mevcut kırılma gününü yeniden kullan"),
+Değişmez 2'nin kendisi değil. Gerçek ölçüt madde mesafesidir ve 5 gün.
+📌 Vekil, olaylar*.js'e yazamadığım partiler için konmuştu; burada gerekmedi.
+
+### 🟢 Kaynak — TDV Gyula'yı sancak olarak DOĞRULADI
+TDV `timisvar` (CANLI): Timişvar eyaleti *"en sabit ve bilinenleri şunlardır:
+Tımışvar, **Göle (Gyula)** ve Arad (birlikte), Modava, Lipova, Çenad ve
+Yanova."* ⇒ Hem Osmanlıca adı (**Göle**) hem sancak statüsü kaynaklandı;
+`§3.5.1`in "sancak merkezi olmuş" cümlesi artık TDV'ye basıyor.
+🔴 Fetih ve kayıp GÜNÜ TDV'de yok (`gyula` diye madde yok; `arama` yalnız
+Moravcsik ve Németh adlı Macar bilginlerini veriyor).
+
+### 🔴 1699 BİLİNÇLİ ÖDÜNÇ — ve sebebi bugünkü kendi bulgum
+Kale askerî olarak 1694/95'te düştü. O tarihe yazsaydım kırılma
+`1695-01-01 "Malikâne sisteminin yürürlüğe girmesi"` maddesine yapışacaktı —
+**`PARTİ 9`da kataloglağım 12 kusurun on üçüncüsünü kendi elimle üretirdim.**
+Karlofça hukukî devirdir, maddesi vardır, ve Kamaniçe·Bar·Meciboj·Yazlofça·
+Çehrin de aynı günü taşıyor.
+📌 Oturum 0'a: "Gyula'nın kaybı" (1695) maddesi yazılırsa bitiş oraya çekilir.
+**Önce madde, sonra tarih** — Mankup ve Cerbe ile aynı desen, üçüncü kez.
+
+### İki yerde komşu zincirini KOPYALAMADIM
+```
+Zapolya/Erdel penceresi YOK  Varad ve Yanova 1541'den ERDEL toprağıydı;
+                             Gyula Habsburg Kral Macaristanı'nın ucunda kaldı
+                             ve 1566'da Pertev Paşa onu HABSBURG kaptanından aldı
+1918 sonrası `macaristan`    Varad/Yanova `romanya` — ikisi bugün Romanya'da,
+                             Gyula MACARİSTAN'da (Békés)
+```
+
+### `m:` yazılmadı — ölçüldü
+Doğal değeri "Temeşvar" ama Değişmez 3 sınandı:
+`1700 → Gyula=avusturya ↔ Temeşvar=OSMANLI 🔴`. Gyula 1699'da Habsburg'a
+geçti, Temeşvar 1716'ya kadar Osmanlı'da kaldı; `m:`nin zaman boyutu yok.
+⇒ Mankup kararının aynısı. (Karabiga'da çare vardı, burada yok.)
+
+---
+
+## ② GIRONA ↔ PERPIGNAN — tek gerçek takas, hüküm: **✓ PERPIGNAN**
+
+Koordinatörün daralttığı tek kalem. Ve haklı olarak tek gerçek olan bu:
+öteki altısında bugünkü sahibin örtüşmesi %0-2 iken burada **%19,4 ↔ %79,3** —
+yani iki tarafın da geometrik iddiası var.
+
+**Hüküm: toprak Perpignan'ın.** Gerekçe 1659 sınırı DEĞİL, idarî süreklilik:
+```
+Roussillon'un başkenti HER ZAMAN Perpignan'dı — Aragon tacı altındayken de,
+1659 Pireneler Antlaşması'ndan sonra Fransa'dayken de.
+Girona, Albera masifinin GÜNEYİNDE ayrı bir kontluk/piskoposluktur ve
+Roussillon'u hiç yönetmedi.
+```
+⇒ Soru "İspanyol mıydı Fransız mıydı" değil — atlasın 1281-1923 penceresinde
+Roussillon 378 yıl Katalan, 264 yıl Fransız. Soru **"Girona'dan mı yoksa
+Perpignan'dan mı yönetiliyordu"** ve cevap her iki dönemde de Perpignan.
+
+⚠️ **Ama bu, ötekiler gibi tartışmasız değil ve %19,4 onu söylüyor.** Tarihen
+doğru çizgi **Albera/Pireneler su bölümü**dür; Voronoi orta dikmesi zaten
+oraya yakın (≈42,34°K, masif ≈42,4°K). Yüzün güneye taşan kısmı varsa o
+Girona'nındır — ama motor yüzü bölemez, bütün olarak verir.
+📌 Yani hüküm "%100 Perpignan" değil, **"yüzün ezici çoğunluğu Perpignan'ın
+ve bölünemediği için tamamı ona gitmeli"**.
+
+⚠️ **KAYNAK NOTU:** TDV Roussillon'u kapsamıyor. Yukarıdakiler standart Avrupa
+tarihi (Pireneler Antlaşması 7 Kasım 1659; Perpignan Roussillon'un başkenti)
+— `CLAUDE.md §4`in "TDV'nin kapsamadığı coğrafyalar için standart akademik
+referans yeterlidir" maddesi kapsamında, ama **TDV'ye basmıyor.**
