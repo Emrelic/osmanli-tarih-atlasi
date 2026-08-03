@@ -636,3 +636,137 @@ KASTEN BOŞ    sahipsiz nokta VAR             → dokunma
 YALANCI BOŞ   sahipsiz OLMALI ama noktası yok → SAHİPSİZ nokta gerekir  ← H-0007
 ```
 Üçüncü sınıf bugüne kadar birinci gibi görünüyordu.
+
+---
+---
+
+# PARTİ 3 — VERİ ARAŞTIRMA (`data/yerlesimler_ek2.js`, 3 nokta + 10 teşhis)
+
+**Durum:** 🟢 HAZIR. Dosya bağlı değil, koşuyu bozmaz.
+Kaynak yetkisi TDV + akademik idi; **akademik kaynağa HİÇ başvurulmadı** —
+Pitcher'a erişimim yok ve erişmediğim esere atıf yazmaktansa üç adayı
+atladım (aşağıda).
+
+## Eklenen 3 nokta
+
+| ad | lat, lon | zincir | TDV | kapattığı |
+|---|---|---|---|---|
+| Koniçe (Konjic) | 43,652 · 17,962 | Travnik (1463-06-01) | `konice` | p3/H-0016 |
+| Visoko | 43,989 · 18,179 | Saraybosna (1448-01-01) | `saraybosna` + içerik | p3/H-0016 |
+| Boğaziçi (Rumeli yakası) | 41,150 · 29,050 | İstanbul (1453-05-29) | `bogazici` | p3/H-0001 · H-0013 |
+
+Sekiz kontrol temiz · Değişmez 2 borcu **sıfır** (4 kırılma günü de veride var)
+· yeni renk yok · maske 3/3 · en yakın çift 6,91 km.
+
+**Ölçülen etki:** Saraybosna'nın ikinci-en-yakın noktası **49,3 → 23,4 km**.
+Boğaz'ın kuzeyinde (41,20K/29,10D) kazanan artık Bizans (7,0 km) — Anadolu
+Hisarı (13,5 km) değil.
+
+## On maddenin sınıflandırması
+
+### 🔴 VERİ HATASI — Oturum 0'a bildirildi (yerlesimler.js onun dosyası)
+
+**KARAMAN ÜÇLÜSÜ — üç şikâyet, tek sebep.**
+```
+madde 1468-01-01  "Karaman'ın kesin ilhakı"          ← ilhak MADDESİ
+madde 1468-01-17  "İskender Bey'in ölümü"
+madde 1468-04-01  "Uzun Hasan'ın Karakoyunlu'ya son vermesi"
+VERİ  1468-04-01  Konya·Karaman·Ermenek·Aksaray·Niğde  d: başlıyor
+```
+İlhak, kendi maddesinde değil **iki madde sonra**, Uzun Hasan maddesinin
+altında boyanıyor — kullanıcının `H-0020`de yazdığı cümlenin birebir kendisi.
+🔴 **Değişmez 2 bunu GÖREMİYOR**: 1468-04-01'de bir madde VAR, sadece yanlış
+madde. `CLAUDE.md §3`'ün gerekçesinde yazan *"değişim, o güne rastgele denk
+gelen alakasız bir maddenin altında belirir"* vakasının canlı örneği.
+⇒ Düzeltme: `1468-04-01` → `1468-01-01`. Yeni gün açılmıyor.
+
+**KIZILDENİZ (p5/H-0008).** TDV `habes-eyaleti`: eyalet 5 Temmuz 1555'te
+kuruldu, Masavva 2 Nisan 1557'de alındı, kıyı *1517'de Memlükler'den
+devralınmadı.*
+```
+Ebû Ramâd (Şalâtîn) 23,13K   d: 1517-01-22  ← Ridâniye günü, Kahire'nin 750 km güneyi
+Halâib·Sevâkin·Akīk·Tokar·Sinkat  d: 1517-04-13
+Masavva·Arkîko·Dahlak             d: 1557-01-01  ← DOĞRU olan
+```
+Aynı kıyının kuzey yarısı 1517, güney yarısı 1557 — 40 yıl fark.
+⇒ Düzeltme: altısı da `1557-01-01` (mevcut kırılma).
+⚠️ `§3.5.1` gereği öbür uç: bu, 1517-1557 arası 40 yıllık bir pencere açar;
+sahibi yazılmazsa **hayalet taraf değiştirir.** TDV "devralınmadı" dediğine
+göre doğru cevap muhtemelen sahipsiz (Beca) → `kasitli_bosluk` + `neden`.
+
+**GEMLİK (p2/H-0001).** Görsel künyesi 1324-03-01, 39,37-40,79K/27,47-29,40D.
+```
+Ulubat   40,171/28,573  d: 1303-01-01   ← 31 YIL ERKEN
+Gölyazı  40,172/28,650  d: 1334-01-01     6,6 km ötede
+Kirmasti 40,035/28,411  d: 1334-01-01    14 km
+Mihaliç  40,214/28,361  d: 1334-01-01    18 km
+```
+⚠️ TDV `ulubat` ÖLÜ — anomali ölçüldü, hüküm kaynağı bekliyor.
+
+**ORDU/ÜNYE (p3/H-0007).** Etiket var ama devlet adı değil:
+`v:[… k:"Yıldırım Bayezid'e bağlılık"]` — İLİŞKİYİ yazıyor, DEVLETİ değil.
+Kullanıcı "üstünde beylik ismi yok" derken tam bunu görmüş.
+⇒ `k:` → "Hacıemîroğulları Beyliği (Osmanlı tâbii)".
+
+### 🟢 GERÇEK — düzeltme yok, kullanıcıya açıklama
+```
+p3/H-0003 Karaman'a katılmayan topraklar → Alanya·Anamur 1471, Silifke 1473;
+          Taşeli sahili gerçekten 3-5 yıl daha direndi.
+p3/H-0010 Aydınoğulları hortluyor        → Cüneyd Bey 1421-1425 beyliği
+          fiilen diriltti. Düzmece Mustafa maddesinin ÜSTÜNDE görünmesinin
+          sebebi ikisinin AYNI GÜNÜ paylaşması (1421-08-15).
+p3/H-0011 Germiyan ayrı katman           → Timur beylikleri diriltti;
+          Germiyan 1402-1429 bağımsız, 1429'da MİRASLA geçti. "Geri planda"
+          görünmesi çizim sırası — ARAYÜZ'ün işi.
+p3/H-0021 Livno / Batı Bosna             → 1469'da Livno ve Travnik Osmanlı;
+          Yayça·Banaluka·Knin 1528'e, Klis 1537'ye kadar Macaristan'da.
+p4/H-0002 Bucak bozkırı                  → Kırım bozkırı DEĞİL: Tuna ile
+          Dinyester arası (45-46,5K/28-30D), Kırım'dan ~400 km batıda.
+          Kili (39 km) ve İsmail (57 km) yutuyor, ikisi de doğru sahipli.
+          Gösterim kaba ama YANLIŞ DEĞİL.
+```
+
+### 🔴 KENDİ HÜKMÜMÜ DÜZELTİYORUM — p2/H-0014 SAROZ
+
+Koordinatöre **"seyreklik değil, veri hatası"** diye yollamıştım. **Yanlıştı,
+ve sebebi örnek noktamı yanlış yerden seçmemdi.** 50 km yarıçapta 7 nokta
+saymıştım — ama o yedinin çoğu YARIMADANIN ÜSTÜNDE; asıl boşluk
+**Bolayır ↔ Keşan arasındaki 36 km'lik koridor.**
+
+Gelibolu'nun alınışı gününde (1354-03-02) kuzeye tarama:
+```
+40,55K 26,75D → Bolayır  2,0 km  OSMANLI     ⎫
+40,60K 26,75D → Bolayır  7,6 km  OSMANLI     ⎪ Saroz körfezinin
+40,65K 26,75D → Bolayır 13,1 km  OSMANLI     ⎬ KUZEYİ — fetihten
+40,70K 26,75D → Bolayır 18,7 km  OSMANLI     ⎪ bir gün önce BİZANS
+40,75K 26,75D → Keşan   14,7 km  bizans      ⎭
+```
+⇒ Bolayır'ın peteği fetih günü **19 km kuzeye**, körfezin başını aşıp Trakya
+anakarasına uzanıyor. Kullanıcının gördüğü şey birebir bu.
+⇒ **SINIF: SEYREKLİK ARTEFAKTI** (Bolayır 40,53 ↔ Keşan 40,85 arası 36 km
+boş). Büyüklüğü ~19 km ve **3 yıl** (Keşan·İpsala·Malkara 1357-01-01'de
+Osmanlı oluyor) — yani küçük ve kısa, ama gerçek.
+🔴 **Nokta EKLENEMEDİ:** aradaki tek aday Evreşe, adını Gazi Evrenos'tan alan
+bir OSMANLI devri yerleşimi — 1357 öncesi Bizans noktası olarak yazılamaz.
+Kaynaklı bir Bizans yerleşimi bulunamadı. Madde teşhisli ama açık.
+
+## Eklenmeyenler
+```
+🔴 Kamengrad · Zenitsa · Prusac (Akhisar) · Sanski Most — TDV'de madde YOK.
+   `bihac` maddesi Kamengrad'ı yalnız bir listede anıyor, tarih vermiyor;
+   Bihaç'ın kendi tarihi 1592 ama Kamengrad ondan onlarca yıl önce Osmanlı —
+   zincirini kopyalamak onu 100 yıl GEÇ gösterirdi.
+   ⇒ p3/H-0012 (Bosna ucu) AÇIK: 2. en yakın 33,2 km, değişmedi.
+🟡 Marmara Adası (p3/H-0014) — DOKUNULMADI. Veri `bizans 1281→1453-05-29`,
+   İstanbul'la AYNI GÜN; depoda o günü taşıyan yalnız iki kayıt var ve
+   1450'de adanın altı komşusunun altısı da Osmanlı. Şüpheli ama TDV
+   `marmara-adasi` ÖLÜ, fetih tarihi yok. Pitcher gerekiyor.
+```
+
+## Boğaz düzeltmesinin ölçülmüş SINIRI
+`Boğaziçi (Rumeli yakası)` boğazın kuzey yarısını düzeltiyor. Ama
+**Anadolu Hisarı ↔ Rumeli Hisarı 1,54 km** — depodaki en yakın iki nokta ve
+Rumeli Hisarı `kur:1452-08-31` taşıdığı için 1452 öncesi peteği yok.
+⇒ Rumeli Hisarı'nın tam karşısındaki ~2 km'lik şerit 1395-1452 arası Osmanlı
+kalmaya devam eder; oraya 3 km kuralını çiğnemeden nokta konamaz. Tam çözüm
+petek epokunda değişiklik ister — bu oturumun yetkisi dışında.
