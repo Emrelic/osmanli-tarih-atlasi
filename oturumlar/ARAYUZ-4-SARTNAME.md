@@ -193,3 +193,94 @@ ve üstelik SABİT bir kutu değil: **o TARİHTEKİ imparatorluğun kendi sını
                 (fitBounds padding — piksel ya da oran)
 ```
 ⇒ Ayar sekmesinde artık DÖRT sürgü: irtifa · yakınlık · hız · kenar payı.
+
+---
+
+# ⑧ İKİNCİ TUR — Emre haritaya baktı, iki şikâyet getirdi (4 Ağustos)
+
+> *"HARİTAYI OLAYA GÖTÜR CHECK BOXUNA BİR AYAR BUTONU KOYALIM VE BU SATIRI BİR
+> SÜT SATIRA KRONOLOJİ BAŞLIĞI İLE YAN YANA KOYALIM... BU AYAR OLMADAN OLAYLARA
+> ÇOK YAKLAŞIYOR ZOOM ETRAFI GÖREMİYORUM."*
+
+## 🔴 TEŞHİS: AYARLAR EKSİK DEĞİL, ULAŞILAMIYOR
+
+Dördü de yazılmış ve çalışıyor (`index.html:171-188`, ARAYÜZ 2 sınadı, ③ geçti).
+Ama `⚙ Uçuş kipi ayarları` **ayrı bir pencerede** duruyor; onay kutusu ise
+`#ucus-kontrol` içinde, başlığın **altında** ayrı bir satırda.
+⇒ Emre kronolojiye bakarken ayarın varlığını göremiyor. **Bu bir yerleşim
+kusuru, eksik özellik değil.** Ve sonucu ağır: özelliği "ayarsız" sanıp
+kullanamıyor.
+
+📌 Ders: *bir ayar, ayarladığı şeyin yanında durmuyorsa yok sayılır.*
+
+## ① İSTENEN YERLEŞİM — tek satır
+
+Bugün:
+```
+<h2>  📜 Kronoloji          <olay-sayac>                      </h2>
+<div id="ucus-kontrol">  ☑ 🛩 Haritayı olaya götür   [Ani|Uçuş]  </div>
+```
+İstenen — `#ucus-kontrol` **`<h2>`nin İÇİNE** taşınır, tek satır:
+```
+📜 Kronoloji   <sayaç>   ☑ 🛩 Haritayı olaya götür   [Ani|Uçuş]   ⚙
+```
+⚠️ Dar ekranda taşarsa sarmalasın; `📜 Kronoloji` ve `⚙` **hiçbir zaman**
+kırpılmasın — biri kimlik, öteki tek ayar kapısı.
+
+## ② ⚙ DÜĞMESİ — yeni pencere YAZMA
+Mevcut `#ayarlar-pencere`yi açsın (`js/app.js:3646`, `#dizin` deseni).
+İkinci bir ayar penceresi **açılmayacak**; bir ayarın iki yerde durması
+`YASALAR G2`ye aykırı.
+
+## 🔴 ③ ASIL ŞİKÂYET: "ÇOK YAKLAŞIYOR" — sürgünün ÖLÇÜSÜ YANLIŞ
+
+`ayar-yakinlik`: `min 4 · max 8 · varsayılan 6.5` — **zoom sayısı.**
+Emre'nin cümlesi ise şu: *"belki ben Anadolu'yu ya da sadece Batı Anadolu'yu
+görmek istiyor olabilirim."*
+⇒ **İnsan zoom sayısıyla düşünmüyor, GÖRÜNEN ALANLA düşünüyor.**
+
+**YAPILACAK:**
+```
+1. sürgünün ETİKETİ görünen alanı göstersin — zoom sayısını DEĞİL
+   ör.  "Yakınlık:  ~180 km  (Batı Anadolu kadar)"
+2. sürgünün uçlarını ÖLÇEREK koy: zoom 4/5/6/7/8'de ekranda kaç km
+   görünüyor, gerçekten bak. TAHMİN ETME — bugünün kuralı.
+3. varsayılanı ölçüme göre DÜŞÜR: 6.5 "etrafı göremiyorum" demek
+4. alt ucu genişlet (4 → 3 civarı): Emre "Anadolu'yu görmek isteyebilirim"
+   diyor, sürgü oraya YETİŞMELİ
+```
+📌 Etikete birkaç tanıdık çapa koymak sürgüyü anlaşılır kılar:
+`bir şehir · bir sancak · Batı Anadolu · Anadolu · imparatorluk`.
+⚠️ Çapaları da ÖLÇ; "Anadolu ≈ zoom 5" diye yazıp yanılma.
+
+## ④ BENDEN İSTENEN EK AYARLAR — üçü öneri, kararı sen ölç
+
+Emre: *"YAPILMASI GEREKEN BAŞKA AYAR DA VARSA ONLARI DA SEN DÜŞÜN."*
+
+**(a) 🔴 PANEL KAYMASI — bunu gerçek bir kusur sayıyorum, ayar değil.**
+Kronoloji ve olay bilgi paneli haritanın bir kısmını örtüyor. `flyTo` olayı
+ekranın **geometrik** merkezine koyuyor ⇒ nokta panelin altına düşebilir.
+⇒ `flyTo({ offset: [dx, 0] })` ile görünür alanın merkezine getir; `dx`
+panelin genişliğinden ÖLÇÜLEREK gelsin, sabit yazılmasın.
+📌 Bu, Emre'nin "etrafı göremiyorum"unun ikinci sebebi olabilir — yalnız
+fazla zoom değil, olayın kenarda kalması.
+
+**(b) AYNI YERDE İKİ OLAY → UÇMA.** Arka arkaya iki olay aynı `yer_id`ye
+düşüyorsa harita yerinde dursun; boşuna havalanma göz yorar. (§⑥ ⑤ sınaması
+zaten bunu soruyordu.)
+
+**(c) HIZLI GEZİNMEDE UÇUŞU ATLA.** ⏭'ye üst üste basılırsa (eşik: ÖLÇ)
+o geçişler `jumpTo`ya düşsün. `flyTo` zaten öncekini kesiyor ama arka arkaya
+yarım kalmış uçuşlar titreme gibi görünür.
+
+## ⑤ SINAMA
+```
+① tek satır dar ekranda taşmıyor · 📜 ve ⚙ kırpılmıyor
+② ⚙ mevcut pencereyi açıyor, İKİNCİ pencere yok
+③ yakınlık etiketi gerçek km gösteriyor — ölçülmüş, uydurulmamış
+④ varsayılan yakınlıkta Söğüt'e uçunca ÇEVRESİ görünüyor
+⑤ panel kayması: olay panelin altında kalmıyor
+⑥ tercihler localStorage'da kalıcı (mevcut desen korunuyor)
+```
+⚠️ ③ ve ④ Emre'nin gözüyle onaylanacak — ölçüm sürgüyü doğru kurar, "yeterince
+geniş mi" sorusunu ise yalnız kullanan cevaplar.
