@@ -205,8 +205,8 @@ window.YERLESIMLER = [
 { ad:"Ardahan", tur:"kale", lat:41.111, lon:42.702, g:0, k:4, m:"Erzurum", s:[{f:"1281-01-01",t:"1551-01-01",d:"gurcistan"},{f:"1878-07-13",t:"1918-05-25",d:"rusya"}], d:[{f:"1551-01-01",t:"1878-07-13"},{f:"1918-05-25",t:"1923-10-29"}] },
 { ad:"Van", tur:"kale", lat:38.502, lon:43.393, g:1, k:2, s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-25",d:"safevi"}], d:[{f:"1548-08-25",t:"1923-10-29",y:"kusatma"}] },
 { ad:"Bitlis", tur:"sehir", lat:38.401, lon:42.108, g:0, k:3, m:"Van", s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1515-09-15",d:"akkoyunlu"}], d:[{f:"1515-09-15",t:"1923-10-29"}] },
-{ ad:"Diyarbakır", tur:"sehir", lat:37.911, lon:40.237, g:2, k:2, s:[{f:"1281-01-01",t:"1378-01-01",d:"artuklu"},{f:"1378-01-01",t:"1515-09-19",d:"akkoyunlu"}], d:[{f:"1515-09-19",t:"1923-10-29",y:"kusatma"}] },
-{ ad:"Mardin", tur:"kale", lat:37.312, lon:40.735, g:0, k:3, m:"Diyarbakır", s:[{f:"1281-01-01",t:"1409-01-01",d:"artuklu"},{f:"1409-01-01",t:"1467-11-10",d:"karakoyunlu"},{f:"1467-11-10",t:"1515-09-15",d:"akkoyunlu"}], d:[{f:"1515-09-15",t:"1923-10-29"}] },
+{ ad:"Diyarbakır", tur:"sehir", lat:37.911, lon:40.237, g:2, k:2, s:[{f:"1281-01-01",t:"1378-01-01",d:"artuklu"},{f:"1378-01-01",t:"1507-01-01",d:"akkoyunlu"},{f:"1507-01-01",t:"1515-09-10",d:"safevi"}], d:[{f:"1515-09-10",t:"1923-10-29",y:"kusatma"}] },
+{ ad:"Mardin", tur:"kale", lat:37.312, lon:40.735, g:0, k:3, m:"Diyarbakır", s:[{f:"1281-01-01",t:"1409-01-01",d:"artuklu"},{f:"1409-01-01",t:"1467-11-10",d:"karakoyunlu"},{f:"1467-11-10",t:"1507-01-01",d:"akkoyunlu"},{f:"1507-01-01",t:"1517-05-01",d:"safevi"}], d:[{f:"1517-05-01",t:"1923-10-29"}] },
 // Belen (Beylan) Geçidi bozgunundan (29 Temmuz 1832) sonra Toroslar'ın güneyi
 // ve Çukurova Mısır kuvvetlerine açıldı; Adana muhassıllığı 1833 Kütahya
 // Sözleşmesi'yle İbrâhim Paşa'ya verildi, 1840 İskenderiye Konvansiyonu'yla iade
