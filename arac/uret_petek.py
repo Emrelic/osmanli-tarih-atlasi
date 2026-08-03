@@ -1769,7 +1769,13 @@ def hat_koord(g):
           else [x for x in getattr(g, "geoms", []) if x.geom_type == "LineString"])
     out = []
     for h in hs:
-        cs = [[round(x, 3), round(y, 3)] for x, y in h.coords]
+        # Ardışık aynı nokta eleniyor (YUK-SARTNAME.md · D). Burası HAT,
+        # halka değil — kapanış noktası yok, o yüzden kapatma da yok.
+        cs = []
+        for x, y in h.coords:
+            q = [round(x, 3), round(y, 3)]
+            if not cs or q != cs[-1]:
+                cs.append(q)
         if len(cs) >= 2:
             out.append(cs)
     return out
@@ -1850,13 +1856,40 @@ else:
 # Parçalar dosya başına TEK havuza yazılır, dönem kayıtları havuz indeksi taşır.
 # js/app.js yüklerken indeksleri geometriye çevirir (aynı parça bellekte de
 # tek nesne olur). Kazanç: kıyı 0.004 çözünürlükte kalırken dosya ~%60 küçülür.
-def havuza(mp, havuz, ix):
+def havuza(mp, halka_hav, halka_ix, parca_hav, parca_ix):
+    """İKİ KADEMELİ HAVUZ — YUK-SARTNAME.md · C.
+
+    Eskiden havuz PARÇA (halka listesi) tutuyordu; aynı halka farklı
+    parçalarda tekrar tekrar yazılıyordu. Ölçüldü (canlı çıktı, 4 Ağustos):
+        donemler.js           5.391 halkanın 2.717'si BİREBİR TEKRAR
+        devletler_harita.js  22.042 halkanın 6.112'si BİREBİR TEKRAR
+    Artık halkalar havuza girer, parça yalnız halka indeksleri taşır.
+
+    🔴 KAZANÇ SIRAYA BAĞLI: ardışık tekrar nokta temizliği (D) ÖNCE
+    yapılmazsa halkaların bir kısmı sırf tekrar noktalar yüzünden "farklı"
+    görünür ve havuza giremez. Ölçüldü — C tek başına 5,15 MB, D'den sonra
+    10,63 MB; sıranın kendisi 5,48 MB ediyor.
+
+    ⚠️ SÖZLEŞME (ARAYÜZ 2 ile çivilendi, `js/app.js` parcaCoz):
+        window.PARCALAR         + window.PARCA_HALKA
+        window.DEVLET_PARCALAR  + window.DEVLET_PARCA_HALKA
+    `parcaCoz` yeni biçim kararını DİZİ BAŞINA BİR KEZ verir ve delikte
+    `throw` eder — sessiz bozuk geometri üretmez. Bu yüzden burada da
+    kural "ya tam ya hiç": iki liste birlikte yazılır, yarısı yazılmaz.
+    """
     out = []
     for parca in mp:
-        k = json.dumps(parca, separators=(",", ":"))
-        j = ix.get(k)
+        ks = []
+        for halka in parca:
+            k = json.dumps(halka, separators=(",", ":"))
+            j = halka_ix.get(k)
+            if j is None:
+                j = len(halka_hav); halka_hav.append(halka); halka_ix[k] = j
+            ks.append(j)
+        pk = json.dumps(ks, separators=(",", ":"))
+        j = parca_ix.get(pk)
         if j is None:
-            j = len(havuz); havuz.append(parca); ix[k] = j
+            j = len(parca_hav); parca_hav.append(ks); parca_ix[pk] = j
         out.append(j)
     return out
 
@@ -1873,7 +1906,23 @@ def mp_koord(g):
         if p.area < 0.0002: continue      # ~2 km²
         halkalar = []
         for ring in [p.exterior] + list(p.interiors):
-            cs = [[round(x,3), round(y,3)] for x,y in ring.coords]
+            # 🔴 ARDIŞIK AYNI NOKTA ELENİYOR — YUK-SARTNAME.md · D.
+            # 3 ondalığa yuvarlama (~111 m) art arda gelen köşeleri BİRE
+            # indiriyor ve dosyaya iki kez yazılıyordu: iki çıktıda 145.000
+            # nokta (%3,5) bir öncekiyle birebir aynıydı, ~1,9 MB.
+            # ⚠️ HALKANIN KAPANIŞI TEKRAR DEĞİLDİR: shapely halkayı ilk
+            # noktayı sona ekleyerek kapatır (p0…pn,p0) ve o p0 SİLİNMEZ —
+            # ölçüt "bir ÖNCEKİ noktayla aynı mı", "ilk noktayla aynı mı"
+            # değil. Silinseydi halka açık kalır ve GeoJSON bozulurdu.
+            cs = []
+            for x, y in ring.coords:
+                q = [round(x, 3), round(y, 3)]
+                if not cs or q != cs[-1]:
+                    cs.append(q)
+            # Yuvarlama son köşeyi kapanış noktasına eşitlediyse kapanış
+            # elenmiş olabilir; halka açık kalmasın.
+            if len(cs) >= 3 and cs[0] != cs[-1]:
+                cs.append(list(cs[0]))
             if len(cs) >= 4: halkalar.append(cs)
         if halkalar: out.append(halkalar)
     return out
@@ -2016,7 +2065,8 @@ def _osm_aktif(y, a):
     return (any(dn["f"] <= a < dn["t"] for dn in y["d"]) or
             any(dn["f"] <= a < dn["t"] for dn in y["v"]))
 DEVLET_KAYIT = []
-DEV_HAVUZ, DEV_IX = [], {}
+DEV_HALKA, DEV_HALKA_IX = [], {}   # → window.DEVLET_PARCALAR (halka havuzu)
+DEV_PARCA, DEV_PARCA_IX = [], {}   # → window.DEVLET_PARCA_HALKA (parça→halka)
 # ⚠️ BU BLOK 3 SAAT 42 DAKİKA BOYUNCA TEK SATIR BASMIYORDU (r-öncesi koşu,
 # 01:56 → 05:38). Log sessiz kalınca "takıldı mı, ilerliyor mu" sorusunun
 # cevabı yoktu ve üç oturum boş yere bekledi. İlerleme satırı bu yüzden var.
@@ -2110,7 +2160,9 @@ for _dv_i, (did, (dad, renk)) in enumerate(BOYALAR.items(), 1):
             sayac("yabancı gövde geometrisi", time.time() - _t_gv)
             continue
         rp = g.representative_point()
-        _kayit = {"f": a, "t": b, "g": havuza(mp_koord(g), DEV_HAVUZ, DEV_IX),
+        _kayit = {"f": a, "t": b,
+                  "g": havuza(mp_koord(g), DEV_HALKA, DEV_HALKA_IX,
+                              DEV_PARCA, DEV_PARCA_IX),
                   "c": [round(rp.x, 2), round(rp.y, 2)]}
         dnm.append(_kayit)
         # 🔴 KAYDIN KENDİSİ TUTULUR, KOPYASI DEĞİL — ve sebebi ölçüldü.
@@ -2133,7 +2185,10 @@ _dyol = os.path.join(KOK, "data", "devletler_harita.js")
 _dj  = "// Otomatik üretildi — elle düzenlemeyin. Betik: arac/uret_petek.py\n"
 _dj += "// Yabancı devletlerin dönem gövdeleri (yerlesimler.js s alanından).\n"
 _dj += "// dnm[].g, DEVLET_PARCALAR havuzuna indekstir (js/app.js çözer).\n"
-_dj += "window.DEVLET_PARCALAR = " + json.dumps(DEV_HAVUZ, separators=(",",":")) + ";\n"
+_dj += ("window.DEVLET_PARCALAR = "
+        + json.dumps(DEV_HALKA, separators=(",", ":")) + ";\n")
+_dj += ("window.DEVLET_PARCA_HALKA = "
+        + json.dumps(DEV_PARCA, separators=(",", ":")) + ";\n")
 _dj += "window.DEVLET_HARITA = " + json.dumps(DEVLET_KAYIT, ensure_ascii=False, separators=(",",":")) + ";\n"
 _dj += ("window.URETIM_IZI = "
         + json.dumps({"girdi": _GIRDI_IZI, "motor": _MOTOR_IZI},
@@ -2154,7 +2209,8 @@ asama("Dönemler kuruluyor (delta yapısı)")
 #                   idarenin askıya alındığı aralığı bildirir (ör. Suriye
 #                   1832-1841 Kavalalı İbrâhim Paşa'nın elinde).
 donemler = []
-OSM_HAVUZ, OSM_IX = [], {}   # o + v parçaları tek havuzda
+OSM_HALKA, OSM_HALKA_IX = [], {}   # → window.PARCALAR (halka havuzu)
+OSM_PARCA, OSM_PARCA_IX = [], {}   # → window.PARCA_HALKA (parça→halka)
 SRB_HAVUZ, SRB_IX = [], {}   # serbest kenar hatları (sahipli ↔ sahipsiz sınırı)
 SRB_U = []                   # havuza PARALEL: her hattın belirsizliği (km)
 onceki_aktif = None      # işaret/marker için: doğrudan + tâbi hepsi
@@ -2223,10 +2279,12 @@ for i in range(len(tarihler) - 1):
     kayit = {"f": a, "t": b, "ad": ad,
              "b": [round(x0,2), round(y0,2), round(x1,2), round(y1,2)],
              "ao": alan_km2(g), "e": ekle, "c": cik,
-             "o": havuza(mp_koord(g), OSM_HAVUZ, OSM_IX)}
+             "o": havuza(mp_koord(g), OSM_HALKA, OSM_HALKA_IX,
+                          OSM_PARCA, OSM_PARCA_IX)}
     if gt is not None and not gt.is_empty:
         kayit["av"] = alan_km2(gt)
-        kayit["v"]  = havuza(mp_koord(gt), OSM_HAVUZ, OSM_IX)
+        kayit["v"]  = havuza(mp_koord(gt), OSM_HALKA, OSM_HALKA_IX,
+                                       OSM_PARCA, OSM_PARCA_IX)
     # Serbest kenar: gövdenin sahipsiz alana bakan yüzü. Boşsa alan hiç yazılmaz
     # (çoğu dönemde çölle sınırdaş olunmuyor — kuruluş devri gibi).
     sayac("Osmanlı gövde geometrisi", time.time() - _t_ov)
@@ -2260,7 +2318,10 @@ js += "window.SERBEST = " + json.dumps(SRB_HAVUZ, separators=(",",":")) + ";\n"
 # hata GÖRÜNMEDİ. İki satır yan yana durmalı ki bir daha ayrılmasınlar.
 js += "window.SERBEST_U = " + json.dumps(SRB_U, separators=(",",":")) + ";\n"
 js += "window.PETEKLER = " + json.dumps(petekler, separators=(",",":")) + ";\n"
-js += "window.PARCALAR = " + json.dumps(OSM_HAVUZ, separators=(",",":")) + ";\n"
+js += ("window.PARCALAR = "
+       + json.dumps(OSM_HALKA, separators=(",", ":")) + ";\n")
+js += ("window.PARCA_HALKA = "
+       + json.dumps(OSM_PARCA, separators=(",", ":")) + ";\n")
 js += "window.DONEMLER = " + json.dumps(donemler, separators=(",",":")) + ";\n"
 
 # ---------------- PER-PETEK GÖVDE — AYRI DOSYA ----------------
@@ -2497,7 +2558,21 @@ asama("donemler.js yazımı")
 open(CIKTI, "w", encoding="utf-8").write(js)
 
 print(f"Dönem sayısı: {len(donemler)}")
-print(f"Parça havuzu: donemler {len(OSM_HAVUZ)}, devletler {len(DEV_HAVUZ)} eşsiz parça")
+print(f"Havuz — donemler: {len(OSM_HALKA):,} eşsiz halka / "
+      f"{len(OSM_PARCA):,} eşsiz parça  ·  devletler: {len(DEV_HALKA):,} halka / "
+      f"{len(DEV_PARCA):,} parça")
+# 🔴 YA TAM YA HİÇ — parça listesindeki her halka indeksi havuzda OLMALI.
+# `js/app.js` parcaCoz delikte `throw` ediyor (ARAYÜZ 2 sözleşmesi); delik
+# oraya varmadan BURADA yakalanır. Sessiz bozuk geometri üretilemez.
+for _ad2, _hv, _pr in (("donemler", OSM_HALKA, OSM_PARCA),
+                       ("devletler", DEV_HALKA, DEV_PARCA)):
+    _kotu = [j for ks in _pr for j in ks if not (0 <= j < len(_hv))]
+    if _kotu:
+        raise SystemExit(f"HAVUZ DELIGI ({_ad2}): {len(_kotu)} gecersiz halka "
+                         f"indeksi, ornek {_kotu[:5]} — cikti YAZILMADI")
+print(f"  havuz bütünlüğü: "
+      f"{sum(len(k) for k in OSM_PARCA) + sum(len(k) for k in DEV_PARCA):,} "
+      f"halka atıfının hepsi geçerli ✓")
 _sbd = sum(1 for d in donemler if d.get("sb"))
 _sbk = sum(len(h) for h in SRB_HAVUZ)
 import statistics as _stt
