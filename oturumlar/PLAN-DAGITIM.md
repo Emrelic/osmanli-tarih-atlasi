@@ -108,9 +108,35 @@ Ve `denetle.py`nin `50 sahipsiz (beklenen 50)` satırını bozar — yani
 kusur, kendini bir "iyileştirme" gibi göstererek girer.
 
 📌 **Bulgu:** "nokta başına km²" ölçümü, bir bölgenin **aç** mı yoksa
-**kasten boş** mu olduğunu ayırt edemiyor. ⇒ Seyreklik listesine
-`kasitli_bosluk` sütunu eklenecek; yoksa bir sonraki oturum aynı tuzağa
-düşer ve bu kez fark edilmeyebilir.
+**kasten boş** mu olduğunu ayırt edemiyor.
+
+## 🔴 VE KURALIN KENDİSİ DÜZELTİLDİ — oturum ölçtü, ben yanılmışım
+
+*"Kasten boş bölgeye nokta ekleme"* demiştim. **Yanlış.** Doğrusu:
+
+```
+Kasten boş bölgeye nokta EKLENMEZ  ✗
+Kasten boş bölgeye SAHİPSİZ nokta EKLENİR  ✓
+```
+
+**Kanıt `p5/H-0007`in yıldızı:** kuzey Arabistan kasten boştu ama haritada
+boş **GÖRÜNMÜYORDU** — Maan'ın **Osmanlı** peteği 268 km doğuya uzanıp
+orayı Osmanlı boyuyordu. *Boşluk yalnız niyette vardı.* Vâdî Sirhân
+`d:[]` ile konunca boşluk gerçekten boş göründü.
+
+⇒ Eklenen 5 nokta boşluğu **yok etmiyor, boşluğu ÇİZİYOR.** "Kasten
+sahipsiz" sayacının 50→55 olmasının sebebi de bu.
+
+### Seyreklik listesi ÜÇ sınıf üretmeli
+```
+AÇ           nokta yok, komşular sahipli        → nokta ekle
+KASTEN BOŞ   sahipsiz nokta VAR, dokunma        → geç
+YALANCI BOŞ  sahipsiz OLMALI ama noktası yok    → SAHİPSİZ nokta ekle
+             ⇒ komşunun peteği oraya taşıyor ve YANLIŞ SAHİP boyuyor
+```
+🔴 **Üçüncü sınıf bugüne kadar birinci gibi görünüyordu** — ve tehlikeli
+olan da bu: "aç bölge" diye nokta konulup **sahiplik yazılsaydı**, boşluk
+kapanmaz, yanlış sahip **pekişirdi.**
 
 ---
 

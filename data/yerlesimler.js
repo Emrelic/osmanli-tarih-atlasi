@@ -84,8 +84,21 @@ window.YERLESIMLER = [
     d:[{f:"1304-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1923-10-29"}], s:[{f:"1281-01-01",t:"1304-01-01",d:"bizans"},{f:"1402-07-28",t:"1403-09-01",d:"isa-celebi"},{f:"1403-09-01",t:"1404-03-01",d:"mehmed-celebi"},{f:"1404-03-01",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"mehmed-celebi"}] },
 { ad:"Kestel", tur:"kale", lat:40.213, lon:29.170, g:0, k:4, m:"Bursa",
     d:[{f:"1303-01-01",t:"1402-07-28",y:"savas"},{f:"1413-07-05",t:"1923-10-29"}], s:[{f:"1281-01-01",t:"1303-01-01",d:"bizans"},{f:"1402-07-28",t:"1403-09-01",d:"isa-celebi"},{f:"1403-09-01",t:"1404-03-01",d:"mehmed-celebi"},{f:"1404-03-01",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"mehmed-celebi"}] },
+// p2/H-0001 — kullanıcı: "Gemlik ve Kios'un alınması maddesinde en batıdaki
+// parça ile Osmanlı anakarası arasında kopukluk var." PETEK/NOKTA ölçtü:
+// kopukluk Ulubat çevresindeki BİZANS kaması. Ulubat 1303'te Osmanlı,
+// ÜÇ KOMŞUSU 1334 — Gölyazı 6,6 km · Kirmasti 14 km · Mihaliç 18 km.
+// 🔴 1303 TOPOLOJİK OLARAK İMKÂNSIZ: Bursa 1326-04-06'da düştü ve Ulubat
+// ondan 30 km DAHA BATIDA, Bizans hattının derininde. Yani atlas 23 yıl
+// boyunca cepheden kopuk bir Osmanlı adası çiziyordu — kullanıcının
+// fotoğrafladığı şey buydu.
+// ⚠️ KAYNAK DURUMU DÜRÜSTÇE: TDV'de `uluabat`/`ulubat` maddesi YOK
+//    (arandı, "madde başlıklarında sonuç bulunamadı"). 1334 kaynaklı bir
+//    tarih DEĞİL, ATLASIN KENDİ komşu kayıtlarından gelen iç tutarlılık
+//    değeridir. Bu düzeltme yanlış bir iddiayı KALDIRIYOR, yeni bir
+//    iddia koymuyor. Kaynak bulununca gün hassasiyetiyle yazılmalı.
 { ad:"Ulubat", tur:"kale", lat:40.171, lon:28.573, g:0, k:4, go:"1420-01-01", m:"Bursa",
-    d:[{f:"1303-01-01",t:"1402-07-28",y:"savas"},{f:"1413-07-05",t:"1923-10-29"}], s:[{f:"1281-01-01",t:"1303-01-01",d:"bizans"},{f:"1402-07-28",t:"1403-09-01",d:"isa-celebi"},{f:"1403-09-01",t:"1404-03-01",d:"mehmed-celebi"},{f:"1404-03-01",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"mehmed-celebi"}] },
+    d:[{f:"1334-01-01",t:"1402-07-28",y:"savas"},{f:"1413-07-05",t:"1923-10-29"}], s:[{f:"1281-01-01",t:"1334-01-01",d:"bizans"},{f:"1402-07-28",t:"1403-09-01",d:"isa-celebi"},{f:"1403-09-01",t:"1404-03-01",d:"mehmed-celebi"},{f:"1404-03-01",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"mehmed-celebi"}] },
 { ad:"Harmankaya", tur:"kale", lat:40.100, lon:29.980, g:0, k:4, go:"1340-01-01", m:"Bursa",
     d:[{f:"1313-01-01",t:"1402-07-28",y:"antlasma"},{f:"1413-07-05",t:"1923-10-29"}], s:[{f:"1281-01-01",t:"1313-01-01",d:"bizans"},{f:"1402-07-28",t:"1403-09-01",d:"isa-celebi"},{f:"1403-09-01",t:"1404-03-01",d:"mehmed-celebi"},{f:"1404-03-01",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"mehmed-celebi"}] },
 { ad:"Akyazı", tur:"sehir", lat:40.685, lon:30.622, g:0, k:4, m:"İstanbul",

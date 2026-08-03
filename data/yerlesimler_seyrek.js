@@ -98,6 +98,7 @@ window.YERLESIMLER_SEYREK = [
 //   Hâil zaten Şammar'ın başkenti; aynı emirliğin iki ucu aynı zinciri taşır.
 // 📌 `d:`/`v:` HİÇ YOK ⇒ bu kayıt tek bir kırılma bile üretmiyor.
 { ad:"Dûmetülcendel (Cevf)", tur:"sehir", lat:29.812, lon:39.868, g:0, k:0, d:[],
+  kasitli_bosluk:true, neden:"TDV `necid`: bölgede merkezî devlet yok, aşiret idaresi; 1836 öncesi sahipsizlik KASITLI",
   s:[{f:"1836-01-01",t:"1921-11-02",d:"sammar"},{f:"1921-11-02",t:"1923-10-29",d:"suud"}] },
 
 // 🔴 KASTEN SAHİPSİZ DOLGU — ve yıldızı asıl kesen nokta budur (merkeze 87 km).
@@ -114,6 +115,7 @@ window.YERLESIMLER_SEYREK = [
 // emîrinin 1950'de ölümüne kadar yerel emîrler elinde. XIX. yy'da Şammar
 // nüfuzundadır ⇒ Hâil/Dûmetülcendel zincirinin aynısı.
 { ad:"Teymâ", tur:"sehir", lat:27.632, lon:38.545, g:0, k:0, d:[],
+  kasitli_bosluk:true, neden:"TDV `teyma`: son bağımsız emîr 1950'de öldü — yerel emîrlik, devlet idaresi yok",
   s:[{f:"1836-01-01",t:"1921-11-02",d:"sammar"},{f:"1921-11-02",t:"1923-10-29",d:"suud"}] },
 
 // ── ④ HİCAZ-NECİD ARASI — p5/H-0009 KAMASININ İLACI ─────────────────
@@ -125,10 +127,12 @@ window.YERLESIMLER_SEYREK = [
 // 1891 Reşîdî sürgünü, 1902 Riyad'ın geri alınışı).
 // İki kırılma günü (1818-09-09 · 1824-06-01) `Necid içi`de zaten var.
 { ad:"Necid güneybatısı", tur:"bolge", lat:21.500, lon:42.600, g:0, k:0, d:[],
+  kasitli_bosluk:true, neden:"TDV `necid`: 1744 öncesi bölgede etkin bir devlet ortaya çıkmamıştır",
   s:[{f:"1744-01-01",t:"1818-09-09",d:"suud"},{f:"1824-06-01",t:"1891-01-01",d:"suud"},{f:"1891-01-01",t:"1902-01-15",d:"sammar"},{f:"1902-01-15",t:"1923-10-29",d:"suud"}],
   v:[{f:"1818-09-09",t:"1824-06-01",k:"Mısır (İbrâhim Paşa)"}] },
 
 { ad:"Necid güneyi", tur:"bolge", lat:21.000, lon:45.000, g:0, k:0, d:[],
+  kasitli_bosluk:true, neden:"TDV `necid`: 1744 öncesi bölgede etkin bir devlet ortaya çıkmamıştır",
   s:[{f:"1744-01-01",t:"1818-09-09",d:"suud"},{f:"1824-06-01",t:"1891-01-01",d:"suud"},{f:"1891-01-01",t:"1902-01-15",d:"sammar"},{f:"1902-01-15",t:"1923-10-29",d:"suud"}],
   v:[{f:"1818-09-09",t:"1824-06-01",k:"Mısır (İbrâhim Paşa)"}] },
 

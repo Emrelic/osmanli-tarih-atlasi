@@ -535,3 +535,104 @@ görünüyor. TDV Karabiga'yı açıkça Biga'ya bağlıyor.
 🟡 AÇIK KALAN ÖLÇÜM
    seyreklik listesi ④  Hamâd bâdiyesi — Osmanlı mı, devletsiz mi?
 ```
+
+---
+
+# EK ÖLÇÜMLER — koordinatörün üç sorusu
+
+## ① `kasitli_bosluk` bayrağı — ÖLÇÜLDÜ, sonra eklendi
+
+Koordinatör haklıydı: bayrak **iki iş birden** yapıyor ve körü körüne
+eklenemez. İkisi ayrı ayrı ölçüldü.
+
+### ② anlamı — MOTOR ETKİSİ: **SIFIR**
+`uret_petek.py:1495` `_kusatilmis()`in ilk iki süzgeci:
+```python
+if y.get("kasitli_bosluk"): continue
+if not ((y.get("kur") and y["kur"] > g)
+        or (y.get("bit") and y["bit"] <= g)): continue
+```
+🔴 **İKİNCİ süzgeç bayraktan bağımsız olarak işi bitiriyor:** ölçüt yalnız
+`kur:` (henüz kurulmamış) ya da `bit:` (artık yok) taşıyan noktalara bakıyor.
+
+```
+Tedmür · Dûmetülcendel · Vâdî Sirhân · Teymâ · Necid gb · Necid g · Rın
+   kur: —   bit: —   →  7/7 nokta ölçüte HİÇ GİRMİYOR
+```
+⇒ Bayrağın petek devrine etkisi **ölçülerek sıfır** bulundu. Koordinatörün
+uyardığı yan etki bu partide oluşmuyor.
+
+### ① anlamı — RAPOR ETKİSİ: 18 açık iş → 0
+`denetle_bosluk.py:236` `sinifla()` sırası:
+`① sahipsiz_adlar → ② kasitli_bosluk → ③ BOYANMAMIŞ → ④ ARAŞTIRMA`
+
+`sahipsiz_adlar` tanımı (satır 336 / 521-524) **kalıcı** sahipsizliktir:
+`{y for y in Y if not (y.d or y.v or y.s)}`. Yani bir dönemi olan nokta
+o süzgeçten geçemez ve **ARAŞTIRMA'ya**, yani açık iş listesine düşer.
+
+```
+              1400  1500  1600  1700  1800     karar
+Vâdî Sirhân   KAS.  KAS.  KAS.  KAS.  KAS.   bayrak GEREKMEZ — ① zaten susturuyor
+Dûmetülcendel ARAŞ  ARAŞ  ARAŞ  ARAŞ  ARAŞ   🔴 bayrak GEREKLİ
+Teymâ         ARAŞ  ARAŞ  ARAŞ  ARAŞ  ARAŞ   🔴 bayrak GEREKLİ
+Necid gb      ARAŞ  ARAŞ  ARAŞ  ARAŞ   —     🔴 bayrak GEREKLİ
+Necid g       ARAŞ  ARAŞ  ARAŞ  ARAŞ   —     🔴 bayrak GEREKLİ
+Tedmür        —     —     —     —      —     gerekmez (hiç boşluk üretmiyor)
+Rın kumulları —     —     —     —      —     gerekmez
+```
+⇒ **4 kayda eklendi, 3'üne EKLENMEDİ.** Açık iş sayısı **18 → 0**.
+
+### `neden:` de yazıldı — ve bilerek
+`denetle_bosluk.py:270` gerekçesi olanı `KASITLI (gerekçeli)`, olmayanı
+`KASITLI (GEREKÇESİZ)` diye ayırıyor ve kodun kendi yorumu şöyle diyor:
+> *"`kasitli_bosluk:true` taşıyan BEŞ kaydın hiçbirinde `neden:` YOK
+> (Vladikavkaz · Kuveyt · Doha · Abu Dabi · Cetinje) … kullanıcının istediği
+> tam tersi: boş bıraksın VE SEBEBİNİ KAYDETSİN."*
+
+⇒ Dördüne de `neden:` yazıldı; **bu depoda gerekçeli ilk dört kasıtlı boşluk.**
+
+🔴 **OTURUM 0 İÇİN TEK SATIRLIK BORÇ:** `neden` alanı `girdi.py`
+`BILINEN_ALANLAR` kütüğünde **yok** ve yükleyici bunu uyarıyor:
+```
+UYARI alan: 'neden' BILINEN_ALANLAR'da yok — 4 kayıtta … girdi.py'ye kaydet.
+```
+Alan hata değil: `denetle_bosluk.py` onu **zaten okuyor**, yalnız kütüğe
+kaydedilmemiş. Kütüğe bir satır eklenince uyarı susar. `girdi.py` benim
+dosyam değil.
+
+## ② HAMÂD — `S-007`in gerekçesi
+
+Koordinatörün hükmü kabul: boş bırakıldı. Ve sebebi kayda geçiyor —
+**şemanın yazamadığı bir hâl var:**
+```
+Osmanlı yaz    → kaynaksız hâkimiyet iddiası      ✗
+devletsiz yaz  → Suriye-Irak arasına beyaz delik  ✗
+GERÇEK         → aşiret nüfuzu: ne mülkiyet ne boşluk
+```
+TDV `necid`in *"geleneksel idarelerinin devamı"* ifadesi tam bu üçüncü hâli
+anlatıyor. ⇒ **Hamâd, `S-007` (benekli nüfuz alanı) kaleminin şimdiye kadarki
+en somut gerekçesidir**: kalem olmadan doğru yazılamayan bir yer.
+
+## ③ SEYREKLİK LİSTESİNE `kasitli_bosluk` SÜTUNU GEREKİYOR — bulgu
+
+🔴 **Kendi çıkardığım listenin yapısal kusuru, koordinatör yakaladı.**
+"Nokta başına km²" ölçütü bir bölgenin **aç** mı yoksa **kasten boş** mu
+olduğunu ayırt edemiyor. Ham liste bu yüzden Sahra · Rub'ul Hâlî · Nûbe
+çölünü tepeye koyuyordu ve bir sonraki oturum "buraları doldurayım" diye
+okuyabilirdi.
+
+📌 Ama tersi de doğru ve bu partide ölçüldü: **kasten boş bölgeye nokta
+EKLENMEZ değil, kasten boş bölgeye SAHİPSİZ nokta EKLENİR.**
+`p5/H-0007`in yıldızı bunun kanıtı: kuzey Arabistan kasten boştu ama
+haritada boş GÖRÜNMÜYORDU — Maan'ın Osmanlı peteği 268 km doğuya uzanıp
+orayı **Osmanlı boyuyordu.** Boşluk yalnız niyette vardı, haritada yoktu.
+Sahipsiz nokta koyunca boşluk gerçekten boş göründü.
+
+⇒ Listeye eklenecek sütun: her hücre için **"içindeki/komşu noktalar sahipli
+mi"**. Üç sınıf çıkar:
+```
+AÇ            nokta yok, komşuları sahipli   → gerçek eksik, nokta gerekir
+KASTEN BOŞ    sahipsiz nokta VAR             → dokunma
+YALANCI BOŞ   sahipsiz OLMALI ama noktası yok → SAHİPSİZ nokta gerekir  ← H-0007
+```
+Üçüncü sınıf bugüne kadar birinci gibi görünüyordu.

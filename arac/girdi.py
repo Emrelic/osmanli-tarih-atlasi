@@ -249,6 +249,14 @@ BILINEN_ALANLAR = {
     "kasitli_bosluk": "True ise kuşatılmışlık ölçütü bu peteği DEVRETMEZ — "
                       "boşluk kasten öyle. Yalnız kaynaklı hükümle yazılır. "
                       "Okuyan: uret_petek.py, _kusatilmis()",
+    # 🔴 `kasitli_bosluk`un GEREKÇESİ — serbest metin.
+    # `denetle_bosluk.py:270` bu alanı ZATEN okuyor ve kendi yorumunda
+    # mevcut bayraklı kayıtların hiçbirinde `neden:` olmamasını bir KUSUR
+    # olarak yazıyor ("boş bıraksın VE SEBEBİNİ KAYDETSİN"). Ama alan
+    # kütüğe kayıtlı değildi, o yüzden yükleyici her yüklemede uyarı
+    # basıyordu: doğru davranış, hatalıymış gibi görünüyordu.
+    # (PETEK/NOKTA ölçtü ve ilk dört gerekçeli kaydı yazdı, 3 Ağustos 2026)
+    "neden": "kasitli_bosluk'un gerekçesi — niçin kasten boş",
 }
 
 # Dönem nesnelerinin (s/d/v/isg elemanları) alanları
