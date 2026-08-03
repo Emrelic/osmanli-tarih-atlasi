@@ -352,7 +352,7 @@ window.YERLESIMLER_AFRIKA = [
 
 // Tunus'un liman kalesi; 1535-1574 arası İspanyol garnizonu buradaydı.
 { ad:"Halkulvâdî", tur:"kale", lat:36.823, lon:10.295, g:0, k:4, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1535-07-21",d:"hafsi"},{f:"1535-07-21",t:"1574-08-25",d:"ispanya"},{f:"1881-05-12",t:"1923-10-29",d:"fransa"}],
   d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
 
 { ad:"Mâtir (Mateur)", tur:"sehir", lat:37.040, lon:9.664, g:0, k:4, m:"Tunus",
@@ -1217,5 +1217,7 @@ window.YERLESIMLER_AFRIKA = [
   s:[{f:"1281-01-01",t:"1577-01-01",d:"hafsi"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
   d:[{f:"1577-01-01",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}],
   v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
+
+
 
 ];

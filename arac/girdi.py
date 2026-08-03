@@ -139,6 +139,17 @@ GIRDI_DOSYALARI = [
     # (p3/H-0016 kapandi). Bogaz kuzeyinde kazanan artik BIZANS (7,0 km),
     # Anadolu Hisari (13,5 km) degil -- p3/H-0001+H-0013.
     "yerlesimler_ek2.js",
+    # 5 nokta (PETEK/NOKTA parti 4, 3 Agustos 2026). Kuzey Afrika
+    # presidio'lari 3 + Karadeniz kuzeyi bozkiri 2.
+    # 🔴 CAPRAZ IBERYA D2'nin olctugu bosluk: Melilla'nin en yakin komsusu
+    #    112,86 km oteydi (Nedrume) ve bir Ispanyol enklavi haritada
+    #    ZEYYANI/OSMANLI toprgi olarak goruntyordu; Sebte'de ise
+    #    Cebelitarik'in peteği Ingiltere'yi 219 yil olmadigi yere tasiyordu.
+    # ⚠️ Melilla partinin EN ZAYIF kaydi ve dosyada isaretli: yer ve
+    #    Ispanyol hakimiyeti TDV ile sabit, 1497 TARIHI DEGIL.
+    # 📌 Ucu de s:→s:, Degismez 2 borcu SIFIR. Sebte'nin 1581-01-01'i
+    #    Oturum 0 tarafindan 1581-04-16'ya (Tomar Cortes) hizalandi.
+    "yerlesimler_ek3.js",
     "yerlesimler_afrika.js",
     # 15 nokta (NOKTA EKLEME, 1 Ağustos 2026). Beş boşluğun ölçülmüş kapanışı:
     # Yukarı Macaristan 4 (Kassa·Eperjes·Tokaj·Sopron, ~28.000 km² 91 yıl yanlış

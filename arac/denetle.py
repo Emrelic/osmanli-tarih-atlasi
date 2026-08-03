@@ -117,13 +117,32 @@ BEKLENEN_ACIK = 0
 #   damgasıyla. Parti kronolojisi tamamlanınca dosya bu listeden çekirdeğe
 #   ALINIR (satırı silmek = külliyata kabul, bilinçli karar).
 KUYRUK_DOSYALARI = ("yerlesimler_ortaasya2.js", "yerlesimler_avrupa.js",
-                    "yerlesimler_asya.js")
+                    "yerlesimler_asya.js",
+                    # 3 Agustos 2026, Oturum 0. CAPRAZ IBERYA D2+D3 partisi:
+                    # Sebte 1415 · Melilla 1497 · Portekiz Fasi (Mazagan 1514-
+                    # 1769 · Safi 1488 · Azemmur 1513 · Arzila 1471) — sekiz
+                    # MADDESIZ yabanci kirilmasi getiriyor ve HEPSI AYNI
+                    # HIKAYENIN parcasi: Portekiz'in Fas kiyisindaki bir bucuk
+                    # asri atlasta HIC YOKTU, kronolojisi de yok.
+                    # ⇒ Tavani 114'ten sekiz yukari cekmek yerine kural
+                    #   uygulandi: YENI PARTI kendi sayaciyla raporlanir.
+                    # Kronoloji yazilinca satir SILINIR = kulliyata kabul.
+                    "yerlesimler_ek3.js")
 # ⚠️ `s:` boyutu ON AY BOYUNCA HİÇ DENETLENMEDİ (Oturum 13 buldu). Ölçüldü:
 # 566 yabancı kırılması, 115'inin ±30 günde maddesi yok. 115'i İHLAL ilan etmek
 # denetimi ilk koşuda kırmızıya boyar ve OGRENILENLER §3 gereği kimse bakmaz;
 # Değişmez 3'ün deseni uygulandı — bilinen borç + tavan, madde yazıldıkça iner.
 # 115 -> 120: ayni duzeltmeler s: tarafinda bes yeni acik kirilma dogurdu.
 # 120 -> 114: DUSTU, tavan da dusuruldu (kural: tavan asagi da takip edilir).
+# ⚠️ 3 Agustos 2026, olculen deger 120 -> 121 ve TAVAN OYNATILMADI.
+#   Artisin tamami TEK KAYNAKLI ve adiyla yaziliyor: CAPRAZ IBERYA D3'un
+#   Agadir duzeltmesi (Santa Cruz do Cabo de Gue, portekiz 1505-1541) iki
+#   yeni maddesiz satir acti; buna karsilik D6'nin Tanca duzeltmesi
+#   (1661-01-23 -> 1662-01-30, maddesi yazildi) bir satir kapatti. Net +1.
+#   Ayni partinin oteki dort Fas noktasi ile Sebte/Melilla KUYRUGA alindi;
+#   Agadir kuyruga girmedi cunku noktasi zaten cekirdekteydi (yerlesimler.js)
+#   ve bir noktayi yalniz sayac icin dosya degistirmek olcumu kirletir.
+#   ⇒ Borc: Portekiz Fasi kronolojisi. Yazilinca 121 -> 119 iner.
 BEKLENEN_ACIK_S = 114
 # Değişmez 2'nin AYNADAKİ HÂLİ: madde var ama kırılma yok. Oturum 14'ün Girit
 # bulgusu — "1830-11-01 Girit'in idaresi Mehmed Ali'ye bırakıldı" maddesi VARDI,

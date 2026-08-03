@@ -1541,8 +1541,8 @@ window.YERLESIMLER_ASYA = [
 
 { ad:"Kolam (Quilon)", tur:"liman", lat:8.8930, lon:76.6140, g:0, k:0, d:[],
   s:[{f:"1281-01-01", t:"1502-01-01", d:"travankur"},
-     {f:"1502-01-01", t:"1661-01-01", d:"portekiz"},
-     {f:"1661-01-01", t:"1795-01-01", d:"hollanda"},
+     {f:"1502-01-01", t:"1661-12-08", d:"portekiz"},
+     {f:"1661-12-08", t:"1795-01-01", d:"hollanda"},
      {f:"1795-01-01", t:"1923-10-29", d:"ingiliz-hindistani"}] },
 
 // Travankur — Marthanda Varma 1729'da Venâd'ı genişleterek kurdu; 1741

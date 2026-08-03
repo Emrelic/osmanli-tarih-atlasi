@@ -260,9 +260,9 @@ window.YERLESIMLER_AVRUPA = [
 // üçünün 1479 öncesi aragon penceresi DUZELTMELER'de önerildi.
 // Atlantik kıyısı
 { ad:"Huelva", tur:"liman", lat:37.261, lon:-6.944, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},{f:"1479-01-20",t:"1923-10-29",d:"ispanya"}] },
-{ ad:"Lagos (Algarve)", tur:"liman", lat:37.102, lon:-8.674, g:0, k:0, d:[], s:[{f:"1281-01-01", t:"1923-10-29", d:"portekiz"}] },
-{ ad:"Setúbal", tur:"liman", lat:38.524, lon:-8.893, g:0, k:0, d:[], s:[{f:"1281-01-01", t:"1923-10-29", d:"portekiz"}] },
-{ ad:"Aveiro", tur:"liman", lat:40.641, lon:-8.654, g:0, k:0, d:[], s:[{f:"1281-01-01", t:"1923-10-29", d:"portekiz"}] },
+{ ad:"Lagos (Algarve)", tur:"liman", lat:37.102, lon:-8.674, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1581-04-16",d:"portekiz"},{f:"1581-04-16",t:"1640-12-01",d:"ispanya"},{f:"1640-12-01",t:"1923-10-29",d:"portekiz"}] },
+{ ad:"Setúbal", tur:"liman", lat:38.524, lon:-8.893, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1581-04-16",d:"portekiz"},{f:"1581-04-16",t:"1640-12-01",d:"ispanya"},{f:"1640-12-01",t:"1923-10-29",d:"portekiz"}] },
+{ ad:"Aveiro", tur:"liman", lat:40.641, lon:-8.654, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1581-04-16",d:"portekiz"},{f:"1581-04-16",t:"1640-12-01",d:"ispanya"},{f:"1640-12-01",t:"1923-10-29",d:"portekiz"}] },
 
 // ── İBERYA: Navarra ve Portekiz ────────────────────────────────────────────
 { ad:"Pamplona", tur:"sehir", lat:42.813, lon:-1.646, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1512-07-25",d:"navarra"},{f:"1512-07-25",t:"1923-10-29",d:"ispanya"}] },
@@ -270,11 +270,11 @@ window.YERLESIMLER_AVRUPA = [
 // 1580-1640 şahsî birlikti, ilhak değil — sekiz nokta 1281-1923 boyunca
 // tek  penceresiyle duruyor. Canlıdaki Lizbon/Porto'ya da
 // eklenmeyecek; OTURUM-12-DUZELTMELER.md §B bu yüzden kapatıldı.
-{ ad:"Coimbra", tur:"sehir", lat:40.203, lon:-8.410, g:0, k:0, d:[], s:[{f:"1281-01-01", t:"1923-10-29", d:"portekiz"}] },
-{ ad:"Braga", tur:"sehir", lat:41.545, lon:-8.427, g:0, k:0, d:[], s:[{f:"1281-01-01", t:"1923-10-29", d:"portekiz"}] },
-{ ad:"Évora", tur:"sehir", lat:38.571, lon:-7.907, g:0, k:0, d:[], s:[{f:"1281-01-01", t:"1923-10-29", d:"portekiz"}] },
-{ ad:"Faro", tur:"liman", lat:37.019, lon:-7.930, g:0, k:0, d:[], s:[{f:"1281-01-01", t:"1923-10-29", d:"portekiz"}] },
-{ ad:"Bragança", tur:"sehir", lat:41.806, lon:-6.757, g:0, k:0, d:[], s:[{f:"1281-01-01", t:"1923-10-29", d:"portekiz"}] },
+{ ad:"Coimbra", tur:"sehir", lat:40.203, lon:-8.410, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1581-04-16",d:"portekiz"},{f:"1581-04-16",t:"1640-12-01",d:"ispanya"},{f:"1640-12-01",t:"1923-10-29",d:"portekiz"}] },
+{ ad:"Braga", tur:"sehir", lat:41.545, lon:-8.427, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1581-04-16",d:"portekiz"},{f:"1581-04-16",t:"1640-12-01",d:"ispanya"},{f:"1640-12-01",t:"1923-10-29",d:"portekiz"}] },
+{ ad:"Évora", tur:"sehir", lat:38.571, lon:-7.907, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1581-04-16",d:"portekiz"},{f:"1581-04-16",t:"1640-12-01",d:"ispanya"},{f:"1640-12-01",t:"1923-10-29",d:"portekiz"}] },
+{ ad:"Faro", tur:"liman", lat:37.019, lon:-7.930, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1581-04-16",d:"portekiz"},{f:"1581-04-16",t:"1640-12-01",d:"ispanya"},{f:"1640-12-01",t:"1923-10-29",d:"portekiz"}] },
+{ ad:"Bragança", tur:"sehir", lat:41.806, lon:-6.757, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1581-04-16",d:"portekiz"},{f:"1581-04-16",t:"1640-12-01",d:"ispanya"},{f:"1640-12-01",t:"1923-10-29",d:"portekiz"}] },
 
 // ── DANİMARKA: Jutland ve adalar (B-6'nın doğrudan kapanışı) ───────────────
 { ad:"Ribe", tur:"sehir", lat:55.328, lon:8.766, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"danimarka"}] },

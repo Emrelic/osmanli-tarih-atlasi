@@ -770,3 +770,113 @@ Rumeli Hisarı `kur:1452-08-31` taşıdığı için 1452 öncesi peteği yok.
 ⇒ Rumeli Hisarı'nın tam karşısındaki ~2 km'lik şerit 1395-1452 arası Osmanlı
 kalmaya devam eder; oraya 3 km kuralını çiğnemeden nokta konamaz. Tam çözüm
 petek epokunda değişiklik ister — bu oturumun yetkisi dışında.
+
+---
+---
+
+# PARTİ 4 — PRESİDİO'LAR + BOZKIR (`data/yerlesimler_ek3.js`, 5 nokta)
+
+Sekiz kontrol temiz · Değişmez 2 borcu **sıfır** · Değişmez 3 çelişki 0 ·
+maske 5/5 · yeni renk yok · sahipsiz sayacı **artmıyor**.
+🔴 Koşu 12:06'da başladı; bağlı beş girdi dosyasının hiçbirine dokunulmadı.
+
+## ① Kuzey Afrika presidio'ları
+
+| ad | lat, lon | zincir | kaynak |
+|---|---|---|---|
+| Sebte (Ceuta) | 35,889 · −5,318 | fas → 1415 portekiz → 1581 ispanya | TDV `sebte` |
+| Melîle (Melilla) | 35,292 · −2,938 | fas → 1497 ispanya | ⚠️ aşağıda |
+| Mersa'l-Kebîr | 35,728 · −0,709 | Oran'ın birebir aynısı | TDV `vehran` |
+
+**Melilla haritada HİÇ YOKTU ve boşluk ölçüldü: en yakın komşusu 112,86 km**
+(Nedrûme); 1550'de çevresinin tamamı `zeyyani`. Yani bir İspanyol enklavı,
+haritada Zeyyânî toprağı olarak görünüyordu.
+
+⚠️ **Sebte'de olmayan bir kırılma yazmadım.** Zincir üç aşamalı görünüyor
+(1415 Portekiz · 1581 İberya Birliği · 1640/1668 Portekiz ayrılığı) ama
+**son aşama sahibi DEĞİŞTİRMİYOR** — Sebte 1581'den sonra kesintisiz
+İspanya'da. Üçüncü dönem açılmadı; olmayan kırılma yazmak, olanı atlamak
+kadar zararlıdır.
+
+🔴 **MELİLLA BU PARTİNİN EN ZAYIF KAYDI ve zayıflığı dosyada yazılı.**
+TDV `melile` ÖLÜ; içerik geçişlerinde Melîle 20 kez var ama **1497 tarihi
+TDV'de HİÇ GEÇMİYOR** (yalnız 926'daki Endülüs zaptı ve "İspanya'nın elinde
+tuttuğu"). Yer ve İspanyol hâkimiyeti sabit, **yalnız tarih sabit değil** —
+1497 koordinatörün sevkinden geliyor.
+⇒ Yine de eklendi, çünkü: kayıt s:→s: olduğu için hiç kırılma üretmiyor ·
+112,86 km'lik gerçek bir boşluğu ve gerçek bir renk sınırını kapatıyor ·
+tarih birkaç yıl oynasa da 1497-1923 boyunca sahip değişmiyor.
+📌 **Kamengrad'dan farkı bu:** orada hiç tarih yoktu ve komşuyu kopyalamak
+100 yıl yanlış olurdu; burada tarih var, yalnız TDV'siz.
+
+📌 Mersa'l-Kebîr harita kazancı için değil (Oran'a 7,51 km, aynı zincir):
+kronolojide `1708-04-04 "Vahran (Oran) ve Mersalkebîr'in İspanyollardan
+alınışı"` maddesi VARDI ama haritada karşılığı olan bir yer YOKTU.
+⚠️ Dürüstlük notu: Mersa'l-Kebîr gerçekte Oran'dan ÖNCE (1505) düştü;
+TDV `vehran` onun için ayrı tarih vermediği için 1509-05-17 bırakıldı.
+
+## ② Seyreklik listesi 6-15 — üç sınıf uygulandı
+
+```
+ 6. 46K 36D Azak kuzeyi      181 km  AÇ           ✅ Camboyluk bozkırı
+ 7. 32K 40D Bâdiye/Şam çölü  176 km  ?            🟡 Hamâd sorusu AÇIK
+ 8. 48K 38D Donets bozkırı   171 km  AÇ           🔴 KİMLİK YOK
+ 9. 44K 42D Kuban/Stavropol  161 km  kısmen kapalı (Maykop·Kabartay)
+10. 46K 42D Don aşağısı      156 km  AÇ           🔴 KİMLİK YOK
+11. 46K 34D Kırım kuzeyi     150 km  AÇ           ✅ Yediçkul bozkırı
+12. 30K 22D Sirte iç çölü    131 km  KASTEN BOŞ   ⛔ dokunulmadı
+13. 48K 36D Harkov           130 km  AÇ           🔴 KİMLİK YOK
+14. 44K 44D Kafkas kuzeyi    127 km  kısmen kapalı (Kabartay)
+15. 46K 48D Astrahan         116 km  kapalı       (Rın kumulları, parti 2a)
+```
+**Ölçülen etki:** 11. hücrede en yakın nokta **137,1 → 32,4 km (4,2×)**,
+6. hücrede **184,2 → 18,8 km (9,8×)**.
+
+**Adlar uydurulmadı.** TDV `nogaylar`: *"Yedisan, Camboyluk, Bucak ve
+Kuban… yaşamaktaydı"*; TDV `sahin-giray` Yedisan ile **Yediçkul'u** son
+hanlık döneminde toprak olarak anıyor.
+
+🔴 **Ve bu, depodaki açık bir soruyu bir adım ilerletiyor.**
+`Bozkır (Deşt-i Kıpçak)` kaydında şöyle yazıyordu: *"1502 sonrası `kirim`
+bırakıldı: bozkırın Kırım'da mı Nogay'da mı olduğu kaynakla ayrılamadı."*
+TDV `giray` cevabı veriyor: *"Kuban, Bucak ve Yedisan'ın idaresi de
+bırakılmıştı"* — bölükler **Nogay'dır ama idaresi Giray'ındır.**
+⇒ `kirim` kimliği doğru seçim. `nogay` rengi BOYALAR'da VAR ama
+kullanılmadı: o, hanlıktan bağımsız Nogay Ordası'nı gösterir.
+
+## 🔴 8·10·13 EKLENMEDİ — sebep KİMLİK EKSİĞİ, seyreklik şüphesi değil
+
+Donets · Don aşağısı · Harkov çevresinin sahibi dönem dönem **Zaporog
+Kazak Ordası**, Lehistan-Litvanya, Kırım ve Rusya arasında değişiyor.
+Atlasta Zaporog/Kazak Ordası kimliği **YOK** (`renkler.py`de `nogay` var;
+`kazak-hanligi` başka şeydir — Orta Asya'daki Kazak Hanlığı).
+İki uç da ölçüldü (`§3.5.1`): `kirim` yazmak Kırım'ı olmadığı yere taşırdı,
+`rusya` yazmak Rusya'yı yüz yıl erkene çekerdi. **İkisi de yanlış ⇒ kayıt
+açılmadı.**
+📌 SIRADAKİ İŞ: `renkler.py` + `devletler.js`e Zaporog Kazak Ordası kimliği.
+O gelince üç hücre tek partide kapanır.
+
+## ③ MARMARA ADASI — üç yol denendi, üçü de tutmadı
+```
+① marmara-adasi           → slug ÖLÜ
+② cezayir-i bahr-i sefid  → CANLI ama madde Marmara denizinden HİÇ söz
+   etmiyor; eyalet Ege adalarıdır (Sakız·Rodos·Bozcaada·Limni·Midilli·
+   İmroz·İstanköy·Meis)
+③ arama "marmara adası"   → yalnız iki geçiş: `balikesir` (mermer yatakları)
+   ve `cagaloglu-hamami` (Marmara adası nâibi) — ikisi de XVIII. yy
+   idaresi, FETİH TARİHİ YOK
+```
+⇒ Şüphe yerinde duruyor (İstanbul'la aynı gün · o günü taşıyan yalnız iki
+kayıt · 1450'de altı komşusunun altısı Osmanlı) ama **kaynak bulunamadı,
+dokunulmadı.**
+
+## 🔴 CERBE — Oturum 0'a iki düzeltme (kayıt bağlı dosyada)
+```
+① İSPANYOL DÖNEMİ YOK. TDV `cerbe`: İspanyollar 1560'ta ele geçirdi, kısa
+   süre tuttu. Kayıtta hafsi → 1560-05-14 → Osmanlı; arada pencere yok.
+   ⇒ s:→s: geçişi, KIRILMA ÜRETMEZ — borçsuz düzeltilebilir.
+② FETİH GÜNÜ. Kayıt 1560-05-14 kullanıyor — o, DENİZ ZAFERİNİN günü.
+   TDV: kale iki aylık kuşatmadan sonra 30 Temmuz 1560'ta düştü.
+   ⚠️ Düzeltmek 1560-07-30 kırılması açar, o güne madde YOK (en yakın
+     1560-05-14, 77 gün). Önce madde, sonra tarih.
+```

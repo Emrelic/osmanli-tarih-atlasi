@@ -142,6 +142,43 @@ window.OLAYLAR_EK11 = [
   gun:"1510 sonu (916 h.; TDV yalnız yılı veriyor, veri 1510-12-02 taşıyor)",
   yer:"Merv, Herat — Horasan", kisiler:"Şah İsmail, Şeybânî Han (Muhammed Şeybânî)",
   d:"Batıda Akkoyunlu mirasını tamamlayan Şah İsmâil doğuya, Horasan'a yürüdü ve Merv önlerinde Özbekler'i ağır bir yenilgiye uğrattı; Şeybânî Han savaş meydanında öldü. Merv ve Herat Safevî hâkimiyetine girdi ve Safevî Devleti Fırat'tan Ceyhun'a uzanan sınırlarına kavuştu. Böylece 1501 yazında Tebriz'e girişle başlayan süreç dokuz yılda tamamlanmış oldu: Akkoyunlu mirası bütünüyle Safevî idaresine geçti ve Osmanlı Devleti doğusunda kendi büyüklüğünde ikinci bir devletle komşu hâle geldi.",
-  kaynak:"safeviler" }
+  kaynak:"safeviler" },
+
+
+// ---------------------------------------------------------------------------
+// ÇAPRAZ İBERYA PARTİSİ — Oturum 0, 3 Ağustos 2026
+// ---------------------------------------------------------------------------
+// ÇAPRAZ İBERYA oturumu Portekiz ve İspanya kaynaklarından çapraz sorgu
+// yaptı; aşağıdaki dört madde onun D1·D5·D6 bulgularının kronoloji
+// karşılığıdır. Dördü de haritada AÇILAN bir kırılmanın karşılığını verir
+// (Değişmez 2 borcu doğurmasınlar diye aynı partide yazıldı).
+// ⚠️ İlk üçünde `kaynak:` alanı YOK ve bu bilerekdir: alan TDV linki
+//    üretiyor, TDV'de karşılığı olmayan maddeye slug yazmak ÖLÜ LİNK olur.
+//    Kaynak metnin içinde adıyla anılıyor.
+
+{ t:"1581-04-16", k:"siyaset", etiket:["siyaset","diplomasi"],
+  b:"İberya Birliği: Portekiz tacı İspanya kralına geçti",
+  gun:"16 Nisan 1581", yer:"Tomar — Portekiz",
+  kisiler:"II. Felipe (Portekiz kralı I. Filipe), Kardinal Kral Henrique",
+  d:"Kardinal Kral Henrique'nin vârissiz ölümüyle açılan veraset kavgası Alcântara Muharebesi'nde (25 Ağustos 1580) İspanya lehine kapandı ve Tomar'da toplanan Portekiz Cortes'i 16 Nisan 1581'de II. Felipe'yi Portekiz kralı olarak tanıdı. Tomar şartlarına göre Portekiz kendi kurumlarını, parasını ve dilini koruyacak, yönetime yalnız Portekizliler atanacak, Madrid'de ayrı bir Portekiz konseyi bulunacaktı — yani birleşme kişisel birlikti, ilhak değil. Atlas aynı hukukî durumu Felemenk ve Milano için `ispanya` diye boyadığından anakara Portekiz de altmış yıl boyunca aynı şekilde işlendi; buna karşılık Estado da Índia (Goa, Diu, Malaka, Makao) Portekiz tacı altında kaldığı için `portekiz` bırakıldı. Kaynak: Britannica, History of Portugal — Union of Spain and Portugal, 1580-1640." },
+
+{ t:"1640-12-01", k:"siyaset", etiket:["siyaset","toprak-kayip"],
+  b:"Restauração: Portekiz bağımsızlığını geri aldı",
+  gun:"1 Aralık 1640", yer:"Lizbon",
+  kisiler:"IV. João (Braganza Dükü), Kont-Dük Olivares",
+  d:"Katalonya isyanının İspanya'yı meşgul ettiği günlerde Lizbon'da bir grup soylu saraya baskın yaparak İspanyol idaresini devirdi ve Braganza Dükü'nü IV. João adıyla kral ilan etti. Altmış yıllık İberya Birliği böylece sona erdi; ancak Sebte İspanya'da kalmayı seçti ve bu 1668 Lizbon Antlaşması'yla tanındı. Portekiz'in Habsburg savaşlarına eklemlendiği bu pencere Asya'daki kayıplarının da çerçevesidir: Hürmüz 1622'de, Malaka 1641'de, Kolombo 1656'da elden çıktı; Tanca ile Bombay ise bağımsızlığın bedeli olarak İngiltere'ye verildi. Kaynak: Britannica, History of Portugal — Restoration." },
+
+{ t:"1539-01-01", k:"fetih", etiket:["toprak-kazanc"],
+  b:"Zebîd'in Osmanlı hâkimiyetine kesin girişi",
+  gun:"1539 başı (kesin gün kaynakta yok; üst sınır 10 Mart 1539)",
+  yer:"Zebîd — Yemen", kisiler:"Hadım Süleyman Paşa",
+  d:"Diu kuşatmasını 5 Kasım 1538'de kaldıran donanma dönüş yolunda Yemen kıyısına uğradı ve Zebîd kesin olarak Osmanlı idaresine bağlandı; Hadım Süleyman Paşa şehirden 10 Mart 1539'da ayrılıp 1 Nisan'da Cidde'ye vardı. Şehir 1517'den beri eski Memlûk beylerinin elinde Osmanlı adına yönetiliyordu; bu tarihle doğrudan idareye geçti. ⚠️ Atlas bu geçişi uzun süre 3 Ağustos 1538'de gösteriyordu, oysa o gün alınan yer Aden'dir. Düzeltmenin kaynağı: Ertuğrul Önalp, \"Hadım Süleyman Paşa'nın 1538 yılındaki Hindistan Seferi\", OTAM (Ankara Üniversitesi Osmanlı Tarihi Araştırma ve Uygulama Merkezi Dergisi) — tam metin okundu." },
+
+{ t:"1662-01-30", k:"antlasma", etiket:["antlasma","diplomasi"],
+  b:"Tanca İngiltere'ye devredildi",
+  gun:"30 Ocak 1662", yer:"Tanca — Fas",
+  kisiler:"II. Charles, Catherine de Braganza, Peterborough Kontu",
+  d:"Portekiz'in bağımsızlık savaşında İngiliz desteğini sağlamak için yapılan evlilik antlaşmasının (23 Haziran 1661) ikinci maddesi Tanca'yı Catherine de Braganza'nın çeyizi olarak İngiltere'ye bırakıyordu. Sandwich Kontu'nun filosu 29 Ocak 1662'de demirledi ve ertesi gün Peterborough Kontu'nun töreniyle resmî devir yapıldı. Atlas bu kaydı önce 23 Ocak 1661 olarak taşıyordu — antlaşma günüyle fiilî devir günü arasında bir karışma; Bombay için zaten fiilî devir tarihi (18 Şubat 1665) yazıldığından aynı ölçüt Tanca'ya da uygulandı. İngilizler şehri 1684'te terk edecekti." },
+
 
 ];

@@ -223,9 +223,9 @@ window.YERLESIMLER = [
 // Bayram Bey'in kurduğu beyliği oğlu Hacı Emîr ~1350'de genişletti, merkez
 // Eskipazar'dı; emîr Süleyman 1398'de Yıldırım'a bağlandı, ilhak 1427'de oldu.
 { ad:"Ordu (Bayramlı)", tur:"sehir", lat:40.976, lon:37.848, g:0, k:4, m:"Trabzon", s:[{f:"1281-01-01",t:"1350-01-01",d:"trabzon-rum"},{f:"1350-01-01",t:"1427-06-01",d:"haciemir"}], d:[{f:"1427-06-01",t:"1923-10-29"}],
-    v:[{f:"1398-06-01",t:"1402-07-28",k:"Yıldırım Bayezid'e bağlılık"}] },
+    v:[{f:"1398-06-01",t:"1402-07-28",k:"Hacıemîroğulları Beyliği (Osmanlı tâbii)"}] },
 { ad:"Ünye", tur:"liman", lat:41.128, lon:37.283, g:0, k:4, m:"Trabzon", s:[{f:"1281-01-01",t:"1350-01-01",d:"trabzon-rum"},{f:"1350-01-01",t:"1427-06-01",d:"haciemir"}], d:[{f:"1427-06-01",t:"1923-10-29"}],
-    v:[{f:"1398-06-01",t:"1402-07-28",k:"Yıldırım Bayezid'e bağlılık"}] },
+    v:[{f:"1398-06-01",t:"1402-07-28",k:"Hacıemîroğulları Beyliği (Osmanlı tâbii)"}] },
 { ad:"Rize", tur:"liman", lat:41.020, lon:40.523, g:0, k:4, m:"Trabzon", s:[{f:"1281-01-01",t:"1461-08-15",d:"trabzon-rum"}], d:[{f:"1461-08-15",t:"1923-10-29"}] },
 { ad:"Erzincan", tur:"sehir", lat:39.750, lon:39.492, g:0, k:3, m:"Erzurum", s:[{f:"1281-01-01",t:"1348-01-01",d:"ilhanli"},{f:"1348-01-01",t:"1379-01-01",d:"akkoyunlu"},{f:"1379-01-01",t:"1401-02-01",d:"mutahharten"},{f:"1402-07-28",t:"1410-01-01",d:"mutahharten"},{f:"1410-01-01",t:"1473-08-11",d:"akkoyunlu"}], d:[{f:"1401-02-01",t:"1402-07-28",y:"savas"},{f:"1473-08-11",t:"1923-10-29",y:"savas"}] },
 { ad:"Erzurum", tur:"sehir", lat:39.905, lon:41.266, g:1, k:2, s:[{f:"1281-01-01",t:"1348-01-01",d:"ilhanli"},{f:"1348-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1518-01-01",d:"safevi"}], d:[{f:"1518-01-01",t:"1923-10-29",y:"antlasma"}] },
@@ -635,8 +635,8 @@ window.YERLESIMLER = [
 // 1517-07-06 bitişi, Mekke'ye verilen bölgesel teslim gecikmesiyle aynı ölçüt.
 // Yan kazanç: 1538 artık "yoktan fetih" değil, nominal bağın kalıcı idareye
 // çevrilmesi — TDV'nin anlattığı da bu.
-{ ad:"Zebîd", tur:"sehir", lat:14.195, lon:43.317, g:0, k:3, m:"Sana", s:[{f:"1281-01-01",t:"1516-06-20",d:"yemen"},{f:"1516-06-20",t:"1517-07-06",d:"memluk"},{f:"1635-01-01",t:"1849-01-01",d:"yemen"},{f:"1918-10-30",t:"1923-10-29",d:"yemen"}], v:[{f:"1517-07-06",t:"1538-08-03",k:"eski Memlûk beyleri (Osmanlı desteğiyle)"}], d:[{f:"1538-08-03",t:"1635-01-01",y:"savas"},{f:"1849-01-01",t:"1918-10-30",y:"savas"}] },
-{ ad:"Aden", tur:"liman", lat:12.786, lon:45.019, g:1, k:3, m:"Sana", s:[{f:"1281-01-01",t:"1538-09-01",d:"yemen"},{f:"1635-01-01",t:"1839-01-19",d:"yemen"},{f:"1839-01-19",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1538-09-01",t:"1635-01-01",y:"savas"}] },
+{ ad:"Zebîd", tur:"sehir", lat:14.195, lon:43.317, g:0, k:3, m:"Sana", s:[{f:"1281-01-01",t:"1516-06-20",d:"yemen"},{f:"1516-06-20",t:"1517-07-06",d:"memluk"},{f:"1635-01-01",t:"1849-01-01",d:"yemen"},{f:"1918-10-30",t:"1923-10-29",d:"yemen"}], v:[{f:"1517-07-06",t:"1539-01-01",k:"eski Memlûk beyleri (Osmanlı desteğiyle)"}], d:[{f:"1539-01-01",t:"1635-01-01",y:"savas"},{f:"1849-01-01",t:"1918-10-30",y:"savas"}] },
+{ ad:"Aden", tur:"liman", lat:12.786, lon:45.019, g:1, k:3, m:"Sana", s:[{f:"1281-01-01",t:"1538-08-03",d:"yemen"},{f:"1635-01-01",t:"1839-01-19",d:"yemen"},{f:"1839-01-19",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1538-08-03",t:"1635-01-01",y:"savas"}] },
 // Moha kaybı 1635-01-01 → 1635-10-22: TDV `yemen`, Mustafa Bey 10 Cemâziyelevvel
 // 1045'te (22 Ekim 1635) kalan kuvvet ve silahlarla Moha'yı TAHLİYE etti. 294 gün.
 // 1849-05-01 → 1849-01-01: gün UYDURMAYDI ve Baltalimanı Antlaşması'nın gerçek
@@ -716,7 +716,7 @@ window.YERLESIMLER = [
 { ad:"Bingazi", tur:"liman", lat:32.117, lon:20.068, g:1, k:2, s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},{f:"1912-10-15",t:"1923-10-29",d:"italya"}], d:[{f:"1551-08-15",t:"1711-03-01",y:"ilhak"},{f:"1835-05-26",t:"1912-10-15"}], v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
 { ad:"Derne", tur:"liman", lat:32.766, lon:22.639, g:0, k:3, m:"Bingazi", s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}], d:[{f:"1551-08-15",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}], v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
 { ad:"Murzuk (Fizan)", tur:"bolge", lat:25.919, lon:13.919, g:0, k:2, s:[{f:"1281-01-01",t:"1577-01-01",d:"hafsi"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}], d:[{f:"1577-01-01",t:"1711-03-01",y:"vassal"},{f:"1835-05-26",t:"1912-10-18"}], v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
-{ ad:"Tunus", tur:"liman", lat:36.800, lon:10.180, g:1, k:2, s:[{f:"1281-01-01",t:"1534-09-22",d:"hafsi"},{f:"1535-07-21",t:"1574-08-25",d:"ispanya"},{f:"1881-05-12",t:"1923-10-29",d:"fransa"}], d:[{f:"1534-09-22",t:"1535-07-21",y:"savas"},{f:"1574-08-25",t:"1705-07-17",y:"savas"}], v:[{f:"1705-07-17",t:"1881-05-12",k:"Tunus Ocaklığı (Hüseynîler)"}] },
+{ ad:"Tunus", tur:"liman", lat:36.800, lon:10.180, g:1, k:2, s:[{f:"1281-01-01",t:"1534-09-22",d:"hafsi"},{f:"1535-07-21",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa"}], d:[{f:"1534-09-22",t:"1535-07-21",y:"savas"},{f:"1574-08-25",t:"1705-07-17",y:"savas"}], v:[{f:"1705-07-17",t:"1881-05-12",k:"Tunus Ocaklığı (Hüseynîler)"}] },
 { ad:"Kayrevan", tur:"sehir", lat:35.678, lon:10.096, g:0, k:3, m:"Tunus", s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa"}], d:[{f:"1574-08-25",t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1881-05-12",k:"Tunus Ocaklığı (Hüseynîler)"}] },
 { ad:"Gabes", tur:"liman", lat:33.881, lon:10.098, g:0, k:3, m:"Tunus", s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa"}], d:[{f:"1574-08-25",t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1881-05-12",k:"Tunus Ocaklığı (Hüseynîler)"}] },
 { ad:"Cezayir", tur:"liman", lat:36.753, lon:3.059, g:1, k:2, s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1830-07-05",t:"1923-10-29",d:"fransa"}], d:[{f:"1519-09-01",t:"1671-01-01",y:"antlasma"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)"}] },
@@ -797,8 +797,8 @@ window.YERLESIMLER = [
 { ad:"Marsilya", tur:"liman", lat:43.297, lon:5.370, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"fransa"}] },
 { ad:"Bordo", tur:"liman", lat:44.838, lon:-0.579, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1451-06-30",d:"ingiltere"},{f:"1451-06-30",t:"1452-10-23",d:"fransa"},{f:"1452-10-23",t:"1453-10-19",d:"ingiltere"},{f:"1453-10-19",t:"1923-10-29",d:"fransa"}] },
 { ad:"Amsterdam", tur:"liman", lat:52.373, lon:4.893, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1581-07-26",d:"ispanya"},{f:"1581-07-26",t:"1923-10-29",d:"hollanda"}] },
-{ ad:"Lizbon", tur:"liman", lat:38.722, lon:-9.139, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"portekiz"}] },
-{ ad:"Porto", tur:"liman", lat:41.150, lon:-8.611, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"portekiz"}] },
+{ ad:"Lizbon", tur:"liman", lat:38.722, lon:-9.139, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1581-04-16",d:"portekiz"},{f:"1581-04-16",t:"1640-12-01",d:"ispanya"},{f:"1640-12-01",t:"1923-10-29",d:"portekiz"}] },
+{ ad:"Porto", tur:"liman", lat:41.150, lon:-8.611, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1581-04-16",d:"portekiz"},{f:"1581-04-16",t:"1640-12-01",d:"ispanya"},{f:"1640-12-01",t:"1923-10-29",d:"portekiz"}] },
 { ad:"Madrid", tur:"sehir", lat:40.417, lon:-3.704, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"ispanya"}] },
 { ad:"Sevilla", tur:"sehir", lat:37.389, lon:-5.984, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"ispanya"}] },
 { ad:"Granada", tur:"sehir", lat:37.177, lon:-3.599, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1492-01-02",d:"granada"},{f:"1492-01-02",t:"1923-10-29",d:"ispanya"}] },
@@ -930,8 +930,8 @@ window.YERLESIMLER = [
 { ad:"Asmara", tur:"sehir", lat:15.339, lon:38.932, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1923-10-29",d:"italya"}] },
 // ---- FAS EK ----
 { ad:"Rabat", tur:"liman", lat:34.021, lon:-6.841, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"fas"}] },
-{ ad:"Tanca", tur:"liman", lat:35.777, lon:-5.804, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1471-08-28",d:"fas"},{f:"1471-08-28",t:"1661-01-23",d:"portekiz"},{f:"1661-01-23",t:"1684-02-05",d:"ingiltere"},{f:"1684-02-05",t:"1923-10-29",d:"fas"}] },
-{ ad:"Agadir", tur:"liman", lat:30.428, lon:-9.598, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"fas"}] },
+{ ad:"Tanca", tur:"liman", lat:35.777, lon:-5.804, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1471-08-28",d:"fas"},{f:"1471-08-28",t:"1662-01-30",d:"portekiz"},{f:"1662-01-30",t:"1684-02-05",d:"ingiltere"},{f:"1684-02-05",t:"1923-10-29",d:"fas"}] },
+{ ad:"Agadir", tur:"liman", lat:30.428, lon:-9.598, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1505-01-01",d:"fas"},{f:"1505-01-01",t:"1541-01-01",d:"portekiz"},{f:"1541-01-01",t:"1923-10-29",d:"fas"}] },
 // ---- KARADAĞ ----
 { ad:"Cetinje", tur:"sehir", lat:42.391, lon:18.914, g:0, k:4, m:"İşkodra", kur:"1482-01-01", kasitli_bosluk:true,
     s:[{f:"1697-01-01",t:"1923-10-29",d:"karadag"}], d:[{f:"1499-01-01",t:"1697-01-01"}],
@@ -1679,7 +1679,13 @@ window.YERLESIMLER = [
 { ad:"Şakrâ", tur:"sehir", lat:25.2394, lon:45.2531, g:0, k:0, s:[{f:"1744-01-01", t:"1818-09-09", d:"suud"}, {f:"1824-06-01", t:"1891-01-01", d:"suud"}, {f:"1891-01-01", t:"1902-01-15", d:"sammar"}, {f:"1902-01-15", t:"1923-10-29", d:"suud"}], d:[], v:[{f:"1818-09-09", t:"1824-06-01", k:"Mısır (İbrâhim Paşa)"}] },
 { ad:"Suhâr", tur:"liman", lat:24.3472, lon:56.7092, g:0, k:0, s:[{f:"1281-01-01", t:"1507-01-01", d:"umman"}, {f:"1507-01-01", t:"1650-01-26", d:"portekiz"}, {f:"1650-01-26", t:"1923-10-29", d:"umman"}], d:[] },
 { ad:"Sûr", tur:"liman", lat:22.5550, lon:59.5200, g:0, k:0, s:[{f:"1281-01-01", t:"1507-01-01", d:"umman"}, {f:"1507-01-01", t:"1650-01-26", d:"portekiz"}, {f:"1650-01-26", t:"1923-10-29", d:"umman"}], d:[] },
-{ ad:"Buraymî", tur:"sehir", lat:24.2500, lon:55.7931, g:0, k:0, s:[{f:"1281-01-01", t:"1507-01-01", d:"umman"}, {f:"1507-01-01", t:"1650-01-26", d:"portekiz"}, {f:"1650-01-26", t:"1923-10-29", d:"umman"}], d:[] },
+// 🔴 D7 (ÇAPRAZ İBERYA): 143 yıllık `portekiz 1507-1650` dönemi KALDIRILDI.
+// Buraymî kıyıdan ~150 km içeride bir VAHA; Portekiz denetimi kaynaklarda
+// liman liman sayılıyor (Suhâr·Cülfâr·Hasab·Hor Fakkan·Dibba·Kuriyat·
+// Maskat·Matrah·Sib·Sûr) ve Buraymî hiçbirinde yok — üstelik kaleler
+// "içeriden gelen kabile akınlarına karşı" kurulmuştu, yani iç bölge
+// KARŞI TARAFTI. Suhâr ve Sûr listede VAR, onlara DOKUNULMADI.
+{ ad:"Buraymî", tur:"sehir", lat:24.2500, lon:55.7931, g:0, k:0, s:[{f:"1281-01-01", t:"1923-10-29", d:"umman"}], d:[] },
 { ad:"Ras el-Hayme (Cülfâr)", tur:"liman", lat:25.7896, lon:55.9417, g:0, k:0, s:[{f:"1281-01-01", t:"1515-04-01", d:"nebhani"}, {f:"1515-04-01", t:"1622-05-01", d:"portekiz"}, {f:"1622-05-01", t:"1820-01-08", d:"umman"}, {f:"1820-01-08", t:"1923-10-29", d:"ingiltere"}], d:[] },
 { ad:"Şârika", tur:"liman", lat:25.3573, lon:55.3911, g:0, k:0, s:[{f:"1281-01-01", t:"1515-04-01", d:"nebhani"}, {f:"1515-04-01", t:"1622-05-01", d:"portekiz"}, {f:"1622-05-01", t:"1820-01-08", d:"umman"}, {f:"1820-01-08", t:"1923-10-29", d:"ingiltere"}], d:[] },
 
