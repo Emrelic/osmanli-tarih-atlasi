@@ -85,6 +85,70 @@ komutan ⚔, denizci ⚓, valide/hanedan 👑, alim/edebiyatçı 📖, mimar �
 boş bir "?" yerine kişinin TÜRÜNÜ anlatan bir simge, mevcut savaş/antlaşma
 rozet mantığının (js/app.js:2992) aynısı.
 
+### 🔴 EK — "çapasız kart" hâli (koordinatör, geçiş dönemi zorunlu kılıyor)
+
+Sekiz padişah + K2/K3'ün 19 kişisi yayından SONRA yazılacak — panel bir
+süre **eksik çapayla** çalışacak. Koordinatörün kuralı bugünün ana dersiyle
+aynı: *"kart sessizce kaybolamaz; kart görünsün, çapası olmadığı görünsün."*
+İki YÖNÜ var, ikisi de ayrı ayrı olabilir (kişi var-madde yok / madde
+var-kart yok) — ikisi de aynı ilkeye tâbi:
+
+**A) `vefat_id` YOK — kişinin künyesi/kartviziti hazır ama kronolojide
+onu işaret eden bir madde henüz yok.** Bugünkü akış (`obGoster`) yalnız
+BİR maddeye TIKLANINCA çalışıyor — madde yoksa kartın kendisi hiçbir
+yerden ERİŞİLEMEZ, "görünsün" şartı sağlanamaz. ⇒ Yeni bir erişim yolu
+gerekiyor: **`#dizin`e "🎖 Kartvizitler" sekmesi** (mevcut Kişiler/
+Savaşlar deseninin AYNISI, `dizinDoldur()`a bir `else if` — js/app.js:2492).
+K1-K5 kademelerine göre gruplanır (`baslik()` zaten bunu yapıyor,
+sehirler sekmesindeki 4-kademe kalıbı örnek). Her satır (`satir(sol,orta,
+sag,tik)`):
+```
+vefat_id ÇÖZÜLÜYORSA   → tik VAR: tarihAyarla + obGoster ile o maddeye
+                          atlar (savaslar/antlasmalar sekmesiyle AYNI)
+vefat_id ÇÖZÜLEMİYORSA → tik YOK (satır() zaten tıksız tasarlanmış,
+                          yeni bir "pasif" hâl icat edilmiyor), sağ
+                          sütunda "henüz kronolojiye bağlanmadı" —
+                          boş değil, NEDEN boş olduğu yazan bir satır
+```
+🔴 **Sayaç şartı (koordinatör):** her kademe başlığının yanında
+`baslik()` metnine `"K1 — Padişahlar (26/34 bağlı)"` gibi bir oran
+eklenir — `TUR_ADI` deseninde zaten `"(" + grup.length + ")"` var,
+tek fark payda/pay ikisinin birden yazılması. Ayrı bir ölçüm koşusu
+gerekmiyor: sekme açıldığında `vefat_id` çözülen/çözülemeyen sayımı
+zaten yapılıyor, sayaç o hesaptan bedavaya çıkar.
+
+### 📏 ÖLÇÜLDÜ — bugünkü Kişiler sekmesi 19 yeni kayıtla ne olur
+
+```
+kisiler.js toplam        281 kayıt
+Kişiler sekmesinde GÖRÜNEN  273  (mimar 4 + edebiyatçı 4 = 8 kayıt
+                             HİÇ görünmüyor — TUR_ADI'de o iki tur YOK,
+                             bugünden beri var olan küçük, AYRI bir
+                             kusur; bu oturumun işi değil ama not düşülüyor)
+hanedan (bugün)             3 kayıt — tek başlık altında
+```
+**19 yeni kayıt eklenince gruplama mekanizması KIRILMAZ** — bugün zaten
+tur bazlı gruplanıyor (`sadrazam` 20, `komutan` 20 gibi benzer büyüklükte
+gruplar sorunsuz çalışıyor), 22 kayıtlık bir "Hanedan" grubu da aynı
+şekilde çalışır. ⚠️ **Ama TEK bir uyarı:** K2 (kaybeden şehzadeler) ve K3
+(valide sultanlar) muhtemelen İKİSİ DE `tur:"hanedan"` alacak — aynı
+başlık altında karışırlarsa okuyucu şehzadeyi valide sultandan ayıramaz.
+Öneri (veri oturumuna şema notu): iki ayrı `tur` değeri açılsın
+(`sehzade` · `valide`), `TUR_ADI`ye iki satır eklenir — mevcut mekanizma
+DEĞİŞMEDEN ayrışma sağlanır, üçüncü bir kova icat edilmez.
+
+**B) `vefat_id` VAR ama künye/kartvizit alanları henüz yazılmamış** —
+ters yön, madde önce gelebilir. `obGoster` içinde `PADISAHLAR`/`KISILER`de
+id bulunur ama `ovgu` alanı yoksa: `.kv-nasil-bilirdiniz` bölümü BOŞ
+kalmaz, *"Bu kişinin kartviziti henüz yazılmadı"* satırı çıkar — künye
+alanları (doğum/ölüm gibi zaten var olanlar) yine de gösterilir, yalnız
+"nasıl bilirdiniz" üçlüsü eksik olduğu AÇIKÇA söylenir.
+
+📌 Bu, "boş alan yok, niçin boş var" kuralının ÜÇÜNCÜ görünümü (ilk ikisi
+kart İÇİNDEKİ alanlardı — `yergi:"bulunamadı"`, `tartisma`da kaynağın
+sessizliği; bu üçüncüsü kartın KENDİSİNİN var olup olmadığı) — aynı ilke,
+bir kademe yukarı taşındı.
+
 ### 900 karakter tavanı — ARAYÜZ zorlamaz, DEFANSİF önlem alır
 
 `ANSİKLOPEDİ EKSENİ Kural ⓪` bunu **yazım kuralı** olarak koyuyor (içerik
@@ -95,11 +159,224 @@ projede tekrar tekrar "ölçmeden söyleme" dersi çıkmış bir sınıf hata
 taşarsa kaydırılır, kesilmez. Veri tarafı 900'ü aşarsa bu bir **denetim
 maddesi** olmalı (`arac/denetle.py`ye eklenecek, bu oturumun işi değil).
 
-### KADEMELER — sıra zaten `PADISAH-KARTVIZITI.md`de var
+### 🔴 EK — iki gerçek kart yazıldı, tavan ölçüldü (3 Ağustos, yayın kilidi arası)
 
-K1(36)→K2(~18)→K3(~12)→K4(20)→K5(25). Arayüz TEK mekanizma kurar, hangi
-kademe önce doldurulursa panel ONUN için de çalışır — kademe sırası
-içerik oturumunun kararı, arayüzü etkilemez.
+Şemayı boşta bırakmamak için TDV'den iki uçtan iki kart yazıldı (kod
+değil, ölçüm — `data/padisahlar.js`e YAZILMADI, bu oturumun dosyası
+değil). İkisi de `oturumlar/durum/`deki mesaj geçmişinde tam hâlleriyle
+duruyor; burada yalnız SONUÇ:
+
+```
+I. Murad (uçtan uca, sıradan vaka)
+  ovgu+yergi+tartisma+tarihciler+skandal = 878 / 900 karakter — RAHAT PAY
+  yergi:"bulunamadı" ilk kez GERÇEK bir vakada denendi — TDV maddesinde
+    hiç olumsuz değerlendirme yok, kural tam bunun için varmış.
+  vefat_id sınandı: YENİ madde GEREKMEDİ — data/olaylar.js:26 zaten
+    "I. Kosova Savaşı — I. Murad'ın şehadeti" diye duruyor, ona
+    vefat_id:"murad1" eklenmesi yeterli.
+
+Yıldırım Bayezid (uç vaka — ovgu/yergi GERÇEKTEN çatışıyor)
+  ovgu+yergi+tartisma+tarihciler = 898 / 900 — skandal'a YER YOK
+  ⇒ 900 tavanı ORTALAMADA rahat, UÇTA (tartışmalı figür) sıkı.
+```
+
+### 🔴 KARARLAŞTI (koordinatör, 3 Ağustos) — üç kural
+
+**① Tek 900 DEĞİL, ÜÇ AYRI BÜTÇE.** İki kart tek tavanı çökertti (878 ve
+898 — ikisi de "tek havuz" varsayımıyla yazıldı ve Bayezid'de `skandal`a
+yer kalmadı). Ayrı bütçe **toplam sınırsız** demek değil; üçünün de KENDİ
+tavanı var:
+```
+künye              serbest    (yapısal alanlar: tarih, isim, sayı — kısa)
+magazin            ~300 kr    (esler, cocuk, skandal)
+nasıl-bilirdiniz   900 kr     (ovgu + yergi + tartisma + tarihciler)
+```
+Ölçüm kaydı (sonraki oturum "niçin ayrıldı" diye sormasın diye rakamlar
+kalıcı): **I. Murad 878/900** (nasıl-bilirdiniz+skandal TEK bütçede
+denendi, rahat sığdı) · **Yıldırım Bayezid 898/900** (nasıl-bilirdiniz
+tek başına tavana YAPIŞTI, skandal'a hiç yer yoktu). Üç bütçe ayrılınca
+ikisi de kendi sınırının içinde kalıyor — çakışma buradan çıktı.
+Arayüz tarafı yine KIRPMAZ (yukarıdaki `.kv-nasil-bilirdiniz` `max-height`
++ `overflow-y:auto` kuralı üç bölüme de uygulanır); tavanı veri tarafı
+yazarken gözetir, kod hiçbir zaman sessizce kesmez.
+
+**② Kartvizit alanları `kesinlik:` disiplinine TÂBİDİR.** `EK-OKUMA.md`nin
+omurgası (`kesin·tartismali·iddia·rivayet`) ve Emre'nin kendi kuralı
+(*"mıymıntı yorumu benim yorumum, sen onu maddeye yazma"*) buraya da
+uygulanır. Yıldırım Bayezid'in ölümü ders kitabı vakası: TDV "esarette
+doğal sebeple" der, halk arasında zehir/intihar rivayeti YAYGIN ama
+maddede YOK. **İkisi karıştırılmaz, ikisi de anlatılır** — TDV'nin dediği
+`tartisma`ya kesin gibi girer, halk rivayeti ayrıca ve AÇIKÇA "rivayet"
+diye anılır (gerekiyorsa `magazin` kartına, kartvizite salt rivayet
+olarak DEĞİL).
+
+**③ Boş alan yok, "NİÇİN boş" var — tek kural, iki görünüm.**
+`yergi:"bulunamadı"` (I. Murad — TDV'de olumsuz değerlendirme yok) ile
+`tartisma`da "TDV maddesi Ankara yenilgisinin sebebini derinlemesine
+açıklamıyor" (Bayezid — kaynak SUSUYOR) AYNI AİLEDEN: kaynağın söylemediği
+şey de bir bilgidir ve **yazılır**, boş bırakılıp geçilmez. Her iki alan
+da (ve künyedeki bilinmeyen tarihler de) bu kurala tâbi: veri yoksa
+"bilinmiyor"/"bulunamadı" + varsa NEDEN bilinmediği (kaynak susuyor mu,
+kaynaklar çelişiyor mu) yazılır.
+
+### KADEMELER — sıra zaten `PADISAH-KARTVIZITI.md`de var, sayı ÖLÇÜLDÜ (düzeltildi)
+
+K1-K5 sayıları (`~111` toplam) `PADISAH-KARTVIZITI.md`nin kendi TAHMİNİYDİ,
+ölçülmemişti — koordinatör istedi, ölçüldü. **İlk deneme yanlış çıktı ve
+kendini düzeltti**, ikisi de aşağıda kayıtlı (§35'in bir örneği daha:
+yanlış ölçüm sessizce silinmiyor, DÜZELTMESİYLE birlikte duruyor):
+
+```
+İLK GEÇİŞ (tek kelime + gevşek eşleşme) → "36/36 padişahın ölüm maddesi var"
+  YANLIŞTI. Örnek: "IV. Murad" → "I. Murad'ın şehadeti" (1362) eşleşti —
+  IKI FARKLI MURAD, yalnız ortak kelime yüzünden karıştı.
+
+İKİNCİ GEÇİŞ (roma rakamı + isim BİRLİKTE, başlıkta "<ad>'ın ölüm/vefat/
+şehadet/hal/katl" deseni) → 26/36 TEMİZ eşleşti. Kalan 10'un bir kısmı
+GERÇEK eksik (yeni madde gerekir), bir kısmı YİNE rakam çakışması
+("V. Murad" dizgesi "IV. Murad" içinde geçiyor — Roma rakamlarında bu
+sınıf hata ÜÇÜNCÜ kez çıktı, kelime sınırı olmadan asla güvenilmez).
+```
+
+**Yapı bulgusu — sayıdan daha değerli:** Osmanlı veraset maddelerinin
+BÜYÜK ÇOĞUNLUĞU zaten `"X'in ölümü/hal'i, Y'nin cülûsu"` biçiminde TEK
+maddede yazılı (ör. `"II. Mahmud'un ölümü, Abdülmecid'in cülûsu"`,
+`"Sultan İbrahim'in hal'i ve katli"`). Yani **çoğu padişahın ölümü zaten
+bir maddede duruyor** — I. Murad'da görülen desen (yeni madde gerekmedi,
+`vefat_id` mevcut maddeye eklendi) İSTİSNA değil, **kural**.
+
+**K2/K3 — `PADISAH-KARTVIZITI.md`nin kendi tespiti DOĞRULANDI, sayıyla:**
+```
+K3 (11 örnek valide sultan adı)  → kisiler.js'te YALNIZ 1 (Turhan Hatice)
+K2 (10 örnek kaybeden şehzade)   → kisiler.js'te YALNIZ 1 (Cem Sultan)
+```
+⇒ K2 ve K3 gerçekten "dizinde neredeyse yok" — kartvizit işi bu iki
+kademede içerik oturumunun ÖNCE kisiler.js'e kayıt AÇMASINI bekliyor,
+kart yazımı değil.
+
+**K4/K5 — `t:` (ölüm yılı) alanı var ama olaylar'da madde ARANMADI
+(fuzzy eşleşme burada da güvenilmez çıktı, tek tek doğrulama gerekir):**
+```
+sadrazam  20 kayıt · 16'sında t: var   komutan  20 kayıt · 14'ünde t: var
+denizci    5 kayıt ·  4'ünde t: var
+```
+
+📌 **Sonuç:** K1-K5 kesin sayısı OTOMATİK ölçülemez (roma rakamı +
+ortak isim çakışması ölümü ölçmeyi de zorlaştırıyor) — ama K2/K3'ün
+veri tarafında BAŞLAMADIĞI ve K1'in ÇOĞUNLUKLA hazır bir maddeye
+oturacağı artık ölçülerek biliniyor. İçerik oturumuna giden iş: K1'den
+başla (veri hazır), K2/K3'ü kisiler.js kaydı açarak aynı anda ilerlet.
+
+### 🔴 K1'İN 15 "EKSİĞİ" TEK TEK AÇILDI — çoğu ölçüm kusuruydu, gerçeği 7
+
+Regex'in kaçırdığı 7 madde başlıkta ölüm/vefat geçiyordu — ama koordinatör
+haklı bir şüphe attı: *"başlıkta ölüm geçmesi yetmiyor, GÖVDE kimin
+ölümünü anlatıyor?"* Yedisi de `d:` alanı okunarak TEK TEK açıldı:
+
+```
+✅ TEMİZ — gövde GERÇEKTEN o kişinin ölümünü anlatıyor (4)
+   I. Bayezid   "Timur'un elinde esir... Akşehir'de vefat etti; naaşı
+                 Bursa'ya getirilip defnedildi." — baştan sona kendisi.
+   II. Bayezid  "...yolculuk sırasında öldü; ölümünde zehirlenme
+                 ihtimali... sekizinci padişah böylece hayatını
+                 kaybetti." — baştan sona kendisi.
+   I. Süleyman  "...otağında vefat etti... devlet en uzun saltanatlı
+                 ve en görkemli padişahını kaybetmişti" — kendisi
+                 ağırlıkta (kale/halef bağlam, odak o değil).
+   III. Selim   "IV. Mustafa'nın emriyle III. Selim sarayda
+                 öldürüldü... Selim'in ölümü..." — baştan sona kendisi.
+
+🟡 KARIŞIK — ölümü var ama gövdenin AĞIRLIĞI başkasında (2)
+   II. Mehmed(Fatih) "Fatih'in ... ani ölümü" TEK cümle, geri kalan üç
+                 cümle CEM SULTAN'IN İSYANI. `kaynak:"cem-sultan"` —
+                 kaynağın kendisi bile Cem'in maddesi. vefat_id
+                 takılabilir (tarih doğru) ama kart içerik-ağırlığıyla
+                 uyuşmaz, veri oturumu bilerek karar versin.
+   V. Mehmed    İlk cümle kendi vefatı, ikinci yarı YENİ PADİŞAH
+                 Vahdeddin'in durumu. Aynı sınıf, daha hafif.
+
+🔴 YANLIŞ SINIF — ÖLÜM DEĞİL, madde başka bir olay (1)
+   III. Ahmed   Bu bir HAL' (tahttan çekilme, 1730) maddesi — gövdenin
+                 İKİNCİ YARISI TAMAMEN I. Mahmud'un ilk icraatları.
+                 III. Ahmed'in GERÇEK ölümü (1736) hâlâ maddesiz.
+                 ⇒ Kösem'le AYNI SINIF: "o tarihte madde var" ile
+                 "BU KİŞİNİN ölüm maddesi var" burada da ayrıştı.
+```
+📌 **Sonuç değişti:** "7 ölçüm kusuru" dediğim liste aslında **4 temiz +
+2 kullanılabilir-ama-dengesiz + 1 YANLIŞ.** III. Ahmed gerçek eksiklere
+taşınmalı — **toplam gerçek eksik 7 değil 8.**
+
+**GERÇEK EKSİK — 8, yeni madde ister (bu oturumun değil, senin dosyan):**
+```
+Orhan Gazi        (to 1362-03)  — yalnız "I. Murad tahta çıktı" var,
+                    Orhan'ın kendisi hiç adı geçmeden
+I. Mehmed (Çelebi) (to 1421-05)  — yakınında hiç isim geçen madde yok
+I. Selim (Yavuz)    (to 1520-09) — yalnız "Kanunî tahta çıktı" var
+II. Süleyman        (to 1691-06) — yalnız "II. Ahmed'in tahta çıkışı" var
+II. Ahmed           (to 1695-02) — yalnız "II. Mustafa'nın cülusu" var
+I. Abdülhamid       (to 1789-04) — yalnız "III. Selim tahta çıktı" var
+IV. Mustafa         (to 1808-07) — boğduruldu (1808), adıyla madde yok
+III. Ahmed          (öl. 1736)   — YENİ EKLENDİ: 1730 maddesi hal', ölüm
+                    değil; gerçek ölümü altı yıl sonra ve maddesiz
+```
+**8. özel vaka — atlasın KENDİ sınırı:** `VI. Mehmed (Vahideddin)` 1926'da
+sürgünde öldü — atlas `1923-10-29`de bitiyor, yani ölüm tarihi ATLASIN
+DIŞINDA. Kartı en yakın gerçek çapaya (`1922-11-01` "Saltanatın
+kaldırılması" ya da `1922-11-17` "İstanbul'dan ayrılışı") bağlanmalı —
+"olum" alanı 1926 yazar ama `vefat_id` 1922'deki maddeye takılır. Yeni
+madde gerekmiyor, yalnız bu istisna bilinsin.
+
+### K2 — kisiler.js'e açılacak 9 kayıt (Cem Sultan zaten var, dışarıda)
+
+⚠️ **Aşağıdaki ölüm yılları TDV'den DOĞRULANMADI — hafızadan, kaba
+çapa.** Kaynak kuralı gereği (CLAUDE.md §4) veri oturumu her birini
+`islamansiklopedisi.org.tr`den TEYİT ETMEDEN yazmamalı; burada yalnız
+"nereye bakılacağı" işaret ediliyor, "doğru olduğu" değil.
+```
+Süleyman Çelebi   ö. 1411 (Emîr Süleyman, Fetret — Bursa'ya kaçarken/
+                  Rumeli'de bertaraf, TDV: "suleyman-celebi" slug'ı doğrula)
+Musa Çelebi       ö. 1413 (Çamurlu Derbend Savaşı'nda, Fetret'in sonu)
+İsa Çelebi        ö. 1403-06 dolayı (Ulubat/Bursa mücadelesinde, Fetret)
+Düzmece Mustafa   ö. 1422 (II. Murad'a yenilip Edirne'de asıldı)
+Küçük Mustafa     ö. 1423 (II. Murad'a karşı ikinci Mustafa ayaklanması)
+Şehzade Mustafa   ö. 1553-10-05 [MADDESİ ZATEN VAR — Konya Ereğlisi'nde
+                  idam; kisiler.js'e kayıt AÇILMASI yeterli, madde hazır]
+Şehzade Bayezid   ö. 1561-62 dolayı (Kanunî'nin oğlu, İran'a kaçtı,
+                  Safevîler tarafından teslim edilip boğduruldu)
+Şehzade Selim     [III. Mehmed'in kardeşi — 1512-04-24 maddesi Bayezid'in
+                  şehzadesi Selim'le KARIŞMASIN, iki ayrı "Şehzade Selim"
+                  var, id'ler AÇIKÇA ayrışmalı]
+Genç Osman        zaten K1'de (padişah oldu) — K2 listesinden DÜŞÜLMELİ,
+                  `PADISAH-KARTVIZITI.md`nin kendi notu böyle diyordu
+```
+⚠️ **İsim çakışması UYARISI:** tarihte birden çok "Şehzade Selim", "Şehzade
+Mustafa" var (farklı padişahların oğulları). `id` üretirken TDV slug'ı ya
+da baba adı mutlaka eklenmeli (`sehzade-mustafa-kanuni` gibi) — yoksa
+`vefat_id` yine bu belgede üç kez görülen sınıf hataya (adaş karışması)
+düşer.
+
+### K3 — kisiler.js'e açılacak 10 kayıt (Turhan Hatice zaten var)
+
+```
+Nurbanu      ö. 1583 (II. Selim'in eşi, III. Murad'ın annesi)
+Safiye       ö. sonrası 1605 [1595-01-16 maddesi ZATEN VAR ama o III.
+             Murad'ın ölümü — Safiye'nin KENDİ ölümü değil, karıştırılmasın]
+Handan       ö. 1605 (I. Ahmed'in annesi)
+Halime       ö. 1623 sonrası (I. Mustafa'nın annesi)
+Kösem        ö. 1651-09-02 [1623-09-10 maddesi ZATEN VAR ama o IV.
+             Murad'ın CÜLÛSU — Kösem'in KENDİ ölümü (boğdurulması, 1651)
+             AYRI ve maddesiz, GERÇEK EKSİK]
+Gülnuş       ö. 1715 (II. Ahmed ve II. Mustafa'nın annesi)
+Mihrişah     ö. 1805 (III. Selim'in annesi)
+Nakşidil     ö. 1817 (II. Mahmud'un annesi)
+Bezmiâlem    ö. 1853 (Abdülmecid'in annesi)
+Pertevniyal  ö. 1883 (Abdülaziz'in annesi)
+```
+⚠️ **Kösem vakası aynı ders sınıfı, ters yönden:** bir tarihte bir madde
+VARDIR ama o başka birinin (oğlunun cülûsu) maddesidir — Kösem'in KENDİ
+ölümü (1651, boğdurma) hâlâ maddesiz. "Madde var" ile "BU KİŞİNİN madde
+si var" birbirinden ayrılmadan sayılırsa yine yanlış "temiz" çıkar —
+tam bugünün ana dersi.
 
 ---
 

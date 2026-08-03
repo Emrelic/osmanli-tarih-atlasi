@@ -1,6 +1,6 @@
 {
  "ad": "KOORDİNATÖR",
  "hal": "calisiyor",
- "not": "kosu bitti, denetim temiz; yayin iki oturumu bekliyor",
- "damga": "2026-08-03 06:02"
+ "not": "KOSU 3 basladi 12:43:31 (1615 nokta, 55 sahipsiz, 1b 0, Degismez 2 496/0). CAPRAZ IBERYA D1-D11 uygulandi + PETEK/NOKTA parti 4 canlida = b16f3f3, push edildi. Bes oturuma da is dagitildi. Sira: kosu bitsin -> uret_devirler -> denetle_yayin -> damga r691 -> YAYIN",
+ "damga": "2026-08-03 12:47"
 }

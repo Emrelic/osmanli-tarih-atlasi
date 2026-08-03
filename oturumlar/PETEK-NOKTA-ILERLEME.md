@@ -14,6 +14,11 @@
 teslimini bekle, yoksa koşu bayat girdiyle çalışır (`CLAUDE.md §7`).
 `yerlesimler_kirim.js` ise donmuştur, bugün bağlanabilir.
 
+> 🔴 **YENİ BİR OTURUM BURAYA GELDİYSE: önce dosyanın SONUNDAKİ
+> "ÖLÇÜLMÜŞ SABİTLER" bölümünü oku.** Aşağıdaki parti anlatıları nasıl
+> ölçüldüğünü anlatır; o bölüm **ne ölçüldüğünü** verir. Orada yazan hiçbir
+> sayı yeniden ölçülmesin.
+
 **Durum:** 🟢 Parti 1 ve 2a HAZIR — Oturum 0 alabilir.
 🔴 Commit/push YAPILMADI · `uret_petek.py` ÇALIŞTIRILMADI · başka hiçbir
 dosyaya dokunulmadı (`yerlesimler*.js`'in hiçbiri, `arac/`'ın hiçbiri).
@@ -879,4 +884,725 @@ dokunulmadı.**
    TDV: kale iki aylık kuşatmadan sonra 30 Temmuz 1560'ta düştü.
    ⚠️ Düzeltmek 1560-07-30 kırılması açar, o güne madde YOK (en yakın
      1560-05-14, 77 gün). Önce madde, sonra tarih.
+```
+
+---
+---
+
+# PARTİ 5 — CERBE MADDELERİ + HAMÂD ÖLÇÜMÜ
+
+## A · `data/olaylar_ek12.js` — iki madde (YENİ dosya, yayına bağlı DEĞİL)
+
+```
+1560-01-01  Haçlı donanması Cerbe'yi işgal etti — Turgut Paşa'nın üssü elden çıktı
+1560-07-30  Cerbe kalesinin düşüşü — adanın Osmanlı idaresine geçişi
+```
+Ayrıştırma ✓ · eksik alan 0 · `k:`/`etiket:` sözlük içi ✓ · `kaynak:"cerbe"`
+(slug CANLI, `<title>` ile sınandı).
+
+🔴 **Borç kapandı:** `1560-07-30`'a en yakın madde artık **0 gün**. Önce
+77 gündü (1560-05-14 "Cerbe Deniz Zaferi") — yani Cerbe kaydının `d:`
+başlangıcı bu madde olmadan taşınamazdı. **Madde önce, tarih sonra.**
+
+⚠️ **A-1'in günü UYDURULMADI.** TDV `cerbe` yalnız *"1560 yılı başlarında"*
+diyor; ay ve gün kaynakta yok. `t:` ev kuralına göre yer tutucu
+(`1560-01-01`), gerçek belirsizlik `gun:` alanında açıkça yazılı —
+`olaylar_ek11.js`in Bağdat 1401 maddesindeki desenin aynısı.
+📌 Bu madde Değişmez 2 için **gerekli değil** (İspanyol dönemi s:→s:
+geçişidir, kırılma üretmez); kronoloji eksik olduğu için yazıldı. Ve
+1559-12 / 1560-02 aralığında başka kırılma bulunmadığı ölçüldü — yani var
+olan bir boşluğu yanlışlıkla da kapatmıyor.
+
+### 🔴 CERBE KAYDI `yerlesimler_ek4.js`e YAZILAMAZ — ölçüldü
+
+Koordinatör iki seçenek sunmuştu; **ikincisi teknik olarak imkânsız.**
+`arac/girdi.py` `yukle()` aynı adı iki dosyada görünce çöküyor:
+```python
+if y["ad"] in nereden: raise ValueError("AD ÇAKIŞMASI: …")
+```
+`"Cerbe (Djerba)"` zaten `yerlesimler.js`te (bağlı) olduğu için ikinci bir
+kayıt **yükleyiciyi üretim başlamadan düşürür.**
+⇒ Düzeltme yalnızca `yerlesimler.js` içinde, yerinde yapılabilir. Önerilen
+son hâl ve `y:"savas"` → `y:"kusatma"` notu `olaylar_ek12.js` başlığında.
+
+---
+
+## B · HAMÂD — soru ölçülebilir hâle getirildi
+
+**Kutu:** 30,5-35,0K / 36,5-42,5D · **248.342 km²** · 382 kara örneği (0,25°).
+
+### 🔴 EN ÖNEMLİ BULGU: soru ZATEN CEVAPLANMIŞ — varsayılanla
+
+```
+1600'de Hamâd'ın 248.342 km²'sinin 182.881 km²'si (%74) OSMANLI boyanıyor.
+```
+Ve bunu kimse KARAR VEREREK yapmadı: çevredeki vaha kasabaları (Tedmür,
+Âne, Hît, Deyrizor, Şam) Osmanlı olduğu için petekleri çöle uzanıyor.
+**Emilme yarıçapı ortalama 121 km, en uzağı 268 km.** Osmanlı gövdesi
+kutunun doğu kenarına (42,38°D) ve güney kenarına (30,62°K) kadar varıyor.
+
+⇒ **Hiçbir şey yapmamak = 182.881 km² için "Osmanlı bâdiyesi" demek.**
+Karar zaten verilmiş durumda; verilmemiş olan yalnız onun *bilinçli* olması.
+
+### Hamâd'ı yutan noktalar (alan ağırlıklı)
+```
+Tedmür (Palmyra)      48.231 km²  %19,4   kutu merkezine 231 km
+Vâdî Sirhân           45.548 km²  %18,3                  253 km   ← SAHİPSİZ
+Âne                   37.271 km²  %15,0                  296 km
+Hît                   31.295 km²  %12,6                  325 km
+Şam                   20.092 km²  % 8,1                  311 km
+Dûmetülcendel (Cevf)  19.912 km²  % 8,0                  329 km
+Deyrizor              14.685 km²  % 5,9                  294 km
+```
+📌 İkinci sıradaki **Vâdî Sirhân benim parti 2a'da koyduğum sahipsiz
+dolgudur** ve tek başına kutunun %18,3'ünü sahipsiz tutuyor. Yani aracın
+çalıştığı ölçüldü: **bir sahipsiz nokta ~46.000 km² döndürüyor.**
+
+### Sahiplik dağılımı, tarih tarih
+```
+                 1550      1600      1700      1800      1900
+OSMANLI       182.881   182.881   182.881   182.881   182.881
+SAHİPSİZ       65.461    65.461    65.461    65.461    45.548
+sammar              —         —         —         —    19.912
+```
+
+### 🔴 KARAR TABLOSU — bir sahipsiz dolgu kaç km² döndürür
+```
+konum                     Osmanlı'dan DÜŞEN      toplam kaptığı
+Rutbe hizası  33,05/40,28    53.913 km² (%21,7)      63.765 km²   ← en etkili
+Hamâd kuzeyi  33,80/39,00    49.774 km² (%20,0)      55.656 km²
+kutu merkezi  32,75/39,50    46.121 km² (%18,6)      59.230 km²
+Hamâd güneyi  31,50/40,50    33.414 km² (%13,5)      53.275 km²
+Kaf/V. Sirhân 31,60/38,20    13.042 km² (% 5,3)      41.305 km²
+```
+
+### Karar artık tek satır
+```
+"Osmanlı bâdiyesi"     → HİÇBİR ŞEY YAPMA. Harita zaten %74 Osmanlı diyor.
+"devletsiz aşiret çölü" → Rutbe hizasına 1 sahipsiz dolgu: %74 → %52
+                          + Hamâd kuzeyine 2.si: %74 → ~%32
+```
+⚠️ Ve `§3.5.1` gereği öbür uç: dolgu koymak Osmanlı'yı geri çeker ama
+**Suriye ile Irak arasını da açar.** Yukarıdaki "toplam kaptığı" sütunu o
+riski ölçüyor — Rutbe hizasındaki nokta 63.765 km²'yi sahipsiz yapar ve
+bunun 9.852 km²'si bugün zaten sahipsiz olan alandır.
+
+## C · MARMARA ADASI — KAPALI
+Koordinatörün hükmü kabul: üçüncü deneme yapılmadı. `KAYNAK BULUNAMADI`
+olarak kapandı; şüphe `PARTİ 4` bölümünde kayıtlı.
+
+---
+---
+
+# PARTİ 6 — HAMÂD DOLGUSU + SEYREKLİK LİSTESİNİN YENİDEN ÖLÇÜMÜ
+
+## ① `data/yerlesimler_ek4.js` — tek nokta, ölçülmüş karar
+
+```
+Hamâd (Bâdiyetü'ş-Şâm içi)   33,05K / 40,28D   tur:"bolge"   d:[]  (kalıcı sahipsiz)
+```
+Sekiz kontrol temiz · **Değişmez 2 borcu sıfır** (hiç `d:`/`v:` yok, kırılma
+üretmiyor) · maske ✓ · 3 km: en yakın nokta **220,05 km** (Âne) — depodaki
+en izole kayıt.
+🔴 Oturum 0: bağlarken `BEKLENEN_SAHIPSIZ` **55 → 56**.
+
+**Tahmin tuttu:** öngörü 53.913 km² düşüş, gerçekleşen **53.912 km².**
+```
+ÖNCE   OSMANLI 182.881 km² (%74)   SAHİPSİZ  65.461 km² (%26)
+SONRA  OSMANLI 128.969 km² (%52)   SAHİPSİZ 119.373 km² (%48)
+```
+
+📌 `kasitli_bosluk:` YAZILMADI ve sebebi PARTİ 2a'da ölçülmüştü:
+`denetle_bosluk.py`nin ilk süzgeci **kalıcı sahipsizliği** zaten yakalıyor
+(`not (d or v or s)` → "KASITLI SAHİPSİZ"); bayrağa sıra gelmiyor. Bayrak
+yalnız **dönemi olan** noktalar için gerekli (Dûmetülcendel, Teymâ, Necid ×2).
+
+## ② SEYREKLİK LİSTESİ YENİDEN ÖLÇÜLDÜ — çünkü liste DEĞİŞTİ
+
+İlk liste **1588** noktayla çıkarılmıştı; bugün **1616** (+28). Koordinatör
+"1-5. sıralara dön" dedi — ölçüm gösteriyor ki **o beşi zaten kapandı:**
+```
+1. 30K 38D  261 km  → Vâdî Sirhân · Dûmetülcendel · Teymâ   (parti 2a)
+2. 30K 40D  252 km  → aynı üçlü + Hamâd dolgusu             (2a + 6)
+3. 48K 48D  249 km  → Rın kumulları                          (2a)
+4. 32K 38D  221 km  → Hamâd dolgusu                          (6)  ← bugün
+5. 48K 46D  190 km  → Rın kumulları                          (2a)
+```
+⇒ Liste 261 km'den başlıyordu, artık **171 km'den** başlıyor.
+
+### YENİ HALKA 0 ÇEKİRDEK — ilk 15
+```
+ #   hücre      kara km²  nkt  yarıçap çeş  sınıf         ülke
+ 1  48K 38D      32.518    0    171km   4   🔴 AÇ         Ukrayna
+ 2  44K 42D      35.049    0    161km   4   🔴 AÇ         Rusya
+ 3  30K 40D      31.906    0    156km   2   kısmen dolgu  Suudi   ← kapandı
+ 4  46K 42D      33.804    0    156km   3   🔴 AÇ         Rusya
+ 5  30K 22D      42.486    0    131km   2   🔴 AÇ         Libya   ← DÜZELTME
+ 6  44K 44D      35.049    0    127km   5   🔴 AÇ         Rusya
+ 7  48K 48D      32.518    0    127km   2   🔴 AÇ         Kazakistan
+ 8  48K 36D      32.518    1    116km   4   🔴 AÇ         Ukrayna
+ 9  48K 30D      32.518    0    114km   3   🔴 AÇ         Ukrayna
+10  46K 48D      30.054    1    114km   3   🔴 AÇ         Kazakistan
+11-15  46K 40D · 48K 40D · 44K 40D · 44K 46D · 46K 46D    Rusya, 96-112 km
+```
+
+🔴 **15'in 13'ü Karadeniz-Hazar bozkırı ve HEPSİ AYNI ENGELDE:** Zaporog /
+Don Kazak Ordası kimliği yok. Ölçtüm — 48K 38D hücresini bugün **Rostov
+(Don) %36 · Harkov %31 · Bozkır (Deşt-i Kıpçak) %16** yutuyor ve **üçü de
+1600'de `kirim` taşıyor.** Yani bozkır sahipsiz değil, **Kırım boyanıyor**;
+soru "nokta ekleyelim mi" değil, "orası 1600'de gerçekten Kırım mıydı".
+⇒ Kimlik gelmeden nokta eklemek hatayı büyütür. **Bekliyor.**
+
+## 🔴 KENDİ ETİKETİMİ DÜZELTİYORUM — 30K 22D (Libya)
+
+PARTİ 4'te bu hücreyi **"KASTEN BOŞ ⛔ dokunulmadı"** diye yazmıştım.
+**YANLIŞTI** — adına bakıp ölçmemiştim. `Sirte iç çölü` dolgusu 28,50K/18,50D'de,
+yani bu hücreden ~400 km batıda. Hücreyi gerçekte kim yutuyor:
+```
+Tobruk   18.527 km² %43,6   1600 → OSMANLI
+Cağbûb   10.023 km² %23,6   1600 → OSMANLI
+Derne     5.937 km² %14,0   1600 → OSMANLI
+Câlû      5.347 km² %12,6   1600 → OSMANLI
+⇒ dolgu payı %0. Sınıf: 🔴 AÇ, Hamâd'ın birebir ikizi.
+```
+📌 Ders: **sınıfı ADDAN değil ÖLÇÜMDEN oku.** "Sirte iç çölü diye bir dolgu
+var, demek ki orası kasten boş" çıkarımı, tam da bu oturumun başkalarına
+söylediği hatanın kendisiydi.
+
+### Libya iç çölü — Hamâd yöntemiyle ölçüldü (karar hazır)
+```
+kutu 27,5-31,5K / 18,0-25,0D · 279.356 km² · ort. yarıçap 104 km
+1600'de OSMANLI boyanan: 179.166 km² (%64)
+yutanlar: Cağbûb %20,8 · Câlû %18,1 · Sirte iç çölü %18,0 (dolgu) ·
+          Ecdâbiye %16,2 · Serîr Kalanşû %10,8 (dolgu) · Serîr %5,9 (dolgu)
+
+bir sahipsiz dolgu kaç km² döndürür:
+   kutu merkezi  29,50/21,50 → 38.921 km² (%13,9)
+   çöl doğusu    29,00/23,50 → 37.229 km² (%13,3)
+   Sirte arkası  30,00/20,50 → 30.872 km² (%11,1)
+```
+⚠️ Hamâd'dan farkı: burada **zaten üç dolgu var** (%34,7 kaplıyor), o yüzden
+marjinal kazanç daha düşük (%13,9 vs %21,7). Aday ama acil değil — karar
+senin, ölçüm hazır.
+
+### HALKA 0-1'in başı artık Batı Afrika
+Moritanya/Mali, 900-1014 km yarıçap, çoğu **KASTEN BOŞ** (Sahra dolguları).
+`ONCELIK.md §4` gereği HALKA 2-3, sıraları gelmedi.
+
+---
+
+## PARTİ 6 EKİ — `zaporojye` kimliğine ilk gövde
+
+`data/yerlesimler_ek4.js` **2 nokta** oldu. Sekiz kontrol temiz · Değişmez 2
+borcu sıfır · maske ✓ · 3 km en yakın 95,8 km · yeni renk yok.
+
+```
+Zaporojye Seçi   47,75K / 34,80D   kale
+s: altinorda 1281→1502-03-01 · kirim 1502→1552-01-01
+   zaporojye 1552-01-01→1775-06-16 · rusya 1775-06-16→1923
+```
+Ölçülen gövde: **33.669 km²** (Dinyeper kutusunun %22'si). RENK'in
+*"① EKSİK, GÖVDE BEKLENMİYOR"* bayrağı kapandı.
+
+### 🔴 AMA SEVKTEKİ ÜÇ HÜCREYE DEĞİL — coğrafya tutmadı
+```
+hücre 8  Donets      Seç'e 317 km      hücre 10 aşağı Don  Seç'e 604 km
+hücre 13 Harkov      Seç'e 191 km
+```
+TDV `ukrayna`: Seç, Dinyeper'in **çağlayanları (Porog)** bölgesinde ~1552'de
+kuruldu; **"Don Kazakları ayrı bir topluluktu, farklı coğrafî bölgede."**
+`devletler.js` özeti de *"Dinyeper aşağısında"* diyor.
+⇒ Üç hücreye `zaporojye` yazmak kimliği 200-600 km uzağa taşımak olurdu —
+Kırım'ı olmadığı yere taşımaktan farkı yok. **Açılmadı.**
+
+**Yeni engel eskisinden farklı:** "kimlik yok" değil, **"kimlik var ama
+coğrafyası tutmuyor."** 8 ve 10 **Don Kazak Ordası** toprağıdır ve o kimlik
+atlasta yok. 13 (Harkov) ise zaten periyotlu: `kirim 1441→1654-01-01 → rusya`
+— Sloboda Ukrayna'nın kuruluş yılı. Orada eksik olan sahiplik değil çözünürlük.
+
+### 1654 PEREYASLAV — iki uç gösterildi, karar yazılmadı
+```
+UÇ A  1654'ten s:rusya     TDV: "sadece himaye değil TÂBİYET"
+      ⇒ gövde 102 yıla iner
+      ✗ ama devletler.js 1775'e kadar yaşatıyor ve kendi kronolojisinde
+        "1711 bir kesimi Osmanlı himayesine sığındı (Aleşki Seçi)" yazıyor —
+        1654'te bitmiş devlet 1711'de Osmanlı'ya sığınamaz
+UÇ B  1775'e kadar zaporojye   ⇒ gövde 223 yıl, künyeyle ve §3.5 ile uyumlu
+      ✓ TDV'nin kendi cümlesi destekliyor: 1667 Andrusova'dan sonra Ukrayna
+        ÜÇE bölünür — Sağ Yaka Lehistan, Sol Yaka Rusya, GÜNEY Kırım
+        üzerinden Osmanlı nüfuzunda. SEÇ GÜNEYDEDİR.
+```
+🔴 **Çelişkiyi çözen ayrım:** Pereyaslav **HETMANLIĞI** (Sol Yaka) bağladı,
+**SEÇ'i** (aşağı Dinyeper) değil. Aynı adı taşıyan iki ayrı şey.
+Bu kayıt Seç'tir ⇒ **UÇ B yazıldı.**
+⚠️ Sol Yaka Hetmanlığı için ayrı nokta açılırsa UÇ A geçerlidir ve o nokta
+bu kaydın zincirini **kopyalamamalıdır.**
+
+📌 SIRADAKİ İŞ (VERİ KİMLİK'e): **Don Kazak Ordası** kimliği. Gelince 8 ve 10
+tek partide açılır; koordinatlar ve ölçümler `yerlesimler_ek4.js` sonunda.
+
+---
+
+## PARTİ 6 EKİ-2 — Libya dolgusu + Sloboda (ve bir itiraz)
+
+`data/yerlesimler_ek4.js` **4 nokta** oldu. Sekiz kontrol temiz · Değişmez 2
+borcu sıfır · Değişmez 3 çelişki 0 · maske 4/4 · yeni renk yok.
+🔴 `BEKLENEN_SAHIPSIZ` **55 → 57** (iki kasıtlı dolgu: Hamâd + Libya).
+
+| ad | lat, lon | tür | işlevi |
+|---|---|---|---|
+| Hamâd (Bâdiyetü'ş-Şâm içi) | 33,05 · 40,28 | bölge | kasıtlı dolgu — %74→%52 |
+| Zaporojye Seçi | 47,75 · 34,80 | kale | `zaporojye`ye ilk gövde, 33.669 km² |
+| Libya iç çölü (Sirte ardı) | 29,50 · 21,50 | bölge | kasıtlı dolgu — 38.921 km² |
+| Sloboda bozkırı | 49,20 · 37,20 | bölge | çözünürlük — hücre 13: 115→67 km |
+
+### 🔴 SLOBODA'DA `zaporojye` YAZMADIM — itiraz
+
+Sevkte *"Harkov çevresi (Sloboda Ukrayna) → zaporojye ekseni, kimlik HAZIR,
+aç"* deniyordu. **Yazmadım, sebebi kaynak yokluğu.**
+
+TDV `ukrayna` Sloboda Ukrayna hakkında **hiçbir şey söylemiyor**: ne idarî
+yapısı, ne Harkov'un kuruluşu, ne Sloboda alaylarının kime bağlı olduğu, ne
+de 1667 bölüşümüne dahil olup olmadığı. Maddenin verdiği tek şey Andrusova'nın
+**ikili** bölüşümü: *"Özü nehrinin batısı (Sağ Yaka) Lehistan'ın, doğusu
+(Sol Yaka) Kiyef dahil Rusya'nın hâkimiyetine girdi."* Sloboda üçüncü bir
+ad ve maddede geçmiyor.
+
+⇒ `zaporojye` yazmak, **Don için reddettiğimin aynısı** olurdu: kimliği
+coğrafyasının dışına taşımak. Ve bugünün kendi dersine aykırı: *"nokta
+seyrekliği bir görüntü kusuru; yanlış kimlik bir İDDİA."*
+
+📌 Ve gerek de yok: `Harkov` kaydı **zaten doğru periyotlu** —
+`altinorda 1281→1441 · kirim 1441→1654-01-01 · rusya 1654→1923` — ve bu,
+TDV'nin "Sol Yaka Rusya'nın" cümlesiyle uyumlu. Eksik olan **sahiplik değil
+çözünürlük**tü.
+⇒ Eklenen `Sloboda bozkırı` **yeni bir iddia taşımıyor**: zinciri Harkov'un
+birebir aynısı, tek işi hücre 13'ün ortalama yarıçapını **115 km → 67 km**
+(1,7×) indirmek.
+
+⚠️ Koordinatör ısrar ederse `zaporojye`ye çevirmek tek satır — ama o zaman
+bunun **kaynaksız bir kimlik iddiası** olduğu bu satırda yazılı kalsın.
+
+### Don tarafı — değişmedi
+Hücre 8 (Donets) ve 10 (aşağı Don) **açılmadı**: Don Kazak Ordası kimliği
+yok, Seç 317-604 km uzakta. VERİ KİMLİK'te iş olarak duruyor.
+
+---
+---
+
+# PARTİ 7 — HARKOV SIÇRAMASI, ve altından çıkan denetlenmemiş sınıf
+
+## ① SORULAN SORUNUN CEVABI: Harkov YALNIZ, Karaman deseni YOK
+
+`kirim → rusya` geçişleri, bütün tarih boyunca:
+```
+1585-01-01    1 — Voronej
+1654-01-01    2 — Harkov + Sloboda bozkırı  (ikincisi benim kopyam)
+1739-09-18    1 — Rostov (Don)
+1774-07-21    1 — Kabartay (Nalçik)
+1783-04-19   10 — Kırım ilhakı   ← tek olay, doğru küme
+1829-09-14    3 — Çerkez kıyısı (Edirne)  ← tek olay, doğru küme
+```
+⇒ 1654'te bir kuşak değil **tek kayıt** el değiştiriyor. Karaman'daki gibi
+"beş kayıt yanlış güne yapışmış" durumu **yok.**
+
+1654-1721 penceresindeki büyük kümeler de sağlam çıktı — üçü de maddesine
+**0 gün** uzaklıkta:
+```
+1671-01-01  33 kayıt  → "Cezayir'de dayı idaresinin başlaması"        ✓
+1705-07-17  26 kayıt  → "Tunus'ta Hüseynî hanedanının kurulması"      ✓
+1711-03-01  26 kayıt  → "Trablusgarp'ta Karamanlı hanedanının kuruluşu" ✓
+```
+
+## 🔴 ② AMA ALTINDAN BAŞKA BİR ŞEY ÇIKTI — ve bu Karaman'dan büyük
+
+Harkov'un günü ölçülünce:
+```
+1654-01-01 (Harkov)  → en yakın kronoloji maddesi 560 GÜN uzakta
+1654-01-18 (Poltava) → en yakın madde 577 GÜN uzakta
+en yakın olan da alâkasız: "1652-06-20 Tarhuncu Ahmed Paşa'nın denk bütçe reformu"
+```
+⇒ **PEREYASLAV ANTLAŞMASI ATLASIN KRONOLOJİSİNDE HİÇ YOK.** Ukrayna'nın
+Moskova hâkimiyetine girişi — bölgenin en sonuçlu olaylarından biri —
+haritada iki kaydı boyuyor ama tek satır madde ile açıklanmıyor.
+
+### Ve Değişmez 2 bunu göremez — TASARIMI GEREĞİ
+
+Değişmez 2 yalnız `d:` ve `v:` dönem uçlarına bakar. Harkov'un geçişi
+`s:kirim → s:rusya`, yani **yabancıdan yabancıya**. Harita rengi turuncudan
+yeşile döner, kullanıcı görür — denetim görmez.
+
+**Sınıfın boyu ölçüldü:**
+```
+s:→s: geçişi           3.384 adet · 717 ayrı gün
+±30 günde maddesi YOK    494 gün · 1.640 geçiş   → %48
+────────────────────────────────────────────────────────────
+d:/v: kırılması (denetlenen)  496 gün · maddesiz 0   → %0
+```
+⇒ Denetlenen sınıf **kusursuz**, denetlenmeyen sınıfın **yarısı boşta.**
+
+### En kalabalık maddesiz günler
+```
+1452-01-01  41  timurlu→karakoyunlu        243 gün   ← HALKA 1 (İran)
+1644-04-25  37  ming→güney-ming             85 gün
+1411-01-01  34  celayirli→karakoyunlu       47 gün   ← HALKA 1 (Irak)
+1797-10-17  29  venedik→avusturya          238 gün   ← 🔴 HALKA 0-1, Campo Formio
+1603-03-24  28  azuchi-momoyama→edo        211 gün
+1368-04-01  27  yuan→ming                  609 gün
+1526-04-21  23  delhi→babur                130 gün
+1504-01-01  19  nube→funj                  365 gün   ← HALKA 1 (Sudan)
+```
+🔴 **1797-10-17 en dikkat çekeni:** Venedik Cumhuriyeti'nin sonu, 29 yerleşim
+aynı gün Avusturya'ya geçiyor (Dalmaçya kıyısı, Herseknovi, Kotor, adalar) ve
+238 gün içinde açıklayan madde yok. Osmanlı sınırının hemen dibinde,
+kullanıcının defalarca ekran görüntüsü gönderdiği coğrafya.
+
+### 📌 ÖNERİ — "Değişmez 2b" adayı
+Bugünkü Değişmez 2'nin aynadaki eşi:
+> *Haritada rengi değiştiren her `s:→s:` geçişinin de ±30 gün içinde bir
+> maddesi olmalı.*
+
+⚠️ Ama **1.640 geçiş bir oturumda kapatılamaz** ve hepsi aynı önemde değil:
+%70'i HALKA 2-3 (Çin, Japonya, Hindistan) — `ONCELIK.md` gereği sıraları
+gelmedi. Halka 0-1'deki günler önce sayılmalı; o alt küme muhtemelen
+onlarca, binlerce değil.
+⇒ Ölçüm hazır, karar koordinatörün. **Ben tek satır bile yazmadım** —
+1.640 kalemlik bir borcu haber vermeden açmak, kapatmaktan kötü olurdu.
+
+## ③ Harkov için somut öneri (tek satır, borçsuz)
+`Poltava` aynı olayı **`1654-01-18`** ile yazıyor (Pereyaslav'ın günü),
+Harkov ise `1654-01-01` yer tutucusuyla. İkisi aynı olaydır.
+⇒ Harkov ve `Sloboda bozkırı` da `1654-01-18`e çekilebilir; `s:→s:` olduğu
+için **hiçbir borç doğurmaz**, yalnız tutarlılık kazandırır.
+⚠️ Kaydı `yerlesimler.js`te olduğu için Harkov'u ben değiştiremem; kendi
+noktamı koordinatörün kararına göre hizalarım.
+
+---
+---
+
+# PARTİ 8 — İDDİA DENETİMİ: "o tarihte madde var" ≠ "BU KAYDIN maddesi var"
+
+## Ölçüm hunisi — ve iki kez daralttım, ikisinde de kendi sayımı çürüttüm
+
+```
+kırılma toplam (d:/v: dönem ucu)                    2.346
+adı kronolojide hiç geçmiyor → HÜKÜM VERİLEMEZ        831   ← atlandı
+✓ kendi maddesine ±30 günde yapışmış                  956
+kendi maddesi 1 YILDAN uzak → başka olay              510   ← atlandı
+🔴 KARAMAN DESENİ (30 gün < mesafe ≤ 1 yıl)             35
+```
+
+🔴 **İLK ÖLÇÜMÜM %56 DEDİ VE YANLIŞTI.** Ham test ("madde bu kaydı anmıyor")
+1.313 vaka verdi. Listeye bakınca çürüdü: `1805-07-03 "Mısır valiliği fermanı"`
+96 Mısır yerleşimini birden kapsıyor ve **doğal olarak her köyü anmıyor.**
+Eyalet çapındaki maddeyi kusur saymak ölçümü çürütür.
+
+🔴 **İKİNCİ ÖLÇÜM DE YANLIŞTI.** "Adını anan madde var mı" testi bu sefer
+`Annaba — kendi maddesi 58.863 gün ötede` gibi satırlar üretti. 161 yıl
+ötedeki bir madde **başka bir olaydır**, yanlış yapışma delili değil.
+⇒ Pencere Karaman'ın kendi imzasına daraltıldı: **mesafe 30 gün ile 1 yıl
+arasında** olmalı (Karaman'da 91 gündü).
+
+📌 Üç ölçümün üçü de aynı veriden çıktı; fark, **soruyu doğru sormaktı.**
+
+## 🔴 EN GÜÇLÜ VAKALAR — madde konusu tamamen başka
+
+| kırılma | kayıt | yapıştığı madde | kendi maddesi |
+|---|---|---|---|
+| **1833-06-30** | **Karaman · Konya · Kütahya** | 1833-07-08 Hünkâr İskelesi Antlaşması | Kütahya 47 gün |
+| **1517-05-01** | Mardin | 1517-04-18 Portekiz donanmasının Cidde'ye saldırısı | 365 gün |
+| **1687-09-29** | Ösek (Osijek) | 1687-09-26 Atina'nın kaybı ve Parthenon patlaması | 233 gün |
+| **1918-12-01** | Batum | 1918-11-13 İtilâf donanmasının İstanbul önlerine gelişi | 231 gün |
+| **1912-11-01** | Tekirdağ · İmroz | 1912-11-03 Edirne kuşatması başladı | 262 / 365 gün |
+| **1912-11-11** | Sakız | 1912-11-03 Edirne kuşatması başladı | 117 gün |
+| **1656-08-21** | Limni | 1656-09-15 Köprülü Mehmed Paşa'nın sadrazamlığı | 39 gün |
+| **1687-08-01** | Mora (Tripoliçe) | 1687-08-12 İkinci Mohaç bozgunu | 31 gün |
+
+🔴 **1833-06-30 en net vaka ve Karaman'ın birebir tekrarı:** Karaman, Konya ve
+Kütahya kayıtları **Hünkâr İskelesi Antlaşması'na** yapışmış. Oysa o üç yerin
+Mısır işgalinden çıkışını anlatan olay **Kütahya Antlaşması'dır** (14 Mayıs
+1833) ve Kütahya'nın kendi maddesi 47 gün ötede duruyor. Üç kayıt, yanlış
+antlaşmanın altında el değiştiriyor.
+
+## ⚠️ VE 35'İN HEPSİ KUSUR DEĞİL — sınıflandırma elle yapılmalı
+
+Kalan vakaların bir kısmı **meşru**: madde doğru olay ama yerleşimin adını
+saymıyor. Ölçtüm, örnekler:
+```
+1453-05-29  Boğaziçi (Rumeli yakası) ← "İstanbul'un Fethi"        ✓ doğru madde
+1774-07-21  Hotin                    ← "Küçük Kaynarca"           ✓
+1878-07-13  Eski Zağra               ← "Berlin Antlaşması"        ✓
+1570-09-09  Tuzla (Larnaka)          ← "Lefkoşa'nın fethi"        ✓ aynı sefer
+1913-05-30  Dimetoka                 ← "Londra Antlaşması"        ✓
+1402-07-28  (4 kayıt)                ← "Ankara Savaşı — Fetret"   ✓
+```
+⇒ Kaba tasnifle **35 vakanın ~8-10'u gerçek kusur**, kalanı meşru kapsayıcı
+madde. Otomatik test bu ayrımı YAPAMAZ — makinenin işi listeyi 2.346'dan
+35'e indirmek, hükmü insan verir.
+
+## 📌 `denetle_iddia.py` İÇİN ÖLÇÜT ÖNERİSİ
+```
+① kaydın adını anan bir madde kronolojide VAR MI?      yoksa → hüküm yok
+② o madde kırılmaya ±30 günde mi?                       evetse → temiz
+③ değilse, mesafe 30 gün-1 yıl arasında mı?             hayırsa → başka olay
+④ ve kırılma gününde BAŞKA bir madde var mı?            varsa → 🔴 ADAY
+```
+Üçüncü şart olmadan liste 1.313'e, birincisi olmadan 831 ölçülemez kayda
+şişer. **Dört şartın dördü de gerekli** — her biri bir yanlış sayımı kesiyor.
+
+## Harkov sorusunun kapanışı
+`kirim → rusya` tek günde: 1585 (1) · **1654-01-01 (2: Harkov + benim
+kopyam)** · 1739 (1) · 1774 (1) · 1783-04-19 (10, Kırım ilhakı) ·
+1829-09-14 (3, Edirne). ⇒ Harkov yalnız, Karaman deseni **yok**. Ama
+`1654-01-01` gününün kendi maddesi de yok (Pereyaslav kronolojide eksik —
+PARTİ 7).
+
+---
+---
+
+# PARTİ 9 — 32 vakanın tasnifi + Halka 0-1 alt kümesi
+
+## ① `Sloboda bozkırı` hizalandı — `1654-01-01` → **`1654-01-18`**
+`Poltava` Pereyaslav'ın gerçek gününü zaten taşıyor; aynı olay iki farklı gün
+olamaz. `s:→s:` geçişi olduğu için hiçbir borç doğmadı. Dosya sekiz kontrolden
+temiz geçti. (Harkov Oturum 0'da.)
+
+## ② HALKA 0-1 ALT KÜMESİ SAYILDI — 1.640 değil **586**
+
+```
+BÜTÜN KUTU         494 gün · 1.640 geçiş
+HALKA 0-1          165 gün ·   586 geçiş   (%36)
+HALKA 0 çekirdek    49 gün ·   235 geçiş   (%14)
+```
+📌 Halka 0-1'in 165 gününün **92'si tek geçişlik**, 73'ü çoklu — yani liste
+"165 madde" değil, birkaç büyük olay + uzun bir kuyruk.
+
+### Halka 0-1'in en kalabalık on günü
+```
+1452-01-01  41  timurlu→karakoyunlu     243g
+1411-01-01  34  celayirli→karakoyunlu    47g
+1797-10-17  29  venedik→avusturya       238g   ← 🔴 koordinatörün önceliği
+1861-03-17  19  sardinya→italya          75g
+1507-05-24  19  timurlu→iran            143g
+1504-01-01  17  nube→funj               365g
+1861-02-13  16  napoli→italya           107g
+1516-01-23  15  almanya→ispanya          99g
+1297-01-01  14  bizans→karesi           730g
+1335-01-01  13  ilhanli→eretna          334g
+```
+
+## ③ 32 VAKANIN TASNİFİ — tahmin "8-10"du, ölçüm **12**
+
+```
+🔴 GERÇEK KUSUR    12 kayıt ·  9 gün
+🟢 KAPSAYICI MADDE 17 kayıt
+🟡 KARARSIZ         3 kayıt
+```
+
+### 🔴 GERÇEK KUSUR — madde kırılmayı AÇIKLAMIYOR
+
+| kırılma | kayıt | yapıştığı madde | olması gereken |
+|---|---|---|---|
+| 1833-06-30 | **Karaman · Konya · Kütahya** | Hünkâr İskelesi Antlaşması | **1833-05-14 Kütahya Sözleşmesi** (47g) |
+| 1656-08-21 | **Limni** | Köprülü'nün sadrazamlığı | **1656-07-13 "Bozcaada ile Limni'nin kaybı"** (39g) |
+| 1687-08-01 | Mora (Tripoliçe) | İkinci Mohaç bozgunu (Macaristan) | Mora cephesi maddesi |
+| 1687-09-29 | Ösek (Osijek) | Atina'nın kaybı ve Parthenon patlaması | Ösek'in kendi maddesi yok |
+| 1837-10-13 | Konstantin | Cebel-i Dürûz ayaklanması (Suriye) | Konstantin'in işgali maddesi yok |
+| 1912-11-01 | Tekirdağ · İmroz | Edirne kuşatması başladı | kendi kayıp maddeleri yok |
+| 1912-11-11 | Sakız | Edirne kuşatması başladı | Sakız'ın Yunanistan'a geçişi |
+| 1918-12-01 | Batum | İtilâf donanmasının İstanbul'a gelişi | Batum'un 1918 kaybı |
+| 1517-05-01 | Mardin | Portekiz'in Cidde saldırısı | ⚠️ çelişki, aşağıda |
+
+🔴 **İKİ VAKA ÖZELLİKLE AĞIR, çünkü DOĞRU MADDE ZATEN VAR:**
+- **Limni** — kronolojide `1656-07-13 "Çanakkale bozgunu ve Bozcaada ile
+  Limni'nin kaybı"` maddesi **adıyla duruyor**, ama kayıt 39 gün sonraki
+  sadrazam atamasına yapışmış. Düzeltme: kırılmayı `1656-07-13`e çek.
+- **1833 üçlüsü** — `1833-05-14 "Kütahya Sözleşmesi — Suriye ve Adana
+  Kavalalı'ya"` maddesi var. Harita, Mehmed Ali'nin Anadolu'dan çekilişini
+  **Rusya ile yapılan** Hünkâr İskelesi'ne bağlıyor: yanlış olmakla kalmıyor,
+  **yanlış hikâye anlatıyor.**
+
+⚠️ **MARDİN AYRI BİR SINIF — çelişki, yapışma değil.** Kayıt `d:1517-05-01`,
+ama kronolojideki kendi maddesi `1516-05-01 "Koçhisar Savaşı ve Mardin ile
+Urfa'nın fethi"` diyor: **tam bir yıl fark.** Hangisinin doğru olduğunu
+belirlemek kaynak işi (kale 1517'ye kadar direndi mi?) — bu ölçüm yalnız
+çelişkiyi gösteriyor, hükmü vermiyor.
+
+### 🟢 KAPSAYICI MADDE — 17 kayıt, düzeltme YOK
+```
+1402-07-28 (4) Akşehir·Ayasuluk·Kemah·Tire ← "Ankara Savaşı — Fetret Devri"
+1517-04-13 (3) Bahriye·Kına·Tahtâ          ← "Memlük Devleti'nin sonu"
+1805-07-03 (2) Esna·Tûr                    ← "Mısır valiliği fermanı"
+1912-10-18 (2) Derne·Tobruk                ← "Uşi Antlaşması"
+1453-05-29 (1) Boğaziçi (Rumeli yakası)    ← "İstanbul'un Fethi"
+1570-09-09 (1) Tuzla (Larnaka)             ← "Lefkoşa'nın fethi" (aynı sefer)
+1774-07-21 (1) Hotin                       ← "Küçük Kaynarca"
+1878-07-13 (1) Eski Zağra                  ← "Berlin Antlaşması"
+1913-05-30 (1) Dimetoka                    ← "Londra Antlaşması"
+1456-06-01 (1) Kili                        ← "Boğdan'ın haraca bağlanışı"
+```
+
+### 🟡 KARARSIZ — 3 kayıt, doğru olay ailesi ama adı geçmiyor
+```
+1912-10-24 Kırklareli ← "Şark Ordusu'nun bozgunu… Kumanova ve Selânik'in kaybı"
+1913-06-28 Kavala     ← "II. Balkan Savaşı'nın başlaması"
+1913-07-14 Gümülcine  ← "Edirne'nin geri alınışı"
+```
+Üçü de aynı savaşın içinde ama madde başka şehri anıyor. Kırklareli'nin
+düşüşü (24 Ekim 1912) kendi adıyla anılmayı hak ediyor olabilir — hüküm
+Oturum 0'ın.
+
+## 📌 Ölçütün doğrulanması
+Koordinatörün önerdiği ayrım (*"madde kırılmayı AÇIKLIYOR mu"*) 32 vakanın
+tamamında işledi ve makine ile insan arasındaki sınırı tam yerine koydu:
+**makine 2.346'yı 32'ye indirdi, tasnifi insan yaptı.**
+
+---
+---
+---
+
+# 🔴 ÖLÇÜLMÜŞ SABİTLER — 3 Ağustos 2026, PETEK/NOKTA
+
+> **Bu bölüm yeniden ölçülmesin.** Yukarıdaki parti anlatıları *nasıl*
+> ölçüldüğünü anlatır; burası *ne* ölçüldüğünü verir. Her satır o gün
+> çalıştırılmış bir betiğin çıktısıdır, tahmin değildir.
+> Yöntem: `veri-kaynak/motor_kara.geojson` 0,25° ızgarayla örneklenir
+> (108.860 kara hücresi · 65.473.808 km²), her örnek için en yakın yerleşim
+> ve o yerleşimin o tarihteki sahibi hesaplanır.
+
+## ① PETEK GEOMETRİSİ — motorun davranışı sayıya döküldü
+
+```
+bir SAHİPSİZ dolgu noktası           46.000 - 54.000 km² döndürür
+   ölçülen değerler:  Rutbe 53.913 · Hamâd kuzeyi 49.774 · kutu merkezi
+   46.121 · Hamâd güneyi 33.414 · Libya merkezi 38.921
+   ⚠️ Bölgede zaten dolgu varsa marjinal kazanç düşer (Libya %13,9 ↔ Hamâd %21,7)
+
+emilme yarıçapı (çölde)              ortalama 104 - 121 km · en uzak 268 km
+   Hamâd 121 km · Libya iç çölü 104 km
+
+tahmin ↔ gerçekleşme sapması         1 km² (öngörü 53.913 → gerçek 53.912)
+   ⇒ ölçüm aracının kendisi doğrulandı
+```
+
+## ② SEYREKLİK — nokta başına alan
+
+```
+Kırım yarımadası      29.940 km²   3 → 12 nokta    9.980 → 2.495 km²/nokta
+Batı Anadolu (ref.)   93.839 km²      35 nokta              2.681 km²/nokta
+⇒ 12 noktalı Kırım, Batı Anadolu'dan bir tık DAHA SIK
+
+🔴 Görev tanımındaki "11 KAT SEYREK" ölçülünce tutmadı: 3,7× idi.
+   Sebep: iki farklı taban (70.868 km² yarımadanın karası DEĞİL, üç noktanın
+   petek alanı). Tek yöntemle ölçülünce fark küçüldü, hüküm değişmedi.
+
+kutu içi kara toplam           65.473.808 km²
+uzaklık dağılımı (alanca)      0-25 km %3,7 · 25-50 %8,1 · 50-100 %16,6
+                               100-200 %24,2 · 200-400 %17,6 · 400+ %29,8
+seyreklik listesinin başı      261 km (1588 nokta) → 171 km (1619 nokta)
+```
+
+### Nokta eklemenin ölçülmüş etkisi (şikâyet noktalarında, 2. en yakın)
+```
+p5/H-0007 çöl yıldızı      268 → 87 km      p5/H-0009 Hicaz kaması  310 → 94 km
+Hazar kuzeyi               185 → 37 km      Saraybosna              49 → 23 km
+Gümülcine                   72 → 43 km      Dubrovnik               43 → 22 km
+Biga KD                     33 → 25 km      Sloboda (hücre 13)     115 → 67 km
+Kırım kuzeyi               137 → 32 km      Azak kuzeyi            184 → 19 km
+```
+
+## ③ SAHİPLİK — "hiçbir şey yapmamak" ne demek
+
+```
+Hamâd (Bâdiyetü'ş-Şâm)  248.342 km²   1600'de %74 OSMANLI  → dolguyla %52
+Libya iç çölü           279.356 km²   1600'de %64 OSMANLI  (3 dolgu zaten var)
+Zaporojye Seçi gövdesi   33.669 km²   `zaporojye` kimliğinin İLK gövdesi
+```
+🔴 **Motor boşluğu komşunun kimliğiyle doldurur ⇒ her ölçülmemiş boşluk
+sessizce verilmiş bir karardır.** Hamâd'da 182.881 km² için "Osmanlı
+bâdiyesi" hükmü, kimse vermeden zaten yürürlükteydi.
+
+## ④ DENETİM KÖRLÜKLERİ — üç tane ölçüldü
+
+```
+🔴 s:→s: GEÇİŞLERİ (yabancıdan yabancıya — harita rengi değişir)
+   3.384 geçiş · 717 gün
+   ±30 günde maddesi YOK:  494 gün · 1.640 geçiş   → %48
+   ├─ HALKA 0-1:           165 gün ·   586 geçiş   → %36   ← kapatılabilir
+   ├─ HALKA 0 çekirdek:     49 gün ·   235 geçiş   → %14
+   └─ 165 günün 92'si TEK geçişlik (liste ≠ 165 madde)
+   KARŞILAŞTIRMA — d:/v: kırılması (Değişmez 2'nin baktığı):
+   496 gün · maddesiz 0 → %0
+   ⇒ denetlenen sınıf kusursuz, denetlenmeyenin yarısı boşta
+   📌 `denetle.py` bunu `2s` ile görüyor ama sayı kuyruk dosyalarına bölünmüş
+      (asya 366 · avrupa 83 · ortaasya2 6 · ek3 5); TEK TOPLAM hiçbir çıktıda yok.
+
+🔴 İDDİA DENETİMİ ("o tarihte madde var" ≠ "BU KAYDIN maddesi var")
+   2.346 kırılma
+   ├─  831 adı kronolojide geçmiyor → HÜKÜM VERİLEMEZ
+   ├─  956 kendi maddesine ±30 günde yapışmış → temiz
+   ├─  510 kendi maddesi 1 yıldan uzak → başka olay
+   └─   32 ADAY  →  12 GERÇEK KUSUR · 17 kapsayıcı madde · 3 kararsız
+   ⚠️ Ham test %56 (1.313) veriyordu ve YANLIŞTI — eyalet çapındaki madde
+      (Mısır valiliği fermanı, 96 yerleşim) her köyü anmaz.
+
+🔴 HAYALET DEVLET (CLAUDE.md §3.5) — künye ile veri çelişkisi
+   `devletler.js` ömür penceresi bir DENETİM işlevi görüyor: Theodoro
+   1349-1475, yani 1281'den `teodoro` yazmak devleti DOĞMADAN boyamak olurdu.
+```
+
+## ⑤ ŞEMA SINIRLARI — ölçülmüş, tasarım kararı bekliyor
+
+```
+kasitli_bosluk:  motor etkisi SIFIR   (`_kusatilmis` yalnız kur:/bit: taşıyan
+                 noktalara bakıyor; 7/7 noktada ikisi de yok)
+                 rapor etkisi 18 açık iş → 0
+                 ⇒ yalnız DÖNEMİ OLAN dolgular için gerekli; kalıcı sahipsiz
+                   olanı `denetle_bosluk.py`nin ilk süzgeci zaten yakalıyor
+neden:           `denetle_bosluk.py:270` OKUYOR ama `girdi.py` BILINEN_ALANLAR'da
+                 YOK → her yüklemede uyarı. Tek satırlık kayıt borcu.
+m: alanı         zaman boyutu YOK ⇒ 1475 sonrası kurulan bir sancak, 1281'den
+                 beri varmış gibi iddia ediyor. İki farklı çare ölçüldü:
+                 Karabiga → gerçek merkezi yaz (zinciri aynıysa çözer)
+                 Mankup   → alanı BOŞ bırak (aynı zincirli merkez yoksa)
+                 İkisi de `kd:` alanı gelene kadar geçici.
+ad çakışması     `girdi.py` `yukle()` aynı adı iki dosyada görünce ValueError
+                 ⇒ bağlı bir kaydın düzeltilmiş kopyası AYRI DOSYAYA YAZILAMAZ
+```
+
+## ⑥ ÖLÇÜM DİSİPLİNİ — bugün altı kez kendi hükmümü düzelttim
+
+```
+① Saroz "veri hatası" dedim → SEYREKLİK çıktı (50 km'deki 7 noktanın çoğu
+   yarımadanın üstündeydi; asıl boşluk Bolayır↔Keşan 36 km)
+② "görsel pahalıdır" diye açmadım → metinde konum YOKMUŞ; iki görsel
+   itirazımın yarısını düşürdü
+③ 30K 22D'yi "KASTEN BOŞ" etiketledim → ölçüm AÇ dedi (dolgu 400 km batıda)
+④ s:→s: maddesizliği %56 ölçtüm → eyalet maddeleri düşünce %48'e indi
+⑤ "kendi maddesi var" testi 58.863 gün ötedeki maddeyi delil saydı → pencere
+   Karaman'ın imzasına (30 gün-1 yıl) daraltıldı, 1.313 → 32
+⑥ "8-10 gerçek kusur" tahmin ettim → 12 çıktı
+```
+
+### Kurala dönüşen dersler
+```
+· sınıfı ADDAN değil ÖLÇÜMDEN oku
+· "görsel pahalıdır" ≠ "görsel gereksizdir" — metinde konum yoksa görsel TEK kaynak
+· hiçbir şey yapmamak TARAFSIZ DEĞİL — motor boşluğu komşuyla doldurur
+· kasten boş bölgeye nokta EKLENMEZ değil: kasten boş bölgeye SAHİPSİZ nokta EKLENİR
+· olmayan bir kırılma yazmak, olanı atlamak kadar zararlıdır
+· kimlik VAR ≠ coğrafyası TUTUYOR ("engel kalkmadı, DEĞİŞTİ")
+· makine listeyi indirir, hükmü insan verir
+· erişilemeyen esere atıf yazmaktansa adayı ATLA — negatif sonuç da sonuçtur
+```
+
+## ⑦ AÇIK KALAN — kaynak ya da kimlik bekliyor
+
+```
+Kamengrad · Zenitsa · Prusac · Sanski Most   TDV'de madde YOK      → p3/H-0012
+Marmara Adası                                üç kaynak yolu kapalı → p3/H-0014
+Saroz (Bolayır↔Keşan 36 km)                  Bizans noktası yok    → p2/H-0014
+Don Kazak Ordası kimliği                     hücre 8 · 10          → VERİ KİMLİK
+Mardin 1516 mı 1517 mi                       bir yıl çelişki       → ÇAPRAZ
+Hamâd'ın 1517-1557 penceresi (Kızıldeniz)    sahibi yazılmalı      → §3.5.1
 ```

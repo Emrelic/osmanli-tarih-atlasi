@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Osmanlı Tarih Atlası (1281–1923)</title>
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
-<link rel="stylesheet" href="css/style.css?v=r690">
+<link rel="stylesheet" href="css/style.css?v=r724">
 </head>
 <body>
 <header id="ustbar">
@@ -170,24 +170,26 @@
 </div>
 
 <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
-<script src="data/padisahlar.js?v=r690"></script>
-<script src="data/olaylar.js?v=r690"></script>
-<script src="data/olaylar_ek.js?v=r690"></script>
-<script src="data/olaylar_ek2.js?v=r690"></script>
-<script src="data/olaylar_ek3.js?v=r690"></script>
-<script src="data/olaylar_ek4.js?v=r690"></script>
-<script src="data/olaylar_ek5.js?v=r690"></script>
-<script src="data/olaylar_ek6.js?v=r690"></script>
-<script src="data/olaylar_ek7.js?v=r690"></script>
-<script src="data/olaylar_ek8.js?v=r690"></script>
-<script src="data/olaylar_ek9.js?v=r690"></script>
-<script src="data/olaylar_ek10.js?v=r690"></script>
-<script src="data/olaylar_ek11.js?v=r690"></script>
+<script src="data/padisahlar.js?v=r724"></script>
+<script src="data/olaylar.js?v=r724"></script>
+<script src="data/olaylar_ek.js?v=r724"></script>
+<script src="data/olaylar_ek2.js?v=r724"></script>
+<script src="data/olaylar_ek3.js?v=r724"></script>
+<script src="data/olaylar_ek4.js?v=r724"></script>
+<script src="data/olaylar_ek5.js?v=r724"></script>
+<script src="data/olaylar_ek6.js?v=r724"></script>
+<script src="data/olaylar_ek7.js?v=r724"></script>
+<script src="data/olaylar_ek8.js?v=r724"></script>
+<script src="data/olaylar_ek9.js?v=r724"></script>
+<script src="data/olaylar_ek10.js?v=r724"></script>
+<script src="data/olaylar_ek11.js?v=r724"></script>
+<script src="data/olaylar_ek12.js?v=r724"></script>
+<script src="data/olaylar_ek13.js?v=r724"></script>
 <!-- hatalar 8.docx madde 1: antlasmalarda taralı devir alanları. Uretici: arac/uret_devirler.py -->
-<script src="data/devirler.js?v=r690"></script>
-<script src="data/devletler.js?v=r690"></script>
-<script src="data/kisiler.js?v=r690"></script>
-<script src="data/savaslar.js?v=r690"></script>
+<script src="data/devirler.js?v=r724"></script>
+<script src="data/devletler.js?v=r724"></script>
+<script src="data/kisiler.js?v=r724"></script>
+<script src="data/savaslar.js?v=r724"></script>
 <!-- YERLESIM PARTILERI - hepsi yuklenir ve TEK diziye birlestirilir.
      2 Agustos 2026: kutu acildiginda 789 nokta (afrika 186 - asya 344 -
      avrupa 237 - ek 15 - ortaasya2 7) TOPRAGI CIZILIYOR ama ADI GORUNMUYORDU
@@ -197,16 +199,16 @@
      denetle_yayin.py bunu 40 ("uretiliyor ama cizilmiyor") diye YAKALADI -
      ve muaf listesindeki gerekce ("app.js ham noktayi okumaz") CURUKTU.
      Bedel olculdu: gzip +0,09 MB. -->
-<script src="data/yerlesimler.js?v=r690"></script>
-<script src="data/yerlesimler_afrika.js?v=r690"></script>
-<script src="data/yerlesimler_avrupa.js?v=r690"></script>
-<script src="data/yerlesimler_asya.js?v=r690"></script>
-<script src="data/yerlesimler_ek.js?v=r690"></script>
-<script src="data/yerlesimler_ortaasya2.js?v=r690"></script>
-<script src="data/yerlesimler_kirim.js?v=r690"></script>
-<script src="data/yerlesimler_seyrek.js?v=r690"></script>
-<script src="data/yerlesimler_ek2.js?v=r690"></script>
-<script src="data/yerlesimler_ek3.js?v=r690"></script>
+<script src="data/yerlesimler.js?v=r724"></script>
+<script src="data/yerlesimler_afrika.js?v=r724"></script>
+<script src="data/yerlesimler_avrupa.js?v=r724"></script>
+<script src="data/yerlesimler_asya.js?v=r724"></script>
+<script src="data/yerlesimler_ek.js?v=r724"></script>
+<script src="data/yerlesimler_ortaasya2.js?v=r724"></script>
+<script src="data/yerlesimler_kirim.js?v=r724"></script>
+<script src="data/yerlesimler_seyrek.js?v=r724"></script>
+<script src="data/yerlesimler_ek2.js?v=r724"></script>
+<script src="data/yerlesimler_ek3.js?v=r724"></script>
 <script>
   // Parti dosyalari KENDI kuresel degiskenlerini tanimliyor; app.js yalniz
   // window.YERLESIMLER okuyor. Birlestirme burada, TEK yerde yapilir --
@@ -222,20 +224,20 @@
     .concat(window.YERLESIMLER_EK2 || [])
     .concat(window.YERLESIMLER_EK3 || []);
 </script>
-<script src="data/bolgeler.js?v=r690"></script>
-<script src="data/devletler_harita.js?v=r690"></script>
-<script src="data/sehirler.js?v=r690"></script>
-<script src="data/donemler.js?v=r690"></script>
-<script src="data/altlik.js?v=r690"></script>
+<script src="data/bolgeler.js?v=r724"></script>
+<script src="data/devletler_harita.js?v=r724"></script>
+<script src="data/sehirler.js?v=r724"></script>
+<script src="data/donemler.js?v=r724"></script>
+<script src="data/altlik.js?v=r724"></script>
 <!-- BEKLEYENLER.md'den uretilir; elle duzenlenmez. -->
-<script src="data/bekleyenler.js?v=r690"></script>
-<script src="js/suzgec.js?v=r690"></script>
+<script src="data/bekleyenler.js?v=r724"></script>
+<script src="js/suzgec.js?v=r724"></script>
 <!-- ⚠️ zaman.js BU SATIR OLMADAN HİÇ YÜKLENMİYORDU. Dosya vardı, app.js onu
      `window.ZAMAN` üzerinden çağırıyordu ama script etiketi eksikti; sonuç:
      window.ZAMAN tanımsız, `obTazele()` daha ilk satırında geri dönüyor ve
      detay panelinin tarihle birlikte ilerlemesi (bir kullanıcı şikâyeti üzerine
      yazılmıştı) fiilen hiç çalışmıyordu. app.js'ten ÖNCE yüklenmeli. -->
-<script src="js/zaman.js?v=r690"></script>
-<script src="js/app.js?v=r690"></script>
+<script src="js/zaman.js?v=r724"></script>
+<script src="js/app.js?v=r724"></script>
 </body>
 </html>

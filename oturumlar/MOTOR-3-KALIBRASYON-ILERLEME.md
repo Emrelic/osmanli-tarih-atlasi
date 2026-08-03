@@ -376,6 +376,33 @@ düzeltmeyi teklif ediyor.
 ÜSTÜNDE" diyorsa `BOZUK_KIYI_TABAN` o sayıya çekilir ve gerekçesi buraya
 yazılır. "✓" diyorsa 57 doğrulanmış demektir.
 
+### 🔴 İLK KOŞU CEVAP VERDİ — 57 YANLIŞTI, DOĞRUSU 48
+
+`kosu3.log`, 12:49:39:
+```
+çöl tavanı ÖNCESİ örtü: 48 bozuk kenar (taban 57) ✓
+    — ⚠️ TABAN GEVŞEK, BOZUK_KIYI_TABAN = 48 yapılmalı
+```
+
+**Türettiğim 57 sayısı %19 yüksekti** ve alt dal onu ilk koşuda yakaladı.
+Sebep, "türetilmiş sayı" uyarısında yazdığım şeyin ta kendisi: 57'yi çöl
+tavanı SONRASI çıktıyı sınıflandırarak bulmuştum, nöbetçi ise tavandan ÖNCE
+duruyor. Aradaki 9 kenar, "kıyı" gibi görünen ama aslında tavanın açtığı
+kenarlarmış — yani çöl tavanının payı 73 değil **82.**
+
+📌 Ve 82, çöl tavanının kısalttığı petek sayısıyla (koşu 1: *"82 petek
+kısaldı"*) birebir aynı. Kısalan her petek bir bozuk kenar bildiriyor —
+mekanizma açıklaması bağımsız bir yerden daha doğrulandı.
+
+🔴 **Ders, sayının kendisinden önemli:** tek yönlü bir nöbetçi bu koşuda
+sessiz "✓" basar, taban 57'de kalır ve **kimse yanıldığımı öğrenmezdi.**
+Ölçüt gevşek kaldığı sürece 48 ile 57 arasındaki her gerçek regresyon
+görünmez olurdu. Çift yönlü nöbetçiyi koymanın bedeli üç satırdı.
+
+⏳ **YAPILACAK — koşu bitince:** `BOZUK_KIYI_TABAN = 57` → `48`.
+⚠️ **ŞİMDİ YAPILAMAZ:** `motor_izi_dogrula` koşu sırasında `uret_petek.py`
+değişirse çıktı yazılmadan koşuyu öldürür. Kod koşu bitene kadar kilitli.
+
 ## 🔴 YOL ÜSTÜNDE BULUNAN, BENİM İŞİM OLMAYAN
 
 `kuşatılmışlık devri` listesinde **44 ad `✗ BEKLENMEDİK — İNCELE`** basıyor

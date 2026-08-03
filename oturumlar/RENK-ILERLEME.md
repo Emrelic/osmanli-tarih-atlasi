@@ -626,6 +626,486 @@ göre kur.** "Yeterince geniş" bir tahmindir; kilitli kutu bir ölçüdür.
 
 ---
 
+## 4d. ✅ ERTELENMİŞ DOĞRULAMA KOŞTU VE GEÇTİ
+
+Kabul ölçütü şöyle kurulmuştu:
+```
+ŞİMDİ    geçici zarfla doğrulandı — scratchpad
+SONRA    🔴 KUTU AÇILDIKTAN SONRA renk_olc.py ile YENİDEN doğrulanacak
+```
+**Koştu.** `BOLGE` açıldı, `KUTU` onu izledi:
+
+```
+renk_olc.KUTU  = (-25.0, -17.5, 159.0, 74.0)   ← teyit ettiğim kilitli kutunun AYNISI
+canlı veri     = 1615 nokta · lon -9,70..141,35 · lat -10,18..63,43
+ZARF DIŞINDA   = 0 nokta                        ← Kupang dahil, artık içeride
+```
+
+### Sonuç — gerçek araçla, gerçek zarfla, tam veriyle
+
+| küme | kimlik | komşuluğu ölçülen | çakışma | görünmez |
+|---|---|---|---|---|
+| 37 Asya | 37 | **37** | **0** | **0** |
+| 26 öteki (15 Avrupa + `zaporojye` + 10 düzeltilen) | 26 | 25 | **0** | **0** |
+
+`zaporojye`nin komşuluğu hâlâ ölçülemiyor — beklenen: `d:"zaporojye"` 0 kayıt,
+zaten *"① eksik, gövde beklenmiyor"* diye işaretlenmişti.
+
+📌 **Geçici zarfla yapılan ölçüm doğrulandı.** Kupang kusuru sonucu
+değiştirmemişti — bunu o gün ölçmüştüm, bugün gerçek araç onayladı.
+📌 Ve `ÖLÇÜLEMEDİ` sayısı **113 → 4**: Asya canlıya alınınca 37 kimlik
+ölçülebilir hâle geldi ve hepsi temiz çıktı.
+
+## 4e. YENİ 59 KİMLİK (VERİ KİMLİK 3) — ölçüldü, İŞ YOK
+
+🔒 Üretim koşusu sırasında istendi; `arac/renkler.py` KİLİTLİ olduğu için
+yalnız ÖLÇÜLDÜ, yazılmadı.
+
+```
+BOYALAR 167 → 226 kimlik · 125 → 184 farklı hex   ⇒ 59 yeni kimlik, 59 YENİ HEX
+  altlıktan ayrışmayan (<15) : 0
+  komşusuyla çakışan  (<12) : 0
+  hex çarpışması            : 0
+  komşusu ölçülemeyen       : 0/59
+```
+⇒ **Kilit kalkınca uygulanacak düzeltme YOK.** Beklenen çakışma tablosu boş.
+
+📌 Not: bu 59 kimlik her birine **yeni hex** almış (palet 125→184). Benim
+53 kimliğim **sıfır yeni hex** ile girmişti. İki yaklaşım da meşru — ama
+palet 184 hex'e çıktığı için kutu daraldı; bundan sonraki partilerde
+karşılıklı eşik tavanının düşeceğini beklemek gerekir (*tavan kimlik
+sayısıyla düşer* — §2b'de ölçülmüştü).
+
+### Ve merge YENİ çakışma doğurmadı
+
+Veri 1235 → 1615 noktaya çıktı. Kendi dersim bunu sormayı gerektiriyordu
+(*renk kararı verinin bir fonksiyonudur; `hollanda↔ispanya` hiçbir renk
+değişmeden doğmuştu*). Ölçüldü:
+```
+görünmez 10 → 10 · çakışma 56 → 56 · aynı-hex 0 → 0
+```
+Bu sefer merge sessiz bir çakışma üretmedi.
+
+---
+
+## 6. RENK DUVARI — ölçüldü, ve beklediğim yerde DEĞİLDİ
+
+🔒 Üretim koşusu sırasında, `arac/` kilitliyken yalnız **ölçüldü.**
+
+### ① Duvar iki ayrı şey — karıştırılmamalı
+
+```
+A) PAKETLEME ARZI — kabul bölgesine karşılıklı ΔE≥12 kaç renk sığar?
+     palet kutusu içinde (L* 63,5-80,8 · C* 4,9-33)      38 renk
+     tam gamut (yalnız altlık≥15 + kırmızı yasağı)       73 renk
+     kırmızı yasağı da kalksa                            74 renk
+
+B) KROMATİK TALEP — bugünkü komşuluk çizgesi kaç AYRI renk istiyor?
+     226 kimlik · 1.222 kenar · en yüksek derece 69 (ingiltere)
+     DSATUR: 7   ·   en büyük klik: 7      ⇒ 7 KESİN (alt sınır = üst sınır)
+```
+
+⇒ **Kullanılan kapasite: %18,4** (kutu) · **%9,6** (tam gamut).
+
+### 🔴 Görünürdeki çelişki ve çözümü
+
+Paketleme duvarı **38** diyor ama palet **184 hex** kullanıyor. Çelişki değil:
+**184 hex birbirinden ≥12 DEĞİL.** Yalnız *komşu oldukları yerde* ayrışıyorlar.
+Dosya başındaki kural zaten bunu söylüyordu — *"hex tekrarı hata değil,
+KOMŞULUK hatadır"* — ama sayı bunu ilk kez görünür yaptı: palet, 38 kapasiteli
+bir kutuda 184 renk taşıyor ve bu **ancak paylaşım sayesinde** mümkün.
+
+### 🔴 ASIL DUVAR: UYUYAN ÇATIŞMALAR
+
+```
+226 kimlik · 25.425 olası çift · 1.222'si gerçekten komşu (yoğunluk %4,81)
+ΔE < 12 olan çift            : 2.682   (%10,5)
+  bunlardan KOMŞU olan       :    55   ← bugün görünen borç
+  bunlardan komşu OLMAYAN    : 2.627   ← UYUYAN
+```
+
+⇒ **Yeni bir komşuluk doğduğunda çakışma olasılığı ≈ %10,5.**
+Bugün gözlenen oran %4,5 (55/1.222) — coğrafya lehimize çalışıyor, ama
+palet yoğunlaştıkça %10,5 yükselir.
+
+📌 **`hollanda↔ispanya` bu 2.627'den biriydi.** Hiçbir renk değişmedi; merge
+onu uyandırdı. Duvar "renk biter" değil, **"her merge uyuyan bir çatışmayı
+uyandırabilir"**.
+
+### ⚠️ VE BU, KENDİ UYARIMI KISMEN GERİ ALIYOR
+
+Koordinatöre *"palet 184 hex'e çıktı, kutu daraldı, tavan düşecek"* demiştim.
+Ölçüm bunu **kısmen çürüttü:**
+- Doğru olan kısım: bir PARTİ içinde karşılıklı eşik tavanı kimlik sayısıyla
+  düşüyor (Avrupa 15 kimlikte 17 · 16'da 15) — bu ölçülmüştü ve geçerli.
+- **Yanlış olan kısım:** bunu genel büyüme sınırı gibi sundum. Değil.
+  Genel talep **klik büyüklüğüyle** belirleniyor ve klik 7'de duruyor —
+  114 kimlikte de, 226 kimlikte de. Yeni kimlikler grafiği **yoğunlaştırmıyor,
+  genişletiyor** (dosya başındaki 2026-07-30 ölçümü de aynısını demişti).
+
+⇒ Düzeltilmiş hüküm: **renk arzı darboğaz DEĞİL** (%18 kullanımda). Darboğaz,
+uyuyan çatışmaların oranı — ve onu düşürmenin yolu palet büyütmek değil,
+mevcut 2.682 yakın çifti seyreltmek.
+
+### Nokta duvarıyla yan yana
+
+MOTOR 3 nokta tarafını **~5.000** diye ölçtü. Renk tarafında talep 7, arz 38+.
+⇒ **Atlasın büyüme sınırı renk değil, NOKTA.**
+
+---
+
+## 7. BİLİNEN BORÇ — adlarıyla (koordinatör istedi)
+
+### 10 GÖRÜNMEZ — altlıktan ΔE < 15
+
+| ΔE | kimlik | hex | ad |
+|---|---|---|---|
+| 9,7 | `sovalye` | `#b0a08a` | St. Jean Şövalyeleri |
+| 12,2 | `atinadukaligi` | `#8a9e8a` | Atina Dukalığı |
+| 12,4 | `somali` | `#b5a06b` | Somali sultanlıkları |
+| 13,1 | `karadag` | `#9e8f6b` | Karadağ |
+| 13,8 | `romanya` | `#c9b56b` | Romanya |
+| 14,5 | `kazan` | `#c98f6b` | Kazan Hanlığı |
+| 14,6 | `adal` | `#a08f5b` | Adal / Harar |
+| 14,7 | `hicaz` | `#9e8a5b` | Hicaz Krallığı |
+| 14,8 | `sammar` | `#a0885b` | Şammar (Hâil) |
+| 15,0 | `yemen` | `#b5a05b` | Yemen İmamlığı |
+
+📌 Onunun da tonu **toprak/tan ailesinde** — bej altlığa en yakın aile. Bu
+tesadüf değil, **yapısal**: altlık `#e8dfc8` ve bu on renk onun komşuluğunda.
+
+### 55 ÇAKIŞMA — ΔE < 12, komşu çiftler
+
+En çok çakışmada olanlar (kimi oynatmak en çok kapatır):
+`altinorda` 6 · `adal` 5 · `habesistan` 5 · `memluk` 5 · `bizans` 5 ·
+`somali` 4 · `yemen` 4 · `ilhanli` 4
+
+| # | ΔE | a | b |
+|---|---|---|---|
+| 1 | 0,8 | `hicaz` | `sammar` |
+| 2 | 2,9 | `adal` | `somali` |
+| 3 | 3,3 | `karaman` | `kilikya-ermeni` |
+| 4 | 3,5 | `memluk` | `yemen` |
+| 5 | 3,6 | `funj` | `habesistan` |
+| 6 | 3,7 | `somali` | `yemen` |
+| 7 | 4,4 | `benihalid` | `suud` |
+| 8 | 4,7 | `adal` | `yemen` |
+| 9 | 4,7 | `bizans` | `ilhanli` |
+| 10 | 4,9 | `avusturya` | `romanya` |
+| 11 | 5,2 | `arnavutluk` | `napoli` |
+| 12 | 5,6 | `sirbistan` | `venedik` |
+| 13 | 5,7 | `habesistan` | `nube` |
+| 14 | 5,7 | `ceneviz` | `sardinya` |
+| 15 | 6,6 | `suud` | `yemen` |
+| 16 | 6,8 | `sirbistan` | `yunanistan` |
+| 17 | 6,9 | `adal` | `memluk` |
+| 18 | 7,1 | `bizans` | `candar` |
+| 19 | 7,3 | `memluk` | `teke` |
+| 20 | 7,4 | `gurcistan` | `karakoyunlu` |
+| 21 | 7,6 | `hamid` | `memluk` |
+| 22 | 7,6 | `artuklu` | `karakoyunlu` |
+| 23 | 7,7 | `hicaz` | `suud` |
+| 24 | 8,1 | `bizans` | `napoli` |
+| 25 | 8,2 | `altinorda` | `bizans` |
+| 26 | 8,2 | `bogdan` | `bulgaristan` |
+| 27 | 8,4 | `altinorda` | `lehistan` |
+| 28 | 8,5 | `eretna` | `taceddin` |
+| 29 | 8,6 | `sammar` | `suud` |
+| 30 | 8,6 | `milanoduka` | `toskana` |
+| 31 | 8,7 | `candar` | `germiyan` |
+| 32 | 8,7 | `altinorda` | `gurcistan` |
+| 33 | 8,7 | `hamid` | `teke` |
+| 34 | 8,9 | `candar` | `ilhanli` |
+| 35 | 9,0 | `ceneviz` | `kirim` |
+| 36 | 9,1 | `ceneviz` | `sovalye` |
+| 37 | 9,1 | `adal` | `habesistan` |
+| 38 | 9,2 | `habesistan` | `mehdi` |
+| 39 | 9,2 | `altinorda` | `safevi` |
+| 40 | 9,3 | `fransa` | `toskana` |
+| 41 | 10,1 | `altinorda` | `ilhanli` |
+| 42 | 10,1 | `atinadukaligi` | `venedik` |
+| 43 | 10,3 | `arnavutluk` | `bizans` |
+| 44 | 10,5 | `burhaneddin` | `candar` |
+| 45 | 10,8 | `adal` | `italya` |
+| 46 | 10,8 | `altinorda` | `timurlu` |
+| 47 | 11,3 | `gurcistan` | `safevi` |
+| 48 | 11,5 | `habesistan` | `somali` |
+| 49 | 11,5 | `karakoyunlu` | `timurlu` |
+| 50 | 11,6 | `aydin` | `germiyan` |
+| 51 | 11,6 | `italya` | `somali` |
+| 52 | 11,7 | `ceneviz` | `ispanya` |
+| 53 | 11,8 | `esrefogullari` | `ilhanli` |
+| 54 | 11,9 | `hafsi` | `memluk` |
+| 55 | 11,9 | `eretna` | `ramazanoglu` |
+
+📌 **Desen: borcun ağırlığı iki kümede toplanıyor.**
+① **Kızıldeniz/Habeş/Arabistan toprak tonları** — `hicaz`·`sammar`·`suud`·
+`yemen`·`adal`·`somali`·`habesistan`·`memluk`·`funj`·`nube`·`benihalid`.
+Baltık'ta çözdüğüm sorunun aynısı, daha büyüğü: **bir köşede on bir
+yakın-nötr renk.** Baltık'ta beş komşuyu birlikte oynatmak dokuz çakışma
+kapatmıştı; burada aynı yöntem uygulanabilir.
+② **Anadolu beylikleri** — `candar`·`germiyan`·`hamid`·`teke`·`eretna`·
+`aydin`·`karaman`·`bizans`·`ilhanli`. Küçük ve bitişik gövdeler.
+
+---
+
+## 8. 🔒 HAZIR PAKET — KIZILDENİZ/HABEŞ/ARABİSTAN (yazılmadı, kilit bekliyor)
+
+Üretim koşusu sürerken `arac/renkler.py` KİLİTLİ; bu paket **yalnız ölçüldü.**
+Kilit kalkınca tek partide uygulanacak.
+
+### Kapsam ve köprü kararı
+
+**Oynayan 11:** `hicaz` `sammar` `suud` `yemen` `adal` `somali` `habesistan`
+`funj` `nube` `benihalid` `mehdi`
+
+🔴 **`memluk` ve `italya` SABİT** — koordinatör uyarısı: iki kümeyi
+birleştirme. `memluk` 26 komşuyla Anadolu'ya (`teke`·`hamid`) ve Tunus'a
+(`hafsi`) köprü; `italya` Avrupa'ya. Onların o çakışmaları **② Anadolu
+kümesinin** işi ve bu partide ELLENMİYOR.
+
+### 🔴 ÜÇ TUR — ve "toprak kimliği gidiyor" HÜKMÜM YANLIŞ ÇIKTI
+
+Koordinatör ilk paketi onaylamadı ve gerekçesi **benim kendi cümlemdi:**
+*"kimliği savurmak da bir maliyet"* yazıp ton cezasını **0,05** (en düşük)
+koymuşum, üstelik eşiği 12 yerine **15** tutmuşum. Üç puanlık pay ve ton
+sürekliliği, karşılığında hiçbir şey alınmadan harcanıyordu.
+
+**Eğri tarandı** (T × ton cezası ağırlığı w). Sonuç:
+
+| | tur 1 (benim) | tur 2 | tur 3 (SEÇİLEN) |
+|---|---|---|---|
+| eşik T | 15 | 12 | **12** |
+| ton cezası | 0,05 | 2,0 | **2,0** |
+| doygunluk | yumuşak ceza | yumuşak ceza | **SERT SINIR 0,20-0,90** |
+| kapanan | 17/17 | 17/17 | **17/17** |
+| altlıktan en dar | 17,7 | 15,6 | **15,4** |
+| **ortalama ton kayması** | **62,5°** | 8,1° | **11,4°** |
+| ton ≤45° kalan | **6/11** | 11/11 | **11/11** |
+| doygunluk aykırısı | — | 3 | **0** |
+
+🔴 **Yani "bölgenin toprak kimliği korunamaz" hükmüm YANLIŞTI.** Korunabiliyor:
+on birin on biri kendi ton ailesinde kalıyor (ortalama kayma 11,4°) **ve**
+on yedi çakışmanın on yedisi kapanıyor **ve** beşi görünür oluyor.
+📌 Hükmü ölçmeden vermiştim. "Başka çare yoktu" demek için önce çareyi
+aramak gerekiyormuş.
+
+### SEÇİLEN PAKET
+
+| kimlik | eski | yeni | ton kayması | pay | altlık | S |
+|---|---|---|---|---|---|---|
+| `hicaz` | `#9e8a5b` | `#78360c` | 22,5° | 14,3 | 28,1 | 0,90 |
+| `sammar` | `#a0885b` | `#ba6f15` | 11,0° | 14,3 | 26,4 | 0,89 |
+| `suud` | `#8f9e5b` | `#304b0f` | 5,6° | 14,0 | 27,8 | 0,80 |
+| `yemen` | `#b5a05b` | `#9fb454` | 16,9° | 12,0 | 19,5 | 0,53 |
+| `adal` | `#a08f5b` | `#786c0c` | 5,2° | 12,0 | 25,9 | 0,90 |
+| `somali` | `#b5a06b` | `#847245` | **0,1°** | 12,0 | 18,2 | 0,48 |
+| `habesistan` | `#7d5b3a` | `#4e3f39` | 0,6° | 12,2 | 25,6 | 0,27 |
+| `funj` | `#7d6b4a` | `#a28184` | 30,4° | 12,2 | 15,4 | 0,20 |
+| `nube` | `#6d4c41` | `#cf5d33` | 14,2° | 16,6 | 26,5 | 0,75 |
+| `benihalid` | `#8a9440` | `#729f6f` | 18,8° | 14,0 | 16,3 | 0,30 |
+| `mehdi` | `#4e342e` | `#e19c69` | **0,1°** | 20,2 | 15,6 | 0,53 |
+
+🟢 **Nil-Sudan gökkuşağı sorunu YOK OLDU.** Koordinatörün işaret ettiği üç
+renk sıcak/toprak ailesine döndü:
+`nube` `#f084ff` macenta → `#cf5d33` **terrakota** ·
+`mehdi` `#8172db` menekşe → `#e19c69` **kum** ·
+`adal` `#d275b1` pembe → `#786c0c` **zeytin**
+
+### 📌 DERS — yumuşak ceza, sert kısıtın yerini tutmuyor
+
+Ton cezasını yükseltince doygunluk **denetimden çıktı**: `hicaz` S 0,08-0,10
+ile **griye** düştü (üç saat önce `almanya` için *"gri = veri yok"* kuralını
+yazmıştım) ya da S 1,00'e fırladı. Sebep: `|S − 0,48|` yumuşak bir terimdi ve
+ton terimi onu eziyordu.
+⇒ Doygunluk **sert sınıra** çevrildi (`0,20 ≤ S ≤ 0,90`) ve aykırılık **0**'a
+düştü.
+🔴 **Bu, `babur-imparatorlugu` dersinin üçüncü tekrarı:** *her zaman geçerli
+olması gereken ölçüt, CEZA değil SÜZGEÇ olmalı.* Ceza pazarlık eder, süzgeç
+etmez.
+
+---
+
+## 9. 🔒 ② ANADOLU BEYLİKLERİ — ÖN ÖLÇÜM (yazılmadı)
+
+⚠️ **Bu bir ÖN ÖLÇÜMDÜR.** ① Kızıldeniz paketi henüz yazılmadı; yazılınca
+palet değişir ve bu **yeniden koşulmalıdır** — kendi dersim: *renk kararı
+verinin (ve paletin) bir fonksiyonudur.* Buradaki amaç fizibilite, nihai hex
+değil.
+
+**Oynayan 14:** `candar` `germiyan` `hamid` `teke` `eretna` `aydin` `karaman`
+`bizans` `ilhanli` `kilikya-ermeni` `burhaneddin` `esrefogullari`
+`ramazanoglu` `taceddin`
+**Sabit köprü 5:** `memluk` (Kızıldeniz+Tunus) · `altinorda` (bozkır/Kafkas) ·
+`napoli` · `arnavutluk` (Avrupa) · `timurlu` (Orta Asya)
+
+### Sonuç — sarsıntı neredeyse SIFIR
+
+```
+17 hedef çakışmanın 17'si KAPANIYOR
+ortalama ton kayması 1,6°   ·   14/14 kimlik ±20° içinde
+altlıktan en dar 18,9 (hepsi zaten görünürdü, öyle kalıyor)
+```
+
+| kimlik | eski | yeni | ton kayması |
+|---|---|---|---|
+| `candar` | `#5b6b9e` | `#7896ff` | 0,3° |
+| `germiyan` | `#3d748f` | `#3cc3db` | 0,2° |
+| `hamid` | `#8f7d3a` | `#6f8448` | 17,8° |
+| `teke` | `#b58f2d` | `#574212` | 0,0° |
+| `eretna` | `#3f8f6b` | `#5dc38a` | 0,2° |
+| `aydin` | `#4a8f7d` | `#488d7b` | 0,0° |
+| `karaman` | `#4527a0` | `#5133ab` | 0,1° |
+| `bizans` | `#8877b8` | `#4e3c81` | 1,6° |
+| `ilhanli` | `#7a5ba0` | `#9f66c3` | 0,4° |
+| `kilikya-ermeni` | `#5e35b1` | `#a26fff` | 0,3° |
+| `burhaneddin` | `#455a64` | `#155412` | 0,6° |
+| `esrefogullari` | `#b5548f` | `#e184bd` | 0,3° |
+| `ramazanoglu` | `#33691e` | `#2d483c` | 0,4° |
+| `taceddin` | `#2d8f4a` | `#1b8d36` | 0,3° |
+
+📌 **Neden bu kadar kolay:** bu kümenin hiçbiri görünmez değildi. Yalnız
+**birbirlerinden** ayrılmaları gerekiyordu ve bu, tonu hiç değiştirmeden
+parlaklık/kroma ile çözülüyor. Kızıldeniz'de zor olan şey, beşinin **aynı
+zamanda görünmez** olmasıydı — orada tonu değiştirmek zorunluydu.
+⇒ Genelleme: **görünmezlik tonu zorlar, çakışma zorlamaz.**
+
+### Toplam tablo
+
+```
+bugün       55 çakışma · 10 görünmez
+① sonrası   -17 çakışma · -5 görünmez
+② sonrası   -17 çakışma
+kalan       ~21 çakışma · 5 görünmez
+```
+Kalanların çoğu üçüncü bir kümede: `altinorda`↔`lehistan`/`gurcistan`/
+`safevi`/`timurlu` (bozkır-Kafkas) ve dağınık Avrupa çiftleri
+(`ceneviz`↔`sardinya`/`kirim`/`sovalye`/`ispanya` · `sirbistan`↔`venedik`/
+`yunanistan` · `milanoduka`↔`toskana` · `fransa`↔`toskana`).
+
+---
+
+## 10. 🔒 ③ KALAN BORÇ — ön ölçüm · **55'ten 0'a yol var**
+
+### B) Kalan beş görünmez — AYRI SINIF YOK
+
+Altlık `#e8dfc8` → L\* 89,0 · C\* 12,4 · **ton 93,4°**
+
+| kimlik | ton | altlıktan ton farkı |
+|---|---|---|
+| `karadag` | 92,1° | **1,3°** |
+| `romanya` | 95,1° | **1,7°** |
+| `sovalye` | 87,7° | 5,6° |
+| `atinadukaligi` | 116,2° | 22,8° |
+| `kazan` | 70,4° | 23,0° |
+
+⇒ **Beşinin beşi de altlığın ton ailesinde (±30°).** Yani ① yönteminin
+tekrarı yeter, ayrı bir sınıf yok. 📌 Ve sebep artık tam net: on görünmezin
+onu da altlığın ±30°'sinde — **görünmezlik bir renk kusuru değil, ALTLIĞA
+YAKINLIK.**
+
+### A) Kalan 21 çakışma — 8 BAĞIMSIZ küme, hepsi çözülüyor
+
+```
+KÜME 1  altinorda·artuklu·gurcistan·karakoyunlu·lehistan·safevi·timurlu   8 çakışma
+KÜME 2  ceneviz·ispanya·kirim·sardinya·sovalye                            4
+KÜME 3  atinadukaligi·sirbistan·venedik·yunanistan                        3
+KÜME 4  fransa·milanoduka·toskana                                         2
+KÜME 5  arnavutluk·napoli          KÜME 6  avusturya·romanya
+KÜME 7  bogdan·bulgaristan         KÜME 8  hafsi·memluk                   1+1+1+1
+                                                          TOPLAM 21/21 ✓
+```
+Ortalama ton kayması kümelerin çoğunda **1°'nin altında** — ② gibi, çünkü bu
+kümelerde de görünmezlik sorunu yok (istisna `sovalye` 27,6° ve `memluk`
+24,4°, ikisi de tan ailesinden çıkmak zorunda).
+
+### 🔴 AMA ÜÇ PARTİ BAĞIMSIZ DEĞİL — kendi çözümümün kusuru
+
+Ölçtüm: ③'ün oynatmayı önerdiği küme **①·②'nin SABİT tuttuğu beş köprüyü**
+içeriyor, ve iki paylaşılan hex bağımlılığına dokunuyor:
+
+```
+KÖPRÜ İHLALİ (①/②'de sabit, ③'te oynuyor)
+  memluk · altinorda · napoli · arnavutluk · timurlu
+
+PAYLAŞILAN HEX BAĞIMLILIĞI
+  safevi  #6b4a7d ← le-hanedani (Asya) de kullanıyor
+  timurlu #8d6e63 ← kamboc-kralligi + vijayanagara (Asya) de kullanıyor
+```
+
+⇒ **Üç parti ardışık çalıştırılmalı ve her birinden sonra YENİDEN ÖLÇÜLMELİ.**
+③'ün 21/21'i bir **fizibilite kanıtıdır**, uygulanacak hex listesi değil.
+📌 Bu, `hollanda↔ispanya` dersinin üçüncü katı: orada VERİ değişince renk
+kararı kaymıştı; burada **kendi partilerimiz** birbirinin zeminini kaydırıyor.
+⚠️ Ve paylaşılan hex gizli bir bağ kuruyor: `timurlu` oynarsa Asya'daki iki
+kimlik onu izlemez, paylaşım sessizce bozulur. İhlal değil ama
+`renkler.py`'deki gerekçe kütüğü bayatlar.
+
+### Yol haritası — 55'ten 0'a
+
+```
+bugün        55 çakışma · 10 görünmez
+①  Kızıldeniz  -17 · -5     (ölçüldü, ONAYLI, yazılmayı bekliyor)
+②  Anadolu     -17          (ölçüldü, ONAYLI, ①'den sonra yeniden ölçülecek)
+③  kalan 8 küme -21 · -5    (fizibilite kanıtlandı, ②'den sonra ölçülecek)
+                 ────────────
+                  0 çakışma · 0 görünmez
+```
+🟢 **Atlasın renk borcunun sonu ölçülmüş durumda.** Üçü de tek tek
+uygulanabilir; hiçbiri "çözülemez" değil.
+
+---
+
+## 11. 🔒 PAYLAŞILAN HEX'LER — 13/13 KASITLI, 0 tesadüf (ölçüm, yazılmadı)
+
+```
+palet 226 kimlik · 184 farklı hex · PAYLAŞILAN 13 hex (55 kimlik)
+KASITLI 13  ·  BELGESİZ 0
+```
+
+Kasıtlılık dosyanın **kendi kütüğünden** kanıtlandı — üç bağımsız iz:
+① girdinin üstündeki yorumda "paylaş" geçiyor · ② öteki üyeyi **adıyla** anıyor
+· ③ dosya başındaki 2026-07-30 `PAYLAŞILAN HEX DENETİMİ` listesinde.
+
+| hex | kimlik | kaynak |
+|---|---|---|
+| `#6ba0a0` | 8 | Asya partisi (`zeyyani`) |
+| `#00695c` | 7 | 2026-07-30 (`yugoslavya`/`hive`) + Asya |
+| `#7b1fa2` | 6 | Asya (`sidamo`) |
+| `#636f03` | 6 | Asya (`siena`) |
+| `#00acc1` | 5 | `kavalali`↔`turkmen` (Oturum 16) + Asya |
+| `#b34da5` | 5 | Asya (`saruhan`) |
+| `#2d8f4a` | 5 | Asya (`taceddin`) |
+| `#8d6e63` | 3 | Asya (`timurlu`) |
+| `#6b4a7d` `#0288d1` | 2+2 | Asya (`safevi`, `darfur`) |
+| `#8f7d5b` `#5c6bc0` `#4527a0` | 2+2+2 | 2026-07-30 denetimi |
+
+### 🔴 AMA KASIT YALNIZ DÜZ YAZIDA — ve bu yeterli değil
+
+Hiçbir denetim *"bu kimlikler aynı hex'i **bilerek** paylaşıyor"* bilgisini
+**makine okunur** tutmuyor. Sonuç: biri oynatılınca ötekiler **izlemiyor**,
+paylaşım sessizce bozuluyor, gerekçe kütüğü bayatlıyor.
+📌 Canlı vaka: ③ partisi `timurlu`yu oynatacaktı; `#8d6e63`'ü paylaşan
+`kamboc-kralligi` ve `vijayanagara` onu izlemeyecekti ve **kimse fark
+etmeyecekti.**
+
+### Önerilen çözüm — `_opaklik_dogrula()` deseninin aynısı
+
+`renkler.py`'ye **beyan sözlüğü** (`PAYLASIM`) + **import anında self-check**.
+Şemayı değiştirmiyor: `uret_petek.py:1562` `BOYALAR.items()` diye okuyor, ayrı
+bir sözlük onu etkilemez. Blok hazır (scratchpad), **üç senaryoda sınandı:**
+
+```
+① bugünkü palete karşı        → SESSİZ (13/13 beyan gerçekle uyuşuyor) ✓
+② `timurlu` oynatılırsa       → "BEYAN EDILEN PAYLASIM BOZULDU #8d6e63" ✓
+③ beyansız yeni paylaşım doğsa → "BEYAN EDILMEMIS PAYLASIM #7aa06a" ✓
+```
+
+⇒ *Sessiz kayıp* sınıfı bu alanda kapanır: paylaşım artık **beyan edilen ve
+denetlenen** bir bağ olur, düz yazıda kalan bir niyet değil.
+
+---
+
 ## 5. ESKİ §4 — PARTİ 3 notu (aşıldı)
 
 Yöntem hazır ve Parti 2'de sınandı: merge sonrası komşuluk + karşılıklı eşik

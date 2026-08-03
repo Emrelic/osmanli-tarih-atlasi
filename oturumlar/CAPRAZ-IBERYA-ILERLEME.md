@@ -841,3 +841,397 @@ Melilla'da fazlalık **Osmanlı** tarafında, Sebte'de **İngiltere** tarafında
 atlastaki `v:` (tâbi) kaydı bu turda ne doğrulandı ne çürütüldü.
 
 🔴 **Commit ve push YAPILMADI.** Veri dosyalarına dokunulmadı.
+
+---
+
+# EK — KOORDİNATÖRÜN VERDİĞİ YENİ İŞ (3 Ağustos, `b16f3f3` sonrası)
+
+> ⚠️ **Kanal notu:** koordinatör *"her kalem bitince tek tek mesaj at"* dedi.
+> `SendMessage` bu oturumdan koordinatöre **ulaşmıyor** (ayrı oturum, alt
+> ajan değil) ve `kutu/giden/` kullanıcının kanalı. ⇒ Teslimler **buraya**
+> yazılıyor ve durum tahtasına `hazir` + işaret notu basılıyor.
+
+## İŞ ① — TUNUS 1569 ve 1573 ✅ TESLİM
+
+### 🔴 UYARI 1 — `olaylar_ek12.js` BOŞ DEĞİLDİ, dosya adı değişti
+
+Devir mesajı *"yeni dosya"* diyordu. **Değildi:** PETEK/NOKTA oturumu aynı
+gün ek12'yi Cerbe 1560 için açmış ve **iki madde** yazmış (`1560-01-01`
+Haçlı işgali · `1560-07-30` kalenin düşüşü). `Write` ile üzerine yazsaydım
+ikisi de **sessizce kaybolurdu** — `CLAUDE.md §7`'nin birebir tarif ettiği
+vaka.
+
+⇒ **Teslim `data/olaylar_ek13.js`** (`window.OLAYLAR_EK13`). ek12'ye
+dokunulmadı; sonradan ölçüldü: hâlâ 2 madde, bozulmamış.
+
+📌 Devrin kusuru **yaşıydı**, kendisi değil: koordinatör mesajı yazarken
+ek12 boştu, iki oturum sıradaki adı aynı saatte seçti. İleride devirde
+dosya adı vermek yerine *"sıradaki boş `ek` numarasını sen ölç"* demek bu
+sınıfı kapatır.
+
+📌 Yan kazanç: PETEK/NOKTA'nın maddeleri **benim D10 bulgumu kapatıyor** ve
+TDV `cerbe` ölçümümü doğrulamış — deniz zaferi 14 Mayıs, **kale 30 Temmuz
+1560**.
+
+### 🔴 UYARI 2 — TUNUS'UN FETİH GÜNÜ YANLIŞ, 48 kaydı ilgilendiriyor
+
+①'e bakarken çıktı, aranmıyordu:
+```
+TDV tunus           Halkulvâdî  6 Cemâziyelevvel 982 = 24 Ağustos 1574 (33 gün direndi)
+                    Tunus şehri  altı günlük muhasara → 12 EYLÜL 1574
+TDV kilic-ali-pasa  "25 Cemâziyelevvel / 12 Eylül"  — ikinci tanık, aynı gün
+atlas               1574-08-25 — Tunus · Sfaks · Kayrevan · Halkulvâdî HEPSİ aynı gün
+```
+`grep -c "1574-08-25"` → **yerlesimler.js 6 + yerlesimler_afrika.js 42 = 48 kayıt.**
+
+⇒ Atlas **Halkulvâdî'nin gününü (bir gün kaydırarak) bütün İfrîkıye'ye
+yaymış**; şehir 18 gün sonra düşüyor. `olaylar_ek.js:65`'teki
+`1574-08-25 "Tunus'un kesin fethi"` maddesi de aynı günü taşıyor — kırılma
+taşınırsa madde de taşınmalı.
+⚠️ **48 kayıtlık iş, ①'in kapsamı değil. Dokunulmadı, kalem olarak duruyor.**
+
+### TESLİM
+
+```
+data/olaylar_ek13.js   →  window.OLAYLAR_EK13   (2 madde)
+
+A-1  1569-01-01  fetih  toprak-kazanc  kaynak:tunus
+     "Uluç Ali Paşa'nın Tunus'u alışı — Hafsî-İspanyol düzeninin sonu"
+A-2  1573-10-10  kayip  toprak-kaybi   kaynak:tunus
+     "Don Juan de Austria'nın Tunus'u geri alışı — İnebahtı'nın karadaki
+      tek karşılığı"
+```
+`node -e` ile ayrıştırıldı, alanlar yerinde. Değişmez 2 pencereleri:
+A-1 → `1568-12-02 .. 1569-01-31` · A-2 → `1573-09-10 .. 1573-11-09`.
+
+**Slug turu (`<title>` ile):**
+```
+/tunus            🟢 CANLI  "TUNUS - TDV İslâm Ansiklopedisi"
+/kilic-ali-pasa   🟢 CANLI  "KILIÇ ALİ PAŞA - TDV İslâm Ansiklopedisi"
+/uluc-ali         🟡 CANLI ama MÜSTAKİL MADDE DEĞİL — "bk. KILIÇ ALİ PAŞA"
+                     yönlendirmesi. `kaynak:` alanına YAZILMADI.
+```
+
+### İkisi de yazıldı: 1569 ayrışması TDV'NİN KENDİ İÇİNDE
+```
+TDV tunus           "1569'daki Osmanlılar'ın ikinci müdahalesi"
+TDV kilic-ali-pasa  Tunus seferine çıkış "Şevval 977 (Mart 1570)"
+batı literatürü     Ekim 1569'da Cezayir'den hareket, Beja'da Hafsî yenilgisi
+```
+Üçü de maddenin `gun:` ve `d:` alanında adıyla duruyor. **Hangisinin
+seçileceği söylenmedi** — o karar koordinatörün.
+
+### 🔴 KOORDİNATÖRÜN KARAR VERMESİ GEREKEN TEK ŞEY — A-1'in `t:`si
+`1569-01-01` yazıldı; gerekçe `§4`'ün yazılı kuralı. **Ama kuralın burada
+bilinen bir sakıncası var:** hiçbir kaynak Ocak 1569 demiyor, en erken
+okuma Ekim 1569. Kırılma bu güne konursa Tunus **sefer başlamadan ~9 ay
+önce** Osmanlı boyanır.
+⇒ `KARAR-DEHLEK §5`'in `hassasiyet:` boşluğunun yeni vakası.
+⇒ Kırılma başka güne konursa **maddenin `t:`si de birlikte taşınmalı.**
+
+### D4 için yan doğrulama
+TDV `tunus`, koordinatörün uyguladığı `ispanya → hafsi` çevirisini birebir
+onaylıyor: *"Tunus şehri … İspanyollar'ın himayesinde ve **III. Mevlây
+Ahmed'in idaresinde** kaldı."* Ölçüm İspanyol tarafından gelmişti; artık
+bizim birincil kaynağımızdan da geliyor.
+
+### Küçük şey — `olaylar_ek11.js`'te tek karakterlik yazım
+Yeni yazılan Restauração maddesinde `etiket:["siyaset","toprak-kayip"]` var.
+Veride **177 kez `toprak-kaybi`**, bu tek `toprak-kayip`. Arayüz etikete göre
+renk veriyorsa sessizce düşer — `girdi.py`'nin "bilinmeyen alan" kütüğüyle
+aynı sınıf, ama **değer** tarafında.
+
+## İŞ ② — PORTEKİZ FASI KRONOLOJİSİ ✅ TESLİM
+
+**Aynı dosya:** `data/olaylar_ek13.js` — toplam **11 madde** (①'in 2'si + ②'nin 9'u).
+Şema doğrulaması `node -e` ile koşturuldu: `k:` 25 değerlik sözlükte, `etiket:`
+8 değerlik sözlükte, `t:` tam gün formatında — **şema hatası 0.**
+
+```
+A-3   1471-08-24  fetih    Arzila'nın alınışı                       GÜN KESİN
+A-4   1488-01-01  vassal   Safi'nin Portekiz nüfuzuna girmesi       ⚠️ 1488/1508
+A-5   1505-01-01  kurulus  Santa Cruz do Cabo de Gué (Agadir)       ay/gün yok
+A-6   1513-09-01  fetih    Azemmûr'un alınışı                       GÜN KESİN
+A-7   1514-01-01  kurulus  Mazagan kalesinin kurulması              "1514 yazı"
+A-8   1541-03-12  kayip    Agadir'in düşüşü                         GÜN KESİN
+A-9   1541-10-01  kayip    Safi ve Azemmûr'un boşaltılması          AY kaynaklı
+A-10  1549-01-01  kayip    Arzila'nın boşaltılması                  ⚠️ 1549/1550
+A-11  1769-03-11  kayip    Mazagan'ın boşaltılması                  GÜN KESİN
+```
+⇒ **Dokuzun dördünde gün kesin.** Beşinde kaynak gün vermiyor ve bu her
+maddenin `gun:` alanında açıkça yazılı.
+
+### 🔴 "1541 TEK MADDE" İSTENDİ — İKİ MADDE YAZILDI, sebebi Değişmez 2
+
+Talep: *"Bu bir madde, üç kırılmayı birden kapatır."* **Ölçtüm: kapatamaz.**
+```
+Agadir          kuşatma 16 Şubat → düşüş 12 MART 1541    (gün KESİN)
+Safi · Azemmûr  tahliye EKİM 1541 (Eylül-Ekim'de tamamlandı)
+```
+Fark **~7 ay**, Değişmez 2 eşiği **±30 gün**. Tek madde üçünü ancak üç kırılma
+da aynı güne konursa kapatır — o da Safi ve Azemmûr'u yedi ay erkene çekmek,
+yani **tarihi veriye uydurmak** olurdu. ⇒ A-8 (Mart) ve A-9 (Ekim) ayrı.
+📌 Sebep bağı korundu: A-9 kaybı A-8'e bağlıyor, *"sebebi tek"* kalıyor.
+
+### 🔴 TDV BU COĞRAFYAYI KAPSAMIYOR — ölçüldü, varsayılmadı
+`/arama/?q=asfi` → Safi · Agadir · Azemmûr · Mazagan · Arzila için **müstakil
+madde YOK** (dönen 91 eşleşme "el-asfiyâ" kelimesinin tasavvuf maddelerindeki
+geçişleri). ⇒ `§4`: *"TDV'nin kapsamadığı coğrafyalar için standart akademik
+referans yeterlidir."*
+
+⚠️ **`kaynak:` alanı yalnız TDV `fas`ın gerçekten konuştuğu üç maddede var**
+(A-8·A-9·A-10). Ötekilerde slug **yazılmadı** — TDV'de karşılığı olmayan
+maddeye slug yazmak ölü link üretir (ek11'de kurulan desenin aynısı).
+`/fas` 🟢 CANLI, `<title>` ile sınandı.
+
+### İki yerde kaynaklar ayrışıyor — ikisi de yazıldı
+```
+Safi başlangıcı   1488 (himaye)  ·  1508 (fiilî işgal)  — aynı sürecin uçları
+Arzila terki      1549 (batı literatürü)  ·  1550 (TDV `fas`, Kasrüssagīr'le birlikte)
+```
+`t:` sırasıyla 1488 ve 1549'a konuldu, çünkü koordinatörün kuyruk listesi
+öyle diyor. **Kırılma öteki okumaya taşınırsa maddenin `t:`si de taşınmalı.**
+
+### A-9'da yer tutucu KULLANILMADI ve sebebi
+`1541-01-01` yazmak kuralın harfine uyardı ama **Agadir'in düşüşünden önceye
+düşer** ve sebep-sonuç sırasını ters çevirirdi (Safi/Azemmûr, Agadir düştüğü
+için boşaltıldı). Ay kaynaklı olduğu için `t:` sourced ayın 1'ine konuldu.
+📌 Bugün bu üçüncü vaka: **Tunus 1569 · Safi 1488 · Fas 1541 tahliyesi** —
+üçünde de `YYYY-01-01` yer tutucusu ya yanlış yere düşüyor ya bilgi siliyor.
+`KARAR-DEHLEK §5`'in `hassasiyet:` kalemi için ölçülmüş üç vaka daha.
+
+**Kaynaklar:** *Conquest of Asilah* · HPIP (Heritage of Portuguese Influence,
+Azemmûr ve Mazagan kayıtları) · Jorge Correia, *Azemmour: Early Sixteenth-century
+Portuguese Defences* (Univ. do Minho) · *Siege of Mazagan (1769)* (Pereira 2011;
+en-Nâsırî; UNESCO el-Cedîde dosyası) · TDV `fas`.
+
+## İŞ ③ — BAHREYN ✅ KRONOLOJİ TESLİM · 🔴 VERİDE İKİ ENGEL VAR
+
+**Aynı dosya:** `data/olaylar_ek13.js` — toplam **19 madde** (①2 + ②9 + ③8).
+Şema doğrulaması temiz. TDV `/bahreyn` 🟢 CANLI, `<title>` ile sınandı;
+sekiz maddenin sekizi de `kaynak:"bahreyn"` taşıyor.
+
+```
+A-12  1417-01-01  siyaset   Cebrîler'in Bahreyn'e hâkim olması
+A-13  1521-01-01  kayip     Portekiz'in Bahreyn'i alışı
+A-14  1559-01-01  sefer     Osmanlı'nın Bahreyn seferi          🔴 ÇELİŞKİ
+A-15  1602-01-01  siyaset   Safevîler'in Bahreyn'i alması
+A-16  1717-01-01  siyaset   Ummanlılar'ın istilâsı
+A-17  1753-01-01  siyaset   Âl-i Mezkûr idaresine geçiş
+A-18  1783-01-01  siyaset   Âl-i Halîfe'nin fethi               🔴 RENK YOK
+A-19  1861-05-31  antlasma  İngiltere ile antlaşma              ⚠️ TDV 21 Mayıs
+```
+
+### 🔴 ENGEL 1 — ÂL-İ HALÎFE'NİN RENK KİMLİĞİ YOK, zincir boyanamıyor
+`renkler.py` BOYALAR ölçüldü (**226 kimlik**):
+```
+usfuri 🟢 · cebri 🟢 · portekiz 🟢 · safevi 🟢 · umman 🟢 · iran 🟢 · ingiltere 🟢
+alihalife ✗ · al-halife ✗ · halife ✗ · utub ✗ · bahreyn ✗   ← HİÇBİRİ YOK
+cervani ✗ (Cervânîler) · huveyle ✗ · zend ✗
+```
+⇒ **1783-1861 arası 78 yıl bugünkü paletle yazılamaz.** Bu, senin "zincirin
+TAMAMI gerekmeden tek satır yazamıyorum" engelinin **kronolojide değil renkte**
+olan yarısı. RENK oturumuna bir kimlik gerekiyor (`alihalife`, min ΔE ölçümüyle).
+
+**Bugünkü paletle kurulabilecek zincir** (kalan tek delik 1783-1861):
+```
+usfuri    1281-01-01 → 1417-01-01     Katîf/Lahsa deseniyle aynı
+cebri     1417-01-01 → 1521-01-01
+portekiz  1521-01-01 → 1602-01-01     ← D9'un aradığı 81 yıl
+safevi    1602-01-01 → 1717-01-01
+umman     1717-01-01 → 1753-01-01     ⚠️ iç ayrıntısı karışık, ayrı ölçüm ister
+iran      1753-01-01 → 1783-01-01     Âl-i Mezkûr, Zend'e bağlı Bûşehr valisi
+???       1783-01-01 → 1861-05-31     🔴 KİMLİK YOK
+ingiltere 1861-05-31 → 1923-10-29     mevcut, dokunulmadı
+```
+
+### 🔴 ENGEL 2 — "BAŞARISIZ SEFER KIRILMA ÜRETMEZ" VARSAYIMI TDV'DE TUTMUYOR
+Mesajında: *"başarısız sefer kırılma üretmez: madde yazılır, veri değişmez.
+Bu atlasın en sevdiğim kayıt türü."* **TDV bunu desteklemiyor:**
+```
+TDV bahreyn      Osmanlılar "1559 yılında Bahreyn'i ele geçirip orada bir üs" kurdu
+                 ve HEMEN SONRAKİ cümle hükmü kesinleştiriyor:
+                 "Daha sonra TEKRAR Portekizliler'in idaresine geçen adalar,
+                  1602'de İran'a bağlı kuvvetler tarafından dışarı çıkarılmalarına
+                  kadar onların idaresinde kaldı."
+batı literatürü  Lahsa beylerbeyi Mustafa Paşa'nın kuşatması BAŞARISIZ — Hürmüz'den
+                 gelen Portekiz takviyesi, veba, Osmanlı'nın teslim şartı istemesi
+```
+📌 Hükmü kuran kelime **"tekrar"**: Portekiz idaresinin arada **kesildiğini**
+söylüyor. ⇒ TDV okumasında Bahreyn'e bir `d:` (Osmanlı) dönemi açılır ve o
+dönem **HARD Değişmez 2 kırılması** üretir — yabancı `2s` kuyruğu değil.
+Batı okumasında hiçbir kırılma doğmaz, yalnız A-14 yazılır.
+
+🔴 **Seçim yapılmadı** (brifingim: *"hangisini seçtiğini SÖYLEME"*). Ama
+seçimin **şemaya dokunduğunu** bilerek karar ver: iki okuma iki farklı
+denetim rejimi demek. TDV okuması seçilirse kapanış tarihi de gerekir ve
+TDV onu vermiyor.
+
+📌 Ve bu, `KARAR-DEHLEK §2b`'nin dersinin üçüncü vakası: **tek bir kelime
+("tekrar", "yine", "anlaşılmaktadır") hükmün tamamını taşıyor.**
+
+### ⚠️ 1861 — TDV 21 Mayıs, atlas 31 Mayıs
+`Manama (Bahreyn)` kaydı `ingiltere 1861-05-31` taşıyor; TDV *"21 Mayıs
+1861'de … Şeyh Muhammed'in kardeşi Ali … bir anlaşma imzaladılar"* diyor.
+İngiliz belgelerinde antlaşma (Perpetual Truce) 31 Mayıs. On günlük fark
+**çözülmedi**; madde atlasın gününü taşıyor, TDV'ninki metinde yazılı.
+
+### ⚠️ ORTAÇAĞ HALKASININ TARİHLERİ TDV'DEN GELMİYOR
+TDV hanedan **sırasını** veriyor ama **tarih vermiyor**: *"adanın sırasıyla
+Uyûnîler, Salgurlular, Tabîler, Cebrîler idaresinde kaldığı … görülmektedir."*
+⇒ A-12'deki `1417` komşu Katîf/Lahsa kayıtlarının deseninden alındı ve bu
+maddenin `gun:` alanında **açıkça yazılı**. Uydurulmuş bir kesinlik değil,
+**ödünç alınmış** bir kesinlik — ama yine de TDV'nin dediği değil.
+📌 TDV Cervânîler'i hiç anmıyor; literatür Bahreyn adalarını XIV-XV. yüzyılda
+Katîf merkezli **Cervânî** hanedanına veriyor. Kimlik de renk de yok.
+
+### 📌 YAN ÖLÇÜM — yer tutucu yığılması Değişmez 2'yi köreltiyor
+```
+1043 maddenin 147'si (%14,1) YYYY-01-01 yer tutucusu
+17 tarih birden fazla madde taşıyor
+```
+Ve benim üç maddem de var olan maddelerle aynı güne düştü:
+```
+1417-01-01  ← "Avlonya, Berat ve Kanina'nın fethi" zaten orada
+1521-01-01  ← "Nikarya (İkarya) adasının Osmanlı idaresine girmesi"
+1559-01-01  ← "Zeyla'nın Habeş Eyaleti'ne katılması"
+```
+🔴 **Bu kozmetik değil.** Değişmez 2 kırılmaya EN YAKIN maddeyi arıyor; yer
+tutucu yığını yüzünden denetim "maddesi var" der ama kullanıcı Bahreyn'in el
+değiştirdiğini **Zeyla maddesinin altında** görür — `CLAUDE.md §3`'ün
+*"değişim, o güne rastgele denk gelen alakasız bir maddenin altında belirir —
+kullanıcının en çok şikâyet ettiği hata bu"* dediği şeyin ta kendisi.
+⇒ `hassasiyet:` kaleminin bugünkü dördüncü ve **en somut** gerekçesi.
+
+---
+
+# 📌 KOORDİNATÖRÜN İKİ SORUSUNA DOĞRUDAN CEVAP
+
+> Rapor teslim edilmişti: yukarıdaki **§İŞ ① · §İŞ ② · §İŞ ③** bölümleri,
+> her biri ayrıca tahtaya damgalandı. Bu bölüm o üçünün içinden yalnız
+> sorulan iki şeyi çekip yan yana koyuyor.
+
+## ① TUNUS 1569 / 1573 — TDV KARŞILIĞI
+
+**Üç slug `<title>` ile sınandı:**
+```
+/tunus            🟢 CANLI  "TUNUS - TDV İslâm Ansiklopedisi"
+/kilic-ali-pasa   🟢 CANLI  "KILIÇ ALİ PAŞA - TDV İslâm Ansiklopedisi"
+/uluc-ali         🟡 CANLI ama MÜSTAKİL MADDE DEĞİL — "bk. KILIÇ ALİ PAŞA"
+                     ⇒ `kaynak:` alanına YAZILMADI
+```
+
+**1569 — TDV var, ama GÜN YOK ve TDV KENDİ İÇİNDE AYRIŞIYOR:**
+```
+TDV tunus           "Tunus şehri ise 1569'daki Osmanlılar'ın ikinci
+                     müdahalesine kadar İspanyollar'ın himayesinde ve
+                     III. Mevlây Ahmed'in idaresinde kaldı."
+TDV kilic-ali-pasa  Cezayir beylerbeyiliği 2 Muharrem 976 (27 Haziran 1568)
+                    Tunus seferine çıkış  Şevval 977 (MART 1570)
+batı literatürü     Ekim 1569'da Cezayir'den kara yoluyla hareket,
+                    Beja'da Hafsî sultanı yenilip Tunus'a giriş
+```
+⇒ Üçü de A-1'in `gun:` ve `d:` alanında adıyla duruyor. **Seçim yapılmadı.**
+
+🔴 **Kararın sende:** A-1'in `t:`si `1569-01-01` (ev kuralı). Ama hiçbir
+kaynak Ocak demiyor; en erken okuma Ekim 1569. Kırılmayı oraya koyarsan
+Tunus **sefer başlamadan ~9 ay önce** Osmanlı boyanır. Kırılmayı başka güne
+koyarsan **maddenin `t:`si de taşınmalı** — söyle, taşırım.
+
+**1573 — TDV GÜN VERİYOR, yer tutucu gerekmedi:**
+```
+TDV tunus   "10 Ekim 1573'te İspanyollar, Tunus'ta kontrolü ele geçirmek
+             amacıyla yeni bir harekâta giriştiler. Tunus'u alıp burada
+             8000 asker bıraktılar."
+            + 2 Zilhicce 980 (5 Nisan 1573): Tunus kumandanı Kılıç Ali Paşa,
+              kaymakam Ramazan Paşa, beylerbeyi Haydar Paşa
+              ⇒ işgal KURULMUŞ bir Osmanlı idaresini devirdi
+```
+
+**D4 için yan doğrulama:** TDV, senin uyguladığın `ispanya → hafsi`
+çevirisini birebir onaylıyor — *"İspanyollar'ın himayesinde ve III. Mevlây
+Ahmed'in idaresinde"*. Ölçüm İspanyol tarafından gelmişti, artık bizim
+birincil kaynağımızdan da geliyor.
+
+**🔴 Ve aynı turda çıkan, ①'in kapsamı DIŞINDA bir bulgu:**
+```
+TDV tunus          Halkulvâdî  6 Cemâziyelevvel 982 = 24 AĞUSTOS 1574
+                   Tunus şehri altı günlük muhasara → 12 EYLÜL 1574
+TDV kilic-ali-pasa "25 Cemâziyelevvel / 12 Eylül"  — ikinci tanık, aynı gün
+atlas              1574-08-25 — Tunus·Sfaks·Kayrevan·Halkulvâdî HEPSİ aynı gün
+                   grep: yerlesimler.js 6 + yerlesimler_afrika.js 42 = 48 KAYIT
+```
+⇒ Halkulvâdî'nin günü (bir gün kaydırılarak) bütün İfrîkıye'ye yayılmış;
+şehir 18 gün sonra düşüyor. `olaylar_ek.js:65` maddesi de aynı günde.
+**Dokunmadım.**
+
+---
+
+## ② BAHREYN ZİNCİRİ — HANGİ HALKA KAPANDI, HANGİSİ AÇIK
+
+### 🟢 KAPANAN — tarih VAR, renk VAR, madde VAR
+```
+1521-01-01 → 1602-01-01   portekiz   ⭐ D9'un aradığı 81 yıl. İKİ UCU DA TDV:
+                                     "Portekizliler, 1521'de Bahreyn'i ele
+                                     geçirdiler" · "1602'de İran'a bağlı
+                                     kuvvetler tarafından" çıkarıldılar
+1602-01-01 → 1717-01-01   safevi     f: TDV · t: batı literatürü
+1717-01-01 → 1753-01-01   umman      batı literatürü
+1753-01-01 → 1783-01-01   iran       Âl-i Mezkûr, Zend'in atadığı Bûşehr valisi
+1861-05-31 → 1923-10-29   ingiltere  ZATEN VAR, dokunulmadı
+```
+
+### 🟡 KAPANDI AMA TARİHİ TDV'DEN DEĞİL — ödünç alınmış kesinlik
+```
+1281-01-01 → 1417-01-01   usfuri
+1417-01-01 → 1521-01-01   cebri
+```
+TDV hanedan **sırasını** veriyor, **tarih vermiyor**: *"adanın sırasıyla
+Uyûnîler, Salgurlular, Tabîler, Cebrîler idaresinde kaldığı … görülmektedir."*
+⇒ `1417` komşu **Katîf ve Lahsa** kayıtlarının deseninden alındı ve A-12'nin
+`gun:` alanında açıkça yazılı. **Uydurulmuş değil, ödünç alınmış** — ama
+TDV'nin dediği de değil.
+⚠️ TDV **Cervânîler'i hiç anmıyor**; literatür XIV-XV. yüzyılda adaları
+Katîf merkezli Cervânî hanedanına veriyor. Kimlik de renk de yok.
+
+### 🔴 AÇIK — ve tek gerçek engel bu
+```
+1783-01-01 → 1861-05-31   ÂL-İ HALÎFE   78 YIL   ← RENK KİMLİĞİ YOK
+```
+`renkler.py` BOYALAR ölçüldü (**226 kimlik**):
+```
+alihalife ✗ · al-halife ✗ · halife ✗ · utub ✗ · bahreyn ✗
+cervani ✗ · huveyle ✗ · zend ✗
+```
+⇒ **Zincirin tamamı ancak RENK oturumu `alihalife` kimliğini açtıktan sonra
+yazılabilir.** Kronoloji tarafı hazır (A-18), veri tarafı bir renk bekliyor.
+
+### 🔴 AÇIK — karar kalemi (kırılma üretip üretmemeyi belirliyor)
+```
+1559   TDV bahreyn      Osmanlılar "1559 yılında Bahreyn'i ele geçirip orada
+                        bir üs" kurdu — ve sonraki cümle: "Daha sonra TEKRAR
+                        Portekizliler'in idaresine geçen adalar…"
+                        ⇒ "tekrar" = Portekiz idaresi ARADA KESİLDİ
+       batı literatürü  Mustafa Paşa'nın kuşatması BAŞARISIZ
+```
+⚠️ **Senin "başarısız sefer kırılma üretmez" varsayımın TDV'de tutmuyor.**
+TDV okuması Bahreyn'e bir `d:` (Osmanlı) dönemi açar ⇒ **HARD Değişmez 2**
+kırılması (yabancı `2s` kuyruğu değil). Ve TDV kapanış tarihi **vermiyor**.
+Batı okumasında hiçbir kırılma doğmaz, yalnız A-14 yazılır.
+🔴 Seçim yapılmadı — brifingim gereği.
+
+### ⚠️ AÇIK — küçük
+```
+1861   atlas 31 Mayıs (Perpetual Truce, İngiliz belgeleri)
+       TDV   21 Mayıs — "Şeyh Muhammed'in kardeşi Ali … imzaladılar"
+       on günlük fark ÇÖZÜLMEDİ; madde atlasın gününü taşıyor
+```
+
+### ⇒ ÖZET: veriyi yazabilmen için gereken TEK şey
+```
+🔴 alihalife kimliği + rengi        → 1783-1861 dolar, zincir KAPANIR
+🟡 1559 kararı                      → `d:` açılacak mı, açılacaksa `t:`si ne
+⚠️ 1281-1521 tarihleri ödünç        → daha iyi kaynak çıkarsa taşınır
+```
+Bu üçü çözülünce `Manama (Bahreyn)` kaydı **1281'den 1923'e kesintisiz**
+yazılabilir ve `Değişmez 1b` deliği kapanır.
