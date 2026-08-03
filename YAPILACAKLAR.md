@@ -86,6 +86,28 @@ pencerenin içini dolduruyor, listesi SONLU, ve ölüm tarihleri zaten
 kronolojide kırılma. O yüzden itiraz edilmedi ve **ANSİKLOPEDİ
 EKSENİ'nin BİRİNCİ kalemi** oldu (önceki sırada "kurumlar" birinciydi).
 
+# 🆕 MERAK KONULARI — "niçin öyle olmadı" (3 Ağustos 2026)
+
+> Şartname: **`MERAK.md`** — şema + ÜÇ ÖRNEK KART yazılı, üslup oturdu.
+
+Dördüncü kart tipi ve ötekilerden **cins olarak farklı**:
+```
+kartvizit   KİŞİYİ anlatır       sebep-sonuç  BAĞI anlatır
+magazin     RİVAYETİ anlatır     merak        TARTIŞMAYI anlatır
+```
+🔴 **En büyük risk tek bir cevap yazmak.** Bu soruların çoğu tarihçilerin
+hâlâ tartıştığı sorulardır; "şu yüzden oldu" diyen kart, bir tarafın
+görüşünü **atlasın görüşü** gibi sunar. Şema `goruşler:` alanında **en az
+iki** görüş şart koşuyor — tek görüşlü kart merak kartı değildir.
+
+Kullanıcı **11 soru** verdi; üçü örnek olarak yazıldı (Cem Sultan rehin
+diplomasisi · Tebriz niçin tutulamadı · voyvodalıklar niçin özerk).
+Kalan sekizi `MERAK` oturumuna (Opus) verilecek.
+⚠️ ⑦ (müslümanlaşma coğrafyası) siyasî olarak yüklü — kart taraf tutmaz,
+etkenleri yan yana yazar, hiçbirini "asıl sebep" ilan etmez.
+
+📌 ⑩ (Hint Okyanusu rekabeti) `ÇAPRAZ İBERYA` oturumundan beslenecek.
+
 # 🆕 EK OKUMA — sebep-sonuç · magazin · skandal (3 Ağustos 2026)
 
 > Şartname: **`EK-OKUMA.md`** · kardeşi: **`PADISAH-KARTVIZITI.md`**
