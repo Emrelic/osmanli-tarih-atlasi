@@ -2371,3 +2371,83 @@ beklenen etkiyi anlatıyordu. Tarihî hüküm ayrı durur ve nettir —
 1580-1587'de Cizvitlere devredilmiş bir liman, hinterlandı yok.
 
 **On üçüncü öz düzeltme.**
+
+---
+---
+
+# PARTİ 16 — DON KAZAK hazırlığı (renk beklerken) + bir eski ödünç bulundu
+
+⚠️ Hiçbir dosyaya yazılmadı. `don-kazak` rengi gelince bu blok on dakikada
+uygulanır — Mankup'ta işe yarayan desen.
+
+## 🔴 ① BULGU: `Azak`taki ödünç, gerekçesi ortadan kalktığı için ARTIK GEÇERSİZ
+
+`yerlesimler.js`, Azak kaydının üstünde **kendi ödününü yazmış**:
+> *"Kimlik olarak `rusya` seçildi: Don Kazakları çarın tebaasıydı (çar kaleyi
+> devralmayı reddetti) … **renkler.py'de Kazak kimliği yok**, rastgele renk
+> eklemek DSATUR dengesini bozar."*
+
+⇒ O gerekçe **bugün geçersiz**: `don-kazak` künyesi yazıldı (`7182678`).
+Ve iki kayıt birbirini doğruluyor — `devletler.js`in kendi kronolojisi:
+```
+1637-01-01  "Kazaklar Azak Kalesi'ni ele geçirdi"
+1642-01-01  "Yeni Osmanlı seferi üzerine kazaklar kaleyi yakıp çekildi"
+veri:       Azak  s:[… {1637-06-18 → 1642-02-26, "rusya"} …]
+```
+🔴 **Ve yorumun kendi cümlesi `rusya`yı çürütüyor:** *"çar kaleyi devralmayı
+REDDETTİ."* Devralmayı reddeden bir devlet o kalenin sahibi olamaz.
+Üstelik künye Rus tâbiiyetini **1671**'den başlatıyor — 1637-1642'de Don
+Ordası henüz çarın tâbii bile değildi.
+
+⇒ **ÖNERİ (Oturum 0'a):** `Azak`ın `1637-06-18 → 1642-02-26` penceresi
+`rusya` → **`don-kazak`**. `s:`→`s:` kimlik değişimi, **gün oynamıyor,
+Değişmez 2 borcu SIFIR.**
+📌 1696 ve 1774 pencereleri `rusya` KALMALI — onlar gerçekten Rus
+(I. Petro'nun fethi ve Küçük Kaynarca).
+
+### Tarandı: başka ödünç var mı?
+1671 öncesi başlayan 25 `rusya` penceresi tarandı. Azak dışındakiler meşru
+(Moskova · Novgorod · Kazan 1552 · Astrahan 1556 · Smolensk · Voronej 1585
+sınır kalesi…). ⚠️ İki kayıt **başka** kazak ordularına ait olabilir ama
+o kimlikler de yok, **dokunulmamalı**:
+```
+Guryev (Atyrau) 1640   → Yayık (Ural) Kazakları — ayrı orda, kimlik yok
+Terek deltası   1556   → Terek Kazakları — ayrı orda, kimlik yok
+```
+
+## ② HAZIR NOKTALAR — ölçüldü, renk gelince yazılır
+
+| ad | lat, lon | maske | 3 km | işlevi |
+|---|---|---|---|---|
+| **Çerkask (Razdory)** | 47,240 · 40,050 | ✓ | 25,6 km (Rostov) | 🔴 **Ordu'nun BAŞKENTİ — künyede var, haritada YOK** |
+| Don bozkırı (Sal) | 47,000 · 43,000 | ✓ | 183,0 km | hücre 10 |
+| Donets bozkırı | 48,800 · 39,000 | ✓ | 138,8 km | hücre 8 |
+
+**Ölçülen etki:**
+```
+hücre  8 (48-50K/38-40D)   133 km → 71 km   (1,9×)
+hücre 10 (46-48K/42-44D)   156 km → 70 km   (2,2×)
+```
+
+### Zincir — künyeden, uydurma yok
+```
+s:[{1281-01-01 → 1502-03-01, altinorda},     ← Bozkır (Deşt-i Kıpçak) deseni
+   {1502-03-01 → 1570-01-01, kirim},         ← aynı
+   {1570-01-01 → 1721-01-01, don-kazak},     ← künyenin kendi penceresi
+   {1721-01-01 → 1923-10-29, rusya}]
+d:[] v:[]
+```
+✅ Dördü de `s:`→`s:` ⇒ **kırılma üretmiyor, Değişmez 2 borcu sıfır.**
+📌 `1502-03-01` veride var; `1570-01-01` ve `1721-01-01` künyenin kendi
+tarihleri (`devletler.js:don-kazak`).
+
+⚠️ **`tabi:[{1671→1721, ust:"rusya"}] HARİTAYA YANSIMIYOR** ve bu bilinçli:
+yerleşim şemasında yabancı tâbiiyet alanı yok (`v:` Osmanlı tâbiiyeti için).
+Zaporojye'de de aynı karar verilmişti — devlet 1654'ten Rus hâkimiyetinde
+ama harita 1775'e kadar `zaporojye` boyuyor, tâbiiyet **künyede** duruyor.
+Aynı deseni burada da sürdürüyorum; **tutarlılık kasıtlı.**
+
+⚠️ `kur:` YAZILMADI: Çerkassk 1570'lerde kurulmuş sayılır ama zincir 1570
+öncesi zaten komşularıyla aynı (`altinorda`/`kirim`) — `kur:` haritada tek
+piksel değiştirmez, uydurma bir gün ise kalıcı yanlış olurdu. Akmescid ·
+Or Kapı · Kırcaali'de verilen kararın aynısı, dördüncü kez.

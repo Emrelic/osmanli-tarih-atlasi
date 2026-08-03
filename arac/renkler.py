@@ -806,6 +806,39 @@ BOYALAR = {
     # Kızıl-magenta `kazak-hanligi` ile menekşe-mavi `zaporojye` tonca da
     # karıştırılamaz — kullanıcının istediği ayrım budur.
     "zaporojye":     ("Zaporojye Kazak Hetmanlığı", "#8c92fe"),
+    # ═══ DON KAZAK ORDASI — `zaporojye`nin kardeşi, kasten UZAK ═══
+    # (RENK oturumu, 2026-08-03 · kimlik VERİ KİMLİK 3'ün, renk ölçüsü RENK'in)
+    # devletler.js: don-kazak · 1570-01-01 → 1721-01-01 · Razdory → Çerkassk
+    #
+    # 🔴 KULLANICI KISITI İKİNCİ KEZ DEVREDE: "Ukrayna kazakları ile Türk olan
+    #   Kazaklar karışmasın" demişti; aynı titizlik Dinyeper ile Don arasında
+    #   da gerekiyor — ikisi de KAZAK ve bozkırda yan yana çizilecekler.
+    #   ⇒ `zaporojye`den ΔE ≥ 25 DAYATILDI (proje eşiği 12). Ulaşılan: 37,2.
+    #     zaporojye ton 294,4° (menekşe-mavi) · don-kazak ton 161,6° (yeşil-turkuaz)
+    #     133° ton farkı — tonca da karışmazlar.
+    #
+    # ⚠️ VERİ KİMLİK 3'ÜN ÖNERİSİ (#429cba) ÖLÇÜLDÜ VE GEÇERLİYDİ — reddedilme
+    #   sebebi ihlal değil, PALET PROFİLİ:
+    #       #429cba  C* 12,1 = %14 yüzdelik  ·  zaporojye'den ΔE 23,2
+    #       #4ac4aa  C* 21,9 = paletin MEDYANI ·  zaporojye'den ΔE 37,2
+    #   İkisi de bütün eşikleri geçiyor; seçilen, palete daha çok ait olan ve
+    #   Kazak ayrımını daha geniş tutan. Ham doygunluk S 0,62 = palet medyanı.
+    #
+    # 🔴 KOMŞU KÜMESİ VARSAYIM — gövde HENÜZ YOK (`d:"don-kazak"` 0 kayıt).
+    #   PETEK/NOKTA iki harita hücresini (Donets · aşağı Don) bu rengi
+    #   bekleyerek açmamıştı; renk önce giriyor ki `zaporojye`nin bugün
+    #   yaşadığı "künye var gövde yok" hâli TEKRARLANMASIN.
+    #   Ölçüm Don havzasında (lon 37-45, lat 46-51 · 1570-1721) sahnede olan
+    #   kimliklerden + koordinatörün listesinden kuruldu:
+    #       rusya · kirim · OSMANLI · zaporojye · nogay · altinorda · lehistan
+    #   ⇒ GÖVDE GELİNCE `renk_olc` GERÇEK komşuluğu ölçecek; o koşuda
+    #     görünmez/çakışma sayıları ARTMAMALI. Ertelenmiş doğrulama, yazıldı.
+    #   📌 `kalmuk` koordinatörün listesindeydi ama BOYALAR'da YOK — engel
+    #     kümesine alınamadı. Kalmuk kimliği bir gün eklenirse bu renk
+    #     yeniden ölçülmeli.
+    # ÖLÇÜM: L* 80,7 · C* 21,9 · ton 161,6 · komşulardan en dar ΔE 15,7 ·
+    #   zaporojye'den 37,2 · altlıktan ayrık · S 0,62
+    "don-kazak":     ("Don Kazak Ordası",          "#4ac4aa"),
 
     # ═══════════ ASYA PARTİSİ — 37/135 (RENK oturumu, 2 Ağustos 2026) ═══════════
     # 🔴 SIFIR YENİ HEX. Palet BÜYÜMÜYOR — hepsi mevcut renklerin paylaşımı.
