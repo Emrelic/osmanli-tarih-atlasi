@@ -401,4 +401,25 @@ window.OLAYLAR_EK13 = [
   d:"Çaldıran'dan sonra Diyarbekir bölgesine yürüyen Bıyıklı Mehmed Paşa Mardin'i kuşattığında Safevî kuvvetleri Ekim 1515'te kaleye çekildi; şehir Osmanlı eline geçtiği hâlde kale direndi. Safevî valisi Kara Han'ın takviyeyle karşı taarruza geçmesi Mayıs 1516'daki Koçhisar (Kızıltepe) Savaşı'yla sonuçlandı — Dede Garkın sahrasında bütün gün süren muharebede Kara Han'ın başı kesildi ve ordusu dağıldı. Kale ise TDV'nin ifadesiyle \"ancak dokuz ay sonra\" teslim oldu; TDV `mardin` maddesi zaptı \"1516 sonlarında (veya Mayıs 1517)\" diye iki okumayla verir. ⚠️ Bu madde, atlasın Mardin için taşıdığı 1517 Mayıs tarihinin karşılığıdır ve Koçhisar Savaşı maddesinden (1516-05-01) AYRI bir olaydır: biri meydan muharebesi, öteki kalenin teslimi. İkisi bir yıl arayla durur ve ikisi de doğrudur.",
   kaynak:"mardin" },
 
+// ===========================================================================
+// İŞ ⑤ — ORHAN GAZİ'NİN ÖLÜMÜ (koordinatörün 8'lik eksik listesinden)
+// ===========================================================================
+// 🔴 TDV'DE MÜSTAKİL MADDE YOK — ARAYÜZ 2'nin bulgusunu BAĞIMSIZ doğruladım:
+//   /arama/?q=orhan gazi  → Madde Başlıkları'nda 5 sonuç ve BEŞİ DE YAPI:
+//     orhan-gazi-camii-ve-imareti · orhan-gazi-kulliyesi · orhan-gazi-turbesi
+//     lala-sahin-pasa-kulliyesi · geyikli-baba-kulliyesi
+//   ⇒ Osmanlı'nın İKİNCİ HÜKÜMDARININ TDV'de biyografik maddesi YOK.
+//     Ölü slug tuzağı DEĞİL (sayfalar gerçek sonuç veriyor); madde gerçekten yok.
+//   ⇒ `CLAUDE.md §4`: "TDV'nin kapsamadığı … için standart akademik referans
+//     yeterlidir." `kaynak:` alanı YAZILMADI (ölü link üretmesin).
+//
+// ⚠️ GÜN YOK: literatür Mart 1362'de birleşiyor, bir kısmı Nisan 1362 diyor.
+//    `padisahlar.js` `to:"1362-03"` taşıyor ⇒ `t:` onunla hizalandı.
+
+{ t:"1362-03-01", k:"taht", etiket:["siyaset"],
+  b:"Orhan Gazi'nin vefatı — beylikten devlete geçen kırk yılın sonu",
+  gun:"Mart 1362 (gün bilinmiyor; kaynakların bir kısmı Nisan 1362 der. `padisahlar.js` 1362-03 taşıyor)",
+  yer:"Bursa", kisiler:"Orhan Gazi, I. Murad, Süleyman Paşa",
+  d:"Osman Gazi'nin 1324'te ölümüyle beyliğin başına geçen Orhan Gazi, otuz sekiz yıllık idaresinde Osmanlı'yı bir uç beyliğinden Marmara'nın iki yakasına oturmuş bir devlete dönüştürdü: Bursa (1326), İznik (1331) ve İzmit (1337) alındı, Karesi Beyliği ilhak edildi, ilk akçe basıldı (1327), ilk medrese İznik'te kuruldu (1331) ve Rumeli'ye geçiş Çimpe (1352) ile Gelibolu (1354) üzerinden kalıcı hâle geldi. Rumeli fütuhatını yürüten büyük oğlu Süleyman Paşa'yı 1357'de bir av kazasında kaybetti; kendisi Mart 1362'de Bursa'da vefat etti ve yerine oğlu I. Murad geçti. ⚠️ TDV İslâm Ansiklopedisi'nde Orhan Gazi'nin müstakil bir maddesi bulunmadığından bu kayıt akademik literatüre dayanmaktadır (Halil İnalcık; Colin Imber, The Ottoman Empire 1300-1650; Feridun Emecen; Cemal Kafadar, Between Two Worlds)." },
+
 ];

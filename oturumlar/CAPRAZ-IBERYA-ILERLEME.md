@@ -1341,3 +1341,174 @@ bağlantı               index.html:203 ✓  ·  js/app.js:2286 concat ✓
 📌 Kendi uyarımı düzeltiyorum: bir ara *"app.js'te ek13 geçmiyor"* dedim —
 yanlıştı, `app.js` dosya adını değil **değişken adını** (`OLAYLAR_EK13`)
 kullanıyor. Bağlantı eksiksiz.
+
+---
+
+# İŞ ① — İRAN PENCERE 2 (1747-1796) ✅ KAYNAK CEVABI
+
+**Ölçüm önce:** pencere **132 kayıtta** düz `iran 1747-06-20 → 1796-01-01`.
+Komşu bloklar: `afsar` 128 kayıt (1736-03-08→1747-06-20) · `kacar` 123 kayıt
+(1796-01-01→1923-10-29). `zend` **0 kayıt**, rengi de **YOK** (BOYALAR'da
+`zend` anahtarı yok — RENK'in "ölçtü ama yazmadı" durumu doğrulandı).
+
+### 🔴 ÖNCE İKİ ÖLÜ SLUG — projenin listesine eklenmeli
+```
+/zendiler   🔴 ÖLÜ  — doğrusu  /zendler
+/afsarlar   🔴 ÖLÜ  — doğrusu  /avsarlilar
+```
+**CANLI ve kullanılanlar** (`<title>` ile sınandı):
+`/zendler` · `/kerim-han-zend` · `/lutf-ali-han` · `/cafer-han` ·
+`/kacarlar` · `/kacarlar--ek` · `/avsarlilar` · `/aga-muhammed-sah`
+
+### · Zend Şiraz'ı ne zaman aldı / kaybetti
+```
+1751 başı      Kerim Han "yönetimi ele alarak Zendler'i fiilen İran'da
+               iktidara geçirdi"                              (TDV zendler)
+1180 (1766-67) "Kerim Han 1180 (1766-67) yılında ŞÎRAZ'ı BAŞŞEHİR yaptı"
+1779 Mart      Kerim Han'ın ölümü
+1789 Eylül     Ağa Muhammed Şiraz'ı kuşattı ama ALAMADI      (TDV aga-muhammed-sah)
+1791 Haziran   Lutf Ali Han bozguna uğratıldı
+🔴 1793-07-10  ŞÎRAZ DÜŞTÜ — "1 Zilhicce 1207 / 10 Temmuz 1793"  (TDV zendler)
+   1794 Aralık Lutf Ali Han öldürüldü, "Cemâziyelâhir 1209 / Aralık 1794"
+               ⇒ "Zend hânedanı tarihe karıştı"
+```
+⇒ **Zend penceresi: 1751 → 1793-07-10 (Şiraz) / 1794-12 (hanedan).**
+Gün düzeyinde tek kesin tarih **10 Temmuz 1793.**
+
+### · Kaçar kuzeyi ne zaman aldı · Şiraz'ı ne zaman aldı
+```
+1782 başı      "Ağa Muhammed 1782 yılı başında Esterâbâd'a geldi";
+               aynı yıl Gîlân alındı                         (TDV aga-muhammed-sah)
+🔴 1786-03-12  "11 Cemâziyelevvel 1200 (12 Mart 1786) tarihinde TAHRAN'da
+                şahlık tahtına oturdu"
+1793-07-10     Şîraz (yukarıda)
+1794           Lutf Ali Han'ın kesin yenilgisi
+1795           Şâhruh ile karşılaşma
+1797-06-17     Ağa Muhammed'in öldürülmesi "21 Zilhicce 1211 / 17 Haziran 1797"
+```
+🔴 **VE BU, ATLASIN 1796 SINIRINI DOĞRUDAN SORGULUYOR:**
+`/kacarlar--ek` Ağa Muhammed Şah'ı **"Kaçar Devleti'nin kurucusu (1786-1797)"**
+diye tanıtıyor. Yani **TDV Kaçar devletini 1786'dan başlatıyor**, 1796'dan değil.
+Atlasın `kacar 1796-01-01` sınırı TDV'nin tarihiyle **on yıl** ayrışıyor.
+
+### · Afşar Horasan'da 1796'ya kadar mı · Meşhed ne zaman düştü
+```
+1747-07-06     Ali Kulı Han (Âdil Şah) şah ilan edildi; Mayıs 1748'de kör edildi
+1748 Ekim      Şâhruh Mirza tahta (13-14 yaşında)
+1753-1770      Meşhed'i Şâhruh'un oğlu Nasrullah Mirza savundu
+🔴 1796        "Şâhruh Mâzenderan'a giderken yolda vefat etti (1210/1796)"
+               — Ağa Muhammed Şah geldiğinde. ⇒ MEŞHED 1796'DA DÜŞTÜ.
+⚠️ 1804 Şubat  Nâdir Sultan ve oğulları Abbas ile İbrâhim'in "hayatına son
+               verildi (Şubat 1804)"
+   ⇒ TDV `avsarlilar` hanedanı 1736-1804 sayıyor, 1736-1796 DEĞİL.
+```
+⇒ **Koordinatörün sorusuna cevap: EVET, Horasan 1796'ya kadar Afşar.**
+Ama **kuyruk 1804'e uzanıyor** ve TDV hanedanı öyle bitiriyor.
+
+### ⇒ PENCERENİN GERÇEK ŞEKLİ — üç devlet, üç ayrı takvim
+```
+HORASAN     afsar   1747-06-20 → 1796        (kuyruk 1804'e kadar)
+GÜNEY/FARS  zend    1751       → 1793-07-10  🔴 KİMLİK ve RENK YOK
+KUZEY       kacar   1786-03-12 → …           TDV devleti 1786'dan başlatıyor
+```
+🔴 **`zend` gövdesi olmadan yazılamaz** — senin kendi uyarın (`zaporojye` gibi
+inert anahtar olur). Ama artık **gövdenin tarihleri var**: 1751 başlangıç,
+1766-67 Şiraz başkent, **1793-07-10** Şiraz'ın kaybı.
+⇒ RENK oturumuna gidecek şey: `zend` rengi + `f:1751-01-01` `t:1794-12-01`.
+
+⚠️ **Bu üç takvim aynı noktalara aynı anda uygulanamaz** — pencere bugün
+132 kayıtta TEK blok. Hangi noktanın hangi devlete gideceği coğrafî bir
+ayrım işidir (Fars/Kirman → zend · Horasan → afsar · Mâzenderan/Gîlân/
+Tahran → kacar) ve o ayrımı ben yapmadım: **ölçüm sende, karar sende.**
+
+---
+
+# İŞ ② — ORHAN GAZİ ✅ TESLİM
+
+### 🔴 TDV'de müstakil madde YOK — bağımsız doğrulandı
+ARAYÜZ 2'nin ayrımı **doğru**. `/arama/?q=orhan gazi` → Madde Başlıkları'nda
+**5 sonuç ve beşi de YAPI**:
+```
+orhan-gazi-camii-ve-imareti · orhan-gazi-kulliyesi · orhan-gazi-turbesi
+lala-sahin-pasa-kulliyesi   · geyikli-baba-kulliyesi
+```
+⇒ Osmanlı'nın **ikinci hükümdarının** TDV'de biyografik maddesi yok. Ölü slug
+tuzağı değil — sayfalar gerçek sonuç veriyor, madde gerçekten yok.
+⇒ `§4` gereği akademik referans: **Halil İnalcık · Colin Imber, *The Ottoman
+Empire 1300-1650* · Feridun Emecen · Cemal Kafadar, *Between Two Worlds*.**
+
+### ✅ Ölüm maddesi YAZILDI — `olaylar_ek13.js` A-21
+```
+1362-03-01  taht  "Orhan Gazi'nin vefatı — beylikten devlete geçen kırk yılın sonu"
+            kaynak: YOK (bilerek — TDV'de karşılığı olmayan maddeye slug
+                    yazmak ölü link üretir)
+```
+⚠️ Gün yok: literatür **Mart 1362**'de birleşiyor, bir kısmı Nisan 1362 der.
+`padisahlar.js` `to:"1362-03"` taşıdığı için `t:` onunla hizalandı.
+
+### 📋 KARTVİZİT METNİ — `padisahlar.js` senin dosyan, buraya yazıyorum
+> Osman Gazi'nin 1324'te ölümüyle beyliğin başına geçti ve otuz sekiz yılda
+> Osmanlı'yı bir uç beyliğinden Marmara'nın iki yakasına oturmuş bir devlete
+> dönüştürdü. Bursa'yı alıp başşehir yaptı (1326), İznik (1331) ve İzmit'i
+> (1337) fethetti, Karesi Beyliği'ni ilhak ederek Çanakkale Boğazı'nın
+> Anadolu yakasına ulaştı. İlk Osmanlı akçesini bastırdı (1327), ilk medreseyi
+> İznik'te kurdu (1331) ve düzenli bir yaya-müsellem ordusunun temelini attı.
+> Rumeli'ye geçiş onun devrinde kalıcı hâle geldi: Çimpe (1352) ve Gelibolu
+> (1354) ile Osmanlı Avrupa'ya yerleşti. Rumeli fetihlerini yürüten büyük oğlu
+> Süleyman Paşa'yı 1357'de kaybetti; kendisi Mart 1362'de Bursa'da vefat etti.
+
+### ⚠️ YAN BULGU — Orhan'ın CÜLÛS TARİHİ verinin İÇİNDE ÜÇ FARKLI YERDE
+```
+padisahlar.js   from:"1326-04"                        ← Bursa'nın fethi
+olaylar         1324-08-01 "Osman Gazi'nin vefatı ve Orhan Bey'in beyliğe geçişi"
+olaylar         1320-01-01 "Orhan Bey'in fiilî yönetimi devralması"
+```
+⇒ Üç ayrı tarih, üç ayrı kayıt. **Padişah kartı 1326'yı, kronoloji 1324'ü
+söylüyor** — kullanıcı ikisini yan yana görüyor. Benim işim değildi, ölçerken
+çıktı; `padisahlar.js` senin dosyan.
+
+---
+
+# İŞ ③ — BAHREYN: HANGİ HALKALAR BOŞ (bu sefer YAPIŞTIRMAYA HAZIR)
+
+⚠️ Bu cevabı iki kez yazdım (`§İŞ ③` ve `§KOORDİNATÖRÜN İKİ SORUSU §②`).
+Bu sefer **prozayı bırakıp doğrudan kayıt veriyorum.**
+
+### 🟢 KAPALI — tarih VAR, renk VAR, madde VAR (7 halkanın 6'sı)
+```js
+// data/yerlesimler.js:881 — "Manama (Bahreyn)" kaydının s: dizisi
+s:[{f:"1281-01-01",t:"1417-01-01",d:"usfuri"},     // 🟡 tarih ödünç (Katîf/Lahsa deseni)
+   {f:"1417-01-01",t:"1521-01-01",d:"cebri"},      // 🟡 tarih ödünç · TDV Cebrîler'i ADIYLA anıyor
+   {f:"1521-01-01",t:"1602-01-01",d:"portekiz"},   // 🟢 İKİ UCU DA TDV — D9'un aradığı 81 yıl
+   {f:"1602-01-01",t:"1717-01-01",d:"safevi"},     // 🟢 f: TDV · t: literatür
+   {f:"1717-01-01",t:"1753-01-01",d:"umman"},      // 🟡 iç ayrıntısı karışık
+   {f:"1753-01-01",t:"1783-01-01",d:"iran"},       // 🟢 Âl-i Mezkûr, Zend'in Bûşehr valisi
+   /* 🔴 1783-01-01 → 1861-05-31 — BURASI BOŞ, aşağıya bak */
+   {f:"1861-05-31",t:"1923-10-29",d:"ingiltere"}]  // ZATEN VAR, dokunulmadı
+```
+Maddeler: A-12…A-19, hepsi `kaynak:"bahreyn"`, hepsi CANLI.
+
+### 🔴 AÇIK — TEK halka, ve engel KAYNAK DEĞİL RENK
+```
+1783-01-01 → 1861-05-31   ÂL-İ HALÎFE   78 YIL
+```
+`renkler.py` BOYALAR **226 kimlik** tarandı:
+`alihalife` ✗ · `al-halife` ✗ · `halife` ✗ · `utub` ✗ · `bahreyn` ✗
+⇒ **Tarih hazır (A-18, TDV: "1783 yılında Utûb kabilesinden Âl-i Halîfe'nin
+hâkimiyetine girdi"), eksik olan yalnız RENK.** RENK oturumuna tek satır iş.
+
+### 🟡 AÇIK — karar kalemleri (veri yazmayı ENGELLEMEZ)
+```
+1559      TDV Osmanlı'nın adayı ALDIĞINI yazıyor ("tekrar Portekizliler'in
+          idaresine geçen adalar"), batı literatürü kuşatmayı BAŞARISIZ sayıyor.
+          TDV okuması seçilirse ARAYA bir `d:` dönemi girer ve HARD Değişmez 2
+          kırılması doğar; TDV kapanış tarihi VERMİYOR. 🔴 SEÇMEDİM.
+1861      atlas 31 Mayıs · TDV 21 Mayıs. On günlük fark ÇÖZÜLMEDİ.
+1281-1521 tarihleri TDV'den DEĞİL, komşu kayıtlardan ödünç. Daha iyi kaynak
+          çıkarsa taşınır.
+```
+
+### ⇒ TEK CÜMLE
+**`alihalife` rengi yazılınca `Manama` kaydı 1281'den 1923'e kesintisiz
+yazılabilir ve `Değişmez 1b` deliği kapanır.** Başka hiçbir şey beklemiyor.
+

@@ -163,6 +163,15 @@ GIRDI_DOSYALARI = [
     # 📌 Sloboda bozkiri: YENI IDDIA TASIMIYOR -- zinciri Harkov'un birebir
     #    aynisi, tek isi hucrenin cozunurlugunu 115 -> 67 km indirmek.
     "yerlesimler_ek4.js",
+    # 1 nokta (PETEK/NOKTA parti 12): Gyula (Gole). CLAUDE.md 3.5.1 onu
+    # ACIKCA sayiyordu ama dort nokta eklenirken ATLANMISTI; MOTOR 3 okudu,
+    # TDV `timisvar` dogruladi ("Timisvar, GOLE (Gyula) ve Arad").
+    "yerlesimler_ek5.js",
+    # 3 nokta (PETEK/NOKTA parti 17). Cerkask (Razdory) DON ORDUSU'NUN
+    # BASKENTI -- devletler.js kunyesinde yaziliydi, HARITADA YOKTU.
+    # + Don ve Donets bozkirlari: hucre 8 (133->71 km), hucre 10 (156->83).
+    # Dordu de s:->s:, Degismez 2 borcu SIFIR.
+    "yerlesimler_ek6.js",
     "yerlesimler_afrika.js",
     # 15 nokta (NOKTA EKLEME, 1 Ağustos 2026). Beş boşluğun ölçülmüş kapanışı:
     # Yukarı Macaristan 4 (Kassa·Eperjes·Tokaj·Sopron, ~28.000 km² 91 yıl yanlış

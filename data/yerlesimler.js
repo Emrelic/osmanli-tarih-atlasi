@@ -435,9 +435,16 @@ window.YERLESIMLER = [
 // ⚠️ TDV yalnız YIL veriyor; 18 Haziran 1637 günü, 21 Nisan'da başlayan
 // kuşatmanın bitiş günü olarak literatürde standarttır. Kimlik olarak "rusya"
 // seçildi: Don Kazakları çarın tebaasıydı (çar kaleyi devralmayı reddetti) ve
+// ⚠️ 3 Ağustos 2026: `don-kazak` kimliği yazıldı (4b51409) ve BU ÖDÜNCÜN
+// GEREKÇESİ ORTADAN KALKTI; pencere `don-kazak`a çevrildi. Aşağıdaki
+// "renkler.py'de Kazak kimliği yok" gerekçesi artık geçersiz. VE DİKKAT:
+// yukarıdaki "ÇAR KALEYİ DEVRALMAYI REDDETTİ" cümlesi zaten `rusya`yı
+// çürütüyordu — devralmayı reddeden devlet o kalenin sahibi olamaz.
+// Üstelik künye Rus tâbiiyetini 1671'den başlatıyor; 1637-42'de Ordu
+// çarın tâbii bile değildi. 1696 ve 1774 pencereleri `rusya` KALDI.
 // aynı kayıt 1696 ve 1774 pencerelerinde de "rusya" kullanıyor; renkler.py'de
 // Kazak kimliği yok, rastgele renk eklemek DSATUR dengesini bozar.
-{ ad:"Azak", tur:"kale", lat:47.113, lon:39.423, g:0, k:3, m:"Kefe", s:[{f:"1281-01-01",t:"1475-06-06",d:"ceneviz"},{f:"1637-06-18",t:"1642-02-26",d:"rusya"},{f:"1696-07-19",t:"1711-07-21",d:"rusya"},{f:"1774-07-21",t:"1923-10-29",d:"rusya"}], d:[{f:"1475-06-06",t:"1637-06-18",y:"kusatma"},{f:"1642-02-26",t:"1696-07-19",y:"kusatma"},{f:"1711-07-21",t:"1774-07-21",y:"antlasma"}] },
+{ ad:"Azak", tur:"kale", lat:47.113, lon:39.423, g:0, k:3, m:"Kefe", s:[{f:"1281-01-01",t:"1475-06-06",d:"ceneviz"},{f:"1637-06-18",t:"1642-02-26",d:"don-kazak"},{f:"1696-07-19",t:"1711-07-21",d:"rusya"},{f:"1774-07-21",t:"1923-10-29",d:"rusya"}], d:[{f:"1475-06-06",t:"1637-06-18",y:"kusatma"},{f:"1642-02-26",t:"1696-07-19",y:"kusatma"},{f:"1711-07-21",t:"1774-07-21",y:"antlasma"}] },
 { ad:"Taman", tur:"kale", lat:45.2029, lon:36.7172, g:0, k:3, m:"Kefe", s:[{f:"1281-01-01",t:"1482-06-01",d:"ceneviz"},{f:"1774-07-21",t:"1923-10-29",d:"rusya"}], d:[{f:"1482-06-01",t:"1774-07-21"}] },
 { ad:"Anapa", tur:"kale", lat:44.894, lon:37.316, g:0, k:3, m:"Kefe", s:[{f:"1281-01-01",t:"1781-01-01",d:"kirim"},{f:"1829-09-14",t:"1923-10-29",d:"rusya"}], d:[{f:"1781-01-01",t:"1829-09-14"}] },
 { ad:"Sohum", tur:"liman", lat:43.001, lon:41.023, g:0, k:3, m:"Trabzon", s:[{f:"1281-01-01",t:"1578-08-09",d:"gurcistan"},{f:"1810-07-01",t:"1923-10-29",d:"rusya"}], d:[{f:"1578-08-09",t:"1810-07-01"}] },

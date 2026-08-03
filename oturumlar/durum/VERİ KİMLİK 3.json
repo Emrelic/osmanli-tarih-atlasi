@@ -1,6 +1,6 @@
 {
  "ad": "VERİ KİMLİK 3",
  "hal": "hazir",
- "not": "devletler.js YAZILDI (302 kayit): don-kazak kunyesi + 52 KOPRU satiri. renkler.py'ye DOKUNMADIM (RENK'in). Kapsama: denetlenebilen kimlik 172->225, denetlenemeyen 97->45, denetime giren donem +1040, kapsama %76->%94. 24 GIZLI HAYALET ortaya cikti (meysur 124y, maratha 105y, navarra 108y...) - cogunda VERI degil KUNYE dar, hicbirini tek tarafli duzeltmedim, karar gerekiyor. don-kazak RENGI RENK'ten bekleniyor (onerim #429cba, olcusu KIMLIK-DON-KAZAK.md). 2t 52->61 BENDEN DEGIL: defter r724'un CAPRAZ IBERYA maddelerini gosteriyor.",
- "damga": "2026-08-03 14:15"
+ "not": "KALMUK taslagi hazir: oturumlar/KIMLIK-KALMUK.md. TDV kalmuklar KENDIM dogruladim, dort tarih de sabit (1618 goc / 1632 kurulus / 1724 Rus bagimliligi / 1770 Ubasi gocu). Kunye 1632-1770 + tabi rusya 1724'ten. RENK SECMEDIM. RENK'e not: kalmuk ve don-kazak 1632-1721 arasi ESZAMANLI ve SINIRDAS, ikisi BIRLIKTE cozulmeli (renk_olc'un aragon/kastilya kurali). ISIM TUZAGI: cungar'in gorunen adi zaten 'Cungar Hanligi (Kalmuk)' ve tarihleri ORTUSUYOR - mogolistan/mogulistan sinifi. Kalmuk bozkiri kaydinda IKI hata var, ikincisi (altinorda 1281-1556) benim maruziyet olcumumde 2. sirada; tam zincir icin astarhan RENGI gerekiyor.",
+ "damga": "2026-08-03 18:08"
 }

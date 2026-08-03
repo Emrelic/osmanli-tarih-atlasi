@@ -2451,3 +2451,61 @@ Aynı deseni burada da sürdürüyorum; **tutarlılık kasıtlı.**
 öncesi zaten komşularıyla aynı (`altinorda`/`kirim`) — `kur:` haritada tek
 piksel değiştirmez, uydurma bir gün ise kalıcı yanlış olurdu. Akmescid ·
 Or Kapı · Kırcaali'de verilen kararın aynısı, dördüncü kez.
+
+---
+---
+
+# PARTİ 17 — `data/yerlesimler_ek6.js` · DON KAZAK gövdesi
+
+Sekiz kontrol temiz · Değişmez 2 borcu **sıfır** · Değişmez 3 çelişki 0 ·
+maske 3/3 · renk 4/4 (`don-kazak #4ac4aa` dahil) · sahipsiz sayacı artmıyor.
+
+```
+Çerkask (Razdory)   47,240/40,050  kale    🔴 ORDU'NUN BAŞKENTİ — künyede
+                                            yazılıydı, haritada YOKTU
+Don bozkırı (Sal)   47,000/42,300  bolge   hücre 10
+Donets bozkırı      48,800/39,000  bolge   hücre  8
+
+zincir  altinorda →1502-03-01 · kirim →1570-01-01 · don-kazak →1721-01-01 · rusya
+        dördü de s:→s: ⇒ kırılma YOK
+etki    hücre  8   133 km → 71 km
+        hücre 10   156 km → 83 km
+```
+⇒ Seyreklik listemin **8 ve 10. sıraları kapandı.** Aylardır "AÇ ama kimlik
+yok" diye duruyorlardı; sebep seyreklik değil kimlik eksiğiydi ve kimlik geldi.
+
+## 🔴 KALMUK SORUSUNA CEVAP: EVET, GERÇEK — ve TDV ile sabit
+TDV `kalmuklar` (CANLI): göç dalgaları **1618-1632**; **İdil Kalmuk Hanlığı
+1632'de kuruldu**, **1724**'te Rus hâkimiyetine girdi, **1770**'te Ubaşi
+Han'ın göçüyle batıdaki devlet fiilen sona erdi. Madde ayrıca *"bir yandan
+Kırım Hanlığı, bir yandan Rus Çarlığı ile savaşarak bağımsızlıklarını
+korudular"* diyor — yani bağımsız bir siyasî varlık, nüfus değil.
+
+⇒ **Kimlik gerekiyor.** Bu dosyada olmadığı için **Sal noktasını batıya
+çektim**: `47,00/43,00` → **`47,00/42,30`**. Kalmuk bozkırı'na 250 km, Sal
+vadisinin içinde, tartışmasız Don Ordası toprağı. Kalmuk sahasına girmedim.
+
+### 📌 AYRI BULGU — `Kalmuk bozkırı` kaydı da bir ödünç
+```
+bugünkü hâli   Kalmuk bozkırı (46,50/45,50)
+               altinorda 1281→1556 · rusya 1556→1923
+```
+🔴 Kayıt **adını taşıdığı halkın devletini hiç göstermiyor**, üstelik
+Kalmuklar oraya **1632**'de geldiği hâlde **1556**'dan Rusya boyanıyor.
+Azak'takiyle **aynı sınıf ödünç** — ve bugün üçüncüsü (Azak · Kalmuk bozkırı ·
+ve daha önce Bozkır'ın "Kırım'da mı Nogay'da mı" notu).
+⇒ `kalmuk` kimliği gelince: `rusya 1556→1632 · kalmuk 1632→1724 ·
+rusya 1724→1923` (TDV `kalmuklar`). **VERİ KİMLİK 3'e.**
+
+## Şema tutarlılığı — bilerek korunan iki karar
+```
+tabi:[1671→1721, rusya]  HARİTAYA YANSITILMADI
+   sebep: yerleşim şemasında yabancı tâbiiyet alanı yok (`v:` Osmanlı içindir)
+   📌 Zaporojye Seçi'nde de aynı karar verildi (1654 Rus hâkimiyeti künyede
+      kaldı, harita 1775'e kadar zaporojye boyuyor). İki kazak kimliği
+      farklı kuralla çizilseydi harita kendi içinde çelişirdi.
+kur: YAZILMADI
+   Çerkassk 1570'lerde kurulmuş sayılır ama zincir 1570 öncesi zaten
+   komşularıyla aynı; uydurma gün kalıcı yanlış olurdu.
+   Akmescid · Or Kapı · Kırcaali kararının dördüncü tekrarı.
+```
