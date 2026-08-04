@@ -90,16 +90,28 @@ def _govde_to_json(govde):
                     break
                 buf.append(cj)
                 j += 1
-            dizeler.append(json.dumps("".join(buf)))
+            dizeler.append("".join(buf))   # HAM metin — json.dumps() ancak geri koyarken
             out.append("\x00%d\x00" % (len(dizeler) - 1))
             i = j
             continue
         out.append(c)
         i += 1
     text = "".join(out)
+    # 🔴 KISILER.js'te YENİ örüntü (26 kartvizit birleşiminden sonra ölçüldü):
+    # `"metin1" + "metin2"` — JS'te satır sarma için geçerli, JSON'da DEĞİL.
+    # Yer tutucular arasında `+` görülürse HAM dizeleri BİRLEŞTİRİP TEK yer
+    # tutucuya indirgiyoruz — zincirleme (3+ parça) için sabit noktaya kadar
+    # tekrarlanır.
+    birlesim = re.compile(r"\x00(\d+)\x00\s*\+\s*\x00(\d+)\x00")
+    while True:
+        m = birlesim.search(text)
+        if not m:
+            break
+        dizeler.append(dizeler[int(m.group(1))] + dizeler[int(m.group(2))])
+        text = text[:m.start()] + ("\x00%d\x00" % (len(dizeler) - 1)) + text[m.end():]
     text = re.sub(r'([{,]\s*)([A-Za-zçğıöşüÇĞİÖŞÜ_]\w*)\s*:', r'\1"\2":', text)
     text = re.sub(r',(\s*[\]}])', r'\1', text)
-    text = re.sub(r"\x00(\d+)\x00", lambda m: dizeler[int(m.group(1))], text)
+    text = re.sub(r"\x00(\d+)\x00", lambda m: json.dumps(dizeler[int(m.group(1))]), text)
     return text
 
 

@@ -1,6 +1,6 @@
 {
  "ad": "ARAYUZ 2",
  "hal": "hazir",
- "not": "ARAYUZ-4 SS8 bitti: ayarlar tek satirda kronoloji basligina tasindi, yakinlik surgusu km gosteriyor (olculmus capa noktalari), panel-ofseti/ayni-yer-atlama/hizli-gecis-jumpTo hepsi yazildi ve gercek veriyle test edildi. Emre'nin gozle onaylamasi gereken 2 madde var.",
- "damga": "2026-08-04 02:52"
+ "not": "Kartvizit sekme iskeleti bitti (👤 Kisi + 🎭 Magazin, gercek 19 capayla test edildi). Ayrica denetle_gorunur.py'a yeni kisiler.js icerigiyle tekrar kostum: string-birlestirme (+ ile) parser'i kirdi, duzelttim; ve bir yeni bulgu: Ahi Evran maddesi (1262) atlas siniri disinda.",
+ "damga": "2026-08-04 03:08"
 }

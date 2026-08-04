@@ -116,17 +116,26 @@
       <div id="ob-yer-yok"></div>
       <div id="ob-detay"></div>
       <div id="ob-ozel"></div>
-      <!-- PADISAH-KARTVIZITI.md — yalnız o.vefat_id çözülen maddede dolar
-           (js/app.js obGoster). "Nasıl bilirdiniz": künye + magazin +
-           övgü/yergi/tartışma/tarihçiler. -->
+      <!-- DUYGU-VE-SEKME-SARTNAME.md §B — PADISAH-KARTVIZITI.md yalnız
+           o.vefat_id çözülen maddede dolar (js/app.js kartvizitGuncelle).
+           §B③: sekme kaydırıcısı; İÇERİĞİ OLMAYAN sekme HİÇ açılmaz (gri
+           de durmaz), tek sekme kalırsa çubuk hiç çizilmez — bugün yalnız
+           "👤 Kişi" (künye + nasıl bilirdiniz) ve "🎭 Magazin" (skandal)
+           var; sebep-sonuç/ek-okuma verisi geldiğinde js/app.js'e yeni
+           panel eklemek yeter, bu iskelet zaten çoğaltılabilir. -->
       <section id="ob-kartvizit" class="gizli">
-        <div class="kv-kunye"></div>
-        <div class="kv-magazin"></div>
-        <div class="kv-nasil-bilirdiniz">
-          <div class="kv-satir kv-ovgu"></div>
-          <div class="kv-satir kv-yergi"></div>
-          <div class="kv-satir kv-tartisma"></div>
-          <div class="kv-satir kv-tarihciler"></div>
+        <div id="kv-sekmeler"></div>
+        <div class="kv-panel" data-sekme="kisi">
+          <div class="kv-kunye"></div>
+          <div class="kv-nasil-bilirdiniz">
+            <div class="kv-satir kv-ovgu"></div>
+            <div class="kv-satir kv-yergi"></div>
+            <div class="kv-satir kv-tartisma"></div>
+            <div class="kv-satir kv-tarihciler"></div>
+          </div>
+        </div>
+        <div class="kv-panel" data-sekme="magazin">
+          <div class="kv-magazin"></div>
         </div>
       </section>
       <!-- EK-OKUMA.md + MERAK.md — buton yalnız kart VARSA çıkar (js/app.js).

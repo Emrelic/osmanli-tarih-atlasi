@@ -3080,6 +3080,50 @@ var KARTVIZIT_ROZET = { padisah: "☾", sadrazam: "🕌", "vezir-pasa": "🕌",
   komutan: "⚔", denizci: "⚓", hanedan: "👑", alim: "📖", edebiyatci: "📖",
   mimar: "🏛", siyasi: "🕌" };
 
+// DUYGU-VE-SEKME-SARTNAME.md §B — sekme kaydırıcısı. Sabit emoji/etiket
+// eşleşmesi §B③'te çivilenmiş; her giriş kendi İÇERİĞİNİN olup olmadığını
+// döndüren bir işlev taşıyor, `kartvizitSekmeleriKur` yalnız DOLU olanları
+// sekme yapıyor. Yeni bir sekme (sebep-sonuç, ek okuma) eklemek bu diziye
+// bir satır eklemek kadar ucuz olsun diye tasarlandı.
+var KV_SEKME_TANIM = [
+  { id: "kisi", etiket: "👤 Kişi", doluMu: function (k) { return !!(k.dogum || k.olum || k.baba); } },
+  { id: "magazin", etiket: "🎭 Magazin", doluMu: function (k) {
+      return !!(k.skandal || (k.esler && k.esler.length) || (k.cocuk && (k.cocuk.oglan || k.cocuk.kiz)));
+    } }
+];
+var kvSeciliSekme = "kisi";
+
+function kartvizitSekmeleriKur(k) {
+  var sekmelerEl = obKartvizit.querySelector("#kv-sekmeler");
+  var dolular = KV_SEKME_TANIM.filter(function (t) { return t.doluMu(k); });
+  // §B③②: tek sekme kalıyorsa çubuk HİÇ çizilmez.
+  sekmelerEl.innerHTML = "";
+  sekmelerEl.classList.toggle("gizli", dolular.length <= 1);
+  if (!dolular.some(function (t) { return t.id === kvSeciliSekme; })) {
+    kvSeciliSekme = dolular.length ? dolular[0].id : "kisi";
+  }
+  dolular.forEach(function (t) {
+    var b = document.createElement("button");
+    b.className = "kv-sekme-btn" + (t.id === kvSeciliSekme ? " aktif" : "");
+    b.textContent = t.etiket;
+    b.addEventListener("click", function () {
+      kvSeciliSekme = t.id;
+      obKartvizit.querySelectorAll(".kv-sekme-btn").forEach(function (x) { x.classList.remove("aktif"); });
+      b.classList.add("aktif");
+      obKartvizit.querySelectorAll(".kv-panel").forEach(function (p) {
+        p.classList.toggle("gizli", p.dataset.sekme !== t.id);
+      });
+    });
+    sekmelerEl.appendChild(b);
+  });
+  var doluIdler = dolular.map(function (t) { return t.id; });
+  obKartvizit.querySelectorAll(".kv-panel").forEach(function (p) {
+    // İçeriği olmayan panel HİÇ görünmez (§B③①) — aktif sekmeden ayrı, bağımsız kural.
+    var doluMu = doluIdler.indexOf(p.dataset.sekme) >= 0;
+    p.classList.toggle("gizli", !doluMu || p.dataset.sekme !== kvSeciliSekme);
+  });
+}
+
 var obKartvizit = document.getElementById("ob-kartvizit");
 function kartvizitGuncelle(o) {
   if (!obKartvizit) return;
@@ -3087,6 +3131,7 @@ function kartvizitGuncelle(o) {
   var k = vefatKisiBul(o.vefat_id);
   if (!k) { obKartvizit.classList.add("gizli"); return; }   // id bozuk/silinmiş — sessizce göstermiyoruz, veri hatası ayrı denetimin işi
   obKartvizit.classList.remove("gizli");
+  kartvizitSekmeleriKur(k);
 
   var kunye = obKartvizit.querySelector(".kv-kunye");
   var satirlar = [];
