@@ -44,7 +44,7 @@ YASAK_KIYIM = set(["🎉", "😀", "😂", "🤣", "🤮", "👏", "🏆", "💍
 
 def kayitlar(t):
     out = []
-    for m in re.finditer(r'\{\s*t:\s*"\d{4}-\d{2}-\d{2}"', t):
+    for m in re.finditer(r'\{\s*t:\s*"\d{4}(?:-\d{2}){0,2}"', t):
         d, q, esc, son = 0, None, False, None
         for j in range(m.start(), len(t)):
             c = t[j]
