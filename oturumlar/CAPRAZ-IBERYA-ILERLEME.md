@@ -1822,3 +1822,111 @@ TDV okumasını seçersen zincir olduğu gibi uygulanamaz.
 uydurulmuş bir tarihle kapatmak, 43 yıllık **araştırılmış görünen** bir hata
 üretir. Bilinen boşluk, makul uydurmadan iyidir.
 
+
+---
+
+# 🔚 GÜN SONU — ÇAPRAZ İBERYA KAPANIŞ (3 Ağustos 2026)
+
+## ✅ BİTTİ — hepsi dosyada, doğrulanmış, canlı
+
+```
+oturumlar/CAPRAZ-IBERYA-ILERLEME.md   bu dosya — çapraz sorgu raporu
+   D1-D11 düzeltme · Ç-A…Ç-D çelişki · 38 Portekiz döneminin kutu dağılımı
+   Couto (1780) ve Danvers I (1894) BİRİNCİL METİNDEN okundu
+
+data/olaylar_ek13.js    21 madde · CANLI (index.html:203 + app.js:2286)
+   Tunus 2 (1569 · 1573-10-10)
+   Portekiz Fası 9 (1471-08-24 … 1769-03-11)
+   Bahreyn 8 (1417 … 1861-05-31, 1559 seferi dahil)
+   Mardin 1 (1517-05-01) · Orhan Gazi'nin vefatı 1 (1362-03-01)
+
+data/merak.js           8 kart · altyapı hazır, bağlama gerekmiyor
+   900 karakter sınırı: 8/8 uyuyor (ilk yazımda 7'si aşıyordu, kısaltıldı)
+   29 bağlantının 29'u canlı kronolojide — ölü bağlantı 0
+```
+**Son doğrulama (bu mesajdan hemen önce):** merak 8 kart / 0 aşan / 0 ölü
+bağlantı · ek13 21 madde · sözdizimi temiz · veri dosyalarına dokunulmadı.
+
+### Kaynak cevapları (veri değil, hüküm — koordinatörde)
+```
+İran penceresi   Şiraz 1793-07-10 KESİN · Kaçar 1796 DOĞRULANDI (kendi 1786
+                 bulgumu geri aldım) · Meşhed 1750/54'ten Dürrânî · Afşar
+                 kuyruğu 1804
+Bahreyn zinciri  8 halka, halka halka kaynak durumu: 2 tam · 4 kısmî · 2 kaynaksız
+Mardin           iki tarih de doğru, AYRI OLAYLAR
+Orhan Gazi       TDV'de madde YOK (doğrulandı) · kartvizit metni raporda
+```
+
+---
+
+## ⬜ HİÇ BAŞLANMADI — "yarım" demiyorum, çünkü değil
+
+`ONCELIK K8` gereği olduğundan iyi göstermiyorum. Bunlar **%0**:
+
+```
+① MERAK.md'nin KENDİ kuyruğu ④-⑨  — ALTI KART, hiç açılmadı
+   Otranto · Timur niçin yutmadı · Arabistan-körfez · müslümanlaşma ·
+   keşifler · Orta Asya
+   ⚠️ Yazdığım 8 kart KUTUDAKİ kullanıcı sorularıydı, şartnamenin kuyruğu
+     DEĞİL. Kesişen tek başlık kardeş katliydi. İki liste ayrı iş.
+   📌 §152'nin "en hassası" dediği ⑦ müslümanlaşma kartı bilerek yazılmadı:
+     taraf tutmayan bir kart için ayrıca kaynak taraması gerekiyor.
+
+② HAEDO, «Topografía e historia general de Argel» — HİÇ AÇILMADI
+   🔴 Bu, BENİM ASIL BRİFİNGİMİN ③ BAŞLIĞIYDI ve gün boyunca hiç
+     cevaplanamadı: "İspanyol kaynakları Cezayir/Tunus/Trablusgarp
+     ocaklıklarını 'Türk devleti' mi 'Osmanlı eyaleti' mi sayıyor?"
+   Atlastaki `v:` (tâbi) kaydı bu turda ne doğrulandı ne çürütüldü.
+   ⇒ Devamı için: arşivde nüsha OLDUĞUNU gördüm ama açmadım. Aramaya
+     `creator:(Haedo)` ile başlanmalı; Danvers vakasında olduğu gibi
+     KÜNYE doğrulamak yetmez, GÖVDE de sınanmalı (bir nüsha 1510'da kesikti).
+```
+
+---
+
+## 🔴 KOORDİNATÖRDE BEKLEYEN KARAR KALEMLERİ
+
+Hiçbiri benim işim değil ama hepsi **veri yazmayı bekletiyor**:
+
+```
+1559 Bahreyn      🔴 ZİNCİRİ BLOKLUYOR. TDV "aldı" diyor ("tekrar
+                  Portekizliler'in idaresine geçen"), batı "başarısız" diyor.
+                  TDV okuması seçilirse `d:` dönemi açılır ve TDV kapanış
+                  tarihi VERMİYOR ⇒ zincir o hâliyle yazılamaz.
+Tunus 1569 t:     `1569-01-01` ev kuralı; hiçbir kaynak Ocak demiyor.
+                  Kırılma taşınırsa maddenin t:si de taşınmalı.
+Tunus 1574        🔴 48 KAYIT. TDV iki maddesi Tunus'u 12 Eylül 1574,
+                  Halkulvâdî'yi 24 Ağustos 1574 veriyor; atlas ikisini de
+                  1574-08-25'te tutuyor. Dokunulmadı.
+Safi 1488/1508 · Arzila 1549(batı)/1550(TDV) — ikisi de maddede yazılı
+Masavva 1557-01-01 → 1557-04-02 (TDV: 2 Cemâziyelâhir 964)
+Bahreyn 1861      atlas 31 Mayıs · TDV 21 Mayıs
+Dahlak            atlasın `habesistan 1517-1557`i, 1520 ve 1526 Portekiz
+                  kayıtlarıyla ÇELİŞİYOR (Danvers I, s. 347 ve 377)
+```
+
+---
+
+## 📌 BU OTURUMUN KENDİNE ÇIKARDIĞI ÜÇ DERS
+
+Üçü de **benim hatamdan** çıktı, başkasınınkinden değil:
+
+```
+① "erişilemedi" bir ÖLÇÜMDÜR, bir denemenin sonucu değil.
+   Danvers I'i "bulamadım" dedim; tek nüsha açmıştım ve kimlikteki "01"i
+   cilt numarası sanmıştım. Arşiv API'sine sorunca altı nüsha çıktı,
+   dördüncüsü tam metindi. ⇒ Negatif sonuç da TÜKETİLMİŞ arama ister.
+
+② Bir hanedanın BAŞLANGIÇ tarihi biyografiden değil KÜNYEDEN alınır.
+   Kaçar'ı 1786 diye raporladım; biyografi maddeleri olayı anlatıyordu,
+   hanedan maddesi ise onu "diğer kaynaklar teyit etmemektedir" diye
+   reddediyordu. Hedge hangi maddedeyse hüküm oradadır.
+
+③ Bir anahtarı raporda anmadan önce GREP AT.
+   `alihalife`yi künyeye bakmadan hanedanın Türkçe adından türettim.
+   Doğrusu `bahreyn`di ve depoda zaten vardı. Ölçmedim, türettim.
+```
+📌 Ve üçü de aynı sınıf: **elimde olan bilgiyi ölçmek yerine tahmin ettim.**
+Bu oturumun bütün gerçek bulguları ölçümden çıktı — İberya Birliği, Buraymî,
+Tunus/Halkulvâdî takası, Aden/Zebîd kayması. Yanıldığım her yer tahmindi.
+

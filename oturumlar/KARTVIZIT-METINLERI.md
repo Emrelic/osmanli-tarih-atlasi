@@ -488,8 +488,8 @@ eklenmeye değer bir vaka daha.
 
 ```javascript
 { id:"ibrahim", ad:"Sultan İbrahim", from:"1640-02", to:"1648-08",
-  dogum:"1615-11-04", olum:"1648-08-08", olum_yer:"İstanbul",
-  olum_sebep:"hal' sonrası idam",
+  dogum:"1615-11-04", olum:"1648-08-18", olum_yer:"İstanbul",
+  olum_sebep:"hal' sonrası (8 Ağustos) on gün tutulup fetvayla boğduruldu",
   baba:"I. Ahmed", anne:"Kösem Sultan",
   tahta:"1640-02-09", saltanat_yil:8,
   esler:["Turhan Hatice Sultan"],
@@ -513,6 +513,12 @@ eklenmeye değer bir vaka daha.
 ```
 ✅ **vefat_id çapası TEMİZ:** `olaylar.js` "Sultan İbrahim'in hal'i ve
 katli."
+
+🔴 **Düzeltme (4 Ağustos, koordinatör yakaladı):** `olum:` yanlışlıkla
+hal' gününe (1648-08-08) yazılmıştı; madde metni ("...on gün sonra
+fetvayla boğduruldu") ölümün 1648-08-18 olduğunu gösteriyor — düzeltildi.
+Çapayı engellemedi (madde zaten doğru güne bağlandı) ama `olum:` alanı
+kartın kendisinde yanlış duruyordu.
 
 ---
 

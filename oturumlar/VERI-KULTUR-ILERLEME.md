@@ -1,5 +1,82 @@
 # VERİ KÜLTÜR — ilerleme raporu
 
+## KAPANIŞ (aynı gün, üçüncü tur) — bugün bitti, yarın ne olmalı
+
+**Bugün ne bitti (sayıyla):**
+```
+data/olaylar_ek14.js  → 94 madde, index.html'e bağlandı, CANLI
+                         (103 yazıldı, 9 gerçek mükerrer bulunup silindi)
+yer_id                 76/94 maddede (kalan 18'i çok-yerli/genel ifade,
+                        bulanık eşleşmeye girmedi — bilerek boş)
+Kronoloji genel toplamı 1.047 → 1.141 (koordinatör ölçtü)
+Değişmez 2t etkisi      SIFIR — ölçüldü (kirilmasiz_madde() yalnız
+                        toprak-kazanc/toprak-kaybi etiketli maddeleri
+                        sayıyor, ek14'te hiç yok)
+```
+
+**Konu dengesi — güncel, 94 madde ile teyitli:**
+```
+mimari      0 → 26        (bu partiden önce SIFIRDI, KUŞAK 2'nin en büyük boşluğu kapandı)
+bilim      20 → 32   (32/60, hâlâ %53 eksik)
+kültür     23 → 42   (42/60, hâlâ %30 eksik)
+ekonomi    10 → 19   (19/40, hâlâ %52 eksik)
+kurumlar    9 → 18   (idari — ahîlik dahil, hedef verilmemişti, iki katına çıktı)
+sosyoloji   0 → 13        (sıfırdan çıktı)
+spor        0 → 5         (sıfırdan çıktı)
+felsefe     0 → 1         (sıfırdan çıktı)
+────────────────────────────────────────────
+altı ana kalem toplamı: 150 madde · genel toplamın (1.141) %13'ü
+   (bugün sabah %6'ydı; hedef %25 — yarıya bile gelmedik ama İKİYE KATLADIK)
+```
+
+**İKİNCİ PARTİ için sıradaki iş: bilim ve kültür-sanat — gerekçesiyle:**
+
+Bu iki kalem seçildi çünkü ikisi de **(a) hedefe en uzak** (32/60 ve 42/60,
+ekonominin 19/40'ından oransal olarak daha geride) **ve (b) TDV kaynağı en
+zengin/ucuz** olan kalemler. Ölçüt token değil, bugünkü altı ajanın verimi:
+
+```
+Bilim ajanı        1 turda 21 aday buldu, hepsi CANLI TDV maddesine dayandı,
+                    TDV'siz kalan SIFIR (yalnız 4 konu — Hezârfen'in uçuş
+                    yılı gibi — kesin tarihsizlik yüzünden atlandı, kaynak
+                    yokluğundan değil).
+Kültür-sanat ajanı  1 turda 26 aday buldu (20 kültür + 6 spor), TDV'siz
+                    kalan YİNE SIFIR.
+Ekonomi ajanı       1 turda 14 aday buldu ama 2'si TDV'de müstakil madde
+                    YOK diye biyografi sayfasından (dolaylı) alındı, 1'i
+                    tarihi kendi kabulünce uydurmuştu (Kapan-ı Dakîk, atıldı).
+Sosyoloji ajanı     benzer sürtünme: Taşköprizâde'nin telif tarihi TDV'de
+                    yok diye tamamen atıldı, Çerkes Sürgünü'nün GÜNÜ TDV'de
+                    yok (yıl var).
+```
+
+⇒ Bilim ve kültür-sanatta harcanan bir birim araştırma zamanı daha çok
+DOĞRULANMIŞ, TDV-birincil madde üretiyor — aynı emek, daha az sürtünme,
+daha yüksek net fayda (ONCELIK.md §1 KALİTE KADEMELERİ). Ayrıca ikisi de
+hâlâ 60 hedefinin yarısının altında; kurumlar (18) ve ekonomi (19) hedefe
+oransal olarak daha yakın.
+
+**Konu dışı ama kayda değer — ONCELIK.md K4 (ölçmeden cevap yok) örneği:**
+
+Bugün kendi çıktımı iki kez ölçüp yanıldığımı gördüm ve düzelttim, ikisi de
+buraya yazılıyor çünkü tekrar edilmesi gereken davranış bu:
+
+1. **Kendi dedup taramam 9 gerçek mükerreri kaçırmıştı** — altı araştırma
+   ajanının "zaten var mı" kontrolü kendi aramalarına güveniyordu, benim
+   ikinci turum da yalnız birkaç anahtar kelimeyle (süleymaniye, mecelle,
+   reji…) tarama yapmıştı. Gerçek denetim (`py arac/denetle.py`, mükerrer
+   madde kontrolü) 13 şüpheli çift buldu, 9'u gerçekti. **Ders: dosya
+   içinde elle grep taraması, aracın kendi denetiminin yerini tutmaz —
+   yayın öncesi mutlaka `denetle.py` koştur, kendi taramana güvenme.**
+2. **1509 İstanbul depremi maddesinde TDV'nin kendi içinde çelişkisi var**
+   — mevcut kayıt (`istanbul` maddesi) 14 Eylül diyor, benim akademik
+   sismoloji kaynağım (Ambraseys & Finkel) 10 Eylül diyordu. Madde
+   mükerrer olduğu için sildim ama çelişkiyi UYDURMADIM, burada bıraktım —
+   biri düzeltme yapacaksa hangi tarihin doğru olduğuna karar vermeli,
+   ben karar vermedim.
+
+## GÜNCELLEME (aynı gün, ikinci tur) — gerçek `denetle.py` koşusu ve düzeltme
+
 ## GÜNCELLEME (aynı gün, ikinci tur) — gerçek `denetle.py` koşusu ve düzeltme
 
 Koordinatörün `yer_id` işini commit'lemesinin (`4db0d50`) ardından `py
