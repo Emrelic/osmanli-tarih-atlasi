@@ -2582,3 +2582,179 @@ kıyısı Finlandiya boyanıyor.
 Ålesund · Kristiansund (takımada) · Östersund (Storsjön) · Karlskrona
 (takımada) · Savonlinna · Nurmes (Fin göl bölgesi). Brief'in kuralı gereği
 fiyort/göl kıyısı çizilmedi, noktalar karaya kaydırıldı. Altısı da kurtarıldı.
+
+---
+
+# PARTİ 19 — ARKTİK KUTUSU (koşu 9 · 4 Ağustos 2026)
+
+Sevk: `box(-25,-11,146,82)` açılacak, ~22-26 nokta lazım, **kutu noktalar
+hazır olmadan açılmayacak.** Teslim: **63 nokta / beş dosya**, ve sevkte
+olmayan iki ölçüm.
+
+## ① SEVKİN ÖLÇÜSÜ DOĞRUYDU — AMA İKİ NOKTADA EKSİKTİ
+
+### A. "Kutu açılırsa Moğolistan Buz Denizi'ne dayanır" — ZATEN DAYANIYOR
+Uyarı geleceğe bakıyordu. Bugüne baktım. **45°K'nin kuzeyi / 58°D'nin
+doğusu, BUGÜNKÜ kutunun İÇİNDE, 10.977.624 km²:**
+```
+ 2.656.957 km²  Aigun     50,24°K/127,46°D  → qing-hanedani
+ 1.687.356 km²  Kobdo     48,01°K/ 91,64°D  → kuzey-yuan / cungar
+ 1.456.818 km²  Urga      47,89°K/106,91°D  → qing-hanedani
+   766.284 km²  Uliastay                    → qing-hanedani
+ ────────────────────────────────────────────────────────────
+ ≈ 6,57 milyon km² Sibirya bugün MANÇU ve MOĞOL renginde.
+ ortalama uzaklık 756 km · en uzak 1.866 km
+```
+📌 Sebep ölçüldü: **58°D ile 91°D arasında, 44°K'nin kuzeyinde SIFIR nokta.**
+Yakutsk (1632) · İrkutsk (1661) · Nerçinsk (1653) · Tomsk (1604) ·
+Krasnoyarsk (1628) · Yeniseysk (1619) — altısı da atlasta YOKTU.
+⇒ Kutu açılması bu hatayı **doğurmuyor, mevcut hatayı okyanusa uzatıyor.**
+Ve düzeltmesi kutuyu BEKLEMİYOR: `_ek9` bugün bağlanabilir.
+
+### B. "Batı kenarı İzlanda için" — İZLANDA O KENARIN %9'U
+```
+box(−25,−11,−12,82) şeridine giren kara        1.117.472 km²
+  İzlanda                    102.162 km²   %9,1
+  Doğu Grönland              155.397 km²  %13,9
+  Batı Afrika + adalar       860.785 km²  %77,0   ← sevkte HİÇ YOK
+```
+Ve o %77'yi kim boyar: **Timbuktu** (`s:`/`d:`/`v:` üçü de BOŞ ⇒ Senegal,
+Gambiya, Moritanya 550.210 km² **beyaz delik**) ve **Agadir** (⇒ **Kanarya
+Adaları haritada FAS boyanır**, adalar 1402-1496'da Kastilya'ya geçmişken).
+En uzak hücre Yeşilburun Adaları: Timbuktu'ya **2.294 km.**
+
+⇒ **ÖNERİ:** kutu dikdörtgen değil **L** olsun —
+`box(-12,-11,146,82) | box(-25,60,-12,82)`. İzlanda + Doğu Grönland girer
+(256.688 km²), Batı Afrika girmez. Çentik köşesi (−12°D/60°K) açık
+okyanustadır, hiçbir peteğe değmez — ölçüldü. `voronoi_diagram` zaten
+sınırlayıcı kutuyu alır, hücreler sonra `.intersection(BOLGE)` ile kırpılır.
+📌 Alternatif: batı kenarını hiç açma. Üçüncüsü (Batı Afrika'ya nokta) ayrı
+bir partidir — `mali` · `songay` · `jolof` kimliklerinin hiçbiri yok, ve
+Timbuktu'nun kasten boş olması o coğrafyanın BİLİNÇLİ kapsam dışı
+tutulduğunu gösteriyor.
+
+## ② TESLİM — beş dosya, her biri TEK bağlama kararı
+```
+_ek8   39  🔴 KUTU 82°K AÇILMADAN BAĞLANAMAZ (39'u da lat>64)
+_ek9   12  🟢 BUGÜNKÜ KUTUDA BAĞLANABİLİR — Sibirya kuşağı, 64°K altı
+_ek10   4  🔴 `sibir-hanligi` rengi bekliyor
+_ek11   4  🔴 `estonya` rengi bekliyor
+_ek12   4  🔴 batı kenarı + `izlanda` rengi bekliyor
+```
+Dosya başına tek engel koydum: hazır olan on iki nokta, hazır olmayan bir
+rengi beklemesin diye.
+
+### ÖLÇÜLEN ETKİ
+```
+YENİ KARA kuzey şeridi 4.850.863 km²   ort 1.701 → 233 km · en uzak 2.973 → 1.000
+BUGÜNKÜ Sibirya       10.977.624 km²   ort   756 → 327 km · en uzak 1.866 →   909
+  └ Aigun'un boyadığı 2.656.957 → 594.170 km²; Kobdo·Urga·Uliastay ilk 8'den DÜŞÜYOR
+İzlanda + D.Grönland     256.688 km²   ort 1.526 → 203 km · en uzak 2.273 →   581
+```
+
+## ③ KOORDİNATÖRÜN DÜZELTMESİ UYGULANDI — iki sınıf ayrı
+MOTOR "hepsi kasten sahipsiz olsun" demişti; koordinatör anakara için
+reddetti ve haklıydı. Uygulanan ayrım:
+```
+ANAKARA  fetihten ÖNCE sahipsiz, SONRA rusya. Fetih günü kayıtta yazılı.
+         gerekçe TDV `sibir-hanligi`: hanlık "Tura, Tobul ve İşim nehirleri
+         … İrtiş civarı ile Baraba bozkırları" — Yamal, Taymır, Yakutistan
+         BU SINIRIN DIŞINDA, oralarda uydurulacak devlet YOK.
+ADALAR   Svalbard (antlaşma 1920-02-09, YÜRÜRLÜK 1925-08-14 → pencere
+         dışı) · Franz Josef (1873'te keşif) · Severnaya Zemlya (1913'te
+         keşif, 1926'da ad) ⇒ üçü de pencerenin tamamında sahipsiz. ONAYLANDI.
+         ⚠️ Yeni Sibirya Adaları dördün EN ZAYIFI — kayıtta öyle yazılı.
+         ⚠️ Novaya Zemlya ve Vaygaç sahipsiz BIRAKILMADI: kalıcı yerleşim
+           ve fiilî idare 1877 (Malıye Karmakulı). 🔴 TDV'ye basmıyor.
+FENNOSKANDİYA sahibi Rusya DEĞİL — Lapland üç ayrı zincire (Norveç ·
+         İsveç · Finlandiya) bağlandı, Kola'ya yalnız Kola takıldı.
+```
+
+## ④ 🔴 DEĞİŞMEZ 1 TAVANI YÜKSELİYOR — 50 → 81
+31 kayıt fetihten önce sahipsiz kesit veriyor. **Otuz birinin otuz biri de
+`kasitli_bosluk:true` + `neden:` taşıyor** (ölçüldü, taşımayan sıfır).
+Sayıyı gizlemiyorum: denetim koşulduğunda tavan 50'den 81'e çıkacak ve
+artışın tamamı bu partiden. Kayıt kayıt gerekçe dosyalarda yazılı.
+
+## ⑤ KAYNAK DÜRÜSTLÜĞÜ — `§4` gereği işaretli
+**TDV'ye BASAN** (`sibir-hanligi` ve `kucum-han`, ikisi de `<title>` ile
+CANLI sınandı):
+```
+1581-10-26 Yermak İsker'e giriyor    1586 Tümen ve Tobolsk kuruluyor
+1592 Pelym · BEREZOV · SURGUT        1595-03-17 Baraba işgali
+1598-08-20 Küçüm'ün son yenilgisi    1593-1604 "Sibirya'nın tamamen zaptı"
+1430 Mahmutek (hanlığın kurucuları 1420-1430)
+```
+**TDV'ye BASMAYAN** (§4 Kuzey Asya/Kuzey Avrupa için akademik referansı
+yeterli sayıyor ama işaretlenmesini istiyor): Obdorsk 1595 · Mangazeya 1601 ·
+Turuhansk 1607 · Tomsk 1604 · Yeniseysk 1619 · Hatanga 1626 · Krasnoyarsk
+1628 · Yakutsk/Jigansk 1632 · Olyokminsk 1635 · Verhoyansk 1638 ·
+Zaşiversk 1639 · Ohotsk 1647 · Albazin 1651 · Nerçinsk 1653 · İrkutsk 1661 ·
+Dudinka 1667 · Nerçinsk antlaşması 1689-09-06 · Aygun 1858-05-28 ·
+Novaya Zemlya 1877 · Fredrikshamn 1809-09-17 · Kiel 1814-01-14 ·
+Norveç 1905-06-07 · Tartu/Petsamo 1920-10-14 · İzlanda 1918-12-01.
+
+## ⑥ ÜÇ KİMLİK EKSİK — üçü de RENK'in tek satırı
+```
+sibir-hanligi  TDV maddesi CANLI. Ödünç VERİLMEDİ: `altinorda`nın etiketi
+               "Altın Orda ve ardılları" ve teknik olarak savunulabilirdi,
+               ama bedeli 168 yıl (1430-1598 Batı Sibirya yanlış renkte).
+estonya        Ödünç VERİLMEDİ çünkü KOMŞUSUYLA ÇELİŞİRDİ: Riga 1918-11-11'de
+               `letonya`, Viipuri 1917-12-06'da `finlandiya` oluyor. Estonya'yı
+               1923'e kadar Rusya boyasaydım harita 1919'da Letonya ve
+               Finlandiya'yı bağımsız, arasındaki Estonya'yı Rus gösterirdi.
+               📌 Ödüncün ölçüsü SÜRE değil, komşusuyla çelişip çelişmediğidir.
+izlanda        Atlas 1918 devletlerini tutarlı modelliyor (polonya ·
+               cekoslovakya · yugoslavya · finlandiya · letonya · litvanya
+               hepsi BOYALAR'da) — `izlanda` bu desendeki tek boşluk.
+```
+
+## ⑦ YAPISAL DENETİM — 63 nokta
+```
+ayrıştırma      5/5 dosya `girdi.oku_dosya` ile temiz
+şema            bilinmeyen alan YOK (kasitli_bosluk · neden kütükte kayıtlı)
+gün hassasiyeti 63/63 · ters/sıfır dönem YOK · çakışma YOK · pencere dışı YOK
+ad çakışması    YOK (canlı 1623 kayıtla karşılaştırıldı)
+maske           63/63 içeride
+3 km            en yakın çift 82,2 km (Tallinn ↔ Helsinki, deniz aşırı)
+Değişmez 2      **borç YAPISAL OLARAK SIFIR** — 63 kaydın hiçbirinde `d:`
+                veya `v:` dönemi YOK, hepsi `s:`. Tek bir kırılma üretmiyor.
+Değişmez 3      `m:` yazılmadı ⇒ çelişki üretemez
+renk            eksik yalnız üç ilan edilmiş kimlik
+```
+
+## ⑧ ALTI NOKTA MASKE DIŞI ÇIKTI, KAYDIRILDI
+Bodø · Tromsø · Luleå · Svalbard · Akureyri **2,2 km**; Vaygaç **11 km**.
+Hepsi 10m maskesinin kıyı basitleştirmesi — fiyort şehri, ada şehri,
+takımada. Her kaydırma kendi kaydının satırında yazılı.
+
+## ⑨ 🔴 KUTU AÇILMAZSA `_ek8` BAĞLANAMAZ — ve sebebi teknik
+39 noktanın 39'u `lat>64`. Bugünkü kutuyla bağlanırsa peteklerin hepsi boş
+çıkar ve motorun kapanış satırı ("tüm yerleşimlerin peteği geçerli ✓")
+DÜŞER. Sıra: **önce `uret_petek.py:60`, sonra dosya.**
+📌 Aynı sebeple `_ek12` batı kenarını bekliyor.
+
+## ⑩ AYRI BULGU — AYNI ANTLAŞMA, İKİ TARİH (Oturum 0'a)
+Canlı veride Nystad barışı iki farklı günle yazılı:
+```
+Riga     1721-08-30 → rusya      (eski takvim)
+Viipuri  1721-09-10 → rusya      (yeni takvim)
+```
+Aynı antlaşma, 11 gün fark. Harita etkisi yok (ikisi de `s:`→`s:`) ama
+**hangi takvimin kullanıldığı depoda kararlaştırılmamış** demektir ve bu,
+gün hassasiyetli bir atlasta er geç bir kırılmayı 11 gün kaydırır.
+Ben `1721-08-30`u seçtim (Riga · `_ek7` Lappeenranta · `_ek11` Estonya).
+
+## ⑪ KASTEN YAZILMAYANLAR
+```
+Kuzey Kazakistan  Kobdo'nun 1,69 milyon km²'sinin bir kısmı buraya düşüyor.
+                  YALNIZ BİR dolgu yazıldı (Kazak bozkırı-İşim, zinciri canlı
+                  `Aral kuzeyi`den birebir). Semey · Petropavl · Akmola
+                  yazılmadı: Cungar-Kazak-Rus sınırı 1718-1755 arasında üç kez
+                  değişiyor ve kaynakla ayıramadım. Ayrı parti işi.
+Batı Afrika       Yukarıda ①B. Kimlik yok, Timbuktu kasten boş.
+Çukotka           Kutunun doğu kenarının (146°D) dışında.
+Kola'nın novgorod dönemi  Ayrı kimlik yok ve canlı `Novgorod` kaydının kendisi
+                  de düz `rusya 1281→1923` taşıyor. Altı kayıtta da aynı
+                  çözüm uygulandı; kimlik gelirse ALTISI BİRDEN düzeltilir.
+```
