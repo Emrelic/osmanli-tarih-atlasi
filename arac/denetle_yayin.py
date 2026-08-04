@@ -544,9 +544,18 @@ def main():
         # girdinin anlik goruntusunu aldiktan SONRA yazildi; simdi baglamak
         # YAYIN BAYAT verir.
         "data/yerlesimler_ek5.js":       "1 nokta (Gyula), yayin sonrasi baglanacak",
-        # PETEK/NOKTA parti 18: Iskandinavya 39 nokta, %75-80 bandi.
-        # Kosu 8 anlik goruntusunden SONRA yazildi.
-        "data/yerlesimler_ek7.js":       "39 nokta (Iskandinavya), yayin sonrasi baglanacak",
+        # PETEK/NOKTA parti 19, kosu 9 (4 Agustos 2026). Uc dosya da BAGLANMADI
+        # ve sebebi TEK: renkleri yok. Baglanirlarsa haritada renksiz kalir ve
+        # motor "bilinmeyen devlet kimligi" uyarisi basar.
+        # 🔴 BUNLAR GERCEK BEKLEYEN, emekli DEGIL: onkosul acik ve adi belli --
+        # RENK oturumu acilip uc kimlik yazilacak, sonra ucu de baglanacak.
+        # PETEK/NOKTA odunc renk VERMEDI ve gerekcesi olculmustu: estonya'yi
+        # 1923'e kadar Rus boyamak, harita 1919'da Letonya ve Finlandiya'yi
+        # bagimsiz gosterirken aradaki Estonya'yi Rus gosterirdi.
+        # ⇒ Oduncun olcusu SURE degil, komsusuyla CELISIP CELISMEDIGI.
+        "data/yerlesimler_ek10.js":      "4 nokta, `sibir-hanligi` rengi bekliyor",
+        "data/yerlesimler_ek11.js":      "4 nokta, `estonya` rengi bekliyor",
+        "data/yerlesimler_ek12.js":      "4 nokta, `izlanda` rengi bekliyor",
     }
 
     # 🔴 EMEKLİ ≠ BEKLEYEN. Bekleyen "önkoşul kapanınca BAĞLANACAK" vaadi
