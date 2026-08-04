@@ -208,6 +208,20 @@ GIRDI_DOSYALARI = [
     #   o zamana dek maske-dışı görünmeleri BEKLENEN durumdur,
     # ④ tarih hassasiyeti: YYYY-01-01 yer tutucu %25 (ortaasya2: %59).
     "yerlesimler_asya.js",
+    # ── KOŞU 9 · 4 Ağustos 2026 ─────────────────────────────────────
+    # ek7  İskandinavya 39 nokta — kutunun kuzeye açılmasını bekliyordu
+    # ek8  kuzey 39 nokta (lat 64,5-80,3) — KUTU AÇILMADAN ANLAMSIZ:
+    #      hepsi eski 64° tavanının üstünde. Kutu L şekline geçtiği
+    #      koşuda birlikte iniyor.
+    # ek9  Sibirya 12 nokta — kutuyu BEKLEMİYOR, bugünkü kutunun içindeki
+    #      10,98 mn km²lik noktasız alanı kapatıyor (58-91°D / 44°K kuzeyi;
+    #      6,57 mn km²si şu an Mançu/Moğol renginde görünüyor).
+    # 🔴 Üçünün de bütün devlet kimlikleri renkler.py BOYALAR'da TANIMLI
+    #    (ölçüldü: renksiz 0). ek10/ek11/ek12 bu yüzden DIŞARIDA —
+    #    sibir-hanligi · estonya · izlanda renkleri henüz yok.
+    "yerlesimler_ek7.js",
+    "yerlesimler_ek8.js",
+    "yerlesimler_ek9.js",
     # 344 nokta (MOTOR 2, 2 Ağustos 2026 — kutu genişletme koşusuyla).
     # KOORDİNATÖR KARARI: 37-renkle açılış — 147 kimliğin 49'u boyalı, 98'i
     # renksiz ve renksiz dönem BOŞLUK üretir (yanlış renk değil; motor

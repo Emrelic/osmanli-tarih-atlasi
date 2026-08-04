@@ -2758,3 +2758,47 @@ Kola'nın novgorod dönemi  Ayrı kimlik yok ve canlı `Novgorod` kaydının ken
                   de düz `rusya 1281→1923` taşıyor. Altı kayıtta da aynı
                   çözüm uygulandı; kimlik gelirse ALTISI BİRDEN düzeltilir.
 ```
+
+## ⑫ GÖL VAKASI — ve düzeltmemin GERİ ALINMASI (4 Ağustos, gece)
+
+MOTOR `Jukkasjärvi`yi Torneträsk gölünün içinde buldu (petek %0,0). Göl-farkında
+maskeyle 63 noktamı + canlı 1623 noktayı taradım; **dört vaka çıktı:**
+```
+Jukkasjärvi  Torneträsk    _ek8   ← MOTOR buldu
+İnari        Inarijärvi    _ek8   ← MOTOR KAÇIRDI, tarama buldu
+Västerås     Mälaren       _ek7   ← canlı
+Eğirdir      Eğirdir gölü  yerlesimler.js — YAYINDA
+```
+Sebep tek: motorun `KARA`sı `ne_10m_lakes`i çıkarıyor (304 göl çıkar, 60 baraj
+kalır); benim denetimimin kullandığı ham kıyı maskesi çıkarmıyor. **Kıyıya göre
+doğru olan nokta, göle göre yanlış.**
+
+### 🔴 VE İKİ KUSUR AYRI — `denetle.py`nin 6. kontrolü için
+```
+① kapsam  eski kutu → 64°K üstü hiç ölçülmemiş          (MOTOR buldu)
+② ölçüt   ham kıyı maskesi → göl içi nokta görünmüyor    (bu tarama buldu)
+```
+②'yi bulmasaydık kutu düzeltilip "artık ölçüyoruz" denecek, **yine yanlış
+maskeyle** ölçülecekti. Ölçüt `KARA.difference(GOLLER)` olmalı — `DOGAL_GOL`
+kümesi ve baraj ölçütü dâhil (`uret_petek.py` 265-300).
+
+### 🔴 KENDİ HATAM — düzeltmeyi YANLIŞ ANDA YAPTIM
+`_ek8`deki iki koordinatı düzelttim. **Koordinatör geri aldı ve haklıydı:**
+`_ek8` o sırada koşu 9'un BAĞLI girdisiydi ve `denetle_yayin.py:530`
+girdilerin sha256'sını çıktının `URETIM_IZI`iyle karşılaştırıyor — anlık
+görüntüden sonra girdiye yazmak **YAYIN BAYAT** verip yayını bloke ederdi.
+Düzeltme `oturumlar/BEKLEYEN-ek8-gol-duzeltmesi.patch` olarak saklandı.
+
+📌 **Asıl ders, gölden büyük:** `Västerås`a "dosya bağlı" diye dokunmadım ama
+`_ek8`e dokundum — çünkü kafamdaki liste eskiydi. Oturumun başında
+`GIRDI_DOSYALARI`nı okumuştum, `_ek8` içinde YOKTU; koordinatör `b7335ff`ten
+sonra bağladı (`ek7+ek8+ek9`, 1.713 nokta) ve ben "bu dosya kutuyu bekliyor,
+demek ki bağlı değil" diye **çıkarım yaptım, ölçmedim.**
+⇒ **KURAL: bir veri dosyasına yazmadan önce `girdi.GIRDI_DOSYALARI` OKUNUR.**
+  "Bu dosya şunu bekliyor, demek ki bağlanmamıştır" bir çıkarımdır ve
+  çıkarım eskir; liste eskimez.
+📌 Ve bu, `§5`in *"ayrıştırıcıyı doğrulamak yetmiyor, hangi DOSYALARI okuduğunu
+  da doğrulamak gerekiyor"* dersinin üçüncü hâli. Bugün dördü birden görüldü:
+  eksik dosya kümesi · eksik maske katmanı · eksik kutu kapsamı · eskimiş
+  bağlılık listesi. **Hepsi aynı aile: kontrolü yaptım, ama motorun sorduğu
+  soruyu değil kendi sorduğum soruyu ölçtüm.**

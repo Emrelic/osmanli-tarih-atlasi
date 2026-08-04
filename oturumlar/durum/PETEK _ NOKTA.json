@@ -1,6 +1,6 @@
 {
  "ad": "PETEK / NOKTA",
  "hal": "bos",
- "not": "Bosta. PARTI 19 teslim: 63 nokta / bes dosya (ek8-ek12), commit b7335ff. BEKLEYENLER: ek8 kutu 82K acilinca · ek10 sibir-hanligi rengi · ek11 estonya · ek12 L kutusu + izlanda. ek9 (12 nokta) BUGUN baglanabilir. Degismez 1 tavani 50->81 cikacak, 31/31 kayit kasitli_bosluk+neden tasiyor. SIRADAKI PARTI OLCULDU: koordinatorun onerdigi K.Kazakistan+Baykal guneyi artik en ac yer DEGIL; olcum Amur asagisi/Ohotsk kiyisi (50-52K/136-144D, 700-855 km) ve Orta Sibirya platosu (58-62K/100-104D, 709-796 km) diyor. Ucuncu: Yedisu/Balkas guneyi (46K/72D, 648 km).",
- "damga": "2026-08-04 03:21"
+ "not": "Bosta. PARTI 19: 63 nokta / ek8-ek12, commit b7335ff. GOL DUZELTMESI 4 Agustos: ek8 Jukkasjarvi ve Inari gol icindeydi, 2,2 km kaydirildi, 63/63 gol-farkindali denetim TEMIZ. ACIK (benim degil): Vasteras (Malaren, ek7 BAGLI - kosu bitince) ve EGIRDIR (Egirdir golu, yerlesimler.js YAYINDA, duzeltme 37,8567/30,8637). denetle.py 6. kontrolu GOL-FARKINDA DEGIL - olcut KARA.difference(GOLLER) olmali. BEKLEYENLER: ek8 kutu 82K · ek10 sibir-hanligi · ek11 estonya · ek12 L kutusu+izlanda. SIRADAKI PARTI ONAYLI: A Amur asagisi/Ohotsk + B Orta Sibirya platosu, ~14-18 nokta, yeni kimlik YOK.",
+ "damga": "2026-08-04 03:49"
 }

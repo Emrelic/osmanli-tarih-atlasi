@@ -338,6 +338,20 @@ CIZILMEYEN_MUAF = {
     "PARCALAR": "DONEMLER'in parça havuzu — app.js DONEMLER üzerinden çözer",
     "DEVLET_PARCALAR": "DEVLET_HARITA'nın parça havuzu, aynı desen",
     "DEVIRLER_KAYNAK_OZET": "üretim raporu, arayüz tüketicisi yok (bilerek)",
+    # ⚠️ URETIM_OLCU'nun tüketicisi BU DOSYANIN KENDİSİ — `URETIM_IZI` ile aynı
+    # sınıf ve o zaten muaf. Arayüzde görünmesi beklenmiyor; koşudan koşuya
+    # çıktı kıyası için yazılıyor (koşu 9: Osmanlı 9/9 kesitte +0, yabancı
+    # 1700-1900 arası +8…+10,7% — Rusya Sibirya'yı, İsveç Lapland'i alıyor).
+    "URETIM_OLCU": "çıktı kıyası künyesi — tüketicisi denetle_yayin.py'nin kendisi",
+    # 🔴 EK10·EK11·EK12 — BAĞLANMADI, ÇÜNKÜ RENKLERİ YOK. Bağlanırlarsa
+    # kimliksiz devlet uyarısı üretir ve haritada renksiz kalırlar. Bekleyen
+    # üç kimlik: `sibir-hanligi` · `estonya` · `izlanda` (PETEK/NOKTA PARTİ 19,
+    # her biri için gerekçe ve TDV durumu ILERLEME.md'de). RENK oturumu açılıp
+    # üçü yazıldığında bu üç satır SİLİNİR ve dosyalar index.html'e bağlanır.
+    # ⚠️ Muafiyet KALICI DEĞİL — bir sonraki koşuda kapanması beklenen borç.
+    "YERLESIMLER_EK10": "12 noktanın 4'ü — `sibir-hanligi` rengi bekliyor, geçici",
+    "YERLESIMLER_EK11": "4 nokta — `estonya` rengi bekliyor, geçici",
+    "YERLESIMLER_EK12": "4 nokta — `izlanda` rengi bekliyor, geçici",
     # ⚠️ ESKİ GEREKÇE ÇÜRÜKTÜ VE BİR BOŞLUĞU GİZLEDİ (3 Ağustos 2026):
     # burada "app.js üretilmiş geometriyi okur, HAM NOKTAYI DEĞİL" yazıyordu.
     # ÖLÇÜM tersini söylüyor: app.js ham noktayı İKİ yerde okur —

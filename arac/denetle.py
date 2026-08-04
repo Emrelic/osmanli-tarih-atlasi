@@ -86,7 +86,21 @@ BEKLENEN_YERLESIM = 968
 # (Hamad 33,05/40,28 · Libya ic colu 29,50/21,50). Delik degil, DELIGIN
 # ILACI: cevre vahalarin petegi cole uzanip orayi Osmanli boyuyordu.
 # Olculmus sabit: bir sahipsiz dolgu ~46.000-54.000 km2 dondurur.
-BEKLENEN_SAHIPSIZ = 57
+# 57 -> 86: PETEK/NOKTA PARTI 19 -- kuzey/Arktik (_ek8, 39 nokta) ve Sibirya
+# (_ek9, 12 nokta) kusagi. Artis +29.
+# 🔴 VE BU SAYI ONCEDEN YAZILDI, SONRA DOGRULANDI. PETEK/NOKTA kosudan ONCE
+# "ek8+ek9 baglanirsa +29" dedi; kosu 9 sonrasi olculen 86-57 = TAM 29.
+# Tahmin ile olcum ayni cikinca artis "kabul edildi" degil DOGRULANMIS oluyor.
+# ⇒ Kural: kapsam buyutan parti, beklenen tavan degisimini ONCEDEN yazsin.
+# Artisin tamami KASTEN SAHIPSIZ: 31 kaydin 31'i de kasitli_bosluk:true ve
+# neden: tasiyor (PETEK/NOKTA olctu, tasimayan sifir). Arktik'te 1281-1923
+# arasi devlet YOK -- Svalbard 1920 antlasmasi 1925'te yururluge giriyor,
+# Franz Josef 1873'te kesfediliyor, Severnaya Zemlya 1913'te.
+# ⚠️ Anakara BUNUN DISINDA: Sibirya fetihten once sahipsiz, sonra `rusya`.
+# "Hepsi kasten sahipsiz olsun" onerisi REDDEDILDI, cunku Rusya'nin kuzeyinde
+# 1600-1923 arasi 3,9 milyon km2'lik bir delik acardi -- Mogolistan'in
+# Arktik'i boyamasinin aynadaki goruntusu.
+BEKLENEN_SAHIPSIZ = 86
 # 427 -> 432: Kirmanşah 1590-1603 (+2), Tarki tâbiiyeti (+2, mevcut günlere
 # oturdu), Kaheti tâbiiyeti (+2), Şirvan ara şehirleri (+0, mevcut günler),
 # Azak'ın 1637-1642 Kazak işgali (+2), Şehrizor 1554-01-01 -> 1554-08-22 (+0).
@@ -1013,10 +1027,25 @@ BEKLENEN_MASKE_DISI = 0
 _UP = os.path.join(KOK, "arac", "uret_petek.py")
 try:
     _src = io.open(_UP, encoding="utf-8").read()
-    _m = re.search(r"^BOLGE\s*=\s*box\(([^)]+)\)", _src, re.M)
-    if not _m:
+    # 🔴 BÖLGE ARTIK TEK DİKDÖRTGEN DEĞİL. Koşu 9'da pencere L şekline geçti:
+    #   BOLGE = unary_union([box(-12,-11,146,82), box(-25,60,-12,82)])
+    # Batı kenarı İzlanda için açıldı ama düz dikdörtgen olsaydı şeridin %77'si
+    # Batı Afrika olacaktı: Timbuktu'nun d/v/s üçü de boş ⇒ Senegal-Gambiya-
+    # Moritanya beyaz delik, Agadir `fas` taşıdığı için Kanarya Adaları Fas
+    # boyanırdı (PETEK/NOKTA ölçtü). Çentik onu dışarıda bırakıyor.
+    #
+    # ⚠️ VE BURADA TEK KUTUYA İNDİRGEMEK YASAK: `box(*bounds)` çentiği de
+    # kapsar ve konum denetimi Batı Afrika'daki bir noktaya "içeride" der —
+    # yani ölçemediği için değil, YANLIŞ ÖLÇTÜĞÜ için hata yapar. Birleşim
+    # kullanılıyor; kutu sayısı bir ise davranış eskisiyle birebir aynı.
+    _satir = re.search(r"^BOLGE\s*=.*$", _src, re.M)
+    if not _satir:
         raise ValueError("BOLGE satırı bulunamadı")
-    _BOLGE_KUTU = tuple(float(x) for x in _m.group(1).split(","))
+    _kutular = [tuple(map(float, b)) for b in re.findall(
+        r"box\(\s*(-?[\d.]+)\s*,\s*(-?[\d.]+)\s*,\s*(-?[\d.]+)\s*,\s*(-?[\d.]+)\s*\)",
+        _satir.group(0))]
+    if not _kutular:
+        raise ValueError("BOLGE satırında hiç box(...) yok")
     _m = re.search(r"^KARA_TOL\s*=\s*([0-9.eE+-]+)", _src, re.M)
     if not _m:
         raise ValueError("KARA_TOL satırı bulunamadı")
@@ -1046,7 +1075,9 @@ def konum_denetimi(Y):
     kara_yol = os.path.join(kaynak, "ne_10m_land.geojson")
     if not os.path.exists(kara_yol):
         return None
-    bolge = box(*_BOLGE_KUTU)
+    # L pencere: kutuların BİRLEŞİMİ (bkz. _kutular'ın yanındaki not — sınırlayıcı
+    # dikdörtgene indirgemek çentiği kapsar ve yanlış "içeride" der).
+    bolge = unary_union([box(*k) for k in _kutular])
     ne = json.load(io.open(kara_yol, encoding="utf-8"))
     kara = unary_union([shape(f["geometry"]).buffer(0).intersection(bolge)
                         for f in ne["features"]

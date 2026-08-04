@@ -57,7 +57,23 @@ CIKTI = os.path.join(KOK, "data", "donemler.js")
 #   KUZEY 64: Sundsvall+Trondheim girer; 64'ü aşan her derece bugün
 #     getirisiz (İş J: 71'e uzatmak aynı 2 nokta için 3,3 kat pahalı).
 #   BATI −12: değişmedi (lon<−12'de nokta YOK — İş J, bulunamadı).
-BOLGE = box(-12, -11, 146, 64)
+# 🔴 KUTU ARTIK DİKDÖRTGEN DEĞİL, "L" — 4 Ağustos 2026, koşu 9.
+# Emre kuzeyi adıyla istedi: *"HARİTANIN KUZEY SINIRI KUZEY KUTUP NOKTASI
+# OLSUN… İZLANDA NORVEÇİN SKARSVAG ADASI MEHAM GAMVİK NOVAYA ZEMLYA
+# SEVERNAYA ZEMLYA RUDOLF İSLAND"*.
+#   · kuzey 64 → 82: yedi yer bununla giriyor (+4,83 mn km², +25.842 köşe)
+#   · İZLANDA girmiyordu: 13°B-24,5°B arasında, batı kenarı −12'ydi
+# ⚠️ AMA BATIYI DÜZ AÇMAK (box(-25,-11,…)) İKİ YENİ HATA AÇIYORDU —
+#    PETEK/NOKTA ölçtü: o şeridin %77'si BATI AFRİKA, İzlanda yalnız %9.
+#      Timbuktu'nun s:/d:/v: üçü de boş  → Senegal-Gambiya beyaz delik
+#      Agadir `fas` taşıyor              → KANARYA ADALARI Fas boyanırdı
+# ⇒ Batı yalnız KUZEYDE açılıyor. L'nin çentik köşesi (−12°D / 60°K) açık
+#   okyanusta; hiçbir peteğe değmiyor (ölçüldü).
+# 📌 Ve kuzey, noktalar HAZIR OLMADAN açılmadı: noktasız açılsa 4,83 mn km²
+#   mevcut peteklere emilir ve Moğolistan'ın Uliastay'ı Arktik Sibirya'yı,
+#   Sapporo Arktik adalarını boyardı (ölçüldü, `CLAUDE.md §2`).
+#   `yerlesimler_ek8.js` (39 nokta, 64,5-80,3°K) bu koşuda birlikte iniyor.
+BOLGE = unary_union([box(-12, -11, 146, 82), box(-25, 60, -12, 82)])
 
 # ---------------- Devlet boya tablosu ----------------
 # Yerleşimlerin s alanındaki kimlikler; her devlet haritada kendi renginde
@@ -617,10 +633,32 @@ def delikleri_doldur(g):
 asama("Ortak kenar ağı çıkarılıyor")
 _bx0, _by0, _bx1, _by1 = BOLGE.bounds
 def _kutuda(x, y, e=1e-9):
-    return (abs(x-_bx0) < e or abs(x-_bx1) < e or
-            abs(y-_by0) < e or abs(y-_by1) < e)
+    # ⚠️ L KUTUSUNUN ÇENTİK KENARLARI DA ÇERÇEVEDİR. `BOLGE.bounds` yalnız
+    # dış dikdörtgeni verir (−25,−11,146,82); çentiği çizen İKİ kenar
+    # (lon −12, lat<60  ·  lat 60, lon<−12) orada görünmez. Çerçeve sayılmazsa
+    # yaslama onları nehre/sırta çeker ve veri sınırı eğrilir.
+    if (abs(x-_bx0) < e or abs(x-_bx1) < e or
+            abs(y-_by0) < e or abs(y-_by1) < e):
+        return True
+    if abs(x + 12.0) < e and y <= 60.0 + e:      # çentiğin dikey kenarı
+        return True
+    if abs(y - 60.0) < e and x <= -12.0 + e:     # çentiğin yatay kenarı
+        return True
+    return False
 
-_ag = linemerge(unary_union([h.exterior for h in PETEK]))
+# ⚠️ HÜCRE ÇOK PARÇALI OLABİLİR — kutu "L" olduğundan beri (4 Ağustos 2026).
+# Dikdörtgen kutuda `h.intersection(BOLGE)` her zaman tek parça veriyordu ve
+# bu satır `.exterior` diyordu. L'nin çentiği bir Voronoi hücresini ikiye
+# bölünce koşu `AttributeError: 'MultiPolygon' object has no attribute
+# 'exterior'` ile düştü (koşu 9, ilk deneme, 56. saniye).
+# 📌 Alt akış çok parçalılığı ZATEN destekliyor (`_kume` hücre başına yüz
+# listesi tutuyor); tek eksik bu satırdı.
+_dis_halkalar = []
+for h in PETEK:
+    for _p in (h.geoms if h.geom_type == "MultiPolygon" else [h]):
+        if not _p.is_empty:
+            _dis_halkalar.append(_p.exterior)
+_ag = linemerge(unary_union(_dis_halkalar))
 _kenarlar = list(_ag.geoms) if _ag.geom_type == "MultiLineString" else [_ag]
 print(f"  {len(_kenarlar)} kenar")
 
@@ -1856,6 +1894,104 @@ else:
 # Parçalar dosya başına TEK havuza yazılır, dönem kayıtları havuz indeksi taşır.
 # js/app.js yüklerken indeksleri geometriye çevirir (aynı parça bellekte de
 # tek nesne olur). Kazanç: kıyı 0.004 çözünürlükte kalırken dosya ~%60 küçülür.
+def seyrelt(halka_hav, parca_hav, kayitlar, don_kose, tol):
+    """B · UZAK COĞRAFYA SEYRELTME — YUK-SARTNAME.md.
+
+    Halka halka Douglas-Peucker, AMA `don_kose` kümesindeki köşeler SABİT.
+    Dondurulan köşe = aynı ANDA iki farklı sahibin (yabancı devlet ya da
+    Osmanlı) sınırında geçen köşe. Onlar hiç oynamadığı için iki komşu
+    arasında **boşluk yapısal olarak doğamaz** — ölçülmesi bile gerekmez.
+
+    🔴 NİÇİN ÖLÇÜT BU (hepsi 4 Ağustos 2026'da ölçüldü):
+      · yabancı gövde köşelerinin %86,7'si KIYIDA → `coverage_simplify`
+        (yalnız hücreler arası kenarı sadeleştirir) baytın en fazla
+        %13'ünü verebilir, 27 MB'ı ASLA. O yol elendi.
+      · boşluğu kıyı değil ORTAK SINIR açıyor ve ortak sınır, aynı tarihte,
+        köşelerin yalnız %6'sı.
+      · düz Douglas-Peucker tol=0,02'de 27,09 MB veriyor ama 83.646 km²
+        boşluk açıyor; hibrit tol=0,03'te 26,90 MB veriyor ve boşluk SIFIR.
+        ⇒ Boşluğu ödemeye hiç gerek yokmuş; bir kademe tolerans yetti.
+
+    ⚠️ DONDURMA KÜMESİ OSMANLI'YI DA İÇERMELİ. İlk ölçümde yalnız yabancı
+    devletlere baktım; Avusturya-Osmanlı sınırındaki köşe tek yabancı
+    devlette göründüğü için donmuyordu ve Macaristan-Erdel-Kafkasya hattında
+    boşluk açacaktı. Osmanlı gövdesi eklenince +16.091 köşe donuyor,
+    bedeli 0,18 MB — kazancın %0,7'si.
+    ⚠️ VE ÖRTÜŞME ZAMANLIDIR: "iki devlette geçen köşe" ölçütü %87 donduruyor
+    ve YANLIŞ — aynı kıyıyı 1600'de A, 1700'de B kullanıyor, onlar hiç komşu
+    olmuyor. Zaman örtüşmesi eklenince %13,5'e iniyor; ayrım yapılmazsa
+    kazanç 27 MB yerine 4 MB olur.
+    """
+    from shapely.geometry import LineString as _LS
+    yeni_halka, esle = [], {}
+    for _hi, r in enumerate(halka_hav):
+        cs, run = [], []
+        for q in r:
+            if tuple(q) in don_kose:
+                if len(run) > 2:
+                    cs.extend([list(x) for x in
+                               _LS(run).simplify(tol, preserve_topology=False).coords][:-1])
+                elif run:
+                    cs.extend(run[:-1])
+                run = []
+                cs.append(q)
+            else:
+                if not run and cs:
+                    run = [cs.pop()]
+                run.append(q)
+        if len(run) > 2:
+            cs.extend([list(x) for x in
+                       _LS(run).simplify(tol, preserve_topology=False).coords])
+        else:
+            cs.extend(run)
+        if len(cs) >= 3 and cs[0] != cs[-1]:
+            cs.append(list(cs[0]))
+        cs = [[round(x, 3), round(y, 3)] for x, y in cs]
+        # ardışık tekrar yeniden doğabilir (D ile aynı ölçüt)
+        t2 = []
+        for q in cs:
+            if not t2 or q != t2[-1]:
+                t2.append(q)
+        if len(t2) >= 3 and t2[0] != t2[-1]:
+            t2.append(list(t2[0]))
+        esle[_hi] = len(yeni_halka)
+        yeni_halka.append(t2 if len(t2) >= 4 else r)   # bozulduysa aslını koru
+    for ks in parca_hav:
+        for i2 in range(len(ks)):
+            ks[i2] = esle[ks[i2]]
+    return yeni_halka
+
+
+def don_kose_kur(*kaynaklar):
+    """Aynı ANDA iki farklı sahibin sınırında geçen köşeler — donacak küme.
+    kaynaklar: (halka_havuzu, parca_havuzu, [(sahip, f, t, [parça_ix...])]) üçlüleri.
+    """
+    kose = {}
+    for halka_hav, parca_hav, refs in kaynaklar:
+        for sahip, f, t, pix in refs:
+            for pj in pix:
+                for hj in parca_hav[pj]:
+                    for q in set(map(tuple, halka_hav[hj])):
+                        kose.setdefault(q, []).append((sahip, f, t))
+    out = set()
+    for q, rs in kose.items():
+        if len(rs) < 2:
+            continue
+        rs.sort(key=lambda x: x[1])
+        for i2 in range(len(rs)):
+            si, fi, ti = rs[i2]
+            for k2 in range(i2 + 1, len(rs)):
+                sk, fk, _ = rs[k2]
+                if fk >= ti:
+                    break
+                if sk != si:
+                    out.add(q)
+                    break
+            if q in out:
+                break
+    return out
+
+
 def havuza(mp, halka_hav, halka_ix, parca_hav, parca_ix):
     """İKİ KADEMELİ HAVUZ — YUK-SARTNAME.md · C.
 
@@ -1989,7 +2125,9 @@ print(f"  {len(BOLGELER)} bölge → data/bolgeler.js ({os.path.getsize(_byol)//
 OLCU_KESIT = ["1300-06-15", "1400-06-15", "1453-05-29", "1500-06-15",
               "1517-07-06", "1600-06-15", "1700-06-15", "1800-06-15",
               "1900-06-15"]
-_DEV_ALAN = []          # (f, t, km²) — yalnız künye için; ÇIKTIYA YAZILMAZ
+# 🔴 Künye alanları SEYRELTMEDEN SONRA hesaplanır (aşağıda, _yabanci_g).
+# Koşu sırasında toplanan bir liste YOK: seyreltme geometriyi değiştiriyor
+# ve künye YAYINLANAN çıktıyı ölçmeli, ondan öncekini değil.
 
 
 # 🔴 ESKİ ÇIKTIDAN TABAN — ve NİÇİN TAM BURADA.
@@ -2178,28 +2316,17 @@ for _dv_i, (did, (dad, renk)) in enumerate(BOYALAR.items(), 1):
         # ⚠️ Bu yüzden alan artık HER gövde için hesaplanıyor: uzama sonradan
         # olduğu için "bu dönem kesiti kapsıyor mu" sorusu yaratılış anında
         # cevaplanamaz. Maliyet ~1.970 çağrı; ölçüp bildireceğim.
-        _DEV_ALAN.append((_kayit, alan_km2(g)))
         sayac("yabancı gövde geometrisi", time.time() - _t_gv)
     if dnm: DEVLET_KAYIT.append({"id": did, "ad": dad, "renk": renk, "dnm": dnm})
-_dyol = os.path.join(KOK, "data", "devletler_harita.js")
-_dj  = "// Otomatik üretildi — elle düzenlemeyin. Betik: arac/uret_petek.py\n"
-_dj += "// Yabancı devletlerin dönem gövdeleri (yerlesimler.js s alanından).\n"
-_dj += "// dnm[].g, DEVLET_PARCALAR havuzuna indekstir (js/app.js çözer).\n"
-_dj += ("window.DEVLET_PARCALAR = "
-        + json.dumps(DEV_HALKA, separators=(",", ":")) + ";\n")
-_dj += ("window.DEVLET_PARCA_HALKA = "
-        + json.dumps(DEV_PARCA, separators=(",", ":")) + ";\n")
-_dj += "window.DEVLET_HARITA = " + json.dumps(DEVLET_KAYIT, ensure_ascii=False, separators=(",",":")) + ";\n"
-_dj += ("window.URETIM_IZI = "
-        + json.dumps({"girdi": _GIRDI_IZI, "motor": _MOTOR_IZI},
-                     separators=(",", ":"), sort_keys=True) + ";\n")
-_muhru_dogrula("data/devletler_harita.js")
-girdi.izi_dogrula(_GIRDI_IZI, "data/devletler_harita.js")
-open(_dyol, "w", encoding="utf-8").write(_dj)
-print(f"  {len(DEVLET_KAYIT)} devlet, {sum(len(d['dnm']) for d in DEVLET_KAYIT)} dönem → "
-      f"data/devletler_harita.js ({os.path.getsize(_dyol)//1024} KB)")
+# 🔴 `devletler_harita.js` YAZIMI ERTELENDİ — B (seyreltme) yüzünden.
+# Seyreltmenin dondurma kümesi OSMANLI sınırını da içermeli, ama Osmanlı
+# gövdeleri aşağıdaki "Dönemler" döngüsünde kuruluyor. Dosya burada
+# yazılsaydı seyreltilmemiş hâli yayınlanır, ya da Osmanlı sınırı
+# korunmadan seyreltilirdi. Yazım, iki havuz da hazırken yapılıyor.
+print(f"  {len(DEVLET_KAYIT)} devlet, "
+      f"{sum(len(d['dnm']) for d in DEVLET_KAYIT)} dönem — "
+      f"yazım seyreltmeden sonraya ertelendi")
 
-# ---------------- Dönemleri kur ----------------
 asama("Dönemler kuruluyor (delta yapısı)")
 # İki katman:
 #   DOĞRUDAN (o)  : merkezden yönetilen toprak — koyu kırmızı
@@ -2343,6 +2470,44 @@ js += "window.DONEMLER = " + json.dumps(donemler, separators=(",",":")) + ";\n"
 # Bugünkü tüketici için doğru: en geç `kur:` 1869-01-01, `isg:` aralıkları
 # 1878'den başlıyor, yani o tarihlerde bütün noktalar kurulmuş. Ama 1869
 # ÖNCESİNE uzanan bir örtü istenirse bu dosya yanlış cevap verir ve uyarmaz.
+# ---------------- B · UZAK COĞRAFYA SEYRELTME ----------------
+# Bkz. seyrelt() başlığı: ölçüm, elenen yollar ve dondurma ölçütü orada.
+# ⚠️ YALNIZ YABANCI HAVUZ. Osmanlı havuzu (`PARCALAR`) ELLENMİYOR — kademe
+# 4-5 (Söğüt-Bursa çekirdeği, Osmanlı gövdesi, 1923 Türkiye) dokunulmaz.
+SEYRELT_TOL = 0.03          # ≈3,3 km — ölçülmüş kırılma noktası
+asama("Uzak coğrafya seyreltme (yabancı havuz)")
+_don = don_kose_kur(
+    (DEV_HALKA, DEV_PARCA, [(d["id"], p["f"], p["t"], p["g"])
+                            for d in DEVLET_KAYIT for p in d["dnm"]]),
+    (OSM_HALKA, OSM_PARCA, [("__OSMANLI__", r["f"], r["t"],
+                             (r.get("o") or []) + (r.get("v") or []))
+                            for r in donemler]))
+_k0 = sum(len(h) for h in DEV_HALKA)
+DEV_HALKA = seyrelt(DEV_HALKA, DEV_PARCA, DEVLET_KAYIT, _don, SEYRELT_TOL)
+_k1 = sum(len(h) for h in DEV_HALKA)
+print(f"  dondurulan köşe {len(_don):,} · yabancı havuz köşe "
+      f"{_k0:,} → {_k1:,} (%{_k1/_k0*100:.0f}) · boşluk 0 (yapısal)")
+
+_dyol = os.path.join(KOK, "data", "devletler_harita.js")
+_dj  = "// Otomatik üretildi — elle düzenlemeyin. Betik: arac/uret_petek.py\n"
+_dj += "// Yabancı devletlerin dönem gövdeleri (yerlesimler.js s alanından).\n"
+_dj += "// dnm[].g, DEVLET_PARCALAR havuzuna indekstir (js/app.js çözer).\n"
+_dj += ("window.DEVLET_PARCALAR = "
+        + json.dumps(DEV_HALKA, separators=(",", ":")) + ";\n")
+_dj += ("window.DEVLET_PARCA_HALKA = "
+        + json.dumps(DEV_PARCA, separators=(",", ":")) + ";\n")
+_dj += "window.DEVLET_HARITA = " + json.dumps(DEVLET_KAYIT, ensure_ascii=False, separators=(",",":")) + ";\n"
+_dj += ("window.URETIM_IZI = "
+        + json.dumps({"girdi": _GIRDI_IZI, "motor": _MOTOR_IZI},
+                     separators=(",", ":"), sort_keys=True) + ";\n")
+_muhru_dogrula("data/devletler_harita.js")
+girdi.izi_dogrula(_GIRDI_IZI, "data/devletler_harita.js")
+open(_dyol, "w", encoding="utf-8").write(_dj)
+print(f"  {len(DEVLET_KAYIT)} devlet, {sum(len(d['dnm']) for d in DEVLET_KAYIT)} dönem → "
+      f"data/devletler_harita.js ({os.path.getsize(_dyol)//1024} KB)")
+
+# ---------------- Dönemleri kur ----------------
+
 asama("Çıktı yazımı (petek_govde.js + donemler.js)")
 _pg_havuz, _pg_ix, _pg_indeks = [], {}, []
 for _i, _g in enumerate(PETEK_D):
@@ -2395,6 +2560,15 @@ js += ("window.URETIM_IZI = "
 # beslenecek (`window.VERI_SINIRI || yedek`): kutu değişince çizgi otomatik
 # izler, kimse elle güncellemez. Değer ELLE YAZILMAZ — BOLGE'den türetilir
 # (bugün üç elle kopya temizlendi; dördüncüsü burada açılmasın).
+# ⚠️ ARTIK EKSİK BİR ÖLÇÜ — kutu L oldu, bu satır hâlâ DİKDÖRTGEN veriyor.
+# `js/app.js:688` (`veriSiniriKur`) dört sayıdan bir dikdörtgen çiziyor;
+# L'nin çentiği (güneybatı: −25..−12 D / −11..60 K) o dikdörtgenin İÇİNDE
+# görünür ama kapsama DAHİL DEĞİL. Yani "Veri sınırı" düğmesi açılırsa
+# kapsanmayan bir alanı kapsanmış gibi gösterir.
+# 🔴 Bugünkü ders serisinin aynısı: ölçü, ölçtüğü şeyin şeklini kaybetti.
+# Katman varsayılan olarak KAPALI (`visibility: "none"`) olduğu için yayını
+# engellemiyor; ama `app.js` bir çokgen kabul edecek şekilde güncellenmeli
+# (ARAYÜZ'ün dosyası). O gün burası `BOLGE.exterior.coords` yazacak.
 js += ("window.VERI_SINIRI = "
        + json.dumps(list(BOLGE.bounds)) + ";\n")
 # ---------------- ÇIKTI KIYASI — "geçen koşuya göre ne oynadı" ----------------
@@ -2419,11 +2593,33 @@ js += ("window.VERI_SINIRI = "
 # ⚠️ BU BİR KAPI DEĞİL, TEŞHİSTİR: üretimi DURDURMAZ, hüküm VERMEZ.
 # "Bu sapma meşru mu" sorusunun cevabı her seferinde insanda kalır —
 # bugün olduğu gibi. Rapor eder, yorumlamaz.
+def _halka_km2(halkalar):
+    """Halka listesinden (dış + delikler) km² — alan_km2 ile aynı formül."""
+    T = 0.0
+    for _i, r in enumerate(halkalar):
+        sg = 1 if _i == 0 else -1
+        s2 = 0.0
+        for _k in range(len(r) - 1):
+            lo1, la1 = math.radians(r[_k][0]), math.radians(r[_k][1])
+            lo2, la2 = math.radians(r[_k+1][0]), math.radians(r[_k+1][1])
+            s2 += (lo2 - lo1) * (2 + math.sin(la1) + math.sin(la2))
+        T += sg * abs(s2 * R_DUNYA * R_DUNYA / 2)
+    return T
+
+
 def _yabanci_g(g):
     """g gününde boyalı YABANCI toplam (Osmanlı dışı), km².
+    SEYRELTİLMİŞ havuzdan okunur — künye yayınlanan çıktıyı ölçer.
     ⚠️ Osmanlı d/v aktifken o petek zaten yabancı gövdeye girmiyor
     (`_osm_aktif` bastırıyor), yani çifte sayım yok."""
-    return sum(al for k, al in _DEV_ALAN if k["f"] <= g < k["t"])
+    T = 0
+    for d in DEVLET_KAYIT:
+        for p in d["dnm"]:
+            if p["f"] <= g < p["t"]:
+                T += int(round(sum(_halka_km2([DEV_HALKA[h] for h in DEV_PARCA[pj]])
+                                   for pj in p["g"]), -3))
+                break
+    return T
 
 
 def _alan_g(dnm, g):

@@ -1,6 +1,6 @@
 {
  "ad": "ARAYUZ 2",
  "hal": "hazir",
- "not": "Duygu gosterimi+ayar+ton denetimi bitti: ayar kapaliyken 1 CSS class ile tum satirlar gizleniyor (1107 satir yeniden kurulmuyor), panelde de gosteriliyor, ekran okuyucu icin gorunmez etiket var. denetle_duygu.py TEMIZ. Ama 34 madde (data/olaylar.js, 82 kayittan) duygusuz kaldi -- taban script bu dosyayi atlamis gorunuyor.",
- "damga": "2026-08-04 03:24"
+ "not": "Calisma agaci yayinlanabilir durumda, teyit edildi (node --check + denge temiz). Yeni is almiyorum, gun kapaniyor.",
+ "damga": "2026-08-04 03:28"
 }

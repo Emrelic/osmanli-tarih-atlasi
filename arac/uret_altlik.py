@@ -55,10 +55,21 @@ def _sabit(ad, tip=float):
 KARA_TOL = _sabit("KARA_TOL")
 SADE_TOL = _sabit("SADE_TOL")
 
-m = re.search(r"^BOLGE\s*=\s*box\(([^)]+)\)", _src, re.M)
+# 🔴 BÖLGE ARTIK L ŞEKLİNDE (koşu 9):
+#   BOLGE = unary_union([box(-12,-11,146,82), box(-25,60,-12,82)])
+# Tek `box(...)` bekleyen desen kırıldı. Aynı yama `denetle.py`ye de uygulandı.
+# ⚠️ Sınırlayıcı dikdörtgene indirgemek YASAK: çentik (lon<-12 · lat<60) Batı
+# Afrika'yı kapsar ve altlık orada kıyı çizerdi — pencerede olmayan bir kara
+# için. Birleşim kullanılıyor; tek kutu varsa davranış eskisiyle birebir aynı.
+m = re.search(r"^BOLGE\s*=.*$", _src, re.M)
 if not m:
-    raise SystemExit("!! BOLGE okunamadi")
-BOLGE = box(*[float(x) for x in m.group(1).split(",")])
+    raise SystemExit("!! BOLGE satiri bulunamadi")
+_kutular = re.findall(
+    r"box\(\s*(-?[\d.]+)\s*,\s*(-?[\d.]+)\s*,\s*(-?[\d.]+)\s*,\s*(-?[\d.]+)\s*\)",
+    m.group(0))
+if not _kutular:
+    raise SystemExit("!! BOLGE satirinda box(...) yok")
+BOLGE = unary_union([box(*[float(x) for x in k]) for k in _kutular])
 
 # sırt hattının daraltma payı — motorun kendi satırından
 m = re.search(r"cekirdek\s*=\s*g\.buffer\((-?[0-9.]+)\)", _src)
