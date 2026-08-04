@@ -162,7 +162,11 @@ window.OLAYLAR_EK11 = [
   kisiler:"II. Felipe (Portekiz kralı I. Filipe), Kardinal Kral Henrique",
   d:"Kardinal Kral Henrique'nin vârissiz ölümüyle açılan veraset kavgası Alcântara Muharebesi'nde (25 Ağustos 1580) İspanya lehine kapandı ve Tomar'da toplanan Portekiz Cortes'i 16 Nisan 1581'de II. Felipe'yi Portekiz kralı olarak tanıdı. Tomar şartlarına göre Portekiz kendi kurumlarını, parasını ve dilini koruyacak, yönetime yalnız Portekizliler atanacak, Madrid'de ayrı bir Portekiz konseyi bulunacaktı — yani birleşme kişisel birlikti, ilhak değil. Atlas aynı hukukî durumu Felemenk ve Milano için `ispanya` diye boyadığından anakara Portekiz de altmış yıl boyunca aynı şekilde işlendi; buna karşılık Estado da Índia (Goa, Diu, Malaka, Makao) Portekiz tacı altında kaldığı için `portekiz` bırakıldı. Kaynak: Britannica, History of Portugal — Union of Spain and Portugal, 1580-1640." },
 
-{ t:"1640-12-01", k:"siyaset", etiket:["siyaset","toprak-kayip"],
+// ⚠️ `toprak-kayip` YAZIM HATASIYDI, doğrusu `toprak-kaybi` (öteki 183 kayıt öyle
+// yazıyor). Önemsiz görünür, değil: `denetle.py`nin `kirilmasiz_madde()` sayacı
+// tam bu etikete bakıyor — yanlış yazılan etiket, toprak iddiası taşıyan maddeyi
+// "kırılmasız" sayıp Değişmez 2t tavanını boş yere yer.
+{ t:"1640-12-01", k:"siyaset", etiket:["siyaset","toprak-kaybi"],
   b:"Restauração: Portekiz bağımsızlığını geri aldı",
   gun:"1 Aralık 1640", yer:"Lizbon", yer_id:"Lizbon",
   kisiler:"IV. João (Braganza Dükü), Kont-Dük Olivares",
