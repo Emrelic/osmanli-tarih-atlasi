@@ -183,7 +183,15 @@
 <div id="ayarlar-pencere" class="gizli">
   <div id="ayarlar-kutu">
     <button id="ayarlar-kapat" title="Kapat">✕</button>
-    <h3>⚙ Uçuş kipi ayarları</h3>
+    <h3>⚙ Ayarlar</h3>
+    <!-- DUYGU-VE-SEKME-SARTNAME.md §A② — bu katman TDV'ye BASMAZ, yorumdur.
+         Ayardan açılır/kapanır (pazarlık dışı kural); varsayılan AÇIK çünkü
+         kapalıyken kimse varlığını bilmez (şartnamenin kendi önerisi). -->
+    <div class="ayar-satir ayar-satir-anahtar">
+      <label for="duygu-ac">😊 Duygu emojileri <span class="ayar-ipucu">(okuyanın tepkisi — kaynağın hükmü değil, TDV'ye basmaz)</span></label>
+      <input type="checkbox" id="duygu-ac" checked>
+    </div>
+    <h3 class="ayar-altbaslik">🛩 Uçuş kipi</h3>
     <div class="ayar-satir">
       <label for="ayar-irtifa">İrtifa <span class="ayar-ipucu">(yayın tepe yüksekliği)</span></label>
       <input type="range" id="ayar-irtifa" min="0.5" max="3" step="0.1" value="1.42">

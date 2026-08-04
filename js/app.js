@@ -2338,6 +2338,46 @@ var olaylar = (window.OLAYLAR || []).concat(window.OLAYLAR_EK || [])
   return Object.assign({ gi: o.t.split("-").length > 2 ? kaba : gunMetniIdx(o.gun, kaba) }, o);
 }).sort(function (a, b) { return a.gi - b.gi; });
 
+// DUYGU-VE-SEKME-SARTNAME.md §A — "okuyanın tepkisi", TDV'ye BASMAZ. `title`
+// ve ekran-okuyucu metni bunu açıkça söylüyor, "tarihin hükmü" değil (§A②④).
+// ⚠️ Görünürlük CSS class ile yönetiliyor (`document.documentElement`
+// üzerinde `duygu-kapali`) — 1.107 satırı checkbox her değiştiğinde yeniden
+// KURMAK yerine, satırlar BİR KERE kurulur ve tek bir class geçişi hepsini
+// aynı anda gösterir/gizler (§A⑤①: "ayar kapalıyken hiçbir emoji görünmüyor").
+var DUYGU_ETIKET = {
+  "🎉": "kutlama", "👑": "taç giyme / iktidar", "📜": "antlaşma / karar",
+  "🤝": "ittifak / anlaşma", "⚔️": "savaş", "🏆": "zafer", "🏛": "kurum",
+  "🏰": "kale / savunma", "🐎": "sefer / yolculuk", "✊": "direniş",
+  "🌱": "yeni başlangıç", "🎌": "fetih / bayrak", "🎨": "sanat / kültür",
+  "👥": "toplum", "💍": "evlilik", "💭": "düşünce / fikir", "💰": "ekonomi",
+  "📋": "düzenleme", "📌": "önemli nokta", "🔬": "bilim", "🕊": "barış",
+  "🕌": "din / kurum", "🗡": "çatışma", "🧭": "keşif", "⚖️": "adalet / hukuk",
+  "😔": "hüzün", "😠": "öfke", "😢": "üzüntü", "😭": "ağlama",
+  "😲": "şaşkınlık", "😨": "korku", "💔": "hayal kırıklığı",
+  "👏": "alkış / takdir", "😀": "mutluluk", "🤮": "tiksinti"
+};
+function duyguEtiketleri(dizi) {
+  return dizi.map(function (e) { return DUYGU_ETIKET[e] || "duygu"; }).join(", ");
+}
+// Emoji glif GÖRSEL, ekran okuyucu için `aria-hidden` — anlamı ayrı, görünmez
+// bir metinle taşınıyor (§A⑤⑤: "gürültü yapmıyor, anlamlı etiket").
+function duyguSpanUret(o) {
+  if (!o.duygu || !o.duygu.length) return null;
+  var span = document.createElement("span");
+  span.className = "o-duygu";
+  var glif = document.createElement("span");
+  glif.setAttribute("aria-hidden", "true");
+  glif.textContent = o.duygu.join(" ");
+  var etiketMetni = "okuyanın tepkisi: " + duyguEtiketleri(o.duygu);
+  span.title = etiketMetni;
+  var srMetin = document.createElement("span");
+  srMetin.className = "gorunmez-metin";
+  srMetin.textContent = " (" + etiketMetni + ")";
+  span.appendChild(glif);
+  span.appendChild(srMetin);
+  return span;
+}
+
 var olayDom = [];
 olaylar.forEach(function (o, i) {
   var div = document.createElement("div");
@@ -2345,6 +2385,8 @@ olaylar.forEach(function (o, i) {
   div.innerHTML = '<div class="o-tarih">' + olayTarihYazi(o) + '</div>' +
                   '<div class="o-baslik"></div>';
   div.lastChild.textContent = o.b;
+  var duyguSpan = duyguSpanUret(o);
+  if (duyguSpan) div.lastChild.appendChild(duyguSpan);
   // hatalar 14 md.1: "olay başlıklarının üzerine tıklayınca AYNI SÜTUNDA SAĞ ALTTA
   // açılması gerekmiyor muydu, neden ortada açılıyor?"
   // Kullanıcının beklediği panel ZATEN VARDI (#olay-bilgi, kronolojinin altında) ama
@@ -3190,6 +3232,10 @@ function obGoster(o) {
   if (o.yer) { var y = document.createElement("span"); y.textContent = "📍 " + o.yer; meta.appendChild(y); }
   var kat = document.createElement("span"); kat.className = "ob-kat k-" + o.k;
   kat.textContent = o.k; meta.appendChild(kat);
+  // §A④ — panelde de "okuyanın tepkisi" diye adlandırılır, satırdakiyle
+  // aynı span/etiket üretimi (`duyguSpanUret`) yeniden kullanılıyor.
+  var duyguSpanPanel = duyguSpanUret(o);
+  if (duyguSpanPanel) { duyguSpanPanel.classList.add("ob-duygu"); meta.appendChild(duyguSpanPanel); }
 
   // Görsel: olayda adı geçen padişah varsa onun portresi, yoksa dönemin padişahı
   var gorsel = document.getElementById("ob-gorsel");
@@ -3669,6 +3715,19 @@ function yakinlikEtiket(zoom) {
   var kmYazi = km >= 1000 ? (km / 1000).toFixed(1).replace(".0", "") + " bin km" : km + " km";
   return "~" + kmYazi + " (" + enYakin.ad + " ölçeğinde)";
 }
+
+// §A② — varsayılan AÇIK (şartnamenin kendi önerisi: "kapalıyken kimse
+// varlığını bilmez"). `localStorage`ta hiç kayıt yoksa açık kalır; kullanıcı
+// bir kez kapatırsa "0" yazılır ve o tercih kalıcı olur.
+var duyguAcEl = document.getElementById("duygu-ac");
+(function () {
+  duyguAcEl.checked = localStorage.getItem("duyguAc") !== "0";
+  document.documentElement.classList.toggle("duygu-kapali", !duyguAcEl.checked);
+  duyguAcEl.addEventListener("change", function () {
+    localStorage.setItem("duyguAc", duyguAcEl.checked ? "1" : "0");
+    document.documentElement.classList.toggle("duygu-kapali", !duyguAcEl.checked);
+  });
+})();
 
 var ucusAcEl = document.getElementById("ucus-ac");
 var ucusKipEl = document.getElementById("ucus-kip");

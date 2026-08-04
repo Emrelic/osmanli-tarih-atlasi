@@ -872,6 +872,20 @@ body {
 }
 .ob-kutu b { display: block; color: #5c1020; font-size: 11.5px; }
 
+/* ---------- Duygu emojileri — DUYGU-VE-SEKME-SARTNAME.md §A ---------- */
+/* Ekran okuyucuya görünmez ama DOM'da var — glif `aria-hidden`, anlam bu
+   sınıfla taşınıyor (§A⑤⑤). Standart "sr-only" deseni: 1x1'e küçültülür,
+   düzen akışından tamamen çıkarılır ama okunabilirliği kaybetmez. */
+.gorunmez-metin {
+  position: absolute; width: 1px; height: 1px; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap; border: 0; padding: 0; margin: -1px;
+}
+.o-duygu { margin-left: 5px; font-size: 12px; cursor: default; }
+.ob-duygu { font-size: 12px; }
+/* §A⑤① — "ayar kapalıyken hiçbir emoji görünmüyor": tek class geçişiyle
+   1.107 satır bir kerede gizlenir, DOM yeniden kurulmaz. */
+.duygu-kapali .o-duygu, .duygu-kapali .ob-duygu { display: none; }
+
 /* ---------- Kartvizit — PADISAH-KARTVIZITI.md ---------- */
 #ob-kartvizit {
   margin-top: 8px;
@@ -1060,6 +1074,12 @@ body {
 .ayar-satir input[type="range"] { flex: 1 1 auto; }
 .ayar-deger { font-size: 12px; color: #6b4a1f; min-width: 2.5em; text-align: right; }
 .ayar-not { font-size: 11px; color: #8c3444; line-height: 1.4; margin-top: 4px; }
+/* DUYGU-VE-SEKME-SARTNAME.md §A — anahtar tipi ayar satırı: etiket sola,
+   checkbox sağa (sürgü satırlarından farklı, tek satırlık anahtar). */
+.ayar-satir-anahtar { justify-content: space-between; flex-wrap: nowrap; }
+.ayar-satir-anahtar label { flex: 1 1 auto; }
+.ayar-satir-anahtar input[type="checkbox"] { flex: 0 0 auto; }
+.ayar-altbaslik { margin: 4px 0 10px; padding-top: 10px; border-top: 1px solid #d8c9a3; font-size: 13px; }
 
 #ekokuma-pencere {
   position: fixed; inset: 0; background: rgba(0,0,0,0.55);
