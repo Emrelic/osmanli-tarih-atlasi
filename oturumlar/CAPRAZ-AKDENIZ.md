@@ -1232,3 +1232,230 @@ bizde İşkodra   s:venedik 1281-01-01 → 1479-01-25        ✓ UYUYOR
    `1571-08-01` (ay hassasiyetli görünüyor), Kandiye `1669-09-27`.
 3. **1536 kapitülasyonu** — kesitimin adını veren olay; `fransa` kaydının
    `ozet:`inde geçiyor ama kronolojide karşılığı ölçülmedi.
+
+---
+---
+
+# TUR 9 — üç gün sonra: paketlerin âkıbeti + taban 976 → 1713
+
+> Ölçüm HEAD'i: `e9b61dd` (4 Ağustos 05:12). Oturum 4 Ağustos'ta yeniden açıldı.
+> ⚠️ **Girdi tabanı benim bütün önceki turlarımdan BÜYÜK:** 976 → **1713 nokta**
+> (Avrupa 228 ve Asya 344 merge edildi; `yerlesimler_kirim` · `_seyrek` ·
+> `_ek7-9` eklendi). Dizin 242 → **302 kayıt.**
+> ⇒ **Önceki turların rakamları o günkü tabanın fotoğrafıdır**; aşağıdaki her
+> sayı yeniden ölçüldü.
+
+## 🟢 J-0 · BEKLEYEN PAKETLERİN ÂKIBETİ — ölçüldü, tahmin edilmedi
+
+| paket | 1 Ağustos'ta | **bugün** |
+|---|---|---|
+| **B-2** Napoli 62,7 yıl-nokta | 4 nokta `s:napoli`→1923 | 🟢 **UYGULANMIŞ** — dördü de `1861-02-13 → italya`; `napoli` hayalet taraması **temiz** |
+| **B-3a** Sardunya 141,1 yıl | `italya` 1720'den | 🟢 **UYGULANMIŞ** — `sardinya 1720-02-24 → 1861-03-17` |
+| **D-1/D-2a** dokuz ada | `avusturya`→1923 | 🟢 **UYGULANMIŞ** — dokuzu da `1918-11-11 → yugoslavya` |
+| **D-2b** Cres | ardıl `DESEN` | 🟡 **KASTEN BEKLETİLMİŞ** — hâlâ `avusturya → 1923-10-29`. **Doğru hamle:** kaynak `KESİN` değildi |
+| **H-2** Klis sancağı, 8 kale | hiçbiri yok | 🟡 **BEŞİ EKLENMİŞ** — Klis · Knin · Sin (Sinj) · Vrana (Urana) · Nadin. **Skradin · Ostrovica · Obrovac hâlâ yok** |
+| **F-3** Dalmaçya anakarası | 5 şehir yok | 🟢 **ÜÇÜ EKLENMİŞ** — Zadar · Split · Şibenik. **Trogir · Nin yok** |
+| **F-2** Venedik Arnavutluğu | 5 mülk yok | 🟡 **İKİSİ EKLENMİŞ** — Kotor (`venedik 1420-01-01`) · Herseknovi (`venedik 1687-09-30`). **Budva · Bar (Antivari) · Ülgün hâlâ yok** |
+| **C-1/F-1** Girit'in üç kalesi | yok | 🔴 **HÂLÂ YOK** — Girit kutusunda yine **5 nokta** |
+| **F-4** Paksos | yok | 🔴 **HÂLÂ YOK** — İyon kutusunda 10 nokta, Paksos yok |
+| **C-5/F-5** Butrinto · Monemvasia | yok | 🔴 **HÂLÂ YOK** |
+| **A-1/B-7/E-2** İyon penceresi | tek `fransa` 1797→1815 | 🔴 **DEĞİŞMEMİŞ** — yedi noktada da tek pencere (58,4 + 31,4 yıl-nokta) |
+| **E-1** Parga `isg:` katmanı | öneri | 🔴 **UYGULANMAMIŞ** — `s:fransa` / `s:ingiltere` / `d:1819-05-10` aynen |
+| **G-2** Suriye iç şehirleri | 10,5 yıl-nokta | 🔴 **DEĞİŞMEMİŞ** — Şam·Hama·Humus `1918-10-01`, Halep·Deyrizor·Rakka·Antakya `1918-10-26`, hepsi `s:fransa` |
+
+🟢 **Zincir uçları genişlemiş** (benim paketim değil, kesitimi ilgilendiriyor):
+İyon adaları artık `1815-11-05 → 1864-05-21 ingiltere` ve `1864-05-21 →
+yunanistan` taşıyor. **A-1'in `t:` ucu veriye girmiş.** Ortadaki üç kırılma
+(1799 · 1800 · 1809/1810/1814) hâlâ yok ⇒ **pencere hâlâ yutulmuş kırılma
+taşıyor**, yalnız sonu doğrulanmış hâlde.
+
+⚠️ **Herseknovi `1687-09-30` seçilmiş.** H-3'te TDV `dalmacya`'nın **1686**
+dediğini, yaygın olarak 1687 de verildiğini yazıp *"KAYNAK'a kalem düşülsün"*
+demiştim. Karar 1687'den yana verilmiş; **gerekçesini bu turda görmedim** —
+kaynaklandıysa kalem kapanmıştır, kaynaklanmadıysa açık.
+
+---
+
+## 🔴 J-1 · `yugoslavya` 25 PENCEREDE **20 GÜN ERKEN** — ve boşlukta bir devlet var
+
+Kendi D-2 teslimimin bugünkü tabanda geri dönmesi.
+
+### ① BİZDE NE VAR — ölçüldü
+```
+dizin  id:"yugoslavya"  "Sırp-Hırvat-Sloven Krallığı (SHS)"  f:"1918-12-01"
+harita s:"yugoslavya"   25 pencere / 25 nokta
+       25'inin de f:    1918-11-11        ← İSTİSNASIZ TEK GÜN
+       fark 20 gün × 25 = 500 gün = 1,4 yıl-nokta
+```
+📌 Dizin **kendi içinde tutarlı**: `sirbistan` kaydı da `t:"1918-12-01"` ve
+kronolojisinde *"Sırp-Hırvat-Sloven Krallığı'nın kuruluşuyla birleşti"* diyor.
+⇒ Sırbistan tarafı 1 Aralık'ta düzgün devrediyor; **20 günlük fark yalnız
+Habsburg tarafındaki 25 noktada.** O tarihi **D-2'de ben önerdim** (ev kuralı:
+Zagreb · Ljubljana · Ösek · Varadin · Baç emsali).
+
+### ③ HÜKÜM — **`§74` vakası**; ölçüm **KESİN**, teşhis **kaynak istiyor**
+```
+1918-11-11  Avusturya-Macaristan'ın dağılması / mütareke   → FİİLÎ boşalma
+1918-12-01  SHS Krallığı'nın ilanı                         → HUKUKÎ kuruluş
+```
+`§3.1 ⓪` haritanın sorusunu *"o gün orayı FİİLEN kim yönetiyordu"* diye
+tanımlıyor ⇒ **11 Kasım savunulabilir.** Ama o zaman **boyanan devlet henüz
+kurulmamıştır** ve bu `§3.5`'in hayalet tanımına birebir uyar: 20 gün × 25 nokta.
+
+⚠️ **Ve boşlukta gerçekten bir devlet var:** 29 Ekim 1918'de ilan edilen
+**Slovenler-Hırvatlar-Sırplar Devleti** (Država SHS). Dizinin 302 kaydında
+karşılığı **yok**; `sloven` araması yalnız `yugoslavya` ve `sirbistan`
+maddelerinin **metnine** düşüyor, kayda değil.
+📌 Bu cümlenin kaynağı **genel bilgi, bu turda kaynaklanmadı** (`§73`: `ZAYIF`).
+Ölçüm KESİN, tarih hükmü değil.
+
+⇒ **Üç yol, hüküm vermiyorum** (`§5`):
+```
+(a) dizin f: → 1918-11-11   "SHS" adı 1 Aralık'ta doğduğu için AD yanlış olur
+(b) harita f: → 1918-12-01  25 noktada 20 günlük SAHİPSİZ pencere açar
+(c) yeni kimlik             tarihen doğru · RENK ister · 20 gün için
+```
+📌 **(b) tam olarak B-1'in tuzağı.** Kendi ölçütümü kendi teslimime
+uyguluyorum: **veri tarafı değil, dizin tarafı sorgulanmalı.**
+⚠️ Rakam küçük diye kapatılabilir sanılmasın: aynı 20 gün Habsburg ardılı
+**bütün** noktalarda tekrar edecek ve yeni merge'lerde emsal olarak kopyalanır.
+
+---
+
+## 🔴 J-2 · SARDUNYA'NIN İKİNCİ YARISI AÇIK — **ve kimlik artık ELDE**
+
+B-3'ün uygulanmayan yarısı; bugün **maliyeti sıfıra inmiş.**
+
+### ① BİZDE NE VAR — ölçüldü
+```
+Kalyari (Cagliari) · Sasari (Sassari)
+   s: 1281-01-01 → 1324-01-01  ceneviz
+   s: 1324-01-01 → 1720-02-24  ispanya    ← dizin ispanya f:"1479-01-20"
+   s: 1720-02-24 → 1861-03-17  sardinya   🟢 (B-3'ün birinci yarısı, uygulandı)
+fazlalık  56.632 gün × 2 nokta = 310,1 yıl-nokta ERKEN
+```
+
+### 🟢 ② ARADIĞIM KİMLİK DİZİNE GİRMİŞ — kendi ağzıyla Sardunya diyor
+```
+dizin  id:"aragon"  "Aragon Tacı"  f:"1164-01-01"  t:"1479-01-20"  harita:"aragon"
+       özet: "…Akdeniz'de (Sicilya, Napoli, SARDİNYA) geniş bir deniz
+              imparatorluğu kuran taç; Katolik Kralların evliliğiyle Kastilya
+              ile birleşti"
+renkler.py  "aragon": ("Aragon Krallığı", "#c639b1")     ← RENK VAR
+haritada    11 pencere zaten kullanıyor · hayalet taraması TEMİZ
+```
+B-3'te *"dizinde Aragon kaydı yok — bu bir kimlik isteği"* demiştim. **İstek
+karşılanmış.**
+
+### ③ HÜKÜM — **ÇELİŞİYOR**, güç **KESİN**; düzeltme **yeni tarih istemiyor**
+```
+1324-01-01 → 1479-01-20   s:"aragon"    ← dizin aragon'un KENDİ t:'si
+1479-01-20 → 1720-02-24   s:"ispanya"   ← dizin ispanya'nın KENDİ f:'si
+```
+🟢 **Ne yeni renk, ne yeni kaynak, ne uydurma gün:** kırılma günü evin kendi
+dizininde yazılı (Katolik Kralların birleşmesi, `1479-01-20`) ve iki kimlik de
+boyalı. ⇒ **310,1 yıl-noktanın tamamı kapanır.**
+
+⚠️ **Dokunmadığım iki uç:**
+- `1324-01-01` **yıl hassasiyetli yer tutucu** (`§76`). Aragon'un Sardunya
+  seferi 1323'te başladı, Cagliari daha sonra düştü. **Günü aramadım; mevcut
+  gün korunarak yalnız kimlik değişsin.**
+- `1281-1324 ceneviz` kesitini **sınamadım.** Pisa/Cenova rekabeti ayrı kalem.
+
+---
+
+## 🟢 J-3 · B-1 YENİ TABANDA TEKRAR ÖLÇÜLDÜ — sınıf hâlâ boş, **ve büyüdü**
+
+```
+s:"venedik"                     100 pencere / 89 nokta   (önce 80/74)
+  dizin t:1797-05-12'yi aşan     29 pencere              (önce 19)
+  bu 29'un fazlalığı             158 gün × 29, TEK DEĞER  ← istisnasız
+  dizin f:'inden önce açılan      0
+```
+🟢 **On yeni nokta merge edilmiş ve onu da aynı güne hizalanmış.** Bu B-1'i
+yalnız tekrarlamıyor, **hizanın tesadüf olmadığını** gösteriyor: veri büyürken
+`1797-10-17` (Campo Formio) tek istisnasız değer olarak kaldı.
+
+⚠️ **Tuzak da büyüdü:** bu 29 pencere *"dizine uysun"* diye `1797-05-12`ye
+çekilirse **29 noktada 158 günlük sahipsiz pencere** açılır (önce 19 idi).
+⇒ Doğru soru hâlâ dizin tarafında: `venedik t:` cumhuriyetin ilgasını mı
+(12 Mayıs 1797), mülklerin devrini mi (17 Ekim 1797) anlatıyor? (`§74`)
+
+📌 **J-1 ile J-3 aynı sorunun iki yüzü:** birinde harita dizinden 20 gün
+**önde**, ötekinde 158 gün **geride** — ve ikisinde de doğru cevap *"veriyi
+dizine çek"* değil. **Dizin kaydındaki tarih bir olay değil, bir SORUNUN
+cevabıdır.**
+
+---
+
+## 🟡 J-4 · İTALYA'NIN 32 GÜNÜ — B-5 altı noktaydı, **bugün on altı**
+
+```
+dizin  italya f:"1861-03-17"   ·   harita s:italya f:"1861-02-13"   16 pencere
+       32 gün × 16 = 512 gün = 1,4 yıl-nokta
+```
+B-5'te bunu *"`§74`, çelişki değil"* diye kaydetmiştim (Gaeta'nın düşüşü /
+Krallığın ilanı iki ayrı olay) ve **hükmüm değişmiyor.** Ama sayı 6'dan 16'ya
+çıktı: **B-2 paketi uygulanırken `1861-02-13` dört noktaya daha yazıldı.**
+
+📌 Ders — eleştiri değil, mekanizma: **bir paket uygulanırken taşıdığı `§74`
+belirsizliği de kopyalanıyor.** Bulguyu yazarken *"bu gün dizine göre 32 gün
+sahipsiz"* uyarısını pakete iliştirmemişim.
+⇒ **Öneri:** bir pakette dizinle uyuşmayan gün varsa, paket o farkı **taşıyıcı
+not** olarak yanında götürsün; yoksa fark uygulama sayısınca çoğalır.
+
+---
+
+## ⚠️ J-5 · KENDİ ARACIMDA YİNE İKİ HATA — ikisi de kendi yazdığım kuraldan
+
+**① `Rab` → Trabzon, `Şam` → Şamahı.** İlk koşuda koordinat doğrulaması
+koymadım; `"Rab"` alt dizgesi **Tra-b-zon**'a, `"Şam"` **Şam-ahı**'ya çarptı ve
+çıktı *"Rab: d:1461-08-15 OSMANLI"* dedi — yani bir Dalmaçya adası Trabzon'un
+fetih tarihini taşıyor göründü.
+> **F-7'nin birebir tekrarı — ve F-7'yi yazan benim.** Kuralı bilmek uygulamak
+> değilmiş; ikinci koşuda koordinat kutusu eklendi, ikisi de elendi.
+
+**② Dizin eşlemesini `id` üzerinden kurdum; oysa harita `harita:` alanını
+okuyor.** İlk taramam `sardinya` · `ceneviz` · `aragon` · `arnavutluk` için
+**"DİZİNDE YOK"** dedi. Dördü de dizinde **var**, yalnız `id`leri farklı
+(`sardinya-piyemonte` → `harita:"sardinya"`).
+> ⚠️ Bu hatanın yönü tehlikeli: *"dizinde karşılığı yok"* **bir bulgu gibi
+> görünür** ve kimlik talebine dönüşür. **Sahte bir kimlik isteği üretecekti.**
+
+📌 Ortak sınıfları `§79②`: ***"bulamadım" bir ölçüm değildir — HANGİ ARAÇLA
+arandığı yazılmadıkça.*** Bu turda araç iki kez yanlış yerde aradı ve
+**ikisinde de çıktı makul görünüyordu.**
+
+---
+
+## 🟡 J-6 · KESİTİM DIŞI — ölçüldü, dokunulmadı, sahibine
+
+```
+sardinya   Nice 1388-09-28 → 1860-06-14   121.203 gün = 331,8 yıl ERKEN
+           ⇒ `sardinya` bir TORBA: Savoya Kontluğu (1388) + Sardinya-Piyemonte
+             Krallığı (1720). A-2 (`fransa`) ve BATI'nın Habsburg'uyla aynı sınıf.
+avusturya  Ljubljana 1335-05-02 · Trieste 1382-09-30   335,2 yıl ERKEN   (BATI)
+           Suçava · Çernovitz 1775-05-07 → 1923-10-29                    (KUZEY)
+sirbistan  26 pencere 1918-12-01'i aşıyor = 127,6 yıl-nokta
+karadag    2 pencere 1918-11-26'yı aşıyor = 9,8 yıl-nokta
+fransa     157 pencere GEÇ — A-2'nin bugünkü hâli                        (DOĞU)
+```
+
+⚠️ **Ve bütün oturumları ilgilendiren bir sınıf ölçtüm:**
+**haritada kullanılan 272 `s:` kimliğinin 47'sinin dizinde karşılığı YOK**
+(`afsar` 128 pencere · `kacar` 123 · `cin-cumhuriyeti` 85 · `bengal-sultanligi`
+22 · `turkmen` 8 …). Bu kimlikler için **hayalet taraması yapısal olarak
+koşturulamaz** — ömür bilinmiyor, kıyas edilecek `f`/`t` yok.
+📌 `afsar` ve `kacar` Tur 2'de *"0 kayıt"* diye ölçülmüştü; bugün 128 ve 123
+pencere. **Veri tarafı yapılmış, dizin tarafı yapılmamış** — ve `§3.5`'in
+denetimi tam olarak dizin tarafına bakıyor.
+
+---
+
+## Sıradaki (aksi söylenmezse)
+
+1. **J-2 paketi** — Sardunya/Aragon: gerekçe ve tarihler hazır, ek kaynak
+   istemiyor; uygulaması `YAMACI`'nın.
+2. **Ada ada gün kaynaklama** (A-1/E-2'nin borcu) — 1798 sonbaharı ve
+   1809/1810/1814 çıkışları; TDV veremiyor, Rus donanma tarihyazımı gerekiyor.
+3. **1536 kapitülasyonu** — kesitimin adını veren olay, kronolojide ölçülmedi.

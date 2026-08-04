@@ -552,3 +552,83 @@ gerekiyor.** Tur 6'daki yöntem notumun sınırı bu.
 
 📌 Ve `§3.5.1` burada ters cevap veriyor: soru *"Osmanlı fazla mı görünüyor"*du;
 Dalmaçya'da **eksik görünüyor.**
+
+---
+
+# TUR 9 — 4 Ağustos: oturum yeniden açıldı
+
+> Ölçüm HEAD'i `e9b61dd`. Kullanıcının tek talimatı yine:
+> *"ÇAPRAZ AKDENİZ — koordinatör oturumdan görevlerini öğren."*
+
+## 29. GÖREV — koordinatöre soruldu, **cevap beklenmeden ölçüme başlandı**
+
+`oturumlar/`da bana ait **yeni bir görev dosyası yok**; `CAPRAZ-GOREV.md`
+1 Ağustos'ta kaldı. Koordinatöre kendimi tanıtıp sıra sordum (kapsamım,
+bekleyen paketlerim ve kendi "Sıradaki" listemle birlikte).
+
+**Beklemedim** — ve seçtiğim iş her plan altında benim: **kendi paketlerimin
+bugünkü veride ne olduğunu ölçmek.** Gerekçe, `§79`'un tersi:
+> `§79` *"bir iddiayı bildirildiği andaki ağaca karşı sına"* diyor. Bir
+> **paketin uygulanıp uygulanmadığı** ise tam tersine **bugünkü** veride
+> ölçülür. İki soru birbirine benziyor ve **ters yönlerde** cevaplanıyor.
+
+## 30. 🔴 TABAN DEĞİŞTİ — ve bu bütün eski rakamlarımı ilgilendiriyor
+
+```
+girdi   976 → 1713 nokta      dizin 242 → 302 kayıt
+dosya   2 → 16                (Avrupa 228 · Asya 344 merge edildi;
+                               kirim · seyrek · ek7-9 eklendi)
+```
+⚠️ Tur 1'de *"görev tanımının sayısı merge edilmemiş dosyaları da sayıyor"*
+diye bir hata bildirmiştim. **Bugün o dosyalar canlıya alınmış** — yani o
+eski sayılar artık *yanlış* değil, **başka bir tabanın sayısı.**
+📌 Ders, `§14`'ün kendi cümlesinin devamı: *"kapsam tablosu bir ölçüm
+sonucudur"* — ve **bir ölçüm sonucunun ömrü vardır.** Kendi turlarımın
+rakamlarına da geçerli: `s:venedik 80/74` üç gün yaşadı, bugün `100/89`.
+
+## 31. TESLİM
+
+| kod | konu | hüküm | güç (`§73`) |
+|---|---|---|---|
+| **J-0** | 13 paketin âkıbeti ölçüldü | 🟢 6 uygulanmış · 1 kasten bekletilmiş · 6 açık | KESİN |
+| **J-1** | `yugoslavya` 25 pencerede 20 gün erken | 🔴 `§74` — dizin f:1918-12-01 | ölçüm KESİN · teşhis ZAYIF |
+| **J-2** | Sardunya 1324-1479: `aragon` artık dizinde VAR | 🔴 ÇELİŞİYOR — **hazır paket** | **KESİN** · 310,1 yıl-nokta |
+| **J-3** | B-1 yeni tabanda: 29 pencere, hepsi 158 gün | 🟢 SINIF BOŞ, hiza korunmuş | KESİN |
+| **J-4** | `italya` 32 günü 6 noktadan 16'ya çıkmış | 🟡 `§74`, çelişki değil | KESİN |
+| **J-5** | kendi aracımda iki hata | ⚠️ ARAÇ HATASI | — |
+| **J-6** | kesit dışı + **47 kimlik dizinde yok** | 🟡 sahibine | KESİN |
+
+## 32. 🟢 J-0'IN ASIL SONUCU — bulguların yarısı veriye girmiş
+
+```
+uygulanmış   B-2 (Napoli) · B-3a (Sardunya 1720) · D-1/D-2a (dokuz ada)
+             H-2'nin 5/8'i · F-3'ün 3/5'i · F-2'nin 2/5'i
+bekletilmiş  D-2b (Cres) — kaynak KESİN değildi, doğru hamle
+açık         A-1/B-7/E-2 · E-1 · G-2 · C-1/F-1 · F-4 · C-5/F-5 · B-3b
+```
+📌 **Ve açık kalanların ortak özelliği var:** hepsi ya **nokta ekleme** istiyor
+(C-1 · F-4 · C-5 · F-2/H-2 kalanı), ya **yeni kimlik** (G-2/G-4), ya
+**kaynaklanmamış gün** (A-1'in 1799/1800, E-2'nin 1809/1810/1814).
+Uygulananların hepsi ise **mevcut kimlik + mevcut tarihle** çözülebilen
+paketlerdi.
+> ⇒ **Bir paketin uygulanma ihtimalini belirleyen şey, bulgunun büyüklüğü
+> değil, HANGİ KAYNAĞA ihtiyaç duyduğu.** 310,1 yıl-noktalık J-2 bugün
+> uygulanabilir; 58,4 yıl-noktalık A-1 üç gündür uygulanamıyor, çünkü biri
+> evde olanı istiyor, öteki dışarıdan gün istiyor.
+
+## 33. ⚠️ J-5 — F-7 BANA ÜÇÜNCÜ KEZ DÖNDÜ
+
+```
+tur 6 (F-7)   çıplak alt dizge → 4 sahte eşleşme, koordinatla elendi
+tur 9 (J-5①)  yine çıplak alt dizge → "Rab"=Trabzon, "Şam"=Şamahı
+tur 9 (J-5②)  dizin eşlemesi id ile kuruldu, harita `harita:` okuyor
+              → 4 kimlik için SAHTE "dizinde yok"
+```
+İkincisi yeni bir sınıf: **eşleme alanını yanlış seçmek.** Ve çıktısı
+*"eksik kayıt"* gibi göründüğü için **bir kimlik talebine dönüşecekti** —
+yani araç hatası, bulguya değil **veri değişikliği önerisine** dönüşüyordu.
+
+⇒ Yazdığım kural (`ORGANIZASYON §15` ekine aday):
+> **Bir "yok" hükmü, aramanın hangi ALAN üzerinden yapıldığını yazmadan
+> kaydedilemez.** Ad araması koordinat ister; kimlik araması `harita:`
+> alanını ister. İkisi de ihmal edildiğinde çıktı **makul görünür.**
