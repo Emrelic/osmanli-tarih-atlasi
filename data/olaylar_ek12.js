@@ -63,7 +63,7 @@ window.OLAYLAR_EK12 = [
   gun:"1560 başları (TDV: ay ve gün kaynakta yok)", yer:"Cerbe (Djerba), Trablusgarp",
   kisiler:"Turgut Paşa, Piyâle Paşa",
   d:"İspanya, Papalık, Malta, Ceneviz ve Floransa gemilerinden kurulu Haçlı donanması, Turgut Reis'in 1551'den beri akın üssü olarak kullandığı Cerbe'yi hedef aldı. Fırtınalar ve salgın yüzünden ada önlerine ancak 1560 yılı başlarında ulaşabildi ve adaya çıkıp bir kale inşa etti. İşgal uzun sürmedi: Piyâle Paşa'nın donanması aynı yılın mayısında geldi ve ada beş ay içinde geri alındı. Bu sefer, Preveze'den sonra Akdeniz'de Osmanlı üstünlüğünü pekiştiren ikinci büyük deniz harekâtının başlangıcıdır.",
-  kaynak:"cerbe" },
+  kaynak:"cerbe", duygu:["⚔️","😔"] },
 
 // ---------------------------------------------------------------------------
 // A-2 — Cerbe kalesinin düşüşü  🔴 ASIL BORÇ KAPATAN MADDE
@@ -78,6 +78,6 @@ window.OLAYLAR_EK12 = [
   gun:"30 Temmuz 1560", yer:"Cerbe (Djerba)", yer_id:"Cerbe (Djerba)",
   kisiler:"Piyâle Paşa, Turgut Paşa",
   d:"Piyâle Paşa'nın 14 Mayıs 1560'taki deniz zaferinden sonra Haçlı kuvvetleri adada inşa ettikleri kaleye kapandı; Trablusgarp beylerbeyi Turgut Paşa'nın kuvvetleri karadan kuşattı. İki ay süren muhasara 30 Temmuz 1560'ta kalenin düşmesiyle bitti ve ada Trablusgarp beylerbeyiliğine bağlandı. Deniz zaferi ile kalenin fethi arasında yetmiş yedi gün vardır; haritada toprak değişimi ikincisine bağlanmalıdır, çünkü ada 14 Mayıs'ta değil 30 Temmuz'da fiilen el değiştirmiştir.",
-  kaynak:"cerbe" },
+  kaynak:"cerbe", duygu:["🎉","😔"] },
 
 ];
