@@ -80,10 +80,10 @@ gerekir. Projenin bütün kalite kuralları (§3) bu tek cümleden türer.
 | Değişmez 2t — kırılmasız madde | ✗ kırılmasız madde: 60 (tavan 49) — bilinen borç |
 | Konum denetimi | 1 nokta kara maskesinin dışında (beklenen 0) |
 | Devletler dizini | **302** künye · **233** renk (`renkler.py`) |
-| Dizinsiz harita kimliği | 🔴 **47** kimlik / 365 pencere karşılıksız |
+| Dizinsiz harita kimliği | 🔴 **45** kimlik / 359 pencere karşılıksız |
 | Padişah · kartvizit | 41 kayıt · 36 portre · **26** kartvizit dolu |
 | Harita penceresi | `unary_union([box(-12, -11, 146, 82), box(-25, 60, -12, 82)])` |
-| Yayın | **r771** · `137811c` |
+| Yayın | **r771** · `6b69c41` |
 
 > ⚙️ **BU TABLO ELLE YAZILMAZ — ÜRETİLİR.**
 > ```bash

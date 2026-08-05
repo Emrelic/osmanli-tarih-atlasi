@@ -46,10 +46,25 @@ def olc():
     d = _oku("data/devletler.js")
     o["devlet"] = len(re.findall(r'\{\s*id:\s*"', d))
     diz = set(re.findall(r'\bid:\s*"([^"]+)"', d)) | set(re.findall(r'\bharita:\s*"([^"]+)"', d))
+    # 🔴 DOSYA KÜMESİ `girdi.py`DEN ALINIR, `glob`dan DEĞİL.
+    # İlk sürüm `glob("data/yerlesimler*.js")` kullanıyordu ve `ek10·ek11·ek12`yi
+    # sayıyordu — o üçü renk beklediği için BAĞLI DEĞİL, yani haritada ÇİZİLMİYOR.
+    # Sonuç: 47 kimlik / 365 pencere. Gerçek (boyanan): 45 / 359.
+    # ⚠️ Fark küçük olduğu için "önemsiz sapma" diye geçilebilirdi — ÇAPRAZ AKDENİZ
+    # geçmedi ve haklıydı: iki sayı SAPMA değil, İKİ AYRI SORUNUN cevabı.
+    #     45/359  "bugün haritada boyanan kaç kimliğin dizin karşılığı yok"
+    #     47/365  "ek10-12 merge edilince kaç olacak"
+    # 📌 Ve bu, `CLAUDE.md §5`in ÜÇÜNCÜ vakası: desenle dosya okuyan her tarama
+    # merge'e hazır olmayan partileri sessizce içeri alıyor ve sayı BÜYÜK çıkıyor.
+    # Bu araç bayatlığı önlemek için yazıldı; ilk sürümü tam o kusuru taşıyordu.
+    yer = [f for f in girdi.GIRDI_DOSYALARI if f.startswith("yerlesimler")]
     kul = collections.Counter()
-    for f in glob.glob("data/yerlesimler*.js"):
-        for m in re.finditer(r'\bd:\s*"([a-z0-9\-]+)"', _oku(f)):
-            kul[m.group(1)] += 1
+    for f in yer:
+        t = _oku(os.path.join("data", f))
+        t = "\n".join(l for l in t.split("\n") if not l.lstrip().startswith("//"))
+        for sm in re.finditer(r"\bs:\s*\[(.*?)\]\s*[,}]", t, re.S):
+            for m in re.finditer(r'\bd:\s*"([^"]+)"', sm.group(1)):
+                kul[m.group(1)] += 1
     eksik = {k: n for k, n in kul.items() if k not in diz}
     o["kimlik_eksik"] = len(eksik)
     o["kimlik_eksik_pencere"] = sum(eksik.values())
