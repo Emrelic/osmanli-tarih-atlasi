@@ -1459,3 +1459,155 @@ denetimi tam olarak dizin tarafına bakıyor.
 2. **Ada ada gün kaynaklama** (A-1/E-2'nin borcu) — 1798 sonbaharı ve
    1809/1810/1814 çıkışları; TDV veremiyor, Rus donanma tarihyazımı gerekiyor.
 3. **1536 kapitülasyonu** — kesitimin adını veren olay, kronolojide ölçülmedi.
+
+---
+
+## 🔴 J-7 · KOORDİNATÖRÜN LİSTESİ İLE BENİMKİ ÇELİŞTİ — **hakem koordinat**, ve beş nokta ZATEN VAR
+
+Koordinatör TUR 9'a cevaben ölçüm gönderdi ve hükmü şuydu:
+> *"Paketlerin UYGULANMAMIŞ, üçü de duruyor. Dalmaçya anakarası: Zadar ·
+> Šibenik · Trogir · Split · Makarska · Nin **ALTISI DA YOK.** Venedik
+> Arnavutluğu: Ülgün · Bar · Budva · Kotor · Leş **BEŞİ DE YOK.**
+> Klis sancağı: Klis ✓ · Knin ✓ · **Sinj · Skradin · Ostrovica YOK.**"*
+
+Benim J-0 ölçümüm bunun tersini söylüyordu. **İkimizden biri yanılıyor ve
+sonucu bir "nokta ekle" talimatı** ⇒ ad yazımından bağımsız hakeme gittim:
+**hedef koordinatın 25 km çevresindeki bütün noktalar.**
+
+### ③ HÜKÜM — **koordinatörün listesi beş yerde YANLIŞ**, güç **KESİN**
+```
+                 iddia          ölçüm (canlı girdi 1713 nokta)
+Sinj             YOK      →     VAR  'Sin (Sinj)'              0,1 km
+Zadar            YOK      →     VAR  'Zadar (Zara)'            0,6 km
+Šibenik          YOK      →     VAR  'Şibenik (Sebenico)'      0,3 km
+Split            YOK      →     VAR  'Split (Spalato)'         0,3 km
+Kotor            YOK      →     VAR  'Kotor (Cattaro)'         0,4 km
+                                +VAR 'Herseknovi (Herceg Novi)' 0,1 km
+                                +VAR 'Vrana (Urana)' · 'Nadin' · Klis · Knin
+```
+
+### 🔴 VE SEBEBİ KAYITLI TUZAK — `ORGANIZASYON §15`, iki yönü de bugün patladı
+```
+koordinatörün tarafı   'Split' ≠ "Split (Spalato)"     tam eşleşme ÇOK DAR
+                       'Šibenik' ≠ "Şibenik"           Latin š ↔ Türkçe Ş
+benim J-5 tarafım      'Rab' ⊂ "Trabzon"               alt dizge ÇOK GENİŞ
+```
+📌 **Aynı gün, aynı kuralın iki ucu, iki ayrı oturumda.** F-7'de yazdığım cümle
+bugün ikinci kez ödendi: *"tam eşleşme çok dar, çıplak alt dizge çok geniş —
+ikisi de yanlış cevap verir, TERS yönlerde. Doğrusu alt dizge + koordinat."*
+⚠️ Ve **veri Türkçe yazımla tutuluyor** (`Şibenik` · `Sin` · `Herseknovi` ·
+`Kalyari`), yani yabancı imlâyla arayan her tarama **sistematik olarak "yok"**
+diyecek. Bu tekil bir kaza değil, **taramanın yapısal körlüğü.**
+
+### ⚠️ SOMUT RİSK — ölçülmüş: bu liste uygulansaydı **beş mükerrer nokta** açılırdı
+```
+CLAUDE.md §11: "Yakın mükerrer yerleşim — Varat/Varad 1 km arayla iki kayıttı;
+Afyon ve Karahisâr-ı Sâhib 100 m arayla ÇELİŞEN zaman çizgileriyle duruyordu."
+eklenecek olanlar mevcut kayıtlara:  0,1 – 0,6 km
+```
+⇒ Beşi de `§11`'in **eşiğinin altında** ve ikisi de kendi zaman çizgisini
+taşıyacaktı. `denetle.py`'nin 3 km yakınlık kontrolü bunu yakalar — **ama
+ancak eklendikten sonra.**
+
+## 🟢 J-7b · GERÇEK EKSİK LİSTE — 26 aday, koordinat doğrulamalı
+```
+VAR (10)  Klis 0,3 · Knin 0,0 · Sin (Sinj) 0,1 · Vrana (Urana) 0,3 · Nadin 0,5
+          Zadar (Zara) 0,6 · Şibenik (Sebenico) 0,3 · Split (Spalato) 0,3
+          Kotor (Cattaro) 0,4 · Herseknovi (Herceg Novi) 0,1        [km]
+
+YOK (16)  Klis sancağı      Skradin · Ostrovica · Obrovac
+          Dalmaçya kıyısı   Trogir · Nin · Makarska
+          Ven. Arnavutluğu  Budva · Bar (Antivari) · Ülgün · Leş (Lezhë)
+          Girit             Suda · Spinalonga · Granbosa
+          İyon              Paksos · Butrinto · Monemvasia
+```
+⚠️ **Ekleme öncesi `§11` kontrolü — ölçtüm, hepsi geçiyor:**
+`Ostrovica` en yakın komşusu `Vrana` **6 km** · `Suda` → `Hanya` **5 km** ·
+`Skradin` → `Şibenik` **10 km** · `Trogir` → `Split` **15 km** ·
+`Nin` → `Zadar` **14 km** · `Budva` → `Cetinje` **13 km** ·
+`Paksos` → `Parga` **22 km** · `Butrinto` → `Korfu` **16 km**.
+Kalanların 25 km'sinde hiç nokta yok. ⇒ **On altısının hiçbiri mükerrer
+üretmez**; beş "yanlış yok" ise üretirdi.
+
+### ⇒ H-2'nin gerçek ölçüsü: **8 kalenin 6'sı değil, 3'ü yok**
+Klis · Knin · Sin · Vrana · Nadin girmiş; **Skradin · Ostrovica · Obrovac**
+duruyor. Koordinatörün *"Klis'i öne al"* önceliği **yine de doğru** — ama
+gerekçesi değişiyor: iş sekiz kalelik bir boşluk değil, **üç kalelik bir
+tamamlama** ve Karlofça sınırı için kritik olan `Skradin` (Scardona) TDV'de
+adıyla geçiyor (`H-2 ②`).
+
+📌 **Ve bir şey daha ölçüldü:** kıyıda `Makarska` ve `Leş (Lezhë)` benim
+listelerimde **hiç yoktu** — koordinatörün listesinden öğrendim. İkisi de
+gerçekten yok. ⇒ *Yanlış bir listenin içinde doğru bir kalem olabilir; liste
+reddedilirken o kalem de düşmesin.*
+
+---
+
+## 🔄 J-8 · J-6 DÜZELTİLDİ — koordinatör haklı, **ama sebebi söylediği değil**
+
+Koordinatör J-6'nın rakamını çürüttü: *"`afsar` ve `kacar` dizinde VAR (id);
+128 + 123 = 251 pencere, bildirdiğin 365'in %69'u sahte alarmdı. Sebebi:
+J-5'i yazmışsın ama J-6'yı yeniden koşturmamışsın — düzeltilen aracın ESKİ
+çıktısı raporda kalmış."*
+
+**Hükmü doğru, teşhisi değil.** İkisini de ölçtüm.
+
+### ① `afsar`/`kacar` gerçekten dizinde — ve J-6 listesinden çıkmalı ✅
+```
+id:"afsar"  "Afşar Devleti (Nadir Şah)"  f:1736-03-08  t:1796-01-01
+id:"kacar"  "Kaçar Hanedanı (İran)"      f:1789-03-21  t:1923-10-29
+renkler.py  "afsar" #f488fc  ·  "kacar" #c840a8        ← ikisinin de RENGİ VAR
+```
+⇒ **J-6'nın *"dizinde karşılığı yok"* başlığı bu iki kimlik için yanlıştı.**
+
+### ② AMA J-6, J-5'ten SONRAKİ (v2) taramadan geldi — eski çıktı değil
+v2 eşlemeyi `harita or id` diye kuruyor. `afsar` düşmesinin sebebi `harita`
+alanının **boş olması değil, DOLU olması:**
+```
+dizin  id:"afsar"   harita:"iran"        ← fallback hiç çalışmadı
+dizin  id:"kacar"   harita:"iran"
+harita s:"afsar" 128 pencere · s:"kacar" 123 pencere   ← veri BÖYLE boyamıyor
+```
+🔴 **Ve bu, düzeltilince kaybolan bir ölçüm hatası değil — kayıtların kendisinde
+duran bir tutarsızlık:** dizin *"bu kayıt haritada **iran** olarak boyanır"*
+diyor, veri ise `s:"afsar"` yazıyor ve `renkler.py` onu **ayrı renge** boyuyor.
+Üç kaynaktan ikisi hanedanları ayırmış, **dizinin `harita:` işaretçisi
+ayırmamış.**
+
+📌 Sınıfı ÇAPRAZ DOĞU'nun torbasının **kalan yarısı**: Tur 2'de *"`s:afsar` 0
+kayıt"* diye ölçmüştüm, bugün 128. **Veri tarafı yapılmış, kayıt açılmış, renk
+verilmiş — yalnız `harita:` işaretçisi `iran`da bırakılmış.**
+⚠️ Sonucu somut: `harita:` üzerinden kurulan **her** dizin↔harita köprüsü bu
+iki hanedan için yanlış cevap verir; benimki verdi.
+
+### ③ DÜZELTİLMİŞ TABLO — ölçüldü (`id ∪ harita` birleşimiyle)
+```
+                                       kimlik   pencere
+harita: kimliğiyle eşleşmeyen             47       610
+id ∪ harita ile eşleşmeyen (GERÇEK)       45       359
+  aradaki fark = SADECE id ile eşleşen     2       251   ← afsar · kacar
+```
+⚠️ **Koordinatörün verdiği tablo (`47 kimlik · 365 pencere`) kendi
+düzeltmesiyle çelişiyor:** 47 ve 365, `afsar`+`kacar`ı **içeren** sayılardır
+(365 − 251 = 114 ≠ 359). Doğru ayrım yukarıdaki üç satır: *dışlanacak olan
+2 kimlik / 251 pencere*, geriye **45 kimlik / 359 pencere** kalıyor.
+📌 Yani ikimiz de aynı tarama hatasını yaptık — **düzeltmenin kendisi de
+düzeltilmemiş bir sayı taşıdı.**
+
+### ⇒ VE KOORDİNATÖRÜN DERSİ, DÜZELTİLMİŞ HÂLİYLE DAHA GÜÇLÜ
+Onun cümlesi: *"aracı düzelt → ona dayanan her sayıyı yeniden üret."*
+**Katılıyorum ve bugünkü kanıtı bu paragrafın kendisi**: J-5'i yazarken aracı
+düzelttim, **ama düzeltmem eksikti** — `harita or id` yerine `harita ∪ id`
+gerekiyormuş. Yani sorun *"düzeltmeyi yaymamak"* değil, **düzeltmenin kendisinin
+sınanmamış olması**ydı.
+> ⇒ Ek: **bir araç düzeltmesi, düzelttiği hatanın bilinen bir vakasına
+> koşturulmadan "düzeltildi" sayılmaz.** Elimde vaka vardı (`sardinya` →
+> `sardinya-piyemonte`) ve o vaka `harita or id` ile geçiyordu; `afsar`
+> vakası **ters yöndeydi** ve sınanmadı.
+
+### 🟢 J-6'nın ayakta kalan kısmı
+`45 kimlik / 359 pencere` gerçekten karşılıksız ve koordinatörün tespiti doğru:
+kaynağı ezici çoğunlukla **`yerlesimler_asya.js` merge'inin bilinen borcu**
+(`CLAUDE.md §5`: *"344 nokta, 98 yeni kimlik"*), benim kesitim değil.
+⇒ **Sahibi ben değilim, kalem sahibine gider.** Kesitimde karşılıksız kimlik
+**yok**.
