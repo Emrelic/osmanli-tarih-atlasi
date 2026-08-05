@@ -70,3 +70,55 @@ eyalet isimlerini** kullansa daha iyi değil mi — Saruhan, Anadolu gibi."*
 **Haklısın ve bu bir veri işi:** etiket bugünün adını taşıyor, oysa harita **o
 günü** anlatıyor. ⇒ Bölge adlarının **kendi `f:`/`t:` pencereleri** olmalı.
 🟡 Açık iş, atanmadı — **senden bir şey beklenmiyor.**
+
+
+---
+
+# 📋 6 AĞUSTOS — EKİP ÇİZELGESİ (koordinatör kurdu, AÇMAK SENDE)
+
+Ölçüm: `py arac/durum_tablosu.py` · kutu: 0 işlenmemiş paket, **37 madde SIRADA**
+
+## 🔴 ŞİMDİ AÇILACAK — iki oturum (`CLAUDE.md §7`: en çok 3 eşzamanlı)
+
+| # | oturum adı | model | ilk mesaj olarak yaz |
+|---|---|---|---|
+| 1 | **RENK 2** | **Opus** | `oturumlar/RENK-2-GOREV.md dosyasini oku` |
+| 2 | **ARAYÜZ 5** | **Sonnet** | `oturumlar/ARAYUZ-5-GOREV.md dosyasini oku` |
+
+**RENK 2 niçin ilk:** üç renk yazılınca `ek10·ek11·ek12` bağlanır, **12 nokta**
+haritaya girer ve `denetle_yayin.py`deki üç geçici muafiyet **silinir**.
+Atlasın bugünkü tek darboğazı. İş küçük, açtığı yol büyük.
+
+**ARAYÜZ 5 niçin ikinci:** dört madde de **senin kendi sözün** ve dördü de
+`sirada`. Biri (`Sinj işaretlenmiyor`) *"hem demiştik"* diyor — yani ikinci
+kez geliyor, ilk seferinde çözülmemiş.
+
+⚠️ İkisinin dosyaları **çakışmıyor**: RENK `arac/renkler.py`, ARAYÜZ
+`index.html`+`js`+`css`. Aynı anda güvenle koşarlar.
+
+## 🟡 SIRADAKİ DALGA — bugün açma, birinciler bitince
+
+| oturum | model | niçin bekliyor |
+|---|---|---|
+| **ÇAPRAZ İRAN** | Opus | İran/Safevî enklav şikâyeti paketlerde **ÜÇ KEZ** geçiyor (`H-0005`·`H-0009`·`p5 H-0005`) — çözülmemiş ve tekrar ediyor. En yüksek kullanıcı acısı, ama önce ÖLÇÜM ister. |
+| **VERİ KRONOLOJİ 3** | Sonnet | Cem Sultan 1495 · Sapienza 1499 · Altın Orda 1502 · Murad Bey 1503 · Şahkulu — beş eksik madde; ayrıca `2s` borcu 126/114 |
+| **PETEK/NOKTA** | Opus | 4 göl-içi nokta (Jukkasjärvi·İnari·Västerås·**Eğirdir**) + Kırım'ın cetvelle bölünmüş görüntüsü + Orta Asya boşluğu |
+| **VERİ KİMLİK 4** | Sonnet | **45 kimlik / 359 pencere** dizinde karşılıksız — %96'sı `yerlesimler_asya.js` merge borcu |
+
+## 📌 BENDE KALAN (koordinatör, oturum gerekmez)
+```
+7 padişah ölüm maddesi     kartvizit 19/26 → 26/26
+J-2 Sardunya               Kalyari·Sasari 1324-1479 aragon (ÇAPRAZ AKDENİZ onaylı)
+Eğirdir göl düzeltmesi     yerlesimler.js — benim dosyam
+yugoslavya dizin notu      harita 11 Kasım doğru, dizin açıklaması eksik
+```
+
+## ⚠️ SENDEN BEKLENEN — üçü de yalnız senin yapabileceğin
+```
+1  ARKADAŞINA HABER VER    git pull + py kur.py — skill'i eski sürümde,
+                           içinde git pull yok (kendini güncelleyemez)
+2  YENİ MAKİNEDE HOOK      KURULUM.md §4'teki JSON elle eklenir; hook'lar
+                           ClaudEmre deposunda değil, taşınmıyor
+3  EczAsist/CLAUDE.md      ilk satırı "# Proje: BotanikTakip" — YANLIŞ proje
+                           adı. Orada oturum açılırsa yanlış künye okur.
+```
