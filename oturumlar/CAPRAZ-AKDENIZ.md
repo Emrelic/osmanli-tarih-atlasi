@@ -1611,3 +1611,55 @@ kaynağı ezici çoğunlukla **`yerlesimler_asya.js` merge'inin bilinen borcu**
 (`CLAUDE.md §5`: *"344 nokta, 98 yeni kimlik"*), benim kesitim değil.
 ⇒ **Sahibi ben değilim, kalem sahibine gider.** Kesitimde karşılıksız kimlik
 **yok**.
+
+---
+
+## 🔴 J-9 · `45/359` ⟷ `47/365` FARKI ÖNEMSİZ DEĞİL — **§5'in üçüncü vakası**
+
+Koordinatör J-8'e cevaben *"senin 45/359'un iki kimlik ve altı pencere sapıyor;
+ama bu önemsiz"* dedi. **Farkı ölçtüm — sapma değil, ayrı bir tabandan geliyor.**
+
+### ① İKİ TARAMA, İKİ DOSYA KÜMESİ
+```
+CANLI  girdi.py'nin okuduğu 16 dosya · 1713 nokta   → 45 kimlik · 359 pencere
+HAM    data/yerlesimler*.js — 19 dosya             → 47 kimlik · 365 pencere
+```
+### ② FARKIN TAMAMI ÜÇ MERGE-BEKLEYEN DOSYADAN
+```
+sibir-hanligi   4 pencere   ← yerlesimler_ek10.js
+izlanda         2 pencere   ← yerlesimler_ek12.js
+                            (ek11 karşılıksız kimlik taşımıyor)
+girdi.py'nin OKUMADIĞI dosyalar:  ek10 · ek11 · ek12
+```
+⇒ **O 2 kimlik / 6 pencere haritada ÇİZİLMİYOR.** Fark bir yuvarlama ya da
+ayrıştırıcı katılığı değil; **iki sayı iki ayrı soruya cevap veriyor:**
+```
+45 / 359   "bugün haritada boyanan kaç kimliğin dizin karşılığı yok?"
+47 / 365   "ek10-12 merge edildiğinde kaç olacak?"
+```
+`§74`: **bunlar aynı sorunun cevapları değil.** İkisi de doğru, ve
+`YAPILACAKLAR`a yazılacak olan **birincisidir** — çünkü kalem *"haritada
+karşılıksız boyanıyor"* diye açılıyor.
+
+### 🔴 ③ VE BU, `CLAUDE.md §5`'İN ÜÇÜNCÜ VAKASI — desen artık kanıtlı
+```
+1. (§5'in kendi kaydı)  yerlesimler_afrika.js bayat "merge bekliyor" satırı
+                        → bir araştırma oturumu 767 nokta gördü, gerçek 951'di
+2. TUR 1 (bu oturum)    görev tanımı "fransa 178/149" diyordu, canlı 99/98
+                        → merge dışı yerlesimler_avrupa.js sayılmıştı
+3. J-9 (bugün)          47/365 · merge dışı ek10 + ek12 sayıldı
+```
+📌 Üçünde de hatanın **yönü aynı**: sayı **büyük** çıkıyor, çünkü tarama
+`data/`dan dosya adı desenine göre okuyor. Ve `girdi.py` tam olarak bunun için
+yazılmış — kendi başlığındaki cümle:
+> *"`data/yerlesimler_*.js` desenini çıplak okumak cazip ama TEHLİKELİ: depoda
+> merge'e hazır OLMAYAN partiler duruyor ve desen onları sessizce içeri alır."*
+
+⇒ **Kural bu turda üçüncü kez ödendi ve hâlâ atlanıyor:** bir yerleşim sayısı
+`girdi.yukle()` üzerinden alınmadıysa, sayı **hangi soruya cevap verdiğini
+bilmiyor.** ⚠️ Ve tehlikeli tarafı: fark **küçük** olduğu için *"önemsiz sapma"*
+diye geçilebiliyor — oysa sapma değil, **taban farkı.**
+
+📌 Kendi TUR 1 bulgumun bana dönmesi: o zaman farkı iki kat büyüktü ve
+farkedildi; bugün 6 pencere ve *"önemsiz"* denildi. **Aynı kusur, görünürlüğü
+büyüklüğüne bağlı.**
