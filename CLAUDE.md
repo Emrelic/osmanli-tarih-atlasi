@@ -69,23 +69,43 @@ gerekir. Projenin bütün kalite kuralları (§3) bu tek cümleden türer.
 
 ## 1.5 Bugün nerede duruyoruz
 
-| Katman | Durum |
+| Katman | Ölçülen durum |
 |---|---|
-| Osmanlı sınırları 1281-1923 | 🟢 **976** yerleşimden gün gün üretiliyor, **484** kırılma |
-| Kronoloji | 🟢 **1009** madde, tamamı TDV bağlantılı |
-| Harita ↔ kronoloji senkronu | 🟡 **484 kırılmanın 483'ü maddeli — 1 AÇIK** (Dubrovnik `1806-05-27`) |
-| Sahipsiz bölge | 🟢 **50** nokta, hepsi kasten boş (çöl / devletsiz bölge) |
-| Yabancı kırılma senkronu (`2s`) | 🔴 596 kırılma, **116 açık** (tavan 114) — bilinen borç |
-| Kırılmasız madde (`2t`) | 🔴 **50** (tavan 49) — `isg:` örtüsü üretilmemiş, `devirler.js` bayat |
-| Yabancı devletler haritada | 🟢 104 devlet kendi renginde (`arac/renkler.py`) |
-| Padişahlar ve portreler | 🟢 41 kayıt, 36/36 portre |
-| Savaş/antlaşma/sefer dizinleri | 🟢 123 + 33 kayıt, 41 sefer güzergâhı |
-| Mükerrer madde denetimi | 🟢 `denetle.py`'nin 5. kontrolü (±400 gün + Türkçe kök, eşik 0.34) |
-| Konum denetimi | 🟢 `denetle.py`'nin 6. kontrolü — nokta kara maskesinde mi (beklenen 0) |
-| **Devletler dizini** | 🟡 213 kayıt (dünya); derinleştirme sürüyor |
-| **Görsel doğrulama** | 🟡 Kullanıcı ekran görüntüsüyle yürütüyor (`hatalar N.docx`) |
-| **Dünya kapsamı: yerleşimler** | 🟡 İran 126 · Orta Asya 16 · **Afrika 186 birleşti (951 nokta canlı)**; Avrupa 228 · Asya 344 merge bekliyor |
-| **Dünya kapsamı: harita penceresi** | 🔴 `box(-12, 1.5, 62, 62)` hâlâ dar; §6'daki sıra beklenecek |
+| Yerleşim (motorun okuduğu) | **1713** nokta, 16 girdi dosyası |
+| Kronoloji | **1141** madde · 1141 duygu etiketli · 418 `yer_id` · 19 `vefat_id` |
+| Değişmez 1 — sahipsizlik | ✓ 1713 yerleşim, 86 sahipsiz (beklenen 86) |
+| Değişmez 1b — iç boşluk | ✓ pencere arası boşluk: 0 (beklenen 0) — örnekleme YAPILMAZ, tam tarama |
+| Değişmez 2 — Osmanlı senkronu | ✓ 497 kırılma, 0 açık (beklenen 0) |
+| Değişmez 2s — yabancı senkron | ✗ 649 YABANCI kırılması, 126 açık (tavan 114) — bilinen borç |
+| Değişmez 2t — kırılmasız madde | ✗ kırılmasız madde: 60 (tavan 49) — bilinen borç |
+| Konum denetimi | 1 nokta kara maskesinin dışında (beklenen 0) |
+| Devletler dizini | **302** künye · **233** renk (`renkler.py`) |
+| Dizinsiz harita kimliği | 🔴 **47** kimlik / 365 pencere karşılıksız |
+| Padişah · kartvizit | 41 kayıt · 36 portre · **26** kartvizit dolu |
+| Harita penceresi | `unary_union([box(-12, -11, 146, 82), box(-25, 60, -12, 82)])` |
+| Yayın | **r771** · `137811c` |
+
+> ⚙️ **BU TABLO ELLE YAZILMAZ — ÜRETİLİR.**
+> ```bash
+> py arac/durum_tablosu.py          # ekrana bas
+> py arac/durum_tablosu.py --yaz    # §1.5'i yerinde güncelle
+> ```
+> Değişmez satırlarını uydurmaz, **`denetle.py`ye sorar.** Yani tablo ile denetim
+> asla ayrışamaz. Bir oturum tabloya güvenmeden önce bu komutu koştursun —
+> koşturmak 15 saniye, yanlış zeminden başlamak bir gün.
+
+🔴 **VE BU İKİNCİ KEZ OLDU — 4 Ağustos'ta ALTI SAYI BİRDEN.**
+```
+yerleşim   976 → 1713      kronoloji  1009 → 1141
+dizin      213 →  302      renk        104 →  233
+pencere    box(-12,1.5,62,62) → L şekli
+"isg: örtüsü üretilmemiş"  → ÜRETİLİYOR, 9 kayıt, taralı desenle çiziliyor
+```
+Ve o gün **üç oturum** (ÇAPRAZ AKDENİZ · ÇAPRAZ GÜNEY · MOTOR 2) aynı anda bu
+tablodan başladı. ÇAPRAZ AKDENİZ farkı kendi ölçtü ve *"taban değişmiş: 976 →
+1713"* diye rapor etti; ötekiler sormasa yanlış zeminden ölçeceklerdi.
+📌 **Bir kez bayatlayan belge tekrar bayatlar — çare yeni bir satır değil,
+satırı ELLE YAZILMAKTAN ÇIKARMAKTIR.** Yukarıdaki betik onun için yazıldı.
 
 🔴 **1 Ağustos 17:15 — bu tablo DÖRT SAYIDA BİRDEN BAYATTI ve bir oturum
 onu ölçüm tabanı olarak kullanmayı REDDETTİ.** NOKTA EKLEME oturumu şunu
