@@ -484,8 +484,28 @@ gibi tek satırlık kayıtlardan oluşan dosyalarda **sessiz veri kaybı** olur.
   ettiği hatanın aynısı, onu düzeltirken üretilmiş hâli. Beşinci boşa giden üretim.
   **Protokol:** üretimi başlatan oturum diğerlerine "girdi kilitli" der, bitince
   "dosya senin" der. İki oturum arası dosya devri sözle yapılır, varsayımla değil.
-- **Commit ve push yalnız Oturum 0'dan yapılır.** Diğerleri dosyayı yazar, "hazır"
-  der. 12-14 MB'lık üretilmiş dosyalarda git çakışması çözmek çok pahalıdır.
+- **Commit ve push yalnız Oturum 0'dan yapılır** — **TEK İSTİSNA aşağıda.**
+  Diğerleri dosyayı yazar, "hazır" der. 12-14 MB'lık üretilmiş dosyalarda git
+  çakışması çözmek çok pahalıdır.
+
+  🔴 **İSTİSNA — kendi ilerleme dosyan, PATHSPEC'li** (4 Ağustos 2026 kararı):
+  ```bash
+  git commit -F - -- oturumlar/KENDI-DOSYAN.md      # yol adı ZORUNLU
+  ```
+  Bir oturum **yalnız `oturumlar/` altındaki KENDİ dosyasını** commit edebilir.
+  Başka hiçbir şeyi — `data/`, `arac/`, `js/`, kök `*.md` hepsi Oturum 0'da.
+
+  **Niçin istisna var:** `oturumlar/CAPRAZ-GOREV.md §5` dört çapraz oturuma
+  yıllardır bunu söylüyordu ve sekiz tur böyle teslim edildi. İki belge
+  çelişiyordu; ÇAPRAZ AKDENİZ çelişkiyi bildirdi, hüküm bu.
+
+  **Niçin `--` şart:** git index PAYLAŞILIYOR. Yol adı yazılmazsa başka bir
+  oturumun sahnelediği dosya senin commit'ine girer. Ve `git add -A` **hiç**
+  kullanılmaz: 4 Ağustos'ta commit'siz bekleyen bir ilerleme dosyası tam bu
+  yolla başkasının commit'ine girmek üzereydi.
+
+  ⚠️ **Bu istisna "hazır" demeyi kaldırmaz.** Dosyanı commit et, ama bulguyu
+  yine koordinatöre bildir — commit teslim değildir, teslim mesajdır.
 - **Oturum 2 ve 6 düzeltme yapmaz, yalnız rapor yazar.** Düzeltmeyi 0 uygular;
   yoksa iki oturum aynı satırı ters yönlerde değiştirir.
 - Aynı anda en çok **3 oturum** koştur: 0 + bir Opus + bir Sonnet.
