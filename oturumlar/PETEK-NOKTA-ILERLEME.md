@@ -4343,3 +4343,80 @@ istediği taban bu, ve çıktı gelmeden hazır olması onun için.
   henüz bağlı değil ama SONRA'ya katıldı — yani bu tablo r772'yi DEĞİL,
   hepsi bağlandıktan sonraki hâli gösteriyor
 ```
+
+---
+---
+
+# r833 ÖLÇÜMÜ — MOTORUN ÇIKTISI vs ÖRNEKLEME
+### 6 Ağustos 2026 · **iki soru birden cevaplandı**
+
+## 🔴 ① ÖNCE BİR HATA — ve kendi sağduyu kontrolüm yakaladı
+İlk çıktı okuyucumda `dnm[].g` indislerini doğrudan `DEVLET_PARCALAR`'a
+soktum. Sonuç: **toplam 219 milyon km²** — Dünya'nın karası 149 M.
+**Sayıyı yayımlamadım**, `js/app.js:99 parcaCoz()`e baktım:
+```
+dnm[].g  →  DEVLET_PARCA_HALKA[p]  →  halka indisleri
+           ilk halka DIŞ, kalanlar DELİK
+havuz GeoJSON sırasında: [lon, lat]   (ben [lat, lon] sanmıştım)
+```
+Düzeltildi: toplam 43-55 M km², Rusya 1900'de 19,3 M — akla yatkın.
+📌 Ders: **çıktı biçimini okuyucudan (app.js) doğrula, örnekten tahmin
+etme.** Bugünkü *"kodun yarısını okuyup iddia etme"* dersinin çıktı hâli.
+🟢 Ve bu sefer **yayımlamadan önce** yakaladım — sağduyu kontrolü
+(219 M > 149 M) tek başına yetti.
+
+## ② YÖNTEM KALİBRASYONU — kimsede olmayan sayı
+Aynı nokta kümesiyle (r833, 1772 nokta) iki ölçüm kıyaslandı:
+```
+kimlik              örnekleme      MOTOR r833    sapma
+rusya      1700     12.844.693     12.800.002      +0%
+rusya      1900     19.342.057     19.316.502      +0%
+safevi     1700      2.445.992      2.431.173      +1%
+cungar     1700      1.909.655      1.922.443      -1%
+lehistan   1700        740.315        749.706      -1%
+buhara     1700        669.760        673.851      -1%
+ming       1500      5.147.223      4.940.880      +4%
+qing       1700      7.106.925      6.747.454      +5%
+mogulistan 1500      1.929.475      2.046.556      -6%
+qing       1900      9.279.252      8.636.434      +7%
+hive       1700        211.224        193.036      +9%
+timurlu    1500      1.428.208      1.278.807     +12%
+kazak      1700      1.320.270      1.513.854     -13%
+yarkent    1700        910.730        798.810     +14%
+nogay      1500        236.306        286.326     -17%
+rusya      1500      2.073.800      1.675.400     +24%
+kuzey-yuan 1500        531.860        225.649    +136%
+```
+### HÜKÜM — üç kademe
+```
+> 2 M km² gövde        sapma  0-5%    ⇒ örnekleme GÜVENİLİR
+0,5-2 M km²            sapma  5-15%   ⇒ yön doğru, rakam yaklaşık
+< 0,5 M km² / parçalı  sapma 15-136%  ⇒ örnekleme KULLANILMAZ
+```
+📌 `kuzey-yuan +136%` ve `rusya 1500 +24%` aynı sebep: **parçalı ve ince
+gövde.** 0,5° hücre (≈50 km) böyle gövdelerde ya hepsini alıyor ya
+hiçbirini. Motorun Voronoi + kıyı yaslaması ise kenarı gerçekten çiziyor.
+⇒ **Bundan sonra bölgesel ölçümlerimde bu kademe yazılacak:** iki milyon
+km²nin altındaki gövdeler için verdiğim km² rakamları ±%15 paylıdır.
+
+## ③ BEKLEYEN ÜÇ DOSYANIN ETKİSİ — ayrıştırıldı
+`ek19` · `ek21` · `ek22` (17 nokta) r833'te YOK. Aynı örneklemeyle farkı:
+```
+1500   kuzey-yuan  +1.327.719 km²   ← Moğolistan artık emilmiyor
+       ming-hanedani -299.536 km²   ← Gobi: Ming seddin kuzeyinden çekiliyor
+       nogay          +39.459       altinorda    +52.449
+1700   qing-hanedani +613.400 km²   ← Gobi ve Halha doğru sahibine
+       rusya         -248.372 km²   ← Nerçinsk'in Moğolistan'a taşması kesildi
+1900   qing-hanedani +256.296 km²  ↔  rusya -256.296 km²
+```
+🔴 **`rusya −256.296` benim kendi hatamın kapanışı:** `PARTİ 24`te
+ölçtüğüm 171.442 km²lik taşmanın (Nerçinsk 147.298 + Selenginsk 24.144)
+düzelmiş hâli, artı Gobi payı.
+
+## ④ İKİ SORU DA CEVAPLANDI
+```
+"bugünkü partilerin etkisi ne?"   → ③ (bekleyen 3) + 5980137 (bağlı 7)
+"örnekleme ne kadar güvenilir?"   → ② üç kademeli kalibrasyon
+```
+İkincisi istenmemişti ama ilkinin geçerliliği ona bağlıydı: **kalibrasyon
+olmadan ③'ün rakamları okunamazdı.**
