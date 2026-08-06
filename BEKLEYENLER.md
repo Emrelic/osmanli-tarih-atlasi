@@ -105,10 +105,36 @@ RENK 2 · ARAYÜZ 5 · ÇAPRAZ İRAN · PETEK/NOKTA · ÇAPRAZ AKDENİZ   AÇIK
 
 ## 🟡 SIRADAKİ DALGA — birinciler bitince
 
-| oturum | model | niçin bekliyor |
-|---|---|---|
-| **VERİ KRONOLOJİ 3** | Sonnet | Cem Sultan 1495 · Sapienza 1499 · Altın Orda 1502 · Murad Bey 1503 · Şahkulu — beş eksik madde; ayrıca `2s` borcu 126/114 |
-| **VERİ KİMLİK 4** | Sonnet | **45 kimlik / 359 pencere** dizinde karşılıksız — %96'sı `yerlesimler_asya.js` merge borcu |
+**7 Ağustos tespihi** · ölçüm: `py arac/durum_tablosu.py` · kutu: 0 işlenmemiş,
+**54 açık madde** · sıralama ölçütü **FAYDA ÷ EMEK**, `HEDEF − KEŞKİNLİK` değil.
+
+| # | iş | keskinlik | hedef | fayda / niçin bu sırada |
+|---|---|---|---|---|
+| 1 | **Kutuyu güncelle** — bugün çözülen 4 madde hâlâ 🔵 açık (`p4/H-0009` benek · `p5/H-0005` İran sahibi · `p4/H-0010` Orta Asya · `p4/H-0013` Sinj) | %0 | %100 | 🔓 **DARBOĞAZ** — açık görünen madde yarın YENİDEN çözülür. Emek: dakikalar |
+| 2 | **Üretim koşusu + r834** | %0 | %100 | 🔓 17 nokta haritaya girer, yayın kapısı KIRMIZIDAN çıkar. Emek: 72 dk (çoğu bekleme) |
+| 3 | **RENK 2: üç renk** (`sibir-hanligi` · `izlanda` · `ryazan`) | %0 | %100 | 🔓 `ek10`+`ek11`+`ek12` (12 nokta) + 3 kapı muafiyeti düşer. Üç satır |
+| 4 | **`parti-0006` içerik kümesi** — 11 madde: yeniçeri · vassallık · kardeş katli · siyasî evlilik · kadınlar saltanatı · merak/ek okuma | %0 | %90 | Kullanıcının KENDİ sözü, tek partide 11 madde — en büyük dokunulmamış küme |
+| 5 | **`2t` borcu** 59/49 | %83 | %100 | 10 madde; tavanın üstünde duran tek değişmez |
+| 6 | **6 Ağustos hasadı** — Lur atabeglikleri · `iran` künyesi · Muzafferî · `astrahan-hanligi` | %0 | %70 | Ölçülmüş, sahipsiz; şikâyet ÜRETMİYOR ⇒ acil değil |
+| 7 | **41 dizinsiz kimlik / 246 pencere** | %0 | %80 | %96'sı `asya` merge borcu — uzak coğrafya, hedef zaten alçak |
+
+🔴 **Sıra niçin böyle:** ①-③ **darboğaz** (küçük emek, çok şey açıyor) ·
+④ kullanıcının **kendi sözü ve tekrar eden küme** · ⑤-⑦ ölçülmüş ama
+kimseyi bloke etmiyor.
+
+## 📋 7 AĞUSTOS EKİP ÇİZELGESİ — açmak sende
+
+| # | oturum | rol | model | dosyaları | ilk iş |
+|---|---|---|---|---|---|
+| 1 | **RENK 2** (açık) | YAPIMCI | Opus | `arac/renkler.py` | üç renk — `oturumlar/RENK-2-GOREV.md` |
+| 2 | **VERİ İÇERİK** 🆕 | YAPIMCI | Sonnet | `data/merak.js` · `data/ekokuma.js` | `parti-0006`nın 11 maddesi — `oturumlar/VERI-ICERIK-GOREV.md` |
+| 3 | **VERİ KRONOLOJİ 3** 🆕 | YAPIMCI | Sonnet | yeni `data/olaylar_ek8.js` | `2t` borcu: 10 madde — `oturumlar/VERI-KRONOLOJI-3-GOREV.md` |
+
+⚠️ **En çok 3 eşzamanlı** (`CLAUDE.md §7`): koordinatör + bir güçlü + bir orta.
+PETEK/NOKTA **durdu** (girdi koşuya kadar sabit), ÇAPRAZ İRAN **kapandı**.
+📌 ÇAPRAZ açılmadı çünkü bugün kapanan şikâyet İran'daydı ve orası ölçüldü;
+yeni bir çapraz, yeni bir şikâyet kümesi gerektirir.
+
 
 ## 🟡 6 AĞUSTOS HASADI — sahipsiz kalemler, hepsi ÖLÇÜLMÜŞ
 
