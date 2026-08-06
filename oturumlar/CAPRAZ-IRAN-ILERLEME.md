@@ -864,6 +864,92 @@ alışı 1357). Dördü de gerçek olay, uydurma gerekmiyor. Yazılırsa yalanc�
 
 ---
 
+## 🔴 TESLİM 10 — kendi önerimi ÜÇÜNCÜ KEZ küçültüyorum: Muzafferî tek künye DEĞİL
+
+Teslim 9'da *"Muzafferî tek başına — tek künye tek renk, saf adlandırma,
+`2s` Δ=0 garantili"* demiştim. Koordinatör onayladı. **Ölçüm önerimi öldürdü.**
+
+### TDV `muzafferiler` — ikinci çekiş, tarih sorarak
+
+> Yezd: *"Sultan Ebû Said, Yezd emirliğini Mübârizüddin'e verdi **(718/1318)**"*
+> İncû: *"**İncûlu Ebû İshak**'ı önce Kirman'da kuşattı; ardından İsfahan'da
+> yakalayarak öldürttü ve bu hânedanı ortadan kaldırdı **(758/1357)**"*
+> Kirman: *"Aynı yıl **Kutluğhanlılar**'dan bir prensesle evlenip Kirman
+> eyaletini de kendi topraklarına kattı"* **(758/1357)**
+> Toprakları: *"Yezd, Fars, İsfahan, Kirman ve zaman zaman Azerbaycan"*
+
+📌 758 H = 1356-12-26 → 1357-12-15 ⇒ `1357` tutarlı.
+
+### 🔴 İKİ AYRI SEBEPLE ÖNERİ ÇÖKÜYOR
+
+**① 1335 BAŞLANGICI YANLIŞ — Muzafferî Fars ve Kirman'a 1357'de geliyor.**
+```
+Fars      1335-1357  İNCÛ (İncûlular)        →  1357-1393 Muzafferî
+Kirman    1335-1357  KUTLUĞHANLI             →  1357-1393 Muzafferî
+```
+⇒ **Saf adlandırma değil, BÖLME.** Yeni kırılma tarihi (`1357`) doğuyor
+⇒ **`2s` Δ=0 garantim bu kohort için GEÇERSİZ.** Teslim 9'daki muhakeme
+doğruydu ama **şartı** (sınır oynamaz) sağlanmıyor.
+
+**② 30 NOKTANIN 12'Sİ MUZAFFERÎ DEĞİL.** TDV toprak listesinde Hûzistan,
+Mekran, Belûcistan, Sîstan **hiç geçmiyor.** İkinci çekişte doğrudan sordum:
+> *"Makale Hûzistan (Ahvaz, Şüşter, Dizfûl, Abâdân), Mekran, Belûcistan veya
+> Sîstan'ı Muzafferî toprağı olarak **anmıyor**. Bu bölgeler metinde
+> **tamamen yok.**"*
+
+| bölge | nokta | hüküm |
+|---|---|---|
+| **FARS** | 11 | Şiraz·Firûzâbâd·Kâzerûn·Fesâ·Dârâb·Cehrom·Lâr·Ebrekûh·Buşehr·Bender Rîg·Bender Lengeh — ✅ Muzafferî **1357'den** |
+| **KIRMAN** | 7 | Kirman·Sircân·Rafsencân·Cîruft·Mînâb·Bender Abbas·Câsk — ✅ Muzafferî **1357'den** |
+| **HÛZİSTAN** | 8 | Ahvaz·Şüşter·Dizfûl·Abâdân·Muhammere·Havîza·Râmhürmüz·Behbehân — 🔴 **DEĞİL** |
+| **MEKRAN/SÎSTAN** | 4 | Bem·Bempûr·Çâhbahâr·Hâş — 🔴 **DEĞİL** |
+
+⚠️ `§3.5.1`: 30'unu birden `muzafferi` yapmak **Muzafferî'yi olmadığı yerde
+büyütürdü** — Basra körfezi başından Belûcistan'a. Tam da brifingin uyardığı
+hata.
+
+### GERÇEK MALİYET — 1 değil, en az 3 (belki 5)
+
+```
+muzafferi        🔴 künye yok · renk yok
+incu             🔴 künye yok · renk yok   (Fars 1335-1357)
+kutlughanli      🔴 künye yok · renk yok   (Kirman 1335-1357)
+Hûzistan'ın sahibi   ÖLÇÜLMEDİ — muhtemelen Celâyirli (künye ✓ renk ✓)
+Sîstan'ın sahibi     ÖLÇÜLMEDİ — Mihrâbânîler olabilir
+```
+⇒ **3 kesin + 2 olası = 3-5 künye/renk.** Teslim 9'da *"1"* demiştim.
+
+### 🟢 SLUG TURU — dördü canlı, üçü ölü (kayda geçsin)
+
+```
+✅ CANLI   incu (İNCÜ) · kutlughanlilar · sistan · huzistan
+🔴 ÖLÜ     incular (302) · kutlug-hanlilar (302) · mihrabaniler (302)
+```
+⚠️ Bunlar `<title>` "Arama"lı ölü değil, **302 yönlendirme** — yeni bir ölü
+slug deseni. `§4`'ün *"HTTP 200 döndürür"* uyarısı bu biçimi kapsamıyor;
+koordinatöre bildirildi.
+
+### ⇒ ÖNERİM — iki şık, kararı koordinatöre bırakıyorum
+
+**(i) DOĞRU YAP:** 3 künye + 3 renk · `1357` bölmesi · `1357` için bir
+kronoloji maddesi (*"Mübârizüddin İncûlular'ı ortadan kaldırıp Kirman'ı
+aldı"* — TDV `muzafferiler` kaynaklı, gerçek olay). Hûzistan ve Sîstan
+**ayrı kalem**, dokunulmaz.
+
+**(ii) PARK ET:** bu kohort artık **şikâyet üretmiyor** — dokuz enklav
+kapandı, 22 nokta komşularıyla aynı renkte. `ONCELIK.md` mantığıyla
+şikâyetsiz iş bekler.
+
+🟢 **Ben (ii)'yi öneriyorum.** Gerekçe: maliyet 1'den 3-5'e çıktı, RENK 2'nin
+kutusu dolu, ve kazanç görsel değil **kavramsal** (harita aynı görünecek,
+yalnız etiket doğrulaşacak). Şikâyeti olan başka iş varken bu sıraya girmemeli.
+
+📌 Ve bu, koordinatörün pencere 2 için kullandığı ölçütün **üçüncü kez**
+uygulanması: *"şikâyeti olan işi bırakıp şikâyeti olmayana geçmek önceliği
+tersine çevirir."* Bu sefer kendi işime uyguluyorum.
+
+---
+
 ## Sistem kaydı — koordinatöre bildirilenler
 
 1. `CLAUDE.md §5` canlı taban satırı bayat (951/2 dosya → gerçekte 1713/16 dosya).
