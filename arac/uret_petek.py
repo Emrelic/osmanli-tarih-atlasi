@@ -1108,7 +1108,36 @@ if len(_kvdegisen) > 20:
 #   'çöl tavanı ÖNCESİ örtü: 48 bozuk kenar (taban 57) ✓ — TABAN GEVŞEK'
 # ⚠️ Tek yönlü bir nöbetçi burada sessiz '✓' basar, taban 57'de kalır ve
 # 48-57 arasındaki her gerçek regresyon görünmez olurdu.
-BOZUK_KIYI_TABAN = 48
+# ═══ 🔴 6 Agustos 2026 — "ORANA CEVIR" ONERISI OLCULDU VE CURUDU ═══
+# Koordinator "taban mutlak sayi, oysa bugun 59 nokta ekledik; nokta sayisi
+# buyurken sabit esik tutmak 2s tavaniyla ayni sinif hata -- ORANA cevrilmeli"
+# dedi. PETEK/NOKTA once "payda `tur:'bolge'` sayisi olabilir" diye oneri
+# yazdi, sonra OLCTU ve KENDI ONERISINI CURUTTU. Sekiz kosu gunlugu:
+#     1.606 → 1.623 nokta (+17)  →  bozuk kenar TAM 48'DE SABIT
+#     1.623 → 1.713      (+90)   →  48 → 60   (+12)
+#     1.713 → 1.772      (+59)   →  60 → 58   🔴 (−2)
+# Son satir HER oran onerisini curutuyor: NOKTA ARTTI, KENAR AZALDI.
+# ⇒ Bozuk kenar nokta sayisinin fonksiyonu DEGIL; ne noktaya ne `bolge`ye
+#   bolunur -- PAYDASI YOK.
+#
+# 🟢 PEKI NEYIN FONKSIYONU: KIYI. Olculdu, parti basina kiyiya <25 km oran:
+#     ek7 %41 · ek8 %51 · ek13 %38 · OTEKI DOKUZ DOSYA %0 (hepsi ic kara)
+#     kosu9 (ek7+ek8+ek9)  90 nokta · kiyida 37 (%41)  →  +12 kenar
+#     r772  (ek13…ek20)    59 nokta · kiyida  6 (%10)  →   −2 kenar
+#   Bozuk kenar KIYI KESIMINDEN doguyor: fiyort, ada, girintili sahil.
+#   ek7/ek8'in 36 fiyort-ada noktasi +12 getirdi; Sibirya-Orta Asya-bozkir
+#   partilerinin SIFIR kiyi noktasi kenar getirmedi.
+#
+# HUKUM: orana CEVRILMEDI (veri desteklemiyor) · mutlak tripwire KALIYOR ·
+#   artis okunabilir olsun diye parti basina "kiyiya <25 km nokta" bakilir.
+# 48 -> 58: bugunku deger bir REGRESYON DEGIL; +10'un tamami ek7/ek8'in
+#   geometrisinden ve o parti dort gun once baglandi.
+# 📌 Ve cift yonlu nobetci burada ise yaradi: 60 → 58 DUSUSUNU tek yonlu bir
+#   nobetci sessizce yutardi.
+# 📌 ONCELIK.md K4'un yeni bir yuzu: OLCMEDEN VERILEN ONERI DE UC TUR DEMEK.
+#   Uygulansaydi ek17/ek18 gibi `bolge` dolgusu bol ama kiyisi sifir
+#   partiler yanlislikla ceza alirdi.
+BOZUK_KIYI_TABAN = 58
 
 # 🔴 NÖBETÇİ BURADA — ÇÖL TAVANINDAN ÖNCE. Bu çağrı, taban 32'yi üreten r217
 # koşusuyla AYNI ölçümdür (kıyı kesimi + ada kuralı + kara-kısıtlı sahiplik

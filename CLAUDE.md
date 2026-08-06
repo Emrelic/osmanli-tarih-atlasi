@@ -634,3 +634,32 @@ Notlar:
   "±30 gün" olmalı; "aynı yıl" değil.
 - **`sed` ile Türkçe karakterli / kesme işaretli düzeltme yapma** — Git Bash'te
   tırnak eşleşmesi bozuluyor. Bunun yerine scratchpad'e `py` betiği yaz ve çalıştır.
+
+  🔴 **VE BU KURAL `heredoc`U DA KAPSAR — 6 Ağustos'ta DÖRT KEZ ısırdı.**
+  `py - <<'EOF'` ile yazılan her kaçış (`\b` · `\n` · backtick) bozulabiliyor:
+  ```
+  girdi.py yorumu     `ek13` ve `cin-cumhuriyeti` backtick'i bash'e ÇALIŞTI, kelimeler SİLİNDİ
+  denetle_yayin.py    \n gerçek satır sonuna döndü → sözdizimi hatası
+  denetle_yayin.py    \b → 0x08 BACKSPACE BAYTI (aşağıya bak)
+  arac2s.py           aynı \n vakası (PETEK/NOKTA'da)
+  ```
+  ⇒ **Kaçış içeren hiçbir düzeltme bash'ten geçirilmez.** Betiği `Write`
+  aracıyla scratchpad'e yaz, sonra `py <yol>` ile çalıştır. İstisna yok.
+
+- 🔴 **ALETİN GÖSTERDİĞİ ≠ DOSYADA YAZAN.** Bir `\b` kaçışı bozulup dosyaya
+  **0x08 (BACKSPACE) baytı** yazıldı. `Read` onu **görünmez** gösterdi —
+  satır ekranda kusursuz görünüyordu:
+  ```
+  ekranda   re.findall(r"<script(?![^>]*\bsrc=)…"
+  dosyada   re.findall(r"<script(?![^>]*␈src=)…"     ← 0x08
+  ```
+  Sonuç: lookahead hiç eşleşmedi, denetim `<script src=…>` etiketlerini de
+  saydı (1 yerine **55**). Denetim **çalışıyordu ama sayısı yalandı** —
+  yani ne çıktı hata verdi ne de göz.
+  > **Bir düzenlemenin doğruluğundan şüphelenmek için sebep varsa,
+  > `Read`'e değil `repr()`'e sor.** `inspect.getsource(...)` + `repr` ya da
+  > `open(yol,"rb").read().count(b"\x00…")` görünmeyeni gösterir.
+
+  📌 Bu, kusur listesinin **onuncu** sınıfı ve öncekilerin hiçbirine
+  benzemiyor: ①-⑦ *yanlış şeyi ölçmek*, ⑧-⑨ *hiç ölçmemek*, ⑩ ise
+  **doğru şeyi ölçüp ALETİN yalan söylemesi.**
