@@ -297,7 +297,20 @@ KUYRUK_DOSYALARI = ("yerlesimler_ortaasya2.js", "yerlesimler_avrupa.js",
 # 🔴 Acik olanlarin hepsi BELH: 1370 · 1506 · 1509 · 1751 · 1826.
 #   Belh'in kronolojisi yok (Timurlu'ya gecis · Seybani · Durrani · Buhara).
 #   Borc: Belh/Kuzey Afganistan kronolojisi.
-BEKLENEN_ACIK_S = 158
+# 158 -> 159: PARTI 25 (_ek20, Cin Altayi). Tek gun: 1864-10-07 Cugucak.
+# 🔴 VE BU TEK GUN, UCUNCU SINIF TASARIMINA CANLI ORNEK:
+#     1864-10-07  Cugucak protokolu (Rus-Qing sinir antlasmasi)
+#     en yakin madde: 1864-11-08 «Vilayet Nizamnamesi»  +32 GUN
+#   IKI GUN DAHA YAKIN OLSA "MADDELI" SAYILACAKTI -- ve YANLIS olacakti.
+#   Osmanli vilayet nizamnamesiyle Rus-Qing sinir protokolunun hicbir ilgisi
+#   yok. ⇒ Dogru cevap ne MADDELI ne ACIK: **KAPSAM DISI**.
+#   📌 Olcut bugun "esik 30 mu 34 mu" sorusuna indirgeniyor; oysa soru
+#     ESIK DEGIL, KONU. Esigi buyutmek yanlis gecisi artirir, kucultmek
+#     dogru gecisi de keser. Ucuncu sinif olmadan bu ikilem cozulmez.
+# 🟢 Ve parti gunu KAYDIRMADI: eski takvim (1864-09-25) yazsa fark +44'e
+#   cikardi, yani sayac icin bile ise yaramazdi -- ama esas sebep o degil,
+#   "tarih dogru oldugu icin durdu."
+BEKLENEN_ACIK_S = 159
 # Değişmez 2'nin AYNADAKİ HÂLİ: madde var ama kırılma yok. Oturum 14'ün Girit
 # bulgusu — "1830-11-01 Girit'in idaresi Mehmed Ali'ye bırakıldı" maddesi VARDI,
 # beş nokta `d:` kalmıştı. Ölçüldü: 442 toprak/antlaşma maddesinin 67'sinin

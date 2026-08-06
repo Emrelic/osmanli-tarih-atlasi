@@ -306,6 +306,33 @@ GIRDI_DOSYALARI = [
     # ⚠️ Tek kalan dizinsiz kimlik `iran` ve o BU PARTININ ESERI DEGIL:
     #   `iran` renkli ama devletler.js kunyesi yok (BEKLEYENLER kalemi).
     "yerlesimler_ek16.js",
+    # ── PARTI 25 · 6 Agustos 2026 (NOKTA EKLEME) ────────────────────
+    # ek20 Cin Altayi ve Cungarya 4 nokta: Cocek (Tarbagatay) ·
+    # Altay (Sara Sume) · Zaysan · Cungarya havzasi.
+    # 🔴 BU PARTI, PARTI 23UN ACTIGI HATAYI KAPATIYOR:
+    #   1800 · 42-49,5K/78-96D  `rusya` boyanan CIN topragi
+    #     Ust-Kamenogorsk  99.500 km2 · Semipalatinsk 41.378 km2
+    #     TOPLAM 140.878 km2 / 17 hucre
+    #   Tarbagatay · Zaysan · Cin Altayi 1755ten beri Qing idi;
+    #   Rusya'ya ancak 1864 Cugucak protokoluyle gecti ⇒ 64 YIL ERKEN.
+    # 📌 VE AYNI DESEN AYNI GUN UCUNCU KEZ, ucunde de tasan nokta
+    #   PARTININ KENDI noktasi:
+    #     PARTI 20 Selenginsk        24.144 km2  (PARTI 24 kesti)
+    #     PARTI 23 UstKam+Semipal   140.878 km2  (PARTI 25 kesiyor)
+    #   "§3.5.1i YAZMIS, UYGULAMAYI ATLAMISIM."
+    #   ⇒ Partinin kendine cikardigi kural: bir SINIR noktasi eklerken,
+    #     orta dikmenin obur tarafinda da nokta olup olmadigi AYNI
+    #     PARTIDE olculur. Sonrakine birakmak, hatayi bir tur boyunca
+    #     YAYINDA tutmak demek.
+    # 🟢 Ve koordinatorun "obur ucun rengi yoksa tek uclu kalir" kurali
+    #   DEGISMEDI, kosulu dustu: `cin-cumhuriyeti` artik renkli.
+    # ⚠️ Gulca'nin `rusya 1871-07-04 → 1882-03-22` donemi KOPYALANMADI:
+    #   o Rusya'nin Ili vadisi isgali (Yakub Beg isyani), Petersburg
+    #   antlasmasiyla geri verildi; bu dort nokta isgalin icinde degil.
+    # OLCULDU: kimlik 6 (hepsi renkli+dizinli) · d:/v: 0 · sahipsiz 0
+    #   · donem sagligi temiz.
+    "yerlesimler_ek20.js",
+
 
     # 344 nokta (MOTOR 2, 2 Ağustos 2026 — kutu genişletme koşusuyla).
     # KOORDİNATÖR KARARI: 37-renkle açılış — 147 kimliğin 49'u boyalı, 98'i
