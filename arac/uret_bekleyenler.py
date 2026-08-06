@@ -60,6 +60,9 @@ BOLUMLER = [
     #    "EKİP ÇİZELGESİ" alt dizgesiyle yapılıyor ki tarih değişince kopmasın.
     #    Dün tam bu yüzden iki kez durduk: başlık değişti, betik tanımadı.
     ("EKİP ÇİZELGESİ", "bekleyen"),
+    # Kapanan bir oturumun DEVIR tablosu: olculmus ama sahipsiz
+    # kalemler. Kullaniciyi baglamiyor ⇒ istege_bagli.
+    ("DEVRİ", "istege_bagli"),
     # "Bugun verdigin iki karar" gibi ALT basliklar: karar zaten
     # verilmis, uygulamasi bende. Kullanicidan bir sey beklenmiyor.
     ("VERDİĞİN", "kapanan"),

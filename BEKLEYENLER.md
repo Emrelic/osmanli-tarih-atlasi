@@ -136,6 +136,34 @@ PETEK/NOKTA **durdu** (girdi koşuya kadar sabit), ÇAPRAZ İRAN **kapandı**.
 yeni bir çapraz, yeni bir şikâyet kümesi gerektirir.
 
 
+## 🟡 VERİ KRONOLOJİ 3 DEVRİ — beş yapısal boşluk, hepsi ölçülmüş
+
+Oturum `2t`yi 59 → 41'e indirdi ve **durdu**: kalan borcun bir kısmı etiketle
+kapanmaz, çünkü atlasın **hiç modellemediği dönemler** var. Beşi de veri işi.
+
+| boşluk | ölçüm | etkisi |
+|---|---|---|
+| **Fetret 1402-1413** | atlasta 11 yıl boyunca HİÇ Osmanlı gövdesi yok | 3-4 madde |
+| **İran 1501-1736** | `CLAUDE.md §3.5`in bilinen boşluğu (Tebriz 1724 · Revan 1736 · Hemedan aynı kök) | 2+ madde |
+| **Kavalalı Suriye 1832-40** | Halep/Şam'da Kavalalı dönemi hiç modellenmemiş | Nizip dâhil |
+| **Tunus 1569/1573** | `yerlesimler.js:726` 1535-1574'ü TEK PARÇA `hafsi` gösteriyor; Uluç Ali'nin 1569 fethi ve Don Juan'ın 1573 geri alışı **arada hiç yok** | 2 madde |
+| **İbrâil 1809/1828** | iki geçici Rus işgali hiç modellenmemiş — ne `s:`/`d:` ne `isg:` | 1 madde |
+
+🔴 **Ve bir ALET kusuru** — `isg:` kategorisi `degismez2()`nin taramasına
+**hiç girmiyor**; fonksiyon yalnız `("d","v")` ve `("s",)` ile çağrılıyor.
+Böğürdelen 1788 ve Kahire 1798 ile **iki kez** doğrulandı.
+
+🟡 **Kuyruk artefaktı:** `ek3`ün 4 maddesi (Safi · Azemmûr · Mazagan · Arzila)
+veriyle **birebir eşleşiyor** ama dosya KUYRUK'ta olduğu için `2t`ye giriyor.
+Çekirdeğe alınınca kendiliğinden kapanır — gerçek borç değil.
+
+🟡 **9 tarih uyuşmazlığı** — veri var ama gün/ay farkı 30'u aşıyor:
+Agadir · Şehrizor · Bucaş/Kamaniçe · Cüneyd Bey ×2 · Konya 1415 (9 ay) …
+
+⚠️ **Lugoş 1695** — oturum karar VEREMEDİ ve tahmin etmedi: Lipova *"geri
+alındı"* yazıyor ama ne Lipova ne Lugoş haritada nokta olarak var.
+📌 *"Veri yok"* diye işaretlemesi doğru davranış.
+
 ## 🟡 6 AĞUSTOS HASADI — sahipsiz kalemler, hepsi ÖLÇÜLMÜŞ
 
 Bunlar **şikâyet üretmiyor** (yani acil değil) ama kaybolmasın diye yazılı.

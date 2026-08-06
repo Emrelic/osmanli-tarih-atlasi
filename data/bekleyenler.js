@@ -62,61 +62,35 @@ window.BEKLEYENLER = {
   },
   "istege_bagli": {
    "baslik": [
-    "#",
-    "iş",
-    "keskinlik",
-    "hedef",
-    "fayda / niçin bu sırada"
+    "boşluk",
+    "ölçüm",
+    "etkisi"
    ],
    "satir": [
     [
-     "1",
-     "Kutuyu güncelle — bugün çözülen 4 madde hâlâ 🔵 açık (p4/H-0009 benek · p5/H-0005 İran sahibi · p4/H-0010 Orta Asya · p4/H-0013 Sinj)",
-     "%0",
-     "%100",
-     "🔓 DARBOĞAZ — açık görünen madde yarın YENİDEN çözülür. Emek: dakikalar"
+     "Fetret 1402-1413",
+     "atlasta 11 yıl boyunca HİÇ Osmanlı gövdesi yok",
+     "3-4 madde"
     ],
     [
-     "2",
-     "Üretim koşusu + r834",
-     "%0",
-     "%100",
-     "🔓 17 nokta haritaya girer, yayın kapısı KIRMIZIDAN çıkar. Emek: 72 dk (çoğu bekleme)"
+     "İran 1501-1736",
+     "CLAUDE.md §3.5in bilinen boşluğu (Tebriz 1724 · Revan 1736 · Hemedan aynı kök)",
+     "2+ madde"
     ],
     [
-     "3",
-     "RENK 2: üç renk (sibir-hanligi · izlanda · ryazan)",
-     "%0",
-     "%100",
-     "🔓 ek10+ek11+ek12 (12 nokta) + 3 kapı muafiyeti düşer. Üç satır"
+     "Kavalalı Suriye 1832-40",
+     "Halep/Şam'da Kavalalı dönemi hiç modellenmemiş",
+     "Nizip dâhil"
     ],
     [
-     "4",
-     "parti-0006 içerik kümesi — 11 madde: yeniçeri · vassallık · kardeş katli · siyasî evlilik · kadınlar saltanatı · merak/ek okuma",
-     "%0",
-     "%90",
-     "Kullanıcının KENDİ sözü, tek partide 11 madde — en büyük dokunulmamış küme"
+     "Tunus 1569/1573",
+     "yerlesimler.js:726 1535-1574'ü TEK PARÇA hafsi gösteriyor; Uluç Ali'nin 1569 fethi ve Don Juan'ın 1573 geri alışı arada hiç yok",
+     "2 madde"
     ],
     [
-     "5",
-     "2t borcu 59/49",
-     "%83",
-     "%100",
-     "10 madde; tavanın üstünde duran tek değişmez"
-    ],
-    [
-     "6",
-     "6 Ağustos hasadı — Lur atabeglikleri · iran künyesi · Muzafferî · astrahan-hanligi",
-     "%0",
-     "%70",
-     "Ölçülmüş, sahipsiz; şikâyet ÜRETMİYOR ⇒ acil değil"
-    ],
-    [
-     "7",
-     "41 dizinsiz kimlik / 246 pencere",
-     "%0",
-     "%80",
-     "%96'sı asya merge borcu — uzak coğrafya, hedef zaten alçak"
+     "İbrâil 1809/1828",
+     "iki geçici Rus işgali hiç modellenmemiş — ne s:/d: ne isg:",
+     "1 madde"
     ]
    ]
   },
@@ -174,8 +148,8 @@ window.BEKLEYENLER = {
   "bekleyen_acik": 3,
   "gorsel_acik": 0,
   "karar_acik": 1,
-  "istege_bagli": 7,
+  "istege_bagli": 5,
   "toplam_acik": 4
  }
 };
-window.URETIM_IZI = {"girdi":{"BEKLEYENLER.md":"776d2e057a797737379045ba5966ec2c24d42017e17abab905ed6498226a03b3"},"motor":{"uret_bekleyenler.py":"4288f50fe22c59aa8d40890c958428cb0a08f8c1ee1f125c4e26dda07dd05450"}};
+window.URETIM_IZI = {"girdi":{"BEKLEYENLER.md":"2cb076f4c756653b320cd2170faaf3a8d77f551f08c3073899d972a362745213"},"motor":{"uret_bekleyenler.py":"fc8501476f0d0e8965c866d2015bb5747d93bd9a8aebc43a5bf87a2a74a80b7a"}};
