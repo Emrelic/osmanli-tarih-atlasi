@@ -341,6 +341,22 @@ KUYRUK_DOSYALARI = ("yerlesimler_ortaasya2.js", "yerlesimler_avrupa.js",
 #   Esik kronolojiden olculdugu icin, kronoloji genisledikce esik de buyur
 #   ⇒ sistem kendi kendini ayarliyor.
 BEKLENEN_ACIK_S = 121
+
+# ═══ `Degismez 2i` — ISGAL kirilmasinin maddesi var mi ═══════════════════
+# 🔴 VERI KRONOLOJI 3 (7 Agustos 2026) olctu ve IKI VAKAYLA dogruladi:
+# `isg:` kategorisi bu denetimin taramasina HIC girmiyordu. `degismez2()`
+# yalniz ("d","v") ve ("s",) ile cagriliyordu.
+#     Bogurdelen 1788  maddesiyle TAM ESLESIYOR -- denetim gormuyordu
+#     Kahire 1798      ayni
+# Oysa isgal donemi haritada RENK DEGISTIRIYOR (tarali desen) ve kullanici
+# GORUYOR. On aydir hicbir denetim "bunun maddesi var mi" diye sormadi --
+# `2s`nin dogum sebebinin ayni, bir kategori otede.
+# 📌 Ayni gun SEKIZINCI kez: denetim, verinin sordugu soruyu degil KENDI
+#   sordugu soruyu olcuyor.
+# OLCULDU: 88 isgal donemi / 82 kayit · 16 ayrik kirilma gunu · 3 ACIK
+#   Nis 1737-10-01 · Semendire 1789-10-13 · Bihac 1878-09-18
+# ⇒ Borc KUCUK ve kapatilabilir; tavan 3 ile giriyor ve inmesi beklenir.
+BEKLENEN_ACIK_ISG = 3
 # Değişmez 2'nin AYNADAKİ HÂLİ: madde var ama kırılma yok. Oturum 14'ün Girit
 # bulgusu — "1830-11-01 Girit'in idaresi Mehmed Ali'ye bırakıldı" maddesi VARDI,
 # beş nokta `d:` kalmıştı. Ölçüldü: 442 toprak/antlaşma maddesinin 67'sinin
@@ -1607,6 +1623,18 @@ def main():
     if disi_s and args.ayrinti:
         for r in sorted(disi_s, key=lambda x: -x[5])[:10]:
             print(f"    {r[0]}  {r[5]:6.0f} km  {', '.join(r[2][:2])[:40]}")
+
+    # ── Degismez 2i — ISGAL kirilmasi (bkz. BEKLENEN_ACIK_ISG yorumu)
+    kir_i, acik_i = degismez2(Y_cekirdek, O, ("isg",))
+    durum2i = "✓" if len(acik_i) <= BEKLENEN_ACIK_ISG else "✗"
+    if len(acik_i) > BEKLENEN_ACIK_ISG:
+        ihlal = True
+    print(f"Değişmez 2i {durum2i}  {len(kir_i)} İŞGAL kırılması, {len(acik_i)} açık "
+          f"(tavan {BEKLENEN_ACIK_ISG})")
+    if acik_i:
+        for d, tip, adlar, baslik, fark in acik_i[:5]:
+            print(f"    {d}  ({len(adlar):3d}) {', '.join(adlar[:3])[:44]:44s}"
+                  f" | en yakın {fark}g: {baslik[:34]}")
     print( "            i iki yabancı devlet arasındaki devir de haritada renk")
     print( "              değiştirir; Değişmez 2 bunu bugüne kadar hiç sormadı.")
     if acik_s:
