@@ -3951,3 +3951,94 @@ Altay'ın Qing yakası    `cin-cumhuriyeti` artık renkli ⇒ YENİDEN AÇILDI
 Yelets · Kozlov         PARTİ 22'nin bıraktığı
 Gobi'nin batısı         Uliastay + Karakurum + Dariganga üçgeni; ölçülmedi
 ```
+
+---
+---
+
+# PARTİ 25 — ÇİN ALTAYI ve CUNGARYA
+### `data/yerlesimler_ek20.js` · 4 nokta · 6 Ağustos 2026
+
+**Durum:** 🟢 HAZIR — engel yok, `cin-cumhuriyeti` rengi RENK 2 tarafından
+yazıldı ve doğrulandı.
+
+## ① 🔴 BU PARTİ `PARTİ 23`ÜN AÇTIĞI HATAYI KAPATIYOR — ÜÇÜNCÜ KEZ
+`PARTİ 23`te Altay'a on Rus kalesi koyup Kobdo'nun 650 km'lik kuzey
+taşmasını kesmiştim. Ölçtüm: **hata yok olmadı, taraf değiştirdi.**
+```
+1800-06-15 · 42-49,5°K / 78-96°D · `rusya` boyanan ÇİN toprağı
+   Ust-Kamenogorsk    99.500 km²   (161-345 km)
+   Semipalatinsk      41.378 km²   (214-348 km)
+   ────────────────────────────────────────────
+   TOPLAM            140.878 km²   17 hücre · 47,5-48,5°K / 78-86,5°D
+```
+Tarbagatay · Zaysan · Çin Altayı 1755'ten beri Qing'di ve Rusya'ya **ancak
+1864 Çuguçak protokolüyle** geçti ⇒ 140.878 km² **64 yıl erken** Rus.
+
+🔴 **VE AYNI DESEN BUGÜN ÜÇÜNCÜ KEZ, ÜÇÜNDE DE TAŞAN NOKTA BENİM:**
+```
+PARTİ 20  Selenginsk         → güneye   24.144 km²   (PARTİ 24 kesti)
+PARTİ 23  Ust-Kam.+Semipal.  → güneye  140.878 km²   (BU PARTİ kesiyor)
+ve ikisinde de `§3.5.1`i YAZMIŞ, UYGULAMAYI ATLAMIŞIM.
+```
+📌 **Kendime kural:** bir sınır noktası eklerken, orta dikmenin ÖBÜR
+tarafında da nokta olup olmadığı **aynı partide** ölçülür. Sonraki partiye
+bırakmak, hatayı bir tur boyunca yayında tutmak demektir.
+
+## ② KURALIN KOŞULU DÜŞTÜ — kural duruyor
+`PARTİ 23`te Qing yakasına nokta koymamıştım: *"`cin-cumhuriyeti` renksiz,
+düzeltirken yeni boyasız alan açardım."* Koordinatör kuralı kabul etti.
+**Kural duruyor, koşulu kalktı** — RENK 2 rengi yazdı (ölçüldü).
+⇒ Öbür uç açıldı ve bu dosya onu açıyor.
+
+## ③ ZİNCİR — `Gulca`dan, ama İLİ İSTİSNASI ALINMADI
+Omurga: `cagatay 1281→1347 · mogulistan →1634 · cungar →1755 ·
+qing →1912-02-12 · cin-cumhuriyeti →1923`.
+⚠️ **Gulca'nın `rusya 1871-07-04 → 1882-03-22` dönemi KOPYALANMADI:** o,
+Rusya'nın **İli vadisi** işgalidir (Yakub Beg isyanı) ve Petersburg
+antlaşmasıyla geri verildi. Tarbagatay · Zaysan · Çin Altayı o işgalin
+içinde değildi — kopyalasaydım üç noktayı on bir yıl yanlış devlette
+gösterirdim.
+
+## ④ `2s` +1 — ve ölçütün ÜÇÜNCÜ SINIFINA CANLI ÖRNEK
+Tek yeni gün **`1864-10-07`** (Çuguçak protokolü). En yakın kronoloji
+maddesi:
+```
+1864-11-08  «Vilâyet Nizamnâmesi»   +32 gün
+```
+🔴 **İki gün daha yakın olsa "MADDELİ" sayılacaktı — ve yanlış olacaktı.**
+Osmanlı vilâyet nizamnâmesiyle Rus-Qing sınır protokolünün ilgisi yok.
+⇒ `2s` yeniden tasarımına canlı örnek: doğru cevap ne `MADDELİ` ne `AÇIK`,
+**`KAPSAM DIŞI`.**
+📌 Günü kaydırmadım. Eski takvim (`1864-09-25`) yazsaydım fark **+44 güne
+çıkardı** — yani sayaç için bile işe yaramazdı; ama esas sebep o değil,
+tarih doğru olduğu için durdu.
+
+## ⑤ ZAYSAN — tek `rusya`lı kayıt, ve gerekçesi
+Rus karakolu **1868**'de kuruldu ama toprak **1864-10-07**'de devrolundu.
+Karakolun yılını yazsaydım dört yıllık Qing fazlası kalırdı — `PARTİ 20`de
+Ayan · Blagoveşçensk · Selenginsk'te üç kez öğrendiğim ders: **kasabanın
+kuruluşu ile toprağın idaresi ayrı sorulardır.**
+
+## ⑥ KABUL ÖLÇÜTÜ
+```
+① 4/4 ✓  ② alan kütüğü temiz ✓  ③ renk 6/6 VAR ✓ (renksiz YOK)
+④ ad çakışma 4/4 benzersiz ✓  ⑤ dönem temiz ✓
+⑤b hayalet: yalnız repo geneli `rusya`>1917 sözleşmesi
+⑥ iç boşluk 0 ✓ ⇒ tavan +0   ⑦ madde borcu 0 ✓   ⑧ çelişki 0 ✓
++ maske MOTORUN ölçütüyle 4/4 ✓   + kutu 4/4 ✓
++ 3 km en yakın çift 163,71 km (Çöçek ↔ Zaysan) ✓
+```
+
+## ⑦ BUGÜNÜN TOPLAMI — altı parti
+```
+_ek13  16  Amur · Ohotsk · Sahalin · Orta Sibirya      BAĞLI
+_ek14   9  Mâverâünnehir                               BAĞLI
+_ek15   7  Hokand Hanlığı                              BAĞLI
+_ek16   2  Herat · Belh                    künye bekliyor (koordinatörde)
+_ek17  11  Orman-bozkır (Litvanya-Moskova)             BAĞLI
+_ek18  10  Altay ve Yukarı Ob                          BAĞLI
+_ek19   6  Moğolistan (Halha)              kuyruğa alındı
+_ek20   4  Çin Altayı ve Cungarya                      HAZIR
+──────────────────────────────────────────────────────────
+       65 nokta · 8 dosya
+```
