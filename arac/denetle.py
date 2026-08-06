@@ -377,7 +377,28 @@ BEKLENEN_ACIK_S = 121
 #
 # 📌 Ve artışın hangi üyeden geldiğini DEFTER söyledi, tahmin değil:
 #     + YENİ  1555-01-01|İbrim ve Nübye sınırının güneye taşınması
-BEKLENEN_KIRILMASIZ = 49
+# 🟢 49 -> 42: VERI KRONOLOJI 3 (7 Agustos 2026). BU DEGISMEZ BUGUN ILK KEZ
+# TAVANIN ALTINA INDI -- 59'dan 42'ye, 12 etiket duzeltmesiyle.
+# Ve DEGISMEZ 2 KIRILMADI: 497 kirilma, 0 acik (oturum her adimda dogruladi).
+#
+# YONTEM -- oturumun kendi buldugu ve en saglam olani:
+#   "maddenin KENDI METNINDEN dogrulama". Zitvatorok maddesinin aciklamasi
+#   "toprak kaybi YOK DENECEK KADAR AZDI" diyor ⇒ etiketi `toprak-kaybi`
+#   OLAMAZ. Sirp Isyani maddesi "Sirp kuvvetleri 1806'da Belgrad'i ele
+#   gecirdi" diyor ama madde 1804 baslangicini anlatiyor.
+#   ⇒ Etiket, metne DEGIL veriye bakarak kaldirilir; ama metin kendi
+#     etiketini CURUTUYORSA o en kesin gerekcedir.
+#
+# ⚠️ VE TAVAN SIFIRA INMEYECEK. Kalan 42'nin bir kismi KALICI: atlasin
+# hic modellemedigi donemler var ve o maddeler toprak iddia edip harita
+# oynatmayacak. Oturumun olctugu dort yapisal bosluk:
+#     Fetret 1402-1413        atlasta HIC Osmanli govdesi yok
+#     Iran 1501-1736          CLAUDE.md §3.5'in bilinen boslugu
+#     Kavalali Suriye 1832-40 Halep/Sam'da hic modellenmemis
+#     Tunus 1569/1573         gidis-gelisi modellenmemis
+# ⇒ Bunlari etiketten cikarmak `2t`yi dusurur ama GERCEK BOSLUGU GIZLER --
+#   ve o, olcutun onlemek icin var oldugu seydir. VERI isi, etiket isi degil.
+BEKLENEN_KIRILMASIZ = 42
 # MIMARI.md §3.4 — bilinen borç, tavan bu. 311'den 318'e çıkarıldı: beylik
 # düzeltmesiyle 19 yerleşim eklendi (567 -> 586) ve 11'i bu borcu tetikliyor.
 # Ölçüldü, indirilemez: m alanının zaman boyutu yok, bir yerleşim bütün tarih

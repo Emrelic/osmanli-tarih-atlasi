@@ -225,7 +225,7 @@ window.OLAYLAR_EK4 = [
   kisiler:"Hafız Mehmed Paşa, Helmuth von Moltke",
   d:"II. Mahmud, Kütahya'da kaybettiklerini geri almak için ordusunu Suriye sınırına sürdü. Orduda müşavir olarak bulunan Prusyalı subay Moltke, mevzi seçimine ve erken taarruza itiraz etti; itirazları dinlenmedi.",
   kaynak:"osmanlilar", duygu:["🐎"] },
-{ t:"1839-06-24", k:"savas", etiket:["savas","toprak-kaybi"], b:"Nizip Muharebesi — Osmanlı ordusu dağıldı", gun:"24 Haziran 1839", yer:"Nizip, Antep",
+{ t:"1839-06-24", k:"savas", etiket:["savas"], b:"Nizip Muharebesi — Osmanlı ordusu dağıldı", gun:"24 Haziran 1839", yer:"Nizip, Antep",
   kisiler:"İbrâhim Paşa (Kavalalı), Hafız Mehmed Paşa, Moltke",
   d:"Kötü yerleştirilmiş Osmanlı ordusu birkaç saat içinde bozguna uğradı. Yenilgi haberi İstanbul'a ulaşmadan padişah öldü; devlet birkaç gün içinde ordusunu, hükümdarını ve ardından donanmasını kaybedecekti.",
   kaynak:"kavalali-mehmed-ali-pasa", duygu:["⚔️"] },
