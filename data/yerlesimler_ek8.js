@@ -115,9 +115,12 @@ window.YERLESIMLER_EK8 = [
 //    `KARA`sı gölleri ÇIKARIYOR, ilk denetimimin kullandığı ham kıyı maskesi
 //    çıkarmıyordu. Kıyıya göre doğru olan nokta, göle göre yanlıştı.
 //    2,2 km kuzeydoğuya, gölün dışına alındı.
-// ⚠️ Koordinatörün önerdiği 67,8443/20,6594 de geçiyor ama göl kenarına
-//    SIFIR mesafede duruyor; 0,002 sadeleştirme toleransının bir kıpırtısı
-//    onu geri içeri alabilir. Bu yüzden payı olan koordinat seçildi.
+// ⚠️ Koordinatörün önerdiği 67,8443/20,6594 de geçiyor ama ham göl kenarına
+//    yalnız **36 m** paylı (ölçüm koordinatörün, doğrulandı); seçilen
+//    67,8693/20,6737 ise **158 m** paylı. 0,002 kara toleransının bir
+//    kıpırtısı 36 m'yi geri içeri alabilir, o yüzden paylı olan seçildi.
+//    📌 Benim ilk ifadem "sıfır mesafede" idi ve fazla sertti — gerçek 36 m.
+//       Karar aynı kalıyor, gerekçenin rakamı düzeltildi.
 { ad:"Jukkasjärvi", tur:"sehir", lat:67.8693, lon:20.6737, g:0, k:0, d:[],
   s:[{f:"1281-01-01",t:"1923-10-29",d:"isvec"}] },
 
@@ -136,21 +139,33 @@ window.YERLESIMLER_EK8 = [
 { ad:"Sodankylä", tur:"sehir", lat:67.4167, lon:26.5833, g:0, k:0, d:[],
   s:[{f:"1281-01-01",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-12-06",d:"rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}] },
 
-// 🔴 GÖL DÜZELTMESİ — VE BU KAYIT "TEMİZ" RAPOR EDİLMİŞTİ.
+// GÖL DÜZELTMESİ — nokta suyun üstündeydi, taşındı.
 //    İlk yazılan 68,9058/27,0289 **Inarijärvi'nin İÇİNDE** (NE 10m poligonu
-//    doğrulandı) ama yalnız 20 METRE içeride. `denetle.py` gölleri
-//    `simplify(0.01)` ≈ 1,1 km ile sadeleştirdiği için bu noktayı KARADA
-//    görüyor; motor sadeleştirmiyor ve peteği SIFIRLIYOR.
-// 🔴 ÖLÇÜLDÜ, ve iki ölçüt AYRIŞIYOR:
-//        MOTOR    (sadeleştirmesiz göl) → 🔴 GÖL İÇİNDE
-//        DENETLE  (simplify 0.01)       → ✓ karada
-//    ⇒ Denetim TEMİZ derken petek %0,0 çıkardı. `PARTİ 19 §12`nin dersinin
-//      ÜÇÜNCÜ hâli: önce eksik maske katmanı, sonra eksik kutu, şimdi
-//      **fazla sadeleştirme.** Üçü de aynı aile — denetimin sorduğu soru
-//      motorun sorduğu soru değil.
-//    📌 `denetle.py`ye önerim (dosya benim değil): göl sadeleştirmesi
-//      motorunkiyle aynı olsun ya da hiç olmasın. 1,1 km'lik tolerans,
-//      aradığı hatanın kendisinden büyük.
+//    doğrulandı) ama yalnız ~20 metre içeride.
+//
+// 🔴 BU YORUMUN İLK HÂLİ YANLIŞ BİR MEKANİZMA ANLATIYORDU — düzeltiliyor.
+//    Şöyle yazmıştım: *"denetle.py gölleri simplify(0.01) ile sadeleştiriyor,
+//    MOTOR SADELEŞTİRMİYOR ve peteği SIFIRLIYOR."* **İkinci yarısı yanlış.**
+//    Koordinatör ölçtü, ben de doğruladım: `uret_petek.py:317` de
+//    `simplify(0.01, preserve_topology=True)` uyguluyor — motor ile denetim
+//    **AYNI toleransı** kullanıyor. Yanılmamın sebebi: kodun 255-310
+//    arasını okuyup durdum ve 317'yi görmeden hüküm verdim.
+//
+// ✅ ÖLÇÜLMÜŞ GERÇEK — ayrışma motor↔denetim arasında DEĞİL, ham göl ile
+//    sadeleştirilmiş göl arasındaki ince şeritte:
+//        ham göl (sadeleştirmesiz)  → 🔴 GÖLDE
+//        motor   (simplify 0.01)    → ✓ karada
+//        denetle (simplify 0.01)    → ✓ karada
+//    ⇒ Motor bu noktayı KARADA görüyordu; **peteği sıfırlanmazdı.**
+//      Taşımak yine de doğru (nokta gerçekten suyun üstündeydi), ama
+//      gerekçesi "motor sıfırlıyor" değil "kayıt su üstünde".
+//
+// 📌 Jukkasjärvi bundan AYRI bir vakadır ve karıştırılmamalı: o nokta
+//    **her iki ölçütte de** gölün içindeydi, yani motor da onu suda
+//    görüyordu — peteği %0,0 çıkan oydu.
+// 📌 Koordinatör bu ince şerit için `denetle.py`ye "SINIRDA" uyarısı ekledi
+//    (ihlal saymıyor, yalnız bağırıyor) ve yazıldığı gün Eğirdir ile
+//    Västerås'ı yakaladı.
 { ad:"İnari", tur:"sehir", lat:68.9257, lon:27.0337, g:0, k:0, d:[],
   s:[{f:"1281-01-01",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-12-06",d:"rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}] },
 

@@ -1140,6 +1140,26 @@ def konum_denetimi(Y):
             g = g.intersection(bolge)
             if not g.is_empty:
                 gs.append(g)
+        # 🔴 TARİHÎ GÖLLER — motor bunları okuyor (uret_petek.py:314), denetim
+        # OKUMUYORDU. PETEK/NOKTA maskeyi satır satır yeniden kurunca çıktı.
+        # Eksik olan: `data/goller.js` → tarihî Aral, **80.522 km²**.
+        # Natural Earth Aral'ı kuruma SONRASI üç artık parça olarak taşıyor;
+        # 1281-1923 boyunca tek göldü. Motor farkı kapatıyor, denetim
+        # kapatmıyordu ⇒ tarihî Aral'a konan bir nokta denetimden TEMİZ geçer,
+        # motorda peteği SIFIRLANIRDI.
+        # 📌 Bu, aynı ailenin ALTINCI hâli (PETEK/NOKTA'nın sayımı): eksik dosya
+        # kümesi · eksik maske katmanı · eksik kutu · eskimiş bağlılık listesi ·
+        # fazla sadeleştirme · **eksik göl katmanı**. Hepsi tek cümle:
+        # *denetim, motorun sorduğu soruyu değil kendi sorduğu soruyu ölçüyor.*
+        try:
+            sys.path.insert(0, os.path.join(KOK, "arac"))
+            import girdi as _girdi
+            for _eg in _girdi.oku_goller(sessiz=True):
+                _g = shape(_eg["geometry"]).buffer(0).intersection(bolge)
+                if not _g.is_empty:
+                    gs.append(_g)
+        except Exception as _e:
+            print("   ⚠️ tarihî göller okunamadı (%s) — maske motordan EKSİK" % _e)
         if gs:
             # ⚠️ SADELEŞTİRME MOTORLA AYNI OLMAK ZORUNDA (uret_petek.py:317).
             # 6 Ağustos'ta NOKTA EKLEME "motor sadeleştirmiyor, denetim
