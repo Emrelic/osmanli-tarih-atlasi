@@ -121,7 +121,14 @@ BEKLENEN_YERLESIM = 968
 # yilindan oncesini bos birakir -- Sibirya deseni, PARTI 20 ile ayni.
 # 🟢 VE PARTI BUNU ONCEDEN, DOSYA BASINA YAZDI: "+10, 102 -> 112".
 #    Olculen: TAM 112. Ikinci kez tutan tavan tahmini.
-BEKLENEN_SAHIPSIZ = 112
+# 112 -> 114: `_ek12` (Izlanda + Gronland). Artis +2 ve IKISI DE
+# kasitli: Dogu Gronland ve Kuzeydogu Gronland. Gronland 1281-1923
+# boyunca Danimarka"nin NOMINAL iddiasi altindaydi ama dogu
+# kiyisinda FIILI IDARE YOKTU (ilk kalici yerlesim 1894, Ammassalik).
+# Bos birakmak dogru; doldurmak "hayalet devlet" sinifi uretirdi.
+# ⚠️ Reykjavik ve Akureyri SAHIPLI (norvec -> danimarka -> izlanda),
+#   yani artis adanin kendisinden DEGIL, Gronland"dan geliyor.
+BEKLENEN_SAHIPSIZ = 114
 # 427 -> 432: Kirmanşah 1590-1603 (+2), Tarki tâbiiyeti (+2, mevcut günlere
 # oturdu), Kaheti tâbiiyeti (+2), Şirvan ara şehirleri (+0, mevcut günler),
 # Azak'ın 1637-1642 Kazak işgali (+2), Şehrizor 1554-01-01 -> 1554-08-22 (+0).

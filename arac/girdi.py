@@ -355,6 +355,21 @@ GIRDI_DOSYALARI = [
     # OLCULDU (baglamadan once): renksiz 0 · dizinsiz 0 · sahipsiz 0 ·
     #   d:/v: donemi 0 ⇒ Degismez 1 ve 2 borcu YOK.
     "yerlesimler_ek11.js",
+    # ── SIBIR + IZLANDA · 7 Agustos 2026 ────────────────────────────
+    # ek10 Tumen (Cimgi-Tura) · Tobolsk (Isker) · Tara · Baraba bozkiri
+    # ek12 Reykjavik · Akureyri · Dogu Gronland · Kuzeydogu Gronland
+    # PARTI 19dan beri bekliyorlardi; engelleri RENK ve KUNYE ikilisiydi.
+    #   RENK 2   `sibir-hanligi` + `izlanda` renklerini yazdi
+    #   koordinator  ayni iki kunyeyi devletler.js"e yazdi (306 -> 308)
+    # 📌 Parti "renk bekliyor" diyordu; olculdu, KUNYE de yoktu.
+    #   Bugun ucuncu kez ayni desen: engel cogu zaman RENK+KUNYE ikilisi.
+    # ⚠️ _ek12"nin IKI noktasi KASTEN SAHIPSIZ (Dogu ve Kuzeydogu
+    #   Gronland) -- BEKLENEN_SAHIPSIZ 112 -> 114 bu yuzden. Gronland
+    #   1281-1923 boyunca Danimarka"nin NOMINAL iddiasi altindaydi ama
+    #   dogu kiyisinda fiili idare yoktu; bos birakmak DOGRU.
+    "yerlesimler_ek10.js",
+    "yerlesimler_ek12.js",
+
 
 
 

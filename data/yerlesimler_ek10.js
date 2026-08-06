@@ -76,9 +76,16 @@ window.YERLESIMLER_EK10 = [
 
 // İrtiş yukarısı. TDV `kucum-han`: "İlk olarak İrtiş'in yukarısında, yani
 // Küçüm'e daha yakın bir yerde Tara şehrini kurdular" (1594).
-{ ad:"Tara", tur:"kale", lat:56.8980, lon:74.3720, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1430-01-01",d:"altinorda"},{f:"1430-01-01",t:"1598-08-20",d:"sibir-hanligi"},{f:"1598-08-20",t:"1923-10-29",d:"rusya"}] },
-
+// 🔴 `Tara` BU DOSYADAN CIKARILDI (7 Agustos 2026, koordinator).
+//    Ayni ad `_ek18`de de vardi (0,4 km) ve girdi.py'nin ad benzersizlik
+//    kontrolu baglamayi DURDURDU -- sessiz veri kaybi olmadi.
+//    _ek18'inki KALDI: Tara 1594'te Rus kalesi olarak KURULDU; buradaki
+//    kayit ona 1281'den baslayan 313 yillik bir gecmis veriyordu.
+//    Ayrica _ek10'un 1598-08-20'si Kucum Han'in son yenilgisi, yani
+//    HANLIGIN sonu -- kalenin kurulusu degil (§3.5.1: devletin yikilisi
+//    o yerin fethi DEGILDIR).
+//    ⚠️ Sibir Hanligi zinciri Tumen · Tobolsk · Baraba bozkiri'nda
+//      duruyor; kaybolan bilgi YOK.
 // TDV `kucum-han`: "17 Mart 1595'te Baraba çölüne asker göndererek Küçüm'e
 // tâbi o bölgedeki toprakları da işgal ettiler."
 // ⚠️ 1595-03-17 GÜN olarak elimde ama KULLANILMADI: o gün Baraba'nın işgali,
