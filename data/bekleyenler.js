@@ -9,28 +9,36 @@ window.BEKLEYENLER = {
   "bekleyen": {
    "baslik": [
     "#",
-    "iş",
-    "niçin sen",
-    "süre"
+    "oturum",
+    "rol",
+    "model",
+    "dosyaları",
+    "ilk iş"
    ],
    "satir": [
     [
-     "✅ ~~B9~~",
-     "CEVAP: A — kıyı 220 m korunuyor. Ondalık kısaltma YAPILMADI; zaman penceresi ölçüldü ve çok daha fazlasını kazandırıyor (9,49→0,20 MB)",
-     "—",
-     "✅"
+     "1",
+     "RENK 2 (açık)",
+     "YAPIMCI",
+     "Opus",
+     "arac/renkler.py",
+     "üç renk — oturumlar/RENK-2-GOREV.md"
     ],
     [
-     "B8",
-     "🟡 KARAR — ama korkulan felaket OLMADI, sayılar bugün yeniden ölçüldü. 2 Ağustos'ta \"36 MB, kutu açılınca ~100 MB olacak, mobilde çökebilir\" yazmıştım. Kutu AÇILDI (L kutusu, r771), üstüne 90 nokta eklendi — ve site 44,63 MB (donemler.js 22,26 + devletler_harita.js 14,52 + altlik.js 5,31 + petek_govde.js 3,16). Yani ~100 MB tahmini iki kattan fazla yanlış çıktı; melez sadeleştirme farkı yuttu. ⇒ Soru duruyor ama acil değil: (a) böl (b) daha da sıkıştır (c) 44,63 MB'a razı ol. Mobil ölçümü yok — kararın önündeki tek gerçek boşluk bu",
-     "ürünün senin",
-     "2 dk"
+     "2",
+     "VERİ İÇERİK 🆕",
+     "YAPIMCI",
+     "Sonnet",
+     "data/merak.js · data/ekokuma.js",
+     "parti-0006nın 11 maddesi — oturumlar/VERI-ICERIK-GOREV.md"
     ],
     [
-     "✅ ~~B5~~",
-     "RENK oturumu AÇILDI (Opus 5) — 15 Avrupa rengi teslim edildi, Asya sürüyor",
-     "—",
-     "✅"
+     "3",
+     "VERİ KRONOLOJİ 3 🆕",
+     "YAPIMCI",
+     "Sonnet",
+     "yeni data/olaylar_ek8.js",
+     "2t borcu: 10 madde — oturumlar/VERI-KRONOLOJI-3-GOREV.md"
     ]
    ]
   },
@@ -54,20 +62,61 @@ window.BEKLEYENLER = {
   },
   "istege_bagli": {
    "baslik": [
-    "oturum",
-    "model",
-    "niçin bekliyor"
+    "#",
+    "iş",
+    "keskinlik",
+    "hedef",
+    "fayda / niçin bu sırada"
    ],
    "satir": [
     [
-     "VERİ KRONOLOJİ 3",
-     "Sonnet",
-     "Cem Sultan 1495 · Sapienza 1499 · Altın Orda 1502 · Murad Bey 1503 · Şahkulu — beş eksik madde; ayrıca 2s borcu 126/114"
+     "1",
+     "Kutuyu güncelle — bugün çözülen 4 madde hâlâ 🔵 açık (p4/H-0009 benek · p5/H-0005 İran sahibi · p4/H-0010 Orta Asya · p4/H-0013 Sinj)",
+     "%0",
+     "%100",
+     "🔓 DARBOĞAZ — açık görünen madde yarın YENİDEN çözülür. Emek: dakikalar"
     ],
     [
-     "VERİ KİMLİK 4",
-     "Sonnet",
-     "45 kimlik / 359 pencere dizinde karşılıksız — %96'sı yerlesimler_asya.js merge borcu"
+     "2",
+     "Üretim koşusu + r834",
+     "%0",
+     "%100",
+     "🔓 17 nokta haritaya girer, yayın kapısı KIRMIZIDAN çıkar. Emek: 72 dk (çoğu bekleme)"
+    ],
+    [
+     "3",
+     "RENK 2: üç renk (sibir-hanligi · izlanda · ryazan)",
+     "%0",
+     "%100",
+     "🔓 ek10+ek11+ek12 (12 nokta) + 3 kapı muafiyeti düşer. Üç satır"
+    ],
+    [
+     "4",
+     "parti-0006 içerik kümesi — 11 madde: yeniçeri · vassallık · kardeş katli · siyasî evlilik · kadınlar saltanatı · merak/ek okuma",
+     "%0",
+     "%90",
+     "Kullanıcının KENDİ sözü, tek partide 11 madde — en büyük dokunulmamış küme"
+    ],
+    [
+     "5",
+     "2t borcu 59/49",
+     "%83",
+     "%100",
+     "10 madde; tavanın üstünde duran tek değişmez"
+    ],
+    [
+     "6",
+     "6 Ağustos hasadı — Lur atabeglikleri · iran künyesi · Muzafferî · astrahan-hanligi",
+     "%0",
+     "%70",
+     "Ölçülmüş, sahipsiz; şikâyet ÜRETMİYOR ⇒ acil değil"
+    ],
+    [
+     "7",
+     "41 dizinsiz kimlik / 246 pencere",
+     "%0",
+     "%80",
+     "%96'sı asya merge borcu — uzak coğrafya, hedef zaten alçak"
     ]
    ]
   },
@@ -122,11 +171,11 @@ window.BEKLEYENLER = {
   }
  },
  "ozet": {
-  "bekleyen_acik": 1,
+  "bekleyen_acik": 3,
   "gorsel_acik": 0,
   "karar_acik": 1,
-  "istege_bagli": 2,
-  "toplam_acik": 2
+  "istege_bagli": 7,
+  "toplam_acik": 4
  }
 };
-window.URETIM_IZI = {"girdi":{"BEKLEYENLER.md":"32cb077274b1e03dcd275e908dd572d387cfcee91b8184769db9461e86bbef3c"},"motor":{"uret_bekleyenler.py":"a232d468fe9d5490a0842969a90702e976aca4d78142126925eaf68f4243fa78"}};
+window.URETIM_IZI = {"girdi":{"BEKLEYENLER.md":"776d2e057a797737379045ba5966ec2c24d42017e17abab905ed6498226a03b3"},"motor":{"uret_bekleyenler.py":"4288f50fe22c59aa8d40890c958428cb0a08f8c1ee1f125c4e26dda07dd05450"}};

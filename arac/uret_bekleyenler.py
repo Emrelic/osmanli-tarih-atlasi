@@ -53,6 +53,13 @@ BOLUMLER = [
     # Acilmasi ONERILEN ama HENUZ ACILMAMIS oturumlar. Kullaniciyi
     # bagliyor (oturum acmayi koordinator yapamaz) ama ACIL degil.
     ("SIRADAKİ DALGA", "istege_bagli"),
+    # 🔴 EKİP ÇİZELGESİ = kullanıcıdan OTURUM AÇMASI beklenen tablo.
+    # "Oturum açmayı koordinatör yapamaz" (ORGANIZASYON) ⇒ bu satırlar
+    # gerçekten SENDEN BEKLENEN sınıfındadır, isteğe bağlı değil.
+    # ⚠️ Başlık her gün tarih taşıyor ("7 AĞUSTOS EKİP ÇİZELGESİ"); eşleşme
+    #    "EKİP ÇİZELGESİ" alt dizgesiyle yapılıyor ki tarih değişince kopmasın.
+    #    Dün tam bu yüzden iki kez durduk: başlık değişti, betik tanımadı.
+    ("EKİP ÇİZELGESİ", "bekleyen"),
     # "Bugun verdigin iki karar" gibi ALT basliklar: karar zaten
     # verilmis, uygulamasi bende. Kullanicidan bir sey beklenmiyor.
     ("VERDİĞİN", "kapanan"),
