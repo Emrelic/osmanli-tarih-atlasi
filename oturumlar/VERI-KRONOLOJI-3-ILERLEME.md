@@ -1,6 +1,56 @@
 # VERİ KRONOLOJİ 3 — ilerleme
 
-> 7 Ağustos 2026 · Sonnet · Değişmez 2t borcu: 59 → 51 (tavan 49)
+> 7 Ağustos 2026 · Sonnet · Değişmez 2t borcu: 59 → **47 ✓** (tavan 49) — HEDEF KARŞILANDI
+
+## 🟢 GÜNCELLEME — ikinci tur, 4 düzeltme daha (toplam 12)
+
+İlk turdan sonra (§① altında, 59→51) dört madde daha (A) çıktı ve düzeltildi:
+
+| Tarih | Madde | Dosya | Gerekçe |
+|---|---|---|---|
+| 1804-02-14 | Birinci Sırp İsyanı'nın başlaması | olaylar_ek5.js:313 | Maddenin kendi metni: "Sırp kuvvetleri **1806'da** Belgrad'ı ele geçirdi" — gerçek devir 2 yıl sonra, bu madde yalnız direnişin BAŞLANGICI |
+| 1606-11-11 | Zitvatorok Antlaşması | olaylar.js:84 | Maddenin kendi metni: **"Toprak kaybı yok denecek kadar azdı"** — antlaşma diplomatik statü içindi, toprak değil |
+| 1883-06-08 | Mersâ Sözleşmesi — Tunus himayesinin tamamlanması | olaylar_ek9.js:339 | Dosyadaki L) yorumu zaten açıklıyor: gerçek devir 1881-05-12 Bardo Antlaşması'nda (ayrı, zaten eşleşen madde), 1883 yalnız idarî tamamlama |
+| 1862-02-21 | Birleşik prensliklerin Romanya adını alması | olaylar_ek5.js:354 | Bükreş kaydı (yerlesimler.js:346) `v:` Eflak Voyvodalığı'nı 1462→1878 KESİNTİSİZ gösteriyor — 1862 yalnız isim değişikliği, harita modeli yalnız 1878 tam bağımsızlığı işaretliyor. Maddenin kendi metni de "hukuken... korusa da... FİİLEN kaybetti" diyor |
+
+**Doğrulama:** `py arac/denetle.py` (grep'siz, tam çıktı) →
+```
+Değişmez 1  ✓ 1800 yerleşim, 114 sahipsiz (beklenen 114)
+Değişmez 1b ✓ 0 boşluk
+Değişmez 2  ✓ 497 kırılma, 0 açık        ← KIRILMADI
+Değişmez 2s ✓ 702 YABANCI, 121 AÇIK (tavan 121)
+Değişmez 2t ✓ kırılmasız madde: 47 (tavan 49)   ← HEDEF KARŞILANDI
+konum       ✓ 0
+```
+Toplam **12 madde düzeltildi**, hepsi veri veya maddenin kendi metniyle
+doğrulandı. Kalan `SONUÇ: İHLAL VAR` yalnız "Ek denetim ✗ mükerrer madde: 4
+şüpheli çift" yüzünden — bu benim kapsamım dışı, önceden var olan ayrı bir
+denetim.
+
+## Yeni bulgular (ikinci tur)
+
+- **Tunus 1569/1573 gidiş-gelişi hiç modellenmemiş.** Tunus kaydı
+  (yerlesimler.js:726) 1535-1574 arasını tek parça "hafsi" gösteriyor;
+  Uluç Ali'nin 1569 fethi ve Don Juan'ın 1573 geri alışı ARADA hiç yok.
+  İkisi de gerçek (B) — etikete dokunmadım.
+- **Tebriz (1724) ve Revan (1736) da CLAUDE.md §3.5'teki bilinen "İran
+  1501-1736" boşluğuna giriyor.** Tebriz kaydı (yerlesimler.js:500) safevi
+  1501→1736-03-08 kesintisiz; Osmanlı'nın 1724-1730 batı İran işgali hiç
+  modellenmemiş. Hemedan (zaten CLAUDE.md'de biliniyordu) + Tebriz + Revan
+  = aynı kökten 3 madde.
+- **`isg:` kategori eksiği bir kez daha doğrulandı:** Kahire kaydı
+  (yerlesimler.js:675) `isg:[{f:"1798-07-01",...,d:"fransa"}]` — madde
+  (1798-07-21 Piramitler Muharebesi) 20 gün içinde ama denetim isg:'yi
+  taramıyor. Böğürdelen'le birlikte 2. örnek.
+- **İbrim** zaten CLAUDE.md §3.5'te belgelenmiş hayalet-tarih vakası
+  (1517 vs TDV'nin 1573'ü) — ayrıca doğrulamaya gerek yok.
+- **Azak 1700 ve Kars/Ardahan-Gümrü 1920:** ikisi de "kuşatma/fiilî devir
+  önce, antlaşma sonra" örüntüsü (Azak fiilen 1696'da alındı, 1700
+  antlaşması yalnız tescil etti; Kars 1918'de zaten geri alındı, olası
+  1919-20 Ermeni ara dönemi hiç modellenmemiş). Etikete dokunmadım, (B).
+
+---
+
 
 ## Taban (açılışta ölçülen)
 ```
