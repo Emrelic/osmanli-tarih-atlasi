@@ -116,6 +116,22 @@ RENK 2 · ARAYÜZ 5 · ÇAPRAZ İRAN · PETEK/NOKTA · ÇAPRAZ AKDENİZ   AÇIK
 | **VERİ KRONOLOJİ 3** | Sonnet | Cem Sultan 1495 · Sapienza 1499 · Altın Orda 1502 · Murad Bey 1503 · Şahkulu — beş eksik madde; ayrıca `2s` borcu 126/114 |
 | **VERİ KİMLİK 4** | Sonnet | **45 kimlik / 359 pencere** dizinde karşılıksız — %96'sı `yerlesimler_asya.js` merge borcu |
 
+## 🟡 6 AĞUSTOS HASADI — sahipsiz kalemler, hepsi ÖLÇÜLMÜŞ
+
+Bunlar **şikâyet üretmiyor** (yani acil değil) ama kaybolmasın diye yazılı.
+Her biri ölçüldü; sayılar devralınmadı.
+
+| kalem | ölçüm | maliyet |
+|---|---|---|
+| **Lur atabeglikleri** — `Luristan` noktası `iran 1335→1508` battaniyesi (172 yıl). TDV `luristan`: *"Lur-ı Büzürg **(1155-1424)**"* · *"Lur-ı Kûçek **(1184-1597)**"* · *"Safevîler dönemine kadar varlıklarını korudular"*. **413 yıl yaşamış, tam tarihli bir atabeglik haritada `iran` pembesi.** | ölçüldü: `lur-i-buzurg` · `lur-i-kucek` · `luristan` · `hursidi` · `musasa` — **beşi de ne dizinde ne renkte** | 2 künye + 2 renk |
+| **`iran`ın dizin künyesi YOK** — renk var (`#cc1664`), künye yok. `§1.5`in *"dizinsiz harita kimliği"* sınıfı ve en çok kullanılan kimliklerden biri | ölçüldü: `devletler.js`de `id:"iran"` **yok** | 1 künye |
+| **Muzafferî kohortu** (30 nokta) — ÇAPRAZ İRAN ölçüp **park etti**: 1335-1357 arası Fars **İncû**, Kirman **Kutluğhanlı**; ayrıca 12 nokta (Hûzistan 8 + Mekran/Sîstan 4) Muzafferî **değil** | `muzafferi` · `incu` · `kutlughanli` — üçü de yok | 3 künye + 3 renk |
+| **Hûzistan 1335-1393 sahibi** | 🔴 **`bulunamadı`** — `huzistan` ve `luristan` maddeleri canlı ama pencereyi kapsamıyor. Uydurulmadı | — |
+| **`2s` üçüncü sınıf** — ölçüt bugün yalnız `MADDELİ`/`AÇIK` diyebiliyor; gereken **`KAPSAM DIŞI`** (*"bu kırılmanın maddesi bu kronolojide olamaz"*) | PETEK/NOKTA adlandırdı, ÇAPRAZ İRAN İran'da da doğruladı | tasarım işi |
+| **Orta Asya + Sibirya kronoloji borcu** — `2s` tavanının büyük kısmı | Taşkent 1865 · Çimkent 1864 · Hokand 1876 · Nerçinsk 1689 · Aygun 1858 · Pekin 1860 · Portsmouth 1905 + Batı Sibirya kale hattı | kronoloji oturumu |
+| **`ryazan`** — 1521'e kadar ayrı knezlik; PETEK/NOKTA uydurmadı, `Tula` deseni ödünç aldı ve işaretledi | ölçüldü: künye ve renk yok | 1 künye + 1 renk |
+| **Ölü slug ertelemesi taraması** — bir künyede *"TDV'de madde yok"* yazan her erteleme `§4`ün tuzağına düşmüş olabilir | gerçekleşmiş vaka: `devletler.js` `uman` künyesi (`hurmuz` ölü, `hurmuz--iran` canlı) | tarama |
+
 ## 🔴 SAHİPSİZ İŞ — ÇAPRAZ İRAN buldu, kimseye atanmamış
 
 `arac/renkler.py:180` kendi kendine bir iş yazmış ama **sahibini yazmamış**:
