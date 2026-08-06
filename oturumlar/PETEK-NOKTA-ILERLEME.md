@@ -4115,3 +4115,82 @@ alternatif  Don-Volga cebi — küçük ama tamamen engelsiz
 **ölçülmüş bir liste üç günde eskiyor.** Ama bu sefer nokta yazmadan
 önce durdum — çünkü `Yelets`i yazsaydım eşik altı bir kazanç için
 `2s` borcu doğuracaktım.
+
+---
+---
+
+# PARTİ 26 — GOBİ'NİN BATISI (Dış + İç Moğolistan)
+### `data/yerlesimler_ek21.js` · 6 nokta · 6 Ağustos 2026
+
+**Durum:** 🟢 HAZIR — engel yok. ⚠️ **Kuyruğa bağlanmalı** (④).
+
+## ① 🟢 BÖLMEYE GEREK KALMADI — `mogolistan` GELMİŞ
+Koordinatör *"A: İç Moğolistan yarısını bugün yaz, Dış yarım `mogolistan`
+gelince `_ek19`e eklenir"* dedi. Yazmadan önce ölçtüm:
+```
+mogolistan   künye 1911-12-29 → 1923-10-29   ·   renk VAR ✓
+```
+⇒ RENK 2 arada yazmış. **Gobi tek partide kapanıyor**, ve `_ek19` de artık
+bağlanabilir — `mogolistan` onun da tek engeliydi.
+📌 Bugün **dördüncü** kez bir gerekçe/engel ölçüm anında değişti. Alışkanlık
+oturdu: **yazmadan önce ölç, sevkten sonra bile.**
+
+## ② ÖLÇÜLEN DELİK ve RENK HATASI
+```
+40-47°K / 92-108°D   1.006.148 km²   TOPLAM NOKTA: 2
+   503.074 km²/nokta · ort 255 km · EN UZAK 474 km
+1500-06-15  ming-hanedani %51,2 · sahipsiz %24,5 · kuzey-yuan %24,4
+```
+Ming'i taşıyan dört nokta (`Zhangye` · `Yinchuan` · `Ciyayuguan` ·
+`Baotou`) **seddin içinde**, 412-474 km güneyde. Dördü de doğru;
+**kusur noktasızlıkta.**
+
+## ③ İKİ ZİNCİR — 55 yıllık fark KASITLI
+```
+A DIŞ MOĞOLİSTAN   … kuzey-yuan → qing 1691-05-30 → mogolistan …
+B İÇ MOĞOLİSTAN    … kuzey-yuan → qing 1636-05-15 → cin-cumhuriyeti
+```
+İç Moğolistan 1636'da (Çahar'ın teslimi), Dış Moğolistan 1691'de
+(Dolonnor) tâbi oldu. Tek güne indirseydim biri 55 yıl yanlış olurdu.
+🟢 **Ve hayalet aşımı SIFIR** — koordinatörün `kuzey-yuan` düzeltmesi
+(1635 → 1691-05-30) sayesinde iki gün de künyelerin içinde kaldı.
+⚠️ B kümesine `mogolistan` YAZILMADI: İç Moğolistan 1911'de bağımsızlık
+ilân etmedi. A'nın kuyruğunu kopyalasaydım üç noktayı 12 yıl yanlış
+devlette gösterirdim.
+
+## ④ KUYRUK — ölçüldü
+```
+Zhangye · Yinchuan · Baotou · Ciyayuguan · Karakurum · Hâmi
+     → ALTISI DA `yerlesimler_asya.js` = KUYRUK
+```
+Bu partinin **hiçbir komşusu çekirdekte değil.** `ek19` ölçütü burada daha
+net. ⇒ Kuyruğa: `2s` **+0**. Çekirdeğe: **+5**.
+
+## ⑤ 🟢 ÖBÜR UÇ — kuralın İLK ÖNLEYİCİ uygulaması
+Bugün üç kez kendi taşmamı buldum ve kural çıkardım (*"orta dikmenin öbür
+tarafı aynı partide ölçülür"*). Burada **tasarımı belirledi:**
+```
+yalnız Dış yazsam → İç'e taşardı
+yalnız İç yazsam  → Dış'a taşardı
+⇒ altı nokta sınırın İKİ TARAFINA BİRDEN kondu; orta dikmeler gerçek
+  sınırın üstüne düşüyor ⇒ ÖBÜR UÇ TAŞMASI YOK
+```
+📌 İlk üç vakada kural **onarıcıydı**; burada **önleyici.**
+
+## ⑥ DÖRT TAHMİN
+```
+nokta +6 · yeni renk 0 · yeni künye 0 · madde borcu 0 · Değişmez 3 0
+🔴 Değişmez 1 tavanı +0   (6/6 kayıt 1281'den kesintisiz)
+🔴 Değişmez 2s       +0   kuyruğa · +5 çekirdeğe
+🔴 ÖBÜR UÇ           YOK  (⑤)
+```
+
+## ⑦ KABUL ÖLÇÜTÜ
+```
+① 6/6 ✓ ② alan kütüğü temiz ✓ ③ renk 5/5 VAR ✓ ④ ad çakışma 6/6 ✓
+⑤ dönem temiz ✓  ⑤b hayalet TEMİZ — AŞIM SIFIR ✓
+⑥ iç boşluk 0 ✓ ⇒ tavan +0   ⑦ madde borcu 0 ✓
++ maske 6/6 ✓  + kutu 6/6 ✓  + 3 km 157,16 km (Ömnögovi ↔ Alaşa kuzeyi) ✓
+```
+⚠️ Üretim koşarken yazıldı; koordinatör *"anlık görüntü alındı, girdi
+SERBEST"* dedi. `arac/girdi.py`ye dokunulmadı.
