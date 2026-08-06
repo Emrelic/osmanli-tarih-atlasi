@@ -174,13 +174,13 @@ sorunuydu, hiçbiri Rusya'ya komşu değil.
 ## ④ ÖLÇÜM — bitiş ölçütüne karşı
 
 ```
-BOYALAR            230 → 231   (+estonya; sibir-hanligi ve izlanda künye bekliyor)
+BOYALAR            230 → 232   (+estonya +hokand; sibir-hanligi ve izlanda künye bekliyor)
                    ⚠️ brifing "233 → 236" diyordu — taban ölçümü yanlıştı, bkz. ①
 renk_olc.py        görünmez 0 · çakışma 0 · aynı-hex 0        ✓
                    (çakışma 1 → 0: meiji-japonya kapatıldı)
 renk_cikti.py      çizili haritada ΔE<12 değen çift 0         ✓
                    ① meiji-japonya eski renkle çizili — koşu bekliyor
---dogrula          2 öneri · 0 fark — yazılan = önerilen      ✓
+--dogrula          3 öneri · 0 fark — yazılan = önerilen      ✓
 ```
 
 **AÇIK KALAN, benim dosyam değil:** `afsar` ↔ `kacar` ikisi de
@@ -192,7 +192,102 @@ pencerede ayırt edilemezler (ΔE 0). `devletler.js` işi.
 
 ---
 
-## ⑤ Artefaktlar
+## ⑤ `hokand  #b4603f` — YAZILDI (koordinatör kalemi ①)
+
+```
+rusya 23,4 | safevi 23,7 | qing-hanedani 23,9 | nogay 23,9 |
+kazak-hanligi 26,5 | iran 30,1 | kacar 32,5 | hive 33,4 | buhara 39,9
+altlıktan 21,0 · C* 23,1 = paletin %54'ü
+```
+
+⚠️ Veride **0 pencere** — parti inmedi, satır bugün hiçbir yeri boyamıyor.
+Bu yüzden `renk_olc.komsuluk()` ölçemez (kimlik canlı veride yok ⇒ sıfır
+komşu ⇒ araç "kısıtsız" sanır). Engel kümesi elle kuruldu.
+
+### 🔴 VE ZAMAN SÜZGECİ ŞARTMIŞ — kendi hatamı ölçtüm
+İlk turda 20 Orta Asya kimliğini **zaman sormadan** engel saydım. Sonuç:
+pay 13,8'de tıkandı, yalnız 3 ton ailesi sağ kaldı. Künyelerden örtüşme
+ölçülünce **beşi düştü** — `timurlu` 1370-1507 · `mogulistan` …1680 ·
+`yarkent-hanligi` 1514-1705 · `altinorda` · `kazan` …1552; hiçbiri
+Hokand'ın 1710'unu görmüyor. Pay **13,8 → 23,4**, ton ailesi **3 → 9**.
+
+📌 **Fazla temkin de bir ölçüm hatasıdır.** Eşiği gevşetmek kadar,
+gereksiz sıkmak da yanlış cevap verir — ikisi de "ölçtüm" der.
+`renk_olc.py:38` zaten yazıyordu: *"aynı haritada görünüyorlar yetmez."*
+
+### ⚠️ `hokand` künyesi VAR ama BAĞLI DEĞİL
+Koordinatör *"devletler.js: VAR (1710→1876)"* dedi — kayıt gerçekten var
+(id `hokand` · 1710-01-01 → 1876-02-19) **ama `harita:` alanı BOŞ.**
+Ölçtüm: 302 künyenin **239'u dolu, 63'ü boş**; boş olan haritaya
+bağlanmaz. `sibir` ile birebir aynı durum.
+⇒ Parti inmeden önce VERİ DEVLET'in `harita:"hokand"` yazması gerekiyor.
+
+---
+
+## ⑥ SORU ②'nin CEVABI — Gîlân ve Mâzenderan İran bandında olmalı mı?
+
+# **HAYIR.** Ve iki ayrı gerekçeyle — biri ölçüm, biri anlam.
+
+### ⓐ ÖLÇÜM — band ikisini ALMIYOR, zaman süzgeci de kurtarmıyor
+Aile bandı ton 349°±18. Üç senaryo koşuldu (C\* p10-p75 · palet kabuğu ·
+ΔE ≥ 12):
+
+| senaryo | engel kümesi | aday |
+|---|---|---|
+| **A** band içi | 4 aile üyesi + `iran`ın 23 komşusu + Osmanlı = 26 | **0** |
+| **B** band içi | yalnız 14-16. yy sahnesi (15 engel) | **0** |
+| **C** band DIŞI | yalnız 14-16. yy sahnesi (15 engel) | **79** · 1916 uygun çift · pay 17,1 |
+
+**B satırı belirleyici.** `hokand`ı kurtaran hile — engel kümesini çağa
+göre daraltmak — burada **işe yaramıyor.** Aday 26 engelde de 0, 15
+engelde de 0. Demek ki tıkayan engel sayısı değil, **bandın kendisi
+dolu.** `renkler.py:177`nin *"beşinci aile üyesi için uygun aday SIFIR"*
+ölçümü doğruymuş; ben onu bağımsız olarak, iki farklı engel kümesiyle
+teyit ettim.
+
+📌 Yapısal cevap zaten `renkler.py:181`de yazılı: *"gerekirse aile ikiye
+bölünür (safevi+afsar · iran+kacar+zend)."* Bandı zorlamak değil,
+**bölmek** gerekiyor — ama o `zend` geldiğinde verilecek bir karar.
+
+### ⓑ ANLAM — kullanıcının kuralı bu vakaya UYGULANIRSA TERSİNE ÇALIŞIR
+Kuralın doğduğu şikâyet şuydu: harita 1736-03-08'de aynı yaylayı
+`safevi` morundan `iran` kahvesine atlatıyordu. Yani:
+
+> **aynı toprak · ardışık zaman · tek siyasi çizgi** → farklı renk
+> vermek onu **üç ayrı devlet gibi gösteriyordu.**
+
+Karkiya (Gîlân) ve Mar'aşî (Mâzenderan) bunun **üç maddede de tersi**:
+
+```
+aynı toprak DEĞİL    Hazar kıyısı, Elburz'un arkası — yayladan ayrık
+ardışık DEĞİL        Safevî'nin ardılı değil, ÇAĞDAŞI
+tek çizgi DEĞİL      ilhak edilene kadar gerçekten bağımsız hanedanlar
+```
+
+⇒ Onları aile bandına koymak, kuralı uygulamak değil **aynadaki hâlini
+uygulamak** olur: kullanıcının şikâyeti *"bir devlet üç görünüyor"*du;
+bu, *"üç devlet bir görünüyor"* üretirdi. Ve tam da bağımsız oldukları
+pencerede — yani atlasın anlatacak bir şeyi olduğu tek pencerede.
+
+**Kural coğrafyaya değil ARDIŞIKLIĞA bakar.** Ölçüsü "İran'da mı" değil,
+*"bu, aynı çizginin bir sonraki halkası mı"*dır.
+
+### ⓒ TAVSİYE
+Band dışı, kendi ton ailelerinde, pay 17,1 ile rahatça yer var. **Renk
+bu işin darboğazı değil** — ikisinin de `devletler.js`te künyesi yok,
+yani sıra `sibir-hanligi` · `izlanda` ile aynı: **önce künye.**
+Künyeler açıldığında iki rengi ölçmek 10 dakikalık iş.
+
+⚠️ Tarihleri (Karkiya ~1370-1592 · Mar'aşî ~1359-1596) **TDV'den
+doğrulamadım** — senaryo B'de yalnız "14-16. yüzyıl" mertebesinde
+kullandım ve hüküm zaten A'da da B'de de aynı çıkıyor, yani sonuç bu
+tarihlere dayanmıyor. Kesin tarih ÇAPRAZ İRAN'ın / VERİ DEVLET'in işi.
+
+**Uygulanmadı** — sevk "şimdi yapma, cevabını yaz" diyordu.
+
+---
+
+## ⑦ Artefaktlar
 ```
 denetim/oneri-renk2-20260806.txt   --dogrula ile koşulabilir öneri listesi
 arac/renk_olc.py                   BOLGE okuyucusu onarıldı (biçimden bağımsız)
