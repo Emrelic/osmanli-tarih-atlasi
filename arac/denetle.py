@@ -100,7 +100,22 @@ BEKLENEN_YERLESIM = 968
 # "Hepsi kasten sahipsiz olsun" onerisi REDDEDILDI, cunku Rusya'nin kuzeyinde
 # 1600-1923 arasi 3,9 milyon km2'lik bir delik acardi -- Mogolistan'in
 # Arktik'i boyamasinin aynadaki goruntusu.
-BEKLENEN_SAHIPSIZ = 86
+# 86 -> 102: NOKTA EKLEME PARTI 20 (_ek13, 16 nokta) -- Amur asagisi, Ohotsk
+# kiyisi, Sahalin, Orta Sibirya. Artis +16, yani partinin TAMAMI.
+# 16 kaydin 16'si da kasitli_bosluk: tasiyor. Rus/Qing gelisinden once
+# (1630-1875 arasi degisen tarihlerde) bu cografyada bu atlasin modelledigi
+# anlamda devlet YOK -- yukaridaki "anakara bunun disinda" notunun devami.
+# ⚠️ AMA BU PARTIDE TAVAN DEGISIMI ONCEDEN YAZILMAMISTI. Yukaridaki kural
+# ("kapsam buyuten parti, beklenen tavan degisimini ONCEDEN yazsin") PARTI 19'da
+# uygulandi, PARTI 20'de uygulanmadi: dosya basi kutu/renk/Degismez 2'yi
+# onceden olcmus ama Degismez 1'i HIC ANMAMIS.
+# 🔴 Ve koordinator de ayni yeri kacirdi: baglamadan once dosyanin ALTI
+# IDDIASINI dogruladi, PROJENIN DEGISMEZLERINI sormadi. Kirilan tam o ikisi
+# oldu (Degismez 1: 86->102, Degismez 2s: 126->131).
+# ⇒ Kural genisletildi: teslim alinan dosya, kendi iddia listesiyle DEGIL
+#   uc degismezin tamamiyla sinanir. Iddia listesi teslim edenin GORDUGU
+#   yerdir; degismez, GORMEDIGI yer.
+BEKLENEN_SAHIPSIZ = 102
 # 427 -> 432: Kirmanşah 1590-1603 (+2), Tarki tâbiiyeti (+2, mevcut günlere
 # oturdu), Kaheti tâbiiyeti (+2), Şirvan ara şehirleri (+0, mevcut günler),
 # Azak'ın 1637-1642 Kazak işgali (+2), Şehrizor 1554-01-01 -> 1554-08-22 (+0).
@@ -161,7 +176,33 @@ KUYRUK_DOSYALARI = ("yerlesimler_ortaasya2.js", "yerlesimler_avrupa.js",
 #   Agadir kuyruga girmedi cunku noktasi zaten cekirdekteydi (yerlesimler.js)
 #   ve bir noktayi yalniz sayac icin dosya degistirmek olcumu kirletir.
 #   ⇒ Borc: Portekiz Fasi kronolojisi. Yazilinca 121 -> 119 iner.
-BEKLENEN_ACIK_S = 114
+# ═══ 🔴 6 Agustos 2026 — 2s'nin YAPISAL KUSURU OLCULDU ═══════════════════
+# `_ek13` (Sibirya/Amur, 16 nokta) baglanirken olculen 131, tavani +17 asiyor
+# gibi duruyor ama ASIL BULGU SAYI DEGIL: bu olcut TARIH YAKINLIGINA bakiyor,
+# KONU YAKINLIGINA bakmiyor. ek13'un 13 kirilmasindan 6'si "MADDELI" sayildi
+# ve takildiklari maddeler sunlar:
+#     1689-09-06 Nercinsk Antlasmasi  ↔ "Nis ve Vidin'in kaybi"        +18g
+#     1858-05-28 Aygun Antlasmasi     ↔ "Arazi Kanunnamesi"             +9g
+#     1860-11-14 Pekin Antlasmasi     ↔ "Tercuman-i Ahval'in yayini"   +23g
+#     1905-09-05 Portsmouth           ↔ "San'a'nin geri alinmasi"       +4g
+#     1679-01-01 Ayan/Udskoy ostrogu  ↔ "Hafiz Osman'in hat uslubu"     +0g
+#     1634-01-01 Vilyuysk ostrogu     ↔ "Ilk seyhulislam idami"         +7g
+# Altisi da ALAKASIZ. Yani kullanici Vladivostok'un renk degistirdigini
+# Istanbul'da bir gazetenin yayina baslamasi maddesinin altinda gorecek.
+# ⚠️ VE BU TAM OLARAK CLAUDE.md §3'un Degismez 2'yi yazma sebebi:
+#   "degisim, o gune rastgele denk gelen alakasiz bir maddenin altinda belirir
+#    — kullanicinin en cok sikayet ettigi hata bu."
+# ⇒ Olcut, ONLEMEK ICIN YAZILDIGI HATAYI GECIRIYOR. Kusur ek13'te degil,
+#   olcutun kendisinde; ek13 yalnizca GORUNUR KILDI, cunku tarihleri Osmanli
+#   kronolojisinden bambaska bir sahnede (Sibirya) geciyor.
+# 📌 Cozum tasarimi ACIK IS: kirilmanin yer/devlet kimligi ile maddenin
+#   `yer_id:`/`kisiler:`/metni arasinda bir ORTUSME sarti aranmali. Bugun
+#   uygulanmadi cunku 649 kirilmanin tamamini yeniden tartar ve tek oturumda
+#   olculemez. Yazildi ki kaybolmasin.
+# 114 -> 131: _ek13'un getirdigi +5'in HEPSI adiyla belli (asagidaki 7 acik
+# tarihten besi; 1630/1631/1651/1653/1665/1668/1875 kusaginda). Borc:
+# Sibirya'nin Rus fethi kronolojisi — yazilinca 131 -> 124 iner.
+BEKLENEN_ACIK_S = 131
 # Değişmez 2'nin AYNADAKİ HÂLİ: madde var ama kırılma yok. Oturum 14'ün Girit
 # bulgusu — "1830-11-01 Girit'in idaresi Mehmed Ali'ye bırakıldı" maddesi VARDI,
 # beş nokta `d:` kalmıştı. Ölçüldü: 442 toprak/antlaşma maddesinin 67'sinin
@@ -1100,8 +1141,29 @@ def konum_denetimi(Y):
             if not g.is_empty:
                 gs.append(g)
         if gs:
+            # ⚠️ SADELEŞTİRME MOTORLA AYNI OLMAK ZORUNDA (uret_petek.py:317).
+            # 6 Ağustos'ta NOKTA EKLEME "motor sadeleştirmiyor, denetim
+            # sadeleştiriyor" diye bir ayrışma bildirdi; ÖLÇÜLDÜ ve ayrışma
+            # YOKTU — ikisi de simplify(0.01). Buradaki toleransı düşürmek
+            # denetimi motordan KATI yapar: motorun sorunsuz boyadığı noktayı
+            # ihlal ilan eder. Denetimin işi motoru tahmin etmek.
             goller = unary_union(gs).buffer(0).simplify(0.01, preserve_topology=True).buffer(0)
             kara = kara.difference(goller).buffer(0)
+            # 🔴 AMA SINIRDA OLANI DA GÖSTER — hüküm değil, UYARI.
+            # İnari vakası: eski nokta gerçek göl poligonunun 20 m İÇİNDEydi,
+            # sadeleştirilmiş poligonun DIŞINDA. Yani motor da denetim de
+            # "karada" der ve ikisi de haklıdır, ama nokta suyun üstündedir.
+            # Sadeleştirme sonrası maske ile ham maske arasındaki 0,2°²lik
+            # ince şerit tam bu vakaları saklıyor.
+            _ham = unary_union(gs).buffer(0)
+            _sinir = [y["ad"] for y in Y
+                      if _ham.covers(Point(y["lon"], y["lat"]))
+                      and not goller.covers(Point(y["lon"], y["lat"]))]
+            if _sinir:
+                print("   ⚠️ SINIRDA: %d nokta ham göl poligonunun içinde ama "
+                      "sadeleştirilmişin dışında (ihlal DEĞİL, motor da böyle "
+                      "görüyor — ama nokta suyun üstünde): %s"
+                      % (len(_sinir), ", ".join(_sinir[:6])))
     disarida = []
     for y in Y:
         p = Point(y["lon"], y["lat"])

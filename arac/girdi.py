@@ -222,6 +222,18 @@ GIRDI_DOSYALARI = [
     "yerlesimler_ek7.js",
     "yerlesimler_ek8.js",
     "yerlesimler_ek9.js",
+    # ── PARTİ 20 · 6 Ağustos 2026 (NOKTA EKLEME) ────────────────────
+    # ek13 Amur aşağısı · Ohotsk kıyısı · Sahalin · Orta Sibirya, 16 nokta.
+    #      `ek9`un (koşu 9) AÇIK BIRAKTIĞI iki cebi kapatıyor.
+    # 🔴 SIRAYI ATLADI ve sebebi ölçüldü: `ek10·ek11·ek12` renk beklediği
+    #    için hâlâ dışarıda, `ek13` ise HİÇBİR ŞEY BEKLEMİYOR. Sıra numarası
+    #    bir bağlanma ölçütü değil; bekleyen borç öyle.
+    # ÖLÇÜLDÜ (koordinatör, bağlamadan önce — dosyanın kendi iddiaları
+    # doğrulandı, devralınmadı): kutu 16/16 içinde · kullanılan 3 kimlik
+    # (rusya · qing-hanedani · meiji-japonya) üçü de BOYALAR'da ve üçünün
+    # de dizin künyesi var · d:/v: dönemi 0 ⇒ Değişmez 2 borcu YAPISAL
+    # SIFIR · 3 km'den yakın çift YOK · dönem sağlığı temiz.
+    "yerlesimler_ek13.js",
     # 344 nokta (MOTOR 2, 2 Ağustos 2026 — kutu genişletme koşusuyla).
     # KOORDİNATÖR KARARI: 37-renkle açılış — 147 kimliğin 49'u boyalı, 98'i
     # renksiz ve renksiz dönem BOŞLUK üretir (yanlış renk değil; motor

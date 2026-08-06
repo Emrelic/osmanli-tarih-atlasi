@@ -107,7 +107,18 @@ window.YERLESIMLER_EK8 = [
 { ad:"Jokkmokk", tur:"sehir", lat:66.6069, lon:19.8265, g:0, k:0, d:[],
   s:[{f:"1281-01-01",t:"1923-10-29",d:"isvec"}] },
 
-{ ad:"Jukkasjärvi", tur:"sehir", lat:67.8500, lon:20.6600, g:0, k:0, d:[],
+// 🔴 GÖL DÜZELTMESİ (MOTOR buldu, göl-farkındalı tarama genişletti — 4 Ağustos,
+//    uygulaması 6 Ağustos'a kaldı çünkü 4'ünde dosya koşu 9'un BAĞLI girdisiydi
+//    ve anlık görüntüden sonra yazmak yayını bayat gösterirdi).
+//    İlk yazılan 67,8500/20,6600 **Torneträsk gölünün İÇİNDE**ydi (NE 10m
+//    poligonu doğrulandı) ve peteği %0,0 (0 / 29.380 km²) çıkıyordu: motorun
+//    `KARA`sı gölleri ÇIKARIYOR, ilk denetimimin kullandığı ham kıyı maskesi
+//    çıkarmıyordu. Kıyıya göre doğru olan nokta, göle göre yanlıştı.
+//    2,2 km kuzeydoğuya, gölün dışına alındı.
+// ⚠️ Koordinatörün önerdiği 67,8443/20,6594 de geçiyor ama göl kenarına
+//    SIFIR mesafede duruyor; 0,002 sadeleştirme toleransının bir kıpırtısı
+//    onu geri içeri alabilir. Bu yüzden payı olan koordinat seçildi.
+{ ad:"Jukkasjärvi", tur:"sehir", lat:67.8693, lon:20.6737, g:0, k:0, d:[],
   s:[{f:"1281-01-01",t:"1923-10-29",d:"isvec"}] },
 
 // ── ③ FİNLANDİYA LAPLAND'İ ──────────────────────────────────────────
@@ -125,7 +136,22 @@ window.YERLESIMLER_EK8 = [
 { ad:"Sodankylä", tur:"sehir", lat:67.4167, lon:26.5833, g:0, k:0, d:[],
   s:[{f:"1281-01-01",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-12-06",d:"rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}] },
 
-{ ad:"İnari", tur:"sehir", lat:68.9058, lon:27.0289, g:0, k:0, d:[],
+// 🔴 GÖL DÜZELTMESİ — VE BU KAYIT "TEMİZ" RAPOR EDİLMİŞTİ.
+//    İlk yazılan 68,9058/27,0289 **Inarijärvi'nin İÇİNDE** (NE 10m poligonu
+//    doğrulandı) ama yalnız 20 METRE içeride. `denetle.py` gölleri
+//    `simplify(0.01)` ≈ 1,1 km ile sadeleştirdiği için bu noktayı KARADA
+//    görüyor; motor sadeleştirmiyor ve peteği SIFIRLIYOR.
+// 🔴 ÖLÇÜLDÜ, ve iki ölçüt AYRIŞIYOR:
+//        MOTOR    (sadeleştirmesiz göl) → 🔴 GÖL İÇİNDE
+//        DENETLE  (simplify 0.01)       → ✓ karada
+//    ⇒ Denetim TEMİZ derken petek %0,0 çıkardı. `PARTİ 19 §12`nin dersinin
+//      ÜÇÜNCÜ hâli: önce eksik maske katmanı, sonra eksik kutu, şimdi
+//      **fazla sadeleştirme.** Üçü de aynı aile — denetimin sorduğu soru
+//      motorun sorduğu soru değil.
+//    📌 `denetle.py`ye önerim (dosya benim değil): göl sadeleştirmesi
+//      motorunkiyle aynı olsun ya da hiç olmasın. 1,1 km'lik tolerans,
+//      aradığı hatanın kendisinden büyük.
+{ ad:"İnari", tur:"sehir", lat:68.9257, lon:27.0337, g:0, k:0, d:[],
   s:[{f:"1281-01-01",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-12-06",d:"rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}] },
 
 // 🔴 PETSAMO — pencerenin İÇİNDE kalan tek Fin toprak kazancı.

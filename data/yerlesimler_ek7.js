@@ -82,7 +82,7 @@ window.YERLESIMLER_EK7 = [
 { ad:"Umeå", tur:"liman", lat:63.826, lon:20.263, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"isvec"}] },
 { ad:"Härnösand", tur:"liman", lat:62.632, lon:17.941, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"isvec"}] },
 { ad:"Mora", tur:"sehir", lat:61.006, lon:14.542, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"isvec"}] },
-{ ad:"Västerås", tur:"sehir", lat:59.611, lon:16.545, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"isvec"}] },
+{ ad:"Västerås", tur:"sehir", lat:59.6132, lon:16.5450, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"isvec"}] },
 { ad:"Norrköping", tur:"liman", lat:58.588, lon:16.186, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"isvec"}] },
 { ad:"Nyköping", tur:"liman", lat:58.753, lon:17.009, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"isvec"}] },
 { ad:"Borås", tur:"sehir", lat:57.721, lon:12.940, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"isvec"}] },
