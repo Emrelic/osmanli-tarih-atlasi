@@ -334,7 +334,7 @@
 <script src="data/yerlesimler_ek18.js?v=r833"></script>
 <script src="data/yerlesimler_ek16.js?v=r833"></script>
 <script src="data/yerlesimler_ek20.js?v=r833"></script>
-<script src="data/yerlesimler_ek22.js?v=r833"></script>
+<script src="data/yerlesimler_ek11.js?v=r833"></script>
 <script>
   // Parti dosyalari KENDI kuresel degiskenlerini tanimliyor; app.js yalniz
   // window.YERLESIMLER okuyor. Birlestirme burada, TEK yerde yapilir --
@@ -369,7 +369,8 @@
     .concat(window.YERLESIMLER_EK16 || [])
     .concat(window.YERLESIMLER_EK17 || [])
     .concat(window.YERLESIMLER_EK18 || [])
-    .concat(window.YERLESIMLER_EK20 || []);
+    .concat(window.YERLESIMLER_EK20 || [])
+    .concat(window.YERLESIMLER_EK11 || []);
     // 🔴 ek19 · ek21 · ek22 BILEREK YOK — ve sebebi SIRALAMA:
     //    Bu uc parti `girdi.py`ye BAGLANDI (motor siradaki kosuda okuyacak)
     //    ama `donemler.js` HENUZ r833'ten, yani 1772 noktalik kosudan.

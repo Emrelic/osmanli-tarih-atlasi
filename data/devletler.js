@@ -3464,5 +3464,25 @@ window.DEVLETLER = [
     { t:"1919-08-08", tur:"antlasma", b:"Ravalpindi Antlaşması: Afganistan tam bağımsızlığını kazandı" }
   ]
 }
+,
+{ id:"sibir-hanligi", ad:"Sibir Hanlığı", tur:"hanlik", bolge:"orta-asya",
+  f:"1430-01-01", t:"1598-08-20", baskent:"Çimgi-Tura → Sibir (İsker)", harita:"sibir-hanligi",
+  ozet:"Altın Orda'nın dağılmasından sonra Tura, Tobul ve İşim nehirleri arasında kurulan Şeybânî hanlığı; başşehrin Sibir (İsker) şehrine taşınmasıyla bu adı aldı. Tayboğa ve Şeybânî hânedanları arasındaki çekişme 1563'te Küçüm Han'ın tahtı ele geçirmesiyle sonuçlandı. Stroganovlar'ın 1581'de gönderdiği Yermak önderliğindeki Kazak birliği hanlığın sonunu getiren süreci başlattı; Rusya'nın Sibirya'ya açılan kapısı burasıydı.",
+  kaynak:"sibir-hanligi",
+  kronoloji:[
+    { t:"1430-01-01", tur:"kurulus", b:"Şeybânî Hacı Muhammed'in oğlu Mahmutek döneminde hanlık şekillendi" },
+    { t:"1563-01-01", tur:"hukumdar", b:"Şeybânî Küçüm Han Tayboğa soyunu yenip tahtı ele geçirdi" },
+    { t:"1581-01-01", tur:"savas", b:"Stroganovlar'ın gönderdiği Yermak'ın Kazak birliği Küçüm Han üzerine yürüdü" },
+    { t:"1598-08-20", tur:"son", b:"Küçüm Han'ın son yenilgisi — hanlık sona erdi, Batı Sibirya Rusya'ya geçti" }
+  ]
+},
+{ id:"izlanda", ad:"İzlanda", tur:"ulke", bolge:"kuzey-avrupa",
+  f:"1918-12-01", t:"1923-10-29", baskent:"Reykjavík", harita:"izlanda",
+  ozet:"1262'den beri Norveç, 1537'den itibaren Danimarka idaresinde kalan ada, 1 Aralık 1918'de Danimarka kralıyla şahsî birlik altında egemen bir krallık oldu. Atlasın ufkunda (1923) bu statüdedir; tam bağımsızlık 1944'tedir. ⚠️ TDV'de müstakil madde YOK (`izlanda` slug'ı 302 döndürüyor); CLAUDE.md §4 gereği Avrupa iç tarihi için standart akademik referansa dayanıldı.",
+  kronoloji:[
+    { t:"1537-01-01", tur:"toprak", b:"Reformla birlikte ada Danimarka'nın doğrudan idaresine girdi" },
+    { t:"1918-12-01", tur:"kurulus", b:"İzlanda Krallığı: Danimarka ile şahsî birlik, egemen devlet statüsü" }
+  ]
+}
 
 ];

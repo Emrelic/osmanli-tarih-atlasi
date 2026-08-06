@@ -590,7 +590,6 @@ def main():
         # bagimsiz gosterirken aradaki Estonya'yi Rus gosterirdi.
         # ⇒ Oduncun olcusu SURE degil, komsusuyla CELISIP CELISMEDIGI.
         "data/yerlesimler_ek10.js":      "4 nokta, `sibir-hanligi` rengi bekliyor",
-        "data/yerlesimler_ek11.js":      "4 nokta, `estonya` rengi bekliyor",
         "data/yerlesimler_ek12.js":      "4 nokta, `izlanda` rengi bekliyor",
         # ── r772 KOSUSU SIRASINDA DOGDULAR — 6 Agustos 2026 ─────────────
         # Ucu de PETEK/NOKTA'nin partisi ve UCU DE HAZIR: renk yok, kunye yok,

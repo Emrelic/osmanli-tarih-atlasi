@@ -344,6 +344,18 @@ GIRDI_DOSYALARI = [
     "yerlesimler_ek19.js",
     "yerlesimler_ek21.js",
     "yerlesimler_ek22.js",
+    # ── ESTONYA · 7 Agustos 2026 ────────────────────────────────────
+    # ek11 Tallinn (Reval) · Narva · Tartu (Dorpat) · Parnu, 4 nokta.
+    # PARTI 19dan beri BEKLIYORDU ve tek engeli `estonya` rengiydi;
+    # RENK 2 bugun yazdi, engel dustu.
+    # 🔴 Odunc renk VERILMEMISTI ve gerekcesi olculmustu: estonyayi
+    #   1923e kadar Rus boyamak, harita 1919da Letonya ve Finlandiyayi
+    #   BAGIMSIZ gosterirken aradaki Estonyayi Rus gosterirdi.
+    #   ⇒ Oduncun olcusu SURE degil, KOMSUSUYLA CELISIP CELISMEDIGI.
+    # OLCULDU (baglamadan once): renksiz 0 · dizinsiz 0 · sahipsiz 0 ·
+    #   d:/v: donemi 0 ⇒ Degismez 1 ve 2 borcu YOK.
+    "yerlesimler_ek11.js",
+
 
 
 
