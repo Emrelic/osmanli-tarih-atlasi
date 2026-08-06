@@ -950,6 +950,97 @@ tersine çevirir."* Bu sefer kendi işime uyguluyorum.
 
 ---
 
+## TESLİM 11 — Hûzistan (8 nokta): hüküm **BULUNAMADI**, ama yanında bir bulgu
+
+### ① `2s` TAHMİNİ — doğru evrende (koordinatörün uyarısı)
+
+`denetle.py:1386` → `degismez2(Y_cekirdek, O, ("s",))`. Evreni **koddan**
+okudum, canlı veriden değil:
+```
+kategori   YALNIZ `s:`          (`d:`/`v:` sayılmaz)
+dosya      Y_cekirdek           (KUYRUK_DOSYALARI hariç)
+```
+Sekiz Hûzistan noktasının **sekizi de `yerlesimler.js`** ⇒ çekirdekte,
+`2s` onları **sayıyor.**
+
+Çekirdek `s:` ayrık kırılma tarihi: **689.** Aday sınırların durumu:
+
+| tarih | ne | çekirdek `s:` kümesinde | `2s` etkisi |
+|---|---|---|---|
+| `1335-12-01` | mevcut başlangıç | ✓ VAR | **+0** |
+| `1393-01-01` | mevcut bitiş | ✓ VAR | **+0** |
+| `1357-01-01` | Muzafferî/İncû bölmesi | ✓ VAR | **+0** |
+| `1396-01-01` | TDV: Muhammed Sultan | 🔴 YENİ | **+1** |
+| `1408-01-01` | TDV: Celâyirlî kaleleri | 🔴 YENİ | **+1** |
+
+🟢 **Sınır oynatmayan her adlandırma için `2s` Δ = 0.**
+📌 Ve `1357`nin zaten kırılma günü olması Teslim 10'daki endişemi hafifletiyor:
+Muzafferî bölmesi yapılırsa **`2s` sayısal olarak da 0** (yalancı geçiş
+uyarısı ayrı mesele, o duruyor).
+
+### ② HÜKÜM: **TDV'YE BASMIYOR** — bulunamadı
+
+`huzistan` ✓ CANLI, ama **1335-1393 penceresini kapsamıyor.** Verdiği iki
+çıpanın ikisi de pencerenin **dışında:**
+> *"Moğol istilâsından sonra İlhanlı Hükümdarı **Abaka Han**, Hûzistan'ı
+> **Luristan Atabegi I. Yûsuf Şah**'a iktâ olarak verdi."* (1270'ler)
+> *"…Fars valisi **Muhammed Sultan** hâkimiyetini Luristan'dan Hûzistan'a
+> kadar genişletti **(798/1396)**"*
+> *"Hûzistan kaleleri **811'de (1408) Celâyirliler** tarafından zaptedildi."*
+
+`luristan` ✓ CANLI, ama o da 1335 sonrasını söylemiyor — ve `huzistan`ın
+andığı **"Hurşîdîler"i hiç anmıyor.**
+
+⇒ **8 noktanın 1335-1393 sahibi için hükmüm: `bulunamadı`.**
+Brifing `§⑥`: *"bulamadığını `bulunamadı` diye yaz — TDV'ye basmıyor diye
+İŞARETLE, uydurma."* Öyle yapıyorum. **Öneri yok.**
+
+### ③ 🟡 AMA İKİ ÇIPA VERİMİZLE ÇELİŞİYOR — kaydediyorum, çözmüyorum
+
+```
+bizde   iran 1335→1393  ·  timurlu 1393→1452
+TDV     Timurlu hâkimiyeti 1396 (Muhammed Sultan) · Celâyirlî 1408
+```
+| # | konu | hüküm |
+|---|---|---|
+| H-1 | `timurlu` başlangıcı 1393 ⟷ TDV 1396 | 🟡 3 yıl, ÇELİŞKİLİ |
+| H-2 | 1408 Celâyirlî devri verimizde YOK | 🟡 `timurlu 1393→1452` onu yutuyor |
+
+⚠️ H-2'yi *"hata"* diye yazmıyorum: `§3.1 ⓪` — *"kaleleri zaptetti"* ile
+*"bölgeye hâkim"* aynı soru olmayabilir. **Desen biriksin diye kaydediyorum.**
+🟢 Ve Timur'un bölgede olduğu ayrıca doğrulandı (`luristan`: *"Timur bir
+müddet bölgeye hâkim oldu ve **Şûs şehrinde ikamet etti**"*) — yani
+`timurlu` etiketi **doğru**, tartışmalı olan yalnız günü.
+
+### ③ 🔴 YAN BULGU — iki atabeglik, tam tarihli, atlasta HİÇ YOK
+
+`luristan` maddesi Hûzistan'ı çözmedi ama başka bir şey verdi:
+> *"**Lur-ı Büzürg (1155-1424)**"* güneydoğuda · *"**Lur-ı Kûçek (1184-1597)**"*
+> kuzey ve batıda · *"zaman zaman birer İlhanlı vilâyeti statüsüne girdilerse
+> de **Safevîler dönemine kadar varlıklarını korudular**"*
+
+```
+Lur-ı Büzürg  1155-1424   269 yıl
+Lur-ı Kûçek   1184-1597   413 yıl   ← Safevî dönemine kadar
+```
+🔴 **İkisi de atlasta yok.** Ve `Luristan` (33,49K 48,36D) bir **battaniye
+noktası**: `iran 1281→1508`. Yani 413 yıl yaşamış, TDV'de tam tarihli bir
+atabeglik, haritada `iran` pembesi olarak duruyor.
+
+📌 Bu, `iran` battaniyesinin **dördüncü** kullanım biçimi değil — üçüncüsünün
+(A · dolgu) yeni bir örneği. Ama şunu gösteriyor: **battaniyenin altında
+TDV'de tam tarihli hanedanlar var**, yani (b) işi sanıldığından daha
+kaynaklanabilir.
+
+### MALİYET (istenen biçim)
+```
+Hûzistan için        ÖNERİ YOK ⇒ künye 0 · renk 0 · 2s Δ 0
+Lur atabeglikleri    lur-i-buzurg 🔴 · lur-i-kucek 🔴   ⇒ 2 künye + 2 renk
+                     (luristan · hursidi · lur · atabeg · musasa: beşi de YOK)
+```
+
+---
+
 ## Sistem kaydı — koordinatöre bildirilenler
 
 1. `CLAUDE.md §5` canlı taban satırı bayat (951/2 dosya → gerçekte 1713/16 dosya).
