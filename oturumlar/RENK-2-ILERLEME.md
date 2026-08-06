@@ -531,3 +531,121 @@ BOYALAR      236   (koordinatörün ölçtüğü 239 — aradaki 3 hâlâ
 renk_olc     görünmez 0 · çakışma 0 · aynı-hex 0     ✓ (05:15 hâliyle)
 hazır        sibir-hanligi · izlanda · ryazan — üçü de ölçülü, yazılmadı
 ```
+
+---
+
+## ⑬ SON İKİ RENK YAZILDI — ve koşudan ÖNCE bir çökme bulundu
+
+### Önce: koşu çelişkisi ölçüldü
+Bir önceki sevk *"koşu sürüyor, dokunma"*, bu sevk *"şimdi yaz"* diyordu.
+İkisi birden doğru olamaz ve yanlış olanı seçmek 72 dakika demek. **Ölçtüm:**
+```
+kosu_r772.log   son yazım 06:32:03      python süreci: YOK
+data/donemler.js 06:32:02               şimdi: 14:31
+```
+⇒ Koşu sekiz saat önce **bitmiş.** `arac/` serbest, yazım güvenli.
+📌 İki sevk arasında çelişki varsa aradaki fark **zaman**dır; sevki değil
+**saati** ölç.
+
+### 🟢 `sibir-hanligi #b17e3f` · `izlanda #b4483f`
+Renkler sabah ölçülmüştü; akşam **güncel veriyle (1800 nokta) yeniden
+sınandı** — devralmadım, yeniden ölçtüm (`YASALAR B10`).
+
+```
+sibir-hanligi   kazan 17,7 · rusya 18,2 · altinorda 26,2 · kazak-hanligi 35,7
+izlanda         ispanya 18,4 · ingiltere 24,0 · portekiz 31,0 · irlanda 48,6
+```
+
+**İkisinde de koordinatörün komşu listesi ölçümle uyuşmadı:**
+
+| kimlik | sevkte yazan | ölçülen |
+|---|---|---|
+| `sibir-hanligi` | altinorda · rusya · kazak-hanligi · **buhara** | altinorda · rusya · kazak-hanligi · **kazan** |
+| `izlanda` | **norvec · danimarka** | **ingiltere · irlanda · ispanya · portekiz** |
+
+Renk ikisinde de listedeki adlardan da ayrık (buhara ✓ · danimarka 29,7 ·
+norvec 31,9), yani **karar değişmiyor** — ama sayı devralınmadı.
+
+📌 `izlanda` farkı öğretici: Kuzey Atlantik'te İzlanda'nın peteği
+İskandinavya'ya değil **güneye** uzanıyor. Nokta yoğunluğu düşük olan
+yerde petek sezgiye aykırı gider — `CLAUDE.md §2`nin tam olarak
+uyardığı davranış, burada zararsız bir örneği.
+
+Ayrıca sabahki ölçümde komşu görünen `mogulistan` akşam **düştü**: aradaki
+partiler Sibirya çevresine nokta koydu ve komşuluk daraldı. Palet verinin
+fonksiyonudur — `cungar` dersinin ikinci teyidi.
+
+---
+
+## ⑭ 🔴 `_ek10` BAĞLANIRSA ÇÖKER — `Tara` ad çakışması
+
+Renk ölçümü sırasında `girdi.yukle()` uyarısı düştü:
+```
+!! AD ÇAKIŞMASI: Tara — yerlesimler_ek10.js
+```
+
+`girdi.yukle()` ad çakışmasında **`ValueError` atar** (girdi.py:528).
+Yani `_ek10` bugünkü hâliyle `GIRDI_DOSYALARI`na eklenirse **motor
+açılışta çöker** — üretim koşusu değil, ilk okuma.
+
+### Ölçüm
+```
+canlı (yerlesimler_ek18.js)   Tara  56.9021 / 74.3714  kale
+                              s: rusya 1594-01-01 → 1923-10-29
+_ek10                         Tara  56.8980 / 74.3720  kale
+                              s: altinorda      1281 → 1430
+                              s: sibir-hanligi  1430 → 1598-08-20
+                              s: rusya          1598-08-20 → 1923
+aralarındaki mesafe: 0 km  (46 m)
+```
+
+**İkisi aynı yer.** `_ek10` renk beklerken park edilmişti; bu arada
+`_ek18` aynı noktayı bağımsız olarak ekledi. `CLAUDE.md §11`in *"yakın
+mükerrer yerleşim"* tuzağının gerçekleşmiş hâli — ve bu kez 3 km değil
+**46 m.**
+
+### ⚠️ VE DOĞRU ÇÖZÜM `_ek10`U ATMAK DEĞİL
+Canlı `Tara`nın `kur` alanı **yok** ve zinciri 1594'te başlıyor ⇒
+**1281-1594 arası SAHİPSİZ.** Ölçtüm:
+```
+1450 → sahipsiz    1550 → sahipsiz    1593 → sahipsiz    1600 → rusya
+```
+`_ek10`un kaydı bu boşluğu **dolduruyor** (altinorda → sibir-hanligi →
+rusya). Yani daha eksiksiz olan `_ek10`unki.
+
+⚠️ Ama tarih de gözetilmeli: Tara 1594'te **Ruslar tarafından** kuruldu —
+`_ek10`un kendi başlığı TDV `kucum-han`dan alıntılıyor: *"1598'de
+**Tara'dan** başlayan askerî bir harekât"*, yani Rus üssü. Kale 1430'da
+yoktu; 1430-1594 arası orada olan şey **toprağın sahibi**, kalenin
+kendisi değil.
+
+⇒ Üç seçenek var ve karar **benim değil** (`data/` PETEK/NOKTA'nın):
+```
+① _ek18'in kaydını sil, _ek10'unkini kullan   — boşluk kapanır,
+   ama kale 1430'dan beri varmış gibi görünür
+② _ek10'un kaydını sil, _ek18'inkine kur:"1594-01-01" ekle
+   — tarihen doğru; ama 1430-1594 toprağı en yakın peteğe emilir (§2)
+③ _ek10'un zincirini koru + kur:"1594-01-01" ekle
+   — toprak sahipli, kale anakronik değil. ÖNERİM BU.
+```
+
+📌 **Bu bulgu renk işinin yan ürünü.** Ölçmek için `_ek10`u canlı kümeye
+eklemek zorundaydım ve çakışma orada düştü. Renk yazıp geçseydim,
+çökmeyi koordinatör bağlama anında bulacaktı — koşunun başında değil,
+**ilk okumada**, yani en ucuz yerde. Yine de: bağlamadan önce bilinmesi
+iyi.
+
+### ÖLÇÜM
+```
+BOYALAR      238        künye 308 (sibir-hanligi ✓ · izlanda ✓ geldi)
+canlı veri   1793 nokta
+renk_olc     görünmez 0 · çakışma 0 · aynı-hex 0     ✓
+--dogrula    2 öneri · 0 fark                        ✓
+```
+
+## ⑮ KUYRUKTA KALAN
+```
+🟡 ryazan             #cce787 ÖLÇÜLÜ, yazılmadı — renkle AÇILMAZ,
+                      önce künye + nokta dönemleri gerek
+   bengal-sultanligi  22 pencere · kenmu 17 · fransiz-cinhindi 16 · …
+```

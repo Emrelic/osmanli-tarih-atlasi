@@ -35,7 +35,7 @@ izlanda #b4483f
 //     BAND DISI serbest secim olculdu (#1b54e4, pay 34,3) ama REDDEDILDI:
 //       rusya'dan dE 46,3 -- Ryazan'i Rus dunyasinin disindan bir devlet
 //       gibi gosterirdi. Pay zaten 20,3 ile fazlasiyla yeterli.
-ryazan #cce787
+// ryazan #cce787   <- HENUZ YAZILMADI, asagiya bak
 
 // --- 3) UYARI — ryazan RENKLE ACILMAZ ------------------------------------
 //     hokand/cin-cumhuriyeti'nden FARKLI: oralarda veri kimligi TASIYORDU,
@@ -43,3 +43,11 @@ ryazan #cce787
 //     tasiyor. Renk tek basina HICBIR SEY boyamaz.
 //     Gereken sira:  kunye (koordinator) -> nokta donemleri (PETEK/NOKTA)
 //                    -> renk (RENK 2, bu satir)
+
+// ===== GUNCELLEME 6 Agustos aksami =====
+// sibir-hanligi ve izlanda YAZILDI (yukaridaki iki satir uygulandi).
+// ryazan HALA BEKLIYOR ve --dogrula onu PALETTE YOK diye bildirir:
+//   dogru davranis budur, cunku ryazan RENKLE ACILMAZ -- once kunye,
+//   sonra Ryazan noktasinin donemleri, sonra renk.
+// Uygulanacagi gun asagidaki satirin yorumu kaldirilir:
+//   ryazan #cce787
