@@ -88,6 +88,7 @@ def olc():
                         ("d1b", r"Değişmez 1b\s*(✓|✗)\s*(.*)"),
                         ("d2", r"Değişmez 2 \s*(✓|✗)\s*(.*)"),
                         ("d2s", r"Değişmez 2s\s*(✓|✗)\s*(.*)"),
+                        ("d2i", r"Değişmez 2i\s*(✓|✗)\s*(.*)"),
                         ("d2t", r"Değişmez 2t\s*(✓|✗)\s*(.*)"),
                         ("konum", r"konum:\s*(.*)")):
         mm = re.search(anahtar, cik)
@@ -116,6 +117,7 @@ def tablo(o):
     s.append("| Değişmez 1b — iç boşluk | %s |" % o["d1b"])
     s.append("| Değişmez 2 — Osmanlı senkronu | %s |" % o["d2"])
     s.append("| Değişmez 2s — yabancı senkron | %s |" % o["d2s"])
+    s.append("| Değişmez 2i — işgal senkronu | %s |" % o["d2i"])
     s.append("| Değişmez 2t — kırılmasız madde | %s |" % o["d2t"])
     s.append("| Konum denetimi | %s |" % o["konum"])
     s.append("| Devletler dizini | **%d** künye · **%d** renk (`renkler.py`) |"
