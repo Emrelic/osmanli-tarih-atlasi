@@ -91,3 +91,45 @@ renk_olc.py       görünmez 0 · çakışma 0 · aynı-hex 0
 renk_cikti.py     çıktı ekseninde de temiz
 ```
 Bunları görünce "bitti" de. Öncesinde deme.
+
+
+---
+
+# 🔴 DÜZELTME — 6 Ağustos, brifing yazıldıktan SONRA ölçüldü
+
+Yukarıda *"üç rengi yaz"* diyordum. **Ölçüm iki şeyi düzeltti:**
+
+```
+kimlik                    KÜNYE   RENK    veride pencere
+estonya                   VAR     YOK     4     🟢 SEN YAZABİLİRSİN
+sibir-hanligi             🔴YOK   YOK     4     ⚠️ ÖNCE KÜNYE LAZIM
+izlanda                   🔴YOK   YOK     2     ⚠️ ÖNCE KÜNYE LAZIM
+```
+
+⚠️ **`sibir-hanligi` ve `izlanda`nın `data/devletler.js`te künyesi YOK.**
+Künyesiz bir kimliğe renk yazmak yarım iştir: harita boyar ama dizin
+penceresinde karşılığı olmaz, `denetle_yayin` *"dizinsiz harita kimliği"*
+der. Ve `devletler.js` **senin dosyan değil** (`§7`).
+
+⇒ **Sıran değişti:**
+```
+1. estonya rengini YAZ  — künyesi hazır, hemen yapılabilir
+2. sibir-hanligi + izlanda için rengi HAZIRLA ama yazma;
+   bana künye ihtiyacını bildir, VERİ DEVLET'e açtırayım
+```
+📌 Rengi hazırla derken: ΔE ölçümünü yap, adayı seç, gerekçesini yaz.
+Künye gelince yazmak bir dakikalık iş olsun.
+
+## Ve VERİ KİMLİK 3'ün sana bıraktığı liste BAYAT — ölçtüm
+Tahtada *"estonya + kalmuk + don-kazak + astarhan + irlanda-serbest-devlet
+beşi de renksiz"* yazıyor. Bugünkü ölçüm:
+```
+don-kazak                 renk VAR (#4ac4aa)      ← liste yanılıyor
+kalmuk                    künye YOK · veride 0 pencere   ← acil değil
+astarhan                  künye VAR · veride 0 pencere   ← acil değil
+irlanda-serbest-devlet    künye VAR · veride 0 pencere   ← acil değil
+```
+⇒ **Veride 0 pencere = haritada hiç boyanmıyor.** Renksiz olmaları bugün
+kimseyi engellemiyor; `estonya`nınki engelliyor çünkü 4 nokta bekliyor.
+⚠️ Devraldığın hiçbir listeyi doğrulamadan kullanma (`YASALAR B10`) —
+ben de bu brifingi doğrulamadan yazmıştım, düzeltiyorum.
