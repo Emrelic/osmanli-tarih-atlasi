@@ -1,0 +1,45 @@
+// RENK 2 — KOSU BITINCE UYGULANACAKLAR  ·  6 Agustos 2026
+// ==========================================================================
+// Bu dosya renkler.py'ye YAZILMAMIS ama OLCULMUS renkleri tasir.
+// Kosu (kosu_r772.log, anlik goruntu 05:20:03) surerken arac/renkler.py
+// parmak izlidir -- YASALAR M7. Olcum salt-okunur yapildi, yazim ertelendi.
+//
+// Uygulama:  py arac/renk_olc.py --dogrula denetim/hazir-renk2-kosu-sonrasi.txt
+// ==========================================================================
+
+// --- 1) YORUMU KALDIRILACAK (renkler.py'de zaten hazir duruyor) ----------
+//     Ikisinin de rengi 6 Agustos sabahi olculdu ve dosyada yorum satiri.
+//     ENGEL RENK DEGIL KUNYE: 306 kunye olculdu, ikisi de YOK.
+sibir-hanligi #b17e3f
+izlanda #b4483f
+
+// --- 2) YENI OLCUM — ryazan ----------------------------------------------
+//     Ryazan Knezligi ~1301-1521, Moskova 1521'de ilhak etti.
+//     Canli veride `Ryazan` noktasi var ama `s: rusya 1281-1923` tasiyor
+//     (PETEK/NOKTA'nin odunc aldigi Tula deseni).
+//
+//     KIMLIGIN 0 PENCERESI VAR => renk_olc.komsuluk() olcemez. Bunun yerine
+//     RYAZAN NOKTASININ KENDI PETEGI olculdu; 1301-1521 penceresinde
+//     cevresindeki kimlikler:
+//       altinorda  (Tambov, Voronej)   kirim (Tambov, Voronej)
+//       rusya      (Moskova, Tula, Nijniy Novgorod, Vologda)
+//     En yakin komsu Tula 145,5 km, Moskova 184,3 km.
+//
+//     RUSYA'NIN AILESINDE SECILDI (ton 127+-18):
+//       ikisi de Rus knezligi ve biri otekini yutuyor. Akrabalik dogru,
+//       ama ayrim SART -- 220 yil eszamanli ve sinirdaslar. Aile ici
+//       ayrim PARLAKLIKTAN: rusya L* 71,3 / ryazan L* 88,4 (fark 17,0).
+//       => 1521 ilhaki haritada GORUNUR kaliyor; renk atlamiyor, KOYULASIYOR.
+//     OLCUM: rusya 20,3 | litvanya 22,6 | don-kazak 22,9 | nogay 22,9
+//            altliktan 30,6 · C* 28,5 = paletin %75'i
+//     BAND DISI serbest secim olculdu (#1b54e4, pay 34,3) ama REDDEDILDI:
+//       rusya'dan dE 46,3 -- Ryazan'i Rus dunyasinin disindan bir devlet
+//       gibi gosterirdi. Pay zaten 20,3 ile fazlasiyla yeterli.
+ryazan #cce787
+
+// --- 3) UYARI — ryazan RENKLE ACILMAZ ------------------------------------
+//     hokand/cin-cumhuriyeti'nden FARKLI: oralarda veri kimligi TASIYORDU,
+//     eksik olan yalnizca renkti. Burada `Ryazan` noktasi hala `rusya`
+//     tasiyor. Renk tek basina HICBIR SEY boyamaz.
+//     Gereken sira:  kunye (koordinator) -> nokta donemleri (PETEK/NOKTA)
+//                    -> renk (RENK 2, bu satir)

@@ -441,3 +441,93 @@ renk_cikti   çizili haritada değen çift 0            ✓
 --dogrula    8 öneri · 0 fark                        ✓
 ```
 `bitti` demiyorum — `sibir-hanligi` ve `izlanda` künye bekliyor.
+
+---
+
+## ⑩ KOŞU SÜRERKEN — yazım ertelendi, ölçüm sürdü
+
+Koşu haberi geldi ve **doğrulandı** (`YASALAR M7` devraldığını doğrula der):
+```
+kosu_r772.log   05:23'te canlı · py/python süreçleri koşuyor
+renkler.py      son değişiklik 05:15:02  ←  anlık görüntüden (05:20:03) ÖNCE
+```
+📌 Yani bugünkü **altı rengin hepsi bu koşuda var** — `mogolistan` dâhil.
+Sınırın doğru tarafında kalmışız; yazımı 5 dakika geciktirseydim
+`mogolistan` bu koşuya girmez, Gobi bir sürüm daha boyasız kalırdı.
+
+⇒ `arac/renkler.py`ye **dokunulmadı.** Ölçüm salt-okunur yapıldı, sonuç
+`denetim/hazir-renk2-kosu-sonrasi.txt`e yazıldı; koşu bitince
+`--dogrula` ile uygulanabilir.
+
+## ⑪ `ryazan  #cce787` — ÖLÇÜLDÜ, yazılmadı
+
+Ryazan Knezliği ~1301-1521; Moskova 1521'de ilhak etti. Canlı veride
+`Ryazan` noktası **var** ama `s: rusya 1281-1923` taşıyor — PETEK/NOKTA'nın
+ödünç aldığı Tula deseni.
+
+**Kimliğin 0 penceresi olduğu için `renk_olc.komsuluk()` ölçemez.** Bunun
+yerine **Ryazan noktasının kendi peteği** ölçüldü ve 1301-1521 penceresinde
+çevresindeki kimlikler bulundu:
+```
+altinorda   Tambov · Voronej            kirim   Tambov · Voronej
+rusya       Moskova · Tula · Nijniy Novgorod · Vologda
+en yakın komşu Tula 145,5 km · Moskova 184,3 km
+```
+
+### Rusya'nın ailesinde seçildi — ve ayrım PARLAKLIKTAN
+İkisi de Rus knezliği ve biri ötekini yutuyor: akrabalık doğru, **ama
+ayrım şart** — 220 yıl eşzamanlı ve sınırdaşlar.
+```
+rusya   L* 71,3          ryazan  L* 88,4          fark 17,0
+ton 126,8°               ton 113,1°               ΔE 20,3
+rusya 20,3 | litvanya 22,6 | don-kazak 22,9 | nogay 22,9
+altlıktan 30,6 · C* 28,5 = paletin %75'i
+```
+⇒ **1521 ilhakı haritada görünür kalıyor: renk atlamıyor, KOYULAŞIYOR.**
+Bir knezliğin yutulması tam olarak böyle okunmalı.
+
+📌 Band dışı serbest seçim ölçüldü (`#1b54e4`, pay 34,3) ve **reddedildi**:
+`rusya`dan ΔE 46,3 — Ryazan'ı Rus dünyasının dışından bir devlet gibi
+gösterirdi. Pay zaten 20,3 ile fazlasıyla yeterli; 34,3'ü almak için
+anlamı bozmaya değmez.
+
+### ⚠️ Ama `ryazan` RENKLE AÇILMAZ — `hokand`dan farkı bu
+`hokand` · `cin-cumhuriyeti` · `mogolistan`da veri kimliği **zaten
+taşıyordu**, eksik olan yalnız renkti; renk gelince dosya açıldı.
+Burada `Ryazan` noktası hâlâ `rusya` taşıyor. **Renk tek başına hiçbir
+şey boyamaz.** Gereken sıra:
+```
+künye (koordinatör) → nokta dönemleri (PETEK/NOKTA) → renk (RENK 2)
+```
+Koordinatörün *"dosya açmıyor, yalnız bir ödüncü gerçeğe çeviriyor"*
+teşhisi doğru — ve o dönüşümün ilk adımı renk değil.
+
+## ⑫ 🔴 `sibir-hanligi` ve `izlanda` — ENGEL HÂLÂ KÜNYE, ve o bende değil
+
+Koordinatör ikisini sıradaki kalemim olarak verdi. **Ölçtüm:**
+```
+künye toplam 306   (302 → 306: afgan-durrani · afganistan ·
+                    cin-cumhuriyeti · mogolistan yazıldı)
+sibir-hanligi   künye YOK   (yalnız id `sibir`, harita: alanı boş)
+izlanda         künye YOK
+```
+⇒ Dörtlü künye partisinde **bu ikisi atlanmış.** Renkleri bu sabahtan beri
+ölçülü ve `renkler.py`de yorum satırı olarak hazır; yorumu kaldırmak bir
+dakikalık iş. **Sıra bende değil.**
+
+⚠️ Ve bir tutarlılık sorusu koordinatöre: `hokand`ı `harita:` alanı boşken,
+`cin-cumhuriyeti`yi künyesi HİÇ YOKKEN yazdım ve ikisi de dosya açtı —
+yani pratikte renk tek başına deliği kapatıyor, künye yalnız dizin
+penceresini etkiliyor. Eğer ölçüt buysa `sibir-hanligi` ve `izlanda` da
+bugün yazılabilir. Eğer ölçüt ilk turdaki *"künyesiz kimliğe renk yazmak
+yarım iştir"* ise, o zaman `hokand` ve `cin-cumhuriyeti` de yarım kaldı ve
+künyeleri sonradan geldi. **İki uygulama arasında fark var; hangisi
+geçerli, koordinatörün kararı.** Ben ikisini de yapabilirim.
+
+### ÖLÇÜM
+```
+BOYALAR      236   (koordinatörün ölçtüğü 239 — aradaki 3 hâlâ
+                    durum_tablosu.py:72'nin OPAKLIK'i sayması)
+renk_olc     görünmez 0 · çakışma 0 · aynı-hex 0     ✓ (05:15 hâliyle)
+hazır        sibir-hanligi · izlanda · ryazan — üçü de ölçülü, yazılmadı
+```
