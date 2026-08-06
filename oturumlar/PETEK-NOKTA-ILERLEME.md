@@ -4042,3 +4042,76 @@ _ek20   4  Çin Altayı ve Cungarya                      HAZIR
 ──────────────────────────────────────────────────────────
        65 nokta · 8 dosya
 ```
+
+---
+---
+
+# ÖLÇÜM TURU — YELETS/KOZLOV ve GOBİ'NİN BATISI
+### 6 Ağustos 2026 · **nokta EKLENMEDİ, iki bölge ölçüldü**
+
+## ① 🔴 YELETS/KOZLOV ARTIK DÜŞÜK DEĞERLİ — `PARTİ 22` orayı doldurmuş
+Sevk *"`PARTİ 22`nin kendi bıraktığı kalem"* diyordu. Ölçtüm:
+```
+YABANİ OVA İÇİ (49-56°K / 32-50°D)   kara 949.947 km²   nokta 21
+   ort 100 km · en uzak 226 km
+   (PARTİ 22 ÖNCESİ aynı kuşak: ort 162 km · en uzak 303 km)
+```
+🔴 **Yelets (52,6/38,5) ve Kozlov (52,9/40,5) çevresindeki hücreler artık
+Tambov'a 25-108 km, Voronej'e 95-103 km.** İkisini eklemenin kazancı
+ölçülebilir eşiğin altında — `PARTİ 22`nin on bir noktası o boşluğu
+kapatmış.
+
+📌 Ve `1500`de kalan `kirim` (169.677 km²) **artık hata değil, MODEL**:
+Belgorod ve Tambov kendi kayıtlarında `kirim → kale yılı → rusya` taşıyor,
+yani Yabani Ova'nın Kırım-Nogay akın sahası olduğu bilerek gösteriliyor.
+Sınırı da doğru yerde: en uzak `kirim` hücresi artık 154 km'de, 303 değil.
+
+### Kalan iki cep (ikisi de küçük)
+```
+Don-Volga arası  49-54°K/40-50°D   385.597 km² · 4 nokta · ort 122 km
+                                    en uzak 226 km (50,5°K/42,5°D)
+Volga yukarısı   52,5°K/48,5-49,5°D                   200-215 km
+```
+
+## ② 🔴 GOBİ'NİN BATISI — **ÖLÇÜLDÜ, ve en büyük kalan delik BU**
+```
+40-47°K / 92-108°D    kara 1.006.148 km²   TOPLAM NOKTA: 2
+   503.074 km²/nokta · ort 255 km · EN UZAK 474 km
+```
+Kıyaslama: Don-Volga cebi 96.399 km²/nokta. **Gobi beş kat seyrek.**
+
+### Ve renk de yanlış
+```
+1500-06-15   ming-hanedani %51,2   ← Ming, Çin Seddi'nin KUZEYİNDE
+             — (sahipsiz)   %24,5
+             kuzey-yuan     %24,4
+1700-06-15   qing %71,5 · — %18,5 · kuzey-yuan %7,5
+1850-06-15   qing %100,0
+```
+🔴 Ming'i oraya taşıyan noktalar: `Zhangye (Ganzhou)` · `Yinchuan` ·
+`Ciyayuguan` · `Baotou` — **hepsi seddin içinde**, 412-474 km güneyde.
+Ming hiçbir zaman Gobi'nin kuzeyine çıkmadı; bu `§2` emilmesinin
+ders kitabı vakası ve **yarım milyon km²'yi** etkiliyor.
+
+## ③ ⚠️ AMA GOBİ İKİYE BÖLÜNÜYOR — `mogolistan` engeli
+```
+DIŞ MOĞOLİSTAN yakası (Gobi-Altay · Bayanhongor · Ömnögovi)
+   zincir `_ek19`unkiyle aynı ⇒ `mogolistan` RENKSİZ ⇒ 🔴 BEKLER
+İÇ MOĞOLİSTAN / ALAŞA yakası (Ejin · Trans-Altay Gobi)
+   1912 sonrası `cin-cumhuriyeti` ⇒ RENKLİ ⇒ 🟢 BUGÜN YAZILABİLİR
+```
+⇒ Parti ikiye bölünmeli; `_ek19` zaten `mogolistan` bekliyor ve Dış
+Moğolistan Gobi'si **onunla birlikte** gitmeli (koordinatörün `ek19`
+kararının aynı gerekçesi: *"Moğolistan iki kovaya bölünmesin"*).
+
+## ④ HÜKÜM — sevki ölçüyle değiştirmeyi ÖNERİYORUM, kendim değiştirmiyorum
+```
+sevk        Yelets/Kozlov  → ölçüldü, kazanç eşik altı
+öneri       Gobi'nin batısı, İÇ MOĞOLİSTAN yarısı — bugün yazılabilir
+            (Dış Moğolistan yarısı `mogolistan` ile `_ek19`e eklenir)
+alternatif  Don-Volga cebi — küçük ama tamamen engelsiz
+```
+📌 Bu, bugün **dördüncü** sevk itirazı ve dördü de aynı sebepten:
+**ölçülmüş bir liste üç günde eskiyor.** Ama bu sefer nokta yazmadan
+önce durdum — çünkü `Yelets`i yazsaydım eşik altı bir kazanç için
+`2s` borcu doğuracaktım.
