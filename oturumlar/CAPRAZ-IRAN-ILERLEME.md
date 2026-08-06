@@ -466,6 +466,76 @@ birebir çıktı. Bundan sonra **30/136** yazıyorum, 30/149 değil.
 
 ---
 
+## TESLİM 6 — Hazar kıyısı kümesi (7 nokta): tarihler DOĞRU, etiket yanlış
+
+Brifingin hipotezi: *"Hazar kıyısı (Lâhîcan·Bârfurûş·Eşref) → yerel hanedanlar?
+Mar'aşî?"* — **doğrulandı, ve tarihler zaten kaynağa oturuyor.**
+
+### Bizde ne var
+
+```
+GÎLÂN     Lâhîcan · Bender Enzeli          iran  1281-01-01 → 1592-01-01
+MÂZENDERAN Âmül · Sârî · Bârfurûş · Eşref  iran  1335-12-01 → 1596-01-01
+           (+ Ferahâbâd, kur:1611 — pencereyi taşıyor ama hiç boyamıyor)
+```
+
+### Kaynakta ne var
+
+| slug | sınama | alıntı |
+|---|---|---|
+| `gilan` | ✓ CANLI | *"Bölgeye **Kârkiyâ hânedanı** hâkim oldu."* · *"Safevî Hükümdarı I. Şah Abbas **1592**'de bölgeyi hâkimiyeti altına aldı."* |
+| `mazenderan` | 🟡 **kütük** — *"bk. TABERİSTAN"*, içerik yok | — |
+| `taberistan` | ✓ CANLI | *"Timur, **Mar'aşîler**'i mağlûp ederek burayı itaat altına aldı (**794/1392**) ve Mar'aşîler'i Mâverâünnehir'e sürgüne gönderdi"* · *"Taberistan **909 (1504)** yılında Safevîler'in eline geçti."* |
+| `marasiler` | ✓ CANLI | *"XIV-XVI. yüzyıllar arasında İran'ın **Mâzenderan** bölgesinde hüküm süren"* · merkezleri **Âmül ve Sârî** · Safevî üstünlüğünden sonra *"onlara bağlı mahallî dinî-siyasî hâkimler statüsünde bölgedeki varlıklarını devam ettirdiler"* · Şah Abbas (1587-1629) döneminde dağıtılıp *"siyasî önemlerini büsbütün yitirerek"* |
+
+### Hüküm — dört kalem
+
+| # | konu | hüküm | kesinlik |
+|---|---|---|---|
+| **G-1** | Gîlân `iran` → **Kârkiyâ** | 🔴 ETİKET YANLIŞ, **tarih DOĞRU** (1592 birebir) | **KESİN** |
+| **M-1** | Mâzenderan `iran` → **Mar'aşî** | 🔴 ETİKET YANLIŞ; merkezler (Âmül·Sârî) birebir tutuyor | **KUVVETLİ** |
+| **M-2** | 1504 ⟷ 1596 | 🟡 **ÇELİŞKİLİ — çözmedim** (aşağıda) | — |
+| **M-3** | 1392 Timur arası | 🟡 verimizde YOK — `iran` 1335→1596 kesintisiz | **KUVVETLİ** |
+
+**M-2 — ve bu `§3.1 ⓪`nın kitabına uygun vakası.** TDV `taberistan` *"1504'te
+Safevîler'in eline geçti"* diyor, bizim veri 1596 diyor. **Ama ikisi aynı
+soruya cevap vermiyor:**
+```
+1504  Safevî ÜSTÜNLÜĞÜ kurulur      → "kim metbû"
+1596  Mar'aşîler dağıtılır          → "yeri fiilen kim yönetiyor"
+```
+`marasiler` maddesi ikisini birden söylüyor: Safevî üstünlüğünden sonra
+*"onlara bağlı mahallî hâkimler statüsünde varlıklarını devam ettirdiler."*
+⇒ **Çelişki yok, iki ayrı soru var.** Haritanın sorduğu soru (`§3.1 ⓪`:
+*"o gün orayı FİİLEN kim yönetiyordu"*) 1596'yı seçtirir. **Verimiz doğru.**
+
+🔴 **VE BU, HÜRMÜZ'ÜN AYNI VAKASI.** İki bağımsız kümede aynı desen çıktı:
+```
+Hürmüz      1510-1622   Hürmüz Sultanlığı, önce Safevî sonra Portekiz tâbii
+Mâzenderan  1504-1596   Mar'aşîler, Safevî tâbii
+```
+İkisinde de yerel hanedan **devam ediyor**, üstünlük başkasında. Şema bunu
+söyleyemiyor (313 `v:` döneminin tamamı Osmanlı sistemi içinde — Teslim 4).
+📌 Tek vaka bir tesadüf, iki vaka bir **desen.** Yapısal bulguyu güçlendiriyor.
+
+### 🔴 BU KÜME BEDAVA DEĞİL — Şeybânî kümesinden farkı
+
+```
+devletler.js  `karkiya` YOK · `marasi` YOK · `gilan` YOK · `taberistan` YOK
+renkler.py    hiçbiri YOK
+```
+⇒ `CAPRAZ-GOREV §7`: *"Renk olmadan yazılan kimlik BOYANMAZ — önerini renk
+ihtiyacıyla birlikte ver."* **İki yeni künye + iki yeni renk gerekiyor.**
+
+⚠️ Ve maliyeti hafife almıyorum: `renkler.py:170-176` İran ailesi kutusunun
+**dolu** olduğunu ölçmüş (*"beşinci aile üyesi için uygun aday SIFIR"*).
+🟢 Ama bir çıkış olabilir: Gîlân ve Mâzenderan **Hazar kıyısı**, Safevî
+çekirdeğinden (Tebriz-Kazvin-İsfahan) coğrafî olarak ayrık. İran ailesi
+bandında olmaları **gerekmeyebilir** — ayrı hanedanlar, ayrı aile.
+⚠️ Bu bir RENK kararı, benim değil. **İddia etmiyorum, soruyorum.**
+
+---
+
 ## Sistem kaydı — koordinatöre bildirilenler
 
 1. `CLAUDE.md §5` canlı taban satırı bayat (951/2 dosya → gerçekte 1713/16 dosya).
