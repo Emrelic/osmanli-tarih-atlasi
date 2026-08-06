@@ -83,23 +83,17 @@ günü** anlatıyor. ⇒ Bölge adlarının **kendi `f:`/`t:` pencereleri** olma
 
 Ölçüm: `py arac/durum_tablosu.py` · kutu: 0 işlenmemiş paket, **37 madde SIRADA**
 
-## 🔴 ŞİMDİ AÇILACAK — iki oturum (`CLAUDE.md §7`: en çok 3 eşzamanlı)
+## ✅ 6 AĞUSTOS'TA AÇILAN OTURUMLAR
 
-| # | oturum adı | model | ilk mesaj olarak yaz |
-|---|---|---|---|
-| 1 | **RENK 2** | **Opus** | `oturumlar/RENK-2-GOREV.md dosyasini oku` |
-| 2 | **ARAYÜZ 5** | **Sonnet** | `oturumlar/ARAYUZ-5-GOREV.md dosyasini oku` |
+`RENK 2` · `ARAYÜZ 5` · `ÇAPRAZ İRAN` · `PETEK/NOKTA` · `ÇAPRAZ AKDENİZ`
+— beşi de açıldı ve çalıştı. ÇAPRAZ İRAN **kapandı** (11 teslim, benek
+şikâyeti çözüldü). Görev tanımları `oturumlar/` altında duruyor.
 
-**RENK 2 niçin ilk:** üç renk yazılınca `ek10·ek11·ek12` bağlanır, **12 nokta**
-haritaya girer ve `denetle_yayin.py`deki üç geçici muafiyet **silinir**.
-Atlasın bugünkü tek darboğazı. İş küçük, açtığı yol büyük.
+⚠️ Bu bölümün tablosu KALDIRILDI: `uret_bekleyenler.py` tanımadığı bir
+başlık altında tablo görünce DURUYOR (sessizce düşmüyor — 2 Ağustos'ta
+tam o yüzden "bekleyen yok" gösterilmişti). Açılmış oturumları
+"açılacak" diye listelemek zaten bayat bilgiydi.
 
-**ARAYÜZ 5 niçin ikinci:** dört madde de **senin kendi sözün** ve dördü de
-`sirada`. Biri (`Sinj işaretlenmiyor`) *"hem demiştik"* diyor — yani ikinci
-kez geliyor, ilk seferinde çözülmemiş.
-
-⚠️ İkisinin dosyaları **çakışmıyor**: RENK `arac/renkler.py`, ARAYÜZ
-`index.html`+`js`+`css`. Aynı anda güvenle koşarlar.
 
 ## 🟢 AÇILDI — 6 Ağustos, altı oturum koşuyor
 

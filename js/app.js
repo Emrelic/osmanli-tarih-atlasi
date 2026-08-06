@@ -3237,25 +3237,32 @@ function obGoster(o) {
   var duyguSpanPanel = duyguSpanUret(o);
   if (duyguSpanPanel) { duyguSpanPanel.classList.add("ob-duygu"); meta.appendChild(duyguSpanPanel); }
 
-  // Görsel: olayda adı geçen padişah varsa onun portresi, yoksa dönemin padişahı
-  var gorsel = document.getElementById("ob-gorsel");
-  gorsel.innerHTML = "";
+  // Görsel: olayda adı geçen BELİRLİ bir padişah varsa onun portresi.
   // p4/H-0015 kuralının BİLEREK İSTİSNASI (PADISAH-KARTVIZITI.md): vefat
   // maddesi kişinin KENDİSİ hakkında, o günün padişahı hakkında değil —
   // Fatih'in ölüm maddesinde dönemin padişahı ARTIK II. Bayezid'dir ama
   // portre yine Fatih'in olmalı. `vefat_id` varsa bulanık yola hiç girilmez.
+  var gorsel = document.getElementById("ob-gorsel");
+  gorsel.innerHTML = "";
   var vefatKisi = o.vefat_id ? vefatKisiBul(o.vefat_id) : null;
-  var pad = null;
+  var pad = null, padBelirli = false;
   if (vefatKisi) {
-    pad = vefatKisi;
-  } else {
-    if (o.kisiler) {
-      var adlar = o.kisiler.split(",");
-      for (var i = 0; i < adlar.length && !pad; i++) pad = padisahEslesmesi(adlar[i]);
-    }
-    if (!pad) pad = padisahBul(o.gi);
+    pad = vefatKisi; padBelirli = true;
+  } else if (o.kisiler) {
+    var adlar = o.kisiler.split(",");
+    for (var i = 0; i < adlar.length && !pad; i++) pad = padisahEslesmesi(adlar[i]);
+    if (pad) padBelirli = true;
   }
-  if (pad && !pad.ozel) {
+  // p5/H-0015 — kullanıcı: "padişahın resmini zaten yukarıda gösteriyoruz",
+  // Pîrî Reis'in dünya haritası maddesinde tekrar çıkıyor. Ölçüldü: o madde
+  // `kisiler:"Pîrî Reis"` taşıyor ama Pîrî Reis bir padişah değil, yani eski
+  // kod `pad`i BULAMAYIP dönemin padişahına (`padisahBul`) düşüyordu — bu da
+  // üst karttaki portrenin BİREBİR AYNISI. Eski `if (!pad) pad =
+  // padisahBul(o.gi)` düşüşü KALDIRILDI: kart artık yalnız olayla BELİRLİ
+  // biçimde bağlı bir padişah varsa (vefat_id ya da kisiler'de adı geçen bir
+  // padişah) portre gösterir; aksi hâlde aşağıdaki rozet dalına düşer —
+  // üstteki kartla aynı görseli ikinci kez basmaz.
+  if (pad && !pad.ozel && padBelirli) {
     var img = new Image();
     img.src = "assets/portreler/" + pad.id + ".jpg";
     img.alt = pad.ad;

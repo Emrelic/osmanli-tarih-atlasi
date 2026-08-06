@@ -556,6 +556,17 @@ def main():
         "data/yerlesimler_ek10.js":      "4 nokta, `sibir-hanligi` rengi bekliyor",
         "data/yerlesimler_ek11.js":      "4 nokta, `estonya` rengi bekliyor",
         "data/yerlesimler_ek12.js":      "4 nokta, `izlanda` rengi bekliyor",
+        # ── r772 KOSUSU SIRASINDA DOGDULAR — 6 Agustos 2026 ─────────────
+        # Ucu de PETEK/NOKTA'nin partisi ve UCU DE HAZIR: renk yok, kunye yok,
+        # denetim temiz. Baglanmama sebepleri TEK: girdi anlik goruntusu
+        # 05:20:03'te alindi, bu dosyalar SONRA yazildi.
+        # 🔴 Simdi baglamak `URETIM_IZI`i bozar ve YAYIN BAYAT verir --
+        #   uretilen harita 23 dosyalik girdiden, girdi.py 26 derdi.
+        # ⇒ Anlik goruntu "YAZABILIRSIN" der, "BAGLAYABILIRSIN" demez.
+        #   r772 yayinlandiktan HEMEN SONRA uculu birden baglanacak.
+        "data/yerlesimler_ek19.js":      "6 nokta (Mogolistan/Halha), r772 sonrasi baglanacak",
+        "data/yerlesimler_ek21.js":      "6 nokta (Gobi), r772 sonrasi baglanacak",
+        "data/yerlesimler_ek22.js":      "5 nokta (Don-Volga), r772 sonrasi baglanacak",
     }
 
     # 🔴 EMEKLİ ≠ BEKLEYEN. Bekleyen "önkoşul kapanınca BAĞLANACAK" vaadi

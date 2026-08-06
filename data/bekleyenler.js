@@ -22,7 +22,7 @@ window.BEKLEYENLER = {
     ],
     [
      "B8",
-     "🔴 KARAR: site her ziyarette 36 MB indiriyor — kutu açılınca ~65 MB olacak. donemler.js 35,9 MB + devletler_harita.js 12,9 MB; koşudan sonra ikisi de yaklaşık iki katına çıkıyor ⇒ toplam ~100 MB. Masaüstünde yavaşlar, mobilde çökebilir. Seçenekler: (a) böl — bölgeye/döneme göre parça parça yükle (b) sıkıştır (c) olduğu gibi bırak, mobil kullanıcıyı kaybet. Bu bir yayın stratejisi kararı, teknik değil",
+     "🟡 KARAR — ama korkulan felaket OLMADI, sayılar bugün yeniden ölçüldü. 2 Ağustos'ta \"36 MB, kutu açılınca ~100 MB olacak, mobilde çökebilir\" yazmıştım. Kutu AÇILDI (L kutusu, r771), üstüne 90 nokta eklendi — ve site 44,63 MB (donemler.js 22,26 + devletler_harita.js 14,52 + altlik.js 5,31 + petek_govde.js 3,16). Yani ~100 MB tahmini iki kattan fazla yanlış çıktı; melez sadeleştirme farkı yuttu. ⇒ Soru duruyor ama acil değil: (a) böl (b) daha da sıkıştır (c) 44,63 MB'a razı ol. Mobil ölçümü yok — kararın önündeki tek gerçek boşluk bu",
      "ürünün senin",
      "2 dk"
     ],
@@ -54,13 +54,20 @@ window.BEKLEYENLER = {
   },
   "istege_bagli": {
    "baslik": [
-    "#",
-    "iş"
+    "oturum",
+    "model",
+    "niçin bekliyor"
    ],
    "satir": [
     [
-     "B5",
-     "Kutu programını bir kez çalıştır: Desktop/ClaudEmre/ içinde py kutu/kutu.py. Sende nasıl görünüyor, ne eksik — söyle, düzelteyim. 35 hatalık partiyi ondan sonra topla; bugün toplarsan alete güvenmeden toplamış olursun"
+     "VERİ KRONOLOJİ 3",
+     "Sonnet",
+     "Cem Sultan 1495 · Sapienza 1499 · Altın Orda 1502 · Murad Bey 1503 · Şahkulu — beş eksik madde; ayrıca 2s borcu 126/114"
+    ],
+    [
+     "VERİ KİMLİK 4",
+     "Sonnet",
+     "45 kimlik / 359 pencere dizinde karşılıksız — %96'sı yerlesimler_asya.js merge borcu"
     ]
    ]
   },
@@ -118,8 +125,8 @@ window.BEKLEYENLER = {
   "bekleyen_acik": 1,
   "gorsel_acik": 0,
   "karar_acik": 1,
-  "istege_bagli": 1,
+  "istege_bagli": 2,
   "toplam_acik": 2
  }
 };
-window.URETIM_IZI = {"girdi":{"BEKLEYENLER.md":"08a26eafc110910b10beb1805f899fdc6f68e620c27431bcf6af617d52e3509f"},"motor":{"uret_bekleyenler.py":"273541b6292dae69b60c7a09db1daca544e3a07dfc9577022c73935e9a92e364"}};
+window.URETIM_IZI = {"girdi":{"BEKLEYENLER.md":"32cb077274b1e03dcd275e908dd572d387cfcee91b8184769db9461e86bbef3c"},"motor":{"uret_bekleyenler.py":"a232d468fe9d5490a0842969a90702e976aca4d78142126925eaf68f4243fa78"}};

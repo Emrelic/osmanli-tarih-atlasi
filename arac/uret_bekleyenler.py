@@ -45,6 +45,17 @@ BOLUMLER = [
     ("GÖRSEL DOĞRULAMA", "gorsel"),
     ("KARAR BEKLEYENLER", "karar"),
     ("İSTERSEN", "istege_bagli"),
+    # 6 Agustos 2026: gunun oturumlarindan cikan SAHIPSIZ kalemler.
+    # Hicbiri sikayet uretmiyor (acil degil) ama olculmus ve yazili.
+    # `istege_bagli` anahtarina baglandi -- arayuz yeni anahtar
+    # bilmiyor, ve bu kalemlerin sinifi zaten "istersen".
+    ("HASADI", "istege_bagli"),
+    # Acilmasi ONERILEN ama HENUZ ACILMAMIS oturumlar. Kullaniciyi
+    # bagliyor (oturum acmayi koordinator yapamaz) ama ACIL degil.
+    ("SIRADAKİ DALGA", "istege_bagli"),
+    # "Bugun verdigin iki karar" gibi ALT basliklar: karar zaten
+    # verilmis, uygulamasi bende. Kullanicidan bir sey beklenmiyor.
+    ("VERDİĞİN", "kapanan"),
     ("KAPANANLAR", "kapanan"),
 ]
 
