@@ -3986,3 +3986,35 @@ savrulurdu), ama **birebir km² doğrulanmadı**: koordinatörün formülü düz
 shoelace + tek `cos(lat)` düzeltmesiydi, motorunki geodezik.
 📌 Yani doğrulamanın kendisi de bir banda sahip ve o da yazılmalı —
 `§85` kendi kendine uygulanıyor.
+
+### Ve o band da ÖLÇÜLDÜ — üçüncü kademe
+
+PETEK/NOKTA önce **koordinatörün formülünü yeniden kurdu** ve dört çıpayı
+`%0,2` içinde üretti; yani ölçtüğü band **gerçek band**, benzetme değil.
+Sonra aynı poligonlara iki formülü birden uyguladı — on gövde:
+
+```
+memluk 1500 %0,1 · safevi 1700 %0,1 · mogulistan 1500 %0,9 · rusya 1900 %1,7
+lehistan 1500 %4,8 · ming 1500 %5,1 · qing 1700 %5,5 · cungar 1700 %6,0
+rusya 1700 %8,5 · rusya 1500 %9,4   ← en büyük
+BAND: medyan %5,1 · azamî %9,4
+```
+
+> **Bu doğrulamada kullanılan alan formülü motorun geodezik alanından
+> medyan %5, azamî %9,4 sapar; sapma enlemce uzun ve AZ PARÇALI gövdelerde
+> büyür ve yüksek enlemde İŞARET DEĞİŞTİRİR. ⇒ Birebir km² için tolerans
+> ±%10.**
+
+📌 Sapmanın yapısı da açıklandı: tek `cos(ortalama enlem)` halkanın alt
+kenarında küçük, üst kenarında büyük kalıyor; ama `cos` **her halkaya ayrı**
+uygulandığı için **çok halkalı** gövdede yaklaşım halka başına iyi çalışıyor
+(`memluk` 14-40° → %0,1 · `ming` 18-46° → %5,1 — fark enlem açıklığı değil
+**parçalanma**).
+
+⇒ Böylece `§85` **kendi kendine üç kademe** uygulanmış oldu:
+```
+① ölçümün bandı yazıldı            örnekleme ±%15
+② doğrulamanın bandı İŞARET EDİLDİ "formülüm geodezik değil"
+③ o bandın kendisi ÖLÇÜLDÜ         medyan %5,1 · azamî %9,4
+```
+**Bir daha "yaklaşık" demeye gerek yok** — üç kademe de sayılı.
