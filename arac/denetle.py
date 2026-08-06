@@ -285,7 +285,19 @@ KUYRUK_DOSYALARI = ("yerlesimler_ortaasya2.js", "yerlesimler_avrupa.js",
 #    Altay'i tutma SEBEBIDIR, sus degil." PARTI 22'de gunu bilinen
 #    antlasmayi cekmeyi reddetmisti; ayni disiplinin ikinci uygulamasi.
 # Borc: Bati Sibirya kale hatti kronolojisi. Yazilinca 154 -> 148 iner.
-BEKLENEN_ACIK_S = 154
+# 154 -> 158: `_ek16` (2 nokta, Herat + Belh) baglandi.
+# 🟢 VE BIR CEVRIM KAPANDI: Herat'in DORT gunu de MADDELI cikti
+#   (1335-12-01 · 1381-04-01 · 1507-01-01 · 1510-12-02, dordu de 0 gun),
+#   cunku o maddeler BUGUN yazildi. Zincir:
+#     CAPRAZ IRAN  "Herat veride HIC YOK" diye bildirdi
+#     PETEK/NOKTA  noktayi ekledi
+#     KOORDINATOR  kronolojisini yazdi (Timur'un Herat'i alisi, 1381-04-01)
+#     ⇒ nokta baglandiginda Herat SIFIR borc getirdi.
+#   Bir partinin borcunu, o partiden ONCE yazilan madde kapatabiliyor.
+# 🔴 Acik olanlarin hepsi BELH: 1370 · 1506 · 1509 · 1751 · 1826.
+#   Belh'in kronolojisi yok (Timurlu'ya gecis · Seybani · Durrani · Buhara).
+#   Borc: Belh/Kuzey Afganistan kronolojisi.
+BEKLENEN_ACIK_S = 158
 # Değişmez 2'nin AYNADAKİ HÂLİ: madde var ama kırılma yok. Oturum 14'ün Girit
 # bulgusu — "1830-11-01 Girit'in idaresi Mehmed Ali'ye bırakıldı" maddesi VARDI,
 # beş nokta `d:` kalmıştı. Ölçüldü: 442 toprak/antlaşma maddesinin 67'sinin

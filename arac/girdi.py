@@ -298,6 +298,15 @@ GIRDI_DOSYALARI = [
     # ÖLÇÜLDÜ: kimlik cungar·rusya (ikisi de renkli+dizinli) · d:/v: 0 ·
     #   kasitli_bosluk 10/10 + neden 10/10.
     "yerlesimler_ek18.js",
+    # ── PARTI 21 artigi · ek16 (2 nokta, Afganistan) ────────────────
+    # RENK 2 `afgan-durrani` rengini, koordinator `afgan-durrani` ve
+    # `afganistan` kunyelerini yazinca engel kalkti. Iki nokta o gunden
+    # beri bekliyordu ve engel RENK DEGIL KUNYE+RENK ikilisiydi -- parti
+    # "renk bekliyor" demisti, olculdu, kunye de yoktu.
+    # ⚠️ Tek kalan dizinsiz kimlik `iran` ve o BU PARTININ ESERI DEGIL:
+    #   `iran` renkli ama devletler.js kunyesi yok (BEKLEYENLER kalemi).
+    "yerlesimler_ek16.js",
+
     # 344 nokta (MOTOR 2, 2 Ağustos 2026 — kutu genişletme koşusuyla).
     # KOORDİNATÖR KARARI: 37-renkle açılış — 147 kimliğin 49'u boyalı, 98'i
     # renksiz ve renksiz dönem BOŞLUK üretir (yanlış renk değil; motor

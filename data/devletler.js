@@ -1984,7 +1984,7 @@ window.DEVLETLER = [
 },
 { id:"vijayanagara", ad:"Vijayanagara İmparatorluğu", tur:"imparatorluk", bolge:"guney-asya",
   f:"1336-01-01", t:"1646-01-01", baskent:"Vijayanagara (Hampi)", harita:"vijayanagara",
-  ozet:"Dekken sultanlıklarına karşı Hindu direnişini örgütleyen, güney Hindistan'a hâkim olan büyük Hindu imparatorluğu; Talikota Savaşı'nda Dekken sultanlıkları ittifakına yenilip başkenti yağmalandı, küçülmüş hâliyle bir asır daha sürdü. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Dekken sultanlıklarına karşı Hindu direnişini örgütleyen, güney Hindistan'a hâkim olan büyük Hindu imparatorluğu; Talikota Savaşı'nda Dekken sultanlıkları ittifakına yenilip başkenti yağmalandı, küçülmüş hâliyle bir asır daha sürdü. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1336-01-01", tur:"kurulus", b:"Harihara ve Bukka kardeşler, Vijayanagara'yı kurdu" },
     { t:"1509-01-01", tur:"hukumdar", b:"Krişnadevaraya döneminde imparatorluk zirvesine ulaştı" },
@@ -1994,7 +1994,7 @@ window.DEVLETLER = [
 },
 { id:"maratha", ad:"Maratha Konfederasyonu", tur:"devlet", bolge:"guney-asya",
   f:"1674-06-06", t:"1818-06-03", baskent:"Pune (Peşvalar dönemi)", harita:"maratha",
-  ozet:"Şivâcî'nin Bicapur ve Bâbürlülere karşı kurduğu Hindu krallığından doğan, sonradan Peşvalar önderliğinde gevşek bir konfederasyona dönüşen güç; üç Anglo-Maratha Savaşı sonunda İngiliz Doğu Hindistan Şirketi'ne yenildi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Şivâcî'nin Bicapur ve Bâbürlülere karşı kurduğu Hindu krallığından doğan, sonradan Peşvalar önderliğinde gevşek bir konfederasyona dönüşen güç; üç Anglo-Maratha Savaşı sonunda İngiliz Doğu Hindistan Şirketi'ne yenildi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1674-06-06", tur:"kurulus", b:"Şivâcî, Reygad'da kral olarak taç giydi" },
     { t:"1707-01-01", tur:"birlesme", b:"Evrengzîb'in ölümünden sonra Maratha gücü Peşvalar önderliğinde bir konfederasyona dönüştü" },
@@ -2005,7 +2005,7 @@ window.DEVLETLER = [
 },
 { id:"sih-imparatorlugu", ad:"Sih İmparatorluğu (Pencap)", tur:"imparatorluk", bolge:"guney-asya",
   f:"1801-04-12", t:"1849-03-29", baskent:"Lahor", harita:"sih-imparatorlugu",
-  ozet:"Rançit Singh'in Pencap'ta birleştirdiği Sih hanedanlığı; iki Anglo-Sih Savaşı sonunda İngiliz Doğu Hindistan Şirketi'ne ilhak edildi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Rançit Singh'in Pencap'ta birleştirdiği Sih hanedanlığı; iki Anglo-Sih Savaşı sonunda İngiliz Doğu Hindistan Şirketi'ne ilhak edildi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1801-04-12", tur:"kurulus", b:"Rançit Singh, Lahor'da Maharaca olarak taç giydi" },
     { t:"1839-06-27", tur:"hukumdar", b:"Rançit Singh öldü, ardından taht kavgaları başladı" },
@@ -2341,7 +2341,7 @@ window.DEVLETLER = [
 
 { id:"mali-imparatorlugu", ad:"Mali İmparatorluğu", tur:"imparatorluk", bolge:"bati-afrika",
   f:"1235-01-01", t:"1670-01-01", baskent:"Niani",
-  ozet:"Sundiata Keita'nın Gana İmparatorluğu'nun mirasını devralarak kurduğu, Mansa Musa'nın efsanevi hac yolculuğuyla tanınan Batı Afrika İslâm imparatorluğu; Songhay ve komşu baskılarıyla kademeli çözüldü. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Sundiata Keita'nın Gana İmparatorluğu'nun mirasını devralarak kurduğu, Mansa Musa'nın efsanevi hac yolculuğuyla tanınan Batı Afrika İslâm imparatorluğu; Songhay ve komşu baskılarıyla kademeli çözüldü. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1235-01-01", tur:"kurulus", b:"Sundiata Keita, Kirina Savaşı'nda zafer kazanıp imparatorluğu kurdu" },
     { t:"1324-01-01", tur:"antlasma", b:"Mansa Musa, Kahire ve Mekke'ye görkemli hac yolculuğuna çıktı" },
@@ -2370,7 +2370,7 @@ window.DEVLETLER = [
 },
 { id:"hausa-sehir-devletleri", ad:"Hausa Şehir Devletleri", tur:"devlet", bolge:"bati-afrika",
   f:"1000-01-01", t:"1808-01-01", baskent:"Kano, Katsina, Zaria, Gobir (çeşitli merkezler)",
-  ozet:"Bugünkü kuzey Nijerya'da yedi kardeş şehir (Hausa Bakwai) etrafında örgütlenen bağımsız ticaret devletleri topluluğu; Osman dan Fodio'nun cihad hareketiyle Sokoto Halifeliği'ne katıldı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Bugünkü kuzey Nijerya'da yedi kardeş şehir (Hausa Bakwai) etrafında örgütlenen bağımsız ticaret devletleri topluluğu; Osman dan Fodio'nun cihad hareketiyle Sokoto Halifeliği'ne katıldı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1000-01-01", tur:"kurulus", b:"Hausa şehir devletleri (Kano, Katsina, Zaria, Gobir vd.) bağımsız birimler olarak şekillendi" },
     { t:"1350-01-01", tur:"hukumdar", b:"İslâmiyet ticaret yollarıyla şehirlere yayılmaya başladı" },
@@ -2389,7 +2389,7 @@ window.DEVLETLER = [
 },
 { id:"asanti", ad:"Aşanti İmparatorluğu", tur:"imparatorluk", bolge:"bati-afrika",
   f:"1701-01-01", t:"1902-01-01", baskent:"Kumasi",
-  ozet:"Osei Tutu'nun Denkyira'ya karşı zafer kazanarak kurduğu, altın ve köle ticaretiyle zenginleşen Batı Afrika krallığı; dört Anglo-Aşanti Savaşı sonunda İngiliz Altın Kıyı kolonisine katıldı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Osei Tutu'nun Denkyira'ya karşı zafer kazanarak kurduğu, altın ve köle ticaretiyle zenginleşen Batı Afrika krallığı; dört Anglo-Aşanti Savaşı sonunda İngiliz Altın Kıyı kolonisine katıldı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1701-01-01", tur:"kurulus", b:"Osei Tutu, Denkyira'yı yenerek Aşanti Birliği'ni kurdu" },
     { t:"1824-01-01", tur:"savas", b:"Birinci Anglo-Aşanti Savaşı'nda İngiliz valisini yendi" },
@@ -2399,7 +2399,7 @@ window.DEVLETLER = [
 },
 { id:"dahomey", ad:"Dahomey Krallığı", tur:"krallik", bolge:"bati-afrika",
   f:"1625-01-01", t:"1894-01-01", baskent:"Abomey",
-  ozet:"Fon halkının kurduğu, köle ticaretinde merkezî rol oynayan, kadın savaşçılarıyla (Amazonlar) tanınan Batı Afrika krallığı; Kral Béhanzin'in yenilgisiyle Fransız sömürgesi oldu. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Fon halkının kurduğu, köle ticaretinde merkezî rol oynayan, kadın savaşçılarıyla (Amazonlar) tanınan Batı Afrika krallığı; Kral Béhanzin'in yenilgisiyle Fransız sömürgesi oldu. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1625-01-01", tur:"kurulus", b:"Wegbaja, Abomey merkezli krallığı kurdu" },
     { t:"1727-01-01", tur:"toprak-kazanc", b:"Kıyıdaki Whydah krallığını ele geçirip Atlantik ticaretine doğrudan eriştim kazandı" },
@@ -2408,7 +2408,7 @@ window.DEVLETLER = [
 },
 { id:"benin-kralligi", ad:"Benin Krallığı (Nijerya)", tur:"krallik", bolge:"bati-afrika",
   f:"1180-01-01", t:"1897-02-18", baskent:"Benin Şehri",
-  ozet:"Edo halkının Oba hanedanı altında kurduğu, tunç heykelleriyle ünlü Batı Afrika krallığı (bugünkü Benin ülkesiyle karıştırılmamalı); İngiliz \"Cezalandırma Seferi\" ile yağmalanıp sömürgeye katıldı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Edo halkının Oba hanedanı altında kurduğu, tunç heykelleriyle ünlü Batı Afrika krallığı (bugünkü Benin ülkesiyle karıştırılmamalı); İngiliz \"Cezalandırma Seferi\" ile yağmalanıp sömürgeye katıldı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1180-01-01", tur:"kurulus", b:"Oba hanedanı Benin Şehri'nde krallığı kurdu" },
     { t:"1440-01-01", tur:"hukumdar", b:"Oba Ewuare döneminde krallık genişleyip merkezîleşti" },
@@ -2417,7 +2417,7 @@ window.DEVLETLER = [
 },
 { id:"oyo-imparatorlugu", ad:"Oyo İmparatorluğu (Yoruba)", tur:"imparatorluk", bolge:"bati-afrika",
   f:"1400-01-01", t:"1836-01-01", baskent:"Oyo-Ile (Eski Oyo)",
-  ozet:"Yoruba halkının süvari gücüyle kurduğu, komşu Dahomey'i bile haraca bağlayan güçlü imparatorluk; iç taht kavgaları ve Fulani cihad baskısıyla çöktü. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Yoruba halkının süvari gücüyle kurduğu, komşu Dahomey'i bile haraca bağlayan güçlü imparatorluk; iç taht kavgaları ve Fulani cihad baskısıyla çöktü. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1400-01-01", tur:"kurulus", b:"Oyo-Ile'de Yoruba krallığı kuruldu" },
     { t:"1730-01-01", tur:"toprak-kazanc", b:"Dahomey Krallığı'nı yenip haraca bağladı" },
@@ -2427,7 +2427,7 @@ window.DEVLETLER = [
 },
 { id:"kongo-kralligi", ad:"Kongo Krallığı", tur:"krallik", bolge:"orta-afrika",
   f:"1390-01-01", t:"1914-01-01", baskent:"Mbanza Kongo (São Salvador)",
-  ozet:"Kongo Nehri ağzında kurulan, Portekizlilerle erken temasla Hristiyanlığı devlet dini yapan Orta Afrika krallığı; Mbwila Savaşı'nda ağır darbe aldıktan sonra küçülerek Portekiz nüfuzu altında varlığını uzun süre sürdürdü. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Kongo Nehri ağzında kurulan, Portekizlilerle erken temasla Hristiyanlığı devlet dini yapan Orta Afrika krallığı; Mbwila Savaşı'nda ağır darbe aldıktan sonra küçülerek Portekiz nüfuzu altında varlığını uzun süre sürdürdü. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1390-01-01", tur:"kurulus", b:"Lukeni lua Nimi, Kongo Krallığı'nı kurdu" },
     { t:"1491-01-01", tur:"hukumdar", b:"Kral I. João, Portekizlilerin etkisiyle Hristiyanlığı kabul etti" },
@@ -2437,7 +2437,7 @@ window.DEVLETLER = [
 },
 { id:"ndongo", ad:"Ndongo Krallığı (Angola)", tur:"krallik", bolge:"orta-afrika",
   f:"1500-01-01", t:"1671-01-01", baskent:"Kabasa",
-  ozet:"Kongo'nun güneyinde kurulan, Kraliçe Nzinga'nın Portekiz sömürgeciliğine karşı onlarca yıl direnişiyle tanınan krallık; Portekiz'in Pungo Andongo'yu almasıyla fiilen sona erdi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Kongo'nun güneyinde kurulan, Kraliçe Nzinga'nın Portekiz sömürgeciliğine karşı onlarca yıl direnişiyle tanınan krallık; Portekiz'in Pungo Andongo'yu almasıyla fiilen sona erdi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1500-01-01", tur:"kurulus", b:"Ngola hanedanı Ndongo Krallığı'nı kurdu" },
     { t:"1624-01-01", tur:"hukumdar", b:"Kraliçe Nzinga tahta çıkıp Portekiz'e karşı uzun direnişi başlattı" },
@@ -2446,7 +2446,7 @@ window.DEVLETLER = [
 },
 { id:"lunda-imparatorlugu", ad:"Lunda İmparatorluğu", tur:"imparatorluk", bolge:"orta-afrika",
   f:"1665-01-01", t:"1887-01-01", baskent:"Musumba",
-  ozet:"Orta Afrika'da (bugünkü Kongo-Zambiya-Angola sınır bölgesi) fildişi ve köle ticaretiyle zenginleşen, gevşek bağlı geniş bir konfederasyon kuran imparatorluk; Avrupa sömürge paylaşımıyla parçalandı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Orta Afrika'da (bugünkü Kongo-Zambiya-Angola sınır bölgesi) fildişi ve köle ticaretiyle zenginleşen, gevşek bağlı geniş bir konfederasyon kuran imparatorluk; Avrupa sömürge paylaşımıyla parçalandı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1665-01-01", tur:"kurulus", b:"Mwata Yamvo hanedanı Lunda İmparatorluğu'nu kurdu" },
     { t:"1750-01-01", tur:"toprak-kazanc", b:"Fildişi ve köle ticaret ağları Atlantik ve Hint Okyanusu kıyılarına uzandı" },
@@ -2455,7 +2455,7 @@ window.DEVLETLER = [
 },
 { id:"buganda", ad:"Buganda Krallığı", tur:"krallik", bolge:"dogu-afrika",
   f:"1300-01-01", t:"1923-10-29", baskent:"Mengo (Kampala)",
-  ozet:"Victoria Gölü kıyısında kurulan, İngiliz himayesi altında da kurumlarını koruyarak varlığını sürdüren Doğu Afrika krallığı (1923 sonrasında da sürdü). TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Victoria Gölü kıyısında kurulan, İngiliz himayesi altında da kurumlarını koruyarak varlığını sürdüren Doğu Afrika krallığı (1923 sonrasında da sürdü). TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1300-01-01", tur:"kurulus", b:"Kintu hanedanı Buganda Krallığı'nı kurdu" },
     { t:"1894-06-18", tur:"antlasma", b:"İngiltere ile himaye antlaşması imzalandı" }
@@ -2463,7 +2463,7 @@ window.DEVLETLER = [
 },
 { id:"zulu-kralligi", ad:"Zulu Krallığı", tur:"krallik", bolge:"guney-afrika",
   f:"1816-01-01", t:"1879-07-04", baskent:"Ulundi",
-  ozet:"Shaka'nın askerî reformlarıyla küçük bir beylikten büyük bir savaşçı krallığa dönüştürdüğü Güney Afrika devleti (\"Mfecane\" kargaşasını başlattı); Anglo-Zulu Savaşı'nda İngiliz'e yenilip ilhak edildi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Shaka'nın askerî reformlarıyla küçük bir beylikten büyük bir savaşçı krallığa dönüştürdüğü Güney Afrika devleti (\"Mfecane\" kargaşasını başlattı); Anglo-Zulu Savaşı'nda İngiliz'e yenilip ilhak edildi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1816-01-01", tur:"kurulus", b:"Shaka, Zulu klanını askerî reformlarla büyük bir krallığa dönüştürdü" },
     { t:"1838-12-16", tur:"savas", b:"Kan Nehri Savaşı'nda Boer göçmenlerine yenildi" },
@@ -2473,7 +2473,7 @@ window.DEVLETLER = [
 },
 { id:"merina", ad:"Merina Krallığı (Madagaskar)", tur:"krallik", bolge:"dogu-afrika",
   f:"1787-01-01", t:"1897-02-28", baskent:"Antananarivo",
-  ozet:"Andrianampoinimerina'nın Imerina platosunu birleştirip kurduğu, kısa sürede Madagaskar adasının büyük bölümüne hâkim olan krallık; Fransız istilasıyla sona erdi, Kraliçe III. Ranavalona sürgüne gönderildi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Andrianampoinimerina'nın Imerina platosunu birleştirip kurduğu, kısa sürede Madagaskar adasının büyük bölümüne hâkim olan krallık; Fransız istilasıyla sona erdi, Kraliçe III. Ranavalona sürgüne gönderildi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1787-01-01", tur:"kurulus", b:"Andrianampoinimerina, İmerina platosunu birleştirdi" },
     { t:"1817-01-01", tur:"antlasma", b:"İngiltere ile antlaşma imzalayıp modernleşme sürecine girdi" },
@@ -2483,7 +2483,7 @@ window.DEVLETLER = [
 },
 { id:"svahili-sehirleri", ad:"Svahili Şehir Devletleri (Kıyı)", tur:"devlet", bolge:"dogu-afrika",
   f:"1000-01-01", t:"1698-12-13", baskent:"Kilwa, Mombasa, Zengibar (çeşitli merkezler)",
-  ozet:"Doğu Afrika kıyısında Arap-Bantu ticaret kültürünün doğurduğu, altın ve fildişi ticaretiyle zenginleşen bağımsız İslâm liman şehirleri ağı; Portekiz istilası ve ardından Umman'ın kıyıyı ele geçirmesiyle bağımsızlıklarını kaybettiler. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Doğu Afrika kıyısında Arap-Bantu ticaret kültürünün doğurduğu, altın ve fildişi ticaretiyle zenginleşen bağımsız İslâm liman şehirleri ağı; Portekiz istilası ve ardından Umman'ın kıyıyı ele geçirmesiyle bağımsızlıklarını kaybettiler. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1000-01-01", tur:"kurulus", b:"Kilwa, Mombasa, Malindi gibi bağımsız Svahili liman şehirleri gelişmeye başladı" },
     { t:"1498-01-01", tur:"isgal", b:"Vasco da Gama'nın gelişiyle Portekiz baskısı başladı" },
@@ -2492,7 +2492,7 @@ window.DEVLETLER = [
 },
 { id:"umman-zengibar", ad:"Umman-Zengibar Sultanlığı", tur:"sultanlik", bolge:"dogu-afrika",
   f:"1698-01-01", t:"1923-10-29", baskent:"Maskat → Zengibar (Stone Town)",
-  ozet:"Umman'ın Doğu Afrika kıyısını Portekiz'den alıp kurduğu deniz-ticaret imparatorluğu; Said bin Sultan'ın ölümüyle Umman ve Zengibar iki ayrı sultanlığa bölündü, Zengibar İngiliz himayesine girdi (1923 sonrasında da sürdü). TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Umman'ın Doğu Afrika kıyısını Portekiz'den alıp kurduğu deniz-ticaret imparatorluğu; Said bin Sultan'ın ölümüyle Umman ve Zengibar iki ayrı sultanlığa bölündü, Zengibar İngiliz himayesine girdi (1923 sonrasında da sürdü). TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1698-01-01", tur:"kurulus", b:"Umman kuvvetleri Doğu Afrika kıyısını Portekiz'den aldı (bkz. [[svahili-sehirleri]])" },
     { t:"1832-01-01", tur:"hukumdar", b:"Said bin Sultan başkentini Zengibar'a taşıdı" },
@@ -2866,7 +2866,7 @@ window.DEVLETLER = [
 },
 { id:"racput", ad:"Racput Devletleri (Mevar, Mârvâr, Amber, Bikaner)", tur:"devlet", bolge:"guney-asya",
   f:"1281-01-01", t:"1923-10-29", baskent:"Çitor/Udeypûr · Codhpûr · Caypûr (çok merkezli)", harita:"racput",
-  ozet:"Racputâne'nin birbirinden bağımsız Hindu hânedanları; Delhi ve Bâbürlü baskısına yüzyıllarca direnip sonunda İngiliz himâyesinde prens devleti olarak 1923'ün ötesine geçtiler. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Racputâne'nin birbirinden bağımsız Hindu hânedanları; Delhi ve Bâbürlü baskısına yüzyıllarca direnip sonunda İngiliz himâyesinde prens devleti olarak 1923'ün ötesine geçtiler. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1303-01-01", tur:"toprak-kayip", b:"Alâeddin Halacî Çitor'u aldı, Mevar uzun bir sürgün dönemine girdi" },
     { t:"1568-01-01", tur:"toprak-kayip", b:"Ekber Çitor'u kuşatıp aldı, Racput direnişinin merkezi kırıldı" },
@@ -2906,7 +2906,7 @@ window.DEVLETLER = [
 },
 { id:"nayak-devletleri", ad:"Nâyak Beylikleri (Madurai, Tancûr, Cinci, Keladi)", tur:"beylik", bolge:"guney-asya",
   f:"1336-01-01", t:"1763-01-01", baskent:"Madurai · Tancûr · Cinci · Keladi (çok merkezli)", harita:"nayak-devletleri",
-  ozet:"Vijayanagara'nın valilerinden doğup imparatorluk çökünce fiilen bağımsızlaşan güney Hindistan beylikleri; sonuncuları Meysûr ve Karnâtik güçleri arasında eridi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Vijayanagara'nın valilerinden doğup imparatorluk çökünce fiilen bağımsızlaşan güney Hindistan beylikleri; sonuncuları Meysûr ve Karnâtik güçleri arasında eridi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1336-01-01", tur:"kurulus", b:"Musunuri nâyakları Ma'ber Sultanlığı'na karşı Telingana'yı geri aldı" },
     { t:"1565-01-25", tur:"bolunme", b:"Talikota yenilgisinden sonra nâyaklar fiilen bağımsız beylikler hâline geldi" },
@@ -2916,7 +2916,7 @@ window.DEVLETLER = [
 },
 { id:"orissa", ad:"Orissa (Doğu Ganga ve Gacapati Krallığı)", tur:"krallik", bolge:"guney-asya",
   f:"1281-01-01", t:"1568-01-01", baskent:"Kattak", harita:"orissa",
-  ozet:"Bengal körfezi kıyısında Doğu Ganga'dan Gacapatilere geçen, Puri tapınak kültürünün merkezi olan Hindu krallığı; Bengal'in Kerrânî sultanlarınca fethedilerek son buldu. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Bengal körfezi kıyısında Doğu Ganga'dan Gacapatilere geçen, Puri tapınak kültürünün merkezi olan Hindu krallığı; Bengal'in Kerrânî sultanlarınca fethedilerek son buldu. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1435-01-01", tur:"hukumdar", b:"Doğu Ganga hânedanının yerini Gacapati (Sûryavamşa) hânedanı aldı" },
     { t:"1512-01-01", tur:"savas", b:"Krişnadevaraya'nın seferleriyle güney toprakları Vijayanagara'ya kaptırıldı" },
@@ -2925,7 +2925,7 @@ window.DEVLETLER = [
 },
 { id:"tibet", ad:"Tibet (Phagmodrupa · Rinpungpa · Tsangpa)", tur:"devlet", bolge:"dogu-asya",
   f:"1354-01-01", t:"1642-01-01", baskent:"Nêdong → Şigatse", harita:"tibet",
-  ozet:"Yuan vesâyetinin çözülmesinden sonra Tibet'i sırayla yöneten üç yerli hânedanın dönemi; Gûşi Han'ın müdahalesiyle iktidar Dalai Lama hükûmetine geçti (bkz. [[tibet-ganden-phodrang]]). TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Yuan vesâyetinin çözülmesinden sonra Tibet'i sırayla yöneten üç yerli hânedanın dönemi; Gûşi Han'ın müdahalesiyle iktidar Dalai Lama hükûmetine geçti (bkz. [[tibet-ganden-phodrang]]). TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1354-01-01", tur:"kurulus", b:"Cangçub Gyaltsen, Sakya-Yuan düzenini devirip Phagmodrupa yönetimini kurdu" },
     { t:"1435-01-01", tur:"hukumdar", b:"Rinpungpa beyleri Phagmodrupa'yı gölgede bırakıp Tsang'a hâkim oldu" },
@@ -2944,8 +2944,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"kuzey-yuan", ad:"Kuzey Yuan (Moğol Hanlığı)", tur:"hanlik", bolge:"dogu-asya",
-  f:"1368-09-14", t:"1635-01-01", baskent:"Karakurum → değişken ordugâh", harita:"kuzey-yuan",
-  ozet:"Ming'in Çin'den kovduğu Yuan sarayının bozkırda sürdürdüğü hanlık; Dayan Han'la bir süre toparlandı, Ligdan Han'ın ölümünden sonra mührü Mançulara geçti. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  f:"1368-09-14", t:"1691-05-30", baskent:"Karakurum → değişken ordugâh", harita:"kuzey-yuan",
+  ozet:"Ming'in Çin'den kovduğu Yuan sarayının bozkırda sürdürdüğü hanlık; Dayan Han'la bir süre toparlandı, Ligdan Han'ın ölümünden sonra mührü Mançulara geçti. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1368-09-14", tur:"kurulus", b:"Toghon Temür Dadu'yu (Pekin) bırakıp bozkıra çekildi, Yuan sarayı kuzeyde sürdü" },
     { t:"1449-09-01", tur:"savas", b:"Tumu'da Oyratlar Ming imparatorunu esir aldı" },
@@ -2981,7 +2981,7 @@ window.DEVLETLER = [
 
 { id:"mogulistan", ad:"Moğulistan (Doğu Çağatay Hanlığı)", tur:"hanlik", bolge:"orta-asya",
   f:"1347-01-01", t:"1680-01-01", baskent:"Almalık → Turfan", harita:"mogulistan",
-  ozet:"Çağatay Hanlığı'nın doğuya çekilen kolu; batı ucu 1514'te Yarkent Hanlığı'na dönüşürken Turfan kolu Cungar fethine kadar sürdü. ⚠️ [[mogolistan]] ile karıştırılmamalı, aralarında 231 yıl var. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Çağatay Hanlığı'nın doğuya çekilen kolu; batı ucu 1514'te Yarkent Hanlığı'na dönüşürken Turfan kolu Cungar fethine kadar sürdü. ⚠️ [[mogolistan]] ile karıştırılmamalı, aralarında 231 yıl var. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1347-01-01", tur:"bolunme", b:"Tuğluk Timur, Çağatay ulusunun doğu kanadında han ilân edildi" },
     { t:"1514-01-01", tur:"bolunme", b:"Sultan Said Han batı ucunda Yarkent Hanlığı'nı kurdu (bkz. [[yarkent-hanligi]])" },
@@ -3035,7 +3035,7 @@ window.DEVLETLER = [
 },
 { id:"gond-kralliklari", ad:"Gond Krallıkları (Garha-Mandla, Deogarh)", tur:"krallik", bolge:"guney-asya",
   f:"1281-01-01", t:"1781-01-01", baskent:"Mandla", harita:"gond-kralliklari",
-  ozet:"Orta Hindistan ormanlarında Gond kabile hânedanlarının kurduğu krallıklar; Râni Durgâvatî'nin direnişiyle anılır, Maratha yayılmasıyla son buldu. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Orta Hindistan ormanlarında Gond kabile hânedanlarının kurduğu krallıklar; Râni Durgâvatî'nin direnişiyle anılır, Maratha yayılmasıyla son buldu. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1564-01-01", tur:"savas", b:"Râni Durgâvatî, Ekber'in kuvvetlerine karşı savaşırken hayatını kaybetti" },
     { t:"1781-01-01", tur:"son", b:"Garha-Mandla Maratha idaresine geçti, bağımsız Gond krallığı bitti" }
@@ -3043,7 +3043,7 @@ window.DEVLETLER = [
 },
 { id:"ahom", ad:"Ahom Krallığı (Assam)", tur:"krallik", bolge:"guney-asya",
   f:"1281-01-01", t:"1826-01-01", baskent:"Çaraideo → Rangpûr", harita:"ahom",
-  ozet:"Brahmaputra vadisinde altı yüzyıl süren, Bâbürlü seferlerini Saraighat'ta durdurmasıyla anılan Tai kökenli krallık; Birmanya istilâsından sonra İngiliz idaresine geçti. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Brahmaputra vadisinde altı yüzyıl süren, Bâbürlü seferlerini Saraighat'ta durdurmasıyla anılan Tai kökenli krallık; Birmanya istilâsından sonra İngiliz idaresine geçti. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1671-01-01", tur:"savas", b:"Saraighat'ta Lachit Barphukan Bâbürlü donanmasını bozguna uğrattı" },
     { t:"1817-01-01", tur:"isgal", b:"Birmanya kuvvetleri Assam'ı işgal etti" },
@@ -3052,7 +3052,7 @@ window.DEVLETLER = [
 },
 { id:"manipur", ad:"Manipûr Krallığı", tur:"krallik", bolge:"guney-asya",
   f:"1281-01-01", t:"1923-10-29", baskent:"İmphâl", harita:"manipur",
-  ozet:"Assam ile Birmanya arasındaki vadide Meitei hânedanının yönettiği krallık; 1891'de İngiliz himâyesine girdi ama tahtı 1923'ün ötesine taşıdı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Assam ile Birmanya arasındaki vadide Meitei hânedanının yönettiği krallık; 1891'de İngiliz himâyesine girdi ama tahtı 1923'ün ötesine taşıdı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1819-01-01", tur:"isgal", b:"Birmanya işgali 'Yedi Yıllık Yıkım' diye anılan dönemi başlattı" },
     { t:"1891-01-01", tur:"son", b:"Anglo-Manipûr Savaşı'ndan sonra krallık İngiliz himâyesine alındı" }
@@ -3060,7 +3060,7 @@ window.DEVLETLER = [
 },
 { id:"nepal", ad:"Nepal (Malla Krallıkları → Gorkha/Şah Hânedanı)", tur:"krallik", bolge:"guney-asya",
   f:"1281-01-01", t:"1923-10-29", baskent:"Katmandu", harita:"nepal",
-  ozet:"Katmandu vadisinin üç Malla krallığından Gorkha fethiyle tek krallığa dönüşen Himalaya devleti; hiç sömürgeleşmedi, 1923'ün ötesine geçti. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Katmandu vadisinin üç Malla krallığından Gorkha fethiyle tek krallığa dönüşen Himalaya devleti; hiç sömürgeleşmedi, 1923'ün ötesine geçti. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1768-09-25", tur:"birlesme", b:"Prithvi Narayan Şah Katmandu'yu alıp vadiyi Gorkha yönetiminde birleştirdi" },
     { t:"1816-03-04", tur:"antlasma", b:"Sugauli Antlaşması ile İngilizlere toprak verildi, sınırlar bugünkü hâline yaklaştı" },
@@ -3069,7 +3069,7 @@ window.DEVLETLER = [
 },
 { id:"ladak", ad:"Ladakh Krallığı (Namgyal Hânedanı)", tur:"krallik", bolge:"guney-asya",
   f:"1281-01-01", t:"1834-01-01", baskent:"Leh", harita:"ladak",
-  ozet:"Batı Himalaya'da Tibet Budizmi'ne bağlı, İpek yolu kollarını denetleyen krallık; Dogra istilâsıyla Cammû-Keşmir'e katıldı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Batı Himalaya'da Tibet Budizmi'ne bağlı, İpek yolu kollarını denetleyen krallık; Dogra istilâsıyla Cammû-Keşmir'e katıldı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1681-01-01", tur:"savas", b:"Tibet-Ladakh-Moğol savaşı başladı, krallık Bâbürlü yardımıyla ayakta kaldı" },
     { t:"1834-01-01", tur:"son", b:"Zorâver Singh'in Dogra seferi krallığı sona erdirdi" }
@@ -3086,7 +3086,7 @@ window.DEVLETLER = [
 },
 { id:"travankur", ad:"Travankur Krallığı (Venâd)", tur:"krallik", bolge:"guney-asya",
   f:"1281-01-01", t:"1923-10-29", baskent:"Padmanabhapuram → Trivandrum", harita:"travankur",
-  ozet:"Malabar'ın güney ucunda Venâd'dan doğan, Kolaçel'de Hollanda donanmasını yenmesiyle anılan krallık; İngiliz himâyesinde 1923'ün ötesine geçti. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Malabar'ın güney ucunda Venâd'dan doğan, Kolaçel'de Hollanda donanmasını yenmesiyle anılan krallık; İngiliz himâyesinde 1923'ün ötesine geçti. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1729-01-01", tur:"hukumdar", b:"Marthanda Varma tahta geçip küçük beylikleri birleştirdi" },
     { t:"1741-08-10", tur:"savas", b:"Kolaçel'de Hollanda Doğu Hindistan Şirketi kuvvetleri yenildi" },
@@ -3095,7 +3095,7 @@ window.DEVLETLER = [
 },
 { id:"kandy", ad:"Kandy Krallığı (Seylan)", tur:"krallik", bolge:"guney-asya",
   f:"1469-01-01", t:"1815-03-02", baskent:"Kandy", harita:"kandy",
-  ozet:"Seylan'ın dağlık içinde Portekiz ve Hollanda'ya üç yüzyıl direnen, adanın son bağımsız Sinhala krallığı; İngilizlere Kandy Sözleşmesi'yle teslim oldu. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Seylan'ın dağlık içinde Portekiz ve Hollanda'ya üç yüzyıl direnen, adanın son bağımsız Sinhala krallığı; İngilizlere Kandy Sözleşmesi'yle teslim oldu. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1594-10-08", tur:"savas", b:"Danture'de Portekiz seferi bozguna uğradı, krallık bağımsızlığını korudu" },
     { t:"1638-05-23", tur:"ittifak", b:"Hollanda ile Portekiz'e karşı ittifak kuruldu" },
@@ -3104,7 +3104,7 @@ window.DEVLETLER = [
 },
 { id:"yafna", ad:"Yafna (Jaffna) Krallığı", tur:"krallik", bolge:"guney-asya",
   f:"1281-01-01", t:"1619-02-01", baskent:"Nallur", harita:"yafna",
-  ozet:"Seylan'ın kuzeyinde Tamil hânedanının kurduğu, inci ve fil ticaretiyle yaşayan krallık; Portekiz seferiyle ortadan kaldırıldı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Seylan'ın kuzeyinde Tamil hânedanının kurduğu, inci ve fil ticaretiyle yaşayan krallık; Portekiz seferiyle ortadan kaldırıldı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1450-01-01", tur:"isgal", b:"Kotte kuvvetleri krallığı geçici olarak işgal etti" },
     { t:"1619-02-01", tur:"son", b:"Portekiz kuvvetleri son kral Cankili II'yi devirdi, krallık sona erdi" }
@@ -3121,7 +3121,7 @@ window.DEVLETLER = [
 },
 { id:"ava", ad:"Yukarı Birmanya (Pinya, Sagaing, Ava Krallığı)", tur:"krallik", bolge:"guneydogu-asya",
   f:"1313-01-01", t:"1555-01-01", baskent:"Pinya · Sagaing → Ava", harita:"ava",
-  ozet:"Pagan'ın çöküşünden sonra Irrawaddy'nin yukarı havzasını yöneten Burman krallıkları; güneydeki Mon devletiyle Kırk Yıl Savaşı'nı sürdürdü, Toungoo'ya yenildi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Pagan'ın çöküşünden sonra Irrawaddy'nin yukarı havzasını yöneten Burman krallıkları; güneydeki Mon devletiyle Kırk Yıl Savaşı'nı sürdürdü, Toungoo'ya yenildi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1364-01-01", tur:"birlesme", b:"Thado Minbya, Pinya ve Sagaing'i birleştirip Ava'yı kurdu" },
     { t:"1385-01-01", tur:"savas", b:"Hanthawaddy ile Kırk Yıl Savaşı başladı" },
@@ -3130,7 +3130,7 @@ window.DEVLETLER = [
 },
 { id:"lan-na", ad:"Lan Na Krallığı", tur:"krallik", bolge:"guneydogu-asya",
   f:"1296-04-12", t:"1558-04-02", baskent:"Chiang Mai", harita:"lan-na",
-  ozet:"Kuzey Tayland dağlarında Mangrai'nin kurduğu Tai krallığı; Ayutthaya ve Ava arasında denge kurdu, Toungoo fethiyle Birmanya'ya bağlandı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Kuzey Tayland dağlarında Mangrai'nin kurduğu Tai krallığı; Ayutthaya ve Ava arasında denge kurdu, Toungoo fethiyle Birmanya'ya bağlandı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1296-04-12", tur:"kurulus", b:"Kral Mangrai, Chiang Mai'yi kurup krallığın merkezi yaptı" },
     { t:"1558-04-02", tur:"son", b:"Bayinnaung Chiang Mai'yi aldı, krallık Toungoo'ya tâbi oldu" }
@@ -3138,7 +3138,7 @@ window.DEVLETLER = [
 },
 { id:"san-devletleri", ad:"Şan Beylikleri (Sawbwa'lıklar)", tur:"beylik", bolge:"guneydogu-asya",
   f:"1281-01-01", t:"1923-10-29", baskent:"Kengtung · Hsipaw · Yawnghwe (çok merkezli)", harita:"san-devletleri",
-  ozet:"Birmanya'nın doğu yaylasında sawbwa denen kalıtsal beylerin yönettiği Tai devletçikleri; Birmanya, Çin ve Siyam arasında tâbiiyet değiştirerek 1923'ün ötesine geçtiler. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Birmanya'nın doğu yaylasında sawbwa denen kalıtsal beylerin yönettiği Tai devletçikleri; Birmanya, Çin ve Siyam arasında tâbiiyet değiştirerek 1923'ün ötesine geçtiler. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1557-01-01", tur:"isgal", b:"Bayinnaung Şan beyliklerini Toungoo hâkimiyetine bağladı" },
     { t:"1887-01-01", tur:"son", b:"Üçüncü Anglo-Birman Savaşı'ndan sonra beylikler İngiliz himâyesine girdi" }
@@ -3146,7 +3146,7 @@ window.DEVLETLER = [
 },
 { id:"lan-xang", ad:"Lan Xang Krallığı (Laos)", tur:"krallik", bolge:"guneydogu-asya",
   f:"1281-01-01", t:"1707-01-01", baskent:"Luang Prabang → Vientiane", harita:"lan-xang",
-  ozet:"Mekong boyunca kurulan, 'bir milyon fil' adıyla anılan Lao krallığı; veraset çekişmesiyle üçe bölünüp Laos krallıklarına dönüştü. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Mekong boyunca kurulan, 'bir milyon fil' adıyla anılan Lao krallığı; veraset çekişmesiyle üçe bölünüp Laos krallıklarına dönüştü. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1353-01-01", tur:"kurulus", b:"Fa Ngum, Kmer desteğiyle Lan Xang'ı kurdu" },
     { t:"1560-01-01", tur:"kurulus", b:"Setthathirath başkenti Vientiane'ye taşıdı" },
@@ -3155,7 +3155,7 @@ window.DEVLETLER = [
 },
 { id:"angkor-kmer", ad:"Kmer (Angkor) İmparatorluğu", tur:"imparatorluk", bolge:"guneydogu-asya",
   f:"1281-01-01", t:"1431-01-01", baskent:"Angkor (Yasodharapura)", harita:"angkor-kmer",
-  ozet:"Anıtsal tapınakları ve su mühendisliğiyle Güneydoğu Asya'nın en büyük klasik devleti; Ayutthaya baskısıyla Angkor terk edilince ardılı Kamboçya Krallığı'na dönüştü (bkz. [[kamboc-kralligi]]). TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Anıtsal tapınakları ve su mühendisliğiyle Güneydoğu Asya'nın en büyük klasik devleti; Ayutthaya baskısıyla Angkor terk edilince ardılı Kamboçya Krallığı'na dönüştü (bkz. [[kamboc-kralligi]]). TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1296-01-01", tur:"hukumdar", b:"Çinli elçi Zhou Daguan'ın Angkor'u anlattığı ziyaret gerçekleşti" },
     { t:"1431-01-01", tur:"son", b:"Ayutthaya kuşatmasının ardından Angkor terk edildi, merkez güneye taşındı" }
@@ -3172,7 +3172,7 @@ window.DEVLETLER = [
 },
 { id:"mac-hanedani", ad:"Mạc Hanedanı (Đại Việt)", tur:"hanedanlik", bolge:"guneydogu-asya",
   f:"1527-06-15", t:"1677-01-01", baskent:"Thăng Long → Cao Bằng", harita:"mac-hanedani",
-  ozet:"Lê tahtını gasbedip Kuzey Vietnam'ı elli yıl yöneten, sonra Cao Bằng'a çekilip Ming himâyesinde bir asır daha süren hânedan (bkz. [[le-hanedani]]). TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Lê tahtını gasbedip Kuzey Vietnam'ı elli yıl yöneten, sonra Cao Bằng'a çekilip Ming himâyesinde bir asır daha süren hânedan (bkz. [[le-hanedani]]). TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1527-06-15", tur:"kurulus", b:"Mạc Đăng Dung, Lê hükümdarını devirip tahta çıktı" },
     { t:"1592-01-01", tur:"toprak-kayip", b:"Trịnh kuvvetleri Thăng Long'u geri aldı, hânedan Cao Bằng'a çekildi" },
@@ -3181,7 +3181,7 @@ window.DEVLETLER = [
 },
 { id:"malay-sultanliklari", ad:"Malay Sultanlıkları (Kedah, Patani, Perak, Selangor, Trengganu, Pahang)", tur:"sultanlik", bolge:"guneydogu-asya",
   f:"1281-01-01", t:"1909-07-10", baskent:"(çok merkezli)", harita:"malay-sultanliklari",
-  ozet:"Malaka'nın mirasını taşıyan, Siyam ile Cohor arasında tâbiiyet değiştiren yarımada sultanlıkları; Anglo-Siyam Antlaşması'yla İngiliz himâyesine geçtiler. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Malaka'nın mirasını taşıyan, Siyam ile Cohor arasında tâbiiyet değiştiren yarımada sultanlıkları; Anglo-Siyam Antlaşması'yla İngiliz himâyesine geçtiler. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1511-08-24", tur:"bolunme", b:"Malaka'nın Portekiz'e düşmesiyle yarımada sultanlıkları kendi yollarına ayrıldı" },
     { t:"1874-01-20", tur:"antlasma", b:"Pangkor Antlaşması ile Perak'a İngiliz mukimi atandı, himâye başladı" },
@@ -3190,7 +3190,7 @@ window.DEVLETLER = [
 },
 { id:"cohor-sultanligi", ad:"Cohor (Johor) Sultanlığı", tur:"sultanlik", bolge:"guneydogu-asya",
   f:"1528-01-01", t:"1923-10-29", baskent:"Johor Lama → Johor Bahru", harita:"cohor-sultanligi",
-  ozet:"Malaka hânedanının sürgündeki kolunun kurduğu, Portekiz ve Açe ile üçlü mücadeleyi yürüten sultanlık; İngiliz himâyesinde 1923'ün ötesine geçti. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Malaka hânedanının sürgündeki kolunun kurduğu, Portekiz ve Açe ile üçlü mücadeleyi yürüten sultanlık; İngiliz himâyesinde 1923'ün ötesine geçti. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1528-01-01", tur:"kurulus", b:"Alâeddin Riayat Şah II, Malaka hânedanını Cohor'da sürdürdü" },
     { t:"1641-01-01", tur:"ittifak", b:"Hollanda ile ittifak kurup Portekiz Malakası'nın düşüşüne katıldı" },
@@ -3199,7 +3199,7 @@ window.DEVLETLER = [
 },
 { id:"palembang-sultanligi", ad:"Palembang Sultanlığı", tur:"sultanlik", bolge:"guneydogu-asya",
   f:"1281-01-01", t:"1825-01-01", baskent:"Palembang", harita:"palembang-sultanligi",
-  ozet:"Srivicaya mirası üzerinde kurulan, Musi ırmağının biber ve kalay ticaretini denetleyen Sumatra sultanlığı; Hollanda idaresine katılarak son buldu. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Srivicaya mirası üzerinde kurulan, Musi ırmağının biber ve kalay ticaretini denetleyen Sumatra sultanlığı; Hollanda idaresine katılarak son buldu. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1659-01-01", tur:"isgal", b:"Hollanda Doğu Hindistan Şirketi başkenti yakıp ticaret tekelini dayattı" },
     { t:"1825-01-01", tur:"son", b:"Hollanda sultanlığı kaldırıp bölgeyi doğrudan idareye bağladı" }
@@ -3207,7 +3207,7 @@ window.DEVLETLER = [
 },
 { id:"banten-sultanligi", ad:"Banten Sultanlığı", tur:"sultanlik", bolge:"guneydogu-asya",
   f:"1527-06-22", t:"1813-01-01", baskent:"Banten", harita:"banten-sultanligi",
-  ozet:"Batı Cava'da Sunda Kelapa'nın fethiyle kurulan, biber ticaretiyle zenginleşen ve Osmanlı'dan top ustası getirten sultanlık; Hollanda-İngiliz idaresinde kaldırıldı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Batı Cava'da Sunda Kelapa'nın fethiyle kurulan, biber ticaretiyle zenginleşen ve Osmanlı'dan top ustası getirten sultanlık; Hollanda-İngiliz idaresinde kaldırıldı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1527-06-22", tur:"kurulus", b:"Fetahillah Sunda Kelapa'yı alıp Cayakarta adını verdi, Banten kuruldu" },
     { t:"1651-01-01", tur:"hukumdar", b:"Sultan Ageng Tirtayasa döneminde Banten zirveye ulaştı" },
@@ -3216,7 +3216,7 @@ window.DEVLETLER = [
 },
 { id:"banjar-sultanligi", ad:"Bancar (Banjar) Sultanlığı", tur:"sultanlik", bolge:"guneydogu-asya",
   f:"1526-01-01", t:"1860-06-11", baskent:"Bancarmasin", harita:"banjar-sultanligi",
-  ozet:"Güney Borneo'da Demak desteğiyle kurulan, biber ve elmas ticaretiyle yaşayan sultanlık; Hollanda tarafından kaldırılınca Bancar Savaşı patlak verdi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Güney Borneo'da Demak desteğiyle kurulan, biber ve elmas ticaretiyle yaşayan sultanlık; Hollanda tarafından kaldırılınca Bancar Savaşı patlak verdi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1526-01-01", tur:"kurulus", b:"Pangeran Samudera, Demak yardımıyla sultanlığı kurup İslâm'ı kabul etti" },
     { t:"1860-06-11", tur:"son", b:"Hollanda sultanlığı ilga etti; direniş Bancar Savaşı'na dönüştü" }
@@ -3224,7 +3224,7 @@ window.DEVLETLER = [
 },
 { id:"gova-makassar", ad:"Gova (Makassar) Sultanlığı", tur:"sultanlik", bolge:"guneydogu-asya",
   f:"1281-01-01", t:"1667-11-18", baskent:"Makassar (Sombaopu)", harita:"gova-makassar",
-  ozet:"Güney Sulavesi'de serbest liman siyasetiyle Hollanda tekeline karşı duran sultanlık; Bongaya Antlaşması'yla bağımsızlığını yitirdi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Güney Sulavesi'de serbest liman siyasetiyle Hollanda tekeline karşı duran sultanlık; Bongaya Antlaşması'yla bağımsızlığını yitirdi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1605-01-01", tur:"kurulus", b:"Gova hükümdarı İslâm'ı kabul etti, sultanlık müslüman devlet oldu" },
     { t:"1667-11-18", tur:"son", b:"Bongaya Antlaşması ile Hollanda'ya teslim olundu, liman tekele bağlandı" }
@@ -3240,7 +3240,7 @@ window.DEVLETLER = [
 },
 { id:"tidore-sultanligi", ad:"Tidore Sultanlığı (Moluk)", tur:"sultanlik", bolge:"guneydogu-asya",
   f:"1281-01-01", t:"1923-10-29", baskent:"Tidore", harita:"tidore-sultanligi",
-  ozet:"Ternate'nin 11 km ötesindeki rakip karanfil sultanlığı; İspanya'ya yaslanarak Hollanda'ya direndi, Nuku'nun isyanından sonra himâye altında 1923'ün ötesine geçti. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Ternate'nin 11 km ötesindeki rakip karanfil sultanlığı; İspanya'ya yaslanarak Hollanda'ya direndi, Nuku'nun isyanından sonra himâye altında 1923'ün ötesine geçti. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1521-01-01", tur:"ittifak", b:"Magellan seferinin kalan gemileri Tidore'ye uğradı, İspanya ile bağ kuruldu" },
     { t:"1797-01-01", tur:"isyan", b:"Prens Nuku'nun isyanı Hollanda hâkimiyetini bir süre kırdı" }
@@ -3248,7 +3248,7 @@ window.DEVLETLER = [
 },
 { id:"banda-adalari", ad:"Banda Adaları (Orang Kaya Meclisleri)", tur:"devlet", bolge:"guneydogu-asya",
   f:"1281-01-01", t:"1621-03-08", baskent:"Banda Neira", harita:"banda-adalari",
-  ozet:"Dünyanın tek muskat kaynağını elinde tutan, kralsız orang kaya meclisleriyle yönetilen ada topluluğu; Hollanda'nın 1621 kıyımıyla siyasî varlığı sona erdi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Dünyanın tek muskat kaynağını elinde tutan, kralsız orang kaya meclisleriyle yönetilen ada topluluğu; Hollanda'nın 1621 kıyımıyla siyasî varlığı sona erdi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1609-01-01", tur:"savas", b:"Hollanda kale kurma girişimi orang kaya direnişiyle karşılaştı" },
     { t:"1621-03-08", tur:"son", b:"Jan Pieterszoon Coen'in seferi ada halkını yok etti, meclisler dağıldı" }
@@ -3256,7 +3256,7 @@ window.DEVLETLER = [
 },
 { id:"bali-kralliklari", ad:"Bali Krallıkları (Gelgel, Klungkung, Karangasem)", tur:"krallik", bolge:"guneydogu-asya",
   f:"1478-01-01", t:"1908-04-28", baskent:"Gelgel → Klungkung", harita:"bali-kralliklari",
-  ozet:"Majapahit'in çöküşünden sonra Hindu geleneğini sürdüren Bali hânedanları; Hollanda seferlerine puputan denen toplu direnişle karşılık verdiler. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Majapahit'in çöküşünden sonra Hindu geleneğini sürdüren Bali hânedanları; Hollanda seferlerine puputan denen toplu direnişle karşılık verdiler. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1686-01-01", tur:"bolunme", b:"Gelgel dağıldı, ada dokuz küçük krallığa bölündü" },
     { t:"1906-09-20", tur:"savas", b:"Badung puputanı: Hollanda seferine toplu direnişle karşılık verildi" },
@@ -3265,7 +3265,7 @@ window.DEVLETLER = [
 },
 { id:"pagaruyung", ad:"Pagaruyung (Minangkabau) Krallığı", tur:"krallik", bolge:"guneydogu-asya",
   f:"1281-01-01", t:"1833-01-01", baskent:"Pagaruyung", harita:"pagaruyung",
-  ozet:"Sumatra'nın iç yaylasında anaerkil Minangkabau geleneğini taşıyan krallık; 1685'te fiilî bağımsızlığını yitirdi, hânedan Padri Savaşı'nda son buldu. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Sumatra'nın iç yaylasında anaerkil Minangkabau geleneğini taşıyan krallık; 1685'te fiilî bağımsızlığını yitirdi, hânedan Padri Savaşı'nda son buldu. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1685-01-01", tur:"antlasma", b:"Hollanda ile yapılan antlaşma krallığın dış bağımsızlığını sona erdirdi" },
     { t:"1803-01-01", tur:"isyan", b:"Padri hareketi başladı, kraliyet ailesi ile çatışmaya girdi" },
@@ -3274,7 +3274,7 @@ window.DEVLETLER = [
 },
 { id:"timor-beylikleri", ad:"Timor Beylikleri (Liurai'lar)", tur:"beylik", bolge:"guneydogu-asya",
   f:"1281-01-01", t:"1769-10-10", baskent:"(çok merkezli liurai'lıklar)", harita:"timor-beylikleri",
-  ozet:"Sandal ağacı ticaretiyle yaşayan, liurai denen yerli beylerin yönettiği Timor devletçikleri; Portekiz merkezinin Dili'ye taşınmasıyla sömürge düzenine bağlandılar. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Sandal ağacı ticaretiyle yaşayan, liurai denen yerli beylerin yönettiği Timor devletçikleri; Portekiz merkezinin Dili'ye taşınmasıyla sömürge düzenine bağlandılar. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1642-01-01", tur:"isgal", b:"Portekiz seferi Wehale beyliğini kırdı, adada nüfuz kuruldu" },
     { t:"1769-10-10", tur:"son", b:"Portekiz idaresi Dili'ye taşındı, beylikler sömürge düzenine bağlandı" }
@@ -3315,7 +3315,7 @@ window.DEVLETLER = [
 
 { id:"azuchi-momoyama", ad:"Azuchi-Momoyama Dönemi (Oda-Toyotomi Japonyası)", tur:"devlet", bolge:"dogu-asya",
   f:"1568-01-01", t:"1615-06-04", baskent:"Azuchi → Osaka", harita:"azuchi-momoyama",
-  ozet:"Oda Nobunaga ve Toyotomi Hideyoshi'nin Sengoku parçalanmışlığını bitirip Japonya'yı birleştirdiği dönem; Tokugawa şogunluğu 1603'te kurulsa da Toyotomi evi Osaka'da 1615'e kadar direndi (bkz. [[edo-bakufu]]). TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Oda Nobunaga ve Toyotomi Hideyoshi'nin Sengoku parçalanmışlığını bitirip Japonya'yı birleştirdiği dönem; Tokugawa şogunluğu 1603'te kurulsa da Toyotomi evi Osaka'da 1615'e kadar direndi (bkz. [[edo-bakufu]]). TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1568-01-01", tur:"kurulus", b:"Nobunaga Kyoto'ya girip Ashikaga Yoshiaki'yi şogun yaptı, birleştirme başladı" },
     { t:"1582-06-21", tur:"son", b:"Honnō-ji olayında Nobunaga öldürüldü, mirası Hideyoshi'ye geçti" },
@@ -3326,7 +3326,7 @@ window.DEVLETLER = [
 },
 { id:"guney-ming", ad:"Güney Ming (Hongguang, Longwu, Yongli Sarayları)", tur:"hanedanlik", bolge:"dogu-asya",
   f:"1644-04-25", t:"1662-01-01", baskent:"Nanking → Fuzhou → Kunming", harita:"guney-ming",
-  ozet:"Pekin düştükten sonra Ming hânedanının güneyde birbirini izleyen saraylarla sürdürdüğü direniş; Qing ilerledikçe başkent güneybatıya kaydı ve son imparator Birmanya'ya sığındı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Pekin düştükten sonra Ming hânedanının güneyde birbirini izleyen saraylarla sürdürdüğü direniş; Qing ilerledikçe başkent güneybatıya kaydı ve son imparator Birmanya'ya sığındı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1644-04-25", tur:"kurulus", b:"Pekin düşüp Chongzhen canına kıyınca Nanking'de Hongguang sarayı kuruldu" },
     { t:"1645-06-08", tur:"toprak-kayip", b:"Qing kuvvetleri Nanking'i aldı, direniş güneye çekildi" },
@@ -3336,7 +3336,7 @@ window.DEVLETLER = [
 },
 { id:"nguyen-beyligi", ad:"Nguyễn Beyleri (Đàng Trong)", tur:"beylik", bolge:"guneydogu-asya",
   f:"1558-01-01", t:"1802-06-01", baskent:"Phú Xuân (Huế)", harita:"nguyen-beyligi",
-  ozet:"Lê tahtı adına güneyi yöneten, Trịnh'lerle ülkeyi Gianh ırmağından ikiye bölen bey ailesi; Tây Sơn'a yıkıldı, Nguyễn Ánh'ın geri dönüşüyle hânedana dönüştü (bkz. [[nguyen-hanedani]]). TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Lê tahtı adına güneyi yöneten, Trịnh'lerle ülkeyi Gianh ırmağından ikiye bölen bey ailesi; Tây Sơn'a yıkıldı, Nguyễn Ánh'ın geri dönüşüyle hânedana dönüştü (bkz. [[nguyen-hanedani]]). TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1558-01-01", tur:"kurulus", b:"Nguyễn Hoàng, Thuận Hóa valiliğine gidip güneyde kendi düzenini kurdu" },
     { t:"1627-01-01", tur:"savas", b:"Trịnh-Nguyễn savaşları başladı, ülke Gianh ırmağında fiilen ikiye bölündü" },
@@ -3357,7 +3357,7 @@ window.DEVLETLER = [
 },
 { id:"tungning", ad:"Tungning Krallığı (Zheng / Koxinga)", tur:"krallik", bolge:"dogu-asya",
   f:"1650-01-01", t:"1683-10-05", baskent:"Amoy (Xiamen) → Tainan", harita:"tungning",
-  ozet:"Zheng Chenggong'un Ming adına kurduğu, Hollandalıları Formosa'dan çıkarıp Tayvan'ı üs yapan deniz devleti; Qing donanmasına yenilerek teslim oldu. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Zheng Chenggong'un Ming adına kurduğu, Hollandalıları Formosa'dan çıkarıp Tayvan'ı üs yapan deniz devleti; Qing donanmasına yenilerek teslim oldu. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1650-01-01", tur:"kurulus", b:"Zheng Chenggong (Koxinga) Amoy'u üs edinip Ming direnişini denizde sürdürdü" },
     { t:"1661-04-30", tur:"savas", b:"Tayvan seferi başladı, Hollanda Formosası kuşatıldı" },
@@ -3383,7 +3383,7 @@ window.DEVLETLER = [
 
 { id:"teodoro", ad:"Theodoro (Gotya) Prensliği", tur:"prenslik", bolge:"dogu-avrupa",
   f:"1349-01-01", t:"1475-12-01", baskent:"Mankup (Doros)", harita:"teodoro",
-  ozet:"Kırım'ın güneybatı dağlarında Bizans mirasını sürdüren küçük Ortodoks prensliği; Ceneviz limanlarıyla kıyı için çekişti, Mankup kalesi aylarca direndikten sonra Gedik Ahmed Paşa'ya düştü. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Kırım'ın güneybatı dağlarında Bizans mirasını sürdüren küçük Ortodoks prensliği; Ceneviz limanlarıyla kıyı için çekişti, Mankup kalesi aylarca direndikten sonra Gedik Ahmed Paşa'ya düştü. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan) teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu ve o güne kadar Cengizli hanların elindeydi. Atlas zaten öyle kullanıyor (canlı `Urga`: kuzey-yuan 1639→1691-05-30). PETEK/NOKTA parti 24 ölçtü.",
   kronoloji:[
     { t:"1349-01-01", tur:"kurulus", b:"Altın Orda'nın gerilemesiyle Doros/Mankup çevresinde ayrı bir prenslik belirdi (tarih yaklaşık)" },
     { t:"1425-01-01", tur:"hukumdar", b:"Aleksios döneminde Kalamita limanı yenilenip Ceneviz'in kıyı tekeline rakip oldu" },
@@ -3423,6 +3423,46 @@ window.DEVLETLER = [
     { t:"1721-01-01", tur:"son", b:"I. Petro ordayı Askerî Kollegium'a bağladı, siyasî varlığı sona erdi" }
   ]
 }
+,
+{ id:"cin-cumhuriyeti", ad:"Çin Cumhuriyeti", tur:"cumhuriyet", bolge:"dogu-asya",
+  f:"1911-10-10", t:"1923-10-29", baskent:"Nanking → Pekin", harita:"cin-cumhuriyeti",
+  ozet:"Wuchang ayaklanmasıyla Qing hanedanı devrildi ve Çin Cumhuriyeti kuruldu; atlasın ufkunda (1923) ülke merkezî otoritesi zayıf, savaş ağalarının bölüştüğü bir dönemdedir. TDV kapsamı dışında (Doğu Asya), standart akademik kaynağa göre yazıldı. ⚠️ `cin` slug'ı TDV'de CİNLER maddesidir, Çin ülkesi değil.",
+  kronoloji:[
+    { t:"1911-10-10", tur:"kurulus", b:"Wuchang ayaklanması: Qing hanedanına karşı devrim başladı" },
+    { t:"1912-02-12", tur:"siyaset", b:"Son imparator Puyi tahttan çekildi, Qing hanedanı sona erdi" },
+    { t:"1912-11-01", tur:"toprak", b:"Dış Moğolistan ve Tibet fiilî bağımsızlıklarını ilân etti" },
+    { t:"1916-06-06", tur:"siyaset", b:"Yuan Shikai'nin ölümü: savaş ağaları dönemi başladı" }
+  ]
+},
+{ id:"mogolistan", ad:"Moğolistan (Bogd Hanlık)", tur:"hanlik", bolge:"dogu-asya",
+  f:"1911-12-29", t:"1923-10-29", baskent:"Urga (Ulan Batur)", harita:"mogolistan",
+  ozet:"Qing'in çöküşüyle Dış Moğolistan Bogd Han önderliğinde muhtariyetini ilân etti; 1919-1921 arasında Çin işgali ve iç savaşın ardından 1921'de bağımsızlığını kazandı. TDV kapsamı dışında (Doğu Asya), standart akademik kaynağa göre yazıldı. ⚠️ TDV'nin `mogolistan` maddesi Çağatay sonrası MOĞULİSTAN'ı anlatır, modern Moğolistan'ı değil.",
+  kronoloji:[
+    { t:"1911-12-29", tur:"kurulus", b:"Bogd Han tahta çıktı: Dış Moğolistan muhtariyetini ilân etti" },
+    { t:"1919-11-22", tur:"kayip", b:"Çin kuvvetleri Urga'ya girdi, muhtariyet kaldırıldı" },
+    { t:"1921-07-11", tur:"kurulus", b:"Halk hükümeti kuruldu: Moğolistan bağımsızlığını ilân etti" }
+  ]
+},
+{ id:"afgan-durrani", ad:"Dürrânî (Afgan) Devleti", tur:"devlet", bolge:"orta-asya",
+  f:"1747-10-01", t:"1823-01-01", baskent:"Kandehar → Kâbil", harita:"afgan-durrani",
+  ozet:"Nâdir Şah'ın öldürülmesinden sonra Ahmed Şah Dürrânî Kandehar'da hükümdar ilân edildi; Horasan'dan Pencap'a uzanan devlet modern Afganistan'ın çekirdeğidir. Hânedan içi taht kavgalarıyla parçalandı ve yerini Bârekzâyîler aldı.",
+  kaynak:"ahmed-sah-durrani",
+  kronoloji:[
+    { t:"1747-10-01", tur:"kurulus", b:"Ahmed Şah Dürrânî Kandehar'da hükümdar ilân edildi" },
+    { t:"1761-01-14", tur:"savas", b:"Pânîpat: Merathalar'a karşı kazanılan zafer" },
+    { t:"1773-01-01", tur:"hukumdar", b:"Ahmed Şah'ın ölümü, Timur Şah tahta çıktı" }
+  ]
+},
+{ id:"afganistan", ad:"Afganistan (Bârekzâyî Emirliği)", tur:"emirlik", bolge:"orta-asya",
+  f:"1823-01-01", t:"1923-10-29", baskent:"Kâbil", harita:"afganistan",
+  ozet:"Dürrânî Devleti'nin dağılmasından sonra Bârekzâyî hânedanı Kâbil'de emirliği kurdu; yüzyıl boyunca İngiltere ile Rusya arasında tampon devlet oldu ve 1919'da tam bağımsızlığını kazandı.",
+  kaynak:"afganistan",
+  kronoloji:[
+    { t:"1823-01-01", tur:"kurulus", b:"Bârekzâyî hânedanı Kâbil'de emirliği kurdu" },
+    { t:"1839-08-07", tur:"kayip", b:"Birinci İngiliz-Afgan Savaşı: İngilizler Kâbil'i aldı" },
+    { t:"1880-07-22", tur:"siyaset", b:"Abdurrahman Han emir oldu, ülke İngiliz himayesine girdi" },
+    { t:"1919-08-08", tur:"antlasma", b:"Ravalpindi Antlaşması: Afganistan tam bağımsızlığını kazandı" }
+  ]
+}
 
 ];
-
