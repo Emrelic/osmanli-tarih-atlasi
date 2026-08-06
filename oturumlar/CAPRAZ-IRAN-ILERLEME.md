@@ -303,6 +303,90 @@ hanedan hanedan araştırma ister.
 
 ---
 
+## TESLİM 4 — Hürmüz kümesi (2 nokta): brifingin hipotezi KISMEN ÇÜRÜDÜ
+
+Brifing: *"Hürmüz · Kişm → 1507'den PORTEKİZ olabilir."* Ölçtüm — **hayır.**
+
+### Bizde ne var
+
+```
+Hürmüz Adası / Kişm (ikisi de aynı)
+    iran      1281-01-01 → 1510-12-02      229 yıl battaniye
+    safevi    1510-12-02 → 1515-04-01
+    portekiz  1515-04-01 → 1622-05-01
+    safevi    1622-05-01 → 1736-03-08
+```
+
+### Kaynakta ne var
+
+`hurmuz` slug'ı 🔴 **ÖLÜ** (`<title>` "Arama - TDV"). §4③ gereği aradım:
+doğrusu **`hurmuz--iran`** ✓ CANLI. İkinci madde `benderabbas` ✓ CANLI.
+
+> `hurmuz--iran`: *"1507'de kumandan Albuquerque Hürmüz adasını kuşattı; ancak
+> **alamayarak geri döndü**"*
+> *"Fakat yedi yıl sonra tekrar kuşattığında sultanın **metbûu Şah İsmâil**'in
+> o yıllarda Osmanlı Devleti ile mücadele etmesinden de yararlanarak adayı ele
+> geçirdi ve **İran'ın vasalı olan sultanı Portekiz'e bağladı (1514)**"*
+> *"Hürmüz, Portekizliler'in işgalinden 108 yıl sonra Safevî Şahı I. Abbas'ın
+> zamanında geri alındı (**23 Nisan 1622**)"*
+> *"İzkî, Suhâr, Hûr Fekkân ve Kebbâ gibi yerlerin **Hürmüz Sultanlığı**'na
+> bağlı olduğundan"*
+
+> `benderabbas`: *"**1514 yılında** Albuquerque'in kumandasındaki Portekizliler
+> Hürmüz'ü ve kıyıdaki Gamrûn İskelesi'ni ele geçirdiler."*
+
+### Hüküm — dört ayrı kalem
+
+| # | konu | bizde | TDV | hüküm |
+|---|---|---|---|---|
+| B1 | 1507 Portekiz? | yok | *"alamayarak geri döndü"* | ✅ **UYUYOR** — brifingin hipotezi yanlış, verimiz doğru |
+| B2 | Portekiz başlangıcı | `1515-04-01` | **1514** (iki madde birden) | 🟡 **ÇELİŞKİLİ** — kaydedildi, çözülmedi |
+| B3 | Portekiz bitişi | `1622-05-01` | **23 Nisan 1622** | 🟡 TDV **gün** veriyor, bizde ay hassasiyeti — 8 gün |
+| B4 | 1281-1510 `iran` | `iran` | **Hürmüz Sultanlığı** | 🔴 **ÇELİŞİYOR** — bağımsız devletti |
+
+**B2 notu:** `CAPRAZ-GOREV §3` üçüncü satırı — bu bir **temas olgusu** (X bizden
+Y'yi ne zaman aldı) ⇒ *"İKİSİ BİRDEN"* gerekiyor. Portekiz kaynakları
+Albuquerque'in filosunun 26 Mart 1515'te Hürmüz'e vardığını verir; TDV
+*"yedi yıl sonra"* (1507+7) diyerek 1514'e ulaşıyor. Fark ~1 yıl.
+⚠️ `§2.1`'in Jülyen şüphesi **işlemiyor** (fark 10-13 gün değil, bir yıl).
+📌 `§8` gereği **çözmedim, kaydettim.**
+
+**B4 — ve burada projenin kendi kaydını düzeltiyorum.** `devletler.js:1581`
+(`uman` künyesi) şöyle diyor:
+> *"Cülfâr limanının **Hürmüz Krallığı**'na tâbiiyeti literatürde geçer ama
+> **TDV'de ayrı madde bulunmadığı için** henüz ayrılmamıştır."*
+
+🔴 **TDV'de madde VAR** — `hurmuz--iran`, ve *"Hürmüz Sultanlığı"* adını
+kullanıyor. Erteleme gerekçesi **ölü bir slug denemesine** dayanıyor olabilir
+(`hurmuz` ölü, `hurmuz--iran` canlı — §4③'ün tam deseni: *"Kaynak vardı,
+adres yanlıştı"*). Bu, ertelenmiş bir kararın **yeniden açılması** demek.
+
+### 🔴 YAPISAL BULGU — proje "Safevî tâbii" diye bir şey SÖYLEYEMİYOR
+
+TDV Hürmüz sultanının **metbûunun Şah İsmâil** olduğunu, sonra **Portekiz'e
+bağlandığını** söylüyor. Yani 1510-1622 arası Hürmüz bir **tâbi devlet** —
+önce Safevî'nin, sonra Portekiz'in. Bizim veri ikisini de **doğrudan
+hâkimiyet** olarak boyuyor.
+
+Ölçtüm — bu bir ihmal değil, **şema sınırı.** 313 `v:` döneminin **tamamı**
+Osmanlı sistemi içinde:
+```
+Kavalalı hanedanı 54 · Mısır (Kavalalı) 37 · Cezayir Ocaklığı 33 ·
+Mısır (İbrâhim Paşa) 28 · Tunus Ocaklığı 27 · Trablusgarp Ocaklığı 26 ·
+Eflak 16 · Boğdan 11 · Mekke Şerifliği 7 · Bulgaristan Prensliği 7 …
+```
+⇒ `v:` **Osmanlı'ya tâbilik** demek (motor onu açık Osmanlı tonu boyuyor,
+`CLAUDE.md §1`). Yabancı bir devlete tâbilik ifade edilemiyor.
+
+📌 Bu `CLAUDE.md §3.5`'in *"hayalet devletler"* sınıfının **aynası**: orada
+olmayan devlet boyanıyordu, burada **olan devlet boyanamıyor.** Ve
+`OGRENILENLER §72`'nin *"`Değişmez 1` 'kimsenin değildi' cevabını ifade
+edemiyor"* teşhisiyle aynı aile — şema, gerçeğin bir hâlini **söyleyemiyor**.
+
+⚠️ Bu benim çözeceğim bir şey değil (MİMARİ kararı). Kaydediyorum.
+
+---
+
 ## Sistem kaydı — koordinatöre bildirilenler
 
 1. `CLAUDE.md §5` canlı taban satırı bayat (951/2 dosya → gerçekte 1713/16 dosya).
