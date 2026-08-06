@@ -3709,3 +3709,117 @@ Ryazan knezliği kimliği             `ryazan` — dizin + renk, RENK 2'ye
 Voronej/Harkov `kirim` dönemleri    DOKUNULMADI. Kayıtlar doğru; kusur
                                     noktasızlıktı ve o kapandı.
 ```
+
+
+---
+---
+
+# PARTİ 23 — ALTAY ve YUKARI OB
+### `data/yerlesimler_ek18.js` · 10 nokta · 6 Ağustos 2026
+
+**Durum:** 🟢 HAZIR — yeni renk YOK, yeni künye YOK, engel yok.
+
+## ① 🔴 `2s` EVRENİ DÜZELTİLDİ — parti 22'nin dersi
+
+`PARTİ 22`de **+3** dedim, **+5** çıktı. Koordinatör sebebi buldu:
+```
+ben         "bu gün canlı veride kırılma günü mü?"
+denetle.py  degismez2(Y_cekirdek, O, ("s",))   ← YALNIZ `s:` + YALNIZ ÇEKİRDEK
+```
+Altı "zaten var" günümün ikisi (`1356-01-01` Bryansk · `1663-01-01` Penza)
+canlıda vardı ama **`d:`/`v:`de ya da kuyruk dosyasında.**
+⇒ **Doğru soruyu sormuştum, YANLIŞ EVRENDE ölçmüştüm.**
+
+📌 Ve bu, günün ana dersinin **benim tarafımdaki hâli.** Alet için
+*"denetim, motorun sorduğu soruyu değil kendi sorduğu soruyu ölçüyor"*
+demiştim; burada aynısı bana oldu: **parti, denetimin sorduğu soruyu değil
+kendi sorduğu soruyu ölçtü.** Aynı hata ailesinin yedinci hâli.
+
+🟢 Düzeltme kalıcı: `scratchpad/arac2s.py` — evreni `KUYRUK_DOSYALARI`
+hariç, yalnız `s:`. Çekirdek havuzu ölçüldü: **689 gün.**
+
+## ② ÖLÇÜM — `ek13`in kendi açık bıraktığı yer, ve tahminimden büyük
+
+`PARTİ 20`de *"kalan en uzak hücre 686 km ile Altay; bu partinin hedefi
+değil"* yazmıştım. Bu o iş — ve rakam 686 değilmiş:
+```
+box(48-58°K / 75-95°D)   kara 1.473.752 km²   TOPLAM NOKTA: 3
+   Tomsk · Krasnoyarsk · Kobdo — ÜÇÜ DE KUTUNUN KENARINDA
+   ort 382 km · EN UZAK 761 km
+```
+🔴 Bir buçuk milyon km²'yi üç nokta paylaşıyor. **Kolıvan-Kuznetsk hattı**
+— Rusya'nın Sibirya'daki en yoğun 18. yüzyıl kale zinciri — atlasta yok.
+
+### İki ayrı kusur
+```
+1600  🔴 %59,9 SAHİPSİZ (beyaz)   Tomsk 1604'ten önce boş, komşusu yok
+1800  🔴 %29,9 qing-hanedani      Kobdo'nun peteği 650 km kuzeye çıkıyor
+1900     %29,9 qing-hanedani
+```
+⚠️ `§3.5.1` öbür uç: **Kobdo'nun kaydı doğru** (Altay'ın güneyi gerçekten
+Qing'di; sınır 1864 Çuguçak protokolüne kadar tartışmalıydı). Kusur
+DEĞERİNDE değil **MENZİLİNDE** — altı Rus kalesi orta dikmeyi İrtiş'e
+indiriyor, Kobdo'nun kaydına **hiç dokunmadan.**
+
+## ③ QING YAKASINA NOKTA KASTEN KONMADI — ve gerekçesi yeni
+Sınırı iki uçlu yapmak `§3.5.1`in istediği şey ve cazipti. **Konmadı:**
+Çin Altayı'nın 1912 sonrası kimliği `cin-cumhuriyeti` ve o **renksiz**
+(44 renksiz kimliğin birincisi, 85 nokta).
+⇒ Nokta koysaydım **düzeltirken yeni boyasız alan açardım.**
+📌 Yeni kural adayı: **iki uçlu düzeltme, öbür ucun rengi yoksa TEK UÇLU
+kalır.** Renksiz kimlik, `§3.5.1`in istisnasıdır.
+
+## ④ ÜÇ TAHMİN — dosya başında, önceden
+```
+nokta              +10        yeni renk 0      yeni künye 0
+Değişmez 2 borcu    0         Değişmez 3 çelişki 0
+🔴 Değişmez 1 tavanı +10      ← 10/10 kayıt kasitli_bosluk + neden taşıyor
+                                tavan 102 → 112
+🔴 Değişmez 2s      +6        ← DOĞRU EVRENDE ölçüldü
+     maddeli 3 : 1635 (0g) · 1718 (0g) · 1720 (0g)
+     var gün 1 : 1716
+     YENİ    6 : 1594 · 1618 · 1709 · 1722 · 1730 · 1736
+```
+⚠️ **Altısı da kısaltılamaz:** hepsi kale kuruluş YILI ve zaten
+`YYYY-01-01` — `§4`ün en dürüst hâli. `PARTİ 22`de üç antlaşma gününü
+sayaç için çekmemiştim; burada çekecek gün bile yok.
+📌 Sayıyı düşürmenin tek yolu **nokta atmaktı** (`Zmeinogorsk` 1736 →
+`2s` +5). Atmadım: Kolıvan-Voskresensk maden bölgesi Rusya'nın Altay'ı
+tutma SEBEBİDİR. Sayacı memnun etmek için coğrafî gerekçeli bir noktayı
+atmak, `PARTİ 22`de reddettiğim davranışın aynısı olurdu.
+
+## ⑤ İKİ DESEN, İKİSİ DE CANLIDAN
+```
+A  Sibirya hattı (Tara · Omsk · Kainsk · Kuznetsk)
+   kasitli_bosluk → rusya                    canlı `Tomsk` (`_ek9`) deseni
+B  Yukarı İrtiş / Altay eteği (Biysk · Barnaul · Zmeinogorsk ·
+   Pavlodar · Semipalatinsk · Ust-Kamenogorsk)
+   kasitli_bosluk → cungar 1635 → rusya      canlı `Kobdo` deseni
+```
+⚠️ A kümesine `cungar` YAZILMADI: Baraba ve aşağı İrtiş Cungar'ın değil
+Sibir Hanlığı'nın çevresiydi. İki deseni karıştırmak Cungar'ı 600 km
+kuzeye taşırdı.
+
+## ⑥ KABUL ÖLÇÜTÜ
+```
+① 10/10 ✓  ② alan kütüğü temiz ✓  ③ renk cungar·rusya → 2/2 VAR ✓
+④ ad çakışma 1756 canlı kayda karşı 10/10 benzersiz ✓
+⑤ dönem temiz ✓   ⑤b hayalet TEMİZ ✓ (aşım YOK)
+⑥ iç boşluk 0 · bayraksız 0 ✓   ⑦ madde borcu 0 ✓   ⑧ çelişki 0 ✓
++ maske MOTORUN ölçütüyle 10/10 ✓  + kutu 10/10 ✓
++ 3 km en yakın çift 131,87 km (Biysk ↔ Barnaul) ✓
+```
+
+## ⑦ KAYNAK — TDV'YE BASMIYOR, işaretli
+On kuruluş yılının hiçbiri TDV'de değil; `§4` Kuzey Asya için akademik
+referansı yeterli sayıyor ama işaretlenmesini istiyor. Kayıt kayıt yazıldı.
+**Hepsi YIL hassasiyetinde** (`YYYY-01-01`) — uydurulmuş tek gün yok.
+
+## ⑧ AÇIK BIRAKILANLAR
+```
+Çin Altayı (Qing yakası)   `cin-cumhuriyeti` renksiz — renk gelince tek satır
+Kolıvan · Ust-Kaman ötesi  Rus hattının batı ucu; `_ek10` (Tümen · Tobolsk)
+                           bağlanınca yeniden ölçülmeli
+Moğolistan yakası          Selenginsk sınırının ikinci ucu — hâlâ açık
+Yelets · Kozlov            PARTİ 22'nin bıraktığı Yabani Ova iç kalesi
+```
