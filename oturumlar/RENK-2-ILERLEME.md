@@ -296,3 +296,82 @@ arac/renkler.py                    estonya + meiji-japonya yazıldı;
 ```
 `arac/` altındakileri **koordinatör commit'ler** (§7). Bu dosya
 pathspec'li olarak RENK 2 tarafından commit edildi.
+
+---
+
+## ⑧ ÜÇÜNCÜ KALEM — Çin · Afganistan · ve veriden doğan bir çakışma
+
+### 🟢 `cin-cumhuriyeti  #bab75a` — 85 pencerelik delik kapandı
+85 pencere · 1911-10-10 → 1923-10-29. `§8`: renksiz kimlik ⇒ bölge
+çizilmez ⇒ **Çin, Cumhuriyet döneminin tamamında haritada delikti.**
+
+🔴 **QING'İN AİLESİNDE, KASTEN.** 1912-02-12'de Qing düşüyor ve aynı
+toprak Cumhuriyet'e geçiyor — kullanıcının kuralının tarifi birebir bu.
+Aday `qing`in bandından (ton 107°±18) seçildi.
+```
+qing 13,1 (aile — kasten eşiğin hemen üstünde, safevi↔iran'ın 12,7'si gibi)
+rusya 17,2 · nepal 20,2 · abd 23,9 · altlıktan 24,3 · C* %74
+```
+📌 **Serbest seçim ölçüldü ve REDDEDİLDİ:** `#3fb472` qing'den ΔE 22,1
+uzaktı — 1912'de Çin zeytin yeşilinden çimen yeşiline **atlardı**. Üstelik
+payı da kötüydü: onu bağlayan `rusya` 13,8'di, yani dar çift **alâkasız**
+bir komşuydu. Ailede tek dar çift qing'in kendisi, alâkasız her komşu
+≥17,2. **Hem anlamca hem ölçüce daha iyi.**
+
+### 🟢 `afgan-durrani #3c1239` + `afganistan #e4b1d5` — BİR AİLE
+Dürrânî → Barakzâî aynı ülkenin hanedan değişimi ve **1826-1834 arası
+sekiz yıl üst üste biniyor.** Ayrı renk, tek ülkeyi iki devlet gösterirdi.
+
+**Ve kullanıcının lafzı BURADA SAĞLANDI** — `iran` ailesinde
+sağlanamayan şey:
+```
+ton farkı   5,5°    (aynı aile)
+L* farkı   26,2     (ayrım SALT PARLAKLIKTAN)
+aile içi ΔE 26,3    ·  zayıf halka 20,6
+```
+`iran` ailesi 17,3 birimlik L\* aralığına dört üye sığdırmak zorundaydı;
+burada iki üye var, yer bol, tarif harfiyen uygulandı.
+
+⚠️ Üç eleme, ikisi ölçülerek: ① paletin **kendi** uyum dağılımının p75'i
+(sınırsız arama `#abf3ff`/`#75ffc3` gibi neon pastel veriyordu, uyum
+0,58-0,64 — aracın uyardığı "en ayrık" tuzağı) ② C* p10-p75 ③ Osmanlı
+kırmızı şeridi 15-35° dışı (ilk çözüm `#e4b1d2` tam 15,3°'deydi).
+
+### 🔴 `cungar #7b1fa2 → #3fb4a2` — ÇAKIŞMA VERİDEN DOĞDU
+`hokand` yazılıp Mâverâünnehir partisi bağlanınca (1729 → 1745 nokta)
+`buhara` ile `cungar` **komşu oldular** — ΔE 10,5. Sabahki koşuda bu çift
+YOKTU ve **ikisi de renk değiştirmedi.**
+
+📌 **DERS: bir renk paleti verinin fonksiyonudur.** Nokta eklemek, hiçbir
+hex'e dokunmadan bir çakışma **yaratabilir.** ⇒ Parti bağlayan her
+koşudan sonra `renk_olc.py` yeniden koşmalı; *"renkler değişmedi, denetim
+de değişmez"* **yanlış.**
+
+Hangisinin taşınacağı ölçüldü: `cungar` yeni yerinde 14,5 alıyor,
+`buhara` ancak 13,0 (24 komşu, paletin en kısıtlı düğümlerinden). Ucuz
+olan taşındı. `#7b1fa2` beyanı güncellendi (5 → 4 üye).
+
+### ⚠️ KÜNYE — koordinatörün listesinde eksik bir satır
+Koordinatör `afgan-durrani` ve `afganistan` için künye yokluğunu bildirdi.
+**Ölçtüm: `cin-cumhuriyeti`nin de künyesi YOK** — `devletler.js`te kayıt
+hiç yok, yalnız `qing-hanedani` var (1636-05-15 → 1912-02-12). Yani
+bugünkü üç kalemin **üçü de** künye bekliyor.
+
+| kimlik | künye |
+|---|---|
+| `cin-cumhuriyeti` | 🔴 hiç yok — *koordinatörün listesinde görünmüyordu* |
+| `afgan-durrani` | 🔴 hiç yok |
+| `afganistan` | 🔴 hiç yok |
+| `hokand` | 🟡 var, `harita:` alanı boş |
+| `sibir-hanligi` | 🟡 var (id `sibir`), `harita:` boş + `t` 7,6 ay erken |
+| `izlanda` | 🔴 hiç yok |
+
+### ÖLÇÜM
+```
+BOYALAR      230 → 235   (+estonya +hokand +cin-cumhuriyeti
+                          +afgan-durrani +afganistan)
+canlı veri   1713 → 1756 nokta
+renk_olc     görünmez 0 · çakışma 0 · aynı-hex 0     ✓
+--dogrula    7 öneri · 0 fark                        ✓
+```
+`bitti` demiyorum — `sibir-hanligi` ve `izlanda` künye bekliyor.
