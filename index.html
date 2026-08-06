@@ -334,6 +334,7 @@
 <script src="data/yerlesimler_ek18.js?v=r833"></script>
 <script src="data/yerlesimler_ek16.js?v=r833"></script>
 <script src="data/yerlesimler_ek20.js?v=r833"></script>
+<script src="data/yerlesimler_ek22.js?v=r833"></script>
 <script>
   // Parti dosyalari KENDI kuresel degiskenlerini tanimliyor; app.js yalniz
   // window.YERLESIMLER okuyor. Birlestirme burada, TEK yerde yapilir --
@@ -369,6 +370,17 @@
     .concat(window.YERLESIMLER_EK17 || [])
     .concat(window.YERLESIMLER_EK18 || [])
     .concat(window.YERLESIMLER_EK20 || []);
+    // 🔴 ek19 · ek21 · ek22 BILEREK YOK — ve sebebi SIRALAMA:
+    //    Bu uc parti `girdi.py`ye BAGLANDI (motor siradaki kosuda okuyacak)
+    //    ama `donemler.js` HENUZ r833'ten, yani 1772 noktalik kosudan.
+    //    YERLESIMLER dizisi harita ETIKETLERINI besliyor (poligonlari degil);
+    //    simdi eklersem Kerulen · Cocek · Samara'nin ADI cikar ama altindaki
+    //    toprak hala ESKI komsunun peteginin rengiyle boyali olur.
+    //    ⇒ "veri dogru, gorunen yanlis" sinifi. Siradaki uretim kosusundan
+    //      SONRA uc satir da buraya eklenecek.
+    // 📌 Ustteki kural (uc yer birden) UNUTMAYA karsidir; bu ERTELEME
+    //    olculmus ve gerekcesi yazili — ikisi ayni sey degil.
+    .concat(window.YERLESIMLER_EK22 || []);
 </script>
 <script src="data/bolgeler.js?v=r833"></script>
 <script src="data/devletler_harita.js?v=r833"></script>

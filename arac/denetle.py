@@ -166,7 +166,18 @@ KUYRUK_DOSYALARI = ("yerlesimler_ortaasya2.js", "yerlesimler_avrupa.js",
                     # ⇒ Tavani 114'ten sekiz yukari cekmek yerine kural
                     #   uygulandi: YENI PARTI kendi sayaciyla raporlanir.
                     # Kronoloji yazilinca satir SILINIR = kulliyata kabul.
-                    "yerlesimler_ek3.js")
+                    "yerlesimler_ek3.js",
+                    # 6 Agustos 2026: Mogolistan (_ek19) ve Gobi (_ek21).
+                    # Olculdu -- her noktanin en yakin 3 komsusunun kovasi:
+                    #   ek19  12 kuyruk / 6 cekirdek · ek21  18/18 kuyruk
+                    # Komsulari (Karakurum·Urga·Uliastay·Kobdo·Hami·
+                    # Zhangye·Yinchuan·Baotou) TAMAMI yerlesimler_asya.js.
+                    # 🔴 GEREKCE SAYI DEGIL SINIF TUTARLILIGI: cekirdege
+                    # alinsalar Mogolistan IKI KOVAYA bolunurdu -- ayni dort
+                    # kirilma gunu bir kovada "zaten var", otekinde "yeni".
+                    # (`2s` +0 vs +9 farki bunun SONUCU, sebebi degil.)
+                    "yerlesimler_ek19.js",
+                    "yerlesimler_ek21.js")
 # ⚠️ `s:` boyutu ON AY BOYUNCA HİÇ DENETLENMEDİ (Oturum 13 buldu). Ölçüldü:
 # 566 yabancı kırılması, 115'inin ±30 günde maddesi yok. 115'i İHLAL ilan etmek
 # denetimi ilk koşuda kırmızıya boyar ve OGRENILENLER §3 gereği kimse bakmaz;

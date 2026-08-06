@@ -564,9 +564,6 @@ def main():
         #   uretilen harita 23 dosyalik girdiden, girdi.py 26 derdi.
         # ⇒ Anlik goruntu "YAZABILIRSIN" der, "BAGLAYABILIRSIN" demez.
         #   r772 yayinlandiktan HEMEN SONRA uculu birden baglanacak.
-        "data/yerlesimler_ek19.js":      "6 nokta (Mogolistan/Halha), r772 sonrasi baglanacak",
-        "data/yerlesimler_ek21.js":      "6 nokta (Gobi), r772 sonrasi baglanacak",
-        "data/yerlesimler_ek22.js":      "5 nokta (Don-Volga), r772 sonrasi baglanacak",
     }
 
     # 🔴 EMEKLİ ≠ BEKLEYEN. Bekleyen "önkoşul kapanınca BAĞLANACAK" vaadi

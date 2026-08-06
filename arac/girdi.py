@@ -332,6 +332,19 @@ GIRDI_DOSYALARI = [
     # OLCULDU: kimlik 6 (hepsi renkli+dizinli) · d:/v: 0 · sahipsiz 0
     #   · donem sagligi temiz.
     "yerlesimler_ek20.js",
+    # ── PARTI 24-27 · 6 Agustos 2026, r833 YAYININDAN SONRA ─────────
+    # Uc dosya da kosu sirasinda dogdu (anlik goruntu 05:20:03) ve
+    # BILEREK BEKLETILDI: baglansalardi URETIM_IZI bozulur, yayin
+    # BAYAT gorunurdu. "Anlik goruntu YAZABILIRSIN der, BAGLAYABILIRSIN
+    # demez." r833 yayinlandi, siradaki kosuda haritaya girecekler.
+    # KOVA KARARI OLCULDU (her noktanin en yakin 3 komsusunun kovasi):
+    #   ek19  12 kuyruk / 6 cekirdek → KUYRUK (Mogolistan asya ile)
+    #   ek21  18/18 kuyruk          → KUYRUK
+    #   ek22  15/15 cekirdek        → cekirdek
+    "yerlesimler_ek19.js",
+    "yerlesimler_ek21.js",
+    "yerlesimler_ek22.js",
+
 
 
     # 344 nokta (MOTOR 2, 2 Ağustos 2026 — kutu genişletme koşusuyla).
