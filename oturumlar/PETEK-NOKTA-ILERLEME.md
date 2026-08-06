@@ -4521,3 +4521,92 @@ toprağı yok.** Fetret'in veri karşılığı bu ve muhtemelen kasıtlı; ama
 🟢 Sonuncusu tasarımın en iyi yanı: **eşik sabit değil, kronolojiyle
 birlikte genişler.** `2s` tavanının bugünkü sorunu (dünya kapsamına çıkan
 her parti tavanı kalıcı yükseltiyor) böylece kendiliğinden çözülür.
+
+---
+---
+
+# B — ÇÖL TAVANI PAYDASI: **KENDİ ÖNERİM ÇÜRÜDÜ**
+### 6 Ağustos 2026 · koşu günlüklerinden ölçüldü
+
+Koordinatöre *"payda nokta sayısı yerine `tur:"bolge"` sayısı olabilir —
+ölçmedim, yalnız öneri"* demiştim. **Ölçtüm ve öneri yanlış çıktı.**
+
+## ① KOŞU GÜNLÜKLERİ — sekiz koşu, tek tablo
+```
+koşu           yerleşim   bozuk kenar
+kosu2            1.606        48
+kosu3            1.615        48
+kosu4            1.619        48
+kosu5            1.619        48
+kosu6            1.619        48
+kosu7            1.623        48
+kosu8            1.623        48
+kosu9            1.713        60      ← +90 nokta,  +12 kenar
+kosu_r772        1.772        58      ← +59 nokta,  🔴 −2 kenar
+```
+🔴 **Son satır her oran önerisini çürütüyor: nokta ARTTI, kenar AZALDI.**
+Ve ilk yedi satır: **+17 nokta, kenar tam 48'de sabit.**
+⇒ Bozuk kenar sayısı nokta sayısının fonksiyonu **değil.** Ne noktaya
+ne `bolge`ye bölünür — **oranın paydası diye bir şey yok.**
+
+## ② PEKİ NEYİN FONKSİYONU — ölçüldü, cevap KIYI
+Her partinin noktalarının kıyı çizgisine uzaklığı:
+```
+dosya              nokta   <25 km kıyı   oran
+_ek7  (İskandinav)    39        16       %41
+_ek8  (Arktik)        39        20       %51
+_ek9  (Sibirya)       12         1        %8
+_ek13 (Amur/Sahalin)  16         6       %38
+_ek14 · _ek15 · _ek16 · _ek17 · _ek18 · _ek19
+_ek20 · _ek21 · _ek22                0        %0   ← HEPSİ İÇ KARA
+```
+İki koşuyu blok olarak kıyasla:
+```
+kosu9  = ek7+ek8+ek9      90 nokta · kıyıda 37 (%41)  →  48 → 60   (+12)
+r772   = ek13…ek18+ek20   59 nokta · kıyıda  6 (%10)  →  60 → 58    (−2)
+```
+🟢 **Mekanizma açık:** bozuk kenar **kıyı kesiminden** doğuyor — fiyort,
+ada, girintili sahil. `_ek7`/`_ek8`in 36 fiyort ve ada noktası +12 kenar
+getirdi; benim Sibirya-Orta Asya-bozkır partilerimin **sıfır** kıyı
+noktası kenar getirmedi, hattâ azalttı.
+
+## ③ HÜKÜM — orana çevirme, TABANI YÜKSELT ve YANINA KIYI SAYISINI YAZ
+```
+✗ oran (nokta ya da bolge paydası)   → veri desteklemiyor (①)
+✓ mutlak sayı tripwire olarak KALSIN → çift yönlü nöbetçi zaten doğru
+✓ ama artış OKUNABİLİR olsun         → parti başına "kıyıya <25 km nokta"
+                                       sayısı raporlansın
+```
+⇒ Bugünkü `58 (taban 48) ✗` **regresyon DEĞİL:** +10'un tamamı `_ek7`/`_ek8`in
+fiyort-ada geometrisinden ve o parti dört gün önce bağlandı.
+**`BOZUK_KIYI_TABAN = 58` yapılmalı** — nöbetçinin ALT dalı zaten
+"taban gevşek" derse kendiliğinden düşürecek.
+📌 Ve nöbetçinin çift yönlü olması burada işe yaradı: 60 → 58 düşüşünü
+tek yönlü bir nöbetçi sessizce yutardı.
+
+## ④ 📌 VE BU, KENDİ ÖNERİMİ ÖLÇMENİN DEĞERİ
+Öneriyi *"ölçmedim"* diye işaretlemiştim; ölçünce **çürüdü.** Uygulansaydı
+payda yanlış olurdu ve `_ek17`/`_ek18` gibi `bolge` dolgusu bol ama kıyısı
+sıfır partiler **yanlışlıkla ceza alırdı.**
+⇒ `ONCELIK.md K4`ün bir yüzü daha: **ölçmeden verilen öneri de üç tur
+demektir** — sayı gibi öneri de ölçülür.
+
+---
+
+# C — `arac2s.py` DÜZELTİLDİ
+Kuyruk listesi sabit yazılmıştı; koordinatör aynı gün `ek19` ve `ek21`i
+kuyruğa aldı, aletim görmedi. Artık `denetle.py`den **parantez dengeleyerek**
+okuyor:
+```
+okunan: ortaasya2 · avrupa · asya · ek3 · ek19 · ek21     (6/6 doğru)
+çekirdek `s:` havuzu: 705 → 699 gün
+```
+⚠️ İlk düzeltmem de yanlıştı: `(.*?)\)` regex'i yorumların içindeki
+parantezlerde erken kapanıp **'zaten var' · 'yeni' gibi YORUM metinlerini
+dosya adı sandı.** Parantez sayacına çevrildi ve `.js` süzgeci eklendi.
+📌 Aynı gün ikinci kez: **kalıp (regex) yazarken kalıbın ne yakaladığını
+ölç.** Koordinatör `index.html`de aynı sınıftan düştü (kalıbı `;` ile biten
+satırı kaçırdı), ben burada.
+📌 Ve düzeltmeyi heredoc'la yazarken `\n` gerçek satır sonuna dönüştü —
+`CLAUDE.md §11`in *"sed/heredoc ile düzeltme yapma, scratchpad'e betik yaz"*
+uyarısı, bugün **dördüncü** kez. Edit aracıyla düzeltildi.
