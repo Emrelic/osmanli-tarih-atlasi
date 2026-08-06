@@ -772,7 +772,19 @@ def kapsam_disi(Y, acik):
             ici.append(kayit)
             continue
         en_yakin = min(min(_km(n, k) for k in kure) for n in noktalar)
-        (disi if en_yakin > KAPSAM_ESIGI_KM else ici).append(kayit + (en_yakin,))
+        # 🔴 KAPSAM İÇİ kayıt ASLINDAKİ BİÇİMİYLE döner (5 alan) — aşağı akıştaki
+        # raporlama onu `for d, tip, adlar, baslik, fark in ...` diye açıyor.
+        # İlk yazımda mesafeyi İKİSİNE DE ekledim ve denetim `too many values
+        # to unpack` ile ÇÖKTÜ. Daha kötüsü: çöküşü fark etmedim, çünkü çıktıyı
+        # `grep` ile GÖRMEYİ BEKLEDİĞİM satırlara bakarak süzdüm; eksik olan
+        # satırlar (konum, SONUÇ) gözüme çarpmadı ve "çalışıyor" diye raporladım.
+        # 📌 Günün kendi dersi: bir aletin çıktısını süzerek okumak, ONUN
+        #   ÇALIŞTIĞINI DOĞRULAMAZ. Süzgeç yalnız aradığını gösterir; koşunun
+        #   BİTTİĞİNİ ancak son satır (SONUÇ) ya da çıkış kodu gösterir.
+        if en_yakin > KAPSAM_ESIGI_KM:
+            disi.append(kayit + (en_yakin,))     # ayrıntı için mesafe taşır
+        else:
+            ici.append(kayit)                    # 5 alan, dokunulmadan
     return ici, disi
 
 
