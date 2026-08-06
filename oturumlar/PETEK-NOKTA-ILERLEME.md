@@ -3556,3 +3556,156 @@ ve tam da bu yüzden tehlikeli — `ONCELIK.md K4`ün *"ölçmeden verilen sayı
 üç tur demektir"* kuralı övgüye de işler. Gerçek fayda ileride: Aral
 yatağına (Muynak, Aralsk, kuruyan yatağın dolgu noktaları) nokta koyacak
 parti **gerçekten** risk altındaydı ve artık değil.
+
+
+---
+---
+
+# PARTİ 22 — ORMAN-BOZKIR KUŞAĞI
+### `data/yerlesimler_ek17.js` · 11 nokta · 6 Ağustos 2026
+
+**Durum:** 🟢 HAZIR — yeni renk YOK, yeni künye YOK, bağlanmak için
+hiçbir şey beklemiyor.
+
+## ① 🔴 KAPSAM İTİRAZI — SEVK BENİM BAYAT LİSTEME DAYANIYORDU
+
+Koordinatör *"Karadeniz kuzeyi bozkırı"*yı onayladı ve gerekçesi
+**benim `PARTİ 1 §⑥` listemdi.** Ölçtüm ve **liste bayat çıktı — kendi
+listem, üç gün önce yazdığım.**
+
+```
+                        PARTİ 1 (3 Ağustos)        BUGÜN (6 Ağustos)
+bozkır proper 44-50°K   yarıçap 130-215 km         ort  81 km · en uzak 191 km
+                        1° ızgarada ilk 25'in      ⇒ ARTIK EN AÇ BÖLGE DEĞİL
+                        24'ü buradaydı
+```
+Arada `Zaporojye Seçi` · Don Kazak kümesi (`_ek6`) · `Sloboda bozkırı` ·
+`Donets bozkırı` · `Camboyluk` · `Yediçkul` · `Kalmuk bozkırı` eklendi.
+**Bozkır doldu.** 50 nokta, 28.461 km²/nokta.
+
+📌 Ve bu `§1.5`in dersinin **dördüncü vakası** — ama bu sefer bayatlayan
+belge `CLAUDE.md` değil **benim kendi ilerleme dosyam.** Ölçülmüş bir
+liste bile üç günde eskiyor; **sevk geldiğinde önce ölçtüm, sonra
+başladım.**
+
+## ② AÇLIK BİR KUŞAK KUZEYE KAYMIŞ — ve orası hiç ölçülmemişti
+
+```
+ORMAN-BOZKIR  50-54°K / 29-50°D     kara 640.745 km²
+   ort 162 km · EN UZAK 303 km      (bozkırda en uzak 191)
+box(50-56°K / 28-52°D) TOPLAM NOKTA: 10
+   Kazan · Moskova · Polotsk · Vitebsk · Smolensk · Tula ·
+   Voronej · Saratov · Ural eteği · Kiev
+```
+🔴 **Tula (54,19°K) ile Voronej (51,67°K) arasında 280 km boyunca tek
+nokta yok** — Litvanya-Moskova sınırının bütün tartışmalı kuşağı.
+
+## ③ 🔴 VE ORADA RENK DE YANLIŞ — 184.611 km² KIRIM
+
+1500-06-15'te 50-54°K kuşağının **%28,8'i `kirim`.** Sebep ölçüldü,
+**veri hatası DEĞİL**, saf `§2` emilmesi:
+```
+Voronej  s:[… 1441-01-01→1585-01-01 kirim …]  → 137.821 km²
+Harkov   s:[… 1441-01-01→1654-01-01 kirim …]  →  46.790 km²
+en uzak hücre 53,5°K/42,5°D — Voronej'e 303 km
+```
+İki kayıt da **kendi başına doğru** (Yabani Ova gerçekten Kırım-Nogay akın
+sahasıydı) ama peteği 300 km kuzeye taşıyor: Ryazan · Tambov · Penza
+haritada Kırım Hanlığı.
+
+⇒ Bu partinin `Ryazan · Tambov · Penza · Orel` kayıtları **Voronej'in
+kaydına hiç dokunmadan** o taşmayı kesiyor. `CLAUDE.md §2`nin ders
+kitabı vakası.
+
+## ④ 🔴 `2s` TAHMİNİ — YENİ KURAL, İLK UYGULAMA: **+3**
+
+Koordinatör: *"`s:` yazan her parti beklenen `2s` değişimini de önceden
+yazar."* İki parti üst üste öngörmemiştim; bu sefer **yazmadan önce
+ölçtüm.**
+
+```
+12 kırılma günü  →  3 maddeli  ·  9 açık  →  ama 9'un 6'sı ZATEN VAR GÜN
+   maddeli : 1500-08-01 Vedroşa (8g) · 1552-10-02 Kazan (28g)
+             1636-04-17 Tambov (16g)
+   var gün : 1356 · 1362 · 1438 · 1441 · 1596 · 1663   ⇒ 2s ARTMAZ
+   YENİ    : 1503-04-02 · 1618-12-11 · 1654-01-08      ⇒ 🔴 2s +3
+```
+
+### ⚠️ ÜÇÜNÜ ÇEKMEDİM — ve sebebi dürüstlük
+Canlı veride 1-3 ay ötede kullanılabilir günler var (`1503-01-01` ·
+`1619-01-01` · `1654-01-01`). Onlara çekseydim **`2s` +0** çıkardı.
+**Çekmedim:** üçü de GÜNÜ BİLİNEN antlaşma (Moskova-Litvanya mütarekesi ·
+Deulino · Pereyaslav). Bilinen bir günü sayaç uğruna `YYYY-01-01`e
+indirmek `§4`ün *"gün bilinmiyorsa YYYY-01-01 yaz"* kuralını **tersine
+çevirmek** olurdu — bilgiyi saklamak. **Sayaç üç artsın, tarih doğru kalsın.**
+
+📌 `1440-01-01` farklı ve çekildi: o bir antlaşma günü değil, `nogay`
+künyesinin başlangıç yılı. `1441-01-01` (Kırım'ın kuruluşu) zaten canlı
+verinin Altın Orda parçalanması için kullandığı gün. Bilgi kaybı yok.
+
+📌 Ve bu, `PARTİ 1`de kurduğum tasarım kısıtının ikinci uygulaması:
+**dönem uçlarını mümkün olduğunca veride ZATEN VAR OLAN günlerden seç.**
+Orada madde borcunu sıfırlamıştı, burada `2s`yi **10'dan 3'e** indirdi.
+
+## ⑤ BEKLENEN DEĞİŞİM — tamamı, önceden
+```
+nokta               +11
+yeni renk            0        yeni künye  0
+Değişmez 1 tavanı   +0        ← 11/11 kayıt 1281-01-01'den kesintisiz
+Değişmez 2 borcu     0        (`d:`/`v:` yok)
+Değişmez 3 çelişki   0        (`m:` yazılmadı)
+🔴 Değişmez 2s      +3        ← ölçüldü, gün gün yukarıda
+```
+
+## ⑥ KABUL ÖLÇÜTÜ
+```
+① ayrıştırma 11/11 ✓   ② alan kütüğü temiz ✓
+③ renk altinorda·lehistan·rusya·kirim·nogay·kazan → 6/6 VAR ✓
+④ ad çakışma 1745 canlı kayda karşı 11/11 benzersiz ✓
+⑤ dönem sağlığı temiz ✓   ⑥ iç boşluk 0 ✓   ⑦ madde borcu 0 ✓
+⑧ Değişmez 3 çelişki 0 ✓
++ maske MOTORUN ölçütüyle 11/11 ✓   + kutu 11/11 ✓
++ 3 km en yakın çift 71,53 km (Belgorod ↔ Harkov) ✓
+```
+
+### ⚠️ Kimlik ömrü aşımı VAR — ve repo sözleşmesi
+Hayalet kontrolüm 13 aşım buldu; hiçbiri yeni değil:
+```
+lehistan  dizin 1569-07-01 → canlı 29 dönemin 22'si f'ten ERKEN
+rusya     dizin 1547-01-16 → canlı 242 dönemin 16'sı erken, 211'i geç
+```
+Atlas `lehistan`ı Litvanya için 1569 öncesine, `rusya`yı Moskova için
+1547 öncesine zaten kullanıyor (`Kiev` 1362 · `Smolensk` 1281 · `Tula`
+1281). **Ayrılmadım** — ayrılsam bu on bir nokta, komşusu Kiev ve
+Smolensk ile çelişen tek küme olurdu.
+`kazan` · `nogay` · `altinorda` aşımı YOK.
+
+## ⑦ İŞARETLİ TEK ÖDÜNÇ — RYAZAN
+Ryazan 1521'e kadar **ayrı bir büyük knezlikti**; `ryazan` kimliği ne
+dizinde ne renkte var ve **uydurulmadı.** Canlı `Tula` kaydı aynı sınıftan
+bir knezliği düz `rusya 1281-1923` ile modelliyor, ondan alındı.
+📌 Ödüncün bedeli ölçüldü ve **kazançtan küçük**: Ryazan'ın 1281-1521
+arası yanlış rengi, Voronej'in bugün 300 km kuzeye taşıdığı `kirim`
+yanlışının yanında küçük kalıyor. Kimlik gelirse tek satır.
+
+## ⑧ KOPYALANMAYAN ZİNCİRLER
+```
+Putivl    Çernigov/Novgorod-Seversk zincirini TAŞIMIYOR — Deulino (1618)
+          o ikisini Polonya'ya verdi ama Putivl Moskova'da KALDI.
+          Kopyalasaydım 36 yıl yanlış devlette görünürdü.
+Bryansk   1503 değil 1500-08-01 (Vedroşa) — ve o günün maddesi VAR.
+Penza     ortası `kirim` DEĞİL `nogay` — Sura-Volga arası Nogay
+          otlağıydı; Voronej zincirini kopyalamak iki yüzyıl yanlış olurdu.
+Simbirsk  zinciri canlı `Kazan`dan birebir — aynı hanlık, aynı gün düştü.
+```
+
+## ⑨ AÇIK BIRAKILANLAR
+```
+Yelets · Kozlov · Voronej çevresi   Yabani Ova'nın iç kalesi; Tambov ve
+                                    Belgorod ikisini de kesiyor, ayrı
+                                    petek kazancı ölçülmedi
+Samara (53,20/50,15)                kutunun doğu kenarına yakın, ayrı parti
+Ryazan knezliği kimliği             `ryazan` — dizin + renk, RENK 2'ye
+Voronej/Harkov `kirim` dönemleri    DOKUNULMADI. Kayıtlar doğru; kusur
+                                    noktasızlıktı ve o kapandı.
+```
