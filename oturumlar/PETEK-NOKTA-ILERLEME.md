@@ -4194,3 +4194,89 @@ nokta +6 · yeni renk 0 · yeni künye 0 · madde borcu 0 · Değişmez 3 0
 ```
 ⚠️ Üretim koşarken yazıldı; koordinatör *"anlık görüntü alındı, girdi
 SERBEST"* dedi. `arac/girdi.py`ye dokunulmadı.
+
+---
+---
+
+# PARTİ 27 — DON-VOLGA ARASI
+### `data/yerlesimler_ek22.js` · 5 nokta · 6 Ağustos 2026
+
+**Durum:** 🟢 HAZIR · engel yok. ⚠️ `r772` sonrası bağlanmalı
+(`ek19` · `ek21` ile aynı sırada — anlık görüntü 05:20:03'te alındı).
+
+## ① ÖLÇÜLEN CEP — ve bugünün EN KÜÇÜĞÜ olduğu biliniyordu
+```
+49-54°K / 40-50°D   385.597 km² · 4 nokta · 96.399 km²/nokta
+   ort 122 km · EN UZAK 226 km
+kıyas: Gobi 503.074 km²/nokta ⇒ sıraya SON konması doğruydu
+```
+İki cep: **Hoper-Medveditsa** (41-45°D) ve **Volga yukarısı / Zavolje**
+(48-50°D). Beş nokta ikisini birden kapatıyor.
+
+## ② 🔴 `1556-01-01` BİR KONVANSİYONMUŞ — ölçümle bulundu
+Volga koridorundaki **dört canlı kayıt da aynı günü taşıyor:**
+```
+Saratov · Tsaritsyn · Ural eteği · Rın kumulları
+     altinorda 1281-01-01 → 1556-01-01 → rusya
+```
+Oysa Saratov 1590'da, Tsaritsyn 1589'da kuruldu. ⇒ Atlas bu koridor için
+**"toprak Astrahan'la (1556) devroldu, kaleler sonra geldi"** sözleşmesini
+çoktan kurmuş. Dört yeni nokta ona bağlandı.
+Kale yıllarını yazsaydım **Saratov 1556'dan, 98 km ötedeki Petrovsk
+1698'den Rus** olurdu — aynı koridorda 142 yıllık yamalı bohça.
+
+### 🔴 VE TUTARLI OLAN, UCUZ OLANLA AYNI ÇIKTI — TESADÜF, gerekçe DEĞİL
+Üç kırılma günü (`1441` · `1556` · `1663`) çekirdekte zaten var ⇒
+`2s` **+0.** `PARTİ 22`de günü bilinen üç antlaşmayı sayaç için çekmeyi
+**reddetmiştim**; burada çekilecek bir şey yok — komşunun günü zaten
+doğru gün.
+📌 **Sıra ters yazılıyor ki ileride yanlış okunmasın: önce komşu
+sözleşmesi bulundu, sayaç sonra ölçüldü.**
+
+## ③ BORİSOGLEBSK AYRI — tek `nogay`lı kayıt
+Zinciri `Penza`dan (`_ek17`), Saratov'dan DEĞİL. Hoper-Medveditsa arası
+Volga koridorunun dışında, Sura yukarısıyla aynı otlak kuşağı; Astrahan'ın
+düşüşüyle devrolmadı. Saratov'un 1556'sını kopyalasaydım **Nogayları 107
+yıl erken silerdim.**
+
+## ③b ⚠️ `altinorda` KÜNYE AŞIMI — devralındı
+Dört Volga kaydı `altinorda`yı 1556'ya taşıyor, künye `t=1502-01-01`.
+**Komşudan gelen sözleşme:** canlı veride `altinorda`nın 39 döneminin
+**14'ü** künyeyi aşıyor. Sebebi tarihî — 1502'de biten Büyük Orda'dır,
+aşağı Volga'da **Astrahan Hanlığı 1556'ya kadar** sürdü ve atlasta ayrı
+kimliği yok.
+⇒ Künye kalemi: **`astrahan-hanligi` (1466-1556)** açılırsa aşım dört
+komşuyla birlikte tek turda kapanır.
+
+## ④ SAMARA — Simbirsk'in zinciri KOPYALANMADI
+Simbirsk `kazan 1438→1552-10-02` taşıyor. Samara Volga'nın dirseğinde,
+Nogay bozkırının kenarında ve hiçbir zaman Kazan'a bağlı olmadı.
+Kopyalasaydım şehri **114 yıl yanlış hanlıkta** gösterirdim.
+
+## ⑤ ÖBÜR UÇ — kontrol koşuldu, BOŞ ÇIKTI
+Beş noktanın beşi de Rus tarafının içinde; hiçbiri dış sınıra komşu değil.
+Saratov ve Simbirsk'in 200+ km'lik menzilini kısaltıyorlar, kimseyi kendi
+toprağının dışına itmiyorlar.
+📌 `PARTİ 26`da kural **tasarımı belirlemişti**; burada **kontrol** olarak
+koşuldu. İkisi de uygulamadır — biri önleyici, öteki doğrulayıcı.
+
+## ⑥ DÖRT TAHMİN
+```
+nokta +5 · yeni renk 0 · yeni künye 0 · madde borcu 0 · Değişmez 3 0
+🔴 Değişmez 1 tavanı +0   🔴 Değişmez 2s +0   🔴 ÖBÜR UÇ YOK
+```
+
+## ⑦ KABUL ÖLÇÜTÜ
+```
+① 5/5 ✓ ② alan kütüğü temiz ✓ ③ renk 3/3 VAR ✓ ④ ad çakışma 5/5 ✓
+⑤ dönem temiz ✓  ⑤b hayalet: yalnız DEVRALINAN `altinorda` (③b) ve
+   repo geneli `rusya`>1917
+⑥ iç boşluk 0 ✓ ⇒ tavan +0   ⑦ madde borcu 0 ✓
++ maske 5/5 ✓  + kutu 5/5 ✓  + 3 km 98,01 km (Petrovsk ↔ Saratov) ✓
+```
+
+## ⑧ KAYNAK
+🔴 Kuruluş yılları TDV'ye basmıyor (Samara 1586 · Kamışin 1668 · Syzran
+1683 · Borisoglebsk ve Petrovsk 1698) — **ama hiçbiri veriye GİRMEDİ.**
+Zincirler komşu sözleşmesinden alındı; kuruluş yılları yalnız bu yorumda
+anılıyor. **Uydurulmuş tek gün yok.**
