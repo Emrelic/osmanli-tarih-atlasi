@@ -3854,3 +3854,80 @@ ikincisi seçilirken birincisi engel kümesine girdi.
 gösterir; araç onu *"kısıtsız"* sanıp en ayrık rengi verir ve **öneri
 dayanaksız olur.** Sessiz geçmiyor.
 
+
+---
+
+## §84 — ÖNCE KOMŞUYA BAK, SONRA KAYNAĞA: KUSUR BİLGİDE DEĞİL İŞLEMDE OLABİLİR
+
+Kullanıcının **üç kez** bildirdiği *"İran içinde bir sürü benek enklav"*
+şikâyeti (p4/H-0009 · p5/H-0005) on bir teslimde kapandı — ve **kapatan şey
+kaynak araştırması olmadı.**
+
+### Ne yapıldı
+
+Dokuz kronik enklav (Tebriz · Şiraz · Meşhed · Yezd · Kirman · Erdebil ·
+Nahçıvan · Urmiye · Tebbes) **en yakın komşusuyla TAM ZİNCİR** olarak
+karşılaştırıldı:
+
+```
+ENKLAV (Şiraz)          KOMŞU (Firûzâbâd, 83 km)
+ilhanli 1281→1335       ilhanli     1281→1335    ✓ aynı
+iran    1335→1508       iran        1335→1393
+safevi  1508→           timurlu     1393→1452    🔴 EKSİK
+                        karakoyunlu 1452→1469    🔴 EKSİK
+                        akkoyunlu   1469→1503    🔴 EKSİK
+                        safevi      1503→
+```
+
+Dokuzunda da **aynı, tek kusur**: Timurlu-Karakoyunlu-Akkoyunlu zincirinin
+tamamı eksik; 1335'ten doğrudan Safevî fethine atlanmış.
+
+### Kural
+
+> **Aynı bölgede komşu noktalar zıt işlem görmüşse, kusur bilgide değil
+> İŞLEMDEDİR.** Kaynak araştırması pahalı ve yavaş; komşu karşılaştırması
+> bedava ve kesin. **Önce onu yap.**
+
+📌 Ve düzeltmenin doğruluğunun kanıtı **denetimin sessizliği** oldu: yirmi
+yedi yeni pencere eklendi, **tek bir yeni kırılma doğmadı** (`2s` 143'te
+sabit) — çünkü eklenen tarihler komşuların **zaten kullandığı** tarihlerdi.
+**Zincir uydurulmadı, KOPYALANDI.**
+
+### İki yan sonuç
+
+**① Sebep tahmin edilenden bambaşkaydı.** Beş künye + beş renk (`muzafferi ·
+kert · serbedari · cobanli · incu`) alınmaya hazırlanılıyordu; **gerekmedi.**
+Enklav 1393'ten *sonra* doğuyor, Muzafferî penceresi 1393'te *bitiyor* —
+adlandırma o işi hiç çözmezdi. Kullanılan altı kimliğin altısı da zaten
+dizinde ve renkteydi: **maliyet sıfır.**
+
+**② `§2`nin karşı-örneği.** `§2` şunu söyler: *"bir 'harita yanlış' raporu
+geldiğinde ilk sorulacak soru budur: o bölgede yerleşim noktası var mı?"*
+Burada cevap **"var"**dı — noktalar duruyordu, **dönemleri eksikti.**
+
+> **İlk soru "nokta var mı" — ama cevap "var" ise iş bitmez; ikinci soru
+> "dönemi TAM mı" olur.**
+
+### Ve bir üstyapı dersi: yöntem, içeriği düzeltir
+
+Bu oturumun brifingini koordinatör yazdı ve **üç yerinden yanlıştı**: yanlış
+tarihe yönlendirdi (1510 — oysa orası şikâyetin *söndüğü* yerdi, doğduğu yer
+değil), iki yanlış hipotez verdi (Portekiz · Mar'aşî'nin tarihi), ve üç
+şıkkının üçü de tek başına yanlıştı.
+
+Oturum üçünü de buldu. Sebebini kendisi yazdı:
+
+> *"Brifingin üç yanlışını bulabilmemin sebebi, brifingin kendisinin **'bunlar
+> hipotez, dayanacağın şeyler değil'** ve **'devraldığın hiçbir rakamı
+> doğrulamadan aktarma'** demesiydi. Yanlış olan **içeriğiydi, yöntemi
+> doğruydu** — ve yöntem içeriği düzeltti."*
+
+⇒ Bir görev tanımının içeriği yanılabilir; **yöntemi yanılırsa hata görünmez
+kalır.** Brifinglerdeki *"bunlar benim tahminlerim, doğrulaman gereken
+şeyler"* ve `B10` satırları süs değil — **görev tanımının kendi kendini
+düzeltme mekanizmasıdır.**
+
+📌 Aynı oturum kendi işini **iki kez** geri çekti (Muzafferî önerisi ölçümle
+çürüdü; *"park et"* gerekçesini de sonradan düzeltti — **kararı koruyup
+gerekçeyi değiştirerek**). Bu davranış, yukarıdaki mekanizmanın oturumun
+kendi çıktısına da işlediğini gösteriyor.
