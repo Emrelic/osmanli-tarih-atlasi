@@ -115,7 +115,13 @@ BEKLENEN_YERLESIM = 968
 # ⇒ Kural genisletildi: teslim alinan dosya, kendi iddia listesiyle DEGIL
 #   uc degismezin tamamiyla sinanir. Iddia listesi teslim edenin GORDUGU
 #   yerdir; degismez, GORMEDIGI yer.
-BEKLENEN_SAHIPSIZ = 102
+# 102 -> 112: PARTI 23 (_ek18, 10 nokta Bati Sibirya + Altay etegi).
+# Artis +10, yani partinin TAMAMI; 10 kaydin 10'u da kasitli_bosluk: VE
+# neden: tasiyor (olculdu). Kolivan-Kuznetsk kale zinciri kendi kurulus
+# yilindan oncesini bos birakir -- Sibirya deseni, PARTI 20 ile ayni.
+# 🟢 VE PARTI BUNU ONCEDEN, DOSYA BASINA YAZDI: "+10, 102 -> 112".
+#    Olculen: TAM 112. Ikinci kez tutan tavan tahmini.
+BEKLENEN_SAHIPSIZ = 112
 # 427 -> 432: Kirmanşah 1590-1603 (+2), Tarki tâbiiyeti (+2, mevcut günlere
 # oturdu), Kaheti tâbiiyeti (+2), Şirvan ara şehirleri (+0, mevcut günler),
 # Azak'ın 1637-1642 Kazak işgali (+2), Şehrizor 1554-01-01 -> 1554-08-22 (+0).
@@ -265,7 +271,21 @@ KUYRUK_DOSYALARI = ("yerlesimler_ortaasya2.js", "yerlesimler_avrupa.js",
 #   ⇒ Bu doğru tercih ve tavan onun için yükseltiliyor.
 # Borç: Rus-Litvanya/Lehistan hattı kronolojisi (Vedroşa sonrası mütareke,
 # Deulino, Pereyaslav). Yazılınca 148 -> 143 iner.
-BEKLENEN_ACIK_S = 148
+# 148 -> 154: PARTI 23 (_ek18). Artis +6.
+# 🟢 VE BU SEFER TAHMIN TUTTU -- parti evren duzeltmesini uyguladi.
+#    PARTI 22'de "canli veride bu gun var mi" diye bakmis, +3 demis, +5
+#    cikmisti. Bu partide evreni `s:` + CEKIRDEK aldi ve kendi olcum
+#    aletini yazdi (cekirdek havuzu 689 gun). Tahmin +6, olculen +6.
+#    ⇒ Duzeltilen kural ISLEDI; bir turda ogrenildi.
+# Acilan alti gun: 1594 · 1618 · 1709 · 1722 · 1730 · 1736 -- ALTISI DA
+# kale kurulus YILI ve zaten YYYY-01-01, yani §4'un en durust hali;
+# kisaltilacak gun YOK.
+# ⚠️ Ve parti sayaci dusurmek icin NOKTA ATMADI: Zmeinogorsk (1736)
+#    atilsaydi +5 olurdu. "Kolivan-Voskresensk maden bolgesi Rusya'nin
+#    Altay'i tutma SEBEBIDIR, sus degil." PARTI 22'de gunu bilinen
+#    antlasmayi cekmeyi reddetmisti; ayni disiplinin ikinci uygulamasi.
+# Borc: Bati Sibirya kale hatti kronolojisi. Yazilinca 154 -> 148 iner.
+BEKLENEN_ACIK_S = 154
 # Değişmez 2'nin AYNADAKİ HÂLİ: madde var ama kırılma yok. Oturum 14'ün Girit
 # bulgusu — "1830-11-01 Girit'in idaresi Mehmed Ali'ye bırakıldı" maddesi VARDI,
 # beş nokta `d:` kalmıştı. Ölçüldü: 442 toprak/antlaşma maddesinin 67'sinin

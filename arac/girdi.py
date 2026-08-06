@@ -279,6 +279,25 @@ GIRDI_DOSYALARI = [
     #   dizinsiz 0 · dönem sağlığı temiz.
     # 🟢 VE `2s` TAHMİNİ İLK KEZ ÖNDEN YAZILDI (yeni kural): +3.
     "yerlesimler_ek17.js",
+    # ── PARTİ 23 · 6 Ağustos 2026 (NOKTA EKLEME) ────────────────────
+    # ek18 Batı Sibirya + Altay eteği 10 nokta: Tara · Omsk · Kainsk ·
+    # Kuznetsk · Biysk · Barnaul · Zmeinogorsk · Pavlodar · Semipalatinsk ·
+    # Ust-Kamenogorsk. `ek13`in KENDİ açık bıraktığı en uzak hücre.
+    #   box(48-58°K/75-95°D) 1.473.752 km² · TOPLAM 3 nokta, üçü de kenarda
+    #   ort 382 km · en uzak 761 km · 1600'de %59,9 SAHİPSİZ
+    #   Kolıvan-Kuznetsk hattı (Rusya'nın en yoğun 18. yy Sibirya kale
+    #   zinciri) atlasta hiç yoktu.
+    # ⚠️ §3.5.1 öbür uç: Kobdo'nun kaydı DOĞRU; kusur değerinde değil
+    #   MENZİLİNDE — altı Rus kalesi orta dikmeyi İrtiş'e indiriyor.
+    # 🔴 QING YAKASINA NOKTA KASTEN KONMADI ve bundan kural doğdu:
+    #   Çin Altayı'nın 1912 sonrası kimliği `cin-cumhuriyeti` ve o RENKSİZ
+    #   (44 renksiz kimliğin birincisi, 85 pencere). Nokta konsaydı
+    #   DÜZELTİRKEN YENİ BOYASIZ ALAN AÇILIRDI.
+    #   ⇒ "İki uçlu düzeltme, öbür ucun rengi yoksa TEK UÇLU kalır.
+    #      Renksiz kimlik, §3.5.1'in istisnasıdır."
+    # ÖLÇÜLDÜ: kimlik cungar·rusya (ikisi de renkli+dizinli) · d:/v: 0 ·
+    #   kasitli_bosluk 10/10 + neden 10/10.
+    "yerlesimler_ek18.js",
     # 344 nokta (MOTOR 2, 2 Ağustos 2026 — kutu genişletme koşusuyla).
     # KOORDİNATÖR KARARI: 37-renkle açılış — 147 kimliğin 49'u boyalı, 98'i
     # renksiz ve renksiz dönem BOŞLUK üretir (yanlış renk değil; motor
