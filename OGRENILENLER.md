@@ -3931,3 +3931,58 @@ düzeltme mekanizmasıdır.**
 çürüdü; *"park et"* gerekçesini de sonradan düzeltti — **kararı koruyup
 gerekçeyi değiştirerek**). Bu davranış, yukarıdaki mekanizmanın oturumun
 kendi çıktısına da işlediğini gösteriyor.
+
+---
+
+## §85 — BİR ÖLÇÜM YÖNTEMİ, KENDİ HATA BANDINI DA ÖLÇMEK ZORUNDADIR
+
+PETEK/NOKTA gün boyunca bölgesel km² rakamları verdi (*"140.878 km² Çin
+toprağı Rus boyanıyor"*, *"Gobi 1,0 M km²"*, *"orman-bozkır 640.745 km²"*) ve
+bunlar **1° ızgara örneklemesiyle** hesaplanmıştı — motorun Voronoi + kıyı
+yaslama + Chaikin geometrisiyle değil.
+
+Sonunda kendi yöntemini **motorun gerçek çıktısına karşı kalibre etti** ve
+üç kademe çıktı:
+
+```
+> 2 M km² gövde         sapma  0-5%      ⇒ örnekleme GÜVENİLİR
+0,5-2 M km²             sapma  5-15%     ⇒ yön doğru, rakam yaklaşık
+< 0,5 M km² / parçalı   sapma 15-136%    ⇒ örnekleme KULLANILMAZ
+```
+
+Sebep ölçüldü: 0,5° hücre ≈ 50 km; parçalı ince bir gövdede hücre ya
+**hepsini** alıyor ya **hiçbirini**. Motor ise kenarı gerçekten çiziyor.
+En uç vaka `kuzey-yuan 1500`: **+%136**.
+
+### Kural
+
+> **Bir ölçüm yöntemi, verdiği sayıyla birlikte O SAYININ hangi bantta
+> güvenilir olduğunu da söylemek zorundadır.** *"3.426.463 km² değişti"*
+> ile *"±%15 payla ~3,4 M km²"* aynı cümle değil; ikincisi kullanılabilir,
+> birincisi kullanılamaz çünkü okuyan payı bilmez.
+
+📌 Ve oturum **geriye dönük dürüstlük payı** yayımladı: *"bugün verdiğim
+bölgesel rakamlardan iki milyon km²nin altındakiler ±%15 paylıdır."*
+Kendi geçmiş çıktısını sonradan bantlamak — nadir ve doğru.
+
+### Ve yöntemi kurtaran şey bir sağduyu kontrolüydü
+
+İlk çıktı okuyucusu `dnm[].g` indislerini doğrudan parça dizisine soktu ve
+**toplam 219 milyon km²** verdi. Dünya'nın karası 149 milyon.
+
+> Oturum sayıyı **yayımlamadan** yakaladı, `js/app.js:99 parcaCoz()`e baktı,
+> iki hatayı buldu (`g` doğrudan parça değil `DEVLET_PARCA_HALKA` üzerinden
+> halka indisi · havuz `[lon, lat]` tutuyor `[lat, lon]` değil) ve düzeltti.
+
+⇒ **Bir büyüklük mertebesi kontrolü, kod okumaktan önce gelir ve daha
+ucuzdur.** *"Bu sayı fizikî olarak mümkün mü"* sorusu, o gün yapılan bütün
+ince ölçümlerden daha çok hata yakaladı.
+
+### Koordinatörün doğrulaması — ve onun da payı var
+
+Koordinatör dört çıpayı bağımsız ölçtü: sapma **−%8,3 ile +%5,7** arası.
+⇒ Oturumun **yapısal okuması doğrulandı** (yanlış okusaydı 219 M gibi
+savrulurdu), ama **birebir km² doğrulanmadı**: koordinatörün formülü düz
+shoelace + tek `cos(lat)` düzeltmesiydi, motorunki geodezik.
+📌 Yani doğrulamanın kendisi de bir banda sahip ve o da yazılmalı —
+`§85` kendi kendine uygulanıyor.
