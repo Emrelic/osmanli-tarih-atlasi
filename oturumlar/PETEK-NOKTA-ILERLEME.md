@@ -3823,3 +3823,131 @@ Kolıvan · Ust-Kaman ötesi  Rus hattının batı ucu; `_ek10` (Tümen · Tobol
 Moğolistan yakası          Selenginsk sınırının ikinci ucu — hâlâ açık
 Yelets · Kozlov            PARTİ 22'nin bıraktığı Yabani Ova iç kalesi
 ```
+
+
+---
+---
+
+# PARTİ 24 — MOĞOLİSTAN: HALHA'NIN DOĞUSU ve KUZEYİ
+### `data/yerlesimler_ek19.js` · 6 nokta · 6 Ağustos 2026
+
+**Durum:** 🟡 HAZIR — renk/künye engeli YOK, ama **bir karar bekliyor:
+çekirdek mi kuyruk mu** (aşağıda ③b, koordinatörün kararı).
+
+## ① SEVKİN GEREKÇESİ ÖLÇÜLDÜ — VE ZATEN ÇÖZÜLMÜŞ
+Sevk *"Selenginsk'in ikinci ucu"* idi; `PARTİ 20`de Kyahta hattının tek
+uçlu kaldığını, hatanın 2,5°'den 0,8°'ye indiğini ama **sıfırlanmadığını**
+yazmıştım. Ölçtüm:
+```
+50-52°K / 98-118°D · 0,5° ızgara · 1800'de `qing` hücre: 8
+ve SEKİZİNİN SEKİZİ 98,25-99,75°D arasında = TUVA (Uliastay'ın peteği).
+Tuva 1757-1911 GERÇEKTEN Qing'di ⇒ DOĞRU.
+🟢 100°D'nin doğusunda, 50°K'nin kuzeyinde qing hücre: 0
+```
+⇒ **İkinci uca gerek kalmamış.** `PARTİ 20`de bıraktığım açık kalem
+kapandı — ve kendi tahminim ("sıfırlanmıyor") yanlıştı.
+
+## ② 🔴 AMA ÖLÇÜM AYNADAKİ HATAYI BULDU — ve 24.144 km²'si BENİM
+```
+1800-06-15 · 50°K'nin GÜNEYİNDE `rusya` boyanan Moğol toprağı
+   Nerçinsk    147.298 km²   en uzak 46,5°K/115,5°D — 612 km
+   Selenginsk   24.144 km²   49,5°K/104,5-106,5°D — 178-232 km
+   ────────────────────────────────────────────────────────
+   TOPLAM      171.442 km²   Halha'nın ortasında Rus rengi
+```
+🔴 `Selenginsk`i `PARTİ 20`de **ben** yazdım. Kyahta hattını kuzeyden
+düzeltirken güneye 180-230 km taşmış. `§3.5.1`in aynen uyardığı şey:
+*"tek uçtan bakan düzeltme hatayı taşır, silmez."*
+**Kuralı yazdım, uygulamayı atladım.** Bu parti kendi taşmamı da kesiyor.
+
+⚠️ `Nerçinsk`in kaydı **doğru**; kusur değerinde değil MENZİLİNDE —
+`PARTİ 23`teki Kobdo vakasının aynadaki hâli (orada Qing kuzeye, burada
+Rusya güneye).
+
+## ③ ZİNCİR — VE YANLIŞ KOMŞUYA BAKMIŞIM
+İlk taslakta zinciri `Karakurum`dan birebir aldım: `qing 1635-01-01`.
+**Kendi hayalet kontrolüm altı kayıtta yakaladı** ve iki sebeple düzeltildi:
+```
+① HAYALET  `qing-hanedani` künyesi 1636-05-15'te başlıyor → 500 gün erken
+② TARİH    1635/1636 ÇAHAR'ın (İç Moğolistan) teslimi. HALHA 1691'de
+           Dolonnor'da tâbi oldu; bu altı nokta HEPSİ Halha.
+           Canlı `Urga` kaydı 1691-05-30 yazıyor — DOĞRU komşu o.
+🟢 Ölçüm de onu seçtirdi: 1691-05-30 kronolojide 24 gün ötede MADDELİ.
+```
+📌 `PARTİ 21`deki `cagatay`/`timurlu` ikileminin **tersi**: orada üç şıkkın
+üçü kusurluydu ve canlı komşuya uymayı seçmiştim. Burada **kusursuz şık
+vardı** ve o da bir canlı komşunun günüydü — yalnız yanlış komşuya
+bakmışım. Doğru komşu Karakurum değil **Urga**.
+
+### ⚠️ Hayalet SIFIRLANMADI, taraf değiştirdi — saklamıyorum
+`1691` seçilince `kuzey-yuan` künyesinin bitişini (`t=1635-01-01`) **56 yıl
+aşıyor.** Seçim gerekçesi:
+```
+· Halha 1691'e kadar gerçekten Cengizli Halha hanlarının elindeydi
+· canlı `Urga` AYNISINI yapıyor (`kuzey-yuan 1639→1691-05-30`)
+· künyedeki 1635 ÇAHAR'ın teslimi, Halha'nın değil
+⇒ aşım benim kaydımın değil KÜNYENİN kusuru
+```
+📌 Koordinatöre dizin kalemi: **`kuzey-yuan` bitişi 1635 mi 1691 mi?**
+
+## ③b 🔴 ÇEKİRDEK Mİ KUYRUK MU — karar koordinatörün
+```
+Karakurum · Urga · Uliastay · Kobdo · Kalgan → HEPSİ `yerlesimler_asya.js`
+                                                yani KUYRUK_DOSYALARI'nda
+Nerçinsk → `_ek9` · Selenginsk → `_ek13`      → çekirdek
+```
+⇒ **Çekirdeğe** bağlanırsa dört gün (`1368-09-14` Yuan'ın çöküşü ·
+`1911-12-29` muhtariyet · `1919-11-22` Çin işgali · `1921-07-11`
+bağımsızlık) çekirdek `s:` havuzunda YENİ sayılır → **`2s` +4.**
+Oysa aynı dört gün `Karakurum`da ZATEN var — yalnız kuyruk kovasında.
+⇒ **Kuyruğa** bağlanırsa `2s` +0, kuyruk sayacı +4.
+
+📌 Okumam: bu dört gün **Moğolistan'ın kendi kronolojisi** ve
+`KUYRUK_DOSYALARI` yorumunun tarifine birebir uyuyor. Ama `denetle.py`
+koordinatörün dosyası — **iki sayıyı ölçtüm, kararı ona bırakıyorum.**
+
+## ④ ÜÇ TAHMİN
+```
+nokta +6 · yeni renk 0 · yeni künye 0 · Değişmez 2 borcu 0 · Değişmez 3 0
+🔴 Değişmez 1 tavanı +0   ← 6/6 kayıt 1281-01-01'den kesintisiz, 112'de kalmalı
+🔴 Değişmez 2s       +4   ← ÇEKİRDEĞE bağlanırsa; kuyruğa bağlanırsa +0
+```
+
+## ⑤ `mogolistan` RENKSİZ — ama yeni boyasız alan AÇILMIYOR
+Zincirin son üçlüsü `mogolistan → cin-cumhuriyeti → mogolistan`;
+`mogolistan` BOYALAR'da yok. Buna rağmen yazıldı:
+```
+① Karakurum · Urga · Uliastay ZATEN aynı üçlüyü taşıyor — bölge 1912-1923
+   arası HÂLİHAZIRDA boyasız. Bu parti var olanı yeniden dağıtıyor.
+② Alternatif `rusya`yı 1923'e uzatmaktı: YANLIŞ ama boyalı.
+   Bir atlasta yanlış renk, renksizlikten kötüdür.
+```
+⚠️ **`PARTİ 23`teki kararımdan farklı, ve fark bilinçli.** Orada Qing
+yakasına nokta koymamıştım çünkü **yeni** boyasız alan açacaktım. Burada
+açmıyorum. Kural aynı, sonuç farklı çünkü ölçüm farklı.
+
+## ⑥ 🔴 VE `PARTİ 23`ÜN GEREKÇESİ BAYATLADI — kendi partim
+`cin-cumhuriyeti` artık **RENKLİ** (ölçtüm, `BOYALAR`'da). `PARTİ 23`te
+*"renksiz, o yüzden Qing yakasına nokta koymuyorum"* yazmıştım — RENK 2
+arada eklemiş. ⇒ **Altay'ın Qing yakası artık açılabilir**, o kalem
+yeniden değerlendirilmeli.
+📌 Bugün üçüncü kez: bir gerekçe, yazıldığı gün içinde eskiyebiliyor.
+
+## ⑦ KABUL ÖLÇÜTÜ
+```
+① 6/6 ✓  ② alan kütüğü temiz ✓  ③ renk: `mogolistan` hariç hepsi VAR
+④ ad çakışma 1766 canlı kayda karşı 6/6 benzersiz ✓
+⑤ dönem temiz ✓   ⑥ iç boşluk 0 ✓ ⇒ tavan +0   ⑦ madde borcu 0 ✓
+⑧ çelişki 0 ✓   + maske 6/6 ✓   + kutu 6/6 ✓
++ 3 km en yakın çift 186,81 km (Bulgan ↔ Karakurum) ✓
+⑤b hayalet: `kuzey-yuan` 56 yıl (bilinçli, ③'te gerekçeli)
+```
+
+## ⑧ AÇIK BIRAKILANLAR
+```
+Altay'ın Qing yakası    `cin-cumhuriyeti` artık renkli ⇒ YENİDEN AÇILDI
+`mogolistan` rengi      RENK 2 kuyruğunda
+`kuzey-yuan` künye günü 1635 mi 1691 mi — koordinatöre
+Yelets · Kozlov         PARTİ 22'nin bıraktığı
+Gobi'nin batısı         Uliastay + Karakurum + Dariganga üçgeni; ölçülmedi
+```
