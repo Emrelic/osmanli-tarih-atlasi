@@ -4420,3 +4420,104 @@ düzelmiş hâli, artı Gobi payı.
 ```
 İkincisi istenmemişti ama ilkinin geçerliliği ona bağlıydı: **kalibrasyon
 olmadan ③'ün rakamları okunamazdı.**
+
+---
+---
+
+# `2s` ÜÇÜNCÜ SINIF TASARIMI — `KAPSAM DIŞI`
+### 6 Ağustos 2026 · **ölçüt önerisi + kendi kendini kalibre eden eşik**
+
+Koordinatörün sorusu: *"'bir kırılmanın maddesi bu kronolojide OLABİLİR Mİ'
+nasıl ölçülür?"* — cevap ölçüldü.
+
+## ① REDDEDİLEN İLK ÖLÇÜT — ve niçin
+**"Kronolojinin o tarihteki konumlu maddelerine uzaklık"** denendi.
+Çürüdü: 419 maddenin yalnız 413'ü konumlu ve 640 yıla yayılıyor, ±25 yıl
+penceresinde bazen üç beş madde kalıyor. Sonuç, Osmanlı çekirdeğindeki
+kırılmaları da uzak gösterdi:
+```
+Bahçesaray 576 km · Sinop 459 km · Alanya 346 km · İzmir 258 km
+```
+Dördü de **kapsam İÇİNDE** olması gereken yerler. ⇒ Ölçüt maddenin
+**seyrekliğini** ölçüyordu, kapsamı değil.
+
+## ② KABUL EDİLEN ÖLÇÜT — Osmanlı küresine uzaklık
+```
+kırılma(gün, nokta) → o GÜNDE `d:` ya da `v:` taşıyan
+                      EN YAKIN yerleşime uzaklık (km)
+```
+Gerekçe tek cümle: **bu kronoloji Osmanlı kronolojisidir.** Bir kırılma
+Osmanlı gövdesinden ne kadar uzaksa, o gövdenin vak'anüvisinin ondan söz
+etmiş olma ihtimali o kadar düşer. Ve bu **veriden ölçülebilir** — yeni
+alan, yeni etiket, yeni araştırma gerektirmiyor.
+
+### Sıralama testi — ölçüt ayırıyor
+```
+EN UZAK                                    EN YAKIN
+7.767 km  Aleksandrovsk (K. Sahalin)        19 km  Kamaniçe
+7.050 km  Ohotsk                            22 km  Dubrovnik
+6.454 km  Verhoyansk                        28 km  Vonitsa
+5.600 km  Nerçinsk                          29 km  Ayamavra
+5.100 km  Gobi-Altay                        33 km  Enez
+4.916 km  Selenginsk                        50 km  Çerkask
+```
+🟢 Üst uç **tamamen** benim Sibirya/Moğolistan/Gobi partilerim; alt uç
+**tamamen** Adriyatik-Ege-Podolya, yani gerçek Osmanlı borcu. Ölçüt
+elle ayarlanmadan doğru ayırdı.
+
+## ③ 🔴 EŞİK SEÇİLMEDİ — KRONOLOJİNİN KENDİSİNDEN ÖLÇÜLDÜ
+Eşiği ben koymadım; **kronolojinin kendi coğrafî ayak izi** ölçüldü.
+413 konumlu maddenin her biri için "kendi tarihinde Osmanlı küresine
+uzaklığı":
+```
+%50 yüzdelik :      0 km      ← maddelerin YARISI doğrudan Osmanlı toprağında
+%75 yüzdelik :      0 km
+%90 yüzdelik :     71 km
+%95 yüzdelik :    355 km
+%99 yüzdelik :  1.402 km
+EN UZAK      :  2.017 km      ← kronolojinin ULAŞTIĞI en uzak nokta
+```
+⇒ **Bu kronoloji hayatında 2.017 km'den öteye hiç bakmamış.** O hâlde
+2.017 km'nin ötesindeki bir kırılmanın maddesi *"yazılmamış"* değil
+**yazılamaz** — `KAPSAM DIŞI`.
+
+### Uygulama sonucu (164 açık kırılma)
+```
+eşik 2.017 km (gözlenen azamî)  ⇒ KAPSAM DIŞI  46 · gerçek borç 118
+eşik 1.402 km (%99 yüzdelik)    ⇒ KAPSAM DIŞI  53 · gerçek borç 111
+eşik 1.000 km                   ⇒ KAPSAM DIŞI  69 · gerçek borç  95
+```
+📌 **Önerim: 2.017 km** — yani gözlenen azamî. Yanlış-pozitif riski sıfır
+(bu mesafenin ötesinde kronolojinin *hiç* maddesi yok), ve `2s` tavanı
+159'dan **113'e** düşer. Daha dar eşik daha çok temizler ama artık
+"kronoloji bunu yazmamış" ile "yazamaz" ayrımı bulanıklaşır.
+
+## ④ ⚠️ ÖLÇÜTÜN TANIMSIZ KALDIĞI YER — FETRET
+```
+konumlu 413 maddenin 8'i        → o tarihte atlasta HİÇ Osmanlı gövdesi YOK
+164 açık kırılmanın 2'si        → aynı (1410-01-01 · 1411-01-01)
+```
+Sebep: **Fetret devri (1402-1413)** — atlasın `d:`/`v:` dönemleri o
+aralıkta boşalıyor. Ölçüt "en yakın Osmanlı noktası" diye soruyor, cevap
+yok, uzaklık tanımsız (∞).
+⇒ **Gereken yedek kural:** Osmanlı gövdesi boşsa, ölçüm **en yakın
+gövdeli güne** kaydırılır (1402 öncesi ya da 1413 sonrası, hangisi
+yakınsa). Bu bir tasarım kararı ve `denetle.py` koordinatörün dosyası —
+ölçümü verdim, kuralı o yazar.
+📌 Ve bu ayrıca bağımsız bir bulgu: **atlasta 11 yıl boyunca hiç Osmanlı
+toprağı yok.** Fetret'in veri karşılığı bu ve muhtemelen kasıtlı; ama
+"Osmanlı küresi" diye soran her ölçüt orada duvara toslar.
+
+## ⑤ ÖLÇÜTÜN SINIRLARI — yazıyorum
+```
+· `s:`→`s:` kırılmalarına bakar; `d:`/`v:` (Değişmez 2) ZATEN sıfır borçlu
+· nokta bazlı, gövde bazlı DEĞİL: bir kırılma birden çok noktayı
+  ilgilendiriyorsa EN YAKIN olanı alır (en muhafazakâr seçim)
+· "uzak" ≠ "önemsiz": Nerçinsk antlaşması dünya tarihi için büyüktür,
+  yalnız BU KRONOLOJİNİN konusu değildir. Ölçüt önemi değil KAPSAMI ölçer.
+· 2.017 km bugünün verisinden; kronoloji dünya olaylarını kapsamaya
+  başlarsa (Boyut 7) eşik KENDİLİĞİNDEN büyür — ölçüt kendini yeniler.
+```
+🟢 Sonuncusu tasarımın en iyi yanı: **eşik sabit değil, kronolojiyle
+birlikte genişler.** `2s` tavanının bugünkü sorunu (dünya kapsamına çıkan
+her parti tavanı kalıcı yükseltiyor) böylece kendiliğinden çözülür.
