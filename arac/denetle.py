@@ -321,7 +321,19 @@ KUYRUK_DOSYALARI = ("yerlesimler_ortaasya2.js", "yerlesimler_avrupa.js",
 # 🟢 Ve parti gunu KAYDIRMADI: eski takvim (1864-09-25) yazsa fark +44'e
 #   cikardi, yani sayac icin bile ise yaramazdi -- ama esas sebep o degil,
 #   "tarih dogru oldugu icin durdu."
-BEKLENEN_ACIK_S = 159
+# 🟢 159 -> 121: UCUNCU SINIF DEVREYE GIRDI (kapsam_disi, PETEK/NOKTA parti 28).
+# Tavan bugun ILK KEZ ASAGI indi ve sebebi borc odenmesi DEGIL: 38 kirilma
+# borc OLMADIGI olculdu. Maddesi bu kronolojide OLAMAZ -- yazilmamis degil.
+#     699 yabanci kirilma → 121 ACIK (gercek borc) · 38 KAPSAM DISI
+# Kural zaten yaziliydi ("tavan asagi da takip edilir"); ilk uygulamasi bu.
+#
+# 🔴 VE BU, GUNLERDIR BUYUYEN YAPISAL SORUNU KOKUNDEN KESTI:
+#   parti 20 +5 · 21 +12 · 22 +5 · 23 +6 · 25 +1  ⇒ tavan 114'ten 159'a
+#   cikmisti ve her dunya partisi onu KALICI yukseltiyordu.
+#   Artik yukseltmiyor: uzak kirilma ACIK degil KAPSAM DISI sayiliyor.
+#   Esik kronolojiden olculdugu icin, kronoloji genisledikce esik de buyur
+#   ⇒ sistem kendi kendini ayarliyor.
+BEKLENEN_ACIK_S = 121
 # Değişmez 2'nin AYNADAKİ HÂLİ: madde var ama kırılma yok. Oturum 14'ün Girit
 # bulgusu — "1830-11-01 Girit'in idaresi Mehmed Ali'ye bırakıldı" maddesi VARDI,
 # beş nokta `d:` kalmıştı. Ölçüldü: 442 toprak/antlaşma maddesinin 67'sinin
@@ -660,6 +672,108 @@ def _toprak_iddiasi(o):
     if not isinstance(e, list):
         e = [x.strip() for x in str(e).split(",")]
     return "toprak-kazanc" in e or "toprak-kaybi" in e
+
+
+
+# ═══ `2s` UCUNCU SINIFI — KAPSAM DISI ════════════════════════════════════
+# 🔴 NICIN VAR: olcut bugune kadar yalniz IKI sey diyebiliyordu, MADDELI ya
+# da ACIK. Ucuncu bir hal olculdu ve ikisine de sigmiyor:
+#     "bu kirilmanin maddesi bu kronolojide OLAMAZ"
+# Gerceklesmis vakalar (6 Agustos 2026):
+#     1689 Nercinsk    ↔ "Nis ve Vidin'in kaybi"                 +18g  MADDELI!
+#     1858 Aygun       ↔ "Arazi Kanunnamesi"                      +9g  MADDELI!
+#     1860 Pekin       ↔ "Tercuman-i Ahval'in yayina baslamasi"  +23g  MADDELI!
+#     1905 Portsmouth  ↔ "San'a'nin geri alinmasi"                +4g  MADDELI!
+#     1864 Cugucak     ↔ "Vilayet Nizamnamesi"                   +32g  ACIK
+# Altisi da ALAKASIZ. Ve son satir meselenin ozeti: 1864 iki gun daha yakin
+# olsa "MADDELI" sayilacakti. ⇒ Olcut "esik 30 mu 34 mu" sorusuna
+# indirgeniyordu; oysa soru ESIK DEGIL, KAPSAM.
+#
+# ÖLÇÜT (PETEK/NOKTA parti 28): kirilmanin yerlesimi ile, O GUN `d:` ya da
+# `v:` tasiyan EN YAKIN yerlesim arasindaki uzaklik. Yani "Osmanli kuresine
+# uzaklik". Gerekcesi tek cumle: BU KRONOLOJI OSMANLI KRONOLOJISIDIR.
+# 🟢 Ve veriden olculebiliyor: yeni alan, yeni etiket, yeni arastirma YOK.
+#
+# ESIK SECILMEDI, KRONOLOJIDEN OLCULDU. 413 konumlu maddenin kendi
+# tarihinde Osmanli kuresine uzakligi (koordinator bagimsiz dogruladi):
+#     %50 ve %75:  0 km   ← maddelerin YARISI dogrudan Osmanli topraginda
+#     %90:  71 km · %95: 355 km · %99: 1.401 km · EN UZAK: 2.014 km
+# ⇒ Bu kronoloji 2.014 km'den oteye HIC BAKMAMIS. Otesindeki bir kirilmanin
+#   maddesi "yazilmamis" degil, YAZILAMAZ.
+#
+# 🟢 VE ESIK SABIT DEGIL: kronoloji dunya olaylarini kapsamaya baslarsa
+#   (Boyut 7) esik KENDILIGINDEN buyur. Boylece bugunku yapisal sorun --
+#   "dunya kapsamina cikan her parti 2s tavanini kalici yukseltiyor" --
+#   kendiliginden cozulur, tavani elle yukseltmeye gerek kalmaz.
+#
+# ⚠️ SINIRLAR (parti kendi yazdi, aynen aliniyor):
+#   · nokta bazli: cok noktali kirilmada EN YAKINI alinir (en muhafazakar)
+#   · "uzak" ≠ "onemsiz" — Nercinsk dunya tarihi icin buyuktur, yalnizca
+#     BU kronolojinin konusu degildir. Olcut ONEMI degil KAPSAMI olcer.
+#   · FETRET (1402-1413): atlasta 11 yil boyunca HIC Osmanli govdesi YOK
+#     (413 maddenin 8'i, aciklarin 2'si orada). Govde bossa olcum EN YAKIN
+#     govdeli gune kaydirilir -- yoksa olcut orada tanimsiz kalir.
+KAPSAM_ESIGI_KM = 2014.0
+
+
+def _km(a, b):
+    import math
+    dl = math.radians(a["lon"] - b["lon"]) * math.cos(
+        math.radians((a["lat"] + b["lat"]) / 2))
+    return 6371 * math.hypot(math.radians(a["lat"] - b["lat"]), dl)
+
+
+def _osmanli_kure(Y, g, _onbellek={}):
+    if g in _onbellek:
+        return _onbellek[g]
+    out = []
+    for y in Y:
+        for alan in ("d", "v"):
+            if any(p["f"] <= g < p["t"] for p in (y.get(alan) or [])):
+                out.append(y)
+                break
+    _onbellek[g] = out
+    return out
+
+
+def kapsam_disi(Y, acik):
+    """Acik kirilmalari (KAPSAM ICI, KAPSAM DISI) diye ayir.
+
+    KAPSAM DISI = kirilmanin en yakin noktasi bile Osmanli kuresinden
+    KAPSAM_ESIGI_KM'den uzak ⇒ maddesi bu kronolojide olamaz.
+    """
+    ix = {y["ad"]: y for y in Y}
+    ici, disi = [], []
+    for kayit in acik:
+        d, tip, adlar, baslik, fark = kayit
+        g = d if len(d) == 10 else (d + "-01-01")[:10]
+        kure = _osmanli_kure(Y, g)
+        if not kure:
+            # FETRET yedegi: en yakin govdeli gune kaydir
+            for kaydir in (365, 730, 1460, 2920, 4380):
+                import datetime
+                yy, mm, dd = int(g[:4]), int(g[5:7]), int(g[8:10])
+                for yon in (-1, 1):
+                    try:
+                        alt = (datetime.date(yy, mm, dd)
+                               + datetime.timedelta(days=yon * kaydir)).isoformat()
+                    except Exception:
+                        continue
+                    kure = _osmanli_kure(Y, alt)
+                    if kure:
+                        break
+                if kure:
+                    break
+        if not kure:
+            ici.append(kayit)          # olculemedi ⇒ borc sayilir (muhafazakar)
+            continue
+        noktalar = [ix[a] for a in adlar if a in ix]
+        if not noktalar:
+            ici.append(kayit)
+            continue
+        en_yakin = min(min(_km(n, k) for k in kure) for n in noktalar)
+        (disi if en_yakin > KAPSAM_ESIGI_KM else ici).append(kayit + (en_yakin,))
+    return ici, disi
 
 
 def kirilmasiz_madde(kir_dv, kir_s, O):
@@ -1439,12 +1553,20 @@ def main():
             print(f"    {d}  {tip:<7} {', '.join(adlar):<40} en yakın madde {fark} gün uzakta: {baslik}{im}")
 
     # ---- Değişmez 2'nin `s:` boyutu — ON AYLIK KÖRLÜK, bilinen borç olarak açıldı
-    kir_s, acik_s = degismez2(Y_cekirdek, O, ("s",))
+    kir_s, acik_ham = degismez2(Y_cekirdek, O, ("s",))
+    # ÜÇÜNCÜ SINIF: "maddesi bu kronolojide OLAMAZ" (bkz. kapsam_disi)
+    acik_s, disi_s = kapsam_disi(Y, acik_ham)
     durum2s = "✓" if len(acik_s) <= BEKLENEN_ACIK_S else "✗"
     if len(acik_s) > BEKLENEN_ACIK_S:
         ihlal = True
-    print(f"Değişmez 2s {durum2s}  {len(kir_s)} YABANCI kırılması, {len(acik_s)} açık "
-          f"(tavan {BEKLENEN_ACIK_S}) — bilinen borç")
+    print(f"Değişmez 2s {durum2s}  {len(kir_s)} YABANCI kırılması · "
+          f"{len(acik_s)} AÇIK (tavan {BEKLENEN_ACIK_S}) · "
+          f"{len(disi_s)} KAPSAM DIŞI")
+    print(f"            i KAPSAM DIŞI = Osmanlı küresine {KAPSAM_ESIGI_KM:.0f} km'den"
+          f" uzak; maddesi bu kronolojide OLAMAZ, yazılmamış DEĞİL.")
+    if disi_s and args.ayrinti:
+        for r in sorted(disi_s, key=lambda x: -x[5])[:10]:
+            print(f"    {r[0]}  {r[5]:6.0f} km  {', '.join(r[2][:2])[:40]}")
     print( "            i iki yabancı devlet arasındaki devir de haritada renk")
     print( "              değiştirir; Değişmez 2 bunu bugüne kadar hiç sormadı.")
     if acik_s:
