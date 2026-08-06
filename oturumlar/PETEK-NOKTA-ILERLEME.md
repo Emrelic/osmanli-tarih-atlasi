@@ -3086,3 +3086,128 @@ Kuril adaları         Aynı sebep + `edo-bakufu`/`meiji-japonya` ayrımı
                       Sahalin'den ayrı bir kaynak turu ister.
 Mâverâünnehir         Yukarıda ölçüldü — ayrı parti, `hokand` rengi lazım.
 ```
+
+
+---
+
+# PARTİ 20 EKİ — GÖL KALEMİ KAPANDI, AMA "ÜÇÜ TAMAM" YANLIŞTI
+### 6 Ağustos 2026 · `data/yerlesimler_ek8.js` (2 satır)
+
+## ① İKİ KOORDİNAT DÜZELTİLDİ — dosya `_ek8`, `yerlesimler.js` DEĞİL
+
+⚠️ **Önce bir düzeltme:** koordinatör *"`yerlesimler.js` çalışma ağacında
+temiz"* diye sevk etti. Jukkasjärvi **`yerlesimler.js`'te değil,
+`data/yerlesimler_ek8.js:110`'da.** Doğru dosyaya bakıldı, `git status`
+ile temiz olduğu doğrulandı, koşan üretim olmadığı ayrıca kontrol edildi.
+
+```
+Jukkasjärvi  67,8500/20,6600 → 67,8693/20,6737   (2,2 km KD, Torneträsk dışına)
+İnari        68,9058/27,0289 → 68,9257/27,0337   (2,2 km K, Inarijärvi dışına)
+```
+İkisi de 4 Ağustos'ta `oturumlar/BEKLEYEN-ek8-gol-duzeltmesi.patch`'e
+konmuştu (o gün `_ek8` koşu 9'un bağlı girdisiydi, yazmak yayını bayat
+gösterirdi). Bugün koşu yok, uygulandı.
+
+⚠️ **Koordinatörün önerdiği 67,8443/20,6594 KULLANILMADI.** Ölçtüm: o da
+maskeden geçiyor ama göl kenarına **sıfır mesafede** duruyor. `KARA_TOL`
+0,002 sadeleştirmesinin bir kıpırtısı onu geri içeri alabilir. 2,2 km'lik
+payı olan koordinat seçildi.
+
+## ② 🔴 "ÖBÜR ÜÇÜ TAMAM" — ÜÇÜ DE TAMAM DEĞİLDİ
+
+Koordinatör `denetle.py` çıktısına dayanarak *"Eğirdir · Västerås · İnari ✓"*
+dedi. **Üçünü de motorun kendi ölçütüyle ölçtüm ve üçü de gölün içindeydi.**
+
+```
+                      MOTOR (sadeleştirmesiz göl)   DENETLE (simplify 0.01)
+İnari      68,9058     🔴 GÖL İÇİNDE  (20 m)          ✓ karada
+Eğirdir    37,8740     🔴 GÖL İÇİNDE  (142 m)         ✓ karada
+Västerås   59,6110     🔴 GÖL İÇİNDE  (74 m)          ✓ karada
+```
+
+🔴 **SEBEP TEK VE KODDA YAZILI:** `denetle.py:1103` gölleri
+`simplify(0.01, preserve_topology=True)` ile sadeleştiriyor.
+**0,01° ≈ 1,1 km.** Motor sadeleştirmiyor.
+⇒ **Tolerans, aradığı hatanın kendisinden büyük.** 20-142 metrelik bir
+göl taşması 1,1 km'lik bir yumuşatmanın altında kalıyor ve denetim
+"konum: 0" diyor.
+
+📌 Bu, `PARTİ 19 §12`nin dersinin **ÜÇÜNCÜ hâli** ve deseni tamamlıyor:
+```
+① eksik dosya kümesi     (§5, Temmuz)      ayrıştırıcı doğru, dosya listesi eksik
+② eksik maske katmanı    (§12, 4 Ağustos)  ham kıyı maskesi gölü görmüyor
+③ eksik kutu kapsamı     (§12, 4 Ağustos)  64°K üstü hiç ölçülmemiş
+④ eskimiş bağlılık listesi (§12)           çıkarım eskir, liste eskimez
+⑤ FAZLA SADELEŞTİRME     (bugün)           göl VAR, ölçüt onu bulanıklaştırıyor
+```
+**Beşi de aynı aile: kontrolü yaptım, ama MOTORUN sorduğu soruyu değil
+KENDİ sorduğum soruyu ölçtüm.**
+
+## ③ TAM TARAMA — 1745 nokta, motorun ölçütüyle
+
+`_ek8` düzeltildikten sonra bütün canlı küme + `ek13` tarandı:
+```
+maske dışında: 2
+   0,142 km  Eğirdir    37,8740 / 30,8510   🔴 denetle.py GÖRMÜYOR
+   0,074 km  Västerås   59,6110 / 16,5450   🔴 denetle.py GÖRMÜYOR
+```
+⇒ **`denetle.py` "konum: 0" diyecek ve bu YANLIŞ TEMİZ olacak.**
+İkisi de koordinatörün dosyalarında (`yerlesimler.js` · `_ek7`), bende değil.
+
+### ⚠️ AĞIRLIĞINI ABARTMIYORUM — ölçtüm, ve Jukkasjärvi ile AYNI DEĞİL
+Jukkasjärvi'nin peteği **%0,0** çıkmıştı çünkü Voronoi hücresi küçüktü
+(İskandinavya'da nokta sık) ve **tamamen gölün içine düşüyordu.**
+Eğirdir ve Västerås 74-142 m içeride; çevrelerindeki kara oranı:
+```
+                5 km      20 km     50 km
+Eğirdir        %50,3     %76,7     %92,6
+Västerås       %57,1     %74,5     %88,6
+```
+⇒ Hücreleri gölün çok ötesine uzanıyor; **peteklerinin sıfırlanması
+beklenmez.** Ama bunu kesin söyleyebilecek tek şey motorun kendisidir.
+🔴 **Asıl bulgu haritanın bozuk olması değil, DEDEKTÖRÜN KÖR olması.**
+
+### 📌 `denetle.py`ye öneri (dosya benim değil, uygulamıyorum)
+Göl sadeleştirmesi ya **motorunkiyle aynı olsun** (yani hiç olmasın), ya da
+tolerans aranan hatadan küçük olsun. Bugünkü hâliyle 6. kontrol, kendi
+yakalamak için yazıldığı hata sınıfının **alt yarısına kör.**
+
+## ④ ORTA ASYA İDDİASI — KOORDİNATLA DOĞRULANDI
+
+Koordinatör uyardı: *"veri Türkçe yazımla ve parantezli tutuluyor
+(`Sin (Sinj)` · `Kotor (Cattaro)`); tam eşleşmeyle arama, koordinatla bak."*
+Uyarı yerinde — ilk turda ad kökü araması da yapmıştım. **Hükmü ad
+eşleşmesinden değil koordinattan kuruyorum:**
+
+```
+hedef              en yakın CANLI nokta            hüküm
+Semerkant 39,654/66,975    502,6 km  Merv          🔴 YOK
+Buhara    39,768/64,421    330,4 km  Merv          🔴 YOK
+Taşkent   41,311/69,280    604,7 km  Kaşgar        🔴 YOK
+Hokand    40,529/70,943    446,2 km  Kaşgar        🔴 YOK
+Andican   40,783/72,350    342,6 km  Kaşgar        🔴 YOK
+Hucend    40,284/69,622    551,5 km  Kaşgar        🔴 YOK
+Termez    37,224/67,278    345,3 km  Kâbil         🔴 YOK
+Belh      36,758/66,897    322,5 km  Kâbil         🔴 YOK
+Şehrisebz 39,058/66,833    466,1 km  Merv          🔴 YOK
+Karşi     38,860/65,795    374,0 km  Merv          🔴 YOK
+Türkistan 43,302/68,253    631,1 km  Hazârasp      🔴 YOK
+Oş        40,514/72,804    295,5 km  Kaşgar        🔴 YOK
+Almatı    43,238/76,889    365,5 km  Gulca         🔴 YOK
+Çimkent   42,317/69,596    624,5 km  Kaşgar        🔴 YOK
+──────────────────────────────────────────────────────────
+Hîve (KONTROL)  41,379/60,363   0,1 km  Hîve       🟢 VAR
+```
+🟢 **Kontrol noktası yöntemin çalıştığını kanıtlıyor:** Hîve 0,1 km'de
+yakalandı. On dördünün en yakını **295 km.** ⇒ Sahte "YOK" değil; o
+coğrafyada gerçekten nokta yok.
+
+📌 Ve `ONCELIK.md K4`e uygun: koordinatörün itirazı ölçülerek karşılandı,
+hüküm değişmedi ama **dayanağı ad eşleşmesinden koordinata taşındı.**
+
+## ⑤ AYRI GÖZLEM — 3 km ölçütünü ihlal eden CANLI çift var (benim değil)
+Tam taramada çıktı: canlı verinin en yakın çifti
+**`Anadolu Hisarı` ↔ `Rumeli Hisarı` = 1,539 km.**
+`§11`in 3 km eşiğinin altında ama **mükerrer değil**: Boğaz'ın iki yakasında
+karşılıklı iki ayrı kale. Bilinen ve muhtemelen kasıtlı; yalnız kayda
+geçiyorum ki bir sonraki 3 km taraması onu "yeni bulgu" sanmasın.
