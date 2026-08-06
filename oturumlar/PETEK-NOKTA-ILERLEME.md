@@ -3305,3 +3305,177 @@ düzeltmeleri de her iki ölçütten geçiyor. **Göl kalemi tamamen kapandı.**
    (*"ilhak, kendi maddesinde değil iki madde sonra boyanıyor"*) — orada
    `Değişmez 2` için ölçmüştüm, burada `2s`de tekrar çıktı. **Aynı kör
    nokta, iki ayrı denetimde.**
+
+
+---
+---
+
+# PARTİ 21 — MÂVERÂÜNNEHİR + HERAT + BELH
+### `ek14` (9) · `ek15` (7) · `ek16` (2) = **18 nokta** · 6 Ağustos 2026
+
+**Durum:**
+```
+_ek14  9 nokta  🟢 BAĞLANABİLİR
+_ek15  7 nokta  🟢 BAĞLANABİLİR — engel oturum sırasında kalktı
+_ek16  2 nokta  🔴 `afgan-durrani` + `afganistan` rengini bekliyor
+```
+
+## ① BEKLENEN DEĞİŞİM — bu sefer DOSYA BAŞINA da yazıldı
+`PARTİ 20`de bunu koordinatöre mesajla verip **dosyaya koymayı atlamıştım**;
+tenkit haklıydı (*"mesaj kaybolur, dosya kalır"*). Üç dosyanın üçünde de
+başlıkta duruyor:
+```
+nokta               +18   (9 + 7 + 2)
+yeni renk           2     (`afgan-durrani` · `afganistan`) — `hokand` GELDİ
+Değişmez 1 tavanı   +0    ← 18 kaydın 18'i de 1281-01-01'den KESİNTİSİZ
+                            sahipli. Tavan 102'DE KALMALI. Değişirse bir
+                            şey bozulmuştur.
+Değişmez 2 borcu    0     (`d:`/`v:` dönemi yok, hepsi `s:`)
+Değişmez 3 çelişki  0     (`m:` yazılmadı)
+```
+📌 **Bu partide tahmin +0** ve o yüzden `PARTİ 20`den daha güçlü bir iddia:
+oradaki +16 "kaç tane" sorusuydu, buradaki **"hiç olmamalı"** — yani
+denetimin sayısı DEĞİŞİRSE benim hatam demektir.
+
+## ② ÜÇE BÖLME KARARI — ve niçin bölünmeseydi 18'i birden beklerdi
+`PARTİ 19`da kurduğum desen: **dosya başına tek engel.** Uygulandı ve
+oturum bitmeden karşılığını verdi:
+```
+başlarken   _ek14 hazır · _ek15 `hokand` bekliyor · _ek16 afgan bekliyor
+biterken    _ek14 hazır · _ek15 HAZIR (renk geldi) · _ek16 bekliyor
+```
+🟢 **RENK 2 `hokand` rengini oturum sırasında ekledi** (`BOYALAR` 231 → 232,
+`#b4603f`); ölçtüm, doğruladım, `_ek15`in başlığını düzelttim.
+⇒ Bölünmeseydi on altı nokta `_ek16` yüzünden bekleyecekti.
+
+## ③ 🔴 KOORDİNATÖRE İKİ DÜZELTME
+
+### (a) "hokand tek kayıt" değil, YEDİ
+Sevkte *"14 şehrin 13'ü boyalı, `hokand`ı en sona bırak, tek kayıt
+eklersin"* deniyordu. **Hokand Hanlığı yalnız Hokand şehri değildi.**
+TDV `taskent`in kendi cümlesi: *"Taşkent … Hokand Hanlığı'nın egemenliğine
+girdi (1809)."* Aynı hanlık Hucend (1802) · Türkistan (1815) · Andican ·
+Oş · Çimkent'i de tutuyordu. **Yedi kayıt.**
+
+### (b) `afgan-durrani` ve `afganistan` RENGİ YOK — ve bu benimle başlamıyor
+Canlı `Kâbil` kaydı **bugün** o iki kimliği taşıyor ve ikisinin de rengi
+yok. `CLAUDE.md §8`: renksiz kimlik ⇒ **bölge boyanmaz.**
+⇒ **Afganistan haritada 1747'den beri boyasız.** 15 nokta `afgan-durrani`,
+3 nokta `afganistan`.
+
+## ④ 🔴 VE DAHA BÜYÜĞÜ — 44 RENKSİZ KİMLİK, en tepesi Çin
+Aynı taramada ölçüldü — canlı `s:` dönemlerinde kullanılan ama
+`BOYALAR`'da olmayan kimlikler:
+```
+cin-cumhuriyeti     85 nokta   1911-10-10 → 1923-10-29   ← AÇIK ARA BİRİNCİ
+kenmu               17 · fransiz-cinhindi 16 · afgan-durrani 15
+haydarabad-nizam    15 · bengal-sultanligi 13 · bengal-nevabligi 13
+san-fan             13 · yadava 12 · dashun 12 · avad 9 …
+                    (kuyrukta 34 kimlik daha)
+                    TOPLAM 44 KİMLİK
+```
+🔴 `cin-cumhuriyeti` demek: **Çin'in 85 noktası 1912-1923 arası boyasız.**
+Benim işim değil, düzeltmeye kalkmadım — ölçüm RENK 2'ye gitti.
+
+## ⑤ EMRE'NİN `H-0010` MADDESİ — bu parti onun cevabı
+```
+box(37-45°K / 62-76°D)  ≈1,5 milyon km²   ÖNCEKİ NOKTA SAYISI: 1
+                                          (Kaşgar, kutunun DOĞU KENARINDA)
+```
+On dört hedefin de en yakını **295 km+**; kontrol noktası `Hîve` 0,1 km'de
+yakalandı (koordinatörün *"koordinatla bak, adla değil"* uyarısı uygulandı).
+🔴 **Timur'un başkenti bir 1281-1923 atlasında yoktu.**
+
+## ⑥ KAYNAK — `PARTİ 20`nin tersine BU PARTİ TDV'YE BASIYOR
+`<title>` ile sınandı:
+```
+CANLI : semerkant · buhara · taskent · hokand · herat · belh
+🔴 ÖLÜ : termiz   ("Arama - TDV İslâm Ansiklopedisi")
+```
+TDV'den alınan kesin günler:
+| madde | hüküm |
+|---|---|
+| `semerkant` | Özbekler 1500 · **Ruslar 14 Mayıs 1868'de zaptetti** |
+| `buhara` | Özbekler 1500 yazı · hanlık **6 Ekim 1920'de ilga** |
+| `taskent` | Şeybânî 1503 · **Hokand 1809** · Ruslar **Haziran 1865** |
+| `hokand` | Ming hanedanı başşehri XVIII. yy ortası · **Şubat 1876 ilhak** |
+| `herat` | Kertler 1255-1381 · Timur **Nisan 1381** · Özbekler 1507 · Şah İsmâil 1510 · Dürrânî 1747 · **1863 Paris** |
+| `belh` | Şeybânî **1506** · Şah İsmâil **1509** · Çaldıran'dan sonra Özbekler · Dürrânî **1751** · Buhara **1826** · Afganlar **1841** |
+
+### İşaretlenen iki zayıflık
+```
+Taşkent 1865-06-17   TDV yalnız AYI veriyor ("Haziran 1865"); GÜN akademik
+                     referanstan. `§4` "tarih uydurma" der — ay biliniyor.
+Herat 1281-1381      TDV Kert (Kart) hânedanı diyor; `kart` kimliği ne
+                     dizinde ne renkte VAR. UYDURULMADI — canlı Horasan
+                     deseni ödünç alındı (`ilhanli`→`iran`, Merv/Nesâ/
+                     Serahs üçünün de taşıdığı zincir). Kimlik gelirse
+                     tek satırla düzeltilir.
+```
+
+## ⑦ İKİ DİZİN ÇELİŞKİSİ BULUNDU
+
+### (a) `buhara` bitişi: TDV 1920-10-06 ↔ dizin 1920-09-02
+34 gün fark (Kızıl Ordu 2 Eylül'de şehri aldı, halk cumhuriyeti 8 Ekim'de
+ilân edildi — ikisi de savunulabilir). **Dizindeki gün kullanıldı:** atlas
+içi tutarlılık 34 günden önemli, `devletler.js` benim dosyam değil.
+
+### (b) 🔴 `cagatay` ile `timurlu` ARASINDA 98 GÜNLÜK BOŞLUK VAR
+```
+devletler.js:  cagatay t=1370-01-01   ·   timurlu f=1370-04-09
+```
+Üç şıkkın üçü de kusurlu:
+```
+(a) cagatay'ı 04-09'a uzat     → cagatay 98 gün HAYALET (§3.5)
+(b) timurlu'yu 01-01'de başlat → timurlu 98 gün hayalet
+(c) arada boşluk bırak         → Değişmez 1 İHLALİ, 98 günlük delik
+```
+🔴 **Önce (a)'yı yazdım ve kendi hayalet kontrolüm 17 kayıtta yakaladı.**
+**(b)'ye çevrildi**, çünkü canlı `Kâbil` kaydı zaten öyle yazıyor — atlas
+tercihi çoktan yapmış, ondan ayrılmak yeni bir tutarsızlık olurdu.
+📌 Gerçek çözüm dizindedir (`timurlu` f'i 1370-01-01'e çekilirse üç şıkkın
+   da gereği kalmaz) ve `devletler.js` benim dosyam değil.
+
+## ⑧ KOPYALANMAYAN ZİNCİRLER — dördü ayrı ayrı gerekçeli
+```
+Cizzah      Semerkant'tan İKİ YIL ÖNCE Rus (1866-10-18 ≠ 1868-05-14)
+Hucend      Fergana üçlüsünden farklı: Hokand'a 1802, Rusya'ya 1866-05-24
+Türkistan   ortada `buhara` DEĞİL `kazak-hanligi` — Yesi Kazak hanlarının
+   ve Çimkent   makamıydı; Fergana zinciri kopyalansa iki yüzyıl yanlış olurdu
+Almatı      Yedisu Mâverâünnehir değil Moğulistan; zincir `Gulca`dan
+Belh        Herat'tan ayrı: Horasan değil, Mâverâünnehir'in güney kanadı
+```
+Ve `kazak-hanligi` **1847-01-01'de kesildi**, Vernıy kalesinin kurulduğu
+1854'te değil — dizin `t=1847-01-01` diyor, kaleyi başlangıç yapsaydım
+hanlığı yedi yıl fazla yaşatırdım (`§3.5`, Batnoz'un aynısı).
+
+## ⑨ KABUL ÖLÇÜTÜ — 18 nokta
+```
+① ayrıştırma  9 + 7 + 2 = 18/18 `girdi.oku_dosya` ile temiz     ✓
+② alan kütüğü BILINEN_ALANLAR dışı alan YOK                     ✓
+③ renk        _ek14 ve _ek15 tam · _ek16 iki eksik (ilan edildi)
+④ ad çakışma  1729 canlı kayda karşı 18/18 benzersiz            ✓
+⑤ dönem sağlığı gün hassasiyeti 18/18 · ters/sıfır/çakışma YOK  ✓
+⑤b hayalet    yalnız BİLEREK seçilen `timurlu` 98 günü (⑦b)
+              + repo geneli `rusya`>1917 sözleşmesi
+⑥ Değişmez 1  iç boşluk 0 · 1281'de sahipsiz kayıt 0 ⇒ TAVAN +0 ✓
+⑦ Değişmez 2  d:/v: dönemi 0 ⇒ kırılma 0, MADDE BORCU 0         ✓
+⑧ Değişmez 3  m: yazılmadı ⇒ çelişki üretemez                   ✓
++ maske       MOTORUN GERÇEK ölçütüyle 18/18 içeride            ✓
+              (simplify(0.01) + girdi.oku_goller() — dünkü iki eksiğim)
++ kutu        18/18 içeride                                     ✓
++ 3 km        en yakın çift 48,65 km (Andican ↔ Oş)             ✓
+```
+
+## ⑩ AÇIK BIRAKILANLAR
+```
+_ek16          afgan renkleri gelene kadar bağlanmaz
+Duşanbe        1920'lere kadar köy; Hisar beyliğinin içinde, ayrı petek
+               kazancı yok
+Ura-Tepe       Buhara ile Hokand arasında sürekli el değiştiriyor;
+               kaynakla ayıramadım, YAZILMADI
+Merv-Buhara    canlı `Merv` kaydı 1785-1860 arası `buhara` taşıyor —
+  kuşağı       yeni noktalarımla tutarlı, dokunulmadı
+Hazar doğusu   kutunun geri kalanı (Karakum · Kızılkum · Üstyurt) zaten
+               dolgu noktalı; bu parti ŞEHİRLERİ kapattı, çölü değil
+```
