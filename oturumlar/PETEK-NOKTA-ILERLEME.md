@@ -3479,3 +3479,80 @@ Merv-Buhara    canlı `Merv` kaydı 1785-1860 arası `buhara` taşıyor —
 Hazar doğusu   kutunun geri kalanı (Karakum · Kızılkum · Üstyurt) zaten
                dolgu noktalı; bu parti ŞEHİRLERİ kapattı, çölü değil
 ```
+
+
+---
+
+# PARTİ 21 — BAĞLANDIKTAN SONRAKİ ÖLÇÜM
+### `ek14` + `ek15` canlı · 1745 nokta · 6 Ağustos 2026
+
+## ① 🟢 `Değişmez 1 +0` TAHMİNİ DOĞRULANDI — koordinatörün kendi aletiyle
+```
+Değişmez 1  ✓  1745 yerleşim, 102 sahipsiz (beklenen 102)
+Değişmez 1b ✓  pencere arası boşluk: 0
+Değişmez 2  ✓  497 kırılma, 0 açık
+Ek denetim  ✓  konum: 0 nokta kara maskesinin dışında (beklenen 0)
+```
+Dosya başlarına *"tavan 102'DE KALMALI, değişirse bir şey bozulmuştur"*
+yazmıştım. **Kalmadı — kaldı.** `PARTİ 20`nin +16 tahmini tutmamıştı;
+bu turda tahmin **+0** idi ve tuttu.
+📌 Ve göl kalemi de kapandı: `konum: 0`.
+
+## ② 🔴 AMA `2s` ARTTI — 131 → 143, ve +12'nin HEPSİ BENDEN
+Dosya başında *"`2s` +? — sayıyı ölçemem, bana kapalı"* yazmıştım.
+Bağlandıktan sonra ölçtüm; artık kapalı değil. **On üç açık gün:**
+```
+_ek14 (6)   1347-01-01 (214g)  1370-01-01 (633g)  1500-01-01 (126g)
+            1758-01-01  (63g)  1847-01-01  (33g)  1866-10-18  (58g)
+_ek15 (9)   1370-01-01 · 1500-01-01 (ortak)  1598-01-01 (87g)
+            1710-01-01 (365g)  1802-01-01 (84g)  1864-09-22 (47g)
+            1865-06-17 (167g)  1866-05-24 (89g)  1876-02-19 (101g)
+            ────────────────────────────────────────────────────
+            birleşik 13 ayrı gün · denetimde +12 (biri zaten vardı)
+```
+
+### 🔴 VE BU YAMAYLA KAPANMAZ — yapısal
+Açık günlerin hepsi **Orta Asya hanlık geçişleri**: Timur'un
+Mâverâünnehir'i alması · Şeybânîlerin gelişi · Hokand'ın kuruluşu ·
+Rusların Taşkent'i alması. **Bir Osmanlı kronolojisinde bunların maddesi
+YOK ve olması da beklenmez.**
+
+⇒ Hüküm: **`2s` tavanı, DÜNYA KAPSAMINA ÇIKAN HER PARTİYLE KALICI OLARAK
+YÜKSELİR.** İki çıkış var ve ikisi de benim yetkimin dışında:
+```
+(a) kronoloji dünya olaylarını da kapsasın  → Boyut 7 / kronoloji oturumu
+(b) `2s` ölçütü "yabancı kırılmanın Osmanlı maddesi olsun" beklemeyi
+    bıraksın → denetim tasarımı
+```
+📌 Bu, koordinatörün `ek13`te bulduğu *"Nerçinsk 1689 ↔ Niş ve Vidin'in
+kaybı"* vakasının **kök sebebi**: ölçüt yalnız tarih yakınlığına bakınca
+Osmanlı maddesi bulup "MADDELİ" diyor; bulamayınca "AÇIK" diyor. **İkisi
+de yanlış cevap** — doğru cevap *"bu kırılmanın maddesi bu kronolojide
+olamaz"*.
+
+## ③ ⚠️ KOORDİNATÖRE BİR ÇERÇEVE DÜZELTMESİ — Aral
+Koordinatör `goller.js` eksiğini kapattıktan sonra şöyle yazdı:
+> *"Sıradaki partin Mâverâünnehir — yani tam Aral bölgesi. Bu eksik bir
+> parti sonra bulunsaydı, o partinin bütün Aral çevresi noktaları yanlış
+> doğrulanmış olacaktı. Senin maskeyi yeniden kurma kararın, kendi bir
+> sonraki partini kurtardı."*
+
+**Ölçtüm — güzel bir hikâye ama doğru değil.** Mâverâünnehir Aral değil,
+Zerefşan ve Fergana havzasıdır:
+```
+PARTİ 21'in 18 noktasının tarihî Aral poligonuna uzaklığı:
+   en yakın  Buhara      624,8 km
+   en uzak   Almatı    1.695,9 km
+   tarihî göl içinde kalan: 0
+canlı 1745 noktadan tarihî göl içinde kalan: 0
+Aral'a gerçekten yakın olanlar ZATEN CANLI ve temiz:
+   Küngrat 49,2 km · Aral kuzeyi 54,3 km · Köhne Ürgenç 125,7 km
+```
+⇒ `goller.js` eklemesi **yapısal olarak doğruydu ve gerekliydi**, ama bu
+partiyi kurtarmadı — bu parti risk altında değildi.
+
+📌 **Niçin düzeltiyorum:** *"ölçüm kendi partimi kurtardı"* hoş bir cümle
+ve tam da bu yüzden tehlikeli — `ONCELIK.md K4`ün *"ölçmeden verilen sayı
+üç tur demektir"* kuralı övgüye de işler. Gerçek fayda ileride: Aral
+yatağına (Muynak, Aralsk, kuruyan yatağın dolgu noktaları) nokta koyacak
+parti **gerçekten** risk altındaydı ve artık değil.
