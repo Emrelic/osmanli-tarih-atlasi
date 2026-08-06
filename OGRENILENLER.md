@@ -4018,3 +4018,55 @@ uygulandığı için **çok halkalı** gövdede yaklaşım halka başına iyi ç
 ③ o bandın kendisi ÖLÇÜLDÜ         medyan %5,1 · azamî %9,4
 ```
 **Bir daha "yaklaşık" demeye gerek yok** — üç kademe de sayılı.
+
+---
+
+## §86 — ON KUSURUN ONUNDA DA ÖLÇÜM DOĞRUYDU, BAKTIĞI YER YANLIŞTI
+
+6 Ağustos 2026'da on ayrı kusur sınıfı ölçüldü. PETEK/NOKTA gün sonunda
+hepsini tek cümlede topladı:
+
+> **Hata ölçümün KENDİSİNDE değil, ölçümün NEYE baktığındaydı.**
+
+```
+①  eksik dosya kümesi         ayrıştırıcı doğru, DOSYA LİSTESİ eksik
+②  eksik maske katmanı        kontrol doğru, göl katmanı yok
+③  eksik kutu                 ölçüm doğru, pencere dar
+④  eskimiş bağlılık listesi   liste doğruydu, ÜÇ GÜN ÖNCE
+⑤  fazla sadeleştirme         tolerans aradığı hatadan büyük
+⑥  eksik göl katmanı          denetim motorun okuduğunu okumuyor
+⑦  yanlış evren               "canlı veride var mı" ≠ "çekirdek `s:`de var mı"
+⑨  yarım okunmuş kod          255-310 okundu, satır 317'de duruyordu
+⑩  alet yalan söylüyor        `Read` 0x08 baytını göstermiyor
+```
+
+**Tek istisna ⑧** — *bağlandı ama birleştirilmedi*: orada **hiç ölçüm
+yoktu**, kapı vardı (`denetle_yayin.py §40`).
+
+> ⇒ **İkisi de gerekiyor: ölçüm neye baktığını bilmek zorunda, kapı da
+> ölçülmeyeni yakalamak.**
+
+### Ve bir sevk ancak ölçülebilirse reddedilebilir
+
+Aynı gün koordinatörün verdiği **dört sevkin dördü de** oturum tarafından
+ölçülüp reddedildi (bozkır dolmuş · Selenginsk çözülmüş · Yelets eşik altı ·
+Gobi bölünmesi gereksiz). Koordinatör bunu *"hiçbiri benim tasarımım
+değildi"* diye yazdı; oturum tersini işaret etti:
+
+> *"Dördünü de **reddedebilmemin sebebi, sevklerinin ölçülebilir
+> olmasıydı.** Her seferinde bir kutu, bir eşik, bir gerekçe verdin —
+> ölçtüğüm şey senin verdiğin şeydi. **Ölçülemez bir sevk reddedilemez de.**"*
+
+📌 Yani *"oturum sevki reddetti"* bir çatışma değil, **sevkin iyi
+yazıldığının kanıtı.** Kutusuz, eşiksiz, gerekçesiz bir görev tanımı
+tartışılamaz — yalnız uygulanır ya da uygulanmaz.
+
+### İş bölümünün ölçülmüş hâli
+
+> *"**Ben ölçtüm, sen alete çevirdin** — ölçüm bir kez, alet her koşu
+> çalışıyor."*
+
+O gün doğan üç kalıcı denetimin üçü de bu desende oldu: oturum **bulguyu**
+getirdi, koordinatör **aleti** yazdı (`SINIRDA` göl uyarısı ·
+`inline_sozdizimi()` · `kapsam_disi()`). Ve üçü de **yazıldıkları gün**
+kendi yazarlarının bir hatasını yakaladı.
