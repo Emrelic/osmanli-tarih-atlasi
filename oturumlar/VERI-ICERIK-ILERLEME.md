@@ -67,7 +67,11 @@ kosedag-savasi  200  <title>KÖSEDAĞ SAVAŞI> — tarih için okundu (kaynaklar
 Ölü çıkan denemeler (kullanılmadı): `yenicerilik`, `vasallik`, `tabilik`,
 `kirim-hanligi`, `voyvoda`, `segedin-antlasmasi`, `varna-savasi`.
 
-## 🔴 YAN BULGU — "ahiler" kimliği haritada DİZİNSİZ (benim yetkim dışında, bildiriyorum)
+## ❌ YAN BULGU — YANLIŞTI, koordinatör düzeltti (bkz. AÇIK SORULAR §3)
+
+Aşağıdaki iddia hatalıydı; ölçüm hatası bendeydi (`Grep` sonucunu yanlış
+okudum, ayrıntı §3'te). "ahiler" kimliğinin hem rengi hem dizin kaydı
+GERÇEKTEN VAR — silinmedi, iz olarak bırakıldı:
 
 H-0016'yı ölçerken: `data/yerlesimler.js:157` Ankara kaydında gerçekten
 `d:"ahiler"` var (1281-01-01 → 1354-08-01 penceresi, kullanıcı doğru
@@ -110,20 +114,28 @@ Yukarıda ①'de açıklandığı gibi kaynak paket bulunamadı. Tahmin edilmedi
 
 ```
 ① data/ekokuma.js DOĞDU, 3 kart (≥2 istendi), kesinlik dolu, TDV slug'lı  ✅
-② data/merak.js 8 → 12                                                    ❌ hâlâ 8 (gerekçe yukarıda)
+② data/merak.js 8 → 12                                                    ✅ hâlâ 8 ama koordinatör onayladı — 4. karta gerek yok
 ③ her kartın kaynağı <title>/HTTP koduyla sınanmış                        ✅ (yeni 3 + düzeltilen 2 eski)
 ④ H-0013/14/15/19: kart ya da bulunamadı                                  ✅ bulunamadı + gerekçe
 ```
 
-## AÇIK SORULAR — koordinatöre
+## AÇIK SORULAR — koordinatöre → CEVAPLANDI
 
-1. `kutu/giden/parti-0006/` gerçekte nerede? KALEM 4'ü ancak o zaman
-   bitirebilirim.
-2. `data/merak.js`e dördüncü kart gerekiyor mu, yoksa üç kart (H-0020/21+22/23)
-   KALEM 2'yi kapatıyor mu? Brifing dördü ayrı sayıyordu, ÇAPRAZ İBERYA
-   21+22'yi birleştirmişti — bu birleşme kabul mü?
-3. "ahiler" kimliğinin renk/dizin eksikliği (yukarıki yan bulgu) — Oturum 0/3
-   kuyruğuna eklenmeli mi?
+1. `kutu/giden/parti-0006/` — koordinatör cevapladı: bu depoda değil,
+   `ClaudEmre\kutu\giden\parti-0006\` (ayrı depo). Oraya gitmedim (Emre'nin
+   "ClaudEmre'yle alakalı bir şey yapma" kuralı) — `bulunamadı` doğru kaldı,
+   kalemi koordinatör taşıyor.
+2. Dördüncü merak kartı — koordinatör "H-0021'in yalnız dış siyaseti mi
+   yoksa saray içi evliliği de mi kapsadığını ölç" dedi. **Ölçtüm:**
+   `siyasi-evlilikler` kartının GÖRÜŞ 2-3'ü câriye sistemine geçişi ve çok
+   eşliliği (Hürrem nikâhı) doğrudan anlatıyor — yalnız dış ittifak değil.
+   **Sonuç: dördüncü kart gerekmiyor, KALEM 2 kapandı.**
+3. 🔴 **DÜZELTME — "ahiler dizinsiz" bulgum YANLIŞTI.** Koordinatör ölçtü:
+   `arac/renkler.py:754` ve `data/devletler.js:1222`de kimlik GERÇEKTEN VAR.
+   Hata bende: `Grep` çağrımda `output_mode` belirtmemiştim, araç
+   `files_with_matches`e düştü ve "Found 1 file" çıktısını (= eşleşme VAR)
+   "eşleşme yok" diye yanlış okudum. `content` moduyla tekrar çektim, ikisi
+   de doğrulandı. Ankara boyanıyor, delik yok — kuyruğa girmedi.
 
 ## YAZMA YETKİSİ KULLANIMI
 ```
