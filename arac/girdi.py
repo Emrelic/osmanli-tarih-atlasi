@@ -253,6 +253,32 @@ GIRDI_DOSYALARI = [
     #   3 km ✓ · dönem sağlığı ✓
     "yerlesimler_ek14.js",
     "yerlesimler_ek15.js",
+    # ── PARTİ 22 · 6 Ağustos 2026 (NOKTA EKLEME) ────────────────────
+    # ek17 Orman-bozkır kuşağı 11 nokta: Çernigov · Novgorod-Seversk ·
+    # Putivl · Bryansk · Kursk · Orel · Ryazan · Belgorod · Tambov ·
+    # Penza · Simbirsk.
+    # 🔴 SEVK GEREKÇEM ÇÜRÜTÜLDÜ VE HEDEF KAYDIRILDI — parti haklıydı.
+    #   Koordinatör "Karadeniz kuzeyi bozkırı"nı onayladı; dayanak partinin
+    #   KENDİ `PARTİ 1 §⑥` listesiydi ve ÜÇ GÜNDE bayatlamıştı:
+    #       bozkır 44-50°K   parti 1: yarıçap 130-215 km
+    #                        bugün  : ort 81 km · en uzak 191 km  ⇒ DOLMUŞ
+    #   (arada Zaporojye · Don Kazak · Sloboda · Donets · Camboyluk ·
+    #    Yediçkul · Kalmuk bozkırı eklenmiş — 50 nokta)
+    #   Açlık BİR KUŞAK KUZEYE kaymış: 50-54°K, 640.745 km², ort 162 km,
+    #   EN UZAK 303 km; Tula ile Voronej arasında 280 km boyunca sıfır nokta.
+    #   📌 §1.5 dersinin dördüncü vakası — ama bayatlayan belge CLAUDE.md
+    #   değil PARTİNİN KENDİ ilerleme dosyası. Sevki reddetmedi, ÖLÇÜP
+    #   hedefi kaydırdı.
+    # 🔴 VE ORADA RENK DE YANLIŞTI: 1500'de kuşağın %28,8'i (184.611 km²)
+    #   `kirim`. Sebep veri hatası DEĞİL, saf §2 emilmesi — Voronej
+    #   (kirim 1441→1585) ve Harkov (kirim 1441→1654) kayıtları KENDİ
+    #   BAŞINA doğru ama petekleri 300 km kuzeye taşıyor; Ryazan · Tambov ·
+    #   Penza haritada Kırım Hanlığı görünüyordu. Yeni noktalar taşmayı
+    #   o kayıtlara HİÇ DOKUNMADAN kesiyor.
+    # ÖLÇÜLDÜ (koordinatör): Değişmez 1 sahipsiz 0 · d:/v: 0 · renksiz 0 ·
+    #   dizinsiz 0 · dönem sağlığı temiz.
+    # 🟢 VE `2s` TAHMİNİ İLK KEZ ÖNDEN YAZILDI (yeni kural): +3.
+    "yerlesimler_ek17.js",
     # 344 nokta (MOTOR 2, 2 Ağustos 2026 — kutu genişletme koşusuyla).
     # KOORDİNATÖR KARARI: 37-renkle açılış — 147 kimliğin 49'u boyalı, 98'i
     # renksiz ve renksiz dönem BOŞLUK üretir (yanlış renk değil; motor

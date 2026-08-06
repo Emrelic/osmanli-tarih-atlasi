@@ -238,7 +238,34 @@ KUYRUK_DOSYALARI = ("yerlesimler_ortaasya2.js", "yerlesimler_avrupa.js",
 # sıfır" doğru ama SORULMASI GEREKEN SORU O DEĞİL. Yabancı-yabancı devir de
 # bir kırılmadır ve maddesi olmalıdır.
 # ⇒ Kural: `s:` yazan her parti, beklenen **2s** değişimini de önceden yazar.
-BEKLENEN_ACIK_S = 143
+# 143 -> 148: PARTİ 22 (_ek17, 11 nokta orman-bozkır kuşağı).
+# 🟢 PARTİ `2s` TAHMİNİNİ İLK KEZ ÖNDEN YAZDI (yeni kural) — ama TUTMADI:
+#     tahmin +3   ·   gerçek +5
+# 🔴 VE SEBEBİ ÖĞRETİCİ: parti "bu gün canlı veride ZATEN kırılma günü mü"
+#   diye baktı ve altı gün için "var" dedi (1356·1362·1438·1441·1596·1663).
+#   Ama `2s` sayacı `degismez2(Y_cekirdek, O, ("s",))` — yani YALNIZ `s:`
+#   kategorisini ve YALNIZ çekirdek dosyaları sayıyor. Altının ikisi
+#   (**1356-01-01** ve **1663-01-01**) çekirdeğin `s:` kümesinde YOKTU;
+#   `d:`/`v:`de ya da kuyruk dosyalarında vardı.
+#   ⇒ Parti doğru soruyu sordu, YANLIŞ EVRENDE ölçtü.
+# 📌 Bu, günün ana dersinin parti tarafındaki hâli: "denetim, motorun
+#   sorduğu soruyu değil kendi sorduğu soruyu ölçüyor" — burada "parti,
+#   denetimin sorduğu soruyu değil kendi sorduğu soruyu ölçtü."
+#   ⇒ Kural inceltildi: `2s` tahmini yapılırken evren `s:` + ÇEKİRDEK olmalı;
+#     "canlı veride bu gün var mı" yetmez.
+# Açılan beş gün: 1356-01-01 (Bryansk) · 1503-04-02 (Kursk·Orel·Putivl…) ·
+#   1618-12-11 (Çernigov·Novgorod-Seversk) · 1654-01-08 (aynı ikisi) ·
+#   1663-01-01 (Penza).
+# 🟢 VE PARTİ ÜÇÜNÜ BİLEREK AÇTI, SAYACI OYNAMADI: 1503-04-02 (Moskova-
+#   Litvanya mütarekesi) · 1618-12-11 (Deulino) · 1654-01-08 (Pereyaslav)
+#   üçü de GÜNÜ BİLİNEN antlaşma. Canlı veride 1-3 ay ötede kullanılabilir
+#   günler vardı (1503-01-01·1619-01-01·1654-01-01) ve çekseydi 2s +0
+#   çıkardı. Çekmedi: "bilinen günü sayaç uğruna YYYY-01-01'e indirmek §4'ü
+#   TERSİNE ÇEVİRMEK olurdu. Sayaç üç artsın, tarih doğru kalsın."
+#   ⇒ Bu doğru tercih ve tavan onun için yükseltiliyor.
+# Borç: Rus-Litvanya/Lehistan hattı kronolojisi (Vedroşa sonrası mütareke,
+# Deulino, Pereyaslav). Yazılınca 148 -> 143 iner.
+BEKLENEN_ACIK_S = 148
 # Değişmez 2'nin AYNADAKİ HÂLİ: madde var ama kırılma yok. Oturum 14'ün Girit
 # bulgusu — "1830-11-01 Girit'in idaresi Mehmed Ali'ye bırakıldı" maddesi VARDI,
 # beş nokta `d:` kalmıştı. Ölçüldü: 442 toprak/antlaşma maddesinin 67'sinin
