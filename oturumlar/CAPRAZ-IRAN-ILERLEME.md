@@ -663,6 +663,125 @@ kazanç, asıl iş (b).**
 
 ---
 
+## 🔴 TESLİM 8 — BENEK ŞİKÂYETİ ÇÖZÜLDÜ. Simülasyonda **enklav 9 → 0**, maliyet **SIFIR**.
+
+Koordinatör (b)'yi verdi ve `PARTİ 19` gereği maliyeti önden istedi.
+**Cevap: sıfır yeni künye, sıfır yeni renk.** Ve iş sandığımdan bambaşka çıktı.
+
+### Önce maliyet (istenen biçim)
+
+```
+muzafferi · kert · serbedari · cobanli · incu     dizin 0 · renk 0   🔴 BEŞİ DE YOK
+celayirli                                          dizin 1 · renk 1   ✓
+```
+**Ama bunların hiçbiri gerekmiyor** — sebebi aşağıda.
+
+### TDV `muzafferiler` ✓ CANLI — ve veriyi ele verdi
+
+> Hânedan **718/1318**'de Ebû Said'in Yezd emirliğini Mübârizüddin'e vermesiyle
+> kuruldu, **795/1393**'te **Timur tarafından ortadan kaldırıldı.**
+> Toprakları: **Yezd · Fars · Isfahan · Kirman**, ara ara Azerbaycan.
+> 1335 İlhanlı çöküşünden sonra bağımsızlaştılar.
+
+Veride `iran 1335-12-01 → 1393-01-01` diye **28 noktalık** bir pencere var ve
+coğrafyası **Fars + Kirman + Hûzistan** (lat 25,3-32,4 · lon 48,1-61,2).
+**Muzafferî sahası, birebir.**
+
+### 🔴 VE DÖRT PENCERENİN DÖRDÜ DE TİMUR'UN SEFER TAKVİMİ
+
+`iran` `1335-12-01` başlangıçlı pencereler, bitişlerine göre:
+
+| pencere | nokta | coğrafya | bitiş tarihi ne |
+|---|---|---|---|
+| `→ 1381-01-01` | 19 | Horasan (lon 54,6-61,9) | Timur'un **Horasan** seferi |
+| `→ 1386-01-01` | 21 | Azerbaycan (lon 44,5-48,9) | Timur'un **Azerbaycan** seferi |
+| `→ 1387-11-01` | 13 | Cibâl / Irâk-ı Acem | Timur'un **Isfahan** yağması (Kasım 1387) |
+| `→ 1393-01-01` | 28 | Fars + Kirman + Hûzistan | **Muzafferîler'in sonu** (TDV: 795/1393) |
+
+📌 **Veriyi kuran kişi Timur'un sefer sırasını gün gün biliyordu ve kodladı —
+ama hanedanı adlandırmak yerine hepsine `iran` yazdı.** Yani eksik olan tek
+şey AD. Tarihler zaten doğru, hem de olağanüstü isabetli.
+
+### 🔴🔴 ASIL BULGU — enklavın sebebi Muzafferî DEĞİL, EKSİK ZİNCİR
+
+Dokuz enklavı komşularıyla tam zincir olarak karşılaştırdım. **Dokuzunda da
+aynı, tek kusur:**
+
+```
+ENKLAV (Şiraz)              KOMŞU (Firûzâbâd, 83 km)
+ilhanli 1281→1335           ilhanli 1281→1335            ✓ aynı
+iran    1335→1508           iran    1335→1393            🔴
+safevi  1508→               timurlu 1393→1452            🔴 EKSİK
+                            karakoyunlu 1452→1469        🔴 EKSİK
+                            akkoyunlu   1469→1503        🔴 EKSİK
+                            safevi      1503→
+```
+
+⇒ **Dokuz şehir, Timurlu-Karakoyunlu-Akkoyunlu zincirinin TAMAMINDAN yoksun.**
+1335'ten doğrudan Safevî fethine atlıyorlar. Atladıkları aralık **tam olarak
+enklav dönemi.**
+
+📌 Bu yüzden (b)'nin cevabı `muzafferi` künyesi DEĞİL: enklav 1393 sonrasında
+doğuyor, Muzafferî penceresi 1393'te bitiyor. **Muzafferî'yi adlandırmak
+beneği çözmez** — eksik zinciri eklemek çözer.
+
+### Komşu şablonları — bölge başına tekdüze (3/3 aynı)
+
+```
+FARS/KIRMAN   iran→1393-01-01 │ timurlu→1452 │ karakoyunlu→1469 │ akkoyunlu→1503 │ safevi
+YEZD          iran→1387-11-01 │ timurlu→1452 │ karakoyunlu→1469 │ akkoyunlu→1503 │ safevi
+AZERBAYCAN    iran→1386-01-01 │ timurlu→1406-10-21 │ karakoyunlu→1468-04-01 │ akkoyunlu→1501-07-01 │ safevi
+HORASAN       iran→1381-01-01 │ timurlu→1507-05-24 │ buhara→1510-12-02 │ safevi
+```
+🟢 Horasan şablonunda `buhara` görünüyor — **Teslim 2 uygulanmış** (`69be9be`).
+
+### ⚠️ TUZAK — körü körüne kopyalamak SAFEVÎ TARİHİNİ de değiştirirdi
+
+```
+Şiraz   safevi 1508-01-01      komşuları 1503-01-01     5 yıl fark
+Kirman  safevi 1510-12-02      komşuları 1503-01-01     7,9 yıl fark
+```
+Kirman'ın `1510-12-02`si **Merv Savaşı'nın günü** — Horasan tarihi, Kirman'ın
+değil. Battaniyenin bitiş tarihinden miras kalmış olabilir.
+
+⇒ **Önerim Safevî tarihine DOKUNMUYOR.** Zincirin **son penceresi** şehrin
+kendi Safevî tarihine kadar uzatılır (Şiraz'da `akkoyunlu 1469→1508`).
+Böylece enklav kapanır, Safevî iddiası **değişmez.**
+📌 `§3.5.1`: bir uçtan bakan düzeltme hatayı taşır. Safevî tarihi **ayrı bir
+soru**, ayrı kaynak ister — ölçmedim, iddia etmiyorum, **işaretliyorum.**
+
+### SİMÜLASYON — öneriyi koşturdum
+
+```
+              iran (kutu içi)        ENKLAV
+1300-06-15     3 →  3                 0 → 0
+1400-06-15    31 → 22                 9 → 0   ✅
+1450-06-15    31 → 22                 9 → 0   ✅
+1490-06-15    31 → 22                 9 → 0   ✅
+```
+🔴 **ENKLAV 9 → 0, üç kesitte de.**
+
+### MALİYET — sıfır
+
+```
+ilhanli ✓  timurlu ✓  karakoyunlu ✓  akkoyunlu ✓  safevi ✓  buhara ✓
+dizin 1 · renk 1, hepsi
+```
+**Şeybânî kümesi gibi bedava.** Hazar kümesi gibi değil.
+
+🟡 Yan bulgu: `iran`ın **dizin künyesi YOK** (renk var, künye yok) — `§1.5`in
+*"dizinsiz harita kimliği"* sınıfı. Benim işim değil, işaretliyorum.
+
+### Geriye ne kalıyor — dürüstçe
+
+Bu öneri **beneği** kapatıyor, **battaniyeyi** değil: `iran 1335→1381/86/87/93`
+pencereleri duruyor (kutu içinde 22 nokta). Onlar hanedan adlandırması ister
+(`muzafferi` · `serbedari`/`kert` · `cobanli` — beş künye + beş renk) ve
+**şikâyet üretmiyorlar**, çünkü artık komşularıyla aynı renkteler.
+⇒ Sıradaki iş o, ama **aciliyeti düştü.**
+
+---
+
 ## Sistem kaydı — koordinatöre bildirilenler
 
 1. `CLAUDE.md §5` canlı taban satırı bayat (951/2 dosya → gerçekte 1713/16 dosya).
