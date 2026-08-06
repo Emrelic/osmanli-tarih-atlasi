@@ -387,6 +387,85 @@ edemiyor"* teşhisiyle aynı aile — şema, gerçeğin bir hâlini **söyleyemi
 
 ---
 
+## TESLİM 5 — koordinatörün verdiği iş: `iran` 317 → 277 farkı AÇIKLANDI
+
+Koordinatör: *"Sebebini de sen bul: dosya kümesi mi değişti, veri mi düzeltildi."*
+
+**Cevap: VERİ DÜZELTİLDİ. Dosya kümesi değil.** Ve düzeltmelerin ikisi de
+koordinatörün kendi commit'leri.
+
+### Yöntem
+
+Her commit'te **o commit'in `girdi.py` `GIRDI_DOSYALARI` listesi** okundu ve
+yalnız o dosyalarda `d:"iran"` sayıldı. (Dosya kümesini sabitlemek değil,
+**her tarihte o tarihin kümesini** kullanmak şart — yoksa `CAPRAZ-GOREV §1`'in
+`fransa 178/149` hatası tekrar eder.)
+
+🟢 Ölçek doğrulaması: yöntem bugün **277** veriyor, ayrıştırıcım da **277**.
+Birebir tutuyor ⇒ vekil ölçü değil, tam ölçü.
+
+### Zincir
+
+```
+08-01 16:05   317   ← ÇAPRAZ DOĞU burada ölçtü
+08-01 18:11   323   +6    NOKTA EKLEME partileri (f0b385d ve öncesi)
+08-02 14:06   326   +3    5 kıyı noktası maske içine (73f1ab0)
+08-03 01:18   282   −44   🔴 "Isparta enklavı + Irak/Arabistan `iran` etiketi
+                          TEMİZLİĞİ"  (47aa386)              ← ANA SEBEP
+08-03 16:27   277   −5    "İRAN ÜÇE BÖLÜNDÜ: bir etiket altındaki üç hanedan
+                          ayrıldı"  (5a7774b)
+08-06 (bugün) 277
+```
+
+### Hüküm
+
+**DOĞU'nun sayısı yanlış değildi — 1 Ağustos'ta doğruydu.** Veri onun altından
+kaydı. İki ayrı düzeltme `iran` etiketini 49 pencere azalttı; ikisi de kayıtlı,
+gerekçeli, doğru işlerdi.
+
+📌 Ve bu, koordinatörün *"tekrar ölçmek israf değil"* hükmünün kanıtı — ama
+tersi de doğru: **DOĞU'nun 317'si bayat değil, TARİHLİ.** Bir sayı yanlış
+olmadan eskiyebilir. Aradaki fark, sayıyı **damgasız** aktarınca kayboluyor.
+
+⇒ Öneri (koordinatöre): devredilen her sayının yanına **damga** yazılsın —
+`iran 317 (2026-08-01)`. Bugün üç ayrı belge üç ayrı `iran` sayısı taşıyor
+(`326` · `317` · `277`) ve üçü de kendi tarihinde doğruydu.
+
+---
+
+## TESLİM 5b — koordinatörün iki uyarısı: ikisi de doğrulandı
+
+### "33 karar değil 6 karar" — TUTUYOR, her iki tabanda
+
+```
+SÜZGEÇSİZ (33 nokta)  →  6 ayrık çift
+SÜZGEÇLİ  (30 nokta)  →  6 ayrık çift     ← süzgeç çift SAYISINI değiştirmiyor
+```
+
+| `(f,t)` çifti | kayıt | 1510'da BOYAYAN |
+|---|---|---|
+| `1507-05-24 → 1510-12-02` | 19 | **17** |
+| `1281-01-01 → 1510-12-02` | 5 | 5 |
+| `1335-12-01 → 1596-01-01` | 5 | **4** |
+| `1281-01-01 → 1592-01-01` | 2 | 2 |
+| `1335-12-01 → 1510-12-02` | 1 | 1 |
+| `1335-12-01 → 1538-01-01` | 1 | 1 |
+
+⚠️ **Teslim 2'yi burada inceltiyorum:** baskın çift **19 kayıt** taşıyor ama
+1510'da **17'si** boyuyor (Zerenc `bit:1383` · Tûs `bit:1389`). Düzeltme
+19'una da yazılabilir; haritada görünen 17.
+
+### "Tabanı da düzelt" — uyarı yerinde, ve oran tahmini de doğru
+
+```
+süzgeçsiz taban 149 nokta → iran 33 = %22,1
+süzgeçli  taban 136 nokta → iran 30 = %22,1
+```
+⇒ Süzgeç **oranı değiştirmiyor**, tabanı küçültüyor. Koordinatörün öngörüsü
+birebir çıktı. Bundan sonra **30/136** yazıyorum, 30/149 değil.
+
+---
+
 ## Sistem kaydı — koordinatöre bildirilenler
 
 1. `CLAUDE.md §5` canlı taban satırı bayat (951/2 dosya → gerçekte 1713/16 dosya).
