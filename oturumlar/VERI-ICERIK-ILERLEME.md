@@ -137,6 +137,29 @@ Yukarıda ①'de açıklandığı gibi kaynak paket bulunamadı. Tahmin edilmedi
    "eşleşme yok" diye yanlış okudum. `content` moduyla tekrar çektim, ikisi
    de doğrulandı. Ankara boyanıyor, delik yok — kuyruğa girmedi.
 
+## KAPANIŞ — DEVİR SATIRI (bir sonraki içerik oturumu için)
+
+```
+data/ekokuma.js   commit'li + push'lu, YENİ dosya, 3 kart — bağlama
+                  GEREKMEDİ (js/app.js:3358 yükleyici Ağustos başından beri
+                  dosyayı bekliyordu, doğunca kendiliğinden bağlandı)
+data/merak.js     hâlâ 8 kayıt — H-0020/21/22/23 dördü de KAPALI, dördüncü
+                  kart YAZMA: `siyasi-evlilikler` kartı saray içi evliliği
+                  ve çok eşliliği de kapsıyor (GÖRÜŞ 2-3), yalnız dış
+                  ittifak değil — bu ölçüldü, tekrar ölçme
+"ahiler" kimliği  renk VE dizin İKİSİ DE VAR (renkler.py:754,
+                  devletler.js:1222) — "dizinsiz kimlik" diye TEKRAR
+                  raporlama, bu proje içinde bir kez yanlış ölçüldü zaten
+parti-0006        bu depoda değil, ClaudEmre/kutu/giden/'de — H-0013/14/15/19
+                  kalemi koordinatörde, VERİ İÇERİK'te değil
+Grep tuzağı       output_mode belirtmezsen files_with_matches'a düşer;
+                  "Found N file" ÇIKTISI EŞLEŞME VAR demektir, "yok" değil —
+                  içeriği görmek için HER ZAMAN output_mode:"content" ver
+```
+
+**Oturum kapandı.** Dört kalemin üçü (1, 2, 3) VERİ İÇERİK'te bitti,
+dördüncüsü (4) koordinatörde.
+
 ## YAZMA YETKİSİ KULLANIMI
 ```
 data/ekokuma.js                    YENİ dosya, 3 kart
