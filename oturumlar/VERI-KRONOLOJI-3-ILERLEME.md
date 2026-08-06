@@ -1,6 +1,31 @@
 # VERİ KRONOLOJİ 3 — ilerleme
 
-> 7 Ağustos 2026 · Sonnet · Değişmez 2t borcu: 59 → **47 ✓** (tavan 49) — HEDEF KARŞILANDI
+> 7 Ağustos 2026 · Sonnet · Değişmez 2t borcu: 59 → **41 ✓** (tavan 49) — HEDEF KARŞILANDI, marjla
+
+## 🟢 ÜÇÜNCÜ TUR — koordinatör onayıyla Trablusgarp (5) + Ayastefanos (1)
+
+Koordinatör 2. tur raporuna cevaben üç soruyu yanıtladı ve Trablusgarp'ın
+beş maddesinden `toprak-*` çıkarılmasını onayladı (§3.1 ⓪: "o gün orayı
+FİİLEN kim yönetiyordu" — 1911 Ekim/Kasım askerî işgal, 1912 Ekim Uşi
+Antlaşması hukukî devir; harita ikincisini esas alıyor ve BU DOĞRU).
+
+| Tarih | Madde | Dosya | Not |
+|---|---|---|---|
+| 1911-10-08 | Tobruk'a İtalyan çıkarması | olaylar_ek9.js:258 | askerî işgal, devir değil — madde metni zaten "atlasta taban rengi Osmanlı, üstü İtalyan taraması" diyordu |
+| 1911-10-09 | Trablus şehrinin teslimi | olaylar_ek9.js:264 | aynı |
+| 1911-10-16 | Derne'nin elden çıkışı | olaylar_ek9.js:270 | aynı |
+| 1911-10-21 | Bingazi'ye çıkarma | olaylar_ek9.js:276 | aynı |
+| 1911-11-05 | İtalya'nın tek taraflı ilhak kararnâmesi | olaylar_ek9.js:282 | maddenin kendi metni: "Kararnâme haritada TABAN RENGİNİ değiştirmez" — zaten biliniyordu |
+| 1878-03-03 | Ayastefanos Antlaşması | olaylar_ek5.js:377 | maddenin kendi metni: "**uygulanmadan dört ay içinde Berlin Kongresi'yle yeniden düzenlendi**" — Büyük Bulgaristan hiç yürürlüğe girmedi, gerçek devir (Kars/Ardahan/Batum) Berlin'in tarihinde (1878-07-13) zaten ayrı kayıtlı |
+
+**Uşi Antlaşması maddesi zaten vardı** (olaylar_ek5.js:401,
+`t:"1912-10-15"`, `toprak-kaybi` zaten üzerinde) ve haritanın kırılma
+tarihiyle (Trablus/Bingazi 1912-10-15, Derne 1912-10-18) birebir eşleşiyor
+— coğrafyanın gerçek devir kaydı zaten oradaydı, yalnız beş "işgal" maddesi
+yanlış etiketlenmişti.
+
+**Doğrulama:** `Değişmez 2t: 41 (tavan 49)`, `Değişmez 2` hâlâ 0 açık.
+**Toplam 18 madde düzeltildi.**
 
 ## 🟢 GÜNCELLEME — ikinci tur, 4 düzeltme daha (toplam 12)
 
