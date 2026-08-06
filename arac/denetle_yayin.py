@@ -40,6 +40,7 @@ import os
 import re
 import subprocess
 import sys
+import tempfile
 
 # ⚠️ KORUMALI. İki TextIOWrapper aynı buffer'ı sararsa ilki çöp toplandığında
 # buffer KAPANIR ve bu modülü İÇE AKTARAN aracın çıktısı
@@ -415,7 +416,7 @@ def cizilmiyor_mu():
             kuyruk = metin[m.end():m.end() + 200].strip()
             bos = kuyruk.startswith("[]") or kuyruk.startswith("{}")
             # (b) app.js okuyor mu
-            # ⚠️ İLK YAZIMDA  BACKSPACE OLDU (ham dize değildi) ve regex
+            # ⚠️ İLK YAZIMDA \b BACKSPACE OLDU (ham dize değildi) ve regex
             # HİÇBİR ŞEYE eşleşmedi: araç 37 bulgu verdi, PETEKLER ve DONEMLER
             # dahil - app.js onları apaçık okuyor. Sayı MAKUL GÖRÜNÜYORDU.
             # Bugünün dördüncü "yanlış ayrıştırma, makul sayı" vakası.
@@ -443,6 +444,41 @@ def cizilmiyor_mu():
             if bos or not okunuyor or not yukleniyor:
                 bulgular.append((ad, dosya, bos, okunuyor, yukleniyor))
     return bulgular, len(CIZILMEYEN_MUAF)
+
+
+
+def inline_sozdizimi():
+    """index.html'in inline <script> bloklarini `node --check` ile ayristir.
+
+    🔴 6 Agustos 2026, GERCEK VAKA -- ve bu denetim onun icin dogdu:
+    Koordinator `YERLESIMLER` zincirinden uc partiyi geri cekerken kalibi
+    `;` ile biten satiri KACIRDI, sonra bir onceki satira `;` geri koydu:
+
+        .concat(window.YERLESIMLER_EK20 || []);   <- ifade BITTI
+        // ...yirmi satir gerekce yorumu...
+        .concat(window.YERLESIMLER_EK22 || []);   <- BASIBOS IFADE
+
+    Araya giren yorum blogu hatayi GOZDEN GIZLEDI. Sonuc: blogun TAMAMI
+    ayristirilamiyor, `window.YERLESIMLER` HIC atanmiyor, yerlesim
+    etiketleri ve dizin pencereleri komple dusuyor. Ve bu hal COMMIT'LENIP
+    PUSH EDILDI (dbe636b) -- PETEK/NOKTA `node --check` ile yakaladi.
+
+    📌 Kusur listesinin DOKUZUNCU hali ve ilk sekizinden farkli:
+       §40 "yukleniyor ama birlestirilmiyor" diyebiliyordu;
+       "birlestirme satirinin SOZDIZIMI bozuk" diyen HICBIR ALET YOKTU.
+       Butun denetimler VERIYE bakiyordu, KODA bakan yoktu.
+    """
+    h = io.open(os.path.join(KOK, "index.html"), encoding="utf-8").read()
+    bloklar = re.findall(r"<script(?![^>]*\bsrc=)[^>]*>(.*?)</script>", h, re.S)
+    gec = os.path.join(tempfile.gettempdir(), "_yayin_blok.js")
+    bulgular = []
+    for i, b in enumerate(bloklar, 1):
+        io.open(gec, "w", encoding="utf-8").write(b)
+        r = subprocess.run(["node", "--check", gec], capture_output=True)
+        if r.returncode:
+            ilk = r.stderr.decode("utf-8", "replace").strip().splitlines()
+            bulgular.append((i, " ".join(ilk[:3])[:160]))
+    return len(bloklar), bulgular
 
 
 def git_izlenen():
@@ -746,8 +782,19 @@ def main():
         print("     → §40: veri doğru olabilir ama kullanıcı GÖRMÜYOR.")
         print("       Kasıtlıysa CIZILMEYEN_MUAF'a gerekçesiyle eklensin.")
 
+    # ── inline <script> sözdizimi (6 Ağustos 2026'da doğdu, bkz. fonksiyon) ──
+    _n, _sz = inline_sozdizimi()
+    if _sz:
+        print("\n✗  inline SÖZDİZİMİ: %d blokta %d HATA — "
+              "window.YERLESIMLER HİÇ atanmıyor olabilir" % (_n, len(_sz)))
+        for _i, _m in _sz:
+            print("     blok %d: %s" % (_i, _m))
+    else:
+        print("\n✓  inline sözdizimi: %d <script> bloğu "
+              "`node --check` ile temiz" % _n)
+
     if (yoklar or izlenmeyenler or kayitsiz or len(damgalar) > 1
-            or damga_ihlali or bayat or izsiz or iz_bayat):
+            or damga_ihlali or bayat or izsiz or iz_bayat or _sz):
         print("SONUÇ: İHLAL VAR — çıkış kodu 1")
         return 1
     print("SONUÇ: temiz")
