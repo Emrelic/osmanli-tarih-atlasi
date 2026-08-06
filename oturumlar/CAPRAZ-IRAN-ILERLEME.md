@@ -171,6 +171,138 @@ olmadığı yerde büyütüyor mu?
 
 ---
 
+## TESLİM 2 — 19 noktalık Şeybânî kümesi KAPANDI
+
+### İKİ UÇ ölçümü (§3.5.1) — hiçbir sınır oynamıyor
+
+Pencere `1507-05-24 → 1510-12-02` · 19 nokta. Komşu dönemler:
+
+```
+ÖNCEKİ  (1507-05-24'ten önce)     timurlu  19/19   İSTİSNASIZ
+SONRAKİ (1510-12-02'den sonra)    safevi   19/19   İSTİSNASIZ
+```
+
+⇒ Pencere tam olarak Timurlu ile Safevî **arasında** duruyor. Etiket değişince
+`timurlu`nun bitişi ve `safevi`nin başlangıcı **yerinde kalıyor**; yalnız
+ortadaki 3,5 yılın adı değişiyor. §3.5.1'in *"öbür tarafta ne doğuyor"*
+sorusunun cevabı: **hiçbir şey.** Geometri değil, yalnız kimlik.
+
+### TDV — iki bağımsız madde aynı şeyi söylüyor
+
+| slug | `<title>` sınaması | alıntı |
+|---|---|---|
+| `herat` | ✓ CANLI | *"Herat 913'te (1507) Özbekler"* tarafından ele geçirildi · *"916'da (1510) Safevî Hükümdarı Şah İsmâil tarafından zaptedildi"* |
+| `merv` | ✓ CANLI | *"Şah İsmâil'in 916 (1510) yılında Şeybânî Han'ı yenmesinden sonra Safevî hâkimiyetine giren şehir"* |
+| `seybaniler` | ✓ CANLI | *"916 (1510) yılında Şah İsmâil'le yaptığı savaşta yenilgiye uğrayıp hayatını kaybeden Şeybânî Han"* |
+| `nisabur` | 🔴 **ÖLÜ** | doğrusu **`nisabur--iran`** (CANLI) — ama 1500-1520'ye **basmıyor** |
+
+Hicrî çapraz kontrolü (`CAPRAZ-GOREV §4②` — bağımsız veriyle çarpıştır):
+913 H = 1507-05-13 başlar ⇒ verideki `1507-05-24` **913'ün içinde** ✓
+916 H = 1510-04-10 → 1511-03-30 ⇒ verideki `1510-12-02` **916'nın içinde** ✓
+⇒ **Verinin tarihleri doğru. Yanlış olan tek şey ETİKET.**
+
+### Kimlik önerisi: `iran` → `buhara` · yeni renk GEREKMİYOR
+
+| ölçüt | durum |
+|---|---|
+| §3.5 ömür kontrolü | ✓ `devletler.js:1874` — `buhara` f:1500-01-01 t:1920-09-02 |
+| künye içeriği | ✓ *"dört ardışık hanedanın (**Şeybânî**, Canoğulları, Mangıt) ortak adı"* |
+| emsal | ✓ proje Şeybânî dönemini **zaten** `buhara` diyor: Hîve · Köhne Ürgenç · Hazârasp · Küngrat · Yeni Ürgenç · Mangışlak · Garabogaz · Çeleken · Bekdaş = `buhara` **1502→1512**, sonra `hive` |
+| renk | ✓ `#4527a0` **mevcut** — RENK 2'nin kuyruğuna hiçbir şey eklemiyor |
+
+📌 Hârizm'de yapılan işlem Horasan'da yapılmamış. Kusur bir bilgi eksikliği
+değil, **bir işlemin yarım bırakılması.**
+
+**Kesinlik kademeleri (§⑦②):**
+```
+KESİN    ( 1)  Merv — TDV `merv` birebir cümle
+KUVVETLİ (16)  Nesâ·Ebîverd·Serahs·Sebzevâr·Nîşâbur·Kûçân·Bocnûrd·Esferâyin·
+               Kelât-ı Nâdirî·Turbet-i Haydariye·Turbet-i Câm·Turşiz·Kâin·
+               Bîrcend·Zerenc·Tûs
+ZAYIF    ( 2)  Kızılarvat (38,98K 56,28D) · Dihistan ovası (38,17K 54,63D)
+               Köpetdağ'ın KUZEYİNDE, Horasan dışı — Şeybânî hükmü buraya
+               UZATILMAMALI. Ayrı soru.
+```
+⚠️ Zerenc (`bit:1383`) ve Tûs (`bit:1389`) 1507'de zaten ölü — düzeltme
+yazılabilir ama haritada bir şey değiştirmez.
+
+---
+
+## 🔴 TESLİM 3 — BENEK ŞİKÂYETİNİN KAYNAĞI BULUNDU (ve 1510'da değil)
+
+Brifing beni **1510'a** yönlendirdi. Orada bakılacak şey yoktu: 1600'de `iran`
+kendiliğinden sıfırlanıyor, yani 1510 zaten **sönmekte olan** bir izdi.
+Şikâyetin kaynağı **1400-1500 arasında** ve ölçülebilir.
+
+### Enklav taraması — üç kesit, aynı dokuz şehir
+
+Ölçüt: bir `iran` noktasının **en yakın 5 komşusunun hepsi** başka devlette.
+
+```
+1400-06-15   ENKLAV 10 / 44 `iran` noktası
+1450-06-15   ENKLAV  9 / 43
+1490-06-15   ENKLAV  9 / 43
+```
+
+**Üç kesitte de enklav olanlar — KRONİK:**
+
+| şehir | çevresi 1400 | 1450 | 1490 | en yakın komşu |
+|---|---|---|---|---|
+| **Tebriz** | timurlu | karakoyunlu | akkoyunlu | 60 km |
+| **Şiraz** | timurlu | timurlu | akkoyunlu | 83 km |
+| **Meşhed** | timurlu | timurlu | timurlu | 73 km |
+| **Yezd** | timurlu | timurlu | akkoyunlu | 56 km |
+| **Kirman** | timurlu | timurlu | akkoyunlu | 105 km |
+| **Erdebil** | timurlu | karakoyunlu | akkoyunlu | 54 km |
+| **Nahçıvan** | timurlu | karakoyunlu | akkoyunlu | 34 km |
+| **Urmiye** | timurlu | karakoyunlu | akkoyunlu | 77 km |
+| **Tebbes** | timurlu | timurlu | timurlu | 212 km |
+
+🔴 **Listeye bak: Tebriz · Şiraz · Meşhed · Yezd · Kirman · Erdebil.**
+Bunlar İran'ın **en büyük şehirleri** — Tebriz başkent, Erdebil Safevî ocağı,
+Meşhed ziyaretgâh. Tebbes dışında hepsi birinci sınıf merkez.
+
+### Sebep — ölçüldü, ve bir TERSLİK
+
+Bu dokuz şehir `1281-01-01 → [Safevî fetih tarihi]` **battaniyesi** taşıyor;
+220-229 yıl tek pencere. Küçük komşuları ise düzgün işlenmiş:
+
+```
+Meşhed   iran      1281-01-01 → 1510-12-02              229 yıl, TEK pencere
+Tûs      ilhanli   1281-01-01 → 1335-12-01              ← 10 km ötesi
+         iran      1335-12-01 → 1381-01-01
+         timurlu   1381-01-01 → 1507-05-24
+```
+
+⇒ **En önemli şehirlerin verisi en az işlenmiş.** Bir ters orantı:
+işleme sırası büyüklükle ters gitmiş.
+
+### Ve niçin bu kadar göze batıyor — renk ölçüldü
+
+```
+iran         #cc1664   parlak kırmızı-pembe
+timurlu      #9c7563   soluk kahve
+karakoyunlu  #305d30   koyu yeşil
+akkoyunlu    #48ae48   parlak yeşil
+```
+⇒ Kahve/yeşil zemin üzerinde **parlak pembe tekil noktalar.** Kontrast azami.
+Kullanıcının *"BENEK ENKLAV"* demesi bir abartma değil, **gördüğü şeyin tam
+tarifi.** Renk kusuru değil — renk, veri kusurunu sadakatle gösteriyor.
+
+### İki ayrı görsel kusur, aynı etiket
+
+| dönem | görüntü | sebep | nokta |
+|---|---|---|---|
+| **1335-1400** | büyük pembe **kütle** | İlhanlı halefleri (Muzafferî · Kert · Serbedârî · Çobanlı · İncû) hiç yazılmamış | 1350'de 105 nokta `iran` |
+| **1400-1510** | pembe **benekler** | dokuz büyük şehir battaniyeli, komşuları işlenmiş | 9 kronik enklav |
+
+📌 `ilhanli` etiketinin 124 penceresi **birebir `1281-01-01 → 1335-12-01`**
+kullanıyor — yani battaniyenin ilk 54 yılı **araştırma gerektirmiyor**,
+projenin başka yerde zaten yaptığı işlemin aynısı. Geri kalanı (1335-1501)
+hanedan hanedan araştırma ister.
+
+---
+
 ## Sistem kaydı — koordinatöre bildirilenler
 
 1. `CLAUDE.md §5` canlı taban satırı bayat (951/2 dosya → gerçekte 1713/16 dosya).
