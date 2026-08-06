@@ -4280,3 +4280,66 @@ nokta +5 · yeni renk 0 · yeni künye 0 · madde borcu 0 · Değişmez 3 0
 1683 · Borisoglebsk ve Petrovsk 1698) — **ama hiçbiri veriye GİRMEDİ.**
 Zincirler komşu sözleşmesinden alındı; kuruluş yılları yalnız bu yorumda
 anılıyor. **Uydurulmuş tek gün yok.**
+
+---
+---
+
+# GÜN SONU ÖLÇÜMÜ — bugünkü on partinin TOPLAM etkisi
+### 6 Ağustos 2026 · **girdi düzeyi**, koşu beklemeden
+
+⚠️ **BU MOTORUN ÇIKTISI DEĞİL.** En yakın nokta örnekleme (1° ızgara,
+8.393 kara hücresi, 75.100.352 km²) ile hesaplandı; motor Voronoi + kıyı/
+nehir yaslama + Chaikin uyguluyor. **Yön ve büyüklük mertebesi doğru,
+birebir km² değil.** Koşu bitince çıktıyla doğrulanmalı — koordinatörün
+istediği taban bu, ve çıktı gelmeden hazır olması onun için.
+
+```
+ÖNCE 1713 nokta  →  SONRA 1789 nokta      bugünün katkısı +76
+```
+
+## DEĞİŞEN ALAN — üç kesit
+```
+1500-06-15   3.426.463 km²   %4,6   (406 hücre)
+1700-06-15   2.902.703 km²   %3,9   (352 hücre)
+1900-06-15   2.581.145 km²   %3,4   (301 hücre)
+```
+
+## RENK RENK — net değişim
+```
+1500   +1.059.318  kuzey-yuan      ← Moğolistan artık Kuzey Yuan, emilmiyor
+        +950.799  buhara           ← Mâverâünnehir
+        -617.942  kazak-hanligi    ← Kazak bozkırı doğru sınırına çekildi
+        -399.401  timurlu
+        -392.764  —(sahipsiz)      ← beyaz alan KÜÇÜLDÜ
+        -318.479  ming-hanedani    ← MİNG SEDDİN KUZEYİNDEN ÇEKİLDİ
+        -245.118  mogulistan
+1700    +682.618  buhara            +604.688  cungar
+        +477.649  qing-hanedani     -406.724  yarkent-hanligi
+        -350.935  rusya            ← Rusya'nın Orta Asya'ya erken taşması
+        -227.114  babur-imparatorlugu
+1900  +1.562.841  rusya            ← Sibirya ve Uzak Doğu artık Rus
+      -1.377.773  qing-hanedani    ← Mançu rengi Sibirya'dan çekildi
+        +309.958  buhara
+        -193.571  hive
+        -164.497  meiji-japonya    ← SAHALİN (PARTİ 20'de ölçtüğüm sayının AYNISI)
+```
+
+## ÜÇ CÜMLELİK OKUMA
+1. **1900'ün hikâyesi tek satır:** `qing −1,38 M km²` ↔ `rusya +1,56 M km²`.
+   Sibirya, Amur, Primorye ve Orta Asya 1912'ye kadar Çin renginde
+   duruyordu; artık durmuyor.
+2. **1500'ün hikâyesi `ming −318.479` ve `sahipsiz −392.764`:** Ming Çin
+   Seddi'nin kuzeyinden çekildi, beyaz alan küçüldü. İkisi de noktasızlık
+   düzeltmesi, veri düzeltmesi değil.
+3. 🟢 **`meiji-japonya −164.497 km²` doğrulama noktası:** `PARTİ 20`de
+   Sahalin için ölçtüğüm sayının **birebir aynısı.** İki bağımsız ölçüm
+   (bölgesel ve küresel) aynı rakamı verdi ⇒ yöntem kendi içinde tutarlı.
+
+## ⚠️ NE ÖLÇÜLMEDİ
+```
+· motorun GERÇEK çıktısı (donemler.js) — koşu bitmedi, koordinatör bekletti
+· Chaikin ve kıyı yaslamanın kenar etkisi — örneklemede yok
+· `ek16`nın 2 noktası SONRA kümesinde (bağlandı) · `ek19` `ek21` `ek22`
+  henüz bağlı değil ama SONRA'ya katıldı — yani bu tablo r772'yi DEĞİL,
+  hepsi bağlandıktan sonraki hâli gösteriyor
+```
