@@ -3211,3 +3211,97 @@ Tam taramada çıktı: canlı verinin en yakın çifti
 `§11`in 3 km eşiğinin altında ama **mükerrer değil**: Boğaz'ın iki yakasında
 karşılıklı iki ayrı kale. Bilinen ve muhtemelen kasıtlı; yalnız kayda
 geçiyorum ki bir sonraki 3 km taraması onu "yeni bulgu" sanmasın.
+
+
+---
+
+# 🔴 DÜZELTME — YUKARIDAKİ "PARTİ 20 EKİ ②" MEKANİZMASI YANLIŞTI
+### 6 Ağustos 2026 · koordinatör ölçtü, ben doğruladım
+
+## Ne yazmıştım
+> *"`denetle.py` gölleri `simplify(0.01)` ile sadeleştiriyor, **motor
+> sadeleştirmiyor** ve peteği SIFIRLIYOR. ⇒ Denetim TEMİZ derken petek
+> %0,0 çıkardı."*
+
+## Gerçek — ölçüldü
+```
+arac/uret_petek.py:317   GOLLER = unary_union(_gs)...simplify(0.01, ...)
+arac/denetle.py:1144     goller = unary_union(gs)...simplify(0.01, ...)
+```
+**Motor da sadeleştiriyor, AYNI toleransla.** İkisi arasında ayrışma YOK.
+
+Üç maskeyle sınadım:
+```
+                        ham göl      MOTOR (sade)   DENETLE (sade)
+Jukkasjärvi ESKİ        🔴 GÖLDE     🔴 GÖLDE       🔴 GÖLDE
+İnari ESKİ              🔴 GÖLDE     ✓ karada       ✓ karada
+```
+⇒ **İki vaka ayrı ve karıştırılmamalı:**
+- **Jukkasjärvi** her üç ölçütte de suda ⇒ motor onu gerçekten suda
+  görüyordu, peteği %0,0 çıkan oydu. **Düzeltme zorunluydu.**
+- **İnari** yalnız ham gölde ⇒ motor karada görüyordu, **peteği
+  sıfırlanmazdı.** Taşımak yine de doğru (kayıt su üstündeydi) ama
+  gerekçem yanlıştı.
+
+## Niçin yanıldım — ve bu tam kendi listemin ⑤. maddesi
+`uret_petek.py`'nin **255-310 arasını okudum ve durdum.** Göl bloğunun
+sadeleştirme satırı **317**'de. Yani:
+- Kodu okudum ✓
+- Ölçüm yaptım ✓ (ama kendi kurduğum "ham göl" maskesiyle)
+- **Motorun gerçekten ne yaptığını doğrulamadım** ✗
+
+📌 Ve bu, yukarıda kendi yazdığım desenin aynısı — **altıncı hâli:**
+```
+① eksik dosya kümesi         ayrıştırıcı doğru, dosya listesi eksik
+② eksik maske katmanı        ham kıyı maskesi gölü görmüyor
+③ eksik kutu kapsamı         64°K üstü hiç ölçülmemiş
+④ eskimiş bağlılık listesi   çıkarım eskir, liste eskimez
+⑤ fazla sadeleştirme         (benim iddiam — YANLIŞ ÇIKTI)
+⑥ EKSİK OKUNMUŞ KOD          bloğun yarısını okuyup motorun davranışını
+                             İDDİA ETTİM. Ölçmedim, çıkarım yaptım.
+```
+🔴 **Ve ⑥, ötekilerden daha kötü:** ①-④'te ölçtüm ama yanlış soruyu
+ölçtüm; burada **hiç ölçmedim, koddan çıkarım yaptım** — üstelik iki gün
+önce *"çıkarım eskir, liste eskimez"* diye yazan kişi olarak.
+⇒ Kural genişliyor: **"Motorun ne yaptığını iddia etmeden önce o kod
+bloğunun SONUNU oku."** Yarısını okumak, okumamaktan daha tehlikeli —
+çünkü okuduğuna güvenirsin.
+
+## Neyi DEĞİŞTİRMİYOR
+```
+Jukkasjärvi 67,8693/20,6737   düzeltme GEÇERLİ, gerekçe de doğruydu
+İnari       68,9257/27,0337   taşıma GEÇERLİ (kayıt su üstündeydi),
+                              yalnız YORUMDAKİ mekanizma düzeltildi
+Orta Asya ölçümü              etkilenmiyor (göl ile ilgisi yok)
+ek13'ün 16 noktası            etkilenmiyor
+```
+
+## MOTORUN GERÇEK ÖLÇÜTÜYLE TAM TARAMA — bugünkü durum
+Maskeyi `uret_petek.py` 255-318'i **birebir** izleyerek yeniden kurdum;
+bu sefer eksik iki parça da içeride: `simplify(0.01)` **ve**
+`girdi.oku_goller()` (yani `data/goller.js` tarihî gölleri — onu da hiç
+hesaba katmamıştım).
+```
+canlı küme: 1729 nokta (ek13 bağlı)
+   🔴 motorun maskesinin DIŞINDA : 0
+   🟡 SINIRDA (motor karada, ham gölde) : 0
+   ek13'ün 16 noktası : ihlal 0 · sınırda 0
+```
+⇒ Koordinatörün Eğirdir (37,8727/30,8487) ve Västerås (59,6132/16,5450)
+düzeltmeleri de her iki ölçütten geçiyor. **Göl kalemi tamamen kapandı.**
+
+## KABUL EDİLEN İKİ TENKİT
+1. **`Değişmez 1` tavan tahmini `ek13` dosya başına yazılmamış.**
+   Doğru — `PARTİ 19`da yazmıştım, burada koordinatöre mesajla verdim ama
+   **dosyaya koymadım.** Bir sonraki partide dosya başına geri konacak;
+   mesaj kaybolur, dosya kalır.
+2. **`2s` ölçütü konu yakınlığına bakmıyor.** Koordinatörün bulgusu:
+   `ek13`ün 13 kırılmasından 6'sı alakasız maddelere takılıp "MADDELİ"
+   sayılmış (Nerçinsk 1689 ↔ *"Niş ve Vidin'in kaybı"*, Pekin 1860 ↔
+   *"Tercümân-ı Ahvâl'in yayına başlaması"*). Kusur bende değil ölçütte,
+   ama **partim onu görünür kıldı** çünkü tarihlerim Osmanlı
+   kronolojisinden bambaşka bir sahnede geçiyor.
+   📌 Not: bu, `PARTİ 3`te Karaman üçlüsünde bulduğum hatanın **aynısı**
+   (*"ilhak, kendi maddesinde değil iki madde sonra boyanıyor"*) — orada
+   `Değişmez 2` için ölçmüştüm, burada `2s`de tekrar çıktı. **Aynı kör
+   nokta, iki ayrı denetimde.**
