@@ -2802,3 +2802,287 @@ demek ki bağlı değil" diye **çıkarım yaptım, ölçmedim.**
   eksik dosya kümesi · eksik maske katmanı · eksik kutu kapsamı · eskimiş
   bağlılık listesi. **Hepsi aynı aile: kontrolü yaptım, ama motorun sorduğu
   soruyu değil kendi sorduğum soruyu ölçtüm.**
+
+
+---
+---
+
+# PARTİ 20 — AMUR AŞAĞISI · OHOTSK · SAHALİN · ORTA SİBİRYA
+### `data/yerlesimler_ek13.js` · 16 nokta · 6 Ağustos 2026
+
+**Durum:** 🟢 HAZIR ve **hiçbir şey beklemiyor** — kutu içinde, renk tamam,
+madde borcu sıfır. `girdi.py` `GIRDI_DOSYALARI`'na tek satırla eklenebilir.
+
+🔴 **İLK İŞ, KENDİ KURALIMI UYGULADIM.** `PARTİ 19 §12`in dersi
+(*"bir veri dosyasına yazmadan önce `girdi.GIRDI_DOSYALARI` OKUNUR"*)
+uygulandı: liste okundu, çıkarım yapılmadı. Canlı küme 15 dosya /
+1713 nokta; `ek10 · ek11 · ek12` listede YOK (renk bekliyor).
+Kutu da okundu: `unary_union([box(-12,-11,146,82), box(-25,60,-12,82)])`.
+
+## ① SEVKİN İKİ CEBİ AYNI HASTALIK DEĞİLDİ — ölçüm ayırdı
+
+Koordinatör "A Amur aşağısı/Ohotsk + B Orta Sibirya" diye sevk etti.
+Ölçtüm ve **ikisi farklı cinsten kusur çıktı**; öncelik ondan türedi.
+
+```
+A  AMUR + OHOTSK + SAHALİN   3.815.852 km²   (45-66°K / 115-146°D)
+   🔴 RENK YANLIŞ — 1910'da %30'u (1.144.714 km²) qing-hanedani,
+      %4,3'ü (164.497 km²) meiji-japonya. Aygun (1858) ve Pekin (1860)
+      antlaşmalarının haritada KARŞILIĞI YOK.
+B  ORTA SİBİRYA PLATOSU      5.072.905 km²   (50-73°K / 82-120°D)
+   🟢 RENK DOĞRU — 1700'den sonra %94,8 rusya, doğrusu bu.
+   🔴 GEOMETRİ KABA — ort 357 km, en uzak 855 km (63,5°K/105,5°D).
+```
+
+📌 **A'da hata var, B'de yalnız kaba çizgi.** Nokta dağılımı buna göre
+yapıldı: **A'ya 9, B'ye 7.**
+
+### Sebep — `CLAUDE.md §2`, ders kitabı vakası
+A'daki mevcut sekiz noktanın yedisi kutunun batı yarısında. Amur ağzı ·
+Sahalin · Ohotsk'un güney kıyısı · Primorye — hiçbirinde nokta yok:
+```
+Aigun   (50,24/127,46) qing-hanedani → 586-892 km uzağı boyuyor
+Sapporo (43,06/141,35) meiji-japonya → SAHALİN'İN TAMAMI + Amur ağzı
+Ohotsk  (59,36/143,24) rusya         → tek doğru olan, ama tek başına
+```
+
+🔴 **SAPPORO VAKASI AYRICA KAYDA DEĞER.** Harita 1870'te Sahalin'in
+tamamını Japon boyuyor. Gerçekte **1875-05-07** Petersburg antlaşmasıyla
+adanın TAMAMI Rus oldu; Japonya ancak **1905-09-05** Portsmouth ile
+50. paralelin güneyini aldı. ⇒ Japonya **otuz yıl erken ve iki kat geniş**
+görünüyor. `§3.5` hayalet devlet sınıfının Uzak Doğu hâli — ve tabloya
+kör olan sınıf.
+
+## ② ÖLÇÜLEN ETKİ
+
+```
+A  ort 329 → 232 km · en uzak 892 → 507 km
+   1870  rusya %65,7 → %83,6   qing %27,1 → %11,6   japonya %4,3 → %0,0
+   1910  rusya %65,7 → %85,1   qing %30,0 → %14,5   japonya %4,3 → %0,4
+B  ort 357 → 258 km · en uzak 855 → 686 km
+   1800  rusya %94,8 → %95,4   qing %5,2 → %4,6
+   en aç hücre (63,5°K/105,5°D) 855 → ~106 km
+C  PRİMORYE (sevkin DIŞINDA, kontrol için ölçüldü)  524.132 km²
+   ort 338 → 187 km · 1910 qing %78,7 → %29,6 · rusya %0 → %63,5
+```
+
+⚠️ **KALAN PAYLARI GİZLEMİYORUM:**
+- A'da 1910'da hâlâ %14,5 qing var — o kutunun güneybatı köşesi
+  (45-50°K/115-130°D = Mançurya ve İç Moğolistan) ve orada Qing **doğru.**
+- B'nin yeni en uzak hücresi 686 km ile **50,5°K/82,5°D — ALTAY.**
+  Bu partinin hedefi değildi, ayrı iş olarak duruyor.
+
+## ③ 🔴 ÜÇ KAYIT ÖLÇÜM YÜZÜNDEN DEĞİŞTİ — `§3.5.1`in üç vakası birden
+
+İlk taslakta üç noktanın başlangıç günü **kasabanın kuruluşu** idi.
+Üçü de öbür uçta delik açıyordu; ölçüm yakaladı:
+
+| kayıt | ilk yazdığım | düzeltilen | açtığı delik |
+|---|---|---|---|
+| Ayan | 1844 (liman) | **1679** (Uda ostrogu) | Ohotsk'un DOĞRU boyadığı kıyıda 165 yıl |
+| Blagoveşçensk | 1689 (Nerçinsk) | **1651** (Albazin zinciri) | Albazin'in Rus döneminde 38 yıl |
+| Kyahta 1727 | — | **Selenginsk 1665** | İrkutsk'un Selenga vadisinde ~127.000 km² |
+
+Selenginsk vakası sayıyla: B'de 1700'de sahipsiz oran **%1,2 → %3,7**
+çıkıyordu; düzeltmeden sonra **%1,2'de kaldı.**
+
+📌 **Üçü de aynı hata: kasabanın kuruluşu ile toprağın idaresi AYRI
+sorulardır ve ilkini yazmak ikincisini siliyordu.** `§3.5.1`in
+*"bir sınır kayması önerildiğinde İKİ UÇ DA ölçülür"* kuralı, bu partide
+üç kez ayrı ayrı işledi.
+
+## ④ ÜÇ TARİHİN NİÇİN BÖYLE BÖLÜŞTÜĞÜ
+
+```
+1689-09-06 Nerçinsk → Rusya Amur havzasını BIRAKTI
+1858-05-28 Aygun    → Amur'un SOL YAKASI Rusya'ya
+                      (Nikolayevsk · Blagoveşçensk)
+1860-11-14 Pekin    → Ussuri'nin DOĞUSU Rusya'ya
+                      (Habarovka · İmperator limanı · Vladivostok)
+```
+İki ayrı gün kullanıldı çünkü iki ayrı toprak: 1858-1860 arası
+Ussuri-deniz arası "ortak" idi. Tek güne indirseydim ya iki yıl erken
+ya iki yıl geç boyardım.
+
+## ⑤ SAHALİN — ŞEMANIN YAZAMADIĞI BİR HÂL
+
+**1855-02-07 Shimoda antlaşması adayı BÖLMEDİ** — "ortak mülkiyet, sınır
+çizilmedi" dedi. `s:` bir dönemde TEK sahip yazabiliyor; "iki devlet
+birden" ifade edilemiyor.
+⇒ 1875-05-07'ye kadar `kasitli_bosluk` + `neden:` yazıldı.
+
+📌 Bu, **`Hamâd bâdiyesi` ile aynı sınıf** ve `S-007` (benekli / paylaşımlı
+nüfuz alanı) kaleminin **ikinci somut gerekçesi**: kusur veride değil
+ŞEMADA, ve kalem olmadan doğru yazılamayan bir yer.
+
+## ⑥ KABUL ÖLÇÜTÜ — sekiz kontrol + üçü, parti canlıymış gibi
+
+```
+① ayrıştırma  girdi.oku_dosya ile 16/16                       ✓
+② alan kütüğü BILINEN_ALANLAR dışı alan YOK                    ✓
+③ renk        rusya · qing-hanedani · meiji-japonya → 3/3      ✓  YENİ RENK YOK
+④ ad çakışma  1713 canlı kayda karşı 16/16 benzersiz           ✓
+⑤ dönem sağlığı gün hassasiyeti 16/16 · ters/sıfır/çakışan YOK ✓
+⑥ Değişmez 1  iç boşluk 0 · 16 kayıt fetih öncesi sahipsiz     (aşağıda)
+⑦ Değişmez 2  d:/v: dönemi SIFIR ⇒ kırılma 0, MADDE BORCU 0    ✓
+⑧ Değişmez 3  m: yazılmadı ⇒ çelişki üretemez                  ✓
++ maske       MOTORUN ÖLÇÜTÜYLE 16/16 içeride                  ✓
++ kutu        16/16 içeride                                    ✓
++ 3 km        en yakın çift 6,57 km (Blagoveşçensk ↔ Aigun)     ✓ KASITLI
+```
+
+### 🔴 DEĞİŞMEZ 1 TAVANI: **+16** — ve tahminimi TUTTURAMADIM
+Koordinatöre açılışta *"tahmin: +8 ilâ +14"* yazmıştım. **Gerçek +16.**
+On altı kaydın on altısı da fetihten önce sahipsiz kesit veriyor ve
+**on altısının on altısı da `kasitli_bosluk:true` + `neden:` taşıyor**
+(ölçüldü, taşımayan sıfır). Tahminin tutmaması gizlenmiyor: aralığı
+"her kayıt boşluk vermez" varsayımıyla dar tuttum, oysa Sibirya deseninde
+**her kale kendi kuruluş yılından öncesini boş bırakır** — istisna yok.
+📌 `PARTİ 19`da tavan 50→81 demiştim ve tutmuştu; oradaki desen 31/63 idi,
+buradaki 16/16. **Aynı desenin farklı yoğunluğu tahmini bozdu.**
+
+### ⚠️ MASKE KONTROLÜ MOTORUN ÖLÇÜTÜYLE YAPILDI — ve fark etti
+Ham `ne_10m_lakes` ile ölçseydim **Bratsk ostrogu "göl içinde" diye
+YANLIŞLIKLA elenecekti** (Bratsk baraj gölü 1961; motor baraj göllerini
+KARA sayar, `uret_petek.py` 255-300). `PARTİ 19 §12`in dersinin tersten
+hâli: orada ham maske bir hatayı GİZLEMİŞTİ, burada olmayan bir hatayı
+UYDURUYORDU. **Aynı kusur, iki yönü.**
+
+### ⚠️ KAYDIRILAN TEK NOKTA
+`İmperator limanı` 48,970/140,290 → **49,030/140,230** (~8,4 km KB).
+Sovetskaya Gavan derin bir koy; 10m maskesinin kıyı basitleştirmesi
+kasabayı 0,5 km denizde bırakıyor. Öteki 15 nokta **olduğu yerde** geçti.
+
+## ⑦ KAYNAK DÜRÜSTLÜĞÜ — `§4` gereği işaretli
+
+🔴 **BU DOSYADAKİ HİÇBİR TARİH TDV'YE BASMIYOR.** §4 Doğu Asya ve Kuzey
+Asya için standart akademik referansı yeterli sayıyor ama işaretlenmesini
+istiyor — kayıt kayıt işaretlendi. Dayanak yalnız antlaşma günleri ve
+kale kuruluş yılları:
+```
+Nerçinsk 1689-09-06 · Kyahta 1727-10-21 · Aygun 1858-05-28 ·
+Pekin 1860-11-14 · Petersburg 1875-05-07 · Portsmouth 1905-09-05
+Udskoy 1679 · Selenginsk 1665 · Kirensk 1630 · Bratsk 1631 ·
+Vilyuysk 1634 · Yerbogaçen 1668
+```
+
+## ⑧ 🔴 REPO GENELİNDE BİR BORÇ — benim değil, ama ÖLÇTÜM
+
+`devletler.js`: **`rusya` f=1547-01-16 · t=1917-03-15.**
+Canlı veride **209 `rusya` döneminin 180'i** 1917-03-15'ten sonrasına
+taşıyor (`t:"1923-10-29"`). Atlasta Sovyet ya da Rus Cumhuriyeti kimliği
+**YOK** — `BOYALAR`'da `rusya` dışında Rus kimliği bulunmuyor.
+
+Bu partinin on beş `rusya` dönemi de aynı sözleşmeyi izliyor. **Kendi
+başıma ayrılmadım**, çünkü ayrılsaydım 1917-1923 arası Sibirya'nın tamamı
+RENKSİZ kalırdı — yani tek dosyalık bir "düzeltme" haritada 5 milyon km²
+delik açardı.
+
+⇒ Kayda geçiyor: bu bir **`§3.5` hayalet sınıfıdır** ve çözümü tek nokta
+değil **bir KİMLİK kararıdır.** Koordinatöre / RENK'e.
+
+---
+
+# EK TEŞHİS — Emre'nin kutusundaki iki madde (ekleme YOK, ÖLÇÜM)
+
+## 🔴 parti-0004 H-0010 — "HAZAR'IN DOĞUSU BOŞ GÖRÜNÜYOR"
+### Emre haklı, ve sebebi tahmin ettiğimden BÜYÜK
+
+```
+kutu 36-50°K / 52-76°D    kara 2.468.610 km²   nokta 39   63.298 km²/nokta
+                          ort uzaklık 259 km   en uzak 743 km
+referans: Batı Anadolu (parti 1'de ölçüldü)     2.681 km²/nokta
+⇒ Hazar doğusu, Batı Anadolu'dan 24 KAT SEYREK.
+```
+
+🔴 **AMA ASIL BULGU ORTALAMA DEĞİL, DAĞILIM.** O 39 noktanın **24'ü
+36-38°K kuşağında** — yani Horasan ve Hazar'ın güney kıyısı, İran
+partilerinden gelme. Kuzeyi ayrıca ölçtüm:
+
+```
+box(37-45°K / 62-76°D) — MÂVERÂÜNNEHİR + FERGANA + YEDİSU
+    ≈1,5 milyon km²        TOPLAM NOKTA: 1  ← Kaşgar, o da 75,99°D'de,
+                                              yani kutunun DOĞU KENARINDA
+```
+
+**Atlasta bulunmayanlar:** Semerkant · Buhara · Taşkent · Hokand ·
+Andican · Hucend · Termez · Belh · Şehrisebz · Karşi · Türkistan (Yesi) ·
+Oş · Almatı. **Timur'un başkenti bir 1281-1923 atlasında yok.**
+
+⇒ Emre'nin "boş görünüyor" dediği şey bir çizim kusuru değil:
+**o coğrafyanın haritada hiç noktası yok.** Boşluğu 640-743 km öteden
+`Kaşgar` · `Kazak bozkırı (İşim)` · `Gulca` · `Hazârasp` paylaşıyor.
+
+### Sahiplik dağılımı — sahipsiz oran da ölçüldü
+```
+1500  timurlu %32,2 · kazak %20,6 · mogulistan %19,1 · SAHİPSİZ %16,2
+1600  kazak %20,6 · safevi %16,3 · SAHİPSİZ %16,2 · yarkent %15,6 · hive %11,6
+1700  kazak %27,0 · safevi %16,3 · yarkent %15,6 · SAHİPSİZ %13,8
+1800  kazak %27,0 · qing %19,1 · SAHİPSİZ %13,8 · hive %11,6
+1900  rusya %43,7 · qing %19,1 · hive %11,6 · SAHİPSİZ %10,8
+```
+Sahipsiz oran her tarihte %10-16 (≈270.000-400.000 km²) — bir kısmı
+Karakum/Kızılkum çölü ve **kasten** boş, ama kutuda kasıt ile eksiği
+ayıracak nokta yok. (`Parti 2 §③`in "YALANCI BOŞ" sınıfı.)
+
+### 🟢 SIRADAKİ PARTİ ÖNERİSİ — kimlik engeli ÖLÇÜLDÜ, neredeyse YOK
+```
+VAR (BOYALAR'da) : timurlu · buhara · hive · yarkent-hanligi · mogulistan
+                   kazak-hanligi · cungar · nogay · altinorda · rusya
+                   qing-hanedani · babur-imparatorlugu · safevi · kacar
+🔴 TEK EKSİK      : hokand — devletler.js'te VAR (1710-01-01 → 1876-02-19)
+                    ama renkler.py BOYALAR'da YOK. RENK'in TEK SATIRI.
+```
+⇒ Mâverâünnehir partisi **tek renkle** açılabilir. Bu, ölçtüğüm bütün
+seyreklik vakaları içinde **km² başına en ucuz olanı**: bir satır renk,
+~20-25 nokta, ≈1,5 milyon km².
+📌 Ve TDV kapsamındadır (`semerkant` · `buhara` · `taskent` · `hokand` ·
+`maveraunnehir` beklenen sluglar) — yani `§4`in birincil kaynağı geçerli,
+bu partininki gibi "TDV'ye basmıyor" işareti gerekmeyecek.
+
+## 🟡 parti-0003 H-0015 — KIRIM "CETVELLE BÖLÜNMÜŞ"
+### Ölçtüm: **yarımadanın kendisi ARTIK SEYREK DEĞİL**
+
+`yerlesimler_kirim.js` **canlı** (`GIRDI_DOSYALARI`'nda, doğruladım),
+yani parti 1'in dokuz noktası r771'de yayında.
+
+```
+Kırım yarımadası (44-46,5°K / 32,5-36,5°D) · 0,25° ızgara
+   kara 35.808 km²   nokta 14   2.558 km²/nokta
+   ort uzaklık 39 km · en uzak 95 km
+   referans Batı Anadolu 2.681 km²/nokta  ⇒ Kırım artık BİR TIK DAHA SIK
+```
+
+🔴 **VE EN UZAK SEKİZ HÜCRENİN SEKİZİ DE YARIMADANIN DIŞINDA:**
+```
+95 km  46,12°K/35,12°D  <- Yediçkul bozkırı      ] hepsi 45,6°K'nin
+94 km  45,88°K/34,88°D  <- Karasubazar           ] KUZEYİ = Perekop'un
+85 km  46,38°K/32,62°D  <- Or Kapı               ] ötesi, ANAKARA BOZKIRI
+```
+
+**HÜKMÜM — üç şıklı, ve seçimi ekran görüntüsü belirler:**
+1. Şikâyet **r771 ÖNCESİNE** aitse ⇒ **zaten kapandı**, ölçüm yukarıda.
+2. Şikâyet **Perekop'un KUZEYİNE** aitse ⇒ **benim işim değil, KARADENİZ
+   KUZEYİ BOZKIRI işi** — parti 1'in `§⑥` listesinin 🔴 EN BÜYÜK maddesi,
+   1° ızgarada ilk 25'in 24'ü orada. Ayrı ve büyük bir parti.
+3. Şikâyet **kıyı şeridi (OSMANLI) ile iç toprak (tâbi) arasındaki DÜZ
+   ÇİZGİYE** aitse ⇒ 🔴 **bu seyreklik DEĞİL, MODELİN KENDİSİ.**
+   %22,9 OSMANLI / %69,6 tâbi ayrımı, kıyı noktalarıyla iç noktaların orta
+   dikmesidir; nokta eklemek çizgiyi kırar ama **düzlüğünü kaldırmaz.**
+
+⚠️ Ve `bfe254f` commit'i *"ARAYUZ 5: H-0015 düzeltildi"* diyor — aynı
+kalem numarası. **Aynı işi iki oturumun yapmadığından emin olunmalı;**
+koordinatörün ayırması gereken bir çakışma olabilir.
+
+## AÇIK BIRAKTIKLARIM — bu partide KASTEN yazılmayanlar
+```
+Moğolistan yakası     Selenginsk sınırı tek taraflı düzeltiyor (hata 2,5°
+                      → 0,8°, sıfırlanmıyor). Altanbulag/Darhan qing ile
+                      yazılabilir ama ÖLÇMEDEN yazmam.
+Altay (50,5°K/82,5°D) B'nin yeni en uzak hücresi, 686 km. Bu partinin
+                      hedefi değildi.
+Çukotka / Kamçatka    Kutunun doğu kenarının (146°D) dışında.
+Kuril adaları         Aynı sebep + `edo-bakufu`/`meiji-japonya` ayrımı
+                      Sahalin'den ayrı bir kaynak turu ister.
+Mâverâünnehir         Yukarıda ölçüldü — ayrı parti, `hokand` rengi lazım.
+```
