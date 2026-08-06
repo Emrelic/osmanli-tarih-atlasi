@@ -6,6 +6,158 @@
 
 ---
 
+# 📋 DEVİR — İran'da ne biliniyor, ne bilinmiyor
+
+> **Bu bölüm tek başına okunmak için yazıldı.** Altındaki on bir teslim
+> ölçümlerin kendisi; bu, ölçümlerin **haritası.**
+> Kapanış: 6 Ağustos 2026 · 11 teslim · commit `d86bdb0` → `1b1127e`
+
+## ① `iran` etiketi NE DEMEK — üç ayrı kullanım, üç ayrı ilaç
+
+Brifing üç şık sunuyordu: *devlet / coğrafya / dolgu*. **Üçü de tek başına
+yanlış.** Ölçüm `iran`ın **üç ayrı işte** kullanıldığını gösterdi:
+
+| | ne | pencere | ilaç |
+|---|---|---|---|
+| **A** | **DOLGU** — halef yazılmamış | `1335-12-01 → 1381/86/87/93` · `1281 → …` | hanedan adlandırması (park) |
+| **B** | **YANLIŞ ETİKET** — sahibi belli | `1507-05-24 → 1510-12-02` | ✅ düzeltildi (`buhara`) |
+| **C** | **KASITLI ŞEMSİYE** — meşru | `1747-06-20 → 1796-01-01` (123 nokta) | 🔒 **dokunma** |
+
+🔴 **C'ye dokunma.** `renkler.py:157-181`de gerekçesi yazılı: *"İran PARÇALI —
+genel etiket burada MEŞRU; Horasan afsar, Şiraz zend, Tahran kacar aynı gün."*
+`zend`in renksizliği de **ölçülmüş**, unutulmuş değil. Bu pencerenin TDV
+araştırması `BEKLEYENLER.md`de **sahipsiz iş** olarak duruyor — ÇAPRAZ'ın
+işi değil.
+
+📌 Ve A'nın altında yatan şey **özensizlik değil, ifade edilmemiş bilgi.**
+`iran`ın 1335 başlangıçlı dört penceresi **Timur'un sefer takvimidir**:
+```
+→1381-04-01  Horasan (Herat, Kert'in sonu)   →1387-11-01  Isfahan yağması
+→1386-01-01  Azerbaycan                       →1393-01-01  Muzafferîler'in sonu
+```
+Veriyi kuran kişi sırayı gün gün biliyordu ve kodladı; **yalnız adlandırmadı.**
+
+---
+
+## ② KAPANANLAR
+
+| iş | sonuç | commit |
+|---|---|---|
+| 🔴 **BENEK ŞİKÂYETİ** (p4/H-0009, üç kez gelmişti) | **enklav 9 → 0**, üç kesitte de | `5336407` |
+| Şeybânî kümesi | 19 kayıt `iran` → `buhara`; maliyet **sıfır** | `69be9be` öncesi |
+| İlhanlı bölmesi | 29 nokta; `1281→1335` ayrıldı | `69be9be` |
+| Hazar kıyısı | ölçüldü, **park** (maliyet 2 künye + 2 renk) | teslim 6 |
+| Hûzistan | **`bulunamadı`** — TDV pencereyi kapsamıyor | teslim 11 |
+| `iran` 317 → 277 farkı | açıklandı: **veri düzeltildi**, dosya değil | teslim 5 |
+
+**Beneğin sebebi neydi:** dokuz büyük şehir (Tebriz·Şiraz·Meşhed·Yezd·Kirman·
+Erdebil·Nahçıvan·Urmiye·Tebbes) **Timurlu–Karakoyunlu–Akkoyunlu zincirinin
+tamamından yoksundu**; 1335'ten doğrudan Safevî fethine atlıyorlardı. Küçük
+komşuları düzgün işlenmişti. **En önemli şehirlerin verisi en az işlenmişti.**
+Çare: komşunun zincirini kopyalamak. Yeni kimlik gerekmedi, **tek denetim
+sayısı kıpırdamadı** — çünkü tarihler uydurulmadı, kopyalandı.
+
+---
+
+## ③ PARK EDİLENLER — her biri için yeniden açma ölçütü
+
+| iş | niçin park | maliyet | 🔓 YENİDEN AÇMA ÖLÇÜTÜ |
+|---|---|---|---|
+| **Muzafferî + İncû + Kutluğhanlı**<br>(`iran 1335→1393`, 30 nokta) | şikâyet üretmiyor; kazanç görsel değil **kavramsal** | **3 künye + 3 renk**<br>`2s` Δ **0** (`1357` zaten kırılma günü) | RENK 2'nin İran kutusu **açılırsa**, ya da Emre *"bu dönemde kim yönetiyordu"* diye **tekrar sorarsa** |
+| **Hazar kıyısı**<br>(Gîlân 2 + Mâzenderan 4) | aynı | **2 künye + 2 renk**<br>(`karkiya` · `marasi`) | RENK 2'nin *"Hazar kıyısı İran ailesinde olmak zorunda mı"* sorusuna **hüküm gelirse** |
+| **Lur atabeglikleri** | yeni bulgu, sırası gelmedi | **2 künye + 2 renk** | `Luristan`ın 172 yıllık battaniyesi (`iran 1335→1508`) **şikâyet konusu olursa** |
+
+⚠️ Üçü de **aynı sınıf**: tarihler zaten doğru, eksik olan yalnız **AD**.
+Hiçbiri harita görünümünü değiştirmez — yalnız etiketi doğrulaştırır.
+
+---
+
+## ④ ÖLÇÜLMEMİŞ BOŞLUKLAR — "bakılmadı" ile "bakıldı, bulunamadı" ayrı
+
+### 🔵 BAKILMADI (hiç dokunulmadı)
+```
+Cibâl kohortu       `iran 1335-12-01 → 1387-11-01` · 14 nokta
+                    Celâyirli/Muzafferî çekişmesi olabilir
+                    ⚠️ BEŞİNCİ KİMLİK ÇIKARABİLİR — maliyet 3 değil 4 olur
+Sîstan'ın sahibi    Bem · Bempûr · Çâhbahâr · Hâş (4 nokta)
+                    slug `sistan` ✓ CANLI, açılmadı
+Kuzey Kafkas üçlüsü Derbend 42,06K · Tarki 42,98K · Ağraham burnu 43,97K
+                    İlhanlı zarfının (Kuba 41,36K) KUZEYİNDE, Altın Orda cephesi
+                    ⚠️ `derbend` ve `samahi` slugları ÖLÜ — ayrı araştırma
+```
+
+### 🟡 BAKILDI, BULUNAMADI (kapalı kalem — tekrar arama)
+```
+Hûzistan 1335-1393  8 nokta. `huzistan` ✓ ve `luristan` ✓ CANLI ama İKİSİ DE
+                    pencereyi kapsamıyor. Çıpalar 1270'ler · 1396 · 1408 —
+                    üçü de pencerenin DIŞINDA. TDV'ye BASMIYOR.
+```
+
+### 🟠 KAYDEDİLDİ, ÇÖZÜLMEDİ (çelişki — `§8`: karar koordinatörde)
+```
+B2   Hürmüz'de Portekiz başlangıcı   bizde 1515-04-01 · TDV 1514 (İKİ madde)
+     temas olgusu ⇒ §3 "İKİSİ BİRDEN" ister. Jülyen şüphesi İŞLEMİYOR (1 yıl).
+B3   Hürmüz'de Portekiz bitişi       bizde 1622-05-01 · TDV 23 Nisan 1622
+     TDV gün veriyor, bizde ay hassasiyeti. Kolay düzeltme.
+H-1  Hûzistan'da timurlu başlangıcı  bizde 1393 · TDV 1396          3 yıl
+H-2  1408 Celâyirlî devri            verimizde YOK — §3.1 ⓪ olabilir
+Şiraz/Kirman Safevî tarihi           1508 · 1510-12-02 ⟷ komşuları 1503
+     🔴 Kirman'ın 1510-12-02'si MERV SAVAŞI'nın günü — Horasan tarihi.
+     Battaniyenin bitişinden miras olabilir. ÖLÇÜLMEDİ.
+```
+
+### 🔴 YAPISAL — mimari kararı, ÇAPRAZ çözemez
+```
+`v:` yalnız OSMANLI tâbiliği ifade ediyor. 313 v: döneminin TAMAMI Osmanlı
+sistemi içinde. Proje "Safevî tâbii" ya da "Portekiz tâbii" DİYEMİYOR.
+İki bağımsız vakada çıktı:
+   Hürmüz     1510-1622  Hürmüz Sultanlığı — önce Safevî sonra Portekiz tâbii
+   Mâzenderan 1504-1596  Mar'aşîler — Safevî tâbii
+§3.5 hayalet devletlerin AYNASI: orada olmayan devlet boyanıyordu,
+burada OLAN devlet boyanamıyor.
+```
+
+---
+
+## ⑤ ⚠️ SONRAKİ OTURUMA — brifingim üç yerinden yanlıştı
+
+Görev tanımını koordinatör yazdı ve **kabul etti ki üç yerinden yanlıştı.**
+Takip edilseydi hiçbiri bulunamazdı. Aynı tuzağa düşülmesin:
+
+**① YANLIŞ TARİH — "1510'daki 33 nokta".** Brifing beni 1510'a yolladı.
+Ama kendi cümlesi cevabı veriyordu: *"1600'de kendiliğinden bitiyor."*
+🔑 **Bir şey kendiliğinden bitiyorsa orası SÖNDÜĞÜ yer, DOĞDUĞU yer değil.**
+Beneğin kaynağı 1400-1500'dü. Ve `33` sayısı da yanlıştı — `kur:`/`bit:`
+süzgeci uygulanmamış, doğrusu **30/136**.
+
+**② YANLIŞ HİPOTEZLER.** Brifing dört hipotez verdi, kendisi *"bunlar
+tahminlerim, dayanacağın şeyler değil"* diye uyardı — **ve uyarı haklıydı:**
+```
+"Özbek/Şeybânî olabilir"      ✅ DOĞRULANDI
+"Mar'aşî olabilir"            ✅ DOĞRULANDI (ama tarihi 1596, brifing demedi)
+"Hürmüz 1507'den Portekiz"    🔴 ÇÜRÜDÜ — TDV: 1507'de kuşattı, ALAMADI
+                                  verimiz zaten doğruydu
+"Kirman geç Safevî fethi"     🔴 asıl mesele o değildi
+```
+
+**③ YANLIŞ ŞIKLAR.** *"Devlet mi, coğrafya mı, dolgu mu"* — **üçü de tek
+başına yanlış.** Cevap `§①`deki üçlü tablo.
+
+### 🔑 VE İŞE YARAYAN YÖNTEM — kaynak değil, KOMŞU
+Beneği çözen şey TDV araştırması **değildi**. Şuydu:
+> **Bozuk noktayı en yakın komşusuyla TAM ZİNCİR olarak karşılaştır.**
+
+Dokuz şehrin dokuzunda da aynı kusur çıktı, dış kaynağa gerek kalmadan.
+Sebebi basit: **aynı bölgede komşu noktalar zıt işlem görmüşse, kusur
+bilgide değil işlemdedir.** Kaynak araştırması pahalı ve yavaş; komşu
+karşılaştırması bedava ve kesin. **Önce onu yap.**
+
+⚠️ Ve devraldığın **hiçbir sayıya damgasız güvenme.** Bu oturumda üç belge
+üç ayrı `iran` sayısı taşıyordu (`326` · `317` · `277`) ve **üçü de kendi
+tarihinde doğruydu.** Bir sayı yanlış olmadan eskir.
+
+---
+
 ## Açılış
 
 Okunanlar: `CAPRAZ-IRAN-GOREV.md` · `CLAUDE.md` (baştan sona) ·
