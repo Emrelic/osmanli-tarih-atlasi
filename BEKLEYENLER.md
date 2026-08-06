@@ -9,15 +9,20 @@ kapananları temizler.
 
 ---
 
-## 🔴 ŞU AN SENDEN BEKLENEN — dördü de YALNIZ senin yapabileceğin işler
+## 🔴 ŞU AN SENDEN BEKLENEN
 
-**2 Ağustos** — r578 yayında (`c58445e`), kapılar açıldı. Sıradaki adım
-oturum açmaktan geçiyor ve **oturum açmayı koordinatör yapamaz.**
+**6 Ağustos** — r771 yayında (`4f9d878`). Aşağısı bugün ölçüldü.
+
+⚠️ **Bu başlığın altındaki satırlar 2 Ağustos'ta yazılmıştı ve dosyanın
+ALTINDA taze bir 6 Ağustos bölümü vardı.** ÇAPRAZ İRAN dosyayı *"dört gün
+bayat"* sandı — dosya bayat değildi, **iki başlıydı**: okuyan önce eski
+başlığa çarpıyordu. Taze bölüm yukarı alındı, eskisi ölçülüp yenilendi.
+📌 Ders: bayat olmayan bir dosya, **sırası yanlışsa** bayat gibi okunur.
 
 | # | iş | niçin sen | süre |
 |---|---|---|---|
 | ✅ ~~**B9**~~ | **CEVAP: A** — kıyı 220 m korunuyor. Ondalık kısaltma YAPILMADI; zaman penceresi ölçüldü ve çok daha fazlasını kazandırıyor (9,49→0,20 MB) | — | ✅ |
-| **B8** | 🔴 **KARAR: site her ziyarette 36 MB indiriyor — kutu açılınca ~65 MB olacak.** `donemler.js` 35,9 MB + `devletler_harita.js` 12,9 MB; koşudan sonra ikisi de yaklaşık iki katına çıkıyor ⇒ **toplam ~100 MB**. Masaüstünde yavaşlar, **mobilde çökebilir**. Seçenekler: (a) böl — bölgeye/döneme göre parça parça yükle (b) sıkıştır (c) olduğu gibi bırak, mobil kullanıcıyı kaybet. **Bu bir yayın stratejisi kararı, teknik değil** | ürünün senin | 2 dk |
+| **B8** | 🟡 **KARAR — ama korkulan felaket OLMADI, sayılar bugün yeniden ölçüldü.** 2 Ağustos'ta *"36 MB, kutu açılınca ~100 MB olacak, mobilde çökebilir"* yazmıştım. **Kutu AÇILDI** (L kutusu, `r771`), üstüne **90 nokta eklendi** — ve site **44,63 MB** (`donemler.js` 22,26 + `devletler_harita.js` 14,52 + `altlik.js` 5,31 + `petek_govde.js` 3,16). Yani ~100 MB tahmini **iki kattan fazla yanlış çıktı**; melez sadeleştirme farkı yuttu. ⇒ Soru duruyor ama **acil değil**: (a) böl (b) daha da sıkıştır (c) 44,63 MB'a razı ol. **Mobil ölçümü yok** — kararın önündeki tek gerçek boşluk bu | ürünün senin | 2 dk |
 | ✅ ~~**B5**~~ | **RENK oturumu AÇILDI** (Opus 5) — 15 Avrupa rengi teslim edildi, Asya sürüyor | — | ✅ |
 
 📌 **Bugün senden bir tek bu: B8.** Gerisini ben hallediyorum.
@@ -96,14 +101,32 @@ kez geliyor, ilk seferinde çözülmemiş.
 ⚠️ İkisinin dosyaları **çakışmıyor**: RENK `arac/renkler.py`, ARAYÜZ
 `index.html`+`js`+`css`. Aynı anda güvenle koşarlar.
 
-## 🟡 SIRADAKİ DALGA — bugün açma, birinciler bitince
+## 🟢 AÇILDI — 6 Ağustos, altı oturum koşuyor
+
+```
+RENK 2 · ARAYÜZ 5 · ÇAPRAZ İRAN · PETEK/NOKTA · ÇAPRAZ AKDENİZ   AÇIK
+```
+⚠️ **ÇAPRAZ AKDENİZ hâlâ `Uibul` dizininde açılmış** — düzeltilmesi sende
+(aşağıdaki ⚠️ listesine eklendi).
+
+## 🟡 SIRADAKİ DALGA — birinciler bitince
 
 | oturum | model | niçin bekliyor |
 |---|---|---|
-| **ÇAPRAZ İRAN** | Opus | İran/Safevî enklav şikâyeti paketlerde **ÜÇ KEZ** geçiyor (`H-0005`·`H-0009`·`p5 H-0005`) — çözülmemiş ve tekrar ediyor. En yüksek kullanıcı acısı, ama önce ÖLÇÜM ister. |
 | **VERİ KRONOLOJİ 3** | Sonnet | Cem Sultan 1495 · Sapienza 1499 · Altın Orda 1502 · Murad Bey 1503 · Şahkulu — beş eksik madde; ayrıca `2s` borcu 126/114 |
-| **PETEK/NOKTA** | Opus | 4 göl-içi nokta (Jukkasjärvi·İnari·Västerås·**Eğirdir**) + Kırım'ın cetvelle bölünmüş görüntüsü + Orta Asya boşluğu |
 | **VERİ KİMLİK 4** | Sonnet | **45 kimlik / 359 pencere** dizinde karşılıksız — %96'sı `yerlesimler_asya.js` merge borcu |
+
+## 🔴 SAHİPSİZ İŞ — ÇAPRAZ İRAN buldu, kimseye atanmamış
+
+`arac/renkler.py:180` kendi kendine bir iş yazmış ama **sahibini yazmamış**:
+> *"Pencere 2'nin TDV araştırması bitince kutu YENİDEN ÖLÇÜLMELİ;
+> gerekirse aile ikiye bölünür (safevi+afsar · iran+kacar+zend)."*
+
+**Pencere 2** = `1747-06-20 → 1796-01-01`, `iran` etiketli **123 nokta** —
+bugün `iran` etiketinin **%44'ü**. Kayıtta *"İran PARÇALI, genel etiket
+MEŞRU"* diyor, yani **kusur değil, kayıtlı karar**. Ama araştırma yapılmadan
+`zend` rengi de yazılamıyor.
+🟡 Atanmadı. ÇAPRAZ İRAN'ın işi **değil** — o 1501-1550 penceresinde.
 
 ## 📌 BENDE KALAN (koordinatör, oturum gerekmez)
 ```
@@ -121,4 +144,6 @@ yugoslavya dizin notu      harita 11 Kasım doğru, dizin açıklaması eksik
                            ClaudEmre deposunda değil, taşınmıyor
 3  EczAsist/CLAUDE.md      ilk satırı "# Proje: BotanikTakip" — YANLIŞ proje
                            adı. Orada oturum açılırsa yanlış künye okur.
+4  ÇAPRAZ AKDENİZ DİZİNİ   oturum `Uibul` dizininde açılmış, atlas dizininde
+                           değil. Kendi CLAUDE.md'sini okumuyor.
 ```
