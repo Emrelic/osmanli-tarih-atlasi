@@ -782,6 +782,88 @@ pencereleri duruyor (kutu içinde 22 nokta). Onlar hanedan adlandırması ister
 
 ---
 
+## TESLİM 9 — kalan 22 nokta: maliyet ve `2s` ÖNDEN (koordinatörün iki şartı)
+
+### Önce: düzeltmenin oturduğunun teyidi
+
+Kalan `iran` kohortları **tam olarak dokuz şehir kadar büyümüş:**
+```
+1335-12-01 → 1393-01-01   28 → 30   (+Şiraz +Kirman)
+1335-12-01 → 1386-01-01   21 → 25   (+Tebriz +Erdebil +Urmiye +Nahçıvan)
+1335-12-01 → 1381-01-01   19 → 21   (+Meşhed +Tebbes)
+1335-12-01 → 1387-11-01   13 → 14   (+Yezd)
+```
+⇒ Dokuzu da doğru kohorta düşmüş. Şablon tuttu.
+
+### ① MALİYET — 4 yeni künye + 4 yeni renk
+
+| kohort | nokta | hanedan | künye | renk |
+|---|---|---|---|---|
+| `→1393` Fars+Kirman+Hûzistan | 30 | **Muzafferî** (TDV 1318-1393) | 🔴 YOK | 🔴 YOK |
+| `→1386` Azerbaycan | 25 | **Çobanlı** (1335-1357) → **Celâyirli** (1357-1386) | Çobanlı 🔴 · Celâyirli ✓ | Çobanlı 🔴 · Celâyirli ✓ |
+| `→1381` Horasan | 21 | **Serbedârî** (batı) + **Kert** (doğu/güney) | 🔴 ikisi de YOK | 🔴 ikisi de YOK |
+| `→1387-11` Cibâl | 14 | araştırılmadı — Celâyirli/Muzafferî çekişmesi | ? | ? |
+
+```
+YENİ KÜNYE  4   muzafferi · cobanli · serbedari · kert
+YENİ RENK   4   aynısı
+HAZIR       1   celayirli (dizin ✓ renk ✓ #b5432f)
+```
+⚠️ Cibâl kohortu (14 nokta) ölçülmedi — beşinci bir kimlik çıkarabilir.
+**Tahmin değil, boşluk olarak yazıyorum.**
+
+### ② `2s` TAHMİNİ — yapısal olarak **0**, ama bir şartla
+
+`denetle.py` `2s`yi **kırılma TARİHLERİNDEN** sayıyor. Bir pencerenin `d:`
+alanını değiştirmek `f`/`t` sınırlarını **oynatmaz** ⇒ yeni kırılma tarihi
+doğmaz ⇒ **`2s` değişimi 0.** Bu ampirik değil, **yapısal** bir garanti.
+
+```
+SAF ADLANDIRMA (sınır oynamaz)     2s Δ = 0   ← garantili
+BÖLME (yeni iç sınır)              2s Δ = +1 per yeni tarih, maddesi yoksa
+```
+Tek bölme adayı: **Azerbaycan `1357`** (Çobanlı → Celâyirli).
+
+### 🔴 ③ VE 1357'Yİ ÖLÇERKEN BUGÜNKÜ YAPISAL KUSURUN YENİ VAKASINI BULDUM
+
+`denetle.py:179` bugün şunu yazmış: *"bu ölçüt TARİH YAKINLIĞINA bakıyor,
+KONU YAKINLIĞINA bakmıyor"* ve Sibirya'dan altı örnek vermiş.
+**Aynı kusur benim sahamda da var.** Aday kırılma tarihlerinin ±30 gününde
+madde aradım:
+
+| kırılma | eşleşen madde | hüküm |
+|---|---|---|
+| `1357-01-01` Çobanlı→Celâyirli | *"Süleyman Paşa'nın Trakya ilerleyişi: Malkara, İpsala…"* | 🔴 **ALAKASIZ** |
+| `1381-01-01` Timur Horasan | *"Germiyan çeyizi: Kütahya'nın katılışı"* | 🔴 **ALAKASIZ** |
+| `1386-01-01` Timur Azerbaycan | *"Niş'in fethi"* | 🔴 **ALAKASIZ** |
+| `1393-01-01` Muzafferîler'in sonu | *"Anadolu Beylerbeyliği kuruldu"* | 🔴 **ALAKASIZ** |
+| `1387-11-01` Isfahan yağması | *"Timur'un İran'ın büyük bölümünü hâkimiyeti altına alması"* | ✅ GERÇEK |
+| `1335-12-01` Ebû Said | *"İlhanlı Devleti'nin dağılması: Ebû Said Bahadır Han'ın ölümü"* | ✅ GERÇEK |
+
+⇒ **Dört kırılma "maddeli" sayılıyor ama maddeleri Trakya · Kütahya · Niş ·
+Anadolu Beylerbeyliği.** Kullanıcı **Şiraz'ın renk değiştirdiğini "Germiyan
+çeyizi" maddesinin altında görecek** — `denetle.py`nin Vladivostok örneğinin
+birebir aynısı, Osmanlı coğrafyasının **içinde.**
+
+📌 Yani kusur *"tarihleri Osmanlı kronolojisinden bambaşka bir sahnede geçtiği
+için görünür oldu"* diye açıklanmıştı; **İran sahnesi Osmanlı'ya yakın ve
+kusur yine de var.** Sibirya'ya özgü değil.
+
+🔴 **⇒ TAHMİNİM İKİ KATLI:**
+```
+sayısal      2s Δ = 0        (bölme yapılsa bile 1357'nin "maddesi var")
+gerçekte     YALANCI GEÇİŞ   4 kırılma alakasız maddeye takılı
+```
+**Sayı temiz çıkacak ama temizlik sahte olacak.** Bunu önden söylüyorum ki
+uygulandığında *"2s kıpırdamadı, demek doğru"* denmesin.
+
+🟢 **Çaresi ucuz:** bu dört tarihe **gerçek madde** yazmak (Timur'un Horasan
+1381 · Azerbaycan 1386 · Muzafferîler'in sonu 1393 · Celâyirli'nin Azerbaycan'ı
+alışı 1357). Dördü de gerçek olay, uydurma gerekmiyor. Yazılırsa yalancı geçiş
+**gerçek geçişe** döner. ⚠️ Kronoloji benim dosyam değil — kalem olarak veriyorum.
+
+---
+
 ## Sistem kaydı — koordinatöre bildirilenler
 
 1. `CLAUDE.md §5` canlı taban satırı bayat (951/2 dosya → gerçekte 1713/16 dosya).
