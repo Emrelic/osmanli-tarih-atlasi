@@ -536,6 +536,133 @@ bandında olmaları **gerekmeyebilir** — ayrı hanedanlar, ayrı aile.
 
 ---
 
+## TESLİM 7 — (a) İlhanlı kesiti: öneri hazır, ama KAZANCI SANDIĞIMDAN KÜÇÜK
+
+Koordinatör (a)'yı onayladı: *"ölçüm sende, uygulama bende."* Ve uyardı:
+*"Kısalttığın şeyi söyle — 'çözüldü' değil 'yarısı çözüldü' diye yaz."*
+
+🔴 **Uyarısı yerindeydi ve gerçek daha da sert: yarısı değil, DÖRTTE BİRİ.**
+Üstelik **benek şikâyetine hiç dokunmuyor.** Aşağıda.
+
+### Kohort — 35 nokta, hiçbirinde `ilhanli` yok
+
+`iran` penceresi `1281-01-01`de başlayan **35 nokta**. Hiçbirinde `ilhanli`
+dönemi yok — **Tebriz dâhil.**
+
+```
+1281-01-01 → 1501-07-01   16      1281-01-01 → 1510-12-02    5
+1281-01-01 → 1503-01-01    4      1281-01-01 → 1592-01-01    2
+1281-01-01 → 1508-01-01    8
+```
+
+### Kaynak — TDV `ilhanlilar` ✓ CANLI
+
+> *"Ebû Said Bahadır Han 1335'te henüz otuz yaşında iken ölmüş veya zehirlenerek
+> öldürülmüş"* ve bu olay **devletin parçalanmasına** yol açtı.
+> *"Devletin ilk başşehri **Tebriz** idi."*
+> *"sınırları Amuderya'dan Fırat'a ve **Kafkasya**'dan Belûcistan'a kadar
+> uzanıyor"* · *"**Kuzeyde Altın Orda**… ile mücadele hâlindeydi."*
+
+📌 **Projenin `1335-12-01` tarihi doğrulanıyor** — Ebû Said 30 Kasım 1335'te
+öldü, mevcut 124 pencere birebir o günü kullanıyor.
+⚠️ TDV devletin **1353**'te yıkıldığını da söylüyor. `§3.1 ⓪`: iki ayrı soru —
+*"hanedan resmen ne zaman bitti"* (1353) / *"birleşik İlhanlı idaresi ne zaman
+bitti"* (1335). Haritanın sorusu ikincisi. **Mevcut 124 pencere doğru.**
+
+🔴 **Ve Tebriz'in başkent olduğu doğrulandı** ⇒ İlhanlı'nın kendi payitahtı
+`iran` boyalı. Bu, kohortun en tartışmasız kalemi.
+
+### İç tutarsızlık — dış kaynağa bile gerek yok
+
+Battaniyeli noktaların **en yakın `ilhanli` komşusu** ölçüldü. Aynı pencereyi
+(`1281-01-01 → 1335-12-01`) taşıyan komşular hemen yanı başlarında:
+
+```
+Meşhed    22 km  ← Tûs              Tebriz    60 km  ← Merend  (BAŞKENT!)
+Nahçıvan  34 km  ← Culfa            Kabala    61 km  ← Şeki
+Şâbüran   42 km  ← Kuba             Urmiye    77 km  ← Selmâs
+Ereş      43 km  ← Berde            Şiraz     83 km  ← Firûzâbâd
+Erdebil   54 km  ← Astara           …
+```
+⇒ **Aynı bölgede, komşu noktalarda, zıt işlem.** Kusur bilgi eksikliği değil,
+**işlemin bazı noktalara uygulanmamış olması.**
+
+### 🔴 İKİ UÇ (§3.5.1) — kuzey ucunda GERÇEK risk var
+
+```
+mevcut `ilhanli` zarfı, Kafkasya'da EN KUZEY:  Kuba 41,36K · Şeki 41,19K
+`altinorda` zarfı, EN GÜNEY:                   Donets 48,80K
+```
+Aradaki koridorda üç battaniye noktası var ve **üçü de mevcut `ilhanli`
+zarfının kuzeyinde:**
+
+| nokta | enlem | en yakın `ilhanli` | hüküm |
+|---|---|---|---|
+| Derbend | 42,06K | Kuba, 80 km | 🔴 **BEKLET** |
+| Tarki (Tarku) | 42,98K | Kuba, 199 km | 🔴 **BEKLET** |
+| Ağraham burnu | 43,97K | Kuba, 298 km | 🔴 **BEKLET** |
+
+TDV *"Kuzeyde Altın Orda ile mücadele hâlindeydi"* diyor — Dağıstan cephesi
+**savaş bölgesi**, el değiştiren bir hat. `ilhanli`yi 41,36'dan 43,97'ye
+uzatmak, projenin bugüne kadar hiç boyamadığı bir kuşağa girmek olur.
+⚠️ Ve kaynaklandırması kolay değil: `derbend` ve `samahi` slug'ları
+`CLAUDE.md §4`'te **ÖLÜ olarak kayıtlı**. Ayrı bir araştırma kalemi.
+
+### ⇒ ÖNERİ
+
+```
+🟢 32 nokta   iran 1281-01-01 → X
+              ⇓ İKİYE BÖL
+              ilhanli 1281-01-01 → 1335-12-01
+              iran    1335-12-01 → X
+
+🔴  3 nokta   Derbend · Tarki · Ağraham burnu — DOKUNMA, ayrı kaynak ister
+```
+🟢 Renk/künye borcu **YOK** — `ilhanli` dizinde ve `renkler.py`de var
+(`#9f66c3`), 149 pencereyle canlı. Şeybânî kümesi gibi **sıfır maliyet.**
+
+### 🔴 DÜRÜST MUHASEBE — kazanç sandığımdan küçük
+
+```
+bugünkü battaniye      7331 nokta-yıl
+İlhanlı ile çözülen    1728 nokta-yıl   (54 yıl × 32 nokta)
+GERİYE KALAN           5603 nokta-yıl   ← %76 hâlâ battaniye
+```
+
+Bölme sonrası kalanlar:
+```
+iran 1335-12-01 → 1501-07-01   13 nokta   166 yıl
+iran 1335-12-01 → 1503-01-01    4 nokta   168 yıl
+iran 1335-12-01 → 1508-01-01    8 nokta   173 yıl
+iran 1335-12-01 → 1510-12-02    5 nokta   175 yıl
+iran 1335-12-01 → 1592-01-01    2 nokta   257 yıl
+```
+
+### 🔴🔴 VE BENEK ŞİKÂYETİNE HİÇ DOKUNMUYOR — bunu açıkça yazıyorum
+
+Dokuz kronik enklavı 1400 · 1450 · 1490 kesitlerinde ölçmüştüm.
+**Üçü de 1335'ten SONRA.** Bölme 1281-1335'i düzeltiyor — yani **enklav
+döneminden önceki** kesiti.
+
+```
+Tebriz    iran 1281→1501  ⇒  ilhanli 1281→1335 + iran 1335→1501  (166 yıl enklav)
+Meşhed    iran 1281→1510  ⇒  ilhanli 1281→1335 + iran 1335→1510  (175 yıl enklav)
+…dokuzunda da aynı
+```
+
+| ne | sonuç |
+|---|---|
+| 1300 kesiti (kutu içi) | ✅ `iran 25 → 0` · `ilhanli 100 → 125` — **temizlenir** |
+| 1400 · 1450 · 1490 benekleri | ❌ **HİÇ DEĞİŞMEZ** — dokuz enklav yerinde durur |
+
+⇒ Bu iş **doğru ve ucuz, ama Emre'nin şikâyetini çözmüyor.**
+Şikâyeti çözen (b) — 1335-1400 halefleri. **Sıralama bunu söylüyor: (a) yan
+kazanç, asıl iş (b).**
+📌 `ONCELIK.md` mantığıyla: ucuz olması önceliklendirmez, **şikâyeti olan iş
+öncelendirir** (koordinatörün pencere 2 için kullandığı ölçütün aynısı).
+
+---
+
 ## Sistem kaydı — koordinatöre bildirilenler
 
 1. `CLAUDE.md §5` canlı taban satırı bayat (951/2 dosya → gerçekte 1713/16 dosya).
