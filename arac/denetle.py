@@ -193,8 +193,28 @@ KUYRUK_DOSYALARI = ("yerlesimler_ortaasya2.js", "yerlesimler_avrupa.js",
 #   "degisim, o gune rastgele denk gelen alakasiz bir maddenin altinda belirir
 #    — kullanicinin en cok sikayet ettigi hata bu."
 # ⇒ Olcut, ONLEMEK ICIN YAZILDIGI HATAYI GECIRIYOR. Kusur ek13'te degil,
-#   olcutun kendisinde; ek13 yalnizca GORUNUR KILDI, cunku tarihleri Osmanli
-#   kronolojisinden bambaska bir sahnede (Sibirya) geciyor.
+#   olcutun kendisinde; ek13 yalnizca GORUNUR KILDI.
+#
+# 🔴 VE BU CUMLENIN ILK HALI YANLISTI -- CAPRAZ IRAN teslim 9 duzeltti.
+#   Once soyle yazmistim: "gorunur oldu cunku tarihleri Osmanli
+#   kronolojisinden BAMBASKA BIR SAHNEDE (Sibirya) geciyor."
+#   CAPRAZ IRAN ayni kusurun IRAN sahasinda da oldugunu olctu:
+#       1357 Cobanli→Celayirli ↔ "Suleyman Pasa'nin Trakya ilerleyisi"
+#       1381 Timur Horasan     ↔ "Germiyan ceyizi: Kutahya'nin katilisi"
+#       1386 Timur Azerbaycan  ↔ "Nis'in fethi"
+#       1393 Muzafferiler'in sonu ↔ "Anadolu Beylerbeyligi kuruldu"
+#   Iran sahnesi Osmanli'ya YAKIN ve kusur yine de var.
+#   ⇒ Kusur UZAK SAHNELERE OZGU DEGIL. Uzaklik onu gorunur kilar, DOGURMAZ.
+#   ⇒ Ve tavan sayisi (bugun 143) su anda bile "maddeli" sayilan alakasiz
+#     eslesmeler tasiyor olabilir: sayinin temiz olmasi denetimin temiz
+#     oldugu anlamina GELMIYOR.
+#   📌 PETEK/NOKTA ucuncu sinifi adlandirdi: olcut bugun yalniz MADDELI /
+#     ACIK diyebiliyor; gereken uculu **MADDELI · ACIK · KAPSAM DISI**
+#     ("bu kirilmanin maddesi bu kronolojide OLAMAZ").
+#   🟢 Dortunden UCU 6 Agustos'ta kapatildi -- gercek madde yazilarak
+#     (1381-04-01 Herat · 1386-01-01 uc yillik sefer · 1393-01-01 Muzafferi).
+#     Yalanci gecis, gercek gecise donusturulebiliyor; pahali olan olcut
+#     degil, kronoloji borcu.
 # 📌 Cozum tasarimi ACIK IS: kirilmanin yer/devlet kimligi ile maddenin
 #   `yer_id:`/`kisiler:`/metni arasinda bir ORTUSME sarti aranmali. Bugun
 #   uygulanmadi cunku 649 kirilmanin tamamini yeniden tartar ve tek oturumda
