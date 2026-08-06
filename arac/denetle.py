@@ -202,7 +202,23 @@ KUYRUK_DOSYALARI = ("yerlesimler_ortaasya2.js", "yerlesimler_avrupa.js",
 # 114 -> 131: _ek13'un getirdigi +5'in HEPSI adiyla belli (asagidaki 7 acik
 # tarihten besi; 1630/1631/1651/1653/1665/1668/1875 kusaginda). Borc:
 # Sibirya'nin Rus fethi kronolojisi — yazilinca 131 -> 124 iner.
-BEKLENEN_ACIK_S = 131
+# 131 -> 143: PARTİ 21 (_ek14 · _ek15, 16 nokta Mâverâünnehir + Hokand).
+# 20 ayrık kırılma tarihinin 7'si maddeli, 13'ü AÇIK. On üçü de adıyla belli
+# ve hepsi GERÇEK OLAY — uydurma tarih yok:
+#   1370-01-01 Timur'un yükselişi · 1500-01-01 Şeybânî fethi
+#   1710-01-01 Hokand Hanlığı'nın kuruluşu · 1802-01-01 Hucend Hokand'a
+#   1864-09-22 Çimkent · 1865-06-17 TAŞKENT · 1866-05-24 Hucend
+#   1866-10-18 Cizzah · 1876-02-19 Hokand Hanlığı'nın ilgası
+#   1347/1758/1847 Almatı zinciri · 1598-01-01 Türkistan-Çimkent
+# Borç: **Orta Asya'nın Rus fethi kronolojisi.** Yazılınca 143 -> 130 iner.
+#
+# 🔴 VE BİR DESEN: PARTİ 20 ile 21'in İKİSİ DE `Değişmez 2`yi önceden ölçtü
+# (ikisinde de 0 çıktı, doğru) ama `2s`yi HİÇ ölçmedi — 20'de +5, 21'de +12.
+# Sebep anlaşılır: partiler `d:`/`v:` yazmıyor, hepsi `s:`; "Osmanlı borcu
+# sıfır" doğru ama SORULMASI GEREKEN SORU O DEĞİL. Yabancı-yabancı devir de
+# bir kırılmadır ve maddesi olmalıdır.
+# ⇒ Kural: `s:` yazan her parti, beklenen **2s** değişimini de önceden yazar.
+BEKLENEN_ACIK_S = 143
 # Değişmez 2'nin AYNADAKİ HÂLİ: madde var ama kırılma yok. Oturum 14'ün Girit
 # bulgusu — "1830-11-01 Girit'in idaresi Mehmed Ali'ye bırakıldı" maddesi VARDI,
 # beş nokta `d:` kalmıştı. Ölçüldü: 442 toprak/antlaşma maddesinin 67'sinin

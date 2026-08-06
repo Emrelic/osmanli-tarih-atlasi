@@ -234,6 +234,25 @@ GIRDI_DOSYALARI = [
     # de dizin künyesi var · d:/v: dönemi 0 ⇒ Değişmez 2 borcu YAPISAL
     # SIFIR · 3 km'den yakın çift YOK · dönem sağlığı temiz.
     "yerlesimler_ek13.js",
+    # ── PARTİ 21 · 6 Ağustos 2026 (NOKTA EKLEME) ────────────────────
+    # ek14 Mâverâünnehir çekirdeği 9 nokta · ek15 Hokand Hanlığı 7 nokta.
+    # `box(37-45°K / 62-76°D)`de TEK nokta vardı (Kaşgar, doğu kenarında):
+    # Semerkant · Buhara · Taşkent · Hokand · Andican · Hucend · Termez ·
+    # Belh — Timur'un başkenti dâhil hiçbiri yoktu. ~1,5 milyon km².
+    # 🔴 DOSYA BAŞINA TEK ENGEL kuralı iki turda ikinci kez işledi:
+    #    parti üçe bölündü, `hokand` rengi oturum SIRASINDA geldi (RENK 2,
+    #    BOYALAR 231→232) ve on altı nokta birden bağlanabilir oldu.
+    #    Bölünmeseydi hepsi `_ek16`nın afgan renkleri yüzünden beklerdi.
+    # ⚠️ `_ek16` (2 nokta) BAĞLANMADI: `afgan-durrani` ve `afganistan`
+    #    ne renkte ne DİZİNDE var (ölçtüm — parti "renk bekliyor" diyor,
+    #    künye de gerekiyor).
+    # ÖLÇÜLDÜ (koordinatör, bağlamadan önce — parti 20'de bunu ATLAMIŞTIM):
+    #   Değişmez 1  ✓ 16 kaydın 16'sı 1281'den KESİNTİSİZ sahipli ⇒ tavan
+    #               102'de KALIR. Parti bunu ÖNCEDEN yazdı ve tuttu.
+    #   Değişmez 2  ✓ d:/v: dönemi 0 · kutu 16/16 · renksiz 0 · dizinsiz 0
+    #   3 km ✓ · dönem sağlığı ✓
+    "yerlesimler_ek14.js",
+    "yerlesimler_ek15.js",
     # 344 nokta (MOTOR 2, 2 Ağustos 2026 — kutu genişletme koşusuyla).
     # KOORDİNATÖR KARARI: 37-renkle açılış — 147 kimliğin 49'u boyalı, 98'i
     # renksiz ve renksiz dönem BOŞLUK üretir (yanlış renk değil; motor
