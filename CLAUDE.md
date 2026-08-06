@@ -325,14 +325,34 @@ node -e "global.window={};eval(require('fs').readFileSync('data/yerlesimler.js',
 
 ### ⚠️ TDV ölü slug tuzağı — projede en çok hata bunun yüzünden çıktı
 
-`islamansiklopedisi.org.tr/<slug>` **olmayan slug için de HTTP 200 döndürür** ve
-sessizce arama sayfasına yönlendirir. "Sayfa açıldı" demek "madde var" demek değildir.
-Ölü slug'ı **yalnızca sayfa başlığı** ele verir:
+`islamansiklopedisi.org.tr/<slug>` olmayan slug için sessizce arama sayfasına
+yönlendirir. **"Sayfa açıldı" demek "madde var" demek değildir.**
 
-> `<title>` içeriği **"Arama - TDV İslâm Ansiklopedisi"** ise o madde **YOKTUR**.
+🔴 **İKİ AYRI TUZAK VAR ve testleri farklı. Karıştırma.**
 
-Her slug'ı bu kontrolle doğrula. Doğru slug'ı bulmak için:
-`https://islamansiklopedisi.org.tr/arama/?q=<kelime>` — sonuçlarda gerçek slug'lar var.
+**① ÖLÜ SLUG — madde YOK.** İki işaret de ele verir, **en ucuzu HTTP kodu**:
+```bash
+curl -s -o /dev/null -w "%{http_code}" https://islamansiklopedisi.org.tr/<slug>
+# 302 → ÖLÜ (arama sayfasına yönleniyor)      200 → madde VAR
+```
+> `<title>` testi de çalışır ama **`-L` şart** (yönlendirmeyi izlemeli);
+> izlenmiş sayfanın başlığı **"Arama - TDV İslâm Ansiklopedisi"** ise madde YOKTUR.
+
+⚠️ **Bu satır 6 Ağustos 2026'da DÜZELTİLDİ.** Önceki hâli *"olmayan slug için
+de HTTP 200 döndürür"* diyordu ve **ölçülünce yanlış çıktı**: denenen on bir
+ölü slugun (`corlu · kertler · cobanlilar · haciemirogullari · parga ·
+nihavend · cildir · hurmuz · derbend · samahi · incular`) **on biri de 302**
+döndürdü. ÇAPRAZ İRAN 302 biçimini bildirdi, ölçüm belgeyi düzeltti.
+📌 Yani tek istekle, gövde ayrıştırmadan karar verilebiliyor — eski belge
+gereksiz yere pahalı bir test öğretiyordu.
+
+**② CANLI SLUG, YANLIŞ MADDE — ve bu testi GEÇER.**
+`ordu` HTTP **200** döndürür, `<title>` **"ORDU"** yazar, iki test de temiz —
+ama açılan madde **askerî ordu**dur, şehir maddesi `ordu--sehir`'dir.
+⇒ Kod ve başlık *maddenin var olduğunu* söyler, **doğru madde olduğunu
+söylemez.** Onu yalnız **içeriği okumak** ele verir.
+
+Doğru slug'ı bulmak için: `https://islamansiklopedisi.org.tr/arama/?q=<kelime>`
 
 Yaşanmış örnekler: `ordu` askerî ordu maddesini açar, şehir maddesi `ordu--sehir`'dir.
 `haciemirogullari`, `parga`, `canik`, `asir`, `preveze`, `derbend`, `samahi`,
@@ -341,6 +361,23 @@ Yaşanmış örnekler: `ordu` askerî ordu maddesini açar, şehir maddesi `ordu
 **ÖLÜ olduğu ölçülmüş sluglar** (2026-07-30 turunda `<title>` ile sınandı):
 `cildir` (doğrusu `cildir-eyaleti`) · `selimiye-camii-ve-kulliyesi` ·
 `ferhad-pasa-antlasmasi` · `nihavend` · `burucird`.
+
+**6 Ağustos 2026 turunda ölçülenler** (HTTP kodu + `<title>`, ikisi birden):
+```
+🔴 ÖLÜ    corlu · kertler · cobanlilar · incular · kutlug-hanlilar ·
+          mihrabaniler · hurmuz · derbend · samahi
+🟢 CANLI  selim-i · mehmed-vi · vahdeddin · herat · merv · seybaniler ·
+          timur · muzafferiler · celayirliler · serbedariler · gilan ·
+          marasiler · taberistan · incu · kutlughanlilar · sistan ·
+          huzistan · semerkant · buhara · taskent · hokand · belh ·
+          ilhanlilar · hurmuz--iran · benderabbas · nisabur--iran
+```
+📌 Desen tekrar tekrar çıkıyor (`§4③`): **kaynak vardı, adres yanlıştı.**
+`hurmuz` ölü ama `hurmuz--iran` canlı · `incular` ölü ama `incu` canlı ·
+`kutlug-hanlilar` ölü ama `kutlughanlilar` canlı · `nisabur` ölü ama
+`nisabur--iran` canlı. ⇒ **"TDV'de yok" demeden önce ARA.** Bir künyede
+*"TDV'de madde bulunmadığı için ertelendi"* yazıyorsa, o erteleme bu tuzağa
+düşmüş olabilir — `data/devletler.js` `uman` künyesinde gerçekleşmiş vaka var.
 > ⚠️ Ferhat Paşa Antlaşması'nın TDV'de **müstakil maddesi yok**; hükümleri yer
 > maddelerinden toplanır. TDV'deki adı "İstanbul antlaşması" olarak geçiyor
 > (`luristan` maddesi: "998'de (1590) İstanbul'da yapılan antlaşma").
