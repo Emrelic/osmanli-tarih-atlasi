@@ -120,8 +120,15 @@ def tablo(o):
     s.append("| Konum denetimi | %s |" % o["konum"])
     s.append("| Devletler dizini | **%d** künye · **%d** renk (`renkler.py`) |"
              % (o["devlet"], o["renk"]))
-    s.append("| Dizinsiz harita kimliği | 🔴 **%d** kimlik / %d pencere karşılıksız |"
-             % (o["kimlik_eksik"], o["kimlik_eksik_pencere"]))
+    # ⚠️ KAPSAM SATIRIN YANINDA YAZILIR. ÇAPRAZ AKDENİZ (6 Ağustos) haklı
+    # olarak uyardı: bu sayı "BUGÜN HARİTADA BOYANAN" sorusunun cevabı.
+    # `ek10-12` merge edilince başka bir sayı olur (47/365). İki sayı da
+    # doğru, ama AYNI SORUNUN cevabı değil — kapsam yazılmazsa okuyan
+    # hangisini gördüğünü bilmez.
+    s.append("| Dizinsiz harita kimliği | 🔴 **%d** kimlik / %d pencere "
+             "karşılıksız · *kapsam: `girdi.py`nin okuduğu %d dosya — "
+             "bağlanmamış partiler HARİÇ* |"
+             % (o["kimlik_eksik"], o["kimlik_eksik_pencere"], o["girdi_dosya"]))
     s.append("| Padişah · kartvizit | %d kayıt · %d portre · **%d** kartvizit dolu |"
              % (o["padisah"], o["portre"], o["kart"]))
     s.append("| Harita penceresi | `%s` |" % o["bolge"])

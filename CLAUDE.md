@@ -72,18 +72,18 @@ gerekir. Projenin bütün kalite kuralları (§3) bu tek cümleden türer.
 | Katman | Ölçülen durum |
 |---|---|
 | Yerleşim (motorun okuduğu) | **1713** nokta, 16 girdi dosyası |
-| Kronoloji | **1141** madde · 1141 duygu etiketli · 418 `yer_id` · 19 `vefat_id` |
+| Kronoloji | **1141** madde · 1141 duygu etiketli · 418 `yer_id` · 24 `vefat_id` |
 | Değişmez 1 — sahipsizlik | ✓ 1713 yerleşim, 86 sahipsiz (beklenen 86) |
 | Değişmez 1b — iç boşluk | ✓ pencere arası boşluk: 0 (beklenen 0) — örnekleme YAPILMAZ, tam tarama |
 | Değişmez 2 — Osmanlı senkronu | ✓ 497 kırılma, 0 açık (beklenen 0) |
 | Değişmez 2s — yabancı senkron | ✗ 649 YABANCI kırılması, 126 açık (tavan 114) — bilinen borç |
 | Değişmez 2t — kırılmasız madde | ✗ kırılmasız madde: 60 (tavan 49) — bilinen borç |
 | Konum denetimi | 1 nokta kara maskesinin dışında (beklenen 0) |
-| Devletler dizini | **302** künye · **233** renk (`renkler.py`) |
-| Dizinsiz harita kimliği | 🔴 **45** kimlik / 359 pencere karşılıksız |
+| Devletler dizini | **302** künye · **234** renk (`renkler.py`) |
+| Dizinsiz harita kimliği | 🔴 **45** kimlik / 359 pencere karşılıksız · *kapsam: `girdi.py`nin okuduğu 16 dosya — bağlanmamış partiler HARİÇ* |
 | Padişah · kartvizit | 41 kayıt · 36 portre · **26** kartvizit dolu |
 | Harita penceresi | `unary_union([box(-12, -11, 146, 82), box(-25, 60, -12, 82)])` |
-| Yayın | **r771** · `6b69c41` |
+| Yayın | **r771** · `802da11` |
 
 > ⚙️ **BU TABLO ELLE YAZILMAZ — ÜRETİLİR.**
 > ```bash
