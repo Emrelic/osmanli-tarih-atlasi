@@ -3,6 +3,16 @@
 // ============================================================================
 // Yazan: ÇAPRAZ İBERYA oturumu, 3 Ağustos 2026. Şartname: `MERAK.md`.
 //
+// 🔴 7 AĞUSTOS — VERİ İÇERİK oturumu, KALEM 2 ölçümü:
+// Görev `oturumlar/VERI-ICERIK-GOREV.md` bu dosyaya H-0020/21/22/23 için dört
+// yeni kart istiyordu; ölçünce ÜÇÜ ZATEN BURADA olduğu görüldü —
+// `kardes-katli-karsilastirmali` (H-0020), `siyasi-evlilikler` (H-0021+22
+// birleşik), `kadinlar-saltanati` (H-0023). Tekrar yazılmadı, mükerrer
+// kart açılmadı. Ayrıca üç `kaynak:` alanı curl ile sınandı (CLAUDE.md §4
+// 302 testi): `ekberiyet`, `despina-hatun`, `hanedan` ÖLÜ çıktı → sırasıyla
+// `ahmed-i`, [kaldırıldı — canlı karşılığı bulunamadı], `al-i-osman` ile
+// değiştirildi. Ayrıntı: `oturumlar/VERI-ICERIK-ILERLEME.md`.
+//
 // 🔴 DOSYA ADI — KOORDİNATÖR `olaylar_ek15.js` DEDİ, ORASI YANLIŞ OLURDU
 // ---------------------------------------------------------------------------
 // Şartname (`MERAK.md` §168) açıkça `data/merak.js` diyor ve ÖLÇTÜM: arayüz
@@ -96,7 +106,7 @@ window.MERAK = [
   ],
   baglanti:["1477-01-01","1513-04-24","1553-10-05","1562-07-23","1603-12-23"],
   kesinlik:"tartismali",
-  kaynak:"TDV: KANUNNÂME · SANCAĞA ÇIKMA · EKBERİYET" },
+  kaynak:"TDV: KANUNNÂME · SANCAĞA ÇIKMA · AHMED I" },
 
 { id:"siyasi-evlilikler", tur:"merak",
   soru:"Osmanlı hanedanında evlilik ve çok eşlilik nasıl bir kurumdu?",
@@ -111,7 +121,7 @@ window.MERAK = [
   ],
   baglanti:["1381-01-01","1390-01-15","1534-01-01"],
   kesinlik:"tartismali",
-  kaynak:"TDV: HÂNEDAN · HÜRREM SULTAN · DESPİNA HATUN" },
+  kaynak:"TDV: ÂL-İ OSMÂN · HÜRREM SULTAN" },
 
 { id:"kadinlar-saltanati", tur:"merak",
   soru:"\"Kadınlar saltanatı\" gerçek bir yönetim biçimi miydi?",
