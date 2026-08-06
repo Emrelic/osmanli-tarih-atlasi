@@ -4610,3 +4610,77 @@ satırı kaçırdı), ben burada.
 📌 Ve düzeltmeyi heredoc'la yazarken `\n` gerçek satır sonuna dönüştü —
 `CLAUDE.md §11`in *"sed/heredoc ile düzeltme yapma, scratchpad'e betik yaz"*
 uyarısı, bugün **dördüncü** kez. Edit aracıyla düzeltildi.
+
+---
+---
+
+# `§85`İN BANDI ÖLÇÜLDÜ — doğrulamanın kendi payı
+### 6 Ağustos 2026 · koordinatörün kabul ettiği teklif
+
+Koordinatör `§85`i doğrularken *"benim formülüm düz shoelace + tek
+`cos(lat)`, motorunki geodezik; enlemce uzun gövdelerde payım büyüyor"*
+diye işaretlemişti ve bandı **ölçmemişti.** Ölçüldü.
+
+## ① ÖNCE FORMÜLÜ YENİDEN KURDUM — ve onun sayılarını ÜRETTİ
+Aynı poligonlara iki formül uygulandı:
+```
+A  düz shoelace + TEK cos(ortalama enlem)     ← koordinatörün yöntemi
+B  küresel fazla (spherical excess)           ← benim yöntemim
+```
+🟢 **A, koordinatörün dört çıpasını %0,2 içinde yeniden üretti:**
+```
+              KOORDİNATÖR      BENİM A       fark
+rusya 1900     19.030.594    18.987.907     %0,2
+rusya 1700     11.739.103    11.712.771     %0,2
+qing  1700      7.133.932     7.117.931     %0,2
+ming  1500      5.204.260     5.192.586     %0,2
+```
+⇒ Yöntemini doğru modelledim; ölçtüğüm band **gerçek band.**
+
+## ② BAND — on gövde
+```
+kimlik          tarih    A shoelace    B küresel      band   enlem aralığı
+memluk           1500     1.629.691    1.628.249     +0,1%   14–40°
+safevi           1700     2.427.560    2.431.173     -0,1%   25–44°
+mogulistan       1500     2.065.032    2.046.556     +0,9%   32–51°
+rusya            1900    18.987.907   19.316.502     -1,7%   36–82°
+lehistan         1500     1.109.385    1.058.626     +4,8%   48–58°
+ming-hanedani    1500     5.192.586    4.940.880     +5,1%   18–46°
+qing-hanedani    1700     7.117.931    6.747.454     +5,5%   18–59°
+cungar           1700     2.037.765    1.922.443     +6,0%   36–56°
+rusya            1700    11.712.771   12.800.002     -8,5%   43–81°
+rusya            1500     1.517.637    1.675.400     -9,4%   52–70°
+──────────────────────────────────────────────────────────────────
+BAND: medyan %5,1 · en büyük %9,4
+```
+
+## ③ BANDIN YAPISI — iki desen, ikisi de açıklanabilir
+```
+① İŞARET ENLEME BAĞLI
+   alçak-orta enlem (memlûk · safevî · ming · qing)  →  A FAZLA gösteriyor
+   yüksek enlem     (rusya 1500 · 1700)              →  A EKSİK gösteriyor
+   Sebep: tek `cos(ortalama enlem)`, halkanın alt kenarında gerçek
+   `cos`tan KÜÇÜK, üst kenarında BÜYÜK; net etki halkanın hangi yarısının
+   daha geniş olduğuna bağlı.
+② BÜYÜKLÜK ENLEM AÇIKLIĞINA BAĞLI — ama halka bazında
+   `memluk` 14-40° %0,1  ·  `ming` 18-46° %5,1
+   İkisi de geniş aralıklı; fark PARÇALANMADA: tek `cos` her HALKAYA
+   ayrı uygulanıyor, bir gövde çok sayıda küçük halkadan oluşuyorsa
+   yaklaşım halka başına iyi çalışıyor.
+```
+⇒ **Basit kural:** enlemce uzun ve az parçalı gövdelerde band büyür.
+
+## ④ `§85`E ÖNERİLEN CÜMLE
+> Bu doğrulamada kullanılan alan formülü (düz shoelace + tek `cos`) motorun
+> geodezik alanından **medyan %5, azamî %9,4** sapar; sapma enlemce uzun ve
+> az parçalı gövdelerde büyür ve **yüksek enlemde işaret değiştirir.**
+> ⇒ `§85`in *"yapısal okuma doğrulandı, birebir km² doğrulanmadı"* ayrımı
+> **sayıyla** karşılanmıştır: birebir km² için tolerans **±%10**.
+
+📌 Ve `§85` böylece kendi kendine üçüncü kez uygulanmış oluyor:
+```
+① ölçümün bandı yazıldı        (benim ±%15 örnekleme payım)
+② doğrulamanın bandı işaretlendi (koordinatör: "formülüm geodezik değil")
+③ o bandın kendisi ÖLÇÜLDÜ      (bu tur: %5,1 medyan · %9,4 azamî)
+```
+Üç kademe de artık sayılı. **Bir daha "yaklaşık" demeye gerek yok.**
