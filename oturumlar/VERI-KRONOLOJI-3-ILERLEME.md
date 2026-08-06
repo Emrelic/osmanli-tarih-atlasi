@@ -1,6 +1,80 @@
 # VERİ KRONOLOJİ 3 — ilerleme
 
-> 7 Ağustos 2026 · Sonnet · Değişmez 2t borcu: 59 → **41 ✓** (tavan 49) — HEDEF KARŞILANDI, marjla
+> 7 Ağustos 2026 · Sonnet · Değişmez 2t borcu: 59 → **41-42 ✓** (tavan 49) — HEDEF KARŞILANDI, marjla
+> Kapanış: koordinatör onayladı, "dur" dedi — kalan boşluklar yapısal, etiketle kapanmaz.
+
+## 🔴 DEVİR — koordinatöre, oturum kapanırken
+
+### ① 18 DÜZELTME — madde, dosya, tek cümlelik gerekçe
+
+| Tarih | Madde | Gerekçe (tek cümle) |
+|---|---|---|
+| 1362-03 | I. Murad tahta çıktı | Cülûs — hükümdar değişimi, toprak değil |
+| 1362-09-01 | Rumeli Beylerbeyliği kuruldu | İdarî yeniden yapılanma, yeni toprak yok |
+| 1400-08-01 | Timur Sivas'ı yerle bir etti | Sivas verisi 1402-07-28'e kadar kesintisiz Osmanlı — katliam sahiplik değiştirmedi |
+| 1853-11-30 | Sinop Baskını | Sinop verisi 1461'den 1923'e kesintisiz Osmanlı — deniz baskını sahiplik değiştirmedi |
+| 1827-10 | Navarin baskını | Mora/Ege'de Ekim 1827 civarında hiçbir kırılma yok — deniz savaşı sınır oynatmadı |
+| 1839-06-24 | Nizip Muharebesi | Halep/Şam'da Kavalalı dönemi hiç modellenmemiş, savaş kendisi sınır oynatmıyor |
+| 1856-02-18 | Islahat Fermanı | Reform fermanı, toprak iddiası yok |
+| 1908-07-23 | II. Meşrutiyet'in ilanı | Reform/anayasa, toprak iddiası yok |
+| 1804-02-14 | Birinci Sırp İsyanı'nın başlaması | Maddenin kendi metni: "Sırp kuvvetleri 1806'da Belgrad'ı ele geçirdi" — bu yalnız başlangıç |
+| 1606-11-11 | Zitvatorok Antlaşması | Maddenin kendi metni: "toprak kaybı yok denecek kadar azdı" |
+| 1883-06-08 | Mersâ Sözleşmesi | Dosyadaki L) yorumu: gerçek devir 1881 Bardo'da (ayrı, zaten eşleşen madde) |
+| 1862-02-21 | Romanya adını alması | Bükreş verisi 1462→1878 kesintisiz vasal — 1862 yalnız isim değişikliği |
+| 1911-10-08/09/16/21, 1911-11-05 | Trablusgarp'ın 5 maddesi | Askerî işgal, hukukî devir değil — koordinatör onayı, harita 1912 Uşi'yi esas alıyor ve bu doğru |
+| 1878-03-03 | Ayastefanos Antlaşması | Maddenin kendi metni: "uygulanmadan dört ay içinde Berlin'de yeniden düzenlendi" |
+
+### ② YAPISAL BOŞLUKLAR — etiketle kapanmaz, veri işi (koordinatörün kuyruğu)
+
+| Boşluk | Etkilediği madde sayısı | Niçin etiketle kapanmaz |
+|---|---|---|
+| **Tunus 1569/1573 gidiş-gelişi** | 2 madde (Uluç Ali fethi, Don Juan geri alışı) | Tunus kaydı 1535-1574 arasını tek parça "hafsi" gösteriyor; iki gerçek devir arada hiç yok — nokta/dönem eklenmeli |
+| **İran 1501-1736** (CLAUDE.md §3.5'in bilinen boşluğu) | en az 3 madde (Mukāsemenâme 1724, Hemedan Antlaşması 1727, Güney Kafkasya-İran 1736) | Tebriz/Revan/Hemedan kayıtları Osmanlı'nın 1724-1730 batı İran işgalini hiç modellemiyor |
+| **Kavalalı Mısır'ın Suriye işgali 1832-1840** | en az 1 madde (Nizip, zaten (A) yapıldı ama kök boşluk kalıyor) | Halep/Şam'da bu dönem için `v:`/`isg:` hiç yok — birden fazla şehri ilgilendiren büyük bir boşluk |
+| **Fetret 1402-1413** | en az 3 madde (İzmir, Bursa, Yenişehir Ovası) | Atlasta bu aralık hiç Osmanlı gövdesi yok — modellenmemiş dönem, koordinatör onayladı |
+| **İbrâil'in geçici Rus işgalleri (1809, 1828)** | 2 madde | Ne `s:`/`d:` ne `isg:` var — harita tek bir kalıcı geçiş (1829-09-14) gösteriyor, iki geçici işgal hiç yok |
+
+### ③ ALET KUSURU — `isg:` kategorisi `degismez2()`'nin taramasına hiç girmiyor
+
+`degismez2()` yalnız `("d","v")` ve `("s",)` ile çağrılıyor; `isg:` (işgal
+örtüsü) alanı hiçbir yerde sorulmuyor. **İki bağımsız vakayla doğrulandı:**
+Böğürdelen (1788, isg: birebir eşleşiyor) ve Kahire (1798, isg: birebir
+eşleşiyor) — ikisi de haritada doğru veriye sahip ama denetim görmüyor.
+`arac/denetle.py` — koordinatörün dosyası.
+
+### ④ KUYRUK ARTEFAKTI — gerçek kusur değil
+
+Safi/Azemmûr/Mazagan/Arzila'nın 4 maddesi `yerlesimler_ek3.js`'te birebir
+eşleşen kırılmaya sahip ama bu dosya `KUYRUK_DOSYALARI`da olduğu için
+`2t`ye giriyor. ÇAPRAZ İBERYA partisi çekirdeğe alınınca kendiliğinden
+kapanır — benim iş kapsamım değildi.
+
+### ⑤ TARİH HASSASİYETİ UYUŞMAZLIKLARI — veri var, ±30 günü aşıyor
+
+```
+1541-03-12  Agadir'in düşüşü              harita: 1541-01-01   (~70 gün)
+1554-01-01  Şehrizor'un ilhakı            harita: 1554-08-22   (~233 gün)
+1672-10-18  Bucaş Antlaşması              harita (Kamaniçe): 1672-08-27  (~52 gün)
+1422-01-01  Cüneyd Bey Aydın-ili'ne döndü harita (İzmir): 1421-08-15    (~137 gün)
+1426-01-01  Cüneyd Bey'in idamı           harita (İzmir): 1425-06-01    (~214 gün)
+1415-03-01  Konya kuşatması ve antlaşma   harita (Hamîd-ili): 1414-06-01 (~9 ay, madde HARİTADAN SONRA geliyor)
+1700-07-14  İstanbul Antlaşması — Azak    harita: 1696-07-19 (fiilî alınış)  (~4 yıl, antlaşma yalnız tescil)
+1830-08-09  Dayı Hüseyin'in sürgünü       harita (Cezayir): 1830-07-05  (~35 gün, sınırın az üstünde)
+1920-12-03  Gümrü Antlaşması              harita (Kars): 1918-05-25 (fiilî geri alış, olası 1919-20 Ermeni ara dönemi hiç yok)
+```
+Beşinde de (ve eklenen dördünde) madde ile harita muhtemelen aynı olayı
+anlatıyor, yalnız biri kaba tarihli öteki günlü. Etikete dokunmadım
+(toprak iddiası muhtemelen doğru), tarihe dokunamam (§4 yasağı).
+
+### Ayrıca not — henüz sınıflandırılmamış
+**Lugoş zaferi (1695-09-22):** "Lipova geri alındı" diyor ama ne Lipova ne
+Lugoş haritada nokta olarak var; küçük/geçici bir kazanım olabilir, karar
+için veri yok.
+
+**~38 madde hiç incelenmedi** — tahminle kapatılmadı, koordinatörün "dur"
+kararıyla burada bırakıldı.
+
+---
 
 ## 🟢 ÜÇÜNCÜ TUR — koordinatör onayıyla Trablusgarp (5) + Ayastefanos (1)
 

@@ -255,31 +255,31 @@ window.OLAYLAR_EK9 = [
 // işgali BİR YIL ÖNCE, Ekim 1911'de tamamlandı. Aradaki on iki ay `isg:` örtüsü
 // ister — düzeltme listesi merkez oturumda.
 
-{ t:"1911-10-08", k:"kayip", etiket:["toprak-kaybi","savas"],
+{ t:"1911-10-08", k:"kayip", etiket:["savas"],
   b:"Tobruk'a İtalyan çıkarması — Trablusgarp'ta ilk işgal",
   gun:"8 Ekim 1911", yer:"Tobruk, Berka (Cyrenaica)", kisiler:"—",
   d:"İtalya 29 Eylül 1911'de savaş ilân etti ve donanması 25-26 Eylülde kıyıyı abluka altına aldı. İlk kara harekâtı 8 Ekimde Tobruk'a yapıldı: küçük Osmanlı garnizonu iç bölgeye çekildi ve liman çarpışmasız işgal edildi. Tobruk, Mısır sınırına en yakın Osmanlı limanıydı; düşmesi Berka'nın doğu kanadını açtı ve İtalyan kuvvetlerinin kıyı boyunca batıya yürümesini kolaylaştırdı.",
   kaynak:"trablusgarp-savasi", duygu:["😔"] },
 
-{ t:"1911-10-09", k:"kayip", etiket:["toprak-kaybi","savas"],
+{ t:"1911-10-09", k:"kayip", etiket:["savas"],
   b:"Trablus şehrinin İtalyanlara teslim olması",
   gun:"9 Ekim 1911", yer:"Trablus (Tripoli)", kisiler:"Neşet Bey, Amiral Faravelli",
   d:"Trablus üç gün bombardımandan sonra 9 Ekim 1911'de teslim oldu. Osmanlı kuvvetleri şehri savunmak yerine Aziziye ve Garyan'a çekilerek iç bölgede direnişi örgütlemeyi seçtiler; Enver ve Mustafa Kemal beylerin katıldığı bu direniş, İtalyanları savaşın sonuna kadar kıyı şeridine hapsetti. Yani şehir düştüğü hâlde vilâyetin içi Osmanlı denetiminde kaldı — atlasta bu, taban rengi Osmanlı, üstü İtalyan taraması olarak gösterilmelidir.",
   kaynak:"trablusgarp-savasi", duygu:["😔"] },
 
-{ t:"1911-10-16", k:"kayip", etiket:["toprak-kaybi","savas"],
+{ t:"1911-10-16", k:"kayip", etiket:["savas"],
   b:"Derne'nin İtalyan çıkarmasıyla elden çıkışı",
   gun:"16 Ekim 1911", yer:"Derne, Berka", kisiler:"—",
   d:"Tobruk'tan sonra sıra Berka'nın ikinci limanı Derne'ye geldi; şehir 16 Ekim 1911'de işgal edildi. Derne çevresindeki yayla, Senûsiyye tarikatının en yoğun olduğu bölgeydi ve Şeyh Ahmed Şerîf'in cihad çağrısıyla toplanan mücahitler İtalyanları liman çevresinde kuşatılmış hâlde tuttu. İşgal şehirle sınırlı kaldı, ardalanına hiç yayılamadı.",
   kaynak:"trablusgarp-savasi", duygu:["😔"] },
 
-{ t:"1911-10-21", k:"kayip", etiket:["toprak-kaybi","savas"],
+{ t:"1911-10-21", k:"kayip", etiket:["savas"],
   b:"Bingazi'ye İtalyan çıkarması — Berka sancağının merkezinin kaybı",
   gun:"21 Ekim 1911", yer:"Bingazi", yer_id:"Bingazi", kisiler:"—",
   d:"Berka'nın merkezi Bingazi 21 Ekim 1911'de, kıyıdaki dördüncü ve en önemli çıkarmayla işgal edildi. Böylece İtalya, savaş ilânından üç hafta sonra Trablusgarp vilâyetinin bütün büyük limanlarını (Trablus, Tobruk, Derne, Bingazi) elinde tutuyordu; ama hiçbirinin ardalanına giremedi. Savaşın kalan bir yılı, kıyıdaki bu dört noktadan içeri doğru sonuçsuz hamlelerle geçti.",
   kaynak:"trablusgarp-savasi", duygu:["😔"] },
 
-{ t:"1911-11-05", k:"kayip", etiket:["toprak-kaybi","diplomasi"],
+{ t:"1911-11-05", k:"kayip", etiket:["diplomasi"],
   b:"İtalya'nın tek taraflı ilhak kararnâmesi",
   gun:"5 Kasım 1911", yer:"Roma · Trablusgarp ve Berka", kisiler:"—",
   d:"İtalya, savaş sürerken 5 Kasım 1911'de bir kararnâme çıkararak Trablusgarp ve Berka'yı ilhak ettiğini ilân etti. Osmanlı Devleti bunu tanımadı ve savaş bir yıl daha sürdü; ilhak ancak 18 Ekim 1912 Uşi Antlaşması'yla hukukî geçerlilik kazandı. Kararnâme bu yüzden haritada TABAN RENGİNİ değiştirmez — de jure sahiplik 1912'ye kadar Osmanlı'dadır, İtalyan denetimi işgal örtüsüdür.",
@@ -336,7 +336,7 @@ window.OLAYLAR_EK9 = [
 // ayrı bir madde de var (1881-12-20). Birleşik maddenin düzeltilmesi merkez
 // oturumda; bu madde işgalin tamamlanışını ekler.
 
-{ t:"1883-06-08", k:"kayip", etiket:["toprak-kaybi","antlasma","diplomasi"],
+{ t:"1883-06-08", k:"kayip", etiket:["antlasma","diplomasi"],
   b:"Mersâ (La Marsa) Sözleşmesi — Tunus himayesinin tamamlanması",
   gun:"8 Haziran 1883", yer:"Mersâ (La Marsa), Tunus", kisiler:"Ali Bey, Paul Cambon",
   d:"12 Mayıs 1881 tarihli Bardo (Kasrüssaîd) Antlaşması Tunus'un dış işlerini Fransa'ya bırakmış ama iç idareyi beye bırakmıştı; iki yıl sonra 8 Haziran 1883'te imzalanan Mersâ Sözleşmesi malî ve idarî reformları da Fransız denetimine verdi ve himayeyi tamamladı. Osmanlı Devleti Tunus üzerindeki hükümranlık iddiasını sürdürdü ve işgali hiçbir zaman tanımadı, ama fiilî bir karşı adım atamadı. Böylece 1574'ten beri Osmanlı ocaklığı olan Tunus resmen Fransız himayesine girdi.",
