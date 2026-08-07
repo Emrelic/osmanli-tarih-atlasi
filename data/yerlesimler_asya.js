@@ -3396,7 +3396,7 @@ window.YERLESIMLER_ASYA = [
 // Nguyễn beyleri o yıl Gia Định'i kurdu. Fransız donanması 17 Şubat
 // 1859'da aldı ve Cochinchine sömürgesinin merkezi oldu.
 { ad:"Saygon (Gia Định)", tur:"liman", lat:10.8230, lon:106.6300, g:2, k:0, d:[],
-  s:[{f:"1281-01-01", t:"1698-01-01", d:"angkor-kmer"},
+  s:[{f:"1281-01-01", t:"1431-01-01", d:"angkor-kmer"},{f:"1431-01-01", t:"1698-01-01", d:"kamboc-kralligi"},
      {f:"1698-01-01", t:"1777-01-01", d:"nguyen-beyligi"},
      {f:"1777-01-01", t:"1788-09-07", d:"tay-son"},
      {f:"1788-09-07", t:"1802-06-01", d:"nguyen-beyligi"},
@@ -3553,7 +3553,7 @@ window.YERLESIMLER_ASYA = [
 { ad:"Surabaya", tur:"liman", lat:-7.2570, lon:112.7520, g:2, k:0, d:[],
   s:[{f:"1281-01-01", t:"1292-01-01", d:"singhasari"},
      {f:"1292-01-01", t:"1527-01-01", d:"majapahit"},
-     {f:"1527-01-01", t:"1625-01-01", d:"demak"},
+     {f:"1527-01-01", t:"1587-01-01", d:"demak"},{f:"1587-01-01", t:"1625-01-01", d:"mataram-sultanligi"},
      {f:"1625-01-01", t:"1743-11-11", d:"mataram-sultanligi"},
      {f:"1743-11-11", t:"1811-08-18", d:"hollanda-dogu-hint"},
      {f:"1811-08-18", t:"1816-08-19", d:"ingiltere"},
