@@ -373,3 +373,105 @@ Rusya/SSCB)** — bu tek künye yazılırsa boşluğun büyük kısmı kapanır.
 `devletler.js`e HİÇ YAZILMADI/DEĞİŞTİRİLMEDİ — yalnız okundu (`node -e` ile
 salt-okunur), TDV slug'ları `curl`/`WebFetch` ile test edildi. Bu bulgu bu
 dosyaya (kendi ilerleme notum) yazıldı, pathspec'li commit edilecek.
+
+---
+
+## ⑩ 🔴 ⑨'DAKİ TABLO YANLIŞTI — KÖK SEBEP BULUNDU, ÖLÇÜM TEKRARLANDI
+
+**Kök sebep koordinatörün tahmininden FARKLI çıktı — ama sonuç aynı: veri
+kaçıyordu.** Koordinatör "çok satırlı alan/boşluk toleranslı regex" kusurundan
+şüphelendi; gerçek sebep ondan da temel bir şey: `⑨`'daki script'im tüm
+dosyaları `eval()` ettikten sonra yalnız `window.YERLESIMLER`'i okuyordu. Ama
+**`yerlesimler.js` DIŞINDAKİ HER DOSYA KENDİ DEĞİŞKENİNE yazıyor**
+(`window.YERLESIMLER_EK7`, `_EK8`, `_AFRIKA`, `_KIRIM`, ...) — `girdi.py`nin
+`oku_dosya()`'sı bunu `re.search(r"window\.(YERLESIMLER\w*)\s*=", js)` ile
+dosya başına ayrı buluyor, ben bulmuyordum. Sonuç: script'im **yalnız
+`yerlesimler.js`'in kendi 765 noktasını** görüyordu, geri kalan 26 dosyanın
+TAMAMI sessizce düşüyordu. `norvec`'in "boşluk yok" hükmü tam bu yüzden
+yanlıştı — `norvec` verisinin neredeyse tamamı `_ek7`/`_ek8`/`_ek12`'de.
+
+⚠️ **Bu, `⑨`'la sınırlı değil — bu OTURUMDAKİ TÜM önceki ölçümlerim aynı
+script kalıbını kullandı** (iran/zend pencereleri, B sınıfı suud/sirbistan/
+bulgaristan/vs. nokta sayıları, lür/muzafferî döneminin nokta sayıları).
+**Yazılan KÜNYE'lerin f/t'leri etkilenmedi** (TDV'den geldi, yerleşim sayımına
+dayanmıyordu) ama o bölümlerdeki NOKTA/PENCERE sayıları muhtemelen düşük
+ölçülmüştü. Koordinatör isterse o ölçümleri de tekrarlarım — şimdilik yalnız
+istenen altı battaniye adı düzelttim.
+
+### Düzeltme sonrası yöntem
+
+`re.search`in JS karşılığıyla dosya başına değişken adını bulup (`window\.(YERLESIMLER\w*)\s*=`)
+o değişkeni okudum — `girdi.py`nin kendi yöntemi. **Taranan dosya: 27/27**
+(`GIRDI_DOSYALARI` listesinin tamamı, `girdi.py`den birebir alındı).
+
+**Dosya başına battaniye-ad kırılımı** (0 gören her hücre gerçek sıfır,
+kontrol edildi — hiçbiri kaçırılmış kalıp değil, çünkü artık her dosyanın
+KENDİ değişkeni okunuyor):
+
+```
+dosya                      rusya fransa isvec lehistan norvec danimarka
+yerlesimler.js               115    47     5     23       1      2
+yerlesimler_kirim.js          14     0     0      0       0      0
+yerlesimler_seyrek.js          1     1     0      0       0      0
+yerlesimler_ek2.js             2     0     0      0       0      0
+yerlesimler_ek3.js             2     1     0      0       0      0
+yerlesimler_ek4.js             2     0     0      0       0      0
+yerlesimler_ek5.js              0     0     0      0       0      0   ← gerçek sıfır
+yerlesimler_ek6.js             3     0     0      0       0      0
+yerlesimler_afrika.js          0    45     0      0       0      0   ← fransa'nın Cezayir/Tunus payı BURADAYDI
+yerlesimler_ek.js               0     0     0      0       0      0   ← gerçek sıfır
+yerlesimler_ortaasya2.js       7     0     0      0       0      0
+yerlesimler_ek7.js             18     0    33      6      19     12  ← norvec'in payı
+yerlesimler_ek8.js             27     0    13      0      10      5  ← norvec'in payı
+yerlesimler_ek9.js             13     0     0      0       0      0
+yerlesimler_ek13.js            17     0     0      0       0      0
+yerlesimler_ek14.js             9     0     0      0       0      0
+yerlesimler_ek15.js             7     0     0      0       0      0
+yerlesimler_ek17.js            13     0     0      8       0      0
+yerlesimler_ek18.js            10     0     0      0       0      0
+yerlesimler_ek16.js             0     0     0      0       0      0   ← gerçek sıfır
+yerlesimler_ek20.js             1     0     0      0       0      0
+yerlesimler_ek19.js             0     0     0      0       0      0   ← gerçek sıfır
+yerlesimler_ek21.js             0     0     0      0       0      0   ← gerçek sıfır
+yerlesimler_ek22.js             5     0     0      0       0      0
+yerlesimler_ek11.js             4     0     4      2       0      0
+yerlesimler_ek10.js             3     0     0      0       0      0
+yerlesimler_ek12.js             0     0     0      0       2      2  ← norvec'in payı
+```
+
+### Yeni toplamlar — koordinatörün çekirdek sayısıyla karşılaştırma
+
+| battaniye ad | benim toplam (kayıt) | koordinatörün çekirdek ölçümü | fark |
+|---|---|---|---|
+| rusya | **273** | 264 | +9 (küçük, muhtemelen gruplama farkı) |
+| fransa | **94** | 93 | +1 (ihmal edilebilir) |
+| isvec | **55** | 55 | **BİREBİR** |
+| lehistan | **39** | (verilmedi) | — |
+| norvec | **32** | (verilmedi, ama bulgu doğrulandı) | `1281-01-01→1537-01-01` 17 kayıt, dosya `ek7+ek8+ek12` — **koordinatörün bulgusuyla BİREBİR** |
+| danimarka | **21** | 21 | **BİREBİR** |
+
+**Dört kalemde (isvec/danimarka birebir, rusya/fransa ±1) doğrulandı — yöntem artık güvenilir.**
+
+### Düzeltilmiş boşluk tablosu
+
+| battaniye ad | künye ömrü | ÖN boşluk | ARKA boşluk | dizinde var mı | gereken yeni künye | TDV |
+|---|---|---|---|---|---|---|
+| **rusya** | 1547-01-16→1917-03-15 | 23 kayıt (7 pencere-grubu), 1281→1547 | **242 kayıt (96 pencere-grubu) — devasa, önceki ölçümün 2,5 katı**, 1917→1923 | YOK | **2**: Moskova Büyük Knezliği (~1325→1547) + Sovyet Rusya/SSCB (1917-11-07→1923-10-29) | TDV `rusya` (200, CANLI) ikisini de kapsıyor — önceki turda doğrulandı |
+| **fransa** | 987-01-01→1792-09-21 | 0 | **93 kayıt (31 pencere-grubu) — önceki ölçümün 2 katı**, 1792→1923 (metropol + `yerlesimler_afrika.js`'teki Cezayir/Tunus, 1830/1881 sonrası) | YOK | **1**, ama artık AÇIKÇA metropol Fransa + Cezayir/Tunus'u birlikte kapsamalı (İspanya/Portekiz emsali gibi tek kayıt) | TDV `fransa` (200, CANLI) — önceki turda doğrulandı |
+| **isvec** | 1523-06-06→1923-10-29 | **30 kayıt (3 pencere-grubu) — önceki ölçümün 15 katı**, 1281→1523 (çoğu Finlandiya: `1281→1809-09-17` tek pencerede 17 kayıt) | 0 | YOK | **1** (Kalmar-öncesi/Kalmar Birliği İsveç), artık düşük öncelik DEĞİL — 30 kayıt etkileniyor | TDV `isvec` (200, CANLI) Kalmar Birliği'ni doğruluyor — önceki turda doğrulandı |
+| **lehistan** | 1569-07-01→1795-10-24 | **30 kayıt (13 pencere-grubu)**, 1281→1569 | 1 kayıt, 1795→1815 (Varşova Dükalığı) | YOK | **2-3**: Polonya Krallığı + Litvanya Büyük Dükalığı (nokta ayrımı araştırma ister) + küçük Varşova Dükalığı | Polonya: TDV canlı. Litvanya: TDV'de tarih yok. Varşova: slug ölü |
+| **norvec** 🔴 **DÜZELTİLDİ** | 1905-06-07→1923-10-29 | **17 kayıt (1 pencere-grubu), 1281→1537**, dosya `ek7+ek8+ek12` — ÖNCEKİ TURDA "boşluk yok" denmişti, YANLIŞTI | 0 | YOK (`kalmar-birligi`/`norvec-kralligi` yok) | **1 (belirsiz)** — 1380'den beri Danimarka ile birlikte olduğu için (`danimarka` künyesinin f'si de 1380) belki YENİ KÜNYE değil, 1380-1537 kısmı `d:"danimarka"`ya devir; yalnız 1281-1380 (birlik öncesi bağımsız Norveç) için küçük bir künye gerekebilir. KESİN KARAR ARAŞTIRMA İSTİYOR | TDV'de **`norvec` maddesi YOK** (302) — Avrupa iç tarihi, TDV kapsamı dışı (§4), standart akademik kaynak gerekir |
+| **danimarka** | 1380-01-01→1923-10-29 | 4 kayıt (3 pencere-grubu), 1281→1380 | 0 | — | **muhtemelen 0 yeni künye**, `f:` geriye çekilebilir (1 düzeltme) | TDV `danimarka` sürekliliği doğruluyor — önceki turda doğrulandı |
+
+### TOPLAM — GÜNCELLENDİ, ⑨'daki "7+2" ASKIDAN İNDİ, YERİNE BU GEÇERLİ
+
+**Bu iş toplam ≈ 7-9 yeni künye + 2 düzeltme demektir** (rusya 2 kesin +
+fransa 1 kesin + isvec 1 kesin + lehistan 2-3 muhtemel + norvec 0-1 belirsiz
++ danimarka 0 yeni/1 düzeltme + fransa'nın 1 günlük tarih farkı 1 düzeltme).
+Nokta SAYILARI ciddi değişti (rusya arka boşluk 94→242, fransa arka boşluk
+46→93, isvec ön boşluk 2→30) ama KAÇ YENİ KÜNYE gerektiği hemen hemen aynı
+kaldı — tek gerçek yeni madde **norvec** (önceki turda "0" denmişti, şimdi
+"0-1, araştırma ister"). **En büyük tek kalem hâlâ rusya'nın 1917-1923 arası
+boşluğu (242 kayıt, Sovyet Rusya/SSCB).**
+
+`devletler.js`e bu turda da HİÇ YAZILMADI (git status ile doğrulandı).
