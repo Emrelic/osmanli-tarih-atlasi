@@ -70,17 +70,39 @@ def _cek(ham, ad):
     return json.loads(ham[i + len("window." + ad + " = "):j].rstrip(";"))
 
 
-def _govde(parca, gi):
+def _govde(parca, gi, halka_idx=None):
     """`dnm[].g` TEK İNDİS DEĞİL, İNDİS LİSTESİDİR — gövde çok parçalı.
-    parca[i] = bir poligonun halka listesi; ilk halka dış, sonrakiler delik."""
+
+    🔴 BİÇİM DEĞİŞTİ VE BU DENETİM SESSİZCE ÖLDÜ (7 Ağustos 2026, RENK 2).
+      Eski varsayım: `parca[i]` = bir poligonun HALKA LİSTESİ, ilk halka dış.
+      Bugünkü gerçek:
+        DEVLET_PARCALAR[i]    = TEK halka, [[lat, lon], ...]
+        DEVLET_PARCA_HALKA[j] = HALKA İNDİS listesi [dış, delik, delik…]
+        dnm[].g               = DEVLET_PARCA_HALKA'yı indeksliyor (maks 16502
+                                < 16503; DEVLET_PARCALAR 17407)
+      Eski kod `halka = parca[i]` alıp `len(halka[0]) < 4` diye eliyordu;
+      yeni biçimde `halka[0]` tek bir [lat, lon] çifti, yani uzunluğu 2 ⇒
+      HER parça elendi ⇒ `aktif` her kesitte BOŞ kaldı ⇒ döngü `continue`
+      etti ⇒ ekrana "toplam DEĞEN kimlik çifti: 0" ve
+      "✓ ÇİZİLİ HARİTADA ΔE<12 DEĞEN ÇİFT YOK / Ölçülen 0, çizilen 0'dır."
+
+      📌 Yani denetim "baktım, bulamadım" demiyordu; **hiç bakmıyordu** —
+      ve tam da bunu reddeden bir cümleyi basıyordu. `renk_olc`in "sessiz
+      sıfır yasak" kuralının çıktı eksenindeki ihlali.
+      ⚠️ Tek işareti KESİT SATIRLARININ HİÇ BASILMAMASIYDI (her kesit için
+      "  1500-06-15: NNN gövde çizili …" basılmalıydı). Sessizliği fark
+      etmek için ÇIKTININ OLMAYAN KISMINA bakmak gerekiyordu.
+    """
     idx = gi if isinstance(gi, (list, tuple)) else [gi]
     pol = []
-    for i in idx:
-        halka = parca[int(i)]
-        if not halka or len(halka[0]) < 4:
+    for j in idx:
+        # halka_idx yoksa eski biçim (geriye dönük): parca[i] halka listesi
+        halkalar = ([parca[int(h)] for h in halka_idx[int(j)]]
+                    if halka_idx is not None else parca[int(j)])
+        if not halkalar or len(halkalar[0]) < 4:
             continue
         try:
-            p = Polygon(halka[0], [h for h in halka[1:] if len(h) >= 4])
+            p = Polygon(halkalar[0], [h for h in halkalar[1:] if len(h) >= 4])
             if not p.is_valid:
                 p = p.buffer(0)
             if not p.is_empty and p.area > 0:
@@ -96,6 +118,14 @@ def denetle(guncel_palet=False):
     ham = io.open(YOL, encoding="utf-8").read()
     parca = _cek(ham, "DEVLET_PARCALAR")
     harita = _cek(ham, "DEVLET_HARITA")
+    # 🔴 HALKA DİZİSİ ZORUNLU — yoksa `_govde` hiçbir gövde üretemez ve
+    #   denetim SESSİZCE "0 değen çift" der (bkz. `_govde` kütüğü).
+    #   Bulunamazsa SystemExit: ölçemeyen denetim temiz denetim değildir.
+    try:
+        halka_idx = _cek(ham, "DEVLET_PARCA_HALKA")
+    except ValueError:
+        halka_idx = None
+        print("  i DEVLET_PARCA_HALKA yok — ESKİ biçim varsayılıyor")
     print("çizili harita: %d kimlik · %d geometri parçası · %.1f MB"
           % (len(harita), len(parca), os.path.getsize(YOL) / 1e6))
 
@@ -150,7 +180,7 @@ def denetle(guncel_palet=False):
         for d in harita:
             for dn in d["dnm"]:
                 if dn["f"] <= gun < dn["t"]:
-                    g = _govde(parca, dn["g"])
+                    g = _govde(parca, dn["g"], halka_idx)
                     if g is not None and not g.is_empty:
                         aktif.append((d["id"], g))
                     break

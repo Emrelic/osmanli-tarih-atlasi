@@ -1377,3 +1377,79 @@ yüklendi**; taban şu an doğru (1800 · 299 · 1579 · 0).
 kez haritada — **Avrupa · Sibirya · Hindistan · Çin · Hindiçin · Batı
 Afrika** gövdeleri doğal hatta yaslanacak. `renk_cikti`nin ilk kez kusur
 göstermesi için en olası yer tam orası.
+
+---
+
+## ㉛ 🔴 `renk_cikti.py` ② BÖLÜMÜ SESSİZ BİR HİÇLİKTİ
+
+Çıktı ekseninin tabanını alırken yakalandı — koşunun "büyük sınavı" olacak
+nöbetçi **ölçmüyordu.**
+```
+öncesi:  toplam DEĞEN kimlik çifti: 0
+         ✓ ÇİZİLİ HARİTADA ΔE<12 DEĞEN ÇİFT YOK / Ölçülen 0, çizilen 0'dır.
+sonrası: toplam DEĞEN kimlik çifti: 653
+```
+Denetim *"baktım, bulamadım"* demiyordu — **hiç bakmıyordu**, ve tam da bunu
+reddeden cümleyi basıyordu.
+
+### Sebep — çıktı biçimi değişmiş, okuyucu izlememiş
+```
+_govde() varsayımı : parca[i] = poligonun HALKA LİSTESİ (ilk halka dış)
+bugünkü gerçek     : DEVLET_PARCALAR[i]    = TEK halka [[lat,lon],…]
+                     DEVLET_PARCA_HALKA[j] = halka İNDİS listesi
+                     dnm[].g               = HALKA dizisini indeksliyor
+```
+Eski kod `len(halka[0]) < 4` diye eliyordu; yeni biçimde `halka[0]` tek bir
+`[lat, lon]` çifti (uzunluk **2**) ⇒ her parça elendi ⇒ `aktif` her kesitte
+boş ⇒ `continue` ⇒ sıfır.
+
+### 📌 VE BU, SIFIRINCI BULGUNUN KARDEŞİ — ama daha kötüsü
+Oturumun ilk saatinde `renk_olc.py`yi diriltmiştim: `BOLGE` L şekline dönünce
+`^BOLGE\s*=\s*box\(` deseni tutmamış, araç ölmüştü. **Aynı sınıf:** okuyucu
+kaynağın *tek bir biçimine* bağlanmış, kaynak değişince koruma korumayı
+bırakmış.
+
+**Fark ve asıl ders:**
+```
+renk_olc     BAĞIRARAK öldü  (SystemExit) → iki gün fark edilmedi
+renk_cikti   SESSİZCE öldü   ("temiz")    → kim bilir kaç gün
+```
+Sabah *"gürültülü ölüm bile, dinleyen yoksa sessizdir"* yazmıştım. Bugünün
+sonunda tersi de doğrulandı: **sessiz ölüm, dinleyen olsa bile duyulmaz.**
+Gürültülü ölüm en azından koşturulduğu an belli eder; sessiz ölüm
+koşturulunca da *"temiz"* der.
+
+⚠️ **Tek işareti ÇIKTININ OLMAYAN KISMIYDI**: her kesit için
+`"1500-06-15: NNN gövde çizili …"` basılmalıydı ve hiç basılmıyordu.
+Sessizliği görmek için raporun **yok olan satırlarına** bakmak gerekti.
+📌 Bu, `CLAUDE.md §11`in onuncu kusur sınıfının (*"aletin gösterdiği ≠
+dosyada yazan"*) on birincisi: **aletin BASMADIĞI ≠ ölçtüğü.**
+
+### Onarıldı — ve hüküm doğruymuş, ama tesadüfen
+```
+1300: 115 gövde · 1400: 121 · 1500: 113 · 1550: 112
+1600: 102 · 1700:  90 · 1800:  77 · 1900:  53
+toplam DEĞEN çift 653   ·   ΔE<12 olan: 0
+```
+🟢 Çizili haritada eşik altı çift **gerçekten yok**. Ama bugüne kadar bu,
+ölçen bir denetimin değil **ölçmeyen** bir denetimin çıktısıydı.
+
+### 🟡 Ve hiç görülmemiş 10 uyarı doğdu — "SINIRDA" tablosu ilk kez doldu
+```
+isvec         ↔ rusya      ΔE 12,3 · 123,21° sınır   ← en büyük maruziyet
+ming-hanedani ↔ tibet      ΔE 14,2 ·  65,41°
+funj          ↔ habesistan ΔE 12,2 ·  40,35°
+adal          ↔ somali     ΔE 12,0 ·  27,95°
+cungar        ↔ rusya      ΔE 14,5 ·  22,85°
+fas ↔ ispanya 12,8 · buhara ↔ mogulistan 12,4 · habesistan ↔ somali 12,2
+memluk ↔ nube 12,1 · gucerat-sultanligi ↔ racput 12,4
+```
+Aracın kendi kütüğü diyordu ki *"aynı ΔE tek noktada zararsız, sınır boyunca
+ciddi"*. `isvec ↔ rusya` **123° sınır boyunca 12,3** — o kuralın en büyük
+vakası ve bugüne kadar görünmüyordu. Hiçbiri ihlal değil, ama
+**kullanıcının "ayırt edemiyorum" diyeceği en olası yerler bunlar.**
+
+### TABAN ARTIK GERÇEK
+`denetim/renk-cikti-taban.txt` → 653 çift · 0 ihlal · 10 sınırda.
+Koşudan sonraki karşılaştırma **ilk kez anlamlı olacak**, çünkü taban ilk kez
+gerçek bir ölçüm.

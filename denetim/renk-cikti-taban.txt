@@ -1,0 +1,46 @@
+çizili harita: 238 kimlik · 17407 geometri parçası · 16.1 MB
+
+==========================================================================
+① HARİTA GÜNCEL Mİ — çizilen renk = renkler.py'deki renk mi
+==========================================================================
+  🔴 1 kimlik ESKİ renkle çizili — harita renkler.py'den GERİDE.
+     cohor-sultanligi     çizilen #7e723c · beyan #eab463
+  ⇒ Yeni bir üretim koşusu gerekiyor.
+
+  BOYALAR'da olup ÇİZİLMEYEN: 61 (gövdesiz kimlikler)
+
+==========================================================================
+② ÇİZİLEN GÖVDELER — hangileri DEĞİYOR, ΔE < 12 var mı
+   (ΔE kaynağı: haritanın KENDİ yazdığı renk)
+==========================================================================
+  1300-06-15: 115 gövde çizili · ΔE<12 değen çift 0
+  1400-06-15: 121 gövde çizili · ΔE<12 değen çift 0
+  1500-06-15: 113 gövde çizili · ΔE<12 değen çift 0
+  1550-06-15: 112 gövde çizili · ΔE<12 değen çift 0
+  1600-06-15: 102 gövde çizili · ΔE<12 değen çift 0
+  1700-06-15:  90 gövde çizili · ΔE<12 değen çift 0
+  1800-06-15:  77 gövde çizili · ΔE<12 değen çift 0
+  1900-06-15:  53 gövde çizili · ΔE<12 değen çift 0
+
+  toplam DEĞEN kimlik çifti: 653
+
+==========================================================================
+  ⚠️ SINIRDA — eşiği geçiyor ama SINIR UZUNLUĞU büyük
+     (ΔE < 16 ve paylaşılan sınır ≥ 5°; ihlal DEĞİL, öncelik uyarısı)
+==========================================================================
+     a                   b                       ΔE   tanık    sınır°
+     isvec               rusya                 12.3       8    123.21
+     ming-hanedani       tibet                 14.2       4     65.41
+     funj                habesistan            12.2       4     40.35
+     adal                somali                12.0       7     27.95
+     fas                 ispanya               12.8       6     19.83
+     memluk              nube                  12.1       3     17.04
+     habesistan          somali                12.2       1     17.08
+     buhara              mogulistan            12.4       3     17.44
+     cungar              rusya                 14.5       1     22.85
+     gucerat-sultanligi  racput                12.4       2     14.31
+
+==========================================================================
+  ✓ ÇİZİLİ HARİTADA ΔE<12 DEĞEN ÇİFT YOK
+    Ölçülen 0, çizilen 0'dır.
+==========================================================================
