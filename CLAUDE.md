@@ -663,6 +663,60 @@ Kendi `oturumlar/` dosyanı commit etmen işi teslim etmez. **Teslim
 mesajdır.** Dosyaya yazıp susan oturum, hiç çalışmamış oturumla aynı
 görünür.
 
+### ⑥ 🔴 AKSAKLIK RAPORU BEKLEMEZ — iş bitmeden bildirilir
+
+**Bir engel, çelişki ya da koordinatörün bilmesi gereken bir şey
+çıktığında, işin bitmesini BEKLEME.** Hemen bildir ya da sor.
+
+```
+BEKLEYEBİLİR      normal bulgular · ölçüm sonuçları · tamamlanan kalemler
+                  → gün içinde kalem kalem, biriktirmeden
+
+BEKLEYEMEZ        · başka bir oturumun dosyasına ihtiyacın varsa
+                  · kaynaklar ÇELİŞİYORSA (hangisini seçeceğine sen karar verme)
+                  · şartname yanlış/eksik çıktıysa
+                  · beklenenden ÇOK farklı bir sayı ölçtüysen
+                  · bir kalem senin yetkin dışına taşıyorsa
+                  · iş tahmininden ÇOK uzun sürecekse
+                  → BEKLETMEDEN mesaj at
+```
+
+**Niçin:** koordinatör başka oturumları senin bitişine göre sıraya diziyor.
+Bir engeli sonuna saklarsan, o süre boyunca **yanlış plan üzerine iş
+dağıtılır.** Yaşanmış: bir oturum şartnamesindeki yanlış sayıyla çalıştı,
+koordinatör düzeltmeyi sonra gönderdi ve üç bölüm iptal oldu — daha erken
+sorulsaydı hiç yazılmayacaktı.
+
+⚠️ **"Sormak" zayıflık değil, protokoldür.** Karar veremediğin bir yerde
+tahmin etmek, sormaktan **kat kat** pahalıdır: yanlış tahmin veriye girer
+ve sonra kimse onun tahmin olduğunu bilmez.
+
+### ⑦ İŞ AKIŞININ TAM ÇEMBERİ — altı durak
+
+```
+① GÖREV        koordinatör `oturumlar/<AD>.md` yazar; şartname AÇILIŞ
+               PROMPT'udur. Beş alan: AD · MODEL · DİZİN · ŞARTNAME · ClaudEmre
+② AÇILIŞ       işçi: "açıldım, brifingi okudum, şu dosyalar bende"
+               (bu mesaj olmadan koordinatör dosyayı ikinci oturuma verebilir)
+③ GİDİŞAT      kalem kalem bildir · aksaklığı BEKLETMEDEN bildir (§⑥)
+④ SORULMA      "ne oldu bizim iş?" gelince HEMEN:
+               "iş üstündeyim · şu aşamadayım · ~şu kadar kaldı"
+⑤ TESLİM       iş bitince RAPOR — sayıyla. "Bitirdim" değil,
+               "24 → 7, şu yedisi şu sebeple kaldı"
+⑥ KAPANIŞ      tek kullanımlık oturumsan: raporu gönderdikten SONRA kapan.
+               Sende kalan hiçbir bilgi kurtarılamaz — "sonra yazarım" YOK
+```
+
+⚠️ **Koordinatörün tarafı da bağlıdır:** iş verdiği her oturumu bekleyen
+olarak kaydeder · her tur bekleyenlere tek tek bakar · ses yoksa **sorar** ·
+ölü ilan etmeden **önce gerçekten çalışıp çalışmadığına bakar** · ve bir
+oturumun sorusuna karşılık bir şey yaptıysa **ona haber verir.**
+
+📌 Ve şu ayrım koordinatör için hayatidir: **duran bir oturum ölü değildir,
+cevabı sıkışmış olabilir.** `list_sessions` *"çalışmıyor"* diyorsa bu doğru
+olabilir ama sebebi *"öldü"* değil *"işini bitirdi ve raporu iletemedi"*
+olabilir. **Ölçüm doğru, çıkarım yanlış** — bu projede yaşandı.
+
 ---
 
 ## 8. Veri biçimleri
