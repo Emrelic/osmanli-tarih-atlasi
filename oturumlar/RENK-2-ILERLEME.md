@@ -1264,3 +1264,53 @@ Haritada renk yüzünden boyanmayan tek bir pencere kalmadı.
 palette yok. Bugün veride 0 pencereleri var, ama `gurcistan-demokratik-
 cumhuriyeti`nin verisi indiğinde Kafkasya'nın 1918-1921 üçlüsü tamamlanacak
 ve o ikisi gerekecek. Koordinatöre bildirildi.
+
+---
+
+## ㉙ KİLİT — taban alındı, Kafkas üçlüsü hazırlandı
+
+🔒 `renkler.py` donmuş; son yazım koşudan önce. Kilit boyunca yalnız
+`denetim/` ve `oturumlar/`a yazıldı.
+
+### ⚠️ ÖNCE BİR AYRIM — koşu hangi nöbetçiyi vuracak
+Koordinatör *"bu koşu senin 'palet verinin fonksiyonudur' kuralının en
+büyük sınavı olacak"* dedi. Doğru, **ama sınav `renk_olc`'de değil
+`renk_cikti`'de:**
+```
+renk_olc    komşuluğu NOKTALARDAN kurar (Voronoi + dönem örtüşmesi)
+            ⇒ 157 nehir · 163 engel poligonu bunu ETKİLEMEZ.
+            Nokta kümesi değişmedikçe sonucu da değişmez.
+renk_cikti  ÇİZİLİ gövdelerin birbirine değmesine bakar
+            ⇒ nehirler ve engeller gövde şeklini DEĞİŞTİRİR
+            ⇒ yeni değen çift buradan çıkar.
+```
+📌 Bugünkü üç çakışma (`cungar↔buhara` · `norvec↔portekiz` · `cohor↔kamboc`)
+**nokta/dönem** değişiminden doğmuştu, yani `renk_olc`de göründü. Bu koşu
+**geometri** değiştiriyor — beklenen kusur sınıfı farklı.
+⇒ Koşudan sonra **ikisini de** koşacağım ve farkı ayrı ayrı bildireceğim.
+
+### Taban kaydedildi (koşu öncesi)
+```
+canlı 1800 nokta · 299 kimlik · renkli komşu çifti 1579
+renk_olc: görünmez 0 · çakışma 0 · aynı-hex 0
+```
+Koşudan sonra bu sayılarla karşılaştırılacak — *"0 çakışma"* demek yetmez,
+**hangi çiftlerin doğduğunu** görmek gerekir.
+
+### 🟡 KAFKAS ÜÇLÜSÜ — ölçüldü, yazılmadı
+`denetim/hazir-renk2-kafkas-uclusu.txt`
+```
+gurcistan-demokratik-cumhuriyeti  #90eab1   (YAZILI)
+ermenistan                        #1221ae   pay 20,5
+azerbaycan                        #eacf75   pay 20,7
+ermenistan ↔ azerbaycan 61,5 · ↔ GDC 57,0 / 21,1
+```
+Üçü **birlikte** ölçüldü: GDC verisi tek başına inerse komşuları `rusya`
+görünür ve 1918-1921 Kafkasyası yanlış boyanır.
+
+📌 Ve burada **TAVAN kuralı** uygulandı (küçük parti ⇒ tam karşılıklı
+ayırma): üç kimlik için havuz bol, bedeli yok.
+
+⚠️ İkisinin de künyesi yok; künye gelince **pencereler künyeden yeniden
+ölçülmeli** — yukarıdaki tarihler standart akademik referanstan, künyeden
+değil. (`darfur` 1603→1695 vakası: kendi ölçtüğün sayı da bayatlar.)

@@ -1,0 +1,35 @@
+// RENK 2 — KAFKAS ÜÇLÜSÜ  ·  7 Ağustos 2026 · KİLİT SÜRESİNCE hazırlandı
+// ==========================================================================
+// renkler.py KİLİTLİ (üretim koşusu sürüyor) -- yazılmadı, ölçüldü.
+// Kilit kalkınca:
+//   py arac/renk_olc.py --dogrula denetim/hazir-renk2-kafkas-uclusu.txt
+// ==========================================================================
+//
+// NIÇIN ÜÇÜ BİRLİKTE: `gurcistan-demokratik-cumhuriyeti` YAZILDI (#90eab1)
+// ama `ermenistan` ve `azerbaycan` palette YOK. GDC verisi TEK BAŞINA
+// inerse komşuları `rusya` görünür ve 1918-1921 Kafkasyası YANLIŞ boyanır.
+// Üçü ayrı ayrı ölçülemez -- `renk_olc.py:30`un uyardığı hata budur.
+//
+// ÖLÇÜM (kimliklerin veride 0 penceresi var; çekirdek noktanın peteğinden):
+//   ermenistan  [Revan  1 km]  komşu: kacar · rusya  · 600 km'de 20 kimlik
+//   azerbaycan  [Bakü   4 km]  komşu: kacar · rusya  · 600 km'de 15 kimlik
+//   pencere: 1918-05-28 → 1920-12-02 / 1920-04-28
+//
+// AYRIM -- üçü de birbirinin engeli sayıldı (küçük parti ⇒ TAVAN kuralı):
+//   ermenistan ↔ azerbaycan   ΔE 61,5
+//   ermenistan ↔ GDC          ΔE 57,0
+//   azerbaycan ↔ GDC          ΔE 21,1
+//   pay: ermenistan 20,5 · azerbaycan 20,7
+//   C*: %71 ve %72 -- ikisi de paletin bandında
+ermenistan #1221ae
+azerbaycan #eacf75
+
+// ⚠️ KÜNYE: ikisinin de künyesi YOK (337 kayıt). VERİ DEVLET yazacak.
+//    Künye gelince pencereler KÜNYEDEN yeniden ölçülmeli (B10) -- yukarıdaki
+//    tarihler standart akademik referanstan, künyeden değil.
+//
+// ⚠️ VE KOŞUDAN SONRA YENİDEN SINANMALI: bu koşu 157 nehir + 163 engel
+//    poligonu getiriyor, yani ÇİZİLİ gövdelerin şekli değişecek. `renk_olc`
+//    nokta tabanlı olduğu için oynamaz, ama `renk_cikti` (çizili gövdeler)
+//    yeni değen çiftler gösterebilir. "Palet verinin fonksiyonudur" kuralının
+//    en büyük sınavı bu koşu olacak.
