@@ -1,0 +1,43 @@
+// RENK 2 · 7 Agustos 2026 · KILIT SURESINCE hazirlandi
+// renkler.py'ye YAZILMADI -- kosu surerken parmak izi kirilir.
+// Kilit kalkinca uygulanip: py arac/renk_olc.py --dogrula denetim/oneri-renk2-kirk-kilitte.txt
+bengal-sultanligi #e4a8d2
+hanthawaddy #e48a90
+haydarabad-nizam #de6c48
+bengal-nevabligi #1836c6
+fransiz-cinhindi #1e8ae4
+san-fan #2ae4d2
+tay-son #3018a2
+laos-kralliklari #96e490
+karnatik #e4e484
+cammu-kesmir #2472e4
+seylan-sinhala #1e7ee4
+avad #3c124e
+cunagadh #6c1896
+cavnpur-sultanligi #5490de
+pagan #3c3c18
+sukhothai #5a189c
+bahavelpur #e472e4
+kocin #e472b4
+sarawak-brooke #1e72e4
+kenmu #deaed2
+dashun #e49078
+tonburi #1ee4de
+bhopal #e478e4
+pingnan #e4967e
+madurai-sultanligi #18722a
+tran-hanedani #e48ad8
+hoysala #1e54e4
+yogyakarta #1e78e4
+bharatpur-cat #d87e42
+samudra-pasai #e4844e
+yadava #3c181e
+kakatiya #185490
+singhasari #d872e4
+ho-hanedani #481212
+multan-langah #90de8a
+pandya #1ed8e4
+ainu #1818a2
+sunda-pajajaran #e49c54
+taiping #2454e4
+surakarta #9ce490

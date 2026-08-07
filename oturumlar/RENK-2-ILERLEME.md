@@ -912,3 +912,71 @@ renk_olc     görünmez 0 · çakışma 0 · aynı-hex 0     ✓
 🟡 ryazan     renk hazır ama NOKTA DÖNEMLERİ bekliyor (PETEK/NOKTA)
    40 renksiz kimlik — bengal-sultanligi 22 · kenmu 17 · fransiz-cinhindi 16
 ```
+
+---
+
+## ㉑ KİLİT SÜRESİNCE — kalan 40 kimlik ölçüldü, YAZILMADI
+
+🔒 `arac/renkler.py` **17:03'ten beri kilitli** (koşu sürüyor). Son yazımım
+16:54:23, koşu ondan sonra başladı — dosya donmuş, dokunmadım. Ölçüm
+salt-okunur yapıldı; öneri `denetim/oneri-renk2-kirk-kilitte.txt`e bırakıldı.
+
+```
+renksiz kimlik 40 · toplam 238 pencere · hiçbirinin künyesi yok
+çözülen 40/40 · en dar pay 19,1 · mevcut paletle çakışma 0
+```
+Bunların veride penceresi **var**, yani `komsuluk()` doğrudan ölçüyor —
+önceki partilerin "0 pencere" zorluğu burada yok.
+
+### 🔴 VE BU PARTİ, KENDİ KURALIMI İKİ KEZ SINADI
+
+**① tur — yalnız komşular engel sayıldı. Kendi kuralımın ihlali çıktı:**
+```
+bengal-sultanligi #e4a8d2  ↔  bengal-nevabligi #deaed2   AYNI PEMBE
+   aynı bölge · ARDIŞIK (1338-1592 → 1717-1764) · eşzamanlı DEĞİL
+ve yedi ayrı kimlik #1e7xe4 civarında AYNI MAVİ
+```
+Tam olarak bir önceki kalemde (`kutlughanli ↔ muzafferi`) bulduğum tuzak —
+ve onu bulan oturum, aynı gün tekrar düştü. 📌 **Bir dersi YAZMAK, onu
+uygulamak değildir.** Kural `renkler.py`ye girmişti ama ölçüm betiğine
+girmemişti.
+
+**② tur — kırkını TAM KARŞILIKLI ayırdım. Bu da yanlıştı, ölçüldü:**
+```
+çözülen 29/40 · onbiri ÇÖZÜLEMEDİ
+```
+Ve yalnız pratik olarak değil, **tasarım olarak** yanlış. `renkler.py`
+başlığı: *"bir rengi birden çok devletin paylaşması sorun değildir — yeter
+ki o devletler tarih boyunca hiç komşu olmasın."* Tam ayırma, paletin
+kendi paylaşım ilkesini iptal ediyordu.
+
+**③ tur — DOĞRU ÖLÇÜT: COĞRAFÎ YAKINLIK.** Ve projenin **kendi eşiği**
+zaten var: `renk_olc.AYNI_HEX_ESIK_KM = 600` (türetimi orada yazılı —
+ateşlemesi gereken çift 312 km'de, susması gereken en yakın meşru çift
+1.232 km'de, geometrik orta ≈620).
+```
+780 ikili ölçüldü · 94'ü 600 km'den yakın → karşılıklı engel
+686'sı uzak → renk paylaşabilirler, ekranda yan yana gelmezler
+sonuç: 40/40 · 94 yakın çiftin ESİĞİN ALTINDA olanı: 0
+bengal çifti artık ΔE 35,0
+```
+
+📌 **Üç turun dersi tek cümle:** eşzamanlılık *komşuluk* için doğru ölçüt,
+**okunabilirlik** için yakınlık gerekiyor — ve "hepsini ayır" da bir ölçüt
+değil, ölçütten kaçış. Aracın içinde doğru eşik zaten duruyordu; onu
+`ayni_hex()`ten alıp seçime taşımak yetti.
+
+### UYGULAMA — kilit kalkınca
+```bash
+# renkler.py'ye 40 satır, sonra:
+py arac/renk_olc.py --dogrula denetim/oneri-renk2-kirk-kilitte.txt
+```
+⚠️ Kırkının da **künyesi yok** — renk deliği kapatır ama dizin penceresinde
+karşılığı olmaz. Künyeler VERİ DEVLET'te.
+
+### En yüklü on kalem
+```
+bengal-sultanligi 22 · kenmu 17 · fransiz-cinhindi 16 · haydarabad-nizam 15
+bengal-nevabligi 13 · san-fan 13 · yadava 12 · dashun 12 · avad 9 ·
+cavnpur-sultanligi 8
+```
