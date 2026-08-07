@@ -980,3 +980,76 @@ bengal-sultanligi 22 · kenmu 17 · fransiz-cinhindi 16 · haydarabad-nizam 15
 bengal-nevabligi 13 · san-fan 13 · yadava 12 · dashun 12 · avad 9 ·
 cavnpur-sultanligi 8
 ```
+
+---
+
+## ㉒ AFRİKA BOYNUZU / SUDAN — dört kimlik ölçüldü, YAZILMADI
+
+🔓 Kilit kalktı, `r890` canlıda. Ama bu dört kalem **yazılmadı** ve sebebi
+koordinatörün kendi sevki: *"künye yazılmadan renk yazma."* Ölçtüm —
+**dördünün de künyesi yok** (317 künye tarandı).
+
+```
+evfat              #2ad8ba      dacu       #4b21ab
+tunciler           #b4963f      makdisu-s. #cf69a8
+```
+Hazır dosya: `denetim/hazir-renk2-kunye-bekleyen.txt`
+
+### Ölçüm — dördünün de veride 0 penceresi var
+Her biri için coğrafî çekirdeğine en yakın noktanın peteği alınıp o
+kimliğin **kendi penceresindeki** komşuları ölçüldü:
+```
+evfat     [Ankober]   1285-1415   habesistan · sidamo · adal
+dacu      [Darfur]    1200-1400   darfur
+tunciler  [Darfur]    1400-1603   darfur
+makdisu   [Mogadişu]  1250-1600   somali · portekiz · travankur
+```
+
+### 🔴 600 KM EŞİĞİ BU KÜMEDE YETMEDİ — koordinatör haklıydı
+Sevk *"DSATUR dengesini o küme içinde ölç"* diyordu. Ölçtüm ve **niçin
+gerektiğini gördüm**: `evfat` ile `makdisu` arası **1035 km**, yani
+projenin 600 km eşiğinin dışında ⇒ kural onları bağlamıyordu. İlk tur
+ikisine de turkuaz verdi:
+```
+evfat #21decf      makdisu #2ad5b7      ← ikisi de Afrika Boynuzu
+```
+Kümeyi bütün olarak engel sayınca düzeldi: **küme içi en dar çift 25,1.**
+
+📌 Ve bu, 600 km eşiğinin bir sınırı: eşik `ayni_hex()` için türetilmişti
+(*"arada başka devletin şeridi vardır, aynı ekranda bitişik görünmezler"*).
+Ama **aynı ekranın aynı köşesinde** duran iki gövde için 600 km az
+kalabiliyor — Afrika Boynuzu dar bir kuşak. ⇒ Eşik iyi bir taban, **küme
+bilgisi onu ezebilir.**
+
+### 🔴 DARFUR ZİNCİRİ — üç ardışık hanedan, aynı toprak
+`dacu` → `tunciler` → `darfur`. Tam olarak `kutlughanli ↔ muzafferi`
+vakasının üç üyelisi.
+```
+dacu ↔ tunciler   55,8        dacu ↔ darfur      33,3
+tunciler ↔ darfur 45,4        evfat ↔ adal       35,6
+```
+⇒ Hanedan değişimleri haritada **görünür**; kullanıcı zamanı kaydırınca
+Darfur'un üç devrini üç ayrı renkte görecek.
+
+---
+
+## ㉓ 🔴 DARBOĞAZ ARTIK RENK DEĞİL — KÜNYE
+
+Bugünkü ölçümün en önemli bulgusu bu:
+```
+kimlik                          renk        künye     bekleyen
+40 renksiz kimlik (238 pencere)  ✓ hazır    🔴 YOK    238 pencere
+evfat · dacu · tunciler · makdisu ✓ hazır   🔴 YOK      4 kimlik
+muzafferi · incu · kutlughanli   ✓ YAZILI   ✓ VAR     İran 1335-1501
+                                                       (Emre erteledi)
+ryazan                           ✓ YAZILI   ✓ VAR     nokta dönemleri
+                                                       (PETEK/NOKTA)
+```
+⇒ **Renk ekseninde bekleyen iş kalmadı.** 44 kimliğin rengi ölçülü ve
+uygulamaya hazır; hiçbiri renk yüzünden beklemiyor. **238 pencerelik
+harita deliği bugün künye darboğazında duruyor.**
+
+📌 Oturumun başında darboğaz *"üç kimlik renksiz"*ti. Bugün kırk dört
+kimliğin rengi hazır ve darboğaz **bir sonraki halkaya geçti**. Bu, işin
+bittiği anlamına gelmiyor — **nerede olduğunun değiştiği** anlamına
+geliyor, ve koordinatörün sırayı ona göre kurması gerekiyor.

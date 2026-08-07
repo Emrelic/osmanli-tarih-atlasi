@@ -1,0 +1,49 @@
+// RENK 2 — KUNYE BEKLEYEN RENKLER  ·  7 Agustos 2026
+// ==========================================================================
+// Koordinator sevki: "Kunye yazilmadan renk yazma -- ikisi eslesmezse harita
+// boyanmaz (§8)." Asagidakilerin HICBIRININ kunyesi yok (317 kunye olculdu).
+// Renkler OLCULDU ve hazir; kunye gelince uygulanir:
+//   py arac/renk_olc.py --dogrula denetim/hazir-renk2-kunye-bekleyen.txt
+// ==========================================================================
+
+// ── A) AFRIKA BOYNUZU / SUDAN KUMESI — 4 kimlik ──────────────────────────
+// Kimliklerin veride 0 penceresi var => renk_olc.komsuluk() olcemez.
+// Her biri icin cografi cekirdegine en yakin noktanin petegi alinip O
+// KIMLIGIN KENDI PENCERESINDEKI komsulari olculdu.
+//   evfat     [Ankober]   1285-1415  habesistan · sidamo · adal
+//   dacu      [Darfur]    1200-1400  darfur
+//   tunciler  [Darfur]    1400-1603  darfur
+//   makdisu   [Mogadisu]  1250-1600  somali · portekiz · travankur
+//
+// 🔴 DORDU DE BIRBIRININ ENGELI SAYILDI -- koordinator sevki ("DSATUR
+//   dengesini o kume icinde olc"). Projenin 600 km esigi evfat<->makdisu'yu
+//   (1035 km) bagLAMIYORDU ve ilk tur ikisine de turkuaz verdi (#21decf /
+//   #2ad5b7). Kume olarak bakinca duzeldi: kume ici en dar cift 25,1.
+//
+// 🔴 DARFUR ZINCIRI: dacu -> tunciler -> darfur AYNI TOPRAKTA ardisik.
+//   "Ayni bolgede ardisik olanlar da ayrisMALI" kurali (bkz. kutlughanli/
+//   muzafferi vakasi). Olculdu:
+//     dacu <-> tunciler  55,8      dacu <-> darfur  33,3
+//     tunciler <-> darfur 45,4     evfat <-> adal   35,6
+//   => Hanedan degisimleri haritada GORUNUR.
+evfat #2ad8ba
+dacu #4b21ab
+tunciler #b4963f
+makdisu-sultanligi #cf69a8
+
+// ── B) KALAN 40 RENKSIZ KIMLIK ──────────────────────────────────────────
+// Ayri dosyada: denetim/oneri-renk2-kirk-kilitte.txt
+// 40/40 cozuldu · en dar pay 19,1 · 238 pencere · mevcut paletle cakisma 0.
+// ⚠️ KIRKININ DA KUNYESI YOK -- ayni kural onlari da bekletiyor.
+//   238 pencerelik harita deligi bugun kunye darbogazinda duruyor.
+//   En yuklu on kalem:
+//     bengal-sultanligi 22 · kenmu 17 · fransiz-cinhindi 16 ·
+//     haydarabad-nizam 15 · bengal-nevabligi 13 · san-fan 13 ·
+//     yadava 12 · dashun 12 · avad 9 · cavnpur-sultanligi 8
+
+// ── C) YAZILI AMA VERIDE BEKLEYENLER (bilgi) ────────────────────────────
+//   muzafferi · incu · kutlughanli   renk VAR, Iran 1335-1501 penceresi
+//                                    Emre tarafindan ertelendi
+//   ryazan #cce787                   renk VAR, `Ryazan` noktasi hala
+//                                    `s: rusya 1281-1923` tasiyor;
+//                                    nokta donemleri PETEK/NOKTA'da
