@@ -845,6 +845,47 @@ Notlar:
   ⇒ **Kaçış içeren hiçbir düzeltme bash'ten geçirilmez.** Betiği `Write`
   aracıyla scratchpad'e yaz, sonra `py <yol>` ile çalıştır. İstisna yok.
 
+- 🔴 **"DENETİM VAR" ≠ "O SORUYU SORUYOR." Aynı gün ÜÇ ayrı körlük ölçüldü
+  (7 Ağustos 2026) ve üçü de TEMİZ rapor veriyordu:**
+  ```
+  renk_cikti ②   hiç ölçmüyordu          → "0 çift" diyordu, gerçek 653
+  --dogrula      yazılanı ÖNERİYLE sorar  → önerinin KÜNYEYLE uyumunu SORMAZ
+  renk_olc       yalnız Voronoi KOMŞUSU   → komşu olmayan ama YAKIN çifti
+                 çiftini kurar               hiç kurmaz → 5 gerçek ihlal görünmez
+  ```
+  🔴 En saf vaka: **`kaffa ↔ sidamo`, ΔE 2,8** — neredeyse aynı renk, ve
+  **beş yüzyıl boyunca (1390-1897) ikisi de sahnede.** Voronoi komşusu
+  olmadıkları için hiçbir denetim bildirmedi. Ölçüt *"hücreler değiyor mu"*
+  idi; oysa **iki gövde değmeden de aynı ekranda yan yana durur.**
+  ⇒ Bir denetimin **kapsamı**, doğruluğundan ayrı ölçülür: *"hangi çiftleri
+  KURUYOR"* sorusu, *"kurduğu çiftleri doğru ölçüyor mu"* sorusundan önce gelir.
+
+- 🔴 **"ÇÖZÜLEMEDİ" DEMEDEN ÖNCE HANGİ KISITIN BAĞLADIĞINI ÖLÇ.**
+  `fransa ↔ portekiz` (ΔE 9,6) önce *"çözülemedi"* çıktı — paletin en kısıtlı
+  iki düğümü. Kısıtlar tek tek ölçülünce görüldü:
+  ```
+  tam bant (C* + uyum + Osmanlı şeridi)   en iyi 11,5  🔴 çözülemez
+  yalnız C* bandı                          en iyi 13,2  ✓ çözüldü
+  ```
+  Bağlayan şey **ΔE değil, `uyum` TERCİHİYDİ** — ve `renk_olc.py:132` bunu
+  zaten yazıyor: *"uyum ölçüt değil TERCİH; eşiği geçen adaylar arasında ayrım
+  yapar, EŞİĞİ DEĞİŞTİRMEZ."*
+  ⇒ **Üç kısıt üst üste binince hangisinin gerçek eşik, hangisinin tercih
+  olduğu görünmez olur — ve bir TERCİH yüzünden gerçek bir İHLAL açık
+  bırakılır.** Eşiği gevşetmek yerine tercihten çıkıldı; hiçbir eşiğe
+  dokunulmadı.
+
+- 📌 **BAZI LİSTELER KUYRUK DEĞİL PENCEREDİR.** `SINIRDA` uyarı listesinin
+  tepesindeki iki çift kapatılınca **alttan iki yenisi çıktı** (`ahom↔yuan` ·
+  `joseon↔ming`) — hep oradaydılar, ilk ondan taşmışlardı. Dördüncü kez
+  doğrulandı.
+  ```
+  EŞİK   (2s tavanı 121, 2t tavanı 42)   bitirilir, tavanın altına inilir
+  EKRAN  (SINIRDA maruziyet sırası)      bitirilmez, HEP DOLU olur
+  ```
+  ⚠️ İkisine aynı gözle bakmak yanlış: bir ekranı *"bitirilecek iş"* sanmak,
+  bitmeyen bir işi borç sanmaktır.
+
 - 🔴 **YENİ YAZILAN DENETİM, İKİ YÖNDE DE SINANMADAN "ÇALIŞIYOR" SAYILMAZ.**
   ```
   GEÇME YOLU   kusur yokken TEMİZ diyor mu
