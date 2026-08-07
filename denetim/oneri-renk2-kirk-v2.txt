@@ -1,0 +1,45 @@
+// RENK 2 · 7 Agustos 2026 · 40 renksiz kimlik (v2)
+// v1'den farki: 600 km icindeki HER palet kimligi engel sayildi,
+// yalniz olculen Voronoi komsulari degil.
+bengal-sultanligi #e75d57
+kenmu #e77e54
+fransiz-cinhindi #e45d5d
+haydarabad-nizam #e796ba
+san-fan #393c18
+bengal-nevabligi #1836c6
+yadava #e75a5a
+dashun #1839c9
+avad #deabe4
+kakatiya #153f21
+pandya #54e7b4
+pagan #e1e787
+cavnpur-sultanligi #e7b763
+tay-son #27e4d5
+hanthawaddy #e7549c
+taiping #e7785a
+madurai-sultanligi #e76c51
+singhasari #e78a7b
+karnatik #aee499
+tonburi #1b54e4
+tran-hanedani #96e7b4
+ho-hanedani #752115
+laos-kralliklari #421539
+hoysala #158d6f
+cammu-kesmir #e76090
+sukhothai #e1aed5
+seylan-sinhala #e76393
+yogyakarta #1b99e4
+ainu #1b8ae4
+kocin #183c1b
+bhopal #451539
+multan-langah #1b51e1
+bahavelpur #3c5415
+bharatpur-cat #1e54e4
+cunagadh #3c1515
+sunda-pajajaran #453015
+pingnan #e77b7b
+samudra-pasai #a85718
+surakarta #183ccc
+sarawak-brooke #1b6fe4
+// veri kaynakli cakisma duzeltmesi (kamboc-kralligi ile dE 10,5):
+cohor-sultanligi #eab463

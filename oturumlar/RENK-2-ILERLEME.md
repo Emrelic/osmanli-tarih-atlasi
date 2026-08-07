@@ -1125,3 +1125,89 @@ partisinde ders bir *kurala* yazılmıştı ve ben onu hatırlamak zorundaydım;
 burada bir *yordama* yazılmıştı ve hatırlamama gerek kalmadı.
 ⇒ Kuralı yazmak yetmiyor; **kuralı imkânsız-ihlal-edilir hâle getirmek**
 gerekiyor. `renk_olc.py`nin `--dogrula`sı da bu cinsten bir alettir.
+
+---
+
+## ㉖ KIRK RENK YAZILDI — 238 pencerelik delik kapandı
+
+Koordinatör **GEVŞEK** dedi; kırkını künye beklemeden yazdım.
+```
+BOYALAR 250 → 290 · denetim temiz · --dogrula 41 öneri · 0 fark
+```
+
+### ⚠️ Önce bir düzeltme: noktalar kuyrukta DEĞİL, CANLI
+Koordinatörün gerekçesi *"kırkının da noktaları KUYRUK dosyalarında"*
+diyordu. Ölçtüm:
+```
+238 pencerenin 238'i  yerlesimler_asya.js
+ve o dosya GIRDI_DOSYALARI'nda → CANLI
+```
+⇒ Delik kuyrukta değil, **`r890`'ın kendisinde**. Gerekçe yanlıştı ama
+**karar doğruydu ve daha da haklıydı**: bugün yayında görünen bir kusur.
+📌 `CLAUDE.md:442` `yerlesimler_asya.js`i hâlâ *"HENÜZ BAĞLANMAMIŞ, merge
+bekleyen"* gösteriyor — bayat satır, bildirildi. (`§5`in kendi anlattığı
+`yerlesimler_afrika.js` vakasının aynısı.)
+
+### 🔴 VE BU PARTİ ÖLÇÜTÜ OLGUNLAŞTIRDI — v1 çürütüldü
+Kilit sırasında hazırladığım v1 yalnız **ölçülen Voronoi komşularını**
+engel sayıyordu. Yazmadan önce bağımsız doğrulama koştum ve **12 ihlal**
+buldu — komşu ÇIKMAYAN ama 600 km içinde olan kimliklerle:
+```
+tran-hanedani ↔ le-hanedani       0 km · ΔE  8,8   (ikisi de Vietnam)
+kakatiya      ↔ bidar             0 km · ΔE  5,3
+pandya        ↔ delhi-sultanligi  0 km · ΔE  7,1
+singhasari    ↔ mataram           0 km · ΔE  8,6
+surakarta     ↔ banten          544 km · ΔE  7,7
+```
+📌 **Voronoi komşuluğu "hücreler değiyor mu" der; 600 km "aynı ekran
+köşesinde mi" der.** Okunabilirlik için doğru ölçüt ikincisidir — hücre
+değmiyor olabilir ama iki gövde ekranda yan yana durur.
+
+⇒ v2'nin engel kümesi: ölçülen komşular + **600 km içindeki HER palet
+kimliği** + 600 km içindeki daha önce seçilmiş yeniler. Kimlik başına
+ortalama **14,7 yakın palet kimliği**, 30-39 engel.
+```
+40/40 çözüldü · en dar pay 14,1 · bağımsız denetimde 0 ihlal
+```
+
+⚠️ **Ve v1'i YAZMADAN ÖNCE denetlediğim için yakalandı.** Kilitte
+hazırlanmış, "hazır" diye işaretlenmiş bir artefakttı; doğrulamasaydım
+kırk rengin on ikisi kusurlu girecekti. **Hazır demek doğru demek
+değildir** — `--dogrula`nın var oluş sebebi bu.
+
+---
+
+## ㉗ 🔴 ÜÇÜNCÜ KEZ: PALET VERİNİN FONKSİYONUDUR
+
+Kırkı yazınca **yeni** bir çakışma düştü:
+```
+10,5   cohor-sultanligi #7e723c  ↔  kamboc-kralligi #8d6e63
+```
+İkisi de benim rengim **değil** ve ikisi de bugün **değişmedi** —
+`git diff` ikisine de dokunmadığımı gösteriyor. Ölçtüm: çift `HEAD`'de de
+ΔE 10,5 ve komşu. Ama sabahki denetimlerim **temizdi**.
+
+⇒ Aradaki tek fark **veri**: gün içinde başka oturumlar dönemleri
+değiştirdi ve iki gövde eşzamanlı komşu oldu.
+```
+cungar ↔ buhara     Mâverâünnehir partisi bağlanınca      10,5
+norvec ↔ portekiz   _ek12 (İzlanda) bağlanınca             7,4
+cohor  ↔ kamboc     gün içi dönem değişiklikleriyle       10,5
+```
+📌 **Hiçbir hex'e dokunmadan çakışma doğabilir.** Veriye dokunan her
+koşudan sonra `renk_olc.py` koşmalı; *"renkler değişmedi, denetim de
+değişmez"* üç kez yanlış çıktı.
+
+Taşınacak olan ölçüldü: `cohor` 18 engel · pay 20,0 · `kamboc` 26 engel ·
+ancak 15,9 (ve `#8d6e63` paylaşımını da bozardı). Ucuz olan taşındı:
+`cohor-sultanligi → #eab463`.
+
+### ÖLÇÜM
+```
+BOYALAR      250 → 290        canlı 1800 nokta · künye 328
+renk_olc     görünmez 0 · çakışma 0 · aynı-hex 0     ✓
+--dogrula    41 öneri · 0 fark                       ✓
+renk_cikti   ① cohor eski renkle çizili → koşu bekliyor
+```
+⚠️ Kırkının da künyesinde karşılık yok — koordinatörün kararıyla (GEVŞEK)
+bilerek böyle. Renk deliği kapatır, dizin penceresi açık kalır.
