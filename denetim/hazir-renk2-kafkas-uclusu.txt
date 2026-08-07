@@ -1,35 +1,43 @@
-// RENK 2 — KAFKAS ÜÇLÜSÜ  ·  7 Ağustos 2026 · KİLİT SÜRESİNCE hazırlandı
+// RENK 2 — KAFKAS ÜÇLÜSÜ  ·  7 Ağustos 2026  ·  v2 (SLUG DÜZELTMESİ)
 // ==========================================================================
-// renkler.py KİLİTLİ (üretim koşusu sürüyor) -- yazılmadı, ölçüldü.
-// Kilit kalkınca:
+// renkler.py KİLİTLİ -- yazılmadı. Kilit kalkınca:
 //   py arac/renk_olc.py --dogrula denetim/hazir-renk2-kafkas-uclusu.txt
 // ==========================================================================
 //
-// NIÇIN ÜÇÜ BİRLİKTE: `gurcistan-demokratik-cumhuriyeti` YAZILDI (#90eab1)
-// ama `ermenistan` ve `azerbaycan` palette YOK. GDC verisi TEK BAŞINA
-// inerse komşuları `rusya` görünür ve 1918-1921 Kafkasyası YANLIŞ boyanır.
-// Üçü ayrı ayrı ölçülemez -- `renk_olc.py:30`un uyardığı hata budur.
+// 🔴 v1'DEKİ SLUGLAR YANLIŞTI -- ve bu kendi kuralımın vakası oldu.
+//    v1: `ermenistan` · `azerbaycan`      (standart akademik addan türettim)
+//    künye (339 kayıt, ölçüldü):
+//         ermenistan-demokratik-cumhuriyeti   1918-05-28 → 1920-12-02
+//         azerbaycan-demokratik-cumhuriyeti   1918-05-28 → 1920-04-27
+//         gurcistan-demokratik-cumhuriyeti    1918-05-26 → 1921-03-16 ✓yazılı
+//    `ermenistan` ve `azerbaycan` künyede HİÇ YOK.
+//
+// ⚠️ VE `--dogrula` BUNU YAKALAYAMAZDI: v1'i uygulasaydım o adları
+//    BOYALAR'a yazmış olurdum, doğrulama da onları orada bulup "0 fark"
+//    derdi. Sapma ancak GERÇEK sluglar renksiz kalarak, yani haritada delik
+//    olarak görünürdü. => Aktarım denetimi yazılanı öneriyle karşılaştırır,
+//    ÖNERİNİN KENDİSİNİ künyeyle karşılaştırmaz. Slug her zaman KÜNYEDEN
+//    alınmalı, addan türetilmemeli.
+//
+// 📌 Bir de tarih düzeltmesi: azerbaycan bitişi 1920-04-27 (v1'de 04-28
+//    yazmıştım). TDV cumhuriyetin kendi sonunu (27 Nisan) ardılı SSC'nin
+//    kuruluşundan (28 Nisan) ayırıyor. Bir günlük fark harita kırılması
+//    üretmiyor ama kayıt doğrusu bu.
 //
 // ÖLÇÜM (kimliklerin veride 0 penceresi var; çekirdek noktanın peteğinden):
-//   ermenistan  [Revan  1 km]  komşu: kacar · rusya  · 600 km'de 20 kimlik
-//   azerbaycan  [Bakü   4 km]  komşu: kacar · rusya  · 600 km'de 15 kimlik
-//   pencere: 1918-05-28 → 1920-12-02 / 1920-04-28
+//   ermenistan-dc  [Revan  1 km]  komşu: kacar · rusya · 600 km'de 20 kimlik
+//   azerbaycan-dc  [Bakü   4 km]  komşu: kacar · rusya · 600 km'de 15 kimlik
+//   Pencere farkı (04-28 → 04-27) komşu kümesini DEĞİŞTİRMEDİ.
 //
-// AYRIM -- üçü de birbirinin engeli sayıldı (küçük parti ⇒ TAVAN kuralı):
-//   ermenistan ↔ azerbaycan   ΔE 61,5
-//   ermenistan ↔ GDC          ΔE 57,0
-//   azerbaycan ↔ GDC          ΔE 21,1
-//   pay: ermenistan 20,5 · azerbaycan 20,7
-//   C*: %71 ve %72 -- ikisi de paletin bandında
-ermenistan #1221ae
-azerbaycan #eacf75
+// AYRIM -- üçü birbirinin engeli (küçük parti ⇒ TAVAN kuralı, `B15`):
+//   ermenistan-dc ↔ azerbaycan-dc  ΔE 61,5
+//   ermenistan-dc ↔ gurcistan-dc   ΔE 57,0
+//   azerbaycan-dc ↔ gurcistan-dc   ΔE 21,1
+//   pay: 20,5 · 20,7   ·   C*: %71 ve %72 (paletin bandında)
+ermenistan-demokratik-cumhuriyeti #1221ae
+azerbaycan-demokratik-cumhuriyeti #eacf75
 
-// ⚠️ KÜNYE: ikisinin de künyesi YOK (337 kayıt). VERİ DEVLET yazacak.
-//    Künye gelince pencereler KÜNYEDEN yeniden ölçülmeli (B10) -- yukarıdaki
-//    tarihler standart akademik referanstan, künyeden değil.
-//
-// ⚠️ VE KOŞUDAN SONRA YENİDEN SINANMALI: bu koşu 157 nehir + 163 engel
-//    poligonu getiriyor, yani ÇİZİLİ gövdelerin şekli değişecek. `renk_olc`
-//    nokta tabanlı olduğu için oynamaz, ama `renk_cikti` (çizili gövdeler)
-//    yeni değen çiftler gösterebilir. "Palet verinin fonksiyonudur" kuralının
-//    en büyük sınavı bu koşu olacak.
+// ⚠️ Üçünün de künyesinde `harita:` alanı BOŞ (339 kayıt tarandı).
+// ⚠️ KOŞUDAN SONRA yeniden sınanmalı: koşu 187 nehir + 163 engel getiriyor,
+//    çizili gövdelerin şekli değişiyor. `renk_olc` nokta tabanlı olduğu için
+//    oynamaz; `renk_cikti` yeni değen çift gösterebilir.

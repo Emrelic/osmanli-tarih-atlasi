@@ -1453,3 +1453,65 @@ vakası ve bugüne kadar görünmüyordu. Hiçbiri ihlal değil, ama
 `denetim/renk-cikti-taban.txt` → 653 çift · 0 ihlal · 10 sınırda.
 Koşudan sonraki karşılaştırma **ilk kez anlamlı olacak**, çünkü taban ilk kez
 gerçek bir ölçüm.
+
+---
+
+## ㉜ HAZIRLIĞIMDAKİ SLUGLAR YANLIŞMIŞ — ve `--dogrula` bunu yakalayamazdı
+
+Koordinatör künyeleri yazdı (339 kayıt) ve id'ler benim hazırlığımdakinden
+**farklı** çıktı. Ölçtüm:
+```
+hazırlığımda      künyede
+ermenistan   →    ermenistan-demokratik-cumhuriyeti   1918-05-28 → 1920-12-02
+azerbaycan   →    azerbaycan-demokratik-cumhuriyeti   1918-05-28 → 1920-04-27
+                  gurcistan-demokratik-cumhuriyeti    1918-05-26 → 1921-03-16 ✓
+`ermenistan` ve `azerbaycan` künyede HİÇ YOK.
+```
+Slugları **standart akademik addan türetmiştim** — künyeden değil. Kendi
+kuralımın vakası: *"kendi ölçtüğün sayı da bayatlar"*, ve burada sayı bile
+değil **ad** bayattı.
+
+### 🔴 VE ASIL BULGU: `--dogrula` BUNU YAKALAYAMAZDI
+Hazırlığı körü körüne uygulasaydım `ermenistan` ve `azerbaycan` adlarını
+`BOYALAR`a **yazmış** olurdum. `--dogrula` da onları orada bulup **"0 fark"**
+derdi — çünkü aktarım denetimi *yazılanı öneriyle* karşılaştırır,
+**önerinin kendisini künyeyle karşılaştırmaz.**
+
+Sapma ancak şöyle görünürdü: gerçek sluglar (`…-demokratik-cumhuriyeti`)
+renksiz kalır, harita 1918-1921 Kafkasyasında **delik** verir, ve palette
+hiçbir zaman boyanmayacak **iki ölü kimlik** birikir.
+
+📌 **Ders: slug künyeden alınır, addan türetilmez.** Ve daha genel olarak:
+```
+--dogrula     yazdığımı ÖNERİMLE karşılaştırır      (aktarım doğru mu)
+YAKALAMAZ     önerimin KÜNYEYLE uyumunu             (öneri doğru mu)
+```
+Bu, bugünün *"'hazır' demek 'doğru' demek değildir"* dersinin ikinci hâli —
+kırk partisinde öneri **ölçüt** bakımından çürüktü, burada **kimlik**
+bakımından. İkisinde de artefakt "hazır" görünüyordu.
+
+⇒ `denetim/hazir-renk2-kafkas-uclusu.txt` v2 olarak düzeltildi; renkler aynı
+(ölçüm coğrafyaya bağlı, ada değil), yalnız anahtarlar künyeden alındı.
+Bir de tarih: azerbaycan bitişi **1920-04-27** (v1'de 04-28) — TDV
+cumhuriyetin sonunu ardılı SSC'nin kuruluşundan ayırıyor.
+
+---
+
+## ㉝ SINIRDA LİSTESİ DOSYAYA ALINDI
+
+`denetim/sinirda-renk2-kosu-oncesi.txt` — koşu öncesi ölçümle, ikiye ayrılmış:
+```
+ÖNE ALINAN   isvec ↔ rusya  12,3 · 123,21°     ming ↔ tibet  14,2 · 65,41°
+BEKLEYEN     funj↔habesistan 40,35° · adal↔somali 27,95° · cungar↔rusya 22,85°
+             fas↔ispanya · buhara↔mogulistan · habesistan↔somali ·
+             memluk↔nube · gucerat↔racput
+```
+⚠️ Sayılar **koşu öncesi geometriye ait**; koşu sonrası yeniden ölçülecek.
+Koordinatör kararı ve kendi kuralım aynı yönde: **önce ölç, sonra düzelt.**
+
+📌 Ve listede bir desen var: **`habesistan` üç kez geçiyor** (funj · somali ·
+adal üzerinden). Afrika Boynuzu paletin sıkışık bölgelerinden biri — `evfat`
+ve `makdisu` partisinde de 600 km eşiği **yetmemiş**, kümeyi bütün olarak
+ölçmek gerekmişti. Aynı coğrafya, aynı sıkışıklık.
+⇒ Sıra gelirse o dörtlüyü (`habesistan` · `funj` · `somali` · `adal`) **tek
+küme** olarak çözmek, tek tek uğraşmaktan doğru olur — `B15`in tavan tarafı.

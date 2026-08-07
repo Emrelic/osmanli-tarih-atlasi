@@ -1,0 +1,44 @@
+// RENK 2 — SINIRDA ÇİFTLERİ  ·  7 Ağustos 2026  ·  KOŞU ÖNCESİ ÖLÇÜM
+// ==========================================================================
+// `renk_cikti.py` ONARILINCA ilk kez görünen liste. Öncesinde denetim ②
+// bölümü hiç ölçmüyordu ("0 değen çift" diyordu, gerçek 653) -- yani bu on
+// çift bugüne kadar HİÇ raporlanmadı.
+//
+// İHLAL DEĞİL: hepsi ΔE >= 12, eşiği geçiyorlar. Ama paylaşılan sınır uzun.
+// Aracın kendi kütüğü: "aynı ΔE tek noktada zararsız, sınır boyunca ciddi."
+// => Kullanıcının "ayırt edemiyorum" diyeceği en olası yerler bunlar.
+//
+// ⚠️ BU SAYILAR KOŞUDAN ÖNCEKİ GEOMETRİYE AİT. Koşu 187 nehir parçası + 163
+//    engel poligonu getiriyor; gövde şekilleri, dolayısıyla SINIR
+//    UZUNLUKLARI değişecek. Koordinatör kararı ve kendi kuralım aynı yönde:
+//    ÖNCE YENİDEN ÖLÇ, SONRA DÜZELT ("kendi ölçtüğün sayı da bayatlar").
+//
+// --- ÖNE ALINANLAR (koordinatör onayı) ------------------------------------
+//   Gerekçe: bu ikisi "sınırda" değil, MARUZİYET OLARAK SINIFIN DIŞINDA.
+//   123° sınır atlasın kuzey yarısında en çok görülen tek çizgi; kalan
+//   sekizin en uzunu 40°, yani başka bir kefede.
+//
+//     a                   b                       ΔE   tanık    sınır°
+//     isvec               rusya                 12.3       8    123.21
+//     ming-hanedani       tibet                 14.2       4     65.41
+//
+// --- ÖLÇÜLÜ BEKLEYENLER (8) — kullanıcı geri bildirimi gelirse sıraya ------
+//
+//     a                   b                       ΔE   tanık    sınır°
+//     funj                habesistan            12.2       4     40.35
+//     adal                somali                12.0       7     27.95
+//     cungar              rusya                 14.5       1     22.85
+//     fas                 ispanya               12.8       6     19.83
+//     buhara              mogulistan            12.4       3     17.44
+//     habesistan          somali                12.2       1     17.08
+//     memluk              nube                  12.1       3     17.04
+//     gucerat-sultanligi  racput                12.4       2     14.31
+//
+// 📌 Bir desen: `habesistan` üç kez geçiyor (funj · somali · adal üzerinden
+//    dolaylı). Afrika Boynuzu kümesi paletin sıkışık bölgelerinden biri --
+//    `evfat` / `makdisu` partisinde de 600 km eşiği YETMEMİŞTİ ve kümeyi
+//    bütün olarak ölçmek gerekmişti. Aynı coğrafya, aynı sıkışıklık.
+//    ⇒ Düzeltme sırası gelirse o dörtlüyü (habesistan · funj · somali · adal)
+//      TEK KÜME olarak çözmek, tek tek uğraşmaktan doğru olur.
+//
+// Uygulanacakları gün renk önerisi bu dosyaya `kimlik #hex` olarak eklenir.
