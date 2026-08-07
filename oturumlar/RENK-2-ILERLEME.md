@@ -649,3 +649,136 @@ renk_olc     görünmez 0 · çakışma 0 · aynı-hex 0     ✓
                       önce künye + nokta dönemleri gerek
    bengal-sultanligi  22 pencere · kenmu 17 · fransiz-cinhindi 16 · …
 ```
+
+---
+
+## ⑯ `zend  #691569` — DARBOĞAZ AÇILDI · 7 Ağustos 2026
+
+Kullanıcının hükmü (*"diğer iranları hanedanı ile anmak olabilir. kaçarlar
+zend safeviler afşarlar gibi"*) `iran`ın en büyük tek penceresini
+`zend`e taşıyor. **Ölçtüm: o pencerede (1747-06-20 → 1796-01-01)
+`iran` taşıyan 126 nokta var.**
+
+### 🔴 `renkler.py`nin kendi "YER YOK" hükmü ÇÜRÜTÜLDÜ — ve sebebi zaman
+Dosya `§zend` bloğunda yazıyordu: *"bu kutuda beşinci aile üyesi için
+uygun aday **SIFIR**"*. **217 aday çıktı.**
+
+Fark tek bir şeyden geliyor: eski ölçüm `iran`ın **bütün çizgideki 23
+komşusunu** engel sayıyordu. Ama `zend` bütün çizgide yaşamıyor —
+**1751-1794.** O pencerede gerçekten sınırdaş olanları ölçtüm (126
+noktanın Voronoi komşularının o penceredeki kimlikleri):
+```
+OSMANLI · umman · buhara · turkmen · benihalid · afgan-durrani ·
+gurcistan · rusya · suud · sind · hive  + aile   =  16 engel
+```
+23 engelde kutu doluydu, 16 engelde dolu değil.
+
+📌 **"Yer yok" hükmü, yanlış pencereyle ölçülmüş bir hükümdü** — ve bu
+`hokand` dersinin **ikinci vakası**: fazla temkin de bir ölçüm hatasıdır.
+İkisi de "ölçtüm" der, ikisi de yanlış cevap verir.
+
+### 🟢 Ve kullanıcının tarifi bu sefer LAFZEN işledi
+`iran` bloğu *"tarifin RUHU sağlanıyor, LAFZI sağlanamıyor"* diye not
+düşmüştü. Beşinci üye geldi ve **beş basamaklı parlaklık merdiveni** doğdu:
+```
+afsar   L* 80,7        safevi  L* 73,5        kacar  L* 70,3
+iran    L* 65,6        zend    L* 60,6   ← en alt basamak
+```
+`zend` ton 341,8° · hanedan ailesinin merkezi 342,0° — **tam ortasında.**
+```
+afgan-durrani 13,2 | buhara 13,2 | kacar 13,4 | safevi 14,8 |
+iran 18,4 | afsar 21,4 · altlıktan 26,7 · C* 21,1 = paletin %47'si
+```
+⚠️ 13,2 ince — ama ailenin **kendi** iç mesafeleri zaten 12,0-16,5. Bu,
+aileye katılmanın bedeli; bir gevşeme değil.
+
+📌 **İlk aday `#8d24bd` REDDEDİLDİ.** Payı daha iyiydi (14,4) ama
+`L* 65,1` ile `iran`ın 65,6 basamağına **oturuyordu** — merdiveni bozar,
+ayrımı ton ve kromaya yıkardı. Üstelik C* 35,3 = paletin **%95'i**, yani
+`#c03fab`ın (%88) reddedildiği "vurgu" bölgesi. **Yarım birim pay için
+modelin kendisi feda edilmez.**
+
+⇒ Aileyi ikiye bölmeye (`safevi+afsar` · `iran+kacar+zend`) **gerek kalmadı.**
+
+---
+
+## ⑰ 🔴 VE `_ek12` BİR ÇAKIŞMA DOĞURDU — `norvec ↔ portekiz`
+
+`zend` yazıldıktan sonraki denetimde **yeni** bir çift düştü:
+```
+7,4   norvec #5c6bc0  ↔  portekiz #6b8ac9
+```
+`zend`den değil. **`_ek12` (İzlanda) bağlanmasından.**
+
+📌 **VE BU ÖNGÖRÜLMÜŞTÜ.** `izlanda`yı yazarken ölçüp bildirmiştim:
+*"Kuzey Atlantik'te İzlanda'nın peteği İskandinavya'ya değil GÜNEYE
+uzanıyor; komşuları Britanya adaları ve İber yarımadası."* O petek
+Norveç ile Portekiz arasındaki koridoru **açtı** ve iki gövde komşu oldu.
+
+⇒ Hangisinin taşınacağı ölçüldü, cevap tartışmasız:
+```
+portekiz   49 komşu  ← paletin EN KISITLI düğümü (dünya çapındaki
+           ticaret üsleri her kıtaya komşu) · en iyi pay 15,1 · 732 aday
+norvec     12 komşu  · en iyi pay 17,6 · 19.101 aday
+```
+`norvec → #e76690`. ingiltere 17,6 · hollanda 18,2 · danimarka 20,1 ·
+portekiz 27,6 · C* 24,2 = %66. Osmanlı şeridi (15-35°) dışlandı — şeritsiz
+ilk aday `#e799b1` ton 25,2 ile tam içine düşüyordu.
+`#5c6bc0` beyanı **kaldırıldı**: geriye yalnız `vollayta` kaldı, ortada
+paylaşım yok.
+
+### 📌 ÜÇÜNCÜ KEZ AYNI DERS
+```
+cungar ↔ buhara      Mâverâünnehir partisi bağlanınca doğdu
+norvec ↔ portekiz    _ek12 bağlanınca doğdu
+```
+**Palet verinin fonksiyonudur.** Hiçbir hex'e dokunmadan, yalnız nokta
+ekleyerek çakışma yaratılabilir. ⇒ **Parti bağlayan her koşudan sonra
+`renk_olc.py` koşulmalı.**
+
+---
+
+## ⑱ BAĞLANTI — Emre'nin hükmü, aylardır açık duran kusuru da çözüyor
+
+`renk_olc.py` her koşuda şunu bildiriyor ve kimse kapatamıyordu:
+```
+AYNI ANAHTARI PAYLAŞIP TARİHİ ÖRTÜŞEN — 1 çift (ΔE 0!)
+  iran   afsar (1736→1796) ↔ kacar (1789→1923)
+         örtüşme 1789-03-21 → 1796-01-01 — AYIRT EDİLEMEZLER
+```
+Kökü ölçüldü:
+```
+safevi   harita='safevi'    ✓
+afsar    harita='iran'      ← ikisi de `iran`a bakıyor
+kacar    harita='iran'      ←
+zend     harita=None
+```
+İki hanedan künyesi aynı harita anahtarına bakıyor, o yüzden 1789-1796
+arası **aynı renge** boyanıyorlar — ΔE 0, mümkün olan en kötü hâl.
+
+🟢 **Emre'nin hükmü tam olarak bunu çözüyor.** *"Diğer iranları hanedanı
+ile anmak"* demek, künyelerin `harita:` alanının da hanedana bakması
+demek:
+```
+afsar  harita='afsar'      renk #f488fc  ZATEN VAR
+kacar  harita='kacar'      renk #c840a8  ZATEN VAR
+zend   harita='zend'       renk #691569  BUGÜN YAZILDI
+```
+⇒ Üç rengin **üçü de hazır**; eksik olan yalnız künyelerin `harita:`
+alanı — ve o `devletler.js`, benim dosyam değil.
+📌 Yani `zend`in taşınması yalnız 126 noktayı serbest bırakmıyor, **aylardır
+açık duran ΔE 0 kusurunu da kapatıyor.** Aynı iş.
+
+### ÖLÇÜM
+```
+BOYALAR      239        canlı veri 1800 nokta · künye 308
+renk_olc     görünmez 0 · çakışma 0 · aynı-hex 0     ✓
+--dogrula    2 öneri · 0 fark                        ✓
+açık kalan   afsar↔kacar aynı-anahtar (devletler.js işi, yukarıda)
+```
+
+### ⚠️ COMMIT UYARISI
+`arac/renkler.py` (+290 satır) ve `arac/renk_olc.py` (+36) **hâlâ
+commit'siz** — `git status` ikisini de `M` gösteriyor. Bugünkü on üç
+rengin tamamı bu iki dosyada ve **tek bir `git checkout --` hepsini
+siler.** Commit koordinatörün (`§7`); hatırlatıyorum.
