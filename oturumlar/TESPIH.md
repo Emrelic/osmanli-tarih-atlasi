@@ -1,73 +1,74 @@
 # 📿 TESPİH — bütün işler tek sırada
 
-> Kurulum: 7 Ağustos 2026, `r864` yayınlandıktan sonra
+> Kurulum 7 Ağustos 2026 · **son güncelleme 7 Ağustos 17:05**, üretim koşarken
 > Sıralama ölçütü **`FAYDA ÷ EMEK`** — `HEDEF − KEŞKİNLİK` **değil**
 > Üç öncelik kuralı sırayla: **① darboğaz · ② tekrar eden madde · ③ yakınlık**
 >
-> 🔴 **BU DOSYA GÜN İÇİNDE İŞARETLENİR.** Kalem kapandıkça durum imi
-> değişir; ertesi gün **buradan** devam edilir, sıfırdan tespih kurulmaz.
-> ✅ bitti · ⏳ sürüyor · 🔵 sırada · ⚪ bekletildi
+> 🔴 **BU DOSYA GÜN İÇİNDE İŞARETLENİR** ve ertesi gün **buradan** devam edilir.
+> ✅ bitti · ⏳ sürüyor · 🔵 sırada · ⚪ bekletildi (sebebi yazılı) · ⛔ iptal
 
-## Ölçülmüş zemin (7 Ağustos 01:30)
+## Ölçülmüş zemin — 7 Ağustos akşamı
 
 ```
-yayın        r864 canlıda · HTTP 200 · 1800 nokta · 46,55 MB
-değişmez     ALTISI DA TEMİZ — 1 · 1b · 2 · 2s · 2i · 2t · konum
-kutu         6 paket · 0 işlenmemiş · 53 açık madde (35 sırada · 18 ölçülecek)
-renksiz      40 kimlik / 238 pencere
-dizinsiz     41 kimlik / 246 pencere
-açık oturum  RENK 2 (tek)
+yerleşim      1800 nokta · 29 girdi dosyası        kronoloji  1145 madde
+dizin          317 künye  ·  249 renk
+değişmez      1 ✓ · 1b ✓ · 2 ✓ · 2s ✓ · 2i ✓ · 2t ✓ · konum ✓
+tek ihlal     mükerrer madde 4 (bilinen kuşatma kalıbı)
+yayın         r864 canlıda · YENİ KOŞU SÜRÜYOR (r865 olacak)
+açık oturum   VERİ DEVLET (beklemede) · RENK 2 (beklemede) — ikisi de girdi kilidinde
 ```
 
 ---
 
-## Sıra
+## ✅ BUGÜN KAPANANLAR
 
-| # | durum | iş | keşkinlik → hedef | fayda / niçin bu sırada |
-|---|---|---|---|---|
-| **1** | 🔵 | **Kutuyu güncelle** — 6 Ağustos'ta çözülen 4 madde hâlâ 🔵 açık (`p4/H-0009` benek · `p5/H-0005` İran sahibi · `p4/H-0010` Orta Asya · `p4/H-0013` Sinj) | %0 → %100 | 🔓 **DARBOĞAZ, emeği dakikalar.** Açık görünen madde yeniden çözülür — kutunun var olma sebebi tam bunu önlemek. ⚠️ Kutu ClaudEmre deposunda; Emre orayı ayrı ele alıyor |
-| **2** | 🔵 | **`ryazan` rengi** — PETEK/NOKTA `Tula` desenini ödünç aldı ve işaretledi | %0 → %100 | 🔓 Tek satır; bir ödüncü gerçeğe çeviriyor. RENK 2 açık, sırası hazır |
-| **3** | ⏳ | 🔴 **İRAN KURALI — Emre verdi, en büyük tek kalem** · ✅ Nadir Şah'ın 5 noktası `afsar` oldu · ⚪ `zend` 123 nokta RENK 2'yi bekliyor · ⚪ `galzay` (Kandehar) künye+renk bekliyor · ⚪ Lur atabegliği 10 nokta künye bekliyor | %15 → %90 | `iran` **134 nokta / 261 pencere** — hanedan kimliklerinin hepsinden çok (`safevi` 214 · `afsar` 129 · `kacar` 123 · **`zend` 0**). Kural: *"hanedanı ile anmak"*. 1747-1796 penceresi **tek başına 123 nokta** ve adı ZEND. Künye VERİ DEVLET'te, taşıma bende |
-| **3b** | ⛔ | ~~Dizinsiz kimlik — çekirdekte 24 kimlik / 1021 pencere~~ **BU SATIR YANLIŞTI** | — | 🔴 **Ölçüm benimdi, hata da benim.** `devletler.js`te `harita:` takma ad alanı var; ben yalnız `id:`e baktım. Doğrusu: **çekirdek 1 kimlik / 7 pencere** (`turkmen`) · kuyruk 41 / 239. `§1.5`in *"41 kimlik / 246 pencere"* satırı **doğruymuş**. `durum_tablosu.py:48` zaten doğru hesaplıyordu |
-| **4** | ⏳ | **Dört yapısal boşluk** — ✅ Tunus 1569/1573 · ✅ İbrâil 1809/1828 · ⚪ Kavalalı Suriye 1832-40 (1840 istirdat maddesi YOK, kronoloji bekliyor) · 🔵 İran 1501-1736 | %50 → %85 | `2t`nin kalan borcunun kökü; etiketle kapanmaz, VERİ işi. Tunus somut: `yerlesimler.js:726` 1535-1574'ü tek parça gösteriyor. ⚠️ **Fetret bu listeden ÇIKTI** — ölçüldü, atlas onu zaten modelliyor (405 pencere); eksik olan yalnız künye ⇒ ③b |
-| **4** | 🔵 | **Beş görsel şikâyet** (kutu) — Cezayir örtüşü · Timur/Bağdat ×2 · başkent yıldızı · Ahîler | %0 → %90 | Kullanıcının **kendi sözü**; ikisi (Timur/Bağdat) **aynı konunun tekrarı** ⇒ kural ② |
-| **5** | 🔵 | **9 tarih uyuşmazlığı** — Agadir · Şehrizor · Bucaş/Kamaniçe · Cüneyd ×2 · Konya 1415 (9 ay) … | %0 → %85 | Veri var, gün/ay farkı 30'u aşıyor. Ölçülmüş, tek tek kapatılabilir |
-| **6** | 🔵 | **6 Ağustos hasadı** — Lur atabeglikleri (413 yıl, `iran` pembesi) · `iran` künyesi YOK · Muzafferî üçlüsü · `astrahan-hanligi` (14 aşım kapatır) | %0 → %70 | Ölçülmüş, sahipsiz. **Şikâyet ÜRETMİYOR** ⇒ acil değil |
-| **7** | 🔵 | **40 renksiz kimlik / 238 pencere** — `bengal-sultanligi` 22 · `kenmu` 17 · `fransiz-cinhindi` 16 · `haydarabad-nizam` 15 … | %0 → %80 | Uzak coğrafya, hedef zaten alçak. Dosya AÇMIYOR (hepsi bağlı partilerde) |
-| **8** | 🔵 | **41 dizinsiz kimlik / 246 pencere** | %0 → %80 | %96'sı `asya` merge borcu — en uzak halka |
-| **9** | ⚪ | **`isg:` borcu** — Niş 1737 · Semendire 1789 · Bihaç 1878 | %0 → %100 | Yeni doğan `2i`nin tavanı **zaten sağlanıyor** (3/3). Küçük, acele yok |
-
----
-
-## 🔴 Sıra niçin böyle — açıkça
-
-```
-①-②  DARBOĞAZ      dakikalar/tek satır, ama başkasını bekletiyor
-③     KÖK SEBEP     `2t`nin kalanı buradan; etiketle uğraşmak semptom tedavisi
-④     KULLANICI     kendi sözü + biri TEKRAR eden madde (kural ②)
-⑤-⑥  ÖLÇÜLMÜŞ      ama kimseyi bloke etmiyor
-⑦-⑧  UZAK HALKA    hedef zaten %80; dosya açmıyorlar
-⑨     TAVAN SAĞLI   borç var ama denetim ✓ diyor
-```
-
-⚠️ **③ niçin ④'ten önce:** dört görsel şikâyetin bazıları o beş boşluğun
-belirtisi olabilir. Kökü kapatmadan belirtiyi kovalamak, aynı işi iki kez
-yapmaktır.
-
-⚠️ **⑦ niçin ②'den sonra:** 40 renksiz kimlik büyük bir sayı ama **hiçbir
-dosyayı açmıyor** — hepsi zaten bağlı partilerde. `ryazan` ise küçük ama bir
-ödüncü kapatıyor. **Sayı büyüklüğü öncelik değildir; açtığı kapı önceliktir.**
+| iş | ölçüm |
+|---|---|
+| **`zend` yaşadı** | `iran` 261 → **132** pencere · `zend` 0 → **124**. Künye VERİ DEVLET, renk RENK 2, taşıma koordinatör — **üç oturum buluştu** |
+| **Hûzistan'ın 58 yılı** | 8 nokta `iran` → `lur-i-buzurg`. TDV iktâ cümlesiyle; `celayirli` alternatifi **reddedildi** (TDV Celâyirli'yi 1408'e koyuyor) |
+| **Nadir Şah'ın 5 noktası** | `iran` → `afsar` (Attock · Râvalpindi · Peşâver · Kâbil · Gazne) |
+| **Tunus 1569/1573** | 39 yıllık tek parça `hafsi` → Uluç Ali + Don Juan zinciri |
+| **İbrâil 1809/1828** | üç yüzyıllık kesintisiz `d:` → iki Rus işgali `isg:` |
+| **10 yeni künye** | zend · iran · galzay · turkmen · ryazan · lur ×2 · muzafferi · incu · kutlughanli |
+| **9 yeni renk** | aynı küme (renk 241 → 249) |
+| **`Değişmez 2t`** | 41 → **39** (tavan 42) |
+| **`CLAUDE.md §7`** | 🔴 **"iş üstündeyim" kuralı doğdu** — ClaudEmre'de `F15` oldu |
+| **BEKLEYENLER.md** | yeniden yazıldı (① ölçtüm ② bulamadım ③ istiyorum) + üreticide **iki sessiz satır kaybı** düzeldi |
+| **Kutu** | Emre'nin 3 cevapsız mesajı cevaplandı, biri kapatıldı |
+| **Ölü slug taraması** | **0** — ertelenmiş künye kalmamış (VERİ DEVLET, yöntemi yazılı) |
 
 ---
 
-## Kapananlar — 6-7 Ağustos
+## Sıra — yarın buradan devam
+
+| # | durum | iş | niçin bu sırada |
+|---|---|---|---|
+| **1** | ⚪ | 🔴 **BATTANİYE AD KARARI — Emre'de** · fiyat ölçüldü: **≈7-9 yeni künye + 2 düzeltme** · en büyük kalem `rusya` 1917-1923 (242 kayıt) | Karar gelmeden **hiçbir şey yazılmıyor** — "hayır" çıkarsa yazılmamış olması kazanç. VERİ DEVLET hazır bekliyor |
+| **2** | ⚪ | **İran 1335-1501** — `muzafferi` · `incu` · `kutlughanli` künye+renk **hazır**, taşıma bekliyor | Emre **erteledi** (S2 = a). Karar gelince taşıma hazır |
+| **3** | ⚪ | **`galzay` taşıması** — Kandehar 1709-1738 | künye ✅ renk ✅ — taşıma yapılabilir, İran kararıyla birlikte yapılsın |
+| **4** | ⚪ | **Kavalalı Suriye 1832-40** | Şam·Halep·Kütahya·Nizip maddeleri VAR, **1840 istirdat maddesi YOK**. Dönemi kapatmak `Değişmez 2`yi kırar ⇒ önce kronoloji maddesi |
+| **5** | ⚪ | **`Luristan` + `Zagros içi`** — `iran` 1335→1508 (173 yıl) | Lur-ı Büzürg 1424'te bitiyor; bölmek 1424'te maddesiz kırılma açar, `2s` tavanı (121) **tam dolu** |
+| **6** | 🔵 | **Beş görsel şikâyet** (kutu) — Cezayir · Timur/Bağdat ×2 · başkent yıldızı · Ahîler | Kullanıcının kendi sözü; ikisi **tekrar eden madde** ⇒ kural ② |
+| **7** | 🔵 | **9 tarih uyuşmazlığı** — Agadir · Şehrizor · Bucaş · Cüneyd ×2 · Konya 1415 | ölçülmüş, tek tek kapanır — kronoloji oturumu işi |
+| **8** | 🔵 | **Kronoloji çukurları** — 1250-1299: **6 madde** · 1600-1649: **62** (komşuları 111 ve 81) | Analizde ölçüldü; kuruluş devri en ince yer |
+| **9** | 🔵 | **40 renksiz + 40 dizinsiz kimlik** (kuyruk dosyaları) | Uzak halka, dosya açmıyor, hedef zaten %80 |
+| **10** | ⚪ | **`isg:` borcu** — Niş 1737 · Semendire 1789 · Bihaç 1878 | `2i` tavanı zaten sağlanıyor (3/3) |
+| **11** | ⚪ | **B8 — site 53 MB** | **Mobil ölçümü yok** — kararın önündeki tek gerçek boşluk |
+| **12** | ⚪ | **Ö1/Ö2 yeni değişmezler** | Ö1 (hayalet devlet) ölçüldü: bugün **1085 pencere** ihlal ederdi ⇒ **battaniye ad kararından SONRA** yazılmalı, yoksa alarm değil gürültü olur |
+
+---
+
+## 🔴 Günün dersi — koordinatörün üç hatası, üçü de aynı kökten
 
 ```
-✅ BENEK ENKLAV         enklav 9 → 0 · kullanıcının ÜÇ KEZ gelen şikâyeti
-✅ Değişmez 2t          59 → 41, tavan 49 → 42 — projede İLK KEZ ✓
-✅ Değişmez 2i          yeni denetim doğdu (isg: on aydır görünmezdi)
-✅ altı parti bağlandı  ek10·ek11·ek12·ek19·ek21·ek22 → 1800 nokta
-✅ ekokuma.js           doğdu, 3 kart (yeniçeri · vassallık · Ahîler)
-✅ padişah kartvizit    19/26 → 26/26
-✅ r833 · r864          iki yayın
+① "1021 pencere dizinsiz"      `harita:` takma ad alanını görmedim
+② "RENK 2 ölü"                 bakmadan hüküm verdim — oturum çalışıyordu
+③ "iran'ın t:'i 1923 olsun"    emsalin aynı sınıfta olduğunu doğrulamadım
 ```
+📌 Üçünün ortak kökü: **karşılaştırdığım şeyin TANIMINI okumadan karşılaştırdım.**
+Üçü de düzeltildi; ikisini aşağı akış (araç · oturum) yakaladı, birini kendim.
+
+⚠️ Ve bir dördüncüsü **VERİ DEVLET'te** çıktı, kökü aynı değil ama sınıfı aynı:
+betiği 27 dosyayı `eval()` ediyor ama yalnız `window.YERLESIMLER`i okuyordu —
+**26 dosya sessizce atlanıyordu.** Kalıp kaçırması gürültü çıkarır; yanlış
+değişken adı **hiç çıkarmaz.** `CLAUDE.md §5`in en saf vakası.
