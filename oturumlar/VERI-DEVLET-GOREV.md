@@ -872,3 +872,82 @@ TAMAMEN dokunulmamış hâlde. `navarra` düzeltildi. `data/devletler.js` yine
 pathspec'siz bırakıldı, yalnız bu ilerleme dosyası commit edildi.
 
 Koordinatöre haber verildi.
+
+---
+
+## ⑰ Üretim koşusu sürerken iki iş — `harita:` ölçümü (② uygulandı, ① AÇIK SORU)
+
+### ① `harita:` alanı eksikleri — ÖLÇÜLDÜ, KÖRLEMESİNE EKLENMEDİ, açık soru var
+
+Verilen komutla ölçtüm (`girdi.yukle()`, 27 çekirdek dosya, 278 farklı
+`d:` kimliği canlı haritada). Bugün yazdığım/yazacağım künyeler için sonuç:
+
+```
+surakarta                          1   ← zaten kullanılıyor, id=harita, EK GEREKMİYOR
+yogyakarta                         2   ← zaten kullanılıyor, id=harita, EK GEREKMİYOR
+zend                              124  ← zaten kullanılıyor, id=harita (harita: alanı zaten VAR, 7 Ağustos'ta eklenmişti)
+lur-i-buzurg                       8   ← zaten kullanılıyor, id=harita, EK GEREKMİYOR
+turkmen                            8   ← zaten kullanılıyor, id=harita, EK GEREKMİYOR
+iran                              124  ← ayrı konu (1335-1501 kararı bekliyor)
+evfat, dacu, tunciler,
+makdisu-sultanligi, ryazan          0  ← HENÜZ HİÇ KULLANILMIYOR (yerlesimler'e taşınmadı)
+moskova, sovyet-rusya, fransa-cumhuriyet,
+isvec-birlik-oncesi, polonya-erken,
+litvanya-buyuk-dukalik, norvec-kralligi,
+savoya, floransa, bonacolsi, imereti,
+gurcistan-demokratik-cumhuriyeti, poni,
+sanzan, ermenistan-demokratik-cumhuriyeti,
+azerbaycan-demokratik-cumhuriyeti   0  ← HENÜZ HİÇ KULLANILMIYOR
+```
+
+**Sonuç: adı geçen 14 kalemin (evfat/dacu/tunciler/makdisu-sultanligi/ryazan +
+9 Dalga 2) HİÇBİRİ şu an haritada `id:`sinden FARKLI bir kimlikle
+kullanılmıyor — çoğu HİÇ kullanılmıyor (henüz `yerlesimler`e taşınmadı),
+ikisi (surakarta/yogyakarta) zaten `id`siyle birebir kullanılıyor.**
+Verdiğiniz kural ("id ile harita kimliği AYNIYSA harita: alanı GEREKMİYOR")
+harfiyen uygulanırsa **bu 14 kaleme EK YAPILACAK BİR ŞEY YOK.**
+
+⚠️ **AÇIK SORU — bekletmeden soruyorum (§7.1⑥):** "kırk renksiz kimlik"i
+göremedim (mesajda listelenmedi, yalnız sayı verildi) — o kırk kimliği
+KÖRLEMESİNE aramaya çalışmadım, çünkü hangi künyeleri kapsadığını bilmeden
+"aynı mı farklı mı" ölçemem. Ayrıca gerçek bir ÇELİŞKİ var: mevcut
+`rusya`/`fransa`/`isvec`/`danimarka`/`lehistan`/`norvec` kayıtlarının
+HEPSİNDE `harita:` alanı `id:`siyle AYNI DEĞERLE zaten yazılı duruyor
+(ör. `{ id:"danimarka", ..., harita:"danimarka" }`) — yani mevcut dosyanın
+YERLEŞİK GELENEĞİ "id=harita olsa bile açıkça yaz"ken, bana verilen YENİ
+kural "gerekmiyor" diyor. RENK 2'nin beş kez şikâyet etmesi, aracının
+`id:`ye DÜŞMEDEN yalnız `harita:` alanını okuyor olabileceğini
+düşündürüyor — eğer öyleyse yeni kural (durum_tablosu.py:48) ile RENK 2'nin
+kendi aracı FARKLI davranıyor demektir. **İki seçenek sunuyorum:**
+(a) yeni kuralı harfiyen uygula, 14 kaleme dokunma — RENK 2'nin aracını
+kontrol edin; (b) eski gelenek gibi 14 kaleme de `harita:"<id>"` (kendi
+id'siyle aynı) ekleyeyim, zararsız ama "gerekmiyor" kuralına aykırı. Hangisi
+isteniyor, ve "kırk renksiz kimlik" listesi nedir — bildirin, elimde
+olmadan ilerleyemem.
+
+### ② `ermenistan-demokratik-cumhuriyeti` + `azerbaycan-demokratik-cumhuriyeti` — YAZILDI
+
+İki yeni künye eklendi (`data/devletler.js` 337→**339**):
+
+- **`azerbaycan-demokratik-cumhuriyeti`** (1918-05-28 → 1920-04-27) — TDV
+  `azerbaycan` (200, CANLI) birebir doğruladı: "28 Mayıs 1918'de Azerbaycan
+  Demokratik Cumhuriyeti ilân edildi", "27 Nisan 1920'de... Kızıl Ordu...
+  son verdi". ⚠️ Verdiğiniz tarih (04-28) ile 1 gün fark var — TDV'nin kendi
+  metni ayırıyor: cumhuriyetin SONU 27 Nisan, ARDIL SSC'nin kuruluşu 28
+  Nisan (\"Hemen ardından 28 Nisan 1920'de Azerbaycan Sovyet Sosyalist
+  Cumhuriyeti kurulmuştur\") — iki farklı olay, ben cumhuriyetin KENDİ
+  sonunu (27'sini) yazdım, ozette açıkça not düştüm.
+- **`ermenistan-demokratik-cumhuriyeti`** (1918-05-28 → 1920-12-02) — ⚠️
+  **BULUNAMADI (TDV'de):** `ermenistan` slug'ı ÖLÜ (302) — alternatifler de
+  denendi (`ermeniler`, `ermeni`, `ermenistan-cumhuriyeti`, hepsi 302).
+  `kafkasya` maddesi genel çerçeveyi doğruluyor ("Azerbaycan, Gürcistan,
+  Ermenistan... millî cumhuriyetleri kuruldu") ama gün vermiyor. Tarihler
+  standart akademik kaynağa göredir (§4) — verdiğiniz tarihlerle (1918-05-28,
+  1920-12-02) yazdım, TDV bunları DOĞRULAMADI, çürütmedi de.
+
+Üçü de (`gurcistan-demokratik-cumhuriyeti` dahil) `bolge:"kafkasya"`,
+aynı 1918-05-2x kuruluş penceresinde ama AYRI bitiş tarihleriyle yazılı.
+Doğrulandı (`node -e eval`): 339 kayıt, mükerrer id 0, ters/sıfır dönem 0.
+
+`data/devletler.js` pathspec'siz bırakıldı, yalnız bu ilerleme dosyası
+commit edildi. Koordinatöre haber verildi — ① için cevap bekliyorum.
