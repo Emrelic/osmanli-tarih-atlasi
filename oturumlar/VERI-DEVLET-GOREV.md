@@ -787,3 +787,88 @@ hükümdarlık tarihi, §4 gereği). Zincir artık kesintisiz: `dacu` (1200-1400
 `data/devletler.js` yine pathspec'siz bırakıldı, yalnız bu ilerleme dosyası
 commit edildi. Koordinatöre haber verildi; dört araştırma oturumunun raporu
 (Balkanlar/Akdeniz/Hindistan-İran/Doğu Asya) geldikçe bekleniyor.
+
+---
+
+## ⑯ DALGA 2 — beş araştırma oturumu teslimi işlendi (317 → 337 kayıt)
+
+Bir API bağlantı hatasıyla `surakarta`/`yogyakarta` ortasında durmuştum;
+koordinatör 335 kayıtta (sözdizimi temiz, mükerrer 0) doğrulayıp devam
+etmemi istedi. Kaldığım yerden bitirdim.
+
+### ① 12 künye kaleminden 9'u yazıldı, 3'ü DOKUNULMADI (gerekçeyle)
+
+**Yazılanlar** (9 yeni kayıt, hepsi `node -e eval` ile doğrulandı):
+`savoya` (1032-1720-08-02, TDV yok/standart akademik) · `floransa`
+(1115-1532, TDV yok/standart akademik, `toskana`nın kendi ozetiyle
+doğrulandı) · `bonacolsi` (1273-1328-08-16, TDV yok/standart akademik,
+`mantua`nın f:1328-01-01'iyle aynı yıl) · `imereti` (1490-1810-02-20, TDV
+`gurcistan` yalnız "1804 birleşme" diyor, kesin ilhak standart akademik) ·
+`gurcistan-demokratik-cumhuriyeti` (1918-05-26–1921-03-16, TDV kuruluşu
+birebir doğruluyor, bitiş günü atlasın kendi Batum verisiyle uyumlu) ·
+`poni` (977-1405, TDV `bruney` Po-ni'den hiç bahsetmiyor, standart Çin
+tarihi kaynağı) · `sanzan` (1322-1429, 1281-1322 BİLEREK boş bırakıldı —
+gerçek boşluk, uydurulmadı) · `surakarta` + `yogyakarta` (1755-02-13,
+Giyanti Antlaşması — TDV `mataram` ölü/302, standart akademik kaynak).
+
+**🔴 DOKUNULMADI — iki kalem ZATEN VARDI (araştırma raporu güncel değildi):**
+- **`astarhan-hanligi`** — bu künye 7 Ağustos'ta ZATEN yazılmıştı, id
+  `astarhan` (TDV'nin kendi transkripsiyonu), f/t (1466-1556) BİREBİR aynı,
+  `harita:"astarhan"` alanı da o gün eklenmişti. DALGA 2 araştırma oturumu
+  muhtemelen `yerlesimler_ek22.js`deki eski yorumu ("astrahan-hanligi kimliği
+  yok") görüp künyenin `astarhan` adıyla zaten var olduğunu FARK ETMEMİŞ —
+  benim 7 Ağustos'taki notum tam bunu açıklıyordu. Yeni künye YAZILMADI,
+  mükerrer olurdu.
+- **`irlanda-hur-devleti`** — aynı desen: `irlanda-serbest-devlet` id'siyle
+  ZATEN VAR, f/t (1922-12-06–1923-10-29) BİREBİR istenen aralık. Yeni künye
+  YAZILMADI.
+- **`sulu` (Buansa Racalığı, 1390-1457)** — talimat zaten "YAZMA, bulunamadı
+  bırak" diyordu, kaynak zayıf olduğu için hiç araştırmadım, "bulunamadı"
+  olarak bırakıldı.
+
+📌 İki mükerrer kalem, `§5`'in "bayat satır bir araştırma oturumunu yanılttı"
+desenine tam uyuyor — burada bayat olan tek dosya değil, PARALEL çalışan bir
+araştırma oturumunun ELİNDEKİ SNAPSHOT'tı. Koordinatöre paralel oturumların
+`devletler.js`in EN GÜNCEL hâlini (özellikle aynı gün içindeki commit'leri)
+görüp görmediğini kontrol etmesini öneririm.
+
+### ② Beş TDV-künye tarih çelişkisi — ÖLÇÜLDÜ, `navarra` HARİÇ DEĞİŞTİRİLMEDİ
+
+| kimlik | künyedeki | TDV'nin dediği | fark | durum |
+|---|---|---|---|---|
+| `eflak` | f:1330-01-01 | TDV `eflak`: "1310 yılında... Basarab... voyvoda ortaya çıktı", 1330 Posada'da bağımsızlık | 20 yıl | ÖLÇÜLDÜ, DEĞİŞTİRİLMEDİ — muhtemelen iki farklı SORU (voyvoda mı oldu / bağımsız mı oldu), §74 emsali gibi olabilir, karar koordinatörde |
+| `brunei-sultanligi` | f:1368-01-01, kronoloji "Muhammed Şah tahta çıktı" | TDV `bruney`: "Muhammed Şah (**1405-1415**) adını alan... Alang Betatar'ın sultanlık kurmasıyla başlar" — AYNI KİŞİ, TDV'nin verdiği yıl farklı | ~40 yıl | ÖLÇÜLDÜ, DEĞİŞTİRİLMEDİ — künyenin kendi kronoloji CÜMLESİ ile TDV'nin aynı olayı anlattığı görülüyor, `poni`nin t:'si TDV'nin 1405'ine bağlandı (yukarı bak) ama `brunei-sultanligi`nin kendisi değiştirilmedi |
+| `demak` | t:1587-01-01 | TDV `demak`: "Demak bölgede güçlenen diğer devletlerin hâkimiyetine girdi (**1578**)" | 9 yıl | ÖLÇÜLDÜ, DEĞİŞTİRİLMEDİ (bir ara ozet'e not eklemiştim, "tek başına değiştirme" talimatına daha sıkı uymak için GERİ ALDIM — künye şu an tamamen dokunulmamış hâliyle duruyor) |
+| `navarra` | t:1512-07-25 | Kendi kronolojisi: "1620-10-19 Béarn/Fransız kolu Fransa'ya katıldı" | 108 yıl | **DÜZELTİLDİ** (talimat böyleydi) — bu TDV çelişkisi değil, künyenin KENDİ İÇİNDE t: alanı ile son kronoloji satırının tutarsızlığıydı. `t:` 1620-10-19'a çekildi, 1512 satırı `son`dan `toprak-kayip`e, 1620 satırı `birlesme`den `son`a çevrildi |
+| `sih-imparatorlugu` | f:1801-04-12 | Misl konfederasyonu ~1765'ten aynı siyasi gövdenin erken hâli (standart tarih bilgisi) | 36 yıl | ÖLÇÜLDÜ, DEĞİŞTİRİLMEDİ — **TDV bu tartışmayı hiç KAPSAMIYOR**: `misl` slug'ı CANLI ama alakasız bir Arapça terim maddesi ("benzeşme/özdeşlik"), Sih tarihiyle ilgisi yok; `pencap` maddesi de Misl'lerden hiç bahsetmiyor. Yani bu köşe TDV'nin DEĞİL, tamamen standart akademik kaynağın konusu — §4'ün "TDV'nin kapsamadığı coğrafyalar" maddesine tam örnek |
+
+🔴 **AYRI BULGU — `sih-imparatorlugu`nun ozet alanında veri bozulması var,
+BEKLETMEDEN bildiriyorum (§7.1⑥):** Künyenin `ozet:` alanı şu paragrafı
+taşıyor: *"⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 ÇAHAR'ın (İç Moğolistan)
+teslimidir; HALHA 30 Mayıs 1691'de Dolonnor'da tâbi oldu..."* — bu METIN SİH
+İMPARATORLUĞU İLE HİÇ İLGİLİ DEĞİL, Moğolistan/Halha tarihinden bir başka
+kaydın notu yanlışlıkla buraya yapıştırılmış (muhtemelen toplu bir düzenleme
+sırasında kopyala-yapıştır hatası). **Ben dokunmadım** (bu künye "tek başına
+değiştirme" listesindeydi) ama bu ayrı bir düzeltme gerektiriyor — Sih
+İmparatorluğu ozeti temizlenmeli, o paragraf muhtemelen Kuzey-Yuan/Halha
+kaydına ait.
+
+### ③ Yeni denetim pratiği — `artuklu` tipi künye-içi/harita çelişkisi
+
+Anladım ve kabul ediyorum: bundan sonra künye yazarken/düzeltirken kronoloji
+satırlarının haritayla (yerlesimler'in `d:` dönemleriyle) çelişip
+çelişmediğine bakacağım, görürsem BEKLETMEDEN bildireceğim. `artuklu`
+örneğini (kronoloji "1234 Harput Selçuklulara geçti" diyor, harita 1465'e
+kadar Artuklu boyuyor) zaten koordinatör biliyor, yeniden ölçmedim — bu
+turda YENİ bir örnek bulmadım (ama yukarıdaki `sih-imparatorlugu` ozet
+bozulması bu pratiğin bir yan ürünü olarak ortaya çıktı).
+
+### GÜNCEL SAYIM
+
+`data/devletler.js`: 328 (bir önceki teslim) → **337** (+9 DALGA 2 künyesi).
+Doğrulandı (`node -e eval`): sözdizimi temiz, mükerrer id 0, ters/sıfır
+dönem 0. `demak` ve `eflak`/`brunei-sultanligi`/`sih-imparatorlugu`
+TAMAMEN dokunulmamış hâlde. `navarra` düzeltildi. `data/devletler.js` yine
+pathspec'siz bırakıldı, yalnız bu ilerleme dosyası commit edildi.
+
+Koordinatöre haber verildi.
