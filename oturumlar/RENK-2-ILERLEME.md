@@ -1515,3 +1515,84 @@ ve `makdisu` partisinde de 600 km eşiği **yetmemiş**, kümeyi bütün olarak
 ölçmek gerekmişti. Aynı coğrafya, aynı sıkışıklık.
 ⇒ Sıra gelirse o dörtlüyü (`habesistan` · `funj` · `somali` · `adal`) **tek
 küme** olarak çözmek, tek tek uğraşmaktan doğru olur — `B15`in tavan tarafı.
+
+---
+
+## ㉞ KOŞU SONRASI — dört ölçüm, iki düzeltme, iki yeni renk
+
+### ① `renk_fark.py` — ÖNGÖRÜ BİREBİR TUTTU
+```
+nokta 1800 → 1800 · kimlik 299 → 299 · komşu çifti 1579 → 1579
+doğan 0 · ölen 0 · eşiğin altına düşen 0
+```
+187 nehir ve 163 engel poligonu **nokta eksenine hiç dokunmadı** — tek bir
+komşuluk çifti bile değişmedi. Kilit sırasındaki ayrım doğruydu:
+*"sınav `renk_olc`de değil `renk_cikti`de."*
+
+### ② `renk_cikti.py` — ASIL SINAV, ve ilk kez anlamlı
+```
+değen kimlik çifti   653 → 759   (+106)
+gövde/kesit          115-53      →  127-63
+gövdesiz kimlik       61 → 21
+ΔE < 12 değen çift     0 →  0    ← YENİ İHLAL YOK
+```
+Geometri gerçekten değişti (+106 çift) ama **hiçbir çift eşiğin altına
+düşmedi.** İki tarafın da tabanı ilk kez gerçek ölçümdü.
+
+**SINIRDA maruziyetleri BÜYÜDÜ — koşudan sonra yeniden ölçüldü:**
+```
+isvec ↔ rusya        123,21 → 128,20   +4,99
+fas   ↔ ispanya       19,83 →  24,21   +4,38
+ming  ↔ tibet         65,41 →  66,20   +0,79
+funj  ↔ habesistan    40,35 →  40,60
+```
+📌 Koordinatörün *"önce yeniden ölç, sonra düzelt"* kararı isabetliydi:
+düzeltmeyi koşudan önce yapsaydım **bayat sayıya** göre yapmış olurdum.
+
+### ③ İKİ TEPE ÇİFT KAPATILDI
+```
+isvec  #63bda2 → #48eac3   rusya'dan  12,3 → 22,4
+tibet  #3cc048 → #e1aed2   ming'den   14,2 → 36,7
+```
+**İkisi de İHLAL DEĞİLDİ** (12,3 ve 14,2, eşiğin üstünde). Taşınma gerekçesi
+**maruziyet**: 128,20° atlasın kuzey yarısındaki en uzun tek çizgi, 66,20°
+ikincisi; kalan sekizin en uzunu 40,60°, yani başka bir kefede.
+
+Hangisinin taşınacağı ölçüldü — ikisinde de **ucuz olan**:
+```
+rusya          ÇÖZÜLEMEDİ (paletin en kısıtlı düğümü, aday YOK) → isvec taşındı
+ming-hanedani  49 engel · en iyi pay 12,4                        → tibet taşındı
+tibet          20 engel · en iyi pay 19,6
+```
+`cungar` · `cohor` · `norvec` vakalarındaki aynı ölçüt, dördüncü kez.
+
+⇒ Güncel palete karşı ölçüm: **ikisi de SINIRDA listesinden düştü.** Kalan en
+uzun maruziyet artık 40,60° (`funj ↔ habesistan`).
+
+📌 **VE BİR ŞEY GÖRÜNÜR OLDU:** iki çift listeden düşünce alttan iki yeni
+girdi çıktı — `ahom ↔ yuan-hanedani` (13,69°) ve `joseon ↔ ming-hanedani`
+(17,37°). Bunlar hep oradaydı, ilk ondan taşmışlardı. **Liste bir kuyruk
+değil, pencere**: tepesi temizlenince altı görünüyor.
+
+### ④ KAFKAS ÜÇLÜSÜ YAZILDI — künye sluglarıyla
+```
+ermenistan-demokratik-cumhuriyeti  #1221ae
+azerbaycan-demokratik-cumhuriyeti  #eacf75
+gurcistan-demokratik-cumhuriyeti   #90eab1  (daha önce yazılıydı)
+aralarında 61,5 / 57,0 / 21,1
+```
+Hazırlığımdaki `ermenistan`/`azerbaycan` adları künyede **yoktu**; künyeden
+alındı.
+
+### ÖLÇÜM
+```
+BOYALAR      299 → 301        canlı 1800 nokta · künye 339
+renk_olc     görünmez 0 · çakışma 0 · aynı-hex 0          ✓
+renk_fark    doğan 0 · düşen 0 · hex değişen 2 · yeni 2   ✓
+renk_cikti   759 değen çift · ΔE<12 olan 0                ✓
+--dogrula    4 öneri · 0 fark                             ✓
+```
+⚠️ `renk_cikti` ① uyarıyor: `isvec` ve `tibet` çizili haritada **eski
+renkle** — bir sonraki üretim koşusunu bekliyorlar.
+
+Her iki taban da güncellendi (`renk-taban.json` · `renk-cikti-taban.txt`).
