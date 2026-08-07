@@ -9,7 +9,19 @@
   --metin: #2b2313;
 }
 
-html, body { height: 100%; }
+/* 🔴 `overflow: hidden` HTML'DE DE OLMALI — yalnız body'de yetmiyor.
+   Kullanıcı (7 Ağustos 2026): "sayfada bir bozukluk var, butonlar
+   görünmüyor, tam sayfa yapma butonu ... panel butonunun yarısı görünüyor."
+   Ölçüldü: `document.scrollY = 217` — BELGENİN KENDİSİ kaymıştı ve üst bar
+   (40px) ekranın üstüne çıkmıştı. Üç şikâyetin üçü de tek sebepten:
+   ☰ Butonlar üst barda, üst bar kayınca hem o hem içindeki "tam ekran"
+   ulaşılamaz oluyor, `#btn-panel` de yarım kalıyor.
+   SEBEP: js/app.js:2535 kronoloji akarken etkin maddeye
+   `scrollIntoView({block:"center"})` çağırıyor — ve scrollIntoView
+   BÜTÜN kaydırılabilir ATALARI kaydırır, `html` dâhil. `body`de
+   `overflow:hidden` vardı ama `html`de yoktu, o yüzden belge kaydı.
+   ⚠️ Yani kusur zaman çubuğu OYNARKEN doğuyor; duran sayfada görünmüyor. */
+html, body { height: 100%; overflow: hidden; }
 body {
   font-family: "Segoe UI", Georgia, serif;
   display: flex;

@@ -2532,7 +2532,19 @@ function olaylarGuncelle(t) {
     var simdi = Date.now();
     if (!zamanlayici || simdi - sonKaydirma > 700) {
       sonKaydirma = simdi;
-      olayDom[yeni].scrollIntoView({ block: "center", behavior: zamanlayici ? "auto" : "smooth" });
+      // ⚠️ scrollIntoView BÜTÜN kaydırılabilir ATALARI kaydırır — `html` dâhil.
+      // 7 Ağustos 2026: zaman çubuğu oynarken belge 217px kaydı ve ÜST BAR
+      // ekranın dışına çıktı; kullanıcı "butonlar görünmüyor, panel butonunun
+      // yarısı görünüyor" dedi. Asıl çare css/style.css'te (`html`e de
+      // overflow:hidden), ama burada da kaynağı kesiyoruz: liste kabını ELLE
+      // kaydırmak hiçbir atayı etkilemez.
+      var _kap = olayDom[yeni].parentElement;
+      if (_kap && _kap.scrollHeight > _kap.clientHeight) {
+        _kap.scrollTop = olayDom[yeni].offsetTop - _kap.clientHeight / 2
+                         + olayDom[yeni].offsetHeight / 2;
+      } else {
+        olayDom[yeni].scrollIntoView({ block: "nearest", behavior: zamanlayici ? "auto" : "smooth" });
+      }
     }
   }
   sonVurgulanan = yeni;
