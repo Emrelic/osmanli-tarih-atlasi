@@ -1314,3 +1314,66 @@ ayırma): üç kimlik için havuz bol, bedeli yok.
 ⚠️ İkisinin de künyesi yok; künye gelince **pencereler künyeden yeniden
 ölçülmeli** — yukarıdaki tarihler standart akademik referanstan, künyeden
 değil. (`darfur` 1603→1695 vakası: kendi ölçtüğün sayı da bayatlar.)
+
+---
+
+## ㉚ `arac/renk_fark.py` DOĞDU — "0 çakışma" demek niçin yetmiyor
+
+Kilit sürerken bir alet yazıldı. Sebebi bugünün üç vakası:
+```
+cungar ↔ buhara     Mâverâünnehir bağlanınca      10,5
+norvec ↔ portekiz   _ek12 bağlanınca               7,4
+cohor  ↔ kamboc     gün içi dönem değişimiyle     10,5
+```
+Üçünde de denetim **önce temizdi**, hiçbir hex değişmedi, ve çift **veri
+yüzünden** doğdu.
+
+🔴 **Ve `renk_olc.py`nin "0 çakışma" satırı bunu göremeyebilir:** sayı sabit
+kalıp **içerik** değişebilir. İki çift kapanıp iki yeni çift açılırsa toplam
+yine `0` görünür. ⇒ Yeni alet **sayıya değil KÜMEYE** bakıyor:
+```
+py arac/renk_fark.py --taban     koşudan ÖNCE durumu kaydet
+py arac/renk_fark.py             koşudan SONRA farkı bas
+```
+Raporladığı dört şey: **doğan** komşuluk çiftleri (ve hangileri eşiğin
+altında) · var olan çiftlerden **eşiğin altına düşenler** · hex'i değişen
+kimlikler · yeni kimlikler.
+
+### Taban alındı
+```
+1800 nokta · 299 kimlik · 1579 komşu çifti · 0 çakışma
+denetim/renk-taban.json
+```
+
+### 🔴 VE ALETİ İKİ YÖNDE DE SINADIM — biri eksik kalıyordu
+`renkler.py`nin kendi uyarısı var: *"Ateşleme yolunu sınadım, geçme yolunu
+değil."* Ben tersini yaptım ve **yakaladım:**
+```
+① geçme yolu   değişiklik yokken "TEMİZ" dedi           ✓
+② ateşleme     sahte tabanla: doğan çift · hex değişimi ·
+                yeni kimlik · nokta farkı — hepsi göründü ✓
+                ama "eşiğin ALTINA DÜŞEN" hiç ateşlemedi 🔴
+```
+Sebep testimdi: bugün eşiğin altında çift **yok**, yani o kod yolu gerçek
+veriyle hiç koşulamıyor. Eşiği geçici 25,0'a çekip zorladım — **132 düşen
+çift** buldu, çıkış kodu **1**.
+
+📌 **Ders: "alet çalışıyor" demek, aletin HER YOLUNU koşturmak demektir.**
+Bir dalı hiç ateşlenmemiş bir denetim, o dal için denetimsizdir — ve bugün
+tam o dal, koşudan sonra beklenen kusur sınıfını yakalayacak olan daldı.
+
+⚠️ Sınav sırasında `denetim/renk-taban.json` bozuldu ve **yedeğinden geri
+yüklendi**; taban şu an doğru (1800 · 299 · 1579 · 0).
+
+### Koşudan sonraki sıram
+```
+① py arac/renk_fark.py       — komşuluk (nokta tabanlı) farkı
+② py arac/renk_cikti.py      — ÇİZİLİ gövde farkı  ← asıl sınav burada
+③ çıkan kusuru ölç ve kapat
+④ künye gelmişse Kafkas üçlüsünü yaz
+```
+📌 Koordinatörün ilk ölçümü öngörüyü destekliyor: nehir 43 → **187**
+(beklenen 157'ydi), dağ 126 → 163. Ren · Volga · Ganj · Yangtze · Nijer ilk
+kez haritada — **Avrupa · Sibirya · Hindistan · Çin · Hindiçin · Batı
+Afrika** gövdeleri doğal hatta yaslanacak. `renk_cikti`nin ilk kez kusur
+göstermesi için en olası yer tam orası.
