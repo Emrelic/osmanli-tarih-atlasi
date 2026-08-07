@@ -764,3 +764,26 @@ KÜNYE 3, +4: evfat/dacu/tunciler/makdisu-sultanligi) + 1 düzeltme
 mükerrer id 0.
 
 Koordinatöre haber verildi, commit'i koordinatör yapacak.
+
+---
+
+## ⑮ `darfur.f` düzeltmesi uygulandı — 1603 → 1695
+
+Koordinatör kararını verdi: TDV birincil kaynak (§4), `darfur` maddesi
+Süleyman Solonc'un hükümdarlığını "1695-1715" diye tarihliyor, eski 1603'ün
+künyede kaynağı yoktu. Uygulandı:
+
+```
+ESKİ: f:"1603-01-01", kronoloji[0].t:"1603-01-01"
+YENİ: f:"1695-01-01", kronoloji[0].t:"1695-01-01"
+```
+
+`ozet:`e neden değiştiği not düşüldü (kaynaksız 1603 → TDV'nin 1695-1715
+hükümdarlık tarihi, §4 gereği). Zincir artık kesintisiz: `dacu` (1200-1400)
+→ `tunciler` (1400-1695) → `darfur` (1695-1916). Doğrulandı (`node -e eval`):
+328 kayıt, mükerrer id 0, `darfur.f`="1695-01-01". Ayrıca `evfat`'ın canlı
+çıkması koordinatör tarafından teyit edildi (araştırma raporu yanılmış).
+
+`data/devletler.js` yine pathspec'siz bırakıldı, yalnız bu ilerleme dosyası
+commit edildi. Koordinatöre haber verildi; dört araştırma oturumunun raporu
+(Balkanlar/Akdeniz/Hindistan-İran/Doğu Asya) geldikçe bekleniyor.
