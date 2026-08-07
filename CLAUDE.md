@@ -544,6 +544,25 @@ gibi tek satırlık kayıtlardan oluşan dosyalarda **sessiz veri kaybı** olur.
 
   ⚠️ **Bu istisna "hazır" demeyi kaldırmaz.** Dosyanı commit et, ama bulguyu
   yine koordinatöre bildir — commit teslim değildir, teslim mesajdır.
+- 🔴🔴 **CEVAP KENDİ PENCERENE YAZILMAZ — KOORDİNATÖRE MESAJ ATILIR.**
+  **Senin ekrana yazdığın metni koordinatör GÖRMEZ.** Kendi sohbet
+  pencerene *"iş üstündeyim"* yazmak, cevap vermemekle **aynı şeydir**.
+  Cevap ancak araçla gider:
+  ```
+  mcp__ccd_session_mgmt__send_message
+      session_id : sana mesaj GÖNDEREN oturumun kimliği
+                   (mesajın başındaki "From <ad>" etiketi odur;
+                    bulamazsan mcp__ccd_session_mgmt__list_sessions ile ara)
+      message    : cevabın
+  ```
+  🔴 **Doğuran vaka — 7 Ağustos 2026.** Dört araştırma oturumu iki kez
+  soruldu, ikisinde de "cevap gelmedi" sanıldı ve **ölü ilan edilmek
+  üzereydiler.** Kullanıcı baktı ve gördü: **dördü de cevap yazmıştı —
+  kendi pencerelerine.** Koordinatöre hiçbiri ulaşmadı.
+  ⇒ Kusur ne işçide ne koordinatördeydi: **kimse onlara cevabın nasıl
+  gideceğini söylememişti.** Araç vardı, bilgi yoktu.
+  📌 Ve bu, `F15`in eksik ayağıdır: *"cevap ver"* demek yetmiyor,
+  **"şu kanaldan ver"** demek gerekiyor.
 - 🔴 **"NE OLDU BİZİM İŞ?" SORUSU CEVAPSIZ BIRAKILMAZ — ÇALIŞIYOR OLSAN BİLE.**
   Koordinatör sorduğunda, iş sürüyorsa işçi oturum **hemen** şunu yazar:
   ```
@@ -572,6 +591,77 @@ gibi tek satırlık kayıtlardan oluşan dosyalarda **sessiz veri kaybı** olur.
 
 Yeni bir oturum başlatılacaksa görev tanımı `oturumlar/` altına yazılır
 (örnek: `oturumlar/OTURUM-3-DEVLETLER.md`).
+
+---
+
+## 7.1 HABERLEŞME PROTOKOLÜ — her şartnameye AYNEN kopyalanır
+
+🔴 **Bu bölüm 7 Ağustos 2026'da doğdu ve sebebi ölçülmüş bir kayıptır.**
+Beş araştırma oturumu açıldı; dördü işini yaptı, cevabını yazdı ve
+**hiçbiri koordinatöre ulaşmadı** — çünkü cevaplarını **kendi sohbet
+pencerelerine** yazmışlardı. Koordinatör iki kez sordu, canlı olup
+olmadıklarına baktı, ve **dördünü de ölü ilan edip kümelerini dağıtmak
+üzereydi.** Kullanıcı bakıp gördü:
+> *"Cevabı kendi sohbet penceresinde veriyorlar sana mesaj atmak yerine.
+> Oturumlar seninle nasıl irtibat kuracaklarını bilmiyorlar."*
+
+⇒ Kusur ne işçideydi ne koordinatörde: **şartnamede kanal yazmıyordu.**
+Bir işçi oturumun varsayılan davranışı cevabı **ekrana yazmaktır**, ve
+ekran koordinatöre **görünmez.**
+
+### ① KANAL — tek yol budur
+
+```
+mcp__ccd_session_mgmt__send_message
+    session_id : sana mesaj GÖNDEREN oturumun kimliği
+                 · gelen mesajın başındaki "From <ad>" etiketi odur
+                 · bulamazsan mcp__ccd_session_mgmt__list_sessions ile ara
+                   (koordinatör oturumu, sana iş veren oturumdur)
+    message    : cevabın
+```
+⚠️ **Kendi pencerene yazmak = hiç cevap vermemek.** İstisnası yoktur.
+⚠️ Kullanıcı senin pencereni okuyabilir ama **koordinatör okuyamaz** —
+ikisi ayrı muhataptır. Kullanıcıya anlatır gibi yazdığın rapor,
+koordinatöre **hiç yazılmamış** sayılır.
+
+### ② NE ZAMAN MESAJ ATILIR — dördü de zorunlu
+
+```
+AÇILINCA    "açıldım, brifingi okudum, şu dosyalar bende"
+            (koordinatör hangi dosyanın kimde olduğunu bilmezse aynı
+             dosyayı ikinci oturuma verir → SESSİZ VERİ KAYBI)
+KALEM KALEM  bir iş bitince HEMEN — biriktirme, gün sonuna saklama
+SORU GELİNCE iş sürüyor olsa bile HEMEN:
+             "iş üstündeyim · şu aşamadayım · tahminen şu kadar kaldı"
+             ("birazdan bildiririm" cevap DEĞİLDİR)
+BİTİNCE      teslim raporu — SAYIYLA. "Bitirdim" değil,
+             "24 → 7, şu yedisi şu sebeple kaldı"
+```
+
+### ③ İŞÇİ İŞÇİYE DOĞRUDAN YAZMAZ
+
+Bir oturumun işi başka bir oturumu ilgilendiriyorsa **koordinatöre**
+yazılır, koordinatör iletir. Sebebi yetki değil **ölçüm**: koordinatör
+kimin neyi beklediğini bilmezse darboğazı göremez, ve iki oturum
+birbirini beklerken üçüncü bir işi kimse yapmaz.
+📌 İstisna: koordinatör *"şu oturuma doğrudan yaz"* derse.
+
+### ④ NE YAZILIR — üçlü kural (`E7`)
+
+Koordinatöre ya da kullanıcıya giden **her madde** üç şey taşır:
+```
+① NE ÖLÇTÜM           sayıyla
+② NEYİ BULAMADIM      açıkça — "bulunamadı" diye yaz, boş bırakma
+③ NE İSTİYORUM        tek cümle; seçenekliyse şıklarıyla ve ÖNERİNLE
+```
+**Bulamadığını `bulunamadı` diye yazmak bir sonuçtur ve uydurmaktan kat
+kat değerlidir.**
+
+### ⑤ COMMIT TESLİM DEĞİLDİR
+
+Kendi `oturumlar/` dosyanı commit etmen işi teslim etmez. **Teslim
+mesajdır.** Dosyaya yazıp susan oturum, hiç çalışmamış oturumla aynı
+görünür.
 
 ---
 

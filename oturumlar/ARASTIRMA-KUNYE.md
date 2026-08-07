@@ -150,8 +150,28 @@ yazılmaz, yalnız haritadaki etiket değişir ve iş ucuzlar.
 
 ## ⑤ HABERLEŞME
 
-- **AÇILINCA HEMEN HABER VER:** *"açıldım, ARAŞTIRMA KÜNYE `<n>` benim,
-  şu kimlikler bende."*
+🔴🔴 **EN ÖNEMLİ SATIR — ÖNCE BUNU OKU: CEVABINI KENDİ PENCERENE YAZMA.**
+
+**Senin ekrana yazdığın metni koordinatör GÖRMEZ.** Kendi sohbet pencerene
+rapor yazmak, hiç yazmamakla **aynı şeydir**. Cevap ancak araçla gider:
+
+```
+mcp__ccd_session_mgmt__send_message
+    session_id : sana mesaj GÖNDEREN oturumun kimliği
+                 (gelen mesajın başındaki "From <ad>" etiketi odur;
+                  bulamazsan mcp__ccd_session_mgmt__list_sessions ile ara)
+    message    : raporun
+```
+
+🔴 **7 Ağustos 2026'da bu tam olarak yaşandı:** dört araştırma oturumuna iki
+kez *"ne oldu bizim iş?"* soruldu, ikisinde de cevap gelmedi sanıldı ve
+**ölü ilan edilmek üzereydiler.** Kullanıcı baktı: **dördü de cevap
+yazmıştı — kendi pencerelerine.** Hiçbiri koordinatöre ulaşmadı.
+⇒ Kusur onlarda değildi: **kimse onlara cevabın nasıl gideceğini
+söylememişti.** Bu satır onun için var.
+
+- **AÇILINCA HEMEN HABER VER** (yukarıdaki araçla): *"açıldım, ARAŞTIRMA
+  KÜNYE `<n>` benim, şu kimlikler bende."*
 - 🔴 **Koordinatör "ne oldu bizim iş?" derse, iş SÜRÜYOR olsa bile HEMEN
   cevap ver:** *"iş üstündeyim · şu aşamadayım · tahminen şu kadar kaldı."*
   *"Birazdan bildiririm"* cevap değildir. **Sessizlik "çalışıyor" demek
