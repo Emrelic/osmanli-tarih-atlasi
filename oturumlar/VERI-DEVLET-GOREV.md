@@ -493,3 +493,14 @@ not düştü; eski ölçümlerin yeniden koşulmasına gerek yok.
 **DURUM: BEKLEMEDE.** `norvec` kararı ve "battaniye ad" programının tamamı
 Emre'nin onayını bekliyor. `data/devletler.js`e karar gelene kadar hiçbir şey
 yazılmayacak. Yeni talimat gelene kadar aktif iş yapılmıyor.
+
+---
+
+## ⑫ 🔒 RESMİ KİLİT — petek üretimi koşuyor
+
+Koordinatör petek üretimini başlattı (~30 dk). `data/devletler.js`e koşu
+bitene kadar KESİNLİKLE YAZILMAYACAK — zaten beklemedeydim, bu resmî teyit.
+Bugünkü iki teslim (`zend` 124 pencere, `lur-i-buzurg` 8 nokta) bu koşuyla
+canlıya çıkıyor; `muzafferi`/`incu`/`kutlughanli`/`galzay` yazılı ve renkleri
+hazır, taşımaları İran 1335-1501 kararına bağlı (Emre'de). Koordinatör
+"dosya senin" diyene kadar hiçbir işlem yapılmıyor, tamamen beklemedeyim.
