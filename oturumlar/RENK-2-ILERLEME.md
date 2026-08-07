@@ -1596,3 +1596,85 @@ renk_cikti   759 değen çift · ΔE<12 olan 0                ✓
 renkle** — bir sonraki üretim koşusunu bekliyorlar.
 
 Her iki taban da güncellendi (`renk-taban.json` · `renk-cikti-taban.txt`).
+
+---
+
+## ㉟ AFRİKA BOYNUZU KÜMESİ — dört değil **27**, ve içinde beş gizli ihlal
+
+Koordinatör *"`habesistan · funj · somali · adal` dörtlüsünü tek küme olarak
+çöz"* dedi ve *"küme büyümüş olabilir"* diye uyardı. **Ölçtüm: küme 27
+kimlik.** Çekirdeğin 600 km'si taranınca Kızıldeniz'in iki yakası, Nûbe,
+Uman ve sömürge gövdeleri de içeri giriyor.
+
+### 🔴 VE İÇİNDE BEŞ EŞİK ALTI ÇİFT VARDI — `renk_olc` BEŞİNİ DE GÖREMİYOR
+```
+kaffa     ↔ sidamo     ΔE  2,8  (202 km)  İKİSİ DE 1390-1897 SAHNEDE
+mehdi     ↔ tunciler   ΔE 10,7  (123 km)
+mehdi     ↔ memluk     ΔE 10,3  (  0 km)
+ingiltere ↔ nebhani    ΔE 10,4  (  0 km)  eşzamanlı 1281-1515
+fransa    ↔ portekiz   ΔE  9,6  (5,2 km)  Çandernagor ↔ Hûglî
+```
+Hiçbiri Voronoi komşusu **değil** ⇒ `komsuluk()` çifti hiç kurmuyor ⇒ denetim
+*"0 çakışma"* diyor. Ölçüt *"hücreler değiyor mu"*; oysa **iki gövde değmeden
+de aynı ekranda yan yana durur.**
+
+📌 `kaffa ↔ sidamo` bu körlüğün en saf hâli: **ΔE 2,8**, yani neredeyse aynı
+renk, ve **beş yüzyıl boyunca ikisi de sahnede.** Bugüne kadar hiçbir denetim
+bunu bildirmedi.
+
+⇒ Bu, bugünün üçüncü **yapısal körlük** bulgusu:
+```
+renk_cikti ② hiç ölçmüyordu           → onarıldı, 0 yerine 653 çift
+--dogrula  öneriyi künyeyle sormuyor  → slug hatası ancak elle yakalandı
+renk_olc   komşu OLMAYAN yakın çifti  → bu beş ihlal
+           hiç kurmuyor
+```
+Üçü de aynı cümlenin farklı yüzü: **denetim VAR demek, o soruyu SORUYOR
+demek değildir.**
+
+### Beşi de kapatıldı — her ihlalin UCUZ tarafı taşındı
+```
+kaffa    #8e24aa → #d2ea8d   (sidamo #7b1fa2 paylaşımlı grup, o oynatılamaz)
+nebhani  #a0326b → #60121b   (ingiltere çözülemez düğüm)
+mehdi    #e19c69 → #eaa8ea   TEK taşımayla İKİ ihlal (memluk + tunciler)
+somali   #847245 → #1248d5   TEK taşımayla İKİ maruziyet (adal + habesistan)
+funj     #a28184 → #ed5a96
+portekiz #6b8ac9 → #34fcfc
+```
+```
+kaffa↔sidamo      2,8 → 60,9      ingiltere↔nebhani  10,4 → 19,6
+mehdi↔memluk     10,3 → 18,8      mehdi↔tunciler     10,7 → 35,9
+adal↔somali      12,0 → 58,1      habesistan↔somali  12,2 → 37,2
+funj↔habesistan  12,2 → 28,9      fransa↔portekiz     9,6 → 36,5
+```
+
+### 🔴 `fransa ↔ portekiz` — çözüm ÖLÇÜT GEVŞETMEDEN bulundu
+Önce ikisi de "çözülemedi" çıktı. **Hangi kısıtın bağladığını ölçtüm:**
+```
+tam band (C* p10-p75 + uyum p75 + Osmanlı şeridi)  → en iyi 11,5  🔴
+yalnız C* bandı                                    → en iyi 13,2  ✓
+yalnız görünürlük                                  → 40,1 (#00fc00 neon)
+```
+Bağlayan şey ΔE **değil**, `uyum` **tercihiydi**. Ve `renk_olc.py:132` bunu
+zaten söylüyor: *"uyum ölçüt değil TERCİH; eşiği geçen adaylar arasında ayrım
+yapar, EŞİĞİ DEĞİŞTİRMEZ."*
+⇒ Tercihten çıkıldı, **eşiklerin hiçbirine dokunulmadı.** `#34fcfc` uyum
+0,4383 — paletin p75'i (0,3132) üstünde ama **paletin kendi maksimumunun
+(0,5494) altında**, yani gözlenen aralık içinde.
+
+📌 **Ders: "çözülemedi" demeden önce HANGİ kısıtın bağladığını ölç.** Üç
+kısıt üst üste bindiğinde hangisinin gerçek eşik, hangisinin tercih olduğu
+görünmez olur — ve tercih yüzünden bir ihlal açık bırakılır.
+
+### ÖLÇÜM
+```
+KÜME 27 kimlik · eşik altı çift 0        (5 → 0)
+BOYALAR 301 · renk_olc temiz · renk_fark: hex değişen 6 · doğan 0 · düşen 0
+renk_cikti 759 değen çift · ΔE<12 olan 0
+```
+⚠️ Ve SINIRDA penceresi yine doldu — beklendiği gibi:
+```
+somali ↔ vollayta 39,74°  ← YENİ (somali taşındığı için)
+granada ↔ kastilya · bicapur ↔ vijayanagara · ahom ↔ yuan  ← alttan çıkanlar
+```
+**Liste bir pencere**, dördüncü kez doğrulandı.
