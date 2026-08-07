@@ -338,3 +338,38 @@ kayıtlar, ertelenmiş değil.
 eşleşti, 0 adres düzeltildi (düzeltilecek aday yok).**
 
 Listemdeki tüm kalemler bitti. Yeni iş bekliyorum ("battaniye ad" ölçümü).
+
+---
+
+## ⑨ "BATTANİYE AD" ÖLÇÜMÜ (7 Ağustos, SALT ÖLÇÜM — `devletler.js`e HİÇ DOKUNULMADI)
+
+**Yöntem notu (şeffaflık için):** Koordinatörün verdiği "pencere" sayıları
+(rusya 221, fransa 162…) muhtemelen `data/donemler.js`nin (üretilmiş, 12 MB)
+patlatılmış zaman-dilimi sayısı — ben KAYNAK seviyesinde ölçtüm: çekirdek 27
+`yerlesimler*.js` dosyasındaki HAM `s:[{f,t,d}]` kayıtlarını `d:` değerine göre
+grupladım. Sayılar bu yüzden EŞLEŞMİYOR (ör. rusya benim ölçümümde 48 grup/115
+nokta-dönem) — ama **hangi tarih aralığının boşta kaldığı ve hangi noktaların
+örnek olduğu** aynı kaynaktan geliyor, güvenilir. `lehistan` istenen ölçüm
+BENDEN yapıldı (künye yok değildi, zaten dizinde vardı — `f:1569-07-01,
+t:1795-10-24`).
+
+| battaniye ad | künye ömrü | boşluk penceresi (kaynak seviyesi) | dizinde var mı | gereken yeni künye | TDV durumu |
+|---|---|---|---|---|---|
+| **rusya** | 1547-01-16→1917-03-15 | **ÖN**: 1281→1547 (3 grup/8 nokta-dönem, örn. Moskova, Novgorod, Tula). **ARKA**: 1917-03-15→1923-10-29 (35 grup/**94 nokta-dönem — en büyük tek boşluk**, örn. Kırım/Kafkasya/Orta Asya'nın hemen hepsi) | Moskova/Sovyet için HİÇBİR künye yok (`moskova`, `sovyet-rusya`, `sscb` id'leri taranmadı bulunamadı) | **2**: (a) Moskova Büyük Knezliği (~1325→1547), (b) Sovyet Rusya/SSCB (1917-11-07→1923-10-29 ufuk) | TDV `rusya` (200, CANLI, genel madde) İKİSİNİ DE kapsıyor — birebir: "I. İvan Daniloviç (1325-1341) 'büyük knez' unvanını edindi", "1480'de Altın Orda hâkimiyetinden çıktı", "1917 Ekim İhtilâli", "Sovyet Sosyalist Cumhuriyetleri Birliği... 30 Aralık 1922" |
+| **fransa** | 987-01-01→1792-09-21 | **ARKA**: 1792-09-21→1923-10-29 (23 grup/**46 nokta-dönem — ikinci en büyük boşluk**, Cumhuriyet+Napolyon+Restorasyon+III. Cumhuriyet) | YOK (`fransa-cumhuriyet` vb. hiçbir id yok) | **1**: Fransa (1792 sonrası — Cumhuriyet/İmparatorluk/Restorasyon/III. Cumhuriyet TEK kayıtta, `almanya` kaydının HRE→Alman İmparatorluğu emsali gibi) | TDV `fransa` (200, CANLI) kapsıyor: "22 Eylül'de cumhuriyet ilân edildi", "imparatorluk dönemi (1804-1814)", restorasyon, "yeniden cumhuriyet ilân edildi (4 Eylül 1870)". ⚠️ TDV "22 Eylül" diyor, mevcut `fransa` künyesinin `t:"1792-09-21"`i 21'inde — 1 günlük fark, KOORDİNATÖRE bırakıldı |
+| **isvec** | 1523-06-06→1923-10-29 | **ÖN**: 1281→1523 (2 grup/2 nokta-dönem, Helsinki+Stockholm — küçük) | YOK (`kalmar-birligi` id yok) | **1** (belki 2: Kalmar-öncesi ayrı İsveç + Kalmar Birliği), düşük öncelik — yalnız 2 nokta etkileniyor | TDV `isvec` (200, CANLI) Kalmar Birliği'ni (1397-1434 kuruluş) VE 1523 Gustav Vasa bağımsızlığını doğruluyor; Kalmar-öncesi kesin kuruluş tarihi madde özetinde net değil |
+| **lehistan** | 1569-07-01→1795-10-24 (BEN ÖLÇTÜM) | **ÖN**: 1281→1569 (10 grup/**16 nokta-dönem — üçüncü boşluk**). **ARKA**: 1795→1815 (1 grup/1 nokta, Varşova — Varşova Dükalığı) | YOK (Polonya Krallığı/Litvanya Büyük Dükalığı/Varşova Dükalığı hiçbiri dizinde yok — `polonya` id'si zaten 1918-sonrasına ayrılmış, `litvanya` de öyle) | **2-3**: Polonya Krallığı (1569 öncesi) + Litvanya Büyük Dükalığı (1569 öncesi) — hangi NOKTANIN hangisine ait olduğu AYRI coğrafi araştırma ister, ölçmedim; + küçük bir Varşova Dükalığı kaydı (1 nokta, düşük öncelik) | Polonya: TDV `polonya` (200, CANLI) — "20 Ocak 1320" taç giyme, devletleşme "963"e uzanıyor. Litvanya: TDV `polonya` maddesinde 1386 evlilik birliği geçiyor ama Litvanya'nın KENDİ kuruluş tarihi maddede YOK — standart akademik gerekir. Varşova Dükalığı: `varsova`/`varsova-dukaligi` slugları ÖLÜ (302), bulunamadı |
+| **norvec** | 1905-06-07→1923-10-29 | **YOK** — künye kendi tek penceresini (1905→1923, 1 nokta) tam kapsıyor | — | **0** | — |
+| **danimarka** | 1380-01-01→1923-10-29 | **ÖN**: 1281→1380 (2 grup/2 nokta-dönem, Oslo+Kopenhag — küçük) | — | **muhtemelen 0 yeni künye** — TDV `danimarka` (200, CANLI) krallığı "VI. yüzyıl"a dayandırıyor, 1281-1380 arasında bir KOPUŞ yok; bu muhtemelen YENİ KÜNYE değil, mevcut kaydın `f:`sinin geriye çekilmesi (**1 düzeltme**) | TDV `danimarka` sürekliliği doğruluyor, 1380'i özel kılan bir olay maddede geçmiyor |
+
+**TOPLAM: bu iş yaklaşık 7 yeni künye + 2 düzeltme demektir** (rusya 2 kesin +
+fransa 1 kesin + isvec 1 muhtemel + lehistan 2-3 muhtemel/araştırma-bağımlı +
+danimarka 0 yeni/1 düzeltme + fransa'nın 1 günlük tarih farkı 1 düzeltme).
+⚠️ **Belirsizlik lehistan'da**: Polonya/Litvanya ayrımı nokta-bazlı coğrafi
+araştırma istiyor, ölçmedim (kapsam dışı bıraktım) — kesin sayı 6-8 arası
+olabilir. **En büyük tek kalem rusya'nın ARKA boşluğu (94 nokta-dönem, Sovyet
+Rusya/SSCB)** — bu tek künye yazılırsa boşluğun büyük kısmı kapanır.
+
+`devletler.js`e HİÇ YAZILMADI/DEĞİŞTİRİLMEDİ — yalnız okundu (`node -e` ile
+salt-okunur), TDV slug'ları `curl`/`WebFetch` ile test edildi. Bu bulgu bu
+dosyaya (kendi ilerleme notum) yazıldı, pathspec'li commit edilecek.
