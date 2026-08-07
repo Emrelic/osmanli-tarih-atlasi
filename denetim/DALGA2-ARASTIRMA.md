@@ -58,7 +58,7 @@ zinciri tam. Orada sorun yok.
 
 | kimlik | boşluk | orada ne vardı | kaynak |
 |---|---|---|---|
-| `adal` | 1281 → 1415 · Zeyla/Harar + Mecerteyn kıyısı | **Evfât (İfat) Emirliği, 1285-1415** — Adal'ın doğrudan selefi. TDV `harar`: *"burada kurulan ilk müslüman devlet Evfât Emirliği'dir (1285-1415)"* | TDV `harar` **200** ⚠️ `evfat` · `ifat-sultanligi` slugları **302 ÖLÜ** |
+| `adal` | 1281 → 1415 · Zeyla/Harar + Mecerteyn kıyısı | **Evfât (İfat) Emirliği, 1285-1415** — Adal'ın doğrudan selefi. TDV `harar`: *"burada kurulan ilk müslüman devlet Evfât Emirliği'dir (1285-1415)"* | TDV **`evfat` 200** — `<title>EVFÂT</title>` · TDV `harar` **200** 🔴 **RAPOR YANILDI:** *"`evfat` 302 ölü"* demişti; VERİ DEVLET aksini ölçtü, koordinatör doğruladı — **madde CANLI.** 302 olan yalnız `ifat-sultanligi`. ⇒ *"TDV'de yok"* demeden önce ARA (`§4③`) — bu kez tuzağa **araştırmacı** düştü, ve onu **kendi künyesini yazan oturum** yakaladı |
 | `somali` (a) | 1281 → 1500 · Mogadişu | **Ebû Bekir b. Fahreddin sultanlığı** (~13. yy; İbn Battûta 1331'de ziyaret etti), 16. yy'da Muzaffer hânedanına geçti — `somali` künyesinin 1500 başlangıcıyla örtüşüyor | TDV `makdisu` **200** ⚠️ `mogadisu` slug'ı canlı ama **içi boş**; asıl madde `makdisu` |
 | `darfur` | 1281 → 1603 · El-Faşir | **İki ardışık hanedan:** 13-14. yy **Dâcû (Daju)** → 15-16. yy **Tunciler (Tunjur)**. Keira/Fur hânedanı bunlardan devraldı | TDV `darfur` **200** |
 

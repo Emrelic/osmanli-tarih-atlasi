@@ -209,6 +209,21 @@ window.DEVLETLER = [
   ]
 },
 
+// VERİ DEVLET (7 Ağustos 2026) — DALGA 1 "battaniye ad" işi: `rusya` harita
+// kimliği künyenin ömrünün (1547-1917) DIŞINDAKİ pencerelerde de kullanılıyordu.
+// Ön boşluk (1281-1547, Moskova Büyük Knezliği) ve arka boşluk (1917-1923,
+// Sovyet Rusya/SSCB — 242 kayıtla bu partinin EN BÜYÜK tek kalemi) için iki
+// künye eklendi. Kaynak ikisinde de TDV `rusya` (canlı, genel madde).
+{ id:"moskova", ad:"Moskova Büyük Knezliği", tur:"prenslik", bolge:"dogu-avrupa",
+  f:"1325-01-01", t:"1547-01-16", baskent:"Moskova",
+  ozet:"I. İvan Kalita'nın 'büyük knez' unvanını almasıyla Rus topraklarının siyasî merkezi hâline gelen knezlik; 1480'de Altın Orda hâkimiyetinden fiilen çıktı, IV. İvan'ın çar ilan edilmesiyle Rusya Çarlığı'na dönüştü (bkz. [[rusya]]). (kaynak: TDV, madde: rusya)",
+  kronoloji:[
+    { t:"1325-01-01", tur:"kurulus", b:"I. İvan Daniloviç (Kalita) 'büyük knez' unvanını aldı, Moskova Rus topraklarının siyasî merkezi oldu" },
+    { t:"1480-01-01", tur:"toprak-kazanc", b:"Altın Orda hâkimiyetinden fiilen çıktı (Ugra Nehri karşılaşması)" },
+    { t:"1547-01-16", tur:"son", b:"IV. İvan çar ilan edildi, Moskova Knezliği'nin yerini Rusya Çarlığı aldı" }
+  ]
+},
+
 { id:"rusya", ad:"Rusya Çarlığı / İmparatorluğu", tur:"imparatorluk", bolge:"dogu-avrupa",
   f:"1547-01-16", t:"1917-03-15", baskent:"Moskova → Sankt-Peterburg", harita:"rusya",
   ozet:"IV. İvan'la çarlığa, I. Petro'yla imparatorluğa dönüşen, 350 yılda Karadeniz kuzeyi ve Kafkasya'da Osmanlı'yı geriletti.",
@@ -228,6 +243,15 @@ window.DEVLETLER = [
     { t:"1853-10-04", tur:"savas", b:"Kırım Savaşı'nda yenildi (1856'ya dek)" },
     { t:"1877-04-24", tur:"savas", b:"93 Harbi — Ayastefanos ve Berlin antlaşmalarına giden savaş" },
     { t:"1917-03-15", tur:"son", b:"II. Nikolay tahttan çekildi, Romanov hanedanı sona erdi" }
+  ]
+},
+{ id:"sovyet-rusya", ad:"Sovyet Rusya / SSCB", tur:"cumhuriyet", bolge:"dogu-avrupa",
+  f:"1917-11-07", t:"1923-10-29", baskent:"Petrograd → Moskova",
+  ozet:"Ekim İhtilâli ile Bolşeviklerin iktidara gelmesiyle kurulan Rusya Sovyet Federatif Sosyalist Cumhuriyeti; Ukrayna, Beyaz Rusya ve Transkafkasya ile birleşerek SSCB'yi oluşturdu (1923 sonrasında da sürdü). ⚠️ Ekim İhtilâli'nin günü (7 Kasım, Gregoryen — dönemin Rusya'sında hâlâ kullanılan Jülyen takvimiyle 25 Ekim) TDV maddesinde birebir geçmiyor, standart tarihtir. (kaynak: TDV, madde: rusya — SSCB kuruluş tarihi '30 Aralık 1922' birebir)",
+  kronoloji:[
+    { t:"1917-11-07", tur:"kurulus", b:"Ekim İhtilâli — Bolşevikler Petrograd'da iktidarı ele geçirdi (Jülyen takvimle 25 Ekim)" },
+    { t:"1918-03-03", tur:"antlasma", b:"Brest-Litovsk Antlaşması ile Osmanlı dahil Merkezi Güçler'le savaştan çekildi" },
+    { t:"1922-12-30", tur:"birlesme", b:"Rusya, Ukrayna, Beyaz Rusya ve Transkafkasya birleşerek SSCB'yi kurdu" }
   ]
 },
 
@@ -497,6 +521,30 @@ window.DEVLETLER = [
     { t:"1918-11-16", tur:"son", b:"I. Dünya Savaşı sonrası cumhuriyet ilan edildi (bkz. [[macaristan-naiplik]])" }
   ]
 },
+// VERİ DEVLET (7 Ağustos 2026) — DALGA 1: `lehistan` harita kimliği künyenin
+// ömrünün (1569-1795) ÖNCESİNDE de (1281-1569, 30 kayıt) kullanılıyordu.
+// Birlik-öncesi iki devlet AYRI künyeyle temsil edildi (Polonya Krallığı,
+// Litvanya Büyük Dükalığı) — hangi noktanın hangisine ait olduğu (coğrafi
+// ayrım) KOORDİNATÖRÜN işi, bu oturum yalnız künyeleri hazırladı.
+{ id:"polonya-erken", ad:"Polonya Krallığı (Birlik Öncesi)", tur:"krallik", bolge:"dogu-avrupa",
+  f:"1320-01-20", t:"1569-07-01", baskent:"Krakov",
+  ozet:"IV. Ladislav Lokietek'in taç giymesiyle fetret döneminin sona erip krallığın yeniden birleştiği dönem; devletleşme kökleri X. yüzyıla (963) uzanır. Litvanya Büyük Dükalığı ile 1386'da kişisel birlik, 1569'da Lublin Birliği ile tam birleşme (bkz. [[litvanya-buyuk-dukalik]], [[lehistan]]). (kaynak: TDV, madde: polonya)",
+  kronoloji:[
+    { t:"1320-01-20", tur:"kurulus", b:"IV. Ladislav Lokietek Krakov'da taç giyerek fetret dönemini sona erdirdi" },
+    { t:"1386-01-01", tur:"ittifak", b:"Litvanya Büyük Dükü Jogaila ile Kraliçe Jadwiga'nın evliliğiyle kişisel birlik kuruldu" },
+    { t:"1569-07-01", tur:"son", b:"Lublin Birliği ile Litvanya'yla tam birleşerek Lehistan-Litvanya Birliği'ni oluşturdu" }
+  ]
+},
+{ id:"litvanya-buyuk-dukalik", ad:"Litvanya Büyük Dükalığı", tur:"dukalik", bolge:"dogu-avrupa",
+  f:"1253-07-06", t:"1569-07-01", baskent:"Vilnius",
+  ozet:"Mindaugas'ın taç giyerek Litvanya'yı Katolik bir krallık ilan ettiği (tek örnek — sonraki hükümdarlar dük unvanını kullandı) devlet; Gediminas hanedanı döneminde büyük güce dönüştü, Polonya ile 1386 kişisel birliği 1569'da tam birleşmeye evrildi (bkz. [[polonya-erken]], [[lehistan]]). TDV'de Litvanya Büyük Dükalığı'nın kendi maddesi yok (yalnız `LİPKALAR` — Litvanya Tatarları — maddesi var); tarihler standart akademik kaynağa göredir.",
+  kronoloji:[
+    { t:"1253-07-06", tur:"kurulus", b:"Mindaugas taç giyerek Litvanya'yı Katolik krallık ilan etti" },
+    { t:"1316-01-01", tur:"hukumdar", b:"Gediminas tahta çıktı, hanedanı ve devleti büyük bir güce dönüştürdü" },
+    { t:"1386-01-01", tur:"ittifak", b:"Büyük Dük Jogaila, Polonya Kraliçesi Jadwiga ile evlenip Polonya kralı oldu — kişisel birlik başladı" },
+    { t:"1569-07-01", tur:"son", b:"Lublin Birliği ile Polonya'yla tam birleşerek Lehistan-Litvanya Birliği'ni oluşturdu" }
+  ]
+},
 { id:"lehistan", ad:"Lehistan-Litvanya Birliği", tur:"cumhuriyet", bolge:"dogu-avrupa",
   f:"1569-07-01", t:"1795-10-24", baskent:"Varşova", harita:"lehistan",
   ozet:"Seçimli krallıkla yönetilen \"Asilzade Cumhuriyeti\"; Osmanlı ile Podolya çevresinde savaştı, üç paylaşımla ortadan kalktı.",
@@ -548,12 +596,32 @@ window.DEVLETLER = [
   ]
 },
 { id:"fransa", ad:"Fransa Krallığı", tur:"krallik", bolge:"bati-avrupa",
-  f:"987-01-01", t:"1792-09-21", baskent:"Paris", harita:"fransa",
-  ozet:"Habsburg'a karşı dengeleme amacıyla Osmanlı ile 1536'da ittifaka yakın kapitülasyon ilişkisi kurdu.",
+  f:"987-01-01", t:"1792-09-22", baskent:"Paris", harita:"fransa",
+  ozet:"Habsburg'a karşı dengeleme amacıyla Osmanlı ile 1536'da ittifaka yakın kapitülasyon ilişkisi kurdu. ⚠️ VERİ DEVLET (7 Ağustos 2026) DÜZELTTİ: `t:` 21'den 22'ye çekildi — TDV `fransa` maddesi \"22 Eylül'de de cumhuriyet ilân edildi\" diyor, önceki 21 bir gün erkendi. Ardılı için bkz. [[fransa-cumhuriyet]].",
   kronoloji:[
     { t:"1536-01-01", tur:"ittifak", b:"I. François ile Kanunî arasında Kapitülasyonlar imzalandı" },
     { t:"1798-07-01", tur:"savas", b:"(Devrim sonrası) Napolyon'un Mısır Seferi ile Osmanlı'ya savaş açıldı" },
-    { t:"1792-09-21", tur:"son", b:"Krallık ilga edildi, Cumhuriyet ilan edildi" }
+    { t:"1792-09-22", tur:"son", b:"Krallık ilga edildi, Cumhuriyet ilan edildi" }
+  ]
+},
+// VERİ DEVLET (7 Ağustos 2026) — DALGA 1: `fransa` harita kimliği künyenin
+// ömrünün (987-1792) SONRASINDA da (1792-1923, 93 kayıt — bu partinin ikinci
+// büyük kalemi) kullanılıyordu; `yerlesimler_afrika.js`teki Cezayir/Tunus'un
+// 1830/1881 sonrası payı da bu boşluğun içinde. TEK künyede birleştirildi
+// (Napolyon→Restorasyon→Cumhuriyetler), `almanya` kaydının HRE→Alman
+// İmparatorluğu emsali gibi. Kaynak: TDV `fransa` (canlı, genel madde).
+{ id:"fransa-cumhuriyet", ad:"Fransa (1792 Sonrası — Cumhuriyet/İmparatorluk/Restorasyon)", tur:"cumhuriyet", bolge:"bati-avrupa",
+  f:"1792-09-22", t:"1923-10-29", baskent:"Paris",
+  ozet:"I. Cumhuriyet'in ilanından III. Cumhuriyet'e uzanan, rejim rejim değişen ama devlet kimliği süren dönem (bkz. [[fransa]] Krallık dönemi için) — Napolyon'un İmparatorluğu, Restorasyon, Temmuz Monarşisi, II. Cumhuriyet ve II. İmparatorluk hepsi TEK kayıtta (1923 sonrasında da sürdü). Cezayir (bkz. [[cezayir-fransiz]]) ve Tunus'un 1881 sonrası fiilî Fransız idaresi de bu kaydın harita kimliğine dahil. (kaynak: TDV, madde: fransa)",
+  kronoloji:[
+    { t:"1792-09-22", tur:"kurulus", b:"I. Fransız Cumhuriyeti ilan edildi" },
+    { t:"1804-01-01", tur:"hukumdar", b:"Napolyon Bonapart kendini imparator ilan etti (1814'e dek)" },
+    { t:"1815-06-09", tur:"hukumdar", b:"Restorasyon — Bourbon hanedanı geri döndü (1830'a dek)" },
+    { t:"1830-08-09", tur:"bolunme", b:"Temmuz Monarşisi — Louis Philippe tahta çıktı" },
+    { t:"1848-02-24", tur:"kurulus", b:"II. Cumhuriyet ilan edildi" },
+    { t:"1852-12-02", tur:"hukumdar", b:"III. Napolyon kendini imparator ilan etti (II. İmparatorluk)" },
+    { t:"1870-09-04", tur:"kurulus", b:"III. Cumhuriyet ilan edildi" },
+    { t:"1881-05-12", tur:"toprak-kazanc", b:"Bardo Antlaşması ile Tunus fiilen Fransız protektorası oldu (bkz. [[tunus-ocagi]])" }
   ]
 },
 { id:"ingiltere", ad:"İngiltere / Büyük Britanya", tur:"krallik", bolge:"bati-avrupa",
@@ -566,6 +634,20 @@ window.DEVLETLER = [
     { t:"1840-07-15", tur:"ittifak", b:"Londra Konvansiyonu ile Kavalalı'ya karşı Osmanlı'yı destekledi" },
     { t:"1878-06-04", tur:"toprak-kazanc", b:"Kıbrıs'ın idaresini devraldı" },
     { t:"1914-11-05", tur:"savas", b:"I. Dünya Savaşı'nda Osmanlı'ya karşı cephe açtı" }
+  ]
+},
+// VERİ DEVLET (7 Ağustos 2026) — DALGA 1: `isvec` harita kimliği künyenin
+// ömrünün (1523-1923) ÖNCESİNDE de (1281-1523, çoğu Finlandiya — tek pencerede
+// 17 kayıt "1281→1809") kullanılıyordu. Kalmar-öncesi kesin kuruluş tarihi
+// TDV özetinde net değil; atlasın pencere-başlangıcı konvansiyonuyla
+// f:"1281-01-01" kullanıldı (emsal: `kirim` ve çeşitli beylikler).
+{ id:"isvec-birlik-oncesi", ad:"İsveç Krallığı (Kalmar Birliği Öncesi ve Dönemi)", tur:"krallik", bolge:"kuzey-avrupa",
+  f:"1281-01-01", t:"1523-06-06", baskent:"Stockholm",
+  ozet:"Kalmar Birliği (1397-1523) öncesi bağımsız İsveç Krallığı ve birlik dönemi (Danimarka-Norveç-İsveç birleşik krallığı); Gustav Vasa'nın Danimarkalıları yenip bağımsızlığı yeniden kurmasıyla sona erdi (bkz. [[isvec]]). ⚠️ 1281 tarihi hânedanın kuruluşu değil atlasın pencere başlangıcıdır. (kaynak: TDV, madde: isvec)",
+  kronoloji:[
+    { t:"1397-01-01", tur:"birlesme", b:"Kalmar Birliği kuruldu — Danimarka, Norveç ve İsveç Margrete I altında birleşti" },
+    { t:"1434-01-01", tur:"isyan", b:"İsveçliler Kral XIII. Erich'e karşı ayaklandı (Engelbrekt isyanı)" },
+    { t:"1523-06-06", tur:"son", b:"Gustav Vasa, Danimarkalıları yenip İsveç'i birlikten çıkardı, kral seçildi" }
   ]
 },
 { id:"isvec", ad:"İsveç Krallığı", tur:"krallik", bolge:"kuzey-avrupa",
@@ -1079,9 +1161,10 @@ window.DEVLETLER = [
   ]
 },
 { id:"danimarka", ad:"Danimarka Krallığı (1814'e kadar Danimarka-Norveç)", tur:"krallik", bolge:"kuzey-avrupa",
-  f:"1380-01-01", t:"1923-10-29", baskent:"Kopenhag", harita:"danimarka",
-  ozet:"1380-1814 arası Norveç ile kişisel birlik hâlindeydi (Kalmar Birliği'nin ardılı); Kiel Antlaşması'yla Norveç'i kaybettikten sonra da Danimarka tek başına sürdü. Osmanlı ile 1756'da dostluk ve ticaret antlaşması imzaladı (1923 sonrasında da sürdü). Bkz. [[norvec]] (1814-1905 arası İsveç'le birlik, sonra bağımsız).",
+  f:"1281-01-01", t:"1923-10-29", baskent:"Kopenhag", harita:"danimarka",
+  ozet:"Krallık VI. yüzyıla uzanır (TDV); 1380 Norveç ile kişisel birliğin başlangıcıdır, devletin kendi kuruluşu değil (bkz. [[norvec-kralligi]]). Kiel Antlaşması'yla Norveç'i kaybettikten sonra da Danimarka tek başına sürdü. Osmanlı ile 1756'da dostluk ve ticaret antlaşması imzaladı (1923 sonrasında da sürdü). Bkz. [[norvec]] (1814-1905 arası İsveç'le birlik, sonra bağımsız). ⚠️ VERİ DEVLET (7 Ağustos 2026) DÜZELTTİ: `f:` 1380'den 1281'e çekildi — TDV `danimarka` maddesi sürekliliği VI. yüzyıla dayandırıyor, 1281-1380 arasında bir kopuş yok; 1380 yalnız Norveç birliğinin başlangıcıydı, devletin kendi kuruluşu değildi.",
   kronoloji:[
+    { t:"1380-01-01", tur:"ittifak", b:"IV. Olav'ın tahta çıkışıyla Norveç ile kişisel birlik başladı (bkz. [[norvec-kralligi]])" },
     { t:"1756-10-14", tur:"antlasma", b:"Osmanlı-Danimarka dostluk ve ticaret antlaşması" },
     { t:"1814-01-14", tur:"bolunme", b:"Kiel Antlaşması ile Norveç, İsveç'e bırakıldı; Danimarka-Norveç birliği sona erdi" }
   ]
@@ -1134,6 +1217,27 @@ window.DEVLETLER = [
     { t:"1821-06-14", tur:"son", b:"İsmâil Kâmil Paşa'nın ordusuna direnmeden teslim oldu" }
   ]
 },
+// VERİ DEVLET (7 Ağustos 2026) — ARAŞTIRMA KÜNYE 3 teslimi (denetim/DALGA2-
+// ARASTIRMA.md): `darfur` harita kimliği künyenin ömrünün (1603-1916)
+// ÖNCESİNDE de (1281-1603) kullanılıyordu; orada Keira'dan önce SIRAYLA iki
+// ayrı hanedan hüküm sürdü. Kaynak: TDV `darfur` (canlı) — kendi maddesinin
+// içinde, `dacu`/`tunciler` sluglarının ikisi de 302 ölü.
+{ id:"dacu", ad:"Dâcû (Daju) Hanedanlığı", tur:"hanedanlik", bolge:"misir-sudan",
+  f:"1200-01-01", t:"1400-01-01", baskent:"— (TDV'de belirtilmemiş)",
+  ozet:"Darfur'a ilk yerleşip ilk devleti kuran kabile olarak kabul edilen Dâcû'ların XIII-XIV. yüzyıllar boyunca sürdürdüğü hâkimiyet; yerini Tunciler'e bıraktı (bkz. [[tunciler]]). ⚠️ TDV yalnız yüzyıl veriyor, kesin yıl yok — f/t yüzyıl ortası/başı konvansiyonuyla yazıldı, kesinlik düşük. (kaynak: TDV, madde: darfur)",
+  kronoloji:[
+    { t:"1200-01-01", tur:"kurulus", b:"Dâcû kabilesi Darfur'a yerleşip bölgenin ilk devletini kurdu (TDV: XIII-XIV. yüzyıl)" },
+    { t:"1400-01-01", tur:"son", b:"Hâkimiyet Tunciler'e (Tunjur) geçti" }
+  ]
+},
+{ id:"tunciler", ad:"Tunciler (Tunjur) Hanedanlığı", tur:"hanedanlik", bolge:"misir-sudan",
+  f:"1400-01-01", t:"1695-01-01", baskent:"— (TDV'de belirtilmemiş)",
+  ozet:"Dâcû'lardan ticarî ve siyasî hâkimiyeti devralan hanedan; TDV \"XV. yüzyılda özellikle orta bölgedeki durum tamamen Tuncûrlar'ın lehine dönmüştür\" diyor. Keira/Fur hanedanının konsolidasyonuyla (Süleyman Solonc, 1695-1715) sona erdi. ⚠️ Bitiş tarihi (1695) TDV'nin kendi verdiği Süleyman Solonc saltanat başlangıcından alındı — bu, mevcut `darfur` künyesindeki 1603 tarihiyle İLİŞKİLİ ama ondan BAĞIMSIZ yazıldı; o tartışma ayrıca raporlandı (bkz. VERI-DEVLET-GOREV.md), bu künye kendi başına değiştirilmedi. (kaynak: TDV, madde: darfur)",
+  kronoloji:[
+    { t:"1400-01-01", tur:"kurulus", b:"Tunciler, orta Darfur'da ticarî ve siyasî hâkimiyeti Dâcû'lardan devraldı" },
+    { t:"1695-01-01", tur:"son", b:"Süleyman Solonc'un saltanatıyla Keira/Fur hanedanı hâkimiyeti konsolide etti (bkz. [[darfur]])" }
+  ]
+},
 { id:"darfur", ad:"Dârfûr Sultanlığı (Keira Hanedanı)", tur:"sultanlik", bolge:"misir-sudan",
   f:"1603-01-01", t:"1916-11-06", baskent:"El-Faşir", harita:"darfur",
   ozet:"Sudan'ın batısında Fur halkının Keira hanedanınca kurduğu Müslüman sultanlık; Mısır'a bağlanıp Mehdî döneminde arada kesintiye uğradı, Ali Dinar'ın restorasyonuyla 1916'da İngiliz-Mısır ordusuna yenilene dek sürdü. Tarihler standart akademik kaynaklara göredir (TDV'de ayrı maddesi yok), kesinlik düşük.",
@@ -1157,6 +1261,21 @@ window.DEVLETLER = [
     { t:"1887-01-06", tur:"toprak-kazanc", b:"Harar ilhak edildi" },
     { t:"1889-03-02", tur:"antlasma", b:"Uccialli (Wuchale) Antlaşması imzalandı, II. Menelik tahta çıktı" },
     { t:"1896-03-01", tur:"savas", b:"Adva'da İtalya'yı yenerek bağımsızlığını korudu" }
+  ]
+},
+// VERİ DEVLET (7 Ağustos 2026) — ARAŞTIRMA KÜNYE 3: `adal` harita kimliği
+// künyenin ömrünün (1415-1887) ÖNCESİNDE de (1281-1415) kullanılıyordu;
+// orada Adal'ın doğrudan selefi Evfât hüküm sürüyordu. ⚠️ `evfat` slug'ı
+// (TDV, 200) İfat'a dair kendi maddesi; `harar` maddesi (200) de aynı
+// tarihleri çapraz doğruladı ("burada kurulan ilk müslüman devlet Evfât
+// Emirliği'dir, 1285-1415").
+{ id:"evfat", ad:"Evfât (İfat) Emirliği", tur:"devlet", bolge:"dogu-afrika",
+  f:"1285-01-01", t:"1415-01-01", baskent:"— (TDV'de şehir adı belirtilmemiş)",
+  ozet:"Ömer Veleşma'ın oğlu Ali'nin Şüve'yi de topraklarına katarak kurduğu, Habeşistan'ın Müslüman uçlarındaki ilk emirlik; 1332'de Habeş İmparatoru Amda Sion'un saldırısıyla büyük toprak kaybına uğradı, 1415'te son sultanı Sâdeddin Zeyla adasında kıstırılıp öldürülünce sona erdi — yerini güneyde Adal (Zeyla) Emirliği aldı (bkz. [[adal]]). (kaynak: TDV, madde: evfat, harar)",
+  kronoloji:[
+    { t:"1285-01-01", tur:"kurulus", b:"Ömer Veleşma'ın oğlu Ali, Şüve'yi topraklarına katarak Evfât Emirliği'ni kurdu (684)" },
+    { t:"1332-01-01", tur:"toprak-kayip", b:"Habeş İmparatoru Amda Sion, Zeyla' ve Evfât topraklarının büyük kısmını ele geçirdi" },
+    { t:"1415-01-01", tur:"son", b:"Son sultan Sâdeddin, Zeyla adasına sığındıysa da kıstırılıp öldürüldü; emirlik sona erdi" }
   ]
 },
 { id:"adal", ad:"Adal Sultanlığı / Harar Emirliği", tur:"sultanlik", bolge:"dogu-afrika",
@@ -1689,14 +1808,16 @@ window.DEVLETLER = [
 },
 
 { id:"benihalid", ad:"Benî Hâlid Emirliği (Lahsa)", tur:"devlet", bolge:"arabistan",
-  f:"1670-01-01", t:"1795-01-01", baskent:"Hufuf", harita:"benihalid",
-  ozet:"Osmanlı'yı Lahsa'dan (el-Hasa) çıkarıp doğu Arabistan'a egemen olan bedevi emirliği; yükselen Suûdî-Vehhâbî devletine yenilerek 1795'te tasfiye edildi (1818-1830 arası kısa bir dönem geri döndüyse de 1874-75'te tarihe karıştı). (kaynak: TDV, madde: halid-beni-halid)",
+  f:"1670-01-01", t:"1830-01-01", baskent:"Hufuf", harita:"benihalid",
+  ozet:"Osmanlı'yı Lahsa'dan (el-Hasa) çıkarıp doğu Arabistan'a egemen olan bedevi emirliği; yükselen Suûdî-Vehhâbî devletine yenilerek 1795'te ilk kez tasfiye edildi, İbrâhim Paşa'nın Vehhâbîleri yenmesi üzerine 1818'de Mâcid el-Ureyyir tarafından kısa süreliğine geri kuruldu, 1830'da Aklâ savaşında Mâcid'in ölümüyle kesin olarak sona erdi. ⚠️ VERİ DEVLET (7 Ağustos 2026) DÜZELTTİ: `t:` 1795'ten 1830'a çekildi, ikinci dönem (1818-1830) kronolojiye eklendi — harita 1841'e kadar boyuyordu (11 yıl fazlalık), o düzeltme koordinatörün işi. (kaynak: TDV, madde: halid-beni-halid)",
   kronoloji:[
     { t:"1670-01-01", tur:"kurulus", b:"Berrâk b. Guraybir, Lahsa'nın merkezi Hufuf'u ele geçirip Osmanlı idaresine son verdi" },
     { t:"1691-01-01", tur:"toprak-kazanc", b:"Berrâk'ın oğlu Muhammed, Necid'e akınlarını sürdürdü" },
     { t:"1744-01-01", tur:"savas", b:"Muhammed b. Abdülvehhâb'ın Dir'iye'ye sığınmasıyla Suûdîlerle husumet başladı (bkz. [[suud-birinci]])" },
     { t:"1752-01-01", tur:"bolunme", b:"Süleyman el-Hamîdî tahttan indirildi, iç çekişmeler başladı" },
-    { t:"1795-01-01", tur:"son", b:"Abdülazîz b. Suûd, Lahsa'yı ele geçirip emirliğe fiilen son verdi" }
+    { t:"1795-01-01", tur:"toprak-kayip", b:"Abdülazîz b. Suûd, Lahsa'yı ele geçirip emirliği ilk kez tasfiye etti" },
+    { t:"1818-01-01", tur:"toprak-kazanc", b:"İbrâhim Paşa'nın Vehhâbîleri yenmesi üzerine Mâcid ve Muhammed kardeşler Lahsa'ya girip Osmanlı padişahı adına hutbe okuttu, emirlik geri kuruldu" },
+    { t:"1830-01-01", tur:"son", b:"Mâcid el-Ureyyir Aklâ savaşında öldü; Lahsa Suûd ailesinin denetimine geçti, emirlik kesin olarak sona erdi" }
   ]
 },
 { id:"aiz", ad:"Âiz Emirliği (Ebhâ / Asîr)", tur:"devlet", bolge:"arabistan",
@@ -1759,6 +1880,19 @@ window.DEVLETLER = [
     { t:"1276-01-01", tur:"isgal", b:"Memlük Sultanı Baybars'ın seferleriyle Dongola art arda yağmalandı" },
     { t:"1365-01-01", tur:"bolunme", b:"Dongola tahliye edildi, Makurya güneye çekilip küçük bir krallığa (Dotawo) dönüştü" },
     { t:"1504-01-01", tur:"son", b:"Func Sultanlığı, Soba'yı alarak Alve Krallığı'na son verdi (bkz. [[funj]])" }
+  ]
+},
+// VERİ DEVLET (7 Ağustos 2026) — ARAŞTIRMA KÜNYE 3: `somali` harita kimliği
+// künyenin ömrünün (1500-1923) ÖNCESİNDE de (1281-1500, Mogadişu noktası)
+// kullanılıyordu. ⚠️ `mogadisu` slug'ı TDV'de CANLI ama İÇERİĞİ BOŞ/yönlendirme
+// — asıl madde `makdisu` slug'ındadır, oradan alındı.
+{ id:"makdisu-sultanligi", ad:"Makdişu (Mogadişu) Sultanlığı (Ebû Bekir b. Fahreddin Hanedanı)", tur:"sultanlik", bolge:"dogu-afrika",
+  f:"1281-01-01", t:"1500-01-01", baskent:"Makdişu (Mogadişu)",
+  ozet:"Ebû Bekir b. Fahreddin'in VII. (XIII.) yüzyılda Makdişu'da kurduğu küçük sultanlık; İbn Battûta 1331'de (Sultan Ebû Bekir b. Ömer döneminde) şehri ziyaret etti. XVI. yüzyılda yönetim Muzaffer sülâlesinin eline geçti (bkz. [[somali]] — Ecuran/Ajuran'ın yükselişiyle örtüşür). ⚠️ 1281 tarihi hânedanın kuruluşu değil atlasın pencere başlangıcıdır — TDV yalnız \"XIII. yüzyıl\" diyor, kesin yıl yok. (kaynak: TDV, madde: makdisu)",
+  kronoloji:[
+    { t:"1281-01-01", tur:"kurulus", b:"Ebû Bekir b. Fahreddin Makdişu'da küçük bir sultanlık kurdu (TDV: VII./XIII. yüzyıl, kesin yıl yok)" },
+    { t:"1331-01-01", tur:"hukumdar", b:"İbn Battûta, Sultan Ebû Bekir b. Ömer döneminde Makdişu'yu ziyaret etti" },
+    { t:"1500-01-01", tur:"son", b:"Yönetim Muzaffer sülâlesinin eline geçti (geçiş sürecinin ayrıntısı TDV'de yok)" }
   ]
 },
 { id:"somali", ad:"Somali Sultanlıkları", tur:"sultanlik", bolge:"dogu-afrika",
@@ -1852,6 +1986,21 @@ window.DEVLETLER = [
     { t:"1917-12-06", tur:"kurulus", b:"Finlandiya Senatosu bağımsızlığı ilan etti" },
     { t:"1918-01-27", tur:"savas", b:"Kızıllar ve Beyazlar arasında iç savaş başladı (Mannerheim'ın zaferiyle Mayıs 1918'de bitti)" },
     { t:"1919-07-17", tur:"antlasma", b:"Cumhuriyet anayasası kabul edildi" }
+  ]
+},
+// VERİ DEVLET (7 Ağustos 2026) — DALGA 1: `norvec` harita kimliği künyenin
+// ömrünün (1905-1923) ÖNCESİNDE de (1281-1537, 17 kayıt, dosya `ek7+ek8+ek12`)
+// kullanılıyordu. Koordinatörün kararı: TEK künye, `danimarka`ya BAĞLANMADI.
+// TDV'de `norvec` maddesi YOK (302); §4 gereği standart akademik kaynak.
+{ id:"norvec-kralligi", ad:"Norveç Krallığı (Birlik Öncesi ve Kalmar Dönemi)", tur:"krallik", bolge:"kuzey-avrupa",
+  f:"1281-01-01", t:"1537-01-01", baskent:"Bergen → Oslo",
+  ozet:"Bağımsız ortaçağ Norveç Krallığı; 1319'da İsveç ile, 1380'de Danimarka ile kişisel birliğe girdi, 1397'de Kalmar Birliği'nin parçası oldu; 1523'te İsveç birlikten ayrılınca Danimarka ile kaldı, 1536-37 Reform hareketiyle Norveç Krallık Meclisi kaldırılıp fiilen Danimarka eyaletine dönüştü (bkz. [[danimarka]] — AYRI künye, birleştirilmedi). ⚠️ 1281 tarihi hânedanın kuruluşu değil atlasın pencere başlangıcıdır; TDV'de `norvec` maddesi YOK (302), tarihler standart akademik kaynağa göredir (§4).",
+  kronoloji:[
+    { t:"1319-01-01", tur:"ittifak", b:"VII. Magnus (Magnus Eriksson) hem Norveç hem İsveç kralı oldu — ilk kişisel birlik" },
+    { t:"1380-01-01", tur:"ittifak", b:"IV. Olav'ın tahta çıkışıyla Danimarka ile kişisel birlik başladı" },
+    { t:"1397-06-17", tur:"birlesme", b:"Kalmar Birliği resmen kuruldu — Danimarka, Norveç, İsveç Margrete I altında birleşti" },
+    { t:"1523-06-06", tur:"bolunme", b:"İsveç Kalmar Birliği'nden ayrıldı; Norveç Danimarka ile birlikte kaldı" },
+    { t:"1537-01-01", tur:"son", b:"Reform hareketiyle Norveç Krallık Meclisi kaldırıldı, ülke fiilen Danimarka'nın bir eyaletine dönüştü" }
   ]
 },
 { id:"norvec", ad:"Norveç Krallığı (bağımsız)", tur:"krallik", bolge:"kuzey-avrupa",
