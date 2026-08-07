@@ -220,6 +220,46 @@ BOYALAR = {
     #   edilebilir), LAFZI sağlanamıyor. Gizlenmiyor.
     "afsar":      ("Afşâr Devleti (Nâdir Şah)", "#f488fc"),
     "kacar":      ("Kaçar Hanedanı (İran)",     "#c840a8"),
+    # ═══ İLHANLI SONRASI BEŞ HANEDAN — RENK 2, 7 Ağustos 2026 ═══
+    # Beşi de İran'ın 1155-1597 arası bölgesel hanedanları; hiçbirinin veride
+    # penceresi YOK ⇒ `renk_olc.komsuluk()` beşini de ölçemez. Her biri için
+    # coğrafî çekirdeğine en yakın noktanın peteği alınıp O KİMLİĞİN KENDİ
+    # PENCERESİNDEKİ komşuları ölçüldü (`zend` · `galzay` · `ryazan` ile aynı
+    # yöntem):
+    #   lur-i-buzurg  [Zagros içi]  ilhanli · iran · timurlu
+    #   lur-i-kucek   [Luristan]    ilhanli · safevi · iran · karakoyunlu ·
+    #                               akkoyunlu · timurlu · celayirli · OSMANLI
+    #   kutlughanli   [Kirman]      ilhanli
+    #   incu          [Şiraz]       ilhanli · iran
+    #   muzafferi     [Şiraz]       ilhanli · iran
+    #
+    # 🔴 MOR AİLEYE KONMADILAR. Aile `safevi→afsar→zend→kacar` ARDIŞIK
+    #   çizgisidir; bu beşi birbirinin ardılı değil ÇAĞDAŞI ve çoğu aynı anda
+    #   sahnede. `karkiya`/`marasi` için verilen hükmün aynısı: kural
+    #   ardışıklığa bakar, coğrafyaya değil. (Ayrıca band zaten beş üyeyle
+    #   dolu — ölçüldü, `§zend`.)
+    #
+    # 🔴 BEŞİ BİRLİKTE ÇÖZÜLDÜ, tek tek değil (`renk_olc.py:30`). Ve dağılım
+    #   120 permütasyon denenerek EN DAR PAYI EN BÜYÜK yapan seçildi:
+    #     kimlik         renk      kendi ölçülen komşularından ΔE
+    #     lur-i-buzurg   #456627   17,3      lur-i-kucek  #246f90   19,6
+    #     kutlughanli    #513921   28,5      incu         #75c0db   27,9
+    #     muzafferi      #2154db   20,1
+    #   Kardeşler arası en dar çift 13,0 (lur-i-kucek ↔ incu), en geniş 48,0.
+    #
+    # ⚠️ VE BİR TUZAK ÖLÇÜLEREK BULUNDU: ilk turda `kutlughanli` (…1306) ile
+    #   `muzafferi` (1318…) ZAMAN ÖRTÜŞMEDİĞİ için birbirinin engeli
+    #   sayılmadı ve #513321 / #513921 çıktı — neredeyse aynı kahve. Ama
+    #   ikisi de KİRMAN bölgesi ve arada yalnız 12 yıl var: kullanıcı zamanı
+    #   kaydırınca hanedan değişimini HİÇ göremezdi, denetim de göremezdi
+    #   (eşzamanlı değiller, çift kurulmuyor).
+    #   ⇒ Kural: **aynı coğrafyada ARDIŞIK olanlar da ayrışmalı.** Eşzamanlılık
+    #     ölçütü komşuluk için doğru, OKUNABİLİRLİK için yetersiz.
+    "lur-i-buzurg":("Lur-i Büzürg (Hezâraspîler)", "#456627"),
+    "lur-i-kucek": ("Lur-i Küçek (Hurşîdîler)",    "#246f90"),
+    "kutlughanli": ("Kutluğhanlılar (Kirman)",     "#513921"),
+    "incu":        ("İncûlular (Fars)",            "#75c0db"),
+    "muzafferi":   ("Muzafferîler",                "#2154db"),
     "karakoyunlu":("Karakoyunlular",         "#305d30"),
     "akkoyunlu":  ("Akkoyunlular",           "#48ae48"),
     # Irak'ın 1335-1411 penceresi `iran` battaniyesinin altındaydı: İlhanlı
@@ -568,6 +608,29 @@ BOYALAR = {
     #   ΔE 19,0 / 12,5 / 12,2 · altlıktan 25,0 / 16,5 / 17,3
     "letonya":      ("Letonya",               "#c96990"),
     "litvanya":     ("Litvanya",              "#a87b57"),
+    # ═══ RYAZAN — RENK 2, 7 Ağustos 2026 ═══
+    # Ryazan Knezliği ~1301-1521; Moskova 1521'de ilhak etti. Künye VAR
+    # (1129-01-01 → 1521-01-01) ama `harita:` alanı boş — koordinatörün işi.
+    # ⚠️ VE BU RENK TEK BAŞINA HİÇBİR ŞEY BOYAMAZ: canlı `Ryazan` noktası
+    #   hâlâ `s: rusya 1281-1923` taşıyor (PETEK/NOKTA'nın ödünç aldığı Tula
+    #   deseni). `hokand`/`cin-cumhuriyeti`den farkı bu — orada veri kimliği
+    #   zaten taşıyordu. Sıra: künye → nokta dönemleri → renk.
+    # ÖLÇÜM — kimliğin 0 penceresi olduğu için `Ryazan` NOKTASININ peteği
+    #   alındı; 1301-1521 penceresindeki komşuları:
+    #     rusya (Moskova 184 km · Tula 146 km · Nijniy Novgorod · Vologda) ·
+    #     altinorda · kirim (Tambov · Voronej)
+    # 🔴 RUSYA'NIN AİLESİNDE — ve ayrım SALT PARLAKLIKTAN:
+    #     rusya  L* 71,3 ton 126,8°      ryazan  L* 88,4 ton 113,1°
+    #   İkisi de Rus knezliği ve biri ötekini yutuyor: akrabalık doğru, ama
+    #   ayrım şart (220 yıl eşzamanlı ve sınırdaşlar).
+    #   ⇒ 1521 ilhakı haritada renk ATLAMADAN, KOYULAŞARAK görünüyor. Bir
+    #     knezliğin yutulması tam olarak böyle okunmalı.
+    # 📌 Band dışı serbest seçim ölçüldü (#1b54e4, pay 34,3) ve REDDEDİLDİ:
+    #   `rusya`dan ΔE 46,3 — Ryazan'ı Rus dünyasının DIŞINDAN bir devlet gibi
+    #   gösterirdi. Pay zaten 20,3 ile fazlasıyla yeterli.
+    # ÖLÇÜM: rusya 20,3 · lur-i-buzurg 21,5 · litvanya 22,6 · don-kazak 22,9 ·
+    #   nogay 22,9 · kirim 28,6 · altlıktan 30,6 · C* 28,5 = paletin %75'i
+    "ryazan":       ("Ryazan Knezliği",       "#cce787"),
     "finlandiya":   ("Finlandiya",            "#99a857"),
     # ═══ NORVEÇ TAŞINDI — RENK 2, 7 Ağustos 2026 · yine VERİ kaynaklı ═══
     # 🔴 `_ek12` (İzlanda) bağlanınca `norvec` #5c6bc0 ile `portekiz`
