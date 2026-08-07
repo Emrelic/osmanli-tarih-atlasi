@@ -163,13 +163,32 @@ def main():
             if aranan in s.upper():
                 idx = i
                 break
+        # 🔴 EKLE, EZME. Birden çok başlık AYNI anahtara bağlanıyor
+        # (`istege_bagli` ↤ İSTERSEN · HASADI · SIRADAKİ DALGA · DEVRİ).
+        # Eskiden atama `=` ile yapılıyordu: sonraki başlık öncekini
+        # eziyordu ve BULUNAMAYAN bir başlık bile dolu bir bölümü
+        # SIFIRLIYORDU. 7 Ağustos'ta yaşandı — İSTERSEN'in 3 satırı
+        # yazıldı, hemen ardından HASADI bulunamayınca [] ile silindi;
+        # çıktı "✓ İSTERSEN 0 satır" diyordu, yani araç kendi kaybını
+        # ONAYLAYARAK bildiriyordu.
+        hane = cikti.setdefault(anahtar, {"baslik": [], "satir": []})
         if idx is None:
-            cikti[anahtar] = {"baslik": [], "satir": []}
             continue
         bulunan.append(aranan)
         sahipli.add(idx)
         bas, kayit = tablo_oku(satirlar, idx + 1)
-        cikti[anahtar] = {"baslik": bas or [], "satir": kayit}
+        if not kayit:
+            continue
+        if not hane["baslik"]:
+            hane["baslik"] = bas or []
+        elif bas and len(bas) != len(hane["baslik"]):
+            # Sütun sayısı tutmuyorsa SESSİZCE ekleme — iki ayrı şema
+            # tek tabloda birleşirse arayüz kaymış hücre çizer.
+            dur("'%s' bölümünün tablosu %d sütunlu, aynı anahtara (%s) daha\n"
+                "      önce yazılan tablo %d sütunlu. Sütunları eşitle ya da\n"
+                "      bu bölümü ayrı bir anahtara bağla."
+                % (aranan, len(bas), anahtar, len(hane["baslik"])))
+        hane["satir"].extend(kayit)
 
     if not bulunan:
         dur("beklenen bölüm başlıklarının HİÇBİRİ bulunamadı: "
