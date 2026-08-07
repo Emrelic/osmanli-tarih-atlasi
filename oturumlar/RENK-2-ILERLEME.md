@@ -1073,9 +1073,16 @@ Komşu kümeleri yeniden ölçüldü; tek fark `makdisu`nun `portekiz`i
 kaybetmesi — **Portekizliler 1500'den sonra geliyor**, yani dar pencere
 daha doğrusunu veriyor. Renkler geçerli kaldı.
 
-📌 Ve `tunciler` 1400-1695 ile `darfur` 1603-1916 **ÖRTÜŞÜYOR** — zincir
-yalnız ardışık değil, 92 yıl eşzamanlı da. Ayrışmaları zaten şarttı;
-ölçüm 45,4 verdi.
+📌 ~~Ve `tunciler` 1400-1695 ile `darfur` 1603-1916 ÖRTÜŞÜYOR~~ —
+**DÜZELTME (7 Ağustos, aynı gün):** koordinatör `darfur`un başlangıcını
+1603 → **1695**'e çekti; zincir artık **kesintisiz ve örtüşmesiz**:
+`dacu 1200-1400 → tunciler 1400-1695 → darfur 1695-1916`.
+Ayrışma yine de şart (aynı toprak, ardışık) ve ölçüm 45,4 veriyor —
+yani renk kararı değişmiyor, yalnız GEREKÇESİ değişiyor: eşzamanlılık
+değil ardışıklık.
+📌 Ders: bir ölçüm doğru olabilir ve yine de BAYATLAYABİLİR. Devraldığın
+sayıyı doğrulamak yetmiyor (`B10`), KENDİ ölçtüğün sayının hâlâ geçerli
+olup olmadığına da bakmak gerekiyor.
 
 ### 🔴 600 km eşiği bu kümede yetmedi — sevk haklıydı
 `evfat` ↔ `makdisu` **1035 km**, yani `AYNI_HEX_ESIK_KM = 600`in dışında
