@@ -17,45 +17,51 @@
 Harita bir devleti boyuyor ama dizinde o devletin künyesi yok. Kullanıcı
 renge tıklıyor, karşısına kayıt çıkmıyor.
 
-**7 Ağustos 2026 ölçümü** (`girdi.GIRDI_DOSYALARI` · `devletler.js` 308 künye):
+🔴 **DİKKAT — bu bölüm 7 Ağustos'ta DÜZELTİLDİ. Önceki hâli YANLIŞTI.**
 
+İlk yazımda burada *"çekirdekte 24 kimlik / 1021 pencere"* diyordu ve
+`CLAUDE.md §1.5`i yanlış ilan ediyordu. **Ölçüm koordinatörün, hata da
+koordinatörün.** `devletler.js` künyelerinde bir **`harita:` alanı** var —
+harita kimliğini künyeye bağlayan açık bir takma ad mekanizması. Ölçüm
+yalnız `id:` üzerinden yapıldı, `harita:` hiç görülmedi.
+
+**Doğru ölçüm** (`arac/durum_tablosu.py:48`in tanımı — `id:` ∪ `harita:`):
 ```
-ÇEKİRDEK (23 dosya)   24 kimlik / 1021 pencere    ← SENİN İŞİN
-KUYRUK   ( 6 dosya)   45 kimlik /  283 pencere    ← bağlanmamış partiler, SONRA
+ÇEKİRDEK (23 dosya)    1 kimlik /   7 pencere    ← yalnız `turkmen`
+KUYRUK   ( 6 dosya)   41 kimlik / 239 pencere    ← bağlanmamış partiler, SONRA
 ```
+⇒ `§1.5`in *"41 kimlik / 246 pencere · %96'sı asya merge borcu"* satırı
+**doğruymuş.**
 
-🔴 **Ve bu sayı `CLAUDE.md §1.5`te "41 kimlik / 246 pencere" diye yazıyor —
-YANLIŞ.** Çekirdekteki pencere sayısı **dört katı** ve tablo bunu *"%96'sı
-uzak Asya"* diye sınıflamış; ölçüm tersini söylüyor: **1021 pencerenin
-tamamı çekirdek coğrafyada** — İran, Fetret şehzâdeleri, Avusturya, Sırbistan,
-Bulgaristan, Ceneviz. Tabloyu koordinatör düzeltecek; sen ölçüme güven.
-
-**Çekirdeğin ilk on kalemi:**
-
-| kimlik | pencere | ne olduğu — ölçüldü |
-|---|---|---|
-| `iran` | **252** | künye **hiç yok**. Emre kural verdi (§②.1) |
-| `suleyman-celebi` | 146 | Fetret şehzâdesi — künye yok |
-| `mehmed-celebi` | 116 | Fetret şehzâdesi — künye yok |
-| `avusturya` | 113 | dizinde yalnız `avusturya-cumhuriyet` (1918+) var |
-| `musa-celebi` | 90 | Fetret şehzâdesi — künye yok |
-| `isa-celebi` | 53 | Fetret şehzâdesi — künye yok |
-| `suud` | 48 | dizinde `suud-birinci/ikinci/ucuncu` var, `suud` yok |
-| `sirbistan` | 46 | dizinde `sirbistan-nemanjic/prensligi/kralligi` var |
-| `bulgaristan` | 34 | dizinde `bulgaristan-prensligi/kralligi` var |
-| `ceneviz` | 25 | künye **hiç yok** |
-
-📌 İki ayrı kusur sınıfı olduğuna dikkat et — **çaresi farklıdır:**
+**İPTAL EDİLEN KALEMLER — hepsinin künyesi ZATEN VAR, dokunma:**
 ```
-A) KÜNYE HİÇ YOK        iran · ceneviz · dört şehzâde     → künye YAZ
-B) KÜNYE VAR AMA        suud · sirbistan · bulgaristan    → hangisinin
-   HARİTA GENEL AD      avusturya · yemen · bosna            doğru olduğunu
-   KULLANIYOR                                                 ÖLÇ ve RAPORLA
+iran            → harita:"iran"  ⇒ afsar + kacar
+suleyman-celebi → fetret-suleyman     mehmed-celebi → fetret-mehmed
+musa-celebi     → fetret-musa         isa-celebi    → fetret-isa
+avusturya       → habsburg            ceneviz       → cenova
+suud            → suud-birinci / suud-ikinci / suud-ucuncu
+sirbistan · bulgaristan · yemen · bosna · hicaz   → hepsi harita: ile bağlı
 ```
-⚠️ **B sınıfında künye yazma.** Orada eksik olan künye değil, haritadaki
-etikettir — ve `yerlesimler*.js` **senin dosyan değil.** Ölç, yaz, koordinatöre
-ver. *"Şu nokta şu tarihte `sirbistan` diyor, dizinde karşılığı
-`sirbistan-kralligi` olmalı"* biçiminde, nokta ve tarih vererek.
+Aşağıdaki **§②.2 (Fetret şehzâdeleri) · §②.3 (Ceneviz) · §②.4 (B sınıfı)
+bölümleri DÜŞTÜ.** Okuma, atla.
+
+**GEÇERLİ KALAN GERÇEK BOŞLUKLAR** — bunlar bağımsız ölçüldü, `harita:`
+alanından etkilenmiyor:
+
+| # | kimlik | bekleyen | not |
+|---|---|---|---|
+| 1 | **`zend`** | **123 nokta** | künye YOK, renk YOK — en yüksek kaldıraç |
+| 2 | **`lur-i-buzurg` · `lur-i-kucek`** | **10 nokta** | TDV `luristan`: 1155-1424 · 1184-1597 |
+| 3 | **`galzay`** | 1 nokta / 38 yıl | TDV imlâsı GALZAY; `hotaki`/`gilzai` ölü slug |
+| 4 | **`turkmen`** | 7 pencere | çekirdekte dizinsiz kalan **tek** kimlik |
+| 5 | §②.5 hasat | — | `muzafferi` · `incu` · `kutlughanli` · `astrahan-hanligi` · `ryazan` |
+| 6 | §②.6 | — | ölü slug ertelemesi taraması |
+
+⚠️ **Ve bir yeni kalem:** `harita:"iran"` **iki ayrı künyede** duruyor
+(`afsar` 1736-1796 · `kacar` 1789-1923). `iran` etiketinin 1335-1501 ve
+1747-1796 pencereleri **yanlış künyeye** düşüyor olabilir. Bu artık *"künye
+yok"* sorunu değil, ***"takma ad yanlış künyeye bağlı"*** sorunu — **ölç ve
+raporla**, künyeyi kendi başına değiştirme.
 
 ---
 
