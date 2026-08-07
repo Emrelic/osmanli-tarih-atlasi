@@ -788,7 +788,7 @@ window.YERLESIMLER = [
 { ad:"Erdebil", tur:"sehir", lat:38.249, lon:48.294, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1335-12-01",d:"ilhanli"},{f:"1335-12-01",t:"1386-01-01",d:"iran"},{f:"1386-01-01",t:"1406-10-21",d:"timurlu"},{f:"1406-10-21",t:"1468-04-01",d:"karakoyunlu"},{f:"1468-04-01",t:"1501-07-01",d:"akkoyunlu"},{f:"1501-07-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20", t:"1796-01-01", d:"zend"},{f:"1796-01-01",t:"1923-10-29",d:"kacar"}] },
 { ad:"Meşhed", tur:"sehir", lat:36.297, lon:59.606, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1335-12-01",d:"ilhanli"},{f:"1335-12-01",t:"1381-04-01",d:"iran"},{f:"1381-04-01",t:"1507-05-24",d:"timurlu"},{f:"1507-05-24",t:"1510-12-02",d:"buhara"},{f:"1510-12-02",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20", t:"1796-01-01", d:"zend"},{f:"1796-01-01",t:"1923-10-29",d:"kacar"}] },
 { ad:"Riyad", tur:"sehir", lat:24.713, lon:46.675, g:0, k:0, d:[], v:[{f:"1818-09-09",t:"1824-06-01",k:"Mısır (İbrâhim Paşa)"}], s:[{f:"1744-01-01",t:"1818-09-09",d:"suud"},{f:"1824-06-01",t:"1891-01-01",d:"suud"},{f:"1891-01-01",t:"1902-01-15",d:"sammar"},{f:"1902-01-15",t:"1923-10-29",d:"suud"}] },
-{ ad:"Maskat", tur:"liman", lat:23.588, lon:58.408, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1507-01-01",d:"umman"},{f:"1507-01-01",t:"1650-01-26",d:"portekiz"},{f:"1650-01-26",t:"1923-10-29",d:"umman"}] },
+{ ad:"Maskat", tur:"liman", lat:23.588, lon:58.408, g:0, k:0, d:[], s:[{f:"1281-01-01", t:"1507-01-01", d:"nebhani"},{f:"1507-01-01",t:"1650-01-26",d:"portekiz"},{f:"1650-01-26",t:"1923-10-29",d:"umman"}] },
 { ad:"Gondar", tur:"sehir", lat:12.603, lon:37.466, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}] },
 { ad:"Addis", tur:"sehir", lat:9.030, lon:38.740, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}] },
 { ad:"Ndjamena", tur:"sehir", lat:12.107, lon:15.045, g:0, k:0, d:[] },
@@ -927,8 +927,8 @@ window.YERLESIMLER = [
     s:[{f:"1913-07-29",t:"1916-11-03",d:"katar"},
        {f:"1916-11-03",t:"1923-10-29",d:"ingiltere"}] },
 { ad:"Abu Dabi", tur:"liman", lat:24.454, lon:54.397, g:0, k:0, kur:"1761-01-01", kasitli_bosluk:true, d:[], s:[{f:"1820-01-08",t:"1923-10-29",d:"ingiltere"}] },
-{ ad:"Nizva", tur:"sehir", lat:22.933, lon:57.533, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"umman"}] },
-{ ad:"Salala", tur:"liman", lat:17.020, lon:54.090, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"umman"}] },
+{ ad:"Nizva", tur:"sehir", lat:22.933, lon:57.533, g:0, k:0, d:[], s:[{f:"1281-01-01", t:"1515-04-01", d:"nebhani"},{f:"1515-04-01", t:"1923-10-29", d:"umman"}] },
+{ ad:"Salala", tur:"liman", lat:17.020, lon:54.090, g:0, k:0, d:[], s:[{f:"1281-01-01", t:"1515-04-01", d:"nebhani"},{f:"1515-04-01", t:"1923-10-29", d:"umman"}] },
 { ad:"Mukalla", tur:"liman", lat:14.5329, lon:49.1248, g:0, k:0, d:[], s:[{f:"1888-01-01",t:"1923-10-29",d:"ingiltere"}] },
 // ---- AFRİKA BOYNUZU ----
 { ad:"Berbera", tur:"liman", lat:10.440, lon:45.014, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}] },
@@ -1315,8 +1315,8 @@ window.YERLESIMLER = [
 { ad:"Hürmüz Adası", tur:"kale", lat:26.861, lon:56.366, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1510-12-02",d:"iran"},{f:"1510-12-02",t:"1515-04-01",d:"safevi"},{f:"1515-04-01",t:"1622-05-01",d:"portekiz"},{f:"1622-05-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20", t:"1796-01-01", d:"zend"},{f:"1796-01-01",t:"1923-10-29",d:"kacar"}] },
 { ad:"Kişm (Qeshm)", tur:"kale", lat:26.791, lon:55.821, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1510-12-02",d:"iran"},{f:"1510-12-02",t:"1515-04-01",d:"safevi"},{f:"1515-04-01",t:"1622-05-01",d:"portekiz"},{f:"1622-05-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20", t:"1796-01-01", d:"zend"},{f:"1796-01-01",t:"1923-10-29",d:"kacar"}] },
 { ad:"Kiş (Kish)", tur:"kale", lat:26.526, lon:53.979, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1508-01-01",d:"iran"},{f:"1508-01-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20", t:"1796-01-01", d:"zend"},{f:"1796-01-01",t:"1923-10-29",d:"kacar"}] },
-{ ad:"Sokotra", tur:"kale", lat:12.510, lon:53.872, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1507-01-01",d:"umman"},{f:"1507-01-01",t:"1511-01-01",d:"portekiz"},{f:"1511-01-01",t:"1923-10-29",d:"umman"}] },
-{ ad:"Masira", tur:"kale", lat:20.414, lon:58.781, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"umman"}] },
+{ ad:"Sokotra", tur:"kale", lat:12.510, lon:53.872, g:0, k:0, d:[], s:[{f:"1281-01-01", t:"1507-01-01", d:"nebhani"},{f:"1507-01-01",t:"1511-01-01",d:"portekiz"},{f:"1511-01-01",t:"1923-10-29",d:"umman"}] },
+{ ad:"Masira", tur:"kale", lat:20.414, lon:58.781, g:0, k:0, d:[], s:[{f:"1281-01-01", t:"1515-04-01", d:"nebhani"},{f:"1515-04-01", t:"1923-10-29", d:"umman"}] },
 
 // ---- Büyük adaların bölünmesi: tek nokta ne şekli ne de aşamalı fethi anlatıyor ----
 // Kıbrıs 1570-71'de parça parça alındı: Limasol ve Baf temmuzda, Girne ve Tuzla
@@ -1684,15 +1684,15 @@ window.YERLESIMLER = [
 { ad:"Buraydâ (Kasîm)", tur:"sehir", lat:26.3594, lon:43.9814, g:0, k:0, s:[{f:"1744-01-01", t:"1818-09-09", d:"suud"}, {f:"1824-06-01", t:"1891-01-01", d:"suud"}, {f:"1891-01-01", t:"1902-01-15", d:"sammar"}, {f:"1902-01-15", t:"1923-10-29", d:"suud"}], d:[], v:[{f:"1818-09-09", t:"1824-06-01", k:"Mısır (İbrâhim Paşa)"}] },
 { ad:"Uneyze", tur:"sehir", lat:26.0878, lon:43.9939, g:0, k:0, s:[{f:"1744-01-01", t:"1818-09-09", d:"suud"}, {f:"1824-06-01", t:"1891-01-01", d:"suud"}, {f:"1891-01-01", t:"1902-01-15", d:"sammar"}, {f:"1902-01-15", t:"1923-10-29", d:"suud"}], d:[], v:[{f:"1818-09-09", t:"1824-06-01", k:"Mısır (İbrâhim Paşa)"}] },
 { ad:"Şakrâ", tur:"sehir", lat:25.2394, lon:45.2531, g:0, k:0, s:[{f:"1744-01-01", t:"1818-09-09", d:"suud"}, {f:"1824-06-01", t:"1891-01-01", d:"suud"}, {f:"1891-01-01", t:"1902-01-15", d:"sammar"}, {f:"1902-01-15", t:"1923-10-29", d:"suud"}], d:[], v:[{f:"1818-09-09", t:"1824-06-01", k:"Mısır (İbrâhim Paşa)"}] },
-{ ad:"Suhâr", tur:"liman", lat:24.3472, lon:56.7092, g:0, k:0, s:[{f:"1281-01-01", t:"1507-01-01", d:"umman"}, {f:"1507-01-01", t:"1650-01-26", d:"portekiz"}, {f:"1650-01-26", t:"1923-10-29", d:"umman"}], d:[] },
-{ ad:"Sûr", tur:"liman", lat:22.5550, lon:59.5200, g:0, k:0, s:[{f:"1281-01-01", t:"1507-01-01", d:"umman"}, {f:"1507-01-01", t:"1650-01-26", d:"portekiz"}, {f:"1650-01-26", t:"1923-10-29", d:"umman"}], d:[] },
+{ ad:"Suhâr", tur:"liman", lat:24.3472, lon:56.7092, g:0, k:0, s:[{f:"1281-01-01", t:"1507-01-01", d:"nebhani"}, {f:"1507-01-01", t:"1650-01-26", d:"portekiz"}, {f:"1650-01-26", t:"1923-10-29", d:"umman"}], d:[] },
+{ ad:"Sûr", tur:"liman", lat:22.5550, lon:59.5200, g:0, k:0, s:[{f:"1281-01-01", t:"1507-01-01", d:"nebhani"}, {f:"1507-01-01", t:"1650-01-26", d:"portekiz"}, {f:"1650-01-26", t:"1923-10-29", d:"umman"}], d:[] },
 // 🔴 D7 (ÇAPRAZ İBERYA): 143 yıllık `portekiz 1507-1650` dönemi KALDIRILDI.
 // Buraymî kıyıdan ~150 km içeride bir VAHA; Portekiz denetimi kaynaklarda
 // liman liman sayılıyor (Suhâr·Cülfâr·Hasab·Hor Fakkan·Dibba·Kuriyat·
 // Maskat·Matrah·Sib·Sûr) ve Buraymî hiçbirinde yok — üstelik kaleler
 // "içeriden gelen kabile akınlarına karşı" kurulmuştu, yani iç bölge
 // KARŞI TARAFTI. Suhâr ve Sûr listede VAR, onlara DOKUNULMADI.
-{ ad:"Buraymî", tur:"sehir", lat:24.2500, lon:55.7931, g:0, k:0, s:[{f:"1281-01-01", t:"1923-10-29", d:"umman"}], d:[] },
+{ ad:"Buraymî", tur:"sehir", lat:24.2500, lon:55.7931, g:0, k:0, s:[{f:"1281-01-01", t:"1515-04-01", d:"nebhani"},{f:"1515-04-01", t:"1923-10-29", d:"umman"}], d:[] },
 { ad:"Ras el-Hayme (Cülfâr)", tur:"liman", lat:25.7896, lon:55.9417, g:0, k:0, s:[{f:"1281-01-01", t:"1515-04-01", d:"nebhani"}, {f:"1515-04-01", t:"1622-05-01", d:"portekiz"}, {f:"1622-05-01", t:"1820-01-08", d:"umman"}, {f:"1820-01-08", t:"1923-10-29", d:"ingiltere"}], d:[] },
 { ad:"Şârika", tur:"liman", lat:25.3573, lon:55.3911, g:0, k:0, s:[{f:"1281-01-01", t:"1515-04-01", d:"nebhani"}, {f:"1515-04-01", t:"1622-05-01", d:"portekiz"}, {f:"1622-05-01", t:"1820-01-08", d:"umman"}, {f:"1820-01-08", t:"1923-10-29", d:"ingiltere"}], d:[] },
 
