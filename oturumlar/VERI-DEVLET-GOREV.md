@@ -475,3 +475,21 @@ kaldı — tek gerçek yeni madde **norvec** (önceki turda "0" denmişti, şimd
 boşluğu (242 kayıt, Sovyet Rusya/SSCB).**
 
 `devletler.js`e bu turda da HİÇ YAZILMADI (git status ile doğrulandı).
+
+---
+
+## ⑪ NOT — düzeltme öncesi destekleyici nokta sayıları hakkında
+
+Düzeltme öncesi (`⑨`'dan önceki) ölçümlerdeki — Lür-i Büzürg/Küçek, Muzafferî,
+İncû, Kutluğhanlı ve benzeri kalemlerin künyelerini yazarken kullandığım
+destekleyici nokta/pencere sayıları — yöntemi `⑩`'da bulunan aynı hataya
+sahipti: `eval()` sonrası yalnız `window.YERLESIMLER` okunuyordu, geri kalan
+26/27 dosya sessizce atlanıyordu. **Künyelerin f/t tarihleri bundan
+etkilenmedi** (hepsi TDV'den geldi, yerleşim nokta sayımına dayanmadı) — hiçbir
+karar bu hatalı sayılara dayanılarak verilmedi, yalnız ölçüm bağlamı/örnek
+sayıları düşük çıkmış olabilir. Koordinatör bunu CLAUDE.md §5 vakası olarak
+not düştü; eski ölçümlerin yeniden koşulmasına gerek yok.
+
+**DURUM: BEKLEMEDE.** `norvec` kararı ve "battaniye ad" programının tamamı
+Emre'nin onayını bekliyor. `data/devletler.js`e karar gelene kadar hiçbir şey
+yazılmayacak. Yeni talimat gelene kadar aktif iş yapılmıyor.
