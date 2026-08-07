@@ -839,6 +839,32 @@ window.DEVLETLER = [
     { t:"1801-09-12", tur:"son", b:"Kartli-Kaheti Krallığı Rusya tarafından ilhak edildi" }
   ]
 },
+// VERİ DEVLET (7 Ağustos 2026) — DALGA 2: `gurcistan` harita kimliği
+// künyenin ömrünün (1008-1801) SONRASINDA da kullanılıyordu, iki AYRI
+// boşluk: (a) 1490'da bölünen İmereti Krallığı `gurcistan`ın kendi t:'siyle
+// (1801) bitmeden çok sonraya, 1810'a dek ayrı sürdü; (b) 1918-1921
+// Gürcistan Demokratik Cumhuriyeti. TDV `gurcistan` maddesinde İmereti'nin
+// KENDİ tarihleri yok (yalnız 1804 birleşme notu var), §4 gereği standart
+// akademik kaynak; Demokratik Cumhuriyet için TDV'nin kendi tarihleri
+// kullanıldı.
+{ id:"imereti", ad:"İmereti Krallığı", tur:"krallik", bolge:"kafkasya",
+  f:"1490-01-01", t:"1810-02-20", baskent:"Kutaisi",
+  ozet:"Gürcistan Krallığı'nın 1490'da Kartli, Kaheti ve İmereti'ye bölünmesiyle doğan batı Gürcistan krallığı (bkz. [[gurcistan]]); Kartli-Kaheti'nin (1801) aksine 1810'a dek ayrı sürdü, Kral II. Solomon'un tahttan indirilmesiyle Rusya'ya ilhak edildi. ⚠️ TDV `gurcistan` maddesi yalnız \"1804 yılında İmeretiya ve Guriya (Rusya ile) birleşti\" diyor — bu muhtemelen kesin ilhaktan önceki bir himaye/vasallık anlaşması; kesin ilhak tarihi (1810-02-20) standart akademik kaynağa göredir.",
+  kronoloji:[
+    { t:"1490-01-01", tur:"kurulus", b:"Gürcistan Krallığı'nın bölünmesiyle ayrı krallık olarak ortaya çıktı" },
+    { t:"1804-01-01", tur:"antlasma", b:"Rusya ile bir birlik/himaye anlaşması imzalandı (TDV: \"birleşti\", ayrıntı yok)" },
+    { t:"1810-02-20", tur:"son", b:"Kral II. Solomon tahttan indirildi, Rusya krallığı kesin olarak ilhak etti" }
+  ]
+},
+{ id:"gurcistan-demokratik-cumhuriyeti", ad:"Gürcistan Demokratik Cumhuriyeti", tur:"cumhuriyet", bolge:"kafkasya",
+  f:"1918-05-26", t:"1921-03-16", baskent:"Tiflis",
+  ozet:"Rusya İmparatorluğu'nun dağılmasıyla Transkafkasya Sejmi'nden ayrılarak bağımsızlığını ilan eden kısa ömürlü cumhuriyet; Kızıl Ordu'nun işgaliyle sona erdi, Gürcistan Sovyet Sosyalist Cumhuriyeti'ne dönüştü. (kaynak: TDV, madde: gurcistan — kuruluş 26 Mayıs 1918 birebir; işgal \"Şubat 1921\" olarak veriliyor, gün yok; bitiş günü 16 Mart 1921 atlasın kendi verisiyle — Batum'un düşüşü — uyumlu tutuldu)",
+  kronoloji:[
+    { t:"1918-05-26", tur:"kurulus", b:"Seym'den ayrılıp bağımsızlığını ilan etti" },
+    { t:"1921-02-25", tur:"isgal", b:"Sovyet Rusya orduları Tiflis'i işgal etti" },
+    { t:"1921-03-16", tur:"son", b:"Direnişin son kalesi Batum'un düşüşüyle cumhuriyet sona erdi, Sovyet rejimi kesinleşti" }
+  ]
+},
 { id:"kilikya-ermeni", ad:"Kilikya Ermeni Krallığı", tur:"krallik", bolge:"anadolu",
   f:"1198-01-01", t:"1375-04-14", baskent:"Sis", harita:"kilikya-ermeni",
   ozet:"Osmanlı kuruluşundan önce Memlûklere yenilerek tarihe karıştı; Osmanlı ile doğrudan teması yok, coğrafi bağlam için anıldı.",
@@ -1629,6 +1655,21 @@ window.DEVLETLER = [
     { t:"1859-11-10", tur:"son", b:"Zürih Antlaşması ile Lombardiya Sardinya-Piyemonte'ye bırakıldı" }
   ]
 },
+// VERİ DEVLET (7 Ağustos 2026) — DALGA 2: `toskana` harita kimliği künyenin
+// ömrünün (1532-1860) ÖNCESİNDE de kullanılıyordu; Floransa Cumhuriyeti
+// dönemi. `toskana`nın kendi ozeti zaten "Floransa Cumhuriyeti'nden Medici
+// hanedanı eliyle doğan dükalık" diyordu — buradan doğrulandı. TDV'de
+// `floransa` maddesi yok (302), §4 gereği standart akademik kaynak.
+{ id:"floransa", ad:"Floransa Cumhuriyeti", tur:"cumhuriyet", bolge:"italya",
+  f:"1115-01-01", t:"1532-01-01", baskent:"Floransa",
+  ozet:"Kontes Matilda'nın ölümüyle özerk bir komün/cumhuriyet olarak örgütlenen, yün ve bankacılık zenginliğiyle Rönesans'ın merkezlerinden biri olan şehir cumhuriyeti; Medici hanedanının fiilî iktidara gelmesiyle 1532'de dükalığa dönüştü (bkz. [[toskana]]). TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
+  kronoloji:[
+    { t:"1115-01-01", tur:"kurulus", b:"Kontes Matilda'nın ölümüyle Floransa özerk bir cumhuriyet olarak örgütlendi" },
+    { t:"1293-01-01", tur:"antlasma", b:"Adalet Kararnâmeleri (Ordinances of Justice) ile popolo yönetimi pekişti" },
+    { t:"1434-09-26", tur:"hukumdar", b:"Cosimo de' Medici sürgünden dönüp şehrin fiilî hâkimi oldu" },
+    { t:"1532-01-01", tur:"son", b:"Alessandro de' Medici dük ilan edildi, Cumhuriyet resmen dükalığa dönüştü" }
+  ]
+},
 { id:"toskana", ad:"Floransa / Toskana Büyük Dükalığı", tur:"dukalik", bolge:"italya",
   f:"1532-01-01", t:"1860-03-22", baskent:"Floransa", harita:"toskana",
   ozet:"Floransa Cumhuriyeti'nden Medici hanedanı eliyle doğan dükalık; 1569'da Büyük Dükalık'a yükseldi, İtalya birliğinde halkoylamasıyla Sardinya-Piyemonte'ye katıldı.",
@@ -1637,6 +1678,19 @@ window.DEVLETLER = [
     { t:"1569-08-27", tur:"hukumdar", b:"I. Cosimo, Papa V. Pius tarafından Toskana Büyük Dükü ilan edildi" },
     { t:"1737-07-09", tur:"bolunme", b:"Medici hanedanı sönünce taç Habsburg-Lorraine hanedanına geçti" },
     { t:"1860-03-22", tur:"son", b:"Halkoylamasıyla Sardinya-Piyemonte'ye (yakında İtalya Krallığı'na) katıldı" }
+  ]
+},
+// VERİ DEVLET (7 Ağustos 2026) — DALGA 2 araştırma teslimi (Akdeniz-İtalya-
+// İberya kalemi): `sardinya` harita kimliği künyenin ömrünün (1720-1861)
+// ÖNCESİNDE de kullanılıyordu; Savoya hanedanının kontluk/dükalık dönemi.
+// TDV'de `savoya` maddesi yok (302), §4 gereği standart akademik kaynak.
+{ id:"savoya", ad:"Savoya Kontluğu / Dükalığı", tur:"dukalik", bolge:"italya",
+  f:"1032-01-01", t:"1720-08-02", baskent:"Chambéry → Torino",
+  ozet:"Umberto I Biancamano'nun kurduğu, önce kontluk (1032-1416) sonra dükalık (1416-1720) unvanıyla Alp geçitlerini denetleyen hanedanlık; Sicilya'yı Avusturya'ya devredip Sardinya Krallığı unvanını almasıyla Sardinya-Piyemonte'ye dönüştü (bkz. [[sardinya-piyemonte]]). TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
+  kronoloji:[
+    { t:"1032-01-01", tur:"kurulus", b:"Umberto I (Biancamano) Savoya kontluğunu kurdu" },
+    { t:"1416-02-19", tur:"hukumdar", b:"İmparator Sigismund, VIII. Amedeo'yu Savoya Dükü ilan etti" },
+    { t:"1720-08-02", tur:"son", b:"II. Vittorio Amedeo, Sicilya'yı Avusturya'ya devredip Sardinya Krallığı unvanını aldı" }
   ]
 },
 { id:"sardinya-piyemonte", ad:"Sardinya-Piyemonte Krallığı (Savoya)", tur:"krallik", bolge:"italya",
@@ -2441,6 +2495,20 @@ window.DEVLETLER = [
     { t:"1910-08-29", tur:"toprak-kazanc", b:"Kore'yi ilhak etti (bkz. [[joseon]])" }
   ]
 },
+// VERİ DEVLET (7 Ağustos 2026) — DALGA 2: `ryukyu` harita kimliği künyenin
+// ömrünün (1429-1879) ÖNCESİNDE de (1281-1429) kullanılıyordu. ⚠️ Bilerek
+// YALNIZ 1322-1429 kapatıldı — 1281-1322 arası (Gusuku çağının erken safhası)
+// tanımlı bir devlet YOK, uydurulmadı; o pencere kasıtlı olarak boş kaldı.
+// TDV'de yok, standart akademik (Doğu Asya, §4 kapsam dışı).
+{ id:"sanzan", ad:"Sanzan Dönemi (Üç Krallık, Okinawa)", tur:"devlet", bolge:"dogu-asya",
+  f:"1322-01-01", t:"1429-01-01", baskent:"— (üç ayrı merkez: Nakijin, Urasoe/Shuri, Ozato)",
+  ozet:"Okinawa adasının Hokuzan, Chuzan ve Nanzan olmak üzere üç yerel krallığa bölündüğü dönem; Chuzan hanedanının Shō Hashi önderliğinde diğer ikisini de fethetmesiyle birleşik Ryukyu Krallığı doğdu (bkz. [[ryukyu]]). TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
+  kronoloji:[
+    { t:"1322-01-01", tur:"kurulus", b:"Okinawa'nın üç bölgesi (Hokuzan, Chuzan, Nanzan) ayrı ayrı krallık ilan etti — Sanzan dönemi başladı" },
+    { t:"1416-01-01", tur:"toprak-kazanc", b:"Chuzan, kuzeydeki Hokuzan'ı fethetti" },
+    { t:"1429-01-01", tur:"son", b:"Chuzan, güneydeki Nanzan'ı da fethedip Shō Hashi önderliğinde Ryukyu Krallığı'nı kurdu" }
+  ]
+},
 { id:"ryukyu", ad:"Ryukyu Krallığı", tur:"krallik", bolge:"dogu-asya",
   f:"1429-01-01", t:"1879-03-27", baskent:"Şuri (Okinawa)", harita:"ryukyu",
   ozet:"Okinawa adalarını birleştiren, Çin ve Japonya arasında çift bağlılıkla (hem Ming/Qing'e hem Satsuma'ya haraç) ayakta kalan ada krallığı; Meiji Japonyası tarafından ilhak edilip Okinawa vilayeti yapıldı.",
@@ -2568,6 +2636,23 @@ window.DEVLETLER = [
     { t:"1587-01-01", tur:"kurulus", b:"Panembahan Senopati, Mataram Sultanlığı'nı kurdu" },
     { t:"1613-01-01", tur:"hukumdar", b:"Sultan Agung döneminde Cava'nın büyük bölümüne hâkim oldu" },
     { t:"1755-02-13", tur:"son", b:"Giyanti Antlaşması ile Yogyakarta ve Surakarta olarak ikiye bölündü" }
+  ]
+},
+// VERİ DEVLET (7 Ağustos 2026) — DALGA 2: `brunei-sultanligi` harita kimliği
+// künyenin ömrünün (1368-1923) ÖNCESİNDE de kullanılıyordu; İslâm-öncesi
+// Po-ni Krallığı dönemi. TDV `bruney` maddesi Po-ni'den HİÇ bahsetmiyor (§4
+// gereği standart akademik/Çin tarihi kaynaklarına dayanıldı) AMA aynı
+// maddenin kendi verdiği Brunei kuruluş tarihi (1405-1415) `brunei-
+// sultanligi`nin f:'iyle (1368) ÇELİŞİYOR — bu ayrıca raporlandı (§②),
+// künye kendi başına değiştirilmedi; `poni`nin t:'si TDV'nin 1405-1415
+// aralığının başına (1405) bağlandı, hangi tarafta düzeltme yapılırsa
+// yapılsın zincir en az bir uçtan tutarlı kalsın diye.
+{ id:"poni", ad:"Po-ni (Poni) Krallığı", tur:"krallik", bolge:"guneydogu-asya",
+  f:"977-01-01", t:"1405-01-01", baskent:"— (Brunei bölgesi, kesin merkez standart kaynakta belirtilmemiş)",
+  ozet:"Çin Song hanedanına haraç heyetleri göndermesiyle kayıtlara geçen erken Borneo krallığı; İslâmlaşıp Brunei Sultanlığı'na dönüştü (bkz. [[brunei-sultanligi]]). TDV `bruney` maddesi Po-ni'den hiç bahsetmiyor; tarihler standart akademik (Çin tarihî kayıtları) kaynağa göredir.",
+  kronoloji:[
+    { t:"977-01-01", tur:"kurulus", b:"Çin Song hanedanına ilk haraç/elçilik heyeti gönderildi, \"Po-ni\" adıyla kayda geçti" },
+    { t:"1405-01-01", tur:"son", b:"İslâmlaşma ve Brunei Sultanlığı'nın kuruluşuyla (TDV: 1405-1415) örtüşür" }
   ]
 },
 { id:"brunei-sultanligi", ad:"Brunei Sultanlığı", tur:"sultanlik", bolge:"guneydogu-asya",
@@ -3019,13 +3104,13 @@ window.DEVLETLER = [
   ]
 },
 { id:"navarra", ad:"Navarra Krallığı", tur:"krallik", bolge:"iberya",
-  f:"824-01-01", t:"1512-07-25", baskent:"Pamplona", harita:"navarra",
-  ozet:"Bask kökenli, Pireneler'in iki yakasına da uzanan küçük ama uzun ömürlü İber krallığı; İspanya'nın (Kastilya-Aragon) fethiyle güney kısmı ilhak edildi, kuzeydeki Béarn kolu 1620'ye dek ayrı sürdü.",
+  f:"824-01-01", t:"1620-10-19", baskent:"Pamplona", harita:"navarra",
+  ozet:"Bask kökenli, Pireneler'in iki yakasına da uzanan küçük ama uzun ömürlü İber krallığı; İspanya'nın (Kastilya-Aragon) fethiyle güney kısmı ilhak edildi, kuzeydeki Béarn kolu 1620'ye dek ayrı sürdü. ⚠️ VERİ DEVLET (7 Ağustos 2026) DÜZELTTİ: `t:` 1512'den 1620-10-19'a çekildi — künyenin KENDİ kronolojisi zaten \"Béarn/Fransız kolu Fransa'ya katıldı\" diye 1620'yi taşıyordu ama `t:` alanı hâlâ 1512 yazıyordu (108 yıllık düz künye hatası, yeni araştırma gerektirmedi).",
   kronoloji:[
     { t:"824-01-01", tur:"kurulus", b:"İñigo Arista, Pamplona Krallığı'nı kurdu" },
     { t:"1234-01-01", tur:"hukumdar", b:"Şampanya hanedanı evlilik yoluyla tahta geçti" },
-    { t:"1512-07-25", tur:"son", b:"Kastilya-Aragon (İspanya) güney Navarra'yı ilhak etti" },
-    { t:"1620-10-19", tur:"birlesme", b:"Kuzeydeki Béarn/Fransız kolu da Fransa Krallığı'na katıldı" }
+    { t:"1512-07-25", tur:"toprak-kayip", b:"Kastilya-Aragon (İspanya) güney Navarra'yı ilhak etti" },
+    { t:"1620-10-19", tur:"son", b:"Kuzeydeki Béarn/Fransız kolu da Fransa Krallığı'na katılarak krallığın son parçası da sona erdi" }
   ]
 },
 { id:"isvicre", ad:"İsviçre Konfederasyonu", tur:"cumhuriyet", bolge:"orta-avrupa",
@@ -3064,6 +3149,20 @@ window.DEVLETLER = [
     { t:"1471-01-01", tur:"hukumdar", b:"Papa tarafından \"Ferrara Dükü\" unvanı tanındı" },
     { t:"1598-01-01", tur:"toprak-kayip", b:"Ferrara, meşru varis yokluğuyla Papalık Devleti'ne ilhak edildi, hanedan Modena'ya çekildi" },
     { t:"1859-01-01", tur:"son", b:"İtalyan birleşme hareketiyle Modena da Sardinya-Piyemonte'ye katıldı" }
+  ]
+},
+// VERİ DEVLET (7 Ağustos 2026) — DALGA 2: `mantua` harita kimliği künyenin
+// ömrünün (1328-1708) ÖNCESİNDE de kullanılıyordu; Bonacolsi senyörlüğü
+// dönemi. Bitiş günü (16 Ağustos 1328, Gonzaga darbesi) iyi belgeli bir
+// tarih — `mantua`nın kendi f'si ("1328-01-01") aynı yılın daha kaba bir
+// yuvarlaması, çelişki değil hassasiyet farkı. TDV'de `bonacolsi` maddesi
+// yok, §4 gereği standart akademik kaynak.
+{ id:"bonacolsi", ad:"Bonacolsi Senyörlüğü (Mantova)", tur:"devlet", bolge:"italya",
+  f:"1273-01-01", t:"1328-08-16", baskent:"Mantova",
+  ozet:"Pinamonte Bonacolsi'nin Mantova'da fiilî senyörlüğünü kurmasıyla başlayan, kentin ilk kalıcı tek-aile yönetimi; son senyör Rinaldo (Passerino) Bonacolsi, Gonzaga ailesinin darbesiyle devrildi ve öldürüldü (bkz. [[mantua]]). TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
+  kronoloji:[
+    { t:"1273-01-01", tur:"kurulus", b:"Pinamonte Bonacolsi, Mantova'da fiilî senyörlüğü ele geçirdi" },
+    { t:"1328-08-16", tur:"son", b:"Ludovico Gonzaga önderliğindeki darbeyle Rinaldo (Passerino) Bonacolsi devrilip öldürüldü" }
   ]
 },
 { id:"mantua", ad:"Mantua Dukalığı (Gonzaga)", tur:"dukalik", bolge:"italya",
@@ -3237,6 +3336,24 @@ window.DEVLETLER = [
     { t:"1527-01-01", tur:"toprak-kazanc", b:"Majapahit'in kalıntısı ortadan kaldırıldı, Cava'nın kuzey kıyısı Demak'a bağlandı" },
     { t:"1546-01-01", tur:"savas", b:"Trenggana, Panarukan seferinde yenilip öldürüldü; devlet gerilemeye başladı" },
     { t:"1587-01-01", tur:"son", b:"Pajang ve ardından Mataram'ın yükselişiyle Demak'ın bağımsızlığı bitti" }
+  ]
+},
+// VERİ DEVLET (7 Ağustos 2026) — DALGA 2: Demak'ın ardılı Mataram Sultanlığı,
+// 13 Şubat 1755'te Giyanti Antlaşması ile ikiye bölündü. TDV `mataram`
+// slug'ı ölü (302), `cava` maddesi de antlaşmadan hiç bahsetmiyor; §4
+// gereği standart akademik kaynak (Güneydoğu Asya tarihi) kullanıldı.
+{ id:"surakarta", ad:"Surakarta Sunanlığı", tur:"sultanlik", bolge:"guneydogu-asya",
+  f:"1755-02-13", t:"1923-10-29", baskent:"Surakarta (Solo)",
+  ozet:"Giyanti Antlaşması ile Mataram Sultanlığı'nın ikiye bölünmesiyle doğan, Pakubuwono hanedanının yönettiği sunanlık; Yogyakarta ile aynı gün doğdu (bkz. [[yogyakarta]]), Hollanda himayesinde 20. yüzyıla dek sürdü (1923 sonrasında da sürdü). TDV'de `mataram` maddesi ölü (302); tarihler standart akademik kaynağa göredir.",
+  kronoloji:[
+    { t:"1755-02-13", tur:"kurulus", b:"Giyanti Antlaşması ile Mataram bölündü, Pakubuwono III Surakarta sunanı ilan edildi" }
+  ]
+},
+{ id:"yogyakarta", ad:"Yogyakarta Sultanlığı", tur:"sultanlik", bolge:"guneydogu-asya",
+  f:"1755-02-13", t:"1923-10-29", baskent:"Yogyakarta",
+  ozet:"Giyanti Antlaşması ile Mataram Sultanlığı'nın ikiye bölünmesiyle doğan, Hamengkubuwono hanedanının yönettiği sultanlık; Surakarta ile aynı gün doğdu (bkz. [[surakarta]]), Hollanda himayesinde 20. yüzyıla dek sürdü (1923 sonrasında da sürdü). TDV'de `mataram` maddesi ölü (302); tarihler standart akademik kaynağa göredir.",
+  kronoloji:[
+    { t:"1755-02-13", tur:"kurulus", b:"Giyanti Antlaşması ile Mataram bölündü, I. Hamengkubuwono Yogyakarta sultanı ilan edildi" }
   ]
 },
 
