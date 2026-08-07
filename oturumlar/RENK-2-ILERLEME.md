@@ -1211,3 +1211,56 @@ renk_cikti   ① cohor eski renkle çizili → koşu bekliyor
 ```
 ⚠️ Kırkının da künyesinde karşılık yok — koordinatörün kararıyla (GEVŞEK)
 bilerek böyle. Renk deliği kapatır, dizin penceresi açık kalır.
+
+---
+
+## ㉘ SON PARTİ — dokuz kimlik yazıldı, koşunun önü açıldı
+
+```
+BOYALAR 290 → 299 · denetim temiz · --dogrula 9 öneri · 0 fark
+savoya #12129f · floransa #deabd8 · bonacolsi #421542 · imereti #deea90
+gurcistan-demokratik-cumhuriyeti #90eab1 · poni #1ee7ea · sanzan #1884e7
+astarhan #482d15 · irlanda-serbest-devlet #ea8751
+```
+
+### Ardıl çiftleri — koordinatörün asıl kaygısı, hepsi ölçüldü
+```
+savoya ↔ sardinya          42,0            floransa ↔ toskana   16,4  (0 km!)
+bonacolsi ↔ mantua         25,3  (0 km)    imereti ↔ gurcistan  47,2  (0 km)
+gurcistan-dem-cum ↔ gurcistan 38,6         sanzan ↔ ryukyu      33,1
+poni ↔ brunei              58,8            irlanda-hür ↔ irlanda 51,5
+astarhan ↔ altinorda       18,4
+```
+En dar ardıl çifti `floransa ↔ toskana` (16,4) ve ikisi **aynı noktada** —
+yani Floransa Cumhuriyeti'nin 1532'de Toskana Dükalığı'na dönüşmesi haritada
+görünür kalıyor.
+
+### 🔴 VE ÖLÇÜT BİR KEZ DAHA SIKILAŞTI — ters yönde
+Kırk partisinde *"tam karşılıklı ayırma yanlış, 600 km doğru ölçüt"*
+demiştim. Bu partide **tersi çıktı** ve ikisi çelişmiyor:
+```
+600 km kuralı savoya(Torino) ↔ imereti(Kutaisi) 3000 km'yi BAĞLAMIYORDU
+⇒ ilk tur ikisine de aynı laciverti verdi (#12129f / #1221ae)
+⇒ bonacolsi / gurcistan-dem-cum'a da aynı açık yeşili
+```
+Dokuzu karşılıklı engel yapınca düzeldi ve **bedeli sıfır oldu** — havuz
+156k, 9/9 çözüldü, en dar pay 14,6.
+
+📌 **Fark parti büyüklüğünde:** kırk kimlikte tam ayırma çözülemiyordu
+(29/40) çünkü palet o kadar ayrı renk taşımıyor; dokuzda taşıyor.
+⇒ Kural şu: **600 km bir TABAN, tam ayırma bir TAVAN.** Parti küçükse tavana
+çık (bedeli yok), büyükse tabana in (tavan çözülmez). İkisinin arasında
+seçim yapmak ölçümün işi, kuralın değil.
+
+### 🟢 VE BİR EŞİK GEÇİLDİ
+```
+veride penceresi olan RENKSİZ kimlik:  0
+```
+Oturum açılışında bu sayı 3'tü (`sibir-hanligi` · `estonya` · `izlanda`),
+gün içinde 40'a çıktı (bağlanan partilerle), şimdi **sıfır.**
+Haritada renk yüzünden boyanmayan tek bir pencere kalmadı.
+
+⚠️ Sıradaki iki kimlik şimdiden görünüyor: `ermenistan` ve `azerbaycan`
+palette yok. Bugün veride 0 pencereleri var, ama `gurcistan-demokratik-
+cumhuriyeti`nin verisi indiğinde Kafkasya'nın 1918-1921 üçlüsü tamamlanacak
+ve o ikisi gerekecek. Koordinatöre bildirildi.
