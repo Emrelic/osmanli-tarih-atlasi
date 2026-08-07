@@ -302,7 +302,39 @@ sırasında da yerlesimler*.js'e dokunulmadı, yalnız `harita:` alanları
 ✅ ölü slug taraması          tüm dosya (317 kayıt) tarandı, 0 künye "ertelendi" örüntüsüyle eşleşti
 +  ek: galzay (koordinatörün sonradan eklediği kalem) yazıldı
 ```
-```
 
 Her satırın yanına **ölçtüğün sayıyı** yaz. *"Bitirdim"* değil,
 *"24 → 7, şu yedisi şu sebeple kaldı"* de.
+
+---
+
+## ⑧ KAPANIŞ — `iran.t:` düzeltme geri alındı + ②.6 tekrar doğrulandı (7 Ağustos, devam)
+
+**`iran.t:` olayı:** Koordinatör önce "`t:"1923-10-29"` yaz, `f:`i 1925'te
+bırak" dedi — bu iki talimat birlikte `f:1925 > t:1923` TERS DÖNEM açıyordu
+(kendi uyarısının tarif ettiği tam kusur). Talimatı henüz uygulamamıştım
+(dosyayı yalnız okuyordum, `isvec`/`danimarka` emsalini doğruluyordum) —
+koordinatör kendi kendini düzeltip talimatı GERİ ÇEKTİ ("YANLIŞTI"). Sonuç:
+`iran` kaydına **hiç dokunulmadı**, hâlâ orijinal hâliyle duruyor:
+`f:"1925-12-12"`, `t:"2026-08-07"`, `harita:` alanı yok (317 kayıttan 70'i
+zaten haritasız — bu normal, yalnız dizin amaçlı kayıtlar). Doğrulandı
+(`grep id:"iran"`).
+
+**②.6 ölü slug ertelemesi taraması — TEKRAR ÇALIŞTIRILDI, aynı sonuç: 0.**
+Bu turda arama örüntüsü genişletildi: `ertele`, `ertelen`, `bulunmadığı için`,
+`302`, `ölü slug`/`olu slug`, `dead slug`, `slug bulunamadı`, `slug yok`,
+`doğru slug`, `yeniden dene`, `taslak`, `geçici olarak`, `sonra bulun`,
+`taranacak`, `yeniden ara`, `slug ara` — tümü `data/devletler.js`nin tamamına
+(317 kayıt, ~3600 satır) karşı koşturuldu. **Hiçbir künye "TDV'de madde
+bulunmadığı için ertelendi" ya da eşdeğeri bir notla ERTELENMİŞ görünmüyor.**
+Bulunan tek yakın eşleşme yine `nebhani` (Uman) kaydındaki not — ve bu, daha
+önce raporlandığı gibi, eksik bir künye değil, künyenin İÇİNDEKİ bir alt-ayrım
+kararı (Cülfâr'ın Hürmüz'e tâbiiyetinin ayrı satır olup olmaması). `data/
+devletler.js` içindeki üç mevcut "302 döndürüyor" notu (`kandehar`/`galzay`
+komşusu, `ryazan`, `izlanda`) hâlihazırda standart-akademik kaynakla ÇÖZÜLMÜŞ
+kayıtlar, ertelenmiş değil.
+
+**SONUÇ — §②.6 KAPANDI: 317 kayıt tarandı, 0 künye "ertelendi" örüntüsüyle
+eşleşti, 0 adres düzeltildi (düzeltilecek aday yok).**
+
+Listemdeki tüm kalemler bitti. Yeni iş bekliyorum ("battaniye ad" ölçümü).
