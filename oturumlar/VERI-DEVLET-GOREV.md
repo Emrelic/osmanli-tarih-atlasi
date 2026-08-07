@@ -694,3 +694,73 @@ DALGA 2 (35 kimlik/~203 pencere: irlanda, umman, adal, somali, ispanya,
 sardinya, bosna, kirim, avusturya, bogdan, darfur, eflak, altinorda,
 maratha, milanoduka, ...) — **Dalga 1 bitmeden başlanmadı**, koordinatörün
 talimatı buydu.
+
+---
+
+## ⑭ 🔓 KİLİT KALKTI — DALGA 1 CANLIYA GEÇTİ + ARAŞTIRMA KÜNYE 3 kalemleri
+
+### Dalga 1 — 7 taslak birebir yazıldı
+
+`⑬`'teki 7 blok `data/devletler.js`e taşındı, doğrulandı (`node -e eval`,
+sözdizimi temiz, mükerrer id 0): `moskova` · `sovyet-rusya` ·
+`fransa-cumhuriyet` · `isvec-birlik-oncesi` · `polonya-erken` ·
+`litvanya-buyuk-dukalik` · `norvec-kralligi`. 2 düzeltme uygulandı:
+`danimarka.f` 1380→1281, `fransa.t` 1792-09-21→1792-09-22 (+ ilgili
+kronoloji satırları). Kayıt sayısı 317→324.
+
+### ARAŞTIRMA KÜNYE 3 kalemleri
+
+- **`umman`** — dokunulmadı (talimat: künye zaten var, taşıma koordinatörün işi).
+- **`benihalid` düzeltildi**: `t:` 1795→1830, kronolojiye ikinci dönem
+  eklendi (1795 toprak-kayip → 1818 toprak-kazanc, Mâcid el-Ureyyir'in
+  restorasyonu → 1830 son, Aklâ savaşı). TDV `halid-beni-halid` doğrulandı
+  (WebFetch): "Lahsâ bölgesi Suûd ailesinin denetiminde kaldı… 1872'ye
+  dek" — mevcut ozetteki "1874-75'te tarihe karıştı" ifadesi bu yeni
+  bilgiyle çelişiyordu (TDV 1872 diyor, üstelik bu Osmanlı'nın DOĞRUDAN
+  idareyi kurduğu tarih, Benî Hâlid'in kendi sonu değil), o yüzden
+  kaldırıldı. Haritadaki 1841 bitişini 1830'a çekmek KOORDİNATÖRÜN işi,
+  dokunulmadı.
+- **3 yeni künye kalemi, 4 kayıt yazıldı** (ikisi tek kalem: dâcû+tunciler):
+  - `evfat` (Evfât/İfat Emirliği, 1285-1415) — TDV `evfat` **CANLI** (⚠️
+    araştırma raporu 302 demişti, kendi testimde 200 çıktı — muhtemelen
+    ara dönemde slug canlandı ya da önceki test hatalıydı; `harar`
+    maddesiyle çapraz doğrulandı, ikisi aynı tarihleri veriyor).
+  - `dacu` (Dâcû/Daju, ~1200-1400) + `tunciler` (Tunjur, 1400-1695) —
+    ikisinin de kendi slug'ı ölü (302), TDV `darfur` maddesinin İÇİNDEN
+    çıkarıldı. Kesinlik düşük işaretlendi (TDV yalnız yüzyıl veriyor).
+  - `makdisu-sultanligi` (Ebû Bekir b. Fahreddin, 1281-1500) — TDV
+    `makdisu` **canlı**, `mogadisu` slug'ı canlı ama içi boş/yönlendirme
+    olduğu doğrulandı (WebFetch ile ayrıca test edildi).
+- **⚪ Dokunulmadı**: `kaffa` (Mato hanedanı, isimsiz 32 kral — TDV'de
+  `kefa`/`kafa`/`kaffa` üçü de 302) ve `somali`'nin iç/güney noktaları —
+  ikisi de "bulunamadı", araştırma raporu zaten böyle işaretlemişti,
+  tekrar aramadım.
+
+### 🔴 `darfur` TARİH TARTIŞMASI — ÖLÇÜLDÜ, DEĞİŞTİRİLMEDİ, KARAR KOORDİNATÖRDE
+
+TDV `darfur` maddesi WebFetch ile tekrar okundu, birebir alıntı:
+> "Dârfûr Sultanlığı'nın kuruluşu, XVII. yüzyılın sonlarında Bumû el-Kasîr'in
+> bölgeyi istilâ etmesiyle birlikte gelen karışıklıktan sonraya rastlamaktadır.
+> Sultan Süleyman Solonc'un saltanatı 1695-1715 yıllarında olup…"
+
+Mevcut `darfur` künyesi `f:"1603-01-01"` diyor, kronolojisi de "1603-01-01
+kurulus Süleyman Solon (Solong) tarafından" yazıyor — **TDV'nin kendi
+verdiği hükümdarlık tarihiyle (1695) ~92 yıl fark var.** İki ihtimal:
+(a) künye yanlış ölçülmüş (1603 başka bir kaynaktan/yanlış aktarılmış),
+(b) 1603 farklı bir olayı (Keira hanedanının çok daha erken, gevşek bir
+başlangıcını) işaretliyor ve TDV yalnız Süleyman Solonc ile "asıl
+konsolidasyonu" anlatıyor — ikisi ÇELİŞEN değil FARKLI SORULARIN cevabı
+olabilir (CLAUDE.md kimlikler.js §74 emsali). **Ben karar vermedim,
+künyeyi değiştirmedim** — `dacu`/`tunciler` taslaklarını TDV'nin 1695
+tarihine göre yazdım (bağımsız, `darfur`ın kendi tarihine dayanmadan),
+böylece hangi karar çıkarsa çıksın `dacu`→`tunciler`→`darfur` zinciri
+tutarlı kalır (1400→1695→[darfur'un kendi f'si, 1603 ya da 1695]).
+
+### GÜNCEL SAYIM
+
+`data/devletler.js`: 317 (kilit öncesi) → 324 (Dalga 1) → **328** (ARAŞTIRMA
+KÜNYE 3, +4: evfat/dacu/tunciler/makdisu-sultanligi) + 1 düzeltme
+(benihalid). Hepsi `node -e eval` ile doğrulandı: sözdizimi temiz,
+mükerrer id 0.
+
+Koordinatöre haber verildi, commit'i koordinatör yapacak.
