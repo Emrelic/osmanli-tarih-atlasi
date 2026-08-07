@@ -782,3 +782,58 @@ açık kalan   afsar↔kacar aynı-anahtar (devletler.js işi, yukarıda)
 commit'siz** — `git status` ikisini de `M` gösteriyor. Bugünkü on üç
 rengin tamamı bu iki dosyada ve **tek bir `git checkout --` hepsini
 siler.** Commit koordinatörün (`§7`); hatırlatıyorum.
+
+---
+
+## ⑲ `galzay  #72c978` — 7 Ağustos
+
+TDV `kandehar`: Galzaylar 1709'da Kandehar'ı aldı, 1738'de Nâdir Şah geri
+aldı. Canlı `Kandehar` kaydı bugün **`s: iran 1709-04-21 → 1747-06-20`**,
+yani 38 yıl tek parça. Bölme noktası veride zaten hazır.
+
+Komşuluk `Kandehar` peteğinin 1709-1738 penceresinden ölçüldü (`zend` ve
+`ryazan` ile aynı yöntem — kimliğin 0 penceresi var, araç ölçemez):
+```
+safevi · afsar (Herat · Hâş · Zerenc) · sind (Şikârpûr) ·
+babur-imparatorlugu (Gazne) · buhara (Belh)
+```
+
+### 🔴 Afgan ailesine KONMADI — iki gerekçe aynı yöne bastı
+**Tarihî:** Galzay (Hotakî/Gilzay) ile Dürrânî (Abdâlî) **ardıl değil
+RAKİP** Peştun konfederasyonlarıydı. Nâdir Şah Hotakîleri ezdi; Dürrânî
+devleti dokuz yıl **sonra**, araya `afsar` girerek doğdu. Bu,
+`afgan-durrani → afganistan` (doğrudan hanedan devri, aile doğruydu) ile
+aynı şey değil — burada aile **yanlış** olurdu.
+
+**Ölçüm:** aile bandında (ton 8,8°±18, L\* 66-76 basamağı) **aday SIFIR.**
+
+⇒ `afgan-durrani`den ΔE **>25** · `afsar`dan **>25**: hem Dürrânî ayrımı
+hem 1738 Galzay→Afşar geçişi haritada net.
+
+### ⚠️ İki aday ölçülüp elendi — ikisi de "okuma hatası" sınıfı
+```
+① #3fb193  pay 25,3 (en iyisi) ama cungar #3fb4a2'den ΔE 2,9
+           komşu değiller, hiçbir denetim ateşlemezdi — ama ikisi
+           1709-1738'de EŞZAMANLI ve aynı geniş coğrafyada
+② #3f5db1  estonya #3f63b4'e yakın. Ne çağdaş ne bölgesel (1709
+           Kandehar / 1918 Baltık), yani kural ihlali YOK; yine de
+           palette iki neredeyse-aynı mavi tutmamak için elendi
+```
+
+📌 **Ve buradan bir kural çıktı:** son turda **bu oturumda yazdığım on iki
+rengin hepsi engel sayıldı** (27 engel). Bir oturum kendi ürettiklerini de
+engel saymalı — yoksa her renk tek tek temiz çıkar, palet toplu hâlde
+bulanıklaşır. Denetim çiftler üzerinden bakar; **birikme** göremez.
+
+ÖLÇÜM: yarkent-hanligi 15,2 · sind 15,4 · cungar 15,4 ·
+cin-cumhuriyeti 15,5 · umman 16,5 · qing-hanedani 19,2 ·
+altlıktan 24,4 · C* 28,5 = paletin %75'i
+
+⚠️ Künye yok — koordinatör yazacak.
+
+### ÖLÇÜM
+```
+BOYALAR      240        canlı 1800 nokta · künye 314
+renk_olc     görünmez 0 · çakışma 0 · aynı-hex 0     ✓
+--dogrula    3 öneri · 0 fark                        ✓
+```
