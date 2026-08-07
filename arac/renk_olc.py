@@ -66,14 +66,38 @@ TON_MERKEZ = 30.0     # kırmızı ailesinin merkezi (Osmanlı ailesi için)
 # değeri hassas değil — hassas olan ELLE KOPYA OLMAMASI.
 # Bulunamazsa SystemExit — sessizce eski değere düşme YOK (ölçemeyen
 # denetim temiz denetim değildir).
+#
+# 🔴 VE AYRIŞTIRICI BİR KEZ KIRILDI — 6 Ağustos 2026, RENK 2'nin ilk bulgusu.
+#   Desen `^BOLGE\s*=\s*box\(` idi, yani YALNIZ düz dikdörtgeni tanıyordu.
+#   4 Ağustos'ta batı kenarı İzlanda için açılınca BOLGE L şekline döndü:
+#     BOLGE = unary_union([box(-12, -11, 146, 82), box(-25, 60, -12, 82)])
+#   Desen tutmadı ⇒ SystemExit ⇒ `renk_olc.py` VE onu içe aktaran
+#   `renk_cikti.py` **ikisi de import anında ölüyordu.** Yani atlasın renk
+#   ekseninde iki nöbetçi vardı ve İKİSİ DE İKİ GÜNDÜR KOŞMUYORDU.
+#   📌 Ders: "elle kopya olmasın" doğru karardı, ama okuyucu kaynağın TEK
+#      biçimine bağlandı. Kaynak biçim değiştirince koruma korumayı bıraktı.
+#      Sessiz kalmadı — SystemExit attı, ki doğrusu buydu (§"ölçemeyen
+#      denetim temiz denetim değildir") — ama kimse koşturmadığı için iki gün
+#      duyulmadı. **Gürültülü ölüm bile, dinleyen yoksa sessizdir.**
+#   ⇒ Yeni okuyucu BİÇİMDEN BAĞIMSIZ: BOLGE atamasındaki BÜTÜN box(...)
+#     çağrılarını toplar ve zarfını (min/maks) alır. box · unary_union ·
+#     MultiPolygon — üçü de aynı sonucu verir. Zaten KUTU'nun tek işi
+#     Voronoi kırpma sınırıdır; BOLGE'yi her yönden aşması yeterli, şeklini
+#     TAŞIMASI gerekmiyor (L'nin çentiği açık okyanusta, orada nokta yok).
 _UP = os.path.join(os.path.dirname(os.path.abspath(__file__)), "uret_petek.py")
-_m = re.search(r"^BOLGE\s*=\s*box\(([^)]+)\)",
-               io.open(_UP, encoding="utf-8").read(), re.M)
-if not _m:
-    raise SystemExit("!! BOLGE uret_petek.py'den okunamadı — KUTU "
+_m = re.search(r"^BOLGE\s*=\s*(.+?)(?:\n(?=\S)|\Z)",
+               io.open(_UP, encoding="utf-8").read(), re.M | re.S)
+_kutular = re.findall(r"box\(\s*([-0-9.eE,\s]+?)\s*\)",
+                      _m.group(1)) if _m else []
+if not _kutular:
+    raise SystemExit("!! BOLGE uret_petek.py'den okunamadı (box(...) "
+                     "bulunamadı) — KUTU türetilemez, komşuluk ölçülemez")
+_b = [[float(x) for x in k.split(",")] for k in _kutular]
+if any(len(k) != 4 for k in _b):
+    raise SystemExit("!! BOLGE'deki box(...) 4 sayı taşımıyor — KUTU "
                      "türetilemez, komşuluk ölçülemez")
-_b = [float(x) for x in _m.group(1).split(",")]
-KUTU = box(_b[0] - 13.0, _b[1] - 6.5, _b[2] + 13.0, _b[3] + 10.0)
+KUTU = box(min(k[0] for k in _b) - 13.0, min(k[1] for k in _b) - 6.5,
+           max(k[2] for k in _b) + 13.0, max(k[3] for k in _b) + 10.0)
 
 
 def h2r(h):

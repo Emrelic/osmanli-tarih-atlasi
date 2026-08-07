@@ -865,6 +865,28 @@ window.DEVLETLER = [
     { t:"1921-03-16", tur:"son", b:"Direnişin son kalesi Batum'un düşüşüyle cumhuriyet sona erdi, Sovyet rejimi kesinleşti" }
   ]
 },
+// VERİ DEVLET (7 Ağustos 2026) — RENK 2'nin uyarısı: Transkafkasya Seymi'nden
+// 1918'de AYNI ANDA doğan üç cumhuriyet (Gürcistan, Ermenistan, Azerbaycan)
+// AYNI GÜNDE BİTMEDİ — Sovyet işgali her birine farklı ay/yılda ulaştı.
+// Komşuluk hâlâ `rusya` (1917-1923 boşluğunda `sovyet-rusya`) gösterilirse
+// 1918-1921 Kafkasyası yanlış boyanır; üçü AYRI künye olarak yazıldı.
+{ id:"ermenistan-demokratik-cumhuriyeti", ad:"Ermenistan Demokratik Cumhuriyeti", tur:"cumhuriyet", bolge:"kafkasya",
+  f:"1918-05-28", t:"1920-12-02", baskent:"Erivan",
+  ozet:"Transkafkasya Sejmi'nin dağılmasıyla Taşnaktsutyun önderliğinde bağımsızlığını ilan eden kısa ömürlü cumhuriyet; Türk-Ermeni Savaşı'nın ardından Sovyet Rusya'nın işgaliyle sona erdi, Ermenistan Sovyet Sosyalist Cumhuriyeti'ne dönüştü. ⚠️ TDV'de müstakil `ermenistan` maddesi YOK (302); `kafkasya` maddesi yalnız genel çerçeveyi (\"Azerbaycan, Gürcistan, Ermenistan... millî cumhuriyetleri kuruldu\", işgal \"1920-1921\"de) doğruluyor, gün vermiyor. Tarihler standart akademik kaynağa göredir (§4).",
+  kronoloji:[
+    { t:"1918-05-28", tur:"kurulus", b:"Taşnaktsutyun önderliğinde Erivan'da bağımsızlık ilan edildi" },
+    { t:"1920-09-24", tur:"savas", b:"Türk-Ermeni Savaşı başladı" },
+    { t:"1920-12-02", tur:"son", b:"Aleksandropol Antlaşması ve Sovyet işgaliyle hükûmet çöktü, Ermenistan SSC'ye dönüştü" }
+  ]
+},
+{ id:"azerbaycan-demokratik-cumhuriyeti", ad:"Azerbaycan Demokratik Cumhuriyeti", tur:"cumhuriyet", bolge:"kafkasya",
+  f:"1918-05-28", t:"1920-04-27", baskent:"Bakü",
+  ozet:"Transkafkasya Sejmi'nin dağılmasıyla bağımsızlığını ilan eden, Müslüman dünyasının ilk parlamenter cumhuriyeti sayılan devlet; Kızıl Ordu'nun işgaliyle sona erdi, Azerbaycan SSC'ye dönüştü. (kaynak: TDV, madde: azerbaycan — \"28 Mayıs 1918'de Azerbaycan Demokratik Cumhuriyeti ilân edildi\", \"27 Nisan 1920'de... Kızıl Ordu... Azerbaycan Demokratik Cumhuriyeti'ne son verdi\" birebir). ⚠️ Ardıl SSC'nin kuruluşu bir gün SONRA, 28 Nisan 1920'dir — bu künyenin `t:`si cumhuriyetin KENDİ sonu (27 Nisan), SSC'nin kuruluşu değil.",
+  kronoloji:[
+    { t:"1918-05-28", tur:"kurulus", b:"Azerbaycan Demokratik Cumhuriyeti ilan edildi" },
+    { t:"1920-04-27", tur:"son", b:"Kızıl Ordu Bakü'yü işgal edip parlamento ve hükûmeti feshetti" }
+  ]
+},
 { id:"kilikya-ermeni", ad:"Kilikya Ermeni Krallığı", tur:"krallik", bolge:"anadolu",
   f:"1198-01-01", t:"1375-04-14", baskent:"Sis", harita:"kilikya-ermeni",
   ozet:"Osmanlı kuruluşundan önce Memlûklere yenilerek tarihe karıştı; Osmanlı ile doğrudan teması yok, coğrafi bağlam için anıldı.",
