@@ -361,6 +361,9 @@ BUYUK_SADE = {_ad_sadelestir(b) for b in BUYUK}
 BUYUK_SADE |= {"bykmenderes", "kizlirmak", "kiziirmak", "kckmenderes",
                "yesiirmak", "bakiray", "kprüay", "kopruay", "gksu"}
 
+# Nehir önem eşiği — Natural Earth `scalerank`. Ölçüm gerekçesi aşağıda.
+NEHIR_ONEM_ESIGI = 5.0
+
 NEHIRLER = []
 _bulunan = set()
 try:
@@ -376,10 +379,34 @@ try:
         _adlar = [pr.get("name"), pr.get("name_en"), pr.get("name_alt")]
         _ad = next((a for a in _adlar
                     if a and _ad_sadelestir(a) in BUYUK_SADE), None)
-        if _ad is None: continue
+        # 🔴 AD LİSTESİ ARTIK TEK KAPI DEĞİL — `scalerank` İKİNCİ KAPI.
+        # Ölçüldü (7 Ağustos 2026): harita penceresinde 780 nehir parçası ve
+        # 593 ADLI akarsu var; motor bunların 43'ünü / 31 adını kullanıyordu.
+        # Sebep pencere DEĞİLDİ, yukarıdaki 31 adlık BEYAZ LİSTEYDİ — ve liste
+        # tamamen Osmanlı kuşağı. Ren · Po · Elbe · Vistül · İndus · Ganj ·
+        # Amuderya · Nijer, hiçbiri yoktu. VERİ DURUYORDU, SÜZGEÇ GEÇİRMİYORDU.
+        #
+        # Natural Earth her parçaya `scalerank` (önem derecesi) veriyor.
+        # Pencerede kümülatif: ≤1:21 · ≤2:46 · ≤3:77 · ≤4:124 · ≤5:157 ·
+        # ≤6:267 · ≤7:447 · hepsi 780. Eşik 5 seçildi: 3,6 kat artış ama hâlâ
+        # "büyük nehir" sınıfı — dereye yaslanma riski yok. 6'da 267'ye
+        # fırlıyor ve gürültü başlıyor.
+        #
+        # ⚠️ AD LİSTESİ KALDIRILMADI, TABAN OLARAK DURUYOR: elle seçilmiş
+        # beylik sınırı akarsularının bazısı küçük ve scalerank'ı yüksek
+        # (Porsuk, Bakırçay, Devrez…). İki kapı BİRBİRİNİN YERİNE GEÇMEZ —
+        # ad listesi "küçük ama sınır taşıyan"ı, scalerank "büyük ama adı
+        # listede olmayan"ı kurtarır.
+        try:
+            _sr = float(pr.get("scalerank"))
+        except (TypeError, ValueError):
+            _sr = 99.0
+        if _ad is None and _sr > NEHIR_ONEM_ESIGI:
+            continue
         g = shape(f["geometry"])
         if g.envelope.intersects(BOLGE):
-            NEHIRLER.append(g.intersection(BOLGE)); _bulunan.add(_ad)
+            NEHIRLER.append(g.intersection(BOLGE))
+            _bulunan.add(_ad or (pr.get("name") or pr.get("name_en") or "?"))
     NEHIRLER = [n for n in NEHIRLER if not n.is_empty]
 except Exception as e:
     print("  nehir verisi yok:", e)
@@ -396,9 +423,21 @@ SIRTLAR = []
 try:
     _dg = json.load(open(os.path.join(BASEMAPS, "ne_10m_geography_regions_polys.geojson"),
                          encoding="utf-8"))
+    # 🔴 ARTIK YALNIZ `Range` DEĞİL — üç engel sınıfı daha eklendi (7 Ağustos).
+    # Askerî coğrafya doktrini (OCOKA/OAKOC) arazi geçirgenliğini üçe ayırır:
+    #   unrestricted (ova · bozkır)      → engel DEĞİL, dahil edilmez
+    #   restricted (yayla · bataklık)    → yavaşlatır, kanalize eder  ← EKLENDİ
+    #   severely restricted (sıradağ)    → zaten vardı
+    # Ölçüm (pencerede): Range/mtn 127 · Plateau 34 · Gorge 2 · Wetlands 1.
+    # `Plain` (ova, 16 poligon) BİLEREK DIŞARIDA — ova engel değildir, sınır
+    # ovada durmaz. `Geoarea` (bozkır, 23) da dışarıda ve sebebi TERS:
+    # bozkır engel değil KORİDORDUR (Deşt-i Kıpçak, Kırım akınlarının yolu);
+    # onu katmak sınırı yanlış yere yaslardı. Bozkır ayrı bir mantık ister.
+    ENGEL_SINIFI = ("Range/mtn", "Plateau", "Gorge", "Wetlands")
     for f in _dg["features"]:
         p = f["properties"]
-        if "Range" not in (p.get("FEATURECLA") or ""): continue
+        _fc = p.get("FEATURECLA") or ""
+        if not any(k in _fc for k in ENGEL_SINIFI): continue
         g = shape(f["geometry"]).buffer(0)
         if not g.envelope.intersects(BOLGE): continue
         g = g.intersection(BOLGE)
