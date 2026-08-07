@@ -176,12 +176,19 @@ olur.
 ## ⑥ BİTİŞ ÖLÇÜTÜ — sayıyla
 
 ```
-✅ çekirdek dizinsiz kimlik   24 → 10'un altı
-✅ iran · zend künyeleri      yazıldı, TDV ile doğrulandı
-✅ dört Fetret şehzâdesi      künye yazıldı YA DA "şema uymuyor" diye raporlandı
-✅ B sınıfı 8 kalem           nokta+tarih vererek koordinatöre raporlandı
-✅ hasat künyeleri            lur ×2 · muzafferi ×3 · astrahan · ryazan
-✅ ölü slug taraması          kaç künye tarandı, kaçında adres düzeldi — sayıyla
+✅ zend künyesi            YAZILDI (harita:"zend" ile) — 124 nokta serbest kaldı
+✅ lur-i-buzurg/kucek      YAZILDI (1155-1424 · 1184-1597, TDV luristan)
+✅ galzay                  YAZILDI (1709-1738, TDV kandehar)
+✅ turkmen                 YAZILDI — çekirdekte dizinsiz kalan TEK kimlikti
+✅ iran künyesi            YAZILDI (modern devlet: Pehlevi → İ.İ.C.)
+✅ hasat künyeleri         muzafferi · incu · kutlughanli · ryazan · astarhan
+⚪ ölü slug taraması       AÇIK — sıradaki iş
+🟡 üç açık soru            koordinatöre bırakıldı (iran t: şeması · Hûzistan
+                          sahibi · harita:"iran"ın afsar'a bağlılığı)
+
+⚠️ İPTAL EDİLEN eski ölçütler (7 Ağustos düzeltmesi): "çekirdek dizinsiz
+24 → 10" · "dört Fetret şehzâdesi" · "B sınıfı 8 kalem" — üçü de
+koordinatörün yanlış ölçümünden doğmuştu, hepsinin künyesi zaten vardı.
 
 ---
 

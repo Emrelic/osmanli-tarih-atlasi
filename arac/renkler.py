@@ -172,13 +172,46 @@ BOYALAR = {
     #     safevi↔afsar 16,0 · safevi↔iran 12,7 · safevi↔kacar 16,5
     #     afsar↔iran   12,0 · afsar↔kacar  12,1 · iran↔kacar   13,4
     #
-    # 🔴 `zend` YAZILMADI ve sebebi ÖLÇÜLDÜ, unutulduğu için değil:
-    #   ① Şimdilik GEREKMİYOR — pencere 2 `iran` kalıyor.
-    #   ② YER DE YOK: bu kutuda beşinci aile üyesi için uygun aday SIFIR.
-    #      (Kutu bugün kaydı: C* tabanı 4,9 → 8,8, kendi son partim yüzünden.
-    #       Palet kendi geçmişinin fonksiyonu.)
-    #   ⇒ Pencere 2'nin TDV araştırması bitince kutu YENİDEN ÖLÇÜLMELİ;
-    #     gerekirse aile ikiye bölünür (safevi+afsar · iran+kacar+zend).
+    # 🟢 `zend` YAZILDI — 7 Ağustos 2026, RENK 2. Yukarıdaki iki gerekçe de
+    #   ARTIK GEÇERSİZ ve ikisi de ölçülerek düşürüldü:
+    #     ① "şimdilik gerekmiyor" → GEREKİYOR. Kullanıcının hükmü:
+    #        *"iran bir devlet adı da oldu bir coğrafya adı da oldu…
+    #        diğer iranları hanedanı ile anmak olabilir. kaçarlar zend
+    #        safeviler afşarlar gibi"* ⇒ `iran`ın en büyük tek penceresi
+    #        (1747-06-20 → 1796-01-01) `zend`e taşınacak. Ölçtüm:
+    #        **126 nokta** o pencerede `iran` taşıyor.
+    #     ② "beşinci üye için uygun aday SIFIR" → **217 aday** çıktı.
+    #
+    #   🔴 FARKIN SEBEBİ ZAMAN SÜZGECİ — ve bu, `hokand` dersinin ikinci
+    #      vakası. Eski ölçüm `iran`ın BÜTÜN ÇİZGİDEKİ 23 komşusunu engel
+    #      sayıyordu. Ama `zend` bütün çizgide yaşamıyor: 1751-1794.
+    #      O pencerede gerçekten sınırdaş olanlar ÖLÇÜLDÜ (126 noktanın
+    #      Voronoi komşularının o penceredeki kimlikleri) ve **16 çıktı**:
+    #        OSMANLI · umman · buhara · turkmen · benihalid · afgan-durrani
+    #        gurcistan · rusya · suud · sind · hive + aile
+    #      23 engelde kutu doluydu, 16 engelde dolu değil.
+    #      📌 "Yer yok" hükmü, YANLIŞ PENCEREYLE ölçülmüş bir hükümdü.
+    #         Fazla temkin de bir ölçüm hatasıdır (`renk_olc.py:38`).
+    #
+    #   ÖLÇÜM — en yakın engel ΔE 13,2:
+    #     afgan-durrani 13,2 | buhara 13,2 | kacar 13,4 | safevi 14,8 |
+    #     iran 18,4 | afsar 21,4 | gurcistan 29,3 · altlıktan 26,7
+    #     C* 21,1 = paletin %47'si · ton 341,8°
+    #   ⚠️ 13,2 ince ama ailenin KENDİ iç mesafeleri zaten 12,0-16,5
+    #     (aşağıdaki dörtlü tablo) — yani bu, aileye katılmanın bedeli,
+    #     bir gevşeme değil.
+    #
+    #   🟢 VE KULLANICININ TARİFİ BU SEFER LAFZEN İŞLEDİ — beş basamaklı
+    #     bir PARLAKLIK MERDİVENİ doğdu ve `zend` en alt basamak:
+    #        afsar   L* 80,7      safevi  L* 73,5      kacar  L* 70,3
+    #        iran    L* 65,6      zend    L* 60,6
+    #     📌 İLK ADAY #8d24bd REDDEDİLDİ: payı daha iyiydi (14,4) ama
+    #        L* 65,1 ile `iran`ın 65,6 basamağına OTURUYORDU — merdiveni
+    #        bozar, ayrımı ton ve kromaya yıkardı. Ve C* 35,3 = paletin
+    #        %95'i, yani `#c03fab`ın (%88) reddedildiği "vurgu" bölgesi.
+    #        Yarım birim pay için modelin kendisi feda edilmez.
+    #   ⇒ Aileyi İKİYE BÖLMEYE GEREK KALMADI (aşağıdaki eski öneri).
+    "zend":       ("Zend Hanedanı (İran)",   "#691569"),
     #
     # ⚠️ VE KULLANICININ TARİFİ LAFZEN SAĞLANAMIYOR — ölçüldü:
     #   palet kutusu L* aralığı 17,3 birim; beş üye ikili ΔE≥12 için SALT
@@ -270,6 +303,45 @@ BOYALAR = {
     "altinorda":  ("Altın Orda ve ardılları","#873057"),
     "kazan":      ("Kazan Hanlığı",          "#ff6f4b"),
     "kirim":      ("Kırım Hanlığı bozkırı",  "#b45a1e"),
+    # ═══ SİBİR HANLIĞI — RENK 2, 6 Ağustos 2026 ═══
+    # `data/yerlesimler_ek10.js` (4 nokta: Tümen · Tobolsk · Tara · Baraba)
+    # BU RENK OLMADAN BAĞLANAMIYORDU. Dosyanın kendi başlığı: ödünç
+    # `altinorda` yazmanın bedeli 168 yıl — Kazan ve Kırım kendi rengindeyken
+    # Batı Sibirya Altın Orda görünürdü. Beklemek doğruydu.
+    # ÖLÇÜLEN KOMŞULUK (ek10 canlı kümeye eklenip Voronoi kurularak; gün
+    # düzeyinde örtüşme) — 5 komşu, hepsi renkli:
+    #   kazan 1438-1552  ΔE 17,7 | rusya 1430-1598  ΔE 18,2
+    #   altinorda 1430-1500  ΔE 26,2 | kazak-hanligi 1500-1598  ΔE 35,7
+    #   mogulistan 1430-1598  ΔE 39,2 | (nogay soft 17,9)
+    #   altlıktan ΔE 19,1 · C* 24,7 = paletin %60'ı
+    # ⚠️ ÖLÇÜM renk_olc.komsuluk() İLE YAPILAMAZ: o girdi.py'yi okur, ek10
+    #   bağlı değil, kimlik SIFIR komşu görünür ve araç onu "kısıtsız" sanıp
+    #   en ayrık rengi verir (renk_olc.py:456'nın uyardığı hâl). Dosya
+    #   bağlandıktan sonra `py arac/renk_olc.py` bu satırları teyit eder.
+    #
+    # 🔴 YAZILMADI — KÜNYE BEKLİYOR. Renk ÖLÇÜLDÜ ve HAZIR, satır aşağıda
+    #   yorumda duruyor; künye gelince yorumu kaldırmak bir dakikalık iş.
+    #   Gerekçe (koordinatör sevki, 6 Ağustos): `devletler.js`te `harita:
+    #   "sibir-hanligi"` diyen künye YOK ⇒ harita boyar, dizin penceresinde
+    #   karşılığı olmaz, `denetle_yayin` "dizinsiz harita kimliği" der.
+    #   `devletler.js` bu oturumun dosyası değil (§7).
+    #   📌 RENK 2'nin ölçtüğü NÜANS — künye tam olarak "yok" değil, EKSİK:
+    #      id `sibir` · ad "Sibir Hanlığı" · 1420-01-01 → 1598-01-01
+    #      ama `harita:` alanı BOŞ ve bitiş, ek10'un TDV'den aldığı
+    #      1598-08-20'den 7,6 ay ERKEN. VERİ DEVLET'in işi iki satır:
+    #      `harita:"sibir-hanligi"` yazmak ve `t`yi 1598-08-20'ye çekmek.
+    #
+    # 🟢 YAZILDI — 6 Ağustos 2026 akşamı, koordinatör künyeyi üstlenince.
+    #   Renk sabah ölçülmüştü; akşam GÜNCEL VERİYLE (1800 nokta) yeniden
+    #   sınandı ve geçerli çıktı. Komşuluk sabahkinden DARALDI:
+    #     sabah  altinorda · kazak-hanligi · kazan · mogulistan · rusya
+    #     akşam  altinorda · kazak-hanligi · kazan · rusya   (mogulistan düştü)
+    #   ⇒ kazan 17,7 · rusya 18,2 · altinorda 26,2 · kazak-hanligi 35,7
+    #     altlıktan 19,1 · C* 24,7 = paletin %60'ı
+    #   📌 Koordinatörün listesi `buhara`yı komşu sayıyordu; ölçümde ÇIKMADI.
+    #      Renk zaten buhara'dan da ayrık, karar değişmiyor — ama sayı
+    #      devralınmadı, ölçüldü (`YASALAR B10`).
+    "sibir-hanligi": ("Sibir Hanlığı",        "#b17e3f"),
     # ═══ BALTIK/İSKANDİNAV KÜMESİ — beşi BİRLİKTE değişti (RENK, 2 Ağustos) ═══
     # 🔴 KÖK SEBEP: `almanya`nın beş çakışması vardı ve tek tek bakınca
     # çözülemiyordu (24 komşu, paletin EN KISITLI düğümü). Ölçünce görüldü ki
@@ -497,7 +569,84 @@ BOYALAR = {
     "letonya":      ("Letonya",               "#c96990"),
     "litvanya":     ("Litvanya",              "#a87b57"),
     "finlandiya":   ("Finlandiya",            "#99a857"),
-    "norvec":       ("Norveç",                "#5c6bc0"),
+    # ═══ NORVEÇ TAŞINDI — RENK 2, 7 Ağustos 2026 · yine VERİ kaynaklı ═══
+    # 🔴 `_ek12` (İzlanda) bağlanınca `norvec` #5c6bc0 ile `portekiz`
+    #   #6b8ac9 **komşu oldu** — ΔE 7,4, eşiğin çok altında. İkisi de renk
+    #   değiştirmedi; Kuzey Atlantik'e iki nokta girdi ve Voronoi onları
+    #   birbirine bağladı.
+    # 📌 VE BU TAM OLARAK ÖNGÖRÜLEN ŞEYDİ: `izlanda`yı yazarken ölçüp
+    #   bildirmiştim — "İzlanda'nın peteği İskandinavya'ya değil GÜNEYE
+    #   uzanıyor, komşuları Britanya ve İber". O petek Norveç ile
+    #   Portekiz'in arasındaki koridoru açtı. `cungar` dersinin üçüncü
+    #   vakası: **palet verinin fonksiyonudur.**
+    # ⇒ Hangisinin taşınacağı ölçüldü ve cevap tartışmasız:
+    #     portekiz  49 komşu (paletin EN KISITLI düğümü — dünya çapındaki
+    #               ticaret üsleri her kıtaya komşu) · en iyi pay 15,1 ·
+    #               yalnız 732 aday
+    #     norvec    12 komşu · en iyi pay 17,6 · 19.101 aday
+    #   Ucuz olan taşındı.
+    # ÖLÇÜM: ingiltere 17,6 · hollanda 18,2 · danimarka 20,1 · ispanya 26,3 ·
+    #   portekiz 27,6 · altlıktan 23,8 · C* 24,2 = paletin %66'sı
+    # ⚠️ Osmanlı kırmızı şeridi (15-35°) dışlandı: şeritsiz ilk aday
+    #   `#e799b1` ton 25,2 ile tam içine düşüyordu.
+    # ⚠️ BEYAN: `vollayta` ile #5c6bc0 paylaşımı BOZULDU (aşağıda güncellendi).
+    #   İzleyen yok — `vollayta` (Habeşistan) `portekiz`e komşu değil, yani
+    #   çakışma grubun değil tek üyenin sorunuydu. Yeni renkten ayrımı
+    #   ΔE 27,1, yani ikisi zaten ayrık.
+    "norvec":       ("Norveç",                "#e76690"),
+    # ═══ ESTONYA — RENK 2, 6 Ağustos 2026 ═══
+    # `data/yerlesimler_ek11.js` (Tallinn · Narva · Tartu · Pärnu) bu rengi
+    # bekliyordu. Ödünç `rusya` yalnız 5 yıl 8 ay sürerdi ama YAZILMADI:
+    # canlı Riga 1918-11-11'de letonya'ya, Viipuri 1917-12-06'da
+    # finlandiya'ya geçiyor — Estonya Rus kalsaydı harita 1919'da
+    # "Letonya ve Finlandiya bağımsız, arasındaki Estonya hâlâ Rus"
+    # gösterirdi. 📌 Ödüncün ölçüsü SÜRE değil, komşusuyla ÇELİŞKİ.
+    # ÖLÇÜLEN KOMŞULUK — 3 komşu, üçü de renkli, üçü de 1918-1923'te sahnede:
+    #   letonya ΔE 24,8 | rusya ΔE 30,8 | finlandiya ΔE 39,6
+    #   (soft: polonya 23,6 · almanya 23,8 · lehistan 27,7 · isvec 29,9 ·
+    #    litvanya 31,6 — hiçbiri ölçümde bitişik çıkmadı, yine de engel sayıldı)
+    #   altlıktan ΔE 32,4 · C* 13,0 = paletin %15'i (soluk uçta ama bandın
+    #   içinde; p10 = 9,7). Baltık kümesi zaten nötre yakın çalışıyor.
+    # ⚠️ devletler.js `estonya` künyesi 1918-02-24 → 1923-10-29 · ek11 ile
+    #   BİREBİR aynı (CLAUDE.md §3.5 ömür kontrolü ✓).
+    "estonya":      ("Estonya",               "#3f63b4"),
+    # ═══ İZLANDA — RENK 2, 6 Ağustos 2026 ═══
+    # `data/yerlesimler_ek12.js`in İKİ İzlanda kaydı (Reykjavík · Akureyri)
+    # için; Grönland ikilisi sahipsiz, kimlik istemiyor. Dosyanın öteki
+    # şartı — batı kenarının −25'e açılması — 4 Ağustos'ta L kutusuyla
+    # KARŞILANDI, geriye yalnız bu renk kalmıştı.
+    # ÖLÇÜLEN KOMŞULUK — 4 komşu (Kuzey Atlantik hücreleri uzağa uzanıyor):
+    #   ispanya ΔE 18,4 | ingiltere ΔE 24,0 | portekiz ΔE 31,0 |
+    #   irlanda ΔE 48,6 | (soft danimarka 29,7 · norvec 31,9 · isvec 36,3)
+    #   altlıktan ΔE 27,2 · C* 23,9 = paletin %56'sı
+    # 📌 TUĞLA KIRMIZISI TERCİH DEĞİL, ÖLÇÜM SONUCU. Osmanlı ailesine yakın
+    #   durması rahatsız edici geldi (tâbi'den ΔE 16,5) ve ton aileleri tek tek
+    #   tarandı: 30-60° tuğla 17,4 · 0-30° macenta 13,9 · 180-210° turkuaz 13,0.
+    #   Üç aile kaldı, geri kalan bütün tonlar eşiğin altındaydı. En geniş payı
+    #   veren aile buydu; estetik kaygı ölçüye yenildi. Osmanlı ile hiçbir gün
+    #   komşu değil (İzlanda 1918-1923, Osmanlı Akdeniz'de).
+    #
+    # 🔴 YAZILMADI — KÜNYE BEKLİYOR. Renk ÖLÇÜLDÜ ve HAZIR; satır aşağıda
+    #   yorumda. `devletler.js`te `izlanda` künyesi HİÇ YOK (sibir'den farkı
+    #   bu: orada eksik künye var, burada künyenin kendisi yok) ⇒ §3.5 ömür
+    #   kontrolü YAPILAMADI, tarih yalnız ek12'den alındı (1918-12-01,
+    #   Danimarka ile kişisel birlik altında egemen krallık).
+    #   VERİ DEVLET künyeyi açınca yorum kalkar.
+    #
+    # 🟢 YAZILDI — 6 Ağustos 2026 akşamı, koordinatör künyeyi üstlenince.
+    #   Güncel veriyle (1800 nokta) yeniden sınandı, komşuluk DEĞİŞMEDİ:
+    #   ispanya 18,4 · ingiltere 24,0 · portekiz 31,0 · irlanda 48,6
+    #   altlıktan 27,2 · C* 23,9 = paletin %56'sı
+    #   ⚠️ En yakın engel aslında OSMANLI tâbi (16,5) — ama Osmanlı ile
+    #      İzlanda hiçbir gün komşu değil, eşiğin üstünde kalması yeterli.
+    #   📌 Koordinatörün listesi komşuları `norvec` · `danimarka` diyordu;
+    #      ölçümde İKİSİ DE ÇIKMADI. Kuzey Atlantik'te İzlanda'nın peteği
+    #      İskandinavya'ya değil GÜNEYE uzanıyor — komşuları Britanya
+    #      adaları ve İber yarımadası. Renk ikisinden de ayrık (danimarka
+    #      29,7 · norvec 31,9), karar değişmiyor; ama liste ölçümle
+    #      uyuşmuyor ve bu, nokta yoğunluğunun az olduğu yerlerde peteğin
+    #      SEZGİYE AYKIRI uzandığının bir örneği (`CLAUDE.md §2`).
+    "izlanda":      ("İzlanda",               "#b4483f"),
     # --- İtalya birliğinden (1861) önceki sahipler ---
     "sardinya":     ("Sardinya-Piyemonte",    "#93392d"),
     "toskana":      ("Floransa / Toskana",     "#b484f3"),
@@ -516,6 +665,33 @@ BOYALAR = {
     "cagatay":      ("Çağatay Hanlığı",        "#6a1b9a"),
     "hive":         ("Hîve Hanlığı (Harezm)",  "#00695c"),
     "buhara":       ("Buhara Hanlığı",         "#4527a0"),
+    # ═══ HOKAND — RENK 2, 6 Ağustos 2026 · Mâverâünnehir partisinin son engeli ═══
+    # Fergana'nın üçüncü hanlığı; Hîve ve Buhara'nın yanındaki boşluktu.
+    # Partinin ihtiyaç duyduğu 14 kimlikten 13'ü zaten burada; eksik buydu.
+    # ⚠️ VERİDE BUGÜN 0 PENCERE — parti henüz inmedi, bu satır bugün hiçbir
+    #   yeri boyamıyor. Bu yüzden komşuluk `renk_olc.komsuluk()` ile
+    #   ÖLÇÜLEMEZ (kimlik canlı veride yok ⇒ sıfır komşu ⇒ araç "kısıtsız"
+    #   sanır). Engel kümesi elle kuruldu: hanlığın 1710-1876 ömrü boyunca
+    #   sahnede olabilecek herkes.
+    # 🔴 VE ZAMAN SÜZGECİ ŞART — ilk turda 20 Orta Asya kimliğini zaman
+    #   sormadan engel saydım, pay 13,8'de tıkandı ve yalnız 3 ton ailesi
+    #   sağ kaldı. Künyelerden örtüşme ölçülünce BEŞİ DÜŞTÜ (timurlu
+    #   1370-1507 · mogulistan …1680 · yarkent-hanligi 1514-1705 ·
+    #   altinorda · kazan …1552 — hiçbiri 1710'u görmüyor) ve pay
+    #   13,8 → 23,4'e çıktı, 9 ton ailesi açıldı.
+    #   📌 Projenin kendi kuralı: "aynı haritada var" YETMEZ, aynı ANDA
+    #      olmalı (renk_olc.py:38). Fazla temkin de bir ölçüm hatasıdır —
+    #      eşiği gevşetmek kadar, gereksiz sıkmak da yanlış cevap verir.
+    # ÖLÇÜM — 17 eşzamanlı engel + Osmanlı ikilisi; en yakın engel ΔE 23,4:
+    #   rusya 23,4 | safevi 23,7 | qing-hanedani 23,9 | nogay 23,9 |
+    #   kazak-hanligi 26,5 | iran 30,1 | kacar 32,5 | hive 33,4 |
+    #   buhara 39,9 | cungar 40,0 · altlıktan 21,0 · C* 23,1 = paletin %54'ü
+    # ⚠️ `devletler.js` künyesi VAR (id `hokand` · 1710-01-01 → 1876-02-19)
+    #   ama `harita:` alanı **BOŞ** — `sibir` ile aynı durum. Künyelerin
+    #   239'u dolu, 63'ü boş; boş olan haritaya BAĞLANMAZ. Parti inmeden önce
+    #   VERİ DEVLET'in `harita:"hokand"` yazması gerekiyor, yoksa
+    #   `denetle_yayin` "dizinsiz harita kimliği" der. RENK 2 bildirdi.
+    "hokand":       ("Hokand Hanlığı",         "#b4603f"),
     # ⚠️ Eski #8d6e63 iki sorun cikariyordu (Oturum 11 olctu): iran'in #b5885b
     # tonuna ham DeltaE 22.7 — bindirilmis halde ~7.6, ve ikisi 1860-1881 arasi
     # Kopet Dag boyunca DOGRUDAN sinirdas. Ayrica timurlu ile BIREBIR ayni hex'ti.
@@ -939,6 +1115,68 @@ BOYALAR = {
     "behmeni":                 ("Behmenî Sultanlığı (Dekken)",       "#636f03"),
     "qing-hanedani":           ("Qing Hanedanı (Mançu)",             "#636f03"),
     "sulu-sultanligi":         ("Sulu Sultanlığı",                   "#636f03"),
+    # ═══ ÇİN CUMHURİYETİ — RENK 2, 6 Ağustos 2026 · EN BÜYÜK TEK DELİK ═══
+    # 85 pencere · 1911-10-10 → 1923-10-29 · veride canlı, ölçülebiliyor.
+    # `§8`: renksiz kimlik ⇒ bölge çizilmez ⇒ **Çin, Cumhuriyet döneminin
+    # tamamında haritada delikti.** Tek kalemde en büyük kazanç buydu.
+    # ÖLÇÜLEN KOMŞULUK — 11 komşu: abd · almanya · ingiliz-hindistani ·
+    #   ingiltere · meiji-japonya · nepal · portekiz · qing-hanedani ·
+    #   rusya · san-devletleri · tibet-ganden-phodrang
+    #
+    # 🔴 QING'İN AİLESİNDE, KASTEN — ve bu bir tercih değil, kullanıcının
+    #   kendi kuralının uygulanması. Kural `iran` bloğunda yazılı: aynı
+    #   toprak · ardışık zaman · tek çizgi ise renk ATLAMAMALI, yoksa
+    #   "üç ayrı devlet gibi" görünür. 1912-02-12'de Qing düşüyor ve AYNI
+    #   TOPRAK Cumhuriyet'e geçiyor — kuralın tarifi birebir bu.
+    #   ⇒ Aday ton 107°±18 (qing'in bandı) içinden seçildi.
+    #   ÖLÇÜM: qing'den ΔE 13,1 (aile — kasten eşiğin hemen üstünde,
+    #   safevi↔iran'ın 12,7'si gibi) · rusya 17,2 · nepal 20,2 · abd 23,9
+    #   altlıktan 24,3 · C* 28,3 = paletin %74'ü
+    # 📌 SERBEST SEÇİM ÖLÇÜLDÜ VE REDDEDİLDİ: #3fb472 (ton 145,7) qing'den
+    #   ΔE 22,1 uzaktı — 1912'de Çin zeytin yeşilinden çimen yeşiline
+    #   ATLARDI. Üstelik payı da daha kötüydü: onu bağlayan `rusya` 13,8'di,
+    #   yani dar çift ALÂKASIZ bir komşuydu. Ailede ise tek dar çift
+    #   qing'in kendisi ve alâkasız her komşu ≥17,2. **Hem anlamca hem
+    #   ölçüce daha iyi.**
+    # ⚠️ KÜNYE YOK — koordinatörün listesi bunu göstermiyordu, ölçtüm:
+    #   `devletler.js`te `cin-cumhuriyeti` kaydı HİÇ YOK (yalnız
+    #   `qing-hanedani` var, 1636-05-15 → 1912-02-12). Renk deliği kapatır
+    #   ama dizin penceresinde karşılığı olmaz. VERİ DEVLET'e bildirildi.
+    "cin-cumhuriyeti":         ("Çin Cumhuriyeti",                   "#bab75a"),
+    # ═══ MOĞOLİSTAN (Bogd Hanlık) — RENK 2, 6 Ağustos 2026 ═══
+    # 7 pencere · künye ✓ 1911-12-29 → 1923-10-29. `_ek19`un 6 noktası
+    # (Kerulen · Halhın Gol · Öndörhaan · Dariganga · Bulgan · Mörön) bu
+    # rengi bekliyordu; zincirin son üçlüsü mogolistan → cin-cumhuriyeti →
+    # mogolistan ve ilki renksizdi.
+    # ÖLÇÜLEN KOMŞU 3: cin-cumhuriyeti · qing-hanedani · rusya
+    #   joseon 21,0 | mogulistan 21,1 | rusya 29,0 | cin-cumhuriyeti 42,0
+    #   altlıktan 31,6 · C* 19,5 = paletin %42'si
+    #
+    # 🔴 ÇİN'İN AİLESİNE **KONMADI** — ve bu, `cin-cumhuriyeti`nin qing
+    #   ailesine konmasının bilinçli TERSİ. Kural ardışıklığa bakar: Qing →
+    #   Cumhuriyet aynı devletin devamıdır, renk atlamamalı. Bogd Hanlık ise
+    #   Çin'den AYRILMAK için kuruldu; haritanın anlatacağı şey tam olarak
+    #   bu ayrılıktır. Aynı aileye koymak, atlasın söylemesi gereken tek
+    #   şeyi silerdi. ⇒ `cin-cumhuriyeti`den ΔE 42,0, kasten uzak.
+    #
+    # ⚠️ İKİ ENGEL ÖLÇÜMLE DEĞİL, MUHAKEMEYLE EKLENDİ — ikisi de tuttu:
+    #   ① `meiji-japonya` — komşu DEĞİL, ama ikisi de 1911-1923 Doğu Asya,
+    #      yani ekranda yan yana. İlk seçim `#b43fae` idi ve meiji'den
+    #      **ΔE 10,6** çıktı: hiçbir denetim ateşlemezdi (komşu değiller),
+    #      ama kullanıcı iki macenta lekeyi ayırt edemezdi. `estonya`da
+    #      reddettiğim okuma hatasının aynısı. Şimdi 39,9.
+    #   ② `mogulistan` (#4254ae, Doğu Çağatay) — 1347-1680, Bogd Hanlık
+    #      1911-1923, **hiç eşzamanlı değiller**, yani ΔE kuralı onları
+    #      bağlamıyor. Yine de engel sayıldı ve sebebi ters yönde:
+    #      **iki slug TEK HARF farklı** (`mogUlistan` / `mogOlistan`).
+    #      Benzer renk verseydim `yerlesimler.js`teki bir yazım hatası
+    #      HİÇBİR denetimden geçmezdi — ikisi de geçerli kimlik, ikisi de
+    #      boyanır, fark yalnız gözle görülürdü. Ayrık renk, yazım hatasını
+    #      GÖRÜNÜR kılıyor. Bugün 21,1.
+    #      📌 Bu bir renk çözümü değil, renkle alınmış bir SİGORTA.
+    #         Asıl çözüm sluglardan birini adlandırmaktır — koordinatöre
+    #         bildirildi, `renkler.py`nin işi değil.
+    "mogolistan":              ("Moğolistan (Bogd Hanlık)",          "#1ba5e4"),
     # 🔴 ÇIKTI DENETİMİNİN YAKALADIĞI KUSUR (RENK, 2026-08-03).
     # `qing-hanedani` ile BİREBİR aynı hex'i (#636f03) taşıyordu — ikisini de
     # ben paylaştırmıştım, çünkü GİRDİ komşuluğu (Voronoi hücreleri) "komşu
@@ -952,9 +1190,26 @@ BOYALAR = {
     # ÖLÇÜM: ton kayması 0,2° · pay 12,1 · S 0,52 · altlıktan ayrık
     "toungoo":                 ("Toungoo Hanedanı (Birmanya)",       "#545d2d"),
     "yuan-hanedani":           ("Yuan Hanedanı (Moğol Çin)",         "#636f03"),
-    # ── #7b1fa2  [ASYA · ① EKSİK, gövde yok · zarf(-25,-17.5,159,74) teyitli]  ile paylaşımlı (sidamo) · 5 kimlik
+    # ── #7b1fa2  [ASYA · ① EKSİK, gövde yok · zarf(-25,-17.5,159,74) teyitli]  ile paylaşımlı (sidamo) · 4 kimlik
+    # ⚠️ 5'Tİ, 4 OLDU — `cungar` çıkarıldı (RENK 2, 6 Ağustos). Gerekçe aşağıda.
     "brunei-sultanligi":       ("Brunei Sultanlığı",                 "#7b1fa2"),
-    "cungar":                  ("Cungar Hanlığı (Kalmuk)",           "#7b1fa2"),
+    # ═══ CUNGAR — GRUPTAN ÇIKARILDI, RENK 2 · 6 Ağustos 2026 ═══
+    # 🔴 ÇAKIŞMA VERİDEN DOĞDU, RENKTEN DEĞİL — ve tam da bugün doğdu.
+    #   `hokand` rengi yazılınca Mâverâünnehir partisi bağlandı (1729 → 1745
+    #   nokta). Yeni noktalar Voronoi komşuluğunu değiştirdi ve `buhara`
+    #   #4527a0 ile `cungar` #7b1fa2 **komşu oldular** — ΔE 10,5, eşiğin
+    #   altında. Sabahki koşuda bu çift YOKTU; ikisi de renk değiştirmedi.
+    # 📌 DERS: bir renk paleti verinin fonksiyonudur. Nokta eklemek, hiçbir
+    #   hex'e dokunmadan bir çakışma YARATABİLİR. Bu yüzden parti bağlayan
+    #   her koşudan sonra `renk_olc.py` yeniden koşmalı — "renkler değişmedi,
+    #   denetim de değişmez" YANLIŞ.
+    # ⇒ İkisinden hangisinin taşınacağı ÖLÇÜLDÜ: `cungar` yeni yerinde en
+    #   yakın engelden ΔE 14,5 alıyor, `buhara` ise ancak 13,0 (24 komşusu
+    #   var, paletin en kısıtlı düğümlerinden). Ucuz olan taşındı.
+    # ÖLÇÜM: rusya 14,5 · kuzey-yuan 14,9 · yarkent-hanligi 21,2 ·
+    #   babur-imparatorlugu 22,7 · qing-hanedani 28,8 · buhara ≥ 12 ✓
+    #   altlıktan 22,6 · C* 20,2 = paletin %45'i
+    "cungar":                  ("Cungar Hanlığı (Kalmuk)",           "#3fb4a2"),
     "konbaung":                ("Konbaung Hanedanı (Birmanya)",      "#7b1fa2"),
     "ryukyu":                  ("Ryukyu Krallığı",                   "#7b1fa2"),
     "yakub-beg":               ("Doğu Türkistan (Yâkub Bey Kâşgar Emirliği)", "#7b1fa2"),
@@ -964,11 +1219,35 @@ BOYALAR = {
     "joseon":                  ("Joseon Hanedanı (Kore)",            "#00695c"),
     "majapahit":               ("Majapahit İmparatorluğu (Cava)",    "#00695c"),
     "sih-imparatorlugu":       ("Sih İmparatorluğu (Pencap)",        "#00695c"),
-    # ── #2d8f4a  [ASYA · ① EKSİK, gövde yok · zarf(-25,-17.5,159,74) teyitli]  ile paylaşımlı (taceddin) · 4 kimlik
+    # ── #2d8f4a  [ASYA · ① EKSİK, gövde yok · zarf(-25,-17.5,159,74) teyitli]  ile paylaşımlı (taceddin) · 3 kimlik
+    # ⚠️ 4'TÜ, 3 OLDU — `meiji-japonya` bu gruptan ÇIKARILDI (RENK 2, 6 Ağustos
+    #   2026). Gerekçe aşağıda; grubun kalan üçü paylaşımı sürdürüyor.
     "ace-sultanligi":          ("Açe Sultanlığı (Sumatra)",          "#2d8f4a"),
     "malaka-sultanligi":       ("Malaka Sultanlığı",                 "#2d8f4a"),
-    "meiji-japonya":           ("Meiji ve Sonrası Japonya İmparatorluğu", "#2d8f4a"),
     "ming-hanedani":           ("Ming Hanedanı",                     "#2d8f4a"),
+    # ═══ MEİJİ JAPONYA — GRUPTAN ÇIKARILDI, RENK 2 · 6 Ağustos 2026 ═══
+    # 🔴 ESKİ #2d8f4a, `rusya` #4f7d4f'ten ΔE 10,2 — EŞİĞİN (12) ALTINDA ve
+    #   ikisi ölçülmüş komşu. İkisi de yeşil: Sahalin/Kuriller'de Japonya ile
+    #   Rusya yan yana ve neredeyse aynı tonda boyanıyordu.
+    # 📌 BU ÇAKIŞMA RENK 2'NİN İŞİ DEĞİLDİ, ZEMİNDE DURUYORDU — üç yeni renk
+    #   yazılmadan önce de oradaydı, üç yeni renk SIFIR yeni çakışma getirdi.
+    #   Kapatıldı çünkü RENK 2'nin bitiş ölçütü "çakışma 0" diyor ve
+    #   `renkler.py` RENK 2'nin dosyası. Zemini kirli bırakıp "bitti" demek,
+    #   bir sonraki oturuma bayat bir taban devretmek olurdu (§1.5 dersi).
+    # ⚠️ NÜANS — `renk_cikti.py` ÇİZİLİ haritada 0 değen çift buluyor: iki
+    #   gövde bugünkü çıktıda birbirine DEĞMİYOR. Yani kusur bugün görünür
+    #   değil, POTANSİYEL. Voronoi komşuluğu (renk_olc) değiyor der, çizim
+    #   değmiyor der; ikisi ayrışıyorsa doğru davranış SIKI olanı almaktır.
+    # ÖLÇÜM — 8 komşu (abd · almanya · hollanda-dogu-hint · ispanya · joseon ·
+    #   qing-hanedani · rusya · ryukyu) + Osmanlı ikilisi + aynı çağda sahnede
+    #   olan üç yeni kimlik engel sayıldı; en yakın engel ΔE 16,9 ·
+    #   altlıktan 26,0 · C* 22,6 = paletin %52'si.
+    # 📌 İLK ADAY #3f5db4 (ΔE 23,2) REDDEDİLDİ: bu turda yazılan
+    #   `estonya` #3f63b4 ile neredeyse aynı maviydi ve ikisi 1918-1923'te
+    #   AYNI ANDA sahnede. Komşu olmadıkları için hiçbir denetim ateşlemezdi
+    #   — kural ihlali değil, OKUMA hatası olurdu. Ton aileleri tarandı:
+    #   330-360° 16,9 · 0-30° 16,5 · 120-150° 13,8 · 270-300° 12,1.
+    "meiji-japonya":           ("Meiji ve Sonrası Japonya İmparatorluğu", "#ae3f81"),
     # ── #b34da5  [ASYA · ① EKSİK, gövde yok · zarf(-25,-17.5,159,74) teyitli]  ile paylaşımlı (saruhan) · 4 kimlik
     "mataram-sultanligi":      ("Mataram Sultanlığı (Cava)",         "#b34da5"),
     "meysur":                  ("Meysûr Sultanlığı (Haydar Ali / Tipu Sultan)", "#b34da5"),
@@ -993,6 +1272,81 @@ BOYALAR = {
     # 📌 Ders: liste boyamada aday süzgeci, tekil rengin BÜTÜN kabul
     #   ölçütlerini taşımalı — komşudan ayrışma yetmiyor, görünürlük de şart.
     "babur-imparatorlugu":     ("Bâbürlü (Timurlu-Hint) İmparatorluğu", "#0288d1"),
+    # ═══ AFGANİSTAN AİLESİ — RENK 2, 6 Ağustos 2026 · İKİ KİMLİK, BİR AİLE ═══
+    # 🔴 Afganistan haritada 1747'den beri BOYASIZ: canlı `Kâbil` kaydı iki
+    #   kimliği de bugün taşıyor ama ikisinin de rengi yoktu.
+    #     afgan-durrani  15 pencere · 1747-06-20 → 1834-05-06
+    #     afganistan      6 pencere · 1826-01-01 → 1923-10-29
+    #
+    # 🔴 AİLE OLARAK SEÇİLDİLER, AYRI AYRI DEĞİL — Dürrânî'den Barakzâî'ye
+    #   geçiş aynı ülkenin hanedan değişimidir ve 1826-1834 arası SEKİZ YIL
+    #   ÜST ÜSTE BİNİYOR. `iran` bloğundaki kural birebir bu vakayı tarif
+    #   ediyor; ayrı renk verseydim geçiş, tek ülkeyi iki devlet gösterirdi.
+    #   Ve kullanıcının lafzı BURADA SAĞLANABİLDİ — `iran` ailesinde
+    #   sağlanamayan şey:
+    #     ton farkı  5,5°   (aynı aile)
+    #     L* farkı  26,2    (ayrım SALT PARLAKLIKTAN — "aynı aile, farklı
+    #                        parlaklık" tarifinin lafzı)
+    #     aile içi ΔE 26,3
+    #   `iran` ailesi 17,3 birimlik L* aralığına dört üye sığdırmak zorunda
+    #   olduğu için ayrımı ton+kroma'ya yaymıştı; burada iki üye var, yer
+    #   bol, tarif harfiyen uygulandı.
+    # ÖLÇÜM — zayıf halka ΔE 20,6:
+    #   afgan-durrani  buhara 20,7 · OSMANLI tâbi 23,2 · hokand 23,7
+    #                  (11 komşu: babur · buhara · cungar · hokand · iran ·
+    #                   kacar · ladak · qing · racput · sih · sind)
+    #   afganistan     ingiltere 20,9 · kacar 25,2
+    #                  (7 komşu: buhara · ingiliz-hindistani · ingiltere ·
+    #                   kacar · rusya · sih-imparatorlugu · sind)
+    # ⚠️ ÜÇ ELEME YAPILDI, ikisi ölçülerek: ① paletin KENDİ uyum dağılımının
+    #   p75'i (sınırsız arama `#abf3ff`/`#75ffc3` gibi neon pastel veriyordu,
+    #   uyum 0,58-0,64 — aracın uyardığı "en ayrık" tuzağı) ② C* p10-p75
+    #   ③ Osmanlı kırmızı şeridi 15-35° dışı — ilk çözüm `#e4b1d2` tam
+    #   15,3°'deydi, şeride girmişti.
+    # ⚠️ KÜNYE — ikisinin de `devletler.js`te kaydı YOK. Koordinatör yazacak.
+    # ═══ GALZAY (Hotakî) — RENK 2, 7 Ağustos 2026 ═══
+    # TDV `kandehar`: "1709 … Afgan kökenli Galzaylar Safevîler'e karşı
+    # ayaklanarak Kandehar'ı aldılar" · "Şehir 1150'de (1738) Afşarlı Nâdir
+    # Şah tarafından ele geçirildi."
+    # Canlı `Kandehar` kaydı bugün `s: iran 1709-04-21 → 1747-06-20` — yani
+    # 38 yıl tek parça. Doğrusu galzay (1709-1738) + afsar (1738-1747);
+    # bölünemiyordu çünkü renksiz kimlik boyanmaz (§8) ⇒ görünür delik.
+    # ÖLÇÜLEN KOMŞULUK (Kandehar peteğinin 1709-1738 penceresindeki komşuları;
+    #   kimliğin 0 penceresi olduğu için komsuluk() ölçemez — `zend`/`ryazan`
+    #   ile aynı yöntem):
+    #     safevi · afsar (Herat · Hâş · Zerenc) · sind (Şikârpûr) ·
+    #     babur-imparatorlugu (Gazne) · buhara (Belh)
+    #
+    # 🔴 AFGAN AİLESİNE KONMADI — ve bu sefer gerekçe hem tarihî hem ölçüm.
+    #   Tarihî: Galzay (Hotakî/Gilzay) ile Dürrânî (Abdâlî) **ardıl değil
+    #   RAKİP** Peştun konfederasyonlarıydı; Nâdir Şah Hotakîleri ezdi ve
+    #   Dürrânî devleti dokuz yıl SONRA, araya afsar girerek doğdu. Bu,
+    #   `afgan-durrani → afganistan` (doğrudan hanedan devri) ile aynı şey
+    #   DEĞİL — orada aile doğruydu, burada yanlış olurdu.
+    #   Ölçüm de aynı şeyi söyledi: aile bandında (ton 8,8°±18, L* 66-76
+    #   basamağı) **aday SIFIR.** İki gerekçe aynı yöne bastı.
+    #   ⇒ afgan-durrani'den ΔE > 25 · afsar'dan ΔE > 25, yani hem Dürrânî
+    #     ayrımı hem 1738 Galzay→Afşar geçişi haritada NET.
+    #
+    # ⚠️ İKİ ADAY ÖLÇÜLÜP ELENDİ, ikisi de "reading error" sınıfı:
+    #   ① `#3fb193` — pay 25,3 ile en iyisiydi ama bu oturumda yazdığım
+    #      `cungar` #3fb4a2'den **ΔE 2,9**. Komşu değiller, hiçbir denetim
+    #      ateşlemezdi; ama ikisi 1709-1738'de eşzamanlı ve aynı geniş
+    #      coğrafyada — ekranda iki ayırt edilemez turkuaz.
+    #   ② `#3f5db1` — bu sefer `estonya` #3f63b4'e yakındı. Çağdaş da
+    #      değiller bölgesel de (1709 Kandehar / 1918 Baltık), yani kural
+    #      ihlali yoktu; yine de palette iki neredeyse-aynı mavi tutmamak
+    #      için elendi.
+    #   ⇒ Son turda BU OTURUMDA YAZILAN ON İKİ RENGİN HEPSİ engel sayıldı
+    #     (27 engel). Bir oturum kendi ürettiklerini de engel saymalı;
+    #     yoksa palet tek tek temiz, toplu hâlde bulanık çıkar.
+    # ÖLÇÜM: yarkent-hanligi 15,2 · sind 15,4 · cungar 15,4 ·
+    #   cin-cumhuriyeti 15,5 · umman 16,5 · qing-hanedani 19,2
+    #   altlıktan 24,4 · C* 28,5 = paletin %75'i
+    # ⚠️ KÜNYE YOK — koordinatör yazacak (`devletler.js`).
+    "galzay":                  ("Galzay (Hotakî) Hanedanı",          "#72c978"),
+    "afgan-durrani":           ("Dürrânî Devleti (Afganistan)",      "#3c1239"),
+    "afganistan":              ("Afganistan Emirliği",               "#e4b1d5"),
     # ── #6b4a7d  [ASYA · ① EKSİK, gövde yok · zarf(-25,-17.5,159,74) teyitli]  ile paylaşımlı (safevi) · 1 kimlik
     "le-hanedani":             ("Lê Hanedanı (Đại Việt)",            "#a56cab"),
 
@@ -1183,8 +1537,14 @@ PAYLASIM = {
     "#00695c": ("2026-07-30 denetimi (yugoslavya/hive) + Asya partisi",
                 ["yugoslavya", "hive", "goryeo", "hollanda-dogu-hint",
                  "joseon", "majapahit", "sih-imparatorlugu"]),
-    "#7b1fa2": ("Asya partisi — sidamo ile paylaşımlı",
-                ["sidamo", "brunei-sultanligi", "cungar", "konbaung",
+    # 🟢 BEYAN GÜNCELLENDİ — `cungar` ayrıldı (RENK 2, 2026-08-06). Sebebi
+    #   RENKTE DEĞİL VERİDEYDİ: Mâverâünnehir partisi bağlanınca (1729 →
+    #   1745 nokta) `cungar` ile `buhara` komşu oldu ve ΔE 10,5 kaldı.
+    #   İzleyen YOK — kalan dördü #7b1fa2'de kaldı; çakışma grubun değil tek
+    #   üyenin sorunuydu, öteki dördü `buhara`ya komşu değil.
+    "#7b1fa2": ("Asya partisi — sidamo ile paylaşımlı (cungar 2026-08-06'da "
+                "veri kaynaklı çakışmayla ayrıldı)",
+                ["sidamo", "brunei-sultanligi", "konbaung",
                  "ryukyu", "yakub-beg"]),
     # 🟢 BEYAN GÜNCELLENDİ — `toungoo` çıktı denetimi yüzünden #545d2d'ye
     #   taşındı (qing-hanedani ile çizili gövdeleri değiyordu). Kalan beşi
@@ -1204,10 +1564,18 @@ PAYLASIM = {
     #   dört Asya kimliği #2d8f4a'da kaldı ve İZLEMEDİ. Tam yakalamak için
     #   yazıldığı vaka. MADDE ölçüldü ve SAĞLAM: dördü de birbirine komşu değil,
     #   paylaşım meşru; bozulan yalnız beyandı. ⇒ Renk değil BEYAN düzeltildi.
-    "#2d8f4a": ("Asya partisi — taceddin buradan ayrıldı (Anadolu kümesi, "
-                "2026-08-03); kalan dördü birbirine komşu değil",
-                ["ace-sultanligi", "malaka-sultanligi",
-                 "meiji-japonya", "ming-hanedani"]),
+    # 🟢 BEYAN İKİNCİ KEZ GÜNCELLENDİ — self-check İKİNCİ KEZ YAKALADI
+    #   (RENK 2, 2026-08-06). Bu sefer ayrılan `meiji-japonya`: #2d8f4a
+    #   `rusya`dan yalnız ΔE 10,2 alıyordu ve ikisi ölçülmüş komşu.
+    #   İZLEYEN YOK — kalan üçü #2d8f4a'da kaldı, çünkü çakışma grubun
+    #   değil TEK ÜYENİN sorunuydu: Açe · Malaka · Ming'in hiçbiri Rusya'ya
+    #   komşu değil. `timurlu` vakasının tersi (orada izleyenler taşınmak
+    #   İSTEDİ ama ölçüm izin vermedi); burada taşınmaya GEREK yok.
+    #   📌 Ve aynı ders üçüncü kez: bağı bozan oturum beyanı güncellemeyi
+    #      unutuyor, self-check hatırlatıyor. Alet işini gördü.
+    "#2d8f4a": ("Asya partisi — taceddin (2026-08-03) ve meiji-japonya "
+                "(2026-08-06) buradan ayrıldı; kalan üçü birbirine komşu değil",
+                ["ace-sultanligi", "malaka-sultanligi", "ming-hanedani"]),
     # 🟢 BEYAN GÜNCELLENDİ — self-check yakaladı (son parti, 2026-08-03).
     #   `timurlu` #9c7563'e taşındı. İzleyenler TAŞINAMADI: ölçüldü, ikisi de
     #   yeni renkte komşularından yalnız ΔE 10,1 alıyor (eşik 12).
@@ -1225,8 +1593,14 @@ PAYLASIM = {
                 ["darfur", "babur-imparatorlugu"]),
     "#8f7d5b": ("2026-07-30 denetimi — bosna/ahiler, tarih boyunca komşu değil",
                 ["bosna", "ahiler"]),
-    "#5c6bc0": ("2026-07-30 denetimi — vollayta/norvec, 6.204 km",
-                ["vollayta", "norvec"]),
+    # 🟢 GRUP KALDIRILDI — `norvec` #e76690'a taşındı (RENK 2, 2026-08-06),
+    #   çünkü `_ek12` bağlanınca `portekiz` ile ΔE 7,4 kaldı. Geriye
+    #   #5c6bc0'ı YALNIZ `vollayta` kullanıyor ⇒ ortada paylaşım KALMADI.
+    #   Beyanda tutmak yanlış olurdu: var olmayan bir bağı beyan etmek,
+    #   bağı hiç beyan etmemek kadar yanıltıcıdır (aynı gerekçe aşağıda
+    #   `#4527a0` için de yazılı).
+    #   (2026-07-30 denetiminin vollayta/norvec satırı bu tarihten itibaren
+    #    tarihsel bir kayıttır, geçerli bir bağ değil.)
     # 🟢 GRUP KALDIRILDI — self-check yakaladı. `karaman` Anadolu partisinde
     #   #5133ab'ye taşındı; #4527a0'ı artık YALNIZ `buhara` kullanıyor, yani
     #   ortada paylaşım KALMADI. Beyanda tutmak yanlış olurdu: var olmayan bir

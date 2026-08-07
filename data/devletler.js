@@ -123,13 +123,38 @@ window.DEVLETLER = [
 
 { id:"kacar", ad:"Kaçar Hanedanı (İran)", tur:"devlet", bolge:"iran",
   f:"1789-03-21", t:"1923-10-29", baskent:"Tahran", harita:"iran",
-  ozet:"Ağa Muhammed Han'ın kurduğu, 1925'e dek (site ufkunun dışında) süren son İran hanedanı; Osmanlı ile son sınır anlaşmazlıkları bu dönemde çözüldü.",
+  ozet:"Ağa Muhammed Han'ın kurduğu son İran hanedanı; Osmanlı ile son sınır anlaşmazlıkları bu dönemde çözüldü. ⚠️ VERİ DEVLET (7 Ağustos 2026) DÜZELTTİ: TDV `riza-sah-pehlevi` maddesi hanedanın resmî sonunu \"31 Ocak 1924 tarihinde meclis, Avrupa'da bulunan Ahmed Şah'ı gıyabında tahttan indirerek Kaçar hânedanına son verdi\" diye tarihliyor — 1925 değil 1924 (site ufkunun dışında). Ardılı için bkz. [[iran]].",
   kronoloji:[
     { t:"1789-03-21", tur:"kurulus", b:"Ağa Muhammed Han Kaçar tahta çıktı, Tahran'ı başkent yaptı" },
     { t:"1794-01-01", tur:"birlesme", b:"Zend hanedanına son verildi, İran yeniden birleşti" },
     { t:"1821-01-01", tur:"savas", b:"Osmanlı-İran son savaşı (1823'e dek)" },
     { t:"1823-07-28", tur:"antlasma", b:"Erzurum Antlaşması — sınır düzenlemesi" },
     { t:"1847-05-31", tur:"antlasma", b:"II. Erzurum Antlaşması — Şattülarap sınır anlaşmazlığı çözüldü" }
+  ]
+},
+// VERİ DEVLET (7 Ağustos 2026) — Emre'nin 7 Ağustos kararı: "iran bir devlet
+// adı da oldu bir coğrafya adı da oldu... diğer iranları hanedanı ile anmak
+// olabilir, kaçarlar zend safeviler afşarlar gibi." Yani bu kayıt MODERN
+// ULUS-DEVLETİ temsil eder (Pehlevi + İran İslam Cumhuriyeti); Safevî/Afşar/
+// Zend/Kaçar dönemleri kendi hanedan künyeleriyle ayrı kalır (yukarı bak).
+// ⚠️ AÇIK SORU — KOORDİNATÖRE: bu kaydın f'si (1925-12-12) atlasın ufkunun
+// (1923-10-29) SONRASINDA. Dosyanın kendi kuralı ("t = 1923-10-29, ufuk
+// sonrası da süren devletlerde") yalnız f<ufuk olan kayıtları düşünüyor;
+// f>ufuk olan bir kaydın t'si için EMSAL YOK. t alanına, hâlâ var olan bir
+// devlet olduğu için keyfî/güncel bir tarih (bu satırın yazıldığı gün)
+// yazıldı — harita hiçbir zaman bu kaydı boyamayacak (ufuk 1923'te bittiği
+// için), kayıt yalnız dizin/isim netliği amaçlı. Şema uygun değilse
+// (ör. t alanı boş/"—" bırakılmalı) KARAR KOORDİNATÖRÜN.
+{ id:"iran", ad:"İran (Pehlevi Hanedanı → İran İslam Cumhuriyeti)", tur:"devlet", bolge:"iran",
+  f:"1925-12-12", t:"2026-08-07", baskent:"Tahran",
+  ozet:"Kaçar hânedanının mecliste gıyaben tahttan indirilmesinin (31 Ocak 1924) ardından Rızâ Han'ın 12 Aralık 1925'te şehinşah ilan edilmesiyle kurulan Pehlevi hânedanı ve 1979 İslam Devrimi sonrası kurulan İran İslam Cumhuriyeti'nin ortak kaydı — modern ulus-devlet olarak \"İran\" adı burada, hanedan adları (Safevî/Afşar/Zend/Kaçar) ayrı künyelerde tutulur (Emre'nin 7 Ağustos 2026 kararı). ⚠️ Tamamı atlasın ufkunun (1923-10-29) DIŞINDA; haritada hiç boyanmaz, yalnız dizin amaçlı. (kaynak: TDV, madde: riza-sah-pehlevi, humeyni)",
+  kronoloji:[
+    { t:"1925-12-12", tur:"kurulus", b:"Rızâ Han meclis tarafından şehinşah ilan edildi, Pehlevi hânedanı kuruldu" },
+    { t:"1926-04-25", tur:"hukumdar", b:"Gülistan Sarayı'nda taç giydi" },
+    { t:"1941-09-16", tur:"hukumdar", b:"Rızâ Şah tahttan çekilmek zorunda bırakıldı, oğlu Muhammed Rızâ Şah tahta çıktı" },
+    { t:"1979-01-16", tur:"isyan", b:"Muhammed Rızâ Şah ülkeyi terk etti, bir daha dönemedi" },
+    { t:"1979-02-01", tur:"isyan", b:"Ayetullah Humeyni sürgünden Tahran'a döndü" },
+    { t:"1979-03-31", tur:"bolunme", b:"Referandumla İran İslam Cumhuriyeti ilan edildi, monarşi resmen sona erdi" }
   ]
 },
 
@@ -386,6 +411,55 @@ window.DEVLETLER = [
     { t:"1447-01-01", tur:"antlasma", b:"Şâhruh'un ölümüyle Timurlu tâbiliğinden fiilen kurtuldu" },
     { t:"1458-01-01", tur:"toprak-kazanc", b:"Timurlu iç kargaşasından yararlanıp Herat'ı kısa süreliğine aldı" },
     { t:"1467-01-01", tur:"son", b:"Akkoyunlu'ya yenilerek yıkıldı" }
+  ]
+},
+
+// --- VERİ DEVLET (7 Ağustos 2026) — İlhanlı sonrası İran'ın küçük atabeglik/
+// hanedan kalemleri. Beşi de Değişmez 1'in "iran" genel etiketi altında
+// ezilen 1335-1501 penceresinin adaylarıdır; hangi noktanın hangisine
+// verileceğine BU OTURUM KARAR VERMEDİ (koordinatörün işi) — yalnız künye
+// hazırlandı. Lür-i Büzürg/Küçek tarihleri TDV `luristan` maddesinde birebir
+// yazılı (1155-1424 / 1184-1597); Muzafferî ve Kutluğhanlı TDV'de tarihli
+// (`muzafferiler`, `kutlughanlilar`); İncû'nun TDV maddesi (`incu`) tarihsiz,
+// tarihler standart akademik kaynağa (Spuler, Encyclopaedia Iranica) göredir.
+{ id:"lur-i-buzurg", ad:"Lür-i Büzürg Atabegliği (Hazaraspîler)", tur:"devlet", bolge:"iran",
+  f:"1155-01-01", t:"1424-01-01", baskent:"İzeh (Mâlemîr)",
+  ozet:"Güneydoğu Lüristan'da, Hûzistan sınırında hüküm süren Hazarasp hanedanı atabegliği; TDV `luristan` maddesinde tarihlidir, iç kronoloji (hükümdar sırası, sonun koşulları) ayrıntılı verilmez. ⚠️ Hûzistan'ın 1335-1393 arası bu atabegliğe mi yoksa Lür-i Küçek'e mi bağlı olduğu TDV `huzistan` maddesinde KESİN değil — bkz. VERI-DEVLET-GOREV.md ilerleme notu. (kaynak: TDV, madde: luristan)",
+  kronoloji:[
+    { t:"1155-01-01", tur:"kurulus", b:"Hazarasp hanedanı atabegliği kurdu (TDV tarihi; kurucunun adı ve kuruluş koşulları maddede ayrıntılı değil)" },
+    { t:"1424-01-01", tur:"son", b:"Atabeglik sona erdi (TDV tarihi; sonun koşulları maddede ayrıntılı değil)" }
+  ]
+},
+{ id:"lur-i-kucek", ad:"Lür-i Küçek Atabegliği", tur:"devlet", bolge:"iran",
+  f:"1184-01-01", t:"1597-01-01", baskent:"— (TDV'de belirtilmemiş)",
+  ozet:"Lüristan'ın kuzey ve batısında, Lür-i Büzürg'den ayrı bir hanedanca yönetilen atabeglik; TDV `luristan` maddesinde yalnız kuruluş/bitiş tarihleriyle geçer, hanedan adı ve iç kronoloji maddede ayrıntılı değil. Safevî döneminin ortasına (1597) kadar sürmesi, iki atabegliğin ömürlerinin BİRBİRİNDEN 173 YIL FARKLI olduğunu gösterir — karıştırılmamalı. (kaynak: TDV, madde: luristan)",
+  kronoloji:[
+    { t:"1184-01-01", tur:"kurulus", b:"Atabeglik kuruldu (TDV tarihi; kurucunun adı maddede ayrıntılı değil)" },
+    { t:"1597-01-01", tur:"son", b:"Atabeglik sona erdi (TDV tarihi; sonun koşulları maddede ayrıntılı değil — I. Abbas'ın merkezîleştirme dönemine denk gelir)" }
+  ]
+},
+{ id:"muzafferi", ad:"Muzafferî Hanedanı", tur:"devlet", bolge:"iran",
+  f:"1318-01-01", t:"1393-01-01", baskent:"Şiraz",
+  ozet:"İlhanlı Sultanı Ebû Saîd'in 718'de (1318) Mübârizüddin Muhammed'e Yezd emirliğini vermesiyle doğan, Yezd-Kirman-Fars-İsfahan'a (zaman zaman Azerbaycan'a) hâkim olan hanedan; Timur'un ordusuyla yapılan çatışmada Şah Mansûr'un öldürülmesiyle 795'te (1393) bütün hanedan tasfiye edildi. (kaynak: TDV, madde: muzafferiler)",
+  kronoloji:[
+    { t:"1318-01-01", tur:"kurulus", b:"Sultan Ebû Saîd, Yezd emirliğini Mübârizüddin Muhammed'e verdi (718)" },
+    { t:"1393-01-01", tur:"son", b:"Timur'un kuvvetleri Şah Mansûr'u yenip öldürdü; hânedanın tamamı tasfiye edildi (795)" }
+  ]
+},
+{ id:"incu", ad:"İncû Hanedanı", tur:"devlet", bolge:"iran",
+  f:"1325-01-01", t:"1357-01-01", baskent:"Şiraz",
+  ozet:"İlhanlı çöküşü sonrası Fars bölgesini yöneten, adını kurucusunun bir 'incû' (hükümdar hassa arazileri memuru) olmasından alan hanedan; Muzafferî Mübârizüddin Muhammed'in Şiraz'ı almasıyla sona erdi. TDV `incu` maddesi hanedanı tanımlar ama tarih vermez; f/t standart akademik kaynağa (Spuler, Encyclopaedia Iranica) göredir, kesinlik TDV'li kalemlerden düşüktür. (kaynak: TDV madde: incu — tarihsiz; tarihler standart akademik kaynak)",
+  kronoloji:[
+    { t:"1325-01-01", tur:"kurulus", b:"Şerefeddin Mahmud Şah İncû, Fars'ta fiilî hâkimiyetini kurdu" },
+    { t:"1357-01-01", tur:"son", b:"Muzafferî Mübârizüddin Muhammed Şiraz'ı alıp son İncû hükümdarı Ebû İshak'ı ortadan kaldırdı (bkz. [[muzafferi]])" }
+  ]
+},
+{ id:"kutlughanli", ad:"Kutluğhanlılar", tur:"devlet", bolge:"iran",
+  f:"1222-01-01", t:"1306-01-01", baskent:"Kirman",
+  ozet:"Barak Hâcib'in 1222'de Kirman'da kurduğu, Kirman-Nermeşîr-Sîstan'a hâkim olan hanedan; II. Kutbüddin b. Soyurgatmış'ın görevden alınmasıyla 1306'da Kirman tahtı hanedanın elinden çıktı. Hanedanın bir kızı Muzafferî hanedanının kurucusuyla evlenmiştir (bkz. [[muzafferi]]). (kaynak: TDV, madde: kutlughanlilar)",
+  kronoloji:[
+    { t:"1222-01-01", tur:"kurulus", b:"Barak Hâcib, Kutluğ Han unvanıyla Kirman'a hâkim oldu" },
+    { t:"1306-01-01", tur:"son", b:"II. Kutbüddin b. Soyurgatmış görevden alındı; hanedan bir daha Kirman tahtına geçemedi" }
   ]
 },
 
@@ -1487,14 +1561,29 @@ window.DEVLETLER = [
     { t:"1461-08-15", tur:"son", b:"Fatih'in kuşatmasıyla teslim oldu; İmparator David Komnenos ailesiyle İstanbul'a sürüldü — Bizans mirasının son parçası (bkz. [[bizans]])" }
   ]
 },
-{ id:"zend", ad:"Zend Hanedanı (İran)", tur:"devlet", bolge:"iran",
+{ id:"zend", ad:"Zend Hanedanı (İran)", tur:"devlet", bolge:"iran", harita:"zend",
   f:"1751-01-01", t:"1794-01-01", baskent:"Şiraz",
-  ozet:"Nadir Şah'ın ölümü sonrası kargaşada Kerim Han'ın kurduğu, şah unvanı yerine \"Vekilü'r-Reâyâ\" sanını kullandığı İran hanedanı; Kaçarlar tarafından ortadan kaldırıldı (bkz. [[kacar]]). TDV'de ayrı maddesi yok; tarihler standart akademik kaynaklara göredir.",
+  ozet:"Nadir Şah'ın ölümü sonrası kargaşada Kerim Han'ın kurduğu, şah unvanı yerine \"Vekilü'r-Reâyâ\" sanını kullandığı İran hanedanı; Kaçarlar tarafından ortadan kaldırıldı (bkz. [[kacar]]). TDV'de ayrı maddesi yok; tarihler standart akademik kaynaklara göredir. ⚠️ VERİ DEVLET (7 Ağustos 2026): `harita:\"zend\"` eklendi (RENK 2 oturumu rengini hazırlıyor). Haritada bu künyeye bağlanması beklenen pencere 1747-06-20→1796-01-01 (123 nokta, koordinatör ölçtü) — künyenin kendi f/t'siyle (1751-1794) ~4 yıl baş, ~2 yıl son farkı var; 1747-1751 arası Nadir Şah sonrası çok taraflı kargaşa (Âzâd Han Afgan, Muhammed Hasan Han Kaçar ile rekabet) olduğu için TDV/standart kaynak Zend'in konsolidasyonunu 1751'e koyuyor. Fark künyenin kusuru değil, iki farklı sorunun (\"devlet ne zaman kuruldu\" vs \"harita hangi güne kadar iran'ı taşıyor\") cevabı — bkz. CLAUDE.md kimlikler.js §74 emsali.",
   kronoloji:[
     { t:"1751-01-01", tur:"kurulus", b:"Kerim Han Zend, Nadir Şah sonrası kargaşada İran'ın büyük bölümünü ele geçirdi" },
     { t:"1765-01-01", tur:"hukumdar", b:"Şiraz'ı başkent yaparak imar etti, Basra ile ticareti geliştirdi" },
     { t:"1779-01-01", tur:"hukumdar", b:"Kerim Han öldü, halefleri arasında taht kavgaları başladı" },
     { t:"1794-01-01", tur:"son", b:"Ağa Muhammed Han Kaçar, son hükümdar Lütfali Han'ı Kirman'da yenip idam etti" }
+  ]
+},
+// VERİ DEVLET (7 Ağustos 2026) — koordinatörün Kandehar kalemi. TDV `kandehar`
+// maddesi (HTTP 200, içerik doğrulandı) yalnız iki uç tarihi veriyor: 1709
+// ayaklanması ve 1738 (1150) düşüşü; gün bilgisi yok. `hotaki`/`gilzai`/
+// `nadir-sah` slugları ÖLÜ (302) — bu yüzden madde adı `kandehar`dan alındı.
+// ⚠️ Bölünme (Kandehar noktasının 1709-1738 `galzay` / 1738-1747 `afsar`
+// olarak ikiye ayrılması) KOORDİNATÖRÜN işi, bu oturum yerlesimler*.js'e
+// dokunmadı.
+{ id:"galzay", ad:"Galzaylar (Hotakî Afgan Devleti)", tur:"devlet", bolge:"iran",
+  f:"1709-04-21", t:"1738-01-01", baskent:"Kandehar",
+  ozet:"Afgan kökenli Galzay (Hotakî) aşiretinin Safevî valisine karşı ayaklanıp Kandehar'ı almasıyla kurulan kısa ömürlü devlet; Nadir Şah'ın 1150'de (1738) şehri geri almasıyla sona erdi. Kuruluş günü (21 Nisan 1709, Mîrveys Hotek ayaklanması) TDV `kandehar` maddesinde yok — standart akademik kaynağa göredir; bitiş yılı TDV'de birebir geçer. (kaynak: TDV, madde: kandehar; kuruluş günü standart akademik kaynak)",
+  kronoloji:[
+    { t:"1709-04-21", tur:"isyan", b:"Galzaylar Safevî valisine karşı ayaklanıp Kandehar'ı ele geçirdi" },
+    { t:"1738-01-01", tur:"son", b:"Afşarlı Nadir Şah, Kandehar'ı geri alarak Galzay hâkimiyetine son verdi (1150)" }
   ]
 },
 
@@ -1516,8 +1605,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"astarhan", ad:"Astarhan (Ejderhan) Hanlığı", tur:"hanlik", bolge:"sibirya-bozkir",
-  f:"1466-01-01", t:"1556-01-01", baskent:"Ejderhan (Astarhan)",
-  ozet:"Altın Orda'nın dağılmasıyla Kasım Han'ın kurduğu, Hazar'ın kuzey kıyısındaki hanlık; Kırım-Osmanlı nüfuz mücadelesinin ardından IV. İvan tarafından ilhak edildi. (kaynak: TDV, madde: astarhan-hanligi)",
+  f:"1466-01-01", t:"1556-01-01", baskent:"Ejderhan (Astarhan)", harita:"astarhan",
+  ozet:"Altın Orda'nın dağılmasıyla Kasım Han'ın kurduğu, Hazar'ın kuzey kıyısındaki hanlık; Kırım-Osmanlı nüfuz mücadelesinin ardından IV. İvan tarafından ilhak edildi. ⚠️ VERİ DEVLET (7 Ağustos 2026): `yerlesimler_ek22.js`de bu künye \"astrahan-hanligi kimliği (1466-1556) yok\" diye işaretlenmiş — YANLIŞ, künye zaten burada f/t BİREBİR aynı, TDV'nin kendi yazımı `astarhan` (Rusça değil Türkçe transkripsiyon). Harita alanı da eklendi; eksik olan yalnız renk (BOYALAR'da yok) ve yerlesimler noktalarının `d:` değeri. (kaynak: TDV, madde: astarhan-hanligi)",
   kronoloji:[
     { t:"1466-01-01", tur:"kurulus", b:"Küçük Muhammed Han'ın torunu Kasım Han, Ejderhan'da hanlığını kurdu" },
     { t:"1502-01-01", tur:"savas", b:"Kırım Hanı Mengli Giray, Osmanlı desteğiyle Saray şehrini yıktı; hanlık ~20 yıl Kırım nüfuzuna girdi" },
@@ -1547,6 +1636,21 @@ window.DEVLETLER = [
     { t:"1569-01-01", tur:"savas", b:"Osmanlı'nın Astarhan seferine etki etti ama askerî destek vermedi (bkz. [[astarhan]], [[rusya]])" },
     { t:"1586-01-01", tur:"toprak-kayip", b:"Moskova'nın Samara, Tsaritsın ve Saratov kalelerini kurmasıyla akınları sınırlandı" },
     { t:"1783-01-01", tur:"son", b:"Suvorov'un Kuban'daki yenilgisiyle Büyük Nogay'ın bağımsızlığı fiilen sona erdi" }
+  ]
+},
+// VERİ DEVLET (7 Ağustos 2026) — `yerlesimler_ek17.js`nin işaretlediği kalem
+// ("ryazan diye bir kimlik ne dizinde ne renkte VAR ve UYDURMADIM"). Rus iç
+// tarihi TDV'nin kapsam dışı bıraktığı coğrafyalardan (CLAUDE.md §4); TDV'de
+// `riyazan-knezligi`/`ryazan` slugları YOK (ikisi de 302). Tarihler standart
+// akademik kaynağa göredir (Moskova Büyük Knezliği'ne katılış yılı — 1521 —
+// yaygın kabul görür, gün bilinmiyor).
+{ id:"ryazan", ad:"Ryazan Knezliği", tur:"prenslik", bolge:"dogu-avrupa",
+  f:"1129-01-01", t:"1521-01-01", baskent:"Ryazan (Stara Ryazan → Pereyaslavl-Ryazanski)",
+  ozet:"Çernigov'dan ayrılarak kurulan, Moskova'dan önce Altın Orda'nın ilk hedeflerinden olan (1237'de Batu Han'ın yaktığı ilk büyük Rus şehri) eski knezlik; uzun süre Moskova'ya rakip kaldı, III. Vasili döneminde son knez Ivan İvanoviç tahttan indirilerek ilhak edildi. TDV'de madde yok (Rus iç tarihi, TDV kapsamı dışı); tarihler standart akademik kaynağa göredir.",
+  kronoloji:[
+    { t:"1129-01-01", tur:"kurulus", b:"Çernigov Knezliği'nden ayrı bağımsız bir knezlik olarak öne çıktı" },
+    { t:"1237-12-21", tur:"isgal", b:"Batu Han'ın Moğol ordusu Ryazan'ı kuşatıp yaktı — Rus topraklarında yıkılan ilk büyük şehir" },
+    { t:"1521-01-01", tur:"son", b:"III. Vasili, son knez Ivan İvanoviç'i tahttan indirip Moskova Büyük Knezliği'ne kesin olarak kattı" }
   ]
 },
 
@@ -1891,6 +1995,29 @@ window.DEVLETLER = [
     { t:"1873-03-01", tur:"savas", b:"General Kaufmann'ın seferi başladı" },
     { t:"1873-05-29", tur:"antlasma", b:"Hive düştü, Rus himayesine girdi" },
     { t:"1920-04-26", tur:"son", b:"Harzem Halk Cumhuriyeti ilan edilerek hanlığa son verildi" }
+  ]
+},
+// VERİ DEVLET (7 Ağustos 2026) — koordinatörün ölçtüğü ÇEKİRDEK'teki TEK
+// gerçek dizinsiz kimlik (id ∪ harita taraması, `turkmen` hiçbir kayıtta yok).
+// ⚠️ Bu bir "devlet" değil, gevşek aşiret konfederasyonu — TDV `turkmenler`
+// maddesi de böyle anlatıyor (Yomut/Teke/Salur/Göklen/Eymir boyları, tek
+// hükümdar yok). Hazar kıyısı ve İran sınırındaki boylar Safevî/Kaçar'a,
+// doğudaki Ahal-Merv boyları zaman zaman Hîve'ye gevşek bağlıydı; Rus
+// fethi de TEK GÜN değil, boy boy: Mangışlak/Hazar kıyısı ~1869-1874
+// (Krasnovodsk kalesi), Ahal-Tekin (Göktepe) 1881, Merv 1884. Künyenin f/t'si
+// bu yüzden bir "devletin ömrü" değil, atlasın veri penceresiyle (1600) Rus
+// ilhakının tamamlandığı tarih (1884) arasını kapsayan bir SÖZLEŞMEDİR.
+// (kaynak: TDV, madde: turkmenler — Göktepe 1881 TDV'de birebir geçiyor;
+// Merv 1884 maddede yok, standart akademik kaynağa göre)
+{ id:"turkmen", ad:"Türkmen Aşiret Konfederasyonları (Yomut, Teke, Salur, Göklen, Eymir)", tur:"devlet", bolge:"orta-asya",
+  f:"1600-01-01", t:"1884-01-01", baskent:"(göçebe/yarı-göçebe, sabit başkent yok)",
+  ozet:"Hazar'ın doğusu ile Ahal-Merv vahalarında yaşayan, tek bir hükümdarı olmayan Türkmen boy konfederasyonları; Hazar kıyısındakiler zaman zaman Hîve, Etrek-Gürgen boyları (\"Yaka Türkmen'i\") Safevî/Kaçar İran'ına gevşek bağlıydı. Rus fethi boy boy tamamlandı: Hazar kıyısı ~1869-74, Ahal-Tekin (Göktepe) 1881, Merv 1884. (kaynak: TDV, madde: turkmenler)",
+  kronoloji:[
+    { t:"1855-01-01", tur:"savas", b:"Teke başbuğu Kuşid Han, 1855 ve 1860'ta önemli zaferler kazanarak Tekeler'in gücünü pekiştirdi" },
+    { t:"1873-05-29", tur:"toprak-kayip", b:"Hîve'nin Rus himayesine girmesiyle Hazar kıyısı Türkmenleri de Rus nüfuzuna girdi (bkz. [[hive]])" },
+    { t:"1879-09-01", tur:"savas", b:"Ruslar Göktepe'de ilk seferde ağır bir yenilgiye uğradı" },
+    { t:"1881-01-24", tur:"toprak-kayip", b:"General Skobelev'in ikinci Göktepe seferiyle Ahal-Tekin Türkmenleri Rus İmparatorluğu'na katıldı" },
+    { t:"1884-01-01", tur:"son", b:"Merv Türkmenleri Rusya'ya bağlılığını ilan etti; bölgedeki bağımsız Türkmen varlığı sona erdi" }
   ]
 },
 { id:"hokand", ad:"Hokand Hanlığı", tur:"hanlik", bolge:"orta-asya",
