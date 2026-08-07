@@ -837,3 +837,78 @@ BOYALAR      240        canlı 1800 nokta · künye 314
 renk_olc     görünmez 0 · çakışma 0 · aynı-hex 0     ✓
 --dogrula    3 öneri · 0 fark                        ✓
 ```
+
+---
+
+## ⑳ ALTI RENK BİRDEN — `ryazan` + beş İlhanlı sonrası hanedan · 7 Ağustos
+
+⚠️ Önce bir düzeltme: koordinatör *"`zend` · `galzay` · **`turkmen`** yazdın"*
+dedi. **`turkmen`i yazmadım** — `#00acc1`, oturum başından beri aynı.
+Yazdıklarım `zend` ve `galzay`. (`YASALAR B10` övgü için de geçerli.)
+
+### 🟢 `ryazan  #cce787`
+Künye geldi (1129-01-01 → 1521-01-01) ama `harita:` alanı hâlâ boş.
+Renk 6 Ağustos'ta ölçülmüştü; **güncel palete karşı yeniden sınandı** ve
+geçerli çıktı: rusya 20,3 · lur-i-buzurg 21,5 · litvanya 22,6 · kirim 28,6.
+⚠️ Hatırlatma: bu renk **tek başına hiçbir şey boyamaz** — canlı `Ryazan`
+noktası hâlâ `s: rusya 1281-1923` taşıyor. Sıra: künye → **nokta dönemleri**
+→ renk. Ortadaki adım PETEK/NOKTA'da.
+
+### 🟢 Beş hanedan — BİRLİKTE çözüldü
+Hiçbirinin veride penceresi yok ⇒ araç beşini de ölçemez. Her biri için
+coğrafî çekirdeğine en yakın noktanın peteği alınıp **o kimliğin kendi
+penceresindeki** komşuları ölçüldü:
+```
+lur-i-buzurg [Zagros içi]  ilhanli · iran · timurlu
+lur-i-kucek  [Luristan]    ilhanli · safevi · iran · karakoyunlu ·
+                           akkoyunlu · timurlu · celayirli · OSMANLI
+kutlughanli  [Kirman]      ilhanli
+incu         [Şiraz]       ilhanli · iran
+muzafferi    [Şiraz]       ilhanli · iran
+```
+
+**Mor aileye konmadılar.** Aile `safevi→afsar→zend→kacar` **ardışık**
+çizgisidir; bu beşi birbirinin ardılı değil **çağdaşı**. `karkiya`/`marasi`
+hükmünün aynısı: kural ardışıklığa bakar, coğrafyaya değil.
+
+Dağılım **120 permütasyon** denenerek en dar payı en büyük yapan seçildi:
+```
+kimlik         renk      kendi ölçülen komşularından ΔE
+lur-i-buzurg   #456627   17,3        lur-i-kucek  #246f90   19,6
+kutlughanli    #513921   28,5        incu         #75c0db   27,9
+muzafferi      #2154db   20,1
+kardeşler arası: en dar 13,0 (lur-i-kucek↔incu) · en geniş 48,0
+```
+
+### 🔴 VE BİR TUZAK ÖLÇÜLEREK BULUNDU — yeni kural
+İlk turda `kutlughanli` (…1306) ile `muzafferi` (1318…) **zaman
+örtüşmediği** için birbirinin engeli sayılmadı. Sonuç:
+```
+kutlughanli #513321        muzafferi #513921        ← neredeyse aynı kahve
+```
+İkisi de **Kirman bölgesi** ve arada yalnız **12 yıl** var. Kullanıcı zamanı
+kaydırınca hanedan değişimini **hiç göremezdi** — ve **denetim de göremezdi**,
+çünkü eşzamanlı olmadıkları için ortada çift kurulmuyor.
+
+📌 **KURAL: aynı coğrafyada ARDIŞIK olanlar da ayrışmalı.** Eşzamanlılık
+ölçütü *komşuluk* için doğru, **okunabilirlik** için yetersiz. Bu, bugünkü
+üçüncü "denetimin göremediği" sınıf:
+```
+estonya ↔ meiji     aynı çağ, farklı kıta   → komşu değil, denetim kör
+mogolistan ↔ meiji  aynı çağ, aynı bölge    → komşu değil, denetim kör
+kutlughanli ↔ muzafferi  aynı bölge, ardışık → EŞZAMANLI DEĞİL, denetim kör
+```
+Üçü de `renk_olc` için görünmez; üçü de kullanıcı için görünür.
+
+### ÖLÇÜM
+```
+BOYALAR      240 → 246       canlı 1800 nokta · künye 317
+renk_olc     görünmez 0 · çakışma 0 · aynı-hex 0     ✓
+--dogrula    6 öneri · 0 fark                        ✓
+```
+
+### KALAN
+```
+🟡 ryazan     renk hazır ama NOKTA DÖNEMLERİ bekliyor (PETEK/NOKTA)
+   40 renksiz kimlik — bengal-sultanligi 22 · kenmu 17 · fransiz-cinhindi 16
+```
