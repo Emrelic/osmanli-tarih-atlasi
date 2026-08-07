@@ -1053,3 +1053,68 @@ harita deliği bugün künye darboğazında duruyor.**
 kimliğin rengi hazır ve darboğaz **bir sonraki halkaya geçti**. Bu, işin
 bittiği anlamına gelmiyor — **nerede olduğunun değiştiği** anlamına
 geliyor, ve koordinatörün sırayı ona göre kurması gerekiyor.
+
+---
+
+## ㉔ DÖRT RENK YAZILDI — künye geldi, küme çözüldü
+
+```
+evfat #2ad8ba · dacu #4b21ab · tunciler #b4963f · makdisu-sultanligi #cf69a8
+BOYALAR 246 → 250 · denetim temiz · --dogrula 4 öneri · 0 fark
+```
+
+⚠️ **Pencereler devralınmadı, künyeden ölçüldü** (`B10`) — ve ikisi benim
+hazırlık ölçümümden farklı çıktı:
+```
+tunciler   hazırlıkta 1400-1603   künyede 1400-1695   (+92 yıl)
+makdisu    hazırlıkta 1250-1600   künyede 1281-1500   (dar)
+```
+Komşu kümeleri yeniden ölçüldü; tek fark `makdisu`nun `portekiz`i
+kaybetmesi — **Portekizliler 1500'den sonra geliyor**, yani dar pencere
+daha doğrusunu veriyor. Renkler geçerli kaldı.
+
+📌 Ve `tunciler` 1400-1695 ile `darfur` 1603-1916 **ÖRTÜŞÜYOR** — zincir
+yalnız ardışık değil, 92 yıl eşzamanlı da. Ayrışmaları zaten şarttı;
+ölçüm 45,4 verdi.
+
+### 🔴 600 km eşiği bu kümede yetmedi — sevk haklıydı
+`evfat` ↔ `makdisu` **1035 km**, yani `AYNI_HEX_ESIK_KM = 600`in dışında
+⇒ kural onları bağlamıyordu ve ilk tur **ikisine de turkuaz** verdi
+(`#21decf` / `#2ad5b7`). Dördü küme olarak engel sayılınca düzeldi:
+**küme içi en dar çift 25,1.**
+📌 Eşik `ayni_hex()` için türetilmişti (*"arada başka devletin şeridi
+vardır"*). **Aynı ekranın aynı köşesinde** duran iki gövde için az
+kalabiliyor. Eşik iyi bir taban; **küme bilgisi onu ezer.**
+
+### Darfur zinciri
+```
+dacu ↔ tunciler   55,8      dacu ↔ darfur      33,3
+tunciler ↔ darfur 45,4      evfat ↔ adal       35,6
+```
+
+⚠️ **Dördünün de künyesinde `harita:` alanı BOŞ** (328 künye tarandı).
+Oturum boyunca dördüncü kez: `hokand` · `sibir` · `ryazan` · şimdi bu dört.
+Renk harita deliğini kapatıyor, **dizin penceresi açık kalıyor.**
+
+---
+
+## ㉕ 📌 VE BİR DERS KENDİNİ KANITLADI
+
+Bu kalemi yazarken **aynı vekil-çift (surrogate) hatasına tekrar düştüm** —
+`\\ud83d\\udccc` gibi kaçışlar Python kaynağında bölünmüş vekil oluyor ve
+`UnicodeEncodeError` atıyor. 6 Ağustos'ta bu hata ilerleme dosyasını
+**bir commit boyunca boşaltmıştı**.
+
+**Bu sefer boşalmadı.** Sebebi o gün yazdığım kural:
+```
+önce .tmp'ye TAM metni yaz  →  sonra os.replace ile atomik taşı
+```
+İstisna `.tmp`ye yazarken patladı, `os.replace` **hiç çalışmadı**, asıl
+dosya 1055 satırıyla el değmeden kaldı.
+
+📌 **Bir dersi yazmak onu uygulamak değildi** (kırk partisinde öyle oldu) —
+ama **alete gömülen ders, unutulsa bile çalışıyor.** Fark şu: kırk
+partisinde ders bir *kurala* yazılmıştı ve ben onu hatırlamak zorundaydım;
+burada bir *yordama* yazılmıştı ve hatırlamama gerek kalmadı.
+⇒ Kuralı yazmak yetmiyor; **kuralı imkânsız-ihlal-edilir hâle getirmek**
+gerekiyor. `renk_olc.py`nin `--dogrula`sı da bu cinsten bir alettir.
