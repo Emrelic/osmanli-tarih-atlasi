@@ -427,22 +427,37 @@ data/sehirler.js        62 şehir/kale kartı
    doğrulamak gerekiyor.** İki ayrıştırıcı aynı dosyada aynı sonucu verse bile,
    biri eksik dosya kümesi okuyorsa sayı yanlıştır.
 
-```
-CANLI (girdi.py okuyor, motor boyuyor, denetim ölçüyor) — toplam 951 nokta
-   data/yerlesimler.js          765 nokta — çekirdek: Osmanlı ve komşuları
-   data/yerlesimler_afrika.js   186 nokta — Mısır · Sudan · Kızıldeniz · Sahra
+🔴 **BU BÖLÜM ÜÇÜNCÜ KEZ BAYATLADI ve üçünde de aynı zararı verdi. Artık
+BURADA DOSYA LİSTESİ YOK — tek otorite `arac/girdi.py`nin `GIRDI_DOSYALARI`
+sabitidir.**
+
+```bash
+py -c "import sys;sys.path.insert(0,'arac');import girdi;print(len(girdi.GIRDI_DOSYALARI));[print(' ',f) for f in girdi.GIRDI_DOSYALARI]"
 ```
 
-⚠️ HENÜZ BAĞLANMAMIŞ, merge bekleyen partiler. Şema birebir aynıdır; ayrı dosya
-   olmalarının tek sebebi oturumlar arası çakışmayı önlemekti. Merge ETMEDEN
-   ÖNCE dosya başlarındaki uyarı bloklarını oku — çoğu, `renkler.py`'de
-   karşılığı olmayan devlet kimliği kullanıyor ve rastgele renk eklemek DSATUR
-   dengesini bozar (bkz. §7 renkler):
-data/yerlesimler_avrupa.js  228 nokta (Oturum 12) — 15 yeni devlet kimliği istiyor
-data/yerlesimler_asya.js    344 nokta (Oturum 13) — TAMAMI 62°D'nin doğusunda,
-                            harita penceresi açılmadan çizilmez; 98 yeni kimlik
-data/yerlesimler_ortaasya2.js 7 nokta — `d:"kazak"` yazıyor, renk
-                            `kazak-hanligi` altında; hizalanmadan merge edilemez
+**7 Ağustos 2026 ölçümü: 29 dosya · 1800 nokta. HEPSİ CANLI.**
+
+⚠️ **Buranın eski hâli `yerlesimler_avrupa.js` · `yerlesimler_asya.js` ·
+`yerlesimler_ortaasya2.js` üçünü *"HENÜZ BAĞLANMAMIŞ, merge bekliyor"* diye
+gösteriyordu ve *"toplam 951 nokta"* yazıyordu.** Üçü de `GIRDI_DOSYALARI`
+içindeydi, yani **canlıydı**; gerçek sayı 1800'dü.
+
+🔴 **Ve zararı ölçüldü — üç ayrı vaka, üçü de aynı kökten:**
+```
+① 31 Temmuz   yerlesimler_afrika.js "merge bekliyor" diye duruyordu, oysa
+              bağlıydı. Bir ARAŞTIRMA oturumu kapsamı yalnız yerlesimler.js
+              üzerinde ölçtü, 767 gördü, gerçek 951'di — üç hüküm eksik çıktı.
+② 4 Ağustos   aynı bölüm altı sayıda birden bayatladı, üç oturum aynı anda
+              o tablodan başladı.
+③ 7 Ağustos   RENK 2, 238 pencerelik renk deliğini "kuyrukta, acil değil"
+              diye sınıflandırmamı ÖLÇEREK ÇÜRÜTTÜ: 238'in 238'i
+              `yerlesimler_asya.js`teydi ve o dosya CANLI —
+              yani delik yayının KENDİSİNDEYDİ.
+```
+📌 **Ve bu bölümün kendi metni zaten şunu söylüyor:** *"ayrıştırıcıyı
+doğrulamak yetmiyor, hangi DOSYALARI okuduğunu da doğrulamak gerekiyor."*
+Ders yazılıydı; **bayatlayan şey dersin kendisi değil, yanındaki listeydi.**
+⇒ Çare yeni bir uyarı satırı değil, **listeyi buradan KALDIRMAK.** Yapıldı.
 
 data/donemler.js        🤖 ÜRETİLMİŞ — 12 MB. ELLE DÜZENLEME.
 data/devletler_harita.js 🤖 ÜRETİLMİŞ — 14 MB. ELLE DÜZENLEME.
@@ -738,9 +753,27 @@ Alan alan tam şema, alan sözlüğü ve kaynak seti: **`VERI-YAPISI.md`**. Veri
 ## 9. Komutlar
 
 ```bash
-py arac/uret_petek.py            # harita üretimi (~15 dk, yalnız Oturum 0)
+py arac/uret_petek.py            # harita üretimi (~40 dk, yalnız Oturum 0)
+py arac/uret_devirler.py         # devirler.js — uret_petek'ten SONRA koşar
+py arac/renk_olc.py              # 🔴 VERİ DEĞİŞTİYSE ŞART — aşağıya bak
+py arac/denetle.py               # altı değişmez
+py arac/denetle_yayin.py         # yayın kapısı
 py arac/surum_damgala.py         # index.html'deki ?v=rNN damgasını yükselt
 ```
+
+> 🔴 **PALET VERİNİN FONKSİYONUDUR — renk değişmese bile denetim değişir.**
+> `renk_olc.py` iki gövde *"aynı anda sahnede ve komşu"* olduğunda çakışma
+> arar. Komşuluk **veriden** gelir. Yani **hiçbir renge dokunmadan**, yalnız
+> bir dönem tarihi değişerek yeni bir çakışma doğabilir.
+> **Ölçüldü, üç ayrı vaka:**
+> ```
+> cungar ↔ buhara       Mâverâünnehir bağlanınca      ΔE 10,5
+> norvec ↔ portekiz     _ek12 bağlanınca              ΔE  7,4
+> cohor  ↔ kamboc       gün içi dönem değişikliği     ΔE 10,5
+> ```
+> Üçünde de `git diff arac/renkler.py` **boştu**. ⇒ *"Renkler değişmedi,
+> denetim de değişmez"* cümlesi **üç kez yanlış çıktı.**
+> **Kural: veriye dokunan her koşudan sonra `renk_olc.py` koşulur.**
 
 Notlar:
 - Ortamda `python` değil **`py`** var.
