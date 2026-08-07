@@ -1239,10 +1239,10 @@ window.DEVLETLER = [
   ]
 },
 { id:"darfur", ad:"Dârfûr Sultanlığı (Keira Hanedanı)", tur:"sultanlik", bolge:"misir-sudan",
-  f:"1603-01-01", t:"1916-11-06", baskent:"El-Faşir", harita:"darfur",
-  ozet:"Sudan'ın batısında Fur halkının Keira hanedanınca kurduğu Müslüman sultanlık; Mısır'a bağlanıp Mehdî döneminde arada kesintiye uğradı, Ali Dinar'ın restorasyonuyla 1916'da İngiliz-Mısır ordusuna yenilene dek sürdü. Tarihler standart akademik kaynaklara göredir (TDV'de ayrı maddesi yok), kesinlik düşük.",
+  f:"1695-01-01", t:"1916-11-06", baskent:"El-Faşir", harita:"darfur",
+  ozet:"Sudan'ın batısında Fur halkının Keira hanedanınca kurduğu Müslüman sultanlık; Mısır'a bağlanıp Mehdî döneminde arada kesintiye uğradı, Ali Dinar'ın restorasyonuyla 1916'da İngiliz-Mısır ordusuna yenilene dek sürdü. ⚠️ VERİ DEVLET (7 Ağustos 2026) DÜZELTTİ: `f:` 1603'ten 1695'e çekildi — önceki 1603 tarihi kaynaksızdı (\"standart akademik kaynak\" deniyordu ama hangisi belirtilmemişti); TDV `darfur` maddesi Süleyman Solonc'un hükümdarlığını ve sultanlığın asıl konsolidasyonunu birebir \"1695-1715\" diye tarihliyor, TDV birincil kaynak kuralı (§4) gereği o esas alındı. Selefi için bkz. [[tunciler]] (1400-1695, zincir kesintisiz). (kaynak: TDV, madde: darfur)",
   kronoloji:[
-    { t:"1603-01-01", tur:"kurulus", b:"Süleyman Solon (Solong) tarafından Keira hanedanı kuruldu" },
+    { t:"1695-01-01", tur:"kurulus", b:"Süleyman Solon (Solong) tarafından Keira hanedanı hâkimiyeti konsolide edildi (TDV: saltanatı 1695-1715)" },
     { t:"1874-11-02", tur:"toprak-kayip", b:"Mısır valisi İsmâil Paşa'nın seferiyle sultanlık ilhak edildi" },
     { t:"1898-09-02", tur:"kurulus", b:"Mehdî Devleti'nin yıkılmasıyla Ali Dinar sultanlığı yeniden kurdu (bkz. [[mehdi]])" },
     { t:"1916-11-06", tur:"son", b:"Ali Dinar, İngiliz-Mısır seferi karşısında öldürüldü; sultanlık kesin olarak sona erdi" }
