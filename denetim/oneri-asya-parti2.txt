@@ -1,0 +1,7 @@
+// VERI KIMLIK 3 — PARTI 2 (17. yuzyil: 1600·1650·1700)
+// komsudan dE>=12 · yeniler birbirinden dE>=8 · kirmizi aile elendi
+azuchi-momoyama #6042ae
+guney-ming #429cae
+nguyen-beyligi #4266b4
+hosut #427eae
+tungning #66b442

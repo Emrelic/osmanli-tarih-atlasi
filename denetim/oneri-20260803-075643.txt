@@ -1,0 +1,14 @@
+// renk_olc.py --oner çıktısı — aktarımdan SONRA:
+//   py arac/renk_olc.py --dogrula oneri-20260803-075643.txt
+sur-hanedani #4242ae
+gucerat-sultanligi #4248ae
+racput #4272ae
+ahmednagar #4296ae
+golkonda #424eae
+nayak-devletleri #42ae42
+yarkent-hanligi #4254ae
+tibet #4290ae
+demak #425aae
+orissa #42ae48
+bicapur #ae4242
+kuzey-yuan #4260ae

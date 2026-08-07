@@ -1,0 +1,14 @@
+// VERI KIMLIK 3 — PARTI 1 (1550 kesiti)
+// kirmizi aile elendi (VERI-YAPISI.md:184) + yeniler birbirinden de dE>=12
+sur-hanedani #4272ae
+gucerat-sultanligi #72ae42
+racput #42ae6c
+bicapur #ae7e42
+ahmednagar #42aea2
+golkonda #4242ae
+nayak-devletleri #bab442
+orissa #9042ae
+tibet #3cc048
+yarkent-hanligi #6c7e36
+kuzey-yuan #306c78
+demak #9072c0

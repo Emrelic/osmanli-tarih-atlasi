@@ -260,6 +260,77 @@ BOYALAR = {
     "kutlughanli": ("Kutluğhanlılar (Kirman)",     "#513921"),
     "incu":        ("İncûlular (Fars)",            "#75c0db"),
     "muzafferi":   ("Muzafferîler",                "#2154db"),
+    # =======================================================================
+    # KALAN 40 RENKSIZ KIMLIK -- RENK 2, 7 Agustos 2026
+    # =======================================================================
+    # Bu kirk kimligin veride 238 PENCERESI VAR ve hicbirinin rengi yoktu:
+    # SS8 geregi renksiz kimlik BOYANMAZ, yani r890'da 238 pencerelik GERCEK
+    # DELIK duruyordu. Koordinator karari: kunye beklemeden yaz ("gevsek"),
+    # cunku delik bugun gorunur, kunye eksikligi yalniz dizin penceresini
+    # etkiliyor (hokand ve cin-cumhuriyeti emsali).
+    #
+    # NOT -- KAYNAK DOSYA YANLIS BILINIYORDU: koordinator noktalarin "kuyruk
+    # dosyalarinda" oldugunu soyledi; olctum, hepsi yerlesimler_asya.js'te ve
+    # o dosya GIRDI_DOSYALARI'nda, yani CANLI. CLAUDE.md:442 onu hala "merge
+    # bekleyen" gosteriyor -- bayat satir, bildirildi.
+    #
+    # SECIM OLCUTU -- bu parti olcutu OLGUNLASTIRDI:
+    #   Ilk tur yalniz OLCULEN VORONOI KOMSULARINI engel saydi ve dogrulama
+    #   onu curuttu; komsu CIKMAYAN ama 600 km icinde olan kimliklerle
+    #   cakisiyordu:
+    #     tran-hanedani <-> le-hanedani       0 km  dE  8,8  (ikisi de Vietnam)
+    #     kakatiya      <-> bidar             0 km  dE  5,3
+    #     pandya        <-> delhi-sultanligi  0 km  dE  7,1
+    #     singhasari    <-> mataram           0 km  dE  8,6
+    #   Voronoi komsulugu "hucreler degiyor mu" der; 600 km "ayni ekran
+    #   kosesinde mi" der. OKUNABILIRLIK icin dogru olcut ikincisidir.
+    #   => Engel kumesi = olculen komsular + 600 km icindeki HER palet
+    #      kimligi + 600 km icindeki daha once secilmis yeniler.
+    #      Kimlik basina ortalama 14,7 yakin palet kimligi, 30-39 engel.
+    #   SONUC: 40/40 cozuldu - en dar pay 14,1 - bagimsiz denetimde 0 ihlal.
+    #
+    # UYARI: kirkinin da kunyesinde karsilik YOK (devletler.js 328 kayit).
+    #   Renk deligi kapatir, dizin penceresi acik kalir. VERI DEVLET'te.
+    "bengal-sultanligi":       ("Bengal Sultanlığı",                  "#e75d57"),
+    "kenmu":                   ("Kenmu Restorasyonu (Japonya)",       "#e77e54"),
+    "fransiz-cinhindi":        ("Fransız Çinhindi",                   "#e45d5d"),
+    "haydarabad-nizam":        ("Haydarâbâd Nizamlığı",               "#e796ba"),
+    "bengal-nevabligi":        ("Bengal Nevablığı",                   "#1836c6"),
+    "san-fan":                 ("San Fan (Üç Feudatori) İsyanı",      "#393c18"),
+    "yadava":                  ("Yâdava Hanedanı (Devagiri)",         "#e75a5a"),
+    "dashun":                  ("Da Shun (Li Zicheng)",               "#1839c9"),
+    "avad":                    ("Avad (Oudh) Nevablığı",              "#deabe4"),
+    "cavnpur-sultanligi":      ("Cavnpûr Sultanlığı",                 "#e7b763"),
+    "kakatiya":                ("Kâkatiya Hanedanı",                  "#153f21"),
+    "pandya":                  ("Pândya Krallığı",                    "#54e7b4"),
+    "pagan":                   ("Pagan Krallığı (Burma)",             "#e1e787"),
+    "hanthawaddy":             ("Hanthawaddy (Pegu) Krallığı",        "#e7549c"),
+    "tay-son":                 ("Tây Sơn Hanedanı",                   "#27e4d5"),
+    "taiping":                 ("Taiping Cennet Krallığı",            "#e7785a"),
+    "madurai-sultanligi":      ("Madurai Sultanlığı",                 "#e76c51"),
+    "singhasari":              ("Singhasari Krallığı",                "#e78a7b"),
+    "karnatik":                ("Karnatik Nevablığı",                 "#aee499"),
+    "tonburi":                 ("Tonburi Krallığı (Siyam)",           "#1b54e4"),
+    "tran-hanedani":           ("Trần Hanedanı (Đại Việt)",           "#96e7b4"),
+    "ho-hanedani":             ("Hồ Hanedanı (Đại Ngu)",              "#752115"),
+    "cammu-kesmir":            ("Cammû ve Keşmir Prensliği",          "#e76090"),
+    "hoysala":                 ("Hoysala Hanedanı",                   "#158d6f"),
+    "laos-kralliklari":        ("Laos krallıkları (Lan Xang ardılları)", "#421539"),
+    "seylan-sinhala":          ("Seylan Sinhala krallıkları",         "#e76393"),
+    "ainu":                    ("Ainu (Ezo) toprakları",              "#1b8ae4"),
+    "sukhothai":               ("Sukhothai Krallığı",                 "#e1aed5"),
+    "yogyakarta":              ("Yogyakarta Sultanlığı",              "#1b99e4"),
+    "multan-langah":           ("Multan (Langâh) Sultanlığı",         "#1b51e1"),
+    "bahavelpur":              ("Bahâvelpûr Nevablığı",               "#3c5415"),
+    "bharatpur-cat":           ("Bharatpur (Cat) Krallığı",           "#1e54e4"),
+    "cunagadh":                ("Cûnagadh Nevablığı",                 "#3c1515"),
+    "bhopal":                  ("Bhopal Nevablığı",                   "#451539"),
+    "kocin":                   ("Koçin Krallığı",                     "#183c1b"),
+    "pingnan":                 ("Pingnan (Du Wenxiu) Sultanlığı",     "#e77b7b"),
+    "samudra-pasai":           ("Samudra Pasai Sultanlığı",           "#a85718"),
+    "sunda-pajajaran":         ("Sunda-Pajajaran Krallığı",           "#453015"),
+    "surakarta":               ("Surakarta Sunanlığı",                "#183ccc"),
+    "sarawak-brooke":          ("Sarawak (Brooke) Racalığı",          "#1b6fe4"),
     "karakoyunlu":("Karakoyunlular",         "#305d30"),
     "akkoyunlu":  ("Akkoyunlular",           "#48ae48"),
     # Irak'ın 1335-1411 penceresi `iran` battaniyesinin altındaydı: İlhanlı
@@ -269,6 +340,9 @@ BOYALAR = {
     # Kara Yûsuf aldı (devletler.js karakoyunlu kronolojisi de 1410 diyor).
     "celayirli":  ("Celâyirliler",           "#b5432f"),
     "safevi":     ("Safevî İran",            "#a56cab"),
+    "imereti":    ("Imereti Kralligi",       "#deea90"),
+    "gurcistan-demokratik-cumhuriyeti":
+                  ("Gurcistan Demokratik Cumhuriyeti", "#90eab1"),
     "gurcistan":  ("Gürcistan",              "#1b75cf"),
     # Kullanıcı şikâyeti (hatalar 15 md.5): "1541-1545 Macaristan'da üç yeşil
     # leke, hangisi ne belli değil." Eski #4e7d46 yeşildi.
@@ -340,6 +414,7 @@ BOYALAR = {
     #   `kazan` 21,5°, `sardinya` 21,2° — kalanların 24'ü ±20° içinde.
     # 📌 Ve bu parti "GÖRÜNMEZLİK TONU ZORLAR, ÇAKIŞMA ZORLAMAZ" kuralını
     #   üçüncü kez doğruladı: büyük kaymaların hepsi görünmez olanlarda.
+    "astarhan":   ("Astarhan Hanligi",       "#482d15"),
     "altinorda":  ("Altın Orda ve ardılları","#873057"),
     "kazan":      ("Kazan Hanlığı",          "#ff6f4b"),
     "kirim":      ("Kırım Hanlığı bozkırı",  "#b45a1e"),
@@ -574,6 +649,38 @@ BOYALAR = {
     "adal":       ("Adal / Harar",           "#786c0c"),
     # ↑ Kızıldeniz kümesi (bkz. `yemen` üstündeki blok) · kayma  0,1° · pay 12,0 · altlık 18,2
     "somali":     ("Somali sultanlıkları",   "#847245"),
+    # ═══ AFRİKA BOYNUZU / SUDAN KÜMESİ — RENK 2, 7 Ağustos 2026 ═══
+    # ARAŞTIRMA KÜNYE 3'ün teslimi; künyeler VERİ DEVLET'te yazıldıktan SONRA
+    # yazıldı (koordinatör sevki: "künye yazılmadan renk yazma" — §8).
+    # Dördünün de veride 0 penceresi var ⇒ `renk_olc.komsuluk()` ölçemez;
+    # her biri için coğrafî çekirdeğine en yakın noktanın peteği alınıp O
+    # KİMLİĞİN KENDİ PENCERESİNDEKİ komşuları ölçüldü:
+    #   evfat     [Ankober]   1285-1415   adal · habesistan · sidamo
+    #   dacu      [Darfur]    1200-1400   darfur
+    #   tunciler  [Darfur]    1400-1695   darfur
+    #   makdisu   [Mogadişu]  1281-1500   somali · travankur · seylan-sinhala
+    #
+    # 🔴 600 KM EŞİĞİ BU KÜMEDE YETMEDİ — koordinatörün "DSATUR dengesini o
+    #   küme içinde ölç" sevki ölçümle doğrulandı. `evfat` ile `makdisu`
+    #   arası **1035 km**, yani `AYNI_HEX_ESIK_KM = 600`in dışında ⇒ kural
+    #   onları birbirine bağlamıyordu ve ilk tur İKİSİNE DE turkuaz verdi
+    #   (#21decf / #2ad5b7). Dördü küme olarak engel sayılınca düzeldi:
+    #   küme içi en dar çift 25,1.
+    #   📌 Eşik `ayni_hex()` için türetilmişti ("arada başka devletin şeridi
+    #      vardır, aynı ekranda bitişik görünmezler"). Ama AYNI EKRANIN AYNI
+    #      KÖŞESİNDE duran iki gövde için 600 km az kalabiliyor — Afrika
+    #      Boynuzu dar bir kuşak. Eşik iyi bir TABAN; küme bilgisi onu ezer.
+    #
+    # 🔴 DARFUR ZİNCİRİ — aynı toprakta üç hanedan: dacu → tunciler → darfur
+    #   (ve tunciler 1400-1695 ile darfur 1603-1916 ÖRTÜŞÜYOR da).
+    #   "Aynı bölgede ardışık olanlar da ayrışmalı" kuralının üç üyelisi:
+    #     dacu ↔ tunciler   55,8      dacu ↔ darfur      33,3
+    #     tunciler ↔ darfur 45,4      evfat ↔ adal       35,6
+    #   ⇒ Kullanıcı zamanı kaydırınca Darfur'un üç devrini üç renkte görecek.
+    # ⚠️ Künyelerin `harita:` alanı BOŞ (328 künye tarandı) — renk deliği
+    #   kapatır ama dizin penceresinde karşılığı olmaz. VERİ DEVLET'e.
+    "evfat":      ("Evfât (İfat) Emirliği",  "#2ad8ba"),
+    "makdisu-sultanligi": ("Makdişu Sultanlığı", "#cf69a8"),
     # --- Darfur ve güney Habeş krallıkları (Oturum 16, 2026-07-30) ---
     # Bunlar renkler.py'de tanımsız olduğu için üretim her koşuda 12 satır
     # "UYARI boya: … bilinmeyen devlet kimliği" basıyordu ve dört Darfur
@@ -587,6 +694,10 @@ BOYALAR = {
     # Ölçüm — gerçek Voronoi komşuluğu + BİNDİRİLMİŞ ΔE (%30 dolgu, bej altlık),
     # her birinin en yakın komşusuna: darfur 22,0 · kaffa 24,4 · cimma 21,2 ·
     # sidamo 27,5 · vollayta 15,3. Beşi de 12 eşiğinin üstünde.
+    # Darfur zincirinin ilk iki halkası (RENK 2, 7 Ağustos 2026 — gerekçe ve
+    # ölçüm `evfat` bloğunda; üçü de aynı toprakta ardışık, ayrışmaları şart).
+    "dacu":       ("Dâcû (Daju) Hanedanlığı", "#4b21ab"),
+    "tunciler":   ("Tunciler (Tunjur) Hanedanlığı", "#b4963f"),
     "darfur":     ("Dârfûr Sultanlığı",      "#0288d1"),
     "kaffa":      ("Kaffa Krallığı",         "#8e24aa"),
     "cimma":      ("Cimma (Jimma) Krallığı", "#0097a7"),
@@ -711,6 +822,29 @@ BOYALAR = {
     #      SEZGİYE AYKIRI uzandığının bir örneği (`CLAUDE.md §2`).
     "izlanda":      ("İzlanda",               "#b4483f"),
     # --- İtalya birliğinden (1861) önceki sahipler ---
+    # === SON PARTI (RENK 2, 7 Agustos 2026) -- gerekce ve olcum ===
+    # Dokuz kimligin de veride 0 penceresi vardi => komsuluk() olcemez; her
+    # biri icin cografi cekirdegine en yakin noktanin petegi alinip O
+    # KIMLIGIN KENDI PENCERESINDEKI komsulari olculdu.
+    # Engel = olculen komsular + 600 km icindeki HER palet kimligi + Osmanli
+    #         ikilisi + PARTIDEKI OTEKI SEKIZ.
+    # 🔴 Dokuzu birbirinin engeli sayildi ve 600 km ARANMADI. Gerekce olculdu:
+    #   kural savoya(Torino) <-> imereti(Kutaisi) 3000 km'yi baglamiyordu ve
+    #   ilk tur IKISINE DE ayni laciverti verdi (#12129f / #1221ae); ayni sey
+    #   bonacolsi / gurcistan-dem-cum'da acik yesille oldu. Kirk partisinde
+    #   tam ayirma COZULEMEZ oluyordu (29/40), ama dokuz tanede havuz 156k --
+    #   bedeli sifir, sigortasi gercek. Olcut gevsemedi, siki tarafa alindi.
+    # SONUC: 9/9 - en dar pay 14,6 - kardesler arasi en dar 14,9.
+    # ARDIL CIFTLERI (koordinatorun asil kaygisi) -- hepsi olculdu:
+    #   savoya <-> sardinya 42,0 | floransa <-> toskana 16,4 (0 km!)
+    #   bonacolsi <-> mantua 25,3 (0 km) | imereti <-> gurcistan 47,2 (0 km)
+    #   gurcistan-dem-cum <-> gurcistan 38,6 | sanzan <-> ryukyu 33,1
+    #   poni <-> brunei 58,8 | irlanda-serbest-devlet <-> irlanda 51,5
+    #   astarhan <-> altinorda 18,4
+    # ⚠️ Dokuzunun kunyesi VAR (337 kayit) ama `harita:` alani BOS.
+    "savoya":       ("Savoya Kontlugu/Dukaligi", "#12129f"),
+    "floransa":     ("Floransa Cumhuriyeti",  "#deabd8"),
+    "bonacolsi":    ("Bonacolsi (Mantua)",    "#421542"),
     "sardinya":     ("Sardinya-Piyemonte",    "#93392d"),
     "toskana":      ("Floransa / Toskana",     "#b484f3"),
     "milanoduka":   ("Milano Dukalığı",        "#515d9c"),
@@ -1036,6 +1170,7 @@ BOYALAR = {
     "bretanya":      ("Bretanya Dukalığı",         "#36693f"),
     "burgonya":      ("Burgonya Dukalığı",         "#ab9ccf"),
     "ferrara":       ("Ferrara Dukalığı",          "#ae7e4b"),
+    "irlanda-serbest-devlet": ("Irlanda Hur Devleti", "#ea8751"),
     "irlanda":       ("İrlanda",                   "#06b1fc"),
     "iskocya":       ("İskoçya Krallığı",          "#3633d5"),
     "isvicre":       ("İsviçre Konfederasyonu",    "#754bae"),
@@ -1255,6 +1390,7 @@ BOYALAR = {
     "yuan-hanedani":           ("Yuan Hanedanı (Moğol Çin)",         "#636f03"),
     # ── #7b1fa2  [ASYA · ① EKSİK, gövde yok · zarf(-25,-17.5,159,74) teyitli]  ile paylaşımlı (sidamo) · 4 kimlik
     # ⚠️ 5'Tİ, 4 OLDU — `cungar` çıkarıldı (RENK 2, 6 Ağustos). Gerekçe aşağıda.
+    "poni":                    ("Poni (Borneo)",                     "#1ee7ea"),
     "brunei-sultanligi":       ("Brunei Sultanlığı",                 "#7b1fa2"),
     # ═══ CUNGAR — GRUPTAN ÇIKARILDI, RENK 2 · 6 Ağustos 2026 ═══
     # 🔴 ÇAKIŞMA VERİDEN DOĞDU, RENKTEN DEĞİL — ve tam da bugün doğdu.
@@ -1274,6 +1410,7 @@ BOYALAR = {
     #   altlıktan 22,6 · C* 20,2 = paletin %45'i
     "cungar":                  ("Cungar Hanlığı (Kalmuk)",           "#3fb4a2"),
     "konbaung":                ("Konbaung Hanedanı (Birmanya)",      "#7b1fa2"),
+    "sanzan":                  ("Sanzan (Uc Kralllik, Okinawa)",     "#1884e7"),
     "ryukyu":                  ("Ryukyu Krallığı",                   "#7b1fa2"),
     "yakub-beg":               ("Doğu Türkistan (Yâkub Bey Kâşgar Emirliği)", "#7b1fa2"),
     # ── #00695c  [ASYA · ① EKSİK, gövde yok · zarf(-25,-17.5,159,74) teyitli]  ile paylaşımlı (yugoslavya) · 5 kimlik
@@ -1507,7 +1644,21 @@ BOYALAR = {
     "lan-na":                  ("Lan Na Krallığı",                   "#36c6c0"),
     "campa":                   ("Champa Krallığı",                   "#305a78"),
     "angkor-kmer":             ("Kmer (Angkor) İmparatorluğu",       "#36cc72"),
-    "cohor-sultanligi":        ("Cohor (Johor) Sultanlığı",          "#7e723c"),
+    # 🔴 COHOR TAŞINDI — RENK 2, 7 Ağustos 2026 · yine VERİ kaynaklı, ÜÇÜNCÜ KEZ
+    # `#7e723c`, `kamboc-kralligi` #8d6e63'ten ΔE **10,5** — eşiğin altında ve
+    # ikisi ölçülmüş komşu. İkisi de bu oturumda RENK DEĞİŞTİRMEDİ; çift
+    # sabahki denetimlerde YOKTU, kırk renk yazılırken düştü.
+    # ⇒ Sebep renkte değil VERİDE: gün içinde başka oturumlar dönemleri
+    #   değiştirdi ve iki gövde eşzamanlı komşu oldu. Aynı desenin üçüncüsü:
+    #     cungar ↔ buhara     Mâverâünnehir partisi bağlanınca (10,5)
+    #     norvec ↔ portekiz   _ek12 (İzlanda) bağlanınca (7,4)
+    #     cohor  ↔ kamboc     gün içi dönem değişiklikleriyle (10,5)
+    #   📌 PALET VERİNİN FONKSİYONUDUR. Hiçbir hex'e dokunmadan çakışma
+    #      doğabilir ⇒ veriye dokunan her koşudan sonra `renk_olc.py` koşmalı.
+    # ⇒ Hangisinin taşınacağı ölçüldü: `cohor` 18 engel · en iyi pay 20,0;
+    #   `kamboc` 26 engel · ancak 15,9 (ve #8d6e63 paylaşımını da bozardı).
+    #   Ucuz olan taşındı. Yeni renk: kamboc'tan ayrık, C* %72.
+    "cohor-sultanligi":        ("Cohor (Johor) Sultanlığı",          "#eab463"),
     "palembang-sultanligi":    ("Palembang Sultanlığı",              "#303c78"),
     "banten-sultanligi":       ("Banten Sultanlığı",                 "#78b46c"),
     "banjar-sultanligi":       ("Bancar Sultanlığı",                 "#ccb430"),

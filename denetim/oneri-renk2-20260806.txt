@@ -1,0 +1,12 @@
+// RENK 2 · 6 Agustos 2026
+estonya #3f63b4
+meiji-japonya #ae3f81
+hokand #b4603f
+cin-cumhuriyeti #bab75a
+afgan-durrani #3c1239
+afganistan #e4b1d5
+cungar #3fb4a2
+mogolistan #1ba5e4
+// HAZIR AMA YAZILMADI (kunye bekliyor):
+//   sibir-hanligi #b17e3f
+//   izlanda       #b4483f
