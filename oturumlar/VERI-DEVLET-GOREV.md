@@ -504,3 +504,193 @@ Bugünkü iki teslim (`zend` 124 pencere, `lur-i-buzurg` 8 nokta) bu koşuyla
 canlıya çıkıyor; `muzafferi`/`incu`/`kutlughanli`/`galzay` yazılı ve renkleri
 hazır, taşımaları İran 1335-1501 kararına bağlı (Emre'de). Koordinatör
 "dosya senin" diyene kadar hiçbir işlem yapılmıyor, tamamen beklemedeyim.
+
+---
+
+## ⑬ EMRE "EVET" DEDİ — DALGA 1 TASLAKLARI (kilit sürüyor, `devletler.js`e
+## YAZILMADI, yalnız araştırma + taslak)
+
+Kapsam: A sınıfı yalnız (≥20 yıl taşma). `iran` (1335-1501) Emre'nin
+ERTELEDİĞİ bölge — dokunulmadı. `norvec` kararı geldi: **tek künye,
+`danimarka`ya bağlanmıyor.** Aşağıdaki 7 taslak (5 yeni-künye-adayı bölge ×
+bazısı 2 künye + 1 tek-künye + 2 düzeltme) kilit kalkınca birebir
+`data/devletler.js`e taşınmaya hazır — burada yalnız TASLAK, canlı değil.
+
+### TASLAK 1 — `moskova` (rusya ön boşluk, 1281→1547)
+
+TDV `rusya` (200, CANLI) doğruladı: "I. İvan Daniloviç (1325-1341) 'büyük
+knez' unvanını edindi", "1480'de Altın Orda hâkimiyetinden çıktı". Bitiş
+tarihi (1547-01-16) mevcut `rusya` künyesinin kendi `f:`siyle bire bir aynı
+tutuldu (süreklilik).
+
+```js
+{ id:"moskova", ad:"Moskova Büyük Knezliği", tur:"prenslik", bolge:"dogu-avrupa",
+  f:"1325-01-01", t:"1547-01-16", baskent:"Moskova",
+  ozet:"I. İvan Kalita'nın 'büyük knez' unvanını almasıyla Rus topraklarının siyasî merkezi hâline gelen knezlik; 1480'de Altın Orda hâkimiyetinden fiilen çıktı, IV. İvan'ın çar ilan edilmesiyle Rusya Çarlığı'na dönüştü (bkz. [[rusya]]). (kaynak: TDV, madde: rusya)",
+  kronoloji:[
+    { t:"1325-01-01", tur:"kurulus", b:"I. İvan Daniloviç (Kalita) 'büyük knez' unvanını aldı, Moskova Rus topraklarının siyasî merkezi oldu" },
+    { t:"1480-01-01", tur:"toprak-kazanc", b:"Altın Orda hâkimiyetinden fiilen çıktı (Ugra Nehri karşılaşması)" },
+    { t:"1547-01-16", tur:"son", b:"IV. İvan çar ilan edildi, Moskova Knezliği'nin yerini Rusya Çarlığı aldı" }
+  ]
+},
+```
+
+### TASLAK 2 — `sovyet-rusya` (rusya arka boşluk, 1917→1923 — EN BÜYÜK KALEM, 242 kayıt)
+
+TDV `rusya` (200, CANLI) doğruladı: "1917 Ekim İhtilâli", "Sovyet Sosyalist
+Cumhuriyetleri Birliği... 30 Aralık 1922". Ekim İhtilali'nin gün tarihi (7
+Kasım, Gregoryen) maddede birebir geçmiyor — standart tarihtir, işaretli.
+
+```js
+{ id:"sovyet-rusya", ad:"Sovyet Rusya / SSCB", tur:"cumhuriyet", bolge:"dogu-avrupa",
+  f:"1917-11-07", t:"1923-10-29", baskent:"Petrograd → Moskova",
+  ozet:"Ekim İhtilâli ile Bolşeviklerin iktidara gelmesiyle kurulan Rusya Sovyet Federatif Sosyalist Cumhuriyeti; Ukrayna, Beyaz Rusya ve Transkafkasya ile birleşerek SSCB'yi oluşturdu (1923 sonrasında da sürdü). ⚠️ Ekim İhtilâli'nin günü (7 Kasım, Gregoryen — dönemin Rusya'sında hâlâ kullanılan Jülyen takvimiyle 25 Ekim) TDV maddesinde birebir geçmiyor, standart tarihtir. (kaynak: TDV, madde: rusya — SSCB kuruluş tarihi '30 Aralık 1922' birebir)",
+  kronoloji:[
+    { t:"1917-11-07", tur:"kurulus", b:"Ekim İhtilâli — Bolşevikler Petrograd'da iktidarı ele geçirdi (Jülyen takvimle 25 Ekim)" },
+    { t:"1918-03-03", tur:"antlasma", b:"Brest-Litovsk Antlaşması ile Osmanlı dahil Merkezi Güçler'le savaştan çekildi" },
+    { t:"1922-12-30", tur:"birlesme", b:"Rusya, Ukrayna, Beyaz Rusya ve Transkafkasya birleşerek SSCB'yi kurdu" }
+  ]
+},
+```
+
+### TASLAK 3 — `fransa-cumhuriyet` (fransa arka boşluk, 1792→1923 — ikinci en büyük kalem, 93 kayıt; `yerlesimler_afrika.js`teki Cezayir/Tunus 1830/1881 sonrası payı dahil)
+
+TDV `fransa` (200, CANLI) tam kronolojiyi verdi. ⚠️ **TARİH FARKI:** TDV
+"22 Eylül'de cumhuriyet ilân edildi" diyor; mevcut `fransa` künyesinin
+`t:"1792-09-21"`i 21'inde — 1 gün fark, aşağıda düzeltme olarak da not
+düşüldü.
+
+```js
+{ id:"fransa-cumhuriyet", ad:"Fransa (1792 Sonrası — Cumhuriyet/İmparatorluk/Restorasyon)", tur:"cumhuriyet", bolge:"bati-avrupa",
+  f:"1792-09-22", t:"1923-10-29", baskent:"Paris",
+  ozet:"I. Cumhuriyet'in ilanından III. Cumhuriyet'e uzanan, rejim rejim değişen ama devlet kimliği süren dönem (bkz. [[fransa]] Krallık dönemi için) — Napolyon'un İmparatorluğu, Restorasyon, Temmuz Monarşisi, II. Cumhuriyet ve II. İmparatorluk hepsi TEK kayıtta (1923 sonrasında da sürdü; `almanya` kaydının Kutsal Roma→Alman İmparatorluğu emsali). Cezayir (bkz. [[cezayir-fransiz]]) ve Tunus'un 1881 sonrası fiilî Fransız idaresi de bu kaydın harita kimliğine dahil. (kaynak: TDV, madde: fransa)",
+  kronoloji:[
+    { t:"1792-09-22", tur:"kurulus", b:"I. Fransız Cumhuriyeti ilan edildi" },
+    { t:"1804-01-01", tur:"hukumdar", b:"Napolyon Bonapart kendini imparator ilan etti (1814'e dek)" },
+    { t:"1815-06-09", tur:"hukumdar", b:"Restorasyon — Bourbon hanedanı geri döndü (1830'a dek)" },
+    { t:"1830-08-09", tur:"bolunme", b:"Temmuz Monarşisi — Louis Philippe tahta çıktı" },
+    { t:"1848-02-24", tur:"kurulus", b:"II. Cumhuriyet ilan edildi" },
+    { t:"1852-12-02", tur:"hukumdar", b:"III. Napolyon kendini imparator ilan etti (II. İmparatorluk)" },
+    { t:"1870-09-04", tur:"kurulus", b:"III. Cumhuriyet ilan edildi" },
+    { t:"1881-05-12", tur:"toprak-kazanc", b:"Bardo Antlaşması ile Tunus fiilen Fransız protektorası oldu (bkz. [[tunus-ocagi]])" }
+  ]
+},
+```
+
+### TASLAK 4 — `isvec-birlik-oncesi` (isvec ön boşluk, 1281→1523, çoğu Finlandiya)
+
+TDV `isvec` (200, CANLI) Kalmar Birliği'ni (1397-1434) ve 1523 bağımsızlığını
+doğruladı. Kalmar-öncesi (1281-1397) için TDV'de ayrı bir kesin tarih yok —
+atlasın pencere-başlangıcı konvansiyonuyla `f:"1281-01-01"` kullanıldı (emsal:
+birçok kayıt aynısını yapıyor, bkz. `kirim`, çeşitli beylikler).
+
+```js
+{ id:"isvec-birlik-oncesi", ad:"İsveç Krallığı (Kalmar Birliği Öncesi ve Dönemi)", tur:"krallik", bolge:"kuzey-avrupa",
+  f:"1281-01-01", t:"1523-06-06", baskent:"Stockholm",
+  ozet:"Kalmar Birliği (1397-1523) öncesi bağımsız İsveç Krallığı ve birlik dönemi (Danimarka-Norveç-İsveç birleşik krallığı); Gustav Vasa'nın Danimarkalıları yenip bağımsızlığı yeniden kurmasıyla sona erdi (bkz. [[isvec]]). ⚠️ 1281 tarihi hânedanın kuruluşu değil atlasın pencere başlangıcıdır. (kaynak: TDV, madde: isvec)",
+  kronoloji:[
+    { t:"1397-01-01", tur:"birlesme", b:"Kalmar Birliği kuruldu — Danimarka, Norveç ve İsveç Margrete I altında birleşti" },
+    { t:"1434-01-01", tur:"isyan", b:"İsveçliler Kral XIII. Erich'e karşı ayaklandı (Engelbrekt isyanı)" },
+    { t:"1523-06-06", tur:"son", b:"Gustav Vasa, Danimarkalıları yenip İsveç'i birlikten çıkardı, kral seçildi" }
+  ]
+},
+```
+
+### TASLAK 5 — `polonya-erken` (lehistan ön boşluk parçası 1/2, 1281→1569)
+
+TDV `polonya` (200, CANLI): "20 Ocak 1320" taç giyme, devletleşme "963"e
+uzanıyor.
+
+```js
+{ id:"polonya-erken", ad:"Polonya Krallığı (Birlik Öncesi)", tur:"krallik", bolge:"dogu-avrupa",
+  f:"1320-01-20", t:"1569-07-01", baskent:"Krakov",
+  ozet:"IV. Ladislav Lokietek'in taç giymesiyle fetret döneminin sona erip krallığın yeniden birleştiği dönem; devletleşme kökleri X. yüzyıla (963) uzanır. Litvanya Büyük Dükalığı ile 1386'da kişisel birlik, 1569'da Lublin Birliği ile tam birleşme (bkz. [[litvanya-buyuk-dukalik]], [[lehistan]]). (kaynak: TDV, madde: polonya)",
+  kronoloji:[
+    { t:"1320-01-20", tur:"kurulus", b:"IV. Ladislav Lokietek Krakov'da taç giyerek fetret dönemini sona erdirdi" },
+    { t:"1386-01-01", tur:"ittifak", b:"Litvanya Büyük Dükü Jogaila ile Kraliçe Jadwiga'nın evliliğiyle kişisel birlik kuruldu" },
+    { t:"1569-07-01", tur:"son", b:"Lublin Birliği ile Litvanya'yla tam birleşerek Lehistan-Litvanya Birliği'ni oluşturdu" }
+  ]
+},
+```
+
+### TASLAK 6 — `litvanya-buyuk-dukalik` (lehistan ön boşluk parçası 2/2, 1281→1569)
+
+**BULUNAMADI (TDV'de):** `litvanya` slug'ı yalnız "LİPKALAR" (Litvanya'da
+yaşayan Tatar topluluğu) maddesine düşüyor, Litvanya Büyük Dükalığı'nın
+kendi maddesi yok. §4 gereği standart akademik kaynağa (Mindaugas'ın taç
+giymesi, yaygın kabul gören tarih) dayanıldı.
+
+```js
+{ id:"litvanya-buyuk-dukalik", ad:"Litvanya Büyük Dükalığı", tur:"dukalik", bolge:"dogu-avrupa",
+  f:"1253-07-06", t:"1569-07-01", baskent:"Vilnius",
+  ozet:"Mindaugas'ın taç giyerek Litvanya'yı Katolik bir krallık ilan ettiği (tek örnek — sonraki hükümdarlar dük unvanını kullandı) devlet; Gediminas hanedanı döneminde büyük güce dönüştü, Polonya ile 1386 kişisel birliği 1569'da tam birleşmeye evrildi (bkz. [[polonya-erken]], [[lehistan]]). TDV'de Litvanya Büyük Dükalığı'nın kendi maddesi yok (yalnız `LİPKALAR` — Litvanya Tatarları — maddesi var); tarihler standart akademik kaynağa göredir.",
+  kronoloji:[
+    { t:"1253-07-06", tur:"kurulus", b:"Mindaugas taç giyerek Litvanya'yı Katolik krallık ilan etti" },
+    { t:"1316-01-01", tur:"hukumdar", b:"Gediminas tahta çıktı, hanedanı ve devleti büyük bir güce dönüştürdü" },
+    { t:"1386-01-01", tur:"ittifak", b:"Büyük Dük Jogaila, Polonya Kraliçesi Jadwiga ile evlenip Polonya kralı oldu — kişisel birlik başladı" },
+    { t:"1569-07-01", tur:"son", b:"Lublin Birliği ile Polonya'yla tam birleşerek Lehistan-Litvanya Birliği'ni oluşturdu" }
+  ]
+},
+```
+
+### TASLAK 7 — `norvec-kralligi` (norvec, 1281→1537 — KARAR GELDİ: tek künye, `danimarka`ya BAĞLANMIYOR)
+
+**BULUNAMADI (TDV'de):** `norvec` slug'ı 302 (ölü), TDV'de müstakil Norveç
+maddesi yok. §4 gereği (Avrupa iç tarihi, TDV kapsamı dışı) standart akademik
+kaynağa dayanıldı — koordinatörün talimatındaki gibi.
+
+```js
+{ id:"norvec-kralligi", ad:"Norveç Krallığı (Birlik Öncesi ve Kalmar Dönemi)", tur:"krallik", bolge:"kuzey-avrupa",
+  f:"1281-01-01", t:"1537-01-01", baskent:"Bergen → Oslo",
+  ozet:"Bağımsız ortaçağ Norveç Krallığı; 1319'da İsveç ile, 1380'de Danimarka ile kişisel birliğe girdi, 1397'de Kalmar Birliği'nin parçası oldu; 1523'te İsveç birlikten ayrılınca Danimarka ile kaldı, 1536-37 Reform hareketiyle Norveç Krallık Meclisi kaldırılıp fiilen Danimarka eyaletine dönüştü (bkz. [[danimarka]] — AYRI künye, birleştirilmedi). ⚠️ 1281 tarihi hânedanın kuruluşu değil atlasın pencere başlangıcıdır; TDV'de `norvec` maddesi YOK (302), tarihler standart akademik kaynağa göredir (§4).",
+  kronoloji:[
+    { t:"1319-01-01", tur:"ittifak", b:"VII. Magnus (Magnus Eriksson) hem Norveç hem İsveç kralı oldu — ilk kişisel birlik" },
+    { t:"1380-01-01", tur:"ittifak", b:"IV. Olav'ın tahta çıkışıyla Danimarka ile kişisel birlik başladı" },
+    { t:"1397-06-17", tur:"birlesme", b:"Kalmar Birliği resmen kuruldu — Danimarka, Norveç, İsveç Margrete I altında birleşti" },
+    { t:"1523-06-06", tur:"bolunme", b:"İsveç Kalmar Birliği'nden ayrıldı; Norveç Danimarka ile birlikte kaldı" },
+    { t:"1537-01-01", tur:"son", b:"Reform hareketiyle Norveç Krallık Meclisi kaldırıldı, ülke fiilen Danimarka'nın bir eyaletine dönüştü" }
+  ]
+},
+```
+
+### DÜZELTME 1 — `danimarka.f:` geriye çekilmeli (1380 → 1281)
+
+TDV `danimarka` (200, CANLI): krallığı "VI. yüzyıl"a dayandırıyor,
+1281-1380 arasında bir KOPUŞ yok. **Bu YENİ KÜNYE değil**, mevcut kaydın
+`f:` alanının atlasın pencere-başlangıcına (1281-01-01) çekilmesi ve
+1380'in kronolojiye "Danimarka-Norveç birliği başladı" biçiminde
+taşınmasıdır. Taslak (mevcut kayda uygulanacak diff):
+
+```
+ESKİ: f:"1380-01-01"
+YENİ: f:"1281-01-01"
+ozet'e ekle: "Krallık VI. yüzyıla uzanır (TDV); 1380 Norveç ile kişisel
+  birliğin başlangıcıdır, devletin kendi kuruluşu değil."
+kronoloji'ye EKLE (başa): { t:"1380-01-01", tur:"ittifak",
+  b:"IV. Olav'ın tahta çıkışıyla Norveç ile kişisel birlik başladı
+  (bkz. [[norvec-kralligi]])" }
+```
+
+### DÜZELTME 2 — `fransa.t:` bir gün kaydırılmalı (1792-09-21 → 1792-09-22)
+
+TDV `fransa` maddesi "22 Eylül'de cumhuriyet ilân edildi" diyor; mevcut
+kayıt 21'inde bitiyor. `fransa-cumhuriyet` taslağının `f:`si de 22'de
+başlıyor (TASLAK 3) — tutarlılık için ikisi birlikte düzeltilmeli, yoksa
+1 günlük sahipsiz/çakışan aralık açılır.
+
+---
+
+### TOPLAM — DALGA 1 sonucu netleşti
+
+**7 yeni künye taslağı + 2 düzeltme.** (Önceki "≈7-9" tahmininin ALT
+UCUNDA netleşti — `lehistan` 2 ayrı künye ile çözüldü, `norvec` 1 künye ile
+çözüldü, `danimarka` gerçekten 0 yeni künye/1 düzeltme çıktı.) Hepsi TASLAK
+— `data/devletler.js` hâlâ kilitli, HİÇBİRİ YAZILMADI. Kilit kalkıp
+"dosya senin" gelince yukarıdaki 7 bloğu birebir kopyalayıp gerçek künyeye
+çevireceğim, ardından `node -e eval` ile sözdizimi + mükerrer id doğrulaması
+yapacağım (bu oturumun standart pratiği).
+
+DALGA 2 (35 kimlik/~203 pencere: irlanda, umman, adal, somali, ispanya,
+sardinya, bosna, kirim, avusturya, bogdan, darfur, eflak, altinorda,
+maratha, milanoduka, ...) — **Dalga 1 bitmeden başlanmadı**, koordinatörün
+talimatı buydu.
