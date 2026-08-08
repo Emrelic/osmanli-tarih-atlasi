@@ -111,8 +111,8 @@ window.DEVLETLER = [
 },
 
 { id:"afsar", ad:"Afşar Devleti (Nadir Şah)", tur:"devlet", bolge:"iran",
-  f:"1736-03-08", t:"1796-01-01", baskent:"Meşhed", harita:"iran",
-  ozet:"Nadir Şah'ın kısa ama fetihçi hanedanı; ölümüyle fiilen parçalandı, Horasan'da bir kolu 1796'ya dek sürdü.",
+  f:"1736-03-08", t:"1796-01-01", baskent:"Meşhed", harita:"afsar",
+  ozet:"Nadir Şah'ın kısa ama fetihçi hanedanı; ölümüyle fiilen parçalandı, Horasan'da bir kolu 1796'ya dek sürdü. ⚠️ VERİ DEVLET (7 Ağustos 2026) DÜZELTTİ: `harita:` alanı `\"iran\"`den `\"afsar\"`a çekildi — `afsar` ve `kacar` aylardır AYNI `\"iran\"` anahtarına bakıyordu (`renk_olc` her koşuda ΔE 0 aynı-anahtar örtüşmesi bildiriyordu), bu yüzden 257 pencere yanlış künyeye bağlanıyordu.",
   kronoloji:[
     { t:"1736-03-08", tur:"kurulus", b:"Nadir Şah tahta çıktı" },
     { t:"1730-01-01", tur:"savas", b:"Osmanlı ile Bağdat-Kirkük çevresinde savaşlar (1746'ya dek aralıklı)" },
@@ -122,8 +122,8 @@ window.DEVLETLER = [
 },
 
 { id:"kacar", ad:"Kaçar Hanedanı (İran)", tur:"devlet", bolge:"iran",
-  f:"1789-03-21", t:"1923-10-29", baskent:"Tahran", harita:"iran",
-  ozet:"Ağa Muhammed Han'ın kurduğu son İran hanedanı; Osmanlı ile son sınır anlaşmazlıkları bu dönemde çözüldü. ⚠️ VERİ DEVLET (7 Ağustos 2026) DÜZELTTİ: TDV `riza-sah-pehlevi` maddesi hanedanın resmî sonunu \"31 Ocak 1924 tarihinde meclis, Avrupa'da bulunan Ahmed Şah'ı gıyabında tahttan indirerek Kaçar hânedanına son verdi\" diye tarihliyor — 1925 değil 1924 (site ufkunun dışında). Ardılı için bkz. [[iran]].",
+  f:"1789-03-21", t:"1923-10-29", baskent:"Tahran", harita:"kacar",
+  ozet:"Ağa Muhammed Han'ın kurduğu son İran hanedanı; Osmanlı ile son sınır anlaşmazlıkları bu dönemde çözüldü. ⚠️ VERİ DEVLET (7 Ağustos 2026) DÜZELTTİ: TDV `riza-sah-pehlevi` maddesi hanedanın resmî sonunu \"31 Ocak 1924 tarihinde meclis, Avrupa'da bulunan Ahmed Şah'ı gıyabında tahttan indirerek Kaçar hânedanına son verdi\" diye tarihliyor — 1925 değil 1924 (site ufkunun dışında). Ardılı için bkz. [[iran]]. `harita:` alanı ayrıca aynı gün `\"iran\"`den `\"kacar\"`a çekildi (bkz. `afsar` kaydındaki not — aylardır `afsar` ile aynı anahtarı paylaşıyordu).",
   kronoloji:[
     { t:"1789-03-21", tur:"kurulus", b:"Ağa Muhammed Han Kaçar tahta çıktı, Tahran'ı başkent yaptı" },
     { t:"1794-01-01", tur:"birlesme", b:"Zend hanedanına son verildi, İran yeniden birleşti" },

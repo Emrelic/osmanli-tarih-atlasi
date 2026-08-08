@@ -128,7 +128,14 @@ BEKLENEN_YERLESIM = 968
 # Bos birakmak dogru; doldurmak "hayalet devlet" sinifi uretirdi.
 # ⚠️ Reykjavik ve Akureyri SAHIPLI (norvec -> danimarka -> izlanda),
 #   yani artis adanin kendisinden DEGIL, Gronland"dan geliyor.
-BEKLENEN_SAHIPSIZ = 114
+# 🔴 7 Agustos 2026: 114 -> 170. NOKTA HALKA-2 1 (Sudan-Habesistan-
+# Somali-Umman) 181 nokta yazdi ve 56'si KASTEN sahipsiz: Sudan/Umman
+# colu 12 · Habesistan bati-guney 16 · Guney Sudan 26 · Rub'ul Hali 2.
+# ⚠️ 56'sinin 56'si `kasitli_bosluk:true` + `neden:` TASIYOR, isaretsiz 0.
+# Ve yedi kimlik (silluk · zende · vaday · avsa · mecerteyn · hobyo ·
+# tuncur) ne renkli ne kunyeli oldugu icin o noktalar KASTEN bos
+# birakildi -- 'en yakin komsuyla boyamak' §3.5.1 ihlali olurdu.
+BEKLENEN_SAHIPSIZ = 170
 # 427 -> 432: Kirmanşah 1590-1603 (+2), Tarki tâbiiyeti (+2, mevcut günlere
 # oturdu), Kaheti tâbiiyeti (+2), Şirvan ara şehirleri (+0, mevcut günler),
 # Azak'ın 1637-1642 Kazak işgali (+2), Şehrizor 1554-01-01 -> 1554-08-22 (+0).

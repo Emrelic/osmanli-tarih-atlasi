@@ -344,6 +344,16 @@ GIRDI_DOSYALARI = [
     "yerlesimler_ek19.js",
     "yerlesimler_ek21.js",
     "yerlesimler_ek22.js",
+    # ── HALKA-2 NOKTA PARTILERI · 7 Agustos 2026 ───────────────────
+    # Uc oturum, uc bolge, 333 yeni nokta. Yogunluk olcumu (nokta/mn km2):
+    #   Sudan-Habes-Somali-Umman   8,9 -> 25,2   (181 nokta)
+    #   Avrupa Rusyasi            17,7 -> 36,5   ( 88)
+    #   Kuzey Afrika              26,5 -> 39,6   ( 64)
+    # Ucu de denetle.py KUYRUK_DOSYALARI listesinde -- 2s tavani 121
+    # DOLUYDU ve iki oturum bunu YAZMAYA BASLAMADAN olcup bildirdi.
+    "yerlesimler_h2_afrika.js",
+    "yerlesimler_h2_rusya.js",
+    "yerlesimler_h2_kuzeyafrika.js",
     # ── ESTONYA · 7 Agustos 2026 ────────────────────────────────────
     # ek11 Tallinn (Reval) · Narva · Tartu (Dorpat) · Parnu, 4 nokta.
     # PARTI 19dan beri BEKLIYORDU ve tek engeli `estonya` rengiydi;
