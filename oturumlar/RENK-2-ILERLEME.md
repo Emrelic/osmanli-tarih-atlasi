@@ -3060,3 +3060,60 @@ buldurdu. ⇒ *Ancak yanlış çıkabilen bir şey bilgi taşır* — ve dördü
 ### ⚠️ KOŞU 2'NİN ÖNGÖRÜSÜ: ÖLÇÜLEMEDİ
 `kosu-ongoru.json` sınanamaz — koşu öldü, çıktı hiç üretilmedi.
 **"Temiz" değil, "ölçülemedi" diye kaydediliyor.**
+
+---
+
+## 63. HORASAN İKİLİSİ + DÖRDÜNCÜ OTORİTE SORUSU
+
+### ① `serbedariler` + `kert` yazıldı
+```
+serbedariler #a5f3c3  pay 18,4 · engel 21     Sebzevâr, 1337-1386
+kert         #0093ff  pay 16,8 · engel 24     Herat, 1245-1389
+serbedariler ↔ kert = 40,03   (hedef ≥ 25)
+```
+`BOYALAR` 323 → 325. `iran` hayaletinin kalan 22 noktası açıldı.
+
+⚠️ **Ve bir şey daha öğrendim:** özel çift kısıtı **yine ateşlemedi** —
+`kert` daha çok engelli olduğu için ÖNCE çözüldü, kısıt dalı ise
+*"`kert` çözülürken `serbedariler` seçilmişse"* diye yazılmıştı. Yani
+**sıra ters döndü ve dal atlandı.**
+🟢 **Ama `assert` yakaladı** — çünkü o **mekanizmayı değil SONUCU**
+sınıyor: `dE_ozel >= 25` mi? Ölçüm 40,03 verdi, geçti.
+> 📌 **Bir SONUÇ assert'i, bir KISITTAN güçlüdür.** Kısıt sessizce
+> uygulanmayabilir; assert her koşuda sonucu ölçer.
+
+Bu, `luba ↔ lunda` vakasının ikinci turu ve **çare orada bulunmuştu**;
+bugün o çare kendi değerini gösterdi.
+
+### ② DÖRDÜNCÜ OTORİTE AYRIŞMASI — ÖLÇÜLDÜ, **YOK**
+Soru: `devirler.js` koşudan SONRA üretiliyor ve `BOYALAR`ı kendisi
+okuyor (`uret_devirler.py:219,265`) ⇒ `donemler.js` ile farklı paletten
+doğmuş olabilir mi?
+
+```
+donemler.js   20,4 MB · benzersiz hex: 0     ← HİÇ RENK TAŞIMIYOR
+devirler.js    37 hex örneği · 11 benzersiz
+```
+🔴 **Sorunun çerçevesi yanlıştı:** `donemler.js` renk **taşımıyor**, kimlik
+slug'ı taşıyor. Renk çizim anında uygulanıyor. ⇒ İki dosya **ayrışamaz**,
+çünkü karşılaştırılacak ortak bir alan yok.
+
+**Ve aletimin "🔴 palette YOK" dediği iki hex de ölçüldü:**
+```
+#8e0b22 ×10   OSMANLI doğrudan     (renkler.py:1501)
+#b2384a ×1    OSMANLI tâbi
+```
+`ISGALLER` kaydındaki `sahipRenk` alanı — yani **işgal edilen yerin
+sahibinin** rengi. `BOYALAR`da olmamaları **doğru**; onlar Osmanlı ikilisi.
+📌 Alet doğru bastı, **çıkarımım yanlıştı** — bugün bende üçüncü kez.
+
+### 🟠 AMA GERÇEK BİR BOŞLUK VAR, ve dar
+```
+devirler.js, renk hex'i PİŞİREN TEK üretilmiş dosya (11 kimlik)
+ve hiçbir denetim onu bayatlığa karşı KONTROL ETMİYOR
+```
+`renk_cikti` `devletler_harita.js`i kontrol ediyor (*"ESKİ renkle
+çizili"*), `devirler.js`i **etmiyor.** Bugün bayat değil — 11 hex'in 9'u
+güncel `BOYALAR`la birebir, 2'si Osmanlı. Ama o 11 kimlikten biri koşudan
+sonra renk değiştirirse **sessizce bayatlar.**
+⇒ Küçük bir denetim yetiyor; koordinatöre önerildi.

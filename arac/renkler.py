@@ -329,6 +329,23 @@ BOYALAR = {
     "lur-i-kucek": ("Lur-i Küçek (Hurşîdîler)",    "#246f90"),
     "kutlughanli": ("Kutluğhanlılar (Kirman)",     "#513921"),
     "incu":        ("İncûlular (Fars)",            "#75c0db"),
+    # ═══ HORASAN — serbedariler + kert, 8 Ağustos 2026 ═══
+    # `iran` hayaletinin kalan 22 noktasını açıyorlar (16 + 6).
+    # 🔴 `serbedariler ↔ kert` AYRI MUAMELE: Horasan'ı 1337-1381 arasında
+    #   DOĞRUDAN bölüşüyorlar — Sebzevâr batıda, Herat doğuda, aralarında
+    #   SINIR var ve kullanıcı o sınırı okuyacak. `bugis ↔ gova-makassar`,
+    #   `ava ↔ ayutthaya`, `luba ↔ lunda` ile aynı sınıf.
+    #   ⇒ 12 eşiği YETMEZ, hedef 25 kondu. Ve `assert` ile SINANDI —
+    #     kurulamayan özel kısıt artık çözücüyü durduruyor (`luba↔lunda`
+    #     vakasında sessizce atlanmıştı).
+    #   ÖLÇÜM: serbedariler ↔ kert = **40.03**
+    # ENGEL: ikisinin de veride 0 dönemi var ⇒ coğrafî çekirdek + 1500 km.
+    #   VE `kuba ↔ lunda` DERSİ UYGULANDI: verisi olmayan aday ELENMİYOR,
+    #   künyesi örtüşüyor ve aynı bölgedeyse ENGEL SAYILIYOR.
+    # serbedariler — 1337→1386 · pay 18.4 · engel 21 · geçen 21748 · C* 20.7 = %40
+    # kert — 1245→1389 · pay 16.8 · engel 24 · geçen 10138 · C* 25.5 = %60
+    "serbedariler": ("Serbedârîler", "#a5f3c3"),
+    "kert": ("Kertler (Herat)", "#0093ff"),
     "muzafferi":   ("Muzafferîler",                "#2154db"),
     # =======================================================================
     # KALAN 40 RENKSIZ KIMLIK -- RENK 2, 7 Agustos 2026
