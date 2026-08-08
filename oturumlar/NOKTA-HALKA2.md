@@ -140,9 +140,29 @@ BİTİNCE      teslim raporu SAYIYLA: "99 → 214, şu 30'u şu sebeple yazılma
 ```
 Commit yalnız **kendi çıktı dosyan ve kendi ilerleme notun**, pathspec'li:
 ```bash
-git commit -F - -- data/yerlesimler_h2_<bolge>.js oturumlar/NOKTA-HALKA2.md
+git commit -F - -- data/yerlesimler_h2_<bolge>.js oturumlar/NOKTA-HALKA2-<n>.md
 ```
 ⚠️ `git add -A` **asla** — git index oturumlar arasında PAYLAŞILIYOR.
+
+🔴 **BU DOSYAYA (ortak şartnameye) YAZMA.** İlerleme notun **`oturumlar/
+NOKTA-HALKA2-<n>.md`** — kendi numaranla, ayrı dosya.
+📌 İlk yazımda burada *"ilerleme notun: `oturumlar/NOKTA-HALKA2.md`"*
+yazıyordu ve **yanlıştı**: üç oturum tek dosyaya yazarsa çakışır — yani
+şartname, `§7`nin *"her dosyanın tek sahibi olur"* kuralını **kendi içinde
+ihlal ediyordu.** Üç oturuma da düzeltme gönderildi.
+
+## ⑤.1 🔴 KOMŞU OTURUMLA SINIR — birbirinize DEĞİL, koordinatöre
+
+Bölgeleriniz kenarlarda **örtüşüyor**:
+```
+1 ↔ 3   Sudan/Darfur/Fizan hattı (lon 22-25)
+2 ↔ 1   yok        2 ↔ 3   yok
+2'nin GÜNEY kenarı (lat ~45, Kırım-Azak-Kuban) ÇEKİRDEKTE ZATEN YOĞUN
+```
+⚠️ **`3 km` mükerrer kontrolü ayrı dosyalarda çalışırken karşı tarafı
+GÖREMEZ.** İkiniz de aynı yeri yazarsanız denetim bunu **koşu sonrasına
+kadar** göstermez. ⇒ Sınırda kalan her nokta için **koordinatöre yaz**
+(`§7.1 ③`), o iletir.
 
 ---
 
