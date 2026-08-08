@@ -2960,3 +2960,50 @@ ikisi de **sessizdi.**
 görünmez 0 · çakışan 0 · aynı-anahtar 0 · aynı-hex 0
 yakın-ama-değmeyen 7 (borç, kayıtlı) · renk_fark ✓ TEMİZ
 ```
+
+---
+
+## 61. ÖNGÖRÜ, ÖLÇÜMDEN ÖNCE YAZILDI
+
+Koordinatör: *"Beklediğimden başka çıkarsa bir varsayımım yanlış demektir
+ve onu bilmem gerekiyor."*
+⇒ O hâlde beklenti **önce** yazılmalı. Sonra yazılan beklenti, ölçüme göre
+**ayarlanabilir**; önce yazılan **çürütülebilir.**
+`denetim/kosu-ongoru.json` — koşu bitmeden, damgalı.
+
+```
+koşunun okuduğu palet (7363e9a)   314 kimlik
+şimdiki                            323 kimlik
+① 'ESKİ renkle çizili' çıkacak      9
+② BOYALAR'da var, ÇİZİLMEYEN        9
+③ KOŞUDA DELİK                      6   ← koordinatör 4 bekliyordu
+```
+
+### 🔴 VE ③ KOORDİNATÖRÜN BEKLENTİSİNDEN FARKLI ÇIKTI
+O *"dört delik (kongo · lunda · ndongo · avustralya)"* dedi. Ölçüm **altı**
+diyor ve fazladan ikisi **daha büyük**:
+```
+svahili-sehirleri   veride 10 dönem   ← koşuda renksizdi
+umman-zengibar      veride  8 dönem   ← koşuda renksizdi
+```
+İkisi onun **kendi beş listesindeydi** ama *"künyeli-renksiz, sessiz
+borç"* diye sınıflanmıştı. **Veride dönemleri VARDI** ⇒ sessiz borç değil,
+**açık delik.** Ve dördünden büyük.
+📌 Yani kova ayrımı doğruydu, **atama** yanlıştı: bir kimliğin hangi
+kovaya düştüğü künyeye değil **VERİYE** bakılarak belirlenir.
+
+### 🔴 VE ÖNGÖRÜNÜN İLK İKİ SÜRÜMÜ YANLIŞTI — ikisi de sessizce
+```
+① regex `[^,]*` kullandı ⇒ ADINDA VİRGÜL olan kimlikleri kaçırdı
+   (`dogu-sumatra-sultanliklari`: "…(Jambi, Siak, Deli…)")
+   8 kimlik sessizce kayboldu, "310 kimlik" dedi (gerçek 314)
+② düzeltmeyi bash heredoc'undan geçirdim, `\\` kaçışları yendi,
+   regex hiçbir şey eşleştirmez oldu → "0 kimlik" ve 298 sahte delik
+```
+⚠️ İkincisi `§11`in **BEŞİNCİ** ihlali, aynı gün — ve tam da *"kaçış
+içeren metin bash'ten geçmez"* dersini uygularken.
+⇒ **Çare regex'i düzeltmek değil, REGEX'İ BIRAKMAK oldu:** `renkler.py` o
+revizyondan dosyaya yazılıp **içe aktarılıyor.** Ayrıştırıcı yazmıyoruz,
+Python'un kendi ayrıştırıcısını kullanıyoruz.
+📌 Bugün üçüncü kez: **kendi yazdığın ayrıştırıcı, var olan bir
+ayrıştırıcıdan her zaman kötüdür.**

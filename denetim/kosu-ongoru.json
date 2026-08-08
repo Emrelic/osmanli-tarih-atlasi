@@ -1,0 +1,37 @@
+{
+ "kosu_paleti": "7363e9a",
+ "kosu_kimlik": 314,
+ "simdiki_kimlik": 323,
+ "canli_nokta": 2287,
+ "1_eski_renkle_cizili": [
+  "bosna",
+  "fransa-cumhuriyet",
+  "inancogullari",
+  "karakoyunlu",
+  "parma",
+  "sahibata",
+  "saruhan",
+  "suleyman-celebi",
+  "taceddin"
+ ],
+ "2_boyalarda_var_cizilmeyen": [
+  "avustralya",
+  "kongo-kralligi",
+  "kuba",
+  "loango",
+  "luba",
+  "lunda-imparatorlugu",
+  "ndongo",
+  "svahili-sehirleri",
+  "umman-zengibar"
+ ],
+ "3_kosuda_delik": {
+  "avustralya": 3,
+  "kongo-kralligi": 3,
+  "lunda-imparatorlugu": 1,
+  "ndongo": 1,
+  "svahili-sehirleri": 10,
+  "umman-zengibar": 8
+ },
+ "not": "KOŞU BİTMEDEN yazıldı. Ölçüm buna göre AYARLANAMAZ; fark çıkarsa VARSAYIM yanlıştır, öngörü değil."
+}
