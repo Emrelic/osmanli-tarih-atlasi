@@ -1,14 +1,12 @@
 # NOKTA HALKA-2 3 — ilerleme ve teslim notu (8 Ağustos 2026)
 
-> ⚠️ **Bu dosya niçin ayrı açıldı.** Şartname (`oturumlar/NOKTA-HALKA2.md §⑤`)
-> ilerleme notunun o dosyaya yazılıp commit'lenmesini söylüyor. Ama o dosyayı
-> **üç oturum birden okuyor** ve `CLAUDE.md §7`'nin bütün uyarısı tam bu
-> desene karşı: *"git index PAYLAŞILIYOR… iki oturum aynı dosyaya yazarsa
-> sessiz veri kaybı olur."* Üç oturumun tek `.md`ye yazması, §7'nin
-> yasakladığı şeyin `oturumlar/` altındaki hâlidir.
-> ⇒ Şartnamenin **ruhuna** (kendi notunu kendin commit'le) uydum,
-> **lafzından** saptım: kendi adımı taşıyan ayrı dosya açtım. Sapma
-> koordinatöre bildirildi.
+> ⚠️ **Bu dosya niçin ayrı.** Şartname (`oturumlar/NOKTA-HALKA2.md §⑤`)
+> ilerleme notunun ortak dosyaya yazılmasını söylüyordu; ama o dosyayı
+> **üç oturum birden okuyor** ve `CLAUDE.md §7` tam bu desene karşı uyarıyor:
+> *"iki oturum aynı dosyaya yazarsa sessiz veri kaybı olur."*
+> Ayrı dosya açtım, koordinatöre bildirdim, **koordinatör onayladı ve adı
+> `NOKTA-HALKA2-3.md` olarak sabitledi** (kardeş oturumlara da aynısı
+> söylendi). Dosya o ada taşındı.
 
 ## Sayıyla teslim
 
@@ -161,6 +159,45 @@ onları **ülke süreklilik kimliği** olarak kullanıyor. Bu bir çelişki değ
 **bu iki kimlik yüzlerce yanlış pozitif verecektir** — dördüncü değişmez
 yazılmadan önce bilinmeli.
 
+### 🔴 SONRADAN GELEN TALİMAT UYGULANAMADI — `fransa-cumhuriyet`
+
+Koordinatör (8 Ağustos) *"1792 sonrası için `fransa` değil `fransa-cumhuriyet`
+kullan"* dedi. **Uygulamadım, çünkü ölçtüm:**
+
+```
+fransa-cumhuriyet    künye ✓ (1792-09-22..1923)    RENK ✗   ← renkler.py'de YOK
+merini               künye ✓ (1196..1549)          RENK ✗
+sadi                 künye ✗                       RENK ✗   ← hiç yok
+```
+`arac/renkler.py:574` yalnız `"fransa": ("Fransa", "#7b99ff")` satırını
+taşıyor. Doğrudan dosyadan okuyarak doğrulandı (`§11` "aletin gösterdiği ≠
+dosyada yazan").
+
+**Geçseydim ne olurdu:** benim 23 Fransız dönemim **renksiz** kalırdı —
+`VERI-YAPISI.md`: *"yoksa üretim uyarı verir ve bölge boyanmaz."* Yani künye
+uyuşmazlığı (görünmez bir tutarsızlık) yerine **boyanmayan toprak** (görünür
+bir hata) almış olurdum. Şartnamem `§③④` zaten bunu emrediyor: *"kimlik
+`renkler.py`de RENKLİ **ve** `devletler.js`de KÜNYELİ olmalı. Değilse
+KOORDİNATÖRE BİLDİR — sen yazamazsın."*
+
+**Ve tek başıma geçmek zaten yanlış olurdu:** mevcut külliyatta 1792 sonrası
+`fransa` kullanan **157 dönem** var —
+```
+yerlesimler_avrupa.js 60 · yerlesimler.js 46 · yerlesimler_afrika.js 45
+yerlesimler_asya.js    4 · yerlesimler_seyrek.js 1 · yerlesimler_ek3.js 1
+```
+Yalnız benimkini çevirseydim Cilfe `fransa-cumhuriyet`, 100 km yanındaki
+Ağvât `fransa` olurdu — **haritada iki ayrı Fransa.** Göç **tek partide,
+157+23 dönem birlikte** yapılmalı ve önce renk yazılmalı.
+⇒ Renk gelince bende **23 satırlık mekanik değişiklik**; beklemede.
+
+📌 Ve bu, aşağıdaki (b) bulgusunun doğrudan sonucudur: `fransa` künyesinin
+hanedan ömrü taşıdığını ben bildirdim, koordinatör künyeyi ayırdı — ama
+**künye ile renk ayrı dosyalarda** ve ikincisi henüz yazılmadı. Bir kimliğin
+"var" olması için **ikisi birden** gerekiyor.
+
+---
+
 Üçüncüsü **gerçek bir borç**: Hafsî Devleti 1574-09-13'te bitiyor, ama Fizan
 kayıtları `hafsi`yi **1577-01-01**'e kadar sürdürüyor — 2,3 yıllık hayalet.
 `§3.5` *"bölgesel teslim gecikmeleri meşrudur ama yıllar değil aylar
@@ -170,3 +207,86 @@ noktasına daha uyguladım — kasten, çünkü ayrı yazsaydım Murzuk ile Tır
 60 km arayla farklı devletlerde görünürdü. **Toplam 9 kayıt, tek karar.**
 Düzeltilecekse dokuzu birden düzeltilmeli; `yerlesimler.js` ve `devletler.js`
 ikisi de koordinatörde.
+
+---
+
+# Koordinatörün dört ek isteği — ölçüldü
+
+## ① ÇÖL DOLGUSU — kutu, alan, gerekli nokta (yazılmadı, ölçüldü)
+
+Koordinatör *"yalnız sahipli nokta yaz, çöl boşluğunu ayrı kalem raporla:
+hangi kutu, kaç km², kaç dolgu noktası"* dedi. Ölçüm — 1°'lik ızgara,
+`lat 22-31 / lon -9..+8`, ölçüt "en yakın noktaya uzaklık > 200 km":
+
+```
+delik hücre sayısı            80  (1° x 1°)
+kapsanan alan             ~898.000 km²
+taban yoğunluğa (50,9) çıkarmak için    ~46 nokta
+yalnız DELİĞİ kapatmak (1 nokta/hücre)   80 nokta
+en derin nokta      lat 22 / lon -9  →  en yakın yerleşim 753 km
+```
+En kötü on hücre: `(22,-9) 753 km` · `(22,-8) 688` · `(23,-9) 673` ·
+`(22,-7) 634` · `(23,-8) 601` · `(22,-6) 592` · `(22,-3) 566` ·
+`(22,-5) 566` · `(24,-9) 565` · `(22,-2) 559`.
+
+⚠️ **Dürüst sınır:** bu kutunun güney-batı yarısı (lat 22-25 / lon -9..-1)
+**Batı Sahra · Moritanya · Mali** demektir — benim şartnamemdeki "Fas ·
+Cezayir · Tunus · Trablus · Fizan" tarifinin **dışında**. Yani 80 hücrenin
+hepsi benim bölgemin borcu değil; deliği olduğu gibi raporluyorum, bölüşümü
+koordinatör yapsın.
+
+## ② SINIR ÇAKIŞMASI — `NOKTA HALKA-2 1` ile örtüşen kutu
+
+Koordinatör *"lon 22-25 örtüşüyor, Zevîle · Kufra · Gât ikinizde de
+çıkabilir, yazmadan sor"* dedi. Ölçüm:
+
+```
+benim yazdığım, lon 22-25 arasında:  1 nokta — Ayn el-Ğazâle (Bomba) 23,120
+Kufra (el-Cûf)   bende YOK · mevcutta VAR  ⇒ yazmadım, doğru
+Gât              bende YOK · mevcutta VAR  ⇒ yazmadım, doğru
+Zevîle (Zawila)  bende VAR · mevcutta YOK  ⇒ 🔴 HALKA-2 1'e HABER VERİLMELİ
+```
+📌 **Zevîle örtüşme kutusunda DEĞİL** — `lon 15,113`, yani sınırın 7 derece
+batısında, Fizan'ın göbeğinde. Koordinatörün uyarısı isabetliydi ama yer
+yanlıştı: Zevîle bir Fizan noktası, Sudan noktası değil. Yine de **HALKA-2 1
+onu yazarsa sessiz mükerrer doğar**, çünkü `3 km` kontrolü ayrı dosyalarda
+karşı tarafı görmüyor.
+
+## ③ "BATTANİYE DÖNEM" TARAMASI — Tunus vakasının emsali arandı
+
+Koordinatör Tunus'ta 39 yıllık tek parça `hafsi` penceresinin bugün dörde
+bölündüğünü bildirip *"aynı desen Cezayir ve Trablus'ta da olabilir"* dedi.
+Geniş kutuda (lon -14..26 / lat 22..38,5) **30 yıldan uzun tek parça ara
+dönem** arandı — 1281 başlangıçlı ve 1923 bitişli olanlar elendi (onlar
+tanımı gereği uzun):
+
+```
+28 pencere bulundu — ve İNCELENDİĞİNDE HİÇBİRİ BATTANİYE ÇIKMADI.
+```
+Hepsi **gerçek uzun tasarruflar**: Venedik'in İyon adaları (Zaklise 315 yıl ·
+İthaki ve Kefalonya 297) · Malta'da Şövalyeler (268) · Portekiz Mazagan'ı
+(255) · İspanyol Oran'ı (199) · Ceneviz Tabarka'sı (197, Lomellini imtiyazı) ·
+Portekiz Tanca'sı (191) ve Sebte'si (166).
+
+⇒ **`s:` ekseninde battaniye YOK.** Ama taramamın kapsamını da bildiriyorum
+(`§11` *"denetim var ≠ o soruyu soruyor"*): **yalnız `s:` taradım, `d:` ve
+`v:` taramadım.** Tunus vakası da bir `s:` vakasıydı, o yüzden emsal doğru
+eksende arandı — fakat "Osmanlı 160 yıl tek parça" tipi bir battaniye
+`d:`tedir ve bu tarama onu **göremez.**
+
+🟡 **Yine de bir ADAY bildiriyorum, iddia değil:** Berka (Sirenayka) —
+Bingazi · Derne · Merc · Beyzâ · Ecdâbiye ve komşuları **1281→1551-08-15
+arası tek parça `hafsi`** (270 yıl). Hafsî nominal metbûluğu gerçekti, ama
+Sirenayka fiilen Hafsî idaresinin dışındaydı ve dönem dönem Memlük nüfuzuna,
+kabile hâkimiyetine ve 1510'larda İspanyol baskısına açıktı. Tunus'la aynı
+sınıf olabilir. **Ölçmedim, kaynak okumadım — araştırılması gereken bir
+başlık olarak bırakıyorum.**
+
+## ④ TDV SLUG LİSTESİ — bir daha kimse aynı 100 isteği atmasın
+
+Koordinatörün isteğiyle kalıcı kayda geçiriliyor. **CANLI (HTTP 200):**
+`miknas` · `titvan` · `sicilmase` · `darulbeyza` · `sus` · `filaliler` ·
+`merakes` · `rabat` · `atlas` · `tahert` · `kabiliye` · `mizab` · `benzert` ·
+`nefuse` · `fizan` · `trablusgarp` · `bingazi` · `berka` · `derne`
+
+Ölü olanların tam listesi yukarıdaki "Bulunamayanlar" bölümünde.
