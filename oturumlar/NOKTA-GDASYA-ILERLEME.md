@@ -100,3 +100,26 @@ açılan YENİ kırılma günü : 0 — hepsi mevcut günlerin tekrar kullanım�
 **Genel GDASYA yoğunluğu:** 76 → 85 nokta / 23,3 mn km² ⇒ **3,3 → 3,65**.
 
 Devam ediyorum: Siyam.
+
+### 🟢 SİYAM — TAMAMLANDI, 8 nokta
+
+Kırılma günleri yine SIFIR BORÇLA — `yerlesimler_asya.js`teki mevcut
+Ayutthaya/Sukhothai/Chiang Mai/Nakhon Si Thammarat noktalarından ölçülen
+tarihler tekrar kullanıldı (1569-08-08/1584-05-03 Toungoo arası, 1774-01-15
+Siyam'ın Lanna'yı geri alışı — hepsi zaten canlı veride).
+
+```
+Lopburi              14.80,100.62   sukhothai→ayutthaya→(1569 Toungoo arası)→ayutthaya→tonburi→siyam-chakri
+Phitsanulok          16.82,100.26   aynı zincir
+Nakhon Ratchasima    14.97,102.10   sukhothai→ayutthaya→tonburi→siyam-chakri
+Songkhla              7.21,100.60   aynı zincir
+Phuket (Thalang)      7.89, 98.40   aynı zincir
+Chiang Rai           19.91, 99.83   lan-na→toungoo→konbaung→siyam-chakri (Chiang Mai'nin birebir aynısı)
+Chanthaburi          12.61,102.10   sukhothai→ayutthaya→tonburi→siyam-chakri
+Nan                  18.78,100.77   lan-na→toungoo→konbaung→siyam-chakri
+```
+
+DOĞRULAMA: yazılan 8, 3km mükerrer 0, renksiz kimlik 0, dönem sorunu 0,
+açılan yeni kırılma günü 0. Toplam GDASYA: 85→93 nokta, yoğunluk 3,65→3,99.
+
+Devam: Kamboçya-Laos.
