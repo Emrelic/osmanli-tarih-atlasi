@@ -61,7 +61,7 @@ window.YERLESIMLER_EK3 = [
 //    (Oran) ve Mersalkebîr'in İspanyollardan alınışı"` maddesi VAR ama
 //    haritada karşılığı olan bir yer YOKTU. Madde artık bir yere basıyor.
 { ad:"Mersa'l-Kebîr", tur:"liman", lat:35.728, lon:-0.709, g:0, k:4, m:"Oran",
-  s:[{f:"1281-01-01",t:"1509-05-17",d:"zeyyani"},{f:"1509-05-17",t:"1708-04-04",d:"ispanya",enklav:true},{f:"1732-07-01",t:"1792-02-12",d:"ispanya",enklav:true},{f:"1831-01-04",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1509-05-17",d:"zeyyani"},{f:"1509-05-17",t:"1708-04-04",d:"ispanya",enklav:true},{f:"1732-07-01",t:"1792-02-12",d:"ispanya",enklav:true},{f:"1831-01-04",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1708-04-04",t:"1732-07-01",y:"kusatma"},{f:"1792-02-12",t:"1831-01-04",y:"antlasma"}] },
 
 // ── ② SEYREKLİK LİSTESİ 6-15 — ÜÇ SINIF UYGULANDI ───────────────────

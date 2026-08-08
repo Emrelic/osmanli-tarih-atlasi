@@ -347,96 +347,96 @@ window.YERLESIMLER_AFRIKA = [
 // ===========================================================================
 
 { ad:"Benzert (Bizerte)", tur:"liman", lat:37.276, lon:9.858, g:1, k:3, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
 
 // Tunus'un liman kalesi; 1535-1574 arası İspanyol garnizonu buradaydı.
 { ad:"Halkulvâdî", tur:"kale", lat:36.823, lon:10.295, g:0, k:4, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1535-07-21",d:"hafsi"},{f:"1535-07-21",t:"1574-08-25",d:"ispanya",enklav:true},{f:"1881-05-12",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1535-07-21",d:"hafsi"},{f:"1535-07-21",t:"1574-08-25",d:"ispanya",enklav:true},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
 
 { ad:"Mâtir (Mateur)", tur:"sehir", lat:37.040, lon:9.664, g:0, k:4, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
 
 // 1540-1741 arası Cenevizli Lomellini ailesinin mercan imtiyazıyla elinde
 // tuttuğu ada-kale. Bu ara dönem VERİYE YAZILMADI: 1741 devralması için
 // kronoloji maddesi yok, yazılsaydı Değişmez 2'yi açardı.
 { ad:"Tabarka", tur:"kale", lat:36.954, lon:8.758, g:0, k:4, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1544-01-01",d:"hafsi"},{f:"1544-01-01",t:"1741-06-12",d:"ceneviz"},{f:"1881-05-12",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1544-01-01",d:"hafsi"},{f:"1544-01-01",t:"1741-06-12",d:"ceneviz"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[], v:[{f:"1741-06-12", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
 
 { ad:"Bâce (Béja)", tur:"sehir", lat:36.733, lon:9.183, g:0, k:4, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
 
 { ad:"Cendûbe", tur:"sehir", lat:36.501, lon:8.780, g:0, k:4, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
 
 // Cezayir eyaletiyle sınır bölgesinin merkezi.
 { ad:"Kef", tur:"kale", lat:36.174, lon:8.705, g:0, k:3, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
 
 { ad:"Nâbil (Nabeul)", tur:"sehir", lat:36.451, lon:10.735, g:0, k:4, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
 
 // Kelîbiye burnu — Sicilya Boğazı'nın Afrika yakasındaki gözcü kalesi.
 { ad:"Kelîbiye", tur:"kale", lat:36.849, lon:11.094, g:0, k:4, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
 
 { ad:"Zağvân", tur:"sehir", lat:36.402, lon:10.143, g:0, k:4, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
 
 { ad:"Sûse", tur:"liman", lat:35.826, lon:10.638, g:1, k:3, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
 
 { ad:"Munastır", tur:"kale", lat:35.778, lon:10.826, g:0, k:4, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
 
 { ad:"Mehdiye", tur:"liman", lat:35.505, lon:11.062, g:0, k:4, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
 
 { ad:"Kasrayn", tur:"sehir", lat:35.167, lon:8.836, g:0, k:4, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
 
 { ad:"Kafsa", tur:"sehir", lat:34.425, lon:8.784, g:0, k:3, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
 
 // Cerîd vahaları: Tunus eyaletinin çöl kapısı. Bunlar Sahra'nın İÇİ değil,
 // şattların kuzey kıyısındaki hurmalık kasabalardır.
 { ad:"Tozer", tur:"sehir", lat:33.920, lon:8.134, g:0, k:4, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
 
 { ad:"Nefta", tur:"sehir", lat:33.873, lon:7.878, g:0, k:4, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
 
 { ad:"Medenîn", tur:"sehir", lat:33.354, lon:10.505, g:0, k:4, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
 
 { ad:"Tatavin", tur:"sehir", lat:32.930, lon:10.451, g:0, k:4, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
 
 { ad:"Cerciş (Zarzis)", tur:"liman", lat:33.504, lon:11.112, g:0, k:4, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
 
 // Trablusgarp eyaletiyle sınır kasabası.
 { ad:"Bin Gerdân", tur:"sehir", lat:33.138, lon:11.220, g:0, k:4, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
 
 // ===========================================================================
@@ -525,106 +525,106 @@ window.YERLESIMLER_AFRIKA = [
 // ===========================================================================
 
 { ad:"Blida", tur:"sehir", lat:36.470, lon:2.829, g:0, k:4, m:"Cezayir",
-  s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1830-07-05",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1830-07-05",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"}] },
 
 { ad:"Miliana", tur:"sehir", lat:36.305, lon:2.229, g:0, k:4, m:"Cezayir",
-  s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1830-07-05",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1830-07-05",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"}] },
 
 { ad:"Dellîs", tur:"liman", lat:36.908, lon:3.914, g:0, k:4, m:"Cezayir",
-  s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1832-11-22",t:"1844-03-04",d:"abdulkadir"},{f:"1844-03-04",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1832-11-22",t:"1844-03-04",d:"abdulkadir"},{f:"1844-03-04",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1832-11-22", k:"Osmanlı hükümranlık iddiası (ocaklık lağvedildi)"}] },
 
 // Gerçek işgal 1843 (Ténès) — 1844-03-04'e yuvarlandı.
 { ad:"Tenes", tur:"liman", lat:36.507, lon:1.307, g:0, k:4, m:"Cezayir",
-  s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1832-11-22",t:"1843-01-01",d:"abdulkadir"},{f:"1843-01-01",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1832-11-22",t:"1843-01-01",d:"abdulkadir"},{f:"1843-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1832-11-22", k:"Osmanlı hükümranlık iddiası (ocaklık lağvedildi)"}] },
 
 // Gerçek işgal 1843 (Şelif vadisi) — 1844-03-04'e yuvarlandı.
 { ad:"Şelif", tur:"sehir", lat:36.165, lon:1.334, g:0, k:4, m:"Cezayir",
-  s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1832-11-22",t:"1843-01-01",d:"abdulkadir"},{f:"1843-01-01",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1832-11-22",t:"1843-01-01",d:"abdulkadir"},{f:"1843-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1832-11-22", k:"Osmanlı hükümranlık iddiası (ocaklık lağvedildi)"}] },
 
 // General Desmichels 28 Temmuz 1833'te girdi; Hünkâr İskelesi maddesine 20 gün.
 { ad:"Mustagānim", tur:"liman", lat:35.931, lon:0.089, g:0, k:3, m:"Cezayir",
-  s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1832-11-22",t:"1833-07-28",d:"abdulkadir"},{f:"1833-07-28",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1832-11-22",t:"1833-07-28",d:"abdulkadir"},{f:"1833-07-28",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1552-01-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1832-11-22", k:"Osmanlı hükümranlık iddiası (ocaklık lağvedildi)"}] },
 
 // Abdülkādir el-Cezâirî'nin ilk merkezi. Gerçek düşüş 1841-05 — 1844-03-04'e
 // yuvarlandı.
 { ad:"Muaskar", tur:"sehir", lat:35.396, lon:0.140, g:0, k:4, m:"Cezayir",
-  s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1832-11-22",t:"1841-01-01",d:"abdulkadir"},{f:"1841-01-01",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1832-11-22",t:"1841-01-01",d:"abdulkadir"},{f:"1841-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1552-01-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1832-11-22", k:"Osmanlı hükümranlık iddiası (ocaklık lağvedildi)"}] },
 
 { ad:"Sîdî Bel Abbès", tur:"sehir", lat:35.194, lon:-0.641, g:0, k:4, m:"Cezayir",
-  s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1832-11-22",t:"1843-06-12",d:"abdulkadir"},{f:"1843-06-12",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1832-11-22",t:"1843-06-12",d:"abdulkadir"},{f:"1843-06-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1552-01-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1832-11-22", k:"Osmanlı hükümranlık iddiası (ocaklık lağvedildi)"}] },
 
 { ad:"Ayn Temûşent", tur:"sehir", lat:35.298, lon:-1.140, g:0, k:4, m:"Cezayir",
-  s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1832-11-22",t:"1844-03-04",d:"abdulkadir"},{f:"1844-03-04",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1832-11-22",t:"1844-03-04",d:"abdulkadir"},{f:"1844-03-04",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1552-01-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1832-11-22", k:"Osmanlı hükümranlık iddiası (ocaklık lağvedildi)"}] },
 
 // Fas sınırına en yakın Osmanlı kasabası; iki devlet arasındaki sınır burada
 // tanımlanır.
 { ad:"Nedrûme", tur:"sehir", lat:35.010, lon:-1.747, g:0, k:4, m:"Cezayir",
-  s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1832-11-22",t:"1844-01-01",d:"abdulkadir"},{f:"1844-01-01",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1832-11-22",t:"1844-01-01",d:"abdulkadir"},{f:"1844-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1552-01-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1832-11-22", k:"Osmanlı hükümranlık iddiası (ocaklık lağvedildi)"}] },
 
 // Fransızlar 13 Mayıs 1839'da girdi; Fırat geçişi maddesine 22 gün.
 { ad:"Cicel", tur:"liman", lat:36.821, lon:5.766, g:0, k:4, m:"Cezayir",
-  s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1839-05-13",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1839-05-13",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1839-05-13", k:"Ahmed Bey'in Konstantin beyliği"}] },
 
 { ad:"Kolo", tur:"liman", lat:37.000, lon:6.564, g:0, k:4, m:"Cezayir",
-  s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1838-10-13",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1838-10-13",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1838-10-13", k:"Ahmed Bey'in Konstantin beyliği"}] },
 
 { ad:"Sikikde", tur:"liman", lat:36.876, lon:6.909, g:0, k:4, m:"Cezayir",
-  s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1838-10-13",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1838-10-13",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1838-10-13", k:"Ahmed Bey'in Konstantin beyliği"}] },
 
 { ad:"Mîle", tur:"sehir", lat:36.450, lon:6.264, g:0, k:4, m:"Cezayir",
-  s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1837-10-13",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1837-10-13",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1837-10-13", k:"Ahmed Bey'in Konstantin beyliği"}] },
 
 { ad:"Kalme (Guelma)", tur:"sehir", lat:36.462, lon:7.426, g:0, k:4, m:"Cezayir",
-  s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1837-10-13",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1837-10-13",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1837-10-13", k:"Ahmed Bey'in Konstantin beyliği"}] },
 
 { ad:"Sûk Ahrâs", tur:"sehir", lat:36.286, lon:7.951, g:0, k:4, m:"Cezayir",
-  s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1844-03-04",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1844-03-04",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1844-03-04", k:"Ahmed Bey'in Konstantin beyliği"}] },
 
 { ad:"Tebesse", tur:"sehir", lat:35.404, lon:8.124, g:0, k:4, m:"Cezayir",
-  s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1844-03-04",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1844-03-04",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1844-03-04", k:"Ahmed Bey'in Konstantin beyliği"}] },
 
 { ad:"Batna", tur:"sehir", lat:35.556, lon:6.178, g:0, k:4, m:"Cezayir",
-  s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1844-03-04",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1844-03-04",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1844-03-04", k:"Ahmed Bey'in Konstantin beyliği"}] },
 
 { ad:"Berc Bû Areric", tur:"sehir", lat:36.073, lon:4.761, g:0, k:4, m:"Cezayir",
-  s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1838-10-13",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1838-10-13",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1838-10-13", k:"Ahmed Bey'in Konstantin beyliği"}] },
 
 { ad:"Mesîle", tur:"sehir", lat:35.705, lon:4.542, g:0, k:4, m:"Cezayir",
-  s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1832-11-22",t:"1844-03-04",d:"abdulkadir"},{f:"1844-03-04",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1832-11-22",t:"1844-03-04",d:"abdulkadir"},{f:"1844-03-04",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1832-11-22", k:"Osmanlı hükümranlık iddiası (ocaklık lağvedildi)"}] },
 
 { ad:"Bû Sa'âde", tur:"sehir", lat:35.212, lon:4.177, g:0, k:4, m:"Cezayir",
-  s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1832-11-22",t:"1844-03-04",d:"abdulkadir"},{f:"1844-03-04",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1832-11-22",t:"1844-03-04",d:"abdulkadir"},{f:"1844-03-04",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1552-01-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1832-11-22", k:"Osmanlı hükümranlık iddiası (ocaklık lağvedildi)"}] },
 
 // Sahra'nın kuzey eşiğindeki iki vaha kasabası. Gerçek düşüşleri 1852-12-04
 // (Ağvât) ve 1882 (Mîzâb) — ikisi de Tuggurt kırılmasına (1854-12-02)
 // yuvarlandı; başka kapsanan tarih yok.
 { ad:"Ağvât", tur:"sehir", lat:33.800, lon:2.865, g:0, k:4, m:"Cezayir",
-  s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1852-12-04",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1852-12-04",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1552-01-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1852-12-04", k:"Sahra vahalarının özerk idaresi"}] },
 
 { ad:"Gardâye", tur:"sehir", lat:32.490, lon:3.673, g:0, k:4, m:"Cezayir",
-  s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1852-12-04",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1852-12-04",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1552-01-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1852-12-04", k:"Sahra vahalarının özerk idaresi"}] },
 
 // ===========================================================================
@@ -735,7 +735,7 @@ window.YERLESIMLER_AFRIKA = [
 // Fransız himayesi 1884'te kuruldu; GÜN DOĞRULANAMADI, bu yüzden proje
 // kuralına göre YYYY-01-01 yazıldı (mevcut Zeyla kaydıyla aynı desen).
 { ad:"Tacûra", tur:"liman", lat:11.788, lon:42.882, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1884-01-01",d:"adal"},{f:"1884-01-01",t:"1923-10-29",d:"fransa"}], d:[] },
+  s:[{f:"1281-01-01",t:"1884-01-01",d:"adal"},{f:"1884-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}], d:[] },
 
 // ===========================================================================
 // 9) SOMALİ KIYISI

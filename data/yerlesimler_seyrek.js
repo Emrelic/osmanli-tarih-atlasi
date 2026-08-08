@@ -84,7 +84,7 @@ window.YERLESIMLER_SEYREK = [
 //    söylüyor; bu İDARÎ bir kademe değişimi, SAHİPLİK değişimi değil —
 //    m: alanı bu yüzden "Şam"da bırakıldı, dönem açılmadı.
 { ad:"Tedmür (Palmyra)", tur:"sehir", lat:34.550, lon:38.270, g:0, k:4, m:"Şam",
-  s:[{f:"1281-01-01",t:"1516-09-27",d:"memluk"},{f:"1918-10-01",t:"1923-10-29",d:"fransa"}],
+  s:[{f:"1281-01-01",t:"1516-09-27",d:"memluk"},{f:"1918-10-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1516-09-27",t:"1918-10-01"}],
   v:[{f:"1832-06-15",t:"1841-02-25",k:"Mısır (İbrâhim Paşa)"}] },
 
@@ -143,7 +143,7 @@ window.YERLESIMLER_SEYREK = [
 // 📌 `d:`/`v:` yok ⇒ kırılma üretmiyor. Etki: 49K/47D'de en yakın nokta
 //    185 km → 37 km (5,1× yakın).
 { ad:"Rın kumulları (Volga-Yayık arası)", tur:"bolge", lat:49.000, lon:47.500, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1556-01-01",d:"altinorda"},{f:"1556-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1556-01-01",d:"nogay"},{f:"1556-01-01",t:"1923-10-29",d:"rusya"}] },
 
 // =====================================================================
 // PARTİ 2b — RUMELİ / ANADOLU · kullanıcı maddelerinin coğrafyası

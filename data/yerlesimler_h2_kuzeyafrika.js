@@ -186,7 +186,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // seferiyle girdi (Lalla Fatma N'Sûmer'in esir alınışı, Temmuz 1857).
   { ad:"Tîzî Vezzû (Kabiliye)", tur:"sehir", lat:36.712, lon:4.047, g:0, k:4, m:"Cezayir",
     s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},
-       {f:"1857-07-11",t:"1923-10-29",d:"fransa"}],
+       {f:"1857-07-11",t:"1923-10-29",d:"fransa-cumhuriyet"}],
     d:[{f:"1519-09-01",t:"1671-01-01"}],
     v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)"},
        {f:"1830-07-05",t:"1857-07-11",k:"Kabiliye'nin fiilî özerkliği"}] },
@@ -194,7 +194,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // Kal'a-i Benî Abbâs'ın (Ait Abbas) bölgesi.
   { ad:"Akbû (Benî Abbâs)", tur:"kale", lat:36.457, lon:4.531, g:0, k:4, m:"Cezayir",
     s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},
-       {f:"1857-07-11",t:"1923-10-29",d:"fransa"}],
+       {f:"1857-07-11",t:"1923-10-29",d:"fransa-cumhuriyet"}],
     d:[{f:"1519-09-01",t:"1671-01-01"}],
     v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)"},
        {f:"1830-07-05",t:"1857-07-11",k:"Kabiliye'nin fiilî özerkliği"}] },
@@ -205,7 +205,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   { ad:"Tâhert (Tiaret)", tur:"sehir", lat:35.371, lon:1.322, g:0, k:4, m:"Cezayir",
     s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},
        {f:"1832-11-22",t:"1841-01-01",d:"abdulkadir"},
-       {f:"1841-01-01",t:"1923-10-29",d:"fransa"}],
+       {f:"1841-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
     d:[{f:"1552-01-01",t:"1671-01-01"}],
     v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)"},
        {f:"1830-07-05",t:"1832-11-22",k:"Osmanlı hükümranlık iddiası (ocaklık lağvedildi)"}] },
@@ -215,7 +215,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // güzergâhındadır; o yüzden Ağvât/Gardâye'nin tarihini paylaşır.
   { ad:"Cilfe (Djelfa)", tur:"sehir", lat:34.673, lon:3.263, g:0, k:4, m:"Cezayir",
     s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},
-       {f:"1852-12-04",t:"1923-10-29",d:"fransa"}],
+       {f:"1852-12-04",t:"1923-10-29",d:"fransa-cumhuriyet"}],
     d:[{f:"1519-09-01",t:"1671-01-01"}],
     v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)"},
        {f:"1830-07-05",t:"1852-12-04",k:"Sahra vahalarının özerk idaresi"}] },
@@ -226,7 +226,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   //    Tuggurt'un kayıtlı 1854-12-02 tarihi de aynı seferdendir.
   { ad:"Vargla (Ouargla)", tur:"sehir", lat:31.949, lon:5.325, g:0, k:4, m:"Cezayir",
     s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},
-       {f:"1854-11-23",t:"1923-10-29",d:"fransa"}],
+       {f:"1854-11-23",t:"1923-10-29",d:"fransa-cumhuriyet"}],
     d:[{f:"1552-01-01",t:"1671-01-01"}],
     v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)"},
        {f:"1830-07-05",t:"1854-11-23",k:"Sahra vahalarının özerk idaresi"}] },
@@ -235,7 +235,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // eğdi, o yüzden Tuggurt'un kayıtlı tarihini paylaşır: YENİ TARİH YOK.
   { ad:"el-Vâdî (Sûf)", tur:"sehir", lat:33.368, lon:6.867, g:0, k:4, m:"Cezayir",
     s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},
-       {f:"1854-12-02",t:"1923-10-29",d:"fransa"}],
+       {f:"1854-12-02",t:"1923-10-29",d:"fransa-cumhuriyet"}],
     d:[{f:"1552-01-01",t:"1671-01-01"}],
     v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)"},
        {f:"1830-07-05",t:"1854-12-02",k:"Sahra vahalarının özerk idaresi"}] },
@@ -243,14 +243,14 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // Evrâs (Aurès) dağları — Batna ile Tebesse'nin 1844-03-04 kümesinde.
   { ad:"Hanşele (Khenchela)", tur:"sehir", lat:35.436, lon:7.144, g:0, k:4, m:"Cezayir",
     s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},
-       {f:"1844-03-04",t:"1923-10-29",d:"fransa"}],
+       {f:"1844-03-04",t:"1923-10-29",d:"fransa-cumhuriyet"}],
     d:[{f:"1519-09-01",t:"1671-01-01"}],
     v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)"},
        {f:"1830-07-05",t:"1844-03-04",k:"Ahmed Bey'in Konstantin beyliği"}] },
 
   { ad:"Aynı Beydâ", tur:"sehir", lat:35.796, lon:7.393, g:0, k:4, m:"Cezayir",
     s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},
-       {f:"1844-03-04",t:"1923-10-29",d:"fransa"}],
+       {f:"1844-03-04",t:"1923-10-29",d:"fransa-cumhuriyet"}],
     d:[{f:"1519-09-01",t:"1671-01-01"}],
     v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)"},
        {f:"1830-07-05",t:"1844-03-04",k:"Ahmed Bey'in Konstantin beyliği"}] },
@@ -264,25 +264,25 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // protestosuyla karşılandı. ⇒ `fas`, sonra `fransa`.
   { ad:"Advâr (Tuvât)", tur:"sehir", lat:27.874, lon:-0.294, g:0, k:0, m:null,
     s:[{f:"1281-01-01",t:"1901-02-21",d:"fas"},
-       {f:"1901-02-21",t:"1923-10-29",d:"fransa"}], d:[], v:[] },
+       {f:"1901-02-21",t:"1923-10-29",d:"fransa-cumhuriyet"}], d:[], v:[] },
 
   { ad:"Tîmîmûn (Gûrâre)", tur:"sehir", lat:29.256, lon:0.231, g:0, k:0, m:null,
     s:[{f:"1281-01-01",t:"1901-02-21",d:"fas"},
-       {f:"1901-02-21",t:"1923-10-29",d:"fransa"}], d:[], v:[] },
+       {f:"1901-02-21",t:"1923-10-29",d:"fransa-cumhuriyet"}], d:[], v:[] },
 
   // Tîdîkelt'in merkezi. Fransızlar 29 Aralık 1899'da işgal etti —
   // kümenin geri kalanından 14 ay önce, o yüzden AYRI tarih.
   { ad:"Aynı Sâlih (Tîdîkelt)", tur:"sehir", lat:27.194, lon:2.480, g:0, k:0, m:null,
     s:[{f:"1281-01-01",t:"1899-12-29",d:"fas"},
-       {f:"1899-12-29",t:"1923-10-29",d:"fransa"}], d:[], v:[] },
+       {f:"1899-12-29",t:"1923-10-29",d:"fransa-cumhuriyet"}], d:[], v:[] },
 
   { ad:"Reggân", tur:"sehir", lat:26.719, lon:0.170, g:0, k:0, m:null,
     s:[{f:"1281-01-01",t:"1901-02-21",d:"fas"},
-       {f:"1901-02-21",t:"1923-10-29",d:"fransa"}], d:[], v:[] },
+       {f:"1901-02-21",t:"1923-10-29",d:"fransa-cumhuriyet"}], d:[], v:[] },
 
   { ad:"Benî Abbâs (Sâvre)", tur:"sehir", lat:30.130, lon:-2.170, g:0, k:0, m:null,
     s:[{f:"1281-01-01",t:"1901-02-21",d:"fas"},
-       {f:"1901-02-21",t:"1923-10-29",d:"fransa"}], d:[], v:[] },
+       {f:"1901-02-21",t:"1923-10-29",d:"fransa-cumhuriyet"}], d:[], v:[] },
 
   // Zûsfâne-Sâvre havzası. Lyautey'in Cebel-i Beşşâr'ın batısına kurdurduğu
   // karakol **11 Kasım 1903**'te tesis edildi ve "Colomb-Béchar" adını aldı.
@@ -292,7 +292,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   //    (±30 gün penceresi aynı), ama YAZILAN TARİH DOĞRU OLMAK ZORUNDA.
   { ad:"Beşşâr (Béchar)", tur:"sehir", lat:31.617, lon:-2.216, g:0, k:0, m:null,
     s:[{f:"1281-01-01",t:"1903-11-11",d:"fas"},
-       {f:"1903-11-11",t:"1923-10-29",d:"fransa"}], d:[], v:[] },
+       {f:"1903-11-11",t:"1923-10-29",d:"fransa-cumhuriyet"}], d:[], v:[] },
 
 
   // ---------------------------------------------------------------------
@@ -306,57 +306,57 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // düşüyordu. Maskenin gösterdiği en yakın kara noktası kullanıldı.
   { ad:"Ğâru'l-Melh (Porto Farina)", tur:"liman", lat:37.177, lon:10.191, g:0, k:4, m:"Tunus",
     s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},
-       {f:"1881-05-12",t:"1923-10-29",d:"fransa"}],
+       {f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
     d:[{f:"1574-08-25",t:"1705-07-17"}],
     v:[{f:"1705-07-17",t:"1881-05-12",k:"Tunus Ocaklığı (Hüseynîler)"}] },
 
   // 1609 Endülüs sürgünlerinin kurduğu Mecerde vadisi kasabası.
   { ad:"Testûr", tur:"sehir", lat:36.556, lon:9.442, g:0, k:4, m:"Tunus",
     s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},
-       {f:"1881-05-12",t:"1923-10-29",d:"fransa"}],
+       {f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
     d:[{f:"1574-08-25",t:"1705-07-17"}],
     v:[{f:"1705-07-17",t:"1881-05-12",k:"Tunus Ocaklığı (Hüseynîler)"}] },
 
   { ad:"Ğar Dimâv", tur:"sehir", lat:36.450, lon:8.435, g:0, k:4, m:"Tunus",
     s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},
-       {f:"1881-05-12",t:"1923-10-29",d:"fransa"}],
+       {f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
     d:[{f:"1574-08-25",t:"1705-07-17"}],
     v:[{f:"1705-07-17",t:"1881-05-12",k:"Tunus Ocaklığı (Hüseynîler)"}] },
 
   { ad:"Mekter (Maktar)", tur:"sehir", lat:35.855, lon:9.203, g:0, k:4, m:"Tunus",
     s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},
-       {f:"1881-05-12",t:"1923-10-29",d:"fransa"}],
+       {f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
     d:[{f:"1574-08-25",t:"1705-07-17"}],
     v:[{f:"1705-07-17",t:"1881-05-12",k:"Tunus Ocaklığı (Hüseynîler)"}] },
 
   { ad:"Sübaytıla", tur:"sehir", lat:35.235, lon:9.120, g:0, k:4, m:"Tunus",
     s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},
-       {f:"1881-05-12",t:"1923-10-29",d:"fransa"}],
+       {f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
     d:[{f:"1574-08-25",t:"1705-07-17"}],
     v:[{f:"1705-07-17",t:"1881-05-12",k:"Tunus Ocaklığı (Hüseynîler)"}] },
 
   { ad:"Sîdî Bû Zeyd", tur:"sehir", lat:35.038, lon:9.485, g:0, k:4, m:"Tunus",
     s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},
-       {f:"1881-05-12",t:"1923-10-29",d:"fransa"}],
+       {f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
     d:[{f:"1574-08-25",t:"1705-07-17"}],
     v:[{f:"1705-07-17",t:"1881-05-12",k:"Tunus Ocaklığı (Hüseynîler)"}] },
 
   { ad:"Metlâvî", tur:"sehir", lat:34.320, lon:8.400, g:0, k:4, m:"Tunus",
     s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},
-       {f:"1881-05-12",t:"1923-10-29",d:"fransa"}],
+       {f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
     d:[{f:"1574-08-25",t:"1705-07-17"}],
     v:[{f:"1705-07-17",t:"1881-05-12",k:"Tunus Ocaklığı (Hüseynîler)"}] },
 
   // Nefzâve vahaları — Şott el-Cerîd'in güney kıyısı, noktasızdı.
   { ad:"Kıbillî (Nefzâve)", tur:"sehir", lat:33.704, lon:8.969, g:0, k:4, m:"Tunus",
     s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},
-       {f:"1881-05-12",t:"1923-10-29",d:"fransa"}],
+       {f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
     d:[{f:"1574-08-25",t:"1705-07-17"}],
     v:[{f:"1705-07-17",t:"1881-05-12",k:"Tunus Ocaklığı (Hüseynîler)"}] },
 
   { ad:"Dûz", tur:"sehir", lat:33.466, lon:9.020, g:0, k:4, m:"Tunus",
     s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},
-       {f:"1881-05-12",t:"1923-10-29",d:"fransa"}],
+       {f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
     d:[{f:"1574-08-25",t:"1705-07-17"}],
     v:[{f:"1705-07-17",t:"1881-05-12",k:"Tunus Ocaklığı (Hüseynîler)"}] },
 

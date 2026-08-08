@@ -126,81 +126,81 @@ window.YERLESIMLER_AVRUPA = [
 
 // ── FRANSA: Bretanya (B-7'nin doğrudan kapanışı) ───────────────────────────
 // Bretanya Dükalığı 1532-08-13 birlik fermanına (Vannes) kadar ayrı devlet
-{ ad:"Rennes", tur:"sehir", lat:48.114, lon:-1.680, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1532-08-13",d:"bretanya"},{f:"1532-08-13",t:"1923-10-29",d:"fransa"}] },
-{ ad:"Nantes", tur:"liman", lat:47.218, lon:-1.554, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1532-08-13",d:"bretanya"},{f:"1532-08-13",t:"1923-10-29",d:"fransa"}] },
-{ ad:"Brest", tur:"liman", lat:48.390, lon:-4.486, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1532-08-13",d:"bretanya"},{f:"1532-08-13",t:"1923-10-29",d:"fransa"}] },
-{ ad:"Quimper", tur:"sehir", lat:47.996, lon:-4.102, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1532-08-13",d:"bretanya"},{f:"1532-08-13",t:"1923-10-29",d:"fransa"}] },
-{ ad:"Vannes", tur:"liman", lat:47.658, lon:-2.760, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1532-08-13",d:"bretanya"},{f:"1532-08-13",t:"1923-10-29",d:"fransa"}] },
-{ ad:"Saint-Malo", tur:"liman", lat:48.6479, lon:-2.0242, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1532-08-13",d:"bretanya"},{f:"1532-08-13",t:"1923-10-29",d:"fransa"}] },
+{ ad:"Rennes", tur:"sehir", lat:48.114, lon:-1.680, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1532-08-13",d:"bretanya"},{f:"1532-08-13",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
+{ ad:"Nantes", tur:"liman", lat:47.218, lon:-1.554, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1532-08-13",d:"bretanya"},{f:"1532-08-13",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
+{ ad:"Brest", tur:"liman", lat:48.390, lon:-4.486, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1532-08-13",d:"bretanya"},{f:"1532-08-13",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
+{ ad:"Quimper", tur:"sehir", lat:47.996, lon:-4.102, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1532-08-13",d:"bretanya"},{f:"1532-08-13",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
+{ ad:"Vannes", tur:"liman", lat:47.658, lon:-2.760, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1532-08-13",d:"bretanya"},{f:"1532-08-13",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
+{ ad:"Saint-Malo", tur:"liman", lat:48.6479, lon:-2.0242, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1532-08-13",d:"bretanya"},{f:"1532-08-13",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
 
 // ── FRANSA: Normandiya ve Manş kıyısı (Yüzyıl Savaşları pencereleriyle) ────
-{ ad:"Rouen", tur:"sehir", lat:49.443, lon:1.099, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1419-01-19",d:"fransa"},{f:"1419-01-19",t:"1449-10-29",d:"ingiltere"},{f:"1449-10-29",t:"1923-10-29",d:"fransa"}] },
-{ ad:"Caen", tur:"sehir", lat:49.183, lon:-0.370, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1417-09-04",d:"fransa"},{f:"1417-09-04",t:"1450-06-24",d:"ingiltere"},{f:"1450-06-24",t:"1923-10-29",d:"fransa"}] },
-{ ad:"Cherbourg", tur:"liman", lat:49.640, lon:-1.616, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1418-09-29",d:"fransa"},{f:"1418-09-29",t:"1450-08-12",d:"ingiltere"},{f:"1450-08-12",t:"1923-10-29",d:"fransa"}] },
+{ ad:"Rouen", tur:"sehir", lat:49.443, lon:1.099, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1419-01-19",d:"fransa"},{f:"1419-01-19",t:"1449-10-29",d:"ingiltere"},{f:"1449-10-29",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
+{ ad:"Caen", tur:"sehir", lat:49.183, lon:-0.370, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1417-09-04",d:"fransa"},{f:"1417-09-04",t:"1450-06-24",d:"ingiltere"},{f:"1450-06-24",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
+{ ad:"Cherbourg", tur:"liman", lat:49.640, lon:-1.616, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1418-09-29",d:"fransa"},{f:"1418-09-29",t:"1450-08-12",d:"ingiltere"},{f:"1450-08-12",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
 // Le Havre 1517'de I. François tarafından kuruldu
-{ ad:"Le Havre", tur:"liman", lat:49.494, lon:0.108, g:0, k:0, kur:"1517-01-01", d:[], s:[{f:"1517-01-01",t:"1923-10-29",d:"fransa"}] },
+{ ad:"Le Havre", tur:"liman", lat:49.494, lon:0.108, g:0, k:0, kur:"1517-01-01", d:[], s:[{f:"1517-01-01",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
 // Calais 1347-1558 arası İngiliz
-{ ad:"Calais", tur:"liman", lat:50.951, lon:1.858, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1347-08-03",d:"fransa"},{f:"1347-08-03",t:"1558-01-07",d:"ingiltere"},{f:"1558-01-07",t:"1923-10-29",d:"fransa"}] },
+{ ad:"Calais", tur:"liman", lat:50.951, lon:1.858, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1347-08-03",d:"fransa"},{f:"1347-08-03",t:"1558-01-07",d:"ingiltere"},{f:"1558-01-07",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
 // Somme kasabaları 1435 (Arras) - 1477 (Cesur Charles'ın ölümü) arası Burgonya'da
-{ ad:"Amiens", tur:"sehir", lat:49.895, lon:2.302, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1435-09-21",d:"fransa"},{f:"1435-09-21",t:"1477-01-05",d:"burgonya"},{f:"1477-01-05",t:"1923-10-29",d:"fransa"}] },
+{ ad:"Amiens", tur:"sehir", lat:49.895, lon:2.302, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1435-09-21",d:"fransa"},{f:"1435-09-21",t:"1477-01-05",d:"burgonya"},{f:"1477-01-05",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
 // Artois: 1384 Burgonya mirası, 1482 Habsburg, 1659 (Pirene) Fransa
-{ ad:"Arras", tur:"sehir", lat:50.291, lon:2.777, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1384-01-30",d:"fransa"},{f:"1384-01-30",t:"1482-03-27",d:"burgonya"},{f:"1482-03-27",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1659-11-07",d:"ispanya"},{f:"1659-11-07",t:"1923-10-29",d:"fransa"}] },
+{ ad:"Arras", tur:"sehir", lat:50.291, lon:2.777, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1384-01-30",d:"fransa"},{f:"1384-01-30",t:"1482-03-27",d:"burgonya"},{f:"1482-03-27",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1659-11-07",d:"ispanya"},{f:"1659-11-07",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
 // Lille: 1369 Burgonya çeyizi, 1668 (Aachen) Fransa
-{ ad:"Lille", tur:"sehir", lat:50.633, lon:3.059, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1369-06-19",d:"fransa"},{f:"1369-06-19",t:"1482-03-27",d:"burgonya"},{f:"1482-03-27",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1668-05-02",d:"ispanya"},{f:"1668-05-02",t:"1923-10-29",d:"fransa"}] },
+{ ad:"Lille", tur:"sehir", lat:50.633, lon:3.059, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1369-06-19",d:"fransa"},{f:"1369-06-19",t:"1482-03-27",d:"burgonya"},{f:"1482-03-27",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1668-05-02",d:"ispanya"},{f:"1668-05-02",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
 
 // ── FRANSA: iç bölgeler ────────────────────────────────────────────────────
 // Reims ve Troyes 1420 (Troyes Antlaşması) - 1429 (VII. Charles'ın Reims yürüyüşü)
 // arası İngiliz-Burgonya idaresinde
-{ ad:"Reims", tur:"sehir", lat:49.258, lon:4.031, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1420-05-21",d:"fransa"},{f:"1420-05-21",t:"1429-07-16",d:"ingiltere"},{f:"1429-07-16",t:"1923-10-29",d:"fransa"}] },
-{ ad:"Troyes", tur:"sehir", lat:48.297, lon:4.074, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1420-05-21",d:"fransa"},{f:"1420-05-21",t:"1429-07-10",d:"ingiltere"},{f:"1429-07-10",t:"1923-10-29",d:"fransa"}] },
-{ ad:"Orléans", tur:"sehir", lat:47.902, lon:1.909, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"fransa"}] },
-{ ad:"Tours", tur:"sehir", lat:47.394, lon:0.685, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"fransa"}] },
-{ ad:"Bourges", tur:"sehir", lat:47.081, lon:2.399, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"fransa"}] },
-{ ad:"Angers", tur:"sehir", lat:47.474, lon:-0.554, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"fransa"}] },
-{ ad:"Le Mans", tur:"sehir", lat:48.006, lon:0.199, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"fransa"}] },
-{ ad:"Poitiers", tur:"sehir", lat:46.580, lon:0.340, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"fransa"}] },
-{ ad:"Clermont-Ferrand", tur:"sehir", lat:45.777, lon:3.087, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"fransa"}] },
-{ ad:"Périgueux", tur:"sehir", lat:45.184, lon:0.721, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"fransa"}] },
-{ ad:"Cahors", tur:"sehir", lat:44.448, lon:1.441, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"fransa"}] },
-{ ad:"Toulouse", tur:"sehir", lat:43.604, lon:1.444, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"fransa"}] },
+{ ad:"Reims", tur:"sehir", lat:49.258, lon:4.031, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1420-05-21",d:"fransa"},{f:"1420-05-21",t:"1429-07-16",d:"ingiltere"},{f:"1429-07-16",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
+{ ad:"Troyes", tur:"sehir", lat:48.297, lon:4.074, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1420-05-21",d:"fransa"},{f:"1420-05-21",t:"1429-07-10",d:"ingiltere"},{f:"1429-07-10",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
+{ ad:"Orléans", tur:"sehir", lat:47.902, lon:1.909, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
+{ ad:"Tours", tur:"sehir", lat:47.394, lon:0.685, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
+{ ad:"Bourges", tur:"sehir", lat:47.081, lon:2.399, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
+{ ad:"Angers", tur:"sehir", lat:47.474, lon:-0.554, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
+{ ad:"Le Mans", tur:"sehir", lat:48.006, lon:0.199, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
+{ ad:"Poitiers", tur:"sehir", lat:46.580, lon:0.340, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
+{ ad:"Clermont-Ferrand", tur:"sehir", lat:45.777, lon:3.087, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
+{ ad:"Périgueux", tur:"sehir", lat:45.184, lon:0.721, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
+{ ad:"Cahors", tur:"sehir", lat:44.448, lon:1.441, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
+{ ad:"Toulouse", tur:"sehir", lat:43.604, lon:1.444, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
 // Brétigny (1360) ile İngiltere'ye geçen Atlantik kıyısı parçaları
-{ ad:"La Rochelle", tur:"liman", lat:46.160, lon:-1.152, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1360-10-24",d:"fransa"},{f:"1360-10-24",t:"1372-09-08",d:"ingiltere"},{f:"1372-09-08",t:"1923-10-29",d:"fransa"}] },
-{ ad:"Limoges", tur:"sehir", lat:45.834, lon:1.262, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1360-10-24",d:"fransa"},{f:"1360-10-24",t:"1370-01-01",d:"ingiltere"},{f:"1370-01-01",t:"1923-10-29",d:"fransa"}] },
+{ ad:"La Rochelle", tur:"liman", lat:46.160, lon:-1.152, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1360-10-24",d:"fransa"},{f:"1360-10-24",t:"1372-09-08",d:"ingiltere"},{f:"1372-09-08",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
+{ ad:"Limoges", tur:"sehir", lat:45.834, lon:1.262, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1360-10-24",d:"fransa"},{f:"1360-10-24",t:"1370-01-01",d:"ingiltere"},{f:"1370-01-01",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
 // Gaskonya 1281'de Plantagenet toprağı; Bayonne 1451'de düştü
-{ ad:"Bayonne", tur:"liman", lat:43.493, lon:-1.475, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1451-08-20",d:"ingiltere"},{f:"1451-08-20",t:"1923-10-29",d:"fransa"}] },
+{ ad:"Bayonne", tur:"liman", lat:43.493, lon:-1.475, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1451-08-20",d:"ingiltere"},{f:"1451-08-20",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
 // Béarn-Navarra: 1479'da Foix-Béarn hattı Navarra tacını aldı, 1620 fermanıyla Fransa'ya katıldı
-{ ad:"Pau", tur:"sehir", lat:43.296, lon:-0.370, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1479-01-01",d:"fransa"},{f:"1479-01-01",t:"1620-10-19",d:"navarra"},{f:"1620-10-19",t:"1923-10-29",d:"fransa"}] },
+{ ad:"Pau", tur:"sehir", lat:43.296, lon:-0.370, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1479-01-01",d:"fransa"},{f:"1479-01-01",t:"1620-10-19",d:"navarra"},{f:"1620-10-19",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
 
 // ── FRANSA: doğu sınırı (Burgonya, Lorraine, Alsace, Franche-Comté) ────────
-{ ad:"Dijon", tur:"sehir", lat:47.322, lon:5.041, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1477-01-05",d:"burgonya"},{f:"1477-01-05",t:"1923-10-29",d:"fransa"}] },
+{ ad:"Dijon", tur:"sehir", lat:47.322, lon:5.041, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1477-01-05",d:"burgonya"},{f:"1477-01-05",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
 // Franche-Comté: imparatorluk kontluğu, Habsburg mirası, 1678 (Nijmegen) Fransa
-{ ad:"Besançon", tur:"sehir", lat:47.238, lon:6.024, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1678-09-17",d:"ispanya"},{f:"1678-09-17",t:"1923-10-29",d:"fransa"}] },
+{ ad:"Besançon", tur:"sehir", lat:47.238, lon:6.024, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1678-09-17",d:"ispanya"},{f:"1678-09-17",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
 // Metz: serbest imparatorluk şehri, 1552'de II. Henri, 1871-1919 Alman
-{ ad:"Metz", tur:"sehir", lat:49.120, lon:6.176, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1552-04-18",d:"almanya"},{f:"1552-04-18",t:"1871-05-10",d:"fransa"},{f:"1871-05-10",t:"1919-06-28",d:"almanya"},{f:"1919-06-28",t:"1923-10-29",d:"fransa"}] },
+{ ad:"Metz", tur:"sehir", lat:49.120, lon:6.176, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1552-04-18",d:"almanya"},{f:"1552-04-18",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1871-05-10",d:"fransa-cumhuriyet"},{f:"1871-05-10",t:"1919-06-28",d:"almanya"},{f:"1919-06-28",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
 // Lorraine Dükalığı 1766'da (Stanisław'ın ölümü) Fransa'ya katıldı; 1871'de Fransız kaldı
-{ ad:"Nancy", tur:"sehir", lat:48.692, lon:6.184, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1766-02-23",d:"almanya"},{f:"1766-02-23",t:"1923-10-29",d:"fransa"}] },
-{ ad:"Strazburg", tur:"sehir", lat:48.573, lon:7.752, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1681-09-30",d:"almanya"},{f:"1681-09-30",t:"1871-05-10",d:"fransa"},{f:"1871-05-10",t:"1919-06-28",d:"almanya"},{f:"1919-06-28",t:"1923-10-29",d:"fransa"}] },
-{ ad:"Colmar", tur:"sehir", lat:48.079, lon:7.358, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1648-10-24",d:"almanya"},{f:"1648-10-24",t:"1871-05-10",d:"fransa"},{f:"1871-05-10",t:"1919-06-28",d:"almanya"},{f:"1919-06-28",t:"1923-10-29",d:"fransa"}] },
+{ ad:"Nancy", tur:"sehir", lat:48.692, lon:6.184, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1766-02-23",d:"almanya"},{f:"1766-02-23",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
+{ ad:"Strazburg", tur:"sehir", lat:48.573, lon:7.752, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1681-09-30",d:"almanya"},{f:"1681-09-30",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1871-05-10",d:"fransa-cumhuriyet"},{f:"1871-05-10",t:"1919-06-28",d:"almanya"},{f:"1919-06-28",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
+{ ad:"Colmar", tur:"sehir", lat:48.079, lon:7.358, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1648-10-24",d:"almanya"},{f:"1648-10-24",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1871-05-10",d:"fransa-cumhuriyet"},{f:"1871-05-10",t:"1919-06-28",d:"almanya"},{f:"1919-06-28",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
 // Mulhouse 1515-1798 arası İsviçre Konfederasyonu'na bağlı şehir cumhuriyeti
-{ ad:"Mulhouse", tur:"sehir", lat:47.750, lon:7.340, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1515-01-01",d:"almanya"},{f:"1515-01-01",t:"1798-03-15",d:"isvicre"},{f:"1798-03-15",t:"1871-05-10",d:"fransa"},{f:"1871-05-10",t:"1919-06-28",d:"almanya"},{f:"1919-06-28",t:"1923-10-29",d:"fransa"}] },
+{ ad:"Mulhouse", tur:"sehir", lat:47.750, lon:7.340, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1515-01-01",d:"almanya"},{f:"1515-01-01",t:"1798-03-15",d:"isvicre"},{f:"1798-03-15",t:"1871-05-10",d:"fransa-cumhuriyet"},{f:"1871-05-10",t:"1919-06-28",d:"almanya"},{f:"1919-06-28",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
 
 // ── FRANSA: güneydoğu (Provence, Dauphiné, Savoya, Akdeniz) ────────────────
 // Provence 1481'e kadar Anjou kontluğu — mevcut Marsilya kaydı gibi fransa'ya
 // sadeleştirildi (bkz. ILERLEME); Dauphiné (1349 devri) aynı şekilde.
-{ ad:"Aix-en-Provence", tur:"sehir", lat:43.530, lon:5.447, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"fransa"}] },
-{ ad:"Toulon", tur:"liman", lat:43.1222, lon:5.9384, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"fransa"}] },
-{ ad:"Grenoble", tur:"sehir", lat:45.188, lon:5.724, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"fransa"}] },
+{ ad:"Aix-en-Provence", tur:"sehir", lat:43.530, lon:5.447, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
+{ ad:"Toulon", tur:"liman", lat:43.1222, lon:5.9384, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
+{ ad:"Grenoble", tur:"sehir", lat:45.188, lon:5.724, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
 // Avignon 1348'de Papalığa satıldı, 1791'de Fransa ilhak etti
-{ ad:"Avignon", tur:"sehir", lat:43.949, lon:4.806, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1348-06-09",d:"fransa"},{f:"1348-06-09",t:"1791-09-14",d:"papalik"},{f:"1791-09-14",t:"1923-10-29",d:"fransa"}] },
+{ ad:"Avignon", tur:"sehir", lat:43.949, lon:4.806, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1348-06-09",d:"fransa"},{f:"1348-06-09",t:"1791-09-14",d:"papalik"},{f:"1791-09-14",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
 // Nice 1388'de Savoya'ya geçti (dedition), 1860'ta Fransa'ya; Savoya = sardinya
 // kimliği (mevcut Torino kaydıyla aynı kullanım)
-{ ad:"Nice", tur:"liman", lat:43.710, lon:7.262, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1388-09-28",d:"fransa"},{f:"1388-09-28",t:"1860-06-14",d:"sardinya"},{f:"1860-06-14",t:"1923-10-29",d:"fransa"}] },
-{ ad:"Chambéry", tur:"sehir", lat:45.564, lon:5.918, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1860-06-14",d:"sardinya"},{f:"1860-06-14",t:"1923-10-29",d:"fransa"}] },
+{ ad:"Nice", tur:"liman", lat:43.710, lon:7.262, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1388-09-28",d:"fransa"},{f:"1388-09-28",t:"1860-06-14",d:"sardinya"},{f:"1860-06-14",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
+{ ad:"Chambéry", tur:"sehir", lat:45.564, lon:5.918, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1860-06-14",d:"sardinya"},{f:"1860-06-14",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
 // Montpellier 1349'da Mayorka-Aragon hattından Fransa'ya satıldı
-{ ad:"Montpellier", tur:"sehir", lat:43.611, lon:3.877, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1349-01-01",d:"aragon"},{f:"1349-01-01",t:"1923-10-29",d:"fransa"}] },
-{ ad:"Narbonne", tur:"sehir", lat:43.184, lon:3.003, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"fransa"}] },
+{ ad:"Montpellier", tur:"sehir", lat:43.611, lon:3.877, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1349-01-01",d:"aragon"},{f:"1349-01-01",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
+{ ad:"Narbonne", tur:"sehir", lat:43.184, lon:3.003, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
 // Roussillon: Aragon; 1463-1493 Fransız işgali (XI. Louis), 1659 (Pirene) kesin Fransız
-{ ad:"Perpignan", tur:"sehir", lat:42.699, lon:2.895, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1463-01-01",d:"aragon"},{f:"1463-01-01",t:"1493-01-19",d:"fransa"},{f:"1493-01-19",t:"1659-11-07",d:"ispanya"},{f:"1659-11-07",t:"1923-10-29",d:"fransa"}] },
+{ ad:"Perpignan", tur:"sehir", lat:42.699, lon:2.895, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1463-01-01",d:"aragon"},{f:"1463-01-01",t:"1493-01-19",d:"fransa"},{f:"1493-01-19",t:"1659-11-07",d:"ispanya"},{f:"1659-11-07",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
 
 // ── İBERYA: Kastilya (1479-01-20'de İspanya birliği) ───────────────────────
 { ad:"Toledo", tur:"sehir", lat:39.863, lon:-4.028, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},{f:"1479-01-20",t:"1923-10-29",d:"ispanya"}] },
@@ -347,19 +347,19 @@ window.YERLESIMLER_AVRUPA = [
 // Flander kontluğu 1384'e kadar Fransız tacına bağlı; sonra Burgonya → Habsburg
 // → İspanyol → Avusturya Hollandası → Fransız ilhakı → Birleşik Krallık
 // Hollandası → 1830 Belçika. Brabant aynı zincir, Burgonya'ya giriş 1430.
-{ ad:"Brüj (Brugge)", tur:"liman", lat:51.209, lon:3.225, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1384-01-30",d:"fransa"},{f:"1384-01-30",t:"1482-03-27",d:"burgonya"},{f:"1482-03-27",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1714-03-07",d:"ispanya"},{f:"1714-03-07",t:"1795-10-01",d:"avusturya"},{f:"1795-10-01",t:"1815-06-09",d:"fransa"},{f:"1815-06-09",t:"1830-10-04",d:"hollanda"},{f:"1830-10-04",t:"1923-10-29",d:"belcika"}] },
-{ ad:"Gent", tur:"sehir", lat:51.054, lon:3.717, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1384-01-30",d:"fransa"},{f:"1384-01-30",t:"1482-03-27",d:"burgonya"},{f:"1482-03-27",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1714-03-07",d:"ispanya"},{f:"1714-03-07",t:"1795-10-01",d:"avusturya"},{f:"1795-10-01",t:"1815-06-09",d:"fransa"},{f:"1815-06-09",t:"1830-10-04",d:"hollanda"},{f:"1830-10-04",t:"1923-10-29",d:"belcika"}] },
-{ ad:"Ypres", tur:"sehir", lat:50.851, lon:2.886, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1384-01-30",d:"fransa"},{f:"1384-01-30",t:"1482-03-27",d:"burgonya"},{f:"1482-03-27",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1714-03-07",d:"ispanya"},{f:"1714-03-07",t:"1795-10-01",d:"avusturya"},{f:"1795-10-01",t:"1815-06-09",d:"fransa"},{f:"1815-06-09",t:"1830-10-04",d:"hollanda"},{f:"1830-10-04",t:"1923-10-29",d:"belcika"}] },
-{ ad:"Anvers (Antwerpen)", tur:"liman", lat:51.220, lon:4.400, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1430-08-04",d:"almanya"},{f:"1430-08-04",t:"1482-03-27",d:"burgonya"},{f:"1482-03-27",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1714-03-07",d:"ispanya"},{f:"1714-03-07",t:"1795-10-01",d:"avusturya"},{f:"1795-10-01",t:"1815-06-09",d:"fransa"},{f:"1815-06-09",t:"1830-10-04",d:"hollanda"},{f:"1830-10-04",t:"1923-10-29",d:"belcika"}] },
-{ ad:"Brüksel", tur:"sehir", lat:50.847, lon:4.352, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1430-08-04",d:"almanya"},{f:"1430-08-04",t:"1482-03-27",d:"burgonya"},{f:"1482-03-27",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1714-03-07",d:"ispanya"},{f:"1714-03-07",t:"1795-10-01",d:"avusturya"},{f:"1795-10-01",t:"1815-06-09",d:"fransa"},{f:"1815-06-09",t:"1830-10-04",d:"hollanda"},{f:"1830-10-04",t:"1923-10-29",d:"belcika"}] },
-{ ad:"Namur", tur:"sehir", lat:50.467, lon:4.867, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1421-03-01",d:"almanya"},{f:"1421-03-01",t:"1482-03-27",d:"burgonya"},{f:"1482-03-27",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1714-03-07",d:"ispanya"},{f:"1714-03-07",t:"1795-10-01",d:"avusturya"},{f:"1795-10-01",t:"1815-06-09",d:"fransa"},{f:"1815-06-09",t:"1830-10-04",d:"hollanda"},{f:"1830-10-04",t:"1923-10-29",d:"belcika"}] },
-{ ad:"Mons", tur:"sehir", lat:50.454, lon:3.952, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1433-04-11",d:"almanya"},{f:"1433-04-11",t:"1482-03-27",d:"burgonya"},{f:"1482-03-27",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1714-03-07",d:"ispanya"},{f:"1714-03-07",t:"1795-10-01",d:"avusturya"},{f:"1795-10-01",t:"1815-06-09",d:"fransa"},{f:"1815-06-09",t:"1830-10-04",d:"hollanda"},{f:"1830-10-04",t:"1923-10-29",d:"belcika"}] },
+{ ad:"Brüj (Brugge)", tur:"liman", lat:51.209, lon:3.225, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1384-01-30",d:"fransa"},{f:"1384-01-30",t:"1482-03-27",d:"burgonya"},{f:"1482-03-27",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1714-03-07",d:"ispanya"},{f:"1714-03-07",t:"1795-10-01",d:"avusturya"},{f:"1795-10-01",t:"1815-06-09",d:"fransa-cumhuriyet"},{f:"1815-06-09",t:"1830-10-04",d:"hollanda"},{f:"1830-10-04",t:"1923-10-29",d:"belcika"}] },
+{ ad:"Gent", tur:"sehir", lat:51.054, lon:3.717, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1384-01-30",d:"fransa"},{f:"1384-01-30",t:"1482-03-27",d:"burgonya"},{f:"1482-03-27",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1714-03-07",d:"ispanya"},{f:"1714-03-07",t:"1795-10-01",d:"avusturya"},{f:"1795-10-01",t:"1815-06-09",d:"fransa-cumhuriyet"},{f:"1815-06-09",t:"1830-10-04",d:"hollanda"},{f:"1830-10-04",t:"1923-10-29",d:"belcika"}] },
+{ ad:"Ypres", tur:"sehir", lat:50.851, lon:2.886, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1384-01-30",d:"fransa"},{f:"1384-01-30",t:"1482-03-27",d:"burgonya"},{f:"1482-03-27",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1714-03-07",d:"ispanya"},{f:"1714-03-07",t:"1795-10-01",d:"avusturya"},{f:"1795-10-01",t:"1815-06-09",d:"fransa-cumhuriyet"},{f:"1815-06-09",t:"1830-10-04",d:"hollanda"},{f:"1830-10-04",t:"1923-10-29",d:"belcika"}] },
+{ ad:"Anvers (Antwerpen)", tur:"liman", lat:51.220, lon:4.400, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1430-08-04",d:"almanya"},{f:"1430-08-04",t:"1482-03-27",d:"burgonya"},{f:"1482-03-27",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1714-03-07",d:"ispanya"},{f:"1714-03-07",t:"1795-10-01",d:"avusturya"},{f:"1795-10-01",t:"1815-06-09",d:"fransa-cumhuriyet"},{f:"1815-06-09",t:"1830-10-04",d:"hollanda"},{f:"1830-10-04",t:"1923-10-29",d:"belcika"}] },
+{ ad:"Brüksel", tur:"sehir", lat:50.847, lon:4.352, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1430-08-04",d:"almanya"},{f:"1430-08-04",t:"1482-03-27",d:"burgonya"},{f:"1482-03-27",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1714-03-07",d:"ispanya"},{f:"1714-03-07",t:"1795-10-01",d:"avusturya"},{f:"1795-10-01",t:"1815-06-09",d:"fransa-cumhuriyet"},{f:"1815-06-09",t:"1830-10-04",d:"hollanda"},{f:"1830-10-04",t:"1923-10-29",d:"belcika"}] },
+{ ad:"Namur", tur:"sehir", lat:50.467, lon:4.867, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1421-03-01",d:"almanya"},{f:"1421-03-01",t:"1482-03-27",d:"burgonya"},{f:"1482-03-27",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1714-03-07",d:"ispanya"},{f:"1714-03-07",t:"1795-10-01",d:"avusturya"},{f:"1795-10-01",t:"1815-06-09",d:"fransa-cumhuriyet"},{f:"1815-06-09",t:"1830-10-04",d:"hollanda"},{f:"1830-10-04",t:"1923-10-29",d:"belcika"}] },
+{ ad:"Mons", tur:"sehir", lat:50.454, lon:3.952, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1433-04-11",d:"almanya"},{f:"1433-04-11",t:"1482-03-27",d:"burgonya"},{f:"1482-03-27",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1714-03-07",d:"ispanya"},{f:"1714-03-07",t:"1795-10-01",d:"avusturya"},{f:"1795-10-01",t:"1815-06-09",d:"fransa-cumhuriyet"},{f:"1815-06-09",t:"1830-10-04",d:"hollanda"},{f:"1830-10-04",t:"1923-10-29",d:"belcika"}] },
 // Tournai 1521'e kadar Fransız kraliyet şehri (V. Karl aldı)
-{ ad:"Tournai", tur:"sehir", lat:50.607, lon:3.389, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1521-11-30",d:"fransa"},{f:"1521-11-30",t:"1714-03-07",d:"ispanya"},{f:"1714-03-07",t:"1795-10-01",d:"avusturya"},{f:"1795-10-01",t:"1815-06-09",d:"fransa"},{f:"1815-06-09",t:"1830-10-04",d:"hollanda"},{f:"1830-10-04",t:"1923-10-29",d:"belcika"}] },
+{ ad:"Tournai", tur:"sehir", lat:50.607, lon:3.389, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1521-11-30",d:"fransa"},{f:"1521-11-30",t:"1714-03-07",d:"ispanya"},{f:"1714-03-07",t:"1795-10-01",d:"avusturya"},{f:"1795-10-01",t:"1815-06-09",d:"fransa-cumhuriyet"},{f:"1815-06-09",t:"1830-10-04",d:"hollanda"},{f:"1830-10-04",t:"1923-10-29",d:"belcika"}] },
 // Liège piskoposluğu 1795 Fransız ilhakına kadar imparatorluk prensliği
-{ ad:"Liège", tur:"sehir", lat:50.633, lon:5.567, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1795-10-01",d:"almanya"},{f:"1795-10-01",t:"1815-06-09",d:"fransa"},{f:"1815-06-09",t:"1830-10-04",d:"hollanda"},{f:"1830-10-04",t:"1923-10-29",d:"belcika"}] },
+{ ad:"Liège", tur:"sehir", lat:50.633, lon:5.567, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1795-10-01",d:"almanya"},{f:"1795-10-01",t:"1815-06-09",d:"fransa-cumhuriyet"},{f:"1815-06-09",t:"1830-10-04",d:"hollanda"},{f:"1830-10-04",t:"1923-10-29",d:"belcika"}] },
 // Lüksemburg 1443 Burgonya; 1815-1890 Hollanda kralıyla kişisel birlik, sonra ayrı hanedan
-{ ad:"Lüksemburg", tur:"kale", lat:49.611, lon:6.132, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1443-11-21",d:"almanya"},{f:"1443-11-21",t:"1482-03-27",d:"burgonya"},{f:"1482-03-27",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1714-03-07",d:"ispanya"},{f:"1714-03-07",t:"1795-10-01",d:"avusturya"},{f:"1795-10-01",t:"1815-06-09",d:"fransa"},{f:"1815-06-09",t:"1890-11-23",d:"hollanda"},{f:"1890-11-23",t:"1923-10-29",d:"luksemburg"}] },
+{ ad:"Lüksemburg", tur:"kale", lat:49.611, lon:6.132, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1443-11-21",d:"almanya"},{f:"1443-11-21",t:"1482-03-27",d:"burgonya"},{f:"1482-03-27",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1714-03-07",d:"ispanya"},{f:"1714-03-07",t:"1795-10-01",d:"avusturya"},{f:"1795-10-01",t:"1815-06-09",d:"fransa-cumhuriyet"},{f:"1815-06-09",t:"1890-11-23",d:"hollanda"},{f:"1890-11-23",t:"1923-10-29",d:"luksemburg"}] },
 
 // ── BATI ve KUZEY ALMANYA (Kutsal Roma = almanya, mevcut kullanım) ─────────
 { ad:"Bremen", tur:"liman", lat:53.076, lon:8.807, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"almanya"}] },

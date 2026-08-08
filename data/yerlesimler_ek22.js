@@ -109,13 +109,13 @@ window.YERLESIMLER_EK22 = [
 // 🔴 Ölçümün en aç hücresi (226 km, 50,5°K/42,5°D) ile ikinci en aç
 //    kuşağı (48,5-49,5°D) bu dört noktayla kapanıyor.
 { ad:"Kamışin", tur:"kale", lat:50.0833, lon:45.4000, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1556-01-01",d:"altinorda"},{f:"1556-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1556-01-01",d:"nogay"},{f:"1556-01-01",t:"1923-10-29",d:"rusya"}] },
 
 { ad:"Petrovsk (Saratov)", tur:"kale", lat:52.3167, lon:45.3833, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1556-01-01",d:"altinorda"},{f:"1556-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1556-01-01",d:"astarhan"},{f:"1556-01-01",t:"1923-10-29",d:"rusya"}] },
 
 { ad:"Syzran", tur:"kale", lat:53.1500, lon:48.4667, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1556-01-01",d:"altinorda"},{f:"1556-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1556-01-01",d:"nogay"},{f:"1556-01-01",t:"1923-10-29",d:"rusya"}] },
 
 // ⚠️ Samara'nın komşusu Simbirsk `kazan 1438→1552-10-02` taşıyor —
 //    KOPYALANMADI. Simbirsk Kazan Hanlığı'nın güney kanadıydı; Samara
@@ -123,6 +123,6 @@ window.YERLESIMLER_EK22 = [
 //    Kazan'a bağlı olmadı. Kopyalasaydım şehri 114 yıl yanlış hanlıkta
 //    gösterirdim.
 { ad:"Samara", tur:"kale", lat:53.2000, lon:50.1500, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1556-01-01",d:"altinorda"},{f:"1556-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1556-01-01",d:"nogay"},{f:"1556-01-01",t:"1923-10-29",d:"rusya"}] },
 
 ];
