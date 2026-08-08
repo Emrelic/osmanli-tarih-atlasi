@@ -1,0 +1,33 @@
+// RENK 2 — `arac/renkler.py` BAŞLIĞINA EKLENECEK İKİ UYARI
+// ==========================================================================
+// Kilit sürerken hazırlandı (8 Ağustos 2026). Koşu bitince dosya başındaki
+// RENK KURALI bloğunun sonuna eklenecek. Koordinatör onayladı.
+// ==========================================================================
+
+  🔴 BİR RENGİ KALDIRMAK HER ZAMAN TEK SATIR DEĞİLDİR — iki şart var.
+
+  ① HEX PAYLAŞIMLIYSA BEYAN DA GÜNCELLENİR.
+     Bu dosyanın altındaki paylaşım beyanı, hangi kimliklerin bilerek aynı
+     hex'i taşıdığını yazar ve import anında self-check ile denetlenir.
+     Bir kimliği kaldırıp beyanı bırakmak, beyanı YALANCI yapar.
+     Ölçülmüş vaka (8 Ağustos): `kavalali` #00acc1 kaldırılacak sanıldı —
+     hex'i DÖRT kimlikle paylaşımlıydı (turkmen · delhi-sultanligi ·
+     ingiliz-hindistani · ingiliz-malaya), yani grup 5 → 4 olacaktı.
+     📌 "Kullanılmıyor" demek "serbest" demek DEĞİLDİR.
+     (Aynı gün üç kez beyan güncellendi: #2d8f4a · #7b1fa2 · #5c6bc0.)
+
+  ② PALETTEN DÜŞÜRMEDEN ÖNCE VERİDE SIFIRLANDIĞI DOĞRULANIR.
+     Sıra TERS olursa o kimliğin dönemleri RENKSİZ kalır ve `§8` gereği
+     harita DELİK verir — görünmez bir fazlalığı GÖRÜNÜR bir beyaz lekeyle
+     takas etmiş olursun.
+     DOĞRU:  ① veri kaydı `kasitli_bosluk` yapılır  → ② renk kaldırılır
+     YANLIŞ: ① renk kaldırılır → dönemler renksiz kimlik taşır → DELİK
+     Ölçülmüş vaka (8 Ağustos): `ainu` — Matsumae klanı 1590'larda başlıyor
+     ama veri 1281-1550'de `ainu` boyuyordu. Yani eksik olan künye değil,
+     FAZLA olan boyaydı. Önce iki kayıt boşluğa çevrildi, sonra renk düştü.
+
+  📌 VE İKİSİNİN ORTAK DERSİ — bir sayacı sıfırlamanın iki yolu varsa,
+     sayaç hangisinin doğru olduğunu SÖYLEMEZ. `renk_fark.py`nin zincir
+     borcu "künye eksik mi" diye sorar; "bu kimlik VAR MI" diye sormaz.
+     Birincisi künye yazarak kapanır, ikincisi boya kaldırarak — ve ikisi
+     denetimde AYNI görünür, haritada ZIT şey yapar.
