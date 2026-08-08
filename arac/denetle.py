@@ -195,6 +195,15 @@ KUYRUK_DOSYALARI = ("yerlesimler_ortaasya2.js", "yerlesimler_avrupa.js",
                     # kirilma gunu bir kovada "zaten var", otekinde "yeni".
                     # (`2s` +0 vs +9 farki bunun SONUCU, sebebi degil.)
                     "yerlesimler_ek19.js",
+                    # 🔴 8 Agustos 2026 — GUNEYDOGU ASYA, ONCEDEN eklendi.
+                    # Emre: "yerlesim katmanini tum dunyayi olabildigince
+                    # hizli doldurmaliyiz." Dunya olculdu (2133 nokta):
+                    # pencere ICINDEKI EN SEYREK yer GD Asya -- 23,3 mn km2
+                    # icin 97 nokta, yogunluk 4,2 (Anadolu 130,1 · Avrupa 62,1).
+                    # Hedef 25 ⇒ ~480 nokta gerekiyor, ilk parti 120-150.
+                    # ⚠️ TDV kapsamasi bu bolgede %53 olculdu; yarisi akademik
+                    # kaynaga dayanacak ve bu MESRUDUR (§4).
+                    "yerlesimler_gdasya.js",
                     "yerlesimler_ek21.js",
                     # 🔴 7 Agustos 2026 — BES NOKTA OTURUMU, ONCEDEN eklendi.
                     # `NOKTA HALKA-2 3` yazmaya BASLAMADAN once denetle.py'yi
