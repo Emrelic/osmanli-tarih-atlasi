@@ -481,3 +481,44 @@ net bir "krallık" kaydı vermiyor. AÇIK GAP olarak bırakıldı.
 2'nin BOYALAR'a eklemesi bekleniyor.
 
 Devam: renk gelene kadar mevcut alt bölgelere ek nokta (120-150 hedefi).
+
+## BEŞİNCİ TUR — 15 nokta yazıldı, kendi hatamı kendim yakaladım
+
+15 nokta eklendim: Birmanya +2 (Pyinmana, Henzada), Siyam +2 (Chumphon,
+Surat Thani), Laos +1 (Attapeu, kur:1713 — Champasak'ın kendi emsaliyle
+aynı erken-dönem boşluğu), Vietnam +2 (Quang Tri, Quang Ngai), Sumatra +1
+(Indrapura), Java +1 (Sumenep/Madura), Borneo +2 (Pontianak, Sukadana),
+Sulawesi +2 (Watampone/Bone, Sengkang/Wajo), Filipinler +1 (Legazpi),
+Moluk-K.Sunda +1 (Waingapu/Sumba).
+
+🔴 KENDİ HATAM — doğrulama scripti yakaladı, düzelttim: Pontianak ve
+Watampone/Sengkang noktalarını `pontianak`/`bugis-kralliklari`
+kimlikleriyle yazmıştım — ama bu iki kimlik HENÜZ RENKSİZ (RENK 2'den
+cevap gelmedi)! Kendi kuralımı (§C: "renksiz kimlik KULLANMA") Sumatra'nın
+4 noktasında doğru uygulamıştım ama burada TUTARSIZ davrandım. Doğrulama
+scripti "renksiz kimlik: {pontianak, bugis-kralliklari}" diye bastırınca
+fark ettim ve BU ÜÇ NOKTAYI (Pontianak, Watampone, Sengkang) DOSYADAN
+ÇIKARDIM. Sukadana kaldı (`brunei-sultanligi` zaten renkli).
+
+### Doğrulama (düzeltme sonrası)
+```
+yazılan (beşinci tur, düzeltilmiş)  : 12  (15 yazılıp 3'ü geri alındı)
+3km mükerrer                          : 0
+renksiz kimlik                          : 0
+dönem sorunu                            : 0
+açılan yeni kırılma günü                 : 0
+```
+
+## KÜMÜLATİF — 5 tur sonrası
+
+```
+dosyadaki nokta sayısı  : 95
+genel GDASYA yoğunluğu   : 76 → 171 nokta / 23,3mn km² ⇒ 3,3 → 7,34
+açılan kırılma günü TOPLAMI (95 nokta boyunca) : 0
+bekleyen (renk)           : 7 (Jambi/Siak/Deli/Indragiri + Pontianak/
+                             Watampone/Sengkang — üçü de yazılmaya HAZIR,
+                             renk gelince tek turda eklenecek)
+açık gap (kimlik yok)     : 3 (Kutai, Palu, Kendari — künye var ama
+                             Kutai renksiz/yetersiz; Palu/Kendari için
+                             künye bile yazılmadı)
+```
