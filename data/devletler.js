@@ -214,6 +214,42 @@ window.DEVLETLER = [
 // Ön boşluk (1281-1547, Moskova Büyük Knezliği) ve arka boşluk (1917-1923,
 // Sovyet Rusya/SSCB — 242 kayıtla bu partinin EN BÜYÜK tek kalemi) için iki
 // künye eklendi. Kaynak ikisinde de TDV `rusya` (canlı, genel madde).
+// VERİ DEVLET (7 Ağustos 2026) — NOKTA HALKA-2 oturumunun bulduğu 266 yıllık
+// hayalet: Avrupa Rusyası'nda (Moskova, Novgorod, Ryazan, Tula, Vologda,
+// Pustozersk…) noktalar 1281-1547 arası `rusya`nın (f:1547-01-16) rengiyle
+// boyanıyordu — o tarihte `rusya` henüz yoktu. `moskova` zaten yazılmıştı;
+// bu üç kardeş knezlik/cumhuriyet (Novgorod, Pskov, Tver) aynı boşluğun
+// geri kalanını kapatıyor. ⚠️ TDV bu coğrafyayı ZAYIF kapsıyor —
+// `novgorod`/`pskov`/`tver` ve denenen bütün alternatif sluglar (`-knezligi`,
+// `-cumhuriyeti`, `-buyuk-knezligi`, `novogrod`, `pskof`, `tferi`, `kiev`,
+// `kiev-knezligi`, `rus-knezlikleri`) HEPSİ 302 (ölü) — TDV'DE MADDE YOK.
+// §4 istisnası: standart akademik kaynak, `ermenistan` emsaliyle AÇIKÇA
+// işaretlendi.
+{ id:"novgorod", ad:"Novgorod Cumhuriyeti", tur:"cumhuriyet", bolge:"dogu-avrupa",
+  f:"1136-01-01", t:"1478-01-15", baskent:"Novgorod",
+  ozet:"Novgorodluların prensleri (knez) veçe meclisiyle seçip azledebildiği, Kuzey Rusya'dan Ural'a uzanan geniş ticaret ağını (Hansa ile bağlantılı) denetleyen şehir cumhuriyeti; III. İvan'ın Moskova kuvvetleri veçe çanını indirip özerkliğine son verdi. ⚠️ BULUNAMADI (TDV'de): `novgorod` ve denenen tüm alternatif sluglar 302 (ölü), TDV'de madde yok. Tarihler standart akademik kaynağa göredir (§4).",
+  kronoloji:[
+    { t:"1136-01-01", tur:"kurulus", b:"Novgorodlular Prens Vsevolod Mstislaviç'i kovup veçe (halk meclisi) yönetimini kurumsallaştırdı" },
+    { t:"1478-01-15", tur:"son", b:"III. İvan'ın Moskova kuvvetleri şehri ele geçirdi, veçe çanı indirilip cumhuriyet ilga edildi" }
+  ]
+},
+{ id:"pskov", ad:"Pskov Cumhuriyeti", tur:"cumhuriyet", bolge:"dogu-avrupa",
+  f:"1348-01-01", t:"1510-01-13", baskent:"Pskov",
+  ozet:"Novgorod'un bir uzantısı olarak başlayıp Bolotovo Antlaşması ile ayrı bir şehir cumhuriyetine dönüşen, Livonya Tarikatı'na karşı sınır savunmasıyla tanınan devlet; III. Vasili'nin Moskova kuvvetlerine veçe çanının indirilmesiyle son buldu. ⚠️ BULUNAMADI (TDV'de): `pskov` ve alternatif sluglar 302 (ölü), TDV'de madde yok. Tarihler standart akademik kaynağa göredir (§4).",
+  kronoloji:[
+    { t:"1348-01-01", tur:"kurulus", b:"Bolotovo Antlaşması ile Novgorod'dan ayrı, bağımsız bir cumhuriyet oldu" },
+    { t:"1510-01-13", tur:"son", b:"III. Vasili'nin kuvvetleri veçe çanını indirdi, cumhuriyet Moskova'ya ilhak edildi" }
+  ]
+},
+{ id:"tver", ad:"Tver Büyük Knezliği", tur:"prenslik", bolge:"dogu-avrupa",
+  f:"1246-01-01", t:"1485-09-12", baskent:"Tver",
+  ozet:"İskender Nevski'nin kardeşi Yaroslav Yaroslaviç'in kurduğu, uzun süre Moskova'nın büyük knezlik unvanı için başlıca rakibi olan hanedanlık; III. İvan'ın kuşatmasıyla son büyük knez Litvanya'ya kaçtı, knezlik Moskova'ya katıldı. ⚠️ BULUNAMADI (TDV'de): `tver` ve alternatif sluglar 302 (ölü), TDV'de madde yok. Tarihler standart akademik kaynağa göredir (§4).",
+  kronoloji:[
+    { t:"1246-01-01", tur:"kurulus", b:"Yaroslav Yaroslaviç, Tver'de ayrı bir knezlik kurdu" },
+    { t:"1327-01-01", tur:"isyan", b:"Altın Orda'ya karşı büyük bir isyan başlattı, Moskova'nın da katıldığı Moğol misillemesiyle bastırıldı" },
+    { t:"1485-09-12", tur:"son", b:"III. İvan'ın kuşatması üzerine son büyük knez Mihail Borisoviç Litvanya'ya kaçtı, knezlik Moskova'ya katıldı" }
+  ]
+},
 { id:"moskova", ad:"Moskova Büyük Knezliği", tur:"prenslik", bolge:"dogu-avrupa",
   f:"1325-01-01", t:"1547-01-16", baskent:"Moskova",
   ozet:"I. İvan Kalita'nın 'büyük knez' unvanını almasıyla Rus topraklarının siyasî merkezi hâline gelen knezlik; 1480'de Altın Orda hâkimiyetinden fiilen çıktı, IV. İvan'ın çar ilan edilmesiyle Rusya Çarlığı'na dönüştü (bkz. [[rusya]]). (kaynak: TDV, madde: rusya)",
