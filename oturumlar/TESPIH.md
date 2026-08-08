@@ -2,7 +2,7 @@
 
 > 🤖 **BU DOSYA ÜRETİLİR — ELLE DÜZENLEME.**
 > Kaynak: `oturumlar/tespih.json` · üretici: `ClaudEmre/kutu/tespih.py`
-> Son güncelleme: **2026-08-08T14:10**
+> Son güncelleme: **2026-08-08T15:08**
 >
 > Sıralama ölçütü **`FAYDA ÷ EMEK`** — önem yüksek + irilik düşük önce.
 > Üç öncelik kuralı: **① darboğaz · ② tekrar eden madde · ③ yakınlık**
@@ -12,7 +12,7 @@
 | | kanal | ne demek | adet |
 |---|---|---|---|
 | 🔬 | **sistem analizi** | biz ölçüp eksik/yanlış bulduk, Emre onayladı | 12 |
-| 💬 | **Emre — oturumdan** | iş sürerken aklına gelip pencereye yazdı | 21 |
+| 💬 | **Emre — oturumdan** | iş sürerken aklına gelip pencereye yazdı | 32 |
 | 📦 | **Emre — paket** | toplu hâlde gönderdiği hatalar/fikirler | 1 |
 | 🔧 | **oturum önerisi** | işçi oturum bildirdi ya da istişareden çıktı | 19 |
 | 👁 | **bekleyenler cevabı** | BEKLEYENLER kutusunda sorulana verdiği cevap | 3 |
@@ -26,6 +26,17 @@
 > *sırayı* değil.
 
 ```
+🟥 📦 T-0057 🌍 DÜNYA KATMANI — coğrafya + yerleşim, bütün dünya  (1/10)
+   🟧 ✅ T-0058 Coğrafya katmanı — ÖLÇÜLDÜ, pencerede TAM
+   🟧 ⏳ T-0059 GD Asya noktaları 97→480
+   🟧 🔵 T-0060 Doğu Asya noktaları 171→?
+   🟧 🔵 T-0061 Güney Asya noktaları 135→?
+   🟧 🔵 T-0062 Orta Asya noktaları 102→?
+   🟧 🔵 T-0063 Sahra-altı Afrika 201→?
+   🟧 🔵 T-0064 Sibirya doğusu (146°D+)
+   🟧 🔵 T-0065 AMERİKA — 0 nokta
+   🟧 🔵 T-0066 OKYANUSYA — 1 nokta
+   🟧 🔵 T-0067 BOLGE penceresini genişlet
 🟥 📦 T-0038 1288 ÖNCESİ DEVİRLER — zaman ufkunu geriye açmak  (0/4)
    🟧 📦 T-0040 1000-1288 arası  (0/5)
       🟨 📦 T-0044 Osmanlı coğrafyası  (0/6)
@@ -48,37 +59,47 @@
 
 | | ölçek | ne demek | adet |
 |---|---|---|---|
-| 🟥 | **dekametreküp** | bir kıta / bir uygarlık — yıllarca iş · 🔴 **YAPILMAZ, AÇILIR** | 3 |
-| 🟧 | **metreküp** | bir çağ / bir devlet — haftalarca iş · 🔴 **YAPILMAZ, AÇILIR** | 4 |
+| 🟥 | **dekametreküp** | bir kıta / bir uygarlık — yıllarca iş · 🔴 **YAPILMAZ, AÇILIR** | 4 |
+| 🟧 | **metreküp** | bir çağ / bir devlet — haftalarca iş · 🔴 **YAPILMAZ, AÇILIR** | 14 |
 | 🟨 | **desimetreküp** | bir bölge / bir eksen — günlerce iş · 🔴 **YAPILMAZ, AÇILIR** | 6 |
 | 🟩 | **santimetreküp** | bir parti — saatlerce iş | 7 |
 | 🟦 | **milimetreküp** | TEK BONCUK — yapılabilir, açılamaz | 36 |
 
 ---
 
-## 📦 AÇILMIŞ PAKET — çocukları bekleniyor, kendisi yapılmaz — 3
+## 📦 AÇILMIŞ PAKET — çocukları bekleniyor, kendisi yapılmaz — 4
 
 | # | iş | kanal | sahip | niçin bu sırada |
 |---|---|---|---|---|
+| T-0057 | 🌍 DÜNYA KATMANI — coğrafya + yerleşim, bütün dünya | 🟥 💬 | — | Emre 8 Ağustos: 'en önemlisi tüm coğrafya katmanını haritamıza yedirmek ve yerleşim katmanını tüm dünyayı olabildiğince hızlı doldurmak' |
 | T-0038 | 1288 ÖNCESİ DEVİRLER — zaman ufkunu geriye açmak | 🟥 💬 | — | Emre'nin örneği · nihaî ufuk MÖ 12000 · bugün 1281'den başlıyor |
 | T-0040 | 1000-1288 arası  ↳ `T-0038` | 🟧 💬 | — | çekirdeğe EN YAKIN dönem — Osmanlı öncesi Anadolu-Balkan zemini |
 | T-0044 | Osmanlı coğrafyası  ↳ `T-0040` | 🟨 💬 | — | çekirdek — hedef %95, ONCELIK.md halka 1 |
 
 ---
 
-## ⏳ PARMAKTA — şu an sayılan boncuklar — 1
+## ⏳ PARMAKTA — şu an sayılan boncuklar — 2
 
 | # | iş | kanal | sahip | niçin bu sırada |
 |---|---|---|---|---|
 | T-0022 | TESPİH v2 — üç hâl · altı kanal · üç damga · kutuda sekme | 🟦 💬 | KOORDİNATÖR | Emre: 'fırlayıp giden mermi nereye gitti belli değil' — bekleyen/yapılan/biten görünür olacak |
+| T-0059 | GD Asya noktaları 97→480  ↳ `T-0057` | 🟧 💬 | VERİ DEVLET | pencere içindeki EN SEYREK yer: 4,2 · 23,3 mn km² |
 
 ---
 
-## 🔵 ÇEKİLMEYİ BEKLEYEN — sıradaki boncuklar — 25
+## 🔵 ÇEKİLMEYİ BEKLEYEN — sıradaki boncuklar — 33
 
 | # | iş | kanal | sahip | niçin bu sırada |
 |---|---|---|---|---|
 | T-0031 | Cost-distance prototipi — Voronoi'nin topografik hâli | 🟦 💬 | — | Emre: 'iple çekiyorum'. Motor zaten 0,05° Dijkstra kullanıyor, eksik olan SÜRTÜNME ÇARPANI. 1800 noktanın %50'si bir engeli ihlal ediyor |
+| T-0060 | Doğu Asya noktaları 171→?  ↳ `T-0057` | 🟧 💬 | — | yoğunluk 8,8 · 19,4 mn km² |
+| T-0061 | Güney Asya noktaları 135→?  ↳ `T-0057` | 🟧 💬 | — | yoğunluk 11,8 · 11,4 mn km² |
+| T-0062 | Orta Asya noktaları 102→?  ↳ `T-0057` | 🟧 💬 | — | yoğunluk 14,1 · 7,3 mn km² |
+| T-0063 | Sahra-altı Afrika 201→?  ↳ `T-0057` | 🟧 💬 | — | yoğunluk 4,7 · PENCERE DIŞI, önce nokta sonra pencere |
+| T-0064 | Sibirya doğusu (146°D+)  ↳ `T-0057` | 🟧 💬 | — | PENCERE DIŞI |
+| T-0065 | AMERİKA — 0 nokta  ↳ `T-0057` | 🟧 💬 | — | PENCERE DIŞI · 98 mn km² · §6: önce nokta, sonra BOLGE |
+| T-0066 | OKYANUSYA — 1 nokta  ↳ `T-0057` | 🟧 💬 | — | PENCERE DIŞI · 28,7 mn km² |
+| T-0067 | BOLGE penceresini genişlet  ↳ `T-0057` | 🟧 💬 | — | 🔴 EN SON — §6: nokta yoğunluğu sağlanmadan AÇMA |
 | T-0026 | Beş görsel şikâyet — Cezayir · Timur/Bağdat ×2 · başkent yıldızı · Ahîler | 🟦 📦 | — | Emre'nin kendi sözü; İKİSİ TEKRAR EDEN MADDE ⇒ öncelik kuralı ② |
 | T-0024 | Berka (Sirenayka) battaniyesi — 270 yıl tek parça `hafsi` | 🟦 🔧 | — | 1281→1551 kesintisiz. HALKA-2 3: 'ölçmedim, kaynak okumadım' — dürüst başlık, araştırma bekliyor |
 | T-0030 | `Ö1` / `Ö2` yeni değişmezleri yaz | 🟦 🔧 | — | sınav kümesi HAZIR (22 kimlik) · battaniye ad kararı beklensin |
@@ -118,10 +139,11 @@
 
 ---
 
-## ✅ SAYILAN — öbür uca dizilmiş boncuklar — 22
+## ✅ SAYILAN — öbür uca dizilmiş boncuklar — 23
 
 | # | iş | kanal | ölçüm | bitti |
 |---|---|---|---|---|
+| T-0058 | Coğrafya katmanı — ÖLÇÜLDÜ, pencerede TAM | 💬 | katman EKSİK DEĞİL — eksik olan PENCERE. §6: önce nokta. | 2026-08-08 |
 | T-0055 | BOYUTLAR.md — atlasın koordinat sistemi (dört boyut) | 💬 | 4 boyut: Z zaman · M mekân · K konu · Ü üretim katmanı. Beşinci arandı, BULUNAMADI (ölçek=çözünürlük, kaynak rejimi=M'nin fonksiyonu, hâl=durum). M/K karışımı ÖLÇÜLDÜ: 359 çift | 2026-08-08 |
 | T-0021 | ClaudEmre hasadı — 8 ders + 2 çapraz-proje terfi | 🔧 | havuz 34 → 43 · A6 (kural yazılı olmak uygulanmak değildir) · C14 (bir ölçüm aracı sen dokunmadan başkalaşır) | 2026-08-08 |
 | T-0011 | Kısa künye özetlerini yaz | 🔬 | kısa özet 33 → 0 · eşik gün içinde kendiliğinden 99,5 → 104 → 108 kaydı | 2026-08-08 |
