@@ -1099,6 +1099,69 @@ Notlar:
   **geçme yolu** olur, ki o daha sinsidir: denetim gürültülü çalışır ama
   **temiz veriyi de kirli sayıyor** olabilir.
 
+- 🔴 **"ÇÖZÜLEMEDİ"NİN ÜÇÜNCÜ CİNSİ: SIRA BAĞLIYOR OLABİLİR — VE BU,
+  YAPISAL OLANDAN DAHA TEHLİKELİDİR ÇÜNKÜ AYNI GÖRÜNÜR.**
+
+  **Vaka (8 Ağustos 2026, RENK 2).** Bir renk partisinden sonra *"kalan 20
+  çift YAPISAL, çıkış yok"* diye rapor edildi ve koordinatör bunu kabul
+  etti. Sonra tek bir kimlik **yalnız başına** ölçüldü:
+  ```
+  teke  tek başına        709 aday eşiği geçiyor · en iyi 14,6   ✓
+  teke  parti içinde      26 renk seçildikten SONRA        0     🔴
+  ```
+  ⇒ Partide seçilen **her renk bir sonraki kimliğe engel olur**; geç sıraya
+  düşen kimlik **çözülemez GÖRÜNÜR.** Aynı parti ikinci kez koşulunca
+  **20 → 7** oldu: bildirilen 20'nin **13'ü yapısal değildi.**
+
+  ```
+  TERCİH bağlar → kısıttan çık, ÇÖZÜLÜR      (fransa ↔ portekiz)
+  YAPI bağlar   → çıkış yok                   (ingiltere · portekiz)
+  SIRA bağlar   → İKİNCİ GEÇİŞ çözer          ← ÜÇÜNCÜ CİNS
+  ```
+  ⚠️ Üçüncüsünün tehlikesi ötekilerden büyük: **yapısal GÖRÜNÜR ama
+  değildir**, ve *"yapısal"* damgası bir sonraki oturumu **denemekten
+  alıkoyar.** ⇒ *"Çözülemedi"* raporlanmadan önce **ikinci geçiş koşulur.**
+
+  📌 Ve aynı gün ölçülen bir yan bulgu: sıralama ölçütünü değiştirmek
+  **baskın bir kazanç vermiyor**, bir ödünleşme veriyor. *"En bozuk çift
+  önce"* denendi: `ceneviz ↔ teke`yi kapattı ama üç başka açılış-sahnesi
+  çiftini **açtı** (13 kapanan → 12). ⇒ **Tek bir çifti kayırmak üç
+  tanesini bozabilir**; koordinatörün *"şu çifti öne al"* isteği ölçülmeden
+  uygulanmaz.
+
+- 🔴 **BİR KISIT "UYGULANAMADI" DİYE SESSİZ GEÇİLİRSE, UYGULANMIŞ SANILIR.**
+
+  **Vaka (8 Ağustos 2026, RENK 2).** Koordinatör `luba ↔ lunda` çiftini
+  özellikle işaretledi (*"Lunda'nın siyasî modeli Luba'dan türedi, kullanıcı
+  o ilişkiyi okurken ayırt edebilmeli"*). Kısıt yazıldı — **ve hiç
+  çalışmadı:**
+  ```python
+  if rk in R.BOYALAR:      # lunda'nın rengi HENÜZ YOKTU
+      ...                  # dal HİÇ girilmedi, ÖZEL ÇİFT satırı BASILMADI
+  ```
+  Çözücü normal bitti, *"çözdüm"* dedi. Kısıtın kurulmadığı ancak **çıktı
+  satır satır okununca** görüldü.
+  ⇒ **Çare `assert`:** kurulamayan özel kısıt artık çözücüyü **durduruyor.**
+  İkinci geçişte kuruldu: `luba ↔ lunda` **ΔE 60,7** (hedef ≥ 25).
+  📌 Bu, aynı gün ölçülen *"aletin BASMADIĞI ≠ ölçtüğü"* dersinin **kısıt
+  tarafı**: orada bir bölüm hiç ölçmüyordu, burada bir kısıt hiç
+  kurulmuyordu — **ve ikisi de sessizdi.** Sessiz atlama, yanlış sonuçtan
+  daha zor bulunur: yanlış sonuç bir sayı gösterir, sessiz atlama **hiçbir
+  şey göstermez.**
+
+- 🟢 **VE NÖBETÇİ İLK GERÇEK YAKALAYIŞINI YAPTI — "KAÇ TANE VAR" DEĞİL
+  "KAÇ TANE YENİ DOĞDU".**
+  Beş renk istendi, **dokuz yazıldı**: nöbetçi dört kimliğin `kongo-kralligi`
+  · `lunda-imparatorlugu` · `ndongo` · `avustralya` **veride KULLANILDIĞI
+  hâlde renksiz** olduğunu buldu.
+  ```
+  istenen beş     künyeli-renksiz               → sessiz borç
+  bulunan dört    VERİDE KULLANILIYOR + renksiz → `§8`: BOYANMIYOR = harita DELİĞİ
+  ```
+  Ve sayının **2 → 4 diye BÜYÜDÜĞÜNÜ** de gösterdi: nokta oturumu yazarken
+  doğuyorlardı. ⇒ Bir sayaç *"dört tane var"* derdi; nöbetçi ***"ikisi az
+  önce doğdu"*** dedi — ve asıl bilgi ikincisidir.
+
 - 🔴 **BİR ALAN TASARLAMADAN ÖNCE, O ALANIN ZATEN VAR OLUP OLMADIĞINI ÖLÇ —
   VE VARSA, ONUN NEYLE DOLU OLDUĞUNU DA ÖLÇ.**
 
