@@ -2702,3 +2702,25 @@ ters/sıfır süreli f-t : 0
 ```
 `data/devletler.js` pathspec'siz bırakıldı. Koordinatöre bildirildi —
 görev tamamlandı, `data/devletler.js` alınıp yayına konulacak.
+
+## ㊴ SON KALEM — karakoyunlu özeti yazıldı, kısa künye 0
+
+`kaynak:"karakoyunlular"` okunarak, hanedan ömrü etiketli özet yazıldı
+(231 karakter — eşiğe yetişmek için doldurulmadı, TDV'nin verdiği iki
+somut olay -1351 kuruluş, 1469 son hükümdarın öldürülmesi- zaten eşiği
+aşıyordu):
+> "Türkmen devleti (hanedan ömrü); Bayram Hoca'nın 1351'de Sutaylar
+> hükümdarını öldürüp bağımsızlığını kazanmasıyla doğdu, tarihî düşmanı
+> Akkoyunlu'ya (Uzun Hasan) yenilerek 1469'da son hükümdar Hasan Ali'nin
+> öldürülmesiyle sona erdi."
+
+### Doğrulama
+```
+py arac/kunye_olc.py  →  kısa künye: 0
+kayıt sayısı        : 381
+mükerrer id           : 0
+kaynaksız kayıt        : 0
+boş özet              : 0
+```
+`data/devletler.js` pathspec'siz bırakıldı. Koordinatöre bildirildi.
+**Oturum burada duruyor — gün kapandı.**
