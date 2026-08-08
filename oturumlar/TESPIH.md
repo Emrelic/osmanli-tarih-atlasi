@@ -2,7 +2,7 @@
 
 > 🤖 **BU DOSYA ÜRETİLİR — ELLE DÜZENLEME.**
 > Kaynak: `oturumlar/tespih.json` · üretici: `ClaudEmre/kutu/tespih.py`
-> Son güncelleme: **2026-08-08T15:29**
+> Son güncelleme: **2026-08-08T15:31**
 >
 > Sıralama ölçütü **`FAYDA ÷ EMEK`** — önem yüksek + irilik düşük önce.
 > Üç öncelik kuralı: **① darboğaz · ② tekrar eden madde · ③ yakınlık**
@@ -14,7 +14,7 @@
 | 🔬 | **sistem analizi** | biz ölçüp eksik/yanlış bulduk, Emre onayladı | 12 |
 | 💬 | **Emre — oturumdan** | iş sürerken aklına gelip pencereye yazdı | 32 |
 | 📦 | **Emre — paket** | toplu hâlde gönderdiği hatalar/fikirler | 1 |
-| 🔧 | **oturum önerisi** | işçi oturum bildirdi ya da istişareden çıktı | 25 |
+| 🔧 | **oturum önerisi** | işçi oturum bildirdi ya da istişareden çıktı | 28 |
 | 👁 | **bekleyenler cevabı** | BEKLEYENLER kutusunda sorulana verdiği cevap | 3 |
 | 🌱 | **%0 — gündemde yoktu** | hiç düşünülmemişti; üreteç peydah etti | 0 |
 
@@ -28,8 +28,11 @@
 ```
 🟥 📦 T-0057 🌍 DÜNYA KATMANI — coğrafya + yerleşim, bütün dünya  (1/10)
    🟧 ✅ T-0058 Coğrafya katmanı — ÖLÇÜLDÜ, pencerede TAM
-   🟧 ⏳ T-0059 GD Asya noktaları 97→480  (1/1)
+   🟧 ⏳ T-0059 GD Asya noktaları 97→480  (4/4)
       🟦 ✅ T-0071 Birmanya noktaları — GD Asya alt bölgesi
+      🟦 ✅ T-0074 Siyam noktaları — GD Asya alt bölgesi
+      🟦 ✅ T-0075 Kamboçya-Laos noktaları — GD Asya alt bölgesi
+      🟦 ✅ T-0076 Vietnam noktaları — GD Asya alt bölgesi
    🟧 🔵 T-0060 Doğu Asya noktaları 171→?
    🟧 🔵 T-0061 Güney Asya noktaları 135→?
    🟧 🔵 T-0062 Orta Asya noktaları 102→?
@@ -64,7 +67,7 @@
 | 🟧 | **metreküp** | bir çağ / bir devlet — haftalarca iş · 🔴 **YAPILMAZ, AÇILIR** | 14 |
 | 🟨 | **desimetreküp** | bir bölge / bir eksen — günlerce iş · 🔴 **YAPILMAZ, AÇILIR** | 6 |
 | 🟩 | **santimetreküp** | bir parti — saatlerce iş | 9 |
-| 🟦 | **milimetreküp** | TEK BONCUK — yapılabilir, açılamaz | 40 |
+| 🟦 | **milimetreküp** | TEK BONCUK — yapılabilir, açılamaz | 43 |
 
 ---
 
@@ -84,7 +87,7 @@
 | # | iş | kanal | sahip | niçin bu sırada |
 |---|---|---|---|---|
 | T-0022 | TESPİH v2 — üç hâl · altı kanal · üç damga · kutuda sekme | 🟦 💬 | KOORDİNATÖR | Emre: 'fırlayıp giden mermi nereye gitti belli değil' — bekleyen/yapılan/biten görünür olacak |
-| T-0059 | GD Asya noktaları 97→480  ↳ `T-0057` | 🟧 💬 | VERİ DEVLET | pencere içindeki EN SEYREK yer: 4,2 · 23,3 mn km² |
+| T-0059 | GD Asya noktaları 97→480  ↳ `T-0057` | 🟧 💬 | VERİ DEVLET | pencere içindeki EN SEYREK yer: 3,3 · 23,3 mn km² · hedef ~580 nokta. İLERLEME: Birmanya 9 · Siyam 8 · Kamboçya-Laos 6 · Vietnam 5 = 28 nokta, AÇILAN KIRILMA GÜNÜ SIFIR |
 | T-0073 | ace ↔ malaka aynı hex — Malaka Boğazı'nın iki yakası | 🟦 🔧 | RENK 2 | ΔE 0,00 (AYNI HEX #2d8f4a) · 855 km · künyeler 1496-1511 örtüşüyor. 🔴 DÜNKÜ tarama GÖRMEDİ çünkü VERİ penceresine bakıyordu; bu matris KÜNYE penceresine baktı. malaka → #0f18a5 |
 | T-0069 | renk_olc'a İKİNCİ ÇİFT KURUCU — 600 km + eşzamanlılık | 🟩 🔧 | RENK 2 | Aynı körlük ÜÇ coğrafyada çıktı (Afrika Boynuzu · Fas · GD Asya) ve hiçbir denetim görmedi. Voronoi komşuluğu SEYREK bölgede iki gövdeyi yan yana görmüyor. Bugün 179 çift kurulur, biri İHLALDİ. ŞART: C13 iki yönde sınama · 600 km eşiğinin gerekçesi yazılı · İHLAL ile SINIRDA ayrı raporlansın (biri çıkış kodunu etkiler, öteki etmez) |
 
@@ -144,10 +147,13 @@
 
 ---
 
-## ✅ SAYILAN — öbür uca dizilmiş boncuklar — 25
+## ✅ SAYILAN — öbür uca dizilmiş boncuklar — 28
 
 | # | iş | kanal | ölçüm | bitti |
 |---|---|---|---|---|
+| T-0074 | Siyam noktaları — GD Asya alt bölgesi | 🔧 | 8 nokta · sıfır kırılma borcu | 2026-08-08 |
+| T-0075 | Kamboçya-Laos noktaları — GD Asya alt bölgesi | 🔧 | 6 nokta · yoğunluk 3,99 → 4,25 · sıfır borç | 2026-08-08 |
+| T-0076 | Vietnam noktaları — GD Asya alt bölgesi | 🔧 | 5 nokta · 1281-1428 zinciri tran→ho→ming→le kuruldu · Mạc dönemi Thanh Hoa/Vinh'de BİLEREK atlandı (Lê Trung Hưng direniş üssü, Mạc'ın eline hiç geçmedi) · sıfır borç | 2026-08-08 |
 | T-0071 | Birmanya noktaları — GD Asya alt bölgesi | 🔧 | 9 nokta · yoğunluk 3,3 → 3,65 · açılan kırılma günü SIFIR (mevcut Myanmar noktalarından ölçüldü) · külliyat 2133 → 2142 | 2026-08-08 |
 | T-0068 | ava ↔ ayutthaya çakışması — 204 yıl ayırt edilemiyordu | 🔧 | ΔE 9,63 → 32,2 · 407 km · 1351-1555 eşzamanlı · Burma-Siyam savaşları TAM bu iki gövde arasında geçiyor · hiçbir denetim görmüyordu (Voronoi komşusu değiller) | 2026-08-08 |
 | T-0058 | Coğrafya katmanı — ÖLÇÜLDÜ, pencerede TAM | 💬 | katman EKSİK DEĞİL — eksik olan PENCERE. §6: önce nokta. | 2026-08-08 |
