@@ -2184,3 +2184,115 @@ dosya geneli          : doğrulandı 225 · yetersiz 7 · bulunamadı 149
 ```
 `data/devletler.js` pathspec'siz bırakıldı (koordinatör kuralı). Koordinatöre
 bildirildi.
+
+## ㉞ ① dört çıkarım doğrulandı (2 tutmadı, 1 tuttu, 1 zaten netti) + ② 33 kısa-özet ölçümü
+
+### ① Dört fetch — GERÇEK arama yapıldı (HTTP + içerik + alternatif slug)
+
+```
+kenmu       → DOĞRULANDI  ("japonya" genel maddesi Kemmu dönemini AÇIKÇA
+              anıyor: "Ertesi yıl, imparatorun bütün Japonya üzerinde eski
+              gücüne kavuştuğu Kemmu dönemi başladı" — canonik
+              "kenmu-restorasyonu" boştu ama alternatif olarak "japonya"
+              denenince TUTTU. ÇIKARIMIM YANLIŞTI, düzeltildi.)
+san-fan     → bulunamadı — arandı, yok (canonik "uc-feodal-beylik-isyani"
+              boş; alternatif "cin--ulke" genel maddesi Qing kuruluşunu
+              anıyor ama San Fan/Wu Sangui'yi İÇERMİYOR — gerçekten
+              doğrulanmış negatif, çıkarım DEĞİL)
+dashun      → bulunamadı — arandı, yok (canonik "li-zicheng-dashun" boş;
+              alternatif "cin--ulke" 1644 Ming yıkılışını anıyor ama Li
+              Zicheng/Dashun'u İÇERMİYOR — doğrulanmış negatif)
+tonga-kralligi → bulunamadı — arandı, yok (canonik "tonga" ve alternatif
+              "tonga-adalari" ikisi de yalnız alakasız kişi adları
+              -Alp Er Tonga, G. Tongas- döndürdü — iki deneme de yapıldı,
+              doğrulanmış negatif)
+```
+
+**Sonuç: 4 kayıttan 1'i (kenmu) çıkarımda YANLIŞ çıktı ve doğrulandı'ya
+düzeltildi; 3'ü (san-fan, dashun, tonga-kralligi) çıkarımda doğruydu ama
+şimdi GERÇEKTEN arandı ve metinde "arandı, yok" ibaresiyle netleştirildi —
+artık ölçülmüş bulunamadı ile çıkarılmış bulunamadı dosyada AYNI GÖRÜNMÜYOR.**
+
+Doğrulama: kayıt 381, mükerrer 0, kaynaksız 0 (değişmedi, yalnız 4 kaydın
+içeriği güncellendi).
+
+### ② 33 kısa-özet künye — TAM LİSTE (yalnız ölçüm, özet YAZILMADI)
+
+`py arac/kunye_olc.py` çalıştırıldı + `kunye_olc.olc()` doğrudan çağrılarak
+15'lik ekran kesmesi olmadan TAM liste alındı. Eşik = medyan(210)×0.50 = 105
+karakter (bugünkü dağılımdan, elle yazılmadı).
+
+```
+uzunluk  id                        bölge            tür
+  28  saruhan                  anadolu          beylik
+  37  mentese                  anadolu          beylik
+  54  bosna-kralligi           balkanlar        krallik
+  56  candar                   anadolu          beylik
+  62  karakoyunlu              iran             devlet
+  67  karesi                   anadolu          beylik
+  68  bulgar-carligi           balkanlar        imparatorluk
+  69  papalik                  italya           devlet
+  70  sirbistan-prensligi      balkanlar        prenslik
+  73  ramazanoglu              anadolu          beylik
+  76  sirvansah                kafkasya         devlet
+  77  mora-despotlugu          balkanlar        prenslik
+  78  sammar                   arabistan        devlet
+  78  sirp-despotlugu          balkanlar        prenslik
+  82  aydin                    anadolu          beylik
+  85  romanya                  balkanlar        prenslik
+  86  arnavutluk-iskenderbey   balkanlar        prenslik
+  86  trablusgarp-ocagi        kuzey-afrika     ocaklik
+  91  romanya-kralligi         balkanlar        krallik
+  93  hamid                    anadolu          beylik
+  94  kibris-krallik           anadolu          krallik
+  95  bogdan                   balkanlar        prenslik
+  95  fransiz-misir-seferi     misir-sudan      gecici-isgal
+  96  napoli                   italya           krallik
+  97  germiyan                 anadolu          beylik
+  97  granada                  iberya           devlet
+  97  macaristan               orta-avrupa      krallik
+  99  bulgaristan-prensligi    balkanlar        prenslik
+  99  girit-devleti            balkanlar        gecici-isgal
+ 100  naksa-dukaligi           balkanlar        dukalik
+ 101  hicaz-kralligi           arabistan        krallik
+ 102  altinorda                sibirya-bozkir   hanlik
+ 102  safevi                   iran             devlet
+```
+
+### Kümelenme — bugün de geçerli mi?
+
+**bölge+tür düzeyinde** (koordinatörün ön-gözlemiyle aynı eksen):
+```
+anadolu    /beylik      8   %24
+balkanlar  /prenslik    7   %21
+balkanlar  /krallik     2   %6
+iran       /devlet      2   %6
+(6 küme daha, 1'er kayıt)
+```
+Koordinatörün ön-gözlemi (Anadolu beylikleri 8/%28, Balkan prenslikleri
+7/%24) BUGÜN DE GEÇERLİ — sayılar birebir tutuyor (küçük yüzde farkı
+33 vs önceki ölçümdeki farklı payda'dan; kayıt sayıları AYNI: 8 ve 7).
+
+**yalnız bölge düzeyinde ölçünce daha da güçlü bir küme çıkıyor** (bunu
+ekstra ölçtüm, tür ayrımını kaldırıp yalnız bölgeye göre topladım):
+```
+balkanlar     12   %36   (prenslik7+krallik2+imparatorluk1+gecici-isgal1+dukalik1)
+anadolu        9   %27   (beylik8+krallik1: kibris-krallik)
+iran           2   %6
+italya         2   %6
+arabistan      2   %6
+(6 bölge daha, 1'er kayıt)
+```
+**Anadolu+Balkanlar birlikte 21/33 = %64.** Bu, koordinatörün ön-gözlemiyle
+AYNI YÖNDE ama DAHA GÜÇLÜ bir sinyal: dağınık bir borç değil, gerçekten
+**iki coğrafyaya yoğunlaşmış iki eksik parti işareti** — bölge süzgeciyle
+bakınca yoğunlaşma tür süzgecinden bile daha net görünüyor.
+
+Özet YAZILMADI — yalnız ölçüldü ve raporlandı, koordinatörün talimatına göre.
+
+### Doğrulama (① sonrası, ② ölçüm-only olduğu için dosya değişmedi)
+```
+kayıt sayısı        : 381
+mükerrer id           : 0
+kaynaksız kayıt        : 0
+```
