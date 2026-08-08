@@ -985,7 +985,22 @@ BOYALAR = {
     # luba — 1585→1889 · pay 30.2 · engel 7 · geçen 91602 · C* 27.7 = %68
     "luba": ("Luba İmparatorluğu", "#dbf396"),
     # kuba — 1625→1900 · pay 28.3 · engel 8 · geçen 87977 · C* 27.8 = %68
-    "kuba": ("Kuba Krallığı", "#0072f6"),
+    # 🔴 kuba #0072f6 → #a85a1b — ÖNGÖRÜM ÇÜRÜDÜ, 8 Ağustos 2026
+    #   `kosu3-ongoru.json` ④ 'yeni Voronoi çakışması 0' diyordu. ÖLÇÜM 1:
+    #     kuba ↔ lunda-imparatorlugu  ΔE 9,06 · 365 km · Voronoi komşusu
+    #   🔴 VE İLK TEŞHİSİM DE YANLIŞTI: 'engel kümesi 1500 km yetmedi'
+    #     sandım. Ölçüm başka şey söyledi — mesafe zaten 365 km.
+    #     Gerçek sebep: `engel_kumesi()` engel adayının VERİDE NOKTASI
+    #     OLMASINI şart koşuyordu (`b not in nokta: continue`). İkisi de
+    #     AYNI GÜN yazıldı; `lunda` çözülürken `kuba`nın veride noktası
+    #     YOKTU ⇒ engel sayılmadı. Sonra Mushenge ve Musumba indi,
+    #     komşu oldular ve çizili haritada çakıştılar.
+    #   ⇒ **ÖLÇEMEDİĞİNİ ELEYEN BİR SÜZGEÇ, ONU TEMİZ SAYAR.**
+    #     `§11`in 'ölçülemedi ≠ temiz' kuralının ENGEL KÜMESİ tarafı.
+    #   ÇARE (renk_olc.engel_kumesi): verisi olmayan aday, künyesi örtüşüyor
+    #     VE aynı bölgedeyse artık engel sayılıyor — en kötü hâl varsayılır.
+    #   ÖLÇÜM: engel 9 · pay 27.8 · eşiği geçen 75311 · lunda'dan 9,06 → 54.5
+    "kuba": ("Kuba Krallığı", "#a85a1b"),
     "somali":     ("Somali sultanlıkları",   "#1248d5"),
     # ═══ AFRİKA BOYNUZU / SUDAN KÜMESİ — RENK 2, 7 Ağustos 2026 ═══
     # ARAŞTIRMA KÜNYE 3'ün teslimi; künyeler VERİ DEVLET'te yazıldıktan SONRA

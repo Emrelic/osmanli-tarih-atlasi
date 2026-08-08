@@ -3007,3 +3007,56 @@ revizyondan dosyaya yazılıp **içe aktarılıyor.** Ayrıştırıcı yazmıyor
 Python'un kendi ayrıştırıcısını kullanıyoruz.
 📌 Bugün üçüncü kez: **kendi yazdığın ayrıştırıcı, var olan bir
 ayrıştırıcıdan her zaman kötüdür.**
+
+---
+
+## 62. ÖNGÖRÜ SINANDI — beşin dördü tuttu, ve ÇÜRÜYENİ en değerlisiydi
+
+```
+KALEM                       ÖNGÖRÜ   ÖLÇÜM
+① ESKİ renkle çizili             0       0   ✓  V1 + girdi kilidi
+② gövdesiz kimlik               22      22   ✓
+③ koşuda delik                   0       0   ✓  V2 doğrulandı
+④ YENİ Voronoi çakışması         0       1   🔴 ÇÜRÜDÜ
+⑤ yakın-ama-değmeyen             7       7   ✓
+```
+
+### 🔴 ④ ÇÜRÜDÜ — ve tam da "yanlış çıkarsa kazanç daha büyük" dediğim kalem
+```
+kuba ↔ lunda-imparatorlugu   ΔE 9,06 · 365 km · Voronoi komşusu
+```
+
+### 🔴 VE İLK TEŞHİSİM DE YANLIŞTI
+Betiğim *"1500 km yetmedi, eşik büyütülmeli"* dedi. **Ölçüm başka şey
+söyledi:** mesafe zaten **365 km** — yani 1500'ün çok içinde. Eşik
+sorunu **hiç yoktu.**
+
+**Gerçek sebep:** `engel_kumesi()` engel adayının **veride noktası
+olmasını** şart koşuyordu:
+```python
+if b == kim or b in out or b not in nokta:   # ← b not in nokta
+    continue
+```
+İkisi de **aynı gün** yazıldı. `lunda` çözülürken `kuba`nın veride noktası
+**yoktu** ⇒ engel sayılmadı. Sonra Mushenge ve Musumba indi, komşu oldular,
+çizili haritada çakıştılar.
+
+> 🔴 **ÖLÇEMEDİĞİNİ ELEYEN BİR SÜZGEÇ, ONU TEMİZ SAYAR.**
+
+📌 `§11`in *"ölçülemedi ≠ temiz"* kuralının **engel kümesi tarafı** — ve o
+kuralı bugün ben üç kez yazdım, kendi aletimde uygulamadım.
+
+**ÇARE:** verisi olmayan aday, künyesi örtüşüyor **ve aynı bölgedeyse**
+artık engel sayılıyor — *en kötü hâl varsayılır*. `kuba` engel **8 → 9**.
+`kuba #0072f6 → #a85a1b`, `lunda`dan **9,06 → 54,47**.
+`KOMŞUSUYLA ÇAKIŞAN 1 → 0`.
+
+### 🟢 VE ÖNGÖRÜNÜN DEĞERİ TAM BURADA GÖRÜLDÜ
+Dört kalem tuttu ve **hiçbir şey öğretmedi.** Çürüyen tek kalem, hem
+`renk_olc`ta bir kör nokta hem de **kendi teşhis refleksimde** bir hata
+buldurdu. ⇒ *Ancak yanlış çıkabilen bir şey bilgi taşır* — ve dördü doğru
+çıkan bir öngörü kümesinde bilgiyi **yalnız yanlış olan** taşıdı.
+
+### ⚠️ KOŞU 2'NİN ÖNGÖRÜSÜ: ÖLÇÜLEMEDİ
+`kosu-ongoru.json` sınanamaz — koşu öldü, çıktı hiç üretilmedi.
+**"Temiz" değil, "ölçülemedi" diye kaydediliyor.**

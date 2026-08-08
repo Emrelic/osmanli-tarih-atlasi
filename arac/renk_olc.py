@@ -580,11 +580,32 @@ def engel_kumesi(kim, esik=B_KADEME_KM, k=None):
                    else (dv["f"], dv["t"]))
     out = {x for x in k.get(kim, ()) if x in BOYALAR}
     f, t = pen.get(kim, ("1281-01-01", "1923-10-29"))
+    # 🔴 VERİSİZ ENGEL ADAYI — 8 Ağustos 2026'da ÖLÇÜLEREK bulundu.
+    #   Eski hâli `b not in nokta` diyerek veride noktası olmayan kimliği
+    #   ELİYORDU. Sonuç: taze yazılmış (henüz verisi olmayan) bir renk,
+    #   bir sonraki çözümde GÖRÜNMEZ oluyordu.
+    #   VAKA: `kuba` ve `lunda-imparatorlugu` aynı gün yazıldı; `lunda`
+    #   çözülürken `kuba`nın veride noktası YOKTU ⇒ engel sayılmadı.
+    #   Nokta partisi indi (Mushenge · Musumba, 365 km), Voronoi komşusu
+    #   oldular ve ΔE 9,06 ile ÇİZİLİ HARİTADA çakıştılar.
+    #   ⇒ Sorun MESAFE değil VARLIK: ölçemediğini eliyordu.
+    #   ÇARE: verisi olmayan aday, künyesi ÖRTÜŞÜYOR ve AYNI BÖLGEDEyse
+    #     engel sayılır (mesafe ölçülemiyor ⇒ en kötü hâl varsayılır).
+    #     `§11`: "ölçülemedi" ile "temiz" aynı şey değildir.
+    _bol = {}
+    for _d in girdi.oku_devletler():
+        _an = _d.get("harita") or _d.get("id")
+        if _an:
+            _bol.setdefault(_an, _d.get("bolge") or "")
     for b in BOYALAR:
-        if b == kim or b in out or b not in nokta:
+        if b == kim or b in out:
             continue
         fb, tb = pen.get(b, (None, None))
         if fb and not (fb < t and f < tb):
+            continue
+        if b not in nokta:
+            if _bol.get(b) and _bol.get(b) == _bol.get(kim):
+                out.add(b)          # ölçülemedi + aynı bölge ⇒ engel say
             continue
         if kim in nokta:
             en = min(girdi.km(pa[0], pa[1], pb[0], pb[1])
