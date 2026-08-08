@@ -177,3 +177,71 @@ renksiz kimlik                    : kongo-kralligi, ndongo,
 
 Koordinatör kararını bekliyorum (pencere-dışı 6 nokta). Loango/Luba/Kuba
 renk gelince Kongo'yu tamamlayacağım.
+
+## ✅ KONGO TAMAMLANDI — Loango/Kuba/Luba eklendi
+
+```
+Loango (Buali)     kur:1550 → loango(1550-1883) → fransa-cumhuriyet(1883-1923)
+Mushenge (Kuba)     kur:1625 → kuba(1625-1900) → belcika(1900-1923)
+Kabongo (Luba)      kur:1585 → luba(1585-1889) → belcika(1889-1923)
+```
+Loango'nun konumu `denetle.py` önerisiyle 0,70 km düzeltildi (gerçek kıyı
+sadeleştirmesi, pencere sorunu DEĞİL).
+
+## YENİ GİNE — iç kesim dört dolgu noktasıyla güçlendirildi
+
+Koordinatörün "hiç nokta koymama" seçeneğini değerlendirdim ve REDDETTİM
+— beş kıyı limanı GERÇEK kolonyal tarih taşıyor (Hollanda/Almanya/İngiliz/
+Avustralya idaresi somut, tarihli, doğru). Ama tek bir iç-kesim dolgu
+noktası (Mount Hagen) yetersizdi — kıyı noktalarının Voronoi hücreleri
+devasa iç kesimi "yanlışlıkla" yutabilirdi (§2'nin tam tarif ettiği hata,
+bu sefer YANLIŞ kimlik yerine YANLIŞ MESAFE ile). Çözüm: **DÖRT** dolgu
+noktası (Merkez/Batı-Baliem/Kuzey-Sepik/Güney-Fly) ekledim, hepsi boş
+`d:[]` (Rub'ul Hâlî/Sahra kalıbı).
+
+Her noktanın `neden:` alanı KULLANICIYA doğrudan cevap verecek şekilde
+yazıldı: kolonyal güçler yalnız KIYIDA gerçek idare kurdu, İÇ KESİM
+1930'lara kadar dış dünyayla hiç temas etmedi — boşluk veri eksikliği
+değil, GERÇEK siyasi boşluk.
+
+## 🏁 PARTİ TESLİM RAPORU
+
+```
+TOPLAM YAZILAN NOKTA (üç bölge)  : 32
+  ① Doğu Afrika                  : 12  (0 kasıtlı boşluk)
+  ② Kongo havzası                : 11  (7 kasıtlı boşluk)
+  ③ Yeni Gine                    :  9  (3 kasıtlı boşluk + 4 dolgu noktası)
+
+AÇILAN YENİ KIRILMA GÜNÜ           : 0 — 32 nokta boyunca hiç açılmadı
+KASITLI BOŞLUK TOPLAMI              : 10 (+ 4 saf dolgu noktası, d:[], ayrı
+                                     sınıf — kasitli_bosluk alanı taşımıyor)
+
+DEĞİŞMEZ 1 (py arac/denetle.py)     : ✓ 2293 yerleşim, 176 sahipsiz
+                                     (tavan 178 — koordinatör önceden
+                                     tabanladı)
+KONUM                                : ✓ 0 nokta maske dışında
+                                     (i 6 nokta pencere dışında — ihlal
+                                     DEĞİL, koordinatör ayırdı)
+DÖNEM SAĞLIĞI                        : ✓ 0 sıfır-uzunluk, 0 ters, 0 çakışma
+RENKSİZ KİMLİK                        : 0 (svahili-sehirleri, umman-zengibar,
+                                     kongo-kralligi, ndongo, lunda-
+                                     imparatorlugu, loango, luba, kuba,
+                                     avustralya — DOKUZ kimlik bu parti
+                                     boyunca renklendirildi)
+3KM MÜKERRER                          : 0
+```
+
+**Üç yanlış-sahip düzeltmesi doğrulandı** (`girdi.yukle()` ile örnek
+noktalarda yeniden test):
+```
+Tanzanya içi     somali → umman-zengibar (Bagamoyo üzerinden)
+Mozambik içi     somali → portekiz (Quelimane üzerinden)
+Katanga          ingiltere → luba (Kabongo üzerinden)
+Yeni Gine iç     banda-adalari → SAHİPSİZ (dolgu noktası, doğru — orada
+                 hiç devlet yoktu)
+Yeni Gine güney  banda-adalari → SAHİPSİZ/avustralya (tarihe göre, Port
+                 Moresby üzerinden)
+```
+
+Üç ölçülmüş yanlış-sahip bölgesinin ÜÇÜ de kapatıldı. `data/
+yerlesimler_emilme.js` üretim koşusuna hazır.
