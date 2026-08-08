@@ -1512,6 +1512,35 @@ def konum_denetimi(Y):
                       "sadeleştirilmişin dışında (ihlal DEĞİL, motor da böyle "
                       "görüyor — ama nokta suyun üstünde): %s"
                       % (len(_sinir), ", ".join(_sinir[:6])))
+    # 🔴 ÖNERİLEN KOORDİNAT, KENDİ TESTİNİ GEÇMEK ZORUNDA.
+    # 8 Ağustos 2026: bu denetim dört noktayı "dışarıda" dedi ve her biri için
+    # "en yakın kara" koordinatı verdi. NOKTA GDASYA noktaları TAM oraya
+    # taşıdı — ve denetim ÜÇÜNÜ YİNE reddetti, bu sefer "0,00 km dışarıda"
+    # diye. Sebep `covers` değil (o zaten sınırı içerir), **yuvarlama**:
+    # `nearest_points` kıyı çizgisinin ÜSTÜNDE bir nokta verir, dosyaya 4
+    # ondalıkla (~11 m) yazılınca kıl payı dışarı düşer.
+    # ⇒ Araç, uygulanınca kendi testini geçmeyen bir düzeltme öneriyordu —
+    # yani "doğru teşhis, KULLANILAMAZ reçete". Öneri artık içeri doğru
+    # kaydırılıyor ve **yazılacağı hassasiyette sınanıyor.**
+    # 📌 Ve *"0,00 km dışarıda"* cümlesi kendi içinde çelişkilidir; bir aracın
+    # ürettiği çelişkili cümle, ölçtüğü şeyin sınırına vardığının işaretidir.
+    def _onerilen(p, ic):
+        """Kara üzerinde, 4 ondalığa yuvarlandıktan SONRA da içeride kalan
+        bir koordinat döndür. Bulunamazsa ham izdüşümü döndür (ve bunu
+        çağıran ayırt edebilsin diye ikinci değer False olur)."""
+        dx, dy = ic.x - p.x, ic.y - p.y
+        u = (dx * dx + dy * dy) ** 0.5
+        # nokta zaten kıyının üstündeyse yön yok — sekiz yöne bak
+        yonler = ([(dx / u, dy / u)] if u > 1e-12 else
+                  [(1, 0), (-1, 0), (0, 1), (0, -1),
+                   (.7071, .7071), (-.7071, .7071), (.7071, -.7071), (-.7071, -.7071)])
+        for pay in (0.0005, 0.001, 0.002, 0.005, 0.01, 0.02):   # ~55 m … ~2,2 km
+            for ux, uy in yonler:
+                q = Point(round(ic.x + ux * pay, 4), round(ic.y + uy * pay, 4))
+                if kara.covers(q):
+                    return q, True
+        return ic, False
+
     disarida = []
     for y in Y:
         p = Point(y["lon"], y["lat"])
@@ -1519,7 +1548,8 @@ def konum_denetimi(Y):
             continue
         ic, _ = nearest_points(kara, p)
         km = 111.32 * ((ic.x - y["lon"]) ** 2 + (ic.y - y["lat"]) ** 2) ** 0.5
-        disarida.append((km, y["ad"], y["lat"], y["lon"], ic.y, ic.x))
+        q, saglam = _onerilen(p, ic)
+        disarida.append((km, y["ad"], y["lat"], y["lon"], q.y, q.x, saglam))
     disarida.sort(reverse=True)
     return disarida
 
@@ -1854,12 +1884,20 @@ def main():
             ihlal = True
         print(f"Ek denetim  {durum6}  konum: {len(kd)} nokta kara maskesinin dışında "
               f"(beklenen {BEKLENEN_MASKE_DISI})")
-        for km, ad, lat, lon, ylat, ylon in (kd if args.ayrinti else kd[:25]):
-            print(f"    {ad:<26} {km:5.2f} km dışarıda  {lat:.4f},{lon:.4f} "
-                  f"→ en yakın kara {ylat:.4f},{ylon:.4f}")
+        for km, ad, lat, lon, ylat, ylon, saglam in (kd if args.ayrinti else kd[:25]):
+            # "0,00 km" çelişkili görünür — sebebini SÖYLE, sakla.
+            mesafe = f"{km:5.2f} km" if km >= 0.01 else "  KIL PAYI"
+            print(f"    {ad:<26} {mesafe} dışarıda  {lat:.4f},{lon:.4f} "
+                  f"→ ŞUNU YAZ: lat:{ylat:.4f}, lon:{ylon:.4f}"
+                  + ("" if saglam else "   ⚠️ bu öneri sınandı ve GEÇMEDİ"))
         if kd:
-            print("    → koordinatı en yakın kara hücresine kaydır (payla birlikte);"
-                  " maske dışındaki nokta HİÇ toprak sahibi olamaz")
+            kil = sum(1 for r in kd if r[0] < 0.01)
+            if kil:
+                print(f"    i {kil} nokta KIL PAYI dışarıda (<10 m). Bunlar denize "
+                      "konmuş değil, kıyı çizgisinin üstüne konmuş ve 4 ondalığa "
+                      "yuvarlanınca dışarı düşmüş — yukarıdaki öneri payı içerir.")
+            print("    → yukarıdaki koordinatı OLDUĞU GİBİ yaz; kara maskesinde"
+                  " sınandı. Maske dışındaki nokta HİÇ toprak sahibi olamaz.")
 
     print()
     if ihlal:
