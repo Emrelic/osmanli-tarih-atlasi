@@ -429,7 +429,8 @@ BOYALAR = {
     "sunda-pajajaran":         ("Sunda-Pajajaran Krallığı",           "#453015"),
     "surakarta":               ("Surakarta Sunanlığı",                "#183ccc"),
     "sarawak-brooke":          ("Sarawak (Brooke) Racalığı",          "#1b6fe4"),
-    "karakoyunlu":("Karakoyunlular",         "#305d30"),
+    # karakoyunlu  #305d30 → #75bdf6  (toplu tur)
+    "karakoyunlu": ("Karakoyunlular", "#75bdf6"),
     "akkoyunlu":  ("Akkoyunlular",           "#48ae48"),
     # Irak'ın 1335-1411 penceresi `iran` battaniyesinin altındaydı: İlhanlı
     # ile Karakoyunlu arasındaki 76 yılın sahibi yazılı değildi. Duvarlar
@@ -698,7 +699,8 @@ BOYALAR = {
     # ÖLÇÜM (2133 nokta, güncel veriyle): komşu `fransa` · 600 km'de 15
     #   palet kimliği · en yakın engel ΔE 20,3 · C* 28,0 = paletin %71'i
     #   ARDIL AYRIMI: fransa'dan **ΔE 39,6** — 1792 geçişi haritada net.
-    "fransa-cumhuriyet": ("Fransa Cumhuriyeti",  "#45edcc"),
+    # fransa-cumhuriyet  #45edcc → #09095a  (toplu tur)
+    "fransa-cumhuriyet": ("Fransa Cumhuriyeti", "#09095a"),
     "fransa":     ("Fransa",                 "#7b99ff"),
     "ispanya":    ("İspanya",                "#d59f63"),
     # ═══ PORTEKİZ TAŞINDI — RENK 2, 7 Ağustos 2026 ═══
@@ -764,7 +766,31 @@ BOYALAR = {
     "sovalye":    ("St. Jean Şövalyeleri",   "#3c424b"),
     "bulgaristan":("Bulgaristan",            "#2d6c0c"),
     "sirbistan":  ("Sırbistan",              "#518790"),
-    "bosna":      ("Bosna Krallığı",         "#8f7d5b"),
+    # ═══════════════════════════════════════════════════════════════════
+    # TOPLU TUR — İKİNCİ GEÇİŞ, 9 renk, 13 çift, 8 Agustos 2026 (RENK 2)
+    # ═══════════════════════════════════════════════════════════════════
+    # 🔴 VE BU GECIS, BIRINCININ BIR HUKMUNU CURUTTU.
+    #   Birinci gecis "kalan 20 YAPISAL" demisti. Yanlisti: `teke` tek
+    #   basina olculunce 709 aday geciyor (en iyi 14,6), ama parti icinde
+    #   26 renk secildikten SONRA 0 geciyordu.
+    #   ⇒ **"COZULEMEDI" HUKMU SIRAYA BAGLI OLABILIR.** Partide secilen her
+    #     renk, sonraki kimlige ENGEL olur; gec siraya dusen kimlik
+    #     cozulemez GORUNUR. Ayni parti ikinci kez kosulunca 20 -> 7.
+    #   📌 Bu, "cozulemedi'nin iki cinsi var" kuralinin UCUNCU cinsi:
+    #     TERCIH baglar (cikilir) · YAPI baglar (cikilmaz) ·
+    #     **SIRA baglar (ikinci gecis cozer)**.
+    #
+    # SIRALAMA BIR ODUNLESMEDIR, hicbiri baskin degil — olculdu:
+    #     frekans sirasi          13 cift kapandi, 7 acik
+    #     "en bozuk cift once"    12 cift kapandi, 8 acik (ceneviz↔teke
+    #                             kapandi ama uc yenisi acildi)
+    #   Frekans sirasi secildi. `ceneviz ↔ teke` (ΔE 3,44 · atlasin ACILIS
+    #   ekrani) acik kaliyor ve bu bir BORC, kayitli.
+    #
+    # SONUC: 9 yazim · 13 cift · 20 -> 7. Ucu de acilis sahnesinde:
+    #   aydin↔sirbistan 6,97 · ceneviz↔teke 3,44 · eflak↔teodoro 5,06
+    # bosna  #8f7d5b → #90f3f3  (toplu tur)
+    "bosna": ("Bosna Krallığı", "#90f3f3"),
     "arnavutluk": ("Arnavutluk",             "#f95ac3"),
     "yunanistan": ("Yunanistan",             "#42bdff"),
     "romanya":    ("Romanya",                "#6c6912"),
@@ -1226,7 +1252,8 @@ BOYALAR = {
     "aydin":      ("Aydınoğulları",           "#488d7b"),
     # Eski #6b8f4a, 60 km ötedeki Karesi'ye (#6b9e5b) ΔE 7.5 idi — iki beylik
     # haritada tek gövde gibi görünüyordu.
-    "saruhan":    ("Saruhanoğulları",         "#b34da5"),
+    # saruhan  #b34da5 → #6f097b  (toplu tur)
+    "saruhan": ("Saruhanoğulları", "#6f097b"),
     # Eski #3a7d8f, Venedik'in turkuazına (#4a8a8f) ΔE 9.2 idi; Ege'de ikisi
     # sürekli yan yana duruyor. Venedik köklü renk olduğu için Menteşe taşındı.
     "mentese":    ("Menteşeoğulları",         "#83b34d"),
@@ -1281,7 +1308,8 @@ BOYALAR = {
     # Ankara Savaşı'ndan sonra Timur, aldığı yerlere kendi valilerini tayin etti;
     # Sivas 1408'e kadar Timurlu valisi Mezid Bey'in elinde kaldı. Ad açıldı.
     "timurlu":         ("Timurlu valiliği",              "#9c7563"),
-    "suleyman-celebi": ("Emîr Süleyman Çelebi (Rumeli)", "#570012"),
+    # suleyman-celebi  #570012 → #8dd5a2  (toplu tur)
+    "suleyman-celebi": ("Emîr Süleyman Çelebi (Rumeli)", "#8dd5a2"),
     "isa-celebi":      ("İsa Çelebi (Bursa)",            "#ff96a5"),
     "mehmed-celebi":   ("Çelebi Mehmed (Amasya)",        "#f90c15"),
     "musa-celebi":     ("Musa Çelebi (Rumeli)",          "#e14e5a"),
@@ -1343,10 +1371,13 @@ BOYALAR = {
     "pervane":        ("Pervâneoğulları",      "#70c28b"),
     # ↑ Anadolu kümesi (bkz. `candar` üstündeki blok) · ton kayması  0,1°
     "esrefogullari":  ("Eşrefoğulları",        "#8a3069"),
-    "inancogullari":  ("İnançoğulları",        "#5b4ab5"),
-    "sahibata":       ("Sâhib Ataoğulları",    "#8f9e2d"),
+    # inancogullari  #5b4ab5 → #3f0c12  (toplu tur)
+    "inancogullari": ("İnançoğulları", "#3f0c12"),
+    # sahibata  #8f9e2d → #0c4218  (toplu tur)
+    "sahibata": ("Sâhib Ataoğulları", "#0c4218"),
     # ↑ Anadolu kümesi (bkz. `candar` üstündeki blok) · ton kayması  0,3°
-    "taceddin":       ("Tâceddinoğulları",     "#1b8d36"),
+    # taceddin  #1b8d36 → #03c0fc  (toplu tur)
+    "taceddin": ("Tâceddinoğulları", "#03c0fc"),
     # TDV ALÂİYE BEYLİĞİ: 1293'te Karamanoğlu Mecdüddin Mahmud Bey'in eline geçti,
     # o tarihten 1471'de Gedik Ahmed Paşa'nın kuşatmasına kadar kendi bey soyuyla
     # yönetildi. Haritada Karaman'ın içinde eriyordu; ayrı renk verildi.
@@ -1513,7 +1544,8 @@ BOYALAR = {
     "mantua": ("Mantua Dukalığı", "#0c6393"),
     # navarra  #c94530 → #f07e69  (toplu tur)
     "navarra": ("Navarra Krallığı", "#f07e69"),
-    "parma":         ("Parma Dukalığı",            "#ae4b75"),
+    # parma  #ae4b75 → #0648d5  (toplu tur)
+    "parma": ("Parma Dukalığı", "#0648d5"),
     "piza":          ("Piza Cumhuriyeti",          "#2ac9a8"),
     "siena":         ("Siena Cumhuriyeti",         "#636f03"),
 
@@ -2245,10 +2277,13 @@ PAYLASIM = {
     "#00acc1": ("kavalali↔turkmen (Oturum 16) + Asya partisi",
                 ["turkmen", "kavalali", "delhi-sultanligi",
                  "ingiliz-hindistani", "ingiliz-malaya"]),
-    "#b34da5": ("Asya partisi — saruhan ile paylaşımlı; `meysur` 2026-08-08 "
-                "toplu turunda ayrıldı (danimarka ile ΔE 11,9 idi)",
-                ["saruhan", "mataram-sultanligi",
-                 "nguyen-hanedani", "tibet-ganden-phodrang"]),
+    # ⚠️ GRUBUN ADI DEĞİŞTİ — kurucu üye `saruhan` da ayrıldı (2026-08-08
+    #   ikinci geçiş: `esrefogullari` 9,26 · `napoli` 11,63). Bir grubun
+    #   ADI kurucusuna göre konmuşsa, kurucu ayrılınca ad da bayatlar.
+    "#b34da5": ("Asya partisi — kurucu `saruhan` ve `meysur` 2026-08-08'de "
+                "ayrıldı; kalan üçü birbirine komşu değil",
+                ["mataram-sultanligi", "nguyen-hanedani",
+                 "tibet-ganden-phodrang"]),
     # 🟢 BEYAN GÜNCELLENDİ — self-check bunu YAKALADI (yazıldıktan ~1 saat sonra,
     #   ilk gerçek koşusunda). `taceddin` Anadolu partisinde #1b8d36'ya taşındı;
     #   dört Asya kimliği #2d8f4a'da kaldı ve İZLEMEDİ. Tam yakalamak için
@@ -2293,8 +2328,12 @@ PAYLASIM = {
     #   (ΔE 11,56 · 545 km · eşzamanlı). İkisi Adriyatik'in iki yakası.
     #   ⇒ 30 Temmuz'da doğru olan hüküm, veri büyüyünce yanlış çıktı —
     #     `C14`: bir beyan da bayatlar.
-    "#8f7d5b": ("2026-07-30 denetimi — TEK ÜYE kaldı (bosna); ahiler ayrıldı",
-                ["bosna"]),
+    # ⚠️ GRUP BOŞALDI — `ahiler` ve `bosna` 2026-08-08'de ayrıldı.
+    #   Beyan SİLİNMİYOR: #8f7d5b artık hiçbir kimlikte kullanılmıyor ve
+    #   bu kayıt onun NİÇİN boşaldığını söylüyor. Boş kova, olmayan
+    #   kovadan farklıdır.
+    "#8f7d5b": ("2026-07-30 denetimi — BOŞALDI; ahiler ve bosna ayrıldı",
+                []),
     # 🟢 GRUP KALDIRILDI — `norvec` #e76690'a taşındı (RENK 2, 2026-08-06),
     #   çünkü `_ek12` bağlanınca `portekiz` ile ΔE 7,4 kaldı. Geriye
     #   #5c6bc0'ı YALNIZ `vollayta` kullanıyor ⇒ ortada paylaşım KALMADI.

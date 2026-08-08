@@ -2853,3 +2853,56 @@ yanlış çıktı.
 `#a56cab` (safevi) ve `#8f7d5b` (bosna) artık tek üyeli. **Tek üyeli
 "paylaşım" paylaşım değildir** ama kayıt olarak duruyor: yarın biri o
 hex'i *"boşta"* sanmasın diye. (Boş kova ≠ olmayan kova.)
+
+---
+
+## 59. İKİNCİ GEÇİŞ — ve BİRİNCİNİN HÜKMÜNÜ ÇÜRÜTTÜ
+
+```
+birinci geçiş   73 → 20   (26 yazım)
+ikinci geçiş    20 →  7   ( 9 yazım)
+```
+
+### 🔴 "KALAN 20 YAPISAL" DEMİŞTİM — YANLIŞTI
+`teke` tek başına ölçülünce **709 aday geçiyor** (en iyi 14,6). Ama parti
+içinde **26 renk seçildikten sonra 0** geçiyordu.
+
+> 🔴 **"ÇÖZÜLEMEDİ" HÜKMÜ SIRAYA BAĞLI OLABİLİR.** Partide seçilen her
+> renk sonraki kimliğe **engel** olur; geç sıraya düşen kimlik
+> **çözülemez GÖRÜNÜR.**
+
+📌 Ve bu, *"çözülemedi'nin iki cinsi var"* kuralının **üçüncü cinsi**:
+```
+TERCİH bağlar   → kısıttan çık, ÇÖZÜLÜR      (fransa ↔ portekiz)
+YAPI bağlar     → çıkış yok                   (ingiltere · portekiz)
+SIRA bağlar     → İKİNCİ GEÇİŞ çözer          ← YENİ
+```
+⚠️ Ve tehlikesi ötekilerden büyük: **yapısal görünür ama değildir.**
+Ben *"kalan 20 yapısal"* diye rapor ettim ve **13'ü öyle değildi.**
+
+### SIRALAMA BİR ÖDÜNLEŞMEDİR — ölçüldü, baskın yok
+```
+frekans sırası            13 çift kapandı, 7 açık
+"en bozuk çift önce"      12 çift kapandı, 8 açık
+```
+İkincisi `ceneviz ↔ teke`yi (ΔE 3,44, açılış ekranı) kapatıyor ama
+**üç yenisini açıyor.** Frekans sırası seçildi; `ceneviz ↔ teke` bir
+**BORÇ olarak kayıtlı**, saklı değil.
+
+### AÇIK KALAN 7 — üçü açılış sahnesinde
+```
+ceneviz ↔ teke        3,44   1321   🔴 AÇILIŞ
+eflak ↔ teodoro       5,06   1349   🔴 AÇILIŞ
+aydin ↔ sirbistan     6,97   1308   🔴 AÇILIŞ
+hollanda ↔ sardinya   3,34   1581
+altinorda ↔ suleyman-celebi  9,80
+musa-celebi ↔ napoli 10,72
+ramazanoglu ↔ sovalye 6,28
+```
+
+### 🟢 NÖBETÇİ İKİ KEZ DAHA — ve bir GRUP ADI bayatladı
+`#b34da5`in **kurucusu** `saruhan` ayrıldı ⇒ grubun **adı** ("saruhan ile
+paylaşımlı") de bayatladı. **Bir grubun adı kurucusuna göre konmuşsa,
+kurucu ayrılınca ad da bayatlar.**
+`#8f7d5b` **tamamen boşaldı** — beyan **silinmedi**: o hex'in niçin
+boşaldığını söylüyor. *Boş kova, olmayan kovadan farklıdır.*
