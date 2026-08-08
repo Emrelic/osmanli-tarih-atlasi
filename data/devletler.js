@@ -1889,17 +1889,6 @@ window.DEVLETLER = [
     { t:"1569-01-01", tur:"savas", b:"Osmanlı, Don-Volga kanal projesiyle bölgeyi geri almaya çalıştı; Kefe Beyi Kasım Bey'in seferi başarısız oldu (bkz. [[rusya]])" }
   ]
 },
-{ id:"sibir", ad:"Sibir Hanlığı", tur:"hanlik", bolge:"sibirya-bozkir",
-  f:"1420-01-01", t:"1598-01-01", baskent:"İsker (Sibir)",
-  ozet:"Altın Orda'nın dağılmasıyla Batı Sibirya'da kurulan Türk-Tatar hanlığı; Küçüm Han'ın direnişine rağmen Yermak'ın kazaklarıyla başlayan Rus istilası hanlığı ortadan kaldırdı. (kaynak: TDV, madde: sibir-hanligi)",
-  kronoloji:[
-    { t:"1420-01-01", tur:"kurulus", b:"Hacı Muhammed, Sibir bölgesinde hanlığın temelini attı" },
-    { t:"1493-01-01", tur:"bolunme", b:"Muhammed Tayboğa, hanedanı değiştirip başkenti Sibir şehrine taşıdı" },
-    { t:"1563-01-01", tur:"hukumdar", b:"Şeybânî soyundan Küçüm Han tahta çıktı, Ruslara karşı direnişi örgütledi" },
-    { t:"1582-01-01", tur:"savas", b:"Stroganov ailesinin desteklediği Yermak'ın kazakları başkent İsker'i ele geçirdi" },
-    { t:"1598-01-01", tur:"son", b:"Küçüm Han kesin yenilgiye uğradı, hanlık fiilen sona erdi" }
-  ]
-},
 { id:"nogay", ad:"Nogay Ordası", tur:"devlet", bolge:"sibirya-bozkir",
   f:"1440-01-01", t:"1783-01-01", baskent:"(bozkırda göçebe, sabit başkent yok)", harita:"nogay",
   ozet:"Altın Orda'nın dağılma sürecinde Mangıt beyi Edigü'nün mirasından doğan Türk-Tatar konfederasyonu; 1557-58'de Osmanlı yanlısı Büyük Nogay ile Moskova/Kırım yanlısı Küçük Nogay olarak ikiye bölündü, Rus/Kalmuk baskısıyla bağımsızlığını yitirdi. (kaynak: TDV, madde: nogaylar)",
@@ -3961,7 +3950,7 @@ window.DEVLETLER = [
 ,
 { id:"sibir-hanligi", ad:"Sibir Hanlığı", tur:"hanlik", bolge:"orta-asya",
   f:"1430-01-01", t:"1598-08-20", baskent:"Çimgi-Tura → Sibir (İsker)", harita:"sibir-hanligi",
-  ozet:"Altın Orda'nın dağılmasından sonra Tura, Tobul ve İşim nehirleri arasında kurulan Şeybânî hanlığı; başşehrin Sibir (İsker) şehrine taşınmasıyla bu adı aldı. Tayboğa ve Şeybânî hânedanları arasındaki çekişme 1563'te Küçüm Han'ın tahtı ele geçirmesiyle sonuçlandı. Stroganovlar'ın 1581'de gönderdiği Yermak önderliğindeki Kazak birliği hanlığın sonunu getiren süreci başlattı; Rusya'nın Sibirya'ya açılan kapısı burasıydı.",
+  ozet:"Altın Orda'nın dağılmasından sonra Tura, Tobul ve İşim nehirleri arasında kurulan Şeybânî hanlığı; başşehrin Sibir (İsker) şehrine taşınmasıyla bu adı aldı. Tayboğa ve Şeybânî hânedanları arasındaki çekişme 1563'te Küçüm Han'ın tahtı ele geçirmesiyle sonuçlandı. Stroganovlar'ın 1581'de gönderdiği Yermak önderliğindeki Kazak birliği hanlığın sonunu getiren süreci başlattı; Rusya'nın Sibirya'ya açılan kapısı burasıydı. ⚠️ VERİ DEVLET (7 Ağustos 2026) BİRLEŞTİRDİ: aynı devleti temsil eden mükerrer kayıt `sibir` (f:1420-01-01, t:1598-01-01, harita:'siz, renk YOK, veride 0 kullanım) kaldırıldı — bu kayıt zaten `harita:`/`kaynak:` ile bağlıydı ve TDV'nin verdiği \"1593-1604\" tamamlanma aralığıyla tutarlı, o yüzden bu kayıt tutuldu.",
   kaynak:"sibir-hanligi",
   kronoloji:[
     { t:"1430-01-01", tur:"kurulus", b:"Şeybânî Hacı Muhammed'in oğlu Mahmutek döneminde hanlık şekillendi" },
