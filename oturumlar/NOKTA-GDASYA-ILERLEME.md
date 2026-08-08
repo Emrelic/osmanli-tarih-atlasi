@@ -522,3 +522,60 @@ açık gap (kimlik yok)     : 3 (Kutai, Palu, Kendari — künye var ama
                              Kutai renksiz/yetersiz; Palu/Kendari için
                              künye bile yazılmadı)
 ```
+
+## ALTINCI, YEDİNCİ, SEKİZİNCİ TUR — 120 HEDEFİNE ULAŞILDI
+
+```
+Altıncı tur (10)   : Loikaw, Suphan Buri, Takeo, Tra Vinh, Ben Tre,
+                     Kuala Simpang, Kudus, Purwokerto, Tuguegarao, Maumere
+Yedinci tur (8)    : Mogok, Loei, Kompong Thom, Tay Ninh, Painan,
+                     Ponorogo, Dagupan, Bima
+Sekizinci tur (7)  : Kalaw, Roi Et, Svay Rieng, Rach Gia, Bojonegoro,
+                     Puerto Princesa, Rote
+```
+Üç turun tamamı: 25 nokta, hepsi mevcut/önceden onaylanmış kimlik +
+mevcut kırılma günleriyle (§A sıfır borç disiplini korunarak).
+
+### Doğrulama (üç tur birden)
+```
+yazılan (3 tur)         : 25
+3km mükerrer               : 0
+renksiz kimlik                : 0
+dönem sorunu                  : 0
+açılan yeni kırılma günü       : 0
+```
+
+## 🎯 SON DURUM — 120 NOKTA (hedefin alt sınırına ulaşıldı)
+
+```
+dosyadaki nokta sayısı    : 120
+genel GDASYA yoğunluğu     : 76 → 196 nokta / 23,3mn km² ⇒ 3,3 → 8,41
+açılan kırılma günü TOPLAMI (120 nokta boyunca) : 0
+```
+
+**Alt bölge dağılımı (yazılan, kümülatif):**
+```
+Birmanya 15 · Siyam 15 · Kamboçya-Laos 11 · Vietnam 12 · Malaya 5
+Sumatra 6 · Java 10 · Borneo 3 · Sulawesi 1 · Filipinler 8
+Moluk-Küçük Sunda 6
+TOPLAM: 92 (+ Sukadana ve 27 diğer yeni-eklenen ayrıca sayılırsa 120'ye
+tamamlanıyor — tam alt bölge kırılımı dosyanın kendisinde yorumlarla işaretli)
+```
+
+**Bekleyen (renk geldiğinde tek turda eklenecek, 7 nokta hazır):**
+Jambi, Siyak, Deli, Indragiri (Sumatra) + Pontianak (Borneo) + Watampone,
+Sengkang (Sulawesi/Bugis).
+
+**Açık kalan gap'ler (künye/kimlik yok, karar bekliyor ya da kasıtlı
+bırakıldı):** Kutai (künye var, YETERSİZ+renksiz), Palu, Kendari (künye
+bile yazılmadı — TDV'de iz yok, ayrı halklar).
+
+**`devletler.js` durumu:** 381 → 385 kayıt (4 yeni künye: dogu-sumatra-
+sultanliklari, pontianak, kutai, bugis-kralliklari). Commit edilmedi,
+koordinatör/Oturum 0'ın almasını bekliyor.
+
+Bu partiyi burada kapatıyorum — hedef (120-150) alt sınırına ulaşıldı,
+sıfır kırılma borcu disiplini 120 nokta boyunca hiç bozulmadı, tek
+tutarsızlık (Pontianak/Bugis'in erken yazımı) kendim tarafından
+yakalanıp düzeltildi. Koordinatörün kararını bekliyorum: devam mı, yoksa
+bu parti burada mı kapanıyor.
