@@ -4662,6 +4662,30 @@ window.DEVLETLER = [
     { t:"1723-01-01", tur:"kurulus", b:"Siyak, Cohor (Johor) tahtı ihtilafından ayrılarak kuruldu (Raja Kecil)" },
     { t:"1858-01-01", tur:"vassal", b:"Hollanda'nın 'Korte Verklaring' antlaşmalarıyla Doğu Sumatra sultanlıklarını sistematik denetime alması (yıl beyanı, kademeli süreç)" }
   ]
+},
+{ id:"pontianak", ad:"Pontianak Sultanlığı (Borneo)", tur:"devlet", bolge:"guneydogu-asya",
+  f:"1772-01-01", t:"1855-01-01", baskent:"Pontianak",
+  ozet:"Batı Borneo'da Hadramutlu bir Arap seyyahın kurduğu sultanlık (HANEDAN ÖMRÜ). TDV'nin genel 'borneo' maddesi somut olarak veriyor: '1772'de Şerif Abdurrahman adındaki Hadramutlu bir Arap seyyah Pontianak Sultanlığı'nı kurdu.' t=1855 (Hollanda 'Lange Contract'larla doğrudan denetimi sistematikleştirmesi) YIL BEYANIdır; sultanlık sonrasında Hollanda'ya bağlı adlı bir varlık olarak sürdü.",
+  kaynak:"borneo",
+  kronoloji:[
+    { t:"1772-01-01", tur:"kurulus", b:"Şerif Abdurrahman, Pontianak Sultanlığı'nı kurdu (TDV borneo maddesi)" }
+  ]
+},
+{ id:"kutai", ad:"Kutai Sultanlığı (Doğu Borneo)", tur:"devlet", bolge:"guneydogu-asya",
+  f:"1575-01-01", t:"1908-01-01", baskent:"Tenggarong",
+  ozet:"Doğu Borneo'da eski bir Hindu krallığından İslâmlaşarak dönüşmüş sultanlık (HANEDAN ÖMRÜ). TDV'nin 'borneo' maddesi yalnız isim düzeyinde geçiyor: 'Borneo'da Bancermasin, Kutei, Sukadana ve Sambas gibi bazı küçük İslâm sultanlıkları ortaya çıktı' — somut tarih/olay vermiyor. f/t YIL BEYANIdır, standart akademik kaynağa göre.",
+  kaynak:"yetersiz — borneo maddesi okundu, Kutai'yi Bancermasin/Sukadana/Sambas'la birlikte İSİM düzeyinde anıyor ama somut tarih/olay vermiyor; dayanak: standart akademik kaynak",
+  kronoloji:[
+    { t:"1908-01-01", tur:"son", b:"Hollanda'nın Kutai üzerinde tam doğrudan denetimi (yıl beyanı)" }
+  ]
+},
+{ id:"bugis-kralliklari", ad:"Bugis Krallıkları (Bone, Wajo, Soppeng — Tellumpoccoe)", tur:"devlet", bolge:"guneydogu-asya",
+  f:"1330-01-01", t:"1905-08-06", baskent:"—",
+  ozet:"Güney Sulawesi'nin Bugis krallıkları için TOPLU/BATTANİYE künye (HANEDAN ÖMRÜ değil) — Gova-Makassar'ın TARİHÎ RAKİBİ, ayrı kimlik (bkz. gova-makassar; 1666-69 Makassar Savaşı'nda Hollanda'yla ittifak kurup Gova'ya karşı savaştılar, aynı kimlik kullanılamaz). TDV'de dördünün de (Bone, Wajo, Soppeng) müstakil maddesi yok; 'sulawesi'/'bugi' aramaları yalnız Bugis halkının varlığından bahsediyor, krallıklardan somut tarihle değil. f YIL BEYANIdır (Bone'un geleneksel kuruluşu ~1330), t=1905-08-06 Bone Savaşı'nın sonu (Hollanda'nın son bağımsız Bugis direnişini kırdığı tarih, standart akademik kaynak).",
+  kaynak:"bulunamadı — arandı, yok. 'bone' slug'ı Cezayir'deki Bûne limanına yönleniyor (alakasız); 'sulawesi' ve 'bugi' genel maddeleri okundu, Bugis halkından bahsediyorlar ama Bone/Wajo/Soppeng krallıklarını ayrı ayrı işlemiyorlar. Dayanak: standart akademik kaynak.",
+  kronoloji:[
+    { t:"1905-08-06", tur:"son", b:"Bone Savaşı'nın sonu — Hollanda'nın Güney Sulawesi'deki son büyük Bugis direnişini kırması (standart akademik kaynak, yıl+ay beyanı)" }
+  ]
 }
 
 ];

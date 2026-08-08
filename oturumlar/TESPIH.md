@@ -2,7 +2,7 @@
 
 > 🤖 **BU DOSYA ÜRETİLİR — ELLE DÜZENLEME.**
 > Kaynak: `oturumlar/tespih.json` · üretici: `ClaudEmre/kutu/tespih.py`
-> Son güncelleme: **2026-08-08T15:45**
+> Son güncelleme: **2026-08-08T15:48**
 >
 > Sıralama ölçütü **`FAYDA ÷ EMEK`** — önem yüksek + irilik düşük önce.
 > Üç öncelik kuralı: **① darboğaz · ② tekrar eden madde · ③ yakınlık**
@@ -14,7 +14,7 @@
 | 🔬 | **sistem analizi** | biz ölçüp eksik/yanlış bulduk, Emre onayladı | 12 |
 | 💬 | **Emre — oturumdan** | iş sürerken aklına gelip pencereye yazdı | 32 |
 | 📦 | **Emre — paket** | toplu hâlde gönderdiği hatalar/fikirler | 1 |
-| 🔧 | **oturum önerisi** | işçi oturum bildirdi ya da istişareden çıktı | 40 |
+| 🔧 | **oturum önerisi** | işçi oturum bildirdi ya da istişareden çıktı | 42 |
 | 👁 | **bekleyenler cevabı** | BEKLEYENLER kutusunda sorulana verdiği cevap | 3 |
 | 🌱 | **%0 — gündemde yoktu** | hiç düşünülmemişti; üreteç peydah etti | 0 |
 
@@ -72,7 +72,7 @@
 | 🟧 | **metreküp** | bir çağ / bir devlet — haftalarca iş · 🔴 **YAPILMAZ, AÇILIR** | 14 |
 | 🟨 | **desimetreküp** | bir bölge / bir eksen — günlerce iş · 🔴 **YAPILMAZ, AÇILIR** | 7 |
 | 🟩 | **santimetreküp** | bir parti — saatlerce iş | 10 |
-| 🟦 | **milimetreküp** | TEK BONCUK — yapılabilir, açılamaz | 53 |
+| 🟦 | **milimetreküp** | TEK BONCUK — yapılabilir, açılamaz | 55 |
 
 ---
 
@@ -101,11 +101,12 @@
 
 ---
 
-## 🔵 ÇEKİLMEYİ BEKLEYEN — sıradaki boncuklar — 37
+## 🔵 ÇEKİLMEYİ BEKLEYEN — sıradaki boncuklar — 38
 
 | # | iş | kanal | sahip | niçin bu sırada |
 |---|---|---|---|---|
 | T-0083 | `dogu-sumatra-sultanliklari` rengi — 4 nokta bunu bekliyor | 🟦 🔧 | — | Künye yazıldı ama BOYALAR'da yok ⇒ §8: bölge BOYANMAZ. NOKTA GDASYA Sumatra'nın dört noktasını yazamıyor. RENK 2'de. |
+| T-0090 | Dört renk bekliyor — dogu-sumatra · pontianak · kutai · bugis | 🟦 🔧 | — | 🔴 Dördü de künyeli ama BOYALAR'da YOK ⇒ §8: bölge BOYANMAZ. Sumatra'nın 4 noktası + Borneo/Sulawesi noktaları bunları bekliyor. RENK 2'de, toplu istendi. |
 | T-0080 | 🔴 72 RENK İHLALİ — Anadolu beylikleri + İtalyan şehirleri | 🟨 🔧 | — | RENK 2'nin yeni çift kurucusu (künye penceresi + kademeli mesafe) 143 çift kurdu — HİÇBİRİNİ hiçbir denetim görmüyordu. 72'si ΔE<12. 🔴 VE NEREDE OLDUĞU ASIL BULGU: ~30 çift Anadolu beylikleri (aydin·karesi·mentese·hamid·teke·germiyan·saruhan·eretna·karaman· dulkadir·artuklu…), ~15 çift İtalyan şehirleri (ceneviz·venedik·piza· ferrara·siena·napoli…). En dar: bizans↔inancogullari ΔE 9,55 · 104 km · 1281-1368 — ATLASIN AÇILIŞ SAHNESİ. Kullanıcının Osmanlı'nın doğuşunu okuduğu ekran. ⚠️ B15: büyük partide tavan ÇÖZÜLEMEZ olabilir (kırk partisinde 29/40'ta takılmıştı) — önce ÖLÇ, sonra parti tasarla. |
 | T-0031 | Cost-distance prototipi — Voronoi'nin topografik hâli | 🟦 💬 | — | Emre: 'iple çekiyorum'. Motor zaten 0,05° Dijkstra kullanıyor, eksik olan SÜRTÜNME ÇARPANI. 1800 noktanın %50'si bir engeli ihlal ediyor |
 | T-0060 | Doğu Asya noktaları 171→?  ↳ `T-0057` | 🟧 💬 | — | yoğunluk 8,8 · 19,4 mn km² |
@@ -157,10 +158,11 @@
 
 ---
 
-## ✅ SAYILAN — öbür uca dizilmiş boncuklar — 35
+## ✅ SAYILAN — öbür uca dizilmiş boncuklar — 36
 
 | # | iş | kanal | ölçüm | bitti |
 |---|---|---|---|---|
+| T-0089 | Üç künye: pontianak · kutai · bugis-kralliklari | 🔧 | 382 → 385 künye · 🔴 TEK KURAL DAYATILMADI: TDV'nin kanıt KALİTESİ üç ayrı muamele gerektirdi — pontianak DOĞRULANDI (genel `borneo` maddesi somut tarih+isim verdi), kutai YETERSİZ (yalnız isim düzeyi), bugis TOPLU (bulunamadı). Palu/Kendari için künye YAZILMADI — açık gap ilan edildi | 2026-08-08 |
 | T-0084 | Java noktaları — GD Asya alt bölgesi | 🔧 | 5 nokta · `kediri` künyesi GEREKMEDİ (1222'de yenildi, atlas 1281'de başlıyor — pencere kontrol edildi) · sıfır borç | 2026-08-08 |
 | T-0085 | Borneo noktaları (kısmî) — GD Asya alt bölgesi | 🔧 | 2 nokta · Pontianak/Kutai için uygun kimlik YOK, yazılmadı · sıfır borç | 2026-08-08 |
 | T-0086 | Sulawesi + Filipinler + Moluk — GD Asya alt bölgesi | 🔧 | 8 nokta · 🔴 Bone için `gova-makassar` KULLANILMADI: Bone Gova'nın TARİHÎ RAKİBİYDİ, Makassar Savaşı'nda Hollanda'yla ittifak kurdu — en yakın kimliği vermek §3.5.1 ihlali olurdu · sıfır borç | 2026-08-08 |

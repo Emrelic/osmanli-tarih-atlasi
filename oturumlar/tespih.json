@@ -1,7 +1,7 @@
 {
   "surum": 1,
   "proje": "Osmanlı Tarih Atlası",
-  "guncelleme": "2026-08-08T15:45",
+  "guncelleme": "2026-08-08T15:48",
   "isler": [
     {
       "id": "T-0001",
@@ -1488,6 +1488,46 @@
       "basladi": "2026-08-08T15:44",
       "bitti": "2026-08-08T15:44",
       "olcum": "ÇAKIŞAN 0 → 5 → 0 · dört yazım (malaka·banten·san-fan·palembang) · her çiftin AZ KOMŞULU ucu taşındı · yeni ΔE 19,48-38,37. 🔴 RENK 2'nin öngörüsü ÖLÇÜLDÜ: künye penceresiyle görünen çift, nokta inince GERÇEK Voronoi çakışmasına dönüştü"
+    },
+    {
+      "id": "T-0089",
+      "baslik": "Üç künye: pontianak · kutai · bugis-kralliklari",
+      "hal": "biten",
+      "kanal": 4,
+      "onem": 4,
+      "irilik": 1,
+      "nicin": "",
+      "olcek": "mm3",
+      "ust": null,
+      "z": "*",
+      "m": "Asya›Güneydoğu",
+      "k": "siyasî›devlet",
+      "u": "kimlik",
+      "sahip": "NOKTA GDASYA",
+      "girdi": "2026-08-08T15:48",
+      "basladi": "2026-08-08T15:48",
+      "bitti": "2026-08-08T15:48",
+      "olcum": "382 → 385 künye · 🔴 TEK KURAL DAYATILMADI: TDV'nin kanıt KALİTESİ üç ayrı muamele gerektirdi — pontianak DOĞRULANDI (genel `borneo` maddesi somut tarih+isim verdi), kutai YETERSİZ (yalnız isim düzeyi), bugis TOPLU (bulunamadı). Palu/Kendari için künye YAZILMADI — açık gap ilan edildi"
+    },
+    {
+      "id": "T-0090",
+      "baslik": "Dört renk bekliyor — dogu-sumatra · pontianak · kutai · bugis",
+      "hal": "bekleyen",
+      "kanal": 4,
+      "onem": 5,
+      "irilik": 1,
+      "nicin": "🔴 Dördü de künyeli ama BOYALAR'da YOK ⇒ §8: bölge BOYANMAZ. Sumatra'nın 4 noktası + Borneo/Sulawesi noktaları bunları bekliyor. RENK 2'de, toplu istendi.",
+      "olcek": "mm3",
+      "ust": null,
+      "z": "*",
+      "m": "Asya›Güneydoğu",
+      "k": "sistem›palet",
+      "u": "gorunum",
+      "sahip": null,
+      "girdi": "2026-08-08T15:48",
+      "basladi": null,
+      "bitti": null,
+      "olcum": null
     }
   ]
 }
