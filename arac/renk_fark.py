@@ -84,8 +84,27 @@ def zincir():
       fark() BÜYÜMEYİ bildirir: 65 → 70 görünür olur.
     """
     D = girdi.oku_devletler()
+    # 🔴 HARİTA ANAHTARI = `harita:` varsa O, yoksa `id:`. `id` ∪ `harita`
+    #   BİRLEŞİMİ DEĞİL — ölçüldü ve birleşim ÜÇÜNCÜ DALI BOZUYOR:
+    #     bosna-kralligi (harita=bosna) · bulgar-carligi (harita=bulgaristan)
+    #     arnavutluk-iskenderbey (harita=arnavutluk) … 33 kayıt
+    #   Bunların `harita:` alanı BAŞKA bir anahtara bakıyor, yani KENDİ
+    #   renklerine ihtiyaçları yok. Birleşim onları "rengi eksik" sayardı:
+    #     harita-or-id  → künyesi var rengi yok  63   ✓ doğru
+    #     id ∪ harita   → künyesi var rengi yok  96   🔴 33 yanlış-pozitif
+    #   📌 Koordinatör "aletleri id ∪ harita okuyacak şekilde düzelt" dedi;
+    #      ölçtüm, öneri İKİ dalda doğru BİRİNDE yanlış olurdu. Doğru çözüm
+    #      birleşim değil, AYRI BİR DAL (aşağıda ⑤).
     kunye = {(d.get("harita") or d.get("id")) for d in D
              if (d.get("harita") or d.get("id"))}
+    idler = {(d.get("id") or "") for d in D if d.get("id")}
+    # ⑤ KÜNYE VAR ama `harita:` BAŞKA ANAHTARDA — kullanılan bir kimliğin
+    #   künyesi var, fakat haritaya BAŞKA bir ada bağlanmış. "Künye yok"
+    #   DEĞİL, "künye bağlı değil": ayrı sınıf, ayrı çözüm (tek satır).
+    #   Doğuran vakalar: afsar/kacar (harita='iran' — aylardır süren ΔE 0
+    #   uyarısının kökü) ve merini (harita='fas', 7 Ağustos akşamı).
+    baska = {(d.get("id") or ""): d.get("harita") for d in D
+             if d.get("id") and d.get("harita") and d.get("harita") != d.get("id")}
     Y = girdi.yukle(sessiz=True)
     veride = set()
     for y in Y:
@@ -93,11 +112,15 @@ def zincir():
             for p in (y.get(kat) or []):
                 if p.get("d"):
                     veride.add(p["d"])
+    kullanilan = veride | set(R.BOYALAR)
     return {
         "kunye_var_renk_yok": sorted(kunye - set(R.BOYALAR)),
-        "renk_var_kunye_yok": sorted(set(R.BOYALAR) - kunye),
+        "renk_var_kunye_yok": sorted(set(R.BOYALAR) - kunye - idler),
         "veride_renk_yok":    sorted(veride - set(R.BOYALAR)),
-        "veride_kunye_yok":   sorted(veride - kunye),
+        "veride_kunye_yok":   sorted(veride - kunye - idler),
+        "harita_baska_anahtarda": sorted(
+            "%s (harita=%s)" % (a, b) for a, b in baska.items()
+            if a in kullanilan),
     }
 
 
@@ -111,6 +134,8 @@ def zincir_bas(z, eski=None):
         ("renk_var_kunye_yok", "rengi var, künyesi yok", False),
         ("veride_renk_yok",    "VERİDE kullanılıyor, rengi YOK", True),
         ("veride_kunye_yok",   "VERİDE kullanılıyor, künyesi YOK", True),
+        ("harita_baska_anahtarda",
+         "künye var ama harita: BAŞKA anahtarda", True),
     ]
     kusur = 0
     for ad, metin, kritik in ETIKET:

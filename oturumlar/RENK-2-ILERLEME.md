@@ -2031,3 +2031,97 @@ kısa özet 29 → 33  (+4)
 📌 **Eşiği dağılımdan türetmenin karşılığı bu:** külliyat büyüdü, eşik
 kendiliğinden yükseldi. Elle yazılmış 120 olsaydı bugün de 120 olurdu ve
 sayı, külliyatın değişimini değil yalnız kendi keyfîliğini yansıtırdı.
+
+---
+
+## ㊺ `sadi` YAZILDI · GÖÇ ÖLÇÜLDÜ · VE ALETİMDE BİR KUSUR ARANDI — başka bir şey bulundu
+
+### 🟢 `sadi #1290ed` — Fas'ın üçüncü katmanı
+```
+merini 1196-1549 → sadi 1549-1659 → fas 1549-1923
+merini↔sadi 24,8 · sadi↔fas 37,2 · merini↔fas 42,0
+pay 23,9 · C* 21,6 = paletin %45'i
+```
+⚠️ Örtüşme (sadi 1549-1659 vs fas 1549-1923) **kasıtlı değil, çözülmemiş** —
+VERİ DEVLET `fas`ın kendi kronolojisi (1666) ile TDV (1659) arasında 7 yıl
+fark buldu ve dokunmadı. Renk bunu beklemiyor: iki gövde zaten yan yana
+çizilecek ve **37,2 ile ayrışıyorlar.**
+
+### Fransa göçünün ölçülmüş etkisi
+```
+fransa-cumhuriyet   veride 0 → 180 pencere
+renk_fark: doğan komşuluk çifti 33 · ölen 18 · yeni çakışma 0
+```
+180 dönem yeni bir gövde doğurdu, 33 yeni komşuluk kurdu ve **hiçbiri eşiğin
+altında değil.** `#45edcc` Kuzey Afrika · Batı Afrika · metropolde aynı anda
+sahnede ve `ingiltere` · `ispanya` · `italya` · `fas` · `merini` ile komşu.
+
+---
+
+## ㊻ 🔴 KOORDİNATÖRÜN BİLDİRDİĞİ KUSUR — ÖLÇTÜM, ÜREMEDİ
+
+Sevk: *"`kaffa` · `cimma` · `vollayta` · `sidamo` senin listende künyesiz
+görünüyordu, ama dördü de dizinde vardı; aletlerini `id:` ∪ `harita:`
+okuyacak şekilde düzelt."*
+
+**Ölçüm:**
+```
+kimlik      veride   benim kümemde   id∪harita'da   künye kaydı
+kaffa          2         VAR             VAR        ('kaffa-kralligi','kaffa')
+cimma          1         VAR             VAR        ('cimma-sultanligi','cimma')
+vollayta       1         VAR             VAR        ('vollayta-kralligi','vollayta')
+sidamo         1         VAR             VAR        ('sidamo-kralliklari','sidamo')
+
+VERİDE kullanılıp künyesiz — benim ölçümle 1 (ainu) · id∪harita ile 1 (ainu)
+```
+⇒ **Dördü de benim kümemde zaten VAR** ve iki yöntem **aynı** sonucu
+veriyor. Kusur üremedi. Muhtemel sebep: koordinatör **saatler önce
+ürettiğim `kunye-bekleyen-40.txt` artefaktına** bakmış; o dosya VERİ DEVLET
+künyeleri yazmadan önce üretilmişti.
+📌 Bugün üçüncü kez: **bayat artefakt, canlı ölçüm gibi okunuyor.** Aynı
+tuzağa sabah ben düştüm (`§1.5` tablosu), sonra koordinatör düştü
+(`ryazan` "renk YOK"), şimdi bu.
+
+### 🔴 AMA ÖNERİSİ İKİ DALDA DOĞRU, BİRİNDE YANLIŞ OLURDU — ölçüldü
+```
+                              harita-or-id (benim)   id ∪ harita
+künyesi var, rengi yok               63  ✓                96  🔴 +33 yanlış
+rengi var, künyesi yok                3                    2  ✓
+```
+`id ∪ harita`nın 33 fazlası: `bosna-kralligi` (harita=`bosna`) ·
+`bulgar-carligi` (harita=`bulgaristan`) · `arnavutluk-iskenderbey`
+(harita=`arnavutluk`)… **Bunların `harita:` alanı başka anahtara bakıyor,
+yani KENDİ renklerine ihtiyaçları yok.** Birleşim onları "rengi eksik"
+sayardı.
+
+⇒ **Doğru çözüm birleşim değil, AYRI BİR DAL.** Aletе beşincisi eklendi:
+```
+⑤ künye var ama harita: BAŞKA anahtarda
+```
+Ve **ilk koşusunda gerçek bir bulgu verdi:**
+```
+merini (harita=fas)   ← birkaç saat önce RENK YAZDIĞIM kimlik
+```
+`merini`nin künyesi var ama haritaya `fas` diye bağlanmış — yani yazdığım
+`#0f24b1` **hiçbir zaman boyanmayacaktı.** Bu, sabah `afsar`/`kacar`da
+bulduğum sınıfın aynısı ve **kendi işimde** çıktı.
+
+📌 Ders: *"aletini şöyle düzelt"* denince önce **kusurun üreyip üremediğini**
+ölç. Bu vakada kusur üremedi ama **düzeltme önerisi başka bir kusuru
+gösterdi** — ve o kusur, öneriden farklı bir çözüm istiyordu.
+
+### `C13` — beşinci dal iki yönde de sınandı
+```
+① geçme yolu   dal boş → kusur 0                      ✓
+② ateşleme     sahte iki kayıtla → kusur 2            ✓
+③ gerçek veri  merini (harita=fas) → 🔴               ✓
+```
+
+### ÖLÇÜM
+```
+BOYALAR 310 → 311 · nokta 2133 · künye 381
+renk_olc   0 görünmez · 0 çakışma · 0 aynı-anahtar · 0 aynı-hex
+renk_fark  doğan 33 · ölen 18 · doğan kusur 0 · düşen 0
+zincir     61 · 2 · 0 · 1 (ainu) · 1 (merini harita=fas)
+kunye_olc  381 künye · medyan 208 · eşik 104 · kısa 33 · boş 0
+```

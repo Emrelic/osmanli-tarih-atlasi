@@ -1069,6 +1069,20 @@ BOYALAR = {
     #   bugün `fas` 1549-1923, `sadi` 1549-1659 olarak anılıyor, yani ikisi
     #   aynı pencereyi paylaşır görünüyor. Koordinatöre bildirildi.
     "merini":     ("Merînîler (Fas)",        "#0f24b1"),
+    # ═══ SA'DÎLER — RENK 2, 7 Ağustos 2026 akşamı ═══
+    # Fas'ın ÜÇÜNCÜ katmanı. Künye 1549-01-01 → 1659-01-01 (TDV `sadiler`
+    # canlı, VERİ DEVLET doğruladı). Üç katman aynı toprakta ardışık:
+    #   merini 1196-1549 → sadi 1549-1659 → fas 1549-1923
+    # ÖLÇÜM: komşu `fas` · `ispanya` · 600 km'de 9 palet kimliği ·
+    #   en yakın engel ΔE 23,9 · C* 21,6 = paletin %45'i
+    #   ÜÇ KATMAN BİRBİRİNDEN: merini↔sadi 24,8 · sadi↔fas 37,2 ·
+    #   merini↔fas 42,0  ⇒ kullanıcı üç devri üç renkte görecek.
+    # ⚠️ ÖRTÜŞME ÇÖZÜLMEMİŞ: `sadi` 1549-1659 ile `fas` 1549-1923 aynı
+    #   pencerede başlıyor. VERİ DEVLET ölçtü — `fas`ın kendi kronolojisi
+    #   (1666) ile TDV (1659) arasında 7 yıl fark var ve `fas`a dokunulmadı.
+    #   Kasıtlı değil, ÇÖZÜLMEMİŞ. Renk bunu beklemiyor: iki gövde zaten yan
+    #   yana çizilecek, ayrışmaları şart — ve ayrışıyorlar (37,2).
+    "sadi":       ("Sa'dîler (Fas)",         "#1290ed"),
     "fas":        ("Fas",                    "#9e6b5b"),
     # --- Beylik öncesi Anadolu'nun sahipleri (kullanıcı tespiti: 1288 haritasında
     # beylikler yanlış; hepsi 1281'de başlıyordu, gerçek kuruluşları onlarca yıl
