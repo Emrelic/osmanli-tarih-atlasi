@@ -28,38 +28,88 @@ sonra İzmir'e geçer"*. Kapı sistemi *"geçer"*i ifade edemez; ancak *"bir gü
 açık bir gün kapalı"* diyebilir, ve o gün Efes'in bütün bölgesi **tek karede**
 İzmir'e sıçrar.
 
-### 1.1 🟢 Ve kapı, ağırlığın ÖZEL HÂLİDİR — ikisini birden almıyoruz
+### 1.1 🔴 BU BÖLÜM BİR KEZ YANLIŞ YAZILDI — ÖLÇÜM ÇÜRÜTTÜ
 
-Karar alınırken *"ucuz olanı kaybediyor muyuz"* diye soruldu. **Hayır:**
+**İlk hâli şunu diyordu** ve kullanıcıya da böyle bildirildi:
+
+> *"Kapı, ağırlığın özel hâlidir: `w = 0 ⇒ maliyet ÷ 0 = ∞ ⇒ hiçbir hücreyi
+> kazanamaz.` Yani **4. sınıf = ağırlığı sıfır olan yerleşim.**"*
+
+Matematik doğruydu. **Veriye uygulanınca çöktü** — ve çökmesinin sebebi,
+tasarım yazılırken **var olan alanın ölçülmemiş olmasıydı.**
 
 ```
-w = 0  ⇒  maliyet ÷ 0 = ∞  ⇒  o yerleşim HİÇBİR hücreyi kazanamaz
+🔴 `k:` alanı ZATEN VAR — ve `kd:` (zamanlı hâli) ZATEN TASARLANMIŞ
+   (VERI-YAPISI.md §"Planlanan alanlar", gerekçe MIMARI.md §3.1 ve §3.4)
+
+ölçülen dağılım (2261 nokta)
+   k:1     4   Söğüt · Bursa · Edirne · İstanbul          ← yalnız BAŞKENTLER
+   k:2    58   Ankara · Konya · Sivas · Trabzon · Sofya   ← eyalet merkezi
+   k:3   188   İznik · İzmit · Manisa · Aydın · Karaman   ← sancak merkezi
+   k:4   473   İnegöl · Geyve · Kestel · Aydos Kalesi     ← kaza / kasaba
+   k:0  1538   Otranto · Brindisi · Soçi · Tarki          ← kademesiz (yabancı)
 ```
 
-Yani **4. sınıf = ağırlığı sıfır olan yerleşim.** Kapı, ağırlık sisteminin
-içinde zaten var. Ayrı bir mekanizma yazılmayacak, ayrı bir denetim
-gerekmeyecek. ⇒ *"Önce kapı sonra ağırlık"* üçüncü seçeneği **gereksiz.**
+⇒ **`k:4` boş bir kova değil, 473 gerçek yerleşim.** Ağırlıkları sıfırlansa
+**473 petek bir gecede silinirdi** — ve o peteklerin çoğu **doğru.** İnegöl
+1300'de bir kasabadır ama 40 km çevresinde başka nokta yoktur; toprağı
+tutması gerekir.
 
-### 1.2 Şema
+### 1.1b ⇒ DOĞRU CEVAP: ağırlık **sıfırlanmaz, KÜÇÜLTÜLÜR** — ve kapıya hiç gerek yok
+
+Kullanıcının koyduğu kural **mutlak değil GÖRELİDİR**: *"Yeşilköy koca
+İstanbul'dan bölge çalmasın."* Bu bir *"Yeşilköy'ün bölgesi olmasın"* değil,
+bir ***"Yeşilköy'ün bölgesi İstanbul'unkinin yanında ihmal edilebilir
+olsun"*** cümlesidir. Ve ağırlık sistemi bunu **kendiliğinden** yapar:
+
+```
+Yeşilköy (w düşük) ↔ İstanbul (w yüksek)   → Yeşilköy'e kıl payı hücre. DOĞRU.
+İnegöl   (w düşük) ↔ 40 km'de kimse yok    → İnegöl toprağı TUTAR.  DOĞRU.
+```
+
+**Aynı ağırlık, iki farklı sonuç** — çünkü sonucu belirleyen ağırlığın
+kendisi değil, **komşusuyla ORANI.** Sıfır ağırlık bu ayrımı yok eder:
+Yeşilköy'ü doğru çözerken İnegöl'ü yanlış çözer.
+
+📌 Ve bu, `§3.2`de ölçülen `banda-adalari` vakasının aynısıdır tersinden:
+orada küçük bir kimlik **komşusu olmadığı için** dev bir alan boyuyordu.
+**Petek büyüklüğünü belirleyen şey noktanın kendisi değil, çevresidir.**
+
+### 1.2 Şema — YENİ ALAN YOK, `kd:` HAYATA GEÇİRİLİR
+
+`VERI-YAPISI.md` bunu zaten tasarlamış ve *"k/m'nin yerini alacak"* diye
+işaretlemiş. Yeni bir `sinif:` alanı **açılmayacak**:
 
 ```js
 { ad:"Söğüt", lat:…, lon:…,
-  sinif:[{ f:"1281-01-01", t:"1326-04-06", s:1 },   // beylik merkezi
-         { f:"1326-04-06", t:"1402-07-28", s:3 },   // Bursa merkez oldu
-         { f:"1402-07-28", t:"1923-10-29", s:4 }] } // kasaba
+  kd:[{ f:"1281-01-01", t:"1326-04-06", k:1, m:null      },  // beylik merkezi
+      { f:"1326-04-06", t:"1402-07-28", k:3, m:"Bursa"   },  // Bursa merkez oldu
+      { f:"1402-07-28", t:"1923-10-29", k:4, m:"Bilecik" }] }
 ```
 
-| sınıf | ne | ağırlık `w` |
-|---|---|---|
-| **1** | başkent, imparatorluk merkezi | **1,00** |
-| **2** | büyük şehir, eyalet merkezi | **0,70** |
-| **3** | il/sancak merkezi | **0,45** |
-| **4** | kayıtlarda geçer ama bölge atfedilmez | **0,00** |
+🟢 **`kd:`nin `sinif:`ten üstünlüğü:** kademeyi **ve** bağlı olduğu merkezi
+**birlikte** zamanlı yapıyor. `Değişmez 3`ün ölçülmüş 359 çifti tam olarak
+`m:`nin zamansızlığından doğuyor — ayrı bir `sinif:` alanı kademeyi
+çözer, `m:`yi çözmezdi.
 
-⚠️ **`sinif:` alanı YOKSA varsayılan 3'tür.** Bu kasıtlı: bugünkü 2261
-noktanın hepsi 3 sayılır, **ağırlıklar eşit olur**, ve eşit ağırlıklı
-Apollonius diyagramı **düz Voronoi'nin ta kendisidir.**
-⇒ **Göç güvenlidir: kimse bir sınıf yazana kadar harita ZERRE değişmez.**
+| kademe | ne | ağırlık `w` |
+|---|---|---|
+| **1** | başkent | **1,00** |
+| **2** | eyalet merkezi | **0,70** |
+| **3** | sancak merkezi | **0,50** |
+| **4** | kaza / kasaba | **0,35** |
+| **0** | kademesiz (yabancı şehir, dolgu) | **0,50** ← nötr |
+
+⚠️ **`k:0` sıfır ağırlık DEĞİLDİR — nötr ağırlıktır.** 2261 noktanın
+**1538'i** k:0 ve bunlar yabancı şehirler; sıfırlanırsa **haritanın üçte
+ikisi kaybolur.** `0` burada *"ağırlıksız"* değil *"henüz kademelendirilmemiş"*
+demektir.
+
+🟢 **Göç yine güvenli, ama sebebi başka:** `k:` yalnız Osmanlı sahasında
+doldurulmuş (723 nokta); geri kalan 1538 nötr. Yani ağırlıklar **yalnız
+Osmanlı çekirdeğinde** değişir, ve orada zaten nokta yoğunluğu en yüksek —
+yani kayma en az olacağı yerde olur. **Kademe A koşusu, bu tahminin
+DOĞRULANMASIDIR**; doğrulanmazsa ağırlık tablosu gevşetilir, alan değil.
 
 ### 1.3 Ölçüt — sınıf tarihsel büyüklük değil, İDARÎ-ASKERÎ AĞIRLIKTIR
 
