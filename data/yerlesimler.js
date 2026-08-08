@@ -1115,6 +1115,17 @@ window.YERLESIMLER = [
 // yutmasını önleyen gerçek yerleşimler (kullanıcı tespiti) ----
 { ad:"Aynaroz (Athos)", tur:"kale", lat:40.257, lon:24.244, g:0, k:4, m:"Selanik", s:[{f:"1281-01-01",t:"1424-01-01",d:"bizans"},{f:"1912-11-02",t:"1923-10-29",d:"yunanistan"}], d:[{f:"1424-01-01",t:"1912-11-02",y:"antlasma"}] },
 { ad:"Kesendire (Kassandra)", tur:"sehir", lat:40.062, lon:23.442, g:0, k:4, m:"Selanik", s:[{f:"1281-01-01",t:"1430-03-29",d:"bizans"},{f:"1912-11-02",t:"1923-10-29",d:"yunanistan"}], d:[{f:"1430-03-29",t:"1912-11-02"}] },
+// 🔴 FERECİK — H-0007 (Emre): "iki Osmanlı toprağı sadece TEK NOKTADA temas
+// ediyor, o boğumlanma doğru mu?" Ölçüldü: Enez'in CENEVİZ olması TARİHEN
+// DOĞRU (Gattilusio 1376-1456) ama boğumun ŞEKLİ Voronoi artefaktıydı —
+// Gümülcine (25,41°D) ile İpsala (26,38°D) arasında **82 km boyunca hiçbir
+// nokta yoktu** ve Enez'in peteği koridoru kuzeyden kesiyordu.
+// Gerçekte Osmanlı idaresi Via Egnatia ve Meriç geçidi üzerinden GENİŞ bir
+// koridorla bağlıydı; Ferecik tam o geçidin kazasıdır ve veride YOKTU.
+// ⇒ `§2`nin en saf vakası: "harita yanlış" raporunun cevabı NOKTASIZLIK.
+// Zincir Gümülcine ile BİREBİR: aynı Batı Trakya şeridi, aynı fetih dalgası,
+// aynı 1913 Bulgar arası ve 1920 Yunan devri. Tarih UYDURULMADI, komşudan alındı.
+{ ad:"Ferecik (Feres)", tur:"sehir", lat:40.897, lon:26.172, g:0, k:4, m:"Edirne", s:[{f:"1281-01-01",t:"1363-01-01",d:"bizans"},{f:"1913-07-14",t:"1913-09-29",d:"bulgaristan"},{f:"1920-05-27",t:"1923-10-29",d:"yunanistan"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"}], d:[{f:"1363-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1913-07-14"},{f:"1913-09-29",t:"1920-05-27"}] },
 { ad:"Gümülcine", tur:"sehir", lat:41.122, lon:25.406, g:0, k:3, m:"Edirne", s:[{f:"1281-01-01",t:"1363-01-01",d:"bizans"},{f:"1913-07-14",t:"1913-09-29",d:"bulgaristan"},{f:"1920-05-27",t:"1923-10-29",d:"yunanistan"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"}], d:[{f:"1363-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1913-07-14"},{f:"1913-09-29",t:"1920-05-27"}] },
 { ad:"Biga", tur:"sehir", lat:40.228, lon:27.243, g:0, k:4, m:"Bursa", s:[{f:"1281-01-01",t:"1297-01-01",d:"bizans"},{f:"1297-01-01",t:"1345-01-01",d:"karesi"},{f:"1402-07-28",t:"1403-09-01",d:"isa-celebi"},{f:"1403-09-01",t:"1404-03-01",d:"mehmed-celebi"},{f:"1404-03-01",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"mehmed-celebi"}], d:[{f:"1345-01-01",t:"1402-07-28",y:"ilhak"},{f:"1413-07-05",t:"1923-10-29"}] },
 

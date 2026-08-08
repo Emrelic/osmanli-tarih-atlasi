@@ -461,3 +461,59 @@ araştırılmış, doğru yazılmış ve haritada görünmüyor** — çünkü p
 kalite 2'ye çıkarmak teknik olarak mümkündür ama Amerika kalite 6'dayken
 yapılırsa **yanlış iştir** — `ONCELIK.md`nin çöl seyyahı ilkesi tam budur:
 *bir sonraki kuyu, elindeki matarayı büyütmekten önemlidir.*
+
+---
+
+# HALKA TABLOSU — Osmanlı merkezli coğrafî bölümleme
+
+> **Emre, 8 Ağustos 2026.** İlk liste yedi bölgeydi ve Emre'nin kendi
+> ifadesiyle *"örnek olsun diye"* yazılmıştı; Orta Asya'yı hiç kapsamıyordu
+> ve Osmanlı topraklarını tek parça sayıyordu. Ölçüm ve istişareyle
+> yeniden kuruldu. **Ölçüt: Osmanlı'ya siyasî-anlatısal yakınlık** — çünkü
+> bu bir Osmanlı atlası, bir dünya atlası değil.
+
+| halka | kapsam | niçin bu halkada | hedef kalite |
+|---|---|---|---|
+| **0** | Anadolu · Rumeli/Balkanlar | devletin doğduğu ve anlatının yaşadığı yer | **3** (kaza) |
+| **1** | Macaristan · Kırım · Suriye · Irak · Mısır · Doğu Anadolu · Kafkasya sınırı | doğrudan eyalet; Osmanlı kaynağı bol ve ayrıntılı | **3** |
+| **2** | Arabistan · Libya · Cezayir · Tunus · Sudan · Habeş · Yemen | Osmanlı ama **gevşek** tutulan çeper | **4** (sancak) |
+| **3** | Avusturya · İran · Rusya · Venedik · Lehistan · İtalya | savaş ve antlaşma muhatabı — kronoloji bunlarla dolu | **4** |
+| **4** | İspanya · Portekiz · Fransa · İngiltere · Hollanda · **Fas** · **Orta Asya** | temas var, hüküm yok | **5** (eyalet/il) |
+| **5** | Çin · Japonya · **Hindistan** · Güneydoğu Asya · Sahra altı Afrika | ticaret ve duyum düzeyi | **5** |
+| **6** | Amerika · Avustralya · Okyanusya · Kuzey Sibirya | 1281-1923 boyunca temas **YOK** | **6** (başkent) |
+
+🔴 **Halka ile kalite AYRI ŞEYLERDİR ve karıştırılmaz.**
+```
+HALKA   NEREDE   — Osmanlı'ya yakınlık, DEĞİŞMEZ
+KALİTE  NE KADAR İNCE — inilen kademe, hedef
+```
+Bir bölge halkasından daha yüksek kalitede olabilir ve bu **çelişki değil
+sonuçtur**: 8 Ağustos ölçümü İtalya'yı **19,94** nokta/100.000 km² buldu —
+Osmanlı çekirdeğinden (**17,18**) yüksek. İtalya halka 3'te ama kalite 3'ü
+aşmış. **Oraya iş verilmez.**
+
+## Emre'nin üç sorusu ve cevapları
+
+**① *"Osmanlı toprakları da iki üç kademeye bölünebilir"*** — evet, ve
+bölündü: **halka 0** (Anadolu-Rumeli, devletin çekirdeği) · **halka 1**
+(Macaristan-Suriye-Mısır, doğrudan eyalet) · **halka 2** (Arabistan-Libya-
+Sudan, gevşek çeper). Emre'nin sezgisi ölçümle örtüştü.
+
+**② Orta Asya nereye?** — **halka 4**, Çin'den **önce.** Sebebi: Osmanlı'nın
+Türkistan hanlıklarıyla teması (elçi, hac yolu, Şeybânî-Safevî dengesi)
+Çin'le olan temasından **kat kat** fazla.
+
+**③ Fas 4, Hindistan 5** — Emre'nin kararı. Fas, Osmanlı'nın hiç alamadığı
+ama Vâdisseyl'den XIX. yüzyıla kadar sürekli uğraştığı yer; Hindistan'la
+ise Bâbürlü mektuplaşması ve Hint Okyanusu seferleri var ama **süreklilik
+yok.**
+
+## 🔴 Ve halkanın işlevi: NEREYE İŞ VERİLECEĞİNİ belirler
+
+```
+① bir halka hedef kalitesine ulaşınca ORADA DURULUR
+② bir alt halka hedefinin altındayken üst halkayı incelten iş YANLIŞTIR
+③ ölçüm halkaya göre değil KALİTEYE göre yapılır — halka yalnız hedefi seçer
+```
+`ONCELIK.md`nin çöl seyyahı ilkesi: *bir sonraki kuyu, elindeki matarayı
+büyütmekten önemlidir.*
