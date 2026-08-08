@@ -2,7 +2,7 @@
 
 > 🤖 **BU DOSYA ÜRETİLİR — ELLE DÜZENLEME.**
 > Kaynak: `oturumlar/tespih.json` · üretici: `ClaudEmre/kutu/tespih.py`
-> Son güncelleme: **2026-08-08T15:44**
+> Son güncelleme: **2026-08-08T15:45**
 >
 > Sıralama ölçütü **`FAYDA ÷ EMEK`** — önem yüksek + irilik düşük önce.
 > Üç öncelik kuralı: **① darboğaz · ② tekrar eden madde · ③ yakınlık**
@@ -92,7 +92,7 @@
 | # | iş | kanal | sahip | niçin bu sırada |
 |---|---|---|---|---|
 | T-0022 | TESPİH v2 — üç hâl · altı kanal · üç damga · kutuda sekme | 🟦 💬 | KOORDİNATÖR | Emre: 'fırlayıp giden mermi nereye gitti belli değil' — bekleyen/yapılan/biten görünür olacak |
-| T-0059 | GD Asya noktaları 97→480  ↳ `T-0057` | 🟧 💬 | VERİ DEVLET | pencere içindeki EN SEYREK yer. İLERLEME: 50 nokta · yoğunluk 3,3 → 5,41 · 11 alt bölgenin 11'i işlendi · AÇILAN KIRILMA GÜNÜ TOPLAMI: SIFIR |
+| T-0059 | GD Asya noktaları 97→480  ↳ `T-0057` | 🟧 💬 | VERİ DEVLET | pencere içindeki EN SEYREK yer. İLERLEME: 69 nokta · yoğunluk 3,3 → 6,22 · 11 alt bölgenin 11i işlendi · üç tur · AÇILAN KIRILMA GÜNÜ TOPLAMI: SIFIR (69 nokta boyunca) |
 | T-0073 | ace ↔ malaka aynı hex — Malaka Boğazı'nın iki yakası | 🟦 🔧 | RENK 2 | ΔE 0,00 (AYNI HEX #2d8f4a) · 855 km · künyeler 1496-1511 örtüşüyor. 🔴 DÜNKÜ tarama GÖRMEDİ çünkü VERİ penceresine bakıyordu; bu matris KÜNYE penceresine baktı. malaka → #0f18a5 |
 | T-0069 | renk_olc'a İKİNCİ ÇİFT KURUCU — 600 km + eşzamanlılık | 🟩 🔧 | RENK 2 | Aynı körlük ÜÇ coğrafyada çıktı (Afrika Boynuzu · Fas · GD Asya) ve hiçbir denetim görmedi. Voronoi komşuluğu SEYREK bölgede iki gövdeyi yan yana görmüyor. Bugün 179 çift kurulur, biri İHLALDİ. ŞART: C13 iki yönde sınama · 600 km eşiğinin gerekçesi yazılı · İHLAL ile SINIRDA ayrı raporlansın (biri çıkış kodunu etkiler, öteki etmez) |
 | T-0079 | Doğu Sumatra dört kimlik — Jambi · Deli · Siak · Indragiri | 🟦 🔧 | NOKTA GDASYA | NOKTA GDASYA bildirdi: 55lik envanterde uygun kimlik YOK, hepsi zorlama olur. KARAR: devletler.js geçici olarak ona geri verildi (sahipsizdi, 45 künyeyi bugün o yazdı). Toplu mu ayrı mı — TDV karar versin (emsal: malay-sultanliklari toplu künyesi). 1281-1600 arası için kasitli_bosluk da meşru bir cevap. |

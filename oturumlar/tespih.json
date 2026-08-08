@@ -1,7 +1,7 @@
 {
   "surum": 1,
   "proje": "Osmanlı Tarih Atlası",
-  "guncelleme": "2026-08-08T15:44",
+  "guncelleme": "2026-08-08T15:45",
   "isler": [
     {
       "id": "T-0001",
@@ -896,7 +896,7 @@
       "kanal": 2,
       "onem": 5,
       "irilik": 5,
-      "nicin": "pencere içindeki EN SEYREK yer. İLERLEME: 50 nokta · yoğunluk 3,3 → 5,41 · 11 alt bölgenin 11'i işlendi · AÇILAN KIRILMA GÜNÜ TOPLAMI: SIFIR",
+      "nicin": "pencere içindeki EN SEYREK yer. İLERLEME: 69 nokta · yoğunluk 3,3 → 6,22 · 11 alt bölgenin 11i işlendi · üç tur · AÇILAN KIRILMA GÜNÜ TOPLAMI: SIFIR (69 nokta boyunca)",
       "olcek": "m3",
       "ust": "T-0057",
       "z": "*",
