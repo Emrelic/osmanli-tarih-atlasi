@@ -341,6 +341,27 @@ BOYALAR = {
     "celayirli":  ("Celâyirliler",           "#b5432f"),
     "safevi":     ("Safevî İran",            "#a56cab"),
     "imereti":    ("Imereti Kralligi",       "#deea90"),
+    # ═══ KAFKAS ÜÇLÜSÜ 1918-1921 — RENK 2, 7 Ağustos 2026 ═══
+    # Üçü BİRLİKTE ölçüldü, ayrı ayrı değil: `gurcistan-dc` verisi tek başına
+    # inseydi komşuları `rusya` görünürdü ve 1918-1921 Kafkasyası YANLIŞ
+    # boyanırdı. Küçük parti ⇒ TAVAN kuralı (tam karşılıklı ayırma):
+    #   ermenistan-dc ↔ azerbaycan-dc  61,5
+    #   ermenistan-dc ↔ gurcistan-dc   57,0      azerbaycan-dc ↔ gurcistan-dc  21,1
+    #   pay 20,5 / 20,7 · C* %71 ve %72 · komşu: kacar · rusya
+    #
+    # 🔴 VE SLUGLAR KÜNYEDEN ALINDI, ADDAN TÜRETİLMEDİ. Hazırlığımda
+    #   `ermenistan` ve `azerbaycan` yazıyordu — künyede (339 kayıt) böyle bir
+    #   kayıt YOK; doğrusu `…-demokratik-cumhuriyeti`.
+    #   ⚠️ Ve `--dogrula` bunu YAKALAYAMAZDI: yanlış adı BOYALAR'a yazsaydım
+    #   doğrulama onu orada bulup "0 fark" derdi. Aktarım denetimi YAZILANI
+    #   ÖNERİYLE karşılaştırır, ÖNERİNİN KÜNYEYLE uyumunu sormaz. Sapma ancak
+    #   gerçek sluglar renksiz kalarak (harita deliği) ve palette iki ÖLÜ
+    #   KİMLİK birikerek görünürdü.
+    #   📌 Kural: slug künyeden alınır. "Hazır" demek "doğru" demek değildir.
+    "ermenistan-demokratik-cumhuriyeti":
+                  ("Ermenistan Demokratik Cumhuriyeti", "#1221ae"),
+    "azerbaycan-demokratik-cumhuriyeti":
+                  ("Azerbaycan Demokratik Cumhuriyeti", "#eacf75"),
     "gurcistan-demokratik-cumhuriyeti":
                   ("Gurcistan Demokratik Cumhuriyeti", "#90eab1"),
     "gurcistan":  ("Gürcistan",              "#1b75cf"),
@@ -392,6 +413,33 @@ BOYALAR = {
     #   çakışmasıydı ve bu hamle onu da kapattı ⇒ almanya artık TEMİZ.
     "almanya":    ("Kutsal Roma / Almanya",  "#16c6fe"),
     "lehistan":   ("Lehistan-Litvanya",      "#fc87c9"),
+    # ═══ RUS OVASI KÜMESİ — RENK 2, 7 Ağustos 2026 ═══
+    # 🔴 SEBEP 266 YILLIK BİR HAYALET: `devletler.js`te `rusya` 1547-01-16'da
+    #   başlıyor, ama `yerlesimler.js` Moskova · Novgorod · Ryazan · Tula ·
+    #   Vologda · Pustozersk'i **1281'den** `rusya` boyuyor. Yani harita 266
+    #   yıl boyunca VAR OLMAYAN bir devletin rengini gösteriyor
+    #   (`NOKTA HALKA-2 2` ölçtü). Çare selefleri ayrı kimlik yapmak.
+    #
+    # KÜME BEŞ DEĞİL YEDİ — koordinatör beş saydı, ölçüm iki fazlasını
+    # gösterdi: `ryazan` ZATEN renkliydi (#cce787, bu oturumda yazılmıştı) ve
+    # `litvanya-buyuk-dukalik` ile `sovyet-rusya` da künyeli-renksiz, aynı
+    # coğrafyada. ⇒ Yedisi birlikte çözüldü (`B15` TAVAN: küçük parti, havuz
+    # 160.690, tam karşılıklı ayırmanın bedeli sıfır).
+    #
+    # AYRIM — beşi de `rusya`nın SELEFİ, yani kullanıcı geçişi görecek:
+    #   moskova 31,6 · novgorod 24,4 · pskov 45,7 · tver 44,7 ·
+    #   litvanya-buyuk-dukalik 49,1 · sovyet-rusya 25,4 · ryazan 20,3
+    #   küme içi en dar çift: 18,5 (pskov ↔ tver)
+    # 📌 `rusya`dan UZAKLAŞTIRILDI, tersi denenmedi — `rusya` paletin
+    #   çözülemeyen düğümü (bugün `isvec` vakasında ölçüldü: ΔE ≥ 12 sağlayan
+    #   aday YOK). Kısıtlı düğüm oynatılmaz, çevresi oynatılır.
+    #
+    # ⚠️ ÜÇÜ YAZILDI, ÜÇÜ BEKLİYOR: `novgorod` · `pskov` · `tver` künyesiz
+    #   (VERİ DEVLET yazıyor). Renkleri ölçülü ve
+    #   `denetim/hazir-renk2-rus-ovasi.txt`te hazır.
+    "moskova":    ("Moskova Knezliği",       "#12a2ed"),
+    "litvanya-buyuk-dukalik": ("Litvanya Büyük Dukalığı", "#120f9c"),
+    "sovyet-rusya": ("Sovyet Rusya",         "#33eddb"),
     "rusya":      ("Rusya",                  "#4f7d4f"),
     # ═══ SON PARTİ — kalan 21 çakışma + 5 görünmez BİRLİKTE çözüldü ═══
     # (RENK oturumu, 2026-08-03 · ①·② yazıldıktan SONRA güncel palete karşı)
@@ -485,7 +533,24 @@ BOYALAR = {
     #   finlandiya↔letonya 3,4→33,3   isvec↔letonya      7,4→35,0
     #   letonya↔litvanya   9,7→19,0
     # `almanya`nın kalan tek çakışması: venedik 11,4 (28 komşulu, ayrı iş).
-    "isvec":      ("İsveç",                  "#63bda2"),
+    # ═══ İSVEÇ TAŞINDI — RENK 2, 7 Ağustos 2026 · MARUZİYET gerekçesiyle ═══
+    # 🔴 İHLAL DEĞİLDİ: `rusya` #4f7d4f'ten ΔE 12,3, yani eşiğin (12) ÜSTÜNDE.
+    #   Taşındı çünkü PAYLAŞILAN SINIR 128,20° — atlasın kuzey yarısında en
+    #   çok görülen tek çizgi. `renk_cikti.py`nin kendi kütüğü: "aynı ΔE tek
+    #   noktada zararsız, sınır boyunca ciddi." Bu, o cümlenin uç örneği;
+    #   listedeki öteki dokuzun en uzunu 40,60°, yani başka bir kefede.
+    # 📌 VE BU ÇİFT BUGÜNE KADAR HİÇ GÖRÜNMEDİ — `renk_cikti` ② bölümü
+    #   ölçmüyordu (bkz. `_govde` kütüğü: "0 değen çift" derken gerçek 653'tü).
+    #   Nöbetçi onarılınca "SINIRDA" tablosu ilk kez doldu ve en tepesinde bu
+    #   vardı. ⇒ Bir denetimi onarmak, yıllardır görünmeyen bir kusuru
+    #   görünür kılar; onarım kendi iş kuyruğunu doğurur.
+    # ⚠️ ÖLÇÜM KOŞUDAN SONRA YENİLENDİ, devralınmadı: koşu 187 nehir + 163
+    #   engel getirdi ve sınır 123,21° → 128,20°'ye ÇIKTI (fas↔ispanya
+    #   19,83 → 24,21 ile birlikte). "Önce yeniden ölç, sonra düzelt."
+    # ⇒ Taşınan İSVEÇ, çünkü `rusya` ÇÖZÜLEMEDİ: paletin en kısıtlı düğümü,
+    #   ΔE ≥ 12 sağlayan aday YOK. `isvec` 18 engelle rahat çözüldü.
+    # ÖLÇÜM: rusya 12,3 → **22,4** · en yakın engel 22,4 · C* 28,2 = %73
+    "isvec":      ("İsveç",                  "#48eac3"),
     # ↑ Baltık kümesi (bkz. `isvec` üstündeki blok) · ton kayması 10,9° —
     #   mor kimliği korundu, en yakın engel ΔE 12,1 · altlıktan 31,1
     "danimarka":  ("Danimarka-Norveç",       "#b484e7"),
@@ -494,7 +559,30 @@ BOYALAR = {
     "ingiltere":  ("Britanya",               "#7e3d8f"),
     "fransa":     ("Fransa",                 "#7b99ff"),
     "ispanya":    ("İspanya",                "#d59f63"),
-    "portekiz":   ("Portekiz",               "#6b8ac9"),
+    # ═══ PORTEKİZ TAŞINDI — RENK 2, 7 Ağustos 2026 ═══
+    # 🔴 `fransa` #7b99ff'ten ΔE **9,6** — eşiğin ALTINDA, ve en yakın nokta
+    #   çifti **5,2 km**: Çandernagor (Fransız) ↔ Hûglî (Portekiz), Bengal'de
+    #   yan yana iki sömürge faktoryası. İkisi de küresel gövde, yani dünya
+    #   ölçeğinde AYNI ANDA ekranda.
+    # ⚠️ `renk_olc` bunu GÖREMİYOR: ikisi Voronoi komşusu DEĞİL, o yüzden çift
+    #   hiç kurulmuyor. Afrika Boynuzu kümesi 600 km ile taranırken düştü.
+    #
+    # 📌 VE ÇÖZÜM ÖLÇÜT GEVŞETMEDEN BULUNDU — hangi kısıtın bağladığı ölçüldü:
+    #     tam band (C* p10-p75 + uyum p75 + Osmanlı şeridi) → en iyi 11,5 🔴
+    #     yalnız C* bandı                                   → en iyi 13,2 ✓
+    #     yalnız görünürlük                                 → 40,1 (#00fc00,
+    #                                                          saf neon yeşil)
+    #   Bağlayan şey ΔE değil `uyum` TERCİHİYDİ. Ve `renk_olc.py:132` bunu
+    #   zaten söylüyor: *"uyum ölçüt değil TERCİH; eşiği geçen adaylar
+    #   arasında ayrım yapar, EŞİĞİ DEĞİŞTİRMEZ."* ⇒ Tercihten çıkıldı,
+    #   eşiklerin hiçbirine dokunulmadı.
+    #   #34fcfc: uyum 0,4383 — paletin p75'i (0,3132) üstünde ama paletin
+    #   KENDİ MAKSİMUMUNUN (0,5494) altında, yani gözlenen aralık içinde.
+    # ÖLÇÜM: fransa 9,6 → **36,5** · en yakın engel 13,2 · ingiltere 49,7 ·
+    #   ispanya 41,9 · hollanda 49,1 · altlıktan 30,7 · C* 28,1 = %71
+    # 📌 Taşınan PORTEKİZ, çünkü `fransa` tam bandda ancak 10,2 alıyor (134
+    #   engel); portekiz 107 engelle 13,2. Ucuz olan taşınır — beşinci kez.
+    "portekiz":   ("Portekiz",               "#34fcfc"),
     "granada":    ("Gırnata Emirliği",       "#7ba05b"),
     # 🔴 DEĞİŞTİ (RENK oturumu, 2 Ağustos). Eski #d98f5b turuncu-tandı ve
     # `ispanya` #c98f4a ile bindirilmiş ΔE **4,7** — pratikte AYNI RENK.
@@ -593,7 +681,40 @@ BOYALAR = {
     # bölgede Nebhânîler hüküm sürüyordu.
     # 🟡 İNCELTİLECEK: Cülfâr limanının Hürmüz Krallığı'na tâbiiyeti
     #    literatürde var ama TDV'de ayrı madde yok — kaynaklanınca ayrılır.
-    "nebhani":    ("Nebhânîler (Uman)",      "#a0326b"),
+    # ═══ AFRİKA BOYNUZU / SUDAN KÜMESİ — RENK 2, 7 Ağustos 2026 ═══
+    # Koordinatör "habesistan · funj · somali · adal dörtlüsünü tek küme
+    # olarak çöz" dedi. ÖLÇTÜM: küme dört değil **27 kimlik** — çekirdeğin
+    # 600 km'si taranınca Kızıldeniz'in iki yakası, Nûbe, Uman ve sömürge
+    # gövdeleri de içeri giriyor.
+    #
+    # 🔴 VE İÇİNDE BEŞ EŞİK ALTI ÇİFT VARDI — `renk_olc` BEŞİNİ DE GÖREMİYOR:
+    #     kaffa     ↔ sidamo     ΔE  2,8  (202 km) · İKİSİ DE 1390-1897 SAHNEDE
+    #     mehdi     ↔ tunciler   ΔE 10,7  (123 km)
+    #     mehdi     ↔ memluk     ΔE 10,3  (  0 km)
+    #     ingiltere ↔ nebhani    ΔE 10,4  (  0 km) · eşzamanlı 1281-1515
+    #     fransa    ↔ portekiz   ΔE  9,6  (  5 km) · İKİSİ DE ÇÖZÜLEMEZ, aşağıda
+    #   Hiçbiri Voronoi komşusu DEĞİL ⇒ `komsuluk()` çifti hiç kurmuyor ⇒
+    #   denetim "0 çakışma" diyor. Ölçüt "hücreler değiyor mu"; oysa iki gövde
+    #   değmeden de aynı ekranda yan yana durur.
+    #   📌 `kaffa ↔ sidamo` bu körlüğün en saf hâli: **ΔE 2,8**, yani neredeyse
+    #      aynı renk, ve beş yüzyıl boyunca ikisi de sahnede.
+    #
+    # ⇒ Taşınacaklar, her ihlalin UCUZ tarafı (ölçüldü):
+    #     kaffa   ← `sidamo` #7b1fa2 paylaşımlı grup (brunei · konbaung ·
+    #               ryukyu · yakub-beg), onu oynatmak dördünü de etkilerdi
+    #     nebhani ← `ingiltere` çözülemez düğüm
+    #     mehdi   ← TEK taşımayla İKİ ihlal kapanıyor (memluk + tunciler)
+    #     somali  ← TEK taşımayla İKİ maruziyet kapanıyor (adal + habesistan)
+    #     funj    ← funj ↔ habesistan
+    #   `B15` tavan kuralı: beşi birbirinin de engeli.
+    # SONUÇ: kaffa↔sidamo 2,8 → 60,9 · ingiltere↔nebhani 10,4 → 19,6 ·
+    #   mehdi↔memluk 10,3 → 18,8 · mehdi↔tunciler 10,7 → 35,9 ·
+    #   adal↔somali 12,0 → 58,1 · habesistan↔somali 12,2 → 37,2 ·
+    #   funj↔habesistan 12,2 → 28,9
+    # ⚠️ AÇIK KALAN: `fransa ↔ portekiz` ΔE 9,6 · 5 km. İKİSİ DE ÇÖZÜLEMEDİ
+    #   (fransa 135 engel, portekiz 107 — paletin en kısıtlı iki düğümü).
+    #   Sömürge üsleri her kıtaya komşu. Ayrı bir işin konusu; bildirildi.
+    "nebhani":    ("Nebhânîler (Uman)",      "#60121b"),
     # ↑ Kızıldeniz kümesi (bkz. `yemen` üstündeki blok) · kayma 22,5° · pay 14,3 · altlık 28,1
     "hicaz":      ("Hicaz Krallığı",         "#78360c"),
     # Doha'nın 1913-1916 arası 1193 günlük sahipsizliğini kapatan kimlik
@@ -642,13 +763,13 @@ BOYALAR = {
     #        kör. `renk_cikti.py` gövde gelince bakacak.
     "bahreyn":    ("Bahreyn (Âl Halîfe Şeyhliği)", "#4a48be"),
     # ↑ Kızıldeniz kümesi (bkz. `yemen` üstündeki blok) · kayma 30,4° · pay 12,2 · altlık 15,4
-    "funj":       ("Func (Sennâr) Sultanlığı","#a28184"),
+    "funj":       ("Func (Sennâr) Sultanlığı","#ed5a96"),
     # ↑ Kızıldeniz kümesi (bkz. `yemen` üstündeki blok) · kayma  0,6° · pay 12,2 · altlık 25,6
     "habesistan": ("Habeşistan",             "#4e3f39"),
     # ↑ Kızıldeniz kümesi (bkz. `yemen` üstündeki blok) · kayma  5,2° · pay 12,0 · altlık 25,9
     "adal":       ("Adal / Harar",           "#786c0c"),
     # ↑ Kızıldeniz kümesi (bkz. `yemen` üstündeki blok) · kayma  0,1° · pay 12,0 · altlık 18,2
-    "somali":     ("Somali sultanlıkları",   "#847245"),
+    "somali":     ("Somali sultanlıkları",   "#1248d5"),
     # ═══ AFRİKA BOYNUZU / SUDAN KÜMESİ — RENK 2, 7 Ağustos 2026 ═══
     # ARAŞTIRMA KÜNYE 3'ün teslimi; künyeler VERİ DEVLET'te yazıldıktan SONRA
     # yazıldı (koordinatör sevki: "künye yazılmadan renk yazma" — §8).
@@ -699,7 +820,7 @@ BOYALAR = {
     "dacu":       ("Dâcû (Daju) Hanedanlığı", "#4b21ab"),
     "tunciler":   ("Tunciler (Tunjur) Hanedanlığı", "#b4963f"),
     "darfur":     ("Dârfûr Sultanlığı",      "#0288d1"),
-    "kaffa":      ("Kaffa Krallığı",         "#8e24aa"),
+    "kaffa":      ("Kaffa Krallığı",         "#d2ea8d"),
     "cimma":      ("Cimma (Jimma) Krallığı", "#0097a7"),
     "sidamo":     ("Sidamo krallıkları",     "#7b1fa2"),
     "vollayta":   ("Vollayta (Wolaita) Krallığı", "#5c6bc0"),
@@ -851,7 +972,7 @@ BOYALAR = {
     # Hartum 1885'te düştükten sonra Sudan 14 yıl Mehdî Devleti'ndeydi;
     # yazılı olmadığı için bölge o pencerede haritada boş kalıyordu.
     # ↑ Kızıldeniz kümesi (bkz. `yemen` üstündeki blok) · kayma  0,1° · pay 20,2 · altlık 15,6
-    "mehdi":        ("Mehdî Devleti (Sudan)",  "#e19c69"),
+    "mehdi":        ("Mehdî Devleti (Sudan)",  "#eaa8ea"),
     # --- Func Sultanlığı'ndan (1504) önceki Hıristiyan Nûbe krallıkları ---
     # ↑ Kızıldeniz kümesi (bkz. `yemen` üstündeki blok) · kayma 14,2° · pay 16,6 · altlık 26,5
     "nube":         ("Nûbe krallıkları (Makurya-Alve)", "#cf5d33"),
@@ -1581,7 +1702,15 @@ BOYALAR = {
     "golkonda":                ("Kutubşâhî Sultanlığı (Golkonda)",   "#4242ae"),
     "nayak-devletleri":        ("Nâyak Beylikleri",                  "#bab442"),
     "orissa":                  ("Orissa (Gacapati Krallığı)",        "#9042ae"),
-    "tibet":                   ("Tibet (Phagmodrupa-Tsangpa)",       "#3cc048"),
+    # ═══ TİBET TAŞINDI — RENK 2, 7 Ağustos 2026 · aynı gerekçe (maruziyet) ═══
+    # İhlal değildi: `ming-hanedani` #636f03'ten ΔE 14,2. Ama paylaşılan sınır
+    # 66,20° — SINIRDA listesinin ikincisi ve Çin-Tibet sınırı atlasın en uzun
+    # iç çizgilerinden. (Koşudan sonra 65,41° → 66,20°, yeniden ölçüldü.)
+    # ⇒ Taşınan TİBET, çünkü ölçüldü: `ming-hanedani` 49 engelli ve en iyi
+    #   payı 12,4 (eşiğin dibinde); `tibet` 20 engelli ve 19,6 alıyor.
+    #   Ucuz olan taşınır — `cungar` ve `cohor` vakalarındaki aynı ölçüt.
+    # ÖLÇÜM: ming-hanedani 14,2 → **36,7** · en yakın engel 19,6 · C* 10,3
+    "tibet":                   ("Tibet (Phagmodrupa-Tsangpa)",       "#e1aed2"),
     "yarkent-hanligi":         ("Yarkent (Sa'îdiyye) Hanlığı",       "#6c7e36"),
     "kuzey-yuan":              ("Kuzey Yuan (Moğol Hanlığı)",        "#306c78"),
     "demak":                   ("Demak Sultanlığı (Cava)",           "#9072c0"),
