@@ -82,8 +82,16 @@ gibi kalemleri de ölç.
 Şema: **`VERI-YAPISI.md`**, yazmadan önce oku. Dosya başına
 `window.YERLESIMLER_H1_<BOLGE> = [ … ];` — kendi değişken adın.
 
+🔴 **KUTU BİR ÖLÇÜM ARACIDIR, BİR SAHİPLİK SINIRI DEĞİL.** `NOKTA HALKA-2 3`
+ölçtü: **yoğunluk ölçümü DAR kutuyla, mükerrer kontrolü GENİŞ kutuyla.**
+Dar kutuya güvenip yazarsan kutunun **hemen dışındaki** noktayı görmez,
+mükerrer açarsın. Gerçekleşti: o oturum dar kutuyla çalışsaydı **Benzert ve
+Gât'ı mükerrer açacaktı** — `§11`in Varat/Varad vakası.
+📌 İkisini aynı sanmak, **ölçüm aracını sınır sanmaktır.**
+
 ```
-① MÜKERRER   3 km içinde başka nokta var mı? (§11 — Varat/Varad vakası)
+① MÜKERRER   3 km içinde başka nokta var mı? — GENİŞ kutuyla tara
+             (bölgenin en az +2° dışı; §11 Varat/Varad vakası)
 ② KARA       nokta kara maskesinin İÇİNDE mi? denetle.py "konum" 0 demeli
 ③ SAHİPLİK   nokta VAR OLDUĞU HER TARİHTE sahipli olmalı (Değişmez 1)
              ⚠️ TAVAN 114 — çöl dolgu noktaları buna dâhil. Aşarsan
