@@ -178,7 +178,7 @@ window.YERLESIMLER_EK8 = [
 //    İkisi ters yönde ilerliyor; kopyalasaydım Petsamo 1809'dan önce İsveç
 //    görünecekti ve bu YANLIŞ olurdu.
 { ad:"Petsamo (Peçenga)", tur:"sehir", lat:69.5500, lon:31.2200, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1920-10-14",d:"rusya"},{f:"1920-10-14",t:"1923-10-29",d:"finlandiya"}] },
+  s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1920-10-14",d:"rusya"},{f:"1920-10-14",t:"1923-10-29",d:"finlandiya"}] },
 
 // ── ④ KOLA ve RUS KUZEYİ — Novgorod'un kuzey mirası ─────────────────
 // ⚠️ Bu altı nokta DÜZ `rusya 1281→1923` taşıyor ve bu bir seçimdir:
@@ -190,28 +190,28 @@ window.YERLESIMLER_EK8 = [
 //    düzeltilir (bir yerde `novgorod` yazıp öbüründe yazmamak, iki ayrı
 //    kural gibi görünürdü).
 { ad:"Kola", tur:"kale", lat:68.8815, lon:33.0186, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1923-10-29",d:"rusya"}] },
 
 { ad:"Kandalakşa", tur:"sehir", lat:67.1550, lon:32.4117, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1923-10-29",d:"rusya"}] },
 
 { ad:"Ponoy", tur:"sehir", lat:67.0833, lon:41.1500, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1923-10-29",d:"rusya"}] },
 
 { ad:"Arhangelsk", tur:"liman", lat:64.5401, lon:40.5433, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1923-10-29",d:"rusya"}] },
 
 { ad:"Mezen", tur:"sehir", lat:65.8447, lon:44.2394, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1923-10-29",d:"rusya"}] },
 
 // Peçora'nın çıpası. 1499'da kurulan Pustozersk Ural'ın batısındaki ilk
 // Rus Arktik kasabasıdır; XX. yy'da terk edildi ama pencerenin tamamında
 // yaşıyor, o yüzden `bit:` yazılmadı.
 { ad:"Pustozersk", tur:"kale", lat:67.5200, lon:52.7000, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1923-10-29",d:"rusya"}] },
 
 { ad:"Ust-Tsilma", tur:"sehir", lat:65.4392, lon:52.1508, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1923-10-29",d:"rusya"}] },
 
 // ── ⑤ YAMAL · OB' KUZEYİ — "sahipsiz, SONRA devlet" sınıfı ──────────
 // 🔴 BURADAN İTİBAREN ZİNCİR KISALIYOR ve kısalması KASITLI.

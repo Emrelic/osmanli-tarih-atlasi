@@ -1001,6 +1001,21 @@ window.DEVLETLER = [
     { t:"1911-10-05", tur:"son", b:"İtalya işgal etti (Trablusgarp Savaşı)" }
   ]
 },
+// VERİ DEVLET (7 Ağustos 2026) — 🔴 ÇİFT KİLİT: `sadi` harita kimliğinin ne
+// rengi ne künyesi vardı, RENK 2 bu yüzden bekliyordu. Fas'ın 1549-1659
+// katmanını (Sâdî hanedanı — `fas` künyesinin kendi ilk döneminde zaten
+// anlatılan hanedan, ama harita kimliği AYRI) temsil ediyor.
+{ id:"sadi", ad:"Sâdî Hanedanı (Fas)", tur:"hanedanlik", bolge:"kuzey-afrika",
+  f:"1549-01-01", t:"1659-01-01", baskent:"Fas / Marakeş",
+  ozet:"Sûs bölgesinde cihad emirliğiyle başlayıp (1511) Vattâsîleri yenerek Fas'a hâkim olan (1549), Ahmed el-Mansûr döneminde Tondibi zaferiyle Songhay'ı yıkan şerif hanedanı; iç taht kavgalarıyla 1659'da sona erdi, yerini Alevî (Filalî) hanedanı aldı (bkz. [[fas]] — aynı ülke kimliğinin devamı). HANEDAN ÖMRÜ kimliğidir; `fas` künyesi 1549'dan 1923'e ÜLKE SÜREKLİLİĞİ olarak aynı toprağı kapsıyor, bu ikisi ÇELİŞMEZ — `fas` şemsiye kimlik, `sadi` onun ilk 110 yılının hanedan katmanıdır. ⚠️ `fas`ın kendi kronolojisi Alevî geçişini \"1666\" diye veriyor, TDV `sadiler` maddesi \"1069/1659\" diyor — bu 7 yıllık fark ayrıca not düşülüyor, `fas`a dokunulmadı.",
+  kaynak:"sadiler",
+  kronoloji:[
+    { t:"1511-01-01", tur:"kurulus", b:"Muhammed, elli kadar kabile reisinden Sûs bölgesinin cihad emîri olarak biat aldı (916)" },
+    { t:"1549-01-01", tur:"toprak-kazanc", b:"Fas şehrine girip Vattâsî hâkimiyetine son verdi (956)" },
+    { t:"1591-04-13", tur:"toprak-kazanc", b:"Ahmed el-Mansûr'un ordusu Tondibi zaferiyle Songhay İmparatorluğu'nu yıktı" },
+    { t:"1659-01-01", tur:"son", b:"İç çekişmeler sonucu son Sâdî sultanı öldürüldü, hanedan sona erdi (1069)" }
+  ]
+},
 { id:"fas", ad:"Fas (Sâdî / Alevî Şerifleri)", tur:"krallik", bolge:"kuzey-afrika",
   f:"1549-01-01", t:"1923-10-29", baskent:"Fas / Marakeş", harita:"fas",
   ozet:"Osmanlı'ya hiçbir dönemde bağlanmayan tek Kuzey Afrika devleti; komşu ama daima bağımsız (1923 sonrasında da sürdü).",
@@ -1843,6 +1858,17 @@ window.DEVLETLER = [
 // Nogay — dördü de TDV'de doğrulanmış maddeye sahip.
 // ================================================================================
 
+// VERİ DEVLET (7 Ağustos 2026) — `kasim` harita kimliği hiç künyesizdi, o
+// pencere şu an `rusya` boyanıyordu. TDV maddesi var, tarihler birebir.
+{ id:"kasim", ad:"Kasım Hanlığı (Kasimov)", tur:"hanlik", bolge:"sibirya-bozkir",
+  f:"1452-01-01", t:"1681-01-01", baskent:"Kasimov",
+  ozet:"Moskova Büyük Knezliği'nin Altın Orda'dan kaçan Tatar prensi Kâsım'a (Uluğ Muhammed'in oğlu) verdiği, biçimsel olarak hanlık ama fiilen Moskova'ya bağımlı tampon devlet; son hükümdar Fâtıma Sultan Bike'nin ölümüyle sona erdi (bkz. [[moskova]], [[rusya]]). HANEDAN/VASAL DEVLET kimliğidir. ⚠️ Kuruluş yılı TDV'nin kendi maddesinde tartışmalı (\"1445\" ya da \"1452-1456\" — kaynaklar farklı), 1452 orta bir tarih olarak seçildi. (kaynak: TDV, madde: kasim-hanligi — bitiş \"1681 yılında... Kāsım Hanlığı tarihe karıştı\" birebir)",
+  kaynak:"kasim-hanligi",
+  kronoloji:[
+    { t:"1452-01-01", tur:"kurulus", b:"Moskova, Tatar prensi Kâsım'a Oka nehri kıyısında bir toprak/hanlık verdi (TDV: kesin yıl tartışmalı, 1445-1456 arası)" },
+    { t:"1681-01-01", tur:"son", b:"Son hükümdar Fâtıma Sultan Bike'nin ölümüyle hanlık tarihe karıştı" }
+  ]
+},
 { id:"kazan", ad:"Kazan Hanlığı", tur:"hanlik", bolge:"sibirya-bozkir",
   f:"1437-01-01", t:"1552-10-02", baskent:"Kazan", harita:"kazan",
   ozet:"Altın Orda'nın dağılmasıyla Uluğ Muhammed'in kurduğu, İdil-Ural bölgesinin önemli bir İslâm ve ticaret merkezi olan hanlık; IV. İvan tarafından ilhak edildi. (kaynak: TDV, madde: kazan)",
@@ -3950,6 +3976,316 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1537-01-01", tur:"toprak", b:"Reformla birlikte ada Danimarka'nın doğrudan idaresine girdi" },
     { t:"1918-12-01", tur:"kurulus", b:"İzlanda Krallığı: Danimarka ile şahsî birlik, egemen devlet statüsü" }
+  ]
+},
+
+// ================================================================================
+// VERİ DEVLET (7 Ağustos 2026) — RENK 2'nin `renk_fark.py` zincir() 4. dalının
+// bulduğu "künye hiç yok" kümesi (denetim/kunye-bekleyen-40.txt), büyükten
+// küçüğe yazıldı. Hepsi `yerlesimler_asya.js`de zaten boyanıyordu, dizin
+// karşılığı yoktu. ⚠️ Kaynak dosyadaki "veride görünen aralık" YERLEŞİM
+// verisinden ölçülmüştü, künyeden değil — her kalemde KAYNAKTAN doğrulanan
+// gerçek tarih kullanıldı, gözlemlenen pencereyle küçük farklar olabilir.
+// 🔴 Ö1 HAZIRLIĞI: her kayıtta künyenin HANEDAN ÖMRÜ mü yoksa ÜLKE-
+// SÜREKLİLİĞİ kimliği mi olduğu ozet'te açıkça not düşüldü.
+// `ainu` YAZILMADI — Hokkaido'daki Ainu halkı biçimsel bir "devlet"
+// kurmadı (Matsumae ticaret tekeli bir hanedan/devlet değil, bir Japon
+// klanının dışarıdan kurduğu ticaret ilişkisi); BULUNAMADI, uydurulmadı.
+// ================================================================================
+
+{ id:"bengal-sultanligi", ad:"Bengal Sultanlığı", tur:"sultanlik", bolge:"guney-asya",
+  f:"1340-01-01", t:"1576-01-01", baskent:"Pandua → Gaur",
+  ozet:"Delhi Sultanlığı'ndan ayrılarak bağımsızlaşan, üç asır süren müstakil Müslüman sultanlık; Ekber Şah'ın fethiyle Babür İmparatorluğu'na katıldı (bkz. [[bengal-nevabligi]] — ardılı, hanedan değil ÖZERKLİK dönemi). HANEDAN ÖMRÜ kimliğidir (bağımsız sultanlık dönemiyle sınırlı, ülke sürekliliği değil). (kaynak: TDV, madde: bengal — \"Bengal'in Bâbürlü İmparatorluğu'na dahil olması 1576'da Ekber Şah zamanında\")",
+  kronoloji:[
+    { t:"1340-01-01", tur:"kurulus", b:"Delhi Sultanlığı'ndan ayrılarak bağımsız Bengal Sultanlığı kuruldu" },
+    { t:"1576-01-01", tur:"son", b:"Ekber Şah'ın fethiyle Bengal, Babür İmparatorluğu'na katıldı" }
+  ]
+},
+{ id:"kenmu", ad:"Kenmu Restorasyonu (Japonya)", tur:"devlet", bolge:"dogu-asya",
+  f:"1333-07-04", t:"1336-11-07", baskent:"Kyoto",
+  ozet:"İmparator Go-Daigo'nun Kamakura Şogunluğu'nu devirip doğrudan imparatorluk yönetimini kısa süreliğine geri getirdiği dönem; Ashikaga Takauji'nin isyanıyla sona erdi, Muromachi Şogunluğu'na yol açtı. KISA ÖMÜRLÜ GEÇİŞ DÖNEMİ kimliğidir, ülke sürekliliği değil. TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
+  kronoloji:[
+    { t:"1333-07-04", tur:"kurulus", b:"Kamakura Şogunluğu devrildi, İmparator Go-Daigo doğrudan yönetimi geri aldı" },
+    { t:"1336-11-07", tur:"son", b:"Ashikaga Takauji Kenmu Kanunnâmesi'ni ilan etti, Muromachi Şogunluğu'nu kurdu" }
+  ]
+},
+{ id:"fransiz-cinhindi", ad:"Fransız Çinhindi (Indochine française)", tur:"gecici-isgal", bolge:"guneydogu-asya",
+  f:"1859-02-17", t:"1923-10-29", baskent:"Saygon → Hanoi",
+  ozet:"Fransa'nın Vietnam-Kamboçya-Laos'u tek sömürge idaresinde birleştirdiği yapı; Saygon'un düşüşüyle başladı (1923 sonrasında da sürdü, 1954'e dek). ÜLKE/COĞRAFYA SÜREKLİLİĞİ kimliğidir — hanedan değil, sömürge idaresinin coğrafi kapsamını temsil eder. TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
+  kronoloji:[
+    { t:"1859-02-17", tur:"isgal", b:"Fransız donanması Saygon'u ele geçirdi" },
+    { t:"1887-10-17", tur:"kurulus", b:"Fransız Çinhindi Birliği resmen kuruldu (Vietnam + Kamboçya, sonra Laos)" }
+  ]
+},
+{ id:"haydarabad-nizam", ad:"Haydarabad Nizamlığı (Âsafcâh Hanedanı)", tur:"devlet", bolge:"guney-asya",
+  f:"1724-10-11", t:"1923-10-29", baskent:"Haydarabad",
+  ozet:"Nizâmülmülk Âsafcâh'ın Babür'ün Dekken valiliğinden fiilen bağımsızlaşmasıyla kurulan, Hindistan'ın en büyük prens devleti; 1766'dan itibaren İngiliz himayesine girdi (1923 sonrasında da sürdü, gerçek sonu 13 Eylül 1948 Hindistan işgali). ÜLKE SÜREKLİLİĞİ kimliğidir — Âsafcâh hanedanı atlas ufkunun ötesine (1948) taşıyor, künye ufukta kesiliyor. (kaynak: TDV, madde: haydarabad-nizamligi — \"Bağımsızlığını 11 Ekim 1724'te ilan etmiştir\")",
+  kronoloji:[
+    { t:"1724-10-11", tur:"kurulus", b:"Nizâmülmülk Âsafcâh bağımsızlığını ilan etti" },
+    { t:"1766-01-01", tur:"antlasma", b:"İngiliz Doğu Hindistan Şirketi ile himaye antlaşması imzalandı" }
+  ]
+},
+{ id:"bengal-nevabligi", ad:"Bengal Nevablığı", tur:"devlet", bolge:"guney-asya",
+  f:"1717-01-01", t:"1757-06-23", baskent:"Murshidabad",
+  ozet:"Murşid Kulı Han'ın Babür'den fiilen özerkleşmesiyle doğan, Bengal-Bihar-Orissa'yı yöneten valilik; Plassey Savaşı'nda İngiliz Doğu Hindistan Şirketi'ne yenilip fiilî egemenliğini yitirdi (nominal nevablar 1772'ye dek sürdü). HANEDAN/ÖZERKLİK DÖNEMİ kimliğidir, `bengal-sultanligi`nin ardılı ama ayrı bir kimlik. ⚠️ TDV `bengal` maddesi yalnız 1757 Plassey'i (\"Sirâceddevle'nin İngilizlere yenilmesi\") birebir veriyor; 1717 özerkleşme tarihi TDV'de yok, standart akademik kaynağa göredir.",
+  kronoloji:[
+    { t:"1717-01-01", tur:"kurulus", b:"Murşid Kulı Han, Babür'den fiilen özerk valiliğini kurdu" },
+    { t:"1757-06-23", tur:"son", b:"Plassey Savaşı'nda İngilizlere yenilip fiilî egemenlik sona erdi" }
+  ]
+},
+{ id:"san-fan", ad:"Üç Vasal İsyanı (San Fan)", tur:"isyan", bolge:"dogu-asya",
+  f:"1673-12-28", t:"1681-12-07", baskent:"Changsha (Wu Sangui'nin merkezi)",
+  ozet:"Wu Sangui önderliğindeki üç eski Ming generalinin (güneybatı Çin'de Qing'e vasal) ayaklanması; sekiz yıllık savaştan sonra Qing tarafından bastırıldı. İSYAN/GEÇİCİ İSYAN DEVLETİ kimliğidir, kalıcı bir ülke sürekliliği değil. TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
+  kronoloji:[
+    { t:"1673-12-28", tur:"isyan", b:"Wu Sangui, Qing'e karşı ayaklanmasını ilan etti" },
+    { t:"1681-12-07", tur:"son", b:"Qing orduları son direnişi kırdı, isyan tamamen bastırıldı" }
+  ]
+},
+{ id:"dashun", ad:"Dashun (Li Zicheng)", tur:"isyan", bolge:"dogu-asya",
+  f:"1644-01-01", t:"1647-01-01", baskent:"Xi'an → Pekin (kısa süreli)",
+  ozet:"Köylü isyancısı Li Zicheng'in Ming'i devirip kurduğu, Pekin'i kısa süreliğine ele geçiren ama Qing-Wu Sangui ittifakına yenilen kısa ömürlü hanedan. İSYAN/KISA ÖMÜRLÜ DEVLET kimliğidir. TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
+  kronoloji:[
+    { t:"1644-01-01", tur:"kurulus", b:"Li Zicheng, Xi'an'da Dashun hanedanını ilan etti" },
+    { t:"1644-04-25", tur:"toprak-kazanc", b:"Pekin'i ele geçirdi, Ming hanedanı sona erdi" },
+    { t:"1645-01-01", tur:"savas", b:"Wu Sangui-Qing ittifakına yenilip Pekin'i terk etti" },
+    { t:"1647-01-01", tur:"son", b:"Li Zicheng öldü, hareket dağıldı" }
+  ]
+},
+{ id:"yadava", ad:"Yadava Hanedanı (Devagiri)", tur:"hanedanlik", bolge:"guney-asya",
+  f:"1187-01-01", t:"1318-01-01", baskent:"Devagiri",
+  ozet:"Deccan'da hüküm süren Hindu hanedanı; Alâeddin Halacî'nin 1296 seferiyle Delhi'ye haraca bağlandı, 1318'de son direniş de bastırılarak doğrudan ilhak edildi. HANEDAN ÖMRÜ kimliğidir. TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
+  kronoloji:[
+    { t:"1296-01-01", tur:"toprak-kayip", b:"Alâeddin Halacî'nin seferiyle Delhi Sultanlığı'na haraca bağlandı" },
+    { t:"1318-01-01", tur:"son", b:"Son direniş bastırıldı, Devagiri Delhi'ye doğrudan ilhak edildi" }
+  ]
+},
+{ id:"avad", ad:"Avad Nevablığı (Oudh)", tur:"devlet", bolge:"guney-asya",
+  f:"1722-01-01", t:"1856-02-07", baskent:"Faizabad → Lucknow",
+  ozet:"Sâdet Han'ın Babür'den özerkleşmesiyle kurulan, Şii nevabların yönettiği Kuzey Hindistan devleti; İngiliz Doğu Hindistan Şirketi'nin doğrudan ilhakıyla sona erdi (1857 Sepoy İsyanı'nın en güçlü merkezlerinden biri oldu). HANEDAN/ÜLKE SÜREKLİLİĞİ karışık kimliktir — nevablık kalıcı bir bölgesel özerklik kimliğiydi. ⚠️ BULUNAMADI (TDV'de): `avad` maddesi doğrudan yok, yalnız başka maddelerde geçiyor (`ahmed-i-rumi`, `cirag-i-dehli`); tarihler standart akademik kaynağa göredir.",
+  kronoloji:[
+    { t:"1722-01-01", tur:"kurulus", b:"Sâdet Han, Babür'den fiilen özerk nevablığını kurdu" },
+    { t:"1856-02-07", tur:"son", b:"İngiliz Doğu Hindistan Şirketi Avad'ı doğrudan ilhak etti" }
+  ]
+},
+{ id:"cavnpur-sultanligi", ad:"Cavnpur (Jaunpur) Sultanlığı — Şarkî Hanedanı", tur:"sultanlik", bolge:"guney-asya",
+  f:"1394-01-01", t:"1483-01-01", baskent:"Jaunpur",
+  ozet:"Delhi Sultanlığı'nın zayıflamasıyla bağımsızlaşan, Kuzey Hindistan'ın önemli bir kültür merkezi olan Şarkî sultanlığı; Lodi hanedanınca ilhak edildi (1495'te Sultan İskender-i Lûdî, kalan Şarkî eserlerini de yıktırdı). HANEDAN ÖMRÜ kimliğidir. (kaynak: TDV, madde: jaunpur — \"Jaunpûr, Şarkî sultanlarının döneminde (1394-1483)\")",
+  kronoloji:[
+    { t:"1394-01-01", tur:"kurulus", b:"Şarkî hanedanı Delhi'den bağımsızlaşıp Jaunpur Sultanlığı'nı kurdu" },
+    { t:"1483-01-01", tur:"son", b:"Lodi hanedanı Jaunpur'u ilhak etti" }
+  ]
+},
+{ id:"hanthawaddy", ad:"Hanthawaddy Krallığı (Mon, Peygu)", tur:"krallik", bolge:"guneydogu-asya",
+  f:"1287-01-01", t:"1757-05-06", baskent:"Martaban → Peygu (Bago)",
+  ozet:"Pagan'ın Moğol istilasıyla çöküşü sonrası Mon halkının kurduğu, uzun süre Alt Burma'yı yöneten krallık; Alaungpaya'nın Konbaung seferiyle ortadan kaldırıldı. HANEDAN/ÜLKE karışık kimliktir — dört buçuk asır süren bölgesel süreklilik. TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
+  kronoloji:[
+    { t:"1287-01-01", tur:"kurulus", b:"Pagan'ın çöküşü üzerine Mon halkı Martaban merkezli krallığını kurdu" },
+    { t:"1757-05-06", tur:"son", b:"Alaungpaya'nın Konbaung ordusu Peygu'yu alıp krallığa son verdi" }
+  ]
+},
+{ id:"kakatiya", ad:"Kakatiya Hanedanı (Warangal)", tur:"hanedanlik", bolge:"guney-asya",
+  f:"1163-01-01", t:"1323-01-01", baskent:"Warangal",
+  ozet:"Doğu Deccan'da (Telangana) hüküm süren Hindu hanedanı; Delhi Sultanı Gıyâseddin Tuğluk'un oğlu Ulug Han'ın seferiyle son bulup doğrudan Delhi'ye bağlandı. HANEDAN ÖMRÜ kimliğidir. TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
+  kronoloji:[
+    { t:"1163-01-01", tur:"kurulus", b:"Kakatiya hanedanı Warangal'da bağımsızlığını kurdu" },
+    { t:"1323-01-01", tur:"son", b:"Delhi Sultanlığı'nın seferiyle son hükümdar Prataparudra esir alındı" }
+  ]
+},
+{ id:"pagan", ad:"Pagan Krallığı (Burma) — Son Dönem", tur:"krallik", bolge:"guneydogu-asya",
+  f:"849-01-01", t:"1297-01-01", baskent:"Pagan (Bagan)",
+  ozet:"Burma'yı ilk kez birleştiren, anıtsal tapınaklarıyla tanınan krallık; Moğol istilasıyla (1287) fiilen çöktü, Myinsaing kardeşlerin iktidarı devralmasıyla hanedan sona erdi. HANEDAN ÖMRÜ kimliğidir — çöküş süreci 1287-1297 arasında kademeli oldu. TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
+  kronoloji:[
+    { t:"1287-01-01", tur:"isgal", b:"Moğol istilası krallığı fiilen çökertti" },
+    { t:"1297-01-01", tur:"son", b:"Myinsaing kardeşler iktidarı ele geçirdi, Pagan hanedanı sona erdi" }
+  ]
+},
+{ id:"pandya", ad:"Pandya Hanedanı (İkinci İmparatorluk)", tur:"hanedanlik", bolge:"guney-asya",
+  f:"1190-01-01", t:"1323-01-01", baskent:"Madurai",
+  ozet:"Güney Hindistan'da (Tamil Nadu) hüküm süren, İbn Battûta'nın da ziyaret ettiği eski Hindu hanedanı; Delhi Sultanlığı'nın Malik Kâfûr seferi (1311) ile zayıflayıp 1323'te Madurai Sultanlığı'na (bkz. [[madurai-sultanligi]]) yerini bıraktı. HANEDAN ÖMRÜ kimliğidir. TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
+  kronoloji:[
+    { t:"1311-01-01", tur:"toprak-kayip", b:"Malik Kâfûr'un seferiyle Delhi'ye haraca bağlandı" },
+    { t:"1323-01-01", tur:"son", b:"Delhi valiliğine dönüştürülüp yerini Madurai Sultanlığı aldı" }
+  ]
+},
+{ id:"tay-son", ad:"Tay Sơn Hanedanı", tur:"hanedanlik", bolge:"guneydogu-asya",
+  f:"1778-01-01", t:"1802-06-20", baskent:"Phú Xuân (Huế)",
+  ozet:"Tay Sơn kardeşlerin köylü isyanından doğan, Vietnam'ı kısa süreliğine yeniden birleştiren hanedan; Nguyễn Ánh'ın (Gia Long) zaferiyle sona erdi, Nguyễn hanedanına yerini bıraktı. HANEDAN ÖMRÜ kimliğidir. TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
+  kronoloji:[
+    { t:"1773-01-01", tur:"isyan", b:"Tay Sơn kardeşlerin isyanı başladı" },
+    { t:"1778-01-01", tur:"kurulus", b:"Nguyễn Huệ (İmparator Quang Trung) hanedanı resmen ilan etti" },
+    { t:"1802-06-20", tur:"son", b:"Nguyễn Ánh (Gia Long) son Tay Sơn direnişini kırıp Vietnam'ı birleştirdi" }
+  ]
+},
+{ id:"taiping", ad:"Taiping Cennetsel Krallığı", tur:"isyan", bolge:"dogu-asya",
+  f:"1851-01-11", t:"1864-07-19", baskent:"Nanjing (Tianjing)",
+  ozet:"Hong Xiuquan önderliğindeki dinî-siyasî isyan hareketinin kurduğu, Qing'e karşı on üç yıl süren en kanlı iç savaşlardan birini yürüten \"krallık\"; Nanjing'in düşüşüyle tamamen bastırıldı. İSYAN/GEÇİCİ DEVLET kimliğidir. TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
+  kronoloji:[
+    { t:"1851-01-11", tur:"isyan", b:"Jintian Ayaklanması ile Taiping hareketi resmen başladı" },
+    { t:"1853-03-19", tur:"toprak-kazanc", b:"Nanjing ele geçirilip \"Tianjing\" adıyla başkent yapıldı" },
+    { t:"1864-07-19", tur:"son", b:"Qing orduları Nanjing'i geri aldı, hareket çöktü" }
+  ]
+},
+{ id:"madurai-sultanligi", ad:"Madurai Sultanlığı (Ma'bar)", tur:"sultanlik", bolge:"guney-asya",
+  f:"1335-01-01", t:"1378-01-01", baskent:"Madurai",
+  ozet:"Delhi Sultanlığı'ndan ayrılan en güneydeki bağımsız Müslüman sultanlık; Vijayanagara İmparatorluğu'nun fethiyle ortadan kaldırıldı. HANEDAN ÖMRÜ kimliğidir, kısa (43 yıl) ama Delhi'nin en uzak eyaleti. TDV'de doğrudan maddesi yok (`delhi-sultanligi` maddesinde geçiyor); tarihler standart akademik kaynağa göredir.",
+  kronoloji:[
+    { t:"1335-01-01", tur:"kurulus", b:"Celâleddin Ahsan Han, Delhi'den bağımsızlığını ilan etti" },
+    { t:"1378-01-01", tur:"son", b:"Vijayanagara İmparatorluğu sultanlığı fethetti" }
+  ]
+},
+{ id:"singhasari", ad:"Singhasari Krallığı (Cava)", tur:"krallik", bolge:"guneydogu-asya",
+  f:"1222-01-01", t:"1292-01-01", baskent:"Singhasari",
+  ozet:"Doğu Cava'da hüküm süren, Kubilay Han'a meydan okuyup Moğol seferini davet eden Hindu-Budist krallık; Kediri'nin isyanıyla yıkıldı, mirasını Majapahit devraldı. HANEDAN ÖMRÜ kimliğidir. TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
+  kronoloji:[
+    { t:"1222-01-01", tur:"kurulus", b:"Ken Arok, Singhasari Krallığı'nı kurdu" },
+    { t:"1292-01-01", tur:"son", b:"Jayakatwang'ın (Kediri) isyanıyla son kral Kertanagara öldürüldü" }
+  ]
+},
+{ id:"ho-hanedani", ad:"Hồ Hanedanı (Vietnam)", tur:"hanedanlik", bolge:"guneydogu-asya",
+  f:"1400-03-01", t:"1407-06-17", baskent:"Tây Đô (Thanh Hóa)",
+  ozet:"Hồ Quý Ly'nin Trần hanedanını devirip kurduğu, çok kısa ömürlü hanedan; Ming Çin'inin istilasıyla sona erdi. HANEDAN ÖMRÜ kimliğidir — yedi yıllık en kısa ömürlü Vietnam hanedanlarından. TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
+  kronoloji:[
+    { t:"1400-03-01", tur:"kurulus", b:"Hồ Quý Ly, Trần hanedanını devirip tahta çıktı" },
+    { t:"1407-06-17", tur:"son", b:"Ming ordusu Hồ Quý Ly'yi esir aldı, hanedan sona erdi" }
+  ]
+},
+{ id:"karnatik", ad:"Karnatik Nevablığı (Arcot)", tur:"devlet", bolge:"guney-asya",
+  f:"1690-01-01", t:"1801-07-31", baskent:"Arcot",
+  ozet:"Haydarabad Nizamlığı'ndan (bkz. [[haydarabad-nizam]]) ayrılan, İngiliz-Fransız Karnatik Savaşları'nın (Yedi Yıl Savaşları'nın Hindistan cephesi) sahnesi olan nevablık; İngiliz Doğu Hindistan Şirketi'nce doğrudan ilhak edildi. HANEDAN/ÜLKE karışık kimliktir. TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
+  kronoloji:[
+    { t:"1690-01-01", tur:"kurulus", b:"Zülfikar Han, Haydarabad'dan ayrı Karnatik valiliğini fiilen özerkleştirdi" },
+    { t:"1801-07-31", tur:"son", b:"İngiliz Doğu Hindistan Şirketi nevablığı doğrudan ilhak etti" }
+  ]
+},
+{ id:"tonburi", ad:"Thonburi Krallığı (Siyam)", tur:"krallik", bolge:"guneydogu-asya",
+  f:"1767-12-28", t:"1782-04-06", baskent:"Thonburi",
+  ozet:"Ayutthaya'nın Birmanya'ya düşüşünden (1767) sonra General Taksin'in Siyam'ı yeniden birleştirdiği kısa ömürlü krallık; bir saray darbesiyle Taksin devrilip idam edildi, Chakri hanedanı (bugünkü Tayland hanedanı) kuruldu. HANEDAN ÖMRÜ kimliğidir. TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
+  kronoloji:[
+    { t:"1767-12-28", tur:"kurulus", b:"General Taksin kendini kral ilan etti, Thonburi'yi başkent yaptı" },
+    { t:"1782-04-06", tur:"son", b:"Chao Phraya Chakri'nin darbesiyle Taksin devrilip idam edildi" }
+  ]
+},
+{ id:"tran-hanedani", ad:"Trần Hanedanı (Vietnam)", tur:"hanedanlik", bolge:"guneydogu-asya",
+  f:"1225-01-01", t:"1400-03-01", baskent:"Thăng Long (Hanoi)",
+  ozet:"Lý hanedanının yerini alan, üç Moğol istilasını (1258, 1285, 1288) püskürten güçlü Vietnam hanedanı; Hồ Quý Ly'nin (bkz. [[ho-hanedani]]) tahtı gaspetmesiyle sona erdi. HANEDAN ÖMRÜ kimliğidir. TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
+  kronoloji:[
+    { t:"1225-01-01", tur:"kurulus", b:"Trần Cảnh, Lý hanedanının yerini aldı" },
+    { t:"1288-04-09", tur:"savas", b:"Bạch Đằng'da üçüncü Moğol istilası kesin olarak püskürtüldü" },
+    { t:"1400-03-01", tur:"son", b:"Hồ Quý Ly tahtı gaspetti, Trần hanedanı sona erdi" }
+  ]
+},
+{ id:"cammu-kesmir", ad:"Cammû-Keşmir (Dogra Hanedanı)", tur:"devlet", bolge:"guney-asya",
+  f:"1846-03-16", t:"1923-10-29", baskent:"Srinagar (yaz) / Jammu (kış)",
+  ozet:"Gulâb Singh'in Amritsar Antlaşması ile İngilizlerden satın aldığı, Müslüman çoğunluklu ama Hindu Dogra hanedanınca yönetilen prens devleti; 1947 bölünmesinde tartışmalı ilhakla Hindistan-Pakistan çatışmasının merkezi oldu (1923 sonrasında da sürdü). ÜLKE SÜREKLİLİĞİ kimliğidir — Dogra hanedanı atlas ufkunun ötesine taşıyor. (kaynak: TDV, madde: kesmir — \"7,5 milyon rupi karşılığında... hâkimiyetini tamamen ele geçirdi (1846)\")",
+  kronoloji:[
+    { t:"1846-03-16", tur:"kurulus", b:"Amritsar Antlaşması ile Gulâb Singh bölgeyi İngilizlerden satın aldı" }
+  ]
+},
+{ id:"hoysala", ad:"Hoysala Hanedanı", tur:"hanedanlik", bolge:"guney-asya",
+  f:"1026-01-01", t:"1343-01-01", baskent:"Belur → Halebidu",
+  ozet:"Güney Deccan'da (bugünkü Karnataka) hüküm süren, tapınak mimarisiyle tanınan Hindu hanedanı; son hükümdar III. Ballala'nın Madurai Sultanlığı'nca öldürülmesiyle sona erdi, toprakları kısa süre sonra doğan Vijayanagara'ya (bkz. [[vijayanagara]]) katıldı. HANEDAN ÖMRÜ kimliğidir. TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
+  kronoloji:[
+    { t:"1311-01-01", tur:"toprak-kayip", b:"Malik Kâfûr'un seferiyle Delhi'ye haraca bağlandı" },
+    { t:"1343-01-01", tur:"son", b:"III. Ballala, Madurai Sultanlığı güçlerince öldürüldü, hanedan sona erdi" }
+  ]
+},
+{ id:"laos-kralliklari", ad:"Laos Krallıkları (Luang Prabang, Vientiane, Champasak)", tur:"krallik", bolge:"guneydogu-asya",
+  f:"1707-01-01", t:"1893-10-03", baskent:"Luang Prabang / Vientiane / Champasak (üç ayrı merkez)",
+  ozet:"Lan Xang Krallığı'nın veraset çekişmesiyle üçe bölünmesiyle doğan, birbiriyle rekabet eden ve zamanla Siyam'a haraca bağlanan üç Lao krallığı; Fransız-Siyam Antlaşması ile Fransız Çinhindi'ne (bkz. [[fransiz-cinhindi]]) katıldı. HANEDAN/ÜLKE karışık kimliktir, üç ayrı hanedan TEK kayıtta. TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
+  kronoloji:[
+    { t:"1707-01-01", tur:"bolunme", b:"Lan Xang, Luang Prabang ve Vientiane krallıklarına bölündü" },
+    { t:"1713-01-01", tur:"bolunme", b:"Champasak üçüncü ayrı krallık olarak ortaya çıktı" },
+    { t:"1893-10-03", tur:"son", b:"Fransız-Siyam Antlaşması ile bölge Fransız himayesine girdi" }
+  ]
+},
+{ id:"seylan-sinhala", ad:"Seylan Sinhala Krallıkları (Portekiz Öncesi)", tur:"krallik", bolge:"guney-asya",
+  f:"1281-01-01", t:"1518-01-01", baskent:"Dambadeniya → Gampola → Kotte (ardışık merkezler)",
+  ozet:"Polonnaruwa'nın çöküşünden Portekiz'in gelişine kadar birbirini izleyen Sinhala krallıkları (Dambadeniya, Gampola, Kotte); Portekizlilerin Kolombo'ya yerleşmesiyle dış nüfuza açıldı. HANEDAN/ÜLKE karışık, BİRDEN FAZLA ardışık krallığı TEK kayıtta temsil eden bir kolektif kimliktir — `irlanda`/`somali` emsali gibi. ⚠️ 1281 tarihi bir hanedanın kuruluşu değil atlasın pencere başlangıcıdır. ⚠️ BULUNAMADI (TDV'de): `seylan` maddesi yalnız `sri-lanka`ya yönlendiriyor, dönem ayrıntısı yok; tarihler standart akademik kaynağa göredir.",
+  kronoloji:[
+    { t:"1518-01-01", tur:"toprak-kayip", b:"Portekizliler Kolombo'da kale kurup Kotte Krallığı'nı nüfuzu altına aldı" }
+  ]
+},
+{ id:"sukhothai", ad:"Sukhothai Krallığı (Siyam)", tur:"krallik", bolge:"guneydogu-asya",
+  f:"1238-01-01", t:"1438-01-01", baskent:"Sukhothai",
+  ozet:"Khmer İmparatorluğu'ndan bağımsızlaşan, Tay yazısının ve Theravada Budizmi'nin yayıldığı ilk Tay krallığı; giderek güçlenen Ayutthaya'ya bağımlı hale gelip sonunda doğrudan ilhak edildi. HANEDAN ÖMRÜ kimliğidir. TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
+  kronoloji:[
+    { t:"1238-01-01", tur:"kurulus", b:"Sri Indraditya, Khmer'den bağımsızlığını ilan etti" },
+    { t:"1438-01-01", tur:"son", b:"Ayutthaya Krallığı Sukhothai'yi doğrudan ilhak etti" }
+  ]
+},
+{ id:"bahavelpur", ad:"Bahavelpur Emirliği (Dâvudpotralar)", tur:"devlet", bolge:"guney-asya",
+  f:"1748-01-01", t:"1923-10-29", baskent:"Bahawalpur",
+  ozet:"Bahâvel Han'ın Sutlej kıyısında kurduğu, Abbasi hilafetine soy iddia eden Dâvudpotra hanedanının emirliği; 1802'de Afgan şahından sikke basma hakkı alarak egemen devlet statüsü kazandı, 1838'de İngiliz himayesine girdi (1923 sonrasında da sürdü, 1955'te idari birleşmeyle sona erdi). ÜLKE SÜREKLİLİĞİ kimliğidir — hanedan atlas ufkunun ötesine taşıyor. (kaynak: TDV, madde: bahavelpur — \"1748'de Emir Muhammed Bahâvel tarafından... kuruldu\")",
+  kronoloji:[
+    { t:"1748-01-01", tur:"kurulus", b:"Bahâvel Han, Sutlej kıyısında emirliğini kurdu" },
+    { t:"1802-01-01", tur:"hukumdar", b:"Afgan Şahı Mahmud'dan sikke basma izni alarak egemen statü kazandı" }
+  ]
+},
+{ id:"bharatpur-cat", ad:"Bharatpur Krallığı (Jat)", tur:"krallik", bolge:"guney-asya",
+  f:"1733-01-01", t:"1923-10-29", baskent:"Bharatpur",
+  ozet:"Bedan Singh'in kurduğu, Jat kabile konfederasyonundan doğan Hindu krallığı; Babür ve sonra İngiliz baskısına rağmen prens devleti olarak varlığını sürdürdü (1923 sonrasında da sürdü, 1947'ye dek). ÜLKE SÜREKLİLİĞİ kimliğidir. TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
+  kronoloji:[
+    { t:"1733-01-01", tur:"kurulus", b:"Bedan Singh, Bharatpur Krallığı'nı kurdu" },
+    { t:"1826-01-18", tur:"savas", b:"İngilizlerin kuşatmasıyla fiilî bağımsızlığını kaybedip prens devletine dönüştü" }
+  ]
+},
+{ id:"bhopal", ad:"Bopal (Bhopal) Devleti", tur:"devlet", bolge:"guney-asya",
+  f:"1708-01-01", t:"1923-10-29", baskent:"Bhopal",
+  ozet:"Dost Muhammed Han'ın Babür hizmetinden ayrılıp kurduğu, dört kadın hükümdarıyla (Begüm) tanınan Müslüman prens devleti; İngiliz himayesinde varlığını sürdürdü (1923 sonrasında da sürdü, TDV'ye göre 1952'ye dek). ÜLKE SÜREKLİLİĞİ kimliğidir. (kaynak: TDV, madde: bopal--devlet — \"Dost Muhammed Han... nevvâblığını ve istiklâlini ilân etmiştir\")",
+  kronoloji:[
+    { t:"1708-01-01", tur:"kurulus", b:"Dost Muhammed Han, Berâsiye bölgesinin idaresini alıp nevablığını ilan etti" }
+  ]
+},
+{ id:"cunagadh", ad:"Cunagadh (Junagadh) Nevablığı", tur:"devlet", bolge:"guney-asya",
+  f:"1748-01-01", t:"1923-10-29", baskent:"Junagadh",
+  ozet:"Babür valiliğinden ayrılan Babi hanedanının Gucerat'taki Müslüman nevablığı; İngiliz himayesinde 1947'ye dek sürdü, o yıl Pakistan'a katılma kararı Hindistan'ın işgaliyle geçersiz kılındı (1923 sonrasında da sürdü). ÜLKE SÜREKLİLİĞİ kimliğidir. ⚠️ BULUNAMADI (TDV'de): `cunagadh`/`junagadh` aramasında \"madde başlıklarında sonuç bulunamadı\" — tarihler standart akademik kaynağa göredir.",
+  kronoloji:[
+    { t:"1748-01-01", tur:"kurulus", b:"Babi hanedanı Babür valiliğinden fiilen bağımsızlaştı" }
+  ]
+},
+{ id:"kocin", ad:"Kochi (Cochin) Krallığı — Portekiz Öncesi", tur:"krallik", bolge:"guney-asya",
+  f:"1102-01-01", t:"1503-01-01", baskent:"Kochi",
+  ozet:"Malabar kıyısında baharat ticaretiyle zenginleşen, Kalikat (Zamorin) ile rekabet eden Hindu krallığı; Portekizlilerle 1503'te ittifak/himaye anlaşması imzalayarak ilk Avrupa vasalı Hint devleti oldu (krallık kendisi 1949'a dek sürdü, bu künye yalnız Avrupa-öncesi bağımsız dönemi kapsıyor). HANEDAN/ÜLKE karışık kimliktir. TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
+  kronoloji:[
+    { t:"1503-01-01", tur:"antlasma", b:"Portekiz ile himaye/ittifak anlaşması imzalandı, Avrupa vasallığı başladı" }
+  ]
+},
+{ id:"multan-langah", ad:"Multan Langah Sultanlığı", tur:"sultanlik", bolge:"guney-asya",
+  f:"1451-01-01", t:"1527-01-01", baskent:"Multan",
+  ozet:"Belûcî Lengâh kabilesinden Rai Sahra'nın kurduğu, seksen yıl süren bağımsız sultanlık; Sind hâkimi Hüseyin Şah Argun tarafından ortadan kaldırıldı, sonra Babür eyaleti oldu. HANEDAN ÖMRÜ kimliğidir. (kaynak: TDV, madde: multan — \"muhtemelen 855'te (1451)... Rai Sahra... hâkim oldu\", son \"Rebîülâhir 933 / Ocak 1527\")",
+  kronoloji:[
+    { t:"1451-01-01", tur:"kurulus", b:"Rai Sahra, Belûcî Lengâh kabilesinden Multan'a hâkim oldu (muhtemelen tarih, TDV)" },
+    { t:"1527-01-01", tur:"son", b:"Sind hâkimi Hüseyin Şah Argun sultanlığa son verdi" }
+  ]
+},
+{ id:"pingnan", ad:"Pingnan Devleti (Panthay, Du Wenxiu)", tur:"devlet", bolge:"dogu-asya",
+  f:"1855-01-01", t:"1873-01-15", baskent:"Dali",
+  ozet:"Yunnan'daki Hui Müslümanlarının Du Wenxiu (Sultan Süleyman) önderliğinde Qing'e karşı ayaklanmasıyla kurduğu kısa ömürlü İslâm devleti; on sekiz yıllık mücadeleden sonra Mançu-Han ordularınca Dali'nin düşüşüyle yıkıldı. İSYAN/KISA ÖMÜRLÜ DEVLET kimliğidir. (kaynak: TDV, madde: panthay — \"1855'te Du Wenxiu, Dali'yi zaptederek... sultanlığın merkezi yaptı\", \"1855-1873\")",
+  kronoloji:[
+    { t:"1855-01-01", tur:"kurulus", b:"Du Wenxiu (Sultan Süleyman) Dali'yi ele geçirip sultanlığın merkezi yaptı" },
+    { t:"1873-01-15", tur:"son", b:"Mançu-Han orduları on sekiz yıllık kuşatmanın ardından Dali'yi aldı" }
+  ]
+},
+{ id:"samudra-pasai", ad:"Samudra Pasai Sultanlığı", tur:"sultanlik", bolge:"guneydogu-asya",
+  f:"1281-01-01", t:"1521-01-01", baskent:"Pasai",
+  ozet:"Güneydoğu Asya'nın ilk İslâm sultanlığı; kuzey Sumatra'da İslâmiyet'i kabul eden yerel hanedanca kuruldu, Marco Polo ve İbn Battûta'nın uğrak yeri oldu, sonunda Portekiz ve Açe arasında sıkışıp bağımsızlığını yitirdi. HANEDAN ÖMRÜ kimliğidir. ⚠️ 1281 tarihi TDV'nin verdiği \"1280'lerde İslâm'ı kabul\" ile atlasın pencere başlangıcının ÇAKIŞTIĞI ender bir durum. (kaynak: TDV, madde: endonezya — \"1280'lerde... İslâm'ı kabul\", \"ilk Pasai sultanı Melikü's-Sâlih 696'da (1296-97) öldü\"; bitiş tarihi standart akademik kaynağa göredir)",
+  kronoloji:[
+    { t:"1281-01-01", tur:"kurulus", b:"Yerel hanedan İslâm'ı kabul edip Samudra Pasai Sultanlığı'nı kurdu (TDV: 1280'ler)" },
+    { t:"1521-01-01", tur:"son", b:"Portekiz-Açe çekişmesinde bağımsızlığını yitirdi" }
+  ]
+},
+{ id:"sarawak-brooke", ad:"Sarawak (Brooke Hanedanı)", tur:"devlet", bolge:"guneydogu-asya",
+  f:"1841-09-24", t:"1923-10-29", baskent:"Kuching",
+  ozet:"İngiliz maceracı James Brooke'un Brunei Sultanı'ndan aldığı toprakla kurduğu, \"Beyaz Racalar\" (White Rajahs) diye anılan özel/kişisel sömürge devleti; Brunei'den bağımsız bir hanedanlık olarak üç kuşak sürdü (1923 sonrasında da sürdü, 1946'da İngiliz tacına devredildi). ÜLKE SÜREKLİLİĞİ kimliğidir — Brooke hanedanı atlas ufkunun ötesine taşıyor. TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
+  kronoloji:[
+    { t:"1841-09-24", tur:"kurulus", b:"Brunei Sultanı, James Brooke'a Sarawak topraklarını devretti, \"Racasını\" ilan etti" }
+  ]
+},
+{ id:"sunda-pajajaran", ad:"Sunda Krallığı (Pajajaran)", tur:"krallik", bolge:"guneydogu-asya",
+  f:"669-01-01", t:"1527-06-22", baskent:"Pakuan Pajajaran",
+  ozet:"Batı Cava'da hüküm süren, İslâmlaşmayı reddeden son büyük Hindu-Budist krallıklardan biri; Demak-Cirebon ittifakının Sunda Kelapa limanını almasıyla (bugün \"Jakarta Günü\" olarak kutlanan olay) fiilen çöktü. HANEDAN ÖMRÜ kimliğidir. TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
+  kronoloji:[
+    { t:"1527-06-22", tur:"son", b:"Fetahillah'ın Demak-Cirebon kuvvetleri Sunda Kelapa'yı aldı, liman \"Jayakarta\" adını aldı" }
   ]
 }
 

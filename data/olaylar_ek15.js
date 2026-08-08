@@ -1,0 +1,44 @@
+// ============================================================================
+// DERİNLEŞTİRME PARTİSİ 15 — KOORDİNATÖR (8 Ağustos 2026)
+// KONU: iki nokta oturumunun teslimde AÇIKÇA BORÇ olarak bıraktığı kırılmalar.
+//
+// 🔴 Bu dosya bir "derinleştirme" değil, bir FATURA. İki oturum 333 nokta
+// yazdı ve ikisi de kendi açtıkları kırılmaları saklamadı:
+//
+//   NOKTA HALKA-2 3 — dokuz gün (on kırılma). Ve kendi ilk listesini (sekiz
+//   gün) dosyası bağlandıktan SONRA yeniden ölçüp DÜZELTTİ. Çürüttüğü kendi
+//   varsayımı: "tarih veride zaten VAR ⇒ maddesi de vardır." Yanlış — bir gün
+//   başka bir yerleşimde kırılma olarak bulunabilir ve yine de ±30 gününde
+//   hiçbir madde olmayabilir. 1564 · 1610 · 1673 tam böyleydi.
+//
+//   NOKTA HALKA-2 1 — iki gün. Denetimi GEÇMİŞTİ (±30 günde madde vardı) ama
+//   "temiz" demeyi reddetti: 1400'ün maddesi "Bursa'da Yıldırım Darüşşifası",
+//   1695'inki "Hâfız Osman'ın hat hocası tayini" idi. Yani Tuncûr'dan
+//   Keyra'ya hânedan geçişi bir HAT HOCASI TAYİNİ'nin altında beliriyordu.
+//   CLAUDE.md §3 bunu kelimesi kelimesine tarif ediyor. Ölçüt geçiyordu,
+//   GÖSTERİM yanlıştı — ve ölçüt yalnız birincisini görüyor.
+//
+// KAYNAK YÖNTEMİ (§4): her slug HTTP koduyla VE gövdesi okunarak sınandı.
+//   canlı: darfur · sadiler · mevlay-ismail · filaliler · cezayir · kabiliye
+//   ölü (302): badis · arais · el-arais · larache · mehdiye · mamura ·
+//              huseyme · alhucemas · tuvat · tidikelt · gurare · bessar ·
+//              ayn-salih · dar-fur · sadiler-hanedani · fas--sehir
+// ⚠️ Beş maddenin TDV'de müstakil karşılığı YOK. Bunu maddenin kendi
+// metninde açıkça yazdım ve `kaynak:` alanına konuyu gerçekten kapsayan en
+// yakın CANLI maddeyi koydum. "TDV'de yok" demek bir sonuçtur.
+// ============================================================================
+window.OLAYLAR_EK15 = [
+
+{ t:"1400-01-01", k:"siyaset", etiket:["siyaset"], b:"Dârfûr'da Dâcû hâkimiyetinin Tuncûrlar'a geçmesi", gun:"XV. yüzyıl (TDV yüzyıl verir, gün vermez — 1400-01-01 yüzyıl sınırıdır)", yer:"Dârfûr", yer_id:"Dârfûr", kisiler:"", d:"TDV İslâm Ansiklopedisi'nin Dârfûr maddesine göre bölgeye ilk yerleşen ve ilk devleti kuranlar Dâcû kabilesidir; XIII ve XIV. yüzyıllar boyunca buraya hâkim olan Dâcûlar ticarî hâkimiyeti Tuncûrlar'a kaptırmış, XV. yüzyılda özellikle orta bölgedeki durum tamamen Tuncûrlar'ın lehine dönmüştür. ⚠️ TDV yüzyıl verir, yıl ya da gün vermez: buradaki 1400-01-01 belgelenmiş bir gün değil, yüzyıl sınırıdır.", kaynak:"darfur", duygu:["🏴"] },
+{ t:"1695-01-01", k:"siyaset", etiket:["siyaset"], b:"Dârfûr Sultanlığı'nın kuruluşu — Keyra hânedanı ve Süleyman Solonc", gun:"1695 (Süleyman Solonc'un saltanatının başlangıcı)", yer:"Dârfûr", yer_id:"Dârfûr", kisiler:"Süleyman Solonc", d:"TDV'ye göre Dârfûr Sultanlığı'nın kuruluşu, XVII. yüzyılın sonlarında Bumû el-Kasîr'in bölgeyi istilâsının ardından gelen karışıklıktan sonraya rastlar. Fûrlar, başında Süleyman Solonc'un bulunduğu Kîrâ (Keyra) sülâlesinin önderliğinde hâkimiyeti Dâcû ve Tuncûrlar'ın elinden aldı ve sağlam bir yönetim kurdu. Süleyman Solonc 1695-1715 arasında hüküm sürdü. Dârfûr sultanları sonraki yüzyıllarda Bâbıâli ile yazıştı; Abdülmecid ve Abdülaziz hükümdarlıklarını tasdik etti.", kaynak:"darfur", duygu:["👑"] },
+{ t:"1564-01-01", k:"siyaset", etiket:["siyaset"], b:"İspanya'nın Bâdis (Peñón de Vélez) kayalığını ele geçirmesi", gun:"1564 (TDV yıl verir, gün vermez)", yer:"Bâdis", yer_id:"Bâdis", kisiler:"", d:"TDV'nin Sa'dîler maddesi, İspanyollar'ın Bâdis'i ele geçirmesinin Mağrib denizciliğine ağır bir darbe olduğunu kaydeder (1564). Kuzey Fas kıyısındaki bu kayalık mevzi, Batı Akdeniz'de korsanlığa ve Osmanlı-İspanyol çekişmesine dayanak teşkil ediyordu. ⚠️ Bâdis'in TDV'de müstakil maddesi yoktur; hüküm Sa'dîler maddesine dayanır.", kaynak:"sadiler", duygu:["⚔️"] },
+{ t:"1610-01-01", k:"siyaset", etiket:["siyaset"], b:"el-Arâiş'in (Larache) İspanya'ya terki", gun:"1610 (yıl biliniyor, gün bilinmiyor)", yer:"el-Arâiş", yer_id:"el-Arâiş", kisiler:"", d:"Sa'dî hânedanının parçalandığı iç savaş yıllarında, Atlantik kıyısındaki el-Arâiş limanı İspanya'ya bırakıldı. TDV'nin Sa'dîler maddesi bu dönemde ülkenin Merakeş (güney) ve Fas (kuzey) emirlikleri olarak ikiye bölündüğünü, taht kavgasındaki tarafların dışarıdan yardım aradığını kaydeder. Liman seksen yıla yakın İspanyol elinde kalacak, 1689'da Mevlây İsmâil geri alacaktır. ⚠️ el-Arâiş'in TDV'de müstakil maddesi yoktur.", kaynak:"sadiler", duygu:["😔"] },
+{ t:"1614-01-01", k:"siyaset", etiket:["siyaset"], b:"Mamûra'nın (Mehdiye) İspanyolların eline geçmesi", gun:"1614 (yıl biliniyor, gün bilinmiyor)", yer:"Mamûra", yer_id:"Mamûra", kisiler:"", d:"Sebû nehrinin ağzındaki Mamûra (Ma'mûre / Mehdiye) limanı 1614'te İspanyollar tarafından alındı ve San Miguel de Ultramar adıyla tahkim edildi. TDV'nin Mevlây İsmâil maddesi, limanın 1092 (1681) yılında âni bir baskınla İspanyollar'ın elinden geri alındığını kaydeder — yani İspanyol hâkimiyeti altmış yedi yıl sürmüştür. ⚠️ Mamûra'nın TDV'de müstakil maddesi yoktur; hüküm Mevlây İsmâil ve Filâlîler maddelerine dayanır.", kaynak:"mevlay-ismail", duygu:["😔"] },
+{ t:"1673-01-01", k:"siyaset", etiket:["siyaset"], b:"İspanya'nın el-Hüseyme (Alhucemas) adalarını işgali", gun:"1673 (yıl biliniyor, gün bilinmiyor)", yer:"el-Hüseyme", yer_id:"el-Hüseyme", kisiler:"", d:"Akdeniz kıyısındaki el-Hüseyme adaları 1673'te İspanyol donanmasınca işgal edildi. Bâdis ve Sebte ile birlikte, İspanya'nın kuzey Fas kıyısında tuttuğu ve bugüne kadar elinde kalan mevzilerdendir. Aynı yıl Mevlây İsmâil'in ağabeyi Mevlây Reşîd Merakeş'e girip halktan biat almış, Filâlî hâkimiyeti güneyde pekişmişti — kıyıdaki bu kayıp, iç birleşmenin dış cephede henüz karşılığı olmadığını gösterir. ⚠️ el-Hüseyme'nin TDV'de müstakil maddesi yoktur.", kaynak:"filaliler", duygu:["😔"] },
+{ t:"1689-01-01", k:"siyaset", etiket:["siyaset"], b:"Mevlây İsmâil'in el-Arâiş'i İspanyollardan geri alışı", gun:"1100 / 1689", yer:"el-Arâiş", yer_id:"el-Arâiş", kisiler:"Mevlây İsmâil", d:"TDV'nin Mevlây İsmâil maddesi açıktır: \"1100'de (1689) Arâîş'i İspanyollar'dan geri alarak 200 top ele geçirdiler, iki yıl sonra da Asîle'yi geri aldılar.\" Bu, Filâlî sultanının kıyı temizliği zincirinin halkalarından biridir — Tanca 1678'de İngilizler'den, Mamûra 1681'de, el-Arâiş 1689'da, Asîle 1691'de geri alındı. Seksen yıl önce Sa'dî iç savaşında terkedilen liman, böylece Fas'a döndü.", kaynak:"mevlay-ismail", duygu:["🎉"] },
+{ t:"1857-07-11", k:"siyaset", etiket:["siyaset"], b:"Büyük Kabiliye'nin düşüşü — Lalla Fatma N'Sûmer'in esareti", gun:"11 Temmuz 1857", yer:"Tîzî Vezzû", yer_id:"Tîzî Vezzû", kisiler:"Lalla Fatma N'Sûmer, Randon", d:"TDV'nin Cezayir maddesi, dağlık Kabiliye (Bilâdü'l-kabâil) bölgesinin 1853, 1854 ve 1857'deki seferler sonunda işgal edilmesiyle Fransa'nın Cezayir'i işgal hareketinin büyük ölçüde tamamlandığını kaydeder. 1857 seferi Tîzî Vezzû ve Akbû hattını kırdı; direnişin simgesi Lalla Fatma N'Sûmer esir alındı. Emîr Abdülkādir'in 1847'deki teslimiyetinden sonra ayakta kalan son büyük direniş odağı böylece söndü.", kaynak:"cezayir", duygu:["⚔️"] },
+{ t:"1899-12-29", k:"siyaset", etiket:["siyaset"], b:"Aynı Sâlih'in (Tîdîkelt) Fransa tarafından işgali", gun:"29 Aralık 1899", yer:"Aynı Sâlih", yer_id:"Aynı Sâlih", kisiler:"", d:"Sahra'nın ortasındaki Tîdîkelt vahalar kümesinin merkezi Aynı Sâlih, 29 Aralık 1899'da Fransız kuvvetlerince alındı. Bu, Cezayir kıyısından güneye inen Fransız yayılmasının çöle taşan ilk büyük adımıdır; iki yıl içinde Tuvât ve Gûrâre de aynı yolu izleyecektir. ⚠️ Aynı Sâlih'in ve Tîdîkelt'in TDV'de müstakil maddesi yoktur; hüküm Cezayir maddesindeki işgal kronolojisine ve standart akademik kaynağa dayanır.", kaynak:"cezayir", duygu:["⚔️"] },
+{ t:"1901-02-21", k:"siyaset", etiket:["siyaset"], b:"Tuvât · Gûrâre · Tîdîkelt vahalarının Fransa'ya ilhakı", gun:"21 Şubat 1901", yer:"Tîmîmûn", yer_id:"Tîmîmûn", kisiler:"", d:"Cezayir'in güneybatısındaki Tuvât, Gûrâre ve Tîdîkelt vaha kuşağı 21 Şubat 1901'de resmen Fransa'ya bağlandı. Fas sultanının nominal hak iddia ettiği bu kervan yolu düğümü — Advâr, Tîmîmûn, Reggân ve Benî Abbâs dahil — böylece Cezayir'e katıldı; Fas ile Fransız Cezayiri arasındaki sınır anlaşmazlığının başlangıcı budur. ⚠️ Tuvât ve Gûrâre'nin TDV'de müstakil maddesi yoktur.", kaynak:"cezayir", duygu:["⚔️"] },
+{ t:"1903-11-12", k:"siyaset", etiket:["siyaset"], b:"Beşşâr'ın (Colomb-Béchar) işgali", gun:"12 Kasım 1903", yer:"Beşşâr", yer_id:"Beşşâr", kisiler:"", d:"Fas sınırındaki Beşşâr vahası 12 Kasım 1903'te Fransız kuvvetlerince alındı ve Colomb-Béchar adıyla ileri karakol hâline getirildi. Tuvât kuşağının ilhakından iki yıl sonra gelen bu adım, Fransa'nın Cezayir'den Fas'a doğru ilerlemesinin son halkalarındandır; Fas'ın 1912'de himaye altına alınmasına giden yolu açar. ⚠️ Beşşâr'ın TDV'de müstakil maddesi yoktur.", kaynak:"cezayir", duygu:["⚔️"] },
+
+];
