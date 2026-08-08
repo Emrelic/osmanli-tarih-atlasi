@@ -2601,3 +2601,104 @@ boş özet              : 0
 ters/sıfır süreli f-t : 0
 ```
 `data/devletler.js` pathspec'siz bırakıldı. Koordinatöre bildirildi.
+
+## ㊳ SON PARTİ — 3 çelişki karara bağlandı + aydin/karaman + Ö1 kümesi FİNAL (3/19/0)
+
+### 1-3: üç farklı çözüm, üçü de uygulandı
+
+```
+karakoyunlu        t=1467-01-01 → 1469-01-01 (TDV: son hükümdar Nisan
+                    1469'da öldürüldü — künye YANLIŞTI, candar vakasının
+                    tekrarı). kronoloji'deki "son" olayı da 1469'a çekildi.
+trablusgarp-ocagi  t=1911-10-05 → 1911-10-09 (TDV'nin Trablus'un düşüş
+                    tarihi). Özete üç tarih yazıldı: 29 Eylül 1911 savaş
+                    ilânı · 9 Ekim düşüş · 18 Ekim 1912 Uşi Antlaşması.
+                    harita: ÖLÇÜLDÜ — yerlesimler.js'te Trablus 1551-1711
+                    ve 1835-1911 arası `d:` (doğrudan Osmanlı), 1711-1835
+                    arası `v:` (tâbi) olarak boyanıyor; hiçbir dönemde ayrı
+                    bir renk kimliği yok. "harita: alanının olmaması
+                    DOĞRUDUR" özete açıkça yazıldı.
+hicaz-kralligi     TARİHE DOKUNULMADI. Özet düzeltildi: "Şerîf Hüseyin 10
+                    Haziran 1916'da isyanı başlattı ve Hicaz'da fiilî
+                    hâkimiyet o gün el değiştirdi; 'Hicaz Kralı' unvanı
+                    Kasım 1916'da ilân edildi. Künye fiilî hâkimiyeti
+                    ölçer, unvanı değil."
+```
+
+### 4-5: aydin düzeltildi, karaman'a dokunulmadı
+
+```
+aydin    t=1425-01-01 → 1425-06-01 (veri 1425-06-01'e kadar gidiyor,
+         künye 5 ay DAR kalıyordu — gerçek Ö1 ihlali). Özete DOĞRU sebep
+         yazıldı: kesinti Timur restorasyonu değil, 1415'te Çelebi
+         Mehmed'in ilhakı + Cüneyd Bey'in 1421'deki İKİNCİ ele geçirmesi.
+karaman  DOKUNULMADI — veri tek parça 1281-1473, künye zarfı (1256-1487)
+         bunu İÇİNDE tutuyor, bu bir ihlal DEĞİL (Ö1 dışa taşmayı arar,
+         içeride kalmayı değil).
+```
+
+### 6. 🔴 Ö1 SINAV KÜMESİ DIŞINDA KALAN — ~15 kimlik, İSİMLE listelendi, ÖLÇÜLMEDİ
+
+Orijinal 31 ham adaydan, mevcut 22'lik kümeye girmeyen ve "büyük emperyal
+işgal-geri alma" ya da "yerel çevre bölge kesintisi" türünden olduğu
+düşünülen kimlikler — YALNIZ AD + TAHMİNÎ SINIF, ölçülmedi:
+
+```
+macaristan   tahmin: B (Habsburg 1686-1918 işgali; muhtemelen zaten ayrı
+             künye — macaristan-habsburg/macaristan-naiplik — var, kontrol
+             edilmeli)
+bulgaristan  tahmin: B/C karışık (Fetret 1402-13 kısa + 1885-1923 modern
+             ayrımı, muhtemelen ayrı künye var)
+sirbistan    tahmin: B (Fetret kısa + 1878-1923 modern; sirp-despotlugu/
+             sirbistan-prensligi zaten ayrı künye)
+rusya        tahmin: B/C (çevre bölgelerde -Kırım, Bakü- tekrarlayan kısa
+             işgaller, künyenin kendisi geniş ölçekli)
+almanya      tahmin: B (Gdansk'ın Lehistan-Almanya arası el değiştirmesi)
+ingiltere    tahmin: C (Bordo'nun Yüzyıl Savaşları döngüsü, kısa/yerel)
+fransa       tahmin: C (aynı Bordo döngüsünün öbür ucu)
+portekiz     tahmin: B (İber Birliği 1581-1640, İspanya arası)
+ispanya      tahmin: B/C (aynı İber Birliği + Menorca/İngiltere döngüsü)
+bizans       tahmin: C (Selanik'in Katalanlar'a kısa kaybı, 1311 civarı)
+yemen        tahmin: B (Memlük/Osmanlı/yerel döngüsü, 1516-1918 arası
+             kopuk, muhtemelen ayrı künye var)
+benihalid    tahmin: B (Lahsa bölgesi, suud ile iç içe döngü)
+merini       tahmin: C (Agadir'in Portekiz'e kısa kaybı, yerel)
+hive         tahmin: C (Afşar arası kısa kesinti)
+iran (harita kimliği, Merv bölgesi)  tahmin: karmaşık — Timurlu/Buhara/
+             Safevi döngüsü, safevi künyesinden ayrı ele alınmalı
+```
+⚠️ Bu 15 kimlik ÖLÇÜLMEDİ — yalnız adları ve önyargısız birer tahmin
+sınıfı not edildi, koordinatörün "boşluk isimsiz kalmasın" talimatı
+gereği. Ö1'i yazacak oturum bunları TEK TEK ölçmelidir.
+
+### Ö1 SINAV KÜMESİ — FİNAL SAYIM: 3 / 19 / 0
+
+```
+ÖTMELİYDİ (3, hepsi düzeltildi bu oturumda):
+  saruhan       t 1410→1416-09-01
+  mutahharten   t 1403→1410
+  aydin         t 1425-01-01→1425-06-01
+
+ÖTMEMELİ (19):
+  germiyan, teke, candar, karaman (YENİ — sınırda'dan taşındı),
+  akkoyunlu, suud-birinci, suud-ikinci, suud-ucuncu, gurcistan,
+  gurcistan-demokratik-cumhuriyeti, polonya-erken, lehistan, polonya,
+  kirim, darfur, suleyman-celebi, musa-celebi, eflak, buhara
+
+BELİRSİZ: 0 (aydin ve karaman ikisi de karara bağlandı)
+```
+
+### Doğrulama (son parti)
+```
+py arac/kunye_olc.py  →  kısa künye: 1 (yalnız karakoyunlu, 62 karakter —
+                          TDV'de doğrulanmış tarih dışında yeni özet
+                          yazılmadı, ayrı bir işti; istenirse ayrıca
+                          yazılabilir)
+kayıt sayısı        : 381
+mükerrer id           : 0
+kaynaksız kayıt        : 0
+boş özet              : 0
+ters/sıfır süreli f-t : 0
+```
+`data/devletler.js` pathspec'siz bırakıldı. Koordinatöre bildirildi —
+görev tamamlandı, `data/devletler.js` alınıp yayına konulacak.
