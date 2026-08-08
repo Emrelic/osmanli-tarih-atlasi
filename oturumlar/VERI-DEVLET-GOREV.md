@@ -1645,3 +1645,93 @@ bölge Güneydoğu Asya+Güney Asya+Doğu Asya (90/220).**
 
 `data/devletler.js` HİÇ değiştirilmedi bu turda. Koordinatöre haber verildi
 — 301'e yazmaya başlanmadı, talimat bekleniyor.
+
+---
+
+## ㉘ PARTİ A yazıldı (36 aday sınandı, 33 doğrulandı) + C1/C2 ölçümü (salt ölçüm)
+
+### PARTİ A — Balkanlar+Anadolu 36 aday, HER BİRİ § 4 yöntemiyle sınandı
+
+⚠️ Not: benim ölçtüğüm Balkanlar+Anadolu kesişimi 34 değil **36** çıktı (iki
+fazlalık, muhtemelen sınır bölgesi kayıtları — `kibris-krallik`/
+`kibris-ingiliz` anadolu'ya, `hersek` balkanlar'a düşüyor, saymanızdaki 34
+belki bunlardan ikisini farklı gruplamış olabilir). 36'nın hepsini sınadım.
+
+**Yöntem — her aday için HTTP kodu VE gövde okuması (WebFetch):**
+
+```
+DOĞRULANDI (ilk denemede):            29/36
+ÇÜRÜDÜ (ilk aday yanlış çıktı):         7/36  ← alt-dizge yönteminin
+                                                 GERÇEK isabet oranı: %81
+```
+
+**Çürüyen 7'nin detayı** (yöntemin ele verdiği tuzaklar — hepsi HTTP 200
+döndü ama içerik YANLIŞ maddeydi, tam `§4`'ün uyardığı sınıf):
+```
+arnavutluk-iskenderbey -> nis          Niş şehri maddesi, İskender Bey'le İLGİSİZ
+kilikya-ermeni -> kili                 Tuna deltasındaki Kili kalesi, Kilikya'yla İLGİSİZ
+sarki-rumeli -> rumeli-hisari (ÖLÜ)    sonra 'rumeli' denendi, o da 1878 sonrasını KAPSAMIYOR
+ahiler -> ankara                       Ahi loncasından bahsediyor ama Ankara'yı YÖNETTİKLERİNİ DOĞRULAMIYOR
+fetret-suleyman -> suleyman-i          BU KANUNÎ SÜLEYMAN, madde kendisi Fetret'teki
+                                        Süleyman Çelebi'yle KARIŞTIRILMASIN diye özellikle uyarıyor
+fetret-isa -> bursa                    Bursa maddesinin Fetret bölümü İSA ÇELEBİ'den değil
+                                        ŞEHZADE CEM'den (1481, bambaşka bir olay) bahsediyor
+fetret-musa -> saltanat                "saltanat" kavramının genel hukuki tanımı, Musa Çelebi'yle İLGİSİZ
+```
+
+**Çürüyen 7'den 4'ü ek aramayla KURTARILDI** (doğru slug bulundu, TDV
+içerikle doğrulandı): `arnavutluk-iskenderbey`→`iskender-bey` ✅,
+`fetret-suleyman`→`emir-suleyman` ✅, `fetret-isa`→`isa-celebi` ✅,
+`fetret-musa`→`musa-celebi` ✅. **3'ü kurtarılamadı, BULUNAMADI kaldı:**
+`kilikya-ermeni` (kili/kilikya/ermeni-krallik/cukurova-ermeni/sis hepsi
+denendi, hiçbiri tutmadı), `sarki-rumeli` (rumeli-hisari ölü, rumeli genel
+maddesi 1878 sonrasını kapsamıyor), `ahiler` (ahilik maddesi VAR ama
+Ankara'yı yönetme iddiasını doğrulamıyor — künyenin kendisi hâlâ geçerli
+olabilir, yalnız bu spesifik iddia TDV'den doğrulanamadı).
+
+**YAZILAN kaynak: alanı sayısı: 33** (29 ilk-turda doğrulanan + 4
+kurtarılan). Tek script ile (id-takipli, `kronoloji:[` öncesine ekliyor)
+yazıldı. Doğrulandı (`node -e eval`): 381 kayıt (sabit), mükerrer id 0,
+ters/sıfır dönem 0.
+
+**TESLİM (istenen üç sayı): 33 doğrulandı (ilk tur 29 + kurtarılan 4) ·
+7 ilk-tur çürüdü (bunun 3'ü kalıcı BULUNAMADI, 4'ü kurtarıldı) ·
+3 kalıcı bulunamadı.**
+
+### C1/C2 ölçümü — 220 aday-üretmeyen kaydın özeti tarandı (SALT ÖLÇÜM)
+
+⚠️ Kendi kendimi düzelttim: bu ölçümü ilk koşumda yanlışlıkla ESKİ (v2,
+206 kayıtlık) listeyle yaptım, fark edip v3 (81 aday/220 aday-üretmeyen,
+raporunuzdaki sayılarla BİREBİR) listesiyle TEKRARLADI.
+
+`ozet:` alanında zaten "TDV'de ayrı maddesi yok" / "standart akademik
+kaynağa göre" / bilinen bir müellif adı (Uzunçarşılı, Spuler,
+Encyclopaedia Iranica, Cambridge History vb.) geçip geçmediği tarandı:
+
+```
+① PARTİ C1 adayı (özette dayanak ZATEN var, yalnız kaynak: alanına
+   TAŞINMASI yeterli):                                    80/220 (%36)
+② PARTİ C2 (özette hiç dayanak yok, sıfırdan araştırma gerekir):  140/220 (%64)
+```
+
+**Bölge dağılımı:**
+```
+C1 (80) — en yoğun: guneydogu-asya 21 · guney-asya 17 · dogu-afrika 9 ·
+  dogu-asya 7 · bati-afrika 6 · dogu-avrupa 5
+  (bu, DALGA 2'de yazdığım "standart akademik + açık işaretleme" partisinin
+  izidir — o partide her kalem zaten bu cümleyi taşıyordu)
+
+C2 (140) — en yoğun: guneydogu-asya 19 · dogu-asya 14 · guney-asya 12 ·
+  italya 9 · anadolu 8 · arabistan 8 · bati-avrupa 7 · iran 6 · iberya 6 ·
+  orta-asya 6
+```
+
+⚠️ Not: Güneydoğu Asya/Güney Asya/Doğu Asya HER İKİ kovada da (C1 ve C2)
+kalabalık — bu bölgede bazı kayıtlar zaten dayanaklı yazılmış (Dalga 2),
+bazıları henüz hiç işlenmemiş (daha eski/başka oturumların yazdığı
+kayıtlar). Yani "bu bölge pahalı" hükmü hâlâ geçerli ama TAMAMI değil,
+içeride de kendi C1/C2 ayrımı var.
+
+`data/devletler.js` PARTİ A dışında değiştirilmedi (C1/C2 ölçümü salt
+ölçümdü, hiçbir yazma yapılmadı). Koordinatöre haber verildi — Parti B/C1/C2
+için talimat bekleniyor.
