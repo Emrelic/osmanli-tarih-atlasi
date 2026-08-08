@@ -648,3 +648,62 @@ iz yok, "açık gap" kararı koordinatör tarafından da onaylandı.
 
 🟢 RENK 2'ye haber veriliyor: bitiş burada. Tek toplu renk turu ve
 `uret_petek.py` koşusunu bekliyorum.
+
+## 🔴 DÜZELTME TURU — konum ihlalleri + Chiang Rai/Nan sahipsizliği
+
+### Konum düzeltmeleri
+```
+Lampung     lat 5.45 (pozitif, TERS) → -5.45 — 215 km'lik deniz hatası
+            kapatıldı (koordinatör doğruladı).
+Larantuka   -8.35,122.99 → -8.3416,122.9896 (denetle.py önerisi)
+Songkhla    7.21,100.60 → 7.2082,100.5975 (denetle.py önerisi)
+Rembang     -6.71,111.34 → -6.7125,111.3397 (denetle.py önerisi)
+```
+Not: bu üçünün "0,00 km dışarıda" göstermesi `denetle.py`nin kendi
+`contains()` sınır kusuruymuş (koordinatör doğruladı, kendi aracını
+düzeltecek) — benim tarafımda ek iş yok.
+
+### Deli/Indragiri — zaten yazılıydı
+Koordinatörün "iki nokta eksik" uyarısı muhtemelen isim eşleşmesinden
+kaynaklandı: `Medan (Deli)` ve `Rengat (Indragiri)` bir önceki turda ZATEN
+yazılmıştı (satır 327/329). Yeniden yazılmadı, mükerrer önlendi.
+
+### 🔴 Chiang Rai / Nan sahipsizliği (Değişmez 1: 174 → 172)
+
+Sorun: `lan-na` künyesinin `f`si 1296-04-12 (Chiang Mai'nin kuruluşu), ama
+Chiang Rai ve Nan noktalarımın `s:` dönemi de aynı 1296-04-12'de
+başlıyordu — atlas 1281'de başladığı için ARADA 15 yıllık sahipsiz pencere
+açılıyordu.
+
+**KAYNAK DOĞRULAMASI YAPILDI** (TDV bu konuyu kapsamıyor — "tayland"
+maddesi Mangrai'den hiç bahsetmiyor, standart akademik kaynağa (Wikipedia
+üzerinden, iyi belgelenmiş ve tartışmasız bir tarih) geçildi):
+> Mangrai 1259'da babasının yerine bağımsız hükümdar oldu; **1262'de
+> Chiang Rai'yi yeni başkenti olarak kurdu**; Chiang Mai'nin inşaatı ise
+> **1296'da başladı** ve Lan Na Krallığı'nın resmî başkenti oldu (Mangrai
+> 1292-1311 arası hükümdarlık yaptı).
+
+⇒ **SEÇENEK A DOĞRULANDI VE UYGULANDI:**
+- `lan-na` künyesinin `f`si **1296-04-12 → 1262-01-01** olarak
+  KOORDİNATÖRE BİLDİRİLDİ (devletler.js onda, yazacak).
+- Chiang Rai ve Nan noktalarımın `s:` dönemi **1296-04-12 → 1281-01-01**
+  olarak DÜZELTİLDİ (atlas penceresiyle hizalandı, `lan-na` kimliğiyle).
+
+⚠️ **NAN İÇİN AÇIKÇA YAZIYORUM — KABUL EDİLMİŞ YAKLAŞIKLIK:** Nan
+tarihsel olarak 1449'a kadar AYRI bir beylikti (Nanthaburi/Nan Krallığı),
+Mangrai'nin Lan Na'sına bağlı değildi. Onu `lan-na` kimliğiyle 1281'den
+başlatmak GERÇEK TARİHİ DEĞİL, **kabul edilmiş bir basitleştirme** —
+doğrusu ayrı bir `nanthaburi` künyesi (Seçenek C) olurdu ama bu yeni
+künye+renk gerektirir, bugün kapanmadı. **Bu kayıtsız bir borç OLARAK
+BIRAKILMASIN diye buraya açıkça yazıyorum** — ileride Nan için ayrı künye
+açılırsa bu nokta güncellenmeli.
+
+### Doğrulama
+```
+py arac/denetle.py  →  Değişmez 1: ✓ 2261 yerleşim, 172 sahipsiz (beklenen 172)
+```
+Konum satırı (Lampung/Larantuka/Songkhla/Rembang) koordinatörün elinde,
+beklenmiyor.
+
+Koordinatöre bildiriliyor: lan-na f=1262-01-01 önerisi + Değişmez 1 172'ye
+indi.
