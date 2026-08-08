@@ -1220,6 +1220,21 @@ body {
 .dz-satir .dz-sag { color: #6b5a33; font-size: 12px; text-align: right; max-width: 260px; }
 .dz-satir.tikla { cursor: pointer; }
 .dz-satir.tikla:hover { background: #fdf3d7; }
+/* Yerleşim Kronolojileri sekmesinin arama kutusu — 2293 kayıt var, arama
+   olmadan sekme kullanılamaz. `dz-satir` ızgarasının dışında durur. */
+.dz-arama {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 6px 9px;
+  margin: 4px 0 6px;
+  font-size: 13px;
+  font-family: inherit;
+  color: #5c1020;
+  background: #fffdf5;
+  border: 1px solid #d9c79a;
+  border-radius: 5px;
+}
+.dz-arama:focus { outline: none; border-color: #8a6d2f; background: #fff; }
 
 /* dar ekran */
 @media (max-width: 900px) {

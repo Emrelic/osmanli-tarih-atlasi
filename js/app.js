@@ -2684,6 +2684,120 @@ function dizinDoldur(sekme) {
               });
       });
     });
+  } else if (sekme === "yerlesimler") {
+    // 🔴 NİÇİN "sehirler" SEKMESİ YETMEDİ — ölçüldü, 8 Ağustos 2026.
+    // O sekme iki süzgeç uyguluyor: `if (!don.length || !y.k) return;`
+    //   ① `y.k` yoksa atlıyor  → `k:` yalnız OSMANLI sahasında dolu (723 nokta),
+    //      geri kalan 1538 YABANCI yerleşim dizinde HİÇ GÖRÜNMÜYORDU
+    //   ② `d`/`v` yoksa atlıyor → yalnız `s:` (yabancı) dönemi olan nokta da yok
+    // ⇒ Kullanıcı "Belgrad hangi tarihte kimdeymiş" diye sorabiliyordu ama
+    //   "Tebriz hangi tarihte kimdeymiş" diye SORAMIYORDU.
+    // Bu sekme SÜZGEÇSİZDİR: her yerleşim, her dönem, sahibiyle.
+    // ⚠️ `sehirler` sekmesine DOKUNULMADI — o Osmanlı idarî tasnifini gösteriyor
+    // ve işi başka. İki sekme iki soruya cevap veriyor, biri ötekinin yerini almaz.
+    var YRL = window.YERLESIMLER || [];
+    var arama = document.createElement("input");
+    arama.className = "dz-arama";
+    arama.placeholder = "Yerleşim ara — " + YRL.length + " kayıt (Byzantion? Konstantiniyye? İstanbul yazın)";
+    kutu.appendChild(arama);
+    var liste = document.createElement("div");
+    kutu.appendChild(liste);
+
+    function donemler(y) {
+      // Dört kova da tek listede, KRONOLOJİK: kullanıcı "kimdeymiş" diye
+      // sorduğunda `d`/`v`/`s`/`isg` ayrımını değil SIRAYI görmek istiyor.
+      var hepsi = [];
+      (y.d || []).forEach(function (p) { hepsi.push({ f:p.f, t:p.t, ad:"Osmanlı", cins:"doğrudan" }); });
+      (y.v || []).forEach(function (p) { hepsi.push({ f:p.f, t:p.t, ad:"Osmanlı", cins:"tâbi" }); });
+      (y.s || []).forEach(function (p) { hepsi.push({ f:p.f, t:p.t, ad:devletAdi(p.d), cins:"" }); });
+      (y.isg || []).forEach(function (p) { hepsi.push({ f:p.f, t:p.t, ad:devletAdi(p.d), cins:"işgal" }); });
+      hepsi.sort(function (a, b) { return a.f < b.f ? -1 : a.f > b.f ? 1 : 0; });
+      return hepsi;
+    }
+
+    function detay(y) {
+      liste.innerHTML = "";
+      var geri = document.createElement("div");
+      geri.className = "dz-satir tikla";
+      geri.innerHTML = '<span class="dz-sol">← bütün yerleşimlere dön</span>';
+      geri.addEventListener("click", function () { ciz(arama.value); });
+      liste.appendChild(geri);
+
+      var h = document.createElement("div");
+      h.className = "dz-grup";
+      h.textContent = y.ad + " — " + y.lat.toFixed(3) + "K, " + y.lon.toFixed(3) + "D" +
+                      (y.tur ? " · " + y.tur : "") + (y.kur ? " · kuruluş " + y.kur.slice(0, 4) : "");
+      liste.appendChild(h);
+
+      var dn = donemler(y);
+      if (!dn.length) {
+        var b = document.createElement("div");
+        b.className = "dz-satir";
+        // `kasitli_bosluk` bir kusur DEĞİL bir HÜKÜMDÜR — `neden:` alanı
+        // kullanıcının "burada niye hiçbir şey yok" sorusunun cevabıdır.
+        b.innerHTML = '<span class="dz-sol"></span>';
+        b.children[0].textContent = y.kasitli_bosluk
+          ? "⬜ Kasıtlı boşluk — " + (y.neden || "gerekçe yazılmamış")
+          : "⬜ Bu yerleşimin hiçbir dönemi kayıtlı değil";
+        liste.appendChild(b);
+      }
+      dn.forEach(function (p) {
+        var d = document.createElement("div");
+        d.className = "dz-satir tikla";
+        d.innerHTML = '<span class="dz-sol"></span><span class="dz-orta"></span><span class="dz-sag"></span>';
+        d.children[0].textContent = p.ad + (p.cins ? " (" + p.cins + ")" : "");
+        d.children[1].textContent = p.f + " → " + p.t;
+        d.children[2].textContent = (function () {
+          var yil = Math.round((gunIdx(p.t) - gunIdx(p.f)) / 365.25);
+          return yil >= 1 ? yil + " yıl" : "";
+        })();
+        d.addEventListener("click", function () {
+          dizinPencere.classList.add("gizli");
+          otoZoom = false;
+          document.getElementById("btn-zoom").classList.add("pasif");
+          tarihAyarla(gunIdx(p.f));
+          harita.flyTo({ center: [y.lon, y.lat], zoom: 6.2, duration: 900 });
+        });
+        liste.appendChild(d);
+      });
+    }
+
+    function ciz(q) {
+      liste.innerHTML = "";
+      q = (q || "").toLocaleLowerCase("tr").trim();
+      var bulunan = YRL.filter(function (y) {
+        return !q || y.ad.toLocaleLowerCase("tr").indexOf(q) >= 0;
+      });
+      bulunan.sort(function (a, b) { return a.ad.localeCompare(b.ad, "tr"); });
+      var h = document.createElement("div");
+      h.className = "dz-grup";
+      h.textContent = q ? bulunan.length + " yerleşim bulundu"
+                        : "Bütün yerleşimler (" + bulunan.length + ") — bir satıra tıkla, kronolojisi açılsın";
+      liste.appendChild(h);
+      // Uzun listeyi kırpmak yerine ilk 300'ü basıp KAÇ TANESİNİN
+      // gösterilmediğini SÖYLÜYORUZ — sessiz kırpma "hepsi bu" diye okunur.
+      bulunan.slice(0, 300).forEach(function (y) {
+        var dn = donemler(y);
+        var ilk = dn.length ? dn[0].f.slice(0, 4) : "—";
+        var son = dn.length ? dn[dn.length - 1].t.slice(0, 4) : "—";
+        var d = document.createElement("div");
+        d.className = "dz-satir tikla";
+        d.innerHTML = '<span class="dz-sol"></span><span class="dz-orta"></span><span class="dz-sag"></span>';
+        d.children[0].textContent = (y.tur === "kale" ? "🏰 " : y.tur === "liman" ? "⚓ " : "") + y.ad;
+        d.children[1].textContent = dn.length ? dn.length + " dönem" : "kayıt yok";
+        d.children[2].textContent = ilk + " → " + son;
+        d.addEventListener("click", function () { detay(y); });
+        liste.appendChild(d);
+      });
+      if (bulunan.length > 300) {
+        var u = document.createElement("div");
+        u.className = "dz-grup";
+        u.textContent = "… " + (bulunan.length - 300) + " yerleşim daha — aramayı daraltın";
+        liste.appendChild(u);
+      }
+    }
+    arama.addEventListener("input", function () { ciz(arama.value); });
+    ciz("");
   } else if (sekme === "devletler") {
     // 🔴 TESPİH KUŞAK 0/1 sessiz kayıp taraması (4 Ağustos, arac/denetle_gorunur.py
     // ölçtü) — `sehzadelik` (4 kayıt: Fetret Devri'nin şehzade saltanatları) bu
