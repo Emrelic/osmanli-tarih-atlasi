@@ -1260,6 +1260,13 @@ body {
 }
 .devlet-etiket:hover { color: rgba(52, 38, 22, 1); text-decoration: underline; }
 
+/* PROJEKSİYON şartnamesi §③ — küre modunda MapLibre v5 kendi kendine bu
+   sınıfı takıyor (marker kürenin arka yüzündeyken). Sönümlemezsek etiketler
+   arka yüzde de tam opaklıkla görünür ve ön yüzdeki etiketlerle üst üste
+   biner. Yalnız devlet/bölge etiketleri değil, TÜM Marker'lar (şehir,
+   padişah) için geçerli — sınıf maplibregl'in kendi kök elemanına konuyor. */
+.maplibregl-marker-covered { opacity: 0.12; }
+
 /* Yüzölçümü göstergesi — zaman çubuğunda, tarihin yanında.
    Lejanttan buraya taşındı: orası gizlenebiliyordu ve tercih hatırlanıyordu,
    yani kullanıcının şikâyetinin cevabı kullanıcı tarafından kapatılabiliyordu.

@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Osmanlı Tarih Atlası (1281–1923)</title>
-<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css">
 <link rel="stylesheet" href="css/style.css?v=r1079">
 </head>
 <body>
@@ -26,6 +26,11 @@
          Çizgi açıkken cevap ekranda oluyor. Dikdörtgen olması kasıtlı:
          hiçbir siyasî/tabiî sınır tam dikdörtgen değildir. -->
     <button id="btn-verisiniri" title="Atlasın veri sınırı: bu dikdörtgenin ötesi henüz atlasa dâhil değil. Boş görünen yerlerin sebebi budur.">▦ Veri sınırı</button>
+    <!-- Projeksiyon: varsayılan HİBRİT — uzakta küre (gerçek oran), yakınlaşınca
+         (Balkanlar ölçeğinde) kendiliğinden Mercator'a döner. Kullanıcı
+         zorlayabilir; tercih localStorage'da kalır. Üç durum döngüsü,
+         ikili değil — hibrit'e geri dönüş kaybolmasın diye. -->
+    <button id="btn-projeksiyon" title="Harita projeksiyonu: varsayılan hibrit (uzakta küre, yakında düz). Tıklayınca zorla küre / zorla düz / hibrit arasında döner.">🌗 Hibrit</button>
     <button id="btn-tamekran" title="Tam ekran (F11)">⛶</button>
     <!-- ⚙ Ayarlar düğmesi §⑧②'de kronoloji başlığına taşındı — burada
          DUPLICATE id AÇMAMAK için tekrar edilmedi (bkz. #olay-akisi h2). -->
@@ -273,7 +278,7 @@
   </div>
 </div>
 
-<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.js"></script>
 <script src="data/padisahlar.js?v=r1079"></script>
 <script src="data/olaylar.js?v=r1079"></script>
 <script src="data/olaylar_ek.js?v=r1079"></script>

@@ -546,10 +546,28 @@ function donemBul(t) {
 }
 
 // ---------- Harita ----------
+// Projeksiyon — PROJEKSİYON şartnamesi (oturumlar/PROJEKSIYON.md): hibrit.
+// Uzaktan bakınca küre (gerçek oran; Mercator 60-70°K'de alanı 4-8 kat
+// şişiriyor ve atlasın penceresi 82°K'ye kadar çıkıyor), Balkanlar
+// ölçeğine yaklaşınca kendiliğinden düze döner.
+// ⚠️ v5'in HAZIR `projection:{type:'globe'}` ön ayarı BUNU YAPMAZ — ölçüldü:
+// içi zoom 10→12 arası vertical-perspective→mercator geçişidir, bizim
+// maxZoom'umuz 8. Hazır ön ayarla harita hiçbir zaman düze dönmeyecekti.
+// Onun yerine kendi interpolate ifademiz — kendi zoom aralığımıza göre.
+// 🔴 Eşik TAHMİNİ, ÖLÇÜLMEDİ: koşu 4 bitip ekran görüntüsüyle Balkanlar
+// sınandığında (şartname §④) elle doğrulanacak/ayarlanacak.
+var PROJEKSIYON_ESIK = { kureZoom: 4, mercatorZoom: 6 };
+function hibritProjeksiyon() {
+  return ["interpolate", ["linear"], ["zoom"],
+    PROJEKSIYON_ESIK.kureZoom, "globe",
+    PROJEKSIYON_ESIK.mercatorZoom, "mercator"];
+}
+
 var harita = new maplibregl.Map({
   container: "harita",
   style: {
     version: 8,
+    projection: { type: hibritProjeksiyon() },
     sources: {
       altlik: {
         type: "raster",
@@ -575,6 +593,37 @@ var harita = new maplibregl.Map({
   attributionControl: { compact: true }
 });
 harita.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-left");
+
+// Projeksiyon zorlama düğmesi — üç durumlu döngü: hibrit → küre → düz →
+// hibrit. Tercih localStorage'da kalır. ÜÇ durum kasıtlı: brifing ikili bir
+// "🌐 Küre / 🗺 Düz" düğmesi tarif ediyordu, ama ikili olsa kullanıcı bir kez
+// zorladıktan sonra hibrit'e BİR DAHA DÖNEMEZDİ — döngü onu üçüncü durak
+// yapıyor. (Bu tasarım kararı koordinatöre bildirildi.)
+var PROJEKSIYON_DURUMLAR = ["hibrit", "kure", "duz"];
+var PROJEKSIYON_ETIKET = { hibrit: "🌗 Hibrit", kure: "🌐 Küre", duz: "🗺 Düz" };
+function projeksiyonUygula(durum) {
+  if (durum === "kure") harita.setProjection({ type: "globe" });
+  else if (durum === "duz") harita.setProjection({ type: "mercator" });
+  else harita.setProjection({ type: hibritProjeksiyon() });
+}
+var btnProjeksiyon = document.getElementById("btn-projeksiyon");
+if (btnProjeksiyon) {
+  var projeksiyonDurum = localStorage.getItem("projeksiyonDurum") || "hibrit";
+  if (PROJEKSIYON_DURUMLAR.indexOf(projeksiyonDurum) === -1) projeksiyonDurum = "hibrit";
+  btnProjeksiyon.textContent = PROJEKSIYON_ETIKET[projeksiyonDurum];
+  // Yalnız zorlanmış bir durum varsa yükte uygula — "hibrit" zaten style'a
+  // gömülü, tekrar setProjection çağırmaya gerek yok.
+  if (projeksiyonDurum !== "hibrit") {
+    harita.on("load", function () { projeksiyonUygula(projeksiyonDurum); });
+  }
+  btnProjeksiyon.addEventListener("click", function () {
+    var i = PROJEKSIYON_DURUMLAR.indexOf(projeksiyonDurum);
+    projeksiyonDurum = PROJEKSIYON_DURUMLAR[(i + 1) % PROJEKSIYON_DURUMLAR.length];
+    localStorage.setItem("projeksiyonDurum", projeksiyonDurum);
+    btnProjeksiyon.textContent = PROJEKSIYON_ETIKET[projeksiyonDurum];
+    projeksiyonUygula(projeksiyonDurum);
+  });
+}
 
 var haritaHazir = false;
 
