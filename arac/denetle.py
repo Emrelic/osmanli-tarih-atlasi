@@ -221,6 +221,7 @@ KUYRUK_DOSYALARI = ("yerlesimler_ortaasya2.js", "yerlesimler_avrupa.js",
                     # kaynaga dayanacak ve bu MESRUDUR (§4).
                     "yerlesimler_gdasya.js",
                     "yerlesimler_emilme.js",
+                    "yerlesimler_sibirya.js",
                     "yerlesimler_ek21.js",
                     # 🔴 7 Agustos 2026 — BES NOKTA OTURUMU, ONCEDEN eklendi.
                     # `NOKTA HALKA-2 3` yazmaya BASLAMADAN once denetle.py'yi

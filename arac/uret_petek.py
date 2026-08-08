@@ -154,6 +154,20 @@ def asama(ad=None):
     _ASAMA_AD, _ASAMA_T, _ASAMA_C = ad, simdi, simdi_c
     if ad is not None:
         print(f"[{_dt.datetime.now():%H:%M:%S}] ▶ {ad}")
+        # 🔴 MOTOR PARMAK İZİ HER AŞAMADA SINANIR — 8 Ağustos 2026'da ölçüldü.
+        # O gün bir koşu **83 dakika** çalıştı ve en sonda reddedildi:
+        #     "MOTOR KODU KOŞU SIRASINDA DEĞİŞTİ: renkler.py"
+        # Doğru hüküm, ama **83 dakika sonra** verildi. Sebep: `motor_izi_dogrula`
+        # yalnız EN SON çağrılıyordu (`donemler.js`ten hemen önce), oysa değişiklik
+        # koşunun **8. dakikasında** olmuştu.
+        # ⇒ Bir nöbetçinin DOĞRU olması yetmiyor, **ZAMANINDA** olması da gerekiyor.
+        #   Geç öten alarm, ötmeyen alarmdan yalnız biraz iyidir.
+        # ⚠️ Aşama başı sınama ucuzdur (birkaç dosyanın özeti) ve en kötü ihtimalle
+        #   bir aşama boyu gecikir — 83 dakika değil.
+        try:
+            girdi.motor_izi_dogrula(_MOTOR_IZI, f"aşama: {ad}")
+        except NameError:
+            pass          # _MOTOR_IZI henüz kurulmadı (ilk aşamalar)
 
 
 def sayac(ad, sn, n=1):

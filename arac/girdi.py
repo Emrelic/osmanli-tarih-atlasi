@@ -362,6 +362,7 @@ GIRDI_DOSYALARI = [
     # kuralı: bağlanmamış dosya YAZILMAMIŞ dosyadır.
     "yerlesimler_gdasya.js",
     "yerlesimler_emilme.js",
+    "yerlesimler_sibirya.js",
     # ── ESTONYA · 7 Agustos 2026 ────────────────────────────────────
     # ek11 Tallinn (Reval) · Narva · Tartu (Dorpat) · Parnu, 4 nokta.
     # PARTI 19dan beri BEKLIYORDU ve tek engeli `estonya` rengiydi;
