@@ -1887,3 +1887,111 @@ isabet oranını bulacağım, talimat gelince başlayacağım, bu turda
 BAŞLAMADIM.
 
 `data/devletler.js` bu turda HİÇ değiştirilmedi. Koordinatöre haber verildi.
+
+---
+
+## ㉛ "Yetersiz" biçimi yazıldı + C2 pilotu (20 kayıt, tabakalı) + bölge bölge oran
+
+### ① `kazak-hanligi` / `yarkent-hanligi` — YENİ BİÇİMLE YAZILDI
+
+```
+kazak-hanligi:   kaynak:"yetersiz — kazaklar maddesi okundu, hanlığın
+  (1465-1847) kendi siyasi tarihini karşılamıyor; madde ağırlıklı olarak
+  etnik/kültürel tarihe ve 1991 sonrasına odaklanıyor; dayanak: standart
+  akademik kaynak"
+yarkent-hanligi: kaynak:"yetersiz — kaşgar maddesi okundu, Yarkent'i ayrı
+  bir siyasi varlık olarak ele almıyor, yalnız geçerken anıyor; dayanak:
+  standart akademik kaynak"
+```
+
+### ⚠️ Pilot hazırlığı sırasında bulunan 7 ek "kaçırılmış C1" kaydı — DÜZELTİLDİ
+
+Havuzu tazeden kurarken (bkz. aşağıdaki yöntem notu) `301 taban − kaynak:
+alanı dolu olanlar` hesabı 165 verdi, ama C1/C2 taraması bunun 7'sinin
+ÖZETİNDE ZATEN "TDV'de yok/bulunamadı" cümlesi taşıdığını gösterdi
+(`novgorod`, `pskov`, `ermenistan-demokratik-cumhuriyeti`, `floransa`,
+`hausa-sehir-devletleri`, `nguyen-beyligi`, `cin-cumhuriyeti` — hepsi daha
+önceki turlarda benim yazdığım, zaten "TDV'de yok" diye işaretli kayıtlar).
+Bunlar Parti C1'in AYNI mekanik kuralıyla (negatif beyan → `kaynak:`
+alanına taşı) yazıldı — 7 ek satır, araştırma değil taşıma.
+**GERÇEK C2 havuzu böylece 158'e düzeltildi** (140 değil — önceki ölçümüm
+Parti A/B'nin farklı ara listelerden beslendiğini hesaba katmamıştı, bu
+turda düzelttim).
+
+### ② C2 PİLOTU — 158'lik havuzdan 20 kayıt, TABAKALI (bölgeyle orantılı)
+
+En büyük kalan artık yöntemiyle (largest remainder) 17 bölgeden orantılı
+seçildi (büyük bölgeler 2, küçükler 1, en küçük 8 bölge bu turda 0 pay
+aldı — 158'i 20'ye bölünce kaçınılmaz). Her kayıt §4 ile sınandı (HTTP +
+WebFetch gövde okuması).
+
+### TESLİM — DÖRT SAYI
+
+**12 doğrulandı · 0 çürüdü (bu turda hiç "canlı ama yanlış madde" çıkmadı)
+· 7 bulunamadı · 1 yetersiz.**
+
+```
+DOĞRULANDI (12):
+  ace-sultanligi -> ace          (1521 kuruluş, TDV birebir)
+  arakan         -> arakan       (1237 Launggret'ten modern döneme tam kapsıyor)
+  ahmednagar     -> nizamsahiler (1489-90 kuruluş, 1636 son, TDV birebir)
+  aiz            -> ebha         (Âiz b. Mûsâ isyanı doğrudan anlatılıyor)
+  afsar          -> avsarlilar   (1736-1804 hanedan tarihi, TDV birebir)
+  almanya        -> almanya      (Roma'dan 1989'a tam siyasi tarih)
+  belcika        -> belcika      (1830 bağımsızlık ve sonrası)
+  aragon         -> aragon       (1035 kuruluş, 1479 Kastilya birliği)
+  buhara         -> buhara       (Şeybânî'den Sovyet'e tam hanlık/emirlik tarihi)
+  altinorda      -> altin-orda-hanligi (1241-1502 birebir)
+  danimarka      -> danimarka    (6. yy'dan 1978'e tam tarih)
+  naksa-dukaligi -> naksa        (1205 kuruluş, 1537-38 Osmanlı fethi)
+
+YETERSİZ (1):
+  ahiler -> ahilik (madde teşkilatı tanımlıyor ama Ankara'yı yönetme
+                     iddiasını karşılamıyor — Parti A'daki "ankara" adayı
+                     denemesiyle AYNI sonuç, ikinci kez doğrulandı)
+
+BULUNAMADI (7):
+  edo-bakufu, goryeo, cenova, ferrara, estonya, aztek-imparatorlugu,
+  brezilya-imparatorlugu — hepsi için 3-4 alternatif slug denendi, hiçbiri
+  tutmadı (Kore/İtalyan şehir devletleri/Baltık/Amerika-öncesi Kolomb
+  konuları TDV kapsamı dışında kaldı)
+```
+
+**20 kaynak: alanı yazıldı** (12 pozitif + 7 negatif + 1 yetersiz).
+
+### BÖLGE BÖLGE İSABET TABLOSU (bu pilotun haritası)
+
+| bölge | pilotta test | doğrulandı | oran |
+|---|---|---|---|
+| iberya | 1 | 1 | %100 |
+| orta-avrupa | 1 | 1 | %100 |
+| bati-avrupa | 1 | 1 | %100 |
+| orta-asya | 1 | 1 | %100 |
+| sibirya-bozkir | 1 | 1 | %100 |
+| kuzey-avrupa | 1 | 1 | %100 |
+| balkanlar | 1 | 1 | %100 |
+| iran | 1 | 1 | %100 |
+| arabistan | 1 | 1 | %100 |
+| guneydogu-asya | 2 | 2 | %100 |
+| guney-asya | 1 | 1 | %100 |
+| anadolu | 1 | 0 (1 yetersiz) | %0 (yetersiz) |
+| dogu-asya | 2 | 0 | %0 |
+| italya | 2 | 0 | %0 |
+| dogu-avrupa | 1 | 0 | %0 |
+| orta-amerika | 1 | 0 | %0 |
+| guney-amerika | 1 | 0 | %0 |
+
+⚠️ **Örneklem küçük (bölge başına 1-2 kayıt) — bu tablo KESİN bölgesel oran
+değil, İLK İZLENİM.** Ama desen açık: **Avrupa (Batı/Orta/Kuzey/Doğu
+hariç)+İberya+İran+Arabistan+Orta Asya+Sibirya+Balkanlar+G.Asya+GD.Asya
+kümesinde TDV güçlü (12/14 test = %86)**; **Doğu Asya+İtalya+Amerika
+kümesinde TDV bu örneklemde SIFIR (0/6)** — İtalya'nın sıfır çıkması özellikle
+dikkat çekici (Parti B'de `cezayir-fransiz`/`hollanda-dogu-hint` gibi genel
+ülke maddeleri iyi sonuç vermişti, ama İtalyan şehir-devletleri — floransa,
+savoya, bonacolsi, şimdi cenova/ferrara — TEK BİR TANESİ bile TDV'de
+doğrulanamadı; 6/6 bulunamadı artık). Amerika kıtası (Aztek, Brezilya) ve
+Doğu Asya (Kore, Japon şogunluğu adları) beklenen şekilde sıfır — TDV'nin
+coğrafi kapsamının dışında.
+
+`data/devletler.js` pathspec'siz bırakıldı. Kalan 138 (158-20) kayda
+BAŞLANMADI — talimat bekleniyor. Koordinatöre haber verildi.
