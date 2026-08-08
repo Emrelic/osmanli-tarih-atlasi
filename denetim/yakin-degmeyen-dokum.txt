@@ -1,0 +1,127 @@
+72 YAKIN-AMA-DEĞMEYEN İHLALİN KÜME DÖKÜMÜ — RENK 2, 8 Ağustos 2026
+canlı 2261 nokta · ihlal 73 · kurulan çift 149
+ölçüt: ΔE < 12 · eşzamanlı · 600 km'den yakın · Voronoi komşusu DEĞİL
+kümeler devletler.js `bolge` alanından OKUNDU (elle yazılmadı)
+
+── anadolu                            13 çift   en dar ΔE 4.34 · en yakın 180 km
+    4.34    544 km  aydin                    cobanogullari            1308-1309
+    5.08    292 km  inancogullari            karaman                  1281-1368
+    6.17    283 km  hamid                    karesi                   1297-1345
+    6.91    257 km  mentese                  sahibata                 1281-1341
+    7.45    295 km  cobanogullari            trabzon-rum              1281-1309
+    7.68    523 km  germiyan                 trabzon-rum              1300-1429
+    8.48    180 km  karesi                   mentese                  1297-1345
+    9.03    215 km  ahiler                   hamid                    1297-1354
+    9.26    390 km  esrefogullari            saruhan                  1313-1326
+    9.56    543 km  eretna                   karesi                   1335-1345
+   10.44    388 km  ahiler                   teke                     1321-1354
+   10.70    510 km  dulkadir                 germiyan                 1337-1429
+   11.37    180 km  artuklu                  eretna                   1335-1381
+
+── anadolu ↔ balkanlar                11 çift   en dar ΔE 3.79 · en yakın 104 km
+    3.79    298 km  atinadukaligi            karesi                   1297-1345
+    6.14    560 km  atinadukaligi            hamid                    1297-1391
+    6.28    598 km  ramazanoglu              sovalye                  1352-1516
+    6.97    365 km  aydin                    sirbistan                1308-1425
+    9.21    420 km  bizans                   lusignan                 1281-1479
+    9.55    104 km  bizans                   inancogullari            1281-1368
+   10.35    558 km  bogdan                   karesi                   1297-1345
+   10.42    316 km  atinadukaligi            mentese                  1281-1425
+   11.29    229 km  atinadukaligi            aydin                    1308-1425
+   11.63    262 km  bulgaristan              karesi                   1297-1345
+   11.71    404 km  eflak                    karesi                   1297-1345
+
+── anadolu ↔ iran                      7 çift   en dar ΔE 6.48 · en yakın 173 km
+    6.48    465 km  burhaneddin              karakoyunlu              1381-1398
+    6.58    209 km  akkoyunlu                taceddin                 1379-1427
+    8.19    450 km  ilhanli                  saruhan                  1313-1366
+    8.85    482 km  karakoyunlu              ramazanoglu              1352-1469
+    9.42    299 km  ilhanli                  inancogullari            1281-1366
+   10.34    292 km  ilhanli                  lusignan                 1281-1366
+   11.32    173 km  akkoyunlu                eretna                   1340-1381
+
+── anadolu ↔ italya                    6 çift   en dar ΔE 3.44 · en yakın 127 km
+    3.44    284 km  ceneviz                  teke                     1321-1423
+    9.36    127 km  aydin                    venedik                  1308-1425
+    9.50    276 km  germiyan                 venedik                  1300-1429
+   11.56    206 km  ahiler                   ceneviz                  1281-1354
+   11.63    588 km  napoli                   saruhan                  1313-1416
+   11.99    383 km  dulkadir                 venedik                  1337-1515
+
+── guney-asya                          4 çift   en dar ΔE 7.75 · en yakın 430 km
+    7.75    480 km  gond-kralliklari         gucerat-sultanligi       1407-1573
+    8.02    430 km  kandy                    travankur                1469-1815
+    9.60    438 km  gucerat-sultanligi       sind                     1407-1573
+    9.78    545 km  kesmir                   racput                   1281-1586
+
+── italya ↔ orta-avrupa                3 çift   en dar ΔE 6.48 · en yakın 324 km
+    6.48    370 km  macaristan               mantua                   1281-1708
+    9.94    405 km  isvicre                  toskana                  1332-1861
+   11.92    324 km  avusturya                siena                    1281-1555
+
+── balkanlar ↔ italya                  3 çift   en dar ΔE 7.00 · en yakın 132 km
+    7.00    440 km  bosna                    ferrara                  1281-1483
+   10.72    132 km  musa-celebi              napoli                   1410-1413
+   11.56    545 km  bosna                    ceneviz                  1281-1483
+
+── italya                              3 çift   en dar ΔE 8.33 · en yakın 160 km
+    8.33    197 km  piza                     venedik                  1281-1406
+    8.92    368 km  napoli                   parma                    1545-1860
+   11.18    160 km  ceneviz                  ferrara                  1281-1797
+
+── bati-avrupa ↔ italya                3 çift   en dar ΔE 3.34 · en yakın 155 km
+    3.34    451 km  hollanda                 sardinya                 1581-1861
+    9.74    323 km  fransa                   mantua                   1281-1708
+   10.62    155 km  fransa-cumhuriyet        venedik                  1792-1797
+
+── balkanlar                           2 çift   en dar ΔE 11.92 · en yakın 422 km
+   11.92    422 km  bosna                    katalan                  1281-1394
+   11.99    579 km  atinadukaligi            bosna                    1281-1456
+
+── bati-avrupa ↔ orta-avrupa           2 çift   en dar ΔE 5.94 · en yakın 251 km
+    5.94    251 km  ingiltere                isvicre                  1332-1923
+    7.36    597 km  cekoslovakya             luksemburg               1918-1923
+
+── iberya ↔ italya                     2 çift   en dar ΔE 5.80 · en yakın 151 km
+    5.80    151 km  ferrara                  ispanya                  1281-1860
+    9.14    560 km  navarra                  sardinya                 1281-1620
+
+── guneydogu-asya                      2 çift   en dar ΔE 7.56 · en yakın 250 km
+    7.56    250 km  malaka-sultanligi        samudra-pasai            1400-1521
+   11.57    363 km  le-hanedani              sukhothai                1428-1438
+
+── balkanlar ↔ sibirya-bozkir          1 çift   en dar ΔE 9.80 · en yakın 305 km
+    9.80    305 km  altinorda                suleyman-celebi          1402-1411
+
+── italya ↔ sibirya-bozkir             1 çift   en dar ΔE 6.82 · en yakın 419 km
+    6.82    419 km  astarhan                 ceneviz                  1466-1556
+
+── arabistan                           1 çift   en dar ΔE 8.47 · en yakın 521 km
+    8.47    521 km  benihalid                umman                    1670-1841
+
+── orta-asya                           1 çift   en dar ΔE 10.46 · en yakın 567 km
+   10.46    567 km  buhara                   yakub-beg                1864-1877
+
+── anadolu ↔ kafkasya                  1 çift   en dar ΔE 11.98 · en yakın 494 km
+   11.98    494 km  candar                   gurcistan                1309-1461
+
+── guney-asya ↔ kuzey-avrupa           1 çift   en dar ΔE 11.86 · en yakın 327 km
+   11.86    327 km  danimarka                meysur                   1565-1923
+
+── balkanlar ↔ dogu-avrupa             1 çift   en dar ΔE 5.06 · en yakın 450 km
+    5.06    450 km  eflak                    teodoro                  1349-1475
+
+── bati-avrupa ↔ iberya                1 çift   en dar ΔE 8.52 · en yakın 471 km
+    8.52    471 km  fransa-cumhuriyet        portekiz                 1792-1923
+
+── dogu-asya                           1 çift   en dar ΔE 9.36 · en yakın 597 km
+    9.36    597 km  hosut                    kuzey-yuan               1636-1720
+
+── bati-avrupa ↔ dogu-asya             1 çift   en dar ΔE 9.42 · en yakın 572 km
+    9.42    572 km  ingiltere                meiji-japonya            1868-1923
+
+── bati-avrupa ↔ guney-asya            1 çift   en dar ΔE 7.56 · en yakın 269 km
+    7.56    269 km  ingiltere                meysur                   1565-1923
+
+── anadolu ↔ dogu-avrupa               1 çift   en dar ΔE 9.84 · en yakın 447 km
+    9.84    447 km  taceddin                 teodoro                  1379-1427

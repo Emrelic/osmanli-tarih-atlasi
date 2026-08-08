@@ -53,8 +53,21 @@ def durum():
             cift["%s|%s" % (a, b)] = round(d, 1)
             if d < R.DE_KOMSU:
                 cak["%s|%s" % (a, b)] = round(d, 1)
+    # ⑤ YAKIN AMA DEĞMEYEN — `renk_olc.yakin_renk()`un kurduğu evren.
+    # Voronoi çiftlerinden AYRI tutuluyor çünkü çıkış kodu kuralı farklı:
+    # orada doğan+eşikaltı KUSURdur, burada VERİ BÜYÜMESİdir (nokta partisi
+    # her turda yeni komşuluk doğuruyor). Kusur sayılan tek şey: VAR OLAN
+    # bir çiftin eşiğin ALTINA DÜŞMESİ — o ancak RENK değişikliğiyle olur.
+    yakin = {}
+    try:
+        _i, _s, _o, _n = R.yakin_renk(k)
+        for _de, _km, _a, _b, _f, _t in _i + _s:
+            yakin["%s|%s" % (_a, _b)] = round(_de, 1)
+    except Exception as _e:                     # eski taban / eski renk_olc
+        print("  i yakin_renk okunamadi (%s) — bu eksen atlandi" % _e)
     z = zincir()
     return {"nokta": n, "kimlik": len(R.BOYALAR), "cift": cift, "cakisma": cak,
+            "yakin": yakin,
             "hex": {a: v[1].lower() for a, v in R.BOYALAR.items()},
             "zincir": {ad: len(v) for ad, v in z.items()}}
 
@@ -212,6 +225,27 @@ def fark():
         print("    🔴 %-40s %5.1f → %5.1f"
               % (c.replace("|", "  ↔  "), eski["cift"][c], yeni["cift"][c]))
 
+    # ═══ ⑤ YAKIN AMA DEĞMEYEN ═══
+    ey, yy = set(eski.get("yakin") or {}), set(yeni.get("yakin") or {})
+    y_dus = [c for c in (ey & yy)
+             if eski["yakin"][c] >= R.DE_KOMSU > yeni["yakin"][c]]
+    y_dog = [c for c in sorted(yy - ey) if yeni["yakin"][c] < R.DE_KOMSU]
+    print("\n" + "=" * 72)
+    print("YAKIN AMA DEĞMEYEN — kurulan çift %d → %d" % (len(ey), len(yy)))
+    print("=" * 72)
+    print("  doğan ve ΔE < %.0f  →  %d   (veri büyümesi, KUSUR DEĞİL)"
+          % (R.DE_KOMSU, len(y_dog)))
+    for c in y_dog[:10]:
+        print("    i %-46s ΔE %5.1f" % (c.replace("|", "  ↔  "),
+                                        yeni["yakin"][c]))
+    if len(y_dog) > 10:
+        print("    … ve %d tane daha" % (len(y_dog) - 10))
+    print("\n  🔴 VAR OLAN çiftten eşiğin ALTINA düşen → %d   (RENK "
+          "REGRESYONU — çıkış kodunu ETKİLER)" % len(y_dus))
+    for c in y_dus:
+        print("    🔴 %-40s %5.1f → %5.1f"
+              % (c.replace("|", "  ↔  "), eski["yakin"][c], yeni["yakin"][c]))
+
     deg = [a for a in yeni["hex"]
            if a in eski["hex"] and eski["hex"][a] != yeni["hex"][a]]
     print("\n  hex'i değişen kimlik: %d%s"
@@ -225,10 +259,11 @@ def fark():
 
     print("\n" + "=" * 72)
     print("  " + ("✓ TEMİZ — eşiğin altına düşen ya da doğan kusur yok"
-                  if not kotu and not dusen and not zk
+                  if not kotu and not dusen and not zk and not y_dus
                   else "🔴 %d doğan kusur · %d düşen çift · %d zincir kusuru"
-                       % (len(kotu), len(dusen), zk)))
-    return 1 if (kotu or dusen or zk) else 0
+                       " · %d yakın-çift regresyonu"
+                       % (len(kotu), len(dusen), zk, len(y_dus))))
+    return 1 if (kotu or dusen or zk or y_dus) else 0
 
 
 if __name__ == "__main__":

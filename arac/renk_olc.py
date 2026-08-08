@@ -300,6 +300,25 @@ def ayni_hex():
 
 DE_SINIRDA = 15.0     # ihlal değil EKRAN — çıkış kodunu ETKİLEMEZ
 
+# ⚠️ 8 Ağustos 2026 · 2253 nokta · 33 girdi dosyası · BOYALAR 314
+# 🔴 BU SAYI VERİNİN FONKSİYONUDUR. Nokta partisi indikçe hücreler küçülür,
+#   yeni komşuluk doğar ve sayı KENDİLİĞİNDEN büyür — bu KUSUR DEĞİLDİR.
+#   Ölçüldü, aynı gün iki saat içinde: 2133 → 2253 nokta, ve `komsuluk()`
+#   çakışması 0 → 1 → 5 → 3 → 0 diye salındı (her seferinde kapatıldı).
+#   ⇒ Her nokta partisinden sonra GEREKÇESİYLE yeniden tabanlanır,
+#     SESSİZCE DEĞİL. (`BEKLENEN_SAHIPSIZ` kalıbı: 114 → 170 → 172.)
+#
+# 🔴 VE ÇIKIŞ KODU BU SAYIYA BAĞLI DEĞİLDİR — kasten.
+#   Bağlansaydı `renk_olc` bugünden itibaren HER KOŞUDA kırmızı olurdu ve
+#   bir daha yeşile dönmezdi. Kalıcı kırmızı bir denetim denetim değildir;
+#   susturulur. (`§11`in kuyruk/pencere dersi: 72 bir EKRAN'dır.)
+#   Gerçek kusur `renk_fark.py`de ayrılıyor:
+#     YENİ DOĞAN ihlal, yeni komşuluktan   → veri büyümesi, kusur DEĞİL
+#     VAR OLAN çift eşiğin ALTINA DÜŞTÜ    → 🔴 RENK REGRESYONU, çıkış 1
+#   Yani "kaç ihlal var" sorusu bir sayaç, "hangisi YENİ doğdu" sorusu bir
+#   denetimdir — ve ikincisi taban karşılaştırmasıyla cevaplanır.
+KADEMELI_IHLAL_TAVANI = 72
+
 
 def yakin_renk(k=None, kunye=False):
     """İKİNCİ ÇİFT KURUCU — Voronoi komşuluğunun GÖREMEDİĞİ çiftler.
@@ -498,6 +517,10 @@ def denetle():
         if "--ayrinti" in sys.argv:
             for d, km_, a, b, f, t in sorted(yak_s):
                 print(f"      {d:>6.2f}  {km_:>5.0f} km  {a:<20} ↔ {b}")
+    if len(yak_i) > KADEMELI_IHLAL_TAVANI:
+        print(f"\n  ⚠️ TAVAN AŞILDI: {len(yak_i)} > {KADEMELI_IHLAL_TAVANI} — "
+              f"yeni körlük doğmuş OLABİLİR. Çıkış kodu ETKİLENMEZ (bu bir "
+              f"sayaç); gerçek kusur için: py arac/renk_fark.py")
     if yak_o:
         print(f"  i {len(yak_o)} çift ÖLÇÜLEMEDİ ('ölçülemedi' ≠ 'temiz')"
               + ("" if "--ayrinti" in sys.argv else " — dökümü: --ayrinti"))

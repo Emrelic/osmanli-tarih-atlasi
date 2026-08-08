@@ -2692,3 +2692,61 @@ mi"* değil, ***"orada `d:"ming"` yazan bir nokta var mı"***. Ming'in en
 yakın gerçek tasarrufu **Hainan** — 2185 km.
 ⇒ Bir kimliğin **tarihsel erişimi** ile **haritadaki gövdesi** ayrı
 şeylerdir, ve palet **gövdeye** bakar.
+
+---
+
+## 56. ÇIKIŞ KODU BAĞLANDI — ve tavan doğduğu gün bayatladı
+
+### ① Karar uygulandı — çıkış kodu TAVANA DEĞİL, REGRESYONA bağlı
+```
+KADEMELI_IHLAL_TAVANI = 72     damgalı: 2253 nokta · 33 dosya · 8 Ağustos
+  → yalnız UYARI satırı, çıkış kodunu ETKİLEMEZ
+renk_fark ⑤ ekseni:
+  DOĞAN + eşikaltı            → veri büyümesi · KUSUR DEĞİL · çıkış 0
+  VAR OLAN çift ALTINA DÜŞTÜ  → 🔴 RENK REGRESYONU · çıkış 1
+```
+📌 Ayrımın özü: *"kaç ihlal var"* bir **sayaç**, *"hangisi YENİ doğdu"* bir
+**denetim** — ve ikincisi ancak **taban karşılaştırmasıyla** cevaplanır.
+Bir çiftin eşiğin altına düşmesi ancak **renk değişikliğiyle** olur; nokta
+inmesiyle olmaz. ⇒ Çıkış kodu **benim yaptığım hataya** bağlı, verinin
+büyümesine değil.
+
+### ② `C13` — ÜÇ dal da zorla ateşlendi (taban geçici bozulup geri alındı)
+```
+① var olan çift altına düştü   3 çift zorlandı → çıkış 1   ✓ ETKİLİYOR
+② doğan + eşikaltı             5 çift zorlandı → çıkış 0   ✓ ETKİLEMİYOR
+③ eski taban 'yakin' taşımıyor  anahtar silindi → çıkış 0   ✓ ÇÖKMÜYOR
+```
+Üçüncüsü **geriye uyum**: bu alanı taşımayan eski bir tabanla koşulursa
+patlamamalı. Patlasaydı, aracı güncelleyen ilk oturum **denetimi
+kaybederdi** ve fark etmezdi.
+
+### ③ 🔴 VE TAVAN DOĞDUĞU GÜN BAYATLADI — tam öngörüldüğü gibi
+```
+damgalandı  72   (2253 nokta)
+yarım saat sonra  73   (2261 nokta)  → uyarı satırı ateşledi
+```
+**Ve bu bir kusur değil, tasarımın çalıştığının kanıtı:** çıkış kodu
+etkilenmedi, denetim yeşil kaldı, ama sayı **görünür** oldu. Tavanı çıkış
+koduna bağlasaydık **yarım saat dayanırdı.**
+
+### ④ 73 İHLALİN KÜME DÖKÜMÜ — bir sonraki partinin kendisi
+Kümeler `devletler.js`in `bolge` alanından **okundu**, elle yazılmadı
+(bugün üçüncü kez: elle liste hem eksik hem fazla çıkıyor).
+```
+anadolu                 13    anadolu ↔ balkanlar   11
+anadolu ↔ iran           7    anadolu ↔ italya       6
+guney-asya               4    italya (iç + 5 komşu) 15 toplam
+🔴 ANADOLU EKSENİ  37/73     🔴 İTALYA EKSENİ  21/73
+en dar: atinadukaligi ↔ karesi 3,79 · ceneviz ↔ teke 3,44 · 104 km
+```
+
+**Tek yazımla en çok çift kapatan adaylar:**
+```
+karesi 7 · ceneviz 5 · atinadukaligi 5 · venedik 5 · aydin 4 · bosna 4
+```
+⇒ **Altı yazım ~30 çift kapatır.** Döküm `denetim/yakin-degmeyen-dokum.txt`.
+
+📌 Ve niçin bugüne kadar görünmedi: beylikler **küçük ve bitişik**, Voronoi
+komşuluğu onları görüyor **olmalıydı**. Görmedi — çünkü aralarında başka
+peteklerin şeridi var. **149 çiftin hiçbirini hiçbir denetim kurmuyordu.**
