@@ -184,7 +184,26 @@ KUYRUK_DOSYALARI = ("yerlesimler_ortaasya2.js", "yerlesimler_avrupa.js",
                     # kirilma gunu bir kovada "zaten var", otekinde "yeni".
                     # (`2s` +0 vs +9 farki bunun SONUCU, sebebi degil.)
                     "yerlesimler_ek19.js",
-                    "yerlesimler_ek21.js")
+                    "yerlesimler_ek21.js",
+                    # 🔴 7 Agustos 2026 — BES NOKTA OTURUMU, ONCEDEN eklendi.
+                    # `NOKTA HALKA-2 3` yazmaya BASLAMADAN once denetle.py'yi
+                    # kosturdu (§1.5 tablosuna guvenmedi) ve sunu olctu:
+                    #     Degismez 2s  704 kirilma · 121 ACIK · TAVAN 121  ← DOLU
+                    # ⇒ Yazacagi her YENI tarih, maddesi olmadigi icin tavani
+                    #   DOGRUDAN deler ve denetimi ONUN YUZUNDEN kirmiziya
+                    #   cevirir. Kendi olctugu sayi: 11 ayri yeni gun.
+                    # Ve caresini de kendi buldu: bu liste. Dogru sira da onun
+                    # tespiti -- ONCE burasi, SONRA girdi.py; aksi halde denetim
+                    # arada kirmizi kalir.
+                    # 📌 Bes dosya BIRDEN eklendi cunku besi de ayni haftada
+                    #    gelecek; tek tek eklemek besinci kez ayni kararin
+                    #    verilmesi demekti.
+                    # Kronolojileri yazilinca satirlari SILINIR = kulliyata kabul.
+                    "yerlesimler_h2_afrika.js",
+                    "yerlesimler_h2_rusya.js",
+                    "yerlesimler_h2_kuzeyafrika.js",
+                    "yerlesimler_h1_arabistan.js",
+                    "yerlesimler_h1_bereketlihilal.js")
 # ⚠️ `s:` boyutu ON AY BOYUNCA HİÇ DENETLENMEDİ (Oturum 13 buldu). Ölçüldü:
 # 566 yabancı kırılması, 115'inin ±30 günde maddesi yok. 115'i İHLAL ilan etmek
 # denetimi ilk koşuda kırmızıya boyar ve OGRENILENLER §3 gereği kimse bakmaz;
