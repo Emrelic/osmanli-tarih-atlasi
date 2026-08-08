@@ -275,3 +275,20 @@ DOĞRULAMA: yazılan 5, 3km mükerrer 0, renksiz kimlik 0, dönem sorunu 0,
 açılan yeni kırılma günü 0. Toplam GDASYA dosyası: 35→40 nokta.
 
 Devam: Borneo.
+
+## 🔴 GEÇİCİ YETKİ — devletler.js'e künye yazıldı
+
+Koordinatör Doğu Sumatra sultanlıkları için `devletler.js`i geçici olarak
+geri verdi. TDV'de dört slug (cambi, siyak, deli, indragiri) VE iki genel
+madde (sumatra, endonezya) denendi — dördü ölü/alakasız, genel maddeler
+yalnız toplu tek cümle veriyor, isimli/tarihli değil. KARAR: (a) TEK TOPLU
+KÜNYE — `dogu-sumatra-sultanliklari` (malay-sultanliklari emsali), f=1615
+(Jambi) - t=1858 (Hollanda "Korte Verklaring", YIL BEYANI). Kayıt 381→382,
+mükerrer 0, boş özet 0. `devletler.js` commit EDİLMEDİ (pathspec'siz
+bırakıldı, koordinatör/Oturum 0 alacak).
+
+🔴 BLOKE: yeni kimlik renksiz — `renkler.py` benim dışımda, RENK 2'nin
+BOYALAR'a eklemesini bekliyorum. Gelene kadar Jambi/Siak/Deli/Indragiri
+noktalarını YAZAMIYORUM — Borneo'ya geçiyorum, engel kalkınca dönerim.
+
+Devam: Borneo.
