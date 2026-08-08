@@ -2,7 +2,7 @@
 
 > 🤖 **BU DOSYA ÜRETİLİR — ELLE DÜZENLEME.**
 > Kaynak: `oturumlar/tespih.json` · üretici: `ClaudEmre/kutu/tespih.py`
-> Son güncelleme: **2026-08-08T15:22**
+> Son güncelleme: **2026-08-08T15:26**
 >
 > Sıralama ölçütü **`FAYDA ÷ EMEK`** — önem yüksek + irilik düşük önce.
 > Üç öncelik kuralı: **① darboğaz · ② tekrar eden madde · ③ yakınlık**
@@ -14,7 +14,7 @@
 | 🔬 | **sistem analizi** | biz ölçüp eksik/yanlış bulduk, Emre onayladı | 12 |
 | 💬 | **Emre — oturumdan** | iş sürerken aklına gelip pencereye yazdı | 32 |
 | 📦 | **Emre — paket** | toplu hâlde gönderdiği hatalar/fikirler | 1 |
-| 🔧 | **oturum önerisi** | işçi oturum bildirdi ya da istişareden çıktı | 22 |
+| 🔧 | **oturum önerisi** | işçi oturum bildirdi ya da istişareden çıktı | 24 |
 | 👁 | **bekleyenler cevabı** | BEKLEYENLER kutusunda sorulana verdiği cevap | 3 |
 | 🌱 | **%0 — gündemde yoktu** | hiç düşünülmemişti; üreteç peydah etti | 0 |
 
@@ -28,7 +28,8 @@
 ```
 🟥 📦 T-0057 🌍 DÜNYA KATMANI — coğrafya + yerleşim, bütün dünya  (1/10)
    🟧 ✅ T-0058 Coğrafya katmanı — ÖLÇÜLDÜ, pencerede TAM
-   🟧 ⏳ T-0059 GD Asya noktaları 97→480
+   🟧 ⏳ T-0059 GD Asya noktaları 97→480  (1/1)
+      🟦 ✅ T-0071 Birmanya noktaları — GD Asya alt bölgesi
    🟧 🔵 T-0060 Doğu Asya noktaları 171→?
    🟧 🔵 T-0061 Güney Asya noktaları 135→?
    🟧 🔵 T-0062 Orta Asya noktaları 102→?
@@ -63,7 +64,7 @@
 | 🟧 | **metreküp** | bir çağ / bir devlet — haftalarca iş · 🔴 **YAPILMAZ, AÇILIR** | 14 |
 | 🟨 | **desimetreküp** | bir bölge / bir eksen — günlerce iş · 🔴 **YAPILMAZ, AÇILIR** | 6 |
 | 🟩 | **santimetreküp** | bir parti — saatlerce iş | 9 |
-| 🟦 | **milimetreküp** | TEK BONCUK — yapılabilir, açılamaz | 37 |
+| 🟦 | **milimetreküp** | TEK BONCUK — yapılabilir, açılamaz | 39 |
 
 ---
 
@@ -88,7 +89,7 @@
 
 ---
 
-## 🔵 ÇEKİLMEYİ BEKLEYEN — sıradaki boncuklar — 34
+## 🔵 ÇEKİLMEYİ BEKLEYEN — sıradaki boncuklar — 35
 
 | # | iş | kanal | sahip | niçin bu sırada |
 |---|---|---|---|---|
@@ -102,6 +103,7 @@
 | T-0066 | OKYANUSYA — 1 nokta  ↳ `T-0057` | 🟧 💬 | — | PENCERE DIŞI · 28,7 mn km² |
 | T-0067 | BOLGE penceresini genişlet  ↳ `T-0057` | 🟧 💬 | — | 🔴 EN SON — §6: nokta yoğunluğu sağlanmadan AÇMA |
 | T-0026 | Beş görsel şikâyet — Cezayir · Timur/Bağdat ×2 · başkent yıldızı · Ahîler | 🟦 📦 | — | Emre'nin kendi sözü; İKİSİ TEKRAR EDEN MADDE ⇒ öncelik kuralı ② |
+| T-0072 | 🟡 `palembang-sultanligi` künyesi 1281-1825 — 378 yıllık battaniye adayı | 🟦 🔧 | — | Tarihî Palembang Sultanlığı ~1659'da kuruldu; künye 1281'den başlıyor. Dün kapatılan üç hayaletin (rusya 266 · darfur 414 · altinorda 54) dördüncüsü olabilir. NOKTA GDASYA'nın kararını DEĞİŞTİRMEZ — künyeyi izlemesi doğru; bu ayrı bir kalem. ⚠️ Ölçülmedi, kaynak okunmadı |
 | T-0024 | Berka (Sirenayka) battaniyesi — 270 yıl tek parça `hafsi` | 🟦 🔧 | — | 1281→1551 kesintisiz. HALKA-2 3: 'ölçmedim, kaynak okumadım' — dürüst başlık, araştırma bekliyor |
 | T-0030 | `Ö1` / `Ö2` yeni değişmezleri yaz | 🟦 🔧 | — | sınav kümesi HAZIR (22 kimlik) · battaniye ad kararı beklensin |
 | T-0070 | trinh (Đàng Ngoài) + srivijaya 7 yıllık pencere | 🟦 🔧 | — | RENK 2 buldu: nguyen-beyligi VAR ama Trịnh beyleri YOK — aynı bölünmenin bir yarısı. srivijaya 1288'de bitiyor, atlas 1281'de başlıyor ⇒ 7 yıl kimsesiz. İkisi de 'kasıtlı mı atlanmış mı' — YAZILI DEĞİL |
@@ -141,10 +143,11 @@
 
 ---
 
-## ✅ SAYILAN — öbür uca dizilmiş boncuklar — 24
+## ✅ SAYILAN — öbür uca dizilmiş boncuklar — 25
 
 | # | iş | kanal | ölçüm | bitti |
 |---|---|---|---|---|
+| T-0071 | Birmanya noktaları — GD Asya alt bölgesi | 🔧 | 9 nokta · yoğunluk 3,3 → 3,65 · açılan kırılma günü SIFIR (mevcut Myanmar noktalarından ölçüldü) · külliyat 2133 → 2142 | 2026-08-08 |
 | T-0068 | ava ↔ ayutthaya çakışması — 204 yıl ayırt edilemiyordu | 🔧 | ΔE 9,63 → 32,2 · 407 km · 1351-1555 eşzamanlı · Burma-Siyam savaşları TAM bu iki gövde arasında geçiyor · hiçbir denetim görmüyordu (Voronoi komşusu değiller) | 2026-08-08 |
 | T-0058 | Coğrafya katmanı — ÖLÇÜLDÜ, pencerede TAM | 💬 | katman EKSİK DEĞİL — eksik olan PENCERE. §6: önce nokta. | 2026-08-08 |
 | T-0055 | BOYUTLAR.md — atlasın koordinat sistemi (dört boyut) | 💬 | 4 boyut: Z zaman · M mekân · K konu · Ü üretim katmanı. Beşinci arandı, BULUNAMADI (ölçek=çözünürlük, kaynak rejimi=M'nin fonksiyonu, hâl=durum). M/K karışımı ÖLÇÜLDÜ: 359 çift | 2026-08-08 |
