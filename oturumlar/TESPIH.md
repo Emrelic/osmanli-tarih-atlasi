@@ -53,7 +53,7 @@ kapanan       NOKTA HALKA-2 1 · 2 · 3 — üçü de teslim raporuyla kapandı
 | **7** | 🔵 | **Sahra deliği** — 80 hücre · ~898.000 km² · en derin 753 km | HALKA-2 3 ölçtü, Batı Sahra·Moritanya·Mali onun tarifi dışındaydı. **Halka 3 oturumunun taban rakamı** |
 | **8** | ⚪ | **İran 1335-1501** — `muzafferi` · `incu` · `kutlughanli` künye+renk hazır | Emre erteledi (S2 = a) |
 | **9** | ⚪ | **`galzay` taşıması** — Kandehar 1709-1738 | künye ✅ renk ✅ — İran kararıyla birlikte |
-| **10** | ⚪ | **Kavalalı Suriye 1832-40** | 1840 istirdat maddesi YOK ⇒ önce kronoloji maddesi |
+| **10** | 🔵 | **Kavalalı Mısır/Suriye** — `#00acc1` rengi VAR, **künyesi YOK**, veride 0 dönem | 🔴 **Bu satır 8 Ağustos'ta ÖLÇÜLDÜ VE YANLIŞ ÇIKTI.** Önceki hâli *"1840 istirdat maddesi YOK ⇒ önce kronoloji maddesi"* diyordu; ölçüm: `1840-11-03 Akkâ iki saatte düştü` **VAR**, `1841-02-25 Mısır ordusu Suriye ve Çukurova'yı boşalttı` **VAR**. **Engel kronoloji değil KÜNYE.** VERİ DEVLET'e sipariş edildi |
 | **11** | 🔵 | **Beş görsel şikâyet** (kutu) — Cezayir · Timur/Bağdat ×2 · başkent yıldızı · Ahîler | Kullanıcının kendi sözü; ikisi **tekrar eden madde** ⇒ kural ② |
 | **12** | 🔵 | **9 tarih uyuşmazlığı** — Agadir · Şehrizor · Bucaş · Cüneyd ×2 · Konya 1415 | ölçülmüş, tek tek kapanır |
 | **13** | 🔵 | **Kronoloji çukurları** — 1250-1299: **6 madde** · 1600-1649: **62** (komşuları 111 ve 81) | Kuruluş devri en ince yer |
