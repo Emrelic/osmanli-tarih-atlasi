@@ -379,6 +379,24 @@ söylemez.** Onu yalnız **içeriği okumak** ele verir.
 📌 **Desen artık dörtlendi ve kuralı var: TDV'de bir ülke/şehir adı başka bir
 kavramla çakışıyorsa, ülke maddesi `--ulke` / `--sehir` sonekindedir.**
 
+### 🔴 AYNI TUZAĞIN KİMLİK TARAFI: **TÜRKÇE YAZIM EKSENİ**
+
+8 Ağustos 2026'da ölçüldü. Bir kimliği **İngilizce/yerel yazımıyla** aramak,
+**Türkçe yazılmış künyeyi bulmaz** — ve "bulunamadı" hükmü yanlış çıkar:
+```
+aranan      gerçek `id:`              künye adı
+aceh    →   ace-sultanligi            Açe Sultanlığı
+gowa    →   gova-makassar             Gova (Makassar)
+pattani →   malay-sultanliklari       (Kedah · Patani · Perak — TOPLU künye)
+dai-viet→   le · mac · tran · ho · tay-son …   (HÂNEDAN künyeleri)
+```
+⚠️ Son ikisi ayrı bir alt-sınıf: kimlik **var** ama **başka bir taneciklikte**
+— toplu künye ya da hânedan künyeleri hâlinde.
+⇒ **Kural:** `d:` yazarken kendi transliterasyonunu değil, `devletler.js`teki
+**gerçek `id:`yi** kullan. Ve *"bu kimlik yok"* demeden önce **`bolge:` alanını
+tara** — elle yazılmış bir aday listesi gerçek kümenin %40'ını kaçırabiliyor
+(ölçüldü: 33 elle · 55 gerçek).
+
 ### 🟢 VE TERSİ DE VAR: dar slug tutmazsa GENEL maddeyi dene
 
 `kaynak:` partisinde ölçüldü. Grup 2 (İtalya · Doğu Asya · Amerika) pilotta

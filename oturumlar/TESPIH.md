@@ -2,7 +2,7 @@
 
 > 🤖 **BU DOSYA ÜRETİLİR — ELLE DÜZENLEME.**
 > Kaynak: `oturumlar/tespih.json` · üretici: `ClaudEmre/kutu/tespih.py`
-> Son güncelleme: **2026-08-08T15:12**
+> Son güncelleme: **2026-08-08T15:22**
 >
 > Sıralama ölçütü **`FAYDA ÷ EMEK`** — önem yüksek + irilik düşük önce.
 > Üç öncelik kuralı: **① darboğaz · ② tekrar eden madde · ③ yakınlık**
@@ -14,7 +14,7 @@
 | 🔬 | **sistem analizi** | biz ölçüp eksik/yanlış bulduk, Emre onayladı | 12 |
 | 💬 | **Emre — oturumdan** | iş sürerken aklına gelip pencereye yazdı | 32 |
 | 📦 | **Emre — paket** | toplu hâlde gönderdiği hatalar/fikirler | 1 |
-| 🔧 | **oturum önerisi** | işçi oturum bildirdi ya da istişareden çıktı | 19 |
+| 🔧 | **oturum önerisi** | işçi oturum bildirdi ya da istişareden çıktı | 22 |
 | 👁 | **bekleyenler cevabı** | BEKLEYENLER kutusunda sorulana verdiği cevap | 3 |
 | 🌱 | **%0 — gündemde yoktu** | hiç düşünülmemişti; üreteç peydah etti | 0 |
 
@@ -62,8 +62,8 @@
 | 🟥 | **dekametreküp** | bir kıta / bir uygarlık — yıllarca iş · 🔴 **YAPILMAZ, AÇILIR** | 4 |
 | 🟧 | **metreküp** | bir çağ / bir devlet — haftalarca iş · 🔴 **YAPILMAZ, AÇILIR** | 14 |
 | 🟨 | **desimetreküp** | bir bölge / bir eksen — günlerce iş · 🔴 **YAPILMAZ, AÇILIR** | 6 |
-| 🟩 | **santimetreküp** | bir parti — saatlerce iş | 8 |
-| 🟦 | **milimetreküp** | TEK BONCUK — yapılabilir, açılamaz | 35 |
+| 🟩 | **santimetreküp** | bir parti — saatlerce iş | 9 |
+| 🟦 | **milimetreküp** | TEK BONCUK — yapılabilir, açılamaz | 37 |
 
 ---
 
@@ -78,16 +78,17 @@
 
 ---
 
-## ⏳ PARMAKTA — şu an sayılan boncuklar — 2
+## ⏳ PARMAKTA — şu an sayılan boncuklar — 3
 
 | # | iş | kanal | sahip | niçin bu sırada |
 |---|---|---|---|---|
 | T-0022 | TESPİH v2 — üç hâl · altı kanal · üç damga · kutuda sekme | 🟦 💬 | KOORDİNATÖR | Emre: 'fırlayıp giden mermi nereye gitti belli değil' — bekleyen/yapılan/biten görünür olacak |
 | T-0059 | GD Asya noktaları 97→480  ↳ `T-0057` | 🟧 💬 | VERİ DEVLET | pencere içindeki EN SEYREK yer: 4,2 · 23,3 mn km² |
+| T-0069 | renk_olc'a İKİNCİ ÇİFT KURUCU — 600 km + eşzamanlılık | 🟩 🔧 | RENK 2 | Aynı körlük ÜÇ coğrafyada çıktı (Afrika Boynuzu · Fas · GD Asya) ve hiçbir denetim görmedi. Voronoi komşuluğu SEYREK bölgede iki gövdeyi yan yana görmüyor. Bugün 179 çift kurulur, biri İHLALDİ. ŞART: C13 iki yönde sınama · 600 km eşiğinin gerekçesi yazılı · İHLAL ile SINIRDA ayrı raporlansın (biri çıkış kodunu etkiler, öteki etmez) |
 
 ---
 
-## 🔵 ÇEKİLMEYİ BEKLEYEN — sıradaki boncuklar — 33
+## 🔵 ÇEKİLMEYİ BEKLEYEN — sıradaki boncuklar — 34
 
 | # | iş | kanal | sahip | niçin bu sırada |
 |---|---|---|---|---|
@@ -103,6 +104,7 @@
 | T-0026 | Beş görsel şikâyet — Cezayir · Timur/Bağdat ×2 · başkent yıldızı · Ahîler | 🟦 📦 | — | Emre'nin kendi sözü; İKİSİ TEKRAR EDEN MADDE ⇒ öncelik kuralı ② |
 | T-0024 | Berka (Sirenayka) battaniyesi — 270 yıl tek parça `hafsi` | 🟦 🔧 | — | 1281→1551 kesintisiz. HALKA-2 3: 'ölçmedim, kaynak okumadım' — dürüst başlık, araştırma bekliyor |
 | T-0030 | `Ö1` / `Ö2` yeni değişmezleri yaz | 🟦 🔧 | — | sınav kümesi HAZIR (22 kimlik) · battaniye ad kararı beklensin |
+| T-0070 | trinh (Đàng Ngoài) + srivijaya 7 yıllık pencere | 🟦 🔧 | — | RENK 2 buldu: nguyen-beyligi VAR ama Trịnh beyleri YOK — aynı bölünmenin bir yarısı. srivijaya 1288'de bitiyor, atlas 1281'de başlıyor ⇒ 7 yıl kimsesiz. İkisi de 'kasıtlı mı atlanmış mı' — YAZILI DEĞİL |
 | T-0025 | Sahra deliği — 80 hücre, ~898.000 km² | 🟦 🔧 | — | en derin 753 km · Batı Sahra·Moritanya·Mali · halka 3 oturumunun taban rakamı |
 | T-0056 | 🔴 `m:` alanını coğrafîleştir — M ile K karışıyor | 🟨 🔬 | — | 359 yerleşim-tarih çiftinde yerleşim ile idarî merkezi FARKLI devletlerin elinde. `m:` idarî merkez (siyasî) tutuyor ama coğrafî gruplama için kullanılıyor. Doğrusu: `m:` coğrafî alan (Bitinya, Trakya); idarî bağ K-siyasî'ye taşınmalı VE zaman boyutu almalı |
 | T-0041 | 600-1000 arası  ↳ `T-0038` | 🟧 💬 | — | İslâm fetihleri ve Bizans; TDV kapsaması güçlü |
@@ -139,10 +141,11 @@
 
 ---
 
-## ✅ SAYILAN — öbür uca dizilmiş boncuklar — 23
+## ✅ SAYILAN — öbür uca dizilmiş boncuklar — 24
 
 | # | iş | kanal | ölçüm | bitti |
 |---|---|---|---|---|
+| T-0068 | ava ↔ ayutthaya çakışması — 204 yıl ayırt edilemiyordu | 🔧 | ΔE 9,63 → 32,2 · 407 km · 1351-1555 eşzamanlı · Burma-Siyam savaşları TAM bu iki gövde arasında geçiyor · hiçbir denetim görmüyordu (Voronoi komşusu değiller) | 2026-08-08 |
 | T-0058 | Coğrafya katmanı — ÖLÇÜLDÜ, pencerede TAM | 💬 | katman EKSİK DEĞİL — eksik olan PENCERE. §6: önce nokta. | 2026-08-08 |
 | T-0055 | BOYUTLAR.md — atlasın koordinat sistemi (dört boyut) | 💬 | 4 boyut: Z zaman · M mekân · K konu · Ü üretim katmanı. Beşinci arandı, BULUNAMADI (ölçek=çözünürlük, kaynak rejimi=M'nin fonksiyonu, hâl=durum). M/K karışımı ÖLÇÜLDÜ: 359 çift | 2026-08-08 |
 | T-0021 | ClaudEmre hasadı — 8 ders + 2 çapraz-proje terfi | 🔧 | havuz 34 → 43 · A6 (kural yazılı olmak uygulanmak değildir) · C14 (bir ölçüm aracı sen dokunmadan başkalaşır) | 2026-08-08 |
