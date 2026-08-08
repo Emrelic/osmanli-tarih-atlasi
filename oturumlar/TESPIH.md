@@ -11,11 +11,14 @@
 
 ```
 yerleşim      2133 nokta · 32 girdi dosyası        kronoloji  1158 madde
-dizin          382 künye  ·  313 renk
-değişmez      1 ✓ · 1b ✓ · 2 ✓ · 2s ✓ (712 · 121/121) · 2i ✓ · 2t ✓ (38/42) · konum ✓
-tek ihlal     mükerrer madde 4 (bilinen kuşatma kalıbı)
-yayın         r923 · ÜRETİM KOŞUYOR (2133 nokta · 350 dönemlik gövde değişimi)
-açık oturum   VERİ DEVLET (3 ölçüm kalemi) · RENK 2 (girdi kilidinde)
+dizin          381 künye  ·  310 renk  ·  kaynak: alanı 3 → 307 dolu
+değişmez      1 ✓ (172/172) · 1b ✓ · 2 ✓ (499/0) · 2s ✓ (712 · 121/121) · 2i ✓ · 2t ✓ (38/42) · konum ✓
+tek ihlal     mükerrer madde 4 (bilinen kuşatma kalıbı, bugünden önce)
+dizinsiz kimlik  🟢 40 kimlik / 238 pencere → 0 / 0
+yayın         🟢 r979 YAYINDA · koşu 73 dk · yayın kapısı SONUÇ temiz
+              "Doğrulama: tüm yerleşimlerin peteği geçerli ✓"
+çizili gövde  278 → 289 kimlik · 759 → 791 değen çift · ΔE<12 olan 0 · bayat renk 8 → 0
+açık oturum   VERİ DEVLET (158 havuzdan 84 işlendi) · RENK 2 (boşta)
 kapanan       NOKTA HALKA-2 1 · 2 · 3 — üçü de teslim raporuyla kapandı
 ```
 
@@ -44,20 +47,20 @@ kapanan       NOKTA HALKA-2 1 · 2 · 3 — üçü de teslim raporuyla kapandı
 
 | # | durum | iş | niçin bu sırada |
 |---|---|---|---|
-| **1** | ⏳ | **`uret_petek.py` koşusu** — 2133 nokta · 350 dönemlik gövde değişimi | Bugünün bütün işi buradan geçip yayına çıkacak. Bitince `uret_devirler` + damga + yayın |
+| **1** | ✅ | **`uret_petek.py` koşusu** — 73 dk · 311 gövde · 503 kırılma · `donemler.js` 12 → **20,4 MB** | Zincir döndü: `uret_devirler` → `denetle` → `renk_olc` → yayın kapısı → damga. **r979 yayında.** Koşu sonrası zincir **üç ihlal** buldu, üçü de kapatıldı (okuyucu · `altlik.js` · damga) |
 | **2** | ⏳ | 🔴 **`ainu` HAYALETİ CANLI YAYINDA — kabul edilmiş borç, KUSUR DEĞİL** · veri ✓ (2 → 0 dönem, `kasitli_bosluk`) · renk ✓ (`BOYALAR` 311 → 310) · **koşu ✗** | Koşu, veri düzeltilmeden ÖNCE bitti. `renk_cikti` yayını okudu: *"`ainu` · çizilen `#1b8ae4` · **beyan YOK**"*. Sıra kuralının üçüncü ayağı **aynı gün tamamlanamaz**: `veri → renk → KOŞU` (~73 dk). ⇒ **Bir sonraki koşuya biniyor.** 2 pencere · Hokkaido güney kıyısı · halka 6-7 — tek başına 73 dakikalık koşuyu hak etmiyor. **İkinci kez "kusur" diye keşfedilmesin.** |
-| **3** | 🔵 | **`sibir` mükerrer künyesi** + mükerrer kimlik taraması | `sibir` (veride 0) vs `sibir-hanligi` (veride 3). Üçüncü vaka ⇒ **tek tek değil TARAMA** istendi |
-| **4** | 🔵 | **`merini` künyesinde `harita:"merini"`** | Tek satır. Artık 47 dönem `d:"merini"` yazıyor, künye hâlâ `fas`a bakıyor |
+| **3** | ✅ | **`sibir` birleştirildi** + tam mükerrer taraması | 382 → 381. **Dört yöntemle tarandı, `sibir` dışında SIFIR ek mükerrer.** 15 alt-dizge çifti elle kontrol edildi, hepsi meşru (`surakarta`/`yogyakarta` aynı gün kuruldu — gerçek tesadüf) |
+| **4** | ✅ | **`merini.harita` düzeltildi** + tam `harita:≠id:` taraması | 33 künye bulundu, **33/33 KASITLI, `merini` tek gerçek kusurdu.** 22'si süreklilik şemsiyesi (`suud` ×3, `sirbistan` ×4), 11'i basit takma ad |
 | **5** | ⚪ | 🔴 **BATTANİYE AD KARARI — Emre'de** · ≈7-9 yeni künye + 2 düzeltme · en büyüğü `rusya` 1917-1923 (242 kayıt) | Karar gelmeden hiçbir şey yazılmıyor — "hayır" çıkarsa yazılmamış olması kazanç |
 | **6** | 🔵 | **Berka (Sirenayka) battaniyesi** — 1281→1551 tek parça `hafsi`, **270 yıl** | HALKA-2 3'ün açık bıraktığı aday. *"Ölçmedim, kaynak okumadım"* dedi — dürüst başlık, araştırma bekliyor |
 | **7** | 🔵 | **Sahra deliği** — 80 hücre · ~898.000 km² · en derin 753 km | HALKA-2 3 ölçtü, Batı Sahra·Moritanya·Mali onun tarifi dışındaydı. **Halka 3 oturumunun taban rakamı** |
 | **8** | ⚪ | **İran 1335-1501** — `muzafferi` · `incu` · `kutlughanli` künye+renk hazır | Emre erteledi (S2 = a) |
 | **9** | ⚪ | **`galzay` taşıması** — Kandehar 1709-1738 | künye ✅ renk ✅ — İran kararıyla birlikte |
-| **10** | 🔵 | **Kavalalı Mısır/Suriye** — `#00acc1` rengi VAR, **künyesi YOK**, veride 0 dönem | 🔴 **Bu satır 8 Ağustos'ta ÖLÇÜLDÜ VE YANLIŞ ÇIKTI.** Önceki hâli *"1840 istirdat maddesi YOK ⇒ önce kronoloji maddesi"* diyordu; ölçüm: `1840-11-03 Akkâ iki saatte düştü` **VAR**, `1841-02-25 Mısır ordusu Suriye ve Çukurova'yı boşalttı` **VAR**. **Engel kronoloji değil KÜNYE.** VERİ DEVLET'e sipariş edildi |
+| **10** | 🔵 | **Kavalalı taşıması** — Mısır 1805-1841 · Suriye 1832-1840 · Mora · Hicaz · Sudan | 🔴 **BU SATIR BUGÜN İKİ KEZ ÖLÇÜLDÜ VE İKİSİNDE DE YANLIŞ ÇIKTI.** ① *"1840 istirdat maddesi yok"* → **madde VAR**, hem de dördü. ② *"künyesi yok"* → künye **VAR**, `id:"misir-kavalali"` (1805-07-03 → 1914-12-18, `tabi:[{ust:"osmanli"}]`, `kaynak:` dolu); eksik olan tek şey `harita:"kavalali"` bağıydı, **o da eklendi.** ⇒ Artık **hiçbir engel yok**, yalnız taşıma yazılmamış |
 | **11** | 🔵 | **Beş görsel şikâyet** (kutu) — Cezayir · Timur/Bağdat ×2 · başkent yıldızı · Ahîler | Kullanıcının kendi sözü; ikisi **tekrar eden madde** ⇒ kural ② |
 | **12** | 🔵 | **9 tarih uyuşmazlığı** — Agadir · Şehrizor · Bucaş · Cüneyd ×2 · Konya 1415 | ölçülmüş, tek tek kapanır |
 | **13** | 🔵 | **Kronoloji çukurları** — 1250-1299: **6 madde** · 1600-1649: **62** (komşuları 111 ve 81) | Kuruluş devri en ince yer |
-| **14** | 🔵 | **`kaynak:` alanı** — 382 künyenin 340'ında BOŞ | `§4` TDV'yi birincil sayıyor ama künyeler göstermiyor. Maliyeti ölçülüyor |
+| **14** | ⏳ | **`kaynak:` alanı** — sabah 3 dolu → **307 dolu**, 74 boş | Bir günde %1 → %81. **158 havuzdan 84 işlendi.** İsabet oranı bölgeye göre ÇOK değişiyor: Balkanlar/Anadolu **%81** · İran/Kafkasya/Baltık **%45** · İtalya/Doğu Asya/Amerika **%0** (6 örnek) ⇒ Grup 2'de kayıt başına **en çok 2 slug denemesi** |
 | **15** | ⚪ | **`isg:` borcu** — Niş 1737 · Semendire 1789 · Bihaç 1878 | `2i` tavanı zaten sağlanıyor (3/3) |
 | **16** | ⚪ | **B8 — site 53 MB** | **Mobil ölçümü yok** — kararın önündeki tek gerçek boşluk |
 | **17** | ⚪ | **Ö1/Ö2 yeni değişmezler** | Ö1 (hayalet devlet) bugün üç kez elle kapatıldı ⇒ **artık yazılabilir**; battaniye kararı beklensin |
