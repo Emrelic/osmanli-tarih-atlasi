@@ -115,3 +115,51 @@ Kamçatka   Petropavlovsk 1740'ta kuruldu (Bering seferi); öncesinde
                  Çukotka: kasıtlı_boşluk (terk edilmiş kale nüansıyla)
 ```
 Koordinatörden "dosya senin" bekliyorum.
+
+## 🔴 SINIR ÇİZİLDİ + YAKUT/KAMÇATKA İKİNCİ TUR
+
+### Çukotka — kaynağa soruldu, netleşti: "devletsiz" (haraç bile YOK)
+Kaynağın TAM CÜMLESİ: *"never paid yasak (a fur tribute), and their status
+as subjects was little more than a formality."* Bu "gevşek haraç" bile
+DEĞİL — **hiçbir haraç, hiçbir idari bağ.** 1764'te Anadır kalesi TERK
+edildi, sonrası yalnız TİCARET (yıllık panayırlar). ⇒ `kasitli_bosluk`,
+`neden:"devletsiz — kaynak açıkça hiçbir zaman haraç ödenmediğini,
+idari bağın salt biçimsel bile olmadığını söylüyor; 1649 Anadır kalesi
+1764'te terk edildi, sonrası yalnız ticaret"`.
+
+### Yakut — ikinci tur: "veri-yok" (devletsiz DEĞİL)
+İki ayrı kaynağa (Sakha/Yakut genel maddesi + Tygın Darkhan — bu sonuncusu
+404, yok) tekrar soruldum. Sonuç: kaynak pre-conquest siyasi örgütlenmeyi
+**HİÇ TARTIŞMIYOR** — ne "devlet yoktu" diyor ne "devlet vardı." Doğrudan
+1620'lerin Rus fethiyle başlıyor. Bu, Çukotka'dan FARKLI bir sınıf:
+Çukotka'da kaynak AÇIKÇA konuşuyor (devletsiz), Yakut'ta kaynak SUSUYOR
+(veri-yok). ⇒ Yakut için `neden:"veri-yok — kaynak 1620 öncesi Yakut
+siyasi örgütlenmesini hiç tartışmıyor, doğrudan Rus fethiyle başlıyor;
+birleşik devlet var mıydı yok muydu ölçülemedi"`.
+
+### 🔴 Kamçatka — ÖLÇÜLDÜ: Çukotka'nın AYNISI DEĞİL, ama basit 1740 de YANLIŞ
+İki kaynağa soruldum. Sonuç NET: Kamçatka **GERÇEKTEN fethedildi** —
+Çukotka gibi "hiç fethedilmedi" değil. AMA benim ilk varsayımım (1740'ta
+istikrarlı idare) da YANLIŞTI:
+```
+1697       Atlasov'un keşfi/ilk teması
+1701-1711  İSTİKRARSIZ idare — Atlasov'un kendi kazakları 1707'de isyan
+           etti, kendisi 1711'de kendi adamlarınca öldürüldü
+1731-1739  İtelmen ayaklanmaları, Merlin'in bastırma seferi (1733-39)
+1740       Petropavlovsk kuruldu (Bering seferi) — ama bölge hâlâ karışık
+1756       Kaynağın verdiği KESİN tarih: "1756'dan sonra ciddi direniş yok"
+```
+⇒ Kamçatka **fetih SINIFI** (rusya doğru kimlik), ama fetih 1697'den
+1756'ya kadar 59 yıl süren ŞİDDETLİ ve KESİNTİLİ bir süreç — tek bir
+"kur:1740" tarihi bunu gizler. Petropavlovsk'un kendi kur:1740 tarihini
+KORUYORUM (kasaba gerçekten o yıl kuruldu, Yakutsk'un 1632 kur:'ı da
+benzer şekilde hemen ardından 1633 isyanı yaşadı ve değişmedi) ama
+`neden:`/özet alanına 1756'ya kadar süren direnişi AÇIKÇA not düşeceğim.
+
+### Koryak — "veri-yok"
+İki kaynak da (genel Koryak maddesi + Koryak Okrug) tâbilik/haraç
+sorusuna net cevap vermiyor — yalnız 1769-70 kıtlık/savaş kaybı ve 1931
+Sovyet idaresi kuruluşu var. `neden:"veri-yok"` yazacağım, zorlamıyorum.
+
+Devam: Sahalin'i (zaten temiz modellenmiş, teyit amaçlı) hızlı gözden
+geçirip somut nokta listesini tamamlayacağım.
