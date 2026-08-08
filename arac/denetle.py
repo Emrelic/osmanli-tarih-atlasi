@@ -1550,17 +1550,41 @@ def konum_denetimi(Y):
                     return q, True
         return ic, False
 
-    disarida = []
+    # 🔴 İKİ AYRI KUSUR, TEK SATIRDA RAPORLANIYORDU — VE ÇARELERİ TERSTİR.
+    # 8 Ağustos 2026, NOKTA EMİLME: altı nokta "kara maskesinin dışında" diye
+    # bildirildi ve araç dördüne DE AYNI koordinatı önerdi (lat:-10,9995) —
+    # yani Sofala'yı, Mozambik Adası'nı, Quelimane'yi ve Angoche'yi gerçek
+    # yerlerinden YÜZLERCE KM uzağa taşıyacaktı. Oturum uygulamayı REDDETTİ
+    # ve koordinatöre sordu; **doğru davranış buydu.**
+    #
+    # Sebep: `kara` zaten `bolge` ile KESİLİYOR (yukarıda). Yani pencerenin
+    # dışındaki her yerde "kara" diye bir şey YOKTUR ve en yakın kara hep
+    # pencerenin kenarı çıkar. Araç *"denize düşmüş nokta"* ile *"atlasın
+    # penceresi burayı hiç kapsamıyor"*u aynı satırda söylüyordu.
+    #
+    #   KARA DIŞI     → nokta yanlış yerde   → ÇARE: koordinatı düzelt
+    #   PENCERE DIŞI  → nokta DOĞRU yerde    → ÇARE: koordinata DOKUNMA;
+    #                   pencere oraya açılana kadar bekleyen veridir
+    #
+    # ⚠️ Ve ikisini karıştırmanın bedeli tek yönlü değil: pencere dışı bir
+    # noktayı "düzeltmek" DOĞRU veriyi BOZAR — ihlali kapatır, gerçeği siler.
+    disarida, pencere_disi = [], []
     for y in Y:
         p = Point(y["lon"], y["lat"])
         if kara.covers(p):
+            continue
+        if not bolge.covers(p):
+            ic, _ = nearest_points(bolge, p)
+            km = 111.32 * ((ic.x - y["lon"]) ** 2 + (ic.y - y["lat"]) ** 2) ** 0.5
+            pencere_disi.append((km, y["ad"], y["lat"], y["lon"]))
             continue
         ic, _ = nearest_points(kara, p)
         km = 111.32 * ((ic.x - y["lon"]) ** 2 + (ic.y - y["lat"]) ** 2) ** 0.5
         q, saglam = _onerilen(p, ic)
         disarida.append((km, y["ad"], y["lat"], y["lon"], q.y, q.x, saglam))
     disarida.sort(reverse=True)
-    return disarida
+    pencere_disi.sort(reverse=True)
+    return disarida, pencere_disi
 
 
 def donem_sagligi(Y):
@@ -1884,10 +1908,22 @@ def main():
             for t, ad, ot, b, fark in sorted(dusen, key=lambda r: -abs(r[4])):
                 print(f"              {t}  {ad:30s} ↔ {ot:10s} {fark:+4d}g  {b}")
 
-    kd = konum_denetimi(Y)
+    _kdsonuc = konum_denetimi(Y)
+    kd, kd_pencere = (None, []) if _kdsonuc is None else _kdsonuc
     if kd is None:
         print("Ek denetim  i  konum: shapely ya da veri-kaynak yok, ATLANDI")
     else:
+        # 🔴 PENCERE DIŞI AYRI RAPORLANIR — İHLAL DEĞİL, BEKLEYEN VERİDİR.
+        # Bu nokta YANLIŞ YERDE DEĞİL; atlasın penceresi oraya HENÜZ açılmadı.
+        # Koordinatını "düzeltmek" doğru veriyi bozar (bkz. konum_denetimi'ndeki not).
+        if kd_pencere:
+            print(f"Ek denetim  i  konum: {len(kd_pencere)} nokta PENCERE DIŞINDA "
+                  "— ihlal DEĞİL, pencere oraya açılana kadar BEKLEYEN veri")
+            for km, ad, lat, lon in kd_pencere[:12]:
+                print(f"    {ad:<26} {km:7.0f} km pencere dışı  {lat:.4f},{lon:.4f}"
+                      "   ⛔ KOORDİNATA DOKUNMA")
+            print("    → `CLAUDE.md §6`: nokta yoğunluğu sağlanmadan pencere AÇILMAZ."
+                  " Bu kayıtlar pencere büyüyünce KENDİLİĞİNDEN canlanır.")
         durum6 = "✓" if not kd else "✗"
         if kd:
             ihlal = True
