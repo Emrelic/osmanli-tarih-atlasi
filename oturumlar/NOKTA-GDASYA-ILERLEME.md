@@ -455,3 +455,29 @@ bildirilmiş ama yazılmamış: 5 (Pontianak, Kutai, Bone, Palu, Kendari — uyg
 83 yazılan nokta ile 120-150 aralığının altındayım (toplam 159 aralığın
 ÜSTÜNDE) — hangi ölçütün esas alındığını netleştirmek için koordinatöre
 soruyorum, cevap gelene kadar devam ediyorum.
+
+## 🔴 5 KİMLİK BOŞLUĞU İŞLENDİ (devletler.js, geçici yetki devam ediyor)
+
+TDV ölçümü tekrar §4 ile yapıldı (4 slug + 2 genel madde). Sonuç ASİMETRİKTİ
+— bu yüzden TEK tip karar yerine ÜÇ AYRI künye yazıldı:
+
+```
+pontianak            DOĞRULANDI, kaynak:"borneo" — TDV'nin genel "borneo"
+                      maddesi SOMUT veriyor ("1772'de Şerif Abdurrahman...
+                      Pontianak Sultanlığı'nı kurdu"). f=1772,t=1855(YIL BEYANI)
+kutai                YETERSİZ, ayrı künye — Pontianak'la AYNI toplu künyeye
+                      SOKMADIM çünkü TDV karşılığı farklı kalitede (biri
+                      doğrulanmış, öbürü yalnız isim-düzeyi). f=1575,t=1908
+bugis-kralliklari     BULUNAMADI, TOPLU künye — Bone/Wajo/Soppeng, gova-
+                      makassar'dan BİLEREK AYRI (tarihsel rakip). f=1330,
+                      t=1905-08-06 (Bone Savaşı sonu)
+```
+Palu/Kendari için KÜNYE YAZILMADI — Kaili/Konawe halklarının bölgesi,
+Bugis'ten etnik-siyasi ayrı, TDV'de iz yok, standart akademik kaynak da
+net bir "krallık" kaydı vermiyor. AÇIK GAP olarak bırakıldı.
+
+`devletler.js`: 382→385 kayıt, mükerrer 0, boş özet 0. Commit EDİLMEDİ.
+🔴 3 yeni kimlik (`pontianak`, `kutai`, `bugis-kralliklari`) RENKSİZ — RENK
+2'nin BOYALAR'a eklemesi bekleniyor.
+
+Devam: renk gelene kadar mevcut alt bölgelere ek nokta (120-150 hedefi).
