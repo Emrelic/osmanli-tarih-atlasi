@@ -1101,3 +1101,84 @@ yalnız metin kısaldı), mükerrer id 0, ters/sıfır dönem 0, çok kısa/boş
 
 `data/devletler.js` pathspec'siz bırakıldı. Koordinatöre haber verildi —
 ② (40 künye listesi) bekleniyor.
+
+---
+
+## ㉑ 40'lık liste işlendi — ① afsar/kacar harita: düzeltildi, ② 37/38 künye yazıldı
+
+### ① afsar/kacar `harita:` — YAZILDI (2 satır)
+
+```
+afsar   harita: "iran" → "afsar"
+kacar   harita: "iran" → "kacar"
+```
+İkisine de bu değişikliği açıklayan not düşüldü. Doğrulandı.
+
+### ② 38 künyeden 37'si yazıldı, 1'i (`ainu`) BULUNAMADI/UYDURULMADI
+
+`denetim/kunye-bekleyen-40.txt`den okudum, büyükten küçüğe sırayla yazdım.
+`data/devletler.js`: 343 → **380** (+37). Doğrulandı (`node -e eval`): 0
+mükerrer id, 0 ters/sıfır dönem, listedeki 37 id'nin **hepsi** dosyada VAR.
+
+**TDV CANLI ve İÇERİKLE doğrulanan 9 kalem** (curl + WebFetch, birebir
+alıntı ozet'lerde): `bengal-sultanligi` (madde: `bengal`, 1340→1576 birebir)
+· `bengal-nevabligi` (kısmen, 1757 Plassey birebir) · `haydarabad-nizam`
+(madde: `haydarabad-nizamligi`, 11 Ekim 1724 birebir) · `cavnpur-sultanligi`
+(madde: `jaunpur`, 1394-1483 birebir) · `cammu-kesmir` (madde: `kesmir`,
+1846 birebir) · `bahavelpur` (madde: `bahavelpur`, 1748 birebir) ·
+`multan-langah` (madde: `multan`, 1451/1527 birebir) · `bhopal` (madde:
+`bopal--devlet` — dikkat: `ordu--sehir` tipi ÇİFT TİRE slug, id yine de
+listedeki `bhopal` olarak tutuldu) · `pingnan` (madde: `panthay` — TDV
+kimliği "Panthay" ama künye id'si listedeki `pingnan`, Yunnan'daki Hui
+Müslüman isyanı, 1855-1873 birebir).
+
+**TDV kısmen/dolaylı doğrulayan 1 kalem:** `samudra-pasai` (madde:
+`endonezya` — "1280'lerde İslâm'ı kabul" ifadesi atlasın 1281 pencere-
+başlangıcıyla ÇAKIŞIYOR, ilginç bir rastlantı; bitiş tarihi standart
+akademik).
+
+**🔴 BULUNAMADI ama önce arandı, sonra açıkça işaretlenen 3 kalem** (🟢
+etiketliydi ama TDV'de gerçekten yoktu — ölçüm coordinatörün tahminini
+düzeltti): `avad` (yalnız dolaylı bahisler, müstakil madde yok) ·
+`cunagadh` (TDV arama motoru "madde başlıklarında sonuç bulunamadı" dedi,
+sıfır sonuç) · `karnatik` (TDV arama motoru sıfır sonuç).
+
+**Standart akademik kaynağa dayanan 24 kalem** (⚪ etiketliydi, tahmin
+doğru çıktı): `kenmu` · `fransiz-cinhindi` · `san-fan` · `dashun` ·
+`yadava` · `hanthawaddy` · `kakatiya` · `pagan` · `pandya` · `tay-son` ·
+`taiping` · `madurai-sultanligi` · `singhasari` · `ho-hanedani` · `tonburi`
+· `tran-hanedani` · `hoysala` · `laos-kralliklari` · `seylan-sinhala` ·
+`sukhothai` · `bharatpur-cat` · `kocin` · `sarawak-brooke` ·
+`sunda-pajajaran` — hepsi ozet'te AÇIKÇA "TDV'de ayrı maddesi yok" diye
+işaretlendi, tarihler yaygın kabul gören standart tarihler (çoğu için
+birden fazla bağımsız kaynakla örtüşen, tartışmasız denilebilecek
+tarihler — Plassey, Dali'nin düşüşü, Bạch Đằng gibi iyi belgeli olaylar).
+
+**🔴 `ainu` — YAZILMADI, BULUNAMADI:** Hokkaido'daki Ainu halkının biçimsel
+bir "devlet" kurduğuna dair kaynak yok — dönemin haritada boyanan kimliği
+muhtemelen Matsumae klanının (Japon) ticaret tekelini yansıtıyor, bu bir
+Ainu devleti değil dışarıdan kurulan bir ilişki. Uydurmadım, künye
+yazmadım; "bulunamadı" olarak bırakıldı.
+
+### ⚠️ "veride görünen aralık" sütununa güvenilmedi — birkaç somut fark
+
+Talimat gereği pencere sütunu yalnız BAĞLAM için kullanıldı, künye
+tarihleri hep kaynaktan geldi. En büyük farklar: `taiping`in gözlemlenen
+başlangıcı "1853-02-18" idi, gerçek kuruluş (Jintian Ayaklanması) 1851-01-11
+— iki yıl fark, künye gerçek tarihi kullandı. `karnatik`in gözlemlenen
+başlangıcı "1714" idi, standart akademik kaynak fiilî özerkleşmeyi 1690'a
+koyuyor — künye 1690'ı kullandı. `pagan`ın gözlemlenen bitişi "1313" idi,
+standart akademik kaynak Myinsaing kardeşlerin iktidarı 1297'de aldığını
+söylüyor — künye 1297'yi kullandı.
+
+### 🔴 Ö1 hazırlığı — her kayıtta hanedan/süreklilik notu
+
+Talimat edildiği gibi, yazılan 37 künyenin **HEPSİNDE** ozet'e açıkça
+"HANEDAN ÖMRÜ kimliğidir" / "ÜLKE SÜREKLİLİĞİ kimliğidir" / "HANEDAN/ÜLKE
+karışık kimliktir" notu düşüldü. Kabaca dağılım: ~19 HANEDAN ÖMRÜ (İsyan
+dahil), ~10 ÜLKE SÜREKLİLİĞİ (çoğu 1923 ufkunda kesilip gerçekte ötesine
+taşıyan prens devletleri: `haydarabad-nizam`, `bahavelpur`, `bhopal`,
+`cunagadh`, `bharatpur-cat`, `sarawak-brooke`, `cammu-kesmir`), ~8 karışık.
+Bundan sonraki her künyede bu alışkanlığı sürdüreceğim.
+
+`data/devletler.js` pathspec'siz bırakıldı. Koordinatöre haber verildi.
