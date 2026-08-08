@@ -602,22 +602,32 @@ def _tavan_daire(p, r_km, lat):
     dx = r_km / (111.32 * max(0.15, math.cos(math.radians(lat))))
     return _scale(p.buffer(1.0, quad_segs=24), xfact=dx, yfact=dy, origin=p)
 
-for i, y in enumerate(YERLER):
-    r = TAVAN_KM.get(y.get("k") or 0, TAVAN_KM[0])
-    a0 = PETEK[i].area
-    if a0 <= 0:
-        continue
-    kes = PETEK[i].intersection(_tavan_daire(noktalar[i], r, y["lat"]))
-    if kes.is_empty:
-        continue                       # tavan hücreyi tamamen yerse DOKUNMA
-    _tv_once += a0
-    _tv_sonra += kes.area
-    if (a0 - kes.area) / a0 > 0.02:
-        _tv_bagli += 1
-    PETEK[i] = kes
-print(f"  yarıçap tavanı: {_tv_bagli} petek bağlandı ({100*_tv_bagli/len(YERLER):.1f}%) · "
-      f"alan {100*(_tv_once-_tv_sonra)/max(_tv_once,1e-9):.1f}% kesildi")
+TAVAN_DAIRE = [_tavan_daire(noktalar[i], TAVAN_KM.get(y.get("k") or 0, TAVAN_KM[0]),
+                            y["lat"]) for i, y in enumerate(YERLER)]
 print(f"     tavan (km): " + " · ".join(f"k{k}={v}" for k, v in sorted(TAVAN_KM.items())))
+print(f"     ⚠️ tavan BURADA UYGULANMAZ — kıyı kesiminde uygulanır (bkz. §KIYI)")
+
+# 🔴 NİÇİN BURADA DEĞİL — 9 Ağustos 2026, ÖLÇÜLDÜ VE ÖNGÖRÜ ÇÜRÜDÜ.
+# Tavan ilk yazıldığında TAM BURAYA, Voronoi'nin hemen ardına kondu. Koşu 4
+# başladı ve motorun kendi çıktısı öngörüyü çürüttü:
+#     öngörü  ~300 petek · alan ~%23      (kara maskesi ÜZERİNDE kalibre edildi)
+#     ölçüm    513 petek · alan  %40,0
+#     ve bozuk kenar 58 → 75
+# İki ayrı sebep vardı ve ikisi de YER'den geliyordu:
+#   ① Bu noktada hücre yalnız `BOLGE` ile kesik, KARA ile DEĞİL — yani tavan
+#      DENİZİ de kesiyordu. Kalibrasyon karada ölçmüştü ⇒ %23 yerine %40.
+#      Deniz zaten 924. satırda siliniyor, yani o kesim BOŞA çalışıyordu.
+#   ② Ortak kenar ağı tavandan SONRA kuruluyor (§TOPOLOJİ). Tavan hücreleri
+#      TEK TEK yaylarla kesince ağ bozuldu ⇒ +17 bozuk kenar.
+#      `CLAUDE.md` topoloji kuralı bunu zaten yasaklıyor: "yumuşatma ve
+#      sadeleştirme petek petek DEĞİL, ORTAK KENAR AĞI üzerinde."
+# ⇒ Tavan artık kıyı kesimiyle AYNI ADIMDA uygulanıyor: orada zaten her hücre
+#   ayrı ayrı kesiliyor ve sonrasında hiçbir yumuşatma yok, yani ne topoloji
+#   bozulur ne de boşa deniz kesilir.
+# 📌 Ve bunu yakalayan şey bir denetim değil, KOŞUDAN ÖNCE YAZILMIŞ BİR
+#   ÖNGÖRÜNÜN ÇÜRÜMESİYDİ. Sayı beklenenden farklı çıktı ⇒ sebep arandı ⇒
+#   iki ayrı kusur bulundu. Öngörü yazılmasaydı 513 sayısı "olur böyle" diye
+#   geçilirdi.
 
 # ---------------- Petek sınırlarını doğal hatlara yasla ----------------
 # ⚠️ TOPOLOJİ KURALI (Oturum 8): yumuşatma ve sadeleştirme petek petek DEĞİL,
@@ -920,8 +930,30 @@ print(f"  örtü geçerliliği: sadeleştirme öncesi {_n0}, sonrası {_n1} bozu
 
 # Kıyı kesimi EN SON: bütün gövdelerin deniz sınırı doğrudan KARA maskesinden
 # gelir; kesimden sonra hiçbir sadeleştirme/yumuşatma yapılmaz.
-asama("Kıyı kesimi (her hücre × KARA)")
-PETEK_D = [poligonal(g.intersection(KARA)) for g in PETEK_TAM]
+asama("Kıyı kesimi (her hücre × KARA) + A1 YARIÇAP TAVANI")
+# 🔴 TAVAN BURADA — kıyı kesimiyle AYNI ADIMDA. Gerekçe yukarıda (§TAVAN_KM).
+# Burada uygulanmasının iki sebebi var ve ikisi de ölçülmüş:
+#   ① kesim KARA üzerinde ⇒ tavan denizi boşuna kesmez, kalibrasyonla örtüşür
+#   ② bu adımdan SONRA hiçbir yumuşatma/sadeleştirme yok ⇒ ortak kenar ağı
+#      bozulmaz (Voronoi'nin ardında uygulandığında +17 bozuk kenar açmıştı)
+_tv_bagli = 0
+_tv_once = _tv_sonra = 0.0
+PETEK_D = []
+for i, g in enumerate(PETEK_TAM):
+    kara_kesik = g.intersection(KARA)
+    a0 = kara_kesik.area
+    if a0 > 0:
+        kes = kara_kesik.intersection(TAVAN_DAIRE[i])
+        if not kes.is_empty:
+            _tv_once += a0
+            _tv_sonra += kes.area
+            if (a0 - kes.area) / a0 > 0.02:
+                _tv_bagli += 1
+            kara_kesik = kes
+        # tavan hücreyi TAMAMEN yerse dokunma: nokta kendi peteğinden olmaz
+    PETEK_D.append(poligonal(kara_kesik))
+print(f"  yarıçap tavanı: {_tv_bagli} petek bağlandı ({100*_tv_bagli/len(YERLER):.1f}%) · "
+      f"KARA alanının {100*(_tv_once-_tv_sonra)/max(_tv_once,1e-9):.1f}%'i kesildi")
 
 # ---------------- ADA KURALI ----------------
 # Bir yerleşimin peteği KENDİ kara parçasının dışına taşamaz.
