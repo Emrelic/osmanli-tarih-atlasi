@@ -2302,3 +2302,96 @@ sessiz oldu: patlayan → sessizce bozan → **başarılı görünen.**
 ⇒ Kural yetmiyor; **alışkanlık gerekiyor.** Bu oturumda kalan tek disiplin
 borcu bu: kaçış/backtick içeren hiçbir metin bash'ten geçmez — commit
 mesajı da, düzenleme betiği de, ilerleme notu da. `Write` → `py <yol>`.
+
+---
+
+## 51. GD ASYA ENVANTERİ — kova boş çıktı, ama tarama bir İHLAL buldu
+
+### ① İŞ SORUSU YANLIŞ ÖNCÜLE DAYANIYORDU
+Koordinatör *"renk eksik kovasını YAZ"* dedi. Ölçüldü:
+```
+bölge = guneydogu-asya künye            55
+KOVA 1  hazır (künye + renk)            55   ← hepsi
+KOVA 2  RENK EKSİK                       0
+KOVA 3  ikisi de yok                     0
+```
+**Yazacak renk yok.** Bölgenin paleti önceki bir partide zaten tamamlanmış.
+
+📌 Ve aday listesini **elle yazmadım**: koordinatörün 33 adlık listesi yerine
+`devletler.js`in kendi `bolge` alanını taradım. İkisi arasındaki fark 22
+künye — yani elle liste **kümenin %40'ını görmüyordu**. `darfur` dersinin
+(*pencereyi künyeden oku, elle yazma*) kimlik ekseni.
+
+### ② KOORDİNATÖRÜN 23 "BULUNAMADI"SI — ve ÜÇÜ BENİM ALETİMİN KUSURU
+İlk eşleyicim harf harf aradı ve 6 ad için *"gerçekten yok"* dedi. Ölçüldü,
+**dördü yanlıştı**:
+```
+aceh      → ace-sultanligi   [Açe Sultanlığı]        ✓ VAR — yazım farkı
+gowa      → gova-makassar    [Gova (Makassar)]       ✓ VAR — yazım farkı
+dai-viet  → 8 hânedan künyesi (le · mac · tran · ho · tay-son…)  ✓ KAPSANIYOR
+pattani   → malay-sultanliklari (Kedah, Patani, Perak…)          ✓ KAPSANIYOR
+🔴 trinh     → YOK ve bu bir ASİMETRİ (aşağıya bak)
+🔴 srivijaya → künyede HİÇ GEÇMİYOR
+```
+⚠️ **Kendi aletim `§4②` tuzağının aynısına düştü:** doğru cevap vardı,
+**yanlış anahtarla** arandı. TDV'de `ordu` → `ordu--sehir` neyse, burada
+`aceh` → `ace-` odur. **Türkçe yazım ekseni bir arama anahtarını kırar.**
+📌 Ve bu, `B10`un ters yüzü: miras alınan sayıyı doğrulamak yetmiyor,
+**kendi ölçtüğün sayıyı da doğrulamak gerekiyor.**
+
+**Koordinatöre iletilecek iki gerçek boşluk** (benim işim değil, VERİ DEVLET'in):
+```
+trinh      Nguyễn beyleri künyeli (nguyen-beyligi, Đàng Trong 1558-1802) ama
+           Trịnh beyleri (Đàng Ngoài) DEĞİL. Aynı bölünmenin iki yarısından
+           biri var, öteki yok — kasıtlı mı, atlanmış mı?
+srivijaya  1288'de bitiyor, atlas 1281'de başlıyor ⇒ 7 yıllık pencere.
+           Coğrafyayı palembang-sultanligi (1281-) devralıyor. Muhtemelen
+           kasıtlı, ama YAZILI DEĞİL.
+```
+
+### ③ 🔴 VE TARAMA BİR GERÇEK İHLAL BULDU — `renk_olc` göremiyor
+Koordinatör uyardı: *"`renk_olc` bunları henüz göremez — veri yok."* Doğru,
+ama sebebi *"veri yok"* değil: **veri VAR (54/55 kimliğin dönemi var), gören
+göz yok.** Bölgede 99 nokta (4,2/mn km², projenin en seyreği) ⇒ hücreler dev
+⇒ yan yana duran gövdeler **Voronoi komşusu değil.**
+
+600 km + eşzamanlılık ile taradım:
+```
+eşzamanlı + 600 km'den yakın çift          179   ← projenin EN YOĞUN kümesi
+🔴 ΔE < 12 İHLAL                             1
+   ava ↔ ayutthaya   ΔE 9,63 · 407 km · 1351-1555 arası 204 YIL birlikte
+🟡 SINIRDA (12 ≤ ΔE < 16)                   23
+```
+**Burma-Siyam savaşları tam bu iki gövde arasında geçiyor.** Ayırt
+edilmezlerse kronoloji ile harita çelişir — `CLAUDE.md §1`in amaç cümlesi.
+📌 `kaffa↔sidamo` (ΔE 2,8) ile aynı sınıf: **iki gövde DEĞMEDEN de aynı
+ekranda yan yana durur.** Aynı körlük, ikinci coğrafyada.
+
+### `ava` taşındı — ve engel kümesi BUGÜNE göre kurulmadı
+```
+#428aae → #126ced
+engel = bölgesel-eşzamanlı 36 ∪ bugünkü 600 km 12 = 41  (+Osmanlı ikilisi)
+havuz 158.578 · eşiği geçen 4.620 · pay 17,3 · C* 26,0 = %63
+ayutthaya'dan  9,63 → 32,2   ·  altlıktan 43,0
+en dar komşu: san-devletleri 21,3
+```
+🔴 **Engel kümesini bugünkü komşuluktan almadım.** VERİ DEVLET 120-150 nokta
+yazacak, hücreler küçülecek, komşuluk **genişleyecek**. Bugüne göre seçmek,
+`renk_olc`un bugün göremediği hatayı **yarına taşımak** olurdu. ⇒ Bölgenin
+**eşzamanlı her kimliği** engel sayıldı. Bedeli yok: 41 engelle bile 4.620
+aday geçiyor.
+📌 Ve eşzamanlılık şartı korundu: `konbaung` (1752-) `ava` ile hiç aynı
+ekranda durmaz; onu engel saymak havuzu **bedelsiz** daraltırdı.
+
+`ava` taşındı, `ayutthaya` değil — **az kısıtlı olan taşınır** (12 engel vs
+15), paletin geri kalanı serbest kalsın diye.
+
+### DOĞRULAMA — iki yönlü
+```
+renk_olc          KOMŞUSUYLA ÇAKIŞAN 0 çift      (önce de 0 diyordu — kör)
+önden tarama      ΔE < 12 İHLAL  1 → 0           ✓ gerçek ölçüm
+renk_fark         hex'i değişen kimlik: 1 — ava   ✓ tek değişiklik
+```
+⚠️ **`renk_olc`un iki koşuda da "0" demesi** bu bölümün asıl dersi: *"denetim
+temiz"* ile *"kusur yok"* aynı şey değil. `§11`in **kapsam** dersi, üçüncü
+kez ve yeni bir coğrafyada.

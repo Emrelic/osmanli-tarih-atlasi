@@ -1897,7 +1897,25 @@ BOYALAR = {
     "arakan":                  ("Arakan (Mrauk U) Krallığı",         "#42ae66"),
     "ahom":                    ("Ahom Krallığı (Assam)",             "#ae9042"),
     "bidar":                   ("Barîdşâhî Sultanlığı (Bîdar)",      "#426ca8"),
-    "ava":                     ("Yukarı Birmanya (Ava Krallığı)",    "#428aae"),
+    # ═══ ava — RENK DEĞİŞTİ (#428aae → #126ced), RENK 2, 8 Ağustos 2026 ═══
+    # 🔴 GERÇEK İHLAL: `ava` ↔ `ayutthaya` ΔE **9,63** · 407 km · ve ikisi
+    #   1351-1555 arası **204 yıl** birlikte sahnede. Burma-Siyam savaşları
+    #   tam bu iki gövde arasında geçiyor; ayırt edilmezlerse kronoloji ile
+    #   harita çelişir (`CLAUDE.md §1`in amaç cümlesi).
+    # ⚠️ VE `renk_olc` BUNU GÖREMİYOR — 0 çift bildiriyordu. Sebep: bölgede
+    #   99 nokta var (4,2/mn km², projenin en seyreği), hücreler dev ve ikisi
+    #   Voronoi KOMŞUSU değil. `kaffa↔sidamo` (ΔE 2,8) ile aynı sınıf:
+    #   **iki gövde DEĞMEDEN de aynı ekranda yan yana durur.**
+    # ÖLÇÜM — engel kümesi BUGÜNKÜ komşuluk DEĞİL: VERİ DEVLET 120-150 nokta
+    #   yazacak, hücreler küçülecek, komşuluk genişleyecek. Bugüne göre
+    #   seçmek hatayı yarına taşımak olurdu.
+    #   engel = bölgesel-eşzamanlı 36 ∪ 600 km 12 = **41** (+Osmanlı ikilisi)
+    #   havuz 158.578 · eşiği geçen 4.620 · pay **17,3** · C* 26,0 = %63
+    #   ayutthaya'dan  9,63 → **32,2**   ·  altlıktan 43,0
+    #   san-devletleri 21,3 (en dar) · lan-na 36,4 · hanthawaddy 40,0
+    # 📌 `ava` taşındı, `ayutthaya` değil: ava 12 engelli, ayutthaya 15 —
+    #   az kısıtlı olanı taşımak paletin geri kalanını serbest bırakır.
+    "ava": ("Yukarı Birmanya (Ava Krallığı)", "#126ced"),
     "lan-xang":                ("Lan Xang Krallığı (Laos)",          "#ba7842"),
     "pagaruyung":              ("Pagaruyung (Minangkabau) Krallığı", "#42a8b4"),
     "bali-kralliklari":        ("Bali Krallıkları",                  "#42b490"),
