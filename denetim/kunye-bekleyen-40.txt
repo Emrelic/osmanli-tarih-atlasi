@@ -1,0 +1,66 @@
+// RENK 2 -> VERI DEVLET  ·  7 Agustos 2026
+// KUNYE BEKLEYEN KIMLIKLER
+// Kaynak: renk_fark.py zincir() dorduncu dali (VERIDE kullaniliyor,
+// kunyesi YOK). Hepsi veride kullaniliyor ve HARITADA BOYANIYOR ama
+// kunyeleri yok => denetle_yayin bunlari 'dizinsiz harita kimligi' sayacak.
+//
+// 📌 Bunlarin cogu 7 Agustos'ta 'gevsek' karariyla yazilan kirk renk:
+//    delik kapatmak kunye beklemekten onemliydi ve karar onaylanmisti.
+//    Borc BILINCLIYDI ama OLCULMUYORDU; simdi olculuyor.
+
+// === A) KUNYE KAYDI VAR ama harita: BASKA ANAHTARDA (2) ===
+//   Bunlarin kunyesi VAR; harita: alani iran'a bakiyor, o yuzden kimlik
+//   haritaya baglanmiyor. Emre'nin hukmu (diger iranlari hanedani ile
+//   anmak) harita: alaninin da hanedana bakmasini gerektiriyor.
+//   Renkleri ZATEN VAR -- yalniz harita: alani duzeltilecek.
+//   ⚠️ VE BU AYNI ZAMANDA renk_olc'nin HER KOSUDA bildirdigi
+//      ayni-anahtar ortusmesinin KOKU: afsar <-> kacar, dE 0,
+//      1789-03-21 -> 1796-01-01. Bu iki satir duzeltilince o uyari da kapanir.
+//   afsar                  harita='iran'   1736-03-08 -> 1796-01-01   134 pencere
+//   kacar                  harita='iran'   1789-03-21 -> 1923-10-29   123 pencere
+
+// === B) KUNYE KAYDI HIC YOK (38 kimlik · 235 pencere) ===
+//   kimlik                   pencere   veride gorunen aralik
+//   bengal-sultanligi          22      1338-01-01 -> 1592-01-01
+//   kenmu                      17      1333-07-04 -> 1336-11-07
+//   fransiz-cinhindi           16      1859-02-17 -> 1923-10-29
+//   haydarabad-nizam           15      1724-10-11 -> 1923-10-29
+//   bengal-nevabligi           13      1717-01-01 -> 1764-10-22
+//   san-fan                    13      1673-12-28 -> 1681-12-07
+//   dashun                     12      1641-03-08 -> 1647-01-01
+//   yadava                     12      1281-01-01 -> 1318-01-01
+//   avad                        9      1722-01-01 -> 1856-02-07
+//   cavnpur-sultanligi          8      1394-01-01 -> 1479-01-01
+//   hanthawaddy                 8      1287-01-01 -> 1757-05-06
+//   kakatiya                    8      1281-01-01 -> 1323-01-01
+//   pagan                       8      1281-01-01 -> 1313-01-01
+//   pandya                      8      1281-01-01 -> 1311-01-01
+//   tay-son                     8      1773-01-01 -> 1802-06-20
+//   taiping                     7      1853-02-18 -> 1864-07-19
+//   madurai-sultanligi          5      1335-01-01 -> 1378-01-01
+//   singhasari                  5      1281-01-01 -> 1343-01-01
+//   ho-hanedani                 4      1400-03-01 -> 1407-06-17
+//   karnatik                    4      1714-01-01 -> 1801-07-31
+//   tonburi                     4      1767-04-07 -> 1782-04-06
+//   tran-hanedani               4      1281-01-01 -> 1400-03-01
+//   cammu-kesmir                3      1846-03-16 -> 1923-10-29
+//   hoysala                     3      1281-01-01 -> 1343-01-01
+//   laos-kralliklari            3      1707-01-01 -> 1893-10-03
+//   ainu                        2      1281-01-01 -> 1550-01-01
+//   seylan-sinhala              2      1281-01-01 -> 1518-09-01
+//   sukhothai                   2      1281-01-01 -> 1438-01-01
+//   bahavelpur                  1      1748-01-01 -> 1923-10-29
+//   bharatpur-cat               1      1733-01-01 -> 1923-10-29
+//   bhopal                      1      1707-01-01 -> 1923-10-29
+//   cunagadh                    1      1748-01-01 -> 1923-10-29
+//   kocin                       1      1281-01-01 -> 1503-09-01
+//   multan-langah               1      1445-01-01 -> 1528-01-01
+//   pingnan                     1      1856-01-01 -> 1873-01-15
+//   samudra-pasai               1      1281-01-01 -> 1521-01-01
+//   sarawak-brooke              1      1841-09-24 -> 1923-10-29
+//   sunda-pajajaran             1      1281-01-01 -> 1527-06-22
+
+// NOT: 'veride gorunen aralik' YERLESIM verisinden olculdu, kunye
+//      degil -- kunye yazilirken kaynaktan dogrulanmali. Bu sayilar
+//      kimligin haritada NE ZAMAN gorundugunu soyler, devletin gercek
+//      omrunu degil.

@@ -437,7 +437,21 @@ BOYALAR = {
     # ⚠️ ÜÇÜ YAZILDI, ÜÇÜ BEKLİYOR: `novgorod` · `pskov` · `tver` künyesiz
     #   (VERİ DEVLET yazıyor). Renkleri ölçülü ve
     #   `denetim/hazir-renk2-rus-ovasi.txt`te hazır.
+    # ⚠️ PENCERELER KÜNYEDEN OKUNDU, hazırlıktan DEVRALINMADI (7 Ağustos
+    #   akşamı, künyeler yazılınca). Bir fark çıktı: `tver` hazırlıkta
+    #   1281'den başlıyordu, künyede **1246** — 35 yıl erken. Komşu kümesi
+    #   değişmediği için renkler aynı kaldı, ama sayı devralınmadı.
+    #   (`darfur` 1603→1695 dersi: kendi ölçtüğün sayı da bayatlar.)
     "moskova":    ("Moskova Knezliği",       "#12a2ed"),
+    "novgorod":   ("Novgorod Cumhuriyeti",   "#42151e"),
+    "pskov":      ("Pskov Cumhuriyeti",      "#840f75"),
+    "tver":       ("Tver Knezliği",          "#9f6ced"),
+    # `rusya` 1917-03-15'te bitiyor, `sovyet-rusya` 1917-11-07'de başlıyor —
+    # arada SEKİZ AY boşluk vardı. Koordinatör `sovyet-rusya`nın `f:`ini
+    # geriye çekmeyi REDDETTİ ve ayrı künye yazdırdı; doğru karar, yoksa
+    # Sovyet Rusya Ekim Devrimi'nden sekiz ay önce boyanırdı — bugün gün
+    # boyu söktüğümüz HAYALET DEVLET sınıfının ta kendisi.
+    "rusya-gecici-hukumet": ("Rusya Geçici Hükûmeti", "#12397e"),
     "litvanya-buyuk-dukalik": ("Litvanya Büyük Dukalığı", "#120f9c"),
     "sovyet-rusya": ("Sovyet Rusya",         "#33eddb"),
     "rusya":      ("Rusya",                  "#4f7d4f"),

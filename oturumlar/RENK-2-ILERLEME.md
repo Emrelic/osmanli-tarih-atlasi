@@ -1812,3 +1812,27 @@ taban güncellendi · zincir sayıları da tabanda:
    veride_renk_yok     0 · veride_kunye_yok   40
 çıkış kodu 1 (40 zincir kusuru) — doğru davranış
 ```
+
+---
+
+## ㎺ RUS OVASI TAMAMLANDI (8 kimlik) + KIRKIN LiSTESi
+
+Kunyeler geldi (343); dordu de olculdu ve yazildi.
+
+Zincir tam: rusya -> rusya-gecici-hukumet -> sovyet-rusya, ve
+moskova/novgorod/pskov/tver/ryazan/litvanya-buyuk-dukalik hepsi ayri.
+
+### PENCERELER KUNYEDEN OKUNDU -- ve bir fark cikti
+ hazirlikta 1281den basliyordu, kunyede **1246** (35 yil erken).
+Komsu kumesi degismedigi icin renkler ayni kaldi, ama sayi DEVRALINMADI.
+Bugun bu tuzaga iki kez dusmustum (darfur 1603->1695, ermenistan slug);
+ucuncusunde once olctum.
+
+### KIRKIN LiSTESi -- ve IKIYE AYRILDI
+. Olcunce goruldu ki liste tek cins degil:
+
+🔴 A grubu bir bonus: **renk_olcnin HER KOSUDA bildirdigi ayni-anahtar
+ortusmesinin KOKU bu.**  dE 0, 1789-1796 -- ikisinin de
+kunyesi e bakiyor. O iki satir duzeltilince aylardir acik
+duran o uyari da kapanir. Yani kirkin listesi, ilgisiz gorunen bir kusuru
+da cozuyor.
