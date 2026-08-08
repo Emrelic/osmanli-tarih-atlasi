@@ -215,3 +215,40 @@ himayesinin kademeli kurulduğu, kesin gün kaynaklarda net olmadığı için).
 Toplam GDASYA dosyası: 28→32 nokta.
 
 Devam: Sumatra.
+
+### 🟢 SUMATRA — TAMAMLANDI (kısmi), 3 nokta + 🔴 4 kimlik boşluğu bildiriliyor
+
+```
+Lampung          5.45,105.27   palembang-sultanligi(1281-1527)→banten-sultanligi
+                                (1527-1808, YIL BEYANI)→hollanda-dogu-hint
+Bintan (Riau)    0.92,104.45   malay-sultanliklari→malaka-sultanligi→cohor-sultanligi
+                                (Malakka düşünce Johor-Riau sultanlığının yeni
+                                merkezi oldu)
+Barus            2.06, 98.39   ace-sultanligi(1496-1903-01-10, Banda Açe'nin
+                                BİREBİR aynı son tarihi — tutarlılık için)→
+                                hollanda-dogu-hint
+```
+⚠️ Bir düzeltme kendi kendime: Barus için önce 1873 (Açe Savaşı başlangıcı)
+yazmıştım, sonra fark ettim `ace-sultanligi` künyesinin kendi sonu 1903 —
+1873'ü kullanmak künyeyle ÇELİŞİRDİ. Banda Açe'nin kendi son tarihiyle
+(1903-01-10) hizaladım.
+
+🔴 4 KİMLİK BOŞLUĞU — YAZMADIM, BİLDİRİYORUM (şartname §C):
+Doğu Sumatra'da dört önemli tarihi merkez için 55'lik envanterde UYGUN
+kimlik bulamadım:
+```
+Jambi     (Melayu Krallığı soyundan, Palembang'ın rakibi) — ne
+          palembang-sultanligi ne pagaruyung ne malay-sultanliklari tam
+          oturuyor (üçü de başka bir coğrafyayı tanımlıyor)
+Deli/Medan (kuzeydoğu, sonradan Hollanda tütün bölgesi) — aynı sorun
+Siak      (1723'te Cohor'dan ayrılan Minangkabau soylu hanedan) —
+          cohor-sultanligi mi pagaruyung mu belirsiz, ikisi de zorlama
+Indragiri (orta doğu kıyı) — aynı sorun
+```
+Bunlar için YAZMADIM. Ya yeni kimlik gerekiyor (RENK 2'ye) ya da hangi
+mevcut kimliğin doğru olduğuna dair karar istiyorum.
+
+DOĞRULAMA: yazılan 3, 3km mükerrer 0, renksiz kimlik 0, dönem sorunu 0,
+açılan yeni kırılma günü 0 (1808 YIL BEYANI). Toplam GDASYA dosyası: 32→35.
+
+Devam: Java (kimlik kararı beklerken durmuyorum).
