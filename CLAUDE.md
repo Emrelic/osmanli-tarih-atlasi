@@ -1099,6 +1099,48 @@ Notlar:
   **geçme yolu** olur, ki o daha sinsidir: denetim gürültülü çalışır ama
   **temiz veriyi de kirli sayıyor** olabilir.
 
+- 🔴 **"SAHİPSİZ"İN İKİ CİNSİ VARDIR VE SINAVI ŞUDUR: KAYNAK KONUŞUYOR MU,
+  SUSUYOR MU?**
+
+  **Vaka (8 Ağustos 2026, NOKTA SİBİRYA).** Üç bölge için `kasitli_bosluk`
+  düşünüldü; ikisi aynı kovaya konacaktı, **ölçüm ayırdı:**
+  ```
+  ÇUKOTKA  kaynak AÇIKÇA konuşuyor  → "devletsiz"
+           "never paid yasak … their status as subjects was little more
+            than a formality" · 1649 kalesi 1764'te TERK EDİLDİ
+  YAKUT    kaynak SUSUYOR           → "veri-yok"
+           fetih öncesi siyasî örgütlenmeyi HİÇ TARTIŞMIYOR,
+           doğrudan 1620'lerin fethiyle başlıyor
+  ```
+  ⇒ **Sınav:** *kaynağa sor. **Konuşuyorsa** `devletsiz`, **susuyorsa**
+  `veri-yok`.*
+
+  📌 İkisi de `kasitli_bosluk` olarak yazılsa **haritada aynı görünürdü** —
+  fark yalnız bir sonraki oturum için vardır: Çukotka'ya **bir daha
+  bakılmayacak**, Yakut'a **bakılacak.** *"Boşluk"* kaydetmek yetmiyor;
+  **boşluğun CİNSİNİ** kaydetmek gerekiyor.
+
+  🟢 **Ve oturum ilk turda *"devletsiz eğilimliyim"* deyip İKİNCİ TURDA
+  KARARI DEĞİŞTİRDİ.** Eğilimi karar diye yazsaydı, **yanlış bir kesinlik**
+  kayda geçer ve kimse onu bir daha sorgulamazdı. ⇒ *"Eğilimim şu"* ile
+  *"kararım şu"* arasındaki farkı korumak, kararın kendisi kadar değerli.
+
+- 🔴 **TEMİZ ÇIKAN BİR ÖRNEKLEM, ÖRNEKLEMİN DIŞINI TEMİZ İLAN ETMEZ.**
+  **Vaka (8 Ağustos, koordinatörün kendi şartnamesi).** NOKTA SİBİRYA'nın
+  ön ölçümü Sibir Hanlığı çekirdeğini (Tobolsk · Tümen · Baraba) ve Rus
+  ostroglarını **temiz** buldu — ölçüm doğruydu. Koordinatör bundan
+  ***"Sibirya'da yanlış sahip yok, sorun yalnız yoğunluk"*** diye şartname
+  yazdı. **Çürüdü:**
+  ```
+  Çukotka: `rusya` — 2.106 km öteden (Sahalin) emiliyor
+  Oysa Çukçiler 1281-1923 boyunca HİÇ fethedilmedi
+  ```
+  ⇒ Çekirdek temizdi, **Uzak Doğu başka bir dünyaydı.** Örneklem 60°D
+  civarındaydı, kusur 170°D'deydi.
+  📌 Bu, `§5`'teki *"ayrıştırıcıyı doğrulamak yetmiyor, hangi DOSYALARI
+  okuduğunu da doğrulamak gerekiyor"* dersinin **coğrafya tarafı**: ölçüm
+  doğru, **evreni dar.**
+
 - 🟢 **ÖNGÖRÜ ÖLÇÜMDEN ÖNCE YAZILIR — SONRA YAZILAN BEKLENTİ AYARLANABİLİR,
   ÖNCE YAZILAN ÇÜRÜTÜLEBİLİR.**
 
