@@ -57,12 +57,22 @@ function olayTarihYazi(o) { return o.gun || kesinlikliYazi(o.t, o.gi); }
 // Öncelik: elle yazılmış `taraf_metin` → id'lerin devletler.js'ten çözümü → ham metin.
 // Osmanlı her kaydın bir tarafı olduğu için id listesinden düşürülür; "karşı taraf"
 // zaten karşısındakini soruyor. Dizi tek elemanlıysa (iç isyan) o eleman yazılır.
+// 🔴 8 Ağustos 2026 — bu sözlük YALNIZ `d.id` okuyordu ve `harita:` takma adını
+// GÖRMÜYORDU. Ölçüldü: 248 künyenin `harita:` alanı var, bunların **22'sinin
+// değeri hiçbir `id:` ile eşleşmiyor** — yani haritada `kaffa` · `sirbistan` ·
+// `ceneviz` · `avusturya` gibi gövdelere tıklandığında kullanıcı künyenin adını
+// değil HAM SLUG'ı görüyordu.
+// 📌 Aynı kök bugün ÜÇ kez ısırdı: (1) ben `harita:`yi atlayıp §1.5'i yanlış ilan
+// ettim ve bir oturumun üç bölümü boşa yazıldı; (2) RENK 2'nin künye ölçümü
+// `kaffa`/`cimma`/`vollayta`/`sidamo`yu "künyesiz" sandı — dördü de dizindeydi;
+// (3) burası. Kimlik eşleşmesi soran her yer `id:` ∪ `harita:` okumalı.
 var _DEVLET_ADI = null;
 function devletAdi(id) {
   if (!_DEVLET_ADI) {
     _DEVLET_ADI = {};
     (window.DEVLETLER || []).forEach(function (d) {
-      if (!_DEVLET_ADI[d.id]) _DEVLET_ADI[d.id] = d.ad;
+      if (d.id && !_DEVLET_ADI[d.id]) _DEVLET_ADI[d.id] = d.ad;
+      if (d.harita && !_DEVLET_ADI[d.harita]) _DEVLET_ADI[d.harita] = d.ad;
     });
   }
   return _DEVLET_ADI[id] || id;
