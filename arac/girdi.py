@@ -612,6 +612,44 @@ def oku_devletler():
             son_anlam = c
             i += 1
             continue
+        if c == "'":                    # 🔴 TEK TIRNAKLI DİZE — JS'te geçerli, JSON'da değil
+            # 8 Ağustos 2026: `kaynak:'bulunamadı — TDV\'de müstakil maddesi
+            # yok…'` biçiminde 112 değer yazıldı. Yazan haklıydı: değer
+            # kesme işareti taşıyor ve JS'te tek tırnak en kolay yol. Ama bu
+            # okuyucu JSON'a çeviriyordu ve JSON tek tırnak KABUL ETMEZ ⇒
+            # `renk_olc` bütün künye denetimini kaybetti.
+            # ⚠️ Alet SESSİZCE SIFIR DÖNDÜRMEDİ, "okuyucu düzeltilmeden sonuç
+            # kullanılamaz" deyip DURDU — doğru davranış, ve kusuru bu yüzden
+            # aynı gün bulduk. `node` dosyayı 381 kayıt diye ayrıştırıyordu:
+            # dosya geçerliydi, OKUYUCU dardı.
+            out.append('"')
+            i += 1
+            while i < n:
+                ch = govde[i]
+                if ch == "\\" and i + 1 < n:
+                    nx = govde[i + 1]
+                    if nx == "'":       # \' JSON'da geçersiz kaçış → çıplak '
+                        out.append("'")
+                    else:
+                        out.append(ch); out.append(nx)
+                    i += 2
+                    continue
+                if ch == "'":
+                    out.append('"')
+                    i += 1
+                    break
+                if ch == '"':           # tek tırnaklı dizenin İÇİNDEKİ " → kaçışla
+                    out.append('\\"')
+                    i += 1
+                    continue
+                if ch == "\n":          # JSON dizesinde çıplak satır sonu yasak
+                    out.append("\\n")
+                    i += 1
+                    continue
+                out.append(ch)
+                i += 1
+            son_anlam = '"'
+            continue
         if govde[i:i + 2] == "//":      # yorum: satır sonuna dek at
             while i < n and govde[i] != "\n":
                 i += 1
