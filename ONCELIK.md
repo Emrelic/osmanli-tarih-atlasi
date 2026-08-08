@@ -123,6 +123,21 @@ yoktur ⇒ Bornu halka 3, Norveç halka 4.
 
 Ölçüt **nokta / milyon km²**. Taban **Osmanlı küresi: 50,9**.
 
+⚠️ **PAYDA HAM KUTUDUR — DENİZ VE ÇÖL DÂHİL.** `NOKTA HALKA-2 1` oturumu
+ölçtü ve kusuru gösterdi: kara maskesi üzerinden ölçülünce sayılar bambaşka.
+```
+                       ham kutu (aşağıdaki tablo)   KARA maskesi
+Anadolu (26-45D/36-42K)          192,2                  227,9
+Rumeli  (19-29D/39-46K)          182,9                  219,2
+Sudan-Habeş-Somali-Umman           8,9                   12,8
+```
+⇒ Osmanlı/halka-2 oranı **5,7× değil ~18×.** Deniz ve çölü paydaya katan bir
+yoğunluk, **kıyı bölgelerini olduğundan seyrek, iç bölgeleri olduğundan
+yoğun** gösterir.
+📌 Aşağıdaki tablo **sıralama için** hâlâ geçerli (aynı yöntemle ölçüldüğü
+için karşılaştırılabilir), ama **mutlak hedef koymak için kullanılmaz.**
+Hedef konacaksa **kara maskesi üzerinden** ölçülür.
+
 ```
 🟢 Italya                          84,2      🟡 Hindistan                17,5
 🟢 Fransa                          75,7      🟡 Japonya-Kore             16,0
