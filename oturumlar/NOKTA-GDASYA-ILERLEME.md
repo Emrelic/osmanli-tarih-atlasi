@@ -317,3 +317,56 @@ açılan yeni kırılma günü 0 (1819/1830 iki tarih YIL BEYANI). Toplam GDASYA
 dosyası: 40→42 nokta.
 
 Devam: Sulawesi.
+
+### 🟢 SULAWESİ — TAMAMLANDI (kısmi), 1 nokta + 🔴 3 kimlik boşluğu
+
+```
+Gorontalo   0.54,123.06   ternate-sultanligi→hollanda-dogu-hint
+```
+🔴 Bone (Bugis krallığı — Gova-Makassar'ın TARİHİ RAKİBİYDİ, 1666-69
+Makassar Savaşı'nda Hollanda'yla ittifak kurup Gova'ya karşı savaştı;
+`gova-makassar` kimliğini kullanmak TARİHSEL OLARAK YANLIŞ olurdu), Palu,
+Kendari için uygun kimlik yok — yazmadım.
+
+### 🟢 FİLİPİNLER — TAMAMLANDI, 4 nokta
+
+```
+Iloilo     10.72,122.56   filipin-racaliklari→ispanya→abd
+Vigan      17.57,120.39   aynı zincir
+Zamboanga   6.91,122.08   aynı zincir
+Butuan      8.95,125.54   aynı zincir (künyenin kendi tanımında "Tondo,
+                            Maynila, Cebu, Butuan" diye ADI GEÇEN merkez)
+```
+
+### 🟢 MOLUK-KÜÇÜK SUNDA — TAMAMLANDI, 3 nokta
+
+```
+Larantuka  -8.35,122.99   timor-beylikleri→portekiz(1613, Larantuqueiros
+                            yerleşimi)→hollanda-dogu-hint(1859, Lizbon
+                            Antlaşması'yla satın alma)
+Sumbawa    -8.49,117.42   singhasari→majapahit→bali-kralliklari→
+                            hollanda-dogu-hint(1905, YIL BEYANI)
+Seram      -3.10,129.50   ternate-sultanligi→hollanda-dogu-hint(1656)
+```
+
+DOĞRULAMA (üç alt bölge birden): yazılan 8, 3km mükerrer 0, renksiz
+kimlik 0, dönem sorunu 0, açılan yeni kırılma günü 0. Toplam GDASYA
+dosyası: 42→50 nokta.
+
+## ARA TOPLAM — 8 alt bölge sonrası
+
+```
+Birmanya 9 · Siyam 8 · Kamboçya-Laos 6 · Vietnam 5 · Malaya 4 · Sumatra 3
+Java 5 · Borneo 2 · Sulawesi 1 · Filipinler 4 · Moluk-K.Sunda 3
+YAZILAN TOPLAM: 50 (+ 4 bekleyen: Jambi/Siak/Deli/Indragiri, renk bekliyor)
+GDASYA dosyası toplam: 50 nokta
+Genel yoğunluk: 76 → 126 / 23,3mn km² ⇒ 3,3 → 5,41
+AÇILAN KIRILMA GÜNÜ TOPLAMI: 0 (sekiz alt bölge boyunca)
+```
+
+🔴 TOPLAM 9 KİMLİK BOŞLUĞU bildirildi (Jambi/Siak/Deli/Indragiri — künye
+kararı verildi, renk bekleniyor; Pontianak/Kutai; Bone/Palu/Kendari) —
+hiçbiri yazılmadı, hepsi ya karara bağlandı ya bildirildi.
+
+120-150 hedefine 50/120 ile devam ediyorum — ikinci tur ekleme yapacağım
+(mevcut alt bölgelere daha fazla nokta, kimlik izin verdiği ölçüde).
