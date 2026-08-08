@@ -33,6 +33,35 @@ RENK KURALI (ölçüldü, bkz. denetim/):
     Beş çiftin HİÇBİRİ tarih boyunca komşu değil → ihlal 0, yukarıdaki
     "renk ayırma işi görür" kuralına uygun. Yeni renk eklerken bu denetimi
     tekrarla; hex tekrarı başlı başına hata DEĞİLDİR, komşuluk hatadır.
+
+  🔴 BİR RENGİ KALDIRMAK HER ZAMAN TEK SATIR DEĞİLDİR — iki şart var.
+
+  ① HEX PAYLAŞIMLIYSA BEYAN DA GÜNCELLENİR.
+     Bu dosyanın altındaki paylaşım beyanı, hangi kimliklerin bilerek aynı
+     hex'i taşıdığını yazar ve import anında self-check ile denetlenir.
+     Bir kimliği kaldırıp beyanı bırakmak, beyanı YALANCI yapar.
+     Ölçülmüş vaka (8 Ağustos): `kavalali` #00acc1 kaldırılacak sanıldı —
+     hex'i DÖRT kimlikle paylaşımlıydı (turkmen · delhi-sultanligi ·
+     ingiliz-hindistani · ingiliz-malaya), yani grup 5 → 4 olacaktı.
+     📌 "Kullanılmıyor" demek "serbest" demek DEĞİLDİR.
+     (Aynı gün üç kez beyan güncellendi: #2d8f4a · #7b1fa2 · #5c6bc0.)
+
+  ② PALETTEN DÜŞÜRMEDEN ÖNCE VERİDE SIFIRLANDIĞI DOĞRULANIR.
+     Sıra TERS olursa o kimliğin dönemleri RENKSİZ kalır ve `§8` gereği
+     harita DELİK verir — görünmez bir fazlalığı GÖRÜNÜR bir beyaz lekeyle
+     takas etmiş olursun.
+     DOĞRU:  ① veri kaydı `kasitli_bosluk` yapılır  → ② renk kaldırılır
+     YANLIŞ: ① renk kaldırılır → dönemler renksiz kimlik taşır → DELİK
+     Ölçülmüş vaka (8 Ağustos): `ainu` — Matsumae klanı 1590'larda başlıyor
+     ama veri 1281-1550'de `ainu` boyuyordu. Yani eksik olan künye değil,
+     FAZLA olan boyaydı. Önce iki kayıt boşluğa çevrildi, sonra renk düştü.
+
+  📌 VE İKİSİNİN ORTAK DERSİ — bir sayacı sıfırlamanın iki yolu varsa,
+     sayaç hangisinin doğru olduğunu SÖYLEMEZ. `renk_fark.py`nin zincir
+     borcu "künye eksik mi" diye sorar; "bu kimlik VAR MI" diye sormaz.
+     Birincisi künye yazarak kapanır, ikincisi boya kaldırarak — ve ikisi
+     denetimde AYNI görünür, haritada ZIT şey yapar.
+
   ⚠️ Dolgu SAYDAM biniyor: ekrandaki gerçek renk buradaki hex DEĞİL, altlıkla
     karışmış hâlidir ve bu karışım renk farklarını sıkıştırır. ΔE ölçümü
     BİNDİRİLMİŞ renk üzerinden yapılmalıdır; ham hex üzerinden yapılan ölçüm
@@ -94,6 +123,46 @@ def _opaklik_dogrula():
 
 
 _opaklik_dogrula()
+
+# ═══════════════════════════════════════════════════════════════════════════
+# KULLANILMAYAN RENKLER — BEŞ KOVA  (8 Ağustos 2026, RENK 2)
+# ═══════════════════════════════════════════════════════════════════════════
+# BOYALAR'da veride HİÇ kullanılmayan renkler var ve hepsi ekranda AYNI
+# görünüyor (veride 0). Bu sözlük onları AYIRIR — çünkü "ölçülemedi" ile
+# "temiz" aynı satırda görünmemeli.
+#
+# ⚠️ Bu bir DENETİM DEĞİL, bir KAYITTIR. Kimse otomatik doğrulamıyor; amacı
+#   yarın "bu renk niçin kullanılmıyor?" diye soranın cevabı dosyada bulması.
+#   (`§7.1 ⑦`: bir oturumda kalan bilgi kurtarılamaz.)
+#
+# 🟢 8 Ağustos ölçümü: 22 kullanılmayan rengin 22'si de MEŞRU olarak
+#   bekliyor. VERİ DEVLET 21'ini tek tek doğruladı (9 TDV-canlı, 12 akademik);
+#   `ainu` tek istisnaydı ve BOYALAR'dan çıkarıldı.
+# ⚠️ BOŞ KOVALAR SİLİNMEZ: bir daha çürütülen/öksüz çıkarsa KALDIRILMADAN
+#   ÖNCE işaretlensin. Boş kova, olmayan kovadan farklıdır.
+KOVA = {
+    # künye VAR, veri taşıması sırada — SAĞLIKLI
+    "bekliyor-veri": [
+        "azerbaycan-demokratik-cumhuriyeti", "bahreyn", "bonacolsi",
+        "ermenistan-demokratik-cumhuriyeti", "evfat", "floransa", "galzay",
+        "gurcistan-demokratik-cumhuriyeti", "imereti", "incu",
+        "irlanda-serbest-devlet", "kavalali", "kutlughanli",
+        "litvanya-buyuk-dukalik", "lur-i-kucek", "makdisu-sultanligi",
+        "muzafferi", "poni", "rusya-gecici-hukumet", "sanzan", "savoya",
+        "sovyet-rusya",
+    ],
+    # renk VAR, künye YOK — 8 Ağustos'ta boşaldı (`kavalali` çürüdü:
+    # künyesi id:"misir-kavalali"deydi, eksik olan `harita:` bağıydı)
+    "bekliyor-kunye": [],
+    # künye yok, engel KRONOLOJİDE — 8 Ağustos'ta boşaldı (`kavalali` için
+    # "1840 istirdat maddesi yok" denmişti; ölçüldü, madde VAR:
+    # olaylar_ek4.js 1840-11-03 Akkâ · 1841-02-25 Suriye boşaltıldı)
+    "bekliyor-madde": [],
+    # hiçbiri istemiyor
+    "oksuz": [],
+    # var olmadığı ÖLÇÜLDÜ — renk kaldırılmadan ÖNCE buraya yazılır
+    "curutuldu": [],        # `ainu` girip çıktı (bkz. kütüğü)
+}
 
 BOYALAR = {
     # ↑ Anadolu kümesi (bkz. `candar` üstündeki blok) · ton kayması  1,6°
@@ -317,7 +386,18 @@ BOYALAR = {
     "hoysala":                 ("Hoysala Hanedanı",                   "#158d6f"),
     "laos-kralliklari":        ("Laos krallıkları (Lan Xang ardılları)", "#421539"),
     "seylan-sinhala":          ("Seylan Sinhala krallıkları",         "#e76393"),
-    "ainu":                    ("Ainu (Ezo) toprakları",              "#1b8ae4"),
+    # 🔴 `ainu` KALDIRILDI — 8 Ağustos 2026. Rengi #1b8ae4 idi.
+    #   Sebep MALİYET DEĞİL DOĞRULUK: kullanılmayan renk paleti daraltmıyor
+    #   (ölçüldü: 22/150.000 aday hex, coğrafî engel değil, komşuluk
+    #   çizgesinde 0). Ama VERİ DEVLET ölçtü ve o pencerede öyle bir devlet
+    #   YOKMUŞ: anakara zinciri (kamakura→kenmu→muromachi) Honşu'yu tam
+    #   kapsıyor, Matsumae klanı ancak 1590'larda başlıyor — veri ise
+    #   1281-1550'de `ainu` boyuyordu.
+    #   ⇒ Eksik olan künye değil, FAZLA OLAN BOYAYDI. `§3.5`in hayalet
+    #     devletlerinin palet karşılığı.
+    #   📌 SIRA UYGULANDI: ① iki kayıt (Matsumae · Hakodate) kasitli_bosluk
+    #     yapıldı, veride d:"ainu" 2 → 0 doğrulandı · ② sonra renk düştü.
+    #     Ters sıra iki dönemi renksiz bırakır ve `§8` gereği DELİK açardı.
     "sukhothai":               ("Sukhothai Krallığı",                 "#e1aed5"),
     "yogyakarta":              ("Yogyakarta Sultanlığı",              "#1b99e4"),
     "multan-langah":           ("Multan (Langâh) Sultanlığı",         "#1b51e1"),
