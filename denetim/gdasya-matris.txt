@@ -1,0 +1,93 @@
+GD ASYA — 12 ALTI ÇİFTLERİN KADEMELENDİRİLMESİ (RENK 2)
+A bugün ihlal 0 · B riskli 19 · C tasarım 63 · D ölçülemedi 4
+
+--- 🔴 A · BUGÜN İHLAL — 600 km'den yakın, eşzamanlı noktalar VAR
+--- 🟠 B · RİSKLİ — 600-1500 km, bölge ölçeğinde AYNI EKRANDA
+ 0.00    855 km  ace-sultanligi           malaka-sultanligi         1496-1511
+ 5.18    701 km  portekiz                 tay-son                   1778-1802
+ 7.07    647 km  le-hanedani              san-devletleri            1428-1789
+ 7.37   1170 km  ingiltere                san-devletleri            1281-1923
+ 7.56    766 km  ingiltere                nguyen-hanedani           1802-1923
+ 7.56    969 km  ingiltere                mataram-sultanligi        1587-1755
+ 7.78   1045 km  ayutthaya                pagaruyung                1351-1767
+ 8.23    843 km  delhi-sultanligi         lan-na                    1296-1526
+ 8.23   1442 km  bali-kralliklari         ternate-sultanligi        1478-1663
+ 8.30   1354 km  angkor-kmer              arakan                    1281-1431
+ 8.31    647 km  mac-hanedani             san-devletleri            1527-1677
+ 8.47   1335 km  banten-sultanligi        malay-sultanliklari       1527-1813
+ 8.51   1100 km  ahom                     lan-xang                  1281-1707
+ 8.63   1285 km  ingiltere                le-hanedani               1428-1789
+ 9.40   1099 km  gova-makassar            tidore-sultanligi         1281-1667
+10.36    647 km  nguyen-hanedani          san-devletleri            1802-1923
+10.58   1140 km  filipin-racaliklari      tidore-sultanligi         1281-1571
+11.57    784 km  le-hanedani              sukhothai                 1428-1438
+11.75   1042 km  bali-kralliklari         banten-sultanligi         1527-1813
+--- 🟢 C · TASARIM GEREĞİ PAYLAŞIM — 1500 km'den uzak, hiç yan yana gelmez
+ 0.00   1775 km  brunei-sultanligi        konbaung                  1752-1885
+ 3.74   3365 km  demak                    san-devletleri            1478-1587
+ 4.90   1690 km  ace-sultanligi           arakan                    1496-1785
+ 4.90   2274 km  arakan                   malaka-sultanligi         1400-1511
+ 5.44   2642 km  ayutthaya                gova-makassar             1351-1667
+ 5.55   2364 km  cohor-sultanligi         ispanya                   1528-1923
+ 5.81   2321 km  demak                    le-hanedani               1478-1587
+ 6.27   1997 km  ispanya                  lan-xang                  1479-1707
+ 6.35   1548 km  lan-xang                 samudra-pasai             1281-1521
+ 6.51   2707 km  magindanao-sultanligi    toungoo                   1510-1752
+ 6.71   3069 km  ahom                     ispanya                   1479-1826
+ 6.84   2275 km  filipin-racaliklari      majapahit                 1293-1527
+ 7.79   3003 km  ahom                     cohor-sultanligi          1528-1826
+ 8.10   3291 km  arakan                   banten-sultanligi         1527-1785
+ 8.13   3712 km  lan-na                   tidore-sultanligi         1296-1558
+ 8.13   2840 km  pagaruyung               tidore-sultanligi         1281-1833
+ 8.13   2558 km  malay-sultanliklari      timor-beylikleri          1281-1769
+ 8.21   1704 km  sulu-sultanligi          timor-beylikleri          1457-1769
+ 8.22   1706 km  banda-adalari            banjar-sultanligi         1526-1621
+ 8.23   1910 km  gova-makassar            pagaruyung                1281-1667
+ 8.24   2200 km  ayutthaya                filipin-racaliklari       1351-1571
+ 8.28   2203 km  lan-na                   pagaruyung                1296-1558
+ 8.32   3545 km  bali-kralliklari         lan-na                    1478-1558
+ 8.35   1977 km  banten-sultanligi        timor-beylikleri          1527-1769
+ 8.41   2275 km  bali-kralliklari         filipin-racaliklari       1478-1571
+ 8.42   1550 km  nguyen-beyligi           palembang-sultanligi      1558-1802
+ 8.51   2269 km  angkor-kmer              ternate-sultanligi        1281-1431
+ 8.52   1623 km  bali-kralliklari         tidore-sultanligi         1478-1908
+ 8.55   2852 km  siyam-chakri             tidore-sultanligi         1782-1923
+ 8.55   3164 km  ayutthaya                tidore-sultanligi         1351-1767
+ 8.59   4067 km  arakan                   bali-kralliklari          1478-1785
+ 8.78   1763 km  magindanao-sultanligi    timor-beylikleri          1281-1769
+ 8.86   2857 km  filipin-racaliklari      pagaruyung                1281-1571
+ 9.22   4060 km  arakan                   ternate-sultanligi        1281-1663
+ 9.38   2861 km  ingiltere                mac-hanedani              1527-1677
+ 9.44   2183 km  cin-cumhuriyeti          cohor-sultanligi          1911-1923
+ 9.45   2628 km  delhi-sultanligi         pagaruyung                1281-1526
+ 9.45   1606 km  ace-sultanligi           banten-sultanligi         1527-1813
+ 9.48  12928 km  demak                    ingiltere                 1478-1587
+ 9.53   2970 km  hanthawaddy              mataram-sultanligi        1587-1755
+ 9.70   1685 km  campa                    palembang-sultanligi      1281-1825
+ 9.81   2800 km  tidore-sultanligi        tran-hanedani             1281-1400
+ 9.84   1629 km  angkor-kmer              manipur                   1281-1431
+ 9.91   5215 km  ahom                     timor-beylikleri          1281-1769
+ 9.94   3153 km  le-hanedani              mataram-sultanligi        1587-1755
+10.05   1529 km  lan-na                   portekiz                  1296-1558
+10.14   1703 km  bali-kralliklari         malaka-sultanligi         1478-1511
+10.14   2539 km  ace-sultanligi           bali-kralliklari          1496-1903
+10.22   2364 km  magindanao-sultanligi    malaka-sultanligi         1400-1511
+10.22   3016 km  ace-sultanligi           magindanao-sultanligi     1496-1888
+10.36   3365 km  mataram-sultanligi       san-devletleri            1587-1755
+10.68   1839 km  cohor-sultanligi         lan-xang                  1528-1707
+10.73   2907 km  lan-xang                 singhasari                1281-1292
+10.77   3153 km  demak                    mac-hanedani              1527-1587
+11.19   3744 km  timor-beylikleri         toungoo                   1510-1752
+11.25   2321 km  demak                    nguyen-beyligi            1558-1587
+11.46   6146 km  cin-cumhuriyeti          ispanya                   1911-1923
+11.52   2497 km  banten-sultanligi        magindanao-sultanligi     1527-1813
+11.52   2543 km  hollanda                 kamboc-kralligi           1581-1923
+11.59   2168 km  malay-sultanliklari      sulu-sultanligi           1457-1909
+11.61   3427 km  lan-na                   ternate-sultanligi        1296-1558
+11.68   1531 km  bali-kralliklari         pagaruyung                1478-1833
+11.96   2392 km  filipin-racaliklari      lan-na                    1296-1558
+--- ⚪ D · ÖLÇÜLEMEDİ — künye örtüşüyor ama VERİDE eşzamanlı nokta yok
+ 1.19         —  bengal-nevabligi         surakarta                 1755-1757
+ 4.46         —  surakarta                tonburi                   1767-1782
+ 7.78         —  pagaruyung               siyam-chakri              1782-1833
+ 9.45         —  ingiliz-malaya           pagaruyung                1826-1833

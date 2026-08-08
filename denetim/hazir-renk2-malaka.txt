@@ -1,0 +1,38 @@
+HAZIR ÖNERİ — YAZILMADI. Koordinatörün onayını bekliyor.
+(RENK 2, 8 Ağustos 2026 · `renkler.py`ye DOKUNULMADI)
+════════════════════════════════════════════════════════════════════════
+
+    malaka-sultanligi     #2d8f4a  →  #0f18a5
+
+SEBEP
+  `ace-sultanligi` ile **AYNI HEX** — ΔE 0,00, ikisi de #2d8f4a.
+  855 km · künyeler 1496-1511 örtüşüyor · Malaka Boğazı'nın İKİ YAKASI.
+  VERİ DEVLET Sumatra'ya ve Malay yarımadasına nokta yazacak ⇒ komşu
+  olacaklar ve ayırt EDİLEMEYECEKLER.
+
+NİÇİN MALAKA TAŞINIYOR, AÇE DEĞİL
+  malaka-sultanligi  1400-1511   111 yıl   ← ömrü kısa, ekranda az yer
+  ace-sultanligi     1496-1903   407 yıl
+  Ve Malaka'nın ardılları (`ingiliz-malaya` · `malay-sultanliklari`) zaten
+  ayrı renkte, yani zincir kopmuyor.
+
+ÖLÇÜM
+  engel 37 (bölgesel eşzamanlı + Portekiz·İspanya·Hollanda·İngiltere·
+            Delhi·Bengal·Ming) + Osmanlı ikilisi
+  havuz 158.201 · eşiği geçen 7.031 · pay 16,8
+  L* 58,2 · C* 28,0 = paletin %70'i · ton 294,1° (Osmanlı şeridi dışında)
+
+  ace-sultanligi'ndan     0,00 → 56,0
+  malay-sultanliklari         → 63,8      (ardılı — geçiş net)
+  arakan                      → 58,2
+  portekiz                    → 54,8      (1511 fatihi — ayrım şart)
+  samudra-pasai               → 53,6
+  majapahit                   → 43,2
+  pagaruyung                  → 40,8      (en dar)
+  altlıktan                   → 50,3
+
+NOT
+  Bu çift dünkü 600 km taramamda GÖRÜNMEDİ, çünkü o tarama VERİ
+  dönemlerini kullanıyordu; bu matris KÜNYE pencerelerini kullanıyor.
+  Künye "1496-1511'de ikisi de var" diyor, veri henüz onu ifade etmiyor.
+  ⇒ **Nokta partisi ifade edecek.** Kusur doğmadan kapanabilir.

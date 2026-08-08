@@ -2395,3 +2395,78 @@ renk_fark         hex'i değişen kimlik: 1 — ava   ✓ tek değişiklik
 ⚠️ **`renk_olc`un iki koşuda da "0" demesi** bu bölümün asıl dersi: *"denetim
 temiz"* ile *"kusur yok"* aynı şey değil. `§11`in **kapsam** dersi, üçüncü
 kez ve yeni bir coğrafyada.
+
+---
+
+## 52. TAM MATRİS — ve ölçütün kendisi ölçüldü
+
+Koordinatör *"32 kimliği birbirine karşı ölç, coğrafî süzgeç koyma"* dedi.
+Koştum, ama iki noktada şartnameden ayrıldım ve **ikisini de ölçtüm**:
+
+### ① EVREN 32 DEĞİL 66 OLDU
+32 elle sayılmıştı. `bolge` alanı **55** diyor, ve Konbaung↔Qing,
+Arakan↔Bengal sınırdaş olduğu için **11 dış komşu** da eklendi.
+```
+evren 66 anahtar · eşzamanlı çift 1411
+```
+
+### ② 🔴 VE "SÜZGEÇ KOYMA" ÖLÇÜTÜ, OLDUĞU GİBİ KULLANILAMAZ
+Süzgeçsiz sonuç: **ΔE < 12 olan 86 çift.** Ama `renkler.py`nin **kendi
+başlığı** şunu diyor:
+> *"bir rengi birden çok devletin paylaşması sorun değildir, **yeter ki o
+> devletler tarih boyunca hiç komşu olmasın.**"*
+
+⇒ Süzgeci tamamen kaldırmak, **tasarımın İZİN VERDİĞİ paylaşımı da ihlal
+sayar.** `brunei ↔ konbaung` aynı hex ama **1775 km** — kasıtlı.
+Ama 600 km de bu bölge için **dar**: GD Asya'ya bakan kullanıcı Java ile
+Moluk'u aynı ekranda görür (~2400 km). ⇒ Tek eşik değil **kademe**:
+```
+🔴 A  < 600 km          BUGÜN İHLAL                          0
+🟠 B  600-1500 km       bölge ölçeğinde AYNI EKRAN          19   ← iş burada
+🟢 C  > 1500 km         TASARIM GEREĞİ paylaşım             63
+⚪ D  ölçülemedi        künye örtüşüyor, veride nokta yok    4
+```
+**86'nın 63'ü tasarımın kendisi.** Onları ihlal diye bildirmek, `§11`in
+*"denetimin kapsamı"* dersinin **ters yüzü** olurdu: doğru şeyi ölçüp
+**yanlış evrende** raporlamak.
+📌 Ve `A = 0` çıkması dünkü `ava` düzeltmemin doğrulaması.
+
+### ③ 🔴 B'NİN TEPESİ: ΔE **0,00** — VE DÜNKÜ TARAMAM ONU GÖRMEDİ
+```
+ace-sultanligi ↔ malaka-sultanligi   ΔE 0,00 · AYNI HEX #2d8f4a
+855 km · künyeler 1496-1511 örtüşüyor · MALAKA BOĞAZI'NIN İKİ YAKASI
+```
+⚠️ **Niçin dün görünmedi:** dünkü tarama **VERİ dönemlerini** kullanıyordu,
+bu matris **KÜNYE pencerelerini**. Künye *"1496-1511'de ikisi de var"*
+diyor; **veri henüz onu ifade etmiyor.**
+📌 Yeni bir ayrım ve bence kalıcı:
+```
+VERİ penceresi     bugün ne çiziliyor        → bugünkü ihlali bulur
+KÜNYE penceresi    yarın ne çizilecek        → yarınki ihlali bulur
+```
+**İkisi aynı değil, ve ikisi de gerekli.** Dünkü aletim birincisini
+ölçüyordu; bu bölüm ikincisini ekledi.
+
+### ④ YAZMADIM — hazır öneri bıraktım
+Koordinatör *"renk yazma, yazma kararını ben veririm"* dedi. Uydum.
+`denetim/hazir-renk2-malaka.txt`:
+```
+malaka-sultanligi  #2d8f4a → #0f18a5
+engel 37 · havuz 158.201 · eşiği geçen 7.031 · pay 16,8
+ace'den 0,00 → 56,0 · portekiz 54,8 (1511 fatihi) · pagaruyung 40,8 (en dar)
+```
+Malaka taşınıyor Açe değil: ömrü 111 yıl vs 407, ve ardılları
+(`ingiliz-malaya` · `malay-sultanliklari`) zaten ayrı renkte.
+
+### ⑤ D KOVASI — dördü de sessiz bekliyor
+```
+bengal-nevabligi ↔ surakarta    ΔE 1,19   1755-1757
+surakarta ↔ tonburi             ΔE 4,46   1767-1782
+pagaruyung ↔ siyam-chakri       ΔE 7,78   1782-1833
+ingiliz-malaya ↔ pagaruyung     ΔE 9,45   1826-1833
+```
+Künyeleri örtüşüyor ama veride eşzamanlı noktaları yok ⇒ mesafe
+**ölçülemiyor**. Nokta partisi inince ölçülebilir olacaklar.
+⚠️ `bengal-nevabligi ↔ surakarta` ΔE **1,19** — Bengal ile Cava arası
+~4000 km, yani muhtemelen C kovasına düşer. Ama **ölçülmeden bilinmez**,
+ve *"muhtemelen"* bu projede bir cevap değil.
