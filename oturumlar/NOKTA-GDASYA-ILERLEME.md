@@ -193,3 +193,25 @@ açılan yeni kırılma günü 0 (Nha Trang'ın 1653 tarihi YIL BEYANI, §4 —
 uydurma değil, gün bilinmediği için). Toplam GDASYA dosyası: 23→28 nokta.
 
 Devam: Malaya.
+
+### 🟢 MALAYA — TAMAMLANDI, 4 nokta
+
+Not: kutu-tabanlı ilk ölçümde "Malaya 2" görünüyordu ama Johor/Kuala Lumpur/
+Malaka/Penang/Perak/Singapur zaten canlıydı, yalnız kutu sınırım onları
+"Sumatra" etiketine düşürmüştü (coğrafi kutu çakışması, gerçek eksiklik
+değil). Gerçek Malay yarımadası eksiği daha küçüktü.
+
+```
+Pahang (Pekan)                 3.50,103.40   malay-sultanliklari→ingiliz-malaya (1888, YIL BEYANI)
+Kelantan (Kota Bharu)           6.13,102.24   malay-sultanliklari→ingiliz-malaya (1909-07-10, Kedah'la
+                                              aynı Anglo-Siyam Antlaşması tarihi)
+Terengganu (Kuala Terengganu)   5.33,103.14   aynı (1909-07-10)
+Negeri Sembilan (Seremban)      2.72,101.94   malay-sultanliklari→ingiliz-malaya (1889, YIL BEYANI)
+```
+
+DOĞRULAMA: yazılan 4, 3km mükerrer 0, renksiz kimlik 0, dönem sorunu 0,
+açılan yeni kırılma günü 0 (1888/1889 tarihleri YIL BEYANI — İngiliz
+himayesinin kademeli kurulduğu, kesin gün kaynaklarda net olmadığı için).
+Toplam GDASYA dosyası: 28→32 nokta.
+
+Devam: Sumatra.
