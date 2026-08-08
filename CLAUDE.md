@@ -364,6 +364,35 @@ geçiriyor. **Tek çare içeriği OKUMAK.**
 ⇒ Kod ve başlık *maddenin var olduğunu* söyler, **doğru madde olduğunu
 söylemez.** Onu yalnız **içeriği okumak** ele verir.
 
+🔴 **DÖRDÜNCÜ VAKA — `cin` (8 Ağustos 2026):** slug canlı, ama açılan madde
+**cin/fıkıh terimi**dir; ülke maddesi **`cin--ulke`**'dir. `ordu` →
+`ordu--sehir` ve `saray` → `saray--sehir` deseninin birebir tekrarı.
+📌 **Desen artık dörtlendi ve kuralı var: TDV'de bir ülke/şehir adı başka bir
+kavramla çakışıyorsa, ülke maddesi `--ulke` / `--sehir` sonekindedir.**
+
+### 🟢 VE TERSİ DE VAR: dar slug tutmazsa GENEL maddeyi dene
+
+`kaynak:` partisinde ölçüldü. Grup 2 (İtalya · Doğu Asya · Amerika) pilotta
+**0/6** vermişti ve *"bu coğrafyalar TDV kapsamı dışı"* sanıldı. Kayıt başına
+**iki deneme** sınırıyla yeniden arandı:
+```
+2. denemede tutan: 10/17  (%59)   ⇒ "%0" ÖRNEKLEM GÜRÜLTÜSÜYMÜŞ
+```
+**Sebep:** denenen sluglar dar **kurum adlarıydı** (`milano-dukaligi` · `cin` ·
+`peru`); oysa TDV'nin **genel ülke/kıta maddesi** aynı konuyu kapsıyordu
+(`italya` · `cin--ulke` · `amerika`).
+🔴 En çarpıcısı: **TDV'nin tek bir `amerika` (kıta) maddesi İnka · Meksika-Aztek ·
+Peru · Brezilya'nın hepsini somut tarihle kapsıyor — beş kayıt tek maddeden
+doğrulandı.**
+⇒ **Kural: dar slug tutmazsa, kapsayıcı maddeyi dene.** Ve *"TDV bu coğrafyayı
+kapsamıyor"* hükmü, **genel madde denenmeden verilemez.**
+
+**Ölçülmüş kapsama sınırı** (381 künyenin tamamı tarandı): Kafkasya · Anadolu ·
+İran · Orta Asya · Balkanlar · Mısır-Sudan · Afrika'nın dördü · Amerika'nın üçü
+**%100** · Arabistan %86 · İberya %80 · Sibirya %75 · Güney Asya %57 ·
+Güneydoğu Asya %53 · **Batı Avrupa %0** (İskoçya · İrlanda · Lüksemburg ·
+Bretanya · Burgonya — TDV'de gerçekten yok).
+
 Doğru slug'ı bulmak için: `https://islamansiklopedisi.org.tr/arama/?q=<kelime>`
 
 Yaşanmış örnekler: `ordu` askerî ordu maddesini açar, şehir maddesi `ordu--sehir`'dir.
