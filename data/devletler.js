@@ -547,6 +547,26 @@ window.DEVLETLER = [
     { t:"1597-01-01", tur:"son", b:"Atabeglik sona erdi (TDV tarihi; sonun koşulları maddede ayrıntılı değil — I. Abbas'ın merkezîleştirme dönemine denk gelir)" }
   ]
 },
+{ id:"serbedariler", ad:"Serbedârîler", tur:"hanedanlik", bolge:"iran",
+  f:"1337-01-01", t:"1386-01-01", baskent:"Sebzevâr",
+  ozet:"İlhanlı çözülüşünün ardından Horasan'ın Beyhak bölgesinde kurulan Şiî hânedan; Sebzevâr merkezli, dervişî-mehdici bir hareketten doğdu ve Timur'un Horasan seferiyle son buldu.",
+  kaynak:"serbedariler",
+  kronoloji:[
+    { t:"1337-01-01", tur:"kurulus", b:"Beyhak'ta Serbedârî hareketi iktidara geldi; Sebzevâr merkez oldu" },
+    { t:"1381-01-01", tur:"kayip", b:"Timur Horasan'a girdi, Serbedârî toprakları elden çıkmaya başladı" },
+    { t:"1386-01-01", tur:"son", b:"Hânedan tamamen ortadan kalktı" }
+  ]
+},
+{ id:"kert", ad:"Kertler (Herat)", tur:"hanedanlik", bolge:"iran",
+  f:"1245-01-01", t:"1389-01-01", baskent:"Herat",
+  ozet:"İlhanlı tâbiiyetinde Herat merkezli hüküm süren, Gûr kökenli hânedan; Horasan'ın doğusu ile Sîstan'ı elinde tuttu ve Timur tarafından ortadan kaldırıldı. TDV maddesi hânedanı 'XIII ve XIV. yüzyıllarda Herat'ta hüküm süren bir hânedan' diye tanımlıyor; yıl SINIRLARI maddede açıkça verilmediği için standart akademik kaynaktan alındı.",
+  kaynak:"kert",
+  kronoloji:[
+    { t:"1245-01-01", tur:"kurulus", b:"Şemseddin Muhammed Kert Herat'ta hâkimiyet kurdu" },
+    { t:"1381-01-01", tur:"kayip", b:"Timur Herat'ı aldı, Kert hâkimiyeti fiilen sona erdi" },
+    { t:"1389-01-01", tur:"son", b:"Hânedan mensupları ortadan kaldırıldı" }
+  ]
+},
 { id:"muzafferi", ad:"Muzafferî Hanedanı", tur:"devlet", bolge:"iran",
   f:"1318-01-01", t:"1393-01-01", baskent:"Şiraz",
   ozet:"İlhanlı Sultanı Ebû Saîd'in 718'de (1318) Mübârizüddin Muhammed'e Yezd emirliğini vermesiyle doğan, Yezd-Kirman-Fars-İsfahan'a (zaman zaman Azerbaycan'a) hâkim olan hanedan; Timur'un ordusuyla yapılan çatışmada Şah Mansûr'un öldürülmesiyle 795'te (1393) bütün hanedan tasfiye edildi. (kaynak: TDV, madde: muzafferiler)",
