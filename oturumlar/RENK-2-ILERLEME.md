@@ -1678,3 +1678,80 @@ somali ↔ vollayta 39,74°  ← YENİ (somali taşındığı için)
 granada ↔ kastilya · bicapur ↔ vijayanagara · ahom ↔ yuan  ← alttan çıkanlar
 ```
 **Liste bir pencere**, dördüncü kez doğrulandı.
+
+---
+
+## ㊱ RUS OVASI KÜMESİ — beş değil YEDİ, üçü yazıldı
+
+Sebep 266 yıllık bir hayalet: `devletler.js`te `rusya` **1547-01-16**'da
+başlıyor ama `yerlesimler.js` Moskova · Novgorod · Ryazan · Tula · Vologda ·
+Pustozersk'i **1281'den** `rusya` boyuyor.
+
+### Üç düzeltme — sevkteki liste ölçümle uyuşmadı
+```
+ryazan                   sevkte "renk YOK"  →  ÖLÇÜM: #cce787 VAR
+                         (bu oturumda kalem 9'da yazılmıştı)
+litvanya-buyuk-dukalik   sevkte komşu diye anılıyor → KENDİSİ RENKSİZ, künyeli
+sovyet-rusya             sevkte hiç yok → künyeli-renksiz, 1917-1923
+```
+⇒ Küme **yedi**: moskova · novgorod · pskov · tver · litvanya-buyuk-dukalik ·
+sovyet-rusya + (renkli) ryazan.
+
+### Yedisi birlikte çözüldü — `B15` TAVAN
+Küçük parti, havuz 160.690 aday ⇒ tam karşılıklı ayırmanın bedeli sıfır.
+```
+moskova #12a2ed · novgorod #42151e · pskov #840f75 · tver #9f6ced
+litvanya-buyuk-dukalik #120f9c · sovyet-rusya #33eddb
+küme içi en dar çift: 18,5 (pskov ↔ tver)
+```
+**`rusya`dan uzaklık** — beşi de onun selefi, geçiş görünür kalmalı:
+```
+litvanya-bd 49,1 · pskov 45,7 · tver 44,7 · moskova 31,6 ·
+sovyet-rusya 25,4 · novgorod 24,4 · ryazan 20,3
+```
+📌 `rusya` **oynatılmadı, çevresi oynatıldı.** Bugün `isvec` vakasında
+ölçülmüştü: `rusya` için ΔE ≥ 12 sağlayan aday **yok** — paletin çözülemeyen
+düğümü. **Kısıtlı düğüm oynatılmaz.**
+
+### Yazılan üç, bekleyen üç
+```
+YAZILDI    moskova · litvanya-buyuk-dukalik · sovyet-rusya   (künyeleri var)
+BEKLİYOR   novgorod · pskov · tver — künyesiz, VERİ DEVLET yazıyor
+           renkleri ölçülü: denetim/hazir-renk2-rus-ovasi.txt
+```
+
+---
+
+## ㊲ KOORDİNATÖRÜN SORDUĞU SAYI — ve tersi
+
+*"Künyesi olup rengi olmayan kaç kimlik var?"*
+```
+KÜNYESİ VAR, RENGİ YOK          65 kimlik
+   bunlardan veride KULLANILAN   0   ← hiçbiri bugün harita deliği DEĞİL
+   veride 0 kullanım            65   ← "sessiz bekleyen"
+
+TERSİ: RENGİ VAR, KÜNYESİ YOK   41 kimlik
+```
+
+📌 **İki sayı iki ayrı boşluğu ölçüyor ve ikisi de bugün sessiz:**
+```
+65  künye yazıldı → renk atlandı → veri hiç gelmedi
+    zincirin ORTASI boş; kimse fark etmiyor çünkü hiçbir denetim
+    "künye var ama renk yok" diye SORMUYOR
+41  renk yazıldı → künye atlandı
+    bunların çoğu BUGÜN benim yazdıklarım (kırk partisi + Afrika Boynuzu),
+    yani deliği kapatmak için kasten gevşek gidilenler
+```
+⚠️ Ve **65'in hiçbiri harita deliği değil** — bu iyi haber ama aldatıcı:
+delik olmamasının sebebi renklerinin olması değil, **verilerinin hiç
+gelmemesi.** Veri geldiği gün 65'i birden delik olur.
+
+⇒ Koordinatörün `Ö` önerisi doğru: bu üç adımlı zincirin
+```
+künye → renk → veri
+```
+**hiçbir adımı öteki ikisini sormuyor.** Bugün beş kez `harita:` alanının
+atlandığını, bir kez de `moskova`nın rengi atlanarak yazıldığını bildirdim;
+ikisi de aynı boşluğun yüzü. Denetim şöyle sormalı:
+*"her künyenin rengi var mı · her rengin künyesi var mı · veride kullanılan
+her kimliğin ikisi de var mı"* — üçüncüsü bugün 0, ilk ikisi 65 ve 41.

@@ -1,0 +1,43 @@
+// RENK 2 — RUS OVASI KÜMESİ  ·  7 Ağustos 2026
+// ==========================================================================
+// Kilit yok; ÜÇÜ YAZILDI, ÜÇÜ KÜNYE BEKLİYOR (koordinatör kuralı: künye
+// yazılmadan renk yazma). Künye gelince:
+//   py arac/renk_olc.py --dogrula denetim/hazir-renk2-rus-ovasi.txt
+// ==========================================================================
+//
+// SEBEP — 266 YILLIK HAYALET: devletler.js'te `rusya` 1547-01-16'da başlıyor,
+// yerlesimler.js ise Moskova · Novgorod · Ryazan · Tula · Vologda ·
+// Pustozersk'i 1281'den `rusya` boyuyor. Harita 266 yıl var olmayan bir
+// devletin rengini gösteriyor.
+//
+// KÜME BEŞ DEĞİL YEDİ — ölçüldü:
+//   ryazan                  ZATEN RENKLİ (#cce787, bu oturumda yazıldı)
+//   litvanya-buyuk-dukalik  künyeli-renksiz, kümede  ← koordinatörün
+//   sovyet-rusya            künyeli-renksiz, kümede     listesinde yoktu
+//
+// YEDİSİ BİRLİKTE ÇÖZÜLDÜ (B15 TAVAN: küçük parti, havuz 160.690 aday,
+// tam karşılıklı ayırmanın bedeli sıfır). Küme içi en dar çift 18,5.
+//
+// `rusya`DAN UZAKLIK (hepsi onun selefi; kullanıcı geçişi görecek):
+//   pskov 45,7 · tver 44,7 · litvanya-buyuk-dukalik 49,1 · moskova 31,6 ·
+//   sovyet-rusya 25,4 · novgorod 24,4 · ryazan 20,3
+// 📌 `rusya` OYNATILMADI: paletin çözülemeyen düğümü (bugün `isvec`
+//    vakasında ölçüldü — ΔE ≥ 12 sağlayan aday YOK). Kısıtlı düğüm
+//    oynatılmaz, çevresi oynatılır.
+
+// --- YAZILDI (künyeleri var) ----------------------------------------------
+moskova #12a2ed
+litvanya-buyuk-dukalik #120f9c
+sovyet-rusya #33eddb
+
+// --- KÜNYE BEKLİYOR (VERİ DEVLET yazacak) ---------------------------------
+//   Ölçümdeki pencereler standart akademik referanstan; künye gelince
+//   PENCERELER KÜNYEDEN YENİDEN ÖLÇÜLMELİ (darfur 1603→1695 dersi) ve
+//   sluglar künyeden alınmalı (Kafkas üçlüsü dersi: `ermenistan` diye bir
+//   künye yoktu, doğrusu `ermenistan-demokratik-cumhuriyeti`ydi).
+//   novgorod  ~1136 → 1478-01-15   pay 19,3 · rusya'dan 24,4
+//   pskov     ~1348 → 1510-01-13   pay 20,1 · rusya'dan 45,7
+//   tver      ~1246 → 1485-09-12   pay 18,5 · rusya'dan 44,7
+// novgorod #42151e
+// pskov #840f75
+// tver #9f6ced
