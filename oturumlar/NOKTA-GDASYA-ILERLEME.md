@@ -123,3 +123,42 @@ DOĞRULAMA: yazılan 8, 3km mükerrer 0, renksiz kimlik 0, dönem sorunu 0,
 açılan yeni kırılma günü 0. Toplam GDASYA: 85→93 nokta, yoğunluk 3,65→3,99.
 
 Devam: Kamboçya-Laos.
+
+## KOORDİNATÖR DÜZELTMELERİ — kabul edildi, işlendi
+
+① Birmanya kabul edildi ("sıfır borç tasarlaman en değerli yan").
+② `srivijaya` diye künye hiç yokmuş (koordinatör kendi kendine düzeltti) —
+benim asıl kararım (`palembang-sultanligi` f=1281 zaten atlas başlangıcıyla
+aynı, künyeyi izlemek doğru) TESADÜFEN değil GERÇEKTEN doğruymuş,
+koordinatör ölçüp doğruladı.
+③ 🔴 ÖNEMLİ DÜZELTME — Vietnam'a başlamadan ÖNCE geldi, henüz hiç Vietnam
+noktası yazmamıştım: **1281-1428 arası Kuzey Vietnam `le-hanedani` DEĞİL.**
+Doğru zincir: `tran-hanedani`(1225-1400) → `ho-hanedani`(1400-1407) →
+**Ming Çin işgali (1407-1428, "Dördüncü Kuzey Egemenliği")** → `le-hanedani`
+(1428-1789). Ming işgali için henüz kimlik kararı vermedim — `ming-hanedani`
+kullanmayı düşünüyorum (Vietnam bu dönemde fiilen Ming eyaleti/Giao Chỉ
+idi) ama YAZMADAN ÖNCE bunu ayrıca teyit edeceğim.
+④ Bilgi notu alındı (palembang-sultanligi'nin 378 yıllık "battaniye" olması
+— benim işim değil, ekstra iş çıkmadı).
+
+## ALT BÖLGE RAPORLARI (devam)
+
+### 🟢 KAMBOÇYA-LAOS — TAMAMLANDI, 6 nokta
+
+```
+Kratie          12.49,106.02   angkor-kmer→kamboc-kralligi→fransiz-cinhindi
+Kampot          10.61,104.18   aynı zincir
+Pursat          12.53,103.92   angkor-kmer→kamboc-kralligi→siyam-chakri(1795-1907, Battambang'ın
+                                aynısı)→fransiz-cinhindi
+Kompong Cham    12.00,105.46   angkor-kmer→kamboc-kralligi→fransiz-cinhindi
+Xieng Khouang   19.45,103.15   lan-xang→laos-kralliklari→fransiz-cinhindi
+Savannakhet     16.56,104.75   aynı Laos zinciri
+```
+Tarihler `yerlesimler_asya.js`teki Angkor/Battambang/Phnom Penh/Vientiane
+noktalarından ölçüldü — sıfır borç.
+
+DOĞRULAMA: yazılan 6, 3km mükerrer 0, renksiz kimlik 0, dönem sorunu 0,
+açılan yeni kırılma günü 0. Toplam GDASYA: 93→99 nokta (23 GDASYA dosyasında,
+Kamboçya-Laos bölgesel toplamı ayrı), yoğunluk 3,99→4,25.
+
+Devam: Vietnam (③'teki Ming-işgali kimliğini teyit ederek).
