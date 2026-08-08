@@ -1867,3 +1867,76 @@ tarafı.
 
 ⇒ Düzeltme: `Write` aracıyla scratchpad'e betik, sonra `py <yol>`. İstisna
 yok — ve bu satır, kuralı **bilmenin** yetmediğinin kaydı.
+
+---
+
+## ㊶ `arac/kunye_olc.py` DOĞDU — ve adı kapsamını söylüyor
+
+Koordinatör bu sayacı `renk_fark.py`ye eklemeyi önerdi, **reddettim** ve
+ayrı alet yazdım. Gerekçe bugünün üç vakası:
+```
+renk_cikti ②   çizim biçimini VARSAYDI          → hiç ölçmedi (0 vs 653)
+renk_olc       komşuluğu "değme" diye TANIMLADI → 5 yakın çifti kurmadı
+--dogrula      yazılanı öneriyle KARŞILAŞTIRDI  → künyeyi hiç sormadı
+```
+Üçü de **kapsam** kusuru. Alâkasız bir kontrolü eklemek dördüncü ve daha
+sinsi hâli olurdu: orada araç **kendi kapsamını** yanlış tanımlıyordu,
+burada **ADI** yanlış tanımlayacaktı.
+
+### 🔴 EŞİĞİ KURAL DEĞİL DAĞILIM VERDİ
+Koordinatörün gözlemi *"120 karakterden kısa 46 künye"* idi. **120 keyfî.**
+Ölçtüm:
+```
+min 28 · p10 108 · p25 162 · MEDYAN 199 · p75 254 · p90 349 · maks 873
+```
+⇒ Eşik **medyanın yarısı** (bugün 99,5): *"tipik künyenin yarısından kısa."*
+Dağılımdan türer, elle yazılmaz, **külliyat büyüyünce kendiliğinden kayar.**
+Bugün **29** künye altında (120 ile 46 olurdu).
+📌 Sayının nereden geldiği, sayının kendisi kadar önemli — `B15`in aynı
+mantığı, kendi işime uygulanmış hâli.
+
+### 🔴 VE ASIL BULGU DAĞILIMDA DEĞİL, KÜMELENMEDE
+```
+anadolu / beylik       8   %28   ← tek başına borcun çeyreğinden fazlası
+balkanlar / prenslik   7   %24
+kalan 14 künye         çeşitli bölgeler, 1-2'şer
+```
+📌 Bu **dağınık bir borç değil, EKSİK YAZILMIŞ BİR PARTİ işareti.** Alete
+bunu söyleyen bir eşik koydum (%20): kısalık bir kümede toplanıyorsa
+"yavaş büyüyen külliyat" değil, "o parti eksik yazılmış" demektir.
+`saruhan` 28 · `mentese` 37 · `candar` 56 · `karesi` 67 · `aydin` 82 —
+beşi de Anadolu beyliği.
+
+### BORÇ ile İHLAL ayrıldı (aynı günün öteki dersi)
+```
+BOŞ özet   → İHLAL, çıkış kodu 1     (bugün 0)
+KISA özet  → BORÇ, ekranda durur     (bugün 29), çıkış kodunu ETKİLEMEZ
+```
+
+### 🔴 `C13` SINAVI — altı dal, üçü ZORLANARAK
+```
+① geçme yolu    tek tip 200 karakter → boş 0 · kısa 0            ✓
+② ZORLAMA       boş özet dalı sahte külliyatla → 2 yakalandı     ✓
+                ve "   " (yalnız boşluk) da BOŞ sayıldı          ✓
+③ ZORLAMA       eşik dağılımdan kayıyor mu?                      ✓
+④ ZORLAMA       kümelenme uyarısı → %100'de ateşledi             ✓
+⑤ sessiz sıfır  boş külliyat → SystemExit                        ✓
+⑥ gerçek veri   boş 0 · kısa 29 → çıkış kodu 0                   ✓
+```
+
+⚠️ **VE ③'ÜN İLK HÂLİ ZAYIFTI — kendi sınavımı çürüttüm.** 90 karakterlik
+özetle sınamıştım; o, medyan 200'de de 400'de de kısa çıkıyordu, yani
+**kaymayı kanıtlamıyordu.** 120 karakterle yeniden koştum:
+```
+külliyat medyanı 200 → eşik 100 → 120 karakter: kısa DEĞİL
+külliyat medyanı 400 → eşik 200 → 120 karakter: KISA
+```
+Aynı özet, külliyat uzayınca borç oldu. **Şimdi kanıtlanmış.**
+📌 Bir sınavın *"geçti"* demesi, doğru şeyi sınadığı anlamına gelmiyor —
+`C13`ün kendi ruhu bu, ve bugün ona kendi testimde düştüm.
+
+### ÖLÇÜM
+```
+denetim/kunye-taban.json → n 343 · medyan 199 · eşik 99,5 · boş 0 · kısa 29
+çıkış kodu 0 (boş özet yok) — doğru davranış
+```
