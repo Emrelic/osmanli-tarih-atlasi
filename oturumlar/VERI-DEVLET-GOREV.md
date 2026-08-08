@@ -1339,3 +1339,55 @@ küçük, çoğu iş hâlâ araştırma gerektiriyor.
 ağırlıklıydı, yalnız `sibir` birleştirmesi gerçek bir düzenlemeydi (silme).
 
 `data/devletler.js` pathspec'siz bırakıldı. Koordinatöre haber verildi.
+
+---
+
+## ㉔ `merini` tek satır + genişletilmiş `harita:≠id:` taraması
+
+(Not: mesajınızda tekrar listelenen sibir/ainu/kaynak: kalemleri bir önceki
+turda zaten bitirilip raporlanmıştı — muhtemelen çapraz geldi, tekrar
+yapmadım, yalnız bu yeni işe odaklandım.)
+
+### ① `merini.harita` — DÜZELTİLDİ (tek satır)
+
+```
+merini   harita: "fas" → "merini"
+```
+Doğrulandı.
+
+### ② Genişletilmiş tarama — `harita:≠id:` olan TÜM kayıtlar
+
+**33 künyede `harita:` kendi `id:`sinden farklı.** Her biri iki testten
+geçirildi: (a) bu `harita:` değerini BAŞKA künyeler de mi paylaşıyor
+(paylaşım>1 → kasıtlı "ülke sürekliliği şemsiyesi", `kimlikler.js`'in kendi
+belgelediği `suud-birinci/ikinci/ücüncü→suud` örneğiyle aynı desen), (b)
+paylaşılmıyorsa bu `harita:` değeri AYRICA başka bir künyenin KENDİ `id:`si
+mi (gerçek çarpışma — tam `merini→fas` deseni: `merini` `fas`ın rengini
+gasp ediyordu).
+
+```
+33 künyede harita:≠id:
+  22'si PAYLAŞIMLI ŞEMSİYE (aynı ülkenin ardışık dönemleri TEK renk
+       paylaşıyor) — sirbistan (4), bulgaristan (3), suud (3), macaristan (3),
+       arnavutluk (2), romanya (2), + tekil örnekler
+  11'i 1:1 KISALTMA/FARKLI YAZIM (ör. `atina-dukaligi`→`atinadukaligi`,
+       `milano-dukaligi`→`milanoduka`, `fetret-*`→`*-celebi`,
+       `kaffa-kralligi`→`kaffa` gibi hâlihazırda kendi künyesine ait,
+       başka hiçbir kayıtla çakışmayan sadeleştirilmiş isimler)
+  0'ı  `merini` TİPİ ÇARPIŞMA (kendi `id:`si dışında BAŞKA bir künyenin
+       `id:`sini gasp eden) — YOK
+```
+
+**TESLİM: 33 künyede harita:≠id:, 33'ü KASITLI (22 paylaşımlı şemsiye + 11
+tekil kısaltma), 0'ı KUSUR.** `merini` tek istisnaydı, düzeltildi.
+
+⚠️ Yöntem notu: bu tarama YAPISAL (id/harita metnini karşılaştırıyor),
+RENK 2'nin kendi ΔE ölçümüne erişimim yok — `merini`yi yakalayan da RENK 2
+kendi 5. denetim dalıydı, ben değildim. 33'ün hepsi yapısal olarak temiz
+çıktı ama RENK 2 kendi rengiyle çelişen bir tane daha bulursa bildirsin,
+ben görebildiğim kadarını gördüm.
+
+Doğrulandı (`node -e eval`): 381 kayıt, mükerrer id 0, `merini.harita`
+artık `"merini"`.
+
+`data/devletler.js` pathspec'siz bırakıldı. Koordinatöre haber verildi.
