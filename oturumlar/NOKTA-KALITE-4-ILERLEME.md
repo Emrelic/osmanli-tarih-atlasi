@@ -76,3 +76,34 @@ derinlemesine araştırması mı önce, yoksa (b) ana ~180 nokta kotasına mı
 geçeyim (kendi önerim: b — çünkü bu bir "ölçüm ekle" partisi değil "nokta
 ekle" partisi, künye kusuru YAN ÜRÜN). Cevap beklerken İran'ın sancak-düzeyi
 nokta araştırmasına geçiyorum.
+
+## PARTİ 1 YAZILDI — Azerbaycan/Kürdistan (4 nokta)
+
+Sıra değişti (koordinatör): Azerbaycan/Kürdistan (TDV zengin) → Hazar → Kirman/Yezd.
+
+Grid-boşluk taraması (34.5-39.5K/44-49.5D, 0.5° ızgara, >40km eşik):
+64/132 hücre boş. En kötü kümeler: Zencan-Bîcâr-Senendec üçgeni, Hemedan/Sâve
+çevresi, Nahçıvan kuzeyi, Astara/Lenkeran Hazar ucu.
+
+Yazılan 4 nokta (küçük kasaba TDV sluglari hepsi ÖLÜ — mehabad/savucbulak/
+sardest/tekab denendi — ikinci kaynağa (standart akademik/Iranica) geçildi,
+koordinatör onayı: "taneciklik boşluğu" kategorisi):
+
+- **Meşkinşehr (Hiyav)** 38.40,47.68 — Sasani dönemine kadar giden yerleşim
+  (Azerbaycan Atabegleri sikkeleri), TAM zincir (komşu Erdebil/Sarâb ile aynı)
+- **Mahabad (Sâvücbulak)** 36.77,45.72 — kur:1501-07-01, "ilk kez 16.yy'da
+  kaydediliyor, 17.yy'da Mükrî beyliği merkezi"
+- **Bâne** 35.99,45.88 — kur:1501-07-01, Erdelan/Mükriyân Kürt beyliği,
+  Ehtiyârüddin ailesi Safevî döneminde "sultan" unvanıyla
+- **Serdeşt (Sardasht)** 36.16,45.48 — kur:1501-07-01, aynı Mükriyân kuşağı
+
+Yeni künye ÖNERİLMEDİ — bölgedeki BÜTÜN komşu noktalar (Erdebil/Sakkız/
+Bîcâr/Merîvan/Senendec) zaten TEK zincir (ilhanli→celayirli→...→kacar)
+kullanıyor, ayrı bir "Erdelan/Mükrî" rengi yok, ben de açmadım.
+
+DOĞRULAMA: 3km yakınlık — 0 çakışma (tüm corpus'a karşı). `denetle.py`:
+Değişmez 1 ✓ 180/182 · 2 ✓ 0 açık · 2s ✓ 121/121 · 2i ✓ 3/3 · konum ✓
+0 kara maskesi dışı (4 noktam pencere İÇİNDE, sorun yok).
+
+"BULUNAMADI" SAYACI: bu partide 0 — dört adayın dördü de (iki kaynak
+sınırı içinde) doğrulandı.
