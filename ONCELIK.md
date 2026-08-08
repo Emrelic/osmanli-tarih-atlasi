@@ -84,22 +84,76 @@ uyarıdır. Ama sessiz kalmak da bir seçenek değildir.
 Ölçü **kilometre değil, Osmanlı hikâyesine bağlılık.**
 🔴 **Bir halka, öncekinin değişmezleri temiz olmadan açılmaz.**
 
+🔴 **7 AĞUSTOS 2026 — EMRE ÖLÇEĞİ YEDİYE ÇIKARDI.** Eski beş halka
+(0-4) duruyor ama **kaba kalıyordu**: tek bir "etki alanı" halkası hem Batı
+Avrupa'yı hem Çin'i hem Endonezya'yı taşıyordu. Yeni ölçek onu üçe böler ve
+"bağlantısız + tenha"yı birleştirir.
+
 ```
-HALKA 0  ÇEKİRDEK      Anadolu · Rumeli · Arap vilâyetleri · Kırım
-                       ✅ kurulu — ama Kırım 11 kat seyrek (açık)
-HALKA 1  KOMŞULAR      İran · Rusya güneyi · Habsburg · Venedik ·
-                       Memlûk mirası · Kafkasya · Kuzey Afrika
-                       🟡 YARIM — İran çekirdeği hâlâ tek `iran` kutusunda
-HALKA 2  ETKİ ALANI    Hindistan · Çin · Orta Asya · Sahra üstü Afrika ·
-                       Batı Avrupa · Endonezya-Malezya
-                       🔵 r690'da kutuya girdi, 98 kimlik adsız
-HALKA 3  BAĞLANTISIZ   Amerika · Sahra altı Afrika · Japonya ötesi
-                       ⬜ açılmadı
-HALKA 4  TENHA         Sibirya · Arktik kıyı · İzlanda · Novaya Zemlya ·
-                       Okyanusya · Avustralya
-                       ⬜ EN SON. Ölçüldü: Arktik + İzlanda kıyı verisi
-                       +22.011 köşe = mevcudun %14'ü — ucuz ama SIRASI YOK
+HALKA 1  OSMANLI HÂKİMİYETİNİN ULAŞTIĞI HER YER
+         Anadolu · Rumeli · Arap vilâyetleri · Mısır · Kuzey Afrika ·
+         Kırım · Eflak-Boğdan-Erdel · Hicaz-Yemen · Kafkasya güneyi
+HALKA 2  OSMANLI'NIN KOMŞULARI
+         Avusturya · Macaristan · Lehistan · Rusya · İran · Fas ·
+         Venedik · Ceneviz · Umman · Gürcistan · Habeşistan ·
+         Sudan · Eritre · Somali
+HALKA 3  KOMŞULARIN KOMŞULARI
+         İspanya · Portekiz · Fransa · Almanya · İtalyan devletleri
+HALKA 4  AVRUPA'NIN GERİ KALANI + ORTA ASYA
+HALKA 5  HİNDİSTAN · ÇİN · JAPONYA · MOĞOLİSTAN · UYGUR · ÇİNHİNDİ
+HALKA 6  ENDONEZYA · MALEZYA · YENİ GİNE · FİLİPİNLER
+HALKA 7  AMERİKA · SAHRA ALTI AFRİKA · AVUSTRALYA · YENİ ZELANDA ·
+         TENHA ASYA (Sibirya · Ural · Yakutistan · İrkutsk · Kamçatka)
 ```
+
+**Kural:** *"TÜM 1. bölge → TÜM 2. bölge → TÜM 3. …"* Bir halka bitmeden
+sonraki açılmaz.
+
+## 4.1 🔴 ÖLÇÜLMÜŞ DURUM — 7 Ağustos 2026, 1800 nokta
+
+Ölçüt **nokta / milyon km²**. Taban **Osmanlı küresi: 50,9**.
+
+```
+🟢 Italya                          84,2      🟡 Hindistan                17,5
+🟢 Fransa                          75,7      🟡 Japonya-Kore             16,0
+🟢 Kafkasya                        73,6      🟡 Orta Asya (h4)           14,4
+🟢 Almanya-Orta Avrupa             67,0      🟡 Rusya (Avrupa)  (h2)     12,3
+🟢 İberya                          63,4      🟡 Çinhindi                 10,7
+🟢 İngiltere-İrlanda               55,0      🟡 Çin-Moğolistan           10,4
+🟢 Avusturya-Macaristan-Lehistan   53,5      🟡 Sudan-Habeş-Somali-Umman  9,0  (h2)
+🟢 OSMANLI KÜRESİ  (h1)            50,9      🔴 Tenha Asya (h7)           3,8
+🟢 İran                            48,2      🔴 Endonezya-Malezya (h6)    3,0
+🟢 İskandinavya-Baltık             37,5
+🟢 Kuzey Afrika (h2)               26,5
+```
+
+🔴 **VE İKİ HALKA-2 BÖLGESİ TABANIN ÇOK ALTINDA — sıra bozukluğu burada:**
+```
+Sudan · Habeşistan · Somali · Umman    9,0   →  tabanın 1/5,7'si   (halka 2!)
+Rusya (Avrupa)                        12,3   →  tabanın 1/4,1'i    (halka 2!)
+Kuzey Afrika                          26,5   →  tabanın yarısı     (halka 2!)
+```
+⇒ **Halka 5-6-7'ye geçmeden önce kapatılacak yer burası.** Halka 6 ve 7'nin
+düşük olması **sıraya uygun**; halka 2'nin düşük olması **sıra ihlali**.
+
+## 4.2 ⚠️ ÖLÇEKTE EKSİK KALAN BÖLGELER — ölçüldü, sıraya sokulmalı
+
+Emre'nin listesinde **adı geçmeyen** ama haritada karşılığı olan yerler:
+
+| bölge | bugün | önerilen halka | gerekçe |
+|---|---|---|---|
+| **İngiltere · İrlanda · İskoçya** | 46 nokta · 55,0 | **3** | Levant Company · 1580 kapitülasyonları · 19. yy'da birinci dereceden aktör |
+| **Hollanda · Belçika · İsviçre** | Almanya kutusunda | **3** | 1612 kapitülasyonları — Osmanlı'nın büyük ticaret ortağı |
+| **İskandinavya · Baltık** | 94 nokta · 37,5 | **4** | ⚠️ İsveç sıradan değil: **Karl XII 1709-1714 Osmanlı topraklarında sığınmacı**, Poltava sonrası Osmanlı-Rus savaşının sebebi |
+| **Kore** | Japonya kutusunda | **5** | Emre "Japonya, Çin" dedi, Kore atlandı |
+| **Tibet · Nepal · Seylan · Maldivler** | dağınık | **5** | Hint Okyanusu ağı |
+| 🔴 **Bornu-Kanem · Songhay · Timbuktu (Sahel)** | Sahra altı sayılıyor → **halka 7** | **3-4 OLMALI** | **İTİRAZ:** Bornu ile Osmanlı arasında **elçi teâtisi ve ateşli silah yardımı** var (Idrîs Alevma → III. Murad). Fizan üzerinden Trablus'a bağlı. Sahra altı diye 7'ye atmak, **gerçek bir Osmanlı bağını** en sona atmaktır |
+| **Nogay · Kazak bozkırı · Başkurt** | Rusya/Orta Asya arası | **2** | Kırım Hanlığı'nın nüfuz sahası, halka 1'e bitişik |
+
+📌 **Ve bir ölçüt uyarısı:** halka sırası *"Osmanlı hikâyesine bağlılık"*tır,
+**mesafe değil.** Bornu itirazı tam bu ölçütten doğuyor — Timbuktu Viyana'dan
+uzaktır ama Osmanlı ile **doğrudan diplomatik teması vardır**, Norveç'in
+yoktur.
 
 📌 Kullanıcının kendi örneği kuralı özetliyor: *"New York, Virginia
 bitmeden Teksas'a gelmemeli; Teksas'a gelmeden Oklahoma'ya."*
