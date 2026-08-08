@@ -292,3 +292,28 @@ BOYALAR'a eklemesini bekliyorum. Gelene kadar Jambi/Siak/Deli/Indragiri
 noktalarını YAZAMIYORUM — Borneo'ya geçiyorum, engel kalkınca dönerim.
 
 Devam: Borneo.
+
+### 🟢 BORNEO — TAMAMLANDI (kısmi), 2 nokta + 🔴 2 kimlik boşluğu daha
+
+```
+Sambas        1.37,109.30   brunei-sultanligi(1631, kur: — kuruluş öncesi
+                              yok)→hollanda-dogu-hint (1819, Brunei'nin
+                              batı vasalıydı)
+Kotawaringin -2.85,111.67   banjar-sultanligi(1526, kur:)→hollanda-dogu-hint
+                              (1830)
+```
+🔴 Pontianak ve Kutai için de uygun kimlik YOK (Sumatra'daki gibi) —
+yazmadım, aynı gruba ekliyorum.
+
+⚠️ GÖZLEM (§④, bilgi amaçlı): doğrulama sırasında `renkler.py`den bir uyarı
+çıktı — "BEYAN EDİLEN PAYLAŞIM BOZULDU #2d8f4a — malaka-sultanligi artık bu
+hex'i kullanmıyor." Bu benim düzenlemem DEĞİL (renkler.py'ye dokunmadım) —
+muhtemelen RENK 2 şu anda dosyayı düzenliyor (belki benim
+`dogu-sumatra-sultanliklari` renk talebimle ilgili). Yalnız bilgi
+veriyorum, kendim müdahale etmedim.
+
+DOĞRULAMA: yazılan 2, 3km mükerrer 0, renksiz kimlik 0, dönem sorunu 0,
+açılan yeni kırılma günü 0 (1819/1830 iki tarih YIL BEYANI). Toplam GDASYA
+dosyası: 40→42 nokta.
+
+Devam: Sulawesi.
