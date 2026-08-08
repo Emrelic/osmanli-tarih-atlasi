@@ -1074,6 +1074,14 @@ Notlar:
   sonraki oturum onu kusur diye ikinci kez keşfeder.
   ⇒ **Veriyle çıktı arasında bir tur gecikme varsa, o tur TESPİHE YAZILIR.**
 
+  📌 En keskin hâli RENK 2'nin: ***"Çıktı, girdinin bir tur gerisindedir ve
+  bu bir kusur değil bir GECİKMEdir — ama gecikme KAYITSIZSA kusurdan ayırt
+  edilemez."*** Ve aynı gün bunun bedeli ölçüldü: `kavalali` bir yıl boyunca
+  *"kronoloji bekliyor"* diye kuyrukta durdu, çünkü kaydedilen şey **ölçüm
+  değil teşhisti** ve teşhis yanlıştı.
+  ⚠️ Ölçülmüş ve kabul edilmiş bir borç, **kayıtsız kalırsa yarın bir kusur
+  olarak yeniden bulunur** — ve ikinci keşif, ilkinin emeğini boşa çıkarır.
+
 - 🔴 **ALETİN GÖSTERDİĞİ ≠ DOSYADA YAZAN.** Bir `\b` kaçışı bozulup dosyaya
   **0x08 (BACKSPACE) baytı** yazıldı. `Read` onu **görünmez** gösterdi —
   satır ekranda kusursuz görünüyordu:
