@@ -1099,6 +1099,38 @@ Notlar:
   **geçme yolu** olur, ki o daha sinsidir: denetim gürültülü çalışır ama
   **temiz veriyi de kirli sayıyor** olabilir.
 
+- 🔴 **ATLAS SEFERİ DEĞİL TASARRUFU BOYAR — bir kimliğin TARİHSEL ERİŞİMİ
+  ile HARİTADAKİ GÖVDESİ ayrı şeylerdir.**
+  **Vaka (8 Ağustos 2026).** Koordinatör `ace ↔ ming` aynı-hex çiftini
+  ölçtürürken şunu yazdı: *"Zheng He seferleri Sumatra'ya ulaşıyordu, Ming
+  donanması 15. yüzyılda Malaka Boğazı'ndaydı — eşzamanlı ve yakın bir an
+  var mı?"* **Tarihen doğru, ÖLÇÜT OLARAK YANLIŞ.**
+  ```
+  yanlış soru   "Ming oraya gitti mi?"
+  doğru soru    "orada `d:"ming"` yazan bir NOKTA var mı?"
+  ```
+  Ölçüm: Ming'in en yakın gerçek tasarrufu **Hainan**, eşzamanlı en yakın
+  çift **2185 km** ⇒ paylaşım MEŞRU. Donanma boğazdaydı ama **gövde** iki
+  bin kilometre ötede.
+  📌 `§3.5`in *hayalet devlet* dersinin **renk tarafı**: orada **var
+  olmayan** devlet boyanıyordu, burada **uğrayan** devlet boyanacaktı.
+
+- 🔴 **EŞİK TEK SAYI DEĞİLDİR: ANLATININ MERKEZİNDEKİ ÇİFT DAHA FAZLASINI
+  HAK EDER — VE GEREKÇESİ VERİDE DEĞİL KRONOLOJİDEDİR.**
+  **Vaka (8 Ağustos, RENK 2).** `bugis-kralliklari ↔ gova-makassar`:
+  ```
+  ΔE ≥ 12 (okunabilirlik tabanı)  →  ölçüm 12,4 · GEÇERDİ ama YETMEZDİ
+  hedef 25 konarak yeniden çözüldü →  ölçüm 25,8 ✓
+  ```
+  Sebep veride değil: **Makassar Savaşı'nın iki tarafı bunlar.** Kullanıcı
+  o savaşı okurken tarafları ayırt edememek, eşiği teknik olarak geçen bir
+  renkten **kat kat** kötüdür.
+  ⇒ **Eşik gevşetilmez — SIKILAŞTIRILIR**, ve hangi çiftin sıkılaştırmayı
+  hak ettiğini **kronoloji** söyler. (`ava ↔ ayutthaya` — Burma-Siyam
+  savaşları — aynı sınıfın ilk vakasıydı.)
+  📌 `B15`in aynası: o *"eşiğin taban mı tavan mı olduğunu söyle"* der, bu
+  *"tabanın ÜSTÜNE çıkmayı hak eden çift vardır"* der.
+
 - 🔴 **ENGEL KÜMESİ, KAPATILMAK İSTENEN ÇİFTİ İÇERMİYORSA ÇÖZÜM O ÇİFTİ
   ÇÖZMEZ — VE ÇÖZÜCÜ BUNU SÖYLEMEZ, "ÇÖZDÜM" DER.**
 
