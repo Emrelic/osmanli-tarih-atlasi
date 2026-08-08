@@ -66,21 +66,43 @@ haritada "karada" görürdü.
 veride **zaten var olan** tarihleri yeniden kullanır. Fas noktalarının 21'i
 tek dönemdir (1281→1923) ⇒ **sıfır kırılma**, çünkü denetim iki ucu da dışlar.
 
-Yeni olan 8 gün ve kapatılması için önerilen kronoloji maddesi başlıkları:
+### 🔴 DÜZELTME — ÖNCE 8 DEDİM, DOĞRUSU 9. VARSAYIMIM YANLIŞTI.
 
-| gün | önerilen madde |
-|---|---|
-| 1614-01-01 | Mamûra'nın (Mehdiye) İspanyolların eline geçişi |
-| 1681-01-01 | Mevlây İsmâil'in Mamûra'yı geri alışı |
-| 1689-01-01 | Mevlây İsmâil'in el-Arâiş'i geri alışı |
-| 1854-11-23 | Vargla'nın Fransızlarca işgali |
-| 1857-07-11 | Büyük Kabiliye'nin düşüşü — Lalla Fatma N'Sûmer'in esareti |
-| 1899-12-29 | Aynı Sâlih'in (Tîdîkelt) işgali |
-| 1901-02-21 | Tuvât-Gûrâre-Tîdîkelt'in Fransa'ya ilhakı |
-| 1903-11-12 | Beşşâr'ın (Colomb-Béchar) işgali |
+Dosya bağlandıktan sonra `denetle.py` ölçtü:
+`yerlesimler_h2_kuzeyafrika.js: 64 nokta · 41 kırılma · **10 MADDESİZ**`
 
-Zaten veride VAR olduğu için yeni sayılmayanlar: `1564-01-01` · `1610-01-01` ·
-`1673-01-01` ve bütün bölgesel çerçeve tarihleri.
+Ben **8** demiştim. Farkın sebebi bir **yanlış varsayımdı:**
+
+> *"Tarih veride zaten VAR ⇒ maddesi de vardır."* — **YANLIŞ.**
+
+Bir gün başka bir yerleşimde kırılma olarak bulunabilir ve **yine de ±30 gün
+içinde hiçbir kronoloji maddesi olmayabilir.** `1564-01-01` · `1610-01-01` ·
+`1673-01-01` tam olarak böyleydi: veride vardılar, ben bu yüzden *"güvenli"*
+ilan ettim, **üçü de maddesizdi.**
+
+Ters yönde de yanıldım: `1681-01-01` ve `1854-11-23` *yeni* sanıyordum ama
+**±30 gün içinde maddeleri çıktı** — yani kapalılar.
+
+📌 **Ders: tarih yeniden kullanmak riski AZALTIR, sıfırlamaz.** Doğru ölçüt
+*"bu gün veride var mı"* değil, ***"bu günün ±30 gününde madde var mı"***.
+Tek doğru yol, dosyayı bağlayıp `denetle.py`ye sormaktır — tahmin değil.
+
+**KRONOLOJİ KUYRUĞUNUN GERÇEK LİSTESİ — 9 gün (10 kırılma):**
+
+| gün | maddesiz kalan yerleşim | önerilen madde |
+|---|---|---|
+| 1564-01-01 | Bâdis | İspanya'nın Bâdis (Peñón de Vélez) kayalığını geri alışı |
+| 1610-01-01 | el-Arâiş | el-Arâiş'in İspanyollara terki |
+| 1614-01-01 | Mamûra | Mamûra'nın (Mehdiye) İspanyolların eline geçişi |
+| 1673-01-01 | el-Hüseyme | İspanya'nın el-Hüseyme (Alhucemas) adalarını işgali |
+| 1689-01-01 | el-Arâiş | Mevlây İsmâil'in el-Arâiş'i geri alışı |
+| **1857-07-11** | Tîzî Vezzû · Akbû | Büyük Kabiliye'nin düşüşü — Lalla Fatma N'Sûmer'in esareti **(bu gün İKİ kırılma sayılıyor: `kayip` + `kazanc`; tek madde ikisini de kapatır)** |
+| 1899-12-29 | Aynı Sâlih | Aynı Sâlih'in (Tîdîkelt) Fransızlarca işgali |
+| 1901-02-21 | Advâr · Tîmîmûn · Reggân · Benî Abbâs | Tuvât-Gûrâre-Tîdîkelt'in Fransa'ya ilhakı |
+| 1903-11-12 | Beşşâr | Beşşâr'ın (Colomb-Béchar) işgali |
+
+**Kapalı çıkanlar (madde yazmaya gerek yok):** `1681-01-01` · `1854-11-23` ·
+`1854-12-02` ve bütün bölgesel çerçeve tarihleri.
 
 ## Koordinatörden istenen üç satır
 
