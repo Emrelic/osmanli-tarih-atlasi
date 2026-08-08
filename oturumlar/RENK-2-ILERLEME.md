@@ -1755,3 +1755,60 @@ atlandığını, bir kez de `moskova`nın rengi atlanarak yazıldığını bildi
 ikisi de aynı boşluğun yüzü. Denetim şöyle sormalı:
 *"her künyenin rengi var mı · her rengin künyesi var mı · veride kullanılan
 her kimliğin ikisi de var mı"* — üçüncüsü bugün 0, ilk ikisi 65 ve 41.
+
+---
+
+## ㊳ DÖRDÜNCÜ KONTROL YAZILDI — ve İLK KOŞUSUNDA GERÇEK BİR KUSUR BULDU
+
+`renk_fark.py`ye `zincir()` eklendi: **künye → renk → veri** halkalarının
+birbirini tutup tutmadığını sorar. Dört dal:
+```
+künyesi var, rengi yok                 66      BORÇ (sessiz)
+rengi var, künyesi yok                 41      BORÇ (sessiz)
+VERİDE kullanılıyor, rengi YOK          0      KUSUR
+VERİDE kullanılıyor, künyesi YOK       40  🔴  KUSUR
+```
+
+### 🔴 VE DÖRDÜNCÜ DAL İLK KOŞUDA ÖTTÜ — 40 kimlik
+Bunlar **bugün "gevşek" kararıyla yazdığım kırk renk.** Veride kullanılıyorlar,
+haritada boyanıyorlar, ama **künyeleri yok** ⇒ `denetle_yayin` onları
+"dizinsiz harita kimliği" sayacak.
+
+📌 Karar bilinçliydi (delik kapatmak künye beklemekten önemliydi) ve
+koordinatör onaylamıştı — **ama o güne kadar bunu ölçen bir şey yoktu.**
+Şimdi var, ve sayı ekranda. Borcun bilinçli olması onu görünmez olmaktan
+kurtarmıyordu.
+
+### Tasarım kararı: BORÇ ile İHLAL ayrıldı
+```
+çıkış kodu YALNIZ "veride kullanılan" iki dala bağlı
+66 ve 41 birer BORÇ — hata sayılsalardı araç her koşuda kırmızı yanar
+ve gerçek kusuru boğardı
+⇒ sayıları TABANA yazılır, fark() BÜYÜMEYİ bildirir: 66 → 70 görünür olur
+```
+Bu, bugün öğrendiğim *"liste bir pencere, tavan değil"* ayrımının kod hâli.
+
+### 🔴 `C13` SINAVI — beş dal, ayrı ayrı, üçü ZORLANARAK
+```
+① geçme yolu     dört dal da boş → kusur 0                    ✓
+② zorlama        veride_renk_yok sahte girdiyle → 🔴 kusur 42  ✓
+③ zorlama        yalnız veride_kunye_yok → 🔴 kusur 1          ✓
+④ büyüme dalı    taban 60 → şimdi 66 → "(+6)" bastı            ✓
+⑤ borç ihlal mi  66 ve 41 varken kusur 0                       ✓
+```
+⚠️ **②'yi zorlamak şarttı**: `veride_renk_yok` bugün **0** ve gerçek veriyle
+hiç koşulamıyor. `C13`ün kendi cümlesi: *"zorlanamayan dal, denetimsiz
+daldır."* — ve o dal, tam olarak **65 borcun deliğe döndüğü gün** ötecek olan
+daldır.
+
+📌 Ve ⑤ ayrı bir sınav: bir denetimin **ötmemesi gereken yerde ötmediğini**
+de sınamak gerekiyor. 66 ve 41 varken kusur 0 vermeseydi araç kullanılamaz
+olurdu — `C5`in (geçme yolu) borç boyutu.
+
+### ÖLÇÜM
+```
+taban güncellendi · zincir sayıları da tabanda:
+   kunye_var_renk_yok 66 · renk_var_kunye_yok 41
+   veride_renk_yok     0 · veride_kunye_yok   40
+çıkış kodu 1 (40 zincir kusuru) — doğru davranış
+```
