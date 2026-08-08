@@ -1995,3 +1995,87 @@ coğrafi kapsamının dışında.
 
 `data/devletler.js` pathspec'siz bırakıldı. Kalan 138 (158-20) kayda
 BAŞLANMADI — talimat bekleniyor. Koordinatöre haber verildi.
+
+## ㉜ GERİYE DÖNÜK AYRIM (①) + GRUP 1/2 (②) — devam ediyor
+
+### ① Geriye dönük yetersiz/bulunamadı ayrımı — TAMAMLANDI, 17 kayıt
+
+Parti A'nın 2 ve Parti B'nin 15 hâlâ `kaynak:`sız çürüyeni (toplam 17)
+tek tek yeniden arandı:
+
+**DOĞRULANDI'ya YÜKSELDİ (8)** — ilk taramada "çürüdü" sayılmıştı ama
+gerçekte TDV'nin GENEL ülke maddesi (avusturya/macaristan/polonya/gurcistan/
+azerbaycan/cekoslovakya/finlandiya/iran) modern/spesifik dönemi de
+kapsıyordu, içerik okunarak doğrulandı:
+`gurcistan-demokratik-cumhuriyeti`→gurcistan · `azerbaycan-demokratik-
+cumhuriyeti`→azerbaycan · `iran`→iran · `cekoslovakya`→cekoslovakya ·
+`finlandiya`→finlandiya · `polonya`→polonya · `avusturya-cumhuriyet`→
+avusturya · `macaristan-naiplik`→macaristan.
+
+**YETERSİZ (2)**: `sarki-rumeli` (rumeli maddesi okundu, 1878-85 dönemini
+karşılamıyor — madde Tanzimat/1864 reformuyla bitiyor) · `fransiz-misir-
+seferi` (misir maddesi okundu, "Fransız İşgali ve Sonrası" başlığı var ama
+sefer detayı yok).
+
+**BULUNAMADI (7)**: `kilikya-ermeni` (kili/sis alakasız) · `letonya` ·
+`litvanya` (arama yalnız Lipkalar'a düşüyor) · `haiti` · `siena` · `piza` ·
+`maya-sehir-devletleri`.
+
+Ayrıca `ermenistan-demokratik-cumhuriyeti` (zaten "bulunamadı" işaretliydi)
+gurcistan/azerbaycan paterniyle yeniden test edildi — "ermenistan" TDV'de
+yalnız arama sayfası, doğru sınıflandırma teyit edildi, değiştirilmedi.
+Diğer 8 eski "bulunamadı" kaydı (novgorod, pskov, cenova, floransa, estonya,
+cin-cumhuriyeti, hausa-sehir-devletleri, nguyen-beyligi) YENİDEN AUDIT
+EDİLMEDİ — kapsam dışı bırakıldı (görev ① yalnız "çürüdü" kalanlarını
+istiyordu).
+
+### ② GRUP 1/2 — 158 havuzdan 84'ü işlendi, devam ediyor
+
+Tam derinlikte arandı (kanonik + gereken kadar alternatif + gövde okuması):
+
+**Kafkasya+Anadolu+İran+Arabistan (20)**: 19 doğrulandı, 1 bulunamadı
+(usfuri). Anadolu beylikleri (mentese, karesi, çobanoğulları, eşrefoğulları,
+inançoğulları, sâhib-ataoğulları) + selçuklu(→selcuklular) TAM İSABET.
+
+**İberya+Orta Asya+Sibirya+Balkanlar (17)**: 14 doğrulandı, 3 bulunamadı
+(zaporojye, navarra + arabistan'daki usfuri hariç). yakub-beg'in TDV'de
+AYNI İSİMLİ AMA FARKLI KİŞİ (Germiyanoğulları kurucusu) tuzağı vardı —
+doğru slug `kasgar` ile düzeltildi.
+
+**Avrupa alt-bölgeleri — Doğu/Batı/Kuzey/Orta (17)**: 9 doğrulandı
+(rusya, polonya-erken→polonya, lehistan→polonya, erdel, isvicre,
+isvec-birlik-oncesi→isvec, isvec), 13 bulunamadı — İskoçya/İrlanda/
+Lüksemburg/Norveç/Bohemya/Bretanya/Burgonya/Moskova/Sovyet Rusya TDV'de YOK
+(yalnız isim geçen kişi maddeleri var, ülke maddesi yok).
+
+**Güney Asya (30)**: 17 doğrulandı, 13 bulunamadı. İslami sultanlıklar
+(behmeni, gucerat, bicapur, gölkonde, sind, malva, imadşahiler/berar,
+bengal, haydarabad, bahavelpur, bopal, multan-langah) TAM İSABET; Hindu
+krallıkları (hoysala, pandya, kakatiya, yadava, bharatpur) ve İngiliz-öncesi
+küçük nevablıklar (avad, cavnpur, karnatik, cunagadh, kocin, madurai) TDV'de
+YOK.
+
+**Güneydoğu Asya (30)**: İŞLENİYOR — ilk tur: brunei, sulu, demak
+doğrulandı; malaka(şehir maddesi, sultanlık kuruluşu anlatılıyor) doğrulandı;
+mataram, mağindanao, samudra-pasai bulunamadı (yalnız arama/geçiş
+referansı). Vietnam/Tayland/Myanmar/Kamboçya GENEL ülke maddeleri (vietnam
+YOK, tayland/myanmar/kamboçya VAR) test ediliyor — tayland ve myanmar
+genel maddeleri ilgili hanedanları (Ayutthaya/Sukhothai/Thonburi/Chakri;
+Pagan/Toungoo/Konbaung/Hanthawaddy-Pegu) İÇERİYOR, bunlar doğrulandı
+sayılacak. Endonezya genel maddesi Majapahit/Singhasari/Sunda-Pajajaran'ı
+İslam-öncesi bağlamda anıyor — içerik yeterliliği değerlendiriliyor.
+
+🔴 **ARA MÜDAHALE — TIRNAK TUTARSIZLIĞI DÜZELTİLDİ:** koordinatör
+`kaynak:'...'` (tek tırnak, 208 kayıt) ile `kaynak:"..."` (çift tırnak, 99
+kayıt) tutarsızlığını bildirdi (`arac/girdi.py` okuyucusu tek tırnak kabul
+etmiyordu). `Write` ile scratchpad'e `tirnak_duzelt.py` yazıldı (regex ile
+`\'` kaçışları düz kesme işaretine çevrildi, içerikte çift tırnak varsa
+kaçırıldı — Bash/sed KULLANILMADI, §11 kuralı). Sonuç: `kaynak:'` → 0,
+`kaynak:"` → 307, kayıt 381, mükerrer 0, kaynaksız 74 (değişmedi — yalnız
+biçim düzeltildi). Koordinatöre HEMEN bildirildi.
+
+Devam ediyor: güneydoğu-asya'nın kalanı → GRUP 2 (italya/doğu-asya/amerika,
+2-deneme tavanlı) → küçük bölgeler (misir-sudan/kuzey-afrika/orta-afrika/
+bati-afrika/dogu-afrika/okyanusya, listede açıkça yoktu, GRUP 1 muamelesi
+uygulanıyor çünkü İslam dünyası kapsamına daha yakınlar; okyanusya GRUP 2
+muamelesi görecek).
