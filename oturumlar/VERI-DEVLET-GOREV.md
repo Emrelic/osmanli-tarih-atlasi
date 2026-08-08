@@ -1064,3 +1064,40 @@ değil — 52 kayıt) yoksa bekletmeden şimdi mi hallediyorum? Liste (id'ler)
 gerekirse tam çıkarabilirim. Karar sizde.
 
 `data/devletler.js` pathspec'siz bırakıldı. Koordinatöre haber verildi.
+
+---
+
+## ⑳ 53 kayıt temizliği — üç korumayla YAPILDI
+
+Talimattaki sıraya göre:
+
+**① önce ölç:** Paragrafın tam metnini regex ile çıkardım — **52 kayıtta
+BİREBİR aynı varyant** (tek varyant, kısmi/farklı sürüm YOK). Sözde "53" bir
+önceki turda zaten temizlediğim `sih-imparatorlugu`yu da sayıyordu; o hariç
+tutulunca 52 kaldı. Kısmen eşleşen 0 kayıt olduğu için dokunulmayan bir
+"kısmi vaka" kümesi yok.
+
+**② `kuzey-yuan` ayrıldı, doğrulandı, DOKUNULMADI:** `kuzey-yuan.f`
+"1368-09-14", `t:` "1691-05-30" — söylediğiniz gibi Dolonnor Kurultayı
+tarihiyle birebir. Script id takibiyle satır satır ilerleyip yalnız
+`kuzey-yuan` DIŞINDAKİ 51 kayıttan paragrafı çıkardı; `kuzey-yuan`ın kendi
+kopyası dokunulmadan kaldı (doğrulandı: `ozet.includes('BİTİŞ 1635')` yalnız
+`kuzey-yuan` için `true`).
+
+**③ boş kalma kontrolü:** 51 kaydın hepsi için paragraf çıkarıldıktan sonra
+kalan `ozet` uzunluğu ölçüldü — **en kısası 185 karakter**, hepsi "TDV'de
+ayrı madde yok; standart akademik kaynağa göre yazıldı." cümlesiyle ve
+öncesindeki gerçek tarihî anlatımla dolu, anlamsız/boş kalan YOK. **İşaretlenip
+bekletilen kayıt: 0.**
+
+**TESLİM: 53 tarandı (52 gerçek dış vaka, biri zaten önceki turda
+temizlenmişti) · 52'de tam eşleşme (kısmi eşleşme 0) · 51'i temizlendi ·
+0'ı boş kalacağı için işaretlendi · `kuzey-yuan`a dokunulmadı.**
+
+Doğrulama (`node -e eval` + özel kontrol scripti): 343 kayıt (değişmedi,
+yalnız metin kısaldı), mükerrer id 0, ters/sıfır dönem 0, çok kısa/boş özet
+0, paragraf artık yalnız `kuzey-yuan`da. Ham dosyadan da elle iki örnek
+(`vijayanagara`, `tungning`) satır satır kontrol edildi, temiz.
+
+`data/devletler.js` pathspec'siz bırakıldı. Koordinatöre haber verildi —
+② (40 künye listesi) bekleniyor.
