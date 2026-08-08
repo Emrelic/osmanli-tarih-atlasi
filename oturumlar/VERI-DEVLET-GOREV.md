@@ -2296,3 +2296,91 @@ kayıt sayısı        : 381
 mükerrer id           : 0
 kaynaksız kayıt        : 0
 ```
+
+## ㉟ YENİ PARTİ — Balkanlar 12 + Anadolu 9 (21 künye) özet yazımı
+
+### Üç sayı
+
+```
+YAZILDI                    15
+EŞİĞİ GEÇTİ                15
+EŞİĞİ GEÇMEDİ AMA DOLU       0
+YAZILMADI (çelişki, SORULDU) 6
+```
+
+🔴 **"Hepsi eşiği geçerse şüphelen" uyarısını ciddiye aldım — kendi kendimi
+denetledim.** 15 özetin tamamı 105'i geçti (160-222 karakter). Sebebini
+tek tek kontrol ettim: HİÇBİRİNDE dolgu cümle yok — her cümle TDV
+kaynağından somut bir tarih/isim/olay taşıyor (ör. "Tvrtko I'in 1377 taç
+giymesi", "Cüneyd Bey'in 1425-26'da idamı", "Katerina Cornaro'nun 26 Şubat
+1489'da feragati"). Uzunluğun sebebi iki katmanlı zorunluluk: ① senin
+istediğin HANEDAN/ÜLKE etiketi (~20-25 karakter sabit yük) ② orijinal
+özetlerin çoğu tek cümlelik taslaktı (28-102 karakter), şimdi gerçek
+araştırmaya dayanıyor ve doğal olarak daha uzun. **Asıl kanıt burada
+DEĞİL**: 6 kaydı (aşağıda) tam bu yüzden YAZMADIM — TDV'de tarih uyuşmazlığı
+gördüğümde, "dolgu ile eşiği geç" yerine hiç yazmamayı seçtim. Zorlamadığımın
+kanıtı yazdıklarımın uzunluğu değil, YAZMADIKLARIM.
+
+### 15 yazılan (HANEDAN ÖMRÜ / ÜLKE SÜREKLİLİĞİ etiketli, `kaynak:` okunarak)
+
+`bosna-kralligi`(hanedan ömrü) · `sirbistan-prensligi`(ülke sürekliliği) ·
+`sirp-despotlugu`(hanedan/dönem ömrü) · `mora-despotlugu`(hanedan ömrü) ·
+`romanya`(ülke sürekliliği) · `bogdan`(ülke sürekliliği) ·
+`bulgaristan-prensligi`(ülke sürekliliği) · `romanya-kralligi`(ülke
+sürekliliği) · `mentese`(hanedan ömrü) · `karesi`(hanedan ömrü) ·
+`ramazanoglu`(hanedan ömrü) · `aydin`(hanedan ömrü) · `hamid`(hanedan ömrü)
+· `kibris-krallik`(hanedan ömrü) · `germiyan`(hanedan ömrü).
+
+### 🔴 6 kayıt — YAZILMADI, ÇELİŞKİ VAR, SORULUYOR (kural ④)
+
+```
+bulgar-carligi (1185-1396)
+  TDV: "1393'te ... Süleyman Çelebi ... Bulgar Krallığı'na son verdiler."
+  Künye t=1396. 3 yıl fark — TDV Tarnovo'nun 1393 düşüşünü "son" sayıyor,
+  künye Vidin kalıntısının 1396 düşüşünü. Hangisi esas alınsın?
+
+arnavutluk-iskenderbey (1443-1479)
+  TDV (iskender-bey maddesi): "17 Ocak 1468'de ... öldü."
+  Künye t=1479 — ölümünden 11 yıl sonrası. TDV kaynağı KİŞİYİ anlatıyor,
+  "direniş devleti"ni değil; 1479'un dayanağı bu maddede yok. Kruja/İşkodra
+  sonrası direniş mi kastediliyor, yoksa künye tarihi mi yanlış?
+
+girit-devleti (1898-1913)
+  TDV: özerklik kararı 18 Aralık 1897; Prens George'un fiilen göreve
+  başlaması 22 Aralık 1898.
+  Künye f=1898-12-09 — TDV'nin verdiği İKİ tarihten de (1897-12-18 ya da
+  1898-12-22) farklı, ikisinin ortasında bir gün. Bu tarih nereden geliyor?
+
+naksa-dukaligi (1207-1579)
+  TDV: "tam Osmanlı ilhakının 1537-1540 döneminde gerçekleştiğini
+  göstermektedir" (Barbaros seferi + 1540 Osmanlı-Venedik antlaşması).
+  Künye t=1579 — TDV'nin "tam ilhak" dediği tarihten 39-42 yıl sonrası.
+  (Künyenin kendi özeti zaten "haraca bağlandı" ile "tamamen ilhak"ı
+  ayırıyordu — TDV'nin "tam ilhak" ifadesi hangi eşiğe karşılık geliyor?)
+
+saruhan (1313-1410)
+  TDV: Osmanlı hâkimiyeti "1411'den sonra ve 1415'ten önce" başladı.
+  Künye t=1410 — TDV'nin verdiği pencereden (1411-1415) 1-5 yıl önce.
+  Küçük ama gerçek bir fark.
+
+candar (1291-1461)
+  TDV: beylik "erken XIV. yüzyılda" (yani 1300 sonrası) kuruldu, kesin
+  tarih vermiyor.
+  Künye f=1291 — TDV'nin "erken XIV. yüzyıl" çerçevesiyle teknik olarak
+  çelişiyor (1291 XIII. yüzyıldır). Belirsiz ama gerçek bir gerilim.
+```
+
+Bu 6 kayıt için özet YAZILMADI, `ozet:` alanları eski (kısa) hâlleriyle
+kaldı — `arac/kunye_olc.py` bunları hâlâ "kısa" listesinde gösteriyor
+(33 → 18, fark tam 15).
+
+### Doğrulama
+```
+py arac/kunye_olc.py  →  kısa künye: 33 → 18  (-15, tam yazılan sayısıyla eşleşiyor)
+kayıt sayısı        : 381
+mükerrer id           : 0
+kaynaksız kayıt        : 0
+boş özet              : 0
+```
+`data/devletler.js` pathspec'siz bırakıldı. Koordinatöre 6 çelişki + üç
+sayıyla bildirildi.
