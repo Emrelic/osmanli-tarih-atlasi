@@ -92,24 +92,129 @@ işaretlemiş. Yeni bir `sinif:` alanı **açılmayacak**:
 `m:`nin zamansızlığından doğuyor — ayrı bir `sinif:` alanı kademeyi
 çözer, `m:`yi çözmezdi.
 
-| kademe | ne | ağırlık `w` |
-|---|---|---|
-| **1** | başkent | **1,00** |
-| **2** | eyalet merkezi | **0,70** |
-| **3** | sancak merkezi | **0,50** |
-| **4** | kaza / kasaba | **0,35** |
-| **0** | kademesiz (yabancı şehir, dolgu) | **0,50** ← nötr |
+### 1.2b 🔴 AĞIRLIK TABLOSU UYDURULMUŞTU — ÖLÇÜLDÜ VE DEĞİŞTİ
 
-⚠️ **`k:0` sıfır ağırlık DEĞİLDİR — nötr ağırlıktır.** 2261 noktanın
-**1538'i** k:0 ve bunlar yabancı şehirler; sıfırlanırsa **haritanın üçte
-ikisi kaybolur.** `0` burada *"ağırlıksız"* değil *"henüz kademelendirilmemiş"*
-demektir.
+İlk hâli `1,00 / 0,70 / 0,45 / 0,00` diyordu ve **bu sayılar hiçbir şeye
+dayanmıyordu.** 8 Ağustos 2026'da Osmanlı çekirdeğinde (36-45°K, 20-45°D)
+kademe başına **en yakın komşu mesafesi** ölçüldü:
 
-🟢 **Göç yine güvenli, ama sebebi başka:** `k:` yalnız Osmanlı sahasında
-doldurulmuş (723 nokta); geri kalan 1538 nötr. Yani ağırlıklar **yalnız
-Osmanlı çekirdeğinde** değişir, ve orada zaten nokta yoğunluğu en yüksek —
-yani kayma en az olacağı yerde olur. **Kademe A koşusu, bu tahminin
-DOĞRULANMASIDIR**; doğrulanmazsa ağırlık tablosu gevşetilir, alan değil.
+```
+k:4  kaza      29 km      (215 nokta)
+k:3  sancak    46 km      (69 nokta)
+k:2  eyalet    67 km      (28 nokta)
+k:1  başkent   19 km      (4 nokta — YOĞUN bölgede, ölçüm ANLAMSIZ)
+```
+⇒ **29 : 46 : 67 ≈ 1 : 1,6 : 2,3** — temiz bir hiyerarşi, ve **veri kendi
+oranını söylüyor.** Voronoi sınırı tam ortadan geçtiği için yarıçap bunun
+yarısıdır.
+
+| kademe | ne | ölçülen aralık | **ağırlık `w`** |
+|---|---|---|---|
+| **1** | başkent | (ölçülemedi, 4 nokta) | **1,50** ⚠️ tahmin |
+| **2** | eyalet merkezi | 67 km | **1,00** |
+| **3** | sancak merkezi | 46 km | **0,69** |
+| **4** | kaza / kasaba | 29 km | **0,43** |
+| **0** | kademesiz (yabancı) | — | **0,69** ← nötr, k:3 ile aynı |
+
+⚠️ **`k:1` ölçülemedi ve bu AÇIKÇA yazılıyor:** yalnız dört nokta var
+(Söğüt · Bursa · Edirne · İstanbul) ve dördü de Marmara'nın en yoğun
+bölgesinde, yani komşu mesafeleri **kademelerini değil çevrelerinin
+kalabalığını** ölçüyor. `1,50` bir tahmindir ve öyle damgalanmıştır.
+
+### 1.3 🔴 YARIÇAP TAVANI — "petek gittiği yere kadar gider" YANLIŞ
+
+**Emre, 8 Ağustos 2026:**
+> *"Bir yerleşim yerinin idarî, askerî, sosyal, siyasal olarak hükmedeceği
+> alan bellidir… uçsuz bucaksız toprağa, çöle, bozkıra, ormana ancak X
+> kilometre kadar hâkim olabilir."*
+
+**Doğru, ve bugünkü motorda bu tavan YOK** — Voronoi hücresi komşu
+bulamayınca sonsuza kadar büyür. `banda-adalari`nın 573.188 km² boyaması
+(kendi yüzölçümünün 3.200 katı) bunun ölçülmüş sonucudur.
+
+🔴 **Ve X bir kilometre DEĞİL, bir GÜN sayısıdır.** Ölçüldü: yoğun ve
+gerçekçi modellenmiş bölgelerde komşu mesafesi
+```
+Batı Anadolu  ova+tepe   17 km   ≈ YARIM günlük yürüyüş
+Trakya        ova        33 km   ≈ BİR günlük yürüyüş
+Mısır/Nil     vadi       34 km   ≈ BİR günlük yürüyüş
+```
+**Veriye bu konmadı, ölçünce çıktı.** Kilometre araziye göre değişir
+(ovada 35 km/gün, ormanda 12, dağda 10); **gün değişmez.**
+
+⇒ **Ağırlık `w`, gün bütçesinin ta kendisidir.** İki ayrı parametre değil:
+
+```
+sahip(hücre) = argmin  maliyet(yerleşim → hücre) ÷ w
+     ve       maliyet > w × GÜN_BİRİMİ  ⇒  SAHİPSİZ
+```
+
+| kademe | gün bütçesi | ova/kıyı | bozkır | çöl | orman |
+|---|---|---|---|---|---|
+| k:1 | 10 gün | ~350 km | ~300 km | ~150 km | ~120 km |
+| k:2 | 6 gün | ~210 km | ~180 km | ~120 km | ~70 km |
+| k:3 | 4 gün | ~140 km | ~120 km | ~100 km | ~50 km |
+| k:4 | 2 gün | ~70 km | ~60 km | ~50 km | ~25 km |
+
+🔴 **Çölde bağlayıcı kısıt mesafe değil SUDUR.** Susuz geçilebilecek süre
+~3 gündür; bir garnizon son kuyunun ötesinde beslenemez. Bu yüzden çöl
+sütunu ötekilerden orantısız düşüktür — ve Sahra için cevap **~150 km**,
+200 değil.
+
+### 1.4 VE ÇÖLDE HÂKİMİYET ALAN DEĞİL ÇİZGİDİR
+
+Emre'nin ikinci sorusu: *"500 km arayla iki yerleşim varsa arası boyanır
+mı? Ya 1000 km? Ya 2000?"*
+
+```
+aralarında kervan yolu + kuyu VAR   → KORİDOR boyanır (şerit, daire değil)
+hiçbir şey YOK                       → BOYANMAZ — orası gerçekten kimsenin değildi
+```
+⇒ Doğru ilkel şekil bir daire değil, **yol boyunca bir tampon şerit.**
+Roma'nın Sahra'daki hâkimiyeti de böyleydi: vaha zinciri, alan değil.
+
+⚠️ Ve çöl/bozkır içini **göçebeler** tutuyordu (Tuareg · Kazak · Moğol);
+onların toprağı **sabit yerleşim peteğiyle temsil edilemez.** Karşılığı
+`YAPILACAKLAR`daki **benekli nüfuz alanı** katmanıdır. O gelene kadar çöl
+içi **boş kalmalı** — yanlış boyamaktan iyidir.
+
+### 1.5 🟢 BEDAVA KAZANÇ: TAVAN, DOLGU NOKTASI HİLESİNİ KALDIRIR
+
+172 sahipsizin bir kısmı (Sahra · Rub'ul Hâlî · 1744 öncesi Necid) **sırf
+emilmeyi engellemek için** konmuş dolgu noktalarıdır — yani bir **hile**.
+Yarıçap tavanı geldiğinde o iş **yapısal olarak** çözülür ve dolgu
+noktaları emekli edilebilir.
+⇒ Tavan yalnız doğruluk getirmiyor, **bir hileyi de kaldırıyor.**
+
+### 1.6 Literatür — dördü doğrudan işimize yarıyor
+
+**Güvenilir:**
+- **Site catchment analysis** (Vita-Finzi & Higgs, 1970) — tarım için
+  1 saat/5 km, avcılık için 2 saat/10 km yürüme yarıçapı.
+- **Merkezî yer kuramı** (Christaller, 1933) — pazar menzili ile **idarî
+  menzil** ayrımı; idarî menzil daha geniştir. `k:` kademelerinin kuramı.
+- **Tobler'in yürüyüş fonksiyonu** (1993) — eğime göre hız; motorda
+  zaten kullanılacak.
+- **James C. Scott, *The Art of Not Being Governed*** (2009) — arazi
+  sürtünmesi, "devlet alanı" ile "devlet-dışı alan". Devletler vadileri
+  tutar, yaylaları tutamaz.
+- **Donald Engels, *Alexander the Great and the Logistics of the
+  Macedonian Army*** (1978) — kendi erzakını taşıyan ordunun üssünden
+  uzaklaşma mesafesinin **fizikî** tavanı vardır: hayvanlar taşıdıkları
+  yemi yer. Çöl tavanının asıl dayanağı.
+
+**⚠️ HATIRLANDI, DOĞRULANMADI** (`§11`: *ölçmediğini "ölçmedim" diye yaz*):
+- **Colin Renfrew, "Early State Module"** (1975) — erken devlet
+  merkezlerinin ~20 km aralıkla, toprakların ~1.500 km² civarında
+  kümelendiği. Bizim Batı Anadolu ölçümümüz (**17 km**) buna çok yakın
+  ama sayı **ezberden** verildi.
+- **Osmanlı menzil sistemi** — konaklar ~25-35 km. Kavram sağlam, kesin
+  rakam TDV `menzil` maddesinden **doğrulanmalı.**
+- **Mattingly, Roma-Sahra** — vaha zinciri boyunca hâkimiyet, alan değil.
+
+⇒ Bu üçü bir araştırma oturumuna verilecek; özellikle **Renfrew ve menzil**,
+çünkü ikisi de doğrudan tavanı kalibre ediyor.
+
 
 ### 1.3 Ölçüt — sınıf tarihsel büyüklük değil, İDARÎ-ASKERÎ AĞIRLIKTIR
 
