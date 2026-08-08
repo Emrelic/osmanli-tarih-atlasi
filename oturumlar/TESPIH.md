@@ -60,7 +60,7 @@ kapanan       NOKTA HALKA-2 1 · 2 · 3 — üçü de teslim raporuyla kapandı
 | **11** | 🔵 | **Beş görsel şikâyet** (kutu) — Cezayir · Timur/Bağdat ×2 · başkent yıldızı · Ahîler | Kullanıcının kendi sözü; ikisi **tekrar eden madde** ⇒ kural ② |
 | **12** | 🔵 | **9 tarih uyuşmazlığı** — Agadir · Şehrizor · Bucaş · Cüneyd ×2 · Konya 1415 | ölçülmüş, tek tek kapanır |
 | **13** | 🔵 | **Kronoloji çukurları** — 1250-1299: **6 madde** · 1600-1649: **62** (komşuları 111 ve 81) | Kuruluş devri en ince yer |
-| **14** | ⏳ | **`kaynak:` alanı** — sabah 3 dolu → **307 dolu**, 74 boş | Bir günde %1 → %81. **158 havuzdan 84 işlendi.** İsabet oranı bölgeye göre ÇOK değişiyor: Balkanlar/Anadolu **%81** · İran/Kafkasya/Baltık **%45** · İtalya/Doğu Asya/Amerika **%0** (6 örnek) ⇒ Grup 2'de kayıt başına **en çok 2 slug denemesi** |
+| **14** | ✅ | **`kaynak:` alanı — 381/381 DOLU, kaynaksız kayıt 0** | Sabah **3 dolu / 340 boş**tu. Dört sayı: doğrulandı **115** · yetersiz **4** · bulunamadı **56** · çürüdü **0**. 🔴 **Ve İtalya/Doğu Asya/Amerika'nın %0'ı ÖRNEKLEM GÜRÜLTÜSÜYMÜŞ**: ikinci denemede %59 (10/17) tuttu — asıl sorun *genel ülke/kıta maddesinin denenmemesiydi*. ⇒ **6 kayıtla bütün bir coğrafyayı kapsam dışı ilan etmemek doğru karardı** |
 | **15** | ⚪ | **`isg:` borcu** — Niş 1737 · Semendire 1789 · Bihaç 1878 | `2i` tavanı zaten sağlanıyor (3/3) |
 | **16** | ⚪ | **B8 — site 53 MB** | **Mobil ölçümü yok** — kararın önündeki tek gerçek boşluk |
 | **17** | ⚪ | **Ö1/Ö2 yeni değişmezler** | Ö1 (hayalet devlet) bugün üç kez elle kapatıldı ⇒ **artık yazılabilir**; battaniye kararı beklensin |
