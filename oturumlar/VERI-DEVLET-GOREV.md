@@ -1391,3 +1391,72 @@ Doğrulandı (`node -e eval`): 381 kayıt, mükerrer id 0, `merini.harita`
 artık `"merini"`.
 
 `data/devletler.js` pathspec'siz bırakıldı. Koordinatöre haber verildi.
+
+---
+
+## ㉕ Üç kalem — `kaynak:` bedava %11 yazıldı, japonya zinciri ölçüldü, `fas` 1666/1659 önerisi
+
+### ① `kaynak:` bedava 38 kayıt — YAZILDI (mekanik, tek script)
+
+Önceki turda ölçtüğüm 38 id→slug eşleşmesinin TAMAMI `kaynak:` alanına
+yazıldı (id-takipli script, `kronoloji:[` satırının hemen öncesine ekledi).
+Doğrulandı: **38/38 kayıtta `kaynak:` artık dolu**, kayıt sayısı değişmedi
+(381), mükerrer id 0. Kalan 301 kayıt (yeni araştırma gerektiren) DOKUNULMADI,
+talimat böyleydi.
+
+### ② `kamakura→kenmu→muromachi→azuchi-momoyama→edo-bakufu→meiji-japonya` zinciri — YAZMADAN ölçüldü
+
+```
+kamakura          1185-01-01 -> 1333-07-04   harita ✓
+kenmu             1333-07-04 -> 1336-11-07   harita YOK (zaten künye var, RENK 2'nin işi)
+muromachi         1336-01-01 -> 1573-09-01   harita ✓
+azuchi-momoyama   1568-01-01 -> 1615-06-04   harita ✓
+edo-bakufu        1603-03-24 -> 1868-01-03   harita ✓
+meiji-japonya     1868-01-03 -> 1923-10-29   harita ✓
+```
+
+**Sonuç: BOŞLUK YOK — zincir 1281'den (kamakura zaten 1185'ten başlıyor,
+atlas penceresini kapsıyor) 1923-10-29'a (meiji-japonya'nın kendi `t:`si
+ufkun kendisiyle birebir) KESİNTİSİZ.** Hiçbir noktada "hayalet/sahipsizlik"
+riski yok.
+
+⚠️ Ama TERSİ bir durum var — GAP değil ÜST ÜSTE BİNME (overlap), üç yerde:
+`kenmu↔muromachi` ~10 ay, `muromachi↔azuchi-momoyama` ~5 yıl,
+`azuchi-momoyama↔edo-bakufu` ~12 yıl. Bunlar muhtemelen KASITLI (dönem
+adlarının tarihyazımında gerçekten örtüşmesi yaygın — Nobunaga'nın 1568'de
+Kyoto'ya girişi ile 1573'te Ashikaga şogunluğunun resmen kaldırılması gibi
+iki ayrı ama meşru "başlangıç" anı) — ama künye-içi tutarlılık pratiğim
+gereği (§Ö1 hazırlığı) bunu işaretliyorum, KARAR/DÜZELTME istemiyorum,
+yalnız görüldü diye not düşüyorum.
+
+### ③ `fas` 1666 vs TDV 1659 — ÖLÇÜLDÜ + ÖNERİ (karar verilmedi)
+
+TDV'yi tekrar okudum, iki AYRI madde İKİ FARKLI ek tarih daha verdi —
+mesele "1666 mı 1659 mu" değil, **üç ayrı olay var:**
+
+```
+1659   TDV `sadiler`: son Sâdî sultanının öldürülmesi, hanedan İÇTEN çöktü
+1664   TDV `fas`: "1664'te başa geçen Mevlây Reşîd... Merakeş ve Fas gibi
+       önemli şehirleri ele geçirdiler" — Alevî hânedanının FİİLEN iktidara
+       gelişi, iki ana şehrin alınışı
+1666   mevcut `fas` künyesinin kendi kronolojisi — TDV'nin verdiği HİÇBİR
+       tarihle birebir örtüşmüyor, kaynağı künyede belirtilmemiş
+(+20 yıl)  TDV `fas`: tam ülke birleşmesi "müteakip yirmi yıl içinde"
+       tamamlandı (~1684'e dek)
+```
+
+**ÖNERİM (karar değil):** `fas`ın "1666 bolunme" satırı TDV `fas`
+maddesinin verdiği **1664**'e çekilsin — bu, künyenin kendi olayının
+("Alevî hanedanı Sâdîlerin yerini aldı") TDV'nin birebir anlattığı olayla
+(Mevlây Reşîd'in Fas ve Merakeş'i alışı) en yakın eşleşmesi. 1659 (Sâdî'nin
+kendi içten çöküşü) zaten ayrı bir olay olarak `sadi` künyesinde var;
+1666'nın nereden geldiği belirsiz, TDV'nin verdiği hiçbir tarihle
+uyuşmuyor. **Ama bu benim önerim — `fas`a DOKUNMADIM, karar
+koordinatörde.**
+
+### GÜNCEL SAYIM
+
+`data/devletler.js`: 381 (değişmedi, yalnız 38 kayıtta `kaynak:` dolduruldu).
+Doğrulandı (`node -e eval`): mükerrer id 0, ters/sıfır dönem 0.
+
+`data/devletler.js` pathspec'siz bırakıldı. Koordinatöre haber verildi.
