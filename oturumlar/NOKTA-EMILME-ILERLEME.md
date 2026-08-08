@@ -126,3 +126,54 @@ renksiz kimlik                : 5 (yukarıda)
 
 Loango/Luba/Kuba künyeleri onaylanınca bu bölüme dönüp tamamlayacağım.
 Yeni Gine'ye geçiyorum, beklemiyorum.
+
+## DÜZELTMELER — kasıtlı_boşluk biçimi + konum
+
+### Ndongo f=1500 ölçümü (koordinatör istedi)
+Standart kaynak: 1518 "Ngola Kiluanji'nin Portekiz'e elçi göndermesi" —
+BELGELENMİŞ İLK TEMAS, kuruluş değil. Gerçek kuruluş net değil, muhtemelen
+Kongo'ya bağlı bir eyalet olarak daha erken vardı. Net alternatif tarih
+YOK — künyeye dokunulmadı, `Kabasa` noktasının `neden:` alanına belirsizlik
+açıkça yazıldı.
+
+### kasitli_bosluk biçim düzeltmesi
+`yerlesimler.js`teki gerçek örnekler (Kuveyt/Doha/Abu Dabi/Cetinje/
+Vladikavkaz) tarandı — hepsi `kur:` İLE EŞLENİYOR. İlk yazımda bunu
+atlamıştım; 8 Kongo noktasına uygun `kur:` eklendi.
+
+### ③ Yeni Gine YAZILDI (6 nokta, künye GEREKMEDİ)
+```
+Jayapura (Hollandia)   kur:1898 → hollanda-dogu-hint
+Manokwari              kur:1898 → hollanda-dogu-hint
+Port Moresby           kur+kasıtlı_boşluk:1884 → ingiltere→avustralya(1906)
+Madang                 aynı desen → almanya→avustralya(1914)
+Finschhafen            aynı desen
+Mount Hagen (İç Yaylalar) — `kur:`e UYMADIĞI için Rub'ul Hâlî/Sahra dolgu-
+                         nokta kalıbı kullanıldı: d:[], kasitli_bosluk YOK
+```
+3 kasıtlı_boşluk (Port Moresby, Madang, Finschhafen) — GEÇ bildirildi,
+özür, kusur olarak kayda geçiyor.
+
+### 🔴 KONUM — 6 nokta pencere DIŞINDA (koordinat hatası DEĞİL)
+```
+Sofala, Quelimane, Angoche, Mozambik Adası   → pencerenin GÜNEY sınırı
+                                               dışında (~-11°'den güneyde)
+Finschhafen, Port Moresby                     → pencerenin DOĞU sınırı
+                                               dışında (~146°'den doğuda)
+```
+`denetle.py`nin önerdiği "düzeltme" (`lat:-10.9995` dördü için AYNI)
+gerçek konumu yüzlerce km kaydırıyor — UYGULANMADI, koordinatöre soruldu.
+3 küçük kıyı sapması (Kilve/Lamu/Mombasa, <3.4 km) `denetle.py` önerisiyle
+düzeltildi.
+
+### Doğrulama (tüm parti, düzeltmeler sonrası)
+```
+yazılan toplam (①+②+③)    : 26
+py denetle.py Değişmez 1     : ✓ 173 sahipsiz (tavan 178)
+konum                          : 6 nokta pencere dışı — KARAR BEKLİYOR
+renksiz kimlik                    : kongo-kralligi, ndongo,
+                                   lunda-imparatorlugu, avustralya
+```
+
+Koordinatör kararını bekliyorum (pencere-dışı 6 nokta). Loango/Luba/Kuba
+renk gelince Kongo'yu tamamlayacağım.
