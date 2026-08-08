@@ -2799,3 +2799,57 @@ ATEŞLEME `ava`yı `ayutthaya`nın rengiyle önerdim → "ayutthaya 0.0" 🔴 �
 ```
 İkincisi tam olarak korunmak istediğim hata: **paletin iki gövdesine aynı
 rengi vermek.** Ayna onu ilk satırda bastı.
+
+---
+
+## 58. TOPLU TUR — 73 → 20, ve kalan 20'nin YAPISAL olduğu ölçüldü
+
+### ① SONUÇ
+```
+26 yazım · 53 çift kapandı · 20 açık kaldı
+KOMŞUSUYLA ÇAKIŞAN 0 · renk_fark ✓ TEMİZ (26 renk değişti, SIFIR regresyon)
+```
+Yığılma tesadüfi değildi: **ANADOLU 37/73 · İTALYA 21/73** — atlasın en
+yoğun ve en çok anlatılan coğrafyası.
+
+### ② 🔴 ALGORİTMAMIN İLK HÂLİ YANLIŞ SAYIYORDU — ve kendi dersimin vakası
+```
+v1  "44/73 kapandı"     ← YANLIŞ
+v2  "53/73 kapandı"     ← ölçüldü
+```
+**İki kusur:**
+```
+① çözülemeyen kimliğin çiftlerini listeden DÜŞÜRÜYORDU ⇒ kapanmış saydı
+② `ceneviz` çözülemeyince onun 5 çifti de düştü — oysa çiftin ÖBÜR UCU
+  (teke · ferrara · ahiler · bosna) taşınabilirdi
+```
+📌 **Alet kendi tanımına göre doğru rapor veriyordu; TANIM yanlıştı.**
+Bugün üçüncü kez aynı aile — ve bu sefer fail benim muhasebem.
+⇒ Düzeltilince: taşınamaz kimlik **işaretlenir**, çiftleri **kalır**, öbür
+uç denenir. **44 → 53.**
+
+### ③ 🔴 KALAN 20 YAPISAL — ve bu ölçüldü, tahmin edilmedi
+32 kimlik **taşınamaz**: engel sayıları **40-273** ve 164.506 adayın
+**sıfırı** eşiği geçiyor. Açık kalan 20 çiftin **iki ucu da** bu kümede.
+```
+bosna ↔ ceneviz (68/111)      fransa-cumhuriyet ↔ portekiz (69/200)
+inancogullari ↔ karaman (54/65)   mentese ↔ sahibata (65/48)
+```
+⇒ Bunlar `KADEMELI_IHLAL_TAVANI`nın **kalıcı çekirdeği.** Çözümleri renk
+değil: **ya daha az kimlik, ya daha çok nokta** (petek küçülünce bazı
+çiftler 600 km'nin dışına çıkar).
+📌 Ve *"çözülemedi"nin iki cinsi* kuralının üçüncü uygulaması: burada
+bağlayan **tercih değil doygunluk.**
+
+### ④ 🟢 NÖBETÇİ ÜÇ KEZ DAHA YAKALADI — ve bir beyanı ÇÜRÜTTÜ
+`#b34da5` · `#a56cab` · `#8f7d5b` beyanları kırıldı, üçü de güncellendi.
+🔴 **Ve `#8f7d5b`in beyanı ölçümle çürüdü:** *"bosna/ahiler, tarih boyunca
+komşu değil"* diyordu (30 Temmuz). Bugün `bosna ↔ ceneviz` **açık kalan 20
+çiftten biri** — 545 km, eşzamanlı, Adriyatik'in iki yakası.
+⇒ **Bir beyan da bayatlar.** 30 Temmuz'da doğru olan hüküm, veri büyüyünce
+yanlış çıktı.
+
+### ⑤ İKİ TEK-ÜYELİ GRUP KALDI — silinmedi
+`#a56cab` (safevi) ve `#8f7d5b` (bosna) artık tek üyeli. **Tek üyeli
+"paylaşım" paylaşım değildir** ama kayıt olarak duruyor: yarın biri o
+hex'i *"boşta"* sanmasın diye. (Boş kova ≠ olmayan kova.)

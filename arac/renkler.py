@@ -166,7 +166,8 @@ KOVA = {
 
 BOYALAR = {
     # ↑ Anadolu kümesi (bkz. `candar` üstündeki blok) · ton kayması  1,6°
-    "bizans":     ("Bizans",                 "#4e3c81"),
+    # bizans  #4e3c81 → #0f0f5d  (toplu tur)
+    "bizans": ("Bizans", "#0f0f5d"),
     "memluk":     ("Memlûk",                 "#f09087"),
     # 🔴 KAHVEDEN MOR AİLEYE ÇEKİLDİ (RENK oturumu, 2 Ağustos 2026; koordinatör
     # onayı + kullanıcı kuralı). Eski #b5885b kahveydi.
@@ -588,7 +589,8 @@ BOYALAR = {
     #   `kazan` 21,5°, `sardinya` 21,2° — kalanların 24'ü ±20° içinde.
     # 📌 Ve bu parti "GÖRÜNMEZLİK TONU ZORLAR, ÇAKIŞMA ZORLAMAZ" kuralını
     #   üçüncü kez doğruladı: büyük kaymaların hepsi görünmez olanlarda.
-    "astarhan":   ("Astarhan Hanligi",       "#482d15"),
+    # astarhan  #482d15 → #421212  (toplu tur)
+    "astarhan": ("Astarhan Hanligi", "#421212"),
     "altinorda":  ("Altın Orda ve ardılları","#873057"),
     "kazan":      ("Kazan Hanlığı",          "#ff6f4b"),
     "kirim":      ("Kırım Hanlığı bozkırı",  "#b45a1e"),
@@ -739,7 +741,8 @@ BOYALAR = {
     #   en yakın engel ΔE 19,0 (eski hâlde ispanya'ya 4,7) · altlıktan 27,9
     #   ton kayması 19,5° — turuncu-kızıl aile korundu, kimlik sürekliliği var.
     "hollanda":   ("Hollanda",               "#7e332a"),
-    "venedik":    ("Venedik",                "#51c0b1"),
+    # venedik  #51c0b1 → #deed93  (toplu tur)
+    "venedik": ("Venedik", "#deed93"),
     "ceneviz":    ("Ceneviz",                "#633c0c"),
     "napoli":     ("Napoli / İki Sicilya",   "#d23f78"),
     # 🔴 DEĞİŞTİ (RENK oturumu, 2 Ağustos). Eski #c9c1a3 soluk krem-altındı ve
@@ -808,7 +811,8 @@ BOYALAR = {
     # Lahsa 1670'te Benî Hâlid'e kaybedildi, 1795'te Suûî́lere geçti; arada
     # hiçbir sahip yazılı olmadığı için bölge haritada boş kalıyordu.
     # ↑ Kızıldeniz kümesi (bkz. `yemen` üstündeki blok) · kayma 18,8° · pay 14,0 · altlık 16,3
-    "benihalid":  ("Benî Hâlid Emirliği (Lahsa)", "#729f6f"),
+    # benihalid  #729f6f → #9c815a  (toplu tur)
+    "benihalid": ("Benî Hâlid Emirliği (Lahsa)", "#9c815a"),
     # Benî Hâlid'den ÖNCEKİ üç yüzyıl da boştu — daha doğrusu `iran` yazıyordu.
     # Kullanıcının kendi gözlemi (parti-0001/H-0001): "Arabistan yarımadasında
     # da iran diye bölgeler var." Doğu Arabistan hiçbir dönemde İran değildi.
@@ -966,7 +970,8 @@ BOYALAR = {
     "vollayta":   ("Vollayta (Wolaita) Krallığı", "#5c6bc0"),
     # --- 1918 sonrası ardıl devletler: Habsburg ve Romanov gövdeleri dağılınca
     # yerine hiçbir sahip yazılmamıştı; Orta Avrupa 1918-1923 karelerinde boştu.
-    "cekoslovakya": ("Çekoslovakya",          "#5d4037"),
+    # cekoslovakya  #5d4037 → #930c5d  (toplu tur)
+    "cekoslovakya": ("Çekoslovakya", "#930c5d"),
     "polonya":      ("Polonya Cumhuriyeti",   "#ab47bc"),
     "yugoslavya":   ("Yugoslavya (SHS)",      "#00695c"),
     # ↓ Baltık kümesi — üçü de değişti (bkz. `isvec` üstündeki blok)
@@ -1122,7 +1127,8 @@ BOYALAR = {
     # Hîve ile İran arasında el değiştiren kıyı şeridi için ayrı kimlik.
     "cagatay":      ("Çağatay Hanlığı",        "#6a1b9a"),
     "hive":         ("Hîve Hanlığı (Harezm)",  "#00695c"),
-    "buhara":       ("Buhara Hanlığı",         "#4527a0"),
+    # buhara  #4527a0 → #785ae7  (toplu tur)
+    "buhara": ("Buhara Hanlığı", "#785ae7"),
     # ═══ HOKAND — RENK 2, 6 Ağustos 2026 · Mâverâünnehir partisinin son engeli ═══
     # Fergana'nın üçüncü hanlığı; Hîve ve Buhara'nın yanındaki boşluktu.
     # Partinin ihtiyaç duyduğu 14 kimlikten 13'ü zaten burada; eksik buydu.
@@ -1214,7 +1220,8 @@ BOYALAR = {
     # Eski #8f6b3a Ceneviz'e (#8a6b4a) ΔE 9.5, Hamîd'e 12.8, Ahi'ye 14.5 mesafedeydi.
     # Germiyan sahnede 15 devletle sınırdaş — Anadolu'nun en kalabalık köşesi.
     # ↑ Anadolu kümesi (bkz. `candar` üstündeki blok) · ton kayması  0,2°
-    "germiyan":   ("Germiyanoğulları",        "#3cc3db"),
+    # germiyan  #3cc3db → #1eeaf3  (toplu tur)
+    "germiyan": ("Germiyanoğulları", "#1eeaf3"),
     # ↑ Anadolu kümesi (bkz. `candar` üstündeki blok) · ton kayması  0,0°
     "aydin":      ("Aydınoğulları",           "#488d7b"),
     # Eski #6b8f4a, 60 km ötedeki Karesi'ye (#6b9e5b) ΔE 7.5 idi — iki beylik
@@ -1256,11 +1263,13 @@ BOYALAR = {
     #   yanlış cevabı kendinden emin verir. Bu, o dersin üçüncü tekrarı.
     #
     # ÖLÇÜM: eşik 12 · 17/17 kapandı · altlıktan en dar 18,9 · doygunluk aykırısı 0
-    "candar":     ("Candaroğulları",          "#7896ff"),
+    # candar  #7896ff → #7b90f0  (toplu tur)
+    "candar": ("Candaroğulları", "#7b90f0"),
     "dulkadir":   ("Dulkadiroğulları",        "#00838f"),
     # ↑ Anadolu kümesi (bkz. `candar` üstündeki blok) · ton kayması  0,4°
     "ramazanoglu":("Ramazanoğulları",         "#2d483c"),
-    "karesi":     ("Karesioğulları",          "#6b9e5b"),
+    # karesi  #6b9e5b → #72b7f0  (toplu tur)
+    "karesi": ("Karesioğulları", "#72b7f0"),
     "katalan":    ("Katalan Dukalığı (Atina-Neopatras)", "#9e8f3a"),
     # --- Fetret Devri (1402-1413): şehzade payları ---
     # Ankara Savaşı'ndan sonra tek bir Osmanlı gövdesi kalmadı; ülke şehzadeler
@@ -1286,15 +1295,49 @@ BOYALAR = {
     # (#a08a6b / #9e8a6b) arazi kabartma katmanının beji ile karışıyor ve
     # "Ankara civarında kimse yok" görüntüsü veriyordu.
     # ↑ Anadolu kümesi (bkz. `candar` üstündeki blok) · ton kayması  0,4°
-    "ilhanli":    ("İlhanlı Devleti",         "#9f66c3"),
+    # ilhanli  #9f66c3 → #c690ed  (toplu tur)
+    "ilhanli": ("İlhanlı Devleti", "#c690ed"),
     # ↑ Anadolu kümesi (bkz. `candar` üstündeki blok) · ton kayması  0,2°
-    "eretna":     ("Eretna Beyliği",          "#5dc38a"),
+    # eretna  #5dc38a → #8df0ae  (toplu tur)
+    "eretna": ("Eretna Beyliği", "#8df0ae"),
     # ↑ Anadolu kümesi (bkz. `candar` üstündeki blok) · ton kayması  0,6°
     "burhaneddin":("Kadı Burhâneddin Devleti","#155412"),
     "artuklu":    ("Artukoğulları",           "#18cca2"),
-    "ahiler":     ("Ahi Birliği (Ankara)",    "#8f7d5b"),
+    # ═══════════════════════════════════════════════════════════════════
+    # TOPLU TUR — 26 renk, 53 çift, 8 Ağustos 2026 (RENK 2)
+    # ═══════════════════════════════════════════════════════════════════
+    # `renk_olc.yakin_renk()` yeni bir kör nokta açtı: Voronoi komşusu
+    # OLMAYAN ama eşzamanlı ve 600 km'den yakın çiftler. 73 ihlal buldu ve
+    # yığılma tesadüfi değil:
+    #     ANADOLU BEYLİKLERİ 37/73    İTALYAN ŞEHİRLERİ 21/73
+    # Yani körlük **atlasın en yoğun ve en çok anlatılan coğrafyasında**
+    # vuruyordu — kullanıcının Osmanlı'nın doğuşunu okuduğu ekran.
+    #
+    # YÖNTEM: açgözlü örtü. Her turda en çok çiftte geçen kimlik taşınır,
+    #   kapanan çiftler düşer, tekrarlanır. Engel kümesi `engel_kumesi()`
+    #   (Voronoi ∪ 1500 km eşzamanlı) — 600 km ile çözmek hedefi ıskalıyor.
+    #
+    # 🔴 VE ALGORİTMANIN İLK HÂLİ YANLIŞTI: çözülemeyen kimliğin çiftlerini
+    #   listeden DÜŞÜRÜYORDU ⇒ "44/73 kapandı" dedi, oysa bir kısmı sadece
+    #   atılmıştı. Dahası `ceneviz` çözülemeyince onun 5 çifti de düşüyordu —
+    #   oysa çiftin ÖBÜR UCU taşınabilirdi. Düzeltilince: taşınamaz kimlik
+    #   işaretlenir, ÇİFTLERİ KALIR, öbür uç denenir. 44 → 53.
+    #   📌 Alet kendi tanımına göre doğru rapor veriyordu — tanım yanlıştı.
+    #
+    # SONUÇ: 26 yazım · 53 çift kapandı · 20 çift AÇIK KALDI.
+    # 🔴 AÇIK KALAN 20'NİN İKİ UCU DA TAŞINAMAZ — ve bu YAPISAL, tercih
+    #   değil. Palet bu bölgelerde doymuş: 32 kimliğin engel sayısı 40-273
+    #   arasında ve 164.506 adayın SIFIRI eşiği geçiyor. Örnekler:
+    #     bosna ↔ ceneviz (68/111) · fransa-cumhuriyet ↔ portekiz (69/200)
+    #     inancogullari ↔ karaman (54/65) · mentese ↔ sahibata (65/48)
+    #   ⇒ Bunlar `KADEMELI_IHLAL_TAVANI`nın kalıcı çekirdeği. Çözümleri
+    #     renk değil, ya daha az kimlik ya daha çok nokta (petek küçülünce
+    #     bazı çiftler 600 km'nin dışına çıkar).
+    # ahiler  #8f7d5b → #f0a260  (toplu tur)
+    "ahiler": ("Ahi Birliği (Ankara)", "#f0a260"),
     # --- kullanıcının sorduğu, haritada temsili olmayan beylikler ---
-    "cobanogullari":  ("Çobanoğulları",        "#4a8f8f"),
+    # cobanogullari  #4a8f8f → #a8331e  (toplu tur)
+    "cobanogullari": ("Çobanoğulları", "#a8331e"),
     # Eski #3a6b9e, komşusu Candaroğulları'na (#5b6b9e) ΔE 8.6 idi; Kastamonu ile
     # Sinop 135 km arayla iki ayırt edilemez mavi gövdeydi.
     "pervane":        ("Pervâneoğulları",      "#70c28b"),
@@ -1334,7 +1377,8 @@ BOYALAR = {
     # OSMANLI (38 nokta-dönem), fransa (31), ispanya (1); metbûu Fas da sınırdaş.
     # Bindirilmiş ΔE — fransa 19,8 · fas 20,5 · ispanya 23,3 · Osmanlı tonları 26-33.
     "abdulkadir": ("Emîr Abdülkādir Devleti", "#26a69a"),
-    "atinadukaligi": ("Atina Dukalığı",       "#81a86f"),
+    # atinadukaligi  #81a86f → #0c3fcc  (toplu tur)
+    "atinadukaligi": ("Atina Dukalığı", "#0c3fcc"),
 
     # Kütahya·Konya·Karaman'ın 1832-1833 `isg:` örtüsü için. Mısır bu atlasta
     # hep Osmanlı tâbii olarak modellendiği için kendi kimliği hiç olmamıştı.
@@ -1456,15 +1500,19 @@ BOYALAR = {
     "belcika":       ("Belçika",                   "#4b9cae"),
     "bretanya":      ("Bretanya Dukalığı",         "#36693f"),
     "burgonya":      ("Burgonya Dukalığı",         "#ab9ccf"),
-    "ferrara":       ("Ferrara Dukalığı",          "#ae7e4b"),
+    # ferrara  #ae7e4b → #300c93  (toplu tur)
+    "ferrara": ("Ferrara Dukalığı", "#300c93"),
     "irlanda-serbest-devlet": ("Irlanda Hur Devleti", "#ea8751"),
     "irlanda":       ("İrlanda",                   "#06b1fc"),
     "iskocya":       ("İskoçya Krallığı",          "#3633d5"),
-    "isvicre":       ("İsviçre Konfederasyonu",    "#754bae"),
+    # isvicre  #754bae → #eda2ae  (toplu tur)
+    "isvicre": ("İsviçre Konfederasyonu", "#eda2ae"),
     "kastilya":      ("Kastilya Krallığı",         "#4bae4e"),
     "luksemburg":    ("Lüksemburg",                "#4b3f51"),
-    "mantua":        ("Mantua Dukalığı",           "#2a6fd5"),
-    "navarra":       ("Navarra Krallığı",          "#c94530"),
+    # mantua  #2a6fd5 → #0c6393  (toplu tur)
+    "mantua": ("Mantua Dukalığı", "#0c6393"),
+    # navarra  #c94530 → #f07e69  (toplu tur)
+    "navarra": ("Navarra Krallığı", "#f07e69"),
     "parma":         ("Parma Dukalığı",            "#ae4b75"),
     "piza":          ("Piza Cumhuriyeti",          "#2ac9a8"),
     "siena":         ("Siena Cumhuriyeti",         "#636f03"),
@@ -1776,7 +1824,8 @@ BOYALAR = {
     #     (#2d8f4a, ΔE 0,00) — Malaka Boğazı'nın iki yakası, 855 km.
     #     Malaka taşındı Açe değil: ömrü 111 yıl (1400-1511) vs 407,
     #     ve ardılları (ingiliz-malaya · malay-sultanliklari) ayrı renkte.
-    "malaka-sultanligi": ("Malaka Sultanlığı", "#845a12"),
+    # malaka-sultanligi  #845a12 → #0fbdf0  (toplu tur)
+    "malaka-sultanligi": ("Malaka Sultanlığı", "#0fbdf0"),
     "ming-hanedani":           ("Ming Hanedanı",                     "#2d8f4a"),
     # ═══ MEİJİ JAPONYA — GRUPTAN ÇIKARILDI, RENK 2 · 6 Ağustos 2026 ═══
     # 🔴 ESKİ #2d8f4a, `rusya` #4f7d4f'ten ΔE 10,2 — EŞİĞİN (12) ALTINDA ve
@@ -1800,10 +1849,12 @@ BOYALAR = {
     #   AYNI ANDA sahnede. Komşu olmadıkları için hiçbir denetim ateşlemezdi
     #   — kural ihlali değil, OKUMA hatası olurdu. Ton aileleri tarandı:
     #   330-360° 16,9 · 0-30° 16,5 · 120-150° 13,8 · 270-300° 12,1.
-    "meiji-japonya":           ("Meiji ve Sonrası Japonya İmparatorluğu", "#ae3f81"),
+    # meiji-japonya  #ae3f81 → #1bb790  (toplu tur)
+    "meiji-japonya": ("Meiji ve Sonrası Japonya İmparatorluğu", "#1bb790"),
     # ── #b34da5  [ASYA · ① EKSİK, gövde yok · zarf(-25,-17.5,159,74) teyitli]  ile paylaşımlı (saruhan) · 4 kimlik
     "mataram-sultanligi":      ("Mataram Sultanlığı (Cava)",         "#b34da5"),
-    "meysur":                  ("Meysûr Sultanlığı (Haydar Ali / Tipu Sultan)", "#b34da5"),
+    # meysur  #b34da5 → #15421e  (toplu tur)
+    "meysur": ("Meysûr Sultanlığı (Haydar Ali / Tipu Sultan)", "#15421e"),
     "nguyen-hanedani":         ("Nguyễn Hanedanı (Vietnam)",         "#b34da5"),
     "tibet-ganden-phodrang":   ("Tibet (Dalai Lama Hükûmeti, Ganden Phodrang)", "#b34da5"),
     # ── #00acc1  [ASYA · ① EKSİK, gövde yok · zarf(-25,-17.5,159,74) teyitli]  ile paylaşımlı (turkmen) · 3 kimlik
@@ -1901,7 +1952,8 @@ BOYALAR = {
     "afgan-durrani":           ("Dürrânî Devleti (Afganistan)",      "#3c1239"),
     "afganistan":              ("Afganistan Emirliği",               "#e4b1d5"),
     # ── #6b4a7d  [ASYA · ① EKSİK, gövde yok · zarf(-25,-17.5,159,74) teyitli]  ile paylaşımlı (safevi) · 1 kimlik
-    "le-hanedani":             ("Lê Hanedanı (Đại Việt)",            "#a56cab"),
+    # le-hanedani  #a56cab → #9ceded  (toplu tur)
+    "le-hanedani": ("Lê Hanedanı (Đại Việt)", "#9ceded"),
 
     # ═══════════════════════════════════════════════════════════════════════
     # ASYA PARTİ 1 — 1550 kesitinin 12 adsız kimliği (VERİ KİMLİK 3, 3 Ağustos)
@@ -1927,7 +1979,8 @@ BOYALAR = {
     #   Sonuç (öncesi → sonrası): görünmez 10 → 10 · çakışma 56 → 56 · aynı-hex 0 → 0.
     #   Artefakt: denetim/oneri-asya-parti1.txt
     "sur-hanedani":            ("Sûrîler (Sûr Hânedanı)",            "#4272ae"),
-    "gucerat-sultanligi":      ("Gucerât Sultanlığı",                "#72ae42"),
+    # gucerat-sultanligi  #72ae42 → #f0729f  (toplu tur)
+    "gucerat-sultanligi": ("Gucerât Sultanlığı", "#f0729f"),
     "racput":                  ("Racput Devletleri",                 "#42ae6c"),
     "bicapur":                 ("Âdilşâhî Sultanlığı (Bîcâpûr)",     "#ae7e42"),
     "ahmednagar":              ("Nizamşâhî Sultanlığı (Ahmednagar)", "#42aea2"),
@@ -1975,7 +2028,8 @@ BOYALAR = {
     "mac-hanedani":            ("Mạc Hanedanı (Đại Việt)",           "#5a42ae"),
     "malay-sultanliklari":     ("Malay Sultanlıkları",               "#78ae42"),
     "sind":                    ("Sind",                              "#a8ae42"),
-    "kesmir":                  ("Keşmir Sultanlığı",                 "#48ae42"),
+    # kesmir  #48ae42 → #ed6ccf  (toplu tur)
+    "kesmir": ("Keşmir Sultanlığı", "#ed6ccf"),
     "malva-sultanligi":        ("Mâlvâ Sultanlığı",                  "#8a42ae"),
     "arakan":                  ("Arakan (Mrauk U) Krallığı",         "#42ae66"),
     "ahom":                    ("Ahom Krallığı (Assam)",             "#ae9042"),
@@ -2032,7 +2086,8 @@ BOYALAR = {
     "berar":                   ("İmâdşâhî Sultanlığı (Berâr)",       "#9090fc"),
     "kalikut":                 ("Kalikut Zamorinliği",               "#428a36"),
     "travankur":               ("Travankur Krallığı",                "#723cc6"),
-    "kandy":                   ("Kandy Krallığı (Seylan)",           "#a23cc6"),
+    # kandy  #a23cc6 → #600f3c  (toplu tur)
+    "kandy": ("Kandy Krallığı (Seylan)", "#600f3c"),
     "yafna":                   ("Yafna (Jaffna) Krallığı",           "#603684"),
     # ═══ san-devletleri — DÖRT ÇİFTİ TEK YAZIMLA KAPATIR, 8 Ağustos 2026 ═══
     # Şan beylikleri Burma-Yunnan-Siyam üçgeninde TAM ORTADA duruyor; nokta
@@ -2100,7 +2155,8 @@ BOYALAR = {
     "azuchi-momoyama":         ("Azuchi-Momoyama (Oda-Toyotomi)",    "#6042ae"),
     "guney-ming":              ("Güney Ming",                        "#429cae"),
     "nguyen-beyligi":          ("Nguyễn Beyleri (Đàng Trong)",       "#4266b4"),
-    "hosut":                   ("Hoşut (Kokonor) Hanlığı",           "#427eae"),
+    # hosut  #427eae → #0c8df3  (toplu tur)
+    "hosut": ("Hoşut (Kokonor) Hanlığı", "#0c8df3"),
     "tungning":                ("Tungning Krallığı (Zheng)",         "#66b442"),
 
     # ═══════════════════════════════════════════════════════════════════════
@@ -2189,8 +2245,9 @@ PAYLASIM = {
     "#00acc1": ("kavalali↔turkmen (Oturum 16) + Asya partisi",
                 ["turkmen", "kavalali", "delhi-sultanligi",
                  "ingiliz-hindistani", "ingiliz-malaya"]),
-    "#b34da5": ("Asya partisi — saruhan ile paylaşımlı",
-                ["saruhan", "mataram-sultanligi", "meysur",
+    "#b34da5": ("Asya partisi — saruhan ile paylaşımlı; `meysur` 2026-08-08 "
+                "toplu turunda ayrıldı (danimarka ile ΔE 11,9 idi)",
+                ["saruhan", "mataram-sultanligi",
                  "nguyen-hanedani", "tibet-ganden-phodrang"]),
     # 🟢 BEYAN GÜNCELLENDİ — self-check bunu YAKALADI (yazıldıktan ~1 saat sonra,
     #   ilk gerçek koşusunda). `taceddin` Anadolu partisinde #1b8d36'ya taşındı;
@@ -2221,12 +2278,23 @@ PAYLASIM = {
     #   ve `le-hanedani` ONU İZLEDİ (ölçüldü: komşularından ΔE 14,5, altlık 26,3).
     #   Kasıtlı paylaşımın nasıl korunacağının örneği: önder oynayınca izleyen
     #   de oynar — ama ancak ölçüm izin veriyorsa.
-    "#a56cab": ("Asya partisi — safevi ile paylaşımlı (İran↔Vietnam, komşu değil)",
-                ["safevi", "le-hanedani"]),
+    # ⚠️ GRUP TEKE İNDİ — `le-hanedani` 2026-08-08 toplu turunda ayrıldı
+    #   (`san-devletleri` ile ΔE 7,07 idi, 647 km, 1428-1789 eşzamanlı).
+    #   Tek üyeli "paylaşım" paylaşım değildir; kayıt olarak duruyor ki
+    #   yarın biri #a56cab'i "boşta" sanmasın — `safevi` kullanıyor.
+    "#a56cab": ("Asya partisi — TEK ÜYE kaldı (safevi); le-hanedani ayrıldı",
+                ["safevi"]),
     "#0288d1": ("Asya partisi — darfur ile paylaşımlı (babur görünürlük düzeltmesi)",
                 ["darfur", "babur-imparatorlugu"]),
-    "#8f7d5b": ("2026-07-30 denetimi — bosna/ahiler, tarih boyunca komşu değil",
-                ["bosna", "ahiler"]),
+    # ⚠️ GRUP TEKE İNDİ — `ahiler` 2026-08-08 toplu turunda ayrıldı
+    #   (`hamid` 9,03 · `teke` 10,44 · `ceneviz` 11,56 — üçü de Anadolu).
+    # 🔴 VE BEYANIN KENDİSİ ÖLÇÜMLE ÇÜRÜDÜ: "tarih boyunca komşu değil"
+    #   diyordu, ama `bosna ↔ ceneviz` bugün AÇIK KALAN 20 çiftten biri
+    #   (ΔE 11,56 · 545 km · eşzamanlı). İkisi Adriyatik'in iki yakası.
+    #   ⇒ 30 Temmuz'da doğru olan hüküm, veri büyüyünce yanlış çıktı —
+    #     `C14`: bir beyan da bayatlar.
+    "#8f7d5b": ("2026-07-30 denetimi — TEK ÜYE kaldı (bosna); ahiler ayrıldı",
+                ["bosna"]),
     # 🟢 GRUP KALDIRILDI — `norvec` #e76690'a taşındı (RENK 2, 2026-08-06),
     #   çünkü `_ek12` bağlanınca `portekiz` ile ΔE 7,4 kaldı. Geriye
     #   #5c6bc0'ı YALNIZ `vollayta` kullanıyor ⇒ ortada paylaşım KALMADI.
