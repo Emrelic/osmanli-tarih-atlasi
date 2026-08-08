@@ -387,3 +387,77 @@ bırakmak, KADEME 1 yığını üretir — net faydası sıfır.
 
 > **Allah'ın verdiği nefesi ve Claude'un verdiği tokenleri boşa
 > harcamayalım; en kısa ve en verimli zamanda en isabetli işi çıkaralım.**
+
+---
+
+# KALİTE MERDİVENİ — Emre, 8 Ağustos 2026
+
+> *"Bir bölge için bir kalite"* ilkesi. Kademeli ilerleme: her coğrafya
+> **kendi kalite basamağına** kadar doldurulur, hepsi aynı inceliğe
+> çekilmez. Bir bölgeyi hedefinin ötesine taşımak **kayıptır** — o emek
+> daha aşağıdaki bir bölgede kat kat fazla iş görür.
+
+## Merdiven
+
+| kalite | hedef | ne demek — HANGİ KADEMEYE KADAR | bölgeler |
+|---|---|---|---|
+| **1** | %95,625 | köy / nahiye düzeyi | 🔴 **hiçbir bölge burada değil** |
+| **2** | ~%93 | " | 🔴 boş |
+| **3** | %91,25 | **kaza merkezi** (`k:4`) | Osmanlı ve çevresi |
+| **4** | %82,5 | **sancak merkezi** (`k:3`) | Avusturya · İran · Avrupa Rusyası · İtalya/Venedik |
+| **5** | %75 | **eyalet / il merkezi** (`k:2`) | İberya · Hollanda-Belçika · Çin · Hindistan · D. Asya |
+| **6** | %50 | **başkent ve büyük şehir** (`k:1-2`) | Amerika · Sahra altı Afrika · Avustralya |
+
+🔴 **Yüzde, YOĞUNLUĞUN yüzdesi DEĞİL — İNİLEN KADEMEnin karşılığıdır.**
+Bu ayrım işi **doksan kat** küçültüyor: *"Amerika %50"* eğer *"Osmanlı
+yoğunluğunun yarısı"* demek olsaydı 67,5 milyon km²'ye **5.800 nokta**
+gerekirdi. *"Yalnız başkentler ve büyük şehirler"* demek olduğunda
+**~40 nokta** gerekiyor — Tenochtitlán · Cusco · Cahokia · Tikal ·
+Chan Chan · Potosí · Lima · Havana · Québec…
+⇒ Aynı hedef cümlesi, iki tanımla **5.800 ya da 40 nokta.** Tanım, işin
+kendisinden daha belirleyici.
+
+## Ölçülen durum (8 Ağustos 2026, 2302 nokta)
+
+```
+kalite  bölge                       kara bin km²  nokta  yoğunluk  pencerede
+  3     Osmanlı ve çevresi               2.701     464    17,18      %100
+  4     Avusturya·İran·Rusya(Avr)        7.377     336     4,55      %100
+  4     İtalya / Venedik                   572     114    19,94      %100
+  5     İspanya · Portekiz                 660      63     9,55      %100
+  5     Hollanda · Belçika                 166      28    16,87      %100
+  5     Çin · Hindistan · D.Asya        16.475     378     2,29      %100
+  6     Amerika·Sahra altı·Avustralya   67.496     226     0,33       %20
+```
+
+🟢 **İtalya (19,94) ve Hollanda-Belçika (16,87) hedeflerini AŞMIŞ** —
+ikisi de Osmanlı çekirdeğine (17,18) eşit ya da üstünde. **Oraya iş
+verilmez**; verilirse merdivenin ilkesi çiğnenir.
+
+🔴 **Gerçek boşluk üç yerde:** kalite 4'te Avusturya-İran-Rusya (4,55) ·
+kalite 5'te Çin-Hindistan (2,29) · kalite 6'da Amerika-Afrika-Avustralya
+(0,33 **ve %80'i pencere dışı**).
+
+## Sıra — ve hangisinin neye bağlı olduğu
+
+```
+① KALİTE 4   Avusturya · İran · Avrupa Rusyası   ~180 nokta
+             🟢 HİÇBİR ŞEYE BAĞLI DEĞİL — hepsi pencere içinde, hemen başlar
+② KALİTE 5   Çin · Hindistan · Doğu Asya          ~280 nokta
+             künyeler kısmen var (gond-kralliklari · ming · joseon…)
+③ KALİTE 6   Amerika · Sahra altı · Avustralya     ~130 nokta
+             🔴 ÖN ŞART: PENCERE AÇILMALI. Bugün %80'i kutunun dışında,
+                ve pencere de A1 yarıçap tavanı geçmeden açılamaz.
+```
+
+⚠️ ③'ün ön şartı ölçülmüş bir vakaya dayanıyor: NOKTA SİBİRYA'nın dört
+noktası (Petropavlovsk · Koryak · Çukotka · Anadır, 158-177°D) **doğru
+araştırılmış, doğru yazılmış ve haritada görünmüyor** — çünkü pencere
+146°D'de bitiyor. Pencere açılmadan yazılan nokta, **yazılmamış noktadır.**
+
+## 📌 Merdivenin kendi kuralı
+
+**Bir bölge hedefine ulaştığında ORADA DURULUR.** Osmanlı çekirdeğini
+kalite 2'ye çıkarmak teknik olarak mümkündür ama Amerika kalite 6'dayken
+yapılırsa **yanlış iştir** — `ONCELIK.md`nin çöl seyyahı ilkesi tam budur:
+*bir sonraki kuyu, elindeki matarayı büyütmekten önemlidir.*
