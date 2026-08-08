@@ -538,6 +538,63 @@ def denetle():
     return gorunmez, cakisan, ortusen, hex_cak, yak_i
 
 
+
+B_KADEME_KM = 1500.0   # "aynı ekran" — 600 km "aynı ekran KÖŞESİ"nden geniş
+
+
+def engel_kumesi(kim, esik=B_KADEME_KM, k=None):
+    """kim'in ENGELLERİ: Voronoi komşuları ∪ `esik` içindeki EŞZAMANLI
+    palet kimlikleri. Künye penceresi kullanılır (veri zarfı değil) —
+    kimliğin veride hiç dönemi olmasa bile ölçülebilsin diye.
+
+    🔴 NİÇİN AYRI BİR FONKSİYON: 8 Ağustos 2026'da bir renk seçimi kendi
+      hedefini ıskaladı. `san-devletleri` 600 km engel kümesiyle çözüldü,
+      sonuç `le-hanedani` 11,89 — HÂLÂ EŞİĞİN ALTINDA. Sebep: kapatılacak
+      çiftler 647-1170 km aralığındaydı, yani 600 km süzgecinin DIŞINDA ⇒
+      engel kümesine hiç girmediler.
+      ⇒ **ENGEL KÜMESİ, KAPATILMAK İSTENEN ÇİFTİ İÇERMİYORSA ÇÖZÜM O ÇİFTİ
+        ÇÖZMEZ — ve çözücü bunu söylemez, "çözdüm" der.**
+      Çözücü kusursuz çalışmıştı; KISIT eksik verilmişti. Bu fonksiyon o
+      kısıtı tek yerde tutuyor ki her çözücü aynı evreni görsün."""
+    import collections as _c
+    if k is None:
+        k, _ = komsuluk()
+    Y = girdi.yukle(sessiz=True)
+    nokta, zarf = _c.defaultdict(list), {}
+    for y in Y:
+        for kat in ("s", "v"):
+            for pr in (y.get(kat) or []):
+                d, f, t = pr.get("d"), pr.get("f"), pr.get("t")
+                if not (d and f and t):
+                    continue
+                nokta[d].append((y["lat"], y["lon"]))
+                e = zarf.get(d)
+                zarf[d] = (min(e[0], f), max(e[1], t)) if e else (f, t)
+    pen = dict(zarf)
+    for dv in girdi.oku_devletler():
+        an = dv.get("harita") or dv.get("id")
+        if not an or not dv.get("f") or not dv.get("t"):
+            continue
+        e = pen.get(an)
+        pen[an] = ((min(dv["f"], e[0]), max(dv["t"], e[1])) if e
+                   else (dv["f"], dv["t"]))
+    out = {x for x in k.get(kim, ()) if x in BOYALAR}
+    f, t = pen.get(kim, ("1281-01-01", "1923-10-29"))
+    for b in BOYALAR:
+        if b == kim or b in out or b not in nokta:
+            continue
+        fb, tb = pen.get(b, (None, None))
+        if fb and not (fb < t and f < tb):
+            continue
+        if kim in nokta:
+            en = min(girdi.km(pa[0], pa[1], pb[0], pb[1])
+                     for pa in nokta[kim] for pb in nokta[b])
+        else:
+            continue                    # kim'in noktası yok: çözücü kendi ölçer
+        if en < esik:
+            out.add(b)
+    return out
+
 # ═══════════════ AKTARIM DENETİMİ — öneri ↔ dosya ═══════════════
 def dogrula(yol):
     """Öneri listesindeki (kimlik → hex) her rengi renkler.py'deki GERÇEK
@@ -606,6 +663,41 @@ def dogrula(yol):
             print(f"  ⚠ GÖRÜNÜRLÜK  {kimlik:<20} {hx} altlıktan ΔE "
                   f"{d_alt:.1f} < {DE_ALTLIK:.0f} — aktarım sorunu değil, "
                   f"ÖNERİ sorunu (denetle() ile teyit et)")
+    # 🔴 SON DOĞRULAMA — "aktarım doğru" ≠ "renk İŞİNİ GÖRÜYOR".
+    # Koordinatör isteği (8 Ağustos 2026), sebebi `engel_kumesi()`de yazılı:
+    # bir çözüm kendi hedefini ıskalayabilir ve çözücü "çözdüm" der.
+    # ⚠️ ÇIKIŞ KODUNU ETKİLEMEZ ve etkilememeli: paletin bilinen bir borcu
+    #   var (`KADEMELI_IHLAL_TAVANI`) ve o borçtaki çiftler burada da
+    #   görünür. Bu bölüm bir KAPI değil AYNA — yazan, hedefinin gerçekten
+    #   kapandığını GÖRSÜN diye.
+    # 🔴 VE AYNANIN EŞİĞİ KAPININKİNDEN GENİŞ — KASITLI:
+    #     yakin_renk() (KAPI)   600 km  = "aynı ekran KÖŞESİ"
+    #     bu bölüm     (AYNA)  1500 km  = "aynı ekran"
+    #   Ayna daha çok gösterir, çünkü işi karar vermek değil UYARMAK.
+    #   İlk koşusunda hemen işe yaradı: `san-devletleri ↔ kakatiya` ΔE 7,4 ·
+    #   1442 km · eşzamanlı 1281-1323 — 600 km'lik kapının GÖRMEDİĞİ, ama
+    #   bir sonraki nokta partisinde kapıya dayanacak bir çift.
+    #   ⚠️ Bu yüzden aynanın çıktısı "denetim kırmızı" DEĞİLDİR. İkisini
+    #     aynı sayı sanmak, aynayı kapı zannetmek olur.
+    if "--hizli" not in sys.argv:
+        _k, _ = komsuluk()
+        print(f"\n  SON DOĞRULAMA — önerilen rengin eşik altı komşuları "
+              f"(ΔE < {DE_KOMSU:.0f} · Voronoi ∪ {B_KADEME_KM:.0f} km eşzamanlı)")
+        _hic = True
+        for kimlik, hx in sorted(oneriler.items()):
+            if kimlik not in BOYALAR:
+                continue
+            _L = lab(bind(h2r(hx)))
+            _alt = sorted((dE(_L, gorunen(b)), b)
+                          for b in engel_kumesi(kimlik, k=_k) if b in BOYALAR)
+            _alt = [x for x in _alt if x[0] < DE_KOMSU]
+            if _alt:
+                _hic = False
+                print(f"    🟠 {kimlik:<22} {len(_alt)} çift: "
+                      + " · ".join(f"{b} {d:.1f}" for d, b in _alt[:4]))
+        if _hic:
+            print("    ✓ önerilen renklerin hiçbirinin eşik altı komşusu yok")
+
     for kimlik, hx, gercek in farklar:
         print(f"  🔴 FARK  {kimlik:<22} öneri {hx} ≠ dosyada {gercek}")
     for kimlik in yoklar:

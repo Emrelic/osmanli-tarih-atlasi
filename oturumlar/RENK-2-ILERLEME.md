@@ -2750,3 +2750,52 @@ karesi 7 · ceneviz 5 · atinadukaligi 5 · venedik 5 · aydin 4 · bosna 4
 📌 Ve niçin bugüne kadar görünmedi: beylikler **küçük ve bitişik**, Voronoi
 komşuluğu onları görüyor **olmalıydı**. Görmedi — çünkü aralarında başka
 peteklerin şeridi var. **149 çiftin hiçbirini hiçbir denetim kurmuyordu.**
+
+---
+
+## 57. SON DOĞRULAMA — çözücünün kendi hedefini ıskalamasına karşı
+
+Koordinatörün isteği, ve sebebi benim hatam: *"çözüm sonrası hedef çift
+gerçekten eşiği geçti mi diye SORULMUYORDU."*
+
+### ① `engel_kumesi()` — kısıt artık TEK YERDE
+Bugün üç ayrı çözücü yazdım ve **üçü de kendi engel kümesini kurdu.**
+Biri 600 km kullandı ve hedefini ıskaladı. ⇒ Kısıt `renk_olc.engel_kumesi()`
+içinde toplandı: **Voronoi komşuları ∪ 1500 km'deki eşzamanlı kimlikler**,
+künye penceresiyle (veride dönemi olmayan kimlik de ölçülebilsin diye).
+
+### ② `--dogrula`ya SON DOĞRULAMA bölümü
+```
+eskisi   "yazılan = önerilen mi"            → AKTARIM
+yenisi   "önerilen renk İŞİNİ GÖRÜYOR mu"   → SONUÇ
+```
+📌 İkisi ayrı sorular ve **eskisi ikincisini hiç sormuyordu.** Bir renk
+kusursuz aktarılıp yine de işe yaramayabilir.
+
+### ③ 🔴 AYNANIN EŞİĞİ KAPININKİNDEN GENİŞ — kasıtlı
+```
+yakin_renk()  (KAPI)    600 km  = "aynı ekran KÖŞESİ"   → çıkış kodu
+bu bölüm      (AYNA)   1500 km  = "aynı ekran"          → yalnız uyarı
+```
+**Ayna daha çok gösterir çünkü işi karar vermek değil UYARMAK.**
+⚠️ İkisini aynı sayı sanmak, **aynayı kapı zannetmek** olur.
+
+### ④ VE İLK KOŞUSUNDA BİR ŞEY BULDU — kendi çözümümde
+```
+san-devletleri ↔ kakatiya   ΔE 7,42 · 1442 km · eşzamanlı 1281-1323
+```
+Bu, **bugün yazdığım** `san-devletleri` renginin gözden kaçan komşusu.
+🔴 **Ve kendi aletimin raporunu doğrulamadan kabul etmedim** — ölçtüm:
+Kalaw (Şan) ↔ Vişâkapatnam (Kakatiya) **1442 km**, 1500'ün altında,
+künyeler 1281-1323 örtüşüyor. **Alet haklı, çözücüm eksikti.**
+📌 Sebebi de ölçüldü: çözücü koştuğunda külliyat 2216'ydı, ayna
+koştuğunda 2261. **Aradaki 45 nokta çifti 1500 km'nin içine soktu** —
+yani hata değil, `C14`. Ama **ayna onu yakaladı, çözücü yakalayamazdı.**
+
+### ⑤ `C13` — iki yönde
+```
+GEÇME    doğru renklerle koşuldu → yalnız bilinen borç göründü ✓
+ATEŞLEME `ava`yı `ayutthaya`nın rengiyle önerdim → "ayutthaya 0.0" 🔴 ✓
+```
+İkincisi tam olarak korunmak istediğim hata: **paletin iki gövdesine aynı
+rengi vermek.** Ayna onu ilk satırda bastı.
