@@ -1,7 +1,7 @@
 {
   "surum": 1,
   "proje": "Osmanlı Tarih Atlası",
-  "guncelleme": "2026-08-08T13:50",
+  "guncelleme": "2026-08-08T14:10",
   "isler": [
     {
       "id": "T-0001",
@@ -538,7 +538,8 @@
       "basladi": null,
       "bitti": null,
       "olcum": null,
-      "acildi": "2026-08-08T13:49"
+      "acildi": "2026-08-08T13:49",
+      "k": "*"
     },
     {
       "id": "T-0039",
@@ -716,7 +717,11 @@
       "girdi": "2026-08-08T13:50",
       "basladi": null,
       "bitti": null,
-      "olcum": null
+      "olcum": null,
+      "z": "1000-1288",
+      "m": "Osmanlı coğrafyası",
+      "k": "siyasî›askerî›savaş",
+      "u": "govde"
     },
     {
       "id": "T-0050",
@@ -794,6 +799,46 @@
       "ust": "T-0044",
       "sahip": null,
       "girdi": "2026-08-08T13:50",
+      "basladi": null,
+      "bitti": null,
+      "olcum": null
+    },
+    {
+      "id": "T-0055",
+      "baslik": "BOYUTLAR.md — atlasın koordinat sistemi (dört boyut)",
+      "hal": "biten",
+      "kanal": 2,
+      "onem": 5,
+      "irilik": 2,
+      "nicin": "Emre'nin sorusu: 'kaç boyutumuz var?' — üçünü saydı, dördüncüsü zaten kullanılıyordu ve ekibi bölüyordu",
+      "olcek": "cm3",
+      "ust": null,
+      "z": "*",
+      "m": "*",
+      "k": "sistem›tasarım",
+      "u": "denetim",
+      "sahip": "KOORDİNATÖR",
+      "girdi": "2026-08-08T14:10",
+      "basladi": "2026-08-08T14:10",
+      "bitti": "2026-08-08T14:10",
+      "olcum": "4 boyut: Z zaman · M mekân · K konu · Ü üretim katmanı. Beşinci arandı, BULUNAMADI (ölçek=çözünürlük, kaynak rejimi=M'nin fonksiyonu, hâl=durum). M/K karışımı ÖLÇÜLDÜ: 359 çift"
+    },
+    {
+      "id": "T-0056",
+      "baslik": "🔴 `m:` alanını coğrafîleştir — M ile K karışıyor",
+      "hal": "bekleyen",
+      "kanal": 1,
+      "onem": 4,
+      "irilik": 4,
+      "nicin": "359 yerleşim-tarih çiftinde yerleşim ile idarî merkezi FARKLI devletlerin elinde. `m:` idarî merkez (siyasî) tutuyor ama coğrafî gruplama için kullanılıyor. Doğrusu: `m:` coğrafî alan (Bitinya, Trakya); idarî bağ K-siyasî'ye taşınmalı VE zaman boyutu almalı",
+      "olcek": "dm3",
+      "ust": null,
+      "z": "*",
+      "m": "*",
+      "k": "sistem›veri modeli",
+      "u": "govde",
+      "sahip": null,
+      "girdi": "2026-08-08T14:10",
       "basladi": null,
       "bitti": null,
       "olcum": null

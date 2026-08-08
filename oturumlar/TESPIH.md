@@ -2,7 +2,7 @@
 
 > 🤖 **BU DOSYA ÜRETİLİR — ELLE DÜZENLEME.**
 > Kaynak: `oturumlar/tespih.json` · üretici: `ClaudEmre/kutu/tespih.py`
-> Son güncelleme: **2026-08-08T13:50**
+> Son güncelleme: **2026-08-08T14:10**
 >
 > Sıralama ölçütü **`FAYDA ÷ EMEK`** — önem yüksek + irilik düşük önce.
 > Üç öncelik kuralı: **① darboğaz · ② tekrar eden madde · ③ yakınlık**
@@ -11,8 +11,8 @@
 
 | | kanal | ne demek | adet |
 |---|---|---|---|
-| 🔬 | **sistem analizi** | biz ölçüp eksik/yanlış bulduk, Emre onayladı | 11 |
-| 💬 | **Emre — oturumdan** | iş sürerken aklına gelip pencereye yazdı | 20 |
+| 🔬 | **sistem analizi** | biz ölçüp eksik/yanlış bulduk, Emre onayladı | 12 |
+| 💬 | **Emre — oturumdan** | iş sürerken aklına gelip pencereye yazdı | 21 |
 | 📦 | **Emre — paket** | toplu hâlde gönderdiği hatalar/fikirler | 1 |
 | 🔧 | **oturum önerisi** | işçi oturum bildirdi ya da istişareden çıktı | 19 |
 | 👁 | **bekleyenler cevabı** | BEKLEYENLER kutusunda sorulana verdiği cevap | 3 |
@@ -50,8 +50,8 @@
 |---|---|---|---|
 | 🟥 | **dekametreküp** | bir kıta / bir uygarlık — yıllarca iş · 🔴 **YAPILMAZ, AÇILIR** | 3 |
 | 🟧 | **metreküp** | bir çağ / bir devlet — haftalarca iş · 🔴 **YAPILMAZ, AÇILIR** | 4 |
-| 🟨 | **desimetreküp** | bir bölge / bir eksen — günlerce iş · 🔴 **YAPILMAZ, AÇILIR** | 5 |
-| 🟩 | **santimetreküp** | bir parti — saatlerce iş | 6 |
+| 🟨 | **desimetreküp** | bir bölge / bir eksen — günlerce iş · 🔴 **YAPILMAZ, AÇILIR** | 6 |
+| 🟩 | **santimetreküp** | bir parti — saatlerce iş | 7 |
 | 🟦 | **milimetreküp** | TEK BONCUK — yapılabilir, açılamaz | 36 |
 
 ---
@@ -74,7 +74,7 @@
 
 ---
 
-## 🔵 ÇEKİLMEYİ BEKLEYEN — sıradaki boncuklar — 24
+## 🔵 ÇEKİLMEYİ BEKLEYEN — sıradaki boncuklar — 25
 
 | # | iş | kanal | sahip | niçin bu sırada |
 |---|---|---|---|---|
@@ -83,6 +83,7 @@
 | T-0024 | Berka (Sirenayka) battaniyesi — 270 yıl tek parça `hafsi` | 🟦 🔧 | — | 1281→1551 kesintisiz. HALKA-2 3: 'ölçmedim, kaynak okumadım' — dürüst başlık, araştırma bekliyor |
 | T-0030 | `Ö1` / `Ö2` yeni değişmezleri yaz | 🟦 🔧 | — | sınav kümesi HAZIR (22 kimlik) · battaniye ad kararı beklensin |
 | T-0025 | Sahra deliği — 80 hücre, ~898.000 km² | 🟦 🔧 | — | en derin 753 km · Batı Sahra·Moritanya·Mali · halka 3 oturumunun taban rakamı |
+| T-0056 | 🔴 `m:` alanını coğrafîleştir — M ile K karışıyor | 🟨 🔬 | — | 359 yerleşim-tarih çiftinde yerleşim ile idarî merkezi FARKLI devletlerin elinde. `m:` idarî merkez (siyasî) tutuyor ama coğrafî gruplama için kullanılıyor. Doğrusu: `m:` coğrafî alan (Bitinya, Trakya); idarî bağ K-siyasî'ye taşınmalı VE zaman boyutu almalı |
 | T-0041 | 600-1000 arası  ↳ `T-0038` | 🟧 💬 | — | İslâm fetihleri ve Bizans; TDV kapsaması güçlü |
 | T-0042 | 0-600 arası  ↳ `T-0038` | 🟧 💬 | — | geç antikite — TDV kapsaması zayıf, kaynak rejimi değişir |
 | T-0043 | MÖ 600 - MS 0  ↳ `T-0038` | 🟧 💬 | — | klasik çağ — kaynak rejimi TAMAMEN farklı, ayrı karar ister |
@@ -117,10 +118,11 @@
 
 ---
 
-## ✅ SAYILAN — öbür uca dizilmiş boncuklar — 21
+## ✅ SAYILAN — öbür uca dizilmiş boncuklar — 22
 
 | # | iş | kanal | ölçüm | bitti |
 |---|---|---|---|---|
+| T-0055 | BOYUTLAR.md — atlasın koordinat sistemi (dört boyut) | 💬 | 4 boyut: Z zaman · M mekân · K konu · Ü üretim katmanı. Beşinci arandı, BULUNAMADI (ölçek=çözünürlük, kaynak rejimi=M'nin fonksiyonu, hâl=durum). M/K karışımı ÖLÇÜLDÜ: 359 çift | 2026-08-08 |
 | T-0021 | ClaudEmre hasadı — 8 ders + 2 çapraz-proje terfi | 🔧 | havuz 34 → 43 · A6 (kural yazılı olmak uygulanmak değildir) · C14 (bir ölçüm aracı sen dokunmadan başkalaşır) | 2026-08-08 |
 | T-0011 | Kısa künye özetlerini yaz | 🔬 | kısa özet 33 → 0 · eşik gün içinde kendiliğinden 99,5 → 104 → 108 kaydı | 2026-08-08 |
 | T-0012 | Altı tarih hatasını bul ve düzelt | 🔧 | saruhan · mutahharten · aydin · candar · karakoyunlu · girit-devleti — ÜÇÜNÜ VERİ çözdü, kural değil | 2026-08-08 |

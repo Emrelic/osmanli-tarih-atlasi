@@ -206,8 +206,17 @@ cevabı** olmalıdır.
 
 Bu değişmez bugün **sağlanmıyor**, çünkü bölge boyutunun (`k`/`m` alanları) zaman
 boyutu yok: bir yerleşim bütün tarih boyunca tek bir merkeze bağlı. Ölçüldü —
-**311 yerleşim-tarih çiftinde yerleşim ile bağlı olduğu merkez farklı devletlerin
+**359 yerleşim-tarih çiftinde yerleşim ile bağlı olduğu merkez farklı devletlerin
 elinde** (1300'de Söğüt Osmanlı ama `m:"Bursa"` ve Bursa Bizans gibi).
+
+⚠️ **Bu satır 8 Ağustos 2026'da 311 → 359 düzeltildi** — sayı veri büyüdükçe
+büyüyor, yani `B3`: *belgedeki sayı ölçüm değil, ölçümün fotoğrafıdır.*
+🔴 **Ve asıl teşhis o gün kondu (`BOYUTLAR.md`):** kusur `m:` alanının
+güncellenmemesi değil, **`m:`nin yanlış eksende olması.** `m:` bir **idarî
+merkez** tutuyor — yani **siyasî** bir şey — ama **coğrafî** bir gruplama için
+kullanılıyor. ⇒ Mekân ekseni (M) ile konu ekseni (K) birbirine karışıyor ve
+**ikisi de bozuluyor.** Doğrusu: `m:` coğrafî alan göstermeli (Bitinya, Trakya),
+idarî bağ ise K-siyasî'nin bir katmanı olmalı **ve zaman boyutu taşımalı.**
 
 Bugün görsel hataya dönüşmüyor çünkü bölge katmanı yalnız Osmanlı dönemlerinde
 çiziliyor. **Dünya kapsamında her devletin idari kademesi gerekecek ve o zaman bu
