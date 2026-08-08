@@ -579,3 +579,72 @@ sıfır kırılma borcu disiplini 120 nokta boyunca hiç bozulmadı, tek
 tutarsızlık (Pontianak/Bugis'in erken yazımı) kendim tarafından
 yakalanıp düzeltildi. Koordinatörün kararını bekliyorum: devam mı, yoksa
 bu parti burada mı kapanıyor.
+
+## 🔓 KİLİT AÇILDI — bekleyen 8 nokta yazıldı
+
+4 renk geldi: `dogu-sumatra-sultanliklari #eaaedb`, `pontianak #2a4215`,
+`kutai #4b0f15`, `bugis-kralliklari #0f276f`. Bekleyen 7 + Kutai (yeni
+renkli) = 8 nokta yazıldı:
+
+```
+Jambi                -1.61,103.61   malay-sultanliklari→malaka-sultanligi
+                                     →cohor-sultanligi(1528-1615)→
+                                     dogu-sumatra-sultanliklari→hollanda-dogu-hint
+Siak Sri Indrapura     0.82,102.03   aynı zincir, cohor 1528-1723 (Raja Kecil'in
+                                     Siak'ı kurduğu tarih)
+Medan (Deli)           3.595,98.672  aynı zincir, cohor 1528-1632
+Rengat (Indragiri)    -0.35,102.55   aynı zincir, cohor 1528-1590 (erken
+                                     İslamlaşma, özette belirtildiği gibi)
+Pontianak              -0.02,109.33  kur:1772 → pontianak → hollanda-dogu-hint
+Tenggarong (Kutai)      0.40,117.01  kur:1575 → kutai → hollanda-dogu-hint(1908)
+Watampone (Bone)       -4.54,120.33  kur:1330 → bugis-kralliklari →
+                                     hollanda-dogu-hint(1905-08-06)
+Sengkang (Wajo)        -4.13,120.02  aynı zincir
+```
+
+### Doğrulama
+```
+yazılan (bu tur)        : 8
+3km mükerrer               : 0
+renksiz kimlik                : 0 (4 yeni kimlik test edildi, hepsi çalışıyor)
+dönem sorunu                  : 0
+açılan yeni kırılma günü       : 0
+```
+
+## 🏁 TESLİM RAPORU — parti tamamlandı
+
+```
+YAZILAN NOKTA (dosyada)     : 128
+GENEL GDASYA YOĞUNLUĞU        : 76 → 204 nokta / 23,3mn km² ⇒ 3,3 → 8,76
+AÇILAN KIRILMA GÜNÜ TOPLAMI    : 0 — 128 nokta boyunca TEK gün açılmadı
+```
+
+**Alt bölge dağılımı (kutu-tabanlı ölçüm, `girdi.yukle()` ile
+`yerlesimler_gdasya.js` kaynaklı noktalar filtrelenerek):**
+```
+Vietnam            26   Sumatra            17
+Birmanya           16   Java               14
+Siyam              15   Moluk-K.Sunda      11
+Filipinler         10   Kamboçya-Laos       8
+Borneo              5   Sulawesi            4
+Malaya              2*
+─────────────────────────────────────────
+TOPLAM             128
+```
+*Malaya kutu sayısı düşük görünüyor çünkü Klang/Muar coğrafi kutu
+çakışmasıyla "Sumatra" etiketine düşüyor (gerçek yarımada eksiği yok,
+bkz. yukarıdaki Malaya raporu).
+
+**Sıfır borç teyidi:** 128 noktanın TAMAMI mevcut kimlik + mevcut kırılma
+günü kullandı. Tek bir yeni kırılma günü açılmadı, dolayısıyla `2s`
+tavanına (121/121) hiç dokunulmadı — dosya zaten kuyrukta olduğu için
+zaten dokunmayacaktı, ama ayrıca ölçüldü ve teyit edildi.
+
+**`devletler.js` durumu:** 381→385 kayıt, 4 yeni künye (hepsi artık
+renkli), commit edilmedi — koordinatör/Oturum 0'ın alması bekleniyor.
+
+**Kalan tek gerçek gap:** Palu, Kendari (Sulawesi) — künye yok, TDV'de
+iz yok, "açık gap" kararı koordinatör tarafından da onaylandı.
+
+🟢 RENK 2'ye haber veriliyor: bitiş burada. Tek toplu renk turu ve
+`uret_petek.py` koşusunu bekliyorum.
