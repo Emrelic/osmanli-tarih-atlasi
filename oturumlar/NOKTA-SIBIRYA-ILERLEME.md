@@ -163,3 +163,45 @@ Sovyet idaresi kuruluşu var. `neden:"veri-yok"` yazacağım, zorlamıyorum.
 
 Devam: Sahalin'i (zaten temiz modellenmiş, teyit amaçlı) hızlı gözden
 geçirip somut nokta listesini tamamlayacağım.
+
+## 🎯 SOMUT NOKTA LİSTESİ — yazmaya hazır (sinyal bekleniyor)
+
+```
+① BATI SİBİRYA (2 gerçek Rus kalesi + 2 temsilci Kazak bozkırı noktası)
+   Dudinka                69.40, 86.18   kur:1667 → rusya
+   Ket Ostrogu (Ketsk)     58.70, 81.40   kur:1602 → rusya
+   Kazak bozkırı (Turgay)  49.60, 63.50   altinorda→kazak-hanligi(1500)→rusya(1868)
+                                          (mevcut "Kazak bozkırı İşim" ile AYNI zincir)
+   Kazak bozkırı (Sarısu)  47.00, 67.00   aynı zincir
+
+② ORTA SİBİRYA (1 gerçek + 2 kasıtlı_boşluk)
+   Buryat toprakları        53.00,110.00  kuzey-yuan(1281-~1631)→rusya
+                            (Selenginsk'ten güvenli mesafede, temsilci nokta)
+   Yakut toprakları (O.Lena) 65.00,123.00  🔴 kasitli_bosluk, neden:"veri-yok"
+                            — kaynak 1620 öncesi Yakut siyasi örgütlenmesini
+                            hiç tartışmıyor
+   Koryak toprakları         62.00,166.00  🔴 kasitli_bosluk, neden:"veri-yok"
+                            — kaynak tâbilik/haraç sorusuna cevap vermiyor
+
+③ UZAK DOĞU (1 gerçek fetih + 2 kasıtlı_boşluk)
+   Petropavlovsk-Kamçatskiy  53.01,158.65  kur:1740 → rusya
+                            özet: "1740'ta kuruldu AMA bölge 1756'ya kadar
+                            (Merlin'in bastırma seferi sonrası) karışık
+                            kaldı — 1740 yalnız kasabanın kuruluşu, bölgenin
+                            TAM denetimi değil"
+   Anadır (Anadyrsk)         64.75,177.48  🔴 kur:1649, kasitli_bosluk,
+                            neden:"devletsiz — kale 1649'da kuruldu ama
+                            Çukçiler hiç boyun eğmedi, haraç hiç ödenmedi
+                            ('salt biçimsel bile değil'), 1764'te kale
+                            TERK edildi, resmî ilhak ancak Sovyet döneminde"
+   Çukotka merkezi           66.00,172.00  🔴 kasitli_bosluk, neden:"devletsiz"
+                            (aynı gerekçe, yarımadanın doğu ucunu kapatmak için)
+```
+
+**TOPLAM: 10 nokta, 4 `kasitli_bosluk`** (Yakut toprakları, Koryak
+toprakları, Anadır, Çukotka merkezi) — koordinatöre ÖNCEDEN bildiriliyor,
+tavan (178) buna göre yeniden tabanlanmalı.
+
+Sinyal ("dosya senin") gelince bu liste DEĞİŞMEDEN yazılacak; yalnız
+`denetle.py`nin konum önerileri gelirse (kıyı/kara maskesi sapması)
+uygulanacak.
