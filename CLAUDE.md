@@ -1051,6 +1051,39 @@ Notlar:
   dersinin **kod tarafıdır**: orada çağrılmayan bir ARGÜMAN vardı, burada
   ateşlenmeyen bir DAL var. İkisi de *"araç doğru ama kapsamı ölçülmemiş"*.
 
+- 🔴 **VERİ PENCERESİ İLE KÜNYE PENCERESİ AYRI ŞEYLERDİR — biri BUGÜNKÜ,
+  öteki YARINKİ kusuru bulur.**
+  ```
+  VERİ penceresi    bugün ne ÇİZİLİYOR     → bugünkü ihlali bulur
+  KÜNYE penceresi   yarın ne ÇİZİLECEK     → yarınki ihlali bulur
+  ```
+  **Vaka (8 Ağustos 2026, RENK 2):** Güneydoğu Asya paleti iki kez tarandı.
+  Birinci tarama **veri dönemlerini** kullandı ve `ava ↔ ayutthaya` ihlalini
+  buldu. İkinci tarama **künye pencerelerini** kullandı ve **birincinin hiç
+  göremediği** bir çift daha çıkardı:
+  ```
+  ace-sultanligi ↔ malaka-sultanligi   AYNI HEX #2d8f4a
+  855 km · MALAKA BOĞAZI'NIN İKİ YAKASI · künyeler 1496-1511 örtüşüyor
+  ```
+  Künye *"1496-1511'de ikisi de var"* diyordu; **veri onu henüz ifade
+  etmiyordu** — ve o gün başlayan nokta partisi ifade edecekti.
+  ⇒ **Bir kusuru DOĞMADAN yakalamak istiyorsan, bugünkü veriye değil
+  YARIN ÇİZİLECEK OLANA bak.** Künye, verinin taahhüdüdür.
+  📌 `C14`ün ileri yönü: o *"araç sen dokunmadan başkalaşır"* der, bu
+  *"evren yarın büyüyecek, ÖLÇÜMÜ ŞİMDİ ORAYA GÖRE KUR"* der.
+
+- 🔴 **BİR SÜZGECİ KALDIRMADAN ÖNCE, SÜZGECİN NEYİ KORUDUĞUNU OKU.**
+  Aynı gün, aynı oturum: *"süzgeci tamamen kaldıralım"* önerisi ölçüldü ve
+  **86 çiftin 63'ünün tasarımın kendisi olduğu** çıktı. `renkler.py`nin
+  kendi başlığı zaten yazıyordu: *"bir rengi birden çok devletin paylaşması
+  sorun değildir, **yeter ki o devletler tarih boyunca hiç komşu
+  olmasın**."*
+  ⇒ Süzgeci kaldırmak, **tasarımın izin verdiği paylaşımı ihlal saymak**
+  olurdu: doğru şeyi ölçüp **yanlış evrende** raporlamak.
+  Çare tek eşik değil **kademe** oldu: `<600 km` ihlal · `600-1500 km`
+  uyarı · `>1500 km` tasarım · `ölçülemedi` AYRI kova.
+  📌 Ve dördüncü kova şart: *"ölçülemedi"* asla *"temiz"* diye raporlanmaz.
+
 - 🔴 **HÜKÜM İLE TEŞHİS AYRI ŞEYLERDİR — bir raporu kabul etmeden ÖLÇ.**
   RENK 2 şunu bildirdi: *"`merini` rengini yazdım ama hiçbir zaman
   boyanmayacaktı — künyesi `harita:"fas"` diyor."* **Hüküm doğruydu.**

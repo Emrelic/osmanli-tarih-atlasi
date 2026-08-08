@@ -1,7 +1,7 @@
 {
   "surum": 1,
   "proje": "Osmanlı Tarih Atlası",
-  "guncelleme": "2026-08-08T15:26",
+  "guncelleme": "2026-08-08T15:29",
   "isler": [
     {
       "id": "T-0001",
@@ -1166,6 +1166,26 @@
       "sahip": null,
       "girdi": "2026-08-08T15:26",
       "basladi": null,
+      "bitti": null,
+      "olcum": null
+    },
+    {
+      "id": "T-0073",
+      "baslik": "ace ↔ malaka aynı hex — Malaka Boğazı'nın iki yakası",
+      "hal": "yapiliyor",
+      "kanal": 4,
+      "onem": 4,
+      "irilik": 1,
+      "nicin": "ΔE 0,00 (AYNI HEX #2d8f4a) · 855 km · künyeler 1496-1511 örtüşüyor. 🔴 DÜNKÜ tarama GÖRMEDİ çünkü VERİ penceresine bakıyordu; bu matris KÜNYE penceresine baktı. malaka → #0f18a5",
+      "olcek": "mm3",
+      "ust": null,
+      "z": "*",
+      "m": "Asya›Güneydoğu›Malaka",
+      "k": "sistem›palet",
+      "u": "gorunum",
+      "sahip": "RENK 2",
+      "girdi": "2026-08-08T15:29",
+      "basladi": "2026-08-08T15:29",
       "bitti": null,
       "olcum": null
     }
