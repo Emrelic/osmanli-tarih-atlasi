@@ -1099,6 +1099,47 @@ Notlar:
   **geçme yolu** olur, ki o daha sinsidir: denetim gürültülü çalışır ama
   **temiz veriyi de kirli sayıyor** olabilir.
 
+- 🔴 **ENGEL KÜMESİ, KAPATILMAK İSTENEN ÇİFTİ İÇERMİYORSA ÇÖZÜM O ÇİFTİ
+  ÇÖZMEZ — VE ÇÖZÜCÜ BUNU SÖYLEMEZ, "ÇÖZDÜM" DER.**
+
+  **Vaka (8 Ağustos 2026, RENK 2).** Bir renk çakışması çözülürken engel
+  kümesi **600 km** süzgeciyle kuruldu; oysa kapatılacak çiftler **647-1170
+  km** aralığındaydı ⇒ **kısıta hiç girmediler.** Çözücü kusursuz çalıştı,
+  "çözdüm" dedi, ve hedef çiftler hâlâ eşiğin altındaydı (`le-hanedani`
+  11,89 · `mac-hanedani` 10,51).
+  ⇒ **Alet başarı bildiriyor ve başarı KENDİ TANIMINA GÖRE gerçek.**
+  Bu, *"doğru aleti yanlış evrenle koşturmak"* ailesinin **seçim tarafı**
+  ve en sinsi üyesi: hata ne çıktıda ne kodda — **girdide.**
+  📌 Çare bir doğrulama adımı: **kapatmak için seçilen her çift, çözüm
+  sonrası eşiği GERÇEKTEN geçiyor mu?** `C13`ün bu dalı yoktu.
+
+- 🔴 **"ÇÖZÜLEMEDİ"NİN İKİ CİNSİ VARDIR VE AYIRT EDİLMELİ.**
+  ```
+  TERCİH bağlıyor      → kısıttan çıkılır, ÇÖZÜLÜR
+  YAPI bağlıyor        → çıkış YOK, başka gövde taşınır
+  ```
+  **İki vaka, aynı cümle, farklı sonuç:**
+  ```
+  fransa ↔ portekiz    bağlayan `uyum` TERCİHİYDİ (7 Ağustos)
+                       ⇒ tercihten çıkıldı, ÇÖZÜLDÜ
+  ingiltere/portekiz   bağlayan KOMŞULUK SAYISI: 197 ve 262 komşu,
+                       163.446 adayın SIFIRI eşiği geçiyor (8 Ağustos)
+                       ⇒ YAPISAL, çıkış yok
+  ```
+  ⇒ *"Çözülemedi"* raporlanırken **hangi cins olduğu yazılır** — yoksa bir
+  sonraki oturum **çözülebileni de imkânsız sanar** ve denemez.
+
+- 🔴 **BİR BİLGİ İKİ YERDE DURUYORSA, BİRİ GÜNCELLENİNCE ÖTEKİ BAYATLAR —
+  VE HANGİSİNİN OKUNDUĞUNU ALET SÖYLER, GÖZ DEĞİL.**
+  **Vaka (8 Ağustos, RENK 2 — ve nöbetçi YAZARINI yakaladı):** sabah
+  eklenen *"beyan edilen paylaşım bozuldu"* uyarısı, öğleden sonra onu
+  yazan oturumun kendi düzenlemesinde öttü. Düzeltirken ikinci ders çıktı:
+  beyan **iki yerde** duruyordu — insan okunur yorum **ve** makine okunur
+  sözlük. **Yorum güncellendi, sözlük unutuldu, uyarı susmadı.**
+  📌 `uret_bekleyenler.py`nin *"iki otorite doğar ve ayrışır"* dersinin
+  üçüncü vakası — ve ilk kez **aynı dosyanın içinde.**
+  📌 Ve asıl ders: ***bir nöbetçinin değeri, onu YAZANI DA bağlamasıdır.***
+
 - 🔴 **BİR RAPORDA ÖLÇÜLMÜŞ İLE HATIRLANMIŞ YAN YANA DURURSA, OKUYAN
   İKİSİNİ DE ÖLÇÜLMÜŞ SANAR — VE YAZAN DA.**
 
