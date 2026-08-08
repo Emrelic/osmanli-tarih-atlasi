@@ -1,7 +1,7 @@
 {
   "surum": 1,
   "proje": "Osmanlı Tarih Atlası",
-  "guncelleme": "2026-08-08T15:48",
+  "guncelleme": "2026-08-08T15:53",
   "isler": [
     {
       "id": "T-0001",
@@ -896,7 +896,7 @@
       "kanal": 2,
       "onem": 5,
       "irilik": 5,
-      "nicin": "pencere içindeki EN SEYREK yer. İLERLEME: 69 nokta · yoğunluk 3,3 → 6,22 · 11 alt bölgenin 11i işlendi · üç tur · AÇILAN KIRILMA GÜNÜ TOPLAMI: SIFIR (69 nokta boyunca)",
+      "nicin": "İLERLEME: 95 nokta · yoğunluk 3,3 → 7,34 · beş tur · AÇILAN KIRILMA GÜNÜ TOPLAMI: SIFIR (95 nokta boyunca)",
       "olcek": "m3",
       "ust": "T-0057",
       "z": "*",
@@ -1512,7 +1512,7 @@
     {
       "id": "T-0090",
       "baslik": "Dört renk bekliyor — dogu-sumatra · pontianak · kutai · bugis",
-      "hal": "bekleyen",
+      "hal": "biten",
       "kanal": 4,
       "onem": 5,
       "irilik": 1,
@@ -1523,11 +1523,31 @@
       "m": "Asya›Güneydoğu",
       "k": "sistem›palet",
       "u": "gorunum",
-      "sahip": null,
+      "sahip": "RENK 2",
       "girdi": "2026-08-08T15:48",
-      "basladi": null,
-      "bitti": null,
-      "olcum": null
+      "basladi": "2026-08-08T15:53",
+      "bitti": "2026-08-08T15:53",
+      "olcum": "dördü de yazıldı: dogu-sumatra #eaaedb · pontianak #2a4215 · kutai #4b0f15 · bugis-kralliklari #0f276f ⇒ 7+1 nokta serbest"
+    },
+    {
+      "id": "T-0091",
+      "baslik": "Renksiz kimlikle yazılan 3 nokta — oturum KENDİ yakaladı, çıkardı",
+      "hal": "biten",
+      "kanal": 4,
+      "onem": 3,
+      "irilik": 1,
+      "nicin": "",
+      "olcek": "mm3",
+      "ust": "T-0059",
+      "z": "*",
+      "m": "Asya›Güneydoğu",
+      "k": "*",
+      "u": "govde",
+      "sahip": "NOKTA GDASYA",
+      "girdi": "2026-08-08T15:53",
+      "basladi": "2026-08-08T15:53",
+      "bitti": "2026-08-08T15:53",
+      "olcum": "Pontianak·Watampone·Sengkang dosyadan ÇIKARILDI. Aynı kuralı (§C) Sumatra'da doğru uygulayıp Borneo/Sulawesi'de uygulamamış; kendi doğrulama betiği yakaladı. Renksiz kimlikle yazmak §8 gereği BOYANMAYAN TOPRAK üretirdi"
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 > 🤖 **BU DOSYA ÜRETİLİR — ELLE DÜZENLEME.**
 > Kaynak: `oturumlar/tespih.json` · üretici: `ClaudEmre/kutu/tespih.py`
-> Son güncelleme: **2026-08-08T15:48**
+> Son güncelleme: **2026-08-08T15:53**
 >
 > Sıralama ölçütü **`FAYDA ÷ EMEK`** — önem yüksek + irilik düşük önce.
 > Üç öncelik kuralı: **① darboğaz · ② tekrar eden madde · ③ yakınlık**
@@ -14,7 +14,7 @@
 | 🔬 | **sistem analizi** | biz ölçüp eksik/yanlış bulduk, Emre onayladı | 12 |
 | 💬 | **Emre — oturumdan** | iş sürerken aklına gelip pencereye yazdı | 32 |
 | 📦 | **Emre — paket** | toplu hâlde gönderdiği hatalar/fikirler | 1 |
-| 🔧 | **oturum önerisi** | işçi oturum bildirdi ya da istişareden çıktı | 42 |
+| 🔧 | **oturum önerisi** | işçi oturum bildirdi ya da istişareden çıktı | 43 |
 | 👁 | **bekleyenler cevabı** | BEKLEYENLER kutusunda sorulana verdiği cevap | 3 |
 | 🌱 | **%0 — gündemde yoktu** | hiç düşünülmemişti; üreteç peydah etti | 0 |
 
@@ -28,7 +28,7 @@
 ```
 🟥 📦 T-0057 🌍 DÜNYA KATMANI — coğrafya + yerleşim, bütün dünya  (1/10)
    🟧 ✅ T-0058 Coğrafya katmanı — ÖLÇÜLDÜ, pencerede TAM
-   🟧 ⏳ T-0059 GD Asya noktaları 97→480  (9/9)
+   🟧 ⏳ T-0059 GD Asya noktaları 97→480  (10/10)
       🟦 ✅ T-0071 Birmanya noktaları — GD Asya alt bölgesi
       🟦 ✅ T-0074 Siyam noktaları — GD Asya alt bölgesi
       🟦 ✅ T-0075 Kamboçya-Laos noktaları — GD Asya alt bölgesi
@@ -38,6 +38,7 @@
       🟦 ✅ T-0084 Java noktaları — GD Asya alt bölgesi
       🟦 ✅ T-0085 Borneo noktaları (kısmî) — GD Asya alt bölgesi
       🟦 ✅ T-0086 Sulawesi + Filipinler + Moluk — GD Asya alt bölgesi
+      🟦 ✅ T-0091 Renksiz kimlikle yazılan 3 nokta — oturum KENDİ yakaladı
    🟧 🔵 T-0060 Doğu Asya noktaları 171→?
    🟧 🔵 T-0061 Güney Asya noktaları 135→?
    🟧 🔵 T-0062 Orta Asya noktaları 102→?
@@ -72,7 +73,7 @@
 | 🟧 | **metreküp** | bir çağ / bir devlet — haftalarca iş · 🔴 **YAPILMAZ, AÇILIR** | 14 |
 | 🟨 | **desimetreküp** | bir bölge / bir eksen — günlerce iş · 🔴 **YAPILMAZ, AÇILIR** | 7 |
 | 🟩 | **santimetreküp** | bir parti — saatlerce iş | 10 |
-| 🟦 | **milimetreküp** | TEK BONCUK — yapılabilir, açılamaz | 55 |
+| 🟦 | **milimetreküp** | TEK BONCUK — yapılabilir, açılamaz | 56 |
 
 ---
 
@@ -92,7 +93,7 @@
 | # | iş | kanal | sahip | niçin bu sırada |
 |---|---|---|---|---|
 | T-0022 | TESPİH v2 — üç hâl · altı kanal · üç damga · kutuda sekme | 🟦 💬 | KOORDİNATÖR | Emre: 'fırlayıp giden mermi nereye gitti belli değil' — bekleyen/yapılan/biten görünür olacak |
-| T-0059 | GD Asya noktaları 97→480  ↳ `T-0057` | 🟧 💬 | VERİ DEVLET | pencere içindeki EN SEYREK yer. İLERLEME: 69 nokta · yoğunluk 3,3 → 6,22 · 11 alt bölgenin 11i işlendi · üç tur · AÇILAN KIRILMA GÜNÜ TOPLAMI: SIFIR (69 nokta boyunca) |
+| T-0059 | GD Asya noktaları 97→480  ↳ `T-0057` | 🟧 💬 | VERİ DEVLET | İLERLEME: 95 nokta · yoğunluk 3,3 → 7,34 · beş tur · AÇILAN KIRILMA GÜNÜ TOPLAMI: SIFIR (95 nokta boyunca) |
 | T-0073 | ace ↔ malaka aynı hex — Malaka Boğazı'nın iki yakası | 🟦 🔧 | RENK 2 | ΔE 0,00 (AYNI HEX #2d8f4a) · 855 km · künyeler 1496-1511 örtüşüyor. 🔴 DÜNKÜ tarama GÖRMEDİ çünkü VERİ penceresine bakıyordu; bu matris KÜNYE penceresine baktı. malaka → #0f18a5 |
 | T-0069 | renk_olc'a İKİNCİ ÇİFT KURUCU — 600 km + eşzamanlılık | 🟩 🔧 | RENK 2 | Aynı körlük ÜÇ coğrafyada çıktı (Afrika Boynuzu · Fas · GD Asya) ve hiçbir denetim görmedi. Voronoi komşuluğu SEYREK bölgede iki gövdeyi yan yana görmüyor. Bugün 179 çift kurulur, biri İHLALDİ. ŞART: C13 iki yönde sınama · 600 km eşiğinin gerekçesi yazılı · İHLAL ile SINIRDA ayrı raporlansın (biri çıkış kodunu etkiler, öteki etmez) |
 | T-0079 | Doğu Sumatra dört kimlik — Jambi · Deli · Siak · Indragiri | 🟦 🔧 | NOKTA GDASYA | NOKTA GDASYA bildirdi: 55lik envanterde uygun kimlik YOK, hepsi zorlama olur. KARAR: devletler.js geçici olarak ona geri verildi (sahipsizdi, 45 künyeyi bugün o yazdı). Toplu mu ayrı mı — TDV karar versin (emsal: malay-sultanliklari toplu künyesi). 1281-1600 arası için kasitli_bosluk da meşru bir cevap. |
@@ -101,12 +102,11 @@
 
 ---
 
-## 🔵 ÇEKİLMEYİ BEKLEYEN — sıradaki boncuklar — 38
+## 🔵 ÇEKİLMEYİ BEKLEYEN — sıradaki boncuklar — 37
 
 | # | iş | kanal | sahip | niçin bu sırada |
 |---|---|---|---|---|
 | T-0083 | `dogu-sumatra-sultanliklari` rengi — 4 nokta bunu bekliyor | 🟦 🔧 | — | Künye yazıldı ama BOYALAR'da yok ⇒ §8: bölge BOYANMAZ. NOKTA GDASYA Sumatra'nın dört noktasını yazamıyor. RENK 2'de. |
-| T-0090 | Dört renk bekliyor — dogu-sumatra · pontianak · kutai · bugis | 🟦 🔧 | — | 🔴 Dördü de künyeli ama BOYALAR'da YOK ⇒ §8: bölge BOYANMAZ. Sumatra'nın 4 noktası + Borneo/Sulawesi noktaları bunları bekliyor. RENK 2'de, toplu istendi. |
 | T-0080 | 🔴 72 RENK İHLALİ — Anadolu beylikleri + İtalyan şehirleri | 🟨 🔧 | — | RENK 2'nin yeni çift kurucusu (künye penceresi + kademeli mesafe) 143 çift kurdu — HİÇBİRİNİ hiçbir denetim görmüyordu. 72'si ΔE<12. 🔴 VE NEREDE OLDUĞU ASIL BULGU: ~30 çift Anadolu beylikleri (aydin·karesi·mentese·hamid·teke·germiyan·saruhan·eretna·karaman· dulkadir·artuklu…), ~15 çift İtalyan şehirleri (ceneviz·venedik·piza· ferrara·siena·napoli…). En dar: bizans↔inancogullari ΔE 9,55 · 104 km · 1281-1368 — ATLASIN AÇILIŞ SAHNESİ. Kullanıcının Osmanlı'nın doğuşunu okuduğu ekran. ⚠️ B15: büyük partide tavan ÇÖZÜLEMEZ olabilir (kırk partisinde 29/40'ta takılmıştı) — önce ÖLÇ, sonra parti tasarla. |
 | T-0031 | Cost-distance prototipi — Voronoi'nin topografik hâli | 🟦 💬 | — | Emre: 'iple çekiyorum'. Motor zaten 0,05° Dijkstra kullanıyor, eksik olan SÜRTÜNME ÇARPANI. 1800 noktanın %50'si bir engeli ihlal ediyor |
 | T-0060 | Doğu Asya noktaları 171→?  ↳ `T-0057` | 🟧 💬 | — | yoğunluk 8,8 · 19,4 mn km² |
@@ -158,10 +158,12 @@
 
 ---
 
-## ✅ SAYILAN — öbür uca dizilmiş boncuklar — 36
+## ✅ SAYILAN — öbür uca dizilmiş boncuklar — 38
 
 | # | iş | kanal | ölçüm | bitti |
 |---|---|---|---|---|
+| T-0090 | Dört renk bekliyor — dogu-sumatra · pontianak · kutai · bugis | 🔧 | dördü de yazıldı: dogu-sumatra #eaaedb · pontianak #2a4215 · kutai #4b0f15 · bugis-kralliklari #0f276f ⇒ 7+1 nokta serbest | 2026-08-08 |
+| T-0091 | Renksiz kimlikle yazılan 3 nokta — oturum KENDİ yakaladı, çıkardı | 🔧 | Pontianak·Watampone·Sengkang dosyadan ÇIKARILDI. Aynı kuralı (§C) Sumatra'da doğru uygulayıp Borneo/Sulawesi'de uygulamamış; kendi doğrulama betiği yakaladı. Renksiz kimlikle yazmak §8 gereği BOYANMAYAN TOPRAK üretirdi | 2026-08-08 |
 | T-0089 | Üç künye: pontianak · kutai · bugis-kralliklari | 🔧 | 382 → 385 künye · 🔴 TEK KURAL DAYATILMADI: TDV'nin kanıt KALİTESİ üç ayrı muamele gerektirdi — pontianak DOĞRULANDI (genel `borneo` maddesi somut tarih+isim verdi), kutai YETERSİZ (yalnız isim düzeyi), bugis TOPLU (bulunamadı). Palu/Kendari için künye YAZILMADI — açık gap ilan edildi | 2026-08-08 |
 | T-0084 | Java noktaları — GD Asya alt bölgesi | 🔧 | 5 nokta · `kediri` künyesi GEREKMEDİ (1222'de yenildi, atlas 1281'de başlıyor — pencere kontrol edildi) · sıfır borç | 2026-08-08 |
 | T-0085 | Borneo noktaları (kısmî) — GD Asya alt bölgesi | 🔧 | 2 nokta · Pontianak/Kutai için uygun kimlik YOK, yazılmadı · sıfır borç | 2026-08-08 |
