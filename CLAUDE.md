@@ -350,6 +350,17 @@ gereksiz yere pahalı bir test öğretiyordu.
 **② CANLI SLUG, YANLIŞ MADDE — ve bu testi GEÇER.**
 `ordu` HTTP **200** döndürür, `<title>` **"ORDU"** yazar, iki test de temiz —
 ama açılan madde **askerî ordu**dur, şehir maddesi `ordu--sehir`'dir.
+
+🔴 **VE BU DESEN ÜÇ KEZ ÖLÇÜLDÜ — üçü de `<title>` testini GEÇİYOR:**
+```
+ordu     200 · "ORDU"     → askerî ordu       doğrusu  ordu--sehir
+saray    200 · "SARAY"    → mimarî saray      doğrusu  saray--sehir
+                            (Altın Orda başkenti)
+mogadisu 200 · "MOGADİŞU" → İÇİ BOŞ           doğrusu  makdisu
+```
+⚠️ **Üçüncüsü ayrı bir alt-sınıf:** slug canlı, başlık doğru, **ama gövde
+boş.** Yani `<title>` testi *"yanlış madde"*yi de *"boş madde"*yi de
+geçiriyor. **Tek çare içeriği OKUMAK.**
 ⇒ Kod ve başlık *maddenin var olduğunu* söyler, **doğru madde olduğunu
 söylemez.** Onu yalnız **içeriği okumak** ele verir.
 
@@ -844,6 +855,19 @@ Notlar:
   ```
   ⇒ **Kaçış içeren hiçbir düzeltme bash'ten geçirilmez.** Betiği `Write`
   aracıyla scratchpad'e yaz, sonra `py <yol>` ile çalıştır. İstisna yok.
+
+- 🔴 **"BU GÜN ZATEN VAR" YETMİYOR — HANGİ KOVADA OLDUĞU DA SORULMALI.**
+  `Değişmez 2s` **ÇEKİRDEĞİ** ölçüyor (`denetle.py:1589`), kuyruk dosyalarını
+  ayrı sayıyor. Yani bir tarih **kuyrukta var ama çekirdekte yok** olabilir.
+  **Vaka (7 Ağustos 2026, NOKTA HALKA-2 2):** yeni bir kırılma günü seçerken
+  `1500-01-01`i *"külliyatta zaten var"* diye aldı — Emba ve Üstyurt onu
+  kullanıyordu. **Ama ikisi de `yerlesimler_asya.js`te, yani KUYRUKTA.**
+  Sonuç: gün çekirdek için **yeniydi** ve `2s`yi 121 → 123 yapıyordu.
+  ⇒ Oturum bunu kendi yazdığı ölçüm aletiyle yakaladı ve tarihi çekirdeğin
+  kendi gününe (`1441-01-01`) çevirdi — **tarih de en az onun kadar
+  savunulurdu**, yani doğruluktan ödün verilmedi.
+  📌 Ve bu, *"ölçen kendi sorduğu soruyu ölçüyor"* ailesinin **kova** yüzü:
+  soru doğruydu (*"bu gün var mı"*), **evren** yanlıştı.
 
 - 🔴 **"DENETİM VAR" ≠ "O SORUYU SORUYOR." Aynı gün ÜÇ ayrı körlük ölçüldü
   (7 Ağustos 2026) ve üçü de TEMİZ rapor veriyordu:**
