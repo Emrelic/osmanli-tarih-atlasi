@@ -73,8 +73,20 @@ değişken adın**, başkasınınkiyle çakışmasın.
 
 ### 🔴 DÖRT KONTROL — her nokta için, istisnasız
 
+🔴 **KUTU BİR ÖLÇÜM ARACIDIR, BİR SAHİPLİK SINIRI DEĞİL** — `NOKTA HALKA-2 3`
+ölçtü ve şartnamenin kusurunu gösterdi:
 ```
-① MÜKERRER   3 km içinde başka nokta var mı? (§11 — Varat/Varad vakası)
+YOĞUNLUK ölçümü   DAR kutu   (payda temiz olsun — senin bölgen kadar)
+MÜKERRER kontrolü GENİŞ kutu (komşuyu görsün — bölgenin +2° dışı)
+```
+⚠️ Dar kutuya güvenip yazarsan **kutunun hemen dışındaki noktayı görmezsin
+ve mükerrer açarsın.** Gerçekleşti: `NOKTA HALKA-2 3` dar kutuyla çalışsaydı
+**Benzert ve Gât'ı mükerrer açacaktı** — `§11`in Varat/Varad vakası.
+📌 İkisini aynı sanmak, **ölçüm aracını sınır sanmaktır.**
+
+```
+① MÜKERRER   3 km içinde başka nokta var mı? — GENİŞ kutuyla tara
+             (§11 — Varat/Varad vakası)
              py -c "import sys;sys.path.insert(0,'arac');import girdi;
                     print(girdi.yakin_ciftler())"  ile taban al
 ② KARA       nokta kara maskesinin İÇİNDE mi? Denizdeki nokta üretimi kırar.
