@@ -17,4 +17,57 @@
 // değil bir HÜKÜMDÜR — ama tavanı yükseltir, önce koordinatöre söyle.
 // ==========================================================================
 window.YERLESIMLER_KALITE4 = [
+
+// ---------- ① İRAN — Azerbaycan/Kürdistan sancak merkezleri (parti 1) ----------
+// Kaynak disiplini: TDV önce denendi (küçük kasaba sluglari `mehabad`,
+// `savucbulak`, `sardest`, `tekab` — hepsi ÖLÜ), ikinci deneme standart
+// akademik kaynak (Wikipedia/Iranica, koordinatör onayı: "taneciklik
+// boşluğu" kategorisi, CLAUDE.md §4'e giriyor). Zincir: bölgedeki komşu
+// noktalarla (Erdebil/Sakkız/Bîcâr/Merîvan/Senendec) AYNI — hepsi zaten
+// TEK zincir kullanıyor (ayrı bir "Erdelan/Mükrî" künyesi YOK, mevcut
+// veri ayrı renk kullanmıyor), o yüzden yeni künye ÖNERMİYORUM.
+
+{ ad:"Meşkinşehr (Hiyav)", tur:"sehir", lat:38.40, lon:47.68, g:0, k:3,
+  // Sasani dönemine (MS 337) kadar giden yerleşim, Azerbaycan Atabegleri
+  // sikkeleriyle doğrulanmış — komşu Erdebil/Sarâb ile AYNI tam zincir.
+  // kaynak: standart akademik (Encyclopaedia Iranica/Wikipedia, TDV müstakil maddesi yok)
+  s:[{f:"1281-01-01",t:"1335-12-01",d:"ilhanli"},
+     {f:"1335-12-01",t:"1386-01-01",d:"celayirli"},
+     {f:"1386-01-01",t:"1406-10-21",d:"timurlu"},
+     {f:"1406-10-21",t:"1468-04-01",d:"karakoyunlu"},
+     {f:"1468-04-01",t:"1501-07-01",d:"akkoyunlu"},
+     {f:"1501-07-01",t:"1736-03-08",d:"safevi"},
+     {f:"1736-03-08",t:"1747-06-20",d:"afsar"},
+     {f:"1747-06-20",t:"1796-01-01",d:"zend"},
+     {f:"1796-01-01",t:"1923-10-29",d:"kacar"}] },
+
+{ ad:"Mahabad (Sâvücbulak)", tur:"sehir", lat:36.77, lon:45.72, g:0, k:3,
+  kur:"1501-07-01",
+  // kaynak: standart akademik — "ilk kez 16. yy'da (Safevî dönemi)
+  // kaydediliyor, 17. yy'da Mükrî beyliğinin merkezi oldu" (Budak Sultan
+  // Mükrî). TDV müstakil maddesi yok (`mehabad`/`savucbulak` ölü).
+  s:[{f:"1501-07-01",t:"1736-03-08",d:"safevi"},
+     {f:"1736-03-08",t:"1747-06-20",d:"afsar"},
+     {f:"1747-06-20",t:"1796-01-01",d:"zend"},
+     {f:"1796-01-01",t:"1923-10-29",d:"kacar"}] },
+
+{ ad:"Bâne", tur:"sehir", lat:35.99, lon:45.88, g:0, k:3,
+  kur:"1501-07-01",
+  // kaynak: standart akademik — Erdelan/Baban/Mükriyân Kürt beyliklerinden
+  // birinin toprağı, yerel Ehtiyârüddin ailesi Safevî döneminde "sultan"
+  // unvanıyla anılıyor. TDV müstakil maddesi yok.
+  s:[{f:"1501-07-01",t:"1736-03-08",d:"safevi"},
+     {f:"1736-03-08",t:"1747-06-20",d:"afsar"},
+     {f:"1747-06-20",t:"1796-01-01",d:"zend"},
+     {f:"1796-01-01",t:"1923-10-29",d:"kacar"}] },
+
+{ ad:"Serdeşt (Sardasht)", tur:"sehir", lat:36.16, lon:45.48, g:0, k:3,
+  kur:"1501-07-01",
+  // kaynak: standart akademik — Bâne ile aynı Kürt beylik kuşağı
+  // (Mükriyân), Safevî-Osmanlı sınır bölgesi. TDV müstakil maddesi yok.
+  s:[{f:"1501-07-01",t:"1736-03-08",d:"safevi"},
+     {f:"1736-03-08",t:"1747-06-20",d:"afsar"},
+     {f:"1747-06-20",t:"1796-01-01",d:"zend"},
+     {f:"1796-01-01",t:"1923-10-29",d:"kacar"}] },
+
 ];
