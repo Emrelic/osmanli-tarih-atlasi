@@ -1719,6 +1719,37 @@ BOYALAR = {
     #   onu yazanı da bağlamasıdır.
     # 📌 Kalan iki kimlik (`ace-sultanligi` · `ming-hanedani`) paylaşımı
     #   sürdürüyor: Sumatra ile Çin arası ~3.500 km, hiç yan yana gelmezler.
+    # ═══ GD ASYA — DÖRT YENİ KİMLİK, tek parti, 8 Ağustos 2026 ═══
+    # Dördünün de künyesi VAR (devletler.js 385) ama BOYALAR'da YOKTU ⇒
+    #   `§8` gereği boyanmazlardı ve NOKTA GDASYA altı-yedi noktayı
+    #   YAZAMIYORDU. Renk veriden ÖNCE geldi — gecikme hiç doğmadı.
+    # ENGEL: veride 0 dönemleri var ⇒ komsuluk() ölçemez. Coğrafî
+    #   çekirdek noktası alındı, kimliğin KENDİ penceresinde 1500 km
+    #   (B kademesi) içindeki EŞZAMANLI palet kimlikleri engel sayıldı.
+    #   B15: dört kalemlik parti ⇒ TAVANA çıkıldı (dördü de birbirinin
+    #   engeli); havuz 165000 olduğu için bedeli yok. Parti içi en dar: 19.9
+    # dogu-sumatra-sultanliklari — Jambi · Siak · Deli · Indragiri — Sumatra'nın doğu kıyısı. Kuzeyde
+    #   `ace-sultanligi`, güneyde `palembang-sultanligi`, boğazın karşı
+    #   yakasında `cohor` ve `malaka` — dördü de aynı ekranda.
+    #   pay 18.1 · engel 27 · eşiği geçen 12463 · C* 12.2 = %14 · ton 3.0
+    "dogu-sumatra-sultanliklari": ("Doğu Sumatra Sultanlıkları (Jambi, Siyak, Deli, Indragiri)", "#eaaedb"),
+    # pontianak — Borneo'nun batı kıyısı. TDV somut tarih+isim veriyor
+    #   ("1772'de Şerif Abdurrahman…") ⇒ nokta oturumu AYRI künye yazdı.
+    #   pay 15.8 · engel 28 · eşiği geçen 5751 · C* 18.3 = %26 · ton 115.3
+    "pontianak": ("Pontianak Sultanlığı (Borneo)", "#2a4215"),
+    # kutai — Borneo doğusu, Mahakam ırmağı. TDV'de yalnız liste düzeyinde
+    #   geçiyor ⇒ ayrı künye ama ZAYIF dayanak (nokta oturumunun kaydı).
+    #   pay 19.9 · engel 28 · eşiği geçen 13845 · C* 14.5 = %17 · ton 44.0
+    "kutai": ("Kutai Sultanlığı (Doğu Borneo)", "#4b0f15"),
+    # bugis-kralliklari — Bone · Wajo · Soppeng, Sulawesi güneyi. TDV'de müstakil
+    #   çerçeve YOK ⇒ TOPLU künye.
+    # 🔴 SAVAŞ ÇİFTİ — `gova-makassar` ile aynı adada, aynı yüzyıllarda ve
+    #   SAVAŞ hâlinde (Makassar Savaşı). `ava ↔ ayutthaya` ile aynı sınıf:
+    #   kullanıcı savaşı okurken iki tarafı ayırt edememek en kötüsü.
+    #   ⇒ 12 eşiği YETMEZ, hedef 25 kondu ve tutturuldu.
+    #   pay 16.5 · engel 28 · eşiği geçen 4849 · C* 10.8 = %11 · ton 280.6
+    #   `gova-makassar`tan ΔE 25.8
+    "bugis-kralliklari": ("Bugis Krallıkları (Bone, Wajo, Soppeng — Tellumpoccoe)", "#0f276f"),
     "ace-sultanligi":          ("Açe Sultanlığı (Sumatra)",          "#2d8f4a"),
     # ═══ GD ASYA — BEŞ CANLI ÇAKIŞMA, tek partide, 8 Ağustos 2026 ═══
     # 🔴 NOKTA GDASYA nokta yazdıkça hücreler küçüldü ve BEŞ Voronoi

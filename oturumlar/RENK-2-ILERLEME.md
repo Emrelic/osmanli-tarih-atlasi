@@ -2648,3 +2648,47 @@ Nokta partisi sürerken her parti hücreleri küçültüyor ve **yeni komşuluk
 doğuruyor.** Çakışmayı parti **sürerken** kovalamak, ayağın altındaki
 zemini ölçmeye benziyor. ⇒ Koordinatöre **partiden sonra tek toplu tur**
 önerildi — `FAYDA ÷ EMEK`.
+
+---
+
+## 55. DÖRT YENİ KİMLİK — renk VERİDEN ÖNCE geldi
+
+Bugün ilk kez sıra **tersine** işledi. Bütün gün *"veri → renk → koşu"*
+kovalamacasıydı; bu partide **renk önce yazıldı**, nokta sonra inecek.
+⇒ Koordinatörün deyişiyle: **gecikme hiç doğmadı.**
+
+```
+dogu-sumatra-sultanliklari  #eaaedb  pay 18,1  Jambi·Siak·Deli·Indragiri
+pontianak                   #2a4215  pay 15,8  Borneo batı kıyısı
+kutai                       #4b0f15  pay 19,9  Borneo doğu (Mahakam)
+bugis-kralliklari           #0f276f  pay 16,5  Bone·Wajo·Soppeng (Sulawesi)
+```
+Engel: dördünün de veride **0 dönemi** var ⇒ `komsuluk()` ölçemez. Coğrafî
+çekirdek noktası alındı, kimliğin **kendi penceresinde** 1500 km içindeki
+**eşzamanlı** palet kimlikleri engel sayıldı (23-28 arası). `B15`: dört
+kalemlik parti ⇒ **tavana çıkıldı**, parti içi en dar **19,9**.
+
+### 🔴 `bugis ↔ gova-makassar` — SAVAŞ ÇİFTİ, ayrı muamele
+Aynı adada, aynı yüzyıllarda, **savaş hâlinde** (Makassar Savaşı).
+`ava ↔ ayutthaya` ile birebir aynı sınıf: **kullanıcı savaşı okurken iki
+tarafı ayırt edememek en kötüsü.**
+⇒ **12 eşiği yetmez.** Hedef **25** kondu, ölçüm **25,8** verdi.
+📌 Ve bu, eşiğin **tek sayı olmadığının** ikinci vakası: `DE_KOMSU = 12`
+okunabilirlik tabanıdır, ama **anlatının merkezindeki çift** daha
+fazlasını hak eder. Eşik gevşetilmiyor, **sıkılaştırılıyor** — ve
+gerekçesi veride değil **kronolojide.**
+
+### `ace-sultanligi ↔ ming-hanedani` — paylaşım MEŞRU
+Koordinatör Zheng He'yi hatırlattı: Ming donanması 1405-1433 arası Malaka
+Boğazı'ndaydı, öyleyse `B` kovasına düşebilir mi?
+```
+en yakın EŞZAMANLI çift: 2185 km
+Samudra Pasai (ace) ↔ Qiongzhou/Haikou (ming) · örtüşme 1524-1644
+⇒ KOVA C 🟢 tasarım gereği paylaşım
+```
+📌 **Ama asıl mesele soruyu daraltmakta:** tarih doğruydu, **ölçüt yanlış
+olurdu.** Atlas **seferi değil TASARRUFU** boyar. Soru *"Ming oraya gitti
+mi"* değil, ***"orada `d:"ming"` yazan bir nokta var mı"***. Ming'in en
+yakın gerçek tasarrufu **Hainan** — 2185 km.
+⇒ Bir kimliğin **tarihsel erişimi** ile **haritadaki gövdesi** ayrı
+şeylerdir, ve palet **gövdeye** bakar.
