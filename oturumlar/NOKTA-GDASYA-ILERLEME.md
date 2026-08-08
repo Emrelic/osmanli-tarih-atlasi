@@ -370,3 +370,40 @@ hiçbiri yazılmadı, hepsi ya karara bağlandı ya bildirildi.
 
 120-150 hedefine 50/120 ile devam ediyorum — ikinci tur ekleme yapacağım
 (mevcut alt bölgelere daha fazla nokta, kimlik izin verdiği ölçüde).
+
+## İKİNCİ VE ÜÇÜNCÜ TUR — 120-150 hedefine yaklaşma
+
+Koordinatör Java sayısını sormuştu (daha önce raporlanmıştı ama tekrar
+teyit edildi): **Java 5 nokta** (Cirebon, Malang, Madiun, Pasuruan,
+Blitar), açılan kırılma günü 0.
+
+İki ek tur yazıldı, mevcut alt bölgelere, hep aynı disiplinle (mevcut
+kimlik + mevcut kırılma günü, sıfır borç):
+
+**İkinci tur (12 nokta):** Birmanya +3 (Minbu, Pakokku, Myitkyina), Siyam
++3 (Kanchanaburi, Phetchaburi, Trang), Vietnam +3 (Son Tay, Ninh Binh, Bac
+Giang), Java +3 (Tegal, Pekalongan, Rembang).
+
+**Üçüncü tur (7 nokta):** Kamboçya-Laos +2 (Stung Treng, Sisophon), Malaya
++1 (Klang), Sumatra +1 (Meulaboh — `ace-sultanligi`, Jambi/Siak/Deli/
+Indragiri'den FARKLI, renk beklemiyor), Borneo +1 (Berau — `brunei-
+sultanligi`, kur:1400), Filipinler +1 (Naga/Camarines), Moluk-Küçük Sunda
++1 (Alor).
+
+### Doğrulama (iki tur birden)
+```
+yazılan (iki tur toplam)   : 19
+3km mükerrer                : 0
+renksiz kimlik                : 0
+dönem sorunu                  : 0
+açılan yeni kırılma günü       : 0
+```
+
+### Kümülatif — 3 tur sonrası
+```
+dosyadaki nokta sayısı : 69
+genel GDASYA yoğunluğu  : 76 → 145 nokta / 23,3mn km² ⇒ 3,3 → 6,22
+açılan kırılma günü TOPLAMI (69 nokta boyunca) : 0
+```
+
+Devam: dördüncü tur (120-150 hedefine ulaşmak için).
