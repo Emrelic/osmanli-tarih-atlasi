@@ -81,3 +81,37 @@ muhtemelen birkaç nokta ile netleştirilmeli.
 
 Devam ediyorum: Uzak Doğu'nun geri kalanını (Kamçatka/Koryak, Sahalin) ve
 somut nokta adaylarını araştırıyorum.
+
+## ARAŞTIRMA — ③ Uzak Doğu (tamamlandı)
+
+`girdi.yukle()` ile 130-175°D/40-75°K taraması: mevcut noktalar (Verhoyansk,
+Ust-Yansk, Zaşiversk, Ohotsk, Udskoy ostrogu, Ayan, Nikolayevsk, Habarovka,
+İmperator limanı, Vladivostok, Aleksandrovsk/Korsakov-Sahalin) **HEPSİ
+DOĞRU modellenmiş** — Amur havzası noktaları Qing Çin'den (1858/1860
+antlaşmalarına kadar) doğru geçiyor, Sahalin noktaları 1875-05-07 (S.
+Petersburg Antlaşması) ile başlayıp Korsakov 1905'te (Portsmouth
+Antlaşması) Japonya'ya doğru geçiyor. **Bu bölgede de "yanlış sahip" YOK.**
+
+🔴 AMA **Kamçatka'da (Petropavlovsk) ve Çukotka'da (Anadır) HİÇ NOKTA
+YOK** — ikisi de sıfır, doğruladım.
+```
+Kamçatka   Petropavlovsk 1740'ta kuruldu (Bering seferi); öncesinde
+           1697 (Atlasov) - 1740 arası şiddetli/kesintili bir fetih
+           süreci (1731 İtelmen ayaklanması). GERÇEK fetih var —
+           `rusya` kimliği DOĞRU olur, yalnız nokta eksik.
+Çukotka    Anadır kalesi 1649'da kuruldu ama 1764'te TERK edildi;
+           Çukçiler hiç boyun eğmedi. Buraya `rusya` yazmak YANLIŞ
+           olur — `kasitli_bosluk` doğru cevap, `neden:`e bu nüansı
+           (denenip TERK edilen kale, gerçek fetih yok) yazacağım.
+```
+
+## ÖZET — üç bölgenin araştırması TAMAMLANDI, yazmaya hazırım
+
+```
+① Batı Sibirya   kimlik doğru, nokta az — Turuhansk/Kazak bozkırı takviyesi
+② Orta Sibirya   Buryat: kuzey-yuan (YENİ KÜNYE YOK) · Yakut: kasıtlı_boşluk
+                 eğilimli (belirsizlik notuyla)
+③ Uzak Doğu      mevcut noktalar TEMİZ · Kamçatka: rusya(kur:1740) ·
+                 Çukotka: kasıtlı_boşluk (terk edilmiş kale nüansıyla)
+```
+Koordinatörden "dosya senin" bekliyorum.
