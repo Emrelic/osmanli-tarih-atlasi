@@ -252,3 +252,26 @@ DOĞRULAMA: yazılan 3, 3km mükerrer 0, renksiz kimlik 0, dönem sorunu 0,
 açılan yeni kırılma günü 0 (1808 YIL BEYANI). Toplam GDASYA dosyası: 32→35.
 
 Devam: Java (kimlik kararı beklerken durmuyorum).
+
+### 🟢 JAVA — TAMAMLANDI, 5 nokta
+
+```
+Cirebon   -6.71,108.55   sunda-pajajaran→banten-sultanligi→mataram-sultanligi
+                          →hollanda-dogu-hint→ingiltere(1811-16 Raffles arası)
+                          →hollanda-dogu-hint (Cirebon'un bilinen değişken
+                          tâbiliği: önce Banten'e, sonra Mataram'a)
+Malang    -7.98,112.63   singhasari→majapahit→demak→mataram-sultanligi→...
+Madiun    -7.63,111.52   aynı zincir
+Pasuruan  -7.65,112.90   aynı zincir
+Blitar    -8.10,112.17   aynı zincir
+```
+Tarihler `yerlesimler_asya.js`teki Demak/Surabaya/Banten/Trowulan'dan
+birebir alındı — sıfır borç. (Not: `kediri` kimliğine hiç ihtiyaç
+duymadım — Kediri 1222'de Singhasari'ye yenildi, atlas 1281'de başlıyor,
+yani pencere içinde hiç Kediri dönemi yok; koordinatörün "gelecek" dediği
+kimlik aslında gerekmiyor.)
+
+DOĞRULAMA: yazılan 5, 3km mükerrer 0, renksiz kimlik 0, dönem sorunu 0,
+açılan yeni kırılma günü 0. Toplam GDASYA dosyası: 35→40 nokta.
+
+Devam: Borneo.
