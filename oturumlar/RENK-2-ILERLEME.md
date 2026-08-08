@@ -2125,3 +2125,86 @@ renk_fark  doğan 33 · ölen 18 · doğan kusur 0 · düşen 0
 zincir     61 · 2 · 0 · 1 (ainu) · 1 (merini harita=fas)
 kunye_olc  381 künye · medyan 208 · eşik 104 · kısa 33 · boş 0
 ```
+
+---
+
+## ㊼ 🔴 `merini` TEŞHİSİM YANLIŞTI — koordinatör ölçtü, ben doğruladım
+
+Dün akşam şöyle yazmıştım:
+> *"`merini`nin künyesi haritaya `fas` diye bağlanmış, yani yazdığım
+> `#0f24b1` **hiçbir zaman boyanmayacaktı.**"*
+
+**Yanlış.** Koordinatör ölçtü, ben de kendim doğruladım:
+```
+BOYANMA için gereken:  veride `d:"merini"` kullanımı + BOYALAR kaydı
+`harita:` alanı        DİZİN penceresi için — boyamayı ETKİLEMİYOR
+```
+Renk görünmüyordu çünkü **onu kullanan veri yoktu** — Fas göçü hiç
+yapılmamıştı. `harita:` düzeltilseydi renk **yine görünmeyecekti.**
+
+⇒ Bugün göç yapıldı ve ölçtüm:
+```
+merini  0 → 47      sadi  0 → 40      fas  52 → 41      (48 dönem bölündü)
+```
+`#0f24b1` ve `#1290ed` artık **gerçekten sahnede.**
+
+### 📌 HÜKÜM ile TEŞHİS ayrı şeyler — ve ikisi de bugün ölçüldü
+```
+HÜKMÜM   "burada bir kusur var, bildirilmeli"        ✓ DOĞRU
+TEŞHİSİM "sebebi harita: alanı"                      🔴 YANLIŞ
+gerçek   sebebi verinin hiç gelmemesiydi
+```
+Beşinci dal **hâlâ geçerli** — ama ölçtüğü şey **boyama değil DİZİN**.
+Etiketi doğru, benim ondan çıkardığım sonuç yanlıştı.
+
+⚠️ Ve bu, bugün **ikimizin de** birbirine uyguladığı kuralın üçüncü hâli:
+```
+ben → koordinatöre   `kaffa` kusuru ÜREMEDİ (bayat artefakt)
+ben → koordinatöre   `id ∪ harita` bir dalda YANLIŞ olurdu
+koordinatör → bana   `merini` teşhisi yanlış
+```
+**Bir raporu kabul etmeden önce ölç** — rapor kimden gelirse gelsin, ve
+**kendi raporun da dâhil.**
+
+---
+
+## ㊽ KİLİT — çizili gövde tabanı alındı
+
+🔒 `uret_petek.py` koşuyor; `renkler.py`ye dokunulmadı (damga 04:48:19,
+koşudan önce). Kilit boyunca yalnız **okuma** yapıldı.
+
+📌 Zamanlama önemliydi: motor `devletler_harita.js`i **koşunun SONUNDA**
+yazar, yani şu an dosyada duran **koşu ÖNCESİ** hâl. Taban ancak şimdi
+alınabilirdi.
+```
+çizili harita        278 kimlik · 17.640 parça · 18,1 MB
+toplam DEĞEN çift    759
+ΔE < 12 değen çift     0
+gövdesiz kimlik       33
+ESKİ renkle çizili     8   ← bu koşu düzeltecek
+```
+
+**Bu koşuya binen sekiz renk:**
+`isvec` · `portekiz` · `nebhani` · `funj` · `somali` · `kaffa` · `mehdi` ·
+`tibet` — hepsi bugün maruziyet ya da gizli çakışma yüzünden taşınmıştı.
+
+**SINIRDA tablosu (koşu öncesi):**
+```
+somali↔vollayta 39,74° · fas↔ispanya 24,21° · cungar↔rusya 23,21° ·
+buhara↔mogulistan 17,49° · joseon↔ming 17,37° · habesistan↔somali 17,16° ·
+memluk↔nube 17,04° · gucerat↔racput 14,31° · ahom↔yuan 13,69° ·
+granada↔kastilya 11,82° · bicapur↔vijayanagara 11,51°
+```
+⚠️ `somali ↔ vollayta` 39,74° **yeni** — `somali` bugün taşındığı için doğdu.
+Koşudan sonra yeniden ölçülecek; **350 dönemlik gövde değişimi** bu tablonun
+tamamını oynatabilir.
+
+### Koşudan sonraki sıram
+```
+① renk_cikti.py   350 dönemlik gövde değişiminin çizili karşılığı
+                  (taban: 759 çift · 0 ihlal · 11 sınırda · 8 bayat renk)
+② merini · sadi · fas üçlüsü ilk kez GERÇEK gövde olarak sahnede —
+   ölçtüğüm ΔE'ler (24,8 · 37,2 · 42,0) ekranda sınanacak
+③ ainu — veride kullanılıp künyesiz TEK kimlik (2 dönem, Matsumae ·
+   Hakodate 1281-1550). Rengi VAR (#1b8ae4); eksik olan yalnız künye.
+```

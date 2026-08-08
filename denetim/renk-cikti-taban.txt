@@ -14,7 +14,7 @@
      tibet                çizilen #3cc048 · beyan #e1aed2
   ⇒ Yeni bir üretim koşusu gerekiyor.
 
-  BOYALAR'da olup ÇİZİLMEYEN: 23 (gövdesiz kimlikler)
+  BOYALAR'da olup ÇİZİLMEYEN: 33 (gövdesiz kimlikler)
 
 ==========================================================================
 ② ÇİZİLEN GÖVDELER — hangileri DEĞİYOR, ΔE < 12 var mı
