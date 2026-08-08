@@ -407,3 +407,51 @@ açılan kırılma günü TOPLAMI (69 nokta boyunca) : 0
 ```
 
 Devam: dördüncü tur (120-150 hedefine ulaşmak için).
+
+## DÖRDÜNCÜ TUR — 14 nokta
+
+```
+Sandoway (Thandwe)   Birmanya      arakan→konbaung→ingiliz-hindistani (Mrauk U'nun birebir zinciri)
+Kamphaeng Phet       Siyam         sukhothai→ayutthaya→tonburi→siyam-chakri
+Uthai Thani          Siyam         aynı zincir
+Preah Vihear         Kamboçya      angkor-kmer→kamboc-kralligi→fransiz-cinhindi
+Muang Sing           Laos          lan-xang→laos-kralliklari→fransiz-cinhindi
+Vinh Long            Vietnam       angkor-kmer→kamboc-kralligi→nguyen-beyligi→tay-son→
+                                    nguyen-beyligi→nguyen-hanedani→fransiz-cinhindi (Saygon'un
+                                    birebir zinciri, Mekong deltası)
+Can Tho              Vietnam       aynı zincir
+Muar                 Malaya        malay-sultanliklari→malaka-sultanligi→cohor-sultanligi
+Sibolga              Sumatra       ace-sultanligi→hollanda-dogu-hint (Barus'un birebir zinciri)
+Jepara               Java          singhasari→majapahit→demak→mataram-sultanligi→...
+Tarakan              Borneo        brunei-sultanligi(kur:1400)→hollanda-dogu-hint (Berau'nun
+                                    birebir zinciri)
+Bantaeng             Sulawesi      gova-makassar→hollanda-dogu-hint (Bone'dan FARKLI — Bantaeng
+                                    Gowa'nın KENDİ çekirdek toprağıydı, rakip değildi)
+Batangas             Filipinler    filipin-racaliklari→ispanya→abd
+Ende (Flores)        Moluk-K.Sunda timor-beylikleri→portekiz→hollanda-dogu-hint (Larantuka'nın
+                                    birebir zinciri)
+```
+
+### Doğrulama
+```
+yazılan (dördüncü tur)  : 14
+3km mükerrer              : 0
+renksiz kimlik              : 0
+dönem sorunu                : 0
+açılan yeni kırılma günü     : 0
+```
+
+## KÜMÜLATİF — 4 tur sonrası
+
+```
+dosyadaki nokta sayısı  : 83
+genel GDASYA yoğunluğu   : 76 → 159 nokta / 23,3mn km² ⇒ 3,3 → 6,82
+açılan kırılma günü TOPLAMI (83 nokta boyunca) : 0
+bekleyen (kimlik/renk)    : 4 (Jambi, Siak, Deli, Indragiri — renk bekliyor)
+bildirilmiş ama yazılmamış: 5 (Pontianak, Kutai, Bone, Palu, Kendari — uygun
+                             kimlik yok)
+```
+
+83 yazılan nokta ile 120-150 aralığının altındayım (toplam 159 aralığın
+ÜSTÜNDE) — hangi ölçütün esas alındığını netleştirmek için koordinatöre
+soruyorum, cevap gelene kadar devam ediyorum.
