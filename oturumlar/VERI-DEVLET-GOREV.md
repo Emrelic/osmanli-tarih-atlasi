@@ -2472,3 +2472,132 @@ ters/sıfır süreli f-t : 0
 ```
 `data/devletler.js` pathspec'siz bırakıldı. Koordinatöre bildirildi, sonra
 kalan 12 dağınık kısa-özet künyeye geçiliyor.
+
+## ㊲ Dört iş — saruhan düzeltildi, A sınıfının 3'ü işlendi, Ö1 SINAV KÜMESİ (22 kimlik) kayda geçti, 12 dağınık künye tamamlandı
+
+### ① saruhan — UYGULANDI
+```
+f=1313-01-01 (değişmedi) · t=1410-01-01 → 1416-09-01 (Torlak Kemal'in
+Manisa'da idamı, olaylar_ek5.js:61)
+```
+Özete zorunlu cümle eklendi: "1390'da Yıldırım Bayezid ilhak etti; beylik
+1402'de Timur tarafından diriltildi ve 1416'da Torlak Kemal'in idamıyla
+kesin olarak sona erdi. Künye dış zarfı verir — arada 12 yıllık Osmanlı
+dönemi vardır."
+
+### ② A sınıfının diğer üçü — ÖLÇÜLDÜ, İKİSİ NOT ALDI, BİRİ DÜZELTİLDİ
+
+```
+germiyan      f/t DOĞRUYDU (1300-1429, TDV'yle uyumlu) — yalnız özete
+              "iki dönem... künye dış zarfı verir" notu eklendi.
+teke          f/t DOĞRUYDU (1321-1423, TDV'yle uyumlu) — yalnız özete
+              aynı kalıpta not eklendi.
+mutahharten   f/t YANLIŞTI — künye t=1403 iken veri Mutahharten'in İKİNCİ
+              döneminin (Timur restorasyonu sonrası) 1410'a kadar
+              sürdüğünü gösteriyor (Erzincan kaydı, yerlesimler.js).
+              t=1403 → 1410-01-01 DÜZELTİLDİ, özete iki-dönem notu eklendi.
+```
+
+### ③ 🔴 Ö1 SINAV KÜMESİ — 22 KİMLİK, KALICI KAYIT
+
+Ölçüm yöntemi: `yerlesimler.js`'teki her yerleşimin `s:[]` dizisinde AYNI
+`d:` kimliğinin İKİ KEZ, ARADA BAŞKA BİR KİMLİK GEÇEREK göründüğü durumlar
+taranarak (31 ham aday bulundu), bunlar `devletler.js`teki karşılık gelen
+künyenin f/t zarfıyla karşılaştırıldı. `ÖTMELİ` = künye f/t'si gerçek
+tarihsel sınırı YANLIŞ veriyordu (düzeltme gerekiyordu/yapıldı); `ÖTMEMELİ`
+= künye f/t'si zaten doğru dış zarfı veriyor, aradaki kesinti yalnız
+özette anlatılıyor (şema ihlali değil); `SINIRDA` = ayrıca incelenmeli.
+
+```
+KİMLİK                     SINIF  KARAR       GEREKÇE
+saruhan                    A      ÖTMELİYDİ   t yanlıştı (1410→1416-09-01
+                                               DÜZELTİLDİ)
+mutahharten                A      ÖTMELİYDİ   t yanlıştı (1403→1410
+                                               DÜZELTİLDİ)
+germiyan                   A      ötmemeli    f/t zaten doğru, not eklendi
+teke                       A      ötmemeli    f/t zaten doğru, not eklendi
+candar                     A      ötmemeli    f/t önceki turda düzeltildi
+                                               (1291→1309), TDV'yle uyumlu
+aydin                      A      SINIRDA     3 dönemli yapı (1402 kısa +
+                                               1415-21 Cüneyd'in 2. eli) —
+                                               tek gözlemde çözülmedi
+karaman                    A      SINIRDA     Timurlu kesintisi var, f/t
+                                               TDV'yle bu turda ayrıca
+                                               doğrulanmadı
+akkoyunlu                  ötmemeli(*)        künye GENİŞ konfederasyonu
+                                               izliyor; Erzincan'daki
+                                               yerel kesinti (mutahharten)
+                                               ayrı künyeyle karşılanıyor
+suud-birinci                B      ötmemeli   3 ayrı devlet, 3 ayrı künye
+suud-ikinci                 B      ötmemeli   (aralardaki boşluk hiçbir
+suud-ucuncu                 B      ötmemeli   künye tarafından köprülenmiyor)
+gurcistan                   B      ötmemeli   ortaçağ krallığı + 1918 DC
+gurcistan-demokratik-cumh.  B      ötmemeli   ayrı künye, 117 yıllık boşluk
+                                               köprülenmiyor
+polonya-erken                B      ötmemeli  3 ayrı künye (krallık/
+lehistan                     B      ötmemeli  birlik/modern cumhuriyet),
+polonya                      B      ötmemeli  1795-1918 boşluğu köprülenmiyor
+kirim                       C      ötmemeli   tek künye (1441-1783), 1771-74
+                                               kısa Rus işgali TDV/Küçük
+                                               Kaynarca'ya göre hanlığın
+                                               nominal sürekliliğini bozmuyor
+darfur                      C      ötmemeli   koordinatör örneği; taramamda
+                                               HİÇ kesinti çıkmadı
+suleyman-celebi              C      ötmemeli  Fetret Devri rakip
+musa-celebi                  C      ötmemeli  şehzadeler, zaten AYRI künye
+eflak                        C      ötmemeli  kısa Fetret-dönemi kesintisi,
+                                               künye zarfı geniş ve doğru
+buhara                       C      ötmemeli  taranan kesinti aslında
+                                               çevre bir şehrin (Merv) el
+                                               değiştirmesi, Buhara'nın
+                                               kendi sürekliliği bozulmadı
+```
+**Toplam: 22 kimlik. 2 ÖTMELİYDİ (ikisi de bu partide düzeltildi), 18
+ötmemeli, 2 sınırda (aydin, karaman — ayrı ölçüm gerektirir).**
+
+⚠️ Bu liste TAM DEĞİL — yalnız `yerlesimler.js`'in "aynı kimlik iki kez,
+arada başka kimlikle" desenini yakalayan 31 ham adaydan süzüldü. Osmanlı
+şehzadeleri arası kısa el değiştirmeler (süleyman-celebi/musa-celebi gibi)
+ve büyük emperyal işgal-geri alma döngüleri (macaristan/bulgaristan/
+sirbistan/rusya/lehistan-almanya, ~9 kimlik daha) kapsam dışı bırakıldı —
+bunlar farklı bir olgu sınıfı (uzun süreli işgal, kısa iç savaş), Timur
+restorasyonu deseni değil. Ö1 değişmezini yazacak oturum bu ayrımı
+GÖZ ÖNÜNDE BULUNDURMALI, tam listeyi kendi taramasıyla genişletmeli.
+
+### ④ Kalan 12 dağınık kısa-özet künye — TAMAMLANDI (9 yazıldı + "umman"
+threshold kaymasıyla eklendi = 10), 3 çelişki soruluyor
+
+**10 yazılan** (kaynak okunarak, hanedan/ülke etiketli): `sirvansah`,
+`napoli`, `granada`, `macaristan`, `altinorda`, `safevi`, `umman`,
+`papalik`, `sammar`, `fransiz-misir-seferi` (bu sonuncusunun kaynağı
+"yetersiz" olduğu için özet TDV'nin yalnız başlık düzeyinde geçtiğini
+açıkça belirtiyor, standart akademik kaynağa dayandırıldı).
+
+**3 kayıt — TDV ile çelişiyor, YAZILMADI, SORULUYOR:**
+```
+karakoyunlu (t=1467)        TDV: son hükümdar Hasan Ali "Nisan 1469"de
+                             öldürüldü. 2 yıl fark.
+trablusgarp-ocagi (t=1911-10-05)  TDV'nin üç tarihinden (savaş ilanı
+                             29 Eylül, Trablus'un düşüşü 9 Ekim, barış
+                             18 Ekim 1912) hiçbiriyle eşleşmiyor.
+hicaz-kralligi (f=1916-06-10)     TDV: isyan Haziran 1916'da başladı ama
+                             KRALLIK ilanı Kasım 1916. Künye "Krallık"
+                             adını Haziran'dan veriyor — 5 aylık fark.
+```
+
+**`poni` ve `bonacolsi` ÖZEL DİKKAT — kontrol edildi, SORUN YOK:** ikisi
+de zaten dolu özete sahip (273 ve 292 karakter), kısa-özet listesinde
+DEĞİLLER. Hangi başka sorunu işaret ettiğini bilmiyorum — eğer kastedilen
+başka bir husustu, netleştirir misin?
+
+### Doğrulama (tüm dört iş)
+```
+py arac/kunye_olc.py  →  kısa künye: 3 (yalnız yukarıdaki 3 çelişki —
+                          hepsi bilerek bırakıldı)
+kayıt sayısı        : 381
+mükerrer id           : 0
+kaynaksız kayıt        : 0
+boş özet              : 0
+ters/sıfır süreli f-t : 0
+```
+`data/devletler.js` pathspec'siz bırakıldı. Koordinatöre bildirildi.
