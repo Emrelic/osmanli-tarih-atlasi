@@ -2,7 +2,7 @@
 
 > 🤖 **BU DOSYA ÜRETİLİR — ELLE DÜZENLEME.**
 > Kaynak: `oturumlar/tespih.json` · üretici: `ClaudEmre/kutu/tespih.py`
-> Son güncelleme: **2026-08-08T15:36**
+> Son güncelleme: **2026-08-08T15:40**
 >
 > Sıralama ölçütü **`FAYDA ÷ EMEK`** — önem yüksek + irilik düşük önce.
 > Üç öncelik kuralı: **① darboğaz · ② tekrar eden madde · ③ yakınlık**
@@ -14,7 +14,7 @@
 | 🔬 | **sistem analizi** | biz ölçüp eksik/yanlış bulduk, Emre onayladı | 12 |
 | 💬 | **Emre — oturumdan** | iş sürerken aklına gelip pencereye yazdı | 32 |
 | 📦 | **Emre — paket** | toplu hâlde gönderdiği hatalar/fikirler | 1 |
-| 🔧 | **oturum önerisi** | işçi oturum bildirdi ya da istişareden çıktı | 33 |
+| 🔧 | **oturum önerisi** | işçi oturum bildirdi ya da istişareden çıktı | 35 |
 | 👁 | **bekleyenler cevabı** | BEKLEYENLER kutusunda sorulana verdiği cevap | 3 |
 | 🌱 | **%0 — gündemde yoktu** | hiç düşünülmemişti; üreteç peydah etti | 0 |
 
@@ -69,7 +69,7 @@
 | 🟧 | **metreküp** | bir çağ / bir devlet — haftalarca iş · 🔴 **YAPILMAZ, AÇILIR** | 14 |
 | 🟨 | **desimetreküp** | bir bölge / bir eksen — günlerce iş · 🔴 **YAPILMAZ, AÇILIR** | 7 |
 | 🟩 | **santimetreküp** | bir parti — saatlerce iş | 10 |
-| 🟦 | **milimetreküp** | TEK BONCUK — yapılabilir, açılamaz | 46 |
+| 🟦 | **milimetreküp** | TEK BONCUK — yapılabilir, açılamaz | 48 |
 
 ---
 
@@ -97,10 +97,11 @@
 
 ---
 
-## 🔵 ÇEKİLMEYİ BEKLEYEN — sıradaki boncuklar — 36
+## 🔵 ÇEKİLMEYİ BEKLEYEN — sıradaki boncuklar — 37
 
 | # | iş | kanal | sahip | niçin bu sırada |
 |---|---|---|---|---|
+| T-0083 | `dogu-sumatra-sultanliklari` rengi — 4 nokta bunu bekliyor | 🟦 🔧 | — | Künye yazıldı ama BOYALAR'da yok ⇒ §8: bölge BOYANMAZ. NOKTA GDASYA Sumatra'nın dört noktasını yazamıyor. RENK 2'de. |
 | T-0080 | 🔴 72 RENK İHLALİ — Anadolu beylikleri + İtalyan şehirleri | 🟨 🔧 | — | RENK 2'nin yeni çift kurucusu (künye penceresi + kademeli mesafe) 143 çift kurdu — HİÇBİRİNİ hiçbir denetim görmüyordu. 72'si ΔE<12. 🔴 VE NEREDE OLDUĞU ASIL BULGU: ~30 çift Anadolu beylikleri (aydin·karesi·mentese·hamid·teke·germiyan·saruhan·eretna·karaman· dulkadir·artuklu…), ~15 çift İtalyan şehirleri (ceneviz·venedik·piza· ferrara·siena·napoli…). En dar: bizans↔inancogullari ΔE 9,55 · 104 km · 1281-1368 — ATLASIN AÇILIŞ SAHNESİ. Kullanıcının Osmanlı'nın doğuşunu okuduğu ekran. ⚠️ B15: büyük partide tavan ÇÖZÜLEMEZ olabilir (kırk partisinde 29/40'ta takılmıştı) — önce ÖLÇ, sonra parti tasarla. |
 | T-0031 | Cost-distance prototipi — Voronoi'nin topografik hâli | 🟦 💬 | — | Emre: 'iple çekiyorum'. Motor zaten 0,05° Dijkstra kullanıyor, eksik olan SÜRTÜNME ÇARPANI. 1800 noktanın %50'si bir engeli ihlal ediyor |
 | T-0060 | Doğu Asya noktaları 171→?  ↳ `T-0057` | 🟧 💬 | — | yoğunluk 8,8 · 19,4 mn km² |
@@ -152,10 +153,11 @@
 
 ---
 
-## ✅ SAYILAN — öbür uca dizilmiş boncuklar — 30
+## ✅ SAYILAN — öbür uca dizilmiş boncuklar — 31
 
 | # | iş | kanal | ölçüm | bitti |
 |---|---|---|---|---|
+| T-0082 | `dogu-sumatra-sultanliklari` künyesi — Jambi · Siak · Deli · Indragiri | 🔧 | 381 → 382 künye · TOPLU künye seçildi (malay-sultanliklari emsali) · f=1615 (Jambi, en erken) t=1858 (Korte Verklaring, YIL BEYANI) · dört slug da 302 ÖLÜ, iki genel madde CANLI ama isimsiz/tarihsiz ⇒ kaynak:'bulunamadı — arandı, yok' | 2026-08-08 |
 | T-0077 | Malaya noktaları — GD Asya alt bölgesi | 🔧 | 4 nokta · kutu çakışması düzeltildi (Johor/KL/Malaka/Penang zaten canlıymış, Sumatra etiketine düşmüş) · sıfır borç | 2026-08-08 |
 | T-0078 | Sumatra noktaları (kısmî) — GD Asya alt bölgesi | 🔧 | 3 nokta · Barus öz-düzeltmesi: künye t=1903 ile hizalandı · sıfır borç · 🔴 dört kimlik boşluğu bildirildi | 2026-08-08 |
 | T-0074 | Siyam noktaları — GD Asya alt bölgesi | 🔧 | 8 nokta · sıfır kırılma borcu | 2026-08-08 |

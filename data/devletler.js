@@ -4652,6 +4652,16 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1527-06-22", tur:"son", b:"Fetahillah'ın Demak-Cirebon kuvvetleri Sunda Kelapa'yı aldı, liman \"Jayakarta\" adını aldı" }
   ]
+},
+{ id:"dogu-sumatra-sultanliklari", ad:"Doğu Sumatra Sultanlıkları (Jambi, Siyak, Deli, Indragiri)", tur:"devlet", bolge:"guneydogu-asya",
+  f:"1615-01-01", t:"1858-01-01", baskent:"—",
+  ozet:"Sumatra'nın doğu kıyısındaki dört küçük Malay-Müslüman sultanlığın toplu künyesi (HANEDAN ÖMRÜ değil, TOPLU/BATTANİYE kimlik — malay-sultanliklari'nin emsalini izler): Jambi (İslam sultanlığı ~1615), Siyak (1723, Cohor'dan ayrıldı), Deli (~1632, Açe vasalı olarak), Indragiri (Malaka/Cohor çevresine bağlı, erken İslamlaşma). Dördünün de TDV'de müstakil maddesi yok; f/t YIL BEYANIdır — tam kuruluş/bağlanma günleri belirsiz. t=1858, Hollanda'nın 'Korte Verklaring' (Kısa Beyanname) antlaşmalarıyla bölgeyi sistematik olarak doğrudan denetime almaya başladığı döneme işaret eder; sultanlıklar sonrasında Hollanda'ya BAĞLI ADLI VARLIKLAR olarak (bazıları 1946'ya kadar) sürdü — bu künye yalnız 'fiilî bağımsız/yerel egemenlik' döneminin sonunu (1858) esas alır, tam ilhakı değil.",
+  kaynak:"bulunamadı — arandı, yok. Dört slug tek tek denendi (cambi, siyak, deli, indragiri) — hepsi ölü/alakasız. Genel 'sumatra' ve 'endonezya' maddeleri de okundu: yalnız TOPLU bir cümleyle geçiyorlar (\"1900'lere kadar... irili ufaklı İslâm devletlerinin tamamını egemenlikleri altına aldılar\"), dört sultanlığı ayrı ayrı işlemiyor. Dayanak: standart akademik kaynak.",
+  kronoloji:[
+    { t:"1615-01-01", tur:"kurulus", b:"Jambi'de İslam sultanlığının kuruluşu (yıl beyanı)" },
+    { t:"1723-01-01", tur:"kurulus", b:"Siyak, Cohor (Johor) tahtı ihtilafından ayrılarak kuruldu (Raja Kecil)" },
+    { t:"1858-01-01", tur:"vassal", b:"Hollanda'nın 'Korte Verklaring' antlaşmalarıyla Doğu Sumatra sultanlıklarını sistematik denetime alması (yıl beyanı, kademeli süreç)" }
+  ]
 }
 
 ];

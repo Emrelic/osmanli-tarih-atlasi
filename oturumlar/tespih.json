@@ -1,7 +1,7 @@
 {
   "surum": 1,
   "proje": "Osmanlı Tarih Atlası",
-  "guncelleme": "2026-08-08T15:36",
+  "guncelleme": "2026-08-08T15:40",
   "isler": [
     {
       "id": "T-0001",
@@ -1346,6 +1346,46 @@
       "sahip": "RENK 2",
       "girdi": "2026-08-08T15:36",
       "basladi": "2026-08-08T15:36",
+      "bitti": null,
+      "olcum": null
+    },
+    {
+      "id": "T-0082",
+      "baslik": "`dogu-sumatra-sultanliklari` künyesi — Jambi · Siak · Deli · Indragiri",
+      "hal": "biten",
+      "kanal": 4,
+      "onem": 4,
+      "irilik": 1,
+      "nicin": "",
+      "olcek": "mm3",
+      "ust": null,
+      "z": "*",
+      "m": "Asya›Güneydoğu›Sumatra",
+      "k": "siyasî›devlet",
+      "u": "kimlik",
+      "sahip": "NOKTA GDASYA",
+      "girdi": "2026-08-08T15:40",
+      "basladi": "2026-08-08T15:40",
+      "bitti": "2026-08-08T15:40",
+      "olcum": "381 → 382 künye · TOPLU künye seçildi (malay-sultanliklari emsali) · f=1615 (Jambi, en erken) t=1858 (Korte Verklaring, YIL BEYANI) · dört slug da 302 ÖLÜ, iki genel madde CANLI ama isimsiz/tarihsiz ⇒ kaynak:'bulunamadı — arandı, yok'"
+    },
+    {
+      "id": "T-0083",
+      "baslik": "`dogu-sumatra-sultanliklari` rengi — 4 nokta bunu bekliyor",
+      "hal": "bekleyen",
+      "kanal": 4,
+      "onem": 5,
+      "irilik": 1,
+      "nicin": "Künye yazıldı ama BOYALAR'da yok ⇒ §8: bölge BOYANMAZ. NOKTA GDASYA Sumatra'nın dört noktasını yazamıyor. RENK 2'de.",
+      "olcek": "mm3",
+      "ust": null,
+      "z": "*",
+      "m": "Asya›Güneydoğu›Sumatra",
+      "k": "sistem›palet",
+      "u": "gorunum",
+      "sahip": null,
+      "girdi": "2026-08-08T15:40",
+      "basladi": null,
       "bitti": null,
       "olcum": null
     }
