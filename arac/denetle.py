@@ -139,7 +139,15 @@ BEKLENEN_YERLESIM = 968
 # `ainu` donemi KALDIRILDI -- eksik olan kunye degil, FAZLA OLAN BOYAYDI.
 # Zincir borcu sayaci kunye yazilarak da sifirlanir, boya kaldirilarak
 # da; ikisi denetimde AYNI gorunur, haritada ZIT sey yapar.
-BEKLENEN_SAHIPSIZ = 178   # 172 + 6: EMILME partisi (Orta Afrika)
+BEKLENEN_SAHIPSIZ = 182   # 172 +6 EMILME (Orta Afrika) +4 SIBIRYA
+# 🔴 SİBİRYA'nın DÖRDÜ İKİ AYRI CİNS — ve ayrımı ölçüm verdi:
+#   Çukotka · Anadır   neden:"devletsiz"  kaynak AÇIKÇA konuşuyor:
+#       "never paid yasak … status as subjects was little more than
+#        a formality" · 1649 kalesi 1764'te TERK EDİLDİ
+#   Yakut · Koryak     neden:"veri-yok"   kaynak SUSUYOR: fetih öncesi
+#       siyasî örgütlenmeyi HİÇ tartışmıyor, doğrudan 1620'lerle başlıyor
+# ⇒ İkisi de haritada AYNI görünür; fark BİR SONRAKİ OTURUM içindir:
+#   Çukotka'ya bir daha bakılmayacak, Yakut'a BAKILACAK.
 # 🔴 TAVAN GEREKÇESİYLE YÜKSELTİLDİ — 8 Ağustos 2026, NOKTA EMİLME.
 # Altı nokta da AYNI DESEN: künye o coğrafya için VAR ama DAHA GEÇ bir
 # tarihte başlıyor (Kabasa 1281-1500 · Musumba 1281-1665 · Boma/Kisangani
