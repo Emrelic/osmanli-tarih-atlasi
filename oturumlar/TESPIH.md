@@ -2,7 +2,7 @@
 
 > 🤖 **BU DOSYA ÜRETİLİR — ELLE DÜZENLEME.**
 > Kaynak: `oturumlar/tespih.json` · üretici: `ClaudEmre/kutu/tespih.py`
-> Son güncelleme: **2026-08-08T15:08**
+> Son güncelleme: **2026-08-08T15:12**
 >
 > Sıralama ölçütü **`FAYDA ÷ EMEK`** — önem yüksek + irilik düşük önce.
 > Üç öncelik kuralı: **① darboğaz · ② tekrar eden madde · ③ yakınlık**
@@ -62,8 +62,8 @@
 | 🟥 | **dekametreküp** | bir kıta / bir uygarlık — yıllarca iş · 🔴 **YAPILMAZ, AÇILIR** | 4 |
 | 🟧 | **metreküp** | bir çağ / bir devlet — haftalarca iş · 🔴 **YAPILMAZ, AÇILIR** | 14 |
 | 🟨 | **desimetreküp** | bir bölge / bir eksen — günlerce iş · 🔴 **YAPILMAZ, AÇILIR** | 6 |
-| 🟩 | **santimetreküp** | bir parti — saatlerce iş | 7 |
-| 🟦 | **milimetreküp** | TEK BONCUK — yapılabilir, açılamaz | 36 |
+| 🟩 | **santimetreküp** | bir parti — saatlerce iş | 8 |
+| 🟦 | **milimetreküp** | TEK BONCUK — yapılabilir, açılamaz | 35 |
 
 ---
 
@@ -118,7 +118,7 @@
 | T-0052 | iç isyanlar  ↳ `T-0044` | 🟩 💬 | — | savaşlardan sonra |
 | T-0053 | bilim-teknoloji  ↳ `T-0044` | 🟩 💬 | — | 8. boyut — KASTEN KAPALI (CLAUDE.md §1.6) |
 | T-0054 | spor  ↳ `T-0044` | 🟩 💬 | — | 8. boyut — KASTEN KAPALI |
-| T-0029 | Kavalalı taşıması — Mısır 1805-1841 · Suriye · Mora · Hicaz · Sudan | 🟦 🔧 | — | künye VAR (misir-kavalali), kronoloji VAR, renk VAR — hiçbir engel kalmadı, yalnız taşıma yazılmamış |
+| T-0029 | Kavalalı Suriye işgali 1832-1841 — 27 noktaya `isg:` | 🟩 🔧 | — | 🟢 ÖLÇÜLDÜ, YAZILMAYA HAZIR — hiçbir engel yok. künye VAR (`misir-kavalali`, `tabi:` ile osmanlı'ya bağlı) · renk VAR (#00acc1) · kronoloji VAR (dört madde) · yedi aday kırılma gününün YEDİSİ DE BEDAVA (1805-07-03 · 1832-06-15 · 1833-05-04 · 1840-11-03 · 1841-02-25 · 1841-05-24 · 1914-12-18). 🔴 AMA SEMANTİK ÇATAL ÖLÇÜLDÜ: Mora (1825-28) ve Hicaz (1811-18) Kavalalı'nın PADİŞAH ADINA fethiydi — ayrı renk YANLIŞ olur, o topraklar Osmanlı kalmalı. Mısır 1805-1841 hukuken Osmanlı'ydı ve `tabi:` alanı bunu zaten modelliyor. ⇒ TEK AÇIK VAKA: SURİYE-FİLİSTİN 1832-1841 — padişaha KARŞI zorla alındı, sonra iade edildi. Bu tam olarak `isg:` kalıbıdır (İbrail'in iki Rus işgali aynı şekil: 1809-1812 ve 1828-1829). 27 nokta. ⚠️ `2i` tavanı 3/3 DOLU ama başlangıç ve bitiş günlerinin ikisi de maddeli ⇒ bedava. |
 | T-0027 | Dokuz tarih uyuşmazlığı — Agadir · Şehrizor · Bucaş · Cüneyd ×2 · Konya 1415 | 🟦 🔬 | — | ölçülmüş, tek tek kapanır |
 | T-0028 | Kronoloji çukurları — 1250-1299: 6 madde · 1600-1649: 62 | 🟦 🔬 | — | komşu dilimler 111 ve 81 · kuruluş devri en ince yer |
 | T-0037 | KUZEY AMERİKA — kıtayı atlasa açmak | 🟥 💬 | — | Emre'nin örneği · halka 6-7 · nokta yoğunluğu sağlanmadan BOLGE kutusu açılamaz (CLAUDE.md §6) |

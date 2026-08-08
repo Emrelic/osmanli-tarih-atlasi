@@ -1,7 +1,7 @@
 {
   "surum": 1,
   "proje": "Osmanlı Tarih Atlası",
-  "guncelleme": "2026-08-08T15:08",
+  "guncelleme": "2026-08-08T15:12",
   "isler": [
     {
       "id": "T-0001",
@@ -397,17 +397,22 @@
     },
     {
       "id": "T-0029",
-      "baslik": "Kavalalı taşıması — Mısır 1805-1841 · Suriye · Mora · Hicaz · Sudan",
+      "baslik": "Kavalalı Suriye işgali 1832-1841 — 27 noktaya `isg:`",
       "hal": "bekleyen",
       "kanal": 4,
       "onem": 3,
       "irilik": 2,
-      "nicin": "künye VAR (misir-kavalali), kronoloji VAR, renk VAR — hiçbir engel kalmadı, yalnız taşıma yazılmamış",
+      "nicin": "🟢 ÖLÇÜLDÜ, YAZILMAYA HAZIR — hiçbir engel yok. künye VAR (`misir-kavalali`, `tabi:` ile osmanlı'ya bağlı) · renk VAR (#00acc1) · kronoloji VAR (dört madde) · yedi aday kırılma gününün YEDİSİ DE BEDAVA (1805-07-03 · 1832-06-15 · 1833-05-04 · 1840-11-03 · 1841-02-25 · 1841-05-24 · 1914-12-18). 🔴 AMA SEMANTİK ÇATAL ÖLÇÜLDÜ: Mora (1825-28) ve Hicaz (1811-18) Kavalalı'nın PADİŞAH ADINA fethiydi — ayrı renk YANLIŞ olur, o topraklar Osmanlı kalmalı. Mısır 1805-1841 hukuken Osmanlı'ydı ve `tabi:` alanı bunu zaten modelliyor. ⇒ TEK AÇIK VAKA: SURİYE-FİLİSTİN 1832-1841 — padişaha KARŞI zorla alındı, sonra iade edildi. Bu tam olarak `isg:` kalıbıdır (İbrail'in iki Rus işgali aynı şekil: 1809-1812 ve 1828-1829). 27 nokta. ⚠️ `2i` tavanı 3/3 DOLU ama başlangıç ve bitiş günlerinin ikisi de maddeli ⇒ bedava.",
       "olcum": null,
       "sahip": null,
       "girdi": "2026-08-08T07:00",
       "basladi": null,
-      "bitti": null
+      "bitti": null,
+      "olcek": "cm3",
+      "m": "Asya›Suriye-Filistin",
+      "u": "govde",
+      "k": "siyasî›askerî›işgal",
+      "z": "1832-1841"
     },
     {
       "id": "T-0030",
