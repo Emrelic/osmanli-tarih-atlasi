@@ -3921,11 +3921,17 @@ window.DEVLETLER = [
   ]
 },
 { id:"lan-na", ad:"Lan Na Krallığı", tur:"krallik", bolge:"guneydogu-asya",
-  f:"1296-04-12", t:"1558-04-02", baskent:"Chiang Mai", harita:"lan-na",
+  f:"1262-01-01", t:"1558-04-02", baskent:"Chiang Mai", harita:"lan-na",
   ozet:"Kuzey Tayland dağlarında Mangrai'nin kurduğu Tai krallığı; Ayutthaya ve Ava arasında denge kurdu, Toungoo fethiyle Birmanya'ya bağlandı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+  // 🔴 `f` 1296-04-12 DEĞİL 1262: 1296 Chiang Mai'nin kuruluşudur, yani
+  // BAŞKENTİN tarihi — hanedanın değil. Mangrai 1262'de Chiang Rai'yi kurdu
+  // ve Lan Na'nın ilk hükümdarı sayılır. 8 Ağustos 2026'da düzeltildi:
+  // Chiang Rai ve Nan'ın ilk dönemi 1281-01-01'den başlıyordu ve künye
+  // 1296 diyordu ⇒ `§3.5` hayaleti, 15 yıl. Kaynak NOKTA GDASYA'da doğrulandı.
   kronoloji:[
-    { t:"1296-04-12", tur:"kurulus", b:"Kral Mangrai, Chiang Mai'yi kurup krallığın merkezi yaptı" },
+    { t:"1262-01-01", tur:"kurulus", b:"Mangrai, Chiang Rai'yi kurup Lan Na hanedanını başlattı" },
+    { t:"1296-04-12", tur:"baskent", b:"Kral Mangrai, Chiang Mai'yi kurup krallığın merkezi yaptı" },
     { t:"1558-04-02", tur:"son", b:"Bayinnaung Chiang Mai'yi aldı, krallık Toungoo'ya tâbi oldu" }
   ]
 },
