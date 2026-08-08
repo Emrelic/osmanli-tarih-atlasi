@@ -400,6 +400,36 @@ düşmüş olabilir — `data/devletler.js` `uman` künyesinde gerçekleşmiş v
 `murad-iii` · `ferhad-pasa` · `sultan-ahmed-camii-ve-kulliyesi` · `luristan` ·
 `hemedan`.
 
+**8 Ağustos 2026 turunda ölçülenler** (HTTP kodu; beşi ayrıca **gövdesi okundu**):
+```
+🟢 CANLI   darfur · sadiler · mevlay-ismail · filaliler · cezayir · kabiliye ·
+           fransa · magrib · miknas · titvan · sicilmase · darulbeyza · sus ·
+           merakes · rabat · atlas · tahert · mizab · benzert · nefuse ·
+           fizan · trablusgarp · bingazi · berka · derne
+🔴 ÖLÜ     badis · arais · el-arais · larache · mehdiye · mamura · huseyme ·
+           alhucemas · tuvat · tidikelt · gurare · bessar · ayn-salih ·
+           dar-fur · sadiler-hanedani · fas--sehir · fransa-ihtilali ·
+           fransiz-ihtilali · napolyon
+```
+📌 **Gövde okumak kodu okumaktan başka şey söyledi ve ikisi de gerekliydi.**
+Beş maddenin gövdesi kırılma günlerini **doğrudan verdi** — tarih uydurmaya
+hiç gerek kalmadı:
+```
+sadiler        "Fas'ta hüküm süren bir İslâm hânedanı (1511-1659)"
+               "Muhammed eş-Şeyh ... Vattâsî hâkimiyetine son verdi (956/1549)"
+               "İspanyollar'ın Bâdis'i ele geçirmesi ... (1564)"
+darfur         "Kîrâ sülâlesi ... Süleyman Solonc'dan (1695-1715) sonra"
+               "XIII ve XIV. yüzyıllar boyunca ... Dâcûlar"
+mevlay-ismail  "1100'de (1689) Arâîş'i İspanyollar'dan geri alarak 200 top"
+cezayir        "Kabiliye ... 1853, 1854 ve 1857'deki seferler sonunda"
+```
+⚠️ **Ve ölü slug bir maddeyi yazmaktan alıkoymaz — nasıl yazılacağını
+değiştirir.** Kuzey Afrika kıyısındaki beş yerin (Bâdis · el-Arâiş · Mamûra ·
+el-Hüseyme · Beşşâr) TDV'de müstakil maddesi **yok**. Maddeler yine yazıldı,
+ama her birinin metninde *"TDV'de müstakil maddesi yoktur"* **açıkça** duruyor
+ve `kaynak:` alanına konuyu gerçekten kapsayan **en yakın canlı madde** kondu.
+📌 *"TDV'de yok"* demek bir **sonuçtur**; uydurmaktan kat kat değerlidir.
+
 Zaten doğrulanmış slug kümesi `data/olaylar*.js` içindeki `kaynak:` alanlarından
 çıkarılabilir; o küme güvenlidir:
 ```bash
@@ -934,6 +964,51 @@ Notlar:
   📌 Bu, `§3.5`teki *"bir veri KATEGORİSİ hiç denetlenmemiş olabilir"*
   dersinin **kod tarafıdır**: orada çağrılmayan bir ARGÜMAN vardı, burada
   ateşlenmeyen bir DAL var. İkisi de *"araç doğru ama kapsamı ölçülmemiş"*.
+
+- 🔴 **HÜKÜM İLE TEŞHİS AYRI ŞEYLERDİR — bir raporu kabul etmeden ÖLÇ.**
+  RENK 2 şunu bildirdi: *"`merini` rengini yazdım ama hiçbir zaman
+  boyanmayacaktı — künyesi `harita:"fas"` diyor."* **Hüküm doğruydu.**
+  Ölçüldü, **teşhis yanlıştı**:
+  ```
+  BOYALAR içinde "merini"      VAR
+  veride  d:"merini" dönemi      0     ← ASIL SEBEP BU
+  ```
+  Renk görünmüyordu çünkü **onu kullanan veri yoktu** — Fas göçü hiç
+  yapılmamıştı. Bildirilen `harita:` alanı düzeltilseydi **renk yine
+  görünmeyecekti** ve kusur "kapatıldı" sayılacaktı.
+  ⇒ Doğru hüküm, yanlış teşhisle gelebilir. **Rapor ne kadar iyi olursa
+  olsun, düzeltmeden önce sebebi kendin ölç.**
+
+- 🔴 **BİR ALETİN EVRENİ DEĞİŞİNCE, ALET DEĞİŞMEDEN SESSİZCE YANILIR.**
+  7 Ağustos'ta **üç ayrı oturum** aynı tuzağa düştü, üçünde de kod bir
+  satır bile değişmemişti — değişen **taban**dı:
+  ```
+  NOKTA HALKA-2 1   dosyası girdi.py'ye bağlanınca kendi 181 noktasını
+                    KENDİSİYLE karşılaştırdı  → 181 sahte mükerrer, 0,00 km
+  NOKTA HALKA-2 2   aynı sebep                → 88 sahte mükerrer
+  NOKTA HALKA-2 3   aynı sebep                → "128 hata"
+  ```
+  Üçü de yanlış alarmı kendi yakaladı ve düzeltti. **Kural: bir dosya
+  bağlandığı gün, o veriye bakan BÜTÜN ölçüm aletlerinin tabanı yeniden
+  doğrulanır.** Aletin doğruluğu evreninden bağımsız değildir.
+
+- 🔴 **"ŞU DÜZELTMEYİ YAP" DENİNCE ÖNCE KUSURUN ÜREYİP ÜREMEDİĞİNİ ÖLÇ —
+  ve düzeltmenin HER DALDA doğru olduğunu.**
+  `id:` ∪ `harita:` okuma önerisi RENK 2'ye gitti. Ölçtü:
+  ```
+                            harita-or-id (mevcut)   id ∪ harita (önerilen)
+  künyesi var, rengi yok           63  ✓                96  🔴 +33 YANLIŞ
+  rengi var, künyesi yok            3                    2  ✓
+  ```
+  33 fazlanın sebebi: `bosna-kralligi` (harita=`bosna`) gibi künyelerin
+  `harita:` alanı **başka anahtara** bakar — kendi renklerine ihtiyaçları
+  **yoktur**. Birleşim onları "rengi eksik" sayardı.
+  ⇒ Çare birleşim değil **ayrı bir dal** oldu: *"künye var ama `harita:`
+  başka anahtarda"*. Ve o dal **ilk koşusunda gerçek bir bulgu** verdi.
+  📌 Ama **`js/app.js`te birleşim DOĞRUYDU** ve uygulandı: `devletAdi()`
+  yalnız `d.id` okuduğu için **30 gövde ham slug gösteriyordu** (`kaffa` ·
+  `sirbistan` · `ceneviz` · `sovalye`…). **Aynı soru, iki yerde iki farklı
+  cevap — ve ikisine de ölçüm karar verdi, kural değil.**
 
 - 🔴 **ALETİN GÖSTERDİĞİ ≠ DOSYADA YAZAN.** Bir `\b` kaçışı bozulup dosyaya
   **0x08 (BACKSPACE) baytı** yazıldı. `Read` onu **görünmez** gösterdi —
