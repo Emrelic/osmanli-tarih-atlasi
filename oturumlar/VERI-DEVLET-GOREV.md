@@ -1460,3 +1460,112 @@ koordinatörde.**
 Doğrulandı (`node -e eval`): mükerrer id 0, ters/sıfır dönem 0.
 
 `data/devletler.js` pathspec'siz bırakıldı. Koordinatöre haber verildi.
+
+---
+
+## ㉖ Dört kalem — fas nüanslı düzeltme, japonya nokta ölçümü, 21 künye doğrulaması, kavalali
+
+### ① `fas` — NÜANSLI DÜZELTME YAZILDI
+
+```
+1666 bölünme → 1664 hukumdar: "Mevlây Reşîd başa geçti; Alevî (Filalî)
+hanedanı fiilen iktidara geldi (şehirlerin tam ele geçirilişi onun
+döneminde, sonraki 20 yıl içinde tamamlandı)"
+```
+Üç tarih ayrıştırıldı ve ozete işlendi: 1659 (Sâdî'nin kendi çöküşü, `sadi`
+künyesinde/haritada kalıyor, DOKUNULMADI) · 1664 (Mevlây Reşîd başa geçti,
+BU satır) · 1666 (kaynaksızdı, kaldırıldı). Harita sınırı (`sadi`→`fas`,
+1659) DOKUNULMADI. Doğrulandı.
+
+### ② Japonya üç örtüşmesi — NOKTA DÜZEYİNDE ÖLÇÜLDÜ: ZARARSIZ
+
+`girdi.yukle()` ile üç örtüşme penceresinin her birinde hangi `d:`
+değerlerinin fiilen kullanıldığı tarandı:
+
+```
+kenmu↔muromachi (1336-01-01..1336-11-07)    yalnız 'kenmu' kullanılıyor,
+                                              hiçbir nokta 'muromachi'ye
+                                              bu pencerede GEÇMEMİŞ
+muromachi↔azuchi (1568-01-01..1573-09-01)   noktalar 1573-01-01'de TEMİZ
+                                              geçiş yapıyor (muromachi→
+                                              azuchi-momoyama), ORTAK tarih
+                                              yok
+azuchi↔edo (1603-03-24..1615-06-04)         çoğu nokta 1603-03-24'te temiz
+                                              geçiyor; Osaka İSTİSNA —
+                                              azuchi-momoyama'da 1615'e
+                                              dek KALIYOR (Osaka Kuşatması,
+                                              tarihsel olarak doğru), ama
+                                              yine TEK sahip
+```
+
+**Sonuç: HİÇBİR noktada iki devlete birden ait görünme YOK — 0 çakışan
+nokta-dönem.** Künye tanımlarındaki örtüşme (kağıt üzerinde) hiçbir zaman
+veri düzeyinde gerçek bir çift-sahiplik doğurmuyor; her nokta üç örtüşme
+penceresinin hepsinde de TEK bir `d:` değerine sahip. **Zararsız, kayda
+geçildi, kapatıldı** — değişmez 3 ihlali yok.
+
+### ③ 21 künye doğrulaması — TAMAMI GERÇEK, hiçbiri `ainu`-tipi çürütme adayı değil
+
+`arac/renkler.py`nin `BOYALAR` sözlüğü (311 kayıt) ile `girdi.yukle()`
+karşılaştırıldı: **22 renk veride hiç kullanılmıyor.** 21'i doğrudan bir
+künyeyle eşleşti (id ya da harita), 1'i (`kavalali`) doğrudan eşleşmedi —
+o ayrı kalem olarak ④'te ele alındı.
+
+| kimlik | künye f/t (teyit) | TDV canlı slug (② HTTP+içerik) | ③ gerçek mi? |
+|---|---|---|---|
+| `lur-i-kucek` | 1184-1597 | ✅ `lur-i-kucek` CANLI (kendi slug'ı!) | GERÇEK — TDV kendi maddesinde adı geçiyor |
+| `kutlughanli` | 1222-1306 | ✅ `kutlughanlilar` CANLI | GERÇEK, kurucu+tarih TDV'de birebir |
+| `incu` | 1325-1357 | ✅ `incu` CANLI (tarihsiz) | GERÇEK — hanedan TDV'de tanımlı, tarihler standart akademik |
+| `muzafferi` | 1318-1393 | ✅ `muzafferiler` CANLI | GERÇEK, TDV birebir |
+| `imereti` | 1490-1810 | ⚪ TDV'de yok | GERÇEK — Gürcistan tarihinde su götürmez, iyi belgeli (üç parçadan biri, standart akademik) |
+| `ermenistan-demokratik-cumhuriyeti` | 1918-1920 | ⚪ TDV'de dedike madde yok (`kafkasya` genel çerçeveyi doğruluyor) | GERÇEK — 20. yy devleti, tartışmasız |
+| `azerbaycan-demokratik-cumhuriyeti` | 1918-1920 | ✅ `azerbaycan` CANLI, tarihler birebir | GERÇEK, en sağlam kalem |
+| `gurcistan-demokratik-cumhuriyeti` | 1918-1921 | ✅ `gurcistan` CANLI, kuruluş birebir | GERÇEK |
+| `rusya-gecici-hukumet` | 1917-1917 | ✅ `rusya` CANLI (genel madde) | GERÇEK — dünya çapında tartışmasız |
+| `litvanya-buyuk-dukalik` | 1253-1569 | ⚪ TDV'de yok (yalnız Lipkalar maddesi) | GERÇEK — Avrupa tarihinin en iyi belgeli ortaçağ devletlerinden biri |
+| `sovyet-rusya` | 1917-1923 | ✅ `rusya` CANLI | GERÇEK, tartışmasız |
+| `bahreyn` | 1783-1923 | ✅ `bahreyn` CANLI | GERÇEK (zaten kaynak: alanı dolu) |
+| `evfat` | 1285-1415 | ✅ `evfat` CANLI (koordinatörün 2. kez doğruladığı vaka) | GERÇEK |
+| `makdisu-sultanligi` | 1281-1500 | ✅ `makdisu` CANLI | GERÇEK |
+| `savoya` | 1032-1720 | ⚪ TDV'de yok | GERÇEK — Savoya hanedanı dünya tarihinin en iyi belgeli hanedanlarından (sonradan İtalya Krallığı) |
+| `floransa` | 1115-1532 | ⚪ TDV'de yok | GERÇEK — Floransa Cumhuriyeti tartışmasız (Rönesans'ın merkezi) |
+| `bonacolsi` | 1273-1328 | ⚪ TDV'de yok | GERÇEK ama bu listenin EN İNCE kaynaklı kalemlerinden biri — İtalyan bölgesel tarihçiliğinde belgeli (Gonzaga'nın selefi), büyük/genel kaynaklarda daha az öne çıkıyor |
+| `irlanda-serbest-devlet` | 1922-1923 | ⚪ TDV'de yok | GERÇEK, tartışmasız (modern İrlanda'nın doğrudan selefi) |
+| `poni` | 977-1405 | ⚪ TDV'de yok (`bruney` maddesi Po-ni'den hiç bahsetmiyor) | GERÇEK ama listenin EN ZAYIF kaynaklı kalemi — Çin haraç kayıtlarına (Song hanedanı) dayanan akademik konsensüs var (Nicholl gibi Brunei tarihçileri), ama TDV hiç değinmiyor VE kesin kuruluş yılı (977) yaklaşık |
+| `sanzan` | 1322-1429 | ⚪ TDV'de yok | GERÇEK — Ryukyu/Okinawa tarihinin standart bir dönemi (Hokuzan/Chuzan/Nanzan), akademik konsensüs güçlü |
+| `galzay` | 1709-1738 | ✅ `kandehar` CANLI | GERÇEK — Mirveys Hotek isyanı dünya çapında bilinen bir olay (Safevî çöküşünü tetikledi) |
+
+**TESLİM: 21/21 GERÇEK, 0 `ainu`-tipi çürütme adayı.** 9'u TDV canlı-
+doğrulanmış, 12'si TDV'de yok ama standart akademik kaynakla GÜÇLÜ
+belgeli. **En ince kaynaklı ikisi** (`poni`, `bonacolsi`) — ikisi de gerçek
+ama listenin geri kalanına göre daha az merkezî kaynaklı, ayrıca
+işaretledim. Hiçbirinde `ainu` sınıfı bir "isim var, devlet yok" riski
+görmedim.
+
+### ④ `kavalali` — misir-kavalali'ye `harita:` eklendi (381, kayıt sayısı sabit)
+
+```
+① TDV: `kavalali-mehmed-ali-pasa` CANLI (200) — künye zaten bu slug'ı
+   kaynak: olarak kullanıyordu (benim 38'lik partimde eklenmişti)
+② f/t: misir-kavalali'nin KENDİ f/t'si (1805-07-03 → 1914-12-18)
+   DOKUNULMADI — TDV'nin verdiği iki tarih (3 Temmuz 1805 valilik, 24 Mayıs
+   1841 irsî ferman birebir doğrulandı) zaten künyenin kronolojisinde iki
+   AYRI olay olarak duruyor. Ö1 notu ozete AÇIKÇA yazıldı: bu kayıt ÜLKE
+   SÜREKLİLİĞİ kimliğidir (1805-1914 TAM hanedan dönemi), yalnız 1805-1841
+   genişleme evresi değil.
+③ ÖNERİ (karar vermedim): künye zaten hem `tabi:[{...,ust:"osmanli"}]`
+   hem kendi ayrı gövde/renk istiyordu — `kirim`/`eflak`/`bogdan` emsaliyle
+   AYNI ikili model. Ayrıca yeni bir tasarım kararı gerekmiyor, mevcut
+   yapı zaten doğru model; yalnız `harita:` bağlantısı eksikti.
+④ `kaynak:"kavalali-mehmed-ali-pasa"` ZATEN vardı (38'lik partimden),
+   dokunulmadı.
+```
+**YAPILAN TEK DEĞİŞİKLİK: `harita:"kavalali"` eklendi.** Doğrulandı.
+
+### GÜNCEL SAYIM
+
+`data/devletler.js`: 381 (sabit, bu turda yeni kayıt yok — yalnız
+düzeltme/bağlama). Doğrulandı (`node -e eval`): mükerrer id 0, ters/sıfır
+dönem 0.
+
+`data/devletler.js` pathspec'siz bırakıldı. Koordinatöre haber verildi.
