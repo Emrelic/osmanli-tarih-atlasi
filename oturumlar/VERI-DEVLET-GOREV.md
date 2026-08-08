@@ -1014,3 +1014,53 @@ ayrımı hiç yapmaması ve künyenin kendi `ad:`ının "Sovyet" içermesi (a)'y
 da savunulabilir kılıyor. Karar koordinatörde.
 
 `data/devletler.js` pathspec'siz bırakıldı. Koordinatöre haber verildi.
+
+---
+
+## ⑲ `rusya-gecici-hukumet` yazıldı + 🔴 BÜYÜK BULGU (bekletmeden bildiriyorum)
+
+### `rusya-gecici-hukumet` — YAZILDI (342 → 343)
+
+```
+rusya-gecici-hukumet   1917-03-15 → 1917-11-07
+```
+Talimatınız birebir uygulandı: `f:` `rusya`nın kendi bitişiyle (1917-03-15),
+`t:` `sovyet-rusya`nın kendi başlangıcıyla (1917-11-07) BİREBİR — zincir
+`rusya → rusya-gecici-hukumet → sovyet-rusya` kesintisiz. 1 Eylül 1917 Rus
+Cumhuriyeti ilanı kronolojiye eklendi. TDV'de yok (4 slug — `gecici-hukumet`,
+`kerenski`, `subat-devrimi`, `rus-inkilabi` — hepsi 302), `ermenistan`
+emsaliyle açıkça işaretlendi. Doğrulandı (`node -e eval`): 343 kayıt,
+mükerrer id 0, ters/sıfır dönem 0.
+
+### 🔴🔴 BÜYÜK BULGU — `sih-imparatorlugu` tek vaka DEĞİLMİŞ, AYNI PARAGRAF 53 KAYITTA
+
+`sih-imparatorlugu`nun özetini temizlerken (istendiği gibi, tek kayıt)
+merak edip `grep -c "BİTİŞ 1635 DEĞİL 1691"` koştum — **53 kayıtta AYNI
+BİREBİR PARAGRAF var** (Moğolistan/Kuzey-Yuan/Halha'nın 1635-1691 tartışması),
+temizledikten sonra hâlâ **52 kayıtta duruyor.** Etkilenen kayıtlar tamamen
+ALAKASIZ coğrafyalar: Vijayanagara, Maratha, Mali, Hausa Bakwai, Aşanti,
+Dahomey, Benin (krallık), Oyo, Kongo, Ndongo, Lunda, Buganda, Zulu, Merina,
+Svahili kent-devletleri, Zengibar, Racputâne, Bicapur/Golkonda bölgesi,
+Odisha, Tibet (guşi-han-oncesi), **`kuzey-yuan`nın KENDİSİ** (muhtemelen
+BURASI gerçek/orijinal yuva — paragraf onun kendi konusu), Assam, Manipur,
+Nepal, Ladak, Travankur, Kandy, Yafna, Ava, Lan Na, Şan devletleri, Lan
+Sang, Angkor/Kamboçya, Mac hanedanı, Malaka ardılı sultanlıklar, Palembang,
+Banten, Banjarmasin, Gowa, Tidore, Banda, Bali, Minangkabau, Timor, Azuchi-
+Momoyama, Güney Ming, Trịnh, Formosa (Zheng), Mankup — **hepsi aynı 45+
+kelimelik paragrafı taşıyor, hiçbirinin (kuzey-yuan hariç) konusuyla
+ilgisi yok.**
+
+**Bu benim yazdığım/dokunduğum bir şey DEĞİL** — dosyanın önceden var olan
+hâlinde duruyordu, muhtemelen CLAUDE.md §11'in tarif ettiği türden toplu bir
+düzenleme/betik hatası (bir notun "kuzey-yuan"a yazılırken bir şekilde
+başka 52 kayda da bulaşması — sed/toplu-değiştirme kalıntısı gibi
+görünüyor). **DOKUNMADIM** (yalnız açıkça izin verilen `sih-imparatorlugu`yu
+temizledim) — bu, tek bir künyenin ötesinde bir karar/iş kalemi, "sıkışmadığın
+bir anda kapat" ölçeğinin çok üzerinde.
+
+**③ ne istiyorum:** Bu 52 kaydın temizliği ayrı bir iş kalemi olarak
+planlanmalı mı (muhtemelen tek bir toplu-değiştirme betiğiyle, tek tek elle
+değil — 52 kayıt) yoksa bekletmeden şimdi mi hallediyorum? Liste (id'ler)
+gerekirse tam çıkarabilirim. Karar sizde.
+
+`data/devletler.js` pathspec'siz bırakıldı. Koordinatöre haber verildi.
