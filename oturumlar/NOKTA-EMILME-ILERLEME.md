@@ -94,3 +94,35 @@ açılan yeni kırılma günü   : 0
 ```
 
 Kongo'ya geçiyorum, renk gelene kadar durmuyorum.
+
+## ② KONGO — kısmi tamamlandı, 8 nokta (mevcut kimliklerle)
+
+```
+Mbanza-Kongo (São Salvador)  kasıtlı_boşluk(1281-1390)→kongo-kralligi→portekiz(1914-)
+Soyo                          kasıtlı_boşluk(1281-1390)→kongo-kralligi→belcika(1885-)
+Matadi                        aynı desen
+Kabasa                        kasıtlı_boşluk(1281-1500)→ndongo→portekiz(1671-)
+Luanda                        kur:1575→portekiz
+Musumba                       kasıtlı_boşluk(1281-1665)→lunda-imparatorlugu→belcika(1887-)
+Boma                          kasıtlı_boşluk(1281-1885)→belcika
+Kisangani (Stanleyville)      kasıtlı_boşluk(1281-1885)→belcika
+```
+6 `kasıtlı_boşluk` — hepsi ÖNCEDEN koordinatöre bildirildi (bkz. yukarı),
+hepsi AYNI DESEN: mevcut künyenin kendi başlangıcından ÖNCEki dönem.
+
+### 🔴 Renksiz kimlik — 5 tane
+Doğrulama: `kongo-kralligi`, `ndongo`, `lunda-imparatorlugu` (yeni yazdığım
+noktalarda) + `svahili-sehirleri`, `umman-zengibar` (Doğu Afrika'dan,
+hâlâ bekliyor) RENKSİZ. `portekiz` ve `belcika` zaten renkli, sorun yok.
+
+### Doğrulama
+```
+yazılan (② kısmi)       : 8
+3km mükerrer               : 0
+dönem sorunu                : 0
+açılan yeni kırılma günü     : 0
+renksiz kimlik                : 5 (yukarıda)
+```
+
+Loango/Luba/Kuba künyeleri onaylanınca bu bölüme dönüp tamamlayacağım.
+Yeni Gine'ye geçiyorum, beklemiyorum.
