@@ -2079,3 +2079,108 @@ Devam ediyor: güneydoğu-asya'nın kalanı → GRUP 2 (italya/doğu-asya/amerik
 bati-afrika/dogu-afrika/okyanusya, listede açıkça yoktu, GRUP 1 muamelesi
 uygulanıyor çünkü İslam dünyası kapsamına daha yakınlar; okyanusya GRUP 2
 muamelesi görecek).
+
+## ㉝ TESLİM — ① geriye dönük ayrım + ② GRUP 1/2 TAMAMLANDI, 158/158
+
+### Dört sayı (① + ②, kurtarılanlar ayrı)
+
+```
+DOĞRULANDI   115   (① 8 + ② 107)
+YETERSİZ       4   (① 2 + ② 2)
+BULUNAMADI    56   (① 7 + ② 49)
+ÇÜRÜDÜ         0   (hepsi çözüldü — geriye kalan yok)
+─────────────────
+TOPLAM       175   (① 17 + ② 158)
+```
+Daha önce (bu turdan ÖNCE) Parti A/B'nin orijinal çürüyenlerinden 8'i
+(4+4) DOĞRULANDI'ya kurtarılmıştı — bu sayı yukarıdaki 175'e DAHİL DEĞİL,
+ayrı ve önceki bir tur işiydi.
+
+**Dosya geneli** (381 kayıt, tamamı artık kaynaklı):
+`doğrulandı 225 · yetersiz 7 · bulunamadı 149` — kaynaksız kayıt **0**.
+
+### Bölge tablosu (② — 158 kayıt, pilot formatında)
+
+| bölge | doğrulandı | yetersiz | bulunamadı | toplam | isabet |
+|---|---|---|---|---|---|
+| kafkasya | 1 | 0 | 0 | 1 | %100 |
+| anadolu | 7 | 0 | 0 | 7 | %100 |
+| iran | 5 | 0 | 0 | 5 | %100 |
+| arabistan | 6 | 0 | 1 | 7 | %86 |
+| iberya | 4 | 0 | 1 | 5 | %80 |
+| orta-asya | 5 | 0 | 0 | 5 | %100 |
+| sibirya-bozkir | 3 | 0 | 1 | 4 | %75 |
+| balkanlar | 3 | 0 | 0 | 3 | %100 |
+| dogu-avrupa | 3 | 0 | 2 | 5 | %60 |
+| bati-avrupa | 0 | 0 | 6 | 6 | %0 |
+| kuzey-avrupa | 2 | 0 | 1 | 3 | %67 |
+| orta-avrupa | 2 | 0 | 1 | 3 | %67 |
+| guney-asya | 17 | 0 | 13 | 30 | %57 |
+| guneydogu-asya | 16 | 2 | 12 | 30 | %53 (yetersiz dahil %60) |
+| misir-sudan | 1 | 0 | 0 | 1 | %100 |
+| kuzey-afrika | 1 | 0 | 0 | 1 | %100 |
+| orta-afrika | 1 | 0 | 0 | 1 | %100 |
+| bati-afrika | 1 | 0 | 0 | 1 | %100 |
+| dogu-afrika | 3 | 0 | 0 | 3 | %100 |
+| **italya (GRUP2)** | 5 | 0 | 3 | 8 | %63 |
+| **dogu-asya (GRUP2)** | 11 | 0 | 6 | 17 | %65 |
+| **kuzey-amerika (GRUP2)** | 2 | 0 | 0 | 2 | %100 |
+| **orta-amerika (GRUP2)** | 2 | 0 | 0 | 2 | %100 |
+| **guney-amerika (GRUP2)** | 4 | 0 | 0 | 4 | %100 |
+| **okyanusya (GRUP2)** | 2 | 0 | 2 | 4 | %50 |
+
+### 🔴 EK — GRUP 2'de 2. denemeyle kaç tuttu (pilotun %0'ı gerçek miydi?)
+
+**CEVAP: pilotun %0'ı ÖRNEKLEM GÜRÜLTÜSÜYDÜ, gerçek desen değildi.**
+
+GRUP 2'de canonik slug tutmayınca denenen 2. (alternatif) denemelerin
+SONUCU:
+```
+2. denemesi yapılan kayıt     : 17
+2. denemede TUTAN              : 10   (%59)
+2. denemede de tutmayan        : 7
+```
+Tutan 10'un ayrımı: **Doğu Asya'da Çin hanedanları (song, jin-hanedani,
+yuan-hanedani, ming-hanedani, qing-hanedani) 5 kayıt** — kanonik "cin"
+slug'ı YANLIŞ maddeye (cin = "jinn/ruh" fıkıh terimi) düşüyordu, doğru slug
+`cin--ulke` idi (tıpkı `ordu`/`ordu--sehir` tuzağı gibi — bkz. CLAUDE.md
+§4③). **Amerika'da 5 kayıt** (inka-imparatorlugu, yeni-ispanya, meksika,
+portekiz-brezilyasi, ispanyol-peru) — hiçbirinin kendi özel maddesi yoktu
+ama TDV'nin GENEL "amerika" (kıta) maddesi hepsini somut tarih/olayla
+(1519 Aztek fethi, 1536 Buenos Aires kuruluşu, 1500 Brezilya işgali vb.)
+kapsıyordu.
+
+Tutmayan 7: İtalya'da milano-dukaligi/mantua/parma (üçü de yalnız isim
+geçen şehir-devletleri, TDV'de bağımsız madde yok) + Doğu Asya'da
+joseon/ryukyu/taiping (gerçekten TDV kapsamı dışı) + Okyanusya'da
+hawaii-kralligi.
+
+📌 **Sonuç: pilotun İtalya/Doğu Asya/Amerika için ölçtüğü "%0" yanlış
+genellemeydi — asıl sorun bölgenin TDV kapsamı DIŞINDA olması değil, PİLOTUN
+DENEDİĞİ SLUG'LARIN YANLIŞ TÜR olmasıydı (özel-kurum adı yerine GENEL
+ÜLKE/KITA maddesi denenmeliydi).** İtalya'da bile "napoli/papalik/toskana/
+sardinya/italya" (ülke-şehir genel maddeleri) 1. denemede TUTTU; yalnız saf
+"Dükalık" kurumsal adları (milano-dukaligi, mantua, parma) boş çıktı.
+
+### Metodoloji notu — tibet, kesmir, sind gibi "genel bölge maddesi" örnekleri
+
+Bu turda tekrarlanan güçlü bir örüntü: TDV'nin GENEL ülke/bölge/kıta maddesi
+(polonya, avusturya, macaristan, gurcistan, azerbaycan, rusya, ispanya,
+portekiz, hindistan, bengal, japonya, cin--ulke, amerika...) çoğunlukla o
+coğrafyanın TÜM tarihini (ortaçağ krallığı → modern cumhuriyet) tek maddede
+kapsıyor. Kurumsal/hanedan-özel adlar (milano-dukaligi, kutluhanlilar,
+hazaraspiler) ise ayrı ve dar aranmalı; bulunmazsa GENEL coğrafya maddesi
+denenmeli — bu turda en çok isabeti bu ikinci deneme getirdi.
+
+### Doğrulama
+```
+kayıt sayısı        : 381 (değişmedi)
+mükerrer id          : 0
+kaynaksız kayıt       : 0  (158 havuzun TAMAMI işlendi)
+ters/sıfır süreli f-t : 0  (düzgün sayısal karşılaştırmayla, önceki "18"
+                            3 haneli yıl string karşılaştırma yanılgısıydı,
+                            gerçek hata DEĞİL — dokunulmadı)
+dosya geneli          : doğrulandı 225 · yetersiz 7 · bulunamadı 149
+```
+`data/devletler.js` pathspec'siz bırakıldı (koordinatör kuralı). Koordinatöre
+bildirildi.
