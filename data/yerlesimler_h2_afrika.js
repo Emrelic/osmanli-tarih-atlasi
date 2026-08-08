@@ -252,6 +252,24 @@ window.YERLESIMLER_H2_AFRIKA = [
 //   gerekiyordu (1400-01-01 · 1695-01-01) ve ikisinin de kronolojide
 //   **0 GÜN** uzaklıkta maddesi var ⇒ Değişmez 2s borcu **SIFIR**.
 //   Ölçülmeseydi bu düzeltme 2s tavanını (121, DOLU) delebilirdi.
+//
+// 🔴🔴 AMA DENETİMİN "TEMİZ" DEMESİ BURADA YETMİYOR — VE BUNU SAKLAMIYORUM.
+//   O iki maddenin NE OLDUĞUNA baktım:
+//     1400-01-01 → "Bursa'da Yıldırım Darüşşifası — ilk Osmanlı hastanesi"
+//     1695-01-01 → "Hâfız Osman'ın II. Mustafa'ya hat hocası tayin edilmesi"
+//   İkisinin de Dârfûr'la **hiçbir ilgisi yok.** Yani Değişmez 2s'in sorduğu
+//   soru (*"±30 günde madde var mı"*) EVET diyor, ama kullanıcının göreceği
+//   şey şu olur: Tunciler'den Keyra'ya geçiş, ekranda bir HAT HOCASI
+//   TAYİNİ'nin altında belirir.
+//   📌 CLAUDE.md §3 bunu kelimesi kelimesine tarif ediyor: *"değişim, o güne
+//   rastgele denk gelen alakasız bir maddenin altında belirir — kullanıcının
+//   en çok şikâyet ettiği hata bu."*
+//   ⇒ Denetim GEÇİYOR, gösterim YANLIŞ. İkisi ayrı şeydir ve ölçüt yalnız
+//     birincisini görüyor.
+//   ⇒ İSTENEN: `olaylar*.js`e iki madde (Tunciler'in Dâcû'yu devirmesi ~1400,
+//     Keyra hânedanının kurulması 1695). O dosya BENİM DEĞİL; koordinatöre
+//     bildirildi. Madde yazılana kadar bu iki gün "teknik olarak kapalı,
+//     anlatı olarak açık" sayılmalıdır.
 // Zincir:
 //   `dacu` (Dâcû, künye 1200-1400) → 1400-01-01 `tunciler` (1400-1695) →
 //   1695-01-01 `darfur` (Keyra) → 1874-11-02 Mısır ilhakı (tâbi) →
