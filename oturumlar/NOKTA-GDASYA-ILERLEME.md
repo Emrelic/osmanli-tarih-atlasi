@@ -162,3 +162,34 @@ açılan yeni kırılma günü 0. Toplam GDASYA: 93→99 nokta (23 GDASYA dosyas
 Kamboçya-Laos bölgesel toplamı ayrı), yoğunluk 3,99→4,25.
 
 Devam: Vietnam (③'teki Ming-işgali kimliğini teyit ederek).
+
+### 🟢 VİETNAM — TAMAMLANDI, 5 nokta
+
+Koordinatörün ③ düzeltmesi UYGULANDI: 1281-1428 arası `tran-hanedani`→
+`ho-hanedani`→`ming-hanedani`(1407-1428, Dördüncü Kuzey Egemenliği) zinciri
+kullanıldı, `le-hanedani` yalnız 1428'den başlıyor — `yerlesimler_asya.js`
+Hanoi/Cao Bằng/Lạng Sơn'dan birebir alındı.
+
+```
+Hai Phong          20.86,106.68   Hanoi'nin birebir zinciri (Kızıl Nehir deltası)
+Nam Dinh           20.42,106.17   aynı zincir
+Thanh Hoa          19.81,105.78   AYNI ama Mạc dönemi (1527-92) YOK — Lê'ye
+                                  sadık kalan çekirdek bölge, le-hanedani
+                                  1428-1786 kesintisiz
+Vinh               18.67,105.69   aynı (Thanh Hoa'yla aynı gerekçe)
+Nha Trang(Kauthara) 12.24,109.19   campa→(1653 YIL BEYANI, gün belirsiz,
+                                  §4)→nguyen-beyligi→le-hanedani(kısa Trịnh
+                                  arası)→tay-son→nguyen-hanedani→fransiz-cinhindi
+```
+
+Bir kararı NOT ediyorum: Thanh Hoa/Vinh'de bilerek Mạc dönemini
+ATLADIM — bu iki bölge tarihsel olarak Lê Trung Hưng direnişinin üssüydü,
+Mạc'ın eline hiç geçmedi. Hanoi/Hải Phòng/Nam Định (kuzey deltası, Mạc'ın
+gerçek çekirdeği) ise Mạc dönemini TAŞIYOR. Bu bir hata değil, coğrafi
+gerçeğin yansıması.
+
+DOĞRULAMA: yazılan 5, 3km mükerrer 0, renksiz kimlik 0, dönem sorunu 0,
+açılan yeni kırılma günü 0 (Nha Trang'ın 1653 tarihi YIL BEYANI, §4 —
+uydurma değil, gün bilinmediği için). Toplam GDASYA dosyası: 23→28 nokta.
+
+Devam: Malaya.
