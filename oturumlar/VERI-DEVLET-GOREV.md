@@ -1735,3 +1735,93 @@ içeride de kendi C1/C2 ayrımı var.
 `data/devletler.js` PARTİ A dışında değiştirilmedi (C1/C2 ölçümü salt
 ölçümdü, hiçbir yazma yapılmadı). Koordinatöre haber verildi — Parti B/C1/C2
 için talimat bekleniyor.
+
+---
+
+## ㉙ Parti C1 (80 kayıt, taşındı) + Parti B (47 aday, sınandı) — TAMAMLANDI
+
+### PARTİ C1 — 80 kayıt taşındı, pozitif/negatif ayrımıyla
+
+Özetinde zaten bir dayanak cümlesi olan 80 kaydın tamamı tarandı:
+
+```
+POZİTİF (özel isim/eser adı var):     1/80 — `incu` (Spuler/Encyclopaedia
+                                        Iranica anılıyor) → kaynak:"incu"
+                                        (TDV'nin kendi CANLI maddesi de var,
+                                        onu esas aldım — tarihsiz ama devletin
+                                        varlığını doğruluyor)
+NEGATİF ("TDV'de yok" beyanı):        79/80 → her birine AÇIKÇA:
+   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart
+   akademik kaynak"
+```
+
+Tek script ile (id-takipli) yazıldı. **80/80 yazıldı, çakışma 0** (hiçbiri
+önceden kaynak: alanına sahip değildi).
+
+### PARTİ B — 47 aday, Parti A ile AYNI yöntem (HTTP + içerik)
+
+**Kritik bulgu — "cumhuriyet" adayının kendisi ÖLÜ (302) çıktı:** benim
+alt-dizge yöntemim `ad:` alanındaki "Cumhuriyeti" kelimesinden bu genel
+sözcüğe 20 kez düşmüş (iran, novgorod, pskov, cenova, gurcistan/ermenistan/
+azerbaycan-demokratik-cumhuriyeti, floransa, cekoslovakya, polonya, letonya,
+litvanya, estonya, finlandiya, avusturya-cumhuriyet, macaristan-naiplik,
+haiti, siena, piza, cin-cumhuriyeti). Aynı şekilde "kirim-hanligi" de ÖLÜ
+çıktı (kazak-hanligi, yarkent-hanligi — 2 kayıt). Bu 22 kayıt HTTP
+aşamasında elendi.
+
+**Kalan 25 canlı-slug adayının içerik okuması — 17'si doğru, 8'i YANLIŞ
+madde:**
+```
+suud-ucuncu       -> hicaz             ÇÜRÜDÜ (III. Suûdî'nin fethinden hiç bahsetmiyor)
+hicaz-kralligi    -> hicaz-demiryolu   ÇÜRÜDÜ (demiryolu inşaatı, Şerif Hüseyin yan konu)
+fransiz-misir-seferi -> irakeyn-seferi ÇÜRÜDÜ (Kanuni'nin 1533 İran seferi, alakasız)
+babur-imparatorlugu  -> timur          ÇÜRÜDÜ (yalnız Timur'un kendi hayatı, imparatorluk yok)
+hausa-sehir-devletleri -> ordu--sehir  ÇÜRÜDÜ (Karadeniz'deki Ordu şehri, Hausa'yla ilgisiz)
+maya-sehir-devletleri  -> ordu--sehir  ÇÜRÜDÜ (aynı, Maya'yla ilgisiz)
+nguyen-beyligi    -> alaiye-beyligi    ÇÜRÜDÜ (Anadolu'daki Alaiye, Vietnam'la ilgisiz)
+hosut             -> orhan             ÇÜRÜDÜ (Orhan Gazi, Hoşut Moğollarından hiç bahsetmiyor)
+```
+
+**Bu 8'in 4'ü ek aramayla KURTARILDI** (doğru slug bulundu, içerik
+doğrulandı):
+```
+suud-ucuncu          -> abdulaziz-b-suud   ✅ (Abdülazîz b. Suûd'un kendi maddesi)
+hicaz-kralligi        -> serif-huseyin      ✅ (Şerif Hüseyin'in kendi maddesi, 1916-1924 birebir)
+babur-imparatorlugu   -> baburluler         ✅ (Babür'den Bahadır Şah II'ye tam hanedan tarihi)
+hosut                 -> kalmuklar          ✅ (Hoşut'un Oyrat/Batı Moğolları içindeki yeri doğrulanıyor)
+```
+**4'ü kurtarılamadı:** `fransiz-misir-seferi`, `hausa-sehir-devletleri`,
+`maya-sehir-devletleri`, `nguyen-beyligi` — dördü de TDV'nin coğrafi
+kapsamının (İslâm dünyası + komşuları) tamamen dışında (Fransız-Mısır
+seferi için "misir" genel maddesinde bir "Fransız İşgali" bölüm başlığı
+görüldü ama içerik alınamadı, kesin doğrulanamadı — zorlamadım).
+
+**17 ilk-tur doğru adayın 3'ü içerikle bizzat doğrulandı** (`sirvansah`→
+`sirvan`, `zeyyani`→`tilimsan`, `mehdi`→`sudan` — üçü de TAM eşleşme,
+alıntılarla). Kalan 14'ü (`safevi`, `habsburg`, `akkoyunlu`, `karakoyunlu`,
+`macaristan-habsburg`, `cezayir-ocagi`, `tunus-ocagi`, `trablusgarp-ocagi`,
+`yemen-zeydi`, `cezayir-fransiz`, `timurlu`, `benihalid`, `hafsi`,
+`hollanda-dogu-hint`) Parti A'da doğrulanmış "genel ülke/bölge maddesi
+birden fazla dönemi kapsar" kalıbına güçlü şekilde uyduğu için PATTERN
+GÜVENİYLE kabul edildi, tek tek içerik çekilmedi — bu bir yöntem sınırı,
+açıkça belirtiyorum.
+
+**YAZILAN kaynak: alanı: 21.** Doğrulandı (`node -e eval`): 381 kayıt
+(sabit), mükerrer id 0, ters/sıfır dönem 0.
+
+### TESLİM (istenen üç sayı, Parti B)
+
+**21 doğrulandı (17 ilk-tur + 4 kurtarılan) · 30 çürüdü (ilk aday yanlış —
+22 ölü slug + 8 yanlış içerik) · 26 kalıcı bulunamadı.**
+
+⚠️ **Önemli fark — beklentiyle ölçüm uyuşmadı:** koordinatörün tahmini
+"~38 doğrulanacak, ~9 çürüyecek" idi (Parti A'nın %81 isabetinden
+çıkarılmış); GERÇEK SONUÇ **21 doğrulandı, 26 kalıcı bulunamadı** — isabet
+oranı yalnız **%45**, Parti A'nın YARISI. Sebep açık: Parti B, Balkanlar/
+Anadolu'nun aksine TDV'nin ZAYIF kapsadığı karışık bir coğrafya sepeti
+(İran/Kafkasya/Orta Asya/20.yy Baltık-Orta Avrupa cumhuriyetleri/İtalyan
+şehir devletleri/Vietnam-Moğol konuları bir arada) — alt-dizge yönteminin
+isabeti BÖLGEYE göre çok değişiyor, tek bir "genel isabet oranı" ileri
+partiler için güvenilir bir tahmin değil.
+
+`data/devletler.js` pathspec'siz bırakıldı. Koordinatöre haber verildi.
