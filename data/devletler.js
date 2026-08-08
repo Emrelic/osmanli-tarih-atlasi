@@ -505,7 +505,7 @@ window.DEVLETLER = [
 
 { id:"karakoyunlu", ad:"Karakoyunlu Devleti", tur:"devlet", bolge:"iran",
   f:"1351-01-01", t:"1469-01-01", baskent:"Van-Erciş → Tebriz", harita:"karakoyunlu",
-  ozet:"Timur'a tâbi olan, sonra Akkoyunlu'ya yenilen Türkmen devleti.",
+  ozet:"Türkmen devleti (hanedan ömrü); Bayram Hoca'nın 1351'de Sutaylar hükümdarını öldürüp bağımsızlığını kazanmasıyla doğdu, tarihî düşmanı Akkoyunlu'ya (Uzun Hasan) yenilerek 1469'da son hükümdar Hasan Ali'nin öldürülmesiyle sona erdi.",
   kaynak:"karakoyunlular",
   kronoloji:[
     { t:"1351-01-01", tur:"kurulus", b:"Bayram Hoca tarafından Van-Erciş bölgesinde kuruldu" },
