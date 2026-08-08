@@ -98,7 +98,10 @@ HALKA 2  OSMANLI'NIN KOMŞULARI
          Venedik · Ceneviz · Umman · Gürcistan · Habeşistan ·
          Sudan · Eritre · Somali
 HALKA 3  KOMŞULARIN KOMŞULARI
-         İspanya · Portekiz · Fransa · Almanya · İtalyan devletleri
+         İspanya · Portekiz · Fransa · Almanya · İtalyan devletleri ·
+         İngiltere-İrlanda · Hollanda-Belçika-İsviçre ·
+         🔴 BORNU-KANEM · SONGHAY · TİMBUKTU  (Sahel — Emre kararı,
+            7 Ağustos 2026: Osmanlı ile doğrudan diplomatik teması var)
 HALKA 4  AVRUPA'NIN GERİ KALANI + ORTA ASYA
 HALKA 5  HİNDİSTAN · ÇİN · JAPONYA · MOĞOLİSTAN · UYGUR · ÇİNHİNDİ
 HALKA 6  ENDONEZYA · MALEZYA · YENİ GİNE · FİLİPİNLER
@@ -108,6 +111,13 @@ HALKA 7  AMERİKA · SAHRA ALTI AFRİKA · AVUSTRALYA · YENİ ZELANDA ·
 
 **Kural:** *"TÜM 1. bölge → TÜM 2. bölge → TÜM 3. …"* Bir halka bitmeden
 sonraki açılmaz.
+
+🔒 **ÖLÇEK KİLİTLİ — 7 Ağustos 2026, Emre kararı.** Halka sınırları
+tartışmaya açık değil; bir bölgenin halkası değişecekse **gerekçesi
+"Osmanlı hikâyesine bağlılık" ölçütüyle ve ÖLÇÜMLE** getirilir, mesafeyle
+değil. Bornu vakası bu ölçütün ilk uygulamasıdır: Timbuktu Viyana'dan
+uzaktır ama Osmanlı ile **doğrudan diplomatik teması vardır**, Norveç'in
+yoktur ⇒ Bornu halka 3, Norveç halka 4.
 
 ## 4.1 🔴 ÖLÇÜLMÜŞ DURUM — 7 Ağustos 2026, 1800 nokta
 
@@ -147,7 +157,7 @@ Emre'nin listesinde **adı geçmeyen** ama haritada karşılığı olan yerler:
 | **İskandinavya · Baltık** | 94 nokta · 37,5 | **4** | ⚠️ İsveç sıradan değil: **Karl XII 1709-1714 Osmanlı topraklarında sığınmacı**, Poltava sonrası Osmanlı-Rus savaşının sebebi |
 | **Kore** | Japonya kutusunda | **5** | Emre "Japonya, Çin" dedi, Kore atlandı |
 | **Tibet · Nepal · Seylan · Maldivler** | dağınık | **5** | Hint Okyanusu ağı |
-| 🔴 **Bornu-Kanem · Songhay · Timbuktu (Sahel)** | Sahra altı sayılıyor → **halka 7** | **3-4 OLMALI** | **İTİRAZ:** Bornu ile Osmanlı arasında **elçi teâtisi ve ateşli silah yardımı** var (Idrîs Alevma → III. Murad). Fizan üzerinden Trablus'a bağlı. Sahra altı diye 7'ye atmak, **gerçek bir Osmanlı bağını** en sona atmaktır |
+| ✅ **Bornu-Kanem · Songhay · Timbuktu (Sahel)** | ~~halka 7~~ → **HALKA 3** | **karara bağlandı** | Bornu ile Osmanlı arasında **elçi teâtisi ve ateşli silah yardımı** var (Idrîs Alevma → III. Murad). Fizan üzerinden Trablus'a bağlı. **Emre 7 Ağustos 2026'da halka 3'e aldı** |
 | **Nogay · Kazak bozkırı · Başkurt** | Rusya/Orta Asya arası | **2** | Kırım Hanlığı'nın nüfuz sahası, halka 1'e bitişik |
 
 📌 **Ve bir ölçüt uyarısı:** halka sırası *"Osmanlı hikâyesine bağlılık"*tır,
