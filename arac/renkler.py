@@ -376,7 +376,22 @@ BOYALAR = {
     "pandya":                  ("Pândya Krallığı",                    "#54e7b4"),
     "pagan":                   ("Pagan Krallığı (Burma)",             "#e1e787"),
     "hanthawaddy":             ("Hanthawaddy (Pegu) Krallığı",        "#e7549c"),
-    "tay-son":                 ("Tây Sơn Hanedanı",                   "#27e4d5"),
+    # ═══ tay-son — `portekiz ↔ tay-son` 5,18 idi, 8 Ağustos 2026 ═══
+    # B kovasının en kötü çiftiydi (701 km, 1778-1802). YEREL olan taşındı:
+    # `portekiz` ÇÖZÜLEMEZ çıktı (aşağıya bak), Tay Sơn ise 24 yıllık ve
+    # bölgesel.  portekiz  5,18 → 54,01
+    # 🔴 KÜRESEL KİMLİKLER ÖLÇÜLDÜ VE TAŞINAMAZ — "pahalı" değil, İMKÂNSIZ:
+    #     ingiltere  engel 197 (600 km) / 262 (1500 km) → eşiği geçen aday 0
+    #     portekiz   engel 107 (600 km) / 184 (1500 km) → eşiği geçen aday 0
+    #   163.446 adayın HİÇBİRİ geçmiyor. Sebep: bu ikisi Hindistan'dan
+    #   Kanada'ya, Fas'tan Brezilya'ya kullanılıyor ⇒ paletin en bağlı
+    #   düğümleri. ⇒ Onları taşımak GD Asya'daki çifti kapatır ama dünyanın
+    #   geri kalanını açar — ve zaten açamıyor.
+    #   📌 `fransa ↔ portekiz` dersinin (hangi kısıt bağlıyor?) ikinci
+    #     uygulaması, ama sonucu farklı: orada bağlayan bir TERCİHTİ ve
+    #     çıkılabildi; burada bağlayan KOMŞULUK SAYISI ve çıkış yok.
+    #     ⇒ "Çözülemedi"nin iki cinsi var ve ayırt edilmeli.
+    "tay-son": ("Tây Sơn Hanedanı", "#781b0f"),
     "taiping":                 ("Taiping Cennet Krallığı",            "#e7785a"),
     "madurai-sultanligi":      ("Madurai Sultanlığı",                 "#e76c51"),
     "singhasari":              ("Singhasari Krallığı",                "#e78a7b"),
@@ -1691,9 +1706,19 @@ BOYALAR = {
     "joseon":                  ("Joseon Hanedanı (Kore)",            "#00695c"),
     "majapahit":               ("Majapahit İmparatorluğu (Cava)",    "#00695c"),
     "sih-imparatorlugu":       ("Sih İmparatorluğu (Pencap)",        "#00695c"),
-    # ── #2d8f4a  [ASYA · ① EKSİK, gövde yok · zarf(-25,-17.5,159,74) teyitli]  ile paylaşımlı (taceddin) · 3 kimlik
-    # ⚠️ 4'TÜ, 3 OLDU — `meiji-japonya` bu gruptan ÇIKARILDI (RENK 2, 6 Ağustos
-    #   2026). Gerekçe aşağıda; grubun kalan üçü paylaşımı sürdürüyor.
+    # ── #2d8f4a  [ASYA · ① EKSİK, gövde yok · zarf(-25,-17.5,159,74) teyitli]  ile paylaşımlı (taceddin) · 2 kimlik
+    # ⚠️ 4 → 3 → 2. `meiji-japonya` 6 Ağustos'ta çıktı (gerekçe aşağıda),
+    #   `malaka-sultanligi` 8 Ağustos'ta çıktı (#845a12'ye taşındı —
+    #   `ace-sultanligi` ile Malaka Boğazı'nın iki yakasında ΔE 0,00 idi).
+    # 🔴 VE BU SATIR, AYNI GÜN BU DOSYANIN BAŞINA YAZILAN UYARININ
+    #   KENDİ DEĞİŞİKLİĞİMDE ATEŞLEMESİYLE GÜNCELLENDİ:
+    #     "renkler.py: BEYAN EDİLEN PAYLAŞIM BOZULDU #2d8f4a —
+    #      malaka-sultanligi artık bu hex'i kullanmıyor."
+    #   Uyarı sabah yazıldı (*"hex paylaşımlıysa beyan da güncellenir"*),
+    #   öğleden sonra **yazarını** yakaladı. ⇒ Bir nöbetçinin değeri,
+    #   onu yazanı da bağlamasıdır.
+    # 📌 Kalan iki kimlik (`ace-sultanligi` · `ming-hanedani`) paylaşımı
+    #   sürdürüyor: Sumatra ile Çin arası ~3.500 km, hiç yan yana gelmezler.
     "ace-sultanligi":          ("Açe Sultanlığı (Sumatra)",          "#2d8f4a"),
     # ═══ GD ASYA — BEŞ CANLI ÇAKIŞMA, tek partide, 8 Ağustos 2026 ═══
     # 🔴 NOKTA GDASYA nokta yazdıkça hücreler küçüldü ve BEŞ Voronoi
@@ -1947,7 +1972,22 @@ BOYALAR = {
     "pagaruyung":              ("Pagaruyung (Minangkabau) Krallığı", "#42a8b4"),
     "bali-kralliklari":        ("Bali Krallıkları",                  "#42b490"),
     "timor-beylikleri":        ("Timor Beylikleri",                  "#78903c"),
-    "filipin-racaliklari":     ("Filipin Racalıkları",               "#368a78"),
+    # ═══ filipin-racaliklari — ÜÇ ÇAKIŞMAYI TEK YAZIMLA KAPATIR ═══
+    # 8 Ağustos 2026. NOKTA GDASYA Filipinler'e nokta yazdı ve ÜÇ çakışma
+    # birden doğdu — üçü de Japon şogunluklarına karşı, üçü de ΔE 8,2:
+    #   edo-bakufu · kamakura · muromachi
+    # 🔴 AİLE BOZULMAZ, FİLİPİNLER TAŞINIR. O üçü aynı devletin ARDIŞIK
+    #   rejimleri (aile rengi: aynı ton, farklı açıklık) ve ayrımları
+    #   KASITLI. Birini oynatmak aileyi bozar, üçünü birden oynatmak
+    #   gereksiz. Tek yerel gövde taşınır.
+    # ÖLÇÜM: engel 24 (Voronoi ∪ 1500 km eşzamanlı) · eşiği geçen 13829 ·
+    #   pay 18.3 · C* 22.3 = %47
+    #   üç şogunluktan: 8,2 → 21.0 · 21.0 · 21.0
+    # 📌 VE BU, İKİ SAATTE ÜÇÜNCÜ TUR: nokta partisi sürerken hücreler her
+    #   parti sonrası küçülüyor ve yeni komşuluk doğuruyor (2133 → 2216).
+    #   Çakışmayı parti SÜRERKEN kovalamak bir kovalamaca — koordinatöre
+    #   partiden SONRA tek toplu tur önerildi.
+    "filipin-racaliklari": ("Filipin Racalıkları", "#0cabf0"),
     "nepal":                   ("Nepal Krallığı",                    "#8a5a3c"),
     "ladak":                   ("Ladakh Krallığı",                   "#a8c63c"),
     "gond-kralliklari":        ("Gond Krallıkları",                  "#78c63c"),
@@ -1963,7 +2003,24 @@ BOYALAR = {
     "travankur":               ("Travankur Krallığı",                "#723cc6"),
     "kandy":                   ("Kandy Krallığı (Seylan)",           "#a23cc6"),
     "yafna":                   ("Yafna (Jaffna) Krallığı",           "#603684"),
-    "san-devletleri":          ("Şan Beylikleri",                    "#9066c0"),
+    # ═══ san-devletleri — DÖRT ÇİFTİ TEK YAZIMLA KAPATIR, 8 Ağustos 2026 ═══
+    # Şan beylikleri Burma-Yunnan-Siyam üçgeninde TAM ORTADA duruyor; nokta
+    # partisi indikçe en çok komşu kazanacak gövde bu olabilir. Bugün taşımak
+    # yarın dört kat kazandırıyor (`FAYDA ÷ EMEK`).
+    #   le-hanedani      7,07 → 31,40      mac-hanedani     8,31 → 36,12
+    #   nguyen-hanedani 10,36 → 40,18      ingiltere        7,37 → 34,74
+    # 🔴 VE İLK SEÇİMİM KENDİ HEDEFİNİ IŞKALADI — kayda değer:
+    #   600 km engel kümesiyle çözdüm, sonuç `le-hanedani` 11,89 ve
+    #   `mac-hanedani` 10,51 çıktı — HÂLÂ EŞİĞİN ALTINDA. Sebep: kapatılacak
+    #   çiftler 647-1170 km aralığındaydı, yani 600 km süzgecinin DIŞINDA ⇒
+    #   engel kümesine hiç girmediler.
+    #   ⇒ **Engel kümesi, KAPATILMAK İSTENEN ÇİFTİ İÇERMİYORSA çözüm o çifti
+    #     çözmez.** Ölçüt B kademesine (1500 km) çekildi, beşi de kapandı.
+    #   📌 Bu, "doğru aleti yanlış evrenle koşturmak" ailesinin seçim tarafı:
+    #     çözücü kusursuz çalıştı, KISITI eksik verdim.
+    # ÖLÇÜM: engel 46 (Voronoi ∪ 1500 km eşzamanlı) · eşiği geçen 283 ·
+    #   pay 13,5 · C* 16,7 = %23 (paletin donuk ucu — dağlık, dağınık beylik)
+    "san-devletleri": ("Şan Beylikleri", "#0f5d48"),
     "lan-na":                  ("Lan Na Krallığı",                   "#36c6c0"),
     "campa":                   ("Champa Krallığı",                   "#305a78"),
     "angkor-kmer":             ("Kmer (Angkor) İmparatorluğu",       "#36cc72"),
@@ -2118,9 +2175,10 @@ PAYLASIM = {
     #   İSTEDİ ama ölçüm izin vermedi); burada taşınmaya GEREK yok.
     #   📌 Ve aynı ders üçüncü kez: bağı bozan oturum beyanı güncellemeyi
     #      unutuyor, self-check hatırlatıyor. Alet işini gördü.
-    "#2d8f4a": ("Asya partisi — taceddin (2026-08-03) ve meiji-japonya "
-                "(2026-08-06) buradan ayrıldı; kalan üçü birbirine komşu değil",
-                ["ace-sultanligi", "malaka-sultanligi", "ming-hanedani"]),
+    "#2d8f4a": ("Asya partisi — taceddin (2026-08-03), meiji-japonya "
+                "(2026-08-06) ve malaka-sultanligi (2026-08-08) buradan "
+                "ayrıldı; kalan ikisi ~3.500 km arayla, hiç yan yana gelmez",
+                ["ace-sultanligi", "ming-hanedani"]),
     # 🟢 BEYAN GÜNCELLENDİ — self-check yakaladı (son parti, 2026-08-03).
     #   `timurlu` #9c7563'e taşındı. İzleyenler TAŞINAMADI: ölçüldü, ikisi de
     #   yeni renkte komşularından yalnız ΔE 10,1 alıyor (eşik 12).

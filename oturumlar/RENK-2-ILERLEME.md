@@ -2578,3 +2578,73 @@ uyarı basacaksa ekran'dır, eşik değildir"*).
 **Önerim:** `2s`/`2t` deyimi — **tavan 72, yalnız büyürse ateşle.**
 **Cevap gelene kadar `sys.exit` mantığına DOKUNULMADI**; dal raporluyor ve
 özet satırına giriyor, o kadar.
+
+---
+
+## 54. ÜÇ YAZIM, DOKUZ ÇİFT — ve iki kez KENDİ ALETİM BENİ YAKALADI
+
+### ① 🔴 SEÇİMİM KENDİ HEDEFİNİ IŞKALADI — ve fark ancak ölçünce göründü
+`san-devletleri`ni 600 km engel kümesiyle çözdüm. Sonuç:
+```
+le-hanedani 11,89 · mac-hanedani 10,51      ← HÂLÂ EŞİĞİN ALTINDA
+```
+**Sebep:** kapatılacak çiftler **647-1170 km** aralığındaydı — 600 km
+süzgecinin **dışında** ⇒ engel kümesine hiç girmediler. Aynısı `tay-son`da:
+`portekiz` 701 km ⇒ engel değil ⇒ 5,45'te kaldı.
+
+> 🔴 **ENGEL KÜMESİ, KAPATILMAK İSTENEN ÇİFTİ İÇERMİYORSA ÇÖZÜM O ÇİFTİ
+> ÇÖZMEZ** — ve çözücü bunu söylemez, "çözdüm" der.
+
+📌 *"Doğru aleti yanlış evrenle koşturmak"* ailesinin **seçim tarafı**:
+çözücü kusursuz çalıştı, **kısıtı eksik verdim.** Ölçüt B kademesine
+(1500 km) çekildi, beşi de kapandı.
+
+### ② 🟢 SABAH YAZDIĞIM UYARI, ÖĞLEDEN SONRA YAZARINI YAKALADI
+```
+UYARI renkler.py: BEYAN EDILEN PAYLASIM BOZULDU #2d8f4a --
+      malaka-sultanligi artik bu hex'i kullanmiyor.
+```
+Bu uyarıyı **bu sabah ben ekledim** (*"hex paylaşımlıysa beyan da
+güncellenir"*), öğleden sonra `malaka`yı taşıdım ve **beni yakaladı.**
+⚠️ Ve düzeltirken **ikinci kez** ders çıktı: beyan **iki yerde** —
+insan okunur yorum ve makine okunur `PAYLASIM` sözlüğü. **Yorumu
+güncelledim, sözlüğü unuttum**, uyarı susmadı. ⇒ *Bir bilgi iki yerde
+duruyorsa, biri güncellenince öteki bayatlar — ve hangisinin okunduğunu
+ALET söyler, göz değil.*
+📌 **Bir nöbetçinin değeri, onu yazanı da bağlamasıdır.**
+
+### ③ KÜRESEL KİMLİKLER TAŞINAMAZ — "pahalı" değil, İMKÂNSIZ
+Koordinatör *"maliyeti ölç, düşükse taşı"* dedi. Ölçüldü:
+```
+              600 km    1500 km    eşiği geçen aday (163.446 havuzda)
+ingiltere     197       262        0    🔴
+portekiz      107       184        0    🔴
+```
+**Hiçbiri geçmiyor.** Sebep: ikisi de Hindistan'dan Kanada'ya, Fas'tan
+Brezilya'ya kullanılıyor — **paletin en bağlı düğümleri.**
+📌 `fransa ↔ portekiz` dersinin ikinci uygulaması ama **sonucu farklı**:
+orada bağlayan bir **TERCİH**ti ve çıkılabildi; burada bağlayan **komşuluk
+sayısı** ve çıkış yok. ⇒ ***"Çözülemedi"nin iki cinsi var ve ayırt
+edilmeli.***
+
+### ④ ÜÇ YAZIM, DOKUZ ÇİFT
+```
+san-devletleri       #9066c0 → #0f5d48   pay 13,5   → 4 çift
+tay-son              #27e4d5 → #781b0f   pay 15,7   → 1 çift
+filipin-racaliklari  #368a78 → #0cabf0   pay 18,3   → 3 çift
+```
+Sonuncusu: NOKTA GDASYA Filipinler'e nokta yazdı, **üç çakışma birden**
+doğdu — üçü de Japon şogunluklarına karşı, üçü de ΔE 8,2.
+🔴 **AİLE BOZULMADI, FİLİPİNLER TAŞINDI:** `edo-bakufu` · `kamakura` ·
+`muromachi` aynı devletin **ardışık rejimleri** ve aynı hex'i **kasten**
+paylaşıyorlar. Birini oynatmak aileyi bozardı.
+
+### ⑤ ⚠️ VE BU İKİ SAATTE ÜÇÜNCÜ TUR — kovalamaca
+```
+2133 → 2168 → 2173 → 2183 → 2202 → 2216 nokta
+çakışma  0 → 1 → 5 → (kapatıldı) → 3 → (kapatıldı)
+```
+Nokta partisi sürerken her parti hücreleri küçültüyor ve **yeni komşuluk
+doğuruyor.** Çakışmayı parti **sürerken** kovalamak, ayağın altındaki
+zemini ölçmeye benziyor. ⇒ Koordinatöre **partiden sonra tek toplu tur**
+önerildi — `FAYDA ÷ EMEK`.
