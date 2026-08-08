@@ -1182,3 +1182,82 @@ taşıyan prens devletleri: `haydarabad-nizam`, `bahavelpur`, `bhopal`,
 Bundan sonraki her künyede bu alışkanlığı sürdüreceğim.
 
 `data/devletler.js` pathspec'siz bırakıldı. Koordinatöre haber verildi.
+
+---
+
+## ㉒ 7 kalem — 2 GERÇEK yeni künye + 4 MÜKERRER bulgu + 1 ölçüm raporu
+
+### 🔴① `sadi` — YAZILDI, ÖNCELİKLİ İŞ BİTTİ (380 → 381)
+
+```
+sadi   1549-01-01 → 1659-01-01   kaynak: "sadiler"
+```
+TDV `sadiler` (200, CANLI) birebir doğruladı: kuruluş "916/1511" (Sûs cihad
+emirliği), Fas'ın alınışı "956/1549", sona eriş "1069/1659" — üçü de
+alıntılandı. ⚠️ Bulgu: `fas`ın kendi kronolojisi Alevî geçişini "1666" diye
+veriyor, TDV "1659" diyor — 7 yıllık fark, **`fas`a dokunulmadı**, yalnız
+`sadi`nin ozetinde işaretlendi. **RENK 2'YE HABER: `sadi` künyesi hazır,
+renk yazılabilir.**
+
+### 🔴② `kaffa` — YAZILMADI, ZATEN VARDI (aynı desen üçüncü/dördüncü kez)
+
+Künye ZATEN yazılmıştı, id `kaffa-kralligi`, `harita:"kaffa"` ZATEN
+BAĞLIYDI: `f:"1390-01-01"`, `t:"1897-09-10"` — coordinatörün istediği "1390-
+1897, 5 asır" penceresiyle BİREBİR örtüşüyor. RENK 2'nin ölçümü (`kaffa↔
+sidamo` ΔE 2,8) zaten bu iki künyenin f/t'lerine bakabilir, ek bir şey
+gerekmiyor.
+
+### ③ `cimma` — YAZILMADI, ZATEN VARDI
+
+id `cimma-sultanligi`, `harita:"cimma"` ZATEN BAĞLI: `f:"1830-01-01"`,
+`t:"1923-10-29"`.
+
+### ④ `vollayta` — YAZILMADI, ZATEN VARDI
+
+id `vollayta-kralligi`, `harita:"vollayta"` ZATEN BAĞLI: `f:"1281-01-01"`,
+`t:"1894-01-17"`.
+
+### ⑤ `sidamo` — YAZILMADI, ZATEN VARDI
+
+id `sidamo-kralliklari`, `harita:"sidamo"` ZATEN BAĞLI: `f:"1281-01-01"`,
+`t:"1897-01-01"`. RENK 2'nin `kaffa↔sidamo` ΔE 2,8 uyarısı için gereken
+tarihler zaten dizinde — `kaffa-kralligi` (1390-1897) ile `sidamo-kralliklari`
+(1281-1897) **gerçekten beş asır boyunca aynı anda sahnede**, uyarı GERÇEK,
+yalnız künye eksikliği değil.
+
+📌 **Dördü de aynı desen** (§5, `astarhan-hanligi`/`irlanda-hur-devleti`
+vakalarıyla aynı kök): RENK 2'nin listesi `id:` ile eşleşme arıyor,
+`harita:` alanına bakmıyor — dört kayıt da `harita:` ile zaten doğru
+bağlıydı. **Yeni künye YAZILMADI, mükerrer olurdu.** Bu, aynı sınıf
+hatanın şimdiye dek ölçülen 3.-6. vakası; RENK 2'nin ölçüm yönteminin
+`id:`nin yanına `harita:`yı da eklemesi gerektiğini bir kez daha öneririm.
+
+### ⑥ `kasim` — YAZILDI, GERÇEKTEN YOKTU (382. kayıt)
+
+```
+kasim   1452-01-01 → 1681-01-01   kaynak: "kasim-hanligi"
+```
+Kontrol ettim: ne `id:"kasim"` ne `harita:"kasim"` vardı — bu GERÇEK bir
+boşluktu. TDV `kasim-hanligi` (200, CANLI) doğruladı: sona eriş "1681
+yılında... Kāsım Hanlığı tarihe karıştı" birebir. ⚠️ Kuruluş yılı TDV'nin
+KENDİ maddesinde tartışmalı ("1445" ya da "1452-1456", kaynaklar farklı) —
+1452 orta bir tarih olarak seçildi, ozette işaretlendi.
+
+### ⑦ `ainu` — KÜNYE DEĞİL, ÖLÇÜM RAPORU
+
+`girdi.yukle()` ile ölçtüm: **`d:"ainu"` yalnız 2 kayıtta geçiyor**
+(Matsumae, Hakodate), ikisi de aynı pencere: `1281-01-01 → 1550-01-01`.
+Bu, önceki turda "bulunamadı" dediğim hükmü doğruluyor — küçük, ölçülmüş
+bir boşluk (2 nokta), künye yazılmadı.
+
+### GERÇEK TESLİM SAYISI
+
+**2 GERÇEK yeni künye** (`sadi`, `kasim` — ikisi de TDV'den, kaynak: alanı
+dolu) **+ 4 MÜKERRER bulgu** (`kaffa`/`cimma`/`vollayta`/`sidamo` zaten
+vardı, dokunulmadı) **+ 1 ölçüm raporu** (`ainu`, 2 kayıt, künyesiz kaldı).
+`data/devletler.js`: 380 → **382**. Doğrulandı (`node -e eval`): mükerrer
+id 0, ters/sıfır dönem 0. Her iki yeni künyede `kaynak:` alanı dolduruldu
+(yeni zorunluluk) ve hanedan/süreklilik notu düşüldü.
+
+`data/devletler.js` pathspec'siz bırakıldı. Koordinatöre haber verildi —
+`sadi` bitince ayrıca vurgulandı, RENK 2 bekliyor.
