@@ -2470,3 +2470,111 @@ Künyeleri örtüşüyor ama veride eşzamanlı noktaları yok ⇒ mesafe
 ⚠️ `bengal-nevabligi ↔ surakarta` ΔE **1,19** — Bengal ile Cava arası
 ~4000 km, yani muhtemelen C kovasına düşer. Ama **ölçülmeden bilinmez**,
 ve *"muhtemelen"* bu projede bir cevap değil.
+
+---
+
+## 53. İKİNCİ ÇİFT KURUCU — ve öngörü BİR SAAT SONRA gerçek oldu
+
+### ① `srivijaya` — kendi hatamın adlî incelemesi
+Koordinatör ölçtü: `srivijaya` künyesi **yok**. Sordu: aletim mi okudu,
+elle mi ekledim? **İkisi de değil.**
+```
+aletim DOĞRU çalıştı        → "🔴 künyede HİÇ GEÇMİYOR" bastı
+ad KOORDİNATÖRÜN listesindeydi
+🔴 ben ölçtüğüm satırın yanına ÖLÇMEDİĞİM bir tarih ekledim
+```
+Ve üç hata çıktı, her biri öncekinden kötü:
+```
+① "1288'de bitiyor"   ölçülmedi VE yanlış — veri dosyasının kendi yorumu
+                      "1281'de imparatorluk çökmüş" diyor
+                      (data/yerlesimler_asya.js:3503)
+② "7 yıllık pencere"  YOK
+🔴 ③ "YAZILI DEĞİL"   YAZILI. İki yerde:
+   yerlesimler_asya.js:3503 · NOKTA-GDASYA-ILERLEME.md:56-65
+   ("KARAR: bu boşluk atlas seviyesinde ZATEN KAPALI … ayrı bir
+     srivijaya kimliği YAZMIYORUM")
+```
+🔴 **Üçüncüsü kendi dersimi çiğniyor.** *"Kabul edilmiş borç kayıtsız
+kalırsa yarın kusur diye bulunur"* diyen bendim — ve **kaydı ARAMADAN
+"kayıtsız" ilan ettim.** Dersi uyguladım sandım, **ölçmeden uyguladım.**
+
+> 🔴 **BİR RAPORDA ÖLÇÜLMÜŞ İLE HATIRLANMIŞ YAN YANA DURURSA, OKUYAN
+> İKİSİNİ DE ÖLÇÜLMÜŞ SANAR — VE YAZAN DA.**
+
+Blokta dört satır vardı: `künyede yok` ✓ · `1288` ✗ · `palembang
+devralıyor` ✓ · `yazılı değil` ✗. **Ayırmadım, ayırmayınca kendim de
+unuttum.** ⇒ `§7.1 ④`ün (*"bulamadığını `bulunamadı` diye yaz"*) ters yüzü:
+**ölçmediğini `ölçmedim` diye yaz — ya da hiç yazma.**
+📌 `trinh` bulgum ayakta; onu ölçtüm. Yalnız `srivijaya` geri çekildi.
+
+### ② `renk_olc.yakin_renk()` — ikinci çift kurucu yazıldı
+```
+mevcut  komsuluk()   "hücreler DEĞİYOR mu"
+YENİ    yakin_renk() "aynı EKRAN KÖŞESİNE düşer mi"  → eşzamanlı + 600 km
+```
+**600 km tesadüf değil, AYNI SORU:** `ayni_hex()` bu fonksiyonun **ΔE = 0
+dilimi.** O da eşzamanlılık + 600 km sorar; tek farkı renk farkını sıfırla
+sınırlaması. Eşik `DE_KOMSU`ya açıldı, **geometri aynı kaldı.**
+
+**İki pencere, ve ikisi aynı değil:**
+```
+kunye=False  VERİ zarfı      bugün ne çiziliyor   → BUGÜNKÜ ihlal
+kunye=True   KÜNYE penceresi yarın ne çizilecek   → YARINKİ ihlal
+```
+
+### ③ 🔴 VE ÖNGÖRÜ BİR SAAT SONRA GERÇEK OLDU
+`ace-sultanligi ↔ malaka-sultanligi` (ΔE 0,00) künye penceresiyle
+görünüyordu, **veri zarfıyla görünmüyordu.** NOKTA GDASYA nokta yazdı:
+```
+külliyat 2133 → 2168 → 2173      (iki saat)
+KOMŞUSUYLA ÇAKIŞAN  0 → 1 → 5
+```
+Ve beşin **tepesi tam o çiftti.** ⇒ `kunye=True` yolunun değeri
+**varsayım değil, ölçülmüş.**
+
+### ④ BEŞ CANLI ÇAKIŞMA — dört yazımla kapandı
+```
+ace ↔ malaka  0,0  ·  san-fan ↔ toungoo 5,9  ·  banten ↔ malay 8,5
+banten ↔ malaka 9,4  ·  campa ↔ palembang 9,7
+```
+**Örtü:** `malaka` ve `banten` ikişer çiftte ⇒ **4 yazım, 5 çift.**
+Her çiftin **az komşulu ucu** taşındı (malaka 6 vs ace 20 · san-fan 11 vs
+toungoo 22 · palembang 13 vs campa 17) — çok komşulu düğüm paletin geri
+kalanını bağlar, yerinde bırakmak havuzu açar.
+```
+malaka-sultanligi     #2d8f4a → #845a12   pay 21,0
+banten-sultanligi     #78b46c → #ed695a   pay 18,8
+san-fan               #393c18 → #4e1218   pay 19,8
+palembang-sultanligi  #303c78 → #1293ed   pay 19,0
+```
+**Beşinin yeni ΔE'si: 25,03 · 38,37 · 21,01 · 19,87 · 19,48** (en dar
+19,48). `KOMŞUSUYLA ÇAKIŞAN 5 → 0`.
+
+### ⑤ `C13` — ve bu vakada TERS işledi
+```
+renk_fark'ta  ateşleme kolaydı, GEÇME YOLU zorlanmalıydı
+burada        ateşleme kendiliğinden (72 gerçek vaka),
+              GEÇME YOLU zorlanmalıydı
+```
+İki ayrı yoldan zorlandı: **mesafe eşiği 0'a** (0 ihlal ✓) ve **ΔE eşiği
+0'a** (0 ihlal ✓). Beş dalın beşi de sınandı — ateşleme · iki geçme yolu ·
+sınırda ayrımı · Voronoi ayıklaması (`k=None` 276 çift, `k=komşu` 143,
+**fark 133** = ayıklama çalışıyor).
+
+### ⑥ 🔴 72 İHLAL — ve çıkış kodu kararı KOORDİNATÖRDE
+Beklenen 1'di. Ölçülen **72**, ve **GD Asya değil paletin tamamı**:
+```
+ANADOLU BEYLİKLERİ  ~30 çift   İTALYAN ŞEHİRLERİ  ~15 çift
+en dar: bizans ↔ inancogullari 104 km ΔE 9,55
+        aydin ↔ venedik        127 km ΔE 9,36
+```
+📌 Körlük **en çok atlasın en yoğun ve en çok anlatılan coğrafyasında**
+vuruyor — kullanıcının Osmanlı'nın doğuşunu okuduğu ekran.
+
+⚠️ **Şartı uygulayamadım ve niçin:** *"ihlal çıkış kodunu etkilesin"*
+dersem `renk_olc` bugünden itibaren **her koşuda kırmızı** olur — ki bu,
+koordinatörün **aynı mesajda** uyardığı şeyin ta kendisi (*"her koşuda 23
+uyarı basacaksa ekran'dır, eşik değildir"*).
+**Önerim:** `2s`/`2t` deyimi — **tavan 72, yalnız büyürse ateşle.**
+**Cevap gelene kadar `sys.exit` mantığına DOKUNULMADI**; dal raporluyor ve
+özet satırına giriyor, o kadar.

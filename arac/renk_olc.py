@@ -298,6 +298,103 @@ def ayni_hex():
     return cakisan, olculemedi
 
 
+DE_SINIRDA = 15.0     # ihlal değil EKRAN — çıkış kodunu ETKİLEMEZ
+
+
+def yakin_renk(k=None, kunye=False):
+    """İKİNCİ ÇİFT KURUCU — Voronoi komşuluğunun GÖREMEDİĞİ çiftler.
+
+    🔴 NİÇİN VAR — üç coğrafyada ölçüldü, hiçbir denetim görmedi:
+        kaffa ↔ sidamo     ΔE 2,8   1390-1897 boyunca ikisi de sahnede
+        fransa ↔ portekiz  ΔE 9,6   Çandernagor ↔ Hûglî, 5,2 km
+        ava ↔ ayutthaya    ΔE 9,63  407 km, 1351-1555 arası 204 YIL
+      Üçünde de sebep aynı: `komsuluk()` yalnız HÜCRELERİ DEĞEN çifti kurar.
+      Ama **iki gövde değmeden de aynı ekranda yan yana durur** — ve seyrek
+      noktalı bölgelerde (GD Asya 4,2 nokta/mn km²) hücreler öyle büyür ki
+      gerçek komşular Voronoi komşusu OLMAZ.
+      ⇒ Ölçüt "hücreler değiyor mu" değil, **"aynı ekran köşesine düşer
+        mi"** olmalı. O da mesafedir.
+
+    ⚠️ EŞİK NİÇİN YİNE 600 km — tesadüf DEĞİL, AYNI SORU:
+      `ayni_hex()` bu fonksiyonun **ΔE = 0 dilimidir.** O da "eşzamanlı mı +
+      600 km'den yakın mı" diye sorar; tek farkı renk farkını 0 ile
+      sınırlaması. Burada eşik DE_KOMSU'ya açılıyor, geometri aynı kalıyor.
+      Türetimi yukarıda `AYNI_HEX_ESIK_KM` başlığında yazılı (312 ↔ 1232 km
+      geometrik ortası ≈ 620 → 600; peteğin soğurma erişimi P90 497 km).
+      ⇒ Aynı sayı, çünkü **aynı geometrik soru.**
+
+    İKİ PENCERE — ve ikisi AYNI DEĞİL (8 Ağustos ölçümü):
+      kunye=False   VERİ zarfı   → bugün ne çiziliyor  → BUGÜNKÜ ihlal
+      kunye=True    KÜNYE penceresi → yarın ne çizilecek → YARINKİ ihlal
+      Vaka: `ace-sultanligi ↔ malaka-sultanligi` AYNI HEX, 855 km, künyeler
+      1496-1511 örtüşüyor — ama veride henüz eşzamanlı dönemleri YOK.
+      Veri zarfıyla GÖRÜNMEZ, künye penceresiyle GÖRÜNÜR. Nokta partisi
+      inince gerçek olacak. **Kusuru doğmadan yakalamanın tek yolu bu.**
+
+    k verilirse Voronoi komşusu olan çiftler AYIKLANIR — onları `denetle()`
+    zaten basıyor, iki kere basmak gürültüdür.
+
+    Dönüş: (ihlal, sinirda, olculemedi, n_cift)
+      ihlal   ΔE < DE_KOMSU   → çıkış kodunu ETKİLER
+      sinirda DE_KOMSU ≤ ΔE < DE_SINIRDA → ETKİLEMEZ (bkz. aşağıdaki not)
+
+    ⚠️ İHLAL/SINIRDA AYRIMI ZORUNLU (`CLAUDE.md §11` kuyruk/pencere dersi):
+      bu kurucu bugün 179 çift kuruyor ve 23'ü sınırda. Sınırda her koşuda
+      basılacaksa o bir EKRAN'dır, bitirilecek bir iş değil. Eşik gibi
+      davranırsa denetim sürekli kırmızı kalır ve kimse bakmaz."""
+    import collections as _c, itertools as _it
+    Y = girdi.yukle(sessiz=True)
+    nokta, zarf = _c.defaultdict(list), {}
+    for y in Y:
+        for kat in ("s", "v"):
+            for pr in (y.get(kat) or []):
+                d, f, t = pr.get("d"), pr.get("f"), pr.get("t")
+                if not (d and f and t):
+                    continue
+                nokta[d].append((y["lat"], y["lon"], f, t))
+                e = zarf.get(d)
+                zarf[d] = (min(e[0], f), max(e[1], t)) if e else (f, t)
+
+    pencere = dict(zarf)
+    if kunye:
+        for dv in girdi.oku_devletler():
+            an = dv.get("harita") or dv.get("id")
+            if not an or not dv.get("f") or not dv.get("t"):
+                continue
+            e = pencere.get(an)
+            pencere[an] = ((min(dv["f"], e[0]), max(dv["t"], e[1]))
+                           if e else (dv["f"], dv["t"]))
+
+    ihlal, sinirda, olculemedi, n = [], [], [], 0
+    for a, b in _it.combinations(sorted(BOYALAR), 2):
+        d_e = dE(gorunen(a), gorunen(b))
+        if d_e >= DE_SINIRDA:
+            continue
+        if k is not None and (b in k.get(a, ()) or a in k.get(b, ())):
+            continue                      # Voronoi komşusu: denetle() basıyor
+        eksik = [x for x in (a, b) if x not in pencere]
+        if eksik:
+            olculemedi.append((a, b, ", ".join(eksik)))
+            continue
+        fa, ta = pencere[a]
+        fb, tb = pencere[b]
+        if not (fa < tb and fb < ta):
+            continue                      # eşzamanlı değil: meşru, sus
+        F, T = max(fa, fb), min(ta, tb)
+        en = min((girdi.km(pa[0], pa[1], pb[0], pb[1])
+                  for pa in nokta.get(a, ()) if pa[2] < T and F < pa[3]
+                  for pb in nokta.get(b, ()) if pb[2] < T and F < pb[3]),
+                 default=None)
+        if en is None:
+            olculemedi.append((a, b, "örtüşme penceresinde eşzamanlı nokta yok"))
+            continue
+        if en >= AYNI_HEX_ESIK_KM:
+            continue                      # uzak: meşru paylaşım (başlık kuralı)
+        n += 1
+        (ihlal if d_e < DE_KOMSU else sinirda).append((d_e, en, a, b, F, T))
+    return ihlal, sinirda, olculemedi, n
+
+
 # ═══════════════ DENETİM ═══════════════
 def denetle():
     k, n = komsuluk()
@@ -375,13 +472,47 @@ def denetle():
             for hx, a, b, kimde in hex_olc:
                 print(f"      {a} ↔ {b} ({hx}) — dönemi yok: {kimde}")
 
+    yak_i, yak_s, yak_o, yak_n = yakin_renk(k)
+    kun_i, kun_s, _, kun_n = yakin_renk(k, kunye=True)
+    yeni_i = [x for x in kun_i if (x[2], x[3]) not in {(y[2], y[3]) for y in yak_i}]
+    print("\n" + "=" * 72)
+    print(f"YAKIN AMA DEĞMEYEN — {len(yak_i)} İHLAL "
+          f"(ΔE < {DE_KOMSU:.0f} · eşzamanlı · {AYNI_HEX_ESIK_KM:.0f} km'den yakın)")
+    print(f"  (Voronoi komşusu olmayan {yak_n} çift kuruldu; komşu olanları "
+          f"yukarıdaki bölüm basıyor)")
+    print("=" * 72)
+    for d, km_, a, b, f, t in sorted(yak_i):
+        print(f"  {d:>6.2f}  {km_:>5.0f} km  {a:<20} ↔ {b:<20} {f[:4]}-{t[:4]}")
+    if not yak_i:
+        print("  yok")
+    if yeni_i:
+        print(f"\n  🟠 KÜNYE PENCERESİYLE {len(yeni_i)} ÇİFT DAHA — veride henüz "
+              f"eşzamanlı değiller ama künyeleri örtüşüyor.")
+        print("     (BORÇ, ihlal değil: nokta partisi inince gerçek olacaklar)")
+        for d, km_, a, b, f, t in sorted(yeni_i):
+            print(f"     {d:>6.2f}  {km_:>5.0f} km  {a:<20} ↔ {b:<20} {f[:4]}-{t[:4]}")
+    if yak_s:
+        print(f"\n  i {len(yak_s)} çift SINIRDA ({DE_KOMSU:.0f} ≤ ΔE < "
+              f"{DE_SINIRDA:.0f}) — EKRAN, çıkış kodunu etkilemez"
+              + ("" if "--ayrinti" in sys.argv else " — dökümü: --ayrinti"))
+        if "--ayrinti" in sys.argv:
+            for d, km_, a, b, f, t in sorted(yak_s):
+                print(f"      {d:>6.2f}  {km_:>5.0f} km  {a:<20} ↔ {b}")
+    if yak_o:
+        print(f"  i {len(yak_o)} çift ÖLÇÜLEMEDİ ('ölçülemedi' ≠ 'temiz')"
+              + ("" if "--ayrinti" in sys.argv else " — dökümü: --ayrinti"))
+        if "--ayrinti" in sys.argv:
+            for a, b, kimde in yak_o:
+                print(f"      {a} ↔ {b} — {kimde}")
+
     print("\n" + "=" * 72)
     print("  " + ("✓ TEMİZ" if not gorunmez and not cakisan and not ortusen
-                  and not hex_cak
+                  and not hex_cak and not yak_i
                   else f"🔴 {len(gorunmez)} görünmez · {len(cakisan)} çakışma"
                        f" · {len(ortusen)} aynı-anahtar örtüşmesi"
-                       f" · {len(hex_cak)} aynı-hex çakışması"))
-    return gorunmez, cakisan, ortusen, hex_cak
+                       f" · {len(hex_cak)} aynı-hex çakışması"
+                       f" · {len(yak_i)} yakın-ama-değmeyen"))
+    return gorunmez, cakisan, ortusen, hex_cak, yak_i
 
 
 # ═══════════════ AKTARIM DENETİMİ — öneri ↔ dosya ═══════════════

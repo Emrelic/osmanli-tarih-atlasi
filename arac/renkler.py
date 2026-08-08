@@ -365,7 +365,9 @@ BOYALAR = {
     "fransiz-cinhindi":        ("Fransız Çinhindi",                   "#e45d5d"),
     "haydarabad-nizam":        ("Haydarâbâd Nizamlığı",               "#e796ba"),
     "bengal-nevabligi":        ("Bengal Nevablığı",                   "#1836c6"),
-    "san-fan":                 ("San Fan (Üç Feudatori) İsyanı",      "#393c18"),
+    # san-fan  #393c18 → #4e1218 — pay 19,8 · engel 17 · C* 14,5 = %17 (paletin donuk ucu — Üç Feodal
+    #     Beylik kısa ömürlü ve içeride kalıyor). `toungoo` ile 5,9'du.
+    "san-fan": ("San Fan (Üç Feudatori) İsyanı", "#4e1218"),
     "yadava":                  ("Yâdava Hanedanı (Devagiri)",         "#e75a5a"),
     "dashun":                  ("Da Shun (Li Zicheng)",               "#1839c9"),
     "avad":                    ("Avad (Oudh) Nevablığı",              "#deabe4"),
@@ -1693,7 +1695,32 @@ BOYALAR = {
     # ⚠️ 4'TÜ, 3 OLDU — `meiji-japonya` bu gruptan ÇIKARILDI (RENK 2, 6 Ağustos
     #   2026). Gerekçe aşağıda; grubun kalan üçü paylaşımı sürdürüyor.
     "ace-sultanligi":          ("Açe Sultanlığı (Sumatra)",          "#2d8f4a"),
-    "malaka-sultanligi":       ("Malaka Sultanlığı",                 "#2d8f4a"),
+    # ═══ GD ASYA — BEŞ CANLI ÇAKIŞMA, tek partide, 8 Ağustos 2026 ═══
+    # 🔴 NOKTA GDASYA nokta yazdıkça hücreler küçüldü ve BEŞ Voronoi
+    #   çakışması DOĞDU (külliyat 2133 → 2173, iki saat içinde):
+    #     ace ↔ malaka  ΔE 0,0   ·  san-fan ↔ toungoo      5,9
+    #     banten ↔ malay    8,5  ·  banten ↔ malaka        9,4
+    #     campa ↔ palembang 9,7
+    # 📌 VE `ace ↔ malaka`YI BİR SAAT ÖNCE ÖNGÖRMÜŞTÜM — künye penceresi
+    #   taramasıyla. O sırada VERİ zarfıyla görünmüyordu (eşzamanlı
+    #   dönemleri yoktu), künye penceresiyle görünüyordu. Nokta indi,
+    #   öngörü GERÇEK oldu. `renk_olc.yakin_renk(kunye=True)` bunun için var.
+    # ÖRTÜ: her çiftten en az biri taşınmalı. `malaka` ve `banten` ikişer
+    #   çiftte geçiyor ⇒ DÖRT yazımla BEŞ çift kapanıyor.
+    #   Her çiftin AZ KOMŞULU ucu taşındı (malaka 6 vs ace 20 · san-fan 11
+    #   vs toungoo 22 · palembang 13 vs campa 17) — çok komşulu düğüm
+    #   paletin geri kalanını bağlar, onu yerinde bırakmak havuzu açar.
+    # ENGEL: Voronoi komşuları + 600 km'deki EŞZAMANLI palet kimlikleri +
+    #   partinin kendi içi (B15: dört kalemlik parti ⇒ TAVANA çıkıldı,
+    #   havuz 158.201 olduğu için bedeli yok).
+    # SONUÇ — beşinin de yeni ΔE'si:
+    #   ace ↔ malaka 25,03 · banten ↔ malay 38,37 · banten ↔ malaka 21,01
+    #   san-fan ↔ toungoo 19,87 · campa ↔ palembang 19,48   (en dar 19,48)
+    # malaka-sultanligi  #2d8f4a → #845a12 — pay 21,0 · engel 14 · C* 26,4 = %64. `ace-sultanligi` ile AYNI HEX'ti
+    #     (#2d8f4a, ΔE 0,00) — Malaka Boğazı'nın iki yakası, 855 km.
+    #     Malaka taşındı Açe değil: ömrü 111 yıl (1400-1511) vs 407,
+    #     ve ardılları (ingiliz-malaya · malay-sultanliklari) ayrı renkte.
+    "malaka-sultanligi": ("Malaka Sultanlığı", "#845a12"),
     "ming-hanedani":           ("Ming Hanedanı",                     "#2d8f4a"),
     # ═══ MEİJİ JAPONYA — GRUPTAN ÇIKARILDI, RENK 2 · 6 Ağustos 2026 ═══
     # 🔴 ESKİ #2d8f4a, `rusya` #4f7d4f'ten ΔE 10,2 — EŞİĞİN (12) ALTINDA ve
@@ -1955,8 +1982,16 @@ BOYALAR = {
     #   `kamboc` 26 engel · ancak 15,9 (ve #8d6e63 paylaşımını da bozardı).
     #   Ucuz olan taşındı. Yeni renk: kamboc'tan ayrık, C* %72.
     "cohor-sultanligi":        ("Cohor (Johor) Sultanlığı",          "#eab463"),
-    "palembang-sultanligi":    ("Palembang Sultanlığı",              "#303c78"),
-    "banten-sultanligi":       ("Banten Sultanlığı",                 "#78b46c"),
+    # palembang-sultanligi  #303c78 → #1293ed — pay 19,0 · engel 21 · C* 21,4 = %44. `campa` ile 9,7'ydi. Palembang
+    #     taşındı Champa değil: komşu 13 vs 17.
+    #     📌 Bu künye Srivijaya'nın da devamı — veri dosyasının kendi
+    #       yorumu: "1281'de imparatorluk çökmüş … üç evre tek
+    #       palembang-sultanligi kimliğinde toplandı".
+    "palembang-sultanligi": ("Palembang Sultanlığı", "#1293ed"),
+    # banten-sultanligi  #78b46c → #ed695a — pay 18,8 · engel 23 · C* 28,2 = %73. İKİ çifti birden kapatıyor
+    #     (malay-sultanliklari 8,5 · malaka 9,4). Cava'nın kuzeybatısı;
+    #     Mataram ve Demak ile aynı adada, üçü de ayrı tonda kalmalı.
+    "banten-sultanligi": ("Banten Sultanlığı", "#ed695a"),
     "banjar-sultanligi":       ("Bancar Sultanlığı",                 "#ccb430"),
     "gova-makassar":           ("Gova (Makassar) Sultanlığı",        "#7eb4c6"),
     "ternate-sultanligi":      ("Ternate Sultanlığı (Moluk)",        "#36d29c"),

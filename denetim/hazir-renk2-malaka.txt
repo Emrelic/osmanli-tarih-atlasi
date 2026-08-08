@@ -1,3 +1,11 @@
+🟢 UYGULANDI — 8 Ağustos 2026. Ama ÖNERİLEN HEX'LE DEĞİL:
+   öneri #0f18a5 · yazılan #845a12
+   Sebep: öneri yazıldıktan SONRA nokta indi, çift GERÇEK bir
+   Voronoi çakışmasına dönüştü ve engel kümesi değişti. Beş
+   çakışma tek partide çözüldü (bkz. renkler.py kütüğü).
+   📌 C14: aletin evreni değişince ÖNERİ de bayatlar.
+========================================================================
+
 HAZIR ÖNERİ — YAZILMADI. Koordinatörün onayını bekliyor.
 (RENK 2, 8 Ağustos 2026 · `renkler.py`ye DOKUNULMADI)
 ════════════════════════════════════════════════════════════════════════
