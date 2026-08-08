@@ -2,7 +2,7 @@
 
 > 🤖 **BU DOSYA ÜRETİLİR — ELLE DÜZENLEME.**
 > Kaynak: `oturumlar/tespih.json` · üretici: `ClaudEmre/kutu/tespih.py`
-> Son güncelleme: **2026-08-08T15:31**
+> Son güncelleme: **2026-08-08T15:36**
 >
 > Sıralama ölçütü **`FAYDA ÷ EMEK`** — önem yüksek + irilik düşük önce.
 > Üç öncelik kuralı: **① darboğaz · ② tekrar eden madde · ③ yakınlık**
@@ -14,7 +14,7 @@
 | 🔬 | **sistem analizi** | biz ölçüp eksik/yanlış bulduk, Emre onayladı | 12 |
 | 💬 | **Emre — oturumdan** | iş sürerken aklına gelip pencereye yazdı | 32 |
 | 📦 | **Emre — paket** | toplu hâlde gönderdiği hatalar/fikirler | 1 |
-| 🔧 | **oturum önerisi** | işçi oturum bildirdi ya da istişareden çıktı | 28 |
+| 🔧 | **oturum önerisi** | işçi oturum bildirdi ya da istişareden çıktı | 33 |
 | 👁 | **bekleyenler cevabı** | BEKLEYENLER kutusunda sorulana verdiği cevap | 3 |
 | 🌱 | **%0 — gündemde yoktu** | hiç düşünülmemişti; üreteç peydah etti | 0 |
 
@@ -28,11 +28,13 @@
 ```
 🟥 📦 T-0057 🌍 DÜNYA KATMANI — coğrafya + yerleşim, bütün dünya  (1/10)
    🟧 ✅ T-0058 Coğrafya katmanı — ÖLÇÜLDÜ, pencerede TAM
-   🟧 ⏳ T-0059 GD Asya noktaları 97→480  (4/4)
+   🟧 ⏳ T-0059 GD Asya noktaları 97→480  (6/6)
       🟦 ✅ T-0071 Birmanya noktaları — GD Asya alt bölgesi
       🟦 ✅ T-0074 Siyam noktaları — GD Asya alt bölgesi
       🟦 ✅ T-0075 Kamboçya-Laos noktaları — GD Asya alt bölgesi
       🟦 ✅ T-0076 Vietnam noktaları — GD Asya alt bölgesi
+      🟦 ✅ T-0077 Malaya noktaları — GD Asya alt bölgesi
+      🟦 ✅ T-0078 Sumatra noktaları (kısmî) — GD Asya alt bölgesi
    🟧 🔵 T-0060 Doğu Asya noktaları 171→?
    🟧 🔵 T-0061 Güney Asya noktaları 135→?
    🟧 🔵 T-0062 Orta Asya noktaları 102→?
@@ -65,9 +67,9 @@
 |---|---|---|---|
 | 🟥 | **dekametreküp** | bir kıta / bir uygarlık — yıllarca iş · 🔴 **YAPILMAZ, AÇILIR** | 4 |
 | 🟧 | **metreküp** | bir çağ / bir devlet — haftalarca iş · 🔴 **YAPILMAZ, AÇILIR** | 14 |
-| 🟨 | **desimetreküp** | bir bölge / bir eksen — günlerce iş · 🔴 **YAPILMAZ, AÇILIR** | 6 |
-| 🟩 | **santimetreküp** | bir parti — saatlerce iş | 9 |
-| 🟦 | **milimetreküp** | TEK BONCUK — yapılabilir, açılamaz | 43 |
+| 🟨 | **desimetreküp** | bir bölge / bir eksen — günlerce iş · 🔴 **YAPILMAZ, AÇILIR** | 7 |
+| 🟩 | **santimetreküp** | bir parti — saatlerce iş | 10 |
+| 🟦 | **milimetreküp** | TEK BONCUK — yapılabilir, açılamaz | 46 |
 
 ---
 
@@ -82,7 +84,7 @@
 
 ---
 
-## ⏳ PARMAKTA — şu an sayılan boncuklar — 4
+## ⏳ PARMAKTA — şu an sayılan boncuklar — 6
 
 | # | iş | kanal | sahip | niçin bu sırada |
 |---|---|---|---|---|
@@ -90,13 +92,16 @@
 | T-0059 | GD Asya noktaları 97→480  ↳ `T-0057` | 🟧 💬 | VERİ DEVLET | pencere içindeki EN SEYREK yer: 3,3 · 23,3 mn km² · hedef ~580 nokta. İLERLEME: Birmanya 9 · Siyam 8 · Kamboçya-Laos 6 · Vietnam 5 = 28 nokta, AÇILAN KIRILMA GÜNÜ SIFIR |
 | T-0073 | ace ↔ malaka aynı hex — Malaka Boğazı'nın iki yakası | 🟦 🔧 | RENK 2 | ΔE 0,00 (AYNI HEX #2d8f4a) · 855 km · künyeler 1496-1511 örtüşüyor. 🔴 DÜNKÜ tarama GÖRMEDİ çünkü VERİ penceresine bakıyordu; bu matris KÜNYE penceresine baktı. malaka → #0f18a5 |
 | T-0069 | renk_olc'a İKİNCİ ÇİFT KURUCU — 600 km + eşzamanlılık | 🟩 🔧 | RENK 2 | Aynı körlük ÜÇ coğrafyada çıktı (Afrika Boynuzu · Fas · GD Asya) ve hiçbir denetim görmedi. Voronoi komşuluğu SEYREK bölgede iki gövdeyi yan yana görmüyor. Bugün 179 çift kurulur, biri İHLALDİ. ŞART: C13 iki yönde sınama · 600 km eşiğinin gerekçesi yazılı · İHLAL ile SINIRDA ayrı raporlansın (biri çıkış kodunu etkiler, öteki etmez) |
+| T-0079 | Doğu Sumatra dört kimlik — Jambi · Deli · Siak · Indragiri | 🟦 🔧 | NOKTA GDASYA | NOKTA GDASYA bildirdi: 55lik envanterde uygun kimlik YOK, hepsi zorlama olur. KARAR: devletler.js geçici olarak ona geri verildi (sahipsizdi, 45 künyeyi bugün o yazdı). Toplu mu ayrı mı — TDV karar versin (emsal: malay-sultanliklari toplu künyesi). 1281-1600 arası için kasitli_bosluk da meşru bir cevap. |
+| T-0081 | renk_olc ikinci çift kurucu — kademeli mesafe + künye penceresi | 🟩 🔧 | RENK 2 | KARAR: tavan 72 (2168 nokta damgalı, verinin fonksiyonu) · çıkış kodu '>72'ye DEĞİL, 'var olan çift eşiğin altına düştü'ye bağlanacak — renk_fark'ın doğan/ölen ayrımı kullanılarak. Böylece nokta kampanyası tavanı kaydırdıkça SAHTE ateşleme olmaz, gerçek renk regresyonu yakalanır. |
 
 ---
 
-## 🔵 ÇEKİLMEYİ BEKLEYEN — sıradaki boncuklar — 35
+## 🔵 ÇEKİLMEYİ BEKLEYEN — sıradaki boncuklar — 36
 
 | # | iş | kanal | sahip | niçin bu sırada |
 |---|---|---|---|---|
+| T-0080 | 🔴 72 RENK İHLALİ — Anadolu beylikleri + İtalyan şehirleri | 🟨 🔧 | — | RENK 2'nin yeni çift kurucusu (künye penceresi + kademeli mesafe) 143 çift kurdu — HİÇBİRİNİ hiçbir denetim görmüyordu. 72'si ΔE<12. 🔴 VE NEREDE OLDUĞU ASIL BULGU: ~30 çift Anadolu beylikleri (aydin·karesi·mentese·hamid·teke·germiyan·saruhan·eretna·karaman· dulkadir·artuklu…), ~15 çift İtalyan şehirleri (ceneviz·venedik·piza· ferrara·siena·napoli…). En dar: bizans↔inancogullari ΔE 9,55 · 104 km · 1281-1368 — ATLASIN AÇILIŞ SAHNESİ. Kullanıcının Osmanlı'nın doğuşunu okuduğu ekran. ⚠️ B15: büyük partide tavan ÇÖZÜLEMEZ olabilir (kırk partisinde 29/40'ta takılmıştı) — önce ÖLÇ, sonra parti tasarla. |
 | T-0031 | Cost-distance prototipi — Voronoi'nin topografik hâli | 🟦 💬 | — | Emre: 'iple çekiyorum'. Motor zaten 0,05° Dijkstra kullanıyor, eksik olan SÜRTÜNME ÇARPANI. 1800 noktanın %50'si bir engeli ihlal ediyor |
 | T-0060 | Doğu Asya noktaları 171→?  ↳ `T-0057` | 🟧 💬 | — | yoğunluk 8,8 · 19,4 mn km² |
 | T-0061 | Güney Asya noktaları 135→?  ↳ `T-0057` | 🟧 💬 | — | yoğunluk 11,8 · 11,4 mn km² |
@@ -147,10 +152,12 @@
 
 ---
 
-## ✅ SAYILAN — öbür uca dizilmiş boncuklar — 28
+## ✅ SAYILAN — öbür uca dizilmiş boncuklar — 30
 
 | # | iş | kanal | ölçüm | bitti |
 |---|---|---|---|---|
+| T-0077 | Malaya noktaları — GD Asya alt bölgesi | 🔧 | 4 nokta · kutu çakışması düzeltildi (Johor/KL/Malaka/Penang zaten canlıymış, Sumatra etiketine düşmüş) · sıfır borç | 2026-08-08 |
+| T-0078 | Sumatra noktaları (kısmî) — GD Asya alt bölgesi | 🔧 | 3 nokta · Barus öz-düzeltmesi: künye t=1903 ile hizalandı · sıfır borç · 🔴 dört kimlik boşluğu bildirildi | 2026-08-08 |
 | T-0074 | Siyam noktaları — GD Asya alt bölgesi | 🔧 | 8 nokta · sıfır kırılma borcu | 2026-08-08 |
 | T-0075 | Kamboçya-Laos noktaları — GD Asya alt bölgesi | 🔧 | 6 nokta · yoğunluk 3,99 → 4,25 · sıfır borç | 2026-08-08 |
 | T-0076 | Vietnam noktaları — GD Asya alt bölgesi | 🔧 | 5 nokta · 1281-1428 zinciri tran→ho→ming→le kuruldu · Mạc dönemi Thanh Hoa/Vinh'de BİLEREK atlandı (Lê Trung Hưng direniş üssü, Mạc'ın eline hiç geçmedi) · sıfır borç | 2026-08-08 |
