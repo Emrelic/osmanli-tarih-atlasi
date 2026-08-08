@@ -1,100 +1,84 @@
-# 📿 TESPİH — bütün işler tek sırada
+# 📿 TESPİH — bekleyen · yapılıyor · biten
 
-> Kurulum 7 Ağustos 2026 · **son güncelleme 8 Ağustos**, üretim koşarken
-> Sıralama ölçütü **`FAYDA ÷ EMEK`** — `HEDEF − KEŞKİNLİK` **değil**
-> Üç öncelik kuralı sırayla: **① darboğaz · ② tekrar eden madde · ③ yakınlık**
+> 🤖 **BU DOSYA ÜRETİLİR — ELLE DÜZENLEME.**
+> Kaynak: `oturumlar/tespih.json` · üretici: `ClaudEmre/kutu/tespih.py`
+> Son güncelleme: **2026-08-08T13:13**
 >
-> 🔴 **BU DOSYA GÜN İÇİNDE İŞARETLENİR** ve ertesi gün **buradan** devam edilir.
-> ✅ bitti · ⏳ sürüyor · 🔵 sırada · ⚪ bekletildi (sebebi yazılı) · ⛔ iptal
+> Sıralama ölçütü **`FAYDA ÷ EMEK`** — önem yüksek + irilik düşük önce.
+> Üç öncelik kuralı: **① darboğaz · ② tekrar eden madde · ③ yakınlık**
 
-## Ölçülmüş zemin — 8 Ağustos
+## Kanallar — boncuğu tespihe kim dizdi
 
-```
-yerleşim      2133 nokta · 32 girdi dosyası        kronoloji  1158 madde
-dizin          381 künye  ·  310 renk  ·  kaynak: alanı 3 → 307 dolu
-değişmez      1 ✓ (172/172) · 1b ✓ · 2 ✓ (499/0) · 2s ✓ (712 · 121/121) · 2i ✓ · 2t ✓ (38/42) · konum ✓
-tek ihlal     mükerrer madde 4 (bilinen kuşatma kalıbı, bugünden önce)
-dizinsiz kimlik  🟢 40 kimlik / 238 pencere → 0 / 0
-yayın         🟢 r979 YAYINDA · koşu 73 dk · yayın kapısı SONUÇ temiz
-              "Doğrulama: tüm yerleşimlerin peteği geçerli ✓"
-çizili gövde  278 → 289 kimlik · 759 → 791 değen çift · ΔE<12 olan 0 · bayat renk 8 → 0
-açık oturum   VERİ DEVLET (158 havuzdan 84 işlendi) · RENK 2 (boşta)
-kapanan       NOKTA HALKA-2 1 · 2 · 3 — üçü de teslim raporuyla kapandı
-```
-
----
-
-## ✅ 8 AĞUSTOS'TA KAPANANLAR
-
-| iş | ölçüm |
-|---|---|
-| **333 yeni nokta bağlandı** | 1800 → **2133** · 29 → 32 dosya. Afrika +181 · Rusya +88 · Kuzey Afrika +64. Yoğunluk: 8,9→25,2 · 17,7→36,5 · 26,5→39,6 |
-| **266 yıllık RUS hayaleti** | `rusya` künyesi f=1547 ama veri 1281'den boyuyordu. **111 dönem** — 88'i HALKA-2 2, 23'ü koordinatör. Külliyatta 1547 öncesi `rusya`: **24 → 0** |
-| **414 yıllık DÂRFÛR hayaleti** | `dacu` → `tunciler` → `darfur` (1695, TDV "Kîrâ sülâlesi ... Süleyman Solonc 1695-1715"). 11 nokta HALKA-2 1'de, 3'ü çekirdekte |
-| **54 yıllık ALTINORDA hayaleti** | künye 1502'de bitiyor, veri 1556 yazıyordu. **11 kayıt** → `astarhan` 4 · `nogay` 7 |
-| **FRANSA göçü** | 131 çevrildi · **49 bölündü** · 20 kaldı ⇒ **180** `fransa-cumhuriyet` dönemi. 49'u tek bir madde açtı (1792-09-22) |
-| **FAS göçü** | 48 dönem bölündü ⇒ `merini` 0→**47** · `sadi` 0→**40** · `fas` 52→41. 1659'u tek madde açtı (TDV `sadiler`: "1511-1659") |
-| **13 kronoloji maddesi** | `olaylar_ek15.js` — 1145 → **1158**. İkisi HALKA-2 1'in, dokuzu HALKA-2 3'ün **teslimde yazdığı borç**; ikisi göç açan madde |
-| **`app.js` 30 ham slug** | `devletAdi()` `harita:` takma adını görmüyordu — `kaffa` · `sirbistan` · `ceneviz` · `sovalye` ham slug görünüyordu. Tarayıcıda ölçüldü, ham kalan **30 → 0** |
-| **45 künye** | VERİ DEVLET: 337 → **382**. `ainu` **yazılmadı** ("resmî bir Ainu devletinin kanıtı yok" — bulunamadı diye raporlandı) |
-| **`fransa-cumhuriyet` · `merini` · `sadi` renkleri** | RENK 2 — üçü de bir göçü açtı. `BOYALAR` 308 → 313 |
-| **`arac/kunye_olc.py`** | RENK 2 — eşik **dağılımdan** türüyor (medyan×0,50), külliyat büyüyünce kendiliğinden kayıyor: 99,5 → 104 |
-| **🔴 Dizinsiz harita kimliği** | **40 kimlik / 238 pencere → 1 kimlik / 2 pencere.** Haftalardır kırmızı duran satır. Kalan tek kimlik `ainu` |
-
----
-
-## Sıra — buradan devam
-
-| # | durum | iş | niçin bu sırada |
+| | kanal | ne demek | adet |
 |---|---|---|---|
-| **1** | ✅ | **`uret_petek.py` koşusu** — 73 dk · 311 gövde · 503 kırılma · `donemler.js` 12 → **20,4 MB** | Zincir döndü: `uret_devirler` → `denetle` → `renk_olc` → yayın kapısı → damga. **r979 yayında.** Koşu sonrası zincir **üç ihlal** buldu, üçü de kapatıldı (okuyucu · `altlik.js` · damga) |
-| **2** | ⏳ | 🔴 **`ainu` HAYALETİ CANLI YAYINDA — kabul edilmiş borç, KUSUR DEĞİL** · veri ✓ (2 → 0 dönem, `kasitli_bosluk`) · renk ✓ (`BOYALAR` 311 → 310) · **koşu ✗** | Koşu, veri düzeltilmeden ÖNCE bitti. `renk_cikti` yayını okudu: *"`ainu` · çizilen `#1b8ae4` · **beyan YOK**"*. Sıra kuralının üçüncü ayağı **aynı gün tamamlanamaz**: `veri → renk → KOŞU` (~73 dk). ⇒ **Bir sonraki koşuya biniyor.** 2 pencere · Hokkaido güney kıyısı · halka 6-7 — tek başına 73 dakikalık koşuyu hak etmiyor. **İkinci kez "kusur" diye keşfedilmesin.** |
-| **3** | ✅ | **`sibir` birleştirildi** + tam mükerrer taraması | 382 → 381. **Dört yöntemle tarandı, `sibir` dışında SIFIR ek mükerrer.** 15 alt-dizge çifti elle kontrol edildi, hepsi meşru (`surakarta`/`yogyakarta` aynı gün kuruldu — gerçek tesadüf) |
-| **4** | ✅ | **`merini.harita` düzeltildi** + tam `harita:≠id:` taraması | 33 künye bulundu, **33/33 KASITLI, `merini` tek gerçek kusurdu.** 22'si süreklilik şemsiyesi (`suud` ×3, `sirbistan` ×4), 11'i basit takma ad |
-| **5** | ⚪ | 🔴 **BATTANİYE AD KARARI — Emre'de** · ≈7-9 yeni künye + 2 düzeltme · en büyüğü `rusya` 1917-1923 (242 kayıt) | Karar gelmeden hiçbir şey yazılmıyor — "hayır" çıkarsa yazılmamış olması kazanç |
-| **6** | 🔵 | **Berka (Sirenayka) battaniyesi** — 1281→1551 tek parça `hafsi`, **270 yıl** | HALKA-2 3'ün açık bıraktığı aday. *"Ölçmedim, kaynak okumadım"* dedi — dürüst başlık, araştırma bekliyor |
-| **7** | 🔵 | **Sahra deliği** — 80 hücre · ~898.000 km² · en derin 753 km | HALKA-2 3 ölçtü, Batı Sahra·Moritanya·Mali onun tarifi dışındaydı. **Halka 3 oturumunun taban rakamı** |
-| **8** | ⚪ | **İran 1335-1501** — `muzafferi` · `incu` · `kutlughanli` künye+renk hazır | Emre erteledi (S2 = a) |
-| **9** | ⚪ | **`galzay` taşıması** — Kandehar 1709-1738 | künye ✅ renk ✅ — İran kararıyla birlikte |
-| **10** | 🔵 | **Kavalalı taşıması** — Mısır 1805-1841 · Suriye 1832-1840 · Mora · Hicaz · Sudan | 🔴 **BU SATIR BUGÜN İKİ KEZ ÖLÇÜLDÜ VE İKİSİNDE DE YANLIŞ ÇIKTI.** ① *"1840 istirdat maddesi yok"* → **madde VAR**, hem de dördü. ② *"künyesi yok"* → künye **VAR**, `id:"misir-kavalali"` (1805-07-03 → 1914-12-18, `tabi:[{ust:"osmanli"}]`, `kaynak:` dolu); eksik olan tek şey `harita:"kavalali"` bağıydı, **o da eklendi.** ⇒ Artık **hiçbir engel yok**, yalnız taşıma yazılmamış |
-| **11** | 🔵 | **Beş görsel şikâyet** (kutu) — Cezayir · Timur/Bağdat ×2 · başkent yıldızı · Ahîler | Kullanıcının kendi sözü; ikisi **tekrar eden madde** ⇒ kural ② |
-| **12** | 🔵 | **9 tarih uyuşmazlığı** — Agadir · Şehrizor · Bucaş · Cüneyd ×2 · Konya 1415 | ölçülmüş, tek tek kapanır |
-| **13** | 🔵 | **Kronoloji çukurları** — 1250-1299: **6 madde** · 1600-1649: **62** (komşuları 111 ve 81) | Kuruluş devri en ince yer |
-| **14** | ✅ | **`kaynak:` alanı — 381/381 DOLU, kaynaksız kayıt 0** | Sabah **3 dolu / 340 boş**tu. Dört sayı: doğrulandı **115** · yetersiz **4** · bulunamadı **56** · çürüdü **0**. 🔴 **Ve İtalya/Doğu Asya/Amerika'nın %0'ı ÖRNEKLEM GÜRÜLTÜSÜYMÜŞ**: ikinci denemede %59 (10/17) tuttu — asıl sorun *genel ülke/kıta maddesinin denenmemesiydi*. ⇒ **6 kayıtla bütün bir coğrafyayı kapsam dışı ilan etmemek doğru karardı** |
-| **15** | ⚪ | **`isg:` borcu** — Niş 1737 · Semendire 1789 · Bihaç 1878 | `2i` tavanı zaten sağlanıyor (3/3) |
-| **16** | ⚪ | **B8 — site 53 MB** | **Mobil ölçümü yok** — kararın önündeki tek gerçek boşluk |
-| **17** | ⚪ | **Ö1/Ö2 yeni değişmezler** | Ö1 (hayalet devlet) bugün üç kez elle kapatıldı ⇒ **artık yazılabilir**; battaniye kararı beklensin |
-| **18** | ⚪ | **Cost-distance prototipi** | Kullanıcının "iple çektiği" iş. Nokta yoğunluğu halka 3'e kadar tamamlanınca |
+| 🔬 | **sistem analizi** | biz ölçüp eksik/yanlış bulduk, Emre onayladı | 11 |
+| 💬 | **Emre — oturumdan** | iş sürerken aklına gelip pencereye yazdı | 2 |
+| 📦 | **Emre — paket** | toplu hâlde gönderdiği hatalar/fikirler | 1 |
+| 🔧 | **oturum önerisi** | işçi oturum bildirdi ya da istişareden çıktı | 19 |
+| 👁 | **bekleyenler cevabı** | BEKLEYENLER kutusunda sorulana verdiği cevap | 3 |
+| 🌱 | **%0 — gündemde yoktu** | hiç düşünülmemişti; üreteç peydah etti | 0 |
 
 ---
 
-## 🔴 Günün dersi — hepsi aynı aileden: **ÖLÇTÜĞÜN ŞEY, ÖLÇMEK İSTEDİĞİN ŞEY Mİ?**
+## ⏳ PARMAKTA — şu an sayılan boncuklar — 1
 
-8 Ağustos'ta bu soru **altı ayrı biçimde** karşımıza çıktı ve altısında da
-kod doğruydu:
+| # | iş | kanal | sahip | niçin bu sırada |
+|---|---|---|---|---|
+| T-0022 | TESPİH v2 — üç hâl · altı kanal · üç damga · kutuda sekme | 💬 | KOORDİNATÖR | Emre: 'fırlayıp giden mermi nereye gitti belli değil' — bekleyen/yapılan/biten görünür olacak |
 
-```
-① EVREN DEĞİŞTİ, ALET DEĞİŞMEDİ   üç oturum birden: dosyaları bağlanınca
-                                  kendi noktalarını KENDİLERİYLE karşılaştırdı
-                                  → 181 · 88 · 128 sahte "mükerrer"
-② YANLIŞ SORU                     benim gün ölçerim yeni metindeki HER günü
-                                  sınadı; oysa çoğu ZATEN çekirdekteydi.
-                                  Doğru soru: "bu gün YENİ Mİ?"  → 5 sahte durdurma
-③ HÜKÜM DOĞRU, TEŞHİS YANLIŞ      "merini boyanmayacak" ✓ ama sebebi
-                                  `harita:` değil, VERİDE HİÇ KULLANILMAMASIYDI
-④ DÜZELTME BİR DALDA YANLIŞ       `id ∪ harita` önerim renk ölçümünde
-                                  33 yanlış-pozitif üretirdi — ama app.js'te DOĞRUYDU
-⑤ TARİH YENİDEN KULLANMAK          "gün veride var ⇒ maddesi de vardır" YANLIŞ.
-   RİSKİ SIFIRLAMAZ                1564 · 1610 · 1673 vardı, üçü de maddesizdi
-⑥ ÖLÇÜT YAKINLIĞI SORAR,          Beşşâr `1903-11-12` yazılmıştı; `2s` TEMİZ
-   DOĞRULUĞU DEĞİL                 diyordu çünkü ±30 içindeydi. Gün YANLIŞTI
-```
+---
 
-📌 Ve **hiçbiri denetim betiğinin bulduğu hata değildi.** Altısını da ya bir
-oturum kendi işini sorgulayarak buldu, ya da ölçüm yazarken fark edildi.
+## 🔵 ÇEKİLMEYİ BEKLEYEN — sıradaki boncuklar — 9
 
-📌 **İkinci desen:** üç oturumun üçü de kendi çalışmasında kusur buldu ve
-**sakladıklarını değil, saklamadıklarını** rapor etti — HALKA-2 1 *"denetim
-geçiyor ama gösterim yanlış"* dedi, HALKA-2 3 *"sekiz demiştim, dokuzmuş"*
-dedi, HALKA-2 2 *"54 yıllık hayaleti ben yazdım"* dedi. **Bu davranış
-şartnamede yazılıydı ve karşılığını verdi.**
+| # | iş | kanal | sahip | niçin bu sırada |
+|---|---|---|---|---|
+| T-0031 | Cost-distance prototipi — Voronoi'nin topografik hâli | 💬 | — | Emre: 'iple çekiyorum'. Motor zaten 0,05° Dijkstra kullanıyor, eksik olan SÜRTÜNME ÇARPANI. 1800 noktanın %50'si bir engeli ihlal ediyor |
+| T-0026 | Beş görsel şikâyet — Cezayir · Timur/Bağdat ×2 · başkent yıldızı · Ahîler | 📦 | — | Emre'nin kendi sözü; İKİSİ TEKRAR EDEN MADDE ⇒ öncelik kuralı ② |
+| T-0024 | Berka (Sirenayka) battaniyesi — 270 yıl tek parça `hafsi` | 🔧 | — | 1281→1551 kesintisiz. HALKA-2 3: 'ölçmedim, kaynak okumadım' — dürüst başlık, araştırma bekliyor |
+| T-0030 | `Ö1` / `Ö2` yeni değişmezleri yaz | 🔧 | — | sınav kümesi HAZIR (22 kimlik) · battaniye ad kararı beklensin |
+| T-0025 | Sahra deliği — 80 hücre, ~898.000 km² | 🔧 | — | en derin 753 km · Batı Sahra·Moritanya·Mali · halka 3 oturumunun taban rakamı |
+| T-0029 | Kavalalı taşıması — Mısır 1805-1841 · Suriye · Mora · Hicaz · Sudan | 🔧 | — | künye VAR (misir-kavalali), kronoloji VAR, renk VAR — hiçbir engel kalmadı, yalnız taşıma yazılmamış |
+| T-0027 | Dokuz tarih uyuşmazlığı — Agadir · Şehrizor · Bucaş · Cüneyd ×2 · Konya 1415 | 🔬 | — | ölçülmüş, tek tek kapanır |
+| T-0028 | Kronoloji çukurları — 1250-1299: 6 madde · 1600-1649: 62 | 🔬 | — | komşu dilimler 111 ve 81 · kuruluş devri en ince yer |
+| T-0023 | `ainu` hayaletini koşuda düşür | 🔧 | — | KABUL EDİLMİŞ BORÇ: veri ✓ renk ✓ KOŞU ✗. 2 pencere · halka 6-7 · tek başına 73 dk koşuyu hak etmiyor |
+
+---
+
+## ⚪ KASTEN BEKLETİLEN — sebebi yazılı — 5
+
+| # | iş | kanal | sahip | niçin bu sırada |
+|---|---|---|---|---|
+| T-0032 | 🔴 BATTANİYE AD KARARI — Emre'de | 👁 | — | ≈7-9 yeni künye + 2 düzeltme · en büyüğü `rusya` 1917-1923 (242 kayıt). Karar gelmeden hiçbir şey yazılmıyor — 'hayır' çıkarsa yazılmamış olması KAZANÇ |
+| T-0036 | B8 — site 53 MB, mobil ölçümü YOK | 🔬 | — | kararın önündeki tek gerçek boşluk: mobilde ne kadar sürüyor ölçülmedi |
+| T-0033 | İran 1335-1501 — muzafferi · incu · kutlughanli taşıması | 👁 | — | künye + renk HAZIR, taşıma bekliyor. Emre erteledi (S2 = a) |
+| T-0034 | `galzay` taşıması — Kandehar 1709-1738 | 👁 | — | künye ✅ renk ✅ — İran kararıyla birlikte |
+| T-0035 | `isg:` borcu — Niş 1737 · Semendire 1789 · Bihaç 1878 | 🔬 | — | `2i` tavanı zaten sağlanıyor (3/3) |
+
+---
+
+## ✅ SAYILAN — öbür uca dizilmiş boncuklar — 21
+
+| # | iş | kanal | ölçüm | bitti |
+|---|---|---|---|---|
+| T-0021 | ClaudEmre hasadı — 8 ders + 2 çapraz-proje terfi | 🔧 | havuz 34 → 43 · A6 (kural yazılı olmak uygulanmak değildir) · C14 (bir ölçüm aracı sen dokunmadan başkalaşır) | 2026-08-08 |
+| T-0011 | Kısa künye özetlerini yaz | 🔬 | kısa özet 33 → 0 · eşik gün içinde kendiliğinden 99,5 → 104 → 108 kaydı | 2026-08-08 |
+| T-0012 | Altı tarih hatasını bul ve düzelt | 🔧 | saruhan · mutahharten · aydin · candar · karakoyunlu · girit-devleti — ÜÇÜNÜ VERİ çözdü, kural değil | 2026-08-08 |
+| T-0019 | `Ö1` sınav kümesini ölç ve kalıcı yaz | 🔧 | 22 kesintili kimlik · A/B/C üç sınıf · ötmeli 3 (üçü de düzeltildi) · ötmemeli 19 · belirsiz 0 | 2026-08-08 |
+| T-0010 | `kaynak:` alanını doldur — TDV birincil kaynak görünsün | 🔬 | 3 → 381 dolu (%1 → %100) · doğrulandı 225 · yetersiz 7 · bulunamadı 149 · isabet Balkan/Anadolu %81, İran/Kafkas %45, İtalya 2. denemede %59 | 2026-08-08 |
+| T-0006 | FAS göçü — merini · sadi · fas üç katman | 🔧 | 48 dönem bölündü ⇒ merini 0→47 · sadi 0→40 · fas 52→41. 1659'u tek madde açtı | 2026-08-08 |
+| T-0016 | `harita:` bağ kusurlarını kapat | 🔧 | merini (başka anahtara bakıyordu) · misir-kavalali (hiç yoktu) · 33 vakanın 33'ü tarandı, 1 gerçek kusur | 2026-08-08 |
+| T-0005 | FRANSA göçü — `fransa` → `fransa-cumhuriyet` | 🔬 | 180 dönem: 131 çevrildi · 49 BÖLÜNDÜ · 20 kaldı. 49'u tek madde açtı (1792-09-22, 113 gün açıktı) | 2026-08-08 |
+| T-0020 | `ainu` — künye mi yazılmalı, boya mı kaldırılmalı | 🔧 | KARAR: künye YAZILMADI, boya KALDIRILDI. Veri 2 → 0 dönem · BOYALAR 311 → 310 · BEKLENEN_SAHIPSIZ 170 → 172 | 2026-08-08 |
+| T-0004 | 54 yıllık `altinorda` hayaletini kapat | 🔧 | 11 kayıt → astarhan 4 · nogay 7 · künye 1502'de bitiyordu, veri 1556 yazıyordu | 2026-08-08 |
+| T-0008 | `app.js` ham slug kusuru — devletAdi() `harita:` görmüyordu | 🔬 | 30 gövde ham slug gösteriyordu → 0. Tarayıcıda canlı nesnelerle ölçüldü (regex 22 diyordu) | 2026-08-08 |
+| T-0018 | `girdi.oku_devletler()` tek tırnağı okuyamıyordu | 🔧 | 208 `kaynak:` alanı tek tırnaklıydı, JSON kabul etmiyor ⇒ renk_olc künye denetimini TAMAMEN kaybetmişti. Okuyucu DURDU, sıfır döndürmedi | 2026-08-08 |
+| T-0015 | `sibir` mükerrer künyesini birleştir + tam tarama | 🔧 | 382 → 381 · DÖRT yöntemle tarandı, `sibir` dışında SIFIR ek mükerrer | 2026-08-08 |
+| T-0013 | `uret_petek.py` koşusu + yayın | 🔬 | 73 dk · 311 gövde · 503 kırılma · donemler.js 12 → 20,4 MB · YAYIN r864 → r979 · altı değişmez temiz | 2026-08-08 |
+| T-0007 | 13 kronoloji maddesi yaz — iki oturumun teslim borcu | 🔧 | 1145 → 1158 madde · olaylar_ek15.js · 16 slug §4 ile sınandı, 5'i TDV'de YOK diye açıkça yazıldı | 2026-08-08 |
+| T-0002 | 266 yıllık `rusya` hayaletini kapat | 🔧 | 111 dönem · 1547 öncesi `rusya`: 24 → 0 · novgorod/moskova/tver/pskov/ryazan doğdu | 2026-08-08 |
+| T-0003 | 414 yıllık `darfur` hayaletini kapat | 🔧 | 14 kayıt · dacu → tunciler → darfur (TDV: Kîrâ sülâlesi, Süleyman Solonc 1695-1715) | 2026-08-08 |
+| T-0009 | 45 yeni künye — dizinsiz harita kimliği darboğazı | 🔬 | 317 → 381 künye · dizinsiz kimlik 40/238 → 0/0 (41'in 41'i GERÇEK künye yazımıyla düştü, 0'ı bağlama) | 2026-08-08 |
+| T-0017 | İki ayrı `TESPIH.md` vardı — teke indir | 🔧 | 283 satır (4 Ağu, bayat) arşive · kökte 26 satırlık işaret · tek otorite oturumlar/ | 2026-08-08 |
+| T-0001 | 333 yeni noktayı motora bağla (3 dosya × 3 yer) | 🔬 | 1800 → 2133 nokta · 29 → 32 dosya · Afrika +181 · Rusya +88 · K.Afrika +64 | 2026-08-08 |
+| T-0014 | `renkler.py` — üç renk yaz (göçlerin kilidi) | 🔧 | fransa-cumhuriyet #45edcc · merini #0f24b1 · sadi #1290ed — üçü de bir göçü açtı, arkasından 228 dönem geldi | 2026-08-08 |
+
