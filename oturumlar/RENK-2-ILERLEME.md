@@ -2906,3 +2906,57 @@ paylaşımlı") de bayatladı. **Bir grubun adı kurucusuna göre konmuşsa,
 kurucu ayrılınca ad da bayatlar.**
 `#8f7d5b` **tamamen boşaldı** — beyan **silinmedi**: o hex'in niçin
 boşaldığını söylüyor. *Boş kova, olmayan kovadan farklıdır.*
+
+---
+
+## 60. AFRİKA KİLİT PARTİSİ — beş istendi, DOKUZ çıktı
+
+```
+BOYALAR 314 → 323
+```
+
+### ① Koordinatörün beşi
+```
+svahili-sehirleri  #f684f6  pay 30,6      umman-zengibar  #f98160  pay 24,7
+loango             #240c4e  pay 28,0      luba            #dbf396  pay 30,2
+kuba               #0072f6  pay 28,3
+```
+Engel sayıları **2-8** — Orta Afrika'da nokta çok az, o yüzden paylar
+30'lara çıkıyor. Parti içi en dar **28,0**.
+
+### ② 🔴 VE NÖBETÇİ DÖRT TANE DAHA BULDU — kovası DAHA AĞIR
+```
+kongo-kralligi · lunda-imparatorlugu · ndongo · avustralya
+```
+Fark önemli:
+```
+koordinatörün beşi   künyeli-renksiz              → sessiz borç
+nöbetçinin dördü     VERİDE KULLANILIYOR + renksiz → `§8`: BOYANMIYOR
+```
+**Yani haritada hâlihazırda DELİK vardı.** Ve `renk_fark` sayının
+**2 → 4 diye büyüdüğünü** de gösterdi — NOKTA EMİLME yazarken doğuyorlardı.
+📌 Bu, `renk_fark` ④'ün ilk **gerçek** yakalayışı ve tam tasarlandığı iş:
+*"kaç tane var"* değil, ***"kaç tane YENİ doğdu"***.
+
+### ③ 🔴 VE `luba ↔ lunda` KISITI SESSİZCE ATLANMIŞTI
+Koordinatör bu çifti özellikle işaretledi (Lunda'nın siyasî modeli
+doğrudan Luba'dan türedi). Kısıtı yazdım — **ama çalışmadı**:
+```python
+if rk in R.BOYALAR:      # lunda'nın rengi YOKTU
+    ...                  # dal hiç çalışmadı
+```
+`ÖZEL ÇİFT` satırı **basılmadı** ve ben onu ancak çıktıyı okuyunca
+gördüm. ⇒ **Bir kısıt "uygulanamadı" diye sessiz geçilirse, UYGULANMIŞ
+SANILIR.**
+**Çare `assert`:** kurulamayan özel kısıt artık çözücüyü **durduruyor.**
+İkinci partide kuruldu: `luba ↔ lunda` **ΔE 60,7** (hedef ≥ 25).
+
+📌 Ve bu, bugünkü *"aletin BASMADIĞI ≠ ölçtüğü"* dersinin **kısıt tarafı**:
+orada bir bölüm hiç ölçmüyordu, burada bir kısıt hiç kurulmuyordu — ve
+ikisi de **sessizdi.**
+
+### DURUM
+```
+görünmez 0 · çakışan 0 · aynı-anahtar 0 · aynı-hex 0
+yakın-ama-değmeyen 7 (borç, kayıtlı) · renk_fark ✓ TEMİZ
+```

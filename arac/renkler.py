@@ -939,6 +939,53 @@ BOYALAR = {
     # ↑ Kızıldeniz kümesi (bkz. `yemen` üstündeki blok) · kayma  5,2° · pay 12,0 · altlık 25,9
     "adal":       ("Adal / Harar",           "#786c0c"),
     # ↑ Kızıldeniz kümesi (bkz. `yemen` üstündeki blok) · kayma  0,1° · pay 12,0 · altlık 18,2
+    # ═══ AFRİKA — BEŞ KİLİT RENGİ, tek parti, 8 Ağustos 2026 ═══
+    # Beşinin de künyesi VAR ama BOYALAR'da YOKTU ⇒ `§8` gereği
+    #   boyanmazlardı ve NOKTA EMİLME yazamıyordu. Renk veriden ÖNCE.
+    # ENGEL: veride 0 dönemleri var ⇒ komsuluk() ölçemez. Coğrafî
+    #   çekirdek + kimliğin KENDİ penceresinde 1500 km'deki eşzamanlı
+    #   palet kimlikleri. B15: beş kalemlik parti ⇒ TAVANA çıkıldı.
+    #   Parti içi en dar: 28.0  ·  havuz 170550
+    # 🔴 `luba ↔ lunda-imparatorlugu` AYRI MUAMELE: bitişik, eşzamanlı,
+    #   ve Lunda'nın siyasî modeli doğrudan Luba'dan türedi. Kullanıcı
+    #   o ilişkiyi okurken iki gövdeyi ayırt edememek en kötüsü.
+    #   ⇒ 12 eşiği YETMEZ, hedef 25 kondu. (`bugis ↔ gova-makassar` ve
+    #     `ava ↔ ayutthaya` ile aynı sınıf: eşik gevşetilmez, SIKILAŞTIRILIR
+    #     ve gerekçesi veride değil KRONOLOJİDEDİR.)
+    # svahili-sehirleri — 1000→1698 · pay 30.6 · engel 7 · geçen 121614 · C* 28.0 = %72
+    # ═══ VERİDE KULLANILAN AMA RENKSİZ DÖRT KİMLİK ═══
+    # 8 Ağustos 2026. Koordinatör BEŞ kimlik saydı; `renk_fark` ④
+    #   DÖRT TANE DAHA buldu ve bunların kovası DAHA AĞIR:
+    #     ötekiler  künyeli-renksiz            → sessiz borç
+    #     bunlar    VERİDE KULLANILIYOR + renksiz → `§8`: BOYANMIYOR
+    #   Yani haritada hâlihazırda DELİK vardı. Nöbetçi 2 → 4 diye
+    #   büyüdüğünü de gösterdi (NOKTA EMİLME yazarken doğdular).
+    # 🔴 VE `luba ↔ lunda` ÖZEL ÇİFTİ ANCAK ŞİMDİ KURULABİLDİ:
+    #   `luba` yazılırken `lunda`nın rengi YOKTU ve kısıt SESSİZCE
+    #   ATLANDI (`if rk in BOYALAR` dalı hiç çalışmadı, 'ÖZEL ÇİFT'
+    #   satırı basılmadı). ⇒ **Bir kısıt 'uygulanamadı' diye sessiz
+    #   geçilirse, UYGULANMIŞ SANILIR.** Çare: `assert` — kurulamayan
+    #   özel kısıt artık çözücüyü DURDURUYOR.
+    # kongo-kralligi — pay 31.6 · engel 6 · geçen 117174 · C* 20.3 = %39
+    "kongo-kralligi": ("Kongo Krallığı", "#f09cf3"),
+    # lunda-imparatorlugu — pay 32.3 · engel 7 · geçen 91052 · C* 27.5 = %65
+    #   `luba`tan ΔE 60.7 (hedef ≥ 25 — Lunda'nın siyasî modeli
+    #   doğrudan Luba'dan türedi; kullanıcı o ilişkiyi okurken
+    #   iki gövdeyi ayırt edememek en kötüsü)
+    "lunda-imparatorlugu": ("Lunda İmparatorluğu", "#0345cf"),
+    # ndongo — pay 33.7 · engel 6 · geçen 126356 · C* 11.4 = %12
+    "ndongo": ("Ndongo Krallığı (Angola)", "#0f3f36"),
+    # avustralya — pay 36.8 · engel 7 · geçen 95851 · C* 27.9 = %71
+    "avustralya": ("Avustralya Milletler Topluluğu", "#f9b169"),
+    "svahili-sehirleri": ("Svahili Şehir Devletleri (Kıyı)", "#f684f6"),
+    # umman-zengibar — 1698→1923 · pay 24.7 · engel 10 · geçen 73111 · C* 28.1 = %73
+    "umman-zengibar": ("Umman-Zengibar Sultanlığı", "#f98160"),
+    # loango — 1550→1883 · pay 28.0 · engel 8 · geçen 103557 · C* 11.1 = %12
+    "loango": ("Loango Krallığı", "#240c4e"),
+    # luba — 1585→1889 · pay 30.2 · engel 7 · geçen 91602 · C* 27.7 = %68
+    "luba": ("Luba İmparatorluğu", "#dbf396"),
+    # kuba — 1625→1900 · pay 28.3 · engel 8 · geçen 87977 · C* 27.8 = %68
+    "kuba": ("Kuba Krallığı", "#0072f6"),
     "somali":     ("Somali sultanlıkları",   "#1248d5"),
     # ═══ AFRİKA BOYNUZU / SUDAN KÜMESİ — RENK 2, 7 Ağustos 2026 ═══
     # ARAŞTIRMA KÜNYE 3'ün teslimi; künyeler VERİ DEVLET'te yazıldıktan SONRA
