@@ -11,8 +11,8 @@
 
 | | kanal | ne demek | adet |
 |---|---|---|---|
-| 🔬 | **sistem analizi** | biz ölçüp eksik/yanlış bulduk, Emre onayladı | 20 |
-| 💬 | **Emre — oturumdan** | iş sürerken aklına gelip pencereye yazdı | 34 |
+| 🔬 | **sistem analizi** | biz ölçüp eksik/yanlış bulduk, Emre onayladı | 19 |
+| 💬 | **Emre — oturumdan** | iş sürerken aklına gelip pencereye yazdı | 33 |
 | 📦 | **Emre — paket** | toplu hâlde gönderdiği hatalar/fikirler | 1 |
 | 🔧 | **oturum önerisi** | işçi oturum bildirdi ya da istişareden çıktı | 43 |
 | 👁 | **bekleyenler cevabı** | BEKLEYENLER kutusunda sorulana verdiği cevap | 3 |
@@ -76,7 +76,7 @@
 | 🟥 | **dekametreküp** | bir kıta / bir uygarlık — yıllarca iş · 🔴 **YAPILMAZ, AÇILIR** | 4 |
 | 🟧 | **metreküp** | bir çağ / bir devlet — haftalarca iş · 🔴 **YAPILMAZ, AÇILIR** | 14 |
 | 🟨 | **desimetreküp** | bir bölge / bir eksen — günlerce iş · 🔴 **YAPILMAZ, AÇILIR** | 8 |
-| 🟩 | **santimetreküp** | bir parti — saatlerce iş | 19 |
+| 🟩 | **santimetreküp** | bir parti — saatlerce iş | 17 |
 | 🟦 | **milimetreküp** | TEK BONCUK — yapılabilir, açılamaz | 56 |
 
 ---
@@ -106,12 +106,11 @@
 
 ---
 
-## 🔵 ÇEKİLMEYİ BEKLEYEN — sıradaki boncuklar — 40
+## 🔵 ÇEKİLMEYİ BEKLEYEN — sıradaki boncuklar — 39
 
 | # | iş | kanal | sahip | niçin bu sırada |
 |---|---|---|---|---|
 | T-0083 | `dogu-sumatra-sultanliklari` rengi — 4 nokta bunu bekliyor | 🟦 🔧 | — | Künye yazıldı ama BOYALAR'da yok ⇒ §8: bölge BOYANMAZ. NOKTA GDASYA Sumatra'nın dört noktasını yazamıyor. RENK 2'de. |
-| T-0099 | 🔴 `iran` hayaleti: 124 dönem, 1925 öncesi — Pehlevi 1335'te boyanıyor | 🟩 🔬 | — | Yeni sekmenin İLK İŞİNDE açığa çıktı: Tebriz'in kronolojisinde 'İran (Pehlevi Hanedanı → İran İslam Cumhuriyeti)' satırı 1335-1386 diyor. Ölçüldü: `iran` künyesi f:1925-12-12, ama veride 124 dönem 1925'ten ÖNCE — 113'ü 1335-12-01'de başlıyor (İlhanlı sonrası fetret). Doğrusu Celâyirli · Muzafferî · Serbedârî · Çobanlı künyeleri (dördü de TDV'de CANLI slug). 🔴 `§3.5` hayalet sınıfının en büyüğü: 590 yıl. |
 | T-0101 | 🔴 `iran` hayaleti: 124 dönem, 1925 öncesi — Pehlevi 1335'te boyanıyor | 🟩 🔬 | — | Yeni sekmenin İLK İŞİNDE açığa çıktı: Tebriz'in kronolojisinde 'İran (Pehlevi Hanedanı → İran İslam Cumhuriyeti)' satırı 1335-1386 diyor. Ölçüldü: `iran` künyesi f:1925-12-12, ama veride 124 dönem 1925'ten ÖNCE — 113'ü 1335-12-01'de başlıyor (İlhanlı sonrası fetret). Doğrusu Celâyirli · Muzafferî · Serbedârî · Çobanlı künyeleri (dördü de TDV'de CANLI slug). 🔴 `§3.5` hayalet sınıfının en büyüğü: 590 yıl. |
 | T-0080 | 🔴 72 RENK İHLALİ — Anadolu beylikleri + İtalyan şehirleri | 🟨 🔧 | — | RENK 2'nin yeni çift kurucusu (künye penceresi + kademeli mesafe) 143 çift kurdu — HİÇBİRİNİ hiçbir denetim görmüyordu. 72'si ΔE<12. 🔴 VE NEREDE OLDUĞU ASIL BULGU: ~30 çift Anadolu beylikleri (aydin·karesi·mentese·hamid·teke·germiyan·saruhan·eretna·karaman· dulkadir·artuklu…), ~15 çift İtalyan şehirleri (ceneviz·venedik·piza· ferrara·siena·napoli…). En dar: bizans↔inancogullari ΔE 9,55 · 104 km · 1281-1368 — ATLASIN AÇILIŞ SAHNESİ. Kullanıcının Osmanlı'nın doğuşunu okuduğu ekran. ⚠️ B15: büyük partide tavan ÇÖZÜLEMEZ olabilir (kırk partisinde 29/40'ta takılmıştı) — önce ÖLÇ, sonra parti tasarla. |
 | T-0031 | Cost-distance prototipi — Voronoi'nin topografik hâli | 🟦 💬 | — | Emre: 'iple çekiyorum'. Motor zaten 0,05° Dijkstra kullanıyor, eksik olan SÜRTÜNME ÇARPANI. 1800 noktanın %50'si bir engeli ihlal ediyor |
@@ -165,11 +164,10 @@
 
 ---
 
-## ✅ SAYILAN — öbür uca dizilmiş boncuklar — 45
+## ✅ SAYILAN — öbür uca dizilmiş boncuklar — 44
 
 | # | iş | kanal | ölçüm | bitti |
 |---|---|---|---|---|
-| T-0098 | Yerleşim Kronolojileri sekmesi — Emre'nin 3. işinin ucuz ayağı | 💬 | 2293 yerleşimin tamamı, arama kutusuyla, her birinin TAM dönem listesi sahibiyle birlikte. Tarayıcıda ölçüldü: Tebriz 14 dönem (İlhanlı→Timurlu→Karakoyunlu→Akkoyunlu→Safevî + 5 Osmanlı işgali). 🔴 Mevcut `sehirler` sekmesi İKİ SÜZGEÇ uyguluyordu (`!don.length || !y.k`) ve 1538 YABANCI yerleşimi dizinde HİÇ göstermiyordu — yani 'Belgrad kimdeymiş' sorulabiliyordu ama 'Tebriz kimdeymiş' SORULAMIYORDU. Eski sekmeye DOKUNULMADI, ikisi ayrı soruya cevap. | 2026-08-08 |
 | T-0100 | Yerleşim Kronolojileri sekmesi — Emre'nin 3. işinin ucuz ayağı | 💬 | 2293 yerleşimin tamamı, arama kutusuyla, her birinin TAM dönem listesi sahibiyle birlikte. Tarayıcıda ölçüldü: Tebriz 14 dönem (İlhanlı→Timurlu→Karakoyunlu→Akkoyunlu→Safevî + 5 Osmanlı işgali). 🔴 Mevcut `sehirler` sekmesi İKİ SÜZGEÇ uyguluyordu (`!don.length || !y.k`) ve 1538 YABANCI yerleşimi dizinde HİÇ göstermiyordu — yani 'Belgrad kimdeymiş' sorulabiliyordu ama 'Tebriz kimdeymiş' SORULAMIYORDU. Eski sekmeye DOKUNULMADI, ikisi ayrı soruya cevap. | 2026-08-08 |
 | T-0093 | EMİLME PAKETİ — üç büyük yanlış sahip, 4,35 milyon km² | 🔬 | 32 nokta · KOORDİNATÖR BAĞIMSIZ ÖLÇTÜ, teslim doğrulandı. somali 628.526 → 0 (yerine svahili-sehirleri 427.994, DOĞRU sahip) · banda-adalari 573.188 → 0 · ingiltere1900 3.150.758 → belcika 1.668.527 (DOĞRU sahip, yarıya indi). Noktasız hücre 101 → 90, 19,6 → 17,1 milyon km². 1300 deliği 14,84 → 13,21 M km². 🔴 AÇILAN KIRILMA GÜNÜ: 0 — üst üste ÜÇÜNCÜ parti. | 2026-08-08 |
 | T-0094 | `banda-adalari` 573.188 km² boyuyor — kendisi ~180 km² | 🔬 | — | 2026-08-08 |
