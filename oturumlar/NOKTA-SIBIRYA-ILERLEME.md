@@ -46,3 +46,38 @@ tarihte YOK. Kesin karar vermeden önce standart akademik kaynakla ikinci
 bir tur yapacağım (Rus fetih tarihleri Yakutsk/Buryat bölgesi için).
 
 Devam ediyorum — Uzak Doğu'ya (③) ve künye kararına.
+
+## 🔴 ÖNEMLİ BULGU — Buryat için künye GEREKMİYOR, Yakut hâlâ belirsiz, Çukotka'da YENİ "yanlış sahip" ihtimali
+
+### Buryat — KÜNYE GEREKMİYOR
+Standart kaynak DOĞRULADI: Buryat boyları (Bulagad, Ekhirid, Khori,
+Khongodor) hiçbir zaman birleşik bir "Buryat devleti" kurmadı — **XVII.
+yüzyıla kadar Halha Moğol hükümdarlarının siyasi/haraç hiyerarşisine
+bağlıydılar.** Bu tam olarak `bolge:"dogu-asya"` altında zaten var olan
+**`kuzey-yuan`** (Kuzey Yuan/Moğol Hanlığı, 1368-1691-05-30) künyesiyle
+örtüşüyor — ZATEN RENKLİ. Baykal/Buryat bölgesi için YENİ künye
+ÖNERMİYORUM; `kuzey-yuan`→(gerçek Rus fetih tarihi, ör. Bratsk 1631,
+Selenginsk 1665)→`rusya` zinciri kullanılacak.
+
+### Yakut — hâlâ belirsiz, `kasitli_bosluk`a eğilimliyim
+Standart kaynak NET DEĞİL: "Tygın Darkhan" adlı bir lider anılıyor ama
+yönetim biçimi/tarihleri belirsiz, birleşik bir devlet kaydı YOK. TDV'nin
+`yakutlar` maddesi de yalnız 1632 SONRASINI (Rus fethi, ayaklanma, Sovyet
+dönemi) somut anlatıyor, ÖNCESİNİ değil. **Eğilimim: `kasitli_bosluk`
+("devletsiz ama insanlı") — klan/boy düzeyinde örgütlenme, merkezi devlet
+yok.** Kesinleştirmeden önce bir tur daha bakacağım.
+
+### 🔴 Çukotka — YENİ bir "yanlış sahip" ihtimali (emilme sınıfı, yoğunluk değil!)
+Standart kaynak KESİN: Çukçiler **HİÇBİR ZAMAN fethedilmedi** — 1701-47
+Rus seferleri başarısız oldu, 1764'te Anadırsk kalesi TERK edildi, "resmî
+ilhak ANCAK SOVYET döneminde" gerçekleşti. Çukçiler hiç yasak (kürk
+vergisi) ödemedi. **Bu, 1281-1923 boyunca `rusya`nın hiç orada olmadığı
+anlamına geliyor** — ama benim önceki kaba taramamda Çukotka'nın en yakın
+noktası 2.106 km öteden `rusya` etiketli bir yer (Korsakov/Sahalin)
+çıkmıştı. Yani orası muhtemelen ŞU AN yanlışlıkla `rusya` gösteriyor —
+tıpkı EMİLME'deki somali/ingiltere gibi, ama bu sefer YOĞUNLUK değil
+GERÇEK YANLIŞ SAHİP. Bu tam bir `kasitli_bosluk` (devletsiz) ilanı ve
+muhtemelen birkaç nokta ile netleştirilmeli.
+
+Devam ediyorum: Uzak Doğu'nun geri kalanını (Kamçatka/Koryak, Sahalin) ve
+somut nokta adaylarını araştırıyorum.
