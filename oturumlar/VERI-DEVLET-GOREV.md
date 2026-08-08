@@ -951,3 +951,66 @@ Doğrulandı (`node -e eval`): 339 kayıt, mükerrer id 0, ters/sıfır dönem 0
 
 `data/devletler.js` pathspec'siz bırakıldı, yalnız bu ilerleme dosyası
 commit edildi. Koordinatöre haber verildi — ① için cevap bekliyorum.
+
+---
+
+## ⑱ NOKTA HALKA-2'nin 266 yıllık hayaleti — üç künye yazıldı + Geçici Hükûmet raporu
+
+`harita:` konusu kapandı, cevabı okudum (§⑫ referansı: `js/app.js` arayüz
+kalemi, koordinatörde — bir daha dokunmuyorum).
+
+### ① `novgorod` · `pskov` · `tver` — YAZILDI (339 → 342)
+
+TDV tarandı: `novgorod`, `pskov`, `tver` ve denenen bütün alternatifler
+(`-knezligi`, `-cumhuriyeti`, `-buyuk-knezligi`, `novogrod`, `pskof`,
+`tferi`, `kiev`, `kiev-knezligi`, `rus-knezlikleri` — 9 slug) **HEPSİ 302
+(ölü).** TDV bu coğrafyayı gerçekten kapsamıyor, uyarınız doğru çıktı.
+Üçü de `ermenistan` emsaliyle AÇIKÇA "BULUNAMADI (TDV'de)" işaretlendi,
+standart akademik kaynağa (yaygın kabul gören tarihler) dayanıldı:
+
+```
+novgorod   1136-01-01 → 1478-01-15   (III. İvan, veçe çanını indirdi)
+pskov      1348-01-01 → 1510-01-13   (III. Vasili, veçe çanını indirdi)
+tver       1246-01-01 → 1485-09-12   (III. İvan'ın kuşatması, son knez Litvanya'ya kaçtı)
+```
+
+`moskova` ve `ryazan`a dokunulmadı (talimat böyleydi — renksiz ama zaten
+yazılı, RENK 2'nin işi). Doğrulandı (`node -e eval`): 342 kayıt, mükerrer
+id 0, ters/sıfır dönem 0.
+
+### ② Geçici Hükûmet boşluğu (1917-03-15 → 1917-11-07) — ÖLÇÜLDÜ, ÖNERİLDİ, YAZILMADI
+
+Ölçüm (`girdi.yukle()`): bu 8 aylık pencereyi kesen **233 `rusya`-etiketli
+dönem** var (hepsi `rusya`nın kendi `t:`sinden (1917-03-15) sonraya taşıp
+1918-1923 arası bir tarihte bitiyor — yani bu 233, daha önce ölçtüğüm
+"rusya arka boşluğu"nun (242 kayıt) neredeyse tamamıyla aynı küme, sadece
+bu 8 aylık dilimi de kapsıyor). TDV'de Geçici Hükûmet'e (`gecici-hukumet`,
+`kerenski`, `subat-devrimi`, `rus-inkilabi` — dördü de 302) dair MÜSTAKİL
+bir madde yok; `rusya` genel maddesi Şubat/Ekim devrimlerini ayrıntılı
+tarihsiz, tek bir anlatı akışı içinde veriyor.
+
+**İki seçenek, KARAR VERMİYORUM:**
+
+**(a) Yeni künye** — `gecici-hukumet-rusya` (veya benzeri), f:1917-03-15
+(Nikolay II'nin tahttan çekilmesi) → t:1917-11-07 (sovyet-rusya'nın f'i).
+Artı: tarihsel olarak GERÇEK bir rejim (Kerenski hükûmeti, çarlık değil ama
+henüz Sovyet de değil) — üç aylık `ermenistan`/`azerbaycan`/`gurcistan`
+partisiyle aynı hassasiyet düzeyi. Eksi: TDV hiç kapsamıyor, künye
+"standart akademik" damgasıyla dizine bir tane daha kısa ömürlü geçiş
+rejimi ekler.
+
+**(b) `sovyet-rusya`nın `f:`i geriye çekilir** (1917-11-07 → 1917-03-15).
+Artı: tek künye, daha basit; zaten `sovyet-rusya`nın kendi kronolojisinde
+"1917-11-07 kurulus" satırı zaten Ekim İhtilali'ni ayrı bir OLAY olarak
+taşıyor — künyenin `f:`i geriye çekilse bile bu satır olduğu gibi kalıp
+"Ekim İhtilali" gerçek tarihiyle görünmeye devam eder (bilgi kaybolmaz).
+Eksi: Şubat-Ekim arası "Sovyet" değildi (Bolşevikler henüz iktidarda
+değildi), künyenin kendi `ad:`ıyla ("Sovyet Rusya / SSCB") 8 aylık
+Kerenski dönemini kapsamak tarihsel olarak yanıltıcı olabilir.
+
+Şahsi gözlemim (karar değil): (b) bu partinin ölçeğine (8 ay, `rusya`nın
+350 yıllık ömrüne kıyasla küçük) daha uygun görünüyor — ama TDV'nin bu
+ayrımı hiç yapmaması ve künyenin kendi `ad:`ının "Sovyet" içermesi (a)'yı
+da savunulabilir kılıyor. Karar koordinatörde.
+
+`data/devletler.js` pathspec'siz bırakıldı. Koordinatöre haber verildi.
