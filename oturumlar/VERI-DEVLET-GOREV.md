@@ -1261,3 +1261,81 @@ id 0, ters/sıfır dönem 0. Her iki yeni künyede `kaynak:` alanı dolduruldu
 
 `data/devletler.js` pathspec'siz bırakıldı. Koordinatöre haber verildi —
 `sadi` bitince ayrıca vurgulandı, RENK 2 bekliyor.
+
+---
+
+## ㉓ Üç ölçüm ağırlıklı iş — sibir birleştirme, mükerrer tarama, ainu, kaynak: maliyeti
+
+### ① `sibir` ↔ `sibir-hanligi` BİRLEŞTİRİLDİ (382 → 381)
+
+`sibir` kaldırıldı, `sibir-hanligi` tutuldu (zaten `harita:`/`kaynak:` ile
+bağlıydı). TDV `sibir-hanligi` maddesi kesin gün vermiyor ("Sibirya
+topraklarının tam fethi 1593-1604 arasında tamamlandı" diyor), ama
+tutulan kaydın `t:"1598-08-20"`si bu aralığın içinde — standart akademik
+kaynaktaki bilinen tarih (Ob Nehri Savaşı) ile tutarlı, DEĞİŞTİRİLMEDİ.
+`sibir-hanligi`nin ozetine birleştirme notu düşüldü. `[[sibir]]` çapraz
+referansı taranıp hiç kullanılmadığı doğrulandı (kırık link riski yok).
+
+### ① TAM MÜKERRER TARAMASI — dört ayrı yöntemle, SIFIR yeni vaka
+
+```
+A) Aynı ad: farklı id:                                    0 çift
+B) id: iç içe geçen (biri digerinin on-eki) çiftler       15 çift — HEPSİ
+   incelendi, HEPSİ meşru ardışık-dönem/iç-içe-koloni
+   zinciri (macaristan→habsburg→naiplik, fransa→
+   fransa-cumhuriyet, umman→umman-zengibar, vb.) —
+   MÜKERRER DEĞİL
+C) harita:'siz kayıt + yakın f/t + ortak ad kelimesi
+   taşıyan harita:'lı bir eş                                0 çift
+D) Tam aynı f: VE t: (aynı bölge)                          4 grup — hepsi
+   TESADÜFİ (atlas-penceresi konvansiyonunu paylaşan
+   gerçekten FARKLI devletler, ör. `surakarta`/`yogyakarta`
+   aynı gün Giyanti Antlaşması'yla doğan iki AYRI devlet)
+```
+**Sonuç: `sibir`in dışında BAŞKA mükerrer künye çifti YOK.** Dört yöntem de
+sıfır ek vaka verdi; B ve D yöntemlerinin bulduğu 19 "aday" tek tek
+incelendi, hiçbiri gerçek mükerrer değildi.
+
+### ② `ainu` — KASITLI BOŞLUK, künye yazılmadı
+
+`d:"ainu"` yalnız `Matsumae` ve `Hakodate`de geçiyor (Hokkaido/Ezo), ikisi
+de `1281-01-01 → 1550-01-01`. `japonya` diye tek bir künye YOK — ana
+kara Japonya'sı zincir hâlinde bağlı: `kamakura` (1185-1333, harita ✓) →
+`kenmu` (1333-1336) → `muromachi` (1336-1573, harita ✓) → ... Bu zincir
+1281-1550'yi TAM kapsıyor ama **yalnız ana kara (Honşu) için** — Hokkaido
+tarihsel olarak bu şogunlukların YÖNETİMİNDE DEĞİLDİ. Matsumae klanının
+Hokkaido'da ticarî/idarî varlığı ancak 16. yüzyıl sonunda (Toyotomi
+Hideyoshi'nin 1590'larda tanımasıyla) başlıyor — tam da `ainu` penceresinin
+BİTTİĞİ (1550) tarihe yakın. **Hüküm: `1281-1550` arası Hokkaido hiçbir
+devletin toprağı değildi — bu KASITLI BOŞLUK, hata değil.** Künye
+yazılmadı, `yerlesimler_*.js`e dokunulmadı (talimat böyleydi).
+
+### ③ `kaynak:` alanı geriye dönük maliyet ölçümü — 339/342 boş, 38'i BEDAVA
+
+343 tabanı (bugünün 39 yeni kaydı — 37'lik parti + `sadi`/`kasim` —
+çıkarılarak) rekonstrükte edildi: 342 kayıt (fark 1: `sibir` bu turda
+kaldırıldı, orijinal 343'te vardı ve o da boştu). **339 kayıtta `kaynak:`
+alanı BOŞ** (koordinatörün "340" sayısıyla ±1 uyumlu).
+
+`data/olaylar*.js`deki doğrulanmış `kaynak:` slug kümesi ölçüldü: **521
+benzersiz slug.** Bu kümeye karşı 339 boş kaydı iki yoldan test ettim: (a)
+ozet metnindeki "madde: X" ifadesi bu kümede mi, (b) kaydın kendi `id:`si
+bu kümede mi (birebir çakışma).
+
+**Sonuç: 339'un 38'i (%11) BEDAVA türetilebilir** — zaten ozette adı geçen
+ya da id'siyle birebir örtüşen bir slug `olaylar*.js`de doğrulanmış hâlde
+duruyor, yalnız `kaynak:` alanına KOPYALANMASI yeterli (yeniden TDV taraması
+gerekmez). Örnekler: `bizans→bizans`, `memluk→memluk`, `kirim→kirim`,
+`venedik→venedik`, `muzafferi→muzafferiler`, `macaristan→macaristan`,
+`fransa→fransa`, `fransa-cumhuriyet→fransa`, `ingiltere→ingiltere`,
+`sirbistan-nemanjic→sirbistan`. **Kalan 301 kayıt (%89) için ya yeni TDV
+taraması ya da "TDV'de yok" tespiti gerekecek** — bu partinin "ucuz" kısmı
+küçük, çoğu iş hâlâ araştırma gerektiriyor.
+
+### GÜNCEL SAYIM
+
+`data/devletler.js`: 382 → **381** (`sibir` birleştirmesiyle). Doğrulandı
+(`node -e eval`): mükerrer id 0, ters/sıfır dönem 0. Üç iş de ölçüm
+ağırlıklıydı, yalnız `sibir` birleştirmesi gerçek bir düzenlemeydi (silme).
+
+`data/devletler.js` pathspec'siz bırakıldı. Koordinatöre haber verildi.
