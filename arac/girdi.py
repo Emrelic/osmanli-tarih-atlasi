@@ -354,6 +354,13 @@ GIRDI_DOSYALARI = [
     "yerlesimler_h2_afrika.js",
     "yerlesimler_h2_rusya.js",
     "yerlesimler_h2_kuzeyafrika.js",
+    # ── GÜNEYDOĞU ASYA · 8 Ağustos 2026 ─────────────────────────────
+    # Emre: "yerleşim katmanını tüm dünyayı olabildiğince hızlı
+    # doldurmalıyız." Pencere içindeki EN SEYREK bölge: 11 alt kutuda
+    # 76 nokta / ~23,3 mn km² ⇒ yoğunluk 3,3 (Anadolu 130,1).
+    # 🔴 Bu satır BOŞ DOSYA açılırken kondu — dün öğrenilen "üç yer"
+    # kuralı: bağlanmamış dosya YAZILMAMIŞ dosyadır.
+    "yerlesimler_gdasya.js",
     # ── ESTONYA · 7 Agustos 2026 ────────────────────────────────────
     # ek11 Tallinn (Reval) · Narva · Tartu (Dorpat) · Parnu, 4 nokta.
     # PARTI 19dan beri BEKLIYORDU ve tek engeli `estonya` rengiydi;
