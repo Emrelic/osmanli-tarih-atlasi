@@ -245,3 +245,26 @@ Yeni Gine güney  banda-adalari → SAHİPSİZ/avustralya (tarihe göre, Port
 
 Üç ölçülmüş yanlış-sahip bölgesinin ÜÇÜ de kapatıldı. `data/
 yerlesimler_emilme.js` üretim koşusuna hazır.
+
+## 🏁 KOORDİNATÖR ONAYI — bağımsız doğrulama
+
+```
+somali            628.526 km² → 0
+banda-adalari     573.188 km² → 0
+ingiltere 1900  3.150.758 km² → belcika 1.668.527 km² (kalan fark ayrı ölçüm)
+Toplam harita deliği: 14,8 → 13,2 milyon km² (1,63 M km² kapandı)
+Açılan kırılma günü: 0 — üst üste ÜÇÜNCÜ parti (proje rekoru)
+```
+Yeni Gine kararı ("hiç nokta koyma"yı değerlendirip reddetme, sonra tek
+dolgu noktasının yetersizliğini fark edip dörde çıkarma) "partinin en iyi
+işi" diye kaydedildi.
+
+🟡 Bilgi (kusur değil): `kuba` şimdi en büyük tek emilme kalemi (619.017
+km², 1750) — Kongo iç kesimine daha çok nokta gerekiyor, sonraki bir
+kademeye not düşüldü.
+
+## ⏸️ BEKLEME MODU
+
+Üçüncü üretim koşusu koordinatör tarafından ayrıca başlatılacak (bu koşu
+32 noktayı içermiyor — kayıtlı gecikme, önceki partilerle aynı desen).
+Aktif iş yok, bekleniyor. Oturum kapanmıyor.
