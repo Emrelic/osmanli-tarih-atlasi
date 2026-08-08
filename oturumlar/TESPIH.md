@@ -2,7 +2,7 @@
 
 > 🤖 **BU DOSYA ÜRETİLİR — ELLE DÜZENLEME.**
 > Kaynak: `oturumlar/tespih.json` · üretici: `ClaudEmre/kutu/tespih.py`
-> Son güncelleme: **2026-08-08T15:40**
+> Son güncelleme: **2026-08-08T15:44**
 >
 > Sıralama ölçütü **`FAYDA ÷ EMEK`** — önem yüksek + irilik düşük önce.
 > Üç öncelik kuralı: **① darboğaz · ② tekrar eden madde · ③ yakınlık**
@@ -14,7 +14,7 @@
 | 🔬 | **sistem analizi** | biz ölçüp eksik/yanlış bulduk, Emre onayladı | 12 |
 | 💬 | **Emre — oturumdan** | iş sürerken aklına gelip pencereye yazdı | 32 |
 | 📦 | **Emre — paket** | toplu hâlde gönderdiği hatalar/fikirler | 1 |
-| 🔧 | **oturum önerisi** | işçi oturum bildirdi ya da istişareden çıktı | 35 |
+| 🔧 | **oturum önerisi** | işçi oturum bildirdi ya da istişareden çıktı | 40 |
 | 👁 | **bekleyenler cevabı** | BEKLEYENLER kutusunda sorulana verdiği cevap | 3 |
 | 🌱 | **%0 — gündemde yoktu** | hiç düşünülmemişti; üreteç peydah etti | 0 |
 
@@ -28,13 +28,16 @@
 ```
 🟥 📦 T-0057 🌍 DÜNYA KATMANI — coğrafya + yerleşim, bütün dünya  (1/10)
    🟧 ✅ T-0058 Coğrafya katmanı — ÖLÇÜLDÜ, pencerede TAM
-   🟧 ⏳ T-0059 GD Asya noktaları 97→480  (6/6)
+   🟧 ⏳ T-0059 GD Asya noktaları 97→480  (9/9)
       🟦 ✅ T-0071 Birmanya noktaları — GD Asya alt bölgesi
       🟦 ✅ T-0074 Siyam noktaları — GD Asya alt bölgesi
       🟦 ✅ T-0075 Kamboçya-Laos noktaları — GD Asya alt bölgesi
       🟦 ✅ T-0076 Vietnam noktaları — GD Asya alt bölgesi
       🟦 ✅ T-0077 Malaya noktaları — GD Asya alt bölgesi
       🟦 ✅ T-0078 Sumatra noktaları (kısmî) — GD Asya alt bölgesi
+      🟦 ✅ T-0084 Java noktaları — GD Asya alt bölgesi
+      🟦 ✅ T-0085 Borneo noktaları (kısmî) — GD Asya alt bölgesi
+      🟦 ✅ T-0086 Sulawesi + Filipinler + Moluk — GD Asya alt bölgesi
    🟧 🔵 T-0060 Doğu Asya noktaları 171→?
    🟧 🔵 T-0061 Güney Asya noktaları 135→?
    🟧 🔵 T-0062 Orta Asya noktaları 102→?
@@ -69,7 +72,7 @@
 | 🟧 | **metreküp** | bir çağ / bir devlet — haftalarca iş · 🔴 **YAPILMAZ, AÇILIR** | 14 |
 | 🟨 | **desimetreküp** | bir bölge / bir eksen — günlerce iş · 🔴 **YAPILMAZ, AÇILIR** | 7 |
 | 🟩 | **santimetreküp** | bir parti — saatlerce iş | 10 |
-| 🟦 | **milimetreküp** | TEK BONCUK — yapılabilir, açılamaz | 48 |
+| 🟦 | **milimetreküp** | TEK BONCUK — yapılabilir, açılamaz | 53 |
 
 ---
 
@@ -84,16 +87,17 @@
 
 ---
 
-## ⏳ PARMAKTA — şu an sayılan boncuklar — 6
+## ⏳ PARMAKTA — şu an sayılan boncuklar — 7
 
 | # | iş | kanal | sahip | niçin bu sırada |
 |---|---|---|---|---|
 | T-0022 | TESPİH v2 — üç hâl · altı kanal · üç damga · kutuda sekme | 🟦 💬 | KOORDİNATÖR | Emre: 'fırlayıp giden mermi nereye gitti belli değil' — bekleyen/yapılan/biten görünür olacak |
-| T-0059 | GD Asya noktaları 97→480  ↳ `T-0057` | 🟧 💬 | VERİ DEVLET | pencere içindeki EN SEYREK yer: 3,3 · 23,3 mn km² · hedef ~580 nokta. İLERLEME: Birmanya 9 · Siyam 8 · Kamboçya-Laos 6 · Vietnam 5 = 28 nokta, AÇILAN KIRILMA GÜNÜ SIFIR |
+| T-0059 | GD Asya noktaları 97→480  ↳ `T-0057` | 🟧 💬 | VERİ DEVLET | pencere içindeki EN SEYREK yer. İLERLEME: 50 nokta · yoğunluk 3,3 → 5,41 · 11 alt bölgenin 11'i işlendi · AÇILAN KIRILMA GÜNÜ TOPLAMI: SIFIR |
 | T-0073 | ace ↔ malaka aynı hex — Malaka Boğazı'nın iki yakası | 🟦 🔧 | RENK 2 | ΔE 0,00 (AYNI HEX #2d8f4a) · 855 km · künyeler 1496-1511 örtüşüyor. 🔴 DÜNKÜ tarama GÖRMEDİ çünkü VERİ penceresine bakıyordu; bu matris KÜNYE penceresine baktı. malaka → #0f18a5 |
 | T-0069 | renk_olc'a İKİNCİ ÇİFT KURUCU — 600 km + eşzamanlılık | 🟩 🔧 | RENK 2 | Aynı körlük ÜÇ coğrafyada çıktı (Afrika Boynuzu · Fas · GD Asya) ve hiçbir denetim görmedi. Voronoi komşuluğu SEYREK bölgede iki gövdeyi yan yana görmüyor. Bugün 179 çift kurulur, biri İHLALDİ. ŞART: C13 iki yönde sınama · 600 km eşiğinin gerekçesi yazılı · İHLAL ile SINIRDA ayrı raporlansın (biri çıkış kodunu etkiler, öteki etmez) |
 | T-0079 | Doğu Sumatra dört kimlik — Jambi · Deli · Siak · Indragiri | 🟦 🔧 | NOKTA GDASYA | NOKTA GDASYA bildirdi: 55lik envanterde uygun kimlik YOK, hepsi zorlama olur. KARAR: devletler.js geçici olarak ona geri verildi (sahipsizdi, 45 künyeyi bugün o yazdı). Toplu mu ayrı mı — TDV karar versin (emsal: malay-sultanliklari toplu künyesi). 1281-1600 arası için kasitli_bosluk da meşru bir cevap. |
 | T-0081 | renk_olc ikinci çift kurucu — kademeli mesafe + künye penceresi | 🟩 🔧 | RENK 2 | KARAR: tavan 72 (2168 nokta damgalı, verinin fonksiyonu) · çıkış kodu '>72'ye DEĞİL, 'var olan çift eşiğin altına düştü'ye bağlanacak — renk_fark'ın doğan/ölen ayrımı kullanılarak. Böylece nokta kampanyası tavanı kaydırdıkça SAHTE ateşleme olmaz, gerçek renk regresyonu yakalanır. |
+| T-0087 | Beş kimlik boşluğu — Pontianak · Kutai · Bone · Palu · Kendari | 🟦 🔧 | NOKTA GDASYA | dogu-sumatra-sultanliklari yönteminin aynısı: §4 ile slug sına, genel madde dene, TDV toplu görüyorsa TOPLU künye. Öneri (bağlayıcı değil): borneo-sultanliklari · bugis-kralliklari (Tellumpoccoe — gova-makassar'dan AYRI, çünkü RAKİPTİLER) |
 
 ---
 
@@ -153,10 +157,14 @@
 
 ---
 
-## ✅ SAYILAN — öbür uca dizilmiş boncuklar — 31
+## ✅ SAYILAN — öbür uca dizilmiş boncuklar — 35
 
 | # | iş | kanal | ölçüm | bitti |
 |---|---|---|---|---|
+| T-0084 | Java noktaları — GD Asya alt bölgesi | 🔧 | 5 nokta · `kediri` künyesi GEREKMEDİ (1222'de yenildi, atlas 1281'de başlıyor — pencere kontrol edildi) · sıfır borç | 2026-08-08 |
+| T-0085 | Borneo noktaları (kısmî) — GD Asya alt bölgesi | 🔧 | 2 nokta · Pontianak/Kutai için uygun kimlik YOK, yazılmadı · sıfır borç | 2026-08-08 |
+| T-0086 | Sulawesi + Filipinler + Moluk — GD Asya alt bölgesi | 🔧 | 8 nokta · 🔴 Bone için `gova-makassar` KULLANILMADI: Bone Gova'nın TARİHÎ RAKİBİYDİ, Makassar Savaşı'nda Hollanda'yla ittifak kurdu — en yakın kimliği vermek §3.5.1 ihlali olurdu · sıfır borç | 2026-08-08 |
+| T-0088 | Beş canlı renk çakışması — nokta inince DOĞDULAR | 🔧 | ÇAKIŞAN 0 → 5 → 0 · dört yazım (malaka·banten·san-fan·palembang) · her çiftin AZ KOMŞULU ucu taşındı · yeni ΔE 19,48-38,37. 🔴 RENK 2'nin öngörüsü ÖLÇÜLDÜ: künye penceresiyle görünen çift, nokta inince GERÇEK Voronoi çakışmasına dönüştü | 2026-08-08 |
 | T-0082 | `dogu-sumatra-sultanliklari` künyesi — Jambi · Siak · Deli · Indragiri | 🔧 | 381 → 382 künye · TOPLU künye seçildi (malay-sultanliklari emsali) · f=1615 (Jambi, en erken) t=1858 (Korte Verklaring, YIL BEYANI) · dört slug da 302 ÖLÜ, iki genel madde CANLI ama isimsiz/tarihsiz ⇒ kaynak:'bulunamadı — arandı, yok' | 2026-08-08 |
 | T-0077 | Malaya noktaları — GD Asya alt bölgesi | 🔧 | 4 nokta · kutu çakışması düzeltildi (Johor/KL/Malaka/Penang zaten canlıymış, Sumatra etiketine düşmüş) · sıfır borç | 2026-08-08 |
 | T-0078 | Sumatra noktaları (kısmî) — GD Asya alt bölgesi | 🔧 | 3 nokta · Barus öz-düzeltmesi: künye t=1903 ile hizalandı · sıfır borç · 🔴 dört kimlik boşluğu bildirildi | 2026-08-08 |
