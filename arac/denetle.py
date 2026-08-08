@@ -135,7 +135,11 @@ BEKLENEN_YERLESIM = 968
 # Ve yedi kimlik (silluk · zende · vaday · avsa · mecerteyn · hobyo ·
 # tuncur) ne renkli ne kunyeli oldugu icin o noktalar KASTEN bos
 # birakildi -- 'en yakin komsuyla boyamak' §3.5.1 ihlali olurdu.
-BEKLENEN_SAHIPSIZ = 170
+# 🔴 8 Agustos 2026: 170 -> 172. Matsumae ve Hakodate'nin 1281-1550
+# `ainu` donemi KALDIRILDI -- eksik olan kunye degil, FAZLA OLAN BOYAYDI.
+# Zincir borcu sayaci kunye yazilarak da sifirlanir, boya kaldirilarak
+# da; ikisi denetimde AYNI gorunur, haritada ZIT sey yapar.
+BEKLENEN_SAHIPSIZ = 172
 # 427 -> 432: Kirmanşah 1590-1603 (+2), Tarki tâbiiyeti (+2, mevcut günlere
 # oturdu), Kaheti tâbiiyeti (+2), Şirvan ara şehirleri (+0, mevcut günler),
 # Azak'ın 1637-1642 Kazak işgali (+2), Şehrizor 1554-01-01 -> 1554-08-22 (+0).

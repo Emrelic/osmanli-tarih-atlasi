@@ -2879,8 +2879,8 @@ window.YERLESIMLER_ASYA = [
 // 1550 civarında Ainu reisleriyle antlaşma yaparak yerleşti, 1604'te
 // Tokugawa beratını aldı.
 { ad:"Matsumae", tur:"kale", lat:41.4280, lon:140.1120, g:0, k:0, d:[],
-  s:[{f:"1281-01-01", t:"1550-01-01", d:"ainu"},
-     {f:"1550-01-01", t:"1573-01-01", d:"muromachi"},
+  kasitli_bosluk:true, neden:"Hokkaido/Ezo 1281-1550 arasinda hicbir devletin idari topragi degildi; anakara sogunluklari (Kamakura-Kenmu-Muromachi) Honsu'yla sinirliydi ve Matsumae klaninin buradaki varligi ancak 1590'larda basliyor. `ainu` diye boyamak var olmayan bir DEVLET uydurmakti (VERI DEVLET olcumu)",
+  s:[{f:"1550-01-01", t:"1573-01-01", d:"muromachi"},
      {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
@@ -2888,8 +2888,8 @@ window.YERLESIMLER_ASYA = [
 // Hakodate — 1854 Kanagawa Antlaşması'yla yabancı gemilere açılan iki
 // limandan biri; Matsumae'ye 55 km.
 { ad:"Hakodate", tur:"liman", lat:41.7690, lon:140.7290, g:1, k:0, d:[],
-  s:[{f:"1281-01-01", t:"1550-01-01", d:"ainu"},
-     {f:"1550-01-01", t:"1573-01-01", d:"muromachi"},
+  kasitli_bosluk:true, neden:"Hokkaido/Ezo 1281-1550 arasinda hicbir devletin idari topragi degildi; anakara sogunluklari (Kamakura-Kenmu-Muromachi) Honsu'yla sinirliydi ve Matsumae klaninin buradaki varligi ancak 1590'larda basliyor. `ainu` diye boyamak var olmayan bir DEVLET uydurmakti (VERI DEVLET olcumu)",
+  s:[{f:"1550-01-01", t:"1573-01-01", d:"muromachi"},
      {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
