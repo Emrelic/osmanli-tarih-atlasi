@@ -107,3 +107,14 @@ Değişmez 1 ✓ 180/182 · 2 ✓ 0 açık · 2s ✓ 121/121 · 2i ✓ 3/3 · ko
 
 "BULUNAMADI" SAYACI: bu partide 0 — dört adayın dördü de (iki kaynak
 sınırı içinde) doğrulandı.
+
+## PARTİ 2 — devam ediyor
+
+Bostanabad/Hashtrud (Zencan-Bîcâr üçgeni civarı) denendi: TDV sluglari
+ölü, ikinci kaynak (WebSearch) da somut Safevî/Kaçar dönemi tarihi
+VERMEDİ ("Ojan" — İlhanlı yaz başkenti — anıldı ama kaynak kendi
+kendine "citation yok, doğrulanamadı" diyor). ⇒ **BULUNAMADI**, iki
+kaynak denemesi de tutmadı, zorlamadan geçiyorum (durma kuralı).
+"BULUNAMADI" SAYACI: 2 (Bostanabad, Hashtrud).
+
+Devam: aynı üçgende ve Nahçıvan kuzeyinde birkaç aday daha deneniyor.
