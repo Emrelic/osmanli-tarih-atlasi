@@ -2384,3 +2384,91 @@ boş özet              : 0
 ```
 `data/devletler.js` pathspec'siz bırakıldı. Koordinatöre 6 çelişki + üç
 sayıyla bildirildi.
+
+## ㊱ 6 çelişkinin kararı UYGULANDI (5) + saruhan ölçüm/öneri (1, YAZILMADI)
+
+### 1-5 uygulandı
+
+```
+bulgar-carligi          t=1396 KALDI, özete 1393/1396 (Tırnova/Vidin) notu eklendi
+arnavutluk-iskenderbey  t=1479 KALDI, özete 1468 ölüm / 1479 direniş sonu notu eklendi
+girit-devleti           f DEĞİŞTİ: 1898-12-09 → 1898-12-22, özete 1897-12-18 karar
+                         tarihi notu eklendi
+naksa-dukaligi          t=1579 KALDI, özete 1537-40 tâbilik / 1579 doğrudan ilhak
+                         iki-kademe notu eklendi
+candar                  f DEĞİŞTİ: 1291-01-01 → 1309-01-01, özet yazıldı
+```
+5 özet de HANEDAN ÖMRÜ / ÜLKE SÜREKLİLİĞİ etiketli (`arnavutluk-iskenderbey`
+istisnası: koordinatörün kararınca "ülke sürekliliği, tek hanedan değil").
+
+Doğrulama: `py arac/kunye_olc.py` temiz koştu (0 boş özet), kısa künye
+sayacı bir sonraki adımda ölçülecek (aşağıda). `node` ile ters/sıfır süreli
+f-t taraması: **0**. Kayıt 381, mükerrer id 0, kaynaksız 0.
+
+### 🔴 6. saruhan — YALNIZ ÖLÇÜM + ÖNERİ, YAZILMADI
+
+Sorulan soru: "veri neden 1416-09-01 diyor, o gün hangi olay oldu?"
+
+**CEVAP — bulundu, `data/olaylar_ek5.js:61`:**
+> `{ t:"1416-09-01", k:"ayaklanma", b:"Torlak Kemal'in idamı — Saruhan kesin
+> olarak Osmanlı'nın", kaynak:"saruhanogullari", d:"Şeyh Bedreddin
+> hareketinin Batı Anadolu ayağını yürüten Torlak Kemal, Manisa yöresinde
+> yenilgiye uğratılarak idam edildi. Bu tarihten sonra Saruhan bölgesi
+> kesin olarak Osmanlı kontrolüne girdi ve 1402'de Timur'un dirilttiği
+> beylik tarihe karıştı." }
+
+Bu tek olay değil, **Saruhan'ın tüm zaman çizgisinin daha derin bir sorunu
+olduğunu ortaya çıkardı** — üç kaynak üç farklı şey ölçüyor çünkü Saruhan
+tek parça değil, İKİ AYRI DÖNEMDİR:
+
+```
+1313-1390   1. Saruhan hâkimiyeti (kuruluş → Yıldırım Bayezid'in ilhakı)
+1390-1402   ARA DÖNEM — Osmanlı doğrudan yönetimi (12 yıl)
+1402-08-17  Timur'un restorasyonu — "Saruhanoğulları yeniden kuruldu"
+            (olaylar_ek5.js:48, aynı kaynak: saruhanogullari)
+1402-1416   2. Saruhan hâkimiyeti (Timur'un dirilttiği dönem)
+1416-09-01  Torlak Kemal'in idamı — KESİN son, "1402'de dirilen beylik
+            tarihe karıştı"
+```
+`data/yerlesimler.js:163` (Manisa kaydı) bu iki-dönemli yapıyı zaten
+`s:[...]` dizisinde doğru modelliyor: `{f:"1313-01-01",t:"1390-01-01",
+d:"saruhan"}` ... `{f:"1402-08-17",t:"1416-09-01",d:"saruhan"}` — ARADA
+Osmanlı doğrudan yönetimi var.
+
+⇒ **`devletler.js`teki `saruhan` künyesi TEK f/t ÇİFTİYLE (1313→1410)
+bu iki-dönemli yapıyı hiç yakalayamıyor** — üç kaynağın üçü de aslında
+FARKLI DÖNEMLERİ ölçüyor:
+- künye t=1410: hiçbir belgelenmiş dönüm noktasına denk gelmiyor
+- TDV "1411 sonrası, 1415 öncesi": muhtemelen Çelebi Mehmed'in Fetret
+  Devri'nde Batı Anadolu'yu yeniden bağladığı SÜRECİ (1414 Konya/Karaman,
+  1415 İzmir/Aydınoğlu teslimleri — olaylar_ek5.js:59-60) tarif ediyor,
+  Saruhan'a özel kesin bir gün vermiyor
+- veri 1416-09-01: 2. dönemin KESİN, günü belgelenmiş sonu
+
+**ÖNERİM:** Eğer künye şeması tek dönem taşımaya devam edecekse, en
+sağlam seçenek **t=1416-09-01**'dir (2. dönemin belgelenmiş kesin sonu,
+zaten `kaynak:"saruhanogullari"` ile aynı maddeye dayanıyor). Ama bu,
+künyenin `f=1313`'ten `t=1416`'ya KESİNTİSİZ 103 yıl hüküm sürmüş gibi
+göstereceği anlamına gelir — hâlbuki ortada 12 yıllık bir Osmanlı arası
+var. Daha doğru çözüm künyeye de yerleşimlerdeki gibi İKİ DÖNEM
+tanıtmaktır, ama bu `devletler.js` şemasının bugün desteklediği bir yapı
+değil (şema kararı, benim değil).
+
+Veri tarafı (`yerlesimler.js`) SENİN dosyan olduğu için künyeye
+DOKUNMADIM, `saruhan`ın `ozet:`i de eski (kısa, 28 karakter) hâliyle
+kaldı. Karar bekleniyor.
+
+### Doğrulama (tüm parti)
+```
+py arac/kunye_olc.py  →  kısa künye: 18 → 14 (5 yazıldı; saruhan hâlâ kısa/
+                          dokunulmadı; eşik değeri median kaymasıyla 106'dan
+                          105'e döndü, "umman" (105) tam sınırda yeni kısa
+                          listeye girdi — dokunulmadı, sıradaki dağınık
+                          partide ele alınacak)
+kayıt sayısı        : 381
+mükerrer id           : 0
+kaynaksız kayıt        : 0
+ters/sıfır süreli f-t : 0
+```
+`data/devletler.js` pathspec'siz bırakıldı. Koordinatöre bildirildi, sonra
+kalan 12 dağınık kısa-özet künyeye geçiliyor.
