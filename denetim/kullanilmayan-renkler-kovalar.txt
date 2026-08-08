@@ -1,62 +1,67 @@
-// RENK 2 — KULLANILMAYAN RENKLERİN DÖRT KOVASI  ·  8 Ağustos 2026
-// ==================================================================
-// Sorun: BOYALAR'da veride HİÇ kullanılmayan 22 renk var ve üçü de
-// ekranda AYNI görünüyor (veride 0). Paletin bunları ayırt edecek
-// hiçbir işareti yok — 'ölçülemedi' ile 'temiz' aynı satırda.
+// RENK 2 — KULLANILMAYAN RENKLERİN KOVALARI  ·  8 Ağustos 2026  ·  v2
+// ==========================================================================
+// Sorun: BOYALAR'da veride HİÇ kullanılmayan 22 renk var ve hepsi ekranda
+// AYNI görünüyor (veride 0). Paletin bunları ayırt edecek işareti yok —
+// "ölçülemedi" ile "temiz" aynı satırda.
 //
-// Maliyet ÖLÇÜLDÜ ve ihmal edilebilir: 22/150.000 aday hex, coğrafî
-// engel DEĞİL (noktası olmayan kimlik komşu olamaz), komşuluk
-// çizgesinde 0 görünüyor. ⇒ Kaldırma gerekçesi MALİYET DEĞİL DOĞRULUK.
+// Maliyet ÖLÇÜLDÜ ve ihmal edilebilir: 22/150.000 aday hex · coğrafî engel
+// DEĞİL (noktası olmayan kimlik komşu olamaz, 600 km ölçülemez) · komşuluk
+// çizgesinde 0 görünüyor.
+// ⇒ Bir rengi kaldırma gerekçesi MALİYET DEĞİL, DOĞRULUK olabilir ancak.
+//
+// ═══ SONUÇ: BEŞ KOVA, DÖRDÜ BOŞ ═══════════════════════════════════════
+//   bekliyor-veri    22   künye VAR, taşıma sırada — SAĞLIKLI
+//   bekliyor-künye    0   BOŞ  (sanılan vaka çürüdü — aşağıda)
+//   bekliyor-madde    0   BOŞ  (sanılan vaka çürüdü — aşağıda)
+//   oksuz             0   BOŞ
+//   curutuldu         0   BOŞ  (ainu girip çıkacak)
+//
+// 🟢 VE BU BİR SONUÇTUR: 22 kullanılmayan rengin 22'si de MEŞRU olarak
+//    bekliyor. Hiçbiri öksüz, hiçbiri hatalı. `ainu` tek istisnaydı ve o
+//    da BOYALAR'dan çıkıyor.
+// ⚠️ BOŞ KOVALAR SİLİNMEZ: bir daha çürütülen/öksüz çıkarsa
+//    KALDIRILMADAN ÖNCE işaretlensin. Boş kova, olmayan kovadan farklıdır.
 
-// ── KOVA 1: bekliyor-veri — künye VAR, taşıma sırada (21) ────────
-//   Bunlar SAĞLIKLI: zincirin son halkası eksik.
+// ── KOVA 1: bekliyor-veri (22) ────────────────────────────────────────
+//   azerbaycan-demokratik-cumhuriyeti · bahreyn · bonacolsi ·
+//   ermenistan-demokratik-cumhuriyeti · evfat · floransa · galzay ·
+//   gurcistan-demokratik-cumhuriyeti · imereti · incu · irlanda-serbest-devlet ·
+//   kavalali · kutlughanli · litvanya-buyuk-dukalik · lur-i-kucek ·
+//   makdisu-sultanligi · muzafferi · poni · rusya-gecici-hukumet · sanzan ·
+//   savoya · sovyet-rusya
+//
+//   🟢 VERİ DEVLET 21'İNİ TEK TEK DOĞRULADI (kavalali hariç, o ayrıca):
+//      21'in 21'i de GERÇEK — 9'u TDV-canlı, 12'si akademik kaynak.
+//      En zayıf ikili poni · bonacolsi (gerçek, daha az merkezî belgeli).
+//      ⇒ `ainu` tipi risk SIFIR. "İçlerinden biri hiç var olmamış olabilir"
+//        endişesi ölçüldü ve çıkmadı.
+//      📌 Bu aramanın NEGATİF sonucu: 21 kalemi doğrulamak, birini
+//         çürütmekten uzun sürdü ve "hepsi sağlam" çıktı. Kayıp değil —
+//         22 taşıma partisinin önündeki şüphe kalktı.
 
-//   azerbaycan-demokratik-cumhuriyeti  #eacf75  1918-05-28→1920-04-27
-//   bahreyn                            #4a48be  1783-01-01→1923-10-29
-//   bonacolsi                          #421542  1273-01-01→1328-08-16
-//   ermenistan-demokratik-cumhuriyeti  #1221ae  1918-05-28→1920-12-02
-//   evfat                              #2ad8ba  1285-01-01→1415-01-01
-//   floransa                           #deabd8  1115-01-01→1532-01-01
-//   galzay                             #72c978  1709-04-21→1738-01-01
-//   gurcistan-demokratik-cumhuriyeti   #90eab1  1918-05-26→1921-03-16
-//   imereti                            #deea90  1490-01-01→1810-02-20
-//   incu                               #75c0db  1325-01-01→1357-01-01
-//   irlanda-serbest-devlet             #ea8751  1922-12-06→1923-10-29
-//   kutlughanli                        #513921  1222-01-01→1306-01-01
-//   litvanya-buyuk-dukalik             #120f9c  1253-07-06→1569-07-01
-//   lur-i-kucek                        #246f90  1184-01-01→1597-01-01
-//   makdisu-sultanligi                 #cf69a8  1281-01-01→1500-01-01
-//   muzafferi                          #2154db  1318-01-01→1393-01-01
-//   poni                               #1ee7ea  977-01-01→1405-01-01
-//   rusya-gecici-hukumet               #12397e  1917-03-15→1917-11-07
-//   sanzan                             #1884e7  1322-01-01→1429-01-01
-//   savoya                             #12129f  1032-01-01→1720-08-02
-//   sovyet-rusya                       #33eddb  1917-11-07→1923-10-29
+// ── ÇÜRÜYEN İKİ SINIFLANDIRMA — kayda geçsin ──────────────────────────
+//
+// ① `kavalali` "bekliyor-madde" sanıldı → ÇÜRÜDÜ
+//    İddia: "1840 istirdat maddesi YOK, engel kronolojide."
+//    ÖLÇÜM: madde VAR — olaylar_ek4.js:257 (1840-11-03 Akkâ düştü) ve
+//           :265 (1841-02-25 Mısır ordusu Suriye'yi boşalttı).
+//
+// ② `kavalali` "öksüz / künye yok" sanıldı → ÇÜRÜDÜ
+//    ÖLÇÜM: künye VAR ama başka id'de → id:"misir-kavalali",
+//           ad:"Mısır Kavalalı Hanedanı", 1805-07-03 → 1914-12-18,
+//           `kaynak:` dolu, tâbilik modellenmiş.
+//           Eksik olan tek şey `harita:"kavalali"` bağıydı; bugün eklendi.
+//
+// 🔴 VE ÜÇÜNCÜ KEZ AYNI ALAN: bugün `harita:` üç ayrı biçimde yanılttı.
+//      kaffa · cimma · vollayta · sidamo   künye VAR, id'den bakılınca yok
+//      merini                              künye VAR, harita: BAŞKA anahtarda
+//      misir-kavalali                      künye VAR, harita: HİÇ YOK
+//    📌 `harita:` alanı bir kimliğin VAR OLUP OLMADIĞINI değil,
+//       BULUNUP BULUNAMAYACAĞINI belirliyor. Üçünde de "yok" sanıldı.
 
-// ── KOVA 2: bekliyor-madde — engel KRONOLOJİDE ──────────────────
-//   ⚠️ BU KOVA ÖLÇÜLEMEDİ. Koordinatör `kavalali` için TESPIH.md'de
-//      'Kavalalı Suriye 1832-40 · 1840 istirdat maddesi YOK' kaydı
-//      olduğunu söyledi; ARADIM, TESPIH.md'de `kavalali` GEÇMİYOR.
-//      Satır 23'te '12 iddia kusuru' içinde '1833 Kütahya' var, ama
-//      1840 istirdat kaydı yok. ⇒ Sınıflandırma DOĞRULANAMADI;
-//      kaynağı gösterilene kadar `kavalali` kova 3'te duruyor.
-
-// ── KOVA 3: öksüz — künye YOK, kimse istemiyor (1) ─────────────
-
-//   kavalali                           #00acc1   [hex paylaşımlı: turkmen, delhi-sultanligi, ingiliz-hindistani, ingiliz-malaya]
-//   📌 `kavalali` #00acc1 ÖKSÜZ AMA HEX'İ PAYLAŞIMLI (turkmen ·
-//      delhi-sultanligi · ingiliz-hindistani · ingiliz-malaya).
-//      Kaldırılırsa beyan güncellenmeli; `#00acc1` grubu 5 → 4.
-
-// ── KOVA 4: çürütüldü — var olmadığı ÖLÇÜLDÜ (0) ───────────────
-//   BUGÜN BOŞ — `ainu` buraya girip ÇIKACAK (renk kaldırılıyor).
-//   ⚠️ Kova BOŞ KALSIN: bir daha çürütülen çıkarsa KALDIRILMADAN
-//      ÖNCE işaretlensin. Boş kova, olmayan kovadan farklıdır.
-
-// ── AYRICA: ainu ──────────────────────────────────────────────
+// ── AYRICA: ainu ──────────────────────────────────────────────────────
 //   renk #1b8ae4 · künye YOK · veride 2 dönem (Matsumae · Hakodate)
-//   VERİ DEVLET ölçtü: Matsumae 1590'larda başlıyor, pencere
-//   1281-1550 ⇒ o pencerede öyle bir devlet YOK. İki kayıt
-//   `kasitli_bosluk` olacak, sonra renk kaldırılacak.
-//   📌 Sıra ÖNEMLİ: önce veri, sonra renk. Tersi olursa iki dönem
-//      RENKSİZ KİMLİK taşır ve harita DELİK verir (§8).
+//   VERİ DEVLET: Matsumae 1590'larda başlıyor, pencere 1281-1550 ⇒ o
+//   pencerede öyle bir devlet YOK. Eksik olan künye değil, FAZLA olan boya.
+//   📌 SIRA ŞART: ① iki kayıt `kasitli_bosluk` → ② renk kaldırılır.
+//      Tersi olursa iki dönem RENKSİZ KİMLİK taşır ve harita DELİK verir (§8).
