@@ -1099,6 +1099,44 @@ Notlar:
   **geçme yolu** olur, ki o daha sinsidir: denetim gürültülü çalışır ama
   **temiz veriyi de kirli sayıyor** olabilir.
 
+- 🔴 **YUVARLAK TARİH YALNIZ YANLIŞ DEĞİLDİR — ÇELİŞKİYİ DE SAKLAR.**
+
+  **Vaka (8 Ağustos 2026).** Koordinatör `serbedariler` künyesine
+  `f:"1337-01-01"` yazdı (yuvarlak yıl). NOKTA KALİTE-4 TDV'den **tam
+  günü** getirdi: *"12 Safer 738 / **9 Eylül 1337**"*. Düzeltildi — **ve
+  düzeltilince gizli bir tutarsızlık GÖRÜNÜR OLDU:**
+  ```
+  veride serbedari adayı dönem   f:1335-12-01 → t:1381-01-01  (19 nokta)
+  künye                          f:1337-09-09
+  ⇒ 1335-12-01 → 1337-09-09 arası 21 AY SAHİPSİZ kalırdı
+  ```
+  Yuvarlak `1337-01-01` bu boşluğu **iki ay**a indiriyor ve gözden
+  kaçırıyordu; tam gün onu **21 aya** çıkarıp `Değişmez 1b`nin menziline
+  soktu.
+  ⇒ ***Hassasiyet yalnız doğruluk değil, GÖRÜNÜRLÜK meselesidir.***
+
+  🔴 **Ve asıl bulgu: `1335-12-01` hiçbir ardılın gerçek başlangıcı değil.**
+  Tarihin niçin seçildiği belli — **Ebû Saîd 30 Kasım 1335'te öldü**,
+  İlhanlı fiilen bitti. Toplu yazımı yapan *"İlhanlı bitti, sırada İran
+  var"* demiş. Ama ardılların hiçbiri o gün başlamıyor:
+  ```
+  serbedariler  1337-09-09   21 ay SONRA
+  celayirli     1340-01-01    4 yıl SONRA
+  muzafferi     1318-01-01   ← ÖNCE (İlhanlı tâbiiyetinde)
+  kert          1245-01-01   ← ÇOK önce
+  ```
+  ⇒ 1335-1340 arası İran'da bir **FETRET** var ve veri onu ifade etmiyor.
+  `OGRENILENLER §72`nin tam vakası: `Değişmez 1` *"kimsenin değildi"*
+  diyemediği için boşluk bir kimliğe itilmiş — bu sefer `iran`a.
+  📌 Bir devletin **sonu** ile ardılının **başlangıcı** arasındaki boşluk,
+  veri modelinde ifade edilemediği için **en yakın kimliğe yapışıyor.**
+  Osmanlı Fetret devri (1402-1413) bu projede ayrı künyelerle çözülmüştü;
+  İran'ın fetreti çözülmemiş.
+
+  ⚠️ Ve takas **YAPILMADI**: 21 aylık deliği kapatmadan yapmak, bir hayaleti
+  kapatıp bir delik açmak olurdu. `§3.5.1`: *bir sınır kayması önerildiğinde
+  İKİ UÇ DA ölçülür.*
+
 - 🔴 **ÖLÇEMEDİĞİNİ ELEYEN BİR SÜZGEÇ, ONU TEMİZ SAYAR.**
 
   **Vaka (8 Ağustos 2026, RENK 2 — ve öngörüsü bunu ORTAYA ÇIKARDI).**

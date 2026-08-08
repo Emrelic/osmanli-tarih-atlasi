@@ -548,7 +548,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"serbedariler", ad:"Serbedârîler", tur:"hanedanlik", bolge:"iran",
-  f:"1337-01-01", t:"1386-01-01", baskent:"Sebzevâr",
+  f:"1337-09-09", t:"1386-01-01", baskent:"Sebzevâr",
   ozet:"İlhanlı çözülüşünün ardından Horasan'ın Beyhak bölgesinde kurulan Şiî hânedan; Sebzevâr merkezli, dervişî-mehdici bir hareketten doğdu ve Timur'un Horasan seferiyle son buldu.",
   kaynak:"serbedariler",
   kronoloji:[
