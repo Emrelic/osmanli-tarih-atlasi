@@ -1,0 +1,16 @@
+{
+ "tur": 3,
+ "taban_nokta": 2293,
+ "taban_kimlik": 323,
+ "1_eski_renkle_cizili": 0,
+ "1_gerekce": "Koşu, şu anki paleti (323) okuyacak ve o palet çıktıya pişecek. Koşu SIRASINDA renkler.py'ye YAZMAYACAĞIM — girdi kilidi. ⇒ tek bir 'ESKİ renkle' satırı bile çıkmamalı. Çıkarsa: ya kilidi ben deldim, ya V1 yanlış.",
+ "2_govdesiz_kimlik": 22,
+ "2_gerekce": "BOYALAR'da olup veride dönemi olmayan kimlikler. Bu sayı bugünkü 22'den bu tura kaç renk yazıldığına göre değişir; ölçülen taban yukarıda.",
+ "3_kosuda_delik": 0,
+ "3_gerekce": "Altı deliğin (svahili · umman-zengibar · kongo · lunda · ndongo · avustralya) rengi YAZILDI. Bu koşu onları taşıyacak ⇒ delik SIFIR olmalı. Sıfır değilse: renksiz bir kimlik daha doğmuş (NOKTA EMİLME yeni kimlik yazmış) ya da `§8` varsayımı (V2) yanlış.",
+ "4_yeni_voronoi_cakismasi": 0,
+ "4_gerekce": "🔴 KENDİ YÖNTEMİMİN SINAVI. 32 yeni nokta yeni komşuluk doğuracak. Renkleri seçerken engel kümesini 1500 km ile kurdum — yani BUGÜNKÜ komşuluğa değil YARINKİNE göre. Doğruysa yeni çakışma doğmamalı. DOĞARSA 1500 km yetmiyor demektir ve eşiği ölçüp büyütmem gerekir. Bu öngörü yanlış çıkarsa kazanç, doğru çıkmasından büyük.",
+ "5_yakin_ama_degmeyen": 7,
+ "5_gerekce": "Bugün 7. Nokta inince İKİ YÖNE de gidebilir: yeni nokta hücreleri küçültür ⇒ bazı çiftler 600 km'nin DIŞINA çıkar (azalır); ama yeni komşuluk da doğar (artar). Hangisinin baskın olduğunu BİLMİYORUM ve tahmin etmiyorum — ÖLÇÜLECEK.",
+ "not": "KİLİT BAŞLAMADAN yazıldı. Ölçüm buna göre AYARLANAMAZ. ④ yanlış çıkarsa varsayım benim 1500 km seçimimdir."
+}
