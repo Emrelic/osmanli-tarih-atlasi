@@ -284,10 +284,15 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
     s:[{f:"1281-01-01",t:"1901-02-21",d:"fas"},
        {f:"1901-02-21",t:"1923-10-29",d:"fransa"}], d:[], v:[] },
 
-  // Zûsfâne-Sâvre havzası; Colomb-Béchar 12 Kasım 1903'te işgal edildi.
+  // Zûsfâne-Sâvre havzası. Lyautey'in Cebel-i Beşşâr'ın batısına kurdurduğu
+  // karakol **11 Kasım 1903**'te tesis edildi ve "Colomb-Béchar" adını aldı.
+  // ⚠️ İLK YAZIMDA 1903-11-12 YAZMIŞTIM — kaynak taramasında DOĞRULANMADI.
+  //    Kaynaklar 11 Kasım (karakolun kuruluşu) ya da Ekim 1903 (işgal) diyor;
+  //    12 Kasım hiçbirinde geçmiyor. Bir gün kaydırma denetimi değiştirmez
+  //    (±30 gün penceresi aynı), ama YAZILAN TARİH DOĞRU OLMAK ZORUNDA.
   { ad:"Beşşâr (Béchar)", tur:"sehir", lat:31.617, lon:-2.216, g:0, k:0, m:null,
-    s:[{f:"1281-01-01",t:"1903-11-12",d:"fas"},
-       {f:"1903-11-12",t:"1923-10-29",d:"fransa"}], d:[], v:[] },
+    s:[{f:"1281-01-01",t:"1903-11-11",d:"fas"},
+       {f:"1903-11-11",t:"1923-10-29",d:"fransa"}], d:[], v:[] },
 
 
   // ---------------------------------------------------------------------
@@ -481,7 +486,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
 //   1857-07-11  Büyük Kabiliye'nin düşüşü — Lalla Fatma N'Sûmer'in esareti
 //   1899-12-29  Aynı Sâlih'in (Tîdîkelt) işgali
 //   1901-02-21  Tuvât-Gûrâre-Tîdîkelt'in Fransa'ya ilhakı
-//   1903-11-12  Beşşâr'ın (Colomb-Béchar) işgali
+//   1903-11-11  Beşşâr'da (Colomb-Béchar) Fransız karakolunun kurulması
 //
 // Zaten veride VAR OLAN, bu yüzden yeni SAYILMAYAN dört gün:
 //   1564-01-01 · 1610-01-01 · 1673-01-01 · ve bütün bölgesel çerçeve tarihleri

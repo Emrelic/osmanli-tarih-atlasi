@@ -99,7 +99,7 @@ Tek doğru yol, dosyayı bağlayıp `denetle.py`ye sormaktır — tahmin değil.
 | **1857-07-11** | Tîzî Vezzû · Akbû | Büyük Kabiliye'nin düşüşü — Lalla Fatma N'Sûmer'in esareti **(bu gün İKİ kırılma sayılıyor: `kayip` + `kazanc`; tek madde ikisini de kapatır)** |
 | 1899-12-29 | Aynı Sâlih | Aynı Sâlih'in (Tîdîkelt) Fransızlarca işgali |
 | 1901-02-21 | Advâr · Tîmîmûn · Reggân · Benî Abbâs | Tuvât-Gûrâre-Tîdîkelt'in Fransa'ya ilhakı |
-| 1903-11-12 | Beşşâr | Beşşâr'ın (Colomb-Béchar) işgali |
+| 1903-11-11 | Beşşâr | Beşşâr’da (Colomb-Béchar) Fransız karakolunun kurulması |
 
 **Kapalı çıkanlar (madde yazmaya gerek yok):** `1681-01-01` · `1854-11-23` ·
 `1854-12-02` ve bütün bölgesel çerçeve tarihleri.
