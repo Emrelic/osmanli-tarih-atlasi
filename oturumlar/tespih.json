@@ -1,7 +1,7 @@
 {
   "surum": 1,
   "proje": "Osmanlı Tarih Atlası",
-  "guncelleme": "2026-08-08T16:21",
+  "guncelleme": "2026-08-08T17:12",
   "isler": [
     {
       "id": "T-0001",
@@ -1572,7 +1572,7 @@
     {
       "id": "T-0093",
       "baslik": "EMİLME PAKETİ — üç büyük yanlış sahip, 4,35 milyon km²",
-      "hal": "bekleyen",
+      "hal": "biten",
       "kanal": 1,
       "onem": 5,
       "irilik": 4,
@@ -1586,13 +1586,13 @@
       "sahip": null,
       "girdi": "2026-08-08T16:21",
       "basladi": null,
-      "bitti": null,
-      "olcum": null
+      "bitti": "2026-08-08T17:12",
+      "olcum": "32 nokta · KOORDİNATÖR BAĞIMSIZ ÖLÇTÜ, teslim doğrulandı. somali 628.526 → 0 (yerine svahili-sehirleri 427.994, DOĞRU sahip) · banda-adalari 573.188 → 0 · ingiltere1900 3.150.758 → belcika 1.668.527 (DOĞRU sahip, yarıya indi). Noktasız hücre 101 → 90, 19,6 → 17,1 milyon km². 1300 deliği 14,84 → 13,21 M km². 🔴 AÇILAN KIRILMA GÜNÜ: 0 — üst üste ÜÇÜNCÜ parti."
     },
     {
       "id": "T-0094",
       "baslik": "`banda-adalari` 573.188 km² boyuyor — kendisi ~180 km²",
-      "hal": "bekleyen",
+      "hal": "biten",
       "kanal": 1,
       "onem": 5,
       "irilik": 2,
@@ -1606,13 +1606,13 @@
       "sahip": null,
       "girdi": "2026-08-08T16:21",
       "basladi": null,
-      "bitti": null,
+      "bitti": "2026-08-08T17:12",
       "olcum": null
     },
     {
       "id": "T-0095",
       "baslik": "`somali` 628.526 km² boyuyor — ALTI YÜZYIL boyunca DEĞİŞMEDEN",
-      "hal": "bekleyen",
+      "hal": "biten",
       "kanal": 1,
       "onem": 5,
       "irilik": 2,
@@ -1626,13 +1626,13 @@
       "sahip": null,
       "girdi": "2026-08-08T16:21",
       "basladi": null,
-      "bitti": null,
+      "bitti": "2026-08-08T17:12",
       "olcum": null
     },
     {
       "id": "T-0096",
       "baslik": "`ingiltere` 1900'de 3.150.758 km² boyuyor — Kongo havzası dâhil",
-      "hal": "bekleyen",
+      "hal": "biten",
       "kanal": 1,
       "onem": 5,
       "irilik": 2,
@@ -1645,6 +1645,26 @@
       "u": "govde",
       "sahip": null,
       "girdi": "2026-08-08T16:21",
+      "basladi": null,
+      "bitti": "2026-08-08T17:12",
+      "olcum": null
+    },
+    {
+      "id": "T-0097",
+      "baslik": "Kongo havzasında `kuba` 619.017 km² boyuyor (1750)",
+      "hal": "bekleyen",
+      "kanal": 1,
+      "onem": 1,
+      "irilik": 2,
+      "nicin": "Emilme partisinden SONRA doğan yeni en büyük tek emilme. `ingiltere` gitti, yerine doğru coğrafyadan bir kimlik geldi — ama Kuba Krallığı mütevazı bir devletti, 619.000 km² fazla. Kongo havzası iç kesimine daha çok nokta gerekiyor. 🔴 KUSUR DEĞİL, BİR SONRAKİ KADEME.",
+      "olcek": "cm3",
+      "ust": null,
+      "z": "*",
+      "m": "Afrika›Orta",
+      "k": "mekân›dünya",
+      "u": "govde",
+      "sahip": null,
+      "girdi": "2026-08-08T17:12",
       "basladi": null,
       "bitti": null,
       "olcum": null

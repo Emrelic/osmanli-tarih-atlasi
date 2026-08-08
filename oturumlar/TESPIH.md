@@ -2,7 +2,7 @@
 
 > 🤖 **BU DOSYA ÜRETİLİR — ELLE DÜZENLEME.**
 > Kaynak: `oturumlar/tespih.json` · üretici: `ClaudEmre/kutu/tespih.py`
-> Son güncelleme: **2026-08-08T16:21**
+> Son güncelleme: **2026-08-08T17:12**
 >
 > Sıralama ölçütü **`FAYDA ÷ EMEK`** — önem yüksek + irilik düşük önce.
 > Üç öncelik kuralı: **① darboğaz · ② tekrar eden madde · ③ yakınlık**
@@ -11,7 +11,7 @@
 
 | | kanal | ne demek | adet |
 |---|---|---|---|
-| 🔬 | **sistem analizi** | biz ölçüp eksik/yanlış bulduk, Emre onayladı | 17 |
+| 🔬 | **sistem analizi** | biz ölçüp eksik/yanlış bulduk, Emre onayladı | 18 |
 | 💬 | **Emre — oturumdan** | iş sürerken aklına gelip pencereye yazdı | 32 |
 | 📦 | **Emre — paket** | toplu hâlde gönderdiği hatalar/fikirler | 1 |
 | 🔧 | **oturum önerisi** | işçi oturum bildirdi ya da istişareden çıktı | 43 |
@@ -47,10 +47,10 @@
    🟧 🔵 T-0065 AMERİKA — 0 nokta
    🟧 🔵 T-0066 OKYANUSYA — 1 nokta
    🟧 🔵 T-0067 BOLGE penceresini genişlet
-🟨 🔵 T-0093 EMİLME PAKETİ — üç büyük yanlış sahip, 4,35 milyon km²  (0/3)
-   🟩 🔵 T-0094 `banda-adalari` 573.188 km² boyuyor — kendisi ~180 km²
-   🟩 🔵 T-0095 `somali` 628.526 km² boyuyor — ALTI YÜZYIL boyunca DEĞİŞ
-   🟩 🔵 T-0096 `ingiltere` 1900'de 3.150.758 km² boyuyor — Kongo havzas
+🟨 ✅ T-0093 EMİLME PAKETİ — üç büyük yanlış sahip, 4,35 milyon km²  (3/3)
+   🟩 ✅ T-0094 `banda-adalari` 573.188 km² boyuyor — kendisi ~180 km²
+   🟩 ✅ T-0095 `somali` 628.526 km² boyuyor — ALTI YÜZYIL boyunca DEĞİŞ
+   🟩 ✅ T-0096 `ingiltere` 1900'de 3.150.758 km² boyuyor — Kongo havzas
 🟥 📦 T-0038 1288 ÖNCESİ DEVİRLER — zaman ufkunu geriye açmak  (0/4)
    🟧 📦 T-0040 1000-1288 arası  (0/5)
       🟨 📦 T-0044 Osmanlı coğrafyası  (0/6)
@@ -76,7 +76,7 @@
 | 🟥 | **dekametreküp** | bir kıta / bir uygarlık — yıllarca iş · 🔴 **YAPILMAZ, AÇILIR** | 4 |
 | 🟧 | **metreküp** | bir çağ / bir devlet — haftalarca iş · 🔴 **YAPILMAZ, AÇILIR** | 14 |
 | 🟨 | **desimetreküp** | bir bölge / bir eksen — günlerce iş · 🔴 **YAPILMAZ, AÇILIR** | 8 |
-| 🟩 | **santimetreküp** | bir parti — saatlerce iş | 14 |
+| 🟩 | **santimetreküp** | bir parti — saatlerce iş | 15 |
 | 🟦 | **milimetreküp** | TEK BONCUK — yapılabilir, açılamaz | 56 |
 
 ---
@@ -106,16 +106,12 @@
 
 ---
 
-## 🔵 ÇEKİLMEYİ BEKLEYEN — sıradaki boncuklar — 41
+## 🔵 ÇEKİLMEYİ BEKLEYEN — sıradaki boncuklar — 38
 
 | # | iş | kanal | sahip | niçin bu sırada |
 |---|---|---|---|---|
 | T-0083 | `dogu-sumatra-sultanliklari` rengi — 4 nokta bunu bekliyor | 🟦 🔧 | — | Künye yazıldı ama BOYALAR'da yok ⇒ §8: bölge BOYANMAZ. NOKTA GDASYA Sumatra'nın dört noktasını yazamıyor. RENK 2'de. |
-| T-0094 | `banda-adalari` 573.188 km² boyuyor — kendisi ~180 km²  ↳ `T-0093` | 🟩 🔬 | — | 🔴 Paketin en keskini: Banda Adaları (muskat adaları, ~180 km²) Yeni Gine'yi emiyor ⇒ kendi yüzölçümünün ~3.200 KATINI boyuyor, ve bunu 1300'den 1600'e kadar kesintisiz yapıyor. Yeni Gine'ye nokta gerek. |
-| T-0095 | `somali` 628.526 km² boyuyor — ALTI YÜZYIL boyunca DEĞİŞMEDEN  ↳ `T-0093` | 🟩 🔬 | — | Kısmâyû'nun peteği Tanzanya ve kuzey Mozambik'i emiyor. 1300·1450·1600·1750·1900 — beş tarihte de AYNI 628.526 km². Oysa orada Kilve Sultanlığı, Zengibar ve Portekiz vardı. Sabit sayı, sabit hatanın imzasıdır. |
-| T-0096 | `ingiltere` 1900'de 3.150.758 km² boyuyor — Kongo havzası dâhil  ↳ `T-0093` | 🟩 🔬 | — | Yambio·Nimule·Tembura (Güney Sudan) 1900'de İngiliz; petekleri Kongo havzasını emiyor. Oysa 1900'de orası Kongo Hür Devleti / Belçika Kongosu. 🔴 Paketin en BÜYÜĞÜ ama en YENİSİ — yalnız 1900 kesitinde. |
 | T-0080 | 🔴 72 RENK İHLALİ — Anadolu beylikleri + İtalyan şehirleri | 🟨 🔧 | — | RENK 2'nin yeni çift kurucusu (künye penceresi + kademeli mesafe) 143 çift kurdu — HİÇBİRİNİ hiçbir denetim görmüyordu. 72'si ΔE<12. 🔴 VE NEREDE OLDUĞU ASIL BULGU: ~30 çift Anadolu beylikleri (aydin·karesi·mentese·hamid·teke·germiyan·saruhan·eretna·karaman· dulkadir·artuklu…), ~15 çift İtalyan şehirleri (ceneviz·venedik·piza· ferrara·siena·napoli…). En dar: bizans↔inancogullari ΔE 9,55 · 104 km · 1281-1368 — ATLASIN AÇILIŞ SAHNESİ. Kullanıcının Osmanlı'nın doğuşunu okuduğu ekran. ⚠️ B15: büyük partide tavan ÇÖZÜLEMEZ olabilir (kırk partisinde 29/40'ta takılmıştı) — önce ÖLÇ, sonra parti tasarla. |
-| T-0093 | EMİLME PAKETİ — üç büyük yanlış sahip, 4,35 milyon km² | 🟨 🔬 | — | Üçü de `§2`nin ta kendisi: kusur veride değil, NOKTASIZLIKTA. Ölçüldü, tahmin değil. |
 | T-0031 | Cost-distance prototipi — Voronoi'nin topografik hâli | 🟦 💬 | — | Emre: 'iple çekiyorum'. Motor zaten 0,05° Dijkstra kullanıyor, eksik olan SÜRTÜNME ÇARPANI. 1800 noktanın %50'si bir engeli ihlal ediyor |
 | T-0060 | Doğu Asya noktaları 171→?  ↳ `T-0057` | 🟧 💬 | — | yoğunluk 8,8 · 19,4 mn km² |
 | T-0061 | Güney Asya noktaları 135→?  ↳ `T-0057` | 🟧 💬 | — | yoğunluk 11,8 · 11,4 mn km² |
@@ -151,6 +147,7 @@
 | T-0037 | KUZEY AMERİKA — kıtayı atlasa açmak | 🟥 💬 | — | Emre'nin örneği · halka 6-7 · nokta yoğunluğu sağlanmadan BOLGE kutusu açılamaz (CLAUDE.md §6) |
 | T-0023 | `ainu` hayaletini koşuda düşür | 🟦 🔧 | — | KABUL EDİLMİŞ BORÇ: veri ✓ renk ✓ KOŞU ✗. 2 pencere · halka 6-7 · tek başına 73 dk koşuyu hak etmiyor |
 | T-0039 | ÇİN — devleti atlasa almak | 🟥 💬 | — | Emre'nin örneği: 'çin dedin mi içinden 1000 iş çıkar, her birinden 1000 tane daha' |
+| T-0097 | Kongo havzasında `kuba` 619.017 km² boyuyor (1750) | 🟩 🔬 | — | Emilme partisinden SONRA doğan yeni en büyük tek emilme. `ingiltere` gitti, yerine doğru coğrafyadan bir kimlik geldi — ama Kuba Krallığı mütevazı bir devletti, 619.000 km² fazla. Kongo havzası iç kesimine daha çok nokta gerekiyor. 🔴 KUSUR DEĞİL, BİR SONRAKİ KADEME. |
 
 ---
 
@@ -166,10 +163,14 @@
 
 ---
 
-## ✅ SAYILAN — öbür uca dizilmiş boncuklar — 39
+## ✅ SAYILAN — öbür uca dizilmiş boncuklar — 43
 
 | # | iş | kanal | ölçüm | bitti |
 |---|---|---|---|---|
+| T-0093 | EMİLME PAKETİ — üç büyük yanlış sahip, 4,35 milyon km² | 🔬 | 32 nokta · KOORDİNATÖR BAĞIMSIZ ÖLÇTÜ, teslim doğrulandı. somali 628.526 → 0 (yerine svahili-sehirleri 427.994, DOĞRU sahip) · banda-adalari 573.188 → 0 · ingiltere1900 3.150.758 → belcika 1.668.527 (DOĞRU sahip, yarıya indi). Noktasız hücre 101 → 90, 19,6 → 17,1 milyon km². 1300 deliği 14,84 → 13,21 M km². 🔴 AÇILAN KIRILMA GÜNÜ: 0 — üst üste ÜÇÜNCÜ parti. | 2026-08-08 |
+| T-0094 | `banda-adalari` 573.188 km² boyuyor — kendisi ~180 km² | 🔬 | — | 2026-08-08 |
+| T-0095 | `somali` 628.526 km² boyuyor — ALTI YÜZYIL boyunca DEĞİŞMEDEN | 🔬 | — | 2026-08-08 |
+| T-0096 | `ingiltere` 1900'de 3.150.758 km² boyuyor — Kongo havzası dâhil | 🔬 | — | 2026-08-08 |
 | T-0092 | §2 emilme haritası — noktasız hücreyi KİM boyuyor | 🔬 | Pencere içindeki karayı 5°×5° hücrelere böldüm; NOKTASIZ ve >60.000 km² olan 101 hücrenin (19,6 milyon km²) her biri için en yakın noktayı ve o noktanın beş tarihteki sahibini ölçtüm. 🔴 SEYREKLİK ÖLÇÜT DEĞİLMİŞ — çöl ve tundra meşru boştur; ölçüt UZAK bir sahibin emmesi. Sonuç: 1300'de 14,8 milyon km² DELİK; 1900'de delik 6,2 milyona düşüyor ama yerini ÜÇ BÜYÜK YANLIŞ SAHİP alıyor. | 2026-08-08 |
 | T-0090 | Dört renk bekliyor — dogu-sumatra · pontianak · kutai · bugis | 🔧 | dördü de yazıldı: dogu-sumatra #eaaedb · pontianak #2a4215 · kutai #4b0f15 · bugis-kralliklari #0f276f ⇒ 7+1 nokta serbest | 2026-08-08 |
 | T-0091 | Renksiz kimlikle yazılan 3 nokta — oturum KENDİ yakaladı, çıkardı | 🔧 | Pontianak·Watampone·Sengkang dosyadan ÇIKARILDI. Aynı kuralı (§C) Sumatra'da doğru uygulayıp Borneo/Sulawesi'de uygulamamış; kendi doğrulama betiği yakaladı. Renksiz kimlikle yazmak §8 gereği BOYANMAYAN TOPRAK üretirdi | 2026-08-08 |
