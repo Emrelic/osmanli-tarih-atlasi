@@ -1569,3 +1569,79 @@ düzeltme/bağlama). Doğrulandı (`node -e eval`): mükerrer id 0, ters/sıfır
 dönem 0.
 
 `data/devletler.js` pathspec'siz bırakıldı. Koordinatöre haber verildi.
+
+---
+
+## ㉗ 301'lik `kaynak:` kuyruğu — "ucuz/pahalı" ölçümü (SALT ÖLÇÜM, hiçbir yazma yapılmadı)
+
+`data/devletler.js`e bu turda **hiç dokunulmadı** (`git status` ile
+doğrulandı — dosya bu turdan ÖNCEKİ hâliyle duruyor).
+
+### Yöntem
+
+301 kaydın her biri için `id:` ve `ad:` alanlarından ≥5 karakterlik,
+idari-genel kelimelerden (devlet/krallık/imparatorluk/cumhuriyet/büyük/
+birinci vb. — bir "stopword" listesi) arındırılmış kelime parçaları
+çıkarıldı; bu parçalar `data/olaylar*.js`deki 521 doğrulanmış slug'ın
+(≥5 karakter olanları) içinde alt-dize olarak aranıyor. Bu KESİN eşleşme
+DEĞİL — "muhtemelen aynı devlet, TDV taraması ucuzlaşabilir" adayı.
+
+### ① Aday üreten: 81/301 (%27)
+
+### ② Hiç aday üretmeyen: 220/301 (%73) — sıfırdan TDV araması gerekir
+
+### ③ Bölge dağılımı
+
+```
+ADAY ÜRETEN (81) — en yoğun bölgeler:
+  balkanlar        18   (TDV'nin bulgaristan/sirbistan/bosna-hersek gibi
+                          genel ülke maddeleri zaten doğrulanmış kümede)
+  anadolu          16   (Anadolu beylikleri — "-oğulları" TDV adlandırma
+                          kalıbı olaylar*.js'te zaten sık geçiyor:
+                          karamanogullari, germiyanogullari, aydinogullari,
+                          saruhanogullari, hamidogullari, candarogullari,
+                          dulkadirogullari, ramazanogullari)
+  dogu-avrupa       6
+  kuzey-afrika      6
+  orta-avrupa       5
+  iran              4 · italya 4 · kafkasya 4 · arabistan 4
+  (geri kalan bölgelerde 1-3'er)
+
+HİÇ ADAY ÜRETMEYEN (220) — en yoğun bölgeler:
+  guneydogu-asya   40   ⚠️ EN PAHALI BÖLGE
+  guney-asya       29   ⚠️
+  dogu-asya        21   ⚠️
+  dogu-afrika      12
+  italya           11
+  dogu-avrupa      10
+  iran              9
+  anadolu           8 · arabistan 8 · orta-asya 8
+  bati-afrika       7 · bati-avrupa 7
+  kuzey-avrupa      6 · iberya 6
+  (geri kalan bölgelerde 1-5'er)
+```
+
+### Okuma
+
+**"Ucuz" kısım küçük ve coğrafi olarak YOĞUN**: Balkanlar + Anadolu tek
+başına adayların 34/81'ini (%42) oluşturuyor — bu iki bölge TDV'nin zaten
+genel ülke/beylik maddeleriyle iyi kapsadığı, `olaylar*.js`nin de sıkça
+alıntıladığı bir alan (DALGA 1/2'de zaten gördüğümüz desenin tersi:
+oralarda TDV zayıftı, burada güçlü). **"Pahalı" kısım BÜYÜK ve üç Asya
+bölgesinde yoğunlaşıyor** (Güneydoğu Asya + Güney Asya + Doğu Asya = 90/220,
+%41) — bu tam olarak DALGA 2'de "TDV zayıf kapsıyor" diye önceden ölçtüğüm
+coğrafyalarla ÖRTÜŞÜYOR, yani bu üç bölgede muhtemelen yine standart
+akademik kaynağa dönülecek, TDV taraması az verim verecek.
+
+⚠️ Yöntem notu: bu bir YAKLAŞIK maliyet tahmini, kesin eşleşme listesi
+değil — "aday" bulunan 81 kaydın TDV'de gerçekten doğru maddeye karşılık
+geldiği TEK TEK doğrulanmadı (yalnız isim benzerliği). Gerçek "bedava" oran
+(38/339, önceki ölçüm) bunun çok altındaydı; bu 81 "ucuz" demek, "araştırma
+süresi kısalır" demek, "araştırmasız" demek değil.
+
+**TESLİM: 81 aday üretiyor (%27, "ucuz") · 220 hiç aday üretmiyor (%73,
+"pahalı") · en ucuz iki bölge Balkanlar+Anadolu (34/81) · en pahalı üç
+bölge Güneydoğu Asya+Güney Asya+Doğu Asya (90/220).**
+
+`data/devletler.js` HİÇ değiştirilmedi bu turda. Koordinatöre haber verildi
+— 301'e yazmaya başlanmadı, talimat bekleniyor.
