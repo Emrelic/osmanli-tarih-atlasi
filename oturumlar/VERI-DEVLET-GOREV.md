@@ -1825,3 +1825,65 @@ isabeti BÖLGEYE göre çok değişiyor, tek bir "genel isabet oranı" ileri
 partiler için güvenilir bir tahmin değil.
 
 `data/devletler.js` pathspec'siz bırakıldı. Koordinatöre haber verildi.
+
+---
+
+## ㉚ Durak listesi genişletildi, Parti B + tüm 301 yeniden ölçüldü (SALT ÖLÇÜM, yazma yok)
+
+`data/devletler.js`e bu turda hiç dokunulmadı (`git status` ile doğrulandı).
+
+Durak listesine eklendi: `cumhuriyet` (zaten vardı, genişletilmiş hâliyle
+tuttum), `hanlik`, `hanligi`, `sultanlik`, `beylik`, `emirlik`, `prenslik`,
+`dukalik`, `hanedan`, `hanedani`, `devleti`, `kralligi`.
+
+### ① Parti B'nin 47'si yeniden üretildi
+
+```
+YENİ listeyle hâlâ aday üreten:    45/47
+YENİ listeyle ARTIK ELENEN:         2/47 — kazak-hanligi, yarkent-hanligi
+                                    (ikisi de "kirim-hanligi" adayına yeni
+                                    eklenen `hanligi` durağı yüzünden
+                                    düşüyordu)
+```
+
+**Bilgi kaybı YOK:** bu iki kayıt Parti B'de İÇERİK OKUMASIYLA zaten
+ÇÜRÜDÜ/BULUNAMADI diye işaretlenmişti (kazaklar ve kaşgar maddeleri
+yetersiz bulunmuştu). Genişletme yalnız yöntemi RETROAKTİF olarak
+doğruladı — ileri partilerde bu ikisi gibi sahte adaylar artık baştan
+üretilmeyecek.
+
+📌 Yan bulgu: her ikisinin de `ozet:`inde ZATEN kendi (zayıf) TDV atfı
+gömülüydü (`kazak-hanligi`: "kaynak: TDV, madde: kazaklar";
+`yarkent-hanligi`: "kaynak: TDV, madde: kasgar — kısmî") — bunlar C1/C2
+ayrımına GİRMEMİŞTİ çünkü negatif ("TDV'de yok") değil pozitif ama
+İÇERİKLE zaten yetersiz bulunmuş atıflar; ayrı bir üçüncü alt-sınıf
+("pozitif ama zayıf atıf") olarak not düşüyorum, `kaynak:` alanına
+YAZMADIM (Parti B'de zaten "bulunamadı" hükmü verilmişti).
+
+### ② Tüm 301 kayıt yeniden üretildi
+
+```
+ESKİ (dar durak listesi):    81 aday üretiyor  ·  220 aday üretmiyor
+YENİ (geniş durak listesi):  79 aday üretiyor  ·  222 aday üretmiyor
+NET DEĞİŞİM:                  -2 aday          ·   +2 aday-üretmeyen
+```
+
+**C1/C2'nin KENDİ boyutu DEĞİŞMEDİ.** C1 (80) ve C2 (140) ayrımı bu
+token-eşleştirme sürecinden TAMAMEN bağımsız bir ölçümdü — `ozet:`teki
+GERÇEK dayanak cümlesine bakıyordu, aday üretip üretmemesine değil. Genişleme
+yalnız Parti B'den düşen 2 kaydı ("aday üretmeyen" listeye) taşıdı; bu ikisi
+C1/C2 ayrımına hiç girmemişti (Parti B'nin kendi 47'lik kovasındaydı),
+dolayısıyla **C2'nin gerçek boyutu hâlâ 140** — genişletme ona hiç
+dokunmadı, yalnız Parti B'nin ölçümünü temizledi.
+
+### TESLİM (istenen sayılar)
+
+**① Parti B: 47 → 45 aday üretmeye devam ediyor, 2 elendi (bilgi kaybı yok,
+zaten çürük bulunmuşlardı). ② Toplam 301: 81→79 aday, 220→222 aday-üretmeyen
+(net -2/+2). C2'nin gerçek boyutu hâlâ 140, değişmedi.**
+
+③ için hazır bekliyorum — C2'ye girerken ilk 20 kaydı ölçüp o sepetin kendi
+isabet oranını bulacağım, talimat gelince başlayacağım, bu turda
+BAŞLAMADIM.
+
+`data/devletler.js` bu turda HİÇ değiştirilmedi. Koordinatöre haber verildi.
