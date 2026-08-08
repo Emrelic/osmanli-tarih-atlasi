@@ -205,3 +205,66 @@ tavan (178) buna göre yeniden tabanlanmalı.
 Sinyal ("dosya senin") gelince bu liste DEĞİŞMEDEN yazılacak; yalnız
 `denetle.py`nin konum önerileri gelirse (kıyı/kara maskesi sapması)
 uygulanacak.
+
+## YAZIM — 10 nokta planı `data/yerlesimler_sibirya.js`'e yazıldı
+
+🔴 Yazarken KOORDİNATÖR ACİL uyardı: `girdi.yukle()` tamamen çöküyordu —
+"Dudinka" hem benim dosyamda hem `yerlesimler_ek8.js`'de vardı, ad
+benzersizliği ihlal ediliyordu. Baktım: `ek8.js`teki Dudinka
+(69.4058,86.1778, kur:1667, s:[{f:1667-01-01,t:1923-10-29,d:rusya}])
+BENİM yazdığımla BİREBİR AYNI zincir — veri çelişkisi DEĞİL, saf
+mükerrer. Kendi kaydımı sessizce çıkardım (koordinatörün ① talimatı).
+Plan 10 → 9 noktaya düştü, `kasitli_bosluk` sayısı ETKİLENMEDİ (Dudinka
+zaten kasıtlı boşluk değildi) — hâlâ 4.
+
+Yazılan 9 nokta:
+  ① Batı Sibirya (3): Ket Ostrogu (Ketsk) kur:1602→rusya ·
+     Kazak bozkırı (Turgay) altinorda→kazak-hanligi(1500)→rusya(1868) ·
+     Kazak bozkırı (Sarısu) aynı zincir
+  ② Orta Sibirya (3): Buryat toprakları kuzey-yuan(1281-1631)→rusya ·
+     Yakut toprakları KASITLI_BOŞLUK neden:"veri-yok" ·
+     Koryak toprakları KASITLI_BOŞLUK neden:"veri-yok"
+  ③ Uzak Doğu (3): Petropavlovsk-Kamçatskiy kur:1740→rusya (1756 notu
+     `neden:`de açık yazılı) · Anadır (Anadyrsk) kur:1649 KASITLI_BOŞLUK
+     neden:"devletsiz" · Çukotka merkezi KASITLI_BOŞLUK neden:"devletsiz"
+
+## DOĞRULAMA
+
+- `py -c "renkler.BOYALAR"`: rusya/altinorda/kazak-hanligi/kuzey-yuan
+  dördü de RENKLİ — yeni künye önerisi YOK bu partide.
+- 3km yakınlık taraması (tüm `girdi.yukle()` corpusuna karşı, 9 nokta):
+  **0 çakışma.**
+- `py arac/denetle.py`: Değişmez 1 ✓ 180 sahipsiz (tavan 182) ·
+  Değişmez 2 ✓ 0 açık · Değişmez 2s ✓ 121 AÇIK (tavan 121, aşmadı) ·
+  Değişmez 2i ✓ 3 açık (tavan 3, aşmadı) · Değişmez 2t ✓ 38 (tavan 42) ·
+  konum ✓ 0 kara maskesi dışı.
+  Genel "İHLAL VAR" çıkışı VAR ama sebebi benim yazdıklarımla İLGİSİZ:
+  "mükerrer madde: 4 şüpheli çift" kronoloji tarafında, hepsi Sibirya
+  dışı eski maddeler (Osman kuruluşu, Orhan Bursa fethi vb.) — bu
+  partinin ürettiği bir ihlal DEĞİL.
+
+🔴 ÖNEMLİ BULGU — Uzak Doğu'nun ÜÇÜ de (Petropavlovsk 1408 km,
+Koryak 2226 km, Çukotka 2894 km, Anadır 3504 km) **atlas PENCERESİNİN
+DIŞINDA** çıktı — pencere doğu sınırı ~146°D, bunlar 158-177°D'de.
+`denetle.py` bunu ihlal SAYMIYOR ("⛔ KOORDİNATA DOKUNMA", pencere
+büyüyünce kendiliğinden canlanır — EMILME'deki Sofala/Finschhafen
+emsaliyle AYNI kova) ama şu an haritada GÖRÜNMÜYORLAR. Araştırılmış
+doğru veri duruyor, yalnız pencere onu henüz kapsamıyor.
+
+## ÖLÇÜM — Batı Sibirya 99 hücrelik boşluk ne kadar kapandı
+
+Orijinal script (`bati_sibirya.py`, pencere lat 50-68°K / lon 55-90°D,
+2.5° ızgara, >100km eşik) AYNEN yeniden koşuldu:
+
+  ÖNCE:  99 hücre >100km
+  SONRA: 98 hücre >100km   →  yalnız 1 hücre kapandı
+
+Sebep dürüstçe: yazdığım 3 Batı Sibirya noktasından yalnız BİRİ
+(Ket Ostrogu, 58.7°K) bu tarama penceresinin İÇİNDE. Kazak bozkırı
+(Turgay, 49.6°K) ve Kazak bozkırı (Sarısu, 47.0°K) pencerenin GÜNEY
+sınırının (50°K) altında kalıyor — coğrafi olarak doğru yerdeler
+(gerçek Kazak bozkırı orada), ama tarama kutusu onları saymıyor.
+Yani bu parti Batı Sibirya'nın YOĞUNLUK sorununu büyük ölçüde
+ÇÖZMEDİ — çünkü zaten hedefi bu değildi (şartname "hüküm kalitesi,
+nokta sayısı değil" diyordu) ve kaba tarama zaten "hiçbiri felaket
+boyutunda değil" demişti. Yoğunluk kalan bir borç.
