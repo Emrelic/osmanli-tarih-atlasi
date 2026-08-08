@@ -139,7 +139,15 @@ BEKLENEN_YERLESIM = 968
 # `ainu` donemi KALDIRILDI -- eksik olan kunye degil, FAZLA OLAN BOYAYDI.
 # Zincir borcu sayaci kunye yazilarak da sifirlanir, boya kaldirilarak
 # da; ikisi denetimde AYNI gorunur, haritada ZIT sey yapar.
-BEKLENEN_SAHIPSIZ = 172
+BEKLENEN_SAHIPSIZ = 178   # 172 + 6: EMILME partisi (Orta Afrika)
+# 🔴 TAVAN GEREKÇESİYLE YÜKSELTİLDİ — 8 Ağustos 2026, NOKTA EMİLME.
+# Altı nokta da AYNI DESEN: künye o coğrafya için VAR ama DAHA GEÇ bir
+# tarihte başlıyor (Kabasa 1281-1500 · Musumba 1281-1665 · Boma/Kisangani
+# 1281-1885). Oturum erken dönem için bir kimlik UYDURMAK yerine boşluk
+# beyan etti — `OGRENILENLER §72`nin doğru cevabı: `Değişmez 1` "kimsenin
+# değildi" diyemediği için veriyi en yakın komşuya iter ve HAYALET üretir.
+# ⚠️ Tavan yükseltmek ölçütü GEVŞETMEK DEĞİLDİR: sayı beyan edildi,
+# gerekçesi yazıldı, ve 178'in üstü hâlâ İHLALDİR.
 # 427 -> 432: Kirmanşah 1590-1603 (+2), Tarki tâbiiyeti (+2, mevcut günlere
 # oturdu), Kaheti tâbiiyeti (+2), Şirvan ara şehirleri (+0, mevcut günler),
 # Azak'ın 1637-1642 Kazak işgali (+2), Şehrizor 1554-01-01 -> 1554-08-22 (+0).

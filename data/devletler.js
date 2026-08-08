@@ -3134,6 +3134,33 @@ window.DEVLETLER = [
     { t:"1671-01-01", tur:"son", b:"Portekiz, Pungo Andongo kalesini alarak krallığı fiilen sona erdirdi" }
   ]
 },
+{ id:"loango", ad:"Loango Krallığı", tur:"krallik", bolge:"orta-afrika",
+  f:"1550-01-01", t:"1883-01-01", baskent:"Buali (Loango)",
+  ozet:"Kongo Krallığı'nın kuzeyinde, Atlantik kıyısında kurulan Vili krallığı; bakır, fildişi ve dokuma ticaretiyle yükseldi, Kongo'dan bağımsız kaldı ve XIX. yüzyılda Fransız himayesine girdi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  kaynak:"bulunamadı — TDV'de müstakil maddesi yok (`loango` slug'ı 302 döndürdü), dayanak: standart akademik kaynak",
+  kronoloji:[
+    { t:"1550-01-01", tur:"kurulus", b:"Vili hanedanı Loango Krallığı'nı kurdu; Buali başkent oldu" },
+    { t:"1883-01-01", tur:"son", b:"Fransız himayesi ilan edildi, krallık bağımsızlığını yitirdi" }
+  ]
+},
+{ id:"luba", ad:"Luba İmparatorluğu", tur:"imparatorluk", bolge:"orta-afrika",
+  f:"1585-01-01", t:"1889-01-01", baskent:"Mwibele",
+  ozet:"Yukarı Kongo havzasında (bugünkü Katanga) kurulan, kutsal krallık (bulopwe) anlayışıyla geniş bir bölgeyi bağlayan imparatorluk; Lunda'nın siyasî modelini de besledi, sömürge baskısı ve köle akınlarıyla parçalandı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+  kronoloji:[
+    { t:"1585-01-01", tur:"kurulus", b:"Kongolo Mukulu, Luba devletini kurdu" },
+    { t:"1889-01-01", tur:"son", b:"İç bölünme ve sömürge baskısıyla imparatorluk dağıldı" }
+  ]
+},
+{ id:"kuba", ad:"Kuba Krallığı", tur:"krallik", bolge:"orta-afrika",
+  f:"1625-01-01", t:"1900-01-01", baskent:"Nsheng (Mushenge)",
+  ozet:"Kasai ırmakları arasında Bushoong hanedanının kurduğu, gelişmiş bir vergi ve mahkeme düzeni ile dokuma-heykel sanatıyla tanınan krallık; Kongo Hür Devleti'ne bağlanana kadar iç işlerinde özerk kaldı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+  kronoloji:[
+    { t:"1625-01-01", tur:"kurulus", b:"Shyaam a-Mbul a Ngoong Kuba Krallığı'nı kurdu" },
+    { t:"1900-01-01", tur:"son", b:"Kongo Hür Devleti'ne resmen bağlandı" }
+  ]
+},
 { id:"lunda-imparatorlugu", ad:"Lunda İmparatorluğu", tur:"imparatorluk", bolge:"orta-afrika",
   f:"1665-01-01", t:"1887-01-01", baskent:"Musumba",
   ozet:"Orta Afrika'da (bugünkü Kongo-Zambiya-Angola sınır bölgesi) fildişi ve köle ticaretiyle zenginleşen, gevşek bağlı geniş bir konfederasyon kuran imparatorluk; Avrupa sömürge paylaşımıyla parçalandı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
