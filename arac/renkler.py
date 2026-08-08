@@ -442,8 +442,23 @@ BOYALAR = {
     #   1281'den başlıyordu, künyede **1246** — 35 yıl erken. Komşu kümesi
     #   değişmediği için renkler aynı kaldı, ama sayı devralınmadı.
     #   (`darfur` 1603→1695 dersi: kendi ölçtüğün sayı da bayatlar.)
-    "moskova":    ("Moskova Knezliği",       "#12a2ed"),
-    "novgorod":   ("Novgorod Cumhuriyeti",   "#42151e"),
+    # 🔴 VE İKİSİ AYNI GÜN TAŞINDI — VERİ KAYNAKLI, DÖRDÜNCÜ VE BEŞİNCİ VAKA.
+    #   Yazıldıkları koşuda veri 1800 noktaydı; birkaç saat sonra 333 nokta
+    #   daha bağlandı (2133) ve `renk_fark.py` şunu bildirdi:
+    #     doğan komşuluk çifti 38 · ölen 13 · YENİ ÇAKIŞMA 2
+    #       almanya   ↔ moskova    ΔE  8,08
+    #       altinorda ↔ novgorod   ΔE 11,99
+    #   İkisinin de hex'i DEĞİŞMEMİŞTİ; yalnız Rus ovasına nokta girdi ve
+    #   Voronoi komşuluğu yeniden kuruldu.
+    #   📌 `cungar↔buhara` · `norvec↔portekiz` · `cohor↔kamboc` ile aynı
+    #      desen: **palet verinin fonksiyonudur.**
+    #   ⇒ Taşınan yine UCUZ taraf: `almanya` ve `altinorda` paletin kalabalık
+    #     düğümleri, `moskova`/`novgorod` 23 ve 19 engelle rahat çözüldü.
+    #   ⚠️ Ve bu çifti YALNIZ `renk_fark.py` yakalayabilirdi: `renk_olc` de
+    #     bildirdi ama "kaç çakışma var" derdi; **hangisinin YENİ doğduğunu**
+    #     söyleyen taban karşılaştırmasıydı.
+    "moskova":    ("Moskova Knezliği",       "#0f0f9c"),
+    "novgorod":   ("Novgorod Cumhuriyeti",   "#84c9cf"),
     "pskov":      ("Pskov Cumhuriyeti",      "#840f75"),
     "tver":       ("Tver Knezliği",          "#9f6ced"),
     # `rusya` 1917-03-15'te bitiyor, `sovyet-rusya` 1917-11-07'de başlıyor —
@@ -571,6 +586,20 @@ BOYALAR = {
     # Eski #b55b6b gül kırmızısıydı (H=349°, S=0.38) — kırmızı tonları Osmanlı
     # ailesine ayrılmıştır, yabancı devlete verilmez. Mora çekildi.
     "ingiltere":  ("Britanya",               "#7e3d8f"),
+    # ═══ FRANSA CUMHURİYETİ — RENK 2, 7 Ağustos 2026 ═══
+    # 🔓 140 DÖNEMLİK GÖÇÜ AÇAR. `NOKTA HALKA-2 3` "fransa'yı
+    #   fransa-cumhuriyet yap" talimatını UYGULAMADI ve HAKLIYDI: renk
+    #   olmadan 23 dönem boyanmayan toprak olurdu (`VERI-YAPISI.md`:
+    #   "yoksa üretim uyarı verir ve bölge boyanmaz").
+    #   ⇒ Görünmez bir künye uyuşmazlığını GÖRÜNÜR bir beyaz lekeyle takas
+    #     etmek olurdu. Oturum şartnameye uydu; talimat şartnameyle çelişti.
+    # 1792-09-22 (Cumhuriyet'in ilanı) → 1923-10-29. `fransa` 987-1792'de
+    #   bitiyor, yani ikisi AYNI EKRANDA YAN YANA durmuyor ama kullanıcı
+    #   zaman çubuğunu kaydırınca geçişi görecek.
+    # ÖLÇÜM (2133 nokta, güncel veriyle): komşu `fransa` · 600 km'de 15
+    #   palet kimliği · en yakın engel ΔE 20,3 · C* 28,0 = paletin %71'i
+    #   ARDIL AYRIMI: fransa'dan **ΔE 39,6** — 1792 geçişi haritada net.
+    "fransa-cumhuriyet": ("Fransa Cumhuriyeti",  "#45edcc"),
     "fransa":     ("Fransa",                 "#7b99ff"),
     "ispanya":    ("İspanya",                "#d59f63"),
     # ═══ PORTEKİZ TAŞINDI — RENK 2, 7 Ağustos 2026 ═══
@@ -1028,6 +1057,18 @@ BOYALAR = {
     # tonuna ham DeltaE 22.7 — bindirilmis halde ~7.6, ve ikisi 1860-1881 arasi
     # Kopet Dag boyunca DOGRUDAN sinirdas. Ayrica timurlu ile BIREBIR ayni hex'ti.
     "turkmen":      ("Türkmen boyları",        "#00acc1"),
+    # ═══ MERÎNÎLER — RENK 2, 7 Ağustos 2026 ═══
+    # 🔓 Fas'ın 1196-1549 katmanını açar. Künye 1196-01-01 → 1549-01-01 ve
+    #   `fas` künyesi tam orada başlıyor (1549-01-01) — zincir kesintisiz.
+    # ÖLÇÜM (2133 nokta): komşu `fas` · 600 km'de 9 palet kimliği ·
+    #   en yakın engel ΔE 21,0 · C* 27,8 = paletin %69'u
+    #   ARDIL AYRIMI: fas'tan **ΔE 42,0** — 1549 geçişi net.
+    # ⚠️ `sadi` (1549-1659) HENÜZ YAZILMADI: künyesi yok. Geldiğinde ÜÇÜ
+    #   BİRLİKTE ölçülmeli (`merini` · `sadi` · `fas` aynı toprakta ardışık)
+    #   ve o gün `sadi` ile `fas` künyelerinin ÖRTÜŞMESİ de sorulmalı —
+    #   bugün `fas` 1549-1923, `sadi` 1549-1659 olarak anılıyor, yani ikisi
+    #   aynı pencereyi paylaşır görünüyor. Koordinatöre bildirildi.
+    "merini":     ("Merînîler (Fas)",        "#0f24b1"),
     "fas":        ("Fas",                    "#9e6b5b"),
     # --- Beylik öncesi Anadolu'nun sahipleri (kullanıcı tespiti: 1288 haritasında
     # beylikler yanlış; hepsi 1281'de başlıyordu, gerçek kuruluşları onlarca yıl

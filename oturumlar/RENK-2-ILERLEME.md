@@ -1940,3 +1940,94 @@ Aynı özet, külliyat uzayınca borç oldu. **Şimdi kanıtlanmış.**
 denetim/kunye-taban.json → n 343 · medyan 199 · eşik 99,5 · boş 0 · kısa 29
 çıkış kodu 0 (boş özet yok) — doğru davranış
 ```
+
+---
+
+## ㊷ İKİ RENK YAZILDI, BİRİ MÜKERRER ÇIKTI — ve veri iki çakışma doğurdu
+
+### 🔴 `sibir` YAZILMADI — MÜKERRER
+Sevk *"`sibir` renk YOK, künye VAR"* diyordu. Ölçtüm:
+```
+sibir           künye 1420-01-01 → 1598-01-01   harita: BOŞ   renk YOK   veride 0
+sibir-hanligi   künye 1430-01-01 → 1598-08-20   harita: ✓     #b17e3f    veride 3
+```
+**Aynı devletin iki künyesi.** `sibir-hanligi` bu oturumda yazıldı, bağlı ve
+çalışıyor. `sibir`e renk vermek **ikinci bir kimlik** üretirdi — VERİ
+DEVLET'in daha önce yakaladığı `astarhan` / `irlanda-hur-devleti` mükerrer
+deseninin aynısı. ⇒ Yazılmadı; künyenin silinmesi ya da birleştirilmesi
+gerekiyor (`devletler.js`, koordinatörün işi).
+
+### 🟢 Yazılanlar
+```
+fransa-cumhuriyet  #45edcc   fransa'dan ΔE 39,6   🔓 140 dönemlik göçü açar
+merini             #0f24b1   fas'tan    ΔE 42,0   🔓 Fas'ın 1196-1549 katmanı
+```
+📌 `NOKTA HALKA-2 3`ün talimatı uygulamaması **doğruydu**: renk olmadan 23
+dönem boyanmayan toprak olurdu. Görünmez bir künye uyuşmazlığını **görünür
+bir beyaz lekeyle** takas etmek olurdu.
+
+⚠️ `sadi` yazılmadı (künyesi yok). Geldiğinde **üçü birlikte** ölçülmeli
+(`merini` · `sadi` · `fas` aynı toprakta ardışık) — ve o gün `sadi`
+(1549-1659) ile `fas` (1549-1923) künyelerinin **örtüşmesi** de sorulmalı;
+bugün ikisi aynı pencereyi paylaşır görünüyor.
+
+---
+
+## ㊸ 🔴 VERİ İKİ ÇAKIŞMA DOĞURDU — DÖRDÜNCÜ VE BEŞİNCİ VAKA
+
+Veri 1800 → **2133 nokta** (333 yeni). Hiçbir hex'e dokunulmadı ve:
+```
+renk_fark:  doğan komşuluk çifti 38 · ölen 13 · YENİ ÇAKIŞMA 2
+   almanya   ↔ moskova    ΔE  8,08
+   altinorda ↔ novgorod   ΔE 11,99
+```
+İkisi de **benim Rus kümemden** — birkaç saat önce yazdığım renkler, o
+zamanki veriyle temizdi.
+```
+cungar ↔ buhara     Mâverâünnehir bağlanınca
+norvec ↔ portekiz   _ek12 bağlanınca
+cohor  ↔ kamboc     gün içi dönem değişikliğiyle
+almanya ↔ moskova   333 nokta girince        ← bugün
+altinorda ↔ novgorod  aynı                    ← bugün
+```
+📌 **Palet verinin fonksiyonudur** — beşinci teyit.
+
+⚠️ **Ve bu çifti yalnız `renk_fark.py` doğru okuyabilirdi:** `renk_olc` de
+bildirdi ama *"kaç çakışma var"* der; **hangisinin YENİ doğduğunu** söyleyen
+taban karşılaştırmasıydı. Aletin var oluş sebebi tam bu sabah yazılmıştı,
+akşam işe yaradı.
+
+⇒ Taşınan yine ucuz taraf: `moskova` → `#0f0f9c` (23 engel, pay 19,1) ·
+`novgorod` → `#84c9cf` (19 engel, pay 17,7). `almanya` ve `altinorda`
+paletin kalabalık düğümleri.
+
+---
+
+## ㊹ 🟢 İKİ ESKİ BORÇ KAPANDI — aletler onu da gösterdi
+
+### `afsar ↔ kacar` aynı-anahtar örtüşmesi: **KAPANDI**
+```
+öncesi: AYNI ANAHTARI PAYLAŞIP TARİHİ ÖRTÜŞEN — 1 çift (ΔE 0!)
+şimdi : 0 çift
+```
+Sabah bildirdiğim kök (`harita:"iran"`) düzeltilmiş. **Aylardır açık duran
+uyarı**, kırkın listesini çıkarırken yan ürün olarak teşhis edilmişti.
+
+### Zincir borcu — dramatik düşüş
+```
+                              sabah   şimdi
+künyesi var, rengi yok          66  →   62
+rengi var, künyesi yok          41  →    3     ← 38 künye yazılmış
+VERİDE kullanılıyor, künyesi YOK 40  →    1     ← yalnız `ainu` kaldı
+```
+📌 Dördüncü kontrol sabah yazıldı, akşam **borcun eridiğini** gösterdi.
+Ölçülemeyen borç eritilemez; ölçülen borç eriyor.
+
+### `kunye_olc` — eşik kendiliğinden kaydı
+```
+külliyat 343 → 381 künye · medyan 199 → 208 · eşik 99,5 → 104
+kısa özet 29 → 33  (+4)
+```
+📌 **Eşiği dağılımdan türetmenin karşılığı bu:** külliyat büyüdü, eşik
+kendiliğinden yükseldi. Elle yazılmış 120 olsaydı bugün de 120 olurdu ve
+sayı, külliyatın değişimini değil yalnız kendi keyfîliğini yansıtırdı.
