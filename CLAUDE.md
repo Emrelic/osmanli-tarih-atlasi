@@ -1040,6 +1040,40 @@ Notlar:
   `sirbistan` · `ceneviz` · `sovalye`…). **Aynı soru, iki yerde iki farklı
   cevap — ve ikisine de ölçüm karar verdi, kural değil.**
 
+- 🔴 **BİR KURALIN YAZILI OLMASI, UYGULANDIĞI ANLAMINA GELMİYOR — ve ihlaller
+  GİDEREK SESSİZLEŞİYOR.** `§11`in *"kaçış içeren hiçbir düzeltme bash'ten
+  geçirilmez"* kuralı 8 Ağustos'ta **dört oturumun dördü tarafından da**
+  ihlal edildi (koordinatör beş kez). Ama asıl bulgu sayı değil **dizilim**:
+  ```
+  ① betik patladı                        gürültülü — hemen görülür
+  ② betik patladı                        gürültülü
+  ③ metin sessizce boşaldı               sessiz — gözle bulunur
+  ④ commit BOŞA GİTTİ ama "başarılı" BASTI   ← EN TEHLİKELİSİ
+  ```
+  Dördüncüsünde `git commit` backtick yüzünden hiç çalışmadı, **ama ekrana
+  "commit tamam" yazıldı.** Fark edilmeseydi o oturumun bütün raporu
+  commit'siz kalacaktı — yani **rapor vardı, dayanağı yoktu.**
+  ⇒ *"Patlayan → sessizce bozan → başarılı görünen."* Aynı kural, giderek
+  daha zor fark edilen üç biçimde çiğnendi.
+  📌 Teşhis RENK 2'nin: ***"Kural yetmiyor, ALIŞKANLIK gerekiyor."***
+  **Çare:** commit mesajı da dosyaya yazılır ve `git commit -F <dosya>` ile
+  verilir. Kaçış içeren hiçbir metin kabuktan geçmez — **ne veri, ne betik,
+  ne commit mesajı.**
+
+- 🔴 **BİR DÜZELTMENİN VERİDE İNMESİ, HARİTADA İNDİĞİ ANLAMINA GELMEZ.**
+  Sıra kuralının **üç** ayağı var ve üçüncüsü aynı gün tamamlanamaz:
+  ```
+  veri → renk → KOŞU
+  ilk ikisi aynı gün yapılabilir · ÜÇÜNCÜSÜ YAPILAMAZ (~73 dk)
+  ```
+  **Vaka (8 Ağustos):** `ainu` kaydı veriden kaldırıldı (2 → 0), rengi
+  `BOYALAR`dan düşürüldü — ama koşu **veri düzeltilmeden önce** bitmişti.
+  `renk_cikti` yayını okudu ve *"`ainu` · çizilen `#1b8ae4` · **beyan YOK**"*
+  dedi: **hayalet canlı yayında** ve ancak bir sonraki koşuda düşecek.
+  ⚠️ Bu bir kusur değil **kabul edilmiş borçtur** — ama *yazılmazsa* bir
+  sonraki oturum onu kusur diye ikinci kez keşfeder.
+  ⇒ **Veriyle çıktı arasında bir tur gecikme varsa, o tur TESPİHE YAZILIR.**
+
 - 🔴 **ALETİN GÖSTERDİĞİ ≠ DOSYADA YAZAN.** Bir `\b` kaçışı bozulup dosyaya
   **0x08 (BACKSPACE) baytı** yazıldı. `Read` onu **görünmez** gösterdi —
   satır ekranda kusursuz görünüyordu:

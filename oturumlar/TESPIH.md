@@ -45,7 +45,7 @@ kapanan       NOKTA HALKA-2 1 · 2 · 3 — üçü de teslim raporuyla kapandı
 | # | durum | iş | niçin bu sırada |
 |---|---|---|---|
 | **1** | ⏳ | **`uret_petek.py` koşusu** — 2133 nokta · 350 dönemlik gövde değişimi | Bugünün bütün işi buradan geçip yayına çıkacak. Bitince `uret_devirler` + damga + yayın |
-| **2** | 🔵 | **`ainu` kararı** — Matsumae · Hakodate 1281-1550 | **§1.5'in son kırmızı satırı.** `japonya` mı, `kasitli_bosluk` mu? VERİ DEVLET ölçüyor. Kapanınca satır yeşile döner |
+| **2** | ⏳ | 🔴 **`ainu` HAYALETİ CANLI YAYINDA — kabul edilmiş borç, KUSUR DEĞİL** · veri ✓ (2 → 0 dönem, `kasitli_bosluk`) · renk ✓ (`BOYALAR` 311 → 310) · **koşu ✗** | Koşu, veri düzeltilmeden ÖNCE bitti. `renk_cikti` yayını okudu: *"`ainu` · çizilen `#1b8ae4` · **beyan YOK**"*. Sıra kuralının üçüncü ayağı **aynı gün tamamlanamaz**: `veri → renk → KOŞU` (~73 dk). ⇒ **Bir sonraki koşuya biniyor.** 2 pencere · Hokkaido güney kıyısı · halka 6-7 — tek başına 73 dakikalık koşuyu hak etmiyor. **İkinci kez "kusur" diye keşfedilmesin.** |
 | **3** | 🔵 | **`sibir` mükerrer künyesi** + mükerrer kimlik taraması | `sibir` (veride 0) vs `sibir-hanligi` (veride 3). Üçüncü vaka ⇒ **tek tek değil TARAMA** istendi |
 | **4** | 🔵 | **`merini` künyesinde `harita:"merini"`** | Tek satır. Artık 47 dönem `d:"merini"` yazıyor, künye hâlâ `fas`a bakıyor |
 | **5** | ⚪ | 🔴 **BATTANİYE AD KARARI — Emre'de** · ≈7-9 yeni künye + 2 düzeltme · en büyüğü `rusya` 1917-1923 (242 kayıt) | Karar gelmeden hiçbir şey yazılmıyor — "hayır" çıkarsa yazılmamış olması kazanç |
