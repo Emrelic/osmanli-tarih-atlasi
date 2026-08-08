@@ -1099,6 +1099,58 @@ Notlar:
   **geçme yolu** olur, ki o daha sinsidir: denetim gürültülü çalışır ama
   **temiz veriyi de kirli sayıyor** olabilir.
 
+- 🟢 **ÖNGÖRÜ ÖLÇÜMDEN ÖNCE YAZILIR — SONRA YAZILAN BEKLENTİ AYARLANABİLİR,
+  ÖNCE YAZILAN ÇÜRÜTÜLEBİLİR.**
+
+  **Vaka (8 Ağustos 2026, RENK 2).** Koordinatör *"koşudan sonra şunu
+  doğrula; beklediğimden başka çıkarsa bir varsayımım yanlış demektir"*
+  dedi. RENK 2 bunun eksik ayağını gördü:
+  > *"O hâlde beklentiyi ÖNCE yazmam gerekti."*
+
+  ⇒ `denetim/kosu-ongoru.json` — üç sayı, **koşu bitmeden**, damgalı.
+  ```
+  ① eski renkle çizili çıkacak   9
+  ② BOYALAR'da var, çizilmeyen   9
+  ③ koşuda DELİK                 6   ← koordinatör 4 demişti
+  ```
+  📌 Sonradan yazılan beklenti, ölçümü gördükten sonra farkında olmadan
+  **ona göre şekillenir** ve hiçbir zaman yanlış çıkmaz — yani hiçbir şey
+  öğretmez. Önce yazılan beklenti **yanlış çıkabilir**, ve ancak yanlış
+  çıkabilen bir şey bilgi taşır.
+
+  🔴 **Ve ilk işinde koordinatörü çürüttü.** Koordinatör dört delik
+  bekliyordu; ölçüm **altı** dedi, fazladan ikisi **daha büyük**:
+  ```
+  svahili-sehirleri   veride 10 dönem    koordinatör "sessiz borç" demişti
+  umman-zengibar      veride  8 dönem    koordinatör "sessiz borç" demişti
+  (öteki dördü 3 · 3 · 1 · 1 dönem)
+  ```
+  İkisi koordinatörün **kendi listesindeydi** ama *"künyeli-renksiz, sessiz
+  borç"* diye sınıflandırılmıştı. **Veride dönemleri VARDI** ⇒ sessiz borç
+  değil **açık delik**, ve dördünden büyük.
+  ⇒ **Kova ayrımı doğruydu, ATAMA yanlıştı.** Bir kimliğin hangi kovaya
+  düştüğü **künyeye değil VERİYE** bakılarak belirlenir — *"künye penceresi
+  ≠ veri penceresi"* dersinin kova tarafı.
+
+- 🔴 **KENDİ YAZDIĞIN AYRIŞTIRICI, VAR OLAN BİR AYRIŞTIRICIDAN HER ZAMAN
+  KÖTÜDÜR.**
+  Yukarıdaki öngörünün **ilk iki sürümü yanlıştı ve ikisi de SESSİZDİ:**
+  ```
+  ① regex `[^,]*` kullandı ⇒ ADINDA VİRGÜL olan kimlikleri kaçırdı
+     (`dogu-sumatra-sultanliklari`: "…(Jambi, Siak, Deli…)")
+     8 kimlik sessizce kayboldu — "310 kimlik" dedi, gerçek 314
+  ② düzeltme bash heredoc'undan geçirildi, kaçışlar yendi, regex hiçbir
+     şey eşleştirmez oldu → "0 kimlik" ve 298 SAHTE delik
+  ```
+  ⚠️ İkincisi `§11`in **aynı gün BEŞİNCİ ihlali** — ve tam da o dersi
+  uygularken. **Kural yetmiyor.**
+  🟢 **Çare regex'i düzeltmek değil, REGEX'İ BIRAKMAK oldu:** `renkler.py`
+  o revizyondan dosyaya yazılıp **içe aktarıldı**; ayrıştırma işini Python'un
+  kendi ayrıştırıcısı yaptı.
+  📌 Bu proje aynı şeyi bugün **üçüncü kez** öğrendi (`girdi.py`nin tek
+  tırnak vakası · `bagla.py`nin CRLF vakası · bu). ⇒ **Veri zaten bir dilde
+  yazılıysa, o dilin yorumlayıcısını çağır.**
+
 - 🔴 **İKİ AYRI KUSUR TEK SATIRDA RAPORLANIRSA, ÇARELERİ TERS OLSA BİLE
   AYNI ÇARE UYGULANIR — VE DOĞRU VERİ BOZULUR.**
 
