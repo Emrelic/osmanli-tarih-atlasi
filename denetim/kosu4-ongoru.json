@@ -1,0 +1,20 @@
+{
+  "damga": "kosu 4 oncesi",
+  "taban": {
+    "nokta": 2307,
+    "kunye": 390,
+    "boyalar": 325
+  },
+  "1_a1_baglanan_petek": "~280-310 (kalibrasyonda 304 idi, taban buyudu)",
+  "2_kosuda_delik": 0,
+  "3_iran_hayalet_donem": 77,
+  "4_donem_kunyeden_once": 663,
+  "5_osmanli_alan_degisimi": "0/9 kesitte degismeli — Osmanli verisine dokunulmadi",
+  "MAZERETI_OLAN": [
+    "1 (taban buyudu, sayi kayabilir)"
+  ],
+  "MAZERETI_OLMAYAN": [
+    "2 (renksiz kimlik SAYILABILIR, kesin)",
+    "5 (Osmanli DEGISMEMELI — degisirse A1 Osmanli'yi de kesti demektir, ki o zaman TAVAN GEVSETILIR)"
+  ]
+}

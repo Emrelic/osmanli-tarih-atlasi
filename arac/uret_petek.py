@@ -28,6 +28,7 @@ import shapely
 from shapely.geometry import (shape, box, Polygon, MultiPolygon, Point, MultiPoint,
                               LineString, MultiLineString)
 from shapely.ops import unary_union, voronoi_diagram, nearest_points, linemerge, polygonize
+from shapely.affinity import scale as _scale   # A1 yarıçap tavanı (enlem düzeltmeli elips)
 from shapely.strtree import STRtree
 from shapely.validation import make_valid
 from shapely.prepared import prep
@@ -556,6 +557,67 @@ eksik = [i for i, p in enumerate(PETEK) if p is None]
 for i in eksik:                              # nadiren eşleşmezse en yakın hücre
     PETEK[i] = min(hucreler, key=lambda h: h.distance(noktalar[i])).intersection(BOLGE)
 print(f"  {len(PETEK)} petek ({len(eksik)} yedek eşleşme)")
+
+# ---------------- A1: YARIÇAP TAVANI ----------------
+# 🔴 EMRE, 8 Ağustos 2026: "Bir yerleşim yerinin idarî, askerî, sosyal,
+# siyasal olarak hükmedeceği alan bellidir… uçsuz bucaksız toprağa, çöle,
+# bozkıra, ormana ancak X kilometre kadar hâkim olabilir."
+# Doğru, ve bu tavan motorda YOKTU: Voronoi hücresi komşu bulamayınca
+# sonsuza kadar büyüyordu. Ölçülmüş sonucu: `banda-adalari` 573.188 km²
+# boyuyordu — kendi yüzölçümünün (~180 km²) ~3.200 KATI.
+#
+# ⚠️ VE X BİR KİLOMETRE DEĞİL, BİR GÜN SAYISIDIR. Ölçüldü: yoğun ve
+# gerçekçi modellenmiş bölgelerde komşu mesafesi Batı Anadolu 17 km
+# (yarım günlük yürüyüş), Trakya ve Nil vadisi 33-34 km (bir günlük).
+# Veriye bu konmadı — ÖLÇÜNCE ÇIKTI.
+#
+# 🔴 İLK TABLO YÜRÜYÜŞ HIZINDAN TÜRETİLDİ VE ÇOK SIKIYDI. Kara maskesinden
+# SONRA ölçülüp çarpan süpürüldü (ölçüt: tavan BOŞ bölgede bağlasın, YOĞUN
+# bölgede HİÇ bağlamasın):
+#     çarpan  kayıp%  bağlanan   B.Anadolu · Trakya · Nil · İtalya · Fransa
+#       1.5   33.8%     507        0 · 0 · 12 · 0 · 0
+#       2.0   23.1%     304        0 · 0 ·  4 · 0 · 0    ← SEÇİLDİ
+#       3.0   11.8%     126        hepsi 0
+# ⚠️ Nil'in 4'ü YANLIŞ POZİTİF DEĞİL: Nil yerleşimleri BİR ÇİZGİ boyunca
+# yoğundur, hücreleri çöle sarkar. Asyût'un peteğinin Sahra'ya 400 km
+# uzanması ZATEN yanlıştı; tavan onu kesiyor. Testin "yoğun bölge" tanımı
+# ALAN yoğunluğuna bakıyor, DİZİLİME değil.
+#
+# 🟢 VE ASIL DOĞRULAMA SAYIDA DEĞİL, KESİLENLERİN KİMLİĞİNDE: en çok
+# kesilen 20 peteğin YİRMİSİ DE çöl, yağmur ormanı, tundra ya da yüksek
+# yayla (Timbuktu -2,45 M km² · Ndjamena -1,29 M · Agadez -914 bin ·
+# Kisangani -598 bin · Hatanga · Şigatse · Dunhuang · Hotan…).
+# LİSTEDE TEK BİR TARIM ÇEKİRDEĞİ YOK.
+#
+# 📌 Ve tavanın bedava bir kazancı var: Sahra ve Rub'ul Hâlî'deki DOLGU
+# NOKTALARI sırf emilmeyi engellemek için konmuş bir HİLEYDİ; tavan o işi
+# yapısal olarak yapınca emekli edilebilirler.
+TAVAN_KM = {1: 700, 2: 420, 3: 280, 4: 140, 0: 280}   # ölçülmüş: TABAN × 2,0
+_tv_bagli = 0
+_tv_once = _tv_sonra = 0.0
+
+def _tavan_daire(p, r_km, lat):
+    """Enlem düzeltmeli tavan elipsi. Boylam derecesi enlemle kısalır."""
+    dy = r_km / 111.32
+    dx = r_km / (111.32 * max(0.15, math.cos(math.radians(lat))))
+    return _scale(p.buffer(1.0, quad_segs=24), xfact=dx, yfact=dy, origin=p)
+
+for i, y in enumerate(YERLER):
+    r = TAVAN_KM.get(y.get("k") or 0, TAVAN_KM[0])
+    a0 = PETEK[i].area
+    if a0 <= 0:
+        continue
+    kes = PETEK[i].intersection(_tavan_daire(noktalar[i], r, y["lat"]))
+    if kes.is_empty:
+        continue                       # tavan hücreyi tamamen yerse DOKUNMA
+    _tv_once += a0
+    _tv_sonra += kes.area
+    if (a0 - kes.area) / a0 > 0.02:
+        _tv_bagli += 1
+    PETEK[i] = kes
+print(f"  yarıçap tavanı: {_tv_bagli} petek bağlandı ({100*_tv_bagli/len(YERLER):.1f}%) · "
+      f"alan {100*(_tv_once-_tv_sonra)/max(_tv_once,1e-9):.1f}% kesildi")
+print(f"     tavan (km): " + " · ".join(f"k{k}={v}" for k, v in sorted(TAVAN_KM.items())))
 
 # ---------------- Petek sınırlarını doğal hatlara yasla ----------------
 # ⚠️ TOPOLOJİ KURALI (Oturum 8): yumuşatma ve sadeleştirme petek petek DEĞİL,
