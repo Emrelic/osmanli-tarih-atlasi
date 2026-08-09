@@ -1,70 +1,107 @@
 # BEKLEYENLER — Tarih Atlası · Emre'den ne bekleniyor
 
-> Koordinatör: Oturum 0 · son tazeleme 2026-08-08 akşam
-> 🔴 **Bu dosya ATLAS projesinindir.** ClaudEmre'nin kök `BEKLEYENLER.md`si
-> **sistem** maddeleri içindir ve kutu onu **her projede** gösterir — oraya
-> proje işi yazmak, o işi eczane projesinin kutusuna taşır. Ölçülmüş vaka
-> için aşağıya bak.
+> Koordinatör: Oturum 0 · son tazeleme **9 Ağustos 2026, 04:05** (gece kapanışı)
 
 ---
 
-## 🟢 ŞU AN SENDEN BEKLENEN: BİR ŞEY
+# 🔴 SABAH İLK OKUNACAK: YAYIN YAPILMADI, VE SEBEBİ
 
-### 🟡 H-0007 — bir maddenin metni boş
+Emre *"koşu bitince yayınla, commit push yap ve bilgisayarı kapat"* dedi.
+**Commit ve push yapıldı, YAYIN YAPILMADI.** Sebebi bir karar değil, bir
+**ölçüm** — ve kararı koşudan önce ben kendim yazmıştım.
 
-`kutu/giden/parti-emrelic-0008/H-0007-1.png` gönderilmiş ama **metin
-yazılmamış.** Görüntüden ne sorduğunu çıkaramıyorum, tahmin de etmek
-istemiyorum. **Bir cümleyle yaz, cevaplayayım.**
-Öteki 15 maddenin cevabı `kutu/giden/parti-emrelic-0008/CEVAP.md`de.
+## Ne oldu
 
----
-
-## ŞU AN NE DÖNÜYOR
+`denetim/kosu4-ongoru.json`, koşu başlamadan yazıldı ve şunu diyordu:
 
 ```
-🟢 YAYIN r1079     indi — 151 yeni nokta, 9 delik kapandı, 2,49 M km²
-                    Osmanlı 0/9 kesitte değişti (doğru)
-⏸ NOKTA SİBİRYA    9 nokta yazdı, beklemede — 4'ü pencere dışı
-⏳ RENK 2           uret_devirler.py'nin paletini ölçüyor
-                    (4. otorite ayrışması olabilir, bugün YAYINDA)
-📋 A1 tavanı        kalibre edildi (×2,0) — motora yazılacak, koşu 4'te sınanacak
+MAZERETİ OLMAYAN ⑤ — Osmanlı alanı 0/9 kesitte DEĞİŞMELİ.
+                      Değişirse A1 Osmanlı çekirdeğini de kesiyor demektir
+                      ve o zaman HARİTA DEĞİL TAVAN düzeltilir.
 ```
+
+**Ölçüm:**
+```
+Osmanlı   7/9 kesitte DEĞİŞTİ    -3,2% · -3,9% · -3,3% · -3,1% · -2,3%
+yabancı   9/9 değişti, +%15      +6,6 milyon km²  ← bir TAVAN alanı ARTIRAMAZ
+```
+
+⇒ Kendi koyduğum kurala göre yayın **durdu**, üretilmiş dört çıktı dosyası
+geri alındı. **Canlı yayın r1079'da kalıyor** — dünkü sağlam hâl.
+
+## Sebep bulundu ve tek satır
+
+```
+20 petek kısaldı, toplam 3.397.649 km² sahipsizleşti
+118 YETİM YÜZ SAHİPLİ KOMŞULARA KATILDI     ← 🔴 SEBEP BU
+```
+
+Tavan toprağı serbest bırakıyor, ama motorun **"yetim yüz"** mantığı onu
+**en yakın komşuya geri veriyor.** Yani sahipsiz kalması gereken çöl yine
+emiliyor — `§2`'nin ta kendisi, tavanın **önlemesi gereken** şey.
+
+📌 Tavan doğru hesaplıyor (305 petek, kara alanının %23'ü — **öngörü birebir
+tuttu**), ama **sonraki aşama onu geri alıyor.** Yani kusur tavanda değil,
+tavanla yetim-yüz mantığının **arasında.**
+
+## Yarın ilk iş — üç seçenek, ölçülecek
+
+```
+A  yetim yüz mantığına "TAVANLA KESİLMİŞ alanı EMME" istisnası ekle
+   → en doğrusu; tavan gerçekten sahipsiz alan üretir
+B  tavanı yetim-yüz aşamasından SONRAYA taşı
+   → üçüncü yer denemesi; bugün iki yer denendi
+C  tavanı geri çek, kademe A'yı ağırlıklı Voronoi olarak yeniden kur
+   → en pahalısı
+```
+**Önerim A.** Ve önce şu ölçülecek: *"yetim yüz" mantığı niçin var?* —
+muhtemelen ada/enklav sorunları için, ve o gerekçe tavanla çelişmiyor
+olabilir; o zaman istisna temiz durur.
+
+⚠️ Ve `arac/uret_petek.py`de A1 **açık duruyor.** Yarın koşu yapılacaksa
+önce bu çözülmeli, yoksa aynı sonuç çıkar.
 
 ---
 
-## SIRADAKİ KOŞUDA NE OLACAK (koşu 4)
+## 🟢 BUGÜN NE İNDİ (hepsi commit'li ve push'lu)
 
 ```
-① A1 yarıçap tavanı motora yazılır      → banda-adalari sınıfı yapısal olarak biter
-② Sibirya'nın 9 noktası iner
-③ tavan geçerse PENCERE DOĞUYA AÇILIR   → Çukotka/Kamçatka canlanır
+nokta        2133 → 2307      DÖRT parti · dördünde de AÇILAN KIRILMA GÜNÜ 0
+künye        381 → 390        serbedariler · kert · loango · luba · kuba …
+renk         310 → 325        renk borcu 73 → 7
+`iran`       124 → 77         hayalet dönem (47'si tarih ölçütüyle)
+emilme       somali · banda-adalari · ingiltere1900 KAPANDI
+Ferecik      H-0007'nin cevabı — 82 km'lik koridor boşluğu
+yayın        r1079 CANLI (dünkü koşu, sağlam)
 ```
-⚠️ ①'in sınavı: tavan **bugünkü haritayı bozmamalı.** Bozarsa tavan
-gevşetilir, harita değil.
+
+**Ve bir yayın zaten yapıldı:** r1079 bugün 19:38'de indi ve canlıda —
+151 nokta, 9 delik kapandı, 2,49 milyon km². Bugünün ikinci yayını
+(r1080) yapılamadı.
 
 ---
 
-## SANA SORULACAKLAR (henüz sorulmadı — haber olsun)
+## 🟡 SENDEN BEKLENEN — iki şey
 
-| ne zaman | ne soracağım |
-|---|---|
-| koşu 4'ten sonra | A1 tavanı %23 alan kaybı getirdi — kesilenler doğru yerler mi, gözle bakar mısın |
-| pencere açılınca | Amerika'ya hangi sırayla gireceğiz: kuzeyden mi güneyden mi |
-| Kongo dosyası kapanınca | `kesinlik:"belge"` alanı kaç künyeye yazılsın — hepsine mi, yalnız şüphelilere mi |
+### ① A1 için A/B/C kararı
+Yukarıdaki üç seçenek. **Önerim A**, ama karar senin.
+
+### ② Halka tablosunda son bir onay
+`ONCELIK.md`ye yazıldı, Fas 4 · Hindistan 5 senin kararınla. Bir daha
+gözden geçirmek istersen orada duruyor.
 
 ---
 
-## 🔴 NİÇİN BU DOSYA DOĞDU — ölçülmüş bir kanal kusuru
+## ŞU AN NE BEKLİYOR
 
-8 Ağustos 2026: koordinatör (ben) atlas sorularını **ClaudEmre'nin kök
-`BEKLEYENLER.md`sine** yazdı. Kutu o dosyayı `SİSTEM ·` önekiyle **her
-projede** gösteriyor ⇒ atlas soruları **EczAsist (eczane) projesinin
-kutusunda** belirdi ve Emre haklı olarak sordu:
+```
+⏸ KALİTE 4      kapandı · yarın Hazar → Kirman/Yezd → Avrupa Rusyası → Avusturya
+⏸ RENK 2        boşta · `devirler.js` denetimi yarın (arac/ altında)
+⏸ PROJEKSİYON   MapLibre v5 + hibrit kod HAZIR, `projeksiyon` dalında
+                🔴 GÖRSEL SINAV YAPILMADI — koordinatörde, yarın
+                eşik sayıları (kureZoom 4 / mercatorZoom 6) TAHMİN, ölçülecek
+```
 
-> *"Bu mesajlar atlas projesi için olan mesajlar değil mi? Burası EczAsist
-> oturumu ve proje combobox'ında EczAsist seçili; bu mesajların burada
-> olmaması gerekiyordu."*
-
-📌 Kusur kutuda değil **bende**: sistem dosyasına proje işi yazdım, kutu
-onu sadakatle taşıdı. ⇒ **Ortak bir kanala özel bir mesaj koymak, onu
-herkese göndermektir** — ve kanalın kendisi kusursuz çalışıyordu.
+📌 Ve bir uyarı: PROJEKSİYON dalı `main`den geride. Birleştirirken
+`index.html`de sürüm damgası çakışacak — **damgayı main'den, MapLibre
+sürümünü daldan** al.
