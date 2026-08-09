@@ -118,3 +118,33 @@ kaynak denemesi de tutmadı, zorlamadan geçiyorum (durma kuralı).
 "BULUNAMADI" SAYACI: 2 (Bostanabad, Hashtrud).
 
 Devam: aynı üçgende ve Nahçıvan kuzeyinde birkaç aday daha deneniyor.
+
+## PARTİ 3 TAMAMLANDI VE KAPANDI (Emre'nin kapanış kararıyla)
+
+Son nokta: **Şerur (Sharur)** 39.55,44.95 — Nahçıvan'ın en eski
+yerleşimlerinden, 1502'de Şah İsmâil'in Safevî ordusu burada savaş
+kazandı, 16-18.yy Osmanlı-Safevî savaşlarında sık el değiştirdi. Komşu
+Nahçıvan ile AYNI zincir (ilhanli→celayirli[1340, fetret düzeltmesi
+uygulanmış]→...→kacar→**rusya 1828-02-22** — Türkmençay Antlaşması'yla
+Nakhchivan hanlığı Rusya'ya geçti, aynı Nahçıvan noktasındaki gibi).
+
+DOĞRULAMA (son hâl): 5 nokta, syntax OK. 3km yakınlık — 0 çakışma.
+`denetle.py`: Değişmez 1 ✓180/182 · 2 ✓0 açık · 2s ✓121/121 · 2i ✓3/3.
+
+## TESLİM RAPORU — KALİTE 4 PARTİ 1-3 (bugünkü toplam)
+
+```
+YAZILAN         5 nokta  (Meşkinşehr · Mahabad · Bâne · Serdeşt · Şerur)
+BULUNAMADI      2 nokta  (Bostanabad, Hashtrud — iki kaynak da tutmadı)
+YENİ KÜNYE      0        (bölgedeki bütün komşular zaten tek zincir kullanıyor)
+AÇILAN KIRILMA  0        (dördüncü partide de sıfır)
+```
+
+Ayrıca YAN ÜRÜN: İran künye-kusuru ölçümü (113/124 dönem kümelendi,
+47 nokta düzeldi — muzafferi+celayirli), `kert`/`serbedariler` künye
+önerisi (f/t + TDV kaynağı verildi), fetret sorusu çözüldü (`ilhanli`
+künyesi zaten 1353'e kadar doğru, yeni künye/kasıtlı_boşluk gerekmiyor).
+
+KAPANIYORUM — Emre'nin kararı: bugün yeni alt bölgeye geçilmeyecek,
+yarın devam (Hazar kıyısı → Kirman/Yezd → Avrupa Rusyası → Avusturya
+sırası bekliyor).
