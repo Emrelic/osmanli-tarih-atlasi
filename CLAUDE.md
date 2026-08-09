@@ -328,6 +328,40 @@ node -e "global.window={};eval(require('fs').readFileSync('data/yerlesimler.js',
   dayanma; çelişirse TDV esastır.
 - **TDV'nin kapsamadığı coğrafyalar** (Doğu Asya, Amerika, Sahra altı Afrika,
   Okyanusya, Avrupa'nın iç tarihi) için standart akademik referans yeterlidir.
+
+### 🔴🔴 KIRMIZI ÇİZGİ — DIŞARI ÇIKINCA NEREYE (kullanıcı beyanı, 9 Ağustos 2026)
+
+> *"TDV dışına çıkabilirsin ama gideceğin kaynaklar **AKADEMİK, GÜVENİLİR ve
+> BİLİMSEL** olmalı. İnternetteki saçma sapan bir sürü içeriğe güvenilmesin.
+> Bu projede kırmızı çizgi olarak hep akademik bilimsel güvenilir kaynaklara
+> başvuralım."*
+
+Bu kural **bugüne kadar yazılı değildi** ve boşluğu ölçülmüş bir vakada
+görüldü: `§4`ün *"standart akademik referans yeterlidir"* cümlesi **kapıyı**
+tarif ediyordu, **dışarısını** değil. Tanımsız bir *"standart akademik"*
+ifadesi, boşluğu **arama sonuçlarının ilk sayfasıyla** doldurur.
+
+```
+🟢 KABUL      Encyclopaedia Iranica · Cambridge History serileri ·
+              üniversite yayınları · hakemli dergi makalesi · alanın
+              standart el kitabı · birincil kaynak neşri/çevirisi
+🔴 KULLANILMAZ  forum · blog · içerik çiftliği · kaynaksız derleme site ·
+              yapay zekâ üretimi metin · "tarih sayfası" tipi popüler site
+🟡 Vikipedi   TEK DAYANAK DEĞİL — yalnız "hangi maddeye bakayım" sorusunu
+              cevaplar (bu kural zaten aşağıda yazılıydı, burada tekrarı
+              kasıtlı: dışarı çıkış listesinin İÇİNDE görünmesi gerekiyor)
+```
+
+⚠️ **Ve üçüncü şart ikisini de denetlenebilir kılar: KAYNAK GİZLENMEZ.**
+Hangi kaynağa dayanıldığı `kaynak:` alanına **açıkça** yazılır; bulunamadıysa
+`bulunamadı` diye yazılır. **Kaynağı yazılmayan bilgi, kaynağı olmayan
+bilgiden ayırt edilemez.** (Loango · Luba · Kuba · Kert künyelerinde
+uygulanmış biçimi budur.)
+
+📌 Ve reddedilen küme, kabul edilen kümeden değerlidir: *"akademik kaynak
+kullan"* olumlu bir tarif olarak neredeyse boştur — herkes kendi bulduğunu
+akademik sanır. Sınanabilir olan, **neyin kullanılmayacağıdır.**
+
 - **Vikipedi hiçbir zaman tek dayanak değildir.** "Hangi olaya bakmalıyım" sorusunu
   cevaplar; tarih oradan alınıp doğrulanmadan yazılmaz.
 - **Tarih uydurma.** Gün bilinmiyorsa `YYYY-01-01` yaz — bu, "yıl biliniyor, gün

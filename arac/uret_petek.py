@@ -593,7 +593,7 @@ print(f"  {len(PETEK)} petek ({len(eksik)} yedek eşleşme)")
 # NOKTALARI sırf emilmeyi engellemek için konmuş bir HİLEYDİ; tavan o işi
 # yapısal olarak yapınca emekli edilebilirler.
 TAVAN_KM = {1: 700, 2: 420, 3: 280, 4: 140, 0: 280}   # ölçülmüş: TABAN × 2,0
-_tv_bagli = 0
+_TV_BAGLI = set()          # tavanın BAĞLADIĞI hücrelerin indisleri (§KIYI'de dolar)
 _tv_once = _tv_sonra = 0.0
 
 def _tavan_daire(p, r_km, lat):
@@ -915,10 +915,14 @@ asama("Örtü sadeleştirme (coverage_simplify)")
 # NOT: set_precision KULLANILMIYOR — ortak köşeler zaten bit düzeyinde aynı;
 # ızgaraya oturtma, üçlü kavşaklarda hücre başına farklı çökme yapıp bozuk
 # kenar üretiyordu (Maraş/Adana/Antakya kavşağında görüldü).
-def _bozuk_dok(hucreler, etiket):
+def _bozuk_liste(hucreler):
+    """Bozuk kenarı olan hücrelerin (indis, kenar) listesi."""
     idx = [i for i, g in enumerate(hucreler) if g is not None and not g.is_empty]
     b = shapely.coverage_invalid_edges([hucreler[i] for i in idx])
-    kot = [(idx[k], x) for k, x in enumerate(b) if x is not None and not x.is_empty]
+    return [(idx[k], x) for k, x in enumerate(b) if x is not None and not x.is_empty]
+
+def _bozuk_dok(hucreler, etiket):
+    kot = _bozuk_liste(hucreler)
     for i, x in kot:
         print(f"    BOZUK KENAR [{etiket}] {YERLER[i]['ad']}: {x.wkt[:90]}")
     return len(kot)
@@ -936,7 +940,7 @@ asama("Kıyı kesimi (her hücre × KARA) + A1 YARIÇAP TAVANI")
 #   ① kesim KARA üzerinde ⇒ tavan denizi boşuna kesmez, kalibrasyonla örtüşür
 #   ② bu adımdan SONRA hiçbir yumuşatma/sadeleştirme yok ⇒ ortak kenar ağı
 #      bozulmaz (Voronoi'nin ardında uygulandığında +17 bozuk kenar açmıştı)
-_tv_bagli = 0
+_TV_BAGLI = set()          # 🔴 SAYI DEĞİL KÜME — aşağıdaki nöbetçi kovayı ayırsın diye
 _tv_once = _tv_sonra = 0.0
 PETEK_D = []
 for i, g in enumerate(PETEK_TAM):
@@ -948,12 +952,25 @@ for i, g in enumerate(PETEK_TAM):
             _tv_once += a0
             _tv_sonra += kes.area
             if (a0 - kes.area) / a0 > 0.02:
-                _tv_bagli += 1
+                _TV_BAGLI.add(i)
             kara_kesik = kes
         # tavan hücreyi TAMAMEN yerse dokunma: nokta kendi peteğinden olmaz
     PETEK_D.append(poligonal(kara_kesik))
-print(f"  yarıçap tavanı: {_tv_bagli} petek bağlandı ({100*_tv_bagli/len(YERLER):.1f}%) · "
+print(f"  yarıçap tavanı: {len(_TV_BAGLI)} petek bağlandı "
+      f"({100*len(_TV_BAGLI)/len(YERLER):.1f}%) · "
       f"KARA alanının {100*(_tv_once-_tv_sonra)/max(_tv_once,1e-9):.1f}%'i kesildi")
+
+# 🔴 KORUNUM SINAVI — 9 Ağustos 2026, ve NİÇİN VAR:
+# Koşu 4b'den sonra "Osmanlı 7/9 kesitte daraldı, yabancı +%15 (+6,6 M km²)"
+# ölçüldü ve yayın DURDURULDU. Ama bir TAVAN alan ARTIRAMAZ — yani ya motorda
+# bir kaçak vardı ya da ÖLÇÜM yanlıştı. Çıktı dosyaları geri alındığı için
+# soru koşu dışından cevaplanamadı.  ⇒ Alet koşunun İÇİNE kondu.
+# Tavan yalnız KESER: kesimden sonra toplam boyanan alan, kesilen kadar
+# AZALMALI — artarsa sonraki bir aşama kaçak veriyor demektir.
+_TV_BEKLENEN_KAYIP = _tv_once - _tv_sonra
+_TV_TOPLAM_SONRA = sum(g.area for g in PETEK_D if g is not None and not g.is_empty)
+print(f"  korunum: tavan sonrası toplam boyanan {_TV_TOPLAM_SONRA:,.0f} birim² · "
+      f"tavanın kestiği {_TV_BEKLENEN_KAYIP:,.0f} birim²")
 
 # ---------------- ADA KURALI ----------------
 # Bir yerleşimin peteği KENDİ kara parçasının dışına taşamaz.
@@ -1291,7 +1308,41 @@ BOZUK_KIYI_TABAN = 58
 # sonrası); yalnız yeri düzeltildi. Çöl tavanı sonrasındaki çağrı aşağıda
 # duruyor ama artık BİLGİ satırı — ✗ basmıyor, çünkü orada ölçtüğü delikler
 # kasıtlı.
-_nk0 = _bozuk_dok(PETEK_D, "çöl öncesi")
+# ═══ 🔴 9 Ağustos 2026 — NÖBETÇİNİN EVRENİ DEĞİŞTİ, KENDİSİ DEĞİŞMEDİ ═══
+# Bu nöbetçi kurulduğunda önünde KASITLI DELİK AÇAN hiçbir aşama yoktu; bütün
+# bozuk kenarlar kıyı geometrisinden geliyordu ve taban (58) onu ölçüyordu.
+# 8 Ağustos'ta A1 YARIÇAP TAVANI tam onun ÖNÜNE kondu ve kasıtlı delik açmaya
+# başladı. Nöbetçi ikisini AYNI KOVAYA koydu:
+#     koşu 3  (tavan yok)          62 bozuk kenar
+#     koşu 4b (tavan kıyı kesiminde)  382       ← "✗ YENİ UYUŞMAZLIK"
+# Ölçüldü: 335 yeni kenarın adları neredeyse tamamen çöl · bozkır · Sibirya ·
+# Afrika — yani TAVANIN KESTİĞİ hücreler. Kıyıda yeni bir uyuşmazlık YOK.
+# 📌 Ve motor bu kavramı ZATEN biliyordu: 30 satır yukarıda çöl tavanı için
+#    "orada ölçtüğü delikler kasıtlı" diye muafiyet yazılı. A1'e yazılmamıştı,
+#    çünkü A1 nöbetçiden SONRA doğdu.
+# ⇒ Kova ayrıldı: tavanın bağladığı hücreler BİLGİ, ötekiler TRIPWIRE.
+# ⚠️ Yaklaşıklık ve saklanmıyor: tavanın bağladığı bir hücrede GERÇEK bir kıyı
+#    uyuşmazlığı doğarsa "kasıtlı" kovasına düşer ve tripwire onu görmez.
+#    Bedeli ölçülebilir olsun diye iki sayı da basılıyor.
+# 🔴 KORUNUM SINAVI ②: tavandan buraya kadar (ada kuralı + kara-kısıtlı
+# sahiplik) alan ARTMIŞ olmamalı. Koşu 4b'de "yabancı +%15" ölçülmüştü ve
+# hangi aşamanın ürettiği bilinmiyordu; bu satır onu koşunun içinde söyler.
+_TV_TOPLAM_SIMDI = sum(g.area for g in PETEK_D if g is not None and not g.is_empty)
+_tv_delta = _TV_TOPLAM_SIMDI - _TV_TOPLAM_SONRA
+print(f"  korunum ②: tavandan bu noktaya alan {_tv_delta:+,.0f} birim² "
+      f"({100*_tv_delta/max(_TV_TOPLAM_SONRA,1e-9):+.2f}%)"
+      + ("  ⚠️ ARTIŞ — bir aşama sahipsiz alanı geri veriyor"
+         if _tv_delta > 0.001 * _TV_TOPLAM_SONRA else "  ✓"))
+
+_kot0 = _bozuk_liste(PETEK_D)
+_nk0 = sum(1 for i, _ in _kot0 if i not in _TV_BAGLI)
+_nk0_tavan = len(_kot0) - _nk0
+for i, x in _kot0:
+    _ki = "tavan/kasıtlı" if i in _TV_BAGLI else "çöl öncesi"
+    print(f"    BOZUK KENAR [{_ki}] {YERLER[i]['ad']}: {x.wkt[:90]}")
+if _nk0_tavan:
+    print(f"  A1 tavanının açtığı kenar: {_nk0_tavan} (KASITLI — sahipsizleşen "
+          f"alanın kenarı, tripwire'a SAYILMAZ)")
 if _nk0 > BOZUK_KIYI_TABAN:
     print(f"  çöl tavanı ÖNCESİ örtü: {_nk0} bozuk kenar "
           f"(taban {BOZUK_KIYI_TABAN}) ✗ TABANIN ÜSTÜNDE — YENİ UYUŞMAZLIK")

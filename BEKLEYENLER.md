@@ -29,37 +29,84 @@ yabancı   9/9 değişti, +%15      +6,6 milyon km²  ← bir TAVAN alanı ARTIR
 ⇒ Kendi koyduğum kurala göre yayın **durdu**, üretilmiş dört çıktı dosyası
 geri alındı. **Canlı yayın r1079'da kalıyor** — dünkü sağlam hâl.
 
-## Sebep bulundu ve tek satır
+## 🔴 SEBEP DİYE YAZILAN ŞEY ÖLÇÜLDÜ VE ÇÜRÜDÜ — 9 Ağustos sabahı
+
+Gece şu yazılmıştı: *"118 YETİM YÜZ SAHİPLİ KOMŞULARA KATILDI ← SEBEP BU."*
+**Yanlıştı, ve iki ayrı yoldan yanlıştı:**
 
 ```
-20 petek kısaldı, toplam 3.397.649 km² sahipsizleşti
-118 YETİM YÜZ SAHİPLİ KOMŞULARA KATILDI     ← 🔴 SEBEP BU
+① MUTLAK SAYIYI FARK SANDIM
+   kosu3 (tavan YOK)   116 yetim yüz
+   kosu4b (tavan VAR)  118 yetim yüz     ⇒ tavanın payı 2, 118 DEĞİL
+② AŞAMA SIRASI ZATEN İMKÂNSIZ KILIYORDU
+   yetim yüz  uret_petek.py:912
+   A1 tavanı            :933      ⇒ yetim yüz tavandan ÖNCE koşuyor,
+   tavanın serbest bıraktığı toprağı GÖRMESİ bile mümkün değil
 ```
 
-Tavan toprağı serbest bırakıyor, ama motorun **"yetim yüz"** mantığı onu
-**en yakın komşuya geri veriyor.** Yani sahipsiz kalması gereken çöl yine
-emiliyor — `§2`'nin ta kendisi, tavanın **önlemesi gereken** şey.
+📌 Bu, bu projenin kendi dersinin ihlali: *"bir sayaç 'dört tane var' der,
+nöbetçi 'ikisi az önce doğdu' der — ve asıl bilgi ikincisidir."* Gece o
+dersi uygulamadım; sabah üç koşu logunu yan yana koyunca çıktı.
 
-📌 Tavan doğru hesaplıyor (305 petek, kara alanının %23'ü — **öngörü birebir
-tuttu**), ama **sonraki aşama onu geri alıyor.** Yani kusur tavanda değil,
-tavanla yetim-yüz mantığının **arasında.**
-
-## Yarın ilk iş — üç seçenek, ölçülecek
+## 🟢 GERÇEK BULGU — üç koşu yan yana konunca desen çıktı
 
 ```
-A  yetim yüz mantığına "TAVANLA KESİLMİŞ alanı EMME" istisnası ekle
-   → en doğrusu; tavan gerçekten sahipsiz alan üretir
-B  tavanı yetim-yüz aşamasından SONRAYA taşı
-   → üçüncü yer denemesi; bugün iki yer denendi
-C  tavanı geri çek, kademe A'yı ağırlıklı Voronoi olarak yeniden kur
-   → en pahalısı
+kosu3   tavan YOK              116 yetim yüz  ·   62 bozuk kenar
+kosu4   tavan Voronoi sonrası  283 yetim yüz  ·   75 bozuk kenar   ← YETİM YÜZ patladı
+kosu4b  tavan kıyı kesiminde   118 yetim yüz  ·  382 bozuk kenar   ← BOZUK KENAR patladı
 ```
-**Önerim A.** Ve önce şu ölçülecek: *"yetim yüz" mantığı niçin var?* —
-muhtemelen ada/enklav sorunları için, ve o gerekçe tavanla çelişmiyor
-olabilir; o zaman istisna temiz durur.
 
-⚠️ Ve `arac/uret_petek.py`de A1 **açık duruyor.** Yarın koşu yapılacaksa
-önce bu çözülmeli, yoksa aynı sonuç çıkar.
+**Her yerleştirme TAM BİR arıza üretiyor** — ve gece görülen yalnız
+birincisinin adıydı, ikincisinin verisiydi.
+
+Ve 382'nin kimliği ölçüldü: **335 yeni kenarın adları neredeyse tamamen çöl ·
+bozkır · Sibirya · Afrika** — yani tavanın kestiği hücreler. Kıyıda yeni bir
+uyuşmazlık **yok.**
+
+🔴 **Ve asıl teşhis: nöbetçinin EVRENİ değişti, KENDİSİ değişmedi.**
+`uret_petek.py:1289` şunu **zaten yazıyor**: *"Çöl tavanı sonrasındaki çağrı
+… artık BİLGİ satırı — ✗ basmıyor, çünkü orada ölçtüğü delikler **kasıtlı**."*
+Yani motor *"kasıtlı delik bozuk kenar üretir, bu kusur değildir"* kavramını
+biliyor — **çöl tavanına muafiyet vermiş, A1'e vermemiş**, çünkü A1 nöbetçiden
+sonra doğdu ve tam onun **önüne** yerleşti.
+
+## ⇒ A/B/C ŞIKLARI ÖLDÜ — ikisi yanlış teşhisin üzerine kuruluydu
+
+```
+A  "yetim yüz mantığına istisna ekle"   → GEREKSİZ: yetim yüz sebep değil
+B  "tavanı yetim-yüzden SONRAYA taşı"   → ZATEN ÖYLE (912 < 933)
+C  ağırlıklı Voronoi                     → hâlâ açık ama gerekçesi kalmadı
+```
+
+**Yapılan (kod, 9 Ağustos):** geometriye **hiç dokunulmadı.** İki ölçüm
+aleti eklendi:
+```
+① KOVA AYRIMI    tavanın bağladığı hücrelerin kenarı "kasıtlı" kovasına
+                 gider, tripwire'a SAYILMAZ. Yaklaşıklığı ve bedeli koda
+                 açıkça yazıldı (kapalı kovaya düşen gerçek bir kıyı
+                 kusuru görünmez olur — iki sayı da basılıyor)
+② KORUNUM SINAVI tavan alanı ARTIRAMAZ. Koşu 4b'de "yabancı +%15
+                 (+6,6 M km²)" ölçülmüştü ve çıktılar geri alındığı için
+                 dışarıdan sorulamıyordu ⇒ alet koşunun İÇİNE kondu
+```
+`C13` gereği ikisi de **iki yönde sınandı** (sentetik geometriyle zorlanarak):
+geçme yolu temiz · üç ateşleme dalı da ötüyor · ve tavan kesiği **gerçek bir
+bozukluğu ÖRTMÜYOR.**
+
+## 🟡 KOŞU 5 KOŞUYOR — ve kararı O verecek
+
+Öngörü **koşu başlamadan** yazıldı: `denetim/kosu5-ongoru.json`, beş kalem.
+Bilgiyi taşıyacak kalem **önceden işaretli**:
+
+```
+④ korunum ②: tavandan nöbetçiye alan değişimi
+   ⚠️ ARTIŞ çıkarsa → kaçak GERÇEK ve yeri BULUNDU
+   ✓ çıkarsa       → "+%15 yabancı" ÖLÇÜMÜ yanlıştı, tavanda kusur YOK
+   İki sonuç da bilgidir; hangisi çıkarsa karar ona göre verilir
+```
+
+⚠️ Bu koşu **geometriyi değiştirmiyor** — çıktısı 4b ile aynı olmalı. Amacı
+yayın değil **teşhis**; ama temiz çıkarsa aynı çıktı yayınlanabilir.
 
 ---
 
