@@ -70,4 +70,22 @@ window.YERLESIMLER_KALITE4 = [
      {f:"1747-06-20",t:"1796-01-01",d:"zend"},
      {f:"1796-01-01",t:"1923-10-29",d:"kacar"}] },
 
+{ ad:"Şerur (Sharur)", tur:"sehir", lat:39.55, lon:44.95, g:0, k:3,
+  // kaynak: standart akademik — "Nahçıvan'ın en eski ve en büyük
+  // yerleşimlerinden biri", 1502'de Şah İsmâil'in Safevî ordusu burada
+  // savaş kazandı (Nahçıvan'ın Safevî'ye geçişiyle aynı dönem), 16-18.
+  // yy Osmanlı-Safevî savaşlarında sık sık el değiştirdi. TDV müstakil
+  // maddesi yok. Komşu Nahçıvan ile AYNI zincir (aynı hanlık/idari birim,
+  // 1828 Türkmençay Antlaşması'yla Rusya'ya geçiyor).
+  s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},
+     {f:"1340-01-01",t:"1386-01-01",d:"celayirli"},
+     {f:"1386-01-01",t:"1406-10-21",d:"timurlu"},
+     {f:"1406-10-21",t:"1468-04-01",d:"karakoyunlu"},
+     {f:"1468-04-01",t:"1501-07-01",d:"akkoyunlu"},
+     {f:"1501-07-01",t:"1736-03-08",d:"safevi"},
+     {f:"1736-03-08",t:"1747-06-20",d:"afsar"},
+     {f:"1747-06-20",t:"1796-01-01",d:"zend"},
+     {f:"1796-01-01",t:"1828-02-22",d:"kacar"},
+     {f:"1828-02-22",t:"1923-10-29",d:"rusya"}] },
+
 ];
