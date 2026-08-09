@@ -2,7 +2,7 @@
 
 > 🤖 **BU DOSYA ÜRETİLİR — ELLE DÜZENLEME.**
 > Kaynak: `oturumlar/tespih.json` · üretici: `ClaudEmre/kutu/tespih.py`
-> Son güncelleme: **2026-08-08T17:19**
+> Son güncelleme: **2026-08-09T14:09**
 >
 > Sıralama ölçütü **`FAYDA ÷ EMEK`** — önem yüksek + irilik düşük önce.
 > Üç öncelik kuralı: **① darboğaz · ② tekrar eden madde · ③ yakınlık**
@@ -12,11 +12,11 @@
 | | kanal | ne demek | adet |
 |---|---|---|---|
 | 🔬 | **sistem analizi** | biz ölçüp eksik/yanlış bulduk, Emre onayladı | 19 |
-| 💬 | **Emre — oturumdan** | iş sürerken aklına gelip pencereye yazdı | 33 |
+| 💬 | **Emre — oturumdan** | iş sürerken aklına gelip pencereye yazdı | 34 |
 | 📦 | **Emre — paket** | toplu hâlde gönderdiği hatalar/fikirler | 1 |
 | 🔧 | **oturum önerisi** | işçi oturum bildirdi ya da istişareden çıktı | 43 |
 | 👁 | **bekleyenler cevabı** | BEKLEYENLER kutusunda sorulana verdiği cevap | 3 |
-| 🌱 | **%0 — gündemde yoktu** | hiç düşünülmemişti; üreteç peydah etti | 0 |
+| 🌱 | **%0 — gündemde yoktu** | hiç düşünülmemişti; üreteç peydah etti | 3 |
 
 ## 🪆 MATRUŞKA — paketler ve içinden çıkanlar
 
@@ -77,7 +77,17 @@
 | 🟧 | **metreküp** | bir çağ / bir devlet — haftalarca iş · 🔴 **YAPILMAZ, AÇILIR** | 14 |
 | 🟨 | **desimetreküp** | bir bölge / bir eksen — günlerce iş · 🔴 **YAPILMAZ, AÇILIR** | 8 |
 | 🟩 | **santimetreküp** | bir parti — saatlerce iş | 17 |
-| 🟦 | **milimetreküp** | TEK BONCUK — yapılabilir, açılamaz | 56 |
+| 🟦 | **milimetreküp** | TEK BONCUK — yapılabilir, açılamaz | 60 |
+
+---
+
+## 🌱 ONAY BEKLEYEN — üreteç önerdi, Emre karar verecek — 3
+
+| # | iş | kanal | sahip | niçin bu sırada |
+|---|---|---|---|---|
+| T-0103 | Atlas kendi BELİRSİZLİĞİNİ hesaplıyor ama çizmiyor | 🟦 🌱 | — | Veride zengin bir belirsizlik katmanı VAR ve render'da atılıyor: kasitli_bosluk · neden:'devletsiz' vs 'veri-yok' · kesinlik:'belge' · yuvarlak tarih (YYYY-01-01) · motorun kendi ölçtüğü 'belirsizlik km — medyan 104,8 · maks 283,2'. Harita bunların hepsini AYNI keskinlikte boyuyor. Bir öğretim aracının en kötü yanılgısı bu: bilmediğini bildiği gibi göstermek. Öğrenci 1450 Sibirya'sına bakıp 'demek buranın sahibi buymuş' diyor, oysa kaynak SUSUYOR. Öneri: kesinlik düşük gövde daha soluk/taramalı çizilsin, yuvarlak tarihli kırılma zaman çubuğunda farklı işaretlensin. Veri ZATEN var — eksik olan yalnız görselleştirme. |
+| T-0104 | Haritaya TIKLAYIP soru soramıyoruz — akış tek yönlü | 🟦 🌱 | — | Bugün akış yalnız KRONOLOJİ → HARİTA: maddeye tıklarsın, harita değişir. Tersi YOK. Öğrenci Van'a tıklayıp '1514'te burası kimindi, buraya dair hangi maddeler var, ne zaman el değiştirdi' diye SORAMIYOR. Oysa CLAUDE.md'nin kendi cümlesi 'kronoloji ile haritanın BİRBİRİNİ doğruladığı araç' diyor — birbirini, yani İKİ YÖNLÜ. Veri hazır: her peteğin sahibi ve her yerleşimin dönem zinciri zaten var, yeni 'Yerleşim Kronolojileri' sekmesi de bunu listeliyor. Eksik olan yalnız haritadan o kayda giden BAĞ. Bir tıklama, tek yönlü bir gösteriyi sorgulanabilir bir atlasa çevirir. |
+| T-0105 | Hata bildiren tek insan Emre — okuyucunun kanalı yok | 🟦 🌱 | — | Bu projedeki hataların NEREDEYSE HEPSİNİ Emre gözle buldu: 18 numaralı hatalar dosyası, 'Van civarında Safevîler', 'Enez boğumlanması', 'Sardinya 1533'te Osmanlı'. Denetimler bunların hiçbirini yakalamadı — çünkü denetim veri tutarlılığını sorar, TARİHÎ DOĞRULUĞU sormaz ve soramaz. Yayın açık ve eğitim amaçlı; yani en iyi hata bulucular ZATEN sayfaya bakıyor ama ellerinde hiçbir kanal yok. Öneri: detay kartında 'bu bilgi yanlış görünüyor' bağlantısı — GitHub issue'ya, o maddenin id'si ve o anki tarih önceden doldurulmuş hâlde. Sunucu gerekmez, statik kalır. 📌 Ölçek şu: Emre tek kişi ve 18 parti hata buldu; sayfayı okuyan bir tarih öğretmeni ondan hızlı bulur. |
 
 ---
 
@@ -92,16 +102,11 @@
 
 ---
 
-## ⏳ PARMAKTA — şu an sayılan boncuklar — 7
+## ⏳ PARMAKTA — şu an sayılan boncuklar — 2
 
 | # | iş | kanal | sahip | niçin bu sırada |
 |---|---|---|---|---|
-| T-0022 | TESPİH v2 — üç hâl · altı kanal · üç damga · kutuda sekme | 🟦 💬 | KOORDİNATÖR | Emre: 'fırlayıp giden mermi nereye gitti belli değil' — bekleyen/yapılan/biten görünür olacak |
 | T-0059 | GD Asya noktaları 97→480  ↳ `T-0057` | 🟧 💬 | VERİ DEVLET | İLERLEME: 95 nokta · yoğunluk 3,3 → 7,34 · beş tur · AÇILAN KIRILMA GÜNÜ TOPLAMI: SIFIR (95 nokta boyunca) |
-| T-0073 | ace ↔ malaka aynı hex — Malaka Boğazı'nın iki yakası | 🟦 🔧 | RENK 2 | ΔE 0,00 (AYNI HEX #2d8f4a) · 855 km · künyeler 1496-1511 örtüşüyor. 🔴 DÜNKÜ tarama GÖRMEDİ çünkü VERİ penceresine bakıyordu; bu matris KÜNYE penceresine baktı. malaka → #0f18a5 |
-| T-0069 | renk_olc'a İKİNCİ ÇİFT KURUCU — 600 km + eşzamanlılık | 🟩 🔧 | RENK 2 | Aynı körlük ÜÇ coğrafyada çıktı (Afrika Boynuzu · Fas · GD Asya) ve hiçbir denetim görmedi. Voronoi komşuluğu SEYREK bölgede iki gövdeyi yan yana görmüyor. Bugün 179 çift kurulur, biri İHLALDİ. ŞART: C13 iki yönde sınama · 600 km eşiğinin gerekçesi yazılı · İHLAL ile SINIRDA ayrı raporlansın (biri çıkış kodunu etkiler, öteki etmez) |
-| T-0079 | Doğu Sumatra dört kimlik — Jambi · Deli · Siak · Indragiri | 🟦 🔧 | NOKTA GDASYA | NOKTA GDASYA bildirdi: 55lik envanterde uygun kimlik YOK, hepsi zorlama olur. KARAR: devletler.js geçici olarak ona geri verildi (sahipsizdi, 45 künyeyi bugün o yazdı). Toplu mu ayrı mı — TDV karar versin (emsal: malay-sultanliklari toplu künyesi). 1281-1600 arası için kasitli_bosluk da meşru bir cevap. |
-| T-0081 | renk_olc ikinci çift kurucu — kademeli mesafe + künye penceresi | 🟩 🔧 | RENK 2 | KARAR: tavan 72 (2168 nokta damgalı, verinin fonksiyonu) · çıkış kodu '>72'ye DEĞİL, 'var olan çift eşiğin altına düştü'ye bağlanacak — renk_fark'ın doğan/ölen ayrımı kullanılarak. Böylece nokta kampanyası tavanı kaydırdıkça SAHTE ateşleme olmaz, gerçek renk regresyonu yakalanır. |
 | T-0087 | Beş kimlik boşluğu — Pontianak · Kutai · Bone · Palu · Kendari | 🟦 🔧 | NOKTA GDASYA | dogu-sumatra-sultanliklari yönteminin aynısı: §4 ile slug sına, genel madde dene, TDV toplu görüyorsa TOPLU künye. Öneri (bağlayıcı değil): borneo-sultanliklari · bugis-kralliklari (Tellumpoccoe — gova-makassar'dan AYRI, çünkü RAKİPTİLER) |
 
 ---
@@ -164,10 +169,16 @@
 
 ---
 
-## ✅ SAYILAN — öbür uca dizilmiş boncuklar — 44
+## ✅ SAYILAN — öbür uca dizilmiş boncuklar — 50
 
 | # | iş | kanal | ölçüm | bitti |
 |---|---|---|---|---|
+| T-0102 | A1 yarıçap tavanı — yerleşim çöle kaç km hâkim olur | 💬 | 305 petek bağlandı (%13,2) · kara alanının %23,0'ü kesildi · yabancı -%10…-17,5 · Osmanlı çekirdeği ±%0,1 · YAYIN r1105 CANLI | 2026-08-09 |
+| T-0022 | TESPİH v2 — üç hâl · altı kanal · üç damga · kutuda sekme | 💬 | 0 -> 36 boncuk · 3 hal · 6 kanal · 3 damga | 2026-08-09 |
+| T-0069 | renk_olc'a İKİNCİ ÇİFT KURUCU — 600 km + eşzamanlılık | 🔧 | 179 cift kuruldu · canli cakisma 5 -> 0 | 2026-08-09 |
+| T-0073 | ace ↔ malaka aynı hex — Malaka Boğazı'nın iki yakası | 🔧 | dE 0,00 -> ayri hex (#2d8f4a -> #0f18a5) | 2026-08-09 |
+| T-0079 | Doğu Sumatra dört kimlik — Jambi · Deli · Siak · Indragiri | 🔧 | 4 kimlik boslugu -> 1 toplu kunye | 2026-08-09 |
+| T-0081 | renk_olc ikinci çift kurucu — kademeli mesafe + künye penceresi | 🔧 | cikis kodu tavana -> REGRESYONA baglandi (tavan 72, damgali) | 2026-08-09 |
 | T-0100 | Yerleşim Kronolojileri sekmesi — Emre'nin 3. işinin ucuz ayağı | 💬 | 2293 yerleşimin tamamı, arama kutusuyla, her birinin TAM dönem listesi sahibiyle birlikte. Tarayıcıda ölçüldü: Tebriz 14 dönem (İlhanlı→Timurlu→Karakoyunlu→Akkoyunlu→Safevî + 5 Osmanlı işgali). 🔴 Mevcut `sehirler` sekmesi İKİ SÜZGEÇ uyguluyordu (`!don.length || !y.k`) ve 1538 YABANCI yerleşimi dizinde HİÇ göstermiyordu — yani 'Belgrad kimdeymiş' sorulabiliyordu ama 'Tebriz kimdeymiş' SORULAMIYORDU. Eski sekmeye DOKUNULMADI, ikisi ayrı soruya cevap. | 2026-08-08 |
 | T-0093 | EMİLME PAKETİ — üç büyük yanlış sahip, 4,35 milyon km² | 🔬 | 32 nokta · KOORDİNATÖR BAĞIMSIZ ÖLÇTÜ, teslim doğrulandı. somali 628.526 → 0 (yerine svahili-sehirleri 427.994, DOĞRU sahip) · banda-adalari 573.188 → 0 · ingiltere1900 3.150.758 → belcika 1.668.527 (DOĞRU sahip, yarıya indi). Noktasız hücre 101 → 90, 19,6 → 17,1 milyon km². 1300 deliği 14,84 → 13,21 M km². 🔴 AÇILAN KIRILMA GÜNÜ: 0 — üst üste ÜÇÜNCÜ parti. | 2026-08-08 |
 | T-0094 | `banda-adalari` 573.188 km² boyuyor — kendisi ~180 km² | 🔬 | — | 2026-08-08 |

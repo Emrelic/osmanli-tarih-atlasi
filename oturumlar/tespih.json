@@ -1,7 +1,7 @@
 {
   "surum": 1,
   "proje": "Osmanlı Tarih Atlası",
-  "guncelleme": "2026-08-08T17:19",
+  "guncelleme": "2026-08-09T14:09",
   "isler": [
     {
       "id": "T-0001",
@@ -300,16 +300,16 @@
     {
       "id": "T-0022",
       "baslik": "TESPİH v2 — üç hâl · altı kanal · üç damga · kutuda sekme",
-      "hal": "yapiliyor",
+      "hal": "biten",
       "kanal": 2,
       "onem": 5,
       "irilik": 4,
       "nicin": "Emre: 'fırlayıp giden mermi nereye gitti belli değil' — bekleyen/yapılan/biten görünür olacak",
-      "olcum": null,
+      "olcum": "0 -> 36 boncuk · 3 hal · 6 kanal · 3 damga",
       "sahip": "KOORDİNATÖR",
       "girdi": "2026-08-08T08:00",
       "basladi": "2026-08-08T08:05",
-      "bitti": null
+      "bitti": "2026-08-09T14:07"
     },
     {
       "id": "T-0023",
@@ -1092,7 +1092,7 @@
     {
       "id": "T-0069",
       "baslik": "renk_olc'a İKİNCİ ÇİFT KURUCU — 600 km + eşzamanlılık",
-      "hal": "yapiliyor",
+      "hal": "biten",
       "kanal": 4,
       "onem": 4,
       "irilik": 2,
@@ -1106,8 +1106,8 @@
       "sahip": "RENK 2",
       "girdi": "2026-08-08T15:22",
       "basladi": "2026-08-08T15:22",
-      "bitti": null,
-      "olcum": null
+      "bitti": "2026-08-09T14:07",
+      "olcum": "179 cift kuruldu · canli cakisma 5 -> 0"
     },
     {
       "id": "T-0070",
@@ -1172,7 +1172,7 @@
     {
       "id": "T-0073",
       "baslik": "ace ↔ malaka aynı hex — Malaka Boğazı'nın iki yakası",
-      "hal": "yapiliyor",
+      "hal": "biten",
       "kanal": 4,
       "onem": 4,
       "irilik": 1,
@@ -1186,8 +1186,8 @@
       "sahip": "RENK 2",
       "girdi": "2026-08-08T15:29",
       "basladi": "2026-08-08T15:29",
-      "bitti": null,
-      "olcum": null
+      "bitti": "2026-08-09T14:07",
+      "olcum": "dE 0,00 -> ayri hex (#2d8f4a -> #0f18a5)"
     },
     {
       "id": "T-0074",
@@ -1292,7 +1292,7 @@
     {
       "id": "T-0079",
       "baslik": "Doğu Sumatra dört kimlik — Jambi · Deli · Siak · Indragiri",
-      "hal": "yapiliyor",
+      "hal": "biten",
       "kanal": 4,
       "onem": 4,
       "irilik": 2,
@@ -1306,8 +1306,8 @@
       "sahip": "NOKTA GDASYA",
       "girdi": "2026-08-08T15:34",
       "basladi": "2026-08-08T15:34",
-      "bitti": null,
-      "olcum": null
+      "bitti": "2026-08-09T14:07",
+      "olcum": "4 kimlik boslugu -> 1 toplu kunye"
     },
     {
       "id": "T-0080",
@@ -1332,7 +1332,7 @@
     {
       "id": "T-0081",
       "baslik": "renk_olc ikinci çift kurucu — kademeli mesafe + künye penceresi",
-      "hal": "yapiliyor",
+      "hal": "biten",
       "kanal": 4,
       "onem": 4,
       "irilik": 2,
@@ -1346,8 +1346,8 @@
       "sahip": "RENK 2",
       "girdi": "2026-08-08T15:36",
       "basladi": "2026-08-08T15:36",
-      "bitti": null,
-      "olcum": null
+      "bitti": "2026-08-09T14:07",
+      "olcum": "cikis kodu tavana -> REGRESYONA baglandi (tavan 72, damgali)"
     },
     {
       "id": "T-0082",
@@ -1705,6 +1705,86 @@
       "u": "govde",
       "sahip": null,
       "girdi": "2026-08-08T17:19",
+      "basladi": null,
+      "bitti": null,
+      "olcum": null
+    },
+    {
+      "id": "T-0102",
+      "baslik": "A1 yarıçap tavanı — yerleşim çöle kaç km hâkim olur",
+      "hal": "biten",
+      "kanal": 2,
+      "onem": 3,
+      "irilik": 2,
+      "nicin": "Emre: 'bir yerleşimin ilerisinde uçsuz bucaksız çöl varsa peteği gittiği yere kadar gider diye bir şey olamaz — bu X kaç km?' Voronoi komşusuz hücreyi sonsuza büyütüyordu: banda-adalari 573.188 km² boyuyordu, kendisi ~180 km²",
+      "olcek": "mm3",
+      "ust": null,
+      "z": "*",
+      "m": "*",
+      "k": "*",
+      "u": "*",
+      "sahip": null,
+      "girdi": "2026-08-09T14:08",
+      "basladi": "2026-08-09T14:08",
+      "bitti": "2026-08-09T14:08",
+      "olcum": "305 petek bağlandı (%13,2) · kara alanının %23,0'ü kesildi · yabancı -%10…-17,5 · Osmanlı çekirdeği ±%0,1 · YAYIN r1105 CANLI"
+    },
+    {
+      "id": "T-0103",
+      "baslik": "Atlas kendi BELİRSİZLİĞİNİ hesaplıyor ama çizmiyor",
+      "hal": "oneri",
+      "kanal": 6,
+      "onem": 3,
+      "irilik": 2,
+      "nicin": "Veride zengin bir belirsizlik katmanı VAR ve render'da atılıyor: kasitli_bosluk · neden:'devletsiz' vs 'veri-yok' · kesinlik:'belge' · yuvarlak tarih (YYYY-01-01) · motorun kendi ölçtüğü 'belirsizlik km — medyan 104,8 · maks 283,2'. Harita bunların hepsini AYNI keskinlikte boyuyor. Bir öğretim aracının en kötü yanılgısı bu: bilmediğini bildiği gibi göstermek. Öğrenci 1450 Sibirya'sına bakıp 'demek buranın sahibi buymuş' diyor, oysa kaynak SUSUYOR. Öneri: kesinlik düşük gövde daha soluk/taramalı çizilsin, yuvarlak tarihli kırılma zaman çubuğunda farklı işaretlensin. Veri ZATEN var — eksik olan yalnız görselleştirme.",
+      "olcek": "mm3",
+      "ust": null,
+      "z": "*",
+      "m": "*",
+      "k": "*",
+      "u": "*",
+      "sahip": null,
+      "girdi": "2026-08-09T14:09",
+      "basladi": null,
+      "bitti": null,
+      "olcum": null
+    },
+    {
+      "id": "T-0104",
+      "baslik": "Haritaya TIKLAYIP soru soramıyoruz — akış tek yönlü",
+      "hal": "oneri",
+      "kanal": 6,
+      "onem": 3,
+      "irilik": 2,
+      "nicin": "Bugün akış yalnız KRONOLOJİ → HARİTA: maddeye tıklarsın, harita değişir. Tersi YOK. Öğrenci Van'a tıklayıp '1514'te burası kimindi, buraya dair hangi maddeler var, ne zaman el değiştirdi' diye SORAMIYOR. Oysa CLAUDE.md'nin kendi cümlesi 'kronoloji ile haritanın BİRBİRİNİ doğruladığı araç' diyor — birbirini, yani İKİ YÖNLÜ. Veri hazır: her peteğin sahibi ve her yerleşimin dönem zinciri zaten var, yeni 'Yerleşim Kronolojileri' sekmesi de bunu listeliyor. Eksik olan yalnız haritadan o kayda giden BAĞ. Bir tıklama, tek yönlü bir gösteriyi sorgulanabilir bir atlasa çevirir.",
+      "olcek": "mm3",
+      "ust": null,
+      "z": "*",
+      "m": "*",
+      "k": "*",
+      "u": "*",
+      "sahip": null,
+      "girdi": "2026-08-09T14:09",
+      "basladi": null,
+      "bitti": null,
+      "olcum": null
+    },
+    {
+      "id": "T-0105",
+      "baslik": "Hata bildiren tek insan Emre — okuyucunun kanalı yok",
+      "hal": "oneri",
+      "kanal": 6,
+      "onem": 3,
+      "irilik": 2,
+      "nicin": "Bu projedeki hataların NEREDEYSE HEPSİNİ Emre gözle buldu: 18 numaralı hatalar dosyası, 'Van civarında Safevîler', 'Enez boğumlanması', 'Sardinya 1533'te Osmanlı'. Denetimler bunların hiçbirini yakalamadı — çünkü denetim veri tutarlılığını sorar, TARİHÎ DOĞRULUĞU sormaz ve soramaz. Yayın açık ve eğitim amaçlı; yani en iyi hata bulucular ZATEN sayfaya bakıyor ama ellerinde hiçbir kanal yok. Öneri: detay kartında 'bu bilgi yanlış görünüyor' bağlantısı — GitHub issue'ya, o maddenin id'si ve o anki tarih önceden doldurulmuş hâlde. Sunucu gerekmez, statik kalır. 📌 Ölçek şu: Emre tek kişi ve 18 parti hata buldu; sayfayı okuyan bir tarih öğretmeni ondan hızlı bulur.",
+      "olcek": "mm3",
+      "ust": null,
+      "z": "*",
+      "m": "*",
+      "k": "*",
+      "u": "*",
+      "sahip": null,
+      "girdi": "2026-08-09T14:09",
       "basladi": null,
       "bitti": null,
       "olcum": null
