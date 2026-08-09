@@ -71,20 +71,20 @@ gerekir. Projenin bütün kalite kuralları (§3) bu tek cümleden türer.
 
 | Katman | Ölçülen durum |
 |---|---|
-| Yerleşim (motorun okuduğu) | **2133** nokta, 32 girdi dosyası |
+| Yerleşim (motorun okuduğu) | **2308** nokta, 36 girdi dosyası |
 | Kronoloji | **1158** madde · 1158 duygu etiketli · 432 `yer_id` · 26 `vefat_id` |
-| Değişmez 1 — sahipsizlik | ✓ 2133 yerleşim, 172 sahipsiz (beklenen 172) |
+| Değişmez 1 — sahipsizlik | ✓ 2308 yerleşim, 180 sahipsiz (beklenen 180) |
 | Değişmez 1b — iç boşluk | ✓ pencere arası boşluk: 0 (beklenen 0) — örnekleme YAPILMAZ, tam tarama |
 | Değişmez 2 — Osmanlı senkronu | ✓ 499 kırılma, 0 açık (beklenen 0) |
 | Değişmez 2s — yabancı senkron | ✓ 712 YABANCI kırılması · 121 AÇIK (tavan 121) · 39 KAPSAM DIŞI |
 | Değişmez 2i — işgal senkronu | ✓ 20 İŞGAL kırılması, 3 açık (tavan 3) |
 | Değişmez 2t — kırılmasız madde | ✓ kırılmasız madde: 38 (tavan 42) — bilinen borç |
-| Konum denetimi | 0 nokta kara maskesinin dışında (beklenen 0) |
-| Devletler dizini | **381** künye · **318** renk (`renkler.py`) |
-| Dizinsiz harita kimliği | 🔴 **0** kimlik / 0 pencere karşılıksız · *kapsam: `girdi.py`nin okuduğu 32 dosya — bağlanmamış partiler HARİÇ* |
+| Konum denetimi | 10 nokta PENCERE DIŞINDA — ihlal DEĞİL, pencere oraya açılana kadar BEKLEYEN veri |
+| Devletler dizini | **390** künye · **333** renk (`renkler.py`) |
+| Dizinsiz harita kimliği | 🔴 **0** kimlik / 0 pencere karşılıksız · *kapsam: `girdi.py`nin okuduğu 36 dosya — bağlanmamış partiler HARİÇ* |
 | Padişah · kartvizit | 41 kayıt · 36 portre · **26** kartvizit dolu |
 | Harita penceresi | `unary_union([box(-12, -11, 146, 82), box(-25, 60, -12, 82)])` |
-| Yayın | **r979** · `5c1597a` |
+| Yayın | **r1105** · `52e3acf` |
 
 > ⚙️ **BU TABLO ELLE YAZILMAZ — ÜRETİLİR.**
 > ```bash
