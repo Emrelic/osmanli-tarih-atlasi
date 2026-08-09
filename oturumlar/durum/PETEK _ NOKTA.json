@@ -1,6 +1,6 @@
 {
  "ad": "PETEK / NOKTA",
- "hal": "bos",
- "not": "Bosta. PARTI 19: 63 nokta / ek8-ek12, commit b7335ff. GOL DUZELTMESI 4 Agustos: ek8 Jukkasjarvi ve Inari gol icindeydi, 2,2 km kaydirildi, 63/63 gol-farkindali denetim TEMIZ. ACIK (benim degil): Vasteras (Malaren, ek7 BAGLI - kosu bitince) ve EGIRDIR (Egirdir golu, yerlesimler.js YAYINDA, duzeltme 37,8567/30,8637). denetle.py 6. kontrolu GOL-FARKINDA DEGIL - olcut KARA.difference(GOLLER) olmali. BEKLEYENLER: ek8 kutu 82K · ek10 sibir-hanligi · ek11 estonya · ek12 L kutusu+izlanda. SIRADAKI PARTI ONAYLI: A Amur asagisi/Ohotsk + B Orta Sibirya platosu, ~14-18 nokta, yeni kimlik YOK.",
- "damga": "2026-08-04 03:49"
+ "hal": "calisiyor",
+ "not": "PARTI 20: A Amur asagisi + B Orta Sibirya ~14-18 nokta · ayrica Kirim cetvel gorunumu (H-0015) ve Orta Asya boslugu (H-0010)",
+ "damga": "2026-08-06 03:17"
 }
