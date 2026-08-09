@@ -139,7 +139,15 @@ BEKLENEN_YERLESIM = 968
 # `ainu` donemi KALDIRILDI -- eksik olan kunye degil, FAZLA OLAN BOYAYDI.
 # Zincir borcu sayaci kunye yazilarak da sifirlanir, boya kaldirilarak
 # da; ikisi denetimde AYNI gorunur, haritada ZIT sey yapar.
-BEKLENEN_SAHIPSIZ = 182   # 172 +6 EMILME (Orta Afrika) +4 SIBIRYA
+# 🔴 CIFT YONLU — 9 Agustos 2026. Onceki hali TEK YONLUYDU: yalniz asilinca
+# ✗ basiyordu, ALTINDA kalinca sessiz ✓ diyordu. Olculdu: sabit 182'ydi,
+# gercek 180 ⇒ 2 puanlik bir gercek regresyon GORUNMEZ olacakti.
+# 📌 Bu, `uret_petek.py`deki BOZUK_KIYI_TABAN'in ayni dersi: "tek yonlu bir
+#    nobetci sessiz '✓' basar ve aradaki her gercek regresyon gorunmez olur."
+#    Ders orada YAZILIYDI; buraya UYGULANMAMISTI.
+# 182 -> 180: 172 +6 EMILME (Orta Afrika) +4 SIBIRYA idi; iki nokta sonradan
+# sahip kazandi. Sabit olculene cekildi.
+BEKLENEN_SAHIPSIZ = 180   # 172 +4 EMILME (Orta Afrika) +4 SIBIRYA
 # 🔴 SİBİRYA'nın DÖRDÜ İKİ AYRI CİNS — ve ayrımı ölçüm verdi:
 #   Çukotka · Anadır   neden:"devletsiz"  kaynak AÇIKÇA konuşuyor:
 #       "never paid yasak … status as subjects was little more than
@@ -1036,6 +1044,27 @@ def degismez3(Y):
 # yakalandı. Doğru pozitif oranını korumak için gerçekten AYRI olan çiftler
 # aşağıya tek tek yazıldı — listeye eklemeden önce iki maddeyi de OKU.
 BILINEN_AYRI = {
+    # ⭐ "AYNI USTA, AYNI YIL, AYRI ESER" SINIFI — 9 Ağustos 2026.
+    # Dört güçlü çiftin dördü de yanlış pozitifti ve tek bir desendi:
+    # Mimar Sinan'ın aynı yıl tamamlanan eserleri, başlıklarında ortak
+    # kelime taşıyor ("tamamlanması" · "Köprüsü" · mimarın adı) ve ölçüt
+    # onları mükerrer sanıyor. Oysa fark tam da ÖZEL ADDA — ve özel ad,
+    # benzerlik ölçütünün en zayıf gördüğü yerdir (tek kelime).
+    # 🟡 `sura-yi-devlet` vakasıyla AYNI YAPISAL SINIR, ters yüzü: orada
+    #    fark FİİLDEYDİ (kuruldu ↔ açılışı), burada NESNEDE (Mostar ↔
+    #    Edirnekapı). İkisinde de ayırt edici bilgi TEK kelimede ve ölçüt
+    #    onu çoğunluğa ezdiriyor. Ayar değil, sınır.
+    ("Mostar Köprüsü'nün tamamlanması",
+     "Edirnekapı (Mihrimah Sultan) Camii'nin tamamlanması"),
+    ("Mostar Köprüsü'nün tamamlanması",
+     "Büyükçekmece Köprüsü'nün tamamlanması"),
+    ("Drina (Sokullu Mehmed Paşa) Köprüsü'nün tamamlanması",
+     "Azapkapı (Sokullu Mehmed Paşa) Camii'nin yaptırılması"),
+    # Patrona Halil İsyanı ↔ Sâdâbâd'ın tahribi: aynı gün, ama biri OLAY
+    # öteki onun SONUCU ve ayrıca kayda değer (Lâle Devri'nin simgesel
+    # sonu). "Olay ↔ sonucu" da yukarıdaki sınırın bir üyesi.
+    ("Patrona Halil İsyanı",
+     "Sâdâbâd'ın Patrona Halil isyanında tahrip edilmesi"),
     # Tâif ve Mekke AYRI düştü, 88 gün arayla — TDV `mekke`: 30 Nisan 1803
     # Suûd birinci kez işgal. Başlık KALIBI ("Vehhâbîlerin … ele geçirmesi")
     # tetikledi, olayların benzerliği değil.
@@ -1673,6 +1702,9 @@ def main():
     if n1 > BEKLENEN_SAHIPSIZ:
         ihlal = True
     print(f"Değişmez 1  {durum1}  {len(Y)} yerleşim, {n1} sahipsiz (beklenen {BEKLENEN_SAHIPSIZ})")
+    if n1 < BEKLENEN_SAHIPSIZ:
+        print(f"            ⚠️ TAVAN GEVŞEK — BEKLENEN_SAHIPSIZ = {n1} yapılmalı. "
+              f"Aradaki {BEKLENEN_SAHIPSIZ - n1} puanlık gerçek regresyon GÖRÜNMEZ.")
     if len(Y) != BEKLENEN_YERLESIM:
         print(f"            ! yerleşim sayısı beklenenden farklı ({len(Y)} ≠ {BEKLENEN_YERLESIM}) — sadece bilgi")
     if args.ayrinti and sahipsiz:

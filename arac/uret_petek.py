@@ -960,6 +960,28 @@ print(f"  yarıçap tavanı: {len(_TV_BAGLI)} petek bağlandı "
       f"({100*len(_TV_BAGLI)/len(YERLER):.1f}%) · "
       f"KARA alanının {100*(_tv_once-_tv_sonra)/max(_tv_once,1e-9):.1f}%'i kesildi")
 
+# ═══ 🔴 KOVA GENİŞLETİLDİ — koşu 5'in öngörü ①'i BUNU ÇÜRÜTTÜ ═══
+# İlk sürüm yalnız tavanın BAĞLADIĞI hücreyi kasıtlı sayıyordu. Öngörü
+# "kıyı kovası 60-66 olmalı" diyordu ve "mazeret YOK" damgalıydı. Ölçüm:
+#     kıyı kovası 162 · tavan kovası 220   (toplam 382, 4b ile aynı)
+# ⇒ ~100 kenar tavanın kestiği hücrenin KOMŞUSUNA düşüyor. Doğaldır: A
+#   kesilip B kesilmeyince uyuşmazlık İKİ TARAFA da yazılır. Kovayı yalnız
+#   A'ya kurmak, aynı olayın yarısını kusur sayar.
+# ⇒ Kasıtlı kovası, tavanın bağladığı hücrelerin KOMŞULARINI da kapsar.
+# ⚠️ Bedeli aynı ve saklanmıyor: komşu hücrede doğan GERÇEK bir kıyı kusuru
+#    da bu kovaya düşer. İki sayı da basılıyor ki oran izlenebilsin.
+_tv_agac = STRtree(PETEK_TAM)
+_TV_KOMSU = set(_TV_BAGLI)
+for _i in _TV_BAGLI:
+    if PETEK_TAM[_i].is_empty:
+        continue
+    for _k in _tv_agac.query(PETEK_TAM[_i]):
+        _k = int(_k)
+        if not PETEK_TAM[_k].is_empty and PETEK_TAM[_k].intersects(PETEK_TAM[_i]):
+            _TV_KOMSU.add(_k)
+print(f"  tavan kovası: {len(_TV_BAGLI)} bağlanan + "
+      f"{len(_TV_KOMSU)-len(_TV_BAGLI)} komşu = {len(_TV_KOMSU)} hücre")
+
 # 🔴 KORUNUM SINAVI — 9 Ağustos 2026, ve NİÇİN VAR:
 # Koşu 4b'den sonra "Osmanlı 7/9 kesitte daraldı, yabancı +%15 (+6,6 M km²)"
 # ölçüldü ve yayın DURDURULDU. Ama bir TAVAN alan ARTIRAMAZ — yani ya motorda
@@ -984,6 +1006,7 @@ _komp = list(KARA.geoms) if KARA.geom_type == "MultiPolygon" else [KARA]
 _ptl = [Point(y["lon"], y["lat"]) for y in YERLER]
 _pagac = STRtree(_ptl)
 _tasan, _yalitilan = 0, 0
+_tavan_tuttu = _tavan_kesti = 0.0
 for _k in _komp:
     if _k.is_empty or _k.area < 1e-7:
         continue
@@ -1000,6 +1023,20 @@ for _k in _komp:
             PETEK_D[_j] = _yeni
             _tasan += 1
     # boşta kalan payı, parçanın İÇİNDEKİ en yakın yerleşime ver
+    # ═══ 🔴 9 Ağustos 2026 — A1 TAVANI BU SATIRLARDA GERİ ALINIYORDU ═══
+    # Koşu 5 ölçtü: tavan 1.929 birim² kesti, bu aşamanın sonunda alan
+    # +1.911 birim² ARTMIŞTI — kesilenin **%99,1'i geri verilmiş.**
+    # Sebep: `_bos`, kara parçasının hücrelerle kaplanmayan kısmıdır ve tavan
+    # devreye girdikten sonra ORAYA TAVANIN BOŞALTTIĞI ÇÖL DE DÂHİLDİR.
+    # Kural onu "boşta kalmış" sanıp en yakın yerleşime veriyordu — yani
+    # `§2` emilmesi, tavanın onu önlemesinden HEMEN SONRA yeniden yapılıyordu.
+    # 📌 Gece bu kaçak "yetim yüz mantığı" diye teşhis edilmişti; ölçüm o
+    #    teşhisi çürüttü (yetim yüz 116→118, üstelik tavandan ÖNCE koşuyor).
+    #    HÜKÜM doğruydu ("sonraki bir aşama geri veriyor"), TEŞHİS yanlıştı.
+    # ⇒ ÇARE: boşta kalan pay yalnız ALICININ TAVAN DAİRESİ İÇİNDE kalan
+    #   kadarıyla verilir. Adanın kuralı korunur (yerleşimin dibindeki küçük
+    #   artık yine emilir — tavanın içindedir), tavanın boşalttığı uzak çöl
+    #   ise SAHİPSİZ KALIR, ki tavanın var oluş sebebi budur.
     _dolu = unary_union([PETEK_D[i] for i in _ic]) if _ic else None
     _bos = poligonal(_k.difference(_dolu)) if _dolu is not None else _k
     if not _bos.is_empty and _bos.area > 1e-9:
@@ -1007,9 +1044,25 @@ for _k in _komp:
             if _pp.is_empty:
                 continue
             _en = min(_ic, key=lambda i: _ptl[i].distance(_pp))
-            PETEK_D[_en] = poligonal(unary_union([PETEK_D[_en], _pp]))
+            _pay = _pp.intersection(TAVAN_DAIRE[_en])
+            if _pay.is_empty or _pay.area <= 1e-12:
+                _tavan_tuttu += _pp.area          # tavan sahipsiz bıraktı
+                continue
+            _tavan_kesti += _pp.area - _pay.area
+            PETEK_D[_en] = poligonal(unary_union([PETEK_D[_en], _pay]))
             _yalitilan += 1
 print(f"  {_tasan} taşma kesildi, {_yalitilan} boşta kalan parça içerideki yerleşime verildi")
+print(f"  A1 tavanı ada kuralında: {_tavan_tuttu:,.1f} birim² HİÇ verilmedi · "
+      f"{_tavan_kesti:,.1f} birim² kısmen kesildi")
+# 🔴 AŞAMA SONDASI — korunum ② bütün aralığı ölçüyor ama HANGİ aşama olduğunu
+# söylemiyordu; koşu 5'te "Ada kuralı mı devret mi" sorusu ELLE ayrıldı.
+# Bir daha ayrılmasın diye sonda buraya kondu. (📌 "Denetim var ≠ o soruyu
+# soruyor" — burada denetim vardı, soruyu SORAN yoktu.)
+_TV_ADA_SONRA = sum(g.area for g in PETEK_D if g is not None and not g.is_empty)
+_d = _TV_ADA_SONRA - _TV_TOPLAM_SONRA
+print(f"  korunum ②a (ada kuralı): {_d:+,.1f} birim² "
+      f"({100*_d/max(_TV_TOPLAM_SONRA,1e-9):+.2f}%)"
+      + ("  ⚠️ ARTIŞ" if _d > 0.001 * _TV_TOPLAM_SONRA else "  ✓"))
 
 
 def _ham_km2(g):
@@ -1335,10 +1388,10 @@ print(f"  korunum ②: tavandan bu noktaya alan {_tv_delta:+,.0f} birim² "
          if _tv_delta > 0.001 * _TV_TOPLAM_SONRA else "  ✓"))
 
 _kot0 = _bozuk_liste(PETEK_D)
-_nk0 = sum(1 for i, _ in _kot0 if i not in _TV_BAGLI)
+_nk0 = sum(1 for i, _ in _kot0 if i not in _TV_KOMSU)
 _nk0_tavan = len(_kot0) - _nk0
 for i, x in _kot0:
-    _ki = "tavan/kasıtlı" if i in _TV_BAGLI else "çöl öncesi"
+    _ki = "tavan/kasıtlı" if i in _TV_KOMSU else "çöl öncesi"
     print(f"    BOZUK KENAR [{_ki}] {YERLER[i]['ad']}: {x.wkt[:90]}")
 if _nk0_tavan:
     print(f"  A1 tavanının açtığı kenar: {_nk0_tavan} (KASITLI — sahipsizleşen "

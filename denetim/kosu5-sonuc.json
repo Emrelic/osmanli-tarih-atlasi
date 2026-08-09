@@ -1,0 +1,38 @@
+{
+  "damga": "2026-08-09 · koşu 5 ÖLÇÜM SONUCU (koşu 11:44'te DURDURULDU — kaçak bulunduktan sonra 70 dk daha koşmak boşa giderdi)",
+
+  "karne": [
+    {
+      "no": 1, "kalem": "bozuk kenar — KIYI kovası",
+      "beklenen": "60-66", "olculen": "162", "hukum": "🔴 ÇÜRÜDÜ",
+      "mazeret_onceden": "YOK — 66'nın üstü çıkarsa kova ayrımı yanlış kurulmuş demektir",
+      "ne_ogretti": "Kova ayrımı GERÇEKTEN yanlış kurulmuştu. ~100 kenar tavanın kestiği hücrenin KOMŞUSUNA düşüyor: A kesilip B kesilmeyince uyuşmazlık İKİ TARAFA da yazılır. Kovayı yalnız A'ya kurmak aynı olayın yarısını kusur sayar. ⇒ Kasıtlı kovası komşuları da kapsayacak şekilde genişletildi."
+    },
+    {
+      "no": 2, "kalem": "bozuk kenar — TAVAN kovası",
+      "beklenen": "300-340", "olculen": "220", "hukum": "🔴 ÇÜRÜDÜ",
+      "ne_ogretti": "①'in aynası — eksik 100, komşu kovasındaydı. İki öngörü tek kusurun iki yüzüymüş."
+    },
+    {
+      "no": 3, "kalem": "korunum ① — tavanın kestiği",
+      "beklenen": "305 petek · %23,0", "olculen": "305 petek · %23,0", "hukum": "🟢 BİREBİR TUTTU",
+      "ne_ogretti": "Düzenlemelerim geometriye dokunmadı — sınavın kendisi buydu ve geçti."
+    },
+    {
+      "no": 4, "kalem": "🔴 korunum ② — tavandan nöbetçiye alan değişimi",
+      "beklenen": "|delta| < %0,1 (✓)",
+      "olculen": "+1.911 birim² · +%29,54 · ⚠️ ARTIŞ",
+      "hukum": "🔴 ATEŞLEDİ — VE BİLGİYİ TAŞIYAN KALEM BUYDU",
+      "ne_ogretti": "Tavan 1.929 birim² kesti, aralığın sonunda 1.911 geri gelmişti — kesilenin %99,1'i. KAÇAK GERÇEK. Ve öngörüde yazdığı gibi: 'iki sonuç da bilgidir, hangisi çıkarsa karar ona göre verilir.'"
+    },
+    { "no": 5, "kalem": "ainu hayaleti", "olculen": "ölçülemedi — koşu erken durduruldu", "hukum": "⚪ ÖLÇÜLMEDİ" }
+  ],
+
+  "kacagin_yeri": {
+    "asama": "Ada kuralı (uret_petek.py:1002-1011)",
+    "mekanizma": "`_bos = _k.difference(_dolu)` kara parçasının hücrelerle kaplanmayan kısmıdır. Tavan devreye girince ORAYA TAVANIN BOŞALTTIĞI ÇÖL DE DÂHİL oluyor; kural onu 'boşta kalmış' sanıp en yakın yerleşime veriyordu. Yani §2 emilmesi, tavanın onu önlemesinden HEMEN SONRA yeniden yapılıyordu.",
+    "care": "Boşta kalan pay yalnız ALICININ TAVAN DAİRESİ İÇİNDE kalan kadarıyla verilir. Adanın kuralı korunur (yerleşimin dibindeki küçük artık yine emilir), tavanın boşalttığı uzak çöl SAHİPSİZ kalır."
+  },
+
+  "ders": "🔴 GECE VERİLEN TEŞHİS: 'yetim yüz mantığı toprağı geri veriyor.' HÜKÜM DOĞRUYDU (sonraki bir aşama geri veriyor), TEŞHİS YANLIŞTI (yetim yüz 116→118, üstelik tavandan ÖNCE koşuyor — görmesi imkânsız). Doğru aşama Ada kuralıymış. 📌 Doğru hüküm yanlış teşhisle gelebilir; ikisini yalnız ÖLÇÜM ayırır. Ve gece 'A: yetim yüze istisna ekle' diye önerilen çare uygulansaydı HİÇBİR ŞEY DEĞİŞMEZDİ — kusur 'kapatıldı' sayılır, kaçak sürerdi."
+}

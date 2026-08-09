@@ -1,0 +1,51 @@
+{
+  "damga": "2026-08-09 · koşu 6 BAŞLAMADAN yazıldı",
+  "niçin": "Koşu 5 kaçağın YERİNİ buldu (Ada kuralı, kesilenin %99,1'ini geri veriyor). Çare uygulandı: boşta kalan pay yalnız alıcının TAVAN DAİRESİ içinde kalan kadarıyla verilir. Bu koşu ÇARENİN SINAVIDIR.",
+
+  "ongoruler": [
+    {
+      "no": 1,
+      "kalem": "🔴 korunum ②a — ada kuralının tek başına alan değişimi",
+      "beklenen": "≈ 0 · ✓ (|delta| < %0,1)",
+      "gerekçe": "Çare tam bu satırlara kondu. Ada kuralı artık tavan dairesinin dışını veremez.",
+      "mazeret": "YOK — BU KALEM ÇARENİN KENDİSİNİN SINAVIDIR. ⚠️ ARTIŞ çıkarsa çare çalışmadı ve `TAVAN_DAIRE` ile `_pp`nin aynı uzayda olmadığından şüphelenilir."
+    },
+    {
+      "no": 2,
+      "kalem": "korunum ② — tavandan nöbetçiye tüm aralık",
+      "beklenen": "|delta| < %1 · ✓",
+      "gerekçe": "①'den sonra geriye 'kara-kısıtlı sahiplik' kalıyor ve o TRANSFER yapıyor ('94 parça EL DEĞİŞTİRDİ'), alan yaratmıyor.",
+      "mazeret": "②a ✓ olup ② ⚠️ çıkarsa İKİNCİ bir kaçak var ve yeri kara-kısıtlı sahipliktir. Bu mazeret DEĞİL, ikinci bir bulgudur."
+    },
+    {
+      "no": 3,
+      "kalem": "A1 tavanı ada kuralında HİÇ verilmeyen alan",
+      "beklenen": "1.600 - 2.100 birim²",
+      "gerekçe": "Koşu 5'te sızan miktar 1.911 birim²ydi; çare tam onu tutmalı.",
+      "mazeret": "Çok düşük çıkarsa çare parçaların yalnız bir kısmını yakalıyor demektir."
+    },
+    {
+      "no": 4,
+      "kalem": "bozuk kenar — KIYI kovası (komşu genişletmesinden SONRA)",
+      "beklenen": "58 - 75",
+      "gerekçe": "Koşu 3 tavansız 62 ölçmüştü. Komşu genişletmesi koşu 5'in 162'sinden ~100'ünü kasıtlı kovaya taşımalı.",
+      "mazeret": "75'in üstü çıkarsa komşu tanımı (ham hücre kesişimi) dar kalmış demektir — ama bu bir ÖLÇÜM ayarıdır, HARİTA kusuru değildir; yayını tek başına durdurmaz."
+    },
+    {
+      "no": 5,
+      "kalem": "🔴 OSMANLI ALANI — 9 kesitte değişim",
+      "beklenen": "9/9 kesitte |değişim| < %1 (r1079'a göre)",
+      "gerekçe": "Tavan kalibrasyonu Batı Anadolu · Trakya · İtalya · Fransa'da SIFIR bağlanma ölçmüştü; kaçak kapandığına göre Osmanlı çekirdeği hiç etkilenmemeli. Kalan fark yalnız +14 yeni noktadan ve Ferecik'ten gelmeli.",
+      "mazeret": "🔴 YOK — 8 Ağustos'ta yayını durduran kalem buydu ve o gün 7/9 kesitte %3 daralma ölçülmüştü. Yine değişirse HARİTA DEĞİL TAVAN düzeltilir; yayın yine durur."
+    },
+    {
+      "no": 6,
+      "kalem": "yabancı toplam alan",
+      "beklenen": "r1079'a göre DEĞİŞİM ≤ +%1",
+      "gerekçe": "Bir tavan alan ARTIRAMAZ. Koşu 4b'de +%15 ölçülmüştü ve sebebi artık BİLİNİYOR (ada kuralı kaçağı). Kapandıysa artış olmamalı; hatta çölün sahipsizleşmesiyle AZALMALI.",
+      "mazeret": "YOK. Artış çıkarsa kaçak kapanmamıştır."
+    }
+  ],
+
+  "not": "📌 Koşu 5'in dersi: beş öngörüden ikisi çürüdü ve ÇÜRÜYENLER öğretti — ①/② kova ayrımının komşu kusurunu, ④ kaçağın gerçekliğini. Tutan tek kalem (③) hiçbir şey öğretmedi, yalnız güven verdi. Bu koşuda da bilgiyi taşıyacak kalemler önceden işaretli: ① (çarenin sınavı) ve ⑤ (yayın kapısı)."
+}
