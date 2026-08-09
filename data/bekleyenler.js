@@ -7,8 +7,28 @@
 window.BEKLEYENLER = {
  "bolum": {
   "bekleyen": {
-   "baslik": [],
-   "satir": []
+   "baslik": [
+    "#",
+    "öneri",
+    "niçin"
+   ],
+   "satir": [
+    [
+     "T-0103",
+     "Atlas kendi belirsizliğini hesaplıyor ama çizmiyor",
+     "kasitli_bosluk · devletsiz vs veri-yok · kesinlik:\"belge\" · yuvarlak tarih · motorun ölçtüğü \"belirsizlik km — medyan 104,8\" — hepsi var, harita hepsini aynı keskinlikte boyuyor. Öğretim aracının en kötü yanılgısı: bilmediğini bildiği gibi göstermek. Veri hazır, eksik olan yalnız görselleştirme"
+    ],
+    [
+     "T-0104",
+     "Haritaya tıklayıp soru soramıyoruz",
+     "Akış tek yönlü: kronoloji → harita. Van'a tıklayıp \"1514'te burası kimindi\" diye soramıyorsun. Oysa CLAUDE.md \"birbirini doğrulayan\" diyor — yani iki yönlü"
+    ],
+    [
+     "T-0105",
+     "Hata bildiren tek insan sensin",
+     "18 parti hatayı gözle sen buldun; denetimler hiçbirini yakalamadı (veri tutarlılığını sorarlar, tarihî doğruluğu soramazlar). Yayın açık — en iyi hata bulucular zaten sayfaya bakıyor ama kanalları yok"
+    ]
+   ]
   },
   "gorsel": {
    "baslik": [],
@@ -28,11 +48,11 @@ window.BEKLEYENLER = {
   }
  },
  "ozet": {
-  "bekleyen_acik": 0,
+  "bekleyen_acik": 3,
   "gorsel_acik": 0,
   "karar_acik": 0,
   "istege_bagli": 0,
-  "toplam_acik": 0
+  "toplam_acik": 3
  }
 };
-window.URETIM_IZI = {"girdi":{"BEKLEYENLER.md":"a0e5b05837a8875bc9d7e28ee6e9ed9e33f6e25b192922e9e62a8e143ace400f"},"motor":{"uret_bekleyenler.py":"cc885556984b9c76464cd214d75da6fecf52f7fa8bb7bd6b3c1e079e99a6a20b"}};
+window.URETIM_IZI = {"girdi":{"BEKLEYENLER.md":"cf9c2180f13305edca4b2c82421d557753acc4fcda6ff4ded1e46203e62dac4a"},"motor":{"uret_bekleyenler.py":"cc885556984b9c76464cd214d75da6fecf52f7fa8bb7bd6b3c1e079e99a6a20b"}};

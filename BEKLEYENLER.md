@@ -1,188 +1,101 @@
 # BEKLEYENLER — Tarih Atlası · Emre'den ne bekleniyor
 
-> Koordinatör: Oturum 0 · son tazeleme **9 Ağustos 2026, 04:05** (gece kapanışı)
+> Koordinatör: Oturum 0 · son tazeleme **9 Ağustos 2026, gün sonu**
 
 ---
 
-# 🔴 SABAH İLK OKUNACAK: YAYIN YAPILMADI, VE SEBEBİ
-
-Emre *"koşu bitince yayınla, commit push yap ve bilgisayarı kapat"* dedi.
-**Commit ve push yapıldı, YAYIN YAPILMADI.** Sebebi bir karar değil, bir
-**ölçüm** — ve kararı koşudan önce ben kendim yazmıştım.
-
-## Ne oldu
-
-`denetim/kosu4-ongoru.json`, koşu başlamadan yazıldı ve şunu diyordu:
+# 🟢 BUGÜN KAPANDI — YAYIN r1105 CANLIDA
 
 ```
-MAZERETİ OLMAYAN ⑤ — Osmanlı alanı 0/9 kesitte DEĞİŞMELİ.
-                      Değişirse A1 Osmanlı çekirdeğini de kesiyor demektir
-                      ve o zaman HARİTA DEĞİL TAVAN düzeltilir.
+YAYIN            r1079 → r1105     A1 yarıçap tavanı haritada
+tavan            305 petek bağlandı (%13,2) · kara alanının %23,0'ü kesildi
+yabancı alan     -%10,1 … -%17,5   tavan gerçekten çöl siliyor
+Osmanlı çekirdeği ±%0,1            1300·1400·1453·1500 — DOKUNULMADI
+denetim          denetle.py temiz · denetle_yayin temiz · renk 0 çakışma
+kutu             18 iplik cevaplandı · işlenmemiş paket 2 → 0
+tespih           6 boncuk sayıldı (hepsi ölçümle)
 ```
 
-**Ölçüm:**
-```
-Osmanlı   7/9 kesitte DEĞİŞTİ    -3,2% · -3,9% · -3,3% · -3,1% · -2,3%
-yabancı   9/9 değişti, +%15      +6,6 milyon km²  ← bir TAVAN alanı ARTIRAMAZ
-```
-
-⇒ Kendi koyduğum kurala göre yayın **durdu**, üretilmiş dört çıktı dosyası
-geri alındı. **Canlı yayın r1079'da kalıyor** — dünkü sağlam hâl.
-
-## 🔴 SEBEP DİYE YAZILAN ŞEY ÖLÇÜLDÜ VE ÇÜRÜDÜ — 9 Ağustos sabahı
-
-Gece şu yazılmıştı: *"118 YETİM YÜZ SAHİPLİ KOMŞULARA KATILDI ← SEBEP BU."*
-**Yanlıştı, ve iki ayrı yoldan yanlıştı:**
-
-```
-① MUTLAK SAYIYI FARK SANDIM
-   kosu3 (tavan YOK)   116 yetim yüz
-   kosu4b (tavan VAR)  118 yetim yüz     ⇒ tavanın payı 2, 118 DEĞİL
-② AŞAMA SIRASI ZATEN İMKÂNSIZ KILIYORDU
-   yetim yüz  uret_petek.py:912
-   A1 tavanı            :933      ⇒ yetim yüz tavandan ÖNCE koşuyor,
-   tavanın serbest bıraktığı toprağı GÖRMESİ bile mümkün değil
-```
-
-📌 Bu, bu projenin kendi dersinin ihlali: *"bir sayaç 'dört tane var' der,
-nöbetçi 'ikisi az önce doğdu' der — ve asıl bilgi ikincisidir."* Gece o
-dersi uygulamadım; sabah üç koşu logunu yan yana koyunca çıktı.
-
-## 🟢 GERÇEK BULGU — üç koşu yan yana konunca desen çıktı
-
-```
-kosu3   tavan YOK              116 yetim yüz  ·   62 bozuk kenar
-kosu4   tavan Voronoi sonrası  283 yetim yüz  ·   75 bozuk kenar   ← YETİM YÜZ patladı
-kosu4b  tavan kıyı kesiminde   118 yetim yüz  ·  382 bozuk kenar   ← BOZUK KENAR patladı
-```
-
-**Her yerleştirme TAM BİR arıza üretiyor** — ve gece görülen yalnız
-birincisinin adıydı, ikincisinin verisiydi.
-
-Ve 382'nin kimliği ölçüldü: **335 yeni kenarın adları neredeyse tamamen çöl ·
-bozkır · Sibirya · Afrika** — yani tavanın kestiği hücreler. Kıyıda yeni bir
-uyuşmazlık **yok.**
-
-🔴 **Ve asıl teşhis: nöbetçinin EVRENİ değişti, KENDİSİ değişmedi.**
-`uret_petek.py:1289` şunu **zaten yazıyor**: *"Çöl tavanı sonrasındaki çağrı
-… artık BİLGİ satırı — ✗ basmıyor, çünkü orada ölçtüğü delikler **kasıtlı**."*
-Yani motor *"kasıtlı delik bozuk kenar üretir, bu kusur değildir"* kavramını
-biliyor — **çöl tavanına muafiyet vermiş, A1'e vermemiş**, çünkü A1 nöbetçiden
-sonra doğdu ve tam onun **önüne** yerleşti.
-
-## ⇒ A/B/C ŞIKLARI ÖLDÜ — ikisi yanlış teşhisin üzerine kuruluydu
-
-```
-A  "yetim yüz mantığına istisna ekle"   → GEREKSİZ: yetim yüz sebep değil
-B  "tavanı yetim-yüzden SONRAYA taşı"   → ZATEN ÖYLE (912 < 933)
-C  ağırlıklı Voronoi                     → hâlâ açık ama gerekçesi kalmadı
-```
-
-**Yapılan (kod, 9 Ağustos):** geometriye **hiç dokunulmadı.** İki ölçüm
-aleti eklendi:
-```
-① KOVA AYRIMI    tavanın bağladığı hücrelerin kenarı "kasıtlı" kovasına
-                 gider, tripwire'a SAYILMAZ. Yaklaşıklığı ve bedeli koda
-                 açıkça yazıldı (kapalı kovaya düşen gerçek bir kıyı
-                 kusuru görünmez olur — iki sayı da basılıyor)
-② KORUNUM SINAVI tavan alanı ARTIRAMAZ. Koşu 4b'de "yabancı +%15
-                 (+6,6 M km²)" ölçülmüştü ve çıktılar geri alındığı için
-                 dışarıdan sorulamıyordu ⇒ alet koşunun İÇİNE kondu
-```
-`C13` gereği ikisi de **iki yönde sınandı** (sentetik geometriyle zorlanarak):
-geçme yolu temiz · üç ateşleme dalı da ötüyor · ve tavan kesiği **gerçek bir
-bozukluğu ÖRTMÜYOR.**
-
-## 🟡 KOŞU 5 KOŞUYOR — ve kararı O verecek
-
-Öngörü **koşu başlamadan** yazıldı: `denetim/kosu5-ongoru.json`, beş kalem.
-Bilgiyi taşıyacak kalem **önceden işaretli**:
-
-```
-④ korunum ②: tavandan nöbetçiye alan değişimi
-   ⚠️ ARTIŞ çıkarsa → kaçak GERÇEK ve yeri BULUNDU
-   ✓ çıkarsa       → "+%15 yabancı" ÖLÇÜMÜ yanlıştı, tavanda kusur YOK
-   İki sonuç da bilgidir; hangisi çıkarsa karar ona göre verilir
-```
-
-⚠️ Bu koşu **geometriyi değiştirmiyor** — çıktısı 4b ile aynı olmalı. Amacı
-yayın değil **teşhis**; ama temiz çıkarsa aynı çıktı yayınlanabilir.
+Senin *"bir yerleşim uçsuz bucaksız çöle kaç kilometre hâkim olabilir"*
+sorunun cevabı motora indi: `k1:700 · k2:420 · k3:280 · k4:140 km`,
+ölçülerek kalibre edildi.
 
 ---
 
----
+## 🟡 SENDEN BEKLENEN — dört şey
 
-## 🔴 SON DAKİKA EKİ — koşu 4b logu, kararı GÜÇLENDİRDİ
+### ① Üç üreteç önerisi — onay ya da red *(red için sebep ZORUNLU)*
 
-PROJEKSİYON oturumu koşu logunu okuyup nakletti (yorumlamadan, doğru
-davranış). Üç satır yayını durdurma kararını **doğruluyor:**
+Tören kuralı gereği listeye bakmadan soruldu: *"atlas bittiğinde ne
+yapabiliyor olacak, bugün o cümleye hizmet etmeyen ne var?"* Üç şey çıktı.
+**Onaysız hiçbiri kuyruğa girmez.**
 
-```
-① 3 petek ham hücresinin %10'undan KÜÇÜK kaldı
-   Finschhafen · Port Moresby · TIMBUKTU
-   ⚠️ "fetih/kayıp maddeleri görünmeyecek" — motorun kendi uyarısı
-② 58 petek "aşınma bandı"nda (%10-60)
-③ ~50 yerleşim "✗ BEKLENMEDİK — İNCELE" (kuşatılmışlık, epok sayısı)
-```
+| # | öneri | niçin |
+|---|---|---|
+| **T-0103** | Atlas kendi **belirsizliğini** hesaplıyor ama çizmiyor | `kasitli_bosluk` · `devletsiz` vs `veri-yok` · `kesinlik:"belge"` · yuvarlak tarih · motorun ölçtüğü *"belirsizlik km — medyan 104,8"* — hepsi **var**, harita hepsini **aynı keskinlikte** boyuyor. Öğretim aracının en kötü yanılgısı: bilmediğini bildiği gibi göstermek. Veri hazır, eksik olan yalnız görselleştirme |
+| **T-0104** | Haritaya **tıklayıp soru soramıyoruz** | Akış tek yönlü: kronoloji → harita. Van'a tıklayıp *"1514'te burası kimindi"* diye soramıyorsun. Oysa `CLAUDE.md` *"birbirini doğrulayan"* diyor — yani **iki yönlü** |
+| **T-0105** | Hata bildiren tek insan **sensin** | 18 parti hatayı gözle sen buldun; denetimler hiçbirini yakalamadı (veri tutarlılığını sorarlar, tarihî doğruluğu soramazlar). Yayın açık — en iyi hata bulucular zaten sayfaya bakıyor ama kanalları yok |
 
-🔴 **①'in içinde TIMBUKTU var ve bu tam olarak tavanın hedefiydi.** Tavan
-Timbuktu'yu 2,69 milyon km²'den 245 bine indirdi — **istenen buydu.** Ama
-motor onu *"petek ham hücrenin %10'undan küçük"* diye uyarıyor ve
-**maddelerinin görünmeyeceğini** söylüyor.
-
-⇒ Yani tavan bir **ikinci yan etki** daha üretiyor: petek küçülünce o
-yerleşimin kronoloji maddeleri haritada görünmez oluyor. Bu, yetim-yüz
-sorunundan **ayrı** bir kalem ve yarın ikisi birlikte değerlendirilmeli.
-
-📌 Ve ③'teki ~50 *"beklenmedik"* etiketi koşu 3'te yoktu. Tavanın
-kuşatılmışlık hesabını da etkilediğini gösteriyor — üçüncü bir yan etki.
-
-⇒ **Üç yan etki, üçü de tavanın KENDİSİNDEN değil, tavanla motorun
-ÖTEKİ AŞAMALARININ etkileşiminden geliyor.** Yarınki karar (A/B/C) bunu
-gözetmeli: seçenek A yalnız yetim-yüzü çözer, ①/③'ü çözmez.
-
-⚠️ **Bu yüzden yarın önce ÖLÇÜM, sonra karar:** tavanın kaç aşamayla
-etkileştiğini saymadan hangi seçeneğin doğru olduğu bilinemez.
-
-## 🟢 BUGÜN NE İNDİ (hepsi commit'li ve push'lu)
-
-```
-nokta        2133 → 2307      DÖRT parti · dördünde de AÇILAN KIRILMA GÜNÜ 0
-künye        381 → 390        serbedariler · kert · loango · luba · kuba …
-renk         310 → 325        renk borcu 73 → 7
-`iran`       124 → 77         hayalet dönem (47'si tarih ölçütüyle)
-emilme       somali · banda-adalari · ingiltere1900 KAPANDI
-Ferecik      H-0007'nin cevabı — 82 km'lik koridor boşluğu
-yayın        r1079 CANLI (dünkü koşu, sağlam)
+```bash
+py C:/Users/emrem/OneDrive/Desktop/ClaudEmre/kutu/tespih.py --onayla T-0103
+py C:/Users/emrem/OneDrive/Desktop/ClaudEmre/kutu/tespih.py --reddet T-0103 --neden "..."
 ```
 
-**Ve bir yayın zaten yapıldı:** r1079 bugün 19:38'de indi ve canlıda —
-151 nokta, 9 delik kapandı, 2,49 milyon km². Bugünün ikinci yayını
-(r1080) yapılamadı.
+### ② PROJEKSİYON — küre/düz haritayı yayına alalım mı?
+
+Kod **hazır** ve `projeksiyon` dalında bekliyor (MapLibre v5 + hibrit).
+Yapmadım çünkü **canlı sayfayı değiştirir** ve senin işin.
+
+⚠️ Ve bir ölçüm eksiği var, saklamıyorum: eşik sayıları
+(`kureZoom 4 / mercatorZoom 6`) **TAHMİN**, ölçülmedi. Ayrıca dal `main`den
+geride — birleştirirken **damgayı main'den, MapLibre sürümünü daldan** almak
+gerekiyor.
+
+**"Başla" dersen:** önce görsel sınav + eşik ölçümü, sonra birleştirme, sonra
+yayın.
+
+### ③ `oturumlar/durum/` — hangi oturumlar gerçekten kapalı?
+
+Beş dosya hâlâ *"calisiyor"* diyor ama en yeni damga **6 Ağustos**:
+`ARAYUZ 5 · CAPRAZ AKDENİZ · KOORDİNATÖR · PETEK_NOKTA · RENK 2`.
+
+**Tahmin etmedim** — 7 Ağustos'ta koordinatör tam böyle bir tahminle RENK 2'yi
+ölü ilan etmek üzereydi ve oturum çalışıyordu. Yanlış bir *"kapandı"*
+damgası, bayat bir *"çalışıyor"*dan kötüdür. Hangileri kapalı, söyle,
+temizleyeyim.
+
+### ④ Halka tablosu — son bir göz *(dünden devam)*
+`ONCELIK.md`de duruyor; Fas 4 · Hindistan 5 senin kararınla.
 
 ---
 
-## 🟡 SENDEN BEKLENEN — iki şey
+## YARIN İLK İŞ
 
-### ① A1 için A/B/C kararı
-Yukarıdaki üç seçenek. **Önerim A**, ama karar senin.
+**`serbedariler` 19 nokta takası — önündeki engel İRAN FETRETİ.**
 
-### ② Halka tablosunda son bir onay
-`ONCELIK.md`ye yazıldı, Fas 4 · Hindistan 5 senin kararınla. Bir daha
-gözden geçirmek istersen orada duruyor.
+```
+veride serbedari adayı dönem   f:1335-12-01 → t:1381-01-01  (19 nokta)
+künye (TDV, tam gün)           f:1337-09-09
+⇒ arada 21 AY sahipsiz kalır — Değişmez 1b'nin menzilinde
+```
+
+Ve asıl bulgu: `1335-12-01` **hiçbir ardılın gerçek başlangıcı değil** —
+Ebû Saîd o gün öldü, İlhanlı bitti, ama ardılların hiçbiri o gün başlamıyor
+(serbedari 1337 · celayirli 1340 · muzafferi 1318 · kert 1245). **1335-1340
+arası İran'da bir fetret var ve veri onu ifade etmiyor.** Osmanlı fetreti
+(1402-1413) ayrı künyelerle çözülmüştü; İran'ınki çözülmemiş.
+
+⇒ Yarın: İran fetretini modelle, sonra takası yap. Peşinden kalan ~43
+`iran` dönemi (segment bölünmesi gerekiyor).
 
 ---
 
 ## ŞU AN NE BEKLİYOR
 
 ```
-⏸ KALİTE 4      kapandı · yarın Hazar → Kirman/Yezd → Avrupa Rusyası → Avusturya
-⏸ RENK 2        boşta · `devirler.js` denetimi yarın (arac/ altında)
-⏸ PROJEKSİYON   MapLibre v5 + hibrit kod HAZIR, `projeksiyon` dalında
-                🔴 GÖRSEL SINAV YAPILMADI — koordinatörde, yarın
-                eşik sayıları (kureZoom 4 / mercatorZoom 6) TAHMİN, ölçülecek
+⏳ T-0059   GD Asya noktaları — 128'de kapatıldı, hedef 480'di
+⏳ T-0087   Palu · Kendari kimlikleri — 3/5 yazıldı, ikisi açık
+🔵 KALİTE 4 sırası: Hazar kıyısı → Kirman/Yezd → Avrupa Rusyası → Avusturya
+🔵 RENK 2   `devirler.js` bayatlık denetimi
+⚪ T-0032   BATTANİYE AD KARARI — sende, karar gelmeden hiçbir şey yazılmıyor
 ```
-
-📌 Ve bir uyarı: PROJEKSİYON dalı `main`den geride. Birleştirirken
-`index.html`de sürüm damgası çakışacak — **damgayı main'den, MapLibre
-sürümünü daldan** al.
