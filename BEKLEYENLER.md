@@ -63,6 +63,40 @@ olabilir; o zaman istisna temiz durur.
 
 ---
 
+---
+
+## 🔴 SON DAKİKA EKİ — koşu 4b logu, kararı GÜÇLENDİRDİ
+
+PROJEKSİYON oturumu koşu logunu okuyup nakletti (yorumlamadan, doğru
+davranış). Üç satır yayını durdurma kararını **doğruluyor:**
+
+```
+① 3 petek ham hücresinin %10'undan KÜÇÜK kaldı
+   Finschhafen · Port Moresby · TIMBUKTU
+   ⚠️ "fetih/kayıp maddeleri görünmeyecek" — motorun kendi uyarısı
+② 58 petek "aşınma bandı"nda (%10-60)
+③ ~50 yerleşim "✗ BEKLENMEDİK — İNCELE" (kuşatılmışlık, epok sayısı)
+```
+
+🔴 **①'in içinde TIMBUKTU var ve bu tam olarak tavanın hedefiydi.** Tavan
+Timbuktu'yu 2,69 milyon km²'den 245 bine indirdi — **istenen buydu.** Ama
+motor onu *"petek ham hücrenin %10'undan küçük"* diye uyarıyor ve
+**maddelerinin görünmeyeceğini** söylüyor.
+
+⇒ Yani tavan bir **ikinci yan etki** daha üretiyor: petek küçülünce o
+yerleşimin kronoloji maddeleri haritada görünmez oluyor. Bu, yetim-yüz
+sorunundan **ayrı** bir kalem ve yarın ikisi birlikte değerlendirilmeli.
+
+📌 Ve ③'teki ~50 *"beklenmedik"* etiketi koşu 3'te yoktu. Tavanın
+kuşatılmışlık hesabını da etkilediğini gösteriyor — üçüncü bir yan etki.
+
+⇒ **Üç yan etki, üçü de tavanın KENDİSİNDEN değil, tavanla motorun
+ÖTEKİ AŞAMALARININ etkileşiminden geliyor.** Yarınki karar (A/B/C) bunu
+gözetmeli: seçenek A yalnız yetim-yüzü çözer, ①/③'ü çözmez.
+
+⚠️ **Bu yüzden yarın önce ÖLÇÜM, sonra karar:** tavanın kaç aşamayla
+etkileştiğini saymadan hangi seçeneğin doğru olduğu bilinemez.
+
 ## 🟢 BUGÜN NE İNDİ (hepsi commit'li ve push'lu)
 
 ```
