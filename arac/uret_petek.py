@@ -1706,9 +1706,38 @@ print("  en düşük 6 oran: " + " · ".join(
 # "✗" basan, kimsenin bakmadığı, gerçek bir regresyonu artık gizleyen satır.
 # ⚠️ Muafiyet SESSİZ DEĞİL: muaf tutulanlar ayrıca yazılır, çünkü "muaf"
 #    ile "gözden kaçtı" ekranda aynı görünmemeli.
+# ═══ 🔴 A1 TAVANI MUAFİYETİ — 9 Ağustos 2026, ENKLAV MUAFİYETİNİN İKİZİ ═══
+# Bu denetim bir ORAN sorar: "petek, ham hücresinin %10'undan küçük mü?"
+# Tavanlı hücrede o soru YANLIŞTIR, çünkü tavanın VAR OLUŞ SEBEBİ ham
+# hücreyi küçültmektir. Ölçülmüş vaka (koşu 4b):
+#     Timbuktu   ham 2.690.000 km²  →  son 245.000 km²  =  %9
+# Oran %10'un altında ⇒ uyarı "fetih/kayıp maddeleri GÖRÜNMEZ" diyor. Ama
+# 245.000 km² çoğu Avrupa ülkesinden büyüktür ve fazlasıyla görünür.
+# ⇒ Tavanlı hücrede doğru ölçüt ORAN değil MUTLAK BÜYÜKLÜKTÜR.
+# 📌 Ve bu, `BOZUK_KIYI_TABAN`ın ve `Değişmez 1` tavanının aynı gün ölçülen
+#    üçüncü vakası: nöbetçi doğru, EVRENİ değişmiş. Enklav muafiyetinin
+#    gerekçesi buraya kelimesi kelimesine uyuyor — "küçük kalması kusur
+#    değil, İSTENEN sonuçtur."
+# ⚠️ Muafiyet KÖR DEĞİL: mutlak taban altına düşen tavanlı hücre YİNE
+#    işaretlenir (tavan bir hücreyi gerçekten yok edebilir), ve muaf
+#    tutulanlar ENKLAVLAR GİBİ AYRICA yazılır — "muaf" ile "gözden kaçtı"
+#    ekranda aynı görünmemeli.
+TAVAN_MUAF_TABAN_KM2 = 20_000     # bu büyüklükte bir gövde haritada görünür
+_TV_AD = {YERLER[i]["ad"] for i in _TV_BAGLI}
 _ENK_AD = {YERLER[i]["ad"] for i in _ENKLAV}
-_kayip = [r for r in _oranlar if r[0] < SIFIR_PETEK_ORAN and r[3] not in _ENK_AD]
+_tavan_muaf = [r for r in _oranlar
+               if r[0] < SIFIR_PETEK_ORAN and r[3] in _TV_AD
+               and r[3] not in _ENK_AD and r[1] >= TAVAN_MUAF_TABAN_KM2]
+_TM_AD = {r[3] for r in _tavan_muaf}
+_kayip = [r for r in _oranlar if r[0] < SIFIR_PETEK_ORAN
+          and r[3] not in _ENK_AD and r[3] not in _TM_AD]
 _kayip_muaf = [r for r in _oranlar if r[0] < SIFIR_PETEK_ORAN and r[3] in _ENK_AD]
+if _tavan_muaf:
+    print(f"  i A1 TAVANI MUAFİYETİ: {len(_tavan_muaf)} petek oran testinin "
+          f"altında ama ≥{TAVAN_MUAF_TABAN_KM2:,} km² — tavanın İSTENEN sonucu, "
+          f"kusur DEĞİL:")
+    for o, son, ham, ad in _tavan_muaf:
+        print(f"      {ad:<28} %{o*100:5.1f}   {son:>9,.0f} / {ham:>9,.0f} km²")
 if _kayip:
     print(f"  ✗ {len(_kayip)} PETEK ham hücresinin %{SIFIR_PETEK_ORAN*100:.0f}'undan "
           f"küçük — bu yerleşimlerin fetih/kayıp maddeleri haritada GÖRÜNMEZ:")
