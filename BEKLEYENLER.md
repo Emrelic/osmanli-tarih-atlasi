@@ -48,6 +48,8 @@
 | `.git` | **623 → 73 MiB** (%88,3) |
 | İran fetreti köprüsü | 26 nokta hayaletten çıktı |
 | token ölçümü | **%89,1 bağlam · %10,9 iş** — aletler `arac/` altında kalıcı |
+| 🟢 **SÜRÜM DAMGASI ALETİ** (`a83a268`) | Ekran görüntüsündeki `N / TOPLAM başlık` sayısı görüntünün **hangi yayından** olduğunu birebir söyler. `h15#10`ün yeşil Boğdan'ı böyle çözüldü: görüntü **951 başlıklı**, bugün **1161** ⇒ 210 madde geride. ⚠️ Panel her görselde okunmuyor — kaçında okunduğu **sayılmadı** |
+| 🔴 **GÜNÜN DESENİ** (`a83a268`) | *ölçüm doğru, çıkarım yanlış* — **altı vaka, üç oturum + koordinatör.** Altısında da sayı doğruydu; beşini **başka bir oturum** yakaladı, hiçbirini denetim betiği yakalamadı. Çare: rapora *"ölçtüğüm şu"* / *"çıkardığım şu"* diye **iki ayrı satır** |
 
 ---
 
