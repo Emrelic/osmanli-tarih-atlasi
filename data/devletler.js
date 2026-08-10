@@ -3878,15 +3878,20 @@ window.DEVLETLER = [
   ozet:"Giyanti Antlaşması ile Mataram Sultanlığı'nın ikiye bölünmesiyle doğan, Pakubuwono hanedanının yönettiği sunanlık; Yogyakarta ile aynı gün doğdu (bkz. [[yogyakarta]]), Hollanda himayesinde 20. yüzyıla dek sürdü (1923 sonrasında da sürdü). TDV'de `mataram` maddesi ölü (302); tarihler standart akademik kaynağa göredir.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
-    { t:"1755-02-13", tur:"kurulus", b:"Giyanti Antlaşması ile Mataram bölündü, Pakubuwono III Surakarta sunanı ilan edildi" }
+    { t:"1755-02-13", tur:"kurulus", b:"Giyanti Antlaşması ile Mataram bölündü, Pakubuwono III Surakarta sunanı ilan edildi" },
+    { t:"1790-11-26", tur:"vassal", b:"Sunan Pakubuwono IV'ün din adamı danışmanlarını koruması VOC ve komşu saraylarca kuşatmayla karşılandı; müzakereler sonunda danışmanları sürgüne teslim etti — sarayın VOC karşısındaki bağımlılığının somut göstergesi (Javanologi UNS, üniversite yayını)" },
+    { t:"1830-01-01", tur:"vassal", b:"Java Savaşı'nın bitişinin ardından Cultuurstelsel (Zorunlu Ekim Sistemi) Orta Java'da uygulanmaya başladı; Surakarta topraklarının zorunlu ihracat üretimine yönlendirilmesi sarayın ekonomik özerkliğini daha da daralttı (Ricklefs, 'A History of Modern Indonesia')" }
   ]
 },
 { id:"yogyakarta", ad:"Yogyakarta Sultanlığı", tur:"sultanlik", bolge:"guneydogu-asya",
   f:"1755-02-13", t:"1923-10-29", baskent:"Yogyakarta",
   ozet:"Giyanti Antlaşması ile Mataram Sultanlığı'nın ikiye bölünmesiyle doğan, Hamengkubuwono hanedanının yönettiği sultanlık; Surakarta ile aynı gün doğdu (bkz. [[surakarta]]), Hollanda himayesinde 20. yüzyıla dek sürdü (1923 sonrasında da sürdü). TDV'de `mataram` maddesi ölü (302); tarihler standart akademik kaynağa göredir.",
-  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: Peter Carey, 'The Power of Prophecy: Prince Dipanagara and the End of an Old Order in Java, 1785-1855' (KITLV/Brill 2007) + Ricklefs",
   kronoloji:[
-    { t:"1755-02-13", tur:"kurulus", b:"Giyanti Antlaşması ile Mataram bölündü, I. Hamengkubuwono Yogyakarta sultanı ilan edildi" }
+    { t:"1755-02-13", tur:"kurulus", b:"Giyanti Antlaşması ile Mataram bölündü, I. Hamengkubuwono Yogyakarta sultanı ilan edildi" },
+    { t:"1814-11-09", tur:"hukumdar", b:"Hamengkubuwono III'ün ölümü üzerine on yaşındaki oğlu IV. Hamengkubuwono Hollanda desteğiyle tahta çıktı; Diponegoro büyük oğul olmasına rağmen annesinin kraliçe olmaması yüzünden veraset hakkından mahrum bırakıldı — Java Savaşı'nın köklerindeki gerginliklerden biri (Carey 2007)" },
+    { t:"1825-07-20", tur:"isyan", b:"Prens Diponegoro, babasının mezar arazisinden Hollanda'nın izinsiz yol geçirmesine ve saraydaki artan Hollanda nüfuzuna tepkiyle Java Savaşı'nı (Diponegoro Savaşı) başlattı (Carey 2007; Ricklefs)" },
+    { t:"1830-03-28", tur:"toprak-kayip", b:"Java Savaşı, Diponegoro'nun General De Kock ile görüşme sırasında tuzağa düşürülüp yakalanmasıyla sona erdi; Hollanda, Yogyakarta ve Surakarta topraklarının önemli kısmını ilhak etti, Yogyakarta bugünkü sınırlarına küçüldü (Carey 2007, alanın en kapsamlı akademik incelemesi)" }
   ]
 },
 
@@ -3958,11 +3963,13 @@ window.DEVLETLER = [
 },
 { id:"berar", ad:"İmâdşâhî Sultanlığı (Berâr)", tur:"sultanlik", bolge:"guney-asya",
   f:"1490-01-01", t:"1574-01-01", baskent:"Elicpûr", harita:"berar",
-  ozet:"Behmenî'nin dağılmasıyla Berâr'da kurulan, Dekken beşlisinin en kısa ömürlü sultanlığı; Ahmednagar Nizamşâhîlerince ortadan kaldırıldı (kaynak: TDV, madde: behmeniler).",
+  ozet:"Behmenî'nin dağılmasıyla Berâr'da kurulan, Dekken beşlisinin en kısa ömürlü sultanlığı; Ahmednagar Nizamşâhîlerince ortadan kaldırıldı. ⚠️ 10 Ağustos 2026 DÜZELTME: kurucu adı 'Fethullah' → 'Deryâ Han' ve f: 1490-01-01 → 1484-01-01 — TDV `imadsahiler` maddesi (A.S. Bazmee Ansari) kurucunun adının Deryâ Han olduğunu, 'İmâdülmülk' unvanını Behmenî Sultanı II. Mahmud Şah'ın ona verdiğini ve bağımsızlığın 1484'te ilan edildiğini net yazıyor; 'Fethullah' adı TDV metninde hiç geçmiyor, önceki kaydın kaynağı bulunamadı.",
   kaynak:"imadsahiler",
   kronoloji:[
-    { t:"1490-01-01", tur:"kurulus", b:"Fethullah İmâdülmülk Berâr'da bağımsızlığını ilân etti" },
-    { t:"1574-01-01", tur:"son", b:"Nizamşâhîler Berâr'ı ilhak etti, İmâdşâhî hânedanı sona erdi" }
+    { t:"1484-01-01", tur:"kurulus", b:"Behmenî Sultanı II. Mahmud Şah, vezirleri İmâdülmülk (Deryâ Han) ve Nizâmülmülk'ten kurtulmak isteyince ikisi kaçtı; İmâdülmülk Berâr'a dönüp bağımsızlığını ilan edip adına sikke bastırdı, aynı yıl öldü, yerine oğlu Alâeddin geçti (TDV imadsahiler)" },
+    { t:"1528-01-01", tur:"vassal", b:"Alâeddin İmâdşah, Nizamşâhîler'e karşı kale kaybedince Gucerât Sultanı Bahadır Şah'tan yardım isteyip onun hâkimiyetini tanıdı (TDV imadsahiler)" },
+    { t:"1542-01-01", tur:"savas", b:"Nizamşâhîler'in Bîcâpûr'a saldırması üzerine Deryâ İmâdşah, Âdilşâhîlerle ortak hareket edip Nizamşâhîler'i geri püskürttü; İmâdşâhîler'in nüfuzu arttı (TDV imadsahiler)" },
+    { t:"1572-01-01", tur:"son", b:"Nizamşâhî hükümdarı Murtazâ, Ekber Şah'ın uyarısına rağmen Berâr'a girip toprakları ilhak etti; hânedan fiilen sona erdi, son sultan 1574'te öldürüldü (TDV imadsahiler)" }
   ]
 },
 { id:"gond-kralliklari", ad:"Gond Krallıkları (Garha-Mandla, Deogarh)", tur:"krallik", bolge:"guney-asya",
@@ -4226,15 +4233,19 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
     { t:"1521-01-01", tur:"ittifak", b:"Magellan seferinin kalan gemileri Tidore'ye uğradı, İspanya ile bağ kuruldu" },
-    { t:"1797-01-01", tur:"isyan", b:"Prens Nuku'nun isyanı Hollanda hâkimiyetini bir süre kırdı" }
+    { t:"1797-01-01", tur:"isyan", b:"Prens Nuku'nun isyanı Hollanda hâkimiyetini bir süre kırdı" },
+    { t:"1801-06-21", tur:"toprak-kazanc", b:"Nuku'nun İngiliz Doğu Hindistan Şirketi ile ittifakı sonucu ortak kuvvetler Ternate'deki Fort Oranje'yi düşürdü; Ternate-Tidore-Bacan-Jailolo sultanlıkları geçici bağımsızlıklarını kazandı, Nuku dördünün fiilî lideri tanındı (Andaya, 'The World of Maluku', Univ. of Hawai'i Press 1993; Widjojo, 'The Revolt of Prince Nuku', Brill 2009)" },
+    { t:"1805-11-14", tur:"hukumdar", b:"Sultan Nuku öldü; ölümünün ardından Hollanda nüfuzu bölgede kademeli olarak yeniden tesis edildi (Widjojo 2009; Andaya 1993)" }
   ]
 },
 { id:"banda-adalari", ad:"Banda Adaları (Orang Kaya Meclisleri)", tur:"devlet", bolge:"guneydogu-asya",
   f:"1281-01-01", t:"1621-03-08", baskent:"Banda Neira", harita:"banda-adalari",
   ozet:"Dünyanın tek muskat kaynağını elinde tutan, kralsız orang kaya meclisleriyle yönetilen ada topluluğu; Hollanda'nın 1621 kıyımıyla siyasî varlığı sona erdi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: John Villiers, 'Trade and Society in the Banda Islands in the Sixteenth Century', Modern Asian Studies 15(4), 1981 (hakemli) + Holden Furber, 'Rival Empires of Trade in the Orient' (Univ. of Minnesota Press, 1976)",
   kronoloji:[
+    { t:"1512-01-01", tur:"antlasma", b:"Malacca fethinden bir yıl sonra Afonso de Albuquerque'nin gönderdiği filo (António de Abreu/Francisco Serrão) Banda'ya ulaşan ilk Avrupalılar oldu; yerel orangkayalarla ticarî anlaşma yapıp sembolik padrão diktiler, kalıcı garnizon kurmadılar (Villiers 1981)" },
     { t:"1609-01-01", tur:"savas", b:"Hollanda kale kurma girişimi orang kaya direnişiyle karşılaştı" },
+    { t:"1616-12-25", tur:"savas", b:"İngiliz görevlisi Nathaniel Courthope Run adasına çıkıp yerel orangkayalarla İngiliz Kralı I. James'i egemen tanıyan anlaşma yaptı; bu, Hollanda'nın muskat tekelini kırma girişimi olarak 1620'ye kadar süren Anglo-Hollanda çatışmasını başlattı, adanın statüsü ancak 1667 Breda Antlaşması'yla (Run karşılığı New York) çözüldü (Furber 1976)" },
     { t:"1621-03-08", tur:"son", b:"Jan Pieterszoon Coen'in seferi ada halkını yok etti, meclisler dağıldı" }
   ]
 },
@@ -4282,10 +4293,13 @@ window.DEVLETLER = [
 },
 { id:"magindanao-sultanligi", ad:"Magindanao Sultanlığı", tur:"sultanlik", bolge:"guneydogu-asya",
   f:"1281-01-01", t:"1888-01-01", baskent:"Kotabato", harita:"magindanao-sultanligi",
-  ozet:"Mindanao'da İspanyol yayılmasına üç yüzyıl direnen müslüman sultanlık; Moro savaşlarının ardından İspanyol hâkimiyetini kabul etti (kaynak: TDV, madde: morolar, filipinler).",
-  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+  ozet:"Mindanao'da İspanyol yayılmasına üç yüzyıl direnen müslüman sultanlık; Moro savaşlarının ardından İspanyol hâkimiyetini kabul etti. ⚠️ 10 Ağustos 2026 DÜZELTME: eski `kaynak:` alanı 'bulunamadı' diyordu — YANLIŞ YÖNLENDİRMEYMİŞ. `morolar` slug'ı canlı ama içi tek cümle/yönlendirme (klasik 'canlı slug, boş gövde' tuzağı); gerçek zengin kaynak `filipinler` maddesinin 'III. Ülkede İslâmiyet' bölümü (müellif İsmail Hakkı Göksoy) imiş — orada Magindanao'nun kuruluşu, Kudarat dönemi ve İspanyol savaşları ayrıntılı anlatılıyor.",
+  kaynak:"filipinler (TDV, 'III. Ülkede İslâmiyet' bölümü, müellif İ.H. Göksoy)",
   kronoloji:[
-    { t:"1619-01-01", tur:"hukumdar", b:"Sultan Kudarat döneminde sultanlık Mindanao'nun büyük kısmına hâkim oldu" },
+    { t:"1515-01-01", tur:"kurulus", b:"Malay yarımadasından gelen Şerîf Muhammed Kabungsuvan, yerli datularla fetih/diplomasi/evlilik yoluyla iş birliği yapıp halkı müslümanlaştırdı ve Magindanao Sultanlığı'nı kurdu (tahminî tarih, TDV filipinler)" },
+    { t:"1619-01-01", tur:"hukumdar", b:"Sultan Kudarat (1619-1671) tahta çıktı; Sibuguey'den Davao körfezine uzanan bölgeye hâkim olup sultanlığı, modern Filipinler hariç Filipinliler'ce kurulmuş en geniş devlet hâline getirdi (TDV filipinler)" },
+    { t:"1637-01-01", tur:"isgal", b:"İspanyol Genel Valisi Corcuera'nın kuvvetleri sultanlığın merkezini zaptetti; Kudarat iç kesimlere çekilip direnişi sürdürdü (TDV filipinler)" },
+    { t:"1645-01-01", tur:"antlasma", b:"İspanyollar barış yapmak zorunda kaldı; sahil bölgesi ile Maranao/Pulangi halkının yaşadığı iç kesimler Magindanao'nun etki alanı olarak resmen tanındı (TDV filipinler)" },
     { t:"1888-01-01", tur:"son", b:"Uzun Moro savaşlarının sonunda İspanyol hâkimiyeti kabul edildi" }
   ]
 },
@@ -4810,7 +4824,10 @@ window.DEVLETLER = [
   kaynak:"bahavelpur",
   kronoloji:[
     { t:"1748-01-01", tur:"kurulus", b:"Bahâvel Han, Sutlej kıyısında emirliğini kurdu" },
-    { t:"1802-01-01", tur:"hukumdar", b:"Afgan Şahı Mahmud'dan sikke basma izni alarak egemen statü kazandı" }
+    { t:"1802-01-01", tur:"hukumdar", b:"Afgan Şahı Mahmud'dan sikke basma izni alarak egemen statü kazandı" },
+    { t:"1826-01-01", tur:"hukumdar", b:"Nevvâb II. Sâdık Muhammed Han'ın suikastla öldürülmesi üzerine yerine III. Bahâvel Han geçti; hânedanın İngiliz taleplerine ılımlı geleneksel politikası sürdürüldü (TDV bahavelpur)" },
+    { t:"1833-01-01", tur:"antlasma", b:"Bahâvelpûr ile İngilizler arasında İndus nehrini geçiş anlaşması imzalandı (TDV bahavelpur)" },
+    { t:"1838-01-01", tur:"vassal", b:"Nevvâb ile İngiliz hükümeti arasında himaye antlaşması imzalandı: nevvâb iş birliği karşılığında süresiz yönetim hakkı ve İngiliz koruması güvence altına aldı (TDV bahavelpur)" }
   ]
 },
 { id:"bharatpur-cat", ad:"Bharatpur Krallığı (Jat)", tur:"krallik", bolge:"guney-asya",
@@ -4819,6 +4836,8 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
     { t:"1733-01-01", tur:"kurulus", b:"Bedan Singh, Bharatpur Krallığı'nı kurdu" },
+    { t:"1761-06-12", tur:"toprak-kazanc", b:"Racah Suraj Mal, saltanatının zirvesinde Babür başkenti Agra'yı ele geçirdi; hükümdarlığı (1755-1763) boyunca krallık bugünkü Rajastan-Haryana-batı Uttar Pradeş-Delhi çevresini kapsayacak şekilde genişledi (Britannica 'Suraj Mal')" },
+    { t:"1805-01-02", tur:"savas", b:"General Gerard Lake komutasındaki İngiliz kuvvetleri, İkinci Anglo-Maratha Savaşı sırasında Bharatpur Kalesi'ni kuşattı; dört hücum geri püskürtüldü, İngilizler 3.000'den fazla zayiat verip 22 Şubat 1805'te kuşatmayı utanç verici biçimde kaldırdı — İngilizlerin Hindistan'daki nadir yenilgilerinden biri" },
     { t:"1826-01-18", tur:"savas", b:"İngilizlerin kuşatmasıyla fiilî bağımsızlığını kaybedip prens devletine dönüştü" }
   ]
 },
@@ -4827,15 +4846,19 @@ window.DEVLETLER = [
   ozet:"Dost Muhammed Han'ın Babür hizmetinden ayrılıp kurduğu, dört kadın hükümdarıyla (Begüm) tanınan Müslüman prens devleti; İngiliz himayesinde varlığını sürdürdü (1923 sonrasında da sürdü, TDV'ye göre 1952'ye dek). ÜLKE SÜREKLİLİĞİ kimliğidir. (kaynak: TDV, madde: bopal--devlet — \"Dost Muhammed Han... nevvâblığını ve istiklâlini ilân etmiştir\")",
   kaynak:"bopal--devlet",
   kronoloji:[
-    { t:"1708-01-01", tur:"kurulus", b:"Dost Muhammed Han, Berâsiye bölgesinin idaresini alıp nevablığını ilan etti" }
+    { t:"1708-01-01", tur:"kurulus", b:"Dost Muhammed Han, Berâsiye bölgesinin idaresini alıp nevablığını ilan etti" },
+    { t:"1807-01-01", tur:"savas", b:"Vezir Muhammed Han, ülkeye giren Pindârîleri Maratalar'ın yardımıyla geri püskürttü, ardından yardıma gelen Maratalar'ı da dışarı attı (TDV bopal--devlet)" },
+    { t:"1820-01-01", tur:"hukumdar", b:"Nezir Muhammed Han'ın ölümü üzerine karısı Kudsiyye Begüm 'nevvâbe' sıfatıyla tahta oturdu — Bopal'de devlet başkanlığı ilk kez kadın idaresine geçti, dört kadın hükümdar dönemi başladı (TDV bopal--devlet)" },
+    { t:"1901-01-01", tur:"hukumdar", b:"Şah Cihan Begüm'ün ölümü üzerine kızı Sultan Cihan Begüm tahta geçti; 25 yıl hüküm sürüp sosyal reformlar yaptı, İstanbul'da II. Abdülhamid ve V. Mehmed Reşad ile görüştü (TDV bopal--devlet)" }
   ]
 },
 { id:"cunagadh", ad:"Cunagadh (Junagadh) Nevablığı", tur:"devlet", bolge:"guney-asya",
   f:"1748-01-01", t:"1923-10-29", baskent:"Junagadh",
-  ozet:"Babür valiliğinden ayrılan Babi hanedanının Gucerat'taki Müslüman nevablığı; İngiliz himayesinde 1947'ye dek sürdü, o yıl Pakistan'a katılma kararı Hindistan'ın işgaliyle geçersiz kılındı (1923 sonrasında da sürdü). ÜLKE SÜREKLİLİĞİ kimliğidir. ⚠️ BULUNAMADI (TDV'de): `cunagadh`/`junagadh` aramasında \"madde başlıklarında sonuç bulunamadı\" — tarihler standart akademik kaynağa göredir.",
+  ozet:"Babür valiliğinden ayrılan Babi hanedanının Gucerat'taki Müslüman nevablığı; İngiliz himayesinde 1947'ye dek sürdü, o yıl Pakistan'a katılma kararı Hindistan'ın işgaliyle geçersiz kılındı (1923 sonrasında da sürdü). ÜLKE SÜREKLİLİĞİ kimliğidir. ⚠️ BULUNAMADI (TDV'de): dokuz farklı yazım denendi (cunagadh, cunagad, canagadh, babiler, junagadh, babi-hanedani, babi-hanedanligi, kathiawar, cunagad-nevabligi) — HEPSİ ölü, TDV bu küçük Kathiawar prensliğini hiç kapsamıyor (taneciklik boşluğu).",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
-    { t:"1748-01-01", tur:"kurulus", b:"Babi hanedanı Babür valiliğinden fiilen bağımsızlaştı" }
+    { t:"1748-01-01", tur:"kurulus", b:"Babi hanedanı Babür valiliğinden fiilen bağımsızlaştı" },
+    { t:"1807-01-01", tur:"vassal", b:"Baroda İngiliz mukimi Albay Alexander Walker öncülüğündeki kuvvetler Kathiawar'a girdi; 'Walker Settlement' düzenlemesiyle Cunagadh dahil bölge şeflikleri haraç ödemeyi ve İngiliz üstünlüğünü kabul edip iç işlerinde özerkliğini korudu (⚠️ dayanak Alexander Walker'ın 1807 sefer güncesi, National Library of Scotland arşivi — birincil kaynak, ama hakemli akademik makayla TAM doğrulanamadı, orta güven)" }
   ]
 },
 { id:"kocin", ad:"Kochi (Cochin) Krallığı — Portekiz Öncesi", tur:"krallik", bolge:"guney-asya",
