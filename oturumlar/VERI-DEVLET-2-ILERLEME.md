@@ -128,12 +128,63 @@ araştırdım:**
 ettiği kalem — TDV slug'ı ÖLÜ (302), araştırmadım, "sonra bakarız" dediği
 gibi bırakıldı.)
 
-**Koordinatöre soruldu, yazmadan bekleniyor:** `gilan-kiya` ve
-`mazenderan-marasi` künyeleri TDV kaynağıyla yazılsın mı?
+**KOORDİNATÖR KARARI (2026-08-10): İKİSİNİ DE YAZ.** `toga-timur`dan farkı:
+onun yerine geçtiği boşluğu `ilhanli` künyesi zaten kapatıyordu (gereksizdi),
+ama gilan/marasi için hiçbir mevcut künye yerine geçemez — Safevî oraları
+ALINCA (1592/1596) bitiyorlar, `safevi` (f:1501) o tarihe kadar geçerli olamaz.
+
+🔴 **Gilan'da tuzak çıktı, yazmadan önce düzelttim:** TDV'nin kendi metni
+"Kârkiyâ ~1307'den sonra hâkim oldu" izlenimi veriyordu (ilk raporumda böyle
+yazmıştım) — ama Encyclopaedia Iranica'nın özel `KĀR KIĀ` maddesi FARKLI ve
+çok daha kesin bir tarih verdi: **773/1371-72** (Ali Kiyâ'nın ailesiyle
+bölgeye dönüp hâkimiyeti tesis etmesi). TDV'nin genel `gilan` maddesi 64
+yıllık bir aralığı atlıyormuş; konuya özel akademik kaynağı (Iranica) genel
+TDV maddesinin önüne aldım.
+
+**YAZILDI** (`data/devletler.js`, 390 → 392 kayıt, node ile sözdizimi
+doğrulandı):
+```
+gilan-kiya          f:1371-01-01  t:1592-01-01
+  kaynak: gilan (TDV, bitiş — BİREBİR) + Encyclopaedia Iranica KĀR KIĀ (kuruluş)
+  ⚠️ f, 1335-12-01'den 36 yıl SONRA ⇒ veri tarafında 1335-12-01→1371-01-01
+     arası `ilhanli` köprüsü GEREKİYOR (koordinatöre bildirildi, veri onda)
+
+mazenderan-marasi   f:1359-01-01  t:1596-01-01
+  kaynak: marasiler (TDV, kuruluş NET) + bitiş TDV'de YOK (TDV yalnız
+  "Şah I. Abbas zamanında dağıtıldılar" diyor, yıl vermiyor) — 1596 ikincil
+  kaynaktan (Iranica'ya atıf yapan kaynaklar; doğrudan Iranica madde
+  metnine erişilemedi, 403). Bu belirsizlik `ozet:` ve `kaynak:` alanlarında
+  AÇIKÇA yazılı, saklanmadı.
+  ⚠️ f, 1335-12-01'den 24 yıl SONRA ⇒ 1335-12-01→1359-01-01 arası `ilhanli`
+     köprüsü GEREKİYOR (koordinatörün önerdiği köprü aralığıyla birebir).
+```
+🔴 **RENK GEREKİYOR** — iki yeni kimlik (`gilan-kiya`, `mazenderan-marasi`),
+koordinatöre bildirildi (`arac/renkler.py` bende değil).
 
 ---
 
-## ④ KUTU DENETİM kalemleri
+## ④ `sistan` slug'ı denendi — CANLI, Zerenc/Mihribani netleşti (yazılmadı)
+
+TDV `sistan` maddesi (İlhanlı sonrası bölümü): "İlhanlı hâkimiyetini tanıyan
+Mihribânîler mahallî hâkimler olarak sürdü... bölge İlhanlı'nın yıkılmasından
+sonra Horasan'ın bir kısmına hâkim olan **KERT hânedanına bağlandı**."
+Mihribani hânedanı 1543'te (Sultan Mahmûd b. Yahyâ'nın ölümü) son buluyor;
+bölge zaten 1509'da Safevî sınırına resmen katılmıştı.
+
+⇒ Zerenc (Sîstan) şu an 19'luk Horasan/Serbedârî grubuna düşüyor ama TDV'ye
+göre **Kert'in (zaten mevcut künye) tâbi bölgesi** olmalı, Serbedârî değil.
+`mihrabaniler` slug'ı hâlâ ölü (302) ama içerik genel `sistan` maddesinde var.
+
+**Koordinatöre iki seçenek sunuldu, karar bekleniyor (bloke edici değil):**
+(a) Zerenc'i basitçe Kert'e bağla (ek künye gerekmez)
+(b) ayrı bir `mihrabani` tâbi-künyesi yaz (f: belirsiz, t:1543 net)
+
+---
+
+## ⑤ KUTU DENETİM kalemleri
 Henüz gelmedi. Bekleniyor.
 
-## Durum: koordinatörün cevabı bekleniyor — `devletler.js`'e HENÜZ hiçbir yazma yapılmadı.
+## Durum: `data/devletler.js` 392 kayıt — `gilan-kiya` ve `mazenderan-marasi`
+yazıldı. Kalan açık: (1) veri tarafında iki `ilhanli` köprüsü (koordinatörde),
+(2) renk ataması (koordinatörde), (3) Zerenc/mihribani kararı (koordinatörde),
+(4) KUTU DENETİM kalemleri (bekleniyor).
