@@ -70,10 +70,29 @@
 | **Hotin** | 5 | 🟢 KAPALI — beşi de **tek arayüz kusurundan** |
 | **statü kademesi** | 5+ | 🔴 veri modeli — aşağıya bak |
 
-🔴 **Hotin dersi:** beş ayrı "harita hatası" şikâyetinin tamamı **tek bir arayüz
-kusurundan** doğmuş — `1713-06-24`te iki madde aynı güne düşüyor, Emre haritada
-etkiyi görüp maddesini bulamamış. ⇒ ***Bir arayüz kusuru beş veri şikâyeti
-üretebiliyor.***
+### 🔴🔴 TEK BİR ARAYÜZ KUSURU **DOKUZ** ŞİKÂYET ÜRETİYOR — en yüksek kazançlı kalem
+
+```
+Hotin  6   (1713-06-24: Edirne Antlaşması + Hotin'in koparılması)
+Patrona 1  (1730-09-25: Patrona Halil İsyanı + Sâdâbâd'ın tahribi)
+h13#9  1   ·  h4#1  1                                        = 9 şikâyet
+```
+🔴 ***Kullanıcı için "mükerrer madde" ile "aynı gün iki madde" AYNI GÖRÜNÜYOR.***
+Patrona'da Emre *"iki madde hâlinde, birini kaldır"* dedi — **mükerrer değildi.**
+⇒ Bu kusur yalnız şikâyet üretmiyor, **doğru verinin silinmesini isteyecek kadar
+ikna edici bir yanlış teşhis** üretiyor.
+
+🟢 **Şartname yazıldı: `oturumlar/ARAYUZ-AYNI-GUN.md`** (Sonnet · `js/app.js`).
+Çözümü Emre'nin kendisi söylemiş: *"1-2-3 diye numaralandıralım"*
+(`parti-0005/H-0006`). İkinci iş: **ok ile gösterim** (18 vaka, üçü genel kural).
+
+⚠️ Ve bu düzeltmenin sınavı zor: **kusur sessiz.** Kullanıcı *"harita yanlış"*
+der, *"panelde iki madde var"* demez. ⇒ Ölçüt, şikâyetin **tekrar gelmemesi.**
+
+🟢 **Ve mükerrer teması 12/12 kapandı.** İkisi ayrı bir sınıf çıktı: `h16#8`
+Mekke **dört kez** el değiştirmiş (1803-04-30 · 1803-08-06 · 1806-01-01 ·
+1813-01-23) ve maddenin adında **"ilk kez"** yazıyor; `h8#3` Vehrân iki ayrı
+olay (1792 · 1831). ⇒ ***"Mükerrer sanılan şey aslında TEKRAR EDEN OLAY."***
 
 ### 🔴 `h17#9` — "EN BAŞINDAN BERİ BUNDAN ŞİKÂYET EDİYORUM" · ÖLÇÜLDÜ
 
