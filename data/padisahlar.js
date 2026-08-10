@@ -987,6 +987,9 @@ window.PADISAHLAR = [
     anne:"Mihrişah Emine Sultan",
     tahta:"1757-10-30",
     saltanat_yil:16,
+    lakap:["Cihangir (şiirlerinde kullandığı mahlası)"],
+    esler:["Mihrişah Sultan (III. Selim'in annesi)","Rifat Kadın"],
+    cocuk:{oglan:2,kiz:8},
     skandal:"1768'de sadrazamının yetersiz hazırlık uyarılarına rağmen "
     + "Rusya'ya savaş açtı — sonucu Çeşme'de donanmanın yakılması ve "
     + "imparatorluğun en ağır yenilgilerinden biri oldu.",
@@ -1004,7 +1007,40 @@ window.PADISAHLAR = [
     + "araştırmalar savaşı Osmanlı-Rus güç dengesinin geri "
     + "dönüşsüz biçimde değiştiği dönüm noktası olarak okur.",
     kaynak:"TDV: mustafa-iii" },
-  { id: "abdulhamid1", ad: "I. Abdülhamid",                from: "1774-01", to: "1789-04" },
+  { id: "abdulhamid1", ad: "I. Abdülhamid",                from: "1774-01", to: "1789-04",
+    dogum:"1725-03-20",
+    dogum_yer:"İstanbul",
+    olum:"1789-04-07",
+    olum_yer:"Topkapı Sarayı, İstanbul",
+    olum_sebep:"felç (Özü Kalesi'nin düşman eline geçtiğine dair raporu "
+    + "okurken geçirdiği inme)",
+    baba:"III. Ahmed",
+    anne:"Rabia Şermi Sultan",
+    tahta:"1774-01-21 (ağabeyi III. Mustafa'nın ölümü üzerine)",
+    saltanat_yil:15,
+    lakap:"bulunamadı — TDV maddesinde kendine özgü bir lakap zikredilmiyor",
+    esler:["Nakşidil Sultan (II. Mahmud'un annesi)","Ayşe Sineperver "
+    + "Sultan (IV. Mustafa'nın annesi)"],
+    cocuk:{oglan:7,kiz:12},
+    skandal:"Yedi oğlundan çoğu küçük yaşta öldü; yalnız IV. Mustafa ve "
+    + "II. Mahmud hayatta kalıp sırayla tahta çıktı — hanedanın sürekliliği "
+    + "tehlikeli biçimde daraldı.",
+    ovgu:"21 Temmuz 1774'te Küçük Kaynarca Antlaşması'yla uzun bir Osmanlı-"
+    + "Rus savaşını bitirdi; Gazi Hasan Paşa'yla donanmayı modernize etmeye "
+    + "çalıştı, 1775'te Mühendishâne-i Bahrî-i Hümâyun'u kurdurdu, "
+    + "Beylerbeyi Camii ve Hamidiye Külliyesi'ni yaptırdı.",
+    yergi:"Küçük Kaynarca'nın imzalanmasına rağmen Kırım'ın fiilî "
+    + "bağımsızlığı (sonradan 1784'te Rusya'ya ilhakı) döneminde "
+    + "engellenemedi; 1787'de başlayan yeni Rusya-Avusturya savaşı "
+    + "saltanatının son yıllarını ağır yenilgilerle geçirdi.",
+    tartisma:"Küçük Kaynarca Antlaşması'nın imzalanması bazı tarihçilerce "
+    + "zorunlu bir mola, bazılarınca Kırım'ın kaybının başlangıcını "
+    + "meşrulaştıran geri dönüşsüz bir adım olarak okunur.",
+    tarihciler:"Klasik anlatı onu ıslahat girişimlerinde iyi niyetli ama "
+    + "zamanın gerisinde kalan bir hükümdar sayar; modern araştırmalar "
+    + "deniz mühendishânesi gibi kurumsal adımları III. Selim'in Nizâm-ı "
+    + "Cedîd reformlarının zemini olarak değerlendirir.",
+    kaynak:"TDV: abdulhamid-i" },
   { id: "selim3",      ad: "III. Selim",                   from: "1789-04", to: "1807-05",
     dogum:"1761-12-24",
     dogum_yer:"İstanbul",
@@ -1016,6 +1052,11 @@ window.PADISAHLAR = [
     anne:"Mihrişah Sultan",
     tahta:"1789-04-07",
     saltanat_yil:18,
+    lakap:["İlhâmî (şiirlerinde kullandığı mahlası)"],
+    esler:"bulunamadı — TDV maddesinde eş adı geçmiyor",
+    cocuk:"fiilen yok — Ahmed adını verdiği bir oğlu doğdu ama kısa "
+    + "sürede öldü; TDV 'çocuğu olmamasından kaynaklanan bir sevgiyle "
+    + "yeğenlerine yumuşak davrandığını' yazar",
     ovgu:"Nizâm-ı Cedîd reform programını başlattı: yeni askerî okullar "
     + "kurdu, modern bir ordu ve donanma oluşturdu, Avrupa "
     + "başkentlerinde ilk kalıcı Osmanlı elçiliklerini açtı; müzik ve "
