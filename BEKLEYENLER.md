@@ -328,6 +328,46 @@ için kaynağa sorulacak.
 > 🟡 Ve `h1#8` **ters yönde** açık: Midilli'de 0 parça, ama **Ayvalık'ta 76 km²**
 > (su 23,5 km) — şikâyet kapandı, aynı boğazda ters yön kaldı.
 
+### 🔴🔴 ADIM 1 TAM — **MOTOR KUSURU SIFIR · 19/19 NOKTASIZLIK**
+
+🟢 **Ve ölçüt Emre'nin KENDİ cümlesinden çıktı.** `K4`ün son şartı:
+> *"…VE GEREĞİ YAPILMALI, **EĞER GERÇEK BİR DURUM DEĞİL İSE ÇÖZÜMLENMELİ.**"*
+```
+su genişliği ölçütü   Tromsø (20.902 km²) ile Kilitbahir'i (1.444) AYIRAMIYOR
+K4 ölçütü             ayırıyor: "parçanın sahibi bütün kara komşularından FARKLI mı"
+⇒ Tromsø GÖRÜNMEZ (iki yaka da norvec) · Kilitbahir GÖRÜNÜR (1300·1345 bizans)
+```
+📌 Koordinatörün şartnamesi `K4`ü *"toplu tarama isteniyor"* diye özetlemiş ve
+**ölçütü kaybetmişti** — ham cümle taşıyordu. ***Kullanıcının cümlesi bir talep
+değil, bir ÖLÇÜT taşıyordu.***
+
+```
+🔴 GÖRÜNÜR KUSUR   19 parça ·  8.862 km²    hepsi NOKTASIZLIK
+🟢 gerçek durum    61 parça · 95.833 km²    DOKUNULMAZ (Tromsø · Bergen · Oslo…)
+MOTOR kusuru        0 parça ·      0 km²
+```
+⇒ **Karar: motor DEĞİŞMEYECEK.** Çare nokta eklemek.
+
+**HALKA 1 — Emre'nin şikâyet ettiği yer · 4 nokta · 1.798 km² · BEŞ vakayı kapatır**
+```
+Kilitbahir/BEHRAMKALE 1.444 · Boğaziçi 137 · Karabiga 124 · Bolayır 93
+```
+**HALKA 2 — taramadan çıkan, şikâyet edilmemiş · 15 nokta · 7.064 km²**
+```
+Vardø 4.831 · Tralee 503 · Pontianak 199 · Helsinki 197 · Tallinn 186 ·
+İnari 179 · La Rochelle 158 · Camboyluk 152 · Sebte 123 · Tønsberg 107 ·
+Bombay 106 · Stralsund 101+80 · Tenggarong 90 · Draç 53
+```
+⚠️ Halka 2 **Emre'nin kararı** — `h17#3b` onları *bulmayı* istedi, *"hepsini
+kapat"* demedi. Ve `Vardø` **1300→1900 hep görünür** olmasına rağmen Emre onu
+hiç görmemiş: ***kusurun büyüklüğü ile kullanıcıya görünürlüğü ayrı şeyler.***
+
+🟢 **`h17#3` çözüldü:** *"Biga'nın ucunda kusur var"* **doğru**, *"sebebi
+Midilli"* **yanlış** — sebep **Behramkale'nin noktası yok.** Emre'nin **hükmüne
+değil yalnız teşhisine** dokunuldu.
+🟢 Ve `Pag` (7.277 km², sabah "ihlal" bildirilmişti) **görünmez** çıktı — 8
+komşusu da aynı sahip. ***Kuralın ihlali ile kullanıcının gördüğü kusur ayrı.***
+
 ---
 
 ## 🔴 KÜLLİYAT TEK BİR FOTOĞRAF DEĞİL — EN AZ İKİ TUR
