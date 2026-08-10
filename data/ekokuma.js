@@ -79,6 +79,23 @@ window.EKOKUMA = [
   kesinlik:"kesin",
   zincir:[],
   olay:["1354-08-01"],
-  kaynak:"TDV: ahilik · ankara" }
+  kaynak:"TDV: ahilik · ankara" },
+
+// ── parti-0007 / H-0004 · İÇERİK oturumu, 10 Ağustos 2026 ───────────────────
+// `tabi-devlet-vassallik` kartının kardeşi: o DEVLETLERİN, bu TEBAANIN statüsünü
+// anlatıyor. Emre'nin sözü: "osmanlıların ele geçirdikleri hristiyan ülkelerde
+// halkla ilgili girdikleri yönetsel ilişkiler nelerdir."
+// Tartışmalı taraf (zorlama var mıydı) `merak.js` → `hristiyan-tebaa-zorlama-mi`
+// kartında; burada TANIM ve İŞLEYİŞ var. İkisi kasten ayrıldı.
+
+{ id:"zimmi-cizye-millet-duzeni", tur:"sebep-sonuc",
+  sebep:{ b:"İstanbul'un fethiyle imparatorluğun en kalabalık gayrimüslim cemaatlerinin tek merkezde tebaa hâline gelmesi ve bu nüfusun idaresi için kurumsal bir çerçeveye ihtiyaç duyulması", t:"1453-05-29" },
+  sonuc:{ b:"Islahat Fermanı ile cizyenin kaldırılıp gayrimüslimlere askerlik yükümlülüğünün getirilmesi — dört asırlık zimmet düzeninin hukuken sona ermesi", t:"1856-02-18" },
+  bag:"TDV Zimmî maddesi klasik düzenin \"Tanzimat'tan sonra önemli ölçüde ortadan kaldırıldığını\" yazar; Cizye maddesi 1856 Islahat Fermanı'nın cizyeyi kaldırdığını ve yerine 1907'ye kadar süren bedel-i askerînin geçtiğini kaydeder. Millet maddesine göre Ermeni milleti 1461'de Fâtih'in İstanbul'da bir patrik tayin etmesiyle kurulmuştu; 1856'dan sonra cemaat idaresine laik unsurlar girdi ve patrikhânelerin yetkileri azaldı.",
+  metin:"Zimmî, dârülislâmda vatandaş olarak yaşayan ve kendisine güvence verilen gayrimüslimdir: canı ve malı dokunulmaz, ibadeti serbest, kendi aralarındaki davalarda kendi mahkemesine gitme hakkı vardır; karşılığında devletin hâkimiyetini tanır ve cizye öder. Cizye yalnız hür, ergin, çalışabilir ve ödeme gücü olan erkeklerden alınır — kadın, çocuk, yaşlı, âmâ, kötürüm, fakir ve ibadete çekilmiş din adamları muaftır — ve Osmanlı'da âlâ (48 dirhem), evsat (24) ve ednâ (12) olmak üzere üç sınıfa ayrılırdı. Cemaatler millet teşkilatıyla yönetilirdi; bu teşkilat etnik ya da dil aidiyetine değil din ve mezhep esasına dayanırdı, bu yüzden Ermeniler Gregoryen, Katolik ve Protestan olarak üç ayrı millet sayılıyordu. Patrik ve hahambaşı devlet adına vergi toplar, cemaati yönetir, hukuk uygular ve eğitimi denetlerdi; ama bu yetki devletin denetimindeydi — yalnız XVII. yüzyılda elli sekiz Rum patriği değiştirilmiştir.",
+  kesinlik:"kesin",
+  zincir:[],
+  olay:["1453-05-29","1421-06-01","1856-02-18"],
+  kaynak:"TDV: zimmi · cizye · millet · devsirme" }
 
 ];

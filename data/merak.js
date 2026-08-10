@@ -61,6 +61,28 @@
 //      çalıştığı için sekizinci kart olarak ekledim; kalan altısı AÇIK.
 // ============================================================================
 
+// 🔴 10 AĞUSTOS 2026 — İÇERİK oturumu, `parti-0007` (H-0001…H-0006)
+// Altı kalem, ALTI kart (H-0005 ve H-0006 aynı sahne ama AYRI soru: biri
+// olgusal "tâbi oldular mı", öteki tartışma "amacı neydi" — birleştirilseydi
+// Emre'nin ikinci sorusu kaybolurdu; koordinatör onayladı). H-0004'ün tanım
+// yarısı `ekokuma.js` → `zimmi-cizye-millet-duzeni` kartında.
+//
+// 🔴 DEVRALINAN İKİ İDDİA SINANDI — biri ÇÜRÜDÜ, biri DOĞRULANAMADI:
+//   "Kilitbahir + Kale-i Sultâniye (1462)"  → ÇÜRÜDÜ. TDV `canakkale` "1463
+//      yılında inşa edilen" der, `kilitbahir-kalesi` ise kaleyi "İstanbul'un
+//      fethinden SONRA yapılmış" diye tanımlar (Kritovulos: 1463-1465).
+//      ⇒ Asıl bulgu yıl değil SIRA: 1453 kuşatmasında Çanakkale hisarsızdı,
+//        yani Emre'nin gözlemi doğru; kart "niçin O KADAR GEÇ" sorusuna oturdu.
+//   "Galata 28 Mayıs'ta teslim anlaşmasıyla alındı" → DOĞRULANAMADI. TDV
+//      `galata` gövdesi okundu, teslim gününe dair kayıt YOK. Karta YAZILMADI,
+//      yerine `bulunamadı` damgası kondu.
+// 📌 İkisi de KUTU DENETİM'in "aktardığımı söylüyorum, kartı yazan sınasın"
+//    dediği notlardı. Sınandı. Ölçülmemiş bir cümleyi devralmak, onu ölçülmüş
+//    gösterir (CLAUDE.md §11).
+//
+// ⚠️ `baglanti` alanlarının tamamı yazıldıktan sonra `data/olaylar*.js`e karşı
+//    ölçüldü (16 dosya · 1161 madde): karşılıksız bağlantı 0.
+
 window.MERAK = [
 
 { id:"karaman-nicin-zor", tur:"merak",
@@ -181,6 +203,98 @@ window.MERAK = [
   ],
   baglanti:["1516-08-02","1517-04-18","1538-06-13","1546-01-01"],
   kesinlik:"tartismali",
-  kaynak:"TDV: HİNT DENİZİ SEFERLERİ · Ertuğrul Önalp (OTAM) · Diogo do Couto, Da Ásia" }
+  kaynak:"TDV: HİNT DENİZİ SEFERLERİ · Ertuğrul Önalp (OTAM) · Diogo do Couto, Da Ásia" },
+
+// ── parti-0007 · İÇERİK oturumu, 10 Ağustos 2026 ────────────────────────────
+
+{ id:"haclilar-nicin-basarisiz", tur:"merak",
+  soru:"Bir sürü devlet tarafından örgütlenip Osmanlı'ya saldıran Haçlı seferleri niçin hep başarısız oldu?",
+  kisa:"Ortak düşman ortak komuta üretmedi: her seferde ordular birleşti, KARAR birleşmedi.",
+  goruşler:[
+    { tez:"Koalisyon ordusuydu, tek ordu değildi",
+      dayanak:"Niğbolu'da (25 Eylül 1396) Buda'da toplanan kuvvet Macar, Fransız, Alman, İngiliz, Eflak ve öteki Avrupa şövalyelerinden kuruluydu. Sigismund ihtiyatlı bir savunma savaşı istiyordu; Enguerrand de Coucy'nin \"Türkler'in hareketi beklenmeksizin bir an önce saldırıya geçilmesi\" görüşü kabul edilince acele hücum edildi. TDV hezimeti disiplinsizliğe, ortak savaş planının yokluğuna, aşırı özgüvene ve topografyanın incelenmemesine bağlar — sayıya değil." },
+    { tez:"Deniz ayağı hiç tutmadı",
+      dayanak:"Varna seferi (10 Kasım 1444) Boğazlar'ın kapatılacağı varsayımı üzerine kuruldu: sekizi papanın, beşi Venedik'in, dördü Burgonya'nın, ikisi Ragusa'nın desteklediği bir filo hazırlandı. Filo boğazları tutamadı ve II. Murad ekim sonunda Ceneviz tüccar gemilerini KİRALAYARAK Anadolu'dan Rumeli'ye geçti. Kara ordusu, gerçekleşmeyen bir denizaltı varsayımın üstünde yürümüş oldu." },
+    { tez:"\"Hep başarısız\" ölçütü de tartışmalı",
+      dayanak:"1444 baskısı savaş meydanında değil MASADA sonuç vermişti: Edirne-Segedin Antlaşması (12 Haziran 1444) ve ardından Semendire'nin fiilen Sırbistan'a iadesi (Ağustos 1444) Haçlı tarafının kazancıydı. TDV bu metnin \"gerçek anlamda bir barış mı yoksa geçici bir ateşkes mi olduğu\"nun tartışmalı olduğunu, Kardinal Cesarini ve Bizans imparatorunun devreye girmesiyle hükümsüz kaldığını yazar. ⇒ Sorun her zaman kazanamamak değil, kazanılanı korumamaktı." }
+  ],
+  baglanti:["1396-09","1444-06-12","1444-08-01","1444-11"],
+  kesinlik:"tartismali",
+  kaynak:"TDV: HAÇLILAR · NİĞBOLU SAVAŞI · VARNA MUHAREBESİ" },
+
+{ id:"canakkale-hisar-ve-zincir", tur:"merak",
+  soru:"İstanbul Boğazı'na iki hisar yapıldı da Çanakkale Boğazı'na niçin yapılmadı — ve Bizans Haliç'e zincir gerdiğine göre Osmanlı niçin boğazlara zincir germeyi düşünmedi?",
+  kisa:"Sorunun ilk yarısının öncülü eksik: Çanakkale'ye de hisar YAPILDI — ama fetihten SONRA. Asıl soru \"niçin yapılmadı\" değil, NİÇİN O KADAR GEÇ yapıldığıdır.",
+  goruşler:[
+    { tez:"Hisar var — ama kuşatma silahı değil, fetih sonrası kilit",
+      dayanak:"Fâtih boğazın en dar yerinde karşılıklı iki kale yaptırdı: Rumeli yakasında Kilitbahir, karşısında Kal'a-i Sultâniyye. TDV Çanakkale maddesi Sultâniyye için \"1463 yılında inşa edilen\" der; Kilitbahir maddesi kaleyi \"İstanbul'un fethinden sonra yapılmış kale\" diye tanımlar ve Kritovulos'a dayanarak inşanın 1463-1465'te tamamlandığını yazar. Yani bu hisarlar 1453 kuşatmasının aracı DEĞİL, fethedilmiş bir başşehri Ege'den gelecek donanmaya kapatan sonraki bir tedbirdir. Pîrî Reis'e göre Marmara'dan çıkan gemiler geçiş iznini Rumeli yakasındaki kaleden alırdı." },
+    { tez:"1453'ten önce Çanakkale zaten hisarsız denetleniyordu — iki boğazın işi farklıydı",
+      dayanak:"Çanakkale'nin iki yakası da 1354'ten beri fiilen Osmanlı'daydı (1366'da bir Haçlı filosu Gelibolu'yu aldı, 1367'de Bizans'a bıraktı, 1376'daki ikinci fetihle kesin Osmanlı oldu) ve denetim kaleyle değil Gelibolu tersanesi ve donanmayla sağlanıyordu. İstanbul Boğazı'ndaki iki hisarın işi ise apayrıydı: Anadolu Hisarı Yıldırım Bayezid'in bir \"köprübaşı\"sıydı — ordunun karşıya geçişi için; Rumeli Hisarı (Mart 1452'de başlandı, 31 Ağustos 1452'de tamamlandı) Boğaz'dan gelip geçen gemileri kesmek içindi. Çanakkale'de kesilecek bir düşman trafiği yoktu, çünkü boğaz zaten Osmanlı'nın kendi geçit yeriydi." },
+    { tez:"Zincir fikrinin kendi sicili zayıf — ve Osmanlı'nın cevabı zincir değil TOP oldu",
+      dayanak:"Zincir ancak İKİ UCU DA tutuluyorsa engeldir: Haliç zincirinin bir ucu Sirkeci'de Kentenarios burcuna, öteki ucu Karaköy'de Kastellion hisarına bağlıydı — ve 1203'te Batılı şövalyeler Kastellion'u ele geçirerek zinciri açmışlardı. 1453'te de zincir kırılmadı, 21 Nisan gecesi gemilerin Galata sırtlarından indirilmesiyle \"fonksiyonunu kaybetti\". Osmanlı aynı işi kalelere yerleştirdiği toplarla çözdü. ⚠️ Osmanlı'nın boğazlara zincir germeyi düşünüp düşünmediğine dair bir kayıt taranan TDV maddelerinde BULUNAMADI; bu görüş bir kayıt değil, zincirin ölçülmüş siciline dayanan bir çıkarımdır." }
+  ],
+  baglanti:["1452-08-31","1453-04-06","1453-04-22","1453-05-29"],
+  kesinlik:"tartismali",
+  kaynak:"TDV: ÇANAKKALE · KİLİTBAHİR KALESİ · GELİBOLU · ANADOLUHİSARI · RUMELİHİSARI · HALİÇ · İSTANBUL" },
+
+{ id:"galata-nicin-alinmadi", tur:"merak",
+  soru:"Haliç zincirinin ucu Galata'daydı; Fâtih niçin Galata'yı alıp zinciri boşa düşürmek yerine gemileri karadan yürüttü?",
+  kisa:"Çünkü Galata Bizans değil CENEVİZ'di ve resmen tarafsızdı: zinciri açmak ucuzdu, Ceneviz'i savaşa sokmak pahalı.",
+  goruşler:[
+    { tez:"Sorulan yol teorik değil — 250 yıl önce fiilen denenmişti",
+      dayanak:"TDV Haliç maddesi şunu kaydeder: 1203'te İstanbul önlerine gelen Batılı şövalyeler, \"Galata'da zincirin bir ucunun bağlandığı Kastellion Hisarı'nı ele geçirerek zinciri açmışlardı.\" Yani zincirin ucunu almak Haliç'e girmenin bilinen yoluydu. Değişen şey yöntem değil MÜLKİYETTİ: 1203'te Kastellion Bizans'ındı, 1453'te Galata bir Ceneviz kolonisiydi." },
+    { tez:"Tarafsızlık askerî değil diplomatik bir varlıktı",
+      dayanak:"TDV İstanbul maddesine göre kuşatma boyunca Galata'daki Cenevizliler resmen tarafsız kaldı. Bu tarafsızlığın kırılganlığı aynı kuşatmada görülüyor: 20 Nisan'da İstanbul'a iâşe getiren üç Ceneviz gemisi, lodosun kürekli Osmanlı gemilerini bağlaması sayesinde ablukayı yarıp Haliç'e girdi. Buna rağmen Galata'ya saldırılmadı — çünkü Ceneviz yalnız bir koloni değil, Osmanlı'nın da kullandığı bir deniz gücüydü: II. Murad 1444'te Varna seferi öncesi Boğaz'ı Ceneviz tüccar gemilerini kiralayarak geçmişti." },
+    { tez:"Karadan yürütme ikisini birden verdi — bedel sonra ödendi",
+      dayanak:"21 Nisan'ı 22 Nisan'a bağlayan gece donanmanın bir kısmı karadan çekilerek Haliç'e indirildi ve zincir savaşılmadan işlevsizleşti; Galata'ya bir asker bile girmedi. Fetihten sonra ise TDV'nin kaydettiği şudur: \"Osmanlı fethinden sonra Galata'daki Cenevizliler'e Fâtih Sultan Mehmed eski özerk statülerini vermedi\" — Haziran 1453 (Cemâziyelevvel 857) tarihli ahidnâme onlara \"imtiyaz ve bir kapitülasyon niteliği\" taşıyan haklar tanıdı. ⇒ Tarafsızlık kuşatmayı atlattı, fethi atlatamadı. ⚠️ Galata'nın teslim GÜNÜNE dair açık bir kayıt TDV Galata maddesinde BULUNAMADI." }
+  ],
+  baglanti:["1453-04-06","1453-04-22","1453-05-29"],
+  kesinlik:"tartismali",
+  kaynak:"TDV: HALİÇ · İSTANBUL · GALATA · VARNA MUHAREBESİ" },
+
+{ id:"hristiyan-tebaa-zorlama-mi", tur:"merak",
+  soru:"Osmanlı fethettiği Hıristiyan ülkelerde halkı din, dil ve milliyet değiştirmeye zorladı mı — o dönemde Hıristiyan olmanın avantajı ve dezavantajı neydi?",
+  kisa:"Kural zorlama değil TASNİF'ti: din değiştirmek serbestti ama SONUÇLUYDU — vergi, statü ve kariyer ona bağlıydı.",
+  goruşler:[
+    { tez:"Hukukun ölçütü din'di, dil ya da soy DEĞİLDİ",
+      dayanak:"Zimmet akdi gayrimüslime \"can ve malının korunduğu\", inanç ve ibadet hürriyeti ve kendi aralarındaki davalarda kendi mahkemelerine gitme hakkı verirdi; TDV bunun dayanağını \"dinde zorlama yoktur\" ilkesine bağlar. Millet teşkilatı da \"etnik (kavmî) ve lisan aidiyetine değil din ve mezhep esasına\" dayanıyordu: Rum Ortodoks milleti sonradan Yunan dışındaki etnik grupları da içine aldı, Ermeniler ise Gregoryen, Katolik ve Protestan olarak ÜÇ ayrı millete bölündü. Bir dil ya da soy siyaseti güdülseydi bölme ölçütü bu olmazdı." },
+    { tez:"Ama eşitlik de yoktu — avantaj ve dezavantaj AYNI KALEMDEYDİ",
+      dayanak:"Cizye yalnız gayrimüslim, hür, ergin, çalışabilir ve ödeme gücü olan erkeklerden alınırdı; kadın, çocuk, yaşlı, âmâ, kötürüm, fakir ve ibadete çekilmiş din adamları muaftı. Osmanlı üç sınıf uyguladı: âlâ 48, evsat 24, ednâ 12 dirhem (1834'te 60-30-15 esedî kuruşa çıktı). İslâm'a girenden cizye DÜŞERDİ — yani vergi, din değiştirmenin maddî karşılığını doğrudan ödüyordu. Öte yandan aynı vergi askerlik yükümlülüğünün yerine geçiyordu: 1856 Islahat Fermanı cizyeyi kaldırıp gayrimüslime askerlik getirince, yerine 1907'ye kadar süren \"bedel-i askerî\" kondu." },
+    { tez:"Devşirme bu tablonun en tartışmalı köşesi — ve kaynağın kendisi de tartışıyor",
+      dayanak:"Çelebi Mehmed devrinde ortaya çıkıp II. Murad'da sistemleşen devşirmede kurallar sıkıydı: tek oğlu olan alınmaz, öksüz ve hasta alınmaz, şehir çocuğu alınmazdı; Yahudiler, Türkler, Kürtler, İranlılar, Ruslar ve Çingeneler ile derbendci, madenci ve devlet inşaatında çalışanlar muaftı, Ermeniler'den çok az devşirilirdi, ölçü kırk hânede bir çocuktu. Devşirilen çocuk Müslüman edilirdi ve dönemin uleması bunu \"çocuk fıtrat üzere doğar\" hadisiyle temellendiriyordu — yani ihtidanın gönüllülüğü DÖNEMİN KENDİSİNDE de bir izah gerektirmiş. Aynı yolun ucunda Sokullu Mehmed Paşa ve Köprülüler gibi sadrazamlar var; son devşirme 1751'de yapıldı. ⇒ \"Zorlama var mıydı\" sorusunun cevabı hangi kaleme bakıldığına göre değişiyor: kanunda yok, devşirmede var, sonuçta bir yükselme merdiveni de var." }
+  ],
+  baglanti:["1421-06-01","1453-05-29","1839-11-03","1856-02-18"],
+  kesinlik:"tartismali",
+  kaynak:"TDV: ZİMMÎ · CİZYE · MİLLET · DEVŞİRME" },
+
+{ id:"timur-sehzadeleri-baglanma", tur:"merak",
+  soru:"Timur, Ankara Savaşı'ndan sonra Osmanlı şehzâdelerini kendisine bağlanmaya zorladı mı?",
+  kisa:"Zorlamaya pek gerek kalmadı: tâbiiyet belgesini şehzâdeler BİRBİRLERİNE karşı istedi — Timur'un yarlığı hepsinin meşruiyet kaynağı oldu.",
+  goruşler:[
+    { tez:"Belge var ve adı yarlıg",
+      dayanak:"Emîr Süleyman savaştan sonra Timur'un Anadolu'daki hâkimiyetini tanıdı; Timur da İzmir kuşatması sırasında (Aralık 1402 - Ocak 1403) ona Rumeli toprakları üzerindeki hükümranlığını tanıyan bir yarlıg verdi — karşılığı tâbiiyetti. Çelebi Mehmed'in maddesi de aynı şeyi kaydeder: Tokat-Amasya bölgesindeki rakip mahallî hanedanlara karşı otoritesini kurabilmek için \"Timur'un hükümdarlığını kabul etti.\" ⇒ İlişki iki şehzâdede de belgelidir ve ikisinde de saik aynı: kardeşe ve rakibe karşı üstünlük." },
+    { tez:"Ama tek tip bir \"bağlanma\" yok — Mûsâ'nınki esaretti",
+      dayanak:"Mûsâ Çelebi Ankara'da babasıyla birlikte esir düştü. Yıldırım Bayezid'in ölümünden sonra Timur onu serbest bıraktı, Bursa ve çevresinin emirliğini verdi, babasının naaşını Akşehir'den Bursa'ya götürmesini istedi ve ardından Germiyanoğlu Yâkub Bey'in yanına gönderdi. Aynı Timur birine belge, birine emirlik, birine de gözetim verdi. Zaten savaş öncesi 13 Mart 1402'de Bayezid'den istedikleri arasında da \"şehzadelerden birinin kendi yanına gönderilip bağımlılık alâmeti olarak vereceği külâh ve kemerin kabul edilmesi\" vardı — yani rehin şehzâde fikri savaştan önce de masadaydı." },
+    { tez:"Ölçüt sorunu: bunu Ankara Savaşı maddesi HİÇ anlatmıyor",
+      dayanak:"TDV'nin Ankara Savaşı maddesi sonucu iki cümleyle özetler — \"bütün Anadolu Timur'a mensub emîrler tarafından istilâ edildi\" ve \"Anadolu'da uzun mücadeleler sonunda kurulmuş olan Türk birliği bozulmuş\" — şehzâdelerin tâbiiyetinden, yarlıgdan ya da Mûsâ'nın durumundan söz etmez. Bu bilgi ancak şehzâdelerin kendi biyografilerinde bulunuyor. ⇒ Soru tek bir kaynağa sorulduğunda cevapsız kalıyor; dört biyografi yan yana konduğunda ise ortaya bir zorlamadan çok bir MEŞRUİYET PAZARI çıkıyor." }
+  ],
+  baglanti:["1402-07-28","1402-08-01","1402-08-20","1402-12-14","1402-12-20","1403-03-09"],
+  kesinlik:"tartismali",
+  kaynak:"TDV: SÜLEYMAN ÇELEBİ, Emîr · MEHMED I · MÛSÂ ÇELEBİ · ANKARA SAVAŞI" },
+
+{ id:"timurun-misyonu-neydi", tur:"merak",
+  soru:"Timur'un misyonu neydi? İzmir'i şövalyelerden aldı, Anadolu'daki Türk birliğini dağıttı, Osmanlı'yı kaosa sürükledi — ama Avrupa'ya açılma ihtiyacı duymadı ve devleti dağıtıp gitti.",
+  kisa:"\"Dağıtıp gitmek\" bir ihmal değil YÖNTEMİN KENDİSİYDİ: Timur toprak değil TÂBİİYET topluyordu.",
+  goruşler:[
+    { tez:"Hedef ilhak değil tâbiiyetti — ve bunun belgesi savaştan önce yazılmıştı",
+      dayanak:"Timur'un 13 Mart 1402'de Bayezid'e gönderdiği dört şartın dördü de bir hükümranlık devri değil bir üstlük tanıması istiyordu: Kemah'ın Mutahharten'e geri verilmesi, Anadolu beylerinden alınan toprakların iadesi, şehzadelerden birinin yanına gönderilip külâh ve kemer takdim etmesi, Kara Yusuf'un teslimi. TDV Timur'un genel yöntemini de aynı şekilde tarif eder: fethettiği yerleri doğrudan ilhak etmek yerine mahallî hanedanları yerinde bırakır, haraç ve sadakat alırdı. ⇒ Beylikleri yeniden kurup çekilmesi, planın bozulması değil planın TAMAMLANMASIYDI." },
+    { tez:"Meşruiyetini Cengiz'den alıyordu, gazadan değil — ama gaza dilini de kullandı",
+      dayanak:"Timur tahta bir kukla han oturtup onun adına hükmetti ve Cengiz soyundan Saray Melik ile evlenerek \"Küregen\" (hanın damadı) unvanını aldı; yani meşruiyetin kaynağı hilâfet ya da gaza değil Cengiz mirasıydı. Buna karşılık seferlerini \"kâfirlere ve putperestlere karşı cihad\" adıyla yürüttü ve TDV bunun esas itibariyle siyasî hedeflere hizmet ettiğini kaydeder. İzmir'i Saint Jean şövalyelerinden alması (14 Aralık 1402) bu dilin sahaya çıkışıdır: Bayezid'in alamadığı bir gaza hedefini alarak, yendiği rakibin unvanını da devralmış oldu." },
+    { tez:"Ekseni Batı değil DOĞU'ydu — ve açık kalan soru tam burada",
+      dayanak:"Timur'un son seferi Avrupa'ya değil ÇİN'e idi: 27 Kasım 1404'te Semerkant'tan çıktı, donmuş Seyhun'u geçip Otrar'a vardı, orada hastalanıp 18 Şubat 1405'te öldü. TDV bu seferin gerekçelerinin \"tam olarak açık olmadığını\" söyler; alenî gerekçe yine putperestlere vurmaktı. ⇒ \"Niçin Avrupa'ya açılmadı\" sorusunun cevabı bir tercih olabileceği gibi, öyle bir sorunun onun gündeminde hiç bulunmaması da olabilir — kaynak bu noktada kesin konuşmuyor. Ölümünün ardından oğulları ve torunları arasında çıkan taht kavgası imparatorluğu böldü; Anadolu'ya dönüş ihtimali de o kavgayla birlikte kapandı." }
+  ],
+  baglanti:["1402-03-13","1402-09-15","1402-12-14","1403-03-15"],
+  kesinlik:"tartismali",
+  kaynak:"TDV: TİMUR · ANKARA SAVAŞI" }
 
 ];
