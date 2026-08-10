@@ -1078,10 +1078,14 @@ window.DEVLETLER = [
   ]
 },
 { id:"kilikya-ermeni", ad:"Kilikya Ermeni Krallığı", tur:"krallik", bolge:"anadolu",
-  f:"1198-01-01", t:"1375-04-14", baskent:"Sis", harita:"kilikya-ermeni",
-  ozet:"Osmanlı kuruluşundan önce Memlûklere yenilerek tarihe karıştı; Osmanlı ile doğrudan teması yok, coğrafi bağlam için anıldı.",
-  kaynak:"bulunamadı — TDV'de müstakil maddesi yok (kili, sis alakasız konular), dayanak: standart akademik kaynak",
+  f:"1199-01-06", t:"1375-04-14", baskent:"Sis", harita:"kilikya-ermeni",
+  ozet:"Osmanlı kuruluşundan önce Memlûklere yenilerek tarihe karıştı; Osmanlı ile doğrudan teması yok, coğrafi bağlam için anıldı. ⚠️ 10 Ağustos 2026: f: 1198-01-01 → 1199-01-06 düzeltildi — Bournoutian'ın akademik kaynağı taç giyme gününü (6 Ocak) net veriyor, yıl 1198/1199 arasında kaynaklar arası küçük fark var (takvim başı hesaplaması), Bournoutian ve olayın kendisi 1199'u destekliyor.",
+  kaynak:"bulunamadı — TDV'de müstakil maddesi yok (kili, sis alakasız konular), dayanak: George A. Bournoutian, 'A Concise History of the Armenian People', 5. bs. (Mazda Publishers, 2006)",
   kronoloji:[
+    { t:"1199-01-06", tur:"kurulus", b:"Levon (I/II), Tarsus Katedrali'nde Kutsal Roma İmparatoru VI. Heinrich'in gönderdiği tacı giyip Kilikya Ermeni Krallığı'nın ilk kralı oldu; papalık temsilcisi tarafından kutsandı (Bournoutian 2006, s.32)" },
+    { t:"1247-01-01", tur:"ittifak", b:"Kral Hetum I, kardeşi Sempad'ı Karakurum'a gönderip Möngke Han'ın kardeşiyle Memlüklere karşı ittifak kurdu — Moğol İmparatorluğu ile resmî ittifakın başlangıcı (Bournoutian 2006, s.45)" },
+    { t:"1260-01-01", tur:"toprak-kayip", b:"İlhanlı Moğolları Memlüklere yenilip Persia'ya çekilince, Memlükler Kilikya'ya saldırıp ülkeyi tahrip etti — Memlük saldırılarının fiilî başlangıcı (Bournoutian 2006, s.45)" },
+    { t:"1269-01-01", tur:"vassal", b:"Hetum I tahttan çekilip yerini oğlu II. Levon'a bıraktı; II. Levon büyük yıllık haraç ödemek zorunda kalıp krallık fiilen Memlük vassalı oldu (Bournoutian 2006, s.45)" },
     { t:"1375-04-14", tur:"son", b:"Memlûk fethiyle krallık sona erdi" }
   ]
 },
@@ -1742,10 +1746,12 @@ window.DEVLETLER = [
 },
 { id:"ahiler", ad:"Ahi Birliği (Ankara)", tur:"devlet", bolge:"anadolu",
   f:"1290-01-01", t:"1354-01-01", baskent:"Ankara", harita:"ahiler",
-  ozet:"Selçuklu iktidar boşluğunda esnaf-dinî teşkilat Ahilik'in Ankara'da kurduğu fiilî özerk yönetim; Orhan Gazi'nin oğlu Süleyman Paşa tarafından Osmanlı'ya katıldı. (kaynak: TDV, madde: ahilik, ankara)",
-  kaynak:"yetersiz — ahilik maddesi okundu, Ahi teşkilatının varlığını doğruluyor ama Ankara'yı 14. yüzyılda fiilen yönettiği iddiasını karşılamıyor (yalnız İbn Battûta'nın genel gözlemi var); dayanak: standart akademik kaynak",
+  ozet:"Selçuklu iktidar boşluğunda esnaf-dinî teşkilat Ahilik'in Ankara'da kurduğu fiilî özerk yönetim; Orhan Gazi'nin oğlu Süleyman Paşa tarafından Osmanlı'ya katıldı. (kaynak: TDV, madde: ahilik, ankara) 🔴 10 Ağustos 2026 BULGU (KOORDİNATÖRE BİLDİRİLDİ, t: DEĞİŞTİRİLMEDİ): Hacettepe Üniversitesi akademik makalesi (Celal Metin, 'Ankara'da Ahiler Yönetimi (1290-1354) Meselesi'), 1354'ün yalnız GEÇİCİ bir Osmanlı fethi olduğunu, şehrin kısa sürede yeniden Ahilerin eline geçtiğini ve gerçek/kesin sonun I. Murad'ın ikinci fethiyle (~1360) geldiğini gösteriyor. Mevcut t:1354 6 yıl erken kapanıyor olabilir — künyenin tarihine dokunulmadı, bu bir veri sahibi kararı.",
+  kaynak:"yetersiz — ahilik maddesi okundu, Ahi teşkilatının varlığını doğruluyor ama Ankara'yı 14. yüzyılda fiilen yönettiği iddiasını karşılamıyor (yalnız İbn Battûta'nın genel gözlemi var); dayanak: standart akademik kaynak + Celal Metin (Hacettepe Üniversitesi akademik makalesi)",
   kronoloji:[
     { t:"1290-01-01", tur:"kurulus", b:"Selçuklu otoritesinin çökmesiyle Ahi teşkilatı Ankara'yı fiilen yönetmeye başladı" },
+    { t:"1330-01-01", tur:"hukumdar", b:"İbn Battûta Anadolu'ya gelip Ankara dahil pek çok şehirde Ahilerin hükümeti fiilen yönettiğine bizzat tanık oldu ('bu ülkede bir şehirde hükümdar yoksa Ahiler hükümeti yönetir') (Celal Metin, Hacettepe Üniversitesi)" },
+    { t:"1341-01-01", tur:"vassal", b:"Alâeddin Eretna sultan unvanı alıp bağımsızlığını ilan etti; Ankara nominal olarak Eretna Beyliği'ne bağlandı ama fiilî yönetim Ahilerde kaldı (TDV ankara maddesi + Celal Metin)" },
     { t:"1354-01-01", tur:"son", b:"Süleyman Paşa, Ankara'yı Osmanlı topraklarına kattı" }
   ]
 },
@@ -1775,7 +1781,10 @@ window.DEVLETLER = [
   kaynak:"esrefogullari",
   kronoloji:[
     { t:"1277-01-01", tur:"kurulus", b:"Seyfeddin Süleyman Bey tarafından kuruldu" },
-    { t:"1326-01-01", tur:"son", b:"İlhanlı memuru Demirtaş'ın müdahalesiyle dağıldı, toprakları komşu beyliklere kaldı" }
+    { t:"1288-01-01", tur:"vassal", b:"Seyfeddin Süleyman Bey, İlhanlı-Selçuklu kuvvetleriyle iş birliği yaptığı casusluk faaliyetinin ardından affedilip beylik merkezini Gorgorum'dan Beyşehir'e taşıdı, kaleyi yeniden inşa ettirdi (687 AH kitabesi, TDV esrefogullari maddesi)" },
+    { t:"1299-01-01", tur:"isyan", b:"Seyfeddin Süleyman Bey, İlhanlı hâkimiyetine karşı fiilen bağımsızlığını ilan etti (TDV esrefogullari maddesi)" },
+    { t:"1302-08-01", tur:"hukumdar", b:"Beyliğin kurucusu Seyfeddin Süleyman Bey vefat etti (TDV esrefogullari maddesi)" },
+    { t:"1326-10-09", tur:"son", b:"İlhanlı valisi Emîr Çoban'ın oğlu Demirtaş (Timurtaş), Beyşehir'e girip son bey Süleyman Şah'ı öldürttü; toprakları Hamîdoğulları, Sâhib Ataoğulları ve Karamanoğulları arasında paylaşıldı (TDV esrefogullari maddesi, tam gün)" }
   ]
 },
 { id:"inancogullari", ad:"İnançoğulları (Denizli/Lâdik Beyliği)", tur:"beylik", bolge:"anadolu",
@@ -4173,16 +4182,19 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
     { t:"1526-01-01", tur:"kurulus", b:"Pangeran Samudera, Demak yardımıyla sultanlığı kurup İslâm'ı kabul etti" },
+    { t:"1635-01-01", tur:"antlasma", b:"Banjarmasin Sultanlığı ile VOC arasında ilk resmî antlaşma imzalandı (ANRI arşiv koleksiyonu; TAWARIKH dergisi, Ahyat 2012; gün bilinmiyor)" },
+    { t:"1859-04-01", tur:"isyan", b:"Pangeran Antasari önderliğinde Banjar halkı Hollanda'nın Pengaron kömür madenine ve Martapura mevzilerine saldırdı — Bancar Savaşı'nın fiilî başlangıcı (Ahyat, TAWARIKH: International Journal for Historical Studies 3(2), 2012)" },
     { t:"1860-06-11", tur:"son", b:"Hollanda sultanlığı ilga etti; direniş Bancar Savaşı'na dönüştü" }
   ]
 },
 { id:"gova-makassar", ad:"Gova (Makassar) Sultanlığı", tur:"sultanlik", bolge:"guneydogu-asya",
   f:"1281-01-01", t:"1667-11-18", baskent:"Makassar (Sombaopu)", harita:"gova-makassar",
   ozet:"Güney Sulavesi'de serbest liman siyasetiyle Hollanda tekeline karşı duran sultanlık; Bongaya Antlaşması'yla bağımsızlığını yitirdi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak (Cogent Arts & Humanities 13:1, 2604957, 2026 — Poelinggomang vd. 2004'e dayanarak)",
   kronoloji:[
     { t:"1605-01-01", tur:"kurulus", b:"Gova hükümdarı İslâm'ı kabul etti, sultanlık müslüman devlet oldu" },
-    { t:"1667-11-18", tur:"son", b:"Bongaya Antlaşması ile Hollanda'ya teslim olundu, liman tekele bağlandı" }
+    { t:"1666-01-01", tur:"savas", b:"VOC, Bone beyi Arung Palakka ile ittifak kurup Amiral Cornelis Speelman komutasında Gova'ya karşı büyük saldırı başlattı — Makassar Savaşı'nın (1666-1669) başlangıcı (Cogent Arts & Humanities 2026, s.66)" },
+    { t:"1667-11-18", tur:"son", b:"Somba Opu Kalesi'nin düşmesinin ardından Sultan Hasanuddin ile Amiral Speelman arasında Bungaya köyünde 26 maddelik antlaşma imzalandı: baharat tekeli ve Ujung Pandang Kalesi VOC'a devredildi, Bima Hollanda'ya geçti, VOC dışı ticaret yasaklandı (Cogent Arts & Humanities 2026, s.38-42, 67)" }
   ]
 },
 { id:"ternate-sultanligi", ad:"Ternate Sultanlığı (Moluk)", tur:"sultanlik", bolge:"guneydogu-asya",
