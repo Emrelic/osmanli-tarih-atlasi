@@ -1,36 +1,35 @@
 # BEKLEYENLER — Tarih Atlası · Emre'den ne bekleniyor
 
-> Koordinatör: Oturum 0 · son tazeleme **10 Ağustos 2026, 13:05**
+> Koordinatör: Oturum 0 · son tazeleme **10 Ağustos 2026, gün sonu**
 
 ---
 
 ## 🔴 GÖRSEL DOĞRULAMA — üç ekran görüntüsü, üçü de takılı
 
-KUTU DENETİM 71 maddenin 71'ini ölçtü ve **üçünde tahmin etmeyi reddetti.**
-Doğru davranış — ama üçü de sende takılı kaldı.
-
 | # | madde | ne lazım |
 |---|---|---|
-| 1 | `parti-0002/H-0014` | Saroz'un kuzeyini gösteren kareyi **alt künye çubuğu görünecek** şekilde yeniden al — iki görsel de aynı ve kırpık, tarih okunmuyor |
-| 2 | `parti-0004/H-0014` | Şikâyetin üstteki **"Katılım: Sin (Sinj)"** şeridi miydi, yoksa kronoloji listesindeki **tarih biçimi** karışıklığı mı? |
+| 1 | `parti-0002/H-0014` | Saroz karesini **alt künye çubuğu görünecek** şekilde yeniden al — iki görsel de aynı ve kırpık |
+| 2 | `parti-0004/H-0014` | Şikâyetin **"Katılım: Sin (Sinj)"** şeridi miydi, yoksa **tarih biçimi** karışıklığı mı? |
 | 3 | `parti-0006/H-0009` | Metin yazmamışsın — o karede **neyi işaretlemek** istemiştin? |
 
-> 📌 İkincisinde ipucu var: Sinj `d:1513-01-01`, ekran `1513-04-01` — "Katılım"
-> şeridi **üç ay** durup alâkasız bir maddenin üstüne düşüyor. Hangisi olursa
-> olsun orada gerçek bir kusur var.
+> Üçü de kutuda **🔴 SANA SORULDU** kovasında kırmızı duruyor.
+> ⏳ İÇERİK oturumu 18 docx'in görsellerini madde numarasına bağlıyor —
+> bitince bu üçünün bir kısmı kendiliğinden çözülebilir.
 
 ---
 
-## 🟡 KARAR BEKLEYENLER — dört karar, dünden devam
+## 🟡 KARAR BEKLEYENLER — beş karar
 
-| # | karar | durum |
+| # | karar | ölçüm |
 |---|---|---|
-| 1 | **T-0103** atlas kendi belirsizliğini çizsin mi | onay ya da **sebepli** red · veri hazır, eksik olan görselleştirme |
-| 2 | **T-0104** haritaya tıklayıp soru sorulabilsin mi | akış şu an tek yönlü: kronoloji → harita |
-| 3 | **T-0105** okuyucuya hata bildirme kanalı | hata bulan tek insan sensin; 18 parti hepsi senden |
-| 4 | **PROJEKSİYON** küre/düz yayına alınsın mı | kod hazır (`projeksiyon` dalı) · **canlı sayfayı değiştirir** · eşikler TAHMİN, ölçülmedi |
-| 5 | **`durum/` dosyaları** hangi oturum kapalı | beş dosya "calisiyor" diyor, en yeni damga 6 Ağustos · tahmin etmedim |
-| 6 | **Depo** `.git` 622 MB / 1 GB | neredeyse tamamı ölü çıktı sürümü (49 × `donemler.js`) · ayrı dala alırsak ~50 MB · ölçüp planlayayım mı? |
+| 1 | **Uyku ayarı** — üretim öncesi uyku kapansın | 🔴 bugün **185 dk** yedi · maliyeti **sıfır** · en kârlı karar |
+| 2 | `gc.auto` kapalı kalsın mı | şu an **0** · gc bugün 623 → 73 MiB yaptı, zamanlamayı biz seçelim |
+| 3 | **T-0103/0104/0105** üç üreteç önerisi | belirsizliği çizmek · haritaya tıklamak · okuyucuya hata kanalı |
+| 4 | **PROJEKSİYON** yayına girsin mi | kod hazır, **canlı sayfayı değiştirir**, eşikler TAHMİN |
+| 5 | Pages derleme hızı | sınır 10/saat · ölçülen tepe **20** · yumuşak sınır, GitHub şikâyet etmedi |
+
+> ⚠️ **Karar kapasiten ölçüldü: haftada ~6, ve ŞU AN DOLU.** Yeni soru
+> sormadan önce bunlar kapansın (`denetim/KAYNAK-PLANI.md`).
 
 ---
 
@@ -38,36 +37,45 @@ Doğru davranış — ama üçü de sende takılı kaldı.
 
 | iş | ölçüm |
 |---|---|
-| İran fetreti köprüsü | 26 nokta hayaletten çıktı · `2s` **121 → 120** açık |
-| `kisiBul` canlı kusuru | *"Kemal Reis"* → Nâmık Kemal açıyordu · **22 yanlış eşleşme düştü**, Tomanbay korundu |
-| KUTU DENETİM | **71/71** ölçüldü · 6 önceki hüküm çürüdü · **8 şikâyet zaten kapanmış** çıktı |
-| künye kronolojisi | ince künye **108 → 94** (VERİ DEVLET 2) |
-| `devletler.js` | 390 → **392** (`gilan-kiya` · `mazenderan-marasi` + iki renk) |
-| `CLAUDE.md §3.5.1` | bayat satır damgalandı — **işçi oturum çürüttü**, koordinatör ölçtü |
+| **YAYIN r1140** | canlı ve doğrulandı · Osmanlı **0/9** kesitte değişti |
+| `Değişmez 2s` | açık kırılma **121 → 59** (hedef ≤60 aşıldı) |
+| ince künye | **108 → 52** · VERİ DEVLET 2 |
+| padişah kartı | boş kart **14 → 0** · lakap/eşler/çocuk **39/39** |
+| şehir kartı | **62 → 79** · 62'sinin tamamı zenginleştirildi |
+| kişi | **281 → 287** · 146 yıllık kart hatası kapandı |
+| merak/ek-okuma | **11 → 18** · parti-0007 kapandı |
+| `.git` | **623 → 73 MiB** (%88,3) |
+| İran fetreti köprüsü | 26 nokta hayaletten çıktı |
+| token ölçümü | **%89,1 bağlam · %10,9 iş** — aletler `arac/` altında kalıcı |
 
 ---
 
-## SIRADAKİ DALGA — koşu 7 yayınlandıktan sonra
+## SIRADAKİ DALGA — ölçüldü, uygulanmadı
 
 | iş | kim / ne zaman |
 |---|---|
-| İlhanlı üçlüsü (Konya·Aksaray·Niğde) — 13 yıllık hayalet | koordinatör |
-| Erzincan `1473-08-11` — Otlukbeli **savaş** günü fetih günü yazılmış, 42 yıl | koordinatör |
-| Bağdat dörde bölünmesi — Timur'un iki işgali: madde VAR, kırılma YOK | koordinatör |
-| `denetle_iddia.py` — ateşleme takımı **HAZIR** (4 vaka, `C13`in iki yönü de kapalı) | koordinatör |
-| İÇERİK partisi — **16 kart**, sahibi kapalı | yeni oturum |
-| KAYNAK PLANLAMACISI — şartname hazır | **Perşembe**, limit tazeyken |
+| **TDV TARİH TURU'nun 12 kalemi** — Divriği 110 yıl · Malatya 148 · Eflak 45 (12 kayıt) · Erzincan 41 · ve sorulmayan 5 hata daha. **Dokuz net kalemin altısı bedava** | koordinatör |
+| **~210 görülmemiş docx maddesi** — `hatalar 11` ve `hatalar 15` baştan sona okunmamış | yeni oturum |
+| **Yuvarlak tarih partisi** — `1897` · `1556` · `1889` gerçek günlerine çekilmeli; kırılmalar kronolojiyle kapatılamıyor | koordinatör |
+| **Cezayir hayaleti** — 6 nokta 1854'e kadar Osmanlı tâbisi, oysa 1830'da bitti (24 yıl) | TDV turu |
+| **Söğüt `k:1`** — etiket sönmesi için kademe kuralına **zaman ayağı** gerekiyor | arayüz |
+| **`denetle_iddia.py`** — *"her maddenin kırılması var mı"* · ateşleme takımı 4 vakayla **hazır** | koordinatör |
+| Güç profili + Android köprüsü | ClaudEmre · şartname yazılacak |
 
 ---
 
 ## ŞU AN NE KOŞUYOR
 
 ```
-⏳ KOŞU 7         çöl tavanında · bitince YAYIN (damga r1119 hazır)
-⏳ VERİ DEVLET 2  künye kronolojileri, sonraki 15'lik parti
-✅ KUTU DENETİM   kapandı, 71/71 teslim
+⏳ VERİ DEVLET 2   beşinci parti · hedefe 12 kaldı
+⏳ KRONOLOJİ 16    58 madde · kalanlar yuvarlak-tarih engelinde
+⏳ ŞEHİR KARTI     79/120
+⏳ İÇERİK          18 docx'in görsellerini madde numarasına bağlıyor
+✅ kapandı         KUTU DENETİM · VERİ KİŞİ · DOCX TARAMA · TDV TARİH TURU ·
+                   KAYNAK PLANLAMACISI · PADİŞAH
 ```
 
-> ⚠️ **Haftalık limit %59 · Perşembe 00:00 reset.** Bu yüzden bugün **6
-> şartname** yazıldı ama yalnız **2 oturum** açıldı, biri de kapandı.
-> *Şartname ucuz, bekleyen oturum pahalı.*
+> 🔴 **KOORDİNATÖR OTURUMU YENİLENMELİ.** Ölçüldü: bu oturum bütün token
+> tüketiminin **%36'sı**, bağlam **998K**, eşik **250K**. Yeniden başlatmak
+> devam etmekten **~70 kat** ucuz. Her şey commit'li; oturumda tutulan bilgi
+> yok. Yeni oturumda `/claudemre-basla` yeter.

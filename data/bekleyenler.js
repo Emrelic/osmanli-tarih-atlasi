@@ -20,12 +20,12 @@ window.BEKLEYENLER = {
     [
      "1",
      "parti-0002/H-0014",
-     "Saroz'un kuzeyini gösteren kareyi alt künye çubuğu görünecek şekilde yeniden al — iki görsel de aynı ve kırpık, tarih okunmuyor"
+     "Saroz karesini alt künye çubuğu görünecek şekilde yeniden al — iki görsel de aynı ve kırpık"
     ],
     [
      "2",
      "parti-0004/H-0014",
-     "Şikâyetin üstteki \"Katılım: Sin (Sinj)\" şeridi miydi, yoksa kronoloji listesindeki tarih biçimi karışıklığı mı?"
+     "Şikâyetin \"Katılım: Sin (Sinj)\" şeridi miydi, yoksa tarih biçimi karışıklığı mı?"
     ],
     [
      "3",
@@ -38,38 +38,33 @@ window.BEKLEYENLER = {
    "baslik": [
     "#",
     "karar",
-    "durum"
+    "ölçüm"
    ],
    "satir": [
     [
      "1",
-     "T-0103 atlas kendi belirsizliğini çizsin mi",
-     "onay ya da sebepli red · veri hazır, eksik olan görselleştirme"
+     "Uyku ayarı — üretim öncesi uyku kapansın",
+     "🔴 bugün 185 dk yedi · maliyeti sıfır · en kârlı karar"
     ],
     [
      "2",
-     "T-0104 haritaya tıklayıp soru sorulabilsin mi",
-     "akış şu an tek yönlü: kronoloji → harita"
+     "gc.auto kapalı kalsın mı",
+     "şu an 0 · gc bugün 623 → 73 MiB yaptı, zamanlamayı biz seçelim"
     ],
     [
      "3",
-     "T-0105 okuyucuya hata bildirme kanalı",
-     "hata bulan tek insan sensin; 18 parti hepsi senden"
+     "T-0103/0104/0105 üç üreteç önerisi",
+     "belirsizliği çizmek · haritaya tıklamak · okuyucuya hata kanalı"
     ],
     [
      "4",
-     "PROJEKSİYON küre/düz yayına alınsın mı",
-     "kod hazır (projeksiyon dalı) · canlı sayfayı değiştirir · eşikler TAHMİN, ölçülmedi"
+     "PROJEKSİYON yayına girsin mi",
+     "kod hazır, canlı sayfayı değiştirir, eşikler TAHMİN"
     ],
     [
      "5",
-     "durum/ dosyaları hangi oturum kapalı",
-     "beş dosya \"calisiyor\" diyor, en yeni damga 6 Ağustos · tahmin etmedim"
-    ],
-    [
-     "6",
-     "Depo .git 622 MB / 1 GB",
-     "neredeyse tamamı ölü çıktı sürümü (49 × donemler.js) · ayrı dala alırsak ~50 MB · ölçüp planlayayım mı?"
+     "Pages derleme hızı",
+     "sınır 10/saat · ölçülen tepe 20 · yumuşak sınır, GitHub şikâyet etmedi"
     ]
    ]
   },
@@ -80,52 +75,72 @@ window.BEKLEYENLER = {
    ],
    "satir": [
     [
+     "YAYIN r1140",
+     "canlı ve doğrulandı · Osmanlı 0/9 kesitte değişti"
+    ],
+    [
+     "Değişmez 2s",
+     "açık kırılma 121 → 59 (hedef ≤60 aşıldı)"
+    ],
+    [
+     "ince künye",
+     "108 → 52 · VERİ DEVLET 2"
+    ],
+    [
+     "padişah kartı",
+     "boş kart 14 → 0 · lakap/eşler/çocuk 39/39"
+    ],
+    [
+     "şehir kartı",
+     "62 → 79 · 62'sinin tamamı zenginleştirildi"
+    ],
+    [
+     "kişi",
+     "281 → 287 · 146 yıllık kart hatası kapandı"
+    ],
+    [
+     "merak/ek-okuma",
+     "11 → 18 · parti-0007 kapandı"
+    ],
+    [
+     ".git",
+     "623 → 73 MiB (%88,3)"
+    ],
+    [
      "İran fetreti köprüsü",
-     "26 nokta hayaletten çıktı · 2s 121 → 120 açık"
+     "26 nokta hayaletten çıktı"
     ],
     [
-     "kisiBul canlı kusuru",
-     "\"Kemal Reis\" → Nâmık Kemal açıyordu · 22 yanlış eşleşme düştü, Tomanbay korundu"
+     "token ölçümü",
+     "%89,1 bağlam · %10,9 iş — aletler arac/ altında kalıcı"
     ],
     [
-     "KUTU DENETİM",
-     "71/71 ölçüldü · 6 önceki hüküm çürüdü · 8 şikâyet zaten kapanmış çıktı"
-    ],
-    [
-     "künye kronolojisi",
-     "ince künye 108 → 94 (VERİ DEVLET 2)"
-    ],
-    [
-     "devletler.js",
-     "390 → 392 (gilan-kiya · mazenderan-marasi + iki renk)"
-    ],
-    [
-     "CLAUDE.md §3.5.1",
-     "bayat satır damgalandı — işçi oturum çürüttü, koordinatör ölçtü"
-    ],
-    [
-     "İlhanlı üçlüsü (Konya·Aksaray·Niğde) — 13 yıllık hayalet",
+     "TDV TARİH TURU'nun 12 kalemi — Divriği 110 yıl · Malatya 148 · Eflak 45 (12 kayıt) · Erzincan 41 · ve sorulmayan 5 hata daha. Dokuz net kalemin altısı bedava",
      "koordinatör"
     ],
     [
-     "Erzincan 1473-08-11 — Otlukbeli savaş günü fetih günü yazılmış, 42 yıl",
-     "koordinatör"
-    ],
-    [
-     "Bağdat dörde bölünmesi — Timur'un iki işgali: madde VAR, kırılma YOK",
-     "koordinatör"
-    ],
-    [
-     "denetle_iddia.py — ateşleme takımı HAZIR (4 vaka, C13in iki yönü de kapalı)",
-     "koordinatör"
-    ],
-    [
-     "İÇERİK partisi — 16 kart, sahibi kapalı",
+     "~210 görülmemiş docx maddesi — hatalar 11 ve hatalar 15 baştan sona okunmamış",
      "yeni oturum"
     ],
     [
-     "KAYNAK PLANLAMACISI — şartname hazır",
-     "Perşembe, limit tazeyken"
+     "Yuvarlak tarih partisi — 1897 · 1556 · 1889 gerçek günlerine çekilmeli; kırılmalar kronolojiyle kapatılamıyor",
+     "koordinatör"
+    ],
+    [
+     "Cezayir hayaleti — 6 nokta 1854'e kadar Osmanlı tâbisi, oysa 1830'da bitti (24 yıl)",
+     "TDV turu"
+    ],
+    [
+     "Söğüt k:1 — etiket sönmesi için kademe kuralına zaman ayağı gerekiyor",
+     "arayüz"
+    ],
+    [
+     "denetle_iddia.py — \"her maddenin kırılması var mı\" · ateşleme takımı 4 vakayla hazır",
+     "koordinatör"
+    ],
+    [
+     "Güç profili + Android köprüsü",
+     "ClaudEmre · şartname yazılacak"
     ]
    ]
   },
@@ -137,9 +152,9 @@ window.BEKLEYENLER = {
  "ozet": {
   "bekleyen_acik": 0,
   "gorsel_acik": 3,
-  "karar_acik": 6,
-  "istege_bagli": 12,
-  "toplam_acik": 9
+  "karar_acik": 5,
+  "istege_bagli": 17,
+  "toplam_acik": 8
  }
 };
-window.URETIM_IZI = {"girdi":{"BEKLEYENLER.md":"04846438c6f08e5ada422f010b41748e741b06dc02d633d7b54bf7195abd8a64"},"motor":{"uret_bekleyenler.py":"cc885556984b9c76464cd214d75da6fecf52f7fa8bb7bd6b3c1e079e99a6a20b"}};
+window.URETIM_IZI = {"girdi":{"BEKLEYENLER.md":"cddd81644816a696ce1d1e149cbb9103d3bc5f537aa31c8f2c082165a2799748"},"motor":{"uret_bekleyenler.py":"cc885556984b9c76464cd214d75da6fecf52f7fa8bb7bd6b3c1e079e99a6a20b"}};
