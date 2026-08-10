@@ -77,7 +77,7 @@ py C:/Users/emrem/OneDrive/Desktop/ClaudEmre/kutu/ordu.py tablo ATLAS
 |---|---|---|
 | **ok ile gösterim** | 17+ | 🟢 **ZATEN YAPILMIŞ** — `591a5c6` (30 Tem 17:20): 9 tür · 9 glif · 9 katman · dinamik lejant. `h11#31` commit'ten **22 dk önce** |
 | **denizaşırı petek** | **14** | 🟡 **motor kusuru YOK** · 8'i kapalı · kalan **4 nokta** (Halka 1, 1.798 km²) |
-| **cetvel/topografya** | 11+ | 🟡 `COGRAFYA KADEME 1` (7 Ağu) yapılmış · nehir 43 → **187** · **görsel teyit** bekliyor |
+| **cetvel/topografya** | 11+ | 🟡 **KISMEN karşılandı, kalanı VERİ YOKLUĞU** — aşağıya bak |
 | **karasal bağlantı** ("uçakla gidilemez") | 11 | 🔴 **GERÇEKTEN AÇIK** — hiç ölçülmedi |
 | mükerrer madde | 10 | 🟢 **12/12 KAPALI** |
 | taralı işgal (`isg:`) | 8 | 🟢 **8/8 KAPALI** — ve iki mekanizma ayrıldı: `devir` (antlaşma anı · kalıcı cezir · sağa yatık · 11 antlaşma · otomatik) ≠ `isgal` (süren işgal · nominal sahip DEĞİŞMEZ · sola yatık · 83 kayıt) |
@@ -128,6 +128,43 @@ olay (1792 · 1831). ⇒ ***"Mükerrer sanılan şey aslında TEKRAR EDEN OLAY."
 yaslama aşaması: 8 SANİYE            ← 76 dakikalık koşunun %0,2'si
 ```
 ⇒ **Özellik var, KAPSAMI dar.** Belge yanlış değil ama **fazla iyimser.**
+
+### 🔴🔴 TOPOGRAFYA ÖLÇÜLDÜ — **KISMEN KARŞILANDI, KALANI VERİ YOKLUĞU**
+
+MOTOR oturumu oranı **ilk kez** ölçtü (`187 nehir` bir GİRDİ'ydi; bu ÇIKTI):
+```
+                        iç kenar     doğal hatta YASLI    uzun DÜZ koşu
+KÜRESEL                 3.739°            %7,1                %58,8
+ÇEKİRDEK (Anadolu+Balkan) 299°            %6,8                %31,8
+```
+⚠️ Örneklem: parçaların %30'u (1.493 parça). *"Düz"* = ~50 km pencerede
+kiriş/yol > 0,98, kıyı hariç.
+
+**Düz kalan kenarın YANINDA ne var** (0,30° — motorun kendi arama yarıçapı):
+```
+                                    KÜRESEL    ÇEKİRDEK
+yanında SÜZGECİN ELEDİĞİ hat var      %20,4      %14,9   ← eşik düşürmek kazandırır
+yanında HİÇBİR hat YOK                %45,5      %40,3   ← veri YOK, eşik ÇARE DEĞİL
+yanında KULLANILAN hat var            %34,0      %44,8   ⚠️ ölçüt ZAYIF, şişmiş olabilir
+```
+⇒ 🔴 **Çekirdekte düz kalan kenarın %40,3'ünün yanında hiçbir doğal hat yok.**
+
+> ***"Cetvel" kusurunun çoğunluğu bir SÜZGEÇ sorunu değil, bir VERİ YOKLUĞU
+> sorunu. Bozkırda, yaylada, iç Anadolu'nun kurak kesiminde yaslanacak bir hat
+> YOK — ve Voronoi orada DÜZ OLMAK ZORUNDA.***
+
+**KARAR: eşik `5.0` KALIYOR.** Kazanç en çok %14,9, bedel +102 parça ve
+**dere riski**; ve *"hangi %14,9"* görsel teyit olmadan bilinmiyor ⇒ ölçülmüş
+bir kararı ölçülmemiş bir kazanç için geri almak olurdu.
+
+🔴 **AÇIK KARAR — Emre'nin:** %40'lık kova için **yeni hat kaynağı** gerekiyor
+(su bölüm çizgisi · göl kıyısı · vadi tabanı). Bu bir **kaynak** kararı:
+internet kotası + disk + yeni motor aşaması. `MIMARI.md`deki *"cost-distance
+prototipi"* ile **tek karar** olarak sunulacak.
+
+⚠️ **VE `K6` KAPALI SAYILMIYOR:**
+> *"Bu ölçümlerin hiçbiri Emre'nin gördüğü şeyi ölçmüyor. **%31,8 düz bir SAYI;
+> 'cetvelle çizilmiş gibi duruyor mu' bir YARGI.**"*
 
 🔴 **VE BU ŞİKÂYET "BAYAT" DİYE ELENEMEZ — ÖLÇÜLDÜ.** Koordinatör *"`h18` en
 eski olabilir, en çok bayat şikâyet orada birikir"* diye öngörmüştü; İÇERİK
