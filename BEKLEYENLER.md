@@ -53,7 +53,73 @@
 
 ---
 
-## 🔴🔴 KÜLLİYATIN EN ÇOK TEKRARLANAN ŞİKÂYETİ — YEDİ KEZ, DÖRT DOSYADA
+## 🔴🔴 KÜLLİYAT ÇÖZÜLDÜ — **~245 MADDE, DOKUZ KARARA İNİYOR**
+
+> İÇERİK oturumu 18 docx'in **18'ini** okudu (10 Ağustos). Kalem kalem işlemek
+> **245 iş**; tema tema işlemek **dokuz.**
+
+| tema | kaç kez | durum |
+|---|---|---|
+| **ok ile gösterim** | 17+ | 🟡 arayüz |
+| **denizaşırı petek** | **14** | 🔴 `oturumlar/MOTOR-DENIZASIRI.md` YAZILDI |
+| **cetvel/topografya** | 11+ | 🔴 ölçüldü — aşağıya bak |
+| **karasal bağlantı** ("uçakla gidilemez") | 11 | 🔴 karar bekliyor |
+| mükerrer madde | 10 | 🟢 **HEPSİ KAPALI** |
+| taralı işgal (`isg:`) | 8 | 🟡 mekanizma HAZIR |
+| etiket/nokta kalıcılığı | 6 | 🟡 arayüz |
+| **Hotin** | 5 | 🟢 KAPALI — beşi de **tek arayüz kusurundan** |
+| **statü kademesi** | 5+ | 🔴 veri modeli — aşağıya bak |
+
+🔴 **Hotin dersi:** beş ayrı "harita hatası" şikâyetinin tamamı **tek bir arayüz
+kusurundan** doğmuş — `1713-06-24`te iki madde aynı güne düşüyor, Emre haritada
+etkiyi görüp maddesini bulamamış. ⇒ ***Bir arayüz kusuru beş veri şikâyeti
+üretebiliyor.***
+
+### 🔴 `h17#9` — "EN BAŞINDAN BERİ BUNDAN ŞİKÂYET EDİYORUM" · ÖLÇÜLDÜ
+
+> *"Bu cetvelle çizilmiş sınırlardan ne zaman kurtulacağız… kendi haritamızı dağ,
+> nehir, tepe, göl, ova şeklinde oluşturup şehir sınırlarını bunlara
+> yaslayacaktık."* — **11+ kez**
+
+`CLAUDE.md §2` bunun **zaten yapıldığını** yazıyor. Koordinatör ölçtü (`kosu9.log`):
+```
+43 nehir parçası kullanılıyor        ← uret_petek.py:398'e göre pencerede 780 VAR  (%5,5)
+126 dağ sırası
+yaslama aşaması: 8 SANİYE            ← 76 dakikalık koşunun %0,2'si
+```
+⇒ **Özellik var, KAPSAMI dar.** Belge yanlış değil ama **fazla iyimser.**
+⚠️ Eşik (`NEHIR_ONEM_ESIGI = 5.0`) **kasten** yüksek: kod *"dereye yaslanma riski
+yok; 6'da 267'ye çıkıyor"* diyor. Yani bu bir **ölçülmüş tercih** — ama 11 kez
+şikâyet edilen bir tercih, yeniden ölçülmeyi hak ediyor.
+
+### 🔴 `h10#43` — STATÜ KADEMESİ (veri modeli talebi)
+
+> *"Eflak, Boğdan, Kırım, Hicaz, Cezayir, Tunus, Libya, Mısır'ın hukukî
+> durumlarını etüd edelim. **Vassallık, özerklik, bağlı devlet, himaye — kaç
+> farklı durum var idi?**"*
+
+Bugünkü model **ikili** (`d:` / `v:`), Emre en az **dört** kademe sayıyor. Ve
+`h10#2·4·6·28` bunun belirtisi (*"vasal kırmızısı bir ton açık olmalı… ayrı devlet
+gibi görünüyorlar"* — bu zaten bir kez düzeltildi, `app.js:757`).
+📌 `YOL-HARITASI.md §6.5`in kardeşi: orada **bölge** boyutu zaman kazanacaktı,
+burada **statü** boyutu kademe kazanacak.
+
+### 🟢 VE DAHA KESİN BİR SÜRÜM DAMGASI BULUNDU
+
+`h18`in son paragrafında **tam künye satırı** var:
+```
+1456-06-01 · 43.20–49.14N · 21.92–31.32E · z4.5 · Osmanlı Tarih Atlası
+Madde: Boğdan'ın haraca bağlanışı
+```
+⇒ Uygulama bazı görüntülere **tarih + sınır kutusu + zoom + madde adı** basıyor —
+kronoloji sayacından kat kat kesin. ⚠️ **Kaç görselde var, ölçülmedi.**
+
+### 🔴 YENİ GERÇEK EKSİK
+`h6#8` **Saint Gothard Muharebesi (1664)** — kronolojide **0 madde.**
+
+---
+
+## 🔴🔴 DENİZAŞIRI PETEK — ON DÖRT KEZ, ALTI DOSYADA
 
 > **"Bir yerleşimin peteği denizi geçmemeli."**
 > ```
