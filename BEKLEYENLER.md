@@ -175,6 +175,42 @@ var, **Timur yok**) · **`h12#7` Bursa · Edirne · İstanbul'un BAŞKENT oluşu
 ⚠️ Sonuncusu atlasın **omurgası** ve `parti-0002/H-0011`de Emre ayrıca *"başkent
 yıldızla gösterilsin"* demişti — **iki istek aynı boşluğa bakıyor.**
 
+### 🔴 DOKUZ ÇİFT — ARAYÜZ'ün `gi` ölçümünden, İKİ AYRI SINIF
+
+⚠️ **Koordinatörün iki hükmü ÇÜRÜDÜ:** *"1920-04-23 tek madde"* ve *"1413-07-05
+tek madde"* dedi; karşılaştırdığı kayıt `t="1920-04"` idi ve **naif genişletme**
+onu ayın 1'ine düşürüyordu. `app.js` ise `gun:` metnini okuyup **gerçek güne**
+koyuyor (`gunMetniIdx`). ⇒ `gun:` alanı **üçüncü kez** atlandı.
+
+```
+SINIF 1 — MÜKERRER ADAYI (aynı olay, iki madde)         → SİLİNİR
+  1622-05 + 1622-05-20   II. Osman = Genç Osman         ← KESİN
+  1413-07 + 1413-07-05   Çelebi Mehmed / Çamurlu Savaşı
+  1920-04 + 1920-04-23   TBMM+Sevr / TBMM
+  1912-10 + 1912-10-08   Balkan Savaşları / I. Balkan Savaşı
+  1830-02 + 1830-02-03   Yunanistan/Cezayir / Londra Protokolü
+
+SINIF 2 — SÜREÇ + GÜN (aynı gün, FARKLI şey)            → KALIR, doğru
+  1516-08 + 1516-08-24   Mercidabık / Ramazanoğulları   ← EMRE'NİN parti-0005/H-0006'sı
+  1789-04 + 1789-04-07   Nizâm-ı Cedîd / III. Selim'in cülûsu
+  1877-04 + 1877-04-24   "93 Harbi" / Rusya'nın savaş ilânı
+  1914-11 + 1914-10-29   I. Dünya Savaşı'na giriş / Karadeniz Baskını
+```
+🟢 Sınıf 2 **silinmemeli**: geniş *süreç* maddesi ile *başlangıç günü* ayrı ayrı
+doğru — ve numaralandırma tam da bunu **görünür** kılıyor.
+📌 Ve `1516-08`in listede olması çarpıcı: **Emre'nin çözümü söylediği vaka**
+ARAYÜZ'ün ölçümünde **kendiliğinden** çıktı.
+
+### 🔴 YENİ KUSUR SINIFI — BİR MADDE BİRDEN ÇOK OLAY TAŞIYOR
+```
+1920-04   gun:"23 Nisan / 10 Ağustos 1920"      ← İKİ TARİH, TEK MADDE
+1830-02   "Yunanistan bağ. — Cezayir işgali"    ← İKİ OLAY, TEK MADDE
+1914-11   gun:"29 Ekim – 11 Kasım 1914"         ← ARALIK; `gi` İLK günü alıyor,
+                                                  yani t:"1914-11" haritayı EKİM'e götürüyor
+```
+⇒ `Değişmez 2` göremez (kırılmanın maddesi **var**), mükerrer denetimi de göremez
+(metin farklı). ⚠️ `1914-11`in kusur mu tasarım mı olduğu **ölçülmedi.**
+
 ### 🔴 KRONOLOJİ VERİ KALEMLERİ — ARAYÜZ'ün ölçümünden doğdu
 
 ```
