@@ -261,7 +261,26 @@ bugün       panel 1161
 > düzeyinde** cevaplanıyor. Ve `hatalar 3` ile `hatalar 15`in aynı soruları
 > sorması bir dikkatsizlik değil — **turların doğal sonucu.**
 
-| 🔴 YENİ KALEM | panel **1161** · dosya **1219** · `index.html` 17 dosyanın 17'sini de yüklüyor ⇒ **58 madde yükleniyor ama panelde görünmüyor.** Sebep ölçülmedi: filtre mi, pencere dışı mı, tekilleştirme mi | koordinatör |
+| 🟢 **ÇÖZÜLDÜ** | panel **1161** · dosya **1219** ⇒ **58 madde görünmüyordu.** Sebep: `js/app.js` concat zinciri **`OLAYLAR_EK16`yı hiç içermiyordu** — `index.html` dosyayı yüklüyor, `denetle.py` glob ile sayıyor, **kullanıcı hiç göremiyor.** `1219 − 1161 = 58 = OLAYLAR_EK16`. ARAYÜZ oturumu buldu ve düzeltti | ✅ |
+
+> 🔴🔴 **VE ASIL KUSUR TEK SATIRDA DEĞİL, YAPIDA — ÜÇ OTORİTE:**
+> ```
+> denetle.py    data/olaylar*.js'i GLOB ile okur   → 1219 görür, "kapalı" der
+> js/app.js     concat zincirini ELLE tutar        → 1161 gösterir
+> index.html    script satırını ELLE tutar         → 17 dosyayı da yüklüyor
+> ```
+> `ek16` bugün unutuldu; **`ek17` yarın unutulacak.** `CLAUDE.md §5` bu dersi
+> **yerleşim tarafında** öğrenmiş (*"tek doğru kaynak `girdi.py`nin
+> `GIRDI_DOSYALARI`"* — ve oradaki liste **üç kez bayatladığı için
+> kaldırılmış**). Kronoloji tarafında aynı ders **öğrenilmemiş.**
+>
+> 📌 Ve iki bağımsız oturum aynı sayıya iki farklı yoldan vardı: İÇERİK panel
+> sayacından **58 fark** ölçtü, ARAYÜZ kod zincirinden **eksik `concat`** buldu.
+> Ne biri ötekini biliyordu, ne de tek başına tam cevap verebilirdi.
+>
+> 🔴 **Ve bedeli ölçülü:** o 58 maddenin 58'i KRONOLOJİ 16'nın yazdıklarıydı —
+> `2s`yi 120 → 96'ya indirdiler, **denetim onları saydı, kullanıcı hiçbirini
+> okuyamadı.**
 
 ---
 
