@@ -1958,3 +1958,52 @@ Notlar:
   📌 Bu, kusur listesinin **onuncu** sınıfı ve öncekilerin hiçbirine
   benzemiyor: ①-⑦ *yanlış şeyi ölçmek*, ⑧-⑨ *hiç ölçmemek*, ⑩ ise
   **doğru şeyi ölçüp ALETİN yalan söylemesi.**
+
+- 🔴 **BİR ŞİKÂYET, ŞİKÂYET EDİLEN ŞEYDEN DAHA HIZLI BAYATLAR — VE EKRAN
+  GÖRÜNTÜSÜ KENDİ TARİHİNİ TAŞIR.** *(10 Ağustos 2026, İÇERİK)*
+
+  `h15#10`: Emre bir ekran görüntüsünde Hotin çevresinde **yeşil** bir alan
+  ve üstünde `BOĞDAN VOYVODALIĞI` etiketi gördü. Üç ölçüm yapıldı:
+  ```
+  yerleşim katmanı   Boğdan kutusu 1600 · 1621 · 1650 → ÜÇÜNDE DE 8/8 TÂBİ
+  devlet katmanı     bogdan gövdesi TEK dönem: 1281-01-01 → 1456-06-01
+                     ⇒ 1621'de aktif dönem: 0 · yeşil ÇİZİLEMEZ
+  katman sırası      app.js:761 vassal-dolgu, app.js:725 devlet-dolgunun ÜSTÜNDE
+  ```
+  Üçü de *"bugünkü veri bunu üretemez"* diyordu ama hiçbiri **niçin**
+  göründüğünü söylemiyordu. Cevabı **görselin kendisi** verdi:
+  ```
+  ekran görüntüsündeki kronoloji başlığı   "422 / 951 başlık"
+  bugün                                          1161 madde
+  ⇒ görüntü 210 madde geride bir yayından
+  ```
+  🟢 **Ve buradan bir alet çıktı:** *kronoloji panelindeki `N / TOPLAM
+  başlık` sayısı, görüntünün hangi yayından olduğunu birebir söyler.*
+  ⇒ Her görsel şikâyette **ilk soru** *"bu kusur var mı"* değil,
+  ***"bu şikâyet hâlâ geçerli mi"*** olmalı — ve cevabı ölçümle değil
+  **görsele bakarak** verilebiliyor.
+  ⚠️ Sınırı ölçülmedi: panel her görselde okunmuyor (dar kırpılmış olanlar
+  var), kaçında okunabildiği **sayılmadı.**
+
+  📌 Bu, *"çıktı girdinin bir tur gerisindedir"* dersinin **kullanıcı
+  tarafı.** Orada bayatlayan bizim çıktımızdı; burada bayatlayan
+  **kullanıcının şikâyeti** — ve o daha sinsi, çünkü şikâyet bir **talep**
+  gibi okunur, bir **ölçüm** gibi değil. Bayat bir talebi düzeltmeye
+  kalkmak, düzelmiş bir şeyi bozmaktır.
+
+- 🔴 **BUGÜNÜN EN SIK HATASI TEK BİR SINIFTI: ÖLÇÜM DOĞRU, ÇIKARIM YANLIŞ.**
+  *(10 Ağustos 2026 — bir günde ALTI vaka, üç ayrı oturum + koordinatör)*
+  ```
+  koordinatör   "118 yetim yüz ← SEBEP"      mutlak sayıyı fark sandı (taban 116)
+  koordinatör   Girit "ada ikiye bölünmüş"   geri çekilmiş ölçüme hüküm bağladı
+  İÇERİK        h15#20 "1829 Edirne"         ölçüm doğru, VARSAYIM yanlış (1713)
+  İÇERİK        h15#10 "iki katman çelişiyor" ölçüm doğru (8/8 tâbi), ÇIKARIM ters
+  VERİ DEVLET 2 hanthawaddy "künye bölünmeli" veri ZATEN bölünmüş (toungoo 1539-1740)
+  RENK 2        merini "harita: alanı yanlış" sebep O DEĞİL (veride 0 dönem)
+  ```
+  ⇒ Altısında da **sayı doğruydu.** Yanlış olan, sayıdan çıkarılan hükümdü.
+  📌 Ve altısının beşini **başka bir oturum** yakaladı, hiçbirini denetim
+  betiği yakalamadı — çünkü betik **sayıyı** denetler, **çıkarımı** değil.
+  🟢 Çare bir denetim değil bir **cümle**: rapora *"ölçtüğüm şu, bundan
+  çıkardığım şu"* diye **iki ayrı satır** yazmak. Tek satırda birleşince
+  çıkarım, ölçümün güvenilirliğini **ödünç alıyor.**
