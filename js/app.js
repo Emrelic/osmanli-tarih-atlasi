@@ -3163,16 +3163,21 @@ function ozAdlar(s) {
           .split(/[\s,]+/)
           .filter(function (w) { return w.length >= 4 && !ONEK.test(w) && !UNVAN.test(w); });
 }
+function tekilAd(a) {
+  var o = [];
+  for (var i = 0; i < a.length; i++) if (o.indexOf(a[i]) < 0) o.push(a[i]);
+  return o;
+}
 // En çok öz ad örtüşen kaydı seçer. İki tarafta da birden çok öz ad varsa tek
 // ortak kelime (ör. "Paşa"sı atılmış "Mehmed") yeterli sayılmaz.
 function kisiBul(ad) {
   var t = ad.trim().toLowerCase();
-  var tw = ozAdlar(ad);
+  var tw = tekilAd(ozAdlar(ad));
   var liste = window.KISILER || [];
   var enIyi = null, enIyiSkor = 0;
   for (var i = 0; i < liste.length; i++) {
     if (liste[i].ad.toLowerCase() === t) return liste[i];
-    var kw = ozAdlar(liste[i].ad);
+    var kw = tekilAd(ozAdlar(liste[i].ad));
     if (!tw.length || !kw.length) continue;
     var skor = 0;
     for (var a = 0; a < tw.length; a++) {
@@ -3208,7 +3213,41 @@ function kisiBul(ad) {
     // ⇒ Takas bilinçli: EKSİK bağlantı kişi kartını hiç göstermez (sessiz
     // yokluk), YANLIŞ bağlantı başka birinin hayatını olgu diye gösterir.
     // İkincisi kullanıcıya doğrudan yanlış bilgi veriyordu.
-    var gerekli = tw.length >= 2 ? 2 : 1;
+    // 🔴 OLCUT SIMETRIK YAPILDI — KOORDINATOR, 10 Agustos 2026.
+    // Yukaridaki yorum (3166) SIMETRIK bir kural tarif ediyordu:
+    // "Iki tarafta da birden cok oz ad varsa tek ortak kelime yeterli
+    // sayilmaz." Ama kod yalniz SORGU tarafina bakiyordu (tw.length);
+    // ADAY tarafi (kw.length) hic sorulmuyordu. Yorum ile kod AYRISMISTI.
+    //
+    // Bedeli CANLI yayinda olculdu (KUTU DENETIM, parti-0004):
+    //   "Kemal Reis"     -> Mustafa Kemal Pasa (Ataturk)
+    //   "Seyh Ahmed Han" -> Koprulzade Fazil Ahmed Pasa
+    //   "Mustafa Celebi" -> Merzifonlu Kara Mustafa Pasa
+    // Ucunde de sorgu TEK ayirt edici kelimeye iniyor ("reis"/"han"/"celebi"
+    // unvan sayilip atiliyor) ve tek kelime `gerekli=1` yapip o adi TASIYAN
+    // BASKA BIRINE tutuyordu.
+    //
+    // 📌 Ve onceki duzeltmenin kendi yorumu "yeni yanlis eslesme 0"
+    // diyordu — olcum DOGRUYDU, EVRENI DARDI: "yeni yanlislar" olculmus,
+    // "eski yanlislar kapandi mi" olculmemisti (`C13`: bir duzeltme IKI
+    // YONDE de sinanir).
+    //
+    // YENI OLCUT: iki taraftan HANGISI daha ayrintiliysa o belirler.
+    //   "Kemal Reis"(1) vs "Namik Kemal"(2)  -> gerekli 2, skor 1 -> RED
+    //   "Tomanbay"(1)   vs "Tomanbay"(1)     -> gerekli 1, skor 1 -> KABUL
+    // ⚠️ TEKILLESTIRME SART: "Tomanbay (II. Tomanbay)" ayni kelimeyi iki
+    //   kez tasiyor; tekillestirmeden kw.length=2 cikiyor ve Tomanbay
+    //   KAYBOLUYORDU. Ilk olcumde tam bu gerileme yakalandi.
+    //
+    // OLCULDU (kronolojideki butun kisi adlari, ESKI vs YENI, iki yonde):
+    //   22 yanlis eslesme dustu · Tomanbay KORUNDU · uc sikayet de KAPANDI
+    //   "Halil Pasa": Candarli Hayreddin -> Halil Pasa (Kut)  [DUZELDI]
+    // ⚠️ ARTIK KUSUR, saklanmiyor: "Aga Huseyin Pasa" eskiden Amcazade
+    //   Huseyin Pasa'ya, simdi Sah Sultan Huseyin'e tutuyor. IKISI DE YANLIS
+    //   (gercek kisi `kisiler.js`te YOK); yeni cevap daha da alakasiz.
+    //   Asil care eslestirici degil VERI: `Kemal Reis` · `Cuneyd Bey` ·
+    //   `Hadim Ali Pasa` · `Elvend Bey` · `Burak Reis` 281 kayitta HIC YOK.
+    var gerekli = Math.max(tw.length, kw.length) >= 2 ? 2 : 1;
     if (skor >= gerekli && skor > enIyiSkor) { enIyi = liste[i]; enIyiSkor = skor; }
   }
   return enIyi;
