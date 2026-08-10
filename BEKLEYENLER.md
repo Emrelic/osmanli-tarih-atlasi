@@ -39,7 +39,8 @@
 |---|---|
 | **YAYIN r1140** | canlı ve doğrulandı · Osmanlı **0/9** kesitte değişti |
 | `Değişmez 2s` | açık kırılma **121 → 59** (hedef ≤60 aşıldı) |
-| ince künye | **108 → 52** · VERİ DEVLET 2 |
+| ince künye | **108 → 38** · VERİ DEVLET 2 · hedef ≤40 **aşıldı** |
+| devlet kaynakları | 151 künyede `bulunamadı` — **151'inin 151'i GEREKÇELİ.** Borç değil, **ödenmiş hesap** (`§4` biçimi) |
 | padişah kartı | boş kart **14 → 0** · lakap/eşler/çocuk **39/39** |
 | şehir kartı | **62 → 79** · 62'sinin tamamı zenginleştirildi |
 | kişi | **281 → 287** · 146 yıllık kart hatası kapandı |
@@ -68,7 +69,9 @@
 ## ŞU AN NE KOŞUYOR
 
 ```
-⏳ VERİ DEVLET 2   beşinci parti · hedefe 12 kaldı
+✅ VERİ DEVLET 2   108 → 38 · hedef aşıldı · KAPANIYOR
+                   ⚪ kalan 38'in 19'u DIŞ HALKADA — borç değil, kabul edilmiş
+                      kademe (`ONCELIK.md`: dış halkada hedef %80)
 ⏳ KRONOLOJİ 16    58 madde · kalanlar yuvarlak-tarih engelinde
 ⏳ ŞEHİR KARTI     79/120
 ⏳ İÇERİK          ✅ görsel eşlemesi BİTTİ (18 docx · 206 başvuru · 202 medya)
