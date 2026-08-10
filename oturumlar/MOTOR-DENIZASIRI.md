@@ -271,6 +271,63 @@ push'u koordinatör yapar.
 
 ---
 
+## ⑦b BU İŞ BİTİNCE SIRADAKİ — **TOPOGRAFYA** (aynı dosya, aynı oturum)
+
+🔴 **Kapanma, ikinci işi al.** Sebebi yetki değil **dosya sahipliği**:
+`uret_petek.py` sende, ve topografya da aynı dosyada. İkinci bir oturuma
+devretmek `§7`nin sessiz veri kaybı riskini doğurur.
+
+### Emre bunu **11+ kez** yazdı, ve külliyatın **EN TAZE** şikâyeti
+
+> `h17#9`: *"BU CETVELLE ÇİZİLMİŞ SINIRLARDAN NE ZAMAN KURTULACAĞIZ.
+> **EN BAŞINDAN BERİ BUNDAN ŞİKÂYET EDİYORUM.** Kendi haritamızı dağ, nehir,
+> tepe, göl, ova şeklinde oluşturup şehir sınırlarını bunlara yaslayacaktık —
+> o mesele ne zaman yapılacak?"*
+
+Vakalar: `h11#16 · h11#28 · h12#1 · h16#6 · h17#1·6·9·16·17 · h18#2·4·5`.
+
+🔴 **Ve "bayat şikâyet" diye elenemez — ölçüldü:** `h17` (31 Tem 20:02) ve `h18`
+(1 Ağu 00:58) külliyatın **en yeni** iki dosyası. ⇒ Emre bunu *"en başından beri"*
+söylüyor **ve en son günde hâlâ söylüyor.**
+
+### KOORDİNATÖRÜN ÖLÇÜMÜ — hüküm değil, taban
+
+`CLAUDE.md §2` bunun **zaten yapıldığını** yazıyor (*"nehir yataklarına ve dağ
+sırtlarına yaslanır"*). `kosu9.log`:
+```
+43 nehir parçası kullanılıyor    ← uret_petek.py:398'e göre pencerede 780 VAR (%5,5)
+126 dağ sırası
+yaslama aşaması: 8 SANİYE        ← 76 dakikalık koşunun %0,2'si
+```
+⇒ **Özellik var, kapsamı dar. Belge yanlış değil, fazla iyimser.**
+
+⚠️ **VE EŞİK KASTEN YÜKSEK — kaldırmadan önce gerekçesini oku:**
+```python
+NEHIR_ONEM_ESIGI = 5.0     # uret_petek.py:380
+# :407  "büyük nehir sınıfı — dereye yaslanma riski yok. 6'da 267'ye…"
+```
+Bu bir **ölçülmüş tercih**, keyfî bir sayı değil. `CLAUDE.md §11`: *"bir süzgeci
+kaldırmadan önce, süzgecin NEYİ KORUDUĞUNU oku."* Eşiği düşürmek sınırları
+**derelere** yaslayabilir — ve o, cetvelden **daha kötü** görünür.
+
+### İŞİN — aynı dört adım
+
+```
+ADIM 1  ÖLÇ    bugün kaç petek kenarının kaç yüzdesi bir doğal hatta yaslı?
+               (ham sayı değil ORAN — "43 nehir" bir kapsam değil, bir girdi)
+               Ve eşik 5,0 → 4 → 3 → 2 denendiğinde kaç nehir giriyor,
+               kaçı DERE (yani yaslanmaması gereken)?
+ADIM 2  TASARLA  en az iki seçenek + ÖNERİN → koordinatöre SUN
+ADIM 3  ÖNGÖRÜ   koşudan ÖNCE, damgalı, mazeretleriyle
+ADIM 4  KOŞ      ve SONUCA bak: "yaslama arttı mı" değil,
+                 "HARİTA cetvel gibi görünmekten çıktı mı"
+```
+🔴 **`ADIM 4`ün ölçütü görseldir.** Bu işin sınavı bir sayı değil, Emre'nin
+ekranda gördüğü şey. Koşu bitince **aynı kesitin öncesi/sonrası** görüntüsünü
+al ve **ikisini birlikte** gönder.
+
+---
+
 ## ⑦ ÖNCE OKU
 
 ```
