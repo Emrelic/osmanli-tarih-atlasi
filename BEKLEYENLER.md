@@ -368,6 +368,37 @@ değil yalnız teşhisine** dokunuldu.
 🟢 Ve `Pag` (7.277 km², sabah "ihlal" bildirilmişti) **görünmez** çıktı — 8
 komşusu da aynı sahip. ***Kuralın ihlali ile kullanıcının gördüğü kusur ayrı.***
 
+### 🔴🔴 ADIM 2a — MEKANİZMA BULUNDU · *"motor kusuru sıfır"* HÜKMÜ DARALDI
+
+MOTOR kendi sabahki başlığını düzeltti: *"ÇARE olarak doğru, SEBEP olarak yanlış."*
+```
+ADA KURALI      keser        gerçek maske bileşeni · 2,5 km boğazı GÖRÜR
+KARA-KISITLI    geri verir   KV_ADIM = 0,05° ≈ 5,5 km ızgara · boğazı GÖREMEZ
+   Pag   ızgarada anakaraya %83,9 bağlı  ·  Vardø %100 bağlı
+```
+🔴 **A1 tavanından sonra AYNI MOTORDA İKİNCİ "aşamalar arası" kusuru.** Artık tek
+vaka değil, **yapısal zayıflık**: her aşama kendi çözünürlüğünde doğru,
+**aralarında sözleşme yok.**
+
+🔴 **Ve koordinatörün "kara yolu / düz hat oranı" hipotezi ÇÜRÜDÜ — öğretici biçimde:**
+```
+GÖRÜNÜR olanların oranı  1,06 – 1,19   ← DÜŞÜK uçta (beklenenin TERSİ)
+görünmez olanların oranı 0,91 – 8,18   ← görünürleri TAMAMEN içine alıyor
+```
+> *"Hipotezinin ölçemediği şeyin kendisi kusurun sebebi. **Aynı ızgarayla
+> ölçtüğümüz için oran kör.**"* · *"Ücretsizdi, ve bedava olması işe yaradığı
+> anlamına gelmiyordu."*
+
+**Karar: `(iii)` — motora DOKUNMA.** `A` zaten kapatıyor · `(i)` koşu süresini
+ölçülmemiş biçimde artırır · `(ii)` (Dijkstra'yı bileşene kısıtla) **motorun
+kendi kabul testini düşürebilir** (Tromsø bir ada; `:1111` *"Oslo·Königsberg·Azak
+0 km² KAYBETMELİDİR"*).
+⏳ **İstenen ölçüm (koşusuz):** *(ii) uygulansaydı Oslo · Königsberg · Azak ·
+Tromsø kaç km² kaybederdi?* 0 ise (ii) konuşulur, >0 ise ölü.
+
+🔴 **YAPISAL BORÇ — `MIMARI.md`ye geçecek:** *"nokta eklemek onu da kapatır
+**ama sebep orada durur.**"* Kapatıldı diye değil, **borç** diye kaydedilecek.
+
 ---
 
 ## 🔴 KÜLLİYAT TEK BİR FOTOĞRAF DEĞİL — EN AZ İKİ TUR
