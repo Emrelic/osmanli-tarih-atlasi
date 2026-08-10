@@ -3952,7 +3952,9 @@ window.DEVLETLER = [
   ozet:"Orta Hindistan ormanlarında Gond kabile hânedanlarının kurduğu krallıklar; Râni Durgâvatî'nin direnişiyle anılır, Maratha yayılmasıyla son buldu. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
+    { t:"1550-01-01", tur:"hukumdar", b:"Kocası Dalpat Şah'ın ölümü üzerine Rani Durgâvatî, küçük oğlu Vir Narayan adına naibe oldu, krallığı siyasi olarak birleştirip güçlendirdi (Encyclopedia.com, 'Durgawati', Gale)" },
     { t:"1564-01-01", tur:"savas", b:"Râni Durgâvatî, Ekber'in kuvvetlerine karşı savaşırken hayatını kaybetti" },
+    { t:"1567-01-01", tur:"vassal", b:"Ekber, Durgâvatî'nin kayınbiraderi Chandra Shah'ı on kaleyi Babür idaresine bırakması karşılığında Garha-Mandla'nın başına tanıdı; krallık 17. yy'a kadar Babür'e tâbi bir vasal hanedan olarak sürdü (Akbarnâme'ye dayanan akademik derleme)" },
     { t:"1781-01-01", tur:"son", b:"Garha-Mandla Maratha idaresine geçti, bağımsız Gond krallığı bitti" }
   ]
 },
@@ -4733,7 +4735,9 @@ window.DEVLETLER = [
   ozet:"Güney Deccan'da (bugünkü Karnataka) hüküm süren, tapınak mimarisiyle tanınan Hindu hanedanı; son hükümdar III. Ballala'nın Madurai Sultanlığı'nca öldürülmesiyle sona erdi, toprakları kısa süre sonra doğan Vijayanagara'ya (bkz. [[vijayanagara]]) katıldı. HANEDAN ÖMRÜ kimliğidir. TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
+    { t:"1117-01-01", tur:"hukumdar", b:"Kral Vishnuvardhana, Cholalar'a karşı Talakad zaferini anmak için Belur'da Chennakeshava Tapınağı'nın inşasını başlattı; hanedanın mimari-siyasi zirvesinin başlangıcı (Britannica 'Visnuvardhana'; Nilakanta Sastri, 'A History of South India')" },
     { t:"1311-01-01", tur:"toprak-kayip", b:"Malik Kâfûr'un seferiyle Delhi'ye haraca bağlandı" },
+    { t:"1327-01-01", tur:"savas", b:"Muhammed bin Tuğluk'un ikinci seferinde Halebidu yeniden yağmalandı; III. Ballala tâbiliği reddedip Tiruvannamalai'ye çekilerek direnişini sürdürdü (Britannica 'Ballala III'; Nilakanta Sastri)" },
     { t:"1343-01-01", tur:"son", b:"III. Ballala, Madurai Sultanlığı güçlerince öldürüldü, hanedan sona erdi" }
   ]
 },

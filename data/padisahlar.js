@@ -410,7 +410,12 @@ window.PADISAHLAR = [
     anne:"Hürrem Sultan",
     tahta:"1566-09-24",
     saltanat_yil:8,
+    lakap:"bulunamadı — popüler 'Sarı Selim' (saç rengi) ve 'Sarhoş Selim' "
+    + "adlandırmaları TDV maddesinde resmî bir lakap olarak geçmiyor (bkz. "
+    + "tartışma)",
     esler:["Nurbanu Sultan"],
+    cocuk:{oglan:"en az 8 (yalnız III. Murad hayatta kaldı, kardeşleri "
+    + "onun cülûsunda boğduruldu)",kiz:4},
     ovgu:"İstanbul'da doğup büyüyen ilk tahta çıkan şehzadeydi; "
     + "döneminde Kıbrıs (1570-71) ve Tunus (1574) fethedildi, Sinan'a "
     + "Edirne'de Selimiye Camii'ni yaptırdı, su kemerleri ve köprülerle "
@@ -439,6 +444,7 @@ window.PADISAHLAR = [
     anne:"Nurbânû Sultan (Venedikli, asıl adı Cecilia Baffo)",
     tahta:"1574-12-22",
     saltanat_yil:20,
+    lakap:"bulunamadı — TDV maddesinde kendine özgü bir lakap zikredilmiyor",
     esler:["Safiye Sultan (hasekisi, III. Mehmed'in annesi)"],
     cocuk:{oglan:"en az 20 (kaynaklarda 49 çocuk rivayeti de var)"},
     skandal:"49 çocuğu ve yedi hamile cariyesi olduğu rivayet edilir — "
@@ -467,6 +473,11 @@ window.PADISAHLAR = [
     anne:"Safiye Sultan (Arnavut asıllı)",
     tahta:"1595-01-16",
     saltanat_yil:9,
+    lakap:"bulunamadı — TDV maddesinde kendine özgü bir lakap zikredilmiyor",
+    esler:["Handan Sultan (I. Ahmed'in annesi)","Halime Sultan (Şehzade "
+    + "Mahmud'un annesi)"],
+    cocuk:{oglan:"en az 2 (I. Ahmed hayatta kalıp tahta çıktı; Şehzade "
+    + "Mahmud 1603'te babası tarafından idam edildi)"},
     skandal:"Tahta çıkar çıkmaz on dokuz erkek kardeşini boğdurttu — "
     + "Osmanlı tarihinin en kalabalık kardeş katli; 1603'te de kendi "
     + "oğlu Şehzade Mahmud'u veraset korkusuyla idam ettirdi.",
@@ -494,7 +505,10 @@ window.PADISAHLAR = [
     anne:"Handan Sultan",
     tahta:"1603-12-22",
     saltanat_yil:14,
+    lakap:["Bahtî (şiirlerinde kullandığı mahlası)"],
     esler:["Kösem Sultan (Mahpeyker)","Mahfiruz Hatun"],
+    cocuk:{oglan:"en az 6 (II. Osman, IV. Murad ve İbrahim sonradan tahta "
+    + "çıktı; Bayezid, Süleyman ve Kasım kardeşleri tarafından idam edildi)"},
     ovgu:"Sultanahmet Camii ve külliyesini yaptırdı; kardeş katli "
     + "yerine 'ekberiyet' usulünü (hanedanın en yaşlı üyesinin tahta "
     + "geçmesi) ve kafes usulünü getirerek şehzadelerin idamını kalıcı "
@@ -565,6 +579,13 @@ window.PADISAHLAR = [
     anne:"Mahfiruz Hatun",
     tahta:"1618-02-26",
     saltanat_yil:4,
+    lakap:["Genç"],
+    esler:"bulunamadı — TDV maddesinde eş adı geçmiyor",
+    cocuk:"yok — 17-18 yaşında öldürüldüğü için çocuğu olmadı",
+    skandal:"Osmanlı tarihinde bir padişahın kendi yeniçerileri tarafından "
+    + "resmen tahttan indirilip öldürüldüğü İLK örnektir — bu olay "
+    + "padişahlığın kutsal/dokunulmaz sayılan konumunda kalıcı bir kırılma "
+    + "yarattı.",
     ovgu:"14 yaşında tahta çıkıp yeniçeri ocağını ıslah etmeye ve "
     + "devlet yönetimini yeniden düzenlemeye girişti; ata biniciliği "
     + "ve silah kullanımında becerikliydi.",
@@ -850,7 +871,47 @@ window.PADISAHLAR = [
     + "kayıplarının (Karlofça) başlangıcına denk gelmesi bakımından bir "
     + "dönüm noktası sayar.",
     kaynak:"TDV: mustafa-ii" },
-  { id: "ahmed3",      ad: "III. Ahmed",                   from: "1703-08", to: "1730-10" },
+  { id: "ahmed3",      ad: "III. Ahmed",                   from: "1703-08", to: "1730-10",
+    dogum:"1673-12-31",
+    dogum_yer:"İstanbul",
+    olum:"1736-06-24",
+    olum_yer:"Topkapı Sarayı (tahttan indirildikten sonra ~6 yıl kafeste "
+    + "geçirdi)",
+    olum_sebep:"doğal, 63 yaşında",
+    baba:"IV. Mehmed",
+    anne:"Gülnûş Emetullah Sultan",
+    tahta:"1703-08-22 (Edirne Vak'ası'nda ağabeyi II. Mustafa'nın tahttan "
+    + "indirilmesi üzerine)",
+    saltanat_yil:27,
+    lakap:"bulunamadı — dönemi 'Lâle Devri' diye anılır ama bu KİŞİSEL bir "
+    + "lakap değil, bir DÖNEM adıdır",
+    esler:["Mihrişah Emine Sultan (III. Mustafa'nın annesi)","Rabia Şermi "
+    + "Kadın (I. Abdülhamid'in annesi)"],
+    cocuk:{oglan:"en az 10 (çoğu çocuk yaşta öldü; yalnız III. Mustafa ve "
+    + "I. Abdülhamid sonradan tahta çıktı)",kiz:"birkaç, en tanınanı Fatma "
+    + "Sultan (Nevşehirli Damat İbrahim Paşa'nın eşi)"},
+    skandal:"Sadrazamı Nevşehirli Damat İbrahim Paşa ile birlikte "
+    + "yürüttüğü saray şenlikleri, lale bahçeleri ve şatafatlı harcamalar "
+    + "ağır vergilerle finanse edildi; bu israf algısı 1730 Patrona Halil "
+    + "isyanının başlıca gerekçelerinden biri oldu ve isyan onu hem "
+    + "sadrazamını hem tahtını kaybetmeye götürdü.",
+    ovgu:"1718 Pasarofça Antlaşması'yla Avusturya ve Venedik karşısında "
+    + "toprak kazandı; İbrahim Müteferrika'yla 1727'de ilk Türkçe matbaayı "
+    + "kurdurdu; şair Nedîm ve hattat Hâfız Osman'ın öğrencisi olarak "
+    + "sanatı himaye etti; 'Lâle Devri' (1718-1730) Osmanlı kültür "
+    + "tarihinin en canlı dönemlerinden sayılır.",
+    yergi:"Sadrazamı İbrahim Paşa'yla birlikte sarayın ve çevresinin "
+    + "lüksüne gömülüp reâyânın ağırlaşan vergi yükünü göz ardı etti; "
+    + "1730'da patlak veren isyan karşısında sadrazamını halka teslim "
+    + "etmesine rağmen kendi tahtını da kurtaramadı.",
+    tartisma:"Lâle Devri'nin bir 'kültürel altın çağ' mı yoksa devletin "
+    + "gerçek sorunlarından (mâlî çöküş, taşra huzursuzluğu) kaçışın "
+    + "sembolü mü olduğu tarihçiler arasında tartışılır.",
+    tarihciler:"Klasik anlatı dönemi Batı'ya açılan bir 'ilk modernleşme "
+    + "denemesi' olarak över; modern araştırmalar aynı dönemin sarayla "
+    + "reâyâ arasındaki uçurumu derinleştirdiğini ve Patrona Halil "
+    + "isyanının bu uçurumun patlaması olduğunu vurgular.",
+    kaynak:"TDV: ahmed-iii" },
   { id: "mahmud1",     ad: "I. Mahmud",                    from: "1730-10", to: "1754-12",
     dogum:"1696-08-02",
     dogum_yer:"Edirne",
@@ -861,6 +922,10 @@ window.PADISAHLAR = [
     anne:"Sâliha Sultan",
     tahta:"1730-10-02 (Patrona Halil İsyanı sonrası)",
     saltanat_yil:24,
+    lakap:["Gazi (Tebriz'in geri alınmasının ardından verildi)"],
+    esler:"bulunamadı — TDV maddesinde eş adı geçmiyor",
+    cocuk:"yok — TDV'de çocuk bilgisi yok; hayatta kalan çocuğu olmadığı, "
+    + "tahtın kardeşi III. Osman'a geçtiği bilinir",
     skandal:"27 yıl kafeste (şehzade hapsinde) geçirdikten sonra tahta "
     + "çıktı; ilk icraatı isyancı Patrona Halil ve adamlarını birkaç ay "
     + "içinde tuzağa düşürüp bertaraf etmek oldu.",
@@ -889,6 +954,12 @@ window.PADISAHLAR = [
     anne:"Şehsuvar Vâlide Sultan",
     tahta:"1754-12-13",
     saltanat_yil:3,
+    lakap:"bulunamadı — hutbelerde yalnız 'sultânü'l-berreyn ve'l-bahreyn' "
+    + "formal unvanı okundu, bu bir lakap değil",
+    esler:["Leylâ (başkadınefendi)","Zevki (üçüncü kadınefendi)","Ferhunde "
+    + "Emine (dördüncü kadınefendi)"],
+    cocuk:"yok — TDV: 'çocuğu olmamış, böylece yaklaşık otuz yıl sarayda "
+    + "doğum şenliği yapılamamıştı'",
     skandal:"Tahta çıkmadan önce kafeste geçirdiği 53 yıl, Osmanlı "
     + "tarihinde bir şehzadenin tahta çıkmadan beklediği EN UZUN süre — "
     + "58 yaşında tahta çıktı.",
