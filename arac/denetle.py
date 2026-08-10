@@ -550,7 +550,54 @@ def oku_pencere(yol, degisken):
     if derinlik != 0:
         raise ValueError("%s içinde %s dizisi kapanmıyor" % (yol, degisken))
     govde = govde[:i + 1]
-    j = re.sub(r'([{,]\s*)([A-Za-zçğıöşüÇĞİÖŞÜ_]\w*)\s*:', r'\1"\2":', govde)
+    # 🔴 DİZGE FARKINDALI ANAHTAR TIRNAKLAMA — 10 Ağustos 2026.
+    # ESKİ HÂLİ tek bir regex'ti ve DİZGE İÇİNE BAKMIYORDU:
+    #     re.sub(r'([{,]\s*)(\w+)\s*:', r'\1"\2":', govde)
+    # Vaka (olaylar_ek16.js, KRONOLOJİ 16):
+    #     kaynak:"bulunamadı — … ele almıyor, dayanak: standart akademik kaynak"
+    # Regex, METNİN İÇİNDEKİ ", dayanak:" dizilimini ANAHTAR sandı ve tırnak
+    # ekledi ⇒ JSON çöktü. `node --check` TEMİZ diyordu; veri sağlamdı, ARAÇ
+    # KATIYDI — ve bu dosya aynı sınıfı iki satır aşağıda zaten anlatıyor
+    # (olaylar_ek7.js'in fazladan virgül vakası).
+    # ⚠️ Ve biçimi koordinatör dayatmıştı ("kaynak: alanına dayanak: yaz"),
+    # yani kusuru doğuran talimatla onu bulan ölçüm aynı elden çıktı.
+    # ⇒ Artık dizge sınırları izleniyor; yalnız DİZGE DIŞINDAKİ anahtarlar
+    #   tırnaklanıyor. Kaçış (\") de doğru atlanıyor.
+    def _anahtar_tirnakla(t):
+        cik, i, n = [], 0, len(t)
+        dizge = None
+        while i < n:
+            c = t[i]
+            if dizge:
+                cik.append(c)
+                if c == "\\" and i + 1 < n:
+                    cik.append(t[i + 1]); i += 2; continue
+                if c == dizge:
+                    dizge = None
+                i += 1; continue
+            if c in "\"'":
+                dizge = c; cik.append(c); i += 1; continue
+            if c in "{,":
+                cik.append(c); i += 1
+                j0 = i
+                while i < n and t[i] in " \t\r\n":
+                    i += 1
+                cik.append(t[j0:i])
+                k0 = i
+                while i < n and (t[i].isalnum() or t[i] == "_"):
+                    i += 1
+                ad = t[k0:i]
+                j1 = i
+                while i < n and t[i] in " \t\r\n":
+                    i += 1
+                if ad and i < n and t[i] == ":":
+                    cik.append('"' + ad + '"'); cik.append(t[j1:i])
+                else:
+                    cik.append(ad); cik.append(t[j1:i])
+                continue
+            cik.append(c); i += 1
+        return "".join(cik)
+    j = _anahtar_tirnakla(govde)
     # JS dizi/nesne sonundaki fazladan virgul gecerlidir, JSON'da degildir.
     # olaylar_ek7.js bu yuzden ceviriciyi dusuruyordu: veri saglamdi, arac katiydi.
     j = re.sub(r',(\s*[\]}])', r'\1', j)
