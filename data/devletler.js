@@ -252,6 +252,7 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
     { t:"1348-01-01", tur:"kurulus", b:"Bolotovo Antlaşması ile Novgorod'dan ayrı, bağımsız bir cumhuriyet oldu" },
+    { t:"1501-08-27", tur:"savas", b:"Livonya Tarikatı, Büyük Üstat Wolter von Plettenberg komutasında Siritsa Nehri'nde Moskova-Pskov ordusunu bozguna uğrattı; Pskov kuşatmaya rağmen düşmedi (orta güven — akademik bağlam sağlam, tekil muharebe ayrıntısı ansiklopedik kaynaktan)" },
     { t:"1510-01-13", tur:"son", b:"III. Vasili'nin kuvvetleri veçe çanını indirdi, cumhuriyet Moskova'ya ilhak edildi" }
   ]
 },
@@ -3243,15 +3244,19 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok (`loango` slug'ı 302 döndürdü), dayanak: standart akademik kaynak",
   kronoloji:[
     { t:"1550-01-01", tur:"kurulus", b:"Vili hanedanı Loango Krallığı'nı kurdu; Buali başkent oldu" },
+    { t:"1670-01-01", tur:"antlasma", b:"Hollanda Batı Hindistan Şirketi (WIC) Loango kıyısının en etkin Avrupalı ticaret ortağı oldu; Maloango, Portekiz ve Hollanda'yı birbirine karşı oynatarak ticaret şartlarını kendi belirledi (Phyllis Martin, 'The External Trade of the Loango Coast', Oxford 1972)" },
+    { t:"1787-01-01", tur:"bolunme", b:"Kral Buatu'nun ölümüyle merkezi krallık otoritesi fiilen çöktü; yüzyılı aşkın süre yeni kral seçilmedi, güç konsey üyelerine dağıldı (Phyllis Martin 1972)" },
     { t:"1883-01-01", tur:"son", b:"Fransız himayesi ilan edildi, krallık bağımsızlığını yitirdi" }
   ]
 },
 { id:"luba", ad:"Luba İmparatorluğu", tur:"imparatorluk", bolge:"orta-afrika",
   f:"1585-01-01", t:"1889-01-01", baskent:"Mwibele",
   ozet:"Yukarı Kongo havzasında (bugünkü Katanga) kurulan, kutsal krallık (bulopwe) anlayışıyla geniş bir bölgeyi bağlayan imparatorluk; Lunda'nın siyasî modelini de besledi, sömürge baskısı ve köle akınlarıyla parçalandı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
-  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak (Thomas Q. Reefe, 'The Rainbow and the Kings', Univ. of California Press 1981)",
   kronoloji:[
     { t:"1585-01-01", tur:"kurulus", b:"Kongolo Mukulu, Luba devletini kurdu" },
+    { t:"1800-01-01", tur:"toprak-kazanc", b:"Kral Ilunga Sungu ve ardılı Kumwimba Ngombe döneminde imparatorluk doğuya Tanganyika Gölü'ne ve Lualaba havzasına genişleyip toprak bakımından zirvesine ulaştı (Reefe 1981)" },
+    { t:"1870-01-01", tur:"toprak-kayip", b:"Kumwimba Ngombe'nin ölümünün ardından Swahili-Arap köle/fildişi tüccarları (Tippu Tip) ve Msiri'nin rakip Katanga devleti Luba topraklarını parçalamaya başladı (Reefe 1981)" },
     { t:"1889-01-01", tur:"son", b:"İç bölünme ve sömürge baskısıyla imparatorluk dağıldı" }
   ]
 },
@@ -4144,10 +4149,11 @@ window.DEVLETLER = [
 },
 { id:"palembang-sultanligi", ad:"Palembang Sultanlığı", tur:"sultanlik", bolge:"guneydogu-asya",
   f:"1281-01-01", t:"1825-01-01", baskent:"Palembang", harita:"palembang-sultanligi",
-  ozet:"Srivicaya mirası üzerinde kurulan, Musi ırmağının biber ve kalay ticaretini denetleyen Sumatra sultanlığı; Hollanda idaresine katılarak son buldu. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  ozet:"Srivicaya mirası üzerinde kurulan, Musi ırmağının biber ve kalay ticaretini denetleyen Sumatra sultanlığı; Hollanda idaresine katılarak son buldu. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. ⚠️ 10 Ağustos 2026 BULGU (değiştirilmedi, bilgi amaçlı): akademik araştırma, 'sultanlık' unvanının ve ilk Sultan Abdurrahman'ın tahta çıkışının da 1659'da (Hollanda'nın eski sarayı Kuto Gawang'ı yakmasının HEMEN ardından) ilan edildiğini gösteriyor — yani 1659 hem işgal hem sultanlığın ilanı olabilir, atlastaki f:1281 (pencere başlangıcı) ile gerçek kuruluş arasındaki fark sanıldığından küçük olabilir. 16. yy'daki öncül beylik (Ki Gede ing Suro) için akademik kalite kaynak bulunamadı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
-    { t:"1659-01-01", tur:"isgal", b:"Hollanda Doğu Hindistan Şirketi başkenti yakıp ticaret tekelini dayattı" },
+    { t:"1642-01-01", tur:"antlasma", b:"Palembang ile VOC arasındaki biber ticareti sözleşmesi yenilenip VOC'a tekel tanındı — 17. yy ticarî zirvesinin başlangıç noktalarından biri (hakemli Endonezce dergi makalesi, orta güven)" },
+    { t:"1659-01-01", tur:"isgal", b:"Hollanda Doğu Hindistan Şirketi eski sarayı (Kuto Gawang) yakıp ticaret tekelini dayattı; aynı yıl Susuhunan Abdurrahman sarayını taşıyıp ilk Sultan olarak sultanlığı ilan etti" },
     { t:"1825-01-01", tur:"son", b:"Hollanda sultanlığı kaldırıp bölgeyi doğrudan idareye bağladı" }
   ]
 },
@@ -4454,7 +4460,9 @@ window.DEVLETLER = [
   ozet:"1262'den beri Norveç, 1537'den itibaren Danimarka idaresinde kalan ada, 1 Aralık 1918'de Danimarka kralıyla şahsî birlik altında egemen bir krallık oldu. Atlasın ufkunda (1923) bu statüdedir; tam bağımsızlık 1944'tedir. ⚠️ TDV'de müstakil madde YOK (`izlanda` slug'ı 302 döndürüyor); CLAUDE.md §4 gereği Avrupa iç tarihi için standart akademik referansa dayanıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
+    { t:"1262-01-01", tur:"vassal", b:"İzlanda'nın önde gelen şefleri Eski Antlaşma (Gamli sáttmáli) ile Norveç Kralı IV. Haakon'a bağlılık yemini etti; katılım süreci hukuken 1281'de Jónsbók'la tamamlandı (Sverrir Jakobsson, Scandinavian Journal of History 46:5, 2021 — hakemli)" },
     { t:"1537-01-01", tur:"toprak", b:"Reformla birlikte ada Danimarka'nın doğrudan idaresine girdi" },
+    { t:"1602-04-20", tur:"antlasma", b:"Danimarka Kralı IV. Christian, İzlanda'nın dış ticaretini Danimarkalı tüccarlara tahsis eden fermanla tekel kurdu; ada 1787'ye kadar izole bir tekel rejiminde kaldı (Gísli Gunnarsson, 'Monopoly Trade and Economic Stagnation', Lund 1983; gün düşük güvenle)" },
     { t:"1918-12-01", tur:"kurulus", b:"İzlanda Krallığı: Danimarka ile şahsî birlik, egemen devlet statüsü" }
   ]
 },

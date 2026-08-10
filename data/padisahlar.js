@@ -1074,7 +1074,43 @@ window.PADISAHLAR = [
     + "uygulama zaafını (yeniçeri direnişini yönetememe) ayrı bir "
     + "eksende eleştirir.",
     kaynak:"TDV: selim-iii" },
-  { id: "mustafa4",    ad: "IV. Mustafa",                  from: "1807-05", to: "1808-07" },
+  { id: "mustafa4",    ad: "IV. Mustafa",                  from: "1807-05", to: "1808-07",
+    dogum:"1779-09-08",
+    dogum_yer:"İstanbul",
+    olum:"1808-11-17",
+    olum_yer:"Topkapı Sarayı",
+    olum_sebep:"boğularak idam edildi (kardeşi II. Mahmud'un emriyle, "
+    + "Alemdar Mustafa Paşa vak'ası sonrası)",
+    baba:"I. Abdülhamid",
+    anne:"Ayşe Sîneperver Sultan",
+    tahta:"1807-05-29 (Kabakçı Mustafa isyanıyla III. Selim'in tahttan "
+    + "indirilmesi üzerine)",
+    saltanat_yil:1,
+    lakap:"bulunamadı — TDV maddesinde kendine özgü bir lakap zikredilmiyor",
+    esler:"bulunamadı — TDV maddesinde eş adı geçmiyor",
+    cocuk:"bulunamadı — TDV maddesinde çocuk bilgisi yok",
+    skandal:"1808'de Alemdar Mustafa Paşa III. Selim'i yeniden tahta "
+    + "çıkarmak için İstanbul'a yürüyünce, Mustafa hem III. Selim'i hem "
+    + "kardeşi (gelecekteki II. Mahmud) öldürtmeyi emretti — Selim "
+    + "boğduruldu, Mahmud güçlükle saklanıp kurtuldu. Bu, kendisinin de "
+    + "tahttan indirilip birkaç ay sonra idam edilmesiyle sonuçlandı.",
+    ovgu:"TDV'nin vurguladığı üzere, klasik anlatının 'zayıf ve budala' "
+    + "imajının aksine yeni kışlalar kurdurdu, mühendishâneleri yeniden "
+    + "düzenledi ve ayrıntılı kanunnâmeler hazırlattı — kısa sürse de "
+    + "modernleşmeyi sürdürme potansiyeli olduğuna işaret eder.",
+    yergi:"Saltanatı 'büyük bir kargaşa, düzensizlik, devlet yapısının "
+    + "çözülmesi ve reformcularla karşıtları arasındaki bitmez "
+    + "çatışmalar' içinde geçti (TDV'nin kendi ifadesi); Osmanlı-Rus "
+    + "Savaşı da bu istikrarsızlık ortamında sürdü.",
+    tartisma:"Klasik tarihyazımı onu Kabakçı isyanının kuklası ve "
+    + "yeteneksiz bir hükümdar olarak resmeder; TDV maddesi bu imajı "
+    + "sorgulayıp kısa saltanatındaki idarî girişimlere dikkat çeker — "
+    + "hangi görüşün daha isabetli olduğu tartışmalıdır.",
+    tarihciler:"Klasik anlatı onu Kabakçı isyanının kuklası sayar; TDV "
+    + "maddesi (madde müellifi) bu basit görüşe karşı onun reformcu "
+    + "eğilimlere sahip olabileceğini, ama zamanın kargaşasının bunu "
+    + "gerçekleştirmesine izin vermediğini vurgular.",
+    kaynak:"TDV: mustafa-iv" },
   { id: "mahmud2",     ad: "II. Mahmud",                   from: "1808-07", to: "1839-07",
     dogum:"1785-07-20",
     olum:"1839-07-01",
@@ -1085,6 +1121,13 @@ window.PADISAHLAR = [
     anne:"Nakşidil Sultan",
     tahta:"1808-07-28",
     saltanat_yil:31,
+    lakap:"bulunamadı — muhalif çevrelerce reformları yüzünden 'Gâvur "
+    + "Padişah' diye anıldığı rivayet edilir ama TDV maddesinde resmî bir "
+    + "lakap olarak geçmiyor",
+    esler:["Bezmiâlem Vâlide Sultan (Abdülmecid'in annesi)","Pertevniyal "
+    + "Vâlide Sultan (Abdülaziz'in annesi)","Hoşyar Kadın"],
+    cocuk:{oglan:"en az 8 (36 çocuğunun çoğu küçük yaşta öldü; yalnız "
+    + "Abdülmecid ve Abdülaziz tahta çıktı)",kiz:"birkaç"},
     skandal:"Kayıtlara göre 17 eşi ve 36 çocuğu vardı; çocukların çoğu "
     + "küçük yaşta öldü — dönemin yüksek çocuk ölüm oranının hanedan "
     + "içindeki en çarpıcı örneklerinden biri.",
@@ -1115,6 +1158,14 @@ window.PADISAHLAR = [
     anne:"Bezmiâlem Vâlide Sultan",
     tahta:"1839-07-01",
     saltanat_yil:22,
+    lakap:"bulunamadı — TDV maddesinde kendine özgü bir lakap zikredilmiyor",
+    esler:["Tîrimüjgân Kadınefendi (II. Abdülhamid'in annesi)","Şevkiefser "
+    + "Kadınefendi (V. Murad'ın annesi — TDV: 'Şevkiefser')","Gülcemal "
+    + "Kadınefendi (V. Mehmed'in annesi)","Gülüstü Kadınefendi (VI. "
+    + "Mehmed'in annesi)"],
+    cocuk:{oglan:"en az 8 (dördü — V. Murad, II. Abdülhamid, V. Mehmed, "
+    + "VI. Mehmed — sırayla tahta çıktı, Osmanlı tarihinde eşi görülmemiş "
+    + "bir peş peşe kardeş serisi)",kiz:"birkaç"},
     skandal:"22 yıllık saltanatında 22 kez sadrazam değiştirdi — bu "
     + "sıklık dönemin sarayında dengeleri gözeten ama kararsız bir "
     + "yönetim tarzına yorulur.",
@@ -1132,8 +1183,90 @@ window.PADISAHLAR = [
     + "araştırmalar Tanzimat'ı tek bir hükümdarın kararından çok, "
     + "bürokratik bir reform hareketinin ürünü olarak okur.",
     kaynak:"TDV: abdulmecid" },
-  { id: "abdulaziz",   ad: "Sultan Abdülaziz",             from: "1861-06", to: "1876-05" },
-  { id: "murad5",      ad: "V. Murad",                     from: "1876-05", to: "1876-08" },
+  { id: "abdulaziz",   ad: "Sultan Abdülaziz",             from: "1861-06", to: "1876-05",
+    dogum:"1830-02-08 (bazı kaynaklarda 7 Şubat)",
+    dogum_yer:"İstanbul",
+    olum:"1876-06-04",
+    olum_yer:"Fer'iye Sarayı, İstanbul",
+    olum_sebep:"bilekleri kesilmiş hâlde bulundu; resmî açıklama intihardı, "
+    + "ama 1881'de yapılan bir soruşturma cinayet olduğu sonucuna vardı ve "
+    + "davalar açılıp mahkûmiyetler verildi — TDV bu tartışmayı doğrudan "
+    + "aktarır",
+    baba:"II. Mahmud",
+    anne:"Pertevniyal Vâlide Sultan",
+    tahta:"1861-06-25 (ağabeyi Abdülmecid'in ölümü üzerine)",
+    saltanat_yil:15,
+    lakap:"bulunamadı — TDV maddesinde kendine özgü bir lakap zikredilmiyor",
+    esler:"bulunamadı — TDV maddesinde ayrıntılı eş listesi verilmiyor",
+    cocuk:{oglan:"en az 2 bilinen (Yûsuf İzzeddin Efendi -veliaht- ve "
+    + "Abdülmecid Efendi -imparatorluğun son halifesi olacaktı-)",
+    kiz:"bulunamadı"},
+    skandal:"Ölümü çevresindeki intihar-cinayet tartışması: bilekleri "
+    + "kesilmiş bulundu, dönemin hükümeti hemen intihar ilan etti, ama "
+    + "1881'de açılan Yıldız Sarayı davasında cinayet olduğuna karar "
+    + "verilip failler mahkûm edildi — Osmanlı tarihinin en tartışmalı "
+    + "ölüm vakalarından biridir.",
+    ovgu:"Donanmayı dünyanın üçüncü büyüğü hâline getirdi, zırhlı gemiler "
+    + "aldı ve 1867'de Bahriye Nezâreti'ni kurdu; demiryolu ağını "
+    + "452 km'den 1344 km'ye çıkardı, telgraf şebekesini genişletti; "
+    + "1868'de Galatasaray Sultânîsi'ni, 1870'te Dârülfünûn'u (Osmanlı "
+    + "Üniversitesi) kurdurdu; 1864 Vilâyet Nizamnâmesi'yle taşra "
+    + "idaresini Fransız modeline göre yeniden yapılandırdı.",
+    yergi:"Saltanatının son yıllarında saray masrafları ve savurganlığı "
+    + "artarken devlet 1875'te dış borçlarını ödeyemez hâle gelip resmen "
+    + "moratoryum ilan etti — bu mâlî çöküş, Avrupa devletlerinin Osmanlı "
+    + "maliyesine doğrudan müdahalesinin (sonraki Düyûn-ı Umûmiyye) "
+    + "zeminini hazırladı ve 1876'daki tahttan indirilişinde belirleyici "
+    + "bir etken oldu.",
+    tartisma:"Ölümünün intihar mı cinayet mi olduğu hâlâ tam netleşmiş "
+    + "değildir; 1881 mahkûmiyetlerinin siyasi bir hesaplaşmanın (II. "
+    + "Abdülhamid'in muhaliflerini tasfiyesi) parçası olup olmadığı da "
+    + "tarihçiler arasında tartışılır.",
+    tarihciler:"Klasik anlatı onu israfçı ve giderek istibdada kayan bir "
+    + "hükümdar sayar; modern araştırmalar donanma ve eğitim reformlarını "
+    + "öne çıkarıp 1875 mâlî iflasını yalnız kişisel savurganlığa değil, "
+    + "yapısal bir borç sarmalına bağlar.",
+    kaynak:"TDV: abdulaziz" },
+  { id: "murad5",      ad: "V. Murad",                     from: "1876-05", to: "1876-08",
+    dogum:"1840-09-22",
+    dogum_yer:"İstanbul",
+    olum:"1904-08-29",
+    olum_yer:"Çırağan Sarayı, İstanbul (28 yıllık göz hapsinin sürdüğü yer)",
+    olum_sebep:"şeker hastalığı (diyabet)",
+    baba:"Sultan Abdülmecid",
+    anne:"Şevkiefser Kadınefendi",
+    tahta:"1876-05-30 (amcası Abdülaziz'in bir darbeyle tahttan "
+    + "indirilmesi üzerine)",
+    saltanat_yil:0.25,
+    lakap:"bulunamadı — TDV maddesinde kendine özgü bir lakap zikredilmiyor",
+    esler:"bulunamadı — TDV maddesinde eş adı geçmiyor",
+    cocuk:"bulunamadı — TDV maddesinde çocuk bilgisi yer almıyor",
+    skandal:"1878'de Ali Suavi'nin önderliğinde bir grup, onu Çırağan "
+    + "Sarayı'ndan çıkarıp yeniden tahta çıkarmak için baskın düzenledi "
+    + "('Çırağan Vak'ası') — baskın bastırıldı, Ali Suavi öldürüldü ve bu "
+    + "olay II. Abdülhamid'in kardeşi üzerindeki gözetimini daha da "
+    + "sıkılaştırmasına yol açtı.",
+    ovgu:"Türkçe, Arapça, Fransızca, tarih, fen bilimleri, piyano ve Batı "
+    + "müziği eğitimi almış, tahta çıkmadan önce Genç Osmanlılar'ca "
+    + "anayasal bir dönemin umudu olarak görülmüştü; 93 günlük "
+    + "saltanatının yalnız ilk yedi gününde gerçek anlamda aklî yetkinliğe "
+    + "sahipti (TDV'nin ifadesiyle).",
+    yergi:"Amcası Abdülaziz'in esrarengiz ölümü (4 Haziran) ve ardından "
+    + "Hüseyin Avni Paşa suikastı üst üste gelen sarsıntılarla sinirlerini "
+    + "tamamen bozdu; devlet törenlerinde 'anormal davranışlar' sergiledi, "
+    + "intihara teşebbüs etti ve kalıcı olarak yönetime elverişsiz "
+    + "bulundu.",
+    tartisma:"Aklî durumunun GERÇEKTEN kalıcı bir hastalık mı, yoksa ağır "
+    + "bir travma sonrası akut bir bunalım mı olduğu ve iyileşme şansı "
+    + "verilip verilmediği tarihçiler arasında tartışmalıdır; 28 yıllık "
+    + "sıkı göz hapsinin tıbbi bir zorunluluk mu yoksa II. Abdülhamid'in "
+    + "siyasi güvenlik kaygısı mı olduğu da net değildir.",
+    tarihciler:"Klasik anlatı onu trajik 'deli sultan' olarak anar; modern "
+    + "değerlendirmeler bugünkü tıp diliyle akut stres bozukluğu ya da "
+    + "bipolar bir krize benzeyebilecek durumunun hiç tedavi şansı "
+    + "bulamadan kalıcı 'cünun' teşhisiyle mühürlendiğini ve bunun II. "
+    + "Abdülhamid'in iktidarını sağlamlaştırmasına yaradığını vurgular.",
+    kaynak:"TDV: murad-v" },
   { id: "abdulhamid2", ad: "II. Abdülhamid",               from: "1876-08", to: "1909-04",
     dogum:"1842-09-21",
     dogum_yer:"İstanbul",
@@ -1145,6 +1278,11 @@ window.PADISAHLAR = [
     tahta:"1876-08-31",
     saltanat_yil:33,
     lakap:["Ulu Hakan (taraftarlarınca)"],
+    esler:"bulunamadı — TDV maddesinde ayrıntılı eş listesi verilmiyor",
+    cocuk:{oglan:8,kiz:7,not_:"TDV bu ayrıntıyı vermiyor; standart Osmanlı "
+    + "hanedan kaynağı (A. D. Alderson, The Structure of the Ottoman "
+    + "Dynasty) esas alındı — kızlarından biri, anılarıyla tanınan Ayşe "
+    + "Osmanoğlu'dur"},
     ovgu:"Hicaz Demiryolu başta olmak üzere demiryolu ağını genişletti, "
     + "eğitimi kapsamlı biçimde reforme edip yeni okullar/üniversiteler "
     + "kurdu; büyük güçler arasında denge kurarak imparatorluğun "
