@@ -169,6 +169,24 @@ kronoloji sayacından kat kat kesin. ⚠️ **Kaç görselde var, ölçülmedi.*
 
 ### 🔴 YENİ GERÇEK EKSİK
 `h6#8` **Saint Gothard Muharebesi (1664)** — kronolojide **0 madde.**
+🔴 Ve İÇERİK'in son partisinden **dört tane daha**: `h13#13` İyonya adaları (1479) ·
+`h13#14` Zakintos/Karadağ · `h13#4` Timur'un Bağdat'ı alması (Bağdat'ın 7 maddesi
+var, **Timur yok**) · **`h12#7` Bursa · Edirne · İstanbul'un BAŞKENT oluşu.**
+⚠️ Sonuncusu atlasın **omurgası** ve `parti-0002/H-0011`de Emre ayrıca *"başkent
+yıldızla gösterilsin"* demişti — **iki istek aynı boşluğa bakıyor.**
+
+### 🔴 KRONOLOJİ VERİ KALEMLERİ — ARAYÜZ'ün ölçümünden doğdu
+
+```
+1622-05     gun:"20 Mayıs 1622"   "II. Osman'ın katli (Hâile-i Osmâniye)"
+1622-05-20  gun:"20 Mayıs 1622"   "Genç Osman'ın … katledilmesi"
+            ⇒ Genç Osman = II. Osman · AYNI GÜN, AYNI OLAY · GERÇEK MÜKERRER
+            ⚠️ benzerlik 0,375 · denetle.py eşiği 0,34 ⇒ YAKALAMALIYDI, yakalamadı
+1622-05-21  gun:"20 Mayıs 1622"   "I. Mustafa'nın ikinci kez tahta çıkarılması"
+            ⇒ 🔴 `t:` 21 Mayıs diyor, `gun:` 20 Mayıs diyor — BİRİ YANLIŞ
+```
+📌 İkincisi ancak `gun:` alanı okununca görünüyor. Koordinatör aynı gün üç kez
+`t:`ye bakıp `gun:`i atladı — **atlanan alan üçüncü bir kusuru saklıyormuş.**
 
 ### 🔴🔴 `K17` — BOŞLUĞUN CİNSİ · **ve ölçüm bir ders borcunu ortaya çıkardı**
 
