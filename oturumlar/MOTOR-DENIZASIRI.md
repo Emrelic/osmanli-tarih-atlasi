@@ -290,38 +290,72 @@ Vakalar: `h11#16 · h11#28 · h12#1 · h16#6 · h17#1·6·9·16·17 · h18#2·4�
 (1 Ağu 00:58) külliyatın **en yeni** iki dosyası. ⇒ Emre bunu *"en başından beri"*
 söylüyor **ve en son günde hâlâ söylüyor.**
 
-### KOORDİNATÖRÜN ÖLÇÜMÜ — hüküm değil, taban
+### 🔴 DİKKAT — BU İŞ YARIM DEĞİL, **BİR KADEMESİ ZATEN BİTMİŞ**
 
-`CLAUDE.md §2` bunun **zaten yapıldığını** yazıyor (*"nehir yataklarına ve dağ
-sırtlarına yaslanır"*). `kosu9.log`:
-```
-43 nehir parçası kullanılıyor    ← uret_petek.py:398'e göre pencerede 780 VAR (%5,5)
-126 dağ sırası
-yaslama aşaması: 8 SANİYE        ← 76 dakikalık koşunun %0,2'si
-```
-⇒ **Özellik var, kapsamı dar. Belge yanlış değil, fazla iyimser.**
-
-⚠️ **VE EŞİK KASTEN YÜKSEK — kaldırmadan önce gerekçesini oku:**
-```python
-NEHIR_ONEM_ESIGI = 5.0     # uret_petek.py:380
-# :407  "büyük nehir sınıfı — dereye yaslanma riski yok. 6'da 267'ye…"
-```
-Bu bir **ölçülmüş tercih**, keyfî bir sayı değil. `CLAUDE.md §11`: *"bir süzgeci
-kaldırmadan önce, süzgecin NEYİ KORUDUĞUNU oku."* Eşiği düşürmek sınırları
-**derelere** yaslayabilir — ve o, cetvelden **daha kötü** görünür.
-
-### İŞİN — aynı dört adım
+> ⚠️ **Koordinatör bu bölümü önce YANLIŞ ölçtü ve düzeltti.** İlk hâli
+> `kosu9.log`u okuyordu; **o log 4 Ağustos'a ait ve dosya adı numarası tarihle
+> ilgisiz** (`kosu7.log` **10 Ağustos**, yani bugünkü koşu). Düzeltmeyi İÇERİK
+> oturumu yakaladı. Aşağıdaki sayılar **bugünkü koşudandır.**
 
 ```
-ADIM 1  ÖLÇ    bugün kaç petek kenarının kaç yüzdesi bir doğal hatta yaslı?
-               (ham sayı değil ORAN — "43 nehir" bir kapsam değil, bir girdi)
-               Ve eşik 5,0 → 4 → 3 → 2 denendiğinde kaç nehir giriyor,
-               kaçı DERE (yani yaslanmaması gereken)?
-ADIM 2  TASARLA  en az iki seçenek + ÖNERİN → koordinatöre SUN
-ADIM 3  ÖNGÖRÜ   koşudan ÖNCE, damgalı, mazeretleriyle
-ADIM 4  KOŞ      ve SONUCA bak: "yaslama arttı mı" değil,
-                 "HARİTA cetvel gibi görünmekten çıktı mı"
+f42f90f · 7 Ağustos 2026 · "COGRAFYA KADEME 1"
+    nehir  43 → 157 parça      dağ/engel  126 → 163 poligon
 ```
+Ve commit gövdesi teşhisi **tam** koyuyor:
+> *"Pencerede 780 parça / 593 adlı akarsu VARDI, motor 43 parça / 31 ad
+> kullanıyordu. **Sebep pencere DEĞİLDİ, 31 adlık beyaz listeydi ve tamamı
+> Osmanlı kuşağıydı** — Ren, Po, Elbe, Vistül, İndus, Ganj, Amuderya, Nijer,
+> Kongo, Amur, Yangtze: hiçbiri yoktu. **VERİ DURUYORDU, SÜZGEÇ GEÇİRMİYORDU.**"*
+
+**Bugünkü koşu (`kosu7.log`, 10 Ağustos 17:49):**
+```
+187 nehir parçası — 143 adlı akarsu       163 dağ sırası
+yaslama aşaması: 17 saniye
+```
+
+### 🔴 VE ASIL SORU BU: **EMRE DÜZELTMEYİ HİÇ GÖRMEDİ**
+
+```
+31 Tem / 1 Ağu   Emre şikâyet etti  (h17 · h18)        motor: nehir  43
+ 7 Ağu           COGRAFYA KADEME 1                     motor: nehir 157
+10 Ağu           bugünkü koşu                          motor: nehir 187
+```
+⇒ Şikâyetin dayandığı harita **KADEME 1 ÖNCESİ.** ⇒ ***Sorun "kapsamı genişlet"
+değil: "KADEME 1 YETTİ Mİ?"***
+
+⚠️ **Ve buna sayı cevap veremez.** Ölçüt Emre'nin ekranda gördüğü şey.
+🔴 **Bu yüzden ADIM 1 bir ÖLÇÜM değil bir GÖRSEL TEYİTTİR** — aşağıya bak.
+
+⚠️ **EŞİK ÖLÇÜLEREK SEÇİLMİŞ, keyfî değil** — commit gövdesinden:
+```
+pencerede kümülatif:  <=1: 21 · <=2: 46 · <=3: 77 · <=4: 124 · <=5: 157 · <=6: 267 · hepsi 780
+NEHIR_ONEM_ESIGI = 5.0    "6'da 267'ye fırlıyor ve DERE'ye yaslanma riski başlıyor"
+```
+📌 Ve ad listesi **kaldırılmadı, taban olarak duruyor** — iki kapı birbirinin
+yerine geçmez: ad listesi *"küçük ama sınır taşıyan"*ı (Porsuk gibi) tutar,
+`scalerank` *"büyük ama adsız"*ı. `CLAUDE.md §11`: **bir süzgeci kaldırmadan
+önce neyi koruduğunu oku.**
+
+### İŞİN — dört adım, ve BİRİNCİSİ SAYI DEĞİL
+
+```
+ADIM 1  GÖRSEL TEYİT — bu işin AÇILIŞ SORUSU
+        Emre'nin şikâyet ettiği KESİTLERİ bugünkü yayında aç ve BAK:
+        h17#9 · h17#1·6·16·17 · h18#2·4·5 · h11#16·28 · h12#1 · h16#6
+        → "hâlâ cetvelle çizilmiş gibi mi?"  EVET/HAYIR, kesit kesit
+        🔴 HAYIR çıkarsa BU İŞ BİTMİŞTİR — koordinatöre söyle, DEVAM ETME.
+           Bitmiş bir işi ikinci kez yapmak, hiç yapmamaktan pahalıdır.
+        ⚠️ KADEME 1 sonrası bir görüntü Emre'de YOK. Karar onun.
+
+ADIM 1b (yalnız EVET çıkarsa) ÖLÇ: kaç petek kenarının kaç YÜZDESİ bir doğal
+        hatta yaslı? (ham sayı değil ORAN — "187 nehir" bir kapsam değil GİRDİ)
+        Ve eşik 5,0 → 4 → 3 denendiğinde kaç DERE giriyor?
+ADIM 2  TASARLA   en az iki seçenek + ÖNERİN → koordinatöre SUN
+ADIM 3  ÖNGÖRÜ    koşudan ÖNCE, damgalı, mazeretleriyle
+ADIM 4  KOŞ       ve SONUCA bak: "yaslama arttı mı" değil,
+                  "HARİTA cetvel gibi görünmekten ÇIKTI MI"
+```
+🔴 **`ADIM 4`ün ölçütü de görseldir.** Aynı kesitin öncesi/sonrası, **birlikte**.
 🔴 **`ADIM 4`ün ölçütü görseldir.** Bu işin sınavı bir sayı değil, Emre'nin
 ekranda gördüğü şey. Koşu bitince **aynı kesitin öncesi/sonrası** görüntüsünü
 al ve **ikisini birlikte** gönder.
