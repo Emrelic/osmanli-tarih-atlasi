@@ -75,15 +75,20 @@ py C:/Users/emrem/OneDrive/Desktop/ClaudEmre/kutu/ordu.py tablo ATLAS
 
 | tema | kaç kez | durum |
 |---|---|---|
-| **ok ile gösterim** | 17+ | 🟡 arayüz |
-| **denizaşırı petek** | **14** | 🔴 `oturumlar/MOTOR-DENIZASIRI.md` YAZILDI |
-| **cetvel/topografya** | 11+ | 🔴 ölçüldü — aşağıya bak |
-| **karasal bağlantı** ("uçakla gidilemez") | 11 | 🔴 karar bekliyor |
-| mükerrer madde | 10 | 🟢 **HEPSİ KAPALI** |
-| taralı işgal (`isg:`) | 8 | 🟡 mekanizma HAZIR |
-| etiket/nokta kalıcılığı | 6 | 🟡 arayüz |
+| **ok ile gösterim** | 17+ | 🟢 **ZATEN YAPILMIŞ** — `591a5c6` (30 Tem 17:20): 9 tür · 9 glif · 9 katman · dinamik lejant. `h11#31` commit'ten **22 dk önce** |
+| **denizaşırı petek** | **14** | 🟡 **motor kusuru YOK** · 8'i kapalı · kalan **4 nokta** (Halka 1, 1.798 km²) |
+| **cetvel/topografya** | 11+ | 🟡 `COGRAFYA KADEME 1` (7 Ağu) yapılmış · nehir 43 → **187** · **görsel teyit** bekliyor |
+| **karasal bağlantı** ("uçakla gidilemez") | 11 | 🔴 **GERÇEKTEN AÇIK** — hiç ölçülmedi |
+| mükerrer madde | 10 | 🟢 **12/12 KAPALI** |
+| taralı işgal (`isg:`) | 8 | 🟢 **8/8 KAPALI** — ve iki mekanizma ayrıldı: `devir` (antlaşma anı · kalıcı cezir · sağa yatık · 11 antlaşma · otomatik) ≠ `isgal` (süren işgal · nominal sahip DEĞİŞMEZ · sola yatık · 83 kayıt) |
+| etiket/nokta kalıcılığı | 6 | ⏳ ARAYÜZ ölçüyor · ⚠️ `k:`nin **zaman ayağı yok** (Söğüt pürüzü) — çıkarsa veri modeli kararı |
 | **Hotin** | 5 | 🟢 KAPALI — beşi de **tek arayüz kusurundan** |
-| **statü kademesi** | 5+ | 🔴 veri modeli — aşağıya bak |
+| **statü kademesi** | 5+ | 🔴 **GERÇEKTEN AÇIK** — veri modeli, Emre'nin kararı |
+
+> 🔴🔴 **BİLANÇO DEĞİŞTİ: 245 madde → 9 tema → GERÇEKTE 3-4 İŞ.**
+> Dört tema **tamamen kapalı**, ikisi neredeyse. Gerçekten açık:
+> **karasal bağlantı · statü kademesi · topografya teyidi · 4 nokta.**
+> 📌 Daralmanın yarısı bir günde **altı "altyapı zaten vardı"** bulgusundan geldi.
 
 ### 🔴🔴 TEK BİR ARAYÜZ KUSURU **DOKUZ** ŞİKÂYET ÜRETİYOR — en yüksek kazançlı kalem
 
