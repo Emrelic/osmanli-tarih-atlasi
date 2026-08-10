@@ -1,5 +1,13 @@
 # VERİ DEVLET 2 — İlerleme
 
+## 🔧 YÖNTEM (koordinatörle mutabık, 10 Ağustos 2026 — bir sonraki oturum devralsın)
+**Her partiyi bitirip rapor göndermeden ÖNCE, `node -e` ile TAZE sayım koştur.**
+Sebebi ölçülmüş: bir partide 3 künye ajan verisi elimde olduğu hâlde
+devletler.js'e YAZILMAYI UNUTULMUŞTU ("rapor doğru, veri eksik" — hiçbir
+denetim bunu görmezdi, `denetle.py` künye sayısını sormaz). Yakalanma
+sebebi tam olarak bu alışkanlıktı: yazmadan önce değil, yazdıktan SONRA
+`D.filter(x => x.kronoloji.length <= 2).length` koşmak.
+
 ## Açılış
 10 Ağustos 2026 — brifing okundu, koordinatöre "açıldım" mesajı atıldı.
 
