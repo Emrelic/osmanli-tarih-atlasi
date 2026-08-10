@@ -1,0 +1,4 @@
+// renk_olc.py --oner çıktısı — aktarımdan SONRA:
+//   py arac/renk_olc.py --dogrula oneri-20260810-124211.txt
+gilan-kiya #2a5ad2
+mazenderan-marasi #2ab4d2
