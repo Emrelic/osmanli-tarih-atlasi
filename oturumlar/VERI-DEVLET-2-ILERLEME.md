@@ -314,5 +314,42 @@ GÖRÜNÜR kıldım.
 
 **Toplam: 108 → 67 (41 künye düzeltildi/doğrulandı, hedef ≤40'a çok yakın).**
 
-**Sırada:** kalan 67 künyeden nokta sayısına göre dördüncü 15'lik parti.
+**DÖRDÜNCÜ 15'LİK PARTİ TAMAMLANDI (2026-08-10): 67 → 55.**
+```
+gond-kralliklari   2→4   Encyclopedia.com (Gale) + Akbarnâme'ye dayalı akademik derleme
+hoysala            2→4   Britannica + Nilakanta Sastri
+seylan-sinhala     1→4   Britannica + EBSCO Research Starters
+sunda-pajajaran    1→3   Torre do Tombo arşivi (birincil) + Zahorka akademik makale
+bugis-kralliklari  1→4   hakemli dergi (el Harakah, UIN Malang) + Andaya akademik monografi
+pskov              2→3   orta güven (tekil muharebe ayrıntısı ansiklopedik, bağlam akademik)
+loango             2→4   Phyllis Martin, 'The External Trade of the Loango Coast' (Oxford 1972)
+luba               2→4   Thomas Reefe, 'The Rainbow and the Kings' (Univ. of California 1981)
+palembang-sultanligi 2→3 hakemli Endonezce dergi + 🔴 bulgu (aşağıda)
+izlanda            2→4   Jakobsson 2021 (hakemli) + Gunnarsson 1983 (akademik monografi)
+kilikya-ermeni     1→5   Bournoutian 2006 — f: 1198-01-01→1199-01-06 DÜZELTİLDİ (akademik kaynak net)
+ahiler             2→4   Celal Metin (Hacettepe Üniv.) + 🔴 bulgu (aşağıda)
+esrefogullari      2→5   TDV esrefogullari (daha detaylı okundu), son olay tam güne (1326-10-09) çıkarıldı
+banjar-sultanligi  2→4   ANRI arşivi + hakemli dergi (TAWARIKH, Ahyat 2012)
+gova-makassar      2→3   hakemli dergi (Cogent Arts & Humanities 2026) — mevcut 1667 son
+                          olayı aynı kaynakla BİREBİR doğrulandı, ayrıntı zenginleştirildi
+```
+(Not: bir ajan API hatasıyla yarıda kesildi — esrefogullari/ahiler/kilikya-ermeni/
+banjar/gova için AYNI 5 kalemle sıfırdan yeniden başlatıldı, veri kaybı olmadı.)
+
+🔴 **AKSAKLIK 3, BEKLETMEDEN BİLDİRİLİYOR — `ahiler` t: erken kapanıyor olabilir:**
+Hacettepe Üniversitesi akademik makalesi (Celal Metin), 1354'ün yalnız GEÇİCİ bir
+Osmanlı fethi olduğunu, şehrin kısa sürede yeniden Ahilerin eline geçtiğini ve
+gerçek sonun I. Murad'ın ikinci fethiyle (~1360) geldiğini gösteriyor. Mevcut
+t:1354 6 yıl erken kapanıyor olabilir. **t: DEĞİŞTİRİLMEDİ**, yeni olaylarla
+(1330 İbn Battûta, 1341 Eretna tâbiliği) bağlam zenginleştirildi, karar
+koordinatörün/veri sahibinin.
+
+**Küçük bulgu — `palembang-sultanligi`:** akademik araştırma, "sultanlık" unvanı
+ve ilk Sultan Abdurrahman'ın tahta çıkışının da 1659'da (mevcut "Hollanda
+işgali" olayıyla AYNI YIL/OLAY) ilan edildiğini gösteriyor. Mevcut 1659 olayının
+metni bunu da içerecek şekilde genişletildi (tarih değişmedi, yalnız açıklama).
+
+**Toplam: 108 → 55 (53 künye düzeltildi/doğrulandı, hedef ≤40'a 15 kaldı).**
+
+**Sırada:** kalan 55 künyeden nokta sayısına göre beşinci 15'lik parti.
 KUTU DENETİM kapandı, künye kalemi gelmeyecek — kesintisiz devam.
