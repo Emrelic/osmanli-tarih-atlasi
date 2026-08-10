@@ -2328,26 +2328,61 @@ function padisahGuncelle(t) {
 }
 
 // ---------- Olay akışı (ana + ek liste birleşik, gün sıralı) ----------
+// ARAYÜZ AYNI GÜN (10 Ağustos) — elle tutulan concat zinciri `OLAYLAR_EK15`'te
+// duruyordu, `OLAYLAR_EK16` (58 madde) HİÇ concat edilmiyordu; index.html onu
+// yüklüyordu ama app.js hiç okumuyordu (`denetle.py` glob ile okuduğu için
+// "kapalı" sanıyordu — İÇERİK oturumunun bağımsız ölçtüğü "1219 - 1161 = 58"
+// açığı BİREBİR buydu). ⇒ `CLAUDE.md §5`nin yerleşim tarafında zaten öğrendiği
+// ders ("hangi dosya canlı, TEK doğru kaynak GIRDI_DOSYALARI, elle liste
+// bayatlıyor") kronoloji tarafına da uygulandı: zincir artık ELLE DEĞİL,
+// window'da tanımlı HER `OLAYLAR`/`OLAYLAR_EK<n>` anahtarını kendisi bulur.
+// EK17 vb. bir sonraki dosya bağlandığında BU SATIRA dokunmaya gerek YOK.
+// Sıralama: dizinin son adımı zaten `.gi`ye göre TAM SIRALAMA yapıyor (aşağıda
+// `.sort`), yani anahtarların toplama SIRASI yalnız AYNI GÜNE denk gelen
+// maddeler arasında hangisinin önce göründüğünü etkiler — o yüzden alfabetik
+// değil, eski elle-zincirle AYNI doğal sırayı (OLAYLAR, EK, EK2…EK16) veren
+// bir karşılaştırıcı kullanıldı; davranış bugünkünden FARKLI DEĞİL, yalnız
+// kalıcı hâle geldi.
+function olaylarAnahtarSiraNo(k) {
+  if (k === "OLAYLAR") return 0;
+  var m = k.match(/^OLAYLAR_EK(\d*)$/);
+  return m ? (m[1] ? +m[1] : 1) : 999;
+}
 var akisModu = null;   // aşağıda zaman kontrolü bölümünde atanır
 var olayListe = document.getElementById("olay-listesi");
-var olaylar = (window.OLAYLAR || []).concat(window.OLAYLAR_EK || [])
-                                    .concat(window.OLAYLAR_EK2 || [])
-                                    .concat(window.OLAYLAR_EK3 || [])
-                                    .concat(window.OLAYLAR_EK4 || [])
-                                    .concat(window.OLAYLAR_EK5 || [])
-                                    .concat(window.OLAYLAR_EK6 || [])
-                                    .concat(window.OLAYLAR_EK7 || [])
-                                    .concat(window.OLAYLAR_EK8 || [])
-                                    .concat(window.OLAYLAR_EK9 || [])
-                                    .concat(window.OLAYLAR_EK10 || [])
-                                    .concat(window.OLAYLAR_EK11 || [])
-                                    .concat(window.OLAYLAR_EK12 || [])
-                                    .concat(window.OLAYLAR_EK13 || [])
-                                    .concat(window.OLAYLAR_EK14 || [])
-                                    .concat(window.OLAYLAR_EK15 || []).map(function (o) {
+var olaylar = Object.keys(window)
+  .filter(function (k) { return /^OLAYLAR(_EK\d*)?$/.test(k); })
+  .sort(function (a, b) { return olaylarAnahtarSiraNo(a) - olaylarAnahtarSiraNo(b); })
+  .reduce(function (acc, k) { return acc.concat(window[k] || []); }, [])
+  .map(function (o) {
   var kaba = gunIdx(o.t);
   return Object.assign({ gi: o.t.split("-").length > 2 ? kaba : gunMetniIdx(o.gun, kaba) }, o);
 }).sort(function (a, b) { return a.gi - b.gi; });
+
+// ARAYÜZ AYNI GÜN (10 Ağustos) — "aynı gün iki madde" ile "mükerrer madde"
+// kullanıcı için AYNI GÖRÜNÜYOR (`DOCX-TEMA-ESLEME.md ⑤`, Patrona vakası:
+// Emre "birini kaldır" dedi, oysa iki ayrı olaydı). Emre'nin kendi çözümü:
+// "1-2-3 diye numaralandıralım" (parti-0005/H-0006). `olaylar` zaten `.gi`ye
+// göre TAM SIRALI (yukarıda) ve JS'in `.sort()`ı KARARLI (stable) olduğu
+// için aynı `gi`ye sahip maddeler dizide ARDIŞIK durur — tek geçişte
+// gruplanabilir. Yalnız 2+ maddeli günlere `_agGrup`/`_agSira` iliştiriliyor;
+// tek maddeli 1118 gün DOKUNULMAZ (liste rozeti hiç çıkmaz, K1).
+(function ayniGunGruplaKur() {
+  var i = 0;
+  while (i < olaylar.length) {
+    var j = i;
+    while (j + 1 < olaylar.length && olaylar[j + 1].gi === olaylar[i].gi) j++;
+    if (j > i) {
+      var grup = olaylar.slice(i, j + 1);
+      for (var k = i; k <= j; k++) { olaylar[k]._agGrup = grup; olaylar[k]._agSira = k - i + 1; }
+    }
+    i = j + 1;
+  }
+})();
+// ①②③… — grup en çok gördüğümüz büyüklükte (bugün 4) yeterli, üstüne "n."
+// düşer; daire karakteri Emre'nin "1-2-3" isteğinin görsel karşılığı.
+var AG_DAIRE = ["①", "②", "③", "④", "⑤", "⑥", "⑦", "⑧", "⑨", "⑩"];
+function agDaireSayi(n) { return AG_DAIRE[n - 1] || (n + "."); }
 
 // DUYGU-VE-SEKME-SARTNAME.md §A — "okuyanın tepkisi", TDV'ye BASMAZ. `title`
 // ve ekran-okuyucu metni bunu açıkça söylüyor, "tarihin hükmü" değil (§A②④).
@@ -2393,7 +2428,13 @@ var olayDom = [];
 olaylar.forEach(function (o, i) {
   var div = document.createElement("div");
   div.className = "olay k-" + o.k;
-  div.innerHTML = '<div class="o-tarih">' + olayTarihYazi(o) + '</div>' +
+  // K1 (§ARAYUZ-AYNI-GUN.md) — rozet YALNIZ 2+ maddeli günde çıkar; "1/1"
+  // göstermek gürültüdür ve kusuru olmayan yere işaret koyardı.
+  var agRozetHtml = o._agGrup
+    ? '<span class="o-ayni-gun-rozet" title="Bu günde ' + o._agGrup.length + ' olay var">' +
+      agDaireSayi(o._agSira) + '</span>'
+    : '';
+  div.innerHTML = '<div class="o-tarih">' + agRozetHtml + olayTarihYazi(o) + '</div>' +
                   '<div class="o-baslik"></div>';
   div.lastChild.textContent = o.b;
   var duyguSpan = duyguSpanUret(o);
@@ -3399,9 +3440,47 @@ function kartvizitGuncelle(o) {
   }
 }
 
+// K3 (§ARAYUZ-AYNI-GUN.md) — şeridin metni SAYIYI ÖNCE söyler: kullanıcının
+// öğrenmesi gereken şey "kaç tane olduğu", "kaçıncısı" ikincil.
+// K2 — pil tıklaması tarihAyarla+obGoster+haritayiOlayaGotur ÜÇÜNÜ birlikte
+// çağırır; biri atlanırsa panel değişir harita değişmez — ki tam olarak
+// düzelttiğimiz kusurun (p5/H-0006, ⏮/⏭'nin eski SAF TARİH karşılaştırması)
+// bir başka biçimi olurdu.
+function ayniGunSeridiGuncelle(o) {
+  var kutu = document.getElementById("ob-ayni-gun");
+  if (!kutu) return;
+  kutu.innerHTML = "";
+  if (!o._agGrup) return;                 // tek maddeli gün — şerit HİÇ çıkmaz
+  var metin = document.createElement("span");
+  metin.textContent = "Bu günde " + o._agGrup.length + " olay var — " + o._agSira + "/" + o._agGrup.length;
+  kutu.appendChild(metin);
+  var piller = document.createElement("span");
+  piller.className = "ob-ayni-gun-piller";
+  o._agGrup.forEach(function (kardes, idx) {
+    var pil = document.createElement("button");
+    pil.type = "button";
+    var buAktif = kardes === o;
+    pil.className = "ob-ayni-gun-pil" + (buAktif ? " etkin" : "");
+    pil.textContent = agDaireSayi(idx + 1);
+    pil.title = kardes.b;
+    pil.disabled = buAktif;
+    pil.setAttribute("aria-label", (idx + 1) + ". olay: " + kardes.b);
+    pil.addEventListener("click", function () {
+      var idxOlay = olaylar.indexOf(kardes);
+      if (idxOlay >= 0) suankiOlayI = idxOlay;   // ⏮/⏭ kardeşten devam etsin
+      tarihAyarla(kardes.gi);
+      obGoster(kardes);
+      haritayiOlayaGotur(kardes);
+    });
+    piller.appendChild(pil);
+  });
+  kutu.appendChild(piller);
+}
+
 function obGoster(o) {
   document.getElementById("ob-tarih").textContent = o.gun || idxYazi(o.gi);
   document.getElementById("ob-baslik").textContent = o.b;
+  ayniGunSeridiGuncelle(o);
 
   var meta = document.getElementById("ob-meta");
   meta.innerHTML = "";
