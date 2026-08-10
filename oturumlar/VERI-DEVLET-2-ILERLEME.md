@@ -374,5 +374,34 @@ bugis-kralliklari 1→4  (aynı)
 SONRA tekrar koşulmalı — "yazacağım" ile "yazdım" arasındaki fark burada
 üç künye için 4 saat gizli kaldı.
 
-**Sırada:** kalan 52 künyeden nokta sayısına göre beşinci 15'lik parti.
-KUTU DENETİM kapandı, künye kalemi gelmeyecek — kesintisiz devam.
+**BEŞİNCİ 15'LİK PARTİ TAMAMLANDI (2026-08-10): 52 → 38. 🎯 HEDEF ≤40 ULAŞILDI.**
+```
+berar               2→4   TDV imadsahiler — 🔴 DÜZELTME: kurucu "Fethullah"→"Deryâ Han",
+                          f: 1490→1484 (TDV net veriyor, önceki ad/tarih dayanaksızdı)
+bahavelpur          2→5   TDV bahavelpur (zaten zengin madde)
+bhopal              1→4   TDV bopal--devlet (bir önceki WebFetch'in uydurduğu
+                          "1818 antlaşması" ELENDİ, tam metinde öyle bir tarih yok)
+cunagadh            1→2   TDV 9 farklı yazımla da YOK (taneciklik boşluğu doğrulandı);
+                          tek olay eklendi ama kaynağı ORTA GÜVEN (NLS arşiv güncesi,
+                          hakemli makayla tam doğrulanamadı) — açıkça işaretli
+magindanao-sultanligi 2→5 🔴 DÜZELTME: kaynak "bulunamadı"→TDV filipinler
+                          ('III. Ülkede İslâmiyet' bölümü) — morolar canlı ama boş
+                          gövde tuzağıydı, gerçek zengin kaynak başka yerdeymiş
+surakarta 1→3 · yogyakarta 1→4   Peter Carey 2007 (KITLV/Brill) + Ricklefs + Javanologi UNS
+tidore-sultanligi 2→4  Andaya 1993 + Widjojo 2009 (Brill)
+banda-adalari 2→4      Villiers 1981 (hakemli, Modern Asian Studies) + Furber 1976
+luksemburg 2→4         Nohlen&Stöver 2010 + Tucker vd. 1999 (akademik referans kitapları)
+manipur 2→5 · ladak 2→4 · yafna 2→4   MDPI Religions (hakemli) · Petech 1977 ·
+                          de Silva/Indrapala (standart Sri Lanka tarihi)
+bharatpur-cat 2→4      Britannica 'Suraj Mal' + askerî tarih (1805 Bharatpur kuşatması)
+kuba 2→4               Oxford Research Encyclopedia + Jan Vansina 2010 (Wisconsin UP)
+```
+(Not: bir ajan yine API hatasıyla kesilmedi bu turda — üçü de tek seferde tamamlandı.)
+
+**Toplam: 108 → 38 (70 künye düzeltildi/doğrulandı). HEDEF (≤40) AŞILDI.**
+Kalan 38'in çoğu 0-1 nokta (harita üzerinde neredeyse hiç görünmeyen kimlikler)
+ve/veya zaten flagged (nebhani·dacu·usfuri·cammu-kesmir·cunagadh). Devam
+edilecekse FAYDA÷EMEK oranı düşük bölgeye giriliyor — karar koordinatörün.
+
+**Sırada:** koordinatörün onayı bekleniyor — devam mı, yoksa bu iş burada mı
+kapansın. KUTU DENETİM kapandı, künye kalemi gelmeyecek.
