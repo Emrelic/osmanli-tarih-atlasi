@@ -1,101 +1,73 @@
 # BEKLEYENLER — Tarih Atlası · Emre'den ne bekleniyor
 
-> Koordinatör: Oturum 0 · son tazeleme **9 Ağustos 2026, gün sonu**
+> Koordinatör: Oturum 0 · son tazeleme **10 Ağustos 2026, 13:05**
 
 ---
 
-# 🟢 BUGÜN KAPANDI — YAYIN r1105 CANLIDA
+## 🔴 GÖRSEL DOĞRULAMA — üç ekran görüntüsü, üçü de takılı
 
-```
-YAYIN            r1079 → r1105     A1 yarıçap tavanı haritada
-tavan            305 petek bağlandı (%13,2) · kara alanının %23,0'ü kesildi
-yabancı alan     -%10,1 … -%17,5   tavan gerçekten çöl siliyor
-Osmanlı çekirdeği ±%0,1            1300·1400·1453·1500 — DOKUNULMADI
-denetim          denetle.py temiz · denetle_yayin temiz · renk 0 çakışma
-kutu             18 iplik cevaplandı · işlenmemiş paket 2 → 0
-tespih           6 boncuk sayıldı (hepsi ölçümle)
-```
+KUTU DENETİM 71 maddenin 71'ini ölçtü ve **üçünde tahmin etmeyi reddetti.**
+Doğru davranış — ama üçü de sende takılı kaldı.
 
-Senin *"bir yerleşim uçsuz bucaksız çöle kaç kilometre hâkim olabilir"*
-sorunun cevabı motora indi: `k1:700 · k2:420 · k3:280 · k4:140 km`,
-ölçülerek kalibre edildi.
-
----
-
-## 🟡 SENDEN BEKLENEN — dört şey
-
-### ① Üç üreteç önerisi — onay ya da red *(red için sebep ZORUNLU)*
-
-Tören kuralı gereği listeye bakmadan soruldu: *"atlas bittiğinde ne
-yapabiliyor olacak, bugün o cümleye hizmet etmeyen ne var?"* Üç şey çıktı.
-**Onaysız hiçbiri kuyruğa girmez.**
-
-| # | öneri | niçin |
+| # | madde | ne lazım |
 |---|---|---|
-| **T-0103** | Atlas kendi **belirsizliğini** hesaplıyor ama çizmiyor | `kasitli_bosluk` · `devletsiz` vs `veri-yok` · `kesinlik:"belge"` · yuvarlak tarih · motorun ölçtüğü *"belirsizlik km — medyan 104,8"* — hepsi **var**, harita hepsini **aynı keskinlikte** boyuyor. Öğretim aracının en kötü yanılgısı: bilmediğini bildiği gibi göstermek. Veri hazır, eksik olan yalnız görselleştirme |
-| **T-0104** | Haritaya **tıklayıp soru soramıyoruz** | Akış tek yönlü: kronoloji → harita. Van'a tıklayıp *"1514'te burası kimindi"* diye soramıyorsun. Oysa `CLAUDE.md` *"birbirini doğrulayan"* diyor — yani **iki yönlü** |
-| **T-0105** | Hata bildiren tek insan **sensin** | 18 parti hatayı gözle sen buldun; denetimler hiçbirini yakalamadı (veri tutarlılığını sorarlar, tarihî doğruluğu soramazlar). Yayın açık — en iyi hata bulucular zaten sayfaya bakıyor ama kanalları yok |
+| 1 | `parti-0002/H-0014` | Saroz'un kuzeyini gösteren kareyi **alt künye çubuğu görünecek** şekilde yeniden al — iki görsel de aynı ve kırpık, tarih okunmuyor |
+| 2 | `parti-0004/H-0014` | Şikâyetin üstteki **"Katılım: Sin (Sinj)"** şeridi miydi, yoksa kronoloji listesindeki **tarih biçimi** karışıklığı mı? |
+| 3 | `parti-0006/H-0009` | Metin yazmamışsın — o karede **neyi işaretlemek** istemiştin? |
 
-```bash
-py C:/Users/emrem/OneDrive/Desktop/ClaudEmre/kutu/tespih.py --onayla T-0103
-py C:/Users/emrem/OneDrive/Desktop/ClaudEmre/kutu/tespih.py --reddet T-0103 --neden "..."
-```
-
-### ② PROJEKSİYON — küre/düz haritayı yayına alalım mı?
-
-Kod **hazır** ve `projeksiyon` dalında bekliyor (MapLibre v5 + hibrit).
-Yapmadım çünkü **canlı sayfayı değiştirir** ve senin işin.
-
-⚠️ Ve bir ölçüm eksiği var, saklamıyorum: eşik sayıları
-(`kureZoom 4 / mercatorZoom 6`) **TAHMİN**, ölçülmedi. Ayrıca dal `main`den
-geride — birleştirirken **damgayı main'den, MapLibre sürümünü daldan** almak
-gerekiyor.
-
-**"Başla" dersen:** önce görsel sınav + eşik ölçümü, sonra birleştirme, sonra
-yayın.
-
-### ③ `oturumlar/durum/` — hangi oturumlar gerçekten kapalı?
-
-Beş dosya hâlâ *"calisiyor"* diyor ama en yeni damga **6 Ağustos**:
-`ARAYUZ 5 · CAPRAZ AKDENİZ · KOORDİNATÖR · PETEK_NOKTA · RENK 2`.
-
-**Tahmin etmedim** — 7 Ağustos'ta koordinatör tam böyle bir tahminle RENK 2'yi
-ölü ilan etmek üzereydi ve oturum çalışıyordu. Yanlış bir *"kapandı"*
-damgası, bayat bir *"çalışıyor"*dan kötüdür. Hangileri kapalı, söyle,
-temizleyeyim.
-
-### ④ Halka tablosu — son bir göz *(dünden devam)*
-`ONCELIK.md`de duruyor; Fas 4 · Hindistan 5 senin kararınla.
+> 📌 İkincisinde ipucu var: Sinj `d:1513-01-01`, ekran `1513-04-01` — "Katılım"
+> şeridi **üç ay** durup alâkasız bir maddenin üstüne düşüyor. Hangisi olursa
+> olsun orada gerçek bir kusur var.
 
 ---
 
-## YARIN İLK İŞ
+## 🟡 KARAR BEKLEYENLER — dört karar, dünden devam
 
-**`serbedariler` 19 nokta takası — önündeki engel İRAN FETRETİ.**
-
-```
-veride serbedari adayı dönem   f:1335-12-01 → t:1381-01-01  (19 nokta)
-künye (TDV, tam gün)           f:1337-09-09
-⇒ arada 21 AY sahipsiz kalır — Değişmez 1b'nin menzilinde
-```
-
-Ve asıl bulgu: `1335-12-01` **hiçbir ardılın gerçek başlangıcı değil** —
-Ebû Saîd o gün öldü, İlhanlı bitti, ama ardılların hiçbiri o gün başlamıyor
-(serbedari 1337 · celayirli 1340 · muzafferi 1318 · kert 1245). **1335-1340
-arası İran'da bir fetret var ve veri onu ifade etmiyor.** Osmanlı fetreti
-(1402-1413) ayrı künyelerle çözülmüştü; İran'ınki çözülmemiş.
-
-⇒ Yarın: İran fetretini modelle, sonra takası yap. Peşinden kalan ~43
-`iran` dönemi (segment bölünmesi gerekiyor).
+| # | karar | durum |
+|---|---|---|
+| 1 | **T-0103** atlas kendi belirsizliğini çizsin mi | onay ya da **sebepli** red · veri hazır, eksik olan görselleştirme |
+| 2 | **T-0104** haritaya tıklayıp soru sorulabilsin mi | akış şu an tek yönlü: kronoloji → harita |
+| 3 | **T-0105** okuyucuya hata bildirme kanalı | hata bulan tek insan sensin; 18 parti hepsi senden |
+| 4 | **PROJEKSİYON** küre/düz yayına alınsın mı | kod hazır (`projeksiyon` dalı) · **canlı sayfayı değiştirir** · eşikler TAHMİN, ölçülmedi |
+| 5 | **`durum/` dosyaları** hangi oturum kapalı | beş dosya "calisiyor" diyor, en yeni damga 6 Ağustos · tahmin etmedim |
+| 6 | **Depo** `.git` 622 MB / 1 GB | neredeyse tamamı ölü çıktı sürümü (49 × `donemler.js`) · ayrı dala alırsak ~50 MB · ölçüp planlayayım mı? |
 
 ---
 
-## ŞU AN NE BEKLİYOR
+## 🟢 BUGÜNÜN HASADI
+
+| iş | ölçüm |
+|---|---|
+| İran fetreti köprüsü | 26 nokta hayaletten çıktı · `2s` **121 → 120** açık |
+| `kisiBul` canlı kusuru | *"Kemal Reis"* → Nâmık Kemal açıyordu · **22 yanlış eşleşme düştü**, Tomanbay korundu |
+| KUTU DENETİM | **71/71** ölçüldü · 6 önceki hüküm çürüdü · **8 şikâyet zaten kapanmış** çıktı |
+| künye kronolojisi | ince künye **108 → 94** (VERİ DEVLET 2) |
+| `devletler.js` | 390 → **392** (`gilan-kiya` · `mazenderan-marasi` + iki renk) |
+| `CLAUDE.md §3.5.1` | bayat satır damgalandı — **işçi oturum çürüttü**, koordinatör ölçtü |
+
+---
+
+## SIRADAKİ DALGA — koşu 7 yayınlandıktan sonra
+
+| iş | kim / ne zaman |
+|---|---|
+| İlhanlı üçlüsü (Konya·Aksaray·Niğde) — 13 yıllık hayalet | koordinatör |
+| Erzincan `1473-08-11` — Otlukbeli **savaş** günü fetih günü yazılmış, 42 yıl | koordinatör |
+| Bağdat dörde bölünmesi — Timur'un iki işgali: madde VAR, kırılma YOK | koordinatör |
+| `denetle_iddia.py` — ateşleme takımı **HAZIR** (4 vaka, `C13`in iki yönü de kapalı) | koordinatör |
+| İÇERİK partisi — **16 kart**, sahibi kapalı | yeni oturum |
+| KAYNAK PLANLAMACISI — şartname hazır | **Perşembe**, limit tazeyken |
+
+---
+
+## ŞU AN NE KOŞUYOR
 
 ```
-⏳ T-0059   GD Asya noktaları — 128'de kapatıldı, hedef 480'di
-⏳ T-0087   Palu · Kendari kimlikleri — 3/5 yazıldı, ikisi açık
-🔵 KALİTE 4 sırası: Hazar kıyısı → Kirman/Yezd → Avrupa Rusyası → Avusturya
-🔵 RENK 2   `devirler.js` bayatlık denetimi
-⚪ T-0032   BATTANİYE AD KARARI — sende, karar gelmeden hiçbir şey yazılmıyor
+⏳ KOŞU 7         çöl tavanında · bitince YAYIN (damga r1119 hazır)
+⏳ VERİ DEVLET 2  künye kronolojileri, sonraki 15'lik parti
+✅ KUTU DENETİM   kapandı, 71/71 teslim
 ```
+
+> ⚠️ **Haftalık limit %59 · Perşembe 00:00 reset.** Bu yüzden bugün **6
+> şartname** yazıldı ama yalnız **2 oturum** açıldı, biri de kapandı.
+> *Şartname ucuz, bekleyen oturum pahalı.*
