@@ -405,3 +405,37 @@ edilecekse FAYDA÷EMEK oranı düşük bölgeye giriliyor — karar koordinatör
 
 **Sırada:** koordinatörün onayı bekleniyor — devam mı, yoksa bu iş burada mı
 kapansın. KUTU DENETİM kapandı, künye kalemi gelmeyecek.
+
+---
+
+## 🔒 KAPANIŞ (2026-08-10) — KOORDİNATÖR KARARI: DUR, İŞ BİTTİ
+
+Koordinatör 38'i bağımsız ölçüp doğruladı (`bb3f0e5`, push'lu) ve **devam
+etmemi durdurdu**: kalan 38'in 19'u dış halka bölgelerinde (arabistan·
+doğu-afrika·güneydoğu-asya·güney-asya) ve `ONCELIK.md`nin dış halka hedefi
+zaten %80 — %95 değil. **Kalan 38 borç değil, kabul edilmiş bir kademe.**
+
+**Yan bulgu (koordinatörün kendi ölçümü):** `kaynak:` alanında "bulunamadı"
+geçen 151/392 künyenin (%38,5) **151'inin de gerekçeli** olduğu doğrulandı —
+ödenmiş bir hesap, yeni iş değil. Bu ölçüm bu dosyanın var olması sayesinde
+yapılabildi (aksi hâlde koordinatör bunu "yeni iş" sanıp yanlış yöne
+gidecekti).
+
+**Kapanmadan önce dört soruya cevap verdim** (§7.1⑦ gereği):
+① yazılmamış sayı yok ② tutmayan sluglar hepsi kaydedildi ③ "benim işim
+değildi" dediğim iki kalem zaten devredildi (Gilân/Mâzenderan köprüsü,
+Zerenc→Kert) ④ **iki açık karar bekliyor** — `usfuri` (Cervânîler/Usfûrîler
+isim çelişkisi, nebhani'nin ikizi) ve `hanthawaddy` (1539-1740 yapısal
+boşluk) — ikisi de veriye YAZILI ama resmî bir (a)/(b)/(c) kararı almadı,
+bir sonraki oturumun "karar bekliyor" listesine eklenmeli. Ayrıca bazı
+ajan kaynaklarının tam DOI/URL'leri `kaynak:` alanında "yazar+yıl"a
+kısaltıldı — tam link dosyada yok, ileride yeniden doğrulama gerekirse not.
+
+## SON DURUM
+- `data/devletler.js`: 392 künye, 70'i bu oturumda zenginleştirildi/düzeltildi
+- Yeni künye: `gilan-kiya`, `mazenderan-marasi` (renk koordinatörde bekliyor)
+- Taslak, yazılmamış: `toga-timur` (ilhanlı köprüsü tercih edildi, yukarıda)
+- Bu dosyaya HİÇ commit atılmadı benim tarafımdan hariç kendi ilerleme
+  dosyam (pathspec'li, §7 istisnası) — `devletler.js` commit'i koordinatörde.
+
+**OTURUM KAPANIYOR.**
