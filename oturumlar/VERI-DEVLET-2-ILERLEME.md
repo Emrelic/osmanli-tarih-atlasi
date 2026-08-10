@@ -351,5 +351,20 @@ metni bunu da içerecek şekilde genişletildi (tarih değişmedi, yalnız açı
 
 **Toplam: 108 → 55 (53 künye düzeltildi/doğrulandı, hedef ≤40'a 15 kaldı).**
 
-**Sırada:** kalan 55 künyeden nokta sayısına göre beşinci 15'lik parti.
+🔴 **KENDİ HATAM, KENDİM YAKALADIM:** dördüncü parti raporunda `seylan-sinhala`,
+`sunda-pajajaran`, `bugis-kralliklari` "düzeltildi" diye yazılmıştı ama ajan
+sonucunu ALDIKTAN SONRA devletler.js'e YAZMAYI UNUTMUŞUM — üç künye hâlâ 1
+olayda duruyordu, sayı yanlış rapor edilmişti. Bir sonraki partiye geçmeden
+`node -e` ile kontrol edince fark edildi, hemen düzeltildi:
+```
+seylan-sinhala   1→4   (zaten sahip olduğum agent verisiyle, gecikmeli yazıldı)
+sunda-pajajaran  1→3   (aynı)
+bugis-kralliklari 1→4  (aynı)
+```
+**Gerçek toplam: 108 → 52** (55 değil — önceki rapor 3 fazla gösteriyordu).
+📌 Ders: her partiden sonra `node -e` sayımı YAZMADAN ÖNCE değil, YAZDIKTAN
+SONRA tekrar koşulmalı — "yazacağım" ile "yazdım" arasındaki fark burada
+üç künye için 4 saat gizli kaldı.
+
+**Sırada:** kalan 52 künyeden nokta sayısına göre beşinci 15'lik parti.
 KUTU DENETİM kapandı, künye kalemi gelmeyecek — kesintisiz devam.
