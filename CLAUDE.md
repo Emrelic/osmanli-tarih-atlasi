@@ -302,8 +302,32 @@ Gyula               noktasız → komşusu tâbi     → Osmanlı EKSİK görün
 📌 Ve ikisinde de **kusur veride değil**: kayıtlar doğru, motor doğru, `§2`
 emilme kuralı doğru çalışıyor. **Kusur NOKTASIZLIKTA** — `§2`'nin *"bir
 'harita yanlış' raporu geldiğinde ilk sorulacak soru budur"* dediği vaka.
-Koordinatör doğruladı: `48,0-49,6°K / 18,8-22,6°D` kutusunda **sıfır nokta**;
-Kassa · Tokaj · Eperjes · Sopron · Gyula'nın **hiçbirinin kaydı yok.**
+~~Koordinatör doğruladı: `48,0-49,6°K / 18,8-22,6°D` kutusunda **sıfır nokta**;
+Kassa · Tokaj · Eperjes · Sopron · Gyula'nın **hiçbirinin kaydı yok.**~~
+
+> 🟢 **BU İKİ SATIR ARTIK YANLIŞ — BORÇ KAPANDI (10 Ağustos 2026).**
+> Bir işçi oturum (KUTU DENETİM) belgeyi çürüttü, koordinatör **doğruladı**:
+> ```
+> Kassa (Košice)   48,71 · 21,26      Sopron   47,71 · 16,60
+> Eperjes (Prešov) 49,00 · 21,24      Gyula    46,63 · 21,29
+> Tokaj            48,12 · 21,41
+> aynı kutuda artık 3 nokta — belge "SIFIR" diyordu
+> ```
+> ⚠️ **Ve zararı ölçülebilir cinstendi:** bu paragraf bir *"yapılacak iş"* gibi
+> duruyordu. Bugün bir oturum onu okuyup Yukarı Macaristan'a nokta yazmaya
+> kalksaydı **beş mükerrer nokta** üretecekti — `§11`in *"yakın mükerrer
+> yerleşim"* tuzağı, üstelik **belgenin kendi daveti üzerine.**
+>
+> 📌 **`§1.5` bayatlama ailesinin ÜÇÜNCÜ yüzü.** Orada bayatlayan bir TABLO'ydu
+> ve çare onu elle yazılmaktan çıkarmaktı. Burada bayatlayan bir **ANLATI**:
+> dersin kendisi (*noktasızlık İKİ YÖNE de hata üretir*) hâlâ **doğru** ve
+> değerli — bayatlayan yalnız **vakanın bugünkü durumu.**
+> ⇒ Ders SİLİNMEDİ, vakanın durumu DAMGALANDI. Bir vakayı silmek dersi de
+> siler; damgalamak dersi korur.
+>
+> 🔴 Ve bunu bulan şey bir denetim betiği değil, **başka bir bağlamdan bakan
+> bir oturumdu** — `§7`nin ÇAPRAZ gerekçesinin canlı kanıtı: *koordinatörün
+> hatalarını ÇAPRAZ yakalıyor, denetim betiği yakalamıyor.*
 
 ⚠️ Ve aynı sınıfın bugün ölçülen öteki vakaları: **Dalmaçya anakarası** (0
 nokta, Karlofça'nın yedi kalesi yok) · **Girit'in üç kalesi** (Suda ·
