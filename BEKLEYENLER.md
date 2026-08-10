@@ -155,6 +155,34 @@ kronoloji sayacından kat kat kesin. ⚠️ **Kaç görselde var, ölçülmedi.*
 ### 🔴 YENİ GERÇEK EKSİK
 `h6#8` **Saint Gothard Muharebesi (1664)** — kronolojide **0 madde.**
 
+### 🔴🔴 `K17` — BOŞLUĞUN CİNSİ · **ve ölçüm bir ders borcunu ortaya çıkardı**
+
+> `h17#7`: *"**Tüm bunun gibi boş alanların taranarak teyit edilmesi
+> gerekmektedir.** Ya en yakın devlete eklenmeli, ya orada başka bir devlet
+> kolonisi veya müstakil bir siyasî yapı var ise bu etiketlenip boyanmalı."*
+
+İÇERİK'in okuması **isabetli**: Emre *"boşluk olmasın"* demiyor —
+***"boşluğun cinsi ekranda belli olsun"*** diyor. Harita bugün **"kimsenin
+değil"** ile **"veri yok"**u aynı gösteriyor.
+
+🔴 **VE ÖLÇÜM DAHA KÖTÜSÜNÜ SÖYLEDİ — ayrım VERİDE DE YOK:**
+```
+kasitli_bosluk taşıyan nokta: 138
+cinsi yazılı olan:              0        (138'inin 138'i düz `true`)
+```
+⚠️ Oysa `CLAUDE.md §11` bu ayrımı **yazılı olarak öğretiyor** (NOKTA SİBİRYA,
+8 Ağustos): *"Sınav: kaynağa sor. **Konuşuyorsa `devletsiz`, susuyorsa
+`veri-yok`.**"* Ve orada şu da yazıyor: *"ikisi de `kasitli_bosluk` olarak
+yazılsa haritada aynı görünürdü — fark yalnız bir sonraki oturum için vardır."*
+
+⇒ ***Ders yazıldı, alan açılmadı.*** Yeni bir kusur sınıfı: **kaydedilmiş bir
+ders, veriye inmemiş** — ve iki gün sonra kullanıcı aynı şeyi kendi
+kelimeleriyle istedi.
+
+**İki ayaklı iş:** ① veri — 138 kaydın cinsi (`devletsiz` / `veri-yok`)
+② arayüz — iki cinsin farklı gösterimi. **Emre'nin kararı**, çünkü üçüncü bir
+şık daha söylüyor: *"en yakın devlete eklenmeli"* — o, `Değişmez 1`in tersi.
+
 ---
 
 ## 🔴🔴 DENİZAŞIRI PETEK — ON DÖRT KEZ, ALTI DOSYADA

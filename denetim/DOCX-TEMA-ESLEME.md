@@ -13,6 +13,40 @@ bugünkü değil. Dosya tarihleri sırayı verir: `h1` 29 Tem 22:14 → `h18` 1 
 
 ---
 
+## ⓪ 🔴 EMRE'NİN KENDİ KURAL CÜMLELERİ — **madde değil, ŞARTNAME METNİ**
+
+Aşağıdakiler tek bir vakadan şikâyet etmiyor; **kural koyuyor.** Bir sonraki
+oturum bunları **doğrudan kullanabilir** — yeniden formüle etmeye gerek yok.
+*(Yazım Emre'nin, aynen aktarıldı; yalnız büyük harfler korundu.)*
+
+| # | kaynak | tema | Emre'nin cümlesi |
+|---|---|---|---|
+| K1 | `h10 #29` | ② | ***"Bir yerleşimin petek bölgesi denizaşırı olamaz. Bu hatayı giderelim."*** |
+| K2 | `h1 #8` | ② | *"Petek yapısında adaların yerleşim bölgesi denizi geçip karşı kıyıya ulaşmaması gerekiyor. Bu genel hatayı bertaraf etmeli. **Bir ada bölgesi karşı kıyıya ulaşamaz, ada ile sınırlı olmalı.**"* |
+| K3 | `h12 #5` | ② | *"…Gelibolu'da kırmızı bir bölge var o olmamalı. **Petek bölgeler deniz aşırı gitmemeli.**"* |
+| K4 | `h17 #3b` | ② | ***"TÜM BUNUN GİBİ DENİZ ÖTESİ TAŞMALAR ARAŞTIRILARAK BULUNMALI VE GEREĞİ YAPILMALI, EĞER GERÇEK BİR DURUM DEĞİL İSE ÇÖZÜMLENMELİ."*** ← **toplu tarama** |
+| K5 | `h12 #10` | ④ | ***"Genel kural olarak karadan toprak genişlemelerinde ana kara ile genişleyen yerin bağlantısının olması beklenir. Eğer böyle bir durum yok ise bunun geçerli sebebinin araştırılması lazım — denizden geçiş mi yapılmış acaba diye. Neticede uçakla gidilip arada geçiş yok iken ele geçirilemez.***" |
+| K6 | `h17 #9` | ③ | ***"BU CETVELLE ÇİZİLMİŞ SINIRLARDAN NE ZAMAN KURTULACAĞIZ. EN BAŞINDAN BERİ BUNDAN ŞİKÂYET EDİYORUM. KENDİ HARİTAMIZI DAĞ NEHİR TEPE GÖL OVA ŞEKLİNDE OLUŞTURUP ŞEHİR SINIRLARINI BUNLARA YASLAYACAKTIK — O MESELE NE ZAMAN YAPILACAK?"*** |
+| K7 | `h17 #17` | ③ | *"…sınırlar **ovalara vadilere yayılan ve dağlar arasında nehirler arasında uzanan, cetvelle çizilmemiş yuvarlak hatlı sınırlardan** oluşacak, değil mi?"* |
+| K8 | `h18 #6` | ①·② | ***"SAVOY HAÇLI SEFERİ — DENİZ SEFERLERİ KARANIN ÜSTÜNDEN GEÇİP GELEMEZ. DENİZ SEFERLERİ DENİZ YOLLARINI KULLANMAK ZORUNDA. BU GÖSTERİMİ DÜZENLEYELİM VE BUNA GENEL KURAL YAZALIM.***" |
+| K9 | `h7 #6` | ① | *"Bu **kazanılan kaybedilen savaşların hepsi genel kural olarak haritada yerleri gösterilmeli.**"* |
+| K10 | `h11 #31` | ① | *"**Geri çekilmeleri ileri seferlerden ayırt edecek bir ok gösterimi** yapmalıyız… bundan sonraki her geri çekilmelerde boşaltmalarda tahliyelerde bu gösterimi kullanalım. **Genel kural olsun.**"* |
+| K11 | `h13 #1` | ⑧ | *"Genel kural olarak bir yerin fethinden bahsediliyor ise… **o yerin gösterilmesi lazım ve konu bitince o etiketin ortadan kalkması lazım.**"* |
+| K12 | `h11 #21` | ⑧ | *"Bu tarihî yerler **etkisi geçtiği zaman meselesi bittiği zaman haritadan kaldırılmalı genel kural olarak**… ama tabii ki İstanbul, Belgrad, Bükreş, Budin, Kudüs, Kahire gibi isimler sürekli kalabilir."* |
+| K13 | `h11 #20` | ⑧ | *"**Her yer ve ülke ismi etki ettiği alanın dışına çıkmamalı** şeklinde bir kural belirleyelim."* |
+| K14 | `h8 #1` | ⑥ | *"…her ülkeye verilen toprakları **kırmızı/sarı, kırmızı/yeşil, kırmızı/turuncu, kırmızı/mavi gibi taralı** şekilde… **antlaşmalarda bu yöntemi uygulayalım, bunu da genel kural yapalım.**"* |
+| K15 | `h9 #13` | ⑥ | *"**Tüm anlaşmalar için ayrı madde yapılmalı** ve bu maddenin içinde anlaşma hükümleri olmalı… **bu genel kural olmalı.**"* |
+| K16 | `h5 #3` | ⑤ | *"**Mükerrer maddeleri bul ve hatalı olanları temizle**, maddeleri bire indirmeliyiz."* → 🟢 **KARŞILANDI:** `denetle.py`nin mükerrer denetimi |
+| K17 | `h17 #7` | — | *"**Tüm bunun gibi boş alanların taranarak teyit edilmesi gerekmektedir.** Ya en yakın devlete eklenmeli, ya orada başka bir devlet kolonisi veya müstakil bir siyasî yapı var ise bu etiketlenip boyanmalı."* |
+
+🔴 **K17 hiçbir temaya girmiyor ve tek başına bir iş:** *"sahipsiz alanları tara,
+ya bir devlete bağla ya adlandır."* Bu, `Değişmez 1`in **kasıtlı boşluk**
+kümesiyle doğrudan çelişiyor (çöller kasten sahipsiz) — ama Emre'nin istediği
+şey **boşluğun cinsinin ekranda belli olması.** `OGRENILENLER §72`nin
+(*"kimsenin değildi" ifade edilemiyor*) kullanıcı tarafı.
+
+---
+
 ## ① 🟡 OK İLE GÖSTERİM — **18 vaka** · ARAYÜZ · tek karar
 
 | # | vaka | ne isteniyor |
