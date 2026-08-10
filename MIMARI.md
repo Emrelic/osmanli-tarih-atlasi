@@ -60,6 +60,49 @@ hiç görünmedi.
 
 ---
 
+## 2.9 🔴 AŞAMALAR ARASI SÖZLEŞME YOK — ölçülmüş, iki vakası var
+
+> **Her aşama kendi çözünürlüğünde doğru; aralarında sözleşme yok.**
+> Bu bir hata değil bir **yapı zayıflığı**, ve hiçbir denetimin sorusu değil:
+> denetimler her aşamanın çıktısına bakar, **aşamaların birbirini iptal edip
+> etmediğine** bakmaz.
+
+**VAKA 1 — A1 yarıçap tavanı ↔ yetim yüz** *(9 Ağustos 2026, koşu 4b)*
+Tavan doğru hesapladı, 3.397.649 km² serbest bıraktı; **yetim yüz mantığı onu
+sahipli komşulara geri verdi.** Tavanın önlemek için var olduğu şeyi (`§2`
+emilme) sonraki aşama yeniden yaptı. Yayın durduruldu, kaçak kapatıldı.
+
+**VAKA 2 — `ADA KURALI` ↔ `KARA-KISITLI SAHİPLİK`** *(10 Ağustos 2026, MOTOR DENİZAŞIRI)*
+```
+uret_petek.py:997   ADA KURALI     gerçek maske bileşeni · 2,5 km boğazı GÖRÜR   → keser
+uret_petek.py:1085  KARA-KISITLI   KV_ADIM = 0,05° ≈ 5,5 km ızgara · GÖREMEZ     → geri verir
+   Pag (Pago)  ızgarada anakaraya %83,9 bağlı     Vardø  %100 bağlı
+```
+⇒ Ada kuralı keser, Dijkstra geri verir. **Bedeli: 12.108 km², iki kayıt.**
+
+### Çare ölçüldü — **ve güvenli çıktı**
+`(ii)` *Dijkstra'yı gerçek maske bileşenine kısıtla.* Koordinatörün endişesi
+(*"Tromsø bir ada, `:1111` kabul testi düşer"*) **ölçüldü ve çürüdü:**
+```
+Oslo · Königsberg · Azak · Tromsø · Bergen · Ålesund   →  6/6 · 0 km² kayıp
+NOKTALI bileşende kayıp   12.108 km² · 2 kayıt (Pag · Vardø) · başka HİÇBİR ŞEY
+noktasız bileşende        341.335 km² · (ii) BUNA DOKUNMAZ (:1015 eski davranış)
+```
+Sebep: **Tromsøya ile anakara gerçek maskede TEK bileşen** (fiyort ağzı kapalı).
+
+**DURUM: uygulanacak — A koşusuna bindirildi** (19 nokta yazımı zaten bir koşu
+gerektiriyor ⇒ `(ii)`nin ek maliyeti **sıfır**). Üç şartla: ① öngörü ayrı ayrı
+② beklenen etki tam yazılı ③ koşu sonrası kabul testi yeniden — tutmazsa
+**mazeret yok**, geri alınır.
+
+📌 Ve şu ayrım kayda değer: **kuralın ihlali ile kullanıcının gördüğü kusur ayrı
+şeylerdir.** `Pag` 7.277 km²lik bir ihlaldir ama **ekranda görünmez** (8 komşusu
+da aynı sahip); `Vardø` 4.831 km² ve **1300→1900 hep görünür** — ama Barents
+kıyısında olduğu için kullanıcı onu hiç görmemiş. ***Kusurun büyüklüğü ile
+görünürlüğü bağımsız iki eksendir.***
+
+---
+
 ## 3. Çözülmemiş BEŞ yapısal sorun
 
 İlk dördü **coğrafi kapsam genişlemeden önce** çözülmeli. Nokta kümesi büyüdükçe
