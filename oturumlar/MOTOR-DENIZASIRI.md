@@ -255,7 +255,10 @@ tahmin veriye girer ve sonra kimse onun tahmin olduğunu bilmez.*
 
 ```
 ✅ BİTTİ demek için hepsi gerekli:
-   ① ON DÖRT vakanın kaçı kapandı — TEK TEK, adıyla
+   ① ON ÜÇ vakanın kaçı kapandı — TEK TEK, adıyla
+      (13 somut vaka + `h17#3b` = TARAMA İSTEĞİ, vaka değil iş tarifi.
+       ⚠️ Bu sayım MOTOR oturumunun kendi ölçümüdür ve koordinatörünkini
+          düzeltmiştir — şartnamenin ilk hâli hem "14" hem "7" diyordu.)
    ①b h17#3b'nin TARAMASI: bugün kaç denizaşırı taşma var, en büyük 20'si
    ② denetle.py: altı değişmez · sahipsiz ≤ ilan ettiğin tavan
    ③ renk_olc.py: yeni çakışma sayısı ve gerekçesi
@@ -367,8 +370,14 @@ al ve **ikisini birlikte** gönder.
 ```
 CLAUDE.md            baştan sona — özellikle §2 · §3 · §7 · §11
 MIMARI.md            petek motoru · çözülmemiş yapısal sorunlar
-denetim/DOCX-KALAN-16.md   İÇERİK'in GRUP A taraması — yedi vakanın kaynağı
+denetim/DOCX-TESLIM.md     🔴 İÇERİK'in DEVİR BELGESİ — sahipli 🔴 listesi,
+                           ⚪'ler aletine göre kümelenmiş, kapanış kalemleri
+denetim/DOCX-TEMA-ESLEME.md  dokuz tema · 99 vaka · Emre'nin 17 KURAL CÜMLESİ
+                           (`⓪` bölümü — `K1` · `K4` · `K5` seni doğrudan bağlar)
+denetim/DOCX-KALAN-16.md   GRUP A + B taraması — vakaların ham kaynağı
 arac/uret_petek.py:864-905   ENKLAV kısıtı ve yetim yüz mantığı
 arac/uret_petek.py:1701-1760 A1 tavanı muafiyeti (koşu 4b'nin izi)
-kosu9.log            son koşunun aşama aşama çıktısı
+kosu7.log            🔴 BUGÜNKÜ koşu (10 Ağustos 17:49) — aşama aşama çıktı
+                     ⚠️ `kosu9.log` OKUMA: 4 Ağustos'a ait. Log dosyası adının
+                        numarası TARİHLE İLGİSİZ; `ls -l` ile tarihe bak.
 ```
