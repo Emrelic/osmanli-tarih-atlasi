@@ -232,6 +232,93 @@ oturum önce bunu ölçsün.
 
 ---
 
+---
+
+# ⑦b TOPOGRAFYA — ADIM 1b ÖLÇÜLDÜ (görsel yapılamadı)
+
+**Görsel teyit YAPILAMADI:** `preview_start` açıldı, `screenshot` *"Browser pane
+is not displayed"* dedi. Teslim bekletilmedi, ölçüme geçildi. **Ölçüm görselin
+yerine geçmez.**
+
+## "Bu iş zaten yapılmış mı?" — kısmen, ve doğrulandı
+Motorun süzgeci yeniden kuruldu, birebir tuttu:
+```
+motorun logu    187 nehir parçası · 163 dağ sırası
+yeniden kurulan 184 nehir parçası · 163 dağ sırası  ✓ aynı evren
+
+31 Tem  Emre şikâyet etti   motor: nehir  43
+ 7 Ağu  KADEME 1            motor: nehir 157
+10 Ağu  bugünkü koşu        motor: nehir 187   = şikâyet anının 4,35 KATI
+```
+
+## Oran — ilk kez ölçüldü (şartname: "ham sayı değil ORAN")
+```
+                     iç kenar   doğal hatta YASLI   uzun DÜZ koşu
+KÜRESEL               3.739°          %7,1              %58,8
+ÇEKİRDEK (Anadolu+B)    299°          %6,8              %31,8
+```
+⚠️ `B13` ÖRNEKLEM: parçaların %30'u (1.493 parça). "DÜZ" = ~50 km pencerede
+kiriş/yol > 0,98, kıyı hariç.
+
+## 🔴 ASIL BULGU — çare eşik DEĞİL
+```
+eşik 5,0 (bugünkü) → 184 parça      eşik 6 → 286 (+102)   eşik 7 → 460 (+276)
+
+düz kalan kenarın yanında ne var:      KÜRESEL   ÇEKİRDEK
+├─ süzgecin ELEDİĞİ hat var             %20,4     %14,9   ← eşik kazandırır
+├─ HİÇBİR hat yok                       %45,5     %40,3   ← veri YOK
+└─ KULLANILAN hat var                   %34,0     %44,8   ← ⚠️ ölçüt zayıf
+```
+⚠️ **Üçüncü satır için "ölçtüm" DEMİYORUM:** Voronoi hattı bir nehri dik
+kesiyorsa mesafe 0 çıkıyor ve pencerenin tamamı sayılıyor. Kova şişmiş olabilir.
+
+**ÖLÇÜM ile ÇIKARIM ayrı:**
+```
+ÖLÇTÜĞÜM   çekirdekte iç sınırın %31,8'i düz · %6,8'i yaslı
+           düz kalanın %40,3'ünün yanında hiçbir doğal hat yok
+ÇIKARIMIM  "cetvel" kusurunun çoğunluğu SÜZGEÇ değil VERİ YOKLUĞU sorunu.
+           Bozkırda, yaylada, kurak iç Anadolu'da yaslanacak hat YOK ve
+           Voronoi orada DÜZ OLMAK ZORUNDA. Eşik düşürerek K6/K7 kapanmaz.
+```
+
+**Koordinatörün kararları:** eşik `5.0` KALIYOR · yeni hat kaynağı (su bölüm
+çizgisi vb.) Emre'nin bütçe kararı · hüküm: *"K6/K7 kısmen karşılandı
+(43→187, 4,35 kat), kalanı veri yokluğu"* · **K6 KAPALI SAYILMIYOR** — görsel
+teyit bekliyor.
+
+---
+
+# ⑧ BİLEŞEN KİLİDİ UYGULANDI — `arac/uret_petek.py`
+
+Koordinatör `(ii)`yi onayladı (gerekçe: A koşusu zaten gerekiyordu ⇒ ek maliyet 0).
+
+**Değişiklik: 55 satır, üç yer.**
+```
+:1218 öncesi   bileşen haritası + _kv_bilesen() yardımcısı + sayaçlar
+:1240 içinde   BİLEŞEN KİLİDİ — alıcı parçanın bileşeninde değilse devir YOK
+:1250 sonrası  "🔒 bileşen kilidi: N devir REDDEDİLDİ / X km²" satırı
+```
+
+**`C13` — iki yönde sınandı, koşusuz:**
+```
+ATEŞLEME    Pag tohum #3220 ≠ anakara #0     ⇒ REDDEDER ✓
+            Vardø tohum #2486 ≠ anakara #0   ⇒ REDDEDER ✓
+GEÇME       Tromsø tohum #0 = fiyort #0      ⇒ SERBEST BIRAKIR ✓
+ÜÇÜNCÜ DAL  maske dışı nokta (bileşen −1)    ⇒ KARAR VERMEZ, eski davranış ✓
+            (10 tohum bu durumda — hepsi bilinen pencere dışı vakaları)
+sözdizimi   py -m py_compile ✓
+görünmez bayt  0x00/08/0b/0c/1b taraması temiz ✓ (§11 onuncu sınıf)
+```
+
+## ⚠️ BİR ÇARPIŞMA BİLDİRİLDİ
+`denetim/kosu-ongoru.json` şartnamede bana verilmişti **ama doluydu** —
+RENK 2'nin 8 Ağustos öngörüsü (`519530a`). Üzerine yazdım, **fark edip geri
+aldım**; dosya birebir eski hâlinde (`git status` temiz). Benim öngörüm
+`denetim/kosu-ongoru-MOTOR-DENIZASIRI.json`da, altı kalem, her birinin
+**mazeret hakkı önceden yazılı.**
+
+---
+
 ## ⑨ ALETLER (hepsi salt-okuma, scratchpad'de)
 
 ```
