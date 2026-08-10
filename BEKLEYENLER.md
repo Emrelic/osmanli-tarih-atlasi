@@ -81,14 +81,15 @@ py C:/Users/emrem/OneDrive/Desktop/ClaudEmre/kutu/ordu.py tablo ATLAS
 | **karasal bağlantı** ("uçakla gidilemez") | 11 | 🔴 **GERÇEKTEN AÇIK** — hiç ölçülmedi |
 | mükerrer madde | 10 | 🟢 **12/12 KAPALI** |
 | taralı işgal (`isg:`) | 8 | 🟢 **8/8 KAPALI** — ve iki mekanizma ayrıldı: `devir` (antlaşma anı · kalıcı cezir · sağa yatık · 11 antlaşma · otomatik) ≠ `isgal` (süren işgal · nominal sahip DEĞİŞMEZ · sola yatık · 83 kayıt) |
-| etiket/nokta kalıcılığı | 6 | ⏳ ARAYÜZ ölçüyor · ⚠️ `k:`nin **zaman ayağı yok** (Söğüt pürüzü) — çıkarsa veri modeli kararı |
+| etiket/nokta kalıcılığı | 6 | 🟢 **7/8 ZATEN KAPALI + 1 satır YAZILDI.** `sehirGuncelle` dört mekanizma taşıyor (`YONTEM_SURE` 550 gün · `go:` · `OLAY_YERI` · DOM-tabanlı çakışma elemesi). Tek eksik: **Pelekanon'un `go:` alanı** — 🔴 *Emre'nin bizzat saydığı dört addan üçü yazılmış, tam onun örneği atlanmıştı* ⇒ **yarım ödenmiş borç, ödenmiş sanılır** |
 | **Hotin** | 5 | 🟢 KAPALI — beşi de **tek arayüz kusurundan** |
 | **statü kademesi** | 5+ | 🔴 **GERÇEKTEN AÇIK** — veri modeli, Emre'nin kararı |
 
-> 🔴🔴 **BİLANÇO DEĞİŞTİ: 245 madde → 9 tema → GERÇEKTE 3-4 İŞ.**
-> Dört tema **tamamen kapalı**, ikisi neredeyse. Gerçekten açık:
-> **karasal bağlantı · statü kademesi · topografya teyidi · 4 nokta.**
-> 📌 Daralmanın yarısı bir günde **altı "altyapı zaten vardı"** bulgusundan geldi.
+> 🔴🔴 **BİLANÇO: 245 madde → 9 tema → GERÇEKTE 2 AÇIK İŞ + 2 TEYİT.**
+> **BEŞ tema tamamen kapalı** · ikisi neredeyse. Gerçekten açık yalnız:
+> **karasal bağlantı** (hiç ölçülmedi) ve **statü kademesi** (Emre'nin kararı).
+> 📌 Daralmanın yarısı bir günde **yedi "altyapı zaten vardı"** bulgusundan
+> geldi, ve dördünü tek bir oturum (ARAYÜZ) buldu.
 
 ### 🔴🔴 TEK BİR ARAYÜZ KUSURU **DOKUZ** ŞİKÂYET ÜRETİYOR — en yüksek kazançlı kalem
 
