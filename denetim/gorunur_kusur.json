@@ -1,0 +1,1468 @@
+[
+ {
+  "ad": "Tromsø",
+  "i": 1665,
+  "km2": 20902.30403102966,
+  "kova": "BOGAZ",
+  "su_km": 15.725339875380149,
+  "hat_km": 101.7132217690624,
+  "deniz": "Norveç Denizi",
+  "komsu": 3,
+  "gorunur": []
+ },
+ {
+  "ad": "Sengkang (Wajo)",
+  "i": 2250,
+  "km2": 13783.243700757252,
+  "kova": "BOGAZ",
+  "su_km": 130.260196800006,
+  "hat_km": 401.2502968750483,
+  "deniz": "Güney Çin Denizi",
+  "komsu": 0,
+  "gorunur": []
+ },
+ {
+  "ad": "Mangazeya",
+  "i": 1686,
+  "km2": 10843.410619470955,
+  "kova": "BOGAZ",
+  "su_km": 78.47221371391346,
+  "hat_km": 749.3944480233603,
+  "deniz": "?",
+  "komsu": 0,
+  "gorunur": []
+ },
+ {
+  "ad": "Sonârgâon",
+  "i": 1351,
+  "km2": 10404.838716467684,
+  "kova": "BOGAZ",
+  "su_km": 11.697251437895059,
+  "hat_km": 126.40822379069203,
+  "deniz": "?",
+  "komsu": 4,
+  "gorunur": []
+ },
+ {
+  "ad": "Pag (Pago)",
+  "i": 550,
+  "km2": 7277.454422985378,
+  "kova": "IHLAL",
+  "su_km": 6.889912701388178,
+  "hat_km": 59.91157437684939,
+  "deniz": "Adriyatik",
+  "komsu": 8,
+  "gorunur": []
+ },
+ {
+  "ad": "Ålesund",
+  "i": 1624,
+  "km2": 6004.711232211301,
+  "kova": "BOGAZ",
+  "su_km": 13.64941419261982,
+  "hat_km": 61.29117260665262,
+  "deniz": "Norveç Denizi",
+  "komsu": 2,
+  "gorunur": []
+ },
+ {
+  "ad": "Dudinka",
+  "i": 1688,
+  "km2": 4840.925252585702,
+  "kova": "BOGAZ",
+  "su_km": 64.13681036355798,
+  "hat_km": 997.4708659016435,
+  "deniz": "Kara Denizi (Sib.)",
+  "komsu": 0,
+  "gorunur": []
+ },
+ {
+  "ad": "Vardø",
+  "i": 1667,
+  "km2": 4830.670332075599,
+  "kova": "IHLAL",
+  "su_km": 2.4654324200887796,
+  "hat_km": 156.53547108577754,
+  "deniz": "Barents Denizi",
+  "komsu": 1,
+  "gorunur": [
+   [
+    "1300",
+    "norvec",
+    [
+     "isvec"
+    ]
+   ],
+   [
+    "1345",
+    "norvec",
+    [
+     "isvec"
+    ]
+   ],
+   [
+    "1400",
+    "norvec",
+    [
+     "isvec"
+    ]
+   ],
+   [
+    "1453",
+    "norvec",
+    [
+     "isvec"
+    ]
+   ],
+   [
+    "1500",
+    "norvec",
+    [
+     "isvec"
+    ]
+   ],
+   [
+    "1600",
+    "danimarka",
+    [
+     "isvec"
+    ]
+   ],
+   [
+    "1700",
+    "danimarka",
+    [
+     "isvec"
+    ]
+   ],
+   [
+    "1800",
+    "danimarka",
+    [
+     "isvec"
+    ]
+   ],
+   [
+    "1900",
+    "isvec",
+    [
+     "rusya"
+    ]
+   ]
+  ]
+ },
+ {
+  "ad": "Mosjøen",
+  "i": 1663,
+  "km2": 1526.303006102436,
+  "kova": "BOGAZ",
+  "su_km": 5.152585985910412,
+  "hat_km": 80.23427966946417,
+  "deniz": "Norveç Denizi",
+  "komsu": 1,
+  "gorunur": []
+ },
+ {
+  "ad": "Kilitbahir",
+  "i": 90,
+  "km2": 1443.6111693293406,
+  "kova": "BOGAZ",
+  "su_km": 11.814410641627234,
+  "hat_km": 41.37750095430166,
+  "deniz": "Çanakkale Boğazı",
+  "komsu": 2,
+  "gorunur": [
+   [
+    "1300",
+    "bizans",
+    [
+     "karesi"
+    ]
+   ],
+   [
+    "1345",
+    "bizans",
+    [
+     "OSMANLI"
+    ]
+   ]
+  ]
+ },
+ {
+  "ad": "Aleksandrovsk (Kuzey Sahalin)",
+  "i": 1721,
+  "km2": 1387.670587379871,
+  "kova": "BOGAZ",
+  "su_km": 90.71601443245518,
+  "hat_km": 237.95945379364025,
+  "deniz": "?",
+  "komsu": 1,
+  "gorunur": []
+ },
+ {
+  "ad": "Bergen",
+  "i": 1201,
+  "km2": 1365.962037642792,
+  "kova": "BOGAZ",
+  "su_km": 28.74753198731144,
+  "hat_km": 109.99216737403695,
+  "deniz": "Kuzey Denizi",
+  "komsu": 3,
+  "gorunur": []
+ },
+ {
+  "ad": "Dudinka",
+  "i": 1688,
+  "km2": 1362.0184893200283,
+  "kova": "BOGAZ",
+  "su_km": 101.38749901161361,
+  "hat_km": 490.83814717564866,
+  "deniz": "Kara Denizi (Sib.)",
+  "komsu": 0,
+  "gorunur": []
+ },
+ {
+  "ad": "Dudinka",
+  "i": 1688,
+  "km2": 1324.3586651056949,
+  "kova": "BOGAZ",
+  "su_km": 40.729316448591334,
+  "hat_km": 403.9123201188609,
+  "deniz": "Kara Denizi (Sib.)",
+  "komsu": 0,
+  "gorunur": []
+ },
+ {
+  "ad": "Viborg (Jutland)",
+  "i": 1177,
+  "km2": 1275.2933292771938,
+  "kova": "BOGAZ",
+  "su_km": 16.64677314113066,
+  "hat_km": 114.86091768465374,
+  "deniz": "Kuzey Denizi",
+  "komsu": 1,
+  "gorunur": []
+ },
+ {
+  "ad": "Shaoxing",
+  "i": 1431,
+  "km2": 1240.5913833632046,
+  "kova": "BOGAZ",
+  "su_km": 11.241747969705026,
+  "hat_km": 54.63314484364268,
+  "deniz": "Doğu Çin Denizi",
+  "komsu": 3,
+  "gorunur": []
+ },
+ {
+  "ad": "Sumbawa",
+  "i": 2171,
+  "km2": 1188.9419781812965,
+  "kova": "BOGAZ",
+  "su_km": 28.181880579409615,
+  "hat_km": 59.64392288928389,
+  "deniz": "?",
+  "komsu": 1,
+  "gorunur": []
+ },
+ {
+  "ad": "Tra Vinh",
+  "i": 2221,
+  "km2": 885.8397524810609,
+  "kova": "BOGAZ",
+  "su_km": 5.644949138565603,
+  "hat_km": 53.14644286435312,
+  "deniz": "Güney Çin Denizi",
+  "komsu": 1,
+  "gorunur": []
+ },
+ {
+  "ad": "Saint-Malo",
+  "i": 1091,
+  "km2": 735.8728586411738,
+  "kova": "BOGAZ",
+  "su_km": 33.130244397952595,
+  "hat_km": 74.07946311945481,
+  "deniz": "Manş / Biskay",
+  "komsu": 3,
+  "gorunur": []
+ },
+ {
+  "ad": "Udskoy ostrogu",
+  "i": 1714,
+  "km2": 735.1401899974898,
+  "kova": "BOGAZ",
+  "su_km": 37.91408225641179,
+  "hat_km": 312.0469711649974,
+  "deniz": "?",
+  "komsu": 1,
+  "gorunur": []
+ },
+ {
+  "ad": "Pathein (Bassein)",
+  "i": 2123,
+  "km2": 696.9877616968656,
+  "kova": "BOGAZ",
+  "su_km": 3.128297097631353,
+  "hat_km": 123.5022242823431,
+  "deniz": "?",
+  "komsu": 1,
+  "gorunur": []
+ },
+ {
+  "ad": "Tra Vinh",
+  "i": 2221,
+  "km2": 668.9450864668975,
+  "kova": "BOGAZ",
+  "su_km": 3.5185272009309863,
+  "hat_km": 12.484965872527106,
+  "deniz": "Güney Çin Denizi",
+  "komsu": 1,
+  "gorunur": []
+ },
+ {
+  "ad": "Abâdân",
+  "i": 678,
+  "km2": 668.2997967883542,
+  "kova": "BOGAZ",
+  "su_km": 17.809137245934654,
+  "hat_km": 100.01791596974883,
+  "deniz": "Basra Körfezi",
+  "komsu": 3,
+  "gorunur": []
+ },
+ {
+  "ad": "Halkulvâdî",
+  "i": 881,
+  "km2": 634.1718535586041,
+  "kova": "BOGAZ",
+  "su_km": 11.814561869370705,
+  "hat_km": 21.771245676513853,
+  "deniz": "Akdeniz",
+  "komsu": 4,
+  "gorunur": []
+ },
+ {
+  "ad": "İnebahtı",
+  "i": 131,
+  "km2": 574.7480716758246,
+  "kova": "BOGAZ",
+  "su_km": 12.290763847235946,
+  "hat_km": 38.31784194759321,
+  "deniz": "İyon Denizi",
+  "komsu": 3,
+  "gorunur": []
+ },
+ {
+  "ad": "Songkhla",
+  "i": 2135,
+  "km2": 558.5203971854368,
+  "kova": "BOGAZ",
+  "su_km": 35.7892447710441,
+  "hat_km": 40.64263358130644,
+  "deniz": "Güney Çin Denizi",
+  "komsu": 2,
+  "gorunur": []
+ },
+ {
+  "ad": "Sogndal",
+  "i": 1628,
+  "km2": 553.7047535967332,
+  "kova": "BOGAZ",
+  "su_km": 2.037212807764776,
+  "hat_km": 197.3001773078902,
+  "deniz": "Norveç Denizi",
+  "komsu": 1,
+  "gorunur": []
+ },
+ {
+  "ad": "Tralee",
+  "i": 1083,
+  "km2": 503.19129452077254,
+  "kova": "BOGAZ",
+  "su_km": 8.188917208224876,
+  "hat_km": 54.85902193546055,
+  "deniz": "Atlantik",
+  "komsu": 2,
+  "gorunur": [
+   [
+    "1300",
+    "irlanda",
+    [
+     "ingiltere"
+    ]
+   ],
+   [
+    "1345",
+    "irlanda",
+    [
+     "ingiltere"
+    ]
+   ],
+   [
+    "1400",
+    "irlanda",
+    [
+     "ingiltere"
+    ]
+   ],
+   [
+    "1453",
+    "irlanda",
+    [
+     "ingiltere"
+    ]
+   ],
+   [
+    "1500",
+    "irlanda",
+    [
+     "ingiltere"
+    ]
+   ],
+   [
+    "1600",
+    "irlanda",
+    [
+     "ingiltere"
+    ]
+   ]
+  ]
+ },
+ {
+  "ad": "Alta",
+  "i": 1666,
+  "km2": 399.9466319022853,
+  "kova": "BOGAZ",
+  "su_km": 26.639593076915094,
+  "hat_km": 281.4633303928218,
+  "deniz": "Norveç Denizi",
+  "komsu": 2,
+  "gorunur": []
+ },
+ {
+  "ad": "Garabogaz (Bekdaş)",
+  "i": 744,
+  "km2": 211.19124973192828,
+  "kova": "BOGAZ",
+  "su_km": 46.71071714327341,
+  "hat_km": 79.68711141976019,
+  "deniz": "Hazar Denizi",
+  "komsu": 1,
+  "gorunur": []
+ },
+ {
+  "ad": "Pontianak",
+  "i": 2247,
+  "km2": 198.93147934489383,
+  "kova": "BOGAZ",
+  "su_km": 12.11375393938605,
+  "hat_km": 84.3013984358175,
+  "deniz": "Güney Çin Denizi",
+  "komsu": 1,
+  "gorunur": [
+   [
+    "1800",
+    "pontianak",
+    [
+     "hollanda-dogu-hint"
+    ]
+   ]
+  ]
+ },
+ {
+  "ad": "Helsinki",
+  "i": 349,
+  "km2": 196.6623255549496,
+  "kova": "BOGAZ",
+  "su_km": 127.34366893561398,
+  "hat_km": 135.21563274673494,
+  "deniz": "Baltık Denizi",
+  "komsu": 2,
+  "gorunur": [
+   [
+    "1300",
+    "isvec",
+    [
+     "almanya"
+    ]
+   ],
+   [
+    "1345",
+    "isvec",
+    [
+     "almanya"
+    ]
+   ],
+   [
+    "1400",
+    "isvec",
+    [
+     "almanya"
+    ]
+   ],
+   [
+    "1453",
+    "isvec",
+    [
+     "almanya"
+    ]
+   ],
+   [
+    "1500",
+    "isvec",
+    [
+     "almanya"
+    ]
+   ],
+   [
+    "1800",
+    "isvec",
+    [
+     "rusya"
+    ]
+   ]
+  ]
+ },
+ {
+  "ad": "Şanhayguan",
+  "i": 1495,
+  "km2": 189.42975985379098,
+  "kova": "BOGAZ",
+  "su_km": 230.9628311831017,
+  "hat_km": 242.93810603368829,
+  "deniz": "Doğu Çin Denizi",
+  "komsu": 2,
+  "gorunur": []
+ },
+ {
+  "ad": "Puri",
+  "i": 1357,
+  "km2": 186.8403477899654,
+  "kova": "BOGAZ",
+  "su_km": 3.1405784940191346,
+  "hat_km": 64.76341345522519,
+  "deniz": "Bengal Körfezi",
+  "komsu": 1,
+  "gorunur": []
+ },
+ {
+  "ad": "Tallinn (Reval)",
+  "i": 2297,
+  "km2": 186.38953784652355,
+  "kova": "BOGAZ",
+  "su_km": 100.9723125707817,
+  "hat_km": 128.62658677934309,
+  "deniz": "Baltık Denizi",
+  "komsu": 3,
+  "gorunur": [
+   [
+    "1300",
+    "almanya",
+    [
+     "isvec"
+    ]
+   ],
+   [
+    "1345",
+    "almanya",
+    [
+     "isvec"
+    ]
+   ],
+   [
+    "1400",
+    "almanya",
+    [
+     "isvec"
+    ]
+   ],
+   [
+    "1453",
+    "almanya",
+    [
+     "isvec"
+    ]
+   ],
+   [
+    "1500",
+    "almanya",
+    [
+     "isvec"
+    ]
+   ],
+   [
+    "1800",
+    "rusya",
+    [
+     "isvec"
+    ]
+   ]
+  ]
+ },
+ {
+  "ad": "Obdorsk (Salehard)",
+  "i": 1684,
+  "km2": 185.85986331603115,
+  "kova": "BOGAZ",
+  "su_km": 71.27522601770801,
+  "hat_km": 430.2430159135188,
+  "deniz": "?",
+  "komsu": 0,
+  "gorunur": []
+ },
+ {
+  "ad": "Ust-Yansk",
+  "i": 1693,
+  "km2": 184.98624582999784,
+  "kova": "BOGAZ",
+  "su_km": 176.32731527523663,
+  "hat_km": 336.0386546007757,
+  "deniz": "?",
+  "komsu": 0,
+  "gorunur": []
+ },
+ {
+  "ad": "İnari",
+  "i": 1675,
+  "km2": 178.78451417976444,
+  "kova": "BOGAZ",
+  "su_km": 32.34086229749149,
+  "hat_km": 258.7945032256147,
+  "deniz": "Barents Denizi",
+  "komsu": 1,
+  "gorunur": [
+   [
+    "1300",
+    "isvec",
+    [
+     "norvec"
+    ]
+   ],
+   [
+    "1345",
+    "isvec",
+    [
+     "norvec"
+    ]
+   ],
+   [
+    "1400",
+    "isvec",
+    [
+     "norvec"
+    ]
+   ],
+   [
+    "1453",
+    "isvec",
+    [
+     "norvec"
+    ]
+   ],
+   [
+    "1500",
+    "isvec",
+    [
+     "norvec"
+    ]
+   ],
+   [
+    "1600",
+    "isvec",
+    [
+     "danimarka"
+    ]
+   ],
+   [
+    "1700",
+    "isvec",
+    [
+     "danimarka"
+    ]
+   ],
+   [
+    "1800",
+    "isvec",
+    [
+     "danimarka"
+    ]
+   ],
+   [
+    "1900",
+    "rusya",
+    [
+     "isvec"
+    ]
+   ]
+  ]
+ },
+ {
+  "ad": "Tønsberg",
+  "i": 1203,
+  "km2": 172.8939815286728,
+  "kova": "BOGAZ",
+  "su_km": 61.248437634647736,
+  "hat_km": 95.75383753344593,
+  "deniz": "Baltık Denizi",
+  "komsu": 2,
+  "gorunur": []
+ },
+ {
+  "ad": "Legazpi",
+  "i": 2216,
+  "km2": 167.3337015266561,
+  "kova": "BOGAZ",
+  "su_km": 46.39423622378874,
+  "hat_km": 69.32746174359009,
+  "deniz": "?",
+  "komsu": 1,
+  "gorunur": []
+ },
+ {
+  "ad": "Klaipėda (Memel)",
+  "i": 1660,
+  "km2": 164.24526184202142,
+  "kova": "BOGAZ",
+  "su_km": 3.725983648434706,
+  "hat_km": 29.327944985300316,
+  "deniz": "Baltık Denizi",
+  "komsu": 1,
+  "gorunur": []
+ },
+ {
+  "ad": "Çimpe",
+  "i": 100,
+  "km2": 161.05486666596093,
+  "kova": "BOGAZ",
+  "su_km": 13.068285796681286,
+  "hat_km": 19.171633178642217,
+  "deniz": "Ege Denizi",
+  "komsu": 4,
+  "gorunur": []
+ },
+ {
+  "ad": "La Rochelle",
+  "i": 1112,
+  "km2": 157.52257440043925,
+  "kova": "BOGAZ",
+  "su_km": 40.51427251787973,
+  "hat_km": 76.24876500396415,
+  "deniz": "Manş / Biskay",
+  "komsu": 1,
+  "gorunur": [
+   [
+    "1300",
+    "fransa",
+    [
+     "ingiltere"
+    ]
+   ],
+   [
+    "1345",
+    "fransa",
+    [
+     "ingiltere"
+    ]
+   ],
+   [
+    "1400",
+    "fransa",
+    [
+     "ingiltere"
+    ]
+   ],
+   [
+    "1453",
+    "fransa",
+    [
+     "ingiltere"
+    ]
+   ]
+  ]
+ },
+ {
+  "ad": "Brest",
+  "i": 1088,
+  "km2": 152.117350709841,
+  "kova": "BOGAZ",
+  "su_km": 20.909630480566086,
+  "hat_km": 38.10884605703625,
+  "deniz": "Manş / Biskay",
+  "komsu": 1,
+  "gorunur": []
+ },
+ {
+  "ad": "Camboyluk bozkırı",
+  "i": 824,
+  "km2": 151.56637556877502,
+  "kova": "BOGAZ",
+  "su_km": 76.19465773489986,
+  "hat_km": 130.17374943134726,
+  "deniz": "Karadeniz",
+  "komsu": 1,
+  "gorunur": [
+   [
+    "1300",
+    "altinorda",
+    [
+     "ceneviz"
+    ]
+   ],
+   [
+    "1345",
+    "altinorda",
+    [
+     "ceneviz"
+    ]
+   ],
+   [
+    "1400",
+    "altinorda",
+    [
+     "ceneviz"
+    ]
+   ],
+   [
+    "1453",
+    "altinorda",
+    [
+     "ceneviz"
+    ]
+   ],
+   [
+    "1500",
+    "altinorda",
+    [
+     "OSMANLI"
+    ]
+   ],
+   [
+    "1600",
+    "kirim",
+    [
+     "OSMANLI"
+    ]
+   ],
+   [
+    "1700",
+    "kirim",
+    [
+     "rusya"
+    ]
+   ]
+  ]
+ },
+ {
+  "ad": "Middelburg",
+  "i": 1214,
+  "km2": 143.75239886173762,
+  "kova": "BOGAZ",
+  "su_km": 26.526770307155132,
+  "hat_km": 65.15633436332739,
+  "deniz": "Kuzey Denizi",
+  "komsu": 1,
+  "gorunur": []
+ },
+ {
+  "ad": "Kumamoto",
+  "i": 1525,
+  "km2": 143.67615793045024,
+  "kova": "BOGAZ",
+  "su_km": 26.157663176666816,
+  "hat_km": 41.87294153704284,
+  "deniz": "Doğu Çin Denizi",
+  "komsu": 1,
+  "gorunur": []
+ },
+ {
+  "ad": "Boğaziçi (Rumeli yakası)",
+  "i": 817,
+  "km2": 137.19481898515994,
+  "kova": "BOGAZ",
+  "su_km": 2.5963627871375237,
+  "hat_km": 16.547633574836674,
+  "deniz": "İstanbul Boğazı",
+  "komsu": 2,
+  "gorunur": [
+   [
+    "1345",
+    "bizans",
+    [
+     "OSMANLI"
+    ]
+   ],
+   [
+    "1400",
+    "bizans",
+    [
+     "OSMANLI"
+    ]
+   ]
+  ]
+ },
+ {
+  "ad": "Marsilya",
+  "i": 325,
+  "km2": 133.63474138611988,
+  "kova": "BOGAZ",
+  "su_km": 12.129559320491218,
+  "hat_km": 47.40781682012958,
+  "deniz": "?",
+  "komsu": 2,
+  "gorunur": []
+ },
+ {
+  "ad": "Bremen",
+  "i": 1226,
+  "km2": 125.03337844935938,
+  "kova": "BOGAZ",
+  "su_km": 11.982794162820014,
+  "hat_km": 102.09381108437451,
+  "deniz": "Kuzey Denizi",
+  "komsu": 2,
+  "gorunur": []
+ },
+ {
+  "ad": "Karabiga",
+  "i": 814,
+  "km2": 124.3301627984126,
+  "kova": "BOGAZ",
+  "su_km": 22.396427205468207,
+  "hat_km": 32.29899379159646,
+  "deniz": "Marmara Denizi",
+  "komsu": 3,
+  "gorunur": [
+   [
+    "1300",
+    "karesi",
+    [
+     "bizans"
+    ]
+   ],
+   [
+    "1345",
+    "OSMANLI",
+    [
+     "bizans"
+    ]
+   ]
+  ]
+ },
+ {
+  "ad": "Sebte (Ceuta)",
+  "i": 820,
+  "km2": 122.56321227649444,
+  "kova": "BOGAZ",
+  "su_km": 21.618277075127327,
+  "hat_km": 29.39762092825857,
+  "deniz": "Akdeniz",
+  "komsu": 1,
+  "gorunur": [
+   [
+    "1300",
+    "merini",
+    [
+     "granada"
+    ]
+   ],
+   [
+    "1345",
+    "merini",
+    [
+     "granada"
+    ]
+   ],
+   [
+    "1400",
+    "merini",
+    [
+     "granada"
+    ]
+   ],
+   [
+    "1453",
+    "portekiz",
+    [
+     "granada"
+    ]
+   ],
+   [
+    "1500",
+    "portekiz",
+    [
+     "ispanya"
+    ]
+   ],
+   [
+    "1800",
+    "ispanya",
+    [
+     "ingiltere"
+    ]
+   ],
+   [
+    "1900",
+    "ispanya",
+    [
+     "ingiltere"
+    ]
+   ]
+  ]
+ },
+ {
+  "ad": "Nyköping",
+  "i": 1638,
+  "km2": 117.15133927453718,
+  "kova": "BOGAZ",
+  "su_km": 35.97508923216497,
+  "hat_km": 65.04754753590156,
+  "deniz": "Baltık Denizi",
+  "komsu": 1,
+  "gorunur": []
+ },
+ {
+  "ad": "Marmaris",
+  "i": 26,
+  "km2": 114.86863716344062,
+  "kova": "BOGAZ",
+  "su_km": 12.410248589852472,
+  "hat_km": 32.04865680229715,
+  "deniz": "Ege Denizi",
+  "komsu": 2,
+  "gorunur": []
+ },
+ {
+  "ad": "Haugesund",
+  "i": 1632,
+  "km2": 112.84278714895615,
+  "kova": "BOGAZ",
+  "su_km": 9.048713214792986,
+  "hat_km": 104.77199236558042,
+  "deniz": "Kuzey Denizi",
+  "komsu": 2,
+  "gorunur": []
+ },
+ {
+  "ad": "Tønsberg",
+  "i": 1203,
+  "km2": 106.5779220399947,
+  "kova": "BOGAZ",
+  "su_km": 8.447869847674667,
+  "hat_km": 38.435427141894664,
+  "deniz": "Baltık Denizi",
+  "komsu": 1,
+  "gorunur": [
+   [
+    "1300",
+    "norvec",
+    [
+     "danimarka"
+    ]
+   ],
+   [
+    "1345",
+    "norvec",
+    [
+     "danimarka"
+    ]
+   ],
+   [
+    "1400",
+    "norvec",
+    [
+     "danimarka"
+    ]
+   ],
+   [
+    "1453",
+    "norvec",
+    [
+     "danimarka"
+    ]
+   ],
+   [
+    "1500",
+    "norvec",
+    [
+     "danimarka"
+    ]
+   ]
+  ]
+ },
+ {
+  "ad": "Bombay",
+  "i": 1377,
+  "km2": 106.28827741365085,
+  "kova": "BOGAZ",
+  "su_km": 16.624663342111514,
+  "hat_km": 20.969881688091736,
+  "deniz": "Umman Denizi",
+  "komsu": 1,
+  "gorunur": [
+   [
+    "1400",
+    "delhi-sultanligi",
+    [
+     "behmeni"
+    ]
+   ],
+   [
+    "1453",
+    "gucerat-sultanligi",
+    [
+     "behmeni"
+    ]
+   ],
+   [
+    "1500",
+    "gucerat-sultanligi",
+    [
+     "ahmednagar"
+    ]
+   ],
+   [
+    "1700",
+    "ingiltere",
+    [
+     "portekiz"
+    ]
+   ],
+   [
+    "1800",
+    "ingiliz-hindistani",
+    [
+     "maratha"
+    ]
+   ]
+  ]
+ },
+ {
+  "ad": "Kola",
+  "i": 1677,
+  "km2": 104.97661395465845,
+  "kova": "BOGAZ",
+  "su_km": 2.763246843973733,
+  "hat_km": 101.22936262783959,
+  "deniz": "Barents Denizi",
+  "komsu": 1,
+  "gorunur": []
+ },
+ {
+  "ad": "Trondheim",
+  "i": 1205,
+  "km2": 101.11343845116295,
+  "kova": "BOGAZ",
+  "su_km": 47.18577121670453,
+  "hat_km": 189.06276276769844,
+  "deniz": "Baltık Denizi",
+  "komsu": 1,
+  "gorunur": []
+ },
+ {
+  "ad": "Stralsund",
+  "i": 1231,
+  "km2": 100.89125412964454,
+  "kova": "BOGAZ",
+  "su_km": 62.88664939490323,
+  "hat_km": 90.37847971728091,
+  "deniz": "Baltık Denizi",
+  "komsu": 1,
+  "gorunur": [
+   [
+    "1800",
+    "isvec",
+    [
+     "almanya"
+    ]
+   ]
+  ]
+ },
+ {
+  "ad": "Stavanger",
+  "i": 1202,
+  "km2": 99.11103373297281,
+  "kova": "BOGAZ",
+  "su_km": 14.946129647304303,
+  "hat_km": 138.9145439195841,
+  "deniz": "Kuzey Denizi",
+  "komsu": 1,
+  "gorunur": []
+ },
+ {
+  "ad": "Ponoy",
+  "i": 1679,
+  "km2": 97.80465106163255,
+  "kova": "BOGAZ",
+  "su_km": 279.04748453570994,
+  "hat_km": 308.76655502024835,
+  "deniz": "?",
+  "komsu": 0,
+  "gorunur": []
+ },
+ {
+  "ad": "Pelekanon (Eskihisar)",
+  "i": 477,
+  "km2": 94.3950816401888,
+  "kova": "BOGAZ",
+  "su_km": 8.30836817633652,
+  "hat_km": 15.782546049456379,
+  "deniz": "Marmara Denizi",
+  "komsu": 3,
+  "gorunur": []
+ },
+ {
+  "ad": "Bolayır",
+  "i": 497,
+  "km2": 93.32505784415335,
+  "kova": "BOGAZ",
+  "su_km": 14.83529745575715,
+  "hat_km": 28.919612486054877,
+  "deniz": "Marmara Denizi",
+  "komsu": 3,
+  "gorunur": [
+   [
+    "1300",
+    "bizans",
+    [
+     "karesi"
+    ]
+   ],
+   [
+    "1345",
+    "bizans",
+    [
+     "OSMANLI"
+    ]
+   ]
+  ]
+ },
+ {
+  "ad": "Tenggarong (Kutai)",
+  "i": 2248,
+  "km2": 89.73237640683354,
+  "kova": "BOGAZ",
+  "su_km": 12.631705919705327,
+  "hat_km": 256.6378294042779,
+  "deniz": "Güney Çin Denizi",
+  "komsu": 1,
+  "gorunur": [
+   [
+    "1600",
+    "kutai",
+    [
+     "banjar-sultanligi"
+    ]
+   ],
+   [
+    "1700",
+    "kutai",
+    [
+     "banjar-sultanligi"
+    ]
+   ],
+   [
+    "1800",
+    "kutai",
+    [
+     "banjar-sultanligi"
+    ]
+   ],
+   [
+    "1900",
+    "kutai",
+    [
+     "hollanda-dogu-hint"
+    ]
+   ]
+  ]
+ },
+ {
+  "ad": "Livadya",
+  "i": 134,
+  "km2": 83.46161539357092,
+  "kova": "BOGAZ",
+  "su_km": 13.387043458587938,
+  "hat_km": 44.302254974914376,
+  "deniz": "Ege Denizi",
+  "komsu": 2,
+  "gorunur": []
+ },
+ {
+  "ad": "Stralsund",
+  "i": 1231,
+  "km2": 80.30956300236181,
+  "kova": "BOGAZ",
+  "su_km": 6.508537691579529,
+  "hat_km": 31.46493200603096,
+  "deniz": "Baltık Denizi",
+  "komsu": 1,
+  "gorunur": [
+   [
+    "1700",
+    "isvec",
+    [
+     "almanya"
+    ]
+   ],
+   [
+    "1800",
+    "isvec",
+    [
+     "almanya"
+    ]
+   ]
+  ]
+ },
+ {
+  "ad": "Ayvalık",
+  "i": 615,
+  "km2": 75.89132400778877,
+  "kova": "BOGAZ",
+  "su_km": 23.509377451181393,
+  "hat_km": 40.06767348857466,
+  "deniz": "Ege Denizi",
+  "komsu": 1,
+  "gorunur": []
+ },
+ {
+  "ad": "Perth (İskoçya)",
+  "i": 1068,
+  "km2": 71.17754762400857,
+  "kova": "BOGAZ",
+  "su_km": 3.6036009757270056,
+  "hat_km": 52.521541286326936,
+  "deniz": "Kuzey Denizi",
+  "komsu": 2,
+  "gorunur": []
+ },
+ {
+  "ad": "Flensburg",
+  "i": 1184,
+  "km2": 66.05683181319176,
+  "kova": "BOGAZ",
+  "su_km": 5.671990096858689,
+  "hat_km": 28.657467594280075,
+  "deniz": "Kuzey Denizi",
+  "komsu": 1,
+  "gorunur": []
+ },
+ {
+  "ad": "Bodø",
+  "i": 1664,
+  "km2": 63.915206974953364,
+  "kova": "BOGAZ",
+  "su_km": 127.08868379416786,
+  "hat_km": 270.3148091263376,
+  "deniz": "Norveç Denizi",
+  "komsu": 1,
+  "gorunur": []
+ },
+ {
+  "ad": "Liverpool",
+  "i": 1057,
+  "km2": 62.40521976777835,
+  "kova": "BOGAZ",
+  "su_km": 51.028819540179306,
+  "hat_km": 82.30505738924275,
+  "deniz": "Kuzey Denizi",
+  "komsu": 1,
+  "gorunur": []
+ },
+ {
+  "ad": "Sakai",
+  "i": 1507,
+  "km2": 61.662065431531396,
+  "kova": "BOGAZ",
+  "su_km": 26.634205042508434,
+  "hat_km": 40.5412289926356,
+  "deniz": "?",
+  "komsu": 2,
+  "gorunur": []
+ },
+ {
+  "ad": "Stavanger",
+  "i": 1202,
+  "km2": 61.23085621813956,
+  "kova": "BOGAZ",
+  "su_km": 36.37021675803465,
+  "hat_km": 48.53996652812484,
+  "deniz": "Kuzey Denizi",
+  "komsu": 1,
+  "gorunur": []
+ },
+ {
+  "ad": "Molde",
+  "i": 1625,
+  "km2": 60.46099757728505,
+  "kova": "BOGAZ",
+  "su_km": 20.25011588760093,
+  "hat_km": 60.33474690830149,
+  "deniz": "Norveç Denizi",
+  "komsu": 1,
+  "gorunur": []
+ },
+ {
+  "ad": "Ayan",
+  "i": 1715,
+  "km2": 59.304940372891856,
+  "kova": "BOGAZ",
+  "su_km": 252.60973761774517,
+  "hat_km": 255.8474448128811,
+  "deniz": "?",
+  "komsu": 1,
+  "gorunur": []
+ },
+ {
+  "ad": "Thaton",
+  "i": 2124,
+  "km2": 58.43978033911499,
+  "kova": "BOGAZ",
+  "su_km": 42.61607202062363,
+  "hat_km": 63.029924779611626,
+  "deniz": "?",
+  "komsu": 2,
+  "gorunur": []
+ },
+ {
+  "ad": "Draç",
+  "i": 140,
+  "km2": 53.27856137378687,
+  "kova": "BOGAZ",
+  "su_km": 50.50225111306336,
+  "hat_km": 64.18180031479427,
+  "deniz": "Adriyatik",
+  "komsu": 1,
+  "gorunur": [
+   [
+    "1500",
+    "venedik",
+    [
+     "OSMANLI"
+    ]
+   ]
+  ]
+ },
+ {
+  "ad": "Thaton",
+  "i": 2124,
+  "km2": 52.88363648068682,
+  "kova": "BOGAZ",
+  "su_km": 32.93382683381102,
+  "hat_km": 55.04513990154313,
+  "deniz": "?",
+  "komsu": 1,
+  "gorunur": []
+ },
+ {
+  "ad": "Korsakov (Güney Sahalin)",
+  "i": 1722,
+  "km2": 51.91719108135338,
+  "kova": "BOGAZ",
+  "su_km": 261.45178951869354,
+  "hat_km": 314.6233654138565,
+  "deniz": "?",
+  "komsu": 0,
+  "gorunur": []
+ }
+]
