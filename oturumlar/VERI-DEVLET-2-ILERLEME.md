@@ -186,5 +186,61 @@ Henüz gelmedi. Bekleniyor.
 
 ## Durum: `data/devletler.js` 392 kayıt — `gilan-kiya` ve `mazenderan-marasi`
 yazıldı. Kalan açık: (1) veri tarafında iki `ilhanli` köprüsü (koordinatörde),
-(2) renk ataması (koordinatörde), (3) Zerenc/mihribani kararı (koordinatörde),
-(4) KUTU DENETİM kalemleri (bekleniyor).
+(2) renk ataması (koordinatörde), (3) KUTU DENETİM kalemleri (bekleniyor).
+Zerenc/mihribani: koordinatör KERT'E BAĞLA dedi, kendisi taşıyacak, bende iş yok.
+
+---
+
+## ⑥ YENİ İŞ — 108 seyrek kronolojili künye → 3-6 olaya çıkarma (hedef ≤40)
+
+Ölçüm doğrulandı: 392 künye (2308 yerleşim ile), 1-2 olaylık künye = 108
+(koordinatörün 390/108 sayısıyla uyumlu, +2 yeni künyeden dolayı taban 392).
+Öncelik FAYDA÷EMEK — nokta sayısına göre sıralandı (yerlesimler.js'teki
+`d:` alanlarında kaç kez geçiyor).
+
+**İşlenen (1/108 → 107 kaldı):**
+```
+muzafferi (22 nokta, 2→5 olay)  TDV muzafferiler maddesinden 3 yeni olay:
+  1357 İncû'nun ortadan kaldırılması · 1358 Mübârizüddin'in kendi oğlunca
+  kör edilip tahttan indirilmesi · 1387 Timur'un İsfahan katliamı/tâbiiyet
+  (bu üçüncüsü, ③'teki "1387-11-01" 14-nokta grubunun DOĞRU olayı —
+  iki iş birbirini besledi)
+```
+
+**İLK 15'LİK PARTİ TAMAMLANDI (2026-08-10): 108 → 94.**
+```
+muzafferi (22 nokta)    2→5   TDV muzafferiler (kendi araştırmam)
+funj (47)               2→6   TDV func
+umman (21)              2→6   TDV uman + yarubiler
+nebhani (21)            1→2   TDV uman — 🔴 ÇÖZÜLMEMİŞ ÇELİŞKİ (aşağıda)
+novgorod (42)           2→5   standart akademik (Britannica: Neva/Peipus/Şelon savaşları)
+hollanda (25)           2→6   TDV hollanda (Utrecht/VOC/Vestfalya/İngiliz savaşı)
+yugoslavya (25)         2→5   TDV yugoslavya + akademik (Aleksandar'ın tahta geçişi)
+napoli (23)             2→6   TDV napoli (1480/1861) + akademik (1282/1734/1806/1815)
+                              f: 1282-01-01 → 1282-03-30 (Sicilya Akşam Duası, tam gün)
+fransiz-cinhindi (46)   2→5   standart akademik (Kamboçya/Hué/Laos antlaşmaları)
+pagan (22)              2→4   Britannica (Anavrahta 1057, Ngasaunggyan Savaşı 1277)
+kamboc-kralligi (21)    2→4   Britannica (1813 çifte tâbiiyet, 1848 Ang Duong)
+tonburi (20)            2→4   Britannica (1770 birleşme, 1781 dinî buhran)
+angkor-kmer (19)        2→3   Cœdès (1283 Moğol'a haraç/vassal)
+singhasari (19)         2→4   Britannica (1275 Pamalayu Seferi, 1289 Moğol hakareti)
+sukhothai (18)          2→4   Vickery + Wyatt (1283 Tay alfabesi, 1378 Ayutthaya vassalı)
+```
+Sonuç doğrulandı: `node -e` ile künye sayısı (392) ve 1-2 olaylık künye
+sayısı (94) ayrıştırılarak ölçüldü, elle sayılmadı.
+
+🔴 **AKSAKLIK — BEKLETMEDEN BİLDİRİLİYOR: `nebhani` çelişkili, tarihe
+dokunulmadı.** TDV `uman` maddesinin kendi anlatım sırası, atlasın
+1281-1515 penceresinde hüküm sürenin Nebhânîler değil **Salgurlular**
+olduğunu ima ediyor ("Nebhânîler'in hâkimiyetinde kalan Uman, XI. yy'ın
+ilk yarısında Benî Kayser'e, 1230'da da Salgurlular'a geçti, onlar
+Portekiz işgaline kadar sürdü"). Yani gerçek Nebhânî dönemi 11. yy'dan
+ÖNCE bitmiş olabilir. Bir akademik ek kaynak (Brill özeti) FARKLI bir
+aralık öneriyor (6./12.-11./17. yy). İki kaynak da birbiriyle VE bu
+künyenin f:1281/t:1515 tarihleriyle çelişiyor. **Tarih DEĞİŞTİRİLMEDİ**,
+yalnız güvenli tek olay (1507 Portekiz saldırısı) eklendi, çelişki
+`ozet:` alanına açıkça yazıldı ve koordinatöre iletiliyor — karar
+koordinatörün/kullanıcının.
+
+**Sırada:** kalan 94 künyeden nokta sayısına göre bir sonraki 15'lik
+parti. KUTU DENETİM kalemi gelirse araya girecek.
