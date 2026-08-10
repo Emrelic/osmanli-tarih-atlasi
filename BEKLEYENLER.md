@@ -31,6 +31,21 @@
 > ⚠️ **Karar kapasiten ölçüldü: haftada ~6, ve ŞU AN DOLU.** Yeni soru
 > sormadan önce bunlar kapansın (`denetim/KAYNAK-PLANI.md`).
 
+### 🆕 OTURUM ORDUSU — yeni düzen (`YASALAR F18`)
+
+```
+py C:/Users/emrem/OneDrive/Desktop/ClaudEmre/kutu/ordu.py tablo ATLAS
+```
+| konu | durum |
+|---|---|
+| **İzin listesi** yazıldı | `.claude/settings.json` · 27 izin · `git commit`/`push` **kasten yok** · kök dışına yazma **yok** |
+| 🔴 **ve `.claude` GITIGNORE'DA** | dosya **çalışıyor** ama **commit edilemiyor** ⇒ başka makinede **yok.** Doğru olabilir (izinler makineye özel) ama **kayıtsız kalırsa sebebi bilinmez** — kaydı bu satır |
+| **Hazır kıta** | 9 → **7** (bugün iki kıta görevlendirildi) |
+| 🔴 **eksik** | **1 fable + 3 sonnet** — Emre açacak |
+| **Kürasyon** (24 emir-bekleyen) | ⏸️ **bilerek ertelendi**: her arşiv Emre'ye onay penceresi düşürüyor ve Emre başında değil. Ayrıca kürasyon **hiçbir şeyi açmıyor** — iki kıta görevlendirmek iki şartname başlattı |
+| 🟢 ilk emekli adayı | **ÇAPRAZ AKDENİZ** (Uibul) · **VERİ DEVLET** (Ranking) — **yanlış dizinde**, atlas dosyalarını göremiyorlar, canlandırılamazlar bile |
+| 🔴 **RENK-2 emekli EDİLMEYECEK** | renk doktrinini taşıyor — `renk_olc.py` · `renk_fark.py` · `renkler.py` üçlüsünün tek canlı hafızası |
+
 ---
 
 ## 🟢 BUGÜNÜN HASADI
@@ -280,9 +295,13 @@ bugün       panel 1161
                       kademe (`ONCELIK.md`: dış halkada hedef %80)
 ⏳ KRONOLOJİ 16    58 madde · kalanlar yuvarlak-tarih engelinde
 ⏳ ŞEHİR KARTI     79/120
-⏳ İÇERİK          ✅ görsel eşlemesi BİTTİ (18 docx · 206 başvuru · 202 medya)
-                   ▶ şimdi: ⚪ ÖLÇÜLMEDİ 21 kalemi görselle çözüyor
-                   🔴 görseller depoya ÇIKARILMADI (149,6 MB) — karar KAPANDI
+⏳ İÇERİK          ✅ KÜLLİYAT BİTTİ — 18/18 docx · 8 teslim · 6 kez beni düzeltti
+                   ▶ şimdi: ~20 veri sorgusu kalemi, sonra KAPANIYOR
+                   📎 devir belgesi: denetim/DOCX-TESLIM.md
+🆕 MOTOR DENİZAŞIRI  Opus · GÖREVE ALINDI · `arac/uret_petek.py` DEVREDİLDİ
+                   14 vaka + `h17#3b` toplu tarama → sonra TOPOGRAFYA
+🆕 ARAYÜZ AYNI GÜN Sonnet · GÖREVE ALINDI · `js/app.js` DEVREDİLDİ
+                   9 şikâyet tek kusurdan → sonra ok gösterimi
 ✅ kapandı         KUTU DENETİM · VERİ KİŞİ · DOCX TARAMA · TDV TARİH TURU ·
                    KAYNAK PLANLAMACISI · PADİŞAH
 ```
