@@ -242,5 +242,34 @@ yalnız güvenli tek olay (1507 Portekiz saldırısı) eklendi, çelişki
 `ozet:` alanına açıkça yazıldı ve koordinatöre iletiliyor — karar
 koordinatörün/kullanıcının.
 
-**Sırada:** kalan 94 künyeden nokta sayısına göre bir sonraki 15'lik
-parti. KUTU DENETİM kalemi gelirse araya girecek.
+**İKİNCİ 15'LİK PARTİ TAMAMLANDI (2026-08-10): 94 → 80.**
+```
+sammar (21 nokta)         2→5   TDV residiler — f: 1836→1835 DÜZELTİLDİ (TDV net veriyor)
+avad (9)                  2→4   TDV'de yok (taneciklik) — World History Encyclopedia
+bengal-sultanligi (13)    2→4   TDV bengal + Banglapedia (taneciklik)
+bengal-nevabligi (13)     2→4   TDV bengal + World History Encyclopedia
+haydarabad-nizam (15)     2→5   TDV haydarabad-nizamligi (zengin madde, akademiğe hiç gerek kalmadı)
+kenmu (17)                2→5   Britannica + Cambridge History of Japan
+san-fan (13)              2→4   Britannica + Berkshire Encyclopedia of China
+yadava (12)               2→5   Peter Jackson 1999 + K.S. Lal 1950 (agent kendi hatamı da düzeltti, aşağıda)
+ho-hanedani (12)          2→5   Whitmore 1985 + Taylor 2013
+filipin-racaliklari (12)  2→4   Pigafetta 1521 + Britannica + Majul/Scott (bir şüpheli anlatı REDDEDİLDİ)
+dacu (14)                 2→2   BULUNAMADI — TDV tam metni tarandı, gerçekten bu kadar kısa, ozet'e "arandı ve bulunamadı" notu eklendi
+tunciler (14)             2→3   TDV darfur (tarih yaklaşık, açıkça işaretli)
+papalik (9)               2→6   TDV papalik (Niğbolu/İnebahtı) + TDV fransa (1463) + akademik (Caiani 2021, Napolyon)
+lur-i-buzurg (8)          2→6   Encyclopaedia Iranica (Spuler) — TDV'nin belirsiz cümlesindeki
+                                görünür çelişki AÇIKLIĞA KAVUŞTU (Lür-i Büzürg/Küçek karışması, gerçek çelişki değilmiş)
+timor-beylikleri (8)      2→4   Hägerdal 2012 (KITLV akademik monografi) — mevcut 1642 tarihi
+                                1641-05-01'e DÜZELTİLDİ (aynı olay, kaynak daha kesin gün verdi)
+```
+🟢 Ajanın kendi kendini düzeltmesi (yadava): brifingimde "1308'de Malik Kâfûr
+Simhana'yı yendi" yazmıştım — YANLIŞ karışıklıktı. Ajan Peter Jackson (1999)
+ve K.S. Lal (1950) ile ayırdı: 1308 Ramachandra'nın KENDİSİNİN teslimiyeti,
+1313 oğlu Simhana III'ün yenilip öldürülmesi — İKİ AYRI sefer. Düzeltilmiş
+haliyle yazıldı.
+
+**Toplam: 108 → 80 (28 künye düzeltildi, 30'luk parti tamamlandı).**
+Sonuç node ile ölçüldü: `D.filter(x => x.kronoloji.length <= 2).length`.
+
+**Sırada:** kalan 80 künyeden nokta sayısına göre bir sonraki 15'lik
+parti. KUTU DENETİM kapandı, künye kalemi gelmeyecek — kesintisiz devam.
