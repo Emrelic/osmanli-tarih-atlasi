@@ -125,11 +125,106 @@ Pontianak      199 km²  G. Çin         1800        −0,78 · 109,31 Borneo ba
 
 ---
 
+---
+
+# ADIM 2a — MEKANİZMA BULUNDU · İKİ HÜKÜM DÜZELTİLDİ
+
+## 🔴 A · KENDİ BAŞLIĞIMI DÜZELTİYORUM
+
+Yukarıda *"MOTOR kusuru 0 parça"* yazdım. **Çare olarak doğru, SEBEP olarak
+yanlış.** Ölçüldü:
+
+### Pag ve Vardø ölçüm artığı DEĞİL
+```
+maskenin dışına düşen 10 tohum: Sofala · Mozambik Adası · Angoche · Quelimane ·
+  Port Moresby · Finschhafen · Koryak · Petropavlovsk · Anadır · Çukotka
+  (hepsi CLAUDE.md §11'in bildiği PENCERE DIŞI vakaları)
+Pag ve Vardø bu listede YOK — tohumları kendi ada bileşenlerinin İÇİNDE
+  Pag   → bileşen #351   (0,031  derece²)
+  Vardø → bileşen #1886  (0,00097 derece²)
+```
+
+### Mekanizma: ızgara çözünürlüğü
+Motorun kendi ızgarası kuruldu (`KV_ADIM = 0.05` ≈ 5,5 km, `uret_petek.py:1114`):
+```
+Pag     ızgara bileşeni 4.084 / bölgedeki kara 4.868 hücre = %83,9  → ANAKARAYA BAĞLI
+Vardø   ızgara bileşeni 3.307 / 3.307                       = %100  → ANAKARAYA BAĞLI
+```
+0,05°lik ızgara Vardø'nun 2,5 km'lik boğazını ve Pag'ın ~1-2 km'lik kanalını
+**göremiyor.**
+
+> **⇒ `ADA KURALI` KESİYOR, `KARA-KISITLI SAHİPLİK` GERİ VERİYOR.**
+
+📌 Şartnamenin `④`te uyardığı desenin ta kendisi: *"bir düzeltme doğru
+çalışabilir ve SONRAKİ AŞAMA onu geri alabilir."* A1 tavanı buna yakalanmıştı;
+**aynı motorda ikinci vakası.**
+
+**Düzeltilmiş hüküm:**
+```
+ÇARE olarak   19/19 nokta ekleyerek kapanır — A seçeneği HÂLÂ GEÇERLİ
+SEBEP olarak  19'un 2'sinde kök sebep noktasızlık DEĞİL, ızgara çözünürlüğü
+```
+
+## 🔴 B · KOORDİNATÖRÜN "KARA YOLU / DÜZ HAT ORANI" HİPOTEZİ — ÇÜRÜDÜ
+
+```
+                    km²   su km  düz km  kara km   ORAN   görünür?
+Kilitbahir         1444    11,8      41       43   1,06   🔴 GÖRÜNÜR
+Vardø              4831     2,5      54       64   1,19   🔴 GÖRÜNÜR
+Tromsø            20902    15,7     100       96   0,96   🟢 görünmez
+İnebahtı            575    12,3      33      272   8,18   🟢 görünmez
+Sumbawa            1189    28,2      59      178   3,01   🟢 görünmez
+
+GÖRÜNÜR  : 1,06 – 1,19        görünmez : 0,91 – 8,18
+⇒ görünmez küme görünürleri TAMAMEN içine alıyor. TEK EŞİK AYIRAMAZ.
+```
+🔴 **Ve ters yönde çıktı:** görünür kusurların oranı **düşük**. Sebep aynı
+mekanizma — Kilitbahir'in "kara yolu" 43 km, çünkü **ızgara Çanakkale
+Boğazı'nı da göremiyor.** ⇒ *Hipotezin ölçemediği şey, kusurun sebebinin
+kendisi.*
+
+**Aday ölçüt (ÖLÇMEDİM):** *"su açıklığı ızgara adımından dar mı"* — Vardø 2,5 ·
+Boğaziçi 2,6 · Pag ~1-2 km hepsi 5,5 km altında. Ama Helsinki 127 km ve
+Camboyluk 76 km de görünür ⇒ tek başına yetmez.
+
+## C · TESLİM — 19 NOKTA, İKİ HALKA
+
+### HALKA 1 — Emre'nin şikâyet ettiği yer · 4 nokta · 1.798 km² · BEŞ VAKA
+```
+Kilitbahir         1.444 km²  39,788 · 26,276  Behramkale/Assos  h12#5·h17#3·h17#14·h17#15·h18
+Boğaziçi (Rumeli)    137 km²  41,196 · 29,191  Beykoz/Şile       (taramadan)
+Karabiga             124 km²  40,678 · 27,190  Şarköy/Trakya     h12#5·h17#3·h17#14
+Bolayır               93 km²  40,343 · 26,928  Karabiga/Biga     h12#5·h17#15
+```
+🔴 **Behramkale tek başına 1.444 km² ve beş vakanın beşi.** Veride hiç yok.
+
+### HALKA 2 — taramadan çıkan, sorulmamış · 15 nokta · 7.064 km²
+```
+Vardø 4.831 · Tralee 503 · Pontianak 199 · Helsinki 197 · Tallinn 186 ·
+İnari 179 · La Rochelle 158 · Camboyluk 152 · Sebte 123 · Tønsberg 107 ·
+Bombay 106 · Stralsund 101+80 · Tenggarong 90 · Draç 53
+```
+⚠️ Vardø (70,5°K) ve İnari (70,8°K) **kutup kuşağında** — `BEKLENEN_SAHIPSIZ =
+180` tavanının kasıtlı boşluk bölgesine düşüyor olabilirler. Nokta yazacak
+oturum önce bunu ölçsün.
+
+## D · IZGARA KUSURU İÇİN ÜÇ YOL (hiçbiri uygulanmadı)
+```
+(i)   KV_ADIM 0,05 → 0,02      ızgara 6,25× büyür · koşu süresi ÖLÇÜLMEDİ
+(ii)  Dijkstra'yı bileşene kısıtla  🟢 en temiz: iki aşama artık çelişmez
+(iii) dokunma                   nokta eklenince zaten kapanıyor
+```
+Önerim **(ii)**, ama **ölçmeden** söylüyorum.
+
+---
+
 ## ⑧ ÖLÇMEDİĞİM ŞEYLER (açıkça)
 
-- **Pag/Vardø'nun ada kuralını niçin geçtiği** — mekanizmayı ölçmedim.
-  Maskeyi motorla aynı yoldan kurdum ama 10 tohum maskenin dışına düştü;
-  fark oradan doğuyor olabilir.
+- **`Değişmez 1` etkisi** — ölçemiyorum, çünkü etki **yazılacak dönemlere**
+  bağlı ve o dönemler henüz yok. Nokta sahipsizliği *azaltır* (dönem yazılırsa)
+  ya da *artırır* (dönemsiz kalırsa). Rakam veriye bağlı, motora değil.
+- **(i) ve (ii) şıklarının koşu süresine etkisi.**
+- **"su açıklığı ızgaradan dar mı" ölçütünün** 19 vakanın kaçını açıkladığı.
 - **19 noktanın `Değişmez 1`e etkisi** — sahipsizliği azaltması beklenir, ölçmedim.
 - **C seçeneğinin işe yarayıp yaramayacağı** — `enklav:` yetim yüzü kapatır,
   taşmayı kapatır mı bilmiyorum.
