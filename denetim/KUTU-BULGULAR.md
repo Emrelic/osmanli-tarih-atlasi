@@ -1799,3 +1799,105 @@ bitiş       yerleşim 2308 · kronoloji 1161 · git 46cfedd
 📌 `YASALAR B18`: aletim değişmedi, EVRENİ değişti. Bunu raporlamak
    ölçümün parçasıdır.
 ```
+
+---
+
+# İÇERİK KUYRUĞU — harita hatası değil, MEVCUT bir özelliğin içeriği (17)
+
+> 🔴 **Kovanın adı koordinatör hükmüyle düzeltildi:** ben `kapsam-disi-icerik`
+> yazmıştım, **YANLIŞTI.** `data/merak.js` ve `data/ekokuma.js` VAR, çalışıyor
+> ve `index.html:142`de tembel yüklemeyle bağlı (`ekOkumaMerakYukle()`,
+> `js/app.js:3527`). Bu maddelerin **EVİ VAR**; "kapsam dışı" damgası onları
+> öldürürdü.
+> 📌 Gerekçe: *"kabul edilmiş bir borç kayıtsız kalırsa yarın kusur olarak
+> yeniden bulunur."* Bu tablo o kaydın kendisidir.
+
+## 🟢 VE TABLOYU KURARKEN ÖLÇTÜM: ON KART ZATEN YAZILMIŞ
+
+Koordinatörün planı *"17 kalem → 16 kart, yeni içerik oturumu gerekiyor"*
+idi. **Kartları saydım — parti-0006'nın ON BİR kaleminin ON BİRİ de
+karşılanmış:**
+
+```
+data/merak.js     8 kart   (7'si kutudaki maddelere birebir karşılık)
+data/ekokuma.js   3 kart   (3'ü de kutudaki maddelere birebir karşılık)
+```
+⇒ **Açık kalan yalnız parti-0007'nin 6 kalemi.** 17 değil **6.**
+
+⚠️ Ve `merak.js`teki her kartta **3 görüş** ve `kesinlik:"tartismali"` var —
+yani `MERAK.md` şartnamesinin *"her kartta EN AZ İKİ GÖRÜŞ"* kuralı
+uygulanmış. Kalite de yerinde.
+
+## ① KAPANMIŞ — kart yazılmış (11 madde → 10 kart)
+
+| # | parti · madde | Emre'nin isteği | karşılayan kart |
+|---|---|---|---|
+| 1 | p6/H-0013 | Karaman niçin bu kadar zorladı, ilhaklar nasıl gerçekleşti | `merak.js` **karaman-nicin-zor** ✓ |
+| 2 | p6/H-0014 | Kapitülasyonlar niçin verildi | `merak.js` **kapitulasyon-zaaf-mi-arac-mi** ✓ |
+| 3 | p6/H-0015 | Gürcistan niçin komple alınmadı | `merak.js` **gurcistan-nicin-alinmadi** ✓ |
+| 4 | p6/H-0016 | Ahîler kimdir (+ Şeyh Bedreddin) | `ekokuma.js` **ahi-birlikleri-ankara** ✓ |
+| 5 | p6/H-0017 | Yeniçeri Ocağı nedir, teşkilatı nasıldır | `ekokuma.js` **yeniceri-ocagi-kurulusu** ✓ |
+| 6 | p6/H-0018 | Vassallık nedir, ortaçağ hiyerarşileri | `ekokuma.js` **tabi-devlet-vassallik** ✓ |
+| 7 | p6/H-0019 | I. Murad'ın şehâdeti komplo muydu | `merak.js` **i-murad-sehadeti** ✓ |
+| 8 | p6/H-0020 | Kardeş katli başka devletlerde var mı | `merak.js` **kardes-katli-karsilastirmali** ✓ |
+| 9 | p6/H-0021 | Hanedan evliliği ve çok eşlilik | `merak.js` **siyasi-evlilikler** ✓ |
+| 10 | p6/H-0022 | Siyasî evlilikler | ⬆︎ **AYNI KART** (öngörüm tuttu) |
+| 11 | p6/H-0023 | Kadınlar saltanatı | `merak.js` **kadinlar-saltanati** ✓ |
+
+📌 `merak.js`in sekizinci kartı **`hint-okyanusu-rekabeti`** kutuda karşılığı
+olmayan bir fazlalık — yani içerik oturumu Emre'nin listesinin ötesine de
+geçmiş.
+
+## ② AÇIK — yazılacak (6 madde → 6 kart)
+
+| # | parti · madde | Emre'nin isteği | hangi dosya |
+|---|---|---|---|
+| 12 | p7/H-0001 | Haçlı seferleri niçin hep başarısız oldu | `merak.js` |
+| 13 | p7/H-0002 | Çanakkale'ye niçin hisar yapılmadı · boğazlara niçin zincir gerilmedi | `merak.js` ⚠️ |
+| 14 | p7/H-0003 | Fatih niçin Galata'yı alıp zinciri boşa düşürmedi | `merak.js` ⚠️ |
+| 15 | p7/H-0004 | Fethedilen Hıristiyan ülkelerde yönetsel ilişkiler (zimmî · cizye · millet · devşirme) | `merak.js` **+** `ekokuma.js` |
+| 16 | p7/H-0005 | Timur, Ankara sonrası şehzâdeleri kendine bağlanmaya zorladı mı | `merak.js` |
+| 17 | p7/H-0006 | Timur'un misyonu neydi | `merak.js` (15 ile aynı sahne) |
+
+⚠️ **13 ve 14'te sorunun ÖNCÜLÜ kısmen yanlış — kart yazılırken düzeltilmeli:**
+```
+13 → Çanakkale Boğazı'na hisar YAPILDI: Kilitbahir + Kale-i Sultâniye (1462).
+14 → Galata CENEVİZ'di ve TARAFSIZDI; alınması Batı ittifakını savaşa
+     sokardı. 28 Mayıs'ta teslim ANLAŞMASIYLA alındı.
+```
+⚠️ **Bu iki cümleyi ÖLÇMEDİM** — önceki hükümden aktarıyorum ve aktardığımı
+söylüyorum. Kartı yazan sınasın.
+
+📌 **16 ve 17 TEK SAHNE** (Timur'un Anadolu'dan çekilişi) — 9-10 gibi tek
+karta inebilir; o zaman **6 kalem → 5 kart.** Kararı içerik oturumu versin.
+📌 Ve 16 için veri hazır: `suleyman-celebi` · `mehmed-celebi` · `isa-celebi`
+künyeleri var ve 1403-06-15'te Anadolu'da sırasıyla **16 · 7 · 53** nokta
+tutuyorlar — kart haritaya `yer_id`/tarih ile bağlanabilir.
+
+## ③ Bu tablonun DIŞINDA kalan iki kalem
+
+```
+p4/H-0003   Cem Sultan rehin diplomasisi   → merak DEĞİL, KRONOLOJİ maddesi
+                                             (olaylar_ek*.js) — §⑥'da orada
+e10/H-0001  TESPİH "mesaj yaz" düğmesi     → SİSTEM (ClaudEmre), atlas değil
+```
+⚠️ Bu ikisini içerik kuyruğuna **KOYMADIM.** Koordinatörün uyarısı
+(*"KALIP eşleşmesi ile İÇERİK aynı şey değil"*) tam bunun içindi.
+
+📌 **Ve aynı uyarıyı `p4/H-0007`de de uyguladım:** Emre'nin cümlesinde
+"merak" geçmiyordu ama madde bir tarih iddiası taşıyordu (*Altın Orda 1502'de
+yıkıldı*). **Merak kovasına ATMADIM, ÖLÇTÜM:** künye + 21 kayıt 1502-03-01'de
+bitiyor, o gün 42 kırılma var, kronolojide karşılığı olan madde var. ⇒ Veri
+tutarlı; kalem TARİH tarafında kaldı, içerik tarafında değil.
+
+## ④ Sayı düzeltmesi — kendi raporumda
+
+```
+ÖNCE (benim)   içerik 19  = MERAK 14 · EK-OKUMA 4 · sistem 1
+SONRA (ölçüm)  içerik 17  = MERAK 14 · EK-OKUMA 3        ← koordinatörün sayısı DOĞRU
+               sistem  1  ayrı kovada
+               p4/H-0003 kronoloji kalemi olarak §⑥'ya taşındı
+⇒ harita/veri kalemi 46 → 47
+```
+📌 Koordinatör *"raporunu kabul etmeden kendim saydım"* dedi ve **sayısı
+benimkinden doğru çıktı.** Kayda geçiyor.
