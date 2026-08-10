@@ -431,6 +431,42 @@ bir sonraki oturumun "karar bekliyor" listesine eklenmeli. Ayrıca bazı
 ajan kaynaklarının tam DOI/URL'leri `kaynak:` alanında "yazar+yıl"a
 kısaltıldı — tam link dosyada yok, ileride yeniden doğrulama gerekirse not.
 
+---
+
+## 🔗 KAYNAK LİNKLERİ — ajan araştırmasında verilen TAM DOI/URL'ler
+
+Aşağıdakiler, `kaynak:` alanında "yazar+yıl"a kısaltılmış ama ajanların
+bana TAM link/DOI olarak verdiği kaynaklar. Ham liste, künye-id → link:
+
+```
+gova-makassar        DOI 10.1080/23311983.2025.2604957
+                      (Rasyid/Yani/Hamzah/Aksa, Cogent Arts & Humanities 13:1, 2604957, 2026)
+izlanda               DOI 10.1080/03468755.2021.1961856
+                      (Jakobsson, "All the King's Men", Scandinavian Journal of History 46:5, 2021)
+ahiler                ait.hacettepe.edu.tr/akademik/arsiv/ank.htm
+                      (Celal Metin, "Ankara'da Ahiler Yönetimi (1290-1354) Meselesi", Hacettepe Üniv.)
+surakarta             tandfonline.com/doi/10.1080/23311983.2025.2482456
+                      (Keraton Surakarta üzerine hakemli makale, Cultuurstelsel bağlamı)
+cunagadh              manuscripts.nls.uk
+                      (Albay Alexander Walker'ın 1807 Kathiawar sefer güncesi, birincil kaynak —
+                      tam manuscript kataloğu numarası ajanda da yoktu, yalnız bu domain verildi)
+```
+
+**Bunun dışında "bazı" dediğim liste TÜKENDİ — beşi de yukarıda.** Geri
+kalan bütün akademik kaynaklar (Bournoutian, Petech, Reefe, Vansina, Andaya,
+Widjojo, Hägerdal, Villiers, Furber, Carey, Whitmore, Taylor, Jackson,
+Nilakanta Sastri, Talbot, Spuler/Iranica, Nohlen&Stöver, Tucker vd., de
+Silva, Indrapala, Ahyat/TAWARIKH, Fadli Hasan/el Harakah, Zahorka, Martin,
+vb.) ajanlar tarafından yalnız **yazar/başlık/yayınevi/yıl** olarak
+verildi — DOI ya da erişim URL'si hiç PAYLAŞILMADI (çoğu basılı kitap/
+monografi, DOI taşımıyor). Yani bunlar "kısaltılmış link" değil, zaten
+**linksiz bibliyografik kayıt** — kaybolan bir şey yok, kaynak zaten
+`kaynak:` alanında yazar+yıl'ıyla eksiksiz tanımlı.
+
+TDV kaynaklarının hepsinin URL'si zaten `kaynak:` alanındaki slug'dan
+trivyal olarak yeniden kurulabilir (`islamansiklopedisi.org.tr/<slug>`),
+bu yüzden ayrıca listelenmedi.
+
 ## SON DURUM
 - `data/devletler.js`: 392 künye, 70'i bu oturumda zenginleştirildi/düzeltildi
 - Yeni künye: `gilan-kiya`, `mazenderan-marasi` (renk koordinatörde bekliyor)
