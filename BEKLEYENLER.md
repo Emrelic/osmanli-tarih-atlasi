@@ -165,19 +165,38 @@ kronoloji sayacından kat kat kesin. ⚠️ **Kaç görselde var, ölçülmedi.*
 ***"boşluğun cinsi ekranda belli olsun"*** diyor. Harita bugün **"kimsenin
 değil"** ile **"veri yok"**u aynı gösteriyor.
 
-🔴 **VE ÖLÇÜM DAHA KÖTÜSÜNÜ SÖYLEDİ — ayrım VERİDE DE YOK:**
+⚠️ **KOORDİNATÖRÜN İLK ÖLÇÜMÜ YANLIŞTI — İÇERİK düzeltti, doğrusu şu:**
 ```
-kasitli_bosluk taşıyan nokta: 138
-cinsi yazılı olan:              0        (138'inin 138'i düz `true`)
+kasitli_bosluk nokta          138
+  neden: alanı VAR            133      (yok: 5)
+  ├─ "devletsiz" geçen         35
+  ├─ "veri-yok"  geçen          2
+  └─ cinsi YAZILMAMIŞ          97
 ```
-⚠️ Oysa `CLAUDE.md §11` bu ayrımı **yazılı olarak öğretiyor** (NOKTA SİBİRYA,
-8 Ağustos): *"Sınav: kaynağa sor. **Konuşuyorsa `devletsiz`, susuyorsa
-`veri-yok`.**"* Ve orada şu da yazıyor: *"ikisi de `kasitli_bosluk` olarak
-yazılsa haritada aynı görünürdü — fark yalnız bir sonraki oturum için vardır."*
+Koordinatör `kasitli_bosluk` alanının **değerine** baktı (`bool` → *"cinsi yok"*);
+cins **`neden:` alanının içinde** yazılıymış. ⇒ *"Ölçüm doğru, evren dar"* —
+bugünün deseninin **onuncu** tekrarı.
 
-⇒ ***Ders yazıldı, alan açılmadı.*** Yeni bir kusur sınıfı: **kaydedilmiş bir
-ders, veriye inmemiş** — ve iki gün sonra kullanıcı aynı şeyi kendi
-kelimeleriyle istedi.
+🔴 **VE HÜKÜM AYAKTA AMA TARİFİ DEĞİŞİYOR — kusur sayıda değil BİÇİMDE:**
+```
+🔴 makine SORAMAZ    cins yapılandırılmış alan değil, serbest metne gömülü kelime
+🔴 harita ÇİZEMEZ    motor `neden:` metnini ayrıştırmıyor
+🔴 denetim GÖREMEZ   "cinsi yazılmamış 97 nokta" diye ötecek nöbetçi yok
+```
+⇒ ***"Ders veriye hiç inmedi"* DEĞİL — *"ders veriye SERBEST METİN olarak indi,
+yani makinenin göremeyeceği yere."*** Ve bu daha sinsi: `git grep devletsiz`
+**45 sonuç** verir, ders *"uygulanmış"* görünür. Uygulanmamış olan **yapı.**
+
+⚠️ `CLAUDE.md §11` sınavı zaten yazılı (NOKTA SİBİRYA, 8 Ağustos): *"Konuşuyorsa
+`devletsiz`, susuyorsa `veri-yok`."* — ve **35 + 2 noktada birebir uygulanmış.**
+
+🟢 **Çare ucuz, yeni kavram gerekmiyor:**
+```
+kasitli_bosluk: true  →  kasitli_bosluk: "devletsiz" | "veri-yok"
+                         (neden: serbest metin KALIR — gerekçe orada)
+```
+**36'sı bugün otomatik** dönüşebilir (`neden:` içinde kelime var); kalan **97**
+için kaynağa sorulacak.
 
 **İki ayaklı iş:** ① veri — 138 kaydın cinsi (`devletsiz` / `veri-yok`)
 ② arayüz — iki cinsin farklı gösterimi. **Emre'nin kararı**, çünkü üçüncü bir
