@@ -325,6 +325,31 @@ BOYALAR = {
     #   (eşzamanlı değiller, çift kurulmuyor).
     #   ⇒ Kural: **aynı coğrafyada ARDIŞIK olanlar da ayrışmalı.** Eşzamanlılık
     #     ölçütü komşuluk için doğru, OKUNABİLİRLİK için yetersiz.
+    # ═══ HAZAR KIYISININ İKİLİSİ — KOORDİNATÖR, 10 Ağustos 2026 ═══
+    # 🔴 VE BU İKİLİ, `kutlughanli`/`muzafferi` TUZAĞINI CANLI TEKRARLADI.
+    # Çözücü İKİ KEZ koşturuldu ve iki farklı cevap verdi:
+    #   ① veri YOKKEN   gilan-kiya #2a2ad2 · mazenderan-marasi #2a30d2
+    #                   "yeniler arası komşuluk: 0 çift"  → NEREDEYSE AYNI MAVİ
+    #   ② köprü İNİNCE  gilan-kiya #2a5ad2 · mazenderan-marasi #2ab4d2
+    #                   "yeniler arası komşuluk: 1 çift ← ayrışmalı"
+    # İkisi Hazar'ın güney kıyısında YAN YANA ve künye pencereleri ÖRTÜŞÜYOR
+    # (1371-1592 · 1359-1596) — yani ①'deki renkler kesinlikle çakışacaktı.
+    # ⇒ Alet yanlış değildi, EVRENİ boştu. `§11`: veri penceresi ≠ künye
+    #   penceresi; ve doğru sıra VERİ → RENK → KOŞU. ① reddedildi.
+    # ⚠️ İkisi de `ilhanli` (#c690ed) ARDILI — aynı coğrafyada ardışık olanlar
+    #   da ayrışmalı (bu bandın kendi kuralı, 30 satır yukarıda).
+    # 🔴 KABUL EDİLMİŞ BORÇ — ve sebebi bir ALET BOSLUGU (aynı gün ölçüldü):
+    #   gilan-kiya ↔ gurcistan  ΔE 10,44 · 567 km · 1371-1592 (eşik 12)
+    # Çözücü engel kümesini YALNIZ Voronoi komşusundan kurar; denetçi ise
+    # 600 km ölçütüyle "yakın ama değmeyen" çifti de kurar. gurcistan bu
+    # ikincisine giriyor, birincisine GİRMİYOR ⇒ çözücü "en yakın engel
+    # ΔE 13,2" dedi, denetçi aynı anda 10,44 buldu.
+    # ⇒ ÇÖZÜCÜ, DENETÇİNİN HEMEN İŞARETLEYECEĞİ BİR RENK ÜRETEBİLİYOR.
+    # Çare rengi zorlamak değil, çözücünün engel kümesini denetçininkiyle
+    # EŞİTLEMEK. Renk oynatılmadı; borç burada YAZILI ki yeniden
+    # "keşfedilmesin" (§11: kayıtsız borç yarın kusur diye bulunur).
+    "gilan-kiya":        ("Kârkiyâ (Gîlân)",        "#2a5ad2"),
+    "mazenderan-marasi": ("Mar'aşî (Mazenderan)",   "#2ab4d2"),
     "lur-i-buzurg":("Lur-i Büzürg (Hezâraspîler)", "#456627"),
     "lur-i-kucek": ("Lur-i Küçek (Hurşîdîler)",    "#246f90"),
     "kutlughanli": ("Kutluğhanlılar (Kirman)",     "#513921"),

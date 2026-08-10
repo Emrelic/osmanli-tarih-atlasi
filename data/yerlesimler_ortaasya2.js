@@ -160,8 +160,8 @@ window.YERLESIMLER_ORTAASYA2 = [
 // vahanın batı ucunun Hîve ile İran arasında sürekli çekişmeli olduğunu not
 // olarak bırakıyorum — ayrı kimlik yazmaya yetecek yazılı tarih bulamadım.
 { ad:"Kızılarvat", tur:"sehir", lat:38.9833, lon:56.2833, g:0, k:0, d:[],
-  s:[{f:"1281-01-01", t:"1335-12-01", d:"ilhanli"},
-     {f:"1335-12-01", t:"1381-01-01", d:"iran"},
+  s:[{f:"1281-01-01", t:"1337-09-09", d:"ilhanli"},
+     {f:"1337-09-09", t:"1381-01-01", d:"serbedariler"},
      {f:"1381-01-01", t:"1507-05-24", d:"timurlu"},
      {f:"1507-05-24", t:"1510-12-02", d:"iran"},
      {f:"1510-12-02", t:"1736-03-08", d:"safevi"},

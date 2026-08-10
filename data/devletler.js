@@ -595,6 +595,37 @@ window.DEVLETLER = [
   ]
 },
 
+// --- VERİ DEVLET 2 (10 Ağustos 2026) — Hazar kıyısı yerel hanedanları.
+// `iran` hayaletinin künye-tarafı ölçümünde (66 dönem, f:1335-12-01) bu ikisi
+// için GERÇEKTEN künye yoktu (kalanı zaten var olan künyelere bağlanmamış
+// veriydi — bkz. VERI-DEVLET-2-ILERLEME.md). İkisi de Safevî'nin bölgeyi
+// FİİLEN alışıyla biter (Gilân 1592, Mâzenderan 1596) — `safevi` künyesi
+// buraya UYMAZ, çünkü Safevî 1501'den beri var ama bu bölgeler yerel
+// hanedanların elindeydi. ⚠️ İKİSİ DE 1335-12-01'den SONRA kuruldu ⇒
+// veri tarafında `ilhanli` KÖPRÜSÜ gerekiyor (koordinatörle kararlaştırıldı,
+// Horasan/toga-timur ile aynı mantık): Gilân için 1335-12-01→1371-01-01,
+// Mâzenderan için 1335-12-01→1359-01-01 arası `d:"ilhanli"` kalacak.
+{ id:"gilan-kiya", ad:"Kârkiyâ Hânedanı (Gilân)", tur:"hanedanlik", bolge:"iran",
+  f:"1371-01-01", t:"1592-01-01", baskent:"Lâhîcân",
+  ozet:"Doğu Gilân'da (Biyepîş) Zeydî bir seyyid ailesinin kurduğu yerel hanedan; TDV `gilan` maddesi kuruluşu 'İlhanlı Hükümdarı Olcaytu'nun 1306-07'deki başarısız ilhak girişiminden sonra' diye tarihsiz anlatıyor, kesin yıl (773/1371-72, Emîr Kiyâ'nın oğlu Ali Kiyâ'nın bölgeye dönüp hâkimiyeti tesis etmesi) Encyclopaedia Iranica'nın `KĀR KIĀ` maddesinden alındı. Safevî Şahı I. Abbas'ın 1592'de bölgeyi doğrudan hâkimiyetine almasıyla sona erdi (TDV `gilan` maddesiyle BİREBİR tarihli). ⚠️ f:1371, İlhanlı'nın çöküşünden (1335) 36 yıl SONRAdır — bu aralıkta veride `ilhanli` köprüsü kullanılacak (künye tarafında ek işlem gerekmiyor).",
+  kaynak:"gilan (TDV, bitiş tarihi) + Encyclopaedia Iranica, madde: KĀR KIĀ (kuruluş tarihi, 773/1371-72)",
+  kronoloji:[
+    { t:"1371-01-01", tur:"kurulus", b:"Ali Kiyâ, babası Emîr Kiyâ'nın ailesiyle Doğu Gilân'a dönüp hâkimiyeti tesis etti (773 AH, tam gün yok)" },
+    { t:"1501-01-01", tur:"vassal", b:"Safevî hâkimiyeti kuruldu, Kârkiyâ'lar yerel/nominal beylik olarak sürdü" },
+    { t:"1592-01-01", tur:"son", b:"Şah I. Abbas bölgeyi doğrudan hâkimiyeti altına aldı, hanedan sona erdi" }
+  ]
+},
+{ id:"mazenderan-marasi", ad:"Mar'aşî Seyyidleri (Mâzenderan)", tur:"hanedanlik", bolge:"iran",
+  f:"1359-01-01", t:"1596-01-01", baskent:"Âmül → Sârî",
+  ozet:"Aslen Maraşlı bir seyyid ailesinin Mâzenderan'da kurduğu Şiî hanedan; kurucusu Seyyid Kıvâmüddin ('Mîr-i Büzürg'), yerel hâkim Kiyâ Efrâsiyâb'ı yenip 760'ta (1359) Âmül'ü ele geçirerek hâkimiyetini tesis etti (TDV `marasiler` maddesi, NET tarih). Timur'a 1392'de teslim oldu, sonra Şâhruh izniyle geri döndüyse de eski gücüne ulaşamadı; XVI. yüzyıl başında Safevî'ye bağlı yerel hâkimler olarak sürdü. ⚠️ TDV bitişi YIL VERMEDEN 'Şah I. Abbas zamanında (1587-1629) çeşitli yerlere dağıtıldılar' diyor — kesin son yıl TDV'de BULUNAMADI. Veride kullanılan 1596, TDV dışı ikincil kaynaklarca (Encyclopaedia Iranica'ya atıfla) doğrulanıyor ama doğrudan Iranica madde metnine erişilemedi (403); bu satır o ölçüde emin.",
+  kaynak:"marasiler (TDV, kuruluş NET) + bitiş tarihi (1596) TDV'de yok, dolaylı doğrulama: Encyclopaedia Iranica'ya atıf yapan ikincil kaynaklar (Iranica madde metnine erişilemedi)",
+  kronoloji:[
+    { t:"1359-01-01", tur:"kurulus", b:"Seyyid Kıvâmüddin, Kiyâ Efrâsiyâb'ı yenip Âmül'ü ele geçirdi (760 AH, tam gün yok)" },
+    { t:"1392-10-26", tur:"vassal", b:"Timur'a Mâhâneser Kalesi'nde teslim oldu (8 Zilhicce 794)" },
+    { t:"1596-01-01", tur:"son", b:"Şah I. Abbas döneminde hanedan mensupları dağıtıldı, siyasî varlığı sona erdi (TDV yıl vermiyor, tarih ikincil kaynaktan)" }
+  ]
+},
+
 // ===================== TIER 3 — AVRUPA'NIN ORTA ÖLÇEK DEVLETLERİ =====================
 
 { id:"macaristan", ad:"Macaristan Krallığı (bağımsız dönem)", tur:"krallik", bolge:"orta-avrupa",
