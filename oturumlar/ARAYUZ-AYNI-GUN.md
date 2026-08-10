@@ -84,13 +84,30 @@ h18#6   "deniz seferleri karanın üstünden geçip gelemez"
 `data/savaslar.js`te elle çizili (41 güzergâh) ve **arayüzde** çiziliyor.
 Denizden giden bir seferin karadan geçmesi bir **çizim** kusurudur.
 
+🟢 **VE ÖLÇÜLDÜ — İŞ SANDIĞINDAN KAT KAT KÜÇÜK.** `data/savaslar.js`:
 ```
-① ÖLÇ     bugün kaç sefer oku var, kaçı deniz/kara ayrımı yapıyor,
-          kaçında yön (ileri/geri) belirtiliyor
+SEFERLER = 61 kayıt
+   sefer 29 · kusatma 12 · deniz 9 · isyan 5 · cekilme 3 · akin 1 · teslim 1 · seyahat 1
+```
+```
+tur:"deniz"     9 kayıt VAR   → h18#6'nın ayrımı VERİDE KURULU
+tur:"cekilme"   3 kayıt VAR   → h11#31'in ayrımı VERİDE KURULU
+```
+⇒ **İkisi de "veri yok" değil, "çizim yok."** Savoy seferi bile hazır:
+`{tur:"deniz", yol:[[12.34,45.44] …]}`, 11 noktalı, Venedik'ten başlıyor.
+
+```
+① ÖLÇ     · 61 güzergâhın kaçı bugün türüne göre FARKLI çiziliyor?  (beklenen: 0)
+          · 9 deniz güzergâhının `yol:` çizgisi KARA MASKESİNİ kesiyor mu?
+            (maske `veri-kaynak/` altında — elle çizim GEREKMİYOR,
+             9 rota otomatik sınanır)
 ② TASARLA · SUN · UYGULA · DOĞRULA   (İŞ 1 ile aynı düzen)
 ```
-⚠️ **`data/savaslar.js` SENİN DEĞİL.** Veri eksikse **yazma**, koordinatöre
-bildir. Senin işin **gösterim**, veri değil.
+⚠️ **`data/savaslar.js` SENİN DEĞİL.** Bir rotanın **yolu yanlışsa** düzeltme —
+ölç, listele, koordinatöre bildir. Senin işin **gösterim**, veri değil.
+📌 Yani `h18#6` (*"deniz seferleri karanın üstünden geçip gelemez"*) iki ayrı
+şey olabilir: **çizim kusuru** (senin) ya da **rota kusuru** (veri). Ölçüm
+hangisi olduğunu söyler — **tahmin etme.**
 
 ---
 
