@@ -53,6 +53,27 @@
 
 ---
 
+## 🔴🔴 KÜLLİYATIN EN ÇOK TEKRARLANAN ŞİKÂYETİ — YEDİ KEZ, DÖRT DOSYADA
+
+> **"Bir yerleşimin peteği denizi geçmemeli."**
+> ```
+> h1 #8 Midilli→Ayvalık · h1 #10 Zakintos→karşı kıyı · h1 #6 İstanbul→Erdek
+> h4 #7 Derbend→Hazar ötesi · h4 #8 Bakü→Hazar ötesi
+> h15 #19 Oran→İSPANYA ANAKARASI · h18 "Savoy seferi karadan geçemez"
+> ```
+> 🔴 Yedi kez yazmak, bir şeyi yedi kez fark etmek değil — **her seferinde
+> düzeltilmediğini görmektir.**
+>
+> 🟢 **Şartname yazıldı: `oturumlar/MOTOR-DENIZASIRI.md`** (Opus · `uret_petek.py`
+> devredildi). İçinde iki tasarım seçeneği ölçülmüş hâlde: **(a) kara bileşeni
+> kuralı** (topolojik, eşiksiz) · **(b) A1 tavanının onarımı** — ve onarımın
+> eksik parçası bulundu: `uret_petek.py:874` `_ENKLAV` kümesi **zaten** yetim yüz
+> emmesini engelliyor (bugün 14 nokta). Tavanla kesilen toprak da muaf tutulabilir.
+>
+> ⚠️ **ÖLÇÜLMEMİŞ:** bugün kaç tane kaldığı. Şartnamenin **ADIM 1**'i bu.
+
+---
+
 ## SIRADAKİ DALGA — ölçüldü, uygulanmadı
 
 | iş | kim / ne zaman |
@@ -63,7 +84,7 @@
 | **Yuvarlak tarih partisi** — `1897` · `1556` · `1889` gerçek günlerine çekilmeli; kırılmalar kronolojiyle kapatılamıyor | koordinatör |
 | **Cezayir hayaleti** — 6 nokta 1854'e kadar Osmanlı tâbisi, oysa 1830'da bitti (24 yıl) | TDV turu |
 | **Söğüt `k:1`** — etiket sönmesi için kademe kuralına **zaman ayağı** gerekiyor | arayüz |
-| **`denetle_iddia.py`** — *"her maddenin kırılması var mı"* · ateşleme takımı 4 vakayla **hazır** | koordinatör |
+| **`denetle_iddia.py`** — *"her maddenin kırılması var mı"* · ateşleme takımı 4 vakayla **hazır**. 🔴 **İlk gerçek vakası bulundu: Zebîd.** Kronoloji `1516-06-20 "Zebîd'in ALINMASI"` diyor, veri o gün şehri **Memlük'e** veriyor. İkisi de kendi içinde tutarlı ⇒ `denetle.py` **göremez**. Madde ile kırılmanın *aynı şeyi söyleyip söylemediğini* kimse sormuyor | koordinatör |
 | 🔴 **ANLATIM BOŞLUĞU — *"fetih"in çoğu yabancıdan alma değil, KENDİ TÂBİİNİ doğrudan idareye çevirme.*** Beş vaka: Hotin 1713 · Yanova 1658 · Varad 1660 · Bucak-Bender 1538 · Akkirman 1484. **Emre bunu ÜÇ ayrı maddede sordu** ⇒ veri doğru, kullanıcı okuyamıyor. Kronolojide bu geçişin kendi dili olmalı | kronoloji |
 | 🔵 **Boğdan seyrekliği** — bütün voyvodalığı **8 nokta** temsil ediyor, petek kenarları o yüzden cetvelle çizilmiş gibi. Öneri: Galaţi · Tekuç · Vaslui · Botoşani · Hârlău · Kilia (⚠️ `Kili` zaten kayıtlı olabilir — 3 km kuralı) | nokta oturumu |
 | 🟢 **`hanthawaddy` — ÖLÇÜLDÜ, VERİ TEMİZ.** VERİ DEVLET 2 *"1539-1740 bağımsız değildi, künye bölünmeli mi"* diye sordu. Veri **zaten bölünmüş**: `hanthawaddy 1287→1539` + `1740→1755/57`, aradaki 200 yıl `toungoo`da (28 nokta-dönem). **Hayalet YOK.** Kusur yalnız künyenin `f/t` aralığında (`1287→1757` kesintisiz görünüyor) ve özetinde (*"dört buçuk asır süren süreklilik"* — yanıltıcı) ⇒ **tek cümlelik özet düzeltmesi** | koordinatör · dosya devrinden sonra |
