@@ -271,5 +271,48 @@ haliyle yazıldı.
 **Toplam: 108 → 80 (28 künye düzeltildi, 30'luk parti tamamlandı).**
 Sonuç node ile ölçüldü: `D.filter(x => x.kronoloji.length <= 2).length`.
 
-**Sırada:** kalan 80 künyeden nokta sayısına göre bir sonraki 15'lik
-parti. KUTU DENETİM kapandı, künye kalemi gelmeyecek — kesintisiz devam.
+**ÜÇÜNCÜ 15'LİK PARTİ TAMAMLANDI (2026-08-10): 80 → 67.**
+```
+kakatiya (8)        2→4   Talbot/Jackson akademik (Rudrama Devi, 1310 Malik Kâfûr)
+pandya (8)          2→5   Nilakanta Sastri + Jackson + Marco Polo (Yule-Cordier çevirisi)
+                          ⚠️ mevcut 1311 "haraç" etiketi akademik kaynakla tam örtüşmüyor
+                          olabilir (Pandya kralı resmen tâbi kılınamamış) — NOT düşüldü, değiştirilmedi
+litvanya (3)        2→4   Senn 1966 + Eidintas/Žalys/Senn 1997
+avustralya (3)      2→5   Macintyre 'A Concise History of Australia' + resmî arşivler
+san-devletleri (3)  2→5   Aung-Thwin & Aung-Thwin + Britannica 'Alaungpaya Dynasty'
+granada (7)         1→5   TDV girnata+nasriler — f: 1238-01-01→1238-05-12 (TDV tam gün)
+usfuri (4)          1→1   BULUNAMADI + 🔴 KİMLİK ÇELİŞKİSİ (aşağıda)
+cebri (4)           2→5   kaynak DÜZELTİLDİ (bahreyn→cebriler, asıl zengin madde)
+cammu-kesmir (3)    1→1   BULUNAMADI — TDV kesmir maddesi 1846'dan sonra boşluk veriyor
+cavnpur-sultanligi(8) 2→6 kaynak DÜZELTİLDİ (bulunamadı→jaunpur+sarki-sultanligi,
+                          eski alan BAYATTI, ozet'teki alıntı zaten doğruydu)
+brunei-sultanligi(6) 2→5  TDV bruney (zengin madde, akademiğe gerek kalmadı)
+ternate-sultanligi(5) 2→5 Andaya 1993 + Britannica 'Ternate Island'
+madurai-sultanligi(5) 2→5 Aiyangar 1921 (İbn Battûta'nın bizzat tanıklığı)
+karnatik (4)        2→4   Britannica 'Robert Clive' + 'Carnatic Wars'
+hanthawaddy (8)     2→5   Britannica + 🔴 YAPISAL ÇELİŞKİ (aşağıda)
+```
+
+🔴 **AKSAKLIK 1, BEKLETMEDEN BİLDİRİLİYOR — `usfuri` KİMLİK ÇELİŞKİSİ:**
+TDV'nin `cebriler`/`bahreyn`/`lahsa`/`katif`/`karmatiler`/`necid`/`ahsa`
+maddelerinin TAMAMI tarandı — "Usfûrîler" adı TDV'de HİÇ geçmiyor. TDV bu
+dönemi (1417'de Cebrîlerce devrilen hanedan) "**Cervânîler**" diye
+adlandırıyor. Zayıf ikincil kaynaklar (Wikipedia/Alchetron/Grokipedia)
+"Usfûrîler 1253-1392" diyor ama kırmızı çizgiye takılıyor, kullanılamaz.
+**Künye adı/tarihi DEĞİŞTİRİLMEDİ**, ozet'e açıkça yazıldı. Nebhani/toga-timur
+emsali: isim netleşmeden künye taşınmaz.
+
+🔴 **AKSAKLIK 2, BEKLETMEDEN BİLDİRİLİYOR — `hanthawaddy` YAPISAL BOŞLUK:**
+İki bağımsız Britannica maddesi gösteriyor ki bu künye KESİNTİSİZ 470 yıllık
+bir krallık DEĞİL: orijinal Hanthawaddy 1539'da Toungoo'ya yenilip son buldu;
+Peygu 1539-1740 arası (~200 yıl) Toungoo/Ava'ya bağlı bir BAŞKENTTİ, bağımsız
+krallık değildi. Bağımsızlık 1740 Mon isyanıyla kısa süreliğine (1740-1757)
+geri geldi. Gerçekte İKİ dönem var: (a) 1287-1539 (252 yıl) (b) 1740-1757
+(17 yıl). Künyenin BÖLÜNÜP bölünmeyeceği (iki ayrı künye) koordinatörün/veri
+sahibinin kararı — değiştirmedim, yalnız 3 olayla (1472/1539/1740) çelişkiyi
+GÖRÜNÜR kıldım.
+
+**Toplam: 108 → 67 (41 künye düzeltildi/doğrulandı, hedef ≤40'a çok yakın).**
+
+**Sırada:** kalan 67 künyeden nokta sayısına göre dördüncü 15'lik parti.
+KUTU DENETİM kapandı, künye kalemi gelmeyecek — kesintisiz devam.
