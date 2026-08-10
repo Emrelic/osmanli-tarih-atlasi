@@ -1215,6 +1215,49 @@ for _i in range(len(PETEK_D)):
     _ic = [p for p in _ps if p.contains(_ptl[_i])]
     _kvana.append(_ic[0] if _ic else min(_ps, key=lambda p: p.distance(_ptl[_i])))
 
+# ═══ 🔴 10 Ağustos 2026 — BİLEŞEN KİLİDİ (MOTOR DENİZAŞIRI oturumu) ═══════════
+# ADA KURALI (yukarıda, :997) peteği KENDİ kara bileşenine kısıtlıyor.
+# BU AŞAMA onu geri veriyordu. Sebep ÖLÇÜLDÜ: 0,05°lik ızgara (≈5,5 km) dar
+# boğazı GÖREMİYOR ve adayı anakaraya bitişik sanıyor —
+#     Pag    ızgara bileşeni 4.084 / 4.868 hücre = %83,9  → anakaraya "bağlı"
+#     Vardø  ızgara bileşeni 3.307 / 3.307      = %100   → anakaraya "bağlı"
+#   (gerçek maskede ikisi de AYRI bileşen: Pag #351 · Vardø #1886)
+# ⇒ ADA KURALI kesiyor, Dijkstra geri veriyor. A1 tavanı / yetim yüz vakasının
+#   İKİZİ: iki aşama tek tek doğru, ARALARINDA sözleşme yok.
+#
+# ÇARE: devir yalnız ALICI ile PARÇA aynı GERÇEK maske bileşenindeyse geçerli.
+#   Izgara SAHİPLİĞE karar vermeye devam eder; yalnız bileşen atlayamaz.
+#
+# ÖLÇÜLDÜ — koşusuz, yayındaki `petek_govde.js` (r1140) üzerinde:
+#   · etkisi TAM İKİ KAYIT: Pag 7.277 km² + Vardø 4.831 km² = 12.108 km²
+#   · motorun KENDİ KABUL TESTİ (:1111) BOZULMUYOR — Oslo · Königsberg · Azak ·
+#     Tromsø · Bergen · Ålesund = 0 km² kayıp. Altısı da tohumlarıyla AYNI
+#     bileşende; Tromsøya ile anakara gerçek maskede tek bileşen (fiyort ağzı
+#     kapalı), o yüzden 20.902 km²lik fiyort toprağı etkilenmiyor.
+#   · noktasız bileşenlere DOKUNMAZ (341.335 km²) — Dijkstra onları zaten
+#     devretmiyor (:1015 "noktasız kara parçası: eski davranış").
+# ⚠️ BEKLENTİ, ÖLÇÜM DEĞİL: `Değişmez 1` değişmemeli (sahipsiz 180 kalır),
+#    çünkü ADA KURALI payı zaten anakara noktasına vermiş oluyor (:1040-1052) —
+#    bu KODDAN ÇIKARIM, koşuyla doğrulanmadı. Koşudan sonra sınanacak.
+_kvkomp_gecerli = [(_j, _k) for _j, _k in enumerate(_komp)
+                   if not _k.is_empty and _k.area > 1e-9]
+_kvkomp_idx = [_j for _j, _ in _kvkomp_gecerli]
+_kvkomp_geo = [_k for _, _k in _kvkomp_gecerli]
+_kvkomp_agac = STRtree(_kvkomp_geo)
+
+
+def _kv_bilesen(_pt):
+    """Noktanın GERÇEK maske bileşeni; maskenin dışındaysa -1 (karar verme)."""
+    for _q in [int(_x) for _x in _kvkomp_agac.query(_pt)]:
+        if _kvkomp_geo[_q].intersects(_pt):
+            return _kvkomp_idx[_q]
+    return -1
+
+
+_kvtohum_bilesen = [_kv_bilesen(_p) for _p in _ptl]
+_kvbilesen_red, _kvbilesen_alan = 0, 0.0
+# ═════════════════════════════════════════════════════════════════════════════
+
 _kvver, _kval, _kvdegisen = {}, {}, []
 _kvkucuk_n, _kvkucuk_a = 0, 0.0
 _kvkararsiz, _kvana_korundu = 0, 0
@@ -1238,6 +1281,15 @@ for _i, _g in enumerate(PETEK_D):
         if _s < 0:
             _kvkararsiz += 1; continue    # ızgarada su/erişilmez → karar verme
         if _s != _i:
+            # 🔴 BİLEŞEN KİLİDİ — alıcı parçanın bileşeninde değilse devir YOK.
+            # Izgara dar boğazı göremediği için "kara yolu var" diyebilir;
+            # gerçek maske hayır diyorsa gerçek maske kazanır.
+            _pb = _kv_bilesen(_rp)
+            if (_pb >= 0 and _kvtohum_bilesen[_s] >= 0
+                    and _pb != _kvtohum_bilesen[_s]):
+                _kvbilesen_red += 1
+                _kvbilesen_alan += _a
+                continue
             _kval.setdefault(_i, []).append(_p)
             _kvver.setdefault(_s, []).append(_p)
             _kvdegisen.append((_a, YERLER[_i]["ad"], YERLER[_s]["ad"], _rp.y, _rp.x))
@@ -1250,6 +1302,9 @@ print(f"  {len(_kvdegisen)} parça el değiştirdi, toplam "
 print(f"  ızgaraya sorulmayan: {_kvkucuk_n} parça / {_kvkucuk_a:,.0f} km² "
       f"({KV_MIN_KM2:.0f} km² altı) · kararsız {_kvkararsiz} · "
       f"ana parça korundu {_kvana_korundu}")
+print(f"  🔒 bileşen kilidi: {_kvbilesen_red} devir REDDEDİLDİ / "
+      f"{_kvbilesen_alan:,.0f} km² (ada kuralı korundu) "
+      f"— ÖNGÖRÜ: 2 parça / 12.108 km² (Pag 7.277 + Vardø 4.831)")
 # Hiçbir petek tamamen boşalmamalı — ana parça kuralı bunu garanti eder, ama
 # garanti EDİLDİĞİNİ VARSAYMAK yerine ölçülür. İlk koşuyu düşüren tam buydu.
 _kvbos = [YERLER[_i]["ad"] for _i in range(len(PETEK_D))

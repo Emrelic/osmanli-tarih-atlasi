@@ -1,0 +1,92 @@
+{
+  "_ne": "A KOŞUSU ÖNGÖRÜSÜ — koşu BAŞLAMADAN yazıldı (CLAUDE.md §11)",
+  "_yazan": "MOTOR DENİZAŞIRI (Opus)",
+  "_damga": "2026-08-10, koşu başlamadan önce",
+  "_taban": {
+    "yayın": "r1140",
+    "petek_govde": "data/petek_govde.js · 2308 yerleşim · 5089 parça",
+    "kaynak_koşu": "kosu7.log · 10 Ağustos 17:49",
+    "not": "Bütün öngörüler bu taban üzerinde ölçüldü. Taban kayarsa (yeni nokta partisi bağlanırsa) ② ve ③ etkilenir, ① ve ④ ETKİLENMEZ."
+  },
+
+  "kalemler": [
+    {
+      "no": 1,
+      "ad": "BİLEŞEN KİLİDİNİN ETKİSİ",
+      "beklenen": "2 devir reddedilir · 12.108 km²",
+      "ayrıntı": "Pag (Pago) 7.277 km² + Vardø 4.831 km² anakara noktalarında KALIR",
+      "nerede_görünür": "koşu çıktısı: '🔒 bileşen kilidi: N devir REDDEDİLDİ / X km²'",
+      "mazeret_hakkı": "YOK",
+      "mazeret_gerekçesi": "Ölçüm koşusuz yapıldı ve tam sayım (örnekleme değil). Sayı 2'den farklı çıkarsa ya ölçümüm yanlıştı ya kilit yanlış yere kondu — ikisi de bulgu.",
+      "tabana_duyarlı": false,
+      "duyarlılık_gerekçesi": "Pag ve Vardø'nun ada oluşu yeni noktalardan bağımsız"
+    },
+    {
+      "no": 2,
+      "ad": "MOTORUN KENDİ KABUL TESTİ (uret_petek.py:1111)",
+      "beklenen": "Oslo · Königsberg · Azak · Tromsø · Bergen · Ålesund = 0 km² kayıp",
+      "ayrıntı": "Altısı da tohumlarıyla AYNI gerçek maske bileşeninde; Tromsøya ile anakara tek bileşen (fiyort ağzı kapalı), 20.902 km²lik fiyort toprağı etkilenmemeli",
+      "nerede_görünür": "koşu sonrası petek alanları · bu altısının alanı değişmemeli",
+      "mazeret_hakkı": "YOK — MOTORUN KENDİ YAZDIĞI KURAL",
+      "mazeret_gerekçesi": ":1111-1113 aynen: 'Oslo, Königsberg ve Azak dar su geçişli MEŞRU parçalardır ve 0 km² kaybetmelidir. Kural onları bozuyorsa KURAL YANLIŞTIR.' Tutmazsa bileşen kilidi GERİ ALINIR.",
+      "tabana_duyarlı": false
+    },
+    {
+      "no": 3,
+      "ad": "DEĞİŞMEZ 1 — SAHİPSİZ SAYISI",
+      "beklenen": "180 (değişmez)",
+      "ayrıntı": "ADA KURALI payı zaten anakara noktasına veriyor (:1040-1052); Dijkstra geri almazsa toprak orada kalır, sahipsizleşmez",
+      "nerede_görünür": "py arac/denetle.py",
+      "mazeret_hakkı": "VAR — SINIRLI",
+      "mazeret_gerekçesi": "🔴 BU BİR ÖLÇÜM DEĞİL, KODDAN ÇIKARIM. Koşuyla doğrulanmadı. Çürürse benim çıkarımım yanlış demektir ve bu BİLGİDİR. Ama 180'den ÇOK sapma (>5) olursa mazeret yok — o zaman kilit beklenmedik bir yerde toprak boşaltıyor demektir.",
+      "tabana_duyarlı": true,
+      "duyarlılık_gerekçesi": "Yeni nokta yazılırsa taban değişir; o zaman ayrı ölçülmeli"
+    },
+    {
+      "no": 4,
+      "ad": "OSMANLI ALANI — KESİT KESİT",
+      "beklenen": "0 kesitte değişir",
+      "ayrıntı": "Bileşen kilidi yalnız Pag (Adriyatik) ve Vardø (Barents) noktalarına dokunuyor; ikisi de Osmanlı toprağı DEĞİL ve Osmanlı peteklerine komşu değil",
+      "nerede_görünür": "koşu çıktısı: Osmanlı alanı kesit tablosu",
+      "mazeret_hakkı": "YOK",
+      "mazeret_gerekçesi": "Osmanlı değişirse kilit hedeflemediği bir yere dokunmuş demektir. A1 tavanında (koşu 4b) tam bu kalem çürüdü ve yayın durduruldu — aynı disiplin.",
+      "tabana_duyarlı": false
+    },
+    {
+      "no": 5,
+      "ad": "YENİ RENK ÇAKIŞMASI",
+      "beklenen": "0 yeni çakışma",
+      "ayrıntı": "Veri değişiyor (12.108 km² el değiştiriyor) ⇒ CLAUDE.md §9 gereği renk_olc.py ŞART. Ama değişen toprak iki kayıtta ve ikisi de mevcut komşularına geçiyor; yeni komşuluk doğması beklenmiyor",
+      "nerede_görünür": "py arac/renk_olc.py",
+      "mazeret_hakkı": "VAR",
+      "mazeret_gerekçesi": "CLAUDE.md §9: 'palet verinin fonksiyonudur — renk değişmese bile denetim değişir', üç vakada ölçülmüş. Yeni çakışma çıkarsa bu bilinen davranıştır, kilidin kusuru değildir.",
+      "tabana_duyarlı": true
+    },
+    {
+      "no": 6,
+      "ad": "NOKTA ETKİSİ — AYRI KALEM",
+      "beklenen": "ÖLÇÜLMEDİ — bu koşuda nokta yoksa 0",
+      "ayrıntı": "Halka 1'in 4 noktası (Behramkale/Assos · Beykoz-Şile · Şarköy · Karabiga-Biga) yerleşim oturumu tarafından yazılacak. Yazılırsa Kilitbahir 1.444 + Boğaziçi 137 + Karabiga 124 + Bolayır 93 = 1.798 km² el değiştirmeli.",
+      "nerede_görünür": "koşu çıktısı + görünür kusur ölçümünün tekrarı",
+      "mazeret_hakkı": "VAR",
+      "mazeret_gerekçesi": "Nokta koordinatları ve dönemleri henüz yazılmadı; etkileri yazılan veriye bağlı. 🔴 BU KALEM KİLİDİN ETKİSİYLE KARIŞTIRILMAMALI — CLAUDE.md §11: iki kusur tek satırda raporlanırsa çareleri ters olsa bile aynı çare uygulanır.",
+      "tabana_duyarlı": true
+    }
+  ],
+
+  "_sınama": {
+    "C13_iki_yön": "yapıldı, koşusuz",
+    "ateşleme": "Pag tohum bileşeni ≠ anakara bileşeni · Vardø tohum bileşeni ≠ anakara bileşeni ⇒ kilit REDDEDER ✓",
+    "geçme_yolu": "Tromsø tohumu ile fiyort toprağı AYNI bileşen (#0) ⇒ kilit SERBEST BIRAKIR ✓",
+    "üçüncü_dal": "maske dışı nokta (bileşen -1) ⇒ kilit KARAR VERMEZ, eski davranış sürer ✓ (10 tohum bu durumda: Sofala · Mozambik Adası · Angoche · Quelimane · Port Moresby · Finschhafen · Koryak · Petropavlovsk · Anadır · Çukotka)",
+    "sözdizimi": "py -m py_compile ✓",
+    "görünmez_bayt": "0x00/0x08/0x0b/0x0c/0x1b taraması temiz ✓ (CLAUDE.md §11 onuncu sınıf)"
+  },
+
+  "_ölçmediklerim": [
+    "Koşu süresine etkisi — bileşen sorgusu parça başına bir STRtree query ekliyor, ölçmedim",
+    "Değişmez 1'in gerçek sonucu (kalem 3 bir ÇIKARIM)",
+    "Halka 2'nin 15 noktasının etkisi (yazılmadı)",
+    "Topografya: görsel teyit yapılamadı (tarayıcı panesi compositing yapmıyor)"
+  ]
+}
