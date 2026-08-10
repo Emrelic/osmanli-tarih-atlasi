@@ -260,3 +260,41 @@ kaybolur.
 - Halil İnalcık külliyatı, Cambridge History of Turkey, Colin Imber — çapraz doğrulama
 - **Elenenler:** blog, forum, ideolojik popüler tarih siteleri. Vikipedi yalnızca
   kaynağa ulaşma aracıdır, tek dayanak değildir.
+
+## 🔴 `d:` ile `v:` ÇAKIŞABİLİR — ve çakışmada **`v:` KAZANIR**
+
+```python
+uret_petek.py:2681
+    tabi     = v: dönemini kapsayanlar
+    dogrudan = d: dönemini kapsayanlar  −  tabi      ← ÇIKARMA
+```
+Yani `d:` uzun Osmanlı hükümranlığını, `v:` onun **içine yuvalanmış** vasal
+aralığı tutabilir. Bu bir kusur **değil**, kasıtlı bir konvansiyondur
+(Şam · Trablusşam · Adana · Tarsus · Girit hepsi böyle).
+
+⚠️ **VE İKİ YAZIM DA GEÇERLİ — aynı adada ikisi birden var:**
+```
+A biçimi   d: KESİLİYOR, araya v: giriyor      Hanya · Sfakia · Sitia
+B biçimi   d: SÜREKLİ, v: içine YUVALANIYOR    Kandiye · Resmo
+```
+İkisi de motorda **aynı** sonucu verir (`− tabi`). Ama:
+
+🔴 **`d:`yi `v:`den ÖNCE okuyan her alet B biçimini YANLIŞ ölçer.**
+Ölçülmüş vaka (10 Ağustos 2026): bir oturum Girit'i ölçtü, kendi `sahip()`
+işlevi `d:`yi önce okuduğu için Kandiye ve Resmo'yu *"OSMANLI"* saydı ve
+**"ada ikiye bölünmüş"** diye raporladı. Koordinatör düzeltme kararı verdi.
+Oturum kendi ölçümünü **üçüncü kez** koşturup çürüttü ve **DUR** dedi.
+⇒ Düzeltme uygulansaydı **bozuk olmayan beş kayıt bozulacaktı** — ve
+`denetle.py` temiz kalacağı için bir daha da anlaşılmayacaktı.
+📌 `§11`in *"pencere dışı noktayı düzeltmek ihlali kapatır, GERÇEĞİ SİLER"*
+vakasının aynısı.
+
+⚠️ Ve `§8`in *"dönemler çakışmamalı"* kuralı **bu çifti kapsamaz** —
+o kural **kategori içi** çakışmayı yasaklar (`d:` ile `d:`, `s:` ile `s:`).
+`denetle.py` de böyle ölçüyor (*"0 kategori-içi çakışma"*) ve `d×v`
+örtüşmesini ayrı bir bilgi satırında sayıyor.
+
+🟢 **Bir alet yazarken kural:** sahiplik sorusu **her zaman** `v:` → `d:` →
+`s:` sırasıyla sorulur. Ters sıra makul bir sayı üretir ve **sessizce
+yanlıştır** — bu sınıfın en pahalı yanı budur.
+
