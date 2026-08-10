@@ -309,9 +309,23 @@ h17 #1 · #6 (Ceneviz üçgeni) · #9 · #16 · #17 · h18 #2 · #4 · #5
 — *"petek sınırı … gerçek kıyı çizgisine, nehir yataklarına ve dağ sırtlarına
 yaslanır, Chaikin ile yumuşatılır"*. Yani ya (a) özellik şikâyetlerden **sonra**
 eklendi, ya (b) çalışıyor ama yetmiyor.
-🔴 **Ölçemem:** üretim kilitliydi, bugünkü çıktıya bakmadım. Ama `h17`nin damgası
-**okunamayan altı dosyadan biri** — yani şikâyetin ne kadar bayat olduğunu da
-bilmiyorum. ⇒ **İki bilinmeyen üst üste; hüküm vermiyorum.**
+🔴 **Ölçemem:** üretim kilitliydi, bugünkü çıktıya bakmadım.
+
+> 🟢 **AMA İKİNCİ BİLİNMEYEN KAPANDI (aynı gün, sonradan).** `h17`nin damgası
+> okundu: **989**, `h18`inki **994**. Ve `docx` dosya tarihleri ölçüldü:
+> ```
+> h1  29 Tem 22:14   …   h15  31 Tem 01:01   h17  31 Tem 20:02   h18  1 Ağu 00:58
+> ```
+> ⇒ **Dosya numarası zamanı birebir izliyor** ve `h17` ile `h18` külliyatın **EN
+> YENİ** dosyaları — en eskisi değil.
+> 🔴 **Bu, önceliği TERSİNE çevirir:** topografya şikâyeti bayat değil, külliyatın
+> **en taze** şikâyeti. Ve Emre onu *"en başından beri şikâyet ediyorum"* diye
+> yazmış ⇒ **hem eski hem taze**: aylardır söylüyor ve **son gün hâlâ söylüyor.**
+> Bayat diye elenemez; kuyrukta **yukarı** çıkmalı.
+>
+> 📌 Ve bu, `⑩`daki *"her ekran görüntüsü kendi sürümünü taşır"* aletinin
+> **sınırını** da gösterdi: toplam sayı **sıra vermiyor** (panel-dosya farkı
+> bilinmedikçe). Sırayı veren şey **dosya tarihiydi** — üçüncü bir ölçüm.
 
 ### 🔴 C. ÜÇÜNCÜ TEMA — "KARASAL BAĞLANTI" (denizaşırının kardeşi)
 
