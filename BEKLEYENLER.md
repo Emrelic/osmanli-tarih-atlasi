@@ -88,6 +88,25 @@ etkiyi görüp maddesini bulamamış. ⇒ ***Bir arayüz kusuru beş veri şikâ
 yaslama aşaması: 8 SANİYE            ← 76 dakikalık koşunun %0,2'si
 ```
 ⇒ **Özellik var, KAPSAMI dar.** Belge yanlış değil ama **fazla iyimser.**
+
+🔴 **VE BU ŞİKÂYET "BAYAT" DİYE ELENEMEZ — ÖLÇÜLDÜ.** Koordinatör *"`h18` en
+eski olabilir, en çok bayat şikâyet orada birikir"* diye öngörmüştü; İÇERİK
+docx **dosya tarihlerini** ölçtü ve **çürüttü**:
+```
+h1  29 Tem 22:14  …  h9  30 Tem 02:46  …  h11 30 Tem 16:58  …
+h17 31 Tem 20:02      h18  1 Ağu 00:58        ← EN YENİ İKİSİ
+```
+⇒ Emre topografyayı *"en başından beri"* söylüyor **ve en son günde hâlâ
+söylüyor.** Kuyrukta **yukarı** çıktı: `MOTOR-DENIZASIRI` oturumunun **ikinci
+işi** olarak şartnameye kondu (aynı dosya, aynı oturum — `uret_petek.py`
+devredilemez).
+
+🟢 **Ve dosya tarihi ölçümü, iki tur çıkarımını KANITLADI:**
+`h9` (30 Tem 02:46) → **983** · `h11` (30 Tem 16:58) → **951** · ve git'te tam o
+aralıkta `776ecb95` *"hatalar 7 madde 4-5: mükerrer taht maddesi"* (−22) +
+`bc3caef3` *"Ali Pasa mukerrer"* (−13), **ikisi de 30 Temmuz.**
+⇒ Mükerrer temizliği **h9 ile h11 ARASINDA**, ve **Emre'nin şikâyeti üzerine.**
+Dört sürüm okundu: `951 · 983 · 989` (h17) · `994` (h18).
 ⚠️ Eşik (`NEHIR_ONEM_ESIGI = 5.0`) **kasten** yüksek: kod *"dereye yaslanma riski
 yok; 6'da 267'ye çıkıyor"* diyor. Yani bu bir **ölçülmüş tercih** — ama 11 kez
 şikâyet edilen bir tercih, yeniden ölçülmeyi hak ediyor.
