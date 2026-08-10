@@ -55,7 +55,8 @@
 | iş | kim / ne zaman |
 |---|---|
 | **TDV TARİH TURU'nun 12 kalemi** — Divriği 110 yıl · Malatya 148 · Eflak 45 (12 kayıt) · Erzincan 41 · ve sorulmayan 5 hata daha. **Dokuz net kalemin altısı bedava** | koordinatör |
-| **~210 görülmemiş docx maddesi** — `hatalar 11` ve `hatalar 15` baştan sona okunmamış | yeni oturum |
+| 🔴 **AYNI GÜN İKİ MADDE** — kullanıcı haritada etkiyi görüyor, maddesini göremiyor. **İkinci kanıtı geldi** ⇒ tek vaka değil, sistematik. Emre'nin kendi teklifi: *"1-2-3 diye numaralandıralım"* | arayüz — şartname yazılacak |
+| **~210 görülmemiş docx maddesi** — `hatalar 11` ve `hatalar 15` baştan sona okunmamış | İÇERİK · ⚪ 21'den **sonra** |
 | **Yuvarlak tarih partisi** — `1897` · `1556` · `1889` gerçek günlerine çekilmeli; kırılmalar kronolojiyle kapatılamıyor | koordinatör |
 | **Cezayir hayaleti** — 6 nokta 1854'e kadar Osmanlı tâbisi, oysa 1830'da bitti (24 yıl) | TDV turu |
 | **Söğüt `k:1`** — etiket sönmesi için kademe kuralına **zaman ayağı** gerekiyor | arayüz |
@@ -70,7 +71,9 @@
 ⏳ VERİ DEVLET 2   beşinci parti · hedefe 12 kaldı
 ⏳ KRONOLOJİ 16    58 madde · kalanlar yuvarlak-tarih engelinde
 ⏳ ŞEHİR KARTI     79/120
-⏳ İÇERİK          18 docx'in görsellerini madde numarasına bağlıyor
+⏳ İÇERİK          ✅ görsel eşlemesi BİTTİ (18 docx · 206 başvuru · 202 medya)
+                   ▶ şimdi: ⚪ ÖLÇÜLMEDİ 21 kalemi görselle çözüyor
+                   🔴 görseller depoya ÇIKARILMADI (149,6 MB) — karar KAPANDI
 ✅ kapandı         KUTU DENETİM · VERİ KİŞİ · DOCX TARAMA · TDV TARİH TURU ·
                    KAYNAK PLANLAMACISI · PADİŞAH
 ```
