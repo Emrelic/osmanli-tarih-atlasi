@@ -30,6 +30,19 @@ window.KISILER = [
 { id:"candarli-hayreddin-pasa", tur:"sadrazam", ad:"Çandarlı Hayreddin Paşa (Kara Halil)", t:"1387", donem:"1364–1387", not:"İlk büyük sadrazam ailesinin kurucusu; Rumeli fetihlerinin örgütleyicisi. Asıl adı Kara Halil'dir; oğlu Çandarlı Ali Paşa ve soyundan gelen Çandarlı Halil Paşa (İstanbul'un fethi sonrası azledilen) ile karıştırılmamalı" },
 { id:"candarli-halil-pasa", tur:"sadrazam", ad:"Çandarlı Halil Paşa", t:"1453", donem:"II. Murad'ın sonu – II. Mehmed'in ikinci cülûsu", not:"İstanbul kuşatmasına şüpheyle yaklaştığı için II. Mehmed tarafından fetihten hemen sonra, 30 Mayıs 1453'te azledildi, kırk gün sonra idam edildi" },
 { id:"mahmud-pasa", tur:"sadrazam", ad:"Mahmud Paşa (Velî)",             donem:"1456–1466, 1472–1474", not:"Fatih'in fetih kadrosunun başı" },
+// 🔴 Kart adı UZUN yazıldı ve gerekçesi ölçüldü: kronolojide iki AYRI Hadım Ali
+// Paşa geçiyor — 1511 Şahkulu maddesindeki "Sadrazam Hadım Ali Paşa" (bu kayıt)
+// ve 1552 Solnok maddesindeki "Hadım Ali Paşa" (Budin beylerbeyi, BAŞKA kişi).
+// Kısa ad ikisine birden tutar ve 41 yıllık yanlış kart açardı; bu ad yalnız
+// birinciye tutuyor, sınandı (993 ad, iki yönlü).
+{ id:"atik-ali-pasa", tur:"sadrazam", ad:"Hadım Ali Paşa (Atik Ali Paşa, sadrazam)", t:"1511", donem:"vezîriâzamlık: 1501–1503 ve 1506–1511", not:"Şahkulu isyanını bastırırken Gökçay'da şehid düşen vezîriâzam; Şahkulu da aynı çarpışmada öldürüldü",
+    dogum_yer:"Saraybosna'nın Drozgometva köyü (devşirme olarak Enderun'da yetişti)",
+    olum:"2 Temmuz 1511",
+    olum_yer:"Gökçay mevkii, Sivas ile Kayseri arasında",
+    olum_sebep:"âsiler üzerine tedbirsizce yürürken çember içine alındı, isabet eden bir okla şehid düştü",
+    gorev:"Bâbüssaâde ağalığı → sancak beyliği → Karaman beylerbeyiliği (1482) → vezîriâzamlık",
+    tartisma:"TDV'de maddesi 'Hadım Ali Paşa' değil 'ATİK ALİ PAŞA' başlığı altındadır; madde iki adın aynı kişiye ait olduğunu açıkça söyler ('Hadım lakabıyla da tanınan Ali Paşa'). 1552 Solnok seferinde geçen Budin beylerbeyi Hadım Ali Paşa ile KARIŞTIRILMAMALIDIR — bu kayıt 1511'de ölmüştür.",
+    kaynak:"TDV: atik-ali-pasa" },
 { id:"pargali-ibrahim-pasa", tur:"sadrazam", ad:"Pargalı İbrahim Paşa", t:"1536", donem:"1523–1536", not:"Kanunî'nin makbul ve maktul veziri; Irakeyn seferinin yöneticisi" },
 { id:"sokullu-mehmed-pasa", tur:"sadrazam", ad:"Sokullu Mehmed Paşa", f:"1505", t:"1579", donem:"1565–1579", not:"Üç padişah devrinin kudretli sadrazamı" },
 { id:"koprulu-mehmed-pasa", tur:"sadrazam", ad:"Köprülü Mehmed Paşa", t:"1661", donem:"1656–1661", not:"Köprülüler devrinin kurucusu" },
@@ -39,6 +52,17 @@ window.KISILER = [
 { id:"baltaci-mehmed-pasa", tur:"sadrazam", ad:"Baltacı Mehmed Paşa",            donem:"1704–1706, 1710–1711", not:"Prut zaferinin komutanı" },
 { id:"nevsehirli-damad-ibrahim-pasa", tur:"sadrazam", ad:"Nevşehirli Damad İbrahim Paşa", f:"1666", t:"1730", donem:"1718–1730", not:"Lâle Devri'nin yöneticisi" },
 { id:"damad-ali-pasa", tur:"sadrazam", ad:"Damad Ali Paşa (Şehid)", t:"1716", donem:"1713–1716", not:"Mora'yı geri alan sadrazam; Petrovaradin'de şehit" },
+{ id:"ivazzade-halil-pasa", tur:"sadrazam", ad:"İvazzâde Halil Paşa", f:"1724", t:"1776", donem:"1724/25–1776 (sadrazamlık: 12 Aralık 1769 – 20 Aralık 1770)", not:"1770 Kartal Bozgunu'nun serdâr-ı ekremi; Rus kuvvetleri karşısında yenilip ordugâhı terketti, dört ay sonra mührü alındı",
+    dogum:"1137 (1724-25)",
+    dogum_yer:"İstanbul",
+    olum:"20 Aralık 1776 (9 Zilkade 1190)",
+    olum_yer:"Korupazarı kazası — Sivas beylerbeyiliğine giderken yolda",
+    olum_sebep:"göreve hasta bir halde yola çıkmıştı",
+    baba:"Sadrazam Hacı İvaz Paşa — 1739'da Belgrad'ı Avusturyalılar'dan geri aldığı için 'Belgrad fâtihi' diye ün yapmıştı",
+    gorev:"Mîrâhûr-ı evvel (üç defa) → vezâretle Rumeli beylerbeyiliği pâyesi (5 Ekim 1769) → sadrazam ve serdâr-ı ekrem (12 Aralık 1769 – 20 Aralık 1770) → Selânik ve Sivas beylerbeyiliği",
+    tartisma:"TDV maddesi bu bozgunu 'Kartal (Larga) Muharebesi' adıyla ve 2 Ağustos 1770 tarihiyle verir; atlasın kronolojisi aynı olayı 1 Ağustos 1770'te 'Kartal (Kagul) Ovası Bozgunu' adıyla tutuyor. Ad ve gün farkı koordinatöre bildirildi — kronoloji dosyası bu kaydı yazan oturumun yetkisinde değil.",
+    tarihciler:"Çağdaşı bazı tarihçiler bozgunu doğrudan onun adıyla, 'Halil Paşa inhizamı' diye anmıştır. Kendisi padişaha yazdığı arîzada açıkça 'Bu askerle iş görülmez' diyerek barış görüşmelerini savunmuştu; hezimet İstanbul'a 13 Ağustos 1770 tarihli bir mahzarla duyuruldu.",
+    kaynak:"TDV: ivazzade-halil-pasa" },
 { id:"alemdar-mustafa-pasa", tur:"sadrazam", ad:"Alemdar Mustafa Paşa",           donem:"1808", not:"II. Mahmud'u tahta çıkaran Rusçuk âyanı; Sened-i İttifak'ın mimarı" },
 { id:"mustafa-resid-pasa", tur:"sadrazam", ad:"Mustafa Reşid Paşa", f:"1800", t:"1858",            donem:"1800–1858 (sadrazamlık: 1846–1858 arası 6 kez)", not:"Tanzimat Fermanı'nın mimarı; İngiltere desteğinin sağlayıcısı" },
 { id:"ali-pasa", tur:"sadrazam", ad:"Âlî Paşa", f:"1814", t:"1871", dogum_yer:"İstanbul", olum_yer:"İstanbul",         donem:"1814–1871 (sadrazamlık: 1852–1871 arası 5 kez)", not:"Islahat Fermanı ve Tanzimat diplomasisinin yürütücüsü; 7 Eylül 1871'de öldü, Süleymaniye haziresine defnedildi" },
@@ -69,6 +93,24 @@ window.KISILER = [
 { id:"enver-pasa", tur:"komutan", ad:"Enver Paşa",                      f:"1881", t:"1922", donem:"1881–1922", not:"Harbiye nâzırı; Edirne'nin geri alınışı" },
 { id:"mustafa-kemal-pasa", tur:"komutan", ad:"Mustafa Kemal Paşa (Atatürk)",    f:"1881", t:"1938", donem:"1881–1938", not:"Çanakkale, Millî Mücadele önderi, ilk cumhurbaşkanı" },
 // --- Denizciler ---
+{ id:"kemal-reis", tur:"denizci", ad:"Kemal Reis", t:"1510", donem:"ö. 1510", not:"1499 Sapienza (Zonchio) deniz zaferinin galibi; Osmanlı açık deniz donanmasının kurucularından, Pîrî Reis'in amcası",
+    dogum_yer:"Gelibolu (bazı kayıtlarda Karaburun)",
+    olum:"Receb 916 / Ekim 1510 (gün bilinmiyor)",
+    olum_sebep:"Rodos yönüne giden yardım filosu fırtınaya yakalandı, kendi gemisinin de batmasıyla boğuldu",
+    gorev:"Reis; 901'de (1495) Sinop'ta Burak Reis ile birlikte dönemin en büyük savaş gemisi tipi olan yeni bir 'göke'nin inşasıyla görevlendirildi",
+    ovgu:"1499 İnebahtı kuşatmasında Anavarin'e Venedik'in denizden yapacağı yardımı önlemekle görevlendirildi ve Sapienza açıklarındaki savaşı kazandı; bir ay sonra Holomiç, Çamlıca ve İnebahtı Boğazı'ndaki deniz savaşlarında da Venedikliler'i yendi. Ertesi yıl Modon, Koron ve Anavarin'in fethinde, 1501'de Anavarin'in geri alınmasında rol oynadı.",
+    tarihciler:"Pîrî Reis'in Kitâb-ı Bahriyye'si, dayısı olan Kemal Reis'in seyir bilgisine dayanır; bu yüzden Osmanlı denizciliğinde onun mirası tek tek zaferlerden çok aktarılan bilgide aranır.",
+    kaynak:"TDV: kemal-reis" },
+// ⚠️ Burak Reis'in TDV'de MÜSTAKİL MADDESİ YOKTUR — `burak-reis` slug'ı 302
+// döndürüyor (ölçüldü). Bilgi, konuyu gerçekten kapsayan `kemal-reis`
+// maddesinin gövdesinden alındı; uydurulmadı, gizlenmedi. (CLAUDE.md §4:
+// "dar slug tutmazsa kapsayıcı maddeyi dene".)
+{ id:"burak-reis", tur:"denizci", ad:"Burak Reis", t:"1499", donem:"ö. 1499", not:"Sapienza'da kendi gemisini Venedik gemileriyle birlikte ateşe vererek Kemal Reis'in zaferini sağlayan göke kapudanı",
+    olum:"19 Zilhicce 904 / 28 Temmuz 1499",
+    olum_yer:"Sapienza (Bradona) adası yakınları — ada sonraları 'Burak Reis' adıyla anıldı",
+    olum_sebep:"Venedikliler onun gökesini Kemal Reis'in gemisi sanıp saldırınca, kendi hayatını ve gemisini gözden çıkararak Venedik gemilerini ateşe verdi",
+    gorev:"Göke kapudanı; 901'de (1495) Sinop'ta Kemal Reis ile birlikte yeni bir gökenin inşasıyla görevlendirildi",
+    kaynak:"TDV: kemal-reis (Burak Reis'in müstakil maddesi TDV'de bulunamadı — `burak-reis` slug'ı 302)" },
 { id:"barbaros-hayreddin-pasa", tur:"denizci", ad:"Barbaros Hayreddin Paşa",         f:"1478", t:"1546", donem:"1478–1546", not:"Kaptan-ı deryâ; Preveze zaferi",
     dogum:"1478 dolayı",
     dogum_yer:"Midilli",
@@ -112,6 +154,15 @@ window.KISILER = [
 { id:"turhan-hatice-sultan", tur:"hanedan", ad:"Turhan Hatice Sultan",            f:"1627", t:"1683", donem:"1627–1683", not:"IV. Mehmed'in annesi; Köprülü'yü iktidara getiren vâlide" },
 { id:"abdulmecid-efendi", tur:"hanedan", ad:"Abdülmecid Efendi",               f:"1868", t:"1944", donem:"1868–1944", not:"Son halife (1922–1924)" },
 // --- Yabancı hükümdarlar ---
+{ id:"cuneyd-bey", tur:"yabanci-hukumdar", ad:"Aydınoğlu Cüneyd Bey", devlet:"aydin", t:"1426", donem:"ö. 829/1426", not:"Son Aydınoğlu beyi; Fetret devrinin taraf değiştiren aktörü, 1422'de Aydın-ili'ni geri aldı, 1426'da bütün soyuyla birlikte ortadan kaldırıldı",
+    baba:"Fâtih İbrâhim Bey (bazı araştırmacılara göre Bodemya Emîri Bahadır İbrâhim Bey ile aynı kişidir)",
+    olum:"829 / 1426",
+    olum_yer:"Sisam adası karşısındaki İpsili'de teslim olduktan bir süre sonra",
+    olum_sebep:"Osmanlılar'a teslim olduktan sonra bütün soyu sopu ile birlikte yok edildi",
+    gorev:"İzmir beyi; Aydınoğulları Beyliği'nin son hükümdarı",
+    tartisma:"Babasının kimliği tartışmalıdır: TDV maddesi Fâtih İbrâhim Bey'i verir ama bu zatın Bodemya Emîri Bahadır İbrâhim Bey ile aynı kişi olup olmadığı ihtilâflıdır.",
+    tarihciler:"Fetret devrinde önce Emîr Süleyman'ın, sonra Düzmece Mustafa'nın yanında yer alması, tek bir hânedan taraftarlığından çok beyliğini diriltme hesabıyla açıklanır; Ayasuluk'u alıp Aydınoğlu Mustafa Bey'i öldürmesi ve Venedik'le temas araması II. Murad'ı harekete geçirdi. Anadolu Beylerbeyi Hamza Bey'in seferi, oğlu Kurd Hasan'ın Akhisar yakınlarında esir düşmesi ve Cenevizliler'in denizden ablukasıyla sonuçlandı.",
+    kaynak:"TDV: cuneyd-bey" },
 { id:"konstantinos11", tur:"yabanci-hukumdar", ad:"XI. Konstantinos", devlet:"bizans",       t:"1453", donem:"ö. 1453", not:"Son Bizans imparatoru" },
 { id:"timur", tur:"yabanci-hukumdar", ad:"Timur", devlet:"timurlu",                  f:"1336", t:"1405", donem:"1336–1405", not:"Ankara Savaşı'nın galibi" },
 { id:"uzun-hasan", tur:"yabanci-hukumdar", ad:"Uzun Hasan", devlet:"akkoyunlu",             f:"1423", t:"1478", donem:"1423–1478", not:"Akkoyunlu hükümdarı; Otlukbeli" },
@@ -168,7 +219,17 @@ window.KISILER = [
 { id:"sultan-huseyin", tur:"yabanci-hukumdar", ad:"Şah Sultan Hüseyin",      devlet:"safevi",      f:"1668", t:"1726", donem:"1668–1726 (saltanat 1694–1722)", not:"Son fiilî hüküm süren Safevî şahı; 1722 Afgan (Gilzai) istilasında İsfahan'ın düşüşüyle tahttan indirildi" },
 { id:"kara-yuluk-osman-bey", tur:"yabanci-hukumdar", ad:"Kara Yülük Osman Bey",    devlet:"akkoyunlu",   t:"1435", donem:"ö. 1435", not:"Akkoyunlu Devleti'nin kurucusu; Diyarbekir merkezli beyliği bölgesel güç hâline getirdi" },
 { id:"yakub-bey", tur:"yabanci-hukumdar", ad:"Yakub Bey (Akkoyunlu)",   devlet:"akkoyunlu",   donem:"saltanat 1478–1490", not:"Uzun Hasan'ın oğlu ve halefi; babasının Otlukbeli sonrası topraklarını bir süre daha ayakta tuttu" },
-{ id:"kara-yusuf", tur:"yabanci-hukumdar", ad:"Kara Yusuf",              devlet:"karakoyunlu", t:"1420", donem:"ö. 1420", not:"Timur'a karşı direnen, 1410'da Bağdat'ı alan Karakoyunlu hükümdarı" },
+// ⚠️ Akkoyunlular maddesinde İKİ ayrı Elvend geçiyor: biri 1448'de amcası Cihan
+// Şah'a isyan eden İskender oğlu, öteki BUDUR — Yûsuf Mirza'nın oğlu, Şah
+// İsmail'in 1501'de Nahcıvan yöresinde yendiği hükümdar. Kayıt ikincisidir.
+{ id:"elvend-bey", tur:"yabanci-hukumdar", ad:"Elvend Bey (Akkoyunlu)", devlet:"akkoyunlu", t:"1505", donem:"hükümdarlık 1498–1501, Âmid'de 1505'e kadar", not:"Şah İsmail'in 1501'de Nahcıvan yöresinde yendiği son Akkoyunlu hükümdarı; yenilgisi Safevî Devleti'nin Tebriz'de kuruluşunun önünü açtı",
+    baba:"Yûsuf Mirza",
+    olum:"1505",
+    olum_yer:"Âmid (Diyarbakır)",
+    gorev:"Akkoyunlu hükümdarı — 1498'de Tebriz'de tahta çıkarıldı; 1500'deki paylaşımda Âmid, Azerbaycan ve Arrân onun idaresinde kaldı",
+    tartisma:"Akkoyunlu Devleti'nin sonu tek bir tarihe indirgenemez: Elvend 1501'de yenilip Âmid'e çekildi ve 1505'te orada öldü, kardeşi Murad 1503 Hemedan yenilgisinden sonra Bağdat'ta 1509'a kadar hüküm sürdü, Murad Mirza ise 1514'e kadar. TDV maddesi bu üç ucu da ayrı ayrı verir.",
+    kaynak:"TDV: akkoyunlular (Elvend'in müstakil maddesi TDV'de bulunamadı — `elvend-bey` ve `elvend` sluglarının ikisi de 302)" },
+{ id:"kara-yusuf", tur:"yabanci-hukumdar", ad:"Kara Yusuf",            devlet:"karakoyunlu", t:"1420", donem:"ö. 1420", not:"Timur'a karşı direnen, 1410'da Bağdat'ı alan Karakoyunlu hükümdarı" },
 { id:"cihan-sah", tur:"yabanci-hukumdar", ad:"Cihan Şah",               devlet:"karakoyunlu", donem:"saltanat 1438–1467", not:"Karakoyunlu Devleti'ni İran'ın büyük bölümüne yayan en güçlü hükümdarı; Uzun Hasan'a yenilip öldürüldü" },
 { id:"baybars1", tur:"yabanci-hukumdar", ad:"I. Baybars (Zâhir Baybars)", devlet:"memluk",   f:"1223", t:"1277", donem:"1223–1277 (saltanat 1260–1277)", not:"Ayn Câlût'ta Moğolları durduran, Haçlılara karşı sistemli seferler düzenleyen Memlûk sultanlarının en güçlüsü" },
 { id:"zahir-berkuk", tur:"yabanci-hukumdar", ad:"Zâhir Berkuk",            devlet:"memluk",     t:"1399", donem:"ö. 1399 (saltanat 1382–1399)", not:"Burci (Çerkes) Memlûk hanedanının kurucusu sultanı" },

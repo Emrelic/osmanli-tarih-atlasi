@@ -115,7 +115,42 @@ window.PADISAHLAR = [
     + "çıkarır.",
     kaynak:"TDV: bayezid-i" },
   { id: "fetret",      ad: "Fetret Devri (taht mücadelesi)", from: "1402-07", to: "1413-07", ozel: true },
-  { id: "mehmed1",     ad: "I. Mehmed (Çelebi)",           from: "1413-07", to: "1421-05" },
+  { id: "mehmed1",     ad: "I. Mehmed (Çelebi)",           from: "1413-07", to: "1421-05",
+    dogum:"788 (1386) veya 789 (1387) — TDV iki rivayeti de veriyor",
+    dogum_yer:"bulunamadı — TDV maddesi doğum yeri belirtmiyor",
+    olum:"1421-06-25",
+    olum_yer:"Edirne",
+    olum_sebep:"hastalık (son yılında hastalanmıştı, doğal ölüm)",
+    baba:"I. Bayezid (Yıldırım)",
+    anne:"Devlet Hatun (câriye)",
+    tahta:"1413-07-05 (Mûsâ Çelebi'yi yenip Edirne'de tek hükümdar oldu; "
+    + "1402'den beri Anadolu'da Tokat-Amasya-Bursa'ya hâkimdi)",
+    saltanat_yil:8,
+    lakap:["Çelebi","Kirişçi (Yunanca 'genç efendi'den)"],
+    esler:"bulunamadı — TDV maddesinde eş adı geçmiyor, yalnız çocukları sayılıyor",
+    cocuk:{oglan:6,kiz:7},
+    skandal:"Kardeşi Mûsâ Çelebi'yi Fetret'in son safhasında bertaraf etti; "
+    + "yeğeni Orhan'ı (rakip taht iddiacısı) kör ettirip zindana attırdı; "
+    + "muhalif Şeyh Bedreddin'i yakalatıp Serez'de idam ettirdi.",
+    ovgu:"Fetret Devri'ni bitirip Osmanlı Devleti'ni Anadolu ve Rumeli'de "
+    + "yeniden birleştirdi (1413); Bizans ve Balkan vasallarıyla barışı "
+    + "sağladı, tımar-tahrir sistemini yeniden kurumsallaştırdı; Bursa'da "
+    + "Yeşil Cami külliyesini, Edirne'de Eski Cami'yi tamamlattı.",
+    yergi:"Tahtı ele geçirme sürecinde kardeşi Îsâ Çelebi'yi yakalatıp "
+    + "öldürttü; yeğeni Orhan'ı kör ettirdi; eski kazasker ve önemli bir "
+    + "tasavvuf hareketinin öncüsü olan Şeyh Bedreddin'i idam ettirdi — "
+    + "TDV bunu doğrudan kaydeder.",
+    tartisma:"Şeyh Bedreddin isyanının niteliği tartışmalıdır: dinî-"
+    + "toplumsal bir ihtilâl hareketi mi, yoksa taht rakipliği mi olduğu "
+    + "tarihçiler arasında tartışılır. Ayrıca kardeşi Mustafa'nın gerçek "
+    + "mi yoksa 'Düzmece' mi olduğu iddiası da (İA maddesinde 'Mustafa "
+    + "Çelebi, Düzme' başlığıyla geçer) dönemin siyasi propagandasının "
+    + "parçasıdır — TDV bu şüpheyi doğrudan aktarır.",
+    tarihciler:"Madde müellifi Halil İnalcık onu Fetret'i bitirip devleti "
+    + "yeniden birleştiren hükümdar olarak sunar; modern araştırmalar bu "
+    + "dönemi basit bir toparlanma değil, Osmanlı merkezî kurumlarının "
+    + "(tımar, tahrir) yeniden inşası olarak okur.",
+    kaynak:"TDV: mehmed-i" },
   { id: "murad2",      ad: "II. Murad",                    from: "1421-06", to: "1444-08",
     dogum:"1404-06 dolayı",
     dogum_yer:"Amasya",
@@ -151,6 +186,79 @@ window.PADISAHLAR = [
     olum_sebep:"sefer yolunda ani ölüm (nikris/gut; zehirlenme iddiası TDV'de doğrulanmadı)",
     baba:"II. Murad",
     anne:"Hüma Hatun",
+    tahta:"1444-08 (babası II. Murad tahttan çekilip onu 'kaymakam ederek' "
+    + "12 yaşında tahta oturttu; henüz 'Fâtih' değil, resmî unvanı "
+    + "'Mehmed Çelebi Sultan'dı)",
+    saltanat_yil:2,
+    lakap:"bulunamadı — 'Fâtih' lakabını 1453 fetihten SONRA kazandı, bu "
+    + "dönemde henüz kullanılmıyordu",
+    esler:"yok — bu dönemde henüz evli değildi (Sitti Hatun ile evliliği "
+    + "Kasım-Aralık 1450'de, ikinci saltanatından hemen önce)",
+    cocuk:"yok — bu dönemde çocuğu yoktu",
+    skandal:"12 yaşındaki padişah devleti fiilen yönetemedi: Edirne'de "
+    + "kanlı bir Hurûfî ayaklanması (Eylül 1444) ve ardından büyük bir "
+    + "yeniçeri isyanı patlak verdi, gerçek iktidar vezîriâzam Çandarlı "
+    + "Halil Paşa'nın elindeydi. Bu çöküş babası II. Murad'ı 1446'da "
+    + "tahta geri dönmeye zorladı — Osmanlı veraset tarihinde ender "
+    + "görülen bir 'geçici tahttan indirme'.",
+    ovgu:"Kısa ve buhranlı geçse de bu iki yıl genç sultanın kişiliğinde "
+    + "kalıcı iz bıraktı: Çandarlı Halil Paşa'nın nüfuzunu kırma, "
+    + "yeniçerileri hizaya getirme ve İstanbul'u fethetme kararlılığı bu "
+    + "dönemde zihninde yerleşti. Ege'de Venedik'e ait adalara karşı ilk "
+    + "seferler (1446-1449) onun kontrolündeki bölgelerden yürütüldü.",
+    yergi:"Tecrübesizliği yüzünden devlet büyük bir iç bunalıma sürüklendi: "
+    + "Balkanlar'da babasının kazandığı topraklar (Sırp despotluğu, Eflak "
+    + "bağları) bu dönemde geri verildi veya gevşetildi; Anadolu'da "
+    + "Karamanoğlu'na kaleler terkedildi; Arnavutluk'ta İskender Bey "
+    + "isyan etti.",
+    tartisma:"Altı yaşında Amasya valiliğine atandığı iddiası TDV "
+    + "maddesinde 'şüpheli' olarak nitelenir. Bu ilk saltanatın gerçek "
+    + "bir hükümdarlık mı yoksa Çandarlı'nın fiilen yönettiği göstermelik "
+    + "bir naiplik mi olduğu da aynı maddede tartışmaya açık bırakılır.",
+    tarihciler:"Halil İnalcık (madde müellifi) bu iki yılı, sonraki 35 "
+    + "yıllık Fâtih saltanatının psikolojik ve siyasi hazırlığı olarak "
+    + "okur — İstanbul'u fethetme ve merkezî otoriteyi (Çandarlı'ya "
+    + "karşı) güçlendirme kararı burada oluşmuştur.",
+    kaynak:"TDV: mehmed-ii" },
+  { id: "murad2",      ad: "II. Murad (2. saltanatı)",     from: "1446-09", to: "1451-02",
+    dogum:"1404-06 dolayı",
+    dogum_yer:"Amasya",
+    olum:"1451-02-03",
+    olum_yer:"Edirne",
+    olum_sebep:"doğal (48 yaşında, oğlu II. Mehmed'in düğününden kısa süre sonra)",
+    baba:"I. Mehmed (Çelebi)",
+    anne:"cariye (bazı kaynaklarda Şehzade Hatun)",
+    tahta:"1446-08 (Edirne'deki yeniçeri isyanı ve 12 yaşındaki oğlu II. "
+    + "Mehmed'in devleti idare edemediği anlaşılınca, yeniçerilerin "
+    + "desteğiyle ikinci kez tahta çıktı)",
+    saltanat_yil:5,
+    skandal:"Oğlu II. Mehmed'i (henüz 14 yaşında) tahttan indirip yeniden "
+    + "tahta çıkması, Osmanlı veraset düzeninde istikrarsız ve tekrarı "
+    + "görülmemiş bir emsal oluşturdu.",
+    ovgu:"1448'de II. Kosova Savaşı'nda János Hunyadi'nin büyük Haçlı "
+    + "ordusunu kesin biçimde yenerek Osmanlı hâkimiyetini Balkanlar'da "
+    + "sarsılmaz kıldı; 1449'da Eflak'ta Yergöğü'yü aldı; Sırp despotu ve "
+    + "Bizans'la kurduğu barış, oğlunun 1453'teki İstanbul fethinin "
+    + "zeminini hazırladı.",
+    yergi:"İç huzuru sağlamak için sertlik gerekti: Edirne'deki yeniçeri "
+    + "isyanını asker göndererek bastırdı; oğlunu tahttan indirip yeniden "
+    + "tahta çıkması babasının kendi otoritesini de tartışmalı kıldı.",
+    tartisma:"1446'daki dönüşün gerçek sebebi — devletin gerçekten "
+    + "çökmekte olması mı, yoksa Çandarlı Halil Paşa'nın kendi nüfuzunu "
+    + "korumak için krizi büyütmesi mi — kaynaklar arasında net değil.",
+    tarihciler:"Modern tarihçilik 1448 Kosova zaferini Bizans'ın son "
+    + "on yıllarını belirleyen dönüm noktası sayar: Osmanlı Balkan "
+    + "hâkimiyeti burada 'sarsılmaz' hale geldi ve bu da 1453 fethinin "
+    + "önünü açtı.",
+    kaynak:"TDV: murad-ii" },
+  { id: "mehmed2",     ad: "II. Mehmed (Fatih)",           from: "1451-02", to: "1481-05",
+    dogum:"1432-03-30",
+    dogum_yer:"Edirne",
+    olum:"1481-05-03",
+    olum_yer:"Hünkârçayırı, Gebze yakını",
+    olum_sebep:"sefer yolunda ani ölüm (nikris/gut; zehirlenme iddiası TDV'de doğrulanmadı)",
+    baba:"II. Murad",
+    anne:"Hüma Hatun",
     tahta:"1451-02-18",
     saltanat_yil:30,
     lakap:["Fâtih"],
@@ -177,8 +285,6 @@ window.PADISAHLAR = [
     + "siyasi/insani bedelini (III. Mehmed'in 19 kardeşi gibi) onun "
     + "kararına bağlar.",
     kaynak:"TDV: mehmed-ii" },
-  { id: "murad2",      ad: "II. Murad (2. saltanatı)",     from: "1446-09", to: "1451-02" },
-  { id: "mehmed2",     ad: "II. Mehmed (Fatih)",           from: "1451-02", to: "1481-05" },
   { id: "bayezid2",    ad: "II. Bayezid (Velî)",           from: "1481-05", to: "1512-04",
     dogum:"1448",
     dogum_yer:"Dimetoka",
@@ -387,7 +493,50 @@ window.PADISAHLAR = [
     + "bitirirken uzun vadede padişah otoritesini nasıl zayıflattığını "
     + "(I. Mustafa, İbrahim gibi tecrübesiz hükümdarlar) sorgular.",
     kaynak:"TDV: ahmed-i" },
-  { id: "mustafa1",    ad: "I. Mustafa (1. saltanatı)",    from: "1617-11", to: "1618-02" },
+  { id: "mustafa1",    ad: "I. Mustafa (1. saltanatı)",    from: "1617-11", to: "1618-02",
+    dogum:"muhtemelen 1000 (1591-92), Manisa'da",
+    dogum_yer:"Manisa",
+    olum:"1639-01-20",
+    olum_yer:"Topkapı Sarayı (kafeste, kapalı tutulduğu oda)",
+    olum_sebep:"TDV'nin aktardığı çağdaş kayıt 'ecel-i tabîî' (doğal ölüm) "
+    + "der; IV. Murad'ın (yeğeni) rolü olduğuna dair bir rivayet de vardır "
+    + "ama TDV bunu doğrulamaz, yalnız aktarır.",
+    baba:"III. Mehmed",
+    anne:"Abaza asıllı bir câriye; adı TDV'de bilinmiyor",
+    tahta:"1617-11-22",
+    saltanat_yil:0.3,
+    lakap:"bulunamadı — halk ve tekke çevreleri döneminde onu 'pâdişâh-ı "
+    + "velî' diye anıyordu, ama bu resmî bir lakap değil, aklî durumuna "
+    + "yüklenen dinî-mânevî bir yakıştırmaydı.",
+    esler:"bulunamadı — TDV'de eş adı geçmiyor; bazı Batı kaynaklarına "
+    + "göre kadınları yatağına hiç yaklaştırmadı.",
+    cocuk:"yok — TDV: 'çocuğu olmamıştır'.",
+    skandal:"Şeyhülislâm Hocazâde Esad Efendi ve kaymakam Sofu Mehmed "
+    + "Paşa, geçerli veraset usulünün (baba-oğul) dışına çıkarak I. "
+    + "Ahmed'in oğlu Osman dururken amcası Mustafa'yı tahta çıkardı — TDV "
+    + "bunu 'mevcut saltanat sisteminde bir değişme' olarak niteler ve "
+    + "şiddetle eleştirildiğini kaydeder. Kızlar Ağası'nın kendi çıkarı "
+    + "için, Kösem Sultan'ın da kendi oğullarına yol açmak için bu kararı "
+    + "desteklediği rivayet edilir.",
+    ovgu:"Askerî teçhizatla yakından ilgilendi: Tophane'yi ve Tersane'yi "
+    + "denetledi, 100 kadırga ve 100 firkateynin Karadeniz'e açılmasını "
+    + "emretti; ulemâya, tekke şeyhlerine ve fakirlere ihsanlarda "
+    + "bulundu.",
+    yergi:"Aklî zafiyeti (TDV'nin ifadesiyle giderek artan 'cünun hali') "
+    + "sebebiyle devleti yönetemedi; yanındaki altınları balıklara yem "
+    + "diye atması, vezirlerin sarıklarını çekip başlarını açması gibi "
+    + "tutarsız davranışları çağdaş tarihçilerce (Peçuylu, Kâtib Çelebi) "
+    + "kaydedildi.",
+    tartisma:"Tahttan indirilişinin gerekçesi kaynağa göre değişir: "
+    + "Topçular Kâtibi 'kendi isteğiyle çekildi' derken Hasanbeyzâde ve "
+    + "Peçuylu aklî zafiyetin arttığını açıkça yazar. Tahta çıkarılma "
+    + "kararının 'ileride iyileşir' umuduna mı, yoksa Kızlar Ağası'nın "
+    + "kişisel çıkarına mı dayandığı da net değildir.",
+    tarihciler:"Madde müellifi Feridun Emecen bu kısa saltanatı veraset "
+    + "usulünün ilk kez kardeşe kaydığı dönüm noktası olarak sunar; "
+    + "modern araştırmalar bunu hanedanın soyunun tükenme kaygısını "
+    + "(hânedan bekası) önceleyen yapısal bir dönüşüm olarak okur.",
+    kaynak:"TDV: mustafa-i" },
   { id: "osman2",      ad: "II. Osman (Genç)",             from: "1618-02", to: "1622-05",
     dogum:"1604-11-03",
     dogum_yer:"İstanbul",
@@ -415,7 +564,49 @@ window.PADISAHLAR = [
     + "reformcu sayar; modern araştırmalar bu romantize edilmiş imajı "
     + "sorgulayıp tecrübesizliğinin isyanı nasıl beslediğini vurgular.",
     kaynak:"TDV: osman-ii" },
-  { id: "mustafa1",    ad: "I. Mustafa (2. saltanatı)",    from: "1622-05", to: "1623-09" },
+  { id: "mustafa1",    ad: "I. Mustafa (2. saltanatı)",    from: "1622-05", to: "1623-09",
+    dogum:"muhtemelen 1000 (1591-92), Manisa'da",
+    dogum_yer:"Manisa",
+    olum:"1639-01-20",
+    olum_yer:"Topkapı Sarayı (kafeste, kapalı tutulduğu oda)",
+    olum_sebep:"TDV'nin aktardığı çağdaş kayıt 'ecel-i tabîî' (doğal ölüm) "
+    + "der; IV. Murad'ın (yeğeni) rolü olduğuna dair bir rivayet de vardır "
+    + "ama TDV bunu doğrulamaz, yalnız aktarır.",
+    baba:"III. Mehmed",
+    anne:"Abaza asıllı bir câriye; adı TDV'de bilinmiyor",
+    tahta:"1622-05-20 (yeniçeri ve sipahilerin, yeğeni II. Osman'ı "
+    + "katlettiği isyanın ardından onu tekrar tahta çıkarmasıyla)",
+    saltanat_yil:1.3,
+    lakap:"bulunamadı — bkz. 1. saltanatı satırındaki not",
+    esler:"bulunamadı — TDV'de eş adı geçmiyor",
+    cocuk:"yok — TDV: 'çocuğu olmamıştır'.",
+    skandal:"Yeğeni II. Osman'ın yeniçeriler tarafından katledilmesinin "
+    + "('Genç Osman'ın Şehadeti') hemen ardından tahta çıkarıldı. Annesi "
+    + "ve sadrazam Kara Dâvud Paşa, I. Ahmed'in oğulları Murad ve "
+    + "İbrahim'i (rakip şehzadeler) öldürtüp Mustafa'yı rakipsiz bırakma "
+    + "planı yaptı; plan sarayda engellendi ve Dâvud Paşa sonunda Osman "
+    + "cinayetinin suçlusu ilân edilip idam edildi.",
+    ovgu:"Somut bir icraatı yoktur; yalnız hanedanın itibarını göstermek "
+    + "için gösterişli kıyafetlerle halka çıkarılması ve dinî törenlerde "
+    + "(bayramlaşmada tahtında oturmayıp ayakta durması, 'Hulefâ-yi "
+    + "Râşidîn âdetini ihya' diye yorumlandı) sembolik jestleri devrin "
+    + "kaynaklarınca övgüyle anıldı.",
+    yergi:"Saltanatı boyunca sadrazam tayinlerinde bile hiçbir tasarrufu "
+    + "olmadı — devleti fiilen annesi (valide sultan, dönemin "
+    + "kaynaklarında 'pâdişâh-ı ma'nevî' diye anılır) ve art arda değişen "
+    + "sadrazamlar yönetti; bu dönemde ardı ardına isyanlar çıktı ve bir "
+    + "camiye düzenlenen baskında (çoğu talebe) on dokuz kişi katledildi.",
+    tartisma:"Padişah adına çıkan pek çok hatt-ı hümâyunun aslında kendisi "
+    + "tarafından değil, hizmetindeki bir câriye (Senûber) tarafından "
+    + "yazıldığı iddia edilir — 'padişahın iradesi' ile 'sarayın "
+    + "yazdırdığı irade' arasındaki sınır bu dönemde tamamen "
+    + "belirsizleşmiştir.",
+    tarihciler:"Modern tarihçilik bu ikinci saltanatı doğrudan Mustafa'nın "
+    + "değil, valide sultanın ve rakip sadrazamların iktidar "
+    + "mücadelesinin bir sahnesi olarak okur; Gabriel Piterberg gibi "
+    + "araştırmacılar dönemi Osmanlı tarih yazımının kendi meşruiyet "
+    + "krizini nasıl işlediği bağlamında irdeler.",
+    kaynak:"TDV: mustafa-i" },
   { id: "murad4",      ad: "IV. Murad",                    from: "1623-09", to: "1640-02",
     dogum:"1612-07-27",
     dogum_yer:"İstanbul",
@@ -472,10 +663,175 @@ window.PADISAHLAR = [
     + "bir padişah sayar; TDV'nin aktardığı belgeler devlet işleriyle "
     + "ilgilenen ama giderek yalnızlaşan bir hükümdar tablosu çiziyor.",
     kaynak:"TDV: ibrahim--padisah" },
-  { id: "mehmed4",     ad: "IV. Mehmed (Avcı)",            from: "1648-08", to: "1687-11" },
-  { id: "suleyman2",   ad: "II. Süleyman",                 from: "1687-11", to: "1691-06" },
-  { id: "ahmed2",      ad: "II. Ahmed",                    from: "1691-06", to: "1695-02" },
-  { id: "mustafa2",    ad: "II. Mustafa",                  from: "1695-02", to: "1703-08" },
+  { id: "mehmed4",     ad: "IV. Mehmed (Avcı)",            from: "1648-08", to: "1687-11",
+    dogum:"1642-01-02",
+    dogum_yer:"İstanbul",
+    olum:"1693-01-06",
+    olum_yer:"Edirne (sürgün/gözaltı hayatı sırasında)",
+    olum_sebep:"doğal",
+    baba:"Sultan İbrahim",
+    anne:"Hatice Turhan Sultan",
+    tahta:"1648-08-08 (7 yaşında; babası İbrahim'in devlet ricâli ve "
+    + "yeniçerilerin ittifakıyla öldürülmesinin hemen ardından)",
+    saltanat_yil:39,
+    lakap:["Avcı (av tutkusundan)"],
+    esler:["Haseki Gülnûş Emetullah Sultan (II. Mustafa ve III. Ahmed'in annesi)"],
+    cocuk:{oglan:"en az 2 (II. Mustafa, III. Ahmed sonradan padişah oldu)",kiz:"en az 1"},
+    skandal:"Oğulları Mustafa ve Ahmed doğduktan sonra kardeşlerini "
+    + "'nizâm-ı âlem için' öldürtmek istediği, fakat annesi Turhan "
+    + "Sultan'ın buna engel olduğu rivayet edilir (Evliya Çelebi).",
+    ovgu:"Sadrazamları Köprülü Mehmed Paşa ve oğlu Fâzıl Ahmed Paşa "
+    + "döneminde (1656-1676) devlet toparlandı: 25 yıldır süren Girit "
+    + "meselesi Kandiye'nin fethiyle (1669) kapandı, Uyvar alındı, "
+    + "Avusturya ile Vasvár Antlaşması imzalandı. 1672 Kamaniçe "
+    + "seferine bizzat katıldı, kılık değiştirip muhasaraya girdiği bile "
+    + "rivayet edilir; tarihe meraklıydı, Hezarfen Hüseyin Efendi'den "
+    + "ders aldı ve döneminin olaylarını sürekli kayda geçirtti.",
+    yergi:"Av tutkusu yüzünden devlet işlerini ihmal etti, saltanatının "
+    + "büyük bölümünü İstanbul'a uğramadan Edirne'de avlanarak geçirdi; "
+    + "1683 Viyana bozgunundan sonraki dört yıl (annesinin ölümünün "
+    + "ardından) Mora, Dalmaçya ve Atina'nın kaybedildiği bir 'felâket "
+    + "dönemi' oldu, halkın ve din adamlarının eleştirilerine kulak "
+    + "asmadı.",
+    tartisma:"TDV maddesi av düşkünlüğünü ve ilgisizliğini yalnız "
+    + "kişisel bir zaaf değil, 7 yaşında tahta çıkıp iyi eğitim "
+    + "alamamasının ve çevresindeki saray ağalarının onu kasıtlı olarak "
+    + "dar bir çevrede tutmasının sonucu olarak da okur — sorumluluk "
+    + "tek başına padişaha mı, yoksa onu izole eden sisteme mi ait, "
+    + "tartışmalıdır.",
+    tarihciler:"Klasik anlatı onu 'Avcı' lakabıyla sorumsuz, devlet "
+    + "işlerine ilgisiz bir padişah olarak anar; madde müellifi "
+    + "Abdülkadir Özcan saltanatının ilk 30 yılının aslında Köprülüler'in "
+    + "başarılı yönetimiyle geçtiğini, gerçek çöküşün yalnız annesinin "
+    + "ölümünden sonraki son dört yılda yaşandığını vurgular.",
+    kaynak:"TDV: mehmed-iv" },
+  { id: "suleyman2",   ad: "II. Süleyman",                 from: "1687-11", to: "1691-06",
+    dogum:"1642-04-15",
+    dogum_yer:"İstanbul",
+    olum:"1691-06-22",
+    olum_yer:"Edirne",
+    olum_sebep:"istiskā hastalığı (ödem/vücut şişmesi), uzun süredir muzdaripti",
+    baba:"Sultan İbrahim",
+    anne:"Sâliha Dilâşûb Sultan",
+    tahta:"1687-11-08 (45 yaşında; ağabeyi IV. Mehmed tahttan indirilince, "
+    + "yaklaşık 40 yıl kapalı tutulduğu Şimşirlik'ten çıkarılarak — "
+    + "önce öldürüleceğini sanıp direnmişti)",
+    saltanat_yil:3.7,
+    lakap:"bulunamadı",
+    esler:"altı kadını olduğu belirtilir, TDV isim vermiyor",
+    cocuk:"yok — TDV: 'çocuğu olmayan veya yaşamayan'",
+    skandal:"Tahta çıkarılacağı bildirildiğinde öldürüleceğini sanıp "
+    + "'kırk yıldır her gün ölmektense bir gün evvel ölmek yeğdir' diyerek "
+    + "yerinden ayrılmak istemedi, güçlükle ikna edildi. Sadrazamı "
+    + "Köprülüzâde Mustafa Paşa'nın uyarısına rağmen annesinin vefatından "
+    + "sonra Harem'in başına bir 'Kethüdâ Kadın' tayin etti — emsali "
+    + "görülmemiş bir uygulama.",
+    ovgu:"Sadârete getirdiği Köprülüzâde Fâzıl Mustafa Paşa'nın "
+    + "icraatlarıyla devlet toparlandı: haksız vergiler geri iade edildi, "
+    + "olağan üstü vergiler kaldırıldı; 1690'da sekiz gün gibi kısa bir "
+    + "sürede Niş, Vidin ve Belgrad geri alındı. Sadrazamını cepheye "
+    + "uğurlarken kendi kürkünü ve mücevher hançerini ona verecek kadar "
+    + "iltifat gösterdi.",
+    yergi:"Yaklaşık kırk yıllık hapis hayatı yüzünden iyi bir eğitim "
+    + "alamadı, kırılgan bir tabiatı vardı ve çoğu zaman saraydaki güç "
+    + "odaklarının etkisinde kaldı; tahta çıkışının ilk dört ayı Sancak "
+    + "Vak'ası dahil art arda asker isyanlarıyla geçti, devlet işlerine "
+    + "doğrudan tasarrufu sınırlıydı.",
+    tartisma:"Harem'in başına Kethüdâ Kadın tayin etmesi gibi geleneğin "
+    + "dışına çıkan kararlarının kendi iradesiyle mi, yoksa çevresindeki "
+    + "etkilerle mi alındığı net değildir — TDV onu 'iyi niyetli ama "
+    + "kolay etkilenen' bir padişah olarak tasvir eder.",
+    tarihciler:"Modern tarihçilik bu dönemin asıl belirleyicisi olarak "
+    + "padişahın kendisini değil sadrazamı Köprülüzâde Fâzıl Mustafa "
+    + "Paşa'nın icraatlarını görür; kırk yıllık kafes hayatı da Osmanlı "
+    + "veraset sisteminin (şehzadelerin sancağa çıkarılmaması) yönetim "
+    + "kapasitesi üzerindeki bedelinin çarpıcı bir örneği olarak okunur.",
+    kaynak:"TDV: suleyman-ii" },
+  { id: "ahmed2",      ad: "II. Ahmed",                    from: "1691-06", to: "1695-02",
+    dogum:"1643-02-25",
+    dogum_yer:"bulunamadı — TDV maddesi doğum yeri belirtmiyor",
+    olum:"1695-02-06",
+    olum_yer:"Edirne",
+    olum_sebep:"istiskā (ödem), 52 yaşında",
+    baba:"Sultan İbrahim",
+    anne:"Muazzez Sultan",
+    tahta:"1691-06-23 (49 yaşında, Edirne'de, kardeşi II. Süleyman'ın "
+    + "ölümü üzerine)",
+    saltanat_yil:3.7,
+    lakap:"bulunamadı",
+    esler:"bulunamadı — TDV maddesinde eş adı geçmiyor",
+    cocuk:"bulunamadı — TDV maddesinde çocuk bilgisi geçmiyor",
+    skandal:"Reâyâyı sık değişen mültezimlerin keyfî davranışlarından "
+    + "korumak için 1695'te ihdas ettiği 'mâlikâne' (ömür boyu iltizam) "
+    + "usulü, TDV'nin kendi ifadesiyle 'daha sonra devletin başına büyük "
+    + "dertler açan âyânlığın ortaya çıkmasına zemin hazırladı' — iyi "
+    + "niyetli bir reformun istenmeyen uzun vadeli sonucu.",
+    ovgu:"Dîvân-ı Hümâyun toplantılarını haftada ikiden dörde çıkardı ve "
+    + "hastalığı sırasında bile müzakerelere bizzat katılmayı sürdürdü; "
+    + "reâyânın haklarını gözeten mâlikâne usulünü getirdi; şiir ve "
+    + "mûsikiye meraklı, aynı zamanda hattat bir padişahtı.",
+    yergi:"Çevresindekilerin (özellikle kızlar ağasının) telkinlerine "
+    + "çabuk kapılıp sadrazam değiştirdi; saltanatı sırasında Varad "
+    + "Kalesi Avusturya'ya, Sakız adası Malta ve papalık kuvvetlerine "
+    + "kaptırıldı; İstanbul'da Cibali, Ayazma Kapısı ve Bedesten "
+    + "yangınları şehrin büyük bölümünü kül etti.",
+    tartisma:"Mâlikâne usulünün niyeti reâyâyı korumaktı, ama bu "
+    + "iyileştirmenin devletin taşra idaresini yapısal olarak nasıl "
+    + "zayıflattığı (âyânlığın kökeni) tarihçiler arasında hâlâ "
+    + "tartışılan bir konudur.",
+    tarihciler:"Klasik anlatı onu hassas, dindar ve reâyâ dostu bir "
+    + "padişah olarak över; modern mâliye tarihi (Mehmet Genç gibi "
+    + "araştırmacılar) mâlikâne sistemini Osmanlı taşra idaresinde kalıcı "
+    + "bir dönüşümün (âyânlığın yapısal kökeni) başlangıcı olarak "
+    + "inceler.",
+    kaynak:"TDV: ahmed-ii" },
+  { id: "mustafa2",    ad: "II. Mustafa",                  from: "1695-02", to: "1703-08",
+    dogum:"1664-06-02",
+    dogum_yer:"Edirne",
+    olum:"1703-12-29 (muhtemelen — TDV kesin tarihte 'muhtemelen' der)",
+    olum_yer:"Edirne",
+    olum_sebep:"istiskā ve mesane hastalıkları, tahttan indirilmenin "
+    + "verdiği üzüntüyle ağırlaşarak",
+    baba:"IV. Mehmed",
+    anne:"Gülnûş Emetullah Sultan",
+    tahta:"1695-02-06 (31 yaşında, Edirne'de; vezîriâzam ve şeyhülislâmı "
+    + "beklemeden kendi kendini padişah ilân ederek)",
+    saltanat_yil:8.5,
+    lakap:["Gazi (1695'teki Lippa fethi ve Buldur zaferinin ardından "
+    + "verildi)"],
+    esler:"bulunamadı — TDV maddesinde eş adı geçmiyor",
+    cocuk:"bulunamadı — TDV maddesinde çocuk bilgisi geçmiyor",
+    skandal:"Hocası Şeyhülislâm Feyzullah Efendi'nin devlet işlerine "
+    + "aşırı karışması ve sadrazam atamalarını yönlendirmesi, 1703 "
+    + "Edirne Vak'ası'nın görünürdeki hedefi oldu; isyan büyüyünce II. "
+    + "Mustafa kendi rızasıyla tahtı kardeşi III. Ahmed'e bıraktı — "
+    + "'Birader, kul seni padişah istemişler' diyerek.",
+    ovgu:"Ordularının başında bizzat sefere çıkan SON Osmanlı padişahıdır "
+    + "(1695-97 Avusturya seferleri); 1695'te Lippa'yı fethedip Buldur "
+    + "savaşını kazanarak 'Gazi' unvanını aldı; saltanatının ilk beş "
+    + "yılında Dîvân-ı Hümâyun'u haftada dört güne çıkarıp devlet "
+    + "işlerine bizzat eğildi; Osmanlı tarihinde ilk tuğralı altın para "
+    + "onun döneminde basıldı.",
+    yergi:"1697 Zenta bozgununda ordunun sekizde biri, sadrazam dahil "
+    + "yirmi kumandan kayboldu; Karlofça Antlaşması'yla (1699) Tımışvar "
+    + "hariç bütün Macaristan, Mora (Venedik'e), Ukrayna-Podolya "
+    + "(Lehistan'a) kaybedildi. Barış sonrası son beş yılda Edirne'ye "
+    + "çekilip 'babası gibi davranmaya başladığı' yönünde dedikodular "
+    + "yayıldı.",
+    tartisma:"Zenta'ya giden yol seçimi tartışmalıdır: Amcazâde Hüseyin "
+    + "Paşa'nın önerdiği daha yakın Varadin güzergâhı reddedilip daha "
+    + "uzak, nehir ve bataklık dolu Tımışvar güzergâhı seçildi — bu karar "
+    + "orduyu felakete sürükledi. Edirne Vak'ası'nın gerçek hedefinin "
+    + "şeyhülislâm mı yoksa doğrudan padişahın kendisi mi olduğu da "
+    + "tarihçiler arasında tartışılır.",
+    tarihciler:"Kantemir gibi çağdaş kaynaklar saltanatının ilk beş "
+    + "yılı ile son beş yılı arasındaki tezadı vurgular: önce devlet "
+    + "işlerine tam eğilen bir padişah, sonra köşesine çekilen bir "
+    + "padişah. Modern tarihçilik onu, bizzat sefere çıkan son padişah "
+    + "olması ve saltanatının Osmanlı'nın Avrupa'daki büyük toprak "
+    + "kayıplarının (Karlofça) başlangıcına denk gelmesi bakımından bir "
+    + "dönüm noktası sayar.",
+    kaynak:"TDV: mustafa-ii" },
   { id: "ahmed3",      ad: "III. Ahmed",                   from: "1703-08", to: "1730-10" },
   { id: "mahmud1",     ad: "I. Mahmud",                    from: "1730-10", to: "1754-12",
     dogum:"1696-08-02",

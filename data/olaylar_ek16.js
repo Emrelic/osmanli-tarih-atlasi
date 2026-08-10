@@ -194,4 +194,28 @@ window.OLAYLAR_EK16 = [
   d:"TDV'nin Şeybânî Han maddesine göre Özbek hükümdarı Şeybânî Han, 1503-1505 arasında Endîcan, Fergana, Hisâr, Kunduz ve Belh'i aldıktan sonra 913'te (1507) Timurlu başkenti Herat'ı da zaptetti; Encyclopaedia Iranica'nın Horasan maddesi bu fethin tam tarihini verir — şehir 8 Muharrem 913'te (20 Mayıs 1507) düştü, bir hafta sonra 15 Muharrem'de (27 Mayıs) hutbe Şeybânî Han adına okunarak fetih resmîleşti. Meşhed dahil bütün Horasan aynı yıl içinde Timurlulardan Şeybânîler'e geçti; bu, Timurlu hânedanının Mâverâünnehir'den sonra İran'daki son büyük kalesini de kaybetmesi anlamına geliyordu.",
   kaynak:"seybani-han", duygu:["⚔️","👑"] },
 
+{ t:"1527-01-01", k:"fetih", etiket:["toprak-kazanc"],
+  b:"Demak Sultanlığı'nın Majapahit'i yıkıp Cava kıyısına hâkim olması",
+  gun:"1527 (TDV yıl verir, gün vermez)",
+  yer:"Surabaya, Blitar, Bojonegoro, Jepara, Kudus, Madiun, Malang, Pasuruan, Pekalongan, Ponorogo, Rembang, Sumenep (Madura), Tegal, Trowulan (Majapahit)",
+  yer_id:"Surabaya", kisiler:"Raden Patah, Sultan Trenggana",
+  d:"TDV'nin Demak maddesine göre Cava'nın ilk bağımsız Müslüman devleti olan Demak Sultanlığı, XV. yüzyılın son çeyreğinde Raden Patah tarafından kuruldu; Cava kaynaklarına göre çökmekte olan Hindu-Budist Majapahit Krallığı, Demak'ın saldırılarıyla ortadan kalktı. 1527'de Demak, Çin kaynaklarının XI. yüzyıldan beri Majapahit hükümdarları için önemli bir liman olarak andığı Tuban'ı fethetti — bu, Majapahit'in son kalıntılarının da Demak'a bağlandığı yıldır ve Cava'nın büyük bölümünün İslâmlaşma sürecinin dönüm noktasıdır. ⚠️ TDV tam gün vermiyor; 1527-01-01 yıl beyanıdır.",
+  kaynak:"demak", duygu:["⚔️","🕌"] },
+
+{ t:"1884-07-18", k:"antlasma", etiket:["toprak-kaybi"],
+  b:"Britanya'nın kuzey Somali kıyısında himaye kurması — Somaliland'ın başlangıcı",
+  gun:"14-21 Temmuz 1884 (Habar Avel kabilesiyle ilk antlaşma 14 Temmuz)",
+  yer:"Berbera, Bulhar, Hargeysa, Burao, Erigavo, Borama, Lasanod, Odveyne, Buhodle, Ceel Afveyn, Hîs, Lâs Hore, Mayd, Taleh, Şeyh (Somaliland)",
+  yer_id:"Berbera", kisiler:"Habar Avel kabile reisleri",
+  d:"TDV'nin Somali maddesine göre Zeyla, Berberâ ve Tâcûre 1884'te İngilizler tarafından Somaliland adıyla sömürgeleştirildi; standart akademik kaynağa göre bu süreç Berbera'da 21 Ramazan 1301'e (14 Temmuz 1884) rastlayan Habar Avel kabilesiyle imzalanan antlaşmayla başladı ve 1884-1886 arasında Gadabursi, Habar Tolcaala, Habar Gerhacis, İse ve Warsangeli kabileleriyle benzer antlaşmalar imzalanarak genişledi; İngiltere karşılığında askerî koruma vaat etti. Bu antlaşmalar zinciri 1887'de resmî Britanya Somaliland Himayesi'nin ilânına zemin hazırladı. ⚠️ TDV kesin gün vermiyor; tam tarih standart akademik kaynağa (antlaşma metinleri) dayanıyor.",
+  kaynak:"somali", duygu:["😔"] },
+
+{ t:"1905-01-01", k:"siyaset", etiket:["toprak-kazanc"],
+  b:"İtalyan Somalisi'nin doğrudan devlet yönetimine geçişi — Benadir Şirketi'nin tasfiyesi",
+  gun:"24 Ocak 1905",
+  yer:"Mogadişu, Afgoye, Bardere, Baydoa, Beledveyne, Berâve, Bulo Burte, Cadale, Ceel Barde, Cilib, Diinsoor, Garbahârey, Hudur, Luuk, Merka, Vanlaveyn",
+  yer_id:"Mogadişu", kisiler:"III. Vittorio Emanuele",
+  d:"TDV'nin Somali maddesine göre İtalya, güney Somali kıyısındaki (Benâdir) hâkimiyetini 1889-1891'de Zengibar Sultanlığı ve İngiltere ile yaptığı anlaşmalarla kurmuş, yönetimini ise başlangıçta imtiyazlı bir ticaret şirketine (Benadir Company) bırakmıştı; standart akademik kaynağa göre bu şirketin imtiyazı 24 Ocak 1905'te sona erdi ve İtalyan devleti Benâdir kıyısının (Mogadişu, Merka, Baraave dahil) doğrudan egemenliğini satın alarak resmî sömürge yönetimini kurdu. Kolonin iç kesimlere (Bardera, Baydoa) doğru fiilî genişlemesi ise 1908 kuruluş kararnamesi ve sonraki yıllarda tamamlanacaktır.",
+  kaynak:"somali", duygu:["😔"] },
+
 ];
