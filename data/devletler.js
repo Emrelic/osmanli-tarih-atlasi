@@ -4774,8 +4774,11 @@ window.DEVLETLER = [
 { id:"seylan-sinhala", ad:"Seylan Sinhala Krallıkları (Portekiz Öncesi)", tur:"krallik", bolge:"guney-asya",
   f:"1281-01-01", t:"1518-01-01", baskent:"Dambadeniya → Gampola → Kotte (ardışık merkezler)",
   ozet:"Polonnaruwa'nın çöküşünden Portekiz'in gelişine kadar birbirini izleyen Sinhala krallıkları (Dambadeniya, Gampola, Kotte); Portekizlilerin Kolombo'ya yerleşmesiyle dış nüfuza açıldı. HANEDAN/ÜLKE karışık, BİRDEN FAZLA ardışık krallığı TEK kayıtta temsil eden bir kolektif kimliktir — `irlanda`/`somali` emsali gibi. ⚠️ 1281 tarihi bir hanedanın kuruluşu değil atlasın pencere başlangıcıdır. ⚠️ BULUNAMADI (TDV'de): `seylan` maddesi yalnız `sri-lanka`ya yönlendiriyor, dönem ayrıntısı yok; tarihler standart akademik kaynağa göredir.",
-  kaynak:"sri-lanka",
+  kaynak:"sri-lanka + standart akademik kaynak (Britannica, EBSCO Research Starters)",
   kronoloji:[
+    { t:"1341-01-01", tur:"hukumdar", b:"Kral IV. Bhuvanekabahu, savunma amacıyla başkenti Dambadeniya/Kurunegala hattından merkezi yaylalardaki Gampola'ya taşıdı; siyasi merkezin iç bölgelere kayışının başlangıcı (Britannica, 'History of Sri Lanka — Drift to the southwest')" },
+    { t:"1415-01-01", tur:"kurulus", b:"1412'de Gampola kralı olan VI. Parakramabahu başkentini Kotte'ye taşıyıp Kotte Krallığı'nı kurdu; bu krallık yarım yüzyıl içinde adanın en güçlü Sinhala devleti oldu (Britannica 'Kotte'/'Parakramabahu VI')" },
+    { t:"1450-01-01", tur:"toprak-kazanc", b:"VI. Parakramabahu, Jaffna Krallığı'nı ve Vanni beyliklerini fethedip Seylan'ı son kez tek bir Sinhala hükümdarlık altında birleştirdi (Britannica 'Parakramabahu VI'; EBSCO Research Starters)" },
     { t:"1518-01-01", tur:"toprak-kayip", b:"Portekizliler Kolombo'da kale kurup Kotte Krallığı'nı nüfuzu altına aldı" }
   ]
 },
@@ -4870,8 +4873,10 @@ window.DEVLETLER = [
 { id:"sunda-pajajaran", ad:"Sunda Krallığı (Pajajaran)", tur:"krallik", bolge:"guneydogu-asya",
   f:"669-01-01", t:"1527-06-22", baskent:"Pakuan Pajajaran",
   ozet:"Batı Cava'da hüküm süren, İslâmlaşmayı reddeden son büyük Hindu-Budist krallıklardan biri; Demak-Cirebon ittifakının Sunda Kelapa limanını almasıyla (bugün \"Jakarta Günü\" olarak kutlanan olay) fiilen çöktü. HANEDAN ÖMRÜ kimliğidir. TDV'de ayrı maddesi yok; tarihler standart akademik kaynağa göredir.",
-  kaynak:"yetersiz — endonezya maddesi okundu, Batı Cava'nın İslamlaşma bağlamını anlatıyor ama Sunda-Pajajaran Krallığı'nı (kuruluş, hükümdarlar, yıkılış) doğrudan işlemiyor; dayanak: standart akademik kaynak",
+  kaynak:"yetersiz — endonezya maddesi okundu, Batı Cava'nın İslamlaşma bağlamını anlatıyor ama Sunda-Pajajaran Krallığı'nı (kuruluş, hükümdarlar, yıkılış) doğrudan işlemiyor; dayanak: Torre do Tombo arşivi (birincil kaynak) + Herwig Zahorka, 'The Sunda Kingdoms of West Java' (akademik makale)",
   kronoloji:[
+    { t:"1482-01-01", tur:"kurulus", b:"Kawali kralı Jayadewata, Sunda ve Galuh krallıklarını birleştirip Sri Baduga Maharaja unvanıyla tahta çıktı, başkenti Pakuan'a (Pajajaran) taşıdı — 'Pajajaran' adıyla anılan dönem burada başlar (Batutulis Kitabesi; Zahorka, akademik makale)" },
+    { t:"1522-08-21", tur:"antlasma", b:"Sri Baduga Maharaja'nın oğlu Surawisesa, Portekizli kaptan Henrique Leme ile Sunda Kelapa'da antlaşma imzaladı: kale kurma izni karşılığında Demak'a karşı ittifak ve yıllık biber haracı, bir Padrão taşıyla anıldı (Torre do Tombo, Portekiz Ulusal Arşivi, 1892 belge derlemesi s.460-461, birincil kaynak)" },
     { t:"1527-06-22", tur:"son", b:"Fetahillah'ın Demak-Cirebon kuvvetleri Sunda Kelapa'yı aldı, liman \"Jayakarta\" adını aldı" }
   ]
 },
@@ -4904,8 +4909,11 @@ window.DEVLETLER = [
 { id:"bugis-kralliklari", ad:"Bugis Krallıkları (Bone, Wajo, Soppeng — Tellumpoccoe)", tur:"devlet", bolge:"guneydogu-asya",
   f:"1330-01-01", t:"1905-08-06", baskent:"—",
   ozet:"Güney Sulawesi'nin Bugis krallıkları için TOPLU/BATTANİYE künye (HANEDAN ÖMRÜ değil) — Gova-Makassar'ın TARİHÎ RAKİBİ, ayrı kimlik (bkz. gova-makassar; 1666-69 Makassar Savaşı'nda Hollanda'yla ittifak kurup Gova'ya karşı savaştılar, aynı kimlik kullanılamaz). TDV'de dördünün de (Bone, Wajo, Soppeng) müstakil maddesi yok; 'sulawesi'/'bugi' aramaları yalnız Bugis halkının varlığından bahsediyor, krallıklardan somut tarihle değil. f YIL BEYANIdır (Bone'un geleneksel kuruluşu ~1330), t=1905-08-06 Bone Savaşı'nın sonu (Hollanda'nın son bağımsız Bugis direnişini kırdığı tarih, standart akademik kaynak).",
-  kaynak:"bulunamadı — arandı, yok. 'bone' slug'ı Cezayir'deki Bûne limanına yönleniyor (alakasız); 'sulawesi' ve 'bugi' genel maddeleri okundu, Bugis halkından bahsediyorlar ama Bone/Wajo/Soppeng krallıklarını ayrı ayrı işlemiyorlar. Dayanak: standart akademik kaynak.",
+  kaynak:"bulunamadı — arandı, yok. 'bone' slug'ı Cezayir'deki Bûne limanına yönleniyor (alakasız); 'sulawesi' ve 'bugi' genel maddeleri okundu, Bugis halkından bahsediyorlar ama Bone/Wajo/Soppeng krallıklarını ayrı ayrı işlemiyorlar. Dayanak: hakemli dergi (Fadli Hasan, el Harakah: Jurnal Budaya Islam, UIN Malang) + Leonard Andaya akademik monografisi.",
   kronoloji:[
+    { t:"1582-01-01", tur:"ittifak", b:"Bone, Wajo ve Soppeng, Gova-Tallo'nun genişlemesine karşı Timurung Antlaşması'yla Tellumpoccoe ('üç güç') ittifakını kurdu (Fadli Hasan, hakemli dergi makalesi)" },
+    { t:"1660-01-01", tur:"isyan", b:"Bone prensi Arung Palakka, Gova'ya karşı ayaklanma başlattı; bastırılınca 1663'te Hollanda kontrolündeki Batavia'ya sığındı (Andaya, 'The Heritage of Arung Palakka', KITLV/Amsterdam University Press)" },
+    { t:"1666-01-01", tur:"ittifak", b:"Arung Palakka, VOC amirali Cornelis Speelman ile ittifak kurup 1666-1669 Makassar Savaşı'nda Gova Sultanı Hasanuddin'e karşı kara harekâtını yönetti; savaş sonunda Bone kralı oldu (bkz. [[gova-makassar]]) (Andaya, akademik monografi)" },
     { t:"1905-08-06", tur:"son", b:"Bone Savaşı'nın sonu — Hollanda'nın Güney Sulawesi'deki son büyük Bugis direnişini kırması (standart akademik kaynak, yıl+ay beyanı)" }
   ]
 }
