@@ -9,6 +9,33 @@ YASAKLARIN  : iş dağıtmak · `data/` altında merak.js ve ekokuma.js DIŞINDA
               hiçbir şey · `arac/*` · `js/*` · `index.html` · kök `*.md`
 ```
 
+> ## 🔴 BU ŞARTNAMENİN SAYISI DÜZELTİLDİ — 10 Ağustos 2026
+>
+> Şartname *"17 istek bekliyor"* diyordu. **KUTU DENETİM kartları saydı ve
+> çürüttü:**
+> ```
+> parti-0006'nın ON BİR kaleminin ON BİRİ de ZATEN YAZILMIŞ
+>   H-0013 → karaman-nicin-zor      H-0019 → i-murad-sehadeti
+>   H-0014 → kapitulasyon-zaaf...   H-0020 → kardes-katli-karsilastirmali
+>   H-0015 → gurcistan-nicin-...    H-0021+H-0022 → siyasi-evlilikler (TEK kart)
+>   H-0016 → ahi-birlikleri-ankara  H-0023 → kadinlar-saltanati
+>   H-0017 → yeniceri-ocagi-kurulusu
+>   H-0018 → tabi-devlet-vassallik
+> ```
+> ⇒ **AÇIK KALAN: yalnız `parti-0007`nin 6 kalemi** (H-0005 ve H-0006 aynı
+> sahne — Timur'un Anadolu'dan çekilişi ⇒ belki **5 kart**).
+>
+> 📌 Ve bu, koordinatörün kendi dersinin **ters yüzü**: *"kabul edilmiş borç
+> kayıtsız kalırsa yarın kusur olarak yeniden bulunur"* denmişti; burada olan
+> tersiydi — **ödenmiş bir borç yeniden kuyruğa yazılıyordu.** Kayıt iki yöne
+> de gerekiyor.
+>
+> ⚠️ İLK İŞİN: `data/merak.js` ve `data/ekokuma.js`i **oku**, var olan 8+3
+> kartın üslubunu öğren, sonra `parti-0007`nin 6 kalemine geç. Var olanı
+> YENİDEN YAZMA.
+> 📌 Bir de fazlalık var: `hint-okyanusu-rekabeti` kutuda karşılığı olmayan
+> sekizinci kart — önceki içerik oturumu Emre'nin listesini AŞMIŞ. Dokunma.
+
 ## ① NİÇİN VARSIN — ölçülmüş
 ```
 data/merak.js      8 kayıt · 13 KB

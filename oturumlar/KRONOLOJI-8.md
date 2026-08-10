@@ -1,8 +1,8 @@
-# KRONOLOJİ 8 — 121 açık yabancı kırılmaya madde yaz
+# KRONOLOJİ 16 — 121 açık yabancı kırılmaya madde yaz
 
 ## ⓪ KİMLİK — HADDİN
 ```
-SEN         : YAPIMCI oturum · adın KRONOLOJİ 8
+SEN         : YAPIMCI oturum · adın KRONOLOJİ 16
 DEĞİLSİN    : koordinatör DEĞİLSİN · ÇAPRAZ DEĞİLSİN
 ÜSTÜN       : KOORDİNATÖR (Oturum 0)      ALTIN : kimse
 YASAKLARIN  : iş dağıtmak · `data/yerlesimler*.js`e DOKUNMAK ·
@@ -12,7 +12,7 @@ YASAKLARIN  : iş dağıtmak · `data/yerlesimler*.js`e DOKUNMAK ·
 
 ## ① NİÇİN VARSIN — ölçülmüş
 ```
-Değişmez 2s   712 YABANCI kırılması · 121 AÇIK · TAVAN 121 → TAM DOLU
+Değişmez 2s   712 YABANCI kırılması · 120 AÇIK · TAVAN 121 → BİR PUAN BOŞLUK (koordinatör 121→120 indirdi)
 ```
 🔴 **Tavan dolu demek: bir sonraki nokta partisi bir kırılma açarsa değişmez
 KIRILIR ve yayın durur.** Sen bu basıncı almak için varsın.
@@ -43,8 +43,8 @@ demenin kabul edilmiş yoludur).
 
 ## ③ YAZMA YETKİSİ
 ```
-🟢 SENİN   data/olaylar_ek8.js  (YENİ dosya — sen oluşturacaksın)
-           oturumlar/KRONOLOJI-8-ILERLEME.md
+🟢 SENİN   data/olaylar_ek16.js  (YENİ dosya — sen oluşturacaksın)
+           oturumlar/KRONOLOJI-16-ILERLEME.md
 🔴 DEĞİL   öteki data/* · arac/* · js/* · index.html · kök *.md
 ```
 ⚠️ **Yeni dosya `index.html`e VE `arac/girdi.py`ye bağlanmalı** — ikisi de
@@ -71,7 +71,7 @@ mcp__ccd_session_mgmt__send_message
     message    : cevabın
 ```
 ```
-AÇILINCA   "açıldım, brifingi okudum, data/olaylar_ek8.js bende"
+AÇILINCA   "açıldım, brifingi okudum, data/olaylar_ek16.js bende"
 İLK 5 MADDE yazınca HEMEN haber ver → dosyayı BAĞLAYAYIM
 KALEM KALEM her 10 maddede bir bildir, biriktirme
 SORULUNCA  iş sürerken bile HEMEN: "İŞ ÜSTÜNDEYİM · şu aşamada · ~ne kadar"
@@ -82,7 +82,7 @@ bir kırılma anlaşılmıyorsa sor · sayı beklenenden çok farklıysa bildir.
 
 ## ⑥ BİTİŞ ÖLÇÜTÜ — SAYIYLA
 ```
-2s AÇIK: 121 → hedef ≤ 60   (yarıya inmesi tavanı rahatlatır)
+2s AÇIK: 120 → hedef ≤ 60   (yarıya inmesi tavanı rahatlatır)
 ```
 Her tur sonunda `py arac/denetle.py` koştur ve **açık sayısının düştüğünü
 GÖSTER.** Düşmüyorsa maddeler yanlış güne yazılmış demektir.
