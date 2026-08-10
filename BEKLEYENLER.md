@@ -62,6 +62,8 @@
 | **Cezayir hayaleti** — 6 nokta 1854'e kadar Osmanlı tâbisi, oysa 1830'da bitti (24 yıl) | TDV turu |
 | **Söğüt `k:1`** — etiket sönmesi için kademe kuralına **zaman ayağı** gerekiyor | arayüz |
 | **`denetle_iddia.py`** — *"her maddenin kırılması var mı"* · ateşleme takımı 4 vakayla **hazır** | koordinatör |
+| 🔴 **ANLATIM BOŞLUĞU — *"fetih"in çoğu yabancıdan alma değil, KENDİ TÂBİİNİ doğrudan idareye çevirme.*** Beş vaka: Hotin 1713 · Yanova 1658 · Varad 1660 · Bucak-Bender 1538 · Akkirman 1484. **Emre bunu ÜÇ ayrı maddede sordu** ⇒ veri doğru, kullanıcı okuyamıyor. Kronolojide bu geçişin kendi dili olmalı | kronoloji |
+| 🔵 **Boğdan seyrekliği** — bütün voyvodalığı **8 nokta** temsil ediyor, petek kenarları o yüzden cetvelle çizilmiş gibi. Öneri: Galaţi · Tekuç · Vaslui · Botoşani · Hârlău · Kilia (⚠️ `Kili` zaten kayıtlı olabilir — 3 km kuralı) | nokta oturumu |
 | 🟢 **`hanthawaddy` — ÖLÇÜLDÜ, VERİ TEMİZ.** VERİ DEVLET 2 *"1539-1740 bağımsız değildi, künye bölünmeli mi"* diye sordu. Veri **zaten bölünmüş**: `hanthawaddy 1287→1539` + `1740→1755/57`, aradaki 200 yıl `toungoo`da (28 nokta-dönem). **Hayalet YOK.** Kusur yalnız künyenin `f/t` aralığında (`1287→1757` kesintisiz görünüyor) ve özetinde (*"dört buçuk asır süren süreklilik"* — yanıltıcı) ⇒ **tek cümlelik özet düzeltmesi** | koordinatör · dosya devrinden sonra |
 | 🟡 **`usfuri` adlandırma çelişkisi** — atlas *"Usfûrîler"* diyor, **TDV bu adı hiç kullanmıyor**, `cebriler` maddesinde *"Cervânîler"* geçiyor. 4 nokta · 1281-1417. `nebhani`nin ikizi **DEĞİL** (onun kaynağı canlı TDV `uman` maddesi, bunda `bulunamadı`) ⇒ TDV `cebriler` gövdesi okunup ad kararı verilecek | yeni oturum |
 | Güç profili + Android köprüsü | ClaudEmre · şartname yazılacak |
