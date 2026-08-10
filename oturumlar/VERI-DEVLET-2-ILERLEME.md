@@ -3,60 +3,137 @@
 ## Açılış
 10 Ağustos 2026 — brifing okundu, koordinatöre "açıldım" mesajı atıldı.
 
-## ① Palu · Kendari kimliği — SONUÇ: bulunamadı, koordinatöre soruldu
+---
 
-**TDV tarafı (ölü sluglar):**
+## ① Palu · Kendari — ARANDI, YOK (2026-08-10)
+
 ```
-palu      -> 302
-kendari   -> 302
-sulawesi  -> 302
-selebes   -> 302
+TDV:  palu 302 · kendari 302 · sulawesi 302 · selebes 302
+TDV endonezya (234 KB tam gövde): "Sulawesi" yalnız coğrafî tanım cümlesinde
+  bir kez geçiyor (Maluku ve Sulavesi takımadaları, 189.000 km²).
+  Palu / Kendari / Kaili / Konawe / Buton / Bugis HİÇ geçmiyor.
+TDV borneo: değinmiyor (zaten pontianak/kutai için kullanılmıştı).
+akademik: rsdjournal.org (Kaili traditional classification, hakemli makale)
+  okundu — tarih vermiyor, yalnız "patanggota" âdet sistemini inceliyor.
+  untar.ac.id (Konawe/Laiwoi makalesi) CAPTCHA arkasında, erişilemedi.
+  Palu için tek somut tarih (1796) yalnız turistik site (kupi.com) ve
+  Wikipedia türevinde — akademik değil, KIRMIZI ÇİZGİYE TAKILIYOR.
+  Kendari/Konawe için "5. yüzyıldan beri" iddiası yalnız bir wordpress
+  fan-blogunda (sultansinindonesieblog) — güvenilmez ve mantıksız erken.
+⇒ DAYANAK YOK, KÜNYE YAZILMADI.
 ```
-Genel `endonezya` maddesinin tam gövdesi (234 KB) tarandı: "Sulawesi" yalnız
-coğrafi tanım cümlesinde bir kez geçiyor (Maluku ve Sulavesi takımadaları,
-189.000 km²). Palu, Kendari, Kaili, Konawe, Buton, Bugis — hiçbiri geçmiyor.
-`borneo` maddesi zaten Pontianak/Kutai için kullanılmıştı, bu ikisine değinmiyor.
+**Koordinatör onayladı (2026-08-10): AÇIK BIRAK.** Zayıf kaynakla taslak
+yazılmayacak. Bu kayıt kalıcı — bir sonraki oturum aynı dört slug'ı
+yeniden denemesin diye buraya yazıldı.
 
-**Akademik arama (standart akademik kaynak denemesi):**
-- Palu/Kaili Krallığı: tek somut tarih (1796 kuruluş) yalnız turistik site
-  (kupi.com) ve Wikipedia türevinde — **akademik değil, kırmızı çizgiye
-  takılıyor.** Hakemli makale bulundu (rsdjournal.org, "Kaili traditional
-  classification…") ama tarih vermiyor, yalnız âdet sistemini inceliyor.
-- Kendari/Konawe: "5. yüzyıldan beri" iddiası yalnız bir wordpress fan-blogunda
-  (sultansinindonesieblog) — güvenilmez, iddia da mantıksız derecede erken.
-  İlgili akademik dergi makalesi (untar.ac.id) CAPTCHA arkasında, erişilemedi.
+---
 
-**Karar koordinatöre bırakıldı:** açık mı kalsın, yoksa "kaynak: bulunamadı —
-yalnız güvenilmez ikincil kaynak, akademik dayanak yok" diye işaretli taslak
-mı yazılsın. Benim önerim: açık kalsın.
+## ② toga-timur — TASLAK HAZIR, ONAY BEKLİYOR (künyeye YAZILMADI)
 
-## ② İran Fetreti (1335-1337, Horasan/Beyhak) — ölçüm + öneri, YAZILMADI
+TDV `serbedariler`: isyan 13 Mart 1337 (Baştın), Sebzevâr'ın ele geçirilmesi
+9 Eylül 1337 — mevcut `serbedariler` künyesinin f: tarihi zaten bu, DOĞRU,
+dokunulmayacak.
 
-TDV `serbedariler` maddesi okundu: isyan 13 Mart 1337 (Baştın), Sebzevâr'ın
-ele geçirilmesi 9 Eylül 1337 — mevcut `serbedariler` künyesinin f: tarihi
-zaten bu, DOĞRU.
-
-Ama TDV'nin kendi cümlesi bölgenin 1337'de zaten Togay Timur'un elinde
-olduğunu söylüyor. Encyclopaedia Iranica'nın `TOḠA TIMUR` maddesi doğruladı:
+TDV'nin kendi cümlesi: 1337 isyanı patlak verdiğinde bölgeyi zaten **Togay
+Timur** yönetiyordu ("bölgenin hâkimi Togay Timur'un İlhanlı veliahtlığı
+için harekete geçmesi"). Encyclopaedia Iranica `TOḠA TIMUR` maddesi doğruladı:
 ```
-han ilan/taht      kış 736/1336-37 (~Aralık 1336, tam gün yok)
-üssü               Gürgân ve batı Horasan
-Serbedârî yenilgisi 1 Şubat 1342
-öldürülmesi        13 Aralık 1353 (serbedariler künyesiyle BİREBİR uyumlu)
+han ilan/taht        kış 736/1336-37 (~Aralık 1336, tam gün yok)
+üssü                 Gürgân ve batı Horasan
+Serbedârî yenilgisi  1 Şubat 1342 (23 Şâban 742)
+öldürülmesi          13 Aralık 1353 (16 Zilkade 754)
+                     — serbedariler künyesinin KENDİ kronolojisiyle
+                       BİREBİR uyumlu, iki kaynak birbirini doğruluyor
 ```
 
-**Öneri:** yeni künye `toga-timur`, f:"1336-12-01" (kış beyanı), t:"1353-12-13".
-19 noktalık boşluğun (1335-12-01→1337-09-09, şu an "iran" hayaleti) büyük
-kısmını kapatır. Kalan ~1 yıllık (1335-12→1336-12) gerçek boşluk hâlâ açık —
-ne TDV ne Iranica o kadarını net konuşuyor.
+**HAZIR TASLAK KÜNYE** (yazılmadı, koordinatör onayı bekliyor):
+```js
+{ id:"toga-timur", ad:"Togay Timur (Son İlhanlı İddiacısı)", tur:"devlet", bolge:"iran",
+  f:"1336-12-01", t:"1353-12-13", baskent:"Gürgân",
+  ozet:"Ebû Saîd'in vârissiz ölümünün ardından Horasan ileri gelenlerince
+  han ilan edilip Mâzenderan'da tahta çıkarılan, Cengiz soyundan son büyük
+  İlhanlı iddiacısı; üssü Gürgân ve batı Horasan'dı. Serbedârîlerce 1342'de
+  yenilip gerilese de 1353'e kadar sürdü, sonunda Serbedârî lideri Yahyâ
+  tarafından öldürüldü. (kaynak: Encyclopaedia Iranica, madde: TOḠA TIMUR;
+  ölüm tarihi TDV serbedariler maddesiyle çapraz doğrulandı)",
+  kaynak:"Encyclopaedia Iranica (togha-timur-ilkhan) + TDV serbedariler (çapraz doğrulama)",
+  kronoloji:[
+    { t:"1336-12-01", tur:"kurulus", b:"Horasan ileri gelenlerince han ilan edilip Mâzenderan'da tahta çıkarıldı (kış beyanı)" },
+    { t:"1342-02-01", tur:"savas", b:"Gürgân nehri kıyısında Serbedârîlerce yenildi" },
+    { t:"1353-12-13", tur:"son", b:"Serbedârî lideri Yahyâ tarafından öldürüldü" }
+  ]
+}
+```
 
-**Koordinatöre 3 soru soruldu, yazmadan bekleniyor:**
-1. `toga-timur` künyesi yazılsın mı?
-2. Kalan ~1 yıllık boşluk için ne yapılsın?
-3. 19 noktanın coğrafi konumu (Horasan/Mazenderan/Beyhak mı, başka yer mi) —
-   yerlesimler.js koordinatörde, ben doğrulayamam.
+**KOORDİNATÖR KARARI (2026-08-10): ŞİMDİLİK YAZMA.**
+Maliyet karşılaştırması yapıldı:
+```
+A) ilhanli KÖPRÜSÜ (veri: d:"iran" yerine d:"ilhanli" 1335-12-01→1337-09-09)
+   yeni künye 0 · yeni renk 0 · boşluğun TAMAMINI kapatır
+   (ilhanli künyesi zaten f:1256 t:1353 — kukla hanlar dönemini kapsıyor)
+B) toga-timur künyesi   +1 künye · +1 renk · 21 ayın yalnız 9'unu kapatır
+   ⇒ kalan 1335-12→1336-12 için ZATEN A gerekir, yani B, A'yı GEREKTİRİYOR
+```
+⇒ **A seçildi** (aynı doğruluk, daha az kaynak — Emre'nin token/veri
+bütçesi uyarısının uygulanmış hâli). `toga-timur` taslağı ÇÖPE GİTMEDİ,
+precision katmanı olarak burada duruyor; renk bütçesi rahatladığında
+açılabilir.
 
-## ③ KUTU DENETİM kalemleri
+---
+
+## ③ `iran` hayaleti (66/77 dönem, 1335-12-01) — KÜNYE TARAFI ÖLÇÜLDÜ
+
+**Taban doğrulandı** (36 girdi dosyasının hepsi `window.YERLESIMLER*` olarak
+toplanıp birleştirildi):
+```
+toplam yerleşim         2308   (§1.5 ile uyumlu)
+d:"iran" dönem sayısı     77
+  bunlardan f:"1335-12-01" olan   66   ← koordinatörün sayısıyla BİREBİR eşleşti
+```
+
+**Bölgesel dağılım** (12 alt-grup, örneklerle):
+```
+grup (t: bitiş)      adet  örnek                         zaten mevcut künye
+1381-01-01             19  Sebzevâr·Nîşâbur·Tûs·Merv      serbedariler (+toga-timur köprüsü, bkz ②)
+1387-11-01             14  Yezd·Nihâvend·Kâşân·Simnân     muzafferi (f:1318 t:1393)
+1381-04-01              3  Meşhed·Tebbes·Herat            kert (f:1245 t:1389 — kayıp 1381 BİREBİR uyuyor)
+1501-07-01            9+3  Revan·Gence·Şamahı·Bakü·Kabala karakoyunlu/akkoyunlu → safevi
+1538-01-01              3  Salyan·Kuba·Şeki               sirvansah (f:861 t:1538 BİREBİR uyuyor!)
+1503-01-01              4  Isfahan·Kazvin·Kum·Tahran       safevi (f:1501-07-01)
+1508-01-01              5  Hemedan·Kirmanşah·Luristan·Zencan  akkoyunlu/safevi
+1411-01-01 / 1510-12-02 2  Telafer · Esterâbâd (Gürgân)   celayirli/timurlu/safevi (küçük, tekil)
+```
+
+**SONUÇ — künye tarafında (devletler.js) NEREDEYSE HER ŞEY ZATEN VAR.**
+Hayalet, künye EKSİKLİĞİ değil; veri (yerlesimler.js) bu noktaları var olan
+künyelere bağlamamış. Bu tamamen VERİ tarafının işi (koordinatörün/NOKTA
+oturumlarının), benim değil.
+
+**🔴 GERÇEK EKSİK — iki bölge için hiç künye yok, TDV'de canlı slug bulup
+araştırdım:**
+```
+1592-01-01   2 nokta   Lâhîcan · Bender Enzeli (GİLAN)
+  TDV `gilan`: Kârkiyâ hânedanı bölgeye hâkimdi, "Safevî I. Şah Abbas
+  1592'de bölgeyi hâkimiyeti altına aldı" — VERİDEKİ 1592 tarihiyle
+  BİREBİR uyuyor. Kuruluş yılı TDV'de net değil (Moğol istilası sonrası,
+  Olcaytu'nun 1306-07 girişiminden sonra, ~1307+).
+
+1596-01-01   5 nokta   Sârî · Âmül · Bârfurûş · Ferahâbâd · Eşref (MAZENDERAN)
+  TDV `marasiler`: Mar'aşî Seyyidleri, kuruluş NET — Seyyid Kıvâmüddin'in
+  Âmül'ü ele geçirmesi 760/1359. Son tarih TDV'de belirsiz ("Şah I. Abbas
+  zamanında [1587-1629] çeşitli yerlere dağıtıldılar" diyor, yıl vermiyor)
+  — veride kullanılan 1596 muhtemelen başka bir akademik kaynaktan.
+```
+(Not: Sistan/Zerenc için `mihrabaniler` — koordinatörün zaten flagged
+ettiği kalem — TDV slug'ı ÖLÜ (302), araştırmadım, "sonra bakarız" dediği
+gibi bırakıldı.)
+
+**Koordinatöre soruldu, yazmadan bekleniyor:** `gilan-kiya` ve
+`mazenderan-marasi` künyeleri TDV kaynağıyla yazılsın mı?
+
+---
+
+## ④ KUTU DENETİM kalemleri
 Henüz gelmedi. Bekleniyor.
 
-## Durum: koordinatörün cevabı bekleniyor — devletler.js'e HENÜZ hiçbir yazma yapılmadı.
+## Durum: koordinatörün cevabı bekleniyor — `devletler.js`'e HENÜZ hiçbir yazma yapılmadı.
