@@ -254,7 +254,43 @@ için kaynağa sorulacak.
 > eksik parçası bulundu: `uret_petek.py:874` `_ENKLAV` kümesi **zaten** yetim yüz
 > emmesini engelliyor (bugün 14 nokta). Tavanla kesilen toprak da muaf tutulabilir.
 >
-> ⚠️ **ÖLÇÜLMEMİŞ:** bugün kaç tane kaldığı. Şartnamenin **ADIM 1**'i bu.
+> 🟢 **ÖLÇÜLDÜ (MOTOR DENİZAŞIRI, ADIM 1) — VE İŞ SANDIĞIMDAN ÇOK KÜÇÜK:**
+> ```
+> ON ÜÇ VAKANIN SEKİZİ ZATEN KAPALI
+> açık kalan 5:  Kilitbahir 1.444 km² · Çimpe 161 · Karabiga 124  = 1.805 km²
+>                (hepsi Çanakkale/Marmara)
+> ```
+> 🔴 **VE ŞARTNAMEMİN İKİ VARSAYIMI ÇÜRÜDÜ — "tasarlanacak" dediğim şey MOTORDA VARDI:**
+> ```
+> uret_petek.py:997   ADA KURALI — "peteği KENDİ kara parçasının dışına taşamaz"
+>                     yorumu Emre'nin vakalarını ADIYLA sayıyor (h1#8 · h1#6)
+> uret_petek.py:1085  KARA-KISITLI SAHİPLİK — "Oran'ın peteği İspanya'ya
+>                     geçebiliyordu" (h10#29 · h15#19) · çok kaynaklı Dijkstra
+> uret_petek.py:1026  tavan/yetim-yüz kusuru ZATEN düzeltilmiş (koşu 4b'nin izi)
+> ```
+> ⇒ *"Yapılacak iş"* diye yazdığım şey **yapılmıştı.** Bugünün deseninin
+> **dördüncü** tekrarı (`_ENKLAV` · `isg:`/`k:` · `tur:deniz` · bu) — ama ilk üçü
+> **eksik** buldu, bu **fazlalık** buldu.
+>
+> 🔴 **VE TASARIMI BAĞLAYAN BULGU:** *"Kilitbahir'i kesen her su-açıklığı eşiği
+> Tromsø (20.902 km²) · Ålesund · Bergen'i de keser"* — ve motorun **kendi kabul
+> testi** (`:1111`) *"Oslo, Königsberg, Azak 0 km² kaybetmelidir; kural onları
+> bozuyorsa KURAL YANLIŞTIR"* diyor. ⇒ Düz eşik **motorun kendi sınavını düşürür.**
+>
+> 🟢 **Karar: DAR kapsam (A)** — 5 açık vaka + 2 ihlal. Emre'nin on üç vakasının
+> hiçbiri Norveç değil; kalan iş `BOĞAZ` kovasının **%1,9'u.**
+>
+> 📌 **Ve bir ayrım kayda değer, öteki oturumları da bağlar:**
+> ```
+> GEOMETRİ (petek denizi geçiyor mu)  tarihten BAĞIMSIZ  ⇒ tek ölçüm yeter
+> BOYA    (o gün hangi devlet)         tarihe BAĞLI       ⇒ kesit gerekir
+> ```
+> *"Kaç taşma var"* ile *"o gün göze batıyor mu"* **farklı sorular.**
+>
+> 🔴 **Yan bulgu — yerleşim kuyruğuna:** `Behramkale` ve `Assos` **veride HİÇ YOK.**
+> `h17#3` bir motor kusuru değil **noktasızlık** (`CLAUDE.md §2`'nin klasik vakası).
+> 🟡 Ve `h1#8` **ters yönde** açık: Midilli'de 0 parça, ama **Ayvalık'ta 76 km²**
+> (su 23,5 km) — şikâyet kapandı, aynı boğazda ters yön kaldı.
 
 ---
 
