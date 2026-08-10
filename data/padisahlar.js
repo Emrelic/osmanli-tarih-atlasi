@@ -9,7 +9,9 @@ window.PADISAHLAR = [
     baba:"Ertuğrul Gazi",
     tahta:"1299 (dolayı)",
     saltanat_yil:27,
+    lakap:["Gazi"],
     esler:["Mal Hatun (Şeyh Edebâli'nin kızı)"],
+    cocuk:{oglan:2},
     ovgu:"1302'de Bapheus zaferiyle bölgesel bir güç hâline geldi ve bu "
     + "zafer Osmanlı hanedanının 'kuruluş tarihi' sayılır; küçük bir "
     + "uc beyliğini, oğlu Orhan'ın devralacağı kalıcı bir devlete "
@@ -38,6 +40,7 @@ window.PADISAHLAR = [
     anne:"Mal Hatun",
     tahta:"1326-04 (Bursa'nın fethiyle örtüşür)",
     saltanat_yil:36,
+    lakap:["Gazi"],
     esler:["Nilüfer Hatun (Bizanslı, Murad I'in annesi)","Theodora (Bizans prensesi, siyasi evlilik)"],
     cocuk:{oglan:5},
     skandal:"bulunamadı — kaynaklar bu denli erken dönem için kişisel "
@@ -161,6 +164,12 @@ window.PADISAHLAR = [
     anne:"cariye (bazı kaynaklarda Şehzade Hatun)",
     tahta:"1421-06-25 (ilk saltanat); 1446-05 (ikinci saltanat)",
     saltanat_yil:28,
+    lakap:"bulunamadı — TDV maddesinde 'Hüdavendigâr' (dedesi I. Murad'ın "
+    + "lakabı) dışında kendine özgü bir lakap zikredilmiyor",
+    esler:["Hatice Halime Hatun (İsfendiyaroğlu)","Mara Branković (Sırp "
+    + "prensesi, 1435 — siyasi evlilik, kaynaklara göre gerdek yapılmadı)",
+    "Hüma Hatun (II. Mehmed'in annesi)"],
+    cocuk:{oglan:"en az 4 (Mehmed, Alaeddin Ali, Ahmed, Hasan — sonuncu ikisi çocuk yaşta öldü)",kiz:3},
     skandal:"1444'te oğlu II. Mehmed lehine tahttan çekildi ama Varna "
     + "bunalımı ve yeniçeri ayaklanması üzerine 1446'da genç oğlunu "
     + "tahttan indirip yeniden tahta çıktı — Osmanlı tarihinde nadir "
@@ -232,6 +241,12 @@ window.PADISAHLAR = [
     + "Mehmed'in devleti idare edemediği anlaşılınca, yeniçerilerin "
     + "desteğiyle ikinci kez tahta çıktı)",
     saltanat_yil:5,
+    lakap:"bulunamadı — TDV maddesinde 'Hüdavendigâr' (dedesi I. Murad'ın "
+    + "lakabı) dışında kendine özgü bir lakap zikredilmiyor",
+    esler:["Hatice Halime Hatun (İsfendiyaroğlu)","Mara Branković (Sırp "
+    + "prensesi, 1435 — siyasi evlilik, kaynaklara göre gerdek yapılmadı)",
+    "Hüma Hatun (II. Mehmed'in annesi)"],
+    cocuk:{oglan:"en az 4 (Mehmed, Alaeddin Ali, Ahmed, Hasan — sonuncu ikisi çocuk yaşta öldü)",kiz:3},
     skandal:"Oğlu II. Mehmed'i (henüz 14 yaşında) tahttan indirip yeniden "
     + "tahta çıkması, Osmanlı veraset düzeninde istikrarsız ve tekrarı "
     + "görülmemiş bir emsal oluşturdu.",
@@ -297,6 +312,9 @@ window.PADISAHLAR = [
     tahta:"1481-05-22",
     saltanat_yil:31,
     lakap:["Velî"],
+    esler:["Ayşe Hatun (Dulkadıroğlu, I. Selim'in annesi)","Bülbül Hatun "
+    + "(Şehzade Abdullah'ın annesi)","Şirin Hatun (Şehzade Alemşah'ın annesi)"],
+    cocuk:{oglan:8,kiz:"en az 8"},
     skandal:"Kardeşi Cem Sultan'ın 14 yıl süren taht iddiası boyunca "
     + "Rodos şövalyelerine ve Papalığa Cem'i esaret altında tutmaları "
     + "için düzenli ödeme yaptı.",

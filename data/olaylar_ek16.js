@@ -218,4 +218,28 @@ window.OLAYLAR_EK16 = [
   d:"TDV'nin Somali maddesine göre İtalya, güney Somali kıyısındaki (Benâdir) hâkimiyetini 1889-1891'de Zengibar Sultanlığı ve İngiltere ile yaptığı anlaşmalarla kurmuş, yönetimini ise başlangıçta imtiyazlı bir ticaret şirketine (Benadir Company) bırakmıştı; standart akademik kaynağa göre bu şirketin imtiyazı 24 Ocak 1905'te sona erdi ve İtalyan devleti Benâdir kıyısının (Mogadişu, Merka, Baraave dahil) doğrudan egemenliğini satın alarak resmî sömürge yönetimini kurdu. Kolonin iç kesimlere (Bardera, Baydoa) doğru fiilî genişlemesi ise 1908 kuruluş kararnamesi ve sonraki yıllarda tamamlanacaktır.",
   kaynak:"somali", duygu:["😔"] },
 
+{ t:"1489-02-26", k:"antlasma", etiket:["toprak-kazanc"],
+  b:"Kraliçe Katerina Cornaro Kıbrıs'ı Venedik'e devretti — Haçlı devletinin sonu",
+  gun:"26 Şubat 1489",
+  yer:"Lefkoşa, Magosa, Girne, Baf, Limasol, Tuzla (Larnaka)",
+  yer_id:"Lefkoşa", kisiler:"Katerina Cornaro",
+  d:"Kocası Kral II. Jacques'in 1473'te ölümünden sonra kraliçe naibi olarak Kıbrıs'ı yöneten Venedikli Katerina Cornaro, mirasçısı olmadığı için Venedik hükûmetinin baskısıyla 26 Şubat 1489'da tahttan çekilerek adadaki hükümdarlık haklarını doge'ye ve Venedik Cumhuriyeti'ne devretti; karşılığında kraliçe unvanını korudu ve Terraferma'da Asolo kontluğunu aldı. Bu devirle 1192'den beri süren Lüzinyan (Lusignan) hânedanı hâkimiyeti ve son Haçlı devleti sona erdi, ada 1570-71 Osmanlı fethine kadar Venedik idaresinde kaldı.",
+  kaynak:"bulunamadı — TDV bu olayı müstakil bir maddede ele almıyor, dayanak: standart akademik kaynak (Catherine Cornaro tarihyazımı)", duygu:["😔"] },
+
+{ t:"1503-04-02", k:"antlasma", etiket:["toprak-kaybi"],
+  b:"Moskova-Litvanya Mütarekesi — Çernigov-Seversk bölgesi Moskova'ya geçti",
+  gun:"25 Mart 1503 (Müjde/Annunciation mütarekesi) — veride 1503-04-02 kesinleşme günü olarak kullanılıyor",
+  yer:"Kiev, Kursk, Nikarya (İkarya), Baturin, Hluhiv, Novgorod-Seversk, Orel, Poltava, Putivl, Çernigov",
+  yer_id:"Çernigov", kisiler:"III. İvan, II. Ulászló (Vladislav)",
+  d:"1500-1503 Moskova-Litvanya Savaşı, Macaristan-Bohemya kralı II. Ulászló'nun arabuluculuğuyla altı yıllık bir mütarekeyle sona erdi; Litvanya Büyük Knezliği, Çernigov-Seversk bölgesi (Çernigov, Novgorod-Seversk, Starodub, Bryansk çevresi) ile Smolensk ve Polotsk civarındaki bazı topraklar dahil, Büyük Knezliğin yaklaşık üçte birini oluşturan geniş bir araziyi Moskova Büyük Knezliği'ne bırakmak zorunda kaldı. Bu, Moskova'nın Rus topraklarını 'toplama' sürecinde en büyük tek kazanımlarından biriydi.",
+  kaynak:"bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Moskova-Litvanya savaşları tarihyazımı)", duygu:["😔"] },
+
+{ t:"1797-05-12", k:"siyaset", etiket:["toprak-kaybi"],
+  b:"Venedik Cumhuriyeti'nin sonu — Büyük Meclis kendini feshetti",
+  gun:"12 Mayıs 1797",
+  yer:"Venedik, Verona, Padova, Brescia, Bergamo, Udine",
+  yer_id:"Venedik", kisiler:"Ludovico Manin (son doge), Napolyon Bonapart",
+  d:"Napolyon'un İtalya seferi ordusu Venedik karasını işgal edip cumhuriyete ültimatom verince, Büyük Meclis (Maggior Consiglio) 12 Mayıs 1797'de 512'ye 20 oyla kendini feshetmeyi kabul etti; son doge Ludovico Manin görevi bıraktı ve 1.100 yılı aşkın süredir kesintisiz varlığını sürdüren Venedik Cumhuriyeti'nin aristokratik yönetimi sona erdi. Toprakları önce geçici bir demokratik yönetime, ardından Ekim 1797'deki Campo Formio Antlaşması'yla resmen Avusturya'ya bırakıldı.",
+  kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Fall of the Republic of Venice tarihyazımı)", duygu:["😔"] },
+
 ];
