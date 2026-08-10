@@ -81,3 +81,31 @@ p6/H-0009   metinsiz madde — neyi işaretlemek istediniz?
 - `denetle_iddia.py` için **dört ateşleme vakası hazır**: p2/H-0025 (Bağdat) ·
   p3/H-0010 (Aydın) · p4/H-0006 (Erzurum-Van) · p6/H-0005 (Kalender Şah).
   Dördü de aynı sınıf: **madde var, kırılma yanlış yerde ya da yok.**
+
+## Teslimden SONRA gelen koordinatör hükmü — uygulandı
+
+**Kova adı düzeltildi:** `kapsam-disi-icerik` → **`icerik-kuyrugu`**.
+Gerekçe koordinatörün ve doğru: `data/merak.js` ve `data/ekokuma.js` VAR,
+`index.html:142`de tembel yüklemeyle bağlı — bu maddelerin **evi var**,
+"kapsam dışı" damgası onları öldürürdü.
+
+🟢 **Ve tabloyu kurarken ÖLÇTÜM — plan gereğinden BÜYÜK çıkmış:**
+```
+koordinatörün planı : 17 kalem → 16 kart, yeni içerik oturumu gerekiyor
+ÖLÇÜM               : merak.js 8 kart + ekokuma.js 3 kart ZATEN YAZILMIŞ
+                      parti-0006'nın 11 kaleminin ON BİRİ de karşılanmış
+                      ⇒ AÇIK KALAN: yalnız parti-0007'nin 6 kalemi
+```
+📌 Yani *"kabul edilmiş borç kayıtsız kalırsa yeniden bulunur"* dersinin
+**ters yüzü**: ÖDENMİŞ bir borç yeniden kuyruğa yazılıyordu. Kayıt tutmak
+iki yöne de gerekiyor.
+
+**Kendi sayımı da düzelttim:** içerik 19 → 17 (koordinatörün sayısı doğruydu),
+`sistem` 1 ayrı kovaya, `p4/H-0003` (Cem Sultan) kronoloji kalemine taşındı.
+⇒ harita/veri kalemi **46 → 47**.
+
+📌 Koordinatörün `p4/H-0007` uyarısını da denetledim: *"KALIP eşleşmesi
+('merak' kelimesi) ile İÇERİK aynı şey değil."* O maddeyi merak kovasına
+atmamıştım — **ölçmüştüm**: künye + 21 kayıt 1502-03-01'de bitiyor, o gün
+42 kırılma var, kronolojide karşılığı olan madde var. Uyarı yerindeydi,
+tuzağa düşmemiştim.
