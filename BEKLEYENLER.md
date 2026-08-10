@@ -73,7 +73,10 @@
 ## ŞU AN NE KOŞUYOR
 
 ```
-✅ VERİ DEVLET 2   108 → 38 · hedef aşıldı · KAPANIYOR
+✅ VERİ DEVLET 2   108 → 38 · hedef aşıldı · **KAPANDI** (`1a9a6d1`)
+                   📎 tam DOI/URL listesi ilerleme dosyasında — 5 kalem.
+                      Geri kalan akademik kaynaklar BASILI kitap: linksiz
+                      olmaları ihmal DEĞİL, dosyada açıkça yazılı
                    ⚪ kalan 38'in 19'u DIŞ HALKADA — borç değil, kabul edilmiş
                       kademe (`ONCELIK.md`: dış halkada hedef %80)
 ⏳ KRONOLOJİ 16    58 madde · kalanlar yuvarlak-tarih engelinde
