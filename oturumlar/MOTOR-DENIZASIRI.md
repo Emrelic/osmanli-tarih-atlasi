@@ -19,28 +19,53 @@ kök dizindeki `*.md` belgeleri · başka oturumun `oturumlar/` dosyası · **ya
 
 ## ① NİÇİN VARSIN — ölçülmüş boşluk
 
-**Emre bu kusuru YEDİ KEZ, DÖRT AYRI DOSYADA bildirdi.** Bugüne kadar yedisi de
-ayrı birer "harita hatası" sanıldı; İÇERİK oturumu 10 Ağustos'ta külliyatı
-tarayınca tek bir **kural beyanı** oldukları görüldü:
+**Emre bu kusuru ON DÖRT KEZ, ALTI AYRI DOSYADA bildirdi.** Bugüne kadar hepsi
+ayrı birer "harita hatası" sanıldı; İÇERİK oturumu 10 Ağustos'ta 18 docx'in
+tamamını tarayınca tek bir **kural beyanı** oldukları görüldü:
 
 ```
-h1  #8   Midilli → Ayvalık · Altınoluk · Edremit kırmızı
-         "ada karşı kıyıya ULAŞAMAZ"
-h1  #10  Zakintos → karşı kıyı boş renge düşüyor
-         "adaların bölgesi adayla SINIRLI"
 h1  #6   İstanbul'un fethi → Erdek / Kapıdağ kırmızı
-h4  #7   Derbend alınışı → HAZAR'IN ÖTE YAKASI kırmızı
-h4  #8   Bakü alınışı    → Hazar'ın karşı tarafı kırmızı
-h15 #19  Oran / Merselkebir → İSPANYA ANAKARASINA geçiş
-         "PETEK DENİZAŞIRI OLAMAZ"
+h1  #8   Midilli → Ayvalık · Altınoluk · Edremit    "ada karşı kıyıya ULAŞAMAZ"
+h1  #10  Zakintos → karşı kıyı                      "adaların bölgesi adayla SINIRLI"
+h4  #7   Derbend alınışı → HAZAR'IN ÖTE YAKASI
+h4  #8   Bakü alınışı    → Hazar'ın karşı tarafı
+h8  #2   (aynı desen)
+h10 #29  Vehran → İSPANYA ANAKARASI
+         🔴 "Bir yerleşimin petek bölgesi DENİZAŞIRI OLAMAZ."  ← EMRE'NİN KENDİ KURALI
+h12 #5   Karesi ilhakı → Gelibolu
+         🔴 "PETEK BÖLGELER DENİZ AŞIRI GİTMEMELİ."            ← aynı kural, İKİNCİ kez
+h15 #19  Oran / Merselkebir → İspanya anakarası
+h17 #3   Biga'nın ucu Behramkale ← "MİDİLLİ'DEKİ CENEVİZ ALANININ TAŞMASI olabilir mi"
+h17 #14  Karesi ilhakı → AVRUPA TARAFINA toprak sarkıyor
+h17 #15  Çimpe'ye çıkış → SAROZ KÖRFEZİNİN KUZEYİNE kırmızı bulaşması
 h18      "SAVOY HAÇLI SEFERİ KARANIN ÜSTÜNDEN GEÇİP GELEMEZ"
 ```
 
-> **Tek cümle: bir yerleşimin peteği denizi geçmemeli.**
+> **Tek cümle — ve iki kez Emre'nin kendi ağzından:
+> bir yerleşimin peteği denizi geçmemeli.**
 
-🔴 **Ve bu, külliyatın EN ÇOK TEKRARLANAN şikâyeti.** Yedi kez yazmak, bir
-kullanıcının bir şeyi yedi kez fark etmesi değildir — **her seferinde
-düzeltilmediğini görmesidir.**
+🔴 **VE ON DÖRDÜNCÜSÜ TEK VAKA BİLDİRMİYOR — TOPLU TARAMA İSTİYOR:**
+```
+h17 #3b   "TÜM BUNUN GİBİ DENİZ ÖTESİ TAŞMALAR ARAŞTIRILARAK BULUNMALI"
+```
+⇒ Yani `ADIM 1`in ölçümü bir yan iş değil, **Emre'nin doğrudan talebi.** Listeyi
+kapatmak yetmez; **tarama** isteniyor.
+
+🔴 **Ve bu, külliyatın en çok tekrarlanan iki şikâyetinden biri.** On dört kez
+yazmak, bir kullanıcının bir şeyi on dört kez fark etmesi değildir — **her
+seferinde düzeltilmediğini görmesidir.**
+
+### ⚠️ KARDEŞ TEMA — "KARASAL BAĞLANTI" (11 vaka) · SENİN İŞİN DEĞİL, AMA BİL
+
+Emre ayrıca **karadan** kopuk enklavlardan şikâyet ediyor ve bunu da genel kural
+olarak yazmış (`h12#10`): *"karadan genişlemelerde ana kara ile bağlantı
+beklenir… **uçakla gidilip arada geçiş yok iken ele geçirilemez**"*. Vakalar:
+Tebriz · Şirvan (3) · Isparta (2) · Gemlik-Armutlu · Kili-Akkerman · Gümülcine (2).
+
+📌 Aynı istiare (*"uçakla"*) `h10#28`de de geçiyor. **Denizaşırının kardeşi ama
+AYNI ŞEY DEĞİL** — biri denizi, öteki düşman toprağını geçiyor.
+⇒ **Çözümün ikisini birden kapatıyorsa SÖYLE** (kara bileşeni kuralı yalnız
+birincisini kapatır). Kapatmıyorsa **karışma**; ayrı bir karar.
 
 ### Bu bir "harita hatası" değil, motorun tanımlı bir davranışı
 
@@ -69,7 +94,11 @@ olabilir. Ölçmeden tasarlama.
 Kesitler:  en az 1400 · 1500 · 1600 · 1700 · 1800 (gerekirse daha)
 Ad ver:    en büyük 20'sini AD ve ALANLA listele
 ```
-⚠️ Yukarıdaki yedi vakayı **tek tek** kontrol et: bugün hâlâ var mı, yok mu?
+🔴 **VE BU TARAMA `h17#3b`NİN DOĞRUDAN KARŞILIĞIDIR** — *"tüm bunun gibi deniz
+ötesi taşmalar araştırılarak bulunmalı."* Yani ölçüm bir hazırlık değil,
+**teslim edilecek işin kendisi.** Bulduğun liste Emre'ye gidecek.
+
+⚠️ Yukarıdaki on dört vakayı **tek tek** kontrol et: bugün hâlâ var mı, yok mu?
 Emre'nin şikâyeti **bayat olabilir** (`CLAUDE.md §11`: *"bir şikâyet, şikâyet
 edilen şeyden daha hızlı bayatlar"*). Bayat olanı **düzeltme.**
 
@@ -226,7 +255,8 @@ tahmin veriye girer ve sonra kimse onun tahmin olduğunu bilmez.*
 
 ```
 ✅ BİTTİ demek için hepsi gerekli:
-   ① yedi vakanın kaçı kapandı — TEK TEK, adıyla
+   ① ON DÖRT vakanın kaçı kapandı — TEK TEK, adıyla
+   ①b h17#3b'nin TARAMASI: bugün kaç denizaşırı taşma var, en büyük 20'si
    ② denetle.py: altı değişmez · sahipsiz ≤ ilan ettiğin tavan
    ③ renk_olc.py: yeni çakışma sayısı ve gerekçesi
    ④ Osmanlı alanı kesit kesit — DEĞİŞMEDİYSE onu da yaz
