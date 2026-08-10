@@ -74,6 +74,31 @@
 
 ---
 
+## 🔴 KÜLLİYAT TEK BİR FOTOĞRAF DEĞİL — EN AZ İKİ TUR
+
+```
+983 grubu   h2 · h5 · h6 · h7 · h8 · h9        (h1 · h3 · h4 muhtemelen — ÇIKARIM)
+951 grubu   h11 · h12 · h13 · h14 · h15
+belirsiz    h18  "34 / 99…"  → ÜÇÜNCÜ sürüm olabilir, EN ESKİ olabilir
+okunamadı   h1 · h3 · h4 · h10 · h16 · h17
+bugün       panel 1161
+```
+> 🟢 **Git geçmişi çıkarımı DESTEKLEDİ:** `45ae881b` (29 Tem) dosyada **tam 983**
+> madde taşıyor, ve **hemen ardından** üst üste mükerrer temizliği geliyor —
+> `−6` `−21` `−22` `−13` = **62 madde**. Commit mesajlarından biri
+> **"hatalar 7 madde 4-5"** diyor: temizlik **Emre'nin şikâyeti üzerine**
+> yapılmış.
+> 🔴 **Ama TAM KANIT DEĞİL:** panel **1161**, dosya **1219** ⇒ ikisi aynı şeyi
+> saymıyor. 29 Temmuz'daki farkın ne olduğu bilinmiyor.
+>
+> ⇒ **Pratik sonuç:** *"bu şikâyet hâlâ geçerli mi"* sorusu artık **dosya
+> düzeyinde** cevaplanıyor. Ve `hatalar 3` ile `hatalar 15`in aynı soruları
+> sorması bir dikkatsizlik değil — **turların doğal sonucu.**
+
+| 🔴 YENİ KALEM | panel **1161** · dosya **1219** · `index.html` 17 dosyanın 17'sini de yüklüyor ⇒ **58 madde yükleniyor ama panelde görünmüyor.** Sebep ölçülmedi: filtre mi, pencere dışı mı, tekilleştirme mi | koordinatör |
+
+---
+
 ## SIRADAKİ DALGA — ölçüldü, uygulanmadı
 
 | iş | kim / ne zaman |
