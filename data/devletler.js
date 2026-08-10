@@ -1746,7 +1746,7 @@ window.DEVLETLER = [
 },
 { id:"ahiler", ad:"Ahi Birliği (Ankara)", tur:"devlet", bolge:"anadolu",
   f:"1290-01-01", t:"1354-01-01", baskent:"Ankara", harita:"ahiler",
-  ozet:"Selçuklu iktidar boşluğunda esnaf-dinî teşkilat Ahilik'in Ankara'da kurduğu fiilî özerk yönetim; Orhan Gazi'nin oğlu Süleyman Paşa tarafından Osmanlı'ya katıldı. (kaynak: TDV, madde: ahilik, ankara) 🔴 10 Ağustos 2026 BULGU (KOORDİNATÖRE BİLDİRİLDİ, t: DEĞİŞTİRİLMEDİ): Hacettepe Üniversitesi akademik makalesi (Celal Metin, 'Ankara'da Ahiler Yönetimi (1290-1354) Meselesi'), 1354'ün yalnız GEÇİCİ bir Osmanlı fethi olduğunu, şehrin kısa sürede yeniden Ahilerin eline geçtiğini ve gerçek/kesin sonun I. Murad'ın ikinci fethiyle (~1360) geldiğini gösteriyor. Mevcut t:1354 6 yıl erken kapanıyor olabilir — künyenin tarihine dokunulmadı, bu bir veri sahibi kararı.",
+  ozet:"Selçuklu iktidar boşluğunda esnaf-dinî teşkilat Ahilik'in Ankara'da kurduğu fiilî özerk yönetim; Orhan Gazi'nin oğlu Süleyman Paşa tarafından Osmanlı'ya katıldı. (kaynak: TDV, madde: ahilik, ankara) 🔴 10 Ağustos 2026 — KARAR: t: 1354'te KALIYOR (koordinatörle mutabık, `§4`: TDV konuşuyorsa esastır). Üç unsur: ① bizim t: 1354-01-01 (TDV `ankara`: 'Ankara 1354 yılında Orhan Gazi'nin oğlu Süleyman Paşa tarafından Osmanlı ülkesine katıldı') ② Hacettepe Üniversitesi akademik makalesi (Celal Metin) 1354'ün GEÇİCİ olduğunu, gerçek/kesin sonun I. Murad'ın ikinci fethiyle (~1360) geldiğini öne sürüyor ③ AÇIK SORU: TDV bu ikinci fethi anıyor mu? — TDV `ankara` gövdesi tam okundu, I. Murad'ın ikinci fethine dair TEK CÜMLE yok; TDV bu noktada SUSUYOR. TDV susarken akademik kaynak TDV'nin YERİNE geçmez (TDV aykırı değil, ana akımla aynı) — bu yüzden 1360 şimdilik tartışılmaz, yalnız bağlam olarak (1330/1341 olayları) kayda geçti.",
   kaynak:"yetersiz — ahilik maddesi okundu, Ahi teşkilatının varlığını doğruluyor ama Ankara'yı 14. yüzyılda fiilen yönettiği iddiasını karşılamıyor (yalnız İbn Battûta'nın genel gözlemi var); dayanak: standart akademik kaynak + Celal Metin (Hacettepe Üniversitesi akademik makalesi)",
   kronoloji:[
     { t:"1290-01-01", tur:"kurulus", b:"Selçuklu otoritesinin çökmesiyle Ahi teşkilatı Ankara'yı fiilen yönetmeye başladı" },
@@ -3275,6 +3275,8 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
     { t:"1625-01-01", tur:"kurulus", b:"Shyaam a-Mbul a Ngoong Kuba Krallığı'nı kurdu" },
+    { t:"1835-01-01", tur:"hukumdar", b:"Mbop Mabiinc maMbul, ~1885-86'ya kadar sürecek elli yıllık istikrarlı hükümdarlığına başladı; bu dönem krallığın idari ve sanatsal (ndop heykel geleneği) zirvesi sayılır (Oxford Research Encyclopedia of African History; Met Museum koleksiyon kaydı)" },
+    { t:"1899-09-01", tur:"isyan", b:"Kongo Serbest Devleti adına hareket eden Zappo Zap savaşçıları Kuba topraklarında kauçuk vergisi tahsili sırasında en az on dört köyü yıkıp şefleri katletti; misyoner Sheppard'ın soruşturması kırktan fazla ceset belgeledi — 1900'deki resmi sondan önceki çöküş sürecinin dönüm noktası (Jan Vansina, 'Being Colonized', Wisconsin Univ. Press 2010)" },
     { t:"1900-01-01", tur:"son", b:"Kongo Hür Devleti'ne resmen bağlandı" }
   ]
 },
@@ -3712,7 +3714,9 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
     { t:"1890-11-23", tur:"kurulus", b:"III. Willem'in ölümüyle Hollanda tacından ayrılıp Nassau-Weilburg koluna geçti" },
-    { t:"1914-08-02", tur:"isgal", b:"Almanya, tarafsızlığını çiğneyip ülkeyi işgal etti" }
+    { t:"1914-08-02", tur:"isgal", b:"Almanya, tarafsızlığını çiğneyip ülkeyi işgal etti" },
+    { t:"1919-01-15", tur:"hukumdar", b:"Büyük Düşes Marie-Adélaïde, Alman işgal güçleriyle iş birliği suçlamaları ve halk baskısıyla tahttan çekildi; yerine kız kardeşi Charlotte geçti (Tucker vd., 'The European Powers in the First World War: An Encyclopedia', 1999)" },
+    { t:"1919-09-28", tur:"ittifak", b:"Çifte referandumda halk Charlotte'un tahtta kalmasını (%77,8) ve ekonomik birlik için Fransa'yı tercih ettiğini bildirdi; Fransa'nın çekimser kalmasıyla nihai karar Belçika lehine verildi, 1921'de Belçika-Lüksemburg Ekonomik Birliği kuruldu (Nohlen & Stöver, 'Elections in Europe: A Data Handbook', 2010)" }
   ]
 },
 
@@ -3987,8 +3991,11 @@ window.DEVLETLER = [
   ozet:"Assam ile Birmanya arasındaki vadide Meitei hânedanının yönettiği krallık; 1891'de İngiliz himâyesine girdi ama tahtı 1923'ün ötesine taşıdı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
+    { t:"1717-10-01", tur:"hukumdar", b:"Kral Pamheiba (Garibaniwaz), Vaişnavist Hinduizm'e resmen geçip bunu krallığın resmî dini ilan etti; yerli Meitei inanç geleneklerine (Sanamahizm) karşı saray içi dirençle karşılaştı (MDPI Religions 12(12):1041, 2021, Cheitharol Kumbaba'ya dayanarak)" },
     { t:"1819-01-01", tur:"isgal", b:"Birmanya işgali 'Yedi Yıllık Yıkım' diye anılan dönemi başlattı" },
-    { t:"1891-01-01", tur:"son", b:"Anglo-Manipûr Savaşı'ndan sonra krallık İngiliz himâyesine alındı" }
+    { t:"1826-02-24", tur:"antlasma", b:"Yandabo Antlaşması'nın 2. maddesiyle Ava Kralı Manipûr üzerindeki iddialarından vazgeçip Gambhir Singh'i bağımsız hükümdar tanıdı; Birmanya işgali resmen sona erdi (Britannica, 'Treaty of Yandabo')" },
+    { t:"1891-01-01", tur:"son", b:"Anglo-Manipûr Savaşı'ndan sonra krallık İngiliz himâyesine alındı" },
+    { t:"1891-08-13", tur:"isyan", b:"Anglo-Manipûr Savaşı'nın ardından Senapati Tikendrajit Singh ve Thangal General İmphal'da halka açık şekilde asıldı; bugün Manipûr'da Vatanseverler Günü olarak anılır" }
   ]
 },
 { id:"nepal", ad:"Nepal (Malla Krallıkları → Gorkha/Şah Hânedanı)", tur:"krallik", bolge:"guney-asya",
@@ -4006,7 +4013,9 @@ window.DEVLETLER = [
   ozet:"Batı Himalaya'da Tibet Budizmi'ne bağlı, İpek yolu kollarını denetleyen krallık; Dogra istilâsıyla Cammû-Keşmir'e katıldı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
+    { t:"1460-01-01", tur:"kurulus", b:"Bhagan, Leh halkıyla ittifak kurup Maryul kralı Lodrö Chokden'i tahttan indirerek 'Namgyal' (muzaffer) soyadını aldı ve hanedanı kurdu (Luciano Petech, 'The Kingdom of Ladakh, c. 950-1842 A.D.', 1977; gün yok)" },
     { t:"1681-01-01", tur:"savas", b:"Tibet-Ladakh-Moğol savaşı başladı, krallık Bâbürlü yardımıyla ayakta kaldı" },
+    { t:"1684-01-01", tur:"antlasma", b:"Savaş, Tingmosgang (Temisgam) Antlaşması ile sona erdi: sınır Demchok'a çekildi, Ladakh'a pashmina tekeli verildi, karşılığında Lhasa'ya üç yılda bir haraç ve Tibet Budizmi'ni koruma yükümlülüğü getirildi (Petech 1977; Ahmad 1968, 'New Light on the Tibet-Ladakh-Mughal War of 1679-84'; gün yok)" },
     { t:"1834-01-01", tur:"son", b:"Zorâver Singh'in Dogra seferi krallığı sona erdirdi" }
   ]
 },
@@ -4045,7 +4054,9 @@ window.DEVLETLER = [
   ozet:"Seylan'ın kuzeyinde Tamil hânedanının kurduğu, inci ve fil ticaretiyle yaşayan krallık; Portekiz seferiyle ortadan kaldırıldı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
+    { t:"1215-01-01", tur:"kurulus", b:"Kalinga'dan geldiğini iddia eden Kalinga Magha'nın istilasıyla Aryacakravarti Hânedanı'nın yönettiği Yafna Krallığı kuruldu; Magha, Polonnaruwa'yı yöneten Parakrama Pandyan II'yi tahttan indirdi (K.M. de Silva, 'A History of Sri Lanka'; K. Indrapala, 'Early Tamil Settlements in Ceylon'; gün yok)" },
     { t:"1450-01-01", tur:"isgal", b:"Kotte kuvvetleri krallığı geçici olarak işgal etti" },
+    { t:"1560-01-01", tur:"savas", b:"Portekiz Genel Valisi Dom Constantino de Bragança'nın seferi Nallur'u ele geçirdi; Kral Çankili I antlaşmayla başkentini geri aldı ama Mannar Adası'nı kaybetti — 1619'daki kesin çöküşten önceki ilk ciddi Avrupa saldırısı (de Silva; gün yok)" },
     { t:"1619-02-01", tur:"son", b:"Portekiz kuvvetleri son kral Cankili II'yi devirdi, krallık sona erdi" }
   ]
 },
