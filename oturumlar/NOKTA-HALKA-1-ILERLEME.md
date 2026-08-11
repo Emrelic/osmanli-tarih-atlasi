@@ -320,9 +320,49 @@ ve *"bulunamadı"* diye açıkça yazıldı (o kıyıda TDV müstakil madde taş
 2. **`index.html` + `js/app.js`** — script satırı ve birleştirme noktası
    (`VERI-YAPISI.md`: *"yeni bir veri dosyası eklersen index.html'e satır
    eklemen ve app.js'te birleştirme noktasına katman şart"*).
-3. ~~`Kilitbahir`'in `kur:` alanı~~ — 🔴 **GERİ ALINDI, §② bak.** Ölçüldü:
-   `kur:` kaldırmak **hiçbir tarihte 0 km²** değiştiriyor; Gelibolu yarımadasında
-   1354 öncesi Osmanlı lekesi **yok**. Yapılacak iş **yok**.
+3. ~~`Kilitbahir`'in `kur:` alanı~~ — 🔴 **GERİ ALINDI, §② bak.**
+   ⚠️ **AMA GERİ ALMA YETİŞMEDİ: koordinatör `kur:`i KALDIRDI (`a550bcd`).**
+   Bkz. §⑪ — kaldırmanın etkisi ölçüldü ve **net olarak ters yönde.**
+
+---
+
+## ⑪ KAPANIŞTAN SONRA — `kur:` KALDIRILDI, ETKİSİ ÖLÇÜLDÜ
+
+Koordinatör teslimi kabul ederken *"③ Kilitbahir `kur:` KALDIRILDI"* yazdı.
+O, **geri aldığım** öneriydi; geri alma mesajı ona yetişmemiş görünüyor
+(cevabında bileşen kilidi ölçümüne ya da *"beşinci nokta iptal"*e değinmiyor).
+
+Doğrulandı: `girdi.py` 37 dosya · **2312 nokta** · `ek23`ün dördü de canlı ·
+`Kilitbahir.kur` artık **None**.
+
+**Etki ölçüldü** — canlı evrende, kara maskesi + bileşen ayrımıyla
+(ham kutu ölçümü *"265 hücre"* demişti; **deniz ve boğaz-aşırı yapaylık** —
+aynı hatayı ikinci kez yaptım ve ikinci kez maskeyle düzelttim):
+
+```
+0,005° · 4.896 kara hücresi · bileşen 2 (Avrupa#1 · Asya#0)
+
+1300   toplam 23 km²    ASYA  karesi  → bizans   19 km²   🔴
+                        AVRUPA karesi → bizans    3 km²
+1350   toplam 23 km²    ASYA  OSMANLI → bizans   19 km²   🔴
+                        AVRUPA OSMANLI→ bizans    3 km²
+1400   0 km²      1440   0 km²
+```
+
+🔴 **Etkinin %83'ü YANLIŞ YAKADA.** `kur:` kalkınca Kilitbahir 1281'den itibaren
+petek sahibi oluyor ve **1,3 km'lik boğazı geçip Anadolu kıyısına** 19 km²
+Bizans boyuyor — oysa orası 1345'e kadar Karesi, sonra Osmanlı.
+⚠️ Ve motorun `kara-kısıtlı sahiplik` süzgeci bunu **yakalayamaz**:
+`KV_MIN_KM2 = 200` (`uret_petek.py:1178`) ve parça **19 km²**, tabanın çok altında.
+
+⇒ Kazanç 3 km², bedel 19 km². `§3.5.1`: *bir sınır kayması önerildiğinde
+İKİ UÇ DA ölçülür* — bu düzeltme tek uçtan bakılarak yapıldı (**benim tek uçlu
+raporum yüzünden**) ve hatayı silmedi, **taraf değiştirdi.**
+
+📌 Büyüklük küçük (23 km², iki kesit) — acil değil. Ama kayıt altına alınmazsa
+`§11`in *"kabul edilmiş borç kayıtsız kalırsa yarın kusur diye yeniden
+bulunur"* vakası olur. **Kararı koordinatörün.** Önerim: `kur:"1452-01-01"`
+geri konsun; kaldırılmasının dayanağı benim çürütülmüş hükmümdü.
 4. **`data/devletler.js`** — `isa-celebi` · `mehmed-celebi` · `musa-celebi` ·
    `suleyman-celebi` **künyesiz** (renkleri var, 409 canlı kayıtta
    kullanılıyorlar). **Bu dosyanın eseri değil**, mevcut borç.
