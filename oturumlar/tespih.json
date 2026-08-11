@@ -1,7 +1,7 @@
 {
   "surum": 1,
   "proje": "Osmanlı Tarih Atlası",
-  "guncelleme": "2026-08-11T02:57",
+  "guncelleme": "2026-08-12T00:38",
   "isler": [
     {
       "id": "T-0001",
@@ -1885,6 +1885,26 @@
       "u": "*",
       "sahip": null,
       "girdi": "2026-08-11T02:57",
+      "basladi": null,
+      "bitti": null,
+      "olcum": null
+    },
+    {
+      "id": "T-0111",
+      "baslik": "Basarim nobetcisi — kutu penceresinin acilis/tazeleme sureleri olculup esik asilinca uyarilsin",
+      "hal": "oneri",
+      "kanal": 6,
+      "onem": 3,
+      "irilik": 2,
+      "nicin": "Bugun acilis 16,4 saniyeye cikmisti ve KIMSE FARK ETMEDI; Emre soyleyene kadar surdu. denetle_sistem.py YAPI denetliyor (skill senkronu, tavan, ders bicimi) ama BASARIM denetlemiyor. Yavaslama sessizdir: hicbir sey bozulmaz, hicbir test kirmizi olmaz, yalniz kullanici bekler. Ve bugun olculdu ki yavaslamayi ekleyen sey bir DUZELTMEYDI — yani en tehlikeli yavaslama, iyi niyetle eklenendir. Alet: py kutu/hiz.py, acilis + her tazeleyicinin suresini olcup esigin ustundekileri kirmizi basar; denetim gibi her commit oncesi degil, HAFTADA BIR ya da kutu.py degisince kosulur.",
+      "olcek": "mm3",
+      "ust": null,
+      "z": "*",
+      "m": "*",
+      "k": "*",
+      "u": "*",
+      "sahip": null,
+      "girdi": "2026-08-12T00:38",
       "basladi": null,
       "bitti": null,
       "olcum": null
