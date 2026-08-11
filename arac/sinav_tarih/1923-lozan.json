@@ -44,6 +44,16 @@
     {"yer": "Cezayir",    "beklenen": ["fransa-cumhuriyet", "fransa"], "niçin": "Fransız"},
 
     {"yer": "Sofya",      "beklenen": ["bulgaristan"], "niçin": "bağımsız Bulgaristan"},
+
+    {"yer": "Köstendil",  "beklenen": ["bulgaristan"], "niçin": "🔴 EMRE BULDU (11 Ağu): veri 1923'te TÜRKİYE gösteriyordu. Kyustendil — Balkan Savaşları'nda kaybedildi, 1913-05-30 Londra Antlaşması"},
+    {"yer": "Petriç",     "beklenen": ["bulgaristan"], "niçin": "🔴 EMRE BULDU: Petrich, Struma vadisi — aynı sebep"},
+    {"yer": "Nevrokop",   "beklenen": ["bulgaristan"], "niçin": "🔴 EMRE BULDU: Gotse Delçev, Mesta vadisi — aynı sebep"},
+    {"yer": "Çirmen",     "beklenen": ["yunanistan"], "niçin": "🔴 EMRE BULDU: Ormenio — Meriç'in BATI yakası. 1913'te Bulgaristan'a, 1920'de Batı Trakya ile Yunanistan'a"},
+    {"yer": "Kırklareli", "beklenen": ["OSMANLI"], "niçin": "Türkiye'de kalan sınır şehri — öbür uçtan sağlama"},
+    {"yer": "Enez",       "beklenen": ["OSMANLI"], "niçin": "Meriç ağzı, Türkiye'de — öbür uçtan sağlama (§3.5.1: iki uç da ölçülür)"},
+    {"yer": "İpsala",     "beklenen": ["OSMANLI"], "niçin": "Meriç'in DOĞU yakası, Türkiye'de"},
+    {"yer": "Ferecik",    "beklenen": ["yunanistan"], "niçin": "Feres — Meriç'in BATI yakası, Yunanistan'da"},
+    {"yer": "Dimetoka",   "beklenen": ["yunanistan"], "niçin": "Didymoteicho, Yunanistan'da"},
     {"yer": "Belgrad",    "beklenen": ["sirbistan", "yugoslavya"], "niçin": "Sırp-Hırvat-Sloven Krallığı"},
     {"yer": "Üsküp",      "beklenen": ["sirbistan", "yugoslavya"], "niçin": "aynı"},
     {"yer": "Saraybosna", "beklenen": ["sirbistan", "yugoslavya"], "niçin": "aynı"},
