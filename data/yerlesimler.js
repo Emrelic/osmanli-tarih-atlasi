@@ -265,18 +265,28 @@ window.YERLESIMLER = [
 // hiçbir tarihte kendi gövdesinin içinde çıkmıyordu. Kale ≈26.377'de; ama kara
 // maskesi 0.004° sadeleştirildiği için Boğaz'ın darboğazı çıktıda ~3 km'ye
 // açılmış (su 26.365-26.400). 26.360 hem karada hem kaleye 1,4 km.
-// 🔴 `kur:"1452-01-01"` KALDIRILDI (11 Ağustos 2026, NOKTA HALKA-1 ölçtü).
-// Emre'nin BİRİNCİ şikâyetinin tek sebebi buydu: "ÇANAKKALENİN KARŞI KIYISI
-// KARESİ İLHAKI İLE ALINMIŞ GİBİ". `kur:` peteği bastırıyordu, boğazın Avrupa
-// yakası 0,164 km farkla Çanakkale'ye (1345'ten Osmanlı) gidiyordu.
-// ⚠️ ÖDÜNLEŞME AÇIKÇA YAZILIYOR: Kilitbahir KALESİ gerçekten 1452'de yapıldı.
-//    Ama bu kaydın kendi zaman çizgisi 1281'den doludur (bizans → 1354 Osmanlı
-//    → 1366 bizans → 1376 Osmanlı → Fetret → 1413) ve `kur:` onunla ÇELİŞİYOR.
-//    Atlasın noktaları bir yapının varlığını değil BÖLGENİN MERKEZİNİ gösterir
-//    (`ALTYAPI-DORT-MADDE.md` ②); boğazın en dar yerindeki Avrupa yakası bir
-//    `k:4` dolgu noktasıyla temsil edilir. Yeni nokta EKLENEMEZDİ: Maydos
-//    4,33 km ötede ve 3 km kuralı aradaki her yeri kapatıyor.
-{ ad:"Kilitbahir", tur:"kale", lat:40.150, lon:26.360, g:0, k:4, m:"Edirne",
+// 🔴 `kur:"1452-01-01"` KALDIRILDI, sonra AYNI GÜN GERİ KONDU — vakası kayda
+// değer, çünkü `§3.5.1`in ("bir sınır kayması önerildiğinde İKİ UÇ DA ölçülür")
+// en temiz canlı örneğidir ve TEK UÇTAN gidildiği için hata TARAF DEĞİŞTİRDİ.
+//
+// ① İDDİA (NOKTA HALKA-1, 11 Ağu): Emre'nin birinci şikâyetinin ("ÇANAKKALENİN
+//    KARŞI KIYISI KARESİ İLHAKI İLE ALINMIŞ GİBİ") tek sebebi bu alan; `kur:`
+//    peteği bastırıyor, Avrupa yakası 0,164 km farkla Çanakkale'ye düşüyor.
+// ② UYGULANDI ve koşu başlatıldı.
+// ③ AYNI OTURUM KENDİ HÜKMÜNÜ ÇÜRÜTTÜ (0,005° odaklı ölçüm, maskeli, bileşenli):
+//       1300 · 1350'de Gelibolu yarımadasında Osmanlı lekesi ................ 0 km²
+//       `kur:` kalkınca DOĞAN kusur ....................................... 23 km²
+//         └─ 19 km²'si BOĞAZIN ÖTE YAKASINDA: Kilitbahir 1,3 km'yi geçip
+//            ANADOLU kıyısına bizans boyuyor (orası 1345'e kadar karesi)
+//    ⇒ kazanç 3 km², bedel 19 km². Kusur silinmedi, YAKA DEĞİŞTİRDİ.
+// ④ Motorun `kara-kısıtlı sahiplik` süzgeci bunu YAKALAYAMAZ:
+//    `KV_MIN_KM2 = 200` (uret_petek.py:1178), parça 19 km² — tabanın altında.
+// ⑤ Koşu DURDURULDU (~45 dk boşa), alan geri kondu, koşu yeniden başlatıldı.
+//    75 dakika bedavadır; Çanakkale Boğazı'nda yanlış renkli bir yayın değildir.
+//
+// 📌 Ve kalenin 1452'de yapılmış olması ZATEN doğruydu — `kur:` tarihsel olarak
+//    yerinde. Onu kaldırmanın tek dayanağı ①'di ve ① çürüdü.
+{ ad:"Kilitbahir", tur:"kale", lat:40.150, lon:26.360, g:0, k:4, m:"Edirne", kur:"1452-01-01",
     s:[{f:"1281-01-01",t:"1354-03-02",d:"bizans"},{f:"1366-08-01",t:"1376-09-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"}],
     d:[{f:"1354-03-02",t:"1366-08-01"},{f:"1376-09-01",t:"1402-07-28"},{f:"1413-07-05",t:"1923-10-29"}] },
 { ad:"Çirmen", tur:"kale", lat:41.720, lon:26.200, g:0, k:4, m:"Edirne",
