@@ -390,8 +390,45 @@ TAVANIN BAĞLADIĞI (yuvarlak kenarı olan): 75 / 193
 | `delikleri_doldur` muafiyeti | ⚠️ **ATEŞLEYEBİLİR** | tavan genişlerse bir çöl cebi kuşatılabilir — nöbetçi tam bunun için kondu |
 | A1 tavanı ↔ yetim yüz | 🔴 **ÖLÇÜLSÜN** | `MIMARI §2.9 VAKA 1`: tavan 3.397.649 km² serbest bıraktı, yetim yüz **geri verdi**. (b) aynı tuzağa girer |
 
-## ⑭ ALETLER — kapanışta kaybolacak
-Ölçüm betikleri scratchpad'de. `MOTOR DENİZAŞIRI` için koordinatör onları
-`arac/olc_denizasiri/` altına kurtarmıştı (commit `70b9a3f`). Aynısını
-istiyorsa `arac/olc_enklav/` altına yazabilirim — **izin bekliyorum**,
-`§3` yazma yetkim buna açık değil.
+## ⑭ ALETLER KURTARILDI — `arac/olc_enklav/` (koordinatör yetkiyi açtı)
+
+**8 dosya · py_compile temiz · bozuk bayt 0 · altısı da koşturularak sınandı.**
+
+| dosya | ne ölçer | EVREN |
+|---|---|---|
+| `OKU-BENI.md` | koşma sırası · her betiğin evreni · bilinen tuzaklar | — |
+| `_ortak.py` | paylaşılan parçalar, özellikle **`hizalama_sinavi()`** | — |
+| `olc_kova.py` ① | "var ama sahipsiz" kovaları | yalnız **veri** |
+| `olc_delik_kendi.py` ② | motorun **DOLDURDUĞU** delikler | 🔴 **ara ürün** |
+| `olc_delik_yayin.py` ③ | yayında **KALAN** delikler — **hüküm veren** | 🟢 **ekran** |
+| `olc_kb_boyanma.py` ④ | kasten boş yer boyanıyor mu | 🟢 **ekran** |
+| `c13_delikleri_doldur.py` ⑤ | muafiyet iki yönde — çıkış kodu 0/1 | 🟢 ekran + sahte |
+| `olc_b_hazirlik.py` ⑥ | (b) plan sayıları | ara ürün |
+
+🟢 **Ve nöbetçi ilk koşusunda gerçek bir şey yakaladı:** ② ve ⑥ bugün
+**çalışmayı reddediyor** (çıkış kodu 2), çünkü taban kaymış. Üstelik sayı
+sınavının bulamayacağını da buldu — **üç dosya** parmak izinden farklı
+(`yerlesimler_ek23.js` · `yerlesimler.js` · `yerlesimler_afrika.js`).
+
+### 🔴 VE BİR KARARIMI ÖLÇÜP GERİ ALDIM
+
+⑥'ya önce `zorunlu=False` koydum. Gerekçem: *"② nokta başına hüküm veriyor,
+dursun; ⑥ toplam plan sayısı üretiyor, uyarsın yetsin."* Makul geliyordu.
+**Ölçtüm:**
+```
+hizalı taban (2308)   193 nokta · 6.489.793 km² · TAVANA BAĞLI 75
+kaymış taban (2312)   193 nokta · 5.610.810 km² · TAVANA BAĞLI 60
+                      %13,5 alan · %20 sayı sapması — DÖRT noktalık kaymadan
+```
+İndeks kayması bir sayıyı *biraz oynatmaz*; hücreleri **başka yerleşimlerle
+eşler.** Sonuç *"yaklaşık"* değil **yanlış**. `zorunlu=True` geri kondu.
+
+> **İndeks eşlemesi ya geçerlidir ya değildir; arası yoktur.** Ve *"bu
+> yalnız plan sayısı"* bir bağışıklık değil: **yanlış bir plan sayısı da bir
+> sonraki oturumun tabanı olur.**
+
+📌 Bu, bugünkü dördüncü *"ölçüm doğru, çıkarım yanlış"* vakası — ve bu sefer
+çıkarım **benim tasarım kararımdı**, bir sayı değil.
+
+⚠️ Dosyalar **commit'lenmedi**: `arac/olc_enklav/` Oturum 0'ın işi (`§7`,
+paylaşılan index). Diskte duruyorlar, yani kurtarma tamamlandı.
