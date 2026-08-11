@@ -1,0 +1,116 @@
+{
+  "_oturum": "MOTOR TAVAN-YÖN",
+  "_tarih": "2026-08-12",
+  "_damga": "KOŞUDAN ÖNCE yazıldı. Sonradan düzenlenirse bu dosyanın DEĞERİ KALMAZ.",
+  "_degisiklik": "arac/uret_petek.py — A1 yarıçap tavanı izotrop elipsten ALAN KORUYAN yöne duyarlı çokgene döndü (_tavan_cokgen).",
+
+  "_taban": {
+    "nokta": 2362,
+    "girdi_dosyasi": 41,
+    "son_commit": "d466c60",
+    "not": "44 sınır noktası aynı gün k:4 → k:3 çıkarıldı (tavan 140 → 280 km). Bu, tavan kümesini benim ADIM 1 ölçümümden SONRA değiştirdi; aşağıdaki sayılar YENİ taban üzerindedir."
+  },
+
+  "_evren": {
+    "olcum": "ham Voronoi ∩ gerçek girdi kara maskesi (ne_10m_land − göller) ∩ tavan",
+    "girmeyen": ["yaslama", "Chaikin", "coverage_simplify", "yetim yüz", "ada kuralı", "kara-kısıtlı sahiplik", "çöl tavanı"],
+    "sonuc": "MUTLAK km² motorun koşu çıktısıyla AYNI OLMAZ. Aşağıdaki kalemlerde ORAN ve YÖN bağlayıcıdır; mutlak sayılar referanstır.",
+    "olcum_araci": "scratchpad/olc_ongoru.py — motorun gerçek kodunu `ast` ile çıkarıp koşturur, kopya DEĞİL"
+  },
+
+  "kalemler": [
+    {
+      "no": 1,
+      "ad": "OSMANLI/tâbi alanı değişmez",
+      "mazeret": "YOK",
+      "olctugum": "7.545.554 → 7.546.840 km²  ·  Δ = +0,017 %",
+      "ongoru": "|Δ| ≤ %1",
+      "kabul_olcutu": "Koşu sonrası Osmanlı gövde alanı, dokuz kesitte, bir önceki yayına göre |Δ| ≤ %1.",
+      "curutur": "Δ > %1 çıkarsa ya alan-koruma normalizasyonu bozuk ya YETİM YÜZ / ADA KURALI kaçağı — ikisi de düzeltilir, MAZUR GÖRÜLMEZ.",
+      "niye_bu_olcut": "MIMARI §2.9 VAKA 1'de tehlikeli olan 'Osmanlı değişti' değil, 'kimsenin ÖNGÖRMEDİĞİ bir sebeple değişti'ydi. Tavan artık alan korudugu için, değişim varsa KAÇAKTIR."
+    },
+    {
+      "no": 2,
+      "ad": "kasıtlı boşluk taşıyan alan boyanmıyor",
+      "mazeret": "YOK",
+      "olctugum": "138 kasitli_bosluk noktası · petek alanı 10.476.376 → 10.488.135 km² (Δ = +0,112 %)",
+      "ongoru": "boyanan kasıtlı boşluk = 0",
+      "kabul_olcutu": "arac/olc_enklav/olc_kb_boyanma.py yedi kesitte 0 · 0 · 0 · 0 · 0 · 0 · 0",
+      "curutur": "Sıfırdan büyük herhangi bir sayı.",
+      "not": "Bu noktaların PETEĞİ büyüyebilir ama noktanın kendisi çoğu tarihte SAHİPSİZ olduğu için boyanmaz. Alan artışı (+%0,112) tek başına ihlal DEĞİLDİR; ihlal ölçütü BOYANMADIR."
+    },
+    {
+      "no": 3,
+      "ad": "şekil verilen petek sayısı",
+      "mazeret": "var (taban değişimine duyarlı)",
+      "olctugum": "şekilli 398 · daire AYNEN korundu 1964 · çözülemedi 0",
+      "ongoru": "motor logunda 'ALAN KORUYAN anizotropi: ~398 peteğe şekil verildi · ~1964 daire AYNEN korundu · 0 çözülemedi'",
+      "kabul_olcutu": "şekilli 350-450 aralığında · çözülemedi ≤ 20",
+      "curutur": "çözülemedi > 20 çıkarsa _TV_BISEC ya da şekil oranı sınırı gözden geçirilmeli.",
+      "niye_onemli": "2362 noktanın 1964'ünde çıktı BİT BİT AYNI. Değişim yüzeyi 398 nokta ⇒ koşudan sonra 'ne değişti' sorusu CEVAPLANABİLİR."
+    },
+    {
+      "no": 4,
+      "ad": "alan koruma sapması",
+      "mazeret": "YOK",
+      "olctugum": "medyan %0,0000 · azamî %0,0001",
+      "ongoru": "motor logunda 'alan koruma sapması: medyan ~%0,000 · azamî ≤ %1 ✓'",
+      "kabul_olcutu": "azamî sapma ≤ %1 (motorun kendi nöbetçisi basıyor)",
+      "curutur": "'✗ BİR PETEKTE %1'İ AŞTI' satırı."
+    },
+    {
+      "no": 5,
+      "ad": "🔴 DEĞMEYEN TAVAN ORANI — BOŞLUK KAPANMIYOR, ARTIYOR",
+      "mazeret": "var — ama ÖNGÖRÜ BU, ve ters yönde",
+      "olctugum": "Sahra 26,8% → 29,3% · Himalaya 23,9% → 31,3% · Yuan 27,3% → 32,1%",
+      "ongoru": "kopuk oranı ARTAR, azalmaz",
+      "kabul_olcutu": "—  (bu kalem bir HEDEF değil, ÖLÇÜM)",
+      "niye_boyle": "Alan koruyan şekil, komşusu YAKIN olan yöne (tavanların zaten değdiği yön) ÇEKİLİR, komşusu UZAK olan yöne (zaten değmediği yön) uzanır. ⇒ değme oranı düşer. Bu (d)'nin BEDELİ ve önceden yazılıyor.",
+      "hukum": "(d) ÇEMBERİ çözer, BOŞLUĞU çözmez — hatta biraz kötüleştirir. Koordinatörün ayrımı doğruydu: ÇEMBER=şekil · BOŞLUK=boyut, ve ikisi AYNI çareyle çözülmüyor.",
+      "kalan_is": "Turfan↔Şigatse 962 km · Hotan↔Şigatse 645 km · Agadez↔Timbuktu 611 km. ⚠️ Bunların bir kısmı KUSUR DEĞİL DOĞRU VERİ olabilir: Tibet yaylasının ortasına ne Turfan ne Şigatse hükmediyordu. Harita 'burası kimsenin değildi' diyebilmeli. KAPATILMADI, ÖLÇÜLDÜ."
+    },
+    {
+      "no": 6,
+      "ad": "en büyük petek — banda-adalari nöbetçisi",
+      "mazeret": "YOK",
+      "olctugum": "245.514 → 246.857 km²",
+      "ongoru": "en büyük petek < 300.000 km²",
+      "kabul_olcutu": "hiçbir petek banda-adalari vakasının (573.188 km²) yarısını aşmaz",
+      "curutur": "300.000 km²'yi aşan bir petek — tavanın var oluş sebebi çiğnenmiş demektir.",
+      "not": "Bırakılan GEVŞETME biçimi bunu k_üst=1,5'te 375.863'e, 2,0'da 539.518'e çıkarıyordu. (d) bu kapıyı açmıyor."
+    },
+    {
+      "no": 7,
+      "ad": "toplam boyanan alan",
+      "mazeret": "var (sonraki aşamalar dâhil değil)",
+      "olctugum": "57.785.787 → 57.803.160 km²  ·  Δ = +0,030 %",
+      "ongoru": "|Δ| ≤ %0,5",
+      "kabul_olcutu": "koşu logundaki 'korunum' satırları; artış varsa hangi aşamada olduğu AŞAMA SONDALARINDAN okunur",
+      "curutur": "Δ > %0,5 ⇒ ①'in kaçak dalıyla aynı sebep aranır."
+    },
+    {
+      "no": 8,
+      "ad": "veri değişmezleri kıpırdamaz",
+      "mazeret": "YOK",
+      "ongoru": "denetle.py: sahipsiz 180 · iç boşluk 0 · Değişmez 2 AÇIK 0",
+      "kabul_olcutu": "birebir aynı sayılar",
+      "curutur": "herhangi bir sapma — tavan NOKTAYA değil ALANA dokunuyor, bu üçünü değiştiremez.",
+      "not": "Yapısal: tavan hiçbir yerleşimi sahipsiz bırakamaz, çünkü nokta kendi tavanının İÇİNDEDİR (C13'te ayrıca sınandı)."
+    }
+  ],
+
+  "_c13": {
+    "tavan": { "gecme": 3, "atesleme": 9, "kalan": 0, "cikis": 0,
+      "gecme_yolu": "① tavan bağlamıyor ② komşu yok ③ eş dağılımlı komşular → üçünde de çıktı `_tavan_daire` ile equals_exact(1e-12)",
+      "zorlama": "geçme ③ için dört komşu SAYISAL olarak tam eşit uzaklığa çözüldü; ateşlemenin 'çözülemezse daire korunur' dalı _TV_BISEC=1 ile zorlandı" },
+    "ortak_km2": { "gecme": 7, "atesleme": 5, "kalan": 0, "cikis": 0,
+      "zorlama": "ateşleme için shapely'nin KENDİSİ GeometryCollection üretsin diye kesişim kuruldu; sentetik GC yetmezdi" }
+  },
+
+  "_olculmedi": [
+    "Koşunun bu değişiklikle ne kadar uzayacağı — kestirim +2-5 dk (bağlayan ~398 peteğin bisection'ı), ÖLÇÜLMEDİ.",
+    "Kara-kısıtlı sahiplikte el değiştiren parça sayısının nasıl kayacağı — yön belli (parçalar büyür ⇒ 200 km² eşiğini geçen artar), SAYI ölçülmedi.",
+    "Çöl tavanının (COL_TAVAN_KM=300) yeni şekille etkileşimi — çöl tavanı k0/k3/k4'te zaten hiçbir şey kesemiyor (280·280·140 ≤ 300), k1/k2'de (62 nokta) ne yaptığı ölçülmedi.",
+    "olc_b_hazirlik.py'nin yeni Sahra sayısı — hizalama nöbetçisi durdurdu (petek_govde 2345 ↔ veri 2362), KOŞUDAN SONRA ölçülecek."
+  ]
+}

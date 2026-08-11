@@ -97,16 +97,45 @@ def hizalama_sinavi(YERLER, GOV, zorunlu=True):
 
 
 # ═════════════════════════════════════════════════════════════════════════
-def km2(g):
-    """Kure uzerinde alan, km². Delikler (interior ring) CIKARILIR."""
-    from shapely.geometry import MultiPolygon
+def _poligonlar(g):
+    """Her turlu geometriden POLIGONLARI cikarir — GeometryCollection DAHIL,
+    ic ice olsa bile."""
     if g is None or g.is_empty:
-        return 0.0
-    ps = g.geoms if isinstance(g, MultiPolygon) else [g]
+        return []
+    t = g.geom_type
+    if t == "Polygon":
+        return [g]
+    if t in ("MultiPolygon", "GeometryCollection"):
+        out = []
+        for p in g.geoms:
+            out += _poligonlar(p)
+        return out
+    return []            # Point · LineString · bos — alani YOK, 0 dogru cevap
+
+
+def km2(g):
+    """Kure uzerinde alan, km². Delikler (interior ring) CIKARILIR.
+
+    🔴 12 AGUSTOS 2026 — BU FONKSIYON SESSIZCE 0.0 DONUYORDU (MOTOR TAVAN-YON).
+    Eski hali:
+        ps = g.geoms if isinstance(g, MultiPolygon) else [g]
+        for p in ps:
+            if p.is_empty or p.geom_type != "Polygon": continue
+    Bir GeometryCollection `MultiPolygon` DEGILDIR ⇒ `[g]` olur ⇒ tek eleman
+    `Polygon` de degildir ⇒ `continue` ⇒ **butun koleksiyon atilir, 0.0 doner.**
+    Ve shapely kesisimleri (`.intersection`) bir kenar/nokta degdiginde
+    GeometryCollection DONDURUR — yani tam da olcum sirasinda.
+
+    ⚠️ BEDELI OLCULDU: yone duyarli tavan denenirken cokgen BUYUDUKCE daha sik
+    GC ciktI ve toplam alan **%30 KUCULMUS** gorundu. Alan buyurken kuculemez;
+    sonuc IMKANSIZ oldugu icin yakalandi. **Makul bir sapma uretseydi
+    yakalanmazdi** — bu yuzden burada duruyor.
+
+    📌 `CLAUDE.md §11` "ALETIN GOSTERDIGI ≠ OLCTUGU" ailesinin uyesi: alet
+    calisiyordu, hata vermiyordu, sayi basiyordu — ve sayi yalandi.
+    """
     T = 0.0
-    for p in ps:
-        if p.is_empty or p.geom_type != "Polygon":
-            continue
+    for p in _poligonlar(g):
         for ring, sg in [(p.exterior, 1)] + [(h, -1) for h in p.interiors]:
             T += sg * halka_km2(list(ring.coords))
     return T
@@ -174,10 +203,32 @@ def oku_petek_govde():
 
 
 def oku_kara():
-    """Motorun KENDI cizdigi kara maskesi (goller ve deniz cikarilmis).
-    🔴 BUNU ATLAMA: govde KARA'ya kirpili oldugu icin her GOL bir interior
-    ring gibi gorunur. 11 Agustos'ta bu atlandi ve Van Golu 'Osmanli deligi'
-    sanildi — doldurulsaydi motor golu boyardi."""
+    """🔴 ADI YANILTICI — BU BIR GIRDI MASKESI DEGIL, MOTORUN CIKTISIDIR.
+
+    Okudugu `veri-kaynak/motor_kara.geojson`, `uret_petek.py:1720`de
+    `unary_union(PETEK_D)` ile yazilir — yani BUTUN PETEKLERIN BIRLESIMI,
+    **A1 tavani ve col tavani UYGULANDIKTAN SONRA.** Tavanin sahipsiz
+    biraktigi cok, bu dosyada KARA DEGILDIR.
+
+    🟢 NE ICIN DOGRU: "yayindaki haritada burasi kara mi" sorusu.
+       `olc_delik_yayin.py` ve `olc_delik_kendi.py` tam bunu soruyor —
+       onlar icin BU dogru evrendir, degistirilmedi.
+    🔴 NE ICIN YANLIS: "tavan ne kadar kesiyor" sorusu. Tavanin kestigini
+       tavanla olcmek DAIRESELDIR.
+
+    ⚠️ 12 Agustos 2026'da bu tuzaga dusuldu (MOTOR TAVAN-YON): bu maskeyle
+    olculunce A1 tavani "karanin %0,2'sini kesiyor" cikti; GERCEK GIRDI
+    maskesiyle **%22,9**, ve motorun kendi logu (`MIMARI §2.9`, kosu 4b)
+    **%23,0** diyor. Yani sapma yuz kattan fazlaydi.
+    📌 Ve `km2` kusurundan SINSIYDI: o IMKANSIZ bir sayi uretti (alan
+    buyurken kuculdu, hemen goruldu), bu **MAKUL** bir sayi uretti.
+
+    ⇒ Girdi maskesi lazimsa `oku_girdi_karasi()` kullan.
+
+    🔴 VE SU AYRI BIR TUZAK, GECERLILIGINI KORUYOR: govde KARA'ya kirpili
+    oldugu icin her GOL bir interior ring gibi gorunur. 11 Agustos'ta bu
+    atlandi ve Van Golu 'Osmanli deligi' sanildi — doldurulsaydi motor golu
+    boyardi."""
     from shapely.geometry import shape
     gj = json.load(open(os.path.join(KOK, "veri-kaynak", "motor_kara.geojson"),
                         encoding="utf-8"))
@@ -186,6 +237,67 @@ def oku_kara():
         g = shape(f["geometry"])
         ps += list(g.geoms) if g.geom_type == "MultiPolygon" else [g]
     return ps
+
+
+# ═════════════════════════════════════════════════════════════════════════
+_GIRDI_KARA = None
+
+
+def oku_girdi_karasi(bolge=None):
+    """🟢 MOTORUN GORDUGU GIRDI MASKESI — `uret_petek.py:274-333` zinciri.
+
+    `ne_10m_land` ∩ BOLGE, `KARA_TOL` ile sadelestirilmis, sonra GOLLER
+    cikarilmis (modern baraj golleri HARIC — motorun kendi olcutuyle).
+    Sabitler motordan CANLI okunur, kopyalanmaz.
+
+    ⚠️ `oku_kara()` ile KARISTIRMA — o motorun CIKTISI, bu motorun GIRDISI.
+    Aradaki fark tam olarak tavanlarin sahipsiz biraktigi alandir
+    (12 Agustos olcumu: ~17,2 M km², karanin %22,9'u).
+
+    Yavastir (~40 sn, ~10 MB GeoJSON) ⇒ surec icinde ONBELLEKLENIR.
+    """
+    global _GIRDI_KARA
+    if _GIRDI_KARA is not None and bolge is None:
+        return _GIRDI_KARA
+    import re as _re
+    from shapely.geometry import shape, box
+    from shapely.ops import unary_union
+    import girdi as _girdi
+    BM = os.path.join(KOK, "veri-kaynak")
+    _src = open(os.path.join(KOK, "arac", "uret_petek.py"), encoding="utf-8").read()
+    KARA_TOL = float(_re.search(r"^KARA_TOL\s*=\s*([\d.]+)", _src, _re.M).group(1))
+    DOGAL_GOL = eval(_re.search(r"^DOGAL_GOL\s*=\s*(\{[^}]*\})", _src, _re.M).group(1))
+    B = bolge if bolge is not None else unary_union(
+        [box(-12, -11, 146, 82), box(-25, 60, -12, 82)])
+    _ne = json.load(open(os.path.join(BM, "ne_10m_land.geojson"), encoding="utf-8"))
+    K = unary_union([shape(f["geometry"]).buffer(0).intersection(B)
+                     for f in _ne["features"]
+                     if shape(f["geometry"]).envelope.intersects(B)])
+    K = K.buffer(0).simplify(KARA_TOL, preserve_topology=True).buffer(0)
+    gs = []
+    for f in json.load(open(os.path.join(BM, "ne_10m_lakes.geojson"),
+                            encoding="utf-8"))["features"]:
+        p = f["properties"]
+        g = shape(f["geometry"]).buffer(0)
+        if not (g.envelope.intersects(B) and g.area > 0.02):
+            continue
+        if (p.get("featurecla") == "Reservoir"
+                and (p.get("name") or "(adsız)") not in DOGAL_GOL
+                and ((p.get("year") or -99) >= 1900 or p.get("dam_name"))):
+            continue                      # modern baraj golu — anakronik delik
+        g = g.intersection(B)
+        if not g.is_empty:
+            gs.append(g)
+    for eg in _girdi.oku_goller():         # tarihi gol duzeltmeleri (Aral)
+        g = shape(eg["geometry"]).buffer(0).intersection(B)
+        if not g.is_empty:
+            gs.append(g)
+    if gs:
+        K = K.difference(unary_union(gs).buffer(0)
+                         .simplify(0.01, preserve_topology=True).buffer(0)).buffer(0)
+    if bolge is None:
+        _GIRDI_KARA = K
+    return K
 
 
 def _oku_js(dosya, adlar):

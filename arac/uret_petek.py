@@ -602,10 +602,246 @@ def _tavan_daire(p, r_km, lat):
     dx = r_km / (111.32 * max(0.15, math.cos(math.radians(lat))))
     return _scale(p.buffer(1.0, quad_segs=24), xfact=dx, yfact=dy, origin=p)
 
-TAVAN_DAIRE = [_tavan_daire(noktalar[i], TAVAN_KM.get(y.get("k") or 0, TAVAN_KM[0]),
-                            y["lat"]) for i, y in enumerate(YERLER)]
+# ═══════════════════════════════════════════════════════════════════════════
+# 🔴 A1b: TAVAN ARTIK İZOTROP DEĞİL — YÖNE DUYARLI  (MOTOR TAVAN-YÖN, 12 Ağu 2026)
+# ═══════════════════════════════════════════════════════════════════════════
+# EMRE, beş ekran görüntüsüyle:
+#   "Pergelle çizilmiş gibi yuvarlak alanlar boyamış… O merkezden çizilen
+#    çemberin çaplarına insan yolculuğu sanki çöl ya da düz ova imiş gibi aynı
+#    uzaklıkta mı? O çember etrafındaki 8 noktayı düşün, her birisi için farklı
+#    uzaklıklar, engeller söz konusu."
+#   "Yuan hânedanının toprakları birbirinden hep ayrık… arada sahipsiz kalan
+#    bu topraklar nasıl yapılmalı?"
+#
+# Teşhis birebir doğruydu: `_tavan_daire` İZOTROP bir elips çizer — her yöne
+# aynı. ÖLÇÜLDÜ (12 Ağu, 2356 taban, ham Voronoi ∩ gerçek kara maskesi):
+#     A1 tavanı 391/2356 noktayı bağlıyor · 17.198.016 km² kesiyor
+#     = KARA'nın %22,9'u   (motorun kendi logu, koşu 4b: %23,0 — çapraz doğrulama)
+#
+# 📌 VE ÇÖL TAVANI (:1549) BUNU YAPMIYOR, YAPAMAZ: COL_TAVAN_KM = 300 iken
+#    k0=280 · k3=280 · k4=140 hepsi ALTINDA ⇒ o kademelerde A1 zaten daha
+#    içeride, çöl tavanı YAPISAL OLARAK hiçbir şey kesemez (2283/2356 nokta).
+#    Sahra çemberlerini adı "çöl tavanı" olan şey DEĞİL, A1 çiziyor.
+#
+# ── KURAL, tek cümlede ─────────────────────────────────────────────────────
+#   Tavan ŞEKİL değiştirir, BOYUT değiştirmez: komşusu uzak olan yöne uzanır,
+#   yakın olan yöne çekilir — ve BOYADIĞI ALAN AYNI KALIR.
+#
+# 🔴 NİÇİN ALAN KORUNUYOR — İKİ ADIMDA ÖĞRENİLDİ, İKİSİ DE ÖLÇÜLEREK.
+#
+# ① İLK BİÇİM komşusuz sektöre de `k·r` veriyordu, yani BOŞLUĞA doğru
+#    büyütüyordu. Ölçüm iyi görünüyordu ve tam bu yüzden tehlikeliydi: boşluğa
+#    büyümek tavanın VAR OLUŞ SEBEBİNİ geri getirir (`banda-adalari`
+#    573.188 km² — kendi yüzölçümünün ~3.200 katı).
+#
+# ② İKİNCİ BİÇİM yalnız gerçek komşuya doğru büyütüyordu. ÖLÇÜLDÜ (2362 taban),
+#    ve KENDİ GEREKÇESİNİ ÇÜRÜTTÜ:
+#        k_üst   kopuk çift %          en büyük petek     Osmanlı      toplam
+#                Sahra/Himalaya/Yuan
+#        1,0        11 / 11 / 18          245.514 km²          +0       +0,00%
+#        1,5         8 /  8 / 16          375.863 km²    +225.274       +5,23%
+#        2,0         8 /  8 / 16          539.518 km²    +272.170       +7,37%
+#    ⇒ Boşluğu neredeyse HİÇ kapatmıyor (%18 → %16), ama en büyük peteği
+#      `banda-adalari` bölgesine taşıyor. **Bedel büyük, kazanç yok.**
+#
+# 🟢 VE ASIL TEŞHİS (koordinatör, 12 Ağustos): EKSEN YANLIŞTI.
+#        Emre ne dedi   "pergelle çizilmiş gibi YUVARLAK"  → ŞEKİL kusuru
+#        gevşetme       alanı büyütür                      → BOYUT değişimi
+#    ***Daireyi kırmak için alanı büyütmek gerekmiyor.*** Ve büyütmek zaten
+#    kırmıyor: DAHA BÜYÜK BİR ÇEMBER, ÇEMBER OLMAKTAN ÇIKMAZ.
+#
+# ── NİÇİN "d/2" ────────────────────────────────────────────────────────────
+# Komşu d km ötedeyse Voronoi sınırı zaten TAM ORTADAN (d/2) geçer. Şeklin o
+# yöndeki ham ölçüsü d/2'dir: "bu yönde sınırımı komşum çiziyor" demek.
+# Normalizasyon bu ham ölçüleri, alanı bozmadan, bir çokgene çevirir.
+#
+# ── ALAN KORUMA NASIL ──────────────────────────────────────────────────────
+# İki kademe, ve İKİSİ DE yapısal:
+#   ① TAVAN BAĞLAMIYORSA (hücre zaten dairenin içinde) → DAİRENİN KENDİSİ
+#      döndürülür. Ölçüldü: 2362 noktanın ~1970'i böyle ⇒ o noktalarda çıktı
+#      BUGÜNKÜNÜN BİREBİR AYNISI, tek bit değişmez.
+#   ② TAVAN BAĞLIYORSA → λ ölçeği, kesilen alanın DEĞİŞMEMESİ şartıyla
+#      ikiye bölme (bisection) ile çözülür:
+#           alan(hücre ∩ çokgen(λ·w))  =  alan(hücre ∩ daire(R))
+#      ⇒ Osmanlı alanı öngörüsü bir UMUT değil, HESABIN KENDİSİ.
+#
+# ⚠️ NİÇİN DİSK ALANINI EŞİTLEMEK YETMEZDİ: normalizasyon `∮r²dθ/2 = πR²`
+#    diskin alanını korur, ama BOYANAN alan `hücre ∩ tavan`dır. Şekil, tavanın
+#    BAĞLADIĞI yöne (hücrenin büyük olduğu yön) uzanıp bağlamadığı yöne
+#    (hücrenin zaten küçük olduğu yön) çekilir ⇒ kesişim SİSTEMATİK OLARAK
+#    BÜYÜR. Yani disk-normalizasyonu "alan korundu" der ve boyanan alan artar.
+#    📌 Bu, bu projenin "denetim var ≠ o soruyu soruyor" ailesinin ta kendisi:
+#       doğru büyüklüğü korumak yetmiyor, DOĞRU BÜYÜKLÜĞÜ korumak gerekiyor.
+_TV_ANIZ_KAT = 1.75        # şekil oranı sınırı: hiçbir yön medyanın ±bu katından
+                           # öteye gidemez (dar mızrak çıkmasın diye)
+_TV_SEKTOR = 16            # yön çözünürlüğü (22,5°)
+_TV_KOSE = 128             # çokgen köşe sayısı
+_TV_BISEC = 24             # λ için ikiye bölme adımı
+
+# Voronoi komşuluğu — "o yönde komşu var mı" sorusunun EVRENİ budur.
+# ⚠️ Neden en-yakın-N nokta DEĞİL: bir nokta bana yakın olsa bile araya başka
+#    bir hücre giriyorsa benim sınırımı O belirlemez. Tavanın soracağı soru
+#    "bu yönde sınırımı kim çiziyor" — cevabı Voronoi komşuluğudur.
+_tv_hucre_agac = STRtree(PETEK)
+_TV_KOMSULAR = []
+for _i in range(len(YERLER)):
+    _ks = []
+    if PETEK[_i] is not None and not PETEK[_i].is_empty:
+        for _k in _tv_hucre_agac.query(PETEK[_i]):
+            _k = int(_k)
+            if _k == _i or PETEK[_k] is None or PETEK[_k].is_empty:
+                continue
+            try:
+                if PETEK[_i].intersection(PETEK[_k]).length > 1e-9:
+                    _ks.append(_k)
+            except Exception:
+                pass
+    _TV_KOMSULAR.append(_ks)
+print(f"     Voronoi komşuluğu kuruldu · ortalama komşu "
+      f"{sum(len(k) for k in _TV_KOMSULAR)/max(len(YERLER),1):.1f}")
+
+
+def _tv_ham_olcu(i):
+    """Sektör başına HAM şekil ölçüsü w_s (km). Voronoi komşusu olan yönde
+    d/2 (komşuyla bölüşüm çizgisi); olmayan yönde, iki yanındaki dolu
+    sektörlerden AÇISAL ARA DEĞER — sabit bir sayı uydurulmuyor."""
+    y = YERLER[i]
+    la, lo = y["lat"], y["lon"]
+    _sek = [None] * _TV_SEKTOR
+    for j in _TV_KOMSULAR[i]:
+        d = girdi.km(la, lo, YERLER[j]["lat"], YERLER[j]["lon"])
+        dy = YERLER[j]["lat"] - la
+        dx = (YERLER[j]["lon"] - lo) * math.cos(math.radians(la))
+        if dx == 0.0 and dy == 0.0:
+            continue
+        s = int((math.atan2(dy, dx) % (2 * math.pi))
+                / (2 * math.pi / _TV_SEKTOR)) % _TV_SEKTOR
+        if _sek[s] is None or d < _sek[s]:
+            _sek[s] = d
+    dolu = [s for s in range(_TV_SEKTOR) if _sek[s] is not None]
+    if not dolu:
+        return None                       # komşusuz nokta → şekil bilgisi YOK
+    w = []
+    for s in range(_TV_SEKTOR):
+        if _sek[s] is not None:
+            w.append(_sek[s] / 2.0); continue
+        ileri = min((k - s) % _TV_SEKTOR for k in dolu)
+        geri = min((s - k) % _TV_SEKTOR for k in dolu)
+        a = _sek[(s + ileri) % _TV_SEKTOR] / 2.0
+        b = _sek[(s - geri) % _TV_SEKTOR] / 2.0
+        w.append((a * geri + b * ileri) / (ileri + geri))
+    # ŞEKİL ORANI SINIRI: dar mızrak çıkmasın — medyanın ±_TV_ANIZ_KAT katı
+    med = sorted(w)[len(w) // 2]
+    if med <= 0:
+        return None
+    return [min(med * _TV_ANIZ_KAT, max(med / _TV_ANIZ_KAT, x)) for x in w]
+
+
+def _tv_cokgen_kur(lo, la, rs):
+    """Sektör yarıçaplarından çokgen. Sektörler arası doğrusal geçiş —
+    köşeli sıçrama ortak kenar ağını bozardı."""
+    co = max(0.15, math.cos(math.radians(la)))
+    cs = []
+    for t in range(_TV_KOSE):
+        th = 2 * math.pi * t / _TV_KOSE
+        s = int(th / (2 * math.pi / _TV_SEKTOR)) % _TV_SEKTOR
+        f = (th % (2 * math.pi / _TV_SEKTOR)) / (2 * math.pi / _TV_SEKTOR)
+        rr = rs[s] * (1 - f) + rs[(s + 1) % _TV_SEKTOR] * f
+        cs.append((lo + rr / 111.32 / co * math.cos(th),
+                   la + rr / 111.32 * math.sin(th)))
+    return Polygon(cs)
+
+
+_TV_AYNI = 0          # daire aynen döndürüldü (tavan bağlamıyor ya da şekil yok)
+_TV_SEKILLI = 0       # şekil verildi
+_TV_COZULEMEDI = 0    # λ bulunamadı → daire korundu
+_TV_SAPMA = []        # |boyanan alan farkı| / hedef  — alan koruma NÖBETÇİSİ
+
+
+def _tavan_cokgen(i):
+    """ALAN KORUYAN yöne duyarlı tavan.
+
+    🟢 C13 GEÇME YOLU İKİ AYRI DALDA YAPISAL — ikisi de `_tavan_daire`in
+       KENDİSİNİ döndürür, yaklaşık değil:
+         ① tavan bu noktada BAĞLAMIYOR  (hücre zaten dairenin içinde)
+         ② şekil ölçüsü yok ya da her yönde AYNI (komşusuz / eş dağılımlı)
+    """
+    global _TV_AYNI, _TV_SEKILLI, _TV_COZULEMEDI
+    y = YERLER[i]
+    la, lo = y["lat"], y["lon"]
+    R = TAVAN_KM.get(y.get("k") or 0, TAVAN_KM[0])
+    daire = _tavan_daire(noktalar[i], R, la)
+    hucre = PETEK[i]
+    if hucre is None or hucre.is_empty:
+        _TV_AYNI += 1
+        return daire
+    # ⚡ HIZLI YOL — `∩ KARA` PAHALI (maske ~48 bin köşe, 2362 hücre).
+    # Ham hücre zaten dairenin içindeyse tavan hiçbir şekilde bağlayamaz;
+    # KARA ile kesmeye hiç gerek yok. Noktaların çoğu bu daldan çıkıyor.
+    try:
+        if daire.contains(hucre):
+            _TV_AYNI += 1
+            return daire
+        hucre = hucre.intersection(KARA)
+    except Exception:
+        _TV_AYNI += 1
+        return daire
+    a_tam = hucre.area
+    if a_tam <= 0:
+        _TV_AYNI += 1
+        return daire
+    hedef = hucre.intersection(daire).area
+    if hedef >= a_tam * (1 - 1e-9):        # ① tavan BAĞLAMIYOR
+        _TV_AYNI += 1
+        return daire
+    w = _tv_ham_olcu(i)
+    if w is None or max(w) - min(w) < 1e-12:   # ② şekil bilgisi yok
+        _TV_AYNI += 1
+        return daire
+    # ③ λ'yı ikiye bölerek çöz: boyanan alan DEĞİŞMESİN
+    olcek = R / (sorted(w)[len(w) // 2])
+    lo_k, hi_k = olcek * 0.05, olcek * 20.0
+    en_iyi, en_iyi_fark = None, 9e99
+    for _ in range(_TV_BISEC):
+        ort = (lo_k + hi_k) / 2.0
+        g = _tv_cokgen_kur(lo, la, [x * ort for x in w])
+        a = hucre.intersection(g).area
+        f = abs(a - hedef)
+        if f < en_iyi_fark:
+            en_iyi, en_iyi_fark = g, f
+        if a < hedef:
+            lo_k = ort
+        else:
+            hi_k = ort
+    if en_iyi is None or en_iyi_fark > hedef * 0.01:   # %1'e inemedi
+        _TV_COZULEMEDI += 1
+        return daire
+    _TV_SEKILLI += 1
+    _TV_SAPMA.append(en_iyi_fark / max(hedef, 1e-12))
+    return en_iyi
+
+
+TAVAN_DAIRE = [_tavan_cokgen(i) for i in range(len(YERLER))]
 print(f"     tavan (km): " + " · ".join(f"k{k}={v}" for k, v in sorted(TAVAN_KM.items())))
+print(f"     ALAN KORUYAN anizotropi: {_TV_SEKILLI} peteğe şekil verildi · "
+      f"{_TV_AYNI} daire AYNEN korundu · {_TV_COZULEMEDI} çözülemedi")
+print(f"     şekil oranı sınırı ×{_TV_ANIZ_KAT} · {_TV_SEKTOR} sektör · "
+      f"{_TV_KOSE} köşe · {_TV_BISEC} ikiye bölme adımı")
+# 🔴 ALAN KORUMA NÖBETÇİSİ — "korudum" demek yetmez, ÖLÇÜLÜR.
+if _TV_SAPMA:
+    _sp = sorted(_TV_SAPMA)
+    print(f"     alan koruma sapması: medyan %{100*_sp[len(_sp)//2]:.4f} · "
+          f"azamî %{100*_sp[-1]:.4f} "
+          + ("✓" if _sp[-1] <= 0.01 else "✗ BİR PETEKTE %1'İ AŞTI"))
+if _TV_COZULEMEDI > _TV_SEKILLI * 0.05:
+    print(f"     ⚠️ ÇÖZÜLEMEYEN ORANI YÜKSEK ({_TV_COZULEMEDI}) — "
+          f"_TV_BISEC ya da şekil oranı sınırı gözden geçirilmeli")
 print(f"     ⚠️ tavan BURADA UYGULANMAZ — kıyı kesiminde uygulanır (bkz. §KIYI)")
+# 🔴 ÜÇ YERDE OKUNUYOR, ÜÇÜ DE `TAVAN_DAIRE`DEN BESLENİR — ve bu KASITLI:
+#     :605  kurulum  ·  §KIYI  kıyı kesimi  ·  ADA KURALI  "boşta kalan pay"
+# Ada kuralı payı yalnız `TAVAN_DAIRE[_en]` içinde verir; ayrı bir izotrop
+# daire kullansaydı kıyı kesimiyle AYRIŞIRDI ve `MIMARI §2.9`un "aşamalar
+# arası sözleşme yok" ailesine yeni bir vaka eklenirdi.
 
 # 🔴 NİÇİN BURADA DEĞİL — 9 Ağustos 2026, ÖLÇÜLDÜ VE ÖNGÖRÜ ÇÜRÜDÜ.
 # Tavan ilk yazıldığında TAM BURAYA, Voronoi'nin hemen ardına kondu. Koşu 4
