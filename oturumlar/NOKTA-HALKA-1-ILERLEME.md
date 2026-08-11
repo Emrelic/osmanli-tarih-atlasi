@@ -67,14 +67,44 @@ d  1376-09-01 → 1402-07-28  OSMANLI  … (fetret payları) …
 toprak 0,164 km farkla Çanakkale'ye gidiyor ve **1345-1452 arası Avrupa yakasında
 Osmanlı görünüyor.** Emre'nin gördüğü "ufak toprak parçası" bu.
 
-🔴 **YENİ NOKTA BU KUSURU ÇÖZEMEZ — 3 km kuralı yolu kapatıyor:**
-Maydos ile Kilitbahir **4,35 km** arayda. Aralarına konacak her nokta ikisinden
-birine 3 km'den yakın düşer. Ölçtüm, çıkış yok.
-⇒ **Çare tek alan:** `yerlesimler.js`'te Kilitbahir'in `kur:` alanı.
-**O dosya benim değil** (`§③ YAZMA YETKİSİ`) — koordinatöre bildirildi, kararı ona ait.
-📌 `CLAUDE.md §11`: *"aracın söylediğini yapmadan önce aracın ne ölçtüğünü anla"* —
-bu partiye 5. nokta olarak yazsaydım ihlali kapatmadan **yeni bir mükerrer**
-üretecektim.
+🔴🔴 **VE BU BÖLÜMÜN HÜKMÜ YANLIŞTI — GERİ ALIYORUM (aynı gün, ölçümle).**
+
+Yukarıdaki **aritmetik doğru**: Kilitbahir'in kendi konumu 1452 öncesi
+Çanakkale'ye 0,164 km farkla düşüyor. Ama ondan çıkardığım **sonuç yanlıştı**:
+*"demek ki Avrupa yakasında Osmanlı lekesi var."* Ölçtüm — **yok.**
+
+```
+odakli olcum · 0,005° (≈0,56 km) · ORNEKLEME YOK · 7.047 hucre, 4.132 kara
+bogaz bu cozunurlukte AYRILIYOR:  Maydos #1 (Avrupa) · Çanakkale #0 (Asya)
+
+1300  Gelibolu yarimadasinda OSMANLI:    0 km²  (0 hucre)
+1350  Gelibolu yarimadasinda OSMANLI:    0 km²  (0 hucre)
+1360  Gelibolu yarimadasinda OSMANLI:  656 km²  ← Maydos ve Kilitbahir'in KENDISI
+                                                  (1354'ten Osmanli — DOGRU)
+Kilitbahir'in kur: alani KALDIRILSA:  hicbir tarihte fark 0 km²
+```
+
+⇒ **`kur:` kaldırmak hiçbir şeyi değiştirmiyor.** Çanakkale'nin kazandığı sliver
+kara maskesinde **su**; yarımadanın tamamı Maydos'a (1354'e kadar Bizans) düşüyor.
+
+🔴 **Ve ilk ölçümüm de kirliydi**: Avrupa yakasını `lon>26.45 & lat<40.22 değilse`
+diye kaba bir kutuyla süzmüştüm; o süzgeç **Lapseki-Çardak (ASYA) hücrelerini**
+içeri aldı ve *"182 km² Osmanlı lekesi, %100'ü Çanakkale'den"* dedi. Doğrusu
+bileşen sınavıyla çıktı: **0 km².**
+
+📌 `CLAUDE.md §11`in **en sık hata sınıfı** bende gerçekleşti:
+***ölçüm doğru, çıkarım yanlış.*** 0,164 km'lik fark gerçekti; *"öyleyse ekranda
+leke vardır"* çıkarımı ölçülmemişti — ve ben onu koordinatöre **bulgu diye**
+gönderdim. Rapor `④`ün *"ölçmediğini `ölçmedim` diye yaz"* kuralını çiğnedim:
+iki satırı (biri ölçüm, biri çıkarım) **tek satırda** birleştirdim ve çıkarım,
+ölçümün güvenilirliğini **ödünç aldı**.
+
+⇒ **BEŞİNCİ NOKTA GEREKMİYOR** ve `kur:` düzeltmesi de gerekmiyor.
+Emre'nin birinci şikâyetinin bugünkü veride karşılığı **bulunamadı** — bu bir
+sonuçtur, ve büyük ihtimalle `§11`in *"bir şikâyet, şikâyet edilen şeyden daha
+hızlı bayatlar"* vakası (külliyat 29 Temmuz-1 Ağustos tarihli).
+⚠️ Ölçmediğim: şikâyetin hangi yayına ait olduğu. Ekran görüntüsündeki
+`N / TOPLAM başlık` sayacı bunu söylerdi; görsel bende yok.
 
 ---
 
@@ -290,14 +320,9 @@ ve *"bulunamadı"* diye açıkça yazıldı (o kıyıda TDV müstakil madde taş
 2. **`index.html` + `js/app.js`** — script satırı ve birleştirme noktası
    (`VERI-YAPISI.md`: *"yeni bir veri dosyası eklersen index.html'e satır
    eklemen ve app.js'te birleştirme noktasına katman şart"*).
-3. 🔴 **`data/yerlesimler.js` → `Kilitbahir`'in `kur:"1452-01-01"` alanı.**
-   Emre'nin **birinci** şikâyetinin tek sebebi bu ve **yeni nokta çözemiyor**
-   (Maydos ile arası 4,35 km, 3 km kuralı aradaki her yeri kapatıyor).
-   Kaydın zaman çizgisi 1281'den zaten dolu; `kur:` onu bastırıyor ve toprak
-   **0,164 km** farkla Çanakkale'ye (1345'ten Osmanlı) gidiyor.
-   ⚠️ İki uç da ölçülmeli (`§3.5.1`): `kur:` kaldırılırsa Kilitbahir 1354-1366
-   ve 1376-1402 arası **Osmanlı**, 1281-1354 arası **Bizans** boyanacak —
-   yani Çimpe/Gelibolu ile aynı. Kaydın kendi verisi bunu zaten söylüyor.
+3. ~~`Kilitbahir`'in `kur:` alanı~~ — 🔴 **GERİ ALINDI, §② bak.** Ölçüldü:
+   `kur:` kaldırmak **hiçbir tarihte 0 km²** değiştiriyor; Gelibolu yarımadasında
+   1354 öncesi Osmanlı lekesi **yok**. Yapılacak iş **yok**.
 4. **`data/devletler.js`** — `isa-celebi` · `mehmed-celebi` · `musa-celebi` ·
    `suleyman-celebi` **künyesiz** (renkleri var, 409 canlı kayıtta
    kullanılıyorlar). **Bu dosyanın eseri değil**, mevcut borç.
@@ -306,3 +331,86 @@ ve *"bulunamadı"* diye açıkça yazıldı (o kıyıda TDV müstakil madde taş
    yüzden yazmadım (§⑤). Küme hâlinde düzeltilmeli.
 6. ⚠️ **Şartnamedeki 1.798 km² ile benim 606 km²'m arasındaki fark ÖLÇÜLMEDİ.**
    Açıklama üretmiyorum — *"ölçmediğimi `ölçmedim` diye yazıyorum"* (`§11`).
+
+---
+
+## ⑨ BİLEŞEN KİLİDİ — KOORDİNATÖRÜN HİPOTEZİ ÖLÇÜLDÜ, YARISI ÇÜRÜDÜ
+
+Koordinatör *"koşudan sonra 'kim kapattı' diye soracağız, önce yaz"* dedi.
+Yazmadan önce **ölçtüm** — hipotez ölçülebilirdi:
+
+Yöntem: motorun **kendi** ızgara adımı (`KV_ADIM = 0.05`, `uret_petek.py:1177`)
+ve **kendi çapası** (`BOLGE.bounds = -25,-11`) ⇒ hücre merkezleri birebir
+motorunki. Kara/deniz `denetle.konum_denetimi` ile. Bağlılık 4- ve 8-komşuluk
+(motor *"oktil yaklaşımı"* diyor ⇒ 8 geçerli olan).
+
+| vaka | koordinatörün hipotezi | **ölçüm (8-komşuluk)** | |
+|---|---|---|---|
+| ① Behramkale ← Molyvos | su aşırı → kilit KAPATABİLİR | **AYRI bileşen** (#1 vs #0) | ✅ **tuttu** |
+| ③ Şarköy ← Karabiga | su aşırı → kilit KAPATABİLİR | **AYNI bileşen** | 🔴 **çürüdü** |
+| ② Beykoz ← Boğaziçi Rumeli | kapatmaz | AYNI bileşen | ✅ tuttu |
+| ④ Saroz ← Çimpe | kapatmaz (aynı kara) | AYNI bileşen (4-komşulukta AYRI) | ✅ tuttu |
+
+🔴 **③'ün çürüme sebebi tek cümle: "denizaşırı" ≠ "ayrı bileşen".**
+Karabiga ile Şarköy Marmara'nın iki yakasında ve 27 km arayda — ama Marmara
+**kapalı bir deniz**, ikisi arasında kesintisiz kara yolu var (Bursa → İzmit →
+İstanbul → Çorlu → Tekirdağ). Bileşen kilidi **mesafeyi değil bileşeni** sorar;
+gerçek ada atlamalarını keser, körfez/iç deniz karşılıklarını **kesmez**.
+
+### 🔴 ÖNGÖRÜ — koşudan ÖNCE, damgalı
+
+```
+① Behramkale   BILESEN KILIDI kapatir. Molyvos ayri bilesende; Troas anakarasi
+               ayni bilesendeki Canakkale/Edremit'e duser = OSMANLI 1345'ten.
+               ⇒ Nokta olmadan da Ceneviz hayaleti KALKAR. Nokta yine de dogru
+                 (Troas'in kendi tohumu olmali) ama RENGI degistiren o degil.
+② Beykoz       NE kilit NE kara-kisitli sahiplik kapatir. Bogaz ~700 m, 0,05°
+               izgarada tek bilesen; parca ~216 km², KV_MIN_KM2'nin (200) hemen
+               ustunde ⇒ belirsiz. ⇒ NOKTAYLA kapanir.
+③ Şarköy       Kilit KAPATMAZ. Ama kara-kisitli sahiplik (uret_petek.py:1148)
+               DEVREYE GIREBILIR: Karabiga→Sarkoy duz hatti denizi kesiyor ve
+               parca ~275 km² > 200 ⇒ izgara karar verir, kara yolu ~400 km.
+               ⇒ KISMEN zaten kapali olabilir; nokta onu KESINLESTIRIR.
+④ Saroz        Kilit KAPATMAZ. Parca 331 km² > 200 ve Cimpe→kuzey kiyi hatti
+               korfezi kesiyor ⇒ burada da izgara devrede olabilir.
+               ⇒ KISMEN zaten kapali olabilir; nokta KESINLESTIRIR.
+```
+
+⚠️ **VE BU, ÖLÇÜMLERİMİN TAVAN OLDUĞU ANLAMINA GELİR.** Benim ızgaram **düz
+mesafe** Voronoi'si; motor **kara yolu** kısıtlı. ⇒ ① ve ③'te (su aşırı emilme)
+verdiğim `+851` ve `−275` km² **üst sınırdır**, motor bir kısmını zaten
+kesiyor olabilir. ② ve ④'te (aynı kara, hat çoğunlukla karada) proxy motora
+yakın olmalı.
+📌 Bunu koşudan **sonra** fark etseydim *"ha zaten kara-kısıtlıydı"* derdim ve
+mazeret bulguya benzerdi. Şimdi yazıyorum: **çürütülebilir.**
+
+---
+
+## ⑩ BEYKOZ — koordinatörün istediği ek kaynak sınandı
+
+`anadoluhisari` **CANLI** (200) ve gövdesi okundu; `yoros-kalesi` ve
+`guzelcehisar` **302 (ölü)**.
+
+```
+"Yıldırım Bayezid (1389-1402), bu hisarı İstanbul Boğazı'nın en dar yerinde ve
+ ARTIK OSMANLI BEYLİĞİ'NİN KONTROLÜ ALTINDA OLAN Anadolu tarafında … yaptırtmıştır"
+"Bayezid, Koca-eli'nden YOROS'A GİDERKEN Şile fethine Yahşi Bey'i yollamış,
+ kendisi de YOROS'TAN GEÇERKEN Güzelcehisar denilen kaleyi yaptırmıştır"
+inşa tarihi: Âşıkpaşazâde 793 (1390-91) · Nişancı Mehmed Paşa 797 (1394-95)
+"Ankara Savaşı'nı (1402) takip eden dağılma döneminde de kalenin BİZANS'IN
+ ELİNE GEÇMEYİP TÜRKLER'DE KALDIĞI tahmin edilmektedir"
+```
+
+⇒ İki sonuç:
+1. **Fetret payları doğru yazılmış.** TDV açıkça *"Bizans'ın eline geçmedi"*
+   diyor; Beykoz'un `1402-1413` şehzade payları (Anadolu Hisarı'nın aynısı)
+   Bizans'a dönmüyor. ✓
+2. ⚠️ **`1395-08-01` bir ÜST SINIRDIR, kesin tarih değil.** TDV Anadolu
+   yakasının hisar yapılırken **zaten Osmanlı kontrolünde** olduğunu söylüyor ve
+   inşa için 1390-91 ile 1394-95 arasında iki rivayet veriyor. Yani Beykoz
+   gerçekte **daha erken** Osmanlı; günü bilinmiyor.
+   ⇒ `§4` *"tarih uydurma"* gereği daha erken bir gün **icat etmedim**;
+   çekirdekte var olan `1395-08-01`i kullandım. Bu bir **tercih** ve
+   kaydın etkisi ölçülmüş: 1350-1355 arası **−97 km²** (o yıllarda Beykoz'u
+   Bizans göstermek, gerçekte Osmanlı olabilecek bir kıyıyı Bizans boyar).
+   **Bu, dosyanın en zayıf kalemi ve burada yazılı duruyor.**
