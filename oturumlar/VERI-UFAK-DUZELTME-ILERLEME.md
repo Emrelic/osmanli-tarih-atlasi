@@ -89,6 +89,50 @@ sınırlı tutayım, yoksa 19 noktalık tam kümeyi mi ölçüp raporlayayım?
 Şu ana kadarki ölçüm 19'un tamamını kapsıyor (etiket + tarih), yalnız
 "öneri" bölümünü 6'ya yazdım.
 
+### 🟢 KOORDİNATÖR KARARI — 19'un tamamı için öneri, 16'ya dokunma, hiçbiri uygulanmaz
+
+Karar: 19'luk küme (6 Sahra + 11 "hükümranlık iddiası" + 2 Kabiliye) için
+öneri genişletildi; 16'lık "Ahmed Bey" grubu için **ölçmedim** —
+savunulabilir olabilir, ayrı kalem, bugünün cephanesi buna yetmiyor.
+
+**GÜNCEL ÖNERİ — 19 nokta için, iki alt gruba ayrılarak:**
+
+```
+GRUP A — 6 nokta, "Sahra vahalarının özerk idaresi"
+  Ağvât, Gardâye, Cilfe, Vargla, el-Vâdî, Tuggurt
+  Koordinatörün uyarısı doğru: `abdulkadir` buraya UYMAZ — Abdülkādir'in
+  hâkimiyeti iç Cezayir'dir, Sahra vahaları (Vargla/Tuggurt/Gardâye) onun
+  toprağı değildi. ⇒ Doğru çözüm muhtemelen (a) YENİ bir kimlik değil,
+  (b) "devletsiz" olarak işaretlenmeleri — yani `kasitli_bosluk`/`bos:`
+  mekanizmasının MAKİNE OKUNUR hâle getirilmesini bekleyen bir YAPI işi.
+  Bu 6 nokta için üçüncü bir devlet kaydı YAZILMAMALI.
+
+GRUP B — 11 nokta, "Osmanlı hükümranlık iddiası (ocaklık lağvedildi)"
+  (Mesîle, Bû Sa'âde ve 9 diğeri — 1830-07-05 → 1832-11-22)
+  Etiketin kendisi "iddia" diyor — bu da GRUP A ile aynı mantık: gerçek
+  bir Osmanlı otoritesi yok, (b) devletsiz işaretlemesi bekliyor.
+  ⚠️ Farkla: bu 11 noktanın çoğu 1832-11-22'de `abdulkadir`e GEÇİYOR
+  (Mesîle, Bû Sa'âde örnekleri gibi) — yani buradaki boşluk yalnızca
+  1830-07-05→1832-11-22 arası (2 yıl 4 ay), Sahra grubundan kısa.
+
+GRUP C — 2 nokta, "Kabiliye'nin fiilî özerkliği" (1830-07-05 → 1857-07-11)
+  En uzun boşluk (27 yıl). Kabiliye (Kabylia) tarihsel olarak Osmanlı
+  döneminde bile gevşek/nominal bağlıydı; TDV `cezayir` maddesi "Kabiliye
+  ... 1853, 1854 ve 1857'deki seferler" diyor — yani gerçekten Fransa'nın
+  ANCAK 1857'de tam denetime aldığı, arada bağımsız kalmış bir bölge.
+  (b) devletsiz işaretlemesi burada da en dürüst seçenek.
+
+⇒ Üçü de aynı yapısal ihtiyaca çıkıyor: **(b) `kasitli_bosluk`u makine
+okunur yapmak**, tek tek yeni devlet kaydı açmak değil. Bu, KALEM 1'in
+sınırını fazlasıyla aşan bir motor/veri-modeli işi — MOTOR ENKLAV veya
+Emre'nin kendisi karar vermeli.
+
+GRUP D — 16 nokta, "Ahmed Bey'in Konstantin beyliği (Osmanlı adına)"
+  ÖLÇMEDİM. "Osmanlı adına" ifadesi CLAUDE.md'nin kabul ettiği nominal
+  tâbilik istisnalarına benziyor ama doğrulanmadı. Ayrı kalem, ayrı
+  kaynak turu gerektirir.
+```
+
 ---
 
 ## KALEM 2 — Yuvarlak tarihler — ÖLÇÜLDÜ (3/3 sonuçlandı)
@@ -114,7 +158,7 @@ KULLANILMADI (birkaçı denendi, elendi — aşağıda not edildi).
   ikisi birbirini doğrulamıyor.
 ⇒ **Sonuç: bulunamadı.** `1556-01-01` doğru kalmalı, uydurma gün yazılmaz.
 
-### ② 1897 — Kaffa Krallığı → Habeşistan — 🟢 BULUNDU: 1897-09-10
+### ② 1897 — Kaffa Krallığı → Habeşistan — 🟢 BULUNDU VE UYGULANDI (koordinatör)
 
 `data/yerlesimler_afrika.js:992` (Bonga/Kaffa noktası) `t:"1897-01-01"`
 kullanıyor, AMA aynı olayın devlet kaydı zaten proje içinde tam günle
@@ -132,7 +176,12 @@ BULUNMUŞTU — yalnız yerleşim noktasına hiç işlenmemiş.
 AYRI kayıtlar, kendi `kaynak:` alanı zaten "kesinlik düşük" diyor — bunlar
 için gerçek gün ARAMADIM, Kaffa'dan farklı bir araştırma gerektirir.
 
-### ③ 1889 — Habeşistan → İtalya (Eritre sınırı) — 🟡 BULUNDU (orta güven): 1889-05-02
+🟢 **Koordinatör uyguladı** (`yerlesimler_afrika.js` kendi dosyası):
+Bonga `1897-01-01 → 1897-09-10`. Denetim sonucu (koordinatör koştu):
+`Değişmez 2s: 715 kırılma · 60 AÇIK (tavan 121) — yeni ihlal YOK`,
+`Değişmez 1: 2308 · 180 sahipsiz (beklenen 180)`, `iç boşluk: 0`. Temiz.
+
+### ③ 1889 — Habeşistan → İtalya (Eritre sınırı) — 🔴 BEKLET, UYGULANMIYOR (koordinatör kararı)
 
 `data/yerlesimler_afrika.js:695`, `yerlesimler.js:937`,
 `yerlesimler_h2_afrika.js` (10 nokta) `t:"1889-01-01"` kullanıyor
@@ -141,29 +190,46 @@ için gerçek gün ARAMADIM, Kaffa'dan farklı bir araştırma gerektirir.
 Uçiali (Wuchale) Antlaşması, **2 Mayıs 1889**, İtalya'ya tam bu bölgeleri
 (Bogos, Hamasien, Akkele Guzay — bugünkü Eritre'nin çekirdeği) devretti.
 (kaynak: Britannica, "Treaty of Wichale" maddesi — TDV'de müstakil madde
-bulunamadı, `habes`/`habesistan` genel maddesi de bu ayrıntıyı vermiyor).
-⇒ **Öneri (uygulanmadı):** ilgili 10-11 noktanın `t:"1889-01-01"` →
-`"1889-05-02"`. 🟡 Orta güven diyorum çünkü her noktanın gerçekten
-antlaşmanın kapsadığı üç bölgede (Bogos/Hamasien/Akkele Guzay) olup
-olmadığını tek tek doğrulamadım — bu, yerlesimler'i elinde tutan oturumun
-işi.
+bulunamadı). Önerim `t:"1889-01-01"` → `"1889-05-02"` idi, **orta güven**
+diyordum çünkü her noktanın antlaşmanın kapsadığı üç bölgede olup
+olmadığını tek tek doğrulamamıştım.
 
-🔴 **EK BULGU (bekletmeden bildiriyorum):** `devletler.js:1581`'de AYNI
-antlaşma zaten kayıtlı ama tarihi **`1889-03-02`** — muhtemelen bir yazım
-hatası (05→03). Ayrıca aynı satır iki farklı olayı ("antlaşma imzalandı"
-+ "Menelik tahta çıktı") TEK tarihe yıkıyor; gerçekte Uçiali 2 Mayıs
-1889'da imzalandı, Menelik'in tahta çıkışı IV. Yohannes'in ölümüyle
-(9 Mart 1889, Metemma Savaşı) başlayan AYRI bir süreç. Bu benim KALEM
-2 kapsamımın dışında (devletler.js'e KALEM 1 dışında yazamam) ama
-düzeltilmeli — koordinatöre bırakıyorum.
+🔴 **Koordinatör BEKLET dedi, üç sebep + benim görmediğim dördüncü bir
+şüphe ekledi:**
+```
+① orta güven — antlaşma bölgesi doğrulanmadı
+② 10-11 noktayı birden etkiliyor — yanlışsa on bir hayalet
+③ devletler.js:1581 aynı olayı BAŞKA tarihle taşıyordu (1889-03-02)
+④ 🔴 YENİ: Uçiali antlaşması 2 Mayıs 1889'dur AMA İtalyan Eritre
+   sömürgesinin RESMÎ İLANI 1 Ocak 1890'dır. Veride duran "1889-01-01"
+   bir yuvarlama değil, 1890-01-01'i işaret eden bir KAYMA olabilir.
+   Üç aday var — antlaşma günü (1889-05-02) · fiilî işgal günü ·
+   sömürgenin resmî ilanı (1890-01-01) — ve hangisinin gerçek "toprak
+   el değiştirdi" günü sayılması gerektiği HİÇ ÖLÇÜLMEDİ.
+```
+⇒ **Sonuç: `1889-01-01` DEĞİŞTİRİLMEDİ.** Üç aday tarih arasından hangisi
+doğru olduğu ayrı bir araştırma kalemi — bugünün cephanesi (%92 dolu)
+buna yetmiyor, koordinatör bilerek ertelendi.
+
+🟢 **`devletler.js:1581` — koordinatör "yetkin var, düzelt ama YAZIM
+HATASI gibi sessizce düzeltme" dedi, UYGULADIM:**
+`t:"1889-03-02"` → `"1889-05-02"` (antlaşmanın kendi imza günü — bu
+alt-gerçek ④'teki geniş belirsizlikten BAĞIMSIZ, iyi kaynaklı ve kesin).
+Metin de değiştirildi: "Menelik tahta çıktı" iddiası çıkarıldı (ayrı,
+kendi başına ölçülmemiş bir olay — IV. Yohannes'in 9 Mart 1889'daki
+ölümüyle başlayan süreç) ve ④'teki üç-aday belirsizliği açıkça not
+düşüldü, sessiz bırakılmadı. `node -e eval` ile syntax doğrulandı
+(392 devlet kaydı, temiz parse). **Bu satır benim yazma yetkim
+dahilindeydi (KALEM 1 değil ama koordinatör bu görev için özellikle
+izin verdi) ve commit BEKLİYOR** — `oturumlar/` dışına yazdığım için
+kendim commit edemem.
 
 ⚠️ **Ayrıca not:** `1889-01-01` iki BAŞKA, tamamen alakasız olayda da
 kullanılıyor — `luba` (devletler.js:3262, Kongo/Katanga, "iç bölünme ile
 dağıldı" — muhtemelen GERÇEKTEN kademeli bir süreç, tek gün olmayabilir,
 araştırmadım) ve `yerlesimler_gdasya.js:104` (Malay Sultanlıkları →
-İngiliz Malaya — coğrafi olarak alakasız, araştırmadım). Görevdeki "1889"
-muhtemelen Habeşistan-İtalya'yı kastediyor (en çok tekrarlanan, 10+ nokta)
-ama emin değilim; gerekirse ikisi ayrı iş kalemi.
+İngiliz Malaya — coğrafi olarak alakasız, araştırmadım). Bunlara
+dokunmadım.
 
 ---
 
@@ -197,11 +263,26 @@ değişti).
 
 ---
 
-## ÖZET — üçü de sonuçlandı
+## ÖZET — üçü de sonuçlandı, koordinatör geri bildirimi işlendi
 
 ```
-KALEM 1   ölçüldü (6+13=19 nokta), UYGULANMADI — yeni devlet kimliği gerekiyor
-KALEM 2   3/3 araştırıldı — 1 bulundu-hazır (1897→09-10), 1 bulundu-orta güven
-          (1889→05-02), 1 bulunamadı (1556 kalır)
-KALEM 3   5/5 — 2 zaten temizdi, 3'ü düzenlendi, commit BEKLİYOR
+KALEM 1   19 nokta ölçüldü + öneri (koordinatör kararıyla 6'dan 19'a
+          genişletildi), 16'ya (Ahmed Bey grubu) DOKUNULMADI/ölçülmedi.
+          Öneri: GRUP A/B/C (19 nokta) için YENİ DEVLET KAYDI DEĞİL,
+          `kasitli_bosluk` mekanizmasının makine-okunur hâle getirilmesi
+          gerekiyor — MOTOR ENKLAV/Emre kararı. UYGULANMADI.
+KALEM 2   3/3 sonuçlandı: 1897→1897-09-10 BULUNDU VE UYGULANDI
+          (koordinatör, denetim temiz), 1889 BEKLET (koordinatör —
+          antlaşma/işgal/sömürge-ilanı üç aday, ölçülmedi),
+          1556 bulunamadı (kalır). devletler.js:1581 yazım hatası +
+          yanlış olay birleşimi düzeltildi (koordinatör izniyle),
+          commit BEKLİYOR.
+KALEM 3   5/5 — 2 zaten temizdi, 3'ü düzenlendi (olaylar_ek5.js),
+          commit BEKLİYOR.
+```
+
+**Commit bekleyen dosyalar (benim yetkim dışında, Oturum 0 uygulamalı):**
+```
+data/olaylar_ek5.js   3 satır (Bucak-Bender, Yanova, Varad metinleri)
+data/devletler.js     1 satır (1581, Uçiali tarihi + not)
 ```
