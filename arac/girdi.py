@@ -348,6 +348,7 @@ GIRDI_DOSYALARI = [
     "yerlesimler_ek24.js",
     "yerlesimler_ek25.js",
     "yerlesimler_ek26.js",
+    "yerlesimler_ek27.js",
     # ── HALKA-2 NOKTA PARTILERI · 7 Agustos 2026 ───────────────────
     # Uc oturum, uc bolge, 333 yeni nokta. Yogunluk olcumu (nokta/mn km2):
     #   Sudan-Habes-Somali-Umman   8,9 -> 25,2   (181 nokta)
