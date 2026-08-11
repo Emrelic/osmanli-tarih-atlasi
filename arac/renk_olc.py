@@ -144,6 +144,79 @@ OSM = {"OSMANLI doğrudan": lab(bind(h2r("#8e0b22"), OPAKLIK["dogrudan"])),
        "OSMANLI tâbi":     lab(bind(h2r("#b2384a"), OPAKLIK["tabi"]))}
 ALT = lab(ALTLIK)
 
+# ═══════════════ DENİZ — RENK DENİZ oturumu, 2026-08-12 ═══════════════
+# Emre: "Deniz ile aynı renk tonlarını tercih etmemeliyiz ... Delhi
+# Sultanlığı'na bak, deniz gibi görünüyor, gözümüzü kanatıyor" + "Kutsal Roma
+# Germen rengini denizden daha algısal farklı bulmalıyız." Denetim bunu hiç
+# sormuyordu: `denetle()` gövdeleri BİRBİRİNE karşı ölçer, denizi hiç sormaz
+# — oysa deniz bir devlet değil ama ekrandaki EN BÜYÜK TEK renk kütlesi ve
+# her gövdenin her kenarında var. (CLAUDE.md §11: "denetim var ≠ o soruyu
+# soruyor" — bu, o dersin deniz tarafı.)
+#
+# Deniz rengi BURAYA SABİT YAZILMAZ, `js/app.js`ten OKUNUR — iki bağımsız
+# yerde doğrulanıyor ("zemin" background katmanı VE "g-gol" deniz/göl
+# dolgusu; ikisi FARKLIYSA ya da g-gol artık opak DEĞİLSE SystemExit.
+# ALTLIK'ın aksine burada "sessizce eskiye düş" yok: ALTLIK'ın en azından
+# bir self-check'i (`_opaklik_dogrula`) var ama hex'i yine de kopya; bu
+# ölçütün TEK girdisi deniz rengi olduğu için kopyalamak riski büyütürdü.
+def _deniz_oku():
+    yol = os.path.join(os.path.dirname(os.path.dirname(
+        os.path.abspath(__file__))), "js", "app.js")
+    s = io.open(yol, encoding="utf-8").read()
+    zemin = re.search(r'"zemin".*?"background-color":\s*"(#[0-9a-fA-F]{6})"',
+                       s, re.S)
+    gol = re.search(r'"g-gol".*?"fill-color":\s*"(#[0-9a-fA-F]{6})".*?'
+                     r'"fill-opacity":\s*([0-9.]+)', s, re.S)
+    if not zemin or not gol:
+        raise SystemExit("!! deniz rengi app.js'ten okunamadi (zemin/g-gol "
+                         "bulunamadi) - DE_DENIZ olculemez")
+    zh, gh, gop = zemin.group(1), gol.group(1), float(gol.group(2))
+    if zh.lower() != gh.lower():
+        raise SystemExit("!! zemin (%s) ve g-gol (%s) FARKLI hex - deniz "
+                         "rengi belirsiz, elle bakilmali" % (zh, gh))
+    if gop < 0.999:
+        raise SystemExit("!! g-gol artik opak degil (fill-opacity=%.2f) - "
+                         "bindirme hesaba katilmali, kod guncellensin" % gop)
+    return gh
+
+
+DENIZ_HEX = _deniz_oku()
+DENIZ = h2r(DENIZ_HEX)          # zaten opak (fill-opacity 1) - blend YOK
+DENIZ_LAB = lab(DENIZ)
+
+# ── eşikler — RENK DENİZ ölçümü + koordinatör kararı (2026-08-12) ──
+# DAL 1: DE_ALTLIK ile SİMETRİK. Kara ve deniz atlasın iki evrensel zemini;
+#        ikisine karşı görünürlük ölçütü aynı olmalı (15). Daha gevşek
+#        olamaz: deniz her gövdenin her kenarında.
+DE_DENIZ = 15.0
+# DAL 2: "adı verilen istisna" (Delhi/Almanya) ÖLÇÜLEBİLİR KURALA çevrildi
+#        (koordinatör talebi — adlandırılmış istisna yalnız bu koşuda
+#        çalışır, yarın renk değişirse ya da başka kimlik aynı hâle
+#        düşerse araç onu göremez). Salt ΔE toplam mesafeyi ölçüyor ama
+#        PARLAKLIK (L*) yakınlığını yeterince ağırlıklandırmıyor: Delhi
+#        Sultanlığı ΔE 18,7 (DE_DENIZ'in üstünde, DAL 1 onu YAKALAMIYORDU)
+#        ama ΔL* yalnız 2,6 — denizle "aynı açıklıkta" okunuyor, ton farkı
+#        (52°) olsa bile. Ölçüldü: |ΔL*|<4 eşiği Delhi VE Almanya'yı ADLA
+#        DEĞİL KURALLA yakalıyor (ΔL* sırasıyla 2,6 · 1,8).
+DL_DENIZ = 4.0
+DE_DENIZ_GENIS = 20.0    # DAL 2'nin ΔE tavanı - DAL 1'den gevşek, sınırsız değil
+
+
+def deniz_ihlal():
+    """(dal1, dal2_ek, birlesim) — kimliklerin denizle karışan kümeleri.
+    dal2_ek yalnız DAL 2'nin EKLEDİĞİ (DAL 1'de olmayan) kimlikleri taşır,
+    birlesim ikisinin toplamıdır (ADIM 2'nin gerçek hedef kümesi)."""
+    dal1, dal2 = set(), set()
+    for a in BOYALAR:
+        L = gorunen(a)
+        d_e = dE(L, DENIZ_LAB)
+        d_l = abs(L[0] - DENIZ_LAB[0])
+        if d_e < DE_DENIZ:
+            dal1.add(a)
+        if d_l < DL_DENIZ and d_e < DE_DENIZ_GENIS:
+            dal2.add(a)
+    return dal1, dal2 - dal1, dal1 | dal2
+
 # ---- paletin "hissi": mevcut hexlerin parlaklık/doygunluk ortancası.
 # Yetinmeci seçim buna yakınlığa göre tercih yapar (bkz. oner()).
 import colorsys as _cs
@@ -445,6 +518,25 @@ def denetle():
     for d, a in sorted(gorunmez):
         print(f"  {d:>6.1f}  {a:<24} {BOYALAR[a][1]}  {BOYALAR[a][0]}")
     if not gorunmez:
+        print("  yok")
+
+    # RENK DENİZ, 2026-08-12 — CLAUDE.md §11: "denetim var ≠ o soruyu
+    # soruyor". Gövdeler birbirine karşı yukarıda ölçülüyor; deniz bir
+    # devlet değil ama ekrandaki EN BÜYÜK TEK renk kütlesi ve her gövdenin
+    # her kenarında var — hiçbir denetim onu sormuyordu. Bu blok ÇIKIŞ
+    # KODUNU ETKİLEMEZ (`_opaklik_dogrula`/`_paylasim_dogrula` ile aynı
+    # gerekçe: renk seçimi geometriyi etkilemiyor).
+    dal1, dal2_ek, deniz_birlesim = deniz_ihlal()
+    print("\n" + "=" * 72)
+    print(f"DENİZLE KARIŞAN — DAL1 ΔE<{DE_DENIZ:.0f}: {len(dal1)} · DAL2 "
+          f"|ΔL*|<{DL_DENIZ:.0f}∧ΔE<{DE_DENIZ_GENIS:.0f} (ek): {len(dal2_ek)} "
+          f"· birleşim {len(deniz_birlesim)} (deniz {DENIZ_HEX})")
+    print("=" * 72)
+    for a in sorted(deniz_birlesim):
+        La = gorunen(a)
+        print(f"  {dE(La, DENIZ_LAB):>6.2f}  ΔL*{abs(La[0] - DENIZ_LAB[0]):>5.2f}"
+              f"  {a:<24} {BOYALAR[a][1]}  {BOYALAR[a][0]}")
+    if not deniz_birlesim:
         print("  yok")
 
     print("\n" + "=" * 72)
