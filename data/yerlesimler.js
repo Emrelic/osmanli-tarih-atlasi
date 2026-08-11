@@ -265,7 +265,18 @@ window.YERLESIMLER = [
 // hiçbir tarihte kendi gövdesinin içinde çıkmıyordu. Kale ≈26.377'de; ama kara
 // maskesi 0.004° sadeleştirildiği için Boğaz'ın darboğazı çıktıda ~3 km'ye
 // açılmış (su 26.365-26.400). 26.360 hem karada hem kaleye 1,4 km.
-{ ad:"Kilitbahir", tur:"kale", lat:40.150, lon:26.360, g:0, k:4, m:"Edirne", kur:"1452-01-01",
+// 🔴 `kur:"1452-01-01"` KALDIRILDI (11 Ağustos 2026, NOKTA HALKA-1 ölçtü).
+// Emre'nin BİRİNCİ şikâyetinin tek sebebi buydu: "ÇANAKKALENİN KARŞI KIYISI
+// KARESİ İLHAKI İLE ALINMIŞ GİBİ". `kur:` peteği bastırıyordu, boğazın Avrupa
+// yakası 0,164 km farkla Çanakkale'ye (1345'ten Osmanlı) gidiyordu.
+// ⚠️ ÖDÜNLEŞME AÇIKÇA YAZILIYOR: Kilitbahir KALESİ gerçekten 1452'de yapıldı.
+//    Ama bu kaydın kendi zaman çizgisi 1281'den doludur (bizans → 1354 Osmanlı
+//    → 1366 bizans → 1376 Osmanlı → Fetret → 1413) ve `kur:` onunla ÇELİŞİYOR.
+//    Atlasın noktaları bir yapının varlığını değil BÖLGENİN MERKEZİNİ gösterir
+//    (`ALTYAPI-DORT-MADDE.md` ②); boğazın en dar yerindeki Avrupa yakası bir
+//    `k:4` dolgu noktasıyla temsil edilir. Yeni nokta EKLENEMEZDİ: Maydos
+//    4,33 km ötede ve 3 km kuralı aradaki her yeri kapatıyor.
+{ ad:"Kilitbahir", tur:"kale", lat:40.150, lon:26.360, g:0, k:4, m:"Edirne",
     s:[{f:"1281-01-01",t:"1354-03-02",d:"bizans"},{f:"1366-08-01",t:"1376-09-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"}],
     d:[{f:"1354-03-02",t:"1366-08-01"},{f:"1376-09-01",t:"1402-07-28"},{f:"1413-07-05",t:"1923-10-29"}] },
 { ad:"Çirmen", tur:"kale", lat:41.720, lon:26.200, g:0, k:4, m:"Edirne",

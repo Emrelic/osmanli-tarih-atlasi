@@ -382,6 +382,49 @@ CIZILMEYEN_MUAF = {
 }
 
 
+_DINAMIK_ONBELLEK = {}
+
+
+def _dinamik_topluyor(ad):
+    """`window.<ad>` bir DİNAMİK TOPLAYICI tarafından okunuyor mu?
+
+    🔴 11 Ağustos 2026 — `C14`ün bu araçtaki vakası: *bir aletin EVRENİ
+    değişince, alet DEĞİŞMEDEN sessizce yanılır.*
+
+    §40 kontrolü, adı `app.js`/`index.html` metninde HARFİYEN arıyordu. Ama
+    10 Ağustos'ta `app.js`teki elle tutulan `OLAYLAR` concat zinciri dinamik
+    toplamaya çevrildi (`Object.keys(window).filter(/^OLAYLAR(_EK\\d*)?$/)`),
+    11 Ağustos'ta `index.html`teki `YERLESIMLER` zinciri de. ⇒ Adlar artık
+    metinde HİÇ GEÇMİYOR ve araç **41 SAHTE ALARM** vermeye başladı — hepsi
+    gerçekte okunan dosyalar (`OLAYLAR_EK2..EK14`, `YERLESIMLER_EK13..`).
+
+    📌 Ve iki zincirin ikisi de aynı sebeple kaldırılmıştı: elle tutulan liste
+    bir kez unutulunca 58 madde + 59 nokta kullanıcıya GÖRÜNMEMİŞTİ. Yani
+    doğru düzeltme, onu denetleyen aleti kör etti. **Kusur ne düzeltmede ne
+    alette — ARALARINDAKİ sözleşmede** (`MIMARI.md §2.9`).
+
+    Çare: dosyalardaki `^`-çıpalı JS düzenli ifade sabitleri sökülür ve ad
+    onlara karşı sınanır. Toplayıcı deseni değişirse bu da kendiliğinden
+    değişir — ikinci bir elle liste doğmaz.
+    """
+    if not _DINAMIK_ONBELLEK:
+        desenler = []
+        for dosya in (os.path.join(KOK, "js", "app.js"),
+                      os.path.join(KOK, "index.html")):
+            try:
+                m = open(dosya, encoding="utf-8").read()
+            except Exception:
+                continue
+            # /^BIRSEY(...)?$/  biçimli JS regex sabitleri
+            for ham in re.findall(r"/(\^[A-Za-z0-9_()\\\[\]{}?*+|$.-]+)/", m):
+                try:
+                    desenler.append(re.compile(ham))
+                except re.error:
+                    pass
+        _DINAMIK_ONBELLEK["d"] = desenler
+    return any(d.match(ad) for d in _DINAMIK_ONBELLEK.get("d", []))
+
+
 def cizilmiyor_mu():
     """(bulgular, muaf_sayisi) — üretilen her `window.X` tüketiliyor mu?"""
     import glob as _g
@@ -432,7 +475,8 @@ def cizilmiyor_mu():
             # taşıyor, aynı kelime-sınırı testi ona da uygulanabilir.
             AD_DESENI = r"(?<![A-Za-z0-9_])" + re.escape(ad) + r"(?![A-Za-z0-9_])"
             okunuyor = (re.search(AD_DESENI, app) is not None
-                        or re.search(AD_DESENI, html) is not None)
+                        or re.search(AD_DESENI, html) is not None
+                        or _dinamik_topluyor(ad))
             # (c) index.html dosyayı yüklüyor mu
             yukleniyor = os.path.basename(yol) in html
             # MUAFİYET yalnız "okunmuyor/yüklenmiyor" testlerini susturur.

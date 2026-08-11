@@ -358,60 +358,27 @@
 <script src="data/yerlesimler_kalite4.js?v=r1140"></script>
 <script src="data/yerlesimler_sibirya.js?v=r1140"></script>
 <script src="data/yerlesimler_emilme.js?v=r1140"></script>
+<script src="data/yerlesimler_ek23.js?v=r1140"></script>
 <script>
   // Parti dosyalari KENDI kuresel degiskenlerini tanimliyor; app.js yalniz
   // window.YERLESIMLER okuyor. Birlestirme burada, TEK yerde yapilir --
   // app.js'e dokunulmadi (ARAYUZ'un dosyasi, CLAUDE.md 7).
-  window.YERLESIMLER = (window.YERLESIMLER || [])
-    .concat(window.YERLESIMLER_AFRIKA || [])
-    .concat(window.YERLESIMLER_AVRUPA || [])
-    .concat(window.YERLESIMLER_ASYA || [])
-    .concat(window.YERLESIMLER_EK || [])
-    .concat(window.YERLESIMLER_ORTAASYA2 || [])
-    .concat(window.YERLESIMLER_KIRIM || [])
-    .concat(window.YERLESIMLER_SEYREK || [])
-    .concat(window.YERLESIMLER_EK2 || [])
-    .concat(window.YERLESIMLER_EK3 || [])
-    .concat(window.YERLESIMLER_EK4 || [])
-    .concat(window.YERLESIMLER_EK5 || [])
-    .concat(window.YERLESIMLER_EK6 || [])
-    .concat(window.YERLESIMLER_EK7 || [])
-    .concat(window.YERLESIMLER_EK8 || [])
-    .concat(window.YERLESIMLER_EK9 || [])
-    // ── 6 Agustos 2026 · PETEK/NOKTA parti 20-25 ────────────────────────
-    // 🔴 BU SATIRLAR BIR KEZ UNUTULDU: koordinator <script src> satirlarini
-    //    ekledi ama concat zincirine EKLEMEDI. Dosyalar YUKLENIYOR ama
-    //    window.YERLESIMLER'e HIC girmiyordu -- yani 59 nokta tarayicida
-    //    goruntmuyordu. `denetle_yayin.py` §40 kontrolu yakaladi
-    //    ("uretiliyor ama cizilmiyor: app.js OKUMUYOR").
-    // ⇒ Yeni parti baglanirken UC yer birden guncellenir:
-    //    girdi.py (motor) · index.html <script> (yukleme) · BU ZINCIR (birlestirme)
-    .concat(window.YERLESIMLER_EK13 || [])
-    .concat(window.YERLESIMLER_EK14 || [])
-    .concat(window.YERLESIMLER_EK15 || [])
-    .concat(window.YERLESIMLER_EK16 || [])
-    .concat(window.YERLESIMLER_EK17 || [])
-    .concat(window.YERLESIMLER_EK18 || [])
-    .concat(window.YERLESIMLER_EK20 || [])
-    .concat(window.YERLESIMLER_EK11 || [])
-    .concat(window.YERLESIMLER_EK10 || [])
-    .concat(window.YERLESIMLER_EK12 || [])
-    // 🟢 7 Agustos: ek19·ek21·ek22 ARTIK BURADA. Dun bilerek
-    //    ertelenmislerdi -- girdi.py'ye bagliydilar ama donemler.js
-    //    r833'ten (1772 nokta) geliyordu; eklenselerdi Kerulen ·
-    //    Cocek · Samara'nin ADI cikar, altindaki toprak ESKI
-    //    komsunun peteginin renginde kalirdi.
-    //    r864 kosusu ucunu de okudu (1800 nokta) ⇒ erteleme bitti.
-    .concat(window.YERLESIMLER_EK19 || [])
-    .concat(window.YERLESIMLER_EK21 || [])
-    .concat(window.YERLESIMLER_EK22 || [])
-    .concat(window.YERLESIMLER_H2_AFRIKA || [])
-    .concat(window.YERLESIMLER_H2_RUSYA || [])
-    .concat(window.YERLESIMLER_H2_KUZEYAFRIKA || [])
-    .concat(window.YERLESIMLER_GDASYA || [])
-    .concat(window.YERLESIMLER_EMILME || [])
-    .concat(window.YERLESIMLER_SIBIRYA || [])
-    .concat(window.YERLESIMLER_KALITE4 || []);
+  //
+  // 🔴 11 Agustos 2026 — ZINCIR KALDIRILDI, YERINE OTOMATIK TOPLAMA.
+  // Asagidaki (artik olu) zincir BIR KEZ unutuldu ve 59 nokta tarayicida
+  // hic gorunmedi; ayni kusur 10 Agustos'ta OLAYLAR_EK16'da tekrarlandi
+  // (58 madde gorunmez). Iki vaka, tek sebep: ELLE TUTULAN LISTE.
+  // ⇒ Care yeni bir uyari satiri degil, LISTEYI KALDIRMAK.
+  // Artik `YERLESIMLER_` onekli her kuresel degisken KENDILIGINDEN katilir;
+  // sira = script yukleme sirasi. Yeni parti baglanirken guncellenecek yer
+  // IKIYE dustu: girdi.py (motor) + <script src> (yukleme).
+  window.YERLESIMLER = Object.keys(window)
+    .filter(function (k) {
+      return /^YERLESIMLER_/.test(k) && Array.isArray(window[k]);
+    })
+    .reduce(function (acc, k) { return acc.concat(window[k]); },
+            (window.YERLESIMLER || []).slice());
+
 
 </script>
 <script src="data/bolgeler.js?v=r1140"></script>
