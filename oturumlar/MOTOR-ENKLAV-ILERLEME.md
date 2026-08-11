@@ -120,6 +120,251 @@ fark = SU:  162.421 … 591.748 km²  (Van · Saimaa · Aral · Baykal…)
 
 ---
 
-## SIRADAKİ — koordinatörün onayı bekleniyor
-ADIM 2'ye onaysız geçilmeyecek. Üç açık soru koordinatöre gönderildi
-(uygulama yeri · kıyıya değen parça · devir hedefi).
+---
+
+# 🔴 ADIM 2 — İLK İŞTE ŞARTNAME ÇÜRÜDÜ: **(a) MOTORDA ZATEN VAR**
+
+ADIM 1 onaylandı, ADIM 2'ye geçildi, ve uygulanacak yeri ararken çıktı.
+
+## ⑥ BULGU — `delikleri_doldur()`
+
+```python
+uret_petek.py:744
+def delikleri_doldur(g):
+    """Kuşatılmış boşluk bırakmaz: çevresi ele geçmiş alan
+       (dağ bloğu, ova) da hâkimiyet altındadır."""
+    return unary_union([Polygon(p.exterior) for p in ps]).buffer(0)
+
+:2654  yabancı gövde   g = delikleri_doldur(kapat(g)) ; g.intersection(KARA)
+:2757  Osmanlı gövde   delikleri_doldur(kapat(...)).intersection(KARA)
+```
+
+Motor **her gövdenin bütün interior ring'lerini kayıtsız şartsız dolduruyor**,
+sonra KARA ile kesiyor — göller böylece geri açılıyor. Şartnamenin (a)
+kuralının **daha güçlü hâli**, ve **iki yıl önce yazılmış.**
+
+## ⑦ ÖLÇÜM — yayındaki GERÇEK çıktı (`donemler.js` · `devletler_harita.js`)
+
+| gün | OSM delik | **OSM KARA km²** | OSM SU | yab. delik | **yab. KARA km²** |
+|---|---|---|---|---|---|
+| 1300 | 0 | **0** | 0 | 153 | 10.899 |
+| 1400 | 5 | **6** | 3.305 | 148 | 10.649 |
+| 1500 | 6 | **7** | 3.685 | 148 | 10.871 |
+| 1600 | 14 | **21** | 12.251 | 151 | 10.863 |
+| 1700 | 14 | **21** | 12.251 | 171 | 11.947 |
+| 1800 | 13 | **20** | 11.910 | 182 | 10.017 |
+| 1900 | 12 | **19** | 11.530 | 198 | 13.782 |
+
+**ÖLÇTÜĞÜM:** Osmanlı gövdesinde kalan kara deliği **19-21 km²**; gerisi göl.
+Yabancıdaki 10-14 bin km²'nin en büyükleri Saimaa 2.461 · IJsselmeer 1.012 ·
+Finlandiya göl bölgesi 633 — hepsi **göl yakası artığı.**
+**BUNDAN ÇIKARDIĞIM:** kapalı kara adacığı **yayında zaten yok.** ③'teki
+3-8 delik **benim kendi birleşimimde** vardı; motor onları kapatıyor.
+⇒ *Ölçüm doğruydu, evreni yanlıştı — motorun çıktısını değil kendi ara
+ürünümü ölçmüştüm.*
+
+## ⑧ GERİYE KALAN: şartnamenin ÜÇÜNCÜ şartı kodda YOK
+
+| şartname şartı | durum |
+|---|---|
+| "iki farklı sahip değiyorsa dokunma" | ✅ yapısal — interior ring tanım gereği tek gövdenin içinde |
+| "denizden atlamaz, kara bileşeninde" | ✅ `.intersection(KARA)` |
+| **"`kasitli_bosluk`a dokunma"** | 🔴 **YOK — hiçbir şey sorulmuyor** |
+
+**ÖLÇTÜĞÜM** (bayraklı + o gün sahipsiz + varlık epoku içi):
+```
+aday       122 · 122 · 122 · 115 · 77 · 74 · 23
+BOYANAN      0 ·   0 ·   0 ·   0 ·  0 ·  0 ·  0     ← 7 kesitin 7'sinde
+```
+**BUNDAN ÇIKARDIĞIM:** eksik şart **bugün zarar vermiyor** — kasten boş alan
+delik değil, açık bölge. **Yapısal açık, canlı kusur değil.** Ve **veriye
+bağlı bir güvence:** yeni nokta eklendikçe bir vaha kuşatılabilir ve
+**sessizce boyanır.**
+
+**Canlı kusur BAYRAKSIZ kümede, 2-3 nokta:** `Darfur` · `Somali çölü` ·
+`Ogaden` · `Libya iç çölü (Sirte ardı)` delik olarak doldurulmuş.
+⇒ **Kusur motorda değil VERİDE** — dün bildirilen 55 bayraksız kaydın sonucu.
+
+## ⑨ KENDİ ÖLÇÜMÜMÜN ÜÇÜNCÜ KUSURU — raporlamadan önce yakalandı
+
+İlk sürüm *"110 `kasitli_bosluk` noktası boyanıyor"* dedi. **Yanlıştı:** bir
+nokta hem bayrak taşıyıp hem o tarihte **sahipli** olabilir (Kuveyt
+`kur:1716` → 1800'de sahipli · Doha · Matsumae · Cetinje). Onların boyanması
+**doğru.** Evren daraltılınca **110 → 0.**
+
+📌 Bugün **üçüncü kez** aynı sınıf, ve üçü de **aynı refleksten**:
+```
+① gövde başına delik saydım        → başkasınca doldurulmuş delikler sahte aday
+② halkaları KARA ile kesmedim      → göller delik göründü (Van Gölü!)
+③ bayraklı ama SAHİPLİ noktaları saydım → 110 sahte "boyanmış"
+```
+Üçü de rapordan önce yakalandı, ama **ölçütü kurarken evreni yazmak** —
+*"bu sayının içine ne giriyor, ne girmiyor"* — alışkanlık olmalıydı.
+
+---
+
+# ⑩ UYGULANDI — `kasitli_bosluk` muafiyeti (koordinatör onayı: seçenek ①)
+
+```
+arac/uret_petek.py   +83 / -3 satır   ·   py_compile TEMİZ
+0x00 = 0 · 0x08 = 0 · 0x1b = 0 · yalnız-CR = 0
+```
+
+`delikleri_doldur(g, muaf=True)` — içinde `kasitli_bosluk` noktası bulunan
+interior ring **doldurulmaz**, ve atlanan halka **adıyla raporlanır**.
+Muafiyet **halka bazlıdır, gövde bazlı değil**: aynı gövdenin bir deliği muaf
+tutulurken ötekiler dolmaya devam eder.
+
+🔴 **Üçüncü çağrı yerini ilk taramada KAÇIRMIŞTIM.** `grep` ile değil **gözle**
+saymıştım ve koordinatöre *"iki çağrı yeri var"* diye yazdım. Gerçek üç:
+```
+:2511  bölge (k1/k2 idarî) sınırı  → data/bolgeler.js     ← KAÇIRDIĞIM
+:2717  yabancı devlet gövdesi      → data/devletler_harita.js
+:2820  Osmanlı doğrudan + tâbi     → data/donemler.js
+```
+Muafiyet üçüne de uygulanıyor ve doğrusu bu: kasten boş bırakılmış bir çöl
+cebi, bir sancağın sınırı içinde de yutulmamalı.
+
+## ⑪ C13 — İKİ YÖNDE SINANDI, 10/10
+
+**Yöntem:** fonksiyon ve yanındaki `_KB_*` kurulumu `uret_petek.py`den **`ast`
+ile** çıkarılıp olduğu gibi `exec` edildi. Kendi kopyamı yazsaydım **kendi
+kopyamı** sınamış olurdum (`§11`: *"kendi yazdığın ayrıştırıcı, var olan bir
+ayrıştırıcıdan her zaman kötüdür"*).
+
+```
+GEÇME YOLU   781 gövde (7 kesit × 71-139 sahip) · |muaf=True − eski| = 0.00e+00
+             ⇒ bugünkü davranış BİREBİR korunuyor
+ATEŞLEME     gerçek veride 0 halka ⇒ SAHTE GİRDİYLE zorlandı
+   (A) KB noktalı halka KORUNDU                 alan 99  ✓
+   (A) atlama ADIYLA raporlandı  {'Vladikavkaz': 1}      ✓
+   (B) KB noktasız halka DOLDU                  alan 100 ✓
+   (B) rapor boş kaldı                                   ✓
+   (C) aynı gövdede ikisi birden → biri korundu biri doldu  alan 99 ✓
+   (D) muaf=False → eski davranış, ikisi de doldu alan 100 ✓
+   (D) muaf=False rapor üretmez                          ✓
+   (E) MultiPolygon gövde                       alan 103 ✓
+```
+🔴 **SINANMAYAN, açıkça:** koşu içindeki `if _KB_MUAF:` **rapor dalının metni**
+gerçek koşuda ateşlenmeyecek (0 halka). Yalnız `else` dalı basılacak.
+
+Öngörü: `denetim/kosu-ongoru-MOTOR-ENKLAV.json` — **7 kalem**, mazeretleri
+yazılı, ve **`_ATTRIBUTION` bloğu**: koşu bileşen kilidini ve NOKTA HALKA-1'in
+noktalarını da taşıyor; *"benim kalemim TEMİZ BİR SIFIR olmalı"*.
+
+---
+
+# ⑫ VERİ OTURUMUNA — bayraksız ama fiilen kasıtlı, ve DOLDURULMUŞ
+
+Koordinatörün istediği liste. Muafiyet bunları **kurtarmaz** çünkü
+`kasitli_bosluk` bayrağı **taşımıyorlar** — kusur motorda değil veride.
+
+**A · Delik olarak DOLDURULMUŞ (ölçüldü, yayındaki çıktıda boyanıyor):**
+| ad | koordinat | hangi kesitlerde | hüküm önerim |
+|---|---|---|---|
+| `Darfur` | 13,50K 24,00D | 1300-1900, **yedisinde de** | doldurma muhtemelen **DOĞRU** — Darfur Sultanlığı orada; ama nokta sahipsiz, yani asıl eksik **`s:` dönemi** |
+| `Somali çölü` | 8,00K 46,50D | 1300-1900, **yedisinde de** | incelensin |
+| `Ogaden` | 7,20K 44,00D | 1300 · 1400 · 1500 | Adal Sultanlığı Ogaden'i kapsıyordu — doldurma savunulabilir |
+| `Libya iç çölü (Sirte ardı)` | 29,50K 21,50D | 1600 · 1700 · 1900 | 🔴 muhtemelen **YANLIŞ** — kasten boş olmalı |
+
+**B · Bayraksız ama fiilen kasıtlı, 55 kayıt** (bugün delik değiller, zarar
+vermiyorlar; yarın kuşatılabilirler). 7/7 kesitte sahipsiz olanlar:
+```
+Sahra batısı · Hoggar · Tibesti · Tâsîlî n'Accer · Tâzirbû · Rebyâne ·
+Serîr · Serîr Kalanşû · Sirte iç çölü · Libya iç çölü (Sirte ardı) ·
+İdehân Murzuk · İdehân Ubârî · Ramletü Murzuk · Ramletü Zellâf ·
+Vâdî Tanezzûft · Vâv el-Kebîr · Fizan güneyi · Ma'tan es-Sarra ·
+Kufra (el-Cûf) · Gilf el-Kebîr · Selîme (Nûbe çölü batısı) · Nûbe çölü ·
+Batı çölü (Mısır) · Ramletü'l-kübrâ (Büyük Kum Denizi) ·
+Rub'ul Hâlî doğusu · Rub'ul Hâlî kuzeyi · Hamâd (Bâdiyetü'ş-Şâm içi) ·
+Vâdî Sirhân · Hadramut · Ogaden · Somali çölü · Darfur ·
+Karakum · Uzboy · Üstyurt platosu (batı) · Üstyurt platosu (doğu) ·
+Yeni Gine İç Kesimi (Güney — Fly) · (Kuzey — Sepik) ·
+Yeni Gine İç Yaylaları (Batı — Baliem) · (Merkez — Mount Hagen) ·
+Agadez · Timbuktu · Ndjamena · Tamanrasset
+```
+Ve **dönemli olanlar** (5-6/7 kesit): `Hâil` · `Manama (Bahreyn)` · `Mukalla` ·
+`Buraydâ (Kasîm)` · `Dir'iye (Necid)` · `Necid içi` · `Nefud çölü` · `Riyad` ·
+`Uneyze` · `Şakrâ`.
+
+⚠️ **Ve `§11`in cinsi:** bayrak eksik olsa bile `denetle.py` `kasitli_bosluk`
+alanını **hiç okumuyor** (koordinatörün bildirdiği vaka). Bayrağı yazmak ile
+makinenin sorabilmesi **iki ayrı iş**.
+
+---
+
+# ⑬ (b) HAZIRLIK NOTU — PLAN, prototip DEĞİL
+
+⚠️ (b) Emre'nin eşik kararına bağlı, karar gelmedi. **Hiçbir şey uygulanmadı.**
+
+## ① (b) hangi kodda yaşar
+
+```
+:561-630   A1 YARIÇAP TAVANI          bütün coğrafya
+:595       TAVAN_KM = {1:700, 2:420, 3:280, 4:140, 0:280}   dict[int,int], km
+:599       def _tavan_daire(p, r_km, lat)   ← 🔴 YUVARLAĞI ÜRETEN SATIR
+           enlem düzeltmeli ELİPS: buffer(1.0, quad_segs=24) sonra
+           xfact = r/(111,32·cos φ) · yfact = r/111,32
+:605       TAVAN_DAIRE = [...]        nokta başına bir elips, BİR KEZ kurulur
+uygulama   kıyı kesimiyle AYNI ADIMDA: kara_kesik.intersection(TAVAN_DAIRE[i])
+
+:1528-…    ÇÖL TAVANI                 yalnız çöl poligonu içinde
+:1549      COL_TAVAN_KM = 300.0                float, km
+:1550      COL_SU_MUAF_KM = 30.0               float, km
+:1573      COL_MUAF_YERLESIM_BAZLI = False     bool — ölçülerek (A) seçildi
+```
+
+📌 **Emre'nin gördüğü yuvarlak `_tavan_daire`ın ürünüdür.** *"Çok yönlü
+takviye"* teknik olarak şu demek: `_tavan_daire`ın **izotrop elipsi**,
+**yöne göre değişen** bir çokgenle değiştirilir. Yani değişecek şey bir
+SAYI değil, **bir FONKSİYON** — ve `TAVAN_KM` sözlüğü skalerden vektöre döner.
+⚠️ Bu bir yorum, ölçüm değil: Emre'nin *"kuzeyden 250 güneyden 250 doğudan 350
+batıdan 400"* cümlesi bir **enklavın derinliğini** de tarif ediyor olabilir.
+İki okuma da mümkün ve **karar Emre'nin.**
+
+## ② 🟢 EN UCUZ KIYAS — TAM KOŞU ŞART DEĞİL (ölçüldü)
+
+```
+DARALTMA  (tavan küçültme)    KOŞUSUZ ve EXACT       0,2 sn
+   Sebep YAPISAL: tavan yalnız KESER (`uret_petek.py:1480` bunu yazıyor).
+   ⇒ daha küçük tavan = yayındaki hücre ∩ daha küçük elips. Bilgi kaybı YOK.
+   Ölçüldü: Sahra kutusunda tavan ×0,75 → 6.489.793 → 5.273.537 km²
+
+GENİŞLETME (tavan büyütme)    yerel yeniden-Voronoi  0,1 sn
+   Aynı yolla YAPILAMAZ: kesilen geometri yayında YOK.
+   Ama tam koşu da gerekmiyor — Sahra + 10° tampon = 926 nokta,
+   `voronoi_diagram` 0,1 sn. Eksik olan yalnız yaslama/Chaikin;
+   GÖRSEL KIYAS için ham Voronoi ∩ KARA yeter.
+```
+⇒ **Emre'nin istediği "iki ayrı harita yan yana" SANİYELER İÇİNDE üretilebilir.**
+73 dakikalık koşu yalnız **kabul edilen** parametre için gerekir, **denemek**
+için değil.
+
+## ③ (b) kimi etkiler — Sahra kutusu `box(-17, 15, 37, 33)`
+
+```
+nokta 193 · toplam petek 6.489.793 km²
+kademe   k0=64 · k2=6 · k3=26 · k4=97
+TAVANIN BAĞLADIĞI (yuvarlak kenarı olan): 75 / 193
+  Agadez 245.508 · Timbuktu 245.192 · Tibesti 208.788 ·
+  Tamanrasset 187.405 · Sahra batısı 186.156 km²
+```
+⇒ **Emre'nin şikâyet ettiği yuvarlaklar bu 75 peteğin kenarları.**
+
+## ④ (b) hangi denetimleri kıpırdatır
+
+| denetim | beklenen | gerekçe |
+|---|---|---|
+| `Değişmez 1` sahipsiz 180 | **kıpırdamaz** | tavan noktaya değil ALANA dokunur (`:1480-1483` bunu yazıyor) |
+| `Değişmez 2 · 2s · 2i · 2t` | **kıpırdamaz** | kırılma tarihleri değişmiyor |
+| boyanan toplam alan | 🔴 **büyük değişir** | daraltmada azalır, genişletmede artar |
+| `renk_olc.py` | 🔴 **ŞART** | `§9`: komşuluk VERİDEN gelir; tavan komşuluk üretir/yok eder |
+| serbest kenar | 🔴 **çok değişir** | tavan sahipli↔sahipsiz sınırının ta kendisini üretiyor |
+| `delikleri_doldur` muafiyeti | ⚠️ **ATEŞLEYEBİLİR** | tavan genişlerse bir çöl cebi kuşatılabilir — nöbetçi tam bunun için kondu |
+| A1 tavanı ↔ yetim yüz | 🔴 **ÖLÇÜLSÜN** | `MIMARI §2.9 VAKA 1`: tavan 3.397.649 km² serbest bıraktı, yetim yüz **geri verdi**. (b) aynı tuzağa girer |
+
+## ⑭ ALETLER — kapanışta kaybolacak
+Ölçüm betikleri scratchpad'de. `MOTOR DENİZAŞIRI` için koordinatör onları
+`arac/olc_denizasiri/` altına kurtarmıştı (commit `70b9a3f`). Aynısını
+istiyorsa `arac/olc_enklav/` altına yazabilirim — **izin bekliyorum**,
+`§3` yazma yetkim buna açık değil.
