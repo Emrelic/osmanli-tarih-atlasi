@@ -42,6 +42,13 @@ HEDEF = os.path.join(KOK, "data", "bekleyenler.js")
 # çünkü başlıklarda emoji ve açıklama var.
 BOLUMLER = [
     ("SENDEN BEKLENEN", "bekleyen"),
+    # 11 Agustos 2026: kulliyat ozeti tablosu. Kullanicidan bir sey
+    # BEKLEMIYOR -- olculmus bir DURUM raporu ⇒ `istege_bagli`.
+    # Ureteç bunu tanimadigi icin CALISMAYI REDDETTI ve eski ciktiyi
+    # KORUMADI ("bayat tablo yanlis tablodan kotudur") -- dogru davranis,
+    # ve yayin kapisi onu "bayat" diye gosterdi. Iki nobetci birlikte
+    # calisti; care basligi TANITMAK.
+    ("KÜLLİYAT ÇÖZÜLDÜ", "kulliyat"),
     ("GÖRSEL DOĞRULAMA", "gorsel"),
     ("KARAR BEKLEYENLER", "karar"),
     ("İSTERSEN", "istege_bagli"),
