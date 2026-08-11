@@ -72,19 +72,19 @@ gerekir. Projenin bütün kalite kuralları (§3) bu tek cümleden türer.
 | Katman | Ölçülen durum |
 |---|---|
 | Yerleşim (motorun okuduğu) | **2308** nokta, 36 girdi dosyası |
-| Kronoloji | **1158** madde · 1158 duygu etiketli · 432 `yer_id` · 26 `vefat_id` |
+| Kronoloji | **1219** madde · 1219 duygu etiketli · 493 `yer_id` · 26 `vefat_id` |
 | Değişmez 1 — sahipsizlik | ✓ 2308 yerleşim, 180 sahipsiz (beklenen 180) |
 | Değişmez 1b — iç boşluk | ✓ pencere arası boşluk: 0 (beklenen 0) — örnekleme YAPILMAZ, tam tarama |
 | Değişmez 2 — Osmanlı senkronu | ✓ 499 kırılma, 0 açık (beklenen 0) |
-| Değişmez 2s — yabancı senkron | ✓ 712 YABANCI kırılması · 121 AÇIK (tavan 121) · 39 KAPSAM DIŞI |
+| Değişmez 2s — yabancı senkron | ✓ 715 YABANCI kırılması · 60 AÇIK (tavan 121) · 38 KAPSAM DIŞI |
 | Değişmez 2i — işgal senkronu | ✓ 20 İŞGAL kırılması, 3 açık (tavan 3) |
 | Değişmez 2t — kırılmasız madde | ✓ kırılmasız madde: 38 (tavan 42) — bilinen borç |
 | Konum denetimi | 10 nokta PENCERE DIŞINDA — ihlal DEĞİL, pencere oraya açılana kadar BEKLEYEN veri |
-| Devletler dizini | **390** künye · **333** renk (`renkler.py`) |
+| Devletler dizini | **392** künye · **335** renk (`renkler.py`) |
 | Dizinsiz harita kimliği | 🔴 **0** kimlik / 0 pencere karşılıksız · *kapsam: `girdi.py`nin okuduğu 36 dosya — bağlanmamış partiler HARİÇ* |
-| Padişah · kartvizit | 41 kayıt · 36 portre · **26** kartvizit dolu |
+| Padişah · kartvizit | 41 kayıt · 36 portre · **41** kartvizit dolu |
 | Harita penceresi | `unary_union([box(-12, -11, 146, 82), box(-25, 60, -12, 82)])` |
-| Yayın | **r1105** · `52e3acf` |
+| Yayın | **r1140** · `dd87549` |
 
 > ⚙️ **BU TABLO ELLE YAZILMAZ — ÜRETİLİR.**
 > ```bash
