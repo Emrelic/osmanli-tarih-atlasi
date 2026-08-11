@@ -1578,7 +1578,7 @@ window.DEVLETLER = [
     { t:"1769-01-01", tur:"bolunme", b:"Zemene Mesafint (Prensler Çağı) başladı, merkezi otorite fiilen çöktü" },
     { t:"1855-02-11", tur:"birlesme", b:"II. Tewodros taç giyerek ülkeyi yeniden birleştirdi" },
     { t:"1887-01-06", tur:"toprak-kazanc", b:"Harar ilhak edildi" },
-    { t:"1889-03-02", tur:"antlasma", b:"Uccialli (Wuchale) Antlaşması imzalandı, II. Menelik tahta çıktı" },
+    { t:"1889-05-02", tur:"antlasma", b:"Uccialli (Wuchale) Antlaşması imzalandı — Bogos, Hamasien ve Akkele Guzay İtalya'ya bırakıldı (kaynak: Britannica, madde: \"Treaty of Wichale\"; TDV'de müstakil madde bulunamadı). ⚠️ ÖLÇÜLMEDİ: yerleşim noktalarındaki 'Habeşistan→İtalya' kırılması ('1889-01-01') bu antlaşma gününe mi, yoksa İtalyan Eritre sömürgesinin resmî ilanına (1890-01-01) mı karşılık geliyor — üç aday tarih (antlaşma/işgal/sömürge ilanı) birbirinden ayırt edilmedi. Önceki kayıt bu tarihi 'II. Menelik tahta çıktı' olayıyla da karıştırıyordu; o, IV. Yohannes'in 9 Mart 1889'daki ölümüyle başlayan ayrı ve kendi başına ölçülmemiş bir süreçtir, buradan çıkarıldı." },
     { t:"1896-03-01", tur:"savas", b:"Adva'da İtalya'yı yenerek bağımsızlığını korudu" }
   ]
 },
