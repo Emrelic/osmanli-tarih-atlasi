@@ -741,12 +741,75 @@ def poligonal(g):
     if g.geom_type == "GeometryCollection" or not g.is_valid: return temiz(g)
     return g
 
-def delikleri_doldur(g):
+# ═══ 🔴 KASITLI BOŞLUK MUAFİYETİ — MOTOR ENKLAV, 11 Ağustos 2026 ═══════════
+# `delikleri_doldur` bu satıra kadar HİÇBİR ŞEY SORMUYORDU: gövdenin bütün
+# interior ring'lerini kayıtsız şartsız dolduruyordu. Ölçüldü, ve ikisi de
+# rapora girdi:
+#
+#   ① BUGÜN ZARAR VERMİYOR. Yayındaki çıktıda (donemler.js ·
+#      devletler_harita.js) 7 kesitin 7'sinde de "bayraklı + o gün sahipsiz +
+#      varlık epoku içi" noktanın BOYANANI **0**:
+#          aday    122 · 122 · 122 · 115 · 77 · 74 · 23
+#          boyanan   0 ·   0 ·   0 ·   0 ·  0 ·  0 ·  0
+#      Sebebi yapısal: kasten boş bırakılan yerler (Sahra · Rub'ul Hâlî ·
+#      Karakum · Üstyurt) DELİK değil, kıyıya ve öteki boşluklara AÇIK
+#      bölgelerdir; interior ring hiç olmuyorlar.
+#
+#   ② AMA GÜVENCE VERİYE BAĞLI, YAPISAL DEĞİL. Nokta kümesi büyüdükçe bir
+#      vaha ya da çöl cebi kuşatılabilir — ve o an SESSİZCE boyanır.
+#      `renk_olc.py`nin başındaki dersin aynısı: "veriye dokunan her koşudan
+#      sonra yeniden sorulur" (§9). Bu yüzden nöbetçi ŞİMDİ kondu, kusur
+#      doğduktan sonra değil.
+#
+# ⚠️ MUAFİYET HALKA BAZLIDIR, GÖVDE BAZLI DEĞİL: aynı gövdenin bir deliği
+#    muaf tutulurken ötekiler dolmaya devam eder. Gövdeyi bütünüyle muaf
+#    tutmak, tek bir çöl cebi yüzünden dağ bloklarını da açık bırakırdı.
+#
+# 📌 VE MUAFİYETİN KAPSAMI `kasitli_bosluk` BAYRAĞIDIR, "sahipsizlik" DEĞİL.
+#    Sahipsizliği ölçüt yapmak, YAZILMAMIŞ boşluğu da korurdu ve fonksiyonun
+#    var oluş sebebini iptal ederdi (dağ bloğu da sahipsizdir). Ayrım
+#    `§2015 _kusatilmis`in ayrımıyla aynı: kaynaklı hüküm ile veri borcu
+#    ayrı şeylerdir. ⚠️ Bedeli ölçüldü ve saklanmıyor: bugün 55 kayıt
+#    fiilen kasıtlı ama BAYRAKSIZ, ve dördü (Darfur · Somali çölü · Ogaden ·
+#    Libya iç çölü) şu an delik olarak DOLUYOR. Muafiyet onları KURTARMAZ —
+#    kusur motorda değil veride, ve bir veri oturumuna yazıldı.
+_KB_IX = [i for i, y in enumerate(YERLER) if y.get("kasitli_bosluk")]
+_KB_NOKTA = [noktalar[i] for i in _KB_IX]
+_KB_AGAC = STRtree(_KB_NOKTA) if _KB_NOKTA else None
+_KB_MUAF = {}                       # ad → kaç halka; SESSİZ ATLAMA YOK
+print(f"     delik doldurma muafiyeti: {len(_KB_IX)} kasıtlı boşluk noktası nöbette")
+
+
+def delikleri_doldur(g, muaf=True):
     """Kuşatılmış boşluk bırakmaz: çevresi ele geçmiş alan (dağ bloğu, ova) da
-    hâkimiyet altındadır."""
+    hâkimiyet altındadır.
+
+    muaf=True  (VARSAYILAN): içinde `kasitli_bosluk` noktası bulunan halka
+               DOLDURULMAZ — kaynaklı araştırma hükmü, motorun varsayımını yener.
+    muaf=False: 11 Ağustos 2026 ÖNCESİ davranış (her halka dolar). Yalnız
+               `C13` geçme-yolu sınavı için duruyor; üretimde çağrılmaz."""
     if g.is_empty: return g
     ps = g.geoms if isinstance(g, MultiPolygon) else [g]
-    return unary_union([Polygon(p.exterior) for p in ps]).buffer(0)
+    out = []
+    for p in ps:
+        tut = []
+        if muaf and _KB_AGAC is not None:
+            for h in p.interiors:
+                halka = Polygon(h)
+                try:
+                    icerde = [int(q) for q in _KB_AGAC.query(halka)
+                              if halka.contains(_KB_NOKTA[int(q)])]
+                except Exception:
+                    halka = halka.buffer(0)
+                    icerde = [int(q) for q in _KB_AGAC.query(halka)
+                              if halka.contains(_KB_NOKTA[int(q)])]
+                if icerde:
+                    tut.append(h)
+                    for q in icerde:
+                        _ad = YERLER[_KB_IX[q]]["ad"]
+                        _KB_MUAF[_ad] = _KB_MUAF.get(_ad, 0) + 1
+        out.append(Polygon(p.exterior, tut) if tut else Polygon(p.exterior))
+    return unary_union(out).buffer(0)
 
 # ---------------- Örtü boru hattı ----------------
 # Petekler tek bir ÖRTÜ (coverage) olarak işlenir:
@@ -2787,6 +2850,29 @@ for i in range(len(tarihler) - 1):
     donemler.append(kayit)
     onceki_aktif = aktif
     onceki_anahtar = anahtar
+
+# 🔴 MUAFİYET RAPORU — SESSİZ ATLAMA YOK.
+# `delikleri_doldur`ın ÜÇ çağrı yeri var ve üçü de bu satırdan ÖNCE koşar;
+# rapor bu yüzden buraya kondu:
+#     :2511  bölge (k1/k2 idarî) sınırı  → data/bolgeler.js
+#     :2717  yabancı devlet gövdesi      → data/devletler_harita.js
+#     :2820  Osmanlı doğrudan + tâbi     → data/donemler.js
+# ⚠️ Üçüncüsünü ilk taramada KAÇIRMIŞTIM (`:2511`) — `grep` ile değil GÖZLE
+#    saymıştım. Muafiyet oraya da uygulanıyor ve doğrusu bu: kasten boş
+#    bırakılmış bir çöl cebi, bir sancağın sınırı içinde de yutulmamalı.
+# ⚠️ "Hiçbiri atlanmadı" satırı da BASILIR. Boş kovayı basmamak, muafiyetin
+# hiç çalışmadığı hâl ile hiç gerekmediği hâli birbirinden ayırt edilemez
+# kılardı — `§11`in "ölçülemedi ≠ temiz" kuralının bu fonksiyondaki yüzü.
+if _KB_MUAF:
+    print(f"  delik doldurma muafiyeti: {len(_KB_MUAF)} kasıtlı boşluk noktası, "
+          f"{sum(_KB_MUAF.values())} halka DOLDURULMADI")
+    for _mad, _mn in sorted(_KB_MUAF.items(), key=lambda x: (-x[1], x[0])):
+        print(f"     {_mad:<34} {_mn} halka")
+    print("     ⚠️ BEKLENEN 0 İDİ — yeni bir kasıtlı boşluk kuşatılmış olabilir, "
+          "İNCELE (ölçüm 11 Ağu 2026: 7 kesitin 7'sinde de 0)")
+else:
+    print("  delik doldurma muafiyeti: 0 halka atlandı "
+          "— BEKLENEN BU (ölçüldü 11 Ağu 2026, 7 kesitin 7'sinde 0)")
 
 # Petek geometrileri bir kez yazılır; dönemler yalnızca indeks tutar (21 MB → ~4 MB)
 # Petek geometrileri artık gönderilmiyor; birleşik dış gövde yeterli (boyut)

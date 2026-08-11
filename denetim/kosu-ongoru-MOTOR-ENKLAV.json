@@ -1,0 +1,158 @@
+{
+  "_ne": "MOTOR ENKLAV ÖNGÖRÜSÜ — koşu BAŞLAMADAN yazıldı (CLAUDE.md §11)",
+  "_yazan": "MOTOR ENKLAV (Opus)",
+  "_damga": "2026-08-11, koşu başlamadan önce",
+  "_degisiklik": {
+    "dosya": "arac/uret_petek.py",
+    "diff": "+83 / -3 satır",
+    "ne": "delikleri_doldur(g, muaf=True) — içinde `kasitli_bosluk` noktası bulunan interior ring DOLDURULMAZ; atlanan halka adıyla raporlanır",
+    "cagri_yeri": [":2511 bölge sınırı", ":2717 yabancı gövde", ":2820 Osmanlı gövde"],
+    "kapsam": "Şartnamenin ÜÇÜNCÜ şartının tamamlanması. (a) enklav doldurmanın kendisi motorda :744'ten beri ZATEN VARDI ve çalışıyordu — bu koşuda YENİ BİR DAVRANIŞ EKLENMİYOR, var olan davranışa bir MUAFİYET ekleniyor."
+  },
+
+  "_taban": {
+    "yayın": "r1140",
+    "petek_govde": "data/petek_govde.js · 2308 yerleşim · 5089 parça",
+    "cikti": "data/donemler.js (500 dönem) · data/devletler_harita.js (305 devlet)",
+    "kasitli_bosluk_nokta": 138,
+    "olcum_kesitleri": ["1300-06-15", "1400-06-15", "1500-06-15", "1600-06-15", "1700-06-15", "1800-06-15", "1900-06-15"],
+    "not": "Bütün öngörüler koşusuz, yayındaki geometri üzerinde ölçüldü.",
+    "_TABAN_KAYDI": {
+      "_ne": "🔴 TABAN OTURUM SIRASINDA KAYDI (C14) — kayda geçiyor",
+      "olcum_aninda": "2308 nokta · 36 girdi dosyası",
+      "teslim_aninda": "2312 nokta · 37 girdi dosyası (NOKTA HALKA-1, yerlesimler_ek23.js)",
+      "kasitli_bosluk": "138 → 138 (DEĞİŞMEDİ — muafiyetin nöbetçi kümesi aynı)",
+      "etkisi": "①-⑤ kalemlerinin SAYILARI 2308 tabanında ölçüldü. 4 yeni nokta hepsi Osmanlı kutusu dışında değilse ① ateşleyebilir; o hâlde bile mazeret değil, nöbetçi adıyla raporlar.",
+      "C13": "Geçme yolu YENİ tabanda (2312) yeniden koşuldu: 11/11 geçti.",
+      "🔴_YAN_BULGU": "yerlesimler_ek23.js GIRDI_DOSYALARI'nın SONUNA değil 26. SIRASINA eklendi ⇒ `petek_govde.js` ile `girdi.yukle()` arasındaki İNDEKS eşlemesi kırıldı. Benim testim IndexError ile GÜRÜLTÜLÜ düştü — ama bu TESADÜF: sayılar farklı olduğu için patladı. Sayı aynı kalıp sıra değişseydi SESSİZCE yanlış eşleşirdi. `petek_govde.js` başlığı 'Sıra PETEKLER ile AYNIDIR' diyor ve bu bir KOŞU İÇİ garantidir, koşular arası değil. Bunu indeksle eşleyen her alet risk altında."
+    }
+  },
+
+  "_ATTRIBUTION": {
+    "_ne": "🔴 KOŞU BENİM DEĞİŞİKLİĞİMDEN BAŞKA ŞEYLER DE TAŞIYOR. Ayrım ŞİMDİ yazıldı; koşudan sonra yazılsaydı her fark açıklanabilir hâle gelirdi (CLAUDE.md §11, RENK 2 dersi).",
+    "BENİM": [
+      "delikleri_doldur muafiyeti — beklenen etki 0 halka / 0 km²"
+    ],
+    "BENİM DEĞİL": [
+      "BİLEŞEN KİLİDİ (5e09d62, dün uygulandı, HİÇ KOŞULMADI) — beklenen 2 devir reddi / 12.108 km² (Pag 7.277 + Vardø 4.831)",
+      "NOKTA HALKA-1'in yeni noktaları (fd70752) — yeni Voronoi komşulukları, çevre peteklerde kaçınılmaz oynama",
+      "Bonga (Kaffa) 1897-01-01 → 1897-09-10 (fed143e) — kaffa gövdesinin bir kırılma günü",
+      "Pelekanon go: alanı (cfea828)",
+      "VERİ DEVLET 2 künye partileri (devletler.js) — gövde geometrisini değil künyeyi etkiler"
+    ],
+    "KURAL": "Koşuda beklenmedik bir fark çıkarsa, ÖNCE bu listeye bakılır. Benim kalemim TEMİZ BİR SIFIR olmalı; sıfır değilse mazeretim yok ve farkı BAŞKA BİR SEBEBE YIKAMAM."
+  },
+
+  "kalemler": [
+    {
+      "no": 1,
+      "ad": "MUAFİYETİN ETKİSİ — kaç halka atlanacak",
+      "beklenen": "0 halka · 0 km²",
+      "ayrıntı": "7 kesitin 7'sinde de 'bayraklı + o gün sahipsiz + varlık epoku içi' noktanın BOYANANI 0 ölçüldü (aday 122·122·122·115·77·74·23 → boyanan 0·0·0·0·0·0·0). Kasten boş bırakılan yerler DELİK değil, kıyıya ve öteki boşluklara AÇIK bölgelerdir; interior ring hiç olmuyorlar.",
+      "nerede_görünür": "koşu çıktısı: 'delik doldurma muafiyeti: 0 halka atlandı — BEKLENEN BU'",
+      "mazeret_hakkı": "YOK",
+      "mazeret_gerekçesi": "Ölçüm tam sayım, örnekleme değil (138 noktanın hepsi × 7 kesit). 0'dan farklı çıkarsa ya ölçümüm yanlıştı ya bir kasıtlı boşluk gerçekten kuşatılmış — İKİSİ DE BULGU ve ikisi de incelenir. Sayı ne olursa olsun 'olur böyle' DENMEZ.",
+      "tabana_duyarlı": true,
+      "duyarlılık_gerekçesi": "🔴 TABANA DUYARLI VE SEBEBİ NET: koşu NOKTA HALKA-1'in yeni noktalarını taşıyor. Yeni bir nokta bir çöl cebini kuşatılmış hâle getirirse muafiyet ATEŞLER ve sayı 0 olmaz. O hâlde bile mazeret DEĞİL — nöbetçi tam bunun için kondu ve adıyla raporlar."
+    },
+    {
+      "no": 2,
+      "ad": "OSMANLI ALANI — BENİM KALEMİMDEN kaç kesitte değişir",
+      "beklenen": "0 kesit · 0 km²",
+      "ayrıntı": "Muafiyet yalnız 'doldurma'yı ENGELLER, hiçbir şey EKLEMEZ ve hiçbir şey ÇIKARMAZ. 0 halka atlanacağı için Osmanlı gövdesine etkisi yapısal olarak sıfır. Ayrıca ölçüldü: yayındaki Osmanlı gövdesinde kalan KARA deliği 19-21 km², gerisi göl — yani Osmanlı'nın doldurulan bir kara deliği zaten yok denecek kadar az.",
+      "nerede_görünür": "koşu çıktısı: Osmanlı alanı kesit tablosu · çıktı kıyası",
+      "mazeret_hakkı": "YOK",
+      "mazeret_gerekçesi": "🔴 Osmanlı DEĞİŞİRSE ve sebebi benim kalemimse, muafiyet hedeflemediği bir yere dokunmuş demektir. A1 tavanında (koşu 4b) tam bu kalem çürüdü ve yayın durduruldu. ⚠️ AMA: koşu bileşen kilidini ve yeni noktaları da taşıyor. Osmanlı değişirse ÖNCE _ATTRIBUTION listesine bakılır; farkın benim olup olmadığı 'delik doldurma muafiyeti' satırından okunur — 0 halka atlandıysa fark BENİM DEĞİLDİR.",
+      "tabana_duyarlı": false,
+      "duyarlılık_gerekçesi": "Benim kalemimin etkisi 0 halka olduğu sürece tabandan bağımsız"
+    },
+    {
+      "no": 3,
+      "ad": "DEĞİŞMEZ 1 — SAHİPSİZ SAYISI",
+      "beklenen": "180 (değişmez)",
+      "ayrıntı": "Muafiyet NOKTA SAHİPLİĞİNE dokunmuyor, yalnız GÖVDE GEOMETRİSİNE. Sahipsiz nokta sayısı hiçbir şekilde etkilenemez.",
+      "nerede_görünür": "py arac/denetle.py",
+      "mazeret_hakkı": "YOK",
+      "mazeret_gerekçesi": "Bu bir ölçüm değil YAPISAL ÇIKARIM ve dar bir çıkarım: değişiklik `s`/`d`/`v` alanlarına hiç bakmıyor. 180'den saparsa sebep başka bir kalem olmalı — ama ben yine de sorulmasını istiyorum, çünkü 'yapısal olarak imkânsız' cümlesi bu depoda daha önce çürüdü.",
+      "tabana_duyarlı": true,
+      "duyarlılık_gerekçesi": "NOKTA HALKA-1 yeni nokta yazdı; 180 sayısı zaten değişmiş olabilir. Sapma varsa BENİM kalemime yıkılamaz."
+    },
+    {
+      "no": 4,
+      "ad": "KOŞU SONRASI DELİK ENVANTERİ — bandın içinde kalmalı",
+      "beklenen": "OSMANLI kara deliği ≤ 25 km² · yabancı kara deliği 9.000-15.000 km²",
+      "ayrıntı": "Yayındaki ölçüm: OSMANLI 0·6·7·21·21·20·19 km² (gerisi göl, 3.305-12.251 km²) · yabancı 10.899·10.649·10.871·10.863·11.947·10.017·13.782 km². Yabancıdaki kalıntının en büyükleri Saimaa 2.461 · IJsselmeer 1.012 · Finlandiya göl bölgesi 633 — hepsi GÖL YAKASI ARTIĞI, gerçek enklav değil.",
+      "nerede_görünür": "koşu sonrası donemler.js + devletler_harita.js üzerinde scratchpad/olc_g.py yeniden koşturulur",
+      "mazeret_hakkı": "VAR — SINIRLI",
+      "mazeret_gerekçesi": "Yeni noktalar yeni gövde kenarları üretir; bandın biraz dışına çıkması mazur. AMA Osmanlı'da 100 km²'yi aşan bir KARA deliği çıkarsa mazeret YOK: o, doldurmanın çalışmadığı anlamına gelir.",
+      "tabana_duyarlı": true,
+      "duyarlılık_gerekçesi": "Doğrudan nokta kümesine bağlı"
+    },
+    {
+      "no": 5,
+      "ad": "YENİ SAHİPSİZLİK / İÇ BOŞLUK",
+      "beklenen": "0 (bugünkü değeriyle aynı)",
+      "ayrıntı": "Muafiyet yalnız EKLEMEYİ engeller; var olan hiçbir toprağı sahipsizleştirmez. 0 halka atlanacağı için hiç tetiklenmeyecek.",
+      "nerede_görünür": "py arac/denetle.py — 'Değişmez 1b iç boşluk'",
+      "mazeret_hakkı": "YOK",
+      "mazeret_gerekçesi": "Bu kalem çürürse muafiyet, engellemesi gereken şeyi değil BAŞKA bir şeyi engelliyor demektir.",
+      "tabana_duyarlı": false
+    },
+    {
+      "no": 6,
+      "ad": "SERBEST KENAR (sahipli ↔ sahipsiz sınırı)",
+      "beklenen": "BENİM KALEMİMDEN 0 değişiklik",
+      "ayrıntı": "🔴 Bu kalem, S1 kararının (hücre düzeyi mi gövde düzeyi mi) SINAVI. Gövde düzeyinde doldurulan bir delik, `bos_bolge()`in hücre düzeyindeki görüşüyle çelişir (MIMARI.md §2.9). Muafiyet 0 halka atladığı için bugün bu çelişki DOĞMAYACAK — ama ateşlediği gün doğacak.",
+      "nerede_görünür": "donemler.js window.SERBEST havuzunun uzunluğu · dönem başına 'sb' alanı",
+      "mazeret_hakkı": "VAR",
+      "mazeret_gerekçesi": "Yeni noktalar serbest kenarı doğrudan değiştirir (her yeni dolgu noktası yeni bir sahipli↔sahipsiz sınırı üretir). Bu kalemdeki fark BÜYÜK İHTİMALLE benim değil.",
+      "tabana_duyarlı": true,
+      "kayit": "⚠️ AÇIK BORÇ, KAYDA GEÇİYOR: muafiyet bir gün ateşlerse, korunan delik gövdede boşluk olarak kalır ve `bos_bolge()` onu ZATEN sahipsiz görür — yani ikisi UYUŞUR. Ters yön (gövde doldurur, hücre sahipsiz sanar) BUGÜN DE VAR ve benim değişikliğim onu ne yaratıyor ne çözüyor. Ölçmedim."
+    },
+    {
+      "no": 7,
+      "ad": "RENK ÇAKIŞMASI (CLAUDE.md §9 — veriye dokunan her koşudan sonra)",
+      "beklenen": "BENİM KALEMİMDEN 0 yeni çakışma",
+      "ayrıntı": "Muafiyet hiçbir peteğin sahibini değiştirmiyor ⇒ yeni komşuluk üretemez.",
+      "nerede_görünür": "py arac/renk_olc.py · py arac/renk_fark.py",
+      "mazeret_hakkı": "YOK (benim kalemim için)",
+      "mazeret_gerekçesi": "Sahiplik değişmediği için komşuluk da değişemez. ⚠️ AMA koşu yeni nokta ve bileşen kilidi taşıyor; §9'un kendi uyarısı geçerli: 'hiçbir renge dokunmadan, yalnız bir dönem tarihi değişerek yeni bir çakışma doğabilir.' O çakışma benim değildir.",
+      "tabana_duyarlı": true
+    }
+  ],
+
+  "C13": {
+    "_ne": "Yeni davranış İKİ YÖNDE de sınandı — koşusuz, GERÇEK KOD üzerinde",
+    "yontem": "Fonksiyon ve yanındaki _KB_* kurulumu `arac/uret_petek.py`den **ast ile** çıkarılıp olduğu gibi exec edildi. Kendi kopyamı yazsaydım kendi kopyamı sınamış olurdum (§11: 'kendi yazdığın ayrıştırıcı, var olan bir ayrıştırıcıdan her zaman kötüdür').",
+    "gecme_yolu": {
+      "ne": "Motorun KENDİ YAZDIĞI gövdeler: muaf=True ile ESKİ davranış (muaf=False) BİREBİR aynı mı",
+      "olcum": "150.373 gövde parçası, DELİĞİ OLAN 2.446 · toplam |fark| = 0.00e+00 derece²",
+      "sonuc": "GEÇTİ — hiçbir halka atlanmadı, _KB_MUAF boş",
+      "🔴_ILK_SURUM_DUSTU": "İlk sürüm `petek_govde.js` hücrelerini `YERLER` ile İNDEKS ile eşliyordu ve taban 2308→2312 kayınca `IndexError` verdi. Düzeltme indeksi tamir etmek DEĞİL, İNDEKSE HİÇ GÜVENMEMEK oldu: geçme yolu artık kendi kendine yeten kapalı gövdeler üzerinde koşuyor.",
+      "bos_kume_sinavi": "✓ 'Sınanacak delikli gövde VAR' ayrı bir sınav olarak kondu — boş küme üzerinde geçen bir test GEÇMİŞ SAYILMAZ."
+    },
+    "atesleme": {
+      "ne": "🔴 Gerçek veride bu hâl YOK (0 halka) ⇒ SAHTE GİRDİYLE ZORLANDI",
+      "dallar": [
+        "(A) içinde KB noktası olan halka KORUNDU — alan 99 (beklenen 100−1) ✓",
+        "(A) atlama ADIYLA raporlandı — _KB_MUAF = {'Vladikavkaz': 1} ✓",
+        "(B) içinde KB noktası OLMAYAN halka DOLDU — alan 100 ✓",
+        "(B) rapor boş kaldı ✓",
+        "(C) aynı gövdede ikisi birden: KB'li korundu, öteki doldu — alan 99 ✓  (muafiyet HALKA bazlı, gövde bazlı DEĞİL)",
+        "(D) muaf=False → eski davranış, ikisi de doldu — alan 100 ✓",
+        "(D) muaf=False rapor üretmez ✓",
+        "(E) MultiPolygon gövdede de çalışıyor — alan 103 ✓"
+      ],
+      "sonuc": "GEÇTİ — toplam 11 sınavın 11'i, düşen 0 (taban 2312 üzerinde yeniden koşuldu)"
+    },
+    "sinanmayan": "🔴 AÇIKÇA: koşu içindeki RAPOR SATIRI (`if _KB_MUAF:` dalı) gerçek koşuda ateşlenmedi, çünkü gerçek veride 0 halka atlanıyor. Yalnız `else` dalı basılacak. Ateşleyen dalın METNİ sınanmadı."
+  },
+
+  "saglama": {
+    "py_compile": "TEMİZ",
+    "bozuk_bayt": "0x00 = 0 · 0x08 = 0 · 0x1b = 0 · yalnız-CR = 0",
+    "git_diff_stat": "arac/uret_petek.py | 86 +++++-- · 1 file changed, 83 insertions(+), 3 deletions(-)"
+  },
+
+  "_UYARI": "🔴 (a) EMRE'NİN GÖRDÜĞÜ HİÇBİR ŞEYİ KAPATMAZ — ÇÜNKÜ ZATEN KAPALIYDI. Emre'nin şikâyeti (b) çok yönlü takviye / çöl tavanı yuvarlağıdır ve bu koşuda YOK."
+}
