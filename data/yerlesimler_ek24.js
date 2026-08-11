@@ -27,6 +27,9 @@
 //    GORE.md`nin tezinin en somut kanıtıdır.
 //
 // KIRILMA GÜNLERİ — kronolojide ZATEN VAR olanlar seçildi (Değişmez 2s):
+//   1361-01-01  Edirne cevresinin fethi (1368 KULLANILMADI: maddesi yok,
+//                 Degismez 2 acik veriyordu - kronolojide karsiligi olan
+//                 gune cekildi, uydurulmadi)
 //   1913-05-30  Londra Antlaşması — Rumeli'nin kaybı
 //   1913-09-29  İstanbul Antlaşması — Bulgaristan ile barış
 //   1920-05-14  Batı Trakya'nın Yunanistan'a geçişi
@@ -55,7 +58,7 @@ window.YERLESIMLER_EK24 = [
   s:[{f:"1281-01-01",t:"1371-09-26",d:"bizans"},{f:"1913-05-30",t:"1920-05-14",d:"bulgaristan"},{f:"1920-05-14",t:"1923-10-29",d:"yunanistan"}],
   d:[{f:"1371-09-26",t:"1913-05-30"}], v:[] },
 
-{ ad:"Dedeağaç (Alexandroupoli)", tur:"liman", lat:40.848, lon:25.874, g:0, k:4, m:"Edirne",
+{ ad:"Dedeağaç (Alexandroupoli)", tur:"liman", lat:40.8490, lon:25.8740, g:0, k:4, m:"Edirne",
   s:[{f:"1281-01-01",t:"1371-09-26",d:"bizans"},{f:"1913-05-30",t:"1920-05-14",d:"bulgaristan"},{f:"1920-05-14",t:"1923-10-29",d:"yunanistan"}],
   d:[{f:"1371-09-26",t:"1913-05-30"}], v:[] },
 
@@ -65,20 +68,20 @@ window.YERLESIMLER_EK24 = [
   d:[{f:"1361-01-01",t:"1913-03-26"},{f:"1913-07-21",t:"1923-10-29"}], v:[] },
 
 { ad:"Kofçaz", tur:"kasaba", lat:41.936, lon:27.176, g:0, k:4, m:"Edirne",
-  s:[{f:"1281-01-01",t:"1368-01-01",d:"bizans"},{f:"1913-03-26",t:"1913-07-21",d:"bulgaristan"}],
-  d:[{f:"1368-01-01",t:"1913-03-26"},{f:"1913-07-21",t:"1923-10-29"}], v:[] },
+  s:[{f:"1281-01-01",t:"1361-01-01",d:"bizans"},{f:"1913-03-26",t:"1913-07-21",d:"bulgaristan"}],
+  d:[{f:"1361-01-01",t:"1913-03-26"},{f:"1913-07-21",t:"1923-10-29"}], v:[] },
 
 { ad:"Dereköy (Kırklareli)", tur:"kasaba", lat:41.943, lon:27.401, g:0, k:4, m:"Edirne",
-  s:[{f:"1281-01-01",t:"1368-01-01",d:"bizans"},{f:"1913-03-26",t:"1913-07-21",d:"bulgaristan"}],
-  d:[{f:"1368-01-01",t:"1913-03-26"},{f:"1913-07-21",t:"1923-10-29"}], v:[] },
+  s:[{f:"1281-01-01",t:"1361-01-01",d:"bizans"},{f:"1913-03-26",t:"1913-07-21",d:"bulgaristan"}],
+  d:[{f:"1361-01-01",t:"1913-03-26"},{f:"1913-07-21",t:"1923-10-29"}], v:[] },
 
 { ad:"Demirköy", tur:"kasaba", lat:41.822, lon:27.762, g:0, k:4, m:"Edirne",
-  s:[{f:"1281-01-01",t:"1368-01-01",d:"bizans"},{f:"1913-03-26",t:"1913-07-21",d:"bulgaristan"}],
-  d:[{f:"1368-01-01",t:"1913-03-26"},{f:"1913-07-21",t:"1923-10-29"}], v:[] },
+  s:[{f:"1281-01-01",t:"1361-01-01",d:"bizans"},{f:"1913-03-26",t:"1913-07-21",d:"bulgaristan"}],
+  d:[{f:"1361-01-01",t:"1913-03-26"},{f:"1913-07-21",t:"1923-10-29"}], v:[] },
 
-{ ad:"İğneada", tur:"liman", lat:41.878, lon:28.023, g:0, k:4, m:"Edirne",
-  s:[{f:"1281-01-01",t:"1368-01-01",d:"bizans"},{f:"1913-03-26",t:"1913-07-21",d:"bulgaristan"}],
-  d:[{f:"1368-01-01",t:"1913-03-26"},{f:"1913-07-21",t:"1923-10-29"}], v:[] },
+{ ad:"İğneada", tur:"liman", lat:41.8890, lon:28.0258, g:0, k:4, m:"Edirne",
+  s:[{f:"1281-01-01",t:"1361-01-01",d:"bizans"},{f:"1913-03-26",t:"1913-07-21",d:"bulgaristan"}],
+  d:[{f:"1361-01-01",t:"1913-03-26"},{f:"1913-07-21",t:"1923-10-29"}], v:[] },
 
 // ───────── MUTLUDERE HATTI · BULGARİSTAN YAKASI (kuzey) ─────────
 { ad:"Mustafapaşa (Svilengrad)", tur:"kasaba", lat:41.766, lon:26.207, g:0, k:4, m:"Edirne",
@@ -90,15 +93,15 @@ window.YERLESIMLER_EK24 = [
   d:[{f:"1371-01-01",t:"1913-05-30"}], v:[] },
 
 { ad:"Malko Tırnova", tur:"kasaba", lat:41.983, lon:27.525, g:0, k:4, m:"Edirne",
-  s:[{f:"1281-01-01",t:"1368-01-01",d:"bizans"},{f:"1913-09-29",t:"1923-10-29",d:"bulgaristan"}],
-  d:[{f:"1368-01-01",t:"1913-09-29"}], v:[] },
+  s:[{f:"1281-01-01",t:"1361-01-01",d:"bizans"},{f:"1913-09-29",t:"1923-10-29",d:"bulgaristan"}],
+  d:[{f:"1361-01-01",t:"1913-09-29"}], v:[] },
 
 { ad:"Ahtapolu (Ahtopol)", tur:"liman", lat:42.099, lon:27.937, g:0, k:4, m:"Edirne",
-  s:[{f:"1281-01-01",t:"1368-01-01",d:"bizans"},{f:"1913-09-29",t:"1923-10-29",d:"bulgaristan"}],
-  d:[{f:"1368-01-01",t:"1913-09-29"}], v:[] },
+  s:[{f:"1281-01-01",t:"1361-01-01",d:"bizans"},{f:"1913-09-29",t:"1923-10-29",d:"bulgaristan"}],
+  d:[{f:"1361-01-01",t:"1913-09-29"}], v:[] },
 
-{ ad:"Rezve (Rezovo)", tur:"koy", lat:41.987, lon:28.031, g:0, k:4, m:"Edirne",
-  s:[{f:"1281-01-01",t:"1368-01-01",d:"bizans"},{f:"1913-09-29",t:"1923-10-29",d:"bulgaristan"}],
-  d:[{f:"1368-01-01",t:"1913-09-29"}], v:[] },
+{ ad:"Rezve (Rezovo)", tur:"koy", lat:41.9935, lon:28.0192, g:0, k:4, m:"Edirne",
+  s:[{f:"1281-01-01",t:"1361-01-01",d:"bizans"},{f:"1913-09-29",t:"1923-10-29",d:"bulgaristan"}],
+  d:[{f:"1361-01-01",t:"1913-09-29"}], v:[] },
 
 ];
