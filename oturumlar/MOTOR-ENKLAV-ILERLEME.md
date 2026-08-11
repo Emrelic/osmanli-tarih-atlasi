@@ -233,8 +233,10 @@ kopyamı** sınamış olurdum (`§11`: *"kendi yazdığın ayrıştırıcı, var
 ayrıştırıcıdan her zaman kötüdür"*).
 
 ```
-GEÇME YOLU   781 gövde (7 kesit × 71-139 sahip) · |muaf=True − eski| = 0.00e+00
-             ⇒ bugünkü davranış BİREBİR korunuyor
+GEÇME YOLU   motorun KENDİ yazdığı 150.373 gövde parçası, DELİĞİ OLAN 2.446
+             |muaf=True − eski| = 0.00e+00  ⇒ davranış BİREBİR korunuyor
+             + ayrı sınav: "sınanacak delikli gövde VAR" (boş küme üzerinde
+               geçen test GEÇMİŞ SAYILMAZ)
 ATEŞLEME     gerçek veride 0 halka ⇒ SAHTE GİRDİYLE zorlandı
    (A) KB noktalı halka KORUNDU                 alan 99  ✓
    (A) atlama ADIYLA raporlandı  {'Vladikavkaz': 1}      ✓
@@ -247,6 +249,31 @@ ATEŞLEME     gerçek veride 0 halka ⇒ SAHTE GİRDİYLE zorlandı
 ```
 🔴 **SINANMAYAN, açıkça:** koşu içindeki `if _KB_MUAF:` **rapor dalının metni**
 gerçek koşuda ateşlenmeyecek (0 halka). Yalnız `else` dalı basılacak.
+
+### 🔴 VE `C14` ATEŞLEDİ — taban oturum ORTASINDA kaydı
+
+Testin **ilk sürümü düştü.** NOKTA HALKA-1 çalışırken `yerlesimler_ek23.js`i
+bağladı: **2308 → 2312 nokta, 36 → 37 dosya.**
+
+```
+ilk sürüm    petek_govde.js hücrelerini YERLER ile İNDEKS ile eşliyordu
+sonuç        IndexError — GÜRÜLTÜLÜ düştü
+```
+⚠️ **Ama gürültülü düşmesi TESADÜF:** sayılar farklı olduğu için patladı.
+**Sayı aynı kalıp sıra değişseydi SESSİZCE yanlış eşleşirdi** — ve
+`yerlesimler_ek23.js` listenin **sonuna değil 26. sırasına** eklendi, yani
+ondan sonraki bütün indeksler kaydı. Bu, teorik bir risk değil: **bugün oldu.**
+
+🟢 **Çare indeksi tamir etmek değil, İNDEKSE HİÇ GÜVENMEMEK oldu.** Geçme
+yolu artık motorun kendi yazdığı **kapalı gövdeler** üzerinde koşuyor
+(`donemler.js` + `devletler_harita.js`) — onlar kendi kendine yeten
+poligonlar, `YERLER` ile hiçbir eşleme gerektirmiyorlar.
+
+📌 **Ve bu bir uyarıdır:** `petek_govde.js` başlığı *"Sıra PETEKLER ile
+AYNIDIR"* diyor. Bu bir **KOŞU İÇİ** garantidir, **koşular arası değil.**
+Yayındaki geometriyi bugünkü veriyle indeksten eşleyen **her alet** risk
+altında. `kasitli_bosluk` sayısı 138 → 138 kaldı, yani muafiyetin nöbetçi
+kümesi etkilenmedi; ölçüm sayılarım 2308 tabanında geçerli.
 
 Öngörü: `denetim/kosu-ongoru-MOTOR-ENKLAV.json` — **7 kalem**, mazeretleri
 yazılı, ve **`_ATTRIBUTION` bloğu**: koşu bileşen kilidini ve NOKTA HALKA-1'in
