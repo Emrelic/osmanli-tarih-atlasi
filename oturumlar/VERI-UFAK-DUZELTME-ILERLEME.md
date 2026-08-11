@@ -91,5 +91,80 @@ sınırlı tutayım, yoksa 19 noktalık tam kümeyi mi ölçüp raporlayayım?
 
 ---
 
-## KALEM 2 — devam ediyor
+## KALEM 2 — Yuvarlak tarihler — ÖLÇÜLDÜ (3/3 sonuçlandı)
+
+Kaynak kuralı: önce TDV, yoksa akademik/güvenilir kaynak; forum/blog/tabloid
+KULLANILMADI (birkaçı denendi, elendi — aşağıda not edildi).
+
+### ① 1556 — Astarhan Hanlığı → Rusya — 🔴 BULUNAMADI, 1556-01-01 KALIR
+
+`devletler.js:2132` (`astarhan`) ve düzinelerce `yerlesimler*.js` noktası
+`t:"1556-01-01"` kullanıyor (Rusya'nın ilhakı).
+- TDV `astarhan-hanligi` ve `ejderhan-hanligi` madde gövdeleri okundu:
+  yalnız "IV. İvan, Kazan'ı 1552'de yıktıktan sonra ... sonra da hanlığı
+  işgal etmiştir" diyor — gün YOK, hatta ay bile yok.
+  (kaynak: TDV, madde: astarhan-hanligi)
+- Akademik/standart kaynak (Wikipedia "Russian conquest of the Astrakhan
+  Khanate", "Astrakhan Khanate") da gün vermiyor — yalnız "1556 baharı"
+  diyor.
+- Tek "kesin gün" iddiası (25 Eylül 1556) bir haber-tipi siteden
+  (`news-pravda.com`) geldi — Emre'nin kırmızı çizgisine göre
+  KULLANILAMAZ (kaynaksız/güvenilmez, akademik değil), üstelik başka bir
+  düşük kaliteli sitede "2 Temmuz 1556" diye ÇELİŞEN bir iddia da var —
+  ikisi birbirini doğrulamıyor.
+⇒ **Sonuç: bulunamadı.** `1556-01-01` doğru kalmalı, uydurma gün yazılmaz.
+
+### ② 1897 — Kaffa Krallığı → Habeşistan — 🟢 BULUNDU: 1897-09-10
+
+`data/yerlesimler_afrika.js:992` (Bonga/Kaffa noktası) `t:"1897-01-01"`
+kullanıyor, AMA aynı olayın devlet kaydı zaten proje içinde tam günle
+duruyor: `devletler.js:1613,1618` (`kaffa-kralligi`) —
+`t:"1897-09-10", b:"Ras Wolde Giyorgis komutasındaki Habeş ordusu son
+kral Gaki Şeroço'yu esir aldı"` (kaynak: standart akademik, künyede
+zaten kayıtlı). Yani gerçek gün ARANMADI, proje kendi içinde zaten
+BULUNMUŞTU — yalnız yerleşim noktasına hiç işlenmemiş.
+⇒ **Öneri (uygulanmadı, `yerlesimler_afrika.js` benim değil):**
+`{f:"1281-01-01",t:"1897-01-01",d:"kaffa"},{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}`
+→ iki `"1897-01-01"`nin ikisi de `"1897-09-10"` olmalı.
+
+⚠️ **Karıştırılmamalı:** `sidamo-kralliklari` (devletler.js:1631, aynı
+1897-01-01) VE bazı Somali/Ogaden noktaları da 1897 kullanıyor ama bunlar
+AYRI kayıtlar, kendi `kaynak:` alanı zaten "kesinlik düşük" diyor — bunlar
+için gerçek gün ARAMADIM, Kaffa'dan farklı bir araştırma gerektirir.
+
+### ③ 1889 — Habeşistan → İtalya (Eritre sınırı) — 🟡 BULUNDU (orta güven): 1889-05-02
+
+`data/yerlesimler_afrika.js:695`, `yerlesimler.js:937`,
+`yerlesimler_h2_afrika.js` (10 nokta) `t:"1889-01-01"` kullanıyor
+(Habeşistan'dan İtalya'ya geçiş — Eritre kıyı/yayla noktaları).
+
+Uçiali (Wuchale) Antlaşması, **2 Mayıs 1889**, İtalya'ya tam bu bölgeleri
+(Bogos, Hamasien, Akkele Guzay — bugünkü Eritre'nin çekirdeği) devretti.
+(kaynak: Britannica, "Treaty of Wichale" maddesi — TDV'de müstakil madde
+bulunamadı, `habes`/`habesistan` genel maddesi de bu ayrıntıyı vermiyor).
+⇒ **Öneri (uygulanmadı):** ilgili 10-11 noktanın `t:"1889-01-01"` →
+`"1889-05-02"`. 🟡 Orta güven diyorum çünkü her noktanın gerçekten
+antlaşmanın kapsadığı üç bölgede (Bogos/Hamasien/Akkele Guzay) olup
+olmadığını tek tek doğrulamadım — bu, yerlesimler'i elinde tutan oturumun
+işi.
+
+🔴 **EK BULGU (bekletmeden bildiriyorum):** `devletler.js:1581`'de AYNI
+antlaşma zaten kayıtlı ama tarihi **`1889-03-02`** — muhtemelen bir yazım
+hatası (05→03). Ayrıca aynı satır iki farklı olayı ("antlaşma imzalandı"
++ "Menelik tahta çıktı") TEK tarihe yıkıyor; gerçekte Uçiali 2 Mayıs
+1889'da imzalandı, Menelik'in tahta çıkışı IV. Yohannes'in ölümüyle
+(9 Mart 1889, Metemma Savaşı) başlayan AYRI bir süreç. Bu benim KALEM
+2 kapsamımın dışında (devletler.js'e KALEM 1 dışında yazamam) ama
+düzeltilmeli — koordinatöre bırakıyorum.
+
+⚠️ **Ayrıca not:** `1889-01-01` iki BAŞKA, tamamen alakasız olayda da
+kullanılıyor — `luba` (devletler.js:3262, Kongo/Katanga, "iç bölünme ile
+dağıldı" — muhtemelen GERÇEKTEN kademeli bir süreç, tek gün olmayabilir,
+araştırmadım) ve `yerlesimler_gdasya.js:104` (Malay Sultanlıkları →
+İngiliz Malaya — coğrafi olarak alakasız, araştırmadım). Görevdeki "1889"
+muhtemelen Habeşistan-İtalya'yı kastediyor (en çok tekrarlanan, 10+ nokta)
+ama emin değilim; gerekirse ikisi ayrı iş kalemi.
+
+---
+
 ## KALEM 3 — sırada
