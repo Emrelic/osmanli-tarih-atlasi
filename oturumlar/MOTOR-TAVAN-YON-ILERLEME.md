@@ -245,12 +245,239 @@ tıkacı.** Tıkaç gevşerse kaçak da gevşer; bu **kusur değil sonuç**, ama
 
 ---
 
-## DURUM
+---
+---
+
+# ADIM 2 — UYGULAMA
+
+Koordinatör onayı geldi ve ③'ü **daha iyi bir biçimde** yeniden yazdı:
+> *"Ölçüt **değişmemek** değil, **ÖNGÖRÜLEN KADAR değişmek** olmalı. VAKA 1'de
+> tehlikeli olan şey 'Osmanlı değişti' değildi — **'kimsenin ÖNGÖRMEDİĞİ bir
+> sebeple değişti'**ydi."*
+
+📌 Bu benim (a) şıkkımdan iyi: ben mazeretsizliği **gevşetiyordum**, o
+**taşıdı**. Ve tam da VAKA 1'i yakalayabilecek tek biçim bu — orada da Osmanlı
+değişmişti, ama **hesabın dışında.**
+
+---
+
+## ① `_ortak.py` DÜZELTİLDİ (koordinatör yetki açtı)
 
 ```
-✅ ADIM 1 ölçüldü — dört sorunun dördü + karar sayıları
-🟡 ADIM 1 raporu koordinatöre gönderildi, ONAY BEKLİYOR
-⛔ ADIM 2'ye onaysız GEÇİLMEYECEK
+km2()               GeometryCollection'ı açıyor, İÇ İÇE olsa bile.
+                    Niçin yanlış olduğu dosyada YAZILI.
+oku_kara()          DAVRANIŞI DEĞİŞMEDİ — `olc_delik_yayin` ve
+                    `olc_delik_kendi` için "yayında burası kara mı" DOĞRU
+                    sorudur ve doğru evren odur. Değişen yalnız BAŞLIK:
+                    niçin bir GİRDİ maskesi olmadığı yazıldı.
+oku_girdi_karasi()  🟢 YENİ — motorun gerçek girdi maskesi
+                    (`ne_10m_land` ∩ BOLGE − göller). Sabitler
+                    (`KARA_TOL`, `DOGAL_GOL`) motordan CANLI okunuyor,
+                    kopyalanmıyor. Süreç içinde önbellekli.
 ```
-`arac/uret_petek.py`ye **henüz tek satır yazılmadı** (`py_compile` temiz ·
-0x00 ve 0x08 baytı 0 · 3254 satır — değişiklik öncesi taban).
+⚠️ **Davranışı değiştirmemek bilinçli:** iki betik `oku_kara()`yı doğru
+sebeple kullanıyor. Bir aleti "yanlış" diye düzeltmek, onu doğru kullananları
+bozabilirdi. Kusur **aletin kendisinde değil, ADINDA ve BELGESİNDEYDİ.**
+
+**C13 — iki yönde:** `GEÇME 7 · ATEŞLEME 5 · KALAN 0 · çıkış kodu 0`
+Ateşleme **zorlandı**: sentetik bir `GeometryCollection` yetmez, *shapely'nin
+KENDİSİ* GC üretsin diye bir kesişim kuruldu (bir parçası örtüşen, öteki
+parçası yalnız kenardan değen iki poligon).
+
+### 🟢 VE KOORDİNATÖRÜN KORKUSU ÖLÇÜLDÜ, ÇÜRÜDÜ
+Koordinatör *"`olc_b_hazirlik` çıktısını Emre'ye rapor ettim, o sayılar
+etkilenmiş olabilir"* dedi. Eski ve yeni `km2` **aynı geometri kümesinde** yan
+yana koşturuldu:
+```
+"bugün" satırı (HUCRE doğrudan)     FARK 0 km²  · GC üreten geometri 0
+"DARALTMA" tablosu (×0,9/0,75/0,5)  FARK 0 km²  · GC üreten kesişim 0
+"TAVANA BAĞLI 75"                   `boundary.distance` — km2'ye HİÇ dokunmuyor
+```
+⇒ **Etkilenmemiş.** Sebebi tutarlı: kusur ancak çokgen **büyürken** ateşliyor;
+`olc_b_hazirlik` yalnız **daraltma** ölçüyordu.
+
+🔴 **AMA O SAYILAR BAŞKA BİR SEBEPTEN BAYAT:** `petek_govde.js` 2345 gövde,
+veri 2356 nokta ⇒ indeks eşlemesi geçersiz. Aynı kutu bugün 6.489.793 →
+**5.859.584** km² (−%9,7), bağlı 75 → **54** (−%28) veriyor. Bu `km2` kusuru
+değil, `OKU-BENI §③`ün uyardığı **indeks kayması** — orada 4 nokta %13,5/%20
+sapma vermişti, burada 11 nokta.
+⇒ Emre'ye düzeltme **gerekmiyor** (sayılar üretildiklerinde doğruydu); ama
+**bir sonraki koşuya kadar yenilenemezler.**
+
+---
+
+## ②′ NİHAİ TASARIM: **(d) ALAN KORUYAN ANİZOTROPİ** — ve gevşetme ÇÜRÜDÜ
+
+Koordinatör benim üç şıkkımın hiçbirini seçmedi, **dördüncüsünü** koydu ve
+kararını değiştiren şey benim kendi uyarımdı (*"kazanç Sahra ve Libya iç
+çölünde, tavan tam da oraya konmuştu"*). Teşhisi:
+```
+Emre ne dedi   "pergelle çizilmiş gibi YUVARLAK"   → ŞEKİL kusuru
+gevşetme       alanı büyütür                       → BOYUT değişimi
+⇒ YANLIŞ EKSENDE ÇARE
+```
+
+🔴 **VE ÖLÇÜM BUNU DOĞRULADI — gevşetmenin bedeli var, kazancı yok** (2362 taban):
+```
+k_üst   kopuk çift %          en büyük petek     Osmanlı      toplam
+        Sahra/Himalaya/Yuan
+1,0        11 / 11 / 18          245.514 km²          +0       +0,00%
+1,5         8 /  8 / 16          375.863 km²    +225.274       +5,23%
+2,0         8 /  8 / 16          539.518 km²    +272.170       +7,37%
+```
+Boşluğu neredeyse hiç kapatmıyor (%18 → %16), ama en büyük peteği
+`banda-adalari`nın **573.188 km²**'sine doğru taşıyor.
+📌 Ve kendi cümlem bunu zaten söylüyordu: **daha büyük bir çember, çember
+olmaktan çıkmaz.** Ölçüm o cümleyi sayıya çevirdi.
+
+### 🔴 DİSK-ALANI NORMALİZASYONUNU KULLANMADIM — ve sebebi ölçülebilir
+
+Koordinatörün yazdığı `∮r(θ)²dθ/2 = πR²` **diskin** alanını korur. Ama
+boyanan alan `hücre ∩ tavan`dır, ve şekil tam da tavanın **BAĞLADIĞI** yöne
+(hücrenin büyük olduğu yön) uzanıp **bağlamadığı** yöne (hücrenin zaten küçük
+olduğu yön) çekilir ⇒ **kesişim sistematik olarak BÜYÜR.**
+⇒ Disk-normalizasyonu *"alan korundu"* raporlar ve boyanan alan artar; yani
+mazeretsiz ①'i **sessizce** ihlal ederdi.
+
+**Yerine: λ, peteğin KENDİSİ üzerinde çözülüyor** (ikiye bölme, 24 adım):
+```
+alan(hücre ∩ çokgen(λ·w))  =  alan(hücre ∩ daire(R))
+w_s = d_s/2  (o sektörün en yakın Voronoi komşusu) · boş sektörde AÇISAL ara değer
+şekil oranı sınırı ×1,75 (dar mızrak çıkmasın) · 16 sektör · 128 köşe
+```
+🟢 Böylece ① bir umut değil **hesabın kendisi**, ve **nokta başına** sağlanıyor.
+
+🟢 **Bedava kazanç:** tavan **bağlamayan** noktada fonksiyon daireyi **aynen**
+döndürüyor ⇒ ~1970 noktada çıktı bugünkünün **birebir aynısı**, tek bit
+değişmiyor. Değişen yalnız tavanın gerçekten kestiği yerler.
+
+🟢 **Motorun içine nöbetçi kondu:** her koşuda alan koruma sapmasının medyanı
+ve azamîsi basılıyor; %1'i aşarsa `✗`. *"Korudum" demek yetmez, ÖLÇÜLÜR.*
+
+---
+
+## ② İLK BİÇİM (GEVŞETME) — ve niçin bırakıldı
+
+🔴 **ADIM 1'de ölçtüğüm biçim komşusuz sektöre `k·r` veriyordu — yani BOŞLUĞA
+DOĞRU büyütüyordu.** Sayıları iyi görünüyordu (Sahra sahipsiz alanı %69'a
+iniyordu) ve tam da bu yüzden tehlikeliydi:
+```
+🔴 boşluğa doğru büyümek = tavanın VAR OLUŞ SEBEBİNİ geri getirmek
+   (`banda-adalari` 573.188 km² — kendi yüzölçümünün ~3.200 katı)
+🔴 ve Emre'nin şikâyetini ÇÖZMEZ: daha büyük bir çember, çember olmaktan çıkmaz
+```
+
+**Motora giren düzeltilmiş biçim:**
+```
+r(θ) = min(k_üst·r , max(r , d(θ)/2))     o sektörde VORONOİ KOMŞUSU varsa
+r(θ) = r                                   komşu YOKSA — uzama yok
+d(θ) = o sektördeki en yakın Voronoi komşusunun uzaklığı · 16 sektör · 128 köşe
+```
+📌 **Ve bu, Emre'nin ikinci sezgisinin ta kendisi** (`ETKI-ALANI §②`): *iki
+merkez BİRLİKTE, tek merkezin tek başına tutamayacağı yeri tutar.* **Tek
+başına kalan merkez tutamaz.** Büyüme bir ödül değil, bir **buluşma**.
+
+**Niçin `d/2`:** komşu `d` km ötedeyse Voronoi sınırı zaten tam ortadan geçer.
+Tavanı o yönde `d/2`ye çıkarmak *"tavan bu yönde hiç bağlamasın"* demektir —
+sınırı bölüşüm belirler, pergel değil. Aradaki sahipsiz şerit **kapanır**.
+
+**Niçin komşuluk = Voronoi komşuluğu, "en yakın N nokta" değil:** bir nokta
+bana yakın olsa bile araya başka bir hücre giriyorsa **benim sınırımı o
+çizmez.** Tavanın soracağı soru *"bu yönde sınırımı kim çiziyor"* — cevabı
+Voronoi komşuluğudur.
+
+### C13 — İKİ YÖNDE, GERÇEK KOD ÜZERİNDE
+Test kodu kopyalamıyor: `_tavan_daire` · `_tavan_cokgen` ve dört sabit
+`uret_petek.py`den **`ast` ile çıkarılıp** sahte bir evrende koşturuluyor.
+(Kopya yazsaydım motor değişince test **sessizce** bayatlardı.)
+```
+GEÇME    5/5  k_üst=1,0 → çıktı `_tavan_daire` ile BİREBİR (equals_exact 1e-12)
+              dört ayrı evrende: komşusuz · yakın · uzak · sekiz komşu
+              🟢 YAPISAL: fonksiyon, hiçbir yönde uzama yoksa `_tavan_daire`in
+                 KENDİSİNİ döndürüyor — yaklaşık değil, aynı nesne
+ATEŞLEME 9/9  komşusuz nokta HİÇ uzamıyor (izotropun kendisi) ·
+              komşulu yönde 280 → 420 · komşusuz yönde 280 (uzamıyor) ·
+              yakın komşuya uzama yok (d/2 < r) ·
+              orta komşuda tam d/2'de (353 km) buluşuyor ·
+              iki tavan artık DEĞİYOR (706 km = aralığın kendisi) ·
+              6 evrende KÜÇÜLEN 0 (yeni ⊇ eski) · üst kat aşılmıyor
+ÇIKIŞ KODU 0
+```
+⚠️ **Geçme yolu ZORLANDI:** `TAVAN_UST_KAT` gerçek veride 1,0 değil, o yüzden
+sabit geçici olarak 1,0'a çekilerek sınandı — `C13`ün *"zorlanamayan dal,
+denetimsiz daldır"* kuralı.
+
+---
+
+---
+
+## ③ ÖNGÖRÜ — `denetim/kosu-ongoru-MOTOR-TAVAN-YON.json`
+
+Sekiz kalem, **beşi mazeretsiz**, dört kalem açıkça `ölçmedim`.
+
+```
+①  OSMANLI/tâbi alan     7.545.554 → 7.546.840 km²   Δ = +0,017 %   ✓  MAZERET YOK
+②  kasıtlı boşluk        boyanan 0 olmalı                           MAZERET YOK
+③  şekil verilen petek   398 · daire AYNEN 1964 · çözülemedi 0
+④  alan koruma sapması   medyan %0,0000 · azamî %0,0001             MAZERET YOK
+⑤  🔴 DEĞMEYEN TAVAN     Sahra 26,8→29,3 · Him 23,9→31,3 · Yuan 27,3→32,1
+⑥  en büyük petek        245.514 → 246.857 km²  (nöbetçi 573.188)   MAZERET YOK
+⑦  toplam boyanan alan   57.785.787 → 57.803.160 km²  Δ = +0,030 %
+⑧  denetle.py            sahipsiz 180 · iç boşluk 0 · Değişmez 2 = 0 MAZERET YOK
+```
+
+### 🔴 ⑤ ÖNGÖRÜNÜN ÇÜRÜTTÜĞÜ ŞEY — VE BUNU SAKLAMIYORUM
+
+Kopuk adacık oranı **kapanmadı, ARTTI.** Sebebi tasarımın kendisi: alan koruyan
+şekil, komşusu **yakın** olan yöne (tavanların zaten değdiği yön) **çekilir**,
+komşusu **uzak** olan yöne (zaten değmediği yön) uzanır ⇒ değme oranı düşer.
+
+⇒ ***(d) ÇEMBERİ çözer, BOŞLUĞU çözmez — hatta biraz kötüleştirir.***
+Koordinatörün ayrımı doğruydu ve sayı onu doğruladı:
+```
+ÇEMBER = ŞEKİL sorunu   → (d) çözer, bedeli YOK
+BOŞLUK = BOYUT sorunu   → (d) çözmez; çözmek alan büyütmek ister
+```
+📌 Ve bu, üç biçimin **üçünün de** aynı şeyi söylemesidir: ilk biçim boşluğa
+büyüttü (yanlış), ikinci biçim komşuya büyüttü (%18→%16, kazanç yok, bedel
+büyük), üçüncü biçim alanı korudu (çember gitti, boşluk kaldı). **Boşluk bir
+tavan sorunu değil.** Çaresi `ETKI-ALANI-MATEMATIGI` kademesi **C**'de
+(maliyet yüzeyi) ya da **D**'de (eşik) — ikisi de yükseklik verisi bekliyor.
+
+⚠️ **Ve boşluğun bir kısmı KUSUR DEĞİL:** Turfan↔Şigatse arasındaki 962 km'ye
+ne Turfan ne Şigatse hükmediyordu. Harita *"burası kimsenin değildi"*
+diyebilmeli. Koordinatörün talimatı: **ölç, kapatmaya çalışma.** Ölçüldü,
+kapatılmadı.
+
+---
+
+## DURUM — TESLİM
+
+```
+✅ ADIM 1 ölçüldü ve raporlandı · koordinatör onayladı
+✅ `_ortak.py` iki kusuru düzeltildi · C13 GEÇME 7 · ATEŞLEME 5 · çıkış 0
+✅ ADIM 2: (d) ALAN KORUYAN ANİZOTROPİ uygulandı
+✅ C13 (tavan) GEÇME 3 · ATEŞLEME 9 · çıkış 0
+✅ öngörü KOŞUDAN ÖNCE yazıldı · 8 kalem · 5'i mazeretsiz · 4 `ölçmedim`
+✅ py_compile temiz · 0x00 = 0 · 0x08 = 0
+⛔ KOŞUYU BEN BAŞLATMADIM
+```
+
+```
+arac/uret_petek.py            +238 / −2
+arac/olc_enklav/_ortak.py     +124 / −12
+denetim/kosu-ongoru-MOTOR-TAVAN-YON.json   yeni
+oturumlar/MOTOR-TAVAN-YON-ILERLEME.md      bu dosya
+```
+
+### ⚠️ KOŞUYU BAŞLATANIN BİLMESİ GEREKENLER
+
+1. **Koşu ~2-5 dk uzayabilir** — bağlayan ~398 peteğin λ'sı ikiye bölmeyle
+   çözülüyor. **Bu bir kestirim, ÖLÇMEDİM.**
+2. Motor iki yeni satır basıyor: `ALAN KORUYAN anizotropi: … şekil verildi`
+   ve `alan koruma sapması: medyan … azamî …`. **İkincisi bir NÖBETÇİ** —
+   `✗` basarsa öngörü ④ çürümüş demektir.
+3. `renk_olc.py` **şart**: petek geometrisi 398 noktada değişti ⇒ komşuluk
+   değişti ⇒ `CLAUDE.md §9` gereği yeni renk çakışması doğabilir.
+4. `olc_b_hazirlik.py` koşudan **sonra** koşturulmalı — bugün hizalama
+   nöbetçisi durdurdu (petek_govde 2345 ↔ veri 2362).
