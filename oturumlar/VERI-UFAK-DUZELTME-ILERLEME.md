@@ -167,4 +167,41 @@ ama emin değilim; gerekirse ikisi ayrı iş kalemi.
 
 ---
 
-## KALEM 3 — sırada
+## KALEM 3 — Anlatım boşluğu (5 madde metni) — TAMAMLANDI, 3/5 DÜZENLENDİ
+
+Beş maddenin ikisi zaten mükemmel yazılmıştı, üçüne netleştirici cümle
+eklendi. Yalnız `d:` (anlatım) alanına dokunuldu; `t:`, `gun:`,
+`statu_dogrudan:`, `kaynak:` hiçbiri değişmedi. Syntax `node -e eval`
+ile doğrulandı (`data/olaylar_ek5.js` temiz parse ediyor, 420 madde).
+
+| madde | dosya | durum |
+|---|---|---|
+| Hotin 1713-06-24 | `data/olaylar_ek10.js:297-303` | ✅ zaten mükemmeldi, DOKUNULMADI — kendi metni zaten "bir çizim hatası değildir" diyor ve Bucak/Akkirman'a çapraz referans veriyor |
+| Akkirman 1484-08-04 | `data/olaylar_ek10.js:147-154` | ✅ zaten mükemmeldi, DOKUNULMADI — "Haritada arada boş bir bölge yoktur" cümlesi zaten var |
+| Bucak-Bender 1538-09-01 | `data/olaylar_ek5.js` | 🟢 DÜZENLENDİ — netleştirici cümle eklendi |
+| Yanova 1658-08-27 | `data/olaylar_ek5.js` | 🟢 DÜZENLENDİ — netleştirici cümle eklendi |
+| Varad 1660-08-27 | `data/olaylar_ek5.js` | 🟢 DÜZENLENDİ — netleştirici cümle eklendi |
+
+Eklenen cümlelerin ortak deseni: "toprak yabancı bir devletten alınmadı,
+zaten tâbi [Boğdan/Erdel] toprağıydı ve harita bunu tâbi renkte
+gösteriyordu — bu olay yalnızca [bu yerin] idaresini tâbi
+voyvodalık/prenslikten alıp doğrudan padişaha bağladı." Hotin'in kendi
+metnindeki desenle birebir aynı dile getirildi (üç madde birbirine
+çapraz referans veriyor artık: Bucak→Kili/Akkirman/Hotin, Varad→Yanova).
+
+⚠️ **`data/olaylar_ek5.js` HENÜZ COMMIT EDİLMEDİ.** `CLAUDE.md §7`
+gereği yalnız `oturumlar/` altındaki kendi dosyamı commit edebiliyorum;
+veri dosyası çalışma kopyasında bekliyor, Oturum 0'ın gözden geçirip
+commit etmesi gerekiyor (`git diff -- data/olaylar_ek5.js`, 3 satır
+değişti).
+
+---
+
+## ÖZET — üçü de sonuçlandı
+
+```
+KALEM 1   ölçüldü (6+13=19 nokta), UYGULANMADI — yeni devlet kimliği gerekiyor
+KALEM 2   3/3 araştırıldı — 1 bulundu-hazır (1897→09-10), 1 bulundu-orta güven
+          (1889→05-02), 1 bulunamadı (1556 kalır)
+KALEM 3   5/5 — 2 zaten temizdi, 3'ü düzenlendi, commit BEKLİYOR
+```
