@@ -6,10 +6,22 @@
 
 ## ⓪ HÜKÜM — tek satır
 
+> 🔴 **BU HÜKÜM DÖRDÜNCÜ TURDA DEĞİŞTİ. Aşağıdaki kutu ilk turun hükmüdür;
+> geçerli hüküm §⑤d'dedir.** Kutu silinmedi çünkü *neyin* değiştiğini
+> göstermek, yeni hükmün kendisi kadar değerli.
+
 ```
-MENZİL HİPOTEZİ: KISMEN TUTTU
+İLK TUR (çürüdü):  MENZİL HİPOTEZİ: KISMEN TUTTU
   birim ayağı  TUTTU   — TDV mesafeyi km değil SAAT ve MENZİL SAYISI ile veriyor
   güzergâh ayağı ÇÜRÜDÜ — TDV hazır bir kol/düğüm listesi VERMİYOR
+```
+```
+DÖRDÜNCÜ TUR (geçerli):  MENZİL HİPOTEZİ: TAM TUTTU
+  birim ayağı    TUTTU — ve beklenenden GÜÇLÜ: kaynak SAAT cinsinden
+                         DÜĞÜM-DÜĞÜM kenar ağırlığı veriyor
+  güzergâh ayağı TUTTU — ALTI KOLUN TAMAMI durak durak yayımlanmış
+  düzeltme       hata TDV'de değil BENDEYDİ: yanlış yerde aradım.
+                 TDV kurumu anlatır, GÜZERGÂHI hakemli literatür verir.
 ```
 
 ⚠️ Aşağıda **ölçtüğüm** ile **çıkardığım** ayrı satırlarda. Karıştırma.
@@ -378,6 +390,125 @@ farkının modeldeki karşılığı bu olabilir. **Açmadım, ölçmedim.**
 Hindistan · Afrika içleri · İran'a MÜSTAKİL bir ağ kümesi
 ```
 ⚠️ Bu *"yok"* demek **değil** — *"iki aramada çıkmadı"* demek.
+
+---
+
+## ⑤d DÖRDÜNCÜ TUR — 🔴 HÜKÜM DEĞİŞTİ, HİPOTEZ **TAM TUTTU**
+
+Açık kalan en değerli İŞ 1 sorusu şuydu: *TDV kol listesini vermiyor —
+peki **akademik literatür** veriyor mu?* Cevap: **EVET, tamamını.**
+
+### KAYNAK — hakemli, birincil arşive dayalı
+```
+İzzet SAK – Cemal ÇETİN, "XVII. ve XVIII. YÜZYILLARDA OSMANLI
+DEVLETİ'NDE MENZİLLER VE FONKSİYONLARI: AKŞEHİR MENZİLLERİ ÖRNEĞİ"
+DergiPark · article-file/258113 · 43 sayfa · gövdesi OKUNDU (pypdf)
+Arşiv dayanağı: Konya Şer'iye Sicili · Mühimme defterleri
+⚠️ Dergi ADI çıkarılan başlıkta yoktu — künyenin o kısmını OKUMADIM.
+```
+
+### 🔴🔴 ALTI KOLUN TAMAMI, DURAK DURAK (bitiş ölçütü ②)
+
+**ANADOLU**
+```
+SAĞ KOL   Üsküdar–Gebze–Eskişehir–Akşehir–Konya–Adana–Antakya
+          → Halep → Şam → Mekke, Medine                        11 durak
+ORTA KOL  Üsküdar–Gebze–İznik–Bolu–Tosya–Merzifon–Tokat–Sivas–
+          Hasan Çelebi–Malatya–Harput–Diyarbakır–Nusaybin–
+          Musul–Kerkük                                          15 durak
+SOL KOL   Merzifon'a kadar ORTA KOLLA AYNI, sonra Lâdik–Niksar–
+          Karahisar-ı Şarkî–Kelkit–Aşkale–Erzurum–Hasankale
+          ⇒ oradan İKİYE AYRILIR: bir kol Kars, bir kol Tebriz   7 + çatal
+```
+**RUMELİ**
+```
+SAĞ KOL   İstanbul–Vize–Kırklareli–Prevadi–Karasu–Babadağı–
+          İshakçı–Akkirman → Özi, Kırım                          10 durak
+ORTA KOL  İstanbul–Silivri–Edirne–Filibe–Sofya–Niş–Yagodina
+          → Belgrad                                               8 durak
+SOL KOL   = Romalıların **VIA EGNATIA**'sı
+          İstanbul–Tekirdağ–Malkara–Firecik–Dimetoka–Gümülcine–
+          Pravişte–Lanzaka–Yenişehir–İzdin → İstefe               11 durak
+```
+```
+TOPLAM  62 adlı durak · 6 kol · 2 kanat · 1 çatal (Kars / Tebriz)
+```
+
+🟢 **Ve `sol kol` üzerine müstakil bir bilimsel kitap var:**
+*Sol Kol: Osmanlı Egemenliğinde Via Egnatia (1380-1699)*, ed. **Elizabeth
+A. Zachariadou**, çev. Özden Arıkan – Ela Güntekin.
+📌 Tek bir kol, tek bir kitap. ⇒ Bu ağın literatürü **derin.**
+
+### 🔴🔴 AĞIRLIK SAAT CİNSİNDEN, VE DÜĞÜM-DÜĞÜM VERİLİYOR
+
+Hipotezin kalbi buydu ve **beklenenden güçlü** çıktı. Makale, arşiv
+belgesinden **tek tek kenar ağırlıkları** aktarıyor:
+```
+menzilhâneler arası GENEL       6 – 12 saat
+seyrek yerleşimli bölgelerde    24 saate kadar
+Akşehir → İshaklı (batı komşu)   5 saat
+Akşehir → Ilgın   (doğu komşu)   9 saat
+Akşehir → Beyşehir              12 saat
+Ilgın   → Konya                 18 saat
+Akşehir → İSTANBUL              85 saat   ← BİRİKMİŞ maliyet
+```
+🔴 Son satır kritik: **85 saat bir kenar değil, bir YOL TOPLAMI** — yani
+kaynak zaten *"merkeze uzaklık"* denen şeyi **hesaplanmış** olarak veriyor.
+Dijkstra'nın çıktısı, 18. yüzyılda arşivde **yazılı duruyor.**
+
+🟢 **Ve `saat` birimi ARIZAYI ZATEN İÇİNDE TAŞIYOR:** aynı km, dağda daha
+çok saat eder. ⇒ `⑤b`de Viabundus'un *"eğim ve yükseklik hesaba
+katılmadı"* diye eksik bıraktığı şeyi, **Osmanlı kaynağı ölçmüş olarak
+veriyor.** Viabundus km'den saat TÜRETİYOR; menzil kaydı saati **doğrudan
+söylüyor**.
+📌 ⇒ Bu, hipotezin *"yükseklik verisi olmadan da olur"*undan **daha
+iyisidir**: yükseklik verisi olsa bile bu kayıt ondan üstündür, çünkü
+gerçek yolun gerçek süresini verir — modellenmiş değil, **ölçülmüş.**
+
+### 🔴 ÜÇ AYRI MENZİL SINIFI — ağ TEK KATMAN DEĞİL
+```
+haberleşme menzili   ulak/posta                 ana yol üzerinde
+askerî menzil        ordu sevkiyatı             sayısı haberleşmenin
+                                                 ~İKİ KATI
+hac menzili          surre + hacı kafilesi      yalnız Anadolu SAĞ KOL
+```
+Ve **yönetimleri farklı**: askerî menzillerin yerini **merkezî idare**
+belirliyor, hac menzillerininkine **karışmıyor.**
+📌 ⇒ Kenarlar aynı, **düğüm kümeleri farklı ve iç içe.** Şemada bu bir
+`katman:` ekseni demek — ama tasarım **İŞ 3'ün işi**, ben yalnız kısıtı
+kaydediyorum.
+
+### 🔴🔴 KAYNAKLAR ÇELİŞİYOR — KARARI BEN VERMİYORUM (`§7.1 ⑥`)
+
+```
+TDV `sofya` maddesi   "Balkanlar'da ana yol (SAĞ KOL) üzerinde yer alan Sofya"
+Sak – Çetin           Sofya RUMELİ ORTA KOLU üzerinde
+                      (İstanbul-Silivri-Edirne-Filibe-SOFYA-Niş-Yagodina-Belgrad)
+                      ve Rumeli SAĞ KOLU Karadeniz kıyısı
+                      (Vize-Kırklareli-Prevadi-Babadağı-Akkirman-Özi-Kırım)
+```
+⇒ **İki hakemli kaynak, aynı şehri farklı kola koyuyor.** Rumeli'de kol
+adlandırması **standart değil.**
+⚠️ `CLAUDE.md §4` TDV'yi birincil sayar ⇒ kural TDV'yi seçtirir. Ama bu
+**benim vereceğim karar değil** (`§7.1 ⑥`: *kaynaklar çelişiyorsa hangisini
+seçeceğine sen karar verme*). **Koordinatöre bildirildi.**
+📌 Ve pratik sonucu şu: `kol:` alanı veriye yazılacaksa yanına **hangi
+tasnife göre** olduğu da yazılmalı — yoksa iki oturum iki farklı
+konvansiyonla yazar ve kimse farkı göremez.
+
+### 🔴 VE BU TUR BENİM ÜÇÜNCÜ HATAMI DÜZELTTİ
+```
+ilk turda yazdığım   "TDV hazır bir kol/düğüm listesi VERMİYOR
+                      ⇒ ağ ÖRÜLÜR, ALINMAZ"
+ölçüm                 doğru — ama ÇIKARIM yanlıştı
+gerçek                TDV kurumu anlatır (Halaçoğlu maddesi), GÜZERGÂHI
+                      hakemli literatür verir. İkisi ÇELİŞMİYOR,
+                      İŞ BÖLÜMÜ yapıyor. Ben yalnız TDV'ye baktım.
+```
+📌 `CLAUDE.md §11`'in *"ölçüm doğru, çıkarım yanlış"* sınıfının bu
+oturumdaki **üçüncü** vakası — ve üçünde de hatayı ölçüm değil, **ölçümün
+evreni** doğurdu. Aynı ders `§4`ün *"dar slug tutmazsa GENEL maddeyi dene"*
+kuralının kaynak-kümesi tarafı: **dar kaynak tutmazsa geniş kaynağa bak.**
 
 ### HÜKÜM — kova ③ için
 **ÖLÇTÜĞÜM:** Avrupa ve Akdeniz için olgun, indirilebilir, hakemli veri
