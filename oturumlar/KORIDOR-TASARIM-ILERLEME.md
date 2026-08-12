@@ -287,6 +287,112 @@ projede, bağımsız olarak gerçekleşmiş hâli. Bizim `kasitli_bosluk`
 🟢 ⇒ **Uyarlarken bu kusuru kopyalamayalım:** `④ ZAMAN AYAĞI` kenarlara
 `f`/`t` olarak **alan** verilmeli, yoruma değil.
 
+---
+
+## ⑤c ÜÇÜNCÜ TUR — Emre yine *"devam"* dedi
+
+Briefing İŞ 3/4/5'i perşembeye bırakıyor. Buradaki iş **İŞ 1'in içinde
+kalan**, kendi elimle *"ölçmedim"* diye yazdığım boşluklar.
+
+### 🔴 KENDİ METODOLOJİK KUSURUMU DÜZELTTİM — örneklem 12 → 46
+
+İlk turda 12 şehir taradım ve **hepsi Anadolu'daydı.** `CLAUDE.md §11`:
+*"temiz çıkan bir örneklem, örneklemin dışını temiz ilan etmez."* Rumeli'nin
+üç kolu ve Anadolu'nun kalan durakları eklendi — **34 şehir daha.**
+
+```
+İSABET   2 / 34   ama biri SAHTE  ⇒  gerçek 1 / 34
+TOPLAM   2 / 46 = %4,3            ⇒  ilk turdaki %8,3 YARIYA DÜŞTÜ
+```
+
+**Gerçek isabetler:**
+```
+sofya   "Balkanlar'da ana yol (SAĞ KOL) üzerinde yer alan Sofya…"     RUMELİ
+bolu    "Osmanlı yol sisteminin SOL KOLU üzerinde bulunması…"         ANADOLU
+```
+
+**🔴 SAHTE isabet — `kol` kelimesinin ÜÇÜNCÜ anlamı:**
+```
+eregli  "…fetih faaliyetleri sırasında SAĞ VE SOL KOLLARA yönelik…"
+        ⇒ ORDU KANADI. Yol kolu DEĞİL.
+```
+Artık üç ayrı `kol` var ve üçü de aynı sorguya düşüyor:
+```
+① yol kolu       sağ/orta/sol      ← aradığımız
+② tasavvuf kolu  halidiyye · kadiriyye · tarikat   (ilk turda çıkmıştı)
+③ ordu kanadı    "sağ ve sol kollara yönelik"      ← YENİ
+```
+📌 ⇒ *"kol"* sorgusu **tek başına kullanılamaz**; bağlam okunmadan sayılan
+her isabet şişkindir.
+
+### 🟢 VE YAPISAL BİR BULGU ÇIKTI — KOL ADI BÖLGESELDİR
+`sofya` **sağ kol** diyor, `bolu` **sol kol** diyor. İkisi de doğru, çünkü
+**Rumeli'nin kendi üç kolu, Anadolu'nun kendi üç kolu var.**
+⇒ `sağ/orta/sol` **küresel bir etiket değil**, bir **kanada göre yön.**
+🔴 Şemaya etkisi: kenar özniteliği olarak `kol:"sag"` yazmak **eksik** olur;
+`kanat:"rumeli" + kol:"sag"` gerekir. (Tasarım değil **kısıt tespiti** —
+İŞ 3'e not.)
+
+### ⚠️ VE İLK RAPORUMDAKİ KESTİRİMİ DÜZELTİYORUM
+```
+yazdığım    2362 × %8,3 ≈ 190 nokta için kol bilgisi umulabilir
+düzeltme    2362 × %4,3 ≈ 100 nokta
+```
+Örneklem iki katına çıkınca oran yarıya düştü ⇒ **oran daha da düşebilir.**
+Bu hâlâ bir **kestirim**, ölçüm değil.
+
+### KOVA ③ — hiç bakmadığım coğrafyalar (İŞ 1'in son açık ayağı)
+
+**🟢 ÖLÇÜLDÜ (birincil sayfa okundu):**
+```
+Itiner-e   itinere.iec.cat · GeoJSON · lisans CC BY-NC 4.0
+           🔴 TİCARÎ KULLANIM YASAK — Viabundus (BY-SA) ve
+              ORBIS'ten FARKLI. Bizim için muhtemelen sorun değil
+              ama şart: atıf + gayriticarî.
+```
+🔴 **VE BİR BELGE BAYATLAMASI YAKALADIM:**
+```
+ana sayfa (itinere.iec.cat)  "İberya yarımadası · proof-of-concept ·
+                              tüm imparatorluğa genişletmek PLANLANIYOR"
+2025 yayını (arama sonucu)   "14.769 yol parçası · 14 bağlı bileşen ·
+                              Britanya · Asya-Kuzey Afrika dâhil"
+```
+⇒ Proje **ana sayfasını güncellememiş.** Hangisi doğru — **ÇÖZMEDİM.**
+İkisini de olduğu gibi yazıyorum. 📌 `CLAUDE.md §1.5`'in *"bir kez
+bayatlayan belge"* dersinin **başka bir projede** görülmüş hâli.
+
+**🟡 BULUNDU AMA AÇMADIM — bunlar LEAD, kaynak DEĞİL:**
+| küme | iddia edilen | durum |
+|---|---|---|
+| DARMC (Harvard) | 7.154 Roma yol parçası · shapefile · *"Roman **and medieval**"* | açmadım |
+| Cassini / Fransa | 18. yy Fransa yol ağı · **Nature Scientific Data** hakemli veri makalesi | açmadım |
+| trimodal küme | **2.599 düğüm · 4.503 YÖNLÜ parça** · kara+deniz+nehir · ORBIS+Pleiades | açmadım |
+| SRHGIS · OWTRAD · Moğol-Yuan (673 yer / 64 güzergâh) · Historical Atlas of Eurasia · Digital Silk Roads | İpek Yolu | açmadım |
+
+🔴 **Üçüncü satır bizim açık sorumuza doğrudan bakıyor:** *"4.503 **YÖNLÜ**
+parça"* — yani gidiş ve dönüş **ayrı kenar.** Surre alayının 54↔59 konak
+farkının modeldeki karşılığı bu olabilir. **Açmadım, ölçmedim.**
+
+**🔴 HİÇBİR ŞEY ÇIKMADI:**
+```
+Hindistan · Afrika içleri · İran'a MÜSTAKİL bir ağ kümesi
+```
+⚠️ Bu *"yok"* demek **değil** — *"iki aramada çıkmadı"* demek.
+
+### HÜKÜM — kova ③ için
+**ÖLÇTÜĞÜM:** Avrupa ve Akdeniz için olgun, indirilebilir, hakemli veri
+kümeleri **var** (Viabundus · ORBIS · Itiner-e · DARMC · Cassini).
+Asya için **dağınık ve doğrulanmamış** adaylar var. Hindistan, Afrika içleri
+ve İran için **iki aramada hiçbir şey çıkmadı.**
+
+**ÇIKARDIĞIM (ayrı satır):** koridor ağının kaynak bolluğu **coğrafyaya göre
+şiddetle asimetrik** — ve asimetri **Osmanlı çekirdeğinin aleyhine değil,
+LEHİNE değil, tam ortasında**: Rumeli'yi Viabundus'un güneyi ve ORBIS'in
+kuzeyi sıkıştırıyor, Anadolu-Arabistan-İran için **hazır ağ yok**, oralarda
+kaynak **TDV + Halaçoğlu**, yani `⑤` ve `④`teki *"örülür, alınmaz"* hükmü.
+🔴 ⇒ **Bu, İŞ 5'in (kapsam itirazı) verisidir.** İŞ 5'i **yapmadım** —
+ama kademe önerisi bu sayılara dayanmak zorunda, o yüzden buraya yazdım.
+
 #### ⚠️ HÂLÂ ÖLÇEMEDİĞİM
 ```
 Viabundus düğüm/kenar SAYISI   dokümantasyon v1.0'da VERİLMEMİŞ (arandı,
