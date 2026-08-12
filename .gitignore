@@ -4,3 +4,4 @@ __pycache__/
 
 # Koşu damgası — her üretimde değişir, TAKİPÇİ yerelde okur
 .uretim-basladi
+.zincir.kilit

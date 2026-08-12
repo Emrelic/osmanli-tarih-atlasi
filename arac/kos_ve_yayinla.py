@@ -84,7 +84,52 @@ def beep(n=9):
         pass
 
 
+KILIT = os.path.join(KOK, ".zincir.kilit")
+
+
+def _kilit_al():
+    """🔴 ÇİFT KOŞU KİLİDİ — Emre 'ŞİMDİ BAŞLAT' düğmesi istedi (12 Ağu).
+
+    Elle başlatma + 22:00 zamanlayıcısı + 23:50 emniyet ağı = aynı anda üç
+    tetikleyici. İki üretim aynı anda koşarsa `data/` yarı yazılmış hâlde
+    okunur ve çıktı SESSİZCE bozulur — bu proje dört üretimi böyle kaybetti.
+    """
+    if os.path.exists(KILIT):
+        try:
+            yas = (time.time() - os.path.getmtime(KILIT)) / 60.0
+            eski = io.open(KILIT, encoding="utf-8").read().strip()
+        except Exception:
+            yas, eski = 0, "?"
+        if yas < 240:                      # 4 saat — en uzun makul koşu
+            yaz("🔴 ZATEN BİR ZİNCİR KOŞUYOR (%.0f dk önce başladı: %s)"
+                % (yas, eski))
+            yaz("   İkinci koşu BAŞLATILMADI. İki üretim aynı anda koşarsa")
+            yaz("   data/ yarı yazılmış okunur ve çıktı SESSİZCE bozulur.")
+            yaz("   Gerçekten takıldıysa: .zincir.kilit dosyasını sil.")
+            return False
+        yaz("⚠️ Eski kilit bulundu (%.0f dk) — takılmış sayıp devralıyorum." % yas)
+    with io.open(KILIT, "w", encoding="utf-8") as f:
+        f.write(time.strftime("%Y-%m-%d %H:%M:%S"))
+    return True
+
+
+def _kilit_birak():
+    try:
+        os.remove(KILIT)
+    except Exception:
+        pass
+
+
 def zincir(yayinla=True, uretimsiz=False):
+    if not _kilit_al():
+        return 2
+    try:
+        return _zincir(yayinla, uretimsiz)
+    finally:
+        _kilit_birak()
+
+
+def _zincir(yayinla=True, uretimsiz=False):
     yaz("\n\n" + "#" * 66)
     yaz("# TOKENSİZ YAYIN ZİNCİRİ — başlangıç %s%s"
         % (time.strftime("%Y-%m-%d %H:%M:%S"),
