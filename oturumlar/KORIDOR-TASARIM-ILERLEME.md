@@ -156,11 +156,182 @@ tek başına yetmez.** Osmanlı yol sisteminin kol kol güzergâhı
 
 ---
 
+## ⑤b OSMANLI DIŞI COĞRAFYA — Emre *"devam"* dedi, İŞ 1'in bu ayağı ÖLÇÜLDÜ
+
+Brifing bunu ayrıca istiyordu (*"Orada ne yapılacağını da ÖLÇ, uydurma"*).
+İlk turda tur yetmemişti; kapatıldı.
+
+### 🟢 BULGU 1 — ORBIS (Stanford): sayıları OLAN bir emsal
+```
+kaynak     Walter Scheidel & Elijah Meeks · Stanford Üniversitesi
+akademik   Bulletin of ASIS&T 41(2), 2015, Wiley (hakemli) · SSRN · Stanford History
+ölçek      678 DÜĞÜM · 1104 KENAR
+ağırlık    🔴 km DEĞİL — TAŞIMA MALİYETİ: zaman (gün) VE para
+değişken   MEVSİM · TAŞIMA TÜRÜ (kara / nehir / deniz)
+çağ        ~MS 200 Roma dünyası (+ birkaç geç antik yol)
+```
+🔴 **Bu, menzil hipotezinin BAĞIMSIZ DOĞRULAMASIDIR.** Bir başka ekip, bir
+başka çağ için, aynı soruyu sormuş ve **aynı cevabı** vermiş: ağırlık
+kilometre değil **maliyet/süre**, ve **mevsimli**.
+📌 Ve `surre` maddesindeki gidiş 58 gün / dönüş 32 gün asimetrisi ORBIS'in
+mevsim değişkeniyle **aynı sınıfta** — iki bağımsız kaynak, tek olgu.
+
+### 🟢 BULGU 2 — Viabundus: BOĞUM DÜĞÜMÜ tipolojisi ZATEN YAYIMLANMIŞ
+```
+kaynak     Universität Göttingen (Landesgeschichte) + ortakları
+akademik   Research Data Journal for the Humanities and Social Sciences
+           7/1 (2022), Brill · Zenodo DOI · sürüm 1.3, 17 Mart 2024
+kapsam     1350-1650 · Hollanda · Danimarka · Almanya'nın 8 eyaleti ·
+           Polonya'nın 3 bölgesi (Pomerania · Royal Prussia · Greater Poland)
+yapı       DÜĞÜM veritabanı + KENAR veritabanı (ayrı ayrı)
+düğüm tipi yerleşim · şehir · GÜMRÜK · staple pazarı · panayır yeri ·
+           KÖPRÜ · FERİBOT · liman · GEMİ KİLİDİ
+kenar tipi kara · su · feribot          (üç tür)
+lisans     CC-BY 4.0 · CSV (WKT) · GeoJSON · GML — İNDİRİLEBİLİR
+```
+🔴 **İŞ 2'nin cevabı büyük ölçüde HAZIR.** Emre'nin *"boğum düğümü"* dediği
+şey — geçit · köprü · kavşak · menzil · derbend — Viabundus'ta
+**gümrük/köprü/feribot/kilit** olarak zaten tiplenmiş ve hakemli bir
+dergide yayımlanmış. **İcat etmemize gerek yok, uyarlamamız yeterli.**
+⚠️ Bu bir **eğilim**, karar değil: tipolojinin Osmanlı coğrafyasına
+oturup oturmadığı **ölçülmedi** (derbend ≈ toll? menzilhane ≈ ne?).
+
+### 🟢 İKİNCİ DENEME — Emre *"try again"* dedi, ÖLÇÜLDÜ
+
+İlk denemede Brill 403 verdi, PDF `pdftoppm` yokluğundan açılmadı. PDF
+zaten yerelde duruyordu; `pypdf` ile ayrıştırıldı (betik scratchpad'e
+`Write` ile yazıldı, bash'ten kaçış geçirilmedi — `CLAUDE.md §11`).
+**32 sayfa · 108.912 karakter · Viabundus 1.0 dokümantasyonu, 19 Nisan 2021.**
+
+#### 🔴🔴 HİPOTEZİ DOĞRUDAN CEVAPLAYAN CÜMLE (s. 26)
+> *"**Slope and elevation of the road**, a factor that is of significant
+> influence on the speed of travel in mountainous regions, **has not been
+> taken into account**, but it is planned to be included in a future
+> version of Viabundus."*
+
+⇒ **Hakemli bir dergide yayımlanmış, çalışan, indirilebilir bir koridor ağı
+YÜKSEKLİK VERİSİ OLMADAN kurulmuş** — ve yükseklik *gelecek sürüme*
+bırakılmış.
+🔴 Bu, koordinatörün hipotezinin **bizim akıl yürütmemizle değil, EMSALLE**
+doğrulanmasıdır: *"yükseklik verisi olmadan da başlanabilir"* bir tahmin
+değil, **yapılmış bir iş.**
+⚠️ Ama bedeli de aynı cümlede yazıyor: sonuç *"heavily simplified and
+generalized"* — ve atladıkları etkenleri **açıkça sayıyorlar**: mevsim ·
+hava · gün uzunluğu · yolcunun ve hayvanın hâli · **siyasî durum (savaşlar
+ve sınırlar)**. *"Many of these factors are impossible or very difficult to
+reconstruct."*
+
+#### DÜĞÜM ŞEMASI — dokuz öznitelik (İŞ 2'nin cevabı, yayımlanmış)
+```
+settlement · town · toll · staple · fair · ferry · bridge · harbour · lock
+```
+> *"**A node without any attribute can be considered a simple junction.**"*
+
+🔴 **Emre'nin *"ipliklerin ORTASINDA boğum noktalar"* dediği şey birebir
+budur** — özniteliksiz düğüm = saf kavşak. Kavram icat değil, **standart.**
+
+**Ve düğümler HİYERARŞİK:** `Parent ID` alanı var. `Settlement · Town ·
+Staple · Fair` yalnız **ebeveyn** düğüme takılır ve çocuklara **miras
+kalır**; `Toll` hem ebeveyne hem çocuğa takılabilir. Örnek: bir şehir
+ebeveyn, üç limanı ve köprüsü **çocuk düğüm.**
+📌 Bizim `k:` kademe + `m:` merkez ikilimizin **yayımlanmış karşılığı bu.**
+
+#### KENAR ŞEMASI ve AĞIRLIK — ölçülmüş alanlar
+| alan | tip | ne yapar |
+|---|---|---|
+| `Length` | Integer | **metre** — rota hesabında kullanılan TEK ağırlık |
+| `Zoomlevel` | 1-4 | ana/tali **kalınlığı** — ama 🔴 rota hesabı bunu **YOK SAYAR**, yalnız görüntüleme |
+| `Certainty` | 1-3 | rekonstrüksiyonun **güvenilirliği**; 3 = denetlenmemiş, kesik çizgi + gri |
+| `Comments_ID` | Integer | serbest metin |
+
+**Rota hesabı:** Dijkstra en kısa yol, *"inspired by the routing system used
+by **ORBIS**"* — yani iki emsal **birbirine bağlı**, bağımsız değil.
+⚠️ Bunu ilk raporumda *"iki bağımsız kaynak"* diye yazmıştım — **YANLIŞTI.**
+Viabundus, ORBIS'i kaynak gösteriyor (dipnot 46 ve 47).
+
+**Süre, mesafeden TÜRETİLİYOR — hız tablosu (s. 26, Ohler 1998 s. 141 + ORBIS):**
+```
+tür                                        hız km/sa    günlük tavan km
+yaya / ticarî nakliye (araba, kağnı)            5             35
+at sırtında (normal)                            6             50
+ULAK (menzil atı değiştirerek)                 14            120   ← 
+feribot                                         5              —
+```
+🔴 **"Messenger (fast, with horse relays) 14 km/sa · 120 km/gün"** — bu
+tam olarak **menzil/ulak teşkilatının** kendisi, ve akademik bir hız
+tablosunda **sayıyla** duruyor. TDV'nin *"3-28 saat"* aralığıyla aynı
+olguyu ölçüyor.
+
+**DÜĞÜMÜN KENDİSİ DE MALİYET TAŞIYOR** (İŞ 3 için kritik):
+```
+staple düğümü   zorunlu bekleme SÜRESİ yola EKLENİR (bilinmiyorsa 3 gün)
+feribot kenarı  +1 saat (iki kıyıda yükleme/boşaltma)
+```
+⇒ Maliyet yalnız kenarda değil, **düğümde de** birikiyor. Emre'nin
+*"engel varsa engellenene daha az pay"* sezgisinin uygulanmış hâli.
+
+#### 🔴 VE VIABUNDUS'UN KUSURU BİZİM DÜN TEŞHİS ETTİĞİMİZİN AYNISI
+```
+arama "from year" → 0 geçiş      arama "to year" → 0 geçiş
+```
+Kenarlarda **yapılandırılmış zaman alanı YOK.** Dokümantasyonun kendi
+cümlesi:
+> *"Information about seasonality or temporal use of a road may
+> occasionally be found in the **Comment field** of the road segments."*
+
+⇒ Zaman bilgisi **serbest metne gömülü** — yani makine soramaz.
+📌 Bu, `CLAUDE.md §11`'in **on birinci kusur sınıfının** (*"doğru
+öğrenilmiş bir dersin makinenin göremeyeceği yere yazılması"*) bir başka
+projede, bağımsız olarak gerçekleşmiş hâli. Bizim `kasitli_bosluk`
+`neden:` alanımızla **aynı hata.**
+🟢 ⇒ **Uyarlarken bu kusuru kopyalamayalım:** `④ ZAMAN AYAĞI` kenarlara
+`f`/`t` olarak **alan** verilmeli, yoruma değil.
+
+#### ⚠️ HÂLÂ ÖLÇEMEDİĞİM
+```
+Viabundus düğüm/kenar SAYISI   dokümantasyon v1.0'da VERİLMEMİŞ (arandı,
+                               yok — "bakılmadı" değil, "yazmıyor")
+sürüm 1.3 (2024) sayıları      CSV indirilmedi
+lisans ÇELİŞKİSİ               dokümantasyon "CC BY-SA 4.0" diyor,
+                               Zenodo kaydı "CC BY 4.0" diyor — ÇÖZMEDİM
+```
+
+### 🔴 HÜKÜM — "Osmanlı dışında ne yapacağız" sorusunun cevabı ÜÇ KOVA
+```
+① KUZEY AVRUPA 1350-1650   Viabundus  → HAZIR AĞ · CC-BY · indirilebilir
+                                        (TDV'nin %0 dediği yerin BİR KISMI)
+② AKDENİZ / ROMA           ORBIS      → HAZIR AĞ ama ÇAĞI YANLIŞ (MS 200)
+                                        yollar büyük ölçüde sürer AMA BU
+                                        BİR VARSAYIM — ÖLÇMEDİM
+③ GERİ KALANI              Fransa · İngiltere · İberya · İtalya · İran ·
+                           Hindistan · Çin · Afrika
+                           🔴 BAKMADIM. Bilmiyorum. `bulunamadı` değil,
+                              **aranmadı** — ikisi ayrı şeydir.
+```
+📌 Yani `CLAUDE.md §4`ün *"Batı Avrupa %0"* satırı **koridor işi için
+fazla karamsar**: TDV konuşmuyor ama **başka akademik kaynak konuşuyor**,
+ve üstelik **makine okunur biçimde.** Bu, kaynak kırmızı çizgisinin
+(`AKADEMİK · GÜVENİLİR · BİLİMSEL`) tam içinde.
+
+### 📌 İŞ 4 İÇİN BEDAVA TABAN (tasarım YAPMADIM, sayıyı bırakıyorum)
+```
+ORBIS oranı   1104 kenar / 678 düğüm = 1,63 kenar/düğüm
+bizim ölçek   2362 nokta × 1,63 ≈ 3.850 kenar
+```
+⚠️ Bu bir **kestirim değil, EMSAL ORAN.** ORBIS'in düğümleri bizimkinden
+iri (678 düğüm bütün Roma dünyası), yani oran doğrudan taşınamayabilir.
+**İŞ 4'ün işi, benim değil** — yalnız tabanı bırakıyorum.
+
+---
+
 ## ⑥ ÖLÇMEDİKLERİM — açıkça
 
 ```
-· Osmanlı DIŞI coğrafya (Batı Avrupa %0) için alternatif kaynak — BAKMADIM.
-  Brifing ölçmemi istiyordu; tur bütçesi yetmedi. Perşembeye ilk kalem.
+· Osmanlı dışı coğrafyanın ÜÇÜNCÜ KOVASI (Fransa · İngiltere · İberya ·
+  İtalya · Asya · Afrika) — ARANMADI. "bulunamadı" DEĞİL, "aranmadı".
+· Viabundus düğüm/kenar sayısı ve ağırlık fonksiyonu — denendi, ERİŞİLEMEDİ.
+· ORBIS'in yol güzergâhlarının Osmanlı çağına taşınıp taşınmadığı.
+· Viabundus tipolojisinin Osmanlı karşılıkları (derbend ≈ toll?).
 · `menzil--osmanli` bibliyografyasındaki 18 kaynağın hiçbiri açılmadı.
 · Rumeli kolları (sağ kol İstanbul-Selanik / orta kol Belgrad /
   sol kol Kili-Akkirman) hiç sınanmadı — yalnız Anadolu şehirleri tarandı.
