@@ -1,0 +1,43 @@
+YAYIN — 1923 Turkiye sinirinin iki bosluğu kapandi (TOKENSIZ ZINCIR)
+
+Bu commit'i bir INSAN ya da Claude degil, `arac/kos_ve_yayinla.py` zinciri
+atti. Mesaj KOSUDAN ONCE yazildi (12 Agustos 2026), cunku zincir tokensiz
+kosuyor ve sonradan mesaj yazacak kimse yok.
+
+NE DEGISTI — kosudan ONCE olculdu:
+  degisim yuzeyi   ~28 petek (2369'un %1,2'si): 7 yeni nokta + 21 komsusu
+  yeni nokta       8 (data/yerlesimler_ek28.js)
+  3 km sinavi      TEMIZ — en yakin cift Payas-Dortyol, 10 km
+
+① ISKENDERUN KORFEZININ KUZEYI — Emre'nin parti-0016 sikayeti
+   Payas · Dortyol · Erzin · Yumurtalik yazildi.
+   Ve PAYAS'IN DONEMI DUZELDI:
+     eskiden  1918-10-30 -> 1923-10-29  FRANSA
+     simdi    1921-10-20 -> 1923-10-29  TURKIYE
+   Dayanak BIRINCIL KAYNAK: UK Cmd.1556 / LNTS Vol.54 pp.178-193,
+   Ankara Itilafnamesi Md.8 — sinir "immediately south of the locality of
+   Payas" noktasindan basliyor. VERI SINIR 2 oturumu PDF'i dogrudan okudu;
+   Vikipedi TEK DAYANAK YAPILMADI.
+   Kirilma gunu 1921-10-20 icin kronolojide madde ZATEN VARDI
+   (olaylar_ek5.js:425) — tarih uydurulmadi.
+
+② DOGU KARADENIZ — Emre'nin parti-0015/H-0004 sikayeti
+   Arhavi (Hopa'ya 10 km) · Borcka (Artvin'e 21 km) ·
+   Sarikamis (Kars'a 53 km, GARNIZON kanitlandi) ·
+   Ahilkelek (Akhalkalaki) — TDV'den fetih tarihi DUZELTILDI 1578 -> 1551
+
+③ Yumurtalik kara maskesinin 0,52 km disindaydi; denetle.py'nin SINANMIS
+   onerisi uygulandi. konum ihlali 1 -> 0.
+
+NE DEGISMEDI — ve bu KASITLI:
+   pergel cemberleri · Sahra boslugu · kiyi kabaligi · Cimpe->Saros
+   Hicbirine dokunulmadi. Bu kosu TEK DEGISKENLI olsun diye: B1 (maliyet
+   mesafesinin karaya acilmasi) ve kademeli SADE_TOL persembeye birakildi.
+   MIMARI §2.9: iki degisikligi tek kosuya bindirmek OLCUMU OLDURUR —
+   11 Agustos'ta uc kalem bindirildi ve gunun en siki ongorusu olculemedi.
+
+KAPI: zincir her adimin cikis kodunu okur. denetle.py ya da
+denetle_yayin.py ihlal verirse DURUR VE YAYINLAMAZ. Bu commit'in var
+olmasi, iki kapinin da TEMIZ dedigi anlamina gelir.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
