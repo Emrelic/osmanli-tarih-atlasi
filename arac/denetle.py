@@ -734,6 +734,30 @@ def degismez1b(Y):
     return bulunan
 
 
+# ---------------- Boşluk cinsi — kasıtlı boşluğun MAKİNE OKUNUR sınıfı ----------------
+# BOŞLUK CİNSİ görevi (12 Ağustos 2026): `kasitli_bosluk:true` bugüne kadar
+# yalnız yorumda geçiyordu, hiçbir denetim onu OKUMUYORDU (CLAUDE.md §11'in
+# on birinci kusur sınıfı — "ders veriye SERBEST METİN olarak inerse inmiş
+# sayılmaz"). `bosluk_cinsi` alanı bunu `if` ile sorulabilir yapar:
+# devletsiz | veri-yok | kabile | insansiz | hata (SINAV: kaynağa sor —
+# konuşuyorsa devletsiz, susuyorsa veri-yok; adlı ama künyesiz bir krallık/
+# hanedan/şeyhlik anılıyorsa kabile; insan hiç yoksa insansiz; bayrağın
+# kendisi şüpheliyse (gerçek boşluk yok ya da şema engeli) hata).
+BEKLENEN_CINSSIZ = 0
+
+
+def bosluk_cinsi_denetimi(Y):
+    """kasitli_bosluk:true taşıyıp bosluk_cinsi'i olmayan kayıtları döker."""
+    cinssiz = [y["ad"] for y in Y
+               if y.get("kasitli_bosluk") is True and not y.get("bos")]
+    dagilim = {}
+    for y in Y:
+        if y.get("kasitli_bosluk") is True:
+            c = y.get("bos") or "(yok)"
+            dagilim[c] = dagilim.get(c, 0) + 1
+    return cinssiz, dagilim
+
+
 # ---------------- Değişmez 2 — sessiz toprak değişimi yok ----------------
 def degismez2(Y, O, kategoriler=("d", "v")):
     """Belirtilen kategorilerin kırılmalarını ve ±30 günde maddesizleri döker.
@@ -1775,6 +1799,17 @@ def main():
         print("               Varşova (Varşova Dükalığı 1806-1815 hiç yazılmamış) · Doha ·")
         print("               Bicâye · Hacıbey · Ankara bozgunu sonrası 16 Anadolu şehri")
         print("               (1402-07-28 → 09-15: Timur'un elindeydi, 'timurlu' yazılacak)")
+
+    # Boşluk cinsi — kasitli_bosluk:true taşıyıp cinsi yazılmamış kayıt var mı
+    cinssiz, cinsi_dagilim = bosluk_cinsi_denetimi(Y)
+    durum_bc = "✓" if len(cinssiz) <= BEKLENEN_CINSSIZ else "✗"
+    if len(cinssiz) > BEKLENEN_CINSSIZ:
+        ihlal = True
+    print(f"Boşluk cinsi {durum_bc}  cinsi yazılmamış: {len(cinssiz)} (beklenen {BEKLENEN_CINSSIZ}) "
+          f"— dağılım: {', '.join(f'{k} {v}' for k, v in sorted(cinsi_dagilim.items()))}")
+    if args.ayrinti and cinssiz:
+        for ad in cinssiz:
+            print(f"    {ad}")
 
     # Değişmez 2 — çekirdek/kuyruk ayrımıyla (KUYRUK_DOSYALARI yorumu)
     Y_cekirdek = [y for y in Y if y.get("_kaynak") not in KUYRUK_DOSYALARI]

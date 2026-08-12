@@ -518,47 +518,47 @@ window.YERLESIMLER_H2_AFRIKA = [
 // ===========================================================================
 
 { ad:"Nekemte", tur:"sehir", lat:9.088, lon:36.550, g:0, k:0,
-  kasitli_bosluk:true, neden:"Leka Nekemte Oromo krallığı — kimliği yok; habesistan yazmak §3.5.1 ters yönü olurdu",
+  kasitli_bosluk:true,bos:"kabile", neden:"Leka Nekemte Oromo krallığı — kimliği yok; habesistan yazmak §3.5.1 ters yönü olurdu",
   s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 { ad:"Gimbî", tur:"sehir", lat:9.170, lon:35.833, g:0, k:0,
-  kasitli_bosluk:true, neden:"Vollega Oromo krallıkları — kimlik yok",
+  kasitli_bosluk:true,bos:"kabile", neden:"Vollega Oromo krallıkları — kimlik yok",
   s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 { ad:"Dembîdollo", tur:"sehir", lat:8.533, lon:34.800, g:0, k:0,
-  kasitli_bosluk:true, neden:"Sayo/Vollega Oromo krallığı — kimlik yok",
+  kasitli_bosluk:true,bos:"kabile", neden:"Sayo/Vollega Oromo krallığı — kimlik yok",
   s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 { ad:"Gore", tur:"sehir", lat:8.150, lon:35.533, g:0, k:0,
-  kasitli_bosluk:true, neden:"İllûbâbor Oromo krallıkları — kimlik yok",
+  kasitli_bosluk:true,bos:"kabile", neden:"İllûbâbor Oromo krallıkları — kimlik yok",
   s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 { ad:"Asella", tur:"sehir", lat:7.950, lon:39.133, g:0, k:0,
-  kasitli_bosluk:true, neden:"Arsi Oromo — devlet teşkilâtı ve kimlik yok",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Arsi Oromo — devlet teşkilâtı ve kimlik yok",
   s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 { ad:"Goba", tur:"sehir", lat:7.010, lon:39.983, g:0, k:0,
-  kasitli_bosluk:true, neden:"Bâle — Adal sonrası devletsiz kuşak, kimlik yok",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Bâle — Adal sonrası devletsiz kuşak, kimlik yok",
   s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 { ad:"Ginir", tur:"sehir", lat:7.140, lon:40.708, g:0, k:0,
-  kasitli_bosluk:true, neden:"Bâle — Adal sonrası devletsiz kuşak, kimlik yok",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Bâle — Adal sonrası devletsiz kuşak, kimlik yok",
   s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 { ad:"Ağere Maryam", tur:"sehir", lat:5.633, lon:38.233, g:0, k:0,
-  kasitli_bosluk:true, neden:"Guci/Sidamo kuşağı — kimlik yok",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Guci/Sidamo kuşağı — kimlik yok",
   s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 { ad:"Yabelo", tur:"sehir", lat:4.883, lon:38.208, g:0, k:0,
-  kasitli_bosluk:true, neden:"Borana Oromo — devlet teşkilâtı ve kimlik yok",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Borana Oromo — devlet teşkilâtı ve kimlik yok",
   s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 { ad:"Mega", tur:"sehir", lat:4.050, lon:38.300, g:0, k:0,
-  kasitli_bosluk:true, neden:"Borana Oromo — kimlik yok",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Borana Oromo — kimlik yok",
   s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 { ad:"Moyale", tur:"sehir", lat:3.533, lon:39.050, g:0, k:0,
-  kasitli_bosluk:true, neden:"Borana Oromo — kimlik yok; güneyi HALKA 6-7 (Kenya), kasten noktasız",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Borana Oromo — kimlik yok; güneyi HALKA 6-7 (Kenya), kasten noktasız",
   s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 // Gambela 1907'de Mavi Nil ticaretinin iskelesi olarak kuruldu.
@@ -737,7 +737,7 @@ window.YERLESIMLER_H2_AFRIKA = [
 // Yemen bu oturumun bölgesi DEĞİL (halka 1, başka oturumun işi). Umman
 // yakasına alındı; ölçüldü.
 { ad:"Rub'ul Hâlî güneybatısı", tur:"bolge", lat:18.800, lon:52.300, g:0, k:0,
-  kasitli_bosluk:true, neden:"Rub'ul Hâlî — hiçbir devletin fiilî idaresi yoktu; mevcut çöl dolgularıyla aynı sınıf",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Rub'ul Hâlî — hiçbir devletin fiilî idaresi yoktu; mevcut çöl dolgularıyla aynı sınıf",
   s:[], d:[], v:[] },
 
 // ===========================================================================
@@ -779,83 +779,83 @@ window.YERLESIMLER_H2_AFRIKA = [
 
 // ── Nil koridoru: Şilluk kuşağı, Mehdî hâkimiyeti VARDI ────────────────
 { ad:"Er-Renk", tur:"sehir", lat:11.750, lon:32.783, g:0, k:0,
-  kasitli_bosluk:true, neden:"Şilluk Krallığı — `silluk` kimliği yok; Mısır Ekvatorya dönemi Değişmez 2 borcu doğuracağı için yazılamadı",
+  kasitli_bosluk:true,bos:"kabile", neden:"Şilluk Krallığı — `silluk` kimliği yok; Mısır Ekvatorya dönemi Değişmez 2 borcu doğuracağı için yazılamadı",
   s:[{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
 
 // Şilluk Krallığı'nın başkenti; 1898 Fâşoda buhranının yeri.
 { ad:"Fâşoda", tur:"sehir", lat:9.892, lon:32.117, g:1, k:0,
-  kasitli_bosluk:true, neden:"Şilluk Krallığı'nın başkenti — `silluk` kimliği yok",
+  kasitli_bosluk:true,bos:"kabile", neden:"Şilluk Krallığı'nın başkenti — `silluk` kimliği yok",
   s:[{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
 
 { ad:"Malakal", tur:"sehir", lat:9.533, lon:31.661, g:0, k:0,
-  kasitli_bosluk:true, neden:"Şilluk kuşağı — `silluk` kimliği yok",
+  kasitli_bosluk:true,bos:"kabile", neden:"Şilluk kuşağı — `silluk` kimliği yok",
   s:[{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
 
 // ── Yukarı Nil, Bahrülgazâl ve Ekvatorya: Mehdî hâkimiyeti YOKTU ───────
 { ad:"Nâsir", tur:"sehir", lat:8.608, lon:33.067, g:0, k:0,
-  kasitli_bosluk:true, neden:"Nuer ülkesi — devlet teşkilâtı yok; Mısır ve Mehdî idaresi buraya ulaşmadı",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Nuer ülkesi — devlet teşkilâtı yok; Mısır ve Mehdî idaresi buraya ulaşmadı",
   s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
 
 { ad:"Akobo", tur:"sehir", lat:7.788, lon:33.033, g:0, k:0,
-  kasitli_bosluk:true, neden:"Anuak/Nuer ülkesi — devlet teşkilâtı ve kimlik yok",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Anuak/Nuer ülkesi — devlet teşkilâtı ve kimlik yok",
   s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
 
 { ad:"Bentiu", tur:"sehir", lat:9.242, lon:29.803, g:0, k:0,
-  kasitli_bosluk:true, neden:"Nuer ülkesi — devlet teşkilâtı ve kimlik yok",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Nuer ülkesi — devlet teşkilâtı ve kimlik yok",
   s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
 
 { ad:"Meşra er-Rek", tur:"liman", lat:8.417, lon:29.283, g:0, k:0,
-  kasitli_bosluk:true, neden:"Bahrülgazâl iskelesi — Mısır ilhakı (1873) Değişmez 2 borcu doğuracağı için yazılamadı",
+  kasitli_bosluk:true,bos:"hata", neden:"Bahrülgazâl iskelesi — Mısır ilhakı (1873) Değişmez 2 borcu doğuracağı için yazılamadı",
   s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
 
 { ad:"Vav", tur:"sehir", lat:7.702, lon:27.990, g:1, k:0,
-  kasitli_bosluk:true, neden:"Bahrülgazâl merkezi — Dinka/Cur ülkesi, kimlik yok",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Bahrülgazâl merkezi — Dinka/Cur ülkesi, kimlik yok",
   s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
 
 { ad:"Deym Zübeyr", tur:"kale", lat:7.700, lon:26.217, g:0, k:0,
-  kasitli_bosluk:true, neden:"Zübeyr Paşa'nın Bahrülgazâl karargâhı — Mısır dönemi yazılamadı (bkz. bölüm notu)",
+  kasitli_bosluk:true,bos:"hata", neden:"Zübeyr Paşa'nın Bahrülgazâl karargâhı — Mısır dönemi yazılamadı (bkz. bölüm notu)",
   s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
 
 { ad:"Rumbek", tur:"sehir", lat:6.800, lon:29.678, g:0, k:0,
-  kasitli_bosluk:true, neden:"Dinka ülkesi — devlet teşkilâtı ve kimlik yok",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Dinka ülkesi — devlet teşkilâtı ve kimlik yok",
   s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
 
 { ad:"Tonc", tur:"sehir", lat:6.950, lon:28.683, g:0, k:0,
-  kasitli_bosluk:true, neden:"Dinka ülkesi — devlet teşkilâtı ve kimlik yok",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Dinka ülkesi — devlet teşkilâtı ve kimlik yok",
   s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
 
 { ad:"Şembe", tur:"liman", lat:7.156, lon:30.553, g:0, k:0,
-  kasitli_bosluk:true, neden:"Nil iskelesi — Dinka ülkesi, kimlik yok",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Nil iskelesi — Dinka ülkesi, kimlik yok",
   s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
 
 { ad:"Bor", tur:"sehir", lat:6.208, lon:31.558, g:0, k:0,
-  kasitli_bosluk:true, neden:"Dinka ülkesi — devlet teşkilâtı ve kimlik yok",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Dinka ülkesi — devlet teşkilâtı ve kimlik yok",
   s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
 
 // Mısır Ekvatorya eyaletinin karargâhı; Cûbâ (1922) daha sonra bunun
 // 6 km güneyinde kuruldu, o yüzden Cûbâ AYRI nokta olarak yazılmadı.
 { ad:"Gondokoro", tur:"sehir", lat:4.900, lon:31.650, g:1, k:0,
-  kasitli_bosluk:true, neden:"Ekvatorya karargâhı — Mısır dönemi (1870-1885) Değişmez 2 borcu doğuracağı için yazılamadı",
+  kasitli_bosluk:true,bos:"hata", neden:"Ekvatorya karargâhı — Mısır dönemi (1870-1885) Değişmez 2 borcu doğuracağı için yazılamadı",
   s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
 
 { ad:"Nimule", tur:"sehir", lat:3.600, lon:32.058, g:0, k:0,
-  kasitli_bosluk:true, neden:"Ekvatorya güney ucu — kimlik yok; güneyi HALKA 6-7 (Uganda), kasten noktasız",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Ekvatorya güney ucu — kimlik yok; güneyi HALKA 6-7 (Uganda), kasten noktasız",
   s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
 
 { ad:"Torit", tur:"sehir", lat:4.412, lon:32.570, g:0, k:0,
-  kasitli_bosluk:true, neden:"Latuka ülkesi — devlet teşkilâtı ve kimlik yok",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Latuka ülkesi — devlet teşkilâtı ve kimlik yok",
   s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
 
 { ad:"Kapoeta", tur:"sehir", lat:4.767, lon:33.591, g:0, k:0,
-  kasitli_bosluk:true, neden:"Toposa ülkesi — devlet teşkilâtı ve kimlik yok",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Toposa ülkesi — devlet teşkilâtı ve kimlik yok",
   s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
 
 { ad:"Yambio", tur:"sehir", lat:4.572, lon:28.395, g:0, k:0,
-  kasitli_bosluk:true, neden:"Azande Krallığı — `zende` kimliği yok; en yakın komşuyla boyamak §3.5.1 ihlali olurdu",
+  kasitli_bosluk:true,bos:"kabile", neden:"Azande Krallığı — `zende` kimliği yok; en yakın komşuyla boyamak §3.5.1 ihlali olurdu",
   s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
 
 { ad:"Tembura", tur:"sehir", lat:5.610, lon:27.470, g:0, k:0,
-  kasitli_bosluk:true, neden:"Azande Krallığı — `zende` kimliği yok",
+  kasitli_bosluk:true,bos:"kabile", neden:"Azande Krallığı — `zende` kimliği yok",
   s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
 
 // ###########################################################################
@@ -886,36 +886,36 @@ window.YERLESIMLER_H2_AFRIKA = [
 
 // Darb el-Erbaîn kervan yolunun natron kuyusu; Vaday-Mısır yolunun düğümü.
 { ad:"Bîr Natrûn", tur:"bolge", lat:18.200, lon:26.000, g:0, k:0,
-  kasitli_bosluk:true, neden:"Libya çölü — hiçbir devletin fiilî idaresi yoktu; kervan kuyusu",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Libya çölü — hiçbir devletin fiilî idaresi yoktu; kervan kuyusu",
   s:[], d:[], v:[] },
 
 { ad:"Merga vahası", tur:"bolge", lat:19.350, lon:26.300, g:0, k:0,
-  kasitli_bosluk:true, neden:"Libya çölü — fiilî idare yok",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Libya çölü — fiilî idare yok",
   s:[], d:[], v:[] },
 
 { ad:"Lakiye Arbaîn", tur:"bolge", lat:20.050, lon:28.050, g:0, k:0,
-  kasitli_bosluk:true, neden:"Darb el-Erbaîn kuyusu — fiilî idare yok",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Darb el-Erbaîn kuyusu — fiilî idare yok",
   s:[], d:[], v:[] },
 
 { ad:"Vâdî Hovâr", tur:"bolge", lat:17.400, lon:24.800, g:0, k:0,
-  kasitli_bosluk:true, neden:"kurumuş vadi — fiilî idare yok",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"kurumuş vadi — fiilî idare yok",
   s:[], d:[], v:[] },
 
 { ad:"Cebel Ûveynât", tur:"bolge", lat:21.870, lon:25.020, g:0, k:0,
-  kasitli_bosluk:true, neden:"Mısır-Libya-Sudan üçgeni; fiilî idare yok",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Mısır-Libya-Sudan üçgeni; fiilî idare yok",
   s:[], d:[], v:[] },
 
 // ⚠️ 20,500/24,500 → 20,000/25,200: ilk koordinat LİBYA'ya düşüyordu.
 { ad:"Sudan kuzeybatı çölü", tur:"bolge", lat:20.000, lon:25.200, g:0, k:0,
-  kasitli_bosluk:true, neden:"Libya çölü — fiilî idare yok",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Libya çölü — fiilî idare yok",
   s:[], d:[], v:[] },
 
 { ad:"Zolat el-Hammâd", tur:"bolge", lat:20.600, lon:27.100, g:0, k:0,
-  kasitli_bosluk:true, neden:"Bayûda-Libya çölü geçişi — fiilî idare yok",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Bayûda-Libya çölü geçişi — fiilî idare yok",
   s:[], d:[], v:[] },
 
 { ad:"Kordofan kuzeybatı çölü", tur:"bolge", lat:16.500, lon:26.500, g:0, k:0,
-  kasitli_bosluk:true, neden:"Dârfûr ile Kordofan arası kum kuşağı — fiilî idare yok",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Dârfûr ile Kordofan arası kum kuşağı — fiilî idare yok",
   s:[], d:[], v:[] },
 
 // ===========================================================================
@@ -975,31 +975,31 @@ window.YERLESIMLER_H2_AFRIKA = [
 // ===========================================================================
 
 { ad:"Aveyl", tur:"sehir", lat:8.767, lon:27.400, g:0, k:0,
-  kasitli_bosluk:true, neden:"Dinka ülkesi — devlet teşkilâtı ve kimlik yok",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Dinka ülkesi — devlet teşkilâtı ve kimlik yok",
   s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
 
 { ad:"Rağa", tur:"sehir", lat:8.460, lon:25.680, g:0, k:0,
-  kasitli_bosluk:true, neden:"Feroge/Kresh kuşağı — kimlik yok",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Feroge/Kresh kuşağı — kimlik yok",
   s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
 
 { ad:"Fangak", tur:"sehir", lat:9.070, lon:30.883, g:0, k:0,
-  kasitli_bosluk:true, neden:"Nuer ülkesi — devlet teşkilâtı ve kimlik yok",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Nuer ülkesi — devlet teşkilâtı ve kimlik yok",
   s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
 
 { ad:"Ler", tur:"sehir", lat:8.300, lon:30.140, g:0, k:0,
-  kasitli_bosluk:true, neden:"Nuer ülkesi — devlet teşkilâtı ve kimlik yok",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Nuer ülkesi — devlet teşkilâtı ve kimlik yok",
   s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
 
 { ad:"Pibor", tur:"sehir", lat:6.800, lon:33.133, g:0, k:0,
-  kasitli_bosluk:true, neden:"Murle ülkesi — devlet teşkilâtı ve kimlik yok",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Murle ülkesi — devlet teşkilâtı ve kimlik yok",
   s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
 
 { ad:"Maridi", tur:"sehir", lat:4.917, lon:29.467, g:0, k:0,
-  kasitli_bosluk:true, neden:"Azande/Moru kuşağı — `zende` kimliği yok",
+  kasitli_bosluk:true,bos:"kabile", neden:"Azande/Moru kuşağı — `zende` kimliği yok",
   s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
 
 { ad:"Yei", tur:"sehir", lat:4.090, lon:30.679, g:0, k:0,
-  kasitli_bosluk:true, neden:"Ekvatorya batı ucu — kimlik yok; batısı Lado kordonu",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Ekvatorya batı ucu — kimlik yok; batısı Lado kordonu",
   s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
 
 // ===========================================================================
@@ -1023,23 +1023,23 @@ window.YERLESIMLER_H2_AFRIKA = [
 
 // ── §10 zinciri: 1897-01-01 İŞARETLİ yer tutucu ────────────────────────
 { ad:"Şeşemene", tur:"sehir", lat:7.200, lon:38.600, g:0, k:0,
-  kasitli_bosluk:true, neden:"Arsi/Sidamo kuşağı — Oromo krallıklarının kimliği yok",
+  kasitli_bosluk:true,bos:"kabile", neden:"Arsi/Sidamo kuşağı — Oromo krallıklarının kimliği yok",
   s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 { ad:"Dilla", tur:"sehir", lat:6.410, lon:38.310, g:0, k:0,
-  kasitli_bosluk:true, neden:"Guci/Sidamo kuşağı — kimlik yok",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Guci/Sidamo kuşağı — kimlik yok",
   s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 { ad:"Negele Borana", tur:"sehir", lat:5.330, lon:39.580, g:0, k:0,
-  kasitli_bosluk:true, neden:"Borana Oromo — devlet teşkilâtı ve kimlik yok",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Borana Oromo — devlet teşkilâtı ve kimlik yok",
   s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 { ad:"Bedele", tur:"sehir", lat:8.450, lon:36.350, g:0, k:0,
-  kasitli_bosluk:true, neden:"İllûbâbor Oromo krallıkları — kimlik yok",
+  kasitli_bosluk:true,bos:"kabile", neden:"İllûbâbor Oromo krallıkları — kimlik yok",
   s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 { ad:"Mizan Teferi", tur:"sehir", lat:6.990, lon:35.580, g:0, k:0,
-  kasitli_bosluk:true, neden:"Bench/Kaffa güneybatısı — kimlik yok",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Bench/Kaffa güneybatısı — kimlik yok",
   s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 // ⚠️ Beni Şengûl şeyhlikleri XIX. yy'da Sudan (Func/Mısır) yörüngesindeydi;
@@ -1047,7 +1047,7 @@ window.YERLESIMLER_H2_AFRIKA = [
 // Habeşistan'a bıraktı. 1902 canlı veride kırılma DEĞİL ⇒ §10'un işaretli
 // 1897-01-01 yer tutucusu kullanıldı. YER TUTUCUDUR, hüküm değildir.
 { ad:"Asosa", tur:"sehir", lat:10.070, lon:34.530, g:0, k:0,
-  kasitli_bosluk:true, neden:"Beni Şengûl şeyhlikleri — kimlik yok; sınır 1902'de çizildi, 1897 YER TUTUCU",
+  kasitli_bosluk:true,bos:"kabile", neden:"Beni Şengûl şeyhlikleri — kimlik yok; sınır 1902'de çizildi, 1897 YER TUTUCU",
   s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 // ── Ogaden zinciri (§11 ile birebir) ───────────────────────────────────
@@ -1133,7 +1133,7 @@ window.YERLESIMLER_H2_AFRIKA = [
 
 // 🔴 KASTEN SAHİPSİZ — Umman'ın iç çölü; §15'teki güneybatı dolgusunun eşi.
 { ad:"Umman iç çölü", tur:"bolge", lat:20.100, lon:55.300, g:0, k:0,
-  kasitli_bosluk:true, neden:"Rub'ul Hâlî'nin Umman yakası — hiçbir devletin fiilî idaresi yoktu",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Rub'ul Hâlî'nin Umman yakası — hiçbir devletin fiilî idaresi yoktu",
   s:[], d:[], v:[] },
 
 // ===========================================================================
@@ -1145,16 +1145,16 @@ window.YERLESIMLER_H2_AFRIKA = [
 // ===========================================================================
 
 { ad:"Vâdî el-Milk", tur:"bolge", lat:17.500, lon:28.000, g:0, k:0,
-  kasitli_bosluk:true, neden:"Dongola-Kordofan arası kurumuş vadi yolu — fiilî idare yok",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Dongola-Kordofan arası kurumuş vadi yolu — fiilî idare yok",
   s:[], d:[], v:[] },
 
 // Nil'in iki kavsi arasındaki iç çöl; Merevî-Hartum kervan kestirmesi.
 { ad:"Bayûda çölü", tur:"bolge", lat:17.900, lon:32.000, g:0, k:0,
-  kasitli_bosluk:true, neden:"Nil kavisleri arası iç çöl — fiilî idare yok",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Nil kavisleri arası iç çöl — fiilî idare yok",
   s:[], d:[], v:[] },
 
 { ad:"Atbay çölü", tur:"bolge", lat:19.800, lon:34.800, g:0, k:0,
-  kasitli_bosluk:true, neden:"Nil ile Kızıldeniz arası Beca çölü — fiilî idare yok",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Nil ile Kızıldeniz arası Beca çölü — fiilî idare yok",
   s:[], d:[], v:[] },
 
 { ad:"İncibara", tur:"sehir", lat:10.950, lon:36.930, g:0, k:0,

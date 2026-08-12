@@ -90,9 +90,9 @@ window.YERLESIMLER_EK12 = [
 // Kutuya giren şerit (−25…−12) 1923'e kadar hiçbir devletin idaresinde
 // değildi; Danimarka-Norveç hükümranlık davası 1933'te karara bağlandı.
 { ad:"Doğu Grönland", tur:"bolge", lat:70.4833, lon:-21.9667, g:0, k:0, d:[], s:[],
-  kasitli_bosluk:true, neden:"Norse yerleşimleri güneybatı kıyısındaydı ve XV. yy'da söndü; Danimarka-Norveç'in yeniden sömürgeleştirmesi 1721'de BATI kıyısında başladı, doğu kıyısında ilk yerleşim 1894 (Ammassalik, −37°D, kutu dışı). 1281-1923 penceresinde kutuya giren şerit hiçbir devletin idaresinde değil." },
+  kasitli_bosluk:true,bos:"insansiz", neden:"Norse yerleşimleri güneybatı kıyısındaydı ve XV. yy'da söndü; Danimarka-Norveç'in yeniden sömürgeleştirmesi 1721'de BATI kıyısında başladı, doğu kıyısında ilk yerleşim 1894 (Ammassalik, −37°D, kutu dışı). 1281-1923 penceresinde kutuya giren şerit hiçbir devletin idaresinde değil." },
 
 { ad:"Kuzeydoğu Grönland", tur:"bolge", lat:76.7700, lon:-18.6600, g:0, k:0, d:[], s:[],
-  kasitli_bosluk:true, neden:"Doğu Grönland ile aynı hüküm; 700 km'lik kıyı tek noktayla temsil edilemezdi." },
+  kasitli_bosluk:true,bos:"insansiz", neden:"Doğu Grönland ile aynı hüküm; 700 km'lik kıyı tek noktayla temsil edilemezdi." },
 
 ];

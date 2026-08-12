@@ -349,6 +349,7 @@ GIRDI_DOSYALARI = [
     "yerlesimler_ek25.js",
     "yerlesimler_ek26.js",
     "yerlesimler_ek27.js",
+    "yerlesimler_ek28.js",
     # ── HALKA-2 NOKTA PARTILERI · 7 Agustos 2026 ───────────────────
     # Uc oturum, uc bolge, 333 yeni nokta. Yogunluk olcumu (nokta/mn km2):
     #   Sudan-Habes-Somali-Umman   8,9 -> 25,2   (181 nokta)
@@ -483,6 +484,19 @@ BILINEN_ALANLAR = {
     "kasitli_bosluk": "True ise kuşatılmışlık ölçütü bu peteği DEVRETMEZ — "
                       "boşluk kasten öyle. Yalnız kaynaklı hükümle yazılır. "
                       "Okuyan: uret_petek.py, _kusatilmis()",
+    # 🔴 BOŞLUĞUN CİNSİ — `kasitli_bosluk`un MAKİNE OKUNUR tamamlayıcısı.
+    # 12 Ağustos 2026'da doğdu. Emre'nin `*nedenboş` kısaltması BEŞ şık
+    # soruyor: "insan mı yok · devlet mi yok · kabile yönetimi mi var ·
+    # veri mi yok · hata mı". `neden:` serbest metni bu soruyu taşıyordu
+    # ama MAKİNE SORAMIYORDU — 138 kaydın 102'sinde cins okunamıyordu.
+    # Adı `VERI-YAPISI.md:69`daki plandan (orada `bos:` diye tasarlanmış,
+    # ve `MIMARI §6` ona bir GÖRSEL karşılık da vermiş: devletsiz düz,
+    # veri-yok taralı, lejantta ayrı satır). Değer kümesi ÖLÇÜMDEN:
+    # plan iki değer öngörüyordu, gerçek veri beşe ayrıldı.
+    # SINAV (NOKTA SİBİRYA vakası): kaynağa sor — KONUŞUYORSA `devletsiz`,
+    # SUSUYORSA `veri-yok`. `devletsiz` bir İDDİADIR ve kaynak ister.
+    "bos": "boşluğun CİNSİ: devletsiz | veri-yok | kabile | insansiz | hata. "
+           "`kasitli_bosluk` ile birlikte yazılır; bayrak VARsa bu da OLMALI.",
     # 🔴 `kasitli_bosluk`un GEREKÇESİ — serbest metin.
     # `denetle_bosluk.py:270` bu alanı ZATEN okuyor ve kendi yorumunda
     # mevcut bayraklı kayıtların hiçbirinde `neden:` olmamasını bir KUSUR

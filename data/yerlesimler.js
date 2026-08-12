@@ -873,7 +873,7 @@ window.YERLESIMLER = [
 { ad:"Poltava", tur:"sehir", lat:49.589, lon:34.551, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1654-01-18",d:"lehistan"},{f:"1654-01-18",t:"1923-10-29",d:"rusya"}] },
 // ---- KAFKASYA EK ----
 { ad:"Kutaisi", tur:"sehir", lat:42.268, lon:42.695, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1810-02-20",d:"gurcistan"},{f:"1810-02-20",t:"1923-10-29",d:"rusya"}] },
-{ ad:"Vladikavkaz", tur:"kale", lat:43.024, lon:44.682, g:0, k:0, kur:"1784-01-01", kasitli_bosluk:true, d:[], s:[{f:"1784-01-01",t:"1923-10-29",d:"rusya"}] },
+{ ad:"Vladikavkaz", tur:"kale", lat:43.024, lon:44.682, g:0, k:0, kur:"1784-01-01", kasitli_bosluk:true,bos:"hata", d:[], s:[{f:"1784-01-01",t:"1923-10-29",d:"rusya"}] },
 // ---- İRAN EK ----
 { ad:"Şiraz", tur:"sehir", lat:29.591, lon:52.584, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1335-12-01",d:"ilhanli"},{f:"1335-12-01",t:"1393-01-01",d:"muzafferi"},{f:"1393-01-01",t:"1452-01-01",d:"timurlu"},{f:"1452-01-01",t:"1469-01-01",d:"karakoyunlu"},{f:"1469-01-01",t:"1508-01-01",d:"akkoyunlu"},{f:"1508-01-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20", t:"1796-01-01", d:"zend"},{f:"1796-01-01",t:"1923-10-29",d:"kacar"}] },
 { ad:"Kazvin", tur:"sehir", lat:36.269, lon:50.004, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1335-12-01",d:"ilhanli"},{f:"1335-12-01",t:"1503-01-01",d:"iran"},{f:"1503-01-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20", t:"1796-01-01", d:"zend"},{f:"1796-01-01",t:"1923-10-29",d:"kacar"}] },
@@ -923,7 +923,7 @@ window.YERLESIMLER = [
 //     önce o NOKTA sulanan vahanın içinde miydi, yoksa çöl müydü". Çölse
 //     boşluk doğru ve bölgeyi kimin yönettiği bunu değiştirmez.
 // ---------------------------------------------------------------------------
-{ ad:"Kuveyt", tur:"liman", lat:29.376, lon:47.977, g:0, k:3, m:"Basra", kur:"1716-01-01", kasitli_bosluk:true, d:[],
+{ ad:"Kuveyt", tur:"liman", lat:29.376, lon:47.977, g:0, k:3, m:"Basra", kur:"1716-01-01", kasitli_bosluk:true,bos:"hata", d:[],
     v:[{f:"1795-04-01",t:"1871-01-01",k:"Sabah emirliği (Osmanlı himayesinde)"},
        {f:"1871-01-01",t:"1914-11-22",k:"Sabah emirliği (Osmanlı kazâsı)"}],
     // 1914-11-22: TDV `kuveyt` — İngiltere, Basra'yı ele geçirince (22 Kasım 1914)
@@ -935,7 +935,7 @@ window.YERLESIMLER = [
     // metnine düzyazı olarak girer, tarih alanına DEĞİL.
     s:[{f:"1716-01-01",t:"1795-04-01",d:"benihalid"},{f:"1914-11-22",t:"1923-10-29",d:"ingiltere"}] },
 { ad:"Manama (Bahreyn)", tur:"liman", lat:26.228, lon:50.586, g:0, k:0, d:[], s:[{f:"1861-05-31",t:"1923-10-29",d:"ingiltere"}] },
-{ ad:"Doha (Katar)", tur:"liman", lat:25.285, lon:51.531, g:0, k:3, m:"Basra", kur:"1825-01-01", kasitli_bosluk:true, d:[],
+{ ad:"Doha (Katar)", tur:"liman", lat:25.285, lon:51.531, g:0, k:3, m:"Basra", kur:"1825-01-01", kasitli_bosluk:true,bos:"devletsiz", d:[],
     // 1871-09-20: madde (ek5:346) "Sonbahar 1871" diyor, kayıt 1871-01-01'di —
     // 262 gün fark, yani madde kırılmasız görünüyordu. TDV `katar` sonbaharı
     // doğruluyor; madde ile kayıt aynı güne çekildi, Değişmez 2 kapandı.
@@ -947,7 +947,7 @@ window.YERLESIMLER = [
     // Boşluk bırakmak "burada kimse yoktu" der; oysa şeyhlik oradaydı.
     s:[{f:"1913-07-29",t:"1916-11-03",d:"katar"},
        {f:"1916-11-03",t:"1923-10-29",d:"ingiltere"}] },
-{ ad:"Abu Dabi", tur:"liman", lat:24.454, lon:54.397, g:0, k:0, kur:"1761-01-01", kasitli_bosluk:true, d:[], s:[{f:"1820-01-08",t:"1923-10-29",d:"ingiltere"}] },
+{ ad:"Abu Dabi", tur:"liman", lat:24.454, lon:54.397, g:0, k:0, kur:"1761-01-01", kasitli_bosluk:true,bos:"devletsiz", d:[], s:[{f:"1820-01-08",t:"1923-10-29",d:"ingiltere"}] },
 { ad:"Nizva", tur:"sehir", lat:22.933, lon:57.533, g:0, k:0, d:[], s:[{f:"1281-01-01", t:"1515-04-01", d:"nebhani"},{f:"1515-04-01", t:"1923-10-29", d:"umman"}] },
 { ad:"Salala", tur:"liman", lat:17.020, lon:54.090, g:0, k:0, d:[], s:[{f:"1281-01-01", t:"1515-04-01", d:"nebhani"},{f:"1515-04-01", t:"1923-10-29", d:"umman"}] },
 { ad:"Mukalla", tur:"liman", lat:14.5329, lon:49.1248, g:0, k:0, d:[], s:[{f:"1888-01-01",t:"1923-10-29",d:"ingiltere"}] },
@@ -961,7 +961,7 @@ window.YERLESIMLER = [
 { ad:"Tanca", tur:"liman", lat:35.777, lon:-5.804, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1471-08-28",d:"merini"},{f:"1471-08-28",t:"1662-01-30",d:"portekiz",enklav:true},{f:"1662-01-30",t:"1684-02-05",d:"ingiltere",enklav:true},{f:"1684-02-05",t:"1923-10-29",d:"fas"}] },
 { ad:"Agadir", tur:"liman", lat:30.428, lon:-9.598, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1505-01-01",d:"merini"},{f:"1505-01-01",t:"1541-01-01",d:"portekiz",enklav:true},{f:"1541-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}] },
 // ---- KARADAĞ ----
-{ ad:"Cetinje", tur:"sehir", lat:42.391, lon:18.914, g:0, k:4, m:"İşkodra", kur:"1482-01-01", kasitli_bosluk:true,
+{ ad:"Cetinje", tur:"sehir", lat:42.391, lon:18.914, g:0, k:4, m:"İşkodra", kur:"1482-01-01", kasitli_bosluk:true,bos:"hata",
     s:[{f:"1697-01-01",t:"1923-10-29",d:"karadag"}], d:[{f:"1499-01-01",t:"1697-01-01"}],
     v:[{f:"1482-01-01",t:"1499-01-01",k:"Crnojeviç Zetası (Osmanlı tâbii)"}] },
 // ---- SAHİPSİZ BÖLGE NOKTALARI ----

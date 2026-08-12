@@ -227,11 +227,11 @@ window.YERLESIMLER_EK8 = [
 //    1281-fetih arasında sahipsiz görünecek. SAYIYI GİZLEMİYORUM —
 //    ILERLEME.md'de tek tek yazılı ve hepsi kasıtlıdır.
 { ad:"Obdorsk (Salehard)", tur:"kale", lat:66.5300, lon:66.6019, g:0, k:0, d:[],
-  kasitli_bosluk:true, neden:"1595 öncesi Yugra/Nenets toprağı — TDV sibir-hanligi hanlığın sınırını Tura-Tobol-İşim ve İrtiş civarı diye veriyor, Ob' ağzı bu sınırın DIŞINDA. Devletsiz dönem uydurma devletle doldurulmadı.",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"1595 öncesi Yugra/Nenets toprağı — TDV sibir-hanligi hanlığın sınırını Tura-Tobol-İşim ve İrtiş civarı diye veriyor, Ob' ağzı bu sınırın DIŞINDA. Devletsiz dönem uydurma devletle doldurulmadı.",
   s:[{f:"1595-01-01",t:"1923-10-29",d:"rusya"}] },
 
 { ad:"Yamal ucu", tur:"bolge", lat:70.1667, lon:72.5167, g:0, k:0, d:[],
-  kasitli_bosluk:true, neden:"Obdorsk ile aynı gerekçe; yarımadanın kuzey ucu için dolgu noktası — noktasız kalırsa Perm'in peteği 2.100 km uzaktan buraya uzanır.",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Obdorsk ile aynı gerekçe; yarımadanın kuzey ucu için dolgu noktası — noktasız kalırsa Perm'in peteği 2.100 km uzaktan buraya uzanır.",
   s:[{f:"1595-01-01",t:"1923-10-29",d:"rusya"}] },
 
 // Mangazeya, Taz nehrindeki kürk ticaret şehri — 1601'de kuruldu, 1670'lerde
@@ -239,43 +239,43 @@ window.YERLESIMLER_EK8 = [
 // bölge idaresi kesintiye uğramadı; `bit:` yazsam petek komşuya devrolur ve
 // aynı toprak iki kez sahiplendirilirdi.
 { ad:"Mangazeya", tur:"kale", lat:66.6900, lon:82.3300, g:0, k:0, d:[],
-  kasitli_bosluk:true, neden:"1601 öncesi Nenets/Selkup toprağı, devletsiz.",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"1601 öncesi Nenets/Selkup toprağı, devletsiz.",
   s:[{f:"1601-01-01",t:"1923-10-29",d:"rusya"}] },
 
 // ── ⑥ YENİSEY · TAYMIR ──────────────────────────────────────────────
 { ad:"Turuhansk", tur:"kale", lat:65.7972, lon:87.9553, g:0, k:0, d:[],
-  kasitli_bosluk:true, neden:"1607 öncesi Evenk/Ket toprağı, devletsiz.",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"1607 öncesi Evenk/Ket toprağı, devletsiz.",
   s:[{f:"1607-01-01",t:"1923-10-29",d:"rusya"}] },
 
 { ad:"Dudinka", tur:"sehir", lat:69.4058, lon:86.1778, g:0, k:0, d:[],
-  kasitli_bosluk:true, neden:"1667 öncesi Nganasan/Enets toprağı, devletsiz.",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"1667 öncesi Nganasan/Enets toprağı, devletsiz.",
   s:[{f:"1667-01-01",t:"1923-10-29",d:"rusya"}] },
 
 // Taymır'ın çıpası. Bu nokta olmadan yarımada (1,8 milyon km²) Perm'e
 // 2.973 km uzaktan bağlanıyordu — atlasın ölçülmüş EN UZAK emilmesi.
 { ad:"Hatanga", tur:"kale", lat:71.9769, lon:102.4675, g:0, k:0, d:[],
-  kasitli_bosluk:true, neden:"1626 öncesi Nganasan toprağı, devletsiz.",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"1626 öncesi Nganasan toprağı, devletsiz.",
   s:[{f:"1626-01-01",t:"1923-10-29",d:"rusya"}] },
 
 // ── ⑦ LENA · YANA · İNDİGİRKA ───────────────────────────────────────
 { ad:"Jigansk", tur:"kale", lat:66.7697, lon:123.3708, g:0, k:0, d:[],
-  kasitli_bosluk:true, neden:"1632 öncesi Evenk/Yakut toprağı, devletsiz.",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"1632 öncesi Evenk/Yakut toprağı, devletsiz.",
   s:[{f:"1632-01-01",t:"1923-10-29",d:"rusya"}] },
 
 { ad:"Bulun", tur:"sehir", lat:70.6667, lon:127.4000, g:0, k:0, d:[],
-  kasitli_bosluk:true, neden:"Lena deltası; 1632 öncesi devletsiz. Tarih Jigansk'la aynı çünkü ikisi de Lena havzasının aynı yılki Rus ilerlemesiyle bağlandı.",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Lena deltası; 1632 öncesi devletsiz. Tarih Jigansk'la aynı çünkü ikisi de Lena havzasının aynı yılki Rus ilerlemesiyle bağlandı.",
   s:[{f:"1632-01-01",t:"1923-10-29",d:"rusya"}] },
 
 { ad:"Verhoyansk", tur:"kale", lat:67.5500, lon:133.3833, g:0, k:0, d:[],
-  kasitli_bosluk:true, neden:"1638 öncesi Yakut/Even toprağı, devletsiz.",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"1638 öncesi Yakut/Even toprağı, devletsiz.",
   s:[{f:"1638-01-01",t:"1923-10-29",d:"rusya"}] },
 
 { ad:"Ust-Yansk", tur:"sehir", lat:70.9000, lon:136.5500, g:0, k:0, d:[],
-  kasitli_bosluk:true, neden:"Yana ağzı; Verhoyansk ile aynı 1638 ilerlemesi.",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"Yana ağzı; Verhoyansk ile aynı 1638 ilerlemesi.",
   s:[{f:"1638-01-01",t:"1923-10-29",d:"rusya"}] },
 
 { ad:"Zaşiversk", tur:"kale", lat:67.2500, lon:142.8500, g:0, k:0, d:[],
-  kasitli_bosluk:true, neden:"İndigirka; 1639 öncesi Yukagir/Even toprağı, devletsiz.",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"İndigirka; 1639 öncesi Yukagir/Even toprağı, devletsiz.",
   s:[{f:"1639-01-01",t:"1923-10-29",d:"rusya"}] },
 
 // ── ⑧ YÜKSEK ARKTİK ADALARI — pencerenin TAMAMINDA sahipsiz ─────────
@@ -301,28 +301,28 @@ window.YERLESIMLER_EK8 = [
 //    idarenin BAŞLADIĞI gündür, ilân edildiği değil.
 //    🔴 TDV'YE BASMIYOR — §4 gereği işaretli, itiraza açık.
 { ad:"Svalbard", tur:"bolge", lat:78.2300, lon:15.7348, g:0, k:0, d:[], s:[],
-  kasitli_bosluk:true, neden:"Terra nullius. Svalbard antlaşması 1920-02-09'da imzalandı ama 1925-08-14'te yürürlüğe girdi — Norveç hükümranlığı atlasın penceresi bittikten SONRA başlıyor. Pencerenin tamamında sahipsiz olması DOĞRUDUR." },
+  kasitli_bosluk:true,bos:"insansiz", neden:"Terra nullius. Svalbard antlaşması 1920-02-09'da imzalandı ama 1925-08-14'te yürürlüğe girdi — Norveç hükümranlığı atlasın penceresi bittikten SONRA başlıyor. Pencerenin tamamında sahipsiz olması DOĞRUDUR." },
   // ⚠️ maske: Longyearbyen (78,2200/15,6500) fiyortta, 2,2 km içeri alındı.
 
 { ad:"Franz Josef Toprağı", tur:"bolge", lat:80.3300, lon:52.8000, g:0, k:0, d:[], s:[],
-  kasitli_bosluk:true, neden:"1873'te keşfedildi; 1281-1923 penceresinde hiçbir devletin idaresi altında değil." },
+  kasitli_bosluk:true,bos:"insansiz", neden:"1873'te keşfedildi; 1281-1923 penceresinde hiçbir devletin idaresi altında değil." },
 
 { ad:"Severnaya Zemlya", tur:"bolge", lat:79.5000, lon:96.0000, g:0, k:0, d:[], s:[],
-  kasitli_bosluk:true, neden:"1913'te keşfedildi, 1926'da adlandırıldı. Pencerenin tamamında varlığı BİLİNMİYORDU — dosyadaki en sağlam kasıtlı boşluk." },
+  kasitli_bosluk:true,bos:"insansiz", neden:"1913'te keşfedildi, 1926'da adlandırıldı. Pencerenin tamamında varlığı BİLİNMİYORDU — dosyadaki en sağlam kasıtlı boşluk." },
 
 { ad:"Yeni Sibirya Adaları", tur:"bolge", lat:75.2000, lon:140.5000, g:0, k:0, d:[], s:[],
-  kasitli_bosluk:true, neden:"XVIII. yy'da keşfedildi, mamut dişi için Rus ruhsatıyla işletildi ama idarî kademesi olmadı. ⚠️ Bu dosyadaki dört boşluğun EN ZAYIFI — kaynak çıkarsa rusya dönemi açılmalı." },
+  kasitli_bosluk:true,bos:"insansiz", neden:"XVIII. yy'da keşfedildi, mamut dişi için Rus ruhsatıyla işletildi ama idarî kademesi olmadı. ⚠️ Bu dosyadaki dört boşluğun EN ZAYIFI — kaynak çıkarsa rusya dönemi açılmalı." },
 
 { ad:"Novaya Zemlya kuzeyi", tur:"bolge", lat:74.5000, lon:57.0000, g:0, k:0, d:[],
-  kasitli_bosluk:true, neden:"1877 öncesi kalıcı yerleşim ve fiilî idare yok (Pomor avcılığı idare değildir). 🔴 1877-01-01 TDV'ye BASMIYOR.",
+  kasitli_bosluk:true,bos:"insansiz", neden:"1877 öncesi kalıcı yerleşim ve fiilî idare yok (Pomor avcılığı idare değildir). 🔴 1877-01-01 TDV'ye BASMIYOR.",
   s:[{f:"1877-01-01",t:"1923-10-29",d:"rusya"}] },
 
 { ad:"Novaya Zemlya güneyi", tur:"bolge", lat:71.5000, lon:53.0000, g:0, k:0, d:[],
-  kasitli_bosluk:true, neden:"Novaya Zemlya kuzeyi ile aynı hüküm; 900 km'lik ada tek noktayla temsil edilemezdi.",
+  kasitli_bosluk:true,bos:"insansiz", neden:"Novaya Zemlya kuzeyi ile aynı hüküm; 900 km'lik ada tek noktayla temsil edilemezdi.",
   s:[{f:"1877-01-01",t:"1923-10-29",d:"rusya"}] },
 
 { ad:"Vaygaç", tur:"bolge", lat:69.9000, lon:59.3000, g:0, k:0, d:[],
-  kasitli_bosluk:true, neden:"Novaya Zemlya ile aynı hüküm. ⚠️ maske: ada merkezi 10m maskesinde deniz görünüyordu, 11 km kuzeye çekildi — dosyadaki EN BÜYÜK kaydırma.",
+  kasitli_bosluk:true,bos:"insansiz", neden:"Novaya Zemlya ile aynı hüküm. ⚠️ maske: ada merkezi 10m maskesinde deniz görünüyordu, 11 km kuzeye çekildi — dosyadaki EN BÜYÜK kaydırma.",
   s:[{f:"1877-01-01",t:"1923-10-29",d:"rusya"}] },
 
 ];

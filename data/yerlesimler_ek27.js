@@ -60,8 +60,13 @@ window.YERLESIMLER_EK27 = [
   s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1918-10-30",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1516-08-24",t:"1918-10-30"}], v:[] },
 
-{ ad:"Payas", tur:"kale", lat:36.755, lon:36.213, g:0, k:3, m:"Halep",
-  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1918-10-30",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1516-08-24",t:"1918-10-30"}], v:[] },
+// 🔴 PAYAS BURADAN DUSURULDU (12 Agustos 2026, koordinator).
+// Kayit YANLISTI: Fransiz donemini 1923-10-29'a kadar goturuyordu.
+// VERI SINIR 2 oturumu BIRINCIL KAYNAKTAN dogruladi — UK Cmd.1556 /
+// LNTS Vol.54 pp.178-193, Ankara Itilafnamesi Md.8: sinir
+// "immediately south of the locality of Payas" noktasindan basliyor
+// => Payas hattin KUZEYINDE, yani TURKIYE tarafinda.
+// DUZELTILMIS kayit: data/yerlesimler_ek28.js
+// (silinmedi, TASINDI — mukerrer nokta olmasin diye burasi bosaltildi)
 
 ];

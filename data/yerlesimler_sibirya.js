@@ -34,10 +34,10 @@ window.YERLESIMLER_SIBIRYA = [
 { ad:"Buryat toprakları (Selenge havzası)", tur:"bolge", lat:53.00, lon:110.00, g:0, k:0,
   s:[{f:"1281-01-01",t:"1631-01-01",d:"kuzey-yuan"},{f:"1631-01-01",t:"1923-10-29",d:"rusya"}] },
 { ad:"Yakut toprakları (Orta Lena)", tur:"bolge", lat:65.00, lon:123.00, g:0, k:0,
-  kasitli_bosluk:true, neden:"veri-yok — kaynak 1620 öncesi Yakut siyasi örgütlenmesini hiç tartışmıyor, doğrudan Rus fethiyle (1620'ler) başlıyor; birleşik bir devlet olup olmadığı ÖLÇÜLEMEDİ, devletsiz OLDUĞU da söylenmiyor",
+  kasitli_bosluk:true,bos:"veri-yok", neden:"veri-yok — kaynak 1620 öncesi Yakut siyasi örgütlenmesini hiç tartışmıyor, doğrudan Rus fethiyle (1620'ler) başlıyor; birleşik bir devlet olup olmadığı ÖLÇÜLEMEDİ, devletsiz OLDUĞU da söylenmiyor",
   s:[] },
 { ad:"Koryak toprakları", tur:"bolge", lat:62.00, lon:166.00, g:0, k:0,
-  kasitli_bosluk:true, neden:"veri-yok — kaynak Koryakların Rusya'ya tâbilik/haraç ilişkisini netleştirmiyor; yalnız 1769-70 kıtlık/çatışma kaybı ve 1931 Sovyet idaresi kuruluşu biliniyor",
+  kasitli_bosluk:true,bos:"veri-yok", neden:"veri-yok — kaynak Koryakların Rusya'ya tâbilik/haraç ilişkisini netleştirmiyor; yalnız 1769-70 kıtlık/çatışma kaybı ve 1931 Sovyet idaresi kuruluşu biliniyor",
   s:[] },
 
 // ---------- ③ UZAK DOĞU — Kamçatka (fetih) · Çukotka (devletsiz) ----------
@@ -45,10 +45,10 @@ window.YERLESIMLER_SIBIRYA = [
   kur:"1740-01-01",
   s:[{f:"1740-01-01",t:"1923-10-29",d:"rusya"}] },
 { ad:"Anadır (Anadyrsk)", tur:"kale", lat:64.75, lon:177.48, g:0, k:0,
-  kur:"1649-01-01", kasitli_bosluk:true, neden:"devletsiz — kale 1649'da kuruldu ama Çukçiler hiç boyun eğmedi, haraç hiç ödenmedi (kaynağın kendi ifadesiyle \"salt biçimsel bile değil\"), 1764'te kale TERK edildi; resmî ilhak ancak Sovyet döneminde (1923 ufkunun dışında)",
+  kur:"1649-01-01", kasitli_bosluk:true,bos:"devletsiz", neden:"devletsiz — kale 1649'da kuruldu ama Çukçiler hiç boyun eğmedi, haraç hiç ödenmedi (kaynağın kendi ifadesiyle \"salt biçimsel bile değil\"), 1764'te kale TERK edildi; resmî ilhak ancak Sovyet döneminde (1923 ufkunun dışında)",
   s:[] },
 { ad:"Çukotka merkezi", tur:"bolge", lat:66.00, lon:172.00, g:0, k:0,
-  kasitli_bosluk:true, neden:"devletsiz — Anadır'la aynı gerekçe (Çukçiler hiç fethedilmedi, haraç hiç ödenmedi); yarımadanın doğu ucunu Anadır'ın peteğinin taşmasına karşı kapatıyor",
+  kasitli_bosluk:true,bos:"devletsiz", neden:"devletsiz — Anadır'la aynı gerekçe (Çukçiler hiç fethedilmedi, haraç hiç ödenmedi); yarımadanın doğu ucunu Anadır'ın peteğinin taşmasına karşı kapatıyor",
   s:[] },
 
 ];
