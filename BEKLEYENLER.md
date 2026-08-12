@@ -1,9 +1,17 @@
 # BEKLEYENLER — Emre'nin kararını bekleyen kalemler
 
-> Son güncelleme: **12 Ağustos 2026, gün sonu**
+> Son güncelleme: **13 Ağustos 2026**
 > ⚠️ Bunlar sistemin **yapamayacağı** kararlar. Cevaplanmadan ilgili iş ilerlemez.
 
+⚠️ **BU DOSYANIN BAŞLIKLARI `arac/uret_bekleyenler.py` TARAFINDAN AYRIŞTIRILIYOR.**
+Aşağıdaki `## KARAR BEKLEYENLER` başlığı **kaldırılamaz** — 12 Ağustos'ta
+kaldırıldı ve üreteç patladı, yayın kapısı `data/bekleyenler.js`i bayat
+sayıp koşuyu durdurdu. 🟢 Üreteç doğru davrandı: eski çıktıyı korumak
+yerine gürültülü durdu (*"bayat tablo, yanlış tablodan kötüdür"*).
+
 ---
+
+## 🔴 KARAR BEKLEYENLER
 
 ## 🔴 ① YÜKSEKLİK / EĞİM VERİSİ — üç işin ortak kapısı
 
