@@ -208,3 +208,133 @@ yapılabilir** ve ikisi de Emre'nin şikâyet ettiği çemberi doğrudan etkiler
 sefer güzergâhı** kayıtlı. Gerçek orduların gerçekten yürüdüğü yollar,
 `c`nin sağlamasıdır — bir maliyet yüzeyi doğruysa, en ucuz yolu o
 güzergâhlara **benzemelidir.**
+
+---
+
+# EK — 12 Ağustos 2026
+
+## 🔴 ADIM B, BU HÂLİYLE SESSİZCE HİÇBİR ŞEY YAPMAZ — ölçüldü
+
+Yukarıda *"adım B: bugünkü ikili maliyeti üçe çıkar, nehir verisi VAR"*
+yazıyor. Bugün Dijkstra'nın **kapsam nöbetçisi** okundu (`uret_petek.py:1571`
+ve `:1575`) ve B'nin niçin işlemeyeceği çıktı:
+
+```python
+if _a < KV_MIN_KM2:                                    # 200 km² altı
+    continue                          # ızgara bu ölçekte karar veremez
+if _kvkp.contains(LineString([_ptl[_i], _rp])):
+    continue                          # kesin geometri geçerli — DOKUNMA
+```
+
+⇒ **Tohum ile parça arasındaki düz hat tamamen KARADAYSA, Dijkstra'nın
+cevabı ATILIR ve Voronoi kalır.**
+
+Ve bir nehir geçişi tam olarak böyledir: nehir kara maskesinde bir **delik
+değil**, bir **çizgi**. Yani `KARA.contains(hat)` bir nehrin üstünden
+geçerken de **TRUE** döner ⇒ nöbetçi, B'nin var olma sebebi olan vakayı
+**tam olarak eleyecek** kutudur.
+
+### Ve nöbetçi YANLIŞ DEĞİL — evreni değişti
+
+Gerekçesi kodun kendi yorumunda yazılı ve **doğru**:
+> *"0,05° ızgara mesafeyi ~%8 hatayla ölçer ve KARADA bu, Voronoi'nin
+> KESİN cevabından kötüdür."*
+
+**İkili maliyet için bu tartışmasız doğru.** Izgara orada düz mesafenin
+kaba bir *tahmini*dir, ve kaba tahmin kesin hesabın yerini almaz.
+
+🟢 **Ama maliyet ikili olmaktan çıktığı an, argüman TERSİNE DÖNER:**
+hücreler katsayı taşıdığında ızgara artık düz mesafeyi *tahmin etmiyor*,
+**Voronoi'nin hiç ifade edemediği BAŞKA bir büyüklüğü** ölçüyor. Karşısına
+konacak "kesin cevap" ortadan kalkar, dolayısıyla *"ondan kötü"* cümlesi
+anlamsızlaşır.
+
+⇒ ***Nöbetçi bir DOĞRULUK sınaması değil, bir KAPSAM sınaması — ve kapsamı
+ikili maliyete göre çizilmiş.*** B'ye geçilirken şart şuna dönmeli:
+```
+bugün    hat denizi kesiyor mu            → yalnız deniz vakaları
+B'de     hat SIFIRDAN BÜYÜK ceza taşıyor mu → deniz + nehir + (C'de) eğim
+```
+
+📌 Bu, `MIMARI §2.9`un (*"iki aşama birbirini iptal ediyor"*) **üçüncü**
+vakası ve en sinsisi: orada iki aşama çakışıyordu, burada bir nöbetçi
+**henüz yazılmamış** bir aşamayı önceden iptal ediyor. Ve iptal **sessiz**
+olurdu: B yazılır, koşu temiz biter, nehirler sınır olmaz, kimse sebebini
+sormaz.
+
+---
+
+## ⑤ TERİMLER — bunlar bizim icadımız değil, literatürün adları
+
+Emre'nin getirdiği doktrin taramasından (bkz. uyarı) çıkan **aranabilir**
+başlıklar. Değeri şurada: bugüne kadar bu konuyu tarif ediyorduk, artık
+**arayabiliyoruz.**
+
+| bizim dediğimiz | literatürdeki adı |
+|---|---|
+| kuş uçuşu geçersiz | **friction of distance** |
+| maliyet mesafesi | **cost distance** |
+| devletin gerçekten ulaşabildiği alan | **operational reach** |
+| arazinin geçilebilirliği | **trafficability** |
+| dağa/nehre yaslanan sınır | **natural frontiers** |
+| geçit · boğaz | **choke point** |
+| nehir geçişi (askerî) | **wet-gap crossing** · bridgehead |
+| eşit maliyet konturu | **isodapane** (izodap) |
+
+⚠️ **KAYNAK UYARISI — `CLAUDE.md §4` kırmızı çizgisi.** Bu tarama bir
+**yapay zekâ üretimi metindir** ve o kırmızı çizgide açıkça
+`🔴 KULLANILMAZ` kovasındadır. ⇒ **Kaynak olarak kullanılamaz.**
+Kullanılabilir olan tek şey: **nereye bakılacağını söylemesi.** Yukarıdaki
+terimlerin her biri gerçek ve hakemli literatürü olan kavramlardır; katsayı
+yazılacağı zaman dayanak **o literatür** olacak, bu metin değil.
+
+📌 Ve metnin kendisi de aynı şeyi söylüyor:
+> *"Ama ? işaretlerini bizim uydurmamamız lazım."*
+
+---
+
+## ⑥ KONTROL KADEMESİ — 6 basamak, ve bu **statü kademesi** tıkanıklığını açıyor
+
+```
+1  DOĞRUDAN     merkezden hızla asker gönderilebilir
+2  SÜREKLİ      yerel garnizon / vali var
+3  PERİYODİK    vergi ve asker zaman zaman toplanır
+4  ETKİ ALANI   yerel hükümdar merkeze bağlı
+5  TARTIŞMALI   merkez iddia ediyor, fiilî kontrol zayıf
+6  TEORİK       haritada var, fiilen yok
+```
+
+🟢 **Ve bu, Emre'nin 11 Ağustos kararıyla ÇELİŞMİYOR — onu tamamlıyor.**
+Emre statü kademesi için *"sadece iki renk olarak görünsün"* dedi. Yukarıdaki
+ölçek **veriye** aittir, **boyaya** değil:
+```
+VERİ      6 kademe   → denetlenebilir, sorgulanabilir, kartta yazılır
+HARİTA    2 renk     → doğrudan toprak · bağlı toprak     (Emre'nin kararı)
+```
+⇒ Ekran sadeliği ile veri zenginliği aynı anda mümkün; ikisi ayrı katman.
+
+📌 Ve **1923 sınavının tek tutmayan kalemi tam buraya düşüyor**: Kahire
+1922'de bağımsızlığını ilan etti ama İngiliz kontrolü sürdü — bugünkü model
+bunu *"ingiltere"* ya da *"misir"* diye **ikiye zorluyor**, oysa gerçek
+cevap **kademe 4**tür.
+
+---
+
+## ⑦ DÜZELTME — nehir hakkında sezginin ters olduğu iki nokta
+
+```
+Q = A × v          debi = kesit alanı × ortalama hız
+```
+① *"Nehir daraldıkça debi artar"* — **hayır.** Debi korunur; daralan
+kesitte artan şey **hız**tır. Askerî sonucu tersine çevirir: dar nehir
+kısa ama **hızlı**, geniş nehir uzun ama **yavaş ve sığ geçit taşıyabilir**.
+⇒ **En iyi geçiş noktası genellikle en dar yer DEĞİLDİR.**
+
+② Aynı şey köprü için de geçerli: köprü en dar yere değil, **iki yakası da
+yaklaşım yolu · sağlam zemin · manevra alanı** taşıyan yere kurulur.
+
+📌 Motora etkisi somut: nehir cezası **genişliğin tersiyle** değil,
+`genişlik × akıntı × kıyı eğimi` bileşkesiyle ölçeklenmeli. Bugün elimizde
+`ne_10m_rivers` var ama **yalnız çizgi** — genişlik, debi ve eğim **yok**.
+⇒ B adımı bugün ancak **sabit** bir nehir cezasıyla yapılabilir; ayrımlı
+ceza yeni veri ister. Bu, açıkça bir **kabalık** ve öyle damgalanmalı.

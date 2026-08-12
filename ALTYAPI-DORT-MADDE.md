@@ -183,3 +183,80 @@ değil, **internet kotası ve disk** meselesi.
 ⚠️ Bu tablo **kaba bir ilk ölçümdür**, tam denetim değil. Her satırın
 kendi ölçüm aleti yazılmalı ve `durum_tablosu.py` gibi **üretilmeli** —
 elle yazılan tablo bayatlar (`CLAUDE.md §1.5`, üç kez yaşandı).
+
+---
+
+# ⑤ KORİDOR AĞI — beşinci madde (Emre, 12 Ağustos 2026)
+
+> *"Ayrıca mümkünse tüm koridorlar ağı ve yerleşim noktalarını da tüm dünya
+> nezdinde ve bölgeleri ile birlikte benim 4 altyapı maddesi ile birlikte
+> yapmamız lazım. **5. madde de bu koridorlar ağı.** Yani bildiğin örümcek
+> ağı yahut balık ağı gibi **iplikler ve ipliklerin ortasında boğum
+> noktalardan** oluşuyor."*
+
+📌 Belgenin adı artık eksik: **DÖRT değil BEŞ madde.** Dosya adı `git`
+geçmişini bozmamak için korundu; sayı burada düzeltildi.
+
+## 🔴 YENİ OLAN: İKİ CİNS DÜĞÜM
+
+Önceki iki ifadede (iplik ağı · koridor ağı) düğüm = **yerleşim** sanılıyordu.
+Bu cümle onu ayırıyor: *"ipliklerin **ortasında** boğum noktalar."*
+
+```
+YERLEŞİM DÜĞÜMÜ     şehir · kasaba · kale       SAHİBİ VAR → BOYANIR
+BOĞUM DÜĞÜMÜ        geçit · geçit-boğaz · geçiş yeri · köprü ·
+                    yol kavşağı · menzil · derbend
+                    ⇒ yerleşim OLMAYABİLİR ama KORİDORU DENETLER
+```
+
+⇒ Boğum, doktrindeki **choke point**'in ta kendisi. Ve tarihî karşılığı
+belgeli bir kurumdur: **derbend teşkilatı** (geçit bekçiliği), **menzilhane**
+(konak), **köprü**, **geçit**, **boğaz**.
+
+🟢 Ve bu ayrım bir kusuru da açıklıyor: bugün bir geçidi haritada tutmanın
+tek yolu oraya **yerleşim noktası koymaktı** — ve o nokta hemen bir **petek
+sahibi** oluyordu, yani bir geçit **toprak boyuyordu.** Boğum düğümü bunu
+çözer: *koridoru denetler, alan boyamaz.*
+
+⚠️ **Ve bu, Emre'nin kendi sınırıyla uyumlu** (Boğdan mesajı):
+*"sırf sınırı keskinleştireceğiz diye 4. sınıf yerlere bölge atfetmeyelim."*
+Boğum düğümü tam olarak **bölge atfetmeden** haritaya girmenin yoludur.
+
+## Öteki dört maddeyle ilişkisi — ⑤ onları BAĞLAR, tekrar etmez
+
+```
+① TOPOGRAFYA   ipliğin AĞIRLIĞINI verir (eğim · nehir · çöl)
+               🔴 ama ⑤ ①'i BEKLEMEK ZORUNDA DEĞİL — ağırlık tarihî
+                  kaynaktan da gelebilir (konak/menzil sayısı).
+                  Bu bir HİPOTEZ, sınanmadı. MESAFE-VE-SURTUNME §⑧.
+② 1281 YERLEŞİM  ağın YERLEŞİM düğümleri
+               ⇒ ⑤ buna BOĞUM düğümlerini ekliyor — YENİ veri sınıfı
+③ BÖLGE PAYI   "kardeş payı" artık alan üzerinde değil KENAR üzerinde
+               hesaplanır ⇒ ③ün matematiği ⑤te yaşıyor
+④ ZAMAN AYAĞI  🔴 KORİDOR DA ZAMANLA DEĞİŞİR — yol açılır, köprü yıkılır,
+               geçit kapanır. Yani ⑤ de ④ün zaman alanına muhtaç.
+               (Kenarın da `f`/`t`si olmalı.)
+```
+
+## Kapsam — Emre: "tüm dünya nezdinde"
+
+⚠️ Bu, `ONCELIK.md`nin **çöl seyyahı ilkesiyle** çelişebilir ve
+**çelişkiyi bildirmek koordinatörün borcudur:** bugün 2362 nokta var ve
+harita penceresi dünyanın bir kısmını kapsıyor. *"Tüm dünya"* koridor ağı,
+bugünkü nokta yoğunluğunun kaldıramayacağı bir hedef olabilir.
+⇒ **Kademe önerisi (Emre onaylayacak):** önce Osmanlı kuşağı (kolların
+belgeli olduğu yer), sonra halka halka. Ağ, noktaların gerisinden gelir.
+
+## ⚠️ HİÇBİRİ ÖLÇÜLMEDİ — açıkça
+
+```
+· boğum düğümünün VERİ ŞEMASI                          yok
+· kenarın şeması (uç · ağırlık · f/t · kalınlık)        yok
+· 2362 nokta için kaç kenar doğar                       hesaplanmadı
+· menzil/konak verisinin TDV'de sayıyla bulunup         SINANMADI
+  bulunmadığı                                            (ucuz sınav)
+· ağın petek motorunu değiştirip değiştirmeyeceği       karar YOK
+· "tüm dünya" kapsamının maliyeti                        ölçülmedi
+```
+🔴 **Bilinmeden kod yazılmayacak.** Bu bölüm bir TASARIM değil, bir
+**tasarım şartnamesidir.**

@@ -219,3 +219,88 @@ hâli"** kalemi zaten duruyor. Bu belge onun **şartnamesidir.**
 ⚠️ Ama sıra bağlayıcı (`ALTYAPI-DORT-MADDE.md`): **③ ← ① ← veri.** Sürtünme
 haritası, yükseklik/eğim verisi olmadan kurulamaz — ve o veri bugün **yok**,
 indirilmesi **internet kotası + disk** kararına bağlı.
+
+---
+
+# ⑧ KORİDOR AĞI — Emre, 12 Ağustos 2026 (ÜÇÜNCÜ söyleyiş)
+
+> *"Aslında haritamızı **koridorlar ağı haritasına** çevirmemiz lazım. Bu
+> koridorlar ağındaki noktaların bölgelerini daha sonra devletlerin
+> renklerine boyarız."*
+
+## Bu, aynı modelin ÜÇÜNCÜ ifadesi — ve bu bir ölçüm
+
+```
+10-11 Ağu  BOĞDAN MESAJI   3. sınıf merkez + bağlı 4. sınıflar; iki yerleşim
+                           arasındaki yol/vadi/ova KARDEŞ PAYI bölünür,
+                           engel varsa engellenene DAHA AZ pay
+11 Ağu     İPLİK AĞI       düğümler değişen KALINLIKTA bağlarla bağlı;
+                           kalın ip = ana yol · ince ip = tali yol
+12 Ağu     KORİDOR AĞI     ağ ÖNCE kurulur, bölge ONDAN türer, boya EN SON
+```
+📌 Üçü de bağımsız anlardan geldi ve **aynı şeyi** söylüyor. Projenin kendi
+dersi: *"aynı soruna üç yönden bakmak bir HÜKÜM üretir."* ⇒ Bu artık bir
+öneri değil, **modelin kendisi.**
+
+## Yeni olan: SIRA
+
+Üçüncü ifade öncekilere bir şey ekliyor — **işlem sırası.**
+```
+BUGÜN    nokta → Voronoi (düz mesafe) → petek → boya
+EMRE     nokta → KORİDOR AĞI → koridor boyunca pay → bölge → boya
+```
+⇒ Koridor **çıktı değil GİRDİ.** Bugün koridoru (varsa) peteklerden
+okuyoruz; Emre'nin modelinde petek koridordan doğuyor.
+
+## 🟢 VE BU, TIKANMIŞ KAPIYI AŞMANIN BİR YOLU OLABİLİR
+
+Bugüne kadarki teşhis şuydu: *maliyet yüzeyi ⇒ yükseklik/eğim verisi ⇒
+Emre'nin kota kararı.* **Koridor ağı bu zinciri kısaltıyor:**
+
+```
+RASTER yaklaşımı   her hücreye maliyet ver → en ucuz yolu BUL
+                   ⇒ eğim HER YERDE gerekir          🔴 veri YOK
+ÇİZGE yaklaşımı    koridorlar TARİHTEN BİLİNİR → yalnız TARTMAK gerekir
+                   ⇒ eğim GEREKMEZ; ağırlık kaynaktan gelir
+```
+
+🔴 **Ve ağırlığın kaynağı olabilecek şey elimizin altında:** tarihî
+kaynaklar mesafeyi zaten **km değil KONAK/MENZİL** olarak veriyor —
+*"Bursa'dan Edirne'ye şu kadar konak."* Bu **doğrudan kenar ağırlığıdır**,
+ve ChatGPT taramasının *"merkezden uzaklık yerine merkezden ERİŞİM SÜRESİ"*
+dediği şeyin tarihî kaynaktaki hazır hâli.
+
+⚠️ **HENÜZ ÖLÇÜLMEDİ — bu bir HİPOTEZ, bilgi değil.** Sınanacak sorular:
+```
+· TDV menzil / kervan yolu maddeleri kol kol güzergâh veriyor mu
+· konak mesafeleri madde metinlerinde SAYIYLA geçiyor mu
+· Osmanlı dışı coğrafya için karşılığı ne (kapsama %0 olan yerler)
+· 41 sefer güzergâhı bu ağın kaç kenarını zaten kaplıyor
+```
+📌 Sınama **ucuz**: birkaç TDV maddesi okunur, konak sayısı var mı bakılır.
+Hipotez tutarsa yükseklik verisi kapısı **koridorlar için** açılmadan da
+geçilebilir — dağların İÇİ için hâlâ gerekir, ama sınırların çoğu
+koridorlar boyunca belirlenir.
+
+## İlişkisi: B1 bir sapma değil, ağın KURUCU ALETİ
+
+`ETKI-ALANI-MATEMATIGI.md` B1 (maliyet mesafesinin karaya açılması)
+koridor ağının **rakibi değil**, iki ucu:
+```
+B1 verir      iki nokta arasındaki EN UCUZ YOL — yani koridorun kendisi
+koridor ağı   o yolları düğüm-kenar olarak SAKLAR ve tartar
+kardeş payı   kenar boyunca toprağı bölen kural (Emre'nin Boğdan tarifi)
+```
+⇒ Sıra: **B1 → koridorları çıkar → kaynakla tart → payı kenardan hesapla.**
+
+## ⚠️ AÇIKÇA ÖLÇÜLMEMİŞ OLANLAR
+
+```
+· koridor ağının VERİ ŞEMASI                          tasarlanmadı
+· "kardeş payı"nın kenar üzerindeki matematiği        yazılmadı
+· ağırlığı olmayan kenarda ne yapılacağı              karar YOK
+· bir koridor ağının petek motorunu DEĞİŞTİRİP        ölçülmedi
+  değiştirmeyeceği (yoksa üstüne mi bineceği)
+· 2362 nokta için kenar sayısı ve maliyeti            hesaplanmadı
+```
+🔴 Bunların hiçbiri bugün bilinmiyor ve **bilinmeden kod yazılmayacak.**
