@@ -1,5 +1,32 @@
 # KORİDOR TASARIM — 5. altyapı maddesi · ÖNCE SINA, sonra tasarla
 
+---
+
+# 🔴🔴 BU TURDA YALNIZ **İŞ 1** YAPILACAK — cephane %98 dolu
+
+```
+YAPACAĞIN     § ② İŞ 1  (menzil hipotezini sına)  ← YALNIZ BU
+YAPMAYACAĞIN  İŞ 2 · İŞ 3 · İŞ 4 · İŞ 5           ← perşembeye kaldı
+```
+
+**İŞ 1'in cevabını bulur bulmaz DUR ve RAPOR ET.** Sonraki işlere
+*"madem buradayım"* diye geçme — cephane 12 saat sonra tazeleniyor ve
+o işler perşembeye planlandı.
+
+⚠️ **BÜTÇE: en çok 12-15 tur.** O sınıra yaklaşırsan ne bulduysan
+**hemen** rapor et; eksik bir rapor, gönderilmemiş bir rapordan
+sonsuz değerlidir.
+
+⚠️ **Ve TERSİ de kayıptır:** İŞ 1 erken biterse *"bitti"* deyip susma —
+elinde tur kalmışsa **İŞ 2'nin yalnız `git grep` ayağını** yap
+(var olan alanları ara, LİSTELE, tasarlama). O ayak ucuz ve perşembeyi
+hızlandırır. Ondan ötesine **geçme.**
+
+📌 Emre'nin sözü: *"yarım kalmadan ve harcanmamış token bırakmadan."*
+İki ölçüt birden — ne taşır ne eksik bırakırsın.
+
+---
+
 ## ⓪ KİMLİK — HADDİN
 ```
 SEN        : ARAŞTIRMA + TASARIM oturumu · adın KORİDOR TASARIM
