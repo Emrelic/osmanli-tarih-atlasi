@@ -84,18 +84,42 @@ def beep(n=9):
         pass
 
 
-def zincir(yayinla=True):
+def zincir(yayinla=True, uretimsiz=False):
     yaz("\n\n" + "#" * 66)
-    yaz("# TOKENSİZ YAYIN ZİNCİRİ — başlangıç %s"
-        % time.strftime("%Y-%m-%d %H:%M:%S"))
+    yaz("# TOKENSİZ YAYIN ZİNCİRİ — başlangıç %s%s"
+        % (time.strftime("%Y-%m-%d %H:%M:%S"),
+           "   [EMNİYET AĞI — üretim ATLANIYOR]" if uretimsiz else ""))
     yaz("#" * 66)
 
-    if kos("üretim (uret_petek.py) ~75 dk", [sys.executable, "arac/uret_petek.py"],
-           dk=200) is None:
-        return 1
-    if kos("devirler (uret_devirler.py)",
-           [sys.executable, "arac/uret_devirler.py"], dk=40) is None:
-        return 1
+    if uretimsiz:
+        # 🔴 EMNİYET AĞI (Emre'nin sorusu, 12 Ağustos 2026):
+        #    "koşu 75 dk sürerse 23:50 gibi bir saate yayın komutu
+        #     zamanlayabilir miyiz?"
+        #    Yayın ZATEN zincirin içinde ve normalde bu koşu GEREKSİZDİR.
+        #    Var oluş sebebi tek bir hâl: ana zincir üretimi bitirdi ama
+        #    SONRAKİ bir adımda öldü (çökme · kilitli dosya · ağ). O zaman
+        #    diskte TAZE çıktı vardır ve kimse yayınlamamıştır.
+        #    ⚠️ Ana zincir başarıyla push ettiyse bu koşu hiçbir şey bulmaz
+        #    ve TEMİZ çıkar — zararsızdır. "Yayınlanmamış olma" ihtimaline
+        #    karşı ödenen ucuz sigorta.
+        if not os.path.exists(os.path.join(KOK, "data", "donemler.js")):
+            yaz("🔴 data/donemler.js YOK — üretim hiç koşmamış. DURDUM.")
+            return 1
+        yas = (time.time()
+               - os.path.getmtime(os.path.join(KOK, "data", "donemler.js"))) / 3600.0
+        yaz("donemler.js yaşı: %.1f saat" % yas)
+        if yas > 6:
+            yaz("🔴 ÇIKTI 6 SAATTEN ESKİ — bu, bu geceki koşunun ürünü DEĞİL.")
+            yaz("   Bayat çıktıyı yayınlamak, hiç yayınlamamaktan KÖTÜDÜR.")
+            yaz("   DURDUM, yayın YAPILMADI.")
+            return 1
+    else:
+        if kos("üretim (uret_petek.py) ~75 dk",
+               [sys.executable, "arac/uret_petek.py"], dk=200) is None:
+            return 1
+        if kos("devirler (uret_devirler.py)",
+               [sys.executable, "arac/uret_devirler.py"], dk=40) is None:
+            return 1
     # 🔴 renk ölçümü: CLAUDE.md §9 — veriye dokunan her koşudan sonra ŞART.
     #    Ölümcül DEĞİL: uyarı üretir, yayını kesmez (eşik ≠ tercih ayrımı).
     kos("renk ölçümü (renk_olc.py)", [sys.executable, "arac/renk_olc.py"],
@@ -135,11 +159,12 @@ def zincir(yayinla=True):
     return 0
 
 
-def zamanla(saat):
+def zamanla(saat, uretimsiz=False):
     """Windows Görev Zamanlayıcısına bağla — TOKENSİZ koşar."""
-    ad = "AtlasKosuZinciri"
-    komut = '"%s" "%s"' % (sys.executable,
-                           os.path.join(KOK, "arac", "kos_ve_yayinla.py"))
+    ad = "AtlasYayinAgi" if uretimsiz else "AtlasKosuZinciri"
+    komut = '"%s" "%s"%s' % (sys.executable,
+                             os.path.join(KOK, "arac", "kos_ve_yayinla.py"),
+                             " --uretimsiz" if uretimsiz else "")
     r = subprocess.run(["schtasks", "/Create", "/F", "/SC", "ONCE",
                         "/TN", ad, "/ST", saat, "/TR", komut],
                        capture_output=True, text=True, encoding="utf-8",
@@ -160,7 +185,7 @@ def main(argv):
         if i + 1 >= len(argv):
             print("!! --zamanla SAAT ister, ör. --zamanla 21:30")
             return 1
-        return zamanla(argv[i + 1])
+        return zamanla(argv[i + 1], uretimsiz="--uretimsiz" in argv)
     if "--kuru" in argv:
         print(__doc__)
         print("PLAN: uret_petek → uret_devirler → renk_olc → denetle →")
@@ -168,7 +193,8 @@ def main(argv):
         print("commit mesajı: %s  (%s)"
               % (MESAJ, "VAR" if os.path.exists(MESAJ) else "🔴 YOK"))
         return 0
-    return zincir(yayinla="--yayinlama" not in argv)
+    return zincir(yayinla="--yayinlama" not in argv,
+                  uretimsiz="--uretimsiz" in argv)
 
 
 if __name__ == "__main__":
