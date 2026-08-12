@@ -85,6 +85,34 @@ if _kvkp.contains(_hat) and not _NEHIR_PREP.intersects(_hat): continue
 yoksa 2362 × parça çağrısı koşuyu dakikalarca uzatır. **Aşama süresini ölç
 ve bildir** — koşu bütçesi 75-85 dk ve bu aşama bugün ~7 sn.
 
+### İŞ 2b — 🔴 ÇÖL VE BOZKIR MALİYETİ (13 Ağustos'ta eklendi)
+
+Emre'nin kendi cümlesi: *"çöl bozkır gibi tenha yerlerde toprakları devlete
+ne ölçüde katacağımız · düz çölde nereye kadar etki alanı uzanacağı ·
+**gözü kanatmadan** çöllerin bozkırların nasıl boyanacağı."*
+
+🟢 **VE BU BUGÜN YAPILABİLİR — veri ELİMİZDE:**
+```
+veri-kaynak/ne_10m_geography_regions_polys.geojson   5,3 MB · VAR
+  içinde çöl · bozkır · dağ kütlesi poligonları
+```
+⇒ Bir ızgara hücresi çöl poligonunun içindeyse maliyeti artar. Yükseklik
+verisi **GEREKMEZ.**
+
+⚠️ **AMA DAĞ ÇÖLÜ (Himalaya) YAPILAMAZ ve bunu KARIŞTIRMA:**
+```
+🟢 ÇÖL · BOZKIR   poligon YETER — düz alan, engel LOJİSTİK (su, yem)
+🔴 DAĞ            poligon YETMEZ — dağı dağ yapan RAKIM değil EĞİM,
+                  ve eğim verisi YOK. Emre'nin "dağ çölleri" dediği şey.
+```
+📌 Sahra ile Himalaya **aynı görünen, farklı veri isteyen** iki problem.
+Raporunda bu ikisini **ayrı satırda** ver.
+
+🔴 Ve `COL_TAVAN_KM = 300.0` (`:1656`) ölçülmüş olarak **fiilen ÖLÜ** —
+k0/k3/k4 tavanlarının hepsi 300'ün altında, yani hiç bağlamıyor. Çöl
+maliyeti onun **yerine geçmeli**, yanına değil. Ölü tavanı kaldırırken
+`C13 GEÇME` ile kanıtla: kaldırmak çıktıyı **bit bit aynı** bırakmalı.
+
 ### İŞ 3 — maliyet dizisini kademelendir
 Dijkstra adım maliyeti bugün gerçek km (`cos(enlem)` düzeltmeli). Nehir
 hücresine girişte **SABİT CEZA** ekle.
