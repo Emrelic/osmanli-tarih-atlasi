@@ -461,3 +461,63 @@ Dokunulan üç dosya: `yerlesimler_ek24.js` · `yerlesimler.js` ·
 koordinatör *"71 noktanın 45'i bayraksız"* ölçmüş, bu oturum *"202 sahipsizin
 68'i damgasız"* ölçtü — **68 ≠ 45**, evrenlerden biri dar ve hangisi olduğu
 ÖLÇÜLMEDİ. O iş başlamadan kaynağında çözülmeli.
+
+---
+
+## ⑬ AYRIŞMA ÇÖZÜLDÜ — AYRIŞMA YOKMUŞ (17:20 ölçümü)
+
+> 🔴 **Bu bölüm ASIL KANALA yazılıyor.** MOTOR MALİYET'in bugün yazdığı kural
+> (`KORIDOR-SEMA-ILERLEME.md`den okundu): ***asıl kanal DOSYA olsun, mesaj
+> yedek.*** Aşağıdaki bulgu ilk olarak yalnız **mesajla** gönderildi — yani
+> yanlış kanala. Buraya yazılmasının sebebi bu.
+
+```
+SORU A  "en az BİR kesitte sahipsiz"   202 · damgalı 134 · DAMGASIZ 68
+SORU B  "HİÇ sahipli olmamış"           71 · damgalı  26 · DAMGASIZ 45
+A \ B   "bir dönem sahipliydi, sonra sahipsiz kaldı"  131 · DAMGASIZ 23
+```
+⇒ Koordinatörün `71 · 26 · 45`i **birebir tuttu.** Ayrışma değil, **iki farklı
+soru**: `denetle.py` *"hiç delik var mı"* diye sorar, koordinatör *"bu nokta hiç
+sahiplenilmemiş mi"* diye. **Dar değil, BAŞKA.** Benim ⑫'deki *"evrenlerden biri
+dar"* çerçevem yanlıştı.
+
+### 🟢 BAĞIMSIZ DOĞRULAMA — ve `131` iki oturumda da aynı çıktı
+`VERI-COL-BAYRAK-ILERLEME.md` (16:43): *"geriye yalnız 6 şüpheli + **131
+'kısmen sahipsiz'** (hiç incelemediğim, şartname kapsamı dışı) kalıyor."*
+⇒ **131 birebir aynı sayı**, iki oturum bağımsız ölçtü. Ve o kümeyi **kimse
+incelemedi** — bu oturumun ölçtüğü **23 damgasız** tam oraya düşüyor.
+
+### 6 ŞÜPHELİ — üç noktada örtüştük, üçünde ayrıldık
+```
+VERİ ÇÖL BAYRAK  Ndjamena · Agadez · Tamanrasset · Timbuktu · Darfur · Hadramut
+bu oturum        Ndjamena · Timbuktu · Hadramut · Ogaden · Yeni Gine (2)
+ortak            Ndjamena · Timbuktu · Hadramut          (3)
+```
+Ölçütler farklıydı: onlar `tur:` alanına baktı (`sehir` vs `bolge`), bu oturum
+tarihî/coğrafî kimliğe. İkisi de kısmen doğru.
+
+### 🔴 VE BU OTURUMUN BİR İTİRAZI ÇÜRÜDÜ — kayda geçiyor
+Mesajla şunu bildirmiştim: *"Yeni Gine İç Kesimi çöl bile değil, yağmur
+ormanı — bayrak yanlış."* **Yanlış çerçeveydi.** Bayrak `kasitli_bosluk`
+bayrağıdır, *"çöl"* bayrağı değil; ve VERİ ÇÖL BAYRAK onu **gerekçesiyle**
+yazmış: *"Yeni Gine iç yaylaları için sömürge-öncesi temas yokluğu
+literatürü"* → `bos:"kabile"`. Aynısı **Ogaden** için de geçerli.
+⇒ Kusur onların kaydında değil, benim **ölçütümdeydi**: alanın adına
+(*"çöl bayrağı"*) bakıp içeriğini (*kasıtlı boşluk*) varsaydım.
+📌 `§11`in *"ölçüm doğru, çıkarım yanlış"* ailesine bu oturumun **ikinci**
+katkısı — ve ikisi de aynı turda çıktı.
+
+### 🟢 GEÇERLİ KALAN BULGU: `131`in içindeki 23 damgasız ÜÇ SINIF
+```
+① DÖNEM istiyor, bayrak değil   Riyad · Dir'iye · Hâil · Buraydâ · Uneyze ·
+   Şakrâ · Necid içi · Manama (Bahreyn) · Mukalla
+   `§3` bunları "1744 öncesi Necid, körfez şeyhlikleri" diye zaten sayıyor,
+   ama bunlar bir dönem SAHİPLİ, sonra sahipsiz ⇒ "hiç kimsenin olmadı"
+   değil, "bir aralıkta dönemi YOK". Bayrak bunu kapatmaz, GİZLER.
+② `bit:` istiyor                Mayapán (şehir 1441-61'de yıkıldı, 1460'tan
+   sonra sahipsiz) · Utatlán (Q'umarkaj) (1524'te yıkıldı, 1540'tan sonra)
+   Bayrak "burası kasten boş" der; doğrusu "yerleşim ORTADAN KALKTI".
+   `denetle.py:663` `bit:`i zaten okuyor.
+③ kalanı ölçülmedi — 23'ün 11'i yukarıda, gerisi tek tek bakılmadı
+```
+Ölçüm betiği: `scratchpad\ayrisma.py` (üç kovanın tam listesini basar).
