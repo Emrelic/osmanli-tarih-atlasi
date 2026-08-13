@@ -359,6 +359,28 @@ def main(argv):
     ortak = {"kim": al("--kim"), "hepsi": "--hepsi" in argv,
              "acik": "--acik" in argv, "gecikmis": "--gecikmis" in argv}
     if k == "yaz":
+        # 🔴 --mesaj-dosya: METİN KABUKTAN GEÇMEZ (§11).
+        # Vaka (14 Ağustos 2026, M-0018): koordinatör bir tahta mesajında
+        # `erdel` yazdı, backtick bash'te ÇALIŞTI ("erdel: command not found"),
+        # kelime mesajdan SİLİNDİ ve mesaj eksik gitti — üstelik araç "yazıldı"
+        # dedi. Bu, `§11`in "kural yetmiyor, ARACI DEĞİŞTİR" dersinin bu
+        # aletteki karşılığı: `git commit -F <dosya>` neyse bu da odur.
+        # ⇒ Kaçış/backtick/Türkçe içeren her mesaj `Write` ile dosyaya yazılır,
+        #   bash o dosyaya HİÇ dokunmaz, sonra --mesaj-dosya ile verilir.
+        if al("--mesaj-dosya"):
+            argv = list(argv)
+            try:
+                _m = io.open(al("--mesaj-dosya"), encoding="utf-8").read().strip()
+            except Exception as e:
+                print("🔴 --mesaj-dosya OKUNAMADI: %s" % e)
+                return 2
+            if not _m:
+                print("🔴 --mesaj-dosya BOŞ. Sessizce boş mesaj yazmam.")
+                return 2
+            argv += ["--mesaj", _m]
+
+            def al(ad, _a=argv):                      # noqa: F811 — yeni argv
+                return _a[_a.index(ad) + 1] if (ad in _a and _a.index(ad) + 1 < len(_a)) else None
         if not (al("--kim") and al("--kime") and al("--mesaj")):
             print("kullanim: tahta.py yaz --kim <AD> --kime <AD|KOORDINATOR|HERKES>")
             print("          --mesaj <metin> [--cevap-bekle] [--vade 'YYYY-AA-GG SS:DD']")
