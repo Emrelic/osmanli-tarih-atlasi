@@ -24,7 +24,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "RENK 3": "2026-08-13 22:19"
+   "RENK 3": "2026-08-13 22:19",
+   "Sonnet hazır kıta 2": "2026-08-13 23:23"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -41,7 +42,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "2026-08-14 10:00",
-  "okuyan": {},
+  "okuyan": {
+   "Sonnet hazır kıta 2": "2026-08-13 23:23"
+  },
   "yanit_no": "",
   "cins": "EMIR",
   "dayanak": "commit 3dfb8ba · arac/tahta.py",
