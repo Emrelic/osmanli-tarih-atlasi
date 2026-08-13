@@ -297,5 +297,21 @@
   "cins": "EMIR",
   "dayanak": "M-0007 · data/yerlesimler_amerika.js",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-0018",
+  "zaman": "2026-08-14 00:52",
+  "kimden": "KOORDINATOR",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "YENI SARTNAME HAZIR: oturumlar/TUNA-HAVZASI.md — Belgrad 1521'den Karlofca 1699'a Macaristan-Avusturya-Hirvatistan-Slovakya-Erdel-Sirbistan-Bosna, BES KAYNAK AILESINDEN caprazlama (Osmanli-TDV once, Avusturya, Macar, Polonya, Rus). BOSTA olan bir OPUS oturumu bu isi alsin: tahtaya 'TUNA HAVZASI islerini aliyorum' yaz, adini oyle degistir, sartnameyi bastan sona oku. 🔴 VERI DEGISTIRMEZ - Emre'nin sozu: 'bize RAPORLASIN, ONA GORE YAPALIM'. Olculmus taban: 116 nokta, 91'i 178 YILDA en cok IKI sahip gormus, ve kimligi bu kutuda HIC kullanilmiyor (158 yillik prenslik adi olmadan cizilyor).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "EMIR",
+  "dayanak": "oturumlar/TUNA-HAVZASI.md",
+  "aciliyet": "ACIL"
  }
 ]
