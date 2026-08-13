@@ -1125,17 +1125,17 @@ window.YERLESIMLER_AFRIKA = [
 // merkezdi, Osmanlı idaresi oraya hiç ulaşmadı ve İtalya ancak 1931'de —
 // atlasın kapsamı dışında — girdi.
 
-{ ad:"Serîr", tur:"bolge", lat:27.500, lon:22.000, g:0, k:0, s:[], d:[], v:[] },
+{ ad:"Serîr", tur:"bolge", lat:27.500, lon:22.000, g:0, k:0, s:[], d:[], v:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Serîr çölü, Libya'nın güneydoğusunda insansız çakıllı çöl kesimi; tarih boyunca yerleşim ve devlet denetimi kaydı yok." },
 
-{ ad:"Tâzirbû", tur:"bolge", lat:25.712, lon:21.061, g:0, k:0, s:[], d:[], v:[] },
+{ ad:"Tâzirbû", tur:"bolge", lat:25.712, lon:21.061, g:0, k:0, s:[], d:[], v:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Tâzirbû vaha grubu çevresindeki geniş çöl, Kufra-Fizan güzergahı üzerinde olsa da fiilen devlet denetimi dışındaydı." },
 
-{ ad:"Rebyâne", tur:"bolge", lat:24.200, lon:21.500, g:0, k:0, s:[], d:[], v:[] },
+{ ad:"Rebyâne", tur:"bolge", lat:24.200, lon:21.500, g:0, k:0, s:[], d:[], v:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Rebyâne kum deryası, Libya'nın en izole kesimlerinden biri; tarih boyunca yerleşimsiz ve devlet denetimi dışında." },
 
-{ ad:"Vâv el-Kebîr", tur:"bolge", lat:25.363, lon:17.221, g:0, k:0, s:[], d:[], v:[] },
+{ ad:"Vâv el-Kebîr", tur:"bolge", lat:25.363, lon:17.221, g:0, k:0, s:[], d:[], v:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Vâv el-Kebîr, Fizan'ın derin güneyinde ıssız bir çöl kesimi; Osmanlı Trablusgarp idaresinin ulaşamadığı bir alan." },
 
-{ ad:"İdehân Murzuk", tur:"bolge", lat:26.200, lon:12.400, g:0, k:0, s:[], d:[], v:[] },
+{ ad:"İdehân Murzuk", tur:"bolge", lat:26.200, lon:12.400, g:0, k:0, s:[], d:[], v:[], kasitli_bosluk:true, bos:"devletsiz", neden:"İdehân Murzuk kum denizi, Fizan'ın güneyinde yerleşimsiz bir alan; vaha kasabaları dışında devlet denetimi yok." },
 
-{ ad:"Kufra (el-Cûf)", tur:"bolge", lat:24.209, lon:23.300, g:0, k:0, s:[], d:[], v:[] },
+{ ad:"Kufra (el-Cûf)", tur:"bolge", lat:24.209, lon:23.300, g:0, k:0, s:[], d:[], v:[], kasitli_bosluk:true, bos:"kabile", neden:"Kufra vahaları 19. yy ortasından itibaren Sünûsî tarikatının dinî-aşiret nüfuzu altına girdi (bir devlet değil, tarikat/aşiret ağı); öncesinde de fiilen denetimsizdi." },
 
 // ===========================================================================
 // 17) md.17'NİN İKİNCİ YARISI — Fizan'ın dokuz noktası (OTURUM-14-DUZELTMELER §15)
@@ -1179,24 +1179,24 @@ window.YERLESIMLER_AFRIKA = [
 // Hiçbir devletin idaresine girmedi; tek işlevleri komşu peteğin çölü
 // yutmasını engellemek (CLAUDE.md §3, Sahra dolgu noktalarıyla aynı sınıf).
 
-{ ad:"İdehân Ubârî", tur:"bolge", lat:25.900, lon:11.300, g:0, k:0, s:[], d:[], v:[] },
+{ ad:"İdehân Ubârî", tur:"bolge", lat:25.900, lon:11.300, g:0, k:0, s:[], d:[], v:[], kasitli_bosluk:true, bos:"devletsiz", neden:"İdehân Ubârî kum denizi, Fizan'ın vaha zincirinin kenarında yerleşimsiz bir çöl kesimi, devlet denetimi dışında." },
 
-{ ad:"Ramletü Murzuk", tur:"bolge", lat:24.600, lon:12.100, g:0, k:0, s:[], d:[], v:[] },
+{ ad:"Ramletü Murzuk", tur:"bolge", lat:24.600, lon:12.100, g:0, k:0, s:[], d:[], v:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Ramletü Murzuk, Murzuk vahası çevresindeki ıssız kumul alanı; kervan durağı dışında devlet denetimi kaydı yok." },
 
-{ ad:"Vâdî Tanezzûft", tur:"bolge", lat:22.400, lon:11.300, g:0, k:0, s:[], d:[], v:[] },
+{ ad:"Vâdî Tanezzûft", tur:"bolge", lat:22.400, lon:11.300, g:0, k:0, s:[], d:[], v:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Vâdî Tanezzûft, Fizan'ın güneybatı ucunda ıssız bir vadi; tarih boyunca yerleşik devlet denetimi kaydı yok." },
 
-{ ad:"Serîr Kalanşû", tur:"bolge", lat:28.200, lon:21.700, g:0, k:0, s:[], d:[], v:[] },
+{ ad:"Serîr Kalanşû", tur:"bolge", lat:28.200, lon:21.700, g:0, k:0, s:[], d:[], v:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Serîr Kalanşû, Libya'nın en ıssız çakıllı çöl kesimlerinden biri; devlet denetimi kaydı yok." },
 
-{ ad:"Ramletü Zellâf", tur:"bolge", lat:25.600, lon:15.600, g:0, k:0, s:[], d:[], v:[] },
+{ ad:"Ramletü Zellâf", tur:"bolge", lat:25.600, lon:15.600, g:0, k:0, s:[], d:[], v:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Ramletü Zellâf kumulları, Fizan iç çölünde yerleşimsiz bir alan; devlet denetimi dışında." },
 
-{ ad:"Ma'tan es-Sarra", tur:"bolge", lat:21.700, lon:21.850, g:0, k:0, s:[], d:[], v:[] },
+{ ad:"Ma'tan es-Sarra", tur:"bolge", lat:21.700, lon:21.850, g:0, k:0, s:[], d:[], v:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Ma'tan es-Sarra, Libya'nın en güney ucunda ıssız bir kuyu/vaha noktası; devlet denetimi kaydı yok." },
 
 // ⚠️ Tâsîlî n'Accer LİBYA DEĞİL, CEZAYİR toprağıdır. Listeye Libya sınırını
 // düzeltmek için değil, Gât'ın BATI peteğini sınırlamak için girdi — o petek
 // bugün Cezayir çölüne taşıyor. Sahipsiz olması ayrıca doğru: Ahaggar-Tâsîlî
 // Tuareg konfederasyonunun alanıydı, ne Osmanlı ne Fransa 1923'e kadar
 // buraya idare kurdu.
-{ ad:"Tâsîlî n'Accer", tur:"bolge", lat:25.300, lon:9.200, g:0, k:0, s:[], d:[], v:[] },
+{ ad:"Tâsîlî n'Accer", tur:"bolge", lat:25.300, lon:9.200, g:0, k:0, s:[], d:[], v:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Tâsîlî n'Accer platosu, Cezayir-Libya sınırında ıssız bir kayalık yayla; devlet denetimi kaydı yok." },
 
 // --- 17b) İDARE EDİLEN (2) — Fizan kazaları, YENİ KIRILMA ÜRETMEZ ----------
 // Sebha ve Ubârî Fizan'ın gerçek kaza merkezleridir; dönem zincirleri

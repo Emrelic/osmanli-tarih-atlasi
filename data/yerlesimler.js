@@ -969,8 +969,8 @@ window.YERLESIMLER = [
 // kilometre uzanır ya da yarıçap sınırı yüzünden "baloncuk" oluşur. Bu noktalar
 // hiçbir zaman Osmanlı sayılmaz, yalnızca peteklerin nerede biteceğini belirler.
 { ad:"Nefud çölü", tur:"bolge", lat:28.30, lon:41.00, g:0, k:0, d:[], v:[{f:"1818-09-09",t:"1824-06-01",k:"Mısır (İbrâhim Paşa)"}], s:[{f:"1744-01-01",t:"1818-09-09",d:"suud"},{f:"1824-06-01",t:"1836-01-01",d:"suud"},{f:"1836-01-01",t:"1921-11-02",d:"sammar"},{f:"1921-11-02",t:"1923-10-29",d:"suud"}] },
-{ ad:"Rub'ul Hâlî kuzeyi", tur:"bolge", lat:22.50, lon:47.00, g:0, k:0, d:[] },
-{ ad:"Rub'ul Hâlî doğusu", tur:"bolge", lat:20.00, lon:52.00, g:0, k:0, d:[] },
+{ ad:"Rub'ul Hâlî kuzeyi", tur:"bolge", lat:22.50, lon:47.00, g:0, k:0, d:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Rub'ul Hâlî (Boş Çeyrek) tarih boyunca hiçbir devletin fiilen denetlemediği dünyanın en büyük kum çölüdür; sınırları ancak 20. yy'da Suudi-Yemen-Umman anlaşmalarıyla çizildi." },
+{ ad:"Rub'ul Hâlî doğusu", tur:"bolge", lat:20.00, lon:52.00, g:0, k:0, d:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Aynı Boş Çeyrek çölünün doğu ucu; kaynaklar bu iç kesimde tarih boyunca yerleşik siyasi denetim olmadığını belirtiyor." },
 { ad:"Necid içi", tur:"bolge", lat:25.50, lon:44.50, g:0, k:0, d:[], v:[{f:"1818-09-09",t:"1824-06-01",k:"Mısır (İbrâhim Paşa)"}], s:[{f:"1744-01-01",t:"1818-09-09",d:"suud"},{f:"1824-06-01",t:"1891-01-01",d:"suud"},{f:"1891-01-01",t:"1902-01-15",d:"sammar"},{f:"1902-01-15",t:"1923-10-29",d:"suud"}] },
 { ad:"Hadramut", tur:"bolge", lat:15.50, lon:48.50, g:0, k:0, d:[] },
 // m:"Kahire" EKLENDİ — kara-kısıtlı Voronoi prototipi bu bölgeyi Tebük'e (m:"Medine",
@@ -981,8 +981,8 @@ window.YERLESIMLER = [
 // Oturum 16'nın "geometri karar veremez" tespitinin tam örneği — bu bir petek kararı
 // değil, bir İDARE kararı. Motora özel durum yazmak yerine veri açık hâle getirildi.
 { ad:"Sina güneyi", isg:[{f:"1798-07-01",t:"1801-10-09",d:"fransa",kaynak:"kahire"}], tur:"bolge", lat:28.50, lon:33.80, g:0, k:0, m:"Kahire", s:[{f:"1281-01-01",t:"1517-01-22",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1517-01-22",t:"1805-07-03"}], v:[{f:"1805-07-03",t:"1867-06-08",k:"Mısır valiliği (Kavalalı hanedanı)"},{f:"1867-06-08",t:"1914-12-18",k:"Mısır Hidivliği"}] },
-{ ad:"Batı çölü (Mısır)", tur:"bolge", lat:26.50, lon:27.00, g:0, k:0, d:[] },
-{ ad:"Nûbe çölü", tur:"bolge", lat:20.50, lon:33.50, g:0, k:0, d:[] },
+{ ad:"Batı çölü (Mısır)", tur:"bolge", lat:26.50, lon:27.00, g:0, k:0, d:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Mısır'ın Libya (Batı) Çölü'nün derin iç kesimi; vaha şehirleri hariç bu alan tarih boyunca fiilen yerleşimsiz ve devletsizdir, Memlük/Osmanlı Mısır idaresi kıyı-vaha eksenliydi." },
+{ ad:"Nûbe çölü", tur:"bolge", lat:20.50, lon:33.50, g:0, k:0, d:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Nûbe Çölü'nün iç kesimi; Nil vadisi dışındaki bu alan tarih boyunca yerleşik nüfustan ve devlet denetiminden yoksundur." },
 // 🔴 md.40'IN AÇIK BORCU KAPANIYOR — üç KASTEN SAHİPSİZ dolgu noktası.
 // Oturum 14 dört vahayı (Hârice · Dâhile · Ferâfire · Bahriye) ekledi ve asimetri
 // kapandı, AMA kendi ölçümüyle bir borç doğdu: dört vahanın peteği 260.114 km²,
@@ -992,17 +992,17 @@ window.YERLESIMLER = [
 // Bu üç nokta o kum denizlerini geri oyuyor: vahalar sahipli kalıyor, aradaki çöl
 // boşalıyor. Hiçbir dönemi yok — kasten sahipsiz (CLAUDE.md, Değişmez 1 muafiyeti).
 // ⚠️ BEKLENEN_SAHIPSIZ 40 → 43 (Oturum 2'ye bildirildi).
-{ ad:"Ramletü'l-kübrâ (Büyük Kum Denizi)", tur:"bolge", lat:26.50, lon:26.00, g:0, k:0, d:[] },
-{ ad:"Gilf el-Kebîr", tur:"bolge", lat:23.50, lon:26.00, g:0, k:0, d:[] },
-{ ad:"Selîme (Nûbe çölü batısı)", tur:"bolge", lat:21.50, lon:29.30, g:0, k:0, d:[] },
+{ ad:"Ramletü'l-kübrâ (Büyük Kum Denizi)", tur:"bolge", lat:26.50, lon:26.00, g:0, k:0, d:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Büyük Kum Denizi (Great Sand Sea), Mısır-Libya sınırında insansız kum çölü; hiçbir dönemde bir devletin fiilen denetlediğine dair kayıt yok." },
+{ ad:"Gilf el-Kebîr", tur:"bolge", lat:23.50, lon:26.00, g:0, k:0, d:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Gilf el-Kebîr platosu, Sahra'nın en izole ve susuz kesimlerinden biri; tarihte hiçbir yerleşim ya da devlet denetimi kaydı yok." },
+{ ad:"Selîme (Nûbe çölü batısı)", tur:"bolge", lat:21.50, lon:29.30, g:0, k:0, d:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Selîme kum yaylası, Nûbe Çölü'nün batısında insansız bir kesim; kervan yolu üzerinde olsa da yerleşik/siyasi denetim kaydı yok." },
 { ad:"Kordofan", tur:"bolge", lat:13.00, lon:29.50, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)"}] },
 { ad:"Darfur", tur:"bolge", lat:13.50, lon:24.00, g:0, k:0, d:[] },
-{ ad:"Tibesti", tur:"bolge", lat:21.00, lon:17.50, g:0, k:0, d:[] },
-{ ad:"Fizan güneyi", tur:"bolge", lat:23.00, lon:14.00, g:0, k:0, d:[] },
-{ ad:"Büyük Doğu Ergi", tur:"bolge", lat:29.50, lon:7.50, g:0, k:0, d:[] },
-{ ad:"Hoggar", tur:"bolge", lat:24.00, lon:3.00, g:0, k:0, d:[] },
-{ ad:"Sahra batısı", tur:"bolge", lat:27.00, lon:-4.00, g:0, k:0, d:[] },
-{ ad:"Sirte iç çölü", tur:"bolge", lat:28.50, lon:18.50, g:0, k:0, d:[] },
+{ ad:"Tibesti", tur:"bolge", lat:21.00, lon:17.50, g:0, k:0, d:[], kasitli_bosluk:true, bos:"kabile", neden:"Tibesti dağlık çölü, Toubou (Tubu) aşiret konfederasyonlarının denetimindeydi; tarih boyunca herhangi bir devletin (Osmanlı Trablusgarp dahil) fiilen ulaştığı bir bölge değildi." },
+{ ad:"Fizan güneyi", tur:"bolge", lat:23.00, lon:14.00, g:0, k:0, d:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Fizan'ın (Fezzan) güney iç çölü, vaha zincirinin dışında kalan kesim; Evladü Muhammed/Osmanlı Trablusgarp idaresi kervan yolu ve vahalarla sınırlıydı, bu derin çöl kesimi denetim dışıydı." },
+{ ad:"Büyük Doğu Ergi", tur:"bolge", lat:29.50, lon:7.50, g:0, k:0, d:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Grand Erg Oriental (Büyük Doğu Kum Denizi), Cezayir-Tunus-Libya arasında geniş bir kumul denizi; tarih boyunca yerleşimsiz ve devlet denetimi dışında." },
+{ ad:"Hoggar", tur:"bolge", lat:24.00, lon:3.00, g:0, k:0, d:[], kasitli_bosluk:true, bos:"kabile", neden:"Hoggar (Ahaggar) yaylası, Kel Ahaggar Tuareg konfederasyonunun Amenokal liderliğinde denetlediği bir bölgeydi; bu bir aşiret/konfederasyon yapısıydı, devlet değil." },
+{ ad:"Sahra batısı", tur:"bolge", lat:27.00, lon:-4.00, g:0, k:0, d:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Batı Sahra'nın iç çöl kesimi; kıyı ve vaha yerleşimleri dışında bu alanda tarih boyunca yerleşik devlet denetimi yok." },
+{ ad:"Sirte iç çölü", tur:"bolge", lat:28.50, lon:18.50, g:0, k:0, d:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Sirte Körfezi'nin güneyindeki iç çöl kesimi, kıyı şeridinin (Osmanlı Trablusgarp) dışında kalan denetimsiz alan." },
 // ⚠️ DEŞT-İ KIPÇAK 1441'DE DEĞİL 1502'DE KIRIM'A GEÇER — 61 yıllık hata düzeltildi.
 // Kullanıcı 1476-02-01'de dört ekran görüntüsü gönderip "bu bölgede Kırım
 // Hanlığı var mıydı, nerede başlayıp nerede bitiyordu" diye sordu; gördüğü üç
@@ -1024,9 +1024,9 @@ window.YERLESIMLER = [
 { ad:"Yezd", tur:"sehir", lat:31.90, lon:54.37, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1335-12-01",d:"ilhanli"},{f:"1335-12-01",t:"1387-11-01",d:"iran"},{f:"1387-11-01",t:"1452-01-01",d:"timurlu"},{f:"1452-01-01",t:"1469-01-01",d:"karakoyunlu"},{f:"1469-01-01",t:"1508-01-01",d:"akkoyunlu"},{f:"1508-01-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20", t:"1796-01-01", d:"zend"},{f:"1796-01-01",t:"1923-10-29",d:"kacar"}] },
 { ad:"Tahran", tur:"sehir", lat:35.69, lon:51.39, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1335-12-01",d:"ilhanli"},{f:"1335-12-01",t:"1503-01-01",d:"iran"},{f:"1503-01-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20", t:"1796-01-01", d:"zend"},{f:"1796-01-01",t:"1923-10-29",d:"kacar"}] },
 { ad:"Tebbes", tur:"bolge", lat:33.60, lon:56.90, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1335-12-01",d:"ilhanli"},{f:"1335-12-01",t:"1381-04-01",d:"iran"},{f:"1381-04-01",t:"1507-05-24",d:"timurlu"},{f:"1507-05-24",t:"1510-12-02",d:"buhara"},{f:"1510-12-02",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20", t:"1796-01-01", d:"zend"},{f:"1796-01-01",t:"1923-10-29",d:"kacar"}] },
-{ ad:"Karakum", tur:"bolge", lat:39.50, lon:58.50, g:0, k:0, d:[] },
-{ ad:"Somali çölü", tur:"bolge", lat:8.00, lon:46.50, g:0, k:0, d:[] },
-{ ad:"Ogaden", tur:"bolge", lat:7.20, lon:44.00, g:0, k:0, d:[] },
+{ ad:"Karakum", tur:"bolge", lat:39.50, lon:58.50, g:0, k:0, d:[], kasitli_bosluk:true, bos:"kabile", neden:"Karakum Çölü, Teke ve Yomut gibi Türkmen aşiret konfederasyonlarının göçer denetimindeydi; Hîve/Buhara hanlıklarının fiilen ulaşamadığı bir iç bölgeydi." },
+{ ad:"Somali çölü", tur:"bolge", lat:8.00, lon:46.50, g:0, k:0, d:[], kasitli_bosluk:true, bos:"kabile", neden:"Somali iç çölü, devlet yapısı yerine klan (Darod, Hawiye vb.) esaslı toplumsal düzenin geçerli olduğu bir bölgeydi; sömürge öncesinde merkezi bir devlet denetimi yoktu." },
+{ ad:"Ogaden", tur:"bolge", lat:7.20, lon:44.00, g:0, k:0, d:[], kasitli_bosluk:true, bos:"kabile", neden:"Ogaden, Somali Ogaden/Darod klanlarının yaşadığı bölgedir; Habeşistan ve Somali arasında tartışmalı olsa da tarih boyunca merkezi devlet denetiminden çok klan yapısı hakimdi." },
 
 // ---- TR-Wikipedia kronoloji karşılaştırmasıyla eklenen yerleşimler (parti 5) ----
 // Macaristan / Erdel cephesi
@@ -1820,15 +1820,15 @@ window.YERLESIMLER = [
 // mecrasını değiştirip Aral'a döküldü (TDV HÂRİZM); yatak bütünüyle çöl.
 // Susuz, devletsiz. Krasnovodsk'a 216 km, Karakum'a 261 km — ikisinin
 // arasındaki 475 km'lik açığı kapatır.
-{ ad:"Uzboy", tur:"bolge", lat:39.9000, lon:55.5000, g:0, k:0, d:[] },
+{ ad:"Uzboy", tur:"bolge", lat:39.9000, lon:55.5000, g:0, k:0, d:[], kasitli_bosluk:true, bos:"kabile", neden:"Uzboy (kurumuş Amuderya yatağı) çevresi Türkmen aşiretlerinin göçer alanıydı, yerleşik devlet denetimi yoktu." },
 
 // Üstyurt, Hazar ile Aral arasındaki susuz kireçtaşı platosu. Yerleşim yok;
 // Türkmen, Kazak ve Karakalpak boylarının geçiş güzergâhı. Hîve'nin iddiası
 // vardı ama fiilî idare kurulmadığı için sahip yazılmadı (MIMARI.md §6:
 // "burada kimse yoktu" ile "burasını bilmiyoruz" farklı iddialardır — bu
 // devletsizliktir). İki nokta gerekti: Mangışlak ile Küngrat arası 474 km.
-{ ad:"Üstyurt platosu (batı)", tur:"bolge", lat:43.8000, lon:53.5000, g:0, k:0, d:[] },
-{ ad:"Üstyurt platosu (doğu)", tur:"bolge", lat:43.5000, lon:56.5000, g:0, k:0, d:[] },
+{ ad:"Üstyurt platosu (batı)", tur:"bolge", lat:43.8000, lon:53.5000, g:0, k:0, d:[], kasitli_bosluk:true, bos:"kabile", neden:"Üstyurt platosu, Karakalpak ve Türkmen aşiretlerinin göçer/konar-göçer kullanımındaki bir bozkır-çöl yaylasıydı, devlet denetimi dışında." },
+{ ad:"Üstyurt platosu (doğu)", tur:"bolge", lat:43.5000, lon:56.5000, g:0, k:0, d:[], kasitli_bosluk:true, bos:"kabile", neden:"Üstyurt platosunun doğu kesimi de aynı şekilde göçer aşiret kullanımındaydı, Hîve Hanlığı'nın fiilen ulaşamadığı bir alan." },
 
 // ===== 3. HAREZM (58-62°D) =====
 

@@ -120,9 +120,9 @@ window.YERLESIMLER_EMILME = [
 // `kasitli_bosluk` alanı YOK çünkü bu alan `kur:`e eşlenir ve buradaki
 // noktalar zaten hep "vardı", yalnız hiç merkezi devlete bağlanmadı).
 // Amaç: kıyı limanlarının peteğinin devasa iç kesimi emmesini durdurmak.
-{ ad:"Yeni Gine İç Yaylaları (Merkez — Mount Hagen)", tur:"bolge", lat:-5.86, lon:144.23, g:0, k:0, d:[] },
-{ ad:"Yeni Gine İç Yaylaları (Batı — Baliem Vadisi)", tur:"bolge", lat:-4.10, lon:138.94, g:0, k:0, d:[] },
-{ ad:"Yeni Gine İç Kesimi (Kuzey — Sepik Havzası)", tur:"bolge", lat:-4.50, lon:143.50, g:0, k:0, d:[] },
-{ ad:"Yeni Gine İç Kesimi (Güney — Fly Nehri Bataklıkları)", tur:"bolge", lat:-8.00, lon:141.50, g:0, k:0, d:[] },
+{ ad:"Yeni Gine İç Yaylaları (Merkez — Mount Hagen)", tur:"bolge", lat:-5.86, lon:144.23, g:0, k:0, d:[], kasitli_bosluk:true, bos:"kabile", neden:"Yeni Gine iç yaylaları, 20. yy'a kadar dış dünyayla teması olmayan, klan temelli kabile toplumlarının (ör. Hagen çevresi halkları) yaşadığı bölgedir; devlet yapısı hiç oluşmadı." },
+{ ad:"Yeni Gine İç Yaylaları (Batı — Baliem Vadisi)", tur:"bolge", lat:-4.10, lon:138.94, g:0, k:0, d:[], kasitli_bosluk:true, bos:"kabile", neden:"Baliem Vadisi, Dani halkının klan temelli kabile toplumuyla yaşadığı, 1938'e kadar dış dünyaca bilinmeyen bir bölgedir; devlet yapısı hiç oluşmadı." },
+{ ad:"Yeni Gine İç Kesimi (Kuzey — Sepik Havzası)", tur:"bolge", lat:-4.50, lon:143.50, g:0, k:0, d:[], kasitli_bosluk:true, bos:"kabile", neden:"Sepik Havzası, çok sayıda dilsel/klan grubunun kabile temelli yaşadığı, sömürge öncesi devlet yapısı bilinmeyen bir bölgedir." },
+{ ad:"Yeni Gine İç Kesimi (Güney — Fly Nehri Bataklıkları)", tur:"bolge", lat:-8.00, lon:141.50, g:0, k:0, d:[], kasitli_bosluk:true, bos:"kabile", neden:"Fly Nehri bataklıkları çevresi, dış dünyayla teması çok geç kurulmuş, klan temelli kabile toplumlarının yaşadığı bir bölgedir." },
 
 ];

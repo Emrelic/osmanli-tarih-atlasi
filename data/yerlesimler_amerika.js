@@ -979,7 +979,8 @@ window.YERLESIMLER_AMERIKA = [
 // kaynak: Weber (1992). Santa Fe: Vali Pedro de Peralta, 1610; Pueblo İsyanı 10 Ağustos 1680;
 //         Vargas'ın yeniden fethi Ağustos 1692. San Antonio: Misyon Valero, 1 Mayıs 1718. San
 //         Diego: Junípero Serra, 16 Temmuz 1769. San Francisco: Misyon Dolores, 29 Haziran 1776.
-// ⚠️ San Antonio 1836-1845 arası (Teksas Cumhuriyeti) BOŞ bırakıldı — bkz. "teksas-cumhuriyeti" önerisi.
+// 🟢 San Antonio 1836-1845 arası (Teksas Cumhuriyeti) artık "teksas-cumhuriyeti" ile DOLU
+// (13 Ağustos, Değişmez 1b düzeltmesi — bkz. San Antonio'nun kendi girdisi yukarıda).
 // k gerekçesi: İspanyol Kuzey Amerika'sının güneybatı sınır şehirleri — k:1-2
 
 { ad:"Novoarkhangelsk (Sitka)", tur:"sehir", lat:57.0531, lon:-135.3300, g:1, k:2, kur:"1799-07-01",

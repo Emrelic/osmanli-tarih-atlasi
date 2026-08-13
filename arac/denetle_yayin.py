@@ -350,6 +350,21 @@ CIZILMEYEN_MUAF = {
     # her biri için gerekçe ve TDV durumu ILERLEME.md'de). RENK oturumu açılıp
     # üçü yazıldığında bu üç satır SİLİNİR ve dosyalar index.html'e bağlanır.
     # ⚠️ Muafiyet KALICI DEĞİL — bir sonraki koşuda kapanması beklenen borç.
+    # 🔴 KORİDOR — 13 Ağustos 2026, GEÇİCİ MUAFİYET ve gerekçesi ölçülmüş.
+    # Veri HAZIR ve DOĞRU: 65 boğum düğümü · 64 kenar · 39/65 durak mevcut
+    # yerleşimlerle eşleşti · kaynak SAK–ÇETİN (DergiPark, 43 s., Konya
+    # Şer'iye Sicili + Mühimme). `index.html` 13 Ağu'da BAĞLANDI — yani veri
+    # tarayıcıya İNİYOR; eksik olan yalnız `js/app.js`in ÇİZİM kodu ve o iş
+    # ARAYÜZ oturumunun kuyruğunda.
+    # ⚠️ BU BİR TASARIM TERCİHİ DEĞİL, BİR BORÇTUR. `EK10/11/12` ile aynı
+    # sınıf: "bir sonraki koşuda kapanması beklenen". Kalıcı muafiyet,
+    # kapatılmış borç gibi görünür ve unutulur — o yüzden tarih ve şart
+    # yazılı: ARAYÜZ koridoru çizdiğinde BU İKİ SATIR SİLİNİR.
+    # 📌 Ve muafiyetin bedeli ölçülü: koridor verisinin değeri çizimden
+    # BAĞIMSIZ — ③ (bölge ataması) ve ④ (zaman ayağı) altyapı maddeleri onu
+    # VERİ olarak kullanacak, ekranda görünmesini beklemeden.
+    "KORIDOR_DUGUM": "65 düğüm — index.html BAĞLI, app.js çizimi ARAYÜZ'de, GEÇİCİ",
+    "KORIDOR_KENAR": "64 kenar — aynı, ARAYÜZ çizince bu satır SİLİNİR, GEÇİCİ",
     "YERLESIMLER_EK10": "12 noktanın 4'ü — `sibir-hanligi` rengi bekliyor, geçici",
     "YERLESIMLER_EK11": "4 nokta — `estonya` rengi bekliyor, geçici",
     "YERLESIMLER_EK12": "4 nokta — `izlanda` rengi bekliyor, geçici",

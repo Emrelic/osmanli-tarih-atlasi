@@ -109,7 +109,7 @@ window.YERLESIMLER_SEYREK = [
 // ⚠️ Sahipsizliği KASITLIDIR (`Rub'ul Hâlî kuzeyi` ile aynı sınıf). Osmanlı
 //    gövdesinin Maan'dan doğuya 270 km fırlamasını kesen şey tam olarak
 //    buranın BOŞ olmasıdır — dolduran her sahiplik yıldızı geri getirir.
-{ ad:"Vâdî Sirhân", tur:"bolge", lat:31.000, lon:37.800, g:0, k:0, d:[] },
+{ ad:"Vâdî Sirhân", tur:"bolge", lat:31.000, lon:37.800, g:0, k:0, d:[], kasitli_bosluk:true, bos:"kabile", neden:"Vâdî Sirhân, Suriye Çölü'nde Rüvele/Anize gibi bedevi aşiret konfederasyonlarının denetimindeydi; Osmanlı idaresi güzergah üzerindeki durak noktalarıyla sınırlıydı." },
 
 // TDV `teyma`: "Kuzeybatı Arabistan'da tarihî bir şehir"; son bağımsız
 // emîrinin 1950'de ölümüne kadar yerel emîrler elinde. XIX. yy'da Şammar

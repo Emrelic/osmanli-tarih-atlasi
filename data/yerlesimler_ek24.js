@@ -94,9 +94,37 @@ window.YERLESIMLER_EK24 = [
   s:[{f:"1281-01-01",t:"1361-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-09-29",t:"1923-10-29",d:"bulgaristan"}],
   d:[{f:"1361-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1913-09-29"}], v:[] },
 
+// 🔴 13 Ağustos 2026 · VERİ FETRET — 1371-01-01 → 1371-09-26 (Çirmen Savaşı)
+//    Emre'nin AÇIK YETKİSİYLE yazıldı. ⚠️ VE BU BİR ÇIKARIMDIR, ÖLÇÜM DEĞİL —
+//    işaretlenmeden yazılmasın diye buraya not düşülüyor.
+//    TDV Elhova'nın (Osmanlı adı KIZILAĞAÇ YENİCESİ) fetih tarihini VERMİYOR:
+//      `yanbolu`      1365 (Timurtaş) ya da 1373 — TDV 1373'ü tercih ediyor,
+//                     ama Elhova'nın kendi tarihini yazmıyor
+//      `bulgaristan`  Kızılağaç yalnız 1543-1609 yörük iskânında geçiyor
+//      `cirmen`       1371 zaferi var; savaş sonrası hangi yerlerin girdiği YOK.
+//                     Çirmen sancağı listesinde (Hasköy·Çırpan·Akçakazanlık·
+//                     Yeni Zağra) Elhova YOK
+//      müstakil `kizilagac` maddesi YOK · akademik aramada §4 kırmızı çizgisini
+//      geçen kaynak ÇIKMADI (Vikipedi · Fandom · Wikidata — reddedilen küme)
+//    ⇒ Kaynak "Elhova 1371-09-26'da alındı" DEMİYOR. Yazılan şey şu: eski gün
+//    KESİNLİKLE yanlış bir maddeye bağlıydı, yenisi ise doğru olaya bağlı.
+//    ÖLÇÜLDÜ (bu kısım çıkarım değil):
+//      1371-01-01 maddesi   "Kârkiyâ hânedanı Gîlân'da kuruldu" → HAZAR KIYISI
+//        ve o günü kullanan öteki noktalar LÂHÎCAN ile BENDER ENZELİ, yani
+//        maddenin GERÇEK sahipleri onlar; Elhova ona yanlışlıkla ortaktı
+//      1371-09-26 maddesi   "Çirmen Savaşı — MERİÇ VADİSİNİN DENETİMİ"
+//        Elhova Tunca (Meriç'in kolu) vadisinde · dört komşusu (Uzunköprü ·
+//        Meriç · Sofulu · Dedeağaç) tam bu günü kullanıyor
+//      TDV `musa-celebi` Musa'nın sahasını "Trakya (Edirne, YANBOLU, Çirmen)"
+//        diye sayıyor — Elhova Yanbolu'nun 40 km güneyi
+//    ⇒ Yeni gün İCAT EDİLMEDİ (33 nokta kullanıyor, maddesi ±0 gün) ve eski gün
+//    ÖLMEDİ (Lâhîcan · Bender Enzeli · Kotor hâlâ kullanıyor) ⇒ Değişmez 2
+//    bir milim bozulmuyor. `ek24`in kendi kabul ettiği yöntem: bkz. yukarıda
+//    "1368 KULLANILMADI: maddesi yok… kronolojide karşılığı olan güne çekildi,
+//    uydurulmadı". kaynak: bulunamadı — TDV bu taneciği kapsamıyor
 { ad:"Elhova (Elhovo)", tur:"kasaba", lat:42.170, lon:26.573, g:0, k:3, m:"Edirne",
-  s:[{f:"1281-01-01",t:"1371-01-01",d:"bulgaristan"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-05-30",t:"1923-10-29",d:"bulgaristan"}],
-  d:[{f:"1371-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1913-05-30"}], v:[] },
+  s:[{f:"1281-01-01",t:"1371-09-26",d:"bulgaristan"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-05-30",t:"1923-10-29",d:"bulgaristan"}],
+  d:[{f:"1371-09-26",t:"1402-07-28"},{f:"1413-07-05",t:"1913-05-30"}], v:[] },
 
 { ad:"Malko Tırnova", tur:"kasaba", lat:41.983, lon:27.525, g:0, k:3, m:"Edirne",
   s:[{f:"1281-01-01",t:"1361-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-09-29",t:"1923-10-29",d:"bulgaristan"}],
