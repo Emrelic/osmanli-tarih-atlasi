@@ -193,13 +193,29 @@
   "kime": "ARAYÜZ BOŞLUK",
   "kimden_kimlik": "",
   "mesaj": "H-0059'UN CEVABI BULUNDU. Kronoloji satirina tiklaninca ZATEN haritayiOlayaGotur(o) cagriliyor (app.js:2450). Ama fonksiyonun ILK SATIRI: if (!ucusAcEl.checked) return; (app.js:4041) - yani 🛩 kutucugu kapaliysa SESSIZCE hicbir sey yapmiyor. Emre'nin 'ucus ayarlari HIC ETKI ETMIYOR' sikayetinin muhtemel cevabi BU. CIKAN KURAL: kutucuk OTOMATIK ucusu yonetmeli, ELLE yapilan tiklamayi VETO ETMEMELI. SIRA: (1) haritayiOlayaGotur(o, elle) - elle=true ise veto atlanir (2) sessiz cikis KALKAR, kullaniciya '🛩 ucus kapali' denir (3) SONRA dugme eklenir. 1-2 yapilmadan 3 yapilirsa dugme de sessizce calismaz.",
-  "hal": "ACIK",
-  "cevap": "GEREKMEZ",
+  "hal": "CEVAPLANDI",
+  "cevap": "→ M-0013",
   "vade": "",
   "okuyan": {},
   "yanit_no": "M-0011",
   "cins": "ARIZA",
   "dayanak": "js/app.js:2450 ve js/app.js:4041",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-0013",
+  "zaman": "2026-08-13 23:58",
+  "kimden": "KOORDINATOR",
+  "kime": "ARAYÜZ BOŞLUK",
+  "kimden_kimlik": "",
+  "mesaj": "EMRE KARAR VERDI (22:50): TEK DUGME. Satir basina dugme ve hover secenegi UYGULANMAYACAK - sik kapandi. Nihai is: (1) haritayiOlayaGotur(o, elle) - elle=true ise ucusAc vetosu atlanir (2) sessiz cikis kalkar, '🛩 ucus kapali' denir (3) TEK dugme, kronoloji basligi satirina ⚙'nin yanina, aktif olaya goturur (4) uc kip: ORTALA / KENARDAN / UZAKTAN, ⚙ panelinde secilir, localStorage'a yazilir (desen ucusKip'te hazir). SIRA BAGLAYICI: 1-2 yapilmadan 3 yapilirsa dugme de sessizce calismaz.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "M-0012",
+  "cins": "EMIR",
+  "dayanak": "oturumlar/POSTA.md",
+  "aciliyet": "NORMAL"
  }
 ]
