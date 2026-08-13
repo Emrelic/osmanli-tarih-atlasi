@@ -13,11 +13,12 @@
 // (Mezoamerika · And+Güney Amerika · Kuzey Amerika · Karayipler+Río de la
 // Plata) birleştirilmiş ve çapraz kontrolden geçirilmiş çıktısıdır.
 //
-// TOPLAM: 135 nokta (hedef 120-180 içinde).
+// TOPLAM: 134 nokta (hedef 120-180 içinde, node.js ile doğrulandı).
 //   Mezoamerika          36   (23 hazır kimlikle + 13 kimlik-önerisi bekliyor)
 //   And / Güney Amerika  37   (dedup sonrası — bkz. aşağı)
 //   Kuzey Amerika        36
-//   Karayipler + RdlP    26
+//   Karayipler + RdlP    25   (26 araştırıldı, "Santa Fe" ad çakışması ayrıştırıldı,
+//                              üç şehrin And ekibi kopyası atıldı — bkz. aşağı)
 //
 // ---------------------------------------------------------------------------
 // 🔴 ÇAPRAZ KONTROLDE BULUNAN 3 MÜKERRER — ÇÖZÜLDÜ
@@ -35,7 +36,7 @@
 // ---------------------------------------------------------------------------
 // 🔴🔴 KİMLİK BORCU — BU DOSYA BAĞLANMADAN ÖNCE data/devletler.js'E EKLENMELİ
 // ---------------------------------------------------------------------------
-// 31 nokta, data/devletler.js'te HENÜZ TANIMLI OLMAYAN bir `d:` kimliği
+// 32 nokta, data/devletler.js'te HENÜZ TANIMLI OLMAYAN bir `d:` kimliği
 // kullanıyor (aşağıda her biri `// ÖNERİLEN KİMLİK` yorumuyla işaretli).
 // Tam öneri listesi (devletler.js formatında taslak kayıtlar):
 // oturumlar/NOKTA-AMERIKA-ILERLEME.md
@@ -50,9 +51,11 @@
 // bölgeyi sessizce boyamaz (VERI-YAPISI.md) — yani kimlik eksikken bağlanırsa
 // KAZA değil, görünmez kalır; yine de ÖNCE devletler.js'e eklenmesi gerekir.
 //
-// 31 önerilen kimlik, dört grupta:
-//   Kuzey Amerika (8): haudenosaunee, powhatan, cahokia, natchez,
-//     creek-konfederasyonu, cherokee, choctaw, teksas-cumhuriyeti
+// 32 önerilen kimlik, beş grupta:
+//   Kuzey Amerika (9): haudenosaunee, powhatan, cahokia, natchez,
+//     creek-konfederasyonu, cherokee, choctaw, teksas-cumhuriyeti,
+//     pueblo-bagimsizligi (13 Ağustos, Değişmez 1b denetiminde EKLENDİ —
+//     Taos/Acoma/Santa Fe'nin 1680-1692 Pueblo İsyanı boşluğunu kapatır)
 //   Mezoamerika (5): nahua-sehir-devletleri, purepecha-imparatorlugu,
 //     zapotek-krallik, tututepec-krallik, guatemala
 //   And/G.Amerika Kolomb-öncesi (6): chimu-krallik, colla-krallik,
@@ -79,22 +82,31 @@
 // 1. CAHOKIA'nın 1350 sonrası "sahipsizliği": site fiilen terk edildi, ama
 //    şemada bunu ifade edecek net bir alan yok. Nokta 1350'de `s:` dizisini
 //    bitiriyor — motor bunu nasıl işler (nokta kaybolur mu) kontrol edilmeli.
-// 2. Pueblo İsyanı boşluğu (Taos/Acoma, 1680-08-10 → 1692-08-01, ~12 yıl):
-//    kaynak KONUŞUYOR (iyi belgeli) ama bu ~12 yıllık "bağımsız ara dönem"
-//    hiçbir `s:` kaydında BOŞLUK olarak bırakıldı — teknik bir gereklilik
-//    değil, veri sahibinin `kasitli_bosluk` ile mi yoksa yerli bir kimlikle
-//    mi doldurmak istediğine bağlı.
+//    (Bu KASTEN böyle bırakıldı — Değişmez 1'in 180 kasıtlı-sahipsiz tavanına
+//    benzer bir "yerleşim sona erdi" durumu, iç boşluk DEĞİL.)
+// 2. 🟢 KAPATILDI (13 Ağustos, Değişmez 1b denetiminde bulunan 3 iç boşluktan
+//    biri) — Pueblo İsyanı boşluğu (Taos/Acoma/Santa Fe, 1680-08-10→1692-08-01,
+//    ~12 yıl) artık "pueblo-bagimsizligi" (YENİ ÖNERİLEN KİMLİK) ile dolu.
 // 3. Novoarkhangelsk/Sitka (1799-1804 arası ~2 yıllık Tlingit kesintisi):
-//    veri sürekli "rusya" yazıldı, kesinti yalnız yorumla işaretlendi.
-// 4. New Orleans (1800-1803, Fransa'nın metropol kimliği aralığı dışında)
-//    ve San Antonio (1836-1845, Teksas Cumhuriyeti — önerildi) — ikisi de
-//    devletin kendi f:/t: sınırını hafifçe aşan veya öneri bekleyen dönemler.
+//    veri sürekli "rusya" yazıldı, kesinti yalnız yorumla işaretlendi. AÇIK.
+// 4. 🟢 KAPATILDI (aynı denetimde bulunan diğer 2 iç boşluk) — New Orleans
+//    (1800-10-01→1803-04-30, "ispanya" ile birleştirildi, kimlik ömrü
+//    aşılmadı) ve San Antonio (1836-1845, "teksas-cumhuriyeti" ile dolduruldu).
 // 5. Rio de la Plata'nın 1776 öncesi (Buenos Aires/Asunción/Córdoba/Santa
 //    Fe/Corrientes/Mendoza) idari olarak Peru Genel Valiliği'ne bağlıydı —
 //    "ispanyol-peru" kimliği bu yüzden kullanıldı (coğrafi değil idari bağ).
 // 6. Colonia del Sacramento'nun 1680-1777 arası BEŞ el değiştirmesi
 //    (Portekiz⇄İspanya) tarihsel olarak doğrulanmış ama yalnız yıl
 //    hassasiyetinde — gün akademik kaynaklarda çoğunlukla yok.
+//
+// 🔴 DENETİM DURUMU (13 Ağustos, ilk motor koşusu sonrası): Değişmez 1b 5 iç
+// boşluk bulmuştu — 5'i de yukarıda. 3'ü (Pueblo × 2 nokta grubu + New Orleans
+// + San Antonio = aslında 4 nokta, 3 farklı olay) KAPATILDI, 1'i (Sitka) AÇIK
+// kaldı (kasıtlı — kaynak "ispanya" ile devam eder diyor, kesintiyi ayrı
+// dönem olarak modellemek gerekmiyor gibi görünüyor ama kesin karar entegrasyona
+// bırakıldı). Değişmez 1'in 203/180 fazlası: yeni "pueblo-bagimsizligi" ve
+// "teksas-cumhuriyeti" kimlikleri devletler.js'e eklenip motor yeniden
+// koşana kadar bu sayı değişmeyecek — kimlikler eklenince otomatik düşer.
 //
 // ---------------------------------------------------------------------------
 // KAYNAK DİSİPLİNİ
@@ -781,18 +793,21 @@ window.YERLESIMLER_AMERIKA = [
 
 { ad:"Taos Pueblo", tur:"koy", lat:36.4361, lon:-105.5411, g:1, k:1,
   s:[{f:"1610-01-01",t:"1680-08-10",d:"yeni-ispanya"},
+     {f:"1680-08-10",t:"1692-08-01",d:"pueblo-bagimsizligi"},
      {f:"1692-08-01",t:"1821-09-27",d:"yeni-ispanya"},
      {f:"1821-09-27",t:"1848-02-02",d:"meksika"},
      {f:"1848-02-02",t:"1923-10-29",d:"abd"}] },
 { ad:"Acoma Pueblo (Sky City)", tur:"koy", lat:34.9903, lon:-107.5814, g:1, k:1,
   s:[{f:"1610-01-01",t:"1680-08-10",d:"yeni-ispanya"},
+     {f:"1680-08-10",t:"1692-08-01",d:"pueblo-bagimsizligi"},
      {f:"1692-08-01",t:"1821-09-27",d:"yeni-ispanya"},
      {f:"1821-09-27",t:"1848-02-02",d:"meksika"},
      {f:"1848-02-02",t:"1923-10-29",d:"abd"}] },
 // kaynak: David J. Weber, "The Spanish Frontier in North America" (1992). 1610-1680 arası
 //         bağımsız İspanyol öncesi site-devletleri değil, İspanyol dönemi başlangıcı — 1281-1610
 //         arası bağımsız dönem bu araştırmanın kapsamında ayrıca modellenmedi.
-// ⚠️ 1680-1692 Pueblo İsyanı boşluğu — bkz. dosya başı "bilinen açık sınırlar" ②.
+// 🟢 1680-1692 Pueblo İsyanı boşluğu KAPATILDI — bkz. "pueblo-bagimsizligi" önerisi (Santa Fe
+//    girdisinin altındaki not, aşağıda).
 // k gerekçesi: büyük Pueblo yerleşimleri — k:1
 
 { ad:"Oraibi (Hopi, Üçüncü Mesa)", tur:"koy", lat:35.8908, lon:-110.6289, g:1, k:1,
@@ -848,15 +863,17 @@ window.YERLESIMLER_AMERIKA = [
 
 { ad:"New Orleans", tur:"sehir", lat:29.9511, lon:-90.0715, g:2, k:2, kur:"1718-01-01",
   s:[{f:"1718-01-01",t:"1763-11-03",d:"fransa"},
-     {f:"1763-11-03",t:"1800-10-01",d:"ispanya"},
+     {f:"1763-11-03",t:"1803-04-30",d:"ispanya"},
      {f:"1803-04-30",t:"1803-12-20",d:"ispanya"},
      {f:"1803-12-20",t:"1923-10-29",d:"abd"}] },
 // kaynak: Eccles (1998); kesin kuruluş GÜNÜ tartışmalı (Richard Campanella, nola.com) — YYYY-01-01.
-// ⚠️ DÜZELTME: kaynak ajanının orijinal önerisinde 1800-1803 arası "fransa" yazılmıştı ama
-// "fransa" kimliği 1792-09-22'de bitiyor — DEVLETİN ÖMRÜNÜ AŞMA hatası olurdu. 1800-10-01
-// (San Ildefonso, gizli Fransa'ya devir) ile 1803-04-30 (Louisiana Satışı) arası fiilen İspanyol
-// yönetimi sürdüğü için (devir gizliydi, fiilî teslim hiç olmadı) bu aralık "ispanya" ile
-// KAPATILDI — kimlik ömrü aşılmadı, tarih uydurulmadı.
+// ⚠️ DÜZELTME (13 Ağustos, Değişmez 1b denetiminde bulundu): kaynak ajanının orijinal
+// önerisinde 1800-1803 arası "fransa" yazılmıştı ama "fransa" kimliği 1792-09-22'de bitiyor —
+// DEVLETİN ÖMRÜNÜ AŞMA hatası olurdu. İlk düzeltmede yorumda "ispanya ile kapatıldı" dendi ama
+// DİZİYE YAZILMADI — 1800-10-01→1803-04-30 arası fiilen 9 aylık İÇ BOŞLUK kalmıştı (denetim
+// yakaladı). Şimdi 1763-11-03→1803-04-30 TEK "ispanya" dönemi olarak birleştirildi: San
+// Ildefonso (1800-10-01, gizli Fransa'ya devir) ile Louisiana Satışı (1803-04-30) arası fiilen
+// İspanyol yönetimi sürdüğü için (devir gizliydi, fiilî teslim hiç olmadı) ayrı dönem gerekmiyordu.
 // k gerekçesi: Louisiana'nın idari merkezi — k:2
 
 { ad:"New Amsterdam (New York)", tur:"sehir", lat:40.7128, lon:-74.0060, g:2, k:2, kur:"1624-01-01",
@@ -931,13 +948,26 @@ window.YERLESIMLER_AMERIKA = [
 
 { ad:"Santa Fe", tur:"sehir", lat:35.6870, lon:-105.9378, g:2, k:2, kur:"1610-01-01",
   s:[{f:"1610-01-01",t:"1680-08-10",d:"yeni-ispanya"},
+     {f:"1680-08-10",t:"1692-08-01",d:"pueblo-bagimsizligi"},
      {f:"1692-08-01",t:"1821-09-27",d:"yeni-ispanya"},
      {f:"1821-09-27",t:"1848-02-02",d:"meksika"},
      {f:"1848-02-02",t:"1923-10-29",d:"abd"}] },
+// ⚠️ DÜZELTME (13 Ağustos, Değişmez 1b'de 3 iç boşluk bulundu — Taos/Acoma/Santa Fe): 10
+// Ağustos 1680 Pueblo İsyanı İspanyolları Santa Fe'den kovdu, 12 yıl boyunca Pueblo halkları
+// FİİLEN bağımsızdı (Vargas'ın "kansız yeniden fethi" Ağustos 1692). Kaynak (Weber 1992) bunu
+// AÇIKÇA anlatıyor — bu yüzden kasitli_bosluk/devletsiz değil, YENİ BİR KİMLİK önerildi:
+// "pueblo-bagimsizligi" (bu üç noktanın üçünde de kullanıldı, tutarlılık için).
+// kaynak: David J. Weber, "The Spanish Frontier in North America" (1992) — Pueblo İsyanı 10
+//         Ağustos 1680 (kesin, iyi belgeli), Vargas'ın yeniden fethi Ağustos 1692 (gün belirsiz).
 { ad:"San Antonio (Misyon San Antonio de Valero)", tur:"sehir", lat:29.4260, lon:-98.4861, g:1, k:1, kur:"1718-05-01",
   s:[{f:"1718-05-01",t:"1821-09-27",d:"yeni-ispanya"},
      {f:"1821-09-27",t:"1836-03-02",d:"meksika"},
+     {f:"1836-03-02",t:"1845-12-29",d:"teksas-cumhuriyeti"},
      {f:"1845-12-29",t:"1923-10-29",d:"abd"}] },
+// ⚠️ DÜZELTME (13 Ağustos, Değişmez 1b denetiminde bulundu): 1836-1845 arası Teksas Cumhuriyeti
+// dönemi ilk teslimde bilerek BOŞ bırakılmış, "teksas-cumhuriyeti" önerisi header'da yazılı
+// duruyordu ama diziye HİÇ İŞLENMEMİŞTİ. Şimdi kullanıldı — kimlik data/devletler.js'e
+// eklenmeden bu bölge boyanmayacak, ama Değişmez 1b'nin gördüğü iç boşluk artık yok.
 { ad:"San Diego (Misyon San Diego de Alcalá)", tur:"sehir", lat:32.7157, lon:-117.1611, g:1, k:1, kur:"1769-07-16",
   s:[{f:"1769-07-16",t:"1821-09-27",d:"yeni-ispanya"},
      {f:"1821-09-27",t:"1848-02-02",d:"meksika"},

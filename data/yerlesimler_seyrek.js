@@ -191,7 +191,37 @@ window.YERLESIMLER_SEYREK = [
 //    daha eski ve zincir komşularıyla AYNI olduğu için kur: haritada tek
 //    piksel değiştirmez — uydurma bir kuruluş günü ise kalıcı yanlış olurdu.
 //    (Akmescid ve Or Kapı'da verilen kararın aynısı, yerlesimler_kirim.js.)
-{ ad:"Kırcaali", tur:"sehir", lat:41.650, lon:25.370, g:0, k:4, m:"Edirne",
+// 🔴🔴 13 Ağustos 2026 · VERİ FETRET — YUKARIDAKİ KARAR ÖLÇÜLDÜ VE ÇÜRÜDÜ.
+//    Emre'nin açık yetkisiyle `kur:"1482-01-01"` YAZILDI. Karar silinmedi,
+//    DAMGALANDI: gerekçesi hâlâ okunabilir olsun, ama hangi ayağının
+//    yanlış olduğu da görünsün.
+//
+//    ① "kur: haritada tek piksel değiştirmez" → 🔴 YANLIŞ. Motor `kur:`ı ÜÇ
+//       yerde okuyor: uret_petek.py:2326 (kur günü gelmemiş noktanın peteğini
+//       HİÇ ÇİZMEZ) · :2341 (komşuluk hesabına SOKMAZ) · :2366. Ayrıca
+//       js/app.js:2706 · :2770 dizinde "kuruluş" diye GÖSTERİYOR.
+//       ⇒ `kur:` bu noktada 1363-1482 arası peteği kaldırır ve o toprağı
+//       `§2` gereği komşulara (Gümülcine · Filibe · Eski Zağra) bırakır —
+//       ki 119 yıl boyunca DOĞRU olan davranış budur.
+//    ② "uydurma bir kuruluş günü kalıcı yanlış olurdu" → ✓ HAKLI, ve bu
+//       yüzden gün UYDURULMADI: 1482 TDV'nin verdiği TAHRİR KAYDIDIR.
+//       ⚠️ Ama anlamı "bu yıl kuruldu" DEĞİL: 1482'de zaten 41 müslüman
+//       haneli bir köydür, yani kuruluş daha erkendir. `kur:` burada
+//       "EN GEÇ bu tarihte vardı" üst sınırıdır. Alt sınır Kırca Ali'nin
+//       ölümü (~1434, türbe ondan sonra); TDV ikisi arasında bir gün
+//       VERMİYOR ⇒ belgeli olan seçildi, tahmin edilen değil.
+//    ③ Asıl kusur "hangi yıl fethedildi" DEĞİLDİ: veri şehri, adını verdiği
+//       kişi DOĞMADAN sekiz yıl önce (Kırca Ali ~1371-1434) Osmanlı yapıyor
+//       ve üstüne Fetret dönemlerini de yazıyordu. `§3.5` hayalet devlet
+//       ailesinin YERLEŞİM tarafı.
+//    ⇒ `d:` ve `s:` alanlarına DOKUNULMADI, bilerek: `d:1363` bu YERİN
+//       sahipliğini söyler (doğru), `kur:1482` YERLEŞİMİN varlığını (doğru).
+//       İkisi çelişmiyor. Ve `d:`yi 1482'ye çekmek YENİ BİR KIRILMA doğurur,
+//       `Değişmez 2` madde ister — kazanç yok, borç var.
+//    📌 KOORDİNATÖRE SEVK: aynı gerekçe Akmescid ve Or Kapı'da da kullanılmış
+//       (yerlesimler_kirim.js). ①'in çürümesi oraları da ilgilendirir; o
+//       dosya bu oturumun yetkisinde DEĞİL, dokunulmadı.
+{ ad:"Kırcaali", tur:"sehir", lat:41.650, lon:25.370, g:0, k:4, m:"Edirne", kur:"1482-01-01",
   s:[{f:"1281-01-01",t:"1363-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-07-14",t:"1923-10-29",d:"bulgaristan"}],
   d:[{f:"1363-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1913-07-14"}] },
 

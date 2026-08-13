@@ -1146,7 +1146,21 @@ window.YERLESIMLER = [
 // ⇒ `§2`nin en saf vakası: "harita yanlış" raporunun cevabı NOKTASIZLIK.
 // Zincir Gümülcine ile BİREBİR: aynı Batı Trakya şeridi, aynı fetih dalgası,
 // aynı 1913 Bulgar arası ve 1920 Yunan devri. Tarih UYDURULMADI, komşudan alındı.
-{ ad:"Ferecik (Feres)", tur:"sehir", lat:40.897, lon:26.172, g:0, k:4, m:"Edirne", s:[{f:"1281-01-01",t:"1363-01-01",d:"bizans"},{f:"1913-07-14",t:"1913-09-29",d:"bulgaristan"},{f:"1920-05-27",t:"1923-10-29",d:"yunanistan"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"}], d:[{f:"1363-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1913-07-14"},{f:"1913-09-29",t:"1920-05-27"}] },
+// 🔴 13 Ağustos 2026 · VERİ FETRET — FETİH TARİHİ DÜZELTİLDİ: 1363-01-01 → 1357-01-01
+//    Yukarıdaki "komşudan alındı" cümlesi Ferecik'i GÜMÜLCİNE'ye bağlamış. Oysa
+//    TDV'nin `ferecik` maddesi onu İPSALA ve KEŞAN ile birlikte anıyor ve
+//    tercihini AÇIKÇA söylüyor: Hadîdî 758/1357 · Nişancı Mehmed Paşa ve Âlî
+//    759/1358 → "Muhtemelen bu sonuncu tarihler gerçeği yansıtmakta" (Süleyman
+//    Paşa, ölümünden kısa süre önce). Oruç Bey'in 1359-1363 rivayeti de Ferecik'i
+//    Keşan ve İpsala ile BİRLİKTE sayıyor; Hoca Sâdeddin·Kâtib Çelebi 774/1372-73.
+//    ⇒ Yeni gün İCAT EDİLMEDİ: 1357-01-01 veride 12 nokta tarafından kullanılıyor
+//    (Malkara · İpsala · Keşan · Tekirdağ · Şarköy · Saroz) ve kronolojideki
+//    maddesi TAM O KÜMEYİ sayıyor: "Süleyman Paşa'nın Trakya ilerleyişi: Malkara,
+//    İpsala, Keşan…". Eski gün 1363-01-01'in maddesi ise "Batı Trakya'ya iniş:
+//    GÜMÜLCİNE'nin fethi" — Ferecik BAŞKA BİR ŞEHRİN maddesine bağlıydı.
+//    Gümülcine'ye DOKUNULMADI: TDV onun için tek tarih vermiyor (1361 · 1363 ·
+//    "1371'den biraz önce"), 1363 meşru bir rivayet. kaynak: TDV `ferecik`
+{ ad:"Ferecik (Feres)", tur:"sehir", lat:40.897, lon:26.172, g:0, k:4, m:"Edirne", s:[{f:"1281-01-01",t:"1357-01-01",d:"bizans"},{f:"1913-07-14",t:"1913-09-29",d:"bulgaristan"},{f:"1920-05-27",t:"1923-10-29",d:"yunanistan"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"}], d:[{f:"1357-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1913-07-14"},{f:"1913-09-29",t:"1920-05-27"}] },
 { ad:"Gümülcine", tur:"sehir", lat:41.122, lon:25.406, g:0, k:3, m:"Edirne", s:[{f:"1281-01-01",t:"1363-01-01",d:"bizans"},{f:"1913-07-14",t:"1913-09-29",d:"bulgaristan"},{f:"1920-05-27",t:"1923-10-29",d:"yunanistan"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"}], d:[{f:"1363-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1913-07-14"},{f:"1913-09-29",t:"1920-05-27"}] },
 { ad:"Biga", tur:"sehir", lat:40.228, lon:27.243, g:0, k:4, m:"Bursa", s:[{f:"1281-01-01",t:"1297-01-01",d:"bizans"},{f:"1297-01-01",t:"1345-01-01",d:"karesi"},{f:"1402-07-28",t:"1403-09-01",d:"isa-celebi"},{f:"1403-09-01",t:"1404-03-01",d:"mehmed-celebi"},{f:"1404-03-01",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"mehmed-celebi"}], d:[{f:"1345-01-01",t:"1402-07-28",y:"ilhak"},{f:"1413-07-05",t:"1923-10-29"}] },
 
