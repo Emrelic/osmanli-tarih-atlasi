@@ -147,7 +147,51 @@ BEKLENEN_YERLESIM = 968
 #    Ders orada YAZILIYDI; buraya UYGULANMAMISTI.
 # 182 -> 180: 172 +6 EMILME (Orta Afrika) +4 SIBIRYA idi; iki nokta sonradan
 # sahip kazandi. Sabit olculene cekildi.
-BEKLENEN_SAHIPSIZ = 180   # 172 +4 EMILME (Orta Afrika) +4 SIBIRYA
+BEKLENEN_SAHIPSIZ = 202   # 180 +22, ve ARTISIN TAMAMI BELGELI (asagiya bak)
+# 🔴 180 -> 202, 13 Agustos 2026 — VE TAVANI YUKSELTMEK TEK BASINA YAPILSAYDI
+#    NOBETCIYI KORLESTIRIRDI. O yuzden ayni anda ASIL SORU eklendi.
+#
+# VAKA: VERI COL BAYRAK 45 bayraksiz col noktasina `bos:` yazdi, `Bosluk
+# cinsi` denetimi 97 -> 0 oldu, ama `Degismez 1` 202'de KALDI ve ✗ basmaya
+# devam etti. Iki denetim ayni veriye bakip ZIT sey soyluyordu.
+# Sebep: `degismez1()` `kasitli_bosluk` alanini HIC OKUMUYOR (tasarim
+# geregi — sahipsizligi yalniz d:/s:/v: donemlerinden olcuyor).
+#
+# 🔴 TESHIS: kusur ne veride ne tavandaydi — SORUDAYDI.
+#    sordugu           "kac nokta sahipsiz?"            -> 202, hepsi KASITLI
+#    sormasi gereken   "kac nokta sahipsiz VE BELGESIZ?" -> YENI delik BUDUR
+#
+# ⚠️ Ve tavani 202 yapip birakmak, `§11`in "esigi gevsetme" ihlali olurdu:
+#    yarin gercek bir delik acilsa 203 olur, tavan 202 ⇒ ✗ basar ama
+#    ARADAKI 202 kaydin hangisinin yeni oldugu GORUNMEZ. Belgesiz sayaci
+#    onu ANINDA gosterir: yeni bir delik `kasitli_bosluk` TASIMAZ.
+#
+# 📌 Bu, `§11`in ON BIRINCI kusur sinifinin ("bir ders veriye SERBEST METIN
+#    olarak inerse inmis sayilmaz") DENETIM tarafi: bilgi artik veride ve
+#    `if` ile sorulabiliyor — ama denetim onu SORMUYORDU. Yazilmis bir veri,
+#    sorulmayan bir soruyla, yazilmamis veriden ayirt edilemez.
+
+# ---- ASIL NOBETCI: sahipsiz VE BELGESIZ ----
+BEKLENEN_BELGESIZ = 29
+# 13 Agustos 2026 olcumu: 202 sahipsizin 173'u BELGELI, 29'u BELGESIZ.
+#   belgeli dagilim: devletsiz 121 · kabile 30 · insansiz 9 · veri-yok 8 · hata 5
+# 🔴 29 GURULTU DEGIL — UC TEMIZ KUME, ve ikisinin sahibi ZATEN VAR:
+#   ① COL 6      Agadez · Darfur · Hadramut · Ndjamena · Tamanrasset ·
+#                Timbuktu   -> VERI COL BAYRAK'ta (donem/kur: istiyorlar,
+#                bayrak degil — gercek sehir/siyasi yapi)
+#   ② NECID 10   Riyad · Dir'iye · Buraydâ · Uneyze · Hâil · Şakrâ ·
+#                Necid ici · Nefud colu · Manama · Mukalla
+#                🔴 BUNLAR CLAUDE.md §3'te "kasten oyle" diye YAZILI —
+#                ama YORUM SATIRINDA, veride DEGIL. Tam ⑪. sinif.
+#   ③ AMERIKA 13 Cahokia · Mayapán · Iximché · Utatlán · Zaculeu · Caparra ·
+#                Taos/Acoma Pueblo · Mohawk · Oneida · Onondaga · Cayuga ·
+#                Seneca   -> NOKTA AMERIKA'nin yeni dosyasindan; Irokua
+#                Konfederasyonu ve Maya sehir-devletleri `kabile`/`devletsiz`
+#                adayi, Caparra `kur:1508` tasiyor.
+# ⇒ Sayi 0'a inmeli. Inmedigi surece tavan olarak duruyor ve HER ARTIS
+#   yeni bir belgesiz delik demektir.
+# ⚠️ CIFT YONLU (BEKLENEN_SAHIPSIZ'in 9 Agustos dersi): dustugunde de uyarir,
+#   yoksa 29 -> 5 olunca aradaki 24 puanlik regresyon gorunmez olur.
 # 🔴 SİBİRYA'nın DÖRDÜ İKİ AYRI CİNS — ve ayrımı ölçüm verdi:
 #   Çukotka · Anadır   neden:"devletsiz"  kaynak AÇIKÇA konuşuyor:
 #       "never paid yasak … status as subjects was little more than
@@ -1781,6 +1825,35 @@ def main():
     if args.ayrinti and sahipsiz:
         for ad, yillar in sahipsiz.items():
             print(f"    {ad:<28} {', '.join(str(y) for y in yillar)}")
+
+    # ---- Değişmez 1c — sahipsiz VE BELGESİZ (asıl nöbetçi) ----
+    # Değişmez 1 "kaç nokta sahipsiz" diye sorar ve cevabın çoğu KASITLIDIR.
+    # Bu satır "kaçı BELGESİZ" diye sorar — yeni açılan bir delik, tanımı
+    # gereği `kasitli_bosluk` taşımaz, yani BURADA görünür.
+    _ix = {y["ad"]: y for y in Y}
+    belgesiz = sorted(ad for ad in sahipsiz
+                      if _ix.get(ad, {}).get("kasitli_bosluk") is not True)
+    nbz = len(belgesiz)
+    durum1c = "✓" if nbz <= BEKLENEN_BELGESIZ else "✗"
+    if nbz > BEKLENEN_BELGESIZ:
+        ihlal = True
+    print(f"Değişmez 1c {durum1c}  sahipsiz ve BELGESİZ: {nbz} "
+          f"(tavan {BEKLENEN_BELGESIZ}) — belgeli {n1 - nbz}")
+    if nbz > BEKLENEN_BELGESIZ:
+        print("            🔴 YENİ DELİK — bu noktaların hiçbir gerekçesi yok. "
+              "Ya dönem/kur: yazılacak ya kasitli_bosluk + bos: bayrağı:")
+        for ad in belgesiz[:12]:
+            print(f"              {ad}")
+        if nbz > 12:
+            print(f"              … ve {nbz - 12} tane daha (--ayrinti)")
+    elif nbz < BEKLENEN_BELGESIZ:
+        print(f"            ⚠️ TAVAN GEVŞEK — BEKLENEN_BELGESIZ = {nbz} yapılmalı. "
+              f"Aradaki {BEKLENEN_BELGESIZ - nbz} puanlık gerçek regresyon GÖRÜNMEZ.")
+    if args.ayrinti and belgesiz:
+        for ad in belgesiz:
+            y = _ix.get(ad, {})
+            print(f"    BELGESİZ  {ad:<28} kur:{y.get('kur') or '-':<12} "
+                  f"tur:{y.get('tur') or '-'}")
 
     # Değişmez 1b — pencere arası boşluk (örneklemesiz; kesitlerin kaçırdığını yakalar)
     bosluk = degismez1b(Y)
