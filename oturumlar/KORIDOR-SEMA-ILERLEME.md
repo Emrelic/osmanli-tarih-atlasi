@@ -190,6 +190,58 @@ vereceğim.
 
 ---
 
+---
+
+## ④ KOORDİNAT SINAVI — *"ad tuttu"* ≠ *"yer doğru"*
+
+Kendi şüphemi sınadım: `Karasu` · `Yenişehir` gibi **çok anlamlı adlar**
+veride başka bir yeri gösteriyor olabilirdi. Yöntem: her kolda **ardışık
+eşleşen durakların** arasındaki gerçek mesafe ölçüldü; aşırı atlama yanlış
+eşleşme şüphesidir.
+
+### 🟢 SONUÇ: YANLIŞ EŞLEŞME KANITI YOK
+```
+39 eşleşmenin ardışık mesafeleri: 48 – 375 km arası, hepsi MAKUL
+şüpheli atlama: 2 — ve İKİSİ DE AÇIKLANIYOR, hata değil
+```
+```
+Şam → Mekke            1390 km   Arabistan çölü; kaynağın durak listesi
+                                 orada zaten SEYREK (surre: 54 menzil,
+                                 12 adlı düğüm)
+Kırklareli → Akkirman   556 km   arada Prevadi·Karasu·Babadağı·İshakçı
+                                 DÖRDÜ DE EKSİK — atlamanın sebebi
+                                 yanlış eşleşme değil, YOKLUK
+```
+📌 Ve şüphemin kaynağı olan iki ad (`Karasu` · `Yenişehir`) **zaten hiç
+eşleşmedi** — yani yanlış eşleşme riski **gerçekleşmedi.**
+⇒ Şüphe boşa çıktı, **ama sınamak boşa değildi**: sınamasaydım *"39 doğru"*
+demek bir **varsayım** olacaktı; şimdi **ölçüm.**
+
+### 🔴🔴 VE ASIL BULGU BURADA ÇIKTI — 26 EKSİK RASTGELE DEĞİL
+
+Eksikler dağınık değil, **üç tutarlı koridor PARÇASINDA** kümeleniyor:
+```
+① DOĞU ANADOLU YAYLASI     Lâdik · Karahisar-ı Şarkî · Kelkit · Aşkale ·
+   (Anadolu sol kol)        Hasankale                            5 durak
+   ⇒ Niksar'dan Erzurum'a 375 km, ARADA HİÇBİR NOKTA YOK
+
+② DOBRUCA / KARADENİZ KIYISI  Prevadi · Karasu · Babadağı · İshakçı  4 durak
+   (Rumeli sağ kol)           ⇒ Kırklareli'den Akkirman'a 556 km BOŞ
+
+③ VIA EGNATIA'NIN BATISI    Pravişte · Lanzaka · Yenişehir · İzdin ·
+   (Rumeli sol kol)          İstefe                               5 durak
+   ⇒ kol Gümülcine'de BİTİYOR; Yunanistan ayağı BÜTÜNÜYLE yok
+```
+Kalan 12 eksik dağınık (Üsküdar · Tosya · Hasan Çelebi · Harput · Vize ·
+Silivri · Yagodina · Firecik · İshaklı · Ilgın · Karapınar · Ulukışla).
+
+**ÇIKARDIĞIM:** *"26 dağınık nokta eksik"* demek ile *"üç koridor parçası
+kopuk"* demek **aynı ölçüm, farklı iş tarifi.** İkincisi araştırma
+partisine bölünebilir; birincisi bölünemez.
+🔴 ⇒ Koordinatöre **üç parça** olarak öneriyorum, 26 madde olarak değil.
+
+---
+
 ## SIRADAKİ
 ```
 İŞ 2   şema TASARIMI (grep ayağı BİTTİ)
