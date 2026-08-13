@@ -440,6 +440,48 @@ def _dinamik_topluyor(ad):
     return any(d.match(ad) for d in _DINAMIK_ONBELLEK.get("d", []))
 
 
+def _yorumsuz_html(s):
+    """HTML yorumlarını (`<!-- … -->`) siler.
+
+    ⚠️ Dize içindeki `<!--` diye bir şey pratikte yok; bu yüzden basit
+    tarama YETERLİ ve `§11`in "kendi ayrıştırıcını yazma" uyarısı burada
+    ölçülü olarak esnetiliyor: tam bir HTML ayrıştırıcısı çağırmak, YALNIZ
+    yorum elemek için orantısız. Kapsam dar tutuldu, gerekçe yazıldı.
+    """
+    return re.sub(r"<!--.*?-->", " ", s, flags=re.S)
+
+
+def _yorumsuz_js(s):
+    """JS yorumlarını siler — `/* … */` ve satır sonu `//`.
+
+    🔴 DİZE FARKINDA: `kaynak:"https://…"` içindeki `//` KORUNUR. Bu tam
+    olarak `arac/yorum_temizle.py`nin öğrendiği ders (13 Ağustos): naif bir
+    "ilk `//`den sonrasını at" kuralı projenin BÜTÜN kaynak bağlantılarını
+    sessizce yok ederdi.
+    """
+    s = re.sub(r"/\*.*?\*/", " ", s, flags=re.S)
+    cikti = []
+    for sat in s.split("\n"):
+        ic = False
+        kacis = False
+        kes = len(sat)
+        for i, ch in enumerate(sat):
+            if kacis:
+                kacis = False
+                continue
+            if ch == "\\":
+                kacis = True
+                continue
+            if ch in "\"'":
+                ic = not ic
+                continue
+            if not ic and ch == "/" and i + 1 < len(sat) and sat[i + 1] == "/":
+                kes = i
+                break
+        cikti.append(sat[:kes])
+    return "\n".join(cikti)
+
+
 def cizilmiyor_mu():
     """(bulgular, muaf_sayisi) — üretilen her `window.X` tüketiliyor mu?"""
     import glob as _g
@@ -489,8 +531,28 @@ def cizilmiyor_mu():
             # — merge bloğu adı ('window.YERLESIMLER_EK2 || []') OLDUĞU GİBİ
             # taşıyor, aynı kelime-sınırı testi ona da uygulanabilir.
             AD_DESENI = r"(?<![A-Za-z0-9_])" + re.escape(ad) + r"(?![A-Za-z0-9_])"
-            okunuyor = (re.search(AD_DESENI, app) is not None
-                        or re.search(AD_DESENI, html) is not None
+            # 🔴 YORUMLAR ELENİR — 14 Ağustos 2026, ölçülmüş bir KÖR NOKTA.
+            # VAKA: `BEKLEYENLER` üretiliyor, index.html YÜKLÜYOR, ama
+            # `js/app.js` onu HİÇ okumuyor — tek tüketicisi olan "Hakkında"
+            # modalı p2/H-0010 ile kaldırılmıştı. Kapı yine de "üretilen her
+            # window.X tüketiliyor" dedi. Sebep: `BEKLEYENLER` kelimesi
+            # index.html'de İKİ YORUM SATIRINDA geçiyor —
+            #     <!-- BEKLEYENLER.md'den uretilir; elle duzenlenmez. -->
+            #     "Hakkında (… + BEKLEYENLER tablosu) TAMAMEN kaldırıldı"
+            # ⇒ Kapı, KALDIRILDIĞINI ANLATAN CÜMLEYİ tüketim kanıtı saydı.
+            #
+            # 📌 Ve kusur, bir DÜZELTMENİN yan etkisi: html araması 3 Ağustos'ta
+            # concat zincirini görebilmek için EKLENMİŞTİ (doğru bir genişletme),
+            # ama genişleme YORUMLARI da kapsama aldı ve testi zayıflattı.
+            # Bir denetimin KAPSAMINI büyütmek, DOĞRULUĞUNU düşürebilir.
+            #
+            # ⚠️ Bedeli ölçüldü: Emre'nin 7 açık kararı GÜNLERDİR ekranda
+            # görünmüyordu ve kapı bunu hiç bildirmedi. Kullanıcı sordu:
+            # "sende 7 karar diyorsun ama ben bunları kutuda göremiyorum."
+            _app = _yorumsuz_js(app)
+            _html = _yorumsuz_html(html)
+            okunuyor = (re.search(AD_DESENI, _app) is not None
+                        or re.search(AD_DESENI, _html) is not None
                         or _dinamik_topluyor(ad))
             # (c) index.html dosyayı yüklüyor mu
             yukleniyor = os.path.basename(yol) in html
