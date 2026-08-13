@@ -377,5 +377,87 @@ damga:   134'ü `kasitli_bosluk` · 68'i damgasız
 **TDV susuyor** ve öneri bir çıkarım — Kırcaali'de olduğu gibi belgeli bir
 dayanak yok. Açık kararla yazılır.
 
-Dokunulan üç dosya (`yerlesimler_ek24.js` · `yerlesimler.js` ·
-`yerlesimler_seyrek.js`) **commit'siz** bekliyor; `data/` commit'i Oturum 0'da.
+---
+
+## ⑩ DÖRDÜNCÜ TUR (Emre: "Elhova'yı da 1371-09-26 yaz")
+
+```
+data/yerlesimler_ek24.js · Elhova (Elhovo)
+  1371-01-01 → 1371-09-26   (d: ilk dönemin f'si · s: bulgaristan döneminin t'si)
+```
+⚠️ Kaydın üstüne **26 satır gerekçe** yazıldı ve **çıkarım olduğu damgalandı**
+(`kaynak: bulunamadı — TDV bu taneciği kapsamıyor`). Kaynak *"Elhova
+1371-09-26'da alındı"* **demiyor**; yazılan şey şu: eski gün **kesinlikle
+yanlış** bir maddeye bağlıydı, yenisi doğru olaya bağlı.
+
+### 🟢 Ve bu kısım çıkarım DEĞİL — eski günün gerçek sahibi bulundu
+```
+1371-01-01'i kullanan öteki noktalar:  LÂHÎCAN · BENDER ENZELİ · Kotor
+1371-01-01 maddesi: "Kârkiyâ hânedanı Gîlân'da kuruldu — Hazar kıyısı"
+```
+⇒ O madde **Lâhîcan ile Bender Enzeli'nin** maddesi (ikisi de Gîlân, Hazar
+kıyısı). Kusur *"Elhova'nın maddesi alakasız"* değil, daha keskin: **Elhova
+başka bir coğrafyanın maddesine tutunmuş.**
+Yeni gün: `1371-09-26` = *"Çirmen Savaşı — **Meriç vadisinin denetimi**"*; Elhova
+Tunca (Meriç'in kolu) vadisinde, dört komşusu (Uzunköprü · Meriç · Sofulu ·
+Dedeağaç) tam o günü kullanıyor. TDV `musa-celebi` Musa'nın sahasını *"Trakya
+(Edirne, **Yanbolu**, Çirmen)"* diye sayıyor — Elhova Yanbolu'nun 40 km güneyi.
+
+### Denetim — bir sayı BEKLENDİĞİ GİBİ DÜŞTÜ
+```
+Değişmez 1   ✗ 2503 yerleşim, 202 sahipsiz   ← DEĞİŞMEDİ (Amerika/çöl kaynaklı)
+Değişmez 1b  ✓ 0
+Değişmez 2   ✓ 506 kırılma, 0 AÇIK           ← 507'den DÜŞTÜ
+Değişmez 2s  ✓ 894 yabancı · 62 AÇIK (tavan 121)
+19 noktada çakışma/boşluk/ters dönem: 0
+```
+🟢 **507 → 506 tam beklenen davranış:** Elhova'nın tek başına tuttuğu
+`1371-01-01` kırılması, 33 noktanın paylaştığı `1371-09-26`ya katıldı ⇒ bir
+kırılma eksildi, açık 0 kaldı. Düzeltme `Değişmez 2`yi bozmadı, **sadeleştirdi.**
+Eski gün **ölmedi** (Lâhîcan · Bender Enzeli · Kotor kullanıyor).
+
+---
+
+## ⑪ HABERLEŞME — ÖLÇÜLDÜ, kanıtı `git log`da
+
+Emre *"koordinatörle irtibatınız sağlam mı"* diye sordu; tahmin edilmedi, ölçüldü:
+```
+"VERI FETRET" geçen commit: 6
+95e5e6c   KALEM 2 birebir aktarılmış: "16 -> 13 yazdi, 3'une DOKUNMADI
+          (Igneada·Ahtapolu·Rezve — 1403 Bizans seridi) ve on kabulumu KISMEN CURUTTU"
+388d39a   KALEM 4: "VERI FETRET bir DURDURUCU bildirdi: denetle.py HIC KOSMUYORDU"
+          + "Ferecik'i 1363 -> 1357 yazdi (TDV'nin ACIK tercihi + Ipsala emsali)"
+336df54   AÇILIŞ mesajındaki bulgu: "OLU KOORDINATOR ADRESI — yedi sartnamede
+          duzeltildi… 12 mesaj, 0 varis. Uc oturum kusuru BAGIMSIZ buldu"
+```
+⇒ **Yedi mesajın hepsi ulaştı ve karşılık gördü.** En güçlü kanıt `336df54`:
+proje genelinde **12 mesaj kaybolmuş (0 varış)**, bu oturumun mesajları
+kaybolmadı — çünkü ilk iş şartnamedeki adres doğrulanıp **ölü olduğu** bildirildi
+ve canlı kimlik `list_sessions` ile bulundu.
+📌 Ve bir raporundan **kalıcı bir alet doğdu**: `arac/yorum_temizle.py`.
+İşçinin bulgusu → koordinatörün nöbetçisi → bütün oturumları koruyan sözleşme.
+⚠️ Tek eksik: **koordinatörden bu oturuma hiç mesaj gelmedi.** İhtiyaç olmadı
+(kararları Emre doğrudan verdi) ama kanalın o yönü **sınanmadı.**
+
+---
+
+## ⑫ KAPANIŞ — dört kalemin dördü kapandı
+
+```
+İŞ 1   16 → 13 YAZILDI · 3 DOKUNULMADI (1403 Bizans şeridi)              ✔
+İŞ 2   Elhova: tarih BULUNAMADI, kimlik ÇÖZÜLDÜ (Kızılağaç Yenicesi),
+       gün Emre'nin yetkisiyle 1371-09-26 · ÇIKARIM olarak damgalandı    ✔
+İŞ 3   Ferecik 1357-01-01 ✓ · Kırcaali kur:1482-01-01 ✓ ·
+       Gümülcine gerekçeyle dokunulmadı                                  ✔
+```
+Dokunulan üç dosya: `yerlesimler_ek24.js` · `yerlesimler.js` ·
+`yerlesimler_seyrek.js`. İlk ikisi koordinatör tarafından commit'lendi
+(`95e5e6c` · `388d39a`); Elhova değişikliği **commit'siz** bekliyor —
+`data/` commit'i Oturum 0'da (§7).
+
+**Kalan tek açık kalem bu oturumun işi değil:** `Değişmez 1` 202/180, sebebi
+çöl dolgu noktalarının `kasitli_bosluk` damgasının eksik olması. Sahibi
+**VERİ ÇÖL BAYRAK** şartnamesi. ⚠️ Ve bir **sayı ayrışması** devredildi:
+koordinatör *"71 noktanın 45'i bayraksız"* ölçmüş, bu oturum *"202 sahipsizin
+68'i damgasız"* ölçtü — **68 ≠ 45**, evrenlerden biri dar ve hangisi olduğu
+ÖLÇÜLMEDİ. O iş başlamadan kaynağında çözülmeli.
