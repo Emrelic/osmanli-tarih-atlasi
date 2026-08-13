@@ -151,7 +151,10 @@ muhtemel cevabı **budur**: özellik var, **bir kutucuk onu sessizce yutuyor.**
 > ya da tek bir buton olsun — o anda hangi satır seçili ise o olayın
 > mahalline götürsün haritayı."*
 
-**KOORDİNATÖR GÖRÜŞÜ: TEK DÜĞME, ve sebebi ölçülmüş.**
+🟢 **EMRE KARAR VERDİ (22:50): TEK DÜĞME.** Şık kapandı, tartışma bitti.
+Satır başına düğme ve hover seçeneği **uygulanmayacak.**
+
+**Koordinatörün gerekçesi (Emre'nin kararıyla örtüştü):**
 ```
 satır başına düğme   1219 satır × düğme = Emre'nin EN SIK şikâyeti
                      ("gözü kanatıyor"); üstelik SATIRIN KENDİSİ zaten
