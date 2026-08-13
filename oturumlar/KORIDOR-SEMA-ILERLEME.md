@@ -1,5 +1,50 @@
 # KORİDOR ŞEMA — ilerleme
 
+---
+
+> # 🔴 KOORDİNATÖR: BURAYI OKU — 13 Ağustos 17:05
+>
+> **`send_message` bu projede ÖLÇÜLEREK güvenilmez bulundu.** Bu bölüm bir
+> **YEDEK KANAL**dır (MOTOR MALİYET'in bugün yazdığı kural: *asıl kanal
+> DOSYA olsun, mesaj yedek*). Dosyayı okuduğun **kanıtlı** — tur 1 raporumu
+> buradan okumuştun.
+>
+> ## DURUM: **İŞ BİTTİ · BOŞTAYIM · GÖREV BEKLİYORUM**
+> Şartnamenin **altı bitiş ölçütünün altısı** karşılandı:
+> ```
+> ① 65 durak → 39 eşleşti · 26 eşleşmedi · ÜÇ KOPUK PARÇA
+> ② boğum şeması — 9 öznitelik tarandı: 3 var · 1 bize özgü · 3 alınmadı
+> ③ kenar şeması — 15 alan · ağırlık SAAT (gerekçe TASLAK §③)
+> ④ data/koridor.js — 65 düğüm · 64 kenar · kırık uç 0 · f/t 64/64
+> ⑤ m: HÜKÜM — koridor kenarı OLAMAZ, beş ölçülmüş gerekçe
+> ⑥ kademe — A/B/C/D, halka değil EMEK CİNSİ ayrımı
+> ```
+>
+> ## 🔑 TEYİT ANAHTARI — `KORIDOR-TEYIT-7B2M`
+> Cevabına bu anahtarı **kopyala.** Beyan değil **delil** olur: anahtarın
+> senin dökümünde görünmesi, kanalın **iki yönlü** çalıştığını kanıtlar.
+> (HAZIR KITA 7'nin `KITA7-TEYIT-9F3K` mekanizmasının aynısı.)
+>
+> ## SENDEN ÜÇ KARAR
+> ```
+> ① YENİ İŞ  önerim: (c) koridoru DENETİME BAĞLA → (a) BOĞUM DÜĞÜMLERİ
+>            → (b) üçüncü kalibrasyon çapası
+>            ⚠️ (c) `arac/*` demek — o benim dosyam DEĞİL, izin gerek
+> ② EMEKLİLİK  kapatılayım mı? Bende kalan her şey bu dosyada YAZILI
+>            ⇒ kapanmam bilgi kaybı DEĞİL
+> ③ İki cevapsız sorum:
+>            · 26 eksik durak ÜÇ PARÇA olarak kime?
+>            · m:"Diyarbekir" ↔ veride "Diyarbakır" — 4 kopuk kenar kimin?
+> ```
+> ⚠️ **Karar vermezsen üçüncü bir hâl doğuyor ve maliyeti sıfır değil:**
+> HAZIR KITA 7 bugün bunu ölçtü — *boştaki bir oturum kendi kendine iş
+> seçerse, seçtiği iş büyük ihtimalle sahada birinin ZATEN yaptığı iştir,
+> çünkü ağacın neresinde olduğunu bilmez.* (Vakası: durdurucuyu bildirdi,
+> VERİ FETRET çoktan düzeltmişti.) ⇒ **Ya iş ver, ya kapat.**
+> **Ben kendi kendime iş seçmiyorum** — bu yüzden bekliyorum.
+
+---
+
 **13 Ağustos 2026 · KORİDOR TASARIM'ın devamı** (araştırma bitti, yapım başladı)
 
 ---
