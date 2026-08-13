@@ -199,13 +199,85 @@ oku" kuralı bile onu yakalamaz, okunan şey bir **adres.**
 
 ---
 
-## ⑥ BEKLEYEN ÜÇ KARAR (koordinatörde)
+## ⑥ İKİNCİ TUR (Emre: "devam") — FERECİK YAZILDI, BİR DURDURUCU BULUNDU
+
+### 🟢 (b) FERECİK UYGULANDI — ve gerekçe ölçümle üçe katlandı
+`data/yerlesimler.js` · **`1363-01-01` → `1357-01-01`** (iki yerde: `d:` ilk
+dönemin `f`si · `s:` bizans döneminin `t`si). Kaydın üstüne 14 satırlık gerekçe
+yorumu yazıldı, `kaynak: TDV ferecik` damgasıyla (§4 *kaynak gizlenmez*).
+
+🔴 **Kaydın kendi yorumu düzeltmenin gerekçesini verdi:**
+> *"Zincir Gümülcine ile BİREBİR… Tarih UYDURULMADI, **komşudan alındı**."*
+
+⇒ `1363` Ferecik'in **kendi kaynağı değil**, Gümülcine'den kopya. Üç bağımsız
+dayanak yeni tarihi tutuyor:
+```
+① TDV `ferecik`   tercihini AÇIKÇA söylüyor: Hadîdî 758/1357 · Nişancı Mehmed
+                  Paşa ve Âlî 759/1358 → "Muhtemelen bu sonuncu tarihler
+                  gerçeği yansıtmakta" (Süleyman Paşa)
+② TDV, Ferecik'i İPSALA ve KEŞAN ile BİRLİKTE anıyor
+③ kronoloji       1357-01-01 maddesi: "Süleyman Paşa'nın Trakya ilerleyişi:
+                  MALKARA, İPSALA, KEŞAN…"     ← tam o küme
+                  1363-01-01 maddesi: "Batı Trakya'ya iniş: GÜMÜLCİNE'nin fethi"
+```
+⇒ Ferecik **başka bir şehrin fetih maddesine** bağlıydı — Elhova'nın "Kârkiyâ
+hânedanı" sorunuyla aynı sınıf, ama bu sefer **kaynak konuşuyordu.**
+Yeni gün icat edilmedi: `1357-01-01`i veride 12 nokta kullanıyor, maddesi ±0 gün.
+
+**Geri okundu** (`girdi.oku_dosya`): 1356 bizans → 1358 OSMANLI ✓ · İpsala ·
+Keşan · Malkara ile aynı zaman çizgisi ✓ · çakışma/boşluk/ters dönem **0** ·
+Gümülcine ve Kırcaali 1363'te **kaldı.**
+
+### 🔴🔴 DURDURUCU — `denetle.py` HİÇ KOŞMUYOR, sebep BENDE DEĞİL
+```
+data/yerlesimler_amerika.js   (NOKTA AMERİKA'nın dosyası — DOKUNULMADI)
+  796 · 802 · 951   {…d:"pueblo-bagimsizligi"},   // ÖNERİLEN KİMLİK
+  965               {…d:"teksas-cumhuriyeti"},    // ÖNERİLEN KİMLİK
+```
+42 girdi dosyası tarandı (tırnak durumu izlenerek, `http://` hariç):
+**4 ihlal, dördü de bu dosyada, başka hiçbir dosyada YOK.**
+
+📌 **Ve bu, DÜNKÜ dersin aynı dosyada tekrarı.** `95e5e6c` commit mesajı:
+*"sebep SATIR SONUNDA yorum ('}, // ONERILEN KIMLIK') — _cevir yalnız satır
+BAŞINDAKİ // yi siliyor ⇒ Sözleşme yazılıyor: yorum yalnız KENDİ SATIRINDA."*
+Sözleşme **bir gün önce** yazıldı, **aynı yerde, aynı yorum metniyle, dört kez**
+çiğnendi. `§11`in *"kural yetmiyor, ALIŞKANLIK gerekiyor"* dersinin en keskin
+vakası.
+
+🔴 **Ve bir denetim boşluğu:** bu kusuru hiçbir nöbetçi göremez, çünkü
+**nöbetçiyi çökertiyor.**
+```
+normal kusur   denetim ÖLÇER  → "şu satırda şu var"
+bu kusur       denetim ÇÖKER  → hiçbir şey demez
+```
+Üstelik patlama mesajı kaynağı **göstermiyor**: `line 455` diyor, o `_cevir`in
+ürettiği geçici JSON'un satırı; kaynak dosyanın satırı **796**. Teşhis için
+`_cevir`in adımlarını elle taklit etmek gerekti.
+🟢 Nöbetçi betiği yazıldı ve `C13` uyarınca **iki yönde de sınandı**: gerçek
+veride **ateşliyor** (4 ihlal, doğru satır numaraları) · ihlalsiz 41 dosyada
+**temiz geçiyor** · `http://` ve tırnak içi `//` yanlış pozitif vermiyor.
+`arac/*` yasak olduğu için oraya **taşınmadı**, scratchpad'de duruyor ve
+koordinatöre bildirildi.
+
+⚠️ **Sonuç: Ferecik düzeltmesi benim ölçümüme göre temiz, ama projenin
+denetimine göre ÖLÇÜLEMEDİ.** `§11`: *ölçülemedi ≠ temiz.* Amerika dosyası
+düzelince ilk iş `denetle.py`.
+
+---
+
+## ⑦ BEKLEYEN — tek karar kaldı
 
 ```
-(a) Elhova   1371-01-01 → 1371-09-26 (Çirmen)   — çıkarım, onay bekliyor
-(b) Ferecik  1363-01-01 → 1357-01-01            — TDV tercihi + İpsala emsali
-(c) Kırcaali `kur:` + d: 1482 + Fetret silme    — yetki dışı (başka alan + başka dosya)
-(d) Üç kıyı noktası: `bulunamadı` kalsın mı, yoksa şeridin geri alınma tarihi
-    akademik kaynakta aranıp bir kırılma günü + `olaylar_ek8.js` maddesi mi yazılsın?
+(a) Elhova   1371-01-01 → 1371-09-26   BEKLİYOR · çıkarım (TDV susuyor), onay şart
+(b) Ferecik  1357-01-01                🟢 UYGULANDI
+(c) Kırcaali `kur:1482` + d:1482 + Fetret silme   BEKLİYOR · yetki dışı:
+             `kur:` bir dönem DEĞİL (§③ "başka alana dokunma") + dosya
+             `yerlesimler_seyrek.js`. İkisi BİRLİKTE yazılmalı, yoksa
+             119 yıl sahipsizlik doğar.
+(d) Üç kıyı noktası                    ✔ KAPANDI — akademik kaynak arandı,
+             §4 kırmızı çizgisini geçen kaynak BULUNAMADI (Vikipedi · Fandom
+             wiki · Wikidata, üçü de reddedilen kümede) ⇒ `bulunamadı` kalıyor
 ```
-Üçü de onayla 5 dakikada iner.
+**Aciliyet sırası:** Kırcaali > Elhova. Kırcaali bir **anakronizm** (haritada var
+olmayan bir şehir boyanıyor, `§3.5` hayalet ailesinin yerleşim tarafı); Elhova
+yalnız bir **rivayet tercihi.**
