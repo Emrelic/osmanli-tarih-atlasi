@@ -2,6 +2,28 @@
 
 13 Ağustos 2026. Görev: `oturumlar/NOKTA-AMERIKA.md`. Durum: **134 nokta yazıldı, teslim.**
 
+## 🟢 GÜNCELLEME — Değişmez 1b'nin bulduğu 5 iç boşluk kapatıldı
+
+Koordinatör ilk motor koşusunda `Değişmez 1b: 5 iç boşluk — BEŞİ DE Amerika` buldu ve
+"sahibine sevk edildi" dedi. Hepsi kapatıldı:
+
+```
+Taos Pueblo · Acoma Pueblo · Santa Fe(NM)   1680-08-10 → 1692-08-01
+  → YENİ KİMLİK "pueblo-bagimsizligi" ile dolduruldu (kaynak KONUŞUYOR, iyi belgeli)
+San Antonio                                  1836-03-02 → 1845-12-29
+  → zaten önerilmiş "teksas-cumhuriyeti" ile dolduruldu (daha önce yalnız header'da
+    yazılıydı, diziye HİÇ İŞLENMEMİŞTİ — kendi hatam)
+New Orleans                                  1800-10-01 → 1803-04-30
+  → "ispanya" dönemi birleştirilerek kapatıldı (yorumda "kapatıldı" YAZMIŞTIM ama
+    diziye YAZMAMIŞTIM — kendi hatam, denetim yakaladı)
+```
+
+Node.js ile yeniden doğrulandı: **0 boşluklu/çakışmalı zincir** (önceden 5 idi — Sitka'nın
+kesintisi hiçbir zaman bir "boşluk" değildi, tek sürekli "rusya" dönemi içinde bir tarihsel
+nüans olarak kaldı, denetim onu hiç yakalamıyordu zaten).
+
+⇒ **Toplam önerilen kimlik 31 → 32'ye çıktı** (`pueblo-bagimsizligi` eklendi, aşağıda).
+
 ## ① Sayı
 
 ```
@@ -71,6 +93,11 @@ BOYANMAZ (BOYALAR sözlüğünde karşılığı yok) — sessizce, hata vermeden
   f:"1836-03-02", t:"1845-12-29", baskent:"Columbia → Houston → Austin",
   ozet:"Meksika'dan ayrılan Anglo-Amerikan göçmen kolonisinin bağımsızlık ilanıyla kurduğu kısa ömürlü cumhuriyet; ABD'ye ilhakla sona erdi.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak (T.R. Fehrenbach, 'Lone Star', 1968)" },
+
+{ id:"pueblo-bagimsizligi", ad:"Pueblo Bağımsızlığı (1680 İsyanı sonrası)", tur:"konfederasyon", bolge:"kuzey-amerika",
+  f:"1680-08-10", t:"1692-08-01", baskent:"merkezi yok — Rio Grande vadisi Pueblo köyleri",
+  ozet:"10 Ağustos 1680 Pueblo İsyanı (Popé önderliğinde) İspanyolları Santa Fe'den ve tüm Yeni Meksika'dan kovdu — İspanyol kolonyal döneminde yerlilerin İspanyol gücünü kalıcı olarak yendiği tek büyük ayaklanma. 12 yıl boyunca Rio Grande vadisi Pueblo köyleri fiilen bağımsız kaldı; Diego de Vargas'ın 'kansız yeniden fethi' Ağustos 1692'de sona erdi.",
+  kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: David J. Weber, 'The Spanish Frontier in North America' (1992)" },
 ```
 
 ### Mezoamerika (5)
@@ -188,17 +215,20 @@ BOYANMAZ (BOYALAR sözlüğünde karşılığı yok) — sessizce, hata vermeden
 
 ## ④ Bilinen açık sınırlar (veri sahibine/entegrasyona bırakılan kararlar)
 
-Dosyanın kendi başlığında da var, özet:
-
 1. **Cahokia 1350 sonrası** — site fiilen terk edildi, nokta 1350'de `s:` dizisini bitiriyor.
-2. **Pueblo İsyanı boşluğu** (Taos/Acoma/Santa Fe-NM, 1680-08-10→1692-08-01, ~12 yıl) — kasıtlı
-   boşluk BIRAKILDI, `denetle.py` bunu Değişmez 1'e göre nasıl işleyecek kontrol edilmeli.
+   KASTEN böyle — Değişmez 1b'nin "iç boşluk" ölçütüne girmiyor çünkü tek pencere var,
+   ARASI boşluk yok (bkz. `denetle.py` yorumu: "penceresi hiç olmayan/erken biten noktalar
+   kasten boş dolgu sayılır").
+2. 🟢 **KAPATILDI** — Pueblo İsyanı boşluğu (Taos/Acoma/Santa Fe-NM, 1680-08-10→1692-08-01)
+   artık "pueblo-bagimsizligi" (YENİ önerilen kimlik, §③'e eklendi) ile dolu.
 3. **Sitka 1802-1804** (~2 yıllık Tlingit kesintisi) — veri sürekli "rusya" yazıldı, kesinti
-   yalnız yorumla işaretlendi, düzeltilmedi.
-4. **San Antonio 1836-1845** (Teksas Cumhuriyeti dönemi) — kasıtlı boşluk BIRAKILDI,
-   "teksas-cumhuriyeti" eklenirse doldurulabilir.
+   yalnız yorumla işaretlendi. Değişmez 1b bunu YAKALAMAZ (tek sürekli pencere, ara boşluk
+   yok) — yalnız tarihsel doğruluk notu, teknik borç değil.
+4. 🟢 **KAPATILDI** — San Antonio 1836-1845 artık "teksas-cumhuriyeti" ile dolu (ilk teslimde
+   kimlik önerilmişti ama diziye işlenmemişti — Değişmez 1b denetiminde bulundu, düzeltildi).
 5. **Rio de la Plata 1814-1817** (Colonia del Sacramento, Montevideo) — Artigas'ın Liga
    Federal'i için kimlik yok, "arjantin-cumhuriyeti" ile AŞIRI BASİTLEŞTİRİLDİ, açıkça işaretli.
+   HÂLÂ AÇIK — ayrı bir kimlik gerektirir, bu turda çözülmedi.
 6. **Río de la Plata 1776 öncesi** (Buenos Aires/Asunción/Córdoba/Santa Fe/Corrientes/Mendoza) —
    "ispanyol-peru" kimliği kullanıldı (coğrafi değil idari/tarihi bağ — Peru Genel Valiliği'ne bağlıydı).
 
