@@ -281,3 +281,101 @@ düzelince ilk iş `denetle.py`.
 **Aciliyet sırası:** Kırcaali > Elhova. Kırcaali bir **anakronizm** (haritada var
 olmayan bir şehir boyanıyor, `§3.5` hayalet ailesinin yerleşim tarafı); Elhova
 yalnız bir **rivayet tercihi.**
+
+---
+
+## ⑧ ÜÇÜNCÜ TUR (Emre: "Kırcaali'yi de yaz, yetki verdim")
+
+### 🔴 ÖNCE ÖZ ELEŞTİRİ: "yeni bulgu" dediğim şey KAYITLIYDI
+Yazmadan önce kaydın **üstündeki yorumu** okudum:
+```
+// ⚠️ `kur:` YAZILMADI: TDV 1482 ilk tahrir kaydını veriyor ama yerleşim yeri
+//    daha eski ve zincir komşularıyla AYNI olduğu için kur: haritada tek
+//    piksel değiştirmez — uydurma bir kuruluş günü ise kalıcı yanlış olurdu.
+//    (Akmescid ve Or Kapı'da verilen kararın aynısı, yerlesimler_kirim.js.)
+```
+⇒ TDV'nin 1482 tahrir kaydı **zaten ölçülmüş**, `kur:` yazmama kararı **zaten
+verilmiş ve gerekçelendirilmiş.** Ben ⑤'te onu *"anakronizm buldum"* diye **yeni
+bir bulgu gibi** raporladım — kaydın yorumuna bakmadan.
+📌 `§11`in *"ölçmediğini `ölçmedim` diye yaz"* dersinin bana düşen hâli, ve orada
+anlatılan vakanın birebir tekrarı: *"'kasıtlı mı, YAZILI DEĞİL' — HİÇ BAKILMADI,
+ve YAZILIYDI."*
+
+### 🟢 AMA GEREKÇE ÖLÇÜLDÜ VE BİR AYAĞI ÇÜRÜDÜ — koda bakılarak
+```
+uret_petek.py:2326   kur günü gelmemiş noktanın peteğini HİÇ ÇİZMİYOR
+uret_petek.py:2341   KOMŞULUK hesabına da SOKMUYOR
+uret_petek.py:2366   üçüncü okuma
+uret_petek.py:2512·2514   kur: günlerinden EPOK üretiyor
+js/app.js:2706 · :2770    dizinde "kuruluş" olarak GÖSTERİYOR
+```
+🔴 *"`kur:` haritada tek piksel değiştirmez"* → **YANLIŞ.**
+🟢 *"uydurma kuruluş günü kalıcı yanlış olurdu"* → **HAKLI**, ve o yüzden gün
+uydurulmadı: `1482-01-01` TDV'nin **tahrir kaydı.** Anlamı *"bu yıl kuruldu"*
+değil, **"en geç bu tarihte vardı"** üst sınırı (1482'de zaten 41 haneli köy).
+Alt sınır Kırca Ali'nin ölümü (~1434); TDV arada gün **vermiyor** ⇒ **belgeli
+olan seçildi, tahmin edilen değil.**
+
+📌 `B10`un **tersten** hâli: burada **hüküm** yanlıştı çünkü **teşhis** yanlıştı.
+Ve teşhisi çürüten şey akıl yürütme değil **koda bakmak** oldu.
+
+### NE YAZILDI
+```
+data/yerlesimler_seyrek.js · Kırcaali
++ kur:"1482-01-01"
+  d: DOKUNULMADI · s: DOKUNULMADI
+```
+**`d:`ye dokunmamak bilinçli:** ① çelişki yok — `d:1363` **YERİN** sahipliğini
+söyler (Rodop 1363'ten Osmanlı), `kur:1482` **YERLEŞİMİN** varlığını; iki ayrı
+eksen. ② `d:`yi 1482'ye çekmek **yeni bir kırılma** doğurur ve `Değişmez 2` madde
+ister — kazanç yok, borç var. Fetret dönemlerini silmek de gereksiz: motor
+noktayı o günlerde **hiç işlemiyor.**
+Eski karar **silinmedi, DAMGALANDI** (`§3.5.1`: *vakayı silmek dersi de siler*).
+
+**Geri okundu** (motorun kendi mantığıyla): `1481-06-15` 🚫 haritada YOK ·
+`1483-06-15` ✓ VAR/OSMANLI · Değişmez 1 kesitlerinde **sahipsiz satırı yok** ·
+`girdi.py 'kur' tanıyor: True`.
+⇒ 1363-1482 arası Kırcaali'nin toprağı `§2` gereği komşularına (Gümülcine ·
+Filibe · Eski Zağra) kalıyor — 119 yıl boyunca **doğru** olan davranış.
+
+### 📌 KOORDİNATÖRE SEVK
+Çürüyen gerekçe **Akmescid ve Or Kapı**'da da kullanılmış (`yerlesimler_kirim.js`
+— yorumun kendisi söylüyor). Dosyada `kur:` üç yerde var ama o iki kayıtta
+görünmüyor. **Dokunulmadı**, yetki dışı.
+
+### 🟢 DENETİM ARTIK KOŞUYOR — ve 202 sahipsiz BENDEN DEĞİL
+Amerika dosyası düzelmiş (**2369 → 2503 nokta**), `denetle.py` çökmüyor.
+```
+Değişmez 1   ✗ 2503 yerleşim, 202 sahipsiz (beklenen 180)
+Değişmez 1b  ✓ 0     ·  Boşluk cinsi ✓ 0  ·  Değişmez 2 ✓ 507 kırılma 0 AÇIK
+2s ✓ 62/121  ·  2i ✓ 3/3  ·  2t ✓ 31/42        SONUÇ: İHLAL VAR (kod 1)
+```
+İhlalin atfı **tahmin edilmedi, ölçüldü** (`denetle.py:656-666` ile aynı kesitler
+ve aynı `kur:`/`bit:` muafiyetleri):
+```
+BENİM 19 NOKTAMDAN SAHİPSİZ OLAN:  0     ← liste BOŞ
+dağılım: h2_afrika 56 · yerlesimler.js 37 · AMERIKA 22 · ek8 18 · ek13 16 · …
+damga:   134'ü `kasitli_bosluk` · 68'i damgasız
+```
+🟢 Atıf birebir oturuyor: **`beklenen 180` + Amerika'nın 22 sahipsizi = 202.**
+`95e5e6c` commit'i *"203/180"* diyordu ⇒ bugün 202, biri kapatılmış.
+⚠️ Damgasız 68'in çoğu **çöl dolgu noktası** (Sahra · Necid · Rub'ul Hâlî · Nefud
+· Karakum) — `§3` bunları *"kasten öyle"* sayıyor ama `kasitli_bosluk` damgası
+**yok.** Ayrı bir kalem: *damgasız kasıtlı boşluk.* Ölçüldü, devredildi.
+
+---
+
+## ⑨ KAPANIŞ
+
+```
+İŞ 1   16 → 13 YAZILDI · 3 DOKUNULMADI (1403 Bizans şeridi)          ✔
+İŞ 2   Elhova BULUNAMADI · kimlik çözüldü (Kızılağaç Yenicesi)       ✔
+İŞ 3   Ferecik 1357-01-01 ✓ · Kırcaali kur:1482-01-01 ✓ ·
+       Gümülcine gerekçeyle dokunulmadı                              ✔
+```
+**Bekleyen tek kalem: Elhova** (`1371-01-01` → `1371-09-26`). Yazılmadı çünkü
+**TDV susuyor** ve öneri bir çıkarım — Kırcaali'de olduğu gibi belgeli bir
+dayanak yok. Açık kararla yazılır.
+
+Dokunulan üç dosya (`yerlesimler_ek24.js` · `yerlesimler.js` ·
+`yerlesimler_seyrek.js`) **commit'siz** bekliyor; `data/` commit'i Oturum 0'da.
