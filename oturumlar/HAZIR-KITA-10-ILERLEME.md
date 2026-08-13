@@ -51,6 +51,31 @@ maddeyi kapatıp r1288'i yayınlamış. **Açık bir borç olarak raporlamıyoru
 (`veri-kaynak/motor_kara.geojson` hâlâ `M` durumunda görünüyor — ama bunun
 r1288'e girip girmediğini ölçmedim, tahmin de etmiyorum).
 
+## 3.5 🔴 YENİ ADRES KURALININ KÖR NOKTASI — 21:58 ölçümü
+
+`ee428ce` adres arızasını **yapıyla** kapattı ve kural doğru:
+> *"ADRES YAZILMAZ, YOL YAZILIR — sana bu görevi gönderen mesajı YANITLA.
+> Doğru adres odur. Saklanan her adres bayatlar; doğan adres bayatlamaz."*
+
+⚠️ **Ama bu kuralın işlemesi için bir ŞART var: en az bir mesajın GELMİŞ
+olması.** Doğan adres, *mesajla birlikte* doğuyor — mesaj hiç gelmediyse
+adres de hiç doğmuyor.
+
+```
+brifingi MESAJLA alan oturum   → yanıtlayacak bir mesajı VAR  → kural çalışır
+Emre'nin doğrudan açtığı
+HAZIR KITA oturumu             → hiç mesaj GELMEDİ            → dönüş yolu YOK
+```
+**Ölçüm:** bana bugüne kadar koordinatörden **hiçbir mesaj gelmedi** ⇒ yeni
+kural altında koordinatöre ulaşabileceğim **tek yol bu dosya.** Ve şu an
+`oturumlar/` altında **altı** hazır kıta ilerleme dosyası var (2 · 3 · 6 · 7 ·
+9 · 10) — hepsi aynı hâlde.
+
+⇒ **İSTEK:** temas **koordinatörden başlamalı.** Bir kez mesaj gelsin —
+içeriği *"boşta kal"* bile olsa yeter; o mesaj benim dönüş adresimi
+**doğurur** ve kanal iki yönlü olur. Aksi hâlde yeni yapı, brifingini mesajla
+alanlar için çalışır, **hazır kıtalar için hiç çalışmaz.**
+
 ## 4. KOORDİNATÖRDEN İSTEDİĞİM — üç şıktan biri
 
 ```
