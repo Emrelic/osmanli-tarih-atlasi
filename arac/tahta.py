@@ -11,26 +11,54 @@
     altı oturum bunu BAĞIMSIZ olarak doğruladı (hazır kıta 2·3·6·7·9·10)
     en keskin kanıt: koordinatör KRONOLOJİ YER'e anahtarlı bir sevk gönderdi,
     araç "sent" dedi; oturum ONDAN SONRA ölçtü ve yazdı:
-        "grep -ril 'KITA9|HAZIR KITA 9' -> TEK SONUÇ BU DOSYA.
-         Depoda bana hitap eden hiçbir satır yok."
-
+        "grep -ril 'KITA9|HAZIR KITA 9' -> TEK SONUÇ BU DOSYA."
 📌 `CLAUDE.md §11`: *"araç kendi eyleminin SONUCUNU değil DENEMESİNİ
-raporluyor."* `"sent"` bir TESLİM değil bir GİRİŞİM kaydıdır. Koordinatör beş
-kez ona güvendi ve beş kez "gönderildi" diye rapor etti.
+raporluyor."* `"sent"` bir TESLİM değil bir GİRİŞİM kaydıdır.
 
-⇒ Tahta git üzerinden çalışır: **hiçbir yerde oturum kimliği YOK**, bayatlayacak
-adres YOK, ve teslim `git log` ile KANITLANABİLİR.
+═══════════════════════════════════════════════════════════════════════════
+ALANLAR — Emre'nin listesi + koordinatörün eklediği üçü, gerekçeleriyle
+═══════════════════════════════════════════════════════════════════════════
+Emre'nin saydıkları:
+    gönderen · muhatap · tarih-saat · içerik · okundu mu · cevap bekleniyor mu
+Ve sordu: "başka ne olabilir, şimdi aklıma gelmedi."
+
+🔴 ① NO — EN KRİTİK EKSİK, ve Emre'nin kendi iki alanı ONSUZ ÇALIŞMAZ:
+   "cevap bekleniyor mu" bir mesaja BAĞLANMALI; "okundu mu" bir mesaj için
+   işaretlenmeli. Kimliksiz bir satıra ne cevap bağlanır ne okundu yazılır.
+   ⇒ M-0001, M-0002 … Ve cevap yazılırken `--yanit M-0007` ile bağlanır:
+     iplik doğar, "şu soruya cevap geldi mi" MAKİNEYE SORULABİLİR olur.
+   📌 Bu projenin en pahalı dersi: "bir `if` ile sorulamıyorsa kayıt vardır,
+      VERİ YOKTUR." Kimlik, o `if`i mümkün kılan alandır.
+
+② HAL — "okundu mu" TEK BAŞINA yetmiyor, çünkü üç ayrı şey karışıyor:
+   okundu ≠ cevaplandı ≠ kapandı. Bir mesaj okunmuş ama cevapsız olabilir
+   (en tehlikeli hâl), cevaplanmış ama iş bitmemiş olabilir.
+   ⇒ ACIK · CEVAPLANDI · KAPANDI
+
+③ VADE — "cevap bekleniyor mu" EVET ise, NE ZAMANA KADAR?
+   Vadesiz bekleyiş bu projede ölçülmüş bir zarar: bir oturum iki gün
+   "cevap bekliyor" sanıldı, aslında işini bitirmişti. Vade, bekleyişi
+   ÖLÇÜLEBİLİR yapar — `bekleyen --gecikmis` gecikeni tek komutla verir.
+
+🟢 VE "OKUNDU" OTOMATİK — çünkü elle işaretlenen kutu işaretlenmez.
+   `oku --kim X` çağıran, gördüğü mesajları OKUDU sayılır ve OKUYAN alanına
+   adı+saati düşer. Bir alanın doldurulmasını insana bırakmak, o alanı
+   boş bırakmakla aynıdır.
+   ⚠️ Çok muhataplı mesajda "okundu" TEK BİR EVET/HAYIR olamaz — kim okudu,
+      ne zaman okudu ayrı ayrı tutulur (KİME=HERKES ise bu şart).
 
 Kullanım:
-    py arac/tahta.py yaz  --kim "RENK 3" --kime KOORDINATOR --mesaj "ΔE 2,8 ölçtüm"
-    py arac/tahta.py oku  --kim "RENK 3"          # BANA gelenler (+ HERKES)
-    py arac/tahta.py oku                           # tahtanın tamamı
-    py arac/tahta.py oku  --hepsi --son 30         # son 30 satır, herkes
-
-`yaz` satırı ekler VE commit eder (pathspec'li — paylaşılan index güvenliği).
+    py arac/tahta.py oku  --kim "RENK 3"              # sana gelenler (okundu işaretlenir)
+    py arac/tahta.py yaz  --kim "RENK 3" --kime KOORDINATOR --mesaj "..."
+                          [--cevap-bekle] [--vade "2026-08-14 12:00"]
+                          [--yanit M-0007]            # bir mesaja cevap
+    py arac/tahta.py bekleyen                          # cevap bekleyen AÇIK mesajlar
+    py arac/tahta.py bekleyen --gecikmis               # vadesi GEÇMİŞ olanlar
+    py arac/tahta.py kapat M-0007 --kim "RENK 3"       # iş bitti, ipliği kapat
 """
 import datetime
 import io
+import json
 import os
 import re
 import subprocess
@@ -39,141 +67,317 @@ import sys
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-TAHTA = os.path.join(KOK, "oturumlar", "TAHTA.md")
-BAS = """# 📋 TAHTA — oturumlar arası mesaj panosu
+DIZIN = os.path.join(KOK, "oturumlar")
+VERI = os.path.join(DIZIN, "tahta.json")     # 🔴 GERÇEK KAYIT — makine okur
+GORUNUM = os.path.join(DIZIN, "TAHTA.md")    # ÜRETİLİR — insan okur
 
-> Emre'nin tasarımı, 13 Ağustos 2026. `send_message` ölçüldü ve ÇALIŞMIYOR
-> ("sent" diyor, hedefe varmıyor — altı oturum bağımsız doğruladı).
-> Bu pano **git üzerinden** çalışır: kimlik yok, bayatlayacak adres yok,
-> ve teslim `git log` ile KANITLANABİLİR.
+# 🔴 İKİ DOSYA, VE HANGİSİNİN OTORİTE OLDUĞU YAZILI:
+# `tahta.json` otoritedir; `TAHTA.md` ondan ÜRETİLİR ve ELLE DÜZENLENMEZ.
+# Sebebi ölçülmüş: bu proje "aynı bilgi iki yerde durursa biri güncellenince
+# öteki bayatlar" dersini ÜÇ KEZ öğrendi (girdi.py tek tırnak · bagla.py CRLF ·
+# renkler.py'nin yorum-ile-sözlük ayrışması). Markdown tabloyu hem yazıp hem
+# ayrıştırmak dördüncüsü olurdu — bir boru işareti bütün satırı kaydırır.
+# ⇒ Veri JSON'da (json.load ayrıştırır), görünüm üretilir.
 
-## Nasıl kullanılır
-```bash
-py arac/tahta.py oku --kim "<KENDİ ADIN>"     # sana gelenler
-py arac/tahta.py yaz --kim "<KENDİ ADIN>" --kime KOORDINATOR --mesaj "..."
-```
-🔴 **Her turun başında `git pull --ff-only` sonra `oku`.** Tahta seni
-UYANDIRMAZ — okumak senin işin.
-⚠️ `--kime HERKES` yazarsan mesajı herkes görür. Kimseye yazmıyorsan yazma:
-gürültü, panoyu okunmaz yapar ve okunmayan pano yoktur.
-
-| TARİH SAAT | KİMDEN | KİME | MESAJ |
-|---|---|---|---|
-"""
+HALLER = ["ACIK", "CEVAPLANDI", "KAPANDI"]
 
 
-def _kur():
-    if not os.path.exists(TAHTA):
-        os.makedirs(os.path.dirname(TAHTA), exist_ok=True)
-        io.open(TAHTA, "w", encoding="utf-8", newline="\n").write(BAS)
+def _yukle():
+    if not os.path.exists(VERI):
+        return []
+    try:
+        with io.open(VERI, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception as e:
+        # 🔴 SESSİZ GEÇİLMEZ: bozuk tahta, boş tahtadan KÖTÜDÜR — boş tahta
+        # "kimse yazmadı" der, bozuk tahta "mesajın yok" der ve YALAN söyler.
+        print("🔴 tahta.json OKUNAMADI: %s" % e)
+        print("   Mesajlar kaybolmuş OLABİLİR. Devam etme, KULLANICIYA söyle.")
+        sys.exit(2)
 
 
-def _temiz(s):
-    """Boru işareti tabloyu bozar; satır sonu satırı böler."""
+def _kaydet(kayit):
+    os.makedirs(DIZIN, exist_ok=True)
+    with io.open(VERI, "w", encoding="utf-8", newline="\n") as f:
+        json.dump(kayit, f, ensure_ascii=False, indent=1)
+    _gorunum_yaz(kayit)
+
+
+def _t(s):
     return re.sub(r"\s+", " ", (s or "").replace("|", "¦")).strip()
 
 
-def yaz(kim, kime, mesaj):
-    _kur()
-    zaman = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
-    satir = "| %s | %s | %s | %s |\n" % (
-        zaman, _temiz(kim), _temiz(kime).upper(), _temiz(mesaj))
-    with io.open(TAHTA, "a", encoding="utf-8", newline="\n") as f:
-        f.write(satir)
-    print("tahtaya yazildi:")
-    print("   " + satir.strip())
+def _simdi():
+    return datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
 
-    # Commit — pathspec ZORUNLU: git index PAYLAŞILIYOR, yol adı yazılmazsa
-    # başka bir oturumun sahnelediği dosya bu commit'e girer (§7).
-    ileti = os.path.join(KOK, ".tahta_commit_mesaji")
+
+def _gorunum_yaz(kayit):
+    sat = ["# 📋 TAHTA — oturumlar arası mesaj panosu",
+           "",
+           "> 🤖 **ÜRETİLMİŞ DOSYA — ELLE DÜZENLEME.** Otorite `tahta.json`.",
+           "> Yazmak için: `py arac/tahta.py yaz --kim <AD> --kime <AD> --mesaj <metin>`",
+           "> Okumak için: `py arac/tahta.py oku --kim \"<KENDİ ADIN>\"`",
+           "",
+           "| NO | TARİH SAAT | KİMDEN | KİMLİK | KİME | CİNS | ACİL | HAL "
+           "| CEVAP | VADE | OKUYAN | DAYANAK | MESAJ |",
+           "|---|---|---|---|---|---|---|---|---|---|---|---|---|"]
+    for m in kayit:
+        okuyan = ", ".join("%s@%s" % (k, v[-5:]) for k, v in
+                           sorted((m.get("okuyan") or {}).items())) or "—"
+        cevap = m.get("cevap") or "—"
+        if m.get("yanit_no"):
+            cevap = "↩ %s" % m["yanit_no"]
+        sat.append("| %s | %s | %s | %s | %s | %s | %s | %s | %s | %s | %s | %s | %s |" % (
+            m["no"], m["zaman"], m["kimden"], m.get("kimden_kimlik") or "—",
+            m["kime"], m.get("cins") or "BILGI", m.get("aciliyet") or "NORMAL",
+            m["hal"], cevap, m.get("vade") or "—", okuyan,
+            m.get("dayanak") or "—", m["mesaj"]))
+    io.open(GORUNUM, "w", encoding="utf-8", newline="\n").write(
+        "\n".join(sat) + "\n")
+
+
+def _git(kayit, baslik, govde):
+    ileti = os.path.join(KOK, ".tahta_ileti")
     io.open(ileti, "w", encoding="utf-8", newline="\n").write(
-        "TAHTA — %s -> %s\n\n%s\n" % (kim, kime, mesaj))
+        "%s\n\n%s\n" % (baslik, govde))
     try:
-        subprocess.run(["git", "-C", KOK, "add", "--", "oturumlar/TAHTA.md"],
+        # pathspec ZORUNLU: git index PAYLAŞILIYOR (§7)
+        yol = ["oturumlar/tahta.json", "oturumlar/TAHTA.md"]
+        subprocess.run(["git", "-C", KOK, "add", "--"] + yol,
                        check=False, capture_output=True)
-        r = subprocess.run(["git", "-C", KOK, "commit", "-F", ileti,
-                            "--", "oturumlar/TAHTA.md"],
+        r = subprocess.run(["git", "-C", KOK, "commit", "-F", ileti, "--"] + yol,
                            capture_output=True, text=True)
-        print("commit: %s" % ("✓" if r.returncode == 0 else "🔴 kod=%d" % r.returncode))
-        # ⚠️ pull --rebase ÖNCE, sonra push (§bitir): tek bilgisayarken push
-        # hep çalışır; ikinci yazar geldiği an non-fast-forward ile reddedilir.
+        if r.returncode != 0 and "nothing to commit" not in (r.stdout or ""):
+            print("commit: 🔴 kod=%d" % r.returncode)
         subprocess.run(["git", "-C", KOK, "pull", "--rebase"],
                        capture_output=True, text=True)
         p = subprocess.run(["git", "-C", KOK, "push"], capture_output=True, text=True)
-        print("push  : %s" % ("✓" if p.returncode == 0 else "🔴 kod=%d" % p.returncode))
-        if p.returncode != 0:
-            # 🔴 SESSİZ GEÇİLMEZ: push başarısızsa mesaj SENDE KALDI demektir
+        if p.returncode == 0:
+            print("push  : ✓ — mesaj artık HERKESTE")
+        else:
+            # 🔴 Bu aletin bütün varlık sebebi: "gönderdim sandım" hatası
+            print("push  : 🔴 kod=%d" % p.returncode)
             print("   " + (p.stderr or "").strip()[:200])
-            print("   ⚠️ MESAJ HENÜZ KİMSEYE ULAŞMADI — push başarısız.")
-            print("      Bunu KULLANICIYA da söyle (arıza ÜÇ YERE bildirilir).")
+            print("   ⚠️ MESAJ HENÜZ KİMSEYE ULAŞMADI. Bunu KULLANICIYA da")
+            print("      söyle — arıza ÜÇ YERE bildirilir (§7.1).")
     finally:
         if os.path.exists(ileti):
             os.remove(ileti)
+
+
+def kimler(a):
+    """Tahtadan türetilmiş OTURUM DEFTERİ — kim, hangi kimlikle, ne zaman."""
+    kayit = _yukle()
+    defter = {}
+    for m in kayit:
+        ad = m["kimden"]
+        d = defter.setdefault(ad, {"kimlik": "", "son": "", "yazdi": 0})
+        d["yazdi"] += 1
+        if m["zaman"] > d["son"]:
+            d["son"] = m["zaman"]
+        if m.get("kimden_kimlik"):
+            d["kimlik"] = m["kimden_kimlik"]
+            d["kimlik_zaman"] = m["zaman"]
+    if not defter:
+        print("oturum defteri BOŞ — kimse tahtaya yazmadı.")
+        return 0
+    print("=" * 76)
+    print("OTURUM DEFTERİ — %d oturum (tahtaya yazanlar)" % len(defter))
+    print("=" * 76)
+    for ad, d in sorted(defter.items(), key=lambda x: -len(x[1]["son"] or "")):
+        k = d["kimlik"] or "🔴 KİMLİK BİLDİRMEMİŞ"
+        print("%-24s %s" % (ad[:24], k))
+        print("   son yazışı %s · %d mesaj" % (d["son"], d["yazdi"]))
+    eksik = [a for a, d in defter.items() if not d["kimlik"]]
+    if eksik:
+        print("\n⚠️ KİMLİĞİNİ BİLDİRMEYEN %d oturum: %s" % (len(eksik), ", ".join(eksik)))
+        print("   Bir daha yazarken: --kimlik <kendi session id'in>")
     return 0
 
 
-def _satirlar():
-    if not os.path.exists(TAHTA):
-        return []
-    out = []
-    for s in io.open(TAHTA, encoding="utf-8"):
-        s = s.strip()
-        if not s.startswith("|"):
-            continue
-        h = [x.strip() for x in s.strip("|").split("|")]
-        if len(h) != 4 or h[0].startswith("---") or h[0] == "TARİH SAAT":
-            continue
-        out.append(h)
-    return out
+def yaz(a):
+    kayit = _yukle()
+    no = "M-%04d" % (len(kayit) + 1)
+    m = {
+        "no": no, "zaman": _simdi(),
+        "kimden": _t(a["kim"]), "kime": _t(a["kime"]).upper(),
+        # 🔴 KİMLİK — Emre'nin eklettiği alan (13 Ağustos 2026):
+        #   "oturumun adı, adresi, id'si nesi var ise bu verileri de ilgili
+        #    yerlere doldurmak gerekebilir."
+        # ⚠️ VE BU, BUGÜN BEŞ KEZ ISIRAN HATANIN TAM TERSİ YÖNÜDÜR — fark
+        # hayatî: koordinatör bir adresi TAHMİN edip şartnameye yazdığında
+        # bayat çıktı (kendi kimliğini `list_sessions`ta göremiyor, çünkü o
+        # araç mevcut oturumu hariç tutuyor). Burada adres, SAHİBİNİN KENDİSİ
+        # tarafından ve YAZDIĞI ANIN damgasıyla bildiriliyor.
+        # ⇒ Tahmin edilen adres bayatlar; BEYAN EDİLEN adres tarihlidir,
+        #   yani bayatlığı GÖRÜNÜR. Görünen bayatlık, sessiz bayatlıktan
+        #   kat kat ucuzdur.
+        # 📌 Bunu bir işçi de önermişti (HAZIR KITA 6): "adres, koordinatörün
+        #   HATIRLAMASI gereken bir şey değil, işçinin BİLDİREBİLECEĞİ bir
+        #   şey — eksik kalan, adresin TERS YÖNDEN akıtılması."
+        "kimden_kimlik": _t(a.get("kimlik")) or "",
+        "mesaj": _t(a["mesaj"]), "hal": "ACIK",
+        "cevap": "BEKLIYOR" if a.get("cevap_bekle") else "GEREKMEZ",
+        "vade": _t(a.get("vade")) or "", "okuyan": {},
+        "yanit_no": _t(a.get("yanit")) or "",
+        # ── Emre sordu: "önemli olan ve benim aklıma gelmeyen bir alan var
+        #    ise onu da ekle." Üç tane var ve üçü de ÖLÇÜLMÜŞ bir zarardan
+        #    doğuyor; hiçbiri "olsa iyi olur" değil.
+        #
+        # ⑨ CİNS — çünkü bir mesajın NE OLDUĞU, ne dediğinden önce gelir.
+        #    Bu projede bir "bilgi" satırı "iş emri" sanıldı ve bir oturum
+        #    mükerrer iş yaptı; bir "soru" da bilgi sanılıp cevapsız kaldı.
+        #    Süzgeç olmadan pano gürültüye boğulur, ve okunmayan pano YOKTUR.
+        "cins": (_t(a.get("cins")) or "BILGI").upper(),   # EMIR·SORU·RAPOR·ARIZA·BILGI
+        #
+        # ⑩ DAYANAK — "şunu ölçtüm" diyen her satır NEREDE olduğunu söylemeli:
+        #    commit · dosya:satır · rapor yolu. Bu projenin en pahalı ders
+        #    ailesi "ölçüm doğru, çıkarım yanlış" — ve çıkarımı denetlemenin
+        #    tek yolu ÖLÇÜME GİDEBİLMEK. Dayanaksız bir iddia, doğru olsa
+        #    bile SINANAMAZ; sınanamayan iddia bir sonraki turda yeniden
+        #    ölçülür ve emek iki kez harcanır.
+        "dayanak": _t(a.get("dayanak")) or "",
+        #
+        # ⑪ ACİLİYET — vade "ne zamana kadar" der, aciliyet "şimdi mi
+        #    bakılmalı" der. İkisi ayrı: vadesi yarın olan bir DURDURUCU
+        #    şimdi okunmalıdır. Bu projede bir durdurucu (ayrıştırıcı kilidi)
+        #    saatlerce fark edilmedi ve BÜTÜN denetim/üretim hattı durdu.
+        "aciliyet": (_t(a.get("aciliyet")) or "NORMAL").upper(),  # DURDURUCU·ACIL·NORMAL·DUSUK
+    }
+    if m["yanit_no"]:
+        hedef = next((x for x in kayit if x["no"] == m["yanit_no"]), None)
+        if hedef is None:
+            print("🔴 --yanit %s: BÖYLE BİR MESAJ YOK. Yazılmadı." % m["yanit_no"])
+            return 2
+        hedef["hal"] = "CEVAPLANDI"
+        hedef["cevap"] = "→ %s" % no
+    kayit.append(m)
+    _kaydet(kayit)
+    print("%s yazıldı  %s → %s%s" % (
+        no, m["kimden"], m["kime"],
+        ("  (cevap BEKLENİYOR%s)" % (", vade " + m["vade"] if m["vade"] else ""))
+        if m["cevap"] == "BEKLIYOR" else ""))
+    _git(kayit, "TAHTA %s — %s -> %s" % (no, m["kimden"], m["kime"]), m["mesaj"])
+    return 0
 
 
-def oku(kim, hepsi, son):
-    kayit = _satirlar()
+def oku(a):
+    kayit = _yukle()
     if not kayit:
         print("tahta BOŞ — henüz kimse yazmadı.")
         return 0
-    if kim and not hepsi:
-        k = kim.strip().upper()
-        secili = [r for r in kayit if r[2] == k or r[2] == "HERKES"]
+    kim = (a.get("kim") or "").strip()
+    K = kim.upper()
+    if kim and not a.get("hepsi"):
+        secili = [m for m in kayit if m["kime"] in (K, "HERKES")]
         baslik = "SANA GELENLER (%s) + HERKES" % kim
     else:
-        secili = kayit
-        baslik = "TAHTANIN TAMAMI"
-    if son:
-        secili = secili[-son:]
-    print("=" * 74)
-    print("%s — %d satır (tahtada toplam %d)" % (baslik, len(secili), len(kayit)))
-    print("=" * 74)
-    for z, kmn, kme, msj in secili:
-        print("%s  %s → %s" % (z, kmn, kme))
-        print("   %s" % msj)
-    if kim and not hepsi and not secili:
-        print("(sana hitap eden satır yok — 'boştayım' diye kendi ilerleme")
-        print(" dosyana yaz, KENDİ İŞ SEÇME)")
+        secili, baslik = kayit, "TAHTANIN TAMAMI"
+    if a.get("acik"):
+        secili = [m for m in secili if m["hal"] == "ACIK"]
+        baslik += " · yalnız AÇIK"
+
+    print("=" * 76)
+    print("%s — %d mesaj (tahtada toplam %d)" % (baslik, len(secili), len(kayit)))
+    print("=" * 76)
+    for m in secili:
+        bayrak = ""
+        if m["cevap"] == "BEKLIYOR":
+            bayrak = "  🔴 CEVAP BEKLİYOR" + (" · vade %s" % m["vade"] if m["vade"] else "")
+        elif m["cevap"].startswith("→"):
+            bayrak = "  ✅ cevaplandı %s" % m["cevap"]
+        acil = m.get("aciliyet") or "NORMAL"
+        acil_im = {"DURDURUCU": "🔴🔴 DURDURUCU", "ACIL": "🔴 ACİL"}.get(acil, "")
+        print("%s  %s  %s → %s  [%s · %s]%s %s" % (
+            m["no"], m["zaman"], m["kimden"], m["kime"],
+            m.get("cins") or "BILGI", m["hal"], bayrak, acil_im))
+        print("   %s" % m["mesaj"])
+        if m.get("dayanak"):
+            print("   dayanak: %s" % m["dayanak"])
+        if m.get("okuyan"):
+            print("   okuyan: %s" % ", ".join(
+                "%s@%s" % (k, v[-5:]) for k, v in sorted(m["okuyan"].items())))
+        print()
+
+    # 🟢 OKUNDU OTOMATİK — elle işaretlenen kutu işaretlenmez.
+    if kim:
+        yeni = 0
+        for m in secili:
+            if kim not in (m.get("okuyan") or {}):
+                m.setdefault("okuyan", {})[kim] = _simdi()
+                yeni += 1
+        if yeni:
+            _kaydet(kayit)
+            print("→ %d mesaj '%s tarafından OKUNDU' diye işaretlendi." % (yeni, kim))
+            _git(kayit, "TAHTA — %s okudu (%d mesaj)" % (kim, yeni),
+                 "Okundu damgasi otomatik; elle isaretlenen kutu isaretlenmez.")
+    if kim and not a.get("hepsi") and not secili:
+        print("(sana hitap eden mesaj yok — kendi ilerleme dosyana 'boştayım'")
+        print(" yaz ve KENDİ İŞ SEÇME)")
+    return 0
+
+
+def bekleyen(a):
+    kayit = _yukle()
+    acik = [m for m in kayit if m["hal"] == "ACIK" and m["cevap"] == "BEKLIYOR"]
+    simdi = _simdi()
+    if a.get("gecikmis"):
+        acik = [m for m in acik if m.get("vade") and m["vade"] < simdi]
+        print("VADESİ GEÇMİŞ — %d" % len(acik))
+    else:
+        print("CEVAP BEKLEYEN AÇIK MESAJ — %d" % len(acik))
+    for m in acik:
+        gec = " 🔴 GECİKTİ" if (m.get("vade") and m["vade"] < simdi) else ""
+        print("  %s  %s → %s  (vade %s)%s" % (
+            m["no"], m["kimden"], m["kime"], m.get("vade") or "—", gec))
+        print("     %s" % m["mesaj"][:70])
+    return 0
+
+
+def kapat(a):
+    kayit = _yukle()
+    no = (a.get("no") or "").upper()
+    m = next((x for x in kayit if x["no"] == no), None)
+    if m is None:
+        print("🔴 %s diye bir mesaj YOK." % no)
+        return 2
+    m["hal"] = "KAPANDI"
+    _kaydet(kayit)
+    print("%s KAPANDI (kapatan: %s)" % (no, a.get("kim") or "?"))
+    _git(kayit, "TAHTA %s KAPANDI" % no, "kapatan: %s" % (a.get("kim") or "?"))
     return 0
 
 
 def main(argv):
     if not argv:
-        return oku(None, True, 40)
-    komut = argv[0]
+        return oku({"hepsi": True})
 
-    def al(ad, vars=None):
-        if ad in argv:
-            i = argv.index(ad)
-            if i + 1 < len(argv):
-                return argv[i + 1]
-        return vars
+    def al(ad):
+        return argv[argv.index(ad) + 1] if (ad in argv and argv.index(ad) + 1 < len(argv)) else None
 
-    if komut == "yaz":
-        kim, kime, mesaj = al("--kim"), al("--kime"), al("--mesaj")
-        if not (kim and kime and mesaj):
-            print("kullanim: tahta.py yaz --kim <AD> --kime <AD|KOORDINATOR|HERKES> --mesaj <metin>")
+    k = argv[0]
+    ortak = {"kim": al("--kim"), "hepsi": "--hepsi" in argv,
+             "acik": "--acik" in argv, "gecikmis": "--gecikmis" in argv}
+    if k == "yaz":
+        if not (al("--kim") and al("--kime") and al("--mesaj")):
+            print("kullanim: tahta.py yaz --kim <AD> --kime <AD|KOORDINATOR|HERKES>")
+            print("          --mesaj <metin> [--cevap-bekle] [--vade 'YYYY-AA-GG SS:DD']")
+            print("          [--yanit M-0007]")
             return 2
-        return yaz(kim, kime, mesaj)
-    if komut == "oku":
-        son = al("--son")
-        return oku(al("--kim"), "--hepsi" in argv, int(son) if son else None)
+        return yaz({"kim": al("--kim"), "kime": al("--kime"), "mesaj": al("--mesaj"),
+                    "cevap_bekle": "--cevap-bekle" in argv,
+                    "vade": al("--vade"), "yanit": al("--yanit"),
+                    "kimlik": al("--kimlik"), "cins": al("--cins"),
+                    "dayanak": al("--dayanak"), "aciliyet": al("--aciliyet")})
+    if k == "oku":
+        return oku(ortak)
+    if k == "kimler":
+        return kimler(ortak)
+    if k == "bekleyen":
+        return bekleyen(ortak)
+    if k == "kapat":
+        ortak["no"] = argv[1] if len(argv) > 1 else None
+        return kapat(ortak)
     print(__doc__)
     return 2
 
