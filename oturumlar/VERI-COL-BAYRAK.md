@@ -117,7 +117,7 @@ CLAUDE.md §3   Değişmez 1b (iç boşluk) = 0 · BOZULMAMALI
 ## ⑤ HABERLEŞME — 🔴 ASIL KANAL DOSYA, mesaj YEDEK
 ```
 ① her parti bitince ilerleme dosyana YAZ + COMMIT AT (pathspec'li)
-② mesaj da at:  session_id : local_17712720-a5a0-4315-8986-48c222eeeadf
+② mesaj da at:  session_id : <ADRES YAZILMAZ>
    "Session not found." alırsan `list_sessions` ile koordinatörü ARA
 🔴🔴 ③ ARIZA ÜÇ YERE BİLDİRİLİR — üçüncüsü KULLANICI: bir araç hata
    döndürürse KENDİ PENCERENE de açıkça yaz. Kullanıcı senin pencereni

@@ -139,7 +139,7 @@ CLAUDE.md §11   🔴 yazdıktan sonra GERİ OKU — "yaptım" kanıt değildir
 Cevabın **kendi pencerene YAZILMAZ**; koordinatör ekranını GÖRMEZ.
 ```
 mcp__ccd_session_mgmt__send_message
-    session_id : local_17712720-a5a0-4315-8986-48c222eeeadf
+    session_id : <ADRES YAZILMAZ>
     ⚠️ ADRES DOGRULAMA — HER MESAJDAN ONCE:
        Bu kimlik BAYATLAYABILIR. `send_message` "Session not found." derse
        DURMA: `mcp__ccd_session_mgmt__list_sessions` ile koordinatoru ARA

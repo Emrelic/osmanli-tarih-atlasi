@@ -175,6 +175,17 @@ def _zincir(yayinla=True, uretimsiz=False):
     if kos("YAYIN KAPISI (denetle_yayin.py)",
            [sys.executable, "arac/denetle_yayin.py"], dk=40) is None:
         return 1
+    # 🔴 ADRES NÖBETÇİSİ — 13 Ağustos 2026, BEŞ KEZ tekrarlanan bir hatadan sonra.
+    # Şartnameye oturum kimliği yazılması: bayat/yanlış adres ⇒ işçilerin raporu
+    # hiçbir yere ulaşmaz ⇒ çalışan oturumlar "ölü" sanılır. Sebebi YAPISAL:
+    # `list_sessions` mevcut oturumu hariç tuttuğu için koordinatör kendi
+    # kimliğini GÖREMEZ, yazdığı her adres bir TAHMİNDİR.
+    # ⚠️ ÖLÜMCÜL DEĞİL — kirli bir şartname YAYINI bozmaz, EKİBİ bozar. Yayını
+    # durdurmak burada orantısız olurdu; ama SESSİZ de geçilmez, çünkü bu
+    # projenin dersi tam bu: "koşturulmayan bir nöbetçi, olmayan nöbetçiden
+    # ayırt edilemez." Zincire bağlanmasının sebebi UNUTULMAMASI.
+    kos("adres nöbetçisi (adres_nobetci.py)",
+        [sys.executable, "arac/adres_nobetci.py"], olumcul=False, dk=5)
 
     if not yayinla:
         yaz("\n🟡 --yayinlama verildi: damga/commit/push ATLANDI.")

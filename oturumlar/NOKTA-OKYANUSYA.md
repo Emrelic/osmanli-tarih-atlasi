@@ -101,7 +101,7 @@ kaydet; bulamazsan `veri-yok` yaz, Avrupa kaydını yerli yapı sanma.
 ## ⑤ HABERLEŞME — 🔴 ÖNCE KANAL
 ```
 mcp__ccd_session_mgmt__send_message
-    session_id : local_17712720-a5a0-4315-8986-48c222eeeadf
+    session_id : <ADRES YAZILMAZ>
     ⚠️ ADRES DOGRULAMA — HER MESAJDAN ONCE:
        Bu kimlik BAYATLAYABILIR. `send_message` "Session not found." derse
        DURMA: `mcp__ccd_session_mgmt__list_sessions` ile koordinatoru ARA

@@ -110,7 +110,7 @@ CLAUDE.md §11  🔴 yakın mükerrer — her nokta için 3 KM kuralı
    ve COMMIT AT (pathspec'li, YALNIZ kendi dosyan)
 ② mesaj da at:
    mcp__ccd_session_mgmt__send_message
-   session_id : local_17712720-a5a0-4315-8986-48c222eeeadf
+   session_id : <ADRES YAZILMAZ>
    ⚠️ "Session not found." alırsan DURMA: `list_sessions` ile koordinatörü
       ARA (başlığı KOORDİNATÖR/CLAUDEMRE, dizini bu proje) ve ORAYA yaz
 🔴🔴 ③ ARIZA ÜÇ YERE BİLDİRİLİR — üçüncüsü KULLANICI:
