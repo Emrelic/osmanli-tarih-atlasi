@@ -8,7 +8,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "2026-08-14 12:00",
-  "okuyan": {},
+  "okuyan": {
+   "RENK 3": "2026-08-13 22:19"
+  },
   "yanit_no": ""
  },
  {
@@ -21,7 +23,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "RENK 3": "2026-08-13 22:19"
+  },
   "yanit_no": "",
   "cins": "EMIR",
   "dayanak": "oturumlar/POSTA.md + commit ca36a4e",
