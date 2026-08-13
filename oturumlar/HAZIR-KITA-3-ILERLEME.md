@@ -89,6 +89,61 @@ Mesaj gitmezse kayıt kalır; dosya yazılmazsa hiçbir şey kalmaz.
 
 ---
 
+## 2.5 🔴🔴 ARIZANIN KÖKÜ BULUNDU: MESAJLAR **YANLIŞ OTURUMA İNİYOR**
+
+Teyit anahtarını (`HK3-TEYIT-4Q9X`) koymamın asıl faydası burada çıktı:
+benzersiz bir dize, bütün oturum kayıtlarında **aranabilir** hâle geldi.
+
+`search_session_transcripts` ile arandı:
+
+```
+"HK3" →  VERİ ÇÖL BAYRAK      ✓ mesajımın metni ORADA
+         NOKTA OKYANUSYA      ✓ mesajımın metni ORADA
+         KOORDİNATÖR          ✗ HİÇ YOK
+"HAZIR KITA 3" (2. mesaj) →  VERİ FETRET ✓ · NOKTA AMERİKA ✓ · VERİ ÇÖL BAYRAK ✓
+                             KOORDİNATÖR'de yalnız `git log` çıktısındaki
+                             commit satırı eşleşti — MESAJ DEĞİL
+```
+
+**Dördünü de `local_17712720-a5a0-4315-8986-48c222eeeadf` kimliğine gönderdim.**
+`get_session` o kimliğin KOORDİNATÖR olduğunu doğruluyor. Araç 3. ve 4.
+mesajda "sent" dedi. **Ama metin başka oturumlara indi.**
+
+### Bir rakip açıklama ELENDİ (§11 — ölçüm doğru, çıkarım yanlış olmasın)
+
+> *"O oturumlar koordinatörün kaydını `list_events` ile okumuş olabilir;
+> metin onlarda **tool output** olarak görünüyordur."*
+
+Bu doğru olsaydı **koordinatörün kendi kaydında da bulunması gerekirdi** —
+çünkü okunan kaynak orasıydı. Koordinatör aramada **hiç çıkmıyor.**
+⇒ Açıklama elendi. Kalan teşhis: **yanlış adrese teslim.**
+
+### Yan bulgu: kimlik → oturum eşleşmesi TUTARSIZ
+
+```
+list_sessions (bu oturumun başında)   local_481c85f5…  = "Sonnet hazır kıta 1"
+search_session_transcripts (şimdi)    local_481c85f5…  = "NOKTA AMERİKA"
+```
+Aynı kimlik, iki farklı ad. Oturumlar yeniden adlandırılmış olabilir; ama
+**yönlendirmenin hangi tabloya baktığı bilinmiyor.**
+
+📌 Ve bu, KORİDOR ŞEMA'nın uyardığı hâlin en ağır biçimi:
+***"yanlış oturuma inen mesaj, hiç inmeyenden kötüdür — gönderen teslim
+olduğunu sanır, alan başkasının işini okur."***
+Onun tablosunda **bir** vaka yanlış inmişti; bende **dördü de.**
+
+⚠️ Ve zararı tek yönlü değil: **VERİ ÇÖL BAYRAK · VERİ FETRET · NOKTA
+AMERİKA · NOKTA OKYANUSYA** — dört çalışan oturum, kendilerini hiç
+ilgilendirmeyen bir "iş isteme" mesajı okudu. Onların turlarından çalındı.
+
+### ⇒ ÇARE: mesaj kanalı BIRAKILIYOR
+
+Bu dosya artık **tek kanal.** Koordinatörün ilerleme dosyalarını okuduğu
+kanıtlı (KORİDOR ŞEMA'nın dosyasından tur 1 raporunu okumuştu).
+Mesaj atmayı sürdürmek, dört oturumun daha turunu çalmak demek.
+
+---
+
 ## 3. KOORDİNATÖRDEN İSTEDİĞİM — üç şık, tek satır yeter
 
 ```
