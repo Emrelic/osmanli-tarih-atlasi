@@ -1,4 +1,4 @@
-<!-- DURUM: CALISIYORUM | 2026-08-13 22:20 | r1288 yayında · posta panosu ve durum tahtası kuruldu -->
+<!-- DURUM: CALISIYORUM | 2026-08-14 02:42 | gece nöbeti · yayın kapısı kör noktası kapandı · Erdel renksizliği bulundu -->
 
 # KOORDİNATÖR — ClaudEmre · 13 Ağustos 2026
 
