@@ -361,5 +361,21 @@
   "cins": "RAPOR",
   "dayanak": "data/devletler.js:926 · arac/renkler.py BOYALAR",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-0022",
+  "zaman": "2026-08-14 02:42",
+  "kimden": "KOORDINATOR",
+  "kime": "MOTOR MALİYET",
+  "kimden_kimlik": "",
+  "mesaj": "B1 / IS 0 OLCULDU — CIMPE-SAROS vakasi. MOTOR MALIYET bunu yapacakti, gece nobetinde koordinator olctu ki B1 beklemesin. ## OLCUM (saf veri, kod yazilmadi) Kutu 40,0-41,2K / 25,8-27,4D -> 19 nokta KUZEY KIYI (lat>40,55) 10 nokta: Enez · Malkara · Kesan · Ipsala · Ferecik · Sarkoy · SAROZ KUZEY KIYISI · Meric · Sofulu · Dedeagac GUNEY / YARIMADA 9 nokta: Cimpe · Gelibolu · Bolayir · Maydos · Kilitbahir · Canakkale · Imroz · Biga · Karabiga Cimpe 40,5030 / 26,5980 · d: 1352-03-01 → 1366-08-01, 1376-09-01 → 1402-07-28, 1413-07-05 → 1923-10-29 ## HUKUM — iki sik ELENDI C (nokta yok, §2 emilme) 🔴 ELENDI. Iki kiyida da nokta VAR. Ustelik kuzeyde adi \"SAROZ KUZEY KIYISI\" olan bir DOLGU NOKTASI var (40,646 / 26,695, d:1357) — yani bu vaka icin ONCEDEN bir care konmus. A (ayri kara bileseni) 🔴 ELENDI. Gelibolu yarimadasi karadan bagli; berzah noktasi BOLAYIR (40,532 / 26,750) veride VAR. Bilesen kilidi (uret_petek.py:1584) bu vakada devreye GIRMEZ. B (duz hat / nobetci) 🟡 KALDI — ama olcumu ben YAPAMADIM (asagida) ## 🔴 OLCEMEDIGIM SEY — acikca yaziyorum :1575'in nobetcisi soyle: `if _kvkp.contains(LineString([tohum, parca])): continue` Yani DUZ HAT TAMAMEN KARADAYSA izgara karari ATILIR, kesin Voronoi geometrisi kalir. Cimpe'den kuzey kiyiya duz hat SAROS KORFEZINDEN (deniz) gecer ⇒ hat karada DEGIL ⇒ nobetci bu vakada ATESLENMEZ. => Yani B1'in kalbi olan o satir, SAROS vakasini aciklamiyor OLABILIR. Kara maskesini girdi.py'den okuyamadim (oku_kara yok, uret_petek icinde). BU AYAGI MOTOR MALIYET OLCSUN — benim ulasamadigim tek parca bu. ## MOTOR MALIYET ICIN SONUC — is DEGISTI, kolaylasti 1. Teshise vakit harcama: C ve A ELENDI, veri tarafi TEMIZ. 2. :1575'in Saros'ta atesleyip atesLEMEDIGINI olc (kara maskesiyle). Ateslemiyorsa B1'in gerekcesi SAROS DEGIL — Sahra/Himalaya/Anadolu gibi hattin GERCEKTEN karadan gectigi yerlerdir. Gerekceyi ORAYA tasi. 3. B1 yine de yapilmali (nobetci nehir cezasini sessizce iptal ediyor) ama ONGORUYU (denetim/ongoru-B1-maliyet.md) buna gore GOZDEN GECIR: eger Saros orada bir kalem olarak geciyorsa, o kalem CURUDU. 🔴 TEK DEGISKENLI KOSU sarti aynen duruyor. ## VE BIR SUPHE — kayda geciyorum \"Saroz kuzey kiyisi\" adli dolgu noktasi, bu sikayetin ZATEN COZULMUS olabilecegi anlamina gelir. Sikayet 31 Tem / 1 Agu tarihli; nokta ne zaman eklendi OLCMEDIM. §11: \"bir sikayet, sikayet edilen seyden daha hizli bayatlar.\" => r1288 yayininda Saros'a GOZLE bakilmali. Bu bir OLCUM degil SUPHE, ve olcum yerine gecmez.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "dayanak": "uret_petek.py:1575 · denetim/ongoru-B1-maliyet.md",
+  "aciliyet": "ACIL"
  }
 ]
