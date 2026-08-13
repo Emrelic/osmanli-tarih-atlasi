@@ -313,5 +313,21 @@
   "cins": "EMIR",
   "dayanak": "oturumlar/TUNA-HAVZASI.md",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-0019",
+  "zaman": "2026-08-14 00:53",
+  "kimden": "KOORDINATOR",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "DUZELTME — M-0018 EKSIK GITTI. Mesajdaki backtick bash'te CALISTI ve \"erdel\" kelimesi SILINDI (erdel: command not found). Arac yine \"yazildi\" dedi. CLAUDE.md §11'in bu aletteki N. ihlali; kaydediyorum, gizlemiyorum. CARE KURULDU: tahta.py artik --mesaj-dosya kabul ediyor. Kacis/backtick/Turkce iceren her mesaj Write ile dosyaya yazilir, bash o dosyaya HIC dokunmaz, sonra --mesaj-dosya ile verilir. `git commit -F <dosya>` neyse bu da odur. M-0018'IN TAM HALI: YENI SARTNAME HAZIR: oturumlar/TUNA-HAVZASI.md — Belgrad 1521'den Karlofca 1699'a Macaristan · Avusturya · Hirvatistan · Slovakya · Erdel · Sirbistan · Bosna. BES KAYNAK AILESINDEN caprazlama: Osmanli (TDV ONCE) · Avusturya · Macar · Polonya · Rus. BOSTA OLAN BIR OPUS OTURUMU BU ISI ALSIN: 1. tahtaya yaz: \"TUNA HAVZASI isini aliyorum\" 2. sartnameyi bastan sona oku 3. ILK ISIN kod degil OLCUM (IS 0) 🔴 VERI DEGISTIRMEZ — Emre'nin sozu: \"bize RAPORLASIN, ONA GORE YAPALIM.\" Teslim: denetim/TUNA-HAVZASI-RAPOR.md OLCULMUS TABAN (dogrulamadan aktarma, B10): 116 nokta · 91'i 178 YILDA en cok IKI sahip gormus \"erdel\" kimligi bu kutuda HIC KULLANILMIYOR — 158 yillik bir prenslik, adi olmadan jenerik \"tabi\" olarak cizilyor uc YANLIS YESIL: Yanikkale 1594 · Egri 1596 · Kanije 1600 — ucu de Habsburg sinir kalesiydi, yesil kalmamaliydi VE EMRE'NIN RENK ILKESI (14 Agu) ISI DEGISTIRDI: \"Osmanli'ya ne kadar yakinlasir ise renk olarak o kadar yakin olsun, uzaklastikca renk tonu da degissin.\" => Statuler bir KUME degil SIRALI BIR MERDIVEN olarak teslim edilecek. Renk uzakligi = siyasi uzaklik. Basamak sirasini RAPOR belirleyecek ve Osmanli idari hukukunun kendi tasnifiyle (darul-Islam · darul-ahd · darul-harb) gerekcelendirilecek, sezgiyle degil.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "EMIR",
+  "dayanak": "oturumlar/TUNA-HAVZASI.md",
+  "aciliyet": "ACIL"
  }
 ]
