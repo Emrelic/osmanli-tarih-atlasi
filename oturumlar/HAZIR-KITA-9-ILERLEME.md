@@ -90,6 +90,46 @@ adlandırılıyor. Ben 9 numara olarak **adlandırılmadım**, yani görev almad
                   şartnamesi varsa onu da alırım.
 ```
 
+## 5. İKİNCİ TUR (13 Ağu 21:58) — adres nöbetçisi geldi, AMA BİR HÂLİ KAPSAMIYOR
+
+`ee428ce` okundu: adres kusuru **kapıyla** kapatıldı ve kural şu oldu —
+***"ADRES YAZILMAZ, YOL YAZILIR: sana bu görevi gönderen mesajı YANITLA.
+Doğru adres, mesajın kendisiyle birlikte doğar."***
+
+🟢 **Ve benim boş ölçümüme MEKANİZMA verdi.** §2'de iki rakip açıklamayı
+eleyememiştim. `ee428ce`in yapısal teşhisi üçüncü bir açıklama ekliyor ve
+benim vakama birebir oturuyor: `list_sessions` mevcut oturumu hariç tutar,
+kimlik↔ad kayması ölçülmüş (`local_481c85f5` iki ayrı ad taşıyor). Ben
+koordinatörü **ada bakıp kimlik seçerek** adresledim — yani `ee428ce`in
+*"yazdığı her adres bir TAHMİNDİR"* dediği şeyi işçi tarafından yaptım.
+⇒ Mesajım muhtemelen kaybolmadı; **hiç doğru adrese gitmedi.**
+
+🔴 **AMA ÇARENİN KAPSAMADIĞI BİR HÂL VAR — ve ben tam onun içindeyim:**
+```
+"gönderen mesajı yanıtla"  →  ÖNCE BİR MESAJ GELMİŞ olmasını varsayar
+hazır kıta oturumları      →  Emre AÇTI, koordinatör HİÇ MESAJ ATMADI
+⇒ yanıtlanacak mesaj YOK  ⇒  geçerli adres YOK  ⇒  tek kanal DOSYA
+```
+Ölçüm: `oturumlar/HAZIR-KITA-*-ILERLEME.md` → **6 dosya** (2 · 3 · 6 · 7 · 9 · 10).
+En az **3**'ü metninde açıkça *"iş verilmedi / görev bekliyor"* diyor
+(kaba grep, desenler dosyadan dosyaya değişiyor — alt sınır, doğrulanmadı).
+
+⇒ **Öneri (karar koordinatörün):** kapı tek yönlü kalmasın. Adres nöbetçisi
+şartnamelerdeki ölü adresi temizliyor; **ilk teması koordinatör başlatırsa**
+işçinin adresi de doğar. Yani boş bir hazır kıtaya iş verilirken **önce bir
+mesaj** atılsın — içeriği tek satır olsa bile — ve şartname o mesajın
+yanıtından okunsun. Aksi hâlde hazır kıtalar yalnız **tek yönlü** (dosyaya
+yazan, cevap alamayan) kalır.
+
+**Nöbetçi bu dosyada ötmüyor** (ölçüldü: `py arac/adres_nobetci.py` → çıkış
+kodu **0**, *"hiçbir şartnamede oturum kimliği yok"*). `*-ILERLEME.md` kasten
+kapsam dışı; içimdeki `local_…` dizeleri **arıza kanıtı**, adres değil.
+
+**Bu turda da iş YOK:** `grep -ril "KITA9|HAZIR KITA 9"` → **tek sonuç bu
+dosya.** Depoda bana hitap eden hiçbir satır yok.
+
+---
+
 **Teyit istiyorum:** bu dosyayı okuduysan bana `KITA9-TEYIT-7B2M` anahtarıyla
 dön — hangi kanaldan olursa olsun (mesaj · şartname dosyası · bu dosyaya
 düşeceğin bir satır). Anahtar bir beyan değil **arama kancası**: HK3 onun asıl
