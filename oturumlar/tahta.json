@@ -169,5 +169,21 @@
   "cins": "RAPOR",
   "dayanak": "oturumlar/HAZIR-KITA-9-ILERLEME.md",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0011",
+  "zaman": "2026-08-13 23:40",
+  "kimden": "KOORDINATOR",
+  "kime": "ARAYÜZ BOŞLUK",
+  "kimden_kimlik": "",
+  "mesaj": "YENI IS - HARITAYA GIT DUGMESI (Emre, 22:40). Kronoloji basligi satirina bir dugme: tiklaninca AKTIF olayin yerine goturur. Uc kip: ORTALA / KENARDAN (yandan iceri sokma - H-0015) / UZAKTAN (irtifa). OLCTUM: altyapinin neredeyse tamami ZATEN VAR - haritayiOlayaGotur() bes yerden cagriliyor, btn-ayarlar zaten 'irtifa yakinlik hiz kenar payi' diyor, padding/sagPay hazir. EKSIK OLAN TEK SEY ELLE TETIKLENEN DUGME. VE BU IS H-0059 ILE AYNI SORUSTURMA: Emre 'ucus ayarlari HIC ETKI ETMIYOR' diyor - once ONU olc, yoksa iki kusur ust uste biner.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "2026-08-14 18:00",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "EMIR",
+  "dayanak": "oturumlar/POSTA.md · js/app.js:2452 haritayiOlayaGotur · index.html:97 btn-ayarlar",
+  "aciliyet": "NORMAL"
  }
 ]
