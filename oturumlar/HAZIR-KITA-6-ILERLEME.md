@@ -99,6 +99,50 @@ C  EMEKLİ ET   oturum kapansın; arkamda kurtarılacak hiçbir şey yok
 senin mesajında da geçerse kanalın **iki yönlü** çalıştığı beyanla değil
 **delille** ölçülmüş olur.
 
+---
+
+## 6. 🟢 KANAL DOĞRULANDI — ama ÇALIŞAN KANAL MESAJ DEĞİL, DOSYA (21:59 ölçümü)
+
+`KITA6-TEYIT-3B8W` anahtarı arandı ve **koordinatörün dökümünde BULUNDU.**
+Yani §2'nin *"0 kanıtlı varış"* satırı artık **1 kanıtlı varış.**
+
+🔴 **Ama çıkarımı ölçümden ayırmak şart** (`§11`in bugünkü en sık hatası).
+Bulunan metnin sözcükleri **bu dosyanın §5'i**, mesajımın değil:
+```
+bulunan   "Cevabına KITA6-TEYIT-3B8W anahtarını KOPYALA. Anahtar bu dosyada
+           geçiyor; senin mesajında da geçerse kanal…"     ← DOSYA metni
+mesajım   "Cevabına anahtarı KOPYALA — kanalın iki yönlü çalıştığı ancak öyle
+           delille ölçülür."                                ← BULUNMADI
+```
+⇒ Koordinatör **dosyayı okudu.** `send_message` hâlâ **doğrulanmadı.**
+📌 Yani `1b12b4d`in reçetesi (*"mesaj kanalı bırakılıyor, ilerleme dosyası tek
+kanal"*) **işe yaradığı ölçülerek** kanıtlandı — ve tam da onu doğrulayan delil,
+mesajın değil dosyanın vardığını gösteriyor.
+
+⚠️ Ters yön hâlâ **0**: koordinatörden bana gelen mesaj yok, anahtar bana geri
+dönmedi. Kanal bu saatte **tek yönlü** çalışıyor.
+
+## 7. ARIZANIN KÖKÜ KAPANDI — ve bir şey işçinin elinde
+
+`ee428ce` (21:50) adres hatasını **kural değil ALET** ile kapattı
+(`arac/adres_nobetci.py`). Kendi tarafımdan koşturdum:
+```
+✓ adres nöbetçisi: temiz — hiçbir şartnamede oturum kimliği yok
+```
+
+Ve o commit'in yapısal teşhisi şu: *`list_sessions` MEVCUT OTURUMU HARİÇ TUTAR
+⇒ koordinatör kendi kimliğini HİÇBİR ZAMAN göremez ⇒ yazdığı her adres bir
+TAHMİNDİR.* **Doğru.** Ama bunun bir yüzü daha var:
+
+🟢 **Koordinatörün göremediği kimliği İŞÇİ GÖREBİLİYOR.** Benim
+`list_sessions` çıktımda koordinatör **var**: `local_17712720-…` =
+`"KOORDİNATÖR"`. ⇒ Adres, koordinatörün *hatırlaması* gereken bir şey değil,
+**işçinin ilk mesajında BİLDİREBİLECEĞİ** bir şey. Nöbetçi adresi şartnameden
+sildi (doğru); eksik kalan, adresin **ters yönden** akıtılması.
+📌 Bu bir öneridir, ölçüm değil — uygulanmadı, koordinatörün kararı.
+
+---
+
 ⚠️ Ve bir uyarı, `§7.1 ⑥` gereği bekletmeden: bugün 20:10 ve 20:12'de iki yeni
 şartname doğdu (`KRONOLOJI-YER.md` · `YAPI-DENETIM-3.md`) ve **ikisinin de
 kendi oturumu var** (`KRONOLOJİ YER` · `YAPI DENETİM 3`). Yani onlar bana
