@@ -242,11 +242,185 @@ partisine bölünebilir; birincisi bölünemez.
 
 ---
 
-## SIRADAKİ
+---
+
+## ⑤ İŞ 3 — `m:` HÜKMÜ: **KORİDOR KENARI OLAMAZ**
+
+Şartnamenin iki eksik ölçümü yapıldı.
+
+### (a) KENAR KM DAĞILIMI — 717 kenar
 ```
-İŞ 2   şema TASARIMI (grep ayağı BİTTİ)
-İŞ 3   `m:` hükmünü karara bağla — km ölçümü + 359 çiftin yeri
-İŞ 4   kapsam itirazı / kademe
+ortalama 183 km · ortanca 136 km · en kısa 2 · en uzun 1086 km
+>   50 km   655  (%91,4)   yarım günlük at yolu
+>  120 km   408  (%56,9)   🔴 ULAK GÜNLÜK TAVANI
+>  300 km   131  (%18,3)
+>  600 km    14  (%2,0)
+> 1000 km     1
+```
+**EN UZUN ÜÇÜ:**
+```
+Zeyla → Sevâkin        1086 km   🔴 KIZILDENİZ'İN İKİ YAKASI
+Vâdî Halfâ → Kahire     918 km
+Ebû Ramâd → Kahire      883 km
+```
+
+### (b) DEĞİŞMEZ 3 — ÇELİŞKİLER NEREDE TOPLANIYOR
+```
+ölçülen çift 4264 · ÇELİŞKİLİ 438 · 42 farklı merkezde
+Erzurum 54 · Rodos 51 · Yanya 40 · İzmir 31 · Mora 23 · Van 22 · Basra 21
+(ilk yedi merkez çelişkinin %55'ini taşıyor)
+```
+⚠️ `CLAUDE.md` **359** diyor, ölçüm **438** — veri büyüdükçe büyüyor,
+`B3`: *belgedeki sayı ölçüm değil, ölçümün fotoğrafıdır.*
+
+```
+çelişkili kenarların km'si   ortalama 192 · ortanca 161
+TÜM kenarların km'si         ortalama 183 · ortanca 136
+```
+
+### 🔴 HÜKÜM — `m:` COĞRAFÎ KENAR **OLAMAZ**. Beş ölçülmüş gerekçe:
+
+```
+① %56,9'u ULAK GÜNLÜK TAVANINI AŞIYOR
+   Koridor kenarı bir menzil aralığıdır: kaynak 6-12 saat diyor.
+   408 kenar bir günde katedilemez ⇒ kenar değil, BAĞLILIK.
+
+② DENİZ AŞIRI BAĞ VAR
+   Zeyla → Sevâkin 1086 km, arada KIZILDENİZ. Bir kara koridoru
+   bu kenarı ifade EDEMEZ.
+
+③ ÇİZGE BİR ORMAN, AĞ DEĞİL
+   döngü 0 · tek ebeveyn · en derin zincir 3.
+   Koridor ağı DÖNGÜLÜDÜR: Merzifon'da orta ve sol kol ayrışıyor,
+   Hasankale'de Kars/Tebriz çatalı var — bir düğümün İKİ ardılı olur.
+   `m:` bunu yapısal olarak ifade EDEMEZ.
+
+④ ÇELİŞKİ UZUNLUKLA AÇIKLANMIYOR
+   çelişkili 192 km · tümü 183 km — fark %5.
+   ⇒ Çelişkinin sebebi MESAFE DEĞİL. Sebep `m:`nin SİYASÎ olması.
+
+⑤ ADA MERKEZLERİ ANAKARA TUTUYOR
+   Rodos tek başına 51 çelişki taşıyor. Rodos eyaleti anakarada
+   toprak yönetiyordu — bu İDARÎ bir bağ, coğrafî komşuluk DEĞİL.
+```
+
+### 🔴 VE BU, KENDİ TUR-2 EĞİLİMİMİ ÇÜRÜTTÜ
+```
+tur 2'de yazdığım   "koridor ağı, m:'nin DOĞRU EKSENİ olabilir —
+                     bu bir EĞİLİM, karar değil"
+tur 5 ölçümü        ÇÜRÜDÜ. m: koridor kenarı olamaz.
+```
+📌 **İyi ki *"eğilim"* demişim.** Karar diye yazsaydım `KORIDOR-SEMA.md`
+şartnamesine girmişti bile — nitekim koordinatör onu alıntıladı
+(*"senin kendi bulgun `m:` alanı ZATEN BİR AĞDIR dedi"*). Bir eğilim
+alıntılanınca **karar gibi okunuyor**; tek koruması, eğilim olduğunun
+**yazılı** olması.
+⇒ `CLAUDE.md §11`in *"eğilimim şu ile kararım şu farkını KORU"* kuralı,
+bu oturumda **işe yaradığı ölçülen** bir vaka.
+
+### ⚠️ AMA `m:` ATILMAZ — hüküm bu değil
+`m:` **yanlış eksende** (`BOYUTLAR.md` teşhisi), ama **yok edilecek** bir
+şey değil: idarî bağ gerçek bir olgudur. Doğru yeri **K-siyasî ekseninin
+zamanlı bir katmanı** (`kd:` şeması onu zaten tarifliyor, veri 0/2369).
+🔴 **Koridor ağı `m:`nin YERİNE GEÇMEZ, YANINDA DURUR.** İkisi iki ayrı
+soruya cevap verir:
+```
+m:        "bu yer KİME BAĞLI"        siyasî · yönlü · tek ebeveyn
+koridor   "bu yer NEREYE YAKIN"      coğrafî · simetrik · çok komşu
+```
+📌 `Değişmez 3`ün 438 çifti **koridor ağıyla çözülmez** — `m:`ye zaman
+boyutu eklenerek çözülür. Bu iki iş **ayrıdır** ve bunu ölçmeden önce
+karıştırıyorduk.
+
+---
+
+---
+
+## ⑥ İŞ 4 — KAPSAM İTİRAZI (`YASALAR G8`) ve KADEME
+
+### İTİRAZ — `ONCELIK.md §3`in istediği üç cümle
+> **①** Bu iş **halka 1**dedir (Osmanlı ana yolları) ve orada bile
+> **%60 tamamlandı**: 65 durağın 26'sı veride yok, üç koridor parçası kopuk.
+> **②** Önündeki halka bitmedi — daha doğrusu **bu halkanın kendisi**
+> bitmedi; `ONCELIK.md §4`ün *"bir halka, öncekinin değişmezleri temiz
+> olmadan açılmaz"* kuralı gereği halka 2+ için koridor açılamaz.
+> **③** Bitmesi gereken: **üç kopuk parça** — Doğu Anadolu yaylası (5
+> durak) · Dobruca-Karadeniz kıyısı (4) · Via Egnatia'nın batısı (5).
+
+⇒ Emre'nin *"tüm dünya nezdinde"* isteğine cevabım: **evet, ama sırayla —
+ve sıranın ilk basamağı henüz açık.**
+
+### 🔴 ÖLÇTÜĞÜM BİR ÇELİŞKİ — ama ÖLÇEK DEĞİŞİKLİĞİ ÖNERMİYORUM
+
+Koridor **kaynak bolluğu**, halka sırasıyla ters düşüyor:
+```
+HALKA 1  Osmanlı        🟢 BELGELİ — Sak-Çetin · 6 kol · 62 durak · saat cinsinden
+HALKA 2  İran·Rusya·Fas·Venedik   🔴 HAZIR AĞ YOK — aranmadı ya da bulunamadı
+HALKA 3  Fransa·İtalya·İspanya·Almanya·Hollanda
+         🟢🟢 HAZIR AĞ VAR: Viabundus (Hollanda·Danimarka·Almanya 8 eyalet·
+         Polonya 3) · Cassini/Fransa (Nature Sci Data) · Itiner-e/İberya
+HALKA 4-7 🔴 dağınık ya da yok (Hindistan·Afrika içleri: iki aramada hiçbir şey)
+```
+**ÖLÇTÜĞÜM:** halka 3'ün kaynak durumu halka 2'den **iyi**.
+
+🔴 **ÇIKARDIĞIM — ve bu bir İTİRAZ DEĞİL, itirazın REDDİ:** bu çelişki
+**ölçek değiştirme gerekçesi olamaz.** `ONCELIK.md §4` ölçeği **kilitli**
+ilan ediyor ve değiştirme ölçütünü tek bir şeye bağlıyor: *"Osmanlı
+hikâyesine bağlılık … mesafeyle değil."* **Kaynak kolaylığı o ölçüt
+değildir.** Viabundus'un hazır olması Hollanda'yı Osmanlı hikâyesine
+yaklaştırmaz.
+📌 Bornu vakası tam tersini öğretiyor: Timbuktu **uzak ama temaslı** olduğu
+için halka 3'e alındı — **kolay olduğu için değil.**
+⇒ Sırayı savunuyorum. Kaydettiğim şey **sıra değil, MALİYET FARKI.**
+
+### KADEME ÖNERİSİ — halka değil, EMEK CİNSİ ayrımı
+```
+KADEME A  HALKA 1 · KORİDORU KAPAT            ← ŞİMDİ
+          üç kopuk parça · 26 durak · kaynak BELGELİ
+          emek cinsi: ARAŞTIRMA (TDV + hakemli literatür)
+
+KADEME B  HALKA 1 · BOĞUM DÜĞÜMLERİNİ YAZ     ← A'dan sonra
+          derbend · köprü · geçit · kavşak — bugün SIFIR
+          emek cinsi: ARAŞTIRMA
+
+KADEME C  HALKA 2 · koridor                    ← B'den sonra
+          🔴 hazır ağ YOK ⇒ halka 1'le AYNI maliyet, kaynak DAHA ZAYIF
+          (TDV İran'ı kapsıyor ama kasaba taneciğinde konuşmuyor — §4)
+
+KADEME D  HALKA 3 · koridor İTHAL              ← C'den sonra
+          🟢 emek cinsi ARAŞTIRMA DEĞİL, VERİ BAĞLAMA — bambaşka bir iş
+          ⚠️ lisans üç kaynakta üç türlü: Viabundus CC BY-SA ·
+             Itiner-e CC BY-NC (TİCARÎ YASAK) · ORBIS ayrı
+          ⚠️ ORBIS'in çağı MS 200 — Osmanlı çağına taşınabilirliği ÖLÇÜLMEDİ
+```
+📌 **Asıl bulgu kademelerde değil, `KADEME D`nin emek cinsinde:** halka 3
+koridoru **araştırma değil bağlama** işidir. Bu, halka sırasını
+değiştirmez ama **bütçe tahminini** değiştirir — halka 3 sanıldığı kadar
+pahalı olmayabilir, *sırası geldiğinde.*
+
+### ⚠️ VE EMRE'NİN KENDİ SINIRINI HATIRLATIYORUM
+> *"sırf sınırı keskinleştireceğiz diye 3. sınıf olmayı hak etmeyen
+> 4. sınıf yerlere bölge atfetmeyelim."*
+
+Koridor ağı bu sınırın **doğru tarafında**: menzilhane bir yerin *önemli*
+olduğunu iddia etmez, **yolun oradan geçtiğini** söyler. Bir kavşak
+düğümü `boyar:false` olduğu için **hiçbir yere bölge atfetmez** — alan
+boyamaz. ⇒ Ağı sıklaştırmak, 4. sınıf yerleri 3. sınıf yapmaz.
+🔴 **Ama bir istisna var ve söylemem gerek:** `boyar:true` olan her yeni
+durak **petek üretir**, yani bölge atfeder. Üç kopuk parçaya yazılacak 26
+nokta bu sınırın **içindedir** ve tek tek tartılmalıdır.
+
+---
+
+## TESLİM — bitiş ölçütü (`KORIDOR-SEMA.md §⑥`)
+```
+① 62 durak → 65 benzersiz · 39 eşleşti · 26 eşleşmedi        ✓ sayı + liste
+② boğum şeması — 9 Viabundus özniteliği tarandı,
+   3'ü ZATEN VAR · 1'i bize özgü (kale) · 3'ü alınmayacak     ✓ grep çıktısıyla
+③ kenar şeması — 15 alan · ağırlık SAAT · gerekçesi TASLAK §③ ✓
+④ data/koridor.js — 65 düğüm · 64 kenar                       ✓ sayı
+⑤ m: hükmü — kenar OLAMAZ, beş ölçülmüş gerekçe               ✓ ölçümle
+⑥ kademe önerisi — A/B/C/D, halka DEĞİL emek cinsi            ✓ gerekçeli
 ```
 
 ## ÖLÇMEDİKLERİM
