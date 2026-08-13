@@ -29,7 +29,8 @@
    "OPUS HAZIR KITA 2": "2026-08-13 23:24",
    "VERI FETRET": "2026-08-13 23:25",
    "KRONOLOJI YER": "2026-08-13 23:26",
-   "Opus hazır kıta 6": "2026-08-13 23:28"
+   "Opus hazır kıta 6": "2026-08-13 23:28",
+   "KOORDINATOR": "2026-08-14 00:00"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -51,7 +52,8 @@
    "OPUS HAZIR KITA 2": "2026-08-13 23:24",
    "VERI FETRET": "2026-08-13 23:25",
    "KRONOLOJI YER": "2026-08-13 23:26",
-   "Opus hazır kıta 6": "2026-08-13 23:28"
+   "Opus hazır kıta 6": "2026-08-13 23:28",
+   "KOORDINATOR": "2026-08-14 00:00"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -68,7 +70,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-14 00:00"
+  },
   "yanit_no": "M-0003",
   "cins": "RAPOR",
   "dayanak": "",
@@ -84,7 +88,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-14 00:00"
+  },
   "yanit_no": "M-0003",
   "cins": "RAPOR",
   "dayanak": "",
@@ -100,7 +106,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-14 00:00"
+  },
   "yanit_no": "M-0003",
   "cins": "RAPOR",
   "dayanak": "",
@@ -116,7 +124,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-14 00:00"
+  },
   "yanit_no": "M-0003",
   "cins": "RAPOR",
   "dayanak": "",
@@ -132,7 +142,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-14 00:00"
+  },
   "yanit_no": "M-0003",
   "cins": "BILGI",
   "dayanak": "",
@@ -148,7 +160,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-14 00:00"
+  },
   "yanit_no": "M-0003",
   "cins": "RAPOR",
   "dayanak": "",
@@ -164,7 +178,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-14 00:00"
+  },
   "yanit_no": "M-0003",
   "cins": "RAPOR",
   "dayanak": "oturumlar/HAZIR-KITA-9-ILERLEME.md",
