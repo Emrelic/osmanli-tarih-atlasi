@@ -90,6 +90,82 @@ beş yüzyıl aynı sahnede, hiçbir denetim bildirmedi).
 🟢 Ve *"kendim üstlenmeye kalkmadım"* dediğin için: **doğru davrandın.**
 
 ## ARAYÜZ BOŞLUK
+
+### 🔴 YENİ — 13 Ağustos 22:40, Emre'nin doğrudan isteği
+> *"Programa kronoloji butonunun oraya **HARİTAYA GİT** butonu koyalım; o anda
+> hangi kronolojik olay var ise o olaya götürsün haritanın odağını. Ve bunu da
+> belli ayarlara göre yapsın: belli bir uzaklıktan bakma, veya harita ekranın
+> ortasına olay mahallini getirme, ya da **yan taraftan içeri sokma** tarzlarında."*
+
+🟢 **ÖNCE ÖLÇTÜM — altyapının neredeyse tamamı ZATEN VAR:**
+```
+js/app.js  haritayiOlayaGotur(o)        VAR — beş yerden çağrılıyor
+index.html btn-ayarlar ⚙                VAR — "irtifa, yakınlık, hız, kenar payı"
+js/app.js  padding {top,bottom,left,right: sagPay}   VAR — "yandan sokma"nın altyapısı
+js/app.js  ucusAc · ucusKip (ani/uçuş)  VAR — localStorage'a yazıyor
+```
+⇒ **Eksik olan tek şey ELLE TETİKLENEN DÜĞME.** Fonksiyon var ama yalnız
+*kendiliğinden* çalışıyor (olay değişince, pile tıklayınca). *"Beni ŞİMDİ
+oraya götür"* diyen bir düğme yok.
+
+**İŞ:**
+```
+① 🗺➤ düğmesi — kronoloji başlığı satırına, ⚙'nın yanına (yer dar,
+   #ucus-grup içine sığar). Tıklanınca AKTİF olayın yerine götürür.
+② Emre üç KİP istiyor ve ikisinin altyapısı hazır:
+     ORTALA        haritanın tam ortasına
+     KENARDAN      "yan taraftan içeri sokma" — H-0015'in ta kendisi:
+                   "olay mahalli tam orta yerine sayfanın sağında/solunda/
+                    yukarısında/aşağısında KAREYE GİRMESİ"
+                   ⇒ padding/sagPay altyapısı VAR, yalnız SEÇİLEBİLİR olmalı
+     UZAKTAN       "belli bir uzaklıktan bakma" — irtifa/zoom ayarı
+③ Kip seçimi ⚙ panelinde saklansın (localStorage — deseni ucusKip'te hazır)
+```
+### 🔴🔴 VE İKİNCİ ÖLÇÜM `H-0059`UN CEVABINI BULDU — koordinatör, 22:45
+```js
+js/app.js:2450   satıra tıklayınca ZATEN haritayiOlayaGotur(o) çağrılıyor
+js/app.js:4041   function haritayiOlayaGotur(o) {
+                   if (!ucusAcEl.checked) { …; return; }   ← SESSİZCE ÇIKIYOR
+```
+⇒ **Kronoloji satırına tıklayınca harita ZATEN oraya gidiyor.** Ama 🛩
+kutucuğu kapalıysa fonksiyon **hiçbir şey yapmadan dönüyor.**
+🔴 Emre'nin *"uçuş ayarları HİÇ ETKİ ETMİYOR"* (`H-0059`) şikâyetinin
+muhtemel cevabı **budur**: özellik var, **bir kutucuk onu sessizce yutuyor.**
+
+**⇒ ÇIKAN KURAL — ve iş tanımını değiştiriyor:**
+> Kutucuk **OTOMATİK** uçuşu yönetmeli; **ELLE** yapılan bir tıklamayı
+> **VETO ETMEMELİDİR.** Kullanıcı düğmeye bastıysa niyeti zaten açıktır.
+
+```
+① haritayiOlayaGotur(o, elle) — ikinci parametre; `elle` true ise
+   ucusAc vetosu ATLANIR (kip/irtifa/kenar ayarları YİNE uygulanır)
+② SESSİZ ÇIKIŞ KALKAR — kutucuk kapalıyken tıklanınca kullanıcıya
+   "🛩 uçuş kapalı" denir; sessizce hiçbir şey yapmamak en kötüsü
+③ SONRA düğme eklenir — ve o zaman gerçekten çalışır
+```
+⚠️ ①-② yapılmadan ③ yapılırsa **düğme de sessizce çalışmaz** ve iki kusur
+üst üste biner; hangisinin bozuk olduğu görünmez.
+
+### Emre'nin ikinci sorusu (22:45): satır başına düğme mi, TEK düğme mi?
+> *"Kronoloji satırlarının yanlarında birer buton şeklinde de görünebilir,
+> ya da tek bir buton olsun — o anda hangi satır seçili ise o olayın
+> mahalline götürsün haritayı."*
+
+**KOORDİNATÖR GÖRÜŞÜ: TEK DÜĞME, ve sebebi ölçülmüş.**
+```
+satır başına düğme   1219 satır × düğme = Emre'nin EN SIK şikâyeti
+                     ("gözü kanatıyor"); üstelik SATIRIN KENDİSİ zaten
+                     tıklanabilir — düğme MÜKERRER olurdu
+tek düğme            aktif/seçili olaya götürür · ekran sade kalır
+```
+⚠️ Ama karar Emre'nin. Üçüncü bir yol da var ve ikisinin ortası:
+**düğme yalnız ÜSTÜNE GELİNEN (hover) satırda belirir** — satır başına
+erişim verir, ekranı kalabalıklaştırmaz. Emre'ye şık olarak sunuldu.
+📌 Emre'nin gerekçesi teknik değil pedagojik (`H-0010`): *"önce olay
+gösterilip sonra harita hareket ederse **kullanıcı neyin değiştiğini takip
+edemez**."* Elle düğme bunu kullanıcının kendi eline veriyor.
+
+### Devam eden iş
 Önce mevcut işini bitir (`bos:` beş kovası + lejant + İŞ 0'ın sayısı).
 Sonra **23 madde** — başında ÜÇ KEZ bildirilmiş dördü:
 ```
