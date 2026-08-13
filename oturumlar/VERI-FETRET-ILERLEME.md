@@ -10,7 +10,7 @@ Koordinatöre iki mesaj atılmış, ikisi kuyrukta bekliyordu.
 ## ⓪ ŞARTNAMEDE BULUNAN HATA — kanal ölü adres gösteriyordu
 
 ```
-VERI-FETRET.md §⑤ :  session_id : local_2ad1685f-dd0a-4c8c-8b9d-a89c216d56e6
+VERI-FETRET.md §⑤ :  session_id : local_17712720-a5a0-4315-8986-48c222eeeadf
 list_sessions'ta   :  YOK
 canlı koordinatör  :  local_17712720-a5a0-4315-8986-48c222eeeadf
 ```

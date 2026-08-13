@@ -125,7 +125,13 @@ inerse inmiş sayılmaz."* Senin işin onun **ekran** tarafı: veri artık
 Cevabın **kendi pencerene YAZILMAZ**; koordinatör ekranını GÖRMEZ.
 ```
 mcp__ccd_session_mgmt__send_message
-    session_id : local_2ad1685f-dd0a-4c8c-8b9d-a89c216d56e6
+    session_id : local_17712720-a5a0-4315-8986-48c222eeeadf
+    ⚠️ ADRES DOGRULAMA — HER MESAJDAN ONCE:
+       Bu kimlik BAYATLAYABILIR. `send_message` "Session not found." derse
+       DURMA: `mcp__ccd_session_mgmt__list_sessions` ile koordinatoru ARA
+       (basligi KOORDINATOR ya da CLAUDEMRE, dizini bu proje) ve ORAYA yaz.
+       🔴 13 Agu'da tam bu oldu: sartnamelerdeki adres OLUYDU ve UC oturumun
+       raporu hicbir yere gitmedi. Ucu de kusuru KENDI buldu — sen de bul.
 ```
 🔴 Bu kural dün ÜÇ oturum tarafından çiğnendi — üçü de çalıştı, dosyaya
 yazdı, mesaj atmadı, ölü sanıldılar.

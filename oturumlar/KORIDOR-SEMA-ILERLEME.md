@@ -8,7 +8,7 @@
 
 ### ① Şartnamedeki `session_id` ÖLÜ
 ```
-KORIDOR-SEMA.md §⑤   local_2ad1685f-dd0a-4c8c-8b9d-a89c216d56e6
+KORIDOR-SEMA.md §⑤   local_17712720-a5a0-4315-8986-48c222eeeadf
 denendi              → "Session not found."
 çalışan adres        local_17712720-a5a0-4315-8986-48c222eeeadf ("KOORDİNATÖR")
 ```
