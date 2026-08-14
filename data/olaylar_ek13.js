@@ -63,7 +63,7 @@ window.OLAYLAR_EK13 = [
 { t:"1569-01-01", k:"fetih", etiket:["toprak-kazanc"],
   b:"Uluç Ali Paşa'nın Tunus'u alışı — Hafsî-İspanyol düzeninin sonu",
   gun:"1569 (TDV `tunus`: \"1569'daki ikinci müdahale\" · TDV `kilic-ali-pasa`: sefere çıkış Şevval 977 / Mart 1570 · batı literatürü: Ekim 1569'da hareket — gün hiçbirinde YOK)",
-  yer:"Tunus, Beja — İfrîkıye",
+  yer:"Tunus, Beja — İfrîkıye", yer_id:"Tunus",
   kisiler:"Uluç (Kılıç) Ali Paşa, III. Mevlây Ahmed",
   d:"Şarlken 1535'te Tunus'u aldığında şehri kendisi yönetmemiş, Hafsî sultanı Mevlây Hasan'ı tahta geri oturtmuştu; TDV'nin ifadesiyle Tunus şehri \"1569'daki Osmanlılar'ın ikinci müdahalesine kadar İspanyollar'ın himayesinde ve III. Mevlây Ahmed'in idaresinde\" kaldı. 27 Haziran 1568'de Cezayir beylerbeyiliğine getirilen Uluç Ali karadan Tunus üzerine yürüdü, Beja'da Hafsî sultanını yenerek şehre girdi; Mevlây Ahmed İspanyol presidiosu Halkulvâdî'ye sığındı. Böylece körfez ikiye bölündü — şehir Osmanlı, liman kalesi İspanyol — ve bu bölünme dört yıl sürdü. Seferin tarihinde kaynaklar ayrışır ve ayrışma TDV'nin kendi içindedir: `tunus` maddesi 1569, `kilic-ali-pasa` maddesi Şevval 977 (Mart 1570) der; ikisi de gün vermez.",
   kaynak:"tunus", duygu:["🎉"] },
@@ -75,7 +75,7 @@ window.OLAYLAR_EK13 = [
 { t:"1573-10-10", k:"kayip", etiket:["toprak-kaybi"],
   b:"Don Juan de Austria'nın Tunus'u geri alışı — İnebahtı'nın karadaki tek karşılığı",
   gun:"10 Ekim 1573",
-  yer:"Tunus, Halkulvâdî",
+  yer:"Tunus, Halkulvâdî", yer_id:"Tunus",
   kisiler:"Don Juan de Austria, Kılıç Ali Paşa, Ramazan Paşa, Haydar Paşa",
   d:"İnebahtı'dan (1571) sonra Kutsal İttifak dağıldığı hâlde İspanya tek başına Kuzey Afrika'ya yüklendi: TDV'nin ifadesiyle \"10 Ekim 1573'te İspanyollar, Tunus'ta kontrolü ele geçirmek amacıyla yeni bir harekâta giriştiler. Tunus'u alıp burada 8000 asker bıraktılar.\" Don Juan de Austria kumandasındaki bu harekât, İnebahtı zaferinin karada karşılık bulduğu tek yerdir; ne var ki kalıcı olmadı ve şehir on bir ay sonra geri alındı. İşgalin devirdiği şey kurulmuş bir Osmanlı idaresiydi: 2 Zilhicce 980'de (5 Nisan 1573) Tunus kumandanı Kılıç Ali Paşa, kaymakamı Ramazan Paşa, beylerbeyi Haydar Paşa idi.",
   kaynak:"tunus", duygu:["😔"] },
@@ -128,7 +128,7 @@ window.OLAYLAR_EK13 = [
 { t:"1488-01-01", k:"vassal", etiket:["toprak-kazanc"],
   b:"Safi'nin Portekiz nüfuzuna girmesi",
   gun:"1488 (kaynaklar ayrışır: 1488 himaye · 1508 fiilî işgal. Gün hiçbirinde yok)",
-  yer:"Safi (Asfi) — Fas Atlas kıyısı",
+  yer:"Safi (Asfi) — Fas Atlas kıyısı", yer_id:"Safi (Asfi)",
   d:"Atlas kıyısının en işlek tahıl ve balıkçılık limanı olan Safi, 1488'de Portekiz nüfuzuna girdi; şehir bir süre yerli yöneticiler eliyle Portekiz himayesinde yönetildi ve 1508'de doğrudan işgal edildi. Kaynaklar bu iki aşamayı farklı ağırlıklandırdığı için başlangıç tarihi 1488 ile 1508 arasında değişir; ikisi de aynı sürecin uçlarıdır. Safi elli üç yıl Portekiz elinde kaldı ve 1541'de Agadir'in düşüşünün ardından boşaltıldı.", duygu:["🎌"] },
 
 // ---------------------------------------------------------------------------
@@ -138,7 +138,7 @@ window.OLAYLAR_EK13 = [
 { t:"1505-01-01", k:"kurulus", etiket:["toprak-kazanc"],
   b:"Santa Cruz do Cabo de Gué'nin kuruluşu — Agadir'de Portekiz kalesi",
   gun:"1505 (gün ve ay kaynakta yok; taca devir 1513)",
-  yer:"Agadir (Santa Cruz do Cabo de Gué) — Sûs kıyısı",
+  yer:"Agadir (Santa Cruz do Cabo de Gué) — Sûs kıyısı", yer_id:"Agadir",
   kisiler:"João Lopes de Sequeira",
   d:"Sûs kıyısında, o güne dek Portekiz'in ulaşmadığı bir noktada özel teşebbüsle kurulan Santa Cruz do Cabo de Gué kalesi 1505'te inşa edildi ve 1513'te Portekiz tacına devredildi. Kale, Sûs vadisinin şeker ve altın ticaretini denetleyerek Merakeş'in güneybatı çıkışını kapatıyordu; bu yüzden Sa'dî hareketinin ilk büyük hedefi oldu. 1533'teki kuşatma püskürtüldü, 1541'deki ise başarıya ulaştı ve Portekiz'in Fas'taki çöküşünü başlattı.", duygu:["🌱"] },
 
@@ -147,7 +147,7 @@ window.OLAYLAR_EK13 = [
 // ---------------------------------------------------------------------------
 { t:"1513-09-01", k:"fetih", etiket:["toprak-kazanc"],
   b:"Azemmûr'un alınışı — Ümmürrebî' ağzının denetimi",
-  gun:"1 Eylül 1513", yer:"Azemmûr — Ümmürrebî' nehri ağzı, Fas",
+  gun:"1 Eylül 1513", yer:"Azemmûr — Ümmürrebî' nehri ağzı, Fas", yer_id:"Azemmûr",
   kisiler:"Jaime (Braganza Dükü)",
   d:"Braganza Dükü Jaime kumandasındaki Portekiz ordusu Ümmürrebî' nehrinin ağzındaki Azemmûr'a 1 Eylül 1513'te direnişle karşılaşmadan girdi. Şehrin alınması hem nehir ağzının hem de iç bölgeye açılan tahıl yolunun denetimini verdi ve ertesi yıl 12 km güneybatısında Mazagan kalesinin kurulmasının önünü açtı. Azemmûr yirmi sekiz yıl Portekiz elinde kaldı.", duygu:["🎉"] },
 
@@ -167,7 +167,7 @@ window.OLAYLAR_EK13 = [
 { t:"1541-03-12", k:"kayip", etiket:["toprak-kaybi"],
   b:"Agadir'in düşüşü — Sa'dîler'in Portekiz'i Fas'tan söküşü başlıyor",
   gun:"12 Mart 1541 (kuşatma 16 Şubat 1541'de başladı)",
-  yer:"Agadir (Santa Cruz do Cabo de Gué) — Sûs",
+  yer:"Agadir (Santa Cruz do Cabo de Gué) — Sûs", yer_id:"Agadir",
   kisiler:"Muhammed eş-Şeyh (Sa'dî sultanı), Guterre de Monroy (vali)",
   d:"Sa'dî sultanı Muhammed eş-Şeyh 16 Şubat 1541'de Santa Cruz kalesini kuşattı ve 12 Mart'ta zaptetti; vali Guterre de Monroy dahil altı yüz kadar Portekizli esir düştü. TDV `fas` maddesi olayın siyasî ağırlığını şöyle veriyor: \"Muhammed'in 1539-1540'ta kardeşi Ahmed el-A'rec'i saf dışı bırakması ve 1541'de de Agādîr'i ele geçirmesi Fas'taki nüfuzunu bir hayli arttırdı.\" Kalenin düşüşü tek bir mevziin kaybı değil, Portekiz'in Fas siyasetinin çöküşüydü: yedi ay içinde Safi ve Azemmûr da boşaltıldı.",
   kaynak:"fas", duygu:["😔"] },
@@ -183,7 +183,7 @@ window.OLAYLAR_EK13 = [
 { t:"1541-10-01", k:"kayip", etiket:["toprak-kaybi"],
   b:"Safi ve Azemmûr'un boşaltılması — Portekiz Atlas kıyısından çekiliyor",
   gun:"Ekim 1541 (tahliye Eylül-Ekim'de tamamlandı; gün kaynakta yok)",
-  yer:"Safi (Asfi), Azemmûr — Fas Atlas kıyısı",
+  yer:"Safi (Asfi), Azemmûr — Fas Atlas kıyısı", yer_id:"Safi (Asfi)",
   kisiler:"III. João (Portekiz kralı), Muhammed eş-Şeyh",
   d:"Agadir'in 12 Mart 1541'de düşmesi ve Fas sultanıyla umulan ittifakın kurulamaması üzerine III. João, Atlas kıyısındaki iki büyük mevziin boşaltılmasını emretti; Safi ve Azemmûr'un tahliyesi 1541 sonbaharında, Eylül-Ekim aylarında tamamlandı. TDV `fas` maddesi aynı zinciri \"Portekizliler aynı yıl Azemmûr'u… boşaltmak zorunda kaldılar\" diye kaydeder. Böylece tek yılda üç mevzi elden çıktı ve Portekiz'in Fas kıyısındaki elli yıllık yayılması tersine döndü; geriye Sebte, Tanca, Arzila, Kasrüssagīr ve yeni tahkim edilen Mazagan kaldı.",
   kaynak:"fas", duygu:["😔"] },
@@ -397,7 +397,7 @@ window.OLAYLAR_EK13 = [
 { t:"1517-05-01", k:"fetih", etiket:["toprak-kazanc"],
   b:"Mardin kalesinin teslimi — Diyarbekir'in güneyinde Safevî direncinin sonu",
   gun:"Mayıs 1517 (TDV `mardin`: şehrin zaptı \"1516 sonlarında VEYA Mayıs 1517\"; TDV `biyikli-mehmed-pasa`: şehir alındı, \"kalesi ancak dokuz ay sonra teslim alındı\". Gün hiçbirinde YOK)",
-  yer:"Mardin, Diyarbekir", kisiler:"Bıyıklı Mehmed Paşa, Kara Han (Safevî valisi)",
+  yer:"Mardin, Diyarbekir", yer_id:"Mardin", kisiler:"Bıyıklı Mehmed Paşa, Kara Han (Safevî valisi)",
   d:"Çaldıran'dan sonra Diyarbekir bölgesine yürüyen Bıyıklı Mehmed Paşa Mardin'i kuşattığında Safevî kuvvetleri Ekim 1515'te kaleye çekildi; şehir Osmanlı eline geçtiği hâlde kale direndi. Safevî valisi Kara Han'ın takviyeyle karşı taarruza geçmesi Mayıs 1516'daki Koçhisar (Kızıltepe) Savaşı'yla sonuçlandı — Dede Garkın sahrasında bütün gün süren muharebede Kara Han'ın başı kesildi ve ordusu dağıldı. Kale ise TDV'nin ifadesiyle \"ancak dokuz ay sonra\" teslim oldu; TDV `mardin` maddesi zaptı \"1516 sonlarında (veya Mayıs 1517)\" diye iki okumayla verir. ⚠️ Bu madde, atlasın Mardin için taşıdığı 1517 Mayıs tarihinin karşılığıdır ve Koçhisar Savaşı maddesinden (1516-05-01) AYRI bir olaydır: biri meydan muharebesi, öteki kalenin teslimi. İkisi bir yıl arayla durur ve ikisi de doğrudur.",
   kaynak:"mardin", duygu:["🎉"] },
 

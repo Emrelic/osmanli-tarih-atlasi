@@ -60,7 +60,7 @@ window.OLAYLAR_EK12 = [
 //   yani bu madde var olan bir boşluğu YANLIŞLIKLA da kapatmıyor.
 { t:"1560-01-01", k:"savas", etiket:["savas"],
   b:"Haçlı donanması Cerbe'yi işgal etti — Turgut Paşa'nın üssü elden çıktı",
-  gun:"1560 başları (TDV: ay ve gün kaynakta yok)", yer:"Cerbe (Djerba), Trablusgarp",
+  gun:"1560 başları (TDV: ay ve gün kaynakta yok)", yer:"Cerbe (Djerba), Trablusgarp", yer_id:"Cerbe (Djerba)",
   kisiler:"Turgut Paşa, Piyâle Paşa",
   d:"İspanya, Papalık, Malta, Ceneviz ve Floransa gemilerinden kurulu Haçlı donanması, Turgut Reis'in 1551'den beri akın üssü olarak kullandığı Cerbe'yi hedef aldı. Fırtınalar ve salgın yüzünden ada önlerine ancak 1560 yılı başlarında ulaşabildi ve adaya çıkıp bir kale inşa etti. İşgal uzun sürmedi: Piyâle Paşa'nın donanması aynı yılın mayısında geldi ve ada beş ay içinde geri alındı. Bu sefer, Preveze'den sonra Akdeniz'de Osmanlı üstünlüğünü pekiştiren ikinci büyük deniz harekâtının başlangıcıdır.",
   kaynak:"cerbe", duygu:["⚔️","😔"] },

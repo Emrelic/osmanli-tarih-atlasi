@@ -1,4 +1,63 @@
-<!-- DURUM: CALISIYORUM | 2026-08-14 07:51 | IS 0 BITTI (KOLAY 673/ORTA 62/ZOR 0) + 9 bozuk yer_id temizligi COMMIT EDILDI 65016ce, denetle TEMIZ -->
+<!-- DURUM: CALISIYORUM | 2026-08-14 08:34 | IS 1 CEKIRDEK BITTI: 327 maddenin 323'u baglandi, yer_id 484 -> 807, denetle TEMIZ -->
+
+## İŞ 1 — ÇEKİRDEK 327 BAĞLANDI (08:34)
+
+```
+karar verilen   327   (madde madde OKUNARAK, otomatik yazım YOK)
+├ TAM           294   asıl yerin kaydı var
+├ YAKIN          29   asıl yerin kaydı YOK, maddenin kendi `yer:` çıpasına bağlandı
+├ ORTA            3   bağlanmadı — nokta önerisine gidiyor
+└ ZOR             1   yer belirsiz (bölge adı)
+YAZILAN         323   (294 + 29)
+
+yer_id dolu   484 → 807      boş  735 → 412
+eşleşmeyen yer_id: 8 (hepsi ESKİ — Girit ×4 · Boğaziçi ×2 · Dârfûr ×2)
+14 dosya · 323 satır · CRLF korundu
+py arac/yorum_temizle.py ✓ TEMİZ    py arac/denetle.py ✓ temiz, kod 0
+```
+
+### 🔴 OTOMATİK YAZSAYDIM NE OLURDU — ölçüldü
+Eşleştirici *"aday buldu"* diyordu; okuyunca **yanlış** oldukları görüldü:
+```
+1692 Granbosa Kalesi'nin fethi   → aday VENEDİK   (başlıktaki "Girit'in Venedik'te…"nden)
+1410 Yanbolu Savaşı              → aday EDİRNE    (başlıktaki "Edirne'ye girdi"den)
+1567 Açe ittifakı                → aday İSKENDERİYE (yardım filosunun kalkış limanı)
+1482 Zaklise'nin haraca bağlanması → aday VENEDİK (adanın bırakıldığı taraf)
+1510 Merv Savaşı                 → aday HERAT     (350 km uzak)
+1501 Şah İsmail Tebriz'i aldı    → aday "İsmail"  (İsmail diye bir YERLEŞİM var!)
+```
+📌 Sonuncusu en öğreticisi: **kişi adı, yerleşim adıyla çakışıyor.** Bir
+otomatik yazıcı Safevî Devleti'nin kuruluşunu *"İsmail"* adlı yerleşime
+bağlardı ve hiçbir denetim ötmezdi — `yer_id` geçerli bir kayda işaret
+ediyor olurdu.
+
+### 🔴 KENDİ ALETİMİN ÜÇ KÖR NOKTASI — üçü de okurken çıktı
+```
+① parantezli ad   "Solnok (Szolnok)" · "Zaklise (Zakynthos)" · "Merv (Mari)" ·
+                  "Yenişehir (Bursa)" · "Banda Açe"  → metindeki "Solnok" ile eşleşmiyordu
+                  5 kararı DÜZELTTİM (ORTA/YAKIN sanılanlar aslında TAM'dı)
+② kısa ad         "Niş" 3 harf; eşik 4 harfti ⇒ HİÇ aranmadı.
+                  1690-09-09 Niş'in geri alınışı Belgrad'a bağlanacaktı
+③ yazım farkı     metin "Diyarbekir", kayıt "Diyarbakır" ⇒ eşleşmiyor
+```
+⇒ Üçü de **KOLAY/ORTA/ZOR sayılarını etkiler**; yani İŞ 0'da bildirdiğim
+`KOLAY 673 · ORTA 62` bir **alt sınırdır** — gerçek KOLAY daha büyük.
+Bunu düzeltilmiş sayı olarak değil, **ölçümün bilinen sınırı** olarak
+bildiriyorum (ölçmediğimi ölçtüm diye yazmam).
+
+### İŞ 2'nin tohumu — 29 YAKIN + 3 ORTA kaydın işaret ettiği EKSİK NOKTALAR
+Bunlar nokta önerisi listesinin ham maddesi (İŞ 2'de koordinat + kaynakla
+yazılacak):
+```
+Granbosa (Gramvousa) · Yanbolu (Yambol) · Bahreyn (Evâl) · Çamurlu ·
+Otlukbeli · Mercidabık · Ridaniye · Çıldır · Kosmidion · Koyunhisar (Bapheus) ·
+Sapienza (Zonchio) · Bozok · Konya Ereğlisi · Büyükçekmece · Anabolu (Nauplion) ·
+Üsküdar · Eyüp · Pelekanon (Eskihisar-Darıca) · İpsili · Vaç · İskiros ·
+Yenişehir Ovası · Sırpsındığı · Dimetoka yolu · Teke · Harşan · Oruç Ovası
+```
+⚠️ Granbosa, `CLAUDE.md §3.5.1`in *"Girit'in üç kalesi (Suda · Spinalonga ·
+Granbosa) kayıtsız"* satırını **bağımsız olarak doğruladı.**
+
 
 # KRONOLOJİ YER — ilerleme
 

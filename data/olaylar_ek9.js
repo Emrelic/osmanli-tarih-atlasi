@@ -414,7 +414,7 @@ window.OLAYLAR_EK9 = [
 
 { t:"1427-01-01", k:"kayip", etiket:["toprak-kaybi","diplomasi"],
   b:"Alâiye'nin Memlük Sultanı Barsbay'a satılması",
-  gun:"1427", yer:"Alâiye (Alanya), İçel sahili", kisiler:"Karaman b. Savcı Bey, Memlük Sultanı Barsbay",
+  gun:"1427", yer:"Alâiye (Alanya), İçel sahili", yer_id:"Alanya", kisiler:"Karaman b. Savcı Bey, Memlük Sultanı Barsbay",
   d:"1293'te Karamanoğlu Mecdüddin Mahmud Bey'in ele geçirdiği Alâiye, Karamanoğulları'nın bir kolu tarafından yönetilen ayrı bir beylik hâline gelmişti; İbn Battûta 1333'te idarenin Karamanoğlu Yûsuf Bey'de olduğunu kaydeder. Karaman b. Savcı Bey 1427'de şehri beş bin altın karşılığında Memlük Sultanı Barsbay'a sattı ve Alâiye Memlük idaresine girdi. Akdeniz'in bu kilit limanı böylece Osmanlı'nın güneye açılan yolunda Memlük elinde bir engel oldu; 1471'de Gedik Ahmed Paşa kuşatınca son bey Kılıcarslan şehri teslim etti. Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
   kaynak:"alaiye-beyligi", duygu:["😔"] },
 
