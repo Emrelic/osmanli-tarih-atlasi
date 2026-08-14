@@ -1,4 +1,4 @@
-<!-- DURUM: CALISIYORUM | 2026-08-14 07:45 | IS 0 BITTI: 726 dogrulandi + 9 GERCEK VERI BOZULMASI bulundu (gercek eksik 735) -->
+<!-- DURUM: CALISIYORUM | 2026-08-14 08:05 | IS 0 BITTI (KOLAY 673/ORTA 62/ZOR 0) + 9 bozuk yer_id TEMIZLENDI, denetle TEMIZ, COMMIT IZNI BEKLIYOR -->
 
 # KRONOLOJİ YER — ilerleme
 
@@ -130,6 +130,45 @@ tek yanlı sınır : KOLAY 600 · ORTA 126
 Raporladığım sayılar **iki yanlı** olanlardır. 📌 `CLAUDE.md §11`: *"bir
 denetimin kapsamı doğruluğundan ayrı ölçülür"* — burada kapsam doğruydu,
 **sınır** yanlıştı.
+
+---
+
+## İŞ 0.5 — 9 BOZUK `yer_id` TEMİZLENDİ (08:05) · 🔴 COMMIT EDİLMEDİ
+
+```
+dokuz kayıt   data/olaylar_ek15.js  satır 34-42   ← ARDIŞIK, tek blok
+```
+📌 **Ardışıklık, dünkü çıkarımımı ölçüye çevirdi:** *"tek bir yazım
+oturumunun alışkanlığı gibi duruyor ama ölçmedim"* demiştim — dokuzu da
+**yan yana** çıktı. Artık çıkarım değil, gözlem.
+
+**Ne yapıldı:** yalnız `yer_id` alanı silindi. `yer:` · `b:` · `d:` · `k:`
+alanlarına **dokunulmadı** (benim alanım değil).
+**Ne yapılmadı:** silinen 3.023 karakterlik metin **çöpe atılmadı** —
+`denetim/KRONOLOJI-YER-silinen-yer_id-metinleri.md` dosyasına dokuz başlık
+hâlinde yazıldı. 🔴 Bu metinlerin `d:` alanına taşınıp taşınmayacağı
+**koordinatörün kararı**; `d:` bana yasak.
+
+**GERİ OKUNDU** (*"yaptım" kanıt değildir*) — `node` ile yeniden okundu:
+```
+madde 1219 ✓ değişmedi     yer_id dolu 493 → 484     boş 726 → 735
+40+ karakterlik yer_id  9 → 0        yer:"Bâdis" korundu ✓
+git diff: 9 satır         (CRLF korundu — newline="" ile okundu)
+py arac/yorum_temizle.py  → TEMİZ
+py arac/denetle.py        → SONUÇ: temiz · çıkış kodu 0
+```
+
+🔴 **VE BURADA DURDUM — ÇELİŞKİ VAR, kendi kararımla geçmiyorum:**
+```
+KRONOLOJI-YER.md §4   "🟢 SENİN: data/olaylar*.js"        → YAZMA yetkisi verildi
+CLAUDE.md §7          "commit yalnız Oturum 0'dan;         → COMMIT yetkisi
+                       tek istisna kendi oturumlar/ dosyan"   VERİLMEDİ
+```
+Yazma yetkisi commit yetkisi demek değil. `data/olaylar_ek15.js` ve
+`denetim/KRONOLOJI-YER-silinen-yer_id-metinleri.md` **çalışma ağacında
+duruyor, commit EDİLMEDİ.** Koordinatöre soruldu (tahta). ⚠️ Ve beklemenin
+kendi riski var: index paylaşılıyor, başka bir oturumun `git add -A`si bu
+dosyaları kendi commit'ine alabilir — o yüzden cevap **beklemez.**
 
 ---
 
