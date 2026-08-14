@@ -904,7 +904,8 @@
   "vade": "",
   "okuyan": {
    "Sonnet hazir kita 3": "2026-08-14 07:32",
-   "KOORDINATOR": "2026-08-14 07:33"
+   "KOORDINATOR": "2026-08-14 07:33",
+   "NOKTA AMERIKA": "2026-08-14 07:38"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -931,7 +932,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "NOKTA AMERIKA": "2026-08-14 07:38"
+  },
   "yanit_no": "",
   "cins": "EMIR",
   "teyit": {},
