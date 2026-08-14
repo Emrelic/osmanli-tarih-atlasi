@@ -172,7 +172,7 @@ bağlı olduğu merkez farklı devletlerin elinde."* Sebebi de yazılı:
 | # | madde | ölçülen | dayandığı |
 |---|---|---|---|
 | ① | topografya | kıyı/nehir/göl **var** · yükseklik-kanyon-plato-orman-bataklık **yok** · çöl-bozkır **ölçülmedi** | — |
-| ② | 1281 yerleşimleri | kademe **%31,6** (1579 nokta kademesiz) | ① |
+| ② | 1281 yerleşimleri | kademe **%36.6** (1588 nokta kademesiz; bunun 224'si `tur:bolge`/`kasitli_bosluk`, **gerçek borç 1364**) · türetme kuyusu **KURU** (`py arac/kademe.py`) | ① |
 | ③ | bölge paylaşımı | cost-distance **prototip yok** | ① + ② |
 | ④ | bölgenin zaman ayağı | `kd:` **%0** (tasarım var, veri yok) | ② + ③ |
 
