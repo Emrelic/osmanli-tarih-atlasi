@@ -118,20 +118,31 @@ def _gorunum_yaz(kayit):
            "> Yazmak için: `py arac/tahta.py yaz --kim <AD> --kime <AD> --mesaj <metin>`",
            "> Okumak için: `py arac/tahta.py oku --kim \"<KENDİ ADIN>\"`",
            "",
+           "🔴 **EL SIKIŞMA ÜÇ ADIMDIR** (Emre, 14 Ağu): ① gönder → "
+           "② alıcı `teyit` (\"okudum, gereğini yapıyorum\") → ③ gönderen "
+           "`tamam` (\"bekliyorum, tamam\").",
+           "> Teyit dönmeyen mesaj, o alıcı için kanalın KAPALI olduğunun "
+           "kanıtıdır — `py arac/tahta.py teyitsiz` tek satırda ölçer.",
+           "",
            "| NO | TARİH SAAT | KİMDEN | KİMLİK | KİME | CİNS | ACİL | HAL "
-           "| CEVAP | VADE | OKUYAN | DAYANAK | MESAJ |",
-           "|---|---|---|---|---|---|---|---|---|---|---|---|---|"]
+           "| TEYİT | KAPANIŞ | CEVAP | VADE | OKUYAN | DAYANAK | MESAJ |",
+           "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|"]
     for m in kayit:
         okuyan = ", ".join("%s@%s" % (k, v[-5:]) for k, v in
                            sorted((m.get("okuyan") or {}).items())) or "—"
         cevap = m.get("cevap") or "—"
         if m.get("yanit_no"):
             cevap = "↩ %s" % m["yanit_no"]
-        sat.append("| %s | %s | %s | %s | %s | %s | %s | %s | %s | %s | %s | %s | %s |" % (
-            m["no"], m["zaman"], m["kimden"], m.get("kimden_kimlik") or "—",
-            m["kime"], m.get("cins") or "BILGI", m.get("aciliyet") or "NORMAL",
-            m["hal"], cevap, m.get("vade") or "—", okuyan,
-            m.get("dayanak") or "—", m["mesaj"]))
+        ty = m.get("teyit") or {}
+        teyit_s = ", ".join("%s@%s" % (k, v["zaman"][-5:])
+                            for k, v in sorted(ty.items())) if ty else (
+            "🔴 YOK" if m["kime"] != "HERKES" else "—")
+        sat.append(
+            "| %s | %s | %s | %s | %s | %s | %s | %s | %s | %s | %s | %s | %s | %s | %s |" % (
+                m["no"], m["zaman"], m["kimden"], m.get("kimden_kimlik") or "—",
+                m["kime"], m.get("cins") or "BILGI", m.get("aciliyet") or "NORMAL",
+                m["hal"], teyit_s, m.get("kapanis") or "—", cevap,
+                m.get("vade") or "—", okuyan, m.get("dayanak") or "—", m["mesaj"]))
     io.open(GORUNUM, "w", encoding="utf-8", newline="\n").write(
         "\n".join(sat) + "\n")
 
@@ -229,6 +240,29 @@ def yaz(a):
         #    mükerrer iş yaptı; bir "soru" da bilgi sanılıp cevapsız kaldı.
         #    Süzgeç olmadan pano gürültüye boğulur, ve okunmayan pano YOKTUR.
         "cins": (_t(a.get("cins")) or "BILGI").upper(),   # EMIR·SORU·RAPOR·ARIZA·BILGI
+        # ⑫ TEYİT — Emre'nin tasarımı (14 Ağustos 2026):
+        #   "Gönderilen mesajları TEYİTLİ yapmak gerek. Mesaj gönderen,
+        #    mesajına 'mesajımı okuyunca ANLADIM, TAMAM, GEREĞİNİ YAPIYORUM'
+        #    şeklinde bir teyit istemeli. Bir mesaj gönderilince karşı taraf
+        #    'okudum, gereğini yapıyorum' yazmalı. Diğer tarafta 'bekliyorum,
+        #    tamam' demeli. Dolayısıyla MESAJ KANALININ AÇIK OLDUĞU TEYİT
+        #    EDİLMELİ."
+        #
+        # 🔴 VE BU, `okuyan` ALANINDAN BAŞKA BİR ŞEYDİR — ikisi de gerekli:
+        #   okuyan  OTOMATİK · "gözüne ilişti" · elle işaretlenen kutu
+        #           işaretlenmez diye otomatik yapıldı
+        #   teyit   KASITLI  · "OKUDUM ve GEREĞİNİ YAPIYORUM" · bir EYLEM
+        #           taahhüdü. Otomatikleştirilemez, çünkü taahhüt insanın
+        #           (ya da oturumun) kendi beyanıdır.
+        # 📌 Fark ölçülebilir: bir mesaj `okuyan` dolu ama `teyit` boşsa,
+        #   "gördü ama üstlenmedi" demektir — sessizlikten BAŞKA bir hâl.
+        #
+        # 🟢 VE ASIL FAYDASI KANALIN KENDİSİNİ ÖLÇMEK: teyit dönmeyen mesaj,
+        #   o alıcı için kanalın KAPALI olduğunun kanıtıdır. `teyitsiz`
+        #   komutu bunu tek satırda verir — "mesajım vardı mı" sorusu artık
+        #   tahminle değil SAYIYLA cevaplanır.
+        "teyit": {},          # {ad: {"zaman": …, "soz": "…"}}
+        "kapanis": "",        # gönderenin "bekliyorum, tamam"ı
         #
         # ⑩ DAYANAK — "şunu ölçtüm" diyen her satır NEREDE olduğunu söylemeli:
         #    commit · dosya:satır · rapor yolu. Bu projenin en pahalı ders
@@ -294,6 +328,15 @@ def oku(a):
         print("   %s" % m["mesaj"])
         if m.get("dayanak"):
             print("   dayanak: %s" % m["dayanak"])
+        # 🔴 EL SIKIŞMANIN ÜÇ ADIMI — hangisinde durduğu HER OKUMADA görünür
+        if m.get("teyit"):
+            for k2, v2 in sorted(m["teyit"].items()):
+                print("   ✓ TEYİT  %s @%s — \"%s\"" % (k2, v2["zaman"][-5:], v2["soz"]))
+        elif m["kime"] != "HERKES":
+            print("   🔴 TEYİT BEKLİYOR — alıcı 'okudum, gereğini yapıyorum' demedi")
+            print("      cevap: py arac/tahta.py teyit %s --kim \"%s\"" % (m["no"], m["kime"]))
+        if m.get("kapanis"):
+            print("   ✓ KAPANIŞ %s" % m["kapanis"])
         if m.get("okuyan"):
             print("   okuyan: %s" % ", ".join(
                 "%s@%s" % (k, v[-5:]) for k, v in sorted(m["okuyan"].items())))
@@ -331,6 +374,94 @@ def bekleyen(a):
         print("  %s  %s → %s  (vade %s)%s" % (
             m["no"], m["kimden"], m["kime"], m.get("vade") or "—", gec))
         print("     %s" % m["mesaj"][:70])
+    return 0
+
+
+def teyit(a):
+    """② ADIM — alıcı: 'OKUDUM, GEREĞİNİ YAPIYORUM'."""
+    kayit = _yukle()
+    no = (a.get("no") or "").upper()
+    m = next((x for x in kayit if x["no"] == no), None)
+    if m is None:
+        print("🔴 %s diye bir mesaj YOK. Teyit yazılmadı." % no)
+        return 2
+    kim = _t(a.get("kim"))
+    if not kim:
+        print("🔴 --kim ZORUNLU: teyidi KİM veriyor?")
+        return 2
+    m.setdefault("teyit", {})[kim] = {
+        "zaman": _simdi(),
+        "soz": _t(a.get("soz")) or "okudum, gereğini yapıyorum",
+    }
+    if a.get("kimlik"):
+        m.setdefault("teyit_kimlik", {})[kim] = _t(a["kimlik"])
+    _kaydet(kayit)
+    print("✓ %s TEYİT EDİLDİ — %s: %s" % (no, kim, m["teyit"][kim]["soz"]))
+    print("  ⇒ kanal bu yönde AÇIK olduğu artık KANITLI.")
+    _git(kayit, "TAHTA %s TEYIT — %s" % (no, kim), m["teyit"][kim]["soz"])
+    return 0
+
+
+def tamam(a):
+    """③ ADIM — gönderen: 'bekliyorum, tamam'. El sıkışma KAPANIR."""
+    kayit = _yukle()
+    no = (a.get("no") or "").upper()
+    m = next((x for x in kayit if x["no"] == no), None)
+    if m is None:
+        print("🔴 %s diye bir mesaj YOK." % no)
+        return 2
+    if not m.get("teyit"):
+        # 🔴 SESSİZ GEÇİLMEZ: teyit gelmeden kapanış yazmak, el sıkışmayı
+        # TEK TARAFLI kapatır ve kanalın açık olduğu YALANINI kaydeder.
+        print("🔴 %s'e HENÜZ TEYİT GELMEDİ — kapanış yazılmaz." % no)
+        print("   El sıkışma üç adımdır: gönder → TEYİT → tamam.")
+        print("   Teyit yoksa kanal o yönde AÇIK DEĞİLDİR; kapanış yazmak")
+        print("   bunu gizler.")
+        return 1
+    m["kapanis"] = "%s · %s" % (
+        _simdi(), _t(a.get("soz")) or "bekliyorum, tamam")
+    _kaydet(kayit)
+    print("✓ %s el sıkışma KAPANDI: %s" % (no, m["kapanis"]))
+    _git(kayit, "TAHTA %s KAPANIS" % no, m["kapanis"])
+    return 0
+
+
+def teyitsiz(a):
+    """🔴 KANAL ÖLÇÜMÜ — teyit dönmemiş mesajlar. Sessizliğin SAYISI."""
+    kayit = _yukle()
+    kim = (a.get("kim") or "").strip().upper()
+    hedef = [m for m in kayit if m["hal"] != "KAPANDI"]
+    if kim:
+        hedef = [m for m in hedef if m["kimden"].upper() == kim]
+    acik = [m for m in hedef if not m.get("teyit")]
+    teyitli = [m for m in hedef if m.get("teyit")]
+
+    print("=" * 74)
+    print("TEYİT ÖLÇÜMÜ — gönderilen %d · TEYİTLİ %d · TEYİTSİZ %d"
+          % (len(hedef), len(teyitli), len(acik)))
+    print("=" * 74)
+    if not hedef:
+        print("(ölçülecek mesaj yok)")
+        return 0
+    print("🔴 TEYİT GELMEYENLER — bu alıcılar için kanal KAPALI sayılır:")
+    for m in acik:
+        okudu = ", ".join(sorted(m.get("okuyan") or {})) or "—"
+        print("  %s → %-22s  okuyan: %s" % (m["no"], m["kime"][:22], okudu))
+        print("     %s" % m["mesaj"][:64])
+    if teyitli:
+        print("\n🟢 TEYİTLİ — kanal bu yönde KANITLI AÇIK:")
+        for m in teyitli:
+            for k, v in sorted(m["teyit"].items()):
+                print("  %s ← %-20s %s  \"%s\"" % (
+                    m["no"], k[:20], v["zaman"], v["soz"][:40]))
+    # 🔴 En değerli satır: GÖRDÜ AMA ÜSTLENMEDİ
+    ara = [m for m in acik if m.get("okuyan")]
+    if ara:
+        print("\n⚠️ GÖRDÜ AMA ÜSTLENMEDİ — %d mesaj okundu, teyit gelmedi." % len(ara))
+        print("   Bu SESSİZLİKTEN BAŞKA bir hâldir: kanal AÇIK, taahhüt YOK.")
+        for m in ara:
+            print("   %s → %s (okuyan: %s)" % (
+                m["no"], m["kime"][:20], ", ".join(sorted(m["okuyan"]))))
     return 0
 
 
@@ -397,9 +528,16 @@ def main(argv):
         return kimler(ortak)
     if k == "bekleyen":
         return bekleyen(ortak)
-    if k == "kapat":
+    if k == "teyitsiz":
+        return teyitsiz(ortak)
+    if k in ("teyit", "tamam", "kapat"):
         ortak["no"] = argv[1] if len(argv) > 1 else None
-        return kapat(ortak)
+        ortak["soz"] = al("--soz")
+        ortak["kimlik"] = al("--kimlik")
+        if not ortak["no"]:
+            print("kullanim: tahta.py %s M-0007 --kim <AD> [--soz \"...\"]" % k)
+            return 2
+        return {"teyit": teyit, "tamam": tamam, "kapat": kapat}[k](ortak)
     print(__doc__)
     return 2
 
