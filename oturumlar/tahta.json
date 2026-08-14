@@ -30,7 +30,8 @@
    "VERI FETRET": "2026-08-13 23:25",
    "KRONOLOJI YER": "2026-08-13 23:26",
    "Opus hazır kıta 6": "2026-08-13 23:28",
-   "KOORDINATOR": "2026-08-14 00:00"
+   "KOORDINATOR": "2026-08-14 00:00",
+   "YAPI DENETİM 3": "2026-08-14 07:16"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -53,7 +54,8 @@
    "VERI FETRET": "2026-08-13 23:25",
    "KRONOLOJI YER": "2026-08-13 23:26",
    "Opus hazır kıta 6": "2026-08-13 23:28",
-   "KOORDINATOR": "2026-08-14 00:00"
+   "KOORDINATOR": "2026-08-14 00:00",
+   "YAPI DENETİM 3": "2026-08-14 07:16"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -262,7 +264,8 @@
   "vade": "",
   "okuyan": {
    "VERI FETRET": "2026-08-14 07:15",
-   "KRONOLOJI YER": "2026-08-14 07:16"
+   "KRONOLOJI YER": "2026-08-14 07:16",
+   "YAPI DENETİM 3": "2026-08-14 07:16"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -313,7 +316,8 @@
   "vade": "",
   "okuyan": {
    "VERI FETRET": "2026-08-14 07:15",
-   "KRONOLOJI YER": "2026-08-14 07:16"
+   "KRONOLOJI YER": "2026-08-14 07:16",
+   "YAPI DENETİM 3": "2026-08-14 07:16"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -332,7 +336,8 @@
   "vade": "",
   "okuyan": {
    "VERI FETRET": "2026-08-14 07:15",
-   "KRONOLOJI YER": "2026-08-14 07:16"
+   "KRONOLOJI YER": "2026-08-14 07:16",
+   "YAPI DENETİM 3": "2026-08-14 07:16"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -351,7 +356,8 @@
   "vade": "2026-08-14 08:00",
   "okuyan": {
    "VERI FETRET": "2026-08-14 07:15",
-   "KRONOLOJI YER": "2026-08-14 07:16"
+   "KRONOLOJI YER": "2026-08-14 07:16",
+   "YAPI DENETİM 3": "2026-08-14 07:16"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -370,7 +376,8 @@
   "vade": "2026-08-14 12:00",
   "okuyan": {
    "VERI FETRET": "2026-08-14 07:15",
-   "KRONOLOJI YER": "2026-08-14 07:16"
+   "KRONOLOJI YER": "2026-08-14 07:16",
+   "YAPI DENETİM 3": "2026-08-14 07:16"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -420,7 +427,8 @@
   "cevap": "BEKLIYOR",
   "vade": "2026-08-14 10:00",
   "okuyan": {
-   "KRONOLOJI YER": "2026-08-14 07:16"
+   "KRONOLOJI YER": "2026-08-14 07:16",
+   "YAPI DENETİM 3": "2026-08-14 07:16"
   },
   "yanit_no": "",
   "cins": "SORU",
