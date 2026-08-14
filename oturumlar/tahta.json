@@ -859,9 +859,17 @@
   },
   "yanit_no": "",
   "cins": "EMIR",
-  "teyit": {},
+  "teyit": {
+   "Sonnet hazir kita 3": {
+    "zaman": "2026-08-14 07:32",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "arac/tahta.py · Emre 14 Agu",
-  "aciliyet": "ACIL"
+  "aciliyet": "ACIL",
+  "teyit_kimlik": {
+   "Sonnet hazir kita 3": "local_cddd7c9e-7738-4140-ab7e-accb23228860"
+  }
  }
 ]
