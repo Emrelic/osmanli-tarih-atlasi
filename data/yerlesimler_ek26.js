@@ -39,10 +39,6 @@ window.YERLESIMLER_EK26 = [
   s:[{f:"1281-01-01",t:"1551-01-01",d:"gurcistan"},{f:"1878-03-03",t:"1921-10-13",d:"rusya"}],
   d:[{f:"1551-01-01",t:"1878-03-03"},{f:"1921-10-13",t:"1923-10-29"}], v:[] },
 
-// Gürcistan yakası — Kars Antlaşması'yla Gürcistan'da kaldı
-{ ad:"Ahıska (Akhaltsikhe)", tur:"kale", lat:41.640, lon:42.985, g:0, k:3, m:"Erzurum",
-  s:[{f:"1281-01-01",t:"1578-08-09",d:"gurcistan"},{f:"1829-09-14",t:"1921-10-13",d:"rusya"},{f:"1921-10-13",t:"1923-10-29",d:"rusya"}],
-  d:[{f:"1578-08-09",t:"1829-09-14"}], v:[] },
 
 { ad:"Hulo (Acara)", tur:"kasaba", lat:41.645, lon:42.310, g:0, k:3, m:"Erzurum",
   s:[{f:"1281-01-01",t:"1578-08-09",d:"gurcistan"},{f:"1878-03-03",t:"1923-10-29",d:"rusya"}],
@@ -91,13 +87,6 @@ window.YERLESIMLER_EK26 = [
   s:[{f:"1281-01-01",t:"1514-09-06",d:"akkoyunlu"},{f:"1514-09-06",t:"1639-05-17",d:"iran"}],
   d:[{f:"1639-05-17",t:"1923-10-29"}], v:[] },
 
-// İran yakası
-{ ad:"Maku", tur:"kale", lat:39.295, lon:44.515, g:0, k:3, m:"Van",
-  s:[{f:"1281-01-01",t:"1514-09-06",d:"akkoyunlu"},{f:"1514-09-06",t:"1923-10-29",d:"iran"}],
-  d:[], v:[] },
 
-{ ad:"Selmas (Salmas)", tur:"sehir", lat:38.199, lon:44.765, g:0, k:3, m:"Van",
-  s:[{f:"1281-01-01",t:"1514-09-06",d:"akkoyunlu"},{f:"1514-09-06",t:"1923-10-29",d:"iran"}],
-  d:[], v:[] },
 
 ];
