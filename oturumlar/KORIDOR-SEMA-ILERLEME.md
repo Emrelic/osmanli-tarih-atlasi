@@ -1,3 +1,4 @@
+<!-- DURUM: BOSTA | 2026-08-14 08:10 | IS 1-4 BITTI · IS A koordinatorde · IS B ve IS C BITTI (M-0039) · gorev bekliyorum -->
 # KORİDOR ŞEMA — ilerleme
 
 ---
@@ -454,6 +455,115 @@ boyamaz. ⇒ Ağı sıklaştırmak, 4. sınıf yerleri 3. sınıf yapmaz.
 🔴 **Ama bir istisna var ve söylemem gerek:** `boyar:true` olan her yeni
 durak **petek üretir**, yani bölge atfeder. Üç kopuk parçaya yazılacak 26
 nokta bu sınırın **içindedir** ve tek tek tartılmalıdır.
+
+---
+
+---
+
+## ⑦ İŞ B — 1782 BOŞ `m:` KAYDININ AYRIMI *(14 Ağu, M-0023)*
+
+**İstenen iki sayı:**
+```
+DOLDURULABİLİR      50
+YAPISAL BOŞ       1732
+```
+| kova | sayı | örnek |
+|---|---|---|
+| YAPISAL-4 **HİÇ Osmanlı olmamış** | **1447** | Brindisi · Soçi · Kuban |
+| YAPISAL-2 kasıtlı boşluk (çöl/dolgu) | 183 | Rub'ul Hâlî · Nûbe çölü |
+| YAPISAL-1 kendisi MERKEZ | 59 | Bursa · Ankara · İzmir |
+| YAPISAL-3 `tur=bolge` (ALAN, nokta değil) | 43 | Nefud çölü · Necid içi |
+| **DOLDURULABİLİR** | **50** | Otranto · Tebriz · Tiflis |
+
+**ÖLÇÜTÜN SINAVI** (`C13`, iki yön): dolu 721 kaydın **715'i (%99,2)**
+Osmanlı olmuş ⇒ ölçüt **tuttu**. ⚠️ Kalan **6 kayıt** `m:` dolu ama hiç
+Osmanlı olmamış — kusur mu istisna mı **ÖLÇMEDİM**, koordinatöre bildirdim.
+
+### 🔴 HÜKÜM — ve koordinatörün çerçevesini değiştiriyor
+*"`m:` %28,8 dolu"* bir **eksiklik** gibi okunuyor. Değil: **boşun %97'si
+yapısaldır.** Doldurulacak iş 1782 değil **50**.
+Sebep yapısal: `m:` bir **Osmanlı idarî bağıdır**; 1447 nokta hiç Osmanlı
+olmamış, onların Osmanlı merkezi **olamaz**.
+⇒ **Atlas dünyaya açıldıkça bu oran düşmeye devam edecek ve bu DOĞRU
+olacak.** `m:` doluluk yüzdesi bir **kapsam ölçüsü değildir.**
+
+---
+
+## ⑧ İŞ C — `kd:` ÇÖZER Mİ, ERTELER Mİ *(14 Ağu, M-0023)*
+
+### HÜKÜM: **kd: 442'nin 262'sini ÇÖZER, 180'ini ERTELER. Gerekli AMA YETMEZ.**
+```
+ÇÖZER              262  (%59,3)   aynı sahipli başka merkez VAR (<400 km)
+ÇÖZMEZ-UZAK         36  (%8,1)    merkez var ama >400 km
+ÇÖZMEZ-MERKEZSİZ   144  (%32,6)   o sahibin veride HİÇ merkezi YOK
+```
+
+🔴 **Önce kendi hatam:** ilk ölçümüm **%61,1** dedi ve **yanlıştı** —
+aracım **kendine-döngüyü** çözüm sayıyordu (`Kars@1300 → Kars`, 0 km).
+Elendi, **%59,3**. Kendi aletimin kusuru, düzeltip bildirdim.
+
+### 🔴 ASIL BULGU TARİH KIRILIMINDA — bu bir MODEL kusuru değil, DÖNEM kusuru
+```
+1300  148 (%33,5)      1600   28 (%6,3)
+1400  143 (%32,4)      1700   26 (%5,9)
+1500   73 (%16,5)      1800   24 (%5,4)
+```
+**%82,4'ü 1300-1500 arasında.** 1600'den sonra %6'ya düşüyor.
+⇒ Osmanlı **tek ve bütün** bir idare olduğunda `m:` **çalışıyor.** Harita
+**beylikler mozaiği** olduğunda tek-ebeveynli model **kırılıyor.**
+
+### MERKEZSİZ 144'ün sebebi — ölçüldü
+O devletin veride **hiç merkezi yok**:
+```
+iran 18 · akkoyunlu 16 · OSMANLI 9 · usfuri 8 · karaman 7 ·
+fransa-cumhuriyet 7 · altinorda 6 · avusturya 6 · ceneviz 6
+```
+🔴 **En keskin vaka OSMANLI'nın kendisi:** 1300'de Söğüt · Bilecik · İnegöl ·
+Köprühisar `m:"Bursa"` diyor, **Bursa o tarihte BİZANS.** Veri **doğru**
+(Bursa 1326'da düştü), **model bunu ifade edemiyor.** Söğüt'ün 1300'deki
+idarî merkezi gerçekten **kendisiydi** — ya da yoktu. Model bir ebeveyn
+**istiyor**, gerçekte ebeveyn **yoktu**.
+⇒ `kd:`ye **zaman** eklemek yeni **merkez** yaratmaz. 144 çelişki için
+`kd:` **çaresizdir.**
+
+### `kd:` YETMEZ — yanında iki şey daha gerekiyor
+```
+① m: NULL'un İKİ CİNSİ ayrılmalı: "veri eksik" ile "yapısal olarak YOK /
+   kendisi merkez". Bugün ikisi de BOŞ görünüyor.
+   📌 `kasitli_bosluk` dersinin m: tarafı — makine `if` ile soramıyor.
+② Küçük devletlerin KENDİ merkezleri kaydedilmeli:
+   karaman → Karaman · alaiye → Alanya · akkoyunlu → Diyarbakır/Tebriz.
+   Veride 66 merkez var, beyliklerin HİÇBİRİ yok.
+   Bu yapılmadan kd: 144'ü çözemez.
+```
+⚠️ **400 km eşiği BENİM seçimim**, kaynaktan gelmiyor. Geniş eşikle ÇÖZER
+artar ama uzak idarî bağ **kirliliktir**. Eşiği değiştirmek hükmü
+değiştirir — bunu bilerek yazıyorum.
+
+---
+
+## ⑨ SORU: `kol:"sol"` İKİ SİSTEMİ TAŞIYOR MU *(M-0016)*
+
+**CEVAP: zaten ayrılmış** — bu turda değil, **tasarım anında.** Ölçüldü:
+```
+anadolu/sag 14 · anadolu/orta 14 · anadolu/sol 8 · anadolu/sol-tebriz 1 ·
+anadolu/tali 1 · rumeli/sag 9 · rumeli/orta 7 · rumeli/sol 10
+kol="sol" 18 kenar — kanatları: anadolu + rumeli
+kanat alanı BOŞ olan kenar: 0
+```
+Kimlik `kol` tek başına değil, **`kanat` + `kol` çiftidir.**
+Gerekçe `§⑤c`de ölçülmüştü: TDV `bolu` *"sol kolu"* (Anadolu), TDV `sofya`
+*"ana yol (sağ kol)"* (Rumeli) — ikisi de doğru, çünkü **her kanadın kendi
+üç kolu var.** `sağ/orta/sol` küresel etiket değil, **bir kanada göre yön.**
+
+🔴 **Ama bir çelişki var, KARARI KOORDİNATÖRÜN** (`§7.1 ⑥`):
+```
+TDV `sofya`   Sofya → RUMELİ SAĞ KOL
+Sak–Çetin     Sofya → RUMELİ ORTA KOL; sağ kol Karadeniz kıyısı
+```
+`koridor.js` **Sak–Çetin** tasnifini kullanıyor. `§4` TDV'yi birincil sayar
+⇒ kural TDV'yi seçtirir, ama karar benim değil. Karar gelirse **üç satır**
+değişir.
 
 ---
 
