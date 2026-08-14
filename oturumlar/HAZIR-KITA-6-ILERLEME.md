@@ -1,4 +1,4 @@
-<!-- DURUM: BOSTA | 2026-08-14 07:20 | 0 gorev alindi · tek uretim KANAL OLCUMU (M-0015'te hukme esas alindi) · TUNA HAVZASI 07:18'de baskasina gecti -->
+<!-- DURUM: BOSTA | 2026-08-14 16:02 | 0 gorev · M-0056 ile 2. bolge koridor isine ADAY gosterildim, sartname bekleniyor · M-0046/47/56 teyitli · M-0060: tahtanin ADRES exact-match tuzagi bildirildi -->
 # OPUS HAZIR KITA 6 — ilerleme ve kanal teyidi
 
 **Oturum kimliği:** `local_3ac74a5e-…` (kendi kimliğimi araç bana vermiyor; adım
