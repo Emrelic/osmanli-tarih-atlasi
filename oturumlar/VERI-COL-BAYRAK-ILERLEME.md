@@ -1,4 +1,55 @@
-<!-- DURUM: BITTI ¦ 2026-08-14 07:xx ¦ 39/45 bayraklandi, 6 supheli koordinatore devredildi -->
+<!-- DURUM: BITTI ¦ 2026-08-14 07:45 ¦ 40/45 bayraklandi (Tamanrasset eklendi), 7 nokta DONEM istiyor (rapor asagida) -->
+
+## EK — 14 Ağustos: iki çelişki araştırıldı, sonuç ve düzeltme
+
+Emre'nin talimatıyla iki açık soru araştırıldı: (a) 6 şüpheli noktanın kaderi,
+(b) ARAYÜZ BOŞLUK'un itiraz ettiği Ogaden/Somali çölü/Yeni Gine çelişkisi.
+Kaynak: WebSearch, akademik/standart tarih (bu coğrafyalar TDV kapsamı dışı,
+`CLAUDE.md §4` istisnası geçerli).
+
+### SONUÇ — 3 kova
+
+**① Kabile bayrağı DOĞRULANDI, yazıldı (1 nokta):**
+- **Tamanrasset** — Kel Ahaggar Tuareg konfederasyonu (~1750'den Amenokal
+  liderliğinde), öncesinde gevşek Tuareg boyları. Hiçbir dönemde devlet
+  düzeyinde yapı yok, 1902 Tit Muharebesi'ne kadar sürdü. `bos:"kabile"`
+  yazıldı (data/yerlesimler.js:817).
+
+**② Kabile bayrağı YANLIŞTI, GERİ ALINDI — gerçek devlet tarihi var (2 nokta):**
+- **Ogaden** (lat 7.20, lon 44.00) — İfat Sultanlığı (13.-14. yy başı,
+  sınırları Şewa'ya kadar uzanıyordu) ve ardından **Adal Sultanlığı
+  (1415-1577)**, ikisi de "Ogaden/Somali bölgesi" olarak tanımlanan bu
+  coğrafyayı doğrudan kapsıyordu. `kabile` bayrağım bu ~260 yıllık gerçek
+  devlet dönemini siliyordu — ARAYÜZ BOŞLUK haklıydı. Bayrak GERİ ALINDI
+  (data/yerlesimler.js:1029, artık `d:[] }` — temiz, bayraksız).
+- **Somali çölü** (lat 8.00, lon 46.50) — Ajuran Sultanlığı (13.-17. yy)
+  "Somali'nin büyük kısmını" kapsıyordu ama bu noktanın tam olarak
+  Ajuran'ın nehir-vadisi (Şebelle/Cuba) çekirdeğinde mi yoksa daha
+  çevre bir bölgede mi olduğu benim araştırmamla NETLEŞMEDİ. Riski
+  almadım, bayrak GERİ ALINDI (data/yerlesimler.js:1028).
+
+**③ Dönem araştırması TAMAMLANDI, YAZMA YETKİM YOK — devlet/tarih verildi,
+   bir VERİ oturumuna devrediliyor (7 nokta, 6 şüpheli + Ogaden):**
+
+| Nokta | Önerilen dönem(ler) | Kaynak |
+|---|---|---|
+| **Agadez** | `agadez-sultanligi` 1405→1500 (bağımsız) · 1500→1591 (Songhay'a bağlı) · 1591→1906 (yeniden bağımsız) · 1906→1920 (Fransız himayesi) | [Sultanate of Agadez — Wikipedia](https://en.wikipedia.org/wiki/Sultanate_of_Agadez), [Britannica](https://www.britannica.com/place/Agadez) |
+| **Timbuktu** | `mali` (1300'lerin başı) → Tuareg (~1433-1468) → `songhay` (1468-1591) → Fas/Arma Paşalığı (1591, fiilen bağımsız 1612'den itibaren) → 18-19.yy (Fulani/Tuareg/Toucouleur — İKİNCİ TUR araştırma ister) → Fransa (1893) | [Pashalik of Timbuktu](https://en.wikipedia.org/wiki/Pashalik_of_Timbuktu), [Moroccan invasion of Songhai](https://en.wikipedia.org/wiki/Moroccan_invasion_of_the_Songhai_Empire) |
+| **Darfur** | `darfur` (Keira/Süleyman Solong) 1603→1874 · Türk-Mısır/Kavalalı idaresi 1874→1898 · `darfur` yeniden (Ali Dinar) 1898→1916 · sonrası İngiliz Sudanı. **NOT: `darfur` künyesi zaten `data/devletler.js`'de var** (VERİ DEVLET partisinden), yalnız BU NOKTAya dönem hiç yazılmamış. | [Sultanate of Darfur — Wikipedia](https://en.wikipedia.org/wiki/Sultanate_of_Darfur), [Keira dynasty](https://en.wikipedia.org/wiki/Keira_dynasty) |
+| **Hadramut** | Kathiri Sultanlığı 1395→~1858 (bölgenin çoğunda) · Kesîrî-Kuaytî çekişmesi ~1858→1918 (İKİ sultanlık aynı anda, coğrafi paylaşım ister — Kesîrî Seyyûn/iç vadi, Kuaytî Mukalla/kıyı) · 1918 sonrası İngiliz himayesinde ikisi de sürüyor | [Kathiri sultanate — Britannica](https://www.britannica.com/place/Kathiri-sultanate), [Qu'aiti — Wikipedia](https://en.wikipedia.org/wiki/Qu'aiti) |
+| **Ogaden** | `ifat` (13.-14.yy başı) → `adal` 1415→1577 → 1577-~1890 KASITLI BOŞLUK (klan yapısı, gerçek — kaynak susuyor) → Habeşistan/İtalya/İngiltere çekişmesi 1890'lardan sonra (AYRI araştırma ister) | [Ogaden — Wikipedia disambig üzerinden Adal Sultanate](https://en.wikipedia.org/wiki/Ogaden_(disambiguation)) |
+| **Ndjamena** | Kanem-Bornu (Sayfawa hanedanı) ve/veya Bagirmi Sultanlığı etki alanı — TAM SINIR benim araştırmamla NETLEŞMEDİ, bu nokta Chari-Logone kavşağında, iki devletin sınır bölgesinde olabilir. İKİNCİ TUR araştırma ister. | [Kanem-Bornu — Britannica](https://www.britannica.com/place/Kanem-Bornu) |
+| **Timbuktu 18-19.yy** | (yukarıdaki satırın devamı) 1826 Fulani Massina İmparatorluğu, sonra Tuareg/Fulani çekişmesi, 1863 Tûkûlör (El Hac Ömer) — İKİNCİ TUR ister | — |
+
+⚠️ **Darfur, Ndjamena ve Timbuktu'nun 18-19.yy kısmı "ikinci tur araştırma
+ister" diye işaretli** — tek oturumda TAM dönem zinciri kurulamadı, kaba
+taslak var ama gün hassasiyeti ve kesin geçiş tarihleri eksik.
+
+### Bu 7 nokta HÂLÂ BAYRAKSIZ (doğru davranış)
+`kasitli_bosluk` yazılmadı, çünkü bunlar "hiç sahibi olmadı" değil "sahibi
+var ama veri eksik" durumundadır — bayrak yanlış olurdu. Yazma yetkim
+şartname gereği yok (`dönem yazmak YASAK`). **Bir VERİ oturumuna
+(muhtemelen VERİ DEVLET) devrediliyor.**
 
 # VERİ ÇÖL BAYRAK — İlerleme Notu
 
