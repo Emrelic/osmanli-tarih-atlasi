@@ -173,8 +173,8 @@ bağlı olduğu merkez farklı devletlerin elinde."* Sebebi de yazılı:
 |---|---|---|---|
 | ① | topografya | kıyı/nehir/göl **var** · yükseklik-kanyon-plato-orman-bataklık **yok** · çöl-bozkır **ölçülmedi** | — |
 | ② | 1281 yerleşimleri | kademe **%36.6** (1588 nokta kademesiz; bunun 224'si `tur:bolge`/`kasitli_bosluk`, **gerçek borç 1364**) · türetme kuyusu **KURU** (`py arac/kademe.py`) | ① |
-| ③ | bölge paylaşımı | cost-distance **prototip yok** | ① + ② |
-| ④ | bölgenin zaman ayağı | `kd:` **%0** (tasarım var, veri yok) | ② + ③ |
+| ③ | bölge paylaşımı | 🟢 **prototip VAR** — `arac/maliyet.py`, Çimpe sınavı GEÇTİ (Voronoi 29 hücre Rumeli'yi Anadolu'dan boyuyor, maliyet-mesafe **0**) · eğim katmanı ①'i bekliyor | ① + ② |
+| ④ | bölgenin zaman ayağı | 🟢 **alan CANLI** — `girdi.kd_oku/kd_gun`, kd: yoksa k:/m:'den türetilir · denetim `Değişmez 3z` · **gerçek `kd:` yazılı kayıt: 0** (borç orada) | ② + ③ |
 
 🔴 **Zincir tek yönlü: ④ ← ③ ← ② ← ①.** Yani en alttaki madde en
 kritiği, ve o **①**. Ama ①'in kalan işi **veri indirmek** — yani token
@@ -247,16 +247,33 @@ bugünkü nokta yoğunluğunun kaldıramayacağı bir hedef olabilir.
 ⇒ **Kademe önerisi (Emre onaylayacak):** önce Osmanlı kuşağı (kolların
 belgeli olduğu yer), sonra halka halka. Ağ, noktaların gerisinden gelir.
 
-## ⚠️ HİÇBİRİ ÖLÇÜLMEDİ — açıkça
+## ~~⚠️ HİÇBİRİ ÖLÇÜLMEDİ~~ → 🟢 ÖLÇÜLDÜ (15 Ağustos 2026)
+
+> Bu başlık *"hiçbiri ölçülmedi"* diyordu. **Ölçüldü** — alet
+> `arac/koridor_olc.py` (üreteç), rapor `denetim/KORIDOR-OLCUM-15AGU.md`.
 
 ```
-· boğum düğümünün VERİ ŞEMASI                          yok
-· kenarın şeması (uç · ağırlık · f/t · kalınlık)        yok
-· 2362 nokta için kaç kenar doğar                       hesaplanmadı
-· menzil/konak verisinin TDV'de sayıyla bulunup         SINANMADI
-  bulunmadığı                                            (ucuz sınav)
-· ağın petek motorunu değiştirip değiştirmeyeceği       karar YOK
-· "tüm dünya" kapsamının maliyeti                        ölçülmedi
+· boğum düğümünün VERİ ŞEMASI       🟢 VAR — 65 düğüm, kaynaklı
+· kenarın şeması                    🟢 VAR — 64 kenar (kanat·kol·f/t·kalınlık)
+· düğümün YERE OTURMASI             🔴 39/65 (%60) — 26'sının lat/lon YOK
+· kenar uzunluğu                    🔴 22/64 ölçülmüş
+· menzil verisi bulunur mu          🟢 BULUNDU — Sak-Çetin, DergiPark 258113
+                                       (65/65 kayıt kaynaklı, `§4` temiz)
+· "tüm dünya" kapsamı               🔴 bugün Anadolu+Rumeli
+· ağın petek motorunu değiştirmesi  karar YOK — hâlâ açık
 ```
+
+🔴 **VE ÖLÇÜM BEKLENMEYEN BİR ŞEY BULDU: koridor ağı bir DENETİM ALETİ.**
+Yere oturmayan 26 düğümün **18'i** yerleşim katmanında **hiç yok** —
+Üsküdar · Silivri · Vize · Tosya · Ilgın · Karapınar · Ulukışla · Kelkit
+· Aşkale · İshaklı · Karahisâr-ı Şarkî · Prevadi · Babadağı · İshakçı ·
+Yagodina · Firecik · Praviște · Lanzaka.
+
+⇒ Menzil listesi **bağımsız bir kaynaktan** geliyor; yerleşim katmanına
+tutulunca deliği kendiliğinden gösteriyor. **Hiçbir denetim betiği bu
+18'i bulamazdı** — hepsi *var olmayan* kayıtlar, ve bir betik olmayan
+kaydı sayamaz. `§2`nin *"noktası olmayan bölge en yakın peteğe emilir"*
+kuralı bunların her biri için işliyor.
+
 🔴 **Bilinmeden kod yazılmayacak.** Bu bölüm bir TASARIM değil, bir
 **tasarım şartnamesidir.**
