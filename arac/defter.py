@@ -329,6 +329,79 @@ def kaydet(a):
     return 0
 
 
+def olcum(yol):
+    """CANLI ölçümü deftere işle — `list_sessions` çıktısı bir JSON dosyada.
+
+    🔴 Defter KAYDEDER, ÖLÇMEZ. Gerçek oturum listesini yalnız koordinatör
+    `mcp__ccd_session_mgmt__list_sessions` ile görebilir (Python MCP'ye
+    erişemez). O yüzden ölçüm DIŞARIDAN gelir ve buraya işlenir.
+    ⇒ `F18`: ÖNCE CANLIYA BAK, SONRA DEFTERE. Ayrışırsa GERÇEK doğrudur.
+
+    Beklenen biçim (list_sessions ne veriyorsa o):
+      [{"sessionId": "...", "title": "...", "isRunning": true,
+        "lastActivityAt": "2026-08-14T21:35:33Z", "cwd": "..."}, ...]
+
+    ⚠️ `title` DEĞİŞİR — bir oturum "OPUS HAZIR KITA 2" iken "VERİ FETRET"
+    olur. Eski ad SİLİNMEZ, `takma_adlar`a düşer; defterin anahtarı
+    kimliktir ve tam bu yüzden öyledir.
+    ⚠️ Ve `isRunning:false` "ÖLDÜ" demek DEĞİLDİR — "şu an tur almıyor"
+    demektir. 7 Ağustos'ta bir oturum bu çıkarımla ölü ilan edildi, oysa
+    çalışıyordu. O yüzden buradan `hal` TÜRETİLMEZ; yalnız `calisiyor`
+    ölçüm alanı yazılır.
+    """
+    try:
+        gelen = json.load(io.open(yol, encoding="utf-8"))
+    except Exception as e:
+        print("🔴 ölçüm dosyası okunamadı: %s" % e)
+        return 2
+    if not isinstance(gelen, list):
+        print("🔴 ölçüm bir LİSTE olmalı (list_sessions çıktısı).")
+        return 2
+    d = _yukle()
+    o = d["oturumlar"]
+    yeni = ad_degisen = kosan = 0
+    z = _simdi()
+    for x in gelen:
+        kimlik = x.get("sessionId") or x.get("id")
+        if not kimlik:
+            continue
+        k = o.get(kimlik)
+        if k is None:
+            k = o[kimlik] = {"kimlik": kimlik, "acilis": z,
+                             "not": "canlı ölçümde bulundu, defterde YOKTU"}
+            yeni += 1
+        ad = x.get("title") or x.get("ad")
+        if ad:
+            if k.get("ad") and _sade(k["ad"]) != _sade(ad):
+                ad_degisen += 1
+                k.setdefault("gecmis", []).append(
+                    {"z": z, "kova": k.get("kova") or "",
+                     "not": "AD DEĞİŞTİ: %s → %s" % (k["ad"], ad)})
+            k["ad"] = ad
+            k["takma_adlar"] = sorted(set(k.get("takma_adlar") or []) | {ad})
+        if x.get("isRunning") is not None:
+            k["calisiyor"] = bool(x["isRunning"])
+            kosan += 1 if x["isRunning"] else 0
+        if x.get("lastActivityAt"):
+            k["son_hareket"] = x["lastActivityAt"]
+        if x.get("cwd"):
+            k["dizin"] = x["cwd"]
+        k["olcum_zamani"] = z
+    d["_olcum"] = {"z": z, "gelen": len(gelen), "kosan": kosan}
+    _kaydet(d)
+    print("✓ ölçüm işlendi · gelen %d · defterde yeni %d · adı değişen %d"
+          % (len(gelen), yeni, ad_degisen))
+    print("  ŞU AN KOŞAN: %d  ← 'koşmuyor' ÖLDÜ demek DEĞİLDİR" % kosan)
+    # ölçümde HİÇ görünmeyenler: kapatılmış olabilirler
+    gorunmeyen = [v.get("ad") or k for k, v in o.items()
+                  if v.get("olcum_zamani") != z and v.get("hal") != "EMEKLI"]
+    if gorunmeyen:
+        print("  ⚠️ canlı listede GÖRÜNMEYEN %d canlı kayıt: %s"
+              % (len(gorunmeyen), ", ".join(a for a in gorunmeyen[:8] if a)))
+        print("     (kapatılmış olabilirler — hüküm SENİN, defter silmez)")
+    return 0
+
+
 def hal(anahtar, yeni, notu=""):
     d = _yukle()
     b = _bul(d, anahtar)
@@ -491,6 +564,11 @@ def main(argv):
         return eksik()
     if k == "cakisma":
         return cakisma()
+    if k == "olcum":
+        if len(argv) < 2:
+            print("kullanim: defter.py olcum <list_sessions ciktisi.json>")
+            return 2
+        return olcum(argv[1])
     if k == "hedef":
         return hedef({"model": al("--model"), "sayi": al("--sayi")})
     if k == "hal":

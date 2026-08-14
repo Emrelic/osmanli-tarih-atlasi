@@ -1,5 +1,5 @@
 {
- "_damga": "2026-08-15 00:25",
+ "_damga": "2026-08-15 00:39",
  "_haller": {
   "ALDIM": {
    "aciklama": "şartname ulaştı, başlıyorum",
@@ -50,9 +50,16 @@
   "emekli",
   "goreve-donmus"
  ],
+ "_olcum": {
+  "gelen": 91,
+  "kosan": 1,
+  "z": "2026-08-15 00:39"
+ },
  "oturumlar": {
   "local_01bec65d-b7a3-4814-a006-0e9a3128ab45": {
    "ad": "ÇAPRAZ AKDENİZ",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Belgeler\\Projeler\\Uibul",
    "gecmis": [
     {
      "kova": "emir-bekleyen",
@@ -66,12 +73,29 @@
    "kimlik": "local_01bec65d-b7a3-4814-a006-0e9a3128ab45",
    "kova": "emir-bekleyen",
    "model": "?",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-06T00:18:16.194Z",
    "takma_adlar": [
     "ÇAPRAZ AKDENİZ"
    ]
   },
+  "local_01ca5b69-2c46-4025-808b-54b5dc4b760e": {
+   "acilis": "2026-08-15 00:39",
+   "ad": "VERİ KİŞİ",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+   "kimlik": "local_01ca5b69-2c46-4025-808b-54b5dc4b760e",
+   "not": "canlı ölçümde bulundu, defterde YOKTU",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-07-31T22:07:38.623Z",
+   "takma_adlar": [
+    "VERİ KİŞİ"
+   ]
+  },
   "local_02327dd1-86ff-4cb1-899a-662c17c0e2ed": {
    "ad": "VERİ FETRET",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "gorevde",
@@ -85,12 +109,16 @@
    "kimlik": "local_02327dd1-86ff-4cb1-899a-662c17c0e2ed",
    "kova": "gorevde",
    "model": "opus",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-14T04:25:13.736Z",
    "takma_adlar": [
     "VERİ FETRET"
    ]
   },
   "local_0497ed51-ee02-4125-8918-e740f8d57d19": {
    "ad": "Sonnet hazır kıta 4",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "hazir-kita",
@@ -104,12 +132,16 @@
    "kimlik": "local_0497ed51-ee02-4125-8918-e740f8d57d19",
    "kova": "hazir-kita",
    "model": "sonnet",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-12T22:12:04.772Z",
    "takma_adlar": [
     "Sonnet hazır kıta 4"
    ]
   },
   "local_049ef433-79b7-4807-8767-eb628c2bb1c4": {
    "ad": "ARAŞTIRMA KÜNYE 5",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "emir-bekleyen",
@@ -123,6 +155,8 @@
    "kimlik": "local_049ef433-79b7-4807-8767-eb628c2bb1c4",
    "kova": "emir-bekleyen",
    "model": "?",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-07T16:01:55.940Z",
    "takma_adlar": [
     "ARAŞTIRMA KÜNYE 5"
    ]
@@ -204,6 +238,8 @@
   },
   "local_0f9c3bd9-eee8-4043-ad6c-53e3f7cf7832": {
    "ad": "MOTOR ENKLAV",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "gorevde",
@@ -222,12 +258,29 @@
    "kimlik": "local_0f9c3bd9-eee8-4043-ad6c-53e3f7cf7832",
    "kova": "emekli",
    "model": "opus",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-11T10:09:04.416Z",
    "takma_adlar": [
     "MOTOR ENKLAV"
    ]
   },
+  "local_0fea5375-313a-4f0c-8db6-61d2f3462ef4": {
+   "acilis": "2026-08-15 00:39",
+   "ad": "CLAUDEMRE",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\ClaudEmre",
+   "kimlik": "local_0fea5375-313a-4f0c-8db6-61d2f3462ef4",
+   "not": "canlı ölçümde bulundu, defterde YOKTU",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-14T14:12:32.670Z",
+   "takma_adlar": [
+    "CLAUDEMRE"
+   ]
+  },
   "local_154da79b-ff1d-4c91-8565-577ec124d5c7": {
    "ad": "MOTOR DENİZAŞIRI",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "hazir-kita",
@@ -256,6 +309,8 @@
    "kimlik": "local_154da79b-ff1d-4c91-8565-577ec124d5c7",
    "kova": "emekli",
    "model": "opus",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-10T17:29:56.486Z",
    "takma_adlar": [
     "MOTOR DENİZAŞIRI"
    ]
@@ -292,6 +347,8 @@
   },
   "local_21706fd2-b30f-4f23-b73c-93da7913a45e": {
    "ad": "Sonnet hazır kıta 8",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "hazir-kita",
@@ -305,12 +362,16 @@
    "kimlik": "local_21706fd2-b30f-4f23-b73c-93da7913a45e",
    "kova": "hazir-kita",
    "model": "sonnet",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-12T22:13:59.707Z",
    "takma_adlar": [
     "Sonnet hazır kıta 8"
    ]
   },
   "local_234fe133-98d8-4739-8aa5-049d05a73b81": {
-   "ad": "Opus oturumu 2",
+   "ad": "TDV TARİH TURU",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "hazir-kita",
@@ -321,6 +382,11 @@
      "kova": "emekli",
      "not": "HAYALET — list_sessions olcumunde YOK (11 Agu). Emre yeniden adlandirdi ya da kapatti; defter bayatlamisti.",
      "z": "2026-08-11 12:12"
+    },
+    {
+     "kova": "emekli",
+     "not": "AD DEĞİŞTİ: Opus oturumu 2 → TDV TARİH TURU",
+     "z": "2026-08-15 00:39"
     }
    ],
    "gorev": "HAYALET — list_sessions olcumunde YOK (11 Agu). Emre yeniden adlandirdi ya da kapatti; defter bayatlamisti.",
@@ -329,8 +395,11 @@
    "kimlik": "local_234fe133-98d8-4739-8aa5-049d05a73b81",
    "kova": "emekli",
    "model": "opus",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-10T14:47:55.409Z",
    "takma_adlar": [
-    "Opus oturumu 2"
+    "Opus oturumu 2",
+    "TDV TARİH TURU"
    ]
   },
   "local_2ad1685f-dd0a-4c8c-8b9d-a89c216d56e6": {
@@ -371,6 +440,8 @@
   },
   "local_2cb2da04-ac09-48de-95e2-21df20edcec8": {
    "ad": "NOKTA HALKA-2 1",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "emir-bekleyen",
@@ -384,12 +455,55 @@
    "kimlik": "local_2cb2da04-ac09-48de-95e2-21df20edcec8",
    "kova": "emir-bekleyen",
    "model": "?",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-08T01:19:25.787Z",
    "takma_adlar": [
     "NOKTA HALKA-2 1"
    ]
   },
+  "local_2ce739b7-8e01-443e-af3f-4a5aaa22ceb2": {
+   "acilis": "2026-08-15 00:39",
+   "ad": "ARAŞTIRMA DOĞU",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+   "kimlik": "local_2ce739b7-8e01-443e-af3f-4a5aaa22ceb2",
+   "not": "canlı ölçümde bulundu, defterde YOKTU",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-07-31T22:59:22.880Z",
+   "takma_adlar": [
+    "ARAŞTIRMA DOĞU"
+   ]
+  },
+  "local_2cecfda0-c48a-4865-88e1-922ff00b5c40": {
+   "acilis": "2026-08-15 00:39",
+   "ad": "KAYNAK",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+   "kimlik": "local_2cecfda0-c48a-4865-88e1-922ff00b5c40",
+   "not": "canlı ölçümde bulundu, defterde YOKTU",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-01T12:53:14.602Z",
+   "takma_adlar": [
+    "KAYNAK"
+   ]
+  },
+  "local_2ed7027d-ea35-4cf4-bb78-b770f37b2b21": {
+   "acilis": "2026-08-15 00:39",
+   "ad": "ÇAPRAZ DOĞU",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+   "kimlik": "local_2ed7027d-ea35-4cf4-bb78-b770f37b2b21",
+   "not": "canlı ölçümde bulundu, defterde YOKTU",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-01T12:34:44.710Z",
+   "takma_adlar": [
+    "ÇAPRAZ DOĞU"
+   ]
+  },
   "local_32635081-fad5-4366-a502-6cc31d416789": {
-   "ad": "Sonnet hazir kita 3 (ESKI KIMLIK)",
+   "ad": "VERİ ÇÖL BAYRAK",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "dosyalar": "-",
    "gecmis": [
     {
@@ -401,6 +515,11 @@
      "kova": "emekli",
      "not": "kova koordinator tarafindan yazildi",
      "z": "2026-08-15 00:30"
+    },
+    {
+     "kova": "emekli",
+     "not": "AD DEĞİŞTİ: Sonnet hazir kita 3 (ESKI KIMLIK) → VERİ ÇÖL BAYRAK",
+     "z": "2026-08-15 00:39"
     }
    ],
    "gorev": "🔴 BU KIMLIK CURUDU — oturum kendi olctu ve duzeltti: gercek kimligi local_cddd7c9e. Bu kayit, aracin YANLIS ATFETTIGI kimliktir.",
@@ -410,16 +529,34 @@
    "kova": "emekli",
    "kova_kaynak": "koordinator atadi (sartnameden; OLCUM DEGIL)",
    "model": "sonnet",
+   "olcum_zamani": "2026-08-15 00:39",
    "sartname": "-  🔴 DOSYA YOK",
    "son_gorulme": "2026-08-15 00:25",
+   "son_hareket": "2026-08-14T04:40:01.902Z",
    "takma_adlar": [
     "Sonnet hazir kita 3",
     "Sonnet hazir kita 3 (ESKI KIMLIK)",
-    "Sonnet hazır kıta 3"
+    "Sonnet hazır kıta 3",
+    "VERİ ÇÖL BAYRAK"
+   ]
+  },
+  "local_3423e073-ba2b-41ee-8797-822cff932f41": {
+   "acilis": "2026-08-15 00:39",
+   "ad": "YAMACI",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+   "kimlik": "local_3423e073-ba2b-41ee-8797-822cff932f41",
+   "not": "canlı ölçümde bulundu, defterde YOKTU",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-01T13:46:36.717Z",
+   "takma_adlar": [
+    "YAMACI"
    ]
   },
   "local_347b8cc8-7ebe-486a-8c85-c14d0cff1570": {
-   "ad": "Sonnet oturumu 2",
+   "ad": "DOCX ARAMA",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "hazir-kita",
@@ -430,6 +567,11 @@
      "kova": "emekli",
      "not": "HAYALET — list_sessions olcumunde YOK (11 Agu). Emre yeniden adlandirdi ya da kapatti; defter bayatlamisti.",
      "z": "2026-08-11 12:12"
+    },
+    {
+     "kova": "emekli",
+     "not": "AD DEĞİŞTİ: Sonnet oturumu 2 → DOCX ARAMA",
+     "z": "2026-08-15 00:39"
     }
    ],
    "gorev": "HAYALET — list_sessions olcumunde YOK (11 Agu). Emre yeniden adlandirdi ya da kapatti; defter bayatlamisti.",
@@ -438,8 +580,37 @@
    "kimlik": "local_347b8cc8-7ebe-486a-8c85-c14d0cff1570",
    "kova": "emekli",
    "model": "sonnet",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-10T10:43:16.224Z",
    "takma_adlar": [
+    "DOCX ARAMA",
     "Sonnet oturumu 2"
+   ]
+  },
+  "local_38a03708-3f3d-4395-a229-218b7a42bf33": {
+   "acilis": "2026-08-15 00:39",
+   "ad": "ARAŞTIRMA ANADOLU",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+   "kimlik": "local_38a03708-3f3d-4395-a229-218b7a42bf33",
+   "not": "canlı ölçümde bulundu, defterde YOKTU",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-07-31T22:37:47.540Z",
+   "takma_adlar": [
+    "ARAŞTIRMA ANADOLU"
+   ]
+  },
+  "local_3d48abc0-f375-43db-a47b-cfda02c5e166": {
+   "acilis": "2026-08-15 00:39",
+   "ad": "ARAŞTIRMA BALKAN",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+   "kimlik": "local_3d48abc0-f375-43db-a47b-cfda02c5e166",
+   "not": "canlı ölçümde bulundu, defterde YOKTU",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-01T12:39:04.726Z",
+   "takma_adlar": [
+    "ARAŞTIRMA BALKAN"
    ]
   },
   "local_3fc67368-5263-46af-b864-e44a9ecf0d2c": {
@@ -473,6 +644,8 @@
   },
   "local_439bbe3b-ec4a-40ec-97b8-439f8d1c0979": {
    "ad": "ARAŞTIRMA KÜNYE 2",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "emir-bekleyen",
@@ -486,12 +659,16 @@
    "kimlik": "local_439bbe3b-ec4a-40ec-97b8-439f8d1c0979",
    "kova": "emir-bekleyen",
    "model": "?",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-07T16:01:21.867Z",
    "takma_adlar": [
     "ARAŞTIRMA KÜNYE 2"
    ]
   },
   "local_43c84dfa-12a4-473d-ad5d-1e34fc450b5e": {
    "ad": "KORİDOR TASARIM",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "gorevde",
@@ -505,12 +682,16 @@
    "kimlik": "local_43c84dfa-12a4-473d-ad5d-1e34fc450b5e",
    "kova": "gorevde",
    "model": "opus",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-14T14:09:58.230Z",
    "takma_adlar": [
     "KORİDOR TASARIM"
    ]
   },
   "local_451781ae-aa9f-41dc-a939-da00a10e5e91": {
    "ad": "VERİ KÜLTÜR",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "emir-bekleyen",
@@ -524,6 +705,8 @@
    "kimlik": "local_451781ae-aa9f-41dc-a939-da00a10e5e91",
    "kova": "emir-bekleyen",
    "model": "?",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-04T00:22:02.036Z",
    "takma_adlar": [
     "VERİ KÜLTÜR"
    ]
@@ -563,6 +746,8 @@
   },
   "local_481c85f5-c099-4e67-bae8-d5932dc23ed4": {
    "ad": "NOKTA AMERİKA",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "",
@@ -581,12 +766,16 @@
    "kova": "emekli",
    "kova_kaynak": "koordinator atadi (sartnameden; OLCUM DEGIL)",
    "model": "sonnet",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-14T04:42:39.056Z",
    "takma_adlar": [
     "NOKTA AMERİKA"
    ]
   },
   "local_497f37ed-17b8-4f53-bb72-3aa8953049c8": {
    "ad": "VERİ KRONOLOJİ 3",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "emir-bekleyen",
@@ -600,12 +789,16 @@
    "kimlik": "local_497f37ed-17b8-4f53-bb72-3aa8953049c8",
    "kova": "emir-bekleyen",
    "model": "?",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-06T21:00:04.569Z",
    "takma_adlar": [
     "VERİ KRONOLOJİ 3"
    ]
   },
   "local_4cc8bf3b-57f0-40ce-b5f6-d0ced348f05c": {
    "ad": "İÇERİK",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "hazir-kita",
@@ -634,12 +827,16 @@
    "kimlik": "local_4cc8bf3b-57f0-40ce-b5f6-d0ced348f05c",
    "kova": "gorevde",
    "model": "opus",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-10T16:34:03.506Z",
    "takma_adlar": [
     "İÇERİK"
    ]
   },
   "local_4f24ce56-0c5c-4992-b37c-ee14af20545f": {
    "ad": "Fable Hazır Kita oturumu",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "hazir-kita",
@@ -658,12 +855,16 @@
    "kimlik": "local_4f24ce56-0c5c-4992-b37c-ee14af20545f",
    "kova": "hazir-kita",
    "model": "fable",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-12T13:40:41.762Z",
    "takma_adlar": [
     "Fable Hazır Kita oturumu"
    ]
   },
   "local_4f77c60c-1c14-49b3-912e-c4f44da14788": {
    "ad": "VERİ DEVLET",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "emir-bekleyen",
@@ -677,12 +878,16 @@
    "kimlik": "local_4f77c60c-1c14-49b3-912e-c4f44da14788",
    "kova": "emir-bekleyen",
    "model": "?",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-09T08:11:04.621Z",
    "takma_adlar": [
     "VERİ DEVLET"
    ]
   },
   "local_4fadb6a7-f8ca-431e-ac07-19ffc97b3cd1": {
    "ad": "ÇAPRAZ İRAN",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "emir-bekleyen",
@@ -696,12 +901,16 @@
    "kimlik": "local_4fadb6a7-f8ca-431e-ac07-19ffc97b3cd1",
    "kova": "emir-bekleyen",
    "model": "?",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-06T02:02:15.118Z",
    "takma_adlar": [
     "ÇAPRAZ İRAN"
    ]
   },
   "local_55f9e251-a9ee-4ee9-809e-80895deb6350": {
    "ad": "MOTOR 2",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "emir-bekleyen",
@@ -715,12 +924,16 @@
    "kimlik": "local_55f9e251-a9ee-4ee9-809e-80895deb6350",
    "kova": "emir-bekleyen",
    "model": "?",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-04T09:55:45.871Z",
    "takma_adlar": [
     "MOTOR 2"
    ]
   },
   "local_57a571aa-4242-49e8-beb3-a11f60bf5eb9": {
    "ad": "VERİ ORTASYA",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "emir-bekleyen",
@@ -734,12 +947,29 @@
    "kimlik": "local_57a571aa-4242-49e8-beb3-a11f60bf5eb9",
    "kova": "emir-bekleyen",
    "model": "?",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-01T14:39:10.282Z",
    "takma_adlar": [
     "VERİ ORTASYA"
    ]
   },
+  "local_57a9e257-f4da-4092-9479-fd811a0d8fef": {
+   "acilis": "2026-08-15 00:39",
+   "ad": "ÖLÇÜM GEOMETRİ",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+   "kimlik": "local_57a9e257-f4da-4092-9479-fd811a0d8fef",
+   "not": "canlı ölçümde bulundu, defterde YOKTU",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-07-31T09:59:25.167Z",
+   "takma_adlar": [
+    "ÖLÇÜM GEOMETRİ"
+   ]
+  },
   "local_597c562e-e7ff-46d9-b338-c758e39cb4d3": {
    "ad": "Opus hazır kıta 5",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "hazir-kita",
@@ -753,12 +983,16 @@
    "kimlik": "local_597c562e-e7ff-46d9-b338-c758e39cb4d3",
    "kova": "hazir-kita",
    "model": "opus",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-12T22:13:45.731Z",
    "takma_adlar": [
     "Opus hazır kıta 5"
    ]
   },
   "local_5a9b96a8-5acc-4931-9db0-b4f3339c5e3b": {
    "ad": "VERİ DEVLET 2",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "gorevde",
@@ -787,12 +1021,16 @@
    "kimlik": "local_5a9b96a8-5acc-4931-9db0-b4f3339c5e3b",
    "kova": "emekli",
    "model": "sonnet",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-10T15:42:46.638Z",
    "takma_adlar": [
     "VERİ DEVLET 2"
    ]
   },
   "local_5c504b28-fdd2-4570-a01e-c9058b5c5599": {
    "ad": "RENK DENİZ",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "hazir-kita",
@@ -816,12 +1054,29 @@
    "kimlik": "local_5c504b28-fdd2-4570-a01e-c9058b5c5599",
    "kova": "emir-bekleyen",
    "model": "sonnet",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-11T22:11:07.076Z",
    "takma_adlar": [
     "RENK DENİZ"
    ]
   },
+  "local_5dab3001-38cf-4246-ab7a-b75180417afa": {
+   "acilis": "2026-08-15 00:39",
+   "ad": "VERİ KRONOLOJİ 2",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+   "kimlik": "local_5dab3001-38cf-4246-ab7a-b75180417afa",
+   "not": "canlı ölçümde bulundu, defterde YOKTU",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-01T06:44:09.101Z",
+   "takma_adlar": [
+    "VERİ KRONOLOJİ 2"
+   ]
+  },
   "local_6006f1c6-07c3-4aa1-be36-509f7c360ca4": {
    "ad": "RENK",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "emir-bekleyen",
@@ -835,12 +1090,29 @@
    "kimlik": "local_6006f1c6-07c3-4aa1-be36-509f7c360ca4",
    "kova": "emir-bekleyen",
    "model": "?",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-03T22:23:53.140Z",
    "takma_adlar": [
     "RENK"
    ]
   },
+  "local_6338b1ce-5337-493a-b3cf-80979f37f208": {
+   "acilis": "2026-08-15 00:39",
+   "ad": "ÇAPRAZ BATI",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+   "kimlik": "local_6338b1ce-5337-493a-b3cf-80979f37f208",
+   "not": "canlı ölçümde bulundu, defterde YOKTU",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-01T13:42:18.576Z",
+   "takma_adlar": [
+    "ÇAPRAZ BATI"
+   ]
+  },
   "local_665dade6-7a2f-4680-b208-51d57c29f382": {
    "ad": "ÇAPRAZ GÜNEY",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "emir-bekleyen",
@@ -854,12 +1126,16 @@
    "kimlik": "local_665dade6-7a2f-4680-b208-51d57c29f382",
    "kova": "emir-bekleyen",
    "model": "?",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-04T09:56:59.291Z",
    "takma_adlar": [
     "ÇAPRAZ GÜNEY"
    ]
   },
   "local_66a33d8c-808f-41f9-ab10-990934efcea4": {
    "ad": "MOTOR",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "emir-bekleyen",
@@ -873,12 +1149,16 @@
    "kimlik": "local_66a33d8c-808f-41f9-ab10-990934efcea4",
    "kova": "emir-bekleyen",
    "model": "?",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-01T15:23:34.374Z",
    "takma_adlar": [
     "MOTOR"
    ]
   },
   "local_6f4a0887-83bf-4edb-b701-478a143605aa": {
-   "ad": "Sonnet Oturumu 5",
+   "ad": "ŞEHİR -KARTI",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "hazir-kita",
@@ -889,6 +1169,11 @@
      "kova": "emekli",
      "not": "HAYALET — list_sessions olcumunde YOK (11 Agu). Emre yeniden adlandirdi ya da kapatti; defter bayatlamisti.",
      "z": "2026-08-11 12:12"
+    },
+    {
+     "kova": "emekli",
+     "not": "AD DEĞİŞTİ: Sonnet Oturumu 5 → ŞEHİR -KARTI",
+     "z": "2026-08-15 00:39"
     }
    ],
    "gorev": "HAYALET — list_sessions olcumunde YOK (11 Agu). Emre yeniden adlandirdi ya da kapatti; defter bayatlamisti.",
@@ -897,12 +1182,17 @@
    "kimlik": "local_6f4a0887-83bf-4edb-b701-478a143605aa",
    "kova": "emekli",
    "model": "sonnet",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-10T10:56:16.583Z",
    "takma_adlar": [
-    "Sonnet Oturumu 5"
+    "Sonnet Oturumu 5",
+    "ŞEHİR -KARTI"
    ]
   },
   "local_7031098e-022b-4dec-8e83-f90670cc6214": {
-   "ad": "Sonnet Hazır Kıta (12 Agu)",
+   "ad": "Sonnet Hazır Kıta",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "hazir-kita",
@@ -913,6 +1203,11 @@
      "kova": "hazir-kita",
      "not": "13 Agu hizalama · ad: Sonnet Hazır Kıta 2 -> Sonnet Hazır Kıta (12 Agu)",
      "z": "2026-08-13 10:13"
+    },
+    {
+     "kova": "hazir-kita",
+     "not": "AD DEĞİŞTİ: Sonnet Hazır Kıta (12 Agu) → Sonnet Hazır Kıta",
+     "z": "2026-08-15 00:39"
     }
    ],
    "gorev": "13 Agu hizalama · ad: Sonnet Hazır Kıta 2 -> Sonnet Hazır Kıta (12 Agu)",
@@ -921,13 +1216,18 @@
    "kimlik": "local_7031098e-022b-4dec-8e83-f90670cc6214",
    "kova": "hazir-kita",
    "model": "sonnet",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-12T13:54:45.950Z",
    "takma_adlar": [
+    "Sonnet Hazır Kıta",
     "Sonnet Hazır Kıta (12 Agu)",
     "VERİ SINIR 2"
    ]
   },
   "local_72db58e6-1b2d-4747-a90f-3554ddff5d25": {
    "ad": "NOKTA HALKA-2 2",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "emir-bekleyen",
@@ -941,12 +1241,16 @@
    "kimlik": "local_72db58e6-1b2d-4747-a90f-3554ddff5d25",
    "kova": "emir-bekleyen",
    "model": "?",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-08T01:37:09.698Z",
    "takma_adlar": [
     "NOKTA HALKA-2 2"
    ]
   },
   "local_73e94512-30bd-47e0-a5cc-bd151819a10d": {
-   "ad": "Sonnet hazir kita oturumu A",
+   "ad": "VERİ UFAK DÜZELTME",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "hazir-kita",
@@ -962,6 +1266,11 @@
      "kova": "emekli",
      "not": "3/3 kalem teslim: Cezayir OLCULDU (6->19 nokta, uygulanamaz teshisi) · 3 yuvarlak tarih (1 bulundu+uygulandi, 1 orta guven BEKLETILDI, 1 bulunamadi) · 5 anlatim maddesi (3 duzenlendi, 2 zaten dogruymus)",
      "z": "2026-08-11 12:34"
+    },
+    {
+     "kova": "emekli",
+     "not": "AD DEĞİŞTİ: Sonnet hazir kita oturumu A → VERİ UFAK DÜZELTME",
+     "z": "2026-08-15 00:39"
     }
    ],
    "gorev": "3/3 kalem teslim: Cezayir OLCULDU (6->19 nokta, uygulanamaz teshisi) · 3 yuvarlak tarih (1 bulundu+uygulandi, 1 orta guven BEKLETILDI, 1 bulunamadi) · 5 anlatim maddesi (3 duzenlendi, 2 zaten dogruymus)",
@@ -970,12 +1279,17 @@
    "kimlik": "local_73e94512-30bd-47e0-a5cc-bd151819a10d",
    "kova": "emekli",
    "model": "sonnet",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-11T09:37:56.888Z",
    "takma_adlar": [
-    "Sonnet hazir kita oturumu A"
+    "Sonnet hazir kita oturumu A",
+    "VERİ UFAK DÜZELTME"
    ]
   },
   "local_781b07b5-ad58-4532-b8d6-ff880fbc8cb1": {
    "ad": "NOKTA HALKA-2 3",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "emir-bekleyen",
@@ -989,12 +1303,16 @@
    "kimlik": "local_781b07b5-ad58-4532-b8d6-ff880fbc8cb1",
    "kova": "emir-bekleyen",
    "model": "?",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-08T01:28:16.975Z",
    "takma_adlar": [
     "NOKTA HALKA-2 3"
    ]
   },
   "local_7a12e8b3-73e5-49a5-b813-8536ae931eb7": {
    "ad": "VERİ KRONOLOJİ",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "emir-bekleyen",
@@ -1008,12 +1326,16 @@
    "kimlik": "local_7a12e8b3-73e5-49a5-b813-8536ae931eb7",
    "kova": "emir-bekleyen",
    "model": "?",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-01T15:19:59.586Z",
    "takma_adlar": [
     "VERİ KRONOLOJİ"
    ]
   },
   "local_8b047a4f-f8ad-4042-bd0b-dfc0bd4f8d86": {
    "ad": "ARAYUZ 2",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "emir-bekleyen",
@@ -1027,12 +1349,16 @@
    "kimlik": "local_8b047a4f-f8ad-4042-bd0b-dfc0bd4f8d86",
    "kova": "emir-bekleyen",
    "model": "?",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-04T00:29:06.595Z",
    "takma_adlar": [
     "ARAYUZ 2"
    ]
   },
   "local_8b8364af-92a8-4b65-b83d-fef16dbac213": {
    "ad": "ARAŞTIRMA KÜNYE 1",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "emir-bekleyen",
@@ -1046,12 +1372,16 @@
    "kimlik": "local_8b8364af-92a8-4b65-b83d-fef16dbac213",
    "kova": "emir-bekleyen",
    "model": "?",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-07T16:01:14.055Z",
    "takma_adlar": [
     "ARAŞTIRMA KÜNYE 1"
    ]
   },
   "local_8c0af209-4879-4ebe-95e2-a9d19fcb2c1b": {
-   "ad": "KRONOLOJI YER",
+   "ad": "KRONOLOJİ YER",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "dosyalar": "data/olaylar*.js yer_id:/yer:",
    "gecmis": [
     {
@@ -1066,15 +1396,20 @@
    "kimlik": "local_8c0af209-4879-4ebe-95e2-a9d19fcb2c1b",
    "kova": "hazir-kita",
    "model": "opus",
+   "olcum_zamani": "2026-08-15 00:39",
    "sartname": "oturumlar/KRONOLOJI-YER.md",
    "son_gorulme": "2026-08-15 00:25",
+   "son_hareket": "2026-08-14T04:52:50.822Z",
    "takma_adlar": [
     "KRONOLOJI YER",
+    "KRONOLOJİ YER",
     "Opus hazır kıta 9"
    ]
   },
   "local_90f42ba7-a8d0-45a1-9f73-5a9575dc5def": {
    "ad": "ARAYUZ-5",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "emir-bekleyen",
@@ -1088,12 +1423,16 @@
    "kimlik": "local_90f42ba7-a8d0-45a1-9f73-5a9575dc5def",
    "kova": "emir-bekleyen",
    "model": "?",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-06T00:57:16.177Z",
    "takma_adlar": [
     "ARAYUZ-5"
    ]
   },
   "local_9184f49d-f570-4772-b998-267d5b1a7d57": {
    "ad": "NOKTA HALKA-1",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "gorevde",
@@ -1112,12 +1451,16 @@
    "kimlik": "local_9184f49d-f570-4772-b998-267d5b1a7d57",
    "kova": "emekli",
    "model": "opus",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-11T10:11:32.829Z",
    "takma_adlar": [
     "NOKTA HALKA-1"
    ]
   },
   "local_91e9c644-5e9f-497f-8c1c-c2c9c6812384": {
    "ad": "DENETÇİ",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "emir-bekleyen",
@@ -1131,12 +1474,16 @@
    "kimlik": "local_91e9c644-5e9f-497f-8c1c-c2c9c6812384",
    "kova": "emir-bekleyen",
    "model": "?",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-01T15:08:20.330Z",
    "takma_adlar": [
     "DENETÇİ"
    ]
   },
   "local_92b08b07-99ee-4864-bd6a-b5e3791623eb": {
-   "ad": "Sonnet Hazır Kıta (12 Agu b)",
+   "ad": "Sonnet Hazır Kıta",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "hazir-kita",
@@ -1147,6 +1494,11 @@
      "kova": "hazir-kita",
      "not": "13 Agu hizalama · ad: Sonnet Hazır Kıta -> Sonnet Hazır Kıta (12 Agu b)",
      "z": "2026-08-13 10:13"
+    },
+    {
+     "kova": "hazir-kita",
+     "not": "AD DEĞİŞTİ: Sonnet Hazır Kıta (12 Agu b) → Sonnet Hazır Kıta",
+     "z": "2026-08-15 00:39"
     }
    ],
    "gorev": "13 Agu hizalama · ad: Sonnet Hazır Kıta -> Sonnet Hazır Kıta (12 Agu b)",
@@ -1155,13 +1507,18 @@
    "kimlik": "local_92b08b07-99ee-4864-bd6a-b5e3791623eb",
    "kova": "hazir-kita",
    "model": "sonnet",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-12T13:54:28.740Z",
    "takma_adlar": [
     "BOŞLUK CİNSİ",
+    "Sonnet Hazır Kıta",
     "Sonnet Hazır Kıta (12 Agu b)"
    ]
   },
   "local_93578728-3ebc-4f1a-b2b1-0c37d2b76ac5": {
-   "ad": "MOTOR MALIYET",
+   "ad": "MOTOR MALİYET",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "dosyalar": "arac/uret_petek.py",
    "gecmis": [
     {
@@ -1182,14 +1539,18 @@
    "kova": "gorevde",
    "kova_kaynak": "koordinator atadi (sartnameden; OLCUM DEGIL)",
    "model": "opus",
+   "olcum_zamani": "2026-08-15 00:39",
    "sartname": "oturumlar/MOTOR-MALIYET.md",
+   "son_hareket": "2026-08-14T04:55:08.660Z",
    "takma_adlar": [
     "MOTOR MALIYET",
     "MOTOR MALİYET"
    ]
   },
   "local_94f40812-bdd1-4031-98db-c1e89b57c38f": {
-   "ad": "KUTU DENETİM\tÇAPRAZ",
+   "ad": "KUTU DENETİM ÇAPRAZ",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "emir-bekleyen",
@@ -1203,12 +1564,30 @@
    "kimlik": "local_94f40812-bdd1-4031-98db-c1e89b57c38f",
    "kova": "emir-bekleyen",
    "model": "?",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-10T10:09:20.855Z",
    "takma_adlar": [
-    "KUTU DENETİM\tÇAPRAZ"
+    "KUTU DENETİM\tÇAPRAZ",
+    "KUTU DENETİM ÇAPRAZ"
+   ]
+  },
+  "local_959dc058-66d7-4329-9c7f-4ff9b037c39f": {
+   "acilis": "2026-08-15 00:39",
+   "ad": "ARAŞTIRMA ARAP AFRİKA",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+   "kimlik": "local_959dc058-66d7-4329-9c7f-4ff9b037c39f",
+   "not": "canlı ölçümde bulundu, defterde YOKTU",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-01T11:22:35.722Z",
+   "takma_adlar": [
+    "ARAŞTIRMA ARAP AFRİKA"
    ]
   },
   "local_981f4322-a220-4cc2-84ea-19e98d3cccf1": {
    "ad": "VERİ KİMLİK 3",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "emir-bekleyen",
@@ -1222,12 +1601,29 @@
    "kimlik": "local_981f4322-a220-4cc2-84ea-19e98d3cccf1",
    "kova": "emir-bekleyen",
    "model": "?",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-03T22:12:25.121Z",
    "takma_adlar": [
     "VERİ KİMLİK 3"
    ]
   },
+  "local_99aee3ff-50db-4cad-ad05-fc9e19c41aa7": {
+   "acilis": "2026-08-15 00:39",
+   "ad": "UI ELEMENT INSPECTOR",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+   "kimlik": "local_99aee3ff-50db-4cad-ad05-fc9e19c41aa7",
+   "not": "canlı ölçümde bulundu, defterde YOKTU",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-07-31T22:24:46.625Z",
+   "takma_adlar": [
+    "UI ELEMENT INSPECTOR"
+   ]
+  },
   "local_9cdff124-0a1f-40db-8a66-8aee5daccdec": {
    "ad": "PROJEKSİYON",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "emir-bekleyen",
@@ -1241,12 +1637,16 @@
    "kimlik": "local_9cdff124-0a1f-40db-8a66-8aee5daccdec",
    "kova": "emir-bekleyen",
    "model": "?",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-09T01:01:31.399Z",
    "takma_adlar": [
     "PROJEKSİYON"
    ]
   },
   "local_9d907ce9-25a6-4bfd-96f5-e944cafb32cf": {
-   "ad": "HAZIR KITA 2 SONNET",
+   "ad": "NOKTA OKYANUSYA",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "dosyalar": "-",
    "gecmis": [
     {
@@ -1258,6 +1658,11 @@
      "kova": "hazir-kita",
      "not": "kova koordinator tarafindan yazildi",
      "z": "2026-08-15 00:30"
+    },
+    {
+     "kova": "hazir-kita",
+     "not": "AD DEĞİŞTİ: HAZIR KITA 2 SONNET → NOKTA OKYANUSYA",
+     "z": "2026-08-15 00:39"
     }
    ],
    "gorev": "BOSTA — hic gorev almadi",
@@ -1267,8 +1672,10 @@
    "kova": "hazir-kita",
    "kova_kaynak": "koordinator atadi (sartnameden; OLCUM DEGIL)",
    "model": "sonnet",
+   "olcum_zamani": "2026-08-15 00:39",
    "sartname": "-  🔴 DOSYA YOK",
    "son_gorulme": "2026-08-15 00:25",
+   "son_hareket": "2026-08-14T04:55:36.320Z",
    "takma_adlar": [
     "HAZIR KITA 2 SONNET",
     "NOKTA OKYANUSYA",
@@ -1277,6 +1684,8 @@
   },
   "local_9e97f57b-f4b5-4e0e-a5c6-b70869aedcda": {
    "ad": "ARAYÜZ AYNI GÜN",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "hazir-kita",
@@ -1300,12 +1709,29 @@
    "kimlik": "local_9e97f57b-f4b5-4e0e-a5c6-b70869aedcda",
    "kova": "gorevde",
    "model": "sonnet",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-10T17:11:37.073Z",
    "takma_adlar": [
     "ARAYÜZ AYNI GÜN"
    ]
   },
+  "local_a6016e23-a53e-464e-be25-7b550a49a741": {
+   "acilis": "2026-08-15 00:39",
+   "ad": "ÖLÇÜM GEOMETRİ",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+   "kimlik": "local_a6016e23-a53e-464e-be25-7b550a49a741",
+   "not": "canlı ölçümde bulundu, defterde YOKTU",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-07-31T23:34:12.953Z",
+   "takma_adlar": [
+    "ÖLÇÜM GEOMETRİ"
+   ]
+  },
   "local_a6c8fdea-6bf4-4c15-ab9d-7d1d6b8572e2": {
    "ad": "Sonnet hazır kıta 7",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "hazir-kita",
@@ -1319,12 +1745,16 @@
    "kimlik": "local_a6c8fdea-6bf4-4c15-ab9d-7d1d6b8572e2",
    "kova": "hazir-kita",
    "model": "sonnet",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-12T22:13:49.255Z",
    "takma_adlar": [
     "Sonnet hazır kıta 7"
    ]
   },
   "local_a6f8263a-6b20-402f-9873-fa068acf6e26": {
-   "ad": "Opus Hazır Kıta (11 Agu b)",
+   "ad": "Opus Hazır Kıta",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "hazir-kita",
@@ -1335,6 +1765,11 @@
      "kova": "hazir-kita",
      "not": "13 Agu hizalama · ad: Opus Hazır Kıta -> Opus Hazır Kıta (11 Agu b)",
      "z": "2026-08-13 10:13"
+    },
+    {
+     "kova": "hazir-kita",
+     "not": "AD DEĞİŞTİ: Opus Hazır Kıta (11 Agu b) → Opus Hazır Kıta",
+     "z": "2026-08-15 00:39"
     }
    ],
    "gorev": "13 Agu hizalama · ad: Opus Hazır Kıta -> Opus Hazır Kıta (11 Agu b)",
@@ -1343,7 +1778,10 @@
    "kimlik": "local_a6f8263a-6b20-402f-9873-fa068acf6e26",
    "kova": "hazir-kita",
    "model": "opus",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-11T09:49:14.603Z",
    "takma_adlar": [
+    "Opus Hazır Kıta",
     "Opus Hazır Kıta (11 Agu b)"
    ]
   },
@@ -1378,6 +1816,8 @@
   },
   "local_acbd6519-55b9-4b86-af8e-42fad7df8051": {
    "ad": "RENK-2",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "emir-bekleyen",
@@ -1391,12 +1831,16 @@
    "kimlik": "local_acbd6519-55b9-4b86-af8e-42fad7df8051",
    "kova": "emir-bekleyen",
    "model": "?",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-09T00:32:49.780Z",
    "takma_adlar": [
     "RENK-2"
    ]
   },
   "local_af23086f-f1b7-4d87-bf76-d25fdde717e0": {
    "ad": "VERİ İÇERİK",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "emir-bekleyen",
@@ -1410,12 +1854,42 @@
    "kimlik": "local_af23086f-f1b7-4d87-bf76-d25fdde717e0",
    "kova": "emir-bekleyen",
    "model": "?",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-06T20:49:33.175Z",
    "takma_adlar": [
     "VERİ İÇERİK"
    ]
   },
+  "local_b07c7663-cf43-4277-bb3e-06c2e853a510": {
+   "acilis": "2026-08-15 00:39",
+   "ad": "VERİ SAVAŞ",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+   "kimlik": "local_b07c7663-cf43-4277-bb3e-06c2e853a510",
+   "not": "canlı ölçümde bulundu, defterde YOKTU",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-01T10:03:11.839Z",
+   "takma_adlar": [
+    "VERİ SAVAŞ"
+   ]
+  },
+  "local_b549b37f-09ad-4cc3-8b1b-45e266543eff": {
+   "acilis": "2026-08-15 00:39",
+   "ad": "ÇAPRAZ KUZEY",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+   "kimlik": "local_b549b37f-09ad-4cc3-8b1b-45e266543eff",
+   "not": "canlı ölçümde bulundu, defterde YOKTU",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-01T12:41:50.093Z",
+   "takma_adlar": [
+    "ÇAPRAZ KUZEY"
+   ]
+  },
   "local_b71ae7a8-fdc8-4d9e-a871-1f9763bf566d": {
    "ad": "ARAŞTIRMA KÜNYE 4",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "emir-bekleyen",
@@ -1429,12 +1903,29 @@
    "kimlik": "local_b71ae7a8-fdc8-4d9e-a871-1f9763bf566d",
    "kova": "emir-bekleyen",
    "model": "?",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-07T16:01:53.930Z",
    "takma_adlar": [
     "ARAŞTIRMA KÜNYE 4"
    ]
   },
+  "local_b7271857-745b-45a9-8912-ab9b50eb1134": {
+   "acilis": "2026-08-15 00:39",
+   "ad": "ARAYÜZ COĞRAFYA",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+   "kimlik": "local_b7271857-745b-45a9-8912-ab9b50eb1134",
+   "not": "canlı ölçümde bulundu, defterde YOKTU",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-07-31T21:41:15.284Z",
+   "takma_adlar": [
+    "ARAYÜZ COĞRAFYA"
+   ]
+  },
   "local_b7b2f972-0287-4756-b5a2-c7dfd35f1992": {
    "ad": "Sonnet hazır kıta 6",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "hazir-kita",
@@ -1448,12 +1939,16 @@
    "kimlik": "local_b7b2f972-0287-4756-b5a2-c7dfd35f1992",
    "kova": "hazir-kita",
    "model": "sonnet",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-12T22:12:16.839Z",
    "takma_adlar": [
     "Sonnet hazır kıta 6"
    ]
   },
   "local_b943aa89-748a-4868-9755-1f77fce68fbf": {
    "ad": "Opus hazır kıta 4",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "hazir-kita",
@@ -1467,12 +1962,16 @@
    "kimlik": "local_b943aa89-748a-4868-9755-1f77fce68fbf",
    "kova": "hazir-kita",
    "model": "opus",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-12T22:13:30.581Z",
    "takma_adlar": [
     "Opus hazır kıta 4"
    ]
   },
   "local_bb8803ee-543c-4805-91b3-cb8f02695bd9": {
    "ad": "VERİ KİMLİK 2",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "emir-bekleyen",
@@ -1486,12 +1985,29 @@
    "kimlik": "local_bb8803ee-543c-4805-91b3-cb8f02695bd9",
    "kova": "emir-bekleyen",
    "model": "?",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-04T09:51:08.448Z",
    "takma_adlar": [
     "VERİ KİMLİK 2"
    ]
   },
+  "local_bcc024ba-e1b6-4b91-9f5c-535902a6c818": {
+   "acilis": "2026-08-15 00:39",
+   "ad": "ARAŞTIRMA ARABİSTAN",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+   "kimlik": "local_bcc024ba-e1b6-4b91-9f5c-535902a6c818",
+   "not": "canlı ölçümde bulundu, defterde YOKTU",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-01T10:10:45.797Z",
+   "takma_adlar": [
+    "ARAŞTIRMA ARABİSTAN"
+   ]
+  },
   "local_be082655-293c-45d4-846f-55019c128da6": {
-   "ad": "ARAYUZ BOSLUK",
+   "ad": "ARAYÜZ BOŞLUK",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "dosyalar": "js/app.js · css/style.css",
    "gecmis": [
     {
@@ -1506,14 +2022,18 @@
    "kimlik": "local_be082655-293c-45d4-846f-55019c128da6",
    "kova": "gorevde",
    "model": "?",
+   "olcum_zamani": "2026-08-15 00:39",
    "sartname": "oturumlar/ARAYUZ-BOSLUK.md",
+   "son_hareket": "2026-08-14T13:50:47.988Z",
    "takma_adlar": [
     "ARAYUZ BOSLUK",
     "ARAYÜZ BOŞLUK"
    ]
   },
   "local_c3fd502b-7e87-4bd3-bab6-977c184e9dfa": {
-   "ad": "Opus Hazır Kıta (11 Agu)",
+   "ad": "Opus Hazır Kıta",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "hazir-kita",
@@ -1524,6 +2044,11 @@
      "kova": "hazir-kita",
      "not": "13 Agu hizalama · ad: Opus Hazır Kıta 2 -> Opus Hazır Kıta (11 Agu)",
      "z": "2026-08-13 10:13"
+    },
+    {
+     "kova": "hazir-kita",
+     "not": "AD DEĞİŞTİ: Opus Hazır Kıta (11 Agu) → Opus Hazır Kıta",
+     "z": "2026-08-15 00:39"
     }
    ],
    "gorev": "13 Agu hizalama · ad: Opus Hazır Kıta 2 -> Opus Hazır Kıta (11 Agu)",
@@ -1532,12 +2057,17 @@
    "kimlik": "local_c3fd502b-7e87-4bd3-bab6-977c184e9dfa",
    "kova": "hazir-kita",
    "model": "opus",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-11T12:55:55.886Z",
    "takma_adlar": [
+    "Opus Hazır Kıta",
     "Opus Hazır Kıta (11 Agu)"
    ]
   },
   "local_c97147bd-2e04-4a81-a378-602b270450a8": {
    "ad": "ÇAPRAZ İBERYA",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "emir-bekleyen",
@@ -1551,12 +2081,16 @@
    "kimlik": "local_c97147bd-2e04-4a81-a378-602b270450a8",
    "kova": "emir-bekleyen",
    "model": "?",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-06T09:32:42.901Z",
    "takma_adlar": [
     "ÇAPRAZ İBERYA"
    ]
   },
   "local_c9c04f69-a722-47e1-b4a1-ef52b5da488e": {
    "ad": "MOTOR TAVAN-YÖN",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "hazir-kita",
@@ -1585,12 +2119,29 @@
    "kimlik": "local_c9c04f69-a722-47e1-b4a1-ef52b5da488e",
    "kova": "emir-bekleyen",
    "model": "opus",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-11T22:20:18.057Z",
    "takma_adlar": [
     "MOTOR TAVAN-YÖN"
    ]
   },
+  "local_caf0f857-ce38-4ebb-aec1-f671770b3e9c": {
+   "acilis": "2026-08-15 00:39",
+   "ad": "TAKİPÇİ",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+   "kimlik": "local_caf0f857-ce38-4ebb-aec1-f671770b3e9c",
+   "not": "canlı ölçümde bulundu, defterde YOKTU",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-07-31T23:36:13.868Z",
+   "takma_adlar": [
+    "TAKİPÇİ"
+   ]
+  },
   "local_cc230a98-cbc8-4702-ae0c-8ff8cb473c9b": {
    "ad": "RENK 3",
+   "calisiyor": true,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "dosyalar": "arac/renkler.py",
    "gecmis": [
     {
@@ -1605,7 +2156,9 @@
    "kimlik": "local_cc230a98-cbc8-4702-ae0c-8ff8cb473c9b",
    "kova": "hazir-kita",
    "model": "opus",
+   "olcum_zamani": "2026-08-15 00:39",
    "sartname": "-  🔴 DOSYA YOK",
+   "son_hareket": "2026-08-14T21:35:33.489Z",
    "takma_adlar": [
     "Opus hazır kıta 6",
     "RENK 3"
@@ -1669,7 +2222,9 @@
    ]
   },
   "local_d14b4b4f-8bf2-48a1-94d1-bb47ae1964fa": {
-   "ad": "Opus hazır kıta 3",
+   "ad": "NOKTA AFRİKA GÜNEY",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "",
@@ -1680,6 +2235,11 @@
      "kova": "emekli",
      "not": "kova koordinator tarafindan yazildi",
      "z": "2026-08-15 00:30"
+    },
+    {
+     "kova": "emekli",
+     "not": "AD DEĞİŞTİ: Opus hazır kıta 3 → NOKTA AFRİKA GÜNEY",
+     "z": "2026-08-15 00:39"
     }
    ],
    "hal": "",
@@ -1688,12 +2248,17 @@
    "kova": "emekli",
    "kova_kaynak": "koordinator atadi (sartnameden; OLCUM DEGIL)",
    "model": "opus",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-14T13:05:05.073Z",
    "takma_adlar": [
+    "NOKTA AFRİKA GÜNEY",
     "Opus hazır kıta 3"
    ]
   },
   "local_d1a989dd-8f51-4a24-8f7e-a5ab27504bb7": {
-   "ad": "Sonnet Oturumu 3",
+   "ad": "PADİŞAH",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "hazir-kita",
@@ -1704,6 +2269,11 @@
      "kova": "emekli",
      "not": "HAYALET — list_sessions olcumunde YOK (11 Agu). Emre yeniden adlandirdi ya da kapatti; defter bayatlamisti.",
      "z": "2026-08-11 12:12"
+    },
+    {
+     "kova": "emekli",
+     "not": "AD DEĞİŞTİ: Sonnet Oturumu 3 → PADİŞAH",
+     "z": "2026-08-15 00:39"
     }
    ],
    "gorev": "HAYALET — list_sessions olcumunde YOK (11 Agu). Emre yeniden adlandirdi ya da kapatti; defter bayatlamisti.",
@@ -1712,12 +2282,17 @@
    "kimlik": "local_d1a989dd-8f51-4a24-8f7e-a5ab27504bb7",
    "kova": "emekli",
    "model": "sonnet",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-10T14:57:52.257Z",
    "takma_adlar": [
+    "PADİŞAH",
     "Sonnet Oturumu 3"
    ]
   },
   "local_d63695fb-b499-490e-a4e4-1956679a143b": {
    "ad": "NOKTA EKLEME OTURUMU",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "emir-bekleyen",
@@ -1731,6 +2306,8 @@
    "kimlik": "local_d63695fb-b499-490e-a4e4-1956679a143b",
    "kova": "emir-bekleyen",
    "model": "?",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-06T04:17:33.029Z",
    "takma_adlar": [
     "NOKTA EKLEME OTURUMU"
    ]
@@ -1764,13 +2341,33 @@
     "Opus hazır kıta 6"
    ]
   },
+  "local_ded0729e-7d63-47fb-8223-d9ea4520155e": {
+   "acilis": "2026-08-15 00:39",
+   "ad": "GUI GELİŞTİRME",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+   "kimlik": "local_ded0729e-7d63-47fb-8223-d9ea4520155e",
+   "not": "canlı ölçümde bulundu, defterde YOKTU",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-01T09:17:11.814Z",
+   "takma_adlar": [
+    "GUI GELİŞTİRME"
+   ]
+  },
   "local_df5e5ae3-111c-4453-b907-21232d5790d5": {
-   "ad": "Opus hazır kıta 10",
+   "ad": "YAPI DENETİM 3",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "hazir-kita",
      "not": "13 Agu canli olcumunde bulundu",
      "z": "2026-08-13 10:13"
+    },
+    {
+     "kova": "hazir-kita",
+     "not": "AD DEĞİŞTİ: Opus hazır kıta 10 → YAPI DENETİM 3",
+     "z": "2026-08-15 00:39"
     }
    ],
    "gorev": "13 Agu canli olcumunde bulundu",
@@ -1779,12 +2376,17 @@
    "kimlik": "local_df5e5ae3-111c-4453-b907-21232d5790d5",
    "kova": "hazir-kita",
    "model": "opus",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-14T13:05:29.110Z",
    "takma_adlar": [
-    "Opus hazır kıta 10"
+    "Opus hazır kıta 10",
+    "YAPI DENETİM 3"
    ]
   },
   "local_e32412eb-9197-4f7a-aeea-56b0c2082094": {
    "ad": "Sonnet hazır kıta 5",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "hazir-kita",
@@ -1798,12 +2400,16 @@
    "kimlik": "local_e32412eb-9197-4f7a-aeea-56b0c2082094",
    "kova": "hazir-kita",
    "model": "sonnet",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-12T22:12:26.586Z",
    "takma_adlar": [
     "Sonnet hazır kıta 5"
    ]
   },
   "local_eed0d36f-80ea-495f-9af7-aa716d3d74a5": {
    "ad": "ARAŞTIRMA KÜNYE 3",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "emir-bekleyen",
@@ -1817,6 +2423,8 @@
    "kimlik": "local_eed0d36f-80ea-495f-9af7-aa716d3d74a5",
    "kova": "emir-bekleyen",
    "model": "?",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-07T14:28:04.098Z",
    "takma_adlar": [
     "ARAŞTIRMA KÜNYE 3"
    ]
@@ -1851,7 +2459,9 @@
    ]
   },
   "local_f56ed517-cad0-435b-8a06-fe0b0b164fee": {
-   "ad": "Opus Oturumu 4",
+   "ad": "VERİ-KİŞİ",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "hazir-kita",
@@ -1862,6 +2472,11 @@
      "kova": "emekli",
      "not": "HAYALET — list_sessions olcumunde YOK (11 Agu). Emre yeniden adlandirdi ya da kapatti; defter bayatlamisti.",
      "z": "2026-08-11 12:12"
+    },
+    {
+     "kova": "emekli",
+     "not": "AD DEĞİŞTİ: Opus Oturumu 4 → VERİ-KİŞİ",
+     "z": "2026-08-15 00:39"
     }
    ],
    "gorev": "HAYALET — list_sessions olcumunde YOK (11 Agu). Emre yeniden adlandirdi ya da kapatti; defter bayatlamisti.",
@@ -1870,12 +2485,17 @@
    "kimlik": "local_f56ed517-cad0-435b-8a06-fe0b0b164fee",
    "kova": "emekli",
    "model": "opus",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-10T14:35:47.833Z",
    "takma_adlar": [
-    "Opus Oturumu 4"
+    "Opus Oturumu 4",
+    "VERİ-KİŞİ"
    ]
   },
   "local_f5edf000-2e66-41f0-bbef-63eeffd63c8b": {
    "ad": "Opus hazır kıta 8",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "hazir-kita",
@@ -1889,12 +2509,16 @@
    "kimlik": "local_f5edf000-2e66-41f0-bbef-63eeffd63c8b",
    "kova": "hazir-kita",
    "model": "opus",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-12T22:15:06.159Z",
    "takma_adlar": [
     "Opus hazır kıta 8"
    ]
   },
   "local_f67ce038-8c4f-4dc6-ada0-e9e8e06f7483": {
    "ad": "MOTOR 3",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "emir-bekleyen",
@@ -1908,12 +2532,16 @@
    "kimlik": "local_f67ce038-8c4f-4dc6-ada0-e9e8e06f7483",
    "kova": "emir-bekleyen",
    "model": "?",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-04T14:58:41.394Z",
    "takma_adlar": [
     "MOTOR 3"
    ]
   },
   "local_f72d7a65-39bd-4554-a558-0d652c80308d": {
    "ad": "VERİ KİMLİK",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "emir-bekleyen",
@@ -1927,12 +2555,16 @@
    "kimlik": "local_f72d7a65-39bd-4554-a558-0d652c80308d",
    "kova": "emir-bekleyen",
    "model": "?",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-02T09:17:17.655Z",
    "takma_adlar": [
     "VERİ KİMLİK"
    ]
   },
   "local_f7b059ff-461c-46be-8ded-8ed7c6a2443d": {
    "ad": "PETEK-NOKTA",
+   "calisiyor": false,
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "gecmis": [
     {
      "kova": "emir-bekleyen",
@@ -1946,6 +2578,8 @@
    "kimlik": "local_f7b059ff-461c-46be-8ded-8ed7c6a2443d",
    "kova": "emir-bekleyen",
    "model": "?",
+   "olcum_zamani": "2026-08-15 00:39",
+   "son_hareket": "2026-08-04T00:52:47.568Z",
    "takma_adlar": [
     "PETEK-NOKTA"
    ]
