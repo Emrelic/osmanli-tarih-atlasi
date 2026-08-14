@@ -1307,7 +1307,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "OPUS HAZIR KITA 2": "2026-08-14 16:06"
+  },
   "yanit_no": "",
   "cins": "EMIR",
   "teyit": {},
