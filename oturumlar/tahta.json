@@ -1624,5 +1624,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0073",
+  "zaman": "2026-08-15 01:13",
+  "kimden": "KRONOLOJI YER",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "local_8c0af209-4879-4ebe-95e2-a9d19fcb2c1b",
+  "mesaj": "KRONOLOJI YER — IS 1 CEKIRDEK BITTI: 327 maddenin 323'u baglandi yer_id dolu 484 -> 807 · bos 735 -> 412 · 14 dosya · 323 satir · CRLF korundu py arac/yorum_temizle.py TEMIZ · py arac/denetle.py temiz, cikis kodu 0 Geri okundu: node ile yeniden ayristirildi, madde sayisi 1219 degismedi, eslesmeyen yer_id yalniz ESKI 8 kayit (Girit x4, Bogazici x2, Darfur x2). Karar dagilimi (327): TAM 294 · YAKIN 29 · ORTA 3 · ZOR 1 TAM asil yerin kaydi var YAKIN asil yerin kaydi YOK, maddenin kendi yer: cipasina baglandi ORTA baglanmadi, nokta onerisine gidiyor ZOR yer belirsiz (bolge adi) HICBIRI OTOMATIK YAZILMADI — 327'sinin de basligi ve yer: alani okundu. Sebebi olculdu: eslestirici \"aday buldu\" diyordu ama okuyunca YANLIS ciktilar. 1692 Granbosa Kalesi'nin fethi -> aday VENEDIK (baslikta \"Girit'in Venedik'te\") 1410 Yanbolu Savasi -> aday EDIRNE (baslikta \"Edirne'ye girdi\") 1567 Ace ittifaki -> aday ISKENDERIYE (yardim filosunun limani) 1482 Zaklise'nin haraca baglanmasi -> aday VENEDIK (birakildigi taraf) 1510 Merv Savasi -> aday HERAT (350 km uzak) 1501 Sah Ismail Tebriz'i aldi -> aday \"Ismail\" -- ISMAIL DIYE BIR YERLESIM VAR Sonuncusu en ogretici: kisi adi yerlesim adiyla cakisiyor. Otomatik yazici Safevi Devleti'nin kurulusunu \"Ismail\" adli yerlesime baglardi ve HICBIR DENETIM OTMEZDI, cunku yer_id gecerli bir kayda isaret ediyor olurdu. KENDI ALETIMIN UC KOR NOKTASI (ucu de okurken cikti, ucu de kaydedildi): 1. parantezli ad: \"Solnok (Szolnok)\" \"Zaklise (Zakynthos)\" \"Merv (Mari)\" \"Yenisehir (Bursa)\" \"Banda Ace\" -- metindeki \"Solnok\" ile eslesmiyordu. BES kararimi duzelttim: ORTA/YAKIN sanilanlar aslinda TAM'di. 2. kisa ad: \"Nis\" 3 harf, esigim 4 harfti, HIC aranmadi. 1690-09-09 Nis'in geri alinisi Belgrad'a baglanacakti. 3. yazim farki: metin \"Diyarbekir\", kayit \"Diyarbakir\". => IS 0'da bildirdigim KOLAY 673 / ORTA 62 bir ALT SINIRDIR; gercek KOLAY daha buyuk. Duzeltilmis sayi olarak degil, olcumun BILINEN SINIRI olarak bildiriyorum. IS 2'nin tohumu hazir: 29 YAKIN + 3 ORTA kaydin isaret ettigi eksik noktalar listelendi (Granbosa, Yanbolu, Bahreyn, Camurlu, Otlukbeli, Mercidabik, Ridaniye, Cildir, Kosmidion, Koyunhisar, Sapienza, Bozok, Konya Ereglisi, Buyukcekmece, Anabolu, Uskudar, Eyup, Pelekanon, Ipsili, Vac, Iskiros...). Granbosa, CLAUDE.md sec.3.5.1'in \"Girit'in uc kalesi kayitsiz\" satirini BAGIMSIZ OLARAK DOGRULADI.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "commit 08a6f86 · oturumlar/KRONOLOJI-YER-ILERLEME.md",
+  "aciliyet": "NORMAL"
  }
 ]
