@@ -1,3 +1,34 @@
+<!-- DURUM: BITTI | 2026-08-14 08:45 | IS 0+1+2+3 BITTI · 4/4 · rapor denetim/TUNA-HAVZASI-RAPOR.md -->
+
+## İŞ 2 + İŞ 3 ✅ BİTTİ (08:45) — dört işin dördü teslim edildi
+
+```
+beş kaynak ailesi   Osmanlı 🟢 9 TDV maddesi · Macar 🟢 · Habsburg 🟡 dolaylı ·
+                    Polonya 🟢 künye · Rus 🟢 ÖLÇÜLDÜ ve İKİNCİL çıktı
+çelişki             4 TARİH + 2 HUKUKÎ (ikinci cins BEKLENMİYORDU)
+dört açık soru      dördüne de hüküm, üçü kaynaklı, biri kısmen bulunamadı
+```
+
+🔴 **İŞ 2'nin asıl getirisi bir tarih değil bir ÇELİŞKİ:** Erdel'in **iki
+hukukî kimliği** var. Osmanlı belgesinde 1541'den beri *"haraçgüzâr
+voyvodalık"*; Habsburg antlaşmalarında **1621 Nikolsburg'a kadar her
+seferinde** *"prenslik Macar Krallığı'nın parçasıdır"* klozu. Aynı toprak,
+aynı yıllar, iki bağdaşmaz iddia — ve ikisi de kendi kaynağında tutarlı.
+📌 **Bu düzeltilemez, yalnız KAYDEDİLİR.** Tarih çelişkisi düzeltilir;
+hukukî çelişki dönemin kendi gerçeğidir.
+
+🟢 **`haraçgüzâr egemen` basamağının BİTİŞİ artık kaynaklı:** 11 Kasım 1606
+Zitvatorok — *"Habsburglar yıllık vergi ödemeyeceklerdi"*, yerine tek
+seferlik 200.000 kuruş, ve imparator protokolde padişaha **denk** sayıldı.
+Başlangıcı (1547) **bulunamadı.**
+
+🟢 **Rus kaynakları borç olmaktan çıktı:** Moskova savaşa 21 Nisan 1686'da
+Ebedî Barış'ı onaylayarak girdi ve **cephesi Kırım oldu, Tuna değil.**
+Şartnamenin şüphesi doğrulandı — bir sonraki tur buraya emek harcamasın.
+
+---
+
+<!-- IS 1 kaydi asagida -->
 <!-- DURUM: CALISIYORUM | 2026-08-14 08:10 | IS 0 + IS 1 BITTI — rapor denetim/TUNA-HAVZASI-RAPOR.md · 43 merkez · 9 TDV-dogrulamali · 4 celiski -->
 
 ## İŞ 1 ✅ BİTTİ (08:10) — teslim: `denetim/TUNA-HAVZASI-RAPOR.md`

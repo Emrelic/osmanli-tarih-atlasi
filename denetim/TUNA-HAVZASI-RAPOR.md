@@ -15,12 +15,26 @@
 ② statü değişimi             veriden çıkarılan 118 dönem sınırı
                              TDV ile DOĞRUDAN doğrulanan 17 gün
                              doğrulanmadı (bu turda ölçülmedi) 101
-③ kaynak çelişkisi           4 gerçek ayrışma bulundu (aşağıda §4)
+③ kaynak çelişkisi           4 TARİH ayrışması (§4) + 2 HUKUKÎ çelişki (§7)
 ④ üç yanlış yeşil            HÜKÜM VERİLDİ — ve kusur üçten büyük çıktı
-⑤ dört açık soru             dördüne de hüküm verildi (§5)
-⑥ beş kaynak ailesi          TDV ✓ · Macar ✓ (TDV içinden) · Habsburg 🟡 dolaylı
-                             Polonya ❌ ulaşılmadı · Rus ❌ ulaşılmadı
+⑤ dört açık soru             dördüne de hüküm verildi (§8), üçü KAYNAKLI
+⑥ beş kaynak ailesi          Osmanlı 🟢 · Macar 🟢 · Habsburg 🟡 dolaylı ·
+                             Polonya 🟢 künye düzeyinde · Rus 🟢 ÖLÇÜLDÜ,
+                             bu havzada İKİNCİL çıktı (§7)
 ```
+
+🔴 **Çelişkinin cinsi de sayıldı** (bitiş ölçütü ③ bunu istiyordu):
+```
+TARİH çelişkisi   4    (Erdel'in sonu 10-12 yıl · Budin 10 gün · Eğri 3 gün ·
+                       Uyvar: çelişki DEĞİL, kuşatma/teslim ayrımı)
+HUKUKÎ çelişki    2    (Erdel'in iki hukukî kimliği · ödemenin ADI:
+                       haraç mı şeref hediyesi mi)
+```
+📌 Ve ikinci cins **beklenmiyordu.** Şartname yalnız *"fetih günü mü antlaşma
+günü mü"* diye bir çelişki bekliyordu; çapraz okuma **statünün kendisinin**
+kaynağa göre değiştiğini gösterdi. Bu, tarih çelişkisinden ağırdır — çünkü
+tarih düzeltilebilir, **hukukî çelişki dönemin kendi gerçeğidir ve
+düzeltilemez, yalnız KAYDEDİLİR.**
 
 🔴 **Bu raporun en önemli cümlesi:** *101 dönem sınırı doğrulanmadı.* Bu bir
 eksiklik değil, **kapsam beyanıdır** — bir sonraki tur nereden devam edeceğini
@@ -340,14 +354,176 @@ başkentinin noktası olmalı.
 
 ---
 
-## ⑦ SONRAKİ TURA — ölçülmeyenler açıkça
+## ⑦ İŞ 2 — BEŞ KAYNAK AİLESİ, ve ÇAPRAZ OKUMANIN GETİRDİĞİ
+
+### Ailelerin durumu — ölçülmüş
+
+| aile | ulaşıldı mı | ne verdi |
+|---|---|---|
+| **OSMANLI (TDV)** | 🟢 9 madde gövdesiyle | fetih günleri · statü adları · haraç miktarları |
+| **MACAR** | 🟢 TDV `macaristan` + akademik | "üçe bölünmüş ülke" · Speyer 1570 · Thököly ile DÖRDE bölünme |
+| **HABSBURG/AVUSTURYA** | 🟡 dolaylı | Zitvatorok · Speyer · Nikolsburg klozu — hepsi ikincil literatürden |
+| **POLONYA** | 🟢 künye düzeyinde | Kołodziejczyk, *Ottoman-Polish Diplomatic Relations (15th-18th c.), An Annotated Edition of ʿAhdnames* (Brill) — alanın standart neşri |
+| **RUS** | 🟢 ÖLÇÜLDÜ ve **İKİNCİL ÇIKTI** | aşağıda |
+
+### 🟢 RUS KAYNAKLARI HAKKINDA HÜKÜM — şartname "ÖLÇ ve öyleyse AÇIKÇA YAZ" diyordu
+
+**Ölçüm:** Moskova, Osmanlı'ya karşı savaşa **21 Nisan 1686'da** Lehistan'la
+"Ebedî Barış"ı onaylayarak girdi ve **cephesi Kırım oldu**, Tuna değil.
+Karlofça'ya (1699) kadar Rus harekâtı Kırım-Azak hattındadır.
+**Çıkarım:** bu havza için Rus kaynakları **ikincildir** — 1521-1686 arasında
+Rusya taraf değil; 1686-1699 arasında taraf ama **başka cephede.**
+⇒ Şartnamenin şüphesi **doğrulandı.** Bir sonraki tur Rus arşivine emek
+harcamasın; harcayacaksa Kırım-Azak eksenine harcasın.
+`kaynak:` Brill, *From the "Eternal Peace" to the Treaty of Carlowitz* ·
+*The Treaty of Carlowitz and Its Impact on Russian-Ottoman Relations*
+
+### 🔴🔴 ÇAPRAZ OKUMANIN ASIL GETİRİSİ — Erdel'in İKİ HUKUKÎ KİMLİĞİ VAR
+
+Şartname *"kaynaklar çeliştiğinde çelişkiyi YAZ, birini SEÇME"* diyordu ve
+en keskin çelişki tam burada çıktı:
 
 ```
-101 dönem sınırı TDV ile doğrulanmadı (Sırbistan · Bosna · sınır kaleleri)
-Polonya kaynakları    ulaşılmadı — Sobieski 1683 ve Erdel-Lehistan ilişkisi
-Rus kaynakları        ulaşılmadı — şartnamenin kendi şüphesi: bu havzada
-                      17. yy sonuna kadar İKİNCİL olabilir. ÖLÇÜLMEDİ.
-Habsburg arşiv lit.   yalnız TDV üzerinden dolaylı
-haraçgüzâr 1547-1606  tarihleri ve miktarı doğrulanamadı
-Uyvar teslim günü     TDV metninden çıkarılamadı
+OSMANLI kaynağı     Erdel 1541'den beri "haraçgüzâr statüsünde VOYVODALIK",
+(TDV erdel)         haracı 10.000 → 40.000 altın, prensini padişah ONAYLAR
+                    ⇒ dârü'l-ahd — Osmanlı düzeninin İÇİNDE
+
+HABSBURG kaynağı    Macar kralları ile Erdel prensleri arasındaki
+(akademik lit.)     antlaşmalar 1621 NIKOLSBURG'a kadar HER SEFERİNDE
+                    "prenslik Macar Krallığı'nın PARÇASIDIR" klozunu taşır
+                    ⇒ Macar Krallığı'nın İÇİNDE
 ```
+⇒ **Aynı toprak, aynı yıllar, iki bağdaşmaz hukukî iddia** — ve ikisi de
+kendi kaynağında tutarlı. Bu bir hata değil, **dönemin kendi çelişkisi.**
+
+📌 **VE BU, HARİTA TASARIMINI DOĞRUDAN İLGİLENDİRİYOR:** Emre'nin renk
+rampası *"Osmanlı'ya yakınlık"* eksenini boyuyor. Erdel bu eksende
+**tek bir yerde durmuyor** — Osmanlı belgesinde tâbi, Habsburg belgesinde
+kendi krallığının parçası. Rampa Osmanlı ekseninde kurulacaksa bu meşrudur,
+ama **raporda kaydı düşülmeli ki gelecekte "yanlış boyanmış" sanılmasın.**
+
+### Çapraz okumanın ikinci getirisi — ÖDEMENİN ADI ÇELİŞKİNİN KENDİSİ
+```
+Osmanlı görüşü    Habsburg HARAÇ ödüyor  ⇒ tâbi
+Habsburg görüşü   "şeref hediyesi"       ⇒ egemen, barışın bedeli
+```
+🟢 **Ve çelişkiyi tarafların kendisi çözdü — 11 Kasım 1606, Zitvatorok:**
+```
+"Habsburglar yıllık vergi ödemeyeceklerdi"
+"İmparator bir defaya mahsus olmak üzere hediye mahiyetinde
+ 200.000 kuruş gönderecekti"
+"çasar ve sultan arasında baba-oğul münasebeti kuruluyordu"
+"bundan sonra Osmanlılar Beç kralı yerine Kayzer/Çasar unvanını
+ kullanacaklardı"                                   TDV zitvatorok-antlasmasi
+```
+⇒ Yıllık ödeme kalktı, **tek seferlik hediyeye** çevrildi, ve imparator
+protokolde padişaha **denk** sayıldı. Yani `haraçgüzâr egemen` basamağı
+**1606-11-11'de sona erdi** — tarihi artık kaynaklı.
+
+---
+
+## ⑧ İŞ 3 — DÖRT SORUNUN KESİN HÜKMÜ (kaynaklarıyla)
+
+### ① Yeşil (`macaristan`) nerede meşru?
+**HÜKÜM: 1570'te biter.** Akademik literatür: János Zsigmond 1570'te kral
+unvanından **vazgeçti** ve *princeps Transylvaniae* unvanını aldı; Speyer
+Antlaşması Erdel Prensliği'nin **resmî doğum yılıdır**, Doğu Macar
+Krallığı'nın ardılı olarak.
+```
+1526-08-29 öncesi    birleşik Macar Krallığı        yeşil MEŞRU
+1526-1570            Doğu Macar Krallığı            yeşil SAVUNULABİLİR
+1570 sonrası         böyle bir krallık YOK          yeşil MEŞRU DEĞİL
+```
+🔴 **Ama üç nokta (Yanıkkale · Eğri · Kanije) 1594-1600'e kadar yeşil.**
+Çare yeşili silmek değil (§1): o topraklar **Kraliyet Macaristanı'ydı** ve
+o da ayrı bir krallıktı. ⇒ `kraliyet-macaristani` kimliği.
+
+### ② Erdel ayrı kimlik olmalı mı?
+**HÜKÜM: EVET, ve en acil olanı budur.** Dört gerekçe, dördü de ölçülü:
+```
+(a) 146 yıl (1541-1687) kimliksiz jenerik tâbi olarak çiziliyor
+(b) künyesi devletler.js'te ZATEN VAR — eksik olan yalnız renk ve veri
+(c) haracı Eflak-Boğdan'dan farklı seyir izliyor (10.000 → 40.000 altın)
+(d) 1570'te ULUSLARARASI ANTLAŞMAYLA tanınmış bir prensliktir,
+    bir idarî kolaylık değil
+```
+
+### ③ Thököly ayrı gösterilmeli mi?
+**HÜKÜM: EVET, ve Erdel'den AYRI BASAMAKTA.**
+```
+Thököly   padişah TAYİN ediyor + IV. Mehmed'den BERAT   16 Eylül 1682
+          40.000 kara kuruş                              TDV tokoli-imre
+Erdel     diyet SEÇİYOR, padişah ONAYLIYOR               TDV erdel
+```
+⇒ İkisi **farklı hukukî ilişkidir**; aynı tonda gösterilirse Emre'nin
+istediği "yakınlık okunabilsin" ilkesi bozulur.
+📌 TDV `macaristan`: ülke 1682-1685 arası **DÖRDE** bölündü. Harita bugün
+**ikiye** bölüyor — eksik olan iki parça Erdel ve Orta Macar'dır.
+⚠️ Terminoloji çelişkisi kaydedilir: TDV bir yerde *"Orta Macar **kralı**"*,
+başka yerde *"**prenslik** (Türkçe'si: Orta Macar)"* diyor. Osmanlı beratı
+krallık veriyor, Macar tarihyazımı prenslik sayıyor. **Seçim yapmadım.**
+
+### ④ `haraçgüzâr` ayrı bir kademe mi?
+**HÜKÜM: KADEME OLARAK EVET — ama adı "haraçgüzâr EGEMEN" olmalı.**
+Gerekçe: TDV `haraçgüzâr` sıfatını **Erdel'e de** takıyor, yani sıfat tek
+başına basamak ayırt etmiyor. Ayıran şey **egemenliktir**: Habsburg ödedi
+ama prensini kimse onaylamıyordu, toprağında Osmanlı kadısı yoktu.
+```
+başlangıç   1547 antlaşması        🟡 TDV'de miktar ve gün BULUNAMADI
+bitiş       1606-11-11 Zitvatorok  🟢 KAYNAKLI (yukarıda)
+```
+⚠️ Başlangıç tarihi **doğrulanmadı** — 1547'de bir antlaşma yapıldığı
+akademik literatürde sabit, ama yıllık ödemenin miktarını ve başlangıç gününü
+**TDV'de bulamadım.** `bulunamadı`.
+
+---
+
+## ⑨ SONRAKİ TURA — ölçülmeyenler açıkça
+
+```
+101 dönem sınırı      TDV ile doğrulanmadı (Sırbistan · Bosna · sınır kaleleri)
+                      🔴 EN BÜYÜK KALAN BORÇ
+Polonya kaynakları    künye düzeyinde ulaşıldı, İÇERİĞİ OKUNMADI
+                      (Kołodziejczyk ahidnâme neşri — Erdel-Lehistan ve
+                       Sobieski 1683 buradan çıkarılabilir)
+Habsburg arşivi       birincil kaynağa GİRİLMEDİ; hepsi ikincil literatür
+haraçgüzâr BAŞLANGICI 1547'nin günü ve yıllık miktar BULUNAMADI
+Uyvar teslim günü     TDV metninden çıkarılamadı — veri 1663-09-24 diyor,
+                      TDV'nin 17 Ağustos'u kuşatma başlangıcı
+Gyulafehérvár         Erdel'in başkenti VERİDE YOK — kimlik yazılmadan önce
+                      nokta gerekiyor (nokta oturumunun işi)
+```
+
+🟢 **Rus kaynakları artık borç DEĞİL — ölçüldü ve kapandı** (§7). Bir sonraki
+tur bu satırı "eksik" diye görmesin: **arandı, tartıldı, bu havzada ikincil
+olduğu kaynaklı olarak yazıldı.**
+
+---
+
+## ⑩ KAYNAK KÜNYESİ
+
+**Osmanlı (TDV İslâm Ansiklopedisi)** — gövdesi okunan maddeler:
+`erdel` · `macaristan` · `budin` · `egri` · `kanije` · `varad` · `uyvar` ·
+`tokoli-imre` · `zitvatorok-antlasmasi`
+🟢 Slug tuzağı (`§4`) her birinde denetlendi: dokuzunun dokuzu da **doğru
+maddeyi** açtı, hiçbiri arama sayfasına düşmedi.
+🔴 `habsburglar` **ÖLÜ** — arama sayfasına düşüyor, tek sonuç
+`zitvatorok-antlasmasi`. Kayda geçiriyorum ki bir sonraki oturum denemesin.
+
+**Akademik (Emre'nin kırmızı çizgisi: akademik-güvenilir-bilimsel):**
+- Brill — Kołodziejczyk, *Ottoman-Polish Diplomatic Relations (15th-18th
+  Century): An Annotated Edition of ʿAhdnames and Other Documents*
+- Brill — *From the "Eternal Peace" to the Treaty of Carlowitz* ·
+  *The Treaty of Carlowitz and Its Impact on Russian-Ottoman Relations*
+- Cambridge, *Central European History* — *Replacing Tsar, King, and Emperor
+  with the Sultan: Ukrainians, Hungarians, and the Ottomans (1660–1680)*
+  ⚠️ künyesi doğrulandı, **tam metni okunamadı** (PDF çözülemedi) — bu
+  makaleden hiçbir hüküm türetilmedi
+- Cambridge, *Austrian History Yearbook* — *The Road to Szigetvár: Ferdinand
+  I's Defense of His Hungarian Border, 1548–1566* · *Habsburg-Ottoman
+  Diplomacy*
+- Brill/De Gruyter — *The Princes of Transylvania in the Thirty Years War*
+
+**Kullanılmayanlar** (`§4` kırmızı çizgi gereği): forum · blog · turizm
+sitesi · içerik çiftliği · yapay zekâ üretimi metin. Vikipedi **hiçbir
+hükümde dayanak olarak kullanılmadı.**
