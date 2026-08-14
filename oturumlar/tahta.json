@@ -327,7 +327,16 @@
   "yanit_no": "M-0007",
   "cins": "EMIR",
   "dayanak": "M-0007 · data/yerlesimler_amerika.js",
-  "aciliyet": "ACIL"
+  "aciliyet": "ACIL",
+  "teyit": {
+   "OPUS HAZIR KITA 2": {
+    "zaman": "2026-08-14 07:48",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
+  "teyit_kimlik": {
+   "OPUS HAZIR KITA 2": "local_d1249b27-9ada-464f-a582-006b3fca14c8"
+  }
  },
  {
   "no": "M-0018",
