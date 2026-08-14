@@ -309,7 +309,16 @@
   "yanit_no": "M-0006",
   "cins": "EMIR",
   "dayanak": "oturumlar/POSTA.md · KORIDOR SEMA bolumu",
-  "aciliyet": "NORMAL"
+  "aciliyet": "NORMAL",
+  "teyit": {
+   "KORIDOR SEMA": {
+    "zaman": "2026-08-14 07:53",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
+  "teyit_kimlik": {
+   "KORIDOR SEMA": "local_454b8342-eab4-4222-8e29-acea08aade74"
+  }
  },
  {
   "no": "M-0017",
