@@ -261,7 +261,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "VERI FETRET": "2026-08-14 07:15"
+   "VERI FETRET": "2026-08-14 07:15",
+   "KRONOLOJI YER": "2026-08-14 07:16"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -311,7 +312,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "VERI FETRET": "2026-08-14 07:15"
+   "VERI FETRET": "2026-08-14 07:15",
+   "KRONOLOJI YER": "2026-08-14 07:16"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -329,7 +331,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "VERI FETRET": "2026-08-14 07:15"
+   "VERI FETRET": "2026-08-14 07:15",
+   "KRONOLOJI YER": "2026-08-14 07:16"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -347,7 +350,8 @@
   "cevap": "BEKLIYOR",
   "vade": "2026-08-14 08:00",
   "okuyan": {
-   "VERI FETRET": "2026-08-14 07:15"
+   "VERI FETRET": "2026-08-14 07:15",
+   "KRONOLOJI YER": "2026-08-14 07:16"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -365,7 +369,8 @@
   "cevap": "BEKLIYOR",
   "vade": "2026-08-14 12:00",
   "okuyan": {
-   "VERI FETRET": "2026-08-14 07:15"
+   "VERI FETRET": "2026-08-14 07:15",
+   "KRONOLOJI YER": "2026-08-14 07:16"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -414,7 +419,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "2026-08-14 10:00",
-  "okuyan": {},
+  "okuyan": {
+   "KRONOLOJI YER": "2026-08-14 07:16"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "dayanak": "denetim/SABAH-14AGU.md",
