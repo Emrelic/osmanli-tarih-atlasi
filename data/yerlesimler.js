@@ -814,7 +814,7 @@ window.YERLESIMLER = [
 { ad:"Addis", tur:"sehir", lat:9.030, lon:38.740, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}] },
 { ad:"Ndjamena", tur:"sehir", lat:12.107, lon:15.045, g:0, k:0, d:[] },
 { ad:"Agadez", tur:"sehir", lat:16.973, lon:7.991, g:0, k:0, d:[] },
-{ ad:"Tamanrasset", tur:"sehir", lat:22.785, lon:5.523, g:0, k:0, d:[] },
+{ ad:"Tamanrasset", tur:"sehir", lat:22.785, lon:5.523, g:0, k:0, d:[], kasitli_bosluk:true, bos:"kabile", neden:"Tamanrasset, Kel Ahaggar Tuareg konfederasyonunun (Amenokal liderliginde, yaklasik 1750den itibaren teskilatli) merkezi/buluşma yeriydi; oncesinde de gevsek Tuareg boylarinin bolgesiydi. Hicbir donemde devlet duzeyinde bir siyasi yapi olusmadi, Fransiz sömürge donemine (1902 Tit Muharebesi) kadar boy/konfederasyon esasli kaldi." },
 { ad:"Timbuktu", tur:"sehir", lat:16.775, lon:-3.009, g:0, k:0, d:[] },
 // ---- BATI AVRUPA ----
 { ad:"Londra", tur:"sehir", lat:51.507, lon:-0.128, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"ingiltere"}] },
@@ -1025,8 +1025,8 @@ window.YERLESIMLER = [
 { ad:"Tahran", tur:"sehir", lat:35.69, lon:51.39, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1335-12-01",d:"ilhanli"},{f:"1335-12-01",t:"1503-01-01",d:"iran"},{f:"1503-01-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20", t:"1796-01-01", d:"zend"},{f:"1796-01-01",t:"1923-10-29",d:"kacar"}] },
 { ad:"Tebbes", tur:"bolge", lat:33.60, lon:56.90, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1335-12-01",d:"ilhanli"},{f:"1335-12-01",t:"1381-04-01",d:"iran"},{f:"1381-04-01",t:"1507-05-24",d:"timurlu"},{f:"1507-05-24",t:"1510-12-02",d:"buhara"},{f:"1510-12-02",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20", t:"1796-01-01", d:"zend"},{f:"1796-01-01",t:"1923-10-29",d:"kacar"}] },
 { ad:"Karakum", tur:"bolge", lat:39.50, lon:58.50, g:0, k:0, d:[], kasitli_bosluk:true, bos:"kabile", neden:"Karakum Çölü, Teke ve Yomut gibi Türkmen aşiret konfederasyonlarının göçer denetimindeydi; Hîve/Buhara hanlıklarının fiilen ulaşamadığı bir iç bölgeydi." },
-{ ad:"Somali çölü", tur:"bolge", lat:8.00, lon:46.50, g:0, k:0, d:[], kasitli_bosluk:true, bos:"kabile", neden:"Somali iç çölü, devlet yapısı yerine klan (Darod, Hawiye vb.) esaslı toplumsal düzenin geçerli olduğu bir bölgeydi; sömürge öncesinde merkezi bir devlet denetimi yoktu." },
-{ ad:"Ogaden", tur:"bolge", lat:7.20, lon:44.00, g:0, k:0, d:[], kasitli_bosluk:true, bos:"kabile", neden:"Ogaden, Somali Ogaden/Darod klanlarının yaşadığı bölgedir; Habeşistan ve Somali arasında tartışmalı olsa da tarih boyunca merkezi devlet denetiminden çok klan yapısı hakimdi." },
+{ ad:"Somali çölü", tur:"bolge", lat:8.00, lon:46.50, g:0, k:0, d:[] },
+{ ad:"Ogaden", tur:"bolge", lat:7.20, lon:44.00, g:0, k:0, d:[] },
 
 // ---- TR-Wikipedia kronoloji karşılaştırmasıyla eklenen yerleşimler (parti 5) ----
 // Macaristan / Erdel cephesi

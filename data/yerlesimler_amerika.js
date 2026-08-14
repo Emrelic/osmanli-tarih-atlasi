@@ -286,10 +286,14 @@ window.YERLESIMLER_AMERIKA = [
 // ---------- Maya Post-Klasik Şehir Devletleri (maya-sehir-devletleri — MEVCUT KİMLİK) ----------
 
 { ad:"Mayapán", tur:"sehir", lat:20.6244, lon:-89.4611, g:1, k:1,
+  bit:"1441-01-01",
   s:[{f:"1281-01-01",t:"1441-01-01",d:"maya-sehir-devletleri"}] },
   // 1441'de Xiu isyanıyla YIKILDI ve TERK EDİLDİ — nokta burada bitiyor.
 // kaynak: standart akademik konsensüs (Marilyn Masson & Carlos Peraza Lope'nin Mayapán kazı yayınları).
 // k gerekçesi: 1441'e kadar bölgesel "lig" başkenti — k:1
+// 🟢 DÜZELTME (14 Ağustos, koordinatör M-0047 hükmü): `kasitli_bosluk`/`bos:` KALDIRILDI,
+// yalnız `bit:` bırakıldı — "burası kasten boş" DEĞİL "şehir artık yok" (§11 ayrımı,
+// aynı çare iki farklı kusura uygulanamaz). Kaynak: data/yerlesimler.js:1877 kalıbı.
 
 { ad:"Chichén Itzá", tur:"sehir", lat:20.6843, lon:-88.5678, g:1, k:3,
   s:[{f:"1281-01-01",t:"1547-01-01",d:"maya-sehir-devletleri"},
@@ -314,26 +318,35 @@ window.YERLESIMLER_AMERIKA = [
 // k gerekçesi: halach winik başkenti, Maní'nin rakibi — k:1
 
 { ad:"Utatlán (Q'umarkaj)", tur:"sehir", lat:15.0333, lon:-91.1567, g:1, k:1,
-  kur:"1400-01-01",
+  kur:"1400-01-01", bit:"1524-03-07",
   s:[{f:"1400-01-01",t:"1524-03-07",d:"maya-sehir-devletleri"}] },
   // Pedro de Alvarado 1524 başında K'iche' krallarını yakıp şehri ATEŞE VERDİ.
 // kaynak: Matthew Restall & Florine Asselbergs, "Invading Guatemala" (Penn State UP, 2007).
 // k gerekçesi: K'iche' krallığının başkenti — k:1
+// 🟢 DÜZELTME (14 Ağustos, koordinatör M-0047 hükmü): `kasitli_bosluk`/`bos:` KALDIRILDI,
+// yalnız `bit:` bırakıldı — "burası kasten boş" DEĞİL "şehir artık yok".
 
 { ad:"Iximché", tur:"sehir", lat:14.7522, lon:-90.9822, g:1, k:1,
-  kur:"1470-01-01",
+  kur:"1470-01-01", bit:"1527-01-01",
   s:[{f:"1470-01-01",t:"1524-07-25",d:"maya-sehir-devletleri"},
      {f:"1524-07-25",t:"1527-01-01",d:"ispanya"}] },
   // 1524-07-25: Alvarado İspanyol Guatemala'sının İLK başkenti yaptı; 1526 isyanı
   // sonrası terk edildi. Antigua Guatemala noktası bu şehrin ÜÇÜNCÜ konumu — 3km ihlali YOK.
 // kaynak: Penn Museum "Expedition Magazine" (Iximché kazı raporları); Restall & Asselbergs (2007).
 // k gerekçesi: Kaqchikel krallığının başkenti, fetihte İspanyol müttefiki — k:1
+// 🟢 DÜZELTME (14 Ağustos, koordinatör M-0047 hükmü): `kasitli_bosluk`/`bos:` KALDIRILDI,
+// yalnız `bit:` bırakıldı — "burası kasten boş" DEĞİL "şehir artık yok".
 
 { ad:"Zaculeu", tur:"sehir", lat:15.3486, lon:-91.4886, g:0, k:2,
+  bit:"1525-01-01",
   s:[{f:"1281-01-01",t:"1525-01-01",d:"maya-sehir-devletleri"}] },
   // Gonzalo de Alvarado 1525'te açlıkla teslim aldı.
 // kaynak: Tulane Univ. "Exhibits" (Zaculeu kazı tarihçesi).
 // k gerekçesi: bölgesel Mam krallığı başkenti, 1450'den beri K'iche'ye tâbi — k:2
+// 🟢 DÜZELTME (14 Ağustos, koordinatör M-0047 hükmü): `kasitli_bosluk`/`bos:` KALDIRILDI,
+// yalnız `bit:` bırakıldı. ⚠️ Kaynak (Tulane) teslimi anlatıyor ama sonrasının kesin
+// akıbetini netleştirmiyor — `bit:` en dürüst seçim (iddia yok, yalnız "site artık
+// izlenmiyor").
 
 { ad:"Nojpetén (Tayasal / Flores)", tur:"sehir", lat:16.9284, lon:-89.8903, g:1, k:1,
   s:[{f:"1281-01-01",t:"1697-03-13",d:"maya-sehir-devletleri"},
@@ -750,29 +763,36 @@ window.YERLESIMLER_AMERIKA = [
 // ============================================================================
 
 { ad:"Cahokia", tur:"sehir", lat:38.6553, lon:-90.0614, g:2, k:2,
+  bit:"1350-01-01",
   s:[{f:"1281-01-01",t:"1350-01-01",d:"cahokia"}] },
 // kaynak: Timothy R. Pauketat, "Cahokia: Ancient America's Great City on the Mississippi" (2009).
 // 1281'de zirvesini (~1100) geçmiş, gerileme sürecindeydi ama hâlâ meskûndu; terk 1350-1400 arası.
-// ⚠️ 1350 SONRASI: site fiilen terk edildi — bkz. dosya başı "bilinen açık sınırlar" ①.
+// 🟢 DÜZELTME (14 Ağustos, koordinatör M-0047 hükmü): `kasitli_bosluk`/`bos:` KALDIRILDI,
+// yalnız `bit:` bırakıldı — "burası kasten boş" DEĞİL "şehir artık yok".
 // k gerekçesi: önceleşkolomb döneminin Kuzey Amerika'daki en büyük şehri — k:2
 
 { ad:"Onondaga (İrokua Konfederasyon Merkezi)", tur:"sehir", lat:43.0326, lon:-76.1794, g:2, k:2,
+  kasitli_bosluk:true, bos:"kabile", neden:"1281-1450 arasi bu bolgede Haudenosaunee Konfederasyonu HENUZ KURULMAMISTI; ayri Irokua koy topluluklari vardi ve kaynaklar bunlarin birbirleriyle catistigini yaziyor - konfederasyon tam bu catismayi dindirmek icin kuruldu. Devlet degil asiret/koy yapisi. kaynak: American Antiquity (Cambridge Core), 42 Kuzey Irokua yerlesmesinden 184 AMS radyokarbon tarihinin Bayes modellemesi; TDV amerika maddesi Irokua kimligini ANMIYOR (olculdu, tanecik boslugu).",
   s:[{f:"1450-01-01",t:"1777-01-01",d:"haudenosaunee"},
      {f:"1777-01-01",t:"1783-09-03",d:"ingiltere"},
      {f:"1783-09-03",t:"1923-10-29",d:"abd"}] },
 { ad:"Mohawk (Kayenlaha'ke)", tur:"koy", lat:42.9506, lon:-74.3287, g:1, k:1,
+  kasitli_bosluk:true, bos:"kabile", neden:"1281-1450 arasi bu bolgede Haudenosaunee Konfederasyonu HENUZ KURULMAMISTI; ayri Irokua koy topluluklari vardi ve kaynaklar bunlarin birbirleriyle catistigini yaziyor - konfederasyon tam bu catismayi dindirmek icin kuruldu. Devlet degil asiret/koy yapisi. kaynak: American Antiquity (Cambridge Core), 42 Kuzey Irokua yerlesmesinden 184 AMS radyokarbon tarihinin Bayes modellemesi; TDV amerika maddesi Irokua kimligini ANMIYOR (olculdu, tanecik boslugu).",
   s:[{f:"1450-01-01",t:"1777-01-01",d:"haudenosaunee"},
      {f:"1777-01-01",t:"1783-09-03",d:"ingiltere"},
      {f:"1783-09-03",t:"1923-10-29",d:"abd"}] },
 { ad:"Seneca (Ganondagan)", tur:"koy", lat:42.9084, lon:-77.4258, g:1, k:1,
+  kasitli_bosluk:true, bos:"kabile", neden:"1281-1450 arasi bu bolgede Haudenosaunee Konfederasyonu HENUZ KURULMAMISTI; ayri Irokua koy topluluklari vardi ve kaynaklar bunlarin birbirleriyle catistigini yaziyor - konfederasyon tam bu catismayi dindirmek icin kuruldu. Devlet degil asiret/koy yapisi. kaynak: American Antiquity (Cambridge Core), 42 Kuzey Irokua yerlesmesinden 184 AMS radyokarbon tarihinin Bayes modellemesi; TDV amerika maddesi Irokua kimligini ANMIYOR (olculdu, tanecik boslugu).",
   s:[{f:"1450-01-01",t:"1777-01-01",d:"haudenosaunee"},
      {f:"1777-01-01",t:"1783-09-03",d:"ingiltere"},
      {f:"1783-09-03",t:"1923-10-29",d:"abd"}] },
 { ad:"Cayuga", tur:"koy", lat:42.7326, lon:-76.7466, g:1, k:1,
+  kasitli_bosluk:true, bos:"kabile", neden:"1281-1450 arasi bu bolgede Haudenosaunee Konfederasyonu HENUZ KURULMAMISTI; ayri Irokua koy topluluklari vardi ve kaynaklar bunlarin birbirleriyle catistigini yaziyor - konfederasyon tam bu catismayi dindirmek icin kuruldu. Devlet degil asiret/koy yapisi. kaynak: American Antiquity (Cambridge Core), 42 Kuzey Irokua yerlesmesinden 184 AMS radyokarbon tarihinin Bayes modellemesi; TDV amerika maddesi Irokua kimligini ANMIYOR (olculdu, tanecik boslugu).",
   s:[{f:"1450-01-01",t:"1777-01-01",d:"haudenosaunee"},
      {f:"1777-01-01",t:"1783-09-03",d:"ingiltere"},
      {f:"1783-09-03",t:"1923-10-29",d:"abd"}] },
 { ad:"Oneida", tur:"koy", lat:43.0906, lon:-75.6349, g:1, k:1,
+  kasitli_bosluk:true, bos:"kabile", neden:"1281-1450 arasi bu bolgede Haudenosaunee Konfederasyonu HENUZ KURULMAMISTI; ayri Irokua koy topluluklari vardi ve kaynaklar bunlarin birbirleriyle catistigini yaziyor - konfederasyon tam bu catismayi dindirmek icin kuruldu. Devlet degil asiret/koy yapisi. kaynak: American Antiquity (Cambridge Core), 42 Kuzey Irokua yerlesmesinden 184 AMS radyokarbon tarihinin Bayes modellemesi; TDV amerika maddesi Irokua kimligini ANMIYOR (olculdu, tanecik boslugu).",
   s:[{f:"1450-01-01",t:"1777-01-01",d:"haudenosaunee"},
      {f:"1777-01-01",t:"1783-09-03",d:"ingiltere"},
      {f:"1783-09-03",t:"1923-10-29",d:"abd"}] },
@@ -792,12 +812,14 @@ window.YERLESIMLER_AMERIKA = [
 // k gerekçesi: Powhatan Konfederasyonu başkenti — k:2
 
 { ad:"Taos Pueblo", tur:"koy", lat:36.4361, lon:-105.5411, g:1, k:1,
+  kasitli_bosluk:true, bos:"devletsiz", neden:"1281-1610 arasi Pueblo koyleri siyaseten OZERKTI: Ispanyol somurgeciliginden once var olan 70ten fazla koyun her biri, dini topluluklarin baskanlarindan olusan bir konseyle yonetiliyordu; ustlerinde merkezi bir devlet YOKTU. Ispanyol yerlesimi 1598te Onate ile basladi. kaynak: NPS (ABD Milli Park Servisi) + Britannica Pueblo peoples; TDV amerika maddesi Pueblo halklarini ANMIYOR (olculdu, tanecik boslugu).",
   s:[{f:"1610-01-01",t:"1680-08-10",d:"yeni-ispanya"},
      {f:"1680-08-10",t:"1692-08-01",d:"pueblo-bagimsizligi"},
      {f:"1692-08-01",t:"1821-09-27",d:"yeni-ispanya"},
      {f:"1821-09-27",t:"1848-02-02",d:"meksika"},
      {f:"1848-02-02",t:"1923-10-29",d:"abd"}] },
 { ad:"Acoma Pueblo (Sky City)", tur:"koy", lat:34.9903, lon:-107.5814, g:1, k:1,
+  kasitli_bosluk:true, bos:"devletsiz", neden:"1281-1610 arasi Pueblo koyleri siyaseten OZERKTI: Ispanyol somurgeciliginden once var olan 70ten fazla koyun her biri, dini topluluklarin baskanlarindan olusan bir konseyle yonetiliyordu; ustlerinde merkezi bir devlet YOKTU. Ispanyol yerlesimi 1598te Onate ile basladi. kaynak: NPS (ABD Milli Park Servisi) + Britannica Pueblo peoples; TDV amerika maddesi Pueblo halklarini ANMIYOR (olculdu, tanecik boslugu).",
   s:[{f:"1610-01-01",t:"1680-08-10",d:"yeni-ispanya"},
      {f:"1680-08-10",t:"1692-08-01",d:"pueblo-bagimsizligi"},
      {f:"1692-08-01",t:"1821-09-27",d:"yeni-ispanya"},
@@ -1078,11 +1100,17 @@ window.YERLESIMLER_AMERIKA = [
 //    bu yüzden id kesinlikle "kuba-cumhuriyeti", "kuba" KULLANILMADI.
 
 { ad:"Caparra", tur:"sehir", lat:18.4265, lon:-66.1088, g:0, k:3, kur:"1508-01-01",
+  bit:"1521-01-01",
   s:[{f:"1508-01-01",t:"1521-01-01",d:"ispanya"}] },
   // 1521'de nüfus bugünkü San Juan adacığına taşındı, Caparra terk edildi.
 // kaynak: EBSCO Research Starters "Puerto Rico Is Discovered by Europeans"; Fernando Picó,
 //         "History of Puerto Rico" (Markus Wiener, 2006).
 // k gerekçesi: Porto Riko'nun ilk İspanyol yerleşimi — k:3
+// 🟢 DÜZELTME (14 Ağustos, koordinatör M-0047 hükmü): `kasitli_bosluk`/`bos:` KALDIRILDI,
+// yalnız `bit:` bırakıldı — "burası kasten boş" DEĞİL "şehir artık yok" (§11 ayrımı).
+// ⚠️ AMA bu, HARİTA
+// yani Caparra'nın petek'i 1521 sonrası hâlâ EN YAKIN KOMŞUYA emilecek — coğrafi
+// olarak muhtemelen doğru (San Juan'a çok yakın, aynı ada) ama ÖLÇÜLMEDİ.
 
 { ad:"San Germán", tur:"sehir", lat:18.0803, lon:-67.0450, g:0, k:2, kur:"1512-01-01",
   s:[{f:"1512-01-01",t:"1898-12-10",d:"ispanya"},
