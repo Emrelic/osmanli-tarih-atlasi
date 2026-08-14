@@ -260,7 +260,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "VERI FETRET": "2026-08-14 07:15"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "dayanak": "M-0004..M-0010 · scratchpad UUID + .claude/projects jsonl",
@@ -308,7 +310,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "VERI FETRET": "2026-08-14 07:15"
+  },
   "yanit_no": "",
   "cins": "EMIR",
   "dayanak": "oturumlar/TUNA-HAVZASI.md",
@@ -324,7 +328,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "VERI FETRET": "2026-08-14 07:15"
+  },
   "yanit_no": "",
   "cins": "EMIR",
   "dayanak": "oturumlar/TUNA-HAVZASI.md",
@@ -340,7 +346,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "2026-08-14 08:00",
-  "okuyan": {},
+  "okuyan": {
+   "VERI FETRET": "2026-08-14 07:15"
+  },
   "yanit_no": "",
   "cins": "EMIR",
   "dayanak": "oturumlar/POSTA.md · oturumlar/TUNA-HAVZASI.md",
@@ -356,7 +364,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "2026-08-14 12:00",
-  "okuyan": {},
+  "okuyan": {
+   "VERI FETRET": "2026-08-14 07:15"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "dayanak": "data/devletler.js:926 · arac/renkler.py BOYALAR",
