@@ -256,7 +256,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "2026-08-14 10:00",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-14 07:33"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "dayanak": "",
@@ -283,7 +285,8 @@
    "OPUS HAZIR KITA 7": "2026-08-14 07:17",
    "Sonnet hazır kıta 2": "2026-08-14 07:18",
    "NOKTA AMERIKA": "2026-08-14 07:18",
-   "Opus hazır kıta 6": "2026-08-14 07:18"
+   "Opus hazır kıta 6": "2026-08-14 07:18",
+   "KOORDINATOR": "2026-08-14 07:33"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -347,7 +350,8 @@
    "OPUS HAZIR KITA 7": "2026-08-14 07:17",
    "Sonnet hazır kıta 2": "2026-08-14 07:18",
    "NOKTA AMERIKA": "2026-08-14 07:18",
-   "Opus hazır kıta 6": "2026-08-14 07:18"
+   "Opus hazır kıta 6": "2026-08-14 07:18",
+   "KOORDINATOR": "2026-08-14 07:33"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -375,7 +379,8 @@
    "OPUS HAZIR KITA 7": "2026-08-14 07:17",
    "Sonnet hazır kıta 2": "2026-08-14 07:18",
    "NOKTA AMERIKA": "2026-08-14 07:18",
-   "Opus hazır kıta 6": "2026-08-14 07:18"
+   "Opus hazır kıta 6": "2026-08-14 07:18",
+   "KOORDINATOR": "2026-08-14 07:33"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -431,7 +436,8 @@
    "OPUS HAZIR KITA 7": "2026-08-14 07:17",
    "Sonnet hazır kıta 2": "2026-08-14 07:18",
    "NOKTA AMERIKA": "2026-08-14 07:18",
-   "Opus hazır kıta 6": "2026-08-14 07:18"
+   "Opus hazır kıta 6": "2026-08-14 07:18",
+   "KOORDINATOR": "2026-08-14 07:33"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -512,7 +518,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-14 07:33"
+  },
   "yanit_no": "M-0024",
   "cins": "RAPOR",
   "dayanak": "oturumlar/KRONOLOJI-YER.md",
@@ -528,7 +536,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-14 07:33"
+  },
   "yanit_no": "M-0024",
   "cins": "RAPOR",
   "dayanak": "",
@@ -544,7 +554,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-14 07:33"
+  },
   "yanit_no": "M-0024",
   "cins": "BILGI",
   "dayanak": "",
@@ -560,7 +572,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-14 07:33"
+  },
   "yanit_no": "M-0024",
   "cins": "RAPOR",
   "dayanak": "",
@@ -576,7 +590,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-14 07:33"
+  },
   "yanit_no": "M-0020",
   "cins": "RAPOR",
   "dayanak": "",
@@ -592,7 +608,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-14 07:33"
+  },
   "yanit_no": "M-0024",
   "cins": "RAPOR",
   "dayanak": "",
@@ -608,7 +626,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-14 07:33"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "dayanak": "",
@@ -624,7 +644,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "2026-08-14 14:00",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-14 07:33"
+  },
   "yanit_no": "M-0024",
   "cins": "RAPOR",
   "dayanak": "",
@@ -640,7 +662,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-14 07:33"
+  },
   "yanit_no": "M-0024",
   "cins": "RAPOR",
   "dayanak": "",
@@ -656,7 +680,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-14 07:33"
+  },
   "yanit_no": "M-0024",
   "cins": "RAPOR",
   "dayanak": "",
@@ -672,7 +698,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-14 07:33"
+  },
   "yanit_no": "M-0024",
   "cins": "RAPOR",
   "dayanak": "",
@@ -688,7 +716,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "2026-08-14 11:00",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-14 07:33"
+  },
   "yanit_no": "M-0017",
   "cins": "BILGI",
   "dayanak": "",
@@ -704,7 +734,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "2026-08-14 12:00",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-14 07:33"
+  },
   "yanit_no": "M-0024",
   "cins": "RAPOR",
   "dayanak": "",
@@ -720,7 +752,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-14 07:33"
+  },
   "yanit_no": "M-0017",
   "cins": "RAPOR",
   "dayanak": "",
@@ -736,7 +770,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-14 07:33"
+  },
   "yanit_no": "M-0023",
   "cins": "RAPOR",
   "dayanak": "",
@@ -752,7 +788,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-14 07:33"
+  },
   "yanit_no": "M-0024",
   "cins": "RAPOR",
   "dayanak": "",
@@ -768,7 +806,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-14 07:33"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "dayanak": "",
@@ -784,7 +824,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-14 07:33"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "dayanak": "oturumlar/KRONOLOJI-YER-ILERLEME.md",
@@ -800,7 +842,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "2026-08-14 12:00",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-14 07:33"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -818,7 +862,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-14 07:33"
+  },
   "yanit_no": "M-0024",
   "cins": "RAPOR",
   "teyit": {},
@@ -836,7 +882,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-14 07:33"
+  },
   "yanit_no": "M-0017",
   "cins": "BILGI",
   "teyit": {},
@@ -855,7 +903,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "Sonnet hazir kita 3": "2026-08-14 07:32"
+   "Sonnet hazir kita 3": "2026-08-14 07:32",
+   "KOORDINATOR": "2026-08-14 07:33"
   },
   "yanit_no": "",
   "cins": "EMIR",
