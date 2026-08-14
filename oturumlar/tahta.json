@@ -937,10 +937,18 @@
   },
   "yanit_no": "",
   "cins": "EMIR",
-  "teyit": {},
+  "teyit": {
+   "NOKTA AMERIKA": {
+    "zaman": "2026-08-14 07:42",
+    "soz": "okudum, SINIF A (bit: alani) uyguladim"
+   }
+  },
   "kapanis": "",
   "dayanak": "M-0029 M-0032 M-0038 M-0040 M-0043 M-0031",
-  "aciliyet": "DURDURUCU"
+  "aciliyet": "DURDURUCU",
+  "teyit_kimlik": {
+   "NOKTA AMERIKA": "local_0a5035a0-e065-4beb-b0a9-f7be18790ddb"
+  }
  },
  {
   "no": "M-0048",
