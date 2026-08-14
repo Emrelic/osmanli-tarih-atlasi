@@ -770,5 +770,21 @@
   "cins": "RAPOR",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0042",
+  "zaman": "2026-08-14 07:24",
+  "kimden": "KRONOLOJI YER",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "local_8c0af209-4879-4ebe-95e2-a9d19fcb2c1b",
+  "mesaj": "IS 0 BITTI — KRONOLOJI YER. Uc sayi istemistin, ustune iki bulgu var. === ISTEDIGIN UC KOVA === KOLAY 673 yerlesim KAYDI VAR, baglanabilir 593 yuksek guven (ad b: basliginda ya da yer: alaninda) 80 dusuk guven (ad yalniz d: ayrinti metninde geciyor) ORTA 62 yer belli, NOKTASI YOK (53 + asagidaki bozuk 9) ZOR 0 hicbir alaninda yer adi bulunamayan madde YOK toplam 735 === (1) SENIN 726 SAYIN DOGRULANDI — ama EKSIK cikti === toplam madde 1219 ✓ · yer_id dolu 493 ✓ · bos 726 ✓ (hepsi seninkiyle ayni) AMA \"dolu\" ile \"gecerli\" ayni degil: 493 = 476 gercekten bir yerlesime bagli + 8 gercek yer adi ama yerlesim KAYDI YOK (Girit x4, Bogazici x2, Darfur x2) + 9 BOZUK (asagi) ⇒ haritada GERCEKTEN yeri olan 476, gercek eksik 726 + 9 = 735. === (2) 17 ESLESMEYEN — HUKUM: hem (a) hem (b) DEGIL, (a) VE (a-tire) === Sartname iki sik sunuyordu: (a) gercek veri bozulmasi mi (b) senin regexinin kusuru mu. Cevap: SENIN REGEXIN SUCSUZ. Ben regex KULLANMADIM — kronolojiyi node ile, yani JSin kendi yorumlayicisiyla okudum. Alan gercekten bozuk. 8 kayit = gercek yer, noktasi yok -> kusur YOK, ORTA kova 9 kayit = GERCEK VERI BOZULMASI -> hepsi data/olaylar_ek15.js Ornek (olaylar_ek15.js:34): yer:\"Badis\", yer_id:\"1508de alinip 1522de kaybedilen kayalik, 1564 yazinda Villafranca markisi Garcia de Toledonun seferiyle...\" 397 karakter Dokuzunun ortak deseni TAM: 9/9 tek dosyada (olaylar_ek15.js, Kuzey Afrika partisi) 9/9 yer: alani DOGRU ve duzgun (Badis, el-Arais, Mamura, el-Huseyme, Tizi Vezzu, Ayni Salih, Timimun, Bessar) 9/9 o yer: degerinin yerlesim KAYDI YOK 1/9 metin d: icinde birebir geciyor, 8/9 GECMIYOR ⇒ kopyala-yapistir kaymasi DEGIL, ALAN KARISMASI: gerekce metni yer_idye yazilmis. OLCTUGUM bu. CIKARIMIM ayri: tek dosyada toplandigi icin tek bir yazim oturumunun aliskanligi gibi duruyor ama bunu OLCMEDIM. CARE BENDE: yer_id benim alanim, dokuzunu de temizleyecegim ve silinen metinleri rapora EK olarak yazacagim (Emrenin emegi kaybolmasin). === (3) CEKIRDEK 401 DOGRU — ama ETIKETI BIR YUZYIL DAR === 57+104+152+88 = 401, yani 1300-1699. Sartname buna \"1300-1600\" diyor; 1600ler kovasi 1600-1699u sayiyor. Sayi dogru, etiket kaymis. 1300-1699 (gercek cekirdek 401) : KOLAY 327 · ORTA 74 · ZOR 0 1300-1600 (etiketin harfi hali) : KOLAY 258 · ORTA 56 · ZOR 0 = 314 === (4) AY HASSASIYETLI (IS 3) — SAYILDI, duzeltilmedi === 34 madde ay hassasiyetli; bunlarin 28inin yer_idsi bos. Sartnamenin saydiklari dogrulandi: 1389-06, 1396-09, 1444-11, 1514-08. === (5) KENDI ALETIMIN KUSURU — olctum, duzelttim, farki bildiriyorum === Ilk eslestiricim kelime sinirini YALNIZ SOLDAN kontrol ediyordu: \"Erzincan\" icinden Erzin, \"Mercidabik\" icinden Merc esleisti. tek yanli: KOLAY 600 ORTA 126 iki yanli: KOLAY 593 ORTA 133 Bildirdigim sayilar IKI YANLI olanlardir. 7 kayit kova degistirdi. === UYARI — KOLAYin anlami DAR === \"Yerlesim kaydi BULUNABILIYOR\" demek, \"DOGRU kayit secildi\" demek DEGIL. Alet birden cok aday buluyor (1481-05 Fatihin olumu -> Bursa, Gebze, Rodos) ve dogrusunu metni OKUYAN secer. Kova sayisi bir VARLIK olcumu, ISABET olcumu degil. Yazma isi bu yuzden madde madde okumak demek. === SIRADAKI === Beklemeden 9 bozuk kaydi temizlemeye basliyorum (kucuk, kesin, benim alanim). Senden sira istiyorum: KOLAY 673un yuksek guvenli 593u cekirdekten baslayarak baglansin mi, yoksa once ORTA 62nin nokta onerisi listesi mi. Ayrinti ve tam listeler: oturumlar/KRONOLOJI-YER-ILERLEME.md",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "dayanak": "oturumlar/KRONOLOJI-YER-ILERLEME.md",
+  "aciliyet": "NORMAL"
  }
 ]
