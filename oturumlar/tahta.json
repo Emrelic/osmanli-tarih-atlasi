@@ -952,13 +952,18 @@
    "NOKTA AMERIKA": {
     "zaman": "2026-08-14 07:42",
     "soz": "okudum, SINIF A (bit: alani) uyguladim"
+   },
+   "OPUS HAZIR KITA 2": {
+    "zaman": "2026-08-14 07:48",
+    "soz": "okudum, gereğini yapıyorum"
    }
   },
   "kapanis": "",
   "dayanak": "M-0029 M-0032 M-0038 M-0040 M-0043 M-0031",
   "aciliyet": "DURDURUCU",
   "teyit_kimlik": {
-   "NOKTA AMERIKA": "local_0a5035a0-e065-4beb-b0a9-f7be18790ddb"
+   "NOKTA AMERIKA": "local_0a5035a0-e065-4beb-b0a9-f7be18790ddb",
+   "OPUS HAZIR KITA 2": "local_d1249b27-9ada-464f-a582-006b3fca14c8"
   }
  },
  {
