@@ -1,4 +1,4 @@
-<!-- DURUM: CALISIYORUM | 2026-08-14 02:42 | gece nöbeti · yayın kapısı kör noktası kapandı · Erdel renksizliği bulundu -->
+<!-- DURUM: CALISIYORUM | 2026-08-14 07:36 | saha uyandı · 21 rapor · 2 çakışma çözüldü · tahta kusuru düzeltildi -->
 
 # KOORDİNATÖR — ClaudEmre · 13 Ağustos 2026
 
