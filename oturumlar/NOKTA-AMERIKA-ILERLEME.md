@@ -1,4 +1,42 @@
+<!-- DURUM: BİTTİ ¦ 2026-08-14 08:xx ¦ 134/134 · rapor bu dosya + tahta M-0020[F] cevabı -->
+<!-- KİMLİK: local_0a5035a0-e065-4beb-b0a9-f7be18790ddb -->
+
 # NOKTA AMERİKA — İlerleme ve teslim raporu
+
+## 🟢 14 Ağustos GÜNCELLEME — "Değişmez 1c" açığı (M-0020[F]) kapatıldı
+
+OPUS HAZIR KITA 2, Değişmez 1c'nin göremediği 13 nokta bildirmişti (koordinatör tahtası
+M-0020, madde F): Cahokia · Mayapán · Iximché · Utatlán · Zaculeu · Caparra + İrokua beşliği
+(Onondaga/Mohawk/Seneca/Cayuga/Oneida) + Taos/Acoma. Ölçtüm:
+
+```
+GERÇEK: 6 nokta hâlâ "kasitli_bosluk"sız terminating idi (Mayapán zaten koordinatör
+        tarafından düzeltilmişti) — Cahokia, Utatlán, Iximché, Zaculeu, Caparra.
+YANLIŞ ALARM: İrokua beşliği ve Taos/Acoma bu listede DEĞİL — onların s: zinciri
+        zaten 1923'e kadar sürüyor (13 Ağustos'ta Pueblo İsyanı boşluğu kapatılmıştı).
+        M-0020 muhtemelen benim düzeltmemden ÖNCEKİ bir taramaya dayanıyordu.
+```
+
+Kalan 5 noktaya (Cahokia hariç, o zaten vardı) `kasitli_bosluk:true, bos:"insansiz",
+neden:"..."` + `bit:` eklendi — Cahokia'da koordinatörün kurduğu desenle TUTARLI.
+Node.js ile doğrulandı: **0 "terminating" nokta kaldı** (`kasitli_bosluk` olmadan
+1923'e ulaşmayan hiçbir nokta yok).
+
+⚠️ **AÇIK KALAN GERÇEK BORÇ (bu düzeltme onu KAPATMIYOR):** `bit:` ve `kasitli_bosluk`
+yalnız DENETİMİ susturuyor — motor (petek üretimi) bu alanları okumuyor, yani bu 6
+noktanın peteği 1521/1524/1525/1350 sonrası hâlâ **en yakın komşuya emilecek**
+(CLAUDE.md §2). Coğrafi olarak çoğu muhtemelen zararsız (yakın komşu aynı bölgede
+aynı devlet) ama ÖLÇÜLMEDİ — entegrasyon koşusundan sonra kontrol edilmeli.
+
+## Kendi kimliğim (13 Ağustos M-0015 yöntemiyle doğrulandı)
+```
+local_0a5035a0-e065-4beb-b0a9-f7be18790ddb
+scratchpad yolu + .claude/projects/<uuid>.jsonl ile çapraz doğrulandı.
+```
+
+---
+
+# NOKTA AMERİKA — İlk teslim raporu (13 Ağustos)
 
 13 Ağustos 2026. Görev: `oturumlar/NOKTA-AMERIKA.md`. Durum: **134 nokta yazıldı, teslim.**
 
