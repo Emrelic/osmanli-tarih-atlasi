@@ -1075,10 +1075,18 @@
   },
   "yanit_no": "M-0031",
   "cins": "BILGI",
-  "teyit": {},
+  "teyit": {
+   "YAPI DENETIM 3": {
+    "zaman": "2026-08-14 16:01",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
-  "aciliyet": "NORMAL"
+  "aciliyet": "NORMAL",
+  "teyit_kimlik": {
+   "YAPI DENETIM 3": "local_3fc67368-5263-46af-b864-e44a9ecf0d2c"
+  }
  },
  {
   "no": "M-0049",
