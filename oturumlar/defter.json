@@ -1,0 +1,208 @@
+{
+ "local_0a5035a0-e065-4beb-b0a9-f7be18790ddb": {
+  "ad": "NOKTA AMERIKA",
+  "dosyalar": "data/yerlesimler_amerika.js",
+  "gorev": "Amerika kitasi 134 nokta + SINIF A bit:",
+  "kimlik": "local_0a5035a0-e065-4beb-b0a9-f7be18790ddb",
+  "model": "?",
+  "sartname": "oturumlar/NOKTA-AMERIKA.md",
+  "son_gorulme": "2026-08-14 23:56",
+  "takma_adlar": [
+   "NOKTA AMERIKA"
+  ]
+ },
+ "local_0d2ae9fb-cd9f-41a0-81d6-acde82ea796d": {
+  "ad": "TUNA HAVZASI",
+  "dosyalar": "denetim/TUNA-HAVZASI-RAPOR.md",
+  "gorev": "Belgrad 1521 - Karlofca 1699, bes kaynak caprazlama",
+  "kimlik": "local_0d2ae9fb-cd9f-41a0-81d6-acde82ea796d",
+  "model": "opus",
+  "sartname": "oturumlar/TUNA-HAVZASI.md",
+  "son_gorulme": "2026-08-14 23:56",
+  "takma_adlar": [
+   "TUNA HAVZASI"
+  ]
+ },
+ "local_2ad1685f-dd0a-4c8c-8b9d-a89c216d56e6": {
+  "ad": "KOORDINATOR",
+  "dosyalar": "arac/* · kok *.md · uretilen data/*.js",
+  "durum": "CALISIYORUM 07:36",
+  "gorev": "koordinasyon · olcum · dagitim",
+  "kimlik": "local_2ad1685f-dd0a-4c8c-8b9d-a89c216d56e6",
+  "model": "opus",
+  "sartname": "-  🔴 DOSYA YOK",
+  "son_gorulme": "2026-08-14 23:56",
+  "takma_adlar": [
+   "KOORDINATOR"
+  ]
+ },
+ "local_32635081-fad5-4366-a502-6cc31d416789": {
+  "ad": "Sonnet hazir kita 3 (ESKI KIMLIK)",
+  "dosyalar": "-",
+  "gorev": "🔴 BU KIMLIK CURUDU — oturum kendi olctu ve duzeltti: gercek kimligi local_cddd7c9e. Bu kayit, aracin YANLIS ATFETTIGI kimliktir.",
+  "kimlik": "local_32635081-fad5-4366-a502-6cc31d416789",
+  "model": "sonnet",
+  "sartname": "-  🔴 DOSYA YOK",
+  "son_gorulme": "2026-08-14 23:56",
+  "takma_adlar": [
+   "Sonnet hazir kita 3",
+   "Sonnet hazir kita 3 (ESKI KIMLIK)"
+  ]
+ },
+ "local_3fc67368-5263-46af-b864-e44a9ecf0d2c": {
+  "ad": "YAPI DENETIM 3",
+  "dosyalar": "arac/denetle.py yeni dallar",
+  "gorev": "uc yeni denetim (H-0023 · H-0024 · H-0066)",
+  "kimlik": "local_3fc67368-5263-46af-b864-e44a9ecf0d2c",
+  "model": "opus",
+  "sartname": "oturumlar/YAPI-DENETIM-3.md",
+  "son_gorulme": "2026-08-14 23:56",
+  "takma_adlar": [
+   "YAPI DENETIM 3",
+   "YAPI DENETİM 3"
+  ]
+ },
+ "local_454b8342-eab4-4222-8e29-acea08aade74": {
+  "ad": "KORIDOR SEMA",
+  "dosyalar": "data/koridor.js · yerlesimler m:/kd:",
+  "gorev": "koridor agi · m: ve kd: alanlari",
+  "kimlik": "local_454b8342-eab4-4222-8e29-acea08aade74",
+  "model": "?",
+  "sartname": "oturumlar/KORIDOR-SEMA.md",
+  "son_gorulme": "2026-08-14 23:56",
+  "takma_adlar": [
+   "KORIDOR SEMA"
+  ]
+ },
+ "local_454b8342-eab4-4222-8e29-acea08aade74 (CIKARIM - asagi bak)": {
+  "ad": "KORIDOR SEMA",
+  "kimlik": "local_454b8342-eab4-4222-8e29-acea08aade74 (CIKARIM - asagi bak)",
+  "not": "🔴 BOZUK KIMLIK — bir oturum --kimlik alanina aciklama yazmis. Silmiyorum, KAYIT olarak duruyor.",
+  "son_gorulme": "2026-08-14 23:56",
+  "takma_adlar": [
+   "KORIDOR SEMA"
+  ]
+ },
+ "local_8c0af209-4879-4ebe-95e2-a9d19fcb2c1b": {
+  "ad": "KRONOLOJI YER",
+  "dosyalar": "data/olaylar*.js yer_id:/yer:",
+  "gorev": "726 maddenin yer_id'si",
+  "kimlik": "local_8c0af209-4879-4ebe-95e2-a9d19fcb2c1b",
+  "model": "opus",
+  "sartname": "oturumlar/KRONOLOJI-YER.md",
+  "son_gorulme": "2026-08-14 23:56",
+  "takma_adlar": [
+   "KRONOLOJI YER"
+  ]
+ },
+ "local_93578728-3ebc-4f1a-b2b1-0c37d2b76ac5": {
+  "ad": "MOTOR MALIYET",
+  "dosyalar": "arac/uret_petek.py",
+  "gorev": "B1 maliyet mesafesi + puanlama algoritmasi",
+  "kimlik": "local_93578728-3ebc-4f1a-b2b1-0c37d2b76ac5",
+  "model": "opus",
+  "sartname": "oturumlar/MOTOR-MALIYET.md",
+  "takma_adlar": [
+   "MOTOR MALIYET"
+  ]
+ },
+ "local_9d907ce9-25a6-4bfd-96f5-e944cafb32cf": {
+  "ad": "HAZIR KITA 2 SONNET",
+  "dosyalar": "-",
+  "gorev": "BOSTA — hic gorev almadi",
+  "kimlik": "local_9d907ce9-25a6-4bfd-96f5-e944cafb32cf",
+  "model": "sonnet",
+  "sartname": "-  🔴 DOSYA YOK",
+  "son_gorulme": "2026-08-14 23:56",
+  "takma_adlar": [
+   "HAZIR KITA 2 SONNET",
+   "Sonnet hazır kıta 2"
+  ]
+ },
+ "local_ab11dc50-8879-494a-890a-8b43f6b2cb01": {
+  "ad": "OPUS HAZIR KITA 7",
+  "dosyalar": "denetim/UC-YESIL-RAPOR.md",
+  "gorev": "uc yanlis yesil (Yanikkale · Egri · Kanije)",
+  "kimlik": "local_ab11dc50-8879-494a-890a-8b43f6b2cb01",
+  "model": "opus",
+  "sartname": "-  🔴 DOSYA YOK",
+  "son_gorulme": "2026-08-14 23:56",
+  "takma_adlar": [
+   "OPUS HAZIR KITA 7",
+   "TUNA HAVZASI"
+  ]
+ },
+ "local_be082655-293c-45d4-846f-55019c128da6": {
+  "ad": "ARAYUZ BOSLUK",
+  "dosyalar": "js/app.js · css/style.css",
+  "gorev": "projeksiyon · uc tekrar eden madde · HARITAYA GIT",
+  "kimlik": "local_be082655-293c-45d4-846f-55019c128da6",
+  "model": "?",
+  "sartname": "oturumlar/ARAYUZ-BOSLUK.md",
+  "takma_adlar": [
+   "ARAYUZ BOSLUK"
+  ]
+ },
+ "local_cc230a98-cbc8-4702-ae0c-8ff8cb473c9b": {
+  "ad": "RENK 3",
+  "dosyalar": "arac/renkler.py",
+  "gorev": "erdel/thokoly/hirvatistan renkleri + bes renk maddesi",
+  "kimlik": "local_cc230a98-cbc8-4702-ae0c-8ff8cb473c9b",
+  "model": "opus",
+  "sartname": "-  🔴 DOSYA YOK",
+  "takma_adlar": [
+   "RENK 3"
+  ]
+ },
+ "local_cddd7c9e-7738-4140-ab7e-accb23228860": {
+  "ad": "VERI COL BAYRAK",
+  "dosyalar": "data/yerlesimler*.js bos:",
+  "gorev": "col noktalarinin bos: cinsi + 6 supheli",
+  "kimlik": "local_cddd7c9e-7738-4140-ab7e-accb23228860",
+  "model": "sonnet",
+  "sartname": "oturumlar/VERI-COL-BAYRAK.md",
+  "son_gorulme": "2026-08-14 23:56",
+  "takma_adlar": [
+   "Sonnet hazir kita 3",
+   "VERI COL BAYRAK"
+  ]
+ },
+ "local_d1249b27-9ada-464f-a582-006b3fca14c8": {
+  "ad": "OPUS HAZIR KITA 2",
+  "dosyalar": "-",
+  "gorev": "BOSTA — hic gorev almadi",
+  "kimlik": "local_d1249b27-9ada-464f-a582-006b3fca14c8",
+  "model": "opus",
+  "sartname": "-  🔴 DOSYA YOK",
+  "son_gorulme": "2026-08-14 23:56",
+  "takma_adlar": [
+   "OPUS HAZIR KITA 2"
+  ]
+ },
+ "local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4": {
+  "ad": "HAZIR KITA 6",
+  "dosyalar": "-",
+  "gorev": "BOSTA — 33 saat gorevsiz",
+  "kimlik": "local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4",
+  "model": "opus",
+  "sartname": "-  🔴 DOSYA YOK",
+  "son_gorulme": "2026-08-14 23:56",
+  "takma_adlar": [
+   "HAZIR KITA 6",
+   "Opus hazır kıta 6"
+  ]
+ },
+ "local_f4d2e275-19d0-4b56-ad08-4240580687b5": {
+  "ad": "VERI FETRET",
+  "dosyalar": "data/yerlesimler*.js donem/bos:",
+  "gorev": "Fetret donemleri + Amerika 13 nokta (M-0017)",
+  "kimlik": "local_f4d2e275-19d0-4b56-ad08-4240580687b5",
+  "model": "opus",
+  "sartname": "oturumlar/VERI-FETRET.md",
+  "son_gorulme": "2026-08-14 23:56",
+  "takma_adlar": [
+   "OPUS HAZIR KITA 2",
+   "VERI FETRET"
+  ]
+ }
+}
