@@ -74,7 +74,19 @@ YOL = (
 #    gelir." Ve gürültülü bir nöbetçi susturulur; susturulan nöbetçi yoktur.
 def _sartname_mi(ad):
     u = ad.upper()
-    return not (u.endswith("-ILERLEME.MD") or u.endswith("-TASLAK.MD"))
+    # 🔴 TAHTA.MD DE HARİÇ — 14 Ağustos 2026, nöbetçinin İKİNCİ kapsam
+    # daraltması ve sebebi ilkiyle AYNI:
+    #   TAHTA.md, oturumların BİRBİRİNE bildirdiği kimlikleri taşır ve o
+    #   kimlikler tam olarak bu nöbetçinin ÖNERDİĞİ çözümdür — "adres
+    #   koordinatörün TAHMİNİ değil, sahibinin BEYANI olsun."
+    #   Yani nöbetçi, kendi reçetesini ihlal diye sayıyordu: 7 bulgu 67'ye
+    #   çıktı ve 60'ı MEŞRUYDU.
+    # ⚠️ Ve gürültülü nöbetçi susturulur; susturulan nöbetçi YOKTUR —
+    #   bu dosyanın kendi yorumunda yazılı olan uyarı, ikinci kez ısırdı.
+    # 📌 Ayrım aynı: KOORDİNATÖRÜN YAZDIĞI şartname (yasak) ile
+    #   SAHİBİNİN BEYAN ETTİĞİ kayıt (meşru).
+    return not (u.endswith("-ILERLEME.MD") or u.endswith("-TASLAK.MD")
+                or u == "TAHTA.MD")
 
 
 def dosyalar():

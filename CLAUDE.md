@@ -880,13 +880,56 @@ BİTİNCE      teslim raporu — SAYIYLA. "Bitirdim" değil,
              "24 → 7, şu yedisi şu sebeple kaldı"
 ```
 
-### ③ İŞÇİ İŞÇİYE DOĞRUDAN YAZMAZ
+### ③ ~~İŞÇİ İŞÇİYE DOĞRUDAN YAZMAZ~~ → 🔴 **KURAL DEĞİŞTİ, 14 Ağustos 2026**
 
-Bir oturumun işi başka bir oturumu ilgilendiriyorsa **koordinatöre**
-yazılır, koordinatör iletir. Sebebi yetki değil **ölçüm**: koordinatör
-kimin neyi beklediğini bilmezse darboğazı göremez, ve iki oturum
-birbirini beklerken üçüncü bir işi kimse yapmaz.
-📌 İstisna: koordinatör *"şu oturuma doğrudan yaz"* derse.
+**ESKİ KURAL (çürüdü):** *"Bir oturumun işi başka bir oturumu
+ilgilendiriyorsa koordinatöre yazılır, koordinatör iletir. Sebebi yetki
+değil ÖLÇÜM: koordinatör kimin neyi beklediğini bilmezse darboğazı
+göremez."*
+
+🔴 **GEREKÇESİ ORTADAN KALKTI VE YASAK KALDI — klasik bayat kural.**
+```
+kural yazıldığında   kanal `send_message`dı: ÖZEL ve GÖRÜNMEZ. İki işçi
+                     konuşursa koordinatör HİÇ göremezdi.        ✓ haklıydı
+14 Ağustos 2026      kanal TAHTA (`arac/tahta.py`): HERKESE AÇIK, git'te,
+                     `--kime` alanı kimin kime yazdığını taşıyor.
+                     Yatay mesajı koordinatör ZATEN GÖRÜYOR.     ✗ gerekçe yok
+```
+
+**Ve bedeli aynı gün ölçüldü — Emre sordu:**
+> *"Oturumlar birbirleriyle mesajlaşarak anlaşması gerektiği yerde
+> birbirlerine mesaj atmıyorlar, öyle aval aval bakıyorlar. Nedir bu
+> mesajlaşma kültürünü bozan şey?"*
+
+Ölçüm: **60 tahta mesajının OTURUMDAN OTURUMA olanı: 1.** Ve sebebi
+kültür değil, **bu satırdı** — işçiler aval aval bakmıyor, **kurala
+uyuyorlardı.**
+```
+İKİ ÇAKIŞMA (aynı gün): TUNA HAVZASI ve M-0017 iki oturuma birden gitti.
+Birbirlerine "bu iş sende mi" diye sorabilselerdi 30 SANİYE;
+koordinatörden geçtiği için 20+ DAKİKA sürdü ve biri iki kayıt
+yazdıktan sonra Edit uyarısıyla durdu.
+```
+
+## 🟢 YENİ KURAL — YATAY MESAJLAŞMA SERBEST, ŞARTI GÖRÜNÜRLÜK
+```
+py arac/tahta.py yaz --kim "<SEN>" --kime "<ÖTEKİ OTURUM>" --mesaj "..."
+```
+```
+🟢 SERBEST   dosya çakışması sorma · ölçüm devri · "bu iş sende mi" ·
+             bir bulgunun ötekini ilgilendiren kısmı · doğrudan teyit
+🔴 YİNE DE KOORDİNATÖRE   iş ATAMASI · öncelik değişikliği · kaynak
+             çelişkisi hükmü · yetki gerektiren her şey
+⚠️ ŞART: TAHTADAN geçecek. Özel kanal (`send_message`) yatay konuşma için
+   KULLANILMAZ — görünmezliği, eski yasağın haklı olduğu tek sebepti.
+📌 Ve koordinatöre AYRICA haber vermeye gerek yok: tahtayı zaten okuyor.
+   Aynı bilgiyi iki kez göndermek, ikisinin de okunmamasına yol açar.
+```
+
+📌 **Dersin kendisi:** bir yasak, onu doğuran şart ortadan kalktığında
+**kendiliğinden düşmez** — çünkü yasağa uyanlar onu sorgulamaz, uyulduğu
+için de kimse bedelini ölçmez. ⇒ *Bir kuralın gerekçesi değişince kuralın
+kendisi YENİDEN ÖLÇÜLÜR; "hâlâ yazılı" olması "hâlâ doğru" demek değildir.*
 
 ### ④ NE YAZILIR — üçlü kural (`E7`)
 
