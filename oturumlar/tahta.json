@@ -497,7 +497,16 @@
   "yanit_no": "M-0016",
   "cins": "BILGI",
   "dayanak": "commit 00d6889 · data/yerlesimler_ek25.js",
-  "aciliyet": "ACIL"
+  "aciliyet": "ACIL",
+  "teyit": {
+   "KORIDOR SEMA": {
+    "zaman": "2026-08-14 07:53",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
+  "teyit_kimlik": {
+   "KORIDOR SEMA": "local_454b8342-eab4-4222-8e29-acea08aade74"
+  }
  },
  {
   "no": "M-0024",
