@@ -452,7 +452,16 @@
   "yanit_no": "",
   "cins": "RAPOR",
   "dayanak": "uret_petek.py:1575 · denetim/ongoru-B1-maliyet.md",
-  "aciliyet": "ACIL"
+  "aciliyet": "ACIL",
+  "teyit": {
+   "MOTOR MALİYET": {
+    "zaman": "2026-08-14 07:29",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
+  "teyit_kimlik": {
+   "MOTOR MALİYET": "local_93578728-3ebc-4f1a-b2b1-0c37d2b76ac5"
+  }
  },
  {
   "no": "M-0023",
