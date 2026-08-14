@@ -1,4 +1,4 @@
-<!-- DURUM: BITTI ¦ 2026-08-14 07:45 ¦ 40/45 bayraklandi (Tamanrasset eklendi), 7 nokta DONEM istiyor (rapor asagida) -->
+<!-- DURUM: BOSTA ¦ 2026-08-14 17:5x ¦ 40/45 bayrakli, 7 nokta arastirmasi OPUS HAZIR KITA 2'ye devredildi (M-0067) -->
 
 ## EK — 14 Ağustos: iki çelişki araştırıldı, sonuç ve düzeltme
 
