@@ -1132,6 +1132,59 @@ def degismez3(Y):
     return celiskiler
 
 
+# ---------------- Değişmez 3z — kd:'nin ZAMAN AYAĞI (ALTYAPI ④) ----------
+# 🔴 NİÇİN AYRI BİR DAL: `degismez3` yukarıda `y["m"]`i okuyor — ZAMANSIZ
+# alan. Yani çelişkiyi ölçen aletin kendisi, çelişkinin SEBEBİNİ kullanıyor.
+# Bir yerleşim bütün tarih boyunca tek merkeze bağlı olduğu için 1300'de
+# Söğüt Osmanlı ama m:"Bursa" ve Bursa Bizans.
+#
+# `kd:` (zamanlı kademe+merkez) bunu çözecek alandır ve `girdi.kd_gun(y, g)`
+# ile BUGÜN okunabiliyor: kd: yoksa k:/m:'den türetiliyor.
+#
+# 🟢 BU DAL İKİ SAYIYI AYRI AYRI BASAR ve asıl bilgi ikincisidir:
+#     ZAMANSIZ çelişki   bugünkü m: ile ölçülen (degismez3 ile aynı)
+#     ZAMANLI  çelişki   kd_gun ile ölçülen
+#     GERÇEK ZAMANLI kayıt sayısı  ← borcun ne kadarının ÖDENDİĞİ
+# İkisi bugün EŞİT olmalı, çünkü hiçbir kayıtta gerçek kd: yok. Eşit
+# DEĞİLSE ya bir kayda kd: yazılmıştır (iyi haber) ya da okuyucu bozuktur.
+# ⚠️ Eşitlik bir BAŞARI değil, bir TABAN ölçümüdür: bu dal borç ödendikçe
+# ayrışacak ve ayrışması BEKLENEN davranıştır.
+def degismez3z(Y):
+    import girdi as _g
+    ix = {y["ad"]: y for y in Y}
+
+    def durum(y, g):
+        for p in (y.get("d") or []):
+            if p["f"] <= g < p["t"]:
+                return "OSMANLI"
+        for p in (y.get("v") or []):
+            if p["f"] <= g < p["t"]:
+                return "tabi"
+        for p in (y.get("s") or []):
+            if p["f"] <= g < p["t"]:
+                return p["d"]
+        return "—"
+
+    zamanli = []
+    gercek_kd = sum(1 for y in Y if y.get("kd"))
+    for g in ("1300-06-15", "1400-06-15", "1500-06-15",
+              "1600-06-15", "1700-06-15", "1800-06-15"):
+        for y in Y:
+            _, m_ad = _g.kd_gun(y, g)      # ← O GÜNKÜ merkez, bugünkü değil
+            if not m_ad:
+                continue
+            m = ix.get(m_ad)
+            if not m:
+                continue
+            a, b = durum(y, g), durum(m, g)
+            if a == "—" or b == "—" or a == b:
+                continue
+            if {a, b} == {"OSMANLI", "tabi"}:
+                continue
+            zamanli.append((g, y["ad"], m_ad, a, b))
+    return zamanli, gercek_kd
+
+
 
 # ---------------- Ek denetim — mükerrer kronoloji maddesi ----------------
 # Üç değişmezden biri DEĞİL, ama tekrar eden bir hata sınıfı: içerik oturumları
@@ -2014,6 +2067,25 @@ def main():
     if args.ayrinti and celiskiler:
         for g, ad, m, a, b in celiskiler:
             print(f"    {g}  {ad:<20} (m:{m})  yerleşim={a:<10} merkez={b}")
+
+    # ── Değişmez 3z — ZAMAN AYAĞI (`ALTYAPI ④`) ──────────────────────
+    # Aynı soruyu `kd:` üzerinden sorar. Asıl bilgi ÜÇÜNCÜ satırdadır:
+    # borcun ne kadarı ÖDENMİŞ. Bugün 0; ödendikçe iki sayı AYRIŞACAK ve
+    # ayrışma BEKLENEN davranıştır, gerileme değil.
+    zamanli, gercek_kd = degismez3z(Y)
+    n3z = len(zamanli)
+    print(f"\nDeğişmez 3z ·  zamansız (`m:`) {n3}  |  zamanlı (`kd:`) {n3z}"
+          f"  |  gerçek `kd:` yazılı kayıt: {gercek_kd}")
+    if gercek_kd == 0:
+        print( "               ⚠️ Hiçbir kayıtta gerçek `kd:` YOK — ikisi eşit")
+        print( "               olmalı. Bu bir BAŞARI değil, TABAN ölçümüdür.")
+        if n3z != n3:
+            ihlal = True
+            print(f"               🔴 EŞİT DEĞİL ({n3z} ≠ {n3}) — `kd_oku`")
+            print( "               türetmesi BOZUK. Denetim değil OKUYUCU hatası.")
+    else:
+        print(f"               🟢 {gercek_kd} kayıt gerçek zaman derinliği taşıyor;")
+        print( "               iki sayının AYRIŞMASI beklenen davranıştır.")
 
     # Ek denetim — dönem sağlığı (üç değişmezden biri değil, VERI-YAPISI.md kuralı)
     ds = donem_sagligi(Y)

@@ -506,6 +506,20 @@ BILINEN_ALANLAR = {
     # basıyordu: doğru davranış, hatalıymış gibi görünüyordu.
     # (PETEK/NOKTA ölçtü ve ilk dört gerekçeli kaydı yazdı, 3 Ağustos 2026)
     "neden": "kasitli_bosluk'un gerekçesi — niçin kasten boş",
+    # 🔴 kd: — `k:` ve `m:`nin ZAMANLI hâli (`ALTYAPI ④`, `VERI-YAPISI §kd`)
+    #   kd:[{f,t,k,m}, …]  —  "şu tarihten şu tarihe kademe K, merkez M"
+    # NİÇİN: bugün bir yerleşim bütün tarih boyunca TEK merkeze bağlı; bu
+    # `Değişmez 3`ün ölçülmüş 359 çiftini doğuruyor (1300'de Söğüt Osmanlı
+    # ama m:"Bursa" ve Bursa Bizans). Ayrı bir `sinif:` alanı kademeyi
+    # çözer, `m:`yi ÇÖZMEZDİ — `kd:` ikisini BİRLİKTE zamanlı yapıyor.
+    #
+    # 🟢 GEÇİŞ KURALI — `kd_oku()`: kd: YOKSA k:/m: tek dönemlik kd: gibi
+    # okunur. Yani alan BUGÜN CANLI ve hiçbir veri satırı değişmedi.
+    # ⚠️ Ve türetilmiş dönem `turetildi:True` taşır: "bütün tarih boyunca
+    # aynıydı" bir ÖLÇÜM DEĞİL, bilgi yokluğudur. Onu ölçüm gibi
+    # kaydetmek, bilmediğini bilgi diye yazmaktır.
+    "kd":  "zamanlı idari kademe+merkez [{f,t,k,m}] — k:/m:'nin yerini "
+           "ALACAK; yoksa k:/m:'den türetilir (kd_oku)",
 }
 
 # Dönem nesnelerinin (s/d/v/isg elemanları) alanları
@@ -790,6 +804,39 @@ def yukle(sessiz=False):
     if not sessiz and len(GIRDI_DOSYALARI) > 1:
         print(f"  toplam: {len(hepsi)} nokta")
     return hepsi
+
+
+def kd_oku(y):
+    """`kd:` dönemleri — YOKSA `k:`/`m:`den TÜRETİLİR. (`ALTYAPI ④`)
+
+    🟢 Bu fonksiyon sayesinde `kd:` alanı BUGÜN CANLIDIR ve **tek bir veri
+    satırı değişmedi.** Motorlar ve denetimler artık `y["k"]`/`y["m"]`
+    yerine `kd_oku(y)` çağırabilir; bir kayda gerçek zaman derinliği
+    yazıldığı gün, çağıran taraf hiç değişmeden onu görür.
+
+    📌 Niçin göç yerine okuyucu: 2503 kaydı tek gecede `kd:`ye çevirmek
+    dev bir diff üretir ve **hiçbir yeni bilgi taşımaz** — her kayıt tek
+    dönemlik olurdu. Bilgi getirmeyen bir değişiklik, getirdiği çakışma
+    riskini hak etmez.
+
+    ⚠️ TÜRETİLEN DÖNEM `turetildi: True` TAŞIR. *"Bütün tarih boyunca aynı
+    kademedeydi"* bir ölçüm değil, **bilgi yokluğudur.** Bunu ölçüm gibi
+    kaydetmek, bilmediğini bilgi diye yazmaktır (`B10`).
+    """
+    kd = y.get("kd")
+    if kd:
+        return [dict(p) for p in kd]
+    return [{"f": UFUK[0], "t": UFUK[1],
+             "k": y.get("k") or 0, "m": y.get("m"),
+             "turetildi": True}]
+
+
+def kd_gun(y, gun):
+    """O GÜN geçerli (k, m) — yoksa (0, None). Zaman boyutunun tek kapısı."""
+    for p in kd_oku(y):
+        if p.get("f", "") <= gun < p.get("t", "9999"):
+            return p.get("k") or 0, p.get("m")
+    return 0, None
 
 
 # ⚠️ EK GÖLLER — Natural Earth'ün MODERN göl katmanının tarihî düzeltmesi
