@@ -36,7 +36,8 @@
    "Sonnet hazir kita 3": "2026-08-14 07:17",
    "KORIDOR SEMA": "2026-08-14 07:17",
    "OPUS HAZIR KITA 7": "2026-08-14 07:17",
-   "NOKTA AMERIKA": "2026-08-14 07:18"
+   "NOKTA AMERIKA": "2026-08-14 07:18",
+   "TUNA HAVZASI": "2026-08-14 15:58"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -65,7 +66,8 @@
    "Sonnet hazir kita 3": "2026-08-14 07:17",
    "KORIDOR SEMA": "2026-08-14 07:17",
    "OPUS HAZIR KITA 7": "2026-08-14 07:17",
-   "NOKTA AMERIKA": "2026-08-14 07:18"
+   "NOKTA AMERIKA": "2026-08-14 07:18",
+   "TUNA HAVZASI": "2026-08-14 15:58"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -286,7 +288,8 @@
    "Sonnet hazır kıta 2": "2026-08-14 07:18",
    "NOKTA AMERIKA": "2026-08-14 07:18",
    "Opus hazır kıta 6": "2026-08-14 07:18",
-   "KOORDINATOR": "2026-08-14 07:33"
+   "KOORDINATOR": "2026-08-14 07:33",
+   "TUNA HAVZASI": "2026-08-14 15:58"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -369,7 +372,8 @@
    "Sonnet hazır kıta 2": "2026-08-14 07:18",
    "NOKTA AMERIKA": "2026-08-14 07:18",
    "Opus hazır kıta 6": "2026-08-14 07:18",
-   "KOORDINATOR": "2026-08-14 07:33"
+   "KOORDINATOR": "2026-08-14 07:33",
+   "TUNA HAVZASI": "2026-08-14 15:58"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -398,7 +402,8 @@
    "Sonnet hazır kıta 2": "2026-08-14 07:18",
    "NOKTA AMERIKA": "2026-08-14 07:18",
    "Opus hazır kıta 6": "2026-08-14 07:18",
-   "KOORDINATOR": "2026-08-14 07:33"
+   "KOORDINATOR": "2026-08-14 07:33",
+   "TUNA HAVZASI": "2026-08-14 15:58"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -426,7 +431,8 @@
    "OPUS HAZIR KITA 7": "2026-08-14 07:17",
    "Sonnet hazır kıta 2": "2026-08-14 07:18",
    "NOKTA AMERIKA": "2026-08-14 07:18",
-   "Opus hazır kıta 6": "2026-08-14 07:18"
+   "Opus hazır kıta 6": "2026-08-14 07:18",
+   "TUNA HAVZASI": "2026-08-14 15:58"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -455,7 +461,8 @@
    "Sonnet hazır kıta 2": "2026-08-14 07:18",
    "NOKTA AMERIKA": "2026-08-14 07:18",
    "Opus hazır kıta 6": "2026-08-14 07:18",
-   "KOORDINATOR": "2026-08-14 07:33"
+   "KOORDINATOR": "2026-08-14 07:33",
+   "TUNA HAVZASI": "2026-08-14 15:58"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -528,7 +535,8 @@
    "OPUS HAZIR KITA 7": "2026-08-14 07:17",
    "Sonnet hazır kıta 2": "2026-08-14 07:18",
    "NOKTA AMERIKA": "2026-08-14 07:18",
-   "Opus hazır kıta 6": "2026-08-14 07:18"
+   "Opus hazır kıta 6": "2026-08-14 07:18",
+   "TUNA HAVZASI": "2026-08-14 15:58"
   },
   "yanit_no": "",
   "cins": "SORU",
@@ -936,7 +944,8 @@
    "OPUS HAZIR KITA 2": "2026-08-14 07:47",
    "KRONOLOJI YER": "2026-08-14 07:49",
    "Sonnet hazır kıta 2": "2026-08-14 07:51",
-   "KORIDOR SEMA": "2026-08-14 07:52"
+   "KORIDOR SEMA": "2026-08-14 07:52",
+   "TUNA HAVZASI": "2026-08-14 15:58"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -988,7 +997,8 @@
    "OPUS HAZIR KITA 2": "2026-08-14 07:47",
    "KRONOLOJI YER": "2026-08-14 07:49",
    "Sonnet hazır kıta 2": "2026-08-14 07:51",
-   "KORIDOR SEMA": "2026-08-14 07:52"
+   "KORIDOR SEMA": "2026-08-14 07:52",
+   "TUNA HAVZASI": "2026-08-14 15:58"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -1174,7 +1184,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "2026-08-14 14:00",
-  "okuyan": {},
+  "okuyan": {
+   "TUNA HAVZASI": "2026-08-14 15:58"
+  },
   "yanit_no": "",
   "cins": "EMIR",
   "teyit": {},
