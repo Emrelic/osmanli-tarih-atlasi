@@ -265,7 +265,8 @@
   "okuyan": {
    "VERI FETRET": "2026-08-14 07:15",
    "KRONOLOJI YER": "2026-08-14 07:16",
-   "YAPI DENETİM 3": "2026-08-14 07:16"
+   "YAPI DENETİM 3": "2026-08-14 07:16",
+   "OPUS HAZIR KITA 2": "2026-08-14 07:17"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -298,7 +299,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "2026-08-14 14:00",
-  "okuyan": {},
+  "okuyan": {
+   "OPUS HAZIR KITA 2": "2026-08-14 07:17"
+  },
   "yanit_no": "M-0007",
   "cins": "EMIR",
   "dayanak": "M-0007 · data/yerlesimler_amerika.js",
@@ -317,7 +320,8 @@
   "okuyan": {
    "VERI FETRET": "2026-08-14 07:15",
    "KRONOLOJI YER": "2026-08-14 07:16",
-   "YAPI DENETİM 3": "2026-08-14 07:16"
+   "YAPI DENETİM 3": "2026-08-14 07:16",
+   "OPUS HAZIR KITA 2": "2026-08-14 07:17"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -337,7 +341,8 @@
   "okuyan": {
    "VERI FETRET": "2026-08-14 07:15",
    "KRONOLOJI YER": "2026-08-14 07:16",
-   "YAPI DENETİM 3": "2026-08-14 07:16"
+   "YAPI DENETİM 3": "2026-08-14 07:16",
+   "OPUS HAZIR KITA 2": "2026-08-14 07:17"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -357,7 +362,8 @@
   "okuyan": {
    "VERI FETRET": "2026-08-14 07:15",
    "KRONOLOJI YER": "2026-08-14 07:16",
-   "YAPI DENETİM 3": "2026-08-14 07:16"
+   "YAPI DENETİM 3": "2026-08-14 07:16",
+   "OPUS HAZIR KITA 2": "2026-08-14 07:17"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -377,7 +383,8 @@
   "okuyan": {
    "VERI FETRET": "2026-08-14 07:15",
    "KRONOLOJI YER": "2026-08-14 07:16",
-   "YAPI DENETİM 3": "2026-08-14 07:16"
+   "YAPI DENETİM 3": "2026-08-14 07:16",
+   "OPUS HAZIR KITA 2": "2026-08-14 07:17"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -428,7 +435,8 @@
   "vade": "2026-08-14 10:00",
   "okuyan": {
    "KRONOLOJI YER": "2026-08-14 07:16",
-   "YAPI DENETİM 3": "2026-08-14 07:16"
+   "YAPI DENETİM 3": "2026-08-14 07:16",
+   "OPUS HAZIR KITA 2": "2026-08-14 07:17"
   },
   "yanit_no": "",
   "cins": "SORU",
