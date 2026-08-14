@@ -968,6 +968,10 @@
    "OPUS HAZIR KITA 2": {
     "zaman": "2026-08-14 07:48",
     "soz": "okudum, gereğini yapıyorum"
+   },
+   "KRONOLOJI YER": {
+    "zaman": "2026-08-14 07:49",
+    "soz": "okudum, gereğini yapıyorum"
    }
   },
   "kapanis": "",
@@ -975,7 +979,8 @@
   "aciliyet": "DURDURUCU",
   "teyit_kimlik": {
    "NOKTA AMERIKA": "local_0a5035a0-e065-4beb-b0a9-f7be18790ddb",
-   "OPUS HAZIR KITA 2": "local_d1249b27-9ada-464f-a582-006b3fca14c8"
+   "OPUS HAZIR KITA 2": "local_d1249b27-9ada-464f-a582-006b3fca14c8",
+   "KRONOLOJI YER": "local_8c0af209-4879-4ebe-95e2-a9d19fcb2c1b"
   }
  },
  {
