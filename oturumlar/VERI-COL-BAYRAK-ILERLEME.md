@@ -1,4 +1,13 @@
+<!-- DURUM: BITTI ¦ 2026-08-14 07:xx ¦ 39/45 bayraklandi, 6 supheli koordinatore devredildi -->
+
 # VERİ ÇÖL BAYRAK — İlerleme Notu
+
+🔴 KİMLİK DÜZELTMESİ (14 Ağustos, M-0015 sonrası): Bu oturumun gerçek kimliği
+scratchpad yolu ile doğrulandı: **local_cddd7c9e-7738-4140-ab7e-accb23228860**.
+Daha önce `send_message` aracının bana atfettiği `local_32635081-fad5-4366-a502-6cc31d416789`
+ve TAHTA M-0005'e yazdığım `--kimlik` bu yüzden YANLIŞTI — aracın kendisi yanlış
+kimlik veriyordu, bu da projenin "send_message çalışmıyor" bulgusuna bir kanıt
+daha ekliyor (yalnız teslimat değil, KİMLİK ATFI da bozuk).
 
 Bu dosya `oturumlar/VERI-COL-BAYRAK.md` görevini yürüten oturumun kaldığı
 yerden devam edebilmesi içindir.
