@@ -1,3 +1,31 @@
+<!-- DURUM: CALISIYORUM | 2026-08-14 08:10 | IS 0 + IS 1 BITTI — rapor denetim/TUNA-HAVZASI-RAPOR.md · 43 merkez · 9 TDV-dogrulamali · 4 celiski -->
+
+## İŞ 1 ✅ BİTTİ (08:10) — teslim: `denetim/TUNA-HAVZASI-RAPOR.md`
+
+```
+53 merkez istendi · 43 veride VAR · 10 veride HİÇ YOK
+118 dönem sınırı çıkarıldı · 17 gün TDV ile DOĞRUDAN doğrulandı · 101 doğrulanmadı
+9 TDV maddesi gövdesiyle okundu: erdel · macaristan · budin · egri · kanije ·
+  varad · uyvar · tokoli-imre (+ arama sayfası)
+4 kaynak çelişkisi · dört açık sorunun dördüne de hüküm
+```
+
+🔴 **Asıl bulgu, aranan şeyden büyük çıktı:** kusur "üç yanlış yeşil" değil,
+**`macaristan` ile `avusturya`nın AYNI DEVLETİ göstermesi.** Kraliyet
+Macaristanı 6 noktada `avusturya`, 3 noktada `macaristan` çiziliyor — ayıran
+şey siyasî durum değil, **noktanın fetih tarihi.**
+
+🔴 **En büyük tarih sapması:** Erdel'in tâbiiyeti veride **1687-08-12**
+bitiyor, TDV **1697 işgal / 1699 Karlofça** diyor — **10-12 yıl.**
+
+🟢 **Beklenen desen ÇIKMADI:** şartname "Osmanlı fetih gününü, Habsburg
+antlaşma gününü sayar, fark yıllardır" diyordu; doğrulanan 9 merkezin
+**6'sında veri ile TDV birebir aynı gün.** Bu havzada sorun tarihlerde değil
+**kimlik ve statüde.**
+
+---
+
+<!-- IS 0 kaydi asagida -->
 <!-- DURUM: CALISIYORUM | 2026-08-14 07:30 | IS 0 BITTI — uc sayi da DOGRULANDI, dort YENI bulgu -->
 
 # TUNA HAVZASI 1521–1699 — ilerleme
