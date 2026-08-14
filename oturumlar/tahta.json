@@ -1224,13 +1224,18 @@
    "Opus hazır kıta 6": {
     "zaman": "2026-08-14 16:00",
     "soz": "okudum, gereğini yapıyorum"
+   },
+   "TUNA HAVZASI": {
+    "zaman": "2026-08-14 16:00",
+    "soz": "okudum, gereğini yapıyorum"
    }
   },
   "kapanis": "",
   "dayanak": "kutu sohbeti · Emre 13 Agu 21:50-21:55",
   "aciliyet": "DURDURUCU",
   "teyit_kimlik": {
-   "Opus hazır kıta 6": "local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4"
+   "Opus hazır kıta 6": "local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4",
+   "TUNA HAVZASI": "local_0d2ae9fb-cd9f-41a0-81d6-acde82ea796d"
   }
  }
 ]
