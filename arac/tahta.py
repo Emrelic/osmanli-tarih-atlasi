@@ -203,6 +203,52 @@ def _git(kayit, baslik, govde):
             os.remove(ileti)
 
 
+def _sade_ad(s):
+    """Ad karşılaştırması için normalleştirir — Türkçe İ/I tuzağı dâhil.
+
+    🔴 VAKA (14 Ağustos 2026): aynı UUID (`local_3fc67368`) tahtada İKİ
+    yazımla göründü — `YAPI DENETİM 3` ve `YAPI DENETIM 3`. Tek harf farkı
+    (İ / I) iki ayrı oturum gibi okundu.
+    """
+    for a2, b in (("İ", "I"), ("ı", "i"), ("Ş", "S"), ("ş", "s"),
+                  ("Ğ", "G"), ("ğ", "g"), ("Ü", "U"), ("ü", "u"),
+                  ("Ö", "O"), ("ö", "o"), ("Ç", "C"), ("ç", "c")):
+        s = s.replace(a2, b)
+    return " ".join(s.upper().split())
+
+
+def _takma_adlar(kayit, kim, kimlik=None):
+    """Bir oturumun BÜTÜN adlarını döker — UUID üzerinden bağlayarak.
+
+    🔴 NİÇİN VAR — ölçülmüş kusur, bedeli 6,5 SAAT. Bir oturum yazdı:
+        "M-0017'yi (00:30'da verdiğin iş) SAAT 07:17'DE gördüm — altı buçuk
+         saat geç. Sebep: BU OTURUM TAHTADA İKİ ADLA VAR. Sen bana yazarken
+         --kime 'OPUS HAZIR KITA 2' (pencere adım), ben okurken --kim
+         'VERİ FETRET' (şartname adım). Mesaj KAYBOLMADI, YANLIŞ KUTUYA
+         düştü."
+    Ve çareyi de o önerdi: *"kimliği ADA değil UUID'ye bağla, ya da bir
+    oturumun bütün adlarını tek kutuda topla."*
+
+    ⚠️ VE İKİNCİ, DAHA SİNSİ VAKA: İKİ AYRI OTURUM aynı adı taşıyordu
+    (`local_d1249b27` ve `local_f4d2e275`, ikisi de "OPUS HAZIR KITA 2").
+    Koordinatör bir işi YANLIŞ OTURUMA atfetti; kusuru işçi bildirdi:
+    *"M-0045'i BEN YAZMADIM."*
+    ⇒ **Ad ne TEKİLDİR ne KARARLI. UUID ikisi de.**
+    📌 `B10`un kimlik yüzü: devraldığın hiçbir rakamı — ve hiçbir ADI —
+    doğrulamadan aktarma.
+    """
+    adlar = {_sade_ad(kim)} if kim else set()
+    kimlikler = {kimlik} if kimlik else set()
+    for m in kayit:                       # ① addan kimliğe
+        k = m.get("kimden_kimlik")
+        if k and _sade_ad(m["kimden"]) in adlar:
+            kimlikler.add(k)
+    for m in kayit:                       # ② kimlikten bütün adlara
+        if m.get("kimden_kimlik") in kimlikler:
+            adlar.add(_sade_ad(m["kimden"]))
+    return adlar
+
+
 def kimler(a):
     """Tahtadan türetilmiş OTURUM DEFTERİ — kim, hangi kimlikle, ne zaman."""
     kayit = _yukle()
@@ -328,10 +374,17 @@ def oku(a):
         print("tahta BOŞ — henüz kimse yazmadı.")
         return 0
     kim = (a.get("kim") or "").strip()
-    K = kim.upper()
     if kim and not a.get("hepsi"):
-        secili = [m for m in kayit if m["kime"] in (K, "HERKES")]
+        # 🔴 TAKMA AD ÇÖZÜMLEMESİ — bir oturumun BÜTÜN adlarını topla.
+        # Eskiden `m["kime"] == kim.upper()` diye bakılıyordu ve bir oturum
+        # iki adla göründüğünde mesaj YANLIŞ KUTUDA kalıyordu (ölçüldü:
+        # 6,5 saat). Artık UUID üzerinden bağlanan her ad aynı kutuya düşer.
+        adlar = _takma_adlar(kayit, kim, a.get("kimlik"))
+        secili = [m for m in kayit
+                  if _sade_ad(m["kime"]) in adlar or m["kime"] == "HERKES"]
         baslik = "SANA GELENLER (%s) + HERKES" % kim
+        if len(adlar) > 1:
+            print("ℹ️ takma adların: %s" % " · ".join(sorted(adlar)))
     else:
         secili, baslik = kayit, "TAHTANIN TAMAMI"
     if a.get("acik"):
