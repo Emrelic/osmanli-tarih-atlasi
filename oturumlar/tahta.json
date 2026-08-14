@@ -33,7 +33,8 @@
    "KOORDINATOR": "2026-08-14 00:00",
    "YAPI DENETİM 3": "2026-08-14 07:16",
    "HAZIR KITA 3": "2026-08-14 07:17",
-   "Sonnet hazir kita 3": "2026-08-14 07:17"
+   "Sonnet hazir kita 3": "2026-08-14 07:17",
+   "KORIDOR SEMA": "2026-08-14 07:17"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -59,7 +60,8 @@
    "KOORDINATOR": "2026-08-14 00:00",
    "YAPI DENETİM 3": "2026-08-14 07:16",
    "HAZIR KITA 3": "2026-08-14 07:17",
-   "Sonnet hazir kita 3": "2026-08-14 07:17"
+   "Sonnet hazir kita 3": "2026-08-14 07:17",
+   "KORIDOR SEMA": "2026-08-14 07:17"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -272,7 +274,8 @@
    "YAPI DENETİM 3": "2026-08-14 07:16",
    "OPUS HAZIR KITA 2": "2026-08-14 07:17",
    "HAZIR KITA 3": "2026-08-14 07:17",
-   "Sonnet hazir kita 3": "2026-08-14 07:17"
+   "Sonnet hazir kita 3": "2026-08-14 07:17",
+   "KORIDOR SEMA": "2026-08-14 07:17"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -289,7 +292,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0023",
   "vade": "2026-08-14 14:00",
-  "okuyan": {},
+  "okuyan": {
+   "KORIDOR SEMA": "2026-08-14 07:17"
+  },
   "yanit_no": "M-0006",
   "cins": "EMIR",
   "dayanak": "oturumlar/POSTA.md · KORIDOR SEMA bolumu",
@@ -329,7 +334,8 @@
    "YAPI DENETİM 3": "2026-08-14 07:16",
    "OPUS HAZIR KITA 2": "2026-08-14 07:17",
    "HAZIR KITA 3": "2026-08-14 07:17",
-   "Sonnet hazir kita 3": "2026-08-14 07:17"
+   "Sonnet hazir kita 3": "2026-08-14 07:17",
+   "KORIDOR SEMA": "2026-08-14 07:17"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -352,7 +358,8 @@
    "YAPI DENETİM 3": "2026-08-14 07:16",
    "OPUS HAZIR KITA 2": "2026-08-14 07:17",
    "HAZIR KITA 3": "2026-08-14 07:17",
-   "Sonnet hazir kita 3": "2026-08-14 07:17"
+   "Sonnet hazir kita 3": "2026-08-14 07:17",
+   "KORIDOR SEMA": "2026-08-14 07:17"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -375,7 +382,8 @@
    "YAPI DENETİM 3": "2026-08-14 07:16",
    "OPUS HAZIR KITA 2": "2026-08-14 07:17",
    "HAZIR KITA 3": "2026-08-14 07:17",
-   "Sonnet hazir kita 3": "2026-08-14 07:17"
+   "Sonnet hazir kita 3": "2026-08-14 07:17",
+   "KORIDOR SEMA": "2026-08-14 07:17"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -398,7 +406,8 @@
    "YAPI DENETİM 3": "2026-08-14 07:16",
    "OPUS HAZIR KITA 2": "2026-08-14 07:17",
    "HAZIR KITA 3": "2026-08-14 07:17",
-   "Sonnet hazir kita 3": "2026-08-14 07:17"
+   "Sonnet hazir kita 3": "2026-08-14 07:17",
+   "KORIDOR SEMA": "2026-08-14 07:17"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -431,7 +440,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KORIDOR SEMA": "2026-08-14 07:17"
+  },
   "yanit_no": "M-0016",
   "cins": "BILGI",
   "dayanak": "commit 00d6889 · data/yerlesimler_ek25.js",
@@ -452,7 +463,8 @@
    "YAPI DENETİM 3": "2026-08-14 07:16",
    "OPUS HAZIR KITA 2": "2026-08-14 07:17",
    "HAZIR KITA 3": "2026-08-14 07:17",
-   "Sonnet hazir kita 3": "2026-08-14 07:17"
+   "Sonnet hazir kita 3": "2026-08-14 07:17",
+   "KORIDOR SEMA": "2026-08-14 07:17"
   },
   "yanit_no": "",
   "cins": "SORU",
