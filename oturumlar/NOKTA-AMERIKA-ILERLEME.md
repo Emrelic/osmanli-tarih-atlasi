@@ -1,5 +1,21 @@
-<!-- DURUM: BİTTİ ¦ 2026-08-14 08:xx ¦ 134/134 · rapor bu dosya + tahta M-0020[F] cevabı -->
+<!-- DURUM: BOŞTA ¦ 2026-08-14 08:xx ¦ 134/134 + M-0047 SINIF A düzeltmesi bitti · yeni görev bekliyor -->
 <!-- KİMLİK: local_0a5035a0-e065-4beb-b0a9-f7be18790ddb -->
+
+## 🟢 14 Ağustos İKİNCİ GÜNCELLEME — M-0047 hükmü uygulandı
+
+Koordinatör (M-0047) benim ilk düzeltmemi (`kasitli_bosluk`+`bos:"insansiz"`) DÜZELTTİ:
+"burası kasten boş" ile "şehir artık yok" AYNI ŞEY DEĞİL, aynı çare doğru veriyi bozar (§11).
+`bit:` alanını yazma yetkisi bana verildi (yalnız bu 6 nokta). Uyguladım:
+
+```
+Cahokia, Mayapán, Utatlán, Iximché, Zaculeu, Caparra
+  → kasitli_bosluk/bos:/neden: KALDIRILDI, yalnız bit:"<tarih>" bırakıldı
+  → node.js ile doğrulandı: 6/6 nokta artık yalnız bit: taşıyor, kasitli_bosluk yok
+```
+
+Ayrıca M-0047'de OPUS HAZIR KITA 2 ile çakışma tespit edilmişti (aynı 13 nokta ikimizde de);
+hüküm "IS BITTI, OPUS HAZIR KITA 2 yapti, NOKTA AMERIKA DURSUN" — ama bu SINIF A'nın
+(6 nokta, bit: alanı) yazma yetkisi ayrıca bana verildi, o kısmı yaptım, gerisine dokunmadım.
 
 # NOKTA AMERİKA — İlerleme ve teslim raporu
 
