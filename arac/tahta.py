@@ -151,18 +151,35 @@ def _git(kayit, baslik, govde):
     ileti = os.path.join(KOK, ".tahta_ileti")
     io.open(ileti, "w", encoding="utf-8", newline="\n").write(
         "%s\n\n%s\n" % (baslik, govde))
+    # 🔴 encoding="utf-8", errors="replace" — YAPI DENETİM 3 BULDU (M-0031).
+    # VAKA: `subprocess.run(..., text=True)` çıktıyı SİSTEM KOD SAYFASIYLA
+    # (Windows'ta cp1254) çözmeye kalkıyor. Git'in Türkçe karakterli çıktısı
+    # `UnicodeDecodeError: 'charmap' codec can't decode byte 0x9e` ile
+    # PATLIYOR — ve patlama `try` bloğunun İÇİNDE olduğu için commit hiç
+    # çalışmıyor, ama `finally`den sonra akış sürüyor ve ekrana "push ✓"
+    # basılıyordu.
+    # ⇒ Mesaj SENDE KALIYOR, araç GÖNDERİLDİ diyordu.
+    #
+    # 🔴 VE BU, TAM OLARAK BU ALETİN ÖNLEMEK İÇİN VAR OLDUĞU HATA:
+    #   "araç kendi eyleminin SONUCUNU değil DENEMESİNİ raporluyor."
+    #   `send_message`ın "sent"i neyse, buradaki "push ✓" da oydu.
+    #   Aleti yazan, aletin hastalığını alete bulaştırmış.
+    # 📌 Ve bulan yine bir İŞÇİ oldu — kusuru gören, kusurun bedelini
+    #   ödeyen taraf. Bugünün ikinci vakası.
+    _kod = {"capture_output": True, "text": True,
+            "encoding": "utf-8", "errors": "replace"}
     try:
         # pathspec ZORUNLU: git index PAYLAŞILIYOR (§7)
         yol = ["oturumlar/tahta.json", "oturumlar/TAHTA.md"]
         subprocess.run(["git", "-C", KOK, "add", "--"] + yol,
-                       check=False, capture_output=True)
+                       check=False, **_kod)
         r = subprocess.run(["git", "-C", KOK, "commit", "-F", ileti, "--"] + yol,
-                           capture_output=True, text=True)
+                           **_kod)
         if r.returncode != 0 and "nothing to commit" not in (r.stdout or ""):
             print("commit: 🔴 kod=%d" % r.returncode)
-        subprocess.run(["git", "-C", KOK, "pull", "--rebase"],
-                       capture_output=True, text=True)
-        p = subprocess.run(["git", "-C", KOK, "push"], capture_output=True, text=True)
+            print("   " + (r.stderr or r.stdout or "").strip()[:200])
+        subprocess.run(["git", "-C", KOK, "pull", "--rebase"], **_kod)
+        p = subprocess.run(["git", "-C", KOK, "push"], **_kod)
         if p.returncode == 0:
             print("push  : ✓ — mesaj artık HERKESTE")
         else:
@@ -171,6 +188,16 @@ def _git(kayit, baslik, govde):
             print("   " + (p.stderr or "").strip()[:200])
             print("   ⚠️ MESAJ HENÜZ KİMSEYE ULAŞMADI. Bunu KULLANICIYA da")
             print("      söyle — arıza ÜÇ YERE bildirilir (§7.1).")
+    except Exception as e:
+        # 🔴 SESSİZ GEÇİLMEZ. Önceki hâlde bir istisna `finally`ye düşüyor,
+        # temizlik yapılıyor ve akış "push ✓" basmış gibi sürüyordu. Artık
+        # istisna GÖRÜNÜR ve mesajın SENDE KALDIĞI açıkça söyleniyor.
+        print("push  : 🔴 İSTİSNA — %s: %s" % (type(e).__name__, e))
+        print("   ⚠️ MESAJ HENÜZ KİMSEYE ULAŞMADI. Elle koştur:")
+        print("      git add -- oturumlar/tahta.json oturumlar/TAHTA.md")
+        print("      git commit -m \"TAHTA\" -- oturumlar/tahta.json oturumlar/TAHTA.md")
+        print("      git pull --rebase && git push")
+        print("   Ve bunu KULLANICIYA da söyle — arıza ÜÇ YERE bildirilir.")
     finally:
         if os.path.exists(ileti):
             os.remove(ileti)
