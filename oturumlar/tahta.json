@@ -1178,10 +1178,18 @@
   },
   "yanit_no": "",
   "cins": "EMIR",
-  "teyit": {},
+  "teyit": {
+   "NOKTA AMERIKA": {
+    "zaman": "2026-08-15 01:13",
+    "soz": "okudum, bolusum onaylandi - bit: alanini zaten bitirmistim, bos:/neden: alanina dokunmuyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
-  "aciliyet": "NORMAL"
+  "aciliyet": "NORMAL",
+  "teyit_kimlik": {
+   "NOKTA AMERIKA": "local_0a5035a0-e065-4beb-b0a9-f7be18790ddb"
+  }
  },
  {
   "no": "M-0053",
