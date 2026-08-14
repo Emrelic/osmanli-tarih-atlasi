@@ -1,4 +1,6 @@
+<!-- DURUM: BITTI | 2026-08-14 07:45 | VERI FETRET 4/4 + M-0017 7/7 (SINIF B) · denetle.py 0 · 1c 29->16 · rapor: tahta M-0045 -->
 # VERİ FETRET — ilerleme
+## (14 Ağustos'tan itibaren ikinci iş: **M-0017 · 13 Amerika noktası** — §⑭)
 
 **Oturum:** Opus hazır kıta 2 · **Açılış:** 13 Ağustos 2026 ~09:55
 **Şartname:** `oturumlar/VERI-FETRET.md`
@@ -521,3 +523,67 @@ katkısı — ve ikisi de aynı turda çıktı.
 ③ kalanı ölçülmedi — 23'ün 11'i yukarıda, gerisi tek tek bakılmadı
 ```
 Ölçüm betiği: `scratchpad\ayrisma.py` (üç kovanın tam listesini basar).
+
+---
+
+## ⑭ İKİNCİ İŞ — M-0017 · 13 AMERİKA NOKTASI (14 Ağustos)
+
+> Koordinatör bu işi **benim bulgumdan** doğurdu: *"BULDUĞUN KUSUR SENİN İŞİN
+> OLDU."* Ve şartname sınırını da düzeltti: *"VERİ ÇÖL BAYRAK şartnamesi 'hepsi
+> çöl dolgu' diyordu ve YANLIŞTI — bu 13 o sınıfa girmiyor."*
+
+### İŞ 0 — sayı doğrulandı (B10) ve **iki ters uçlu sınıf** çıktı
+```
+yerlesimler_amerika.js'te sahipsiz görülen : 22
+bunlardan kasitli_bosluk DAMGASIZ          : 13   ← koordinatörün sayısı BİREBİR
+```
+| | boşluk nerede | çare |
+|---|---|---|
+| **SINIF A** (6) Cahokia · Mayapán · Utatlán · Iximché · Zaculeu · Caparra | **SONDA** — yerleşim sona erdi | `bit:` / `insansiz` |
+| **SINIF B** (7) İrokua beşliği · Acoma · Taos | **BAŞTA** — dönem yazılmamış | `bos:` cinsi |
+
+⇒ İkisine aynı çareyi uygulamak `§11`in *"iki ayrı kusur tek satırda
+raporlanırsa doğru veri bozulur"* vakası olurdu. SINIF A'ya **dokunmadım**:
+`bit:` yetkim yoktu, koordinatöre sordum (M-0036).
+
+### KAYNAK — §4 sırası uygulandı, **TDV önce denendi ve ölçüldü**
+TDV `amerika` (kıta) maddesi çekildi: Maya · Aztek · İnka · Toltek **var**;
+İrokua **yok** · Pueblo **yok** · Cahokia **yok** · Maya şehir-devletleri tek
+tek **yok** · Caparra **yok**.
+⇒ Coğrafî değil **TANECİK** boşluğu ⇒ akademik kaynak meşru, ve `neden:`
+alanına **açıkça** yazıldı:
+```
+İrokua  American Antiquity / Cambridge Core — 42 Kuzey İrokua yerleşmesinden
+        184 AMS radyokarbon tarihinin Bayes modellemesi (hakemli)
+        bulgu: konfederasyon ÖNCESİ ayrı köy toplulukları, birbirleriyle
+        ÇATIŞIYORLARDI — konfederasyon o çatışmayı dindirmek için kuruldu
+Pueblo  NPS + Britannica "Pueblo peoples" — "İspanyol öncesi 70'ten fazla
+        köyün HER BİRİ siyaseten ÖZERKTİ, dinî toplulukların başkanlarından
+        oluşan bir konseyle yönetiliyordu"
+```
+
+### YAZILDI — 7/7 · geri okundu · denetim temiz
+```
+kabile    (5)  Mohawk · Oneida · Onondaga · Cayuga · Seneca      1281-1450
+devletsiz (2)  Acoma Pueblo · Taos Pueblo                        1281-1610
+
+yorum_temizle.py  0        denetle.py  0 · SONUÇ temiz
+Değişmez 1c       BELGESİZ 29 → 16 · belgeli 173 → 185
+Boşluk cinsi      kabile 30→35 (+5 benim) · devletsiz 130→132 (+2 benim)
+                  insansiz 9→15 (+6 BENİM DEĞİL — aşağıya bak)
+```
+
+### 🔴 ÇAKIŞMA — SINIF A'yı başkası yazmış, aynı dosyada aynı andaydık
+Yazmaya başladığımda `data/yerlesimler_amerika.js` **zaten `M`**di. Sonradan
+ölçtüm: SINIF A'nın altısı da yazılmış — `bos:"insansiz"` ile.
+🟢 Kim yazdıysa **doğru iş yapmış** ve benim `bit:` önerimden **daha ucuz** bir
+yol bulmuş. İtirazım yok. İki not:
+- **Kayıp yok** (ikisini de geri okudum) ama `§7`nin sessiz veri kaybı
+  senaryosu tam buydu. **Benim hatam:** dosyanın `M` olduğunu **gördüm** ve
+  yine de yazdım; tahtadan "bu dosya kimde" diye sormalıydım.
+- **Tutarsızlık:** altısının beşinde `bit:` **yok**, yalnız Caparra'da var
+  (`bit:"1521-01-01"`). Aynı sınıf, farklı işlem. Karar koordinatörde;
+  dokunmadım.
+
+**Teslim:** tahta M-0045 · `data/yerlesimler_amerika.js` commit'siz (data/
+commit'i Oturum 0'da).
