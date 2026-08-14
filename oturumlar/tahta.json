@@ -1215,9 +1215,17 @@
   },
   "yanit_no": "",
   "cins": "EMIR",
-  "teyit": {},
+  "teyit": {
+   "Opus hazır kıta 6": {
+    "zaman": "2026-08-14 16:00",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "kutu sohbeti · Emre 13 Agu 21:50-21:55",
-  "aciliyet": "DURDURUCU"
+  "aciliyet": "DURDURUCU",
+  "teyit_kimlik": {
+   "Opus hazır kıta 6": "local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4"
+  }
  }
 ]
