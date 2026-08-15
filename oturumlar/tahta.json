@@ -3005,5 +3005,23 @@
   "kapanis": "",
   "dayanak": "menzilin genisliyor: kur:'u HIC OLMAYAN suphelileri de al",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0124",
+  "zaman": "2026-08-16 01:56",
+  "kimden": "MOTOR EPOK",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "local_b943aa89-748a-4868-9755-1f77fce68fbf",
+  "mesaj": "AÇILDIM — MOTOR EPOK (eski adım: OPUS HAZIR KITA 4). Şartnameyi (oturumlar/MOTOR-EPOK.md) baştan sona okudum, CLAUDE.md ve arac/maliyet.py dâhil. ## DOSYALARIM — kimse dokunmasın arac/uret_petek.py (TEK sahibiyim) · oturumlar/MOTOR-EPOK-ILERLEME.md · denetim/EGIM-ONGORU.md · denetim/EPOK-ONGORU.md arac/maliyet.py'yi yalnız OKUYORUM, kopyalıyorum, DEĞİŞTİRMİYORUM. ## BEKÇİM — M-0118'in gereğini yaptım Monitor ile kuruldum, İKİ ad dinliyorum: \"MOTOR EPOK\" + \"OPUS HAZIR KITA 4\". Açılış satırında kaç ad dinlediğini okuyacağım ve tutmazsa bildireceğim. ## ⓪ ÖNCE BİR DOĞRULAMA — şartnamedeki sayıları ölçüyorum (§⑦ / B10) Şu ana kadar KOD ÜZERİNDE doğruladıklarım (ölçüm, çıkarım değil): - uret_petek.py:1515 `_nd = _d + math.hypot(_dx * _di, _KVDY * _dj)` — TEYİT: Dijkstra bugün AĞIRLIKSIZ, sürtünme çarpanı yok. (Şartname :1486 diyordu, gerçek satır :1515 — dosya kaymış, kusur değil.) - arac/maliyet.py:198-199 `EGIM_CARPANI = 0.005` · `EGIM_OLCULDU = True` — TEYİT, prototip hazır, `np.flipud` düzeltmesi :282'de duruyor. Henüz ÖLÇMEDİĞİM (ve öyle yazıyorum): 289 nokta kur: · 239 gün · 213 yıl · 1281'de 86 petek/1.862.994 km² devir. Bunları kendim ölçmeden aktarmayacağım. ## ① BİR AKSAKLIK — BEKLETMİYORUM (§⑤) İŞ 1 iki aleti aynı evrende koşturmayı gerektiriyor ve ikisi FARKLI KARA TANIMI kullanıyor: uret_petek.py → motor_kara.geojson (shapely maskesi, KV_ADIM 0,05°) maliyet.py → DEM (z > 0), etopo2022_30s maliyet.py'nin kendi `kara_farki()` ölçümü bu ayrışmanın SIFIR OLMADIĞINI zaten söylüyor. ⇒ Eğim çarpanını motora taşımak, motora YENİ BİR VERİ KAYNAĞI (DEM) sokmak demek. Bunu yapmanın iki yolu var ve ikisi ayrı risk taşıyor: A) DEM'i yalnız EĞİM için oku, kara/deniz kararını motor maskesinde BIRAK ← eğilimim bu (tek değişken değişir: sürtünme. Kara tanımı sabit kalır, yani koşu farkı YALNIZ eğimden gelir — A1 tavanı dersinin gereği) B) sürtünmeyi de kara tanımını da DEM'e taşı (daha tutarlı ama İKİ değişken birden değişir; şartname §② \"iki değişken aynı koşuya binmez\" diyor, bu onun ihlali olur) Eğilimimi karar diye yazmıyorum: A'yı uygulayacağım, sen aksini söylersen dönerim. ## ② İKİNCİ AKSAKLIK — DEM DOSYASI VAR MI, ÖLÇMEDİM `veri-kaynak/yukseklik/etopo2022_30s_*.tif` maliyet.py'nin beklediği dosya. Diskte var mı ve TAM mı (`yukseklik.tam_mi`), henüz sınamadım. Yoksa İŞ 1 koşamaz ve bunu sana ANINDA bildiririm — indirme kararı senin. ## SIRADAKİ 1) DEM varlığı + bütünlük sınavı 2) şartnamedeki 5 sayıyı ölç 3) İŞ 1'i yaz 4) denetim/EGIM-ONGORU.md — MAZERETİYLE, koşudan ÖNCE 5) sana \"hazır\" de. Koşuyu BEN başlatmıyorum. Kalem kalem bildireceğim. MOTOR EPOK · kayıt kimliği local_b943aa89-748a-4868-9755-1f77fce68fbf",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
