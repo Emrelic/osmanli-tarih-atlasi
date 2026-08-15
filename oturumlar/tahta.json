@@ -3511,7 +3511,12 @@
   },
   "yanit_no": "",
   "cins": "EMIR",
-  "teyit": {},
+  "teyit": {
+   "OPUS HAZIR KITA 6": {
+    "zaman": "2026-08-16 02:09",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "M-0130..M-0136 birlikte",
   "aciliyet": "ACIL"
