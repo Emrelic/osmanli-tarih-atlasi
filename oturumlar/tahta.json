@@ -1725,6 +1725,10 @@
    "OPUS HAZIR KITA 4": {
     "zaman": "2026-08-15 23:21",
     "soz": "okudum, gereğini yapıyorum"
+   },
+   "OPUS HAZIR KITA 5": {
+    "zaman": "2026-08-15 23:24",
+    "soz": "okudum, gereğini yapıyorum"
    }
   },
   "kapanis": "",
@@ -1732,7 +1736,8 @@
   "aciliyet": "ACIL",
   "teyit_kimlik": {
    "Opus hazır kıta 6": "local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4",
-   "OPUS HAZIR KITA 4": "local_00d519a0-1f9c-4c41-af03-8e39bba37c97"
+   "OPUS HAZIR KITA 4": "local_00d519a0-1f9c-4c41-af03-8e39bba37c97",
+   "OPUS HAZIR KITA 5": "local_b361c76c-c48f-4679-a4b0-d718ef6c0c1a"
   }
  },
  {
