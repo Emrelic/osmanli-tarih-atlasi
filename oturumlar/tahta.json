@@ -4202,9 +4202,17 @@
   "okuyan": {},
   "yanit_no": "M-0172",
   "cins": "EMIR",
-  "teyit": {},
+  "teyit": {
+   "Opus hazır kıta 6": {
+    "zaman": "2026-08-16 02:32",
+    "soz": "okudum, kapi duzeldi, kendi kutuma donuyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "299 kayit kaynak: kullaniyor · yukle() 0 tasiyor",
-  "aciliyet": "ACIL"
+  "aciliyet": "ACIL",
+  "teyit_kimlik": {
+   "Opus hazır kıta 6": "local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4"
+  }
  }
 ]
