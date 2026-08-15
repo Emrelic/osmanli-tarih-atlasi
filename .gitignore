@@ -14,3 +14,12 @@ __pycache__/
 # bayatlar. (veri-kaynak/ öteki dosyaları küçük olduğu için takipli.)
 veri-kaynak/yukseklik/*.tif
 veri-kaynak/yukseklik/*.vrt
+
+# ── VIABUNDUS 1.3 (ALTYAPI ⑤) — 77 MB · CC-BY 4.0 ────────────────────
+# Aynı gerekçe: açık lisanslı bir veriyi depoda TAŞIMAK, onu ÜRETEN
+# komutu taşımaktan pahalıdır. Betik + KAYNAK.md TAKİPLİ:
+#     py arac/viabundus_indir.py
+veri-kaynak/viabundus/*.geojson
+veri-kaynak/viabundus/*.zip
+veri-kaynak/viabundus/*.pdf
+veri-kaynak/viabundus/*.gml

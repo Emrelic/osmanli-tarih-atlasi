@@ -1,7 +1,7 @@
 {
   "surum": 1,
   "proje": "Osmanlı Tarih Atlası",
-  "guncelleme": "2026-08-13T01:31",
+  "guncelleme": "2026-08-15T15:18",
   "isler": [
     {
       "id": "T-0001",
@@ -1832,7 +1832,7 @@
     {
       "id": "T-0108",
       "baslik": "Ekran görüntüsü sürüm damgası — panele yayın numarası bas",
-      "hal": "oneri",
+      "hal": "bekleyen",
       "kanal": 6,
       "onem": 3,
       "irilik": 2,
@@ -1847,12 +1847,13 @@
       "girdi": "2026-08-11T02:57",
       "basladi": null,
       "bitti": null,
-      "olcum": null
+      "olcum": null,
+      "onaylandi": "2026-08-14T14:46"
     },
     {
       "id": "T-0109",
       "baslik": "denetle_iddia.py — madde ile kirilma AYNI SEYI mi soyluyor",
-      "hal": "oneri",
+      "hal": "bekleyen",
       "kanal": 6,
       "onem": 3,
       "irilik": 2,
@@ -1867,7 +1868,8 @@
       "girdi": "2026-08-11T02:57",
       "basladi": null,
       "bitti": null,
-      "olcum": null
+      "olcum": null,
+      "onaylandi": "2026-08-14T14:46"
     },
     {
       "id": "T-0110",
@@ -1912,7 +1914,7 @@
     {
       "id": "T-0112",
       "baslik": "Sefer guzergahlarini MALIYET YUZEYININ SAGLAMASI olarak kullan",
-      "hal": "oneri",
+      "hal": "bekleyen",
       "kanal": 6,
       "onem": 3,
       "irilik": 2,
@@ -1927,12 +1929,13 @@
       "girdi": "2026-08-12T10:37",
       "basladi": null,
       "bitti": null,
-      "olcum": null
+      "olcum": null,
+      "onaylandi": "2026-08-14T14:46"
     },
     {
       "id": "T-0113",
       "baslik": "HARITA KENDI BELIRSIZLIGINI SOYLEYEBILSIN — gorsel bir dil",
-      "hal": "oneri",
+      "hal": "bekleyen",
       "kanal": 6,
       "onem": 3,
       "irilik": 2,
@@ -1947,12 +1950,13 @@
       "girdi": "2026-08-12T10:37",
       "basladi": null,
       "bitti": null,
-      "olcum": null
+      "olcum": null,
+      "onaylandi": "2026-08-15T15:18"
     },
     {
       "id": "T-0114",
       "baslik": "ZAMAN CUBUGUNDA VERI KALITESI SERIDI",
-      "hal": "oneri",
+      "hal": "bekleyen",
       "kanal": 6,
       "onem": 3,
       "irilik": 2,
@@ -1967,7 +1971,8 @@
       "girdi": "2026-08-12T10:37",
       "basladi": null,
       "bitti": null,
-      "olcum": null
+      "olcum": null,
+      "onaylandi": "2026-08-15T15:18"
     },
     {
       "id": "T-0115",
@@ -1985,6 +1990,26 @@
       "u": "*",
       "sahip": null,
       "girdi": "2026-08-13T01:31",
+      "basladi": null,
+      "bitti": null,
+      "olcum": null
+    },
+    {
+      "id": "T-0116",
+      "baslik": "Belge-okuyucu baglilik denetimi — her doktrin dosyasi bir skill adiminda gecmeli",
+      "hal": "oneri",
+      "kanal": 6,
+      "onem": 3,
+      "irilik": 2,
+      "nicin": "14 Agustos: KISALTMALAR.md acildi, okuma listesine yazilmadi ve Emre'nin *iii komutu cevapsiz kaldi. Ayni sinif: yeni alet ALETLER.md'ye yazilmazsa cagrilmaz. denetle_sistem'e YEDINCI kontrol: kok dizindeki her .md ve kutu/ altindaki her .py, en az bir SKILL.md'de ya da ALETLER.md'de GECIYOR MU? Gecmiyorsa 'yetim belge' diye bildirsin. Ucuz (grep), ve bugun bir turu kurtarirdi.",
+      "olcek": "mm3",
+      "ust": null,
+      "z": "*",
+      "m": "*",
+      "k": "*",
+      "u": "*",
+      "sahip": null,
+      "girdi": "2026-08-14T09:48",
       "basladi": null,
       "bitti": null,
       "olcum": null
