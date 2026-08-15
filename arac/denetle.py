@@ -1268,6 +1268,71 @@ def degismez4(Y):
     return ihlal, kunyesiz, True
 
 
+# ---------------- Değişmez 5 — HAYALET YERLEŞİM ---------------------------
+# 🔴 DOĞURAN SORU (Emre, 16 Ağustos 2026): *"sonradan doğan yerleşim kendi
+# bölgesini kapmalı"* — ve bu soru sorulunca görüldü ki hiçbir denetim
+# **"bu yerleşim o tarihte VAR MIYDI"** diye sormuyordu.
+#
+# `Değişmez 4` bunun DEVLET ekseni: *"bu devlet o tarihte yaşıyor muydu"*.
+# Bu, aynı sorunun YERLEŞİM ekseni ve boşluğu ölçüldü:
+#     `kur:` yazılı nokta   289 / 2527   (%11,4)
+#     `kur:` YOK           2238         ⇒ motor "1281'de de vardı" sayar
+# 1632'de kurulmuş bir Sibirya ostrogu, `kur:` yazılmadıysa 1281'de
+# sahnededir ve o günden beri komşularının toprağını oyar.
+#
+# 🔴 İKİ DAL, VE İKİSİ AYRI KOVADIR — birleştirmek ikisini de bozar:
+#   5a ÇELİŞKİ  `kur:` VAR ve bir dönem ondan ÖNCE başlıyor.
+#               Bu KESİN hata: veri kendi kendisiyle çelişiyor. Tavan 0.
+#   5b ŞÜPHE    `kur:` YOK ve en erken dönem 1281'den ÇOK sonra başlıyor.
+#               Bu bir İHLAL DEĞİL, bir BORÇ LİSTESİDİR — "kur: yazılmamış
+#               olabilir" adayları. Çıkış kodunu ETKİLEMEZ.
+# ⚠️ 5b'yi ihlal saymak yanlış olurdu: bir nokta gerçekten eski olup da
+# ilk kaydı geç başlıyor olabilir (kaynak susuyordur, nokta yeni değildir).
+# ⇒ `§11`in *"ölçülemedi ≠ temiz"* kuralının ters yüzü: **şüphe ≠ ihlal.**
+# Ama şüpheyi SAYMAMAK da yanlış — sayılmayan borç, yarın kusur diye
+# yeniden keşfedilir.
+SUPHE_ESIK_YIL = 100   # 1281 + 100 = 1381'den sonra başlayan ilk dönem
+BEKLENEN_HAYALET_YERLESIM = 0   # 5a tavanı — çelişki AFFEDİLMEZ
+
+
+def degismez5(Y):
+    """(celiskiler, supheliler) — 5a ihlal, 5b borç listesi."""
+    celiski, suphe = [], []
+    for y in Y:
+        donemler = []
+        for k in ("d", "s", "v"):
+            for p in (y.get(k) or []):
+                f = p.get("f")
+                if f:
+                    donemler.append((f, k, p.get("d") or ""))
+        if not donemler:
+            continue
+        donemler.sort()
+        ilk = donemler[0][0]
+        kur = (y.get("kur") or "").strip()
+        if kur:
+            # 5a — dönem kuruluştan ÖNCE başlıyor mu
+            # 🔴 SIRA ÖNEMLİ: `_gun_farki(a, b)` = a − b (gün).
+            # İlk yazımda `_gun_farki(ilk, kur)` yazdım ve denetim
+            # NORMALİ ihlal saydı: Doha kur:1825 · ilk dönem 1871 →
+            # "46,7 yıl ÖNCE" diye bağırdı, oysa dönem kuruluştan SONRA.
+            # Beş "ihlal"in beşi de böyleydi. ⇒ Alet öttü, ama BAŞKA BİR
+            # SORUYU sordu — *"ölçüm doğru, çıkarım yanlış"* ailesinin
+            # işaret yüzü, ve onu YALNIZ ÇIKTIYI OKUMAK ele verdi.
+            g = _gun_farki(kur, ilk)     # kur − ilk; pozitifse dönem ÖNCE
+            if g is not None and g > HAYALET_TOLERANS_GUN:
+                celiski.append((y["ad"], kur, ilk, donemler[0][2],
+                                g / 365.25))
+        else:
+            # 5b — kur: yok ve ilk dönem çok geç ⇒ kuruluş yazılmamış olabilir
+            if ilk > "%04d-01-01" % (1281 + SUPHE_ESIK_YIL):
+                suphe.append((y["ad"], ilk, donemler[0][2],
+                              round(y.get("lat", 0), 2),
+                              round(y.get("lon", 0), 2)))
+    suphe.sort(key=lambda r: r[1])
+    return celiski, suphe
+
+
 # ---------------- Değişmez 3z — kd:'nin ZAMAN AYAĞI (ALTYAPI ④) ----------
 # 🔴 NİÇİN AYRI BİR DAL: `degismez3` yukarıda `y["m"]`i okuyor — ZAMANSIZ
 # alan. Yani çelişkiyi ölçen aletin kendisi, çelişkinin SEBEBİNİ kullanıyor.
@@ -2269,6 +2334,32 @@ def main():
                   f"İHLAL DEĞİL ama TEMİZ de değil")
             for kim, n in sorted(kim_say.items(), key=lambda x: -x[1])[:6]:
                 print(f"                 {kim:<20} {n} dönem")
+
+    # ── Değişmez 5 — HAYALET YERLEŞİM ────────────────────────────────
+    celiski, suphe = degismez5(Y)
+    n5 = len(celiski)
+    durum5 = "✓" if n5 <= BEKLENEN_HAYALET_YERLESIM else "✗"
+    if n5 > BEKLENEN_HAYALET_YERLESIM:
+        ihlal = True
+    print(f"\nDeğişmez 5  {durum5}  {n5} çelişki "
+          f"(beklenen {BEKLENEN_HAYALET_YERLESIM}) — dönem `kur:`dan ÖNCE başlıyor")
+    for ad, kur, ilk, kim, yil in celiski[:12]:
+        print(f"    {ad:<24} kur:{kur}  ilk dönem {ilk} ({kim})  "
+              f"{yil:.1f} yıl ÖNCE")
+    if n5 > 12:
+        print(f"    … {n5 - 12} tane daha (--ayrinti)")
+    # 5b — BORÇ LİSTESİ, ihlal DEĞİL. Çıkış kodunu etkilemez.
+    print(f"Değişmez 5b i  {len(suphe)} nokta: `kur:` YOK ve ilk dönemi "
+          f"{1281 + SUPHE_ESIK_YIL}'den sonra başlıyor")
+    print( "               ⇒ İHLAL DEĞİL, BORÇ LİSTESİ. Bir nokta gerçekten")
+    print( "                 eski olup ilk kaydı geç başlıyor OLABİLİR — ama")
+    print( "                 sayılmayan borç yarın kusur diye keşfedilir.")
+    if suphe:
+        for ad, ilk, kim, la, lo in (suphe if args.ayrinti else suphe[:10]):
+            print(f"                 {ad:<26} ilk {ilk} ({kim:<14}) "
+                  f"{la:7.2f},{lo:8.2f}")
+        if not args.ayrinti and len(suphe) > 10:
+            print(f"                 … {len(suphe) - 10} tane daha (--ayrinti)")
 
     # Ek denetim — dönem sağlığı (üç değişmezden biri değil, VERI-YAPISI.md kuralı)
     ds = donem_sagligi(Y)
