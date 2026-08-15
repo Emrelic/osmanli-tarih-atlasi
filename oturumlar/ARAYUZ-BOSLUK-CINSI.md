@@ -121,6 +121,18 @@ Tam sözlük: `C:/Users/emrem/OneDrive/Desktop/ClaudEmre/KISALTMALAR.md`
        ⚠️ Cevap yazmak YETMEZ — İŞİ YAP.
 *yyy   yapılacaklar · yapılanlar · yapılmakta olanlar — SAYIYLA
 *iii   internet · iş · irtibat — üçünü de ÖLÇEREK raporla
+*kii   KOORDİNATÖRDEN İŞ İSTE
+       İşin bittiyse boş DURMA ve kendi iş SEÇME — İSTE:
+         ① durumunu SAYIYLA bildir ("24 → 7", "şu dosya bende")
+         ② neyi bulamadığını yaz ("bulunamadı" bir SONUÇtur)
+         ③ iş iste — ve varsa ÖNERİNİ yaz, gerekçesiyle
+       🔴 "İş istemek" ile "kendi iş seçmek" AYNI ŞEY DEĞİLDİR ve fark
+       ölçüldü: bir oturum 25 saat boşta bekledi, kimse "bekle" demediği
+       için kendi iş seçti, seçtiği iş MÜKERRER çıktı ve raporunu kendi
+       çöpe attı.
+       ⚠️ Koordinatörün cevabı ÜÇ ŞIKTAN biri olmak ZORUNDA — yeni iş ·
+       emeklilik · BEKLE (ne kadar, neyi beklediğin yazılı). Cevap
+       gelmezse tekrar sor: SESSİZLİK BİR ŞIK DEĞİLDİR.
 ```
 
 🔴 **VE `*mgy` BİR ARIZANIN İŞARETİDİR.** Bir oturum ancak KENDİSİNE bir
