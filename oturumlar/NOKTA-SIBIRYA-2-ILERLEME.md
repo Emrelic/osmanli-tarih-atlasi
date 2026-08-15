@@ -88,8 +88,59 @@ zincirini **kullanmıyor** (kutuda 1900 sonrası tek kayıt var, o da
 
 ---
 
-## ③ SIRADAKİ
+## ③ YAKUTİSTAN + KAMÇATKA 1281 KESİTİ — 3 nokta eklendi ✅
+
+### Ölçüm önce, nokta sonra
+Sorulan soru *"kaç nokta var"* değil: **`§2` gereği bu alan kimin peteğine
+emiliyor?** 1281'de **sahnede olan** noktalar ayrıldı (`kur:`ı 1281'den
+sonra olan nokta o gün sahnede DEĞİLDİR) ve ızgara tarandı:
+```
+1281'de sahnede            2241 / 2527 nokta
+500 km'den uzak hücre      8 · EN KÖTÜSÜ 751 km
+```
+
+### 🔴 Ve sebep tek bir yerde toplandı — KAMÇATKA
+```
+56°K 160°D → "Koryak toprakları"  751 km
+56°K 168°D → "Koryak toprakları"  678 km
+56°K 152°D → "Ohotsk"             642 km
+```
+Çünkü **Petropavlovsk'un `kur:`ı 1740** — yarımadanın tek noktası 1281'de
+sahnede değil. Kamçatka o gün **boştu** ve yüzlerce km öteden emiliyordu.
+📌 NOKTA SİBİRYA'nın kapattığı *"Çukotka 2.106 km öteden emiliyor"*
+kusurunun kardeşi: orada **kimlik yanlıştı**, burada **nokta hiç yoktu.**
+
+### Eklenenler ve boşluğun CİNSİ
+```
+Kamçatka (İtelmen toprakları)         55,000 / 158,500   veri-yok
+Kolıma havzası (Yukagir toprakları)   66,000 / 152,000   veri-yok
+Doğu Sibirya kıyısı (Çuvan-Yukagir)   70,000 / 161,000   veri-yok
+```
+Üçü de **`veri-yok`**, ve bu bir tercih değil sınavın sonucu: TDV bu
+halkları (İtelmen · Yukagir · Çuvan) **kapsamıyor**, akademik literatürü
+ise **aramadım**. `devletsiz` deseydim *"bir daha bakılmasın"* demiş
+olurdum — yani ölçmediğim bir şeyi ölçmüş gibi gösterirdim.
+⇒ Çukotka'ya bakılmayacak (kaynak konuştu), **buraya bakılacak.**
+
+### Sonuç — 8 boşluğun 7'si kapandı
+```
+56°K 152°D  642 → 425 km ✓      64°K 152°D  555 → 223 km ✓
+56°K 160°D  751 → 146 km ✓      68°K 160°D  567 → 226 km ✓
+56°K 168°D  678 → 609 km 🔴     72°K 160°D  709 → 226 km ✓
+```
+⚠️ Kalan tek hücre **56°K / 168°D — Bering Denizi**, Kamçatka'nın ~300 km
+doğusunda açık su. Kara maskesi zaten kesiyor ⇒ nokta gerekmiyor.
+**Ölçüm bu; "deniz olduğu için önemsiz" çıkarımını da ayrı yazıyorum.**
+
+### Denetim
+```
+3 km ihlali   0   (en yakın 21,3 km)
+yapı          mevcut boşluk noktalarıyla birebir: tur:"bolge" · bos:true ·
+              s/d/v 0/0/0 · neden: alanı CİNS önekiyle başlıyor
+yorum         TEMİZ
+```
+
+## ④ SIRADAKİ
 - Dört şüpheliyi (Çerdın · Pustozersk · Ust-Tsilma · Yelabuga) kaynağa
-  sorup `kur:` teklifi çıkarmak — **VERİ ZAMAN yazacak, ben yazmam**
-- Yakutistan ve Kamçatka'nın 1281 kesiti
+  sorup `kur:` teklifi çıkarmak — **ölç ve BİLDİR, YAZMA** (M-0147)
 - 🔴 Dosya `girdi.py`ye **bağlanmadı** — koordinatörde

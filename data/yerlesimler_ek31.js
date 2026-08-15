@@ -104,6 +104,49 @@ window.YERLESIMLER_EK31 = [
      {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
   d:[], v:[] },
 
+// ═════════ 1281 KESİTİ — YAKUTİSTAN ve KAMÇATKA ═════════
+//
+// 🔴 ÖLÇÜM ÖNCE, NOKTA SONRA. Sorulan soru "kaç nokta var" DEĞİL:
+//   "§2 gereği bu alan KİMİN peteğine emiliyor?" Bunun için 1281'de
+//   SAHNEDE olan noktalar ayrıldı (kur:'u 1281'den sonra olan nokta o gün
+//   sahnede DEĞİLDİR) ve 56-72°K / 112-176°D ızgarası tarandı:
+//     1281'de sahnede: 2241 / 2527 nokta
+//     500 km'den uzak hücre: 8 · EN KÖTÜSÜ 751 km
+//
+// 🔴 VE SEBEP TEK BİR ALANDA TOPLANIYOR — KAMÇATKA:
+//     56°K 160°D → en yakın 1281 noktası "Koryak toprakları", 751 km
+//     56°K 152°D → "Ohotsk", 642 km
+//     56°K 168°D → "Koryak toprakları", 678 km
+//   Çünkü Petropavlovsk-Kamçatskiy'in `kur:`ı 1740 — yani yarımadanın TEK
+//   noktası 1281'de sahnede DEĞİL. Kamçatka o gün BOŞ ve komşusuna emiliyor.
+//   📌 Bu, NOKTA SİBİRYA'nın kapattığı "Çukotka 2.106 km öteden emiliyor"
+//     kusurunun KARDEŞİ — orada kimlik yanlıştı, burada nokta HİÇ YOK.
+//
+// ⚠️ BOŞLUĞUN CİNSİ — ve üçünde de aynı hüküm, aynı gerekçeyle:
+//   Şartname üç kova veriyor: `kabile` · `devletsiz` · `veri-yok`.
+//   Sınav (`§11`, NOKTA SİBİRYA): kaynak AÇIKÇA konuşuyorsa `devletsiz`,
+//   SUSUYORSA `veri-yok`.
+//   ⇒ TDV bu coğrafyayı KAPSAMIYOR (Sibirya kapsaması %75 ölçülmüştü ama
+//     o Sibir Hanlığı/Altın Orda ekseninde; İtelmen · Yukagir · Çuvan
+//     halkları için madde YOK). Akademik literatürü ise ARAMADIM.
+//   ⇒ Bu yüzden üçü de **`veri-yok`** — ve bu "boş" demek DEĞİL,
+//     "BAKILACAK" demek. `devletsiz` deseydim bir daha bakılmazdı ve
+//     ölçmediğim bir şeyi ölçmüş gibi göstermiş olurdum.
+//   📌 Farkı bir sonraki oturum için yazıyorum: Çukotka'ya bakılmayacak
+//     (kaynak konuştu), BURAYA BAKILACAK.
+
+{ ad:"Kamçatka (İtelmen toprakları)", tur:"bolge", lat:55.000, lon:158.500, g:0, k:0,
+  bos:true, neden:"veri-yok — 1281'de yarımadada sahnede nokta YOK (Petropavlovsk kur:1740) ve §2 gereği 642-751 km öteden emiliyordu. İtelmen siyasî örgütlenmesi için TDV'de madde yok, akademik literatür ARANMADI.",
+  s:[], d:[], v:[] },
+
+{ ad:"Kolıma havzası (Yukagir toprakları)", tur:"bolge", lat:66.000, lon:152.000, g:0, k:0,
+  bos:true, neden:"veri-yok — 64°K/152°D hücresi en yakın 1281 noktasına 555 km. Yukagir siyasî örgütlenmesi için TDV'de madde yok, akademik literatür ARANMADI.",
+  s:[], d:[], v:[] },
+
+{ ad:"Doğu Sibirya kıyısı (Çuvan-Yukagir)", tur:"bolge", lat:70.000, lon:161.000, g:0, k:0,
+  bos:true, neden:"veri-yok — 68-72°K / 152-168°D hücreleri 507-709 km uzakta; kuzey kıyı şeridi 1281'de noktasızdı. Kaynak ARANMADI.",
+  s:[], d:[], v:[] },
+
 ];
 
 // ═══════════ YAZILMAYANLAR — üçü de gerekçesiyle ═══════════
