@@ -452,6 +452,19 @@ VARSAYILAN = {
 # Bir alanı buraya eklemek "motor bunu okuyor" demek DEĞİLDİR; "bu alanın
 # varlığından haberdarım" demektir. Hangi aracın okuduğu yorumda yazılı.
 BILINEN_ALANLAR = {
+    # 🔴 `kaynak` 16 Ağustos 2026'da EKLENDİ ve gecikmesi ölçüldü:
+    # eklendiği anda veride ZATEN 299 kayıt onu kullanıyordu. Yani
+    # ayrıştırıcı, projenin **kırmızı çizgisinin** ürettiği alanı
+    # tanımıyordu — `CLAUDE.md §4`: *"Kaynağı yazılmayan bilgi, kaynağı
+    # olmayan bilgiden ayırt edilemez"* ve `kaynak:` zorunlu.
+    # ⇒ Kural yazılmış, VERİ yazılmış, ama ALET güncellenmemişti.
+    # Bir araştırma oturumu (Okyanusya partisi) kabul kapısının
+    # doğrulama adımında yakaladı — kapı ilk kullanımında iş gördü.
+    # 📌 `§11`in *"bir ders veriye serbest metin olarak inerse inmiş
+    # sayılmaz"* dersinin TERSİ: burada ders veriye DÜZGÜN indi,
+    # inmeyen ALETİN kendisiydi.
+    "kaynak": "TDV slug ya da akademik kaynak · `bulunamadı` da geçerli "
+              "bir DEĞERDİR (§4 kırmızı çizgi)",
     "ad":  "zorunlu — benzersiz yerleşim adı",
     "lat": "zorunlu — enlem",
     "lon": "zorunlu — boylam",
