@@ -2385,7 +2385,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-15 23:35"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
