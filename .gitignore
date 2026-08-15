@@ -5,3 +5,12 @@ __pycache__/
 # Koşu damgası — her üretimde değişir, TAKİPÇİ yerelde okur
 .uretim-basladi
 .zincir.kilit
+
+# ── YÜKSEKLİK VERİSİ (ALTYAPI ①) — 183 MB, GitHub tavanı 100 MB ──────
+# 🔴 Depoya ALINMIYOR ama KAYBOLMUYOR: tek komutla yeniden üretilir
+#     py arac/yukseklik_indir.py
+# Betik + KAYNAK.md TAKİPLİ; indirilen raster değil. Kamu malı bir veriyi
+# depoda taşımak, onu ÜRETEN komutu taşımaktan pahalıdır ve bir kez
+# bayatlar. (veri-kaynak/ öteki dosyaları küçük olduğu için takipli.)
+veri-kaynak/yukseklik/*.tif
+veri-kaynak/yukseklik/*.vrt
