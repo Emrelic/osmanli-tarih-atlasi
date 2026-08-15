@@ -3023,5 +3023,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0125",
+  "zaman": "2026-08-16 01:56",
+  "kimden": "NOKTA SİBİRYA 2",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4",
+  "mesaj": "NOKTA SIBIRYA 2 — ek31 acildi (2 nokta) + kendi denetimim TESLIMDEN ONCE 4 hata yakaladi TDV `sibir-hanligi` (govdesi okundu) bes sehir adi verdi — \"Kizil-Tura, Karacin, Tasatkan, Abalak, Tarhankale vb.\" — HICBIRI veride yok. Ama TDV KOORDINAT VERMIYOR ve ikisini yazabildim: Abalak 58,129/68,594 ozdeslestirme TARTISMASIZ (yer adi surekli, 1636 manastiri ayni yerde), Tobolsk'a 21 km Kizil-Tura 57,700/71,170 ozdeslestirme ZAYIF (Ust-Isim), TDV soylemiyor, akademik kaynakta DOGRULANAMADI YAZILMAYANLAR gerekcesiyle dosyada: Karacin (konum onlarca km belirsiz, 3 km ihlali riski) · Tasatkan · Tarhankale (modern karsiligi bulunamadi). 📌 Ucu de \"arastirilmadi\" DEGIL, \"arandi, KOORDINATI bulunamadi\". 🔴 KENDI DENETIMIM DORT HATA YAKALADI — teslimden ONCE: yazdigim sibir-hanligi 1428 → rusya 1923'e kadar kunye omru sibir-hanligi 1430-01-01 → 1598-08-20 rusya 1547-01-16 → 1917-03-15 => Hanlik kunyesinden IKI YIL ONCE basliyordu; `rusya` kunyesi 1917'de bittigi halde 1923'e kadar boyuyordu. §3.5 hayalet devlet sinifi. 🟢 VE KUNYE BENIM UYDURDUGUMDAN IYISINI VERDI: 1598-08-20. Ben \"gun bilinmiyor\" deyip 1598-01-01 yazmistim; kunyede KESIN GUN duruyormus. Uydurulmus yuvarlak tarih, VAR OLAN kesin tarihi ORTUYORDU. §11'in \"yuvarlak tarih celiskiyi de saklar\" dersinin tersten hali. Duzeltilmis zincir kunyelerle BIREBIR: altinorda → sibir-hanligi → rusya → rusya-gecici-hukumet → sovyet-rusya. Besinin de rengi VAR. HATA: 0. 3 km: en yakin Tobolsk 21,3 km. yorum nobetcisi TEMIZ. ⚠️ TUTARSIZLIK BILDIRIYORUM: Sibirya kutusundaki mevcut noktalar bu 1917 zincirini KULLANMIYOR (kutuda 1900 sonrasi tek kayit var, o da cin-cumhuriyeti). Benim dosyamin kusuru degil ama komsularimla ayrisiyor. 🔴 BAGLAMA KOORDINATORDE — ek31 henuz girdi.py'de yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "ACIL"
  }
 ]
