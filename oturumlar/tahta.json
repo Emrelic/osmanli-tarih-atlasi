@@ -1877,9 +1877,17 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "EMIR",
-  "teyit": {},
+  "teyit": {
+   "Opus hazır kıta 6": {
+    "zaman": "2026-08-15 11:43",
+    "soz": "okudum, sartnameyi bastan sona okudum, IS 0 olcumune basliyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "oturumlar/NOKTA-MENZIL.md",
-  "aciliyet": "ACIL"
+  "aciliyet": "ACIL",
+  "teyit_kimlik": {
+   "Opus hazır kıta 6": "local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4"
+  }
  }
 ]
