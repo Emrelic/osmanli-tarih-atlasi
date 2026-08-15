@@ -1,5 +1,5 @@
 {
- "_damga": "2026-08-15 23:58",
+ "_damga": "2026-08-16 00:07",
  "_haller": {
   "ALDIM": {
    "aciklama": "şartname ulaştı, başlıyorum",
@@ -1018,6 +1018,11 @@
      "hal": "EMEKLI",
      "not": "HAYALET — 15 Agu olcumu: dokumu YOK (.claude/projects), list_sessions 40 oturumda YOK. Ad 'Opus hazir kita 5' bugun local_b361c76c-...'e gecti.",
      "z": "2026-08-15 23:58"
+    },
+    {
+     "kova": "emekli",
+     "not": "",
+     "z": "2026-08-16 00:07"
     }
    ],
    "gorev": "13 Agu canli olcumunde bulundu",
@@ -1027,7 +1032,7 @@
    "hal_zaman": "2026-08-15 23:58",
    "kimlik": "local_597c562e-e7ff-46d9-b338-c758e39cb4d3",
    "kimlik_uzayi": "kayit",
-   "kova": "hazir-kita",
+   "kova": "emekli",
    "model": "opus",
    "olcum_zamani": "2026-08-15 00:39",
    "son_hareket": "2026-08-12T22:13:45.731Z",

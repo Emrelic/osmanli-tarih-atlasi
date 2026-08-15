@@ -1,62 +1,94 @@
-<!-- DURUM: IS-ISTIYORUM | 2026-08-15 23:35 | 0/0 — bana verilmis is yok, 13 mesaj teyitlendi, bostayim -->
+<!-- DURUM: BITTI | 2026-08-16 00:10 | kimlik duzeltildi + defter_hayalet.py yazildi: 24 -> 6 -> 0 hayalet -->
 
 # OPUS HAZIR KITA 5 — ilerleme
 
 - **Kimlik:** `local_b361c76c-c48f-4679-a4b0-d718ef6c0c1a`
-  (scratchpad yolunun sonundaki UUID + `.claude/projects/.../b361c76c-….jsonl` ile dogrulandi — M-0015 yontemi)
-- **Model:** Opus · **Dizin:** atlas koku
-- **Sartname:** YOK. `oturumlar/` altinda bana ait dosya yazilmadi.
-- **Elimdeki dosyalar:** yalniz bu dosya. `data/*` · `arac/*` · `js/*` · kok `*.md` — hicbirine dokunmadim.
+- **Model:** Opus · **Dizin:** atlas koku · **Sartname:** YOK (Emre dogrudan is verdi)
+- **Elimdeki dosyalar:** bu dosya · `arac/defter_hayalet.py` (YENI) ·
+  `oturumlar/defter.json` + `DEFTER.md` (Emre'nin acik talimatiyla, §7 disina cikildi)
 
 ---
 
-## 1. Bugun ne yaptim — tek is, Emre'nin dogrudan verdigi `*mgy`
+## 1. `*mgy` — Emre'nin ilk isi
 
-`*MGY` yazildi, **tanimadim**. Tahmin etmedim; once aradim.
+`*MGY` yazildi, **tanimadim.** Aradim: `ClaudEmre/` tamami `-i "MGY"` -> **0 eslesme**
+(~23:05). Sordum. Sonra `KISALTMALAR.md:30`da **buldum** (~23:30) — *"yukaridaki
+mesajin geregini yap"*. Commit `dcd6ed4` ise **15:41:50**. Celiski OLCULDU,
+**cikarim YAPILMADI** (OneDrive senkronu / `git pull` / arama kusuru — ayirt edilmedi).
 
-| Adim | Olcum |
-|---|---|
-| `ClaudEmre/` tamami, `-i "MGY"` (~23:05) | **0 eslesme** |
-| Proje koku, `-i "MGY"` | 0 (yalniz `Namgyal`, ilgisiz) |
-| ⇒ Emre'ye sordum | acilimini bilmeden uygulamak `uydurma` olurdu |
-| Emre tekrarladi (`*mgy`) → transkript aramasi | KOORDINATOR dokumunde: *"…ini ben durtuyorum `*mgy` yaziyorum"* |
-| `KISALTMALAR.md` yeniden okundu (~23:30) | **satir 30'da VAR** — *"yukaridaki mesajin geregini yap"* |
+Geregi: tahta okundu -> **13 mesaj**, **13/13 teyit** (geri okumayla dogrulandi),
+`M-0095` yazildi (M-0024 yoklama cevabi + is istegi).
 
-### 🔴 Ve bir CELISKI olctum — ACIKLAYAMIYORUM, hukum vermiyorum
-```
-git log KISALTMALAR.md   dcd6ed4  2026-08-15 15:41:50  "*mgy … Emre 15 Agustos"
-benim grep'im            ~23:05               0 ESLESME
-benim grep'im            ~23:30               5 DOSYADA eslesme
-```
-Commit 15:41'de atilmis; ben 23:05'te ayni dosyada **bulamadim.** Uc ihtimal
-var ve **AYIRT ETMEDIM:** (a) OneDrive senkron gecikmesi (b) arada `git pull`
-(c) benim aramamda bir kusur. ⇒ `B10`: olctum, **cikarim yapmiyorum.**
-
-📌 Sonucu ne olursa olsun **bedeli gercek**: bir isci oturum (ben) kisaltmayi
-cozemedi ve Emre'ye bir tur geri sordu. Bu, `OPUS HAZIR KITA 4`un M-0091'de
-bildirdigi *"sozluk eksik dogdu"* bulgusunun **bagimsiz ikinci vakasi** —
-ve o bulgunun *kayitta var, isciye ulasmiyor* tarafini olcuyor.
-
-## 2. `*mgy`nin geregi — yapildi
+## 2. "Sartnameyi almadin mi?" — kusur kanalda degil DEFTERDE
 
 ```
-py arac/tahta.py oku --kim "OPUS HAZIR KITA 5"     → 13 mesaj (tahtada 94)
-13 mesajin 13'une TEYIT verildi                     → geri okumayla dogrulandi
+DEFTER.md:20  "Opus hazir kita 5" -> local_597c562e-...   HICBIR kaynakta YOK
+gercek                            -> local_b361c76c-...   benim kimligim
 ```
-M-0002 · M-0003 · M-0015 · M-0018 · M-0019 · M-0020 · M-0021 · M-0024 ·
-M-0046 · M-0047 · M-0056 · M-0059 · M-0065
+⇒ Deftere yazilmis adres var olmayan bir oturumu gosteriyordu. **Kanal calissa
+bile teslim sessizce yutulurdu:** koordinator *"gonderdim"* der, oturum
+*"almadim"* der, **ikisi de dogrudur.**
 
-⚠️ Teyit **geri okunarak** dogrulandi (`tahta.json` taramasi: 13). `M-0047`in
-dersi: *"arac kendi eyleminin SONUCUNU degil DENEMESINI raporluyor."*
-Ve `M-0093`un dersi: **okundu ≠ teyit** — okuyup teyit vermemek, gorunurde
-okumus ama taahhutte olmayan bir satir uretir.
+**Duzeltildi** (`defter.py` kendi araciyla, elle JSON duzenlenmedi):
+- benim satirim yazildi (`kaydet` + `hal HAZIR`)
+- eski satir **SILINMEDI, DAMGALANDI**: `hal EMEKLI` + `kova emekli`
+  (silmek dersi de siler; damgalamak dersi korur)
 
-## 3. Yarim ne var — hicbir sey
+⚠️ **Ad cakismasi bilerek birakildi:** `coz "OPUS HAZIR KITA 5"` artik iki satir
+gosteriyor ve *"KIMLIKLE gonder"* diye uyariyor. Ikisi de gercekten o adi tasidi;
+tarihi silmek yerine belirsizligi GORUNUR kildim.
 
-Elimde yarim olcum, yarim sayi, cikmaz sokak **yok**. Yukaridaki celiski
-tek acik kalemim ve **bu dosyaya yazildi** (sende kalan bilgi kurtarilamaz —
-M-0024).
+## 3. 🔴 DENETIM IKI KEZ YANLIS KANITA DAYANDI — asil bulgu bu
 
-## 4. Durum
+| surum | kanit | hukmu | gercek |
+|---|---|---|---|
+| 1 | `.claude/projects/**/<uuid>.jsonl` | **24 hayalet** | 24'u de YANLIS ALARM |
+| 2 | `list_sessions` dokumu ("tek otorite") | **6 hayalet** | en az 4'u YANLIS |
+| 3 | **uc kaynagin BIRLESIMI** | **0 hayalet** | temiz, `cikis 0` |
 
-**BOSTAYIM. Kendi is SECMIYORUM** (M-0020). Iş istedim: tahta M-0095.
+**Surum 1'i ne curuttu:** `local_17712720` (KOORDINATOR, O ANDA CALISIYOR) ·
+`b943aa89` (KUNYE MACARISTAN) · `cc230a98` (RENK 3) — ucunun de dokumu YOK.
+**Surum 2'yi ne curuttu:** alti "hayalet"in dordu tahtaya BUGUN yazmis
+(`NOKTA MENZIL` 23:01'de M-0088'i yazdi).
+
+### 🔴 VE UCUNCU OLCUM IKISINI DE ACIKLADI — IKI AYRI KIMLIK EVRENI VAR
+```
+dokum uuid'leri   133
+list_sessions     118
+KESISIM             2      ← yalniz iki kimlik her ikisinde birden
+```
+Bu iki kaynak **ayni seyi olcmuyor.** Biri otekinin eksigi degil, neredeyse
+**ayrik iki kume.** Bir kimligin "yok" olmasi, **hangi kumede bakildigina** bagli.
+
+📌 **DERS (bu projede yeni):** `C13` bir denetimin iki YOLUNU sinar (gecme ·
+atesleme) ama **KANIT KAYNAGINI sinamaz.** Surum 1 kendi C13 sinavini
+**GECMISTI** — cunku sinav sahte veriyle kosuyordu ve sahte veri ayni yanlis
+varsayimi tasiyordu. ⇒ **Ucuncu soru sart: "kanitim gercekten o seyi mi
+olcuyor?"** ve cevabi **BILINEN bir vakayla** sinanir, sahte veriyle asla.
+
+## 4. Teslim
+
+- `arac/defter_hayalet.py` — uc kanit (`canli` ∪ `dokum` ∪ `tahta`),
+  dort kova + ad kaymasi, `--kendi-testi` ile **yedi dal** ayri ayri zorlanir
+- Kosu: `KANITLI 98 · HAYALET 0 · YOK-EMEKLI 1 · OLCULEMEDI 0 · AD KAYMASI 4` · cikis 0
+
+### 🟠 KAPATILMAYAN BULGU — 4 AD KAYMASI (koordinatorun karari)
+```
+Opus hazir kita 4   -> canli basligi KUNYE MACARISTAN
+Opus hazir kita 8   -> canli basligi NOKTA HALKA 1
+Sonnet hazir kita 7 -> canli basligi ARAYUZ BOSLUK CINSI
+VERI DEVLET (Ranking) -> VERI DEVLET
+```
+Ucu de `hazir-kita` kovasinda **HAZIR** gorunuyor ama fiilen **baska bir isin
+ustunde.** ⇒ Koordinator "bosta uc oturum var" sanabilir. Cozumu var:
+`py arac/defter.py olcum <dokum.json>` adlari senkronlar — ama **cok satiri
+degistirir ve is dagitimini etkiler**, o yuzden BEN KOSMADIM. Karar koordinatorde.
+
+### 🟡 OLCULMEDI — acikca yaziyorum
+- `list_sessions` **cagiran oturumu listelemez**; kendi satirimi dokume ELLE ekledim.
+  Koordinator kendi dokumunu alirken bunu yapmazsa **kendini hayalet sanar.**
+- Iki kimlik evreninin NICIN ayrik oldugunu olcmedim. **Hipotez** (sinanmadi):
+  `send_message` `list_sessions` kimligini ister; proje 14 Agustos'ta
+  scratchpad-turevi kimlige gecti (M-0015). Ikisi ayri uzaysa, *"send_message
+  calismiyor"* hukmunun sebebi **bozuk kanal degil YANLIS ADRES** olabilir.
+  Tek adimda sinanir: bir isciye `list_sessions` kimligiyle mesaj at, vardi mi diye sor.

@@ -55,7 +55,7 @@ Ad ne tekildir ne kararlı — bir günde üç zarar bundan doğdu:
 | ⬛ EMEKLI | NOKTA HALKA-2 1 | eski işçi — kürasyon koordinatörde (emekli/c | ? | emir-bekleyen | — | — | `local_2cb2da04-ac09-48de-95e2-21df20edcec8` |
 | ⬛ EMEKLI | NOKTA HALKA-2 2 | eski işçi — kürasyon koordinatörde (emekli/c | ? | emir-bekleyen | — | — | `local_72db58e6-1b2d-4747-a90f-3554ddff5d25` |
 | ⬛ EMEKLI | NOKTA HALKA-2 3 | eski işçi — kürasyon koordinatörde (emekli/c | ? | emir-bekleyen | — | — | `local_781b07b5-ad58-4532-b8d6-ff880fbc8cb1` |
-| ⬛ EMEKLI | Opus hazır kıta 5 | 13 Agu canli olcumunde bulundu | opus | hazir-kita | — | — | `local_597c562e-e7ff-46d9-b338-c758e39cb4d3` |
+| ⬛ EMEKLI | Opus hazır kıta 5 | 13 Agu canli olcumunde bulundu | opus | emekli | — | — | `local_597c562e-e7ff-46d9-b338-c758e39cb4d3` |
 | ⬛ EMEKLI | PADİŞAH | HAYALET — list_sessions olcumunde YOK (11 Ag | sonnet | emekli | — | — | `local_d1a989dd-8f51-4a24-8f7e-a5ab27504bb7` |
 | ⬛ EMEKLI | PETEK-NOKTA | eski işçi — kürasyon koordinatörde (emekli/c | ? | emir-bekleyen | — | — | `local_f7b059ff-461c-46be-8ded-8ed7c6a2443d` |
 | ⬛ EMEKLI | PROJEKSİYON | eski işçi | ? | emir-bekleyen | — | — | `local_9cdff124-0a1f-40db-8a66-8aee5daccdec` |
