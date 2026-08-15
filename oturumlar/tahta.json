@@ -1050,6 +1050,10 @@
    "Opus hazır kıta 6": {
     "zaman": "2026-08-14 16:00",
     "soz": "okudum, gereğini yapıyorum"
+   },
+   "OPUS HAZIR KITA 8": {
+    "zaman": "2026-08-15 23:11",
+    "soz": "okudum, gereğini yapıyorum"
    }
   },
   "kapanis": "",
@@ -1061,7 +1065,8 @@
    "KRONOLOJI YER": "local_8c0af209-4879-4ebe-95e2-a9d19fcb2c1b",
    "Sonnet hazır kıta 2": "local_9d907ce9-25a6-4bfd-96f5-e944cafb32cf",
    "KORIDOR SEMA": "local_454b8342-eab4-4222-8e29-acea08aade74",
-   "Opus hazır kıta 6": "local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4"
+   "Opus hazır kıta 6": "local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4",
+   "OPUS HAZIR KITA 8": "local_4e0f5048-9210-47cc-8863-ecf8213b8427"
   }
  },
  {
