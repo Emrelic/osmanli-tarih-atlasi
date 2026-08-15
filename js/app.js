@@ -935,6 +935,62 @@ harita.on("load", function () {
     paint: { "line-color": ["get", "renk"], "line-width": 1.4,
              "line-dasharray": [3, 2] } });
 
+  // ---------- BOŞLUĞUN CİNSİ — ARAYÜZ BOŞLUK CİNSİ görevi (15 Ağustos 2026) ----------
+  // Emre: "Câlû'nun çevresinde bir devletin ya da devletsiz aşiret yapılarının
+  // alanı var ise bunu ayrı bir renk ve işaretleme tekniği ile gösterelim.
+  // Çöl ile aynı renkte durmasın."
+  // `data/bos_alanlar.js` boşluğun CİNSİNİ zaten taşıyordu (192 kayıt), ama
+  // harita hepsini aynı beyaza boyuyordu — Tuareg Amenokal'ının denetlediği
+  // Hoggar ile insansız Rub'ul Hâlî ekranda ayırt edilemiyordu.
+  //
+  // 🔴 CİNS SÖZLÜĞÜ KOPYALANMADI — window.BOS_CINSLER doğrudan okunuyor. Aynı
+  // bilgi iki yerde durursa biri güncellenince öteki bayatlar (bu projede
+  // ölçülmüş bir kusur sınıfı).
+  //   gosterim:"benek" → 34 `kabile` kaydı: yumuşak, KENARSIZ benek/doku.
+  //     ⚠️ Keskin kenar ÇİZİLMEDİ — aşiret sahasının sınırı yoktur, mevsimlik
+  //     ve geçirgendir; keskin bir çember olmayan bir kesinlik uydururdu.
+  //   gosterim:"soru" → 9 `veri-yok` kaydı: soluk gri + "?" — "boş" ile
+  //     "bilmiyoruz" AYNI ŞEY DEĞİL, bu ayrımın özü bu.
+  //   gosterim:"bos" → `devletsiz`/`insansiz`/`hata` (149 kayıt) — ÇİZİLMEZ,
+  //     bugünkü davranış DEĞİŞMEDİ (şartnamenin ⑤ maddesi).
+  //
+  // ⚠️ `yaricap_km` hepsinde null — KASITLI, kaynaksız yarıçap uydurulmadı.
+  // Bu yüzden ALAN değil İŞARET çiziliyor: sabit piksel boyutlu bir benek,
+  // coğrafi km² karşılığı YOK. Kaynaklı yarıçap geldikçe alan çizimine
+  // geçilecek (şartnamenin ③② maddesi).
+  //
+  // ⚠️ ZAMAN BOYUTU YOK — kayıtlar zamansız, her tarihte AYNI çiziliyor. Kel
+  // Ahaggar konfederasyonu ~1750'den itibaren teşkilatlı; 1281'de aynı yapı
+  // yoktu. Bugünlük kabul edilebilir (bugünkü hâl zaten öyle) ama bu bir
+  // ANAKRONİZMDİR — bir sonraki oturum bunu kusur diye yeniden keşfetmesin
+  // diye buraya yazıldı (aynı not oturumlar/ARAYUZ-BOSLUK-ILERLEME.md'de de
+  // var, şartnamenin ③③ maddesi).
+  (function boslukKur() {
+    var kayitlar = window.BOS_ALANLAR || [];
+    var cinsler = window.BOS_CINSLER || {};
+    if (!kayitlar.length) return;
+    var boslukPopup = new maplibregl.Popup({ closeButton: true, closeOnClick: true, maxWidth: "300px", className: "bosluk-popup" });
+    var kacBenek = 0, kacSoru = 0;
+    kayitlar.forEach(function (k) {
+      var c = cinsler[k.cins];
+      var gosterim = c && c.gosterim;
+      if (gosterim !== "benek" && gosterim !== "soru") return; // "bos" -> hiç çizilmez
+      var el = document.createElement("div");
+      el.className = gosterim === "benek" ? "bosluk-benek" : "bosluk-soru";
+      el.title = k.ad + " — " + (c ? c.ad : k.cins);
+      el.addEventListener("click", function (e) {
+        e.stopPropagation();
+        var metin = (k.neden && k.neden.trim()) ? k.neden : (c ? c.aciklama : "");
+        var govde = "<b>" + k.ad + "</b><br><i>" + (c ? c.ad : k.cins) + "</i>" +
+          "<p>" + metin.replace(/</g, "&lt;") + "</p>";
+        boslukPopup.setLngLat([k.lon, k.lat]).setHTML(govde).addTo(harita);
+      });
+      new maplibregl.Marker({ element: el, anchor: "center" }).setLngLat([k.lon, k.lat]).addTo(harita);
+      if (gosterim === "benek") kacBenek++; else kacSoru++;
+    });
+    console.log("Atlas: boşluğun cinsi — " + kacBenek + " benek (kabile) · " + kacSoru + " soru (veri-yok) çizildi.");
+  })();
+
   var lejant = document.createElement("div");
   lejant.className = "lejant";
   lejant.innerHTML =
@@ -968,6 +1024,15 @@ harita.on("load", function () {
     'filter:blur(1px)"></i> Belirsiz sınır — çöl/devletsiz alana açılan kenar</span>' +
     '<span><i style="background:none;border-top:2px dashed #5a3a24;height:0;align-self:center"></i> Bölge sınırı (yakınlaşınca)</span>' +
     '<span><i style="background:linear-gradient(90deg,#8877b8,#4e7d46,#4f7d4f,#b5885b)"></i> Komşu devletler (kendi renkleri)</span>' +
+    // ARAYÜZ BOŞLUK CİNSİ — `ad` alanları BOS_CINSLER'den okunuyor, metin
+    // burada İKİNCİ KEZ YAZILMIYOR (kopya = bayatlama riski).
+    '<div class="lejant-baslik">Boşluğun cinsi</div>' +
+    '<span><i class="bosluk-benek-ornek"></i> ' +
+      ((window.BOS_CINSLER && window.BOS_CINSLER.kabile) ? window.BOS_CINSLER.kabile.ad : "aşiret / konfederasyon") +
+      ' — sınırı yok, benek/doku ile gösterilir</span>' +
+    '<span><i class="bosluk-soru-ornek"></i> ' +
+      ((window.BOS_CINSLER && window.BOS_CINSLER["veri-yok"]) ? window.BOS_CINSLER["veri-yok"].ad : "veri yok") +
+      ' — kaynak SUSUYOR, "boş" değil "bilmiyoruz"</span>' +
     // 🔴 `#alan-goster` BURADAN ÇIKARILDI — zaman çubuğuna taşındı (index.html).
     // Sebebi ölçüldü: bu kutunun bir gizle düğmesi var ve tercih
     // `localStorage`'da SAKLANIYOR (kullanıcı isteğiydi: "her açılışta yeniden

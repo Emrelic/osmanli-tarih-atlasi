@@ -15,6 +15,34 @@ Girdi : ../data/yerlesimler.js  (ad, koordinat, hâkimiyet dönemleri)
 
 Çalıştırma:  py uret_petek.py
 """
+# ══════════════════════════════════════════════════════════════════════
+# 🔴🔴 İTHAL KİLİDİ — bu dosyanın TAMAMI modül düzeyinde koşar.
+#
+# Yani `import uret_petek` bir OKUMA değil, 80 DAKİKALIK BİR ÜRETİMDİR.
+# Ve çift koşu kilidi `KOSUYU-SIMDI-BASLAT.bat` içindeydi ⇒ import yolu
+# kilide HİÇ UĞRAMIYORDU. "İki üretim aynı anda koşamaz" garantisi
+# **yoktu**; bu proje dört üretimi tam bu sınıftan kaybetti.
+#
+# DOĞURAN VAKA (16 Ağustos 2026, OPUS HAZIR KITA 8 bildirdi):
+#   Bir işçi oturum `BOLGE` sabitini okumak için betiğinin sonuna
+#   `import uret_petek` yazdı. 23:2x'te tam üretim başladı, 00:59'da
+#   bitti. Oturum ne başlattığını üretim bitene kadar bilmiyordu.
+#
+# ⚠️ VE UYARI ZATEN YAZILIYDI — `arac/uret_altlik.py:29`, bir YORUM
+# satırında: *"`import uret_petek` YAPILMAZ"*. Doğru ders, makinenin
+# göremediği yerde. Bu blok onu bir `if`e çeviriyor.
+# 📌 Sınav tek soru: *bu bilgiyi bir `if` ile sorabiliyor muyum?*
+#
+# Ölçüldü: gerçek import eden alet sayısı **0** — yani bu kilit hiçbir
+# çalışan işi kırmıyor, yalnız kazayı kesiyor.
+if __name__ != "__main__":
+    raise RuntimeError(
+        "uret_petek.py İÇE AKTARILAMAZ — bu modül import edildiği anda "
+        "80 dakikalık ÜRETİMİ başlatır (dosyanın tamamı modül düzeyinde "
+        "koşar). Sabit okumak istiyorsan dosyayı METİN olarak ayrıştır "
+        "ya da değeri arac/girdi.py üzerinden al. Üretimi gerçekten "
+        "başlatacaksan: py arac/uret_petek.py — ve ÖNCE Oturum 0'a sor.")
+# ══════════════════════════════════════════════════════════════════════
 import json, os, sys, io, math, re, time
 # ⚠️ line_buffering=True — AŞAMA ZAMANLAYICISININ ÖN KOŞULU (MOTOR 3).
 # Bu sarmalayıcı varsayılan hâliyle BLOK TAMPONLUDUR: `py -u` ile başlatılsa

@@ -22,14 +22,26 @@ açılışta kurması daha sağlam: bir betik unutulur, brifing satırı
 unutulmaz."* — ikisi de yapıldı: alet burada, satır şartnamelerde.
 
 ────────────────────────────────────────────────────────────────────────
-KULLANIM — oturum AÇILIŞINDA, arka planda
+🔴🔴 KULLANIM — **KAPI ÖNEMLİ, ALET DEĞİL.** Ölçüldü 16 Ağustos 2026.
 
-    py arac/tahta_bekci.py --kim "NOKTA HALKA 1"
+    Monitor aracı:  py arac/tahta_bekci.py --kim "NOKTA HALKA 1"
+                    description: "tahta mesajları"  ·  persistent: true
 
-Monitor / arka plan görevi olarak koşturulur. 60 saniyede bir
-`oturumlar/tahta.json`a bakar; sana ya da HERKESe **YENİ** bir mesaj
-düşünce tek satır basar — ve o satır oturuma bildirim olarak gelir,
-oturum uyanır.
+**Bu betiği MONITOR aracıyla kur. Kabuğun arka planına ATMA.**
+
+```
+Monitor              her stdout SATIRINI ayrı bildirim yapar
+                     ⇒ süreç KOŞARKEN uyandırır       ✅ DOĞRU KAPI
+Bash run_in_background  YALNIZ süreç BİTİNCE bildirir
+                     ⇒ sonsuz döngü = HİÇ bildirim    ❌ hiç uyandırmaz
+```
+Ve bu Monitor'ün kendi belgesinde yazılıdır: *"Each stdout line is an
+event"* · *"a single completion notification when it exits"*.
+
+⚠️ `--cik` bayrağı YALNIZ kabuk arka planına mecbur kalınırsa: ilk
+mesajda çıkar, oturum uyanır, ama **çıkışla yeniden kurma arasındaki
+boşlukta düşen mesajlar KAÇAR.** Monitor'de böyle bir boşluk yoktur —
+bu yüzden varsayılan ÇIKMAMAKTIR.
 
 ────────────────────────────────────────────────────────────────────────
 🔴 İKİ TUZAK — ikisi de ÖLÇÜLDÜ, ikisi de burada kapalı
@@ -108,9 +120,12 @@ def main(argv):
         TAHTA = argv[argv.index("--tahta") + 1]
     ara = float(argv[argv.index("--ara") + 1]) if "--ara" in argv else 60.0
     tur = int(argv[argv.index("--tur") + 1]) if "--tur" in argv else 0
-    # `--surekli`: mesaj bulunca ÇIKMA, basmaya devam et. Yalnız SINAMA
-    # içindir — üretimde çıkmayan nöbetçi oturumu UYANDIRMAZ (aşağıya bak).
-    surekli = "--surekli" in argv
+    # 🔴 BAYRAK 16 Ağustos'ta TERSİNE ÇEVRİLDİ. Eski hâli `--surekli`ydi ve
+    # varsayılan ÇIKMAKtı; o karar YANLIŞ KAPIYA göre verilmişti (aşağıya
+    # bak). Doğru kapı Monitor'dür ve orada çıkmak zarardır — çıkışla
+    # yeniden kurma arasındaki boşlukta mesaj KAÇAR.
+    # `--surekli` eski adıyla kabul ediliyor ki eski çağrılar bozulmasın.
+    cik = "--cik" in argv and "--surekli" not in argv
 
     gorulen = {m.get("no") for m in _oku()}
     _bas("[BEKCI] nöbette · kim=%s · %d mesaj görüldü · %.0f sn"
@@ -139,23 +154,31 @@ def main(argv):
             _bas("⚠️ [ADRES-TUZAGI] %s KIME='%s' — benim tam anahtarım '%s'. "
                  "Mesaj bana ULAŞMADI, yazan 'yazıldı' cevabı aldı."
                  % (m.get("no"), m.get("kime"), kim))
-        # 🔴🔴 MESAJ BULUNCA **ÇIK** — ve bu satır bir TASARIM HATASININ
-        # düzeltmesidir. Ölçüldü, 16 Ağustos 2026:
+        # 🔴🔴 BU BLOK BİR GÜNDE İKİ KEZ YAZILDI — ve ikinci yazım
+        # birincisini ÇÜRÜTTÜ. İkisi de kalsın, çünkü ders ikisinin
+        # ARASINDA. (16 Ağustos 2026)
         #
-        #   Nöbetçi 60 sn'de bir baktı, M-0089…M-0094'ü BULDU ve BASTI.
-        #   Çıktı dosyasında 7.861 bayt, altı 🔔 satırı, hepsi doğru.
-        #   VE KOORDİNATÖR UYANMADI. Emre bir deneme mesajı attı, ses yok.
+        # ① KOORDİNATÖRÜN ÖLÇÜMÜ — doğruydu:
+        #    Nöbetçi M-0089…M-0094'ü buldu ve bastı (7.861 bayt, altı 🔔).
+        #    Emre deneme mesajı attı, KOORDİNATÖR UYANMADI.
+        #    ⇒ hüküm: "mesaj bulunca ÇIK ki oturum uyansın"  🔴 YANLIŞ ÇARE
         #
-        # ⇒ TEŞHİS: arka planda koşan bir sürecin **YAZDIĞI** satır bir tur
-        #   DEĞİLDİR. Turu doğuran şey **görevin BİTMESİDİR** — bugün DEM
-        #   indirmesi bittiğinde bildirim geldi, çünkü SÜREÇ SONA ERDİ.
+        # ② NOKTA MENZİL'İN ÖLÇÜMÜ (M-0107) — aynı gün, TERSİ:
+        #    Kendi bekçisi ÜÇ KEZ (M-0082 · M-0099 · M-0106) uyandırdı ve
+        #    süreç HİÇ ÇIKMADI. Arada Emre'den tek dürtme yok.
         #
-        # 🔴 Yani hem koordinatörün hem `OPUS HAZIR KITA 6`nın (M-0066)
-        # varsayımı yanlıştı: *"o satır oturuma bildirim olarak gelir"*.
-        # Satır gelmiyor; **çıkış** geliyor.
-        # 📌 Ve kusur nöbetçide değil ÇAĞIRMA BİÇİMİNDE — alet doğruydu,
-        # ondan beklenen şey yanlıştı. "Alet çalıştı" ile "iş oldu" ayrı.
-        if (yeni or tuzak) and not surekli:
+        # 🟢 İKİSİ DE DOĞRU, ÇÜNKÜ KAPILAR FARKLIYDI:
+        #    Monitor aracı        → her stdout SATIRI bir bildirim
+        #    Bash run_in_background → YALNIZ süreç bitince bildirim
+        #    Koordinatör kabuğa attı, NOKTA MENZİL Monitor'e verdi.
+        #    ⇒ Alet aynı, KAPI farklı. Ve doğrusu Monitor'ün kendi
+        #      belgesinde YAZILIYDI; koordinatör yayın yapmadan önce
+        #      okumadı.
+        #
+        # 📌 Ders: *"alet çalıştı ama iş olmadı"* teşhisi konurken, aletin
+        #    HANGİ KAPIDAN çağrıldığı da ölçülür. Aynı betik iki kapıdan
+        #    iki farklı şey yapar ve ikisi de "çalışıyor" görünür.
+        if (yeni or tuzak) and cik:
             _bas("[BEKCI] mesaj var — ÇIKIYORUM ki oturum UYANSIN. "
                  "Yeniden kur: py arac/tahta_bekci.py --kim \"%s\"" % kim)
             return 0

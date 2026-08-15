@@ -365,6 +365,20 @@ CIZILMEYEN_MUAF = {
     # VERİ olarak kullanacak, ekranda görünmesini beklemeden.
     "KORIDOR_DUGUM": "65 düğüm — index.html BAĞLI, app.js çizimi ARAYÜZ'de, GEÇİCİ",
     "KORIDOR_KENAR": "64 kenar — aynı, ARAYÜZ çizince bu satır SİLİNİR, GEÇİCİ",
+    # 🔴 HALKA 2 — 16 Ağustos 2026, YUKARIDAKİYLE AYNI SINIF AMA BİR FARKLA:
+    # bunlar `index.html`e daha BAĞLANMADI bile (yukarıdakiler bağlıydı,
+    # yalnız çizimi yoktu). Yani borç bir kademe daha derin ve iki adım
+    # gerekiyor: ① index.html satırı ② app.js çizimi. İkisi de ARAYÜZ'ün.
+    # Veri ölçüldü ve DOĞRU: NOKTA MENZİL'in Avusturya kolu, 11 düğüm ·
+    # 10 kenar · Belgrad→Viyana, TDV `menzil--osmanli` ile zaman çerçevesi
+    # (1539-1839) ve saat aralığı (3-28 saat) DOĞRULANMIŞ. Güzergâhın
+    # kendisi `kesinlik:3 · kaynak:"bulunamadı"` damgalı — TDV kolları
+    # sayıyor ama duraklarını saymıyor, o yüzden duraklar SEÇİLDİ (uydurulmadı).
+    # ⚠️ Ve bu veri çizilmeden de iş görür: maliyet-mesafe motorunun
+    # doğrulama kümesi. Değeri ekranda değil ÖLÇÜMDE.
+    "KORIDOR_HALKA2_DUGUM": "11 düğüm (Belgrad→Viyana) — index.html'e HENÜZ "
+                            "BAĞLANMADI, ARAYÜZ bağlayınca SİLİNİR, GEÇİCİ",
+    "KORIDOR_HALKA2_KENAR": "10 kenar — aynı, GEÇİCİ",
     "YERLESIMLER_EK10": "12 noktanın 4'ü — `sibir-hanligi` rengi bekliyor, geçici",
     "YERLESIMLER_EK11": "4 nokta — `estonya` rengi bekliyor, geçici",
     "YERLESIMLER_EK12": "4 nokta — `izlanda` rengi bekliyor, geçici",
@@ -718,6 +732,17 @@ def main():
         #   uretilen harita 23 dosyalik girdiden, girdi.py 26 derdi.
         # ⇒ Anlik goruntu "YAZABILIRSIN" der, "BAGLAYABILIRSIN" demez.
         #   r772 yayinlandiktan HEMEN SONRA uculu birden baglanacak.
+        # ── HALKA 2 KORIDORU — 16 Agustos 2026, NOKTA MENZIL yazdi ────────
+        # Yukaridakilerden FARKLI bir onkosul: renk de beklemiyor, anlik
+        # goruntu de beklemiyor. Bekledigi sey ARAYUZ isi -- `index.html`e
+        # <script> satiri ve `js/app.js`e cizim kodu. Ikisi de Oturum 1'in
+        # dosyalari; koordinator oraya YAZMAZ (`CLAUDE.md §7`).
+        # 🔴 Ve bu dosya cizilmeden de is goruyor, o yuzden "yetim" degil:
+        # maliyet-mesafe motorunun DOGRULAMA kumesi. Deger ekranda degil
+        # olcumde -- ayni gerekce KORIDOR_DUGUM/KENAR icin de yazilmisti.
+        "data/koridor_halka2.js":        "11 dugum + 10 kenar (Belgrad→Viyana); "
+                                         "onkosul ARAYUZ (index.html satiri + "
+                                         "app.js cizimi), renk/anlik goruntu DEGIL",
     }
 
     # 🔴 EMEKLİ ≠ BEKLEYEN. Bekleyen "önkoşul kapanınca BAĞLANACAK" vaadi

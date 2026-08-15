@@ -1384,6 +1384,89 @@ body {
   pointer-events: none;
 }
 
+/* ARAYÜZ BOŞLUK CİNSİ (T-0113) — data/bos_alanlar.js'teki `kabile` ve
+   `veri-yok` kayıtları. Renk ölçütü: mevcut hiçbir gövde/simge rengiyle
+   çakışmasın (Osmanlı #8e0b22 · tâbi #b2384a · kuşatma sarısı #b8860b) ve
+   çölün beyazından ayırt edilsin. #9d6e2c seçildi — toprak/deri tonu,
+   "devlet değil ama sahipsiz de değil" hissini taşıyor. */
+.bosluk-benek {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  pointer-events: auto;
+  /* KENAR YOK (③① — aşiret sahasının sınırı yoktur): gradyan sıfıra sönüyor,
+     blur onu bir kez daha yumuşatıyor. Keskin bir çember çizmek olmayan bir
+     kesinlik uydururdu. */
+  background: radial-gradient(circle,
+    rgba(157, 110, 44, 0.55) 0%,
+    rgba(157, 110, 44, 0.34) 45%,
+    rgba(157, 110, 44, 0.12) 72%,
+    rgba(157, 110, 44, 0) 100%);
+  filter: blur(2px);
+  transition: filter 0.15s ease;
+}
+.bosluk-benek:hover { filter: blur(0.5px); }
+
+.bosluk-soru {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  cursor: pointer;
+  pointer-events: auto;
+  background: rgba(110, 110, 110, 0.30);
+  border: 1.5px dashed rgba(80, 80, 80, 0.65);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bosluk-soru::after {
+  /* "boş" ile "bilmiyoruz" AYNI ŞEY DEĞİL — soru işareti bunu taşıyor. */
+  content: "?";
+  font: 700 12px/1 system-ui, sans-serif;
+  color: rgba(60, 60, 60, 0.85);
+}
+.bosluk-soru:hover { background: rgba(110, 110, 110, 0.45); }
+
+/* Lejant örnekleri — `.lejant i`nin 14×10 dikdörtgen tabanı burada yuvarlağa
+   çevriliyor, harita üstündeki gerçek marker'ların KÜÇÜLTÜLMÜŞ hâli. */
+.lejant i.bosluk-benek-ornek {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: radial-gradient(circle,
+    rgba(157, 110, 44, 0.75) 0%, rgba(157, 110, 44, 0.4) 55%, rgba(157, 110, 44, 0) 100%);
+  opacity: 1;
+}
+.lejant i.bosluk-soru-ornek {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: rgba(110, 110, 110, 0.30);
+  border: 1.5px dashed rgba(80, 80, 80, 0.65);
+  opacity: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.lejant i.bosluk-soru-ornek::after {
+  content: "?";
+  font: 700 9px/1 system-ui, sans-serif;
+  color: rgba(60, 60, 60, 0.9);
+}
+
+/* Boşluk popup gövdesi — maplibregl.Popup varsayılan kutusunu kullanıyor,
+   `className:"bosluk-popup"` ile işaretleniyor (app.js), yalnız iç metin
+   biçimi buradan geliyor. */
+.bosluk-popup .maplibregl-popup-content b { color: #3a2a14; }
+.bosluk-popup .maplibregl-popup-content i { font-style: italic; opacity: 0.7; }
+.bosluk-popup .maplibregl-popup-content p {
+  margin: 4px 0 0;
+  font-size: 12px;
+  line-height: 1.4;
+  color: #3a2a14;
+}
+
 
 /* Antlaşma devir lejantı — hatalar 8.docx madde 1.
    Taralı alan tek başına anlamsız: hangi renk hangi ülke, yazmak şart. */
