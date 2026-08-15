@@ -39,4 +39,12 @@ window.YERLESIMLER_EK30 = [
   kur:"1300-01-01", d:[], kasitli_bosluk:true, bos:"kabile",
   neden:"Te Ara Encyclopedia of New Zealand, 'Māori arrival and settlement' (teara.govt.nz/en/history/page-1) ve 'When was New Zealand first settled?' (teara.govt.nz/en/when-was-new-zealand-first-settled) — Doğu Polinezya'dan gelen yerleşimciler ~1300 CE civarında kalıcı yerleşim kurdu; toplum iwi/hapū (soy/akraba grubu) temelliydi, 1840 Waitangi Antlaşması'na kadar merkezî bir devlet yapısı oluşmadı." },
 
+{ ad:"Yap", tur:"bolge", lat:9.5167, lon:138.1333, g:0, k:0,
+  d:[], kasitli_bosluk:true, bos:"kabile",
+  neden:"Britannica, 'Micronesian culture — Social hierarchy and political organization' ve akademik kaynaklar (Yapese 'sawey' haraç ağı) — Yap, Gagil'in başrahip/şefinin tepesinde olduğu, uç adalardan haraç toplayan sıkı bir kast/haraç sistemiyle örgütlenmişti, ama tek bir merkezî DEVLET hiç kurulmadı; köyler arası hiyerarşi savaş ve ittifaklarla sürekli değişiyordu — merkezî devlet YOK, teşkilatlı toplum VAR." },
+
+{ ad:"Rapa Nui (Paskalya Adası)", tur:"bolge", lat:-27.1127, lon:-109.3497, g:0, k:0,
+  kur:"1200-01-01", d:[], kasitli_bosluk:true, bos:"kabile",
+  neden:"Akademik radyokarbon kronolojisi (Journal of Pacific Archaeology, 'Refining the Chronology of Rapa Nui Settlement'; PLOS ONE, 'Rapa Nui monument (ahu) locations') — Polinezyalı yerleşim ~1200 CE'de başladı, ada 11 kabile/soy grubuna (mata) bölünmüş rekabetçi bir toplumdu; merkezî tek bir devlet 1722 Avrupa temasına kadar hiç kurulmadı." },
+
 ];
