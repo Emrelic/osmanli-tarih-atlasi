@@ -42,6 +42,16 @@ UZAK = "/vsicurl/" + KAYNAK_URL
 # veri zararlıdır.
 PENCERE = (-25.0, -11.0, 146.0, 82.0)   # lon0, lat0, lon1, lat1
 
+# 🔴 DÜNYA — 15 Ağustos, Emre: "dünyanın hepsini eklesek ve motora bağlasak."
+# Atlas penceresi dünya yüzeyinin **%26**'sı; kalan %74'te bugün 173 nokta
+# var (Amerika 134 · Okyanusya 35 · Güney Afrika 4) ve HARİTADA ÇİZİLMİYOR.
+# Nokta yazmak yetmiyor — pencere açılmadan görünmezler.
+# ⚠️ Ve dünya kutusu ±90° DEĞİL: ETOPO ±90'a kadar var ama kutup
+# takkelerinde yerleşim yok ve raster boyutu iki katına çıkıyor. -60…84
+# kesimi bütün kara kütlelerini kapsar (Antarktika hariç — orada 1281-1923
+# arası yerleşim YOKTUR).
+DUNYA = (-180.0, -60.0, 180.0, 84.0)
+
 
 def _tam_mi():
     """Dosya BÜTÜN mü — (bool, gerekçe). VARLIK bütünlük demek değildir.
@@ -72,10 +82,14 @@ def _tam_mi():
     return True, "boyut ✓ · son şerit ✓"
 
 
-def indir(zorla=False):
+def indir(zorla=False, dunya=False):
     import numpy as np
     import rasterio
     from rasterio.windows import from_bounds
+    global CIKTI, PENCERE
+    if dunya:
+        CIKTI = os.path.join(DIZIN, "etopo2022_30s_dunya.tif")
+        PENCERE = DUNYA
     os.makedirs(DIZIN, exist_ok=True)
     if os.path.exists(CIKTI) and not zorla:
         mb = os.path.getsize(CIKTI) / 1048576.0
@@ -172,4 +186,5 @@ sürtünme motoru eğimsiz çalışıyordu. Üç aday ölçüldü:
 
 
 if __name__ == "__main__":
-    sys.exit(indir("--zorla" in sys.argv[1:]))
+    a = sys.argv[1:]
+    sys.exit(indir("--zorla" in a, "--dunya" in a))

@@ -178,13 +178,159 @@ def surtunme(kutu, adim, sessiz=False):
     return fr, nehir
 
 
-def _yukseklik_oku(kutu, adim):
-    """🔴 VERİ YOK. Bilerek None döner — sahte yükseklik ÜRETİLMEZ.
+DEM_ADAYLAR = ("etopo2022_30s_dunya.tif", "etopo2022_30s_atlas.tif")
+# 🔴 EĞİM ÇARPANI — HENÜZ UYDURULMADI ve öyle kalacak.
+# `ALTYAPI §1.2b`de yazılı vaka: ağırlık tablosu bir kez uyduruldu, ölçüm
+# onu değiştirdi. Bu sayı `T-0112` ile ÖLÇÜLEREK ayarlanacak: 41 sefer
+# güzergâhı + koridor.js'te uzunluğu ölçülmüş 22 kenar hazır bir sınav
+# kümesi. O ölçüm yapılana kadar değer 0 ⇒ eğim SONUCU DEĞİŞTİRMEZ,
+# ve bu betik bunu her koşuda YAZAR.
+EGIM_CARPANI = 0.0          # metre başına ek sürtünme · ÖLÇÜLMEDİ
+EGIM_OLCULDU = False
 
-    Sahte bir yükseklik katmanı, motorun "dağ engeldir" iddiasını
-    SINANMIŞ gibi gösterirdi. Ölçülmeyen şey `ölçülmedi` diye durur.
+
+def _dem_yolu(sessiz=False):
+    """Kullanılabilir DEM — VARLIK DEĞİL, AÇILABİLİRLİK sınanır.
+
+    🔴 AYNI TUZAK, İKİNCİ YER. `yukseklik_indir.py`de bugün kapatıldı:
+    yarım kalan dosya "zaten var" diye geçiliyordu. Burada da geçti — ve
+    bu sefer HEMEN patladı, çünkü dünya dosyası İNDİRİLİRKEN seçildi:
+        RasterioIOError: Cannot open TIFF image
+    ⚠️ Patlaması ŞANSTI. Yarısı yazılmış ama okunabilir bir TIFF sessizce
+    seçilseydi, motorun yarım bir dünyada koştuğu ANLAŞILMAZDI —
+    eksiklik yalnız güney yarıda görünürdü.
+    📌 `§11`in "ölçemediğini eleyen süzgeç onu temiz sayar" dersinin
+    ÜÇÜNCÜ vakası: kural bir yerde uygulanınca öteki yerde kendiliğinden
+    uygulanmıyor. Ders KODA inmedikçe inmiş sayılmaz.
     """
+    # 🔴 BÜTÜNLÜK SORUSU BURADA CEVAPLANMAZ — `yukseklik.tam_mi`ye SORULUR.
+    # Sebep ölçüldü: aynı soru iki dosyada iki kopyayla soruluyordu, biri
+    # düzeltilince öteki bayat kaldı ve yarım bir dünya dosyası seçildi.
+    import yukseklik as _yk
+    for a in DEM_ADAYLAR:
+        y = os.path.join(KAYNAK, "yukseklik", a)
+        if not os.path.exists(y):
+            continue
+        tam, neden = _yk.tam_mi(y)
+        if tam:
+            return y
+        if not sessiz:
+            print("  ⚠️ %s ATLANDI — %s" % (a, neden))
     return None
+
+
+def surtunme_dem(kutu, adim, sessiz=False):
+    """DEM'den sürtünme — shapely DEĞİL numpy. (fr, nehir, bilgi) döner.
+
+    🔴 NİÇİN BAŞKA BİR İŞLEV: `surtunme()` her hücreye *"kara mısın"* diye
+    **poligona** soruyor — 3.491 hücre/sn, dünya 1 km = **75 saat**. Oysa
+    o soru gereksiz: **DEM zaten cevabı taşıyor.** Deniz = negatif
+    yükseklik, eğim = aynı dizinin gradyanı.
+        shapely        3.491 hücre/sn
+        numpy/DEM 11.538.420 hücre/sn      ⇒ 3305 KAT
+        atlas penceresi (229 M hücre): 19,8 saniye
+    📌 Ve bu, bugün ölçülen bir yanılgının düzeltmesi: darboğazın Dijkstra
+    olduğunu söylemiştim (255.870 hücre/sn — yanlıştı, o hızlıydı).
+
+    ⚠️ KARA TANIMI ÇAPRAZ DOĞRULANIR. Motor `motor_kara.geojson` kullanıyor,
+    bu işlev `z > 0` kullanıyor. İkisi AYNI ŞEY DEĞİL: kıyı çizgisi
+    sadeleştirmesi, iç göller, Hollanda gibi deniz seviyesi altı kara.
+    ⇒ Fark ÖLÇÜLÜR ve basılır; ölçülmeden "aynı" varsayılmaz.
+    """
+    import numpy as np
+    import rasterio
+    from rasterio.windows import from_bounds
+    yol = _dem_yolu()
+    if not yol:
+        return None, None, {"hata": "DEM YOK — py arac/yukseklik_indir.py"}
+    lon0, lat0, lon1, lat1 = kutu
+    nx, ny = izgara(kutu, adim)
+    with rasterio.open(yol) as s:
+        p = from_bounds(lon0, lat0, lon1, lat1, transform=s.transform)
+        z = s.read(1, window=p, out_shape=(ny, nx),
+                   resampling=rasterio.enums.Resampling.average).astype("float32")
+    # eğim: komşu farkı → metre / hücre
+    gy, gx = np.gradient(z)
+    egim = np.hypot(gx, gy)
+    kara = z > 0
+    fr = np.where(kara, 1.0 + EGIM_CARPANI * egim, np.inf)
+    bilgi = {
+        "hucre": int(z.size), "kara": int(kara.sum()),
+        "kara_yuzde": 100.0 * float(kara.mean()),
+        "egim_medyan": float(np.median(egim[kara])) if kara.any() else 0.0,
+        "egim_maks": float(egim.max()),
+        "dem": os.path.basename(yol),
+    }
+    if not sessiz:
+        print("  DEM: %s · %d x %d · kara %%%.1f · eğim medyan %.1f m"
+              % (bilgi["dem"], nx, ny, bilgi["kara_yuzde"], bilgi["egim_medyan"]))
+        if not EGIM_OLCULDU:
+            print("  🔴 EĞİM ÇARPANI = %.1f — ÖLÇÜLMEDİ, sonuca ETKİSİ YOK."
+                  % EGIM_CARPANI)
+            print("     T-0112 ile ayarlanacak (41 sefer güzergâhı sınavı).")
+    # nehir katmanı bu yolla gelmiyor — ayrı ve AÇIKÇA boş
+    nehir = np.zeros((ny, nx), dtype=bool)
+    return fr.tolist(), nehir.tolist(), bilgi
+
+
+def kara_farki(kutu, adim):
+    """İKİ KARA TANIMI NE KADAR AYRIŞIYOR — DEM (z>0) ile motor maskesi.
+
+    🔴 `§11`: iki alet farklı evrende koşarsa fark ÖLÇÜLEMEZ, çünkü farkın
+    kaynağı belirsizleşir. Sürtünmeyi DEM'e taşımadan önce bu ayrışma
+    bilinmeli — bilinmezse maliyet-mesafenin getirdiği her değişiklik
+    "acaba kara tanımı mı değişti" sorusunu doğurur.
+    """
+    import numpy as np
+    fr_dem, _, bilgi = surtunme_dem(kutu, adim, sessiz=True)
+    if fr_dem is None:
+        print("🔴 " + bilgi.get("hata", "DEM yok"))
+        return 2
+    fr_shp, _n = surtunme(kutu, adim, sessiz=True)
+    a = np.isfinite(np.array(fr_dem))
+    b = np.isfinite(np.array(fr_shp))
+    ayni = int((a == b).sum())
+    top = a.size
+    print("KARA TANIMI KARŞILAŞTIRMASI · kutu %s · adım %.3f" % (str(kutu), adim))
+    print("  DEM (z>0)        kara %8d  (%%%.1f)" % (a.sum(), 100.0 * a.mean()))
+    print("  motor maskesi    kara %8d  (%%%.1f)" % (b.sum(), 100.0 * b.mean()))
+    print("  UYUŞAN hücre     %8d  (%%%.2f)" % (ayni, 100.0 * ayni / top))
+    print("  🔴 AYRIŞAN       %8d  — DEM'de kara, maskede deniz: %d"
+          % (top - ayni, int((a & ~b).sum())))
+    print("                     maskede kara, DEM'de deniz: %d"
+          % int((b & ~a).sum()))
+    print("  📌 Ayrışma SIFIR OLMAZ ve olmamalı: maske kıyıyı 1,3 km'ye")
+    print("     sadeleştiriyor, DEM sadeleştirmiyor. Ölçüt SIFIR değil,")
+    print("     ayrışmanın KIYIDA kalması — iç bölgede ayrışma KUSURDUR.")
+
+    # 🔴 VE ÖLÇÜTÜ YAZIP UYGULAMAMAK, ÖLÇÜT KOYMAMAKTAN KÖTÜDÜR.
+    # Yukarıdaki cümle "iç bölgede ayrışma kusurdur" diyor; o hâlde
+    # ayrışmanın KAÇTA KAÇI kıyıda, ölçülmeli. Kıyı = maskede karayla
+    # denizin komşu olduğu hücre (3x3 pencerede iki cins birden).
+    ayr = a != b
+    kiyi = np.zeros_like(b)
+    for dy in (-1, 0, 1):
+        for dx in (-1, 0, 1):
+            if dy == 0 and dx == 0:
+                continue
+            kaydir = np.roll(np.roll(b, dy, 0), dx, 1)
+            kiyi |= (b != kaydir)
+    # kenar etkisini at (roll sarmalıyor)
+    kiyi[0, :] = kiyi[-1, :] = kiyi[:, 0] = kiyi[:, -1] = True
+    ic = int((ayr & ~kiyi).sum())
+    kn = int((ayr & kiyi).sum())
+    print()
+    print("  AYRIŞMANIN YERİ:")
+    print("    KIYI şeridinde  %6d  (%%%.1f)" % (kn, 100.0 * kn / max(1, ayr.sum())))
+    print("    İÇ bölgede      %6d  (%%%.1f)  %s"
+          % (ic, 100.0 * ic / max(1, ayr.sum()),
+             "🟢 kabul edilebilir" if ic * 20 < ayr.sum() else "🔴 İNCELE"))
+    if ic:
+        print("    ⚠️ İç ayrışmanın meşru sebepleri VAR ve elenmeden hüküm")
+        print("       verilmez: iç göller (DEM'de su, maskede kara olabilir)")
+        print("       · deniz seviyesi altı kara · baraj gölleri. Bu betik")
+        print("       onları AYIRMIYOR — ölçtüğü şey yalnız KONUM.")
+    return 0
 
 
 def noktalar(kutu, gun="1352-03-02"):
@@ -542,6 +688,14 @@ def main(argv):
         return 0
     if argv[0] == "agirlik":
         return agirlik_sinavi()
+    if argv[0] == "kara-fark":
+        b = SINAV_KUTU
+        if "--b" in argv:
+            b = tuple(float(x) for x in argv[argv.index("--b") + 1].split(","))
+        a = 0.02
+        if "--adim" in argv:
+            a = float(argv[argv.index("--adim") + 1])
+        return kara_farki(b, a)
     if argv[0] == "kutu":
         if "--b" not in argv:
             print("kullanim: maliyet.py kutu --b lon0,lat0,lon1,lat1 [--adim 0.02]")

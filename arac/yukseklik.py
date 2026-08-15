@@ -67,6 +67,47 @@ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DIZIN = os.path.join(KOK, "veri-kaynak", "yukseklik")
 
 
+def tam_mi(yol):
+    """Bir DEM dosyası KULLANILABİLİR mi — (bool, gerekçe).
+
+    🔴 BU İŞLEV ÜÇ KEZ YAZILDI VE ÜÇÜNDE DE EKSİK ÇIKTI. Kayıt, çünkü
+    dizilim öğretici — her seferinde alet *çalıştı* ve *yalan söyledi*:
+
+      ① "dosya VAR mı"          → yarım dosya "var" göründü
+      ② "AÇILIYOR mu, son satır OKUNUYOR mu"
+                                → açıldı, okundu, **sıfır** döndü
+      ③ "son şerit SIFIRDAN farklı mı"
+                                → yazılmamış alan sıfır değil **nodata**
+                                  (-32768) ⇒ testi GEÇTİ, veri yoktu
+      ④ "son şerit GEÇERLİ DEĞER içeriyor mu"   ← doğrusu bu
+
+    📌 Ve asıl ders ③'ün kendisi değil, **üç kez ayrı yerde yazılmış
+    olması.** `yukseklik_indir.py` ile `maliyet.py` aynı soruyu iki ayrı
+    kopyayla soruyordu; biri düzeltilince öteki bayat kaldı. Bu, projenin
+    kayıtlı kusuru: *"bir bilgi iki yerde durursa, biri güncellenince
+    öteki bayatlar."*
+    ⇒ Tek tanım burada. İki çağıran da buraya sorar.
+    """
+    import numpy as np
+    import rasterio
+    try:
+        with rasterio.open(yol) as s:
+            nd = s.nodata
+            son = s.read(1, window=rasterio.windows.Window(
+                0, max(0, s.height - 4), min(s.width, 2048), 4))
+            g, y = s.width, s.height
+    except Exception as e:
+        return False, "açılamadı: %s" % str(e)[:60]
+    if nd is not None:
+        gecerli = int((son != nd).sum())
+    else:
+        gecerli = int((son != 0).sum())
+    if gecerli == 0:
+        return False, ("son şerit TAMAMEN nodata (%s) — yazım yarıda, "
+                       "indirme sürüyor olabilir" % nd)
+    return True, "%dx%d · son şeritte %d geçerli hücre" % (g, y, gecerli)
+
+
 def durum():
     print("=" * 68)
     print("YÜKSEKLİK KATMANI — ALTYAPI ①")
