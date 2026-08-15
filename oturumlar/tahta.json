@@ -1514,7 +1514,8 @@
    "Opus hazır kıta 6": "2026-08-15 00:44",
    "Sonnet hazir kita 3": "2026-08-15 01:01",
    "NOKTA AMERIKA": "2026-08-15 01:12",
-   "KOORDINATOR": "2026-08-15 09:55"
+   "KOORDINATOR": "2026-08-15 09:55",
+   "OPUS HAZIR KITA 2": "2026-08-15 11:29"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -1561,7 +1562,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "OPUS HAZIR KITA 2": "2026-08-15 11:29"
+  },
   "yanit_no": "M-0053",
   "cins": "RAPOR",
   "teyit": {},
@@ -1657,7 +1660,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "OPUS HAZIR KITA 2": "2026-08-15 11:29"
+  },
   "yanit_no": "M-0052",
   "cins": "BILGI",
   "teyit": {},
