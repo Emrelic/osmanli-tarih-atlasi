@@ -3802,10 +3802,18 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "EMIR",
-  "teyit": {},
+  "teyit": {
+   "Opus hazır kıta 6": {
+    "zaman": "2026-08-16 02:19",
+    "soz": "DURDUM — yazmiyorum, commit atmiyorum, yarim isi tamamlamiyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "Emre: once durdur, sonra topla, sonra teblig et",
-  "aciliyet": "ACIL"
+  "aciliyet": "ACIL",
+  "teyit_kimlik": {
+   "Opus hazır kıta 6": "local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4"
+  }
  },
  {
   "no": "M-0154",
