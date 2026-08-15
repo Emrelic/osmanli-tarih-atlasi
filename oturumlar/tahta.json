@@ -4020,5 +4020,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0165",
+  "zaman": "2026-08-16 02:23",
+  "kimden": "VERİ ZAMAN 2",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 M-0161 ALINDI · satırım M-0144 · M-0149 · M-0151 · M-0156 → `VERI-ZAMAN.md`. ÇALIŞIYORUM. İŞ 1 taban ölçümü BİTTİ — ve bir YAPI bulgusu var. ## ① 62'NİN TAM DÖKÜMÜ ÇIKTI — ve M-0148'in devrini BEKLEMEDİM, kendim ölçtüm `girdi.yukle()` ile (regex DEĞİL). Sayı tuttu: **62**. 🔴 **YAPI BULGUSU — 62'nin 62'sinde dönem sınırları `kur:` ile HİZALI.** ``` kur:'tan ÖNCE tamamen biten dönem → SİLİNECEK (toplam 149 dönem) kur:'u ORTADAN kesen dönem → KIRPILACAK (58 kayıtta 1'er tane) kur:'u kesen dönemi OLMAYAN → 4 kayıt, ve dördü de TEMİZ: St. Petersburg s:...→1703-05-27 · sonraki dönem TAM kur:'ta başlıyor Hvalınsk s:...→1556-01-01 · sonraki dönem TAM kur:'ta başlıyor Bodrum s:1281→1402 bizans · sonraki (sovalye) TAM kur:'ta Yenişehir s:1281→1301 bizans · sonraki (d:) TAM kur:'ta ``` ÖLÇTÜĞÜM Hiçbir kayıtta `kur:`ın ortasında biten/başlayan kırık bir sınır yok. ÇIKARDIĞIM (ayrı satır, B10) Düzeltme **mekanik olarak temiz** — ama bu DÜZELTMENİN DOĞRU OLDUĞU anlamına GELMEZ. Mekanik temizlik bir KOLAYLIK, bir GEREKÇE değil. Kaynak sorusu duruyor. ## ② `Değişmez 1` KAPISINI KENDİM DOĞRULADIM — devralmadım M-0148 *\"Değişmez 1 GÜVENDE\"* demişti. Şartnamem bunu bir KAPI sayıyor, kapıyı başkasının ölçümüyle geçmedim. `denetle.py:710-712` okundu: ```python kur = t.get(\"kur\") if kur and kur > g: continue ``` ⇒ Nokta `kur:`ından önceki kesitlerde **hiç sorgulanmıyor.** Dönemi `kur:`a kırpmak sahipsiz sayısını ARTIRAMAZ. **Onaylıyorum** — ama yine de her düzeltmeden sonra `denetle.py` koşturacağım (§3.5.1: iki uç da ölçülür; kodun söylediği ile koşunun söylediği ayrı şeylerdir). ## ③ DESEN — ve niçin bu bir \"veri hatası\" değil bir SİSTEM izi Volga-Ural/Kuzey Rusya kümesinin (~40 kayıt) hepsi aynı imzayı taşıyor: ``` Ufa kur:1574 s:[1281→1438 altinorda, 1438→1552 kazan, 1552→1923 rusya] Perm kur:1723 s:[1281→1472 novgorod, 1472→1547 moskova, 1547→1923 rusya] Orenburg kur:1743 s:[1281→…, …, …→1923 rusya] (üçü de 3 dönem) ``` ⇒ Bu zincir **yerleşimin** değil **BÖLGENİN** hâkimiyet sırası. Biri \"1281'de burası Altınorda'ydı\" diye doğru bir şey yazmış, ama atlas **noktaya** boyuyor. 📌 Yani kayıtlar *yalan* söylemiyor, **yanlış eksende doğru** söylüyor — `Değişmez 3`ün `m:` vakasının (siyasî bilgiyi coğrafî eksende tutmak) akrabası. Bunu bir ders olarak bildiriyorum; senin kaydına girebilir. ## ④ ŞİMDİ NE YAPIYORUM — ve mekanik toplu düzeltme YAPMIYORUM Şartname üç çare sayıyor ve hangisinin doğru olduğu **kaynağa bakmadan bilinmez**. Kümelere ayırdım, kaynak sorusu her kümede farklı: ``` A ~40 Rus kale/şehir kuruluşları (boş bozkır/orman) beklenen çare (b) DÖNEM B ~11 İran-Irak (Buşehr · Şuşa · Sultâniye · Ferahâbâd · Bender Abbas …) C 4 Mısır-Sudan (Portsaid · İsmâiliye · Cağbûb · Bûr Sûdân) D 3 Fas (Sûvayra · Tıtvân · Şefşâven) E 4 Afrika Boynuzu — fark KÜÇÜK (4-15 yıl), AYRI SINIF F 4 Osmanlı/Anadolu (Kilitbahir · Bodrum · Yenişehir · Kırcaali) ``` 🔴 **(c) şıkkı — \"yerinde ONDAN ÖNCE başka yerleşim vardı\" — adayları şimdiden görünüyor ve bunları YAZMAYACAĞIM, sana bildireceğim:** St. Petersburg (Nyen/Nyenschantz) · Bender Abbas (Gamrûn — kayıt ADINDA zaten yazıyor) · Tıtvân (Tetuan 1484 bir YENİDEN kuruluş) · Bodrum (Halikarnas) · Ufa. Her birini kaynağa soracağım; (c) çıkarsa **ölçüp bildireceğim**, nokta eklemek benim yetkimde değil. ⚠️ Ve `E` kümesi ayrı bir sınıf olabilir: Cibûtî 4 yıl · Gambela 10 · Bûr Sûdân 10 · Dire Dava 15. Bu ölçekte fark, `kur:`ın yuvarlanmasından ya da \"kuruluş kararı ≠ kuruluş\" ayrımından geliyor olabilir — yani (a) şıkkı. Onları küme olarak değil TEK TEK soracağım. ## ⑤ ELİMDE BEKLEYEN — M-0150 (Yakut) OPUS HAZIR KITA 6'nın `veri-yok → kabile` bulgusu benim `neden:` yetkimde. `yakutlar` gövdesini KENDİM çekip okuyacağım, onun ölçümünü devralmıyorum. İŞ 1'in içine sığdıracağım. ## ⑥ DİSKTE HÂLÂ HİÇBİR ŞEYİM YOK Tek satır yazmadım. İlk yazımı yapmadan önce kaynak turunu bitireceğim — `§11`: *\"aracın söylediğini yapmadan önce aracın ne ölçtüğünü anla.\"* — VERİ ZAMAN 2 · M-0149 · nöbetçi açık",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
