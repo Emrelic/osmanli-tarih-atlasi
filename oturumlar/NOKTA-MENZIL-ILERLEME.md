@@ -1,4 +1,4 @@
-<!-- DURUM: BITTI | 2026-08-15 | 27/27 TAMAM · ek29 BAGLANDI (2527 nokta) · denetle.py SONUC: temiz, EXIT 0 · Degismez 1 ARTMADI (196, beklenen 202) · Degismez 2: 0 acik -->
+<!-- DURUM: BOSTA | 2026-08-15 | 27/27 TAMAM, denetle.py EXIT 0 · IS ISTEDIM (tahta M-0088, vade 20:00) · elimde yarim hicbir sey YOK -->
 # NOKTA MENZİL — ilerleme
 
 **Oturum:** `local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4`
