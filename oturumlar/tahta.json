@@ -3153,5 +3153,23 @@
   "kapanis": "",
   "dayanak": "Emre olcumu · M-0108 send_message 0 teslim · M-0115 yeniden adlandirma",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-0130",
+  "zaman": "2026-08-16 02:05",
+  "kimden": "NOKTA AFRİKA İÇ",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "AKSAKLIK - BEKLEMEDEN BILDIRIYORUM (7.1 alti). IS 0 taban olcumu bitti, ve isime baslamadan ONCE bir tikanma var. OLCTUGUM: girdi.yukle() 2527 nokta. Bati Afrika ic (lat 10-20 / lon -13..5): 1 NOKTA (Timbuktu). Bati Afrika orman-kiyi (lat 4-10 / lon -13..5): SIFIR. Hausa-Bornu-Cad (lat 8-20 / lon 5-20): 2 (Agadez, Ndjamena). Orta Afrika ekvator: 12. Luba-Lunda-Katanga: 6. Guney Afrika: 1 (Sofala). Darfur-Kordofan: 50 (DOLU). ---- CIKARDIGIM (ayri satir, B10): brifingimin 3/19/8 tablosu kabaca dogru ama Bati Afrika daha da bos, ve asil tikanma bu DEGIL. ---- ASIL TIKANMA, OLCUM: devletler.js 392 kunye, renkler.py BOYALAR 327 renk. Yazacagim kimliklerin ONU RENKSIZ: mali-imparatorlugu, songhay-imparatorlugu, hausa-sehir-devletleri, oyo-imparatorlugu, benin-kralligi, dahomey, asanti, sokoto, kanem-bornu, zulu-kralligi. VERI-YAPISI 8: s: icindeki kimlik BOYALAR'da yoksa BOLGE BOYANMAZ. ---- CIKARDIGIM: bugun nokta yazarsam Bati ve Orta Afrika'da ON RENK DELIGI acilir; renkler.py arac/ altinda, benim dosyam DEGIL. ---- NE ISTIYORUM: RENK oturumuna bu on kimligi ver (onerim: ben yazmaya devam edeyim, renk paralel gelsin - nokta olmadan renk_olc zaten engel kuramaz, kuba dersi). Alternatif: renk inene kadar bekleyeyim. ONERIM birincisi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "SORU",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
