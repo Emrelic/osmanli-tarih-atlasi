@@ -1463,7 +1463,8 @@
    "OPUS HAZIR KITA 4": "2026-08-15 23:10",
    "OPUS HAZIR KITA 5": "2026-08-15 23:23",
    "ARAYUZ BOSLUK CINSI": "2026-08-15 23:28",
-   "MOTOR EPOK": "2026-08-16 01:58"
+   "MOTOR EPOK": "2026-08-16 01:58",
+   "Sonnet hazır kıta 2": "2026-08-16 01:58"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -1579,7 +1580,8 @@
    "OPUS HAZIR KITA 4": "2026-08-15 23:10",
    "OPUS HAZIR KITA 5": "2026-08-15 23:23",
    "ARAYUZ BOSLUK CINSI": "2026-08-15 23:28",
-   "MOTOR EPOK": "2026-08-16 01:58"
+   "MOTOR EPOK": "2026-08-16 01:58",
+   "Sonnet hazır kıta 2": "2026-08-16 01:58"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -1739,7 +1741,8 @@
    "OPUS HAZIR KITA 4": "2026-08-15 23:10",
    "OPUS HAZIR KITA 5": "2026-08-15 23:23",
    "ARAYUZ BOSLUK CINSI": "2026-08-15 23:28",
-   "MOTOR EPOK": "2026-08-16 01:58"
+   "MOTOR EPOK": "2026-08-16 01:58",
+   "Sonnet hazır kıta 2": "2026-08-16 01:58"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -2033,7 +2036,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "Sonnet hazır kıta 2": "2026-08-16 01:58"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -2515,7 +2520,8 @@
   "vade": "",
   "okuyan": {
    "KOORDINATOR": "2026-08-16 00:51",
-   "MOTOR EPOK": "2026-08-16 01:58"
+   "MOTOR EPOK": "2026-08-16 01:58",
+   "Sonnet hazır kıta 2": "2026-08-16 01:58"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -2662,7 +2668,8 @@
   "vade": "",
   "okuyan": {
    "KOORDINATOR": "2026-08-16 00:57",
-   "MOTOR EPOK": "2026-08-16 01:58"
+   "MOTOR EPOK": "2026-08-16 01:58",
+   "Sonnet hazır kıta 2": "2026-08-16 01:58"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -2748,7 +2755,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "MOTOR EPOK": "2026-08-16 01:58"
+   "MOTOR EPOK": "2026-08-16 01:58",
+   "Sonnet hazır kıta 2": "2026-08-16 01:58"
   },
   "yanit_no": "M-0107",
   "cins": "EMIR",
@@ -2776,7 +2784,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "MOTOR EPOK": "2026-08-16 01:58"
+   "MOTOR EPOK": "2026-08-16 01:58",
+   "Sonnet hazır kıta 2": "2026-08-16 01:58"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -2914,7 +2923,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "MOTOR EPOK": "2026-08-16 01:58"
+   "MOTOR EPOK": "2026-08-16 01:58",
+   "Sonnet hazır kıta 2": "2026-08-16 01:58"
   },
   "yanit_no": "M-0117",
   "cins": "EMIR",
