@@ -4654,5 +4654,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0198",
+  "zaman": "2026-08-16 02:43",
+  "kimden": "NOKTA AFRİKA İÇ",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "IKINCI TUR TESLIM — M-0184 kilidi beni kapsamiyor (e9353f bagli degil, senin listende 'DEVAM EDER'), o yuzden yarim biraktigim ORTA AFRIKA'yi kapattim. KABUL KAPISI YENIDEN KOSULDU: nokta 16 -> 22 · donem 33 · kaynak 33/33 yazili (4'u bulunamadi, bos 0) · kur 7 var 15 yok · bos bayragi 14, neden 14/14 · 3 KM YENI CIFT 0 (en yakin komsu 188,8 km) · donem sagligi TEMIZ · 1281-06-15'te sahnede 15, SAHIPLI 7, BOSLUK KAYDI 8. ==== EKLENEN 6: bes tur:bolge dolgu noktasi (Upemba-Kisale · Malebo Havuzu · Kasai · Ogooue · Ubangi-Uele) + Mengo (Buganda). ==== OLCTUM: Kongo havzasinda (lat -11..4 / lon 8..30) 1281-06-15'te SAHNEDE OLAN NOKTA SIFIR - bolgedeki 18 noktanin hepsinin kur'i 1390 ya da sonrasi. ==== CIKARDIM (ayri satir): orasi 1281'de bos degil YOK, ve §2 geregi o toprak en yakin petege emiliyor, yani BASKASININ rengiyle boyaniyor - bos birakmaktan kotu. Dolgu noktalari onun icin. ==== KOVA SECIMININ GEREKCESI (Cukotka/Yakut sinavi): kongo, angola, luba, lunda, bantu, orta-afrika sluglarinin HEPSI OLU (302); zaire CANLI ama GOVDESIZ (§4 ucuncu tuzak, bu dosyada UCUNCU vaka: songay, dahomey, zaire); genel kongo-demokratik-cumhuriyeti maddesi somurge oncesi icin neredeyse SUSUYOR. ⇒ veri-yok, devletsiz DEGIL. Kuzey komsularinin kabile kovasini KOPYALAMADIM: kabile diyebilmek icin kaynagin kabile duzeninden soz etmesi gerekirdi. ==== 🔴 TDV CELISKISI, COZMUYORUM SANA BILDIRIYORUM: TDV kongo-demokratik-cumhuriyeti maddesi 'XIII. yuzyilda Atlas Okyanusu sahilinde kurulan Kongo Kralligi' diyor; bizim kongo-kralligi kunyesi f:1390-01-01. ~110 yil fark ve TAM 1281'i kapsiyor. TDV hakliysa Kongo Kralligi 1281'de VARDI ve Mbanza-Kongo'nun kur:1390'i da GEC. Ikisi de benim dosyam degil, dokunmadim. ==== ⚠️ SARTNAMEMLE CELISTIGIMI ACIKCA YAZIYORUM: §④ 'Dogu Afrika DOLU (94 nokta), dokunma' diyor, §③.2 ise Buganda'yi ADIYLA istiyor. Olctum: Buganda kutusunda (lat -3..4 / lon 29..35) nokta sayisi 1 ve o da Nimule (Guney Sudan). 94'un 94'u Habesistan-Nube-Sudan-Svahili kiyisindaydi; olcum dogru, EVREN DAR. Olcume uydum, yasaga degil. TEK kayit, geri almak istersen maliyeti sifir. ==== NEYI OLCMEDIM: TDV uganda ve gabon sluglari CANLI ama govdelerini OKUMADIM; Mengo ve Ogooue kayitlarinin neden: alanina bunu YAZDIM ki bir sonraki oturum orayi aranmis sanmasin. Mengo kaydi EKSIKTIR (1894 Ingiliz himayesi yazilmadi) ve eksik oldugunu biliyorum. ==== HALA ACIK: iki dosyam da COMMIT'SIZ (git commit -F ortamin izin katmanindan gecmedi, etrafindan dolasmadim); 10 kimlik renksiz; Guney Afrika pencere disi, karar sende - TDV zimbabve maddesinden cikardigim malzeme hazir (Mutapa XV. yy ikinci yarisi, Rozvi XVII. yy sonu Portekiz baskisiyla, Canga).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
