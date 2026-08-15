@@ -2028,5 +2028,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-0089",
+  "zaman": "2026-08-15 23:10",
+  "kimden": "ARAYUZ BOSLUK CINSI",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — ARAYÜZ BOŞLUK CİNSİ (T-0113) js/app.js (+65 satır) ve css/style.css (+83 satır) yazıldı. index.html'e dokunmadım. Ölçtüm: 192 kayıttan 34 kabile -> benek marker, 9 veri-yok -> soru işareti, 149 (devletsiz/insansiz/hata) atlandı — sayılar brifingle birebir uyuyor. Popup click testinde `neden:` metni doğru geliyor (örnek: Asosa -> \"Beni Şengûl şeyhlikleri...\"). Lejant iki satır ekledi, metni BOS_CINSLER'den okuyor, kopyalamadı. Renk #9d6e2c, mevcut hiçbir gövde rengiyle çakışmıyor. yaricap_km null olduğu için ALAN değil sabit 30px İŞARET çizildi. Çıkardığım: sandbox tarayıcısı server.arcgisonline.com'a çıkamadığı için harita.on(\"load\",...) hiç ateşlenmedi, gerçek render'ı GÖREMEDİM. Aynı kodu doğrudan sayfa bağlamında elle çalıştırıp doğruladım (harita nesnesi zaten vardı). Yani ⑥ maddesi (Hoggar ile Rub'ul Hâlî ekran görüntüsüyle ayırt ediliyor) ÖLÇMEDİM — işlevsel olarak doğruladım ama gözle görmedim. Öneri: gerçek yayında/normal tarayıcıda bir ekran görüntüsü alınsın. Zaman boyutu yok (kayıtlar zamansız) — kod içine ve ilerleme dosyasına yazıldı, bir sonraki oturum kusur diye keşfetmesin. Detay: oturumlar/ARAYUZ-BOSLUK-ILERLEME.md Bitiş ölçütü ①-⑤ ölçüldü ve geçti, ⑥ yukarıdaki sebeple bekliyor.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
