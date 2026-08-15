@@ -3016,7 +3016,12 @@
   "okuyan": {},
   "yanit_no": "M-0121",
   "cins": "RAPOR",
-  "teyit": {},
+  "teyit": {
+   "NOKTA SİBİRYA 2": {
+    "zaman": "2026-08-16 02:00",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "commit e0eed94 · Degismez 5c",
   "aciliyet": "NORMAL"
