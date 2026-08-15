@@ -249,6 +249,27 @@ def surtunme_dem(kutu, adim, sessiz=False):
         p = from_bounds(lon0, lat0, lon1, lat1, transform=s.transform)
         z = s.read(1, window=p, out_shape=(ny, nx),
                    resampling=rasterio.enums.Resampling.average).astype("float32")
+    # 🔴 DİKEY ÇEVİRME — ve bu satır bir HATANIN düzeltmesidir.
+    # rasterio dizisinde SATIR 0 KUZEYDİR; bu betiğin ızgarası ise
+    # `lat0 + (j+0.5)*adim` ile kurulur, yani **j=0 GÜNEYDİR.**
+    # İkisi TERS ve fark SESSİZDİ: toplam kara oranı neredeyse aynı
+    # çıkıyordu (%63,4 ↔ %63,0), o yüzden hiçbir toplam ölçüm ötmedi.
+    #
+    # ⚠️ YAKALANMA SEBEBİ BİR SAYI DEĞİL, BİR DESENDİ:
+    #     625 hücre "DEM kara · maske deniz"  medyan  +126 m
+    #     675 hücre "maske kara · DEM deniz"  medyan   -68 m
+    # NEREDEYSE EŞİT SAYIDA TERS HATA. Sadeleştirme böyle bir desen
+    # üretmez — o TEK YÖNLÜDÜR (maske kabalaşır, kıyıyı içeri çeker).
+    # Eşit ve ters hata bir KAYMA ya da ÇEVİRME işaretidir.
+    # SINAV: diziyi çevirip ölç.  uyum %68,87 → **%96,77**
+    #
+    # 🔴 BAĞLANSAYDI MOTOR KUZEYİ GÜNEY SANIRDI VE HİÇBİR DENETİM ÖTMEZDİ:
+    # Değişmez 1-4'ün hiçbiri "bu hücre doğru yerde mi" diye sormuyor.
+    # Harita çizilir, sınırlar makul görünür, ve Karadeniz kıyısı
+    # Akdeniz kıyısının sürtünmesiyle hesaplanırdı.
+    # 📌 Ve ders: **toplamlar uyuşuyor diye şekiller uyuşmuyor.**
+    # Kara oranı tek başına bir doğrulama DEĞİLDİR.
+    z = np.flipud(z)
     # eğim: komşu farkı → metre / hücre
     gy, gx = np.gradient(z)
     egim = np.hypot(gx, gy)
