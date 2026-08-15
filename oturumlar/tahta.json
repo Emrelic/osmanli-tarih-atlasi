@@ -2703,5 +2703,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0109",
+  "zaman": "2026-08-16 01:02",
+  "kimden": "OPUS HAZIR KITA 8",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "local_4e0f5048-9210-47cc-8863-ecf8213b8427",
+  "mesaj": "🔴🔴 ARIZA — KAZAYLA URETIM KOSTURDUM. §7 IHLALI, KUSUR BENDE. Isim bitmeden bildiriyorum (§7.1 ⑥). OPUS HAZIR KITA 8 · local_4e0f5048-9210-47cc-8863-ecf8213b8427 === NE OLDU === IS 0 olcum betigimin SONUNDA pencereyi (BOLGE) okumak icin su satir vardi: import uret_petek Bu bir OKUMA sanmistim. DEGILMIS: uret_petek.py modul duzeyinde URETIMI KOSTURUYOR. Betik 23:2x'te basladi, 15 Agustos 00:59'da bitti — TAM URETIM. Kendi zamanlama tablosunu bastim: yabanci govdeler 49dk · donemler 25dk 30sn. === NE DEGISTI (git status, olculdu) === M data/donemler.js 22,5 MB 16 Agu 00:59 M data/devletler_harita.js 14,8 MB 16 Agu 00:59 M data/petek_govde.js 3,3 MB 16 Agu 00:59 M data/bolgeler.js 🔴 COMMIT ETMEDIM, PUSH ETMEDIM, SURUM DAMGASINA DOKUNMADIM. Karar SENIN. === IKI SEY OLCULDU, IKISI DE BILINMELI === ① Kosu EXIT 0 ile bitti ve ek29'un 27 yeni noktasini ICERIYOR (taban 2527). Yani cikti BAYAT DEGIL, tersine EN TAZE olan bu. Yayin kapisini (denetle_yayin.py) su an kosturuyorum, sonucu ayrica bildirecegim. ② Gece 22:00 zamanlayicisindan bir kosu logu YOK (en yeni *.log 14 Agu 19:04). ⇒ Iki uretim CAKISTI MI, OLCEMEDIM. \"Olcmedim\" diye yaziyorum, \"cakismadi\" diye DEGIL. === VE BIR ALET BOSLUGU — bence bu, benim hatamdan degerli === 🔴 CIFT KOSU KILIDI URETIMI KORUMUYOR — yalnizca BASLATICIYI koruyor. Kilit KOSUYU-SIMDI-BASLAT.bat icinde. Ben .bat'i hic cagirmadim; PYTHON IMPORT'U uretimi dogrudan baslatti ve kilit HIC SORULMADI. ⇒ Yani \"iki uretim ayni anda kosamaz\" GARANTISI YOK. Bir oturum farkinda bile olmadan (benim gibi) ikinciyi baslatabilir. Bu proje dort uretimi tam boyle kaybetti. 🟢 ONERIM: kilit .bat'tan uret_petek.py'nin ICINE tasinsin (modul duzeyinde, ilk satirda). O zaman kim nasil cagirirsa cagirsin kilit calisir. Ve bir adim daha: uretim modul duzeyinde kosmasin, `if __name__ == \"__main__\"` altina alinsin — o zaman import bir OKUMA olur, bir KOSU degil. (Bu arac/*.py isi, BENDE DEGIL — karar ve yetki sende.) === YAYIN KAPISI KOSTU — SONUC: IHLAL VAR, EXIT 1 (olculdu, tahmin degil) === BAYAT data/devirler.js degisen: devletler_harita.js, donemler.js, petek_govde.js BAYAT data/altlik.js degisen: veri-kaynak/motor_kara.geojson (BENDEN ONCE degismis, oturum acildiginda git status'ta ZATEN duruyordu) UYARI uretiliyor ama cizilmiyor 3 (bekleyenler.js · koridor_halka2 x2) — benimle ilgisiz ⇒ Benim kosumun BIRAKTIGI tek is: `py arac/uret_devirler.py` (§9: uret_petek'ten SONRA kosar). KOSMADIM — bir uretimi kazayla baslatmis bir oturumun ikincisini kendi kararilla baslatmasi dogru olmaz. Emrini bekliyorum. 🔴 Ve simdi disk su halde: donemler/petek/devletler_harita TAZE (27 yeni nokta ICINDE), devirler.js ONLARDAN ESKI. Bu haliyle YAYINLANMAZ — yarim bir cikti butun bir bayat ciktidan kotudur. === IS 0 (OKYANUSYA) — dogru olcum, ayri mesajda ayrinti === Ilk kosumu da CURUTUYORUM: alan adini 'kon' sandim, dogrusu 'lat'/'lon'. Betik SESSIZCE 0 dondurdu ve \"hicbir nokta yok\" der gibi gorundu. Duzeltilmis olcum: Avustralya ANAKARASI 0 nokta · Yeni Zelanda 0 · Yeni Gine 11 nokta (7'si kasitli_bosluk, YEDISININ DE CINSI YAZILMAMIS). M-0020'nin \"Avustralya 2\" sayisi tutmuyor: o iki nokta Kupang/Rote, yani ENDONEZYA. Anakarada sifir.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "2026-08-16 12:00",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "ARIZA",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
