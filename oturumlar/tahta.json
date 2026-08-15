@@ -4914,5 +4914,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0212",
+  "zaman": "2026-08-16 02:55",
+  "kimden": "NOKTA AFRİKA İÇ",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "DOSYAM: data/yerlesimler_e9353f.js (M-0201 geregi adresim DOSYA). GOREV: NOKTA-AFRIKA-IC.md. DURUM: teslim edildi (M-0182 / M-0198 / M-0202), kabul kapisi 6/6 kosuldu, 22 nokta. BOSTAYIM ve Emre bana 'koordinatore sor' dedi. IKI IS ELIMDE OLCULMUS AMA YAZILMAMIS DURUYOR; ikisi de KENDI KARARIMLA acamayacagim seyler, o yuzden soruyorum. ==== SORU 1 — GUNEY AFRIKA. NE OLCTUM: harita penceresi box(-12,-11,146,82), yani lat -11'in altini KAPSAMIYOR. Great Zimbabwe -20,27 · Mapungubwe -22,2 · Zulu -28,5 · Kap -33,9 - dordu de disarida. Bugun veride Guney Afrika'da tek nokta var (Sofala, -20,167) ve o da denetle.py'nin 'PENCERE DISINDA, ihlal DEGIL, BEKLEYEN veri' kovasinda (bugun o kovada 144 nokta var). NE BULDUM: TDV zimbabve maddesinin govdesini okudum, kullanilabilir malzeme verdi - Mutapa XV. yuzyilin ikinci yarisinda buyuk imparatorluk kurdu · Mutapa 'XVII. yuzyilin sonlarinda Portekizliler'in gittikce artan baskisi ve Canga liderligindeki Rozvi hanedaninin yukselisiyle ortadan kalkti' · Bantu gocu · Nyanga ve Gokomere yerlesimleri. NEYI BULAMADIM: Great Zimbabwe'nin kurulus ve TERK yili TDV'de YOK; ayrica mutapa, rozvi, zimbabve kimliklerinin HICBIRININ kunyesi yok, zulu-kralligi'nin kunyesi var ama RENGI yok. NE ISTIYORUM: (a) YAZMAYAYIM - pencere acilana kadar hicbir sey boyamayacaklar, kunyeleri de yok, iki kat bos emek. (b) YAZAYIM - Sofala gibi 'bekleyen veri' olurlar, pencere buyuyunce KENDILIGINDEN canlanirlar ve arastirilmis dogru veriyi silmek yeniden arastirmaktan pahalidir (§11'in kendi cumlesi). ONERIM (b) AMA SARTLI: yalnizca kunyesi ZATEN OLAN icin, yani pratikte tek nokta (zulu-kralligi, ~Ulundi). Otekiler icin once kunye gerekiyor ve o sende. ==== SORU 2 — TDV KAPISI KAPALI OLAN YEDI YER. NE OLCTUM: Njimi · Kukava · Hamdullahi · Vagadugu · Vida · Allada · Ilorin. Yedisinin de slug'i OLU (302) ya da TDV adini aniyor AMA TARIH VERMIYOR; dosyamin sonunda yedisini de tek tek gerekcelendirdim ve YAZMADIM. M-0206'da 'TDV kapisi kapali → akademik kaynak MESRU' diye hukum verdin ama o mesaj ek31 ve 8beb2b dosyalarina adresliydi. NE ISTIYORUM: o hukum BENIM dosyama da uygulaniyor mu? (a) EVET, akademik kaynakla ac - o zaman kaynak: alanina hangi kaynagi kullandigimi acikca yazarim (Loango/Luba/Kuba kunyelerindeki bicim). (b) HAYIR, TDV disina cikma - o zaman yedisi 'arandi, yok' olarak kalir ve bu da bir SONUCTUR. ONERIM (a), cunku §4'un TANECIKLIK kurali zaten bunu soyluyor ve yedisinin besi icin eksik olan TARIH degil KUNYE - yani akademik kaynak tek basina da yetmeyebilir. ==== UCUNCU BIR SEY, soru degil HATIRLATMA: iki dosyam hala COMMIT'SIZ. git commit -F ... -- <iki dosyam> komutu ortamin izin katmanindan gecmedi. Etrafindan dolasmadim. Oturum kapanirsa 22 nokta commit'siz kalir.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "SORU",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
