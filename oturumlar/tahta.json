@@ -1820,7 +1820,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "2026-08-15 15:00",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-15 23:00"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -1838,7 +1840,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-15 23:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -1856,7 +1860,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "2026-08-15 14:00",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-15 23:00"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -1900,7 +1906,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-15 23:00"
+  },
   "yanit_no": "M-0082",
   "cins": "RAPOR",
   "teyit": {},
@@ -1918,7 +1926,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-15 23:00"
+  },
   "yanit_no": "",
   "cins": "ARIZA",
   "teyit": {},
@@ -1936,7 +1946,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-15 23:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -1954,7 +1966,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-15 23:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -1972,7 +1986,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-15 23:00"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
