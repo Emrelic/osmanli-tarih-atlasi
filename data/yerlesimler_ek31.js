@@ -147,6 +147,27 @@ window.YERLESIMLER_EK31 = [
   bos:true, neden:"veri-yok — 68-72°K / 152-168°D hücreleri 507-709 km uzakta; kuzey kıyı şeridi 1281'de noktasızdı. Kaynak ARANMADI.",
   s:[], d:[], v:[] },
 
+// ───── İNCE TARAMANIN KALAN TEK GERÇEK KARA BOŞLUĞU ─────
+//
+// İlk tarama 4° ızgarayla yapılmıştı ve 54-60°K şeridini örneklemiyordu.
+// 3° ızgarayla tekrarlandı; 17 kara hücresi 300 km'yi aşıyor ama yalnız
+// ÜÇÜ 450 km'yi geçiyor, ve ikisi (72°K/150°D · 72°K/174°D) Doğu Sibirya
+// Denizi'nde — Çukotka'nın kuzey kıyısı ~69-70°K'de biter.
+// ⚠️ Bunu KABA bir kara sınıflandırıcıyla ayırdım (elle yazılmış kutular),
+//   kara maskesiyle DEĞİL. Yani "deniz" hükmüm ÖLÇÜM değil ÇIKARIM.
+//   Kara maskesiyle doğrulanmadı; yanlışsa iki nokta daha gerekir.
+//
+// ⇒ Geriye tek gerçek kara boşluğu kalıyor: 60°K / 156°D, 576 km.
+//   Burası Kamçatka'nın kuzey boyun kısmı (Penjina havzası) — güneyde
+//   İtelmen noktam 55°K'de, doğuda Koryak toprakları 62°K/166°D'de;
+//   arada ~600 km'lik bir şerit noktasız kalıyordu.
+// kaynak: bulunamadı — Penjina/Koryak havzası için TDV'de madde yok,
+//   akademik literatür ARANMADI (İtelmen/Yukagir kayıtlarıyla aynı gerekçe)
+
+{ ad:"Penjina havzası (kuzey Koryak)", tur:"bolge", lat:61.000, lon:156.500, g:0, k:0,
+  bos:true, neden:"veri-yok — 60°K/156°D hücresi en yakın 1281 noktasına 576 km. Kamçatka boynu ile Koryak yaylası arasındaki şerit noktasızdı. Kaynak ARANMADI.",
+  s:[], d:[], v:[] },
+
 ];
 
 // ═══════════ YAZILMAYANLAR — üçü de gerekçesiyle ═══════════
