@@ -75,7 +75,7 @@ window.YERLESIMLER_EK29 = [
 { ad:"Erdel Belgradı (Gyulafehérvár)", tur:"sehir", lat:46.0678, lon:23.5800, g:0, k:2,
   s:[{f:"1281-01-01",t:"1526-09-01",d:"macaristan"},
      {f:"1687-08-12",t:"1918-11-11",d:"avusturya"},
-     {f:"1918-11-11",t:"1923-10-29",d:"romanya"}],
+     {f:"1918-11-11",t:"1923-10-29",d:"romanya-kralligi"}],
   d:[],
   v:[{f:"1526-09-01",t:"1541-08-29"},
      {f:"1541-08-29",t:"1687-08-12"}] },
@@ -94,7 +94,7 @@ window.YERLESIMLER_EK29 = [
 { ad:"Brassó (Braşov)", tur:"sehir", lat:45.6427, lon:25.5887, g:0, k:2,
   s:[{f:"1281-01-01",t:"1526-09-01",d:"macaristan"},
      {f:"1687-08-12",t:"1918-11-11",d:"avusturya"},
-     {f:"1918-11-11",t:"1923-10-29",d:"romanya"}],
+     {f:"1918-11-11",t:"1923-10-29",d:"romanya-kralligi"}],
   d:[],
   v:[{f:"1526-09-01",t:"1541-08-29"},
      {f:"1541-08-29",t:"1687-08-12"}] },
@@ -102,7 +102,7 @@ window.YERLESIMLER_EK29 = [
 { ad:"Segesvár (Sighişoara)", tur:"sehir", lat:46.2197, lon:24.7925, g:0, k:3,
   s:[{f:"1281-01-01",t:"1526-09-01",d:"macaristan"},
      {f:"1687-08-12",t:"1918-11-11",d:"avusturya"},
-     {f:"1918-11-11",t:"1923-10-29",d:"romanya"}],
+     {f:"1918-11-11",t:"1923-10-29",d:"romanya-kralligi"}],
   d:[],
   v:[{f:"1526-09-01",t:"1541-08-29"},
      {f:"1541-08-29",t:"1687-08-12"}] },
@@ -330,7 +330,7 @@ window.YERLESIMLER_EK29 = [
 //   Bizans'a GERİ VERİLDİ; o iki kırılmanın günü veride YOK, uydurmadım.
 //   Bugünkü çizgi 1453'ü esas alıyor — eksik ama YANLIŞ değil.
 // kaynak: bulunamadı — çizgi kardeş kayıt İstanbul'dan
-{ ad:"Silivri", tur:"kale", lat:41.0736, lon:28.2464, g:0, k:4,
+{ ad:"Silivri", tur:"kale", lat:41.0791, lon:28.2493, g:0, k:4,
   s:[{f:"1281-01-01",t:"1453-05-29",d:"bizans"}],
   d:[{f:"1453-05-29",t:"1923-10-29"}], v:[] },
 

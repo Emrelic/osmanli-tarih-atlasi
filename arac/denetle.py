@@ -1173,7 +1173,12 @@ def degismez3(Y):
 #
 # ⚠️ ÇİFT YÖNLÜ: sayı DÜŞERSE de uyarır. Tavanı gevşek bırakmak, gerçek
 # bir gerilemeyi görünmez yapar (`BEKLENEN_SAHIPSIZ`in 9 Ağustos dersi).
-BEKLENEN_HAYALET = 140
+# 🟢 140 → 136, AYNI GÜN: `romanya` künyesi 1881-03-26'da bitiyor ve
+# ardılı (`romanya-kralligi`, 1881→1923) ZATEN VARDI — veri yanlış olanı
+# kullanıyordu. Yedi dönem taşındı, uydurma YOK: var olan künyeye geçiş.
+# ⚠️ Sınırı AŞAN 20 dönem (1881 önce başlayıp sonra biten) DOKUNULMADI —
+# onları bölmek bir tarih kararıdır, mekanik iş değil.
+BEKLENEN_HAYALET = 136
 HAYALET_TOLERANS_GUN = 400      # ~13 ay: teslim gecikmesi meşru, yıllar değil
 
 

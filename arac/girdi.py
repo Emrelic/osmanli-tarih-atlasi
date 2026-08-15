@@ -350,6 +350,12 @@ GIRDI_DOSYALARI = [
     "yerlesimler_ek26.js",
     "yerlesimler_ek27.js",
     "yerlesimler_ek28.js",
+    # NOKTA MENZİL, 15 Ağustos 2026 — 26 nokta. İki bağımsız ölçümün
+    # gösterdiği aynı boşluk: koridor ağının yere oturmayan 18 menzil
+    # durağı + TUNA HAVZASI'nın veride bulamadığı 10 Macaristan merkezi.
+    # Aralarında Gyulafehérvár var — Erdel Prensliği'nin BAŞKENTİ ve
+    # bugüne kadar veride yoktu; Erdel kimliğinin darboğazıydı.
+    "yerlesimler_ek29.js",
     "yerlesimler_amerika.js",
     # ── HALKA-2 NOKTA PARTILERI · 7 Agustos 2026 ───────────────────
     # Uc oturum, uc bolge, 333 yeni nokta. Yogunluk olcumu (nokta/mn km2):
