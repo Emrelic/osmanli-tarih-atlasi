@@ -309,7 +309,16 @@
   "yanit_no": "",
   "cins": "RAPOR",
   "dayanak": "M-0004..M-0010 · scratchpad UUID + .claude/projects jsonl",
-  "aciliyet": "ACIL"
+  "aciliyet": "ACIL",
+  "teyit": {
+   "OPUS HAZIR KITA 8": {
+    "zaman": "2026-08-15 23:11",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
+  "teyit_kimlik": {
+   "OPUS HAZIR KITA 8": "local_4e0f5048-9210-47cc-8863-ecf8213b8427"
+  }
  },
  {
   "no": "M-0016",
