@@ -1,4 +1,4 @@
-<!-- DURUM: CALISIYORUM | 2026-08-15 | 1/27 — GYULAFEHERVAR YAZILDI (zincirin darbogazi acildi) · dosya ek27 DEGIL ek29 · hedef 28 -> 27 -->
+<!-- DURUM: BITTI | 2026-08-15 | 26/27 — ek29 yazildi, kendi denetimim TEMIZ (bosluk 0 · renksiz kimlik 0 · 3km ihlal 0). Kalan 1: Uskudar, koordinator kararina bagli. BAGLAMA bekleniyor. -->
 # NOKTA MENZİL — ilerleme
 
 **Oturum:** `local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4`
@@ -93,12 +93,58 @@ sahiplik dönemi yeter.
 
 ---
 
-## ② SIRADAKİ
+## ② TESLİM — 26/27, kalan 1'i koordinatör kararına bağlı
 ```
-Macaristan merkezleri   1/10   (Gyulafehérvár bitti)
-menzil durakları        0/17   (Firecik düştü: 18 → 17)
-TOPLAM                  1/27
+Macaristan merkezleri   10/10  ✅
+menzil durakları        16/17     (Üsküdar karar bekliyor)
+TOPLAM                  26/27
 ```
+
+### Kendi denetimim — bağlanmadan ÖNCE, üç soru
+```
+① Değişmez 1  boşluk taraması        26/26 KESİNTİSİZ    (Karlovac kur:1579'dan)
+② §8          kullanılan 22 kimlik   22/22 RENGİ VAR     harita deliği 0
+③ 3 km        en yakın çift          13,83 km (Praviște-Kavala)  ihlal 0
+yorum nöbetçisi                       TEMİZ
+```
+
+### Yöntem — 16 menzil durağının hiçbirinde gün UYDURMADIM
+Her durak için **en yakın mevcut noktaların zaman çizgisi ölçüldü** ve o
+çizgi izlendi. Sebep Değişmez 2: uydurulmuş bir kırılma günü kronolojide
+karşılıksız olduğu için denetimi **açar**; komşunun günü zaten maddeli.
+📌 Ve bu kolaycılık değil — menzil durağı bağlı olduğu kazanın kaderini
+paylaşır, ayrı bir siyasî birim değildir.
+
+### 🟢 TDV'den gelen iki kesin bilgi
+```
+uyvar          "sekiz idarî bölge: Uyvar, Narhid, Barş, Komaran, Hond,
+                NİTRA, Jabokrek ve Şele"      ⇒ Nitra Osmanlı sancağı, k:2
+               fetih 1663 · geri alış "19 Ağustos 1685" — ikisi de veride VAR
+sebinkarahisar "878'de (1473) aldı" (Otlukbeli sonrası) · "müstakil sancak
+                haline getirildi ve Erzurum beylerbeyiliğine bağlandı" ⇒ k:2
+```
+
+### 🔴 YAZMADIKLARIM — ve her birinin sebebi yazılı
+```
+Komárom `d:`   TDV sancak listesinde "Komaran" VAR ama KALE hiç düşmedi
+               ⇒ §11 "atlas seferi değil TASARRUFU boyar". İdarî iddia ≠ gövde.
+Léva `d:`      TDV `uyvar` sancak listesinde Léva GEÇMİYOR + 1664 için
+               veride kırılma günü yok ⇒ uydurma gün Değişmez 2'yi açardı
+Sisak `d:`     1593 sonrası kısa tutuş anlatısı TDV'de doğrulanamadı
+Silivri 1390-1403  Osmanlı dönemi ve 1403 iadesi — günleri veride yok
+Ilgın 1832     Konya'nın Kavalalı dönemi Ilgın için doğrulanamadı
+Lanzaka 1403-30  Selanik'in Bizans/Venedik devri ŞEHRE ait, iç bölgeye değil
+```
+Hepsinde `kaynak:` alanı **`bulunamadı`** yazılı — boş bırakılmadı.
+
+### 🔴 ÖLÇTÜĞÜM BİR BOŞLUK — Kuzey Dobruca
+Babadağı ve İshakçı'nın **25 km çevresinde hiç nokta yok**; en yakınlar
+Tuna'nın karşı kıyısında (İsmail 52 km, İbrail 72 km) ve onlar
+**Boğdan/Eflak çizgisinde** — Dobruca'nın çizgisi değil. ⇒ Kuzey Dobruca
+bu atlasta noktasız bir şeritti ve `§2` gereği karşı kıyının peteğine
+emiliyor olmalı. İki nokta o şeridi açtı ama **yeterli değil**, ayrıca
+bildirildi.
+
 🔴 **Dosya `girdi.py`ye BAĞLANMADI** — bağlama koordinatörde. Bağlanmamış
 veri dosyası bu projede üç kez yaşandı (`§5`): dosya durdu, motor okumadı,
 denetim temiz raporladı.
