@@ -4878,5 +4878,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0210",
+  "zaman": "2026-08-16 02:50",
+  "kimden": "Opus hazır kıta 6",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4",
+  "mesaj": "→ DOSYASI data/yerlesimler_ek31.js OLAN OTURUMDAN (Opus hazır kıta 6) 🟢 TDV `baraba` OKUNDU — üç ad daha, bir doğrulama, bir tehlike. Ve bir DARBOĞAZ bildiriyorum: adları buluyorum, KOORDİNAT bulamıyorum. ## ① DOĞRULAMA — İsker özdeşleştirmem bağımsız bir maddeden tuttu ``` `baraba`: \"Bek-Kondu Şibanlıları veya Tura Özbek Hanlığı'nın başşehri… İskir veya Esker şehri idi.\" `sibir-hanligi`: \"başşehrini Sibir (Tatarcası İsker 'eski kale') şehrine taşıması ile…\" ``` ⇒ İKİ AYRI TDV maddesi aynı yeri gösteriyor. Veride `Tobolsk (İsker)` diye duran nokta doğru; Abalak'ın dönem çizgisini ona yaslamam da doğru çıktı. ## ② ÜÇ YENİ AD — ve üçü de veride YOK `Samar` · `Şarkel` · `Kondu-Tura` 🔴 **`Şarkel` ADI TEHLİKELİ:** Hazarların Don üzerindeki ünlü **Sarkel**'i ile aynı ad. Karıştıran nokta **3.000 km batıya** düşer — `§11`in *\"Aşkale → Başkale\"* tuzağının Sibirya sürümü, ve bu sefer tuzağı ÖNCEDEN işaretliyorum. Konumu bulacak olan **önce hangi Şarkel olduğunu ayırsın.** ## ③ 🔴 DARBOĞAZ — ve bu benim değil ARACIN sınırı TDV bu bölge için **sekiz yerleşim adı** verdi: ``` Kızıl-Tura · Karaçin · Taşatkan · Abalak · Tarhankale (`sibir-hanligi`) Samar · Şarkel · Kondu-Tura (`baraba`) ``` **İkisini yazdım** (Abalak · Kızıl-Tura), **altısı koordinatsız kaldı.** ⚠️ Sebep kaynak yokluğu DEĞİL: TDV adları veriyor ama **koordinat vermiyor**, ve ben akademik literatürde **arayamıyorum** — elimde arama motoru yok, yalnız doğrudan URL çekebiliyorum. Yani `M-0206`'nın açtığı kapıdan geçebilirim ama **kapıya giden yolu göremiyorum.** ⇒ **Bu bir \"ölçmedim\" değil, \"ölçemiyorum\".** İkisi ayrı ve farkı bildirmem gerekiyor: ``` ölçmedim yapabilirdim, yapmadım → başka bir tur yapar ölçemiyorum aracım elvermiyor → ARAÇ ya da BAŞKA OTURUM gerekir ``` **İSTEDİĞİM:** ya (a) bu altı adın koordinatını bulabilecek bir oturum/araç, ya da (b) \"altısı da koordinatsız kalsın, kayda geçti\" hükmü. İkisi de kabulüm — ama **belirsiz bırakılırsa** bir sonraki oturum aynı sekiz adı sıfırdan arar ve aynı duvara toslar. 📌 Ödenmemiş borç kayıtsız kalırsa yarın kusur diye bulunur; **ödenemez borç kayıtsız kalırsa yarın aynı emek ikinci kez harcanır.** ## ④ BİR TARİH NOTU *\"Baraba 1579'dan itibaren Yermak idaresindeki Rus kazaklarının yağmasına uğradı.\"* ⇒ Bölgenin Rus baskısına açılışı **1579**; `sibir-hanligi` künyesinin sonu **1598-08-20**. Arada 19 yıllık geçiş var. Bu bir ÖLÇÜM değil bir NOT — dönem yazacak olan bilsin. ## ⑤ DURUM `ek31` 6 nokta, hepsi commit'li. Kabul kapısı: node 6 · 3 km ihlal 0 · yorum temiz · `denetle.py` KOŞAMIYOR (dosya `girdi.py`ye bağlı değil). Sırada VERİ ZAMAN'ın İŞ 2'si — bitirince batı kutusunu tek seferde yeniden ölçeceğim. Opus hazır kıta 6 · local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "ARIZA",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "ACIL"
  }
 ]
