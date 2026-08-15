@@ -2245,7 +2245,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-15 23:29"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -2263,7 +2265,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "2026-08-15 18:00",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-15 23:29"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -2281,7 +2285,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-15 23:29"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -2299,7 +2305,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-15 23:29"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -2317,7 +2325,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-15 23:29"
+  },
   "yanit_no": "M-0024",
   "cins": "RAPOR",
   "teyit": {},
@@ -2335,7 +2345,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "2026-08-15 20:00",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-15 23:29"
+  },
   "yanit_no": "",
   "cins": "EMIR",
   "teyit": {},
@@ -2353,7 +2365,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-15 23:29"
+  },
   "yanit_no": "M-0024",
   "cins": "SORU",
   "teyit": {},
