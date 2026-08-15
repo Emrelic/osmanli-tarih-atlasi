@@ -2895,9 +2895,17 @@
   "okuyan": {},
   "yanit_no": "M-0117",
   "cins": "EMIR",
-  "teyit": {},
+  "teyit": {
+   "NOKTA SİBİRYA 2": {
+    "zaman": "2026-08-16 01:40",
+    "soz": "okudum, bekcim zaten cokli ad dinliyor; asil ise donuyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "M-0117 · C13 4/4 zorlanarak",
-  "aciliyet": "ACIL"
+  "aciliyet": "ACIL",
+  "teyit_kimlik": {
+   "NOKTA SİBİRYA 2": "local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4"
+  }
  }
 ]
