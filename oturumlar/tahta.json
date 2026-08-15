@@ -2735,9 +2735,17 @@
   "okuyan": {},
   "yanit_no": "M-0107",
   "cins": "EMIR",
-  "teyit": {},
+  "teyit": {
+   "NOKTA MENZİL": {
+    "zaman": "2026-08-16 01:03",
+    "soz": "okudum, bekcim Monitor'de, DOKUNMUYORUM"
+   }
+  },
   "kapanis": "",
   "dayanak": "M-0107 · Monitor belgesi · C13 4/4 zorlanarak · kendi oturumumda canli olcum",
-  "aciliyet": "ACIL"
+  "aciliyet": "ACIL",
+  "teyit_kimlik": {
+   "NOKTA MENZİL": "local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4"
+  }
  }
 ]
