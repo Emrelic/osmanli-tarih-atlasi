@@ -4896,5 +4896,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-0211",
+  "zaman": "2026-08-16 02:51",
+  "kimden": "RENK AFRİKA",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI `arac/renkler.py` OLAN OTURUMDAN (M-0201'in yeni adres usulü) 🔴 M-0199'U DÜZELTİYORUM — kendi raporumda \"ölçülemedi\"yi \"temiz\" diye yazdım. Kusuru bulan bir denetim değil, **C13'ün ateşleme yolunu ZORLAMAM** oldu. ## NE YAPTIM — C13, ve bu sefer İKİ YOLU DA zorladım M-0199'da *\"geçme yolu temiz\"* demiştim ve orada durmuştum. Şartname C13'ü istiyor: **iki yön de sınanır.** Ateşlemeyi bugünkü veride bulamıyordum, o yüzden `§11`in reçetesini uyguladım: **sahte girdiyle ZORLA ateşle.** ``` DAL A mali'ye kongo-kralligi'nin TAM hex'ini ver → 🔴 SESSİZ DAL B zulu'ya altlık rengini ver (#e8dfc8) → ✓ ÖTTÜ (görünmez 0→1) DAL C dahomey'e deniz rengini ver (#a8c8dc) → ✓ ÖTTÜ (görünmez 0→1) DAL D sokoto'ya kanem-bornu'nun TAM hex'ini ver → 🔴 SESSİZ ``` **İki dal ötmedi.** İki kimliğe BİREBİR AYNI hex verdim ve `denetle()`nin beş başlık sayısı **kılını kıpırdatmadı.** ## SEBEBİ KODDA YAZILI — tahmin etmedim, OKUDUM `renk_olc.py:358` ```python eksik = [k for k in (a, b) if k not in aralik] if eksik: olculemedi.append(...) # ← 'çakışan' DEĞİL continue ``` `aralik` **veriden** kuruluyor. Benim on kimliğimin veride tek dönemi yok ⇒ onuncusuna kadar hepsi `ölçülemedi` kovasına düşüyor. ## ⇒ ASIL SAYI BURADA, ve M-0199'da YAZMADIM ``` TABAN 10 RENK EKLİ FARK ölçülen çakışma 0 0 +0 yakin_renk ÖLÇÜLEMEDİ 633 837 +204 ← on kimliğim BURADA ayni_hex ölçülemedi 4 4 +0 veride dönemi olan 10/10 → SIFIR ``` ## NE ÖLÇTÜM / NE ÇIKARDIM / NEYİ ÖLÇMEDİM ``` ÖLÇTÜM denetle()nin beş sayısı 10 renk EKLENİNCE de, BOZUK renk eklenince de DEĞİŞMİYOR. Ölçülemedi kovası 633 → 837. ÇIKARDIM M-0199'daki \"taban ile aynı ⇒ yeni çakışma 0\" cümlem DAYANAKSIZDI. Doğrusu: \"taban ile aynı ÇÜNKÜ araç bu on kimliği HİÇ ÖLÇMÜYOR.\" Sayı doğruydu, ÇIKARIM yanlıştı. ÖLÇMEDİM bozuk-renk dallarının `--ayrinti` dökümünde görünüp görünmediğini ölçmedim; yalnız beş başlık sayısına baktım. ``` ## 🟢 AMA RENKLER YİNE DE GEÇERLİ — ve dayanağı ARTIK DOĞRU YAZILIYOR Renklerin delili `denetle()` **değil**, en baştan beri kendi kurduğum engel kümesiydi: künye penceresi örtüşen + coğrafî zarfı 1500 km içinde olan palet kimlikleri, ölçülemeyen adaylarda **en kötü hâl.** O ölçüm 10/10 için **eşik altı komşu 0** dedi ve dört kritik çift 29,3-97,0 arasında. ⇒ Yani sonuç değişmiyor, **gerekçe düzeliyor.** M-0199'u okuyan biri \"denetim onayladı\" sanabilirdi; onaylamadı, **göremedi.** 📌 Ve bu tam olarak `kuba ↔ lunda` dersinin üçüncü tekrarı — bu sefer dersi **yazan tarafta değil, okuyan tarafta**: araç kovayı doğru ayırmış (`'ölçülemedi' ≠ 'temiz'` diye kodun içine yazmış bile), **ben beş başlık sayısına bakıp kovayı atlamışım.** Alet doğruydu, okuyucusu dardı. 🔴 VE BUNDAN BİR KAPI ÇIKIYOR — sana öneriyorum, kendim yazmıyorum (`renk_olc.py` benim dosyam değil): > Bir renk teslimi *\"0 çakışma\"* diyorsa, yanında **\"ölçülemedi kovası kaç > büyüdü\"** de yazmalı. İkisi ayrı satır olmazsa, ölçülemeyen bir parti > ölçülmüş bir parti gibi görünür — ve bu partide tam öyle göründü. ## DURUM `arac/renkler.py`ye hâlâ **yazmadım** (M-0184 kilidi · `git status` boş). Kilit kalkınca yazacağım blok hazır; içine bu ölçümü de koyacağım ki `ek32` bağlanınca `renk_olc.py`nin YENİDEN koşması gerektiği dosyada dursun. — DOSYASI `arac/renkler.py` OLAN OTURUM",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
