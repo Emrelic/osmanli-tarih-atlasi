@@ -1,6 +1,6 @@
 # BEKLEYENLER — Emre'nin kararını bekleyen kalemler
 
-> Son güncelleme: **13 Ağustos 2026**
+> Son güncelleme: **15 Ağustos 2026**
 > ⚠️ Bunlar sistemin **yapamayacağı** kararlar. Cevaplanmadan ilgili iş ilerlemez.
 
 ⚠️ **BU DOSYANIN BAŞLIKLARI `arac/uret_bekleyenler.py` TARAFINDAN AYRIŞTIRILIYOR.**
@@ -12,6 +12,39 @@ yerine gürültülü durdu (*"bayat tablo, yanlış tablodan kötüdür"*).
 ---
 
 ## 🔴 KARAR BEKLEYENLER
+
+### 🟢 15 AĞUSTOS — ÜÇ KARAR VERİLDİ
+
+| # | KARAR | EMRE'NİN CEVABI | SONUÇ |
+|---|---|---|---|
+| ⑧ | `kraliyet-macaristani` künyesi açılsın mı — TUNA HAVZASI ölçtü: `macaristan` ile `avusturya` **aynı siyasî varlığı** iki kimlikle çiziyor | **🅐 AÇ** | künye → renk → veri sırası |
+| ⑨ | Himaye basamağı tasarımda kalsın mı — Tuna havzasında vakası ÇIKMADI | **🅐 KALSIN** | ⚠️ ilk vakası bulunana kadar hiçbir noktaya UYGULANMAZ |
+| ⑩ | 28 eksik nokta partisi kime — 18 menzil durağı + 10 Macaristan merkezi | **HAZIR KITA 6'ya** | şartname `oturumlar/NOKTA-MENZIL.md` yazıldı |
+
+🔴 **⑩ TAKILDI — ve sebebi Emre'nin kararı değil, ULAŞILAMAMA:**
+`HAZIR KITA 6` (`local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4`) bugün
+09:34'te tahtaya yazdı ama **canlı oturum listesinde yok** — penceresi
+kapanmış. Tahta mesajı (`M-0082`) yazıldı ve push'landı, şartname diskte
+hazır. **Emre'nin bir pencere açması gerekiyor.**
+
+📌 Ve bu, `§7.1`in ölçülmüş bir tekrarı: bir oturum **mesajını yazıp
+kapanabilir**, ve o zaman *"canlı mı"* ile *"teslim etti mi"* iki ayrı
+sorudur. Dün gece TUNA HAVZASI'nda da aynısı oldu — kapanmıştı ama dört
+işi de teslim etmişti, ben yalnız ölümünü ölçüp teslimini ölçmemiştim.
+
+---
+
+### ⚠️ BU BÖLÜM BİR KEZ BOZUK YAZILDI — 15 Ağustos, aynı gün
+
+Yukarıdaki üç satır ilk yazılışında **backtick'leri kaybetti**:
+`` `kraliyet-macaristani` `` bash'e komut diye çalıştı ve tabloda **boşluk**
+kaldı (*"| ⑧ |  künyesi açılsın mı"*). Sebebi `CLAUDE.md §11`in tam
+ihlali: metin `py -c "…"` ile **kabukta üretildi.**
+🔴 Kural yazılıydı, ihlal eden onu yazan taraftı — **yedinci vaka.**
+⇒ Çare yine aynı: metin `Write` aracıyla dosyaya yazılır, kabuk ona
+**hiç dokunmaz.** Kusur silinmedi, KAYDEDİLDİ.
+
+
 
 > 🔴 **13 Ağustos 21:40 — BU DOSYA GÜNDÜZ BOYU GÜNCELLENMEDİ VE EMRE HAKLI
 > OLARAK ŞİKÂYET ETTİ:** *"benden istenilenler beklenenler kutusuna
@@ -35,7 +68,7 @@ yerine gürültülü durdu (*"bayat tablo, yanlış tablodan kötüdür"*).
 |---|---|---|---|
 | ⑥ | Mohaç sonrası Macaristan nasıl gösterilsin — himaye / özerk / vassal / eyalet ayrımı motorda YOK, bugün yalnız iki hâl var | 🅐 iki ton · 🅑 üç ton · 🅒 altı kademe VERİDE, iki ton HARİTADA | 🅒 — ekrana ton eklemek çakışma riski (653 çift ölçüldü), veriye kademe bedava. ② ile AYNI karar |
 | ⑦ | Öncü kuvvet bölgeleri ayrı tonda + taralı gösterilsin mi (H-0050, görüşümü sordun) | 🅐 önce ÖLÇ sonra tara · 🅑 hemen tara · 🅒 vazgeç | 🅐 — desen GERÇEKSE doğru, GEOMETRİK kusursa kusuru resmîleştiririz |
-| ① | Yükseklik / eğim verisi indirilsin mi (internet kotası + disk) | 🅐 indir · 🅑 bugünkü veriyle devam | üç işin ortak kapısı |
+| ~~①~~ | ✅ **CEVAPLANDI 15 Ağu — 🅐 indir.** ETOPO 2022 30″ indi: `veri-kaynak/yukseklik/etopo2022_30s_atlas.tif`, 183 MB, kamu malı. Tarifi `arac/yukseklik_indir.py` (raster gitignore'lu, tek komutla yeniden üretilir) | — | — |
 | ② | Statü kademesi: kaç kademe veride, kaç renk haritada | 🅐 2 · 🅑 4 · 🅒 6 veride / 2 haritada | 🅒 — ⑥ ile birlikte cevaplanırsa iki iş açılır |
 | ③ | Viabundus verisi indirilsin mi (koridor ağı, Batı Avrupa) | 🅐 indir · 🅑 gerek yok | Osmanlı kolları BİTTİ; bu Batı Avrupa için |
 | ④ | Üreteç önerileri T-0112 · T-0113 · T-0114 | 🅐 onayla · 🅑 reddet (sebebiyle) · 🅒 ertele | reddedilen fikir de KAYITTIR |

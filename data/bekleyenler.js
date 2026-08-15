@@ -22,51 +22,27 @@ window.BEKLEYENLER = {
    "baslik": [
     "#",
     "KARAR",
-    "ŞIKLAR",
-    "ÖNERİM"
+    "EMRE'NİN CEVABI",
+    "SONUÇ"
    ],
    "satir": [
     [
-     "⑥",
-     "Mohaç sonrası Macaristan nasıl gösterilsin — himaye / özerk / vassal / eyalet ayrımı motorda YOK, bugün yalnız iki hâl var",
-     "🅐 iki ton · 🅑 üç ton · 🅒 altı kademe VERİDE, iki ton HARİTADA",
-     "🅒 — ekrana ton eklemek çakışma riski (653 çift ölçüldü), veriye kademe bedava. ② ile AYNI karar"
+     "⑧",
+     "kraliyet-macaristani künyesi açılsın mı — TUNA HAVZASI ölçtü: macaristan ile avusturya aynı siyasî varlığı iki kimlikle çiziyor",
+     "🅐 AÇ",
+     "künye → renk → veri sırası"
     ],
     [
-     "⑦",
-     "Öncü kuvvet bölgeleri ayrı tonda + taralı gösterilsin mi (H-0050, görüşümü sordun)",
-     "🅐 önce ÖLÇ sonra tara · 🅑 hemen tara · 🅒 vazgeç",
-     "🅐 — desen GERÇEKSE doğru, GEOMETRİK kusursa kusuru resmîleştiririz"
+     "⑨",
+     "Himaye basamağı tasarımda kalsın mı — Tuna havzasında vakası ÇIKMADI",
+     "🅐 KALSIN",
+     "⚠️ ilk vakası bulunana kadar hiçbir noktaya UYGULANMAZ"
     ],
     [
-     "①",
-     "Yükseklik / eğim verisi indirilsin mi (internet kotası + disk)",
-     "🅐 indir · 🅑 bugünkü veriyle devam",
-     "üç işin ortak kapısı"
-    ],
-    [
-     "②",
-     "Statü kademesi: kaç kademe veride, kaç renk haritada",
-     "🅐 2 · 🅑 4 · 🅒 6 veride / 2 haritada",
-     "🅒 — ⑥ ile birlikte cevaplanırsa iki iş açılır"
-    ],
-    [
-     "③",
-     "Viabundus verisi indirilsin mi (koridor ağı, Batı Avrupa)",
-     "🅐 indir · 🅑 gerek yok",
-     "Osmanlı kolları BİTTİ; bu Batı Avrupa için"
-    ],
-    [
-     "④",
-     "Üreteç önerileri T-0112 · T-0113 · T-0114",
-     "🅐 onayla · 🅑 reddet (sebebiyle) · 🅒 ertele",
-     "reddedilen fikir de KAYITTIR"
-    ],
-    [
-     "⑤",
-     "Koridor ağı kapsamı: tüm dünya mı, halka halka mı",
-     "🅐 halka halka · 🅑 tüm dünya",
-     "🅐 — ONCELIK.md çöl seyyahı ilkesi"
+     "⑩",
+     "28 eksik nokta partisi kime — 18 menzil durağı + 10 Macaristan merkezi",
+     "HAZIR KITA 6'ya",
+     "şartname oturumlar/NOKTA-MENZIL.md yazıldı"
     ]
    ]
   },
@@ -82,9 +58,9 @@ window.BEKLEYENLER = {
  "ozet": {
   "bekleyen_acik": 0,
   "gorsel_acik": 0,
-  "karar_acik": 7,
+  "karar_acik": 3,
   "istege_bagli": 0,
-  "toplam_acik": 7
+  "toplam_acik": 3
  }
 };
-window.URETIM_IZI = {"girdi":{"BEKLEYENLER.md":"9e14e08f28d3049053d7b78c59bd602e2a7056b94ad42936a1a9cdb3512b3a02"},"motor":{"uret_bekleyenler.py":"f414d1d825b5f4061c9e0ae5b86e6cc750e6135ab9fe12e27170b10e7a4e9718"}};
+window.URETIM_IZI = {"girdi":{"BEKLEYENLER.md":"cda6c74c5a548cc3e5b23bdc115649f4003fe0162132c363c652ceace4a3038a"},"motor":{"uret_bekleyenler.py":"f414d1d825b5f4061c9e0ae5b86e6cc750e6135ab9fe12e27170b10e7a4e9718"}};
