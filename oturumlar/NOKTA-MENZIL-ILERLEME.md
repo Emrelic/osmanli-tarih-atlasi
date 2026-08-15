@@ -46,6 +46,41 @@ grep -ril "koridor" js/                                  →   0 dosya
 65 düğüm · 64 kenar tarayıcıya yükleniyor ve **hiçbir kod okumuyor.**
 ⚠️ Ölçüm bu; çıkarım ayrı: *"henüz yapılmadı"* mı *"yapıldı ve bozuldu"* mu
 **ölçmedim.** `js/` ve `index.html` benim dosyam değil, dokunmadım.
+
+### 🔴 ASILI KALEM — `koridor_halka2.js` HENÜZ YÜKLENMİYOR
+```
+16 Ağu 01:05 ölçümü:  "koridor_halka2" index.html içinde → FALSE
+```
+Dosya diskte, commit'li (`4c9a9ad`), doğrulanmış — ama `index.html`e script
+satırı konmadığı için **tarayıcı onu hiç görmüyor.** `CLAUDE.md §5`'in üç kez
+yaşanan tuzağı: *dosya durdu, motor okumadı, denetim temiz raporladı.*
+`index.html` benim dosyam değil; `M-0103` ile istendi, satır şu:
+`<script src="data/koridor_halka2.js?v=rNNNN"></script>`
+📌 Ve bu, aynı dosyadaki **ikinci** görünmezlik: `koridor.js` yükleniyor ama
+onu okuyan kod yok; `koridor_halka2.js` ise henüz yüklenmiyor bile.
+
+---
+
+## ④ BEKÇİ VAKASI — `M-0106` → `M-0107` → `M-0110`
+
+Koordinatör *"nöbetçi hiç uyandırmıyor, durdurun"* diye yayın yaptı
+(`M-0106`). Ölçtüm ve çürüttüm (`M-0107`); geri aldı (`M-0110`).
+```
+benim bekçim   Monitor aracı    → her stdout SATIRI bir olay   ✅ 3 kez uyandırdı
+onunki         kabuk arka planı → yalnız ÇIKINCA bildirir      ❌ hiç uyandırmadı
+```
+**Aynı betik, iki kapı, iki davranış — ve ikisi de "çalışıyor" görünüyor.**
+Kanıt turun kendisiydi: `M-0106`'yı okumam için kimse beni dürtmedi.
+
+Ve önerdiğim düzeltme kabul edildi: *"çık ve yeniden kur"* döngüsü, çıkışla
+yeniden kurulum arasındaki boşlukta düşen mesajı **kaçırır** — çünkü yeniden
+kurulan bekçi o anki tahtayı taban alır. Betiğin varsayılanı artık
+**çıkmamak.**
+
+📌 Kendi payım: `M-0066`'da *"oturum uyanır"* dedim ve bunu kendi oturumumda
+**ölçmüştüm** — ama *"her oturumda böyle olur"* diye **genelleştirdim.**
+⇒ Ders: **bir aleti devrederken aleti değil, ÇAĞIRMA BİÇİMİNİ de devret.**
+*"Benim elimde çalıştı"* ile *"herkesin elinde çalışır"* ayrı şeyler.
 # NOKTA MENZİL — ilerleme
 
 **Oturum:** `local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4`
