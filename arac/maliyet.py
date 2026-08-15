@@ -185,8 +185,18 @@ DEM_ADAYLAR = ("etopo2022_30s_dunya.tif", "etopo2022_30s_atlas.tif")
 # güzergâhı + koridor.js'te uzunluğu ölçülmüş 22 kenar hazır bir sınav
 # kümesi. O ölçüm yapılana kadar değer 0 ⇒ eğim SONUCU DEĞİŞTİRMEZ,
 # ve bu betik bunu her koşuda YAZAR.
-EGIM_CARPANI = 0.0          # metre başına ek sürtünme · ÖLÇÜLMEDİ
-EGIM_OLCULDU = False
+# 🟢 ÖLÇÜLDÜ — 15 Ağustos 2026, `T-0112` · 44 kara seferi güzergâhı
+# Rapor: denetim/EGIM-CARPANI-OLCUM.md
+#     çarpan 0      ort. sapma 88,2 km · medyan 52,7   ← bugünkü motor
+#     çarpan 0,005  ort. sapma 71,9 km · medyan 36,4   ← EN İYİ (−%19/−%31)
+#     çarpan 0,05+  kötüleşiyor
+# ⚠️ Ve eğri DÜZ: 0,005 ile 0,1 arası yalnız 5,5 km fark — 20 kat büyüyen
+# bir çarpan sonucu %8 değiştiriyor. ⇒ Ölçüm "tam olarak 0,005" DEMİYOR;
+# dediği: **SIFIR OLMAMALI**, ve 0,005-0,02 arası ayırt edilemiyor.
+# 📌 Düzlük bir kusur değil, VERİNİN SINIRININ KAYDI: güzergâhlar kaba
+# (3-6 düğüm) ve ordular en ucuz yolu değil STRATEJİK yolu izler.
+EGIM_CARPANI = 0.005        # metre/hücre başına ek sürtünme
+EGIM_OLCULDU = True
 
 
 def _dem_yolu(sessiz=False):
