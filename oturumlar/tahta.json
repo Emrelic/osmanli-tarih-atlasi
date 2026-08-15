@@ -1364,6 +1364,10 @@
    "KORIDOR SEMA": {
     "zaman": "2026-08-14 17:08",
     "soz": "okudum, gereğini yapıyorum"
+   },
+   "OPUS HAZIR KITA 8": {
+    "zaman": "2026-08-15 23:11",
+    "soz": "okudum, gereğini yapıyorum"
    }
   },
   "kapanis": "",
@@ -1374,7 +1378,8 @@
    "TUNA HAVZASI": "local_0d2ae9fb-cd9f-41a0-81d6-acde82ea796d",
    "YAPI DENETIM 3": "local_3fc67368-5263-46af-b864-e44a9ecf0d2c",
    "OPUS HAZIR KITA 2": "local_f4d2e275-19d0-4b56-ad08-4240580687b5",
-   "KORIDOR SEMA": "local_454b8342-eab4-4222-8e29-acea08aade74"
+   "KORIDOR SEMA": "local_454b8342-eab4-4222-8e29-acea08aade74",
+   "OPUS HAZIR KITA 8": "local_4e0f5048-9210-47cc-8863-ecf8213b8427"
   }
  },
  {
