@@ -161,8 +161,18 @@ def main(argv):
     io.open(gecici, "w", encoding="utf-8").write(metin)
     try:
         subprocess.run(
+            # 🔴 İLK SÜRÜM BURAYA "(isal)" YAZIYORDU ve bu bir kusurdu:
+            # sahiplik ilanı KİMİN aldığını taşımıyordu. İki oturum aynı
+            # işi aldı, ikisi de M-0145'i gösterdi, ve hakem kuralı
+            # ("en küçük M-no") ikisini AYIRT EDEMEDİ — çünkü tek bir
+            # ilan vardı ve sahibi yoktu.
+            # ⇒ Artık iş adının kendisi imza: her oturum kendi aldığı
+            # işin adıyla imzalanır, yani ilan SAHİPSİZ olamaz.
+            # 📌 Bir hakem kuralı, hakemlik yapacağı kayıtta TARAFLARIN
+            # ADI yoksa çalışmaz. Kuralı yazdım, kaydı eksik bıraktım.
             [sys.executable, os.path.join(KOK, "arac", "tahta.py"), "yaz",
-             "--kim", "(isal)", "--kime", "KOORDINATOR", "--cins", "RAPOR",
+             "--kim", dosya.replace(".md", ""),
+             "--kime", "KOORDINATOR", "--cins", "RAPOR",
              "--mesaj-dosya", gecici, "--dayanak", "isal.py kuyruk secimi"],
             timeout=180)
     except Exception as e:
