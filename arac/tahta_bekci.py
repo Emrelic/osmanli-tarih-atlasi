@@ -108,13 +108,58 @@ def _oku():
     return d if isinstance(d, list) else (d.get("mesajlar") or [])
 
 
+def _defter_adlari(benler):
+    """🔴 BU PROJEDE ATAMA = YENİDEN ADLANDIRMADIR.
+
+    Bir oturum iş aldığı anda adı değişiyor, ama bekçisi ESKİ adı
+    dinlemeye devam ediyor ⇒ yeni adla yazılan görev mesajı ULAŞMIYOR.
+
+    DOĞURAN VAKA (16 Ağustos 2026): koordinatör beş oturumu birden yeniden
+    adlandırdı (M-0115). `NOKTA SİBİRYA 2` görevini aldı ama bekçisi
+    `OPUS HAZIR KITA 6` adını dinliyordu; mesajı ELLE arayarak buldu.
+    📌 Ve o oturum, adres tuzağını HERKESE bildiren oturumun ta kendisiydi
+    (M-0062). **Uyarıyı yazan, kurbanı oldu.**
+
+    ⇒ Defterdeki `takma_adlar` zaten bu bilgiyi tutuyordu; bekçi ona
+    hiç sormuyordu. Artık soruyor: verilen adlardan biri bir kaydı
+    tutturuyorsa, O KAYDIN BÜTÜN ADLARI dinlenir.
+    ⚠️ Defter okunamazsa SESSİZCE geçilir — bekçi defter yüzünden ÖLMEZ,
+    ama o zaman yalnız elle verilen adları dinler (`_bas` ile söyler).
+    """
+    yol = os.path.join(KOK, "oturumlar", "defter.json")
+    try:
+        d = json.load(io.open(yol, encoding="utf-8"))
+    except Exception:
+        return benler, False
+    ks = d.get("oturumlar") or d
+    if isinstance(ks, dict):
+        ks = list(ks.values())
+    if not isinstance(ks, list):
+        return benler, False
+    out = set(benler)
+    for o in ks:
+        if not isinstance(o, dict):
+            continue
+        adlar = {_sade(o.get("ad"))}
+        for t in (o.get("takma_adlar") or []):
+            adlar.add(_sade(t))
+        adlar.discard("")
+        if adlar & out:
+            out |= adlar
+    return out, True
+
+
 def main(argv):
     if "--kim" not in argv:
         _bas("kullanim: py arac/tahta_bekci.py --kim \"<TAM ADIN>\"")
+        _bas("  --kim birden cok kez verilebilir; virgulle de ayrilabilir.")
         _bas("  🔴 TAM anahtarini yaz — tahta TAM ESITLIK ariyor.")
         return 2
-    kim = argv[argv.index("--kim") + 1]
-    ben = _sade(kim)
+    # 🔴 ÇOKLU AD — `--kim` birden çok kez ya da virgüllü verilebilir.
+    ham = [argv[i + 1] for i, a in enumerate(argv)
+           if a == "--kim" and i + 1 < len(argv)]
+    benler = {_sade(x) for a in ham for x in a.split(",") if _sade(x)}
+    kim = ham[0] if ham else "?"
     if "--tahta" in argv:
         global TAHTA
         TAHTA = argv[argv.index("--tahta") + 1]
@@ -127,9 +172,15 @@ def main(argv):
     # `--surekli` eski adıyla kabul ediliyor ki eski çağrılar bozulmasın.
     cik = "--cik" in argv and "--surekli" not in argv
 
+    if "--defter-yok" not in argv:
+        benler, okundu = _defter_adlari(benler)
+        if not okundu:
+            _bas("[BEKCI] ⚠️ defter.json okunamadı — YALNIZ elle verilen "
+                 "adlar dinleniyor. Adın değiştiyse mesaj KAÇAR.")
+
     gorulen = {m.get("no") for m in _oku()}
-    _bas("[BEKCI] nöbette · kim=%s · %d mesaj görüldü · %.0f sn"
-         % (kim, len(gorulen), ara))
+    _bas("[BEKCI] nöbette · %d ad dinleniyor: %s · %d mesaj görüldü · %.0f sn"
+         % (len(benler), " | ".join(sorted(benler)), len(gorulen), ara))
     n = 0
     while True:
         time.sleep(ara)
@@ -141,9 +192,9 @@ def main(argv):
                 continue
             gorulen.add(m.get("no"))
             k = _sade(m.get("kime"))
-            if k == ben or k == "HERKES":
+            if k in benler or k == "HERKES":
                 yeni.append(m)
-            elif ben and k and (k in ben or ben in k):
+            elif k and any(b and (k in b or b in k) for b in benler):
                 # ① ADRES TUZAĞI — kısmen tutuyor ama TAM eşit değil
                 tuzak.append(m)
         for m in yeni:
