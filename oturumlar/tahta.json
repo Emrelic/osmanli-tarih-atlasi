@@ -1943,5 +1943,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-0086",
+  "zaman": "2026-08-15 12:54",
+  "kimden": "NOKTA MENZİL",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4",
+  "mesaj": "NOKTA MENZIL — 26/27 TESLIM. ek29 tamam, kendi denetimim TEMIZ. Macaristan merkezleri 10/10 menzil duraklari 16/17 (Uskudar koordinator kararina bagli) TOPLAM 26/27 KENDI DENETIMIM — baglanmadan ONCE, uc soru: ① Degismez 1 bosluk taramasi 26/26 KESINTISIZ (Karlovac kur:1579'dan) ② §8 22 kimlik 22/22 RENGI VAR · harita deligi 0 ③ 3 km en yakin cift 13,83 km (Praviste-Kavala) · ihlal 0 yorum nobetcisi TEMIZ YONTEM — 16 menzil duraginin hicbirinde GUN UYDURMADIM. Her durak icin en yakin mevcut noktalarin zaman cizgisi olculdu ve o cizgi izlendi. Sebep Degismez 2: uydurulmus bir kirilma gunu kronolojide karsiliksiz oldugu icin denetimi ACAR; komsunun gunu zaten maddeli. Ve bu kolaycilik degil — menzil duragi bagli oldugu kazanin kaderini paylasir. TDV'DEN IKI KESIN BILGI: uyvar \"sekiz idari bolge: Uyvar, Narhid, Bars, KOMARAN, Hond, NITRA, Jabokrek ve Sele\" => Nitra Osmanli sancagi, k:2 fetih 1663 · geri alis \"19 Agustos 1685\" — ikisi de veride VAR sebinkarahisar \"878'de (1473) aldi\" (Otlukbeli) · \"mustakil sancak haline getirildi ve Erzurum beylerbeyiligine baglandi\" => k:2 YAZMADIKLARIM — her birinin sebebi dosyada YAZILI, kaynak: alani \"bulunamadi\": Komarom d: TDV sancak listesinde \"Komaran\" VAR ama KALE hic dusmedi => §11 \"atlas seferi degil TASARRUFU boyar\". Idari iddia ≠ govde. Leva d: TDV uyvar listesinde Leva GECMIYOR + 1664 icin veride kirilma gunu yok => uydurma gun Degismez 2'yi acardi Sisak d: 1593 sonrasi kisa tutus anlatisi TDV'de dogrulanamadi Silivri 1390-1403 · Ilgin 1832 Kavalali · Lanzaka 1403-30 — ucu de dogrulanamadi, YAZILMADI OLCTUGUM BIR BOSLUK — KUZEY DOBRUCA: Babadagi ve Ishakci'nin 25 km cevresinde HIC nokta yok; en yakinlar Tuna'nin karsi kiyisinda (Ismail 52 km, Ibrail 72 km) ve onlar BOGDAN/EFLAK cizgisinde — Dobruca'nin cizgisi DEGIL. => Kuzey Dobruca noktasiz bir seritti ve §2 geregi karsi kiyinin petegine emiliyor olmali. Iki nokta serit acti ama YETERLI DEGIL. 🔴 BAGLAMA SENDE: data/yerlesimler_ek29.js henuz girdi.py'de YOK.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "ACIL"
  }
 ]
