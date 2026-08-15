@@ -1,4 +1,51 @@
-<!-- DURUM: BOSTA | 2026-08-15 | 27/27 TAMAM, denetle.py EXIT 0 · IS ISTEDIM (tahta M-0088, vade 20:00) · elimde yarim hicbir sey YOK -->
+<!-- DURUM: CALISIYORUM | 2026-08-16 | HALKA 2 AVUSTURYA KOLU yazildi (koridor_halka2.js · 11 dugum · 10 kenar · kirik uc 0) · index.html satiri KOORDINATORDE · BULGU: koridor agi hic cizilmiyor -->
+
+## ③ HALKA 2 · AVUSTURYA KOLU — tahta M-0099 ile alındı
+
+**Teslim:** `data/koridor_halka2.js` — 11 düğüm · 10 kenar · 632,7 km
+Belgrad → Varadin → Ösek → Mohaç → Şimontorna → Budin → Estergon ‖
+Komárom → Yanıkkale → Bratislava → **Viyana**
+
+### Doğrulama — JS yorumlayıcısıyla (kendi ayrıştırıcım DEĞİL)
+```
+kenar uçları tanımlı        10/10
+tek parça mı                belgrad'dan ulaşılan 11/11 · KIRIK UÇ 0
+çift boyama                 YOK (belgrad koridor.js'te boyar=true, bende false)
+saat/km tutarlılık (4,25)   sapma 0
+TDV aralığı (3-28 saat)     dışında kalan 0
+```
+
+### 🟢 TDV zaman çerçevesini doğruladı — `menzil--osmanli`
+Kuruluş **1539**, kaldırılış **1839**, menziller arası **"üç saatten yirmi
+sekiz saate kadar"**. ⇒ `koridor.js`'in kullandığı tarihler doğrulandı, ve
+benim on kenarımın türetilmiş saatleri (8,9-22,9) o aralığın **içinde**.
+
+### 🔴 Güzergâh kaynaksız — damgalandı, gizlenmedi
+TDV üç ana koldan söz ediyor ama **duraklarını saymıyor**; `budin` maddesi
+de yolu anlatmıyor. Duraklar veride var olan yerleşimlerden ve Tuna boyu
+ordu yolundan **seçildi**. Hepsi `kesinlik:3` + `kaynak:"bulunamadı"`.
+**Uydurulmuş durak yok; seçilmiş duraklar var ve fark budur.**
+
+### ⚠️ İki hız karıştırılmadı
+Osmanlı ulağı ~120 km/gün (4,25 km-sa kalibrasyonu) · Habsburg postası
+**150 km/gün** (BRILL). Bütün `saat` değerleri koridor.js'in kendi
+kalibrasyonuyla türetildi; 150 km/gün ayrı bir ölçü olarak **karıştırılmadı**.
+Farkın sebebi ölçülmedi.
+
+### 🔴 Sınırın yerini VERİ söyledi
+Osmanlı ayağı **Estergon**'da biter, Habsburg ayağı **Komárom**'da başlar —
+çünkü Komárom Osmanlı eline hiç geçmedi (dün ölçüldü). Temas kenarı ayrı
+damgalandı: `kalinlik:"tali"`, *"bu bir posta hattı değil, bir temastır"*.
+
+### 🔴🔴 YOLDA ÖLÇÜLEN BULGU — koridor ağı HİÇ ÇİZİLMİYOR
+```
+index.html:406   <script src="data/koridor.js?v=r1452">      YÜKLÜ
+grep "KORIDOR_DUGUM|KORIDOR_KENAR" js/ index.html        →   0 sonuç
+grep -ril "koridor" js/                                  →   0 dosya
+```
+65 düğüm · 64 kenar tarayıcıya yükleniyor ve **hiçbir kod okumuyor.**
+⚠️ Ölçüm bu; çıkarım ayrı: *"henüz yapılmadı"* mı *"yapıldı ve bozuldu"* mu
+**ölçmedim.** `js/` ve `index.html` benim dosyam değil, dokunmadım.
 # NOKTA MENZİL — ilerleme
 
 **Oturum:** `local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4`
