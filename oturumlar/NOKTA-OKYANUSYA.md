@@ -1,126 +1,116 @@
-# NOKTA OKYANUSYA + SİBİRYA — ikinci ve üçüncü boşluk
+# NOKTA OKYANUSYA — Okyanusya · Avustralya · Yeni Zelanda · Melanezya
+
+**AD** NOKTA OKYANUSYA · **MODEL** Opus · **DİZİN** `C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ`
+**ClaudEmre** HAYIR
 
 ## ⓪ KİMLİK — HADDİN
+**SEN:** araştırma oturumusun, **tek dosyan** `data/yerlesimler_ek30.js`.
+**DEĞİLSİN:** koordinatör DEĞİLSİN. **ÜSTÜN:** KOORDINATOR. **ALTIN:** kimse.
+**YASAKLARIN:** iş dağıtmak · başka `data/` dosyası · `arac/` · üretim koşusu.
+
+## ① NİÇİN VARSIN — ölçüldü, bu bölge haritanın en boş yeri
+
+Emre (16 Ağustos): *"Okyanusya'da 1281 tarihi itibarıyla nasıl bir yerleşim
+ve devlet yapısı, devlet kaydı var acaba… ne yerleşim var ise kayıtlı hepsini
+ekleyelim, 1281-1923 arasını uygun tarihlere serperek gidelim."*
+
+Bugünkü ölçüm (`girdi.yukle()`, 2527 nokta):
 ```
-SEN        : YAPIMCI oturum · adın NOKTA OKYANUSYA
-DEĞİLSİN   : koordinatör DEĞİLSİN · MOTOR DEĞİLSİN
-ÜSTÜN      : ClaudEmre koordinatörü (sana bu dosyayı veren oturum)
-ALTIN      : kimse
-YASAKLARIN : `arac/` · var olan `data/yerlesimler*.js` · `js/*` ·
-             `index.html` · kök `*.md` · üretim koşusu · iş dağıtmak
+Okyanusya-Polinezya       0 nokta   🔴
+Yeni Zelanda              0 nokta   🔴
+Avustralya                2 nokta   🟡  ← koca kıtada İKİ
+Yeni Gine-Melanezya       9 nokta · 1281'de 0
+boş alan kaydı (bos_alanlar.js) bu bölgede: Okyanusya 0 · Avustralya 0
 ```
 
-## ① NİÇİN VARSIN — ölçüldü, 13 Ağustos 2026
-```
-🔴 OKYANUSYA        ~1 nokta
-🟡 RUSYA-SİBİRYA    211 nokta · ama 1281'de sahipli yalnız 125 (%59)
-                    — bütün kıtaların EN DÜŞÜĞÜ
-```
-Emre'nin 2. altyapı maddesi *"tüm dünya"* diyor. Bu ikisi kalan en büyük
-iki boşluk (Amerika ayrı bir oturumda).
+## 🔴 ② EMRE'NİN SORUSUNA DÜRÜST CEVAP — ve bir DÜZELTME
 
-⚠️ **VE İKİSİ DE TDV KAPSAMI DIŞI** (`CLAUDE.md §4` ölçümü: Sibirya %75,
-Okyanusya kapsanmıyor). Akademik kaynağa çıkacaksın — **kırmızı çizgi
-aynen geçerli** (§④).
+Emre *"1281'de kayıtlı şehir ve devlet yoksa o dönemi devletsiz, ilkel dönem
+olarak gösterelim"* dedi. **Bu, Okyanusya'nın bir kısmı için YANLIŞ olur** ve
+şartnamene bunu yazmam gerekiyor, çünkü işin ilk kararı bu:
 
-## ② İŞİN — sıra bağlayıcı, ÖNCE SİBİRYA
+1281 civarında Okyanusya'da **teşkilatlı siyasî yapılar VAR.** Örnek olarak
+Tu'i Tonga (Tonga deniz nüfuz alanı), Fiji ve Samoa'daki reisilikler,
+Yap-Palau taş para ağı, Hawai'i adalarındaki *ahupua'a* düzeni, Rapa Nui.
+Yeni Zelanda'ya Māori yerleşimi ~1300 civarı. Bunların çoğu **şehir
+kurmadı** ama **devletsiz de değildi** — merkezî otorite, vergi/haraç, sefer.
 
-### İŞ 1 — SİBİRYA (%59 → hedef %85)
-Buradaki iş **yeni nokta değil**, çoğunlukla **var olan noktaların
-1281'de neden sahipsiz olduğunu çözmek.** Üç ihtimal ve ÇARELERİ FARKLI:
+⇒ Bu yüzden **üç kova var ve üçünü KARIŞTIRMA** (`CLAUDE.md §11`, NOKTA
+SİBİRYA vakası — sınavı tek soru: **kaynak konuşuyor mu, susuyor mu?**):
 ```
-a) gerçekten sahipsizdi     → `kasitli_bosluk:true` + `bos:` yaz
-b) sahibi vardı, yazılmamış → `s:` dönemi ekle, KAYNAKLA
-c) yerleşim 1281'de yoktu   → `kur:` alanı yaz (kuruluş tarihi)
+kabile      kaynak "teşkilatlı ama devlet değil" diyor  → benek çizilir
+devletsiz   kaynak AÇIKÇA "devlet yoktu" diyor          → çizilmez
+veri-yok    kaynak SUSUYOR                              → "?" çizilir
 ```
-🔴 **Bu üçünü karıştırma — haritada aynı görünürler ama biri VERİ EKSİĞİ,
-biri TARİHÎ GERÇEK, biri ZAMAN HATASI.**
+📌 Üçü de haritada ayrı görünüyor (`ARAYUZ BOŞLUK CİNSİ`, 15 Ağustos).
+🔴 *"İlkel"* kelimesini veriye YAZMA — ölçülebilir bir şey değil ve kaynak
+öyle demiyor. Kaynağın dediğini yaz.
 
-📌 Ve projede yazılı bir vaka var, oku: `CLAUDE.md §11` NOKTA SİBİRYA —
-Çukotka `rusya` yazılıydı ve **2.106 km öteden Sahalin'den emiliyordu**,
-oysa Çukçiler 1281-1923 boyunca **hiç fethedilmedi.** Kaynak açıkça
-konuşuyordu ⇒ `devletsiz`. Yakut'ta kaynak SUSUYORDU ⇒ `veri-yok`.
-**Sınav budur: kaynağa sor.**
+## ③ İŞİN — sırayla
 
-Kapsam: Sibir Hanlığı · Yakut (Sakha) · Buryat · Tuva · Çukçi · Koryak ·
-Kamçatka · Rus ostrogları (1580 sonrası, Yermak'tan itibaren).
+```
+1  1281 KESİTİ  o tarihte kaynağın adını verdiği yerleşim/merkez
+2  1281-1923 SERPME  sonradan doğan her yer, KURULUŞ TARİHİYLE (kur:)
+                     Sydney 1788 · Auckland 1840 · Suva 1849 gibi
+3  BOŞLUK CİNSİ  nokta yazılamayan alanlar için üç kovadan biri +
+                 kaynağın kendi cümlesi `neden:` alanına
+```
+🔴 **`kur:` YAZMAK ZORUNLUSUN.** Bu bölgedeki noktaların neredeyse hepsi
+1281'de YOKTU. `kur:` yazmazsan motor onları *"1281'de de vardı"* sayar ve
+`Değişmez 5` seni yakalar (bugün 62 hayalet yerleşim var, hepsi bu yüzden).
 
-### İŞ 2 — OKYANUSYA (1 → hedef 60-90)
+## ④ YAZMA YETKİSİ
 ```
-① Avustralya   Aborjin ulusları — 🔴 EN ZOR KOVA. Yerleşim değil TERRİTORY
-               kavramı; nokta koymak modeli zorlayabilir. Kaynak susuyorsa
-               `kasitli_bosluk` + `bos:"veri-yok"` DOĞRU CEVAPTIR.
-               ⚠️ Uydurma yerine boşluk bırakmak burada ERDEMDİR.
-② Yeni Zelanda Māori iwi merkezleri · pā (kale) yerleşimleri
-③ Polinezya    Hawai'i · Tonga · Sāmoa · Rapa Nui · Tahiti — ŞEFLİKLER
-④ Melanezya    Fiji · Yeni Gine · Solomon
-⑤ Mikronezya   Yap · Palau · Nan Madol (Pohnpei)
-⑥ 1788 sonrası Avrupa yerleşimleri (Sydney 1788 · Hobart 1804 · …)
+SENİN     data/yerlesimler_ek30.js  ·  oturumlar/NOKTA-OKYANUSYA-ILERLEME.md
+SENİN DEĞİL   başka HİÇBİR data/ dosyası · arac/* · js/* · kök *.md
+              data/devletler.js — künye gerekiyorsa KOORDİNATÖRE SÖYLE
 ```
+⚠️ Dosyanı `arac/girdi.py`ye **SEN BAĞLAMA** — koordinatör bağlar. Bağlanmamış
+dosya haritayı etkilemez, yani rahat çalışırsın; bağlanma anı koşuya bağlı.
 
-### HER NOKTA İÇİN
+## ⑤ SENİ BAĞLAYAN
+🔴🔴 **KAYNAK KIRMIZI ÇİZGİSİ** (Emre'nin beyanı, `§4`): TDV birincil ama
+**Okyanusya'yı TDV kapsamıyor** — bu meşru bir "coğrafî boşluk"tur.
+Dışarı çıkınca kaynak **AKADEMİK · GÜVENİLİR · BİLİMSEL** olacak.
 ```
-ad · lat · lon · tur: · k: (GEREKÇELİ) · dönem zinciri · kaynak: ZORUNLU
-🔴 `d:`/`s:` kimliği `data/devletler.js`te VAR OLMALI — yoksa nokta YAZMA,
-   künye ÖNERİSİ bildir (kimliksiz kimlik = harita deliği, `§8`)
-🔴 kasitli_bosluk + bos: beş kova (devletsiz·veri-yok·kabile·insansiz·hata)
+🟢 KABUL   üniversite yayını · hakemli makale · alanın standart el kitabı ·
+           Cambridge History serileri · birincil kaynak neşri/çevirisi ·
+           ulusal arşiv/müze yayını (Te Ara, Australian Dictionary of
+           Biography gibi kurumsal ansiklopediler)
+🔴 ASLA    forum · blog · içerik çiftliği · TURİZM SİTESİ · kaynaksız
+           derleme · YAPAY ZEKÂ ÜRETİMİ METİN · popüler "tarih sayfası"
+🟡 Vikipedi TEK DAYANAK DEĞİL — yalnız "hangi maddeye bakayım" der
 ```
+**`kaynak:` alanı ZORUNLU.** Bulamadıysan `bulunamadı` diye YAZ — kaynağı
+yazılmayan bilgi, kaynağı olmayan bilgiden ayırt edilemez.
 
-## ③ YAZMA YETKİSİ
-```
-🟢 SENİN   data/yerlesimler_okyanusya.js     ← YENİ dosya
-           data/yerlesimler_sibirya2.js      ← YENİ dosya
-           oturumlar/NOKTA-OKYANUSYA-ILERLEME.md
-🔴 DEĞİL   var olan data/yerlesimler_sibirya.js (9 nokta) — DOKUNMA,
-           eklemelerini YENİ dosyaya yaz
-           arac/* · index.html · js/* · kök *.md
-```
-⚠️ Bağlamayı **KOORDİNATÖR** yapar. **NOKTA AMERİKA** aynı anda kendi
-dosyasında çalışıyor — ona dokunma.
-🔴 **BOLGE penceresi bu coğrafyaları KAPSAMIYOR** — noktalar hemen
-çizilmeyecek. Kusur değil sıra: `§6` *"yoğunluk sağlanmadan pencere
-açılmaz."*
+🔴 **TARİH UYDURMA.** Gün bilinmiyorsa `YYYY-01-01`.
+🔴 **3 KM KURALI:** yeni nokta koymadan önce 3 km içinde başka nokta var mı
+bak (`py -c` ile değil, `girdi.yakin_ciftler()` var).
+🔴 `§11`: kaçış/Türkçe içeren metin **kabuktan geçmez** — `Write` + `py <yol>`.
+Commit mesajı `Write` ile dosyaya, `git commit -F <dosya> -- oturumlar/...`.
+🔴 `git add -A` HİÇ. `B10`: ölçtüğünü ve çıkardığını **ayrı satıra** yaz.
+📌 `data/*.js` içinde yorum **yalnız kendi satırında** durur.
 
-## ④ SENİ BAĞLAYAN KURALLAR
+## ⑥ HABERLEŞME
 ```
-CLAUDE.md §4   🔴 AKADEMİK · GÜVENİLİR · BİLİMSEL
-               🔴 kullanılmaz: forum · blog · içerik çiftliği · kaynaksız
-                  derleme · YAPAY ZEKÂ ÜRETİMİ METİN
-               🟡 Vikipedi TEK DAYANAK DEĞİL
-               🔴 `kaynak:` ZORUNLU; yoksa `bulunamadı` YAZ
-CLAUDE.md §4   🔴 TARİH UYDURMA. Gün bilinmiyorsa YYYY-01-01.
-CLAUDE.md §11  🔴 kaçış içeren metin BASH'ten geçmez, heredoc DÂHİL
-               🔴 3 KM KURALI
-CLAUDE.md §3.5 🔴 hayalet devlet — `s:` yazarken devletin ÖMRÜNÜ kontrol et
+py arac/tahta.py yaz --kim "NOKTA OKYANUSYA" --kime "KOORDINATOR" --cins RAPOR --mesaj "..."
 ```
-📌 Ve bu iş için **özel bir uyarı**: sömürge öncesi Okyanusya ve Sibirya'da
-Avrupa kaynaklarının anlattığı *"keşif"* çoğu zaman **oranın tarihi
-değil, oraya gidenin tarihidir.** Yerli siyasî yapıyı kendi terimleriyle
-kaydet; bulamazsan `veri-yok` yaz, Avrupa kaydını yerli yapı sanma.
+🔴 Kendi pencerene yazmak = hiç cevap vermemek.
+**Nöbetçiyi açılışta `Monitor` aracıyla kur** (kabuk arka planı DEĞİL, ölçüldü):
+`py arac/tahta_bekci.py --kim "NOKTA OKYANUSYA" --ara 45` · persistent: true
 
-## ⑤ HABERLEŞME — 🔴 ÖNCE KANAL
-```
-mcp__ccd_session_mgmt__send_message
-    session_id : <ADRES YAZILMAZ>
-    ⚠️ ADRES DOGRULAMA — HER MESAJDAN ONCE:
-       Bu kimlik BAYATLAYABILIR. `send_message` "Session not found." derse
-       DURMA: `mcp__ccd_session_mgmt__list_sessions` ile koordinatoru ARA
-       (basligi KOORDINATOR ya da CLAUDEMRE, dizini bu proje) ve ORAYA yaz.
-       🔴 13 Agu'da tam bu oldu: sartnamelerdeki adres OLUYDU ve UC oturumun
-       raporu hicbir yere gitmedi. Ucu de kusuru KENDI buldu — sen de bul.
-```
-Cevabın **kendi pencerene YAZILMAZ.** `AÇILINCA HEMEN` haber ver ·
-**KALEM KALEM** bildir · *"ne oldu iş?"* gelirse **hemen** üç parça ·
-**AKSAKLIK BEKLEMEZ.**
+Açılınca haber ver · kalem kalem · soru gelince hemen üç parçalı cevap ·
+**aksaklık BEKLEMEZ** (kaynaklar çelişiyorsa **sen karar verme, SOR**).
 
-## ⑥ BİTİŞ ÖLÇÜTÜ — sayıyla
+## ⑦ BİTİŞ ÖLÇÜTÜ — sayıyla
 ```
-① Sibirya: %59 → kaç? Ve üç kovaya dağılım (sahipsizdi / yazılmamış / kur:)
-② Okyanusya: 1 → kaç nokta · alt bölge dağılımı
-③ kaç künye ÖNERİLDİ
-④ kaç `kasitli_bosluk` · beş kovaya dağılımı
-⑤ 3 km kuralı: kaç çakışma
+kaç nokta yazıldı · kaçında kur: var · kaçında kaynak: var · kaç `bulunamadı`
+kaç boşluk kaydı, cinslerine göre dağılımı
+py arac/denetle.py TEMİZ (sahipsiz ARTMADI · Değişmez 5 ARTMADI)
 ```
-Teslim *"bitirdim"* değil: *"Sibirya %59 → %84 (43 dönem eklendi, 18
-kasıtlı boşluk); Okyanusya 1 → 71; 9 künye önerisi."*
-**Bulamadığını `bulunamadı`, ölçmediğini `ölçmedim` diye yaz.**
+"Bitirdim" değil: **"41 nokta, 38'inde kur:, 3'ü bulunamadı; 9 boşluk kaydı
+(6 kabile · 3 veri-yok)."**
+
+## ⑧ KISALTMALAR
+`*mgy` gereğini yap · `*kii` iş iste · `*yyy` durum · `*nedenboş` niçin boş
