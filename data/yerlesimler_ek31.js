@@ -184,3 +184,34 @@ window.YERLESIMLER_EK31 = [
 // 📌 Üçü de "araştırılmadı" DEĞİL, "arandı, konumu bulunamadı" —
 //    ve bu bir SONUÇTUR. Bir sonraki oturum bunları sıfırdan aramasın;
 //    eksik olan tarih değil KOORDİNAT.
+//
+// ═══════════ TDV `baraba` — ÜÇ AD DAHA, ve BİR DOĞRULAMA ═══════════
+// (HTTP 200, gövdesi okundu · 16 Ağustos)
+//
+// 🟢 ÖNCE BİR DOĞRULAMA — İsker özdeşleştirmem tuttu:
+//    "Bek-Kondu Şibanlıları veya Tura Özbek Hanlığı'nın başşehri…
+//     İskir veya Esker şehri idi."
+//    ⇒ Veride `Tobolsk (İsker)` diye duran nokta, bağımsız bir İKİNCİ
+//      TDV maddesinden doğrulandı. `sibir-hanligi` "İsker" diyordu,
+//      `baraba` "İskir veya Esker" diyor — aynı yer.
+//
+// 🔴 ÜÇ YENİ AD, ve üçü de veride YOK:
+//      Samar · Şarkel · Kondu-Tura
+//    ⚠️ Üçünün de KOORDİNATI TDV'de YOK ve akademik kaynakta
+//      arayamadım (elimde arama motoru yok, yalnız doğrudan URL çekebiliyorum).
+//    ⚠️ Ve `Şarkel` ADI TEHLİKELİ: Hazarların Don üzerindeki ünlü Sarkel'i
+//      ile aynı ad. Karıştırılırsa nokta 3.000 km batıya düşer — `§11`in
+//      "Aşkale → Başkale" tuzağının Sibirya sürümü. Konumu bulan, ÖNCE
+//      hangi Şarkel olduğunu ayırsın.
+//    ⇒ ÜÇÜ DE YAZILMADI. `kaynak: TDV baraba (ad)` — koordinat bulunamadı.
+//
+// 🟢 VE BİR TARİH: "Baraba 1579'dan itibaren Yermak idaresindeki Rus
+//    kazaklarının yağmasına uğradı." ⇒ Bölgenin Rus baskısına açılışı
+//    1579; `sibir-hanligi` künyesinin sonu (1598-08-20) ile arasında
+//    19 yıllık bir geçiş var. Bu bir ÖLÇÜM değil, bir NOT — dönem
+//    yazacak olan bunu bilsin.
+//
+// 📌 TOPLAM: TDV bu bölge için sekiz yerleşim adı verdi
+//    (Kızıl-Tura · Karaçin · Taşatkan · Abalak · Tarhankale · Samar ·
+//     Şarkel · Kondu-Tura). İKİSİ yazıldı, ALTISI koordinatsız kaldı.
+//    Eksik olan ad değil, KOORDİNAT — ve bu artık ölçülmüş bir borç.
