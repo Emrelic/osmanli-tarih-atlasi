@@ -579,10 +579,15 @@
    "OPUS HAZIR KITA 4": {
     "zaman": "2026-08-15 23:22",
     "soz": "okudum, gereğini yapıyorum"
+   },
+   "OPUS HAZIR KITA 5": {
+    "zaman": "2026-08-15 23:24",
+    "soz": "okudum, gereğini yapıyorum"
    }
   },
   "teyit_kimlik": {
-   "OPUS HAZIR KITA 4": "local_00d519a0-1f9c-4c41-af03-8e39bba37c97"
+   "OPUS HAZIR KITA 4": "local_00d519a0-1f9c-4c41-af03-8e39bba37c97",
+   "OPUS HAZIR KITA 5": "local_b361c76c-c48f-4679-a4b0-d718ef6c0c1a"
   }
  },
  {
