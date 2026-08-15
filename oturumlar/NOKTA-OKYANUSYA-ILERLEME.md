@@ -1,4 +1,4 @@
-<!-- DURUM: CALISIYORUM | 2026-08-16 | 7 nokta yazildi (2 kur:'lu sehir + 4 kabile dolgu + 1 siyasi govde kunyesiz), devam ediyor -->
+<!-- DURUM: CALISIYORUM | 2026-08-16 | 9 nokta yazildi (2 kur:'lu sehir + 6 kabile dolgu + 1 siyasi govde kunyesiz), devam ediyor -->
 
 # NOKTA OKYANUSYA — İLERLEME
 
@@ -50,23 +50,31 @@ içindeki mevcut "tonga-kralligi" künyesinin BAŞLANGIÇ tarihiyle BİREBİR e�
 3 km kuralı: 7/7 TEMİZ — en yakın komşu 1240-8760 km arası
 ```
 
-## 🔴 HÂLÂ BEKLEYEN İKİ KALEM — künye değil, ARAŞTIRMA eksik
+## Dördüncü parti (9 nokta, kümülatif) — Hawaii + Fiji "kabile" dolgu
 
 ```
-Hawaii öncesi (1795 öncesi)   TEK bir hanedan değil — aynı anda rakip birkaç ada
-                              krallığı (Hawaiʻi/Büyük Ada, Maui, Oʻahu, Kauaʻi).
-                              Tek noktaya indirmek YANLIŞ olur, ayrı araştırma gerek.
-Fiji / Suva                   Kolonyal öncesi çok sayıda rakip konfederasyon (Bau,
-                              Rewa vb.) — aynı karmaşıklık. kur:1849 (Suva) şartnamede
-                              verilmiş ama öncesi için tek araştırma turu daha lazım.
+Hawaii Adaları (Birleşme Öncesi — moku/aliʻi sistemi)   kabile
+Bau (Fiji Konfederasyonları)                             kabile
 ```
-Bunlar künye beklemiyor artık — benim tarafımda bir araştırma turu bekliyor.
+İkisi de gerçek: 1795/1874'e kadar TEK bir hanedan yoktu, rakip birden fazla
+krallık/konfederasyon aynı anda vardı (Hawaii: Hawaiʻi·Maui·Oʻahu·Kauaʻi, her
+biri kendi aliʻi nui'si; Fiji: Kubuna/Bau·Burebasaga/Rewa·Tovata). Tek bir siyasî
+gövdeye indirmek yanlış olurdu, o yüzden "kabile" (teşkilatlı, merkezî devlet yok)
+— künye İSTEMİYOR, M-0180'in birinci kolu.
+
+**Kaynaklar:** EBSCO Research Starters "Wars of Hawaiian Unification"; Museum of
+Archaeology and Anthropology (Cambridge) "Fiji Chiefdoms"; University of the South
+Pacific (Suva) kaynaklı akademik çalışmalar (D. Routledge ve ötekiler).
+
+⚠️ **Suva'nın kendi `kur:1849` noktasını YAZMADIM** — şartname onu Sydney/Auckland
+gibi düz bir kolonyal kur: noktası gibi örnek veriyor ama gerçekte 1849-1874 arası
+(trading post → resmi İngiliz ilhakı) için ne "ingiltere" ne "fiji" künyesi tam
+oturuyor; bu üçüncü bir künye sorusu, henüz sormadım — bir sonraki turda soracağım.
+
+**Doğrulama:** 9/9 kayıt sorunsuz ayrıştı, 0 bilinmeyen alan, 3 km kuralı 9/9 TEMİZ.
 
 ## Bitiş ölçütü — sayıyla
-**"7 nokta yazıldı, 5'inde kaynak, 2'sinde `s:` devlet dönemi (biri mevcut künyeyle,
-biri kendi seçtiğim künyesiz slug'la), 0 `bulunamadı`; 4 boşluk kaydı (4 kabile).
-1 künyesiz kimlik koordinatöre bildirildi (`tui-tonga-imparatorlugu`). İki kalem
-(Hawaii-öncesi, Fiji-öncesi) hâlâ araştırma aşamasında."**
-
-Devam ediyorum: Hawaii'nin 1795 öncesi rakip krallıkları ve Fiji konfederasyonları
-için kaynak taraması sürüyor.
+**"9 nokta yazıldı, 3'ünde kaynak+kur (Sydney/Auckland/Lapaha), 6 boşluk kaydı
+(hepsi kabile), 0 `bulunamadı`. 1 künyesiz kimlik koordinatöre bildirildi
+(`tui-tonga-imparatorlugu`). Suva'nın kolonyal kur: noktası künye belirsizliğinden
+henüz YAZILMADI — soracağım."**

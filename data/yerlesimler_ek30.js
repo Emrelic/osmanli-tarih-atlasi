@@ -56,4 +56,12 @@ window.YERLESIMLER_EK30 = [
   kaynak:"UNESCO World Heritage Centre, 'The Ancient Capitals of the Kingdom of Tonga' (whc.unesco.org/en/tentativelists/5167) — Muʻa/Lapaha, Tuʻi Tonga hanedanının üçüncü ve kalıcı başkenti oldu (1220-1851 dolaylarında bölgenin coğrafi merkezi); 22 kraliyet mezarı (langi) bu döneme tarihleniyor. Hanedan çizgisi geleneksel olarak ~950 CE'ye dayanır, imparatorluk gücünün zirvesi 1200-1500 arasıdır (UNESCO; Ancient Capitals dosyası).",
   s:[{f:"1220-01-01",t:"1845-12-04",d:"tui-tonga-imparatorlugu"}] },
 
+{ ad:"Hawaii Adaları (Birleşme Öncesi — moku/aliʻi sistemi)", tur:"bolge", lat:19.60, lon:-155.50, g:0, k:0,
+  d:[], kasitli_bosluk:true, bos:"kabile",
+  neden:"EBSCO Research Starters, 'Wars of Hawaiian Unification'; akademik kaynaklar (moku/aliʻi nui sistemi) — Polinezyalı yerleşim ~1000-1200 CE, ama 1795'te Kamehameha I'in birleştirmesine kadar her ada (Hawaiʻi, Maui, Oʻahu, Kauaʻi) kendi aliʻi nui'siyle YÖNETİLEN AYRI moku (bölge) sistemleriydi — merkezî TEK bir devlet yoktu, adalar arası sürekli savaş vardı." },
+
+{ ad:"Bau (Fiji Konfederasyonları)", tur:"bolge", lat:-18.007, lon:178.567, g:0, k:0,
+  d:[], kasitli_bosluk:true, bos:"kabile",
+  neden:"University of the South Pacific (Suva) kaynaklı akademik çalışmalar (D. Routledge ve ötekiler), Museum of Archaeology and Anthropology (Cambridge) 'Fiji Chiefdoms' — Fiji, 1874 İngiliz ilhakına kadar üç rakip konfederasyona (Kubuna/Bau, Burebasaga/Rewa, Tovata) bölünmüştü; yavusa/mataqali (soy/klan) temelli örgütlenme vardı, merkezî TEK bir devlet hiç kurulmadı — Bau 19. yy ortasında en güçlü konfederasyon oldu ama bütün adayı birleştiren bir devlet değildi." },
+
 ];
