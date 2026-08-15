@@ -521,7 +521,16 @@
   "yanit_no": "",
   "cins": "RAPOR",
   "dayanak": "data/devletler.js:926 · arac/renkler.py BOYALAR",
-  "aciliyet": "ACIL"
+  "aciliyet": "ACIL",
+  "teyit": {
+   "OPUS HAZIR KITA 4": {
+    "zaman": "2026-08-15 23:22",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
+  "teyit_kimlik": {
+   "OPUS HAZIR KITA 4": "local_00d519a0-1f9c-4c41-af03-8e39bba37c97"
+  }
  },
  {
   "no": "M-0022",
