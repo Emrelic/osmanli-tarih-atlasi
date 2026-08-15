@@ -1295,9 +1295,32 @@ SUPHE_ESIK_YIL = 100   # 1281 + 100 = 1381'den sonra başlayan ilk dönem
 BEKLENEN_HAYALET_YERLESIM = 0   # 5a tavanı — çelişki AFFEDİLMEZ
 
 
+# 🔴 5c — VE BU DAL, 5b YAZILDIKTAN BİR SAAT SONRA DOĞDU, ÇÜNKÜ 5b'NİN
+# MENZİLİ DIŞINDA KOCA BİR SINIF VARDI. Bulan denetim değil, bir İŞÇİ
+# OTURUMDU (NOKTA SİBİRYA 2, M-0121):
+#   "kur: YOK ama 1281'de SAHİPLİ  →  10 nokta. Senin ölçümünün MENZİLİ
+#    DIŞINDA: `kur:` alanı hiç yok, o yüzden 'kur: 1281'den sonra'
+#    karşılaştırması onları HİÇ görmez. Ama 1281'de toprak boyuyorlar."
+# ⇒ 5b *"kur: var ama geç"*e bakıyordu; bu sınıfın `kur:`ı **hiç yok** ve
+#   ilk dönemi **1281'in kendisinde** başlıyor, yani 5b'nin eşiğine de
+#   takılmıyor. İki süzgeç arasından geçiyorlardı.
+# 📌 `§11`in *"denetim var ≠ o soruyu soruyor"* ailesi — ve bu sefer
+#   soruyu sormayan denetim, aynı gün *"bu soruyu kimse sormuyor"* diye
+#   yazılmış olanıydı.
+#
+# ⚠️ VE HEPSİ HAYALET DEĞİL — oturum onunu tek tek okudu ve ÜÇE ayırdı:
+#   🟢 MEŞRU     TDV `sibir-hanligi` gövdesi Çimgi-Tura ve İsker'i ADIYLA
+#                sayıyor — Rus ostrogu değil, fetihten ÖNCEKİ Tatar şehri
+#   🟡 ALAN ADI  `Ural eteği` · `Baraba bozkırı` — yerleşim değil BÖLGE
+#                dolgusu; kurulmazlar, hep vardırlar
+#   🔴 ŞÜPHELİ   `Çerdın` · `Pustozersk` · `Ust-Tsilma` · `Yelabuga`
+# ⇒ `tur:"bolge"` olanlar dalın DIŞINDA — ayrımı veri zaten taşıyormuş
+#   (ölçüldü: 2527 kaydın 2527'sinde `tur:` var). Kalan ikisini
+#   (meşru / şüpheli) ayırmak ARAŞTIRMADIR, denetimin işi değil: bu dal
+#   *"nereye BAKILACAK"* der, *"ne YAZILACAK"* demez.
 def degismez5(Y):
-    """(celiskiler, supheliler) — 5a ihlal, 5b borç listesi."""
-    celiski, suphe = [], []
+    """(celiskiler, supheliler, kursuz) — 5a ihlal, 5b/5c borç listesi."""
+    celiski, suphe, kursuz = [], [], []
     for y in Y:
         donemler = []
         for k in ("d", "s", "v"):
@@ -1329,8 +1352,18 @@ def degismez5(Y):
                 suphe.append((y["ad"], ilk, donemler[0][2],
                               round(y.get("lat", 0), 2),
                               round(y.get("lon", 0), 2)))
+            elif (y.get("tur") != "bolge"
+                  and not y.get("kasitli_bosluk")
+                  and ilk <= "1281-12-31"):
+                # 5c — `kur:` HİÇ YOK ve 1281'de zaten SAHİPLİ.
+                # Ne 5a (kur: yok) ne 5b (ilk dönem erken) görüyor.
+                kursuz.append((y["ad"], ilk, donemler[0][2],
+                               y.get("tur") or "", y.get("_kaynak") or "",
+                               round(y.get("lat", 0), 2),
+                               round(y.get("lon", 0), 2)))
     suphe.sort(key=lambda r: r[1])
-    return celiski, suphe
+    kursuz.sort(key=lambda r: (r[4], r[0]))
+    return celiski, suphe, kursuz
 
 
 # ---------------- Değişmez 3z — kd:'nin ZAMAN AYAĞI (ALTYAPI ④) ----------
@@ -2336,7 +2369,7 @@ def main():
                 print(f"                 {kim:<20} {n} dönem")
 
     # ── Değişmez 5 — HAYALET YERLEŞİM ────────────────────────────────
-    celiski, suphe = degismez5(Y)
+    celiski, suphe, kursuz = degismez5(Y)
     n5 = len(celiski)
     durum5 = "✓" if n5 <= BEKLENEN_HAYALET_YERLESIM else "✗"
     if n5 > BEKLENEN_HAYALET_YERLESIM:
@@ -2360,6 +2393,31 @@ def main():
                   f"{la:7.2f},{lo:8.2f}")
         if not args.ayrinti and len(suphe) > 10:
             print(f"                 … {len(suphe) - 10} tane daha (--ayrinti)")
+    # 5c — İKİ SÜZGEÇ ARASINDAN GEÇEN SINIF (NOKTA SİBİRYA 2, M-0121)
+    print(f"Değişmez 5c i  {len(kursuz)} nokta: `kur:` HİÇ YOK ve 1281'de "
+          f"ZATEN SAHİPLİ")
+    print( "               🔴 BU SAYI KÜRESEL OLARAK İŞE YARAMAZ ve sebebini")
+    print( "                 yazıyorum: Bursa · Konya · Kahire de bu kovada,")
+    print( "                 üçü de MEŞRU. 1281'de var olmak Anadolu'da")
+    print( "                 normaldir, SİBİRYA'da şüphelidir — yani anlamı")
+    print( "                 BÖLGEYE bağlı ve bu dal bölge bilmiyor.")
+    print( "               ⇒ KULLANIMI: kendi kutunda süz. Aşağıdaki DOSYA")
+    print( "                 dağılımı o yüzden basılıyor — bir araştırma")
+    print( "                 partisi kendi dosyasının satırına bakar.")
+    print( "               ⚠️ `tur:\"bolge\"` dolgu noktaları DIŞARIDA tutuldu")
+    print( "                 (kurulmazlar, hep vardırlar). Kalanı meşru/şüpheli")
+    print( "                 diye ayırmak ARAŞTIRMADIR — bu dal nereye")
+    print( "                 BAKILACAĞINI söyler, ne YAZILACAĞINI değil.")
+    if kursuz:
+        _kay = {}
+        for r in kursuz:
+            _kay[r[4]] = _kay.get(r[4], 0) + 1
+        for _d, _n in sorted(_kay.items(), key=lambda x: -x[1])[:8]:
+            print(f"                 {_d:<34} {_n}")
+        if args.ayrinti:
+            for ad, ilk, kim, tur, kay, la, lo in kursuz:
+                print(f"                   {ad:<28} {tur:<7} ilk {ilk} "
+                      f"({kim:<14}) {la:7.2f},{lo:8.2f}")
 
     # Ek denetim — dönem sağlığı (üç değişmezden biri değil, VERI-YAPISI.md kuralı)
     ds = donem_sagligi(Y)
