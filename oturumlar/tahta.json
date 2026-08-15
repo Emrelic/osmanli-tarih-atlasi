@@ -450,7 +450,8 @@
    "TUNA HAVZASI": "2026-08-14 15:58",
    "YAPI DENETIM 3": "2026-08-14 15:59",
    "VERİ FETRET": "2026-08-14 20:51",
-   "KRONOLOJİ YER": "2026-08-14 20:51"
+   "KRONOLOJİ YER": "2026-08-14 20:51",
+   "KOORDINATOR": "2026-08-15 09:55"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -561,7 +562,8 @@
    "YAPI DENETIM 3": "2026-08-14 15:59",
    "VERI FETRET": "2026-08-14 16:00",
    "VERİ FETRET": "2026-08-14 20:51",
-   "KRONOLOJİ YER": "2026-08-14 20:51"
+   "KRONOLOJİ YER": "2026-08-14 20:51",
+   "KOORDINATOR": "2026-08-15 09:55"
   },
   "yanit_no": "",
   "cins": "SORU",
@@ -1039,7 +1041,8 @@
    "VERI FETRET": "2026-08-14 16:00",
    "VERİ FETRET": "2026-08-14 20:51",
    "KRONOLOJİ YER": "2026-08-14 20:51",
-   "Sonnet hazir kita 3": "2026-08-15 01:01"
+   "Sonnet hazir kita 3": "2026-08-15 01:01",
+   "KOORDINATOR": "2026-08-15 09:55"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -1119,7 +1122,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-15 09:55"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -1137,7 +1142,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-15 09:55"
+  },
   "yanit_no": "M-0047",
   "cins": "RAPOR",
   "teyit": {},
@@ -1155,7 +1162,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-15 09:55"
+  },
   "yanit_no": "M-0047",
   "cins": "RAPOR",
   "teyit": {},
@@ -1201,7 +1210,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0067",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-15 09:55"
+  },
   "yanit_no": "M-0017",
   "cins": "RAPOR",
   "teyit": {},
@@ -1219,7 +1230,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-15 09:55"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -1237,7 +1250,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "2026-08-14 12:00",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-15 09:55"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -1265,7 +1280,8 @@
    "VERİ FETRET": "2026-08-14 20:51",
    "KRONOLOJİ YER": "2026-08-14 20:51",
    "Sonnet hazir kita 3": "2026-08-15 01:01",
-   "NOKTA AMERIKA": "2026-08-15 01:12"
+   "NOKTA AMERIKA": "2026-08-15 01:12",
+   "KOORDINATOR": "2026-08-15 09:55"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -1312,7 +1328,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "2026-08-14 17:00",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-15 09:55"
+  },
   "yanit_no": "M-0047",
   "cins": "RAPOR",
   "teyit": {},
@@ -1330,7 +1348,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-15 09:55"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -1355,7 +1375,8 @@
    "VERİ FETRET": "2026-08-14 20:51",
    "KRONOLOJİ YER": "2026-08-14 20:51",
    "Sonnet hazir kita 3": "2026-08-15 01:01",
-   "NOKTA AMERIKA": "2026-08-15 01:12"
+   "NOKTA AMERIKA": "2026-08-15 01:12",
+   "KOORDINATOR": "2026-08-15 09:55"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -1387,7 +1408,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-15 09:55"
+  },
   "yanit_no": "M-0056",
   "cins": "RAPOR",
   "teyit": {},
@@ -1405,7 +1428,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "2026-08-14 18:00",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-15 09:55"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -1423,7 +1448,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-15 09:55"
+  },
   "yanit_no": "",
   "cins": "ARIZA",
   "teyit": {},
@@ -1441,7 +1468,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-15 09:55"
+  },
   "yanit_no": "M-0059",
   "cins": "RAPOR",
   "teyit": {},
@@ -1459,7 +1488,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "2026-08-14 18:30",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-15 09:55"
+  },
   "yanit_no": "",
   "cins": "EMIR",
   "teyit": {},
@@ -1482,7 +1513,8 @@
    "KRONOLOJİ YER": "2026-08-14 20:51",
    "Opus hazır kıta 6": "2026-08-15 00:44",
    "Sonnet hazir kita 3": "2026-08-15 01:01",
-   "NOKTA AMERIKA": "2026-08-15 01:12"
+   "NOKTA AMERIKA": "2026-08-15 01:12",
+   "KOORDINATOR": "2026-08-15 09:55"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -1509,7 +1541,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-15 09:55"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -1563,7 +1597,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-15 09:55"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -1581,7 +1617,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "2026-08-14 20:00",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-15 09:55"
+  },
   "yanit_no": "M-0059",
   "cins": "RAPOR",
   "teyit": {},
@@ -1599,7 +1637,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "2026-08-14 16:00",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-15 09:55"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -1635,7 +1675,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-15 09:55"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -1653,7 +1695,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "2026-08-14 18:00",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-15 09:55"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -1689,7 +1733,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-15 09:55"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
