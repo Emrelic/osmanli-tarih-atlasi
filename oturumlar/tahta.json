@@ -2499,9 +2499,17 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "EMIR",
-  "teyit": {},
+  "teyit": {
+   "NOKTA MENZİL": {
+    "zaman": "2026-08-15 23:49",
+    "soz": "okudum, HALKA 2 AVUSTURYA KOLU aliyorum, IS 0 olcumune basliyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "M-0093 · M-0094 · M-0095 · defter.py cakisma",
-  "aciliyet": "ACIL"
+  "aciliyet": "ACIL",
+  "teyit_kimlik": {
+   "NOKTA MENZİL": "local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4"
+  }
  }
 ]
