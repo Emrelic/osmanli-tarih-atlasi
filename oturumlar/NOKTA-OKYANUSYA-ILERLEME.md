@@ -1,4 +1,4 @@
-<!-- DURUM: CALISIYORUM | 2026-08-16 | 9 nokta yazildi (2 kur:'lu sehir + 6 kabile dolgu + 1 siyasi govde kunyesiz), devam ediyor -->
+<!-- DURUM: CALISIYORUM | 2026-08-16 | 10 nokta yazildi (3 kur:'lu sehir + 6 kabile dolgu + 1 siyasi govde kunyesiz), koordinatorden yeni bolge bekliyor -->
 
 # NOKTA OKYANUSYA — İLERLEME
 
@@ -66,15 +66,27 @@ gövdeye indirmek yanlış olurdu, o yüzden "kabile" (teşkilatlı, merkezî de
 Archaeology and Anthropology (Cambridge) "Fiji Chiefdoms"; University of the South
 Pacific (Suva) kaynaklı akademik çalışmalar (D. Routledge ve ötekiler).
 
-⚠️ **Suva'nın kendi `kur:1849` noktasını YAZMADIM** — şartname onu Sydney/Auckland
-gibi düz bir kolonyal kur: noktası gibi örnek veriyor ama gerçekte 1849-1874 arası
-(trading post → resmi İngiliz ilhakı) için ne "ingiltere" ne "fiji" künyesi tam
-oturuyor; bu üçüncü bir künye sorusu, henüz sormadım — bir sonraki turda soracağım.
+## Beşinci parti (10 nokta, kümülatif) — Suva, M-0196 çözümüyle
 
-**Doğrulama:** 9/9 kayıt sorunsuz ayrıştı, 0 bilinmeyen alan, 3 km kuralı 9/9 TEMİZ.
+Koordinatör M-0196'da çözdü: *"kur: EGEMENLİK demek değil."* 1849 ticaret istasyonu
+≠ egemenlik, 1874 Cession ile İngiliz egemenliği başlıyor. Aradaki boşluk
+UYDURULMADI:
+```
+Suva   kur:1849-01-01, kasitli_bosluk:true bos:"kabile" (1849-1874 arası)
+       s:[{f:1874-10-10, t:1923-10-29, d:"ingiltere"}]
+```
+**Kova seçimi ölçülü, tahmin değil:** kaynak (ANU Press, "The Making of a Capital")
+Suva köyünün 1843 Bau-Rewa Savaşı'ndan beri Bau/Kubuna konfederasyonunun koruması
+altında olduğunu **açıkça söylüyor** — susmuyor, o yüzden "veri-yok" değil "kabile".
+Cession tarihi (10 Ekim 1874) ayrı kaynakla (ANU Press, "Suva Stories", JSTOR) doğrulandı.
+
+**Doğrulama:** 10/10 kayıt sorunsuz ayrıştı, 0 bilinmeyen alan, 3 km kuralı 10/10
+TEMİZ — **bu kez dosya İÇİNDEKİ çiftler de tek tek tarandı** (önceki partilerde
+yalnız dış veriyle karşılaştırıyordum, bu bir eksikti): en yakın iç çift
+Bau↔Suva, 20,0 km — ihlal yok.
 
 ## Bitiş ölçütü — sayıyla
-**"9 nokta yazıldı, 3'ünde kaynak+kur (Sydney/Auckland/Lapaha), 6 boşluk kaydı
-(hepsi kabile), 0 `bulunamadı`. 1 künyesiz kimlik koordinatöre bildirildi
-(`tui-tonga-imparatorlugu`). Suva'nın kolonyal kur: noktası künye belirsizliğinden
-henüz YAZILMADI — soracağım."**
+**"10 nokta yazıldı, 4'ünde kaynak+kur (Sydney/Auckland/Lapaha/Suva), 7 boşluk
+kaydı (7 kabile), 0 `bulunamadı`. 1 künyesiz kimlik koordinatöre bildirildi
+(`tui-tonga-imparatorlugu`, koşu bitince açılacak). Üçüncü sorum (yeni bölge mi,
+bu seviye yeterli mi) tahtaya ULAŞMADI — tekrar soruldu."**

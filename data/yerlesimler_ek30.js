@@ -64,4 +64,15 @@ window.YERLESIMLER_EK30 = [
   d:[], kasitli_bosluk:true, bos:"kabile",
   neden:"University of the South Pacific (Suva) kaynaklı akademik çalışmalar (D. Routledge ve ötekiler), Museum of Archaeology and Anthropology (Cambridge) 'Fiji Chiefdoms' — Fiji, 1874 İngiliz ilhakına kadar üç rakip konfederasyona (Kubuna/Bau, Burebasaga/Rewa, Tovata) bölünmüştü; yavusa/mataqali (soy/klan) temelli örgütlenme vardı, merkezî TEK bir devlet hiç kurulmadı — Bau 19. yy ortasında en güçlü konfederasyon oldu ama bütün adayı birleştiren bir devlet değildi." },
 
+// ── SUVA — koordinatörün M-0196 usulüyle: kur: EGEMENLİK DEMEK DEĞİL ────
+// 1849 ticaret istasyonu ≠ egemenlik; 1874 Cession ile İngiliz egemenliği
+// başlıyor. Aradaki boşluk UYDURULMADI, kasitli_bosluk+kabile ile yazıldı
+// (kaynak konuşuyor: Suva köyü 1843 Bau-Rewa Savaşı'ndan beri Bau/Kubuna
+// konfederasyonunun koruması altındaydı — susmuyor, "kabile" doğru kova).
+{ ad:"Suva", tur:"liman", lat:-18.1416, lon:178.4419, g:1, k:1,
+  kur:"1849-01-01", kasitli_bosluk:true, bos:"kabile",
+  neden:"ANU Press, 'The Making of a Capital: A Social History of Suva, 1870–1882' (press-files.anu.edu.au/downloads/press/n10434/pdf/ch03.pdf) — Suva köyü 1843 Bau-Rewa Savaşı'ndan sonra Bau şefi Cakobau'nun (Kubuna konfederasyonu) koruması altına girdi; 1868'de Polynesian Company'ye arazi verildi, 1870'te Avustralyalı yerleşimciler geldi — ama bu bir EGEMENLİK değil ticarî/himaye ilişkisiydi, resmî devlet 1874 Cession'a kadar yoktu.",
+  kaynak:"ANU Press, 'Suva Stories: A History of the Capital of Fiji' (JSTOR j.ctv2xc67p4) — Deed of Cession, 10 Ekim 1874, Fiji'yi resmen İngiliz egemenliğine soktu.",
+  s:[{f:"1874-10-10",t:"1923-10-29",d:"ingiltere"}] },
+
 ];
