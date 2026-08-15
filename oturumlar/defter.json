@@ -1,5 +1,5 @@
 {
- "_damga": "2026-08-15 00:39",
+ "_damga": "2026-08-15 23:58",
  "_haller": {
   "ALDIM": {
    "aciklama": "şartname ulaştı, başlıyorum",
@@ -71,6 +71,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_01bec65d-b7a3-4814-a006-0e9a3128ab45",
+   "kimlik_uzayi": "kayit",
    "kova": "emir-bekleyen",
    "model": "?",
    "olcum_zamani": "2026-08-15 00:39",
@@ -85,6 +86,7 @@
    "calisiyor": false,
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "kimlik": "local_01ca5b69-2c46-4025-808b-54b5dc4b760e",
+   "kimlik_uzayi": "kayit",
    "not": "canlı ölçümde bulundu, defterde YOKTU",
    "olcum_zamani": "2026-08-15 00:39",
    "son_hareket": "2026-07-31T22:07:38.623Z",
@@ -96,23 +98,46 @@
    "ad": "VERİ FETRET",
    "calisiyor": false,
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+   "dokum_kimlik": [
+    "local_f4d2e275-19d0-4b56-ad08-4240580687b5"
+   ],
+   "dosyalar": "data/yerlesimler*.js donem/bos:",
    "gecmis": [
     {
      "kova": "gorevde",
      "not": "13 Agu canli olcumunde bulundu",
      "z": "2026-08-13 10:13"
+    },
+    {
+     "kova": "",
+     "not": "yanlis turetme (EMEKLI) geri alindi",
+     "z": "2026-08-15 00:30"
+    },
+    {
+     "kova": "gorevde",
+     "not": "kova koordinator tarafindan yazildi",
+     "z": "2026-08-15 00:30"
+    },
+    {
+     "not": "MUKERRER BIRLESTIRILDI — dokum kimligi local_f4d2e275-19d0-4b56-ad08-4240580687b5 eritildi, kayit kimligi kaldi. get_session ile sinandi: dokum kimligi 'not found', yani mesaj gonderilemezdi. (HAZIR KITA 4)",
+     "z": "2026-08-15 23:58"
     }
    ],
    "gorev": "13 Agu canli olcumunde bulundu",
    "hal": "CALISIYORUM",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_02327dd1-86ff-4cb1-899a-662c17c0e2ed",
+   "kimlik_uzayi": "kayit",
    "kova": "gorevde",
+   "kova_kaynak": "koordinator atadi (sartnameden; OLCUM DEGIL)",
    "model": "opus",
    "olcum_zamani": "2026-08-15 00:39",
+   "sartname": "oturumlar/VERI-FETRET.md",
+   "son_gorulme": "2026-08-15 00:25",
    "son_hareket": "2026-08-14T04:25:13.736Z",
    "takma_adlar": [
-    "VERİ FETRET"
+    "OPUS HAZIR KITA 2",
+    "VERI FETRET"
    ]
   },
   "local_0497ed51-ee02-4125-8918-e740f8d57d19": {
@@ -130,6 +155,7 @@
    "hal": "HAZIR",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_0497ed51-ee02-4125-8918-e740f8d57d19",
+   "kimlik_uzayi": "kayit",
    "kova": "hazir-kita",
    "model": "sonnet",
    "olcum_zamani": "2026-08-15 00:39",
@@ -153,6 +179,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_049ef433-79b7-4807-8767-eb628c2bb1c4",
+   "kimlik_uzayi": "kayit",
    "kova": "emir-bekleyen",
    "model": "?",
    "olcum_zamani": "2026-08-15 00:39",
@@ -174,38 +201,11 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_095cb470-0691-4c86-84de-f2b288e1a319",
+   "kimlik_uzayi": "kayit",
    "kova": "emir-bekleyen",
    "model": "?",
    "takma_adlar": [
     "VERİ DEVLET (Ranking)"
-   ]
-  },
-  "local_0a5035a0-e065-4beb-b0a9-f7be18790ddb": {
-   "ad": "NOKTA AMERIKA",
-   "dosyalar": "data/yerlesimler_amerika.js",
-   "gecmis": [
-    {
-     "kova": "",
-     "not": "yanlis turetme (EMEKLI) geri alindi",
-     "z": "2026-08-15 00:30"
-    },
-    {
-     "kova": "gorevde",
-     "not": "kova koordinator tarafindan yazildi",
-     "z": "2026-08-15 00:30"
-    }
-   ],
-   "gorev": "Amerika kitasi 134 nokta + SINIF A bit:",
-   "hal": "",
-   "hal_kaynak": "olculmedi — yoklugu EMEKLI diye okumak yanlisti",
-   "kimlik": "local_0a5035a0-e065-4beb-b0a9-f7be18790ddb",
-   "kova": "gorevde",
-   "kova_kaynak": "koordinator atadi (sartnameden; OLCUM DEGIL)",
-   "model": "?",
-   "sartname": "oturumlar/NOKTA-AMERIKA.md",
-   "son_gorulme": "2026-08-15 00:25",
-   "takma_adlar": [
-    "NOKTA AMERIKA"
    ]
   },
   "local_0d2ae9fb-cd9f-41a0-81d6-acde82ea796d": {
@@ -221,12 +221,17 @@
      "kova": "gorevde",
      "not": "kova koordinator tarafindan yazildi",
      "z": "2026-08-15 00:30"
+    },
+    {
+     "not": "KIMLIK UZAYI = DOKUM. get_session bu kimligi bulmuyor ('not found'), yani BU KIMLIKLE MESAJ GONDERILEMEZ. Kayit kimligi henuz bilinmiyor; kayit SILINMEDI cunku gorev gecmisi degerli. (HAZIR KITA 4)",
+     "z": "2026-08-15 23:58"
     }
    ],
    "gorev": "Belgrad 1521 - Karlofca 1699, bes kaynak caprazlama",
    "hal": "",
    "hal_kaynak": "olculmedi — yoklugu EMEKLI diye okumak yanlisti",
    "kimlik": "local_0d2ae9fb-cd9f-41a0-81d6-acde82ea796d",
+   "kimlik_uzayi": "dokum",
    "kova": "gorevde",
    "kova_kaynak": "koordinator atadi (sartnameden; OLCUM DEGIL)",
    "model": "opus",
@@ -256,6 +261,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_0f9c3bd9-eee8-4043-ad6c-53e3f7cf7832",
+   "kimlik_uzayi": "kayit",
    "kova": "emekli",
    "model": "opus",
    "olcum_zamani": "2026-08-15 00:39",
@@ -270,6 +276,7 @@
    "calisiyor": false,
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\ClaudEmre",
    "kimlik": "local_0fea5375-313a-4f0c-8db6-61d2f3462ef4",
+   "kimlik_uzayi": "kayit",
    "not": "canlı ölçümde bulundu, defterde YOKTU",
    "olcum_zamani": "2026-08-15 00:39",
    "son_hareket": "2026-08-14T14:12:32.670Z",
@@ -307,6 +314,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_154da79b-ff1d-4c91-8565-577ec124d5c7",
+   "kimlik_uzayi": "kayit",
    "kova": "emekli",
    "model": "opus",
    "olcum_zamani": "2026-08-15 00:39",
@@ -317,6 +325,11 @@
   },
   "local_17712720-a5a0-4315-8986-48c222eeeadf": {
    "ad": "KOORDİNATÖR",
+   "dokum_kimlik": [
+    "local_2ad1685f-dd0a-4c8c-8b9d-a89c216d56e6"
+   ],
+   "dosyalar": "arac/* · kok *.md · uretilen data/*.js",
+   "durum": "CALISIYORUM 07:36",
    "gecmis": [
     {
      "kova": "gorevde",
@@ -332,17 +345,41 @@
      "hal": "CALISIYORUM",
      "not": "saha uyandı · 21 rapor · 2 çakışma çözüldü · tahta kusuru düzeltildi",
      "z": "2026-08-15 00:09"
+    },
+    {
+     "hal": "CALISIYORUM",
+     "not": "saha uyandı · 21 rapor · 2 çakışma çözüldü · tahta kusuru düzeltildi",
+     "z": "2026-08-15 00:09"
+    },
+    {
+     "hal": "CALISIYORUM",
+     "not": "saha uyandı · 21 rapor · 2 çakışma çözüldü · tahta kusuru düzeltildi",
+     "z": "2026-08-15 00:25"
+    },
+    {
+     "kova": "gorevde",
+     "not": "kova koordinator tarafindan yazildi",
+     "z": "2026-08-15 00:30"
+    },
+    {
+     "not": "MUKERRER BIRLESTIRILDI — dokum kimligi local_2ad1685f-dd0a-4c8c-8b9d-a89c216d56e6 eritildi, kayit kimligi kaldi. get_session ile sinandi: dokum kimligi 'not found', yani mesaj gonderilemezdi. (HAZIR KITA 4)",
+     "z": "2026-08-15 23:58"
     }
    ],
    "gorev": "atlas koordinatörü (model kendi beyanı)",
    "hal": "CALISIYORUM",
+   "hal_kaynak": "oturumun kendi beyani (OLCUM)",
    "hal_not": "saha uyandı · 21 rapor · 2 çakışma çözüldü · tahta kusuru düzeltildi",
    "hal_zaman": "2026-08-14 07:36",
    "kimlik": "local_17712720-a5a0-4315-8986-48c222eeeadf",
+   "kimlik_uzayi": "kayit",
    "kova": "gorevde",
+   "kova_kaynak": "koordinator atadi (sartnameden; OLCUM DEGIL)",
    "model": "opus",
+   "sartname": "-  🔴 DOSYA YOK",
+   "son_gorulme": "2026-08-15 00:25",
    "takma_adlar": [
-    "KOORDİNATÖR"
+    "KOORDINATOR"
    ]
   },
   "local_21706fd2-b30f-4f23-b73c-93da7913a45e": {
@@ -360,6 +397,7 @@
    "hal": "HAZIR",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_21706fd2-b30f-4f23-b73c-93da7913a45e",
+   "kimlik_uzayi": "kayit",
    "kova": "hazir-kita",
    "model": "sonnet",
    "olcum_zamani": "2026-08-15 00:39",
@@ -393,6 +431,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_234fe133-98d8-4739-8aa5-049d05a73b81",
+   "kimlik_uzayi": "kayit",
    "kova": "emekli",
    "model": "opus",
    "olcum_zamani": "2026-08-15 00:39",
@@ -400,42 +439,6 @@
    "takma_adlar": [
     "Opus oturumu 2",
     "TDV TARİH TURU"
-   ]
-  },
-  "local_2ad1685f-dd0a-4c8c-8b9d-a89c216d56e6": {
-   "ad": "KOORDINATOR",
-   "dosyalar": "arac/* · kok *.md · uretilen data/*.js",
-   "durum": "CALISIYORUM 07:36",
-   "gecmis": [
-    {
-     "hal": "CALISIYORUM",
-     "not": "saha uyandı · 21 rapor · 2 çakışma çözüldü · tahta kusuru düzeltildi",
-     "z": "2026-08-15 00:09"
-    },
-    {
-     "kova": "gorevde",
-     "not": "kova koordinator tarafindan yazildi",
-     "z": "2026-08-15 00:30"
-    },
-    {
-     "hal": "CALISIYORUM",
-     "not": "saha uyandı · 21 rapor · 2 çakışma çözüldü · tahta kusuru düzeltildi",
-     "z": "2026-08-15 00:25"
-    }
-   ],
-   "gorev": "koordinasyon · olcum · dagitim",
-   "hal": "CALISIYORUM",
-   "hal_kaynak": "oturumun kendi beyani (OLCUM)",
-   "hal_not": "saha uyandı · 21 rapor · 2 çakışma çözüldü · tahta kusuru düzeltildi",
-   "hal_zaman": "2026-08-14 07:36",
-   "kimlik": "local_2ad1685f-dd0a-4c8c-8b9d-a89c216d56e6",
-   "kova": "gorevde",
-   "kova_kaynak": "koordinator atadi (sartnameden; OLCUM DEGIL)",
-   "model": "opus",
-   "sartname": "-  🔴 DOSYA YOK",
-   "son_gorulme": "2026-08-15 00:25",
-   "takma_adlar": [
-    "KOORDINATOR"
    ]
   },
   "local_2cb2da04-ac09-48de-95e2-21df20edcec8": {
@@ -453,6 +456,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_2cb2da04-ac09-48de-95e2-21df20edcec8",
+   "kimlik_uzayi": "kayit",
    "kova": "emir-bekleyen",
    "model": "?",
    "olcum_zamani": "2026-08-15 00:39",
@@ -467,6 +471,7 @@
    "calisiyor": false,
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "kimlik": "local_2ce739b7-8e01-443e-af3f-4a5aaa22ceb2",
+   "kimlik_uzayi": "kayit",
    "not": "canlı ölçümde bulundu, defterde YOKTU",
    "olcum_zamani": "2026-08-15 00:39",
    "son_hareket": "2026-07-31T22:59:22.880Z",
@@ -480,6 +485,7 @@
    "calisiyor": false,
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "kimlik": "local_2cecfda0-c48a-4865-88e1-922ff00b5c40",
+   "kimlik_uzayi": "kayit",
    "not": "canlı ölçümde bulundu, defterde YOKTU",
    "olcum_zamani": "2026-08-15 00:39",
    "son_hareket": "2026-08-01T12:53:14.602Z",
@@ -493,6 +499,7 @@
    "calisiyor": false,
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "kimlik": "local_2ed7027d-ea35-4cf4-bb78-b770f37b2b21",
+   "kimlik_uzayi": "kayit",
    "not": "canlı ölçümde bulundu, defterde YOKTU",
    "olcum_zamani": "2026-08-15 00:39",
    "son_hareket": "2026-08-01T12:34:44.710Z",
@@ -504,6 +511,9 @@
    "ad": "VERİ ÇÖL BAYRAK",
    "calisiyor": false,
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+   "dokum_kimlik": [
+    "local_cddd7c9e-7738-4140-ab7e-accb23228860"
+   ],
    "dosyalar": "-",
    "gecmis": [
     {
@@ -517,15 +527,30 @@
      "z": "2026-08-15 00:30"
     },
     {
+     "kova": "",
+     "not": "yanlis turetme (EMEKLI) geri alindi",
+     "z": "2026-08-15 00:30"
+    },
+    {
+     "kova": "gorevde",
+     "not": "kova koordinator tarafindan yazildi",
+     "z": "2026-08-15 00:30"
+    },
+    {
      "kova": "emekli",
      "not": "AD DEĞİŞTİ: Sonnet hazir kita 3 (ESKI KIMLIK) → VERİ ÇÖL BAYRAK",
      "z": "2026-08-15 00:39"
+    },
+    {
+     "not": "MUKERRER BIRLESTIRILDI — dokum kimligi local_cddd7c9e-7738-4140-ab7e-accb23228860 eritildi, kayit kimligi kaldi. get_session ile sinandi: dokum kimligi 'not found', yani mesaj gonderilemezdi. (HAZIR KITA 4)",
+     "z": "2026-08-15 23:58"
     }
    ],
    "gorev": "🔴 BU KIMLIK CURUDU — oturum kendi olctu ve duzeltti: gercek kimligi local_cddd7c9e. Bu kayit, aracin YANLIS ATFETTIGI kimliktir.",
    "hal": "",
    "hal_kaynak": "olculmedi — yoklugu EMEKLI diye okumak yanlisti",
    "kimlik": "local_32635081-fad5-4366-a502-6cc31d416789",
+   "kimlik_uzayi": "kayit",
    "kova": "emekli",
    "kova_kaynak": "koordinator atadi (sartnameden; OLCUM DEGIL)",
    "model": "sonnet",
@@ -537,7 +562,7 @@
     "Sonnet hazir kita 3",
     "Sonnet hazir kita 3 (ESKI KIMLIK)",
     "Sonnet hazır kıta 3",
-    "VERİ ÇÖL BAYRAK"
+    "VERI COL BAYRAK"
    ]
   },
   "local_3423e073-ba2b-41ee-8797-822cff932f41": {
@@ -546,6 +571,7 @@
    "calisiyor": false,
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "kimlik": "local_3423e073-ba2b-41ee-8797-822cff932f41",
+   "kimlik_uzayi": "kayit",
    "not": "canlı ölçümde bulundu, defterde YOKTU",
    "olcum_zamani": "2026-08-15 00:39",
    "son_hareket": "2026-08-01T13:46:36.717Z",
@@ -578,6 +604,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_347b8cc8-7ebe-486a-8c85-c14d0cff1570",
+   "kimlik_uzayi": "kayit",
    "kova": "emekli",
    "model": "sonnet",
    "olcum_zamani": "2026-08-15 00:39",
@@ -593,6 +620,7 @@
    "calisiyor": false,
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "kimlik": "local_38a03708-3f3d-4395-a229-218b7a42bf33",
+   "kimlik_uzayi": "kayit",
    "not": "canlı ölçümde bulundu, defterde YOKTU",
    "olcum_zamani": "2026-08-15 00:39",
    "son_hareket": "2026-07-31T22:37:47.540Z",
@@ -606,40 +634,12 @@
    "calisiyor": false,
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "kimlik": "local_3d48abc0-f375-43db-a47b-cfda02c5e166",
+   "kimlik_uzayi": "kayit",
    "not": "canlı ölçümde bulundu, defterde YOKTU",
    "olcum_zamani": "2026-08-15 00:39",
    "son_hareket": "2026-08-01T12:39:04.726Z",
    "takma_adlar": [
     "ARAŞTIRMA BALKAN"
-   ]
-  },
-  "local_3fc67368-5263-46af-b864-e44a9ecf0d2c": {
-   "ad": "YAPI DENETIM 3",
-   "dosyalar": "arac/denetle.py yeni dallar",
-   "gecmis": [
-    {
-     "kova": "",
-     "not": "yanlis turetme (EMEKLI) geri alindi",
-     "z": "2026-08-15 00:30"
-    },
-    {
-     "kova": "gorevde",
-     "not": "kova koordinator tarafindan yazildi",
-     "z": "2026-08-15 00:30"
-    }
-   ],
-   "gorev": "uc yeni denetim (H-0023 · H-0024 · H-0066)",
-   "hal": "",
-   "hal_kaynak": "olculmedi — yoklugu EMEKLI diye okumak yanlisti",
-   "kimlik": "local_3fc67368-5263-46af-b864-e44a9ecf0d2c",
-   "kova": "gorevde",
-   "kova_kaynak": "koordinator atadi (sartnameden; OLCUM DEGIL)",
-   "model": "opus",
-   "sartname": "oturumlar/YAPI-DENETIM-3.md",
-   "son_gorulme": "2026-08-15 00:25",
-   "takma_adlar": [
-    "YAPI DENETIM 3",
-    "YAPI DENETİM 3"
    ]
   },
   "local_439bbe3b-ec4a-40ec-97b8-439f8d1c0979": {
@@ -657,6 +657,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_439bbe3b-ec4a-40ec-97b8-439f8d1c0979",
+   "kimlik_uzayi": "kayit",
    "kova": "emir-bekleyen",
    "model": "?",
    "olcum_zamani": "2026-08-15 00:39",
@@ -680,6 +681,7 @@
    "hal": "CALISIYORUM",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_43c84dfa-12a4-473d-ad5d-1e34fc450b5e",
+   "kimlik_uzayi": "kayit",
    "kova": "gorevde",
    "model": "opus",
    "olcum_zamani": "2026-08-15 00:39",
@@ -703,6 +705,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_451781ae-aa9f-41dc-a939-da00a10e5e91",
+   "kimlik_uzayi": "kayit",
    "kova": "emir-bekleyen",
    "model": "?",
    "olcum_zamani": "2026-08-15 00:39",
@@ -729,12 +732,17 @@
      "kova": "gorevde",
      "not": "BOZUK ANAHTARLI kayit birlestirildi: local_454b8342-eab4-4222-8e29-acea08aade74 (CIKARIM - asagi bak)",
      "z": "2026-08-15 00:40"
+    },
+    {
+     "not": "KIMLIK UZAYI = DOKUM. get_session bu kimligi bulmuyor ('not found'), yani BU KIMLIKLE MESAJ GONDERILEMEZ. Kayit kimligi henuz bilinmiyor; kayit SILINMEDI cunku gorev gecmisi degerli. (HAZIR KITA 4)",
+     "z": "2026-08-15 23:58"
     }
    ],
    "gorev": "koridor agi · m: ve kd: alanlari",
    "hal": "",
    "hal_kaynak": "olculmedi — yoklugu EMEKLI diye okumak yanlisti",
    "kimlik": "local_454b8342-eab4-4222-8e29-acea08aade74",
+   "kimlik_uzayi": "dokum",
    "kova": "gorevde",
    "kova_kaynak": "koordinator atadi (sartnameden; OLCUM DEGIL)",
    "model": "?",
@@ -748,6 +756,10 @@
    "ad": "NOKTA AMERİKA",
    "calisiyor": false,
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+   "dokum_kimlik": [
+    "local_0a5035a0-e065-4beb-b0a9-f7be18790ddb"
+   ],
+   "dosyalar": "data/yerlesimler_amerika.js",
    "gecmis": [
     {
      "kova": "",
@@ -758,18 +770,36 @@
      "kova": "emekli",
      "not": "kova koordinator tarafindan yazildi",
      "z": "2026-08-15 00:30"
+    },
+    {
+     "kova": "",
+     "not": "yanlis turetme (EMEKLI) geri alindi",
+     "z": "2026-08-15 00:30"
+    },
+    {
+     "kova": "gorevde",
+     "not": "kova koordinator tarafindan yazildi",
+     "z": "2026-08-15 00:30"
+    },
+    {
+     "not": "MUKERRER BIRLESTIRILDI — dokum kimligi local_0a5035a0-e065-4beb-b0a9-f7be18790ddb eritildi, kayit kimligi kaldi. get_session ile sinandi: dokum kimligi 'not found', yani mesaj gonderilemezdi. (HAZIR KITA 4)",
+     "z": "2026-08-15 23:58"
     }
    ],
+   "gorev": "Amerika kitasi 134 nokta + SINIF A bit:",
    "hal": "",
    "hal_kaynak": "olculmedi — yoklugu EMEKLI diye okumak yanlisti",
    "kimlik": "local_481c85f5-c099-4e67-bae8-d5932dc23ed4",
+   "kimlik_uzayi": "kayit",
    "kova": "emekli",
    "kova_kaynak": "koordinator atadi (sartnameden; OLCUM DEGIL)",
    "model": "sonnet",
    "olcum_zamani": "2026-08-15 00:39",
+   "sartname": "oturumlar/NOKTA-AMERIKA.md",
+   "son_gorulme": "2026-08-15 00:25",
    "son_hareket": "2026-08-14T04:42:39.056Z",
    "takma_adlar": [
-    "NOKTA AMERİKA"
+    "NOKTA AMERIKA"
    ]
   },
   "local_497f37ed-17b8-4f53-bb72-3aa8953049c8": {
@@ -787,6 +817,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_497f37ed-17b8-4f53-bb72-3aa8953049c8",
+   "kimlik_uzayi": "kayit",
    "kova": "emir-bekleyen",
    "model": "?",
    "olcum_zamani": "2026-08-15 00:39",
@@ -825,6 +856,7 @@
    "hal": "CALISIYORUM",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_4cc8bf3b-57f0-40ce-b5f6-d0ced348f05c",
+   "kimlik_uzayi": "kayit",
    "kova": "gorevde",
    "model": "opus",
    "olcum_zamani": "2026-08-15 00:39",
@@ -853,6 +885,7 @@
    "hal": "HAZIR",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_4f24ce56-0c5c-4992-b37c-ee14af20545f",
+   "kimlik_uzayi": "kayit",
    "kova": "hazir-kita",
    "model": "fable",
    "olcum_zamani": "2026-08-15 00:39",
@@ -876,6 +909,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_4f77c60c-1c14-49b3-912e-c4f44da14788",
+   "kimlik_uzayi": "kayit",
    "kova": "emir-bekleyen",
    "model": "?",
    "olcum_zamani": "2026-08-15 00:39",
@@ -899,6 +933,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_4fadb6a7-f8ca-431e-ac07-19ffc97b3cd1",
+   "kimlik_uzayi": "kayit",
    "kova": "emir-bekleyen",
    "model": "?",
    "olcum_zamani": "2026-08-15 00:39",
@@ -922,6 +957,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_55f9e251-a9ee-4ee9-809e-80895deb6350",
+   "kimlik_uzayi": "kayit",
    "kova": "emir-bekleyen",
    "model": "?",
    "olcum_zamani": "2026-08-15 00:39",
@@ -945,6 +981,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_57a571aa-4242-49e8-beb3-a11f60bf5eb9",
+   "kimlik_uzayi": "kayit",
    "kova": "emir-bekleyen",
    "model": "?",
    "olcum_zamani": "2026-08-15 00:39",
@@ -959,6 +996,7 @@
    "calisiyor": false,
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "kimlik": "local_57a9e257-f4da-4092-9479-fd811a0d8fef",
+   "kimlik_uzayi": "kayit",
    "not": "canlı ölçümde bulundu, defterde YOKTU",
    "olcum_zamani": "2026-08-15 00:39",
    "son_hareket": "2026-07-31T09:59:25.167Z",
@@ -975,12 +1013,20 @@
      "kova": "hazir-kita",
      "not": "13 Agu canli olcumunde bulundu",
      "z": "2026-08-13 10:13"
+    },
+    {
+     "hal": "EMEKLI",
+     "not": "HAYALET — 15 Agu olcumu: dokumu YOK (.claude/projects), list_sessions 40 oturumda YOK. Ad 'Opus hazir kita 5' bugun local_b361c76c-...'e gecti.",
+     "z": "2026-08-15 23:58"
     }
    ],
    "gorev": "13 Agu canli olcumunde bulundu",
-   "hal": "HAZIR",
+   "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
+   "hal_not": "HAYALET — 15 Agu olcumu: dokumu YOK (.claude/projects), list_sessions 40 oturumda YOK. Ad 'Opus hazir kita 5' bugun local_b361c76c-...'e gecti.",
+   "hal_zaman": "2026-08-15 23:58",
    "kimlik": "local_597c562e-e7ff-46d9-b338-c758e39cb4d3",
+   "kimlik_uzayi": "kayit",
    "kova": "hazir-kita",
    "model": "opus",
    "olcum_zamani": "2026-08-15 00:39",
@@ -1019,6 +1065,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_5a9b96a8-5acc-4931-9db0-b4f3339c5e3b",
+   "kimlik_uzayi": "kayit",
    "kova": "emekli",
    "model": "sonnet",
    "olcum_zamani": "2026-08-15 00:39",
@@ -1052,6 +1099,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_5c504b28-fdd2-4570-a01e-c9058b5c5599",
+   "kimlik_uzayi": "kayit",
    "kova": "emir-bekleyen",
    "model": "sonnet",
    "olcum_zamani": "2026-08-15 00:39",
@@ -1066,6 +1114,7 @@
    "calisiyor": false,
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "kimlik": "local_5dab3001-38cf-4246-ab7a-b75180417afa",
+   "kimlik_uzayi": "kayit",
    "not": "canlı ölçümde bulundu, defterde YOKTU",
    "olcum_zamani": "2026-08-15 00:39",
    "son_hareket": "2026-08-01T06:44:09.101Z",
@@ -1088,6 +1137,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_6006f1c6-07c3-4aa1-be36-509f7c360ca4",
+   "kimlik_uzayi": "kayit",
    "kova": "emir-bekleyen",
    "model": "?",
    "olcum_zamani": "2026-08-15 00:39",
@@ -1102,6 +1152,7 @@
    "calisiyor": false,
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "kimlik": "local_6338b1ce-5337-493a-b3cf-80979f37f208",
+   "kimlik_uzayi": "kayit",
    "not": "canlı ölçümde bulundu, defterde YOKTU",
    "olcum_zamani": "2026-08-15 00:39",
    "son_hareket": "2026-08-01T13:42:18.576Z",
@@ -1124,6 +1175,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_665dade6-7a2f-4680-b208-51d57c29f382",
+   "kimlik_uzayi": "kayit",
    "kova": "emir-bekleyen",
    "model": "?",
    "olcum_zamani": "2026-08-15 00:39",
@@ -1147,6 +1199,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_66a33d8c-808f-41f9-ab10-990934efcea4",
+   "kimlik_uzayi": "kayit",
    "kova": "emir-bekleyen",
    "model": "?",
    "olcum_zamani": "2026-08-15 00:39",
@@ -1180,6 +1233,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_6f4a0887-83bf-4edb-b701-478a143605aa",
+   "kimlik_uzayi": "kayit",
    "kova": "emekli",
    "model": "sonnet",
    "olcum_zamani": "2026-08-15 00:39",
@@ -1214,6 +1268,7 @@
    "hal": "HAZIR",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_7031098e-022b-4dec-8e83-f90670cc6214",
+   "kimlik_uzayi": "kayit",
    "kova": "hazir-kita",
    "model": "sonnet",
    "olcum_zamani": "2026-08-15 00:39",
@@ -1239,6 +1294,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_72db58e6-1b2d-4747-a90f-3554ddff5d25",
+   "kimlik_uzayi": "kayit",
    "kova": "emir-bekleyen",
    "model": "?",
    "olcum_zamani": "2026-08-15 00:39",
@@ -1277,6 +1333,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_73e94512-30bd-47e0-a5cc-bd151819a10d",
+   "kimlik_uzayi": "kayit",
    "kova": "emekli",
    "model": "sonnet",
    "olcum_zamani": "2026-08-15 00:39",
@@ -1301,6 +1358,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_781b07b5-ad58-4532-b8d6-ff880fbc8cb1",
+   "kimlik_uzayi": "kayit",
    "kova": "emir-bekleyen",
    "model": "?",
    "olcum_zamani": "2026-08-15 00:39",
@@ -1324,6 +1382,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_7a12e8b3-73e5-49a5-b813-8536ae931eb7",
+   "kimlik_uzayi": "kayit",
    "kova": "emir-bekleyen",
    "model": "?",
    "olcum_zamani": "2026-08-15 00:39",
@@ -1347,6 +1406,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_8b047a4f-f8ad-4042-bd0b-dfc0bd4f8d86",
+   "kimlik_uzayi": "kayit",
    "kova": "emir-bekleyen",
    "model": "?",
    "olcum_zamani": "2026-08-15 00:39",
@@ -1370,6 +1430,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_8b8364af-92a8-4b65-b83d-fef16dbac213",
+   "kimlik_uzayi": "kayit",
    "kova": "emir-bekleyen",
    "model": "?",
    "olcum_zamani": "2026-08-15 00:39",
@@ -1394,6 +1455,7 @@
    "hal": "HAZIR",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_8c0af209-4879-4ebe-95e2-a9d19fcb2c1b",
+   "kimlik_uzayi": "kayit",
    "kova": "hazir-kita",
    "model": "opus",
    "olcum_zamani": "2026-08-15 00:39",
@@ -1421,6 +1483,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_90f42ba7-a8d0-45a1-9f73-5a9575dc5def",
+   "kimlik_uzayi": "kayit",
    "kova": "emir-bekleyen",
    "model": "?",
    "olcum_zamani": "2026-08-15 00:39",
@@ -1449,6 +1512,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_9184f49d-f570-4772-b998-267d5b1a7d57",
+   "kimlik_uzayi": "kayit",
    "kova": "emekli",
    "model": "opus",
    "olcum_zamani": "2026-08-15 00:39",
@@ -1472,6 +1536,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_91e9c644-5e9f-497f-8c1c-c2c9c6812384",
+   "kimlik_uzayi": "kayit",
    "kova": "emir-bekleyen",
    "model": "?",
    "olcum_zamani": "2026-08-15 00:39",
@@ -1505,6 +1570,7 @@
    "hal": "HAZIR",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_92b08b07-99ee-4864-bd6a-b5e3791623eb",
+   "kimlik_uzayi": "kayit",
    "kova": "hazir-kita",
    "model": "sonnet",
    "olcum_zamani": "2026-08-15 00:39",
@@ -1536,6 +1602,7 @@
    "hal": "",
    "hal_kaynak": "olculmedi — yoklugu EMEKLI diye okumak yanlisti",
    "kimlik": "local_93578728-3ebc-4f1a-b2b1-0c37d2b76ac5",
+   "kimlik_uzayi": "kayit",
    "kova": "gorevde",
    "kova_kaynak": "koordinator atadi (sartnameden; OLCUM DEGIL)",
    "model": "opus",
@@ -1562,6 +1629,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_94f40812-bdd1-4031-98db-c1e89b57c38f",
+   "kimlik_uzayi": "kayit",
    "kova": "emir-bekleyen",
    "model": "?",
    "olcum_zamani": "2026-08-15 00:39",
@@ -1577,6 +1645,7 @@
    "calisiyor": false,
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "kimlik": "local_959dc058-66d7-4329-9c7f-4ff9b037c39f",
+   "kimlik_uzayi": "kayit",
    "not": "canlı ölçümde bulundu, defterde YOKTU",
    "olcum_zamani": "2026-08-15 00:39",
    "son_hareket": "2026-08-01T11:22:35.722Z",
@@ -1599,6 +1668,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_981f4322-a220-4cc2-84ea-19e98d3cccf1",
+   "kimlik_uzayi": "kayit",
    "kova": "emir-bekleyen",
    "model": "?",
    "olcum_zamani": "2026-08-15 00:39",
@@ -1613,6 +1683,7 @@
    "calisiyor": false,
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "kimlik": "local_99aee3ff-50db-4cad-ad05-fc9e19c41aa7",
+   "kimlik_uzayi": "kayit",
    "not": "canlı ölçümde bulundu, defterde YOKTU",
    "olcum_zamani": "2026-08-15 00:39",
    "son_hareket": "2026-07-31T22:24:46.625Z",
@@ -1635,6 +1706,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_9cdff124-0a1f-40db-8a66-8aee5daccdec",
+   "kimlik_uzayi": "kayit",
    "kova": "emir-bekleyen",
    "model": "?",
    "olcum_zamani": "2026-08-15 00:39",
@@ -1669,6 +1741,7 @@
    "hal": "",
    "hal_kaynak": "olculmedi — yoklugu EMEKLI diye okumak yanlisti",
    "kimlik": "local_9d907ce9-25a6-4bfd-96f5-e944cafb32cf",
+   "kimlik_uzayi": "kayit",
    "kova": "hazir-kita",
    "kova_kaynak": "koordinator atadi (sartnameden; OLCUM DEGIL)",
    "model": "sonnet",
@@ -1707,6 +1780,7 @@
    "hal": "CALISIYORUM",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_9e97f57b-f4b5-4e0e-a5c6-b70869aedcda",
+   "kimlik_uzayi": "kayit",
    "kova": "gorevde",
    "model": "sonnet",
    "olcum_zamani": "2026-08-15 00:39",
@@ -1721,6 +1795,7 @@
    "calisiyor": false,
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "kimlik": "local_a6016e23-a53e-464e-be25-7b550a49a741",
+   "kimlik_uzayi": "kayit",
    "not": "canlı ölçümde bulundu, defterde YOKTU",
    "olcum_zamani": "2026-08-15 00:39",
    "son_hareket": "2026-07-31T23:34:12.953Z",
@@ -1743,6 +1818,7 @@
    "hal": "HAZIR",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_a6c8fdea-6bf4-4c15-ab9d-7d1d6b8572e2",
+   "kimlik_uzayi": "kayit",
    "kova": "hazir-kita",
    "model": "sonnet",
    "olcum_zamani": "2026-08-15 00:39",
@@ -1776,6 +1852,7 @@
    "hal": "HAZIR",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_a6f8263a-6b20-402f-9873-fa068acf6e26",
+   "kimlik_uzayi": "kayit",
    "kova": "hazir-kita",
    "model": "opus",
    "olcum_zamani": "2026-08-15 00:39",
@@ -1798,12 +1875,17 @@
      "kova": "gorevde",
      "not": "kova koordinator tarafindan yazildi",
      "z": "2026-08-15 00:30"
+    },
+    {
+     "not": "KIMLIK UZAYI = DOKUM. get_session bu kimligi bulmuyor ('not found'), yani BU KIMLIKLE MESAJ GONDERILEMEZ. Kayit kimligi henuz bilinmiyor; kayit SILINMEDI cunku gorev gecmisi degerli. (HAZIR KITA 4)",
+     "z": "2026-08-15 23:58"
     }
    ],
    "gorev": "uc yanlis yesil (Yanikkale · Egri · Kanije)",
    "hal": "",
    "hal_kaynak": "olculmedi — yoklugu EMEKLI diye okumak yanlisti",
    "kimlik": "local_ab11dc50-8879-494a-890a-8b43f6b2cb01",
+   "kimlik_uzayi": "dokum",
    "kova": "gorevde",
    "kova_kaynak": "koordinator atadi (sartnameden; OLCUM DEGIL)",
    "model": "opus",
@@ -1829,6 +1911,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_acbd6519-55b9-4b86-af8e-42fad7df8051",
+   "kimlik_uzayi": "kayit",
    "kova": "emir-bekleyen",
    "model": "?",
    "olcum_zamani": "2026-08-15 00:39",
@@ -1852,6 +1935,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_af23086f-f1b7-4d87-bf76-d25fdde717e0",
+   "kimlik_uzayi": "kayit",
    "kova": "emir-bekleyen",
    "model": "?",
    "olcum_zamani": "2026-08-15 00:39",
@@ -1866,11 +1950,40 @@
    "calisiyor": false,
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "kimlik": "local_b07c7663-cf43-4277-bb3e-06c2e853a510",
+   "kimlik_uzayi": "kayit",
    "not": "canlı ölçümde bulundu, defterde YOKTU",
    "olcum_zamani": "2026-08-15 00:39",
    "son_hareket": "2026-08-01T10:03:11.839Z",
    "takma_adlar": [
     "VERİ SAVAŞ"
+   ]
+  },
+  "local_b361c76c-c48f-4679-a4b0-d718ef6c0c1a": {
+   "acilis": "2026-08-15 23:58",
+   "ad": "OPUS HAZIR KITA 5",
+   "dosyalar": "oturumlar/HAZIR-KITA-5-ILERLEME.md",
+   "gecmis": [
+    {
+     "kova": "hazir-kita",
+     "not": "BOSTA — 15 Agu acildi, sartname YOK, is bekliyor (M-0095)",
+     "z": "2026-08-15 23:58"
+    },
+    {
+     "hal": "HAZIR",
+     "not": "15 Agu 23:40 — 13 tahta mesaji teyitlendi, is istendi",
+     "z": "2026-08-15 23:58"
+    }
+   ],
+   "gorev": "BOSTA — 15 Agu acildi, sartname YOK, is bekliyor (M-0095)",
+   "hal": "HAZIR",
+   "hal_not": "15 Agu 23:40 — 13 tahta mesaji teyitlendi, is istendi",
+   "hal_zaman": "2026-08-15 23:58",
+   "kimlik": "local_b361c76c-c48f-4679-a4b0-d718ef6c0c1a",
+   "kimlik_uzayi": "dokum",
+   "kova": "hazir-kita",
+   "model": "opus",
+   "takma_adlar": [
+    "OPUS HAZIR KITA 5"
    ]
   },
   "local_b549b37f-09ad-4cc3-8b1b-45e266543eff": {
@@ -1879,6 +1992,7 @@
    "calisiyor": false,
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "kimlik": "local_b549b37f-09ad-4cc3-8b1b-45e266543eff",
+   "kimlik_uzayi": "kayit",
    "not": "canlı ölçümde bulundu, defterde YOKTU",
    "olcum_zamani": "2026-08-15 00:39",
    "son_hareket": "2026-08-01T12:41:50.093Z",
@@ -1901,6 +2015,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_b71ae7a8-fdc8-4d9e-a871-1f9763bf566d",
+   "kimlik_uzayi": "kayit",
    "kova": "emir-bekleyen",
    "model": "?",
    "olcum_zamani": "2026-08-15 00:39",
@@ -1915,6 +2030,7 @@
    "calisiyor": false,
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "kimlik": "local_b7271857-745b-45a9-8912-ab9b50eb1134",
+   "kimlik_uzayi": "kayit",
    "not": "canlı ölçümde bulundu, defterde YOKTU",
    "olcum_zamani": "2026-08-15 00:39",
    "son_hareket": "2026-07-31T21:41:15.284Z",
@@ -1937,6 +2053,7 @@
    "hal": "HAZIR",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_b7b2f972-0287-4756-b5a2-c7dfd35f1992",
+   "kimlik_uzayi": "kayit",
    "kova": "hazir-kita",
    "model": "sonnet",
    "olcum_zamani": "2026-08-15 00:39",
@@ -1960,6 +2077,7 @@
    "hal": "HAZIR",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_b943aa89-748a-4868-9755-1f77fce68fbf",
+   "kimlik_uzayi": "kayit",
    "kova": "hazir-kita",
    "model": "opus",
    "olcum_zamani": "2026-08-15 00:39",
@@ -1983,6 +2101,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_bb8803ee-543c-4805-91b3-cb8f02695bd9",
+   "kimlik_uzayi": "kayit",
    "kova": "emir-bekleyen",
    "model": "?",
    "olcum_zamani": "2026-08-15 00:39",
@@ -1997,6 +2116,7 @@
    "calisiyor": false,
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "kimlik": "local_bcc024ba-e1b6-4b91-9f5c-535902a6c818",
+   "kimlik_uzayi": "kayit",
    "not": "canlı ölçümde bulundu, defterde YOKTU",
    "olcum_zamani": "2026-08-15 00:39",
    "son_hareket": "2026-08-01T10:10:45.797Z",
@@ -2020,6 +2140,7 @@
    "hal": "CALISIYORUM",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_be082655-293c-45d4-846f-55019c128da6",
+   "kimlik_uzayi": "kayit",
    "kova": "gorevde",
    "model": "?",
    "olcum_zamani": "2026-08-15 00:39",
@@ -2055,6 +2176,7 @@
    "hal": "HAZIR",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_c3fd502b-7e87-4bd3-bab6-977c184e9dfa",
+   "kimlik_uzayi": "kayit",
    "kova": "hazir-kita",
    "model": "opus",
    "olcum_zamani": "2026-08-15 00:39",
@@ -2079,6 +2201,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_c97147bd-2e04-4a81-a378-602b270450a8",
+   "kimlik_uzayi": "kayit",
    "kova": "emir-bekleyen",
    "model": "?",
    "olcum_zamani": "2026-08-15 00:39",
@@ -2117,6 +2240,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_c9c04f69-a722-47e1-b4a1-ef52b5da488e",
+   "kimlik_uzayi": "kayit",
    "kova": "emir-bekleyen",
    "model": "opus",
    "olcum_zamani": "2026-08-15 00:39",
@@ -2131,6 +2255,7 @@
    "calisiyor": false,
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "kimlik": "local_caf0f857-ce38-4ebb-aec1-f671770b3e9c",
+   "kimlik_uzayi": "kayit",
    "not": "canlı ölçümde bulundu, defterde YOKTU",
    "olcum_zamani": "2026-08-15 00:39",
    "son_hareket": "2026-07-31T23:36:13.868Z",
@@ -2154,6 +2279,7 @@
    "hal": "HAZIR",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_cc230a98-cbc8-4702-ae0c-8ff8cb473c9b",
+   "kimlik_uzayi": "kayit",
    "kova": "hazir-kita",
    "model": "opus",
    "olcum_zamani": "2026-08-15 00:39",
@@ -2162,35 +2288,6 @@
    "takma_adlar": [
     "Opus hazır kıta 6",
     "RENK 3"
-   ]
-  },
-  "local_cddd7c9e-7738-4140-ab7e-accb23228860": {
-   "ad": "VERI COL BAYRAK",
-   "dosyalar": "data/yerlesimler*.js bos:",
-   "gecmis": [
-    {
-     "kova": "",
-     "not": "yanlis turetme (EMEKLI) geri alindi",
-     "z": "2026-08-15 00:30"
-    },
-    {
-     "kova": "gorevde",
-     "not": "kova koordinator tarafindan yazildi",
-     "z": "2026-08-15 00:30"
-    }
-   ],
-   "gorev": "col noktalarinin bos: cinsi + 6 supheli",
-   "hal": "",
-   "hal_kaynak": "olculmedi — yoklugu EMEKLI diye okumak yanlisti",
-   "kimlik": "local_cddd7c9e-7738-4140-ab7e-accb23228860",
-   "kova": "gorevde",
-   "kova_kaynak": "koordinator atadi (sartnameden; OLCUM DEGIL)",
-   "model": "sonnet",
-   "sartname": "oturumlar/VERI-COL-BAYRAK.md",
-   "son_gorulme": "2026-08-15 00:25",
-   "takma_adlar": [
-    "Sonnet hazir kita 3",
-    "VERI COL BAYRAK"
    ]
   },
   "local_d1249b27-9ada-464f-a582-006b3fca14c8": {
@@ -2206,12 +2303,17 @@
      "kova": "hazir-kita",
      "not": "kova koordinator tarafindan yazildi",
      "z": "2026-08-15 00:30"
+    },
+    {
+     "not": "KIMLIK UZAYI = DOKUM. get_session bu kimligi bulmuyor ('not found'), yani BU KIMLIKLE MESAJ GONDERILEMEZ. Kayit kimligi henuz bilinmiyor; kayit SILINMEDI cunku gorev gecmisi degerli. (HAZIR KITA 4)",
+     "z": "2026-08-15 23:58"
     }
    ],
    "gorev": "BOSTA — hic gorev almadi",
    "hal": "",
    "hal_kaynak": "olculmedi — yoklugu EMEKLI diye okumak yanlisti",
    "kimlik": "local_d1249b27-9ada-464f-a582-006b3fca14c8",
+   "kimlik_uzayi": "dokum",
    "kova": "hazir-kita",
    "kova_kaynak": "koordinator atadi (sartnameden; OLCUM DEGIL)",
    "model": "opus",
@@ -2245,6 +2347,7 @@
    "hal": "",
    "hal_kaynak": "olculmedi — yoklugu EMEKLI diye okumak yanlisti",
    "kimlik": "local_d14b4b4f-8bf2-48a1-94d1-bb47ae1964fa",
+   "kimlik_uzayi": "kayit",
    "kova": "emekli",
    "kova_kaynak": "koordinator atadi (sartnameden; OLCUM DEGIL)",
    "model": "opus",
@@ -2280,6 +2383,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_d1a989dd-8f51-4a24-8f7e-a5ab27504bb7",
+   "kimlik_uzayi": "kayit",
    "kova": "emekli",
    "model": "sonnet",
    "olcum_zamani": "2026-08-15 00:39",
@@ -2304,6 +2408,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_d63695fb-b499-490e-a4e4-1956679a143b",
+   "kimlik_uzayi": "kayit",
    "kova": "emir-bekleyen",
    "model": "?",
    "olcum_zamani": "2026-08-15 00:39",
@@ -2325,12 +2430,17 @@
      "kova": "hazir-kita",
      "not": "kova koordinator tarafindan yazildi",
      "z": "2026-08-15 00:30"
+    },
+    {
+     "not": "KIMLIK UZAYI = DOKUM. get_session bu kimligi bulmuyor ('not found'), yani BU KIMLIKLE MESAJ GONDERILEMEZ. Kayit kimligi henuz bilinmiyor; kayit SILINMEDI cunku gorev gecmisi degerli. (HAZIR KITA 4)",
+     "z": "2026-08-15 23:58"
     }
    ],
    "gorev": "BOSTA — 33 saat gorevsiz",
    "hal": "",
    "hal_kaynak": "olculmedi — yoklugu EMEKLI diye okumak yanlisti",
    "kimlik": "local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4",
+   "kimlik_uzayi": "dokum",
    "kova": "hazir-kita",
    "kova_kaynak": "koordinator atadi (sartnameden; OLCUM DEGIL)",
    "model": "opus",
@@ -2347,6 +2457,7 @@
    "calisiyor": false,
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
    "kimlik": "local_ded0729e-7d63-47fb-8223-d9ea4520155e",
+   "kimlik_uzayi": "kayit",
    "not": "canlı ölçümde bulundu, defterde YOKTU",
    "olcum_zamani": "2026-08-15 00:39",
    "son_hareket": "2026-08-01T09:17:11.814Z",
@@ -2358,6 +2469,10 @@
    "ad": "YAPI DENETİM 3",
    "calisiyor": false,
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+   "dokum_kimlik": [
+    "local_3fc67368-5263-46af-b864-e44a9ecf0d2c"
+   ],
+   "dosyalar": "arac/denetle.py yeni dallar",
    "gecmis": [
     {
      "kova": "hazir-kita",
@@ -2365,22 +2480,40 @@
      "z": "2026-08-13 10:13"
     },
     {
+     "kova": "",
+     "not": "yanlis turetme (EMEKLI) geri alindi",
+     "z": "2026-08-15 00:30"
+    },
+    {
+     "kova": "gorevde",
+     "not": "kova koordinator tarafindan yazildi",
+     "z": "2026-08-15 00:30"
+    },
+    {
      "kova": "hazir-kita",
      "not": "AD DEĞİŞTİ: Opus hazır kıta 10 → YAPI DENETİM 3",
      "z": "2026-08-15 00:39"
+    },
+    {
+     "not": "MUKERRER BIRLESTIRILDI — dokum kimligi local_3fc67368-5263-46af-b864-e44a9ecf0d2c eritildi, kayit kimligi kaldi. get_session ile sinandi: dokum kimligi 'not found', yani mesaj gonderilemezdi. (HAZIR KITA 4)",
+     "z": "2026-08-15 23:58"
     }
    ],
    "gorev": "13 Agu canli olcumunde bulundu",
    "hal": "HAZIR",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_df5e5ae3-111c-4453-b907-21232d5790d5",
+   "kimlik_uzayi": "kayit",
    "kova": "hazir-kita",
+   "kova_kaynak": "koordinator atadi (sartnameden; OLCUM DEGIL)",
    "model": "opus",
    "olcum_zamani": "2026-08-15 00:39",
+   "sartname": "oturumlar/YAPI-DENETIM-3.md",
+   "son_gorulme": "2026-08-15 00:25",
    "son_hareket": "2026-08-14T13:05:29.110Z",
    "takma_adlar": [
     "Opus hazır kıta 10",
-    "YAPI DENETİM 3"
+    "YAPI DENETIM 3"
    ]
   },
   "local_e32412eb-9197-4f7a-aeea-56b0c2082094": {
@@ -2398,6 +2531,7 @@
    "hal": "HAZIR",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_e32412eb-9197-4f7a-aeea-56b0c2082094",
+   "kimlik_uzayi": "kayit",
    "kova": "hazir-kita",
    "model": "sonnet",
    "olcum_zamani": "2026-08-15 00:39",
@@ -2421,41 +2555,13 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_eed0d36f-80ea-495f-9af7-aa716d3d74a5",
+   "kimlik_uzayi": "kayit",
    "kova": "emir-bekleyen",
    "model": "?",
    "olcum_zamani": "2026-08-15 00:39",
    "son_hareket": "2026-08-07T14:28:04.098Z",
    "takma_adlar": [
     "ARAŞTIRMA KÜNYE 3"
-   ]
-  },
-  "local_f4d2e275-19d0-4b56-ad08-4240580687b5": {
-   "ad": "VERI FETRET",
-   "dosyalar": "data/yerlesimler*.js donem/bos:",
-   "gecmis": [
-    {
-     "kova": "",
-     "not": "yanlis turetme (EMEKLI) geri alindi",
-     "z": "2026-08-15 00:30"
-    },
-    {
-     "kova": "gorevde",
-     "not": "kova koordinator tarafindan yazildi",
-     "z": "2026-08-15 00:30"
-    }
-   ],
-   "gorev": "Fetret donemleri + Amerika 13 nokta (M-0017)",
-   "hal": "",
-   "hal_kaynak": "olculmedi — yoklugu EMEKLI diye okumak yanlisti",
-   "kimlik": "local_f4d2e275-19d0-4b56-ad08-4240580687b5",
-   "kova": "gorevde",
-   "kova_kaynak": "koordinator atadi (sartnameden; OLCUM DEGIL)",
-   "model": "opus",
-   "sartname": "oturumlar/VERI-FETRET.md",
-   "son_gorulme": "2026-08-15 00:25",
-   "takma_adlar": [
-    "OPUS HAZIR KITA 2",
-    "VERI FETRET"
    ]
   },
   "local_f56ed517-cad0-435b-8a06-fe0b0b164fee": {
@@ -2483,6 +2589,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_f56ed517-cad0-435b-8a06-fe0b0b164fee",
+   "kimlik_uzayi": "kayit",
    "kova": "emekli",
    "model": "opus",
    "olcum_zamani": "2026-08-15 00:39",
@@ -2507,6 +2614,7 @@
    "hal": "HAZIR",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_f5edf000-2e66-41f0-bbef-63eeffd63c8b",
+   "kimlik_uzayi": "kayit",
    "kova": "hazir-kita",
    "model": "opus",
    "olcum_zamani": "2026-08-15 00:39",
@@ -2530,6 +2638,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_f67ce038-8c4f-4dc6-ada0-e9e8e06f7483",
+   "kimlik_uzayi": "kayit",
    "kova": "emir-bekleyen",
    "model": "?",
    "olcum_zamani": "2026-08-15 00:39",
@@ -2553,6 +2662,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_f72d7a65-39bd-4554-a558-0d652c80308d",
+   "kimlik_uzayi": "kayit",
    "kova": "emir-bekleyen",
    "model": "?",
    "olcum_zamani": "2026-08-15 00:39",
@@ -2576,6 +2686,7 @@
    "hal": "EMEKLI",
    "hal_kaynak": "kovadan turetildi (olcum DEGIL)",
    "kimlik": "local_f7b059ff-461c-46be-8ded-8ed7c6a2443d",
+   "kimlik_uzayi": "kayit",
    "kova": "emir-bekleyen",
    "model": "?",
    "olcum_zamani": "2026-08-15 00:39",
