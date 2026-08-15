@@ -14,6 +14,17 @@ kuyruğa çevirir: hangi karede kaç nokta var, hangi karede HİÇ yok.
     py arac/bosluk_haritasi.py                 kara ızgarası · halka sırasıyla
     py arac/bosluk_haritasi.py --kare 5        ızgara adımı (derece)
     py arac/bosluk_haritasi.py --halka 1       yalnız o halka
+    py arac/bosluk_haritasi.py --gun 1281-01-01   🔴 O GÜN SAHNEDE OLANLAR
+
+🔴 `--gun` NİÇİN ŞART — Emre, 15 Ağustos 2026:
+    "Öncelikle **1281'deki tüm yerleşimleri** koyman lazım. Sonra 1923'e
+     doğru giderken **yeni ortaya çıkan** yerleri işaretlemen lazım. Sonra
+     1281'den sonra doğan yerleşimlere **yeni bölgeler atfetmen** lazım."
+
+⇒ İş ÜÇ AŞAMALI ve **tabanı 1281**. Günsüz sayım bütün tarihleri birden
+sayar ve 1281 boşluğunu OLDUĞUNDAN KÜÇÜK gösterir: 1600'de kurulmuş bir
+kasaba, 1281 karesini "dolu" göstermez ama günsüz sayımda gösterir.
+📌 Yani `--gun` olmadan bu alet **yanlış soruyu** soruyordu.
 
 ────────────────────────────────────────────────────────────────────────
 YÖNTEM
@@ -84,10 +95,34 @@ def main(argv):
         print("🔴 DEM YOK — py arac/yukseklik_indir.py --dunya")
         return 2
 
+    gun = None
+    if "--gun" in argv:
+        gun = argv[argv.index("--gun") + 1]
+
     Y = [y for y in girdi.yukle(sessiz=True) if y.get("lon") is not None]
+    hepsi = len(Y)
+    if gun:
+        # 🔴 O GÜN SAHNEDE OLAN nokta: bir sahibi VAR ya da kasıtlı boş.
+        # `kur:` sonrası olanlar DÜŞER — 1600'de kurulan kasaba 1281
+        # karesini doldurmaz.
+        def _sahnede(y):
+            if y.get("kur") and y["kur"] > gun:
+                return False
+            if y.get("bit") and y["bit"] <= gun:
+                return False
+            for a in ("d", "v", "s"):
+                for p in (y.get(a) or []):
+                    if (p.get("f") or "") <= gun < (p.get("t") or "9999"):
+                        return True
+            return bool(y.get("kasitli_bosluk"))
+        Y = [y for y in Y if _sahnede(y)]
     print("=" * 88)
-    print("BOŞLUK HARİTASI — nerede nokta eksik · kare %.0f°" % kare)
+    print("BOŞLUK HARİTASI — nerede nokta eksik · kare %.0f°%s"
+          % (kare, ("  ·  GÜN %s" % gun) if gun else ""))
     print("=" * 88)
+    if gun:
+        print("🔴 %s'te SAHNEDE olan nokta: %d / %d  (%d tanesi o gün YOK)"
+              % (gun, len(Y), hepsi, hepsi - len(Y)))
     print("DEM: %s · nokta: %d\n" % (os.path.basename(dem), len(Y)))
 
     # noktaları kareye dağıt

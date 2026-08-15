@@ -172,7 +172,15 @@ BEKLENEN_SAHIPSIZ = 202   # 180 +22, ve ARTISIN TAMAMI BELGELI (asagiya bak)
 #    sorulmayan bir soruyla, yazilmamis veriden ayirt edilemez.
 
 # ---- ASIL NOBETCI: sahipsiz VE BELGESIZ ----
-BEKLENEN_BELGESIZ = 29
+# 🔴 29 → 7 · 15 Ağustos 2026. On nokta BELGELENDİ (Necid sekizlisi +
+# Manama + Mukalla: `bos:"devletsiz"` + gerekçe), ve ölçüt genişletildi
+# ("dolgu noktası mı" yerine "gerekçesi yazılı mı").
+# KALAN YEDİ, ve hepsi ARAŞTIRMA borcu — kaydı hiç yok, dönemi hiç yok:
+#     Agadez · Darfur · Hadramut · Ndjamena · Ogaden · Somali çölü · Timbuktu
+# Timbuktu 11. yy'dan beri var, Agadez ~1449 Aïr Sultanlığı'nın merkezi.
+# ⚠️ Tavanı burada bırakmak GEVŞEK olurdu: aradaki 22 puanlık gerçek
+# regresyon görünmez olurdu (aletin kendi çift yönlü uyarısı).
+BEKLENEN_BELGESIZ = 7
 # 13 Agustos 2026 olcumu: 202 sahipsizin 173'u BELGELI, 29'u BELGESIZ.
 #   belgeli dagilim: devletsiz 121 · kabile 30 · insansiz 9 · veri-yok 8 · hata 5
 # 🔴 29 GURULTU DEGIL — UC TEMIZ KUME, ve ikisinin sahibi ZATEN VAR:
@@ -2012,8 +2020,22 @@ def main():
     # Bu satır "kaçı BELGESİZ" diye sorar — yeni açılan bir delik, tanımı
     # gereği `kasitli_bosluk` taşımaz, yani BURADA görünür.
     _ix = {y["ad"]: y for y in Y}
-    belgesiz = sorted(ad for ad in sahipsiz
-                      if _ix.get(ad, {}).get("kasitli_bosluk") is not True)
+    # 🔴 ÖLÇÜT GENİŞLETİLDİ — 15 Ağustos 2026, ve sebebi ölçüldü.
+    # İlk hâli yalnız `kasitli_bosluk` bayrağına bakıyordu; yani "belgeli"
+    # ile "DOLGU NOKTASI" aynı şey sayılıyordu. İkisi ayrı:
+    #     dolgu noktası = boşluğu TEMSİL etmek için konmuş nokta
+    #     gerçek şehir  = var olan yer, o dönemde devletsiz
+    # Riyad · Dir'iye · Buraydâ · Hâil… gerçek şehirler ve 1744 öncesinde
+    # devletsizdiler — `CLAUDE.md §3` bunu BELGELEMİŞ ("1744 öncesi Necid").
+    # Onlara `kasitli_bosluk` yazmak YANLIŞ olurdu: motorda (uret_petek.py
+    # :1012) DELİK DOLDURMA MUAFİYETİ veriyor ve 1744 SONRASI meşru bir
+    # doldurmayı da engellerdi.
+    # ⇒ Soru "dolgu noktası mı" değil, **"gerekçesi YAZILI mı"** olmalı.
+    def _belgeli(y):
+        return (y.get("kasitli_bosluk") is True
+                or bool((y.get("neden") or "").strip())
+                or bool(y.get("bos")))
+    belgesiz = sorted(ad for ad in sahipsiz if not _belgeli(_ix.get(ad, {})))
     nbz = len(belgesiz)
     durum1c = "✓" if nbz <= BEKLENEN_BELGESIZ else "✗"
     if nbz > BEKLENEN_BELGESIZ:
