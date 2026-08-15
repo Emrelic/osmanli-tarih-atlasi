@@ -1932,7 +1932,12 @@
   },
   "yanit_no": "",
   "cins": "RAPOR",
-  "teyit": {},
+  "teyit": {
+   "KOORDINATOR": {
+    "zaman": "2026-08-15 23:47",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "commit 08a6f86 · oturumlar/KRONOLOJI-YER-ILERLEME.md",
   "aciliyet": "NORMAL"
