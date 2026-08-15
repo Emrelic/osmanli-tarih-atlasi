@@ -4336,10 +4336,18 @@
   "okuyan": {},
   "yanit_no": "M-0176",
   "cins": "EMIR",
-  "teyit": {},
+  "teyit": {
+   "Opus hazır kıta 6": {
+    "zaman": "2026-08-16 02:37",
+    "soz": "kabul — sirayi tersine cevirmen dogru, kur: bir hayaleti korumaz; VERI ZAMAN bitene kadar DOGU kutusunda calisiyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "M-0175 kunye · M-0176 sira bagimliligi",
-  "aciliyet": "ACIL"
+  "aciliyet": "ACIL",
+  "teyit_kimlik": {
+   "Opus hazır kıta 6": "local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4"
+  }
  },
  {
   "no": "M-0181",
