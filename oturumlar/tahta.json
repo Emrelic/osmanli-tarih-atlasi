@@ -1455,6 +1455,10 @@
    "KORIDOR SEMA": {
     "zaman": "2026-08-14 17:08",
     "soz": "okudum, gereğini yapıyorum"
+   },
+   "OPUS HAZIR KITA 8": {
+    "zaman": "2026-08-15 23:11",
+    "soz": "okudum, gereğini yapıyorum"
    }
   },
   "kapanis": "",
@@ -1462,7 +1466,8 @@
   "aciliyet": "ACIL",
   "teyit_kimlik": {
    "Opus hazır kıta 6": "local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4",
-   "KORIDOR SEMA": "local_454b8342-eab4-4222-8e29-acea08aade74"
+   "KORIDOR SEMA": "local_454b8342-eab4-4222-8e29-acea08aade74",
+   "OPUS HAZIR KITA 8": "local_4e0f5048-9210-47cc-8863-ecf8213b8427"
   }
  },
  {
