@@ -163,5 +163,36 @@ Kendi pencerene yazmak = hiç cevap vermemek. Yatay mesajlaşma serbest
 ```
 Teslim **mesajla** ve **sayıyla**.
 
+## ⑨ KISALTMALAR — Emre yıldızla yazar, sen AÇILIMINI UYGULARSIN
+
+Emre bir kelimeyi yıldızla yazarsa o bir **KISALTMADIR**, selam değil.
+Tam sözlük: `C:/Users/emrem/OneDrive/Desktop/ClaudEmre/KISALTMALAR.md`
+
+```
+*mgy   YUKARIDAKİ MESAJIN GEREĞİNİ YAP
+       Sana başka bir yerden (koordinatör · tahta · başka oturum) mesaj
+       düşmüştür; Emre onu okumanı ve GEREĞİNİ YAPMANI istiyor.
+       ⚠️ Cevap yazmak YETMEZ — İŞİ YAP.
+*yyy   yapılacaklar · yapılanlar · yapılmakta olanlar — SAYIYLA
+*iii   internet · iş · irtibat — üçünü de ÖLÇEREK raporla
+```
+
+🔴 **VE `*mgy` BİR ARIZANIN İŞARETİDİR.** Bir oturum ancak KENDİSİNE bir
+tur gelince uyanır; tahtaya düşen mesaj bir tur DEĞİLDİR. Emre seni
+dürtmek zorunda kalıyorsa kanal yarım çalışıyor demektir — ve o zaman
+**taşıma katmanı Emre'nin kendisi olur.**
+
+🟢 **ÇARE — AÇILIŞTA NÖBETÇİNİ KUR**, arka planda:
+```bash
+py arac/tahta_bekci.py --kim "<TAM ADIN>"
+```
+Tahtaya sana ya da `HERKES`e mesaj düştüğünde bir satır basar; **o satır
+bir TUR olur ve oturumun UYANIR.** Böylece Emre dürtmek zorunda kalmaz.
+
+⚠️ `--kim` alanına **TAM adını** yaz. Tahta TAM EŞİTLİK arıyor: "HAZIR
+KITA 6" diye yazılan mesaj, tam anahtarı "OPUS HAZIR KITA 6" olan
+oturuma ULAŞMAZ — ve yazan taraf *"yazıldı"* cevabı alır. Nöbetçi bunu
+`[ADRES-TUZAGI]` diye ayrıca bağırır.
+
 ## ClaudEmre
 EVET — `/claudemre-basla` çağırma; bu dosya açılış prompt'un.
