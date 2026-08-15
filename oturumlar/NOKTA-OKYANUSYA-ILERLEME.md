@@ -1,0 +1,68 @@
+<!-- DURUM: CALISIYORUM | 2026-08-16 | 4 nokta yazildi (2 kur:'lu sehir + 2 kabile dolgu), devam ediyor -->
+
+# NOKTA OKYANUSYA — İLERLEME
+
+**Kimlik:** `local_9d907ce9-25a6-4bfd-96f5-e944cafb32cf` · **Görev:** M-0128/M-0140, kesin tebliğ M-0161/M-0162.
+**Dosyam:** `data/yerlesimler_ek30.js` (bu oturumun ürettiği tek dosya, henüz `girdi.py`ye bağlı değil).
+
+## İş 0 — ölçüm (koordinatörün M-0109/M-0111'deki sayılarını kendim doğruladım, B10)
+
+`girdi.yukle()` ile 2527 noktalık tüm veri tarandı, bölge kutularıyla süzüldü:
+```
+Avustralya ANAKARASI    0 gerçek nokta   (M-0111'in "Avustralya 2" sayısı YANLIŞTI —
+                          o 2 nokta Kupang/Rote, coğrafi olarak ENDONEZYA/Timor)
+Yeni Zelanda             0 nokta
+Yeni Gine                9 nokta — 2 gerçek sahipli (Jayapura, Manokwari, Hollanda dönemi)
+                          + 7 kasıtlı_boşluk (Port Moresby, Madang, Finschhafen — devletsiz;
+                          4 iç bölge dolgusu — kabile). HEPSİNİN cinsi ZATEN yazılı.
+Polinezya/Hawaii/Fiji/Tonga   0 nokta (hiç veri yok)
+```
+Bu ölçüm önceki oturumun (eski adıyla OPUS HAZIR KITA 8, M-0109) bulgularıyla birebir örtüşüyor.
+
+## İş 1 — 1281 kesiti + kolonyal serpme: İLK PARTİ (4 nokta)
+
+```
+Sydney     kur:1788-01-26   s: ingiltere(1788-1901) → avustralya(1901-1923)
+Auckland   kur:1840-09-18   s: yeni-zelanda(1840-1923)
+Avustralya İç Kesimi (Arrernte bölgesi)      kasitli_bosluk:true bos:"kabile"
+Aotearoa Māori Yerleşimi (Kuzey Adası içi)   kur:1300-01-01 kasitli_bosluk:true bos:"kabile"
+```
+
+**Kaynaklar (şartname §5, kurumsal akademik — TDV Okyanusya'yı kapsamıyor):**
+- Sydney: Australian Dictionary of Biography, "Arthur Phillip: 1788. The Foundation Year" (adb.anu.edu.au/essay/21); State Library of NSW First Fleet kayıtları.
+- Auckland: Te Ara Encyclopedia of New Zealand, "The founding of Auckland: 1840–1869" (teara.govt.nz/en/auckland-region/page-7).
+- Aotearoa/Māori: Te Ara, "Māori arrival and settlement" + "When was New Zealand first settled?" (permanent settlement ~1300 CE, radyokarbon + soy ağacı yöntemleriyle çapraz doğrulanmış).
+- Aborijin Avustralya: AIATSIS, "Map of Indigenous Australia" + "Our Societies" (aiatsis.gov.au) — merkezî devlet değil, klan/soy temelli örgütlenme.
+
+**Doğrulama (yazdıktan sonra geri okuma, `girdi.oku_dosya()` ile):**
+```
+4/4 kayıt sorunsuz ayrıştı
+3 km kuralı: 4/4 TEMİZ — en yakın komşu 1843-4350 km arası (Rote/Port Moresby)
+BİLİNMEYEN ALAN: yalnız `kaynak` (Sydney/Auckland'da) — şartnamenin ZORUNLU dediği
+  alan, ama girdi.py'nin BILINEN_ALANLAR'ında henüz KAYITLI DEĞİL. Hata değil UYARI
+  (loader'ın kendi davranışı). Kaydı KOORDİNATÖRE bırakıyorum (`arac/` bana yasak).
+```
+
+## 🔴 BİLİNÇLİ OLARAK ATLADIĞIM ÜÇ KALEM — künye/karar gerektiriyor
+
+```
+Tuʻi Tonga İmparatorluğu   1200-1845 arası Tonga/Fiji/Samoa/Niue üzerinde tribute
+                           alan gerçek bir "imparatorluk" (akademik terim) —
+                           bos:"kabile" YAZMAK YANLIŞ OLURDU, kaynak onu devlet
+                           gibi tarif ediyor. `devletler.js`de KÜNYE YOK
+                           (yalnız 1845 sonrası "tonga-kralligi" var). Künye açılsın mı?
+Hawaii öncesi hanedanlar   1795 öncesi (Kamehameha birleşmesi öncesi) ayrı ada
+                           krallıkları vardı — devletler.js'te yalnız 1795 sonrası
+                           "hawaii-kralligi" var. Aynı künye sorunu.
+Suva / Fiji                kur:1849 (şartnamede verilmiş) ama `devletler.js`de
+                           "fiji" künyesi YOK. Künye gerekmeden yazamam.
+```
+Şartname §5: "künye gerekiyorsa KOORDİNATÖRE SÖYLE." Söylüyorum — üçü de bekliyor.
+
+## Bitiş ölçütü — sayıyla (şartname §7 formatı)
+**"4 nokta yazıldı, 4'ünde kaynak/kur var, 0 `bulunamadı`; 2 boşluk kaydı (2 kabile).
+Üç kalem (Tuʻi Tonga · Hawaii öncesi · Fiji) künye eksikliğinden BEKLEMEDE.
+`py arac/denetle.py` henüz koşmadım — dosya `girdi.py`ye bağlı olmadığı için
+Değişmez 1/5'i etkilemiyor, ama commit'ten önce koşturacağım."**
+
+Devam ediyorum: Yap-Palau taş parası ağı ve Rapa Nui için kaynak taraması sürüyor.
