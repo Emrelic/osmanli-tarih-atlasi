@@ -233,9 +233,43 @@ window.YERLESIMLER_EK29 = [
 //   📌 Ve bu bir kolaycılık değil: menzil durağı, bağlı olduğu kazanın
 //   kaderini paylaşır — ayrı bir siyasî birim değildir.
 //
-// ⚠️ ÜSKÜDAR YAZILMADI — koordinatörün kararı bekleniyor (M-0084).
-//   İstanbul noktasına 3,4 km; 3 km eşiğinin dışında ama Boğaz'ın öteki
-//   yakasında. Üç şık soruldu. Karar gelince eklenecek.
+// 🟢 ÜSKÜDAR — EMRE'NİN DOĞRUDAN TALİMATIYLA YAZILDI (15 Ağustos: "üsküdarı
+//   da yaz"). Koordinatöre M-0084'te üç şık sormuştum, cevap gelmeden Emre
+//   kararı verdi. Önerim de (A) yaz yönündeydi.
+//
+// 🟢 VE TDV ÖNERİYİ DOĞRULADI — üç noktada birden:
+//   `uskudar` (HTTP 200, gövdesi okundu):
+//   ① fetih  "Orhan Gazi'nin 1329'da Gebze sahilinde Pelekanon Savaşı'nda
+//      ... Hereke, Pendik, Kartal ile birlikte Üsküdar'ın da Osmanlılar'ın
+//      kontrolü altına girdiği tahmin edilir."
+//      ⇒ 1329-06-01 — ve bu gün veride ZATEN VAR (Gebze kaydı). Değişmez 2
+//        açılmıyor, gün uydurulmadı.
+//      ⚠️ TDV "tahmin edilir" diyor; kesin gün YOK. Bölgesel gün kullanıldı.
+//   ② menzil  "İstanbul'dan Anadolu'ya açılan yolların başlangıç ve aynı
+//      şekilde Anadolu'dan İstanbul'a ulaşımın son noktası durumundaydı."
+//      ⇒ Menzil ağının Anadolu kolu BURADAN başlar. Şartnamenin bu noktayı
+//        istemesinin gerekçesi TDV'de birebir yazılı.
+//   ③ idarî  "Koca-ili (İzmit) sancağına bağlı Gebze kazası içinde yer aldı
+//      ve bir kadılık merkezi haline getirildi" — sonra mutasarrıflık,
+//      sancak, nihayet kaza. ⇒ k:3.
+//
+// 📌 Ve ③ yöntemi de belirledi: çizgi GEBZE ile birebir aynı, çünkü Üsküdar
+//   idarî olarak Gebze kazasının İÇİNDEYDİ. Kardeş seçimi bir kolaylık
+//   değil, TDV'nin söylediği idarî gerçek.
+//
+// ⚠️ 3 KM NOTU: İstanbul noktasına 3,40 km — eşiğin ÜSTÜNDE, ihlal yok.
+//   İkisi Boğaz'ın iki yakasında; İstanbul noktası (41,0080/28,9800) Avrupa
+//   yakasında. Üsküdar yazılmasaydı Anadolu kolunun başlangıç düğümü
+//   Avrupa yakasında görünecekti.
+// kaynak: TDV `uskudar` (HTTP 200, gövdesi okundu)
+
+{ ad:"Üsküdar", tur:"sehir", lat:41.0227, lon:29.0153, g:0, k:3,
+  s:[{f:"1281-01-01",t:"1329-06-01",d:"bizans"},
+     {f:"1402-07-28",t:"1403-09-01",d:"isa-celebi"},
+     {f:"1403-09-01",t:"1404-03-01",d:"mehmed-celebi"},
+     {f:"1404-03-01",t:"1411-02-17",d:"suleyman-celebi"},
+     {f:"1411-02-17",t:"1413-07-05",d:"mehmed-celebi"}],
+  d:[{f:"1329-06-01",t:"1402-07-28"},{f:"1413-07-05",t:"1923-10-29"}], v:[] },
 
 // ───────── ANADOLU KOLU ─────────
 

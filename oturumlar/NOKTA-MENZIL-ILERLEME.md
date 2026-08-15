@@ -1,4 +1,4 @@
-<!-- DURUM: BITTI | 2026-08-15 | 26/27 — ek29 yazildi, kendi denetimim TEMIZ (bosluk 0 · renksiz kimlik 0 · 3km ihlal 0). Kalan 1: Uskudar, koordinator kararina bagli. BAGLAMA bekleniyor. -->
+<!-- DURUM: BITTI | 2026-08-15 | 27/27 TAMAM · ek29 BAGLANDI (2527 nokta) · denetle.py SONUC: temiz, EXIT 0 · Degismez 1 ARTMADI (196, beklenen 202) · Degismez 2: 0 acik -->
 # NOKTA MENZİL — ilerleme
 
 **Oturum:** `local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4`
@@ -93,12 +93,37 @@ sahiplik dönemi yeter.
 
 ---
 
-## ② TESLİM — 26/27, kalan 1'i koordinatör kararına bağlı
+## ② TESLİM — 27/27 TAMAM ✅
 ```
 Macaristan merkezleri   10/10  ✅
-menzil durakları        16/17     (Üsküdar karar bekliyor)
-TOPLAM                  26/27
+menzil durakları        17/17  ✅
+TOPLAM                  27/27
 ```
+
+### 🟢 KABUL ÖLÇÜTÜ — şartname ⑧, projenin kendi denetimiyle
+```
+py arac/denetle.py        SONUÇ: temiz · EXIT 0
+Değişmez 1                2527 yerleşim · 196 sahipsiz (beklenen 202) — ARTMADI
+Değişmez 1b               pencere arası boşluk: 0
+Değişmez 2                506 kırılma · 0 AÇIK        ← 27 noktanın hiçbiri açmadı
+mükerrer madde            0 şüpheli çift
+konum / kara maskesi      0 nokta dışarıda
+ek29 girdi.py'ye BAĞLI    ✓ 44 girdi dosyası
+```
+📌 **Değişmez 2'nin 0 kalması yöntemin sınavıydı:** 27 noktanın hiçbirinde
+gün uydurmadım, hepsi çekirdeğin zaten kullandığı günlere yaslandı. Tek bir
+uydurma gün olsaydı bu satır açılırdı.
+
+### ÜSKÜDAR — Emre'nin doğrudan talimatıyla, ve TDV üçünü de doğruladı
+```
+① fetih   "1329'da ... Pelekanon Savaşı'nda ... Üsküdar'ın da Osmanlılar'ın
+           kontrolü altına girdiği tahmin edilir"  ⇒ 1329-06-01, Gebze'de VAR
+② menzil  "İstanbul'dan Anadolu'ya açılan yolların başlangıç ... noktası"
+           ⇒ şartnamenin bu noktayı istemesinin gerekçesi TDV'de yazılı
+③ idarî   "Koca-ili (İzmit) sancağına bağlı Gebze kazası içinde ... kadılık
+           merkezi"  ⇒ k:3, ve kardeş seçimi Gebze — kolaylık değil, idarî gerçek
+```
+İstanbul'a **3,39 km** — 3 km eşiğinin üstünde, ihlal yok.
 
 ### Kendi denetimim — bağlanmadan ÖNCE, üç soru
 ```
