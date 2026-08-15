@@ -47,4 +47,13 @@ window.YERLESIMLER_EK30 = [
   kur:"1200-01-01", d:[], kasitli_bosluk:true, bos:"kabile",
   neden:"Akademik radyokarbon kronolojisi (Journal of Pacific Archaeology, 'Refining the Chronology of Rapa Nui Settlement'; PLOS ONE, 'Rapa Nui monument (ahu) locations') — Polinezyalı yerleşim ~1200 CE'de başladı, ada 11 kabile/soy grubuna (mata) bölünmüş rekabetçi bir toplumdu; merkezî tek bir devlet 1722 Avrupa temasına kadar hiç kurulmadı." },
 
+// ── SİYASÎ GÖVDE — künyesi YOK, KOORDİNATÖRE bildirildi (M-0180 usulü) ──
+// `s:` içindeki `d:"tui-tonga-imparatorlugu"` KENDİ SEÇTİĞİM slug'dır.
+// devletler.js'te KÜNYE YOK — koordinatör açacak, renk ayrı oturumdan gelecek.
+// Dosya girdi.py'ye bağlı olmadığı için künyesiz kimlik bugün motoru bozmuyor.
+{ ad:"Lapaha (Muʻa)", tur:"sehir", lat:-21.1792, lon:-175.1167, g:1, k:1,
+  kur:"1220-01-01",
+  kaynak:"UNESCO World Heritage Centre, 'The Ancient Capitals of the Kingdom of Tonga' (whc.unesco.org/en/tentativelists/5167) — Muʻa/Lapaha, Tuʻi Tonga hanedanının üçüncü ve kalıcı başkenti oldu (1220-1851 dolaylarında bölgenin coğrafi merkezi); 22 kraliyet mezarı (langi) bu döneme tarihleniyor. Hanedan çizgisi geleneksel olarak ~950 CE'ye dayanır, imparatorluk gücünün zirvesi 1200-1500 arasıdır (UNESCO; Ancient Capitals dosyası).",
+  s:[{f:"1220-01-01",t:"1845-12-04",d:"tui-tonga-imparatorlugu"}] },
+
 ];
