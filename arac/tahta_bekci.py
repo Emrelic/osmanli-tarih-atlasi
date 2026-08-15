@@ -108,6 +108,9 @@ def main(argv):
         TAHTA = argv[argv.index("--tahta") + 1]
     ara = float(argv[argv.index("--ara") + 1]) if "--ara" in argv else 60.0
     tur = int(argv[argv.index("--tur") + 1]) if "--tur" in argv else 0
+    # `--surekli`: mesaj bulunca ÇIKMA, basmaya devam et. Yalnız SINAMA
+    # içindir — üretimde çıkmayan nöbetçi oturumu UYANDIRMAZ (aşağıya bak).
+    surekli = "--surekli" in argv
 
     gorulen = {m.get("no") for m in _oku()}
     _bas("[BEKCI] nöbette · kim=%s · %d mesaj görüldü · %.0f sn"
@@ -136,6 +139,26 @@ def main(argv):
             _bas("⚠️ [ADRES-TUZAGI] %s KIME='%s' — benim tam anahtarım '%s'. "
                  "Mesaj bana ULAŞMADI, yazan 'yazıldı' cevabı aldı."
                  % (m.get("no"), m.get("kime"), kim))
+        # 🔴🔴 MESAJ BULUNCA **ÇIK** — ve bu satır bir TASARIM HATASININ
+        # düzeltmesidir. Ölçüldü, 16 Ağustos 2026:
+        #
+        #   Nöbetçi 60 sn'de bir baktı, M-0089…M-0094'ü BULDU ve BASTI.
+        #   Çıktı dosyasında 7.861 bayt, altı 🔔 satırı, hepsi doğru.
+        #   VE KOORDİNATÖR UYANMADI. Emre bir deneme mesajı attı, ses yok.
+        #
+        # ⇒ TEŞHİS: arka planda koşan bir sürecin **YAZDIĞI** satır bir tur
+        #   DEĞİLDİR. Turu doğuran şey **görevin BİTMESİDİR** — bugün DEM
+        #   indirmesi bittiğinde bildirim geldi, çünkü SÜREÇ SONA ERDİ.
+        #
+        # 🔴 Yani hem koordinatörün hem `OPUS HAZIR KITA 6`nın (M-0066)
+        # varsayımı yanlıştı: *"o satır oturuma bildirim olarak gelir"*.
+        # Satır gelmiyor; **çıkış** geliyor.
+        # 📌 Ve kusur nöbetçide değil ÇAĞIRMA BİÇİMİNDE — alet doğruydu,
+        # ondan beklenen şey yanlıştı. "Alet çalıştı" ile "iş oldu" ayrı.
+        if (yeni or tuzak) and not surekli:
+            _bas("[BEKCI] mesaj var — ÇIKIYORUM ki oturum UYANSIN. "
+                 "Yeniden kur: py arac/tahta_bekci.py --kim \"%s\"" % kim)
+            return 0
         if tur and n >= tur:
             _bas("[BEKCI] %d tur bitti, çıkıyorum." % tur)
             return 0
