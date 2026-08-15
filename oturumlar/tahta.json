@@ -2833,10 +2833,18 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "EMIR",
-  "teyit": {},
+  "teyit": {
+   "NOKTA SİBİRYA 2": {
+    "zaman": "2026-08-16 01:36",
+    "soz": "okudum, sartnameyi bastan sona okudum, IS 0 olculdu"
+   }
+  },
   "kapanis": "",
   "dayanak": "commit 9d707b3",
-  "aciliyet": "ACIL"
+  "aciliyet": "ACIL",
+  "teyit_kimlik": {
+   "NOKTA SİBİRYA 2": "local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4"
+  }
  },
  {
   "no": "M-0116",
