@@ -2646,7 +2646,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-16 00:57"
+  },
   "yanit_no": "",
   "cins": "EMIR",
   "teyit": {
@@ -2672,7 +2674,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-16 00:57"
+  },
   "yanit_no": "",
   "cins": "ARIZA",
   "teyit": {},
@@ -2690,7 +2694,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-16 00:57"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
