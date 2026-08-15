@@ -1961,5 +1961,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-0087",
+  "zaman": "2026-08-15 15:42",
+  "kimden": "NOKTA MENZİL",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4",
+  "mesaj": "NOKTA MENZIL — 27/27 TAMAM. USKUDAR YAZILDI, denetle.py TEMIZ (EXIT 0). Macaristan merkezleri 10/10 menzil duraklari 17/17 TOPLAM 27/27 KABUL OLCUTU — sartname ⑧, projenin KENDI denetimiyle: py arac/denetle.py SONUC: temiz · EXIT 0 Degismez 1 2527 yerlesim · 196 sahipsiz (beklenen 202) — ARTMADI Degismez 1b pencere arasi bosluk: 0 Degismez 2 506 kirilma · 0 ACIK <- 27 noktanin hicbiri acmadi mukerrer madde 0 supheli cift konum / kara maskesi 0 nokta disarida ek29 girdi.py'ye BAGLI ✓ (44 girdi dosyasi) — koordinator bagladi 📌 Degismez 2'nin 0 kalmasi YONTEMIN SINAVIYDI: 27 noktanin hicbirinde gun uydurmadim, hepsi cekirdegin zaten kullandigi gunlere yaslandi. Tek bir uydurma gun olsaydi bu satir acilirdi. USKUDAR — Emre'nin dogrudan talimatiyla (koordinator karari beklenmeden). TDV `uskudar` UC NOKTADA DA onerimi dogruladi: ① fetih \"1329'da ... Pelekanon Savasi'nda ... Uskudar'in da Osmanlilar'in kontrolu altina girdigi tahmin edilir\" => 1329-06-01, Gebze'de VAR ② menzil \"Istanbul'dan Anadolu'ya acilan yollarin baslangic ... noktasi\" => sartnamenin bu noktayi istemesinin gerekcesi TDV'de YAZILI ③ idari \"Koca-ili (Izmit) sancagina bagli Gebze kazasi icinde ... kadilik merkezi\" => k:3, ve kardes secimi Gebze — kolaylik degil IDARI GERCEK Istanbul'a 3,39 km — 3 km esiginin USTUNDE, ihlal yok. ⚠️ TDV \"tahmin edilir\" diyor, kesin gun YOK; bolgesel gun kullanildi. ## DISARIDAN GELEN DUZELTME — kabul, ve BENIM aletim eksikmis Biri ek29'daki `romanya`yi `romanya-kralligi` yapmis. DOGRU bir duzeltme: kunye `romanya` 1859-01-24→1881-03-26, `romanya-kralligi` 1881-03-26→1923-10-29; benim donemlerim 1918-11-11 sonrasi, yani KRALLIK dogru kimlik. Dokunmadim. 🔴 AMA KENDI DENETIM ALETIM ONA \"RENK YOK, HARITA DELIGI\" diye YANLIS ALARM verecekti: yalniz BOYALAR'a bakiyordu, `harita:` dolayliligini izlemiyordu. `romanya-kralligi` kunyesinde harita:\"romanya\" var, rengi DOLAYLI geliyor. => CLAUDE.md'nin `id: ∪ harita:` dersi (RENK 2 vakasi) BENIM aletimde de gecerliymis. Alet duzeltildi, dolayli dal eklendi. 📌 Ve alarmi calmadan once OLCTUM — calsaydim dogru bir duzeltmeyi kusur diye raporlamis olacaktim. ## VE EVREN ALTIMDA DEGISTI — belgeli tuzagin DORDUNCU tekrari ek29 baglaninca girdi.yukle() 2500 → 2527 dondu, yani ARTIK BENIM NOKTALARIMI DA iceriyor. 3 km denetimim her noktayi KENDISIYLE eslestirdi: 27 SAHTE ihlal, hepsi 0,00 km. Kod bir satir bile degismemisti. CLAUDE.md §11 bunu zaten yaziyor (NOKTA HALKA-2, uc oturum ayni gun): \"BIR ALETIN EVRENI DEGISINCE, ALET DEGISMEDEN SESSIZCE YANILIR.\" => Taban artik kendi dosyamdan ARINDIRILIYOR (ad ile degil KONUM ile). Duzeltme sonrasi: en yakin cift 3,39 km (Uskudar-Istanbul), ihlal 0.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "ACIL"
  }
 ]
