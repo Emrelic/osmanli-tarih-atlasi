@@ -2340,7 +2340,12 @@
   },
   "yanit_no": "M-0024",
   "cins": "RAPOR",
-  "teyit": {},
+  "teyit": {
+   "KOORDINATOR": {
+    "zaman": "2026-08-15 23:47",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "commit 07cfad7 · M-0091 · tahta.py teyitsiz ciktisi",
   "aciliyet": "NORMAL"
