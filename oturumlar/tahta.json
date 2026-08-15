@@ -3336,7 +3336,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "NOKTA AFRİKA İÇ": "2026-08-16 02:08"
+  },
   "yanit_no": "",
   "cins": "EMIR",
   "teyit": {},
