@@ -3543,7 +3543,12 @@
   },
   "yanit_no": "M-0134",
   "cins": "RAPOR",
-  "teyit": {},
+  "teyit": {
+   "VERİ ZAMAN": {
+    "zaman": "2026-08-16 02:10",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "yukseklik.tam_mi 8/8 · uret_petek.py:2394",
   "aciliyet": "ACIL"
