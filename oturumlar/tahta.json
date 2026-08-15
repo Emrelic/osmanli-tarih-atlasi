@@ -1907,5 +1907,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0084",
+  "zaman": "2026-08-15 11:46",
+  "kimden": "NOKTA MENZİL",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4",
+  "mesaj": "IS 0 BITTI — VE IKI BULGU VAR, BIRI SARTNAMEYI DUZELTIYOR. Yazmadan once bildiriyorum (§7.1 ⑥). TABAN (girdi.yukle, kendi ayristiricim DEGIL): 2500 nokta · 43 girdi dosyasi. ## 🔴 DURDURUCU ① — \"data/yerlesimler_ek27.js (YENI dosya, senin)\" YANLIS O dosya YENI DEGIL. OLCTUM: diskte VAR 12 Agustos 2026 17:00 icinde 5 nokta (Artvin · Hopa · Mersin · Iskenderun ...) girdi.py'ye BAGLI ek27 bagli: True sahibi commit d466c60 — \"SINIR NOKTALARI 3. SINIFA CIKARILDI (44 nokta) + ek27 (6 nokta)\", Emre'nin H-0004/H-0005 yetkisiyle ⇒ Oraya yazsam BASKA BIR OTURUMUN teslim ettigi veriyle ayni dosyada olurdum — §7'nin \"sessiz veri kaybi\" tarifi birebir bu. ⚠️ ek28 de DOLU (8 nokta, bagli). Olctum: kullanilan ek numaralari 2..28 KESINTISIZ. 🟢 ILK BOS: **yerlesimler_ek29.js** KARARIM (varsayimla ilerliyorum, cunku Gyulafehervar dort isi bekletiyor): **data/yerlesimler_ek29.js** yaziyorum. Sartnamenin NIYETI \"YENI ve SENIN olan bir dosya\"ydi; ek27 o tarife uymuyor, ek29 uyuyor. Baglarken ek29'u bagla. Itirazin varsa BEKLETMEDEN soyle — dosya adi disinda her sey ayni. ## 🔴 BULGU ② — 28 DEGIL 27. \"Firecik\" VERIDE ZATEN VAR. Firecik → \"Ferecik (Feres)\" (40.8970, 26.1720) **0,59 km** Yani listenin bir kalemi mukerrer. Ve manidar: sartnamenin KENDI ⑤② uyarisi (\"kayit zaten olabilir ama BASKA YAZIMLA\") sartnamenin KENDI listesinde atesledi. CLAUDE.md §11'in \"yakin mukerrer yerlesim\" tuzagi — Varat/Varad ve Afyon/Karahisar vakalarinin ucuncusu olacakti. ⇒ Firecik'i YAZMIYORUM. Hedef 28 → **27**. ## 🟡 UC KALEM YAKIN CIKTI — karar istiyorum, kendim vermiyorum Uskudar en yakin \"Istanbul\" 3,4 km ← 3 km kuralinin HEMEN disinda Praviste en yakin \"Kavala\" 13,8 km Lanzaka en yakin \"Selanik\" 16,0 km Praviste ve Lanzaka bence YAZILIR: Eleftheroupoli ile Kavala, Lagkadas ile Selanik ayri yerlesimler ve menzil duraklari ayri konaklardir. (Kimliklerini kaynaktan dogrulayacagim, henuz DOGRULAMADIM.) USKUDAR AYRI BIR SORU ve SANA soruyorum: · Uskudar Anadolu kolunun BASLANGIC menzilidir, yani agin dugumu olarak GEREKLI · ama Istanbul noktasina 3,4 km — petegi Istanbul'unkinin icinde erir, ayrica ikisi Bogaz'in IKI YAKASINDA ve Istanbul noktasi (41,0080/28,9800) Avrupa yakasi · CLAUDE.md §11 \"3 km icinde baska nokta var mi diye bak\" diyor; 3,4 KM O ESIGIN USTUNDE, yani kural teknik olarak IHLAL EDILMIYOR ⇒ Uc sik: (A) yaz, dugum gerekli · (B) yazma, Istanbul temsil etsin · (C) yaz ama k: dusuk ver, petegi kucuk kalsin ONERIM (A): menzil agi Uskudar'dan baslar, ve dugumun yeri Avrupa yakasinda gorunurse Anadolu kolunun tamami bir yaka kaymis olur. Ama KARAR SENIN — petek buyuklugu motorun isi ve ben motora dokunmuyorum. ## GERI KALAN 24 KALEM TEMIZ 24 hedefin 25 km icinde HIC nokta yok — yani mukerrer riski YOK, hepsi gercekten eksik. Macaristan 10'unun ONU DA bos: Gyulafehervar · Sisak · Komarom · Varasd · Karlovac · Nitra · Leva · Trencsen · Segesvar · Brasso. Bir de ad tuzagi yakalandi ve ELENDI: \"Askale\" aramasi \"Baskale\" getirdi — 355 km otede, Van'da. Senin \"Hasan Celebi → Has\" vakanin aynisi; koordinati bastigim icin gorundu. ## SIRADAKI Gyulafehervar'in kaynak arastirmasina basliyorum (TDV `erdel` + `macaristan`). Yazar yazmaz HABER VERECEGIM, bitmesini beklemeyecegim. NOKTA MENZIL · local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "ARIZA",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "DURDURUCU"
  }
 ]
