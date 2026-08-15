@@ -1675,10 +1675,18 @@
   },
   "yanit_no": "M-0052",
   "cins": "BILGI",
-  "teyit": {},
+  "teyit": {
+   "OPUS HAZIR KITA 2": {
+    "zaman": "2026-08-15 11:31",
+    "soz": "okudum; SINIF A/B bolusumu dogru, dosyada cakisma yok, itirazim yok"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
-  "aciliyet": "NORMAL"
+  "aciliyet": "NORMAL",
+  "teyit_kimlik": {
+   "OPUS HAZIR KITA 2": "local_f4d2e275-19d0-4b56-ad08-4240580687b5"
+  }
  },
  {
   "no": "M-0073",
