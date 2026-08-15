@@ -94,6 +94,22 @@ def _commit_m(k):
     return "`" in g or any(c in TURKCE for c in g)
 
 
+def _add_hepsi(k):
+    """`git add -A` / `git add .` — PAYLAŞILAN INDEX'İ süpürür.
+
+    🔴 Bu depoda git index'i birden çok oturum arasında PAYLAŞILIYOR.
+    `-A` senin dosyalarını değil, O AN SAHNELENMİŞ HER ŞEYİ alır:
+    başka bir oturumun yarım işi senin commit'ine girer ve o oturum
+    bir daha kendi commit'ini atamaz.
+    ⚠️ Ve mahrem tarafı daha ağır: `-A` TAKİPSİZ her dosyayı süpürür.
+    Kardeş projede bir pakette 14 hasta TC kimlik numarası vardı;
+    `.gitignore` kapsamıyordu ve tek bir `add -A` onu herkese açık bir
+    depoya gönderecekti.
+    ⇒ Doğrusu her zaman PATHSPEC: `git add -- <yol> <yol>`
+    """
+    return bool(re.search(r"git\s+add\s+(-A\b|--all\b|\.(?:\s|$))", k))
+
+
 DALLAR = [
     ("BACKTICK", _backtick,
      "Bash backtick'i KOMUT diye çalıştırır — metindeki kelime SİLİNİR "
@@ -109,6 +125,11 @@ DALLAR = [
      "`git commit -m` ile Türkçe/backtick mesaj. Doğrusu: metni `Write` "
      "ile dosyaya yaz, `git commit -F <dosya>` ile ver — ve o dosyayı "
      "KABUKTA ÜRETME (`printf`/`py -c` ile bile)."),
+    ("ADD-HEPSI", _add_hepsi,
+     "`git add -A` / `git add .` — index PAYLAŞILIYOR. Başka bir "
+     "oturumun yarım işi senin commit'ine girer (yaşandı), ve TAKİPSİZ "
+     "her dosya süpürülür (kardeş projede 14 hasta TC'si kıl payı "
+     "kurtuldu).\n   ⇒ Her zaman PATHSPEC: git add -- <yol> <yol>"),
 ]
 
 CARE = ("\n⇒ DOĞRU YOL — üç adımın ÜÇÜ de şart:\n"
@@ -133,12 +154,17 @@ def _sina():
         'py arac/tahta.py yaz --kim "KOORDINATOR" --mesaj-dosya /tmp/m.txt',
         'git commit -F /tmp/mesaj.txt -- oturumlar/X.md',
         'cd "/c/Users/emrem/OneDrive/Desktop/TARİH COĞRAFYA SİTESİ" && ls',
+        'git add -- arac/x.py data/y.js',        # PATHSPEC serbest
+        'git add arac/kural_olc.py',             # tek dosya da serbest
     ]
     otmeli = [
         ("BACKTICK", 'echo "VERI DEVLET 2 `toga-timur` onerdi"'),
         ("PY-C", 'py -c "print(\'kraliyet-macaristani künyesi\')"'),
         ("HEREDOC", "py - <<'EOF'\nprint('satır\\nsonu')\nEOF"),
         ("COMMIT-M", 'git commit -m "üç mükerrer yerleşim birleştirildi"'),
+        ("ADD-HEPSI", "git add -A"),
+        ("ADD-HEPSI", "git add ."),
+        ("ADD-HEPSI", "git add --all && git commit -F m.txt"),
     ]
     hata = 0
     print("── GEÇME YOLU (temiz komut ENGELLENMEMELİ) ──")
@@ -155,7 +181,14 @@ def _sina():
             hata += 1
         print("%s %-9s %s" % ("✓" if ok else "🔴", bek,
                               k.replace("\n", "⏎")[:56]))
-    print("\n%s" % ("🔴 %d dal ÇÖKTÜ" % hata if hata else "✓ 9/9 dal sağlam"))
+    # 🔴 SAYAÇ HESAPLANIR, YAZILMAZ. İlk hâli "9/9 dal sağlam" diye SABİT
+    # yazıyordu; dal sayısı 9'dan 14'e çıkınca çıktı YALAN SÖYLEMEYE başladı
+    # ve hiçbir şey ötmedi. Bu, projenin kendi kayıtlı kusuru: *"araç kendi
+    # eyleminin SONUCUNU değil DENEMESİNİ raporluyor."* Sabit yazılmış her
+    # sayı, veri büyüdüğü an bayatlar.
+    toplam = len(gecmeli) + len(otmeli)
+    print("\n%s" % ("🔴 %d/%d dal ÇÖKTÜ" % (hata, toplam) if hata
+                    else "✓ %d/%d dal sağlam" % (toplam, toplam)))
     return 1 if hata else 0
 
 

@@ -1132,6 +1132,129 @@ def degismez3(Y):
     return celiskiler
 
 
+# ---------------- Değişmez 4 — HAYALET DEVLET ----------------------------
+# 🔴 BU DENETİM BİR YILDIR "GİRECEK" DİYE YAZILIYDI. `CLAUDE.md §3.5`:
+#     "Bu, dördüncü bir değişmez olarak araca girecek — YAPILACAKLAR.md"
+# Girmedi. Ve girmediği için ÜÇ DEVLET yıllarca haritada yaşadı:
+#     Batnoz (Patmos)   bizans 1537'ye kadar   gerçek son 1453-05-29   84 YIL
+#     İbrim             memluk 1555'e kadar    gerçek son 1517-04-13   38 yıl
+#     Tebriz + 70 kayıt iran 1501-1736         Safevî dönemi          235 YIL
+# Kullanıcı bunları EKRANDA gördü: 1482 ve 1499 görüntülerinde Ege'de
+# "BİZANS", 1550'de Nil'in güneyinde "MEMLÜK" yazısı.
+#
+# 🔴 VE ÜÇ DEĞİŞMEZİN HİÇBİRİ BU SORUYU SORMUYOR:
+#     Değişmez 1  "sahibi VAR mı"        → var, hayalet de bir sahiptir
+#     Değişmez 2  "maddesi VAR mı"       → olabilir
+#     Değişmez 3  "merkeziyle UYUYOR mu" → uyuyor, ikisi de hayalet
+# Hiçbiri **"bu devlet o tarihte YAŞIYOR mu"** demiyor. Veri denetimi
+# temiz raporlarken harita var olmayan devletleri boyuyor.
+#
+# ⚠️ BÖLGESEL TESLİM GECİKMESİ MEŞRUDUR ve muaf tutulur: Mekke'nin memlûk
+# dönemi 1517-07-06'da biter, devlet 04-13'te yıkılmıştır. Merkez düştü
+# diye çevre otomatik devrolmaz (`§3.5` sonu). Ölçüt AYLAR mertebesinde
+# tolerans; YILLAR mertebesi ihlaldir.
+# 🔴 TAVAN = BUGÜNKÜ ÖLÇÜM, ONAY DEĞİL. İlk koşu 140 buldu ve üçü de
+# BİLİNEN borç sınıfı — sıfır yazsaydım yayın kapısı kapanır, denetim
+# kırmızı kalır ve bir sonraki oturum onu "bozuk alet" diye susturmaya
+# çalışırdı. Projenin kurulu deseni: ölçülmüş borca TAVAN konur, borç
+# ödendikçe tavan İNER. (BEKLENEN_SAHIPSIZ · BEKLENEN_ACIK_S · 2t hep böyle.)
+#
+# BUGÜNKÜ 140'IN DÖKÜMÜ — üç aile, üçü de KİMLİK kusuru, veri kusuru değil:
+#   ① `macaristan` 1918-1923 (5 nokta)  künye 1526-08-29'da bitiyor
+#      ⇒ TEK künye İKİ AYRI devleti taşıyor: ortaçağ Macar Krallığı ve
+#        1918 sonrası Macaristan. TUNA HAVZASI'nın bulgusuyla AYNI KÖK,
+#        ve Emre `kraliyet-macaristani`yi açmaya bugün onay verdi.
+#   ② `iran` 1281-1501 (çok sayıda)     künye 1925-12-12'de KURULUYOR
+#      ⇒ künye Pehlevî İran'ı; veri onu ortaçağ Persia'sı için kullanıyor.
+#        `CLAUDE.md §3.5`in adıyla saydığı kusur — orada "235 yıl" deniyordu,
+#        ölçüm **424 yıl** diyor.
+#   ③ `romanya` 1918-1923                künye 1881-03-26'da bitiyor
+#      ⇒ muhtemelen beylik→krallık geçişi ve ardıl künye var; DOĞRULANMADI.
+#
+# ⚠️ ÇİFT YÖNLÜ: sayı DÜŞERSE de uyarır. Tavanı gevşek bırakmak, gerçek
+# bir gerilemeyi görünmez yapar (`BEKLENEN_SAHIPSIZ`in 9 Ağustos dersi).
+BEKLENEN_HAYALET = 140
+HAYALET_TOLERANS_GUN = 400      # ~13 ay: teslim gecikmesi meşru, yıllar değil
+
+
+def _devletler_yukle():
+    """devletler.js → {id: (f, t)}. node ile ayrıştırılır.
+
+    🔴 Kendi ayrıştırıcını YAZMA — veri zaten bir dilde yazılıysa o dilin
+    yorumlayıcısını çağır. Proje bunu ÜÇ kez öğrendi (girdi.py tek tırnak ·
+    bagla.py CRLF · regex yerine import).
+    """
+    import subprocess
+    yol = os.path.join(os.path.dirname(os.path.dirname(
+        os.path.abspath(__file__))), "data", "devletler.js")
+    if not os.path.exists(yol):
+        return None
+    js = ("global.window={};eval(require('fs').readFileSync(%s,'utf8'));"
+          "process.stdout.write(JSON.stringify(window.DEVLETLER||[]));"
+          % json.dumps(yol))
+    try:
+        c = subprocess.run(["node", "-e", js], capture_output=True,
+                           encoding="utf-8", timeout=90)
+    except FileNotFoundError:
+        return None
+    if c.returncode != 0:
+        return None
+    return {d["id"]: (d.get("f"), d.get("t"))
+            for d in json.loads(c.stdout) if d.get("id")}
+
+
+def _gun_farki(a, b):
+    from datetime import date as _d
+
+    def ay(s):
+        p = (s or "").split("-")
+        try:
+            return _d(int(p[0]), int(p[1]) if len(p) > 1 else 1,
+                      int(p[2]) if len(p) > 2 else 1)
+        except Exception:
+            return None
+    x, y = ay(a), ay(b)
+    return None if (x is None or y is None) else (x - y).days
+
+
+def degismez4(Y):
+    """Bir devletin ÖMRÜ DIŞINDA yazılmış sahiplik dönemi var mı.
+
+    Döner: (ihlaller, kunyesiz, olculdu_mu)
+      ihlaller  — devlet ölmüşken/doğmamışken boyanan dönemler
+      kunyesiz  — `d:` kimliği devletler.js'te YOK (ayrı kova: ölçülemedi)
+    ⚠️ `kunyesiz` bir İHLAL DEĞİL ama TEMİZ de değil — ölçülemeyeni temiz
+    saymak, süzgecin en sinsi kusuru (`§11`).
+    """
+    K = _devletler_yukle()
+    if K is None:
+        return [], [], False
+    ihlal, kunyesiz = [], []
+    for y in Y:
+        for p in (y.get("s") or []):
+            kim = p.get("d")
+            if not kim:
+                continue
+            if kim not in K:
+                kunyesiz.append((y["ad"], kim))
+                continue
+            kf, kt = K[kim]
+            # dönem BAŞI künyenin sonundan SONRA mı (devlet ölmüş)
+            g = _gun_farki(p.get("f"), kt) if kt else None
+            if g is not None and g > HAYALET_TOLERANS_GUN:
+                ihlal.append((y["ad"], kim, p.get("f"), p.get("t"),
+                              "devlet %s'te bitti, dönem %.1f yıl SONRA başlıyor"
+                              % (kt, g / 365.25)))
+                continue
+            # dönem SONU künyenin başından ÖNCE mi (devlet doğmamış)
+            g2 = _gun_farki(kf, p.get("t")) if kf else None
+            if g2 is not None and g2 > HAYALET_TOLERANS_GUN:
+                ihlal.append((y["ad"], kim, p.get("f"), p.get("t"),
+                              "devlet %s'te kuruldu, dönem %.1f yıl ÖNCE bitiyor"
+                              % (kf, g2 / 365.25)))
+    return ihlal, kunyesiz, True
+
+
 # ---------------- Değişmez 3z — kd:'nin ZAMAN AYAĞI (ALTYAPI ④) ----------
 # 🔴 NİÇİN AYRI BİR DAL: `degismez3` yukarıda `y["m"]`i okuyor — ZAMANSIZ
 # alan. Yani çelişkiyi ölçen aletin kendisi, çelişkinin SEBEBİNİ kullanıyor.
@@ -2086,6 +2209,39 @@ def main():
     else:
         print(f"               🟢 {gercek_kd} kayıt gerçek zaman derinliği taşıyor;")
         print( "               iki sayının AYRIŞMASI beklenen davranıştır.")
+
+    # ── Değişmez 4 — HAYALET DEVLET ──────────────────────────────────
+    hayalet, kunyesiz, olculdu = degismez4(Y)
+    if not olculdu:
+        print("\nDeğişmez 4  ⚠️  ÖLÇÜLEMEDİ — node yok ya da devletler.js "
+              "ayrıştırılamadı.")
+        print("               ⚠️ 'ölçülemedi' TEMİZ DEĞİLDİR. Ayrı kova.")
+    else:
+        n4 = len(hayalet)
+        durum4 = "✓" if n4 <= BEKLENEN_HAYALET else "✗"
+        if n4 > BEKLENEN_HAYALET:
+            ihlal = True
+        print(f"\nDeğişmez 4  {durum4}  {n4} hayalet dönem "
+              f"(beklenen {BEKLENEN_HAYALET}) — devlet ömrü dışında boyama")
+        if n4 < BEKLENEN_HAYALET:
+            print(f"               ⚠️ TAVAN GEVŞEK — BEKLENEN_HAYALET = {n4} "
+                  f"yapılmalı. Aradaki {BEKLENEN_HAYALET - n4} puanlık "
+                  f"gerçek regresyon GÖRÜNMEZ.")
+        print(f"               tolerans {HAYALET_TOLERANS_GUN} gün: bölgesel "
+              f"teslim gecikmesi MEŞRU, yıllar mertebesi DEĞİL")
+        for ad, kim, f, t, sebep in hayalet[:12]:
+            print(f"    {ad:<24} {kim:<16} {f}→{t}  {sebep}")
+        if n4 > 12:
+            print(f"    … {n4 - 12} tane daha (--ayrinti)")
+        if kunyesiz:
+            kim_say = {}
+            for _, kim in kunyesiz:
+                kim_say[kim] = kim_say.get(kim, 0) + 1
+            print(f"               i {len(kunyesiz)} dönem KÜNYESİZ kimlik "
+                  f"kullanıyor ({len(kim_say)} ayrı kimlik) — ölçülemedi, "
+                  f"İHLAL DEĞİL ama TEMİZ de değil")
+            for kim, n in sorted(kim_say.items(), key=lambda x: -x[1])[:6]:
+                print(f"                 {kim:<20} {n} dönem")
 
     # Ek denetim — dönem sağlığı (üç değişmezden biri değil, VERI-YAPISI.md kuralı)
     ds = donem_sagligi(Y)
