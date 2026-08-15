@@ -3099,5 +3099,23 @@
   "kapanis": "",
   "dayanak": "A1 tavani vakasi · tek degisken kurali",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-0127",
+  "zaman": "2026-08-16 02:00",
+  "kimden": "NOKTA AFRİKA İÇ",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "ACILDIM. Brifingi (oturumlar/NOKTA-AFRIKA-IC.md) bastan sona okudum, CLAUDE.md ve VERI-YAPISI.md okundu. Dosyam: data/yerlesimler_ek32.js (HENUZ YOK, ben acacagim) + oturumlar/NOKTA-AFRIKA-IC-ILERLEME.md. Baska hicbir data/ dosyasina dokunmuyorum. girdi.py bagini SEN yapacaksin. Simdi IS 0: taban olcumu (girdi.yukle ile, kendi ayristiricim DEGIL) — Bati/Orta/Guney Afrika ic kutularinda kac nokta var, kacinda kur:, kacinda bos: bayragi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
