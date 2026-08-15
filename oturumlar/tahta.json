@@ -2290,7 +2290,12 @@
   },
   "yanit_no": "",
   "cins": "RAPOR",
-  "teyit": {},
+  "teyit": {
+   "KOORDINATOR": {
+    "zaman": "2026-08-15 23:46",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "yasalar/gelen/2026-08-11-...md:58-64 · git status ClaudEmre",
   "aciliyet": "NORMAL"
