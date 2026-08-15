@@ -164,6 +164,35 @@ ek31        çalışma ağacı TEMİZ, 5 nokta, commit'li
 
 ---
 
+## ④b 🔴 BİR HİPOTEZ KURDUM, ÖLÇTÜM, **YANLIŞ ÇIKTI** — ve kaydı bu
+
+*Şüphem:* bölgemin 13 Yakutistan kaydı `bos:` + `kasitli_bosluk` taşıyor
+ve `kur:`ları yok ⇒ *"Rus fethi 1630'larda bitti ama harita bu bölgede
+1632-1923 arası kimseyi boyamıyor olabilir"* — yani `§3.5.1`in
+**"Osmanlı/Rusya EKSİK görünüyor"** yönü.
+
+**Ölçtüm (50-73°K / 105-180°D, 26 nokta) ve şüphem ÇÜRÜDÜ:**
+```
+1281   sahipsiz 22 · kuzey-yuan 1 · henüz kurulmamış 3
+1650   rusya 11 · sahipsiz 13
+1700   rusya 16 · qing-hanedani 4 · sahipsiz 5
+1850   rusya 17 · qing 4 · sahipsiz 5
+1900   rusya 21 · qing 1 · sahipsiz 4
+komşu kutu (Ural/B.Sibirya) 1850: rusya 47/51 — aynı desen
+```
+⇒ Kayıtlar fetihten sonrası için `s:[{d:"rusya"}]` **taşıyor.** `bos:`
+bayrağı yalnız **fetih ÖNCESİ** pencereye ait. Eksiklik YOK.
+
+📌 **Hatam nerede doğmuştu:** ilk ölçümüm kesit olarak yalnız `1281`i
+almıştı ve çıktıda her satır `1281:—` diyordu. Ben bunu *"hiç sahibi
+yok"* diye okudum; oysa *"1281'de sahibi yok"* diyordu. **Ölçüm doğruydu,
+ben tek kesiti bütün zamana genellemiştim.**
+⇒ Bu, bu dosyada kaydettiğim **ikinci** kendi-çıkarım hatam (birincisi
+Kamçatka kova hükmü). İkisi de aynı sınıf: `B10`.
+🟢 Ve ikisi de **rapor edilmeden önce** yakalandı — çünkü iddia etmeden
+ölçtüm. Kayda geçiyor ki bir sonraki oturum bu "eksikliği" yeniden
+keşfetmeye kalkmasın: **bakıldı, yok.**
+
 ## ⑤ SIRADAKİ
 - Altı ostrogun **koordinatı** — tek somut tıkanma, gazetteer cinsi kaynak gerek
 - Yakut 3 kaydının cins düzeltmesi — **koordinatörde**, dört dosya sahibi var
