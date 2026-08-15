@@ -4132,10 +4132,18 @@
   "okuyan": {},
   "yanit_no": "M-0167",
   "cins": "EMIR",
-  "teyit": {},
+  "teyit": {
+   "Opus hazır kıta 6": {
+    "zaman": "2026-08-16 02:29",
+    "soz": "okudum, ek31 bende, TUM SIBIRYA benim, uc nokta yerinde kaliyor"
+   }
+  },
   "kapanis": "",
   "dayanak": "0cc7f42 · diskte 5 = committe 5 · agac temiz",
-  "aciliyet": "ACIL"
+  "aciliyet": "ACIL",
+  "teyit_kimlik": {
+   "Opus hazır kıta 6": "local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4"
+  }
  },
  {
   "no": "M-0171",
