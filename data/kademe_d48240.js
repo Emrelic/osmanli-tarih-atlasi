@@ -162,4 +162,22 @@ window.KADEME_YAMA = [
    kaynak:"devletler.js künye `svahili-sehirleri` (baskent:'Kilwa, Mombasa, Zengibar (çeşitli merkezler)', 1000..1698)",
    neden:"🟡 EN ZAYIF KAYDIM ve onu böyle işaretliyorum: künye TEK merkez vermiyor, 'çeşitli merkezler' diyor ve üç ad sayıyor. Mombasa bunlardan biri, yani kendi şehir-devletinin merkezi — Svahili şehirleri bağımsız şehir-devletlerdi, o yüzden k:1 yazdım. Ama künyenin kendisi belirsiz konuşuyor; itiraz gelirse tartışmaya AÇIK"},
 
+  // ==========================================================================
+  // PARTİ 3 — M-0466'nın BULANIK EŞLEŞTİRME yöntemi, KENDİ kutuma koşuldu.
+  // NOKTA AFRİKA İÇ açıkça uyardı: "bu listeyi SİZİN kutunuz için
+  // DOĞRULAMADIM" ve "bulanık eşleştirme bir ARAMA aleti, KARAR aleti
+  // DEĞİL". ⇒ Listeyi değil YÖNTEMİ aldım, kendi verimde koştum.
+  // 10 aday çıktı; hepsini künyenin `bolge:` alanıyla sınadım.
+  //   GERÇEK 1  Merakeş ~ Marakeş        nokta kuzey-afrika · künye kuzey-afrika ✓
+  //   SAHTE  9  Safi~Iaşi (balkanlar) · Bulhar~Buhara (orta-asya) ·
+  //             Cenîne~Cetine (balkanlar) · Avaş/Asâyita~Ava (gdasya) ·
+  //             Malakal~Malaka 0,92 (gdasya) · Maridi~Mardin (anadolu) ·
+  //             Lâs Hore~Lahor (guney-asya) · Tâtâ~Tatta (guney-asya)
+  // 🔴 En yüksek benzerlik (Malakal~Malaka, 0,92) SAHTE çıktı: Güney Sudan
+  //    ile Malaka Boğazı. Benzerlik SIRASI doğruluk sırası DEĞİL.
+
+  {ad:"Merakeş", k:1,
+   kaynak:"devletler.js künyeleri `sadi` (baskent:'Marakeş', 1549-01-01..1659-01-01) ve `fas` (baskent:'Fas / Marakeş')",
+   neden:"Sa'dî Devleti'nin başkenti. Veride 'Merakeş', künyede 'Marakeş' — TAM eşleşme yok, bulanık eşleştirmeyle (0,86) bulundu ve COĞRAFYAYLA doğrulandı: nokta 31,63°K/-7,98°D, künye bolge:'kuzey-afrika' ⇒ ÖRTÜŞÜYOR. Aynı şehrin iki yazımı. Yamaya VERİNİN yazımı kondu"},
+
 ];
