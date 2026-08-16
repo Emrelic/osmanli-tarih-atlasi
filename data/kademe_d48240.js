@@ -147,13 +147,28 @@ window.KADEME_YAMA = [
    kaynak:"TDV sibir-hanligi (gövdesi 3 kez okundu) + TDV tumen (gövdesi okundu — BASKA KONU)",
    neden:"kaynak susuyor — madde Cimga-Tura'yi ANIYOR ama mertebe vermiyor: 'Çimga-Tura ve Sibir sehirlerinin yani sira Sibir Hanligi'nda yirmiden fazla sehir mevcuttu'. Yani 20+ sehirden biri; ONCEKI BASSEHIR oldugu SOYLENMIYOR ve madde 'Isker'den onceki merkez' sorusuna acikca cevap VERMIYOR. 🔴 `tumen` slugu canli (200) ama TUZAK ②: askeri/idari TERIM maddesi, Cimga-Tura'yi icermiyor. ⚠️ devletler.js `sibir-hanligi` kunyesi baskent:'Cimgi-Tura → Sibir (Isker)' diyor ve kaynak olarak BU MADDEYI gosteriyor — madde bunu SOYLEMIYOR; celiski koordinatore bildirildi, hukum onun"},
 
-  {ad:"Ukek (Uvek)", k_yok_sebep:"adres-yok",
-   kaynak:"TDV saray--sehir (gövdesi okundu) — Ukek adı GEÇMİYOR · ukek/uvek sluglari 302",
-   neden:"aradım, bu maddede YOK — Altın Orda basşehir maddesi Ukek'i hiç anmıyor, mustakil maddesi de yok (iki yazim da 302). Mertebesi için AKADEMİK kaynak gerekiyor"},
+  // 🔴 BU KAYDIN KOVASI DEĞİŞTİ — ve değiştiren şey TDV ARAMA SAYFASI.
+  // Kendi commit'imde (9d62726) şunu yazmıştım: "22 varyanti BEN
+  // uydurdum; doğru varyant bazen TÜRETİLEMEZ, arama sayfasından
+  // bulunur. Arama sayfasını BU TURDA KULLANMADIM." Kullandım:
+  //   islamansiklopedisi.org.tr/arama/?q=Ukek
+  //   → müstakil madde YOK, ama DÖRT madde listeledi ve biri:
+  //     `altin-orda-hanligi`  ← CANLI ve GÖVDESİ DOLU
+  // ⚠️ Ben `altin-orda` · `altinordu` · `altin-ordu` denemiştim, ÜÇÜ DE
+  //   302. Doğru slug TÜRETİLEMEZDİ; arama sayfası verdi.
+  // 🔴 VE MADDE ADI ANIYOR — ama "Ukek" diye değil "ÜKEK" diye (Ü ile):
+  //   'Saray, Azak, Batçin, Bakü, Büler, Bulgar, Derbend, Gülistan,
+  //    Kırım, Kırım-ı Cedîd, Macar, Macar-ı Cedîd, Sarayçık,
+  //    Sığnak-ı Cedîd, ÜKEK, Hacıtarhan, Şabran'
+  //   ⇒ Yazım ekseni bu gece bana DÖRDÜNCÜ kez çarptı (tumen ·
+  //     Çimga-Tura · tinbuktu · Ükek).
+  {ad:"Ukek (Uvek)", k_yok_sebep:"kaynak-susuyor",
+   kaynak:"TDV altin-orda-hanligi (gövdesi okundu — adı ANIYOR) + saray--sehir + 5 slug 302",
+   neden:"KOVA DÜZELTİLDİ: önce `adres-yok` yazmıştım, YANLIŞTI. Kapsayıcı madde `altin-orda-hanligi` VAR, gövdesi DOLU ve şehri 'ÜKEK' yazımıyla ANIYOR — Altın Orda şehirleri listesinde. Ama madde 'şehirlerin mertebeleri veya idarî sınıflandırması' VERMİYOR ve hanlığın idarî taksimatını (ulus/tümen/vilâyet) ayrıntılandırmıyor. ⇒ Madde VAR, adı ANIYOR, mertebeyi YAZMIYOR = tam olarak `kaynak-susuyor` tanımı. Müstakil maddesi hâlâ yok (ukek · uvek · ukek--sehir · ukek-sehri · ukak · uvek--sehir · uvak hepsi 302)"},
 
   {ad:"Beldjamen", k_yok_sebep:"adres-yok",
-   kaynak:"TDV saray--sehir (gövdesi okundu) — Beldjamen adı GEÇMİYOR · beldjamen/bacman sluglari 302",
-   neden:"aradım, bu maddede YOK, mustakil maddesi de yok. Mertebesi için AKADEMİK kaynak gerekiyor"},
+   kaynak:"TDV altin-orda-hanligi + saray--sehir (ikisinin de gövdesi okundu) — adı İKİSİNDE DE GEÇMİYOR · 4 slug 302",
+   neden:"Ukek'in aksine bu kayıt `adres-yok` KALIYOR ve artık daha güçlü: kapsayıcı madde `altin-orda-hanligi` bulundu, gövdesi okundu ve 17 Altın Orda şehrini adıyla sayıyor — Beldjamen O LİSTEDE YOK. Yani hem müstakil adres yok (beldjamen · bacman · beldzamen · bacman-sehri · vodyansk hepsi 302) hem kapsayıcı madde anmıyor. ⚠️ Ukek AYNI TARAMADA kova DEĞİŞTİRDİ, bu değiştirmedi — ikisini ayıran şey aynı maddenin şehir listesi"},
 
   // ==========================================================================
   // PARTİ 2 — M-0456'nın TÜRETMESİ: devletler.js `baskent:` EŞLEŞTİRMESİ
