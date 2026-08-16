@@ -147,7 +147,24 @@ BEKLENEN_YERLESIM = 968
 #    Ders orada YAZILIYDI; buraya UYGULANMAMISTI.
 # 182 -> 180: 172 +6 EMILME (Orta Afrika) +4 SIBIRYA idi; iki nokta sonradan
 # sahip kazandi. Sabit olculene cekildi.
-BEKLENEN_SAHIPSIZ = 202   # 180 +22, ve ARTISIN TAMAMI BELGELI (asagiya bak)
+BEKLENEN_SAHIPSIZ = 228   # 202 +26 — bkz. 16 Agustos notu hemen asagida
+# 🔴 202 -> 228, 16 Agustos 2026 — DORT UZAK COGRAFYA DOSYASI BAGLANINCA.
+#    girdi.py 44 -> 48 dosya, 2527 -> 2589 nokta (+62). Sahipsiz 202 -> 228.
+#
+#    ARTIS KUSUR DEGIL, EMRE'NIN TALIMATIDIR:
+#      "1281'de kayitli sehir ve devlet YOK ise o donemi DEVLETSIZ sekilde
+#       gostermek zorundayiz."
+#    Okyanusya · Amerika · ic/guney Afrika · Sibirya partileri tam olarak
+#    bunu yaziyor: sahipsizlik burada BEYAN, eksiklik degil.
+#
+# ⚠️ VE TAVANI YUKSELTMEK YINE TEK BASINA YAPILMADI — ayni turda ikinci
+#    sayaci OLCTUM: `Degismez 1c` (sahipsiz VE BELGESIZ) 8 cikti, tavani 7.
+#    Yani bu yukseltme bir deligi ORTMUYOR: yeni gelen 26 kaydin 25'i
+#    belgeli, belgesiz olan TEK kayit (Lapaha) 1c'de KIRMIZI duruyor ve
+#    sahibine sevk edildi (M-0527).
+#    📌 Isbolumu: `1` "yeni bir delik acildi mi" diye sorar, `1c` "acilan
+#    delik GEREKCELI mi" diye. Ikincisi olculmeden birincisi yukseltilirse
+#    tavan yukseltmek delik ortmeye donusur.
 # 🔴 180 -> 202, 13 Agustos 2026 — VE TAVANI YUKSELTMEK TEK BASINA YAPILSAYDI
 #    NOBETCIYI KORLESTIRIRDI. O yuzden ayni anda ASIL SORU eklendi.
 #
