@@ -15066,5 +15066,23 @@
   "kapanis": "",
   "dayanak": "LeDonne 2002 acik erisim · 8 sehir GUBERNIYA adi olarak geciyor · Table 1 JPEG",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0740",
+  "zaman": "2026-08-16 23:12",
+  "kimden": "MOTOR PUANLAMA",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "local_b943aa89-748a-4868-9755-1f77fce68fbf",
+  "mesaj": "→ DOSYASI `arac/uret_petek.py` OLAN OTURUMDAN (MOTOR PUANLAMA) 🟢🟢 **İŞ 2'NİN SORUSU ORTADAN KALKTI: PUANLAMA KENDİ KENDİNİ SINIRLIYOR. ÖLÇÜTE HİÇ GEREK YOK — ve ölçüt EKLEMEK ZARARLI OLURDU.** ## 🔴 ① ASIL BULGU — ölçtüm, tasarlamadım ``` bir hücrenin 200 km'sinde SAHİPLİ merkez varsa → o merkez TEK BAŞINA 4 puan verir → hücre boyanır → puanlama orada HİÇBİR ŞEY DEĞİŞTİRMEZ ``` ``` 200 km'de sahipli merkez VAR : 40.170.861 km² (%53,8) → puanlama ETKİSİZ 200 km'de sahipli merkez YOK : 34.480.022 km² (%46,2) → puanlama ETKİLİ 🟢 ANADOLU toplam 914.367 km² · puanlamanın DEĞDİĞİ 0 km² (%0,00) 🟢 RUMELİ toplam 525.858 km² · puanlamanın DEĞDİĞİ 0 km² (%0,00) ``` ⇒ Şartnamenin korktuğu şey (*\"Anadolu'da 200 km tavanı uygularsak çekirdek harita çöker\"*) **gerçekleşemez.** Puanlama çekirdeğe **matematiksel olarak** değemiyor: orada her hücrenin 200 km'sinde sahipli merkez var. 📌 Yani *\"nerede uygulanır\"* bir tasarım kararı değil, **verinin kendisinin cevapladığı** bir soru. ## ② ÜÇ ÖLÇÜT ÖLÇÜLDÜ — VE ÜÇÜ DE GEREKSİZ, BİRİ ZARARLI ``` kutu ① POLİGON ② YOĞUNLUK ③ EĞİM<1,10 ANADOLU 0,0% 0,0% 7,8% ← ③ ÇEKİRDEĞE DEĞİYOR RUMELİ 10,3% 0,0% 19,6% ← ③ ve ① değiyor SAHRA 99,2% 40,9% 73,9% ARABİSTAN içi 40,7% 32,4% 71,8% SİBİRYA 1,5% 56,2% 51,0% ← 🔴 ① SİBİRYA'YI KAÇIRIYOR KONGO havzası 0,5% 79,7% 52,5% ← 🔴 ① KONGO'YU KAÇIRIYOR ``` ``` 🔴 ① POLİGON Sahra'da mükemmel (%99,2) ama SİBİRYA %1,5 · KONGO %0,5 ⇒ puanlamanın EN ÇOK gerektiği yerleri DIŞLIYOR (KADEME-ANADOLU'nun 5,46 M km²lik bulgusu tam Kongo'daydı) 🟡 ② YOĞUNLUK kapsamı 24,85 M km² — kendini-sınırlama kümesiyle AYNI ŞEY ⇒ MÜKERRER: zaten olan bir şeyi ölçüt diye yazmak 🔴 ③ EĞİM Anadolu %7,8 · Rumeli %19,6 — GEÇME ŞARTINI GEÇEMİYOR ``` ⇒ **ÖNERİM: ölçüt YOK. Puanlama her yerde uygulanır.** Ölçüt eklemek yalnız gereksiz değil, ①'i seçersek **Kongo ve Sibirya'yı korumasız bırakır.** ## 🔴 ③ TEK DELİK — ve onu da ölçtüm ``` SAHİPSİZ noktaya yakın ama SAHİPLİ merkeze uzak: 9.632.208 km² (%12,9) ``` Bu hücreler bugün bir **dolgu noktasına** (176 `kasitli_bosluk` noktası) yakın diye \"yakın\" görünüyor ama **devlet puanı almıyorlar** ⇒ puanlamada boşalırlar. 🟡 **Bu muhtemelen DOĞRU** — dolgu noktası zaten *\"burası kimsenin değil\"* demek için var. Ama **karar Emre'nin**, ben ölçüyorum ve **öngörüye ayrı kalem olarak** yazacağım. ## 🔴 ④ VE BİR ÖZ-DÜZELTME — ① ölçütü önce SIFIR çıktı, kusur BENDEYDİ İlk koşumda `① POLİGON = 0 km²` çıktı ve *\"ölçüt kullanılamaz\"* diye rapor edecektim. Etmedim: ``` süzgecim p.get(\"featurecla\") → 0 poligon gerçek p.get(\"FEATURECLA\") → Desert 58 · Plain 30 · Tundra 4 ``` Dosyanın kendi anahtarlarını okudum ve **hepsi BÜYÜK HARF**ti. **Veri değil ARAMA bozuktu.** 📌 Bugün **üçüncü kez** aynı ders: *bir aramanın sıfır dönmesi iki şey olabilir — aranan yok, ya da arama bozuk.* (Önce Sibirya'nın 29 noktası, sonra `_kvsurt` dizgim, şimdi bu.) Üçünde de ayıran şey aynı oldu: **var olduğunu bildiğim bir şeyi aynı aramayla aramak.** ## ⑤ SIRADAKİ İŞ 1 (kod + C13 iki yönde) → İŞ 3 (öngörü, koşudan önce, mazeretleriyle) → \"hazır\". 🔴 Ve İŞ 1'i **ölçüt kapısı olmadan** yazacağım. Aksini istersen şimdi söyle — kod yazıldıktan sonra değiştirmek pahalı. MOTOR PUANLAMA · dosyam `arac/uret_petek.py`",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "puanlama KENDINI SINIRLIYOR: Anadolu %0,00 Rumeli %0,00 · uc olcut de gereksiz, ① Kongo/Sibirya'yi kaciriyor",
+  "aciliyet": "ACIL"
  }
 ]
