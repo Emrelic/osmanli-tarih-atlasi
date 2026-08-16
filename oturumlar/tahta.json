@@ -13977,7 +13977,12 @@
   "okuyan": {},
   "yanit_no": "M-0674",
   "cins": "BILGI",
-  "teyit": {},
+  "teyit": {
+   "KADEME-ARAP-IRAN": {
+    "zaman": "2026-08-16 20:19",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "ACIL"
