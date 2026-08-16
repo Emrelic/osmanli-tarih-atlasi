@@ -102,20 +102,47 @@ window.KADEME_YAMA = [
 {ad:"Gözleve (Kezlev)", k:4, kaynak:"kirim (TDV) — dar slug `gozleve` ve `kezlev` İKİSİ DE 302 ölü",
  neden:"TDV `kirim`: 'Hanlığın batı kıyısındaki Gözleve önemli bir LİMAN durumundaydı'. İdarî mertebe VERİLMİYOR — söylenen şey iktisadî. M-0270 ⓑ gereği bir kademe aşağı: k:4. Kadılık merkezi olup olmadığı ÖLÇÜLEMEDİ."},
 
+// ESKİ KIRIM (SOLHAT) — 🔴 BU KAYIT ASLINDA `kd:` İSTİYOR, ve sebebini
+//   dosyanın sonunda ayrıca yazdım: şehir kademe DEĞİŞTİRMİŞ.
+//   TDV alıntısı: "Kırım hanlarının ÖNCEKİ MERKEZİ eski Kırım'dı."
+//   ⇒ Bir dönem hanlık merkeziydi (Bahçesaray'ın bugün taşıdığı mertebe,
+//     veride k:2), sonra merkez taşındı ve şehir geriledi.
+//   🔴 AMA TAŞINMA TARİHİNİ KAYNAK VERMİYOR. Tarihsiz `kd:` yazılamaz
+//     (tarih uydurma yasağı), o yüzden TEK kademe yazdım ve SONRAKİ
+//     hâlini seçtim: 1281-1923 aralığının EZİCİ ÇOĞUNLUĞUNDA merkez
+//     DEĞİLDİ. M-0270 ⓑ (emin değilsen aşağı) da aynı yöne bakıyor.
+{ad:"Eski Kırım (Solhat)", k:3, kaynak:"kirim (TDV) — dar slug `solhat` ve `eski-kirim` İKİSİ DE 302 ölü",
+ neden:"TDV `kirim`: 'Kırım hanlarının ÖNCEKİ MERKEZİ eski Kırım'dı. Burası gelişmiş bir şehir durumunda olup...'. Bir dönem hanlık merkezi, sonra merkez Bahçesaray'a taşınmış. TAŞINMA TARİHİ KAYNAKTA YOK ⇒ zamanlı kademe yazılamadı; merkez OLMADIĞI uzun dönem esas alındı ve üçüncü kademe verildi."},
+
+// OR KAPI (FERAHKİRMAN) — kale. Kaynağın verdiği tek NET şey bu.
+// ⚠️ VE BİR ŞEYİ KULLANMADIM, açıkça yazıyorum: çekim aracı ayrıca
+//   "Kırım veliahtlarının bulunduğu yer olarak belirtilmiştir" dedi.
+//   Bu ARACIN CÜMLESİ, maddenin değil — tırnak içinde gelmedi.
+//   Doğru olsaydı mertebe yükselirdi (veliaht = nureddin makamı).
+//   ⇒ Doğrulanmamış bir parafraza dayanıp kademe YÜKSELTMEDİM.
+//     M-0270 ⓑ: emin değilsen aşağı. Kale mertebesi: k:4.
+{ad:"Or Kapı (Ferahkirman)", k:4, kaynak:"kirim (TDV) — dar slug `or-kapi` ve `perekop` İKİSİ DE 302 ölü",
+ neden:"TDV `kirim`: 'Orkapı 945'e (1538) doğru Sâhib Giray Han tarafından tahkim edildi, Kırım yarımadasına giriş yeri olan bu dar berzahın uç kısmında FERAHKİRMAN adlı bir KALE yaptırıldı'. Kaynağın verdiği mertebe KALE ⇒ k:4. Veliaht makamı olduğuna dair ifade yalnız ÖZETTE geçti, maddenin cümlesi olarak doğrulanamadı; ona dayanıp yükseltmedim."},
+
 ];
 
 // ═══════════ YAZILMAYANLAR — ve her biri NİÇİN ═══════════
 //
-// 🔴 ESKİ KIRIM (SOLHAT) · OR KAPI (FERAHKİRMAN)
-//   `solhat` · `eski-kirim` · `or-kapi` · `perekop` DÖRDÜ DE 302 ölü.
-//   Genel `kirim` maddesinde ikisi de GEÇİYOR ama idarî mertebeleri
-//   birebir alıntılanabilir biçimde ÇIKMADI. `k:` YAZMADIM.
-//   ⚠️ Ve niçin yazmadığım önemli: elimde bir ÖZET var, bir ALINTI yok.
-//     Özet "Or Kapı: kaptan/vali konumu" diyor — ama bunu maddenin kendi
-//     cümlesi olarak DOĞRULAYAMADIM. Özete dayanıp k:2 yazmak, kaynağa
-//     dayanmak değil ARACIN PARAFRAZINA dayanmak olurdu.
-//   ⇒ Bir sonraki tur: `kirim` maddesinin gövdesi bu iki ad için AYRICA
-//     okunacak. Eksik olan kaynak değil, ALINTI.
+// 🟢 ESKİ KIRIM · OR KAPI — ÇÖZÜLDÜ, ikinci turda. Yukarıda yazıldılar.
+//   İlk turda `k:` YAZMAMIŞTIM çünkü elimde ÖZET vardı, ALINTI yoktu.
+//   `kirim` maddesi bu iki ad için AYRICA, "kelimesi kelimesine ver"
+//   diye soruldu ve alıntılar geldi:
+//     "Kırım hanlarının ÖNCEKİ MERKEZİ eski Kırım'dı"
+//     "Ferahkirman adlı bir KALE yaptırıldı" (1538, Sâhib Giray)
+//   📌 Ders: eksik olan KAYNAK değil, SORUNUN BİÇİMİYDİ. Aynı maddeye
+//     "özetle" diye sorunca parafraz, "aynen ver" diye sorunca ALINTI
+//     geldi. Bir kaynağı "yetersiz" ilan etmeden önce **soruyu değiştir.**
+//
+// 🔴 VE İLK TURDA KULLANMADIĞIM PARAFRAZ HAKLI ÇIKMADI DA ÇÜRÜMEDİ DE:
+//   Özet "Or Kapı: kaptan/vali konumu" ve "Kırım veliahtlarının bulunduğu
+//   yer" diyordu. İkinci turda maddenin KENDİ cümlesi yalnız KALE dedi.
+//   ⇒ Parafrazı kullansaydım k:2 yazacaktım; alıntıya uyunca k:4 yazdım.
+//     İki kademe fark, ve tek sebebi **neye dayandığım.**
 //
 // 🔴 DON / KUBAN — Rostov · Taganrog · Çerkask (Razdory) ·
 //   Zaporojye Seçi · Kuban (Yekaterinodar)
