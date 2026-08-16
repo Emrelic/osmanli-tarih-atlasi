@@ -6,7 +6,79 @@
 | # | Görev | Dosya | Hâl |
 |---|---|---|---|
 | 1 | `oturumlar/KORIDOR-HALKA2B.md` (M-0233) | `data/koridor_f5c9a5.js` | **BİTTİ+TESLİM** |
-| 2 | `oturumlar/KADEME-ASYA.md` (M-0305) | `data/kademe_f5c9a5.js` | **YARIM+DEVAM** |
+| 2 | `oturumlar/KADEME-ASYA.md` (M-0305) | `data/kademe_f5c9a5.js` | **YARIM** · TDV tükendi |
+| 3 | **KOL D · KORİDOR** (M-0638) | `data/koridor_yama_f5c9a5.js` | **BİTTİ+TESLİM** |
+| 4 | **KOL D · ikinci halka** (M-0695) | `data/koridor_f5c9a5.js` | **BİTTİ+TESLİM** |
+
+---
+
+# GÖREV 3-4 — KOL D · KORİDOR (unsur ⑤)
+
+## ⓪ İKİ TESLİM, SAYIYLA
+
+```
+③ KOORDİNAT YAMASI  data/koridor_yama_f5c9a5.js
+   koridor.js'in 26 koordinatsız düğümü → 23'üne koordinat · 3'ü veride YOK
+   🔴 ÇİZİLEN AĞDA PARÇA: 17 → 5   (Boğaz kenarı da inince → 4)
+   çizilebilen düğüm 80 → 103 · kenar 64 → 100
+
+④ İKİNCİ HALKA      data/koridor_f5c9a5.js
+   MISIR kolu   Şam → sahil → Kahire → İskenderiye   11 kenar · KOPUK 0
+   BALKAN kolu  Belgrad → Bosna → Dubrovnik           9 kenar · KOPUK 0
+   dosya toplamı 37 → 59 düğüm · 33 → 53 kenar · kabul kapısı 6/6
+```
+
+## ① 🔴 BU KOLUN EN DEĞERLİ BULGUSU — KORİDOR, YOĞUNLUĞUN BAĞIMSIZ ÖLÇÜSÜ
+
+```
+Mısır      yoğun coğrafya  → 11 kenar ·  0 kopuk
+Balkan     yoğun coğrafya  →  9 kenar ·  0 kopuk
+ilk dört kol (İran·Rusya·Lehistan·Venedik) → 6 kopuk
+Hindistan  SEYREK (ölçüldü, yazılmadı) → 15 kenar · 7 KOPUK (%47)
+```
+⇒ **Kopukluk koridorun değil, VERİ YOĞUNLUĞUNUN özelliği.** Yoğun yerde
+ara durak aramak hiç gerekmedi; seyrek yerde yarısı koptu.
+📌 Ve Hindistan'ın seyrekliği bugün **başka bir yoldan** da ölçüldü:
+393 noktanın 384'ünde TDV adresi yok. **İki bağımsız ölçüm, aynı hüküm.**
+⇒ `BES-ALTYAPI ②` (yerleşim) ile `⑤` (koridor) arasında ölçülmüş bir bağ:
+`A` kolu km²/nokta sayıyor, koridor *"ara durak bulabildim mi"* diye soruyor.
+
+## ② KOL A'YA DEVREDİLEN — beş ÖLÇÜLMÜŞ aralık
+
+```
+Delhi–Agra          180 km · arada HİÇBİR nokta yok  ← iki başkent arası
+Feyzâbâd–Patna      326 km
+Patna–Murşidâbâd    353 km
+Koil–Kannauc        203 km
+Sirhind–Pânipat     150 km
++ Yukarı Mısır: Asyût · Kena YOK ⇒ Nil kolu yazılamadı
+```
+Her biri kapandığında bir koridor kenarı banda giriyor. *"Nokta lazım"*
+değil, **adreslenmiş boşluk.**
+
+## ③ İKİ BAĞIMSIZ ÖLÇÜM BİRBİRİNİ DÜZELTTİ (M-0100 ↔ M-0277 · çakıştırma M-0558)
+
+```
+o beni  : `Firecik` veride YOK demiştim → `Ferecik (Feres)` VAR, tek harf
+ben onu : `Yenişehir` → Bursa demişti  → doğrusu Larissa
+          (zincir lanzaka→yenisehir→izdin→istefe Teselya'da;
+           Larissa komşularına 135 ve 84 km · Bursa 560 ve 620 km)
+```
+🟢 Ve `Yenişehir` kararı **ancak yama inince sınanabilir oldu** — komşuları
+koordinat kazandı. **Yama, kendi kararlarından birini doğrulanabilir kıldı.**
+
+## ④ AD ALANI ÇAKIŞMASI — dosya sahipliğinin GÖRMEDİĞİ kusur
+
+İki oturum aynı kola verilmişti ve ikisi de `window.KORIDOR_YAMA` yazdı —
+biri DİZİ, öteki NESNE. Birlikte yüklenirse **23 düğüm + 1 kenar → ya 23 ya 1.**
+```
+benim kapım  kendi dosyamı okuyor   → tek başına KUSURSUZ
+onun kapısı  kendi dosyasını okuyor → tek başına KUSURSUZ
+çakışma      İKİSİ AYNI ANDA YÜKLENİNCE doğuyor
+```
+⇒ `§7` **dosyayı** koruyor, **ad alanını** korumuyor. Çare: kapıya *"eski ad
+hâlâ tanımlı mı"* dalı (üreteç her koşuda dosyayı baştan yazdığı için
+elle düzeltmek yetmezdi).
 
 ---
 
