@@ -66,6 +66,15 @@ KUYRUK = [
     ("RENK-AFRIKA.md",
      "10 renksiz kimlik (mali·songhay·oyo·dahomey·sokoto…) — "
      "arac/renkler.py; nokta partileri BAĞLAMADAN önce gerekli"),
+    # 🔴 SIRA: KRONOLOJİ en üstte değil ama EN ACİL — yayın kapısını
+    # açan TEK iş o. Kuyruk sırası "önce gelen alır" olduğu için üste
+    # koymuyorum; boşta kalan İLK oturum zaten onu alacak.
+    ("KRONOLOJI-KIRILMA.md",
+     "🔴 YAYINI AÇAN TEK İŞ — Değişmez 2'de 4 açık kırılma, madde "
+     "bekliyor. Küçük ve kapalı iş. Sonnet yeter."),
+    ("KORIDOR-HALKA2B.md",
+     "altyapı ⑤ — İran·Rusya·Lehistan·Venedik kolları; Avusturya kolu "
+     "yazıldı, dördü kaldı. Opus."),
 ]
 
 # Bir görevin ALINMIŞ sayılması için tahtada aranan desen. Sahiplik
