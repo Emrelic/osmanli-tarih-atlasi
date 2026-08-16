@@ -116,4 +116,10 @@ window.KADEME_YAMA = [
   {ad:"Bistâm", kaynak:"bulunamadi", neden:"kaynak susuyor — TDV'de madde ARANDI, yok. Denenen sluglar: bistam"},
   {ad:"Senendec (Sine)", kaynak:"bulunamadi", neden:"kaynak susuyor — TDV'de madde ARANDI, yok. Denenen sluglar: senendec · sine · erdelan"},
   {ad:"Sokotra", kaynak:"bulunamadi", neden:"kaynak susuyor — TDV'de madde ARANDI, yok. Denenen sluglar: sokotra · sukutra"},
+  {ad:"Ahar (Karadağ)", kaynak:"bulunamadi", neden:"kaynak susuyor — TDV'de madde ARANDI, yok. Denenen sluglar: ahar = YANLIS MADDE (hat sanatinda 'ahar') · KAPSAYICI: tebriz — govdede 'Ahar' 0 KEZ geciyor"},
+  {ad:"Miyâne", kaynak:"bulunamadi", neden:"kaynak susuyor — TDV'de madde ARANDI, yok. Denenen sluglar: miyane 302 · KAPSAYICI: tebriz — govdede 'Miyane' 0 KEZ geciyor"},
+  {ad:"Sarâb", kaynak:"bulunamadi", neden:"kaynak susuyor — TDV'de madde ARANDI, yok. Denenen sluglar: sarab 302 · KAPSAYICI: tebriz — govdede 'Sarab' 0 KEZ geciyor"},
+  {ad:"Salyan", kaynak:"bulunamadi", neden:"kaynak susuyor — TDV'de madde ARANDI, yok. Denenen sluglar: salyan 302 · KAPSAYICI: sirvan — ad GECIYOR ama yalniz fetih listesinde ('Semahi, Kabala, Baku, Saburan, Mahmudabad, Salyan ve Derbend Osmanli kontrolune girdi'), MERTEBE beyani YOK"},
+  {ad:"Kuba", kaynak:"bulunamadi", neden:"kaynak susuyor — TDV'de madde ARANDI, yok. Denenen sluglar: kuba 302 · KAPSAYICI: sirvan — ad GECIYOR ama yalniz 1719/1721 yagma baglaminda, MERTEBE beyani YOK"},
+  {ad:"Zagem (Kaheti)", kaynak:"bulunamadi", neden:"kaynak susuyor — TDV'de madde ARANDI, yok. Denenen sluglar: zagem 302 · KAPSAYICI: karabag — 1593 nahiye listesinde 'Zegem Arani' var, AMA bizim Zagem Kaheti'de (41,70/45,78), 'Aran' ise Karabag ovasi; AYNI YER OLDUGU OLCULEMEDI, yakin-ad benzerligiyle mertebe atanmadi"},
 ];
