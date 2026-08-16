@@ -270,13 +270,17 @@ window.KADEME_YAMA = [
   //   Muvahhid · Merînî · Portekiz 1415 · İspanya 1668) ve mertebe sorusuna
   //   biri HİÇ, öteki UFUK DIŞI cevap veriyor.
 
+  {ad:"Dârülbeyzâ (Anfa)", k:1,
+   kaynak:"TDV darulbeyza (gövdesi okundu)",
+   neden:"Kaynağın KENDİ terimi: 'TÂMİSNÂ EYALETİNİN MERKEZİ haline geldi' ve 'bir VALİ ile KADI tarafından yönetilen şehir'. Eyalet merkezi = vilâyet düzeyi merkez ⇒ k:1. Merînîler zamanında (XIII. yüzyıldan itibaren), yani atlas ufkunun (1281) başına denk geliyor ve içinde sürüyor. ⚠️ kd: YAZMADIM: 'XIII. yüzyıldan itibaren' bir YÜZYIL, bir TARİH değil; ufkun başlangıcıyla çakışıyor ve kesin gün uydurmak gerekirdi. Madde ayrıca XV. yy Portekiz işgalini ve XVIII. yy'da Mevlây Muhammed b. Abdullah'ın YENİDEN İNŞASINI anıyor ama bu dönemler için mertebe VERMİYOR"},
+
   {ad:"Sebte (Ceuta)", k_yok_sebep:"kaynak-susuyor",
    kaynak:"TDV sebte (gövdesi okundu)",
    neden:"kaynak susuyor — madde hâkimiyet zincirini eksiksiz veriyor ('Abdülmü'min'in 543 (1148) yılında Sebte'ye girmesiyle şehir kalıcı bir şekilde Muvahhidler'in hâkimiyetine geçti' · Portekiz işgali 818/1415 · 1668'den İspanya) ama İDARÎ MERTEBEYİ AÇIKÇA VERMİYOR. İkinci kez soruldu, cevap yine 'mertebe verilmiyor'"},
 
   {ad:"Tanca", k_yok_sebep:"menzil-disi",
    kaynak:"TDV tanca (gövdesi 2 kez okundu, birebir alıntı istenerek)",
-   neden:"🔴 MERTEBE BEYANI VAR AMA CÜMLENİN TARİHİ UFUK DIŞI. Birebir alıntı: 'BÖLGENİN İDARÎ MERKEZİ ve Mûsâ b. Nusayr'ın ordularının Atlas Okyanusu ile Cebelitârık sahillerinin temas sahasındaki ilk askerî üssü olan Tanca...'. 'Bölgenin idarî merkezi' bir mertebe beyanıdır — ama cümlede anılan tek tarih 89/708 (Emevî fethi), atlas ufkundan (1281-01-01) 573 YIL ÖNCE. Ufuk İÇİNDEKİ mertebesi için madde konuşmuyor. ⚠️ Madde ayrıca Mevlây İsmâil döneminde 'Fas'ın diplomatik merkezi' diyor — DİPLOMATİK, idarî DEĞİL; onu mertebe saymadım"},
+   neden:"🔴 MERTEBE BEYANI VAR AMA CÜMLENİN TARİHİ UFUK DIŞI. Birebir alıntı: 'BÖLGENİN İDARÎ MERKEZİ ve Mûsâ b. Nusayr'ın ordularının Atlas Okyanusu ile Cebelitârık sahillerinin temas sahasındaki ilk askerî üssü olan Tanca...'. Bu bir mertebe beyanıdır — ama cümlede anılan tek tarih 89/708 (Emevî fethi), atlas ufkundan (1281-01-01) 573 YIL ÖNCE. ⚠️ Madde ayrıca Mevlây İsmâil döneminde 'Fas'ın diplomatik merkezi' diyor — DİPLOMATİK, idarî DEĞİL; mertebe saymadım. 🟢 VE UFUK İÇİ AYRICA SORULDU (3. çekiş): Merînî (1269-1465), Portekiz (1471-1661) ve İngiliz (1661-1684) dönemleri tek tek soruldu, cevap 'Merînîler döneminde spesifik idarî unvan belirtilmemiştir' · Portekiz için 'daha ziyade boğazın kontrolünü sağlayan ASKERÎ BİR LİMAN olarak kullandı' · sonuç: '1281 SONRASI dönemler için idarî mertebe ifadesi YOKTUR'. Yani kova iki yönden de ölçüldü: beyan ufkun GERİSİNDE, ufuk İÇİ ise SESSİZ"},
 
   {ad:"Rabat", k:1,
    kaynak:"TDV rabat (gövdesi okundu)",
