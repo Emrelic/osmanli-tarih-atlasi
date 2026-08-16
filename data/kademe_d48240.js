@@ -352,6 +352,21 @@ window.KADEME_YAMA = [
    kaynak:"TDV darfur (gövdesi okundu) + `ed-dain` slug'ı 302 + arama sayacı OKUNDU (29 sonuç, hepsi eşadlı)",
    neden:"müstakil maddesi YOK ve kapsayıcı `darfur` maddesi bu adı HİÇ ANMIYOR. 🔴 ARAMA SAYACI 29 İÇERİK SONUCU VERDİ — kovanın EN YÜKSEK sayısı — AMA HEPSİ EŞADLI: AHMED-i DÂÎ · DÂÎ · BOHRÂ · DÂRÜLHİKME · CÂMASBNÂME, hepsi 'dâî' (İsmâilî davetçi) maddeleri. Dârfûr'daki Ed-Da'în ile ilgisi YOK. 📌 En yüksek sayı en alakasız sonuç çıktı — sayı büyüklüğü alaka göstergesi DEĞİL"},
 
+  // ==========================================================================
+  // PARTİ 8 — B BLOĞU (Sahra altı Afrika) AÇILDI. 18 slug ölçüldü, 10 canlı:
+  // habesistan · berbera · zeyla · cibuti · makdisu · somali · masavva ·
+  // sudan · mehdi · habes-eyaleti. (ölü: hargeysa · ankober · dese · gonder ·
+  // sevakin · harer · ogaden · fasoda)
+  //
+  // 🔴 VE BU KAYIT M-0644'ÜN YENİ MERDİVENİNE GÖRE YAZILDI (ilk kaydım).
+  // Koordinatör: "YENİ KAYIT bu merdivene göre yaz — geriye dönük düzeltme
+  // AYRI iş." Uydum: eski dört kaydım (k:2 olması gereken) DEĞİŞMEDİ,
+  // bu yeni kayıt yeni merdivende yazıldı.
+
+  {ad:"Berbera", k:2,
+   kaynak:"TDV berbera (gövdesi okundu)",
+   neden:"BİREBİR ALINTI: 'bölgede Berberâ MERKEZ olmak üzere İngiliz Somalisi adıyla bir himaye idaresi kurdu (1887)' ve '1941'e kadar İngiliz Somalisi'nin MERKEZİ olarak kalan Berberâ'. 1887-1941 arası merkez; 1887-1923 atlas ufkunun İÇİNDE. ⇒ YENİ MERDİVENDE k:2: Berbera bir HİMAYE İDARESİNİN merkezi, ama o idare `ingiltere`nin bir parçası ve İngiltere'nin başkenti Londra. Yani BAŞKENT DEĞİL, eyalet/bölge düzeyi merkez (M-0644: 'EYALET/VİLAYET/BÖLGE merkezi — BAŞKENT DEĞİLSE k:2'). ⚠️ kd: YAZMADIM: 1887 ÖNCESİ için madde mertebe vermiyor (Adal döneminde 'Harar'ı merkez haline getirdi' diyor — merkez HARAR, Berbera değil)"},
+
   // C BLOĞU — Fas kıyısı, iki kayıt ve İKİSİ DE FARKLI KOVAYA düştü.
   // 📌 Ve ikisi birlikte "hâkimiyet ≠ mertebe" dersini üçüncü kez gösteriyor:
   //   her iki madde de zengin hâkimiyet zinciri veriyor (Emevî · Murâbıt ·
