@@ -110,16 +110,59 @@ tercih ediyorum — `§7.1 ④`ün ters yüzü: *ölçmediğini `ölçmedim` diy
 
 ## 🔴 KOŞUDAN SONRA — kaç kalem TUTTU, kaç kalem ÇÜRÜDÜ
 
-| # | kalem | mazeret | öngörü | ölçüm | sonuç |
+**KOŞU: 16 Ağustos 2026 · 13:59:36 → 15:58:02 · 1s 58dk 25sn · `kosu_epok_16agu.log`**
+
+| # | kalem | mazeret | öngörü | ÖLÇÜM | sonuç |
 |---|---|---|---|---|---|
-| ① | paylaştırma satırı basılır | 🔴 yok | basar | | |
-| ② | **alan korunumu** | 🔴 yok | toplam AYNI · artık <1.000 km² | | |
-| ③ | paylaştırılan pay | 🟡 seyreklik | ≥45/52 · tek≤5 · komşusuz≤2 | | |
-| ④ | toplam kova | 🟡 taban | 45–60 | | |
-| ⑤ | Değişmez 1 (İŞ 2 ekseni) | 🔴 yok | değişmez | | |
-| ⑥ | boşalan petek | 🔴 yok | 0 | | |
-| ⑦ | süre | 🟡 bileşen | +1–5 dk | | |
-| ⑧ | harita etkisi | — | **ÖNGÖRMÜYORUM** | | |
+| ① | paylaştırma satırı basılır | 🔴 yok | basar | basıldı 14:30:43 | ✓ TUTTU |
+| ② | **alan korunumu** | 🔴 yok | toplam AYNI · artık <1.000 km² | **538.419 km² BİREBİR** · artık satırı BASILMADI | ✓ TUTTU |
+| ③ | paylaştırılan pay | 🟡 seyreklik | ≥45/52 · tek≤5 · komşusuz≤2 | **52 · 0 · 0** | ✓ TUTTU |
+| ④ | toplam kova | 🟡 taban | 45–60 | 52 | ✓ TUTTU |
+| ⑤ | Değişmez 1 (İŞ 2 ekseni) | 🔴 yok | değişmez | 196 → **196** | ✓ TUTTU |
+| ⑥ | boşalan petek | 🔴 yok | 0 | **0** | ✓ TUTTU |
+| ⑦ | süre | 🟡 bileşen | +1–5 dk | 8 sn → **1dk 38sn** (+1dk 30sn) | ✓ TUTTU |
+| ⑧ | harita etkisi | — | **ÖNGÖRMÜYORUM** | ölçüldü, aşağıda | — |
+
+**SEKİZ KALEMİN YEDİSİ ÖLÇÜLDÜ, YEDİSİ DE TUTTU. ÇÜRÜYEN: 0.**
+
+---
+
+## ⑧ HARİTA ETKİSİ — öngörmedim, ÖLÇTÜM (İŞ 1 koşusuyla yan yana)
+```
+                        İŞ 1 koşusu      İŞ 2 koşusu      fark
+dönem sayısı            513              513              0
+havuz — eşsiz halka     2.767            2.751            −16
+havuz — eşsiz parça     2.701            2.682            −19
+serbest kenar (hat)     268              251              −17
+dosya boyutu            22.279 KB        22.347 KB        +68 KB
+ilk kesit alanı         0,00 mn km²      0,00 mn km²      aynı
+son kesit alanı         0,79 mn km²      0,79 mn km²      aynı
+motorun doğrulaması     geçerli ✓        geçerli ✓
+```
+```
+ÖLÇTÜĞÜM     havuz ve serbest kenar KÜÇÜLDÜ, dosya BÜYÜDÜ, kesit alanları AYNI
+ÇIKARDIĞIM   paylaştırma gövde SINIRLARINI değiştirdi ama TOPRAK MİKTARINI
+             değiştirmedi — beklenen davranış, ve ② ile tutarlı
+ÖLÇMEDİĞİM   🔴 hangi DEVLETİN ne kadar kazandığı/kaybettiği. Serbest kenarın
+             268 → 251 düşmesi "sahipsiz alanla sınırdaş gövde kenarı azaldı"
+             demek; bunun hangi bölgede olduğunu TARAMADIM. Ayrı bir iş.
+```
+📌 **Serbest kenarın azalması anlamlı bir işaret:** doğmamış peteğin toprağı tek bir komşuya bütün gitmek yerine birkaç komşuya bölününce, sahipsiz alana bakan kenarlar daha az ve daha kısa parçalara ayrılıyor. Yani paylaştırma yalnız "kime ait" sorusunu değil, **sınırın biçimini** de düzeltiyor.
+
+---
+
+## `§9` RENK KAPILARI — koşudan sonra zorunlu
+```
+renk_olc.py    0 görünmez · 0 çakışma · 0 aynı-hex · 8 yakın-ama-değmeyen · ÇIKIŞ 0
+renk_fark.py   0 doğan kusur · 0 düşen çift · 0 yakın-çift regresyonu
+               🔴 ÇIKIŞ 1 — sebebi BENİM DEĞİŞİKLİĞİM DEĞİL:
+               "VERİDE kullanılıyor, künyesi YOK 32 (+32)" +
+               "künye var ama harita: BAŞKA anahtarda 1 (+1)"
+               = bugün bağlanan Amerika noktalarının kimlikleri.
+               Üç ölçüt de (doğan/düşen/regresyon) SIFIR.
+```
+⚠️ **VE BİR ÖZ-DÜZELTME:** İŞ 1 raporumda `renk_fark` için *"ÇIKIŞ 0"* yazmıştım. **Yanlıştı** — bash'te `py … | tail -25; echo $?` yazmışım ve o **`tail`in çıkış kodunu** ölçüyor, `py`ninkini değil. Doğru ölçüm PowerShell'de `$LASTEXITCODE` ile yapıldı: **çıkış 1, ve o gün de 1'di.** Sayılar değişmedi, **ölçüm aletim yanlış yeri okuyordu.**
+📌 `§11`in *"aletin gösterdiği ≠ dosyada yazan"* dersinin boru hattı yüzü: **borunun çıkış kodu, borudaki İLK komutun değil SONUNCUSUNUN kodudur.**
 
 📌 `§11`: *"beş öngörülük bir kümede bilgiyi yalnız YANLIŞ OLAN taşıdı."*
 İŞ 1'de dokuz kalemin ikisi çürüdü ve **ikisi de bir şey öğretti**; tutan
