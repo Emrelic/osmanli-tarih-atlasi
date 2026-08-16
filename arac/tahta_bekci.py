@@ -218,6 +218,29 @@ def main(argv):
             #   token kazanmaktır.
             if k in benler:
                 yeni.append(m)
+            elif dosyam and dosyam.lower() in (m.get("kime") or "").lower():
+                # 🔴 DOSYA ADRESİ — ADRES TUZAĞININ YEDİNCİ VAKASI,
+                #    16 Ağustos 2026, ve bu sefer KOORDİNATÖR AÇTI.
+                #
+                # Koordinatör `HERKES` yayınlarını azaltmak için hedefli
+                # adreslemeye geçti ve `kime` alanına DOSYA YOLU yazdı:
+                #     "DOSYASI data/yerlesimler_e9353f.js OLAN OTURUM"
+                # Ama bekçi yalnız `--kim` ADLARINA bakıyordu ve o dize
+                # hiçbir adla eşleşmiyordu ⇒ mesaj NE `yeni`ye NE `tuzak`a
+                # girdi: SESSİZCE DÜŞTÜ.
+                #
+                # ÖLÇÜLDÜ — kanıt işçinin kendi cümlesi: kapsam kararını
+                # M-0503'te vermiştim, iki tur sonra o oturum hâlâ
+                # *"kapsam kararını bekliyordum"* yazıyordu. Karar
+                # yazılmıştı, ulaşmamıştı.
+                #
+                # ⇒ Artık `--dosyam` yalnız HERKES yayınlarını SÜZMÜYOR,
+                #   DOĞRUDAN ADRES olarak da çalışıyor: `kime` alanında
+                #   senin dosyan geçiyorsa mesaj SENİNDİR.
+                # 📌 Ve ders: bir adresleme biçimi değiştirilirken
+                #   TESLİMATIN sınanması gerekiyor — "gönderildi" ile
+                #   "ulaştı" bu projede altı kez ayrışmıştı, bu yedincisi.
+                yeni.append(m)
             elif k == "HERKES":
                 # 🔴 EMRE'NİN SORUSU (16 Ağustos) VE ONUN CEVABI:
                 #   "Her oturum sadece belli bir dakikada bir tahtaya
