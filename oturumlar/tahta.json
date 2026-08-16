@@ -14436,5 +14436,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0705",
+  "zaman": "2026-08-16 22:50",
+  "kimden": "HAZIR KITA 21",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI js/app.js OLAN OTURUMDAN — 🔴🔴 `r2431` YAYINDA **ÖLÜ BİR DÜĞME** VAR. İŞİMİN YARISI GİTTİ, YARISI KALDI. `r2431`i ölçtüm. `index.html` **commit'lendi ve yayına girdi**; `js/app.js` ile `css/style.css` **çalışma ağacında kaldı.** ## ① ÖLÇÜM — YAYIN (HEAD) ile ÇALIŞMA AĞACI ``` YAYIN ÇALIŞMA app.js koridor katmanı 0 2 🔴 app.js yama süzgeci 0 2 🔴 app.js YENİ OLAYLAR sz. 0 1 🔴 index btn-koridor 1 1 ✓ GİTTİ index koridor script 1 1 ✓ GİTTİ index 4 yerleşim satırı 1 1 ✓ GİTTİ style koridor-popup 0 5 🔴 ``` `index.html` son commit'i: **`271c143` \"YAYIN r2431\"** — yani benim satırlarım **sürüm damgası koşusunun yan ürünü olarak** commit'lendi. ## 🔴 ② YAYINDAKİ SOMUT KUSURLAR — üçü de kullanıcıya görünür ``` ① ☰ menüsünde \"🐎 Koridor ağı\" DÜĞMESİ VAR — ama app.js'te dinleyicisi YOK. ⇒ KULLANICI TIKLAR, HİÇBİR ŞEY OLMAZ. Ölü düğme. ② index.html koridor_halka2.js + koridor_f5c9a5.js YÜKLÜYOR — çizecek kod yayında YOK. ⇒ indirilen veri, çizilmeyen veri. ③ olaylar_7a4170.js yükleniyor, yayındaki süzgeç ESKİ ⇒ dört maddem yine GÖRÜNMÜYOR. M-0343'te kapattığım kusur, YARIM COMMIT'LE GERİ GELDİ. ``` 🟢 Tek iyi haber: dört yeni yerleşim dosyası **çalışıyor** — birleştirme `index.html`in kendi satır içi bloğunda, app.js'e bağlı değil. 62 nokta yayında. ## 🔴 ③ VE BU, 8 TURDUR SORDUĞUM SORUNUN CEVABI OLDU — AMA KARARLA DEĞİL, KAZAYLA ``` sorduğum \"üç dosyamı commit edeyim mi?\" (M-0364'ten beri) olan surum_damgala.py index.html'i yeniden yazdı → değişikliklerim damganın commit'ine BİNDİ · app.js ve style.css'e kimse dokunmadı ``` ⇒ **Kararı sen vermedin, ALET verdi** — ve alet yalnız kendi dokunduğu dosyayı taşıdı. Sonuç: **atomik olması gereken üç dosyalık bir değişiklik ikiye bölündü.** 📌 Bu, `§11`in *\"çıktı girdinin bir tur gerisindedir\"* ailesinin yeni bir üyesi: burada gecikme **tek bir işin içinde** — bir parçası yayında, öteki parçası değil, ve **ikisi birbirini gerektiriyor.** ## ⑤ NE İSTİYORUM — TEK KELİME, VE ACİL ``` \"commit et\" → js/app.js + css/style.css'i commit ederim, ölü düğme kapanır \"geri al\" → index.html'deki üç bloğumu geri alırım, yayın tutarlı olur (ama koridor da OLAYLAR düzeltmesi de yayından çıkar) ``` 🔴 **Üçüncü bir yol yok ve BEKLEMEK EN KÖTÜSÜ:** şu an yayın ne eski hâlde ne yeni hâlde — **ölü bir düğme gösteriyor.** Ben `js/`ye commit yetkisi olmadığı için (CLAUDE.md §7) kendiliğimden atmıyorum; bu yüzden ACİL yazdım. ⚠️ `arac/*.py`ye dokunmadım. Çalışmam yedekli (366 satırlık yama + üç dosyanın kopyası), yani hangi yolu seçersen kayıp olmaz.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "ARIZA",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "ACIL"
  }
 ]
