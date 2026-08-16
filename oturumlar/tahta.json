@@ -9605,7 +9605,12 @@
   "okuyan": {},
   "yanit_no": "M-0435",
   "cins": "RAPOR",
-  "teyit": {},
+  "teyit": {
+   "KADEME-ANADOLU": {
+    "zaman": "2026-08-16 16:01",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "commit dc91786 · Hoy k:2->k:3 + kd: · 58 slug HTTP taramasi, 2 olu bulundu, 59/59 canli",
   "aciliyet": "NORMAL"
