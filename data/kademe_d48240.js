@@ -363,6 +363,47 @@ window.KADEME_YAMA = [
   // AYRI iş." Uydum: eski dört kaydım (k:2 olması gereken) DEĞİŞMEDİ,
   // bu yeni kayıt yeni merdivende yazıldı.
 
+  // ==========================================================================
+  // 🟡 A BLOĞU (Rusya, 124 nokta) — KAYNAK DURUMU. Kayıt YOK, ama bir
+  // sonraki oturum aynı aramaları TEKRARLAMASIN diye yazılıyor.
+  //
+  // ① TDV KAPALI — ölçüldü, 22/22 slug ÖLÜ:
+  //    sviyajsk · yelabuga · cistopol · menzelinsk · birsk · sterlitamak ·
+  //    orsk · simbirsk · samara · tsaritsyn · arhangelsk · vologda ·
+  //    perm · kola · solovki · novgorod · ryazan-knezligi · tver--sehir ·
+  //    kazan--sehir · saratov--sehir · smolensk--sehir · kirim-hanligi--tarih
+  //    ⇒ TDV hanlık MERKEZLERİNİ çok iyi veriyor, Rus taşra şehirlerini HİÇ.
+  //
+  // ② JSTOR — "aradım, ERİŞEMEDİM" (İKİ KEZ denendi, kapanmadı)
+  //    R. Jones, "The Territorial Reform of the Russian Empire 1775-1796"
+  //    jstor.org/stable/pdf/20170007.pdf → iki denemede de yüklenmedi.
+  //
+  // 🟢 ③ VE BİR AÇIK ERİŞİM KAYNAK BULUNDU — ama ARADIĞIMI VERMİYOR
+  //    John P. LeDonne, "Administrative regionalization in the Russian
+  //    empire", Cahiers du monde russe 43/1 (2002), s. 5-34
+  //    journals.openedition.org/monderusse/8478 — TAM METİN AÇIK.
+  //    Birebir alıntı:
+  //      "In November 1819, the emperor appointed Alexander Balashev
+  //       governor general of five provinces (Riazan, Tula, Orel,
+  //       Voronezh, and Tambov)."
+  //      "Admiral Alexei Klokachev, the governor general of Arkhangelsk,
+  //       Vologda, and Olonets ... port commander in Arkhangelsk."
+  //    🔴 AMA BUNLAR GUBERNIYA (vilâyet) ADLARI, ŞEHİR DEĞİL. Bir
+  //    guberniyanın merkez ŞEHRİNİN aynı adı taşıması KONVANSİYONDUR
+  //    ve bu makale onu SÖYLEMİYOR ⇒ kayıt yazmak İNANÇ olurdu, ölçüm
+  //    değil. Sekiz kaydı bir konvansiyon üzerine yazmadım.
+  //    ⚠️ Makalede tam aradığım şey VAR: "Table 1. Regional headquarters"
+  //    — ama tablo bir JPEG (894k) ve metin olarak OKUNAMIYOR.
+  //    ⇒ Engel artık "kaynak yok" değil, "kaynak var ve tablosu GÖRÜNTÜ".
+  //    Bir sonraki oturum o tabloyu okuyabilirse 124 noktanın büyük
+  //    kısmı tek hamlede çözülür.
+  //
+  // 📌 Ve bu üç satır bir DURUM DEĞİŞİKLİĞİ kaydıdır:
+  //    başlangıç  "aradım, ERİŞEMEDİM"          (JSTOR)
+  //    şimdi      "buldum, ERİŞİLEBİLİR, ama aradığım kısım GÖRÜNTÜ"
+  //    İkincisi birincisinden ÇOK daha iyi bir yer — ve ikisi de
+  //    "yok" DEĞİL.
+
   // ---- SOMALİ — kapsayıcı madde ADLARI SAYIYOR, MERTEBE VERMİYOR ----
   // TDV `somali` gövdesi okundu. Şehirleri adıyla sayıyor: 'Makdişu,
   // Herceysâ, Bûrâv, Beledvîne, Benderkāsım (Boosaaso), Baytabo,
