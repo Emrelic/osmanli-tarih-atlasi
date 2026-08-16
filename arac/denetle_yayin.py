@@ -344,6 +344,23 @@ CIZILMEYEN_MUAF = {
     # çıktı kıyası için yazılıyor (koşu 9: Osmanlı 9/9 kesitte +0, yabancı
     # 1700-1900 arası +8…+10,7% — Rusya Sibirya'yı, İsveç Lapland'i alıyor).
     "URETIM_OLCU": "çıktı kıyası künyesi — tüketicisi denetle_yayin.py'nin kendisi",
+    # ── YAMA DOSYALARI · 16 Ağustos 2026 ─────────────────────────────
+    # 🔴 Bunlar VERİ DEĞİL, VERİYE UYGULANAN YAMALARDIR. Bir oturum
+    # araştırmasını ayrı bir dosyaya yazar, sahip oturum onu asıl dosyaya
+    # işler, yama TÜKETİLMİŞ olur. Tarayıcının onları yüklemesi YANLIŞ
+    # olurdu: aynı bilgi iki kez girer ve hangisinin canlı olduğu
+    # sorulamaz hâle gelir.
+    # ⚠️ Muafiyet "boş ver" demek DEĞİL — uygulanıp uygulanmadığı ayrı
+    # ölçülüyor: kademe yamaları 245 `k:` + 187 `kd:` olarak indi (0
+    # atlanan), künye yaması 32 kayıt olarak `devletler.js`e girdi
+    # (392 → 424). Uygulanmamış bir yama bu satırın arkasına saklanamaz.
+    "KADEME_YAMA": "yama dosyası — sahibi asıl veriye işler, tarayıcı OKUMAZ",
+    "KUNYE_YAMA": "yama dosyası — devletler.js'e işlendi (392 → 424), tüketildi",
+    # `yerlesimler_8beb2b.js` DOSYA olarak var ama kayıt dizisi BOŞ (0 nokta,
+    # node ile ölçüldü) ve bu yüzden `girdi.py`ye de BİLEREK bağlanmadı.
+    # Yüklemek hiçbir şey eklemez; "bağlı" görünmesi sahibinin işini BİTMİŞ
+    # gösterir. Sahibi yazınca hem buradan hem MUAF'tan çıkar.
+    "YERLESIMLER_8BEB2B": "dosya BOŞ (0 kayıt) — girdi.py'ye de bağlanmadı",
     # 🔴 EK10·EK11·EK12 — BAĞLANMADI, ÇÜNKÜ RENKLERİ YOK. Bağlanırlarsa
     # kimliksiz devlet uyarısı üretir ve haritada renksiz kalırlar. Bekleyen
     # üç kimlik: `sibir-hanligi` · `estonya` · `izlanda` (PETEK/NOKTA PARTİ 19,
