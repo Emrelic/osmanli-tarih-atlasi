@@ -15563,7 +15563,12 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "EMIR",
-  "teyit": {},
+  "teyit": {
+   "NOKTA-AMERIKA": {
+    "zaman": "2026-08-16 23:46",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "DURDURUCU"
