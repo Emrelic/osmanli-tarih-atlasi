@@ -363,6 +363,44 @@ window.KADEME_YAMA = [
   // AYRI iş." Uydum: eski dört kaydım (k:2 olması gereken) DEĞİŞMEDİ,
   // bu yeni kayıt yeni merdivende yazıldı.
 
+  // ---- HABEŞİSTAN / ETİYOPYA — ve YENİ BİR TDV TUZAK ALT-SINIFI ----
+  // 🔴 `habesistan` slug'ı 200 · başlık DOĞRU · ama GÖVDESİ TEK SATIR:
+  //    "bk. ETİYOPYA" — bir ÇAPRAZ GÖNDERME STUB'ı.
+  //    Bugüne kadar ölçülen dört tuzağın hiçbiri değil:
+  //      ① ölü slug 302  ② canlı ama YANLIŞ madde  ③ BOŞ gövde
+  //      ④ BOİLERPLATE (madde var, alınamıyor)
+  //      ⑤ ÇAPRAZ GÖNDERME STUB'ı ← YENİ, ve TEK FARKI: doğru adresi
+  //        KENDİSİ VERİYOR. "Çekilemedi" demek YANLIŞ olurdu; gövde
+  //        eksiksiz geldi, içeriği bir YÖNLENDİRME.
+  //    ⇒ `etiyopya` açıldı ve üç TARİHLİ başkent değişimi verdi.
+  //
+  // 🟡 VE ÜÇÜ DE `k:1` mi `k:2` mi — CEVAPSIZ SORUYA BAĞLI (M-0700 §③):
+  //    Emre'nin "büyük imparatorluk" örnekleri İstanbul · Moskova ·
+  //    Kahire · Tebriz · Madrid · Paris · Londra · Viyana — Afrika YOK.
+  //    Etiyopya bu ölçekte mi, Fas gibi SINIRDA. ⇒ Muhafazakâr davranıp
+  //    `k:2` yazdım (proje kuralı: emin olamadığında BİR KADEME AŞAĞI).
+  //    Hüküm gelirse ikisini de `k:1`e çekerim, tek satır.
+
+  {ad:"Addis", k:2,
+   kaynak:"TDV etiyopya (gövdesi okundu — `habesistan` stub'ından yönlendirildi)",
+   neden:"BİREBİR: 'Menelik...Adisababa'yı BAŞŞEHİR yaptı (1890)' ve 'Ülkenin en büyük şehri aynı zamanda başşehir olan orta bölgedeki Adisababa'dır'. 1890-1923 atlas ufkunun İÇİNDE. 🟡 k:2 MUHAFAZAKÂR: Etiyopya Emre'nin 'büyük imparatorluk' örnek listesinde YOK (o listede Afrika hiç yok) — Fas dörtlüsüyle AYNI sınırda soru. Hüküm 'evet imparatorluk' derse k:1 olur"},
+
+  {ad:"Mekdelâ", k:2,
+   kaynak:"TDV etiyopya (gövdesi okundu)",
+   neden:"BİREBİR: 'Arkasından Magdala'yı BAŞŞEHİR yaptı' — II. Tewodros döneminde (1855-1868). Veride `tur:\"kale\"` ve bu ÇELİŞMİYOR: bir kale başşehir yapılabilir, nitekim yapılmış. ⚠️ kd: YAZMADIM: kaynak başşehir olduğu YILI vermiyor (yalnız Tewodros'un saltanat aralığı biliniyor) ve saltanat yıllarını kendim koymak uydurma olurdu. 🟡 k:2 gerekçesi Addis ile aynı"},
+
+  {ad:"Dese", k_yok_sebep:"kaynak-susuyor",
+   kaynak:"TDV etiyopya (gövdesi okundu) + `dese` slug'ı 302",
+   neden:"kaynak susuyor — madde Dese'yi 'Gonder, Diredava, Nazret, DESSE, Makalle, Harar' arasında ÖNEMLİ ŞEHİR olarak sayıyor ama açıkça 'başkent statüsü VERİLMEMEKTEDİR' ve başka bir idarî mertebe de vermiyor. Müstakil maddesi de yok"},
+
+  {ad:"Ankober", k_yok_sebep:"kaynak-susuyor",
+   kaynak:"TDV etiyopya (gövdesi okundu) + `ankober` slug'ı 302",
+   neden:"kaynak susuyor — madde başkent değişimlerini Aksum → Gondar (1636) → Magdala → Adisababa (1890) diye sayıyor ve Ankober'i BU ZİNCİRDE ANMIYOR. Şevâ krallığının merkezi olduğu bilinir ama BU KAYNAK söylemiyor; müstakil maddesi de yok"},
+
+  {ad:"Debre Tabor", k_yok_sebep:"kaynak-susuyor",
+   kaynak:"TDV etiyopya (gövdesi okundu) + slug 302",
+   neden:"kaynak susuyor — başkent zincirinde ANILMIYOR, önemli şehirler listesinde de YOK. Müstakil maddesi yok"},
+
   {ad:"Mogadişu", k:1,
    kaynak:"TDV makdisu (gövdesi okundu — `mogadisu` slug'ı CANLI ama GÖVDESİ BOŞ, CLAUDE.md §4'te kayıtlı)",
    neden:"İKİ mertebe beyanı var, k:1'i BİRİNCİSİ veriyor: ① 'VII. (XIII.) yüzyılda Ebû Bekir b. Fahreddin burada küçük bir SULTANLIK kurmayı başardı' — kendi müstakil siyasî yapısının merkezi ⇒ k:1 (M-0644: 'BAŞKENT, hangi devlet olursa olsun'). ② '1911 yılında İtalya Somali'yi sömürge ilân ederek Makdişu'yu BAŞŞEHİR yaptı' — sömürge başşehri. ⚠️ kd: YAZMADIM: sultanlığın BİTİŞ tarihi kaynakta YOK, ve aradaki dönemler (1585 Osmanlı · 1698 Umman · 1905 Zengibar→İtalya satışı) mertebe DEĞİL hâkimiyet bildiriyor"},
