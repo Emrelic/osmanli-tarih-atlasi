@@ -37,8 +37,52 @@ diye ayrıca işaretlidir — **beyan ile yorum karışmasın.**
 
 📐 **ÖLÇÜM (16 Ağustos):** motorda **1. derecenin dördü de var** —
 kıyı çizgisi, 89 göl, 780 akarsu parçası, DEM'den türetilmiş eğim
-yüzeyi (dağ/tepe). **2. derecede yalnız çöl var** (38 çöl poligonu).
-Ova · plato · yayla · bataklık · orman · bozkır: **yok.**
+yüzeyi (dağ/tepe).
+
+🔴 **VE 2. DERECE SATIRI YANLIŞTI — B KOLU ÇÜRÜTTÜ (aynı gün).**
+Bu belge önce şöyle diyordu: *"2. derecede yalnız çöl var. Ova · plato ·
+yayla · bataklık · orman · bozkır: yok."* **Altı kalemin üçü yanlış.**
+`ne_10m_geography_regions_polys.geojson` (5,58 MB · 1047 poligon ·
+23 sınıf) sayıldı:
+```
+sınıf        dosyada  pencerede  MOTORDA
+Range/mtn      222       127     ENGEL olarak KULLANILIYOR
+Plateau         72        34     ENGEL — yani "plato" VAR
+Desert          58        38     çöl tavanı
+Plain           30        16     KASTEN dışarıda — yani "ova" VAR
+Wetlands         3         1     ENGEL — yani "bataklık" VAR
+Gorge            3         2     ENGEL (belgede hiç anılmamıştı)
+```
+```
+plato    ✓ VAR ve motorda ENGEL          (belge "yok" diyordu)
+bataklık ✓ VAR ve motorda ENGEL          (belge "yok" diyordu)
+ova      ✓ VAR ama KASTEN engel değil    (belge "yok" diyordu)
+bozkır   ✗ Natural Earth'te sınıf yok — zaten engel olmayacaktı
+orman    ✗ GERÇEKTEN yok
+yayla    ⚠️ NE'de ayrı sınıf yok; Türkçedeki "yayla" ≈ Plateau
+```
+
+🔴 **ASIL KUSUR SAYIDA DEĞİL SORUDAYDI.** Bu bölümün başlığı *"haritada
+BİLGİ olarak bulunmalı"* diyor; ama *"yok"* hükmü **"motorda ENGEL
+olarak kullanılıyor mu"** sorusunun cevabıydı.
+```
+"VERİ VAR MI"        → plato VAR · bataklık VAR · ova VAR
+"ENGEL SAYILIYOR MU" → plato EVET · bataklık EVET · ova HAYIR
+```
+⇒ İkisi tek kelimeye sıkışınca veri **eksik sanıldı** ve bir oturuma
+*"indir"* işi verildi — oysa dosya **repoda duruyordu.**
+
+🟢 Ve ova'nın dışarıda olması eksiklik değil **yazılı bir karar**
+(`uret_petek.py:546-554`): askerî coğrafya doktrini araziyi
+*unrestricted / restricted / severely restricted* diye ayırıyor, ova ve
+bozkır **unrestricted.** Emre de aynı şeyi söylüyor: *"Ova ve bozkır pek
+engel sayılmıyor."* ⇒ Belge, **kendi alıntıladığı beyanla çelişiyordu.**
+
+⚠️ **KALAN GERÇEK İŞ TEK KALEM: `orman`.** Ve o da tartışmalı — B kolu
+haklı olarak uyardı: 1281-1923 arasında Avrupa ormanlarının sınırı çok
+değişti, **bugünkü orman katmanını 1300'e uygulamak anakronik olur.**
+Emre'nin kendi sınırı da tam buraya değiyor: *"bir yer önce ova iken
+sonra orman olmuş olabilir."* ⇒ Karar Emre'nin.
 
 ---
 
@@ -166,7 +210,7 @@ diyor — bu *"araştırılmadı"* mı *"yok"* mu, henüz bakılmadı.
 
 | # | unsur | durum | kalan |
 |---|---|---|---|
-| ① | topoğrafya | 🟡 1. derece TAM · 2. derecede yalnız çöl | ova·plato·yayla·bataklık·orman·bozkır |
+| ① | topoğrafya | 🟢 1. derece TAM · 2. derecede **plato·bataklık·gorge ENGEL, çöl tavan, ova KASTEN dışarıda** | yalnız **orman** (ve o da anakronizm riski taşıyor) |
 | ② | yerleşimler | 🟡 2589 / ~4000 · `k:` 1220 | ~1400 nokta |
 | ③ | bölgeler topoğrafyaya yaslanır | 🟢 motor kurulu, İLK KEZ koşuyor | koşunun doğrulanması |
 | ④ | doğum/ölüm + boş arazi kuralı | 🟡 `kur:`/`bit:` var · **puanlama KARARI YOK** | Emre'nin (a)/(b) kararı |
