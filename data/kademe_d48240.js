@@ -59,6 +59,19 @@
 //    kayıt için TOPLAM 41 ADRES denendi ve hiçbiri açılmadı.
 //    📌 Kova artık hem doğru ADDA hem de İÇİ ölçülmüş durumda. Negatif
 //    sonuç, ama "denendi" ile "denenmedi" arasındaki farkı kapatıyor.
+//
+// 🟢🟢 VE SONRA DAHA İYİ BİR ALET BULUNDU — TDV ARAMA SAYFASININ SAYAÇLARI.
+//    `arama/?q=<ad>` yalnız madde başlığına değil **MADDE İÇERİKLERİNE**
+//    de bakıyor ve HER BÖLÜM İÇİN SAYI veriyor:
+//        madde başlıklarında · madde içeriklerinde · müelliflerde · kısaltmalarda
+//    ⇒ *"Bu adı ANAN herhangi bir madde var mı"* sorusu artık OKUYARAK
+//      değil, TEK SORGUYLA cevaplanıyor. Slug uydurmaya gerek yok.
+//    ÖLÇÜLDÜ:
+//        Ukek      → içeriklerde VAR (4 madde) ⇒ kova DEĞİŞTİ (kaynak-susuyor)
+//        Beldcamen → HER BÖLÜMDE 0
+//        Kutum     → HER BÖLÜMDE 0
+//    📌 41 slug denemek bir TAHMİN dizisiydi; bu bir ÖLÇÜM. Ve ikisi
+//      farklı şey söylüyor: 41 slug "bulamadım" der, sayaç "YOK" der.
 // 📌 `k:` olan kayıtta bu alan BULUNMAZ — kova yalnız kademesiz kayda ait.
 //
 // A BLOĞU — PARTİ 1: Altın Orda / hanlık çekirdeği + Rus başkenti
@@ -168,7 +181,7 @@ window.KADEME_YAMA = [
 
   {ad:"Beldjamen", k_yok_sebep:"adres-yok",
    kaynak:"TDV altin-orda-hanligi + saray--sehir (ikisinin de gövdesi okundu) — adı İKİSİNDE DE GEÇMİYOR · 4 slug 302",
-   neden:"Ukek'in aksine bu kayıt `adres-yok` KALIYOR ve artık daha güçlü: kapsayıcı madde `altin-orda-hanligi` bulundu, gövdesi okundu ve 17 Altın Orda şehrini adıyla sayıyor — Beldjamen O LİSTEDE YOK. Yani hem müstakil adres yok (beldjamen · bacman · beldzamen · bacman-sehri · vodyansk hepsi 302) hem kapsayıcı madde anmıyor. ⚠️ Ukek AYNI TARAMADA kova DEĞİŞTİRDİ, bu değiştirmedi — ikisini ayıran şey aynı maddenin şehir listesi"},
+   neden:"Ukek'in aksine bu kayıt `adres-yok` KALIYOR ve artık EN GÜÇLÜ dayanağa sahip: TDV ARAMA SAYAÇLARI 'Beldcamen' için HER BÖLÜMDE 0 veriyor — madde başlıklarında 0 · MADDE İÇERİKLERİNDE 0 · müelliflerde 0 · kısaltmalarda 0. Yani ad TDV'nin HİÇBİR maddesinde geçmiyor. Ayrıca kapsayıcı `altin-orda-hanligi` gövdesi okundu, 17 Altın Orda şehrini adıyla sayıyor ve Beldjamen O LİSTEDE YOK. ⚠️ Ukek AYNI taramada kova DEĞİŞTİRDİ (içeriklerde 4 madde), bu değiştirmedi (0) — ikisini ayıran şey artık bir OKUMA değil bir SAYAÇ"},
 
   // ==========================================================================
   // PARTİ 2 — M-0456'nın TÜRETMESİ: devletler.js `baskent:` EŞLEŞTİRMESİ
@@ -278,8 +291,8 @@ window.KADEME_YAMA = [
    neden:"🔴 MERTEBE BEYANI VAR AMA ATLAS UFKUNUN DIŞINDA. Madde: 'bir müdüriyet haline getirilen Dârfûr, yakın yıllarda Dârfûrü'l-cenûbiyye (MERKEZİ NİYÂLÂ) ve Dârfûrü'ş-şimâliyye (merkezi Fâşir) olmak üzere iki alt idarî birime ayrılmıştır'. Nyala bir alt idarî birimin MERKEZİ — ama bu taksimat Sudan'ın bağımsızlığından (1956) SONRA, yani atlas ufkunun (1281-01-01..1923-10-29) DIŞINDA. Ufuk içindeki mertebesi için kaynak SUSUYOR. M-0481'in `menzil-disi` kovası tam bu hâl için vardı ve ilk kez burada kullanıyorum"},
 
   {ad:"Kutum", k_yok_sebep:"adres-yok",
-   kaynak:"TDV darfur (gövdesi okundu) + `kutum` slug'ı 302",
-   neden:"müstakil maddesi YOK ve kapsayıcı `darfur` maddesi bu adı HİÇ ANMIYOR — madde yalnız Fâşir ve Nyala'yı adıyla veriyor. Akademik kaynak gerekiyor"},
+   kaynak:"TDV darfur (gövdesi okundu) + `kutum` slug'ı 302 + ARAMA SAYAÇLARI her bölümde 0",
+   neden:"müstakil maddesi YOK ve kapsayıcı `darfur` maddesi bu adı HİÇ ANMIYOR (madde yalnız Fâşir ve Nyala'yı adıyla veriyor). 🟢 VE EN GÜÇLÜ DAYANAK ARAMA SAYAÇLARINDAN: 'Kutum' için madde başlıklarında 0 · MADDE İÇERİKLERİNDE 0 · müelliflerde 0 · kısaltmalarda 0. Ad TDV'nin hiçbir maddesinde geçmiyor. Akademik kaynak gerekiyor. 📌 Bu kayıt ile Beldjamen, kova için ARAMA SAYACIYLA doğrulanan ilk ikisi; kalan 5 `adres-yok` kaydı hâlâ yalnız slug denemesine dayanıyor"},
 
   {ad:"Kebkâbiye", k_yok_sebep:"adres-yok",
    kaynak:"TDV darfur (gövdesi okundu) + `kebkabiye` slug'ı 302",
