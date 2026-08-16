@@ -85,9 +85,16 @@ window.KADEME_YAMA = [
    kaynak:"TDV bulgar (gövdesi okundu) + tetis/tetyusi 302",
    neden:"kaynak susuyor — aynı madde 'Tetis' adını İdil Bulgar merkezleri arasında sayıyor, mertebe VERMİYOR. TDV'nin kendi yazimiyla (tetis) ve veri yazimiyla (tetyusi) mustakil madde ARANDI, ikisi de 302"},
 
+  // 🔴 BU KAYIT UCUNCU KEZ OLCULDU ve ikinci olcumum KISMEN YANLISTI.
+  // Ilk iki cekiste "Cimgi-Tura maddede GECMIYOR" cevabi aldim. Ucuncu
+  // cekiste ADIN OTEKI YAZIMINI sordum: madde onu "ÇİMGA-TURA" diye
+  // yaziyor (i degil A) ve GECIYOR. Yani M-0441'in yazim ekseni tuzagi
+  // bana IKINCI KEZ, bu sefer SLUG'DA DEGIL GOVDE ICI ARAMADA carpti.
+  // ⇒ Hukum DEGISMEDI, GEREKCE duzeldi: ad geciyor ama BASKENT olarak
+  //   degil, "yirmiden fazla sehir"den biri olarak.
   {ad:"Tümen (Çimgi-Tura)",
-   kaynak:"TDV sibir-hanligi (gövdesi okundu) + TDV tumen (gövdesi okundu — BASKA KONU)",
-   neden:"kaynak susuyor — sibir-hanligi maddesi Cimgi-Tura'yı ÖNCEKİ basşehir olarak DOĞRULAMIYOR, yalnız bassehrin İsker'e TASINDIGINI söylüyor. 🔴 M-0441 sinavinda `tumen` slugu CANLI (200) cikti ve ACILDI: TUZAK ② — madde sehri degil askeri/idari TERIMI anlatiyor ('Ortacag Turk ve Mogol devletlerinde bir askeri birligi ifade eden, idari ve mali teskilatta da kullanilan terim') ve Cimgi-Tura · Sibir Hanligi · Isker adlarini HIC ICERMIYOR. cimgi-tura · tura · tumen--sehir · sibir · isker · kaslik hepsi 302"},
+   kaynak:"TDV sibir-hanligi (gövdesi 3 kez okundu) + TDV tumen (gövdesi okundu — BASKA KONU)",
+   neden:"kaynak susuyor — madde Cimga-Tura'yi ANIYOR ama mertebe vermiyor: 'Çimga-Tura ve Sibir sehirlerinin yani sira Sibir Hanligi'nda yirmiden fazla sehir mevcuttu'. Yani 20+ sehirden biri; ONCEKI BASSEHIR oldugu SOYLENMIYOR ve madde 'Isker'den onceki merkez' sorusuna acikca cevap VERMIYOR. 🔴 `tumen` slugu canli (200) ama TUZAK ②: askeri/idari TERIM maddesi, Cimga-Tura'yi icermiyor. ⚠️ devletler.js `sibir-hanligi` kunyesi baskent:'Cimgi-Tura → Sibir (Isker)' diyor ve kaynak olarak BU MADDEYI gosteriyor — madde bunu SOYLEMIYOR; celiski koordinatore bildirildi, hukum onun"},
 
   {ad:"Ukek (Uvek)",
    kaynak:"TDV saray--sehir (gövdesi okundu) — Ukek adı GEÇMİYOR · ukek/uvek sluglari 302",
@@ -96,5 +103,63 @@ window.KADEME_YAMA = [
   {ad:"Beldjamen",
    kaynak:"TDV saray--sehir (gövdesi okundu) — Beldjamen adı GEÇMİYOR · beldjamen/bacman sluglari 302",
    neden:"aradım, bu maddede YOK, mustakil maddesi de yok. Mertebesi için AKADEMİK kaynak gerekiyor"},
+
+  // ==========================================================================
+  // PARTİ 2 — M-0456'nın TÜRETMESİ: devletler.js `baskent:` EŞLEŞTİRMESİ
+  // Araştırma DEĞİL, EŞLEŞTİRME. Dayanak projenin KENDİ DİZİNİ; künye
+  // `f`/`t` penceresi de oradan geliyor. Kutumun 425 kademesiz noktası
+  // taranınca 13 tek-künye + 3 çakışan eşleşme çıktı.
+  // NOKTA AFRİKA İÇ'in beş uyarısının beşi de uygulandı; ALTINCISINI ben
+  // ekledim ve tahtaya yazdım: kısa tire '-' AYIRAÇ DEĞİLDİR, ad İÇİNDE
+  // geçiyor (Van-Erciş · Sankt-Peterburg). Em-dash '—' ile karıştırılırsa
+  // adlar parçalanır. Ayıracım: → / , ;   (kısa tire HARİÇ)
+  // ⚠️ GEÇİŞ TARİHİ olmayan '→' zincirlerinde pencere BÖLÜNMEDİ (uyarı ②):
+  //    künye penceresi yazıldı ve gerekçesi neden: alanına kondu.
+  // ⚠️ `tur:"kale"` → k:4 kuralı NOKTA AFRİKA İÇ tarafından ÇÜRÜTÜLDÜ
+  //    (183 kale kaydının yalnız %68'i k:4); KULLANILMADI.
+
+  {ad:"Tver", k:1,
+   kaynak:"devletler.js künye `tver` (baskent:'Tver', 1246-01-01..1485-09-12)",
+   neden:"Tver Knezliği'nin başkenti — künye tek merkez veriyor, çakışma yok. Künye kendi kaynağında 'TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak' diyor; ben o künyeyi DAYANAK alıyorum, TDV'ye ikinci kez sormadım"},
+
+  {ad:"Reykjavík", k:1,
+   kaynak:"devletler.js künye `izlanda` (baskent:'Reykjavík', 1918-12-01..1923-10-29)",
+   neden:"İzlanda Krallığı'nın başkenti. Künye penceresi atlasın ufkunda yalnız 1918-12-01'de açılıyor, yani bu k:1 son beş yıl için geçerli"},
+
+  {ad:"Bonga (Kaffa)", k:1,
+   kaynak:"devletler.js künye `kaffa-kralligi` (baskent:'Bonga', 1390-01-01..1897-09-10)",
+   neden:"Kaffa Krallığı'nın başkenti — künye tek merkez veriyor"},
+
+  {ad:"Kabasa", k:1,
+   kaynak:"devletler.js künye `ndongo` (baskent:'Kabasa', 1500-01-01..1671-01-01)",
+   neden:"Ndongo Krallığı'nın başkenti — künye tek merkez veriyor"},
+
+  {ad:"Musumba", k:1,
+   kaynak:"devletler.js künye `lunda-imparatorlugu` (baskent:'Musumba', 1665-01-01..1887-01-01)",
+   neden:"Lunda İmparatorluğu'nun başkenti — künye tek merkez veriyor"},
+
+  {ad:"Mbanza-Kongo (São Salvador)", k:1,
+   kaynak:"devletler.js künye `kongo-kralligi` (baskent:'Mbanza Kongo (São Salvador)', 1390-01-01..1914-01-01)",
+   neden:"Kongo Krallığı'nın başkenti. Künyedeki yazım 'Mbanza Kongo' (boşluklu), veride 'Mbanza-Kongo' (tireli) — eşleştirme SADELEŞTİRİLMİŞ hâlle yapıldı, yamaya VERİNİN yazımı kondu (uyarı ④), yoksa yama sessizce düşerdi"},
+
+  {ad:"Loango (Buali)", k:1,
+   kaynak:"devletler.js künye `loango` (baskent:'Buali (Loango)', 1550-01-01..1883-01-01)",
+   neden:"Loango Krallığı'nın başkenti Buali. Künye kaynağı: 'TDV'de müstakil maddesi yok (loango slug'ı 302 döndürdü), dayanak: standart akademik kaynak' — yani TDV zaten ÖLÇÜLEREK elenmiş, ikinci kez denemedim"},
+
+  {ad:"Harar", k:1,
+   kaynak:"devletler.js künye `adal` (baskent:'Zeyla → Harar', 1415-01-01..1887-01-06) · künye kaynağı TDV harar",
+   neden:"Adal Sultanlığı'nın başkenti. 🔴 '→' zinciri: Harar SONRAKİ merkez, Zeyla ilki — ama künye GEÇİŞ TARİHİ VERMİYOR, o yüzden pencere BÖLÜNMEDİ (uyarı ②) ve künye penceresi yazıldı. Gerçek geçiş yılı bilinseydi kd: yazılabilirdi; UYDURMADIM"},
+
+  {ad:"Zanzibar (Zengibar)", k:1,
+   kaynak:"devletler.js künye `umman-zengibar` (baskent:'Maskat → Zengibar (Stone Town)', 1698..1923) + künye `svahili-sehirleri`",
+   neden:"İKİ künyenin de merkezi — çakışma ama ÇELİŞKİ DEĞİL: ikisi de aynı yeri merkez sayıyor, yani k:1 her iki okumada da doğru. Umman-Zengibar'da 'Stone Town' adıyla açıkça başkent. Geçiş tarihi yok, pencere bölünmedi"},
+
+  {ad:"Fas (Fez)", k:1,
+   kaynak:"devletler.js künyeleri `fas` (baskent:'Fas / Marakeş') · `merini` · `sadi`",
+   neden:"ÜÇ künyenin de merkezi — çakışma ama ÇELİŞKİ DEĞİL: üçü de ardışık Fas devletleri ve üçünde de Fez başkent. k:1 her üç okumada da doğru. '/' çift merkez biçimi (Fas / Marakeş): ikisi de başkent, mertebe aynı"},
+
+  {ad:"Mombasa", k:1,
+   kaynak:"devletler.js künye `svahili-sehirleri` (baskent:'Kilwa, Mombasa, Zengibar (çeşitli merkezler)', 1000..1698)",
+   neden:"🟡 EN ZAYIF KAYDIM ve onu böyle işaretliyorum: künye TEK merkez vermiyor, 'çeşitli merkezler' diyor ve üç ad sayıyor. Mombasa bunlardan biri, yani kendi şehir-devletinin merkezi — Svahili şehirleri bağımsız şehir-devletlerdi, o yüzden k:1 yazdım. Ama künyenin kendisi belirsiz konuşuyor; itiraz gelirse tartışmaya AÇIK"},
 
 ];
