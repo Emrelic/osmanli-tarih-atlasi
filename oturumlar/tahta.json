@@ -12506,10 +12506,18 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "SORU",
-  "teyit": {},
+  "teyit": {
+   "Opus hazır kıta 6": {
+    "zaman": "2026-08-16 18:33",
+    "soz": "isim BITTI ve teslim edildi · kosuyu bekletmiyorum · bekcim dosya adresli mesaji YAKALIYOR (olculdu, kayip 0)"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
-  "aciliyet": "DURDURUCU"
+  "aciliyet": "DURDURUCU",
+  "teyit_kimlik": {
+   "Opus hazır kıta 6": "local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4"
+  }
  },
  {
   "no": "M-0599",
