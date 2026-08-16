@@ -49,46 +49,40 @@ kenar: [
    neden:"AG 2 PARCAYDI ve bu kenar onu 1'e indiriyor. Uskudar parca1'in, Istanbul parca2'nin uyesi ve ikisi arasinda kenar YOKTU. km kus ucusu TURETILDI (3,2 km); saat UYDURULMADI cunku bogaz gecisi kara yolu degil, km/hiz tablosu burada gecersiz"},
 ],
 
-// ═══════════ ② KOORDİNATSIZ DÜĞÜMLER — 26'nın 23'ü BULUNDU ═══════════
+// ═══════════ ② DÜĞÜM LİSTESİ — 🔴 GERİ ÇEKİLDİ, ve niçin ═══════════
 //
-// Koordinatlar `girdi.yukle()` ile mevcut veriden ALINDI, elle
-// yazılmadı — her satırda hangi dosyadan geldiği duruyor.
-// Koordinatör "19 düğüm" demişti; ÖLÇTÜM ve **23** çıktı (22 doğrudan
-// ad eşleşmesi + 1 eş ad). Farkı bildiriyorum, sayıyı devralmadım.
+// 🔴 BU BÖLÜM ARTIK BOŞ. Sebebi ölçüldü, nezaket değil.
+//
+// Aynı işi `data/koridor_yama_f5c9a5.js` bir dakika önce yapmış
+// (19:53 ↔ benim 19:54) ve commit'i uzakta (`6f68605`). İki yamayı
+// karşılaştırdım:
+//   ortak düğüm 23/23 · yalnız bende 0 · yalnız onda 0
+//   değer AYNI 5 · FARKLI 18
+//   ⇒ 18 farkın 17'si SALT YUVARLAMA (benim 3 ondalık ↔ onun 4).
+//     Onunki daha hassas.
+//
+// 🔴 VE BİRİ GERÇEK UYUŞMAZLIKTI — VE YANLIŞ OLAN BENDİM:
+//     yenisehir   benim 40,267 / 29,633   = Yenişehir (BURSA)
+//                 onun  39,639 / 22,418   = Yenişehir (LARİSSA, Teselya)
+//     ~640 km fark.
+//   GÜZERGÂHA sordum ve tartışma bitti: `yenisehir` kolu `rumeli/sol#9`,
+//   komşuları Lanzaka (Selânik yakını) ve İzdin (Lamia). ⇒ Teselya'daki
+//   Yenişehir. **Onun değeri doğru, benimki yanlış.**
+//
+// 📌 VE BU, BU DOSYANIN KENDİ DERSİNİN BANA GERİ DÖNMESİ: aşağıda
+//   Karasu için *"bir düğümün kimliğini ADI değil KOMŞULARI belirler"*
+//   diye yazdım ve Karasu'da uyguladım, Firecik'te uyguladım —
+//   **Yenişehir'de UYGULAMADIM**, çünkü ad BİREBİR tuttu ve güvendim.
+//   ⇒ Kuralı, kuralın gerektiğini düşündüğüm yerde uyguladım; oysa
+//     tam da şüphelenmediğim yerde gerekiyordu. Sahte eşleşme,
+//     şüphelendiğin adda değil GÜVENDİĞİN adda saklanıyor.
+//
+// ⇒ Düğüm listemi geri çekiyorum: onunki hem daha hassas hem bir
+//   yerde daha doğru. Bu yamada YALNIZ KÖPRÜ KENARI kalıyor — o
+//   ikisinde de yok ve ağı 2'den 1'e indiren tek şey.
 
-dugum: [
-  {id:"uskudar",            lat:41.023, lon:29.015, kaynak_dosya:"yerlesimler_ek29.js"},
-  {id:"ishakli",            lat:38.544, lon:31.245, kaynak_dosya:"yerlesimler_ek29.js"},
-  {id:"ilgin",              lat:38.279, lon:31.914, kaynak_dosya:"yerlesimler_ek29.js"},
-  {id:"karapinar",          lat:37.716, lon:33.551, kaynak_dosya:"yerlesimler_ek29.js"},
-  {id:"ulukisla",           lat:37.546, lon:34.487, kaynak_dosya:"yerlesimler_ek29.js"},
-  {id:"tosya",              lat:41.016, lon:34.040, kaynak_dosya:"yerlesimler_ek29.js"},
-  {id:"harput",             lat:38.714, lon:39.245, kaynak_dosya:"yerlesimler.js"},
-  {id:"ladik",              lat:40.912, lon:35.898, kaynak_dosya:"yerlesimler.js"},
-  {id:"karahisar-i-sarki",  lat:40.289, lon:38.425, kaynak_dosya:"yerlesimler_ek29.js"},
-  {id:"kelkit",             lat:40.128, lon:39.438, kaynak_dosya:"yerlesimler_ek29.js"},
-  {id:"askale",             lat:39.921, lon:40.694, kaynak_dosya:"yerlesimler_ek29.js"},
-  {id:"vize",               lat:41.571, lon:27.766, kaynak_dosya:"yerlesimler_ek29.js"},
-  {id:"prevadi",            lat:43.179, lon:27.433, kaynak_dosya:"yerlesimler_ek29.js"},
-  {id:"babadagi",           lat:44.892, lon:28.717, kaynak_dosya:"yerlesimler_ek29.js"},
-  {id:"ishakci",            lat:45.274, lon:28.460, kaynak_dosya:"yerlesimler_ek29.js"},
-  {id:"silivri",            lat:41.079, lon:28.249, kaynak_dosya:"yerlesimler_ek29.js"},
-  {id:"yagodina",           lat:43.977, lon:21.262, kaynak_dosya:"yerlesimler_ek29.js"},
-  {id:"praviste",           lat:40.917, lon:24.250, kaynak_dosya:"yerlesimler_ek29.js"},
-  {id:"lanzaka",            lat:40.750, lon:23.067, kaynak_dosya:"yerlesimler_ek29.js"},
-  {id:"yenisehir",          lat:40.267, lon:29.633, kaynak_dosya:"yerlesimler.js"},
-  {id:"izdin",              lat:38.900, lon:22.434, kaynak_dosya:"yerlesimler.js"},
-  {id:"istefe",             lat:38.322, lon:23.319, kaynak_dosya:"yerlesimler.js"},
-
-  // 🟢 EŞ ADLA BULUNDU — ve GÜZERGÂHLA DOĞRULANDI
-  // Koordinatör "Firecik veride hiç yok" demişti. Veride `Ferecik (Feres)`
-  // adıyla VAR. Ad benzerliği tek başına yeterli değildi, o yüzden
-  // GÜZERGÂHLA sınadım: düğümün komşuları Malkara (40,890/26,905) ve
-  // Dimetoka (41,348/26,497); Ferecik 40,897/26,172 tam o ikisinin
-  // arasında. ⇒ Ad + konum birlikte tuttu.
-  {id:"firecik",            lat:40.897, lon:26.172, kaynak_dosya:"yerlesimler.js",
-   neden:"es ad: veride 'Ferecik (Feres)'. Ad benzerligi TEK BASINA yeterli sayilmadi; dugumun komsulari Malkara ve Dimetoka ve Ferecik tam ikisinin arasinda ⇒ guzergah da dogruladi"},
-],
+// BOŞ — 23 düğüm geri çekildi, gerekçe yukarıda.
+dugum: [],
 
 };
 
