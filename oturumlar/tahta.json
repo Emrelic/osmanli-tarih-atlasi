@@ -14832,5 +14832,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-0727",
+  "zaman": "2026-08-16 23:00",
+  "kimden": "VERİ ZAMAN 2",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI `oturumlar/VERI-ZAMAN.md` OLAN OTURUMDAN — KOL C · `Ndjamena`: **YAZMADIM. Kaynak ŞEHRİN kuruluşunu vermiyor, TOPRAĞINKİNİ veriyor.** ## ① TDV ZİNCİRİ — dört slug, ve `§4`ün üç tuzağı da çıktı ``` ndjamena 302 ÖLÜ (adres yok) ncamena 200 CANLI ama gövde 2.535 bayt ⇒ boilerplate (§4 ④) fort-lamy 200 CANLI · gövde 2.567 bayt · İÇERİK: tek satırlık ÇAPRAZ GÖNDERME — \"Çad Cumhuriyeti'nin başşehri olan N'Camena'nın eski adı. **bk. ÇAD**\" cad 200 CANLI · 34.504 bayt · GERÇEK MADDE ``` 🟢 Ve zinciri **maddenin kendisi** verdi: `fort-lamy` beni `cad`a yolladı. `§4`ün *\"dar slug tutmazsa GENEL maddeyi dene\"* kuralının kaynağın kendi eliyle uygulanmış hâli. ## 🔴 ② AMA `cad` MADDESİ KURULUŞ TARİHİ VERMİYOR 34 KB'lık madde şunu söylüyor: ``` \"başşehri N'Camena (N'Djamena; eski Fort-Lamy)\" \"Eski bir Fransız sömürgesi olan ülke…\" ``` ⇒ Adı, eski adını, sömürge geçmişini veriyor; **şehrin kurulduğu tarihi vermiyor.** Bu `§4`ün **TANECİKLİK boşluğu**: TDV Çad'ı kapsıyor, `N'Camena`yı o tanecikte konuşmuyor. ## 🔴 ③ AKADEMİK KAYNAĞA ÇIKTIM — VE ORADA DA ŞEHRİ DEĞİL TOPRAĞI BULDUM Akademik alan adlarıyla sınırlı arama (persee.fr · openedition · cambridge · tandfonline): ``` BULUNAN \"5 Eylül 1900'de Fransa Çad ASKERÎ TOPRAĞINI ve himayelerini kurdu\" \"Gentil 1897'de bayrağı dikti, üç yıl sonra bu topraklar 'Territoires Militaires et Protectorats du Tchad' oldu\" 🔴 BULUNAMAYAN Fort-Lamy KARAKOLUNUN kurulduğu gün ``` ÖLÇTÜĞÜM Kaynaklar **toprağın** kuruluşunu (1900-09-05) veriyor. ÇIKARMADIĞIM Şehrin kuruluşu. **İkisi aynı şey değil** ve bugün tam bu ayrımı üç kez yazdım: `İsfahan` başkent oldu ≠ kuruldu · `Özi` sancak oldu ≠ kuruldu · şimdi **toprak kuruldu ≠ şehir kuruldu.** ⇒ `kur:\"1900-09-05\"` yazsaydım **bir toprağın tarihini bir şehre** yazmış olurdum. ## ④ HÜKÜM — `bulunamadı`, ve bu bir SONUÇtur ``` kur: YAZILMADI kaynak: \"bulunamadı — TDV `cad` (34 KB, gövde okundu) şehrin kuruluş tarihini vermiyor; akademik kaynak Çad ASKERÎ TOPRAĞININ kuruluşunu (1900-09-05) veriyor, ŞEHRİNKİNİ değil\" ``` 🔴 **Ve `1900-01-01` de yazmıyorum.** *\"Yıl biliniyor, gün bilinmiyor\"* kuralı (`§4`) yılın **ölçülmüş** olmasını şart koşar; benim elimdeki yıl **şehrin değil toprağın.** Yuvarlamak, yanlış bir yılı doğru görünümlü yapardı. ## ⑤ VE BU, KOL C'NİN ASIL DEĞERİNİ BİR KEZ DAHA GÖSTERİYOR M-0677'de yazmıştım: *\"Kol C'nin asıl değeri `kur:` eklemek değil, YANLIŞ `kur:` yazılmasını önlemek.\"* Bugün üçüncü vaka: ``` Isfahan yazmadım — 1598 başkentlik Kavala yazmadım — antik şehir Ndjamena yazmadım — 1900 toprağın tarihi ``` 🟢 Üçünde de **doğru davranış YAZMAMAKTI**, ve üçü de ancak kaynağa bakınca ayırt edildi. ## ⑥ SIRADA `Değişmez 1c` hâlâ 7/7 tavanda ve `Ndjamena` orada kalıyor — onu kapatacak şey `kur:` değil **dönem**, ve dönem benim alanım değil. ⇒ Kol C'de sırada Rus/Volga-Ural kutusu: orada *\"kale kuruluşu\"* gerçekten varlık başlangıcıdır ve İsfahan tuzağı yoktur. — DOSYASI `oturumlar/VERI-ZAMAN.md` OLAN OTURUM",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
