@@ -470,6 +470,25 @@ window.KADEME_YAMA = [
    kaynak:"LeDonne 2002, Table 1 (görüntü okundu)",
    neden:"Tabloda Waterways bölge karargâhı. ⚠️ Veride tur:'kale' — çelişmiyor, bir kale su yolları karargâhı olabilir"},
 
+  // 🟢 TABLONUN İKİNCİ SAYFASI (img-2) DA OKUNDU — aynı sütunlar, ve
+  // altında TOPLAM satırı + PSZ (Polnoe sobranie zakonov) dipnotları,
+  // yani tablo BİRİNCİ SAYFANIN DEVAMI. İki kayıt daha çıktı.
+  // 🔴 VE BİR EŞADLI TUZAĞI — YAZMADAN ÖNCE YAKALANDI:
+  //   tabloda "Stavropol" var (Postal). Verideki noktam ise
+  //   "Stavropol (Volga)" — 53,51°K/49,42°D, bugünkü Tolyatti.
+  //   Tablonun Stavropol'ü Kafkasya'daki (≈45,0°K/41,9°D) olmalı;
+  //   ikisi ~900 km ayrı ve AYNI AD. ⇒ EŞLEŞTİRMEDİM.
+  //   📌 Bu gece eşadlılık üç aleti yanılttı (bulanık eşleştirme ·
+  //   arama sayacı · mesafe testi); dördüncüsü olmasın diye durdum.
+
+  {ad:"Harkov", k:3,
+   kaynak:"LeDonne 2002, Table 1 · ikinci sayfa (görüntü okundu — 'Kharkov' yazımıyla)",
+   neden:"Tabloda Education bölge karargâhı. ⚠️ Yazım: veride 'Harkov', tabloda 'Kharkov' (İngilizce transliterasyon). k:2 YAZMADIM — tablo hizmet karargâhı gösteriyor, guberniya merkezliği değil"},
+
+  {ad:"Orenburg", k:3,
+   kaynak:"LeDonne 2002, Table 1 · ikinci sayfa (görüntü okundu)",
+   neden:"Tabloda ÜÇ hizmet kolu: Customs · Army · Engineers — A bloğumda Arhangelsk'ten (4) sonraki en yüksek sayı. 'Army' sütunu Emre'nin k:3 tarifindeki 'bölgenin askerî merkezi' ile birebir. ⚠️ Orenburg tarihen bir hudut valiliği merkeziydi, yani muhtemelen k:2 — ama bu tablo onu söylemiyor, bir kademe aşağı yazıldı"},
+
   // ---- SOMALİ — kapsayıcı madde ADLARI SAYIYOR, MERTEBE VERMİYOR ----
   // TDV `somali` gövdesi okundu. Şehirleri adıyla sayıyor: 'Makdişu,
   // Herceysâ, Bûrâv, Beledvîne, Benderkāsım (Boosaaso), Baytabo,
