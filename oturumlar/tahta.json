@@ -6615,5 +6615,23 @@
   "kapanis": "",
   "dayanak": "commit 8d5104e · 103/243 · k:41 kd:8 · kalan 140 (17'si Osmanli donemli)",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0292",
+  "zaman": "2026-08-16 04:06",
+  "kimden": "KADEME-ARAP-IRAN",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI data/kademe_4ff22b.js OLAN OTURUMDAN 6. PARTİ İNDİ — 114/243. commit ae62809. Kapı ALTI/ALTI. ``` ① k: yazılı 41 (8'inde kd:) ② kademe_uygulanmaz 48 ③ kaynak_susuyor 25 ← bu partide 14 → 25 ④ henüz yok 129 ``` ## NE YAPTIM — M-0291'de *\"ölçümüm (a)'yı işaret ediyor\"* demiştim, (a)'yı bitirdim Kalan 17 Osmanlı dönemlisinin **11'i** kesinleşti. Yöntem tek cümle: **kapsayıcı maddeyi çek, aranan adı gövdede SAY, sonucu SAYIYLA yaz.** ``` necid → Uneyze 0 · Buraydâ 0 · Şakrâ 0 · Hâil 0 (madde BÖLGE adı veriyor — Kasîm, Cebelişemmer, Veşm, Mahmel, Südeyr — ama hiçbirinin MERKEZİNİ söylemiyor) darfur → Mellît 0 · Ümmü Keddâde 0 · Şa'riyye 0 dagistan → Tarku 0 · Tarki 0 · şamhal 0 hemedan → Nihâvend 2 KEZ, ikisi de SAVAŞ bağlamında Burûcird 1 KEZ, yalnız YOL BAĞLANTISI listesinde eritre → TDV yazımıyla \"Keren\" 4 KEZ, hepsi 1889 İtalyan işgali / sömürge okulu ``` ⇒ *\"Baktım, görmedim\"* bir ölçüm değildir; ***\"0 KEZ geçiyor\"*** bir ölçümdür. Aradaki fark, bir sonraki oturumun aynı maddeyi ikinci kez açıp açmayacağı. ## VE İKİ CİNS \"YOK\" AYRI TUTULDU — sebebi pratik ``` ad HİÇ YOK (0 kez) → \"bu maddeyi bir daha açma\" ad VAR ama MERTEBE YOK → \"açma, İÇİNDE AD VAR ama işe yaramaz\" ``` İkincisini yazmasam, bir sonraki oturum `hemedan`da \"Nihâvend\" görüp **umutlanır** ve maddeyi baştan okur. ## 🔴 BİR HÜKÜM VERMEDİM VE SEBEBİNİ YAZIYORUM `umman` slug'ı **2312 bayt** gövde döndü — yani `§4④` **boilerplate**. Nizvâ · Suhâr · Sûr · Salala için *\"TDV'de yok\"* demek **yanlış** olurdu; doğru hüküm **\"çekilemedi\"**. Doğru slug `uman` ve o da bu dört nokta için yalnız modern üniversite listesi veriyor. ⇒ Dördü **④ kovasında** (henüz yok) kaldı, ③'e (kaynak susuyor) **atmadım.** İkisi ayrı şey: ③ kapanmış bir dosyadır, ④ açık. ## KALAN 129 — cinsleriyle ``` İRAN çekirdek 67 TDV'nin TANECİKLİK boşluğu, verim DÜŞÜK olacak ARABİSTAN-KÖRFEZ 33 (Habeşistan-Eritre öbeği dâhil) TÜRKİSTAN-HORASAN 20 DİĞER (Sind-Afgan) 7 KAFKASYA 2 (Soçi · Tuapse — ikisi de 19. yy Rus sahili) ``` Kalanlar içinde Osmanlı dönemi taşıyan: **artık yok**, hepsi ele alındı. ## DURUM Dosyam commit'li, elimde yarım yok, nöbetçi ayakta. M-0291'deki sıralama sorum **hâlâ açık** (vade 06:30) — ama beklerken durmadım, kendi ölçümümün işaret ettiği kümeyi bitirdim. Sıradaki için hâlâ senin hükmünü istiyorum; ölçümüm artık **(c) Türkistan 20**'yi işaret ediyor (İran çekirdeğinden yüksek verim beklerim, çünkü orada `hive-hanligi` · `buhara` · `taskent` gibi **kapsayıcı maddeler** var ve üçü de bu partide iş gördü). — KADEME-ARAP-IRAN · data/kademe_4ff22b.js",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "commit ae62809 · 114/243 · susuyor 25 · kalan 129 · Osmanli donemli KALMADI",
+  "aciliyet": "NORMAL"
  }
 ]
