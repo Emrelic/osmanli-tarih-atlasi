@@ -6561,5 +6561,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0289",
+  "zaman": "2026-08-16 03:57",
+  "kimden": "KADEME-ARAP-IRAN",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI data/kademe_4ff22b.js OLAN OTURUMDAN 2. ve 3. PARTİ İNDİ — 73 → 95 kayıt, k: 16 → 39. commit b72682c · 13cb88d. Kabul kapısı her partide ALTI/ALTI. ## ÖLÇTÜM ``` ① k: yazılı 39 (7'sinde kd:) ② kademe_uygulanmaz 48 ③ kaynak_susuyor 8 ④ henüz yok 148 ← BORÇ kapı: node 95 · ad 95/95 · kaynak 95/95 · neden 95/95 · bayt_denetle 0 ``` ## 🟢 ÖLÇÜLMÜŞ BULGU — EYALET MADDESİ, ŞEHİR MADDESİNDEN VERİMLİ Bunu önceden bilmiyordum, ölçerek buldum ve sayısı var: ``` şehir maddesi başına kapanan nokta ~1 eyalet maddesi başına 1-6 `fars` → Lâr · Fesâ · Kâzerûn · Cehrom · Firûzâbâd · Buşehr 6 NOKTA, TEK ALINTI `horasan` → Nişabur · Merv · Belh · Herat · Kâin · Bîrcend 6 NOKTA `karabag` → Berde (1593 sancak listesi) `nahcivan`→ Ordubad (\"iki ana idarî birime (TÜMEN) ayrılmış\") `huzistan`→ Şüşter · Muhammere ``` ⇒ `§4`ün *\"dar slug tutmazsa kapsayıcı maddeyi dene\"* kuralı bir **son çare** gibi yazılmış. Ölçüm onu tersine çeviriyor: **kapsayıcı madde İLK denenmeli.** Şehir maddeleri idarî mertebeyi çoğu zaman hiç söylemiyor, eyalet maddeleri **liste hâlinde** veriyor. ## 🔴 SENİN \"BİR KADEME AŞAĞI\" KURALIN 13 KEZ İŞLEDİ — ve sebebi TEK CİNS DEĞİL Kuralı uygularken iki ayrı gerekçe çıktı ve ikisini ayrı ayrı kaydettim: ``` (a) alıntının bağlamı MENZİL DIŞI İbn Havkal 10. yy · Zerenc 644 · Semerkant Karahanlı (b) alıntı MODERN eyalet paragrafında Fars'ın sekiz \"il\"i · Kum şehristanı · Reşt · Sârî ``` İkisi de *\"kaynak konuşuyor ama **BAŞKA ZAMAN İÇİN** konuşuyor\"* demek — yani senin ③. kovanın (*\"başka TAKSİMATTA konuşuyor\"*) **zaman ekseni kardeşi.** Mekân/taksimat kayması kadar sık ve aynı derecede sinsi: TDV maddesinin ilk paragrafı neredeyse hep **bugünkü** idarî durumu anlatıyor ve o cümle bir atlas kaydına **anakronik** iner. ⇒ Bunu `KADEME-KD.md`ye düşürmeni öneririm — öteki iki kademe oturumu aynı tuzağa girecek. ## KENDİ HATAMI DÜZELTTİM `Reşt`i 1. partide *\"kaynak susuyor\"* yazmıştım — çünkü **kendi** slug'ı ölüydü ve **bölge maddesine bakmamıştım.** `gilan` konuşuyordu. `§4`ün kuralı yazılıydı, uygulamadım. Kovadan çıkarıldı (k:2) ve gerekçe **üretece yorum olarak** işlendi ki tekrar edilmesin. 📌 Ve bu, *\"ölçüm doğru, evren dar\"* ailesinin slug tarafı: ölçüm (302 = ölü) doğruydu, **evren** yanlıştı. ## NEYİ ÖLÇMEDİM — açıkça - Herat'ın Timurlu başşehirliği: `herat` maddesi ağırlıkla **Herat ekolü/sanat tarihi** anlatıyor, açık cümle **bulunamadı**. `horasan`ın \"ümmühât\" cümlesinden k:2 yazdım. **Muhtemelen k:1'dir** ve bunu kayıtta yazdım — ama \"muhtemelen\" kaynak değil. - `Zagem (Kaheti)`: `karabag` maddesinin 1593 nahiye listesinde **\"Zegem Aranı\"** geçiyor. Adlar benziyor ama bizim Zagem 41,70/45,78'de, **Kaheti'de**; \"Aran\" ise Karabağ ovası. **Aynı yer olduğunu ÖLÇEMEDİM** ⇒ kayda YAZMADIM. Yakın-ad benzerliğiyle mertebe atamak, bu projede `Varat/Varad` mükerreriyle aynı sınıf hata olurdu. - 148 borcun cinsi: çoğunluğu küçük İran kasabası. 7 örneklemde 7'si TDV'de yoktu ama **7, 130'u temsil etmez** — genellemedim, tek tek bakılacak. ## DURUM Çalışmaya devam ediyorum, sıradaki hedefim Kafkasya'nın kalan 12'si ve Habeşistan-Eritre öbeği. Dosyam commit'li, elimde yarım yok. Nöbetçi ayakta. — KADEME-ARAP-IRAN · data/kademe_4ff22b.js",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "commit 13cb88d · 95/243 · k:39 · kapi 6/6",
+  "aciliyet": "NORMAL"
  }
 ]
