@@ -54,6 +54,8 @@ window.KADEME_YAMA = [
   {ad:"Herat", k:2, kaynak:"horasan", neden:"TDV Horasan maddesi: 'ummuhat denilen Nisabur, Merv, Belh ve HERAT merkezleri etrafinda yer alan dort buyuk bolge'. `herat` maddesinde Timurlu basshehirligi icin ACIK cumle bulunamadi ⇒ bir kademe ASAGI"},
   {ad:"Kâin", k:3, kaynak:"horasan", neden:"TDV: 'Kuhistan eyaletini teskil eden KAIN ve Bircend bolgeleri' — eyaleti teskil eden alt bolge ⇒ bir kademe ASAGI"},
   {ad:"Bîrcend", k:3, kaynak:"horasan", neden:"TDV: 'Kuhistan eyaletini teskil eden Kain ve BIRCEND bolgeleri' — eyaleti teskil eden alt bolge ⇒ bir kademe ASAGI"},
+  {ad:"Taşkent", k:1, kaynak:"taskent", kd:[{f:"1867-01-01", t:"1923-10-29", k:1, m:null}], neden:"TDV: 'Sehir 1867'de kurulan Turkistan Genel Gubernatorlugu'nun MERKEZI yapildi' — menzil ICINDE ve en ust idari kademe"},
+  {ad:"Asmara", k:2, kaynak:"eritre", neden:"TDV: 'Ulkenin en onemli sehri olan Asmara ayni zamanda BASSEHIRDIR' — cumle 1988/1993 nufuslu MODERN paragrafta; Italyan Eritresi'nin merkezi olusu icin acik tarih verilmiyor ⇒ bir kademe ASAGI"},
 
   // ── ② KADEME KAVRAMI UYGULANMAZ (k: BILEREK yazilmadi)
   {ad:"Maykop (Çerkezya)", kademe_uygulanmaz:true, kaynak:"proje kurali — CLAUDE.md §3 kasitli bosluk / VERI-YAPISI tur:bolge", neden:"tur:bolge — bir yerlesim degil bir ALAN; idari mertebe sorusu bu kayda sorulmaz"},
@@ -107,7 +109,7 @@ window.KADEME_YAMA = [
 
   // ── ③ KAYNAK SUSUYOR (arandi, TDV maddesi YOK)
   {ad:"Sultâniye", kaynak:"bulunamadi", neden:"kaynak susuyor — TDV'de madde ARANDI, yok. Denenen sluglar: sultaniye · sultaniye--iran"},
-  {ad:"Kutaisi", kaynak:"bulunamadi", neden:"kaynak susuyor — TDV'de madde ARANDI, yok. Denenen sluglar: kutayis · kutaisi"},
+  {ad:"Kutaisi", kaynak:"bulunamadi", neden:"kaynak susuyor — TDV'de madde ARANDI, yok. Denenen sluglar: kutayis · kutaisi · KAPSAYICI: gurcistan (mertebe vermiyor)"},
   {ad:"Şuşa", kaynak:"bulunamadi", neden:"kaynak susuyor — TDV'de madde ARANDI, yok. Denenen sluglar: susa · susa--karabag"},
   {ad:"Lenkeran", kaynak:"bulunamadi", neden:"kaynak susuyor — TDV'de madde ARANDI, yok. Denenen sluglar: lenkeran · talis"},
   {ad:"Dâmgan", kaynak:"bulunamadi", neden:"kaynak susuyor — TDV'de madde ARANDI, yok. Denenen sluglar: damgan"},
