@@ -72,7 +72,12 @@ window.KADEME_YAMA = [
   {ad:"Bârfurûş (Bâbil)", k:3, kaynak:"taberistan", neden:"TDV Taberistan: 'diger onemli sehirleri BABUL (eski adi: BAR-FURUS)' — merkez Sari'nin altinda, MODERN paragraf ⇒ bir kademe ASAGI"},
   {ad:"Âmül", k:3, kaynak:"taberistan", neden:"TDV Taberistan: 'diger onemli sehirleri Babul, AMUL, Kaimsehr ve Tonkabun'. Maddede ayrica 'Basshehir Amul' geciyor ama Alioguları donemi (9. yy), menzil DISI ⇒ bir kademe ASAGI"},
   {ad:"Kirman", k:1, kaynak:"kirman · yezd", neden:"TDV kirman: 'idare merkezini Sircan'dan KIRMAN'a tasiyinca sehrin onemi artti'. TDV yezd: Yezd 'KIRMAN EYALETINE baglandi' — yani menzil ICINDE bir eyalet merkezi"},
-  {ad:"Sircân", k:2, kaynak:"kirman", neden:"TDV: 'idare merkezini SIRCAN'dan Kirman'a tasiyinca' — Sircan ONCEDEN idare merkeziydi, ama devir menzil ONCESI (Ilyasiler, 10. yy) ⇒ bir kademe ASAGI"},
+  {ad:"Sircân", k:2, kaynak:"kirman", neden:"TDV: 'idare merkezini SIRCAN'dan Kirman'a tasiyinca' — Sircan ONCEDEN idare merkeziydi, ama devir menzil ONCESI (Ilyasiler, 10. yy) ⇒ bir kademe ASAGI. ⚠️ Ayni madde MODERN listede Sircan'i sehristan (k:3 karsiligi) sayiyor; TARIHI mertebe secildi cunku atlas 1281-1923'u boyuyor"},
+  {ad:"Bem", k:3, kaynak:"kirman", neden:"TDV Kirman sehristan listesi: 'BEM' — sehristan, MODERN paragraf ⇒ bir kademe ASAGI"},
+  {ad:"Rafsencân", k:3, kaynak:"kirman", neden:"TDV Kirman sehristan listesi: 'RAFSENCAN' — sehristan, MODERN paragraf ⇒ bir kademe ASAGI"},
+  {ad:"Cîruft", k:3, kaynak:"kirman", neden:"TDV Kirman sehristan listesi: 'Sebzeveran (CIRUFT)' — sehristan, MODERN paragraf ⇒ bir kademe ASAGI"},
+  {ad:"Buraymî", k:2, kaynak:"uman", neden:"TDV: 'Uman Sultanligi ... dort MUHAFAZAYA (Maskat, Zafar, Musendem, BUREYMI)' — muhafaza, sultanligin ikinci kademesi"},
+  {ad:"Nizva", k:2, kaynak:"uman", neden:"TDV: 'NIZVA, Izki ve Semail, Ibazi IMAMLARIN yasadigi ve Maskat yonetiminden AYRILDIKLARI yerler olarak kaldi' — imamet merkezi, ama cumle 'basshehir' demiyor ⇒ bir kademe ASAGI"},
   {ad:"Köhne Ürgenç (Gürgenç)", k:2, kaynak:"hive-hanligi", neden:"TDV: 'XVI. yuzyil boyunca Arapsahlar URGENC'te oturdular' ve Ebulgazi Bahadir 'Urgenc'te han ilan edildi (1642)' — hanlik merkezi. ⚠️ TDV Kohne/Yeni Urgenc AYRIMI YAPMIYOR; Yeni Urgenc 1646'da kuruldugu icin 16. yy ve 1642 kayitlari KOHNE Urgenc'e aittir, ama bu bizim cikarimimiz ⇒ bir kademe ASAGI"},
 
   // ── ② KADEME KAVRAMI UYGULANMAZ (k: BILEREK yazilmadi)
