@@ -56,7 +56,19 @@
 // ve her kayıtta hangi künyeden geldiğini `neden:` alanına da koydum.
 // =====================================================================
 
-window.KADEME_YAMA = [
+// ═══════════ 🔴 AD ALANI — niçin `_E9353F` eki var ═══════════
+// Bu satır `window.KADEME_YAMA` idi. Değiştirildi, ve sebebi ölçüldü:
+//   data/kademe_4ff22b.js · _8beb2b · _d48240 · _e9353f · _f5c9a5
+//   BEŞİ DE `window.KADEME_YAMA` yazıyordu ⇒ aynı JS bağlamında iki
+//   tanesi okunursa ikincisi birincisini SESSİZCE siler.
+// 🟡 Bugün FİİLEN patlamıyor, ve bunu da ölçtüm — çıkarımı ölçümden
+//   ayırıyorum: `index.html` kademe dosyalarını YÜKLEMİYOR (0 satır) ve
+//   `denetle_yayin.py:357` bunları "tarayıcı OKUMAZ" diye tanıyor.
+//   Uygulayıcı da dosyaları TEK TEK eval ediyor.
+//   ⇒ Yani çakışma GİZİL, canlı değil. Ama tek bir "bütün yamaları oku"
+//     aleti yazılınca ateşlenir ve SESSİZ veri kaybı verir.
+// 📌 Öteki dört dosya SAHİPLERİNDE — dokunmadım, koordinatöre bildirdim.
+window.KADEME_YAMA_E9353F = [
 
 // ───────── A. PENCERESİ TAM/TAMA YAKIN — düz k:1 ─────────
 // Beşinin de başşehirliği 1281-1923 boyunca kesintisiz ya da kesintiye
