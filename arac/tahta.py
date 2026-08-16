@@ -268,15 +268,44 @@ def _git(kayit, baslik, govde):
             # 📌 Ders: bir yanılmayı düzeltirken ÖLÇÜLECEK ŞEYİ de
             #   yeniden seç. Ben eski soruyu (uzakta var mı) koruyup
             #   yalnız yönünü değiştirdim; asıl kusur SORUDAYDI.
+            # 🔴 ÜÇÜNCÜ DÜZELTME — VE YİNE SORU YANLIŞTI (16 Ağustos 2026).
+            #   Test *"HEAD geçmişinde numaramı taşıyan bir COMMIT var mı"*
+            #   diye soruyordu. Ama tahta paylaşılan bir dosya: mesajı
+            #   BAŞKA BİR OTURUMUN PUSH'U taşımış olabilir — o zaman
+            #   benim numaramla bir commit BAŞLIĞI hiç doğmaz, mesaj ise
+            #   uzakta VARDIR. Ölçüldü (M-0588): araç *"MESAJ UZAKTA YOK"*
+            #   dedi, `git show origin/main:oturumlar/tahta.json` mesajı
+            #   GÖSTERDİ. Yanlış alarm, ve alarmın bedeli güven.
+            # 📌 Aynı dersin ÜÇÜNCÜ turu: önce yön yanlıştı (origin/main),
+            #   sonra bir dal düzeltilip öteki unutuldu, şimdi de SORUNUN
+            #   KENDİSİ. Doğru soru tek: *"mesaj uzaktaki DOSYADA var mı?"*
+            #   — kimin commit'iyle gittiği ALAKASIZ.
             _var = True                       # numara yoksa eski davranış
             if _no:
-                try:
-                    _g = subprocess.run(
-                        ["git", "-C", KOK, "log", "HEAD", "--oneline", "-40"],
-                        timeout=60, **_kod)
-                    _var = _no in (_g.stdout or "")
-                except Exception:
-                    pass
+                def _uzakta(ref):
+                    try:
+                        g = subprocess.run(
+                            ["git", "-C", KOK, "show",
+                             "%s:oturumlar/tahta.json" % ref],
+                            timeout=60, **_kod)
+                        return ('"%s"' % _no) in (g.stdout or "")
+                    except Exception:
+                        return None
+                _var = _uzakta("origin/main")
+                if _var is False:
+                    # origin/main YEREL bir kopyadır ve başkasının push'u
+                    # onu bayatlatmış olabilir. Alarm çalmadan ÖNCE bir
+                    # kez tazele — yanlış alarm, alarmsızlıktan ucuz
+                    # değildir: ikisi de kanala olan güveni bozar.
+                    try:
+                        subprocess.run(["git", "-C", KOK, "fetch", "-q",
+                                        "origin", "main"],
+                                       timeout=90, **_kod)
+                    except Exception:
+                        pass
+                    _var = _uzakta("FETCH_HEAD")
+                if _var is None:
+                    _var = True               # ölçemedik ⇒ alarm ÇALMAZ
             if _var:
                 print("push  : ✓ — mesaj artık HERKESTE")
             else:
