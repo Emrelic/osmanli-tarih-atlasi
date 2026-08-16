@@ -10,16 +10,33 @@
 //   k:4  kasaba · köy · kale
 // Kaynağın KENDİ terimi neden: alanına aynen yazılır; Osmanlı adı UYDURULMAZ.
 //
-// 🔴 `kaynak_hali:` ALANI — M-0472'nin dersi uygulandı.
+// 🔴 `k_yok_sebep:` ALANI — M-0472'nin dersi + M-0481'in ORTAK SÖZLÜĞÜ.
 // NOKTA AFRİKA İÇ ölçtü: bir hükmü SERBEST METNE gömmek onu makineye
-// soruLAMAZ yapıyor (§11'in on birinci kusur sınıfı). Benim beş damgalı
-// kaydım tam bu kusurdaydı — "kaynak susuyor" ile "aradım, yok" ayrımı
-// yalnız `neden:` metninin içinde duruyordu.
-// ⇒ SABLON §④'ün DÖRT KOVASI artık AYRI ALAN, yani `if` ile sorulabilir:
-//     "aramadim"      → BORÇ, kapanmalı (bu dosyada YOK — yazılmamış kayıt)
-//     "aradim-yok"    → SONUÇ, kapandı
-//     "aradim-erisemedim" → SONUÇ ama TEKRAR DENENEBİLİR
-//     "kaynak-susuyor"→ SONUÇ, o tanecikte kapsamıyor
+// soruLAMAZ yapıyor (§11'in on birinci kusur sınıfı). Beş damgalı kaydım
+// tam bu kusurdaydı — kova yalnız `neden:` metninin içinde duruyordu.
+//
+// ⚠️ ÖNCE `kaynak_hali:` diye yazmıştım. ÜÇ oturum aynı dersi bağımsız
+// uygulayıp ÜÇ FARKLI AD verdi (`kademe_uygulanmaz` · `kaynak_hali` ·
+// `k_yok_sebep`). Ölçtüm ve M-0480'de bildirdim: 227 k:'siz kaydın 169'u
+// serbest metinde, yapısal olan 58'in dördü de TEKİL ad. Orada söz
+// verdim: "hangi ad seçilirse kendiminkini ona çeviririm."
+// ⇒ ÇEVİRDİM. `k_yok_sebep` iki dosyada birden kullanılıyor ve M-0481
+//   ona KAPALI BİR SÖZLÜK yazdı; benimki tek dosyadaydı. Bicim benim
+//   değil projenin meselesi.
+//
+// ORTAK SÖZLÜK (M-0481, beş değer) — ve BEN ALTINCIYI ÖNERİYORUM:
+//   kaynak-susuyor  madde VAR, doğru yeri açıyor, kademeyi YAZMIYOR
+//   adres-yanlis    slug canlı ama BAŞKA maddeyi açıyor (tuzak ②)
+//   erisilemedi     slug canlı, başlık doğru, GÖVDE gelmedi (tuzak ④)
+//   menzil-disi     mertebe beyanı VAR ama cümle 1281-1923 DIŞINDA
+//   baska-yer       beyan VAR, idarî, menzil içi — ama BAŞKA BİR YERE ait
+//   madde-yok       🔴 BENİM ÖNERİM: hiçbir yazımda madde YOK (hepsi 302)
+//                   VE kapsayıcı madde adı hiç ANMIYOR
+// 📌 Altıncısı niçin gerekli: `kaynak-susuyor` tanımı "madde VAR" diyor.
+//    Ukek ve Beldjamen'de madde YOK — iki yazım da 302 ve Altın Orda
+//    başşehir maddesi adlarını hiç geçirmiyor. İkisini aynı kovaya
+//    koymak SONRAKİ EYLEMİ bozar: "kaynak-susuyor" TDV'yi bir daha
+//    deneme demektir, "madde-yok" doğrudan AKADEMİK kaynağa git demektir.
 // 📌 `k:` olan kayıtta bu alan BULUNMAZ — kova yalnız kademesiz kayda ait.
 //
 // A BLOĞU — PARTİ 1: Altın Orda / hanlık çekirdeği + Rus başkenti
@@ -89,11 +106,11 @@ window.KADEME_YAMA = [
   // ⇒ Kova SINANDI ve AYAKTA. Ama artik "olctum" diyebiliyorum; once
   //    yalnizca "tek maddeye baktim" diyebiliyordum.
 
-  {ad:"Bulgar (Bolgar)", kaynak_hali:"kaynak-susuyor",
+  {ad:"Bulgar (Bolgar)", k_yok_sebep:"kaynak-susuyor",
    kaynak:"TDV bulgar (gövdesi okundu) + 5 alternatif slug 302",
    neden:"kaynak susuyor — TDV maddesi Bulgar'ı 'Bulgar, Biler, Suvar, Osal, Tetis' arasında 'önemli kültür ve ticaret merkezleri' diye anıyor ama İDARÎ MERTEBE vermiyor; basşehir de demiyor. Altın Orda dönemindeki statüsüne hiç değinmiyor. Mustakil sehir maddesi ARANDI: bulgar--sehir · bolgar · bulgar-sehri · idil-bulgar · bulgarlar hepsi 302"},
 
-  {ad:"Tetyuşi", kaynak_hali:"kaynak-susuyor",
+  {ad:"Tetyuşi", k_yok_sebep:"kaynak-susuyor",
    kaynak:"TDV bulgar (gövdesi okundu) + tetis/tetyusi 302",
    neden:"kaynak susuyor — aynı madde 'Tetis' adını İdil Bulgar merkezleri arasında sayıyor, mertebe VERMİYOR. TDV'nin kendi yazimiyla (tetis) ve veri yazimiyla (tetyusi) mustakil madde ARANDI, ikisi de 302"},
 
@@ -104,15 +121,15 @@ window.KADEME_YAMA = [
   // bana IKINCI KEZ, bu sefer SLUG'DA DEGIL GOVDE ICI ARAMADA carpti.
   // ⇒ Hukum DEGISMEDI, GEREKCE duzeldi: ad geciyor ama BASKENT olarak
   //   degil, "yirmiden fazla sehir"den biri olarak.
-  {ad:"Tümen (Çimgi-Tura)", kaynak_hali:"kaynak-susuyor",
+  {ad:"Tümen (Çimgi-Tura)", k_yok_sebep:"kaynak-susuyor",
    kaynak:"TDV sibir-hanligi (gövdesi 3 kez okundu) + TDV tumen (gövdesi okundu — BASKA KONU)",
    neden:"kaynak susuyor — madde Cimga-Tura'yi ANIYOR ama mertebe vermiyor: 'Çimga-Tura ve Sibir sehirlerinin yani sira Sibir Hanligi'nda yirmiden fazla sehir mevcuttu'. Yani 20+ sehirden biri; ONCEKI BASSEHIR oldugu SOYLENMIYOR ve madde 'Isker'den onceki merkez' sorusuna acikca cevap VERMIYOR. 🔴 `tumen` slugu canli (200) ama TUZAK ②: askeri/idari TERIM maddesi, Cimga-Tura'yi icermiyor. ⚠️ devletler.js `sibir-hanligi` kunyesi baskent:'Cimgi-Tura → Sibir (Isker)' diyor ve kaynak olarak BU MADDEYI gosteriyor — madde bunu SOYLEMIYOR; celiski koordinatore bildirildi, hukum onun"},
 
-  {ad:"Ukek (Uvek)", kaynak_hali:"aradim-yok",
+  {ad:"Ukek (Uvek)", k_yok_sebep:"madde-yok",
    kaynak:"TDV saray--sehir (gövdesi okundu) — Ukek adı GEÇMİYOR · ukek/uvek sluglari 302",
    neden:"aradım, bu maddede YOK — Altın Orda basşehir maddesi Ukek'i hiç anmıyor, mustakil maddesi de yok (iki yazim da 302). Mertebesi için AKADEMİK kaynak gerekiyor"},
 
-  {ad:"Beldjamen", kaynak_hali:"aradim-yok",
+  {ad:"Beldjamen", k_yok_sebep:"madde-yok",
    kaynak:"TDV saray--sehir (gövdesi okundu) — Beldjamen adı GEÇMİYOR · beldjamen/bacman sluglari 302",
    neden:"aradım, bu maddede YOK, mustakil maddesi de yok. Mertebesi için AKADEMİK kaynak gerekiyor"},
 
