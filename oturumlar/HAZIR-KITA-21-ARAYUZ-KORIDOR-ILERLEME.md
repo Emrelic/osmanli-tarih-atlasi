@@ -167,6 +167,37 @@ olaylar.length                    1223   ← OLAYLAR düzeltmesi CANLI DOĞRULAN
 
 ---
 
+## ⑤b TESLİMDEN SONRA BİR SAVUNMA DEĞİŞİKLİĞİ — ve niçin ÖLÇÜLMEDEN yapıldı
+
+Teslimden sonra kendi kodumu ⑤'in ışığında yeniden okudum: **`addLayer`
+bu ortamda hiç koşmadı**, yani paint ifadelerim **hiç doğrulanmadı**.
+Riskli olan satır şuydu:
+```js
+"circle-radius": ["case", ["get", "kaynakli"], 4.2, 4.6]
+```
+MapLibre'nin ifade denetçisi `case` koşulunda **boolean** ister; `["get", …]`
+ise `value` tipi döndürür ve bazı sürümlerde **"Expected boolean but found
+value"** ile `addLayer`ı düşürür. Yani katman **hiç kurulmayabilirdi.**
+
+**Ölçmeye çalıştım, ölçemedim** — üçü de denendi:
+```
+① gerçek harita              stil hiç yüklenmiyor (panel kompozit etmiyor)
+② BOŞ stille deneme haritası ağ istemeyen {version:8,sources:{},layers:[]}
+                             bile `load` ATMADI ⇒ addLayer denenemedi
+③ maplibregl namespace       56 anahtar, halka açık ifade doğrulayıcı YOK
+                             (yalnız `Style`, doğrulama API'si değil)
+```
+⇒ **Kumar oynamak yerine belirsizliği kaldırdım:**
+`["==", ["get","kaynakli"], true]` her sürümde boolean döndürür ve iki hâlde
+de doğrudur. Deneme haritası da temizlendi, sayfaya sızıntı bırakılmadı.
+
+📌 Bu, bu projenin *"ölçülemedi ≠ temiz"* kuralının uygulanışı: ölçemediğim
+bir davranışı *"herhalde çalışır"* diye bırakmak, dördüncü kovayı **temiz**
+diye raporlamak olurdu. Değişiklik `node --check` ile sınandı (TEMİZ) ve
+koridor mantık sınavı yeniden koşuldu (**11/11**, 41/39 durak ayrımı aynı).
+⚠️ Ve bu satır bir **kanıt değil**: paint ifadelerinin gerçekten kabul edildiği
+hâlâ **ÖLÇÜLMEDİ.** Panel açıldığında ilk bakılacak şey budur.
+
 ## 🔴 ⑥ KOORDİNATÖRDE — bir çelişki, bir onay
 
 **(a) COMMIT ÇELİŞKİSİ.** Şartnamem §④ üç kaynak dosyasını *"SENİN"* diyor ve
