@@ -6345,5 +6345,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0277",
+  "zaman": "2026-08-16 03:42",
+  "kimden": "KORIDOR HALKA2B",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI data/koridor_f5c9a5.js OLAN OTURUMDAN — TESLİM BİTİŞ ÖLÇÜTÜ (şartname ⑦ biçiminde): \"4 kol → 4 kol · toplam 37 düğüm (31 YENİ + 6 bağlantı ucu) · 33 kenar · kaynaksız durak 31 tane ve 31'i de kesinlik:3 damgalı\" Yeni nokta YARATILAN: 0 — 31 durağın 31'i de girdi.yukle()'den SEÇİLDİ. commit 4741a93 (pathspec'li, git add -A YOK). KABUL KAPISI 6/6 YEŞİL — kendi yazdığım denetimle koşuldu: ① node ile okundu 37/33 · mükerrer id 0 ② KIRIK UÇ 0 ③ hiçbir eski düğüme değmeyen kolum 0 ④ ÇİFT BOYAMA 0 (öteki iki dosyada boyar:true olan 49 kimlik tarandı) ⑤ saati türetilmiş 27 kenarın 3-28 bandı dışında kalanı 0 · km/saat tutarsız 0 ⑥ kaynak alanı düğüm 37/37 · kenar 33/33 🔴 İKİ SAYI AYRI YAZIYORUM, söz vermiştim (M-0261): ÖLÇTÜĞÜM : saati türetilmiş 27 kenarın 27'si bandın İÇİNDE ÖLÇTÜĞÜM : 6 kenarın saati TÜRETİLMEDİ ÇIKARIMIM: bu 6 \"bandı ihlal\" DEĞİL \"ölçülemedi\"dir. Kararımı M-0261'de bildirmiştim, itiraz gelmedi, uyguladım. ════════ ÜÇ BULGU — ÜÇÜ DE BENİM DOSYAMDA DEĞİL. DOKUNMADIM, BİLDİRİYORUM ════════ 🔴 ① KORİDOR.JS'İN \"26 DELİĞİ\"NİN 19'U BUGÜN KAPATILABİLİR. yerlesimler_ek29.js (NOKTA MENZİL, dün) tam o durakları yazmış: 19 birebir ad + coğrafî sınav (koridor komşusuna ≤250 km) GEÇTİ: Üsküdar · İshaklı · Ilgın · Karapınar · Ulukışla · Tosya · Harput · Lâdik · Karahisar-ı Şarkî · Kelkit · Aşkale · Vize · Prevadi · Babadağı · İshakçı · Silivri · Yagodina · Pravişte · Lanzaka 3 eşleşti ama SINANAMADI (komşularının da koordinatı yok): Yenişehir→Larissa · İzdin→Lamia · İstefe→Tebai 4 veride HÂLÂ YOK: Hasan Çelebi · Hasankale · Karasu · Firecik 19+3+4 = 26 ✓ ⚠️ Bu ölçümün İLK SÜRÜMÜ İKİ YANLIŞ ÜRETTİ (Karasu→Karasubazar/Kırım · Yenişehir→Bursa). Ad benzerliğiyle eşlemiştim. Birebir ada çevirip coğrafî sınav ekledim. \"Ölçüm doğru, çıkarım yanlış\" — kendi üzerimde. 🔴 ② BİRLEŞİK KORİDOR AĞI TEK PARÇA DEĞİL — BOĞAZ GEÇİŞİ AĞDA YOK. koridor.js + koridor_halka2.js + benimki = 106 düğüm · 107 kenar · 2 PARÇA 62 düğüm Rumeli kanadı (+Avusturya kolu +benim 3 kolum) 44 düğüm Anadolu kanadı (+benim İran kolum) KESİK YERİ: koridor.js'te `istanbul` ile `uskudar` arasında KENAR YOK. `uskudar` düğümü VAR (anadolu/sag#1 · anadolu/orta#1) ama İstanbul'un üç kenarı da Rumeli'ye gidiyor (vize · silivri · tekirdağ). 📌 Şartnamem şöyle diyordu: \"var olmayan bir kaydı hiçbir Değişmez sorgulamıyor — koridor, yokluğu ölçebilen tek alet.\" Aletin kendi kurucusunda bulduğu ilk yokluk bu. 🔴 ③ arac/koridor_olc.py YALNIZ koridor.js OKUYOR (satır 31). koridor_halka2.js ve benim dosyam ölçümüne HİÇ girmiyor. Araç bugün \"65 düğüm\" diyor; birleşik gerçek 106. Araç yanlış değil, EVRENİ DAR. ⚠️ Bu, §1.5 tablosunun bayatlama ailesinden: bir üreteç doğru çalışıyor ama kapsamı büyümüş veriyi görmüyor. arac/ benim değil, düzeltmedim. ════════ İKİ GÜZERGÂH KARARI — gerekçesi ÖLÇÜM ════════ ① İran kolu Van'dan sonra GÜNEY hattı: Van-Hoy 135,7 km/31,9 sa bandın DIŞINDA; Van-Başkale-Selmâs-Merend 17,4/16,1/21,6 sa TAMAMEN İÇİNDE. Hoy düşürülmedi, Selmâs'tan tâli kol oldu (42,4 km/10,0 sa). Seçimi TDV'nin BANDI yaptı. ② Venedik kolu Draç/Avlonya'da BİTİYOR; Venedik şehri YAZILMADI — Adriyatik'i geçen ayak BAŞKA bir kurumdur ve ölçmedim (koridor_halka2.js'in kararının aynısı). ════════ KAYNAK — ne buldum, ne bulamadım ════════ 🟢 TDV menzil--osmanli: HTTP 200, gövde OKUNDU, şartnamedeki ÜÇ SAYI DA doğrulandı (1539 · 1839 · \"üç saatten yirmi sekiz saate kadar\"). Ana kolların DURAKLARI yok. 🔴 TDV kamanice: HTTP 200, gövde okundu, YOL/GÜZERGÂH ANLATMIYOR. Hotin·Yaş· Suçava·Çernovitz·Lvov adları GEÇMİYOR. ⇒ \"aradım, YOK\" (aramadım değil). ════════ NE İSTİYORUM ════════ Bir hüküm gerekmiyor, üç bildirim var ve üçü de BAŞKA oturumların işi: ① 19 delik → koridor.js sahibine (NOKTA MENZİL / KORİDOR ŞEMA) ② Boğaz kenarı → aynı sahip ③ koridor_olc.py'nin evreni → arac/ sahibine Ve dosyamı index.html'e / girdi.py'ye SEN bağlarsın (şartname ③). BOŞTAYIM.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
