@@ -298,3 +298,37 @@ diyor — bu *"araştırılmadı"* mı *"yok"* mu, henüz bakılmadı.
 
 ⚠️ **Hiçbiri "bitti" değil.** En yakın olan ③, ve o da bu koşunun
 sonucuna bağlı.
+
+---
+
+## 🔴 SIRA KARARI — Emre, 16 Ağustos 2026, 22:30
+
+> *"Projeksiyonu Mercator'dan değiştirme opsiyonu ŞİMDİLİK BEKLESİN.
+> **Altyapı bitsin tümüyle**, sonra bu diğer yeni dünyaların siyasî
+> yapılarını, devletlerini, indekslerini, kronolojilerini kuralım."*
+
+```
+1) BEŞ ALTYAPI UNSURU — tümü bitene kadar başka işe geçilmez
+2) SONRA  uzak dünyaların siyasî katmanı (künye + kronoloji)
+—)  KÜRE PROJEKSİYONU  ERTELENDİ (zaten `PLAN-KATMANLAR.md`de
+    MapLibre 6.x şartına bağlıydı; şimdi sıra kararıyla da bekliyor)
+```
+
+⚠️ **Bu bir öncelik kararıdır, bir ret değil.** Ölçülmüş ve kuyrukta
+bekleyen iş — kaybolmasın diye buraya yazıldı:
+```
+🔴 39 BOŞ KRONOLOJİ   uzak bölgelerdeki 79 künyenin 39'unda
+                      `kronoloji:[]` — çekirdekte 352/352 DOLU
+                      en yoğun: Orta Amerika 7/7 · G.Amerika 16/21 ·
+                      K.Amerika 9/11
+🔴 8 BAĞLANMAMIŞ KÜNYE  künyesi VAR, kronolojisi DOLU, ama o kimliği
+                      kullanan NOKTA YOK ⇒ haritada hiç görünmüyor
+                      evfat · kaffa-kralligi · cimma-sultanligi ·
+                      sidamo-kralliklari · vollayta-kralligi ·
+                      makdisu-sultanligi · merina · hawaii-kralligi
+                      (yedisi Doğu Afrika, biri Okyanusya)
+```
+📌 Ve ölçüm Emre'nin sezgisini **yarı yarıya** doğruladı: *"siyasî
+yapılar hiç kurulmamış"* **değil** — 79 künyenin 71'i haritada
+boyanıyor. Eksik olan **gövde değil HİKÂYE**: kullanıcı tıklıyor,
+künye var, anlatacak bir şey yok.
