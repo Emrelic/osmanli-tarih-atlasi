@@ -37,7 +37,19 @@
 //        durumuna bağlıydı; hiçbir kaynakta saat bulamadım ve
 //        km/hız tablosuyla türetmek KARA yolu varsayardı, ki değil.
 
-window.KORIDOR_YAMA = {
+// 🔴 DEĞİŞKEN ADI DEĞİŞTİ — M-0671 emriyle, ve kusur bendeydi.
+//   Önce `window.KORIDOR_YAMA` yazmıştım; `koridor_yama_f5c9a5.js` de
+//   AYNI adı kullanıyordu. İki dosya, tek ad alanı ⇒ `index.html` ikisini
+//   de yüklerse **ikincisi birincisini SESSİZCE EZER**, ve biri dizi
+//   öteki nesne olduğu için tüketen kod ya patlar ya hiçbir şey görmez.
+//   ⇒ 23 düğüm + 1 kenar, yükleme sırasına göre YA 23 YA 1 olurdu,
+//     asla 24. Veri doğru, kullanıcı görmüyor — projenin en pahalı sınıfı.
+// 📌 Ve şunu kendi payıma yazıyorum: dosya adıma `e9353f` koydum ama
+//   DEĞİŞKEN adına koymadım. Ayrı dosya aldığım için ayrı ad alanım
+//   olduğunu SANDIM. Dosya sahipliği kuralı dosyayı korur, JavaScript'in
+//   küresel ad alanını KORUMAZ — ve asıl paylaşılan kaynak odur.
+// ⇒ Kural (M-0671 ⑤): data/<tur>_yama_<kisaltma>.js → window.<TUR>_YAMA_<KISALTMA>
+window.KORIDOR_YAMA_E9353F = {
 
 kenar: [
   // 🟢 AĞI BİRLEŞTİREN TEK KENAR
