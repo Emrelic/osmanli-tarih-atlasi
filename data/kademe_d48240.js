@@ -30,13 +30,23 @@
 //   erisilemedi     slug canlı, başlık doğru, GÖVDE gelmedi (tuzak ④)
 //   menzil-disi     mertebe beyanı VAR ama cümle 1281-1923 DIŞINDA
 //   baska-yer       beyan VAR, idarî, menzil içi — ama BAŞKA BİR YERE ait
-//   madde-yok       🔴 BENİM ÖNERİM: hiçbir yazımda madde YOK (hepsi 302)
-//                   VE kapsayıcı madde adı hiç ANMIYOR
-// 📌 Altıncısı niçin gerekli: `kaynak-susuyor` tanımı "madde VAR" diyor.
-//    Ukek ve Beldjamen'de madde YOK — iki yazım da 302 ve Altın Orda
-//    başşehir maddesi adlarını hiç geçirmiyor. İkisini aynı kovaya
-//    koymak SONRAKİ EYLEMİ bozar: "kaynak-susuyor" TDV'yi bir daha
-//    deneme demektir, "madde-yok" doğrudan AKADEMİK kaynağa git demektir.
+//   adres-yok       🔴 BENİM ÖNERDİĞİM 6. KOVA — ADI M-0580 İLE DÜZELTİLDİ:
+//                   DENENEN SLUGLAR 302 döndü VE kapsayıcı madde adı hiç
+//                   ANMIYOR. ⚠️ Başka yazım DENENEBİLİR — bu kova
+//                   "TDV'de bu konu yok" DEMEZ, "denediğim adreslerde yok" der.
+// 📌 Niçin gerekli: `kaynak-susuyor` tanımı "madde VAR" diyor. Ukek ve
+//    Beldjamen'de o adreslerde madde YOK. İkisini aynı kovaya koymak
+//    SONRAKİ EYLEMİ bozar: "kaynak-susuyor" TDV'yi bir daha deneme
+//    demektir, "adres-yok" başka yazım dene sonra AKADEMİĞE git demektir.
+// 🔴 ADI NİÇİN `madde-yok` DEĞİL — M-0580 (KORİDOR HALKA2B) ölçtü ve
+//    ÖNERİMİ DÜZELTTİ: `ilahabad` üç varyantıyla 302'ydi, sonra
+//    `allahabad` 200 ve 93 KB GERÇEK MADDE çıktı.
+//    ⇒ ***Adres yokluğu madde yokluğu DEĞİLDİR.*** `madde-yok` deseydik
+//    bir sonraki oturum aramayı BIRAKIRDI.
+//    📌 Ve bu bana ÜÇ KEZ çarptı: `tumen` (canlı ama başka madde) ·
+//    `Çimga-Tura` (gövde içi, i/a farkı) · `tinbuktu` (iki slug da canlı,
+//    biri BOŞ). Kendi adlandırmam tam da kendi düştüğüm tuzağı
+//    kalıcılaştıracaktı; itirazı ölçümle geldi ve kabul ettim.
 // 📌 `k:` olan kayıtta bu alan BULUNMAZ — kova yalnız kademesiz kayda ait.
 //
 // A BLOĞU — PARTİ 1: Altın Orda / hanlık çekirdeği + Rus başkenti
@@ -125,11 +135,11 @@ window.KADEME_YAMA = [
    kaynak:"TDV sibir-hanligi (gövdesi 3 kez okundu) + TDV tumen (gövdesi okundu — BASKA KONU)",
    neden:"kaynak susuyor — madde Cimga-Tura'yi ANIYOR ama mertebe vermiyor: 'Çimga-Tura ve Sibir sehirlerinin yani sira Sibir Hanligi'nda yirmiden fazla sehir mevcuttu'. Yani 20+ sehirden biri; ONCEKI BASSEHIR oldugu SOYLENMIYOR ve madde 'Isker'den onceki merkez' sorusuna acikca cevap VERMIYOR. 🔴 `tumen` slugu canli (200) ama TUZAK ②: askeri/idari TERIM maddesi, Cimga-Tura'yi icermiyor. ⚠️ devletler.js `sibir-hanligi` kunyesi baskent:'Cimgi-Tura → Sibir (Isker)' diyor ve kaynak olarak BU MADDEYI gosteriyor — madde bunu SOYLEMIYOR; celiski koordinatore bildirildi, hukum onun"},
 
-  {ad:"Ukek (Uvek)", k_yok_sebep:"madde-yok",
+  {ad:"Ukek (Uvek)", k_yok_sebep:"adres-yok",
    kaynak:"TDV saray--sehir (gövdesi okundu) — Ukek adı GEÇMİYOR · ukek/uvek sluglari 302",
    neden:"aradım, bu maddede YOK — Altın Orda basşehir maddesi Ukek'i hiç anmıyor, mustakil maddesi de yok (iki yazim da 302). Mertebesi için AKADEMİK kaynak gerekiyor"},
 
-  {ad:"Beldjamen", k_yok_sebep:"madde-yok",
+  {ad:"Beldjamen", k_yok_sebep:"adres-yok",
    kaynak:"TDV saray--sehir (gövdesi okundu) — Beldjamen adı GEÇMİYOR · beldjamen/bacman sluglari 302",
    neden:"aradım, bu maddede YOK, mustakil maddesi de yok. Mertebesi için AKADEMİK kaynak gerekiyor"},
 
@@ -240,27 +250,27 @@ window.KADEME_YAMA = [
    kaynak:"TDV darfur (gövdesi okundu)",
    neden:"🔴 MERTEBE BEYANI VAR AMA ATLAS UFKUNUN DIŞINDA. Madde: 'bir müdüriyet haline getirilen Dârfûr, yakın yıllarda Dârfûrü'l-cenûbiyye (MERKEZİ NİYÂLÂ) ve Dârfûrü'ş-şimâliyye (merkezi Fâşir) olmak üzere iki alt idarî birime ayrılmıştır'. Nyala bir alt idarî birimin MERKEZİ — ama bu taksimat Sudan'ın bağımsızlığından (1956) SONRA, yani atlas ufkunun (1281-01-01..1923-10-29) DIŞINDA. Ufuk içindeki mertebesi için kaynak SUSUYOR. M-0481'in `menzil-disi` kovası tam bu hâl için vardı ve ilk kez burada kullanıyorum"},
 
-  {ad:"Kutum", k_yok_sebep:"madde-yok",
+  {ad:"Kutum", k_yok_sebep:"adres-yok",
    kaynak:"TDV darfur (gövdesi okundu) + `kutum` slug'ı 302",
    neden:"müstakil maddesi YOK ve kapsayıcı `darfur` maddesi bu adı HİÇ ANMIYOR — madde yalnız Fâşir ve Nyala'yı adıyla veriyor. Akademik kaynak gerekiyor"},
 
-  {ad:"Kebkâbiye", k_yok_sebep:"madde-yok",
+  {ad:"Kebkâbiye", k_yok_sebep:"adres-yok",
    kaynak:"TDV darfur (gövdesi okundu) + `kebkabiye` slug'ı 302",
    neden:"müstakil maddesi YOK ve kapsayıcı `darfur` maddesi bu adı HİÇ ANMIYOR. Akademik kaynak gerekiyor"},
 
-  {ad:"Cenîne", k_yok_sebep:"madde-yok",
+  {ad:"Cenîne", k_yok_sebep:"adres-yok",
    kaynak:"TDV darfur (gövdesi okundu) + `cenine` slug'ı 302",
    neden:"müstakil maddesi YOK ve kapsayıcı `darfur` maddesi bu adı HİÇ ANMIYOR. ⚠️ NOT: bu ad M-0466'nın bulanık eşleştirmesinde `Cetine` (zeta künyesi) ile 0,83 benzerlik göstermişti ve SAHTE çıkmıştı (Cenîne Dârfûr'da 13,45°K, Cetinje Karadağ'da) — o hüküm ayakta"},
 
-  {ad:"Zâlincî", k_yok_sebep:"madde-yok",
+  {ad:"Zâlincî", k_yok_sebep:"adres-yok",
    kaynak:"TDV darfur (gövdesi okundu) + `zalinci` slug'ı 302",
    neden:"müstakil maddesi YOK ve kapsayıcı `darfur` maddesi bu adı HİÇ ANMIYOR. Akademik kaynak gerekiyor"},
 
-  {ad:"Tîne (Dârfûr)", k_yok_sebep:"madde-yok",
+  {ad:"Tîne (Dârfûr)", k_yok_sebep:"adres-yok",
    kaynak:"TDV darfur (gövdesi okundu) + `tine` slug'ı 302",
    neden:"müstakil maddesi YOK ve kapsayıcı `darfur` maddesi bu adı HİÇ ANMIYOR. Akademik kaynak gerekiyor"},
 
-  {ad:"Ed-Da'în", k_yok_sebep:"madde-yok",
+  {ad:"Ed-Da'în", k_yok_sebep:"adres-yok",
    kaynak:"TDV darfur (gövdesi okundu) + `ed-dain` slug'ı 302",
    neden:"müstakil maddesi YOK ve kapsayıcı `darfur` maddesi bu adı HİÇ ANMIYOR. Akademik kaynak gerekiyor"},
 
