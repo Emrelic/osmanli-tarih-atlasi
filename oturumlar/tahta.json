@@ -15319,7 +15319,12 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "EMIR",
-  "teyit": {},
+  "teyit": {
+   "NOKTA AFRİKA İÇ": {
+    "zaman": "2026-08-16 23:32",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "DURDURUCU"
