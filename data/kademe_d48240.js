@@ -264,6 +264,20 @@ window.KADEME_YAMA = [
    kaynak:"TDV darfur (gövdesi okundu) + `ed-dain` slug'ı 302",
    neden:"müstakil maddesi YOK ve kapsayıcı `darfur` maddesi bu adı HİÇ ANMIYOR. Akademik kaynak gerekiyor"},
 
+  // C BLOĞU — Fas kıyısı, iki kayıt ve İKİSİ DE FARKLI KOVAYA düştü.
+  // 📌 Ve ikisi birlikte "hâkimiyet ≠ mertebe" dersini üçüncü kez gösteriyor:
+  //   her iki madde de zengin hâkimiyet zinciri veriyor (Emevî · Murâbıt ·
+  //   Muvahhid · Merînî · Portekiz 1415 · İspanya 1668) ve mertebe sorusuna
+  //   biri HİÇ, öteki UFUK DIŞI cevap veriyor.
+
+  {ad:"Sebte (Ceuta)", k_yok_sebep:"kaynak-susuyor",
+   kaynak:"TDV sebte (gövdesi okundu)",
+   neden:"kaynak susuyor — madde hâkimiyet zincirini eksiksiz veriyor ('Abdülmü'min'in 543 (1148) yılında Sebte'ye girmesiyle şehir kalıcı bir şekilde Muvahhidler'in hâkimiyetine geçti' · Portekiz işgali 818/1415 · 1668'den İspanya) ama İDARÎ MERTEBEYİ AÇIKÇA VERMİYOR. İkinci kez soruldu, cevap yine 'mertebe verilmiyor'"},
+
+  {ad:"Tanca", k_yok_sebep:"menzil-disi",
+   kaynak:"TDV tanca (gövdesi 2 kez okundu, birebir alıntı istenerek)",
+   neden:"🔴 MERTEBE BEYANI VAR AMA CÜMLENİN TARİHİ UFUK DIŞI. Birebir alıntı: 'BÖLGENİN İDARÎ MERKEZİ ve Mûsâ b. Nusayr'ın ordularının Atlas Okyanusu ile Cebelitârık sahillerinin temas sahasındaki ilk askerî üssü olan Tanca...'. 'Bölgenin idarî merkezi' bir mertebe beyanıdır — ama cümlede anılan tek tarih 89/708 (Emevî fethi), atlas ufkundan (1281-01-01) 573 YIL ÖNCE. Ufuk İÇİNDEKİ mertebesi için madde konuşmuyor. ⚠️ Madde ayrıca Mevlây İsmâil döneminde 'Fas'ın diplomatik merkezi' diyor — DİPLOMATİK, idarî DEĞİL; onu mertebe saymadım"},
+
   {ad:"Rabat", k:1,
    kaynak:"TDV rabat (gövdesi okundu)",
    neden:"İKİ BİREBİR ALINTI: ① 'Rabat'a özel bir önem veren III. Muhammed, Fas ve Merakeş'ten sonra burayı ÜÇÜNCÜ BAŞŞEHİR edindi' ② 'Fransız Mareşal Lyautey ... YÖNETİM MERKEZİNİ Fas şehrinden Rabat'a nakletti' (1912). Başlangıcı 545/1150'de Abdülmü'min'in ordugâhı. 🟢 VE ①. ALINTI ÜÇ KAYDIMI BİRDEN DOĞRULUYOR: Fas (Fez) · Merakeş · Rabat üçü de k:1 yazılı ve ÇELİŞMİYORLAR — TDV Fas'ın üç başşehri olduğunu AÇIKÇA söylüyor. ⚠️ kd: YİNE YAZMADIM: alıntı III. Muhammed'i adıyla veriyor ama TARİH VERMİYOR, ve 'kd: tarihsiz yazılmaz' (M-0471/M-0435). Hükümdarın saltanat yıllarını kendim koymak, maddenin söylemediği bir tarihi ölçülmüş gibi göstermek olurdu"},
