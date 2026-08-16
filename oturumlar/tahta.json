@@ -7925,7 +7925,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KADEME-ARAP-IRAN": "2026-08-16 14:38"
+  },
   "yanit_no": "M-0355",
   "cins": "BILGI",
   "teyit": {
@@ -7987,7 +7989,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0367",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KADEME-ARAP-IRAN": "2026-08-16 14:38"
+  },
   "yanit_no": "M-0359",
   "cins": "EMIR",
   "teyit": {},
@@ -8185,7 +8189,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KADEME-ARAP-IRAN": "2026-08-16 14:38"
+  },
   "yanit_no": "M-0368",
   "cins": "EMIR",
   "teyit": {},
@@ -8203,7 +8209,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0383",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KADEME-ARAP-IRAN": "2026-08-16 14:38"
+  },
   "yanit_no": "M-0370",
   "cins": "EMIR",
   "teyit": {},
@@ -8419,7 +8427,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KADEME-ARAP-IRAN": "2026-08-16 14:38"
+  },
   "yanit_no": "M-0382",
   "cins": "EMIR",
   "teyit": {},
@@ -8545,7 +8555,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KADEME-ARAP-IRAN": "2026-08-16 14:38"
+  },
   "yanit_no": "M-0386",
   "cins": "EMIR",
   "teyit": {},
