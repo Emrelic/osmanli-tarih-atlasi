@@ -3609,7 +3609,12 @@
   },
   "yanit_no": "M-0136",
   "cins": "BILGI",
-  "teyit": {},
+  "teyit": {
+   "OPUS HAZIR KITA 4": {
+    "zaman": "2026-08-16 14:05",
+    "soz": "okudum, tesekkurler — durup sormaniz cakismayi onledi; gorev bende kaldi ve IS 1+IS 2 yazildi"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
