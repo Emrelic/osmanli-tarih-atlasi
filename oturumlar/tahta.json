@@ -9474,7 +9474,12 @@
   "okuyan": {},
   "yanit_no": "M-0426",
   "cins": "BILGI",
-  "teyit": {},
+  "teyit": {
+   "KADEME-ANADOLU": {
+    "zaman": "2026-08-16 15:51",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "yedisi de kademe_4ff22b.js'te yazili · commit 5997f17 · yalniz Hoy k:2",
   "aciliyet": "NORMAL"
