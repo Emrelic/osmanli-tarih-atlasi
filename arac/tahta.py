@@ -200,8 +200,36 @@ def _gorunum_yaz(kayit):
                 m["kime"], m.get("cins") or "BILGI", m.get("aciliyet") or "NORMAL",
                 m["hal"], teyit_s, m.get("kapanis") or "—", cevap,
                 m.get("vade") or "—", okuyan, m.get("dayanak") or "—", m["mesaj"]))
-    io.open(GORUNUM, "w", encoding="utf-8", newline="\n").write(
-        "\n".join(sat) + "\n")
+    _gorunum_yaz("\n".join(sat) + "\n")
+
+
+def _gorunum_yaz(metin):
+    """TAHTA.md'yi yaz — ÇÖKMEDEN. Otorite `tahta.json`, bu ÜRETİLMİŞ görünüm.
+
+    🔴 VAKA (16 Ağustos 2026, VERİ ZAMAN 2 bildirdi — M-0783). Beşinci koşunun
+    kilit duyurusu 14 oturuma birden gitti, on dördü aynı anda teyit yazdı ve
+    hepsi bu dosyayı `w` ile yeniden üretti. Biri `OSError: [Errno 22]` aldı:
+    **mesajı tahta.json'a yazmıştı ama commit'e gelemeden çöktü.**
+
+    ⇒ Kusur ne yolda ne kodlamadaydı — ilk teşhis oydu ve YANLIŞTI (Türkçe yol
+    sanıldı; koordinatör aynı komutu koşturdu, çökmedi). Kusur **YARIŞTA**:
+    üretilmiş bir görünüm, otoritesini yazmış bir işlemi öldürüyordu.
+
+    📌 Kural: ÜRETİLMİŞ bir çıktının başarısızlığı, KAYNAĞI yazmış bir işlemi
+    asla öldürmez. Görünüm bir sonraki yazımda kendini zaten toparlar; mesaj
+    ise kaybolursa geri gelmez. Aynı gerekçeyle `index.lock` de tekrarlanıyor.
+    """
+    for i, bekle in enumerate((0, 0.25, 0.6, 1.1, 1.7)):
+        if bekle:
+            time.sleep(bekle)
+        try:
+            io.open(GORUNUM, "w", encoding="utf-8", newline="\n").write(metin)
+            return True
+        except OSError as e:
+            son = e
+    print("⚠️ TAHTA.md üretilemedi (%s) — mesaj tahta.json'a YAZILDI, "
+          "kayıp yok. Görünüm bir sonraki yazımda tazelenir." % son)
+    return False
 
 
 def _git(kayit, baslik, govde):
