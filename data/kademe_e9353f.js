@@ -413,6 +413,32 @@ window.KADEME_YAMA = [
 {ad:"Granada", kd:[{f:"1281-01-01", t:"1492-01-02", k:1}], kaynak:"girnata",
  neden:"NASRI DEVLETI'NIN PAYITAHTI. TDV girnata maddesi (govdesi okundu): 'Muhammed b. Yusuf b. Nasr ... Girnata'yi ele gecirerek Nasri Devleti'ni kurdu (26 Ramazan 635 / 12 Mayis 1238)' ve o tarihten itibaren 'yaklasik 250 yil Nasriler'e payitahtlik yapacagi yeni bir donem basladi'. 🟢 VE VERI ILE BIREBIR UYUSUYOR: Granada'nin veri donemi 1281-01-01 → 1492-01-02, yani atlasin ilk gununden Nasri devletinin sonuna. Iki bagimsiz yerden gelen ayni pencere. ⚠️ 1492 SONRASINA KADEME YAZMADIM: TDV yalniz 'gunumuzde ayni adi tasiyan vilayetin merkezidir' diyor ve bu BUGUNE dair bir cumle, 1492-1923 arasina degil. Bugunku idari bolunmeyi tarihe geri yansitmak, kaynagi genisletmek olurdu"},
 
+// ───────── I. YAKIN-EŞLEŞME — eşleştiricinin ÜÇÜNCÜ kaçağı ─────────
+//
+// 🔴 `Pisa`/`piza` vakasından sonra şunu düşündüm: aynı sınıftan BAŞKA
+//   kaç tane var? Tek tek aramak yerine SİSTEMATİK taradım — künyelerin
+//   `baskent:` alanındaki her adı, veri adlarıyla bulanık eşleştirdim
+//   (difflib, eşik 0,82) ve TAM eşleşmeyenleri listeledim.
+//   ⇒ **34 yakın-ama-tam-değil çift** çıktı. Yaklaşık yarısı GERÇEK aynı
+//     yerin iki yazımı, yarısı tesadüfî benzerlik.
+//
+// 📌 VE ARAÇ TEK BAŞINA KARAR VEREMİYOR — ayıklamayı ben yaptım:
+//     🟢 GERÇEK  Edinburgh↔Edinburg · Stockholm↔Stokholm · Sankt-Peterburg↔
+//                St. Petersburg · Suceava↔Suçava · Cetine↔Cetinje ·
+//                Nanjing↔Nanking · Murshidabad↔Murşidâbâd · Marakeş↔Merakeş
+//     🔴 SAHTE   Katsina↔Atina · Erivan↔Merîvan · Sa'da↔Sayda ·
+//                Mandla↔Manila · Bahawalpur↔Bhâgalpûr · Sokoto↔Sokota
+//                (Sokota Habeşistan'da bir yer — adı benziyor, ilgisi yok)
+//   ⇒ Bulanık eşleştirme bir ARAMA aletidir, bir KARAR aleti değil.
+//
+// Bu ikisi BENİM kutumda; ötekileri ilgili oturumlara yatay mesajla verdim.
+
+{ad:"Edinburg", kd:[{f:"1281-01-01", t:"1707-05-01", k:1}], kaynak:"devletler.js:iskocya",
+ neden:"ISKOCYA KRALLIGININ BASKENTI. Kunye iskocya 843-01-01..1707-05-01, baskent alani 'Scone → Edinburgh' — YINE ok isaretli, yani yine TASINMA, ve yine GECIS TARIHI YOK. Pencereyi bolmedim; Scone bu kutuda nokta olarak YOK, o yuzden yalniz Edinburg yazildi. 🔴 VE BU KAYIT ESLESTIRICININ UCUNCU KACAGIYDI: kunye 'Edinburgh' yaziyor, veri 'Edinburg' (h YOK) ⇒ tam eslesme TUTMADI ve nokta 393'un icinde kademesiz duruyordu. 1707 sonrasi (Birlik) icin kademe YAZILMADI: kunye orada bitiyor ve Edinburg'un Britanya icindeki mertebesi icin kaynagim yok"},
+
+{ad:"Stokholm", k:1, kaynak:"devletler.js:isvec",
+ neden:"ISVEC'IN BASKENTI, ve KESINTISIZ — bu yuzden duz alan yazildi ve zamanli olan gerekmedi. IKI ARDISIK kunye ayni baskenti veriyor: isvec-birlik-oncesi 1281-01-01..1523-06-06 baskent Stockholm, sonra isvec 1523-06-06..1923-10-29 baskent Stockholm. Bosluk YOK, atlasin ilk gununden son gunune. 🔴 Bu da eslestiricinin kacagiydi: kunye 'Stockholm', veri 'Stokholm' (c YOK)"},
+
 ];
 
 // ═══════════ G2. DENENEN VE ÇÜRÜYEN BİR TÜRETME KURALI ═══════════
