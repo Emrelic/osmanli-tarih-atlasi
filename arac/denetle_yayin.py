@@ -743,6 +743,33 @@ def main():
         "data/koridor_halka2.js":        "11 dugum + 10 kenar (Belgrad→Viyana); "
                                          "onkosul ARAYUZ (index.html satiri + "
                                          "app.js cizimi), renk/anlik goruntu DEGIL",
+        # ── 16 AGUSTOS GECE PARTISI — SEKIZ DOSYA, HEPSI AYNI ONKOSULDA ──
+        # Sekiz oturum es zamanli calisti ve her biri KENDI dosyasina yazdi
+        # (adlandirma: scratchpad UUID'inin ilk 6 hanesi — cakisma YAPISAL
+        # OLARAK imkansiz). Hicbiri girdi.py'ye BAGLI DEGIL ve bu KASITLI.
+        #
+        # 🔴 SIRA KISITI — bagli olmamalari bir eksiklik degil, bir KAPI:
+        #     nokta  →  kunye  →  renk  →  BAGLAMA
+        # Bagli olmayan dosya haritaya HIC girmez ⇒ eksik kunye/renk zarar
+        # veremez. Delik ancak BAGLAMA aninda dogar, ve bagi koordinator
+        # atar — ucunu de olcerek.
+        # 📌 `kuba` dersi bunu destekliyor: noktasi olmayan kimlik
+        # `renk_olc`ta engel bile kuramiyordu. Renk ve kunye, nokta
+        # INDIKTEN SONRA daha dogru seciliyor. Beklemek gecikme degil kazanc.
+        "data/yerlesimler_ek30.js":      "Okyanusya-Avustralya-YZ; onkosul: kunye "
+                                         "(tui-tonga) + renk, sonra BAGLAMA",
+        "data/yerlesimler_ek31.js":      "Ural-B.Sibirya-Irkutsk; onkosul BAGLAMA",
+        "data/yerlesimler_8beb2b.js":    "Yakutistan-Kamcatka-Cukotka; onkosul BAGLAMA",
+        "data/yerlesimler_e9353f.js":    "Bati-Orta-Guney Afrika ici; onkosul: 10 "
+                                         "renksiz kimlik (mali·songhay·oyo…), sonra BAGLAMA",
+        "data/kademe_4ff22b.js":         "YAMA dosyasi (Arap-Iran kademe/kd:) — "
+                                         "mevcut yerlesimler*.js'e KOORDINATOR isler, "
+                                         "tarayiciya HIC gitmez",
+        "data/kademe_8beb2b.js":         "YAMA dosyasi (Anadolu-Rumeli kademe/kd:), ayni",
+        "data/koridor_f5c9a5.js":        "4 kol · 37 dugum · 33 kenar; onkosul ARAYUZ "
+                                         "(index.html satiri + app.js cizimi)",
+        "data/olaylar_7a4170.js":        "4 kirilmaya kronoloji maddesi; onkosul "
+                                         "index.html satiri — YAYINA GIRECEK",
     }
 
     # 🔴 EMEKLİ ≠ BEKLEYEN. Bekleyen "önkoşul kapanınca BAĞLANACAK" vaadi

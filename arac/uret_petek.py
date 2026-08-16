@@ -291,6 +291,82 @@ _GIRDI_IZI = girdi.parmak_izi()
 # uygulanmamıştı.
 _MOTOR_IZI = girdi.motor_izi()
 
+# ---------------- ① EĞİM ÇARPANI — DEM'in ERKEN SINAVI ----------------
+# `ALTYAPI ①` · ölçüm: denetim/EGIM-CARPANI-OLCUM.md (`T-0112`, 15 Ağustos 2026)
+#
+# Motorun KARA-KISITLI SAHİPLİK Dijkstra'sı (:1515) bugüne kadar AĞIRLIKSIZDI:
+# adım bedeli yalnız kilometreydi, dağ ile ova aynı fiyattaydı. 44 gerçek kara
+# seferi güzergâhı üzerinde ölçüldü — her sefer için A→B en ucuz yol hesaplanıp
+# gerçek rotaya sapması alındı:
+#     çarpan 0,000   ort 88,2 km  medyan 52,7   ← eğim SAYILMIYOR
+#     çarpan 0,005   ort 71,9 km  medyan 36,4   ← EN İYİ (−%18,5 / −%30,9)
+#     çarpan 0,05+                              ← kötüleşiyor
+#
+# 🔴 VE ÖLÇÜMÜN SINIRI DA KAYITLI: EĞRİ DÜZ. 0,005 ile 0,1 arası yalnız 5,5 km —
+# 20 kat büyüyen bir çarpan sonucu %8 değiştiriyor. Ölçüm "çarpan TAM OLARAK
+# 0,005'tir" DEMİYOR; dediği şu: **sıfır olmamalı** · 0,005-0,02 ayırt edilemiyor
+# · 0,05 üstü kötüleşiyor. Bu sayıyı "ince ayarlamak" gürültüyü kalibre etmek
+# olur — güzergâh verisi kaba (3-6 düğüm) ve ordular en ucuz yolu değil
+# STRATEJİK yolu izler. YAPMA.
+EGIM_CARPANI = 0.005
+
+# 🔴 NİÇİN SÜRTÜNME DEM'DEN, KARA/DENİZ KARARI MASKEDEN — koordinatör kararı
+# (M-0126, "A yolu"). `maliyet.py` prototipi kara/deniz kararını da DEM'e
+# (`z > 0`) sorabiliyor ve o daha tutarlı olurdu; ama motorun maskesi
+# `motor_kara.geojson`dur ve ikisi AYRIŞIYOR — prototipin kendi `kara_farki()`
+# ölçümü bunu zaten söylüyor. Bugün ikisini birden değiştirmek koşuyu İKİ
+# DEĞİŞKENLİ yapardı ve `A1 tavanı` vakası tam bunun bedelini ölçtü: düzeltme
+# doğruydu, sonraki aşama geri aldı, ve hangi aşamanın ne yaptığı ancak tek
+# değişken sabitken görülebildi.
+# ⏸️ B YOLU (kara tanımını da DEM'e taşımak) ERTELENDİ — sebebi tek değişken
+#    kuralı, ölçüm değil. Bu bir BORÇTUR ve kayıtsız kalırsa yarın kusur diye
+#    yeniden keşfedilir; kaydı burada ve denetim/EGIM-ONGORU.md'dedir.
+#
+# ⚠️ GRADYAN HAM z ÜZERİNDE ALINIYOR — batimetri dâhil, ve bu KASITLI.
+#    `egim_olc.py:100` kalibrasyonu da öyle yapıyordu; değiştirseydik 0,005
+#    başka bir yüzeyde ölçülmüş bir sayı hâline gelirdi. Şüphe ölçüldü:
+#        kıyı şeridi medyan sürtünme 1,204 · iç bölge 1,117 · maks 8,25/11,03
+#    ⇒ kıyıda şişme VAR ama marjinal. Ölçülmüş şüphe, ölçülmemiş temizlikten
+#      iyidir; kayıt burada duruyor.
+#
+# 🔴 DEM YOKSA KOŞU ÖLÜR — ve bu, sessizce eğimsiz koşmaktan İYİDİR.
+#    `§11`: "ölçemediğini eleyen bir süzgeç, onu temiz sayar." Eğimsiz koşan bir
+#    motor kusursuz bir harita üretir, bütün denetimler temiz raporlar, ve
+#    kimse peteklerin eğimsiz çizildiğini ANLAMAZ. DEM `.gitignore:15` ile depo
+#    dışında (183 MB); tek komutla geri gelir.
+# ⚠️ VE SINAV BURADA, KOŞUNUN BAŞINDA — 30. dakikada değil. `motor_izi`
+#    vakasının dersi: "bir nöbetçinin DOĞRU olması yetmiyor, ZAMANINDA olması
+#    da gerekiyor. Geç öten alarm, ötmeyen alarmdan yalnız biraz iyidir."
+EGIM_DEM = None
+if os.environ.get("MOTOR_EGIMSIZ"):
+    # Açık, kayıtlı, KARARLA verilmiş bir vazgeçiş — kaza değil.
+    EGIM_CARPANI = 0.0
+    print("  🔴 MOTOR_EGIMSIZ=1 — EĞİM ÇARPANI KAPATILDI (çarpan 0,000).")
+    print("     Bu koşunun sahipliği eğimsiz hesaplanacak. KARARLA yapıldı;")
+    print("     çıktının damgasına yazılır ki bir sonraki oturum bilsin.")
+elif EGIM_CARPANI > 0:
+    import yukseklik as _yk
+    for _a in ("etopo2022_30s_dunya.tif", "etopo2022_30s_atlas.tif"):
+        _y = os.path.join(BASEMAPS, "yukseklik", _a)
+        if not os.path.exists(_y):
+            continue
+        _tam, _neden = _yk.tam_mi(_y)
+        if _tam:
+            EGIM_DEM = _y
+            print(f"  eğim DEM: {_a} · {_neden}")
+            break
+        print(f"  ⚠️ {_a} ATLANDI — {_neden}")
+    if EGIM_DEM is None:
+        raise SystemExit(
+            "EGIM DEM YOK ya da YARIM. Kosu baslamadan durduruldu.\n"
+            "  arananlar: veri-kaynak/yukseklik/etopo2022_30s_dunya.tif\n"
+            "             veri-kaynak/yukseklik/etopo2022_30s_atlas.tif\n"
+            "  CARE : py arac/yukseklik_indir.py\n"
+            "  ya da: MOTOR_EGIMSIZ=1 py arac/uret_petek.py  (KARARLA egimsiz kos)\n"
+            "  NICIN OLDURUYORUM: egimsiz kosan motor kusursuz gorunen bir\n"
+            "  harita uretir ve HICBIR denetim bunu gormez. Sessiz bayat\n"
+            "  cikti, gurultulu bir olumden pahalidir.")
+
 # ---------------- Kara maskesi ----------------
 # KARA_TOL: kıyı çizgisinin sadeleştirme toleransı (derece). Bütün gövdeler
 # kıyıyı EN SON ve bu tek maskeden aldığı için kıyı hassasiyetini tek başına
@@ -1489,34 +1565,145 @@ if _kverisilmez:
     print(f"  ⚠️ ızgarada yer bulunamayan {len(_kverisilmez)} tohum "
           f"(bu noktalar için Voronoi kalır): {', '.join(_kverisilmez[:8])}")
 
+# ---------------- ① EĞİM SÜRTÜNMESİ — ızgaranın kendi çözünürlüğünde --------
+# DEM aynı ızgaraya (BOLGE.bounds × KV_ADIM) indirgenir ve hücre başına
+# sürtünme çarpanı üretilir:  surt = 1 + EGIM_CARPANI × |∇z|
+#
+# ⚠️ ÇÖZÜNÜRLÜK KALİBRASYONLA AYNI OLMAK ZORUNDA — ve ölçüldü, ŞANS DEĞİL.
+# `|∇z|` birimi METRE / HÜCRE'dir, yani hücre boyuyla ÖLÇEKLENİR: 0,02°lik bir
+# ızgarada aynı yamaç 2,5 kat küçük bir eğim değeri verir ve 0,005 çarpanı
+# sessizce başka bir şeye dönüşürdü. `egim_olc.py:62` → `ADIM = 0.05`;
+# buradaki `KV_ADIM` de 0,05. İkisi aynı, o yüzden çarpan taşınabilir.
+# 📌 Bu, `§11`in "bir aletin evreni değişince alet sessizce yanılır" dersinin
+#    önlenmiş hâli: aynı sayı, farklı ızgarada AYNI SAYI DEĞİLDİR.
+#
+# 🔴 `np.flipud` ŞART VE SEBEBİ ÖLÇÜLDÜ (maliyet.py:262-282'nin aynısı):
+#    rasterio dizisinde SATIR 0 KUZEY'dir; bu ızgara `_kvy0 + (_j+0,5)*KV_ADIM`
+#    ile kurulur, yani **_j=0 GÜNEY'dir.** İkisi TERS ve fark SESSİZDİR —
+#    toplam kara oranı neredeyse değişmediği için hiçbir toplam ölçüm ötmez.
+#    Bağlanmasaydı motor Karadeniz kıyısını Akdeniz'in eğimiyle hesaplardı.
+# 🟢 VE DOĞRULUĞU BAĞIMSIZ TANIKLA SINANDI, varsayılmadı: çevirmeden sonra
+#    en pahalı hücreler 84,1°D/28,5°K (Annapurna, sürt 11,03) ve 74,7°D/36,4°K
+#    (Karakurum, 9,10) çıkıyor. Ters olsaydı bunlar Hint Okyanusu'na düşerdi.
+#    ⇒ Coğrafya, dizinin doğru yönde olduğunun tanığıdır.
+_kvsurt = None
+if EGIM_CARPANI > 0 and EGIM_DEM:
+    asama("Kara-kısıtlı sahiplik: eğim yüzeyi (DEM)")
+    import rasterio as _rio
+    from rasterio.windows import from_bounds as _from_bounds
+    with _rio.open(EGIM_DEM) as _ds:
+        # Izgaranın GERÇEK kutusu: _kvnx/_kvny yuvarlanarak bulundu, o yüzden
+        # BOLGE.bounds'un üst ucu değil ızgaranın kendi üst ucu kullanılır.
+        # Aksi hâlde DEM yarım hücre kayardı ve kayma SESSİZ olurdu.
+        _win = _from_bounds(_kvx0, _kvy0,
+                            _kvx0 + _kvnx * KV_ADIM, _kvy0 + _kvny * KV_ADIM,
+                            transform=_ds.transform)
+        _z = _ds.read(1, window=_win, out_shape=(_kvny, _kvnx),
+                      resampling=_rio.enums.Resampling.average).astype("float32")
+    _z = _np.flipud(_z)
+    _gy, _gx = _np.gradient(_z)
+    _kvegim = _np.hypot(_gx, _gy)
+    # array('f') — düz liste 6,4 M ayrı Python float'ı olurdu (~200 MB);
+    # array 4 bayt/öğe ile 25 MB'ta kalır ve indeksleme yine Python float verir.
+    import array as _array
+    _kvsurt = _array.array("f", (1.0 + EGIM_CARPANI * _kvegim).ravel().tolist())
+    _kvsm = _kvegim.ravel()[_np.frombuffer(bytes(_kvkara), dtype=_np.uint8) > 0]
+    print(f"  eğim çarpanı {EGIM_CARPANI} · kara hücresinde eğim medyanı "
+          f"{float(_np.median(_kvsm)):,.0f} m/hücre → sürtünme medyanı "
+          f"{1.0 + EGIM_CARPANI * float(_np.median(_kvsm)):.3f}")
+    print(f"  en pahalı hücre: sürtünme {1.0 + EGIM_CARPANI * float(_kvsm.max()):.2f} "
+          f"(eğim {float(_kvsm.max()):,.0f} m/hücre)")
+    del _z, _gy, _gx, _kvegim, _kvsm
+else:
+    print("  🔴 EĞİM YOK — Dijkstra ağırlıksız koşuyor (çarpan 0,000).")
+
 # Çok kaynaklı Dijkstra, YALNIZ kara hücreleri üzerinden. Adım maliyeti gerçek
 # km: boylam adımı cos(enlem) ile daralır, yoksa kuzeyde mesafeler şişer ve
 # Baltık/Norveç vakaları yanlış tarafa düşer.
+# ⚠️ VE ARTIK km DEĞİL, km × SÜRTÜNME. `_kvuzak` bu aşamadan sonra "kilometre"
+#    değil "yürüme bedeli" taşır; başka bir yerde mesafe diye OKUNMAMALIDIR.
+#    (Bu aşamada yalnız KARŞILAŞTIRMA için kullanılıyor — hangi tohum daha
+#    ucuz — ve karşılaştırma için birim önemsizdir. Mutlak km isteyen yeni bir
+#    kullanıcı çıkarsa bu satırı okusun: o sayı artık km değildir.)
 import heapq as _heapq
 asama("Kara-kısıtlı sahiplik: Dijkstra (kara ızgarası)")
-_kvuzak = [float("inf")] * (_kvnx * _kvny)
-_kvsahip = [-1] * (_kvnx * _kvny)
-_kvq = []
-for _h, _idxs in _kvtohum.items():
-    _kvuzak[_h] = 0.0
-    _kvsahip[_h] = _idxs[0]
-    _heapq.heappush(_kvq, (0.0, _h))
 _KVDY = KV_ADIM * 111.32
-while _kvq:
-    _d, _h = _heapq.heappop(_kvq)
-    if _d > _kvuzak[_h]: continue
-    _j, _i = divmod(_h, _kvnx)
-    _dx = _KVDY * math.cos(math.radians(_kvy0 + (_j + 0.5) * KV_ADIM))
-    for _di, _dj in ((1,0),(-1,0),(0,1),(0,-1),(1,1),(1,-1),(-1,1),(-1,-1)):
-        _a, _b = _i + _di, _j + _dj
-        if not (0 <= _a < _kvnx and 0 <= _b < _kvny): continue
-        _k = _b * _kvnx + _a
-        if not _kvkara[_k]: continue
-        _nd = _d + math.hypot(_dx * _di, _KVDY * _dj)
-        if _nd < _kvuzak[_k]:
-            _kvuzak[_k] = _nd; _kvsahip[_k] = _kvsahip[_h]
-            _heapq.heappush(_kvq, (_nd, _k))
+
+
+def _kv_dijkstra(surt):
+    """Çok kaynaklı Dijkstra. surt=None ise ağırlıksız (eski davranış).
+
+    ⚠️ İŞLEV HÂLİNE GETİRİLDİ ki AYNI KOD iki kez koşabilsin — eğimli ve
+    eğimsiz. Kopyala-yapıştır ikinci bir gövde yazmak daha kolaydı ve YANLIŞ
+    olurdu: iki kopya zamanla ayrışır, ve ayrıştıkları an A/B ölçümü
+    sessizce anlamını yitirir. Karşılaştırmanın geçerliliği, iki tarafın
+    AYNI KOD olmasına bağlıdır.
+    """
+    uzak = [float("inf")] * (_kvnx * _kvny)
+    sahip = [-1] * (_kvnx * _kvny)
+    q = []
+    for h, idxs in _kvtohum.items():
+        uzak[h] = 0.0
+        sahip[h] = idxs[0]
+        _heapq.heappush(q, (0.0, h))
+    while q:
+        d, h = _heapq.heappop(q)
+        if d > uzak[h]: continue
+        j, i = divmod(h, _kvnx)
+        dx = _KVDY * math.cos(math.radians(_kvy0 + (j + 0.5) * KV_ADIM))
+        for di, dj in ((1,0),(-1,0),(0,1),(0,-1),(1,1),(1,-1),(-1,1),(-1,-1)):
+            a, b = i + di, j + dj
+            if not (0 <= a < _kvnx and 0 <= b < _kvny): continue
+            k = b * _kvnx + a
+            if not _kvkara[k]: continue
+            # Sürtünme HEDEF hücreden okunur — `egim_olc.py:136` (`f = fr[jj][ii]`)
+            # kalibrasyonu birebir böyle yaptı. Kaynak hücreden ya da iki
+            # hücrenin ortalamasından okumak BAŞKA bir yüzeydir ve 0,005 orada
+            # ölçülmedi.
+            nd = d + math.hypot(dx * di, _KVDY * dj) * (surt[k] if surt else 1.0)
+            if nd < uzak[k]:
+                uzak[k] = nd; sahip[k] = sahip[h]
+                _heapq.heappush(q, (nd, k))
+    return uzak, sahip
+
+
+_kvuzak, _kvsahip = _kv_dijkstra(_kvsurt)
 print(f"  kara yolu çözüldü, erişilen hücre {sum(1 for s in _kvsahip if s >= 0):,}")
+
+# ---------------- ① A/B — EĞİMİN ETKİSİ, AYNI KOŞUNUN İÇİNDE ----------------
+# 🔴 NİÇİN VAR: `A1 tavanı` vakasının dersi *"bir düzeltme doğru çalışabilir ve
+# SONRAKİ AŞAMA onu geri alabilir, ve ikisi arasındaki boşluk hiçbir denetimin
+# sorusu değildir."* Eğim çarpanı için aynı soruyu sorabilmenin normal yolu iki
+# tam koşudur (eğimli + eğimsiz) — 160 dakika. Oysa ölçülmek istenen şey
+# aşamanın KENDİ içinde: aynı ızgara, aynı tohumlar, tek fark sürtünme.
+# ⇒ İkinci Dijkstra burada koşar (ölçülen maliyet: 1dk 38sn, koşunun %2,1'i) ve
+#   sonucu ÜRETİME HİÇ KARIŞMAZ; yalnız `_kvsahip0` olarak okunur.
+#
+# ⚠️ VE BU, ÖNGÖRÜNÜN MAZERETİNİ ORTADAN KALDIRIYOR. Öngörüyü yazarken tek
+# ölçemediğim şey *"ızgaradaki değişimin kaçı HARİTAYA iniyor"*du, çünkü o soru
+# PETEK_D'yi gerektiriyor ve PETEK_D koşuda doğuyor. Şimdi koşunun kendisi
+# cevaplıyor. `§11`: sonradan yazılan mazeret bulguya benzer — en iyisi mazeret
+# ihtiyacını KALDIRMAK.
+#
+# 📌 ÖLÇTÜĞÜM ile ÇIKARDIĞIM ayrı (B10): aşağıdaki sayı *"eğim yüzünden alıcısı
+# değişen parça"*dır. *"Haritanın eğim yüzünden ne kadar düzeldiği"* DEĞİLDİR —
+# onu ancak Emre'nin gözü ve kronoloji söyler.
+_kvsahip0 = None
+if _kvsurt is not None and not os.environ.get("MOTOR_EGIM_AB_KAPALI"):
+    asama("Kara-kısıtlı sahiplik: A/B ölçümü (eğimsiz ikinci Dijkstra)")
+    _kvuzak0, _kvsahip0 = _kv_dijkstra(None)
+    _ab_hucre = sum(1 for _k in range(_kvnx * _kvny)
+                    if _kvsahip[_k] != _kvsahip0[_k])
+    _ab_er0 = sum(1 for s in _kvsahip0 if s >= 0)
+    _ab_er1 = sum(1 for s in _kvsahip if s >= 0)
+    print(f"  eğimsiz erişilen {_ab_er0:,} · eğimli erişilen {_ab_er1:,} "
+          + ("✓ AYNI" if _ab_er0 == _ab_er1 else
+             f"🔴 FARK {_ab_er1 - _ab_er0:+,} — eğim erişilebilirliği "
+             "DEĞİŞTİRMEMELİ, sürtünme sonludur"))
+    print(f"  ızgarada sahibi değişen hücre: {_ab_hucre:,} "
+          f"({100.0 * _ab_hucre / max(1, _ab_er1):.2f}% · ÖNGÖRÜ ~166.966 / %4,97)")
+    del _kvuzak0
+
 asama("Kara-kısıtlı sahiplik: parçaları sına ve devret")
 
 # Parçaları sına ve el değiştirenleri UYGULA. Parça bütün olarak taşınır, yani
@@ -1588,6 +1775,7 @@ _kvbilesen_red, _kvbilesen_alan = 0, 0.0
 _kvver, _kval, _kvdegisen = {}, {}, []
 _kvkucuk_n, _kvkucuk_a = 0, 0.0
 _kvkararsiz, _kvana_korundu = 0, 0
+_ab_parca = []                    # ① eğimin HARİTAYA İNEN etkisi (ölçüm)
 for _i, _g in enumerate(PETEK_D):
     if _g is None or _g.is_empty: continue
     for _p in (_g.geoms if _g.geom_type == "MultiPolygon" else [_g]):
@@ -1605,6 +1793,20 @@ for _i, _g in enumerate(PETEK_D):
         _gi = min(_kvnx - 1, max(0, int((_rp.x - _kvx0) / KV_ADIM)))
         _gj = min(_kvny - 1, max(0, int((_rp.y - _kvy0) / KV_ADIM)))
         _s = _kvsahip[_gj * _kvnx + _gi]
+        # ---- ① A/B: bu parçanın cevabını EĞİM mi değiştirdi? -------------
+        # 🔴 ASIL SORU BU, ve ızgara düzeyindeki 166.966 hücre onu CEVAPLAMAZ.
+        # Sebep bir satır yukarıda: `:1790` düz hattı karada olan her parçayı
+        # eliyor, yani ızgaraya YALNIZ deniz aşırı parçalar soruluyor. Eğimin
+        # Himalaya'da ürettiği fark oraya hiç ulaşmaz.
+        # ⇒ Burada sayılan şey, eğimin HARİTAYA İNEN etkisidir — tavanı değil,
+        #   kendisi. `_ab_parca` bu aşamanın kabul ölçütüdür.
+        # ⚠️ ÖLÇÜM SATIRIDIR, ÜRETİME KARIŞMAZ: `_s0` hiçbir karara girmiyor.
+        if _kvsahip0 is not None:
+            _s0 = _kvsahip0[_gj * _kvnx + _gi]
+            if _s0 != _s:
+                _ab_parca.append((_a, YERLER[_i]["ad"],
+                                  YERLER[_s0]["ad"] if _s0 >= 0 else "(kararsız)",
+                                  YERLER[_s]["ad"] if _s >= 0 else "(kararsız)"))
         if _s < 0:
             _kvkararsiz += 1; continue    # ızgarada su/erişilmez → karar verme
         if _s != _i:
@@ -1626,6 +1828,23 @@ for _i, _ps in _kvver.items():
     PETEK_D[_i] = poligonal(unary_union([PETEK_D[_i]] + _ps))
 print(f"  {len(_kvdegisen)} parça el değiştirdi, toplam "
       f"{sum(d[0] for d in _kvdegisen):,.0f} km²")
+# ---- ① EĞİMİN KABUL ÖLÇÜTÜ — ve SIFIR da bir sonuçtur ----------------------
+# 📌 `denetim/EGIM-ONGORU.md` bu satır için yazıldı. Öngörü: 0-8 parça.
+#    SIFIR çıkarsa bu bir BAŞARISIZLIK DEĞİL, bir ÖLÇÜMDÜR: eğim doğru
+#    hesaplanıyor (ızgarada 166.966 hücre değişiyor) ama `:1790` süzgeci onu
+#    haritadan uzak tutuyor. O hâlde bir sonraki iş çarpanı ayarlamak değil,
+#    SÜZGECİ tartışmaktır — ve bu, koşudan önce yazıldığı için çürütülebilir
+#    bir cümledir.
+if _kvsahip0 is not None:
+    print(f"  ① EĞİM ETKİSİ: {len(_ab_parca)} parçanın ızgara cevabını eğim "
+          f"değiştirdi, {sum(p[0] for p in _ab_parca):,.0f} km² "
+          f"(ÖNGÖRÜ 0-8 parça — denetim/EGIM-ONGORU.md)")
+    for _a2, _kim, _eski, _yeni in sorted(_ab_parca, reverse=True)[:12]:
+        print(f"     {_a2:>10,.0f} km²  {_kim:<20} eğimsiz→{_eski:<18} "
+              f"eğimli→{_yeni}")
+    if not _ab_parca:
+        print("     SIFIR — eğim ızgarada çalışıyor ama `:1790` süzgeci onu")
+        print("     haritaya geçirmiyor. Bulgu budur; çarpanı DEĞİŞTİRME.")
 print(f"  ızgaraya sorulmayan: {_kvkucuk_n} parça / {_kvkucuk_a:,.0f} km² "
       f"({KV_MIN_KM2:.0f} km² altı) · kararsız {_kvkararsiz} · "
       f"ana parça korundu {_kvana_korundu}")
