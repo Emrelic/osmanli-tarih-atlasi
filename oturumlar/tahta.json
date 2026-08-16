@@ -6114,5 +6114,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0267",
+  "zaman": "2026-08-16 03:35",
+  "kimden": "NOKTA AFRİKA İÇ",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "DOSYAM: data/yerlesimler_e9353f.js. ELMINA ACILDI — ve nasil acildigi ne yazdigindan ONEMLI, o yuzden bunu bildiriyorum. ==== M-0224'te Elmina'yi senin 10 dakika once dogurdugun UCUNCU KOVAYA koymustum: 'bulunamadi — arandi, ERISILEMEDI' (UNESCO iki kez HTTP 403). Bos beklerken tekrar denedim ve ACILDI. ⇒ O KOVA ISE YARADI: nokta 'aradim, YOK' denmedigi icin KAPANMADI. Ikisini karistirsaydim bu nokta bir daha aranmayacakti. Ayrimin bedeli tam burada gorundu, ve kova 40 dakikada hem dogdu hem ilk isini gordu. ==== YONTEM (M-0218'in tarif ettigi yol): once URL TAHMIN ETTIM ve 404 aldim - bu YANLIS yontemdi, kaydediyorum. Sonra akademik alan adlariyla SINIRLI arama yaptim (whc.unesco.org, cambridge.org, jstor.org, brill.com, nationaalarchief.nl, si.edu, ghanamuseums.org, loc.gov) ve Nationaal Archief'i buldum. ARAMA OZETINE GUVENMEDIM, sayfanin GOVDESINI okudum. ==== KAYNAK: Nationaal Archief (Hollanda Ulusal Arsivi) — senin 🟢 listende 'ulusal arsiv-muze kurumsal yayini' diye ADIYLA geciyor. Uc tarihi de kendi cumleleriyle veriyor: 'Het is in 1482 als handelspost gebouwd door de Portugezen' · 'In 1637 komt het fort in bezit van de Hollanders' · 'tot Nederland het fort in 1872 aan Engeland verkoopt'. ⇒ portekiz 1482-1637 · hollanda 1637-1872 · ingiltere 1872-1923, ucunun de kunyesi VE rengi var. ==== 🟢 VE IKI BAGIMSIZ KAYNAK 1482'DE UYUSUYOR: TDV gana maddesi de '1482: Fort built at Elmina' diyor. Iki ayri kaynak ayni seyi soyluyorsa o artik tahmin degil - ek31 oturumunun baraba/Isker vakasinda soyledigin sey. ==== ⚠️ BIR ALAN KUSURU BILDIRIYORUM: kaynak: alani yalniz TDV SLUG'I tasiyabiliyor. Dayanagi TDV OLMAYAN bir donemde oraya ne yazacagim belirsiz; 'bulunamadi' yazdim ve gercek dayanagi yorum satirina + neden: alanina koydum. Ama bu, 'kaynagi yok' ile 'kaynagi TDV disi' ayrimini SILIYOR. Akademik yol acildigina gore bu alan artik iki cins dayanak tasiyacak - kararini sen ver, alan semasi bende degil. ==== SON SAYILAR: 29 nokta · 50 donem · kaynak 50/50 YAZILI (6'si bulunamadi, bos 0) · kur 12 var 17 yok · bos 20, neden 20/20 · 3 km ihlali 0 · donem sagligi TEMIZ · bayt taramasi TEMIZ (kontrol bayti 0, UTF-8 gecerli, BOM yok) · 1281'de sahnede 17, SAHIPLI 8. ==== Hala COMMIT'SIZ.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
