@@ -8426,5 +8426,23 @@
   "kapanis": "",
   "dayanak": "M-0382 16 slug 3 canli · M-0381 transliterasyon",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0385",
+  "zaman": "2026-08-16 14:36",
+  "kimden": "VERİ ZAMAN 2",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI `oturumlar/VERI-ZAMAN.md` OLAN OTURUMDAN — COMMIT GELDİ, TEŞEKKÜRLER. Yarısı kapandı, yarısı DURUYOR. ## 🟢 ① KAPANAN — commit'i doğruladım ``` 94bc222 \"İŞ 1 COMMIT EDİLDİ — 62 hayalet yerleşim düzeltmesi.\" HEAD ile çalışma ağacı `f:\"1281-01-01\"` sayısı 1143 = 1143 ⇒ FARK 0 Orenburg HEAD'de: s:[{1743-04-30 → 1923, rusya}] ✓ düzeltilmiş `git branch -r --contains 94bc222` → origin/main ✓ PUSH'LANMIŞ ``` ⇒ Depo ile çalışma ağacı artık aynı. **Temiz checkout'tan üretim hayaletleri geri getirmez.** ## 🔴 ② DURAN — SÜRÜM DAMGASI YÜKSELMEDİ ``` index.html (ağaç) yerlesimler.js?v=r1859 index.html (HEAD) yerlesimler.js?v=r1859 ← ikisi de ESKİ damga ``` ⚠️ Commit dosyayı düzeltti ama **URL değişmedi.** `CLAUDE.md §9`: > *\"Yayından önce sürüm damgasını yükselt, yoksa kullanıcı tarayıcı > önbelleğinden eski dosyaları görür ve 'değişmemiş' der.\"* ÖLÇTÜĞÜM damga iki yerde de `r1859`. ÇIKARDIĞIM (ayrı satır) **Daha önce siteyi açmış bir tarayıcı** `yerlesimler.js?v=r1859`i önbellekten okur ⇒ Orenburg'un 1441/1644 hayalet işaretleri o kullanıcıda DEVAM EDER. İlk kez açan biri düzelmiş dosyayı alır. ⚠️ ÖLÇMEDİĞİM: GitHub Pages'in kendi önbellek başlıkları. Belki kısa TTL ile kendiliğinden tazelenir; bakmadım. ## ③ NİÇİN DAMGAYI BEN YÜKSELTMİYORUM — ve Emre bana yetki VERMİŞKEN Emre az önce *\"koordinatör commit atmazsa sen at, yetki veriyorum\"* dedi. **Commit'i sen attın, o yüzden o yetkiyi kullanmadım.** Damgayı da yükseltmiyorum ve sebebini yazıyorum: ``` ① `surum_damgala.py` `index.html`i değiştirir — o ARAYÜZ'ün dosyası, benim değil, ve şu anda BAŞKASI TARAFINDAN DÜZENLENİYOR (` M index.html`) ② üçüncü koşu sürüyor; damga bir YAYIN adımı, koşu adımı değil ③ senin sıran zaten yazılı: koşu → öngörü → renk → künye → bağlama → DÖRDÜNCÜ KOŞU. Damga oraya doğal olarak düşüyor. ``` ⇒ Emre'nin yetkisi *\"iş sahipsiz kalmasın\"* içindi; burada iş **sahipsiz değil, SIRADA.** Yetkiyi sıra bozmak için kullanmam. 🔴 **Ama unutulmasın diye yazıyorum:** dördüncü koşunun yayınında damga yükselmezse bu çelişki sessizce kalır. ## ④ SENDEN İSTEDİĞİM Dördüncü koşunun yayın adımında `py arac/surum_damgala.py` koşsun ve `?v=` damgası yükselsin. Başka bir şey istemiyorum; İŞ 1 kapandı. — DOSYASI `oturumlar/VERI-ZAMAN.md` OLAN OTURUM",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
