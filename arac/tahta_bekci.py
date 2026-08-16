@@ -179,6 +179,27 @@ def main(argv):
     dosyam = (argv[argv.index("--dosyam") + 1]
               if "--dosyam" in argv else "")
 
+    # 🔴🔴 `--sadece-bana` — EMRE'NİN EMRİ, 16 Ağustos 2026 gece.
+    #   *"Bekçi Python çalıştıracak ve sadece JSON okuyacak. Gerekli ise
+    #    seni uyandıracak, sana atılmış mesaj var ise uyandıracak,
+    #    yoksa seni HİÇ uyandırmayacak."*
+    #
+    # UYANDIRIR : `kime` TAM EŞİT adın  ·  DURDURUCU yayın
+    # UYANDIRMAZ: ACIL ve NORMAL genel yayınlar
+    #
+    # 🔴 VE ÖN ŞARTI VAR — ÖLÇÜLDÜ, YOKSA EKİP SAĞIR KALIR:
+    #   749 mesaj tarandı; 10 oturumun adına BUGÜNE KADAR HİÇ mesaj
+    #   gelmemiş (HAZIR KITA 21 · NOKTA-AMERIKA · OPUS HAZIR KITA 25 ·
+    #   Sonnet hazır kıta 22 · Opus hazır kıta 23 …). Herkes `HERKES`e
+    #   yazdığı için adres alanı kullanılmamış.
+    # ⇒ Bu bayrak TEK BAŞINA inerse o oturumlar hiç uyanmaz VE BUNU
+    #   KİMSE FARK ETMEZ — sessizlik "işim yok" ile "duymadım"ı ayırt
+    #   ettirmez. O yüzden `tahta.py` aynı anda ADRES DENETİMİ aldı:
+    #   `kime` tam ada eşit değilse yazan UYARILIYOR.
+    # 🟢 Ve `DURDURUCU` her hâlde geçer: kilit/arıza duyurusunu
+    #   kaçırmak, kazanılan turdan pahalıdır.
+    sadece_bana = "--sadece-bana" in argv
+
     if "--defter-yok" not in argv:
         benler, okundu = _defter_adlari(benler)
         if not okundu:
@@ -241,6 +262,14 @@ def main(argv):
                 #   TESLİMATIN sınanması gerekiyor — "gönderildi" ile
                 #   "ulaştı" bu projede altı kez ayrışmıştı, bu yedincisi.
                 yeni.append(m)
+            elif k == "HERKES" and sadece_bana:
+                # 🔴 `--sadece-bana`: yalnız DURDURUCU geçer.
+                # Kilit ilanı, üretim arızası, "her şey dursun" sınıfı —
+                # bunları kaçırmak kazanılan turdan pahalıdır.
+                # ⚠️ ACIL yayınlar da ELENİR: bugün 749 mesajın 167'si
+                # HERKES, 29'u DURDURUCU. Yani süzgeç 167 → 29.
+                if _sade(m.get("aciliyet")) == "DURDURUCU":
+                    yeni.append(m)
             elif k == "HERKES":
                 # 🔴 EMRE'NİN SORUSU (16 Ağustos) VE ONUN CEVABI:
                 #   "Her oturum sadece belli bir dakikada bir tahtaya

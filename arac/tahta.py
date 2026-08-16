@@ -487,9 +487,46 @@ def kimler(a):
     return 0
 
 
+def _adres_denetle(kayit, kime):
+    """🔴 ADRES DENETİMİ — `--sadece-bana` bekçisinin ÖN ŞARTI.
+
+    Emre'nin emri (16 Ağustos gece): bekçi yalnız *"sana atılmış mesaj
+    varsa"* uyandıracak. O kural ancak `kime` alanı GERÇEK BİR ADA tam
+    eşitse çalışır.
+
+    🔴 ÖLÇÜLDÜ: 749 mesajın 57'sinde `kime` ne bir ad ne `HERKES` —
+    dosya yolu, tarif, ya da virgülle ayrılmış dört ad. Ve o mesajların
+    hepsi SESSİZCE düştü; yazan "yazıldı" cevabı aldı.
+    ⇒ Bu denetim yazmayı ENGELLEMEZ (mesaj kaybolmasın), ama YAZANI
+    UYARIR — çünkü sessiz düşme, reddedilmekten kötüdür.
+
+    📌 Ve bilinen adlar tahtanın KENDİSİNDEN türetiliyor: bir oturum
+    yazdıysa adı bilinir. Elle liste tutmak, bu projede üç kez bayatladı.
+    """
+    if not kime or kime == "HERKES":
+        return
+    bilinen = {(m.get("kimden") or "").strip() for m in kayit}
+    bilinen.discard("")
+    if kime in {b.upper() for b in bilinen}:
+        return
+    print("⚠️ ADRES UYARISI — `kime` bilinen bir oturum adına TAM EŞİT değil:")
+    print("   verilen : %s" % kime)
+    # en yakın adları öner (kaba: ortak kelime sayısı)
+    _kel = set(kime.replace("-", " ").split())
+    _puan = sorted(((len(_kel & set(b.upper().replace("-", " ").split())), b)
+                    for b in bilinen), reverse=True)[:3]
+    _oner = [b for p, b in _puan if p > 0]
+    if _oner:
+        print("   bunu mu demek istedin: %s" % " · ".join(_oner))
+    print("   🔴 `--sadece-bana` ile koşan bir bekçi bu mesajı GÖRMEZ.")
+    print("   ⇒ Ya oturumun TAM ADINI yaz, ya `HERKES` kullan.")
+    print("   ⚠️ Dosya yolu, tarif ya da virgüllü çoklu adres ADRES DEĞİLDİR.")
+
+
 def yaz(a):
     kayit = _yukle()
     no = "M-%04d" % (len(kayit) + 1)
+    _adres_denetle(kayit, _t(a["kime"]).upper())
     m = {
         "no": no, "zaman": _simdi(),
         "kimden": _t(a["kim"]), "kime": _t(a["kime"]).upper(),
