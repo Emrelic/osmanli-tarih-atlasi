@@ -144,12 +144,34 @@ window.KADEME_YAMA = [
 //   ⇒ Parafrazı kullansaydım k:2 yazacaktım; alıntıya uyunca k:4 yazdım.
 //     İki kademe fark, ve tek sebebi **neye dayandığım.**
 //
-// 🔴 DON / KUBAN — Rostov · Taganrog · Çerkask (Razdory) ·
+// 🟡 DON / KUBAN — Rostov · Taganrog · Çerkask (Razdory) ·
 //   Zaporojye Seçi · Kuban (Yekaterinodar)
-//   Beşinin de TDV slug'ı ölü (`rostov` · `taganrog` · `kuban` 302).
-//   Bunlar Rus/Kazak yerleşimleri; TDV kapsamı dışında (§4 coğrafî boşluk)
-//   ⇒ akademik kaynak MEŞRU ama bu turda ARANMADI. Yazmadım.
-//   📌 "Aranmadı" diye yazıyorum, "yok" diye DEĞİL — ikisi ayrı şeydir.
+//   ⚠️ DURUM GÜNCELLENDİ: artık "aranmadı" DEĞİL, **"arandı, ERİŞİLEMEDİ"** —
+//   şartnamemin ÜÇÜNCÜ kovası (`KADEME-KD.md §⑤`: *"aradım, ERİŞEMEDİM"*,
+//   *"aradım, yok"*la karıştırma).
+//
+//   ① TDV: `rostov` · `taganrog` · `kuban` · `yekaterinodar` · `zaporojye` ·
+//      `don-kazaklari` · `cerkes` — YEDİSİ DE 302 ÖLÜ.
+//   🔴 VE BİR TUZAK YAKALADIM: `kazaklar` CANLI (200) ama madde
+//      **Orta Asya Kazak Türkleri** hakkında — açılışı: *"Orta Asya'da
+//      Hazar denizinden Çin sınırına kadar uzanan topraklarda yaşayan bir
+//      Türk topluluğu."* Kozaklarla (Cossack) ilgisi YOK.
+//      ⇒ `§4②` "canlı slug, YANLIŞ madde" tuzağının Türkçeye özgü hâli:
+//        "Kazak" kelimesi iki ayrı halkı gösteriyor. Gövdeyi okumasaydım
+//        beş kaydı bir Orta Asya maddesine dayandıracaktım.
+//
+//   ② TDV dışı: akademik alan adlarıyla arandı. Britannica çıktı ama
+//      **HTTP 403** — gövdesi alınamadı. Elimde yalnız ARAMA ÖZETİ var.
+//   🔴 ÖZETE DAYANIP YAZMADIM. Bugün bu dosyada aynı hatayı iki kez
+//      yapmaktan döndüm (Or Kapı: özet "veliaht makamı" diyordu, alıntı
+//      "kale" dedi — iki kademe fark). Aynı yanlışı üçüncü kez yapmam.
+//
+//   📌 Bir sonraki oturuma: eksik olan KAYNAK DEĞİL, ERİŞİM. Britannica
+//      ve Brill 403 veriyor. Gereken şey açık erişimli bir akademik
+//      referans (üniversite yayını / hakemli makale / arşiv neşri).
+//   ⚠️ Ve bir SORU: Britannica şartnamemin 🟢 listesinde AÇIKÇA yok,
+//      🔴 listesinde de yok. Kullanılabilir mi — koordinatöre sordum.
+//      Erişebilseydim bile bu soruyu sormadan yazmazdım.
 //
 // 🟡 KAFKASYA (6) ve HOY (1) — DEVİR BEKLİYOR
 //   Kutuya coğrafî olarak giriyorlar ama `KADEME-ARAP-IRAN.md`nin
