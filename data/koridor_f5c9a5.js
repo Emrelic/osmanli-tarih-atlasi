@@ -1,4 +1,4 @@
-// KORİDOR AĞI — HALKA 2B · İRAN · RUSYA · LEHİSTAN · VENEDİK kolları
+// KORİDOR AĞI — HALKA 2B · İRAN · RUSYA · LEHİSTAN · VENEDİK · MISIR kolları
 //
 // İŞÇİ oturum: KORİDOR HALKA2B · 16 Ağustos 2026 · görev tahta M-0233
 // 🔴 data/koridor.js ve data/koridor_halka2.js'e DOKUNULMADI — ikisi de
@@ -46,6 +46,13 @@
 //    Adriyatik'i geçen ayak BAŞKA bir kurumdur (Venedik posta sistemi) ve
 //    onu ÖLÇMEDİM. koridor_halka2.js'in "1839'u başka bir kuruma taşımam"
 //    kararının aynısı.
+//  ③ MISIR kolu (M-0695, ikinci halka) — DOKUZ KENARIN DOKUZU DA BANDIN
+//    İÇİNDE (5,6-27,6 saat) ve **HİÇ KOPUK YOK.** Sebebi ölçüldü: Suriye-
+//    Filistin-Mısır sahilinde nokta yoğunluğu Anadolu/Rumeli kadar iyi.
+//    ⇒ Kopukluk bir KURAL değil, VERİ YOĞUNLUĞUNUN fonksiyonuymuş —
+//      öteki dört kolda 6 kopuk vardı, burada 0.
+//    ⚠️ YUKARI MISIR YAZILAMADI: Asyût · Kena veride YOK, Kahire-Asvan
+//      doğrudan 680 km ⇒ bandın çok dışında. Nil kolu BEKLİYOR (KOL A işi).
 // =====================================================================
 
 window.KORIDOR_H2B_DUGUM = [
@@ -101,6 +108,21 @@ window.KORIDOR_H2B_DUGUM = [
 {id:"h2b-berat",ad:"Berat",y:"Berat",boyar:true,tip:"yerlesim",lat:40.705,lon:19.951,kol:["halka2b/venedik-avlonya#1"],kaynak:"bulunamadı"},
 {id:"h2b-avlonya",ad:"Avlonya",y:"Avlonya",boyar:true,tip:"yerlesim",lat:40.466,lon:19.489,kol:["halka2b/venedik-avlonya#2"],kaynak:"bulunamadı"},
 
+// ───── ⑤ MISIR KOLU · Şam → sahil yolu → Kahire → İskenderiye ─────
+// 🔴 koridor.js anadolu/sag#13 ile AYNI düğüm — boyar:false
+{id:"sam",ad:"Şam",y:"Şam",boyar:false,tip:"baglanti-ucu",lat:33.513,lon:36.292,kol:["halka2b/misir"],kaynak:"koridor.js anadolu/sag#13 ile AYNI düğüm — boyar:false"},
+{id:"h2b-sayda",ad:"Sayda",y:"Sayda",boyar:true,tip:"yerlesim",lat:33.563,lon:35.369,kol:["halka2b/misir#1"],kaynak:"bulunamadı"},
+{id:"h2b-akka",ad:"Akkâ",y:"Akkâ",boyar:true,tip:"yerlesim",lat:32.928,lon:35.082,kol:["halka2b/misir#2"],kaynak:"bulunamadı"},
+{id:"h2b-yafa",ad:"Yafa",y:"Yafa",boyar:true,tip:"yerlesim",lat:32.054,lon:34.755,kol:["halka2b/misir#3"],kaynak:"bulunamadı"},
+{id:"h2b-gazze",ad:"Gazze",y:"Gazze",boyar:true,tip:"yerlesim",lat:31.502,lon:34.466,kol:["halka2b/misir#4"],kaynak:"bulunamadı"},
+{id:"h2b-hanyunus",ad:"Han Yûnus",y:"Han Yûnus",boyar:true,tip:"yerlesim",lat:31.34,lon:34.3,kol:["halka2b/misir#5"],kaynak:"bulunamadı"},
+{id:"h2b-aris",ad:"El-Arîş",y:"El-Arîş",boyar:true,tip:"yerlesim",lat:31.132,lon:33.798,kol:["halka2b/misir#6"],kaynak:"bulunamadı"},
+{id:"h2b-katye",ad:"Katye",y:"Katye",boyar:true,tip:"yerlesim",lat:30.94,lon:32.633,kol:["halka2b/misir#7"],kaynak:"bulunamadı"},
+{id:"h2b-bilbis",ad:"Bilbîs",y:"Bilbîs (Şarkiye)",boyar:true,tip:"yerlesim",lat:30.417,lon:31.567,kol:["halka2b/misir#8"],kaynak:"bulunamadı"},
+{id:"h2b-kahire",ad:"Kahire",y:"Kahire",boyar:true,tip:"yerlesim",lat:30.047,lon:31.243,kol:["halka2b/misir#9"],kaynak:"bulunamadı"},
+{id:"h2b-tanta",ad:"Tanta",y:"Tanta",boyar:true,tip:"yerlesim",lat:30.786,lon:31.001,kol:["halka2b/misir-iskenderiye#1"],kaynak:"bulunamadı"},
+{id:"h2b-iskenderiye",ad:"İskenderiye",y:"İskenderiye",boyar:true,tip:"yerlesim",lat:31.2,lon:29.919,kol:["halka2b/misir-iskenderiye#2"],kaynak:"bulunamadı"},
+
 ];
 
 window.KORIDOR_H2B_KENAR = [
@@ -148,5 +170,17 @@ window.KORIDOR_H2B_KENAR = [
 {u1:"h2b-ilbasan",u2:"h2b-drac",kanat:"halka2b",kol:"venedik",kalinlik:"ana",yon:"cift",km:57.5,saat:13.5,saat_cinsi:"turetildi",saat_kaynak:"kuş uçuşu km / 4.25 km-sa — koridor.js kalibrasyonu (Akşehir-İstanbul 85 saat, arşiv)",eksik_durak:false,f:"1539-01-01",t:"1839-01-01",donem_cinsi:"kurum",kesinlik:3,kaynak:"bulunamadı"},
 {u1:"h2b-ilbasan",u2:"h2b-berat",kanat:"halka2b",kol:"venedik-avlonya",kalinlik:"tali",yon:"cift",km:46.7,saat:11.0,saat_cinsi:"turetildi",saat_kaynak:"kuş uçuşu km / 4.25 km-sa — koridor.js kalibrasyonu (Akşehir-İstanbul 85 saat, arşiv)",eksik_durak:false,f:"1539-01-01",t:"1839-01-01",donem_cinsi:"kurum",kesinlik:3,kaynak:"bulunamadı"},
 {u1:"h2b-berat",u2:"h2b-avlonya",kanat:"halka2b",kol:"venedik-avlonya",kalinlik:"tali",yon:"cift",km:47.2,saat:11.1,saat_cinsi:"turetildi",saat_kaynak:"kuş uçuşu km / 4.25 km-sa — koridor.js kalibrasyonu (Akşehir-İstanbul 85 saat, arşiv)",eksik_durak:false,f:"1539-01-01",t:"1839-01-01",donem_cinsi:"kurum",kesinlik:3,kaynak:"bulunamadı"},
+// ───── ⑤ MISIR KOLU · Şam → sahil yolu → Kahire → İskenderiye ─────
+{u1:"sam",u2:"h2b-sayda",kanat:"halka2b",kol:"misir",kalinlik:"ana",yon:"cift",km:85.7,saat:20.2,saat_cinsi:"turetildi",saat_kaynak:"kuş uçuşu km / 4.25 km-sa — koridor.js kalibrasyonu (Akşehir-İstanbul 85 saat, arşiv)",eksik_durak:false,f:"1539-01-01",t:"1839-01-01",donem_cinsi:"kurum",kesinlik:3,kaynak:"bulunamadı"},
+{u1:"h2b-sayda",u2:"h2b-akka",kanat:"halka2b",kol:"misir",kalinlik:"ana",yon:"cift",km:75.5,saat:17.8,saat_cinsi:"turetildi",saat_kaynak:"kuş uçuşu km / 4.25 km-sa — koridor.js kalibrasyonu (Akşehir-İstanbul 85 saat, arşiv)",eksik_durak:false,f:"1539-01-01",t:"1839-01-01",donem_cinsi:"kurum",kesinlik:3,kaynak:"bulunamadı"},
+{u1:"h2b-akka",u2:"h2b-yafa",kanat:"halka2b",kol:"misir",kalinlik:"ana",yon:"cift",km:101.9,saat:24.0,saat_cinsi:"turetildi",saat_kaynak:"kuş uçuşu km / 4.25 km-sa — koridor.js kalibrasyonu (Akşehir-İstanbul 85 saat, arşiv)",eksik_durak:false,f:"1539-01-01",t:"1839-01-01",donem_cinsi:"kurum",kesinlik:3,kaynak:"bulunamadı"},
+{u1:"h2b-yafa",u2:"h2b-gazze",kanat:"halka2b",kol:"misir",kalinlik:"ana",yon:"cift",km:67.2,saat:15.8,saat_cinsi:"turetildi",saat_kaynak:"kuş uçuşu km / 4.25 km-sa — koridor.js kalibrasyonu (Akşehir-İstanbul 85 saat, arşiv)",eksik_durak:false,f:"1539-01-01",t:"1839-01-01",donem_cinsi:"kurum",kesinlik:3,kaynak:"bulunamadı"},
+{u1:"h2b-gazze",u2:"h2b-hanyunus",kanat:"halka2b",kol:"misir",kalinlik:"ana",yon:"cift",km:23.9,saat:5.6,saat_cinsi:"turetildi",saat_kaynak:"kuş uçuşu km / 4.25 km-sa — koridor.js kalibrasyonu (Akşehir-İstanbul 85 saat, arşiv)",eksik_durak:false,f:"1539-01-01",t:"1839-01-01",donem_cinsi:"kurum",kesinlik:3,kaynak:"bulunamadı"},
+{u1:"h2b-hanyunus",u2:"h2b-aris",kanat:"halka2b",kol:"misir",kalinlik:"ana",yon:"cift",km:53.0,saat:12.5,saat_cinsi:"turetildi",saat_kaynak:"kuş uçuşu km / 4.25 km-sa — koridor.js kalibrasyonu (Akşehir-İstanbul 85 saat, arşiv)",eksik_durak:false,f:"1539-01-01",t:"1839-01-01",donem_cinsi:"kurum",kesinlik:3,kaynak:"bulunamadı"},
+{u1:"h2b-aris",u2:"h2b-katye",kanat:"halka2b",kol:"misir",kalinlik:"ana",yon:"cift",km:113.0,saat:26.6,saat_cinsi:"turetildi",saat_kaynak:"kuş uçuşu km / 4.25 km-sa — koridor.js kalibrasyonu (Akşehir-İstanbul 85 saat, arşiv)",eksik_durak:false,f:"1539-01-01",t:"1839-01-01",donem_cinsi:"kurum",kesinlik:3,kaynak:"bulunamadı"},
+{u1:"h2b-katye",u2:"h2b-bilbis",kanat:"halka2b",kol:"misir",kalinlik:"ana",yon:"cift",km:117.4,saat:27.6,saat_cinsi:"turetildi",saat_kaynak:"kuş uçuşu km / 4.25 km-sa — koridor.js kalibrasyonu (Akşehir-İstanbul 85 saat, arşiv)",eksik_durak:false,f:"1539-01-01",t:"1839-01-01",donem_cinsi:"kurum",kesinlik:3,kaynak:"bulunamadı"},
+{u1:"h2b-bilbis",u2:"h2b-kahire",kanat:"halka2b",kol:"misir",kalinlik:"ana",yon:"cift",km:51.6,saat:12.1,saat_cinsi:"turetildi",saat_kaynak:"kuş uçuşu km / 4.25 km-sa — koridor.js kalibrasyonu (Akşehir-İstanbul 85 saat, arşiv)",eksik_durak:false,f:"1539-01-01",t:"1839-01-01",donem_cinsi:"kurum",kesinlik:3,kaynak:"bulunamadı"},
+{u1:"h2b-kahire",u2:"h2b-tanta",kanat:"halka2b",kol:"misir-iskenderiye",kalinlik:"tali",yon:"cift",km:85.4,saat:20.1,saat_cinsi:"turetildi",saat_kaynak:"kuş uçuşu km / 4.25 km-sa — koridor.js kalibrasyonu (Akşehir-İstanbul 85 saat, arşiv)",eksik_durak:false,f:"1539-01-01",t:"1839-01-01",donem_cinsi:"kurum",kesinlik:3,kaynak:"bulunamadı"},
+{u1:"h2b-tanta",u2:"h2b-iskenderiye",kanat:"halka2b",kol:"misir-iskenderiye",kalinlik:"tali",yon:"cift",km:112.9,saat:26.6,saat_cinsi:"turetildi",saat_kaynak:"kuş uçuşu km / 4.25 km-sa — koridor.js kalibrasyonu (Akşehir-İstanbul 85 saat, arşiv)",eksik_durak:false,f:"1539-01-01",t:"1839-01-01",donem_cinsi:"kurum",kesinlik:3,kaynak:"bulunamadı"},
 
 ];
