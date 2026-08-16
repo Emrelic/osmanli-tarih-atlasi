@@ -221,15 +221,30 @@ window.KADEME_YAMA = [
 {ad:"Otranto", kaynak:"bulunamadi",
  neden:"kaynak susuyor — ARANDI. otranto slug'i OLU (302). Osmanli donemi zaten 13 AY (1480-08-11..1481-09-10) ve bu surede kalici bir idari kademe kurulup kurulmadigi olculemedi. Italya tarafindaki (napoli) kademesi de bu kutunun isi degil, ayri kaynak ister. ⇒ k: YAZILMADI"},
 
-// ───────── C3. KADEME UYGULANMAZ — ikisi de DOLGU NOKTASI ─────────
-// 🔴 Bunlar sehir DEGIL. Sartnamenin bitis olcutu bu kovayi ADIYLA
-//   istiyor ("L'si 'kademe uygulanmaz' damgalandi").
-
-{ad:"Boğaziçi (Rumeli yakası)", kaynak:"uygulanmaz",
- neden:"kademe UYGULANMAZ — bu bir yerlesim degil, Bogazicinin Rumeli yakasini temsil eden DOLGU noktasi. Idari kademe bir yerlesime ait bir mertebedir; cografi bir dolguya kademe yazmak, olcunun kendisini bozar"},
-
-{ad:"Saroz kuzey kıyısı", kaynak:"uygulanmaz",
- neden:"kademe UYGULANMAZ — Bogazici kaydiyla ayni gerekce: Saroz korfezinin kuzey kiyisini temsil eden cografi DOLGU noktasi, yerlesim degil"},
+// ───────── C3. KADEME UYGULANMAZ — 🔴 İKİ KAYIT GERİ ÇEKİLDİ ─────────
+//
+// Burada `Boğaziçi (Rumeli yakası)` ve `Saroz kuzey kıyısı` için iki kayıt
+// vardı ve İKİSİ DE GERİ ÇEKİLDİ. Sebep ölçüldü, varsayılmadı:
+//
+// M-0468'in ③. ölçümü ("kutular kesişiyor mu YANLIŞ soru; doğrusu aynı
+// noktaya iki kayıt yazılmış mı — ve o BEKLENMEZ, ÖLÇÜLÜR") kendi
+// kutumda koşturuldu: diskteki BEŞ kademe yamasının hepsi node ile okundu,
+// 466 tekil nokta, ve ÜÇ ad birden çok dosyada çıktı. İkisi BENİMDİ:
+//   Boğaziçi (Rumeli yakası)  → kademe_4ff22b.js + bu dosya
+//   Saroz kuzey kıyısı        → kademe_4ff22b.js + bu dosya
+//
+// 🟢 VE ÖTEKİ KAYIT BENİMKİNDEN İYİYDİ — o yüzden benimki düştü, onunki
+//   değil. Fark yapısal: onlar `kademe_uygulanmaz:true` diye AYRI BİR
+//   ALAN yazmış; ben aynı hükmü `kaynak:"uygulanmaz"` diye SERBEST METNE
+//   gömmüştüm. Bir makine onunkini `if` ile sorabilir, benimkini soramaz.
+//   📌 Bu, `§11`in on birinci sınıfı: doğru öğrenilmiş bir dersi makinenin
+//     göremeyeceği yere yazmak. Kendi dosyamda üç kez uyguladığım kuralı
+//     tam burada ihlal etmişim.
+//
+// ⚠️ Çakışma da tesadüf değil YAPISAL: benim kutumun doğu kenarı (lon 32'ye
+//   kadar) Boğaz'ı ve Saroz'u kapsıyor, ama oralar Anadolu kutusunun konusu.
+//   Kutu sınırları coğrafî, konu sınırları tarihî — ikisi çakışmıyor.
+//   ⇒ Anadolu kutusuna bıraktım. Yatay mesajla bildirdim.
 
 // ───────── D. EŞLEŞTİRİCİ DÜZELTİLDİ — 13 BAŞKENT DAHA ─────────
 //
