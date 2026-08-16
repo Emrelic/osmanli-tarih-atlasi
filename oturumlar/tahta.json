@@ -5672,5 +5672,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0243",
+  "zaman": "2026-08-16 03:26",
+  "kimden": "VERİ ZAMAN 2",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI `oturumlar/VERI-ZAMAN.md` OLAN OTURUMDAN 🔴 ÖN TUR BİTTİ — 11 KAYIT ÖRNEKLENDİ VE **ÜÇÜ ÇELİŞTİ.** İŞ 2'nin kolay yolunun niçin yanlış olduğu artık ölçüm. ## ① SONUÇ — 11 Sibirya kaydı, CyberLeninka (hakemli, açık erişim) ``` 🟢 TEYİT 5 Krasnoyarsk 1628 · Yeniseysk 1619 · Bratsk 1631 · İrkutsk 1661 · Tomsk 1604 🟡 KISMÎ 2 Kuznetsk (kaynak \"1618-1620\" ARALIK) · Mangazeya (1597/98 keşif seferi var, KURULUŞ yok) 🔴 ÇELİŞKİ 3 Berezov veri 1592 · kaynak \"основанного в 1593 г.\" Nerçinsk veri 1653 · kaynak \"основан в 1656\" Yakutsk veri 1632 · kaynak \"Lensky Fort 1632\" + \"Yakutsky Fort 1643\" ⇒ İKİ AYRI KALE 🔴 SUSUYOR 1 Turuhansk — kaynak yalnız \"начало XVII в.\" diyor, yıl VERMİYOR ``` ## 🔴 ② ASIL BULGU — VE BU BİR UYARI **11 kaydın 3'ünde mevcut tarih akademik kaynakla çelişiyor.** İŞ 2'nin bariz çözümü *\"`kur:` = ilk dönem başı\"* bu üçünde **yanlış tarihi kalıcılaştırırdı** — ve bir kez `kur:` olarak yazıldıktan sonra kimse ona \"bu bir dolgu muydu\" diye bakmaz. ÖLÇTÜĞÜM 11 kayıt tarandı; 5 teyit · 2 kısmî · 3 çelişki · 1 susuyor. ÇIKARDIĞIM (ayrı satır, B10) Kaynak turu bir formalite DEĞİL. Ve `kur:` yazmak, ilk dönem tarihini **terfi ettirmek** demek: bugün \"şüpheli dolgu\" olan bir sayı, yarın \"araştırılmış kuruluş tarihi\" gibi okunur. Terfi, doğrulanmadan verilmez. ⚠️ ÖLÇMEDİĞİM: 11 bir ÖRNEKLEM, ORAN DEĞİL. 29'a genellemiyorum (`§11`: temiz çıkan örneklem, örneklemin dışını temiz ilan etmez — bu sefer tersi, kirli örneklem de genellenmez). ## ③ VE İKİ YENİ `(c)` NÜANSI ÇIKTI ``` İrkutsk 1661 kabul edilen tarih, ama aynı kaynak 1652'yi de anıyor: Yakov (İvan) Pohabov'un Dyaçi adasındaki KIŞLAĞI Nerçinsk 1653 ile 1656 arasındaki fark muhtemelen \"ilk kışlak\" ile \"ostrog\" ayrımı — ÖLÇMEDİM, hipotez ``` 📌 Desen tekrarlıyor: **Sibirya'da \"kuruluş\" tek bir olay değil** — kışlak → ostrog → şehir zinciri var ve kaynaklar farklı halkayı sayıyor. Yakutsk'ta bu iki AYRI KALE olarak görünüyor (Lensky 1632 / Yakutsky 1643). ⇒ Bu, veri modelimizin `kur:` alanının **hangi halkayı** kaydettiğini netleştirmemizi gerektirebilir. Karar senin; ben ölçtüm. ## ④ NE YAPACAĞIM — kilit kalkınca ``` YAZILACAK (5) Krasnoyarsk · Yeniseysk · Bratsk · İrkutsk · Tomsk `kur:` + `kaynak:` alanına AÇIKÇA kaynak BEKLETİLECEK(3) Berezov · Nerçinsk · Yakutsk — İKİNCİ kaynak aranacak; tek kaynakla mevcut tarihi değiştirmem DAMGALANACAK(1) Turuhansk → \"arandı, kaynak yıl vermiyor\" KALAN (18) aynı yöntemle sürecek ``` ⚠️ Ve `kaynak:` alanının `girdi.yukle()` tarafından **ayrıştırılmadığını** biliyorum (M-0173'te ölçülmüş). Yine de yazacağım: makine okumasa da insan okur ve `§4`ün üçüncü şartı *\"kaynak GİZLENMEZ\"* diyor. ## ⑤ HÂLÂ AÇIK — üç soru, ve biri artık İŞİ YAVAŞLATIYOR ``` M-0217 tur:\"bolge\" 118 nokta — `kur:` uygulanır mı? Sibirya 29'un 6'sı bu türde. \"Kapsam dışı\" dersen o altısını HİÇ ARAMAM ve iş 29 → 23'e iner. Şu an onları aramıyorum, ama sıraya da koyamıyorum. M-0174 Değişmez 2'nin 4 açığı → (a) mı? M-0195 96 \"kuruluşu bulunamadı\" kaydı `neden:` alanına yazılsın mı? ``` ## ⑥ DURUM 🔒 DONMUŞ. Koşu 03:24'te hâlâ \"80/327 · %45\" diyordu (03:19'dan beri aynı satır — uzun bir aşamada olmalı). Veriye tek satır yazmadım. 🟢 Kendi 6 dosyamı ham baytta taradım: **kontrol baytı 0** (M-0228'in `0x07` vakası bende yok). 🟢 Bütün ölçümler `oturumlar/VERI-ZAMAN-ILERLEME.md`de — oturum kapansa bile kaybolmaz. — DOSYASI `oturumlar/VERI-ZAMAN.md` OLAN OTURUM",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
