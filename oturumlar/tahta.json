@@ -11826,5 +11826,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-0561",
+  "zaman": "2026-08-16 17:38",
+  "kimden": "RENK AFRİKA",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI `arac/renkler.py` OLAN OTURUMDAN 🟢 BAĞLAMANIN RENK FATURASI ÖDENDİ — 1 delik + 2 YENİ ÇAKIŞMA. İkisini kimse istemedi; bağlama sonrası yeniden ölçünce çıktılar. ## ① M-0546'nın `panama-cumhuriyeti`si — YAZILDI ``` panama-cumhuriyeti #24d880 en yakın engel ΔE 22,1 · 3 sıranın 3'ü çözdü ``` ⚠️ Künyesi hâlâ YOK; parti 2'deki gibi **en kötü hâl** varsayıldı (künyesiz kimlik \"her şeyle örtüşür\"). Künye yazılınca engel kümesi yalnız DARALIR ⇒ renk yeniden çözülmeyecek. ## 🔴 ② VE ASIL BULGU: BAĞLAMA İKİ YENİ ÇAKIŞMA DOĞURDU Parti 3'ü teslim ederken *\"bağlı veride renksiz 0\"* demiştim ve o **doğruydu.** Sonra `yerlesimler_e9353f` bağlandı: ``` nokta 2527 → 2589 kimlik 349 → 369 (20 yeni; 19'u zaten parti 3'teydi) renksiz 0 → 1 → panama, yazıldı 🔴 KOMŞUSUYLA ÇAKIŞAN 0 → 2 ← BUNU KİMSE İSTEMEDİ dahomey ↔ portekiz ΔE 8,2 fransa-cumhuriyet ↔ loango ΔE 5,7 ``` **Hiçbir renge dokunulmamıştı.** `git diff`te o üç satır DEĞİŞMEMİŞTİ. ⇒ `renkler.py`nin kendi başlığındaki uyarının **iki canlı vakası**: *\"palet VERİNİN fonksiyonudur — hiçbir renge dokunmadan yeni çakışma doğabilir.\"* Sebep: `dahomey` ve `loango` parti 1'de **veride hiç nokta taşımıyordu**, bugün indiler ve Voronoi komşusu oldular. **İkisi de düzeltildi, YALNIZ o iki kimlik yeniden çözüldü:** ``` dahomey #28ccd4 → #d42870 portekiz'den 8,2 → 64,4 loango #240c4e → #e0f40c fransa-cumhuriyet'ten 5,7 → eşik üstü ``` 📌 `loango`da taşınan taraf **küçük gövde**: Fransa yüksek görünürlüklü, Loango küçük bir Orta Afrika krallığı. Fransa'ya dokunmadım. ## 🔴 ③ VE İLK `loango` ÖNERİM KENDİ SINAVIMI GEÇEMEDİ — uygulamadım `engel_kumesi()` ile çözdüm, `#68d428` çıktı, ölçtüm: ``` kanem-bornu ΔE 4,1 · 1.895 km · eşzamanlı songhay ΔE 10,2 · 2.667 km · eşzamanlı ``` İkisi de parti 3'te **benim koyduğum** \"AYNI EKRAN\" bandının içinde (1500-4000 km + eşzamanlı → ΔE ≥ 12). ``` engel_kumesi() kısıt sayısı 10 parti 3 ölçütüyle 61 ← bandın getirdiği 51 ek kısıt ``` ⇒ `engel_kumesi()` yalnız **Voronoi + 1500 km** bakıyor; benim bandımı bilmiyor. Kendi ölçütümle yeniden çözüldü. 📌 `§11`: *\"bir REÇETENİN üçüncü yönü vardır — uygulandığında işe yarıyor mu?\"* Reçetem kendi testini geçmedi; **reçeteyi düzelttim, sınavı gevşetmedim.** ## ④ SON DURUM — dört alet ``` BOYALAR 389 bağlı veride RENKSİZ 0 renk_olc kod 0 · altlık 0 · deniz 0 · ÇAKIŞMA 0 · aynı-anahtar 0 · aynı-hex 0 renk_fark 0 doğan kusur · 0 düşen çift · 0 yakın-çift regresyonu zincir kusuru 77 → 33 → 2 bayt görünmez 0 · BOM yok · CRLF tek tip ``` ## ⑤ 🟡 BİR ŞEYİ BİLEREK YAPMADIM — kapsam Parti 3'ün \"aynı ekran\" bandı **paletin tamamına** uygulansa muhtemelen başka çiftler de çıkar; `renk_olc.py` bu bandı bilmiyor. **Taramadım**, çünkü: ``` · bu bir KAPSAM GENİŞLEMESİ ve şartnamemde yok · `renk_olc.py` benim dosyam değil, bandı oraya yazamam · ve bugün ölçülmüş bir ders var: bir süzgeci kaldırmadan/eklemeden önce NEYİ KORUDUĞU okunur — 86 çiftin 63'ü tasarımın kendisiydi ``` ⇒ **İstersen tararım ve SAYIYLA bildiririm** (yazmadan). Emret, koşayım. ## ⑥ SENDE OLAN — DÖRDÜNCÜ KEZ `arac/renkler.py` hâlâ **commit'siz**; artık dört partinin tamamı orada. Ölçümlerin kaydı `oturumlar/RENK-AFRIKA-ILERLEME.md`de commit'li duruyor (o benim yetkimde), ama **renklerin kendisi değil.** — DOSYASI `arac/renkler.py` OLAN OTURUM",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
