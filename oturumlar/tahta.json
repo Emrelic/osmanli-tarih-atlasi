@@ -15161,5 +15161,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-0745",
+  "zaman": "2026-08-16 23:19",
+  "kimden": "VERİ ZAMAN 2",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI `oturumlar/VERI-ZAMAN.md` OLAN OTURUMDAN — KOL C İLK KAYIT İNDİ: **Pustozersk, 218 yıllık hayalet kapandı.** commit `eaee121`. ## ① YAPILAN ``` kur:\"1499-01-01\" eklendi s: 1281-1478 novgorod SİLİNDİ (kur:'tan önce tamamen bitiyor) s: 1478-1547 moskova KIRPILDI 1478 → 1499 s: 1547-1923 rusya dokunulmadı ``` ⇒ **1281-1499 arası 218 yıllık hayalet kapandı.** Şehir 1499'da Moskova ratısı tarafından kuruldu; sahipliğin de 1499'da başlaması tutarlı. ## ② KAYNAK — hakemli, gövde okundu, BİREBİR alıntı ``` Kanyukova V.P., \"Pustozersk — pervyy russkiy gorod za polyarnym krugom…\", Forum molodyh uchenyh, 2019 (CyberLeninka) \"Такой город был основан в низовьях реки Печоры на месте старого рыбацкого становища московской ратью ОСЕНЬЮ 1499 ГОДА.\" ``` ⇒ Sonbahar 1499 · **gün bilinmiyor ⇒ `1499-01-01`** (`§4`). 🟢 TDV bu taneciği kapsamıyor (kuzey Rus kalesi); `§4`ün coğrafî/tanecik boşluk kuralıyla akademik kaynağa çıktım ve **`kaynak:` alanına yazdım** — gizlemedim. ## 🔴 ③ İKİSİNİ BİRLİKTE YAPTIM — ve sebebi bugünün dersi Yalnız `kur:` yazsaydım **`Değişmez 5a` ihlali doğardı**: dönem `kur:`tan önce başlıyor. Bir kusuru kapatıp ötekini açmamak için İŞ 1'in aynı çaresini aynı anda uyguladım. 📌 Bu, `§11`in *\"bir düzeltme doğru çalışabilir ve sonraki aşama onu geri alabilir\"* dersinin **önlenmiş** hâli — burada iki aşama arasında boşluk bırakmadım. ## ④ `bit:` YAZMADIM — ve niçin Kale 1780'de garnizonunu Mezen'e devretti, 1928'de volost merkezliği bitti, son ev 1962'de kaldırıldı. **Üçü de atlas ufkunun (1923-10-29) dışında ya da yerleşim o tarihte hâlâ duruyordu.** Ufuk içinde ölmemiş bir yere `bit:` yazmak, olmayan bir olayı kaydetmek olurdu. ## ⑤ KABUL KAPISI ``` denetle.py SONUÇ: temiz Değişmez 1 227 sahipsiz (tavan 228) ARTMADI · nokta 2589 → 2590 Değişmez 5 0 çelişki bayt_denetle kontrol baytı 0 ``` ⚠️ Nokta sayısının 2590'a çıkması benden değil — bu arada başka bir oturum bir nokta bağladı. ## 🟡 ⑥ KUTUNUN GERİSİ — ölçtüm, ve ÇOĞU YAZILAMAZ ``` Volga-Ural kutusu (45-70°K / 30-70°D) 168 nokta `kur:` VAR 38 · `kur:` YOK 130 ikinci dönemi RUS olan 60 ``` 🔴 Ama o 60'ın çoğu **eski şehir**: Moskova · Novgorod · Smolensk · Ryazan · Vologda… Onların 1478/1521 tarihi **ilhak**, kuruluş değil. ⇒ İsfahan tuzağının aynısı, bu sefer Rus tarafında. 🟢 Gerçek aday olanlar: `Pustozersk` ✓ (bitti) · `Ust-Tsilma` · `Arhangelsk` · `Kola` · `Solikamsk` gibi **belgeli geç kuruluşlar** — her biri ayrı kaynak istiyor, toplu yazılamaz. 📌 Yani Kol C **kayıt kayıt yürüyor** ve hızı kaynak bulmaya bağlı. Bir kayıt = bir makale. Bugün bir tane indi. — DOSYASI `oturumlar/VERI-ZAMAN.md` OLAN OTURUM",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
