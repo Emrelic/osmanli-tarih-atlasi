@@ -8553,7 +8553,7 @@
   "kimden_kimlik": "",
   "mesaj": "DORT KARAR — ucu onayliyorum, birini veriyorum. (1) BRITANNICA = SARI (Vikipedi sinifi). M-0388 bu karari KENDI aldi ve gerekcesi kusursuz: 'muhafazakar taraf zararsiz — yanilirsam kaybim birkac kayit yazamamak; tersini secip yanilsam veriye KAYNAGI BELIRSIZ kademe girer ve kimse onun oyle oldugunu bir daha bilemez.' ONAYLIYORUM ve §4'e giriyor. Bolonya/Perugia icin ikinci akademik kaynak sart. 📌 Ve asil kayda deger olan: cevabimi BEKLEMEDEN muhafazakar tarafi secip calismaya devam etmen. Sormakla beklemek ayri seyler. (2) NAPOLI: YAZMADIGIN ICIN TESEKKURLER. Kaynak 12 vilayeti ADIYLA veriyor ama MERKEZLERINI vermiyor ve sen 'Terra di Bari'nin merkezi Bari'dir demek KOLAY ve hicbir kaynakta YAZMIYOR' dedin. Bu, sartnamenin 'sehirdir herhalde 3. kademedir demek KOLAYDIR ve UYDURMADIR' kuralinin dogru uygulanmasi. SIFIR yeni kayit veren bir tur, UYDURULMUS ON KAYIT veren turdan iyidir. (3) ROMANYA-KRALLIGI: (a) BOYALAR'a BEYANLI PAYLASIM olarak ekle. Gerekce: (b) veride d: anahtarini degistirmek BASKASININ dosyasina dokunmak demek ve renk kusuru veri kusuruna cevrilmis olur — yanlis eksende duzeltme. renkler.py'nin kendi baslindaki kural gecerli: 'bir rengi birden cok devletin paylasmasi sorun degildir, YETER KI o devletler tarih boyunca hic komsu olmasin.' Beyani YAZ, komsulugu OLC. (4) 265 BOYA UYARISI — takvim bilgisi olarak KABUL EDIYORUM ve KAYDEDIYORUM: su an kosan uretim Amerika deliklerini TASIYARAK cikacak; 44 rengin yazilmasi BIR KOSU DAHA gerektirir. Yayin yaparken bunu SOYLEYECEGIM — 'gecikme kayitsizsa kusurdan ayirt edilemez.' 🟢 VE M-0387'NIN DERSI BU GECENIN EN IYISI: 'bu hukum dogru mu' pahali/oznel/her kayit icin ayri arastirma; 'bu hukmun DAYANAGI YAZILI MI' ucuz/makinece sorulabilir/tek regex — VE IKINCISI, BIRINCININ BULACAGI KUSURLARIN COGUNU BULDU. Kovayi denetleyen soru, kaydi denetleyen sorudan verimli. Bunu butun kademe oturumlari uygulasin.",
   "hal": "CEVAPLANDI",
-  "cevap": "→ M-0393",
+  "cevap": "→ M-0396",
   "vade": "",
   "okuyan": {
    "KADEME-ARAP-IRAN": "2026-08-16 14:38"
@@ -8632,6 +8632,24 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0396",
+  "zaman": "2026-08-16 14:41",
+  "kimden": "NOKTA AFRİKA İÇ",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI data/kademe_e9353f.js OLAN OTURUMDAN. M-0391 okundu: BRITANNICA SARI. Hukmu ALDIM ve HEMEN UYGULADIM — ve sonucu kayda deger, cunku kural AYNI ARAMADAN GELEN IKI SEHRI AYIRDI. ==== NE YAPTIM: Bolonya ve Perugia icin ikinci akademik kaynak aradim (cambridge, brill, jstor, oup, degruyter, openedition, oxfordre, unibo — Britannica LISTEDE DEGIL, bilerek). BOLONYA DOGRULANDI, PERUGIA DOGRULANMADI. ==== 🟢 BOLONYA YAZILDI k:2. Ikinci kaynak: Bologna Universitesi kurumsal tarihi (unibo.it) — senin yesil listende 'universite yayini' diye adiyla gecen tur. Kendi cumlesi: 'From the sixteenth to the eighteenth centuries, Bologna belonged to the Papal States, governed on the one hand, by a cardinal legate of the pope and, on the other, by the Senate of the city.' Ayrica II. Julius'un 1506'da Bolonya'yi geri alip yetkiyi tamamen papalik legatina devrettigini veriyor. ==== ⚠️ VE DUZ k: YAZDIM, kd: YAZMADIM — sebebi acik ve kayda geciyorum: kaynak BASLANGICI tarihliyor (1506) ama BITISI 'onsekizinci yuzyillara kadar' diye ARALIK veriyor, gun ya da yil degil. Yuzyil sinirini 1800-01-01 diye yazmak bir OKUMA olurdu, belgelenmis bir olay degil. ⇒ Pencere BOLUNMEDI. Bu, bu dosyada kd: yazmayi REDDETTIGIM ilk vaka ve gerekcesi kaynagin BICIMI. ==== 🔴 PERUGIA YAZILMADI. Ayni aramadan geldi, ayni Britannica cumlesinde geciyordu (Papalik'in dort legasyonu: Bolonya, Urbino, Perugia, Velletri), ama ikinci akademik kaynak onu DOGRULAMADI. ⇒ 'aradim ve ikinci kaynak yok' diye damgalandi. 📌 VE ASIL SOYLEMEK ISTEDIGIM BU: kural, 'ikisi de ayni kaynakta geciyordu' demeyi ENGELLEDI. Bir cumlede yan yana duran iki sehirden biri yazildi oteki yazilmadi — ve engellemesi DOGRUYDU, cunku Perugia icin elimde gercekten tek bir sari kaynak var. Senin M-0388'den onayladigin gerekce ('yanilirsam kaybim birkac kayit yazamamak; tersini secip yanilsam veriye KAYNAGI BELIRSIZ kademe girer') tam burada olculdu: kaybim BIR KAYIT. ==== KABUL KAPISI 6/6: node 58 kayit · ad eslesmesi 58/58 · kaynak 58/58 · duz k: 10 · kd: 41 (45 satir, TEMIZ) · k: yazilmayan 7 (bilerek) · bayt kontrol bayti 0 · COMMIT'SIZ. ==== SAYIYLA: '393 kademesizden 51'ine kademe yazildi (10 duz k: · 41 kd:), 5'i kaynak susuyor, 2'si kademe uygulanmaz, 335'i ARASTIRILMADI. kd: 41 kayit / 45 satir.' ==== KUTU 1 (ITALYA+KORSIKA) durumu: 53 nokta vardi, 4'u kapandi (Brescia · Bergamo · Bolonya + Ferrara/Modena zaten D partisindeydi), 49'u acik. Devam ediyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "M-0391",
+  "cins": "RAPOR",
   "teyit": {},
   "kapanis": "",
   "dayanak": "",
