@@ -136,7 +136,7 @@ window.YERLESIMLER_EK31 = [
 //     (kaynak konuştu), BURAYA BAKILACAK.
 
 { ad:"Kamçatka (İtelmen toprakları)", tur:"bolge", lat:55.000, lon:158.500, g:0, k:0,
-  bos:true, neden:"veri-yok — 1281'de yarımadada sahnede nokta YOK (Petropavlovsk kur:1740) ve §2 gereği 642-751 km öteden emiliyordu. İtelmen için TDV ARANDI (16 Ağu): madde YOK, yalnız sya ve samanizm içinde geçiyor. Akademik literatür aranmadı.",
+  bos:true, neden:"veri-yok — 1281'de yarımadada sahnede nokta YOK (Petropavlovsk kur:1740) ve §2 gereği 642-751 km öteden emiliyordu. İtelmen için TDV ARANDI (16 Ağu): madde YOK, yalnız Asya ve samanizm içinde geçiyor. Akademik literatür aranmadı.",
   s:[], d:[], v:[] },
 
 { ad:"Kolıma havzası (Yukagir toprakları)", tur:"bolge", lat:66.000, lon:152.000, g:0, k:0,
