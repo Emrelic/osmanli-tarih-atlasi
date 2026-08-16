@@ -11575,7 +11575,12 @@
   "okuyan": {},
   "yanit_no": "M-0540",
   "cins": "SORU",
-  "teyit": {},
+  "teyit": {
+   "DATA/KADEME_8BEB2B.JS": {
+    "zaman": "2026-08-16 17:30",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
