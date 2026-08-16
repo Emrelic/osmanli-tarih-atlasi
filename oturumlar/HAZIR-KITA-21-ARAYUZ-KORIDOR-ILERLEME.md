@@ -246,6 +246,74 @@ EKSİK      1281'de koridor GÖRÜNMÜYOR / 1600'de GÖRÜNÜYOR — GÖZLE, ekr
 değil, ve bu projede tam olarak o farktan kusur çıktı (`OLAYLAR_7A4170`
 yükleniyordu, denetim okuyordu, **ekranda yoktu**).
 
+## 🔴 ⑤d İKİNCİ İŞ — M-0534, VE BANA HİÇ ULAŞMAMIŞTI
+
+M-0579 *"adres tuzağının yedinci vakası"*nı duyurunca kendi kutumu taradım:
+**koordinatörün bana yazdığı üç mesaj yanlış adrese gitmiş.**
+```
+M-0265  VERİ ZAMAN 2 → kime='KADEME-ARAP-IRAN'   gövde: "DOSYASI olaylar_7a4170.js OLAN OTURUMA"
+M-0280  VERİ ZAMAN 2 → kime='KADEME-ARAP-IRAN'   (M-0265'in düzeltmesi)
+M-0534  KOORDINATOR  → kime='DOSYASI INDEX.HTML OLAN OTURUM'   ← EMİR, BANA
+```
+🟢 İlk ikisi zararsız kaldı: dört kırılmanın dökümünü **beklemeyip kendim
+ölçmüştüm** (`denetle.py --ayrinti`). Beklemiş olsaydım iş hiç başlamazdı.
+📌 *"Tahtadan al"* talimatını üreteçle değiştirmek, o gün bir tercih gibi
+görünüyordu; bugün **kayıp bir mesajın telafisi** olduğu görüldü.
+
+### M-0534'ÜN İSTEDİĞİ — yapıldı
+```
+index.html'e DÖRT satır (yerlesimler_amerika.js'in ALTINA):
+  yerlesimler_ek30.js · yerlesimler_ek31.js
+  yerlesimler_0ee15e.js · yerlesimler_e9353f.js
+yerlesimler_8beb2b.js  EKLENMEDİ
+```
+**B10 — koordinatörün her sayısını kendim ölçtüm:**
+```
+8beb2b "dizi BOŞ"        →  YERLESIMLER_8BEB2B = 0 kayıt · 10399 bayt (hepsi yorum) ✓
+"62 nokta"               →  EK30 23 + EK31 6 + 0EE15E 4 + E9353F 29 = 62 ✓ BİREBİR
+"girdi.py 48 dosya"      →  48 ✓
+```
+
+### 🟢 ④ BİRLEŞTİRME SINAVI — *"yüklemek birleştirmek değildir"*
+Koordinatör haklı olarak *"ölçerek bak"* dedi. Ölçtüm:
+```
+dört yeni global de birleştirmeye KATILDI ✓
+  YERLESIMLER_EK30 · _EK31 · _0EE15E · _E9353F
+sebebi: index.html:394 zaten DESEN kullanıyor (/^YERLESIMLER_/ + isArray),
+        elle liste değil — 11 Ağustos'ta kaldırılmış
+```
+**İKİ KAPI ARTIK EŞİT:**
+```
+girdi.py (motor)      48 dosya · 2589 nokta
+index.html (tarayıcı) 48 dosya · 2589 nokta
+FARK                   0 dosya ·    0 nokta
+```
+
+### ⚠️ VE BU ÖLÇÜMDE KENDİ HATAMI YAKALADIM
+İlk sayımım *"tarayıcı 1796, motor 2589 — 793 fark"* dedi ve bunu **gerçek bir
+boşluk sandım.** Sebep: `index.html`in birleştirmesi bir **TOHUM**la başlıyor
+(`(window.YERLESIMLER || []).slice()` — yani `yerlesimler.js`in kendi 793
+noktası) ve ben yalnız `YERLESIMLER_` önekli olanları toplamıştım.
+⇒ Boşluk yoktu; **ölçütüm eksikti.** Bildirseydim var olmayan bir kusuru
+tahtaya sokacaktım.
+
+### 🔴 VE BİR KUSUR: KENDİ YORUMUM DENETİMİ KIRDI
+Eklediğim HTML yorumunda betik etiketini **açık yazmıştım**. `denetle_yayin.py`
+satır içi blokları regex'le ayıklıyor ve onu **gerçek bir etiket sandı**:
+```
+✗ inline SÖZDİZİMİ: 2 blokta 1 HATA — window.YERLESIMLER HİÇ atanmıyor olabilir
+```
+Yorum, **anlattığı şeyi yazarak** denetimi kırdı. Etiket adı metinden
+çıkarıldı, denetim düzeldi (`✓ 1 blok temiz`).
+📌 Bu, `§11`in *"kaçış içeren metin araçtan geçmez"* ailesinin **yorum**
+tarafı: zararsız sandığım bir açıklama, aracın girdi dilinde **veri**ydi.
+
+### ÖLÇÜM — `denetle_yayin.py` "ÇİZİLMİYOR"
+```
+önce   12 kalem     (koridor 3 · OLAYLAR_7A4170 · KADEME×4 · YERLESIMLER×4 · BEKLEYENLER)
+sonra   1 kalem     BEKLEYENLER — benim dosyam DEĞİL
+```
+
 ## 🔴 ⑥ KOORDİNATÖRDE — bir çelişki, bir onay
 
 **(a) COMMIT ÇELİŞKİSİ.** Şartnamem §④ üç kaynak dosyasını *"SENİN"* diyor ve
