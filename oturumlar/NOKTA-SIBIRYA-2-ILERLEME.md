@@ -221,4 +221,76 @@ edeceğini yazdı. Blok şimdi kalkıyor, teyit gelmezse haber verecek.
 ## ⑥ SIRADAKİ
 - Dört şüpheliyi (Çerdın · Pustozersk · Ust-Tsilma · Yelabuga) kaynağa
   sorup `kur:` teklifi çıkarmak — **ölç ve BİLDİR, YAZMA** (M-0147)
-- 🔴 Dosya `girdi.py`ye **bağlanmadı** — koordinatörde
+- ~~🔴 Dosya `girdi.py`ye **bağlanmadı** — koordinatörde~~
+  🟢 **BAĞLANDI** (16 Ağustos 2026) · `girdi.py` 48 dosya · tabanda 6/6
+
+---
+
+# ⑦ KOL C · SİBİRYA DİLİMİ — ölçüm ve teslim (16 Ağustos 2026, M-0668)
+
+Koordinatör `M-0654` ile Kol C'nin Sibirya dilimini bu oturuma verdi.
+**Sonuç: bu dosyada yazılacak hiçbir şey yok — ve bu bir sonuçtur.**
+
+## ⑦.1 İki yanlış alarmımı yazmadan önce kendim çürüttüm
+
+```
+ALARM 1  "Tomsk·Yakutsk·İrkutsk tur:kale ama bos:devletsiz ⇒ Sibirya'nın
+          fethi haritada hiç görünmüyor olabilir"
+ÇÜRÜK    63 noktanın 52'sinde `rusya` dönemi VAR (Tomsk 1604 · Yakutsk
+          1632 · İrkutsk 1661). `kasitli_bosluk` burada "kalıcı boşluk"
+          değil "KURULUŞ ÖNCESİ boşluk" demek. Modelleme DOĞRU.
+
+ALARM 2  "`kur:` yazarsam kasıtlı boşluk yok olur, komşu emer"
+ÇÜRÜK    uret_petek.py:2444 — "devir YALNIZ kurulmamış VE o tarihte bir
+          sahibi YAZILI peteklere uygulanır". Kurulmamış+sahipsiz =
+          motor DOKUNMUYOR. Kuveyt (`kur:1716`) birebir aynı şekil.
+```
+📌 İkisini de **koda bakarak** çürüttüm, akıl yürüterek değil.
+
+## ⑦.2 Asıl bulgu — kuruluş tarihleri ZATEN veride
+
+Her ostrogun kuruluş yılı **ilk `rusya` döneminin `f:`si** olarak duruyor.
+⇒ C'nin Sibirya dilimi **araştırma değil ALAN YAZMA** işi.
+```
+kur: yazılmaya hazır   43     kur: zaten var   3
+ilk dönemi 1281         7     benim dosyamda   0
+```
+**Dosya kırılımı — tamamı başkasında:**
+`ek13` 12 · `ek8` 11 · `ek9` 11 · `ek18` 9 · **`ek31` 0**
+
+## 🔴 ⑦.3 Mekanik kural ALTI kayıtta kırılıyor
+
+*"`kur:` = ilk dönemin `f:`si"* çoğunda doğru, altısında **yanlış** —
+o kayıtlarda ilk dönem bir kuruluş değil bir **el değiştirme**:
+```
+🔴 Barnaul · Biysk · Pavlodar · Semipalatinsk · Zmeinogorsk
+      ilk dönem 1635 `cungar` — Cungar hâkimiyeti (Barnaul gerçekte 1730)
+🔴 Nikolayevsk (Amur ağzı)
+      ilk dönem 1689-09-06 `qing` — Nerçinsk Antlaşması
+⚠️ Aleksandrovsk (K. Sahalin) `bos:"hata"` — zaten hatalı damgalı
+🟢 GÜVENLİ 37 — ilk sahip `rusya` ve `neden:` aynı yılı gerekçelendiriyor
+```
+Ayırmasaydım liste *"mekanik"* diye teslim edilip **altı uydurma kuruluş
+tarihi** veriye girecekti.
+
+## ⑦.4 Kendi iki noktam — kaynakla kapandı, İKİSİNE DE YAZILMADI
+
+| nokta | hüküm | dayanak |
+|---|---|---|
+| **Kızıl-Tura** | 🟢 `kur:` **yazılmaz** — verim doğru | Akbaba, Y. (2024), *An Example of Turkish-Tatar Urbanism in Siberia: Kyzyl Tura*, **Selçuk Türkiyat** (61): 47-67, doi:10.21563/sutad.1360861 — hakemli. *"a prominent administrative centre in the period immediately preceding the conquests of Genghis Khan"* ⇒ 1281'den ÖNCE var |
+| **Abalak** | 🔴 `bulunamadı` — dokunulmadı | TDV `sibir-hanligi` adı sayıyor, **tarih vermiyor**. Öteki sonuçlar turizm/blog düzeyinde ⇒ kırmızı çizgi, kullanılmadı |
+
+⚠️ `bit:` de yazılmadı: makale Kızıl-Tura için *"downfall began in the
+16th century"* diyor — bir **çöküş**, terk YILI değil.
+
+🟡 **ÖLÇÜLMEMİŞ ŞÜPHE (veriye yansıtılmadı):** Abalak adının hanlık devri
+bir Tatar beyinden geldiği söyleniyor; doğruysa `s:1281 altinorda` dönemi
+anakronik olabilir. **Ölçmedim, kaynağım yok, değiştirmedim** — bir gün
+bakılsın diye kayda geçiyor.
+
+## ⑦.5 Ölçmediğim
+
+43 kaydın `neden:` alanlarındaki tarihlerin **kaynağını tek tek
+doğrulamadım**; 30'unda *"🔴 TDV'ye basmıyor"* notu var, yani akademik
+kaynağa dayanıyorlar ama **hangisine bakmadım.** Yazacak oturum bunu
+doğrulamalı.
