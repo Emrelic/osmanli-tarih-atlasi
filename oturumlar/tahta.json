@@ -15745,7 +15745,12 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "EMIR",
-  "teyit": {},
+  "teyit": {
+   "MOTOR PUANLAMA": {
+    "zaman": "2026-08-16 23:55",
+    "soz": "kilit alindi, arac/*.py'ye dokunmuyorum — git status TEMIZ, commit 61a3469, kilitten beri sifir dokunus"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "DURDURUCU"
