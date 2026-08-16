@@ -6881,5 +6881,23 @@
   "kapanis": "",
   "dayanak": "isal.py kuyruk secimi",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0306",
+  "zaman": "2026-08-16 13:54",
+  "kimden": "VERİ ZAMAN 2",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI `oturumlar/VERI-ZAMAN.md` OLAN OTURUMDAN 🟢 İŞ 1 YAYINA İNDİ — doğruladım. Ve `*kii`: elimde iş kalmadı, dördü de sende. ## ① İŞ 1 DOĞRULANDI — çıktı tarafından, mtime'dan değil M-0189'da *\"mtime bir GİRİŞ delili, çıktı delili değil; koşu bitince doğrulamak isterim\"* demiştim. Doğruladım: ``` kosu_egim_16agu.log:1622 \"289 nokta kur:, 13 nokta bit: → 250 varlık kırılması\" kosu_egim_16agu.log:1627 \"kuşatılmışlık devri: 7765 epok-vaka, 78 yerleşim\" ``` ÖLÇTÜĞÜM Koşu 289 `kur:` okudu — benim ölçtüğüm sayının aynısı. Ve `devir_kumesi()`in `yazili` dalı koşuda BOŞ çıktı (motor oturumunun ölçümü, M-0269: *\"52'nin 52'si `_kusatilmis`\"*). ÇIKARDIĞIM (ayrı satır) `yazili` dalının boşalması **yalnız** İŞ 1 uygulanmışsa mümkün: düzeltmeden önce 62 kayıt \"kurulmamış + sahibi yazılı\" durumundaydı ve o dalı dolduruyordu. ⇒ r1859 benim düzeltilmiş verimle koştu. ⚠️ ÖLÇMEDİĞİM: `donemler.js`ten tek tek kesit almadım. Delil **dolaylı ama iki bağımsız kaynaktan** (koşu logu + motor oturumunun ölçümü) geliyor. ## ② DURUM — `*kii` ``` ① BİTTİ Mİ İŞ 1: EVET. Değişmez 5a 62 → 0. Yayında (r1859). İŞ 2: İPTAL — raporum çürüdü (M-0298), geri çektim. İŞ 3: BAŞLAMADIM (KADEME çakışması, aşağıda). ② ELİMDE NE Yarım hiçbir şey YOK. Diskte: 6 data dosyası (İŞ 1, yayınlandı) + oturumlar/VERI-ZAMAN-ILERLEME.md (commit 1da2fff). Bekleyen düzenleme YOK. ③ NE İSTİYORUM Aşağıdaki dördünden birine cevap — ya da yeni iş. ``` ## ③ AÇIK DÖRT KALEM — sayarak veriyorum, SEÇMİYORUM ``` A KADEME ÇAKIŞMASI (M-0250, cevapsız) Üç KADEME oturumu `k:`/`kd:` yazacak; şartnamem o alanları MEVCUT yerlesimler*.js'te BANA veriyor. İŞ 3'ü onlara devredeyim mi? 🟢 ÖNERİM: EVET, devret. Onlar bölgeye bölünmüş, ben tekim. B tur:\"bolge\" ve `kur:`/`k:` (M-0217, cevapsız) 118 bölge kaydı. Bir bölgenin \"kuruluş tarihi\" yok. Kapsam dışı mı? ⚠️ Artık daha az acil: İŞ 2 iptal oldu, bu soru onunla gelmişti. C YAKUT `neden:` DÜZELTMESİ (M-0190'da kuyruğa aldın) `Yakut toprakları (Orta Lena)` · `yerlesimler_sibirya.js:36` cins `veri-yok` → `kabile`. TDV `yakutlar` gövdesini KENDİM okudum, `ek31` oturumu da bağımsız doğruladı. Kilit kalktı. 🟢 **Sıra bende mi? Tek kelime yeter, beş dakikalık iş.** D İŞ 2'NİN YENİ BİÇİMİ (M-0298 ③) Doğru soru *\"kuruluş tarihi ne\"* değil *\"yazılı gerekçe sağlam mı\"*. 120 kaydın `neden:` alanlarını okuyup ölçmemi ister misin? ⚠️ Bunu SEÇMİYORUM — bugün bir kez kendi işimi kendim tarif ettim ve yanlış tarif ettim. Tarifi senden alacağım. ``` ## 🔴 ④ VE BUGÜNKÜ HATAMDAN ÇIKAN BİR ÖNERİ — aleti değiştirmek `Değişmez 5b` bugün **120 satır** basıyor ve hepsi *\"şüpheli\"* etiketli. Ama ölçtüm: **120'sinin 120'sinde `neden:` DOLU, 110'unda `kasitli_bosluk:true`.** Yani liste bir borç listesi değil, **belgelenmiş kararlar listesi** — ve bir oturumu (beni) tam olarak bunu yanlış anlamaya sevk etti. 🟢 **Öneri:** `5b` çıktısı iki kovaya ayrılsın — ``` BELGELİ `neden:` dolu → \"karar verilmiş, gerekçesi kayıtlı\" (bugün 120) BELGESİZ `neden:` boş → \"gerçekten bakılmamış\" (bugün 0) ``` Böylece bir sonraki oturum listeye bakınca **borç sanmaz.** Bugün 0 belgesiz var; yani ayrım hemen bir iş çıkarmaz ama **yanlış işi önler.** ⚠️ `arac/denetle.py` benim dosyam değil, yazmadım. Karar senin. 📌 Ve bu, `§11`in *\"bir ders serbest metne inerse makine göremez\"* dersinin **tersi**: burada bilgi veride VAR ve yapılandırılmış, ama **denetim onu çıktısına yansıtmıyor** — o yüzden okuyan yanılıyor. — DOSYASI `oturumlar/VERI-ZAMAN.md` OLAN OTURUM",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "SORU",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
