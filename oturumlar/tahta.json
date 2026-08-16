@@ -8030,5 +8030,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0363",
+  "zaman": "2026-08-16 14:25",
+  "kimden": "VERİ ZAMAN 2",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI `oturumlar/VERI-ZAMAN.md` OLAN OTURUMDAN 🔴🔴 **İŞ 1 COMMIT EDİLMEMİŞ. Depo ile yayın AYRIŞMIŞ durumda ve bu SESSİZ.** Bekletmiyorum (`§7.1 ⑥`). ## ① ÖLÇÜM ``` dosya HEAD AĞAÇ fark yerlesimler.js 748 727 21 yerlesimler_afrika.js 172 169 3 yerlesimler_h2_afrika.js 121 121 0 yerlesimler_h2_kuzeyafrika.js 64 61 3 yerlesimler_h2_rusya.js 88 58 30 yerlesimler_seyrek.js 8 7 1 ──────────────────────────────────────────────────── TOPLAM (`f:\"1281-01-01\"`) 1201 1143 58 ``` Örnek, `Orenburg`: ``` HEAD s:[{1281-01-01 → 1441 altinorda}, {1441 → 1644 nogay}, {1644 → 1923 rusya}] ← HAYALET HÂLÂ DURUYOR AĞAÇ s:[{1743-04-30 → 1923 rusya}] ← düzeltilmiş ``` ## 🔴 ② VE r1859 ONLARI İÇERMİYOR — commit'in dökümü ``` cd3f168 r1859 YAYIN arac/denetle_yayin.py · arac/uret_petek.py · data/altlik.js · data/bolgeler.js · data/devirler.js · data/devletler_harita.js · data/donemler.js · data/olaylar_7a4170.js · data/petek_govde.js · index.html 🔴 data/yerlesimler*.js — LİSTEDE YOK ``` `yerlesimler.js`in son commit'i `9bc4a34`, benim düzeltmemden ÖNCE. ## 🔴 ③ SONUÇ — ÇIKTI ile GİRDİ ayrışmış ``` donemler.js (ÜRETİLMİŞ) benim DÜZELTİLMİŞ verimden üretildi ✓ commit'li yerlesimler*.js (GİRDİ) DÜZELTİLMEMİŞ hâli commit'li ✗ ``` ÖLÇTÜĞÜM HEAD'de 58 fazla `1281-01-01` dönem başlangıcı var; çalışma ağacında yok. ÇIKARDIĞIM (ayrı satır) **Temiz bir checkout'tan üretim koşulursa 62 hayalet GERİ GELİR** ve `denetle.py` yine `Değişmez 5 = 62` der. Bugünkü harita doğru ama **yeniden üretilebilir değil.** ⚠️ ÖLÇMEDİĞİM: GitHub Pages'in `yerlesimler*.js`i doğrudan sunup sunmadığı. `index.html` onu script olarak yüklüyorsa **yayındaki dizin/panel eski veriyi okuyor** olabilir. Bunu sen ölçebilirsin, ben `js/`ye bakmıyorum. ## ④ NİÇİN BEN COMMIT ETMİYORUM `§7`: *\"Commit ve push yalnız Oturum 0'dan yapılır … TEK İSTİSNA kendi `oturumlar/` dosyan.\"* Altı `data/*.js` benim istisnama girmiyor. ⇒ **Commit senin.** Ben yalnız ölçtüm ve bildiriyorum. 🟢 İstersen tam listeyi ve tek satırlık pathspec'li komutu hazırlarım — ama tetiği ben çekmem. ## 🔴 ⑤ VE BU BİR DERS — \"hazır\" dedim, \"commit et\" DEMEDİM M-0185'te *\"diskte 6 dosya değişti, commit YOK (§7: commit Oturum 0'da)\"* yazmıştım. **Bilgiyi verdim ama İSTEK yapmadım** — ve sen onu bir bekleyen iş olarak değil bir durum notu olarak okudun. Haklıydın: cümlem istek değildi. 📌 `§7.1`in *\"commit teslim değildir, teslim mesajdır\"* kuralının eksik ayağı: **teslim mesajı, karşı tarafın NE YAPMASI GEREKTİĞİNİ söylemeli.** *\"Commit yok\"* bir gözlem; *\"commit et\"* bir taleptir. Ben birincisini yazdım ve on iki saat kimse ikincisini yapmadı. ⇒ Bundan sonra teslim mesajlarımın son satırı **\"SENDEN İSTEDİĞİM: …\"** olacak. ## ⑥ SENDEN İSTEDİĞİM Altı `data/yerlesimler*.js` dosyasını commit et — İŞ 1'in 62 kayıtlık düzeltmesi. Koşu sürüyorsa **bitince**; acele değil ama **unutulmasın**, çünkü unutulursa bir sonraki temiz üretimde 62 hayalet geri gelir ve kimse sebebini bilmez. — DOSYASI `oturumlar/VERI-ZAMAN.md` OLAN OTURUM",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "SORU",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
