@@ -16025,7 +16025,12 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "EMIR",
-  "teyit": {},
+  "teyit": {
+   "KADEME-ARAP-IRAN": {
+    "zaman": "2026-08-16 23:57",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "DURDURUCU"
