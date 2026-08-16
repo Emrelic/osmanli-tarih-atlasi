@@ -771,6 +771,43 @@ def degismez1(Y):
 # göremez. Tavan yalnız yukarı doğru değil, AŞAĞI doğru da takip edilir.
 BEKLENEN_BOSLUK = 0
 
+# 🔴 BEYAN EDİLMİŞ BOŞLUKLAR — 16 Ağustos 2026
+#
+# `degismez1b` yalnız `bit:`i muaf tutuyor; `kasitli_bosluk` / `bos:`
+# alanlarını HİÇ OKUMUYOR. Bunu bir işçi oturum, koordinatörün verdiği
+# reçeteyi UYGULAMADAN ÖNCE kodu okuyarak buldu (M-0609) — reçete
+# *"boşlukları `kasitli_bosluk` ile kapat"* diyordu ve o çare `1b`yi
+# KAPATMAZDI. `§11`: *aracın söylediğini yapmadan önce aracın ne
+# ölçtüğünü anla.*
+#
+# ⇒ ÇARE YENİ BİR ALAN İCAT ETMEK DEĞİL (ölçüldü: aralık düzeyinde
+#   boşluk beyanı ne şemada ne veride var; `bos:` NOKTA düzeyinde ve
+#   "hangi ARALIK kasıtlı" diyemiyor). Çare, `1`/`1c` ikilisinde zaten
+#   kullanılan mekanizma: BELGELENMİŞ olanı BELGESİZ olandan ayırmak.
+#
+# ⚠️ VE BU BİR TAVAN DEĞİL, ADLI BİR LİSTEDİR. Çıplak tavan (`<= 3`)
+#   başka bir yerde doğan DÖRDÜNCÜ boşluğu üçüncüsü kapanınca gizler.
+#   Liste, ADI VE UÇLARI tutmayan her boşlukta öter.
+#
+# Üçünün ortak sebebi tek: Songhay 1591'de Tondibi'de yıkıldı ve Nijer
+# kavsinin ardılı kaynaklarda GÜN/YIL hassasiyetinde yazılı değil.
+# Massina (1818-1862) ve Toucouleur (1852-1893) künyeleri yazıldı ve
+# Cenne'yi kapsıyor; kalan aralıklar için kaynak SUSUYOR.
+# 📌 Ve bu, Emre'nin kendi talimatının haritadaki karşılığıdır:
+#   *"1281'de kayıtlı şehir ve devlet yoksa o dönemi DEVLETSİZ
+#    göstermek zorundayız."* Boyanmamış Nijer kavsi bir kusur değil,
+#   BEYANDIR.
+BEYAN_EDILEN_BOSLUK = {
+    ("Gao", "1700-01-01", "1898-01-01"),
+    # ⚠️ Bu satır İLK YAZILDIĞINDA `1700-01-01 → 1893-01-01`di ve nöbetçi
+    # onu ANINDA "BAYAT BEYAN" diye bildirdi: nokta oturumu `massina`
+    # (1818-1862) ve `tekrur` (1862-1893) dönemlerini yazmıştı, boşluk
+    # 193 yıldan 118 yıla inmişti. ⇒ Beyan listesinin kendisi de bayatlar
+    # ve bunu SÖYLEYEN bir dal olmadan bayatlığı görünmez.
+    ("Cenne (Djenné)", "1700-01-01", "1818-01-01"),
+    ("Cenne (Djenné)", "1591-04-13", "1596-01-01"),
+}
+
 
 def degismez1b(Y):
     """Pencereleri arasında sahipsiz aralık kalan yerleşimleri döker."""
@@ -2174,12 +2211,32 @@ def main():
                   f"tur:{y.get('tur') or '-'}")
 
     # Değişmez 1b — pencere arası boşluk (örneklemesiz; kesitlerin kaçırdığını yakalar)
-    bosluk = degismez1b(Y)
+    _hepsi1b = degismez1b(Y)
+    # BEYAN EDİLMİŞ olanı BEYAN EDİLMEMİŞTEN ayır — `1`/`1c` ikilisinin
+    # aynısı. Beyan listesi ADI VE İKİ UCU birlikte tutar; biri bile
+    # tutmazsa boşluk BEYANSIZ sayılır ve öter.
+    bosluk = [b for b in _hepsi1b
+              if (b[1], b[2], b[3]) not in BEYAN_EDILEN_BOSLUK]
+    _beyanli = [b for b in _hepsi1b
+                if (b[1], b[2], b[3]) in BEYAN_EDILEN_BOSLUK]
     durum1b = "✓" if len(bosluk) <= BEKLENEN_BOSLUK else "✗"
     if len(bosluk) > BEKLENEN_BOSLUK:
         ihlal = True
-    print(f"Değişmez 1b {durum1b}  pencere arası boşluk: {len(bosluk)} "
-          f"(beklenen {BEKLENEN_BOSLUK}) — örnekleme YAPILMAZ, tam tarama")
+    print(f"Değişmez 1b {durum1b}  BEYANSIZ pencere arası boşluk: "
+          f"{len(bosluk)} (beklenen {BEKLENEN_BOSLUK}) · beyanlı "
+          f"{len(_beyanli)}/{len(BEYAN_EDILEN_BOSLUK)} — tam tarama")
+    if len(_beyanli) < len(BEYAN_EDILEN_BOSLUK):
+        # 🔴 Beyan edilmiş ama ARTIK VAR OLMAYAN boşluk = BAYAT BEYAN.
+        # Kapanmış bir boşluğun listede kalması, yarın aynı yerde doğacak
+        # GERÇEK bir boşluğu görünmez yapar.
+        _kalan = {b[1] + " " + b[2] for b in _beyanli}
+        for ad, bas, son in sorted(BEYAN_EDILEN_BOSLUK):
+            if ad + " " + bas not in _kalan:
+                print(f"            ⚠️ BAYAT BEYAN — {ad} {bas} → {son} "
+                      f"artık boşluk DEĞİL; BEYAN_EDILEN_BOSLUK'tan ÇIKAR "
+                      f"(yoksa aynı yerde doğacak gerçek boşluğu gizler)")
+    for gun, ad, bas, son in (_beyanli if args.ayrinti else _beyanli[:5]):
+        print(f"    🟢 beyanlı  {ad:<24} {bas} → {son}  ({gun} gün)")
     for gun, ad, bas, son in (bosluk if args.ayrinti else bosluk[:15]):
         print(f"    {ad:<28} {bas} → {son}  ({gun} gün sahipsiz)")
     if bosluk:
