@@ -77,6 +77,9 @@ window.KADEME_YAMA = [
   {ad:"Rafsencân", k:3, kaynak:"kirman", neden:"TDV Kirman sehristan listesi: 'RAFSENCAN' — sehristan, MODERN paragraf ⇒ bir kademe ASAGI"},
   {ad:"Cîruft", k:3, kaynak:"kirman", neden:"TDV Kirman sehristan listesi: 'Sebzeveran (CIRUFT)' — sehristan, MODERN paragraf ⇒ bir kademe ASAGI"},
   {ad:"Buraymî", k:2, kaynak:"uman", neden:"TDV: 'Uman Sultanligi ... dort MUHAFAZAYA (Maskat, Zafar, Musendem, BUREYMI)' — muhafaza, sultanligin ikinci kademesi"},
+  {ad:"Tatta (Thatta)", k:1, kaynak:"sind", neden:"TDV: '1591'de MERKEZI TATTA (Thatta) OLAN Asagi Sind zaptedilmek suretiyle Baburlu topraklarina katildi' — menzil ICINDE bir eyalet merkezi, asagi cekilmedi"},
+  {ad:"Kâbil", k:2, kaynak:"afganistan", neden:"TDV: 'en onemlileri KABIL, Kandehar, Herat ... IDARI BOLGELERIDIR' (modern). Durrani basshehirligi (1776) icin ACIK cumle BULUNAMADI ⇒ bir kademe ASAGI"},
+  {ad:"Gazne", k:2, kaynak:"afganistan", neden:"TDV: 'GAZNE SEHRI MERKEZ OLMAK UZERE Gazneli Devleti'ni kurdular' — ama devir 10. yy, menzil ONCESI ⇒ bir kademe ASAGI"},
   {ad:"Nizva", k:2, kaynak:"uman", neden:"TDV: 'NIZVA, Izki ve Semail, Ibazi IMAMLARIN yasadigi ve Maskat yonetiminden AYRILDIKLARI yerler olarak kaldi' — imamet merkezi, ama cumle 'basshehir' demiyor ⇒ bir kademe ASAGI"},
   {ad:"Köhne Ürgenç (Gürgenç)", k:2, kaynak:"hive-hanligi", neden:"TDV: 'XVI. yuzyil boyunca Arapsahlar URGENC'te oturdular' ve Ebulgazi Bahadir 'Urgenc'te han ilan edildi (1642)' — hanlik merkezi. ⚠️ TDV Kohne/Yeni Urgenc AYRIMI YAPMIYOR; Yeni Urgenc 1646'da kuruldugu icin 16. yy ve 1642 kayitlari KOHNE Urgenc'e aittir, ama bu bizim cikarimimiz ⇒ bir kademe ASAGI"},
 
@@ -167,4 +170,5 @@ window.KADEME_YAMA = [
   {ad:"Ağordat", kaynak:"bulunamadi", neden:"kaynak susuyor — TDV'de madde ARANDI, yok. Denenen sluglar: KAPSAYICI: eritre — TDV yazimiyla 'Agordat' 1 KEZ, yalniz somurge OKULLARI baglaminda, MERTEBE beyani YOK"},
   {ad:"Karşi (Nahşeb)", kaynak:"bulunamadi", neden:"kaynak susuyor — TDV'de madde ARANDI, yok. Denenen sluglar: KAPSAYICI: buhara — sadelestirilmis esleme 8 VURUS verdi ama SEKIZI DE SAHTE: eslesen sey Turkce 'karsi' EDATIYDI ('Mahan'a KARSI ayaklandilar'). 'Nahseb' 0 KEZ. Gercek gecis YOK"},
   {ad:"Küngrat", kaynak:"bulunamadi", neden:"kaynak susuyor — TDV'de madde ARANDI, yok. Denenen sluglar: KAPSAYICI: hive-hanligi — 1 VURUS ama SAHTE: 'Ilgili Maddeler' GEZINME bloğunda, madde GOVDESINDE degil"},
+  {ad:"Karaçi", kaynak:"bulunamadi", neden:"kaynak susuyor — TDV'de madde ARANDI, yok. Denenen sluglar: KAPSAYICI: sind — ad GECIYOR ve IDARI: 'eyaletin merkezi Karaci 1959'a kadar Pakistan'in basshehri olarak kaldi'. AMA cumlenin tamami 1947 SONRASI, atlas menzili 1923'te bitiyor ⇒ MENZIL ICI mertebe icin kaynak SUSUYOR"},
 ];
