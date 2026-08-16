@@ -53,6 +53,23 @@
 //
 // 3 KM KURALI: en yakın kayıt Colonia del Sacramento (-34.4738,-57.8412,
 // yerlesimler_amerika.js'te), aradaki mesafe ~47 km — ihlal yok.
+//
+// ═══════════ İKİNCİ TUR — Panama City + Guayaquil (Emre'nin isteği) ═══════
+// TDV kapısı: "amerika" maddesi (T. Ahmet Ertek / Rıza Kurtuluş, II. TARİH)
+// TAM METNİ okundu. İkisini de yalnız GEÇİŞTE anıyor:
+//   "...1513'te Panama kıstağına ulaştılar..." · "...1530'da Panama'dan
+//   ayrılan İspanyol Pizarro..." — Panama City'nin KURULUŞ tarihi YOK.
+//   Guayaquil hiç geçmiyor (TDV arama: "guayaquil için madde başlıklarında
+//   0 sonuç"). ⇒ TANECİKLİK BOŞLUĞU, §4 gereği akademik kaynağa geçildi.
+// Kaynak: Encyclopaedia Britannica ("Panama City", "Guayaquil" maddeleri,
+// erişim 16 Ağustos 2026) — M-0391'de koordinatörün sınıflandırmasıyla
+// "SARI (Vikipedi sınıfı)": tek dayanak değil ama yönlendirici, muhafazakâr
+// tarafta kalındı (yanlışsa kayıp birkaç kayıt, tersi kayıt kirletirdi).
+//
+// 🔴 İKİ YENİ KÜNYE BORCU DAHA — mevcut 32'lik listeye EK:
+//   panama-cumhuriyeti  (1903-11-03 → 1923-10-29, Kolombiya'dan ayrılık)
+//   (Guayaquil YENİ künye gerektirmiyor — Quito'nun zaten kullandığı
+//    ispanyol-peru/gran-kolombiya/ekvador-cumhuriyeti zincirini paylaşıyor.)
 
 window.YERLESIMLER_0EE15E = [
 
@@ -67,5 +84,64 @@ window.YERLESIMLER_0EE15E = [
 // k gerekçesi: 1776'dan Río de la Plata Genel Valiliği'nin, 1810'dan
 //         Arjantin'in başkenti — bölgenin en yüksek kademeli şehri, k:1
 //         (Lima/Havana ile aynı tier).
+
+{ ad:"Panamá (Panama City)", tur:"sehir", lat:8.9824, lon:-79.5199, g:1, k:1, kur:"1519-08-15",
+  s:[{f:"1519-08-15",t:"1821-11-28",d:"ispanyol-peru"},
+     {f:"1821-11-28",t:"1831-01-01",d:"gran-kolombiya"},
+     {f:"1831-01-01",t:"1903-11-03",d:"kolombiya-cumhuriyeti"},
+     {f:"1903-11-03",t:"1923-10-29",d:"panama-cumhuriyeti"}] },
+// kaynak: Encyclopaedia Britannica "Panama City" md. — "The old city (Panamá
+//         Viejo) was founded in 1519 by Gov. Pedro Arias Dávila" (15 Ağustos,
+//         Meryem'in Göğe Yükselişi bayramı — Panamá Viejo UNESCO kaydında da
+//         aynı tarih). 1671 Henry Morgan'ın yıkımı ve 1674'te ~8 km ötede
+//         yeniden inşası (Casco Viejo) AYRI kayıt AÇILMADI — Britannica'nın
+//         kendisi de tek şehir kimliğinin devamı olarak anlatıyor, İSPANYOL
+//         VARLIĞI hiç kesilmedi (kışlak/ostrog vakasından farklı: burada
+//         GERÇEK bir devletsizlik penceresi yok). Koordinat modern şehir
+//         merkezine (Casco Viejo yakını) ait.
+//         1751: "the city and area became part of the Viceroyalty of New
+//         Granada" — ama Quito kaydıyla TUTARLILIK için `ispanyol-peru`
+//         1821'e kadar SÜRDÜRÜLDÜ (Quito da aynı basitleştirmeyi taşıyor,
+//         viceroyalty geçişi ayrı künyeye dönüştürülmedi).
+//         1821-11-28: Panama'nın İspanya'dan bağımsızlık ilanı ve GÖNÜLLÜ
+//         Gran Kolombiya'ya katılımı — bugün Panama'nın resmî "Bağımsızlık
+//         Günü", genel akademik/ansiklopedik konsensüs, tarihi tartışmasız.
+//         1831-01-01: `kolombiya-cumhuriyeti` künye taslağının KENDİ f:
+//         tarihiyle hizalandı (ILERLEME.md §③).
+//         1903-11-03: Britannica — "In 1903 independence from Colombia was
+//         declared there" — Kolombiya'dan ayrılığın genel bilinen tarihi.
+// 🔴 YENİ KÜNYE BORCU: `panama-cumhuriyeti` devletler.js'te YOK, mevcut
+//         32'lik taslağa dahil değildi — TAHTAYA bildirilecek.
+// k gerekçesi: Real Audiencia de Panamá'nın sömürge dönemi başkenti, kıtalar
+//         arası ticaret kavşağı (İspanya'nın Peru gümüşünü Avrupa'ya taşıdığı
+//         güzergâh) — k:1, Havana ile aynı tier.
+
+{ ad:"Guayaquil (Santiago de Guayaquil)", tur:"sehir", lat:-2.1894, lon:-79.8890, g:1, k:1, kur:"1538-07-25",
+  s:[{f:"1538-07-25",t:"1822-05-24",d:"ispanyol-peru"},
+     {f:"1822-05-24",t:"1830-05-13",d:"gran-kolombiya"},
+     {f:"1830-05-13",t:"1923-10-29",d:"ekvador-cumhuriyeti"}] },
+// kaynak: Encyclopaedia Britannica "Guayaquil" md. — "The original Spanish
+//         settlement was founded in the 1530s ... by Sebastián de Belalcázar
+//         ... but Indians destroyed it twice. In 1537 [bazı kaynaklarda 1538]
+//         the Spanish explorer Francisco de Orellana established the town at
+//         its present location, naming it Santiago de Guayaquil in honour of
+//         Santiago (St. James, on whose feast day it was founded)" — Santiago
+//         bayramı 25 Temmuz'dur, `kur:` bu yüzden 1538-07-25. 1530'lar
+//         Belalcázar kuruluşu İKİ KEZ yıkıldı — TERK EDİLDİ, `kur:` DEĞİL
+//         (projenin "kışlak/ostrog" ayrımıyla aynı mantık: geçici/başarısız
+//         ilk teşebbüs ≠ kalıcı kuruluş).
+// ⚠️ BİLİNEN BASİTLEŞTİRME — açıkça işaretli: Guayaquil kendi başına
+//         9 Ekim 1820'de İspanya'dan bağımsızlığını ilan etti ("Özgür
+//         Guayaquil Vilayeti", ~1,5-2 yıl fiilen ayrı durdu) ve TAM Gran
+//         Kolombiya'ya katılımı 1822 Temmuz'unda (Bolívar-San Martín
+//         Guayaquil Konferansı, 26 Temmuz 1822) netleşti. Bu ARA DÖNEM
+//         AYRI bir kimlik/boşluk kaydı GEREKTİRİR ama işlenmedi — mevcut
+//         `data/yerlesimler_amerika.js`teki Quito kaydıyla (aynı Real
+//         Audiencia, `ispanyol-peru→gran-kolombiya` kırılması 1822-05-24
+//         Pichincha Muharebesi) TUTARLILIK için AYNI tarih kullanıldı.
+//         Aynı sınıf basitleştirme dosyanın kendi §④ maddesi 5'te de var
+//         (Río de la Plata/Artigas, "HÂLÂ AÇIK — ayrı bir kimlik gerektirir").
+// k gerekçesi: Ekvador'un en büyük limanı/ekonomik merkezi, Quito ile
+//         rekabet eden ikinci kutup — k:1.
 
 ];
