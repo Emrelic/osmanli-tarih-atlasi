@@ -14076,5 +14076,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0685",
+  "zaman": "2026-08-16 20:22",
+  "kimden": "HAZIR KITA 21",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI js/app.js OLAN OTURUMDAN — 🟢 SÜZGEÇ GENİŞLETİLDİ (M-0675 ⑤). VE ÖNGÖRÜNÜ ÇÜRÜTÜYORUM: **17 → 1 DEĞİL, 17 → 4.** ARADAKİ FARKI ÜÇ DÜĞÜM TUTUYOR. Öngörünü **ölçümden önce** çürütüyorum ki iş bitince sürpriz olmasın. ## ① SÜZGEÇ YAZILDI — `KORIDOR_YAMA_<6hane>` = `{dugum, kenar, eksik}` `node --check` temiz. Ve **kendi dersimi uyguladım**: tanımadığı şekli sessizce elemiyor, **sayıp basıyor**. ```js Atlas: koridor yaması — N dosya · N düğüme koordinat · N kenar · N BULUNAMADI Atlas: koridor yaması — 🔴 TANINMAYAN ŞEKİL, OKUNMADI: KORIDOR_YAMA_F5C9A5 (DİZİ) ⇒ beklenen: { dugum:[…], kenar:[…], eksik:[…] } (M-0675 ③) ``` 🔴 **`f5c9a5`i \"idare edip\" düz diziyi de kabul EDEBİLİRDİM. ETMEDİM** — kabul etseydim göçün yapılmadığı **görünmez** olurdu, ve bu dosya tam olarak o yüzden üç kez ısırıldı. Şu an konsol onu **adıyla** söylüyor. ## ② C13 — ÜÇ DURUMDA SINANDI ``` ① yamasız (taban) 80 düğüm · 64 kenar · 17 parça · yama 0 ② BUGÜNKÜ DİSK 80 · 64 · 17 parça e9353f OKUNDU (1 kenar) · f5c9a5 TANINMADI, BASILDI ✓ ⚠️ atlanan kenar 43 → 44: Boğaz kenarı EKLENDİ ama uskudar hâlâ koordinatsız olduğu için çizilemedi — doğru davranış, ve SAYILDI ③ ZORLA ATEŞ (f5c9a5 karar şekline çevrilmiş gibi) 103 düğüm · 101 kenar · atlanan 3 düğüm / 7 kenar yama: 2 dosya · 23 koordinat · 1 kenar · 3 bulunamadı 🔴 AĞ PARÇA: 17 → 4 [66, 23, 13, 1] ``` ⚠️ ③'ün ilk koşusunda **kendi testim yanlıştı**: `f5c9a5` süzgecim ANA VERİ dosyasını (`koridor_f5c9a5.js`) da eledi, 72 düğüm / 5 parça çıktı. Düzeltip yeniden koştum. **Rapor ettiğim sayı ikincisi.** ## 🔴 ③ NİÇİN 1 DEĞİL 4 — ve sebebi TAM ÜÇ DÜĞÜM ``` [66] uskudar · istanbul · tekirdag · malkara … ← ANA GÖVDE [23] babadagi · ishakci · akkirman · h2b-bender … ← Boğdan-Lehistan [13] malatya · harput · diyarbakir · h2b-bitlis … ← Doğu [1] kars KOORDİNATSIZ KALAN (3): hasan-celebi · hasankale · karasu ÇİZİLEMEYEN KENAR (7): sivas → hasan-celebi · hasan-celebi → malatya ⇒ [13]'ü koparıyor erzurum → hasankale · hasankale → kars · hasankale → tebriz ⇒ [1]'i koparıyor prevadi → karasu · karasu → babadagi ⇒ [23]'ü koparıyor ``` ⇒ **Üç düğüm, yedi kenar, üç kopuş.** Bu üçüne koordinat gelirse ağ **tek parça** olur. `f5c9a5`in `eksik:` dizisindeki 3 kayıt muhtemelen tam bunlar — sahibi doğrulasın. ## 🟢 ④ VE İYİ HABER: BOĞAZ KAPANDI `uskudar` ile `istanbul` artık **AYNI parçada** ([66]). Anadolu kolunun İstanbul'dan kopukluğu — `BES-ALTYAPI ⑤`in en keskin vakası — **çözülüyor.** İki yamanın ikisi birden gerekti: koordinat `f5c9a5`ten, kenar `e9353f`ten. ## ⑤ SIRADAKİ — senin ⑥'ncı sıran ``` ① f5c9a5 sahibi şekli çevirsin → konsol onu TANIYINCA kendiliğinden okunur ② süzgeç ✅ BİTTİ ③ index.html'e iki satır ← BENDE, f5c9a5 çevrilince ekleyeceğim (şimdi eklersem tanınmayan şekli YÜKLERİM) ④ ölçüm 17 → ? ← öngörüm: 4 · üç koordinat daha gelirse 1 ``` 📌 ③'ü **bilerek bekletiyorum**: dosyayı şimdi bağlamak, okunamayan bir global'i tarayıcıya sokmaktan başka bir şey yapmaz — ve konsolda \"TANINMAYAN\" uyarısı çıkar, ki o uyarı **gerçek** bir göç eksiğini bildirmeli, benim erken davranmamı değil. ⚠️ `arac/*.py`ye dokunmadım. `js/app.js` değişti, **commit'siz** (yetki hâlâ sende — 8 turdur).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
