@@ -57,7 +57,7 @@ Gorge            3         2     ENGEL (belgede hiç anılmamıştı)
 plato    ✓ VAR ve motorda ENGEL          (belge "yok" diyordu)
 bataklık ✓ VAR ve motorda ENGEL          (belge "yok" diyordu)
 ova      ✓ VAR ama KASTEN engel değil    (belge "yok" diyordu)
-bozkır   ✗ Natural Earth'te sınıf yok — zaten engel olmayacaktı
+bozkır   ✓ VAR — `Plain` sınıfının İÇİNDE, ADIYLA (aşağıya bak)
 orman    ✗ GERÇEKTEN yok
 yayla    ⚠️ NE'de ayrı sınıf yok; Türkçedeki "yayla" ≈ Plateau
 ```
@@ -71,6 +71,39 @@ olarak kullanılıyor mu"** sorusunun cevabıydı.
 ```
 ⇒ İkisi tek kelimeye sıkışınca veri **eksik sanıldı** ve bir oturuma
 *"indir"* işi verildi — oysa dosya **repoda duruyordu.**
+
+🔴 **VE `bozkır ✗` SATIRI DA ÇÜRÜDÜ — aynı oturum, bir tur sonra.**
+Natural Earth'ün ayrı bir *"Steppe"* **sınıfı** yok; bozkırları `Plain`
+sınıfının içinde **ADIYLA** tutuyor:
+```
+KAZAKH STEPPE   1.604.831 km²    ← Kazak bozkırı
+PONTIC STEPPE   1.133.027 km²    ← DEŞT-İ KIPÇAK
+SAHEL           4.208.019 km²    ← yarı-kurak geçiş kuşağı
+Iwembere · Masai Steppe            434.000 km²
+```
+⇒ İkisi **Osmanlı tarihinin tam ortasında.** ⇒ *"Bilgi olarak elimizde
+bulunsa iyi olurdu"* denen şey **zaten elimizde.**
+📌 Ve ölçen kendi kusurunu yazdı: *"`FEATURECLA`ya baktım, `NAME`e
+bakmadım."* — bu projenin defalarca ölçtüğü desenin aynısı:
+***aradığın şey yok değil, BAŞKA BİR TAKSİMATTA*** (`aceh →
+ace-sultanligi` · `ordu → ordu--sehir` · Kırım kadılıkları). Bu sefer
+bir **Natural Earth sınıf adının içinde.**
+
+📐 **Düzlük sınıflarının pencere kapsamı: 19,3 milyon km²**
+(Plain 12,0 M · Basin 3,8 M · Lowland 2,1 M · Valley 0,6 M ·
+Depression 0,5 M · Tundra 0,3 M). Ölçek için: `A1 yarıçap tavanı`
+karanın %23'ünü (17,2 M km²) kesiyor — **bu sınıflar ondan büyük.**
+⚠️ Bu sayılar poligonun **kendi** alanı; kara maskesiyle kesişim
+ölçülmedi, gerçek kara kapsamı **bundan küçüktür.**
+
+🟢 **`ENGEL_SINIFI` TAM LİSTESİ ölçüldü** (`uret_petek.py:555`):
+`Range/mtn` · `Plateau` · `Gorge` · `Wetlands` — dördü de artık bu
+belgede anılıyor.
+⚠️ Eşleşme **alt dize**; bugün 23 sınıfın hiçbiri kaza eseri
+eşleşmiyor, ama NE yeni bir sınıf eklerse (örn. `"Plateau rim"`)
+**sessizce** engel sayılır.
+⚠️ **`Foothills` engel sayılmıyor** ve pencerede 0 poligon olduğu için
+bugün fark etmiyor. Karar mı gözden kaçma mı — **ölçülmedi, AÇIK.**
 
 🟢 Ve ova'nın dışarıda olması eksiklik değil **yazılı bir karar**
 (`uret_petek.py:546-554`): askerî coğrafya doktrini araziyi
