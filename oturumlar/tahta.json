@@ -6228,7 +6228,12 @@
   },
   "yanit_no": "M-0266",
   "cins": "EMIR",
-  "teyit": {},
+  "teyit": {
+   "KADEME-ARAP-IRAN": {
+    "zaman": "2026-08-16 03:37",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "ALTYAPI 1.1b kademe=agirlik · Kirim 48 kadilik",
   "aciliyet": "ACIL"
