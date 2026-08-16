@@ -1,7 +1,7 @@
 
 ---
 
-# EK — KALAN 399 NOKTANIN İŞ LİSTESİ (devir için)
+# EK — KALAN 392 NOKTANIN İŞ LİSTESİ (devir için)
 
 Karar beklerken hazırlandı ve **karardan bağımsız olarak** değerli:
 her noktanın yanında **onu tutan devlet(ler)** yazıyor. Bu bilgi zaten
@@ -11,12 +11,11 @@ veride vardı ve kademe araştırmasının ilk adımını kısaltıyor —
 ⚠️ **Bu liste bir HÜKÜM DEĞİL, bir BAŞLANGIÇ NOKTASI.** Devlet kimliği
 kademeyi vermez; yalnız hangi künyenin/kaynağın kapısını çalacağını söyler.
 
-### HİNDİSTAN + Seylan + Nepal — 64 nokta
+### HİNDİSTAN + Seylan + Nepal — 60 nokta
 
 ```
 Attock                           Bâbürlü (Timurlu-Hint) İmparatorluğu · Afşar Devleti (Nadir Şah) · Dürrânî
 Bangalor                         Vijayanagara İmparatorluğu · Âdilşâhî Sultanlığı (Bîcâpûr) · Meysûr Sultan
-Belh                             Çağatay Hanlığı · Timurlu Devleti · Buhara Hanlığı / Emirliği
 Bhuc (Kutch)                     Racput Devletleri (Mevar, Mârvâr, Amber, Bikaner)
 Bhâgalpûr                        Delhi Sultanlığı · Bengal Sultanlığı · Sûrîler (Sûr Hânedanı)
 Bikaner                          Racput Devletleri (Mevar, Mârvâr, Amber, Bikaner)
@@ -29,7 +28,6 @@ Etâve (Etawah)                   Delhi Sultanlığı · Bâbürlü (Timurlu-Hin
 Evrengâbâd                       Nizamşâhî Sultanlığı (Ahmednagar) · Bâbürlü (Timurlu-Hint) İmparatorluğu ·
 Gauhâtî (Guwahati)               Ahom Krallığı (Assam) · Konbaung Hanedanı (Birmanya) · İngiliz Hindistanı 
 Gayâ                             Delhi Sultanlığı · Bengal Sultanlığı · Sûrîler (Sûr Hânedanı)
-Gazne                            Çağatay Hanlığı · Timurlu Devleti · Bâbürlü (Timurlu-Hint) İmparatorluğu
 Goa                              Yadava Hanedanı (Devagiri) · Delhi Sultanlığı · Behmenî Sultanlığı (Dekken
 Gorakhpûr                        Delhi Sultanlığı · Cavnpur (Jaunpur) Sultanlığı — Şarkî Hanedanı · Bâbürlü
 Gvalyar (Gwalior)                Delhi Sultanlığı · Racput Devletleri (Mevar, Mârvâr, Amber, Bikaner) · Bâb
@@ -37,14 +35,12 @@ Gyantse                          Yuan Hanedanı (Moğol Çin) · Tibet (Phagmodr
 Hisâr-ı Fîrûze                   Delhi Sultanlığı · Bâbürlü (Timurlu-Hint) İmparatorluğu · Sûrîler (Sûr Hân
 Hûglî (Hooghly)                  Delhi Sultanlığı · Bengal Sultanlığı · Sûrîler (Sûr Hânedanı)
 Kanbâyet (Khambhat)              Racput Devletleri (Mevar, Mârvâr, Amber, Bikaner) · Delhi Sultanlığı · Guc
-Kandehar                         Çağatay Hanlığı · Timurlu Devleti · Bâbürlü (Timurlu-Hint) İmparatorluğu
 Kannauc                          Delhi Sultanlığı · Cavnpur (Jaunpur) Sultanlığı — Şarkî Hanedanı · Bâbürlü
 Kannûr (Cannanore)               Kalikut Zamorinliği · Portekiz Krallığı · Hollanda Cumhuriyeti
 Kolam (Quilon)                   Travankur Krallığı (Venâd) · Portekiz Krallığı · Hollanda Cumhuriyeti
 Kolhapûr                         Yadava Hanedanı (Devagiri) · Delhi Sultanlığı · Behmenî Sultanlığı (Dekken
 Kolombo                          Seylan Sinhala Krallıkları (Portekiz Öncesi) · Portekiz Krallığı · Holland
 Kurnûl (Kurnool)                 Kakatiya Hanedanı (Warangal) · Delhi Sultanlığı · Behmenî Sultanlığı (Dekk
-Kâbil                            Çağatay Hanlığı · Timurlu Devleti · Bâbürlü (Timurlu-Hint) İmparatorluğu
 Ludhiyana                        Delhi Sultanlığı · Bâbürlü (Timurlu-Hint) İmparatorluğu · Sûrîler (Sûr Hân
 Mangalor                         Hoysala Hanedanı · Vijayanagara İmparatorluğu · Nâyak Beylikleri (Madurai,
 Masulipatnam                     Kakatiya Hanedanı (Warangal) · Delhi Sultanlığı · Behmenî Sultanlığı (Dekk
@@ -389,7 +385,7 @@ Yeni Gine İç Yaylaları (Batı — Baliem Vadisi) — (kimliksiz)
 Zamboanga                        Filipin Racalıkları (Tondo, Maynila, Cebu, Butuan) · İspanya (Kastilya-Ara
 ```
 
-### KÜMEYE GİRMEYEN — 46 nokta
+### KÜMEYE GİRMEYEN — 43 nokta
 
 ```
 Aigun                            Qing Hanedanı (Mançu) · Çin Cumhuriyeti
@@ -400,7 +396,6 @@ Andican                          Çağatay Hanlığı · Timurlu Devleti · Buha
 Barnaul                          Cungar Hanlığı (Kalmuk) · Rusya Çarlığı / İmparatorluğu
 Biysk                            Cungar Hanlığı (Kalmuk) · Rusya Çarlığı / İmparatorluğu
 Blagoveşçensk                    Rusya Çarlığı / İmparatorluğu · Qing Hanedanı (Mançu)
-Buhara                           Çağatay Hanlığı · Timurlu Devleti · Buhara Hanlığı / Emirliği
 Cizzah                           Çağatay Hanlığı · Timurlu Devleti · Buhara Hanlığı / Emirliği
 Cungarya havzası                 Çağatay Hanlığı · Moğulistan (Doğu Çağatay Hanlığı) · Cungar Hanlığı (Kalm
 Habarovka                        Qing Hanedanı (Mançu) · Rusya Çarlığı / İmparatorluğu
@@ -421,9 +416,7 @@ Nikolayevsk (Amur ağzı)          Qing Hanedanı (Mançu) · Rusya Çarlığı 
 Omsk                             Rusya Çarlığı / İmparatorluğu
 Oş                               Çağatay Hanlığı · Timurlu Devleti · Buhara Hanlığı / Emirliği
 Pavlodar (Koryakov)              Cungar Hanlığı (Kalmuk) · Rusya Çarlığı / İmparatorluğu
-Semerkant                        Çağatay Hanlığı · Timurlu Devleti · Buhara Hanlığı / Emirliği
 Semipalatinsk                    Cungar Hanlığı (Kalmuk) · Rusya Çarlığı / İmparatorluğu
-Taşkent                          Çağatay Hanlığı · Timurlu Devleti · Buhara Hanlığı / Emirliği
 Termez                           Çağatay Hanlığı · Timurlu Devleti · Buhara Hanlığı / Emirliği
 Türkistan (Yesi)                 Çağatay Hanlığı · Timurlu Devleti · Buhara Hanlığı / Emirliği
 Udskoy ostrogu                   Rusya Çarlığı / İmparatorluğu
