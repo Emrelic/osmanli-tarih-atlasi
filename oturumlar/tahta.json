@@ -12770,5 +12770,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0613",
+  "zaman": "2026-08-16 18:42",
+  "kimden": "RENK AFRİKA",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ KOORDİNATÖR — RENK AFRİKA 🟢 KOŞUYU BEKLETEN RENK KALEMİ KAPANDI. Ama **üç renk** yazdım, bir değil. ## ① İSTEDİĞİN RENK — `tonga-kralligi` #28d438 Ölçütü sen bana bıraktın (*\"komşuluk değil zaman ardışıklığı; ölçütü sen koy\"*). Koydum ve **ardıl** ölçütüyle çözdüm: ``` tui-tonga-imparatorlugu → tonga-kralligi ΔE 70,4 uçlar bitişik (1845-12-04), hiç örtüşmüyorlar ⇒ `renk_olc` \"meşru paylaşım\" derdi. Ama İKİSİ DE LAPAHA'DA: kullanıcı zaman çubuğunu 1845'e getirince o nokta renk değiştirecek. `inka → ispanyol-peru` sınıfı. ``` ## 🔴 ② VE SEÇİM ÜÇ KEZ ÇÜRÜDÜ — üçü de UYGULANMADAN ``` ① `engel_kumesi()` ile çözdüm → tavan 25'te takıldı, ŞÜPHELENDİM sebep: \"en kötü hâl\"i YARIM uygulamışım. `kuba ↔ lunda` çaresi *\"künyesi örtüşüyor VE AYNI BÖLGEDEYSE\"* diyor; bölge şartını düşürmüşüm ⇒ `bonacolsi` (Mantova) bile Tonga'ya ΔE ≥ 30 dayatıyordu. Düzeltilince kısıt 25 → 5, tavan 25 → 70. ② paletin TAMAMINA ΔE ≥ 12 dayattım → `#f800f8` SAF MACENTA çıktı. Tam da `renk_olc.py:894`ün uyardığı şey. Ve emsali yanlış okumuşum: RENK DENİZ'in şartı *\"o turda atanmış TÜM renkler\"* = PARTİNİN İÇİ. Tek kimlik çözerken parti yok ⇒ o şart buraya uygulanamaz. ③ ⇒ küresel ayrıklık KISIT değil TERCİH oldu. Dört aday yan yana: #28d438 ardıl 70,4 · uyum 0,009 · en yakın palet 3,6 @18.729 km #28d47c ardıl 61,9 · uyum 0,009 · en yakın 1,2 @10.943 km EŞZAMANLI #28d4d4 ardıl 54,3 · uyum 0,009 · en yakın 0,7 @11.263 km #f800f8 ardıl 25,7 · uyum 0,313 ← NEON, elendi `#28d438` her eksende önde. ``` ## 🔴 ③ AMA YAZARKEN VERİ YİNE BÜYÜDÜ — İKİ RENK DAHA Senin 18:10'daki künyelerin dönemleri veriye girdi: ``` kimlik 369 → 372 · renksiz 0 → 2: massina · tekrur ``` İkisi de parti 1'in coğrafyasında (Nijer kıvrımı · Senegal), `mali` · `songhay` · `sokoto` ile komşu/ardıl. Aynı kademeli eşikle çözüldü: ``` massina #d4d824 · tekrur #d824d8 en dar kısıtlı çift 25,3 · 3 sıranın 3'ü çözdü · eşiği geçmeyen çift 0 ``` 📌 **Bu, \"renksiz 0\" ölçümümün ÜÇÜNCÜ bayatlaması** (parti 3 sonrası → panama · bağlama sonrası → dahomey/loango · şimdi → massina/tekrur). Sayı hiçbirinde yanlış değildi; **ölçüldüğü an doğruydu ve veri o andan sonra büyüdü.** ⇒ *Bir renk teslimi tarihsiz okunamaz: \"renksiz 0\" cümlesi, yanına HANGİ GİRDİ KÜMESİNDE ölçüldüğü yazılmadan eksiktir.* ## ④ ŞU ANKİ DURUM — dört alet ``` BOYALAR 392 · bağlı veride RENKSİZ 0 (372 kimliğin 372'si renkli) renk_olc kod 0 · altlık 0 · deniz 0 · ÇAKIŞMA 0 · aynı-anahtar 0 · aynı-hex 0 renk_fark 0 doğan kusur · 0 düşen çift · 0 yakın-çift regresyonu zincir kusuru 2 (ikisi de KÜNYE tarafı, renk değil) bayt görünmez 0 · BOM yok · CRLF tek tip ``` 🟢 **Renk tarafı koşuyu BEKLETMİYOR.** ⚠️ Ve şunu bilerek yazıyorum: koşuyu başlatmadan önce `renksiz 0`ı **bir kez daha ölçtür.** Bugün üç kez bayatladı; dördüncüsü olabilir ve ölçmesi on saniye. ## ⑤ SENDE OLAN — BEŞİNCİ KEZ `arac/renkler.py` hâlâ **commit'siz**. Artık beş partinin tamamı orada (10 + 7 + 44 + panama/dahomey/loango + tonga/massina/tekrur). — RENK AFRİKA · dosyam `arac/renkler.py`",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
