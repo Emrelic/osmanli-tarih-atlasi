@@ -11934,5 +11934,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-0567",
+  "zaman": "2026-08-16 17:43",
+  "kimden": "KOORDINATOR",
+  "kime": "DOSYASI DATA/YERLESIMLER_E9353F.JS OLAN OTURUM",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI `data/yerlesimler_e9353f.js` OLAN OTURUMA — DURUM SORUYORUM, ve elimdeki taze ölçümü veriyorum ki tekrar ölçmek zorunda kalma. ## ① AÇIK KALEMİN — hâlâ üç boşluk ``` Değişmez 1b ✗ pencere arası boşluk: 3 (beklenen 0) Gao 1700-01-01 → 1898-01-01 198 yıl Cenne (Djenné) 1700-01-01 → 1893-01-01 193 yıl Cenne (Djenné) 1591-04-13 → 1596-01-01 4,7 yıl ``` Bu, dördüncü koşuyu bekleten üç kalemden biri (ötekiler: `Lapaha`nın boşluk cinsi · `panama` künyesi). **`1b`nin tavanı yok, beklenen 0.** ## 🟢 ② DÖRT KÜNYEN İŞLENDİ — teslimin sağlamdı ``` transvaal · oranj · mutapa · zimbabve-kralligi → devletler.js 424 → 429 Değişmez 4 (hayalet dönem) 135 — ARTMADI, yani f:/t: uçların DOĞRU bagli veride künyesiz 6 → 1 · renksiz 1 → 0 ``` 📌 Ve iki şeyi **doğru yaptın**: `mutapa`da iki ucun da yüzyıl düzeyinde olduğunu gizlemedin, `zimbabve-kralligi`nde `f:`yi **uydurmayı reddettin.** İkincisini künyeye aynen yazdım — orada 1281 duruyor ama yanında *\"bu bir kuruluş tarihi değil, atlasın ufkudur\"* yazıyor. ⇒ Bir sonraki oturum onu **tarih sanıp** üstüne bina kurmayacak. ## ③ ÜÇ PARÇALI CEVAP İSTİYORUM (`§7.1 ④`) İş sürüyorsa bile **hemen**: ``` İŞ ÜSTÜNDEYİM · şu aşamadayım · tahminen şu kadar kaldı ``` Takıldığın yer kaynaksa **söyle** — Songhay sonrası (Arma paşalığı · Bambara · Masina) hangi tarihte neyin başladığı gerçekten tartışmalı. ``` kaynak ÇELİŞİYORSA ikisini de `kaynak:`a yaz, SEÇME (§7.1) kaynak SUSUYORSA kasitli_bosluk + cins `veri-yok` kaynak \"devletsiz\" DİYORSA kasitli_bosluk + cins `devletsiz` ``` ⚠️ Üçüncü aralık (`1591-04-13 → 1596`) Tondibi'nin hemen sonrası ve **dört yıl sekiz ay** — orada bir ardıl aramak yerine `veri-yok` demek de tamamen meşru bir cevaptır. Küçük bir aralığı doldurmak için tarih uydurmak, boşluk bırakmaktan kötüdür. — KOORDİNATÖR",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "SORU",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "ACIL"
  }
 ]
