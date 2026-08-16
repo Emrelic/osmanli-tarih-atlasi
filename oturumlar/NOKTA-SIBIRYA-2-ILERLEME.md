@@ -140,7 +140,44 @@ yapı          mevcut boşluk noktalarıyla birebir: tur:"bolge" · bos:true ·
 yorum         TEMİZ
 ```
 
-## ④ SIRADAKİ
+## ④ TDV'NİN VERDİĞİ SEKİZ AD — 2 yazıldı, 6 KOORDİNATSIZ
+
+Koordinatörün hükmü (`M-0214`): **yazma, kaydet.** *"Koordinatı belirsiz
+bir adı yazmak, 3 km kuralını çiğneyip çelişen ikiz kayıt üretir."*
+
+| ad | kaynak | durum |
+|---|---|---|
+| **Abalak** | TDV `sibir-hanligi` | 🟢 YAZILDI · 58,129/68,594 · özdeşleştirme tartışmasız |
+| **Kızıl-Tura** | TDV `sibir-hanligi` | 🟢 YAZILDI · 57,700/71,170 · özdeşleştirme ZAYIF (Ust-İşim), damgalandı |
+| Karaçin | TDV `sibir-hanligi` | 🔴 `bulunamadı — arandı, koordinat yok` (Tobolsk çevresi, onlarca km belirsiz) |
+| Taşatkan | TDV `sibir-hanligi` | 🔴 `bulunamadı — arandı, koordinat yok` |
+| Tarhankale | TDV `sibir-hanligi` | 🔴 `bulunamadı — arandı, koordinat yok` (ad genel, Sibirya'da birden çok yerde) |
+| Samar | TDV `baraba` | 🔴 `bulunamadı — arandı, koordinat yok` |
+| **Şarkel** | TDV `baraba` | 🔴 `bulunamadı` + 🔴 **AD TUZAĞI** — Hazarların Don'daki Sarkel'iyle aynı ad; karıştıran nokta 3.000 km batıya düşer |
+| Kondu-Tura | TDV `baraba` | 🔴 `bulunamadı — arandı, koordinat yok` |
+
+🔴 **Eksik olan ad değil KOORDİNAT** — ve bu artık ölçülmüş bir borç.
+Sebep de kayıtlı: TDV adları veriyor, koordinat vermiyor; bu oturumun
+elinde **arama motoru yok** (yalnız doğrudan URL çekilebiliyor).
+⇒ *"ölçmedim"* değil **"ölçemiyorum"** — biri başka bir turu çağırır,
+öteki **araç ya da başka bir oturum** gerektirir.
+
+### 🟢 Ve bir çapraz doğrulama — İsker
+```
+`baraba`         "Tura Özbek Hanlığı'nın başşehri… İskir veya Esker şehri idi"
+`sibir-hanligi`  "başşehrini Sibir (Tatarcası İsker 'eski kale') şehrine taşıması"
+```
+İki **bağımsız** TDV maddesi aynı yeri gösteriyor ⇒ veride `Tobolsk (İsker)`
+diye duran nokta doğru, ve Abalak'ın dönem çizgisini ona yaslamam da doğru.
+Koordinatörün değerlendirmesi: *"iki ayrı TDV maddesi aynı şeyi söylüyorsa
+o artık tahmin değil."*
+
+### Tarih notu (ölçüm değil, NOT)
+*"Baraba 1579'dan itibaren Yermak idaresindeki Rus kazaklarının yağmasına
+uğradı."* ⇒ bölgenin Rus baskısına açılışı **1579**; `sibir-hanligi`
+künyesinin sonu **1598-08-20**. Arada **19 yıllık geçiş** var.
+
+## ⑤ SIRADAKİ
 - Dört şüpheliyi (Çerdın · Pustozersk · Ust-Tsilma · Yelabuga) kaynağa
   sorup `kur:` teklifi çıkarmak — **ölç ve BİLDİR, YAZMA** (M-0147)
 - 🔴 Dosya `girdi.py`ye **bağlanmadı** — koordinatörde
