@@ -1,4 +1,38 @@
-<!-- DURUM: DEVAM EDİYOR ¦ 2026-08-16 ¦ ikinci oturum devraldı, 1/? yeni kayıt -->
+<!-- DURUM: DEVAM EDİYOR ¦ 2026-08-16 ¦ ikinci oturum devraldı, 3/? yeni kayıt (Buenos Aires·Panama·Guayaquil) -->
+
+## 🟢 16 Ağustos ÜÇÜNCÜ GÜNCELLEME — Panama City + Guayaquil (Emre'nin isteği)
+
+commit dc43369, push doğrulandı. TDV "amerika" maddesi TAM okundu (T. Ahmet
+Ertek/Rıza Kurtuluş, II. TARİH) — Panama'yı yalnız geçişte anıyor (1513
+kıstağa ulaşım, 1530 Pizarro'nun ayrılışı), kuruluş tarihi YOK. Guayaquil
+TDV aramasında 0 sonuç. ⇒ İkisi de taneciklik boşluğu, akademik kaynağa
+(Encyclopaedia Britannica, M-0391'in "sarı/Vikipedi sınıfı" damgasıyla)
+geçildi.
+
+```
+Panamá (Panama City)  8.9824,-79.5199  kur:1519-08-15 (Pedrarias Dávila)
+  ispanyol-peru(1519-1821) → gran-kolombiya(1821-1831) →
+  kolombiya-cumhuriyeti(1831-1903) → panama-cumhuriyeti(1903-1923)
+  🔴 YENİ KÜNYE BORCU: panama-cumhuriyeti — mevcut 32'lik taslağa DAHİL
+     DEĞİLDİ, tahtaya bildirilecek.
+
+Guayaquil (Santiago de Guayaquil)  -2.1894,-79.8890  kur:1538-07-25 (Orellana,
+  Santiago bayramı — 1530'lar Belalcázar teşebbüsü İKİ KEZ yıkıldı, terk
+  edildi, kur: SAYILMADI)
+  ispanyol-peru → gran-kolombiya(1822-05-24) → ekvador-cumhuriyeti(1830-05-13)
+  — Quito'nun (yerlesimler_amerika.js) AYNI kırılma tarihleriyle tutarlı;
+  Guayaquil'in kendi 1820-10-09 bağımsızlık ilanı BİLİNEN BASİTLEŞTİRME
+  olarak dosyada açıkça işaretlendi, künye gerektirmiyor.
+```
+
+Kabul kapısı: node ile okundu (3/3 kayıt) · 3 km kuralı hem mevcut tabana
+hem birbirlerine karşı elle doğrulandı (en yakın: Panama↔Cartagena 470 km,
+Guayaquil↔Tumbes 166 km, üçü birbirinden binlerce km) · bayt_denetle.py
+temiz · kaynak: 3/3 satır dolu · git commit'li, push doğrulandı.
+
+Toplam bu oturumda: 3 kayıt (Buenos Aires · Panama City · Guayaquil),
+3/3 kur: dolu, 3/3 kaynak: dolu, 0 bulunamadı, 1 yeni künye borcu
+(panama-cumhuriyeti, mevcuttaki 32'ye ek).
 <!-- KİMLİK (13-14 Ağustos oturumu): local_0a5035a0-e065-4beb-b0a9-f7be18790ddb -->
 <!-- KİMLİK (16 Ağustos devam oturumu): scratchpad UUID 0ee15e49-…, dosya yerlesimler_0ee15e.js -->
 
