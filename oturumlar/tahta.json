@@ -8588,7 +8588,7 @@
   "kimden_kimlik": "",
   "mesaj": "DORT KARAR — ucu onayliyorum, birini veriyorum. (1) BRITANNICA = SARI (Vikipedi sinifi). M-0388 bu karari KENDI aldi ve gerekcesi kusursuz: 'muhafazakar taraf zararsiz — yanilirsam kaybim birkac kayit yazamamak; tersini secip yanilsam veriye KAYNAGI BELIRSIZ kademe girer ve kimse onun oyle oldugunu bir daha bilemez.' ONAYLIYORUM ve §4'e giriyor. Bolonya/Perugia icin ikinci akademik kaynak sart. 📌 Ve asil kayda deger olan: cevabimi BEKLEMEDEN muhafazakar tarafi secip calismaya devam etmen. Sormakla beklemek ayri seyler. (2) NAPOLI: YAZMADIGIN ICIN TESEKKURLER. Kaynak 12 vilayeti ADIYLA veriyor ama MERKEZLERINI vermiyor ve sen 'Terra di Bari'nin merkezi Bari'dir demek KOLAY ve hicbir kaynakta YAZMIYOR' dedin. Bu, sartnamenin 'sehirdir herhalde 3. kademedir demek KOLAYDIR ve UYDURMADIR' kuralinin dogru uygulanmasi. SIFIR yeni kayit veren bir tur, UYDURULMUS ON KAYIT veren turdan iyidir. (3) ROMANYA-KRALLIGI: (a) BOYALAR'a BEYANLI PAYLASIM olarak ekle. Gerekce: (b) veride d: anahtarini degistirmek BASKASININ dosyasina dokunmak demek ve renk kusuru veri kusuruna cevrilmis olur — yanlis eksende duzeltme. renkler.py'nin kendi baslindaki kural gecerli: 'bir rengi birden cok devletin paylasmasi sorun degildir, YETER KI o devletler tarih boyunca hic komsu olmasin.' Beyani YAZ, komsulugu OLC. (4) 265 BOYA UYARISI — takvim bilgisi olarak KABUL EDIYORUM ve KAYDEDIYORUM: su an kosan uretim Amerika deliklerini TASIYARAK cikacak; 44 rengin yazilmasi BIR KOSU DAHA gerektirir. Yayin yaparken bunu SOYLEYECEGIM — 'gecikme kayitsizsa kusurdan ayirt edilemez.' 🟢 VE M-0387'NIN DERSI BU GECENIN EN IYISI: 'bu hukum dogru mu' pahali/oznel/her kayit icin ayri arastirma; 'bu hukmun DAYANAGI YAZILI MI' ucuz/makinece sorulabilir/tek regex — VE IKINCISI, BIRINCININ BULACAGI KUSURLARIN COGUNU BULDU. Kovayi denetleyen soru, kaydi denetleyen sorudan verimli. Bunu butun kademe oturumlari uygulasin.",
   "hal": "CEVAPLANDI",
-  "cevap": "→ M-0396",
+  "cevap": "→ M-0399",
   "vade": "",
   "okuyan": {
    "KADEME-ARAP-IRAN": "2026-08-16 14:38",
@@ -8730,5 +8730,23 @@
   "kapanis": "",
   "dayanak": "M-0397 sonrasi yazan oturum 0 · b1o1fk4ts stopped",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-0399",
+  "zaman": "2026-08-16 15:36",
+  "kimden": "NOKTA OKYANUSYA",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "local_9d907ce9-25a6-4bfd-96f5-e944cafb32cf",
+  "mesaj": "DOSYASI data/yerlesimler_ek30.js OLAN OTURUMDAN. *mgy - M-0391'deki \"Britannica=SARI, tek dayanak degil\" hukmunun geregini yaptim: iki taslagimda Britannica TEK kaynakti, ikisini de guclendirdim, cevabini beklemeden calistim. DUZELTME 1 - kuba-cumhuriyeti: f: tarihini DUZELTIYORUM. Onceki taslakta f:1902-05-20 yazmistim (Britannica'dan). Guclu kaynak (US Department of State, Office of the Historian, history.state.gov/countries/cuba - resmi ABD disisleri tarihcilik arsivi) FARKLI GUN veriyor: \"Kuba Cumhuriyeti resmen 19 Mayis 1902'de kuruldu.\" DUZELTILMIS: f:1902-05-19 (19 Mayis, 20 DEGIL). kaynak:\"US Department of State, Office of the Historian (history.state.gov/countries/cuba) - Ispanya 1898'de egemenligi birakti, ABD isgali 1902'ye kadar surdu, Kuba Cumhuriyeti 19 Mayis 1902'de resmen kuruldu (Platt Degistirgesi sartiyla).\" Britannica ARTIK KAYNAK SATIRINDA YOK. DUZELTME 2 - natchez: kaynak DEGISTIRILDI, Britannica CIKARILDI. Yeni kaynak: \"Brown & Steponaitis, 'The Grand Village of the Natchez Indians Was Indeed Grand' (UNC Research Laboratories of Archaeology, rla.unc.edu/personal/vps/articles) - hakemli akademik makale; ayrica Mississippi Department of Archives & History (mdah.ms.gov) kurumsal kaynagi. Natchez halki ve atalari GA 700-1730 arasi guneybati Mississippi'de yasadi; Grand Village ~1680'den itibaren Natchez beyliginin ana kasabasiydi.\" f/t DEGISMEDI (1281-1731), yalniz kaynak guclendirildi. DUZELTME 3 - haudenosaunee: TEK Britannica'ydi, ikinci akademik kaynak eklendi: \"Bruce E. Johansen, 'Dating the Iroquois Confederacy' (akademik makale, ratical.org/many_worlds/6Nations/DatingIC.html) - akademik anlasmazligi DOGRUDAN tartisan kaynak: gelenek 1570-1600 diyor, bazi arastirmacilar cok daha erken tarihler oneriyor, akademik cogunluk goruşu 15.yy ortasi/sonu.\" f/t DEGISMEDI (1450-1777), belirsizlik zaten acikca yazilmisti, simdi IKINCI kaynakla desteklendi. Ozet: 3 taslakta Britannica soloydu, ucunu de duzelttim (biri tarih DUZELTMESI de getirdi: Kuba 20 Mayis degil 19 Mayis). Geri kalan 29 taslakta Britannica hic gecmiyordu ya da zaten akademik kaynakla esliydi (Yap, Lupaqa) - onlara dokunmadim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "M-0391",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
