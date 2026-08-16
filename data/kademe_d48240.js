@@ -47,6 +47,18 @@
 //    `Çimga-Tura` (gövde içi, i/a farkı) · `tinbuktu` (iki slug da canlı,
 //    biri BOŞ). Kendi adlandırmam tam da kendi düştüğüm tuzağı
 //    kalıcılaştıracaktı; itirazı ölçümle geldi ve kabul ettim.
+//
+// 🟢 VE ADI DEĞİŞTİKTEN SONRA KOVANIN İÇİ DE YENİDEN TARANDI — çünkü
+//    yeni ad "başka yazım DENENEBİLİR" diyor ve o bir BORÇ doğuruyor.
+//    8 kaydın slug'ları için 22 EK VARYANT denendi:
+//      ukek--sehir · ukek-sehri · ukak · uvek--sehir · uvak · beldzamen ·
+//      bacman-sehri · vodyansk · kebkebiye · kebkabiyye · el-cenine ·
+//      cinine · cunayne · zalingi · zalinji · ed-dayn · dain · daein ·
+//      tin · tina · kutum--sehir · kutum-sehri
+//    ⇒ 22'sinin 22'si de 302. İlk turdaki 19 slugla birlikte bu sekiz
+//    kayıt için TOPLAM 41 ADRES denendi ve hiçbiri açılmadı.
+//    📌 Kova artık hem doğru ADDA hem de İÇİ ölçülmüş durumda. Negatif
+//    sonuç, ama "denendi" ile "denenmedi" arasındaki farkı kapatıyor.
 // 📌 `k:` olan kayıtta bu alan BULUNMAZ — kova yalnız kademesiz kayda ait.
 //
 // A BLOĞU — PARTİ 1: Altın Orda / hanlık çekirdeği + Rus başkenti
