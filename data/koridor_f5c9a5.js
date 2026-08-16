@@ -123,6 +123,19 @@ window.KORIDOR_H2B_DUGUM = [
 {id:"h2b-tanta",ad:"Tanta",y:"Tanta",boyar:true,tip:"yerlesim",lat:30.786,lon:31.001,kol:["halka2b/misir-iskenderiye#1"],kaynak:"bulunamadı"},
 {id:"h2b-iskenderiye",ad:"İskenderiye",y:"İskenderiye",boyar:true,tip:"yerlesim",lat:31.2,lon:29.919,kol:["halka2b/misir-iskenderiye#2"],kaynak:"bulunamadı"},
 
+// ───── ⑥ BALKAN KOLU · Belgrad → Bosna → Adriyatik (Dubrovnik) ─────
+// 🔴 koridor.js rumeli/orta#8 ile AYNI düğüm — boyar:false. ⚠️ koridor_halka2.js de onu bağlantı ucu olarak kullanıyor; ÜÇ dosya aynı düğüme değiyor ve üçünde de boyar YALNIZ koridor.js'te true
+{id:"belgrad",ad:"Belgrad",y:"Belgrad",boyar:false,tip:"baglanti-ucu",lat:44.818,lon:20.457,kol:["halka2b/balkan"],kaynak:"koridor.js rumeli/orta#8 ile AYNI düğüm — boyar:false. ⚠️ koridor_halka2.js de onu bağlantı ucu olarak kullanıyor; ÜÇ dosya aynı düğüme değiyor ve üçünde de boyar YALNIZ koridor.js'te true"},
+{id:"h2b-bogurdelen",ad:"Böğürdelen",y:"Böğürdelen (Šabac)",boyar:true,tip:"yerlesim",lat:44.75,lon:19.694,kol:["halka2b/balkan#1"],kaynak:"bulunamadı"},
+{id:"h2b-izvornik",ad:"İzvornik",y:"İzvornik (Zvornik)",boyar:true,tip:"yerlesim",lat:44.386,lon:19.103,kol:["halka2b/balkan#2"],kaynak:"bulunamadı"},
+{id:"h2b-tuzla",ad:"Tuzla",y:"Tuzla (Bosna)",boyar:true,tip:"yerlesim",lat:44.538,lon:18.676,kol:["halka2b/balkan#3"],kaynak:"bulunamadı"},
+{id:"h2b-saraybosna",ad:"Saraybosna",y:"Saraybosna",boyar:true,tip:"yerlesim",lat:43.856,lon:18.413,kol:["halka2b/balkan#4"],kaynak:"bulunamadı"},
+{id:"h2b-visegrad",ad:"Vişegrad",y:"Vişegrad",boyar:true,tip:"yerlesim",lat:43.783,lon:19.288,kol:["halka2b/balkan-visegrad#1"],kaynak:"bulunamadı"},
+{id:"h2b-konice",ad:"Koniçe",y:"Koniçe (Konjic)",boyar:true,tip:"yerlesim",lat:43.652,lon:17.962,kol:["halka2b/balkan-adriyatik#1"],kaynak:"bulunamadı"},
+{id:"h2b-mostar",ad:"Mostar",y:"Mostar",boyar:true,tip:"yerlesim",lat:43.343,lon:17.808,kol:["halka2b/balkan-adriyatik#2"],kaynak:"bulunamadı"},
+{id:"h2b-trebinye",ad:"Trebinye",y:"Trebinye",boyar:true,tip:"yerlesim",lat:42.711,lon:18.344,kol:["halka2b/balkan-adriyatik#3"],kaynak:"bulunamadı"},
+{id:"h2b-dubrovnik",ad:"Dubrovnik",y:"Dubrovnik",boyar:true,tip:"yerlesim",lat:42.65,lon:18.094,kol:["halka2b/balkan-adriyatik#4"],kaynak:"bulunamadı"},
+
 ];
 
 window.KORIDOR_H2B_KENAR = [
@@ -182,5 +195,15 @@ window.KORIDOR_H2B_KENAR = [
 {u1:"h2b-bilbis",u2:"h2b-kahire",kanat:"halka2b",kol:"misir",kalinlik:"ana",yon:"cift",km:51.6,saat:12.1,saat_cinsi:"turetildi",saat_kaynak:"kuş uçuşu km / 4.25 km-sa — koridor.js kalibrasyonu (Akşehir-İstanbul 85 saat, arşiv)",eksik_durak:false,f:"1539-01-01",t:"1839-01-01",donem_cinsi:"kurum",kesinlik:3,kaynak:"bulunamadı"},
 {u1:"h2b-kahire",u2:"h2b-tanta",kanat:"halka2b",kol:"misir-iskenderiye",kalinlik:"tali",yon:"cift",km:85.4,saat:20.1,saat_cinsi:"turetildi",saat_kaynak:"kuş uçuşu km / 4.25 km-sa — koridor.js kalibrasyonu (Akşehir-İstanbul 85 saat, arşiv)",eksik_durak:false,f:"1539-01-01",t:"1839-01-01",donem_cinsi:"kurum",kesinlik:3,kaynak:"bulunamadı"},
 {u1:"h2b-tanta",u2:"h2b-iskenderiye",kanat:"halka2b",kol:"misir-iskenderiye",kalinlik:"tali",yon:"cift",km:112.9,saat:26.6,saat_cinsi:"turetildi",saat_kaynak:"kuş uçuşu km / 4.25 km-sa — koridor.js kalibrasyonu (Akşehir-İstanbul 85 saat, arşiv)",eksik_durak:false,f:"1539-01-01",t:"1839-01-01",donem_cinsi:"kurum",kesinlik:3,kaynak:"bulunamadı"},
+// ───── ⑥ BALKAN KOLU · Belgrad → Bosna → Adriyatik (Dubrovnik) ─────
+{u1:"belgrad",u2:"h2b-bogurdelen",kanat:"halka2b",kol:"balkan",kalinlik:"ana",yon:"cift",km:60.7,saat:14.3,saat_cinsi:"turetildi",saat_kaynak:"kuş uçuşu km / 4.25 km-sa — koridor.js kalibrasyonu (Akşehir-İstanbul 85 saat, arşiv)",eksik_durak:false,f:"1539-01-01",t:"1839-01-01",donem_cinsi:"kurum",kesinlik:3,kaynak:"bulunamadı"},
+{u1:"h2b-bogurdelen",u2:"h2b-izvornik",kanat:"halka2b",kol:"balkan",kalinlik:"ana",yon:"cift",km:61.9,saat:14.6,saat_cinsi:"turetildi",saat_kaynak:"kuş uçuşu km / 4.25 km-sa — koridor.js kalibrasyonu (Akşehir-İstanbul 85 saat, arşiv)",eksik_durak:false,f:"1539-01-01",t:"1839-01-01",donem_cinsi:"kurum",kesinlik:3,kaynak:"bulunamadı"},
+{u1:"h2b-izvornik",u2:"h2b-tuzla",kanat:"halka2b",kol:"balkan",kalinlik:"ana",yon:"cift",km:37.9,saat:8.9,saat_cinsi:"turetildi",saat_kaynak:"kuş uçuşu km / 4.25 km-sa — koridor.js kalibrasyonu (Akşehir-İstanbul 85 saat, arşiv)",eksik_durak:false,f:"1539-01-01",t:"1839-01-01",donem_cinsi:"kurum",kesinlik:3,kaynak:"bulunamadı"},
+{u1:"h2b-tuzla",u2:"h2b-saraybosna",kanat:"halka2b",kol:"balkan",kalinlik:"ana",yon:"cift",km:78.7,saat:18.5,saat_cinsi:"turetildi",saat_kaynak:"kuş uçuşu km / 4.25 km-sa — koridor.js kalibrasyonu (Akşehir-İstanbul 85 saat, arşiv)",eksik_durak:false,f:"1539-01-01",t:"1839-01-01",donem_cinsi:"kurum",kesinlik:3,kaynak:"bulunamadı"},
+{u1:"h2b-saraybosna",u2:"h2b-visegrad",kanat:"halka2b",kol:"balkan-visegrad",kalinlik:"tali",yon:"cift",km:70.7,saat:16.6,saat_cinsi:"turetildi",saat_kaynak:"kuş uçuşu km / 4.25 km-sa — koridor.js kalibrasyonu (Akşehir-İstanbul 85 saat, arşiv)",eksik_durak:false,f:"1539-01-01",t:"1839-01-01",donem_cinsi:"kurum",kesinlik:3,kaynak:"bulunamadı"},
+{u1:"h2b-saraybosna",u2:"h2b-konice",kanat:"halka2b",kol:"balkan-adriyatik",kalinlik:"ana",yon:"cift",km:42.7,saat:10.0,saat_cinsi:"turetildi",saat_kaynak:"kuş uçuşu km / 4.25 km-sa — koridor.js kalibrasyonu (Akşehir-İstanbul 85 saat, arşiv)",eksik_durak:false,f:"1539-01-01",t:"1839-01-01",donem_cinsi:"kurum",kesinlik:3,kaynak:"bulunamadı"},
+{u1:"h2b-konice",u2:"h2b-mostar",kanat:"halka2b",kol:"balkan-adriyatik",kalinlik:"ana",yon:"cift",km:36.5,saat:8.6,saat_cinsi:"turetildi",saat_kaynak:"kuş uçuşu km / 4.25 km-sa — koridor.js kalibrasyonu (Akşehir-İstanbul 85 saat, arşiv)",eksik_durak:false,f:"1539-01-01",t:"1839-01-01",donem_cinsi:"kurum",kesinlik:3,kaynak:"bulunamadı"},
+{u1:"h2b-mostar",u2:"h2b-trebinye",kanat:"halka2b",kol:"balkan-adriyatik",kalinlik:"ana",yon:"cift",km:82.7,saat:19.5,saat_cinsi:"turetildi",saat_kaynak:"kuş uçuşu km / 4.25 km-sa — koridor.js kalibrasyonu (Akşehir-İstanbul 85 saat, arşiv)",eksik_durak:false,f:"1539-01-01",t:"1839-01-01",donem_cinsi:"kurum",kesinlik:3,kaynak:"bulunamadı"},
+{u1:"h2b-trebinye",u2:"h2b-dubrovnik",kanat:"halka2b",kol:"balkan-adriyatik",kalinlik:"ana",yon:"cift",km:21.5,saat:5.1,saat_cinsi:"turetildi",saat_kaynak:"kuş uçuşu km / 4.25 km-sa — koridor.js kalibrasyonu (Akşehir-İstanbul 85 saat, arşiv)",eksik_durak:false,f:"1539-01-01",t:"1839-01-01",donem_cinsi:"kurum",kesinlik:3,kaynak:"bulunamadı"},
 
 ];
