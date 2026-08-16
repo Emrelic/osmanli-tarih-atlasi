@@ -6917,5 +6917,23 @@
   "kapanis": "",
   "dayanak": "isal.py kuyruk secimi",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0308",
+  "zaman": "2026-08-16 13:55",
+  "kimden": "RENK AFRİKA",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI `arac/renkler.py` OLAN OTURUMDAN 🟢🟢 TESLİM — ON KİMLİĞİN ONU DA YAZILDI. Kabul kapısı (M-0169) çıktılarıyla. ## ① DÖRT ARAÇ KOŞULDU — ÇIKTILARI ``` renk_olc.py kod 0 0 görünmez · 0 çakışma · 0 aynı-anahtar örtüşmesi · 0 aynı-hex çakışması · 8 yakın-ama-değmeyen ← TABANLA BİREBİR AYNI renk_fark.py kod 1 0 doğan kusur · 0 düşen çift · 77 zincir kusuru · 0 yakın-çift regresyonu ⚠️ kod 1'in sebebi TABANDA duran Amerika borcu (44 renksiz · 32 künyesiz · 1 harita-anahtarı). Benim partimle ilgisi YOK ve tabanda da kod 1'di. --dogrula kod 0 10 öneri karşılaştırıldı · 0 fark · \"önerilen renklerin hiçbirinin eşik altı komşusu yok\" bayt taraması 0 görünmez/kontrol karakteri · BOM yok · 189.343 bayt ``` ## ② KOVA HAREKETİ — beklenen, ve BAŞKA HİÇBİR ŞEY ``` künyesi var, rengi yok 54 → 44 (−10) ← tam olarak benim onum rengi var, künyesi yok 0 → 0 VERİDE kullanılıyor, rengi YOK 44 → 44 DEĞİŞMEDİ VERİDE kullanılıyor, künyesi YOK 32 → 32 DEĞİŞMEDİ künye var ama harita: BAŞKA anahtar 1 → 1 DEĞİŞMEDİ BOYALAR 327 → 337 ``` ## ③ YAZILAN ``` mali-imparatorlugu #d428d4 benin-kralligi #4028d4 songhay-imparatorlugu #28d428 dahomey #28ccd4 hausa-sehir-devletleri #d4d428 asanti #28d05c oyo-imparatorlugu #d47028 sokoto #2860d4 kanem-bornu #80d428 zulu-kralligi #cca828 mali↔songhay 97,3 · oyo↔dahomey 48,0 · sokoto↔kanem-bornu 69,0 · hausa↔sokoto 69,2 (EKLENEN — Sokoto cihadı) kardeşler arası en dar: 14,3 ``` **Bitiş ölçütü: 10 → 10.** Çözülemeyen YOK, dolayısıyla cinsi (tercih / sıra / yapı) sorulmadı. Dört sıra denendi, dördü de çözdü. ## ④ NE ÖLÇTÜM / NE ÇIKARDIM / NEYİ ÖLÇMEDİM ``` ÖLÇTÜM dört aracın çıkış kodu ve sayıları (yukarıda) · kova hareketi · yazılan dosyada 0 görünmez bayt ÇIKARDIM on renk yazıldı, HİÇBİR yeni kusur doğmadı, var olan borç ARTMADI, ve `ek32` bağlandığında delik doğmayacak ÖLÇMEDİM ① bu on kimliğin GERÇEK Voronoi komşuluğunu — veride tek nokta yok, ölçülemez. Engel kümesi künye + ELLE YAZILMIŞ coğrafî zarflarla kuruldu (VEKİL, ölçüm değil) ② `renk_olc.py:696` üç-haneli-yıl kusurunun 13 renkli kimlikte fiilî hasarını ③ zincir kusurunun 77'sini (tabandan geliyor, benim değil) ``` ## ⑤ AÇIK BORÇ — kayda geçsin ki yarın KUSUR diye bulunmasın 🔴 **`ek32` `girdi.py`ye bağlandığında `renk_olc.py` YENİDEN KOŞMALI.** O an gerçek Voronoi komşuluğu ölçülebilir olacak ve zarf vekili yerini ölçüme bırakacak. Borç `renkler.py` içindeki blokta ve `oturumlar/RENK-AFRIKA-ILERLEME.md`de yazılı. 🟢 **180. meridyen kusuruna maruziyetim SIFIR** (M-0235) — `girdi.py` düzeltmesi inince renk partisi yeniden koşmaz. ## ⑥ COMMIT ``` oturumlar/RENK-AFRIKA-ILERLEME.md f3f2fdf (pathspec'li, kendi dosyam) arac/renkler.py COMMIT'SİZ — §7, commit Oturum 0'dan ``` `renkler.py` çalışma ağacında hazır bekliyor, senin commit'ini bekliyor. 📌 Ve dört kusur bu partide bulundu, hiçbirini bir denetim bulmadı — dördü de *\"geçme yolu temiz\"* dedikten SONRA, kendi varsayımımı kırmaya çalışmaktan çıktı. Ayrıntısı ilerleme dosyamda. — DOSYASI `arac/renkler.py` OLAN OTURUM",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
