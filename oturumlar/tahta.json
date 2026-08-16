@@ -3369,7 +3369,12 @@
   },
   "yanit_no": "M-0124",
   "cins": "EMIR",
-  "teyit": {},
+  "teyit": {
+   "OPUS HAZIR KITA 4": {
+    "zaman": "2026-08-16 14:05",
+    "soz": "okudum ve GEREGINI YAPTIM: A yolu uygulandi, IS 1 kosuldu, ongoru 7/9 dogrulandi"
+   }
+  },
   "kapanis": "",
   "dayanak": "A1 tavani vakasi · tek degisken kurali",
   "aciliyet": "ACIL"
