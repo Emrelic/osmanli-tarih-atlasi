@@ -397,6 +397,30 @@ window.KADEME_YAMA = [
    kaynak:"olcum — bu kayit bir OTURMA YERI degil, dolgu ALANI",
    neden:"kademe bir MERKEZIN mertebesidir, bir ALANIN degil. Bu kayit col/bozkir/erg dolgusu; kaynaga 'burasi kaza miydi' diye SORULAMAZ. Ayrimin kaniti veride: Murzuk (Fizan) k:2 (sancak MERKEZI) ile Fizan guneyi (ayni sancagin COLU) ayri kayitlar ve ikincisinin kademesi YOK."},
 
+  // 🔴 DARFUR SONRADAN EKLENDİ — ve eklenme yolu kayda değer.
+  // Parti 5'te Darfur'u bloğa ALMAMIŞTIM ("siyasî yapı, araştırmadım").
+  // Sonra kendi raporumdaki "ölçmedim" satırını ölçtüm:
+  //     El-Fâşir  13,63 · 25,35  k:1   ← Darfur Sultanlığı'nın BAŞKENTİ,
+  //                                      veride VAR ve zaten kademeli
+  //     Darfur    13,50 · 24,00  k: yok ← aynı sultanlığın ALANI
+  // ⇒ Murzuk/Fizan güneyi ile BİREBİR aynı desen; kuralın İKİNCİ bağımsız
+  //   doğrulaması. Darfur bir boşluk kaydıdır.
+  //
+  // ⚠️ VE BU TESTİ ÖTEKİ 11'E UYGULAMADIM — çünkü test YANLIŞ SORUYU
+  // ölçüyor. "Yakında kademeli nokta var mı" diye soruyor; sorum ise
+  // "bu siyasî yapının KENDİ merkezi kayıtlı mı". Darfur'da tuttu çünkü
+  // El-Fâşir'in Darfur'un başkenti olduğunu ADIYLA doğruladım. Ötekilerde
+  // yalnız MESAFE bakılsaydı yanlış pozitif verirdi:
+  //     Arauco (Mapuche) → Concepción k:3   İSPANYOL sömürge şehri
+  //     Higüey (Taino)   → Santo Domingo k:1 İSPANYOL şehri (1496)
+  //     Ogaden           → Harar k:1        ADAL'ın başkenti
+  // 📌 Mesafe testi tam da KENTSEL MERKEZİ OLMAYAN halklarda yanlış
+  //   pozitif veriyor — yani sorunun asıl nüfusunda. Altı kaydı bunun
+  //   üzerine yazacaktım; ölçüm doğruydu, ÇIKARIM yanlış olacaktı.
+  {ad:"Darfur", kademe_uygulanmaz:true,
+   kaynak:"ölçüm — El-Fâşir (13,63·25,35) veride VAR ve zaten k:1",
+   neden:"Darfur Sultanlığı'nın BAŞKENTİ El-Fâşir ayrı bir kayıt olarak veride duruyor ve kademesi ZATEN yazılı (k:1). Bu kayıt o sultanlığın MERKEZİ değil ALANI — Murzuk (k:2) ile Fizan güneyi (k: yok) çiftinin birebir aynısı. Merkez kayıtlı olduğu için alan kaydına kademe UYGULANMAZ"},
+
   {ad:"Franz Josef Toprağı", kademe_uygulanmaz:true,
    kaynak:"ölçüm — ıssız arktik takımada, oturma yeri YOK",
    neden:"süzgecim bunu SINIFLANDIRAMADI (ne arazi kelimesi ne halk adı) ve kararı ELLE verdim: Franz Josef Toprağı ıssız bir takımadadır, hiçbir dönemde yerleşim merkezi olmamıştır. Süzgecin sınıflandıramaması bir kusur değil SINIRDIR; sınıflandıramadığını TEMİZ saymak kusur olurdu."},
