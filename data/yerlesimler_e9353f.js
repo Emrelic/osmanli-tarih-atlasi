@@ -681,6 +681,66 @@ window.YERLESIMLER_E9353F = [
   bos:"veri-yok",
   neden:"kunye-yok — oranj kunyesi devletler.js'te YOK. Transvaal kaydiyla ayni gerekce: kur:1830 Buyuk Goc'un yili ve tur alani bolge, cunku Bloemfontein'in kurulus yili TDV'de yok. UYARI: PENCERE DISINDA (lat -29,120)." },
 
+// ═════════════════ KOL G — ve kolun 8'den 1'e inmesinin hikâyesi ═════════════════
+//
+// Kol G şöyle tarif edilmişti: "8 künye · künye VAR · kronoloji DOLU ·
+// eksik olan TEK ŞEY nokta ⇒ araştırma YOK, nokta yazınca ANINDA
+// boyanacaklar." Yedi tanesi bana verildi (M-0713).
+//
+// 🔴 TARİF ÜÇ KEZ DARALDI, VE HER DARALMA BİR ÖLÇÜMDEN GELDİ:
+//   8 → 4  dördü `harita:` alanıyla kısa kimliğe ZATEN BAĞLI
+//          (kaffa-kralligi→kaffa · cimma-sultanligi→cimma ·
+//           sidamo-kralliklari→sidamo · vollayta-kralligi→vollayta)
+//          ⚠️ Ben bunu önce "id uyuşmazlığı KUSURU" diye bildirdim ve
+//            YANILDIM; `harita:` alanı tam bunun için var, tasarımın
+//            kendisi. M-0720'de geri aldım.
+//   4 → 3  evfat · makdisu-sultanligi · merina gerçekten sıfır kullanımlı
+//   3 → 1  ve İKİSİNİN NOKTASI ZATEN VARDI:
+//            evfat   → Zeyla    veride VAR, yazacağım yere 0,4 km
+//            makdisu → Mogadişu veride VAR, yazacağım yere 0,1 km
+//          ⇒ Tarife uyup yazsaydım İKİ 3-KM İHLALİ, ve aynı şehir iki
+//            kayıtla iki ayrı gövde boyardı.
+//
+// 📌 Ve ikisinin `denetle`de görünmemesinin sebebi de ölçüldü: Zeyla ve
+//   Mogadişu ZATEN SAHİPLİ (adal · somali), yani `Değişmez 1` açısından
+//   delik değiller. Künye "noktasız" göründü çünkü kimse *"bu künyenin
+//   noktası var mı"* diye değil *"bu nokta sahipsiz mi"* diye soruyordu.
+//
+// ⇒ Geriye TEK iş kaldı ve o da bende: `merina`.
+
+// ANTANANARİVO (Tananarive) — Merina Krallığı'nın merkezi.
+// TDV `madagaskar` (gövdesi okundu):
+//   "XVIII. yüzyılın ikinci yarısında orta bölgedeki Merinalar
+//    Madagaskar'da siyasî birlik kurdular"   ⇒ künye f:1787 ile uyuşuyor
+//   "1885'te imzalanan bir antlaşmayla Diégo-Suarez ve TANANARİVE'ye
+//    yerleşen Fransızlar…" · 1890 himaye · "27 Ocak 1897'de de yönetime
+//    el koyup kendisini yurt dışına sürdüler"
+//   hükümdarlar: I. Radama (1810-1828) · I. Ranavalona (1828-1861) ·
+//   III. Ranavalona (1883-1897)
+//
+// ⚠️ ÜÇ SINIRI DA AÇIKÇA YAZIYORUM:
+//   ① TDV Antananarivo'yu "Merina'nın BAŞKENTİ" diye DOĞRUDAN demiyor;
+//     merkez olarak anıyor ve Fransızların 1885'te oraya yerleştiğini
+//     söylüyor. Nokta bu ikisine dayanıyor, açık bir başkent beyanına DEĞİL.
+//   ② PENCERE DIŞI: lat -18,879; pencere -11'in altını kapsamıyor.
+//     Bugün ÇİZİLMEYECEK — "ihlal değil, BEKLEYEN veri" kovası.
+//   ③ `merina` künyesi RENKSİZ — nokta inse ve pencere açılsa bile
+//     BOYANMAZ. Renk kuyruğuna girmesi gerekiyor.
+//   ⇒ Yani bu kayıt bugün hiçbir şey göstermiyor. Yine de yazıldı:
+//     araştırılmış doğru veriyi bekletmek, onu yeniden araştırmaktan pahalı.
+//
+// 🔴 VE BİR TARİH FARKI VAR, ÇÖZMÜYORUM: TDV Fransız el koymasını
+//   27 Ocak 1897 diyor; `merina` künyesi `t:1897-02-28`. 32 gün fark.
+//   Künyenin kendi ucunu kullandım (§3.5) ve TDV'nin gününü buraya
+//   yazdım ki kaybolmasın.
+{ ad:"Antananarivo (Tananarive)", tur:"sehir", lat:-18.879, lon:47.508, g:1, k:1,
+  kur:"1787-01-01",
+  s:[{f:"1787-01-01", t:"1897-02-28", d:"merina",            kaynak:"madagaskar"},
+     {f:"1897-02-28", t:"1923-10-29", d:"fransa-cumhuriyet", kaynak:"madagaskar"}],
+  d:[], v:[],
+  bos:"veri-yok",
+  neden:"veri-yok — sahipsiz araligi YOK; bayrak UC AYRI SINIRI isaretliyor. ① kur:1787 SEHRIN kurulusu DEGIL, merina kunyesinin f: degeri; Antananarivo daha eski ama TDV kurulus yili VERMIYOR ve uydurmadim. ② PENCERE DISI (lat -18,879): bugun cizilmiyor, pencere acilinca kendiliginden canlanir. ③ merina kunyesi RENKSIZ: nokta inse bile boyanmaz, renk kuyruguna girmeli. ⚠️ Bir tarih farki: TDV madagaskar Fransiz el koymasini 27 Ocak 1897 diyor, kunye t:1897-02-28 — 32 gun fark, COZMEDIM, kunyenin ucunu kullandim. ⚠️ Ve TDV Antananarivo'yu Merina'nin BASKENTI diye DOGRUDAN demiyor; merkez olarak aniyor ve Fransizlarin 1885'te oraya yerlestigini soyluyor." },
+
 ];
 
 // ═════════════════ YAZILMAYANLAR — ALTISI DA GEREKÇESİYLE ═════════════════
