@@ -196,6 +196,19 @@ window.KADEME_YAMA = [
 {ad:"Şuri (Naha)",k:1,kd:[{f:"1429-01-01",t:"1879-03-27",k:1,m:"Şuri (Naha)"}],coklu_merkez:false,kaynak:"data/devletler.js `ryukyu` künyesi, `baskent` alanı — künyenin kendi kaynağı: bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",neden:"başkent — ryukyu (1429-01-01..1879-03-27, kaynak: bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak). Başkentlik süresi atlas penceresinin %70'i; statik k:1, zamanlı doğrusu kd: alanında (k:1)."},
 
 // ───── FAZ 2 · TDV maddesinin GÖVDESİ okunarak (BİRİNCİL) ─────
+// 🔴 VE FAZ 2'NİN EN ÖNEMLİ ÖLÇÜMÜ BİR EKSİKLİK: TDV BÂBÜRLÜ SÛBE-ŞEHİR
+//   EŞLEMESİNİ VERMİYOR. Üç madde okundu:
+//     `baburluler` HİYERARŞİYİ veriyor — "Sûbeler 'serkâr' denilen kazalara
+//       bölünmüştü · Her serkâr 'pergene' adı verilen nahiyelere ayrılmıştı"
+//       ve sûbe BÖLGELERİNİ sayıyor (Pencap · Sind · Dûâb · Kuz · Orissa ·
+//       Bengal · Gucerât · Dekken · Keşmir)
+//     `hindistan` sûbe listesini ve merkezlerini VERMİYOR
+//     `dekken`    Bâbürlü Dekken sûbesinin merkezini ADLANDIRMIYOR
+//   ⇒ HİYERARŞİ kaynaklı, ATAMA kaynaksız. Yani "bu şehir hangi sûbenin
+//     merkeziydi" sorusunun cevabı TDV'de ŞEHİR maddelerinde tek tek
+//     aranmak zorunda — ve çoğu şehir maddesi o cümleyi kurmuyor.
+//   📌 Bu bir tıkanma değil, ÖLÇÜLMÜŞ bir kapsam sınırıdır (`§4` tanecik
+//     boşluğu). Kalan noktalar için akademik kaynak meşru hâle geliyor.
 // ⚠️ Üçü `k:` TAŞIMIYOR ve bu bir EKSİK DEĞİL, bir SONUÇTUR:
 //   Ecmîr  kaynak SUSUYOR (madde var, kademe yazmıyor)
 //   Sûrat  adres YANLIŞ  (slug canlı ama başka maddeyi açıyor)
@@ -206,6 +219,8 @@ window.KADEME_YAMA = [
 {ad:"Patna (Azîmâbâd)",k:1,kd:[{f:"1541-01-01",t:"1923-10-29",k:1,m:"Patna (Azîmâbâd)"}],coklu_merkez:false,kaynak:"TDV `patna` (HTTP 200, gövde okundu)",neden:"🟢 FAZ 2 · TDV `patna` gövdesi: Şîr Şah Sûr 1541'de şehri \"Bihâr eyaletinin merkezi haline getirerek\" kurdu; Evrengzîb'in torunu Bihâr valisi Azîmüşşân 1704'te adını Azîmâbâd yaptı. ⇒ eyalet merkezi ⇒ k:1. ⚠️ BİTİŞ TARİHİ ÖLÇÜLMEDİ — madde bir bitiş vermiyor, kd: sonuna atlas ufku (1923-10-29) yazıldı ve bu bir ÜST SINIRdır."},
 {ad:"Ecmîr (Ajmer)",kd:[],coklu_merkez:false,kaynak:"TDV `ecmir` (HTTP 200, gövde okundu) — kademe için SUSUYOR",neden:"🔴 KAYNAK SUSUYOR. TDV `ecmir` maddesi doğru şehri açıyor ve Ekber dönemini anlatıyor (\"Ekber'le başlayan ve şehre en parlak günlerini yaşatan son İslâmî dönem\") ama Bâbürlü idarî kademesini (sûbe/serkâr) BELİRTMİYOR; madde ağırlıkla Çiştiyye merkezi olmasını anlatıyor. Verdiği tek idarî bilgi MODERN: \"Racastan eyaletinde kendi adını taşıyan ilin merkezi\" — atlas penceresi dışı. ⇒ k: YAZILMADI. \"Şehirdir, herhâlde 3. kademedir\" demek kolaydı ve UYDURMA olurdu."},
 {ad:"Sûrat",kd:[],coklu_merkez:false,kaynak:"TDV — DOĞRU SLUG BULUNAMADI (aradım, adres yanlış)",neden:"🔴 TDV SLUG TUZAĞI ②: `surat` slug'ı HTTP 200 döndürüyor ve gövdesi geliyor, ama açtığı madde ŞURÂT'tır — Hâricîler'in bir adı, Hindistan'daki liman şehri DEĞİL. `ordu`→`ordu--sehir`, `saray`→`saray--sehir`, `cin`→`cin--ulke` deseninin aynısı. Doğru slug'ı bu turda BULAMADIM. ⇒ k: YAZILMADI. ⚠️ Bu \"TDV'de yok\" DEĞİL, \"adresini bulamadım\"dır — ikisi karıştırılmaz."},
+{ad:"Benâres (Vârânasî)",k:2,kd:[{f:"1911-01-01",t:"1923-10-29",k:1,m:"Benâres (Vârânasî)"}],coklu_merkez:false,kaynak:"TDV `benares` (HTTP 200, gövde okundu)",neden:"🟢 FAZ 2 · TDV `benares` gövdesi: şehir 1911-1949 arası \"ayrı bir devlet haline gelen Benâres bölgesinin başşehri\" idi. Atlas penceresine düşen kısmı 1911-1923 ⇒ kd: o aralıkta k:1. Statik k:2, çünkü 12 yıl atlas penceresinin %2'si. ⚠️ 1911 ÖNCESİ için madde bir idarî kademe VERMİYOR (1193 fethinden 1775 İngiliz idaresine kadar hükümdarları sayıyor ama şehrin kademesini yazmıyor) — o dönem için k: TÜRETİLMEDİ."},
+{ad:"Peşâver",kd:[],coklu_merkez:false,kaynak:"TDV `pesaver` (HTTP 200, gövde okundu) — kademe için SUSUYOR",neden:"🔴 KAYNAK SUSUYOR. TDV `pesaver` maddesi doğru şehri açıyor ve zengin: Bâbür 1530'da kale inşa ettirdi, Ekber adını değiştirdi, Şîr Şah'ın Delhi-Kâbil yolu şehri büyüttü, İngilizler askerî garnizona çevirdi. AMA hiçbir yerde idarî kademe (sûbe · serkâr · sancak) YAZMIYOR. ⚠️ \"Kale inşa edildi\" diye k:4 yazmak YANLIŞ olurdu: şartname k:4'ü \"kasaba·köy·kale\" diye tarif ediyor ve Peşâver bunların hiçbiri değil, bir SERHAD ŞEHRİ. Kademeyi kaynak vermiyorsa uydurmak yerine boş bırakıyorum."},
 {ad:"Ilâhâbâd (Allahabad)",kd:[],coklu_merkez:false,kaynak:"TDV — ERİŞEMEDİM (aradım, madde açılmadı)",neden:"🔴 `ilahabad` slug'ı madde değil ARAMA SAYFASI getirdi; tek sonuç \"MUHAMMED ABDÜLHAK İLAHÂBÂDÎ\" adlı bir âlim maddesi, şehir maddesi değil. ⇒ k: YAZILMADI. Bu üçüncü kova: \"aradım, ERİŞEMEDİM\" — \"aradım, yok\" ile karıştırılmaz, ikincisi kaynağı sonsuza kadar kapatır."},
 
 ];
