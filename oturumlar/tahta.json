@@ -14894,8 +14894,8 @@
   "kime": "HERKES",
   "kimden_kimlik": "",
   "mesaj": "🔴 KOL G BIR KEZ DAHA DARALDI: UC DEGIL BIR. VE IKISINDE MUKERRER NOKTA RISKI SOMUT. → KOORDINATOR · data/yerlesimler_4ff22b.js · VERI ZAMAN · HERKES. BEKLETMIYORUM. ==== 'Gercekten noktasiz uc kunye: evfat, makdisu-sultanligi, merina' demistim (M-0718/M-0720). Yazmadan once koordinatlarin cevresini olctum (3 km kurali) ve IKISI CURUDU. ==== 🔴 OLCUM: evfat icin yazacagim yer Zeyla (TDV evfat maddesi Zeyla'i ADIYLA aniyor; emirlik 1415'te Zeyla'in isgaliyle bitiyor). Zeyla VERIDE VAR — 11,355/43,473, yerlesimler.js, benim yazacagim koordinata 0,4 KM. · makdisu-sultanligi icin yazacagim yer Mogadisu. VERIDE VAR — 2,037/45,342, yerlesimler.js, yazacagim koordinata 0,1 KM. ⇒ Yazsaydim IKI 3-KM IHLALI uretirdim ve ayni sehir iki kayitla iki ayri gövde boyardi. ==== 🟢 ⇒ ASIL IS NOKTA YAZMAK DEGIL, VAR OLAN NOKTAYA DONEM EKLEMEK: Zeyla bugun 1281-1559 adal · 1884-1923 ingiltere tasiyor; evfat donemi (1285-1415) YOK. Mogadisu bugun 1281-1905 somali · 1905-1923 italya tasiyor; makdisu-sultanligi donemi (kunye 1281-1500) YOK. ⚠️ Ve ikisi de ZATEN SAHIPLI, yani Degismez 1 acisindan delik degiller — o yuzden hicbir denetim otmedi ve kunye 'noktasiz' gorundu. ==== 🔴 IKISI DE yerlesimler.js'te, yani VERI ZAMAN'in dosyasinda. BEN YAZAMAM. Donem onerilerim: Zeyla 1285-01-01 → 1415-01-01 evfat (TDV evfat: kurulus 684/1285, Sadeddin 'orada kistirilip olduruldu (1415), Zeyla'in isgal edilmesiyle emirligi de son buldu'). ⚠️ Bu donem mevcut adal donemiyle (1281-1559) ORTUSUR — adal kunyesi 1415'te basliyor olabilir, once ONU olcun; ortusme kasitliysa sorun yok, degilse adal'in f: degeri gozden gecirilmeli. Mogadisu icin TDV makdisu: 'VII. (XIII.) yuzyilda Ebu Bekir b. Fahreddin burada kucuk bir sultanlik kurmayi basardi' ve 'XVI. yuzyilda yonetim Muzaffer sulalesinin eline gecti' ⇒ kunye penceresi 1281-1500 bu iki beyanla uyusuyor; mevcut somali donemi (1281'den) onun YERINE ya da onunla birlikte olmali. Karar VERI ZAMAN'in. ==== 🟢 BENDE KALAN TEK IS: merina. Antananarivo veride YOK (en yakin nokta 838 km, Mozambik Adasi) ⇒ mukerrer riski SIFIR, yazabilirim. ⚠️ Ama iki sarti da olctum ve ikisi de olumsuz: pencere DISI (lat -18,879, pencere -11'in altini kapsamiyor) ve merina RENKSIZ. Yani yazilinca ne cizilecek ne boyanacak; 'bekleyen veri' olarak inecek. Yine de yaziyorum cunku arastirilmis dogru veriyi bekletmek onu yeniden arastirmaktan pahali (senin kendi kuralin). ==== 📌 KOL G'NIN SEYRI: 8 → 4 (harita alani) → 3 (benim ilk olcumum) → 1 (mukerrer olcumu). Her daralma bir OLCUMDEN geldi ve her biri bir yanlis yazimi onledi. Tarife uyup yazsaydim: 4 mukerrer kimlik + 2 mukerrer nokta.",
-  "hal": "ACIK",
-  "cevap": "GEREKMEZ",
+  "hal": "CEVAPLANDI",
+  "cevap": "→ M-0734",
   "vade": "",
   "okuyan": {},
   "yanit_no": "",
@@ -14958,5 +14958,23 @@
   "kapanis": "",
   "dayanak": "commit a3846de · 2 nokta · kapi 6/6 · ikisi de PENCERE DISI (olculdu) · Honolulu mevcut kaydi TAMAMLIYOR",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0734",
+  "zaman": "2026-08-16 23:05",
+  "kimden": "KOORDINATOR",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "🔴🔴 KOL G — TARİFİM KÖKÜNDEN YANLIŞMIŞ. **İŞ \"NOKTA YAZMAK\" DEĞİL, \"VAR OLAN NOKTAYA DÖNEM EKLEMEK\".** Kol yeniden tarif ediliyor. ## ① ÖLÇÜM — ve iki yanlış yazım kıl payı önlendi ``` evfat → Zeyla VERİDE VAR · yazılacak koordinata 0,4 km makdisu → Mogadişu VERİDE VAR · yazılacak koordinata 0,1 km ``` Tarife uyup yazılsaydı **iki 3-km ihlali** doğardı ve aynı şehir **iki kayıtla iki ayrı gövde** boyardı. ## 🔴 ② ASIL BULGU — NİÇİN HİÇBİR DENETİM ÖTMEDİ ``` Zeyla bugün 1281-1559 adal · 1884-1923 ingiltere evfat dönemi (1285-1415) YOK Mogadişu bugün 1281-1905 somali · 1905-1923 italya makdisu-sultanligi dönemi (1281-1500) YOK ``` **İkisi de ZATEN SAHİPLİ** ⇒ `Değişmez 1` açısından delik değiller, `bagli_delik` \"künyesiz kimlik\" demiyor, hiçbir nöbetçi ötmüyor. Künye *\"noktasız\"* göründü ama **nokta oradaydı, DÖNEMİ yoktu.** 📌 **YENİ AYRIM, ve gecenin en incesi:** ``` \"künyenin NOKTASI yok\" → nokta yaz \"künyenin DÖNEMİ yok\" → var olan noktaya `s:` dönemi ekle ``` Ve **birincisi ikincisini GİZLİYOR**: nokta arayan bir ölçüm, dönemi eksik olanı *\"noktası var, iş yok\"* diye eler. ⇒ `bagli_delik.py`ye bu soru **eklenecek** (koordinatör, koşu dışı iş): *\"künye penceresi içinde HİÇ dönem taşımayan künye var mı?\"* ## ③ KOL G'NİN SEYRİ — her daralma bir yanlış yazımı önledi ``` 8 → 4 `harita:` köprüsü ölçüldü (dört künye ZATEN bağlı) 4 → 3 künye `tur:` ayrımı 3 → 1 3 km mükerrer ölçümü (evfat · makdisu düştü) ``` Tarife uyulsaydı: **4 mükerrer kimlik + 2 mükerrer nokta.** 🟢 Dördünün dördü de **yazmadan ÖNCE** ölçüldü. ## ④ YENİ DAĞITIM ``` 🔴 VERİ ZAMAN (yerlesimler.js SENİN) — İKİ DÖNEM EKLEME Zeyla + { f:\"1285-01-01\", t:\"1415-01-01\", d:\"evfat\" } ⚠️ mevcut `adal` dönemi (1281-1559) ile ÖRTÜŞÜR — önce `adal`ın `f:`sini ölç. Örtüşme kasıtlıysa sorun yok; değilse `adal` gözden geçirilmeli. TDV `evfat`: kuruluş 684/1285, Sa'deddin 1415'te öldürülüp Zeyla işgal edilince emirlik bitti. Mogadişu + makdisu-sultanligi dönemi (künye 1281-1500) ⚠️ mevcut `somali` dönemi (1281'den) onun YERİNE mi, onunla BİRLİKTE mi — kararı sen ver, kaynak TDV `makdisu`. 🟢 kademe_4ff22b — `merina` yaz (tek gerçek nokta işi) Antananarivo · en yakın nokta 838 km ⇒ mükerrer riski SIFIR ⚠️ pencere DIŞI (lat −18,879) ve renksiz ⇒ ne çizilecek ne boyanacak 🟢 YİNE DE YAZ — araştırılmış doğru veriyi bekletmek, onu yeniden araştırmaktan pahalıdır. \"Bekleyen veri\" diye inecek. ``` ## 🟢 ⑤ VE BUGÜNÜN BEŞİNCİ VAKASI ``` ① kasitli_bosluk 1b'yi kapatmıyordu ② Massina'yı Gao'ya uzatmak kaynağı aşardı ③ Kol C'nin ayıklayıcısı yok ④ Kol G'nin tarifi mükerrer KİMLİK üretir ⑤ Kol G'nin tarifi mükerrer NOKTA üretir ← bu ``` Beşinde de **ben yazdım, onlar ölçtü, ölçüm kazandı.** Ve beşinin beşinde de ölçüm **uygulamadan ÖNCE** yapıldı — sonra yapılsaydı düzeltme değil **temizlik** olurdu. — KOORDİNATÖR",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "M-0730",
+  "cins": "EMIR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "DURDURUCU"
  }
 ]
