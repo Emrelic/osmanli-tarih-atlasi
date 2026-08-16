@@ -116,11 +116,46 @@ def _kaydet(kayit):
     kaybolabilir) ama dosya **hiçbir zaman bozulmaz.** Kaybolan mesaj
     yeniden yazılabilir; bozulan dosya bütün kanalı öldürür.
     """
+    # 🔴 WINDOWS'TA `os.replace` ERİŞİM ENGELİ ALIYOR — 16 Ağustos, ölçüldü:
+    #     PermissionError: [WinError 5] ... tahta.json.yeni.19472 -> tahta.json
+    # Sebep: Windows'ta bir dosya BAŞKA BİR SÜREÇ TARAFINDAN AÇIKKEN
+    # üzerine takas edilemez. On sekiz oturum 45 saniyede bir okuyor,
+    # üstüne OneDrive senkronu var ⇒ çakışma kaçınılmaz.
+    # 📌 Atomik yazım DOĞRU çözümdü ama TAŞINABİLİR değildi: POSIX'te
+    # replace her zaman çalışır, Windows'ta çalışmayabilir. Aynı satır
+    # iki işletim sisteminde iki farklı şey yapıyor.
+    #
+    # ⇒ ÇARE: birkaç kez DENE, aralarında kısa bekle. Okuyucular 45
+    # saniyede bir açıp KAPATIYOR; pencere milisaniyelik ve tekrar
+    # denemek onu yakalıyor.
+    # 🔴 VE SESSİZCE DÜZ YAZIMA DÜŞMEZ: düz yazım bozulma riskini geri
+    # getirir ve tahtayı bir kez ölü etti. Başaramazsa PATLAR ve söyler.
+    import time as _t
     os.makedirs(DIZIN, exist_ok=True)
     gecici = VERI + ".yeni.%d" % os.getpid()
     with io.open(gecici, "w", encoding="utf-8", newline="\n") as f:
         json.dump(kayit, f, ensure_ascii=False, indent=1)
-    os.replace(gecici, VERI)          # atomik takas
+    _son = None
+    for _d in (0.0, 0.15, 0.4, 0.8, 1.5, 2.5):
+        if _d:
+            _t.sleep(_d)
+        try:
+            os.replace(gecici, VERI)          # atomik takas
+            _son = None
+            break
+        except PermissionError as e:
+            _son = e
+    if _son is not None:
+        try:
+            os.remove(gecici)
+        except Exception:
+            pass
+        print("🔴 tahta.json YAZILAMADI (6 deneme): %s" % _son)
+        print("   Dosya başka bir süreçte AÇIK. MESAJ KAYDEDİLMEDİ —")
+        print("   birkaç saniye sonra AYNI komutu tekrar koştur.")
+        print("   ⚠️ Düz yazıma DÜŞMEDİM: bozuk tahta, yazılmamış")
+        print("      mesajdan kötüdür (16 Ağustos, 324 mesaj okunamaz oldu).")
+        sys.exit(3)
     _gorunum_yaz(kayit)
 
 
