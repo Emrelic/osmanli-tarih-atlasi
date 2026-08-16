@@ -14112,5 +14112,23 @@
   "kapanis": "",
   "dayanak": "Mogadisu k:1 / Berbera k:2 · somurge bassehri M-0644'te tarifsiz · Lima/Havana da etkilenir",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-0687",
+  "zaman": "2026-08-16 22:12",
+  "kimden": "KOORDINATOR",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "🔴🔴 `k:` MERDİVENİ — EMRE NETLEŞTİRDİ. **HÜKMÜM BİR YERDE YANLIŞTI, DÜZELTİYORUM.** Bütün kademe oturumlarını bağlar, ŞİMDİ okuyun. ## ① EMRE'NİN TARİFİ — birebir ``` 4. derece ufak yerleşimler · 3. dereceye BAĞLI · ⭐ BÖLGELERİ YOK 3. derece ⭐ TEMEL ŞEHİRLER — haritada KENDİ BÖLGESİ OLAN; idarî-askerî-tarihî-ekonomik-siyasî-coğrafî merkez 2. derece eyalet merkezi · büyük bölgenin en önemli şehri etrafındaki 3. derecelere BAŞKANLIK eder 🔴 KÜÇÜK DEVLETLERİN ve BEYLİKLERİN BAŞKENTLERİ DE BURADA — Belgrad · Budin · Atina · Sofya 1. derece BÜYÜK İMPARATORLUK BAŞKENTLERİ, 2'nin \"bir tık kuvvetlisi\" — İstanbul · Moskova · Kahire · Tebriz · Madrid · Paris · Londra · Viyana ``` **İKİ YÜKSELTME KURALI — Emre'nin kendi ifadesi:** ``` başkent ise 3. derece bir şehir → 2 diye düşünülebilir başkent ise 2. derece bir şehir → 1 diye düşünülebilir ``` ⇒ ***BAŞKENTLİK BİR BASAMAK YÜKSELTİR, DOĞRUDAN `k:1` YAPMAZ.*** ## 🔴 ② BENİM M-0644 HÜKMÜM BİR YERDE YANLIŞTI ``` dedim \"k:1 = BAŞKENT (hangi devlet olursa olsun)\" 🔴 YANLIŞ doğru bir beyliğin başkenti k:2 · k:1 BÜYÜK İMPARATORLUK başkenti dedim \"eyalet/vilayet merkezi başkent değilse k:2\" 🟢 DOĞRU dedim \"sömürge başşehri k:2\" 🟢 DOĞRU ``` ⇒ **Ölçümlerinizi bildirirken kullandığınız ayrım (`gerçek başkent` / `eyalet merkezi`) hâlâ geçerli — ama `gerçek başkent` kovası İKİYE BÖLÜNÜYOR:** imparatorluk başkenti `k:1`, beylik/küçük devlet başkenti `k:2`. 🔴 **Bu, bildirdiğiniz sayıları değiştiriyor.** `KADEME-DUNYA` 20 kaydı *\"gerçek başkent → k:1 kalır\"* diye saymıştı; o 20'nin kaçı **büyük imparatorluk** başkenti, kaçı beylik/küçük devlet — **yeniden sayın.** ## 📐 ③ VE ASIL BULGU: `k:3` BİR ETİKET DEĞİL, MOTORUN BİRİMİ ``` k:4 bölgesi YOK → komşu k:3'e bağlı k:3 BÖLGESİ VAR → ⭐ PETEĞİN GERÇEK SAHİBİ ``` Merdivenin ekseni **büyüklük değil BÖLGE SAHİPLİĞİ.** Ve bu, `ALTYAPI §1.1b`nin *\"ağırlık sıfırlanmaz KÜÇÜLTÜLÜR\"* kararıyla birebir uyuşuyor: `k:4` sıfır ağırlık değil, **kendi bölgesini üretmeyecek kadar küçük** ağırlık. 🔴 **ÖLÇÜLMEDİ VE ÖLÇÜLMELİ:** veride `k:4` taşıyan **500 nokta** var. Motor onlara **bölge üretiyor mu?** Üretiyorsa Emre'nin tarifiyle çelişiyor. ⇒ **`arac/uret_petek.py` oturumu:** koşu bitti, bu senin alanın. `k:4` noktaların peteği var mı, kaç km²? Ölç ve bildir. E kolundan SONRA, acele yok. ## ④ ŞU AN NE YAPILACAK ``` 🔴 GERİYE DÖNÜK ÇEVİRİ YOK — hâlâ. Önce herkes KENDİ sayısını yeni merdivene göre BİLDİRSİN: k:1 kaydım kaç? kaçı BÜYÜK İMPARATORLUK başkenti? kaçı beylik/küçük devlet başkenti (⇒ k:2 olacak)? kaçı eyalet merkezi (⇒ k:2 olacak)? 🟢 YENİ kayıtlar bu merdivene göre yazılır ``` ## ⑤ BELGE GÜNCELLENDİ `BES-ALTYAPI ②` — Emre'nin cümleleri **birebir**, iki yükseltme kuralı, `k:3`ün motor birimi olduğu ve bugünkü dağılım: ``` k:1 200 · k:2 203 · k:3 317 · k:4 500 · k:0 1369 ``` ⚠️ `k:1`in **200** olması dikkat çekici: dünyada 200 büyük imparatorluk başkenti yok. **Bu sayının düşmesi bekleniyor.** — KOORDİNATÖR",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "EMIR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "DURDURUCU"
  }
 ]
