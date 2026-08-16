@@ -832,6 +832,43 @@ gibi tek satırlık kayıtlardan oluşan dosyalarda **sessiz veri kaybı** olur.
 - Aynı anda en çok **3 oturum** koştur: 0 + bir Opus + bir Sonnet.
 - **Kendi oturumunun dosyaları dışına yazma.** Emin değilsen sor.
 
+- 🔴🔴 **AYRI DOSYA VERMEK, AYRI AD ALANI VERMEK DEĞİLDİR.**
+  *(16 Ağustos 2026 — bir günde ÜÇ vaka, biri %74 kayıp riski taşıyordu)*
+
+  `§7`'nin tamamı **dosya** sahipliğini koruyor. Ama `data/*.js`
+  dosyaları `window.<AD>` küresel değişkenleri tanımlıyor ve
+  **JavaScript'te asıl paylaşılan kaynak dosya değil KÜRESEL AD
+  ALANIDIR.** İki dosya aynı adı kullanırsa ikincisi birincisini
+  **sessizce ezer** — dosyalar ayrı olduğu için `§7` bunu görmez.
+
+  ```
+  ① KORIDOR_YAMA      2 dosya · biri DİZİ öteki NESNE
+                      koordinatör ikisine ayrı DOSYA adı verdi,
+                      DEĞİŞKEN adını sormadı
+  ② KADEME_YAMA       5 dosya · TEK ad
+                      tek tek okununca 537 kayıt · BİRLİKTE 137
+                      ⇒ %74 (400 kayıt) görünmez olurdu
+  ③ app.js süzgeci    ada değil BİÇİME bağlıydı — yeni yamaların
+                      biçimi tanınmadı, ikisi de ELENDİ
+  ```
+
+  🟢 **②'de zarar GERÇEKLEŞMEDİ** ve bunu varsayım değil ölçüm söyledi:
+  üç oturum kendi yamasının indiğini ayrı ayrı doğrulamıştı (57/57 ·
+  127/127 · 239), yani uygulayıcı dosyaları **tek tek** okumuş.
+  ⚠️ Ama bu bir **tasarım kararı değil, tesadüf**: uygulayıcı doğru
+  biçimde yazılmıştı. Tek bağlamda `eval` eden biri 400 kaydı sessizce
+  yok edebilirdi ve **hiçbir denetim ötmezdi** — denetimler *"yama
+  UYGULANDI mı"* diye sorar, *"yama OKUNDU mu"* diye sormaz.
+
+  ⇒ **KURAL:** `data/<tur>_<kısaltma>.js` → `window.<TUR>_<KISALTMA>`.
+  **Dosya adındaki ayırt edici parça, değişken adında da olacak.**
+  Bir oturuma dosya verirken **ad alanını da ver.**
+
+  📌 Ve ③ ayrı bir ders: elle liste → önek deseni → **biçim varsayımı**.
+  Her çare bir öncekinin daha görünmez hâli oldu.
+  ***Bir varsayımı kaldırmak, onu bir kademe daha derine gömmek
+  olabilir.*** Süzgeç tanımadığını **sessizce elemez, SAYIP BASAR.**
+
 Yeni bir oturum başlatılacaksa görev tanımı `oturumlar/` altına yazılır
 (örnek: `oturumlar/OTURUM-3-DEVLETLER.md`).
 
