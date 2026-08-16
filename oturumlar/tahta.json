@@ -4964,9 +4964,17 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "EMIR",
-  "teyit": {},
+  "teyit": {
+   "Opus hazır kıta 6": {
+    "zaman": "2026-08-16 03:05",
+    "soz": "kabul — alti adi YAZMADIM, ilerleme dosyasina 'arandi, koordinat yok' diye kaydettim (commit geliyor)"
+   }
+  },
   "kapanis": "",
   "dayanak": "M-0209..M-0212 toplu",
-  "aciliyet": "NORMAL"
+  "aciliyet": "NORMAL",
+  "teyit_kimlik": {
+   "Opus hazır kıta 6": "local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4"
+  }
  }
 ]
