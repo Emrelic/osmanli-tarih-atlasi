@@ -228,7 +228,7 @@ window.KADEME_YAMA = [
 
   {ad:"Rabat", k:1,
    kaynak:"TDV rabat (gövdesi okundu)",
-   neden:"TDV'nin BİREBİR cümlesi: 'Fransız Mareşal Lyautey, stratejik açıdan önemini dikkate alarak YÖNETİM MERKEZİNİ Fas şehrinden Rabat'a nakletti' (1912 himaye sonrası) — yani atlas ufkunun içinde (1912-1923) Fas'ın yönetim merkezi. Başlangıcı 545/1150'de Abdülmü'min'in ordugâhı. ⚠️ AYRIM: madde Muhammed III döneminde de 'başşehir' olduğunu gösteriyor ama onu BİREBİR ALINTI olarak ALAMADIM — özetleyicinin ifadesiydi ve M-0490'ın dersi tam bu (özet ile alıntı aynı maddeden farklı sonuç veriyor). O yüzden kd: YAZMADIM: elimde SAĞLAM tek tarih 1912 ve tek dönemle kd: yazmak bilgi taşımaz"},
+   neden:"İKİ BİREBİR ALINTI: ① 'Rabat'a özel bir önem veren III. Muhammed, Fas ve Merakeş'ten sonra burayı ÜÇÜNCÜ BAŞŞEHİR edindi' ② 'Fransız Mareşal Lyautey ... YÖNETİM MERKEZİNİ Fas şehrinden Rabat'a nakletti' (1912). Başlangıcı 545/1150'de Abdülmü'min'in ordugâhı. 🟢 VE ①. ALINTI ÜÇ KAYDIMI BİRDEN DOĞRULUYOR: Fas (Fez) · Merakeş · Rabat üçü de k:1 yazılı ve ÇELİŞMİYORLAR — TDV Fas'ın üç başşehri olduğunu AÇIKÇA söylüyor. ⚠️ kd: YİNE YAZMADIM: alıntı III. Muhammed'i adıyla veriyor ama TARİH VERMİYOR, ve 'kd: tarihsiz yazılmaz' (M-0471/M-0435). Hükümdarın saltanat yıllarını kendim koymak, maddenin söylemediği bir tarihi ölçülmüş gibi göstermek olurdu"},
 
   {ad:"Sicilmâse (Tâfilelt)", k:1,
    kaynak:"TDV sicilmase (gövdesi okundu)",
