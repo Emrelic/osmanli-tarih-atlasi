@@ -183,11 +183,46 @@ def _git(kayit, baslik, govde):
         if p.returncode == 0:
             print("push  : ✓ — mesaj artık HERKESTE")
         else:
-            # 🔴 Bu aletin bütün varlık sebebi: "gönderdim sandım" hatası
+            # 🔴 Bu aletin bütün varlık sebebi: "gönderdim sandım" hatası.
+            # AMA 16 Ağustos 2026'da TERSİ ölçüldü: push `cannot lock ref`
+            # ile düştü, araç "ULAŞMADI" dedi, ve mesaj ASLINDA GİT'TEYDİ —
+            # eşzamanlı başka bir push onu taşımıştı. İki oturum uyarıya
+            # uyup mesajı TEKRAR yazdı: M-0242 = M-0243, birebir 3374
+            # karakter. Zarar mükerrer mesaj, ama sebebi TAHMİNDİ.
+            #
+            # ⇒ Artık TAHMİN ETMİYOR, ÖLÇÜYOR: uzaktaki dalda mesaj
+            # numarası gerçekten var mı diye bakıyor.
+            # 📌 `send_message` İYİMSER yanılıyordu ("gönderdim", göndermedi)
+            # ve kaybı GİZLİYORDU. Bu araç KÖTÜMSER yanılıyordu ("ulaşmadı",
+            # ulaşmıştı) ve fazladan İŞ yaptırıyordu. İkincisi güvenli ama
+            # bedava değil — bir kanal yanılacaksa **teslim ettiğini inkâr
+            # etsin, etmediğini iddia etmesin**; en iyisi ise YANILMAMAK.
+            # ⚠️ `no` bu fonksiyonun kapsamında YOK (çağıranda yerel) —
+            # ilk yazımımda doğrudan `no` yazdım ve NameError verecekti.
+            # Mesaj numarası commit BAŞLIĞINDA duruyor, oradan alınıyor.
+            _m = re.search(r"M-\d{4}", baslik or "")
+            _no = _m.group(0) if _m else ""
+            _ulasti = False
+            if _no:
+                try:
+                    _g = subprocess.run(
+                        ["git", "-C", KOK, "log", "origin/main", "--oneline",
+                         "-40"], capture_output=True, text=True, timeout=60)
+                    _ulasti = _no in (_g.stdout or "")
+                except Exception:
+                    pass
             print("push  : 🔴 kod=%d" % p.returncode)
             print("   " + (p.stderr or "").strip()[:200])
-            print("   ⚠️ MESAJ HENÜZ KİMSEYE ULAŞMADI. Bunu KULLANICIYA da")
-            print("      söyle — arıza ÜÇ YERE bildirilir (§7.1).")
+            if _ulasti:
+                print("   🟢 AMA ÖLÇÜLDÜ: %s uzaktaki dalda VAR — mesaj "
+                      "ULAŞMIŞ." % _no)
+                print("      Başka bir oturumun push'u onu taşımış. "
+                      "TEKRAR YAZMA — mükerrer olur.")
+            else:
+                print("   ⚠️ ÖLÇÜLDÜ: %s uzaktaki dalda YOK — MESAJ HENÜZ "
+                      "KİMSEYE ULAŞMADI." % _no)
+                print("      Bunu KULLANICIYA da söyle — arıza ÜÇ YERE "
+                      "bildirilir (§7.1).")
     except Exception as e:
         # 🔴 SESSİZ GEÇİLMEZ. Önceki hâlde bir istisna `finally`ye düşüyor,
         # temizlik yapılıyor ve akış "push ✓" basmış gibi sürüyordu. Artık
