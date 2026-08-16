@@ -706,40 +706,52 @@ window.YERLESIMLER_E9353F = [
 //   delik değiller. Künye "noktasız" göründü çünkü kimse *"bu künyenin
 //   noktası var mı"* diye değil *"bu nokta sahipsiz mi"* diye soruyordu.
 //
-// ⇒ Geriye TEK iş kaldı ve o da bende: `merina`.
+// ⇒ Ve ben buradan "geriye TEK iş kaldı ve o da bende: merina" diye
+//   devam ettim. 🔴 O CÜMLE YANLIŞTI ve altı satır aşağıda ne olduğu yazılı.
 
-// ANTANANARİVO (Tananarive) — Merina Krallığı'nın merkezi.
-// TDV `madagaskar` (gövdesi okundu):
-//   "XVIII. yüzyılın ikinci yarısında orta bölgedeki Merinalar
-//    Madagaskar'da siyasî birlik kurdular"   ⇒ künye f:1787 ile uyuşuyor
-//   "1885'te imzalanan bir antlaşmayla Diégo-Suarez ve TANANARİVE'ye
-//    yerleşen Fransızlar…" · 1890 himaye · "27 Ocak 1897'de de yönetime
-//    el koyup kendisini yurt dışına sürdüler"
-//   hükümdarlar: I. Radama (1810-1828) · I. Ranavalona (1828-1861) ·
-//   III. Ranavalona (1883-1897)
+// ═══════ 🔴 ANTANANARİVO — YAZILDI, ÖLÇÜLDÜ, GERİ ALINDI ═══════
 //
-// ⚠️ ÜÇ SINIRI DA AÇIKÇA YAZIYORUM:
-//   ① TDV Antananarivo'yu "Merina'nın BAŞKENTİ" diye DOĞRUDAN demiyor;
-//     merkez olarak anıyor ve Fransızların 1885'te oraya yerleştiğini
-//     söylüyor. Nokta bu ikisine dayanıyor, açık bir başkent beyanına DEĞİL.
-//   ② PENCERE DIŞI: lat -18,879; pencere -11'in altını kapsamıyor.
-//     Bugün ÇİZİLMEYECEK — "ihlal değil, BEKLEYEN veri" kovası.
-//   ③ `merina` künyesi RENKSİZ — nokta inse ve pencere açılsa bile
-//     BOYANMAZ. Renk kuyruğuna girmesi gerekiyor.
-//   ⇒ Yani bu kayıt bugün hiçbir şey göstermiyor. Yine de yazıldı:
-//     araştırılmış doğru veriyi bekletmek, onu yeniden araştırmaktan pahalı.
+// Bu satırlarda `merina` için bir Antananarivo kaydı DURUYORDU. Kaldırıldı.
+// Kusur veride değil, KİMİN İŞİ OLDUĞUNDAydı — ve iki kör nokta üst üste
+// bindiği için kendi denetimlerimin hiçbiri ötmedi.
 //
-// 🔴 VE BİR TARİH FARKI VAR, ÇÖZMÜYORUM: TDV Fransız el koymasını
-//   27 Ocak 1897 diyor; `merina` künyesi `t:1897-02-28`. 32 gün fark.
-//   Künyenin kendi ucunu kullandım (§3.5) ve TDV'nin gününü buraya
-//   yazdım ki kaybolmasın.
-{ ad:"Antananarivo (Tananarive)", tur:"sehir", lat:-18.879, lon:47.508, g:1, k:1,
-  kur:"1787-01-01",
-  s:[{f:"1787-01-01", t:"1897-02-28", d:"merina",            kaynak:"madagaskar"},
-     {f:"1897-02-28", t:"1923-10-29", d:"fransa-cumhuriyet", kaynak:"madagaskar"}],
-  d:[], v:[],
-  bos:"veri-yok",
-  neden:"veri-yok — sahipsiz araligi YOK; bayrak UC AYRI SINIRI isaretliyor. ① kur:1787 SEHRIN kurulusu DEGIL, merina kunyesinin f: degeri; Antananarivo daha eski ama TDV kurulus yili VERMIYOR ve uydurmadim. ② PENCERE DISI (lat -18,879): bugun cizilmiyor, pencere acilinca kendiliginden canlanir. ③ merina kunyesi RENKSIZ: nokta inse bile boyanmaz, renk kuyruguna girmeli. ⚠️ Bir tarih farki: TDV madagaskar Fransiz el koymasini 27 Ocak 1897 diyor, kunye t:1897-02-28 — 32 gun fark, COZMEDIM, kunyenin ucunu kullandim. ⚠️ Ve TDV Antananarivo'yu Merina'nin BASKENTI diye DOGRUDAN demiyor; merkez olarak aniyor ve Fransizlarin 1885'te oraya yerlestigini soyluyor." },
+// ① İŞ BENDEN ALINMIŞTI, HABERİM YOKTU
+//    M-0713 `merina`yı bana verdi. M-0717 ④ onu GERİ ALIP `kademe_4ff22b`e
+//    verdi, M-0734 ④ tekrarladı. Ben M-0730'da hâlâ "bende kalan tek iş:
+//    merina" yazıyordum ⇒ İKİ TUR BAYAT bir görev tarifiyle çalıştım.
+//
+// ② VE ONLAR ZATEN YAZMIŞTI — 23:01'de, ben 23:1x'te
+//    data/yerlesimler_4ff22b.js · lat -18,9333 lon 47,5167
+//    benimki             · lat -18,8790 lon 47,5080
+//    ARALARINDA 6,11 km — AYNI ŞEHİR, İKİ KAYIT.
+//
+// 🔴 ÜÇ DENETİMİN ÜÇÜ DE TEMİZ DEDİ, VE ÜÇÜ DE HAKLIYDI:
+//    3 km kuralı      6,11 km > 3 km ⇒ EŞİĞİN ÜSTÜNDE, yakalayamaz
+//    3 km ölçümüm     838,6 km dedi — çünkü `yerlesimler_4ff22b.js`
+//                     `girdi.py`ye BAĞLI DEĞİL, tabanımda HİÇ YOKTU
+//    denetle.py       "SONUÇ: temiz" — aynı sebep
+//    ⇒ Yani bağlansaydı bile yakalanmazdı, bağlanmadığı için de görünmedi.
+//      İki ayrı körlük, tek sonuç.
+//
+// 📌 DERS — ve `§11`in "evren dar" ailesinin YENİ bir üyesi:
+//    Bugüne kadarki vakalar "bir dosya BAĞLANDIĞI GÜN bütün ölçüm
+//    aletlerinin tabanı yeniden doğrulanır" diyordu. Bu onun TERSİ:
+//    ***bağlanMAmış bir dosya, mükerrer denetimine görünmez.***
+//    Ve mükerrer riski tam da orada en yüksektir — çünkü bağlanmamış
+//    dosya, HENÜZ YAZILMAKTA OLAN dosyadır.
+//    ⇒ Nokta yazmadan önce `girdi.yukle()` YETMEZ; `data/yerlesimler_*.js`
+//      dosyalarının HEPSİ taranmalı, bağlı olsun olmasın.
+//
+// 📌 VE İKİNCİ DERS, birincisinden ağır: ölçüm beni kurtarmadı, kurtarabilecek
+//    olan şey TAHTAYI OKUMAKTI. M-0717 ve M-0734 ortada duruyordu; ikisini de
+//    kaydı yazdıktan SONRA okudum. Bir görev tarifi, veriden daha hızlı bayatlar.
+//
+// 🟢 KAYBOLMAYAN: benim kayıtta iki şey vardı, onlarınkinde yok —
+//    (a) 1897-1923 `fransa-cumhuriyet` dönemi
+//    (b) TDV `madagaskar`ın el koyma günü 27 Ocak 1897 · künye t:1897-02-28
+//        ⇒ 32 gün fark, ÇÖZÜLMEDİ
+//    İkisi de tahtadan `kademe_4ff22b`e bildirildi. Kaydı silmek bilgiyi
+//    silmek olmasın diye buraya da yazıldı.
 
 ];
 
