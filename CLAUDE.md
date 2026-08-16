@@ -13,6 +13,7 @@ oturumunun hangi dosyalara dokunabileceğini anlatır.
 | `YOL-HARITASI.md` | **Nereye gidiyoruz** — beş eksen, fazlar, bağımlılıklar | Her oturumda |
 | `YAPILACAKLAR.md` | **Sıradaki işler** — öncelikli iş listesi | Her oturumda |
 | `MIMARI.md` | **Motor ve teknik borç** — petek motoru, çözülmemiş beş sorun | Motora/veri modeline dokunacaksan **şart** |
+| **`BES-ALTYAPI.md`** | **BEŞ ALTYAPI UNSURU — Emre'nin kendi beyanı (16 Ağu 2026).** Topoğrafya · yerleşim · bölge yaslanması · doğum-ölüm · koridor ağı. 🔴 `ALTYAPI.md §0`daki "üç iş" bunun ESKİ hâlidir, yerini BU alır | **Altyapı durumu sorulduğunda ÖNCE burası** |
 | `VERI-YAPISI.md` | **Şemalar ve alan sözlüğü** — hangi alan ne demek | Veri yazacaksan **şart** |
 | **`DURUM.md`** | **Neresi bitti, neresi eksik** — ölçülmüş durum raporu | İşe başlarken |
 | **`OGRENILENLER.md`** | **Bu proje bize ne öğretti** — vakalardan çıkan kurallar | **Her oturumda** |
@@ -71,20 +72,20 @@ gerekir. Projenin bütün kalite kuralları (§3) bu tek cümleden türer.
 
 | Katman | Ölçülen durum |
 |---|---|
-| Yerleşim (motorun okuduğu) | **2308** nokta, 36 girdi dosyası |
-| Kronoloji | **1219** madde · 1219 duygu etiketli · 493 `yer_id` · 26 `vefat_id` |
-| Değişmez 1 — sahipsizlik | ✓ 2308 yerleşim, 180 sahipsiz (beklenen 180) |
-| Değişmez 1b — iç boşluk | ✓ pencere arası boşluk: 0 (beklenen 0) — örnekleme YAPILMAZ, tam tarama |
-| Değişmez 2 — Osmanlı senkronu | ✓ 499 kırılma, 0 açık (beklenen 0) |
-| Değişmez 2s — yabancı senkron | ✓ 715 YABANCI kırılması · 60 AÇIK (tavan 121) · 38 KAPSAM DIŞI |
+| Yerleşim (motorun okuduğu) | **2589** nokta, 48 girdi dosyası |
+| Kronoloji | **1223** madde · 1223 duygu etiketli · 811 `yer_id` · 26 `vefat_id` |
+| Değişmez 1 — sahipsizlik | ✓ 2589 yerleşim, 228 sahipsiz (beklenen 228) |
+| Değişmez 1b — iç boşluk | ✗ pencere arası boşluk: 3 (beklenen 0) — örnekleme YAPILMAZ, tam tarama |
+| Değişmez 2 — Osmanlı senkronu | ✓ 511 kırılma, 0 açık (beklenen 0) |
+| Değişmez 2s — yabancı senkron | ✓ 939 YABANCI kırılması · 78 AÇIK (tavan 121) · 178 KAPSAM DIŞI |
 | Değişmez 2i — işgal senkronu | ✓ 20 İŞGAL kırılması, 3 açık (tavan 3) |
-| Değişmez 2t — kırılmasız madde | ✓ kırılmasız madde: 38 (tavan 42) — bilinen borç |
-| Konum denetimi | 10 nokta PENCERE DIŞINDA — ihlal DEĞİL, pencere oraya açılana kadar BEKLEYEN veri |
-| Devletler dizini | **392** künye · **335** renk (`renkler.py`) |
-| Dizinsiz harita kimliği | 🔴 **0** kimlik / 0 pencere karşılıksız · *kapsam: `girdi.py`nin okuduğu 36 dosya — bağlanmamış partiler HARİÇ* |
+| Değişmez 2t — kırılmasız madde | ✓ kırılmasız madde: 32 (tavan 42) — bilinen borç |
+| Konum denetimi | 180 nokta PENCERE DIŞINDA — ihlal DEĞİL, pencere oraya açılana kadar BEKLEYEN veri |
+| Devletler dizini | **424** künye · **396** renk (`renkler.py`) |
+| Dizinsiz harita kimliği | 🔴 **6** kimlik / 7 pencere karşılıksız · *kapsam: `girdi.py`nin okuduğu 48 dosya — bağlanmamış partiler HARİÇ* |
 | Padişah · kartvizit | 41 kayıt · 36 portre · **41** kartvizit dolu |
 | Harita penceresi | `unary_union([box(-12, -11, 146, 82), box(-25, 60, -12, 82)])` |
-| Yayın | **r1140** · `dd87549` |
+| Yayın | **r1859** · `dd664e9` |
 
 > ⚙️ **BU TABLO ELLE YAZILMAZ — ÜRETİLİR.**
 > ```bash
