@@ -1,4 +1,41 @@
-<!-- DURUM: IS 1 HAZIR ¦ 2026-08-16 ¦ kosu BEKLENIYOR (kosuyu koordinator tetikler) -->
+<!-- DURUM: IS 1 BITTI ¦ 2026-08-16 ¦ kosu temiz · ongoru 7 TUTTU 2 CURUDU · IS 2 bekliyor -->
+
+# 🟢 İŞ 1 BİTTİ — KOŞU DOĞRULANDI
+
+**Koşu** 16 Ağustos 02:37:41 → 04:20:52 · **1s 43dk 11sn** · `kosu_egim_16agu.log`
+**Öngörü** `denetim/EGIM-ONGORU.md` (koşudan ÖNCE, commit `3240a48`) — **9 kalem: 7 TUTTU · 2 ÇÜRÜDÜ**
+
+```
+① DEM satırı                  basar              etopo2022_30s_dunya.tif  ✓
+② ızgara kara hücresi         3.359.608          3.359.608                ✓ BİREBİR
+③ sürtünme medyan · maks      1,119 · 11,03      1.119 · 11.03            ✓ BİREBİR
+④ erişilebilirlik             AYNI               3.336.475 = 3.336.475    ✓
+⑤ ızgarada değişen hücre      150–185 bin        166.069 (%4,98)          ✓
+⑥ haritaya inen parça         0–8                13 · 37.129 km²          🔴 ÇÜRÜDÜ
+⑦ boşalan petek · bileşen     0 · 20–30          0 · 24                   ✓
+⑧ Değişmez 1 (eğim ekseni)    değişmez           196 → 196                ✓
+⑨ ek süre                     +2–3 dk            +58 sn                   🔴 ÇÜRÜDÜ
+```
+
+**Kapılar:**
+```
+denetle.py    SONUÇ: temiz  (Değişmez 2: 4→0 · Değişmez 5: 4→0 · sahipsiz 196→196)
+Doğrulama     tüm yerleşimlerin peteği geçerli ✓
+renk_olc.py   0 çakışma · 0 görünmez · çıkış 0
+renk_fark.py  0 doğan kusur · 0 düşen çift · 0 yakın-çift regresyonu
+```
+
+🔴 **⑥ çürüdü ve KENDİ HÜKMÜMÜ DÜZELTTİ.** M-0143'te *"eğimin haritaya inen
+etkisi küçük olacak"* demiştim. Mutlak olarak doğru (37.129 km²), **ama
+ızgaranın kendi alanı içinde etki %18,3** (13/71 parça · 37.129/210.198 km²).
+*"Menzil dar"* doğru, *"etki küçük"* **yanlış** — ikisini karıştırmışım.
+
+🔴 **⑨ çürüdü ve mazeretimi KULLANMIYORUM.** *"Uyku/rekabet"* yazmıştım;
+uygulanmıyor — duvar ≈ işlemci (6/6 · 52/52), tahminim fazlaydı. A/B ölçümü
+koşunun **%0,8'ine** mal oldu.
+
+---
+
 
 # MOTOR EPOK — ilerleme
 

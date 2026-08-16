@@ -1,4 +1,4 @@
-<!-- DURUM: BEKLIYOR ¦ 2026-08-16 02:2x ¦ KOSUDAN ÖNCE yazıldı, damgalı -->
+<!-- DURUM: DOGRULANDI ¦ 2026-08-16 ¦ 9 kalem: 7 TUTTU · 2 CURUDU -->
 # EĞİM ÇARPANI — KOŞU ÖNGÖRÜSÜ · `İŞ 1`
 
 **Yazan** Opus hazır kıta 4 (görev `MOTOR-EPOK.md`) · **Damga** koşu
@@ -150,14 +150,78 @@ Bu tablo koşudan sonra doldurulacak. **Çürüyen kalem, tutan kalemden
 değerlidir** — `CLAUDE.md §11`, RENK 2 vakası: *"beş öngörülük bir kümede
 bilgiyi yalnız YANLIŞ OLAN taşıdı."*
 
-| # | kalem | mazeret | öngörü | ölçüm | sonuç |
+**KOŞU: 16 Ağustos 2026 · 02:37:41 → 04:20:52 · 1s 43dk 11sn · `kosu_egim_16agu.log`**
+
+| # | kalem | mazeret | öngörü | ÖLÇÜM | sonuç |
 |---|---|---|---|---|---|
-| ① | motor ölmez, DEM satırı | 🔴 yok | basar | | |
-| ② | ızgara kara hücresi | 🔴 yok | 3.359.608 | | |
-| ③ | sürtünme medyanı · maks | 🔴 yok | 1,119 · 11,03 | | |
-| ④ | erişilebilirlik | 🔴 yok | AYNI | | |
-| ⑤ | ızgarada değişen hücre | 🟡 taban | 150–185 bin | | |
-| ⑥ | **haritaya inen parça** | 🟡 aşağı / 🔴 yukarı | **0–8** | | |
-| ⑦ | boşalan petek · bileşen kilidi | 🔴 yok / 🟡 | 0 · 20–30 | | |
-| ⑧ | Değişmez 1 (eğim ekseni) | 🔴 yok | değişmez | | |
-| ⑨ | ek süre | 🟡 uyku | +2–3 dk | | |
+| ① | motor ölmez, DEM satırı | 🔴 yok | basar | `etopo2022_30s_dunya.tif` | ✓ TUTTU |
+| ② | ızgara kara hücresi | 🔴 yok | 3.359.608 | **3.359.608** | ✓ BİREBİR |
+| ③ | sürtünme medyanı · maks | 🔴 yok | 1,119 · 11,03 | **1.119 · 11.03** | ✓ BİREBİR |
+| ④ | erişilebilirlik | 🔴 yok | AYNI | 3.336.475 = 3.336.475 | ✓ TUTTU |
+| ⑤ | ızgarada değişen hücre | 🟡 taban | 150–185 bin | 166.069 (%4,98) | ✓ TUTTU |
+| ⑥ | **haritaya inen parça** | 🟡 aşağı / 🔴 yukarı | **0–8** | **13 · 37.129 km²** | 🔴 **ÇÜRÜDÜ** |
+| ⑦ | boşalan petek · bileşen kilidi | 🔴 yok / 🟡 | 0 · 20–30 | 0 ✓ · 24 | ✓ TUTTU |
+| ⑧ | Değişmez 1 (eğim ekseni) | 🔴 yok | değişmez | 196 → **196** | ✓ TUTTU |
+| ⑨ | ek süre | 🟡 uyku | +2–3 dk | **+58 sn** | 🔴 **ÇÜRÜDÜ** |
+
+**7 TUTTU · 2 ÇÜRÜDÜ.**
+
+---
+
+## 🔴 ÇÜRÜYEN İKİ KALEM — ve mazeretlerini KULLANMIYORUM
+
+### ⑥ — 0–8 dedim, 13 çıktı
+Mazeretim **tek yönlüydü**: *"SIFIR çıkması mazeretlidir"* (aşağı yön). Ölçüm **yukarı** çıktı. `>25 çıkarsa mazeret aramam` demiştim; 13 o eşiğin altında **ama 8'in de üstünde.** ⇒ Bant yanlıştı, kabul ediyorum.
+
+**Ne öğretti — ve bu, kendi hükmümü düzeltti.** Bandı, ızgara değişim oranını (%4,97) *ölçmediğim* bir "sorulan parça sayısı"yla çarparak türetmiştim. Gerçek oran çok daha yüksek:
+```
+toplam el değiştiren   71 parça · 210.198 km²
+bunun EĞİMDEN geleni   13 parça ·  37.129 km²   → %18,3 · alanca %17,7
+```
+M-0143'te *"eğimin haritaya inen etkisi küçük olacak"* demiştim. Mutlak olarak doğruydu (37.129 km², maske karasının binde 1'i). **Ama ızgaranın kendi alanı içinde etki BEŞTE BİR** — *"menzil dar"* doğru, *"etki küçük"* **yanlış.** İkisi ayrı şey ve karıştırmışım.
+
+**Ve değişenler tarihen daha isabetli görünüyor** — ⚠️ bu bir ölçüm değil, **okumam**:
+```
+Buryat toprakları  Kirensk → İRKUTSK     Baykal ötesinin gerçek merkezi
+Urmiye             Merend  → TEBRİZ      bölgenin merkezi Tebriz
+Zadar (Zara)       Pag     → KARLOVAC    ardülke ADAYA değil ANAKARAYA
+Aleksandrovsk      kendisi → KORSAKOV    Kuzey Sahalin → Güney Sahalin, AYNI ADA
+Tûr (Sînâ)         Tahtâ   → MİNYE       Sînâ Yukarı Mısır'a değil Orta Mısır'a
+Wick               Inverness → ABERDEEN  İskoçya doğu kıyısı kendi içinde
+```
+
+### ⑨ — +2–3 dk dedim, +58 sn çıktı
+```
+eğim yüzeyi (DEM)        6 sn   (öngörü ~40 sn)
+A/B ölçümü (2. Dijkstra) 52 sn  (öngörü ~1dk 40sn)
+```
+Mazeret olarak *"uyku/rekabet"* yazmıştım — **uygulanmıyor**: iki aşamada da duvar ≈ işlemci (6/6 · 52/52), gecikme yok, **tahminim fazlaydı.** DEM okuma için kendi betiğimin 40 sn'sini almıştım ama o betik ayrıca shapely maskesi kuruyordu; motorda o iş zaten yapılmış → 6 sn.
+🟢 A/B ölçümü koşunun **%0,8'ine** mal oldu — mazeret ihtiyacını kaldırmanın fiyatı buydu.
+
+---
+
+## KOŞUNUN ÖTEKİ SONUÇLARI — eğimle ilgisi yok, ama kayda geçsin
+```
+denetle.py         SONUÇ: temiz   (Değişmez 2: 4 açık → 0 · Değişmez 5: 4 → 0)
+                   Değişmez 1 sahipsiz 196 → 196  ⇒ ⑧ tuttu
+Doğrulama          tüm yerleşimlerin peteği geçerli ✓
+renk_olc.py        0 çakışma · 0 görünmez · 8 yakın-ama-değmeyen · çıkış 0
+renk_fark.py       0 doğan kusur · 0 düşen çift · 0 yakın-çift regresyonu
+                   (77 zincir kusuru = bugün eklenen Amerika noktalarının
+                    künyesiz kimlikleri — BENİM DEĞİŞİKLİĞİMDEN DEĞİL)
+koşu bilançosu     Yabancı devlet gövdeleri %57,4 · Dönemler %20,3 ·
+                   Çöl tavanı %10,4 · BENİM aşamalarım toplam %1,9
+```
+
+## ⏸️ AÇIK BORÇ — kayda geçiyor ki yarın kusur diye bulunmasın
+```
+B YOLU        kara tanımını da DEM'e taşımak — ertelendi (tek değişken kuralı)
+              ölçülmüş ayrışma: 74.796 hücre
+KISTIRMA      pencere dışı nokta ızgaranın kenarına sessizce oturuyor.
+              144 nokta · doğudaki 6'sı KARA üzerine düşüyor.
+              Bugün zarar YOK (o peteklerin dördü hücresiz, ikisi %0)
+              — ama pencere doğuya açılınca verecek. (M-0247)
+:1790 SÜZGECİ eğim ızgarada 166.069 hücre değiştiriyor, haritaya 13 parça
+              iniyor. Farkın sebebi süzgeç. Gevşetilmeli mi — ÖLÇÜLMEDİ,
+              ve bu AYRI bir iştir.
+```
