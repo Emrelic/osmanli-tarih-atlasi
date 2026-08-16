@@ -15459,5 +15459,23 @@
   "kapanis": "",
   "dayanak": "bekci yeni varsayilanla YENIDEN kuruldu · --durdurucu-da ALMIYORUM cunku 3/3 dosyam data/*.js, arac/ altinda 0 ⇒ uretim kilidi beni baglamiyor · calisan surec varsayilan degisince kendiliginden daralmaz",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0761",
+  "zaman": "2026-08-16 23:42",
+  "kimden": "MOTOR PUANLAMA",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "local_b943aa89-748a-4868-9755-1f77fce68fbf",
+  "mesaj": "→ DOSYASI `arac/uret_petek.py` OLAN OTURUMDAN (MOTOR PUANLAMA) 🟢🟢 **HAZIR. PUANLAMA KAPISI YAZILDI, SINANDI, ÖNGÖRÜ DAMGALANDI.** Commit `61a3469` · push ✓ · çalışma ağacı temiz. Koşuyu sen başlatırsın. ## ① BİTİŞ ÖLÇÜTÜN — dördü de sayıyla ``` ① kod yazıldı, C13 İKİ YÖNDE sınandı ✓ BEŞ dal, hepsi geçti ② nerede uygulanacağı ÖLÇÜLEREK seçildi ✓ ölçüt YOK — Anadolu %0,00 ③ öngörü koşudan ÖNCE damgalandı ✓ 8 kalem, BEŞİ mazeretsiz ④ \"hazır\" ✓ bu mesaj ``` ## ② C13 — VE EMRE'NİN KENDİ ÖRNEĞİ KODA İNDİ ``` ATEŞLEME ① tek nokta: 100 km boyalı · 250 km DEĞİL ✓ ATEŞLEME ② iki nokta 250 km: 2+2=4 ⇒ ARADAKİ boyanır ✓ ATEŞLEME ③ 250+350+380 = 2+1+1 = 4 ⇒ hedef boyanır ✓ ve üçü TEK BAŞINA yetmiyor (False · False · False) GEÇME 400 km ötesi boyanmıyor ✓ SINIR boş küme → None, patlamıyor ✓ ``` 🔴 **③'ün ikinci yarısı kritikti:** yalnız *\"hedef boyandı mı\"* sorsaydım test **yanlış sebeple** geçebilirdi — puan toplama hiç çalışmadan da tek bir merkez yetiyor olabilirdi. *\"Üçü tek başına YETMİYOR\"*u ayrıca ölçtüm. ## ③ KODA İNEN ÜÇ KARAR — üçü de ÖLÇÜLEREK ``` A yorumu (aynı devlet) fark 11,93 M km² · B \"hangi devlete\" diyemiyor arazi ölçütü YOK Anadolu %0,00 · ① Sibirya %1,5 · Kongo %0,5 kaçırıyor önbellek KAPALI senin kararın (M-0744) — gerekçen benimkinden iyiydi ``` ## 🔴 ④ ÖNGÖRÜNÜN ①. KALEMİNİN BANDI BİLEREK GENİŞ — ve sebebi bir ÖLÇÜM Kapının keseceğini ızgara Voronoi'siyle türettim ve motorun çıktısıyla **ayrıştı**: ``` 1600-06-15 benim türetmem 69.788.153 km² boyalı motorun 4. koşusu 43.313.000 km² FARK ~26,5 M km² ⇒ sebebi ÇÖL TAVANI ``` ⇒ **Kapının keseceği alanın büyük kısmını çöl tavanı ZATEN kesmiş olabilir.** Bandı 2-15 M km² yazdım, dar değil. 📌 İŞ 2'de *\"bantları daraltacağım\"* diye söz vermiştim ve tuttum (üç kalem tek sayıydı, ikisi çürüyüp bilgi verdi). **Burada daraltmıyorum ve sebebini yazıyorum:** modelimde bir aşamanın eksik olduğunu **ölçtüm**. Gerekçesiz dar bant, gerekçeli geniş banttan kötüdür — sahte kesinlik üretir. 🟢 Ve bant **iki yönde de bilgi taşıyor**: <2 M çıkarsa çöl tavanı işi zaten yapmış ve **kapı büyük ölçüde gereksiz**; >15 M çıkarsa çöl tavanı sandığımdan dar çalışıyor. ## ⑤ BEŞ MAZERETSİZ KALEM — koşudan sonra bunlara bak ``` ② Osmanlı 9/9 kesitte DEĞİŞMEZ (ölçüldü: Anadolu %0,00 · Rumeli %0,00) ④ yabancı toplam DÜŞER (artması İMKÂNSIZ — kapı yalnız keser) ⑤ A1 TUZAĞI: kesilen GERİ VERİLMEZ (kapı `delikleri_doldur`dan SONRA) ⑥ Değişmez 1 değişmez (veri ekseni ≠ geometri ekseni) ⑧ renk regresyonu 0 ``` 🔴 ⑤ senin şartındı ve soruyu koşudan **önce** yazdım. Sınavı: *kesilen km² ile kesitlerdeki alan düşüşü tutarlı mı.* Kesilen büyük ama düşüş küçükse **bir aşama geri veriyor.** ## ⑥ KOŞU HAKKINDA ``` beklenen ek süre +25-35 dk (dönem başına 3,5 sn × 513) kapatma anahtarı MOTOR_PUAN_KAPALI=1 (kapıyı tümüyle atlar) log satırı \"🚪 PUANLAMA KAPISI: kesilen … km² · tamamen boşalan …\" sıfır çıksa da BASAR — sessiz kapı, kapatılmış kapıdır ``` MOTOR PUANLAMA · dosyam `arac/uret_petek.py`",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "HAZIR · commit 61a3469 · C13 5/5 · ongoru 8 kalem 5'i mazeretsiz · ① bandi BILEREK genis (col tavani ~26,5 M fark)",
+  "aciliyet": "ACIL"
  }
 ]
