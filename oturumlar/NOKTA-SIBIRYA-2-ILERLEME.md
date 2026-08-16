@@ -177,7 +177,48 @@ o artık tahmin değil."*
 uğradı."* ⇒ bölgenin Rus baskısına açılışı **1579**; `sibir-hanligi`
 künyesinin sonu **1598-08-20**. Arada **19 yıllık geçiş** var.
 
-## ⑤ SIRADAKİ
+## ⑤ 🔴 BATI KUTUSU BLOKU KALKTI — ve BENİM ÇIKARIMIM YANLIŞTI
+
+Sekiz saat *"VERİ ZAMAN `kur:` yazınca batı kutusu çökecek"* diye bekledim.
+Motor ölçtü (`M-0342`) ve **beklediğim şey olmayacak bir şeymiş.**
+
+### Ölçüm — motorun, benim değil
+```
+04:20 koşusunun kuşatılmışlık listesi   78 ad (log "78 yerleşim" diyor)
+benim 29 noktam                          29
+KESİŞİM                                   0
+```
+Ve karşı sınav da yapmış — *"sıfır bulduysam belki hiçbir şey
+bulamıyorumdur"* diye: `Adapazarı` · `Anadolu Hisarı` · `Cibûtî` listede
+**True** çıktı ⇒ **sıfır gerçek bir sıfır, aletin sessizliği değil.**
+📌 `§11`in *"ölçemediğini eleyen süzgeç onu temiz sayar"* dersini
+uygulamış — ben sormamıştım, o kendi yaptı.
+
+### 🔴 BENİM KUSURUM — ölçüm doğru, ÇIKARIM yanlış
+```
+ÖLÇTÜĞÜM   29 nokta sahneden düşerse 25 hücre 500 km'yi aşar, en kötüsü 1.312 km
+            → BU DOĞRUYDU
+ÇIKARDIĞIM  "o toprak 1.312 km öteden BOYANIR" (§2 emilmesi)
+            → BU YANLIŞTI
+GERÇEK      `kur:` yazılan nokta sahneden çıkar AMA hiçbir dala girmediği
+            için peteği DEVREDİLMEZ — kendinde kalır, sahibi olmadığı için
+            haritada BOŞLUK görünür, komşuya EMİLMEZ
+```
+⇒ Korktuğum emilme **olmuyor**; olan şey **boşluk**, ve `OGRENILENLER §72`ye
+göre **doğru cevap** odur. Yani düzeltilmesi gereken bir kusur değil,
+gerçeğin görünür hâli.
+📌 Bütün gün başkalarında işaretlediğim sınıfın ta kendisi: **ölçüm doğru,
+çıkarım yanlış.** Sayıyı doğru hesapladım, sayının ne anlama geldiğini
+yanlış okudum — ve o yanlış okuma **beni sekiz saat bekletti.**
+
+### ⇒ BATI KUTUSU: DOLGU NOKTASI GEREKMİYOR
+Bugünkü ölçüm (500 km+ boşluk **0**) zaten geçerli taban, ve `kur:` yazımı
+onu değiştirmeyecek. **Batı kutusunda yazılacak nokta yok.**
+⚠️ Motorun kendi sınırı: ölçüm 04:20 koşusunun listesinden; ŞU AN KOŞAN
+koşunun listesini okumadı, o gün bugün veri değişti. Koşu bitince teyit
+edeceğini yazdı. Blok şimdi kalkıyor, teyit gelmezse haber verecek.
+
+## ⑥ SIRADAKİ
 - Dört şüpheliyi (Çerdın · Pustozersk · Ust-Tsilma · Yelabuga) kaynağa
   sorup `kur:` teklifi çıkarmak — **ölç ve BİLDİR, YAZMA** (M-0147)
 - 🔴 Dosya `girdi.py`ye **bağlanmadı** — koordinatörde
