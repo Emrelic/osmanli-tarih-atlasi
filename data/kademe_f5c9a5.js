@@ -209,6 +209,17 @@ window.KADEME_YAMA = [
 //     aranmak zorunda — ve çoğu şehir maddesi o cümleyi kurmuyor.
 //   📌 Bu bir tıkanma değil, ÖLÇÜLMÜŞ bir kapsam sınırıdır (`§4` tanecik
 //     boşluğu). Kalan noktalar için akademik kaynak meşru hâle geliyor.
+//
+// 🔴 DOĞU ASYA'DA SINIR DAHA SERT — ve bu da ölçüldü:
+//   `cin--ulke`  Ming/Qing idarî yapısını VERMİYOR; verdiği taksimat
+//                MODERN (21 eyalet · 3 belediye · 5 özerk bölge, 1989 nüfusu)
+//   `japonya`    han/daimyo düzenini şehir düzeyinde VERMİYOR; yalnız
+//                "Eyalet sistemi yerine vilâyet sistemi getirildi" (1868)
+//   ⇒ Çin · Japonya · Kore kutusundaki noktalar için TDV bu tanecikte
+//     KONUŞMUYOR. Bu bir kusur değil, TDV'nin kapsamı — ve `§4` bunu zaten
+//     karşılıyor: kapsanmayan yerde AKADEMİK kaynak meşrudur.
+//   ⚠️ O yüzden bu dosyada Doğu Asya'ya YALNIZ başkent kaydı var; kademe
+//     merdiveninin alt basamakları (eyalet/prefektür merkezi) YAZILMADI.
 // ⚠️ Üçü `k:` TAŞIMIYOR ve bu bir EKSİK DEĞİL, bir SONUÇTUR:
 //   Ecmîr  kaynak SUSUYOR (madde var, kademe yazmıyor)
 //   Sûrat  adres YANLIŞ  (slug canlı ama başka maddeyi açıyor)

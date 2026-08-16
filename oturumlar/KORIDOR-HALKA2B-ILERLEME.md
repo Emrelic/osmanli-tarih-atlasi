@@ -1,8 +1,150 @@
 # KORİDOR HALKA2B — ilerleme
 
 **Oturum** KORIDOR HALKA2B (Emre'nin verdiği ad: *opus hazır kıta 22*)
-**Görev** `oturumlar/KORIDOR-HALKA2B.md` · tahta **M-0233**
-**Dosyam** `data/koridor_f5c9a5.js` · **16 Ağustos 2026**
+**16 Ağustos 2026** · İKİ GÖREV yapıldı, ikisi de aşağıda:
+
+| # | Görev | Dosya | Hâl |
+|---|---|---|---|
+| 1 | `oturumlar/KORIDOR-HALKA2B.md` (M-0233) | `data/koridor_f5c9a5.js` | **BİTTİ+TESLİM** |
+| 2 | `oturumlar/KADEME-ASYA.md` (M-0305) | `data/kademe_f5c9a5.js` | **YARIM+DEVAM** |
+
+---
+
+# GÖREV 2 — KADEME-ASYA
+
+## ⓪ BİTİŞ ÖLÇÜTÜ — sayıyla
+
+```
+536 kademesiz nokta vardı → 127'sine KAYIT yazıldı
+   k:1 → 69 · k:2 → 55 · k: YAZILMAYAN → 3 (üçünün de nedeni yazılı)
+   kd: taşıyan 124 · coklu_merkez:true 54
+409 nokta ARAŞTIRILMADI
+başka kademe dosyalarıyla ORTAK AD: 0
+```
+🟢 **`kd:` sayacı SIFIRDAN çıktı.** `KADEME-KD.md §②` ölçümü *"`kd:` yazılı
+kayıt **0** — alan CANLI, veri SIFIR"* diyordu. İlk 124 kayıt bu dosyada.
+
+## ① ÖNGÖRÜLERİM — ölçümden ÖNCE yazıldı (M-0311), şimdi PUANLANIYOR
+
+```
+(a) k:1 kümesi en kolay ve en sağlam doğrulanacak, karşılığı
+    devletler.js künyelerinde duruyor                      🟢 TUTTU
+    127 kaydın 120'si başkent çapraz eşlemesinden geldi
+(b) "kaynak susuyor" oranı %50'nin ÜSTÜNDE çıkacak          🔴 ÇÜRÜDÜ
+    8 TDV araması: 5'i kademe verdi, 3'ü vermedi = %37,5
+    ⚠️ AMA örneklem 8 ve SEÇİMİ TARAFLI — en tanınmış şehirleri seçtim.
+      Gerçek oran daha yüksek çıkabilir; "çürüdü" hükmü BU ÖRNEKLEM içindir.
+(c) Doğu Asya TDV'de idarî taksimat taneciğinde neredeyse hiç
+    konuşmayacak                                            🟢 TUTTU
+    cin--ulke Ming/Qing yerine MODERN taksimat veriyor (1989 nüfusu);
+    japonya han/daimyo düzenini şehir düzeyinde vermiyor
+```
+📌 Ve bilgiyi taşıyan **çürüyen** oldu: (b) yanlış çıkmasaydı örneklem
+taraflılığını hiç fark etmezdim.
+
+## ② KABUL KAPISI — altısı da koşuldu
+
+```
+① node ile okundu       127 kayıt · mükerrer ad 0
+② ad veride VAR MI      uygulanamayacak kayıt 0 · zaten kademesi olana yazan 0
+③ kaynak alanı          kayıt satırı 127 = `,kaynak:"` alanı olan 127 = node 127
+④ k: yazılmayan         3, ve ÜÇÜNÜN DE nedeni yazılı · neden: boş olan 0
+                        kd: aralık bozuk (ters/sıfır/ufuk dışı) 0
+⑤ bayt_denetle.py       kod=0
+⑥ git status            commit'li (fb730e8 ve öncesi)
+```
+
+## ③ ALTI SESSİZ DÜŞME — hepsi bende, hepsini İKİNCİ SAYIM yakaladı
+
+Hiçbirini bir denetim betiği bulmadı; çünkü hiçbir denetim *"kaç tane
+OLMALIYDI"* diye sormuyor.
+```
+① ÜÇ HANELİ YIL    "918-01-01" > "1281-01-01" (metin karşılaştırması)
+                   goryeo · pagan · song kırpılırken 4 kayıt yok oldu
+② AYIRAÇ           `baskent` alanı "/" ve "·" da kullanıyor; Bâbürlü'nün
+                   başkenti AGRA hiç aday olmadı ("Delhi / Agra")   → +11 kayıt
+③ TRANSLİTERASYON  "Murshidabad" ↔ "Murşidâbâd" · "Bahawalpur" ↔ "Bahâvelpûr"
+                   "Junagadh" ↔ "Cûnâgadh" · "Banda Aceh" ↔ "Banda Açe"
+                   "Faizabad" ↔ "Feyzâbâd"                          → +5 kayıt
+④ ÇIKTI SAYACI     üretici "125" bastı, dosyada 130 vardı (faz 2'yi saymıyordu)
+⑤ KAPI ③          "kaynak:" kelimesini dosyanın HER YERİNDE saydı (245 vs 127)
+⑥ glob YOLU        Windows "\" döndürdü, kendi dosyamı TANIYAMADIM
+```
+🔴 **Ve ③'te bulanık eşik DOĞRUYU eleyip YANLIŞI geçirdi:**
+```
+Bahâvelpûr ↔ Bahawalpur  0,80  ← DOĞRU, eşik ELEDİ
+Bhâgalpûr  ↔ Bahawalpur  0,84  ← YANLIŞ, eşik GEÇİRDİ (Bihar ↔ Pencap, ~1500 km)
+```
+⇒ Benzerlik oranı bir **sıralama** aracıdır, bir **karar** aracı değil.
+Kararı koordinat verdi. Aracı *"karar verme, aday listele"* diye kurmuş
+olmam, yanlış kaydı yazmamı engelleyen tek şeydi.
+
+## ④ KUTU ÇAKIŞMASI — sordum, sonra sormanın gereksiz olduğunu ölçtüm
+
+M-0330'da koordinatörden *"öteki kutuları yaz"* istemiştim. Sonra:
+```
+ÖLÇTÜĞÜM  : kutuları bilmeye GEREK YOK — yama dosyaları diskte duruyor,
+            aynı `ad` iki dosyada varsa çakışma ZATEN GERÇEKLEŞMİŞTİR
+ÇIKARIMIM : "kutular kesişiyor mu" YANLIŞ SORU.
+            Doğrusu "aynı noktaya iki kayıt yazılmış mı" — ve o BEKLENMEZ, ölçülür
+```
+`data/kademe_4ff22b.js` ile **7 ortak ad**: beşinde değer AYNI (iki ayrı
+oturum, iki ayrı yöntem — bağımsız doğrulama), ikisinde farklı. Orta Asya'nın
+beşi ona devredildi, Sind'in ikisi bende kaldı; karar **yatay** yazıldı
+(M-0408) ve **geri alma daveti** ile birlikte gitti. Kabul etti (M-0425),
+uyguladı, **ortak ad 0**.
+
+⚠️ Ve karşı oturum bana bir ADRES DERSİ verdi: `--kime` alanına dosya yolu
+yazmıştım; doğrusu karşı tarafın **tahtada kayıtlı adı**. Mesaj ancak onun
+nöbetçisinin adres-tuzağı yakalayıcısı sayesinde ulaştı.
+
+## ⑤ ŞARTNAME KUSURU — bildirildi (M-0414)
+
+`KADEME-ASYA.md` **kutuyla** `lat -11..55 / lon 63..146` diyor, **düz metinle**
+*"Hint · Çin · Japonya · Kore · Güneydoğu Asya"* diyor. Kutu Orta Asya'yı
+içeriyor, metin içermiyor. **Metni seçtim ve seçtiğimi yazdım** — bu bir
+TERCİHTİ, ölçüm değil.
+
+## ⑥ ÖLÇÜLMÜŞ KAPSAM SINIRLARI — tıkanma değil, SONUÇ
+
+```
+TDV `baburluler`  HİYERARŞİYİ veriyor: "Sûbeler 'serkâr' denilen kazalara
+                  bölünmüştü · Her serkâr 'pergene' adı verilen nahiyelere
+                  ayrılmıştı" + sûbe BÖLGELERİ
+TDV `hindistan`   sûbe listesini ve MERKEZLERİNİ vermiyor
+TDV `dekken`      Bâbürlü Dekken sûbesinin merkezini adlandırmıyor
+TDV `cin--ulke`   Ming/Qing yerine MODERN taksimat (1989 nüfusu)
+TDV `japonya`     han/daimyo düzenini şehir düzeyinde vermiyor
+```
+⇒ **Hiyerarşi kaynaklı, ATAMA kaynaksız.** Doğu Asya'da sınır daha sert.
+
+## ⑦ M-0441 (beşinci TDV tuzağı) UYGULANDI ve KENDİ HÜKMÜMÜ ÇÜRÜTTÜ
+
+```
+ilahabad · ilahabad--sehir · ilahabad--hindistan   302 ÖLÜ
+allahabad                    200 · 93 KB · ALLAHÂBÂD   ← GERÇEK MADDE
+```
+*"Erişemedim"* hükmüm **erkendi**; doğru adres vardı. Kayıt düzeltildi.
+📌 Bir slug denemek *"aradım"* değildir.
+
+🟢 **Ve tuzağa ucuz bir çare ölçüldü:** M-0441 ölü slugun 1542 bayt gövde
+döndürdüğünü söylüyor; bende 15 bayt döndü. Fark: **yönlendirmeyi
+izlemiyorum.** ⇒ Ölçüt gövde boyu değil, **izlenmemiş HTTP kodu** olmalı.
+Eşik ayarlamak tuzağı kovalar; yönlendirmeyi izlememek onu **ortadan
+kaldırır**.
+
+## ⑧ NE YAPMADIM — açıkça
+
+- 409 nokta araştırılmadı (Çin ~130 · Hindistan ~85 · GD Asya · Kore · Japonya).
+- Doğu Asya'ya yalnız **başkent** kaydı var; eyalet/prefektür merkezleri YOK.
+- `data/yerlesimler*.js`e dokunmadım — yamayı koordinatör işler.
+- Statik `k:` eşiğim (1/3) koordinatör onayı **bekliyor** (M-0330 H1).
+
+---
+
+# GÖREV 1 — KORİDOR HALKA2B
+
+**Dosyam** `data/koridor_f5c9a5.js` · tahta **M-0233**
 
 ---
 
