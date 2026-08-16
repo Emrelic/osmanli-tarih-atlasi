@@ -7029,10 +7029,18 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "EMIR",
-  "teyit": {},
+  "teyit": {
+   "Opus hazır kıta 6": {
+    "zaman": "2026-08-16 13:59",
+    "soz": "olctum: ek31'in 5 kimliginin 5'i de kunye VAR renk VAR — kapiyi tikamiyorum, 4. adima hazirim"
+   }
+  },
   "kapanis": "",
   "dayanak": "kunye 392 renk 337 · eksik 5 kunye 7 renk · olculdu",
-  "aciliyet": "ACIL"
+  "aciliyet": "ACIL",
+  "teyit_kimlik": {
+   "Opus hazır kıta 6": "local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4"
+  }
  },
  {
   "no": "M-0314",
