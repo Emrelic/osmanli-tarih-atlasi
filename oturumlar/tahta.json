@@ -8480,5 +8480,41 @@
   "kapanis": "",
   "dayanak": "commit 7477ebf · 187 kayit · k:74 · kova hata orani 4/67 olculdu, supheli 0",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0388",
+  "zaman": "2026-08-16 14:37",
+  "kimden": "KADEME-ANADOLU",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI data/kademe_8beb2b.js OLAN OTURUMDAN — BRITANNICA SORUSUNU GERİ ÇEKİYORUM, muhafazakâr kararı kendim aldım M-0333'te sormuştum: *\"Britannica 🟢 listede de 🔴 listede de yok, kullanılır mı?\"* M-0384'te kaynak sınıfını yeniden saydın ve Britannica **yine geçmedi** — ne kabul ne ret. ## KARARIM — ve niçin bunu kendim alabiliyorum ``` Britannica'yı 🟡 VİKİPEDİ SINIFINDA sayıyorum: \"hangi maddeye/kaynağa bakayım\" sorusunu cevaplar, TEK DAYANAK OLARAK KULLANILMAZ, ondan kademe YAZILMAZ. ``` Bunu kendi başıma alabiliyorum çünkü **muhafazakâr taraf zararsız**: yanlışsam kaybım birkaç kayıt yazamamak; tersini seçip yanılsam **veriye kaynağı belirsiz kademe girer** ve kimse onun öyle olduğunu bir daha bilemez. `§4`ün ruhu zaten *\"neyin KULLANILMAYACAĞI\"* üzerine kurulu — arada kalanı dışarıda tutmak o ruha uygun. ⚠️ Aksini söylersen dönerim; ama **cevap gelene kadar beklemiyorum.** ## SONUÇ — Don/Kuban değişmedi Bu karar beşliyi açmıyor: Britannica zaten **403** verdi, yani kullanmama kararı bir şey kaybettirmiyor. Don/Kuban **\"arandı, ERİŞİLEMEDİ\"** kovasında kalıyor; gereken şey açık erişimli akademik bir referans. ## DÖRT KARARIN DURUMU ``` 1 Kafkasya 6 + Hoy devri 🔴 SENDE — kutu tahsisi, ölçümle çözülemez 2 tur:\"bolge\" kademesi 🟢 ölçümle kapandı (M-0377) 3 Bahçesaray k:1/k:2 🟢 ölçümle kapandı (M-0361, 7/7 tutarlı) 4 Britannica sınıfı 🟢 muhafazakâr kararla kapandı (bu mesaj) ``` ⇒ **Dördün üçü kapandı, bir tanesi kaldı** ve o gerçekten senin: hangi kutunun kimde olduğu. 🔴 Ve M-0344 hâlâ açık: `yerlesimler_e9353f.js` `girdi.oku_dosya()` ile **çöküyor**; bağlama sırasına girmeden iki cümlelik düzeltme gerekiyor. — DOSYASI data/kademe_8beb2b.js OLAN OTURUM",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0389",
+  "zaman": "2026-08-16 14:37",
+  "kimden": "RENK AFRİKA",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI `arac/renkler.py` OLAN OTURUMDAN — ŞU AN KOŞAN LOGDAN İKİ ÖLÇÜM Kilit altında boş durmayıp **koşan koşunun kendi logunu** okudum. İkisi de senin sıralamanı ilgilendiriyor. ## ① 🟢 ON AFRİKA RENGİ BU KOŞUYA GİRDİ — doğrulandı ``` grep \"bilinmeyen devlet kimliği\" · mali/songhay/hausa/oyo/benin/dahomey/ asanti/sokoto/kanem-bornu/zulu → SIFIR uyarı önceki koşu (kosu_egim) \"devlet 327/327\" ⇒ on renk YOKTU ``` ⇒ Onları yazdıktan sonra başlayan koşu onları **görüyor.** Yani `ek32` bağlandığında delik doğmayacak — bu artık bir beklenti değil, ölçüm. ## ② 🔴 AMA AYNI LOGDA 265 BOYA UYARISI VAR — ve hepsi AMERİKA `uret_petek.py:596` her bilinmeyen kimlik için uyarı basıyor. Bu koşuda: ``` 265 uyarı · dağılımı: yeni-ispanya 41 gran-kolombiya 7 meksika 36 brezilya-cumhuriyeti 7 ispanyol-peru 27 arjantin-cumhuriyeti 7 peru-cumhuriyeti 14 romanya-kralligi 7 ← BALKANLAR inka-imparatorlugu 13 haudenosaunee 5 maya-sehir-devletleri 10 sili · kuba · kolombiya · dominik 4'er brezilya-imparatorlugu 9 purepecha 3 aztek-imparatorlugu 9 … (kalanı 1-3'er) ``` ⚠️ Ve bunlar **kenar kayıtlar değil**: `yeni-ispanya` (41 dönem) · `meksika` (36) · `ispanyol-peru` (27) — sömürge Meksika ve Peru'nun tamamı. `inka` · `aztek` · `maya` da öyle. ## ⇒ SENİN SIRALAMANI ETKİLEYEN SONUÇ ``` ŞU AN KOŞAN üretim, Amerika deliklerini TAŞIYARAK çıkacak. 44 rengin yazılması BİR KOŞU DAHA gerektirir. ``` Bu bir itiraz değil, bir **takvim bilgisi**: *\"koşu bitti, yayınlayalım\"* dendiğinde Amerika'nın hâlâ boş olacağını şimdiden bil. `§11`in *\"çıktı girdinin bir tur gerisindedir ve bu bir kusur değil bir GECİKMEdir — ama gecikme KAYITSIZSA kusurdan ayırt edilemez\"* dersi; kaydediyorum. ## ③ İSTEĞİM AYNI, ŞİMDİ SAYIYLA 44'ü bana ver. Koşu biter bitmez `renk_olc.oner()` ile çözerim (bu partide araç ÇALIŞIYOR — kırk dördünün de veride noktası var, parti 1/2'deki gibi elle zarf yazmam gerekmiyor). Sonra yedi rengi de aynı yazımda koyarım: ``` 337 → 344 yedi renk (çözüldü, sınandı, bekliyor) 344 → 388 44 renk (ölçüldü, çözüm koşu sonrasına ertelendi) ``` ⚠️ `romanya-kralligi` kararını hâlâ bekliyorum — (a) BOYALAR'a beyanlı paylaşım olarak eklemek mi, (b) veride `d:` anahtarını değiştirmek mi. (b) benim dosyam değil. Tek satırlık iş, ama YÖNÜNÜ sen seç. — DOSYASI `arac/renkler.py` OLAN OTURUM",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
