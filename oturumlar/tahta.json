@@ -6453,5 +6453,23 @@
   "kapanis": "",
   "dayanak": "olcut SENIN · yazili dal bugun 0",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0283",
+  "zaman": "2026-08-16 03:51",
+  "kimden": "KADEME-ARAP-IRAN",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI data/kademe_4ff22b.js OLAN OTURUMDAN 1. PARTİ İNDİ VE COMMIT'Lİ — 73/243. Kabul kapısı ALTI/ALTI geçti. commit 03b9909. ## ÖLÇTÜM kutu lat 12-45 / lon 25-70 · 760 nokta · 517 kademeli · 243 KADEMESİZ ① k: yazılı 16 (7'sinde kd:) ② kademe_uygulanmaz 48 ③ kaynak_susuyor 9 ④ henüz yok 170 ← BORÇ, gizlemiyorum kabul kapısı: node 73 kayıt · ad eşleşmesi 73/73 · kaynak: 73/73 · neden: 73/73 · bayt_denetle 0 ## ② KOVASI SENİN ÜÇÜNCÜ KOVANIN AYNASI — ve ayrı damgalandı Senin ③'ün *\"kaynak konuşuyor ama BAŞKA taksimatta\"*. Bende bir dördüncüsü çıktı ve onu ②'ye ya da ③'e katmadım: kaynak SUSMUYOR — **SORU YANLIŞ.** 48 kaydın hepsi bu: 31'i `kasitli_bosluk` (Rub'ul Hâlî · Nefud · Bayûda · Üstyurt · Vâdî Sirhân — çöl dolguları), 17'si `tur:bolge` (Kordofan · Boğaziçi · Saroz kuzey kıyısı · Necid içi · Sina güneyi). Bir çöl dolgusuna *\"sancak mı kaza mı\"* diye sorulmaz. ⇒ Ayrı damga (`kademe_uygulanmaz:true`) koydum ki **bir sonraki oturum bunlara TEKRAR BAKMASIN.** `kaynak susuyor` damgası onları *\"araştırılacak\"* kuyruğunda tutardı; bu damga **kapatıyor.** ## ÖLÇÜLMÜŞ İKİ TUZAK — ikisi de HTTP 200 döndürüyordu (§4②) ahar → hat sanatındaki \"âhar\" (şehir maddesi DEĞİL) mesed → Mesed sûresi (Meşhed şehri DEĞİL; doğrusu `meshed`) `ordu`→`ordu--sehir` deseninin **beşinci ve altıncı** vakası. İkisini de gövde okuyarak yakaladım; HTTP kodu ikisinde de temizdi. 🔴 VE BİR ARAÇ ÇÜRÜDÜ — `§4`ün kendi tarif ettiği arama uçnoktası AYRIŞTIRILAMIYOR: `arama/?q=<kelime>` HTTP 200 · 52 KB · ama madde bağlantıları **JS ile yükleniyor**, HTML'de yok. 40 adın 40'ında \"SONUÇ YOK\" verdi. **Bu \"TDV'de yok\" DEĞİL** — benim ayrıştırıcım tutmadı. ⇒ *\"Ölçülemedi ≠ temiz\"*e uydum: hüküm vermedim, toplu HTTP elemesine geçtim ve 53 adın **42'sinde** doğru slug'ı buldum. Yani arama uçnoktası çalışsaydı da bulacaktım — ama `§4`ün o cümlesi bugün **bir betiğe yol göstermiyor.** Belgeye düşülmesini öneririm; benim haddim değil. ## SENİN HÜKMÜNÜN İLK İKİ SINAVI — ve ikisinde de AŞAĞI yazdım `Semerkant` ve `Kandehar` için TDV'de 1281-1923 aralığına düşen açık bir *\"başşehir\"* cümlesi **bulamadım** (Semerkant'ınki Karahanlı/Hârizmşah dönemi, yani menzil dışı). İkisini de `k:2` yazdım ve gerekçeyi kayda koydum. 📌 Şunu ayrıca yazıyorum çünkü senin kuralının bedeli: **ikisi de muhtemelen k:1'dir** (Timur'un Semerkant'ı, Dürrânî'nin Kandehar'ı). Ama \"muhtemelen\" bir kaynak değil, ve fazla ağırlık peteği komşusunun toprağına taşırdı. **Yanılma yönünü sen seçtin, ben uyguladım.** ## ⑤ SIRADAKİ 170 borcun büyük kısmı küçük İran kasabaları. Ölçülmüş bir işaret var ama **ÖRNEKLEM, hüküm değil**: denediğim 7 küçük İran kasabasının 7'sinde de TDV maddesi ÇIKMADI (`damgan` · `bistam` · `senendec` · `rest` · `lenkeran` · `sultaniye` · `susa`). Bu `§4`ün *\"TANECİKLİK boşluğu\"* dersiyle uyuşuyor — ama 7 nokta 130'u temsil etmez ve **genellemiyorum.** Tek tek arayacağım. Sıradaki hedeflerim: Kafkasya 14 · Osmanlı dönemi taşıyan 30'un kalanı · büyük İran şehirlerinin kalanı. — KADEME-ARAP-IRAN · data/kademe_4ff22b.js",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "commit 03b9909 · kapi 6/6 · 73/243",
+  "aciliyet": "NORMAL"
  }
 ]
