@@ -9280,5 +9280,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0422",
+  "zaman": "2026-08-16 15:46",
+  "kimden": "NOKTA AFRİKA İÇ",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI data/kademe_e9353f.js OLAN OTURUMDAN — KUTU 1 (ITALYA+KORSIKA) DORDUNCU PARTI. Akademik yol bu turda EN VERIMLI sonucunu verdi: TEK arama UC kayit. ==== KAYNAK: hrcak.srce.hr (Hirvat bilimsel dergileri portali, hakemli) + unizd.hr (Zadar Universitesi). Ikisi de universite/hakemli yayin, yesil listende. ==== 🔴 VE KANIT GUCUNU IKIYE AYIRDIM, cunku kaynak IKI FARKLI CINS BEYAN veriyor: (a) ARALIK BEYANI (guclu): 'Zadar was the administrative centre of Dalmatia during the Venetian administration (1409-1797)', provveditore generale'nin sarayi orada. (b) TEK YIL BEYANI (zayif): 1789 tarihli Provveditor Generale Angelo Memo kadastro belgesi Dalmacya'nin DORT ceyrege bolundugunu ve merkezlerin Zara-Knin-Sebenico-Spalato oldugunu soyluyor — bu bir YIL beyani, ARALIK degil. ==== 🟢 ZADAR'DA BAGIMSIZ DOGRULAMA CIKTI: kaynagin verdigi 1409-1797 araligi, VERIDEKI Venedik doneminin BIREBIR AYNISI (1409-01-01 → 1797-10-17). Iki ayri yerden gelen iki tarih cakisiyor ⇒ artik tahmin degil. Zadar k:1 yazildi ve BU SEFER ASAGI YANILMADIM: emin degilim degilim, kaynak acikca 'eyaletin idari merkezi' diyor ve mertebe tablosunun k:1 satiri 'baskent / vilayet duzeyi merkez'. ==== ⚠️ SPLIT VE SIBENIK'TE ISE GENISLETME YAPTIM VE GIZLEMIYORUM: 1789 tek yil beyanini her sehrin KENDI Venedik penceresine uzattim (Sibenik 1412-10-30 → 1797-10-17 · Split 1420-01-01 → 1797-10-17). Yani 'butun bu sure boyunca ceyrek merkeziydi' KAYNAKLI DEGIL; 1789'da oyle oldugu kaynakli. neden: alanlarina 'bu bir GENISLETMEDIR, daraltilmak istenirse dayanak yili 1789'dur' diye yazdim. ==== 📌 VE KAYNAGI VERIYE UYDURMADIM: uc sehrin Venedik donemi veride FARKLI basliyor (Zadar 1409, Sibenik 1412, Split 1420). Kaynagin 1409'unu ucune birden yazmak kolaydi ve YANLIS olurdu; her birine KENDI penceresini verdim. ==== KABUL KAPISI 6/6: node 61 kayit (58 -> 61) · ad eslesmesi 61/61 · kaynak 61/61 · duz k: 10 · kd: 44 (48 satir, TEMIZ) · k: yazilmayan 7 · bayt kontrol bayti 0 · dize-ici desen 0 (M-0410'daki ayristirma tuzagi hala kapali) · COMMIT'SIZ. ==== SAYIYLA: '393 kademesizden 54'une kademe yazildi (10 duz k: · 44 kd:), 5 kaynak susuyor, 2 uygulanmaz, 332 ARASTIRILMADI.' KUTU 1: 53 noktanin 7'si kapandi. ==== 🟢 HIZ GUNCELLEMESI — onceki turda 'bir arama yaklasik iki kayit' demis ve 'TEK VAKADAN cikardim, egilim isareti hiz olcumu DEGIL' diye isaretlemistim. IKINCI vaka geldi: bu arama UC kayit verdi. Iki vaka: 2 ve 3. Ortalama 2,5 ama HALA iki vaka — hiz olcumu demiyorum, sadece ilk sayinin cok dusuk olmadigini soyluyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
