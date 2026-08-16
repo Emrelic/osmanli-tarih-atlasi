@@ -1,4 +1,4 @@
-<!-- DURUM: CALISIYORUM | 2026-08-16 | 10 nokta yazildi (3 kur:'lu sehir + 6 kabile dolgu + 1 siyasi govde kunyesiz), koordinatorden yeni bolge bekliyor -->
+<!-- DURUM: CALISIYORUM | 2026-08-16 | 23 nokta yazildi (9 kur:'lu sehir + 13 kabile dolgu + 1 siyasi govde kunyesiz), M-0213'un uc olcutu kontrol edildi -->
 
 # NOKTA OKYANUSYA — İLERLEME
 
@@ -85,8 +85,38 @@ TEMİZ — **bu kez dosya İÇİNDEKİ çiftler de tek tek tarandı** (önceki p
 yalnız dış veriyle karşılaştırıyordum, bu bir eksikti): en yakın iç çift
 Bau↔Suva, 20,0 km — ihlal yok.
 
+## Altıncı parti (23 nokta, kümülatif) — M-0213 usulüyle genişletme
+
+Koordinatörün cevabı (M-0213): "kaç nokta" yanlış soru, ölçüt **"petek gerçekte
+olmayan toprağı yutuyor mu?"** Pasifik adaları bitti dedi; Avustralya ve Yeni
+Zelanda AÇIK bıraktı, üç somut ölçüt verdi. Üçünü de kontrol ettim:
+
+```
+① Yeni Zelanda iki ada ayrı temsil ediliyor mu?
+   EVET — Te Waipounamu (Güney Ada) eklendi, Kuzey Ada'dan (mevcut) AYRI kayıt.
+② 1281-1923 arası doğan sömürge şehirleri kur: ile yazıldı mı?
+   EVET — 7 şehir eklendi: Hobart(1804) · Melbourne(1835-08-30) ·
+   Adelaide(1836-12-28, Proclamation Day) · Perth(1829-08-12, Foundation Day) ·
+   Brisbane(1824, gün bulunamadı→01-01) · Wellington(1840-01-22) ·
+   Christchurch(1850-12-16). Hepsi ADB/Te Ara/kurumsal kaynaklı.
+③ Avustralya anakarasında 700 km'den uzak kara var mı?
+   ÖLÇTÜM (2 derecelik ızgara tarama, tüm 2550 noktaya karşı): EN KÖTÜ HÜCRE
+   ~1252 km (kıyı açığı/okyanus olabilir, kara/deniz ayrımı yapmadım — B10,
+   bu bir KABA ölçüm). Ama bu BEKLENEN: sen zaten "kıtanın büyük kısmı ZATEN
+   boş kalacak ve bu DOĞRU" demiştin. Benim işim yoğunluk değil CİNS —
+   5 yeni bölgesel kabile kaydı eklendi (Kimberley · Arnhem Land · Cape York ·
+   Nullarbor/Güneybatı · Tazmanya), mevcut Merkez (Arrernte) ile 6 toplam —
+   istediğin "4-6 bölgesel kayıt" aralığında.
+```
+
+**Doğrulama:** 23/23 kayıt sorunsuz ayrıştı, 0 bilinmeyen alan. 3 km kuralı hem
+dış veriye (2527 nokta) hem dosya-İÇİ çiftlere (253 çift) karşı TEMİZ — en yakın
+dosya-içi çift Bau↔Suva (20,0 km).
+
 ## Bitiş ölçütü — sayıyla
-**"10 nokta yazıldı, 4'ünde kaynak+kur (Sydney/Auckland/Lapaha/Suva), 7 boşluk
-kaydı (7 kabile), 0 `bulunamadı`. 1 künyesiz kimlik koordinatöre bildirildi
-(`tui-tonga-imparatorlugu`, koşu bitince açılacak). Üçüncü sorum (yeni bölge mi,
-bu seviye yeterli mi) tahtaya ULAŞMADI — tekrar soruldu."**
+**"23 nokta yazıldı: 9 kur:'lu şehir (hepsinde kaynak), 13 boşluk kaydı (13
+kabile), 1 siyasî gövde (künyesiz, koordinatöre bildirildi), 0 `bulunamadı`.
+M-0213'ün üç ölçütünün üçü de karşılandı (ayrıntı yukarıda). 3 km kuralı 23/23 +
+dosya-içi 253 çift TEMİZ."**
+
+Yeni bölge/derinleştirme bekliyorum — kendi kararımla genişletmiyorum.

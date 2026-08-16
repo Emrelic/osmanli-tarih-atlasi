@@ -75,4 +75,60 @@ window.YERLESIMLER_EK30 = [
   kaynak:"ANU Press, 'Suva Stories: A History of the Capital of Fiji' (JSTOR j.ctv2xc67p4) — Deed of Cession, 10 Ekim 1874, Fiji'yi resmen İngiliz egemenliğine soktu.",
   s:[{f:"1874-10-10",t:"1923-10-29",d:"ingiltere"}] },
 
+// ── ALTINCI PARTİ — M-0213 usulüyle genişletme ──────────────────────────
+// Ölçüt sayı değil: "petek gerçekte olmayan toprağı yutuyor mu?" Avustralya
+// ve Yeni Zelanda AÇIK bırakılmıştı, şimdi kapatılıyor.
+
+// Güney Ada — Kuzey Ada'dan AYRI temsil (iki ada, tek nokta ikisini birden yutardı)
+{ ad:"Te Waipounamu Māori Yerleşimi (Güney Ada içi)", tur:"bolge", lat:-44.00, lon:170.50, g:0, k:0,
+  kur:"1300-01-01", d:[], kasitli_bosluk:true, bos:"kabile",
+  neden:"Te Ara Encyclopedia of New Zealand, aynı kaynak (Māori arrival and settlement) — Güney Ada (Te Waipounamu), Kuzey Ada ile aynı ~1300 CE yerleşim dalgasının parçasıydı ama coğrafi olarak ayrı, farklı iwi (Ngāi Tahu vb.) tarafından iskân edildi; 1840'a kadar merkezî devlet yoktu." },
+
+// Avustralya — beş ek bölgesel kabile dolgusu (AIATSIS harita düzeyi, Merkez zaten vardı)
+{ ad:"Avustralya İç Kesimi (Kuzeybatı — Kimberley)", tur:"bolge", lat:-16.50, lon:126.00, g:0, k:0,
+  d:[], kasitli_bosluk:true, bos:"kabile",
+  neden:"AIATSIS, 'Map of Indigenous Australia' — Kimberley bölgesi, çok sayıda ayrı dil/klan grubunun (Worrorra, Ngarinyin, Bardi vb.) yaşadığı, merkezî devlet yapısı hiç oluşmamış bir bölgedir." },
+{ ad:"Avustralya İç Kesimi (Kuzey — Arnhem Land)", tur:"bolge", lat:-13.00, lon:133.50, g:0, k:0,
+  d:[], kasitli_bosluk:true, bos:"kabile",
+  neden:"AIATSIS, 'Map of Indigenous Australia' — Arnhem Land (Yolŋu halkları ve komşuları), klan/soy temelli örgütlenmiş, sömürge dönemine kadar dışarıyla sınırlı temas kurmuş bir bölgedir; merkezî devlet yok." },
+{ ad:"Avustralya İç Kesimi (Kuzeydoğu — Cape York)", tur:"bolge", lat:-14.50, lon:143.50, g:0, k:0,
+  d:[], kasitli_bosluk:true, bos:"kabile",
+  neden:"AIATSIS, 'Map of Indigenous Australia' — Cape York Yarımadası, çok sayıda ayrı dil grubunun yaşadığı, merkezî devlet yapısı olmayan bir bölgedir." },
+{ ad:"Avustralya İç Kesimi (Güney — Nullarbor/Güneybatı)", tur:"bolge", lat:-31.50, lon:129.00, g:0, k:0,
+  d:[], kasitli_bosluk:true, bos:"kabile",
+  neden:"AIATSIS, 'Map of Indigenous Australia' — Nullarbor Düzlüğü ve güneybatı kıyısı (Mirning, Nyoongar vb.), merkezî devlet yapısı olmayan, klan temelli topluluklardır." },
+{ ad:"Tazmanya (Aborijin Tazmanyalılar)", tur:"bolge", lat:-42.00, lon:147.00, g:0, k:0,
+  d:[], kasitli_bosluk:true, bos:"kabile",
+  neden:"AIATSIS — Tazmanya, ~10.000 yıl önce deniz seviyesi yükselince anakaradan ayrı kalmış, kendi ayrı dil/kültür gruplarına sahip Aborijin Tazmanyalılar tarafından iskân edilmiştir; 1803 İngiliz yerleşimine kadar merkezî devlet yok." },
+
+// Sömürge şehirleri — 1281-1923 arası doğan yeni yerler, kur: ile (M-0213)
+{ ad:"Hobart", tur:"sehir", lat:-42.8821, lon:147.3272, g:1, k:1,
+  kur:"1804-01-01",
+  kaynak:"Australian Dictionary of Biography — Vali David Collins, ceza kolonisini Risdon'dan Sullivan's Cove'a (bugünkü Hobart) taşıyıp 1804'te kurdu.",
+  s:[{f:"1804-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"1923-10-29",d:"avustralya"}] },
+{ ad:"Melbourne", tur:"sehir", lat:-37.8136, lon:144.9631, g:1, k:1,
+  kur:"1835-08-30",
+  kaynak:"EBSCO Research Starters, 'Melbourne, Australia, Is Founded'; State Library of Victoria — John Pascoe Fawkner, Yarra Nehri şelalelerinin hemen altında 30 Ağustos 1835'te yerleşim kurdu (John Batman'ın yerli topluluklarla arazi anlaşması da aynı yıl, Haziran 1835).",
+  s:[{f:"1835-08-30",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"1923-10-29",d:"avustralya"}] },
+{ ad:"Adelaide", tur:"sehir", lat:-34.9285, lon:138.6007, g:1, k:1,
+  kur:"1836-12-28",
+  kaynak:"National Today / kurumsal kaynak — Güney Avustralya Eyaleti'nin İngiliz mülkü olduğu, Vali John Hindmarsh tarafından Holdfast Bay'de (bugünkü Glenelg) 28 Aralık 1836'da ilan edildi ('Proclamation Day').",
+  s:[{f:"1836-12-28",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"1923-10-29",d:"avustralya"}] },
+{ ad:"Perth", tur:"sehir", lat:-31.9505, lon:115.8605, g:1, k:1,
+  kur:"1829-08-12",
+  kaynak:"Kurumsal kaynak (Western Australia Day / eski adıyla 'Foundation Day') — Swan River Kolonisi'nin kuruluşu, 12 Ağustos 1829'daki resmî törenle anıldı.",
+  s:[{f:"1829-08-12",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"1923-10-29",d:"avustralya"}] },
+{ ad:"Brisbane", tur:"sehir", lat:-27.4698, lon:153.0251, g:1, k:1,
+  kur:"1824-01-01",
+  kaynak:"State Library of Victoria kaynaklı akademik özet — Moreton Bay Ceza Kolonisi Eylül 1824'te Redcliffe Yarımadası'nda kuruldu, 1825'te Brisbane Nehri kıyısına taşındı; tam gün TDV/akademik kaynakta bulunamadı, YYYY-01-01 kullanıldı.",
+  s:[{f:"1824-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"1923-10-29",d:"avustralya"}] },
+{ ad:"Wellington", tur:"sehir", lat:-41.2865, lon:174.7762, g:1, k:1,
+  kur:"1840-01-22",
+  kaynak:"Te Ara Encyclopedia of New Zealand, 'The struggle to survive: 1840–1865' (teara.govt.nz/en/wellington-region/page-7) — New Zealand Company'nin ilk göçmen gemisi (Aurora), 22 Ocak 1840'ta Petone'ye ulaştı; bu tarih 'Wellington Anniversary Day' olarak anılır.",
+  s:[{f:"1840-01-22",t:"1923-10-29",d:"yeni-zelanda"}] },
+{ ad:"Christchurch", tur:"sehir", lat:-43.5321, lon:172.6362, g:1, k:1,
+  kur:"1850-12-16",
+  kaynak:"Te Ara Encyclopedia of New Zealand, 'Canterbury region' (teara.govt.nz/en/canterbury-region/page-6) — Canterbury Association'ın ilk dört gemisinden Charlotte Jane, 16 Aralık 1850'de geldi; bu tarih 'Canterbury Anniversary Day' olarak anılır.",
+  s:[{f:"1850-12-16",t:"1923-10-29",d:"yeni-zelanda"}] },
+
 ];
