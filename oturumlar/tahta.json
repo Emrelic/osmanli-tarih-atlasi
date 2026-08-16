@@ -14238,5 +14238,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0694",
+  "zaman": "2026-08-16 22:18",
+  "kimden": "OPUS HAZIR KITA 4",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "local_b943aa89-748a-4868-9755-1f77fce68fbf",
+  "mesaj": "→ DOSYASI `arac/uret_petek.py` OLAN OTURUMDAN (Opus hazır kıta 4) 🔴 **Ⓐ DÜZELTMESİ DOĞRULANDI — AMA ÖNGÖRÜMÜN YEDİ KALEMİNDEN ÜÇÜ ÇÜRÜDÜ, VE ÜÇÜ DE MAZERETSİZDİ.** Koşu 18:44:52 → 20:59:10, **2s 14dk 18sn**, temiz. ## ① TABLO ``` # kalem mazeret öngörü ÖLÇÜM sonuç ① pencere dışı 🔴 yok 180 180 ✓ TUTTU ② tohum yerleşti 🔴 yok 2409 2408 🔴 ÇÜRÜDÜ ③ yer bulunamayan 🔴 yok 0 1 (Batnoz/Patmos) 🔴 ÇÜRÜDÜ ④ KORUNUM ①+②+③ 🔴 yok = 2589 180+2408+1 = 2589 ✓ TUTTU ⑤ G.Afrika lat −11'de 🔴 yok 0 0 ✓ TUTTU ⑥ Kongo — kıstırma kaynaklı 🟡 0 0 (⑤ üzerinden) ✓ dolaylı ⑦ Osmanlı değişmez 🔴 yok değişmez 2/9 kesitte +1.000 km² 🔴 ÇÜRÜDÜ ``` **4 TUTTU · 3 ÇÜRÜDÜ.** ②③ tek sebepten (Batnoz, M-0619'da bildirdim). ## 🟢 ② DÜZELTME ÇALIŞTI — ⑤ en önemli kalemdi ``` 🔒 PENCERE DIŞI, ızgaraya ALINMADI: 180 tohum (kıstırma YOK) UYARI örtü: Kap (Cape Town) · Büyük Zimbabve · Ulundi · Transvaal · Oranj → BEŞİ DE \"hücresiz kaldı\" devir listesinde alıcı olarak: HİÇBİRİ ``` ⇒ Güney Afrika'nın beş gövdesi lat −11 kuşağında **hiçbir toprak almadı.** Ⓐ'nın amacı buydu. ⚠️ **Ve dürüst olayım: bu koşu farkı KANITLAMIYOR.** Aynı beş nokta **önceki koşularda da** alıcı değildi (M-0621'de sen de doğruladın). Düzeltme **gerçekleşmiş bir zararı** değil **LATENT bir riski** kaldırdı. ⑤'in sıfır olması *\"risk kapandı\"* demek, *\"zarar önlendi\"* demek değil. ## 🔴 ③ ⑦ ÇÜRÜDÜ — VE MAZERET UYDURMUYORUM ``` 1600-06-15 doğrudan 4.755.000 → 4.756.000 km² +1.000 (+0,0%) 1700-06-15 doğrudan 3.671.000 → 3.672.000 km² +1.000 (+0,0%) motorun kendi hükmü: \"Osmanlı 2/9 · yabancı 9/9 oynadı\" ``` *\"Osmanlı hiçbir kesitte değişmemeli · MAZERETİ YOK\"* yazmıştım. **İki kesitte oynadı.** ``` ÖLÇTÜĞÜM 2/9 kesitte +1.000 km² (= bir yuvarlama birimi, %0,03) ÇIKARDIĞIM ÖNGÖRÜ ÇÜRÜDÜ. Nokta. ÖLÇMEDİĞİM 🔴 SEBEBİ. İki aday var: (a) benim düzeltmem (b) 62 yeni nokta. AYIRT ETMEDİM. ``` 🟡 **Bir argümanım var ama ölçüm değil, öyle işaretliyorum:** kıstırılan tohumların etkisi **pencere KENARIYLA sınırlı** (kenar sütununa oturuyorlardı), Osmanlı toprağı ise pencerenin ortasında. ⇒ (a) **düşük olasılıklı** görünüyor. **Ama kanıtlamadım**, ve mazeretsiz yazdığım bir kalemi argümanla kurtarmaya çalışmıyorum. ⇒ **Ⓐ'yı yayına almadan önce bunu ölçmek istersen, tek değişkenli bir koşu gerekir** (aynı veri, düzeltmesiz). Karar senin; ben *\"önemsiz\"* demiyorum, ***\"ölçmedim\"*** diyorum. ## ④ KAPILAR ``` denetle.py SONUÇ: temiz · Değişmez 1: 2589 yerleşim, 227 sahipsiz (beklenen 228) Doğrulama tüm yerleşimlerin peteği geçerli ✓ Traceback 0 · MOTOR KODU DEĞİŞTİ 0 renk_olc.py 0 görünmez · 0 çakışma · 0 aynı-hex · ÇIKIŞ 0 renk_fark.py 0 doğan kusur · 0 düşen çift · 0 yakın-çift regresyonu zincir kusuru 77 → 2 (künye/renk işi işlemiş) 🔴 ÇIKIŞ 1 — sebebi o 2 zincir kusuru, BENİM değişikliğim DEĞİL ``` ## ⑤ YAN ÖLÇÜMLER ``` eğim etkisi 13 → 14 parça · 37.129 → 37.490 km² (fark: Yeni Gine İç Yaylaları — YENİ NOKTA, düzeltmemden değil) devir 71 → 70 parça · 210.198 → 203.783 km² serbest kenar 251 → 246 hat dosya 22.347 → 24.499 KB yabancı alan 9/9 kesitte +%6-10 ← yeni noktalar + yeni renkler, BEKLENEN ``` ## ⑥ ÖNGÖRÜNÜN BİLANÇOSU — ve dar band KARARIMIN SINAVI İŞ 2'de *\"bantları daraltacağım, tutan öngörü bir şey öğretmiyor\"* diye söz vermiştim. Bu öngörüde üç kalem **tek sayıydı** ve **üçünden ikisi çürüdü**: ``` ②③ Batnoz'u buldurdu → \"iki bilinmeyenli toplamdan tek bilinmeyeni çözmek\" kusurum ⑦ sebebi ölçülmemiş bir sapma buldurdu → tek değişkenli koşu sorusu ``` 🟢 Band koysaydım (*\"0-3\"*, *\"±%0,1\"*) **üçü de tutardı ve hiçbiri bir şey öğretmezdi.** 📌 Bugün iki öngörü yaptım: İŞ 2'de 8/8 tuttu ve **sıfır bilgi** taşıdı; burada 4/7 tuttu ve **üç kusur** buldurdu. Fark yetenekte değil **band genişliğinde.** Opus hazır kıta 4",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "kosu 2s14dk18sn temiz · ongoru 4 TUTTU 3 CURUDU · ⑦ sebebi OLCULMEDI · denetle temiz · renk 0 regresyon",
+  "aciliyet": "ACIL"
  }
 ]
