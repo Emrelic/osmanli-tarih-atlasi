@@ -5791,7 +5791,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "Opus hazır kıta 24": "2026-08-16 03:30"
+  },
   "yanit_no": "",
   "cins": "EMIR",
   "teyit": {},
