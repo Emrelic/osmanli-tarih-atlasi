@@ -392,17 +392,83 @@ window.KADEME_YAMA = [
   //    guberniyanın merkez ŞEHRİNİN aynı adı taşıması KONVANSİYONDUR
   //    ve bu makale onu SÖYLEMİYOR ⇒ kayıt yazmak İNANÇ olurdu, ölçüm
   //    değil. Sekiz kaydı bir konvansiyon üzerine yazmadım.
-  //    ⚠️ Makalede tam aradığım şey VAR: "Table 1. Regional headquarters"
-  //    — ama tablo bir JPEG (894k) ve metin olarak OKUNAMIYOR.
-  //    ⇒ Engel artık "kaynak yok" değil, "kaynak var ve tablosu GÖRÜNTÜ".
-  //    Bir sonraki oturum o tabloyu okuyabilirse 124 noktanın büyük
-  //    kısmı tek hamlede çözülür.
+  //    ⚠️ Makalede "Table 1. Regional headquarters" VAR ve JPEG.
+  //
+  // 🟢 ④ TABLO OKUNDU — ve BEKLEDİĞİM TABLO DEĞİLMİŞ.
+  //    Önce "okumaya çalışmadım, görüntü işleme aracımda yok" diye
+  //    borç yazmıştım. YANLIŞTI: `Read` aracı görüntü okuyor.
+  //    İndirdim (915.835 bayt — makalenin bildirdiği 894k ile birebir)
+  //    ve okudum.
+  //    🔴 TABLO BİR GUBERNIYA-MERKEZ LİSTESİ DEĞİL. Sütunları:
+  //       Postal · Waterways · Forestry · Customs · Education · Army ·
+  //       Internal guard · Engineers
+  //    Yani hangi ŞEHİRDE hangi HİZMET KOLUNUN bölge karargâhı olduğunu
+  //    gösteren bir matris. "Bu şehir vilâyet merkezidir" DEMİYOR.
+  //    ⇒ Varsayımım yanlıştı ve ancak OKUYUNCA düzeldi. Tablo adına
+  //      ("Regional headquarters") bakıp içeriğini tahmin etmiştim.
+  //
+  // 🟡 ⑤ AMA İŞE YARIYOR — BAŞKA BİR BASAMAK İÇİN
+  //    Emre'nin `k:3` tarifi: "belli bir bölgenin ASKERÎ-idarî-siyasî
+  //    merkezi". Tabloda `Army` sütunu işaretli bir şehir, kaynağın
+  //    kendi gösterimiyle **bir bölgenin askerî karargâhıdır.**
+  //    ⇒ Bu tablo `k:2` (vilâyet merkezi) için delil DEĞİL, ama
+  //      `k:3` (bölge merkezi) için DOĞRUDAN delil.
+  //    ⚠️ Ve muhafazakâr taraf da bu: bu şehirlerin çoğu muhtemelen
+  //      guberniya merkeziydi (yani k:2), ama tablo onu SÖYLEMİYOR.
+  //      Proje kuralı: emin olamadığında BİR KADEME AŞAĞI ⇒ k:3.
+  //      Bir sonraki oturum guberniya listesi bulursa YÜKSELTİR.
   //
   // 📌 Ve bu üç satır bir DURUM DEĞİŞİKLİĞİ kaydıdır:
   //    başlangıç  "aradım, ERİŞEMEDİM"          (JSTOR)
   //    şimdi      "buldum, ERİŞİLEBİLİR, ama aradığım kısım GÖRÜNTÜ"
   //    İkincisi birincisinden ÇOK daha iyi bir yer — ve ikisi de
   //    "yok" DEĞİL.
+
+  // ---- A BLOĞU İLK KAYITLARI — LeDonne Table 1'den, `k:3` olarak ----
+  // Dayanak: tabloda o şehrin satırında işaretli HİZMET KOLLARI.
+  // Emre'nin k:3 tarifi "bölgenin ASKERÎ-idarî-siyasî merkezi" ile
+  // birebir örtüşüyor. Guberniya merkezi olup olmadıkları BU KAYNAKTAN
+  // ÇIKMIYOR ⇒ bir kademe aşağı yazıldı, yükseltme sonraki oturuma.
+
+  {ad:"Arhangelsk", k:3,
+   kaynak:"LeDonne 2002, Cahiers du monde russe 43/1, Table 1 (görüntü okundu)",
+   neden:"Tabloda DÖRT hizmet kolunun bölge karargâhı: Postal · Forestry · Customs · Internal guard — kutumdaki en yüksek sayı. Ayrıca metinde 'port commander in ARKHANGELSK' geçiyor, yani ŞEHRİN kendisi anılıyor (öteki adlar guberniya adı olarak geçerken). ⚠️ k:2 YAZMADIM: tablo hizmet karargâhı gösteriyor, guberniya merkezliği DEĞİL"},
+
+  {ad:"Voronej", k:3,
+   kaynak:"LeDonne 2002, Table 1 (görüntü okundu)",
+   neden:"Tabloda Postal + Army bölge karargâhı. 'Army' sütunu Emre'nin k:3 tarifindeki 'bölgenin ASKERÎ merkezi' ile birebir. Metinde ayrıca Balashev'in beş vilâyetinden biri olarak anılıyor — ama o GUBERNIYA adı, şehir değil"},
+
+  {ad:"Tula", k:3,
+   kaynak:"LeDonne 2002, Table 1 (görüntü okundu)",
+   neden:"Tabloda Internal guard bölge karargâhı. Balashev'in beş vilâyetinden biri (guberniya adı olarak)"},
+
+  {ad:"Kaluga", k:3,
+   kaynak:"LeDonne 2002, Table 1 (görüntü okundu)",
+   neden:"Tabloda Army bölge karargâhı — 'bölgenin askerî merkezi'"},
+
+  {ad:"Orel", k:3,
+   kaynak:"LeDonne 2002, Table 1 (görüntü okundu)",
+   neden:"Tabloda Army bölge karargâhı. Balashev'in beş vilâyetinden biri (guberniya adı olarak)"},
+
+  {ad:"Kursk", k:3,
+   kaynak:"LeDonne 2002, Table 1 (görüntü okundu)",
+   neden:"Tabloda Army bölge karargâhı"},
+
+  {ad:"Tambov", k:3,
+   kaynak:"LeDonne 2002, Table 1 (görüntü okundu)",
+   neden:"Tabloda Army bölge karargâhı. Balashev'in beş vilâyetinden biri (guberniya adı olarak)"},
+
+  {ad:"Nijniy Novgorod", k:3,
+   kaynak:"LeDonne 2002, Table 1 (görüntü okundu — 'Nizhnii-Novgorod' yazımıyla)",
+   neden:"Tabloda Postal bölge karargâhı. ⚠️ Yazım farkı: veride 'Nijniy Novgorod', tabloda 'Nizhnii-Novgorod' — İngilizce transliterasyon ekseni"},
+
+  {ad:"Perm", k:3,
+   kaynak:"LeDonne 2002, Table 1 (görüntü okundu)",
+   neden:"Tabloda Postal bölge karargâhı"},
+
+  {ad:"Kolomna", k:3,
+   kaynak:"LeDonne 2002, Table 1 (görüntü okundu)",
+   neden:"Tabloda Waterways bölge karargâhı. ⚠️ Veride tur:'kale' — çelişmiyor, bir kale su yolları karargâhı olabilir"},
 
   // ---- SOMALİ — kapsayıcı madde ADLARI SAYIYOR, MERTEBE VERMİYOR ----
   // TDV `somali` gövdesi okundu. Şehirleri adıyla sayıyor: 'Makdişu,
