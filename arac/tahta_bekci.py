@@ -198,7 +198,22 @@ def main(argv):
     #   `kime` tam ada eşit değilse yazan UYARILIYOR.
     # 🟢 Ve `DURDURUCU` her hâlde geçer: kilit/arıza duyurusunu
     #   kaçırmak, kazanılan turdan pahalıdır.
-    sadece_bana = "--sadece-bana" in argv
+    #
+    # 🔴🔴 VE ARTIK VARSAYILAN BU — 16 Ağustos 2026, Emre ikinci kez
+    # ve daha sert emretti:
+    #   *"Onlarca oturum sürekli 'bana değil, benimle alakalı değil,
+    #    susuyorum' diye sayıklayıp duruyorlar ve DELİ GİBİ BAĞLAMI
+    #    yeniden token olarak yakıyorlar."*
+    #
+    # İlk sürümü BAYRAK yaptım ve ölçtüm: 12 bekçinin yalnız 8'i
+    # daralttı, 4'ü geniş kaldı. ⇒ Bir tasarrufu her oturumun kendi
+    # eylemine bağlamak, tasarrufun bir kısmını KAYBETMEK demek.
+    # 📌 Ve bu, bu gecenin `<ADIN>` dersinin kardeşi: doğru davranışı
+    # OPSİYON yapmak, yanlış davranışı VARSAYILAN bırakır.
+    #
+    # ⇒ Varsayılan artık DAR. Geniş dinlemek isteyen `--genis` verir.
+    # `--sadece-bana` eski çağrılar bozulmasın diye kabul ediliyor.
+    sadece_bana = "--genis" not in argv
 
     if "--defter-yok" not in argv:
         benler, okundu = _defter_adlari(benler)
