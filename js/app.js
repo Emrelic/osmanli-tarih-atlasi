@@ -991,6 +991,8 @@ harita.on("load", function () {
     console.log("Atlas: boşluğun cinsi — " + kacBenek + " benek (kabile) · " + kacSoru + " soru (veri-yok) çizildi.");
   })();
 
+  koridorKur();
+
   var lejant = document.createElement("div");
   lejant.className = "lejant";
   lejant.innerHTML =
@@ -2282,6 +2284,278 @@ function seferGuncelle(t) {
   seferLejanti(turler, sonuclar);
 }
 
+// ---------- KORİDOR AĞI (menzil yolları) — ARAYÜZ KORİDOR, 16 Ağustos 2026 ----------
+// Altyapı ⑤ veri olarak bitmişti ama `denetle_yayin.py` şunu diyordu:
+// "ÜRETİLİYOR AMA ÇİZİLMİYOR". `§40`: veri doğru olabilir ama KULLANICI GÖRMÜYOR.
+//
+// 🔴 ÖLÇÜM — borç şartnamede yazılandan BÜYÜKTÜ ve küçültülmedi:
+//   şartname   "koridor_halka2.js + dört kol daha app.js OKUMUYOR"
+//   ölçüm      `grep -in koridor js/app.js` → SIFIR SONUÇ
+//   ⇒ `koridor.js` index.html'de YILLARDIR bağlıydı ve HİÇ çizilmiyordu.
+//   Yani iş "iki dosya bağla" değil, "katmanı SIFIRDAN yaz"dı.
+//   📌 Bağlanmış olmak çizilmek değildir — bu, aynı gün `OLAYLAR_7A4170`
+//   vakasında da ölçüldü (yükleniyor + denetim okuyor + ekranda YOK).
+//
+// 🔴 DOSYA ADI LİSTESİ TUTULMUYOR ve sebebi bugün ölçüldü: bu dosyanın
+// kronoloji tarafındaki `/^OLAYLAR(_EK\d*)?$/` süzgeci "desen" görünümlü bir
+// ELLE LİSTEYDİ ve yeni adlandırma kuralı gelince sessizce bayatladı.
+// Buradaki süzgeç adlandırmadan bağımsız: `KORIDOR[_<ek>]_DUGUM/_KENAR`
+// biçimindeki HER global bulunur. Altıncı kol bağlandığında bu satıra
+// dokunmaya gerek YOK — ve bu sefer cümle bir varsayım taşımıyor, çünkü
+// süzgeç kolun ADINI değil BİÇİMİNİ tanıyor.
+var KORIDOR = {
+  dugum: {}, kenar: [],
+  atlanan: { dugum: 0, kenar: 0 },
+  yama: { dosya: 0, dugum: 0, kenar: 0, eksik: 0, tanimsiz: [] },
+  acik: false
+};
+
+// 🔴 YAMA OKUMA — KOORDİNATÖR KARARI (M-0675 ③), 16 Ağustos 2026.
+// D kolu koordinatsız düğümlere koordinat buluyor ve Boğaz kenarını ekliyor.
+// Yamalar AYRI dosyalarda ve AYRI bir şekilde geliyor:
+//     window.KORIDOR_YAMA_<6hane> = { dugum:[…], kenar:[…], eksik:[…] }
+//
+// 🔴 NİÇİN AYRI BİR SÜZGEÇ GEREKTİ — ve bu, bu dosyada AYNI SINIFIN ÜÇÜNCÜSÜ:
+//   ① OLAYLAR süzgeci `_EK<n>` ADINI varsayıyordu   → 4 madde görünmedi
+//   ② koridor.js index.html'de bağlıydı, çizim YOKTU → yıllarca görünmedi
+//   ③ koridor süzgeci `_DUGUM`/`_KENAR` BİÇİMİNİ varsayıyordu → yamaların
+//      23 düğümü + Boğaz kenarı GÖRÜNMEYECEKTİ (ölçüldü: 3 globalin 0'ı)
+// 📌 Ders: ①'i düzeltirken "ada değil BİÇİME bağla" demiştim; biçim de bir
+//    varsayımmış. ⇒ *Bir varsayımı kaldırmak, onu bir kademe daha görünmez
+//    yapmak olabilir.* Çare varsayımı yok etmek değil — TANIMADIĞINI SAYMAK.
+function koridorYamaUygula(ham) {
+  Object.keys(window).forEach(function (k) {
+    if (!/^KORIDOR_YAMA_[A-Za-z0-9]+$/.test(k)) return;
+    var y = window[k];
+    // 🔴 TANIMADIĞIM ŞEKLİ SESSİZCE ELEMİYORUM — koordinatörün açık şartı.
+    // `koridor_yama_f5c9a5.js` şu an hâlâ DÜZ DİZİ (+ ayrı `_EKSIK`), yani
+    // karardan önceki şekil. Onu "idare edip" kabul etseydim göçün
+    // yapılmadığı GÖRÜNMEZ olurdu — tam da bu dosyanın üç kez ısırıldığı yer.
+    if (!y || Array.isArray(y) || typeof y !== "object"
+        || (!Array.isArray(y.dugum) && !Array.isArray(y.kenar))) {
+      KORIDOR.yama.tanimsiz.push(k + " (" + (Array.isArray(y) ? "DİZİ" : typeof y) + ")");
+      return;
+    }
+    KORIDOR.yama.dosya++;
+    (y.dugum || []).forEach(function (d) {
+      if (!d || !d.id || d.lat == null || d.lon == null) return;
+      var v = ham[d.id];
+      if (v) {
+        // Var olan düğüme KOORDİNAT DOLDUR — kaydın geri kalanını (kol, tip,
+        // kaynak) korumak şart: yama yalnız eksik olanı verir, kimlik değil.
+        if (v.lat == null || v.lon == null) {
+          v.lat = d.lat; v.lon = d.lon;
+          v._yama = d.kaynak || true;
+          KORIDOR.yama.dugum++;
+        }
+      } else {
+        ham[d.id] = { id: d.id, ad: d.ad || d.id, lat: d.lat, lon: d.lon,
+                      kol: d.kol || [], kaynak: d.kaynak || "", _yama: d.kaynak || true };
+        KORIDOR.yama.dugum++;
+      }
+    });
+    KORIDOR.yama.kenar += (y.kenar || []).length;
+    // `eksik`: koordinatı ARANIP BULUNAMAYAN düğümler. Çizilmez ama SAYILIR —
+    // "aradım, yok" ile "bakmadım" ayrı şeylerdir ve ikincisi sessizdir.
+    KORIDOR.yama.eksik += Array.isArray(y.eksik) ? y.eksik.length : 0;
+  });
+}
+
+function koridorTopla() {
+  // ① BÜTÜN düğümler ham haritaya — koordinatsızlar DAHİL, çünkü yama tam
+  //    onlara koordinat yazacak. Önce eleyip sonra yamalamak imkânsızdı.
+  var ham = {};
+  Object.keys(window).forEach(function (k) {
+    if (!/^KORIDOR(_[A-Za-z0-9]+)?_DUGUM$/.test(k) || !Array.isArray(window[k])) return;
+    window[k].forEach(function (d) {
+      if (!d || !d.id) return;
+      // Aynı düğüm iki dosyada olabilir (Belgrad hem koridor.js'te hem halka2'de,
+      // ikincisi `boyar:false` bağlantı ucu). Koordinatlı kayıt önceliklidir;
+      // koordinatsız bir kayıt koordinatlının üstüne YAZILMAZ.
+      var v = ham[d.id];
+      if (!v) ham[d.id] = Object.assign({}, d);
+      else if ((v.lat == null || v.lon == null) && d.lat != null && d.lon != null)
+        ham[d.id] = Object.assign({}, d);
+    });
+  });
+
+  // ② YAMALAR — koordinat doldurur, yeni düğüm ekler
+  koridorYamaUygula(ham);
+
+  // ③ Koordinatı OLANLAR çizilir; kalan SAYILIR (sessizce düşmez)
+  Object.keys(ham).forEach(function (id) {
+    var d = ham[id];
+    if (d.lat == null || d.lon == null) { KORIDOR.atlanan.dugum++; return; }
+    KORIDOR.dugum[id] = d;
+  });
+
+  // ④ Kenarlar: hem `_KENAR` globalleri hem yamaların `kenar` dizisi
+  var kenarlar = [];
+  Object.keys(window).forEach(function (k) {
+    if (/^KORIDOR(_[A-Za-z0-9]+)?_KENAR$/.test(k) && Array.isArray(window[k]))
+      kenarlar = kenarlar.concat(window[k]);
+    else if (/^KORIDOR_YAMA_[A-Za-z0-9]+$/.test(k) && window[k]
+             && !Array.isArray(window[k]) && Array.isArray(window[k].kenar))
+      kenarlar = kenarlar.concat(window[k].kenar);
+  });
+  kenarlar.forEach(function (e) {
+    var a = KORIDOR.dugum[e.u1], b = KORIDOR.dugum[e.u2];
+    if (!a || !b) { KORIDOR.atlanan.kenar++; return; }   // ucu koordinatsız
+    KORIDOR.kenar.push({
+      e: e, a: a, b: b,
+      fi: gunIdx(e.f || "1539-01-01"),
+      ti: gunIdx(e.t || "1839-01-01")
+    });
+  });
+}
+
+function koridorKur() {
+  koridorTopla();
+  if (!KORIDOR.kenar.length) { console.log("Atlas: koridor ağı — veri YOK, katman kurulmadı."); return; }
+
+  harita.addSource("koridor-kenar", { type: "geojson", data: bosVeri() });
+  harita.addSource("koridor-dugum", { type: "geojson", data: bosVeri() });
+
+  // ŞART ① KORİDOR SINIR DEĞİL, YOL.
+  // Sınır çizgileri DÜZ ve kırmızı (#8e0b22 ailesi); motor hatları camgöbeği
+  // ve turuncu KESİKLİ; veri sınırı gri-mavi uzun kesik. Koridor bunların
+  // hiçbirine benzemesin diye NOKTALI (kısa nokta dizisi) ve KEHRİBAR seçildi —
+  // ve `line-cap:"round"` ile noktalar yuvarlak, yani "menzil boncuğu" gibi
+  // okunuyor. Ayrıca hepsinin ÜSTÜNDE çizilmiyor: gövde dolgularının üstünde
+  // ama sefer oklarının altında kalır (aşağıdaki beforeId'siz sıra bunu verir).
+  harita.addLayer({
+    id: "koridor-kenar-cizgi", type: "line", source: "koridor-kenar",
+    layout: { visibility: "none", "line-cap": "round", "line-join": "round" },
+    paint: {
+      "line-color": "#c8861a",
+      // ana kol kalın, tali ince — veri `kalinlik` alanını zaten taşıyor
+      "line-width": ["case", ["==", ["get", "kalinlik"], "ana"], 2.6, 1.6],
+      "line-dasharray": [0.4, 2.2],
+      "line-opacity": 0.95
+    }
+  });
+
+  // ŞART ③ KAYNAKSIZ DURAK GÖRÜNÜR OLSUN.
+  // Duraklara `kaynakli` bayrağı basılıyor ve gösterim ONA göre ayrışıyor:
+  //   kaynaklı  → İÇİ DOLU kehribar daire
+  //   kaynaksız → İÇİ BOŞ (beyaz) daire, kehribar çember
+  // Yani "bu durak seçildi" bilgisi tıklamayı BEKLEMEDEN ekranda duruyor;
+  // tıklanınca açılan kart da bunu cümleyle söylüyor (aşağıda).
+  // ⚠️ `["case", ["get","kaynakli"], …]` YAZMADIM ve sebebi ölçülemedi, o yüzden
+  // riske girilmedi: MapLibre'nin ifade denetçisi `case` koşulunda BOOLEAN ister,
+  // `["get", …]` ise `value` tipi döndürür — bazı sürümlerde "Expected boolean
+  // but found value" ile addLayer'ı DÜŞÜRÜR. Bu oturumda tarayıcı paneli
+  // görüntülenmediği için harita stili hiç yüklenmedi ve `addLayer` GERÇEKTEN
+  // KOŞULAMADI ⇒ hangi davranışın geçerli olduğunu ÖLÇEMEDİM.
+  // `["==", …, true]` her sürümde boolean döndürür ve iki hâlde de doğrudur.
+  // 📌 Ölçemediğim bir şeyi "herhalde çalışır" diye bırakmak, bu projenin
+  // "ölçülemedi ≠ temiz" kuralının tam ihlali olurdu.
+  harita.addLayer({
+    id: "koridor-dugum-daire", type: "circle", source: "koridor-dugum",
+    layout: { visibility: "none" },
+    paint: {
+      "circle-radius": ["case", ["==", ["get", "kaynakli"], true], 4.2, 4.6],
+      "circle-color": ["case", ["==", ["get", "kaynakli"], true], "#c8861a", "#fffaf0"],
+      "circle-stroke-color": "#7a4f0c",
+      "circle-stroke-width": 1.4,
+      "circle-opacity": 0.95
+    }
+  });
+
+  var koridorPopup = new maplibregl.Popup({ closeButton: true, closeOnClick: true, maxWidth: "320px", className: "koridor-popup" });
+  harita.on("click", "koridor-dugum-daire", function (ev) {
+    var p = ev.features[0].properties;
+    var govde = "<b>" + p.ad + "</b><br><i>menzil durağı — " + (p.kol || "") + "</i>";
+    // ŞART ③: kullanıcı neyin KESİN neyin ÇIKARIM olduğunu görmeli.
+    if (!p.kaynakli) {
+      govde += "<p class=\"koridor-uyari\">⚠️ <b>Bu durak SEÇİLMİŞTİR, kaynaktan alınmamıştır.</b> " +
+        "TDV'nin menzil maddesi ana kolları sayar, <b>duraklarını saymaz</b>. " +
+        "Durak, verideki mevcut yerleşimlerden ve bilinen ordu yolu hattından seçildi; " +
+        "uydurulmadı ama <b>seçildi</b> — ikisi ayrı şeydir.</p>";
+    } else {
+      govde += "<p>Kaynak: " + String(p.kaynak).replace(/</g, "&lt;") + "</p>";
+    }
+    koridorPopup.setLngLat(ev.lngLat).setHTML(govde).addTo(harita);
+  });
+  harita.on("click", "koridor-kenar-cizgi", function (ev) {
+    var p = ev.features[0].properties;
+    var govde = "<b>" + p.baslik + "</b><br><i>menzil hattı — " + (p.kanat || "") + "/" + (p.kol || "") + "</i>";
+    if (p.saat != null && p.saat !== "") {
+      // ⚠️ "ölçüldü" ile "türetildi" AYRI: birincisi arşivden okunmuş saat,
+      // ikincisi kuş uçuşu km / 4,25 km-sa kalibrasyonuyla HESAPLANMIŞ.
+      // Veri bu ayrımı `saat_cinsi` ile taşıyor ve ekranda da ayrı duruyor.
+      govde += "<p>≈ " + p.saat + " saat" +
+        (p.saat_cinsi === "olculdu" ? " <b>(arşivden ölçüldü)</b>"
+                                    : " <i>(kuş uçuşu km'den türetildi — ölçülmüş değil)</i>") + "</p>";
+    } else {
+      govde += "<p><i>Saat mesafesi bulunamadı.</i></p>";
+    }
+    govde += "<p class=\"koridor-kaynak\">Kaynak: " + String(p.kaynak).replace(/</g, "&lt;") + "</p>";
+    koridorPopup.setLngLat(ev.lngLat).setHTML(govde).addTo(harita);
+  });
+  ["koridor-dugum-daire", "koridor-kenar-cizgi"].forEach(function (id) {
+    harita.on("mouseenter", id, function () { harita.getCanvas().style.cursor = "pointer"; });
+    harita.on("mouseleave", id, function () { harita.getCanvas().style.cursor = ""; });
+  });
+
+  console.log("Atlas: koridor ağı — " + Object.keys(KORIDOR.dugum).length + " düğüm · " +
+    KORIDOR.kenar.length + " kenar kuruldu (koordinatsız atlanan: " +
+    KORIDOR.atlanan.dugum + " düğüm, " + KORIDOR.atlanan.kenar + " kenar).");
+  // 🔴 YAMA SATIRI AYRI BASILIYOR ve sebebi ölçülmüş: yamaların görünmediği
+  // kusuru yakalayan şey bir denetim değil, YUKARIDAKİ "atlanan" SATIRIYDI.
+  // Sayılmayan şey görünmez; görünmeyen şey yarın sıfırdan keşfedilir.
+  console.log("Atlas: koridor yaması — " + KORIDOR.yama.dosya + " dosya · " +
+    KORIDOR.yama.dugum + " düğüme koordinat · " + KORIDOR.yama.kenar +
+    " kenar eklendi · " + KORIDOR.yama.eksik + " düğüm KOORDİNATI BULUNAMADI.");
+  if (KORIDOR.yama.tanimsiz.length)
+    console.warn("Atlas: koridor yaması — 🔴 TANINMAYAN ŞEKİL, OKUNMADI: " +
+      KORIDOR.yama.tanimsiz.join(" · ") +
+      "  ⇒ beklenen şekil: window.KORIDOR_YAMA_<6hane> = { dugum:[…], kenar:[…], eksik:[…] }" +
+      "  (M-0675 ③). Bu satır, göç yapılmadığı hâlde 'çalışıyor' görünmesini engeller.");
+}
+
+// ŞART ② ZAMAN ÇERÇEVESİNE UY.
+// Menzil sistemi TDV `menzil--osmanli`ya göre 1539'da teşkilatlandı, 1839'da
+// posta teşkilâtıyla kaldırıldı. Zaman göstergesi 1281'deyken koridor
+// ÇİZİLMEZ — yoksa anakronizm olur ve bu projenin en çok şikâyet edilen
+// hatası tam olarak odur. Süzgeç kenarın KENDİ f/t'sinden okunuyor, sabit
+// tarih GÖMÜLMEDİ: veri bir kolu başka bir aralıkla yazarsa katman ona uyar.
+function koridorGuncelle(t) {
+  if (!haritaHazir || !harita.getSource("koridor-kenar")) return;
+  var kenarlar = [], canli = {};
+  KORIDOR.kenar.forEach(function (m) {
+    if (!(m.fi <= t && t < m.ti)) return;
+    canli[m.e.u1] = 1; canli[m.e.u2] = 1;
+    kenarlar.push({
+      type: "Feature",
+      properties: {
+        baslik: m.a.ad + " → " + m.b.ad, kanat: m.e.kanat, kol: m.e.kol,
+        kalinlik: m.e.kalinlik || "ana", saat: m.e.saat,
+        saat_cinsi: m.e.saat_cinsi || "olculemedi", kaynak: m.e.kaynak || "bulunamadı"
+      },
+      geometry: { type: "LineString", coordinates: [[m.a.lon, m.a.lat], [m.b.lon, m.b.lat]] }
+    });
+  });
+  // Düğüm yalnız CANLI bir kenara bağlıysa çizilir — tek başına duran bir
+  // durak, hattı olmayan bir menzil demektir ve yanıltır.
+  var dugumler = Object.keys(canli).map(function (id) {
+    var d = KORIDOR.dugum[id];
+    if (!d) return null;
+    var ks = d.kaynak || "";
+    return {
+      type: "Feature",
+      properties: {
+        ad: d.ad, kol: (d.kol && d.kol.length ? d.kol[0] : ""),
+        kaynak: ks || "bulunamadı",
+        kaynakli: !(!ks || /bulunamad/i.test(ks))
+      },
+      geometry: { type: "Point", coordinates: [d.lon, d.lat] }
+    };
+  }).filter(Boolean);
+  harita.getSource("koridor-kenar").setData({ type: "FeatureCollection", features: kenarlar });
+  harita.getSource("koridor-dugum").setData({ type: "FeatureCollection", features: dugumler });
+}
+
 // ---------- Hareket lejantı (md.4.3) ----------
 // Kullanıcı dokuz ok tipini görüyor ama hangisinin ne olduğunu bilmiyordu.
 //
@@ -2408,6 +2682,23 @@ function padisahGuncelle(t) {
 // değil, eski elle-zincirle AYNI doğal sırayı (OLAYLAR, EK, EK2…EK16) veren
 // bir karşılaştırıcı kullanıldı; davranış bugünkünden FARKLI DEĞİL, yalnız
 // kalıcı hâle geldi.
+// 🔴 ARAYÜZ KORİDOR (16 Ağustos) — AYNI KUSUR İKİNCİ KEZ, ve sebebi YUKARIDAKİ
+// ÇARENİN İÇİNDEYDİ. Yukarıdaki yorum *"EK17 vb. bir sonraki dosya bağlandığında
+// BU SATIRA dokunmaya gerek YOK"* diyor — ama o cümle bir VARSAYIM taşıyordu:
+// dosyaların `OLAYLAR_EK<n>` diye adlanacağı. `KRONOLOJI-KIRILMA.md §⓪` yeni
+// oturumlara adı `data/olaylar_<UUID'nin ilk 6 hanesi>.js` diye DAYATTI ve
+// `OLAYLAR_7A4170` süzgece TAKILDI: dosya index.html'de yükleniyor, denetle.py
+// glob'la okuyor (Değişmez 2 gerçekten 0 açık), ama app.js listeye HİÇ KATMIYOR
+// ⇒ dört madde kullanıcıya GÖRÜNMÜYORDU. `denetle_yayin.py` bunu satır satır
+// söylüyordu: "OLAYLAR_7A4170 · app.js OKUMUYOR".
+// 📌 DERS: elle listeyi desenle değiştirmek listeyi YOK ETMEZ, DESENİN İÇİNE
+// SAKLAR. `/^OLAYLAR(_EK\d*)?$/` görünüşte bir desen, gerçekte "kabul ettiğim
+// adların listesi"dir — ve sessizce bayatlar. Süzgeç artık ADLANDIRMA
+// KURALINDAN bağımsız: `OLAYLAR` ile başlayan her global kabul edilir.
+// ⚠️ Sıralama DAVRANIŞI DEĞİŞMEDİ: OLAYLAR(0) → _EK(1) → _EK2..EK16 aynı
+// yerde; ad kuralına uymayanlar 999'a düşüp ARALARINDA ADA GÖRE sıralanır
+// (kararlı ve öngörülebilir). Sıra yalnız AYNI GÜNE denk gelen maddeler
+// arasında görünür — son `.sort` zaten `.gi`ye göre tam sıralama yapıyor.
 function olaylarAnahtarSiraNo(k) {
   if (k === "OLAYLAR") return 0;
   var m = k.match(/^OLAYLAR_EK(\d*)$/);
@@ -2416,8 +2707,11 @@ function olaylarAnahtarSiraNo(k) {
 var akisModu = null;   // aşağıda zaman kontrolü bölümünde atanır
 var olayListe = document.getElementById("olay-listesi");
 var olaylar = Object.keys(window)
-  .filter(function (k) { return /^OLAYLAR(_EK\d*)?$/.test(k); })
-  .sort(function (a, b) { return olaylarAnahtarSiraNo(a) - olaylarAnahtarSiraNo(b); })
+  .filter(function (k) { return /^OLAYLAR(_[A-Za-z0-9]+)?$/.test(k) && Array.isArray(window[k]); })
+  .sort(function (a, b) {
+    var f = olaylarAnahtarSiraNo(a) - olaylarAnahtarSiraNo(b);
+    return f !== 0 ? f : (a < b ? -1 : a > b ? 1 : 0);
+  })
   .reduce(function (acc, k) { return acc.concat(window[k] || []); }, [])
   .map(function (o) {
   var kaba = gunIdx(o.t);
@@ -3093,6 +3387,7 @@ function guncelle() {
   sehirGuncelle(suanki);
   savasGuncelle(suanki);
   seferGuncelle(suanki);
+  koridorGuncelle(suanki);
   devirGuncelle(suanki);
   isgalGuncelle(suanki);
   padisahGuncelle(suanki);
@@ -3910,6 +4205,24 @@ document.getElementById("bolge").addEventListener("change", function () {
     if (harita.getLayer("veri-siniri-cizgi"))
       harita.setLayoutProperty("veri-siniri-cizgi", "visibility", acik ? "visible" : "none");
     d.classList.toggle("etkin", acik);
+  });
+})();
+
+// Koridor ağı — varsayılan KAPALI, "Veri sınırı" ile aynı desende.
+// Sürekli açık dursa haritayı ağla örterdi; menzil yolları bir ARKA PLAN
+// bilgisidir, atlasın kendisi değil.
+// ⚠️ Düğme kapalıyken de `koridorGuncelle` çalışır (kaynak taze kalsın,
+// açılınca doğru tarihi göstersin); görünürlük yalnız layout ile açılır.
+(function () {
+  var d = document.getElementById("btn-koridor");
+  if (!d) return;
+  d.addEventListener("click", function () {
+    KORIDOR.acik = !KORIDOR.acik;
+    ["koridor-kenar-cizgi", "koridor-dugum-daire"].forEach(function (k) {
+      if (harita.getLayer(k))
+        harita.setLayoutProperty(k, "visibility", KORIDOR.acik ? "visible" : "none");
+    });
+    d.classList.toggle("etkin", KORIDOR.acik);
   });
 })();
 
