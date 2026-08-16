@@ -3347,6 +3347,121 @@ def _eski_yabanci_taban():
 
 _ESKI_YABANCI = _eski_yabanci_taban()
 
+# ═══ PUANLAMA KAPISI — "BURASI KİMSENİN Mİ?" · 16 Ağustos 2026 ═════════════
+# Emre'nin beyanı (BES-ALTYAPI ④): bir yerleşimin boş coğrafyadaki etki alanı
+# sınırsız olmamalı. Tavan 200 km, ve tek merkez yetmiyorsa PUAN toplanır:
+#     0-200 km = 4p · 200-300 km = 2p · 300-400 km = 1p · toplam ≥4 ⇒ BOYANIR
+#
+# 🔴 SÜRTÜNMELİ MESAFE İLE RAKİP DEĞİL, TAMAMLAYICI (M-0706, Emre'nin (c) şıkkı):
+#     sürtünmeli mesafe → BURASI KİMİN?        (motor bunu zaten yapıyor)
+#     PUANLAMA          → BURASI KİMSENİN Mİ?  (bu blok)
+#
+# ⚠️ PUANLAR AYNI DEVLETİN merkezlerinden toplanır, karışık değil. Bu bir
+# YORUM ve ölçülerek seçildi (M-0738): Emre'nin cümlesi *"3 ayrı merkez"* diyor,
+# *"aynı devletin"* demiyor. İki okuma ölçüldü:
+#     A aynı devlet    45,20 M km² boyanır      ← SEÇİLEN
+#     B herhangi merkez 57,13 M km² boyanır     fark 11,93 M km² (%16)
+# B düz okuma olarak savunulabilir AMA *"hangi devlete"* sorusunu cevaplayamaz
+# ⇒ sahiplik kapısı olarak KULLANILAMAZ. A, uygulanabilir tek yorumdur.
+#
+# ⚠️ ARAZİ ÖLÇÜTÜ YOK — ve bu da ölçüldü (M-0740). Şartname *"yalnız çöl/ova/
+# bozkırda uygula, yoksa Anadolu çöker"* diyordu. Ölçüm korkuyu çürüttü:
+#     ANADOLU 914.367 km² · puanlamanın DEĞDİĞİ 0 km² (%0,00)
+#     RUMELİ  525.858 km² · puanlamanın DEĞDİĞİ 0 km² (%0,00)
+# Sebebi yapısal: 200 km'de sahipli bir merkez varsa o merkez TEK BAŞINA 4 puan
+# verir ⇒ kapı orada hiçbir şey değiştirmez. **Puanlama kendi kendini sınırlar.**
+# Üç aday ölçüt denendi ve üçü de gereksiz çıktı; dahası `Desert/Plain/Tundra`
+# poligonu SİBİRYA'yı (%1,5) ve KONGO'yu (%0,5) kaçırıyordu — yani kapının en
+# çok gerektiği yerleri.
+#
+# ⚠️ IZGARA KENARI BASAMAKLIDIR (0,05° ≈ 5,5 km) ve bu KABUL EDİLMİŞ bir ödün.
+# Gerekçe motorun kendi ölçümü: kapının kestiği yerler `serbest_kenar` sınıfına
+# düşüyor — sahipli gövde ile SAHİPSİZ alan arasındaki sınır — ve o sınırın
+# ölçülmüş belirsizliği MEDYAN 91,7 km (Sahra 181,9 · Arabistan 217,3).
+# 5,5 km'lik basamak o belirsizliğin içinde kalıyor; `js/app.js` zaten o kenarı
+# line-blur ile söndürüyor. ⇒ Keskin çizmek, olmayan bir kesinlik iddia ederdi.
+#
+# 📌 MALİYET ÖLÇÜLDÜ, TAHMİN EDİLMEDİ: dönem başına 3,5 sn · 513 dönem ≈ 29 dk
+# (koşunun %22'si). Devlet-bazlı önbellek 10,3 kat ucuzlatıyor (2,8 dk) ama
+# koordinatör BEŞİNCİ KOŞUDA ÖNBELLEKSİZ olmasını istedi (M-0744) ve gerekçesi
+# hızdan iyiydi: kapı ilk kez koşuyor, aynı koşuya önbellek de konursa çıktı
+# yanlış çıktığında *"algoritma mı yanlış, önbellek mi bayat"* SORULAMAZ.
+# ⇒ Önbellek sonraki koşuda, ve BU koşunun çıktısı onun referansı olacak.
+PUAN_TAVAN_KM = 200.0            # Emre'nin beyanı — 4 puanlık halka
+PUAN_ESIK = 4                    # boyanma eşiği
+PUAN_HALKA = ((200.0, 4), (300.0, 2), (400.0, 1))
+PUAN_KAPALI = os.environ.get("MOTOR_PUAN_KAPALI") == "1"
+_PUAN_ONBELLEK = {}              # yalnız aynı dönem içinde tekrar için
+_PUAN_KESILEN = [0.0]            # kapının kestiği toplam km² (ölçüm)
+_PUAN_TAMAMEN = [0]              # tamamen boşalan gövde-dönemi sayısı
+
+
+def _puan_bolgesi(did, aktif, gun):
+    """did devletinin `gun` tarihinde ≥PUAN_ESIK puan topladığı bölge (shapely).
+
+    Izgara üzerinde puanlanır, sonra poligona çevrilir. Boş dönerse o devletin
+    o tarihte hiçbir yeri boyanmaz.
+    ⚠️ `aktif` YALNIZ o devletin peteklerini taşıyan nokta indeksleri; puan
+    ONLARDAN toplanır — bu, A yorumunun kodda karşılığıdır.
+    """
+    anahtar = (did, aktif)
+    if anahtar in _PUAN_ONBELLEK:
+        return _PUAN_ONBELLEK[anahtar]
+    import numpy as _np2
+    _lo = [YERLER[j]["lon"] for j in aktif]
+    _la = [YERLER[j]["lat"] for j in aktif]
+    if not _lo:
+        _PUAN_ONBELLEK[anahtar] = None
+        return None
+    # yalnız bu devletin çevresini kapsayan PENCERE — tam ızgara gereksiz
+    _r = PUAN_HALKA[-1][0]
+    _dlat = _r / 110.574
+    _x0 = max(_kvx0, min(_lo) - _r / 111.320 / max(0.15, math.cos(math.radians(max(abs(min(_la)), abs(max(_la)))))))
+    _x1 = min(_kvx0 + _kvnx * KV_ADIM, max(_lo) + _r / 111.320 / max(0.15, math.cos(math.radians(max(abs(min(_la)), abs(max(_la)))))))
+    _y0 = max(_kvy0, min(_la) - _dlat)
+    _y1 = min(_kvy0 + _kvny * KV_ADIM, max(_la) + _dlat)
+    _nx = max(1, int((_x1 - _x0) / KV_ADIM))
+    _ny = max(1, int((_y1 - _y0) / KV_ADIM))
+    _p = _np2.zeros((_ny, _nx), dtype="int16")
+    _cy = _y0 + (_np2.arange(_ny) + 0.5) * KV_ADIM
+    _cx = _x0 + (_np2.arange(_nx) + 0.5) * KV_ADIM
+    _cos = _np2.cos(_np2.radians(_cy))
+    for _jj in aktif:
+        _yy = YERLER[_jj]
+        _dy = (_cy - _yy["lat"]) * 110.574
+        _dx = (_cx[None, :] - _yy["lon"]) * 111.320 * _cos[:, None]
+        _m = _np2.sqrt(_dx ** 2 + _dy[:, None] ** 2)
+        _k = _np2.zeros(_m.shape, dtype="int16")
+        _once = 0.0
+        for _e, _pu in PUAN_HALKA:          # 200→4p · 300→2p · 400→1p
+            _k[(_m >= _once) & (_m < _e)] = _pu
+            _once = _e
+        _p += _k
+    _msk = _p >= PUAN_ESIK
+    if not _msk.any():
+        _PUAN_ONBELLEK[anahtar] = None
+        return None
+    # raster → poligon: hücre kutularının birleşimi (kenar basamaklı, kabul edilmiş)
+    _kut = []
+    for _j2 in range(_ny):
+        _sat = _msk[_j2]
+        if not _sat.any():
+            continue
+        _i2 = 0
+        while _i2 < _nx:
+            if _sat[_i2]:
+                _b = _i2
+                while _i2 < _nx and _sat[_i2]:
+                    _i2 += 1
+                _kut.append(box(_x0 + _b * KV_ADIM, _y0 + _j2 * KV_ADIM,
+                                _x0 + _i2 * KV_ADIM, _y0 + (_j2 + 1) * KV_ADIM))
+            else:
+                _i2 += 1
+    _g = unary_union(_kut) if _kut else None
+    _PUAN_ONBELLEK[anahtar] = _g
+    return _g
+
+
 asama("Yabancı devlet gövdeleri")
 def _osm_aktif(y, a):
     return (any(dn["f"] <= a < dn["t"] for dn in y["d"]) or
@@ -3443,6 +3558,17 @@ for _dv_i, (did, (dad, renk)) in enumerate(BOYALAR.items(), 1):
         # kılcal boşluk da bindirme de üretilmez. Kıyı EN SON kesilir: deniz
         # sınırı doğrudan KARA maskesinden gelir, girinti-çıkıntıya birebir oturur.
         g = poligonal(g.intersection(KARA))
+        # ---- PUANLAMA KAPISI: "burası kimsenin mi?" --------------------------
+        # Gövde çizildikten SONRA kesiliyor, çünkü kapı sahipliği değil
+        # BOYANMAYI sınırlıyor: petek kime aitse ona ait kalır, yalnız
+        # 4 puana ulaşmayan kısmı boyanmaz.
+        if not PUAN_KAPALI and not g.is_empty:
+            _pb = _puan_bolgesi(did, aktif, a)
+            _onceki_alan = _ham_km2(g)
+            g = poligonal(g.intersection(_pb)) if _pb is not None else Polygon()
+            _PUAN_KESILEN[0] += max(0.0, _onceki_alan - _ham_km2(g))
+            if g.is_empty:
+                _PUAN_TAMAMEN[0] += 1
         if g.is_empty:
             sayac("yabancı gövde geometrisi", time.time() - _t_gv)
             continue
@@ -3475,6 +3601,18 @@ for _dv_i, (did, (dad, renk)) in enumerate(BOYALAR.items(), 1):
 print(f"  {len(DEVLET_KAYIT)} devlet, "
       f"{sum(len(d['dnm']) for d in DEVLET_KAYIT)} dönem — "
       f"yazım seyreltmeden sonraya ertelendi")
+# ---- PUANLAMA KAPISININ BİLANÇOSU — sessiz kapı, kapatılmış kapıdır --------
+# 📌 `§11`: ölçülmeyen bir aşama "çalıştı" sayılamaz. Kapı bir şey kesmediyse
+#    de BASAR — sıfır da bir sonuçtur ve öngörünün ① kalemi tam onu soruyor.
+if PUAN_KAPALI:
+    print("  🚪 PUANLAMA KAPISI KAPALI (MOTOR_PUAN_KAPALI=1) — kesim YOK")
+else:
+    print(f"  🚪 PUANLAMA KAPISI: kesilen {_PUAN_KESILEN[0]:,.0f} km² · "
+          f"tamamen boşalan gövde-dönemi {_PUAN_TAMAMEN[0]}")
+    print(f"     ölçüt: AYNI devletin merkezleri · 0-200=4p · 200-300=2p · "
+          f"300-400=1p · eşik {PUAN_ESIK}")
+    print(f"     ÖNGÖRÜ: kesilen 2-15 M km² · boşalan 50-400 "
+          f"(denetim/PUANLAMA-ONGORU.md)")
 
 asama("Dönemler kuruluyor (delta yapısı)")
 # İki katman:
