@@ -305,6 +305,89 @@ HİÇBİR KUTUYA GİRMEYEN 74  ← Moskova · Smolensk · Kola: RUSYA kimsede de
 
 ---
 
+---
+
+# 🧰 DEVREDİLEN ALETLER — scratchpad'de ölürlerdi, buraya alındı
+
+`SABLON §⑧`: *"Sende kalan hiçbir bilgi kurtarılamaz."* Bu üç betik
+M-0460'ta *"isteyene veririm"* diye teklif edildi; teklif kayıt değildir.
+`arac/` benim değil, o yüzden buraya yazıyorum — isteyen kopyalar.
+
+## ① DAYANAK DENETİMİ — `M-0391`in emrinin karşılığı
+*"Bu hüküm doğru mu"* pahalı ve öznel; *"bu hükmün **dayanağı yazılı mı**"*
+ucuz ve makinece sorulabilir. **Bende ilk koşusunda 1/5 kusur buldu — ve
+bulduğu şey yanlış kademe DEĞİL, doğru kademenin savunulamaz hâlde
+durmasıydı.** İkincisi daha sinsi: yanlış kademe bir gün fark edilir,
+dayanaksız doğru kademe hiç sorgulanmaz.
+
+```python
+# üç soru, hepsi makinece:
+alinti  = re.findall(r"'([^']{15,})'", neden)      # kaynağın KENDİ cümlesi
+kaynakli = kaynak.strip() and kaynak.strip().lower() != "bulunamadı"
+esleme  = any(s in neden for s in
+              ("eşleme", "mertebe", "M-0270", "altı", "aşağı"))
+# alinti YOKSA · kaynakli DEĞİLSE · hüküm eşlemeyse ve damgası yoksa → KUSUR
+```
+
+## ② DÖRDÜNCÜ KOVA DALI — kabul kapısına ŞART
+🔴 Benim kapım kendi **doğru** kayıtlarımı reddetti: her kaydın `k:`
+taşıdığını varsayıyordu, oysa şartname kaynak susunca `k:` yazmamayı
+**meşru** kılıyor. **Ve en kolay çıkış yolu veriyi bozmaktı** — beş kayda
+uydurma `k:` yazıp kapıyı "geçirmek". *Bozuk bir denetim, veriyi bozmaya
+teşvik eder.*
+
+```python
+SUSUYOR = ("kaynak susuyor", "erişilemedi", "erişemedim",
+           "bulunamadı", "kapsamıyor")
+k: var                    → değer 1-4 olmalı
+k: yok + gerekçe YAZILI   → GEÇERLİ      (dördüncü kova)
+k: yok + gerekçe YOK      → KUSUR
+```
+
+## ③ `girdi._cevir` DİZE TEHLİKESİ TARAYICISI
+`_cevir`in anahtar-tırnaklama regex'i `([{,]\s*)(\w+)\s*:` desenini
+**dizenin İÇİNDE de** eşliyor: `neden:"… , k:3."` → `", "k":3."` ⇒ JSON
+kırılır. Bende oldu, `yerlesimler_e9353f.js`te de oldu (M-0344).
+
+⚠️ **Naif regex ÇÖP verir** — ilk denemem 38656 saydı, hepsi normal alan
+sınırıydı ve o sayıyı raporlamadım. Doğrusu dizeleri gerçekten ayrıştırır:
+
+```python
+def dize_araliklari(s):          # çift tırnaklı dize aralıkları
+    out, i, n = [], 0, len(s)
+    while i < n:
+        if s[i] == '"':
+            bas = i; i += 1
+            while i < n:
+                if s[i] == "\\": i += 2; continue
+                if s[i] == '"': break
+                i += 1
+            out.append((bas, min(i, n - 1)))
+        i += 1
+    return out
+# yorum satırları ÖNCE atılır (_cevir de öyle yapıyor), sonra
+# r',\s*[A-Za-zçğıöşü_]\w*\s*:' YALNIZ dize aralıklarının içinde aranır
+```
+🟢 Doğru tarayıcı: `devletler.js` 243 · `kademe_f5c9a5.js` 263 ·
+`olaylar_ek16.js` 32 · `yerlesimler_e9353f.js` 2.
+🔴 Ama **yalnız sonuncusu gerçek**: ötekiler `_cevir` yolundan geçmiyor
+(`oku_devletler()` dize-farkında ayrı bir okuyucu kullanıyor).
+📌 *"Desen var"* ile *"kırılıyor"* ayrı şeyler — ayrımı **çalıştırarak**
+ölçtüm, saymakla değil.
+
+## ④ KAPSAYICI KURALLAR — betik değil ama devredilir
+```
+verinin gerçek ölçeği   k:1 BAŞKENT · k:2 eyalet · k:3 sancak/kaza · k:4 kasaba
+                        (şartnamedeki "eyalet → k:1" YANLIŞ, 113 kaydı kaydırırdı)
+tâbilik                 bir kademe İNDİRİR — 7/7 tutarlı, hiçbir belgede YAZMIYOR
+tur:"bolge"             ölçüt DEĞİL — 130 bölge kaydının 12'si kademe taşıyor
+TDV tekil/çoğul         yakut/cerkes/kabartay ÖLÜ ←→ çoğulları CANLI (4 kez ısırdı)
+TDV etnonim çakışması   `kazaklar` canlı ama Kazak TÜRKLERİ — Kozak DEĞİL
+ölü slug gövde döndürür HÜKÜM HTTP KODUYLA verilir, boyutla DEĞİL (M-0441)
+```
+
+---
+
 ## ⑤ SIRADAKİ (birinci görev — Sibirya)
 - Altı ostrogun **koordinatı** — tek somut tıkanma, gazetteer cinsi kaynak gerek
 - Yakut 3 kaydının cins düzeltmesi — **koordinatörde**, dört dosya sahibi var
