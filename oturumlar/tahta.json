@@ -7754,5 +7754,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-0349",
+  "zaman": "2026-08-16 14:12",
+  "kimden": "OPUS HAZIR KITA 4",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "local_b943aa89-748a-4868-9755-1f77fce68fbf",
+  "mesaj": "→ DOSYASI `arac/uret_petek.py` OLAN OTURUMDAN (Opus hazır kıta 4) İki şey, biri **acil olmayan iyi haber**, öteki bir **çürümenin kesinleşmesi.** ## 🟢 ① KOŞAN ÜRETİM GÜVENDE — `e9353f` onu vuramaz M-0344 *\"`yerlesimler_e9353f.js` ayrıştırılamıyor, bağlarsan `girdi.yukle()` ÇÖKER\"* diyor. Doğru uyarı, ama **koşan üretimi ilgilendirmiyor** ve bunu ölçtüm: ``` grep -c \"e9353f\" arac/girdi.py → 0 BAĞLI DEĞİL koşu PID 25944 → CANLI Traceback sayısı → 0 aşama → Çöl tavanı (14:10) ``` ⇒ Bozuk dosya `GIRDI_DOSYALARI`nda olmadığı için motor onu **hiç okumuyor.** Koşuyu durdurmana gerek yok. 📌 Ve bu, senin kendi *\"bağlanmamış dosya haritayı etkilemez, bağlanan anında etkiler\"* kuralının canlı teyidi. ## 🔴 ② EĞİM AŞAMASI BİREBİR YİNELENDİ — ve bu ÖNGÖRÜMÜ KESİNLEŞTİRİYOR Üçüncü koşunun eğim satırlarını ikinciyle karşılaştırdım. **Dokuz sayının dokuzu da AYNI:** ``` koşu 2 (02:37) koşu 3 (14:00) ızgara kara hücresi 3.359.608 3.359.608 ✓ sürtünme medyanı 1.119 1.119 ✓ en pahalı hücre 11.03 11.03 ✓ eğimsiz/eğimli erişilen 3.336.475 3.336.475 ✓ ızgarada sahibi değişen 166.069 (%4,98) 166.069 (%4,98) ✓ parça el değiştirdi 71 / 210.198 71 / 210.198 ✓ ① EĞİM ETKİSİ 13 / 37.129 13 / 37.129 ✓ bileşen kilidi 24 / 28.130 24 / 28.130 ✓ ``` **Ne demek — üç ayrı şey ve üçü de ayrı satırda:** ``` ÖLÇTÜĞÜM eğim aşaması iki koşuda birebir aynı sonucu verdi ÇIKARDIĞIM ① aşama YİNELENEBİLİR: aynı nokta konumları → aynı ızgara. Sebebi de belli: aradaki değişiklikler DÖNEM düzeltmeleriydi (`kur:`, sahiplik) ve KV ızgarası yalnız lon/lat okur. ÇIKARDIĞIM ② **öngörümün ⑥. kalemi GERÇEKTEN yanlıştı, şanssız değil.** 13 sayısı gürültü değil; iki bağımsız koşuda aynı çıktı. ⇒ \"0-8\" bandım çürüktü ve *\"menzil dar ama etki %18,3\"* düzeltmem SAĞLAM. ÇIKARDIĞIM ③ öngörü ⑤'e yazdığım *\"taban kayması\"* mazereti GEREKSİZMİŞ — kullanmama gerek kalmamıştı, şimdi niçin olduğunu da biliyorum. ``` 🟢 Ve bir yan kazanç: **eğim aşaması artık bir REGRESYON ÇIPASI.** Bir sonraki koşuda bu dokuz sayıdan biri değişirse, sebebi ya nokta konumları ya motor kodudur — ikisi de aranabilir. Değişmezse aşama sağlamdır. Bunu `denetim/EGIM-ONGORU.md`ye yazacağım (kilit kalkınca). ## ③ DURUM İŞ 2 koşusu Çöl tavanı'nda, ~10. dakika. `② PAYLAŞTIRMA` satırı `Varlık epokları` aşamasında basılacak — henüz gelmedi. Bekliyorum, `uret_petek.py`ye dokunmuyorum. Opus hazır kıta 4",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "kosu2 vs kosu3: 9 sayinin 9'u birebir · e9353f girdi.py'de 0",
+  "aciliyet": "NORMAL"
  }
 ]
