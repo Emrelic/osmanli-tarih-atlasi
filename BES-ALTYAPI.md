@@ -128,9 +128,37 @@ SAHİPLİ OLUP OLMADIĞINA karar versin. (Bugün bu ikinci işi sert bir
 > düz ovadaki **tarihî yollardan**, deniz kıyısındaki **düz arazi ve
 > yollardan** oluşacaktır.
 
-📐 **ÖLÇÜM:** `data/koridor*.js` — 106 düğüm, ağ **2 parça** (Boğaz
-geçişi `istanbul ↔ uskudar` kenarı YOK), 26 düğümün koordinatı eksik.
+📐 **ÖLÇÜM:** `data/koridor*.js` — 106 düğüm, 26'sının koordinatı eksik.
 Kapsam: yalnız Osmanlı menzil sistemi (1539-1839). **Dünya ağı yok.**
+
+🔴 **VE "AĞ 2 PARÇA" SATIRI EKSİKTİ — ARAYÜZ OTURUMU ÇÜRÜTTÜ (aynı gün).**
+Bu belge ilk yazıldığında *"ağ 2 parça"* diyordu. Doğru, **ama yalnız
+VERİ için doğru:**
+```
+KÜNYE tarafı  (bütün düğüm + bütün kenar)          →  2 parça [62, 44]
+ÇİZİLEN taraf (koordinatlı düğüm + çizilebilir kenar) → 17 PARÇA
+              [21, 11, 11, 7, 6, 4, 4, 3, 3, 2, 2, 1, …]
+```
+⇒ **Kullanıcı 2 parça görmüyor, 17 kopuk kümecik görüyor.** 107 kenarın
+**43'ü** çizilemiyor çünkü bir ucu koordinatsız — ve o 26 düğüm ağın
+**uçlarında değil EKLEM YERLERİNDE** duruyor.
+
+🔴 En keskin vaka: **Anadolu kolu İstanbul'a bağlı değil**, ve sebebi
+tek bir düğüm:
+```
+uskudar · tip:"menzil-eslesmedi" · lat:null · lon:null
+          kol:["anadolu/sag#1", "anadolu/orta#1"]   ← İKİ ANA KOLUN BAŞI
+```
+Boğaz kopuşunun **iki sebebi üst üste binmiş**: (a) `istanbul↔uskudar`
+kenarı hiç yok, (b) olsaydı bile `uskudar`ın koordinatı yok, çizilemezdi.
+⇒ **Kalan iş "1 kenar ekle" DEĞİL, "26 düğüme koordinat bul"** — ve o
+43 kenarı açar.
+
+📌 Ders: *veri penceresi ile EKRAN penceresi ayrı şeylerdir.* Bu belge
+veriyi ölçüp ekranı ölçmemişti; ikisi arasındaki fark **8 kat.**
+⚠️ ÖLÇÜLMEDİ: 26 düğümün koordinatının **bulunabilir** olup olmadığı.
+`tip:"menzil-eslesmedi"` etiketi *"yerleşim verisinde karşılığı yok"*
+diyor — bu *"araştırılmadı"* mı *"yok"* mu, henüz bakılmadı.
 
 ---
 
@@ -142,7 +170,7 @@ Kapsam: yalnız Osmanlı menzil sistemi (1539-1839). **Dünya ağı yok.**
 | ② | yerleşimler | 🟡 2589 / ~4000 · `k:` 1220 | ~1400 nokta |
 | ③ | bölgeler topoğrafyaya yaslanır | 🟢 motor kurulu, İLK KEZ koşuyor | koşunun doğrulanması |
 | ④ | doğum/ölüm + boş arazi kuralı | 🟡 `kur:`/`bit:` var · **puanlama KARARI YOK** | Emre'nin (a)/(b) kararı |
-| ⑤ | koridor ağı | 🔴 106 düğüm, 2 parça, yalnız Osmanlı | dünya ağı |
+| ⑤ | koridor ağı | 🔴 106 düğüm · veride 2 parça ama **EKRANDA 17** | **26 düğüm koordinatı** (43 kenarı açar) + dünya ağı |
 
 ⚠️ **Hiçbiri "bitti" değil.** En yakın olan ③, ve o da bu koşunun
 sonucuna bağlı.
