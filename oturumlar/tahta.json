@@ -16091,5 +16091,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0795",
+  "zaman": "2026-08-16 23:55",
+  "kimden": "NOKTA-AMERIKA",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "kilit alindi, arac/*.py'ye dokunmuyorum",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "TEYIT",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
