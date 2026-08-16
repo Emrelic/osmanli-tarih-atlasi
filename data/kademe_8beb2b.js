@@ -179,6 +179,58 @@ window.KADEME_YAMA = [
 {ad:"Kuban (Yekaterinodar)", kaynak:"bulunamadı — TDV kapsamıyor (`kuban` · `yekaterinodar` · `kuban-nehri` üçü de 302; `rusya` okundu, ikisini de anmıyor)",
  neden:"kaynak susuyor — TDV'de ne 'Kuban' ne 'Yekaterinodar' adı geçiyor. Karadeniz Kazak Ordusu'nun merkezi olduğu biliniyor ama TDV bu taneciği kapsamıyor ve akademik kaynağa ERİŞİLEMEDİ. k: YAZILMADI."},
 
+// ───────── ÖZİ — ZAMANLI KADEME (`kd:`), ve KUTU KAPANDIKTAN SONRA BULUNDU ─────────
+//
+// 🔴 BU KAYIT "22 KADEMESİZ" LİSTESİNDE DEĞİLDİ — Özi'nin `k:3`ü VARDI.
+//   Ama şartname `§④4` kademesizlerle sınırlı değil: *"`kd:` — bir yer
+//   kademe DEĞİŞTİRDİYSE"* de benim işim. Ve Özi değiştirmiş.
+//
+// 🔴 NASIL BULUNDU — kendi hükmümü ADVERSARYEL sınarken
+//   Beş Don/Kuban kaydını *"kaynak susuyor"* diye kapatmıştım. Kardeş
+//   oturum (M-0468) şunu yazdı: ***"Bir slug denemek 'aradım' değildir"***
+//   — `ilahabad` üç yazımda da ölüydü, `allahabad` 200 · 93 KB çıktı.
+//   ⇒ Kendi beş kaydımı yeniden sınadım: **15 yeni yazım** denedim.
+//     `kozak` 200 CANLI çıktı — ama madde MÜHÜR KUTUSU hakkında (tuzak ②).
+//     `ozu`  200 CANLI çıktı — ve Zaporojye/Don/Kuban'ı KAPSAMIYOR,
+//     yani beş kaydımın hükmü **ayakta kaldı.**
+//   🟢 **Ama aynı madde BAŞKA bir şey verdi ve o bu kayıt.**
+//   📌 Ders: bir hükmü çürütmeye çalışmak, çürütemesen bile **başka bir
+//     bulgu üretir.** Adversaryel sınama boşa gitmiyor.
+//
+// 🔴 VE DÜZELTTİĞİ ŞEY YAPISAL BİR ÇELİŞKİ — Hoy/Tebriz'in aynısı
+//   Veride Özi `k:3`. Ama TDV Özi'yi 1593'te **müstakil beylerbeyilik**
+//   yapıyor ve ona bağlı sancakları sayıyor: *"Silistre, Niğbolu, Çirmen,
+//   Vize, Kırkkilise, Bender, Akkirman, Kili ve Kılburun"*.
+//   ⇒ Veride **Akkirman de k:3** — yani Özi, **kendi tâbi sancağıyla aynı
+//     ağırlıkta** duruyor. Bu, ARAP-IRAN'ın `Hoy k:2` kaydında
+//     çürüttüğüm çelişkinin **birebir aynısı, bu sefer benim kutumda.**
+//
+// ⚠️ `m:` (bağlı merkez) alanını YAZMADIM: 1593 öncesi Rumeli
+//   beylerbeyiliğine bağlı olduğu söyleniyor ama `m:` veri adı ister ve
+//   uydurmuyorum. Eksik olan bilgi değil, EŞLEŞTİRME.
+// ⚠️ İkinci dönemin `t:`si 1792: TDV eyaletin ne zaman BİTTİĞİNİ
+//   söylemiyor; söylediği *"1792 Yaş antlaşmasıyla resmen Rusya'ya"*
+//   geçiş. Osmanlı kademesi Osmanlı'dan çıkınca süremez ⇒ bu bir
+//   ÇIKARIM, ve ölçüm değil. Ayrı satırda yazıyorum ki karışmasın.
+// 🔴 VE BU KAYIT, YAZILDIKTAN 5 DAKİKA SONRA BİR DENETİMDEN KALDI —
+//   M-0471 (`KADEME-ARAP-IRAN`) `kd:` için sekiz soruluk bir denetim
+//   devretti; projede `kd:` yazılı kayıt olmadığı için **hiçbir denetim
+//   betiği `kd:`ye bakmıyordu.** İlk yazan, şemayı denetimsiz kullanır.
+//   ⑧. sorusu beni yakaladı: *"BİTİŞİK iki dönem AYNI k: mi"*
+//     yazdığım    1542-1584 k:3 · 1584-1593 k:3 · 1593-1792 k:2
+//     kusur       ilk ikisi bitişik VE aynı k: ⇒ gereksiz bölünme
+//     düzeltilmiş 1542-1593 k:3 · 1593-1792 k:2
+//   📌 Kaza→sancak geçişi (1584) GERÇEK bir idarî kırılma, ama **kademe
+//     ağırlığı DEĞİŞMİYOR** (ikisi de k:3). `kd:` kademeyi tutar, idarî
+//     unvanı değil — unvan farkı `neden:`te, iki alıntı da orada duruyor.
+//   🟢 Devredilen bir denetimin İLK KOŞUSUNDA gerçek bir kusur bulması,
+//     yatay paylaşımın en somut karşılığı.
+// kaynak: ozu (TDV) — kırılmaların HEPSİ tarihli alıntıyla
+{ad:"Özi", kaynak:"ozu (TDV)",
+ kd:[{f:"1542-01-01", t:"1593-01-01", k:3},
+     {f:"1593-01-01", t:"1792-01-01", k:2}],
+ neden:"ZAMANLI KADEME — kaynak üç kırılmayı da TARİHLİ veriyor: '949 (1542) tarihli bir kayıtta bir KAZA şeklinde kaydedilir' · 'Özü 1584'te SANCAK haline getirildi' · 'XVI. yüzyılın sonlarında (1002/1593) Rumeli beylerbeyiliğinden ayrılarak MÜSTAKİL BİR BEYLERBEYİLİK haline getirildi'. Kaza ve sancak veride k:3 mertebesinde (sancak merkezleri 13/19 k:3), beylerbeyilik k:2 (eyalet merkezleri 19/19 k:2). Veride duran düz k:3, 1593 sonrasını YANLIŞ gösteriyor: Özi'ye bağlı sancak olarak sayılan Akkirman de k:3, yani üst ve ast AYNI ağırlıkta. Son dönemin t:1792 sınırı ÇIKARIMDIR — TDV eyaletin bitişini vermiyor, yalnız '1792 Yaş antlaşmasıyla resmen Rusya'ya' geçişi veriyor."},
+
 ];
 
 // ═══════════ YAZILMAYANLAR — ve her biri NİÇİN ═══════════
