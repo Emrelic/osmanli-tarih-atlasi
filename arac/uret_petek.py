@@ -2406,6 +2406,10 @@ else:
 # verinin bilerek boş bıraktığı alana dokunmaz.
 _VARLIK_ONBELLEK = {}
 _VARLIK_DEVIR = {}
+# ② paylaştırma sayacı — İŞ 2'nin KABUL ÖLÇÜTÜ. Anahtar `devir` frozenset'i,
+# yani önbellekle AYNI anahtar: bir epok iki kez hesaplanmaz, sayaç da
+# şişmez. (Sayacı çağrı başına tutmak, önbellek isabetlerini iki kez sayardı.)
+_VARLIK_PAY = {}
 _KUS_IX = [i for i in range(len(PETEK_D))
            if PETEK_D[i] is not None and not PETEK_D[i].is_empty]
 _KUS_AGAC = STRtree([PETEK_D[i] for i in _KUS_IX])
@@ -2729,9 +2733,89 @@ def hat_koord(g):
     return out
 
 
+# ---------------- ② VARLIK EPOKU PAYLAŞTIRMASI ------------------------------
+# 🔴 EMRE'NİN CÜMLESİ (16 Ağustos 2026): *"sonradan doğan yerleşim kendi
+# bölgesini kapmalı."*
+#
+# ⚠️ KUSUR "DEVİR YAPILMIYOR" DEĞİLDİ — devir yapılıyordu ama YANLIŞ BİÇİMDE:
+# doğmamış noktanın peteği **bütünüyle TEK komşuya** gidiyordu (`agac.nearest`).
+# Oysa o nokta yokken sınır **öbür komşuların ARASINDAN** geçerdi. Yani A'ya
+# bütün gitmemeliydi; A, B ve C **paylaşmalıydı.**
+#
+# 📌 NİÇİN TAM VORONOİ DEĞİL — ölçüldü, naif yol PAHALI:
+#     289 nokta kur: · 250 ayrı varlık kırılması
+#     tam Voronoi 35 sn × 250 = +2,4 saat        🔴 kabul edilemez
+#     ortalama Delaunay komşusu 6,0             ⇒ YEREL onarım yeter
+# ⇒ Bütün diyagramı yeniden kurmak yerine, YALNIZ ÖLEN PETEĞE clip'lenmiş bir
+#   mini-Voronoi kuruluyor. Sonuç aynı (o bölgede sınır, hayatta olan
+#   komşuların orta dikmeleridir), maliyet binde biri.
+#
+# 🔴 VE BİTİŞİK ÖLÜ HÜCRELER BİRLİKTE İŞLENİR — bu, tek tek işlemenin sessiz
+# hatasını kapatır. İki ölü hücre yan yanaysa ve tek tek işlenirse, birincinin
+# "komşusu" ikinci ÖLÜ hücre olur; ölü bir komşuya pay vermek anlamsızdır ve
+# sonuç İŞLEME SIRASINA bağlı hâle gelir. Bileşen hâlinde işlenince sıra
+# etkisi ortadan kalkar — `§11`in *"SIRA bağlıyor olabilir"* dersinin önlenmiş
+# hâli.
+#
+# ⚠️ ALAN KORUNUMU VARSAYILMAZ, ÖLÇÜLÜR. Motorun kendi kuralı (kara-kısıtlı
+# sahiplik bloğu): *"garanti EDİLDİĞİNİ VARSAYMAK yerine ölçülür — ilk koşuyu
+# düşüren tam buydu."* Mini-Voronoi'nin bölgeleri clip'lenen alanı tam
+# örtmeyebilir (zarf payı, sayısal artık). Artık ÖLÇÜLÜR ve en yakın canlıya
+# verilir; **sessizce kaybolmaz.**
+_EPOK_PAY_TOL = 1e-12          # birim² — bunun altındaki artık sayısal gürültü
+
+
+def _canli_komsular(alan, sahne_kume):
+    """`alan`a değen, HAYATTA olan yerleşimlerin indeksleri.
+
+    Komşuluk DONMUŞ `PETEK_D` üzerinden sorulur (kopyadan değil): ölü hücreler
+    kopyada boşaltıldığı için kopyaya sormak komşuyu kaybettirirdi.
+    """
+    out = []
+    for _q in _KUS_AGAC.query(alan.buffer(0.02)):
+        j = _KUS_IX[int(_q)]
+        if j in sahne_kume:
+            out.append(j)
+    return out
+
+
+def _olu_bilesenler(olu, hucre):
+    """Bitişik ölü hücreleri gruplar. [[i, ...], ...] döner."""
+    if len(olu) == 1:
+        return [list(olu)]
+    agac = STRtree([hucre[i] for i in olu])
+    baglanti = {i: set() for i in olu}
+    for a, i in enumerate(olu):
+        for _q in agac.query(hucre[i].buffer(0.02)):
+            j = olu[int(_q)]
+            if j != i:
+                baglanti[i].add(j)
+                baglanti[j].add(i)
+    gorulen, out = set(), []
+    for i in olu:
+        if i in gorulen:
+            continue
+        yigin, grup = [i], []
+        gorulen.add(i)
+        while yigin:
+            k = yigin.pop()
+            grup.append(k)
+            for j in baglanti[k]:
+                if j not in gorulen:
+                    gorulen.add(j)
+                    yigin.append(j)
+        out.append(grup)
+    return out
+
+
 def petek_epok(g):
     """g tarihinde geçerli petek listesi; kurulmamış/yok olmuş noktanın payı
-    o tarihte sahnede olan en yakın komşuya devredilmiş hâlde."""
+    o tarihte sahnede olan komşulara **Voronoi kuralıyla PAYLAŞTIRILMIŞ** hâlde.
+
+    Eski davranış (tek komşuya bütün) yalnız iki hâlde sürer ve ikisi de
+    DOĞRUDUR: hayatta tek komşu varsa (bölünecek bir şey yok) ve hiç komşu
+    yoksa (yerel onarım kurulamaz → küresel en yakına, eski yol).
+    """
     devir = devir_kumesi(g)
     if not devir:
         return PETEK_D
@@ -2740,17 +2824,102 @@ def petek_epok(g):
     _t_pe = time.time()
     hucre = list(PETEK_D)
     sahne = [i for i in range(len(YERLER)) if i not in devir]
+    sahne_kume = set(sahne)
     agac = STRtree([noktalar[i] for i in sahne])
     kayit = []
-    for i in sorted(devir):
-        if hucre[i].is_empty:
+    # sayaç — İŞ 2'nin KABUL ÖLÇÜTÜ (koordinatör, M-0221)
+    _pay = {"paylastirilan": 0, "tek_komsu": 0, "komsusuz": 0,
+            "artik_km2": 0.0, "alici": 0}
+
+    olu = [i for i in sorted(devir) if not hucre[i].is_empty]
+    for grup in _olu_bilesenler(olu, hucre):
+        alan = poligonal(unary_union([hucre[i] for i in grup]))
+        if alan.is_empty:
             continue
-        k = sahne[int(agac.nearest(noktalar[i]))]
-        hucre[k] = poligonal(unary_union([hucre[k], hucre[i]]))
-        kayit.append((YERLER[i]["ad"], YERLER[k]["ad"], _ham_km2(hucre[i])))
-        hucre[i] = Polygon()
+        komsu = _canli_komsular(alan, sahne_kume)
+        # ── ① hiç canlı komşu yok → ESKİ YOL (küresel en yakın) ──────────
+        if not komsu:
+            for i in grup:
+                k = sahne[int(agac.nearest(noktalar[i]))]
+                hucre[k] = poligonal(unary_union([hucre[k], hucre[i]]))
+                kayit.append((YERLER[i]["ad"], YERLER[k]["ad"],
+                              _ham_km2(hucre[i]), "komşusuz"))
+                hucre[i] = Polygon()
+                _pay["komsusuz"] += 1
+            continue
+        # ── ② tek canlı komşu → bütün ona; BÖLÜNECEK BİR ŞEY YOK ─────────
+        if len(komsu) == 1:
+            k = komsu[0]
+            for i in grup:
+                kayit.append((YERLER[i]["ad"], YERLER[k]["ad"],
+                              _ham_km2(hucre[i]), "tek komşu"))
+                hucre[i] = Polygon()
+                _pay["tek_komsu"] += 1
+            hucre[k] = poligonal(unary_union([hucre[k], alan]))
+            continue
+        # ── ③ ASIL YOL — yerel Voronoi, ölü alana clip'li ────────────────
+        try:
+            _zarf = box(*alan.buffer(1.0).bounds)
+            _vd = voronoi_diagram(MultiPoint([noktalar[j] for j in komsu]),
+                                  envelope=_zarf)
+            _bolge = list(getattr(_vd, "geoms", []))
+        except Exception:
+            _bolge = []
+        _verildi, _toplam = {}, 0.0
+        for _b in _bolge:
+            # Voronoi çıktısının SIRASI girdiyle AYNI DEĞİLDİR — her bölgeyi
+            # içindeki noktayla eşleştirmek ŞART. (Sırasına güvenmek bu
+            # dosyada daha önce ölçülmüş bir hata sınıfıdır.)
+            _sahip = None
+            for j in komsu:
+                if _b.covers(noktalar[j]):
+                    _sahip = j
+                    break
+            if _sahip is None:
+                continue
+            _pay_geo = _b.intersection(alan)
+            if _pay_geo.is_empty or _pay_geo.area <= _EPOK_PAY_TOL:
+                continue
+            _verildi[_sahip] = poligonal(
+                unary_union([_verildi[_sahip], _pay_geo])
+                if _sahip in _verildi else _pay_geo)
+            _toplam += _pay_geo.area
+        # ⚠️ ARTIK — ÖLÇÜLÜR VE VERİLİR, sessizce kaybolmaz
+        _artik = alan.area - _toplam
+        if _artik > _EPOK_PAY_TOL and _bolge:
+            try:
+                _kalan = poligonal(alan.difference(
+                    unary_union(list(_verildi.values()))))
+                if not _kalan.is_empty:
+                    _k2 = komsu[int(STRtree([noktalar[j] for j in komsu])
+                                    .nearest(_kalan.representative_point()))]
+                    _verildi[_k2] = poligonal(unary_union(
+                        [_verildi.get(_k2, Polygon()), _kalan]))
+                    _pay["artik_km2"] += _ham_km2(_kalan)
+            except Exception:
+                pass
+        if not _verildi:              # Voronoi kurulamadı → ESKİ YOL
+            for i in grup:
+                k = sahne[int(agac.nearest(noktalar[i]))]
+                hucre[k] = poligonal(unary_union([hucre[k], hucre[i]]))
+                kayit.append((YERLER[i]["ad"], YERLER[k]["ad"],
+                              _ham_km2(hucre[i]), "voronoi YOK"))
+                hucre[i] = Polygon()
+                _pay["komsusuz"] += 1
+            continue
+        for j, _geo in _verildi.items():
+            hucre[j] = poligonal(unary_union([hucre[j], _geo]))
+        for i in grup:
+            kayit.append((YERLER[i]["ad"],
+                          " + ".join(YERLER[j]["ad"] for j in sorted(_verildi))[:80],
+                          _ham_km2(hucre[i]), "PAYLAŞTIRILDI %d" % len(_verildi)))
+            hucre[i] = Polygon()
+            _pay["paylastirilan"] += 1
+        _pay["alici"] += len(_verildi)
+
     _VARLIK_ONBELLEK[devir] = hucre
     _VARLIK_DEVIR[devir] = kayit
+    _VARLIK_PAY[devir] = _pay
     sayac("varlık devri (petek_epok)", time.time() - _t_pe)
     return hucre
 
@@ -2766,6 +2935,29 @@ for _g in (EPOK, "1500-06-15", "1700-06-15", "1900-06-15"):
     _d = devir_kumesi(_g)
     _a = sum(_ham_km2(PETEK_D[i]) for i in _d)
     print(f"  {_g}: {len(_d)} petek devredilecek, {_a:,.0f} km²")
+
+# ---- ② PAYLAŞTIRMANIN KABUL ÖLÇÜTÜ — koşu KENDİ sayısını basar -------------
+# 🔴 Koordinatörün şartı (M-0221): *"52'nin kaçı PAYLAŞTIRILDI, kaçı tek
+# sahipte kaldı ve NİÇİN kaldı."* — ve "niçin" ÜÇ AYRI KOVA, tek sayı değil:
+#     PAYLAŞTIRILDI  ≥2 hayatta komşu → mini-Voronoi böldü        ← ASIL İŞ
+#     tek komşu      1 hayatta komşu  → bölünecek bir şey YOK     ← MEŞRU
+#     komşusuz       0 hayatta komşu  → eski yol (küresel en yakın) ← MEŞRU
+# ⚠️ Son iki kova BAŞARISIZLIK DEĞİLDİR ve öyle raporlanmamalı. Tek komşusu
+# olan bir peteği "bölemedik" diye saymak, bölünecek şey olmadığı hâlde
+# kusur uydurmak olurdu.
+_pe_ozet = petek_epok(EPOK) and _VARLIK_PAY.get(devir_kumesi(EPOK))
+if _pe_ozet:
+    _tp = (_pe_ozet["paylastirilan"] + _pe_ozet["tek_komsu"]
+           + _pe_ozet["komsusuz"])
+    print(f"  ② PAYLAŞTIRMA ({EPOK}): {_tp} peteğin "
+          f"{_pe_ozet['paylastirilan']}'i PAYLAŞTIRILDI "
+          f"({_pe_ozet['alici']} alıcıya), "
+          f"{_pe_ozet['tek_komsu']}'i tek komşu (bölünecek şey yok), "
+          f"{_pe_ozet['komsusuz']}'i komşusuz (eski yol)")
+    if _pe_ozet["artik_km2"] > 0.5:
+        print(f"     ⚠️ artık {_pe_ozet['artik_km2']:,.0f} km² en yakın "
+              f"canlıya verildi — SESSİZ KAYIP YOK")
+    print(f"     ÖNGÖRÜ: denetim/EPOK-ONGORU.md")
 
 # ⚠️ KUŞATILMIŞLIK DEVİRLERİ ADIYLA VE EPOKUYLA YAZILIR — koordinatörün şartı.
 # Sebep: %90 çizgisi 12 kayıtlık bir dağılımdan çıktı. İleride kasıtlı bir

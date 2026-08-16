@@ -1043,6 +1043,158 @@ BOYALAR = {
     #     VE aynı bölgedeyse artık engel sayılıyor — en kötü hâl varsayılır.
     #   ÖLÇÜM: engel 9 · pay 27.8 · eşiği geçen 75311 · lunda'dan 9,06 → 54.5
     "kuba": ("Kuba Krallığı", "#a85a1b"),
+    # ═══ BATI · ORTA · GÜNEY AFRİKA — ON KİMLİK, tek parti (RENK AFRİKA) ═══
+    # NOKTA AFRİKA İÇ bildirdi (M-0130): `ek32`ye nokta yazılıyor ve bu on
+    #   kimliğin rengi YOK ⇒ `§8` gereği bağlandığı an on DELİK doğardı.
+    #   Renk veriden ÖNCE yazıldı; sıra `nokta → renk → BAĞLAMA`.
+    #
+    # 🔴 `renk_olc.oner()` KULLANILMADI ve sebebi ölçüldü:
+    #   `oner()` engel kümesini `komsuluk()`ten, yani VORONOİ'den kurar
+    #   (renk_olc.py:851). Bu onun veride TEK NOKTASI YOK ⇒ komşu kümesi
+    #   BOŞ ⇒ araç kendi uyarısını basıp ("komşusu ölçülemeyen kimlik")
+    #   en ayrık rengi verirdi. Yani DAYANAKSIZ.
+    #   ⇒ `engel_kumesi()`in kendi talimatı uygulandı (renk_olc.py:706:
+    #     "kim'in noktası yok: çözücü kendi ölçer"). Engel kümesi elle
+    #     kuruldu: künye penceresi ÖRTÜŞEN + coğrafî zarfı 1500 km içinde
+    #     olan palet kimlikleri, artı ölçülemeyen adaylarda EN KÖTÜ HÂL.
+    #
+    # ⚠️ COĞRAFÎ ZARFLAR VEKİLDİR, ÖLÇÜM DEĞİL — ve kasten GENİŞ tutuldu.
+    #   Standart tarihî coğrafyadan (başkent + azamî yayılım) yazıldı:
+    #     mali 10-18K/-16,5-4D · songhay 11-20K/-10-4,5D · hausa 9,5-14,5K/
+    #     4,5-10,5D · oyo 6,5-10K/1,5-6D · benin 5-7,5K/4-7D · dahomey
+    #     6-9,5K/0,8-3,2D · asanti 5-9K/-3,5-0,5D · sokoto 9-15,5K/3-14D ·
+    #     kanem-bornu 9,5-17,5K/9,5-19D · zulu -31--26K/28,5-33D
+    #   🔴 `ek32` BAĞLANDIĞINDA `renk_olc.py` YENİDEN KOŞMALI — o an gerçek
+    #     Voronoi komşuluğu ölçülebilir olacak. Bu satır o borcun kaydıdır;
+    #     kayıtsız gecikme, kusurdan ayırt edilemez.
+    #
+    # 🔴 DÖRT KRİTİK ÇİFT ΔE ≥ 25 — üçü şartnameden, DÖRDÜNCÜSÜ ölçümden:
+    #     mali ↔ songhay          97,3   ardıl, aynı coğrafya
+    #     oyo ↔ dahomey           48,0   savaştılar
+    #     sokoto ↔ kanem-bornu    69,0   komşu
+    #     hausa ↔ sokoto          69,2   ← ŞARTNAMEDE YOKTU
+    #   Dördüncüsünün gerekçesi KRONOLOJİDE: Sokoto Halifeliği tam da Hausa
+    #   şehir devletlerini yıkarak doğuyor (künyeler 1804-1808 örtüşüyor) ve
+    #   kullanıcı o cihadı okurken iki tarafı ayırt edebilmeli. `§③`:
+    #   "hangisinin hak ettiğini KRONOLOJİ söyler."
+    #
+    # 🔴 SEÇİM YETİNMECİ — ve ilk denemem bu kuralı ÇİĞNEDİ.
+    #   "En ayrık"ı seçen ilk sürüm `#00fc00` saf yeşil ve `#fc00fc` macenta
+    #   verdi — yani :894'teki yorumun ADIYLA saydığı iki rengi. Düzeltildi:
+    #   önce `uyum` bandı (palete ait ol), SONRA banttan payı en büyük olan.
+    #   Tek başına `uyum` da yetmedi: 217.922 adayın binlercesi uyum=0,000
+    #   veriyor ve aralarından keyfî seçim beş Batı Afrika kimliğini
+    #   ΔE 12,1-12,3 ile yan yana yeşil yapmıştı. `§③`: "12 TABANDIR."
+    #
+    # ⚠️ SIRA SINANDI — dört ayrı sırayla koşuldu, DÖRDÜ DE ÇÖZDÜ
+    #   (en kötü pay 14,3 · 18,0 · 14,7 · 18,1). Yani bu partide "çözülemedi"
+    #   YOK ve cinsi sorulmadı. Ama sıra KALİTEYİ değiştirdi: ilk sıra kabul
+    #   edilseydi 3,8 ΔE boşa giderdi. İkinci geçiş kuralı burada da tuttu.
+    #
+    # ÖLÇÜM (10 renk belleğe enjekte edilip `renk_olc.denetle()` koşuldu):
+    #   TABAN   0 görünmez · 0 çakışma · 0 aynı-anahtar · 0 aynı-hex · 8 yakın
+    #   SONRA   0          · 0        · 0              · 0         · 8
+    #   Altlık payı en dar: songhay 25,0 · deniz payı en dar: dahomey 20,1
+    #
+    # 🔴 VE O BEŞ SAYI BU PARTİ İÇİN BİR ŞEY KANITLAMAZ — kendi raporumu
+    #   düzelttim. C13'ün ATEŞLEME yolunu sahte girdiyle zorlayınca çıktı:
+    #     mali'ye kongo-kralligi'nin TAM hex'i verildi   → beş sayı SESSİZ
+    #     sokoto'ya kanem-bornu'nun TAM hex'i verildi    → beş sayı SESSİZ
+    #     (altlık ve deniz dalları ÖTTÜ: görünmez 0 → 1)
+    #   Sebep kodda yazılı — renk_olc.py:358 `k not in aralik` ⇒ veride
+    #   dönemi olmayan kimlik `çakışan`a değil `ÖLÇÜLEMEDİ`ye gider.
+    #   ASIL SAYI:  yakin_renk ölçülemedi  633 → 837  (+204)
+    #   ⇒ Bu on rengin delili `denetle()` DEĞİL, yukarıdaki engel kümesi
+    #     ölçümüdür (10/10 için eşik altı komşu 0). "Denetim onayladı"
+    #     demek yanlış olurdu: denetim onaylamadı, GÖREMEDİ.
+    #   📌 `kuba ↔ lunda` dersinin okuyucu tarafı: araç kovayı doğru
+    #     ayırmış, beş başlık sayısına bakan BEN kovayı atlamışım.
+    #
+    # 🔴 KARDEŞ KISITI KÜNYE ÖRTÜŞMESİNDEN BAĞIMSIZ — ilk seçim ÇÜRÜDÜ.
+    #   Zarf dayanıklılık sınavı (eşiği 1500→3000→5000 km'ye açıp bozulan
+    #   çifti saymak) kendi eşiğimde iki çift buldu:
+    #     mali ↔ sokoto           ΔE 0,9    künyeler HİÇ örtüşmüyor
+    #     hausa ↔ zulu-kralligi   ΔE 1,2    künyeler HİÇ örtüşmüyor
+    #   Kurala göre MEŞRU (bu dosyanın başlığı: "yeter ki hiç komşu
+    #   olmasınlar") ve çözücüm kurala harfiyen uyuyordu. AMA:
+    #     mali kutusu 10-18°K/-16,5-4°D · sokoto 9-15,5°K/3-14°D → 0 km
+    #   İkisi AYNI COĞRAFYADA, farklı çağlarda. Kullanıcı zaman çubuğunu
+    #   kaydırdıkça Nijer kıvrımında aynı yeşili arka arkaya görür ve
+    #   "değişmedi" sanır. Üstelik bu BEYAN EDİLMİŞ bir paylaşım da değil:
+    #   paletin 9 beyanlı hex grubu bilerek aynıdır ve dosyada yazılıdır;
+    #   ΔE 0,9 ne ayırır ne de bilerek paylaşılmıştır.
+    #   ⇒ Kural ZAMAN eksenine bakıyor, kullanıcı MEKÂN eksenine.
+    #     Kardeşler her hâlde ayrıştırıldı; maliyeti sıfırdı (217.922 aday).
+    #   ÖLÇÜM: kardeşler arası en dar çift 0,9 → 14,3
+    "mali-imparatorlugu":     ("Mali İmparatorluğu",         "#d428d4"),
+    "songhay-imparatorlugu":  ("Songhay İmparatorluğu",      "#28d428"),
+    "hausa-sehir-devletleri": ("Hausa Şehir Devletleri",     "#d4d428"),
+    "oyo-imparatorlugu":      ("Oyo İmparatorluğu (Yoruba)", "#d47028"),
+    "benin-kralligi":         ("Benin Krallığı (Nijerya)",   "#4028d4"),
+    "dahomey":                ("Dahomey Krallığı",           "#28ccd4"),
+    "asanti":                 ("Aşanti İmparatorluğu",       "#28d05c"),
+    "sokoto":                 ("Sokoto Halifeliği",          "#2860d4"),
+    "kanem-bornu":            ("Kanem-Bornu İmparatorluğu",  "#80d428"),
+    "zulu-kralligi":          ("Zulu Krallığı",              "#cca828"),
+    # ═══ BAĞLAMA KAPISI — YEDİ KİMLİK (RENK AFRİKA, parti 2) ═══
+    # M-0313: sekiz bekleyen dosyanın kullandığı kimlikler `devletler.js` ve
+    #   `renkler.py` karşısında sayıldı; yedisinin rengi YOKTU. Bağlama, yeni
+    #   noktaların haritayı ANINDA etkilediği tek an — renksiz kimlik o anda
+    #   `VERI-YAPISI §8` gereği bölgeyi hiç boyamaz, yani DELİK.
+    #
+    # 🔴 BEŞİNİN KÜNYESİ DE YOKTU ve EN KÖTÜ HÂL varsayıldı:
+    #   künyesi olmayan kimlik "her şeyle örtüşür" sayıldı. ⇒ künyeler
+    #   `devletler.js`e yazılınca engel kümesi yalnız DARALIR, genişlemez;
+    #   seçim güvenli tarafta kalır ve yeniden çözmek GEREKMEZ.
+    #     buganda        künye VAR   1300-01-01 → 1923-10-29
+    #     yeni-zelanda   künye VAR   1840-02-06 → 1923-10-29
+    #     öteki beş      künye YOK   (mutapa · zimbabve-kralligi · oranj ·
+    #                                 transvaal · tui-tonga-imparatorlugu)
+    #
+    # 🔴 KRİTİK ÇİFTLER — ΔE ≥ 25, üçü de koordinatörün işaretlediği:
+    #     mutapa ↔ zimbabve-kralligi   44,2   biri ötekinin ardılı, aynı coğrafya
+    #     oranj ↔ transvaal            62,7   komşu ve çağdaş Boer cumhuriyetleri
+    #     mutapa ↔ portekiz            62,8   Zambezi'de doğrudan karşı karşıya
+    #
+    # ⚠️ 180. MERİDYEN — bu parti ONA MARUZ, parti 1 DEĞİLDİ.
+    #   `girdi.km()` boylam farkını sarmalamıyor ve mesafeyi BÜYÜK gösteriyor
+    #   ⇒ yakın aday uzak sanılır ⇒ ENGEL KAÇIRILIR.
+    #     yeni-zelanda   166°D … 179°D        180. meridyenin dibinde
+    #     tui-tonga     -176,5°B … -173°B     ötesinde
+    #   ⇒ Çözücüde `girdi.km()` KULLANILMADI, sarmalayan haversine yazıldı.
+    #   ÖLÇÜM: iki metrikle engel kümesi AYNI çıktı (fark 0) — çünkü ikisinin
+    #   de 1500 km içinde palet komşusu yok. ⇒ MARUZİYET gerçek, ETKİSİ sıfır;
+    #   ikisi ayrı şeydir ve ikisi de yazılır.
+    #   📌 Parti 1 için "maruz değiliz" diye ölçülmüştü ve o DOĞRUYDU. Aynı
+    #     soru parti 2'de farklı cevap veriyor ⇒ maruziyet PROJENİN değil
+    #     PARTİNİN coğrafyasına bağlı, her partide yeniden sorulur.
+    #
+    # ⚠️ KARDEŞ KURALININ KAPSAMI COĞRAFÎDİR — parti 1'de uniform uygulanmıştı.
+    #   Kural `mali ↔ sokoto`dan doğdu (künyeleri hiç örtüşmüyor ama AYNI
+    #   COĞRAFYA ⇒ kullanıcı ikisini arka arkaya görüyor). Gerekçe MEKÂNDI.
+    #   Burada uniform hâli en dar çifti `oranj ↔ yeni-zelanda` 12,3'e
+    #   çiviledi — arada ~10.000 km var, yani kural HİÇBİR ŞEY KORUMADAN pay
+    #   yiyordu. Kapsamı daraltan koşu BAŞLATILDI ve DURDURULDU: üçüncü üretim
+    #   koşusuyla aynı işlemciyi paylaşıyordu ve bu parti kritik yolda değildi
+    #   (`§7`in "üretim koşarken" kuralının işlemci tarafı).
+    #   ⇒ Aşağıdaki değerler uniform kuralla çözülmüş hâldir; hepsi eşiği
+    #     geçiyor, en dar çift 12,3. Kapsam daraltması bir SONRAKİ partiye
+    #     ertelendi ve bu satır o borcun kaydıdır.
+    #
+    # ÖLÇÜM (belleğe enjekte edilip `renk_olc.denetle()` koşuldu):
+    #   TABAN (337)  0 görünmez · 0 çakışma · 0 aynı-anahtar · 0 aynı-hex · 8 yakın
+    #   SONRA (344)  0          · 0        · 0              · 0         · 8
+    #   görünürlük 7/7 · C13 altlık ve deniz dalları ÖTTÜ · 4 sıranın 4'ü çözdü
+    #   ⚠️ Ve parti 1'in dersi burada da geçerli: bu beş sayı TEK BAŞINA bir
+    #     şey kanıtlamaz — yedisinin de veride noktası yok, araç onları
+    #     `ölçülemedi` kovasına atıyor. Delil ENGEL KÜMESİ ölçümüdür.
+    "buganda":                 ("Buganda Krallığı",          "#24a460"),
+    "mutapa":                  ("Mutapa İmparatorluğu",      "#d83428"),
+    "zimbabve-kralligi":       ("Zimbabve Krallığı",         "#8c28c8"),
+    "oranj":                   ("Oranj Hür Devleti",         "#d8288c"),
+    "transvaal":               ("Transvaal Cumhuriyeti",     "#80a424"),
+    "tui-tonga-imparatorlugu": ("Tui Tonga İmparatorluğu",   "#dc446c"),
+    "yeni-zelanda":            ("Yeni Zelanda",              "#d828c0"),
     "somali":     ("Somali sultanlıkları",   "#1248d5"),
     # ═══ AFRİKA BOYNUZU / SUDAN KÜMESİ — RENK 2, 7 Ağustos 2026 ═══
     # ARAŞTIRMA KÜNYE 3'ün teslimi; künyeler VERİ DEVLET'te yazıldıktan SONRA
