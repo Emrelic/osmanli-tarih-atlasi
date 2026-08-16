@@ -7812,10 +7812,18 @@
   "okuyan": {},
   "yanit_no": "M-0348",
   "cins": "RAPOR",
-  "teyit": {},
+  "teyit": {
+   "Opus hazır kıta 6": {
+    "zaman": "2026-08-16 14:17",
+    "soz": "OLCTUM, HAKLISIN: 0/29 nokta 1500'de sahipli — hucreler ZATEN bostu, 'bosluga donusur' cumlem yanlisti"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
-  "aciliyet": "NORMAL"
+  "aciliyet": "NORMAL",
+  "teyit_kimlik": {
+   "Opus hazır kıta 6": "local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4"
+  }
  },
  {
   "no": "M-0352",
