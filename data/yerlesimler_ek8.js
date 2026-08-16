@@ -207,8 +207,8 @@ window.YERLESIMLER_EK8 = [
 // Peçora'nın çıpası. 1499'da kurulan Pustozersk Ural'ın batısındaki ilk
 // Rus Arktik kasabasıdır; XX. yy'da terk edildi ama pencerenin tamamında
 // yaşıyor, o yüzden `bit:` yazılmadı.
-{ ad:"Pustozersk", tur:"kale", lat:67.5200, lon:52.7000, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1923-10-29",d:"rusya"}] },
+{ ad:"Pustozersk", kur:"1499-01-01", kaynak:"Kanyukova V.P., Forum molodyh uchenyh 2019 (CyberLeninka) — \"osnovan ... osen'yu 1499 goda\"; TDV bu tanecigi kapsamiyor", tur:"kale", lat:67.5200, lon:52.7000, g:0, k:0, d:[],
+  s:[{f:"1499-01-01",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1923-10-29",d:"rusya"}] },
 
 { ad:"Ust-Tsilma", tur:"sehir", lat:65.4392, lon:52.1508, g:0, k:0, d:[],
   s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1923-10-29",d:"rusya"}] },
