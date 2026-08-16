@@ -226,6 +226,44 @@ window.KADEME_YAMA = [
    kaynak:"TDV tinbuktu (gövdesi okundu — `timbuktu` slug'ı da 200 ama GÖVDESİ BOŞ)",
    neden:"Kaynağın KENDİ terimi: 'Tinbüktü EYALET MERKEZİ yapılarak Tinbüktü Paşalığı kuruldu' — Sa'dî fethi (1591) sonrası, Osmanlı idaresi örnek alınarak kurulan Paşalık. Eyalet merkezi = vilâyet düzeyi ⇒ k:1. ⚠️ kd: YAZMADIM: 1591 ÖNCESİ için kaynak mertebe VERMİYOR (Mali döneminde 'önemli bir İslâm medeniyeti merkezi' diyor — bu idarî mertebe DEĞİL; Songhay döneminde hiç unvan vermiyor). Tek sourced dönem olduğu için düz k: yazıldı"},
 
+  // ==========================================================================
+  // PARTİ 7 — DÂRFÛR KUTUSU. TDV `darfur` gövdesi okundu + 15 slug ölçüldü.
+  // Slugların 15'i de ÖLÜ: fasir · el-fasir · kutum · kebkabiye · cenine ·
+  // nyala · niyala · mellit · zalinci · tine · ummu-keddade · sariyye ·
+  // ed-dain · dacu · keyra. ⇒ Bu yerlerin MÜSTAKİL maddesi YOK.
+  // Kapsayıcı `darfur` maddesi YALNIZ iki yeri adıyla anıyor: Fâşir ve Nyala.
+  // ⚠️ El-Fâşir BENİM KUTUMDA DEĞİL (ARAP-İRAN kutusu, lat 13,63 · lon 25,35)
+  //   ve zaten k:1 yazılı — TDV'nin 'Merkezi Fâşir şehridir' cümlesi onu
+  //   doğruluyor; sahibine tahtadan bildirdim, kaydına DOKUNMADIM.
+
+  {ad:"Nyala", k_yok_sebep:"menzil-disi",
+   kaynak:"TDV darfur (gövdesi okundu)",
+   neden:"🔴 MERTEBE BEYANI VAR AMA ATLAS UFKUNUN DIŞINDA. Madde: 'bir müdüriyet haline getirilen Dârfûr, yakın yıllarda Dârfûrü'l-cenûbiyye (MERKEZİ NİYÂLÂ) ve Dârfûrü'ş-şimâliyye (merkezi Fâşir) olmak üzere iki alt idarî birime ayrılmıştır'. Nyala bir alt idarî birimin MERKEZİ — ama bu taksimat Sudan'ın bağımsızlığından (1956) SONRA, yani atlas ufkunun (1281-01-01..1923-10-29) DIŞINDA. Ufuk içindeki mertebesi için kaynak SUSUYOR. M-0481'in `menzil-disi` kovası tam bu hâl için vardı ve ilk kez burada kullanıyorum"},
+
+  {ad:"Kutum", k_yok_sebep:"madde-yok",
+   kaynak:"TDV darfur (gövdesi okundu) + `kutum` slug'ı 302",
+   neden:"müstakil maddesi YOK ve kapsayıcı `darfur` maddesi bu adı HİÇ ANMIYOR — madde yalnız Fâşir ve Nyala'yı adıyla veriyor. Akademik kaynak gerekiyor"},
+
+  {ad:"Kebkâbiye", k_yok_sebep:"madde-yok",
+   kaynak:"TDV darfur (gövdesi okundu) + `kebkabiye` slug'ı 302",
+   neden:"müstakil maddesi YOK ve kapsayıcı `darfur` maddesi bu adı HİÇ ANMIYOR. Akademik kaynak gerekiyor"},
+
+  {ad:"Cenîne", k_yok_sebep:"madde-yok",
+   kaynak:"TDV darfur (gövdesi okundu) + `cenine` slug'ı 302",
+   neden:"müstakil maddesi YOK ve kapsayıcı `darfur` maddesi bu adı HİÇ ANMIYOR. ⚠️ NOT: bu ad M-0466'nın bulanık eşleştirmesinde `Cetine` (zeta künyesi) ile 0,83 benzerlik göstermişti ve SAHTE çıkmıştı (Cenîne Dârfûr'da 13,45°K, Cetinje Karadağ'da) — o hüküm ayakta"},
+
+  {ad:"Zâlincî", k_yok_sebep:"madde-yok",
+   kaynak:"TDV darfur (gövdesi okundu) + `zalinci` slug'ı 302",
+   neden:"müstakil maddesi YOK ve kapsayıcı `darfur` maddesi bu adı HİÇ ANMIYOR. Akademik kaynak gerekiyor"},
+
+  {ad:"Tîne (Dârfûr)", k_yok_sebep:"madde-yok",
+   kaynak:"TDV darfur (gövdesi okundu) + `tine` slug'ı 302",
+   neden:"müstakil maddesi YOK ve kapsayıcı `darfur` maddesi bu adı HİÇ ANMIYOR. Akademik kaynak gerekiyor"},
+
+  {ad:"Ed-Da'în", k_yok_sebep:"madde-yok",
+   kaynak:"TDV darfur (gövdesi okundu) + `ed-dain` slug'ı 302",
+   neden:"müstakil maddesi YOK ve kapsayıcı `darfur` maddesi bu adı HİÇ ANMIYOR. Akademik kaynak gerekiyor"},
+
   {ad:"Rabat", k:1,
    kaynak:"TDV rabat (gövdesi okundu)",
    neden:"İKİ BİREBİR ALINTI: ① 'Rabat'a özel bir önem veren III. Muhammed, Fas ve Merakeş'ten sonra burayı ÜÇÜNCÜ BAŞŞEHİR edindi' ② 'Fransız Mareşal Lyautey ... YÖNETİM MERKEZİNİ Fas şehrinden Rabat'a nakletti' (1912). Başlangıcı 545/1150'de Abdülmü'min'in ordugâhı. 🟢 VE ①. ALINTI ÜÇ KAYDIMI BİRDEN DOĞRULUYOR: Fas (Fez) · Merakeş · Rabat üçü de k:1 yazılı ve ÇELİŞMİYORLAR — TDV Fas'ın üç başşehri olduğunu AÇIKÇA söylüyor. ⚠️ kd: YİNE YAZMADIM: alıntı III. Muhammed'i adıyla veriyor ama TARİH VERMİYOR, ve 'kd: tarihsiz yazılmaz' (M-0471/M-0435). Hükümdarın saltanat yıllarını kendim koymak, maddenin söylemediği bir tarihi ölçülmüş gibi göstermek olurdu"},
