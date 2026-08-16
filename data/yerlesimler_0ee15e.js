@@ -162,4 +162,26 @@ window.YERLESIMLER_0EE15E = [
 // k gerekçesi: Ekvador'un en büyük limanı/ekonomik merkezi, Quito ile
 //         rekabet eden ikinci kutup — k:1.
 
+{ ad:"Portobelo (Puerto Bello)", tur:"sehir", lat:9.5500, lon:-79.6500, g:0, k:2, kur:"1597-01-01",
+  s:[{f:"1597-01-01",t:"1821-11-28",d:"ispanyol-peru"},
+     {f:"1821-11-28",t:"1831-01-01",d:"gran-kolombiya"},
+     {f:"1831-01-01",t:"1903-11-03",d:"kolombiya-cumhuriyeti"},
+     {f:"1903-11-03",t:"1923-10-29",d:"panama-cumhuriyeti"}] },
+// Panama City araştırmasında rastlanan İKİNCİ boşluk (Emre'nin isteğinin
+// doğrudan devamı değil ama aynı kaynak taramasında bulundu, kaydedildi).
+// kaynak: ① Encyclopaedia Britannica "Portobelo" md. — "the village was
+//         founded in 1597" (Kristof Kolomb 1502'de "güzel liman" adını
+//         vermişti, YERLEŞİM 1597'de kuruldu — iki ayrı olay, karıştırma).
+//         ② UNESCO Dünya Mirası "Fortifications on the Caribbean Side of
+//         Panama: Portobelo-San Lorenzo" (WHS #135) — "the first
+//         fortifications in Portobelo were begun in the 1590's" (ilk
+//         planlar 1586, Bautista Antonelli) — Britannica'nın 1597 tarihiyle
+//         ÇELİŞMİYOR, DESTEKLİYOR. İki kaynak UYUMLU, gün verilmediği için
+//         YYYY-01-01.
+// `d:` zinciri Panama City ile BİREBİR AYNI (aynı Audiencia/vilayet/
+// cumhuriyet), tutarlılık için.
+// k gerekçesi: İspanya'nın Peru gümüşünü Avrupa'ya taşıdığı sistemin
+//         Karayip terminali, yıllık panayırlarıyla ünlü — ama idari başkent
+//         değil, Panama City'den (k:1) bir kademe altında — k:2.
+
 ];
