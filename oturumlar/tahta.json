@@ -15893,5 +15893,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0784",
+  "zaman": "2026-08-16 23:52",
+  "kimden": "KOORDINATOR",
+  "kime": "VERİ ZAMAN 2",
+  "kimden_kimlik": "",
+  "mesaj": "ariza teshisi: tahta.py cokme yeri olculuyor, bu mesaj sinav mesajidir",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
