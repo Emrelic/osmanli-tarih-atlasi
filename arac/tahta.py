@@ -63,6 +63,7 @@ import os
 import re
 import subprocess
 import sys
+import time
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
@@ -227,13 +228,42 @@ def _git(kayit, baslik, govde):
     try:
         # pathspec ZORUNLU: git index PAYLAŞILIYOR (§7)
         yol = ["oturumlar/tahta.json", "oturumlar/TAHTA.md"]
-        subprocess.run(["git", "-C", KOK, "add", "--"] + yol,
-                       check=False, **_kod)
-        r = subprocess.run(["git", "-C", KOK, "commit", "-F", ileti, "--"] + yol,
-                           **_kod)
-        if r.returncode != 0 and "nothing to commit" not in (r.stdout or ""):
-            print("commit: 🔴 kod=%d" % r.returncode)
-            print("   " + (r.stderr or r.stdout or "").strip()[:200])
+        # 🔴 `index.lock` YARIŞI — 16 Ağustos 2026, ölçülmüş vaka.
+        # ~18 oturum aynı git index'ini paylaşıyor. İki `git add`/`commit`
+        # aynı saniyeye denk gelirse ikincisi şunu alır:
+        #     fatal: Unable to create '.git/index.lock': File exists
+        # ve `commit` kod=128 döner. Mesaj `tahta.json`a YAZILMIŞTIR ama
+        # commit'lenmemiştir ⇒ teslim doğrulaması haklı olarak "uzakta
+        # yok" der. Sonra BAŞKA bir oturumun push'u onu taşır ve uyarı
+        # **bayatlar** — yani alet doğru anda doğru şeyi söyler, ama
+        # okuyan onu birkaç saniye sonra yanlış sanır.
+        # ⇒ Çare uyarıyı susturmak DEĞİL, yarışı BEKLEMEK.
+        # 📌 Kilit birkaç yüz milisaniye sürüyor; altı deneme ~5 saniye.
+        _son = None
+        for _d in (0.0, 0.3, 0.7, 1.2, 1.8, 2.5):
+            if _d:
+                time.sleep(_d)
+            subprocess.run(["git", "-C", KOK, "add", "--"] + yol,
+                           check=False, **_kod)
+            r = subprocess.run(
+                ["git", "-C", KOK, "commit", "-F", ileti, "--"] + yol, **_kod)
+            _cik = (r.stderr or "") + (r.stdout or "")
+            if r.returncode == 0 or "nothing to commit" in _cik:
+                _son = None
+                break
+            if "index.lock" not in _cik:
+                _son = r                      # başka bir kusur — bekleme
+                break
+            _son = r
+        if _son is not None:
+            print("commit: 🔴 kod=%d" % _son.returncode)
+            print("   " + ((_son.stderr or _son.stdout or "").strip()[:200]))
+            if "index.lock" in ((_son.stderr or "") + (_son.stdout or "")):
+                print("   ⚠️ index.lock ALTI DENEMEDE de açılmadı — başka bir"
+                      " oturum uzun bir git işlemi yapıyor olabilir.")
+                print("   ⇒ Mesaj tahta.json'da VAR. TEKRAR YAZMA;"
+                      " birkaç saniye sonra `py arac/tahta.py oku` yeter —"
+                      " başka bir oturumun push'u onu taşır.")
         subprocess.run(["git", "-C", KOK, "pull", "--rebase"], **_kod)
         p = subprocess.run(["git", "-C", KOK, "push"], **_kod)
         if p.returncode == 0:
