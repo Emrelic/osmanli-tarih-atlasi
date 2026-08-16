@@ -31,6 +31,14 @@ window.KADEME_YAMA = [
   {ad:"Akmescid", k:2, kaynak:"kirim", neden:"TDV: 'Baglariyla meshur Akmescid kalgay sultanlarin oturdugu yerdi' — kalgay hanliğin ikinci mertebesi; Kirim'in merkezi Bahcesaray'di"},
   {ad:"Semerkant", k:2, kaynak:"semerkant", neden:"TDV: 'Ahmed basshehrini Buhara'ya tasidiysa da Semerkant ... bolgedeki merkezi sehir olma konumunu muhafaza etti'. 1281-1923 araligi icin TDV'de acik 'basshehir' cumlesi BULUNAMADI ⇒ M-0270 geregi BIR KADEME ASAGI"},
   {ad:"Kandehar", k:2, kaynak:"kandehar", neden:"TDV: Zunnun Argun 'Kandehar'i kendisine merkez yapti' ve 'Afgan Kralligi'nin merkezi oldu' (1839-42). Durrani basshehirligi icin acik cumle BULUNAMADI ⇒ bir kademe ASAGI (M-0270)"},
+  {ad:"Berde (Karabağ)", k:2, kaynak:"karabag", neden:"TDV, 1593 Osmanli kaydi: 'Berda, Hacin, Ahistabad, Dizak, Hakari ve Varand SANCAKLARI yer almaktaydi' — vilayet-i Gence Karabag icinde sancak"},
+  {ad:"Ordubad", k:2, kaynak:"nahcivan", neden:"TDV: 'Nahcivan Hanligi, Nahcivan ve Ordubad olmak uzere iki ana idari birime (TUMEN) ayrilmis' — tumen, hanlik ici ikinci mertebe"},
+  {ad:"Şüşter", k:1, kaynak:"huzistan", neden:"TDV: 'Hamdullah el-Mustevfi'ye gore Huzistan'in MERKEZI Suster idi' — Mustevfi ~1340, menzil icinde"},
+  {ad:"Muhammere", k:2, kaynak:"huzistan", neden:"TDV: 'Ka'b kabilesinin IDARE MERKEZI Muhammere sehri' — bir kabile konfederasyonunun merkezi, eyalet duzeyi degil"},
+  {ad:"Ras el-Hayme (Cülfâr)", k:1, kaynak:"uman", neden:"TDV: 'Kavasim'in MERKEZI olan Re'sulhayme 1762'de yapilan bir antlasma ile Imam Ahmed'e baglanmayi kabul etti'"},
+  {ad:"Zerenc (Sîstan)", k:2, kaynak:"sistan", neden:"TDV: 'Sistan'in IDARI MERKEZI Zerenc (Zereng)' — ama cumlenin baglami 644 yili, menzil DISI ⇒ bir kademe ASAGI (M-0270)"},
+  {ad:"Sârî", k:2, kaynak:"taberistan", neden:"TDV: 'MERKEZI Sariye olan idari bolgenin diger onemli sehirleri Babul, Amul, Kaimsehr ve Tonkabun' — cumle MODERN eyalet paragrafinda ⇒ bir kademe ASAGI"},
+  {ad:"Reşt", k:2, kaynak:"gilan", neden:"TDV: 'YONETIM ve ticaret merkezi olan Rest' — cumle modern Gilan eyaleti paragrafinda; tarihi mertebe icin acik cumle yok ⇒ bir kademe ASAGI"},
 
   // ── ② KADEME KAVRAMI UYGULANMAZ (k: BILEREK yazilmadi)
   {ad:"Maykop (Çerkezya)", kademe_uygulanmaz:true, kaynak:"proje kurali — CLAUDE.md §3 kasitli bosluk / VERI-YAPISI tur:bolge", neden:"tur:bolge — bir yerlesim degil bir ALAN; idari mertebe sorusu bu kayda sorulmaz"},
@@ -83,7 +91,6 @@ window.KADEME_YAMA = [
   {ad:"Atbay çölü", kademe_uygulanmaz:true, kaynak:"proje kurali — CLAUDE.md §3 kasitli bosluk / VERI-YAPISI tur:bolge", neden:"kasitli bosluk — yerlesim DEGIL, col/bozkir dolgusu; kademe kavrami uygulanmaz"},
 
   // ── ③ KAYNAK SUSUYOR (arandi, TDV maddesi YOK)
-  {ad:"Reşt", kaynak:"bulunamadi", neden:"kaynak susuyor — TDV'de madde ARANDI, yok. Denenen sluglar: rest · rest--iran"},
   {ad:"Sultâniye", kaynak:"bulunamadi", neden:"kaynak susuyor — TDV'de madde ARANDI, yok. Denenen sluglar: sultaniye · sultaniye--iran"},
   {ad:"Kutaisi", kaynak:"bulunamadi", neden:"kaynak susuyor — TDV'de madde ARANDI, yok. Denenen sluglar: kutayis · kutaisi"},
   {ad:"Şuşa", kaynak:"bulunamadi", neden:"kaynak susuyor — TDV'de madde ARANDI, yok. Denenen sluglar: susa · susa--karabag"},
