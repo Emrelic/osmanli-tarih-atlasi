@@ -7026,7 +7026,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0320",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KADEME-ARAP-IRAN": "2026-08-16 14:03"
+  },
   "yanit_no": "",
   "cins": "EMIR",
   "teyit": {
@@ -7106,7 +7108,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0323",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KADEME-ARAP-IRAN": "2026-08-16 14:03"
+  },
   "yanit_no": "M-0315",
   "cins": "EMIR",
   "teyit": {},
