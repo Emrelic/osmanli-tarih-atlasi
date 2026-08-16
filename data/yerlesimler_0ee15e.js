@@ -90,15 +90,23 @@ window.YERLESIMLER_0EE15E = [
      {f:"1821-11-28",t:"1831-01-01",d:"gran-kolombiya"},
      {f:"1831-01-01",t:"1903-11-03",d:"kolombiya-cumhuriyeti"},
      {f:"1903-11-03",t:"1923-10-29",d:"panama-cumhuriyeti"}] },
-// kaynak: Encyclopaedia Britannica "Panama City" md. — "The old city (Panamá
-//         Viejo) was founded in 1519 by Gov. Pedro Arias Dávila" (15 Ağustos,
-//         Meryem'in Göğe Yükselişi bayramı — Panamá Viejo UNESCO kaydında da
-//         aynı tarih). 1671 Henry Morgan'ın yıkımı ve 1674'te ~8 km ötede
-//         yeniden inşası (Casco Viejo) AYRI kayıt AÇILMADI — Britannica'nın
-//         kendisi de tek şehir kimliğinin devamı olarak anlatıyor, İSPANYOL
-//         VARLIĞI hiç kesilmedi (kışlak/ostrog vakasından farklı: burada
-//         GERÇEK bir devletsizlik penceresi yok). Koordinat modern şehir
-//         merkezine (Casco Viejo yakını) ait.
+// kaynak: İKİ BAĞIMSIZ KAYNAK AYNI TARİHTE BİRLEŞİYOR (M-0423 gereği,
+//         Britannica TEK BAŞINA yeterli değildi, ikinci kaynak arandı):
+//         ① Encyclopaedia Britannica "Panama City" md. — "The old city
+//           (Panamá Viejo) was founded in 1519 by Gov. Pedro Arias Dávila".
+//         ② Encyclopedia.com "Panama City" md. (Encyclopedia of Latin
+//           American History and Culture, Gale/Scribner) — "Panama City,
+//           first founded on 15 August 1519 by Pedro Arias de Ávila (2.5
+//           miles east of its present location), lasted for 152 years."
+//         İkisi de GÜN dahil aynı tarihi veriyor (15 Ağustos, Meryem'in
+//         Göğe Yükselişi bayramı). 1671 Henry Morgan'ın yıkımı ve yeniden
+//         inşa tarihinde kaynaklar AYRIŞIYOR (Britannica 1674, Encyclopedia.
+//         com "21 Ocak 1673, Antonio Fernández de Córdoba y Mendoza,
+//         ~7 mil batıda") — ama bu ayrışma benim `kur:`ımı ETKİLEMİYOR,
+//         çünkü AYRI kayıt AÇMADIM: İspanyol varlığı hiç kesilmedi (kışlak/
+//         ostrog vakasından farklı, gerçek bir devletsizlik penceresi yok),
+//         tek şehir kimliğinin devamı olarak modellendi. Koordinat modern
+//         şehir merkezine (Casco Viejo yakını) ait.
 //         1751: "the city and area became part of the Viceroyalty of New
 //         Granada" — ama Quito kaydıyla TUTARLILIK için `ispanyol-peru`
 //         1821'e kadar SÜRDÜRÜLDÜ (Quito da aynı basitleştirmeyi taşıyor,
@@ -116,20 +124,30 @@ window.YERLESIMLER_0EE15E = [
 //         arası ticaret kavşağı (İspanya'nın Peru gümüşünü Avrupa'ya taşıdığı
 //         güzergâh) — k:1, Havana ile aynı tier.
 
-{ ad:"Guayaquil (Santiago de Guayaquil)", tur:"sehir", lat:-2.1894, lon:-79.8890, g:1, k:1, kur:"1538-07-25",
-  s:[{f:"1538-07-25",t:"1822-05-24",d:"ispanyol-peru"},
+{ ad:"Guayaquil (Santiago de Guayaquil)", tur:"sehir", lat:-2.1894, lon:-79.8890, g:1, k:1, kur:"1538-01-01",
+  s:[{f:"1538-01-01",t:"1822-05-24",d:"ispanyol-peru"},
      {f:"1822-05-24",t:"1830-05-13",d:"gran-kolombiya"},
      {f:"1830-05-13",t:"1923-10-29",d:"ekvador-cumhuriyeti"}] },
-// kaynak: Encyclopaedia Britannica "Guayaquil" md. — "The original Spanish
-//         settlement was founded in the 1530s ... by Sebastián de Belalcázar
-//         ... but Indians destroyed it twice. In 1537 [bazı kaynaklarda 1538]
-//         the Spanish explorer Francisco de Orellana established the town at
-//         its present location, naming it Santiago de Guayaquil in honour of
-//         Santiago (St. James, on whose feast day it was founded)" — Santiago
-//         bayramı 25 Temmuz'dur, `kur:` bu yüzden 1538-07-25. 1530'lar
-//         Belalcázar kuruluşu İKİ KEZ yıkıldı — TERK EDİLDİ, `kur:` DEĞİL
-//         (projenin "kışlak/ostrog" ayrımıyla aynı mantık: geçici/başarısız
-//         ilk teşebbüs ≠ kalıcı kuruluş).
+// 🔴 KAYNAKLAR ÇELİŞİYOR — M-0423 gereği ikinci kaynak arandı, DOĞRULAMADI,
+//         ÇÜRÜTTÜ. Tek başına kullanılmadı, tahtaya AYRICA bildirildi.
+// kaynak: ① Encyclopaedia Britannica "Guayaquil" md. — "founded in the
+//         1530s ... by Sebastián de Belalcázar ... but Indians destroyed
+//         it twice. In 1537 ... Francisco de Orellana established the town
+//         at its present location, naming it Santiago de Guayaquil in
+//         honour of Santiago (St. James, on whose feast day it was
+//         founded)" — Santiago bayramı 25 Temmuz.
+//         ② Encyclopedia.com "Guayaquil" md. (Encyclopedia of Latin
+//         American History and Culture) — "The date and founder of the
+//         city are NOT AGREED UPON, although Guayaquil is MOST COMMONLY
+//         BELIEVED to have been established in 1531 by ... Sebastián de
+//         Belalcázar" — yani ②'ye göre EN YAYGIN GÖRÜŞ Britannica'nın
+//         "terk edildi" dediği 1531 teşebbüsünün KENDİSİ, Orellana/1537-38
+//         değil.
+// ⇒ Gün düzeyi kesinlik (25 Temmuz) BIRAKILDI, kur: yıla yuvarlandı VE
+//         MUHAFAZAKÂR (geç) tarafa çekildi: 1531 değil 1538 — M-0391'in
+//         ilkesiyle aynı ("yanılırsam kaybım birkaç yıl erken çizmemek;
+//         tersini seçip yanılsam veri erken var OLMAYAN bir yerleşim
+//         gösterirdi"). Kesin gün YOK, YYYY-01-01.
 // ⚠️ BİLİNEN BASİTLEŞTİRME — açıkça işaretli: Guayaquil kendi başına
 //         9 Ekim 1820'de İspanya'dan bağımsızlığını ilan etti ("Özgür
 //         Guayaquil Vilayeti", ~1,5-2 yıl fiilen ayrı durdu) ve TAM Gran
