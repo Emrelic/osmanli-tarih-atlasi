@@ -212,13 +212,24 @@ window.KADEME_YAMA = [
 // 📌 KADEME-KD §④.3: "Sehirdir, herhalde 3. kademedir demek KOLAYDIR ve
 //   UYDURMADIR." Bu ucunde de kaynak arandi ve rutbe VERMEDI.
 
-{ad:"Herseknovi (Herceg Novi)", kaynak:"bosna-hersek",
+// 🟢 `k_yok_sebep` ALANI — M-0475'in kapali sozlugu BENIMSENDI.
+//   Sebep: kendi M-0472 uyarimi kendi dosyamda uygulamamistim. "k: nicin
+//   yok" bilgim `neden:` serbest metnindeydi, yani bir `if` ile sorulamaz.
+//   Sozluk (M-0475'ten aynen): kaynak-susuyor · adres-yanlis · erisilemedi
+//   ⚠️ VE BEN BIR DORDUNCUSUNU EKLIYORUM — `sari-tek-dayanak`, cunku
+//     Perugia ucune de uymuyor: kaynak SUSMUYOR, bilgi VAR, ama tek
+//     dayanak SARI (Britannica, M-0391). Bunu `kaynak-susuyor` saymak
+//     yanlis olurdu: susan bir kaynakla, konusan ama kabul edilmeyen bir
+//     kaynak ayni sey degil ve ikincisi TEK bir akademik teyitle kapanir.
+//   📌 M-0475'in kendi ayrimi: `kademe_uygulanmaz` TASARIM, `k_yok_sebep`
+//     BORC. Dordu de borc kovasidir — yani hepsi bir gun kapanabilir.
+{ad:"Herseknovi (Herceg Novi)", kaynak:"bosna-hersek", k_yok_sebep:"kaynak-susuyor",
  neden:"kaynak susuyor — ARANDI. herseknovi slug'i OLU (302); hersek slug'i CANLI ama STUB (bosna-hersek'e atif); bosna-hersek maddesi okundu ve Hersek sancaginin 1470'te kuruldugunu, 1580'de Bosna beylerbeyiligine baglandigini veriyor AMA sancagin MERKEZINI sylemiyor ve Herceg Novi'yi idari taksimat konusunda HIC ANMIYOR. ⇒ k: YAZILMADI"},
 
-{ad:"Sin (Sinj)", kaynak:"bulunamadi",
+{ad:"Sin (Sinj)", kaynak:"bulunamadi", k_yok_sebep:"kaynak-susuyor",
  neden:"kaynak susuyor — ARANDI. sinj slug'i OLU (302); dalmacya ve kirka genel maddeleri okundu, ikisi de Sinj'in idari kademesini VERMIYOR (dalmacya maddesi Klis, Nadin ve Vrana'yi aniyor, Sinj'i anmiyor). ⇒ k: YAZILMADI"},
 
-{ad:"Otranto", kaynak:"bulunamadi",
+{ad:"Otranto", kaynak:"bulunamadi", k_yok_sebep:"kaynak-susuyor",
  neden:"kaynak susuyor — ARANDI. otranto slug'i OLU (302). Osmanli donemi zaten 13 AY (1480-08-11..1481-09-10) ve bu surede kalici bir idari kademe kurulup kurulmadigi olculemedi. Italya tarafindaki (napoli) kademesi de bu kutunun isi degil, ayri kaynak ister. ⇒ k: YAZILMADI"},
 
 // ───────── C3. KADEME UYGULANMAZ — 🔴 İKİ KAYIT GERİ ÇEKİLDİ ─────────
@@ -309,7 +320,7 @@ window.KADEME_YAMA = [
 
 // ───────── D2. YAZILMAYAN — ve gerekcesi alanin KENDI metninde ─────────
 
-{ad:"Berlin", kaynak:"bulunamadi",
+{ad:"Berlin", kaynak:"bulunamadi", k_yok_sebep:"kaynak-susuyor",
  neden:"kaynak belirsiz — YAZILMADI. almanya kunyesinin baskent alani '— (secimli) → Berlin' diyor: yani kunyenin ILK bolumunde SABIT BASKENT YOK (Kutsal Roma, secimli imparatorluk) ve Berlin SONRADAN geliyor. Ama GECIS TARIHI YOK. Kunye 962-02-02..1923-10-29; Berlin'e butun pencereye k:1 yazsaydim 909 YILLIK bir yalan olurdu. ⇒ Alanin kendi metni beni durdurdu: '—' isareti 'baskent yok' demek ve onu gormezden gelmek, kaynagi duzeltmek olurdu"},
 
 // ───────── E. KUTU 1: İTALYA + KORSİKA — ve TDV'nin KURU ÇIKTIĞI YER ─────────
@@ -367,7 +378,7 @@ window.KADEME_YAMA = [
 {ad:"Bolonya", k:2, kaynak:"bulunamadi",
  neden:"PAPALIK LEGASYONU MERKEZI — kardinal legat oturagi. IKINCI VE ACIKCA AKADEMIK KAYNAK: Bologna Universitesi kurumsal tarihi (unibo.it, universite yayini — koordinatorun yesil listesinde ADIYLA gecen tur). Kendi cumlesi: 'From the sixteenth to the eighteenth centuries, Bologna belonged to the Papal States, governed on the one hand, by a cardinal legate of the pope and, on the other, by the Senate of the city.' Ayrica II. Julius'un 1506'da Bolonya'yi geri alip yetkiyi tamamen papalik legatina devrettigini veriyor. ⚠️ DUZ k alanini yazdim ama zamanli kd alanini YAZMADIM ve sebebi acik: kaynak baslangici tarihliyor (1506) ama BITISI 'onsekizinci yuzyillara kadar' diye ARALIK olarak veriyor, gun ya da yil DEGIL. Yuzyil sinirini 1800-01-01 diye yazmak bir OKUMA olurdu, belgelenmis bir olay degil. ⇒ Pencere bolunmedi. §③ geregi k:1 yerine k:2, bir kademe asagi"},
 
-{ad:"Perugia", kaynak:"bulunamadi",
+{ad:"Perugia", kaynak:"bulunamadi", k_yok_sebep:"sari-tek-dayanak",
  neden:"kaynak susuyor — ARANDI VE IKINCI KAYNAK BULUNAMADI. Perugia'nin Papalik'in dort legasyonundan biri (Umbria legasyonu) oldugu bilgisi BRITANNICA'da var, ama M-0391 hukmuyle Britannica SARI (Vikipedi sinifi) ve tek dayanak olamaz. Akademik alan adlariyla ikinci arama yapildi (cambridge, brill, jstor, oup, degruyter, openedition, oxfordre, unibo) ve Bolonya'yi DOGRULADI, Perugia'yi DOGRULAMADI. ⇒ k: YAZILMADI. Bu 'aramadim' degil, 'aradim ve ikinci kaynak yok' — ve BOLONYA ile ayni aramadan gelmesine ragmen ayni muameleyi GORMEDI. Kural boyle isliyor"},
 
 // ───────── G. VENEDİK DALMAÇYASI — tek aramanın en verimli sonucu ─────────
