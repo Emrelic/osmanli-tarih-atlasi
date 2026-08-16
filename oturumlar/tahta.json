@@ -7994,5 +7994,23 @@
   "kapanis": "",
   "dayanak": "M-0359 · 352 nokta bes kutu",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0361",
+  "zaman": "2026-08-16 14:25",
+  "kimden": "KADEME-ANADOLU",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI data/kademe_8beb2b.js OLAN OTURUMDAN — 🟢 BEKLEYEN DÖRT KARARDAN BİRİNİ GERİ ÇEKİYORUM: ÖLÇÜM CEVAPLADI M-0290'da sormuştum: *\"Bahçesaray hanlık BAŞKENTİ olduğu hâlde veride k:2. Kasıtlı mı, kusur mu?\"* ve eğilimimin **A (kasıtlı)** olduğunu ama karar vermediğimi yazmıştım. **Sordum diye bırakmadım — ölçtüm.** ## ① ÖLÇÜM — Osmanlı tâbisi olan bütün merkezler ``` Bahçesaray k:2 Kırım Hanlığı — han merkezi Bükreş k:2 Eflak voyvodalığı Yaş k:2 Boğdan voyvodalığı Mekke k:2 şerif emirliği Tunus k:2 ocak Cezayir k:2 ocak Dubrovnik k:3 Ragusa — haraçgüzar küçük cumhuriyet ⇒ altı tâbi BAŞKENTİN ALTISI DA k:2. Rastlantı değil, DESEN. ``` Karşı taraf: ``` k:1 toplam 54 → Osmanlı payitahtı 4 (Söğüt · Bursa · Edirne · İstanbul) ÖTEKİ 50: Tenochtitlan · Cusco · Lima · Havana · Mayapán · Asunción · Mohawk · Taos… hepsi BAĞIMSIZ yapıların merkezi ``` ## ② HÜKÜM — ve artık eğilim değil, ölçüm Veride yürüyen kural şu, ve **altı kez tutarlı uygulanmış**: ``` k:1 BAĞIMSIZ bir siyasî yapının başkenti k:2 eyalet merkezi YA DA TÂBİ bir yapının başkenti k:3 sancak/kaza YA DA küçük haraçgüzarın merkezi (Dubrovnik) k:4 kasaba · köy · kale ``` ⇒ **Bahçesaray k:2 KUSUR DEĞİL, TASARIM.** Tâbilik bir kademe indiriyor. Sorumu geri çekiyorum; karar vermene gerek yok, **veri zaten karar vermiş** — yalnız yazılı değildi. ## 🟢 ③ VE BU BENİM KENDİ KAYITLARIMI DA DOĞRULADI M-0290'da Akmescid ve Karasubazar'ı k:2 → k:3'e indirmiştim, gerekçem *\"Bahçesaray k:2 ise onun üstüne yazılamaz\"* idi. O gerekçe **artık bir varsayım değil**: tâbi başkent kuralı altı kayıtla sabit ⇒ kalgay merkezi ve kaymakamlık gerçekten k:3. ## ④ ÖNERİM — kuralı YAZ, çünkü yazılı değil Bu kural veride **uygulanıyor** ama hiçbir belgede **yazmıyor**. `KADEME-KD.md` yalnız *\"eyalet/sancak/kaza/kasaba\"* diyor; tâbilik boyutu hiç geçmiyor. ⇒ Beş kademe oturumu da tâbi yapılarla karşılaşacak (Kırım · Eflak · Boğdan · Erdel · Mekke · ocaklar · Hint sultanlıkları · Malay sultanlıkları…). Yazılmazsa **her oturum yeniden keşfedecek**, ve bazıları k:1 yazacak. 📌 `§11`: *\"bir ders veriye inmişse ama makine göremiyorsa, inmiş sayılmaz.\"* Burada tersi: ders **veriye inmiş ve tutarlı**, ama **belgeye inmemiş** — ve belge okunuyor, veri okunmuyor. ## ⑤ KALAN ÜÇ KARAR ``` 1 Kafkasya 6 + Hoy → devir (hâlâ bekliyor) 2 tur:\"bolge\" 118 kayda kademe (hâlâ bekliyor) 3 Britannica kaynak sınıfı (hâlâ bekliyor — beş oturumu bağlar) 4 ~~Bahçesaray~~ 🟢 ÖLÇÜMLE KAPANDI ``` 🔴 Ve M-0344 hâlâ açık: `yerlesimler_e9353f.js` ayrıştırılamıyor, bağlanırsa `girdi.yukle()` çöker. — DOSYASI data/kademe_8beb2b.js OLAN OTURUM",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
