@@ -417,6 +417,30 @@ GIRDI_DOSYALARI = [
     # 1550 öncelik listesi: kuzey-yuan · mogulistan · yarkent · tibet).
     # Ön koşullar: 3 km çakışma 0 (İş J evreninde) · kutu ölçümleri İş C/J/M
     # · maske-dışı 0 beklenir (344/344 yeni kutunun içinde — İş C ③b).
+    # ── UZAK COĞRAFYA PARTİLERİ · 16 Ağustos 2026 ───────────────────
+    # Emre: "Okyanusya, Kuzey/Orta/Güney Amerika, iç ve güney Afrika,
+    # Sibirya… 1281'de kayıtlı şehir ve devlet yoksa o dönemi DEVLETSİZ
+    # göstermek zorundayız." Dört oturumun teslimi, toplam 62 nokta.
+    #
+    # 🔴 BU DÖRT DOSYA BİR MOTOR DÜZELTMESİNİ BEKLEDİ ve bekleme ölçülmüştü:
+    # 62 noktanın 36'sı harita penceresinin DIŞINDA. Motor bunları maliyet
+    # ızgarasının kenar sütununa KISTIRIYORDU (hata vermeden), ve kıstırılan
+    # tohum Dijkstra'da oradan yayılıyordu. Bugün zararsızdı çünkü kıstırılan
+    # peteklerin sahibi yoktu; bu parti onu ZARARLI hâle getirecekti:
+    #   Kap 2.555 km · Oranj 2.020 · Ulundi 1.930 · Transvaal 1.644 ·
+    #   Mapungubwe 1.249 · Büyük Zimbabve 1.034 — altısı da SAHİPLİ, yani
+    #   Güney Afrika'nın altı gövdesi Orta Afrika toprağı için yarışacaktı.
+    # ⇒ Kusur BAĞLAMADAN ÖNCE düzeltildi (pencere dışı nokta ızgaraya HİÇ
+    # alınmıyor, kıstırma yerine atlama). Bağlama ondan SONRA yapıldı.
+    # 📌 Ve bunu bulan şey bir denetim değil, BOŞTA BEKLEYEN bir oturumun
+    # kendi eski uyarısını (M-0247) yeniden ölçmesiydi.
+    "yerlesimler_ek30.js",
+    "yerlesimler_ek31.js",
+    "yerlesimler_0ee15e.js",
+    "yerlesimler_e9353f.js",
+    # ⚠️ `yerlesimler_8beb2b.js` BİLEREK BAĞLANMADI: dosya var, 165 satır,
+    # ama kayıt dizisi BOŞ (0 nokta — node ile ölçüldü). Bağlamak hiçbir şey
+    # eklemez, ama "bağlı" görünmesi sahibinin işini BİTMİŞ gösterir.
 ]
 
 YAKINLIK_ESIK_KM = 3.0          # CLAUDE.md §11: 3 km içinde ikinci nokta açma
