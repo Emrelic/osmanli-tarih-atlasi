@@ -97,9 +97,30 @@ def _yukle():
 
 
 def _kaydet(kayit):
+    """🔴 ATOMİK YAZIM — 16 Ağustos 2026'da TAHTA BOZULDU ve sebebi buydu.
+
+    VAKA: sekiz oturum aynı anda yazdı. Eski hâl `io.open(VERI, "w")` ile
+    dosyayı YERİNDE açıyordu: birinci süreç dosyayı kısaltıp yazarken
+    ikincisi araya girdi ve dosyanın sonunda YARIM BİR KALINTI kaldı.
+        `json.decoder.JSONDecodeError: Extra data: line 7243 column 3`
+    ⇒ 324 mesajın tamamı okunamaz oldu. Kanalın kendisi kırıldı.
+
+    📌 Ve `_yukle()` bunu ZATEN öngörmüştü: *"bozuk tahta, boş tahtadan
+    KÖTÜDÜR — boş tahta 'kimse yazmadı' der, bozuk tahta 'mesajın yok'
+    der ve YALAN söyler."* Doğru teşhis vardı, **önlem yoktu.**
+
+    ⇒ ÇARE: geçici dosyaya yaz, sonra `os.replace` ile TAKAS ET.
+    `os.replace` tek bir dosya sistemi işlemidir — okuyan ya ESKİ tam
+    dosyayı görür ya YENİ tam dosyayı, **yarısını asla görmez.**
+    ⚠️ Yarış hâlâ var (iki yazım birbirinin üstüne binebilir ve biri
+    kaybolabilir) ama dosya **hiçbir zaman bozulmaz.** Kaybolan mesaj
+    yeniden yazılabilir; bozulan dosya bütün kanalı öldürür.
+    """
     os.makedirs(DIZIN, exist_ok=True)
-    with io.open(VERI, "w", encoding="utf-8", newline="\n") as f:
+    gecici = VERI + ".yeni.%d" % os.getpid()
+    with io.open(gecici, "w", encoding="utf-8", newline="\n") as f:
         json.dump(kayit, f, ensure_ascii=False, indent=1)
+    os.replace(gecici, VERI)          # atomik takas
     _gorunum_yaz(kayit)
 
 
@@ -181,7 +202,40 @@ def _git(kayit, baslik, govde):
         subprocess.run(["git", "-C", KOK, "pull", "--rebase"], **_kod)
         p = subprocess.run(["git", "-C", KOK, "push"], **_kod)
         if p.returncode == 0:
-            print("push  : ✓ — mesaj artık HERKESTE")
+            # 🔴🔴 "push kod=0" TESLİM DEMEK DEĞİL — 16 Ağustos'ta ÖLÇÜLDÜ.
+            # VAKA (`VERI-ZAMAN` bildirdi): commit bir EDİTÖR açtı ve
+            # tamamlanmadı; mesaj yerelde kaldı. Ama `git push` ÖNCEKİ
+            # commit'leri gönderdiği için kod=0 döndü ve araç
+            #     "push ✓ — mesaj artık HERKESTE"
+            # yazdı. **Mesaj hiçbir yere gitmedi ve araç BAŞARI bildirdi.**
+            #
+            # 📌 Bu, `send_message`ın öldürücü yönünün ta kendisi:
+            # İYİMSER yalan kaybı GİZLER. Kötümser yalanı (yanlış alarm)
+            # bu sabah düzelttim ve **tehlikeli yönü açık bıraktım** —
+            # yani düzeltilecek iki yönden yanlış olanını seçmişim.
+            #
+            # ⇒ Artık kod'a değil KAYDA bakıyor: mesaj numarası uzaktaki
+            # dalda GERÇEKTEN var mı?
+            _m = re.search(r"M-\d{4}", baslik or "")
+            _no = _m.group(0) if _m else ""
+            _var = True                       # numara yoksa eski davranış
+            if _no:
+                try:
+                    _g = subprocess.run(
+                        ["git", "-C", KOK, "log", "origin/main", "--oneline",
+                         "-40"], capture_output=True, text=True, timeout=60)
+                    _var = _no in (_g.stdout or "")
+                except Exception:
+                    pass
+            if _var:
+                print("push  : ✓ — mesaj artık HERKESTE")
+            else:
+                print("push  : 🔴 kod=0 AMA MESAJ UZAKTA YOK — %s" % _no)
+                print("   ⚠️ commit tamamlanmamış olabilir (editör açıldıysa"
+                      " ya da hook kestiyse). MESAJ SENDE KALDI.")
+                print("   ⇒ `git status` bak, commit'i tamamla, TEKRAR YAZMA"
+                      " — mesaj tahta.json'da ZATEN var, yalnız gitmedi.")
+                print("   Bunu KULLANICIYA da söyle — arıza ÜÇ YERE (§7.1).")
         else:
             # 🔴 Bu aletin bütün varlık sebebi: "gönderdim sandım" hatası.
             # AMA 16 Ağustos 2026'da TERSİ ölçüldü: push `cannot lock ref`

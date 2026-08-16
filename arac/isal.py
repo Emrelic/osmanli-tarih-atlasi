@@ -100,6 +100,14 @@ KUYRUK = [
      "altyapı ②④ — G.+D.+GD Asya kademe/kd:; 536 nokta, EN BÜYÜK küme. Opus."),
     ("KADEME-AVRUPA.md",
      "altyapı ②④ — Batı+Orta Avrupa kademe/kd:; 393 nokta, TDV %0. Opus."),
+    # 🟢 İKİSİ DE KİLİDİN DIŞINDA — koşu koşarken alınabilir:
+    # `index.html`/`js/app.js` ne GIRDI_DOSYALARI'nda ne motor_izi
+    # üçlüsünde; yeni nokta dosyası da bağlanmadığı için motora girmez.
+    ("ARAYUZ-KORIDOR.md",
+     "altyapı ⑤'i EKRANA getir — koridor verisi HAZIR ama app.js "
+     "ÇİZMİYOR (§40: veri doğru, kullanıcı görmüyor). Sonnet yeter."),
+    ("NOKTA-AMERIKA.md",
+     "K/O/G Amerika — Emre ADIYLA sordu; 139 nokta var, PENCEREDE 0. Opus."),
 ]
 
 # Bir görevin ALINMIŞ sayılması için tahtada aranan desen. Sahiplik

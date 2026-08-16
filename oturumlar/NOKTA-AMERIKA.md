@@ -1,113 +1,113 @@
-# NOKTA AMERİKA — haritanın en büyük boşluğu
+# NOKTA AMERİKA — Kuzey · Orta · Güney Amerika (Emre adıyla sordu)
+
+**MODEL** Opus tercih · **DİZİN** `C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ`
+**ClaudEmre** HAYIR · **ADIN** Emre ne verdiyse o — koordinatör ad DEĞİŞTİRMEZ
 
 ## ⓪ KİMLİK — HADDİN
+**SEN:** araştırma oturumusun, **tek dosyan** `data/yerlesimler_<kendi
+scratchpad UUID'inin ilk 6 hanesi>.js` (sen açacaksın).
+**DEĞİLSİN:** koordinatör DEĞİLSİN. **ÜSTÜN:** KOORDINATOR. **ALTIN:** kimse.
+**YASAKLARIN:** iş dağıtmak · başka `data/` dosyası · `arac/` · üretim koşusu.
+
+## ① NİÇİN VARSIN — ölçüm
+
+Emre (16 Ağustos): *"Kuzey güney orta Amerika… araştırıp ne yerleşim varsa
+kayıtlı hepsini ekleyelim, 1281-1923 arasını uygun tarihlere serperek."*
+
 ```
-SEN        : YAPIMCI oturum · adın NOKTA AMERİKA
-DEĞİLSİN   : koordinatör DEĞİLSİN · MOTOR DEĞİLSİN
-ÜSTÜN      : ClaudEmre koordinatörü (sana bu dosyayı veren oturum)
-ALTIN      : kimse
-YASAKLARIN : `arac/` · var olan `data/yerlesimler*.js` · `js/*` ·
-             `index.html` · kök `*.md` · üretim koşusu · iş dağıtmak
+bölge              nokta   1281'de   PENCEREDE ÇİZİLEN
+Kuzey Amerika         36        6            0
+Orta Amerika-Karayip  54       19            0
+Güney Amerika         49       10            0
 ```
 
-## ① NİÇİN VARSIN — ölçüldü, 13 Ağustos 2026
-```
-evren 2369 nokta · kıta kıta dağılım:
-  Anadolu+Balkan 463 · Batı Avrupa 426 · Mısır-K.Afrika 350 ·
-  Sahra-altı Afrika 276 · GD Asya 228 · Rusya-Sibirya 211 · …
-  🔴 AMERİKA              0 NOKTA
-```
-Emre'nin 2. altyapı maddesi: *"1281 itibariyle **tüm** yerleşim yerlerinin
-haritaya işlenmesi."* Amerika bugün **haritanın en büyük tek boşluğu.**
+🔴 **ÜÇÜNÜN DE PENCEREDE ÇİZİLENİ SIFIR** — `BOLGE` kutusu Amerika'ya
+açık değil. Bu **kusur DEĞİL:** `denetle.py` onları *"ihlal DEĞİL,
+pencere oraya açılana kadar BEKLEYEN veri"* diye ayrı kovada sayıyor
+(bugün 144 nokta o kovada).
 
-⚠️ **VE BURASI TDV'NİN KAPSAMADIĞI COĞRAFYA.** `CLAUDE.md §4` ölçümü:
-TDV kapsaması Amerika'da düşük — ama **sıfır değil**: `amerika` (kıta)
-maddesi İnka · Meksika-Aztek · Peru · Brezilya'yı **somut tarihle**
-kapsıyor ve beş kayıt tek maddeden doğrulanmıştı.
-⇒ Önce `amerika` maddesini oku, sonra akademik kaynağa çık.
+📌 Emre'nin sözü: *"Korkma, varsın karşın noktası Çin'i boyasın — ki
+boyayamaz. Ama en azından nerelerde nokta ihtiyacımız olduğu direkt
+görünür."* ⇒ **Yaz. Çizilmemesi seni durdurmasın.**
 
 ## ② İŞİN
 ```
-1  KAPSAM: 1281-1923 arası, Amerika kıtası. ÖNCELİK SIRASI:
-     ① Mezoamerika  — Aztek/Mexica · Maya şehir devletleri · Tarascan
-     ② And          — İnka (Tawantinsuyu) · Chimú · öncülleri
-     ③ Kuzey Amerika — Mississippi kültürü (Cahokia) · Pueblo · Haudenosaunee
-     ④ 1492 SONRASI — İspanyol/Portekiz/İngiliz/Fransız yerleşimleri
-                       ve BAĞIMSIZLIKLAR (1776 · 1810-1825 · 1822)
-2  HER NOKTA İÇİN: ad · lat · lon · tur: · k: (GEREKÇELİ) ·
-   s:/d: dönem zinciri · kaynak: ZORUNLU
-3  🔴 DEVLET KİMLİĞİ: kullandığın her `d:` değeri `data/devletler.js`te
-   VAR OLMALI. YOKSA nokta yazma — koordinatöre künye ÖNERİSİ bildir.
-   (Kimliksiz kimlik = harita deliği; `§8`.)
-4  🔴 KASITLI BOŞLUK: nüfusun gerçekten olmadığı ya da kaynağın SUSTUĞU
-   yerler için `kasitli_bosluk:true` + `bos:` alanı yaz.
-   SINAV: kaynağa sor — KONUŞUYORSA `devletsiz` · SUSUYORSA `veri-yok`.
-   Beş kova: devletsiz · veri-yok · kabile · insansiz · hata.
-   ⚠️ `devletsiz` bir İDDİADIR ve kaynak ister. Emin değilsen `veri-yok`.
+1  1281 KESİTİ   o tarihte kaynağın adını verdiği yerleşim/merkez
+                 Mezoamerika (Mayapán · Tenochtitlan öncesi · Mixtek) ·
+                 And (Chimú · Inka öncesi) · Kuzey (Cahokia sonrası ·
+                 Haudenosaunee · Pueblo · Mississippi kültürü)
+2  1281-1923 SERPME  sömürge kuruluşları HER BİRİ `kur:` ile —
+                 Santo Domingo 1496 · Havana 1519 · Lima 1535 ·
+                 Quebec 1608 · Boston 1630 · New York (Nieuw Amsterdam)
+                 1625 · Buenos Aires 1580 · Rio 1565 …
+3  BOŞLUK CİNSİ  üç kova + kaynağın KENDİ CÜMLESİ `neden:` alanına
 ```
-🎯 **HEDEF: 120-180 nokta.** Az değil çok da değil — Amerika'nın
-1281'deki gerçek siyasî yoğunluğu Anadolu'nunki gibi DEĞİL, ve `ONCELIK.md`
-uzak coğrafyada %80 kalite diyor. **Yoğunluğu uydurma.**
+🔴 **`kur:` ZORUNLU.** `Değişmez 5` bu sınıfta 62 hayalet bulmuştu ve
+hepsi `kur:` yazılmadığı için 1281'de sahnede duran noktalardı.
 
-## ③ YAZMA YETKİSİ
+## ③ ÜÇ KOVA — kaynağa sor, karıştırma
 ```
-🟢 SENİN   data/yerlesimler_amerika.js       ← YENİ dosya, YALNIZ bu
-           oturumlar/NOKTA-AMERIKA-ILERLEME.md
-🔴 DEĞİL   var olan data/*  ·  arac/*  ·  index.html  ·  kök *.md
+kabile      kaynak "teşkilatlı ama devlet değil" diyor  → benek çizilir
+devletsiz   kaynak AÇIKÇA "devlet yoktu" diyor          → çizilmez
+veri-yok    kaynak SUSUYOR                              → "?" çizilir
 ```
-⚠️ Bağlamayı **KOORDİNATÖR** yapar — sen yaz ve *"hazır"* de.
-⚠️ **NOKTA OKYANUSYA oturumu aynı anda kendi dosyasında çalışıyor** —
-onun dosyasına dokunma.
-🔴 **BOLGE penceresi Amerika'yı henüz KAPSAMIYOR** (`box(-12,-11,146,82)`).
-Yani noktaların **hemen çizilmeyecek** — bu bir kusur değil, sıra:
-`CLAUDE.md §6` *"nokta yoğunluğu sağlanmadan pencere AÇILMAZ."* Sen
-yoğunluğu sağlıyorsun; pencereyi koordinatör açar.
+⚠️ Ve *"ilkel"* kelimesini veriye YAZMA — ölçülebilir değil ve kaynak
+öyle demiyor. Kaynağın dediğini yaz.
 
-## ④ SENİ BAĞLAYAN KURALLAR
+## ④ YAZMA YETKİSİ
 ```
-CLAUDE.md §4   🔴 KIRMIZI ÇİZGİ: AKADEMİK · GÜVENİLİR · BİLİMSEL.
-               🟢 kabul: Cambridge History · üniversite yayını · hakemli
-                  makale · alanın standart el kitabı · birincil kaynak neşri
-               🔴 kullanılmaz: forum · blog · içerik çiftliği · kaynaksız
-                  derleme · YAPAY ZEKÂ ÜRETİMİ METİN · popüler "tarih sayfası"
-               🟡 Vikipedi TEK DAYANAK DEĞİL — yalnız "hangi maddeye
-                  bakayım" sorusunu cevaplar
-               🔴 KAYNAK GİZLENMEZ: `kaynak:` alanına AÇIKÇA yaz;
-                  bulunamadıysa `bulunamadı` yaz.
-CLAUDE.md §4   🔴 TARİH UYDURMA. Gün bilinmiyorsa YYYY-01-01.
-CLAUDE.md §11  🔴 kaçış içeren metin BASH'ten geçmez, heredoc DÂHİL.
-               🔴 3 KM KURALI — yeni nokta koyarken 3 km içinde başka
-                  nokta var mı bak (yakın mükerrer tuzağı).
-CLAUDE.md §3.5 🔴 devletin YIKILIŞI ≠ o yerin FETHİ. Ve bir `s:` dönemi
-               yazarken devletin ÖMRÜNÜ kontrol et — hayalet devlet tuzağı.
+SENİN     data/yerlesimler_<6hane>.js · oturumlar/<KENDİ ADIN>-ILERLEME.md
+SENİN DEĞİL   başka HİÇBİR data/ dosyası · arac/* · js/* · kök *.md
+              data/devletler.js — künye gerekirse TAHTAYA TASLAK yaz,
+              koordinatör işler
 ```
+⚠️ Dosyanı `girdi.py`ye SEN BAĞLAMA — koordinatör bağlar.
 
-## ⑤ HABERLEŞME — 🔴 ÖNCE KANAL
-Cevabın **kendi pencerene YAZILMAZ**; koordinatör ekranını GÖRMEZ.
+## ⑤ SENİ BAĞLAYAN
+🔴🔴 **KAYNAK KIRMIZI ÇİZGİSİ** (Emre'nin beyanı): TDV birincil.
+🟢 **VE `§4`ÜN ÖLÇÜLMÜŞ KOLAYLIĞI BURADA GEÇERLİ:** TDV'nin **tek
+`amerika` maddesi** İnka · Meksika-Aztek · Peru · Brezilya'yı somut
+tarihle kapsıyor — beş kayıt tek maddeden doğrulanmıştı. **Dar slug
+tutmazsa genel maddeyi dene.**
+Dışına çıkarsan **AKADEMİK · GÜVENİLİR · BİLİMSEL**:
 ```
-mcp__ccd_session_mgmt__send_message
-    session_id : <ADRES YAZILMAZ>
-    ⚠️ ADRES DOGRULAMA — HER MESAJDAN ONCE:
-       Bu kimlik BAYATLAYABILIR. `send_message` "Session not found." derse
-       DURMA: `mcp__ccd_session_mgmt__list_sessions` ile koordinatoru ARA
-       (basligi KOORDINATOR ya da CLAUDEMRE, dizini bu proje) ve ORAYA yaz.
-       🔴 13 Agu'da tam bu oldu: sartnamelerdeki adres OLUYDU ve UC oturumun
-       raporu hicbir yere gitmedi. Ucu de kusuru KENDI buldu — sen de bul.
+🔴 ASLA  forum · blog · içerik çiftliği · turizm sitesi · kaynaksız
+         derleme · YAPAY ZEKÂ ÜRETİMİ METİN · popüler "tarih sayfası"
+🟡 Vikipedi TEK DAYANAK DEĞİL
 ```
-`AÇILINCA HEMEN` haber ver ("açıldım, yerlesimler_amerika.js bende") ·
-**KALEM KALEM** bildir (her bölge bitince, biriktirme) · *"ne oldu iş?"*
-gelirse iş sürüyor olsa bile **hemen** `İŞ ÜSTÜNDEYİM · şu aşamadayım ·
-~şu kadar kaldı` · **AKSAKLIK BEKLEMEZ** (kaynaklar çelişiyorsa KENDİN
-KARAR VERME, sor).
+**`kaynak:` ZORUNLU.** Bulamadıysan `bulunamadı` yaz. Üçüncü kova:
+*"aradım, ERİŞEMEDİM"* — *"aradım, yok"*la karıştırma.
 
-## ⑥ BİTİŞ ÖLÇÜTÜ — sayıyla
+🔴 **TARİH UYDURMA** (`YYYY-01-01`, tam gün varsa yuvarlama)
+🔴 **3 KM KURALI** — `girdi.yakin_ciftler()`
+🔴 `§11`: kaçış/Türkçe metin **kabuktan geçmez** — `Write` + `py <yol>`;
+commit `Write` + `git commit -F <dosya> -- oturumlar/...`
+🔴 `git add -A` HİÇ. `B10`: ölçtüğünü ve çıkardığını **ayrı satıra**.
+📌 `data/*.js` içinde yorum **yalnız kendi satırında**.
+
+## ⑥ HABERLEŞME — ADRES DOSYADIR
+Mesajının ilk satırı: `→ DOSYASI data/yerlesimler_<6hane>.js OLAN OTURUMDAN`
 ```
-① kaç nokta yazıldı · bölge bölge dağılım
-② kaçının kaynağı TDV · kaçı akademik · kaçı `bulunamadı`
-③ kaç yeni devlet kimliği ÖNERİLDİ (yazılmadı, önerildi)
-④ kaç `kasitli_bosluk` · beş kovaya dağılımı
-⑤ 3 km kuralı: kaç çakışma bulundu
+py arac/tahta.py yaz --kim "<KENDİ ADIN>" --kime "KOORDINATOR" --cins RAPOR --mesaj "..."
 ```
-Teslim *"bitirdim"* değil: *"142 nokta · Mezoamerika 38 · And 44 ·
-K.Amerika 31 · sömürge 29 · 11 künye önerisi · 7 kasıtlı boşluk."*
-**Bulamadığını `bulunamadı` diye yaz — negatif sonuç da sonuçtur.**
+🔴 Kendi pencerene yazmak = hiç cevap vermemek.
+**NÖBETÇİ, `Monitor` aracıyla, persistent:true — İLK İŞ:**
+`py arac/tahta_bekci.py --kim "<ADIN>" --ara 45`
+
+## ⑦ KABUL KAPISI — doğrulamasız teslim İŞLEME ALINMAZ
+```
+① py arac/denetle.py → Değişmez 1 · 5a ARTMADI mı
+② node ile kendi dosyanı oku → kaç kayıt
+③ git status → commit'li mi
+④ `kaynak:` satırı sayısı = kayıt sayısı mı (METİNDEN say, grep ile)
+⑤ `kur:` boş kaç kayıt ve SEBEBİ yazılı mı
+⑥ py arac/bayt_denetle.py → kontrol baytı 0
+```
+🟡 **Yarım iş suç değil, GİZLENMİŞ yarım iş suç.**
+
+## ⑧ BİTİŞ ÖLÇÜTÜ — sayıyla
+`"N nokta yazıldı · kaçında kur: · kaçında kaynak: · kaç bulunamadı ·
+kaç boşluk kaydı ve cinslerine göre dağılımı · ARAŞTIRILMAYAN M"`
+
+## ⑨ KISALTMALAR
+`*mgy` gereğini yap · `*kii` iş iste · `*yyy` durum · `*nedenboş` niçin boş
