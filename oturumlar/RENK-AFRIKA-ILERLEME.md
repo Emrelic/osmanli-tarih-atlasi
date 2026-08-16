@@ -1,105 +1,128 @@
 # RENK AFRİKA — ilerleme
 
-**DOSYAM** `arac/renkler.py` · **M-NUMARALARIM** M-0132 · M-0134 · M-0148
+**Dosyam:** `arac/renkler.py` · **Oturum:** RENK AFRİKA (16 Ağustos 2026)
 
-## TESLİM — 16 Ağustos 2026
+## Teslim — üç parti, BOYALAR 327 → 388
 
-```
-BOYALAR            327 → 337        on kimliğin ONU DA yazıldı
-renk_olc.py        kod 0 · 0 görünmez · 0 çakışma · 0 aynı-anahtar ·
-                   0 aynı-hex · 8 yakın-ama-değmeyen   (TABANLA BİREBİR AYNI)
-renk_fark.py       kod 1 · 0 doğan kusur · 0 düşen çift · 0 yakın-çift
-                   regresyonu       (kod 1'in sebebi TABANDA duran Amerika
-                                     borcu; benim partimle ilgisi yok)
---dogrula          kod 0 · 10 öneri · 0 fark · eşik altı komşu YOK
-görünmez bayt      0 · BOM yok · 189.343 bayt
-```
-
-**Kova hareketi — tam olarak beklenen ve BAŞKA HİÇBİR ŞEY:**
-```
-künyesi var, rengi yok              54 → 44   (−10)   ← benim onum
-rengi var, künyesi yok               0 →  0
-VERİDE kullanılıyor, rengi YOK      44 → 44   (değişmedi)
-VERİDE kullanılıyor, künyesi YOK    32 → 32   (değişmedi)
-künye var ama harita: BAŞKA anahtar  1 →  1   (değişmedi)
-```
-
-## YAZILAN ON RENK
-```
-mali-imparatorlugu      #d428d4      benin-kralligi     #4028d4
-songhay-imparatorlugu   #28d428      dahomey            #28ccd4
-hausa-sehir-devletleri  #d4d428      asanti             #28d05c
-oyo-imparatorlugu       #d47028      sokoto             #2860d4
-kanem-bornu             #80d428      zulu-kralligi      #cca828
-```
-
-**Dört kritik çift** (üçü şartnameden, dördüncüsü ölçümden):
-```
-mali ↔ songhay          97,3      sokoto ↔ kanem-bornu   69,0
-oyo ↔ dahomey           48,0      hausa ↔ sokoto         69,2   ← EKLENEN
-on kardeş arasında en dar çift: 14,3
-```
-
-## ÇÖZÜLEMEYEN: YOK
-Dört ayrı sırayla koşuldu, dördü de çözdü (en kötü pay 14,3 · 18,0 · 14,7 ·
-18,1). *"Çözülemedi"* cinsi (tercih / sıra / yapı) sorulmadı çünkü hiç
-çıkmadı. Ama **sıra kaliteyi değiştirdi** — ilk sıra kabul edilseydi
-3,8 ΔE boşa giderdi.
-
-## BU PARTİDE BULUNAN DÖRT KUSUR — üçü kendi işimde, biri araçta
-
-Dördü de *"geçme yolu temiz"* dedikten SONRA çıktı, ve **hiçbirini bir
-denetim bulmadı**: dördü de kendi varsayımımı kırmaya çalışmaktan çıktı.
+| parti | kimlik | sonuç | tahta |
+|---|---|---|---|
+| 1 — Batı/Orta/Güney Afrika | 10 | yazıldı, 4 alet temiz | M-0199 · M-0442 |
+| 2 — bağlama kapısı | 7 | yazıldı, `--dogrula` 0 fark | M-0362 · M-0442 |
+| 3 — Amerika | 44 | yazıldı, 4 alet temiz | M-0470 · M-0501 |
 
 ```
-① TARİH METİN KARŞILAŞTIRMASI (kendi çözücümde, sonra ARAÇTA da)
-   '800-01-01' < '1808-01-01' → False    ('8' > '1')
-   engel_kumesi("kanem-bornu") → 0 engel · sıfır dolgulu hâli → 25
-   devletler.js'te 3 haneli yıl: 18 alan · bunlardan RENGİ OLAN: 13
-   (almanya · bizans · bretanya · fransa · goryeo · iskocya · navarra ·
-    nube · pagan · papalik · poni · sunda-pajajaran · venedik)
-   ⇒ renk_olc.py:696 — BENİM DOSYAM DEĞİL, bildirdim (M-0211), düzeltmedim.
-   ÖLÇMEDİM: o 13 kimliğin kaçının fiilen zarar gördüğünü.
-
-② DENETİMİN KÖRLÜĞÜ (C13 ateşlemesi ZORLANARAK bulundu)
-   mali'ye kongo-kralligi'nin TAM hex'i → beş başlık sayısı SESSİZ
-   sokoto'ya kanem-bornu'nun TAM hex'i → SESSİZ
-   (altlık ve deniz dalları ÖTTÜ)
-   Sebep: renk_olc.py:358 `k not in aralik` ⇒ veride dönemi olmayan
-   kimlik `çakışan`a değil `ÖLÇÜLEMEDİ`ye gider.
-   ASIL SAYI: yakin_renk ölçülemedi 633 → 837 (+204)
-   ⇒ M-0199'daki "taban ile aynı ⇒ temiz" cümlem DAYANAKSIZDI ve
-     M-0211 ile DÜZELTTİM. Sayı doğruydu, ÇIKARIM yanlıştı.
-
-③ KARDEŞ ÇİFTLER (zarf dayanıklılık sınavı)
-   mali ↔ sokoto  ΔE 0,9  ·  hausa ↔ zulu  ΔE 1,2
-   Künyeleri HİÇ örtüşmüyor ⇒ kurala göre MEŞRU. Ama mali ile sokoto
-   AYNI COĞRAFYADA (kutular 0 km) ve kullanıcı zaman çubuğunu kaydırdıkça
-   aynı yeşili arka arkaya görür. Kural ZAMAN eksenine bakıyor, kullanıcı
-   MEKÂN eksenine.  ⇒ kardeş kısıtı örtüşmeden bağımsız yapıldı.
-   ÖLÇÜM: 0,9 → 14,3   (M-0227)
-
-④ `tahta.py` — AYNI UYARI, İKİ FARKLI SONUÇ
-   vaka 1 (M-0252)  push kod≠0 · commit VAR  ⇒ mesaj ULAŞTI
-   vaka 2           push kod≠0 · commit YOK  ⇒ mesaj KAYBOLDU
-   Uyarı ikisini AYIRT ETMİYOR; gönderen yeniden mi göndersin bilemiyor.
-   ⇒ M-0263. `arac/tahta.py` benim dosyam değil, düzeltmedim.
+bağlı veride RENKSİZ kimlik   44 → 0
+renk_fark zincir kusuru       77 → 33   (kalan 33: 32 künyesiz + romanya-kralligi)
 ```
 
-## AÇIK BORÇ — kayda geçiyorum ki yarın kusur diye bulunmasın
+🔴 **`arac/renkler.py` bu satır yazılırken hâlâ COMMIT'SİZ.** Üç kez
+bildirildi (M-0442 ④ · M-0470 · M-0501 ⑦). `arac/` koordinatörün
+kapsamında; bu dosya o commit kaybolursa **ölçümlerin kaydı** olsun diye
+yazıldı.
 
-🔴 **`ek32` `girdi.py`ye BAĞLANDIĞINDA `renk_olc.py` YENİDEN KOŞMALI.**
-Bu on kimliğin bugün veride tek noktası yok; engel kümesini künye penceresi
-ve **elle yazılmış coğrafî zarflarla** kurdum (vekil, ölçüm değil). Nokta
-inince gerçek Voronoi komşuluğu ölçülebilir olacak. Bu satır o borcun
-kaydıdır — `renkler.py` içindeki blokta da yazılı.
+---
 
-🟢 **180. meridyen kusuruna maruziyetim: SIFIR.** `girdi.km()` boylamı
-sarmalamıyor (M-0234) ve engel kümemi onunla kurdum. Sarmalayan bir
-haversine yazıp yeniden ölçtüm: on kimliğin onunda da engel kümesi
-DEĞİŞMEDİ (kaçırılan 0). `girdi.py` düzeltmesi inince renk partisinin
-yeniden koşmasına **gerek yok** (M-0235).
+## Bu oturumun ölçerek bulduğu altı şey
 
-## COMMIT
-`arac/renkler.py` **commit'lenmedi** — `§7`: commit Oturum 0'dan.
-Bu dosya (kendi ilerleme dosyam) pathspec'li commit edildi.
+Altısı da **kendi çıktısını okuyarak değil, kendi varsayımını kırmaya
+çalışarak** bulundu. Hiçbirini bir denetim betiği yakalamadı.
+
+### ① Tarih METİN olarak karşılaştırılınca 3 haneli yıl kayboluyor
+`kanem-bornu` (`f:"800-01-01"`) hiçbir kimlikle örtüşmüyor çıktı:
+`"800..." < "1808..."` metin sıralamasında **yanlış**, çünkü `'8' > '1'`.
+⇒ engel 0. Yıl 4 haneye dolduruldu ⇒ **engel 0 → 25.**
+
+### ② Denetimin kendisi bu partiye KÖR — ve "temiz" diyordu
+`C13`in ateşleme yolu sahte girdiyle zorlandı:
+```
+mali'ye kongo-kralligi'nin TAM hex'i    → beş başlık sayısı SESSİZ
+sokoto'ya kanem-bornu'nun TAM hex'i     → SESSİZ
+altlık/deniz dalları                    → ÖTTÜ
+```
+Sebep `renk_olc.py:358`: veride dönemi olmayan kimlik `çakışan`a değil
+**`ölçülemedi`**ye gidiyor. Asıl sayı: `yakin_renk` ölçülemedi
+**633 → 837 (+204)**.
+⇒ *"Beş sayı tabanla aynı"* demek **"araç bunları hiç ölçmüyor"** demekti.
+
+### ③ Kardeş kuralı — künye örtüşmesinden bağımsız, ama kapsamı COĞRAFÎ
+```
+mali ↔ sokoto           ΔE 0,9   künyeler HİÇ örtüşmüyor, AYNI COĞRAFYA
+hausa ↔ zulu-kralligi   ΔE 1,2   aynı
+```
+Kurala göre meşru (*"hiç komşu olmasınlar"*), ama kullanıcı zaman
+çubuğunu kaydırdıkça Nijer kıvrımında **aynı yeşili arka arkaya**
+görüyor. Kardeşler ayrıştırıldı: en dar çift **0,9 → 14,3.**
+⚠️ Ve kuralın **kapsamı** parti 2'de daraltıldı: `oranj ↔ yeni-zelanda`
+~10.000 km — ayrıştırmanın faydası yok, sadece pay yiyor.
+⇒ **Gerekçe mekândı, o hâlde kapsam da mekân olmalı.**
+
+### ④ Maruziyet PARTİNİN coğrafyasına bağlı, projenin geneline değil
+`girdi.km()` boylamı sarmalamıyor (mesafeyi BÜYÜK gösterir ⇒ **engel
+kaçırılır**).
+```
+parti 1 (Afrika, -16,5°B…33°D)   kaçırılan 0   ⇒ MARUZ DEĞİL
+parti 2 (NZ 179°D · Tonga -176°B) coğrafî olarak MARUZ
+        ama ikisinin de 1500 km içinde palet komşusu YOK ⇒ ETKİ 0
+```
+⇒ **Maruziyet ile etki ayrı şeydir**, ve her partide yeniden sorulur.
+
+### ⑤ 🔴 `--oner` bu partide KULLANILAMAZ çıktı verdi — ve önce tersini iddia ettim
+M-0380/M-0442'de yazdım: *"bu partide araç ÇALIŞIYOR, elle zarf yazmam
+YANLIŞ olur."* Sınadım:
+```
+18 İHLAL (eşzamanlı + <600 km + ΔE<12) · 27 uyarı
+inka-imparatorlugu ↔ ispanyol-peru   ΔE 1,9 · 0 km
+kuyruk düz bir RAMPA: 1,34 · 1,35 · 1,36 · 1,37 …
+```
+Sebep: `komsuluk()` **Voronoi** tabanlı, Amerika **harita penceresinin
+dışında** ⇒ hücre yok ⇒ *"yeniler arası komşuluk: 0 çift"* ⇒ 44 birbirine
+**hiç kısıtlanmadı.**
+```
+ÖLÇTÜM     44'ün hepsinin veride noktası VAR              ✓ doğru
+ÇIKARDIM   "⇒ Voronoi komşuluğu ölçülebilir"              ✗ YANLIŞ
+GERÇEK     nokta yetmiyor, PENCERE İÇİNDE olmalı
+```
+📌 Aracın **doğruluğu** ölçülmüş, **kapsamı** ölçülmemişti.
+
+### ⑥ Eşik EVRENSEL DEĞİL — coğrafyanın ÖLÇEĞİNE bağlı
+Kendi çözümüm de bütün kısıtları geçti (**0 ihlal**) ve teslim
+edilebilirdi. En dar çiftlere bakıldı:
+```
+bolivya-cumhuriyeti ↔ ekvador-cumhuriyeti  ΔE 0,63
+ikisi de 19. yy Güney Amerika cumhuriyeti · EŞZAMANLI · ~2.200 km
+```
+1500 km eşiği onu *"uzak ⇒ meşru"* saymıştı. `kaffa ↔ sidamo` dersi:
+*"iki gövde DEĞMEDEN de aynı ekranda yan yana durur."*
+⇒ Afrika'da kimlikler sıktı, 1500 km bir kıta parçasıydı; Amerika'da
+ülkeler kıta ölçeğinde. Yeni kova: **1500-4000 km + eşzamanlı → ΔE ≥ 12.**
+`C13` gereği kısıtın kurulduğu ayrıca ölçüldü: **197 çift, eşik altı 0,
+en dar 12,1** — boş bir sıfır değil.
+
+---
+
+## Araçlara önerilenler (yazılmadı — o dosyalar bu oturumun değil)
+
+1. **`renk_olc.py --oner`**: "0 komşu" durumunda susmamalı —
+   *"Voronoi hücresi yok (pencere dışı) ⇒ komşuluk ÖLÇÜLEMEDİ, kısıt
+   kurulmadı, çıktı GÜVENİLİR DEĞİL"* diye uyarmalı. Bugün sessizce
+   devam etti ve çıktısı **onay isteyen bir liste** gibi göründü.
+2. **Renk teslimi ölçütü**: *"0 çakışma"* diyen her rapor, yanında
+   **"ölçülemedi kovası kaç büyüdü"** de yazmalı. İkisi ayrı satır
+   olmazsa ölçülemeyen parti, ölçülmüş parti gibi görünür.
+3. **`arac/tahta.py`** (M-0263'te bildirildi, sonra düzeltildi):
+   push reddedilince önce mesajın `tahta.json`a yazıldığını, sonra
+   commit'in uzakta olup olmadığını ölç; *"ulaşmadı"* ile *"benim
+   push'um düştü"* aynı şey değil.
+
+---
+
+## Ölçülmedi (açıkça)
+
+- 3 sıranın 1'i `ispanyol-peru`da takıldı ⇒ **SIRA** bağlıyor, **YAPI**
+  değil (`§11` üçüncü cins). İkinci geçişle açılır mı ölçülmedi;
+  *"yapısal"* diye **ilan edilmedi.**
+- 4000 km eşiğinin kendisi ölçülmedi — *"aynı ekran"*ın gerçek sınırı
+  yakınlaştırma seviyesine bağlı ve o `js/app.js`in konusu.
+- Kardeş kapsam daraltmasının parti 2'ye kazancı (koşu, üretimle aynı
+  işlemciyi paylaştığı için **durduruldu**; parti 2 kritik yolda değildi).
+- Kalan 33 zincir kusuru künye tarafı — bu oturumun dosyası değil.
