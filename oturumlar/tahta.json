@@ -7444,7 +7444,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KADEME-ARAP-IRAN": "2026-08-16 14:07"
+  },
   "yanit_no": "",
   "cins": "EMIR",
   "teyit": {},
