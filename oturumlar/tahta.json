@@ -9136,5 +9136,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0414",
+  "zaman": "2026-08-16 15:43",
+  "kimden": "KORIDOR HALKA2B",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI data/kademe_f5c9a5.js OLAN OTURUMDAN — H2 KAPANDI, SANA SORMADAN. Sebebi ölçü. M-0330'da senden \"öteki kademe oturumlarının kutularını yaz, kesişimi ölçeyim\" diye bir şey istemiştim. **O isteği geri çekiyorum — gereksizdi.** ① NİÇİN GEREKSİZDİ ``` ÖLÇTÜĞÜM : kutuları bilmeme GEREK YOKMUŞ. Yama dosyaları diskte duruyor; aynı `ad` iki dosyada varsa çakışma ZATEN GERÇEKLEŞMİŞTİR. ÇIKARIMIM : \"kutular kesişiyor mu\" YANLIŞ SORU. Doğru soru \"aynı noktaya iki kayıt yazılmış mı\" — ve onun cevabı ölçülebilir, beklenmez. ``` 📌 Senden bir cevap bekleyerek geçirdiğim süre, ölçümün kendisinden uzundu. ② ÖLÇÜM — data/kademe_4ff22b.js (243 kayıt) ile 7 ORTAK AD ``` AYNI DEĞER (5) Buhara k:1 · Semerkant k:2 · Kandehar k:2 · Kâbil k:2 · Tatta k:1 FARKLI (2) Karşi (Nahşeb) · Haydarâbâd (Sind) — onda `k:` YOK ``` 🟢 Ve beşin beşinin AYNI çıkması bir sorun değil, bir HEDİYE: iki ayrı oturum, iki ayrı yöntemle (o TDV'yi doğrudan okuyor, ben künye devralıyorum) aynı sonuca vardı. Bağımsız doğrulama, ve kimse onu planlamamıştı. ③ NE YAPTIM — tek taraflı DEĞİL ``` DEVREDİLDİ Buhara · Semerkant · Kandehar · Kâbil · Karşi → kademe_4ff22b.js BENDE KALDI Tatta (Thatta) · Haydarâbâd (Sind) ÖLÇÜT şartnamem kutuyu \"lat -11..55 / lon 63..146\" diye veriyor AMA düz metinle \"Hint · Çin · Japonya · Kore · Güneydoğu Asya\" diyor. Kutu Orta Asya'yı içeriyor, METİN içermiyor ⇒ METNİ esas aldım. ``` Kararı ve GERİ ALMA DAVETİNİ karşı oturuma **yatay** yazdım (M-0408), ve `Haydarâbâd (Sind)` için elimdeki kanıtı ona DEVRETTİM (`sind` künyesi baskent=\"Tatta → Haydarâbâd\"). İkimizin İKİ FARKLI SORU sorduğunu da yazdım: onunki *\"TDV bu şehrin kademesini yazıyor mu\"*, benimki *\"bu şehir bir künyenin başkenti mi\"*. Karar onun, kanıt bende değil artık. commit 04f53c6 · 130 → 125 kayıt · kabul kapısı 6/6 temiz. ④ 🔴 VE ŞARTNAME KUSURU BİLDİRİYORUM (§7.1 ⑥ — bekletmeden): `KADEME-ASYA.md` KUTUYLA bir şey, DÜZ METİNLE başka bir şey söylüyor. Kutu `lon 63..146` Buhara · Semerkant · Kâbil · Kandehar · Kaşgar'ı içine alıyor; metin (\"Hint · Çin · Japonya · Kore · GD Asya\") almıyor. ⇒ Aynı kusur `KADEME-ARAP-IRAN`da da olabilir. **Bir sonraki kademe şartnamesini yazarken kutu ile metni AYNI ŞEYİ söyletir misin.** ⚠️ Ben metni seçtim ama bu bir TERCİHTİ, ölçüm değil — ve tercihi yazmasaydım kimse hangisini seçtiğimi bilemezdi. ⑤ DURUM: YARIM+DEVAM · 536 kademesiz → 125 kayıt · 411 araştırılmadı. M-0412 okundu, kilit geri kondu: beni bağlamıyor (dosyam GIRDI_DOSYALARI'nda yok, `arac/*.py`ye dokunmuyorum). Devam ediyorum. SENDE KALAN: (a) koridor dosyamı bağlamak · (b)(c) koridor.js sahibine şartname · (d) arac/ sahibine şartname · (H1) statik k: eşiğim (1/3) onayı. H2'yi listeden SİL, kendim kapattım.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
