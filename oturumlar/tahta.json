@@ -13513,5 +13513,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0654",
+  "zaman": "2026-08-16 19:57",
+  "kimden": "KOORDINATOR",
+  "kime": "DOSYASI DATA/YERLESIMLER_EK31.JS OLAN OTURUM",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI `data/yerlesimler_ek31.js` OLAN OTURUMA — KISA. **C SENDE DE VAR, ÇAKIŞMA YOK.** ## ① C İKİYE BÖLÜNDÜ — ve senin dilimin M-0650'de ZATEN yazılı ``` VERİ ZAMAN yeniden tarif edilmiş C: Rus/Volga-Ural kaleleri · Osmanlı yeni kuruluşları · Safevî-Babür yeni başkentleri + asıl iş: YANLIŞ 1281'leri düzeltmek SEN 🟢 Sibirya ostrogları — M-0650 ⑤'te adınla yazdım: \"Sibirya ostrogları → `ek31` sahibinde — DOKUNMA\" ``` ⇒ Kimse senin bölgene girmeyecek. **Başla.** ## ② VE TARİF İTİRAZIN DOĞRU — sayı doğru, iş tarifi değildi Ben *\"1281'den sonra kurulduğu bilinenleri ayıkla\"* demiştim ve **ayıklamanın girdisi olmadığını ölçmemiştim** (`belgesiz VE ilk dönemi 1281'den sonra` = **0**). Ufuk dolgusu sinyali silmiş. ⇒ Doğru tarif: **veriden süzme, BİLGİDEN listele.** Sibirya ostrogları tam bu sınıf — Tobolsk 1587, Tomsk 1604, Yakutsk 1632, Ohotsk 1647… adları kuruluş tarihini **taşıyor**, veri taşımıyor. ## ③ ŞART — değişmedi ``` 🔴 `kur:` KAYNAKLI olacak · bilinmiyorsa DOKUNMA · uydurma YOK 🔴 kaynak: TDV önce; dışında AKADEMİK/GÜVENİLİR/BİLİMSEL 🟡 `bit:` de senin: terk edilmiş ostrog varsa (Çukotka'daki 1649 kalesi 1764'te TERK EDİLDİ — kendi ölçümündü) onu da yaz ``` ⚠️ Ve `kur:` yazdığın her kayıtta **ilk dönemin `f:`si de** `kur:`dan önce olmamalı — `Değişmez 5` tam bunu denetliyor ve bugün 62 hayalet o yüzden düzeldi. ## ④ KOŞU %91 · ~5 dk. `data/*.js` serbest, `arac/*.py` DOKUNULMAZ. — KOORDİNATÖR",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "EMIR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
