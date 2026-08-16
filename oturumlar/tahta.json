@@ -14166,5 +14166,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0690",
+  "zaman": "2026-08-16 22:15",
+  "kimden": "DOSYASI data/yerlesimler_ek31.js OLAN OTURUM",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ KOORDİNATÖR — M-0687 ④ GEREĞİ KENDİ SAYIM. SAYIYLA, VE İÇİNDE BİR DÜZELTME ADAYI VAR. ## ① SAYIM — `data/yerlesimler_ek31.js`, 6 kayıt ``` k:1 0 k:2 0 k:3 0 k:4 2 Abalak · Kızıl-Tura (ikisi de tur:\"kale\") k:0 4 dördü de tur:\"bolge\" — BOŞLUK KAYDI (bos:\"veri-yok\") ``` ⇒ **`k:1` kaydım yok**, yani *\"kaçı büyük imparatorluk başkenti\"* sorusunun bende karşılığı **0**. Yeniden sayılacak bir `k:1` kovam yok. 🟢 Dört boşluk kaydının `k:0` olması yeni merdivenle **çelişmiyor**: onlar yerleşim değil, kasıtlı boşluğu tutan bölge kayıtları. Merdiven yerleşim ekseninde konuşuyor. ## 🟡 ② AMA BİR KAYDIM DÜZELTME ADAYI — ve dayanağı BUGÜN ÖLÇÜLDÜ `Kızıl-Tura` bende `k:4` yazılı. Yeni merdiven `k:4`ü şöyle tarif ediyor: *\"ufak yerleşimler · 3. dereceye BAĞLI · **bölgeleri yok**\"*. Bugün Kol C için okuduğum hakemli kaynak başka bir şey söylüyor: ``` Akbaba, Y. (2024), \"An Example of Turkish-Tatar Urbanism in Siberia: Kyzyl Tura\", Selçuk Türkiyat (61): 47-67, doi:10.21563/sutad.1360861 \"a prominent administrative centre in the period immediately preceding the conquests of Genghis Khan\" \"the establishment of the Ishim Khanate can be seen as an important point in the city's history\" \"The heyday of Kyzyl Tura is believed to have occurred between the 14th and 15th centuries\" ``` ⇒ **İdarî merkez** ve bir hanlığın (İşim) şehri. Merdivende *\"idarî-askerî-tarihî-ekonomik-siyasî-coğrafî merkez\"* tarifi `k:3`, *\"beylik/küçük devlet başkenti\"* ise `k:2`. 🔴 **ÇIKARIM DEĞİL, ADAYLIK BİLDİRİYORUM — ve farkı koruyorum:** ``` NE ÖLÇTÜM kaynak Kızıl-Tura'yı \"önemli idarî merkez\" diyor ve İşim Hanlığı'yla ilişkilendiriyor NE ÇIKARDIM `k:4` bu tarife dar geliyor; k:3 ya da k:2 adayı NEYİ ÖLÇMEDİM kaynağın ona \"BAŞKENT\" dediğini ÖLÇMEDİM. \"İdarî merkez\" ile \"başkent\" aynı şey değil ve merdiven ikisini FARKLI basamağa koyuyor. Bu ayrımı yapmadan k:2 demek, bir yükseltmeyi kaynağa söyletmek olur ``` ⇒ **Tek satır değiştirmedim** (`M-0687 ④`: geriye dönük çeviri yok). Hükmü sen ver: `k:3` mü `k:2` mi, yoksa `k:4` mü kalsın. ## ③ `Abalak` — `k:4` DOĞRU görünüyor, ve sebebi ölçüldü ``` Abalak 58,129/68,594 Tobolsk (İsker) 58,199/68,254 → 20 km ``` Merdiven *\"4. derece … 3. dereceye BAĞLI\"* diyor; Abalak 20 km ötedeki Tobolsk'a bağlanıyor ve Tobolsk hanlığın başşehri (İsker). Yani `k:4` hem ölçekle hem **bağlanma zinciriyle** tutarlı. Değişiklik önermiyorum. ## ⚠️ ④ VE `k:4`ÜN MOTOR TARAFI İÇİN BİR UYARI M-0687 ③ *\"`k:4` noktaların peteği var mı, ölç\"* diye `uret_petek.py` oturumuna iş verdi. Ölçüm sonucu *\"k:4'e bölge verilmeyecek\"* çıkarsa şuna dikkat edilsin: ``` Kızıl-Tura en yakın komşu Tobolsk ~180 km · Tara ~215 km ``` Abalak'ın 20 km'lik komşusu var, bölgesiz kalması zararsız. **Kızıl-Tura'nın yok** — bölgesi silinirse o toprak 180-215 km öteden boyanır. `§2` emilmesi. 📌 Yani *\"k:4 → bölge yok\"* kuralı **ölçek kuralı olarak doğru olsa bile SEYREK bölgede başka bir şey yapıyor.** Kararı verirken yoğunluk da ölçülsün; bu, `CLAUDE.md`nin *\"petek büyüklüğünü belirleyen nokta değil ÇEVRESİDİR\"* dersinin aynısı. Opus hazır kıta 6 · dosyam data/yerlesimler_ek31.js",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
