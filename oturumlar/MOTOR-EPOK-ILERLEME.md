@@ -1,4 +1,79 @@
-<!-- DURUM: IS 1 BITTI ¦ 2026-08-16 ¦ kosu temiz · ongoru 7 TUTTU 2 CURUDU · IS 2 bekliyor -->
+<!-- DURUM: SARTNAME BITTI ¦ 2026-08-16 ¦ IS 1 ✓ IS 2 ✓ · ikisi de kosuldu ve dogrulandi -->
+
+# 🟢🟢 ŞARTNAME TAMAMLANDI — İŞ 1 ✓ · İŞ 2 ✓
+
+| | koşu | öngörü | sonuç |
+|---|---|---|---|
+| **İŞ 1** eğim çarpanı | 02:37:41 → 04:20:52 · 1s 43dk | `3240a48` | 9 kalem: **7 TUTTU · 2 ÇÜRÜDÜ** |
+| **İŞ 2** epok paylaştırma | 13:59:36 → 15:58:02 · 1s 58dk | `fcd0b3e` | 8 kalem: 7 ölçüldü, **7'si de TUTTU** |
+
+---
+
+# 🟢 İŞ 2 BİTTİ — EPOK PAYLAŞTIRMASI
+
+**Bitiş ölçütü** (koordinatörün M-0221'de sorduğu soru):
+```
+② PAYLAŞTIRMA (1281-01-01): 52 peteğin 52'i PAYLAŞTIRILDI (233 alıcıya),
+   0'i tek komşu (bölünecek şey yok), 0'i komşusuz (eski yol)
+1281-01-01: 52 petek devredilecek, 538.419 km²   ← alan BİREBİR korundu
+```
+Eski davranışta 52 peteğin 52'si de **bütün hâlde tek komşuya** gidiyordu; şimdi
+petek başına ortalama **4,5 komşuya** bölünüyor. Emre'nin cümlesinin motordaki
+karşılığı: *"sonradan doğan yerleşim kendi bölgesini kapmalı"* — ve tersi:
+**doğmamış yerleşim, bölgesini komşularına paylaştırır.**
+
+**Öngörü tablosu** (`denetim/EPOK-ONGORU.md`, koşudan ÖNCE commit'li):
+```
+①  paylaştırma satırı       basar              basıldı 14:30:43     ✓
+②  ALAN KORUNUMU 🔴mazeretsiz toplam AYNI      538.419 km² BİREBİR  ✓
+                            artık <1.000 km²   artık satırı YOK
+③  paylaştırılan pay        ≥45 · tek≤5 · ≤2   52 · 0 · 0           ✓
+④  toplam kova              45-60              52                   ✓
+⑤  Değişmez 1 🔴mazeretsiz  değişmez           196 → 196            ✓
+⑥  boşalan petek 🔴mazeretsiz 0                0                    ✓
+⑦  süre                     +1-5 dk            8sn → 1dk 38sn       ✓
+⑧  harita etkisi            ÖNGÖRMEDİM         ölçüldü              —
+```
+
+**⑧ harita etkisi — öngörmedim, ölçtüm** (İŞ 1 koşusuyla yan yana):
+```
+                    İŞ 1        İŞ 2        fark
+dönem sayısı        513         513         0
+havuz eşsiz halka   2.767       2.751       −16
+serbest kenar       268         251         −17
+dosya boyutu        22.279 KB   22.347 KB   +68 KB
+kesit alanları      0,00/0,79   0,00/0,79   AYNI
+```
+📌 **Serbest kenarın azalması anlamlı:** petek tek komşuya bütün gitmek yerine
+birkaçına bölününce, sahipsiz alana bakan kenarlar azalıyor. Paylaştırma yalnız
+*"kime ait"* sorusunu değil **sınırın biçimini** de düzeltiyor.
+
+**Kapılar:** `denetle.py` SONUÇ temiz · tüm yerleşimlerin peteği geçerli ✓ ·
+Traceback 0 · `renk_olc` çıkış 0 · `renk_fark` 0 doğan / 0 düşen / 0 regresyon.
+
+## 🔴 İKİ ÖZ-DÜZELTME
+**①** İŞ 1 raporumda `renk_fark` için *"ÇIKIŞ 0"* yazmıştım — **yanlıştı.**
+Bash'te `py … | tail -25 ; echo $?` yazmışım; o **`tail`in** çıkış kodunu ölçer.
+Doğrusu 1 ve o gün de 1'di; sebebi benim değişikliğim değil, bugün bağlanan
+Amerika kimlikleri (32 künyesiz). ⇒ *Borunun çıkış kodu, borudaki ilk komutun
+değil **sonuncusunun** kodudur.*
+
+**②** Bu dosyanın kendisi **bayat kaldı**: İŞ 2'yi teslim ettim, `EPOK-ONGORU.md`yi
+doldurdum, ama **buraya yazmadım.** Bir tur sonra fark ettim.
+📌 Ve bu, bugün başkalarına üç kez hatırlattığım dersin bana çarpan hâli:
+***kayıtsız yapılan iş, yapılmamış işle aynı görünür.*** Teslim mesajı gitmişti,
+kaydı yoktu.
+
+## ⑨ VE BİR RAHATSIZLIK — sekizin sekizi tuttu, çürüyen 0
+İŞ 1'de iki kalem çürümüştü ve **ikisi de bir şey öğretmişti**; buradan hiçbir şey
+öğrenmedim. Bantlarım gevşek olabilir: ③'te *"tek≤5 · komşusuz≤2"* pay bıraktım,
+ikisi de **sıfır** çıktı; ⑦'de *"+1-5 dk"* dedim, **+1dk30sn** geldi (bandın alt
+ucu); ④'te *"45-60"* dedim, taban zaten 52'ydi.
+⇒ **Bir sonraki öngörüde bantları DARALTACAĞIM** — ve bunu koşudan sonra değil
+**şimdi** yazıyorum ki mazeret olmasın. *Tutan bir öngörü, dar olmadıkça bir şey
+öğretmiyor.*
+
+---
 
 # 🟢 İŞ 1 BİTTİ — KOŞU DOĞRULANDI
 
