@@ -218,12 +218,27 @@ def _git(kayit, baslik, govde):
             # dalda GERÇEKTEN var mı?
             _m = re.search(r"M-\d{4}", baslik or "")
             _no = _m.group(0) if _m else ""
+            # 🔴 İLK YAZIMIM `origin/main`e BAKIYORDU ve YANLIŞ ALARM
+            # üretti — iki oturum ölçüp bildirdi (M-0347). Sebep:
+            # `git log origin/main` **yereldeki uzak-dal kopyasını** okur
+            # ve o kopya `fetch` yapılmadan BAYATTIR. Push başarılı olsa
+            # bile yerel kopya güncellenmemiş olabiliyor.
+            #
+            # ⇒ YANLIŞ ŞEYİ ÖLÇMÜŞÜM. Doğrusu şu: kaybın gerçek sebebi
+            # "push gitmedi" DEĞİL, **"commit hiç olmadı"**dı (editör
+            # açıldı ve tamamlanmadı). Push zaten kod=0 verdi.
+            # ⇒ O hâlde COMMIT'i sınamak yeterli ve KESİN: mesaj yerel
+            #   HEAD geçmişinde varsa ve push kod=0 döndüyse, TESLİM
+            #   EDİLMİŞTİR. `fetch` gerekmez, bayat kopya sorunu yoktur.
+            # 📌 Ders: bir yanılmayı düzeltirken ÖLÇÜLECEK ŞEYİ de
+            #   yeniden seç. Ben eski soruyu (uzakta var mı) koruyup
+            #   yalnız yönünü değiştirdim; asıl kusur SORUDAYDI.
             _var = True                       # numara yoksa eski davranış
             if _no:
                 try:
                     _g = subprocess.run(
-                        ["git", "-C", KOK, "log", "origin/main", "--oneline",
-                         "-40"], capture_output=True, text=True, timeout=60)
+                        ["git", "-C", KOK, "log", "HEAD", "--oneline", "-40"],
+                        capture_output=True, text=True, timeout=60)
                     _var = _no in (_g.stdout or "")
                 except Exception:
                     pass

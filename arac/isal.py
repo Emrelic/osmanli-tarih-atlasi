@@ -115,6 +115,44 @@ KUYRUK = [
 # "AÇILDIM ... bende" beyanları da sayılır ki eski usul kayıtlar düşmesin.
 ONEK = "SAHIPLIK:"
 
+# 🔴🔴 SERBEST METİNDEN NİYET OKUMAYI BIRAKTIM — üç kez yanlış çıktı.
+#   ① "bahsetmek" ile "sahiplenmek" ayırt edilmiyordu
+#   ② düzeltildi; bu sefer "bırakmak" da sahiplik sayıldı
+#   ③ düzeltildi; itiraz mesajı YİNE sahiplik sayıldı
+# Her düzeltme bir yönü görüyor, tersini görmüyordu. Ve en acısı: alet,
+# KENDİSİNE YAPILAN İTİRAZI sahiplik diye kaydediyordu — itiraz ettikçe
+# kilit sıkılaşıyordu.
+#
+# 📌 Bu projenin kendi dersi: *"kendi yazdığın ayrıştırıcı, var olan bir
+# ayrıştırıcıdan HER ZAMAN kötüdür"* (girdi.py tek tırnak · bagla.py CRLF ·
+# regex yerine import). Burada ayrıştırılan şey bir DİL değil bir NİYET,
+# ve niyetin ayrıştırıcısı YOK.
+#
+# ⇒ ÇARE: sahiplik artık YALNIZ İKİ YOLDAN kurulur:
+#   ① `isal.py`nin kendi yazdığı `SAHIPLIK: <dosya>` satırı (makine)
+#   ② aşağıdaki DEFTER — koordinatörün HÜKMÜ (insan)
+# Defter, M-0332 mutabakatında ilan edilmiş ve itiraz gelmemiş hâldir.
+# Serbest metin ARTIK OKUNMUYOR.
+DEFTER = {
+    "NOKTA-SIBIRYA-2.md":   "M-0117",
+    "MOTOR-EPOK.md":        "M-0124",
+    "NOKTA-AFRIKA-IC.md":   "M-0127",
+    "NOKTA-OKYANUSYA.md":   "M-0128",
+    "VERI-ZAMAN.md":        "M-0144",
+    "RENK-AFRIKA.md":       "M-0148",
+    "KRONOLOJI-KIRILMA.md": "M-0232",
+    "KORIDOR-HALKA2B.md":   "M-0233",
+    "KADEME-ANADOLU.md":    "M-0250",
+    "KADEME-ARAP-IRAN.md":  "M-0251",
+    "KADEME-ASYA.md":       "M-0305",
+    "KADEME-AVRUPA.md":     "M-0307",
+    "ARAYUZ-KORIDOR.md":    "M-0335",
+    "NOKTA-AMERIKA.md":     "M-0336",
+    # 🔴 `KADEME-DUNYA.md` KASTEN YOK — hiç alınmadı. `VERI-ZAMAN` onu
+    # M-0339'da açıkça reddetti: *"ALMADIM, İSTEMEDİM, SERBEST BIRAK."*
+    # Aletin onu üç kez sahipli göstermesi ölçüt kusuruydu, hüküm değil.
+}
+
 
 def _tahta():
     try:
@@ -125,13 +163,26 @@ def _tahta():
 
 
 def _alinmis():
-    """{dosya_adi: [(M-no, kimden), ...]} — tahtadan ÖLÇÜLÜR, varsayılmaz."""
+    """{dosya: [(M-no, kimden)]} — YALNIZ İKİ KAYNAK: DEFTER ve ONEK.
+
+    Serbest metin ARTIK OKUNMUYOR; gerekçesi `DEFTER`in üstünde yazılı.
+    """
     out = {}
+    for _d, _no in DEFTER.items():
+        out.setdefault(_d, []).append((_no, "defter"))
     for m in _tahta():
         kimden = (m.get("kimden") or "").strip()
         if kimden.upper().startswith("KOORDINATOR"):
             continue                    # koordinatörün ATAMASI sahiplik DEĞİL
         t = m.get("mesaj") or ""
+        for _d, _ in KUYRUK:
+            if ("%s %s" % (ONEK, _d)) in t:
+                out.setdefault(_d, []).append((m.get("no") or "", kimden))
+        continue                        # ⬇ eski serbest-metin dalı ÖLÜ
+        # ── ESKİ DAL — kasten bırakıldı, SİLİNMEDİ ────────────────────
+        # Üç kez yamandı ve üçünde de bir yönü görüp tersini görmedi.
+        # Silmek yerine ölü bırakıyorum ki bir sonraki oturum aynı yolu
+        # yeniden keşfetmesin: burada denendi, ÜÇ KEZ, ve olmuyor.
         for dosya, _ in KUYRUK:
             if dosya not in t:
                 continue
