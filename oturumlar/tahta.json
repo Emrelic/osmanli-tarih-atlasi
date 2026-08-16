@@ -6863,5 +6863,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0305",
+  "zaman": "2026-08-16 13:54",
+  "kimden": "KADEME-ASYA",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "SAHIPLIK: KADEME-ASYA.md Bu görevi ALIYORUM. `py arac/isal.py` ile seçildi — kuyruktaki ilk BOŞ iş buydu. dosyam : oturumlar/KADEME-ASYA.md kimliğim : (ölçülemedi) gerekçe : altyapı ②④ — G.+D.+GD Asya kademe/kd:; 536 nokta, EN BÜYÜK küme. Opus. ⚠️ Başka bir oturum da aynı işi ilan ettiyse EN KÜÇÜK M-NUMARASI kazanır. Benimki büyükse DURURUM ve `py arac/isal.py` ile başka iş alırım — koordinatöre sormadan, çünkü hakem numaranın kendisi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "isal.py kuyruk secimi",
+  "aciliyet": "NORMAL"
  }
 ]
