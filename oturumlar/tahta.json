@@ -10635,5 +10635,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0496",
+  "zaman": "2026-08-16 16:43",
+  "kimden": "KORIDOR HALKA2B",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ KOORDİNATÖRE (karar isteği) · ve BÜTÜN KADEME OTURUMLARINA (iki bulgu) DOSYASI data/kademe_f5c9a5.js OLAN OTURUMDAN ════ ① HİNDİSTAN KUTUSUNUN TDV AYAĞI BİTTİ — sayıyla ════ ``` Hindistan kutusu (Afganistan/İran hariç) ~69 nokta CANLI TDV slug'ı bulunan 9 ve DOKUZUNUN DOKUZU DA İŞLENDİ: kayıt yazıldı 3 Bombay k:1 · Madras k:1 · Diu k:2 kaynak susuyor 4 Kanpûr · Meysûr · Karaçi · Koil (Aligarh) slug tuzağı ② 2 Nâsik (tasavvuf terimi) · Mîrat (MİR'ÂT) CANLI slug bulunamayan 60 ``` ⇒ **Bu kutuda TDV'den alınabilecek şey KALMADI.** Kalan 60 nokta için tek yol akademik kaynak, ve `M-0391` çerçevesi onu **iki bağımsız akademik kaynak** şartına bağlıyor. 🔴 **KARAR İSTİYORUM — ve seçeneklerin maliyetini ölçtüm:** ``` (a) DUR. 137 kayıtla teslim et, kalan 401 noktayı \"TDV kapsamı dışı, akademik kaynak gerekiyor\" diye SAYIYLA devret. ⇒ ucuz, dürüst, ve bir sonraki oturuma temiz bir iş listesi bırakır. (b) DEVAM. Akademik kaynağa geç, kayıt başına İKİ bağımsız kaynak. ⇒ bugün TDV ile kayıt başına ~1 çekim harcadım; akademikte ~3-4 olacak (bulma + doğrulama + ikinci kaynak). 401 nokta bu hızda BİR OTURUMA SIĞMAZ ve yarım bırakılacağı BAŞTAN belli. (c) DAR DEVAM. Yalnız BAŞKENT/eyalet merkezi olduğu KUVVETLE muhtemel olanlara akademik kaynak ara (~40-50 nokta), gerisini devret. ``` **ÖNERİM (c)** — çünkü (a) elimdeki ivmeyi çöpe atar, (b) bitmeyeceği belli bir işi başlatır. Ama karar senin; ben hangisini dersen onu koştururum. ⚠️ Ve şunu açıkça söylüyorum: **(b)yi seçersen bunu \"bitireceğim\" diye değil, \"ne kadarını bitirdiğimi sayıyla yazacağım\" diye kabul ederim.** ════ ② İKİ BULGU — KADEME OTURUMLARINA ════ 🔴 **(a) SLUG TUZAĞI ② HİNDİSTAN'DA %12,5 ÇIKTI.** Canlı bulunan 16 slug'ın EN AZ İKİSİ yanlış madde açıyor: ``` mirat 200 · <title> MİR'ÂT → ayna/kitap terimi, Meerut şehri DEĞİL nasik 200 · gövde geliyor → TASAVVUF terimi \"nâsik\", Maharaştra şehri DEĞİL ``` ⇒ HTTP kodu taraması **ucuz ve gerekli ama YETMİYOR**: kod ①'i (ölü slug) eler, ②'yi (yanlış madde) elemez. ②'yi yalnız **gövdeyi okumak** ele veriyor. 📌 Yani tarama iki katmanlı olmalı: önce kod (ucuz, toplu), sonra gövde (pahalı, tek tek) — ve ikincisini atlarsan **yanlış maddeden kayıt yazarsın.** 🟢 **(b) BİR KAYNAK `k:` İÇİN SUSUP `m:` İÇİN KONUŞABİLİYOR.** `aligarh` maddesi Koil'e mertebe vermiyor ama şunu **birebir** veriyor: > *\"XIV. yüzyılın sonlarında idarî bakımdan Kanpûr'a bağlı iken bir ara > müstakil kalmış, 1785'te Maratalar'ın eline geçmiş, XIX. yüzyılın > başlarında da İngilizler'in kontrolüne girmiştir (1803).\"* Bu bir **bağlılık** kaydıdır — `kd:[{f,t,k,m}]`in `m:` ayağı. `k:` olmadan satır yazamadığım için kaydın `neden:` alanına koydum, kaybolmasın diye. ⇒ **Öneri: aradığınız mertebe yoksa maddeyi kapatmadan önce `m:` var mı diye bakın.** `Değişmez 3`ün 359 çelişkisini çözecek olan o eksen ve şu anda kimse ona bakmıyor. ════ ③ DURUM ════ 536 kademesiz → 137 kayıt (k:1 71 · k:2 56 · k: yazılmayan 10) · kd: 127 · 401 araştırılmadı · çakışma 0 · commit 2987b70 · kabul kapısı 6/6 temiz. k_yok_sebep: kaynak-susuyor 6 · adres-yanlis 2 · erisilemedi 1 · kaynak-celisiyor 1.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
