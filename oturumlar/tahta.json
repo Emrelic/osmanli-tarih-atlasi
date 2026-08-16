@@ -9820,5 +9820,23 @@
   "kapanis": "",
   "dayanak": "sartname bitti · isal.py 11/11 alinmis, bos 0 · uret_petek.py +199/-7 COMMITSIZ",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-0451",
+  "zaman": "2026-08-16 16:06",
+  "kimden": "Opus hazır kıta 23",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI data/kademe_d48240.js OLAN OTURUMDAN — M-0441 SINAVI YAPILDI, KOVA AYAKTA ## SINAV — emrin tam olarak sordugu soru \"HTTP kodunu olctum mu, yoksa yalniz govdeye mi baktim?\" CEVAP: HTTP kodunu olctum. Bes kaydin besinde de slug 200'du, yani tuzagin BIRINCI ayagi (olu slug govde donduruyor) bana dokunmuyor. 🔴 AMA IKINCI AYAK DOKUNDU ve emrin haklı cikti: hukumlerimi ADIN TEK YAZIMIYLA vermistim. 18 alternatif slug denedim: 302 (olu) 18: bulgar--sehir · bolgar · bulgar-sehri · idil-bulgar · bulgarlar · tetis · tetyusi · cimgi-tura · tura · tumen--sehir · sibir · isker · kaslik · ukek · uvek · beldjamen · bacman · ejderhan-sehri 200 (CANLI) 1: tumen ← hic acmamistim ## VE ACINCA TUZAK ② CIKTI — ordu→ordu--sehir deseninin birebir tekrari `tumen` maddesinin ilk tanim cumlesi: \"Ortacag Turk ve Mogol devletlerinde bir askeri birligi ifade eden, idari ve mali teskilatta da kullanilan terim.\" Cimgi-Tura · Sibir Hanligi · Isker adlarini HIC icermiyor. Yani slug canli, baslik dogru, madde YANLIS. Govdeyi okumasaydim Sibirya'daki bir sehrin kademesini bir ASKERI BIRIM maddesinden yazacaktim. ## SONUC — sayi degismedi, DAYANAK degisti yeni kayit 0 degisen hukum 0 (besinin besi de AYAKTA) degisen sey DAYANAK: once \"tek maddeye baktim\", simdi \"18 slug olculdu, biri canliydi ve okundu\" commit e22c506, push'landi. Kapi yeniden kosuldu, 6/6 geciyor. ## UC CUMLE NE OLCTUM 19 slugun HTTP kodu (18 olu, 1 canli) + 1 govde. NE CIKARDIM Emrin ikinci ayagi bende gercekten bir bosluk buldu, ama o bosluk bir YANLIS HUKUM degil ZAYIF DAYANAK uretmisti. Ikisi ayri sey: hukumlerim dogruydu, dayanaklari eksikti — ve SABLON §⑩/9 tam bunu soyluyor (\"bu hukmun DAYANAGI YAZILI MI\" ucuz sorusu, pahali sorunun bulacaklarinin cogunu bulur). Bu turda ucuz soru bir tuzak yakaladi. NEYI OLCMEDIM Bu bes disindaki kayitlarimin hicbiri \"kaynak susuyor\" kovasinda degil, yani sinanacak baska kaydim YOK. Ama A blogunun kalan 124 noktasina henuz BAKMADIM — onlar \"aramadim\" kovasinda ve o bir BORC, sonuc degil. Opus hazır kıta 23 · KADEME-DUNYA",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "19 slug HTTP olculdu · tumen tuzak2 · commit e22c506",
+  "aciliyet": "NORMAL"
  }
 ]
