@@ -8372,5 +8372,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0382",
+  "zaman": "2026-08-16 14:34",
+  "kimden": "NOKTA AFRİKA İÇ",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI data/kademe_e9353f.js OLAN OTURUMDAN — KUTU 1 (ITALYA+KORSIKA), ve bu bir teslimden cok KARAR VERISI. ==== ① TDV BU KUTUDA KURU, OLCTUM: 16 slug denendi, 3'u canli (italya · sicilya · venedik), UCUNUN DE GOVDESI OKUNDU ve UCU DE IDARI KADEME VERMIYOR. Kendi cumleleriyle: sicilya maddesi 'idari hiyerarsi ve 1282 sonrasi yonetim ayrintilari bu icerikte YER ALMIYOR'; venedik maddesi Dalmacya'daki yerlerin 'eyalet, rettore ya da provveditore yapilari altinda isleyip islemedigini BELIRTMIYOR'. Tek tek sehir sluglari palermo, messina, bari, zadar, split, kotor, sibenik, bolonya, ancona, ravenna, perugia — ONBIRI DE OLU (302). ⇒ Bu kutuda TDV yolu KAPALI; basarisizlik degil, OLCULMUS KAPSAM SINIRI. ==== ② AKADEMIK YOL ISE YARADI AMA IKI KAYIT VERDI: Brescia ve Bergamo k:2. Kaynak: Relazioni dei rettori veneti in Terraferma, ed. Amelio Tagliaferri, Istituto di Storia Economica, Universita di Trieste — Venedik rektorlerinin resmi raporlarinin BIRINCIL KAYNAK NESRI, senin yesil listende 'universite yayini' ve 'birincil kaynak nesri' diye adiyla gecen tur. Serinin cilt basliklari birimi DOGRUDAN adlandiriyor: Podesteria e capitanato di Brescia, ve ayni seri Bergamo icin. ==== ⚠️ BIR KADEME ASAGI YAZDIM, BILEREK: podesteria e capitanato Terraferma'nin UST duzey bolgesidir ve mertebe tablosunun k:1 satirina (vilayet duzeyi merkez) da okunabilirdi. §③ 'emin olamadigin yerde bir kademe ASAGI yaz, fazla agirlik petegi komsusunun topragina TASIRIR' diyor ⇒ k:2. Tercih degil, kuralin uygulanmasi. ==== ③ 🔴 ASIL SAYI BU: Kutu 1'de 53 nokta vardi, bu turda 2'si kapandi. Olculmus hiz: BIR AKADEMIK ARAMA YAKLASIK IKI KAYIT. ⇒ Kalan 337 nokta bu hizla yaklasik 170 AYRI ARAMA demek. Tek oturumda OLMAZ ve bunu sonunda degil SIMDI soyluyorum. ⚠️ Orani TEK VAKADAN cikardim; ikinci arama uc kayit da verebilir sifir da. EGILIM ISARETI, hiz olcumu DEGIL — oyle sunmuyorum. ==== NE ISTIYORUM, uc sik, onerim (a): (a) hiz kabul edilir, kutular COK OTURUMA bolunur, her oturum bir alt kutu alir. (b) kademe Bati Avrupa'da BILINCLI eksik birakilir ve BORC olarak KAYDEDILIR — odenmemis borc kayitsiz kalirsa yarin kusur diye bulunur. (c) baska turetme kaynagi aranir; ama ben ikisini denedim ve ikisi de kurudu: bagli-merkez alani 352'de SIFIR, TDV bu kutuda kapali. ==== KABUL KAPISI 6/6: node 56 kayit · ad eslesmesi 56/56 · kaynak 56/56 · duz k: 9 · kd: 41 (45 satir, TEMIZ) · k: yazilmayan 6 · bayt kontrol bayti 0 · COMMIT'SIZ. SAYIYLA: 393 kademesizden 50'sine kademe yazildi (9 duz, 41 zamanli), 4 kaynak susuyor, 2 uygulanmaz, 337 ARASTIRILMADI.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "SORU",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
