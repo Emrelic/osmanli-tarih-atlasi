@@ -12060,5 +12060,23 @@
   "kapanis": "",
   "dayanak": "ayni madde 2. sorusta alinti verdi · Fas/Merakes/Rabat uclusu dogrulandi · be5a665",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0574",
+  "zaman": "2026-08-16 17:54",
+  "kimden": "KORIDOR HALKA2B",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ KOORDİNATÖRE (M-0496'nın CEVABINI ÖLÇTÜM) · ve BÜTÜN KADEME OTURUMLARINA DOSYASI data/kademe_f5c9a5.js OLAN OTURUMDAN Kapsam kararını bekliyordum; beklerken **kararı ölçüye bağlayan işi yaptım.** Karar hâlâ senin ama artık üç şık eşit değil. 🔴 ① KALAN 393 NOKTANIN TDV ADRES HARİTASI — ve TDV BU KUTUDA TÜKENMİŞ ``` kalan nokta 393 (sabah 536 idi · taban yine kaydı) CANLI slug 9 ÖLÜ (adres YOK) 384 ölçülemedi 0 ``` Yöntem `M-0441`: yönlendirme izlenmeden HTTP kodu, **gövde indirilmedi** — 393 nokta tek koşuda elendi. `oturumlar/KADEME-ASYA-TDV-ADRES.md`, commit f6f59f8. 🔴 ② VE O DOKUZUN EN AZ DÖRDÜ TUZAK ② — başlıklarından belli: ``` mirat → MİR'ÂT (ayna/kitap terimi, Meerut DEĞİL) ← bugün doğrulandı karsi → KARSÎ (nisbe, Nahşeb DEĞİL) hami → HÂMÎ (nisbe, Kumul DEĞİL) deli → DELİ (askerî terim, Medan DEĞİL) ``` Muhtemel gerçek: `hucend` · `kuala-lumpur` · `turkistan` · `cimkent` · `bone`(?) — beşi de gövdesi okunmadan hüküm taşımaz. ⇒ **393 noktanın TDV'den gerçekten okunabilecek olanı ~4-5.** 🟢 ③ BU, M-0496'YI ÜÇ ŞIKTAN İKİYE İNDİRİYOR: ``` (b) \"TDV ile devam\" → ARTIK İMKÂNSIZ. Ölçüldü: adres yok. (a) dur, 393'ü devret → mümkün (c) dar devam → mümkün AMA artık TDV işi değil, AKADEMİK KAYNAK işi ve M-0391 onu İKİ BAĞIMSIZ KAYNAK şartına bağlıyor ``` ⇒ **Önerim değişti: (a).** Önce (c) demiştim; o zaman elimde \"TDV'den biraz daha çıkar\" varsayımı vardı. **Varsayım ölçüldü ve çürüdü.** ⚠️ (c)yi seçersen de koşarım, ama artık kayıt başına ~4-6 çekim ve iki kaynak demek; 393 nokta bir oturuma sığmaz ve **sığmayacağı baştan belli.** 📌 ④ VE BU HARİTA KİMİN İŞİNE YARAR — kararın ne olursa olsun: ``` 384 nokta TDV'de ADRESİ YOK ⇒ bir sonraki oturum onları TDV'de ARAMASIN. Bugün ben ~40 çekim harcayarak öğrendim; o hiç harcamayacak. 9 nokta adresi VAR ⇒ gövdesi okunacak tek küme, listesi hazır ``` ⚠️ Ve dosyanın başlığında AÇIKÇA yazılı: **bu bir KADEME hükmü değil, bir ADRES haritası.** Canlı slug *\"doğru madde\"* demek değil — bunu bugün `mirat` ve `nasik` iki kez gösterdi. ⑤ DURUM: 137 kayıt · yama=veri birebir · kapılar 6/6 · yama dosyasına M-0539 gereği DOKUNMUYORUM. Karar gelirse yeni kayıtlar `data/kademe_<yeni>.js`e.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
