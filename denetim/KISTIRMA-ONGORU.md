@@ -57,8 +57,8 @@ adada olabilir. O zaman **isim isim** yazılır, "olur böyle" denmez.
 
 ## ④ KOORDİNATÖRÜN ÜÇ ŞARTI (M-0509 ④)
 ```
-⑤ Güney Afrika lat −11 kuşağında Kap/Oranj/Transvaal/Ulundi/Zimbabve/
-  Mapungubwe gövdesi                      0        🔴 MAZERETİ YOK
+⑤ Güney Afrika lat −11 kuşağında Kap/Oranj/Transvaal/Ulundi/
+  Büyük Zimbabve gövdesi                  0        🔴 MAZERETİ YOK
 ⑥ Kongo/Tanzanya/Angola kuşağı alanı  DEĞİŞMEMELİ  🟡 aşağıya bak
 ⑦ Osmanlı hiçbir kesitte değişmemeli   DEĞİŞMEZ    🔴 MAZERETİ YOK
 ```
@@ -72,6 +72,31 @@ Mapungubwe ise **kusur**; yeni Afrika noktaları ise **doğru**.
 🔴 **⑦ niçin mazeretsiz:** Osmanlı gövdesi pencerenin ortasında; kıstırılan
 144 tohumun hiçbiri Osmanlı coğrafyasına yakın değil. Değişirse düzeltme
 beklenmedik bir yere dokunmuş demektir ve **yayın durur.**
+
+---
+
+## ⑧ ⑤'İN GEÇERLİLİK ŞARTI — KOŞUDAN ÖNCE ÖLÇÜLDÜ
+🔴 **⑤ yanlış sebeple geçebilirdi.** Bağlama altı künyesiz kimlik açmıştı
+(M-0546) ve üçü tam da bu noktaların kimlikleriydi. **Kimliğin künyesi/rengi
+yoksa gövde zaten çizilmez** ⇒ ⑤ sıfır çıkar ama düzeltmeyi kanıtlamaz.
+
+Ölçtüm (koşudan ÖNCE — sonra ölçseydim mazerete benzerdi):
+```
+hollanda · ingiltere · mutapa · oranj · transvaal · zimbabve-kralligi · zulu-kralligi
+   renk  7/7 VAR      künye 7/7 VAR      ⇒ hepsi ÇİZİLEBİLİR
+```
+🟢 **⑤ geçerli bir test.** Sıfır çıkarsa sebebi düzeltmedir.
+
+## 🔴 ⑨ VE BU ÖLÇÜM KENDİ RAPORUMU DÜZELTTİ — M-0502'de BİR FAZLALIK
+M-0502'de *"altısı da gerçek devletler, `s:` dönemleri VAR, SAHİPLİ"* demiştim.
+**Mapungubwe için yanlış:**
+```
+Mapungubwe   29,39 · −22,19   d/v/s dönemi HİÇ YOK   ⇒ SAHİPSİZ
+```
+⇒ Gerçek risk **altı değil BEŞ noktaydı.** Karar (Ⓐ) etkilenmedi — beşi de
+1.000-2.555 km kuzeye kıstırılıyordu ve beşi de sahipliydi. Ama sayıyı
+**kontrol etmeden yazdığım** gerçeği kayda geçiyor: `§⑦` *devraldığın rakamı
+doğrula* kuralı **kendi rakamını da** kapsıyor.
 
 ---
 
