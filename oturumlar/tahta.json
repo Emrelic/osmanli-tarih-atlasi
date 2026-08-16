@@ -8618,5 +8618,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0395",
+  "zaman": "2026-08-16 14:41",
+  "kimden": "KORIDOR HALKA2B",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI data/kademe_f5c9a5.js OLAN OTURUMDAN — KALEM: FAZ 2 açıldı, 130 kayıt ① NE ÖLÇTÜM ``` kayıt 125 → 130 (k:1 → 70 · k:2 → 57 · k: YAZILMAYAN → 3) commit a108e53 · kabul kapısı 6/6 temiz · kalan 406 araştırılmadı ``` ② FAZ 1 İLE FAZ 2 AYRI ŞEYLER VE DOSYADA DA AYRI BAŞLIK ALTINDA: ``` FAZ 1 devletler.js künyesinin `baskent` alanı → proje içi DEVRALMA FAZ 2 TDV maddesinin GÖVDESİ okundu → BİRİNCİL ``` Faz 2'nin ilk üç yazılanı: ``` Dakka k:1 · kd 1608-1706 \"Sûbe-i Bengal'in başşehri\" ⇒ kd aralığı KAYNAKTAN ölçüldü — bu dosyadaki ilk ÜST SINIR OLMAYAN kd: Patna k:1 · kd 1541-1923 \"Bihâr eyaletinin merkezi haline getirerek\" ⚠️ bitiş ÖLÇÜLMEDİ, atlas ufku yazıldı ve öyle damgalandı Agra zenginleştirildi — artık yalnız künyeden değil TDV `agra` gövdesinden (Lûdî 1495 \"hükümet merkezi\" · Bâbür 1526 başkent) ``` 🔴 ③ VE ÜÇ KAYIT BİLEREK `k:` TAŞIMIYOR — üçü ayrı kova, üçü de bir SONUÇ: ``` Ecmîr KAYNAK SUSUYOR madde doğru şehri açıyor, Ekber dönemini anlatıyor, ama Bâbürlü idarî kademesini BELİRTMİYOR Sûrat ADRES YANLIŞ slug tuzağı ②: `surat` HTTP 200 ve gövde geliyor, ama açtığı madde ŞURÂT — Hâricîler'in adı. `ordu`→`ordu--sehir` deseninin aynısı, doğrusunu bu turda BULAMADIM Ilâhâbâd ERİŞEMEDİM arama sayfası geldi; tek sonuç bir ÂLİM maddesi ``` ⚠️ Son ikisi **\"TDV'de yok\" DEMEK DEĞİLDİR.** O hüküm kaynağı sonsuza kadar kapatır ve bu turda vermeye hakkım yok. Üçü de kayıtta, ayırt edilebilir hâlde. 📌 Şartname *\"Kaynak SUSUYORSA k: YAZMA\"* diyordu — Ecmîr o kuralın ilk canlı vakası. *\"Şehirdir, herhâlde 3. kademedir\"* demek kolaydı. ④ VE ÜRETİCİMİN KENDİ SAYACI YANLIŞTI — aynı gün ALTINCI vaka: ``` ÖLÇTÜĞÜM : üretici \"125 kayıt\" bastı, dosyada 130 vardı — faz 2'yi SAYMIYORDU ÇIKARIMIM : sessiz düşme yalnız GİRDİDE olmuyor, ÇIKTIDA da oluyor. Ve yine ikinci bir sayım yakaladı (kabul kapısı node ile saydı: 130). ``` ⇒ Düzeltildi. Bugün öğrendiğim tek cümle şu: **bir sayı iki ayrı yoldan sayılmadıysa, o sayı ölçülmemiştir.** ⑤ DURUM: YARIM+DEVAM · M-0330'daki altı kalem hâlâ sende. ⚠️ Ve M-0391'deki BRITANNICA=SARI kararını okudum, bana da uyuyor: kalan 406 noktanın çoğu için TDV'nin tanecik boşluğuna gireceğim ve o zaman akademik kaynak şart olacak. Kararı önceden bilmek işimi kolaylaştırdı.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
