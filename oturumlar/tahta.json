@@ -15251,5 +15251,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-0750",
+  "zaman": "2026-08-16 23:24",
+  "kimden": "VERİ ZAMAN 2",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI `oturumlar/VERI-ZAMAN.md` OLAN OTURUMDAN — KOL C, İKİ ADAY DAHA: **İKİSİ DE YAZILMADI, İKİ FARKLI SEBEPLE.** Ve biri **senin kararını** gerektiriyor. ## ① `Ust-Tsilma` — ARADIM, BULAMADIM ``` arama: \"Усть-Цильма 1542 основана слобода … Печора\" (CyberLeninka · elibrary) sonuç: Cilma skiti · Cilemli kitapçılar · Peçora ağzı projeleri — KURULUŞ tarihini veren makale YOK ``` ⇒ `kur:` YAZILMADI · hüküm **\"aradım, bulamadım\"**. 📌 1542 yaygın olarak anılıyor ama **elimde kaynak yok**; yaygınlık kaynak değildir. ## 🔴 ② `Arhangelsk` — KAYNAKLAR ÇELİŞİYOR, VE BU SENİN KARARIN (`§7.1 ⑥`) ``` 🅐 1584 (geleneksel) IV. İvan'ın 4 Mart 1583 fermanı: \"Pur-Navolok burnunda … ahşap bir kale kurulsun\" kale 1584'te tamamlandı · ilk adı Novo-Holmogorı 🅑 1388 (akademik itiraz) NArFU · Prof. Dr. Yuriy Lukin, kuruluş tarihinin 1584'ten 1388'e ÇEKİLMESİNİ savunuyor gerekçe: XII. yy başında Novgorodlular burada Mihail-Arhangel MANASTIRINI kurdu, çevresinde yerleşim ve tersane vardı; 1388 tarihli bir takdis fermanı belgeli ``` ÖLÇTÜĞÜM İki tarih de akademik kaynakta savunuluyor; tartışma CANLI. ÇIKARDIĞIM (ayrı satır) `kur:\"1584\"` yazmak, 1281'den beri var olan **manastır yerleşimini silmek** olurdu — ve veri şu an `s:1281 novgorod` diyor, yani `🅑` ile TUTARLI. ⇒ **YAZMADIM.** `§7.1 ⑥`: *\"kaynaklar ÇELİŞİYORSA hangisini seçeceğine sen karar verme\"* — bu bir kaynak çelişkisi hükmü ve senin. 🟢 Ve şunu ekliyorum: **bu vaka `Değişmez 5`in kendi tarifini sınıyor.** `kur:` *\"yerleşimin var olmaya başladığı gün\"* mü, yoksa *\"şehrin kurulduğu resmî tarih\"* mi? Arhangelsk'te ikisi **iki yüz yıl** ayrı. Pustozersk'te ayrı değildi (boş yere kurulmuş), o yüzden orada sorun çıkmadı. 📌 Bugün üçüncü kez aynı ayrım: `İsfahan` (başkentlik ≠ kuruluş) · `Ndjamena` (toprak ≠ şehir) · `Arhangelsk` (**kale ≠ yerleşim**). ## ③ KOL C'NİN GERÇEK HIZI — ölçüldü ``` denenen aday 4 (Pustozersk · Ust-Tsilma · Arhangelsk · Ndjamena) YAZILAN 1 Pustozersk ✓ bulunamadı 1 Ust-Tsilma çelişki 1 Arhangelsk → SENDE tanecik yok 1 Ndjamena ``` ⇒ **4'te 1.** Ve bu oran şaşırtıcı değil: kolun asıl işi *\"kur: eklemek\"* değil, **hangi tarihin gerçekten kuruluş olduğunu ayırmak.** 🟡 Bu hızla 130 kayıtlık kutu **tek oturumda bitmez.** Bunu şimdi söylüyorum ki plan buna göre kurulsun — bitmemiş bir işi bitmiş sanmak, yavaş gitmekten pahalı. ## ④ SENDEN İSTEDİĞİM — tek karar `Arhangelsk` için 🅐 mı 🅑 mı? Ya da *\"ikisi de yazılmasın, `kur:` boş kalsın\"* — üçü de savunulabilir ve **hiçbirini kendim seçmiyorum.** 🟢 Eğilimim: **`kur:` BOŞ KALSIN.** Veri zaten `s:1281 novgorod` diyor ve bu 🅑 ile tutarlı; `kur:` yazmamak mevcut doğru hâli bozmaz. — DOSYASI `oturumlar/VERI-ZAMAN.md` OLAN OTURUM",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "SORU",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
