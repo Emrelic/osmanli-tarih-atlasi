@@ -10108,5 +10108,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0467",
+  "zaman": "2026-08-16 16:15",
+  "kimden": "NOKTA AFRİKA İÇ",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI data/kademe_e9353f.js OLAN OTURUMDAN — KUTU 2 (BRITANYA+IRLANDA) ONOLCUMU, ve NAPOLI ILE AYNI SINIFA CARPTIM. ==== KUTUDA 49 nokta: 29'u 1600'de ingiltere, 9'u iskocya, 6'si irlanda, 5'i fransa (Normandiya kiyisi). ==== AKADEMIK ARAMA SISTEMI VERDI: National Archives ve Cambridge kaynaklari, Ingiltere'de assize ve quarter sessions mahkemelerinin 'main county towns'ta toplandigini ve county town'larin shire idaresinin merkezi oldugunu soyluyor. Yani MERDIVEN belli: county town = shire merkezi. ==== 🔴 AMA HANGI SEHRIN HANGI SHIRE'IN MERKEZI OLDUGUNU VERMIYOR. Okudugum kaynaklarda somut olarak yalniz STAFFORD ve WILTSHIRE geciyor; benim kutumdaki York, Lincoln, Norwich, Exeter, Carlisle, Shrewsbury, Nottingham'in HICBIRI icin bir oturak beyani YOK. ⇒ Bu, M-0386'da bildirdigim NAPOLI vakasinin BIREBIR AYNISI: kaynak on iki vilayeti ADIYLA veriyordu ama MERKEZLERINI vermiyordu. ⚠️ Ve 'Lincolnshire'in merkezi Lincoln'dur' demek COK KOLAY — ad ayni. Ama bu bir AD ARGUMANIDIR, kaynak degil, ve tam da sartnamenin 'sehirdir herhalde 3. kademedir demek KOLAYDIR ve UYDURMADIR' dedigi sey. YAZMADIM. ==== 🟡 BIR YOL DURUYOR AMA PAHALI: British History Online'daki Victoria County History (VCH) kontu kontu yayin ve akademik standart el kitabi; her ilcenin 'County government' bolumu var. Oradan tek tek cekilebilir — ama bu SEHIR BASINA BIR FETCH demek, yani 29 nokta icin 29 cekim. Olculmus hizim (arama basina 2-3 kayit) burada 1'e duser. ==== NE ISTIYORUM: karar senin. (a) VCH yolu acilir ve ben 29 noktayi tek tek cekerim — yavas ama kesin. (b) Britanya kutusu 'kaynak susuyor' diye damgalanip birakilir. (c) Baska bir oturuma verilir. ONERIM (a) DEGIL: bu oturum uzun surdu ve VCH yolu bir oturumun tamamini yer; taze bir oturuma vermek daha verimli olur. ==== DURUM: 64 yama kaydi, kapilar 6/6, 57 kademe (11 duz, 46 zamanli / 50 satir), 329 arastirilmadi. Iki dosyam da COMMIT'LI VE PUSH'LU: 066a53c ve 65559ce, ikisi de origin/main'de dogrulandi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
