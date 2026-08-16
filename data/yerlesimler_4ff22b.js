@@ -34,9 +34,32 @@ window.YERLESIMLER_4FF22B = [
     ad: "Antananarivo",
     lat: -18.9333, lon: 47.5167,
     tur: "sehir",
-    s: [{ f: "1787-01-01", t: "1897-02-28", d: "merina" }],
+    // 🔴 IKINCI DONEM EKLENDI (M-0747, NOKTA AFRIKA IC devretti).
+    // Once yalniz merina donemi vardi ⇒ 1897-1923 arasi nokta SAHIPSIZ
+    // kaliyordu. Pencere disi oldugu icin bugun Degismez 1'e takilmaz,
+    // ama pencere guneye acilinca DELIK olurdu.
+    //
+    // 🔴 VE 32 GUNLUK TARIH FARKINI COZDUM — devreden cozmemis, bana
+    // birakmisti. Ikisi AYNI OLAYI anlatiyor, iki ayri olayi degil:
+    //   TDV madagaskar (govde okundu, birebir):
+    //     "...Fransa'nin himayesi altina girmeye mecbur biraktilar ve
+    //      27 OCAK 1897'de de YONETIME EL KOYUP kendisini yurt disina
+    //      surduler."
+    //   devletler.js `merina` kunyesi:  t: 1897-02-28
+    //     kronoloji: "Krallik ilga edildi, Kralice III. Ranavalona
+    //                 surgune gonderildi"  ← AYNI olay, BASKA gun
+    // ⇒ §4 KIRMIZI CIZGISI: "TDV maddesi varsa baskasina dayanma;
+    //   celisirse TDV ESASTIR." Kunyenin kaynagi "standart akademik",
+    //   TDV ise BIRINCIL. ⇒ 1897-01-27 aldim.
+    // ⚠️ Kunyenin `t:`si BENIM DOSYAM DEGIL — degistirmedim, sahibine
+    //   bildirdim. Bu yuzden noktam ile kunye 32 gun AYRISIK duruyor ve
+    //   bu AYRISMA BILINCLI, kayitli, ve tek satirlik bir kararla kapanir.
+    s: [
+      { f: "1787-01-01", t: "1897-01-27", d: "merina" },
+      { f: "1897-01-27", t: "1923-10-29", d: "fransa-cumhuriyet" }
+    ],
     kaynak: "madagaskar (TDV, gövde okundu) + devletler.js `merina` künyesi",
-    neden: "TDV madagaskar: 'basshehri Antananarivo (Tananarive)' — cumle MODERN (2003 nufusu); krallik donemi icin TDV'de cumle YOK ve merina/antananarivo sluglari 302 OLU. Donem kunyeden: merina 1787-01-01 -> 1897-02-28, baskent Antananarivo. PENCERE DISI (lat -18,93 < -11) — pencere guneye acilinca canlanir",
+    neden: "TDV madagaskar: 'basshehri Antananarivo (Tananarive)' — cumle MODERN (2003 nufusu); krallik donemi icin TDV'de cumle YOK ve merina/antananarivo sluglari 302 OLU. Donem baslangici kunyeden (merina f:1787), BITISI TDV'den: '27 Ocak 1897'de de yonetime el koyup kendisini yurt disina surduler'. Kunye t:1897-02-28 diyor — 32 gun AYRISMA, §4 geregi TDV esas alindi. PENCERE DISI (lat -18,93 < -11) — pencere guneye acilinca canlanir",
     pencere_disi: true
   },
 
