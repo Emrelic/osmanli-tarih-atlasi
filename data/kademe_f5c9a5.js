@@ -210,6 +210,22 @@ window.KADEME_YAMA = [
 //   📌 Bu bir tıkanma değil, ÖLÇÜLMÜŞ bir kapsam sınırıdır (`§4` tanecik
 //     boşluğu). Kalan noktalar için akademik kaynak meşru hâle geliyor.
 //
+// 🔴 GÜNEYDOĞU ASYA'DA SINIR ŞEHİR DÜZEYİNDE: 28 SLUG SINANDI, 21'i ÖLÜ.
+//   M-0441'in yöntemiyle (yönlendirme İZLENMEDEN, ölçüt HTTP kodu) tek
+//   koşuda tarandı — çekmeden önce elemek 28 çekim yerine 1 koşu etti:
+//     🟢 CANLI  patani · filipinler · endonezya · malezya · myanmar ·
+//               tayland · siyam            → yedisi de ÜLKE/BÖLGE maddesi
+//     🔴 ÖLÜ    brunei · manila · ambon · maluku · cirebon · banten ·
+//               surabaya · semarang · johor · kedah · perak · pahang ·
+//               terengganu · samudra-pasai · pasai · makasar · bugis ·
+//               vietnam · kamboc · laos · fatani        (21 slug)
+//   ⇒ TDV'nin Güneydoğu Asya kapsaması ÜLKE düzeyinde; ŞEHİR maddesi
+//     neredeyse YOK. Bu `§4`ün "tanecik boşluğu"nun en keskin ölçümü:
+//     coğrafya kapsanıyor, TANECİK kapsanmıyor.
+//   📌 Ve bu bir "TDV'de yok" hükmü DEĞİL: ölü slug demek adres yok
+//     demektir. Doğru adres aranmaya devam edilebilir — nitekim
+//     `ilahabad` ölüyken `allahabad` canlı çıktı.
+//
 // 🔴 DOĞU ASYA'DA SINIR DAHA SERT — ve bu da ölçüldü:
 //   `cin--ulke`  Ming/Qing idarî yapısını VERMİYOR; verdiği taksimat
 //                MODERN (21 eyalet · 3 belediye · 5 özerk bölge, 1989 nüfusu)
@@ -232,6 +248,7 @@ window.KADEME_YAMA = [
 {ad:"Sûrat",kd:[],coklu_merkez:false,kaynak:"TDV — DOĞRU SLUG BULUNAMADI (aradım, adres yanlış)",neden:"🔴 TDV SLUG TUZAĞI ②, ve bu sefer HTTP KODUYLA da sınandı: `surat` 200 · 80 KB · <title> ŞURÂT. Denenen varyantların ÜÇÜ DE 302 ÖLÜ: `surat--sehir` · `surat--hindistan` · `surat--gucerat`. ama açtığı madde ŞURÂT'tır — Hâricîler'in bir adı, Hindistan'daki liman şehri DEĞİL. `ordu`→`ordu--sehir`, `saray`→`saray--sehir`, `cin`→`cin--ulke` deseninin aynısı. Doğru slug'ı bu turda BULAMADIM. ⇒ k: YAZILMADI. ⚠️ Bu \"TDV'de yok\" DEĞİL, \"adresini bulamadım\"dır — ikisi karıştırılmaz."},
 {ad:"Benâres (Vârânasî)",k:2,kd:[{f:"1911-01-01",t:"1923-10-29",k:1,m:"Benâres (Vârânasî)"}],coklu_merkez:false,kaynak:"TDV `benares` (HTTP 200, gövde okundu)",neden:"🟢 FAZ 2 · TDV `benares` gövdesi: şehir 1911-1949 arası \"ayrı bir devlet haline gelen Benâres bölgesinin başşehri\" idi. Atlas penceresine düşen kısmı 1911-1923 ⇒ kd: o aralıkta k:1. Statik k:2, çünkü 12 yıl atlas penceresinin %2'si. ⚠️ 1911 ÖNCESİ için madde bir idarî kademe VERMİYOR (1193 fethinden 1775 İngiliz idaresine kadar hükümdarları sayıyor ama şehrin kademesini yazmıyor) — o dönem için k: TÜRETİLMEDİ."},
 {ad:"Peşâver",kd:[],coklu_merkez:false,kaynak:"TDV `pesaver` (HTTP 200, gövde okundu) — kademe için SUSUYOR",neden:"🔴 KAYNAK SUSUYOR. TDV `pesaver` maddesi doğru şehri açıyor ve zengin: Bâbür 1530'da kale inşa ettirdi, Ekber adını değiştirdi, Şîr Şah'ın Delhi-Kâbil yolu şehri büyüttü, İngilizler askerî garnizona çevirdi. AMA hiçbir yerde idarî kademe (sûbe · serkâr · sancak) YAZMIYOR. ⚠️ \"Kale inşa edildi\" diye k:4 yazmak YANLIŞ olurdu: şartname k:4'ü \"kasaba·köy·kale\" diye tarif ediyor ve Peşâver bunların hiçbiri değil, bir SERHAD ŞEHRİ. Kademeyi kaynak vermiyorsa uydurmak yerine boş bırakıyorum."},
+{ad:"Patani",kd:[],coklu_merkez:false,kaynak:"TDV `patani` (HTTP 200 · 80 KB · <title> PATANİ) — GÖVDE ÇEKİLEMEDİ",neden:"🟡 ÜÇÜNCÜ KOVA: aradım, ERİŞEMEDİM. Slug CANLI ve başlık DOĞRU ama gövde gelmedi — yalnız tanım satırı geldi: \"Tayland'ın güneyinde bir bölge ve yönetim birimi.\" Bu TDV tuzağı ④'tür (canlı slug + boilerplate gövde) ve `CLAUDE.md §4` onu açıkça ayırıyor: ③'te madde gerçekten boştur, ④'te madde VAR ama alınamıyor. ⇒ Doğru hüküm \"TDV'de yok\" DEĞİL, \"çekilemedi, tekrar denenecek\". k: YAZILMADI. ⚠️ Gelen tek cümle modern anlamı veriyor (\"yönetim birimi\"); Patani Sultanlığı dönemi için TARİH İÇEREN bir ifade alınamadı, o yüzden kd: de yok."},
 {ad:"Ilâhâbâd (Allahabad)",k:2,kd:[{f:"1901-01-01",t:"1923-10-29",k:1,m:"Ilâhâbâd (Allahabad)"}],coklu_merkez:false,kaynak:"TDV `allahabad` (HTTP 200 · 93 KB · <title> ALLAHÂBÂD, gövde okundu)",neden:"🟢 FAZ 2 · TDV `allahabad` gövdesi: şehir 1901-1949 arası \"bulunduğu eyaletin başşehri\" idi ⇒ atlas penceresine düşen 1901-1923 için kd: k:1. Statik k:2, çünkü 22 yıl atlas penceresinin %3'ü. Ekber \"stratejik öneminden dolayı şehirde sarp bir hisar yaptırmış\" ve İlâhâbâs adını vermiş; madde X-XVI. yüzyıllar için \"yeterli bilgi yoktur\" diyor, o dönem için kademe TÜRETİLMEDİ. 🔴 VE BU KAYIT BİR DÜZELTMEDİR: önce `ilahabad` slug'ı denendi, arama sayfası geldi ve \"ERİŞEMEDİM\" diye yazılmıştı. Tahta M-0441 (beşinci TDV tuzağı) uyarınca slug'lar HTTP koduyla yeniden sınandı: `ilahabad` · `ilahabad--sehir` · `ilahabad--hindistan` üçü de 302 ÖLÜ, `allahabad` ise 200 ve 93 KB gerçek madde. ⇒ \"Erişemedim\" hükmü ERKENDİ; doğru adres vardı."},
 
 ];
