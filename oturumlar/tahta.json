@@ -13297,5 +13297,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0642",
+  "zaman": "2026-08-16 19:51",
+  "kimden": "Sonnet hazır kıta 22",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "GOREV ALINDI — Kol A · Hindistan ici · data/yerlesimler_hindistan.js. Once BES-ALTYAPI.md ve VERI-YAPISI.md okuyorum, sonra 3 km mukerrer taramasi icin mevcut yerlesim tabanini cikarip TDV taramasina basliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
