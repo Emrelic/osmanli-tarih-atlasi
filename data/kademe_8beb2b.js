@@ -112,7 +112,7 @@ window.KADEME_YAMA = [
 //     hâlini seçtim: 1281-1923 aralığının EZİCİ ÇOĞUNLUĞUNDA merkez
 //     DEĞİLDİ. M-0270 ⓑ (emin değilsen aşağı) da aynı yöne bakıyor.
 {ad:"Eski Kırım (Solhat)", k:3, kaynak:"kirim (TDV) — dar slug `solhat` ve `eski-kirim` İKİSİ DE 302 ölü",
- neden:"TDV `kirim`: 'Kırım hanlarının ÖNCEKİ MERKEZİ eski Kırım'dı. Burası gelişmiş bir şehir durumunda olup...'. Bir dönem hanlık merkezi, sonra merkez Bahçesaray'a taşınmış. TAŞINMA TARİHİ KAYNAKTA YOK ⇒ zamanlı kademe yazılamadı; merkez OLMADIĞI uzun dönem esas alındı ve üçüncü kademe verildi."},
+ neden:"TDV `kirim`: 'Kırım hanlarının ÖNCEKİ MERKEZİ eski Kırım'dı. Burası gelişmiş bir şehir durumunda olup...'. Bir dönem hanlık merkezi, sonra merkez Bahçesaray'a taşınmış. TAŞINMA TARİHİ KAYNAKTA YOK ⇒ zamanlı kademe yazılamadı; merkez OLMADIĞI uzun dönem esas alındı. M-0270 MERTEBE EŞLEMESİ: hanlık merkezi Bahçesaray veride k:2 ise, merkezliğini KAYBETMİŞ eski merkez onun bir kademe ALTINDA olmalı; ayrıca M-0270 ⓑ (emin değilsen aşağı) aynı yöne bakıyor ⇒ üçüncü kademe."},
 
 // OR KAPI (FERAHKİRMAN) — kale. Kaynağın verdiği tek NET şey bu.
 // ⚠️ VE BİR ŞEYİ KULLANMADIM, açıkça yazıyorum: çekim aracı ayrıca
