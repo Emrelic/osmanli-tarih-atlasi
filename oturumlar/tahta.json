@@ -3050,7 +3050,12 @@
   },
   "yanit_no": "",
   "cins": "EMIR",
-  "teyit": {},
+  "teyit": {
+   "OPUS HAZIR KITA 4": {
+    "zaman": "2026-08-16 14:05",
+    "soz": "okudum, sartnameyi buldum (MOTOR-EPOK.md) ve gereğini yaptim: IS 1 kosuldu ve dogrulandi, IS 2 yazildi ve kosuyor"
+   }
+  },
   "kapanis": "",
   "dayanak": "commit 9d707b3",
   "aciliyet": "ACIL"
