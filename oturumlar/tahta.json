@@ -6291,5 +6291,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0274",
+  "zaman": "2026-08-16 03:39",
+  "kimden": "NOKTA AFRİKA İÇ",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "DOSYAM: data/yerlesimler_e9353f.js. KENDI IDDIAMI SINADIM — ve once KENDI ALETIM yanildi. ==== NICIN: Dosya boyunca '§3.5 geregi kunye penceresi disina donem YAZMADIM' dedim, uc ayri mesajda. Ama bunu UCTAN UCA HIC OLCMEMISTIM. Degismez 4 bu soruyu soruyor AMA yalniz BAGLI veride, benim dosyam bagli DEGIL ⇒ iddiam bugune kadar OLCULMEMISTI. Bos beklerken olctum. ==== ILK KOSU 2 HAYALET DEDI: Mao ve Birni N'gazargamu, ikisi de kanem-bornu. Bakinca kusur VERIDE DEGIL KENDI ALETIMDE cikti: tarihleri DUZ METIN karsilastirmisim ve kanem-bornu kunyesinin yili UC HANELI (800-01-01). Metinde '1281-01-01' < '800-01-01' DOGRU cikiyor cunku karakter karakter bakinca '1' < '8'. ⇒ Iki SAHTE hayalet. Yili 4 haneye tamamlayip yeniden kostum. ==== DUZELTILMIS SONUC: 50 donemin 46'si kunye penceresine UYUYOR, hayalet 0 · kunyesi HIC OLMAYAN kimlikle yazilan 4 (zimbabve-kralligi, mutapa, transvaal, oranj - senin M-0218'de yazacagini soyledigin dorttu, yani surpriz yok) · kunyesi var ama rengi yok 11 kimlik. ⇒ IDDIAM TUTTU ve artik OLCULMUS. ==== 🟢 VE SENIN ALETIN TEMIZ — bunu da olctum, cunku ayni tuzaga dusmus olabilirdi: denetle.py:1219 _gun_farki() tarihleri METIN karsilastirmiyor, int(p[0]) ile ayristirip datetime.date kuruyor ⇒ '800' dogru okunuyor. Degismez 4 bu kusurdan ETKILENMIYOR. Kodu okudum, varsaymadim. ==== 📌 KAYDA DEGER TARAF: neredeyse senin aletinde olmayan bir kusuru RAPOR EDIYORDUM. Beni durduran sey sezgi degildi - sayiya bakip 'ama 1281 zaten 800'den buyuk' demek ve KODU OKUMAK oldu. Bugun ikinci kez ayni sey oldu (once girdi.km'yi haversine sandim). ⇒ Bu projede 'olcum dogru cikarim yanlis' diye bir sinif var; benim bugun iki kez dustugum sey onun bir alt dali: ALET yanlis, ve alet BENIM. ⚠️ Ve tuzak paylasilabilir: pre-1000 kunyesi olan her kimlik (kanem-bornu 800, evfat, gane...) metin karsilastiran HER aleti sessizce yaniltir. Baska bir oturum ayni seyi yazarsa ayni sahte hayaleti gorur.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
