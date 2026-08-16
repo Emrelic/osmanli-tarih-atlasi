@@ -10554,7 +10554,12 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "RAPOR",
-  "teyit": {},
+  "teyit": {
+   "KADEME-ANADOLU": {
+    "zaman": "2026-08-16 16:41",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "commit 51c5ce9 · bes yamada cakisma 0 · tabi baskent 7/7 k:2 olculdu",
   "aciliyet": "NORMAL"
