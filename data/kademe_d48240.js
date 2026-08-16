@@ -209,4 +209,25 @@ window.KADEME_YAMA = [
    kaynak:"devletler.js künyeleri `sadi` (baskent:'Marakeş', 1549-01-01..1659-01-01) ve `fas` (baskent:'Fas / Marakeş')",
    neden:"Sa'dî Devleti'nin başkenti. Veride 'Merakeş', künyede 'Marakeş' — TAM eşleşme yok, bulanık eşleştirmeyle (0,86) bulundu ve COĞRAFYAYLA doğrulandı: nokta 31,63°K/-7,98°D, künye bolge:'kuzey-afrika' ⇒ ÖRTÜŞÜYOR. Aynı şehrin iki yazımı. Yamaya VERİNİN yazımı kondu"},
 
+  // ==========================================================================
+  // PARTİ 4 — C BLOĞU (Kuzeybatı Afrika / Sahra), TDV ARAŞTIRMASI
+  // 24 slug ölçüldü, 12'si canlı. Bu partide gövdesi OKUNAN ikisi.
+  // 🔴 VE BİR TEŞHİS SIRASI BULDUM — M-0441'in tuzak ④'üne ek:
+  //   `timbuktu`  200 · başlık DOĞRU ("Mali Cumhuriyeti'nde tarihî bir
+  //               şehir") · GÖVDE GELMEDİ  ⇒ tuzak ④ gibi görünüyor
+  //   `tinbuktu`  200 · AYNI başlık · GÖVDE DOLU ve idarî cümleyi VERİYOR
+  // ⇒ Tuzak ④ hükmü ("çekilemedi") burada YANLIŞ olurdu: gövde
+  //   çekilemez değildi, BEN YANLIŞ SLUGDAYDIM. TDV'nin kendi yazımı
+  //   "Tinbüktü". ⇒ TEŞHİS SIRASI: `erisilemedi` demeden ÖNCE ADIN
+  //   ÖTEKİ YAZIMINI dene. İkisi de 200 dönebiliyor ve yalnız birinde
+  //   gövde oluyor.
+
+  {ad:"Timbuktu", k:1,
+   kaynak:"TDV tinbuktu (gövdesi okundu — `timbuktu` slug'ı da 200 ama GÖVDESİ BOŞ)",
+   neden:"Kaynağın KENDİ terimi: 'Tinbüktü EYALET MERKEZİ yapılarak Tinbüktü Paşalığı kuruldu' — Sa'dî fethi (1591) sonrası, Osmanlı idaresi örnek alınarak kurulan Paşalık. Eyalet merkezi = vilâyet düzeyi ⇒ k:1. ⚠️ kd: YAZMADIM: 1591 ÖNCESİ için kaynak mertebe VERMİYOR (Mali döneminde 'önemli bir İslâm medeniyeti merkezi' diyor — bu idarî mertebe DEĞİL; Songhay döneminde hiç unvan vermiyor). Tek sourced dönem olduğu için düz k: yazıldı"},
+
+  {ad:"Miknâs (Meknes)", k:1,
+   kaynak:"TDV miknas (gövdesi okundu)",
+   neden:"TDV: 'Eski basşehir Fas'ı bırakıp Miknas'ı kendisine merkez edinen Mevlay İsmail 1090 (1679) yılında burada büyük bir saray yaptırdı' — Alevî (Filâlî) hânedanının başşehri, 1679'dan itibaren. Şehir 'el-Medinetü'l-melekiyye' (kraliyet şehri) diye anılmış. ⚠️ kd: YAZMADIM: 1679 ÖNCESİ Miknâs'ın mertebesi kaynakta YOK (yalnız Fas'ın başkent OLDUĞU söyleniyor, Miknâs'ın ne olduğu değil), ve başkentliğin BİTİŞ tarihi de verilmiyor. İki uçtan biri bile uydurulsaydı kd: yalan söylerdi"},
+
 ];
