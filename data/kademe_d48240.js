@@ -363,6 +363,30 @@ window.KADEME_YAMA = [
   // AYRI iş." Uydum: eski dört kaydım (k:2 olması gereken) DEĞİŞMEDİ,
   // bu yeni kayıt yeni merdivende yazıldı.
 
+  // ---- SOMALİ — kapsayıcı madde ADLARI SAYIYOR, MERTEBE VERMİYOR ----
+  // TDV `somali` gövdesi okundu. Şehirleri adıyla sayıyor: 'Makdişu,
+  // Herceysâ, Bûrâv, Beledvîne, Benderkāsım (Boosaaso), Baytabo,
+  // Berberâ, Kismâyû' — ve Makdişu dışında HİÇBİRİNE mertebe vermiyor.
+  // Müstakil slug taraması: burao · burav · bosaso · benderkasim ·
+  // taleh · erigavo · borama · kismayu · beledvine · hargeysa--sehir ·
+  // dervis-devleti · muhammed-abdullah-hasan → 12'sinin 12'si de 302.
+
+  {ad:"Hargeysa", k_yok_sebep:"kaynak-susuyor",
+   kaynak:"TDV somali (gövdesi okundu — 'Herceysâ' yazımıyla ANIYOR) + 2 slug 302",
+   neden:"kaynak susuyor — kapsayıcı madde şehri 'Herceysâ' yazımıyla ADIYLA sayıyor ama İDARÎ MERTEBE VERMİYOR; madde yalnız Makdişu'yu başkent olarak niteliyor. Müstakil maddesi yok"},
+
+  {ad:"Burao", k_yok_sebep:"kaynak-susuyor",
+   kaynak:"TDV somali (gövdesi okundu — 'Bûrâv' yazımıyla ANIYOR) + burao/burav 302",
+   neden:"kaynak susuyor — 'Bûrâv' yazımıyla adı GEÇİYOR, mertebe YOK. ⚠️ Yazım farkı kayda değer: veride 'Burao', maddede 'Bûrâv' — ad taraması yapan bir sonraki oturum ikisini de denesin"},
+
+  {ad:"Bender Kāsım (Bosaso)", k_yok_sebep:"kaynak-susuyor",
+   kaynak:"TDV somali (gövdesi okundu — 'Benderkāsım (Boosaaso)' diye ANIYOR) + 2 slug 302",
+   neden:"kaynak susuyor — madde adı hem 'Benderkāsım' hem '(Boosaaso)' biçimiyle veriyor, yani veri yazımıyla BİREBİR örtüşüyor; ama mertebe YOK"},
+
+  {ad:"Taleh", k_yok_sebep:"adres-yok",
+   kaynak:"TDV somali (gövdesi okundu — adı HİÇ GEÇMİYOR) + taleh/dervis-devleti/muhammed-abdullah-hasan 302",
+   neden:"kapsayıcı `somali` maddesi Taleh'i HİÇ ANMIYOR ve müstakil adresi yok. 📌 Kayda değer: madde Muhammed Abdullah Hasan'ı (Derviş hareketi) UZUN UZUN anlatıyor ama 'Derviş Devleti'ne bir MERKEZ atfetmiyor — Taleh o hareketin kalesi olarak bilinir, veride de `tur:\"kale\"`, ama BU KAYNAK söylemiyor. ⚠️ `adres-yok` kovasının şartı gereği başka yazım denenebilir; arama sayacını bu ad için ÇALIŞTIRMADIM"},
+
   // ---- HABEŞİSTAN / ETİYOPYA — ve YENİ BİR TDV TUZAK ALT-SINIFI ----
   // 🔴 `habesistan` slug'ı 200 · başlık DOĞRU · ama GÖVDESİ TEK SATIR:
   //    "bk. ETİYOPYA" — bir ÇAPRAZ GÖNDERME STUB'ı.
