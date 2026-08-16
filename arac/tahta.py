@@ -238,7 +238,7 @@ def _git(kayit, baslik, govde):
                 try:
                     _g = subprocess.run(
                         ["git", "-C", KOK, "log", "HEAD", "--oneline", "-40"],
-                        capture_output=True, text=True, timeout=60)
+                        timeout=60, **_kod)
                     _var = _no in (_g.stdout or "")
                 except Exception:
                     pass
@@ -276,7 +276,7 @@ def _git(kayit, baslik, govde):
                 try:
                     _g = subprocess.run(
                         ["git", "-C", KOK, "log", "origin/main", "--oneline",
-                         "-40"], capture_output=True, text=True, timeout=60)
+                         "-40"], timeout=60, **_kod)
                     _ulasti = _no in (_g.stdout or "")
                 except Exception:
                     pass
