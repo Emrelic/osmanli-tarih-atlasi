@@ -200,10 +200,10 @@ def _gorunum_yaz(kayit):
                 m["kime"], m.get("cins") or "BILGI", m.get("aciliyet") or "NORMAL",
                 m["hal"], teyit_s, m.get("kapanis") or "—", cevap,
                 m.get("vade") or "—", okuyan, m.get("dayanak") or "—", m["mesaj"]))
-    _gorunum_yaz("\n".join(sat) + "\n")
+    _gorunum_dosyaya("\n".join(sat) + "\n")
 
 
-def _gorunum_yaz(metin):
+def _gorunum_dosyaya(metin):
     """TAHTA.md'yi yaz — ÇÖKMEDEN. Otorite `tahta.json`, bu ÜRETİLMİŞ görünüm.
 
     🔴 VAKA (16 Ağustos 2026, VERİ ZAMAN 2 bildirdi — M-0783). Beşinci koşunun
