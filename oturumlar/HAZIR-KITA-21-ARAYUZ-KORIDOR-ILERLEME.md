@@ -198,6 +198,54 @@ koridor mantık sınavı yeniden koşuldu (**11/11**, 41/39 durak ayrımı aynı
 ⚠️ Ve bu satır bir **kanıt değil**: paint ifadelerinin gerçekten kabul edildiği
 hâlâ **ÖLÇÜLMEDİ.** Panel açıldığında ilk bakılacak şey budur.
 
+## 🟢 ⑤c PANEL AÇILDI — ⑤ KAPANDI, ⑥'nın YARISI KAPANDI
+
+Emre tarayıcı panelini açtı ve kapının tıkalı ayakları koşuldu. **Ölçülenler:**
+```
+harita.isStyleLoaded()   true          (önce false idi)
+haritaHazir              true
+katman sayısı            36
+koridor-kenar-cizgi      VAR ✓         koridor-dugum-daire  VAR ✓
+KORIDOR                  80 düğüm · 64 kenar · atlanan 27/43
+olaylar.length           1223
+```
+🟢 **VE ⑤b'DEKİ AÇIK SORU KAPANDI:** iki koridor katmanı da **gerçekten
+kuruldu** ⇒ `addLayer` paint ifadelerimi **kabul etti.** Savunmaya alınmış
+`["==", ["get","kaynakli"], true]` biçimi çalışıyor. (Eski `["case",["get",…]]`
+biçiminin reddedilip reddedilmeyeceği **hâlâ ölçülmedi** — gerek de kalmadı.)
+
+**Konsol (kapı ⑤):**
+```
+[log] Atlas: koridor ağı — 80 düğüm · 64 kenar kuruldu
+      (koordinatsız atlanan: 27 düğüm, 43 kenar)      ← kendi satırım, ötüyor
+app.js kaynaklı HATA: YOK
+```
+⚠️ Konsolda iki `error` duruyor ama **ikisi de benim probe betiğimden**
+(`at <anonymous>`), harita yüklenmeden önce `getLayoutProperty` çağırmıştım.
+`app.js` satırı taşıyan tek bir hata yok. **Kendi gürültümü bulgu diye
+raporlamıyorum.**
+
+**Ekran görüntüsüyle doğrulananlar:**
+```
+✓ harita çiziliyor, gövdeler boyalı
+✓ kronoloji başlığı "2 / 1223 başlık"   ← OLAYLAR düzeltmesi ARAYÜZDE
+✓ ☰ Butonlar menüsünde "🐎 Koridor ağı" düğmesi, öteki dört katmanla
+  AYNI desende (Dizin · Coğrafya · Motor hatları · Veri sınırı)
+```
+
+### 🟡 ⑥ HÂLÂ YARIM — ve tam olarak neyin eksik olduğunu yazıyorum
+Düğmeye 1281'de tıkladım; **tıklamanın sonucunu göremeden oturum sınırı geldi**
+ve panel yeniden kapandı (`preview_start` sunucuyu yeniden başlattı,
+`isStyleLoaded()` tekrar `false`).
+```
+KAPANDI    katman kuruluyor · düğme yerinde · konsol temiz · veri sayıları tuttu
+EKSİK      1281'de koridor GÖRÜNMÜYOR / 1600'de GÖRÜNÜYOR — GÖZLE, ekran
+           görüntüsüyle. Mantık sınavı bunu 11/11 veriyor ama GÖZ DEĞİL.
+```
+📌 Ve bu ayrımı koruyorum: *"mantık geçti"* ile *"gözle görüldü"* aynı şey
+değil, ve bu projede tam olarak o farktan kusur çıktı (`OLAYLAR_7A4170`
+yükleniyordu, denetim okuyordu, **ekranda yoktu**).
+
 ## 🔴 ⑥ KOORDİNATÖRDE — bir çelişki, bir onay
 
 **(a) COMMIT ÇELİŞKİSİ.** Şartnamem §④ üç kaynak dosyasını *"SENİN"* diyor ve
