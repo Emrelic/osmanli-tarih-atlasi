@@ -73,7 +73,66 @@ St. Ptbg  Nyen/Nyenschantz — ölçülmedi, bilinen aday
 
 ---
 
-## İŞ 2 — 120 ŞÜPHELİ · 🟡 ÖLÇÜLDÜ, YAZILMADI
+## 🔴🔴 İŞ 2 — TAMAMEN GERİ ÇEKİLDİ (M-0298). AŞAĞISINI TABAN YAPMA.
+
+**Bu bölümdeki bütün "ÇELİŞKİ" satırları YANLIŞTIR.** Silmiyorum
+(`§11`: *kusur silinmez, KAYDEDİLİR*) ama **damgalıyorum**: aşağıdaki
+"8 çelişki · 205 yıllık hayalet · 1635 kümesi 74-85 yıl" bulgularının
+**hiçbiri gerçek değil.**
+
+### NİÇİN ÇÜRÜDÜ — tek cümle
+Ölçüm betiğim `min(f)` aldı ve ona *"ilk dönem"* dedi; ben ona
+*"iddia edilen kuruluş tarihi"* dedim. **İkisi aynı şey değil.**
+Ve kayıtların **kendi `neden:` alanını hiç okumadım.**
+
+### KANIT — 16 Ağustos, kilit kalktıktan sonra kaydı açınca
+```js
+{ ad:"Biysk", ..., kasitli_bosluk:true, bos:"devletsiz",
+  neden:"1635 öncesi Teleüt toprağı, devletsiz. 🔴 1709 TDV'ye basmıyor.",
+  s:[{f:"1635-01-01",t:"1709-01-01",d:"cungar"},     // TOPRAK dönemi
+     {f:"1709-01-01",t:"1923-10-29",d:"rusya"}] }     // KURULUŞ zaten burada
+```
+`1635-01-01` bir kuruluş iddiası **değil**, Cungar Hanlığı'nın toprak
+dönemi. Kayıt zaten 1709 diyor ve kaynağımla **birebir tutuyor.**
+
+### ÖLÇÜM — hükmü kapatan sayı
+```
+Değişmez 5b şüpheli            120
+  `neden:` alanı DOLU olan     120   ← YÜZDE YÜZ
+  `kasitli_bosluk:true` olan   110
+  ikisi de olmayan               0
+```
+⇒ *"120 araştırılmamış borç"* sandığım liste **120 BELGELENMİŞ KARARDIR.**
+
+### EN KESKİN VAKA — kayıt önerimi ADIYLA reddetmiş
+`Ayan` kaydının `neden:` alanı:
+> *"Liman 1844'te kuruldu ama kıyı Uda (1679) ve Ohotsk (1647)
+> ostroglarının yasak çevresindeydi; **1844 yazılsaydı Ohotsk'un doğru
+> boyadığı kıyıda 165 yıllık delik açılırdı.**"*
+
+Ben *"Ayan 166 yıl yanlış"* diye rapor etmiştim. Uygulasaydım kaydın
+tarif ettiği deliği **ben açardım.**
+
+### SONRA ÖLÇÜLEN — İŞ 2'nin gerçek değeri
+`data/yerlesimler_ek31.js` sahibi (M-0353) Batı Sibirya'nın 29 noktasını
+ölçtü: **1281 ve 1500 kesitlerinde 29'unun da sahibi YOK** ⇒ hücreleri
+`kur:`tan önce de sonra da **boş.**
+```
+harita etkisi   YOK      belge etkisi  VAR      denetim etkisi  VAR
+```
+⇒ İŞ 2 **acil değil, değersiz de değil.** Yalnız Batı Sibirya için
+ölçüldü; öteki bölgelerde çevre SAHİPLİ olabilir ve orada `kur:` gerçek
+devir üretir. **GENELLENMEZ.**
+
+### DOĞRU SORU — İŞ 2 yeniden tarif edilirse
+```
+YANLIŞ  "bu noktanın kuruluş tarihi ne?"
+DOĞRU   "bu kaydın YAZILI GEREKÇESİ sağlam mı?"
+```
+
+---
+
+## İŞ 2 (GERİ ÇEKİLEN ÇALIŞMA — yalnız kayıt için) — 120 ŞÜPHELİ
 
 ### Yapı bulgusu — PAYLAŞILAN GÜN süzgeci
 ```
@@ -172,6 +231,74 @@ C  ~6  tur:"bolge" — bir bölgenin "kuruluş tarihi" YOKTUR
                    ⇒ ÜÇ YIL FARK
 —  Selenginsk · Ohotsk   bu turda BULUNAMADI, ikinci tur gerek
 ```
+
+### Dördüncü tur — 2 kayıt, ve SÜZGEÇ KENDİNİ DOĞRULADI
+```
+🟢 Obdorsk   "В 1595 г. недалеко от Березова на месте современного
+             Салехарда был основан самый северный в Сибири Обдорский
+             острог"                                          veri 1595 ✓
+🔴 Surgut    "основан на основании наказа от 19 февраля 1594 г."
+             veri 1592-01-01  ⇒ İKİ YIL FARK, ve kaynak TAM GÜN veriyor
+```
+
+## 🟢🟢 SÜZGEÇ SINANDI VE TUTTU — paylaşılan gün gerçekten şüpheli
+`1592-01-01` benim paylaşılan-gün histogramımda **x2** olarak duruyordu:
+**Berezov + Surgut.** İkisini de kaynağa sordum:
+```
+Berezov  veri 1592 · kaynak 1593
+Surgut   veri 1592 · kaynak 1594-02-19
+```
+🔴 **İKİSİ DE ÇELİŞTİ.** Yani `1592-01-01` ne birinin ne ötekinin kuruluşu —
+Ob'a Rus çıkışının **bölgesel** tarihi, iki noktaya birden yapıştırılmış.
+⇒ **Süzgeç, hangi kaydın araştırılması gerektiğini ÖNCEDEN doğru
+işaretledi.** Ucuz bir tarama, pahalı bir araştırmanın hedefini buldu.
+📌 Ve bu, süzgecin "hüküm değil şüphe" olduğu uyarısını da bozmuyor:
+`1592`nin ikisi de çürüdü ama `1595` (Obdorsk, tek günlü) tuttu.
+
+### Beşinci tur — `1635-01-01` KÜMESİ, ve ÖNGÖRÜ TUTTU
+🔴 Öngörü **ölçümden ÖNCE** yazılmıştı (M-0284): *"yedisinin en az beşi
+çürüyecek, mazereti yok."* Ölçüm:
+```
+🔴 Biysk           veri 1635 · kaynak: Bikatun ostrogu 1709 (1710'da
+                   Cungarlar YAKTI), BİYSK KALESİ 1718     → 83 YIL FARK
+🔴 Semipalatinsk   veri 1635 · kaynak "В 1718 г. была заложена
+                   Семипалатинская крепость"              → 83 YIL FARK
+🔴 Ust-Kamenogorsk veri 1635 · kaynak "В 1720 г. майор Лихарев ...
+                   заложил Усть-Каменогорскую крепость"   → 85 YIL FARK
+🔴 Pavlodar        veri 1635 · kaynak "В 1720 года ... появился форпост
+                   Коряковский"                           → 85 YIL FARK
+⬜ Barnaul         bu turda BULUNAMADI — ikinci tur
+⬜ Zmeinogorsk     bu turda BULUNAMADI — ikinci tur
+🟡 Olyokminsk      Yakutistan'da, 1635 muhtemelen DOĞRU (ayrı kampanya)
+```
+⇒ **Dördü ölçüldü, dördü de çürüdü** (74-85 yıl). Öngörü ≥5 diyordu;
+şu an **4 ölçülmüş çelişki + 2 ölçülmemiş.** Tam doğrulama için Barnaul
+ve Zmeinogorsk gerekiyor — *"öngörü tuttu"* DEMİYORUM, **"4/7 ölçüldü,
+dördü de tuttu"** diyorum.
+📌 Ve `1635-01-01` küme olarak **İrtiş hattının** tarihi bile değil —
+hat 1715-1720'de kuruldu. 1635 nereden gelmiş, ölçmedim.
+
+### Altıncı tur — AMUR/OHOTSK kümeleri, ve GÜNÜN EN BÜYÜK HATASI
+```
+🔴🔴 Blagoveşçensk  veri 1651 · kaynak: "В 1856 г. возник Усть-Зейский
+                    пост, ставший началом города, названного
+                    Благовещенском" · 1858'de şehir oldu
+                                                   → 205 YIL FARK
+🔴 Ayan             veri 1679 · kaynak: "В 1844-1845 гг. здесь был создан
+                    новый порт" (Zavoyko, RAK faktoryası)
+                                                   → 166 YIL FARK
+🟡 Albazin          veri 1651 · kaynak: Habarov 1651'de Daur reisi
+                    Albaza'nın köyünü aldı ve tahkim etti ("так было
+                    положено начало будущему Албазину"); ALBAZİN
+                    OSTROGU 1665'te Nikifor Çernigovski tarafından
+                    kuruldu → 1651 savunulabilir, 1665 ostrog
+                    ⇒ kışlak→ostrog zincirinin ÜÇÜNCÜ vakası
+⬜ Udskoy ostrogu   bulunamadı — ikinci tur
+```
+🔴 **Blagoveşçensk bugünün en büyük hatası: 205 yıl.** Amur'un sol
+yakasında 1651'de bir Rus şehri gösteriliyor — oysa orası 1858'e kadar
+Çing toprağıydı (Nerçinsk 1689). Bu, kullanıcının en çok şikâyet ettiği
+**hayalet** sınıfı, ve `Değişmez 5` onu **göremedi** (çünkü `kur:` yok).
 
 ## 🔴 ÖN TUR SONUCU — 11 KAYIT ÖRNEKLENDİ, ve ASIL BULGU BU
 ```
