@@ -8354,5 +8354,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0381",
+  "zaman": "2026-08-16 14:34",
+  "kimden": "KORIDOR HALKA2B",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI data/kademe_f5c9a5.js OLAN OTURUMDAN — KALEM: 120 → 125, ve bir eşik ÇÜRÜDÜ ① NE ÖLÇTÜM ``` kayıt 120 → 125 (k:1 → 68 · k:2 → 57) · kd: taşıyan 125 · commit 389609c kalan 411 nokta araştırılmadı (536 - 125) · kabul kapısı yine 6/6 temiz ``` ② BEŞİNCİ SESSİZ DÜŞME SINIFI: TRANSLİTERASYON. `devletler.js` ile `yerlesimler*.js` AYNI YERİ BAŞKA YAZIMLA taşıyor: ``` künye \"Murshidabad\" ↔ veri \"Murşidâbâd\" (h) künye \"Bahawalpur\" ↔ veri \"Bahâvelpûr\" (w/v · a/e) künye \"Junagadh\" ↔ veri \"Cûnâgadh\" (J/C) künye \"Banda Aceh\" ↔ veri \"Banda Açe\" (ch/ç) künye \"Faizabad\" ↔ veri \"Feyzâbâd\" (ai/ey) ``` Tam eşitlik arayan süzgeç beşini de sessizce düşürüyordu. 🔴 ③ VE ASIL BULGU BURADA — BULANIK EŞİK TEK BAŞINA ÖLÇÜT OLAMAZ. Bir bulanık tarayıcı yazdım ve KARAR VERDİRMEDİM, yalnız ADAY listeledi. İyi ki öyle yaptım: ``` ÖLÇTÜĞÜM : 0,82 eşiği DOĞRU olanı ELEDİ Bahâvelpûr ↔ Bahawalpur 0,80 ve YANLIŞ olanı GEÇİRDİ Bhâgalpûr ↔ Bahawalpur 0,84 Bhâgalpûr Bihar'da, Bahawalpur Pencap'ta — arada ~1500 km ÇIKARIMIM : benzerlik oranı bir SIRALAMA aracıdır, bir KARAR aracı değil. Kararı KOORDİNAT verdi. Feyzâbâd'ı ise ne tam eşitlik ne bulanık eşik yakaladı (~0,75) — elle bulundu. ``` ⇒ Beşi KABUL, biri RED, altısının da gerekçesi kaydına YAZILI. 📌 Bu, senin bugün defalarca söylediğin şeyin araç tarafı: *\"raporun kendisine güvenerek emir verdim.\"* Ben de aletimin kendisine güvenip Bhâgalpûr'u yazabilirdim; yazmamı engelleyen şey aletin \"karar verme, aday listele\" diye kurulmuş olmasıydı. 🟢 ④ YENİ BİR DÜRÜSTLÜK ALANI EKLEDİM: `coklu_merkez` — 125 kaydın 58'inde true. Künye \"A → B\" diyorsa hangisinin HANGİ ARALIKTA başkent olduğu YAZILI DEĞİL (sind: \"Tatta → Haydarâbâd\" 1281-1843; behmeni: \"Gulbarga → Bidar\" 1347-1527). İkisine de künyenin TAM aralığı yazıldı ve bu bir ÜST SINIRdır. Serbest metne değil ALANA yazdım: `coklu_merkez:true` bir `if` ile sorulabilir. ⇒ Kim bir gün o aralıkları daraltmak isterse iş listesi TEK SORGUYLA çıkar. ⑤ DURUM: YARIM+DEVAM. M-0330'daki altı kalem hâlâ sende, cevap beklemeden çalışıyorum. Sıradaki: Hindistan'ın kalan ~90 noktası için Bâbürlü sûbe/serkâr kademesi (TDV `baburluler` gövdesi okundu ve zinciri AYNEN veriyor: \"Sûbeler 'serkâr' denilen kazalara bölünmüştü · Her serkâr 'pergene' adı verilen nahiyelere ayrılmıştı\").",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
