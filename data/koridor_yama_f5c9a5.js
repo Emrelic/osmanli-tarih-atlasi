@@ -22,7 +22,12 @@
 //     `Yenişehir`de. Tek ölçüm ikisini de bulamazdı.
 // =====================================================================
 
-window.KORIDOR_YAMA = [
+// 🔴 DEĞİŞKEN ADI `KORIDOR_YAMA` DEĞİL `KORIDOR_YAMA_F5C9A5` — tahta M-0671.
+//   İki oturum aynı kola verilmişti ve ikisi de `window.KORIDOR_YAMA` yazdı;
+//   biri DİZİ öteki NESNE. index.html ikisini de yüklerse ikincisi birincisini
+//   SESSİZCE EZER ⇒ 23 düğüm + 1 kenar → ya 23 ya 1, ASLA 24.
+//   Kural: data/<tur>_yama_<kısaltma>.js → window.<TUR>_YAMA_<KISALTMA>
+window.KORIDOR_YAMA_F5C9A5 = [
 
 {id:"uskudar",ad:"Üsküdar",y:"Üsküdar",lat:41.0227,lon:29.0153,kaynak:"data/yerlesimler_ek29.js (girdi.yukle)",neden:"birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"},
 {id:"ishakli",ad:"İshaklı",y:"İshaklı",lat:38.5439,lon:31.2447,kaynak:"data/yerlesimler_ek29.js (girdi.yukle)",neden:"birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"},
@@ -52,7 +57,7 @@ window.KORIDOR_YAMA = [
 
 // 🔴 VERİDE HİÇ OLMAYAN ÜÇ DÜĞÜM — "aranmadı" DEĞİL, "ARANDI, YOK".
 //   Bunlara koordinat YAZILAMAZ; önce yerleşim kaydı gerekir (KOL A işi).
-window.KORIDOR_YAMA_EKSIK = [
+window.KORIDOR_YAMA_F5C9A5_EKSIK = [
 {id:"hasan-celebi",ad:"Hasan Çelebi",durum:"veride-yok",neden:"aranan: hasan · hacilar — veride YOK"},
 {id:"hasankale",ad:"Hasankale",durum:"veride-yok",neden:"aranan: hasankale · pasinler — veride YOK"},
 {id:"karasu",ad:"Karasu",durum:"veride-yok",neden:"aranan: karasu · cernavoda · medgidia · bogazkoy — veride YOK. ⚠️ Veride `Karasubazar` VAR ama o KIRIM'da (45,06/34,60); koridordaki Karasu DOBRUCA'da, prevadi(#4) ile babadagi(#6) arasinda. Arada ~1000 km — ad esler, YER ESLEMEZ."},
