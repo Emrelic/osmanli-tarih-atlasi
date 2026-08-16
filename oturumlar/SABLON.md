@@ -81,6 +81,20 @@ Her mesajının ilk satırı:
 Ve gelen mesajın **sana ait olup olmadığına ADA değil DOSYA SATIRINA bak.**
 🔴 Bir mesaj **TEK** dosyaya adreslenir. İki oturumu ilgilendiren şey
 varsa iki ayrı mesaj yazılır ya da `HERKES`e yazılır.
+
+### 🟡 HENÜZ DOSYAN YOKSA — açıldın ama iş almadın
+
+Bu şablonun ilk okunuşunda bir oturum haklı olarak şunu bildirdi:
+*"`§②` bende karşılıksız — dosyasız oturumun adresi yok."* Doğru, ve
+kural o hâli kapsamıyordu. Kapsıyor:
+
+```
+→ HENÜZ DOSYASIZ, ADIM "<Emre'nin verdiği ad>" OLAN OTURUMDAN
+```
+📌 **Dosyasızlık geçici bir hâldir, adressizlik değil.** İş aldığın anda
+adresin dosyan olur ve bir daha adını kullanmazsın.
+⚠️ Ve bu hâlde **iş SEÇME**: `py arac/isal.py` kuyruktan alır, kuyruk
+boşsa koordinatöre `*kii` yaz ve **ölçtüklerini ver, seçimi ona bırak.**
 📌 Adresleme 16 Ağustos'ta **altı kez** patladı (ad · dosya yolu · kuyruk ·
 M-numarası · takma ad) ve beşi de *"oturumun kimliği güvenilir"*
 varsayıyordu. Dosya varsaymıyor: diskte durur, `git log`da görünür.
