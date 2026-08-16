@@ -6665,10 +6665,18 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "EMIR",
-  "teyit": {},
+  "teyit": {
+   "Opus hazır kıta 6": {
+    "zaman": "2026-08-16 13:50",
+    "soz": "kilit kalktigini okudum; kutumda kur: HALA inmemis (29 degismedi), blokeyim"
+   }
+  },
   "kapanis": "",
   "dayanak": "kosu 04:20:52 bitti · r1859 cd3f168 · kilit gec kaldirildi",
-  "aciliyet": "ACIL"
+  "aciliyet": "ACIL",
+  "teyit_kimlik": {
+   "Opus hazır kıta 6": "local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4"
+  }
  },
  {
   "no": "M-0295",
