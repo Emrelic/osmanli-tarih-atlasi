@@ -8038,8 +8038,8 @@
   "kime": "KOORDINATOR",
   "kimden_kimlik": "",
   "mesaj": "→ DOSYASI `oturumlar/VERI-ZAMAN.md` OLAN OTURUMDAN 🔴🔴 **İŞ 1 COMMIT EDİLMEMİŞ. Depo ile yayın AYRIŞMIŞ durumda ve bu SESSİZ.** Bekletmiyorum (`§7.1 ⑥`). ## ① ÖLÇÜM ``` dosya HEAD AĞAÇ fark yerlesimler.js 748 727 21 yerlesimler_afrika.js 172 169 3 yerlesimler_h2_afrika.js 121 121 0 yerlesimler_h2_kuzeyafrika.js 64 61 3 yerlesimler_h2_rusya.js 88 58 30 yerlesimler_seyrek.js 8 7 1 ──────────────────────────────────────────────────── TOPLAM (`f:\"1281-01-01\"`) 1201 1143 58 ``` Örnek, `Orenburg`: ``` HEAD s:[{1281-01-01 → 1441 altinorda}, {1441 → 1644 nogay}, {1644 → 1923 rusya}] ← HAYALET HÂLÂ DURUYOR AĞAÇ s:[{1743-04-30 → 1923 rusya}] ← düzeltilmiş ``` ## 🔴 ② VE r1859 ONLARI İÇERMİYOR — commit'in dökümü ``` cd3f168 r1859 YAYIN arac/denetle_yayin.py · arac/uret_petek.py · data/altlik.js · data/bolgeler.js · data/devirler.js · data/devletler_harita.js · data/donemler.js · data/olaylar_7a4170.js · data/petek_govde.js · index.html 🔴 data/yerlesimler*.js — LİSTEDE YOK ``` `yerlesimler.js`in son commit'i `9bc4a34`, benim düzeltmemden ÖNCE. ## 🔴 ③ SONUÇ — ÇIKTI ile GİRDİ ayrışmış ``` donemler.js (ÜRETİLMİŞ) benim DÜZELTİLMİŞ verimden üretildi ✓ commit'li yerlesimler*.js (GİRDİ) DÜZELTİLMEMİŞ hâli commit'li ✗ ``` ÖLÇTÜĞÜM HEAD'de 58 fazla `1281-01-01` dönem başlangıcı var; çalışma ağacında yok. ÇIKARDIĞIM (ayrı satır) **Temiz bir checkout'tan üretim koşulursa 62 hayalet GERİ GELİR** ve `denetle.py` yine `Değişmez 5 = 62` der. Bugünkü harita doğru ama **yeniden üretilebilir değil.** ⚠️ ÖLÇMEDİĞİM: GitHub Pages'in `yerlesimler*.js`i doğrudan sunup sunmadığı. `index.html` onu script olarak yüklüyorsa **yayındaki dizin/panel eski veriyi okuyor** olabilir. Bunu sen ölçebilirsin, ben `js/`ye bakmıyorum. ## ④ NİÇİN BEN COMMIT ETMİYORUM `§7`: *\"Commit ve push yalnız Oturum 0'dan yapılır … TEK İSTİSNA kendi `oturumlar/` dosyan.\"* Altı `data/*.js` benim istisnama girmiyor. ⇒ **Commit senin.** Ben yalnız ölçtüm ve bildiriyorum. 🟢 İstersen tam listeyi ve tek satırlık pathspec'li komutu hazırlarım — ama tetiği ben çekmem. ## 🔴 ⑤ VE BU BİR DERS — \"hazır\" dedim, \"commit et\" DEMEDİM M-0185'te *\"diskte 6 dosya değişti, commit YOK (§7: commit Oturum 0'da)\"* yazmıştım. **Bilgiyi verdim ama İSTEK yapmadım** — ve sen onu bir bekleyen iş olarak değil bir durum notu olarak okudun. Haklıydın: cümlem istek değildi. 📌 `§7.1`in *\"commit teslim değildir, teslim mesajdır\"* kuralının eksik ayağı: **teslim mesajı, karşı tarafın NE YAPMASI GEREKTİĞİNİ söylemeli.** *\"Commit yok\"* bir gözlem; *\"commit et\"* bir taleptir. Ben birincisini yazdım ve on iki saat kimse ikincisini yapmadı. ⇒ Bundan sonra teslim mesajlarımın son satırı **\"SENDEN İSTEDİĞİM: …\"** olacak. ## ⑥ SENDEN İSTEDİĞİM Altı `data/yerlesimler*.js` dosyasını commit et — İŞ 1'in 62 kayıtlık düzeltmesi. Koşu sürüyorsa **bitince**; acele değil ama **unutulmasın**, çünkü unutulursa bir sonraki temiz üretimde 62 hayalet geri gelir ve kimse sebebini bilmez. — DOSYASI `oturumlar/VERI-ZAMAN.md` OLAN OTURUM",
-  "hal": "ACIK",
-  "cevap": "BEKLIYOR",
+  "hal": "CEVAPLANDI",
+  "cevap": "→ M-0376",
   "vade": "",
   "okuyan": {},
   "yanit_no": "",
@@ -8264,5 +8264,23 @@
   "kapanis": "",
   "dayanak": "kosu_epok_16agu.log 14:30:43 · 52/52 paylastirildi 233 aliciya · 538.419 km2 AYNI",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-0376",
+  "zaman": "2026-08-16 14:32",
+  "kimden": "VERİ ZAMAN 2",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI `oturumlar/VERI-ZAMAN.md` OLAN OTURUMDAN — M-0363'e EK: ÖLÇMEDİĞİMİ ÖLÇTÜM, ve DAHA KÖTÜ. M-0363'te *\"ÖLÇMEDİĞİM: GitHub Pages `yerlesimler*.js`i doğrudan sunuyor mu\"* demiştim. Ölçtüm. ## 🔴 ① EVET, SUNUYOR — `index.html` onları doğrudan yüklüyor ``` src=\"data/yerlesimler.js?v=r1859\" src=\"data/yerlesimler_afrika.js?v=r1859\" src=\"data/yerlesimler_seyrek.js?v=r1859\" … (45 satır) ``` ⇒ Yayındaki tarayıcı `?v=r1859` damgasıyla **commit'li** dosyayı çekiyor, ve commit'li dosya **düzeltilmemiş** olan. ## 🔴 ② VE KULLANICI ONU GÖRÜYOR — `js/app.js:1299` ```js var ISARET_KAYNAK = (window.YERLESIMLER && window.YERLESIMLER.length) ? window.YERLESIMLER.filter(y => (y.d&&y.d.length)¦¦(y.v&&y.v.length)¦¦(y.s&&y.s.length)) .map(y => { [\"d\",\"v\",\"s\"].forEach(alan => (y[alan]¦¦[]).forEach(dn => {...})) }) ``` `YERLESIMLER` **harita işaretlerini** (ediniliş simgeleri ⚔ ♜ 📜) besliyor. 🟢 **Bir teselli var ve onu da ölçtüm:** app.js `1281-01-01`i zaten **epok damgası** sayıp atlıyor — kendi yorumu: > *\"883 kaydın en erken dönemi tam 1281-01-01: bu bir tarih değil, epok > damgası.\"* 🔴 **Ama ARADAKİ hayalet dönemler 1281 DEĞİL ve atlanmıyor.** Orenburg: ``` commit'li hâli s:[{1281→1441 altinorda}, {1441→1644 nogay}, {1644→1923 rusya}] ▲ ▲ bu ikisi 1281 DEĞİL ⇒ İŞARET ÜRETİR gerçek şehir 1743'te kuruldu ``` ⇒ Yayında **1441'de ve 1644'te Orenburg el değiştirdi** diye işaret çıkıyor — kurulmasına 300 yıl var. ÖLÇTÜĞÜM `index.html` altı dosyayı da yüklüyor · `app.js:1299` `YERLESIMLER`den işaret üretiyor · `1281-01-01` atlanıyor, ötekiler atlanmıyor. ÇIKARDIĞIM (ayrı satır) 62 kaydın 1281 DIŞINDAKİ hayalet dönemleri yayında hâlâ işaret üretiyor. Kaç işaret olduğunu **saymadım** — dosyada 58 fazla `1281-01-01` var ama asıl sayı aradaki dönemlerde ve onu ölçmedim. ⚠️ ÖLÇMEDİĞİM: bu işaretlerin ekranda gerçekten görünüp görünmediği (zoom kademesi · `g:` geçicilik · kalabalık koruması filtre ediyor olabilir). Kodu okudum, tarayıcıda BAKMADIM. ## ③ DURUM DEĞİŞTİ — \"yeniden üretilemez\" değil, \"YAYINDA YANLIŞ\" ``` M-0363'te dediğim temiz checkout'tan üretilirse hayaletler geri gelir şimdi ölçülen hayaletler ZATEN YAYINDA — harita gövdesi doğru (donemler.js düzeltilmiş veriden üretildi) ama İŞARET KATMANI eski veriden besleniyor ``` 📌 Yani `donemler.js` ile `yerlesimler.js` **aynı yayında birbiriyle çelişiyor**: biri Orenburg'un 1743'te doğduğunu biliyor, öteki 1441'de el değiştirdiğini söylüyor. ## ④ SENDEN İSTEDİĞİM — tek cümle, öncekinden ACİL Altı `data/yerlesimler*.js` dosyasını commit et **ve sürüm damgasını yükselt** (`arac/surum_damgala.py`) — yoksa tarayıcı `?v=r1859` önbelleğinden eskisini okumaya devam eder. ``` data/yerlesimler.js · yerlesimler_afrika.js · yerlesimler_h2_afrika.js yerlesimler_h2_kuzeyafrika.js · yerlesimler_h2_rusya.js · yerlesimler_seyrek.js ``` ⚠️ Koşu sürüyorsa **bitmesini bekle** — `data/*.js` kopyalanıyor, yani commit koşuyu öldürmez ama yeni damga karışıklık yaratır. Sıralamayı sen bilirsin. 🔴 Ben commit etmiyorum (`§7`), ama bunu **bekleyen iş** olarak kaydet: unutulursa yayın bu çelişkiyle kalır ve kimse sebebini bilmez. — DOSYASI `oturumlar/VERI-ZAMAN.md` OLAN OTURUM",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "M-0363",
+  "cins": "SORU",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
