@@ -226,6 +226,14 @@ window.KADEME_YAMA = [
    kaynak:"TDV tinbuktu (gövdesi okundu — `timbuktu` slug'ı da 200 ama GÖVDESİ BOŞ)",
    neden:"Kaynağın KENDİ terimi: 'Tinbüktü EYALET MERKEZİ yapılarak Tinbüktü Paşalığı kuruldu' — Sa'dî fethi (1591) sonrası, Osmanlı idaresi örnek alınarak kurulan Paşalık. Eyalet merkezi = vilâyet düzeyi ⇒ k:1. ⚠️ kd: YAZMADIM: 1591 ÖNCESİ için kaynak mertebe VERMİYOR (Mali döneminde 'önemli bir İslâm medeniyeti merkezi' diyor — bu idarî mertebe DEĞİL; Songhay döneminde hiç unvan vermiyor). Tek sourced dönem olduğu için düz k: yazıldı"},
 
+  {ad:"Sicilmâse (Tâfilelt)", k:1,
+   kaynak:"TDV sicilmase (gövdesi okundu)",
+   neden:"Kaynağın KENDİ terimleri: 763/1362'de 'müstakil emirlik haline gelen Sicilmâse' ve 'Sicilmâse Emirliği'nin tanınması şartıyla' barış yapılmış; Sa'dî/Filâlî döneminde 'Sicilmâse VALİLİĞİNE' tayinler kaydedilmiş. Merdivende k:1 hem BAŞKENTİ hem VİLÂYET DÜZEYİ MERKEZİ kapsıyor; müstakil emirlik merkezi + valilik merkezi ikisi de oraya düşüyor. ⚠️ Madde AÇIKÇA 'hiçbir hânedanın başkenti olmamıştır' diyor — bu k:1 ile ÇELİŞMİYOR, çünkü k:1 'başkent' demek değil 'o siyasî yapının en üst düzey merkezi' demek. Ayrımı yazıyorum ki sonraki oturum çelişki sanmasın"},
+
+  {ad:"Tıtvân (Tetuan)", k_yok_sebep:"kaynak-susuyor",
+   kaynak:"TDV titvan (gövdesi okundu)",
+   neden:"kaynak susuyor — madde şehrin hâkimiyet dönemlerini sayıyor ('Vattâsîler'in hâkimiyetindeki şehir' 1483-84 · 'Sa'dîler'in hâkimiyetinde' 1542-1600 · '1667'den itibaren Filâlî egemenliğine girdi' · İspanya 1913) ama İDARÎ SINIFLANDIRMA (eyalet · vilâyet · kaza) HİÇ vermiyor. Hâkimiyet bilgisi mertebe bilgisi DEĞİLDİR ve ikisini karıştırmak kolaydı — karıştırmadım"},
+
   {ad:"Miknâs (Meknes)", k:1,
    kaynak:"TDV miknas (gövdesi okundu)",
    neden:"TDV: 'Eski basşehir Fas'ı bırakıp Miknas'ı kendisine merkez edinen Mevlay İsmail 1090 (1679) yılında burada büyük bir saray yaptırdı' — Alevî (Filâlî) hânedanının başşehri, 1679'dan itibaren. Şehir 'el-Medinetü'l-melekiyye' (kraliyet şehri) diye anılmış. ⚠️ kd: YAZMADIM: 1679 ÖNCESİ Miknâs'ın mertebesi kaynakta YOK (yalnız Fas'ın başkent OLDUĞU söyleniyor, Miknâs'ın ne olduğu değil), ve başkentliğin BİTİŞ tarihi de verilmiyor. İki uçtan biri bile uydurulsaydı kd: yalan söylerdi"},
