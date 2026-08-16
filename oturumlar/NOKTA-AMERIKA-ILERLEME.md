@@ -1,5 +1,45 @@
-<!-- DURUM: BOŞTA ¦ 2026-08-14 08:xx ¦ 134/134 + M-0047 SINIF A düzeltmesi bitti · yeni görev bekliyor -->
-<!-- KİMLİK: local_0a5035a0-e065-4beb-b0a9-f7be18790ddb -->
+<!-- DURUM: DEVAM EDİYOR ¦ 2026-08-16 ¦ ikinci oturum devraldı, 1/? yeni kayıt -->
+<!-- KİMLİK (13-14 Ağustos oturumu): local_0a5035a0-e065-4beb-b0a9-f7be18790ddb -->
+<!-- KİMLİK (16 Ağustos devam oturumu): scratchpad UUID 0ee15e49-…, dosya yerlesimler_0ee15e.js -->
+
+## 🟢 16 Ağustos — İKİNCİ OTURUM DEVRALDI (görev tahta M-0336/M-0345)
+
+Bu görevi (`oturumlar/NOKTA-AMERIKA.md`) farklı bir oturum M-0336 ile aldı — 13-14
+Ağustos'taki ilk oturumun kimliğiyle (`local_0a5035a0…`) İLİŞKİSİ YOK, yalnız aynı
+görev adını devraldı. Bu dosyaya (aynı ilerleme günlüğü) devam ediliyor, üstüne
+yazılmıyor — aşağıdaki her şey birinci oturuma ait, DOKUNULMADI.
+
+**Zemin ölçümü:** `data/yerlesimler_amerika.js` hâlâ 134 kayıtla `girdi.py`'ye BAĞLI.
+`girdi.oku_devletler()` + `import renkler` ile (kendi ayrıştırıcım değil) tarandı:
+**32 künyesiz + 41 rengsiz kimlik** hâlâ AÇIK (M-0368/M-0371'de koordinatöre
+bildirildi — ve koordinatörün kendi ölçümü M-0313'te bunu KAÇIRMIŞTI, "bağlı
+veriyi hiç ölçmedim" diye kabul etti). 🟢 **İYİ HABER:** bu bölümdeki §③ zaten
+32 künyenin TAMAMINI akademik kaynaklarla taslak hâlinde hazırlamış — isim isim
+karşılaştırdım, BİREBİR örtüşüyor. Araştırma bitmiş, yalnız `devletler.js`'e
+İŞLENMEMİŞ. Kimin işleyeceği koordinatörün kararı.
+
+**Yeni bulunan boşluk — Buenos Aires:** mevcut 134 kayıtta Río de la Plata
+beşlisi (Córdoba/Santa Fe/Corrientes/Mendoza/Asunción) var ama **Buenos
+Aires'in kendisi yok** — muhtemelen 13 Ağustos'taki dört-ekip birleştirmesinde
+düşmüş (dosya başlığı "3 mükerrer ÇÖZÜLDÜ" diyor). `grep -in "buenos\|plata"`
+ile doğrulandı: yalnız yorumlarda geçiyor, gerçek kayıt yok.
+
+Kendi dosyama (`data/yerlesimler_0ee15e.js`, ayrı — `yerlesimler_amerika.js`'e
+dokunmadım) eklendi:
+```
+Buenos Aires  -34.6037,-58.3816  kur:1580-01-01
+  kaynak: TDV "arjantin" md. II. TARİH (Rıza Kurtuluş) — 1536 Pedro de Mendoza
+  kuruluşu yerli direnciyle terk edildi, 1580'de yeniden inşa.
+  s: ispanya (1580→1810-05-25) → arjantin-cumhuriyeti (1810-05-25→1923-10-29)
+  — mevcut 5 Río de la Plata kaydıyla AYNI kırılma tarihi ve künye kalıbı.
+```
+Kabul kapısı: node ile okundu (1/1 kayıt) · 3 km kuralı elle doğrulandı (en
+yakın: Colonia del Sacramento, 51,6 km) · bayt_denetle.py temiz · kaynak: 1/1
+· kur: dolu, sebep TDV alıntısıyla yazılı · git commit'li.
+
+Devam: Amerika'nın geri kalanında (Kuzey/Orta/Güney) başka gerçek boşluk var mı
+diye tarıyorum — 134 kayıt zaten oldukça kapsamlı, yeni ekleme sadece
+DOĞRULANMIŞ boşluklar için yapılacak, mükerrer üretilmeyecek.
 
 ## 🟢 14 Ağustos İKİNCİ GÜNCELLEME — M-0047 hükmü uygulandı
 
