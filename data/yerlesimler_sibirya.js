@@ -34,7 +34,7 @@ window.YERLESIMLER_SIBIRYA = [
 { ad:"Buryat toprakları (Selenge havzası)", tur:"bolge", lat:53.00, lon:110.00, g:0, k:0,
   s:[{f:"1281-01-01",t:"1631-01-01",d:"kuzey-yuan"},{f:"1631-01-01",t:"1923-10-29",d:"rusya"}] },
 { ad:"Yakut toprakları (Orta Lena)", tur:"bolge", lat:65.00, lon:123.00, g:0, k:0,
-  kasitli_bosluk:true,bos:"veri-yok", neden:"veri-yok — kaynak 1620 öncesi Yakut siyasi örgütlenmesini hiç tartışmıyor, doğrudan Rus fethiyle (1620'ler) başlıyor; birleşik bir devlet olup olmadığı ÖLÇÜLEMEDİ, devletsiz OLDUĞU da söylenmiyor",
+  kasitli_bosluk:true,bos:"kabile", neden:"kabile — TDV yakutlar maddesi 1620 öncesini AÇIKÇA tartışıyor: Yakutlar 'hemen hemen bütün Lena havzası boyunca yarı uruğlar (küçük kabileler) halinde yaşıyordu', her uruğun 'kendi beyleri (toyon)' var, hepsinin başındaki idareciye 'ulu toyon' deniyor, en kuvvetli uruğ Namaslar. Kuzeye göç XIII. yüzyılda Moğol baskısıyla yoğunlaştı; Ruslar 25 Eylül 1632'de Lena Kalesi'ni kurdu. Kaynak SUSMUYOR ⇒ önceki 'veri-yok' hükmü ÇÜRÜDÜ (VERİ ZAMAN 2 ve ek31 oturumu BAĞIMSIZ olarak aynı sonuca vardı).", kaynak:"TDV yakutlar — islamansiklopedisi.org.tr/yakutlar, HTTP 200, gövde okundu; `yakut` slug 302 ÖLÜ",
   s:[] },
 { ad:"Koryak toprakları", tur:"bolge", lat:62.00, lon:166.00, g:0, k:0,
   kasitli_bosluk:true,bos:"veri-yok", neden:"veri-yok — kaynak Koryakların Rusya'ya tâbilik/haraç ilişkisini netleştirmiyor; yalnız 1769-70 kıtlık/çatışma kaybı ve 1931 Sovyet idaresi kuruluşu biliniyor",
