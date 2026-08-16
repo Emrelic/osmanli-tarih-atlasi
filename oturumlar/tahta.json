@@ -7033,5 +7033,23 @@
   "kapanis": "",
   "dayanak": "kunye 392 renk 337 · eksik 5 kunye 7 renk · olculdu",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-0314",
+  "zaman": "2026-08-16 13:58",
+  "kimden": "NOKTA AFRİKA İÇ",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI data/kademe_e9353f.js OLAN OTURUMDAN — ACILIS ==== KADEME-AVRUPA.md bende (isal.py verdi, kuyruktaki tek bos isti). Onceki gorevim NOKTA-AFRIKA-IC.md BITTI+TESLIM (M-0302). KADEME-KD.md ve KADEME-AVRUPA.md bastan sona okundu. Nobetcim ZATEN acik (Monitor, persistent true, ara 45) — yeniden kurmadim, ayni adla dinliyor. KUTUM: lat 36..71 / lon -12..32 (Bati + Orta Avrupa). ==== ① SARTNAME SAYISINI DOGRULADIM: 393 BIREBIR TUTTU. Kutuda 778 nokta, 385 kademeli (k1:4 · k2:26 · k3:115 · k4:240), 393 kademesiz. ==== ② 🔴 BILESIMI BIR SORUN GOSTERIYOR, BEKLETMEDEN BILDIRIYORUM: 393 kademesizin YALNIZ 10'u Osmanli donemi tasiyor. Yani TDV'nin EN GUCLU oldugu alan (Osmanli idari taksimati) 393'un 10'unu kapsiyor. Kalan 383 Bati/Orta Avrupa ve sartnamenin KENDISI 'TDV kapsamasi Bati Avrupa'da yuzde 0, olculdu' diyor. ⇒ 383 nokta icin tek tek akademik kaynak gerekiyor; bu bir oturumda BITMEZ ve bunu SIMDI soyluyorum, sonunda degil. ==== ③ 🟢 ARASTIRMAYA BASLAMADAN ONCE SUNU OLCTUM: 'istenen seyin altyapisi ZATEN VARDI' hatasi bu projede bir gunde BES KEZ isirmis. devletler.js'te baskent alani var ve 392 kunyenin 391'inde DOLU. Sartnamenin mertebe tablosu da k1 esittir o devletin BASKENTI diyor. Esledim: 393 kademesizin 31'i bir kunyenin BASKENTI cikti — Londra · Paris · Madrid · Lizbon · Roma · Viyana · Prag · Varsova · Kopenhag · Venedik · Cenova · Milano · Napoli · Floransa · Siena · Piza · Parma · Mantova · Torino · Bruksel · Dublin · Helsinki · Riga · Tallinn · Kaunas · Vilnius · Krakov · Novgorod · Pskov · Dijon · Pamplona. ⇒ Bunlarin kaynagi ARANMAYACAK: dayanak PROJENIN KENDI DIZINI ve her birinin f/t penceresi kunyede YAZILI. ==== ④ 🟢 IKINCI YARISI DAHA DEGERLI: bunlarin 7'si ZAMAN ICINDE baskentlik degistiriyor, ve bu tam olarak kd alaninin varlik sebebi. Floransa: floransa 1115-1532 sonra toskana 1532-1860. Paris: fransa 987-1792 sonra fransa-cumhuriyet 1792-1923. Prag: bohemya 1198-1526, arada Habsburg Viyana'dan yonetti, sonra cekoslovakya 1918-1923. Varsova: lehistan 1569-1795 sonra polonya 1918. Viyana: habsburg 1526-1918 sonra avusturya-cumhuriyet 1918. ⇒ Sartname 'kd yazili kayit 0, alan CANLI veri SIFIR' diyor. Bu 7 kayit projenin ILK gercek kd verisi olabilir ve dayanagi uydurma DEGIL, kunyenin kendi f/t'si. ==== ⑤ NE ISTIYORUM — bir TEYIT: kaynak alanina ne yazayim? Dayanak bir TDV slug'i DEGIL, data/devletler.js'in kendisi. Onerim 'devletler.js:<kunye-id>' bicimi. Alan semasi bende degil ve bu, M-0267'de bildirdigim ayni kusurun TEKRARI: kaynak alani TDV disi dayanagi tasiyamiyor. Sen bicim soylersen ona uyarim, soylemezsen onerimi kullanip neden alaninda acikca belirtirim. ==== SIRAM: once 31 baskent (kaynagi hazir), sonra 10 Osmanli noktasi (TDV guclu), sonra kalan 352 icin akademik — ve 352'yi BITIREMEYECEGIMI simdiden soyluyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
