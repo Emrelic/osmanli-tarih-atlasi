@@ -171,6 +171,13 @@ def main(argv):
     # yeniden kurma arasındaki boşlukta mesaj KAÇAR.
     # `--surekli` eski adıyla kabul ediliyor ki eski çağrılar bozulmasın.
     cik = "--cik" in argv and "--surekli" not in argv
+    # `--herkes-acil`: HERKES yayınlarında yalnız ACIL/DURDURUCU olanlar
+    # uyandırsın. Adına yazılan mesaj her hâlükârda uyandırır.
+    herkes_acil = "--herkes-acil" in argv
+    # --dosyam <yol>: HERKES yayınlarında yalnız GÖVDESİNDE bu yol
+    # geçenler uyandırsın. ACİL olanlar yine geçer.
+    dosyam = (argv[argv.index("--dosyam") + 1]
+              if "--dosyam" in argv else "")
 
     if "--defter-yok" not in argv:
         benler, okundu = _defter_adlari(benler)
@@ -192,8 +199,52 @@ def main(argv):
                 continue
             gorulen.add(m.get("no"))
             k = _sade(m.get("kime"))
-            if k in benler or k == "HERKES":
+            # 🔴 HERKES SÜZGECİ — 16 Ağustos, Emre ölçtü:
+            #   "Bir oturum sürekli 'bana değil, bekliyorum' diyor. Bu
+            #    token yiyor mu? Nöbetçi bakması yemiyor demiştin ama
+            #    her yazışta bütün bağlamı yeniden yakmıyor mu?"
+            # 🟢 HAKLI, ve önceki cevabım EKSİKTİ:
+            #   YOKLAMA (mesaj yok)  → hiçbir şey basmaz → 0 token   ✓
+            #   MESAJ DÜŞTÜ          → TUR → BÜTÜN BAĞLAM yeniden okunur
+            # ⇒ Bir `HERKES` yayını 18 oturumu birden uyandırıyor: biri
+            #   gereğini yapıyor, on yedisi "bana değil" deyip uyuyor.
+            #   YAYIN BAŞINA ≈ 18 BAĞLAM TURU.
+            # ⇒ `--herkes-acil` verilirse HERKES yayınlarının yalnız
+            #   ACIL olanları uyandırır. Adına yazılan mesaj HER ZAMAN
+            #   uyandırır — süzgeç yalnız yayınları eler.
+            # ⚠️ Varsayılan AÇIK DEĞİL: bir oturumun neyi kaçıracağına
+            #   koordinatör değil KENDİSİ karar verir. Ölçülmemiş bir
+            #   tasarrufu herkese dayatmak, kaçırılan mesaj pahasına
+            #   token kazanmaktır.
+            if k in benler:
                 yeni.append(m)
+            elif k == "HERKES":
+                # 🔴 EMRE'NİN SORUSU (16 Ağustos) VE ONUN CEVABI:
+                #   "Her oturum sadece belli bir dakikada bir tahtaya
+                #    baksa ama hiçbir şey yazmasa, uyanmış olma
+                #    gerçekleşmez mi? İlgilendirmeyen bir durum varsa
+                #    hiç metin eklemesin. Bu mümkün mü?"
+                # 🟢 MÜMKÜN — ama karar OTURUMDA DEĞİL BURADA verilmeli.
+                #   Oturum "bana değil" dediğinde MASRAF ÖDENMİŞTİR:
+                #   uyanmak = bir TUR = bütün bağlamın yeniden okunması.
+                #   Cevap yazmamak yalnız İKİNCİ masrafı keser.
+                # ⇒ Asıl kazanç HİÇ UYANMAMAK, ve onu ancak bekçi sağlar.
+                #
+                # ÜÇ SÜZGEÇ, en dardan en genişe:
+                #   --dosyam  : yayının GÖVDESİNDE dosyam geçiyor mu
+                #   --herkes-acil : yalnız ACIL/DURDURUCU yayınlar
+                #   (hiçbiri) : bütün yayınlar — varsayılan
+                _t = m.get("mesaj") or ""
+                _acil = _sade(m.get("aciliyet")) in ("ACIL", "DURDURUCU")
+                if dosyam:
+                    # Gövdede dosyam anılıyorsa BENİ ilgilendiriyor.
+                    # ⚠️ ACİL yayınlar dosya anılmasa da geçer — bir
+                    # kilit ya da arıza duyurusu herkesi bağlar ve onu
+                    # kaçırmak, kazanılan turdan pahalıdır.
+                    if dosyam in _t or _acil:
+                        yeni.append(m)
+                elif not herkes_acil or _acil:
+                    yeni.append(m)
             elif k and any(b and (k in b or b in k) for b in benler):
                 # ① ADRES TUZAĞI — kısmen tutuyor ama TAM eşit değil
                 tuzak.append(m)
