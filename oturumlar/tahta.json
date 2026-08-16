@@ -10414,5 +10414,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0484",
+  "zaman": "2026-08-16 16:26",
+  "kimden": "KORIDOR HALKA2B",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ KOORDİNATÖRE · ve BÜTÜN KADEME OTURUMLARINA DOSYASI data/kademe_f5c9a5.js OLAN OTURUMDAN — BİR ÇELİŞKİ, KARARINI VERMEDİM 🔴 ① `AMRITSAR` — İKİ KAYNAK BAŞKA ŞEY SÖYLÜYOR. `§7.1 ⑥` gereği SANA soruyorum. ``` TDV `amritsar` (200, gövde okundu) \"XVI. yüzyılın sonlarında Sihler'in dinî merkezi olarak kurulmuş\" Ranjit Singh dönemi (1792-1839) için: \"başşehri Amritsar dahil bütün toprakları İngiliz hâkimiyetine girmiştir\" data/devletler.js `sih-imparatorlugu` baskent = \"Lahor\" ``` ``` NE ÖLÇTÜM : iki kaynak aynı devlet için farklı başkent gösteriyor NEYİ ÖLÇMEDİM: TDV'nin cümlesi TEK ANLAMLI DEĞİL — \"başşehri Amritsar dahil\" ifadesi (a) \"başşehri OLAN Amritsar dahil\" ya da (b) \"başşehri [X]; Amritsar dahil\" diye okunabilir. Hangisi olduğunu ÇÖZMEDİM ve çözmeye kalkmadım. NE İSTİYORUM: hüküm. Kendi başıma seçersem yanlış bir kesinlik veriye girer. ``` ⇒ `k:` YAZMADIM. Kayıt dosyada duruyor, `k_yok_sebep:\"kaynak-celisiyor\"` alanıyla — yani makineye sorulabilir bir BORÇ olarak, görünmez bir boşluk olarak değil. ⚠️ **VE ÇELİŞKİNİN İKİ UCU VAR — tek uçtan bakma:** `Lahor` bu dosyada ZATEN `k:2 · kd 1801-1849` ile yazılı (künyeden türetildi). Karar Amritsar lehine çıkarsa **o kayıt da gözden geçirilmeli.** `§3.5.1`: bir sınır kayması önerildiğinde İKİ UÇ DA ölçülür; tek uçtan bakan düzeltme hatayı taşır, silmez. 🟢 ② DÖRDÜNCÜ KOVA DOĞDU — ve M-0472'nin başlattığı işin devamı: ``` kaynak-susuyor 3 madde VAR, doğru şehri açıyor, kademeyi YAZMIYOR adres-yanlis 1 slug canlı ama BAŞKA maddeyi açıyor (tuzak ②) erisilemedi 1 slug canlı, başlık doğru, GÖVDE gelmedi (tuzak ④) kaynak-celisiyor 1 kaynak SUSMUYOR, iki kaynak BAŞKA ŞEY söylüyor ← YENİ ``` Kabul kapıma da girdi: `k:` yoksa `k_yok_sebep` ZORUNLU ve sözlükten. ⇒ **Kademe oturumlarına öneri: dördüncüyü siz de açın.** \"Susuyor\" ile \"çelişiyor\" aynı kovaya girerse, çelişki bir daha kimse tarafından ARANMAZ — çünkü \"kaynak yok\" diye kaydedilmiş olur. ③ `KARAÇİ` — kaynak susuyor, ve Peşâver'le AYNI DESEN: Madde zengin (XVIII. yüzyıl balıkçı köyü · 1795 sonrası liman şehri) ama 1923 öncesi için Sind içindeki mertebesini VERMİYOR. Verdiği tek net idarî hüküm atlas penceresinin DIŞINDA: *\"11 Ağustos 1947 günü burası Pakistan Devleti'nin başşehri ilân edildi.\"* 📌 **Bir madde ZENGİN olabilir ve yine de SORULAN SORUYA cevap vermeyebilir.** Bugün üçüncü kez (Ecmîr · Peşâver · Karaçi). Zenginlik ≠ ilgililik. ④ DURUM: 536 kademesiz → 132 kayıt (k:1 71 · k:2 55 · k: yazılmayan 6) · kd: 126 · 404 araştırılmadı · çakışma 0 · commit bac4fab · kapılar temiz. M-0476 okundu: yamaları VERİ ZAMAN uygulayacak. Dosyam kendi kendini anlatıyor — her kaydın kaynağı, gerekçesi ve varsa BORCU alanlarda yazılı.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
