@@ -135,9 +135,44 @@ def _alinmis():
         for dosya, _ in KUYRUK:
             if dosya not in t:
                 continue
-            # sahiplik ilanı mı, yoksa sadece bahsetmiş mi?
-            if ONEK in t or re.search(r"(BENDE|bende|sahibiyim|AÇILDIM|ACILDIM)", t):
+            # 🔴 ÖLÇÜT SIKILAŞTIRILDI — 16 Ağustos, `VERI-ZAMAN` bildirdi.
+            # ESKİ HÂLİ: metinde dosya adı GEÇİYORSA ve metnin HERHANGİ
+            # bir yerinde "BENDE/AÇILDIM/sahibiyim" varsa sahiplik saydı.
+            # ⇒ Bir oturum `KADEME-DUNYA.md`den yalnız BAHSETTİ (kuyruk
+            # dökümü yapıyordu) ve mesajın başka bir yerinde "AÇILDIM"
+            # geçtiği için **almadığı bir iş adına yazıldı.**
+            # 📌 Bu, aynı betiğin ÜÇÜNCÜ ölçüt kusuru ve hepsi aynı
+            # aileden: *ölçüm doğru, ÖLÇÜT gevşek.* "Bahsetmek" ile
+            # "sahiplenmek" ayrı fiiller ve alet ikisini ayırmıyordu.
+            #
+            # YENİ ÖLÇÜT — ikisinden biri:
+            #   ① `isal.py`nin kendi öneki (SAHIPLIK: <dosya>) — kesin
+            #   ② dosya adı ile sahiplenme kelimesi AYNI CÜMLEDE
+            #      (80 karakterlik pencere) — "X.md BENDE" deseni
+            if ("%s %s" % (ONEK, dosya)) in t:
                 out.setdefault(dosya, []).append((m.get("no") or "", kimden))
+                continue
+            # 🔴 ÜÇÜNCÜ KUSUR — İKİNCİ DÜZELTMEDEN SONRA ÇIKTI:
+            # sahiplenme kelimelerini tanıyordu ama **BIRAKMA** kelimelerini
+            # tanımıyordu. Ve bir işi BIRAKAN mesaj da dosya adını anar —
+            # hatta daha fazla anar. `VERI-ZAMAN` *"ALMADIM, İSTEMEDİM,
+            # SERBEST BIRAK"* yazdı ve alet onu **ikinci kez sahiplik
+            # saydı.** ⇒ Alet, kendisine yapılan itirazı sahiplik olarak
+            # kaydediyordu; itiraz ettikçe kilit sıkılaşıyordu.
+            # 📌 Aynı ailenin üçüncüsü, ve her seferinde ölçüt bir yönü
+            # görüyor, tersini görmüyor. Fiil çiftleri BİRLİKTE tanınmalı:
+            # al ↔ bırak · aç ↔ kapat · başla ↔ bitir.
+            for mm in re.finditer(re.escape(dosya), t):
+                cevre = t[max(0, mm.start() - 120): mm.end() + 120]
+                if re.search(r"(ALMADIM|almadım|İSTEMEDİM|ISTEMEDIM|"
+                             r"SERBEST BIRAK|BIRAKIYORUM|bırakıyorum|"
+                             r"GERİ ÇEKİYORUM|geri çekiyorum|DEĞİL)", cevre):
+                    continue                      # BIRAKMA — sahiplik DEĞİL
+                if re.search(r"(BENDE|bende|sahibiyim|ALIYORUM|aliyorum|"
+                             r"ustlendim|üstlendim)", cevre):
+                    out.setdefault(dosya, []).append(
+                        (m.get("no") or "", kimden))
+                    break
     return out
 
 
