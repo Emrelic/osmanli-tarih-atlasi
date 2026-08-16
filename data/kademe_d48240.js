@@ -303,6 +303,31 @@ window.KADEME_YAMA = [
   {ad:"Kanada Arktiği / Kuzeyi", kademe_uygulanmaz:true,
    kaynak:"olcum — bu kayit bir OTURMA YERI degil, dolgu ALANI",
    neden:"kademe bir MERKEZIN mertebesidir, bir ALANIN degil. Bu kayit col/bozkir/erg dolgusu; kaynaga 'burasi kaza miydi' diye SORULAMAZ. Ayrimin kaniti veride: Murzuk (Fizan) k:2 (sancak MERKEZI) ile Fizan guneyi (ayni sancagin COLU) ayri kayitlar ve ikincisinin kademesi YOK."},
+  // 🔴 DÖRT VAHA — GERİ ÇEKME SONRASI ÜÇÜNCÜ ÖLÇÜM, ve "aramadım" hâli
+  // DOĞRULANDI ama VERDİĞİM GEREKÇEDEN BAŞKA bir sebeple.
+  //
+  // ① TDV ARANDI: kufra · kufre · el-cuf · cuf · tazirbu · rebyane ·
+  //    vav-el-kebir · fizan-vahalari · havat · kalansu → HEPSİ 302.
+  //    `vav` 200 döndü ama Arap harfi maddesi (tuzak ②), açılmadı sayılır.
+  // ② DOĞRU İZ BULUNDU: Kufra Senûsiyye'nin merkeziydi. TDV `senusiyye`
+  //    gövdesi okundu: Ahmed Şerîf es-Senûsî "harekâtın ana zâviyesini
+  //    tekrar Kufra'ya taşımakla" merkezi oraya kaydırmış (19. yy sonu).
+  //    ⚠️ Ama "ana zâviye" DİNÎ bir terim, İDARÎ bir mertebe DEĞİL — ve
+  //    kaynağın kendi terimini yükseltmek tam da yasakladığımız şey.
+  //    Tâzirbû · Rebyâne · Vâv el-Kebîr maddede HİÇ GEÇMİYOR.
+  // ③ KÜNYE TESTİ: `devletler.js`te SENÛSÎ KÜNYESİ YOK. Yani Kufra'nın
+  //    "başkenti olduğu" bir siyasî yapı bu modelde mevcut değil.
+  // ④ 🔴 VE ASIL AYRIM BURADA — sahiplik ölçüldü:
+  //       benim dört vaham   d:0 · s:0 · v:0   HİÇ SAHİBİ YOK
+  //       içtihat beş vahası d:2 · s:2 · v:1   hafsi · italya · memlûk
+  //    ⇒ Câlû ve Zilla k:4 çünkü VAHA değil, çünkü SAHİPLİ YERLEŞİM.
+  //      Benimkiler modelde hiçbir devlete ait değil.
+  // ⚠️ AMA BU DA KESİN DEĞİL: `d:[]` "hiç sahibi olmadı" DEMEK OLABİLİR,
+  //    "henüz YAZILMADI" da demek olabilir — Kufra tarihen Senûsî ve
+  //    sonra İtalyan'dı. İkisini bu veriden AYIRT EDEMİYORUM.
+  // ⇒ Bu yüzden "aramadım" (BORÇ) hâli DOĞRU hâldir ve öyle kalıyor.
+  //   📌 Sahipsizlik bir NOKTA/VERİ oturumunun işi, benim değil; ölçtüm
+  //      ve tahtaya bildirdim.
   {ad:"Kufra (el-Cûf)", k_yok_sebep:"aramadim",
    kaynak:"GERİ ÇEKİLDİ — önceki kaynağım bir ölçüm değil bir varsayımdı",
    neden:"🔴 BU KAYIT GERİ ÇEKİLDİ. Parti 5'te kademe_uygulanmaz:true yazmıştım; süzgecim adın ARAZİ KELİMESİ taşıyıp taşımadığına bakıyordu ve VAHA adları arazi şekli GİBİ durur ama vaha bir YERLEŞİMDİR. Projenin içtihadı açık ve benimkine aykırı: kademesi yazılı 12 bölge kaydının SEKİZİ Mısır/Libya vahası ve hepsi k:4 — Câlû k:4 m:Bingazi · Zilla (Zella) k:4 m:Trablus, ikisi de tur:\"bolge\". Yani `tur` alanı ayırt etmiyor, İÇTİHAT ayırt ediyor. ⚠️ k:4 YAZMIYORUM: içtihat 'vaha k:4 OLABİLİR' diyor, 'BU vaha k:4'tür' demiyor — kaynağı okumadım. İddiayı geri çekip yerine BORÇ koyuyorum."},
