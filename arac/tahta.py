@@ -271,11 +271,21 @@ def _git(kayit, baslik, govde):
             # Mesaj numarası commit BAŞLIĞINDA duruyor, oradan alınıyor.
             _m = re.search(r"M-\d{4}", baslik or "")
             _no = _m.group(0) if _m else ""
+            # 🔴 BU DAL DA `origin/main`E BAKIYORDU — ve yanlış negatif
+            # verdi (M-0454). Başarı yolunu HEAD'e çevirdim ama BU YOLU
+            # ÖYLE BIRAKTIM: yarım düzeltme.
+            # 📌 `origin/main` yereldeki uzak-dal KOPYASIDIR ve `fetch`
+            # yapılmadan bayattır. Eşzamanlı bir push ref'i oynatınca
+            # bizim push'umuz düşer ama COMMIT durur ve bir sonraki
+            # push onu taşır.
+            # ⇒ Doğru soru ikisinde de AYNI: **commit oldu mu?**
+            #   Olduysa mesaj güvende — gitmesi zaman meselesi.
+            #   Olmadıysa mesaj SENDE kaldı ve elle kurtarılmalı.
             _ulasti = False
             if _no:
                 try:
                     _g = subprocess.run(
-                        ["git", "-C", KOK, "log", "origin/main", "--oneline",
+                        ["git", "-C", KOK, "log", "HEAD", "--oneline",
                          "-40"], timeout=60, **_kod)
                     _ulasti = _no in (_g.stdout or "")
                 except Exception:
@@ -283,12 +293,12 @@ def _git(kayit, baslik, govde):
             print("push  : 🔴 kod=%d" % p.returncode)
             print("   " + (p.stderr or "").strip()[:200])
             if _ulasti:
-                print("   🟢 AMA ÖLÇÜLDÜ: %s uzaktaki dalda VAR — mesaj "
+                print("   🟢 AMA ÖLÇÜLDÜ: %s COMMIT EDİLDİ — mesaj "
                       "ULAŞMIŞ." % _no)
                 print("      Başka bir oturumun push'u onu taşımış. "
                       "TEKRAR YAZMA — mükerrer olur.")
             else:
-                print("   ⚠️ ÖLÇÜLDÜ: %s uzaktaki dalda YOK — MESAJ HENÜZ "
+                print("   ⚠️ ÖLÇÜLDÜ: %s COMMIT EDİLMEDİ — MESAJ HENÜZ "
                       "KİMSEYE ULAŞMADI." % _no)
                 print("      Bunu KULLANICIYA da söyle — arıza ÜÇ YERE "
                       "bildirilir (§7.1).")
