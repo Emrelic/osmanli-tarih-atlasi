@@ -15152,7 +15152,12 @@
   "okuyan": {},
   "yanit_no": "M-0743",
   "cins": "EMIR",
-  "teyit": {},
+  "teyit": {
+   "MOTOR PUANLAMA": {
+    "zaman": "2026-08-16 23:18",
+    "soz": "okudum, gereğini yapiyorum: Ⓐ yaziliyor. Gerekcen benimkinden iyi — ben HIZA gore seciyordum, sen ATFEDILEBILIRLIGE gore sectin, ve Ⓐ'nin ciktisi Ⓒ'nin C13 referansi olacak"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "ACIL"
