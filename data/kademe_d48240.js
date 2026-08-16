@@ -185,7 +185,7 @@ window.KADEME_YAMA = [
 
   {ad:"Fas (Fez)", k:1,
    kaynak:"devletler.js künyeleri `fas` (baskent:'Fas / Marakeş') · `merini` · `sadi`",
-   neden:"ÜÇ künyenin de merkezi — çakışma ama ÇELİŞKİ DEĞİL: üçü de ardışık Fas devletleri ve üçünde de Fez başkent. k:1 her üç okumada da doğru. '/' çift merkez biçimi (Fas / Marakeş): ikisi de başkent, mertebe aynı"},
+   neden:"ÜÇ künyenin de merkezi — çakışma ama ÇELİŞKİ DEĞİL: üçü de ardışık Fas devletleri ve üçünde de Fez başkent. '/' çift merkez biçimi (Fas / Marakeş): ikisi de başkent, mertebe aynı. 🟢 SONRADAN EKLENDİ — TDV `rabat` maddesi bunu BİREBİR doğruluyor: 'Rabat'a özel bir önem veren III. Muhammed, FAS VE MERAKEŞ'TEN SONRA burayı üçüncü başşehir edindi'. Yani Fas · Merakeş · Rabat üçü de başşehir ve üçü de k:1 — kayıtlarım birbiriyle ÇELİŞMİYOR, kaynak üçünü aynı cümlede sayıyor"},
 
   {ad:"Mombasa", k:1,
    kaynak:"devletler.js künye `svahili-sehirleri` (baskent:'Kilwa, Mombasa, Zengibar (çeşitli merkezler)', 1000..1698)",
@@ -207,7 +207,7 @@ window.KADEME_YAMA = [
 
   {ad:"Merakeş", k:1,
    kaynak:"devletler.js künyeleri `sadi` (baskent:'Marakeş', 1549-01-01..1659-01-01) ve `fas` (baskent:'Fas / Marakeş')",
-   neden:"Sa'dî Devleti'nin başkenti. Veride 'Merakeş', künyede 'Marakeş' — TAM eşleşme yok, bulanık eşleştirmeyle (0,86) bulundu ve COĞRAFYAYLA doğrulandı: nokta 31,63°K/-7,98°D, künye bolge:'kuzey-afrika' ⇒ ÖRTÜŞÜYOR. Aynı şehrin iki yazımı. Yamaya VERİNİN yazımı kondu"},
+   neden:"Sa'dî Devleti'nin başkenti. Veride 'Merakeş', künyede 'Marakeş' — TAM eşleşme yok, bulanık eşleştirmeyle (0,86) bulundu ve COĞRAFYAYLA doğrulandı: nokta 31,63°K/-7,98°D, künye bolge:'kuzey-afrika' ⇒ ÖRTÜŞÜYOR. Aynı şehrin iki yazımı; yamaya VERİNİN yazımı kondu. 🟢 SONRADAN EKLENDİ — künye eşleştirmesi tek dayanaktı, artık TDV `rabat` maddesinden BİREBİR bir cümle de var: 'III. Muhammed, FAS VE MERAKEŞ'TEN SONRA burayı üçüncü başşehir edindi'. Merakeş'in başşehirliği artık bir eşleştirmeye değil kaynağın kendi cümlesine dayanıyor"},
 
   // ==========================================================================
   // PARTİ 4 — C BLOĞU (Kuzeybatı Afrika / Sahra), TDV ARAŞTIRMASI
