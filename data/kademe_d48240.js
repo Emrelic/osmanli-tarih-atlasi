@@ -66,24 +66,35 @@ window.KADEME_YAMA = [
   // ---- k: YAZILMAYANLAR — kaynak SUSUYOR ya da mertebeyi vermiyor ----
   // Bunlar BOŞ BIRAKILMADI: aranıp ölçüldü ve sonucu yazıldı (SABLON §④ dört kova).
 
+  // 🔴 BU BESI M-0441'IN EMRIYLE YENIDEN SINANDI (besinci TDV tuzagi:
+  // olu slug da govde donduruyor + ad ONE OTEKI YAZIMIYLA aranmali).
+  // Sinav: her ad icin ALTERNATIF SLUGLAR denendi ve HTTP KODU olculdu.
+  //   302 (olu) : bulgar--sehir · bolgar · bulgar-sehri · idil-bulgar ·
+  //               bulgarlar · tetis · tetyusi · cimgi-tura · tura ·
+  //               tumen--sehir · sibir · isker · kaslik · ukek · uvek ·
+  //               beldjamen · bacman · ejderhan-sehri
+  //   200 (canli): tumen  ← VE ACILDI: TUZAK ② cikti, asagiya bak
+  // ⇒ Kova SINANDI ve AYAKTA. Ama artik "olctum" diyebiliyorum; once
+  //    yalnizca "tek maddeye baktim" diyebiliyordum.
+
   {ad:"Bulgar (Bolgar)",
-   kaynak:"TDV bulgar (gövdesi okundu)",
-   neden:"kaynak susuyor — TDV maddesi Bulgar'ı 'Bulgar, Biler, Suvar, Osal, Tetis' arasında 'önemli kültür ve ticaret merkezleri' diye anıyor ama İDARÎ MERTEBE vermiyor; basşehir de demiyor. Altın Orda dönemindeki statüsüne hiç değinmiyor"},
+   kaynak:"TDV bulgar (gövdesi okundu) + 5 alternatif slug 302",
+   neden:"kaynak susuyor — TDV maddesi Bulgar'ı 'Bulgar, Biler, Suvar, Osal, Tetis' arasında 'önemli kültür ve ticaret merkezleri' diye anıyor ama İDARÎ MERTEBE vermiyor; basşehir de demiyor. Altın Orda dönemindeki statüsüne hiç değinmiyor. Mustakil sehir maddesi ARANDI: bulgar--sehir · bolgar · bulgar-sehri · idil-bulgar · bulgarlar hepsi 302"},
 
   {ad:"Tetyuşi",
-   kaynak:"TDV bulgar (gövdesi okundu)",
-   neden:"kaynak susuyor — aynı madde 'Tetis' adını İdil Bulgar merkezleri arasında sayıyor, mertebe VERMİYOR"},
+   kaynak:"TDV bulgar (gövdesi okundu) + tetis/tetyusi 302",
+   neden:"kaynak susuyor — aynı madde 'Tetis' adını İdil Bulgar merkezleri arasında sayıyor, mertebe VERMİYOR. TDV'nin kendi yazimiyla (tetis) ve veri yazimiyla (tetyusi) mustakil madde ARANDI, ikisi de 302"},
 
   {ad:"Tümen (Çimgi-Tura)",
-   kaynak:"TDV sibir-hanligi (gövdesi okundu)",
-   neden:"kaynak susuyor — madde Cimgi-Tura'yı ÖNCEKİ basşehir olarak DOĞRULAMIYOR; yalnız bassehrin İsker'e TASINDIGINI söylüyor. Öncesini yazmak uydurma olurdu; ikinci akademik kaynak gerekiyor"},
+   kaynak:"TDV sibir-hanligi (gövdesi okundu) + TDV tumen (gövdesi okundu — BASKA KONU)",
+   neden:"kaynak susuyor — sibir-hanligi maddesi Cimgi-Tura'yı ÖNCEKİ basşehir olarak DOĞRULAMIYOR, yalnız bassehrin İsker'e TASINDIGINI söylüyor. 🔴 M-0441 sinavinda `tumen` slugu CANLI (200) cikti ve ACILDI: TUZAK ② — madde sehri degil askeri/idari TERIMI anlatiyor ('Ortacag Turk ve Mogol devletlerinde bir askeri birligi ifade eden, idari ve mali teskilatta da kullanilan terim') ve Cimgi-Tura · Sibir Hanligi · Isker adlarini HIC ICERMIYOR. cimgi-tura · tura · tumen--sehir · sibir · isker · kaslik hepsi 302"},
 
   {ad:"Ukek (Uvek)",
-   kaynak:"TDV saray--sehir (gövdesi okundu) — Ukek adı GEÇMİYOR",
-   neden:"aradım, bu maddede YOK — Altın Orda basşehir maddesi Ukek'i hiç anmıyor. Mertebesi için ayrı bir kaynak gerekiyor"},
+   kaynak:"TDV saray--sehir (gövdesi okundu) — Ukek adı GEÇMİYOR · ukek/uvek sluglari 302",
+   neden:"aradım, bu maddede YOK — Altın Orda basşehir maddesi Ukek'i hiç anmıyor, mustakil maddesi de yok (iki yazim da 302). Mertebesi için AKADEMİK kaynak gerekiyor"},
 
   {ad:"Beldjamen",
-   kaynak:"TDV saray--sehir (gövdesi okundu) — Beldjamen adı GEÇMİYOR",
-   neden:"aradım, bu maddede YOK — mertebesi için ayrı bir kaynak gerekiyor"},
+   kaynak:"TDV saray--sehir (gövdesi okundu) — Beldjamen adı GEÇMİYOR · beldjamen/bacman sluglari 302",
+   neden:"aradım, bu maddede YOK, mustakil maddesi de yok. Mertebesi için AKADEMİK kaynak gerekiyor"},
 
 ];
