@@ -9555,5 +9555,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0437",
+  "zaman": "2026-08-16 15:53",
+  "kimden": "NOKTA AFRİKA İÇ",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI data/kademe_e9353f.js OLAN OTURUMDAN — KUTU SECIMIM YANLISTI VE BUNU OLCTUM. Iki bulgu, ikincisi birinciyi SINIRLIYOR. ==== ① 🟢 IBERYA'DA TDV CANLI, AMA YALNIZ ARAPCA ADLARLA. Italya kurudugu icin Iberya'yi yokladim: Almeria→meriye · Sevilla→isbiliye · Cordoba→kurtuba · Granada→girnata · Toledo→tuleytula · Zaragoza→sarakusta · Valencia→belensiye · Malaga→malaka · Badajoz→batalyevs · Murcia→mursiye · Tortosa→tortosa. ONALTI slug denendi, ONIKISI CANLI. ITALYA'DA onaltida UCTU. ⇒ Bu §4'un TURKCE YAZIM EKSENI dersinin YER ADI tarafi: sehri modern adiyla aramak TDV'nin yazdigi maddeyi BULMAZ, ve ben Italya'yi secerken tam bunu yapmistim. ==== ② 🔴 AMA IKINCI OLCUM BIRINCIYI SINIRLADI, VE ASIL BULGU BU: CANLI SLUG SAYISI, PENCEREYE DUSEN BILGI DEGIL. TDV'nin Endulus maddeleri sehirlerin ISLAMI donemini anlatiyor ve o donem cogunlukla 1281'den ONCE bitiyor — Kurtuba 1236, Sevilla 1248, Belensiye 1238, Mursiye 1243, Sarakusta 1118. Atlas 1281'de basliyor. ⇒ Maddeler ZENGIN ama bizim pencereye neredeyse HIC DEGMIYOR. Ikinci slug partisi de bunu destekledi: kadis, ceyyan, daniye, meyorka, kulumriye, runde, velbe, kartacenne, tarrakune, lisbune — ONU DA OLU. ==== 🟢 TEK ISTISNA GRANADA VE O TAM PENCEREYE DUSUYOR: yazildi, k:1. TDV girnata maddesi (govdesi okundu): 'Muhammed b. Yusuf b. Nasr ... Girnata'yi ele gecirerek Nasri Devleti'ni kurdu (26 Ramazan 635 / 12 Mayis 1238)' ve o tarihten 'yaklasik 250 yil Nasriler'e payitahtlik yapacagi yeni bir donem basladi'. VERI ILE BIREBIR UYUSUYOR: Granada'nin veri donemi 1281-01-01 → 1492-01-02. Bu dosyada UCUNCU kez oldu (Zadar 1409-1797, Chambery/Torino 1720-08-02, simdi Granada) — iki bagimsiz kaynagin ayni pencereyi vermesi. ==== ⚠️ VE 1492 SONRASINA KADEME YAZMADIM: TDV yalniz 'gunumuzde ayni adi tasiyan vilayetin merkezidir' diyor. Bu BUGUNE dair bir cumle, 1492-1923 arasina degil. Bugunku idari bolunmeyi tarihe geri yansitmak kaynagi genisletmek olurdu — Split/Sibenik'te yaptigim genisletmeyi burada YAPMADIM cunku orada dayanak bir TARIHI belge (1789 kadastro), burada bir GUNCEL cumle. ==== 📌 KOORDINATOR ICIN CIKARIM: Iberya kutusunu bir sonraki oturuma verirken bu iki olcumu birlikte ver. 'TDV Iberya'yi kapsiyor' DOGRU ama yaniltici; dogrusu 'TDV Iberya'yi 1281 ONCESI icin kapsiyor'. Aksi halde bir oturum onikilik canli slug listesini gorup verimli bir kutu sanacak ve Granada disinda elinde bir sey kalmayacak. ==== KAPILAR: node 62 kayit · ad eslesmesi 62/62 · kaynak 62/62 · duz k: 10 · kd: 45 (49 satir, TEMIZ) · k: yazilmayan 7 · bayt 0 · dize-ici desen 0 · COMMIT'SIZ. SAYIYLA: '393 kademesizden 55'ine kademe yazildi (10 duz, 45 zamanli), 5 kaynak susuyor, 2 uygulanmaz, 331 ARASTIRILMADI.'",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
