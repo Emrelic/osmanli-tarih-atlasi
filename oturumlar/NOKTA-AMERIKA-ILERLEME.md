@@ -33,6 +33,22 @@ temiz · kaynak: 3/3 satır dolu · git commit'li, push doğrulandı.
 Toplam bu oturumda: 3 kayıt (Buenos Aires · Panama City · Guayaquil),
 3/3 kur: dolu, 3/3 kaynak: dolu, 0 bulunamadı, 1 yeni künye borcu
 (panama-cumhuriyeti, mevcuttaki 32'ye ek).
+
+## 🔴 DÜZELTME — M-0423: Britannica tek başına yeterli değildi
+
+Koordinatör uyardı: "sarı" kaynak sınıfı (Britannica) tek dayanak olamaz,
+yalnız "hangi maddeye bakayım" sorusunu cevaplar. İkinci akademik kaynak
+(Encyclopedia.com — Encyclopedia of Latin American History and Culture)
+arandı:
+```
+Panama City   İKİNCİ KAYNAK DOĞRULADI — gün dahil birebir aynı (1519-08-15)
+Guayaquil     İKİNCİ KAYNAK ÇÜRÜTTÜ — "tarih/kurucu ANLAŞMAZ, en yaygın
+              görüş 1531 Belalcázar" diyor, Britannica'nın "1531 terk
+              edildi, 1537 Orellana" anlatısının TERSİ.
+```
+Guayaquil'de gün-kesinliği (25 Temmuz) bırakıldı, `kur:` yıla yuvarlandı
+ve muhafazakâr (geç) tarafa çekildi: 1538-01-01. Çelişki `kaynak:`
+yorumunda iki alıntıyla AÇIKÇA yazılı. commit c494015, push doğrulandı.
 <!-- KİMLİK (13-14 Ağustos oturumu): local_0a5035a0-e065-4beb-b0a9-f7be18790ddb -->
 <!-- KİMLİK (16 Ağustos devam oturumu): scratchpad UUID 0ee15e49-…, dosya yerlesimler_0ee15e.js -->
 
