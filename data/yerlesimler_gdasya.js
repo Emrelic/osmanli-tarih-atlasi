@@ -83,7 +83,7 @@ window.YERLESIMLER_GDASYA = [
 // Thanh Hoa/Vinh: Lê hanedanının çekirdek bölgesi — Mạc gasbı sırasında
 // (1527-1592) BU BÖLGE Lê'ye sadık kaldı (Lê Trung Hưng direnişinin üssü),
 // bu yüzden zincirde Mạc dönemi YOK, le-hanedani kesintisiz.
-{ ad:"Thanh Hoa", tur:"sehir", lat:19.81, lon:105.78, g:1, k:0,
+{ ad:"Thanh Hoa", tur:"sehir", lat:19.81, lon:105.78, g:1, k:2,kd:[{f:"1400-03-01",t:"1407-06-17",k:1,m:"Thanh Hoa"}],
   s:[{f:"1281-01-01",t:"1400-03-01",d:"tran-hanedani"},{f:"1400-03-01",t:"1407-06-17",d:"ho-hanedani"},{f:"1407-06-17",t:"1428-01-03",d:"ming-hanedani"},{f:"1428-01-03",t:"1786-07-21",d:"le-hanedani"},{f:"1786-07-21",t:"1802-06-20",d:"tay-son"},{f:"1802-06-20",t:"1883-08-25",d:"nguyen-hanedani"},{f:"1883-08-25",t:"1923-10-29",d:"fransiz-cinhindi"}] },
 { ad:"Vinh", tur:"sehir", lat:18.67, lon:105.69, g:0, k:0,
   s:[{f:"1281-01-01",t:"1400-03-01",d:"tran-hanedani"},{f:"1400-03-01",t:"1407-06-17",d:"ho-hanedani"},{f:"1407-06-17",t:"1428-01-03",d:"ming-hanedani"},{f:"1428-01-03",t:"1786-07-21",d:"le-hanedani"},{f:"1786-07-21",t:"1802-06-20",d:"tay-son"},{f:"1802-06-20",t:"1883-08-25",d:"nguyen-hanedani"},{f:"1883-08-25",t:"1923-10-29",d:"fransiz-cinhindi"}] },
@@ -328,10 +328,10 @@ window.YERLESIMLER_GDASYA = [
   s:[{f:"1281-01-01",t:"1400-01-01",d:"malay-sultanliklari"},{f:"1400-01-01",t:"1528-01-01",d:"malaka-sultanligi"},{f:"1528-01-01",t:"1632-01-01",d:"cohor-sultanligi"},{f:"1632-01-01",t:"1858-01-01",d:"dogu-sumatra-sultanliklari"},{f:"1858-01-01",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
 { ad:"Rengat (Indragiri)", tur:"sehir", lat:-0.35, lon:102.55, g:0, k:0,
   s:[{f:"1281-01-01",t:"1400-01-01",d:"malay-sultanliklari"},{f:"1400-01-01",t:"1528-01-01",d:"malaka-sultanligi"},{f:"1528-01-01",t:"1590-01-01",d:"cohor-sultanligi"},{f:"1590-01-01",t:"1858-01-01",d:"dogu-sumatra-sultanliklari"},{f:"1858-01-01",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
-{ ad:"Pontianak", tur:"liman", lat:-0.02, lon:109.33, g:1, k:0,
+{ ad:"Pontianak", tur:"liman", lat:-0.02, lon:109.33, g:1, k:2,kd:[{f:"1772-01-01",t:"1855-01-01",k:1,m:"Pontianak"}],
   kur:"1772-01-01",
   s:[{f:"1772-01-01",t:"1855-01-01",d:"pontianak"},{f:"1855-01-01",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
-{ ad:"Tenggarong (Kutai)", tur:"sehir", lat:0.40, lon:117.01, g:0, k:0,
+{ ad:"Tenggarong (Kutai)", tur:"sehir", lat:0.40, lon:117.01, g:0, k:1,kd:[{f:"1575-01-01",t:"1908-01-01",k:1,m:"Tenggarong (Kutai)"}],
   kur:"1575-01-01",
   s:[{f:"1575-01-01",t:"1908-01-01",d:"kutai"},{f:"1908-01-01",t:"1923-10-29",d:"hollanda-dogu-hint"}] },
 { ad:"Watampone (Bone)", tur:"sehir", lat:-4.54, lon:120.33, g:1, k:0,

@@ -71,7 +71,7 @@ window.YERLESIMLER_EK10 = [
 // İsker/Sibir — hanlığa adını veren başkent, bugünkü Tobolsk'un yakını.
 // TDV: "Muhammed Tayboğa'nın başşehrini Sibir (Tatarcası İsker 'eski kale')
 // şehrine taşıması ile hanlık Sibir Hanlığı olarak anılmaya başlandı."
-{ ad:"Tobolsk (İsker)", tur:"sehir", lat:58.1990, lon:68.2560, g:0, k:0, d:[],
+{ ad:"Tobolsk (İsker)", tur:"sehir", lat:58.1990, lon:68.2560, g:0, k:1, d:[],
   s:[{f:"1281-01-01",t:"1430-01-01",d:"altinorda"},{f:"1430-01-01",t:"1598-08-20",d:"sibir-hanligi"},{f:"1598-08-20",t:"1923-10-29",d:"rusya"}] },
 
 // İrtiş yukarısı. TDV `kucum-han`: "İlk olarak İrtiş'in yukarısında, yani

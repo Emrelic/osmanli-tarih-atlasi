@@ -674,7 +674,7 @@ window.YERLESIMLER_AFRIKA = [
 // olurdu; boş bırakıldı ve entegrasyon oturumuna bildirildi.
 // ===========================================================================
 
-{ ad:"Aksum", tur:"sehir", lat:14.128, lon:38.723, g:1, k:0,
+{ ad:"Aksum", tur:"sehir", lat:14.128, lon:38.723, g:1, k:1,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 { ad:"Adua", tur:"sehir", lat:14.170, lon:38.898, g:0, k:0,
@@ -729,7 +729,7 @@ window.YERLESIMLER_AFRIKA = [
 // Afar (Danâkil) kıyısı. Avsa sultanlığının kimliği yok, "adal" ile boyandı.
 // Aseb: Rubattino şirketinin hakları 10 Mart 1882'de İtalyan devletine
 // devredildi — koloninin resmî başlangıcı budur.
-{ ad:"Aseb", tur:"liman", lat:13.009, lon:42.735, g:0, k:0,
+{ ad:"Aseb", tur:"liman", lat:13.009, lon:42.735, g:0, k:2,
   s:[{f:"1281-01-01",t:"1882-03-10",d:"adal"},{f:"1882-03-10",t:"1923-10-29",d:"italya"}], d:[] },
 
 // Fransız himayesi 1884'te kuruldu; GÜN DOĞRULANAMADI, bu yüzden proje
@@ -955,7 +955,7 @@ window.YERLESIMLER_AFRIKA = [
 // çelişkisini altı kesitte birden artırırdı (ölçüldü).
 // ===========================================================================
 
-{ ad:"El-Fâşir", tur:"sehir", lat:13.630, lon:25.349, g:1, k:0,
+{ ad:"El-Fâşir", tur:"sehir", lat:13.630, lon:25.349, g:1, k:1,
   s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)"}] },
 
@@ -988,7 +988,7 @@ window.YERLESIMLER_AFRIKA = [
 // yanlış olurdu.
 // ===========================================================================
 
-{ ad:"Bonga (Kaffa)", tur:"sehir", lat:7.283, lon:36.233, g:0, k:0,
+{ ad:"Bonga (Kaffa)", tur:"sehir", lat:7.283, lon:36.233, g:0, k:1,
   s:[{f:"1281-01-01",t:"1897-09-10",d:"kaffa"},{f:"1897-09-10",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 { ad:"Cimma (Jiren)", tur:"sehir", lat:7.673, lon:36.834, g:0, k:0,

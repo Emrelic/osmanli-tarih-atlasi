@@ -48,7 +48,7 @@
 window.YERLESIMLER_EK11 = [
 
 // ── KUZEY ESTONYA — Lehistan safhası YOK ────────────────────────────
-{ ad:"Tallinn (Reval)", tur:"liman", lat:59.4370, lon:24.7540, g:0, k:0, d:[],
+{ ad:"Tallinn (Reval)", tur:"liman", lat:59.4370, lon:24.7540, g:0, k:0,kd:[{f:"1918-02-24",t:"1923-10-29",k:1,m:null}], d:[],
   s:[{f:"1281-01-01",t:"1561-11-28",d:"almanya"},{f:"1561-11-28",t:"1721-08-30",d:"isvec"},{f:"1721-08-30",t:"1918-02-24",d:"rusya"},{f:"1918-02-24",t:"1923-10-29",d:"estonya"}] },
 
 // ⚠️ Narva 1558-1581 arasında RUS elindeydi (Livonya Savaşı) ve bu dönem

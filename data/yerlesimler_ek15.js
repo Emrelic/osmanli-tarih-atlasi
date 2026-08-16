@@ -62,11 +62,11 @@ window.YERLESIMLER_EK15 = [
 // ── ① TAŞKENT — Rus Türkistanı'nın başşehri olacak şehir ────────────
 // 🔴 Bugün Taşkent'i boyayan nokta KAŞGAR: 604,7 km doğuda ve 1912'ye
 //    kadar Qing. Yani Orta Asya'nın en büyük şehri haritada Çin renginde.
-{ ad:"Taşkent", tur:"sehir", lat:41.3110, lon:69.2800, g:0, k:0, d:[],
+{ ad:"Taşkent", tur:"sehir", lat:41.3110, lon:69.2800, g:0, k:1,kd:[{f:"1867-01-01",t:"1923-10-29",k:1,m:null}], d:[],
   s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1503-01-01",d:"timurlu"},{f:"1503-01-01",t:"1809-01-01",d:"buhara"},{f:"1809-01-01",t:"1865-06-17",d:"hokand"},{f:"1865-06-17",t:"1923-10-29",d:"rusya"}] },
 
 // ── ② FERGANA HAVZASI — hanlığın çekirdeği ──────────────────────────
-{ ad:"Hokand", tur:"sehir", lat:40.5290, lon:70.9430, g:0, k:0, d:[],
+{ ad:"Hokand", tur:"sehir", lat:40.5290, lon:70.9430, g:0, k:2,kd:[{f:"1710-01-01",t:"1876-02-19",k:1,m:"Hokand"}], d:[],
   s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1710-01-01",d:"buhara"},{f:"1710-01-01",t:"1876-02-19",d:"hokand"},{f:"1876-02-19",t:"1923-10-29",d:"rusya"}] },
 
 { ad:"Andican", tur:"sehir", lat:40.7830, lon:72.3500, g:0, k:0, d:[],

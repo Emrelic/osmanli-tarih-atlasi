@@ -107,7 +107,7 @@ window.YERLESIMLER_H2_RUSYA = [
 // ─── A · KUZEY RUSYA — Novgorod ardı, Pomorye, Vyatka, Perm ────────────────
 // En seyrek blok (8,2). Bu topraklar hiçbir dönemde Tatar idaresine girmedi;
 // Novgorod Cumhuriyeti → Moskova çizgisi kesintisizdir ⇒ tek dönem.
-{ ad:"Pskov", tur:"sehir", lat:57.813, lon:28.335, g:0, k:0,
+{ ad:"Pskov", tur:"sehir", lat:57.813, lon:28.335, g:0, k:0,kd:[{f:"1348-01-01",t:"1510-01-13",k:1,m:null}],
   s:[{f:"1281-01-01", t:"1348-01-01", d:"novgorod"},
      {f:"1348-01-01", t:"1510-01-13", d:"pskov"},
      {f:"1510-01-13", t:"1547-01-16", d:"moskova"},
@@ -247,7 +247,7 @@ window.YERLESIMLER_H2_RUSYA = [
   s:[{f:"1281-01-01", t:"1325-01-01", d:"altinorda"},
      {f:"1325-01-01", t:"1547-01-16", d:"moskova"},
      {f:"1547-01-16", t:"1923-10-29", d:"rusya"}] },
-{ ad:"Tver", tur:"sehir", lat:56.859, lon:35.912, g:0, k:0,
+{ ad:"Tver", tur:"sehir", lat:56.859, lon:35.912, g:0, k:1,
   s:[{f:"1281-01-01", t:"1485-09-12", d:"tver"},
      {f:"1485-09-12", t:"1547-01-16", d:"moskova"},
      {f:"1547-01-16", t:"1923-10-29", d:"rusya"}] },
@@ -280,11 +280,11 @@ window.YERLESIMLER_H2_RUSYA = [
 // Kasimov — Kāsım Hanlığı'nın (1452-1681) merkezi. TDV `kasim-hanligi` (200).
 // 🔴 `kasim` kimliği RENKSİZ ve KÜNYESİZ olduğu için `rusya` yazıldı; renk
 // gelirse 1452-1681 penceresi buraya girer. Koordinatöre bildirildi.
-{ ad:"Kasimov", tur:"sehir", lat:54.945, lon:41.393, g:1, k:0,
+{ ad:"Kasimov", tur:"sehir", lat:54.945, lon:41.393, g:1, k:1,
   s:[{f:"1281-01-01", t:"1325-01-01", d:"altinorda"},
      {f:"1325-01-01", t:"1547-01-16", d:"moskova"},
      {f:"1547-01-16", t:"1923-10-29", d:"rusya"}] },
-{ ad:"Temnikov", tur:"sehir", lat:54.633, lon:43.223, g:2, k:0,
+{ ad:"Temnikov", tur:"sehir", lat:54.633, lon:43.223, g:2, k:3,
   s:[{f:"1281-01-01", t:"1325-01-01", d:"altinorda"},
      {f:"1325-01-01", t:"1547-01-16", d:"moskova"},
      {f:"1547-01-16", t:"1923-10-29", d:"rusya"}] },
@@ -374,11 +374,11 @@ window.YERLESIMLER_H2_RUSYA = [
 // ⚠️ Saray-Batu ↔ Saray-Cedîd hangi harabeye karşılık gelir, literatürde
 // TARTIŞMALIDIR. O yüzden noktalar HANEDAN ADIYLA değil ARKEOLOJİK SİT
 // ADIYLA yazıldı — tartışmalı atfı veriye gömmemek için.
-{ ad:"Saray (Selitrennoye)", tur:"sehir", lat:47.183, lon:47.700, g:0, k:0,
+{ ad:"Saray (Selitrennoye)", tur:"sehir", lat:47.183, lon:47.700, g:0, k:1,
   s:[{f:"1281-01-01", t:"1466-01-01", d:"altinorda"},
      {f:"1466-01-01", t:"1556-01-01", d:"astarhan"},
      {f:"1556-01-01", t:"1923-10-29", d:"rusya"}] },
-{ ad:"Yeni Saray (Tsarev)", tur:"sehir", lat:48.688, lon:45.383, g:1, k:0,
+{ ad:"Yeni Saray (Tsarev)", tur:"sehir", lat:48.688, lon:45.383, g:1, k:1,
   s:[{f:"1281-01-01", t:"1466-01-01", d:"altinorda"},
      {f:"1466-01-01", t:"1556-01-01", d:"astarhan"},
      {f:"1556-01-01", t:"1923-10-29", d:"rusya"}] },

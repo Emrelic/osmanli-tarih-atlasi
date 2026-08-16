@@ -401,7 +401,7 @@ window.YERLESIMLER_H2_AFRIKA = [
   s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1923-10-29",d:"italya"}], d:[] },
 
 // ⚠️ Osmanlı dönemi yazılamadı — yukarıdaki bölüm notuna bakınız.
-{ ad:"Debârve", tur:"sehir", lat:15.100, lon:38.833, g:0, k:0,
+{ ad:"Debârve", tur:"sehir", lat:15.100, lon:38.833, g:0, k:4,
   s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1923-10-29",d:"italya"}], d:[] },
 
 // ===========================================================================

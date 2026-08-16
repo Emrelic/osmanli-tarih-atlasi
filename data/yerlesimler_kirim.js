@@ -135,26 +135,26 @@
 window.YERLESIMLER_KIRIM = [
 
 // ── A) HAN TOPRAĞI — Bahçesaray zincirinin birebir aynısı ────────────
-{ ad:"Gözleve (Kezlev)", tur:"liman", lat:45.1904, lon:33.3669, g:0, k:0,
+{ ad:"Gözleve (Kezlev)", tur:"liman", lat:45.1904, lon:33.3669, g:0, k:4,
   s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1475-06-06",d:"kirim"},{f:"1771-07-01",t:"1774-07-21",d:"rusya"},{f:"1774-07-21",t:"1783-04-19",d:"kirim"},{f:"1783-04-19",t:"1923-10-29",d:"rusya"}],
   d:[], v:[{f:"1475-06-06",t:"1771-07-01",k:"Kırım Hanlığı"}] },
 
-{ ad:"Or Kapı (Ferahkirman)", tur:"kale", lat:46.1600, lon:33.6900, g:0, k:0,
+{ ad:"Or Kapı (Ferahkirman)", tur:"kale", lat:46.1600, lon:33.6900, g:0, k:4,
   s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1475-06-06",d:"kirim"},{f:"1771-07-01",t:"1774-07-21",d:"rusya"},{f:"1774-07-21",t:"1783-04-19",d:"kirim"},{f:"1783-04-19",t:"1923-10-29",d:"rusya"}],
   d:[], v:[{f:"1475-06-06",t:"1771-07-01",k:"Kırım Hanlığı"}] },
 
-{ ad:"Akmescid", tur:"sehir", lat:44.9521, lon:34.1024, g:0, k:0,
+{ ad:"Akmescid", tur:"sehir", lat:44.9521, lon:34.1024, g:0, k:3,
   s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1475-06-06",d:"kirim"},{f:"1771-07-01",t:"1774-07-21",d:"rusya"},{f:"1774-07-21",t:"1783-04-19",d:"kirim"},{f:"1783-04-19",t:"1923-10-29",d:"rusya"}],
   d:[], v:[{f:"1475-06-06",t:"1771-07-01",k:"Kırım Hanlığı"}] },
 
-{ ad:"Karasubazar", tur:"sehir", lat:45.0556, lon:34.6000, g:0, k:0,
+{ ad:"Karasubazar", tur:"sehir", lat:45.0556, lon:34.6000, g:0, k:3,
   s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1475-06-06",d:"kirim"},{f:"1771-07-01",t:"1774-07-21",d:"rusya"},{f:"1774-07-21",t:"1783-04-19",d:"kirim"},{f:"1783-04-19",t:"1923-10-29",d:"rusya"}],
   d:[], v:[{f:"1475-06-06",t:"1771-07-01",k:"Kırım Hanlığı"}] },
 
 // Solhat / Eski Kırım — Altın Orda'nın Kırım valiliğinin merkeziydi ve
 // yarımadaya adını veren yerdir (TDV `kirim`). Kefe'ye 21,58 km; sahil
 // şeridi ile iç toprağın rengi arasındaki gerçek sınırı O taşıyor.
-{ ad:"Eski Kırım (Solhat)", tur:"sehir", lat:45.0281, lon:35.1078, g:0, k:0,
+{ ad:"Eski Kırım (Solhat)", tur:"sehir", lat:45.0281, lon:35.1078, g:0, k:3,
   s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1475-06-06",d:"kirim"},{f:"1771-07-01",t:"1774-07-21",d:"rusya"},{f:"1774-07-21",t:"1783-04-19",d:"kirim"},{f:"1783-04-19",t:"1923-10-29",d:"rusya"}],
   d:[], v:[{f:"1475-06-06",t:"1771-07-01",k:"Kırım Hanlığı"}] },
 

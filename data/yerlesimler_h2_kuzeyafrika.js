@@ -50,7 +50,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // ---------------------------------------------------------------------
 
   // Alevî (Filâlî) hanedanının payitahtı — TDV `miknas`, `filaliler`.
-  { ad:"Miknâs (Meknes)", tur:"sehir", lat:33.895, lon:-5.555, g:1, k:0, m:null,
+  { ad:"Miknâs (Meknes)", tur:"sehir", lat:33.895, lon:-5.555, g:1, k:1, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
 
   // TDV `titvan`: 1435'te yıkılan şehir Endülüs muhacirlerince 888-889

@@ -75,7 +75,7 @@ window.YERLESIMLER_EK16 = [
 //    1826-1863 arası Sadozâî emirlerinin elindeydi ve Kaçar kuşatmaları
 //    (1833, 1837) BAŞARISIZ oldu — yani hiçbir zaman İran'a geçmedi.
 //    O yüzden ara dönem için `kacar` YAZILMADI.
-{ ad:"Herat", tur:"sehir", lat:34.3420, lon:62.2030, g:0, k:0, d:[],
+{ ad:"Herat", tur:"sehir", lat:34.3420, lon:62.2030, g:0, k:2, d:[],
   s:[{f:"1281-01-01",t:"1335-12-01",d:"ilhanli"},{f:"1335-12-01",t:"1381-04-01",d:"iran"},{f:"1381-04-01",t:"1507-01-01",d:"timurlu"},{f:"1507-01-01",t:"1510-12-02",d:"buhara"},{f:"1510-12-02",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1826-01-01",d:"afgan-durrani"},{f:"1826-01-01",t:"1923-10-29",d:"afganistan"}] },
 
 // ── ② BELH — Ceyhun'un güney yakası ─────────────────────────────────
@@ -86,7 +86,7 @@ window.YERLESIMLER_EK16 = [
 //    kısa bir Buhara işgali, 1841'de Afganlar geri aldı"). On beş yıllık
 //    bu pencereyi atlamak kolaydı; atlanmadı çünkü Ceyhun'un iki yakası
 //    arasındaki gerçek çekişme tam orada.
-{ ad:"Belh", tur:"sehir", lat:36.7580, lon:66.8970, g:0, k:0, d:[],
+{ ad:"Belh", tur:"sehir", lat:36.7580, lon:66.8970, g:0, k:2, d:[],
   s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1506-01-01",d:"timurlu"},{f:"1506-01-01",t:"1509-01-01",d:"buhara"},{f:"1509-01-01",t:"1514-08-23",d:"safevi"},{f:"1514-08-23",t:"1751-01-01",d:"buhara"},{f:"1751-01-01",t:"1826-01-01",d:"afgan-durrani"},{f:"1826-01-01",t:"1841-01-01",d:"buhara"},{f:"1841-01-01",t:"1923-10-29",d:"afganistan"}] },
 
 ];

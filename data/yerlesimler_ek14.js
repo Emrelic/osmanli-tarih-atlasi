@@ -112,14 +112,14 @@ window.YERLESIMLER_EK14 = [
 // ── ① MÂVERÂÜNNEHİR ÇEKİRDEĞİ — Timur'un payitahtı ve Buhara ────────
 // 🔴 DOSYANIN EN ÖNEMLİ İKİ KAYDI. Semerkant 1370-1500 arası Timurlu
 //    başkenti, 1500-1868 arası Özbek hanlarının; ikisi de haritada YOKTU.
-{ ad:"Semerkant", tur:"sehir", lat:39.6542, lon:66.9758, g:0, k:0, d:[],
+{ ad:"Semerkant", tur:"sehir", lat:39.6542, lon:66.9758, g:0, k:2, d:[],
   s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1868-05-14",d:"buhara"},{f:"1868-05-14",t:"1923-10-29",d:"rusya"}] },
 
 // Buhara Emirliği 1868'de Rus himayesine girdi ama ILGA EDİLMEDİ —
 // hanlık 1920'ye kadar ayrı bir devlet olarak durdu. Semerkant'ın 1868'de
 // Rus, Buhara'nın 1920'ye kadar Buhara olması bu yüzden ÇELİŞKİ DEĞİL:
 // biri ilhak edildi, öteki himaye altına alındı.
-{ ad:"Buhara", tur:"sehir", lat:39.7681, lon:64.4210, g:0, k:0, d:[],
+{ ad:"Buhara", tur:"sehir", lat:39.7681, lon:64.4210, g:0, k:1, d:[],
   s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1920-09-02",d:"buhara"},{f:"1920-09-02",t:"1923-10-29",d:"rusya"}] },
 
 { ad:"Karşi (Nahşeb)", tur:"sehir", lat:38.8600, lon:65.7950, g:0, k:0, d:[],

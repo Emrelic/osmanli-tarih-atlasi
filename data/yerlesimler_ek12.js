@@ -73,7 +73,7 @@
 
 window.YERLESIMLER_EK12 = [
 
-{ ad:"Reykjavík", tur:"sehir", lat:64.1466, lon:-21.9426, g:0, k:0, d:[],
+{ ad:"Reykjavík", tur:"sehir", lat:64.1466, lon:-21.9426, g:0, k:1, d:[],
   s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec"},{f:"1537-01-01",t:"1918-12-01",d:"danimarka"},{f:"1918-12-01",t:"1923-10-29",d:"izlanda"}] },
 
 // ⚠️ maske: Akureyri (65,6835/−18,0878) Eyjafjörður'un dibinde ve 10m

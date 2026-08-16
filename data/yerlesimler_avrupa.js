@@ -126,8 +126,8 @@ window.YERLESIMLER_AVRUPA = [
 
 // ── FRANSA: Bretanya (B-7'nin doğrudan kapanışı) ───────────────────────────
 // Bretanya Dükalığı 1532-08-13 birlik fermanına (Vannes) kadar ayrı devlet
-{ ad:"Rennes", tur:"sehir", lat:48.114, lon:-1.680, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1532-08-13",d:"bretanya"},{f:"1532-08-13",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
-{ ad:"Nantes", tur:"liman", lat:47.218, lon:-1.554, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1532-08-13",d:"bretanya"},{f:"1532-08-13",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
+{ ad:"Rennes", tur:"sehir", lat:48.114, lon:-1.680, g:0, k:0,kd:[{f:"1281-01-01",t:"1532-08-13",k:1,m:null}], d:[], s:[{f:"1281-01-01",t:"1532-08-13",d:"bretanya"},{f:"1532-08-13",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
+{ ad:"Nantes", tur:"liman", lat:47.218, lon:-1.554, g:0, k:0,kd:[{f:"1281-01-01",t:"1532-08-13",k:1,m:null}], d:[], s:[{f:"1281-01-01",t:"1532-08-13",d:"bretanya"},{f:"1532-08-13",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
 { ad:"Brest", tur:"liman", lat:48.390, lon:-4.486, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1532-08-13",d:"bretanya"},{f:"1532-08-13",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
 { ad:"Quimper", tur:"sehir", lat:47.996, lon:-4.102, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1532-08-13",d:"bretanya"},{f:"1532-08-13",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
 { ad:"Vannes", tur:"liman", lat:47.658, lon:-2.760, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1532-08-13",d:"bretanya"},{f:"1532-08-13",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
@@ -172,7 +172,7 @@ window.YERLESIMLER_AVRUPA = [
 { ad:"Pau", tur:"sehir", lat:43.296, lon:-0.370, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1479-01-01",d:"fransa"},{f:"1479-01-01",t:"1620-10-19",d:"navarra"},{f:"1620-10-19",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
 
 // ── FRANSA: doğu sınırı (Burgonya, Lorraine, Alsace, Franche-Comté) ────────
-{ ad:"Dijon", tur:"sehir", lat:47.322, lon:5.041, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1477-01-05",d:"burgonya"},{f:"1477-01-05",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
+{ ad:"Dijon", tur:"sehir", lat:47.322, lon:5.041, g:0, k:0,kd:[{f:"1281-01-01",t:"1482-03-27",k:1,m:null}], d:[], s:[{f:"1281-01-01",t:"1477-01-05",d:"burgonya"},{f:"1477-01-05",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
 // Franche-Comté: imparatorluk kontluğu, Habsburg mirası, 1678 (Nijmegen) Fransa
 { ad:"Besançon", tur:"sehir", lat:47.238, lon:6.024, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1678-09-17",d:"ispanya"},{f:"1678-09-17",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
 // Metz: serbest imparatorluk şehri, 1552'de II. Henri, 1871-1919 Alman
@@ -195,7 +195,7 @@ window.YERLESIMLER_AVRUPA = [
 // Nice 1388'de Savoya'ya geçti (dedition), 1860'ta Fransa'ya; Savoya = sardinya
 // kimliği (mevcut Torino kaydıyla aynı kullanım)
 { ad:"Nice", tur:"liman", lat:43.710, lon:7.262, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1388-09-28",d:"fransa"},{f:"1388-09-28",t:"1860-06-14",d:"sardinya"},{f:"1860-06-14",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
-{ ad:"Chambéry", tur:"sehir", lat:45.564, lon:5.918, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1860-06-14",d:"sardinya"},{f:"1860-06-14",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
+{ ad:"Chambéry", tur:"sehir", lat:45.564, lon:5.918, g:0, k:0,kd:[{f:"1281-01-01",t:"1720-08-02",k:1,m:null}], d:[], s:[{f:"1281-01-01",t:"1860-06-14",d:"sardinya"},{f:"1860-06-14",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
 // Montpellier 1349'da Mayorka-Aragon hattından Fransa'ya satıldı
 { ad:"Montpellier", tur:"sehir", lat:43.611, lon:3.877, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1349-01-01",d:"aragon"},{f:"1349-01-01",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
 { ad:"Narbonne", tur:"sehir", lat:43.184, lon:3.003, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
@@ -203,8 +203,8 @@ window.YERLESIMLER_AVRUPA = [
 { ad:"Perpignan", tur:"sehir", lat:42.699, lon:2.895, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1463-01-01",d:"aragon"},{f:"1463-01-01",t:"1493-01-19",d:"fransa"},{f:"1493-01-19",t:"1659-11-07",d:"ispanya"},{f:"1659-11-07",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
 
 // ── İBERYA: Kastilya (1479-01-20'de İspanya birliği) ───────────────────────
-{ ad:"Toledo", tur:"sehir", lat:39.863, lon:-4.028, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},{f:"1479-01-20",t:"1923-10-29",d:"ispanya"}] },
-{ ad:"Valladolid", tur:"sehir", lat:41.652, lon:-4.724, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},{f:"1479-01-20",t:"1923-10-29",d:"ispanya"}] },
+{ ad:"Toledo", tur:"sehir", lat:39.863, lon:-4.028, g:0, k:0,kd:[{f:"1281-01-01",t:"1479-01-20",k:1,m:null}], d:[], s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},{f:"1479-01-20",t:"1923-10-29",d:"ispanya"}] },
+{ ad:"Valladolid", tur:"sehir", lat:41.652, lon:-4.724, g:0, k:0,kd:[{f:"1281-01-01",t:"1479-01-20",k:1,m:null}], d:[], s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},{f:"1479-01-20",t:"1923-10-29",d:"ispanya"}] },
 { ad:"Burgos", tur:"sehir", lat:42.344, lon:-3.697, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},{f:"1479-01-20",t:"1923-10-29",d:"ispanya"}] },
 { ad:"Salamanca", tur:"sehir", lat:40.965, lon:-5.664, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},{f:"1479-01-20",t:"1923-10-29",d:"ispanya"}] },
 { ad:"León", tur:"sehir", lat:42.599, lon:-5.567, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},{f:"1479-01-20",t:"1923-10-29",d:"ispanya"}] },
@@ -231,7 +231,7 @@ window.YERLESIMLER_AVRUPA = [
 { ad:"Cebelitarık (Gibraltar)", tur:"kale", lat:36.140, lon:-5.353, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1462-08-20",d:"granada"},{f:"1462-08-20",t:"1479-01-20",d:"kastilya"},{f:"1479-01-20",t:"1704-08-04",d:"ispanya"},{f:"1704-08-04",t:"1923-10-29",enklav:true,d:"ingiltere"}] },
 
 // ── İBERYA: Aragon tacı ────────────────────────────────────────────────────
-{ ad:"Zaragoza", tur:"sehir", lat:41.649, lon:-0.888, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1479-01-20",d:"aragon"},{f:"1479-01-20",t:"1923-10-29",d:"ispanya"}] },
+{ ad:"Zaragoza", tur:"sehir", lat:41.649, lon:-0.888, g:0, k:0,kd:[{f:"1281-01-01",t:"1479-01-20",k:1,m:null}], d:[], s:[{f:"1281-01-01",t:"1479-01-20",d:"aragon"},{f:"1479-01-20",t:"1923-10-29",d:"ispanya"}] },
 { ad:"Teruel", tur:"sehir", lat:40.344, lon:-1.106, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1479-01-20",d:"aragon"},{f:"1479-01-20",t:"1923-10-29",d:"ispanya"}] },
 { ad:"Tarragona", tur:"liman", lat:41.119, lon:1.245, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1479-01-20",d:"aragon"},{f:"1479-01-20",t:"1923-10-29",d:"ispanya"}] },
 { ad:"Lleida", tur:"sehir", lat:41.617, lon:0.620, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1479-01-20",d:"aragon"},{f:"1479-01-20",t:"1923-10-29",d:"ispanya"}] },
@@ -265,7 +265,7 @@ window.YERLESIMLER_AVRUPA = [
 { ad:"Aveiro", tur:"liman", lat:40.641, lon:-8.654, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1581-04-16",d:"portekiz"},{f:"1581-04-16",t:"1640-12-01",d:"ispanya"},{f:"1640-12-01",t:"1923-10-29",d:"portekiz"}] },
 
 // ── İBERYA: Navarra ve Portekiz ────────────────────────────────────────────
-{ ad:"Pamplona", tur:"sehir", lat:42.813, lon:-1.646, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1512-07-25",d:"navarra"},{f:"1512-07-25",t:"1923-10-29",d:"ispanya"}] },
+{ ad:"Pamplona", tur:"sehir", lat:42.813, lon:-1.646, g:0, k:0,kd:[{f:"1281-01-01",t:"1620-10-19",k:1,m:null}], d:[], s:[{f:"1281-01-01",t:"1512-07-25",d:"navarra"},{f:"1512-07-25",t:"1923-10-29",d:"ispanya"}] },
 // Portekiz: İber Birliği penceresi GERİ ALINDI (gerekçe dosya başında).
 // 1580-1640 şahsî birlikti, ilhak değil — sekiz nokta 1281-1923 boyunca
 // tek  penceresiyle duruyor. Canlıdaki Lizbon/Porto'ya da
@@ -316,7 +316,7 @@ window.YERLESIMLER_AVRUPA = [
 { ad:"Uddevalla", tur:"liman", lat:58.348, lon:11.938, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec"},{f:"1537-01-01",t:"1658-02-26",d:"danimarka"},{f:"1658-02-26",t:"1923-10-29",d:"isvec"}] },
 
 // ── NORVEÇ (1537 danimarka, 1814 isvec, 1905 norvec — bkz. başlık) ─────────
-{ ad:"Bergen", tur:"liman", lat:60.393, lon:5.324, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec"},{f:"1905-06-07",t:"1923-10-29",d:"norvec"}] },
+{ ad:"Bergen", tur:"liman", lat:60.393, lon:5.324, g:0, k:0,kd:[{f:"1281-01-01",t:"1537-01-01",k:1,m:null}], d:[], s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec"},{f:"1905-06-07",t:"1923-10-29",d:"norvec"}] },
 // Stavanger yarımadası NE-10m kara maskesinde çözünmüyor; nokta 4 km güneybatıya,
 // maskenin kara saydığı Hafrsfjord kıyısına alındı
 { ad:"Stavanger", tur:"liman", lat:58.940, lon:5.680, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec"},{f:"1905-06-07",t:"1923-10-29",d:"norvec"}] },
@@ -351,7 +351,7 @@ window.YERLESIMLER_AVRUPA = [
 { ad:"Gent", tur:"sehir", lat:51.054, lon:3.717, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1384-01-30",d:"fransa"},{f:"1384-01-30",t:"1482-03-27",d:"burgonya"},{f:"1482-03-27",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1714-03-07",d:"ispanya"},{f:"1714-03-07",t:"1795-10-01",d:"avusturya"},{f:"1795-10-01",t:"1815-06-09",d:"fransa-cumhuriyet"},{f:"1815-06-09",t:"1830-10-04",d:"hollanda"},{f:"1830-10-04",t:"1923-10-29",d:"belcika"}] },
 { ad:"Ypres", tur:"sehir", lat:50.851, lon:2.886, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1384-01-30",d:"fransa"},{f:"1384-01-30",t:"1482-03-27",d:"burgonya"},{f:"1482-03-27",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1714-03-07",d:"ispanya"},{f:"1714-03-07",t:"1795-10-01",d:"avusturya"},{f:"1795-10-01",t:"1815-06-09",d:"fransa-cumhuriyet"},{f:"1815-06-09",t:"1830-10-04",d:"hollanda"},{f:"1830-10-04",t:"1923-10-29",d:"belcika"}] },
 { ad:"Anvers (Antwerpen)", tur:"liman", lat:51.220, lon:4.400, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1430-08-04",d:"almanya"},{f:"1430-08-04",t:"1482-03-27",d:"burgonya"},{f:"1482-03-27",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1714-03-07",d:"ispanya"},{f:"1714-03-07",t:"1795-10-01",d:"avusturya"},{f:"1795-10-01",t:"1815-06-09",d:"fransa-cumhuriyet"},{f:"1815-06-09",t:"1830-10-04",d:"hollanda"},{f:"1830-10-04",t:"1923-10-29",d:"belcika"}] },
-{ ad:"Brüksel", tur:"sehir", lat:50.847, lon:4.352, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1430-08-04",d:"almanya"},{f:"1430-08-04",t:"1482-03-27",d:"burgonya"},{f:"1482-03-27",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1714-03-07",d:"ispanya"},{f:"1714-03-07",t:"1795-10-01",d:"avusturya"},{f:"1795-10-01",t:"1815-06-09",d:"fransa-cumhuriyet"},{f:"1815-06-09",t:"1830-10-04",d:"hollanda"},{f:"1830-10-04",t:"1923-10-29",d:"belcika"}] },
+{ ad:"Brüksel", tur:"sehir", lat:50.847, lon:4.352, g:0, k:0,kd:[{f:"1830-10-04",t:"1923-10-29",k:1,m:null}], d:[], s:[{f:"1281-01-01",t:"1430-08-04",d:"almanya"},{f:"1430-08-04",t:"1482-03-27",d:"burgonya"},{f:"1482-03-27",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1714-03-07",d:"ispanya"},{f:"1714-03-07",t:"1795-10-01",d:"avusturya"},{f:"1795-10-01",t:"1815-06-09",d:"fransa-cumhuriyet"},{f:"1815-06-09",t:"1830-10-04",d:"hollanda"},{f:"1830-10-04",t:"1923-10-29",d:"belcika"}] },
 { ad:"Namur", tur:"sehir", lat:50.467, lon:4.867, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1421-03-01",d:"almanya"},{f:"1421-03-01",t:"1482-03-27",d:"burgonya"},{f:"1482-03-27",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1714-03-07",d:"ispanya"},{f:"1714-03-07",t:"1795-10-01",d:"avusturya"},{f:"1795-10-01",t:"1815-06-09",d:"fransa-cumhuriyet"},{f:"1815-06-09",t:"1830-10-04",d:"hollanda"},{f:"1830-10-04",t:"1923-10-29",d:"belcika"}] },
 { ad:"Mons", tur:"sehir", lat:50.454, lon:3.952, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1433-04-11",d:"almanya"},{f:"1433-04-11",t:"1482-03-27",d:"burgonya"},{f:"1482-03-27",t:"1516-01-23",d:"almanya"},{f:"1516-01-23",t:"1714-03-07",d:"ispanya"},{f:"1714-03-07",t:"1795-10-01",d:"avusturya"},{f:"1795-10-01",t:"1815-06-09",d:"fransa-cumhuriyet"},{f:"1815-06-09",t:"1830-10-04",d:"hollanda"},{f:"1830-10-04",t:"1923-10-29",d:"belcika"}] },
 // Tournai 1521'e kadar Fransız kraliyet şehri (V. Karl aldı)
@@ -405,8 +405,8 @@ window.YERLESIMLER_AVRUPA = [
 // Venedik kaydıyla aynı), Veneto 1866-10-03 İtalya, Lombardiya 1859-06-04 Sardinya
 { ad:"Verona", tur:"sehir", lat:45.438, lon:10.992, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1405-06-22",d:"milanoduka"},{f:"1405-06-22",t:"1797-05-12",d:"venedik"},{f:"1797-05-12",t:"1866-10-03",d:"avusturya"},{f:"1866-10-03",t:"1923-10-29",d:"italya"}] },
 { ad:"Padova", tur:"sehir", lat:45.407, lon:11.876, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1405-11-22",d:"milanoduka"},{f:"1405-11-22",t:"1797-05-12",d:"venedik"},{f:"1797-05-12",t:"1866-10-03",d:"avusturya"},{f:"1866-10-03",t:"1923-10-29",d:"italya"}] },
-{ ad:"Brescia", tur:"sehir", lat:45.539, lon:10.221, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1426-01-01",d:"milanoduka"},{f:"1426-01-01",t:"1797-05-12",d:"venedik"},{f:"1797-05-12",t:"1859-06-04",d:"avusturya"},{f:"1859-06-04",t:"1861-03-17",d:"sardinya"},{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
-{ ad:"Bergamo", tur:"sehir", lat:45.698, lon:9.677, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1428-01-01",d:"milanoduka"},{f:"1428-01-01",t:"1797-05-12",d:"venedik"},{f:"1797-05-12",t:"1859-06-04",d:"avusturya"},{f:"1859-06-04",t:"1861-03-17",d:"sardinya"},{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
+{ ad:"Brescia", tur:"sehir", lat:45.539, lon:10.221, g:0, k:2, d:[], s:[{f:"1281-01-01",t:"1426-01-01",d:"milanoduka"},{f:"1426-01-01",t:"1797-05-12",d:"venedik"},{f:"1797-05-12",t:"1859-06-04",d:"avusturya"},{f:"1859-06-04",t:"1861-03-17",d:"sardinya"},{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
+{ ad:"Bergamo", tur:"sehir", lat:45.698, lon:9.677, g:0, k:2, d:[], s:[{f:"1281-01-01",t:"1428-01-01",d:"milanoduka"},{f:"1428-01-01",t:"1797-05-12",d:"venedik"},{f:"1797-05-12",t:"1859-06-04",d:"avusturya"},{f:"1859-06-04",t:"1861-03-17",d:"sardinya"},{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
 // Friuli 1420'de Venedik'e (Aquileia patrikliğinden)
 { ad:"Udine", tur:"sehir", lat:46.065, lon:13.235, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1420-06-07",d:"almanya"},{f:"1420-06-07",t:"1797-05-12",d:"venedik"},{f:"1797-05-12",t:"1866-10-03",d:"avusturya"},{f:"1866-10-03",t:"1923-10-29",d:"italya"}] },
 // Trieste 1382'de Habsburg'a dedition; 1918'de İtalya
@@ -414,24 +414,24 @@ window.YERLESIMLER_AVRUPA = [
 // Trento piskoposluğu 1803'te sekülerleşip Avusturya'ya katıldı
 { ad:"Trento", tur:"sehir", lat:46.067, lon:11.121, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1803-02-25",d:"almanya"},{f:"1803-02-25",t:"1918-11-03",d:"avusturya"},{f:"1918-11-03",t:"1923-10-29",d:"italya"}] },
 // Mantua: Gonzaga dükalığı, 1708'de Avusturya'ya geçti
-{ ad:"Mantova", tur:"sehir", lat:45.156, lon:10.791, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1708-01-01",d:"mantua"},{f:"1708-01-01",t:"1866-10-03",d:"avusturya"},{f:"1866-10-03",t:"1923-10-29",d:"italya"}] },
+{ ad:"Mantova", tur:"sehir", lat:45.156, lon:10.791, g:0, k:0,kd:[{f:"1281-01-01",t:"1328-08-16",k:1,m:null}], d:[], s:[{f:"1281-01-01",t:"1708-01-01",d:"mantua"},{f:"1708-01-01",t:"1866-10-03",d:"avusturya"},{f:"1866-10-03",t:"1923-10-29",d:"italya"}] },
 // Parma: Visconti alanı → 1512 Papalık → 1545 Farnese dükalığı → 1860 birlik
-{ ad:"Parma", tur:"sehir", lat:44.801, lon:10.328, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1512-06-24",d:"milanoduka"},{f:"1512-06-24",t:"1545-08-16",d:"papalik"},{f:"1545-08-16",t:"1860-03-18",d:"parma"},{f:"1860-03-18",t:"1861-03-17",d:"sardinya"},{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
+{ ad:"Parma", tur:"sehir", lat:44.801, lon:10.328, g:0, k:0,kd:[{f:"1545-08-16",t:"1860-03-18",k:1,m:null}], d:[], s:[{f:"1281-01-01",t:"1512-06-24",d:"milanoduka"},{f:"1512-06-24",t:"1545-08-16",d:"papalik"},{f:"1545-08-16",t:"1860-03-18",d:"parma"},{f:"1860-03-18",t:"1861-03-17",d:"sardinya"},{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
 // Este hanedanı: Ferrara 1598'de Papalığa devredildi, Modena'da 1859'a dek sürdü
-{ ad:"Ferrara", tur:"sehir", lat:44.836, lon:11.619, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1598-01-29",d:"ferrara"},{f:"1598-01-29",t:"1860-03-18",d:"papalik"},{f:"1860-03-18",t:"1861-03-17",d:"sardinya"},{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
-{ ad:"Modena", tur:"sehir", lat:44.647, lon:10.925, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1860-03-18",d:"ferrara"},{f:"1860-03-18",t:"1861-03-17",d:"sardinya"},{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
+{ ad:"Ferrara", tur:"sehir", lat:44.836, lon:11.619, g:0, k:0,kd:[{f:"1281-01-01",t:"1598-01-01",k:1,m:null}], d:[], s:[{f:"1281-01-01",t:"1598-01-29",d:"ferrara"},{f:"1598-01-29",t:"1860-03-18",d:"papalik"},{f:"1860-03-18",t:"1861-03-17",d:"sardinya"},{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
+{ ad:"Modena", tur:"sehir", lat:44.647, lon:10.925, g:0, k:0,kd:[{f:"1598-01-01",t:"1859-01-01",k:1,m:null}], d:[], s:[{f:"1281-01-01",t:"1860-03-18",d:"ferrara"},{f:"1860-03-18",t:"1861-03-17",d:"sardinya"},{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
 
 // ── İTALYA: Papalık toprakları ve Toskana ──────────────────────────────────
-{ ad:"Bolonya", tur:"sehir", lat:44.494, lon:11.343, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1860-03-18",d:"papalik"},{f:"1860-03-18",t:"1861-03-17",d:"sardinya"},{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
+{ ad:"Bolonya", tur:"sehir", lat:44.494, lon:11.343, g:0, k:2, d:[], s:[{f:"1281-01-01",t:"1860-03-18",d:"papalik"},{f:"1860-03-18",t:"1861-03-17",d:"sardinya"},{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
 // Ravenna ve Rimini: 15. yy'daki Venedik/Malatesta pencereleri sadeleştirildi (bkz. ILERLEME)
 { ad:"Ravenna", tur:"sehir", lat:44.418, lon:12.203, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1860-03-18",d:"papalik"},{f:"1860-03-18",t:"1861-03-17",d:"sardinya"},{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
 { ad:"Rimini", tur:"liman", lat:44.060, lon:12.565, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1860-03-18",d:"papalik"},{f:"1860-03-18",t:"1861-03-17",d:"sardinya"},{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
 { ad:"Ancona", tur:"liman", lat:43.617, lon:13.517, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1860-09-29",d:"papalik"},{f:"1860-09-29",t:"1861-03-17",d:"sardinya"},{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
 { ad:"Perugia", tur:"sehir", lat:43.111, lon:12.389, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1860-09-14",d:"papalik"},{f:"1860-09-14",t:"1861-03-17",d:"sardinya"},{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
 // Siena cumhuriyeti 1555'te düştü (İspanyol garnizonu), 1557'de Toskana'ya devredildi
-{ ad:"Siena", tur:"sehir", lat:43.319, lon:11.331, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1555-04-17",d:"siena"},{f:"1555-04-17",t:"1557-07-03",d:"ispanya"},{f:"1557-07-03",t:"1861-03-17",d:"toskana"},{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
+{ ad:"Siena", tur:"sehir", lat:43.319, lon:11.331, g:0, k:0,kd:[{f:"1281-01-01",t:"1555-04-17",k:1,m:null}], d:[], s:[{f:"1281-01-01",t:"1555-04-17",d:"siena"},{f:"1555-04-17",t:"1557-07-03",d:"ispanya"},{f:"1557-07-03",t:"1861-03-17",d:"toskana"},{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
 // Pisa cumhuriyeti 1406'da Floransa'ya düştü
-{ ad:"Pisa", tur:"sehir", lat:43.716, lon:10.397, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1406-10-09",d:"piza"},{f:"1406-10-09",t:"1861-03-17",d:"toskana"},{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
+{ ad:"Pisa", tur:"sehir", lat:43.716, lon:10.397, g:0, k:0,kd:[{f:"1281-01-01",t:"1406-10-09",k:1,m:null}], d:[], s:[{f:"1281-01-01",t:"1406-10-09",d:"piza"},{f:"1406-10-09",t:"1861-03-17",d:"toskana"},{f:"1861-03-17",t:"1923-10-29",d:"italya"}] },
 
 // ── İTALYA: güney (Napoli Krallığı = napoli, mevcut kullanım) ──────────────
 { ad:"L'Aquila", tur:"sehir", lat:42.350, lon:13.399, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1861-02-13",d:"napoli"},{f:"1861-02-13",t:"1923-10-29",d:"italya"}] },
