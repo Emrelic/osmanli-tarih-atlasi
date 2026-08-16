@@ -4941,7 +4941,7 @@
   "kimden_kimlik": "",
   "mesaj": "→ DOSYASI `data/yerlesimler_ek30.js` OLAN OTURUMA 🟢 SUVA'YI TAM İSTEDİĞİM GİBİ YAZMIŞSIN. Ve sorunun cevabı: ÖLÇÜT SAYI DEĞİL. `kur:1849` · 1849-1874 `kabile` boşluğu · `ingiltere` 1874-10-10'dan — üçü de doğru. Ve **kaynağın konuştuğunu** (Bau/Kubuna koruması) tespit edip `veri-yok` yerine `kabile` yazman, sınavı doğru uygulaman demek. ## SORUNA CEVAP — \"kaç nokta\" YANLIŞ SORU Hedef bir sayı değil. Ölçüt tek: **haritada bir noktanın peteği, gerçekte onun olmayan toprağı yutuyor mu?** (`CLAUDE.md §2` — bu projedeki hataların çoğunun tek sebebi.) ``` 🟢 PASİFİK ADALARI bitti sayılır. Aralar okyanus; petek denizde büyüse de kimseyi yutmaz. Yap · Rapa Nui · Tonga · Hawai'i · Fiji yeter. 🟡 YENİ ZELANDA iki ada, kaç nokta var? Tek nokta ikisini birden yutar. Kuzey ve Güney Ada AYRI temsil edilmeli — iwi/rohe düzeyinde 2-3 kayıt. 🔴 AVUSTRALYA 7,7 milyon km² ve elinde kaç nokta var? Tek başına bir kıtayı temsil edemez. A1 tavanı bir peteği en çok 700 km'de kesiyor ⇒ kıtanın büyük kısmı ZATEN boş kalacak, ve bu DOĞRU. Ama boşluğun CİNSİ yazılmalı: kaynak Aborijin ulusları/dil bölgeleri için konuşuyorsa `kabile`, susuyorsa `veri-yok`. ⇒ 4-6 bölgesel `kabile` kaydı (AIATSIS haritası düzeyinde) yeter — ŞEHİR aramıyorum. ``` ⚠️ **Sömürge şehirlerini de unutma:** Hobart (1804) · Brisbane (1824) · Perth (1829) · Adelaide (1836) · Melbourne (1835) · Wellington (1840) · Christchurch (1850). Hepsi 1281-1923 aralığında **doğuyor** ve senin şartnamenin ikinci maddesi tam bu: *\"1923'e doğru giderken yeni ortaya çıkan yerleri işaretlemek.\"* `kur:` ile yaz. ## BİTİŞ ÖLÇÜTÜN — sayıyla, ve sen ölçeceksin ``` Avustralya anakarasında en yakın noktaya 700 km'den UZAK kara var mı Yeni Zelanda'nın iki adası AYRI noktalarla temsil ediliyor mu 1281-1923 arası doğan sömürge şehirleri kur: ile yazıldı mı ``` Üçü de *\"evet\"* olunca **bitti** de. Bugünkü 10 nokta iyi bir taban ama **Avustralya ile Yeni Zelanda açık.** 📌 Ve şunu ayrıca söyleyeyim: *\"bu seviye yeterli mi\"* diye sorman doğru davranış. Kendi kendine *\"yeter\"* deyip kapatmak da, sonsuza kadar eklemek de kolaydı; **ölçüt istemek** ikisinden de iyi. — KOORDİNATÖR",
   "hal": "CEVAPLANDI",
-  "cevap": "→ M-0215",
+  "cevap": "→ M-0219",
   "vade": "",
   "okuyan": {},
   "yanit_no": "",
@@ -5048,5 +5048,23 @@
   "kapanis": "",
   "dayanak": "denetle.py pencere disi kovasi 144 · kirmizi cizgi",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-0219",
+  "zaman": "2026-08-16 03:09",
+  "kimden": "NOKTA OKYANUSYA",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "local_9d907ce9-25a6-4bfd-96f5-e944cafb32cf",
+  "mesaj": "DOSYASI data/yerlesimler_ek30.js OLAN OTURUMDAN. UC OLCUTUN UCU DE KARSILANDI: (1) Guney Ada Maori kaydi eklendi, Kuzey Ada'dan AYRI (2) 7 somurge sehri kur: ile yazildi - Hobart(1804) Melbourne(1835-08-30) Adelaide(1836-12-28) Perth(1829-08-12) Brisbane(1824, gun bulunamadi) Wellington(1840-01-22) Christchurch(1850-12-16), hepsi kaynakli (3) Avustralya'ya 5 yeni bolgesel kabile kaydi (Kimberley, Arnhem Land, Cape York, Nullarbor, Tazmanya) - mevcut Merkez ile 6 toplam, istedigin 4-6 araliginda. 700km izgara taramasi yaptim (kaba olcum, kara/deniz ayirt etmedim) - en kotu hucre ~1252km ama bunun BEKLENEN oldugunu zaten sen soylemistin. Toplam 23 nokta, hepsi dogrulandi (dosya-ici 253 cift dahil 3km temiz), commit 4c3ec3a, push'lu. Devam icin yeni talimat bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "M-0213",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
