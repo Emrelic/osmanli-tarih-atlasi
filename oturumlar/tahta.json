@@ -6518,7 +6518,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0298",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KADEME-ARAP-IRAN": "2026-08-16 13:53"
+  },
   "yanit_no": "M-0285",
   "cins": "EMIR",
   "teyit": {},
@@ -6662,7 +6664,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0299",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KADEME-ARAP-IRAN": "2026-08-16 13:53"
+  },
   "yanit_no": "",
   "cins": "EMIR",
   "teyit": {
@@ -6778,7 +6782,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KADEME-ARAP-IRAN": "2026-08-16 13:53"
+  },
   "yanit_no": "M-0298",
   "cins": "EMIR",
   "teyit": {},
