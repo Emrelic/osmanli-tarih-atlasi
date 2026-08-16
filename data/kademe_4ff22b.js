@@ -41,7 +41,7 @@ window.KADEME_YAMA = [
   // ── ① ARASTIRILMIS KADEME
   {ad:"Isfahan", k:1, kaynak:"isfahan", kd:[{f:"1597-01-01", t:"1722-10-23", k:1, m:null}], neden:"TDV: '1597'de sahlik merkezi olmasi kesinlik kazanan sehir' — Safevi basshehri; 1722 Afgan isgaliyle sona erdi"},
   {ad:"Şiraz", k:1, kaynak:"siraz", kd:[{f:"1353-01-01", t:"1393-01-01", k:1, m:null}, {f:"1766-01-01", t:"1791-01-01", k:1, m:null}], neden:"TDV: 'Kerim Han Zend, Siraz'i 1180'de (1766-67) basshehir haline getirdi' ve 'Sah Suca' doneminde hanedanin merkezi oldu' (Muzafferi, 1353)"},
-  {ad:"Tahran", k:1, kaynak:"tahran", kd:[{f:"1618-01-01", t:"1786-01-01", k:1, m:null}, {f:"1786-01-01", t:"1923-10-29", k:1, m:null}], neden:"TDV: '1618 ... beylerbeyinin burada ikamet ettigi' ve 'Tahran, Kacarlar'in basshehri oldu'. 1618 oncesi mertebe icin kaynak SUSUYOR"},
+  {ad:"Tahran", k:1, kaynak:"tahran", kd:[{f:"1618-01-01", t:"1923-10-29", k:1, m:null}], neden:"TDV: '1618 ... beylerbeyinin burada ikamet ettigi' ve 'Tahran, Kacarlar'in basshehri oldu'. 1618 oncesi mertebe icin kaynak SUSUYOR"},
   {ad:"Meşhed", k:1, kaynak:"meshed", neden:"TDV maddesinin tanim cumlesi: 'Iran'da Horasan eyaletinin merkezi olan sehir'"},
   {ad:"Kazvin", k:1, kaynak:"kazvin", kd:[{f:"1555-01-01", t:"1597-01-01", k:1, m:null}], neden:"TDV: 'Tebriz Osmanlilar'ca ele gecirildiginde Sah Tahmasb idare merkezini buraya tasidi (1555)' — Safevi basshehri, 1597'de Isfahan'a gecti"},
   {ad:"Erdebil", k:1, kaynak:"erdebil", neden:"TDV: 'Erdebil yeni devletin dini ve siyasi merkezi haline geldi' (Safevi) ve 'Erdebil bir hanlik merkezi olmus' (18. yy)"},
