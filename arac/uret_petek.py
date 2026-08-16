@@ -1543,8 +1543,37 @@ print(f"  ızgara {_kvnx}×{_kvny} = {_kvnx*_kvny:,} hücre, "
 
 # Tohumları ızgaraya oturt. ⚠️ Kıyıdaki tohum su hücresine düşebilir (0,002°
 # maske vs 0,05° ızgara); en yakın kara hücresine kaydırılmazsa ulaşılmaz olur.
+# ═══ 🔴 PENCERE DIŞI TOHUM IZGARAYA ALINMAZ — 16 Ağustos 2026 ═══════════════
+# Eski hâl `min()/max()` ile KISTIRIYORDU: pencerenin dışındaki bir nokta hata
+# vermeden ızgaranın KENAR SÜTUNUNA oturuyor, sonra Dijkstra'da oradan
+# yayılıyordu. Yani 2.555 km ötedeki bir yerleşim, kenardaki toprak için
+# YARIŞIYORDU.
+#
+# ⚠️ ÖLÇÜLDÜ, VARSAYILMADI (M-0247 · M-0502):
+#     bağlı veride kıstırılan            144 nokta
+#       ızgarada yer BULAN                 8   ← bunların peteği BOŞTU, zararsız
+#     bağlanacak dosyalarda kıstırılacak  36 nokta
+#       kıstırıldığı yerde KARA olan       9   ← ve BUNLAR SAHİPLİ
+#         Kap (Cape Town)   18,4 · −33,9 → −11,0   2.555 km
+#         Oranj · Ulundi · Transvaal · Mapungubwe · Büyük Zimbabve
+#         + Doğu Sibirya · Penjina · Kolıma
+# Güney Afrika'nın altı gövdesi lat −11'e, yani KONGO/TANZANYA kuşağına
+# oturuyordu. Bileşen kilidi bunu engellemez: alıcının gerçek noktası maskenin
+# dışında olduğu için `_kv_bilesen()` −1 döner ve kilit HİÇ KURULMAZ.
+#
+# 🟢 ÇARE — DARALTMA, yeni davranış EKLEMEK değil: pencere dışındaki bir
+#    noktanın maliyet ızgarasına tohum ekmesi HİÇBİR HÂLDE doğru değil.
+#    O noktalar için Voronoi kalır — `_kverisilmez` ile aynı yol.
+# 📌 Ve bu, `§11`in "pencere dışı ≠ yanlış konum" dersiyle tutarlı: nokta
+#    DOĞRU yerdedir, atlas penceresi oraya HENÜZ açılmamıştır. Kaydı silmiyoruz,
+#    yalnız IZGARAYA sokmuyoruz. Pencere büyüyünce kendiliğinden girer.
+_kvpencere_disi = []
 _kvtohum, _kvkaydi, _kverisilmez = {}, 0, []
 for _idx, _y in enumerate(YERLER):
+    if not (_kvx0 <= _y["lon"] < _kvx0 + _kvnx * KV_ADIM
+            and _kvy0 <= _y["lat"] < _kvy0 + _kvny * KV_ADIM):
+        _kvpencere_disi.append((_y["ad"], _y["lon"], _y["lat"]))
+        continue                      # KISTIRMA YOK — Voronoi'de kalır
     _i = min(_kvnx - 1, max(0, int((_y["lon"] - _kvx0) / KV_ADIM)))
     _j = min(_kvny - 1, max(0, int((_y["lat"] - _kvy0) / KV_ADIM)))
     if not _kvkara[_j * _kvnx + _i]:
@@ -1564,6 +1593,24 @@ print(f"  {sum(len(v) for v in _kvtohum.values())} tohum yerleşti "
 if _kverisilmez:
     print(f"  ⚠️ ızgarada yer bulunamayan {len(_kverisilmez)} tohum "
           f"(bu noktalar için Voronoi kalır): {', '.join(_kverisilmez[:8])}")
+# 🔴 PENCERE DIŞI TOHUMLAR — İSİM İSİM basılır, çünkü sessiz eleme YASAK.
+# Koordinatörün şartı (M-0509 ②): "17 tohumu İSİM İSİM yaz: hangisi düştü,
+# düşmesi DOĞRU mu." Liste basılmazsa bir sonraki oturum bunu ölçemez ve
+# "kıstırma düzeltildi" cümlesi DOĞRULANAMAZ bir iddia olarak kalır.
+if _kvpencere_disi:
+    _kvpd = sorted(_kvpencere_disi,
+                   key=lambda t: -girdi.km(t[2], t[1],
+                                           max(_kvy0, min(t[2], _kvy0 + _kvny * KV_ADIM)),
+                                           max(_kvx0, min(t[1], _kvx0 + _kvnx * KV_ADIM))))
+    print(f"  🔒 PENCERE DIŞI, ızgaraya ALINMADI: {len(_kvpd)} tohum "
+          f"(kıstırma YOK — Voronoi kalır)")
+    for _ad, _lo, _la in _kvpd[:12]:
+        _sl = max(_kvx0, min(_lo, _kvx0 + _kvnx * KV_ADIM))
+        _sb = max(_kvy0, min(_la, _kvy0 + _kvny * KV_ADIM))
+        print(f"       {_ad[:38]:<38} {_lo:8.2f},{_la:7.2f}   "
+              f"kenara {girdi.km(_la, _lo, _sb, _sl):>6,.0f} km olurdu")
+    if len(_kvpd) > 12:
+        print(f"       … ve {len(_kvpd)-12} tohum daha")
 
 # ---------------- ① EĞİM SÜRTÜNMESİ — ızgaranın kendi çözünürlüğünde --------
 # DEM aynı ızgaraya (BOLGE.bounds × KV_ADIM) indirgenir ve hücre başına
