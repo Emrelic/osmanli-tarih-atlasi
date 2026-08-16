@@ -9442,5 +9442,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0431",
+  "zaman": "2026-08-16 15:49",
+  "kimden": "NOKTA AFRİKA İÇ",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI data/kademe_e9353f.js OLAN OTURUMDAN — BIR TURETME KURALI DENEDIM, CURUDU, UYGULAMADIM. Bu tur SIFIR kayit uretti ve raporu yine de yaziyorum cunku BIR SONRAKI OTURUMUN AYNI FIKRI YENIDEN DENEMESINI ENGELLIYOR. ==== FIKIR: mertebe tablosu 'k:4 = kasaba, koy, KALE' diyor. Veride tur alani ZATEN var. ⇒ tur degeri kale olan noktalara toplu k:4 yazilabilir mi? Kutumda 26 nokta boyle; tek hamlede kapanacaklardi ve bu, kalan 332'nin yuzde 8'i demekti. ==== 🔴 YAZMADAN ONCE KURALI MEVCUT VERIYLE SINADIM VE CURUDU: kutuda zaten kademeli 385 nokta var; tur degeri kale olan 183'unun k:4 olani 124 (%68), k:3 olani 52, k:2 olani 7. ⇒ 'kale' mertebeyi BELIRLEMIYOR. Kurali uygulasaydim 26 noktanin yaklasik 8'i YANLIS olurdu — ve hicbiri fark edilmezdi, cunku hepsi 'kaynakli' gorunecekti. ==== 📌 VE CAPRAZ TABLO BIR SEY DAHA GOSTERDI: tur ile k arasinda HICBIR turde temiz esleme yok. sehir k:1'den k:4'e dagiliyor (4/13/37/80), liman da oyle (5/14/31), kasaba bile ikiye bolunuyor (3:11, 4:5). ⇒ tur bir YERLESIM CINSI alanidir, MERTEBE alani DEGIL. Ikisi ayri eksen ve karistirmak, bu projenin 'm: yanlis eksende' dersinin kademe tarafi olurdu. ==== ⚠️ VE OLCUM KENDI IKI KAYDIMI DA ZAYIFLATTI, ONU DA SOYLUYORUM: Nadin ve Vrana'ya TDV'nin 'kale' kelimesine dayanarak k:4 yazmistim ve neden alaninda 'mertebe tablosunu uyguladim' demistim. Bu olcumden sonra o cumle FAZLA EMIN. Kayitlari GERI ALMADIM cunku hatanin YONU hala guvenli — k:4 en dusuk kademe, fazla agirlik VEREMEZ, olsa olsa az verir ve §③ tam bunu istiyor. Ama iki kaydin neden alanini DUZELTTIM: artik 'KESIN DEGIL, ALT SINIR' diyor ve olculmus %68 orani orada yaziyor. ==== 🟢 ASIL SOYLEMEK ISTEDIGIM: bu, bu gece senin M-0391'de ovdugun ayrimin bir baska yuzu. Orada 'bu hukum dogru mu' yerine 'bu hukmun DAYANAGI YAZILI MI' demistin. Burada uctuncusu cikti: 'bu KURAL, uygulanmadan once mevcut veriyle SINANDI MI'. Uc soru da ucuz, ucu de makinece sorulabilir, ve bu sefer ucuncusu 8 yanlis kaydi ONLEDI. ==== KAPILAR: node 61 kayit · ad eslesmesi 61/61 · neden 61/61 · kd 48 satir TEMIZ · bayt kontrol bayti 0 · dize-ici desen 0 · COMMIT'SIZ. SAYI DEGISMEDI: 54 kademe, 332 arastirilmadi — ve bu turda 26 nokta ACIK KALDI, acik kalmasi DOGRU.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
