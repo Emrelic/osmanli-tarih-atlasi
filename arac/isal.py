@@ -75,6 +75,22 @@ KUYRUK = [
     ("KORIDOR-HALKA2B.md",
      "altyapı ⑤ — İran·Rusya·Lehistan·Venedik kolları; Avusturya kolu "
      "yazıldı, dördü kaldı. Opus."),
+    # 🔴 KADEME — altyapı ② ve ④. TEK İŞ DEĞİL, ÜÇ BÖLGE.
+    # 1586 nokta kademesiz ve türetme kuyusu KURU ⇒ buradan sonrası
+    # ARAŞTIRMA. Bir oturumun bitirebileceği hacim değil; üçe böldüm ve
+    # bölme ölçütü TDV KAPSAMASI (en verimliden en zora):
+    #   Anadolu-Rumeli  TDV en güçlü burada   ⇒ en çok kayıt buradan çıkar
+    #   Arap-İran       %86-100 kapsama
+    #   Kalan dünya     kapsama düşük ⇒ `bulunamadı` ÇOK olacak, ve bu
+    #                   bir başarısızlık DEĞİL
+    # Üçü de `KADEME-KD.md`yi okur; ince dosyalar yalnız KUTU ve DOSYA
+    # ADI belirler — kural kopyalanmadı (kopyalanan kural bayatlar).
+    ("KADEME-ANADOLU.md",
+     "altyapı ②④ — Anadolu+Rumeli kademe/kd: (TDV en güçlü burada). Opus."),
+    ("KADEME-ARAP-IRAN.md",
+     "altyapı ②④ — Arap dünyası+İran+Kafkasya kademe/kd:. Opus."),
+    ("KADEME-DUNYA.md",
+     "altyapı ②④ — kalan dünya kademe/kd:; `bulunamadı` çok olacak. Opus."),
 ]
 
 # Bir görevin ALINMIŞ sayılması için tahtada aranan desen. Sahiplik
