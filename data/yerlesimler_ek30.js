@@ -54,7 +54,8 @@ window.YERLESIMLER_EK30 = [
 { ad:"Lapaha (Muʻa)", tur:"sehir", lat:-21.1792, lon:-175.1167, g:1, k:1,
   kur:"1220-01-01",
   kaynak:"UNESCO World Heritage Centre, 'The Ancient Capitals of the Kingdom of Tonga' (whc.unesco.org/en/tentativelists/5167) — Muʻa/Lapaha, Tuʻi Tonga hanedanının üçüncü ve kalıcı başkenti oldu (1220-1851 dolaylarında bölgenin coğrafi merkezi); 22 kraliyet mezarı (langi) bu döneme tarihleniyor. Hanedan çizgisi geleneksel olarak ~950 CE'ye dayanır, imparatorluk gücünün zirvesi 1200-1500 arasıdır (UNESCO; Ancient Capitals dosyası).",
-  s:[{f:"1220-01-01",t:"1845-12-04",d:"tui-tonga-imparatorlugu"}] },
+  s:[{f:"1220-01-01",t:"1845-12-04",d:"tui-tonga-imparatorlugu"},
+     {f:"1845-12-04",t:"1923-10-29",d:"tonga-kralligi"}] },
 
 { ad:"Hawaii Adaları (Birleşme Öncesi — moku/aliʻi sistemi)", tur:"bolge", lat:19.60, lon:-155.50, g:0, k:0,
   d:[], kasitli_bosluk:true, bos:"kabile",
