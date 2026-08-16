@@ -165,18 +165,23 @@ window.KADEME_YAMA = [
 //   İkisi aynı kayıtta ve **ayrı ayrı** yazılı; birbirine karıştırmıyorum.
 
 {ad:"Rostov (Don)", kaynak:"bulunamadı — TDV kapsamıyor (dar slug `rostov` 302; kapsayıcı `rusya` ve `azak` okundu, idarî kademe vermiyor)",
+ k_yok_sebep:"kaynak-susuyor",
  neden:"kaynak susuyor — TDV üç aşamada da (dar slug · etnonim · kapsayıcı madde) idarî kademe VERMİYOR. `rusya` maddesi şehri yalnız nüfus listesinde anıyor ('Rostovna-Donu'), idarî mertebe YOK. Akademik kaynağa ERİŞİLEMEDİ (Britannica 403 ve zaten 🟡 sarı). k: YAZILMADI."},
 
 {ad:"Taganrog", kaynak:"bulunamadı — TDV kapsamıyor (dar slug `taganrog` 302; kapsayıcı `azak` okundu, adı HİÇ geçmiyor)",
+ k_yok_sebep:"kaynak-susuyor",
  neden:"kaynak susuyor — `azak` maddesi Don ağzını anlatıyor ama Taganrog adını HİÇ anmıyor; `rusya` da anmıyor. Osmanlı-Rus mücadelesinin içinde kurulmuş bir Rus deniz üssü, ve TDV bu taneciği kapsamıyor. k: YAZILMADI."},
 
 {ad:"Çerkask (Razdory)", kaynak:"bulunamadı — TDV kapsamıyor (`don-kazaklari` 302; `kazaklar` 200 ama YANLIŞ HALK; `azak` ve `rusya` okundu)",
+ k_yok_sebep:"kaynak-susuyor",
  neden:"kaynak susuyor — Don Kazak Ordusu'nun merkezi olduğu biliniyor ama TDV bunu SÖYLEMİYOR: `azak` yalnız 'Don Kazakları her zaman Azak'ı ele geçirmek hayali ile yaşamışlardır' diyor, merkez ADI yok; `rusya` yalnız 'Stenko Rasin' isyanını anıyor. ⚠️ Ve `kazaklar` slug'ı CANLI ama madde Orta Asya Kazak TÜRKLERİ hakkında — Kozaklarla ilgisi yok. k: YAZILMADI."},
 
 {ad:"Zaporojye Seçi", kaynak:"bulunamadı — TDV kapsamıyor (`zaporojye` 302; `rusya` okundu, Seç adını anmıyor)",
+ k_yok_sebep:"kaynak-susuyor",
  neden:"kaynak susuyor — `rusya` maddesi 'Saporog (Dinyeper, Özü) Kazakları' diyerek halkı anıyor ama SEÇ'i bir yerleşim/merkez olarak HİÇ anmıyor. Kendi siyasî yapısının merkezi olduğu akademik literatürde geçiyor fakat o kaynaklara ERİŞİLEMEDİ (403) ve Britannica 🟡 sarı, tek dayanak olamaz. k: YAZILMADI."},
 
 {ad:"Kuban (Yekaterinodar)", kaynak:"bulunamadı — TDV kapsamıyor (`kuban` · `yekaterinodar` · `kuban-nehri` üçü de 302; `rusya` okundu, ikisini de anmıyor)",
+ k_yok_sebep:"kaynak-susuyor",
  neden:"kaynak susuyor — TDV'de ne 'Kuban' ne 'Yekaterinodar' adı geçiyor. Karadeniz Kazak Ordusu'nun merkezi olduğu biliniyor ama TDV bu taneciği kapsamıyor ve akademik kaynağa ERİŞİLEMEDİ. k: YAZILMADI."},
 
 // ───────── ÖZİ — ZAMANLI KADEME (`kd:`), ve KUTU KAPANDIKTAN SONRA BULUNDU ─────────
