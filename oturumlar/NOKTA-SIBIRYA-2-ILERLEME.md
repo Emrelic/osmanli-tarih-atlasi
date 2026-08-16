@@ -294,3 +294,76 @@ bakılsın diye kayda geçiyor.
 doğrulamadım**; 30'unda *"🔴 TDV'ye basmıyor"* notu var, yani akademik
 kaynağa dayanıyorlar ama **hangisine bakmadım.** Yazacak oturum bunu
 doğrulamalı.
+
+---
+
+# ⑧ AYNI GECE ÜÇ DERS — ikisi başkasının sayısında, biri bende
+
+## 🔴 ⑧.1 BİR SAYIM "DIŞARIYA" BAKIYORSA KÖPRÜ ALANINI DA OKUMALI
+
+**Vaka (16 Ağustos 2026, M-0714).** Kol G *"8 künyenin noktası yok,
+en ucuz iş"* diye ilan edildi. Ölçtüm:
+```
+kaffa-kralligi   harita:"kaffa"      veride `kaffa` 2 dönem   🟢 BAĞLI
+cimma-sultanligi harita:"cimma"      1 dönem                  🟢 BAĞLI
+sidamo-kralliklari harita:"sidamo"   1 dönem                  🟢 BAĞLI
+vollayta-kralligi harita:"vollayta"  1 dönem                  🟢 BAĞLI
+evfat · makdisu · merina · hawaii    harita: YOK              🔴 kopuk
+```
+⇒ **8 → 4.** Sayım künyenin `id:`sini veride arıyordu; künye harita
+kimliğini **`harita:` alanında** beyan ediyor. `CLAUDE.md §4`ün *yazım
+ekseni* tuzağı, ters yönde.
+
+🔴 **Ve bedeli mükerrer noktaydı:** o dört kimliğin başkentinde nokta
+zaten var — Cimma 1 km · Bonga 2 km · Sodo 5 km · **Yirgalem 15 km.**
+3 km denetimi üçünü yakalar, **Yirgalem'i KAÇIRIR.**
+📌 Yani liste, `§11`in *"yakın mükerrer yerleşim"* tuzağına **kendi
+daveti üzerine** düşürecekti.
+
+⚠️ Kalan dördün de üçü *"nokta yaz"* işi değil: `merina` (-18,9 enlem) ve
+`hawaii` (-157,9 boylam) **pencere dışı**; `makdisu`nun noktası **0
+km'de var** ama `d:"somali"` taşıyor — bu bir kimlik ayrıştırma sorusu.
+⇒ **Gerçek nokta işi: 1 (evfat).**
+
+🟢 Koordinatör sayımını çürüttü (M-0717) ve kusuru adlandırdı: aynı gün
+`bagli_delik.py`yi *"künye kümesi = `id:` ∪ `harita:`"* diye düzeltmiş,
+**kendi düzelttiği dersi kendi ölçümünde uygulamamıştı.**
+
+## 🟢 ⑧.2 VE AYNI ŞÜPHEYİ KOL F'YE TAŞIDIM — ÇÜRÜDÜ
+
+*"39 boş kronoloji de aynı yöntemle üretildiyse şişkin olabilir"* dedim,
+ölçtüm (M-0723):
+```
+431 künye · DOLU 392 · BOŞ 39 · alanı YOK 0   ⇒ sayı BİREBİR DOĞRU
+```
+📌 **Ve niçin doğru olduğu, yanlış olmasından öğreticiydi:** Kol G'nin
+sayımı **dışarıya** bakıyordu (künyeden veriye), Kol F **içeriye**
+bakıyor (künyenin kendi alanı). İkisi aynı cins görünüyordu; şüphem tam
+o benzerlikten doğdu ve yanlıştı.
+⇒ ***Bir sayımın tuzağa açık olup olmadığını "neyi saydığı" değil,
+"sınır geçip geçmediği" belirliyor.***
+
+## 🔴 ⑧.3 BENİM HATAM — "GÖNDERDİM" İLE "ULAŞTI" AYRI ŞEYLER
+
+M-0714'ü dört muhataba birden adresledim:
+```
+kime: "KOORDINATOR · NOKTA AFRIKA IC · KADEME_4FF22B · KOL G ALAN HERKES"
+tahta çıktısı:  "M-0714 yazıldı ✓   push ✓ — mesaj artık HERKESTE"
+GERÇEK:         hiç kimseye ULAŞMADI — `kime` TEK muhatap alır,
+                çoklu adres SESSİZCE düşer (koordinatörün bekçisi yakaladı)
+```
+🟢 Zarar 0 — aynı bulguyu üç oturum bağımsız çıkardı. **Ama bu şans,
+tasarım değil.**
+
+📌 **Ve asıl ders, adres kuralının kendisi değil:** araç bana iki kez
+*"başarılı"* dedi (`yazıldı ✓`, `push ✓`) ve **ikisi de doğruydu** —
+mesaj yazıldı, push edildi. Yalan olan hiçbir şey yok; eksik olan
+**üçüncü bir soru**: *ulaştı mı?* Onu ne araç sordu ne ben.
+⇒ ***Bir aracın raporladığı başarı, YAPTIĞI işin başarısıdır — senin
+AMACININ değil.*** `§11`in *"aletin BASMADIĞI ≠ ölçtüğü"* ailesinin yeni
+yüzü: burada alet bastı, doğru bastı, ve yine de yanılttı.
+
+⚠️ Ve bunu bütün gün adres biçimi tuzağını izleyen oturum yaptı — yani
+**kuralı bilmek, hatta onu izliyor olmak bile yetmiyor.** `§11`in
+*"kural yetmiyor, ALIŞKANLIK gerekiyor"* dersinin bendeki vakası.
+⇒ Bundan sonra: **tek muhatap**; birden çok ilgili varsa `HERKES`.
