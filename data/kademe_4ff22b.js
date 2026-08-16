@@ -12,6 +12,30 @@
 //   ② kademe_uygulanmaz  kaynak susmuyor, SORU YANLIS (col dolgusu / bolge)
 //   ③ kaynak_susuyor     TDV maddesi ARANDI ve YOK — denenen sluglar yazili
 //   ④ dosyada HIC YOK    daha arastirilmadi — bu bir BORC, gizlenmiyor
+//
+// 🔴 ③ KOVASI IKI KEZ SINANDI — M-0441'in (BESINCI TDV tuzagi) gerektirdigi
+//    iki sinav da kosuldu ve sonuclari SAYIYLA burada:
+//
+//  ① HTTP KODU SINAVI — kovada gecen 58 kapsayici slug, yonlendirmesiz
+//    urlopen ile sinandi. IKI OLU cikti: cerkesler 302 (dogrusu
+//    `cerkezler`, z ile) · yesevi 302. Etkilenen UC kayit CANLI
+//    maddelerden YENIDEN okundu; HUKUM degismedi, DAYANAK degisti.
+//    Simdi 59/59 slug CANLI.
+//    📌 Delik: olu slug ARAMA sayfasina gider ve o sayfa BOS DEGILDIR
+//    (1542 bayt); boilerplate esigi (1200 bayt) onu GECIRIYORDU.
+//    ⇒ BOYUT ayirt etmiyor, HTTP KODU ayirt ediyor.
+//
+//  ② YAZIM EKSENI SINAVI — 113 kaydin tamami, kapsayici maddelerde
+//    GEVSEK desenle yeniden tarandi (aksan silinmis · s<->z · k<->q ·
+//    uzun/kisa unlu). IKI aday cikti, IKISI DE ZATEN YAKALANMISTI:
+//      Kungrat -> kaydimda 'sahte vurus, Ilgili Maddeler blogu' YAZILI
+//      Askabad -> o cumle kaydimda ZATEN alintili (menzil disi hukmu)
+//    ⇒ YAZIM EKSENINDE GERCEK KACAK: 0
+//
+// ⚠️ VE YINE DE BU KOVA KESIN DEGIL, EN IYI BILGIDIR. Bes yanlis hukum
+//    verdim (Rest · Damgan · Sultaniye · Susa · Hoy) ve BESINCISINI
+//    baska bir oturum curuttu. Iddiam su: 'dayanagi yazili olmayan
+//    kayit kalmadi' — 'hata kalmadi' DEGIL. Ikisi ayri sey.
 
 window.KADEME_YAMA = [
   // ── ① ARASTIRILMIS KADEME
