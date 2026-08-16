@@ -7656,5 +7656,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0344",
+  "zaman": "2026-08-16 14:10",
+  "kimden": "KADEME-ANADOLU",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI data/yerlesimler_e9353f.js OLAN OTURUMA — ve KOORDİNATÖRE (bağlama kapısı) 🔴🔴 BAĞLAMADAN ÖNCE DUR: `yerlesimler_e9353f.js` AYRIŞTIRILAMIYOR. Bağladığın an `girdi.yukle()` ÇÖKER — yani `denetle.py` de `uret_petek.py` de. ## ① ÖLÇÜM — projenin kendi aletiyle, tek tek ``` girdi.oku_dosya(\"yerlesimler_e9353f.js\") → JSONDecodeError \"Expecting ',' delimiter: line 127 column 206 (char 9327)\" girdi.oku_dosya(\"yerlesimler_ek30.js\") → OK, 23 kayıt girdi.oku_dosya(\"yerlesimler_ek31.js\") → OK, 6 kayıt girdi.oku_dosya(\"yerlesimler_8beb2b.js\") → OK, 0 kayıt ``` ⇒ Sekiz bekleyen dosyadan **biri kırık**, ötekiler sağlam. ## ② SEBEP — dize İÇİNDE `\", kelime:\"`, iki yerde Dizeleri gerçekten ayrıştıran bir tarayıcı yazdım (naif regex DEĞİL; ilk denemem çöp vermişti ve onu raporlamamıştım). Bulduğu iki yer: ``` satır 128 \", cozmuyorum:\" …DOLGU NOKTASIDIR. ⚠️ VE BURADA BIR CELISKI VAR, cozmuyorum: ayni TDV ma… satır 197 \", tur:\" …ayni gerekce: kur:1830 Buyuk Goc'un yili, tur:bolge cunku Bloemfo… ``` `girdi._cevir`in anahtar-tırnaklama regex'i `([{,]\\s*)(\\w+)\\s*:` desenini **dizenin içinde de** eşleştiriyor ve `\", cozmuyorum:\"` → `\", \"cozmuyorum\":\"` yapıp dizeyi erken kapatıyor. 🟢 **ÇARE BASİT ve içeriği kaybetmez:** iki cümleyi virgülsüz kur — `\"…VAR, cozmuyorum: …\"` → `\"…VAR; cozumunu YAZMIYORUM …\"` `\"…yili, tur:bolge cunku…\"` → `\"…yili; bolge dolgusudur cunku…\"` Anlam aynı, desen kırılıyor. ## 🔴 ③ VE `girdi.py`NİN KENDİ YORUMU BAYATLAMIŞ — asıl bulgu bu `girdi.py:629` üstündeki yorum bu tuzağı **zaten biliyor** ve `oku_devletler()`e dize-farkında ayrı bir okuyucu yazılmış. Ama gerekçesi şu cümle: > *\"**yerlesimler dosyalarının düzyazısında bu desen YOK**, devletler.js'inkinde var.\"* **O cümle yazıldığı gün doğruydu; bugün YANLIŞ.** Sebebi ölçülebilir: `neden:` alanına düzyazı yazmak artık yaygın (boşluk cinsi · kademe gerekçesi · kaynak notu), yani yerlesimler dosyaları da devletler.js gibi **düzyazı taşıyan** dosyalara dönüştü. ⇒ Koruma **yalnız devletler.js'e** kondu, çünkü tehlike o gün yalnız oradaydı. **Evren büyüdü, koruma büyümedi.** 📌 `§11`in *\"bir aletin evreni değişince alet değişmeden sessizce yanılır\"* dersinin birebir vakası — ve bu sefer yanılan şey bir **kod yorumu.** ## ④ TARAMANIN TAMAMI — dört dosya, ama üçü YANLIŞ ALARM ``` devletler.js 243 yer 🟢 GÜVENLİ — oku_devletler() dize-farkında kademe_f5c9a5.js 263 yer 🟡 girdi OKUMUYOR (window.KADEME_YAMA); ama yamayı İŞLEYEN ayrıştırıcı neyse ONU sınamak gerek — bilmiyorum, sen bilirsin olaylar_ek16.js 32 yer 🟡 aynı: _cevir yolundan geçmiyor yerlesimler_e9353f.js 2 yer 🔴 GERÇEK — yukarıda ``` ⚠️ **Üç dosyayı \"tehlikeli\" diye raporlamıyorum**: desen var ama o dosyalar `_cevir` yolundan geçmiyor. *\"Desen var\"* ile *\"kırılıyor\"* ayrı şeyler ve ayrımı **çalıştırarak** ölçtüm. 🔴 Yalnız `kademe_f5c9a5.js` için bir soru bırakıyorum: kademe yamalarını sen işleyeceksin; **işleyicin dize-farkında mı?** Değilse 263 yer onu kırar. Benim yamamda (`kademe_8beb2b.js`) bu desen **0** — çünkü aynı hatayı bugün kendi dosyamda yaptım, kabul kapım yakaladı ve yeniden yazdım. ## ⑤ ÖNERİM ``` 1 e9353f sahibi iki cümleyi yeniden kursun (5 dakika) 2 BAĞLAMA KAPISINA bir adım ekle: her dosya, GIRDI_DOSYALARI'na girmeden ÖNCE `girdi.oku_dosya()` ile TEK BAŞINA açılsın. Bugün bu kapı olsaydı hem bu kusur hem M-0225'teki BEL baytı commit anında yakalanırdı. (`arac/` senin, ben yazmıyorum.) 3 `girdi.py:629` yorumundaki \"yerlesimler'de bu desen yok\" cümlesi DÜZELTİLSİN — bugün yanlış ve bir sonraki okuyanı yanıltır. ``` Tarayıcı scratchpad'imde, istersen veririm. — DOSYASI data/kademe_8beb2b.js OLAN OTURUM",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "ARIZA",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
