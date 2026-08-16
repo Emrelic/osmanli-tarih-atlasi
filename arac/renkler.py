@@ -1023,7 +1023,26 @@ BOYALAR = {
     # umman-zengibar — 1698→1923 · pay 24.7 · engel 10 · geçen 73111 · C* 28.1 = %73
     "umman-zengibar": ("Umman-Zengibar Sultanlığı", "#f98160"),
     # loango — 1550→1883 · pay 28.0 · engel 8 · geçen 103557 · C* 11.1 = %12
-    "loango": ("Loango Krallığı", "#240c4e"),
+    # 🔴 loango #240c4e → #e0f40c — `fransa-cumhuriyet` ile ΔE 5,7 idi.
+    #   Bu çift PARTİ 1/2/3'ün hiçbirinde yoktu; `yerlesimler_e9353f`
+    #   bağlanınca `loango` veriye indi (nokta 2527 → 2589) ve Voronoi
+    #   komşuluğu doğdu. İki renge de dokunulmamıştı — `renkler.py`nin
+    #   başlığındaki *"palet VERİNİN fonksiyonudur"* uyarısının ikinci
+    #   canlı vakası (birincisi aynı gün `dahomey ↔ portekiz`).
+    #   Taşınan taraf KÜÇÜK GÖVDE: Fransa yüksek görünürlüklü, Loango
+    #   küçük bir Orta Afrika krallığı.
+    #
+    # ⚠️ VE İLK ÖNERİM KENDİ SINAVIMI GEÇEMEDİ — `#68d428` çözülmüştü ama:
+    #     kanem-bornu ΔE 4,1 · 1.895 km · eşzamanlı
+    #     songhay     ΔE 10,2 · 2.667 km · eşzamanlı
+    #   İkisi de parti 3'te konan "AYNI EKRAN" bandının içinde
+    #   (1500-4000 km + eşzamanlı → ΔE ≥ 12). Sebep: tek kimlik çözerken
+    #   `engel_kumesi()` kullanılmıştı ve o YALNIZ Voronoi + 1500 km
+    #   bakıyor — bu bandı bilmiyor (10 kısıt kurdu, gerçeği 61).
+    #   ⇒ Parti 3'ün kendi ölçütüyle yeniden çözüldü.
+    #   📌 `§11`: *"bir REÇETENİN üçüncü yönü vardır — uygulandığında işe
+    #     yarıyor mu?"* Reçete kendi testini geçmedi, reçete düzeltildi.
+    "loango": ("Loango Krallığı", "#e0f40c"),
     # luba — 1585→1889 · pay 30.2 · engel 7 · geçen 91602 · C* 27.7 = %68
     "luba": ("Luba İmparatorluğu", "#dbf396"),
     # kuba — 1625→1900 · pay 28.3 · engel 8 · geçen 87977 · C* 27.8 = %68
@@ -1131,7 +1150,17 @@ BOYALAR = {
     "hausa-sehir-devletleri": ("Hausa Şehir Devletleri",     "#d4d428"),
     "oyo-imparatorlugu":      ("Oyo İmparatorluğu (Yoruba)", "#d47028"),
     "benin-kralligi":         ("Benin Krallığı (Nijerya)",   "#4028d4"),
-    "dahomey":                ("Dahomey Krallığı",           "#28ccd4"),
+    # 🔴 dahomey #28ccd4 → #d42870, VERİ BÜYÜYÜNCE (16 Ağu, parti 3 sonrası)
+    #   Parti 1'de `dahomey`in veride HİÇ noktası yoktu ⇒ `komsuluk()` onu
+    #   göremiyordu, engel kümesi yalnız künye+zarf üzerinden kurulmuştu.
+    #   `yerlesimler_e9353f` bağlanınca nokta 2527 → 2589 oldu, `dahomey`
+    #   veriye indi ve **Voronoi komşusu doğdu**: `portekiz` ΔE 8,2 (eşik 12).
+    #   ⇒ `renkler.py`nin kendi başlığındaki uyarının canlı vakası:
+    #     *"palet VERİNİN fonksiyonudur — hiçbir renge dokunmadan yeni
+    #      çakışma doğabilir."* `git diff`te dahomey satırı DEĞİŞMEMİŞTİ.
+    #   ÖLÇÜM: portekiz'den 8,2 → 64,4 · en yakın engel 19,6 · yalnız BU
+    #     kimlik yeniden çözüldü, ötekilere dokunulmadı.
+    "dahomey":                ("Dahomey Krallığı",           "#d42870"),
     "asanti":                 ("Aşanti İmparatorluğu",       "#28d05c"),
     "sokoto":                 ("Sokoto Halifeliği",          "#2860d4"),
     "kanem-bornu":            ("Kanem-Bornu İmparatorluğu",  "#80d428"),
@@ -1195,6 +1224,176 @@ BOYALAR = {
     "transvaal":               ("Transvaal Cumhuriyeti",     "#80a424"),
     "tui-tonga-imparatorlugu": ("Tui Tonga İmparatorluğu",   "#dc446c"),
     "yeni-zelanda":            ("Yeni Zelanda",              "#d828c0"),
+    # ═══ AMERİKA — 44 KİMLİK, bağlı veride RENKSİZ (RENK AFRİKA, parti 3) ═══
+    # M-0371: `yerlesimler_amerika.js` ZATEN `girdi.py`ye bağlı ve 44 kimliği
+    #   renksiz. Bunlar yarının borcu değil BUGÜNÜN DELİĞİ: üçüncü koşunun
+    #   logunda 265 `UYARI boya: bilinmeyen devlet kimliği` satırı var ve
+    #   hepsi bu kümeden — `yeni-ispanya` 41 · `meksika` 36 · `ispanyol-peru`
+    #   27 · `inka` 13 · `maya` 10 · `aztek` 9. Kenar kayıtlar değil,
+    #   sömürge Meksika ve Peru'nun tamamı.
+    #
+    # 🔴🔴 `renk_olc.py --oner` BU PARTİYİ ÇÖZDÜ VE ÇIKTISI REDDEDİLDİ.
+    #   Araç "çözdüm" dedi; sınandı ve kullanılamaz çıktı:
+    #     18 İHLAL (eşzamanlı + <600 km + ΔE<12) · 27 uyarı
+    #     inka-imparatorlugu ↔ ispanyol-peru   ΔE 1,9 · 0 km  ← ardıl, aynı yer
+    #     gran-kolombiya ↔ ekvador-cumhuriyeti ΔE 1,9 · 0 km
+    #     kuyruk düz bir RAMPA: 1,34 · 1,35 · 1,36 · 1,37 …
+    #   SEBEP — ve bu bir ALET KUSURU DEĞİL, KAPSAM kusuru:
+    #     `komsuluk()` VORONOI tabanlı. Amerika harita penceresinin DIŞINDA
+    #     (`box(-12,-11,146,82)`) ⇒ hücre yok ⇒ komşuluk yok ⇒ araç
+    #     "yeniler arası komşuluk: 0 çift" deyip 44'ü BİRBİRİNE HİÇ
+    #     KISITLAMADI ve aday listesini `uyum` sırasıyla yürüdü.
+    #   ⇒ O "0 çift" bir ÖLÇÜM DEĞİL bir ÖLÇÜLEMEDİ. (`§11`: ölçülemedi ≠ temiz)
+    #   📌 VE BU OTURUM ÖNCE TERSİNİ İDDİA ETTİ (M-0380/M-0442): *"bu partide
+    #     araç ÇALIŞIYOR, 44'ün hepsinin veride noktası var"*. Nokta olması
+    #     yetmiyormuş — noktanın PENCERE İÇİNDE olması gerekiyormuş.
+    #     Ölçüm doğruydu, ÇIKARIM yanlıştı. Aracın DOĞRULUĞU ölçülmüş,
+    #     KAPSAMI ölçülmemişti — `§11`in kendi cümlesi.
+    #
+    # ⇒ ÇÖZÜM kendi çözücüsüyle yapıldı. Kutular ELLE YAZILMADI, VERİDEN
+    #   türetildi (bu partide noktalar var; yalnız pencere dışındalar, ve
+    #   mesafe hesabı için pencere gerekmiyor). Mesafe SARMALLI haversine.
+    #
+    # EŞİK KADEMESİ — tek sayı değil, dört kova:
+    #     <600 km + eşzamanlı        ΔE ≥ 30
+    #     <600 km + ardışık çağ      ΔE ≥ 25   (`mali ↔ sokoto` dersi)
+    #     600-1500 km                ΔE ≥ 15
+    #     1500-4000 km + eşzamanlı   ΔE ≥ 12   ← AYNI EKRAN, aşağıya bak
+    #     >4000 km                   paylaşım MEŞRU
+    #
+    # 🔴 "AYNI EKRAN" KOVASI SONRADAN EKLENDİ ve sebebi ölçüldü:
+    #   ilk çözüm bütün kısıtları geçti (0 ihlal) AMA en dar çiftler arasında
+    #   `bolivya-cumhuriyeti ↔ ekvador-cumhuriyeti` ΔE 0,63 vardı — ikisi de
+    #   19. yy Güney Amerika cumhuriyeti, EŞZAMANLI, arada ~2.200 km.
+    #   1500 km eşiği onu "uzak ⇒ meşru" saydı.
+    #   ⇒ `kaffa ↔ sidamo` dersi (`§11`) tam bunu söylüyor: *"iki gövde
+    #     DEĞMEDEN de aynı ekranda yan yana durur."*
+    #   📌 Ve sebebi ÖLÇEK: Afrika partisinde kimlikler sıktı, 1500 km bir
+    #     kıta parçasıydı. Amerika'da ülkeler kıta ölçeğinde — 2.200 km hâlâ
+    #     "aynı ekran". EŞİK EVRENSEL DEĞİL, COĞRAFYANIN ÖLÇEĞİNE BAĞLI.
+    #
+    # ARDIL ZİNCİRLERİ — Amerika'da ardıllık kural, kullanıcı zaman çubuğunu
+    #   kaydırdıkça bunları aynı yerde arka arkaya görüyor. Ölçülmüş ΔE:
+    #     aztek → yeni-ispanya → meksika              67,3 · 49,5
+    #     inka → ispanyol-peru → peru-cumhuriyeti     80,4 · 30,2
+    #     portekiz-brezilyasi → imparatorluk → cumh.  56,8 · 81,8
+    #     gran-kolombiya → kolombiya · venezuela · ekvador  44,7 · 36,7 · 48,8
+    #     maya → guatemala 60,7 · purepecha → yeni-ispanya 36,3
+    #     nahua → aztek 43,3
+    #
+    # ÖLÇÜM (bağımsız sınav, çözücünün kendi raporuna GÜVENİLMEDİ):
+    #     ihlal (eşzamanlı + <600 km + ΔE<12)  : 0
+    #     uyarı                                 : 0
+    #     ardıl çiftin 12'sinin 12'si           : GEÇTİ (30,2 … 81,8)
+    #     "aynı ekran" bandı 197 çift           : eşik altı 0 · en dar 12,1
+    #       ⇒ kısıt BOŞ DEĞİL, 197 çift üzerinde gerçekten BAĞLADI (`C13`)
+    #     3 sıranın 2'si çözdü, 1'i `ispanyol-peru`da takıldı ⇒ SIRA bağlıyor,
+    #       YAPI değil (`§11` üçüncü cins) — yapısal ilan EDİLMEDİ.
+    #
+    # ⚠️ `romanya-kralligi` BU LİSTEDE ve Amerika'lı DEĞİL. Veride
+    #   `d:"romanya-kralligi"` 7 dönem geçiyor; künyesi `harita:"romanya"`
+    #   diyor ama motor `uret_petek.py:596`de `s:` anahtarının KENDİSİNİ
+    #   arıyor ⇒ BOYALAR'da yoksa boyanmaz. Yani gerçek bir delikti.
+    "arjantin-cumhuriyeti":     ("Arjantin Cumhuriyeti",      "#2454d4"),
+    "aztek-imparatorlugu":      ("Aztek İmparatorluğu",       "#64c824"),
+    "bolivya-cumhuriyeti":      ("Bolivya Cumhuriyeti",       "#c428d8"),
+    "brezilya-cumhuriyeti":     ("Brezilya Cumhuriyeti",      "#28d860"),
+    "brezilya-imparatorlugu":   ("Brezilya İmparatorluğu",    "#d828a8"),
+    "cahokia":                  ("Cahokia",                   "#d8a428"),
+    "cherokee":                 ("Çeroki",                    "#2434d4"),
+    "chimu-krallik":            ("Chimú Krallığı",            "#d8b428"),
+    "choctaw":                  ("Çoktav",                    "#24d424"),
+    "colla-krallik":            ("Colla Krallığı",            "#acd424"),
+    "creek-konfederasyonu":     ("Krik Konfederasyonu",       "#28d8d8"),
+    "diaguita-calchaqui-konfederasyonu": ("Diaguita-Calchaquí", "#d04824"),
+    "dominik-cumhuriyeti":      ("Dominik Cumhuriyeti",       "#50dc24"),
+    "ekvador-cumhuriyeti":      ("Ekvador Cumhuriyeti",       "#b0d828"),
+    "gran-kolombiya":           ("Gran Kolombiya",            "#d84028"),
+    "guatemala":                ("Guatemala",                 "#d4a424"),
+    "haiti":                    ("Haiti",                     "#2834d8"),
+    "haudenosaunee":            ("Haudenosaunee (İrokua)",    "#24d494"),
+    "ingiliz-kuzey-amerika":    ("İngiliz Kuzey Amerikası",   "#d8802c"),
+    "inka-imparatorlugu":       ("İnka İmparatorluğu",        "#2424d4"),
+    "ispanyol-peru":            ("İspanyol Perusu",           "#24d45c"),
+    "kolombiya-cumhuriyeti":    ("Kolombiya Cumhuriyeti",     "#248094"),
+    "kuba-cumhuriyeti":         ("Küba Cumhuriyeti",          "#d44480"),
+    "lupaqa-krallik":           ("Lupaqa Krallığı",           "#d82c74"),
+    "mapuche-araukanya":        ("Mapuçe (Arokanya)",         "#7828d8"),
+    "maya-sehir-devletleri":    ("Maya şehir devletleri",     "#d828a4"),
+    "meksika":                  ("Meksika",                   "#28d898"),
+    "muisca-konfederasyonu":    ("Muisca Konfederasyonu",     "#d828d8"),
+    "nahua-sehir-devletleri":   ("Nahua şehir devletleri",    "#1c8498"),
+    "natchez":                  ("Natchez",                   "#8c24d4"),
+    "paraguay-cumhuriyeti":     ("Paraguay Cumhuriyeti",      "#64d828"),
+    "peru-cumhuriyeti":         ("Peru Cumhuriyeti",          "#28d0d8"),
+    "portekiz-brezilyasi":      ("Portekiz Brezilyası",       "#d89020"),
+    "powhatan":                 ("Powhatan",                  "#d84428"),
+    "pueblo-bagimsizligi":      ("Pueblo bağımsızlığı",       "#68cc28"),
+    "purepecha-imparatorlugu":  ("Purépecha İmparatorluğu",   "#d84884"),
+    "romanya-kralligi":         ("Romanya Krallığı",          "#2828d8"),
+    "sili-cumhuriyeti":         ("Şili Cumhuriyeti",          "#d8c028"),
+    "teksas-cumhuriyeti":       ("Teksas Cumhuriyeti",        "#d84c28"),
+    "tututepec-krallik":        ("Tututepec Krallığı",        "#3c10e8"),
+    "uruguay-cumhuriyeti":      ("Uruguay Cumhuriyeti",       "#28c48c"),
+    "venezuela-cumhuriyeti":    ("Venezuela Cumhuriyeti",     "#748c20"),
+    "yeni-ispanya":             ("Yeni İspanya",              "#2864d8"),
+    "zapotek-krallik":          ("Zapotek Krallığı",          "#7c501c"),
+    # ⚠️ PARTİ 3'ÜN KUYRUĞU — BAĞLAMA YENİ BİR DELİK DOĞURDU (M-0546).
+    #   Parti 3 teslim edildiğinde ölçüm "bağlı veride renksiz kimlik: 0"
+    #   diyordu ve DOĞRUYDU. Sonra `yerlesimler_0ee15e.js` bağlandı:
+    #     bağlı veride kullanılan kimlik  349 → 369  (+20)
+    #     bunlardan renksiz                 0 →   1
+    #   Yirmi yeni kimliğin ON DOKUZU zaten parti 3'teydi; biri değildi.
+    #   📌 Ders: bir renk teslimi "renksiz 0" derken **o ANIN girdi
+    #     kümesini** ölçer. Bağlama evreni büyütür ⇒ sayı kendiliğinden
+    #     bayatlar. Kusur ölçümde değil, ölçümün TARİHİNDE.
+    #     (`§11` "aletin evreni değişince alet sessizce yanılır" — burada
+    #      alet değil TESLİM yanıldı, ve aynı sebeple.)
+    #   ÖLÇÜM: en yakın engelden ΔE 22,1 · 3 sıranın 3'ü de çözdü ·
+    #     `kolombiya-cumhuriyeti` (ayrıldığı devlet) ile ΔE eşik üstü.
+    "panama-cumhuriyeti":       ("Panama Cumhuriyeti",        "#24d880"),
+    # ═══ `tonga-kralligi` — ZİNCİRİN SON HALKASI (M-0597/M-0610) ═══
+    # Kusur değil ZİNCİR: `Değişmez 1c` Lapaha'yı belgesiz sahipsiz buldu
+    # (8, tavan 7) → çare `s:` dizisine `d:"tonga-kralligi"` eklemekti →
+    # `1c` 8 → 7 ✓ ama o kimlik veride İLK KEZ kullanıldı ⇒ renksiz 0 → 1.
+    # `§3.5.1`in birebir vakası: bir uç ölçüldü, ÖTEKİ UÇ açıldı.
+    #
+    # 🔴 ÖLÇÜT KOMŞULUK DEĞİL, ARDIŞIKLIK — `renk_olc` bunu HİÇ SORMAZ:
+    #     tui-tonga-imparatorlugu  f:1220-01-01  t:1845-12-04
+    #     tonga-kralligi           f:1845-12-04  t:1923-10-29
+    #   Uçları BİTİŞİK, hiçbir gün örtüşmüyor ⇒ araca göre "meşru
+    #   paylaşım". Ama İKİSİ DE AYNI NOKTADA (Lapaha): kullanıcı zaman
+    #   çubuğunu 1845'e getirdiğinde o noktanın rengi değişecek. Ayırt
+    #   edilebilirlik EŞZAMANLILIKTAN değil ARDIŞIKLIKTAN geliyor.
+    #   ÖLÇÜM: tui-tonga'dan ΔE 70,4 (`inka → ispanyol-peru` sınıfı).
+    #
+    # ⚠️ VE SEÇİM ÜÇ KEZ ÇÜRÜTÜLDÜ, ÜÇÜ DE UYGULANMADAN:
+    #   ① `engel_kumesi()` ile çözülen aday, "en kötü hâl"i YARIM
+    #     uyguladığım için 25 kısıtla bağlıydı — `bonacolsi` (Mantova)
+    #     gibi noktasız kimlikler 0 km sayılıp ΔE ≥ 30 dayatıyordu.
+    #     `kuba ↔ lunda` çaresi *"künyesi örtüşüyor VE AYNI BÖLGEDEYSE"*
+    #     diyor; bölge şartını düşürmüşüm. Düzeltilince kısıt 25 → 5.
+    #   ② Sonra paletin TAMAMINA ΔE ≥ 12 dayattım → `#f800f8` SAF MACENTA.
+    #     Tam da `renk_olc.py:894`ün uyardığı şey. Ve emsali yanlış
+    #     okumuşum: RENK DENİZ'in şartı *"o turda atanmış TÜM renkler"*
+    #     yani PARTİNİN İÇİ — tek kimlikte parti yok.
+    #   ③ ⇒ Küresel ayrıklık KISIT değil TERCİH oldu. Dört aday yan yana
+    #     ölçüldü; `#28d438` her eksende önde:
+    #       ardıl 70,4 · uyum 0,009 (neon DEĞİL) · en yakın palet rengi
+    #       `songhay` 3,6 ama 18.729 km ve çağdaş bile değil ⇒ MEŞRU.
+    "tonga-kralligi":           ("Tonga Krallığı",            "#28d438"),
+    # ⚠️ `massina` · `tekrur` — VERİ BEN ÇALIŞIRKEN BÜYÜDÜ (üçüncü kez).
+    #   Künyeleri 18:10'da indi, dönemleri veriye girdi ⇒ renksiz 0 → 2.
+    #   İkisi de parti 1'in coğrafyasında (Nijer kıvrımı · Senegal), yani
+    #   `mali` · `songhay` · `sokoto` ile komşu/ardıl ilişkileri var ve
+    #   parti 3'ün kademeli eşiğiyle çözüldü: en dar kısıtlı çift 25,3 ·
+    #   3 sıranın 3'ü de çözdü · eşiği geçmeyen çift 0.
+    #   📌 Bu, "renksiz 0" ölçümünün ÜÇÜNCÜ bayatlaması. Sayı yanlış
+    #     değildi; ÖLÇÜLDÜĞÜ AN doğruydu ve veri o andan sonra büyüdü.
+    #     ⇒ Bir renk teslimi tarihsiz okunamaz: "renksiz 0" cümlesi
+    #       yanına HANGİ GİRDİ KÜMESİNDE ölçüldüğü yazılmadan eksiktir.
+    "massina":                  ("Massina İmâmeti",           "#d4d824"),
+    "tekrur":                   ("Tekrûr",                    "#d824d8"),
     "somali":     ("Somali sultanlıkları",   "#1248d5"),
     # ═══ AFRİKA BOYNUZU / SUDAN KÜMESİ — RENK 2, 7 Ağustos 2026 ═══
     # ARAŞTIRMA KÜNYE 3'ün teslimi; künyeler VERİ DEVLET'te yazıldıktan SONRA
