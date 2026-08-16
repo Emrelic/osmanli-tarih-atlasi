@@ -193,7 +193,119 @@ Kamçatka kova hükmü). İkisi de aynı sınıf: `B10`.
 ölçtüm. Kayda geçiyor ki bir sonraki oturum bu "eksikliği" yeniden
 keşfetmeye kalkmasın: **bakıldı, yok.**
 
-## ⑤ SIRADAKİ
+---
+
+# İKİNCİ GÖREV — KADEME-ANADOLU (`data/kademe_8beb2b.js`)
+
+`isal.py` verdi. Kutu **lat 35-48 / lon 19-45**. Şartname
+[KADEME-ANADOLU.md](KADEME-ANADOLU.md) + [KADEME-KD.md](KADEME-KD.md).
+
+## ⓪ TESLİM — sayıyla
+```
+22 kademesiz hedeflendi → 5 YAZILDI · 17 kaldı
+   7 devir bekliyor (Kafkasya 6 + Hoy — KADEME-ARAP-IRAN'la çakışıyor)
+   5 karar bekliyor (tur:"bolge" dolguları)
+   5 ERİŞİLEMEDİ  (Don/Kuban — TDV ölü, Britannica 403, Brill 403)
+KABUL KAPISI 6/6 · commit 0c9f10f
+```
+🟡 Yarım iş gizlenmedi: 17'nin her birinin **hangi cins engelle** durduğu
+dosyada ayrı ayrı yazılı.
+
+## ① KUTU BEKLENENİN TERSİ ÇIKTI
+Şartname burayı *"en verimli bölge"* diyordu. Ölçüm: **480 noktanın
+458'i ZATEN kademeli (%95,4).** Kalan 22'nin çoğu Anadolu-Rumeli bile
+değil (Kırım 5 · Don 5 · Kafkasya 6 · Hoy 1 · dolgu 5).
+⇒ Kapsama iddiası doğru olabilir, **verim iddiası ölçülünce çürüdü.**
+
+## ② ÜÇÜNCÜ KOVA — benim sorumdan doğdu (M-0266 → M-0270)
+TDV Kırım için **susmuyor**, ama **başka bir taksimatta** konuşuyor:
+sancak/kaza yok; kalgay merkezi · kaymakamlık · 48 kadılık var.
+Şartnamenin iki kovası (konuşuyor / susuyor) bunu tutmuyordu.
+⇒ Koordinatör üçüncü kovayı açtı: **mertebeye eşle, ADI ÇEVİRME.**
+Ve bir kural ekledi: *emin değilsen bir kademe AŞAĞI* — fazla ağırlık
+peteği komşusunun toprağına taşırır, eksik ağırlık yalnız küçültür.
+
+## 🔴 ③ ŞARTNAMENİN ÖLÇEĞİ VERİYLE ÇELİŞTİ (M-0290)
+```
+şartname  "eyalet/beylerbeyilik merkezi → k:1"
+VERİ      eyalet merkezleri k:2 (Erzurum · Şam · Halep · Bağdat · Kefe)
+          k:1 YALNIZ başkent — ve 40+ Amerika yerli başkenti de k:1
+```
+⇒ Şartnameyi izleyen bir oturum **113 kaydı bir kademe yukarı** kaydırırdı.
+🟢 Ölçek iki alıntıyla sınandı: TDV *"Azak Kefe SANCAĞINA bağlı bir KAZA"*
+→ veride Azak k:3 ✓ Kefe k:2 ✓
+
+🔴 **Ve bu KENDİ iki kaydımı çürüttü:** Akmescid ve Karasubazar'ı k:2
+yazmıştım; hanlık merkezi Bahçesaray k:2 ise onlar onun ÜSTÜNE ya da
+EŞİTİNE yazılamaz ⇒ **k:3**. Hatam, mertebe SIRASINI verideki k:2'nin ne
+olduğunu **ölçmeden** uygulamaktı — `B10`, ve **teslimden önce** yakalandı.
+
+## 🔴 ④ "EKSİK OLAN KAYNAK DEĞİL, SORUNUN BİÇİMİ"
+Eski Kırım ve Or Kapı'yı ilk turda yazmamıştım: *"elimde ÖZET var,
+ALINTI yok."* Aynı maddeye **"kelimesi kelimesine ver"** diye sorunca
+alıntı geldi ve ikisi de yazıldı.
+🔴 Ve parafraza dayansaydım **yanlış** yazacaktım:
+```
+özet    Or Kapı "veliaht makamı / kaptan-vali"  → k:2 yazdırırdı
+alıntı  "Ferahkirman adlı bir KALE yaptırıldı"  → k:4 yazdırdı
+```
+**İki kademe fark, tek sebep: neye dayandığım.**
+
+## 🔴 ⑤ KABUL KAPISI KENDİ DOSYAMI REDDETTİ — iyi ki
+`neden:` metninin **içine** `", k:3."` yazmışım. `girdi._cevir`in
+regex'i `([{,]\s*)(\w+)\s*:` desenini **dizenin içinde de** eşleyip
+`", "k":3."` yapıyor ve JSON kırılıyor.
+⇒ Bu bir **latent tehlike** ve doğru bir tarayıcı yazınca ortaya çıktı:
+```
+devletler.js          243 yer 🟢 GÜVENLİ — oku_devletler() dize-farkında
+kademe_f5c9a5.js      263 yer 🟡 _cevir yolundan geçmiyor (yama işleyicisi?)
+olaylar_ek16.js        32 yer 🟡 aynı
+yerlesimler_e9353f.js   2 yer 🔴 GERÇEK — girdi.oku_dosya() ÇÖKÜYOR
+```
+🔴 **Ve asıl bulgu `girdi.py`nin kendi yorumunda:** tuzak biliniyor ve
+`oku_devletler()`e dize-farkında okuyucu yazılmış, ama gerekçesi
+*"yerlesimler dosyalarının düzyazısında bu desen YOK"* cümlesi.
+**Yazıldığı gün doğru, bugün YANLIŞ** — `neden:` alanına düzyazı yazmak
+yaygınlaştı. **Evren büyüdü, koruma büyümedi.** (M-0344)
+
+## ⑥ BİR TUZAK DAHA — Türkçeye özgü
+`kazaklar` slug'ı CANLI (200) ama madde **Orta Asya Kazak Türkleri**
+hakkında; Don/Zaporojye **Kozaklarıyla** ilgisi yok.
+⇒ `ordu`→askerî ordu · `cin`→fıkıh terimi desenine **dördüncü cins**:
+ötekilerde çakışan **kavramdı**, burada çakışan **etnonim.** Gövdeyi
+okumasaydım beş kaydı bir Orta Asya maddesine dayandıracaktım.
+
+## ⑦ BEKÇİYİ DARALTTIM — ve kusur bendeydi
+İki mesaj (M-0342 · M-0350) bekçime düştü ama `ek31` sahibine aitti.
+Sebep: iki eski adı (`OPUS HAZIR KITA 6` · `NOKTA SİBİRYA 2`) onunla
+**paylaşıyordum**, ve defter ad kümelerini birleştirdiği için bekçim
+**RENK 3**'ün adını bile dinliyordu.
+⇒ M-0201 adresi DOSYAya çevirdi; **kural değişti, aletimi ben
+değiştirmedim.** Bekçi yalnız benzersiz adreslerimle + `--defter-yok`
+ile yeniden kuruldu.
+📌 *Bir kural değişince ona uyan ALET de yeniden ölçülür.*
+
+## ⑧ BEKLEYEN DÖRT KARAR — hepsi koordinatörde
+```
+1 Kafkasya 6 + Hoy → bende mi, KADEME-ARAP-IRAN'da mı?
+2 tur:"bolge" 118 kayda kademe yazılacak mı?
+3 Bahçesaray hanlık BAŞKENTİ ama veride k:2 — kasıtlı mı, kusur mu?
+  (aynı soru Eflak · Boğdan · Erdel · Mekke için de geçerli)
+4 Britannica şartnamenin 🟢/🔴 listelerinin İKİSİNDE DE yok — kullanılır mı?
+  (bu cevap beş kademe oturumunu birden bağlar)
+```
+
+## ⑨ DAĞITIM ÖLÇÜMÜ — iki yeni şartname bundan doğdu (M-0297)
+```
+GÜNEY+DOĞU ASYA 536 · AVRUPA 393 · AFRİKA 337 · ORTA ASYA+SİBİRYA 311
+ARAP+İRAN 203 · OKYANUSYA 60 · ANADOLU+RUMELİ 22 · AMERİKA 8
+HİÇBİR KUTUYA GİRMEYEN 74  ← Moskova · Smolensk · Kola: RUSYA kimsede değil
+```
+⇒ Koordinatör `KADEME-ASYA.md` ve `KADEME-AVRUPA.md`yi bu ölçümden açtı.
+
+---
+
+## ⑤ SIRADAKİ (birinci görev — Sibirya)
 - Altı ostrogun **koordinatı** — tek somut tıkanma, gazetteer cinsi kaynak gerek
 - Yakut 3 kaydının cins düzeltmesi — **koordinatörde**, dört dosya sahibi var
 - Kolıma/Yukagir: kapsayan akademik kaynağa **ulaşılamadı** (aranmadı DEĞİL)
