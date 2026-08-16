@@ -278,12 +278,33 @@ def main(argv):
                 #   "ulaştı" bu projede altı kez ayrışmıştı, bu yedincisi.
                 yeni.append(m)
             elif k == "HERKES" and sadece_bana:
-                # 🔴 `--sadece-bana`: yalnız DURDURUCU geçer.
-                # Kilit ilanı, üretim arızası, "her şey dursun" sınıfı —
-                # bunları kaçırmak kazanılan turdan pahalıdır.
-                # ⚠️ ACIL yayınlar da ELENİR: bugün 749 mesajın 167'si
-                # HERKES, 29'u DURDURUCU. Yani süzgeç 167 → 29.
-                if _sade(m.get("aciliyet")) == "DURDURUCU":
+                # 🔴🔴 EMRE, ÜÇÜNCÜ VE EN AÇIK HÂLİ (16 Ağustos gece):
+                #   *"Bekçi kendine gelen mesajı okumalı ve ona göre
+                #    oturumunu uyandırmalı. Eğer herkese atılmışsa
+                #    BAKABİLİR ve uyandırabilir, ama SADECE KENDİNE
+                #    ATILAN mesajları süzüp ona göre oturumunu
+                #    ateşlemeli, ÖBÜR TÜRLÜ SUSMALI."*
+                #
+                # ⇒ ATEŞLEME ÖLÇÜTÜ TEK: mesaj BANA yazılmış mı.
+                # `HERKES` yayınları — ACİL de DURDURUCU da — ARTIK
+                # UYANDIRMIYOR.
+                #
+                # 🔴 VE BU, BENİM `DURDURUCU` İSTİSNAMI KALDIRIYOR.
+                # O istisnayı ben eklemiştim (kilit/arıza duyurusunu
+                # kaçırmak pahalı diye) ve gerekçesi hâlâ geçerli —
+                # ama çaresi bekçiyi gevşetmek DEĞİL:
+                #   ⇒ KOORDİNATÖR kilit duyurusunu artık HER OTURUMA
+                #     ADIYLA yazacak. N mesaj yazmak, N oturumu boşuna
+                #     uyandırmaktan ucuz — ve doğru kişiye doğru
+                #     sebeple ulaşır.
+                # 📌 Yani "herkese duyurma" ihtiyacı ortadan kalkmıyor,
+                #   ADRESLENİYOR. Yayın bir kolaylıktı; bedeli ölçüldü
+                #   ve kolaylık pahalı çıktı.
+                #
+                # `--durdurucu-da` : isteyen oturum DURDURUCU'ları
+                #   yine alabilir (kendi kararı, varsayılan DEĞİL).
+                if "--durdurucu-da" in argv and \
+                        _sade(m.get("aciliyet")) == "DURDURUCU":
                     yeni.append(m)
             elif k == "HERKES":
                 # 🔴 EMRE'NİN SORUSU (16 Ağustos) VE ONUN CEVABI:
