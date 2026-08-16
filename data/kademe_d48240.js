@@ -72,6 +72,24 @@
 //        Kutum     → HER BÖLÜMDE 0
 //    📌 41 slug denemek bir TAHMİN dizisiydi; bu bir ÖLÇÜM. Ve ikisi
 //      farklı şey söylüyor: 41 slug "bulamadım" der, sayaç "YOK" der.
+//
+// 🔴🔴 AMA ALETİN SINIRI DA ÖLÇÜLDÜ — VE SINIR ASİMETRİK.
+//    Yedi adı sorguladım. Sayaç bir YERİ değil bir DİZGİYİ eşliyor:
+//      Beldcamen  0    Kutum  0    Kebkabiye  0    Zalinci  0   ← TEMİZ SIFIR
+//      Cenine    13    hepsi "cenîn" (fetus): CENİN · ÇOCUK DÜŞÜRME ·
+//                      ORGAN NAKLİ · KATİL · EHLİYET — FIKIH maddeleri
+//      Tine       6    Tunus'ta bir ada · "kıdemü't-tîne" (heyûlâ) ·
+//                      "Tiner" soyadı · "Tineius Rufus" (Romalı vali)
+//      Dain      29    hepsi "dâî" (İsmâilî davetçi): AHMED-i DÂÎ · DÂÎ ·
+//                      BOHRÂ · DÂRÜLHİKME
+//    ⇒ ÜÇ/ÜÇ EŞADLI ÇIKTI. Sayacın sıfır-olmayan sonucu, aradığın YERİ
+//      bulduğu anlamına GELMİYOR.
+//    🟢 KURAL (asimetrik):
+//        SIFIR      → GÜÇLÜ sonuç: dizgi hiçbir maddede geçmiyor
+//        SIFIR DEĞİL→ yalnız bir İZ: başlıklar OKUNMADAN hüküm verilemez
+//    📌 Ve bu, bir önceki turda kendi yazdığım sınırın ("sayacın kendi
+//      sınırını ÖLÇMEDİM") bir sonraki sorguda karşıma çıkmış hâli.
+//      Yöntemi duyurmuştum; sınırını da duyurmak zorundayım.
 // 📌 `k:` olan kayıtta bu alan BULUNMAZ — kova yalnız kademesiz kayda ait.
 //
 // A BLOĞU — PARTİ 1: Altın Orda / hanlık çekirdeği + Rus başkenti
@@ -296,11 +314,11 @@ window.KADEME_YAMA = [
 
   {ad:"Kebkâbiye", k_yok_sebep:"adres-yok",
    kaynak:"TDV darfur (gövdesi okundu) + `kebkabiye` slug'ı 302",
-   neden:"müstakil maddesi YOK ve kapsayıcı `darfur` maddesi bu adı HİÇ ANMIYOR. Akademik kaynak gerekiyor"},
+   neden:"müstakil maddesi YOK, kapsayıcı `darfur` maddesi bu adı HİÇ ANMIYOR, VE ARAMA SAYAÇLARI her bölümde 0 (başlık 0 · içerik 0 · müellif 0 · kısaltma 0). Üç yoldan da doğrulandı; bu kayıt kovanın en güçlü dayanaklılarından. Akademik kaynak gerekiyor"},
 
   {ad:"Cenîne", k_yok_sebep:"adres-yok",
    kaynak:"TDV darfur (gövdesi okundu) + `cenine` slug'ı 302",
-   neden:"müstakil maddesi YOK ve kapsayıcı `darfur` maddesi bu adı HİÇ ANMIYOR. ⚠️ NOT: bu ad M-0466'nın bulanık eşleştirmesinde `Cetine` (zeta künyesi) ile 0,83 benzerlik göstermişti ve SAHTE çıkmıştı (Cenîne Dârfûr'da 13,45°K, Cetinje Karadağ'da) — o hüküm ayakta"},
+   neden:"müstakil maddesi YOK ve kapsayıcı `darfur` maddesi bu adı HİÇ ANMIYOR. 🔴 ARAMA SAYACI 13 İÇERİK SONUCU VERDİ AMA HEPSİ EŞADLI: CENİN · ÇOCUK DÜŞÜRME · ORGAN NAKLİ · KATİL · EHLİYET · HİBE — hepsi 'cenîn' (fetus) FIKIH maddeleri, Dârfûr'daki kasabayla ilgisi YOK. Sayaç bir YERİ değil bir DİZGİYİ eşliyor; sıfır-olmayan sonucu OKUMADAN hüküm verilemez. ⚠️ NOT: bu ad M-0466'nın bulanık eşleştirmesinde `Cetine` (zeta künyesi) ile 0,83 benzerlik göstermişti ve SAHTE çıkmıştı — yani bu kayıt İKİ AYRI aleti (bulanık eşleştirme ve arama sayacı) yanılttı, ikisinde de sebep EŞADLILIK"},
 
   {ad:"Zâlincî", k_yok_sebep:"adres-yok",
    kaynak:"TDV darfur (gövdesi okundu) + `zalinci` slug'ı 302",
@@ -308,11 +326,11 @@ window.KADEME_YAMA = [
 
   {ad:"Tîne (Dârfûr)", k_yok_sebep:"adres-yok",
    kaynak:"TDV darfur (gövdesi okundu) + `tine` slug'ı 302",
-   neden:"müstakil maddesi YOK ve kapsayıcı `darfur` maddesi bu adı HİÇ ANMIYOR. Akademik kaynak gerekiyor"},
+   neden:"müstakil maddesi YOK ve kapsayıcı `darfur` maddesi bu adı HİÇ ANMIYOR. 🔴 ARAMA SAYACI 6 İÇERİK SONUCU VERDİ AMA HEPSİ EŞADLI: Tunus'ta 'Tîne adası/köyü' (CEZÂYİR-i BAHR-i SEFÎD · SEFÂKUS) · 'kıdemü't-tîne' felsefe terimi (HEYÛLÂ) · 'Tiner' soyadı · 'Tineius Rufus' Romalı vali. Dârfûr'daki Tîne ile ilgisi YOK"},
 
   {ad:"Ed-Da'în", k_yok_sebep:"adres-yok",
-   kaynak:"TDV darfur (gövdesi okundu) + `ed-dain` slug'ı 302",
-   neden:"müstakil maddesi YOK ve kapsayıcı `darfur` maddesi bu adı HİÇ ANMIYOR. Akademik kaynak gerekiyor"},
+   kaynak:"TDV darfur (gövdesi okundu) + `ed-dain` slug'ı 302 + arama sayacı OKUNDU (29 sonuç, hepsi eşadlı)",
+   neden:"müstakil maddesi YOK ve kapsayıcı `darfur` maddesi bu adı HİÇ ANMIYOR. 🔴 ARAMA SAYACI 29 İÇERİK SONUCU VERDİ — kovanın EN YÜKSEK sayısı — AMA HEPSİ EŞADLI: AHMED-i DÂÎ · DÂÎ · BOHRÂ · DÂRÜLHİKME · CÂMASBNÂME, hepsi 'dâî' (İsmâilî davetçi) maddeleri. Dârfûr'daki Ed-Da'în ile ilgisi YOK. 📌 En yüksek sayı en alakasız sonuç çıktı — sayı büyüklüğü alaka göstergesi DEĞİL"},
 
   // C BLOĞU — Fas kıyısı, iki kayıt ve İKİSİ DE FARKLI KOVAYA düştü.
   // 📌 Ve ikisi birlikte "hâkimiyet ≠ mertebe" dersini üçüncü kez gösteriyor:
