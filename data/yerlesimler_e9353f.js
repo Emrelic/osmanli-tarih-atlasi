@@ -160,8 +160,9 @@ window.YERLESIMLER_E9353F = [
      {f:"1591-04-13", t:"1700-01-01", d:"fas", kaynak:"gao"},
      {f:"1898-01-01", t:"1923-10-29", d:"fransa-cumhuriyet", kaynak:"mali"}],
   d:[], v:[],
+  kasitli_bosluk:true,
   bos:"veri-yok",
-  neden:"kunye-yok — 1281-1324 arasi sahipsiz: TDV gao maddesi 1324'te Songay Sultani Asibay'in Mali'ye biat ettigini yaziyor, yani 1281'de bir Songay devleti VARDI; ama songhay-imparatorlugu kunyesi f:1464. Kunye penceresi dar, bilgi eksik degil. Ayrica 1700-1898 arasi sahipsiz: TDV 'XVIII. yuzyila kadar' diyor, sonrasi icin (Arma pasaliki, Tuareg) kunye de kaynakli tarih de yok." },
+  neden:"veri-yok — IKI ARALIK, ikisi de BILEREK bos. ① 1281-1324: TDV gao maddesi 1324'te Songay Sultani Asibay'in Mali'ye biat ettigini yaziyor, yani 1281'de bir Songay devleti VARDI; ama songhay-imparatorlugu kunyesi f:1464. Kunye penceresi DAR, bilgi eksik DEGIL. ② 1700 → 1898 (198 yil): Arma pasaligi ve Tuareg donemi; TDV gao yalniz 'XVIII. yuzyila kadar Askiyalar Gao'da Fasli pasalarin emrinde hukum surduler' diyor, YIL vermiyor ve arma-pasaligi kunyesi de YOK. 🔴 VE BURADA MASSINA'YI YAZMAYI REDDETTIM, gerekcesi kayda gecsin: massina kunyesi indi ve Cenne'ye yazildi, ama kaynak (Cambridge/JAH) Massina'nin hakimiyetini 'the old cities of JENNE and TIMBUKTU' diye sayiyor, GAO'yu SAYMIYOR. Kunye elimdeyken Gao'ya uzatmak kolaydi ve bu, ayni dosyada Split/Sibenik'te bir kez yaptigim GENISLETMENIN tekrari olurdu — orada dayanak bir tarihi belgeydi (1789 kadastro), burada HIC beyan yok. ⇒ Kaynagin sustugu yere devlet yazmak, kaynagin konustugu yere yazmamaktan daha buyuk bir hatadir: ilki gorunmez, ikincisi denetimde oter." },
 
 // CENNE (Djenné) — Nijer iç deltasının ticaret ve ilim merkezi.
 // TDV `cenne` (gövdesi okundu):
@@ -178,13 +179,23 @@ window.YERLESIMLER_E9353F = [
 //            topraklarına katıldı"
 // 📌 1596 tarihini kaynağın KENDİ tereddüdüyle aldım — TDV "büyük ihtimalle"
 //   diyor. Bunu silip kesin 1591 yazmadım; kaynağın tereddüdü de veridir.
+// 🟢 IKI DONEM EKLENDI (M-0595/M-0608 onayiyla) — kunyeler indikten SONRA.
+//   massina 1818-01-01→1862-01-01 · tekrur 1852-09-01→1893-01-01 künyeleri
+//   `devletler.js`e indi (commit 52b1cd6), ve ANCAK ONDAN SONRA yazdim:
+//   §3.5 künye penceresi disina dönem yazmayi yasakliyor ve bunu ilk
+//   yazimda da uygulamistim — o yüzden bu bosluk BILEREK duruyordu.
+// 📌 Yani 193 yillik bosluk bir EKSIK degil, bir SIRA meselesiydi: dizin
+//   katmani gelmeden yerlesim katmani yazilamiyordu (CLAUDE.md §6).
 { ad:"Cenne (Djenné)", tur:"sehir", lat:13.906, lon:-4.555, g:1, k:1,
   s:[{f:"1473-01-01", t:"1591-04-13", d:"songhay-imparatorlugu", kaynak:"cenne"},
      {f:"1596-01-01", t:"1700-01-01", d:"fas", kaynak:"cenne"},
+     {f:"1818-01-01", t:"1862-01-01", d:"massina", kaynak:"mali"},
+     {f:"1862-01-01", t:"1893-01-01", d:"tekrur", kaynak:"el-hac-omer"},
      {f:"1893-01-01", t:"1923-10-29", d:"fransa-cumhuriyet", kaynak:"cenne"}],
   d:[], v:[],
+  kasitli_bosluk:true,
   bos:"veri-yok",
-  neden:"kunye-yok — 1281-1473 arasi sahipsiz: sehir IX. yuzyildan beri var (TDV cenne) ve 1473'e kadar Songay'a gecmedi; bu arada bagimsiz bir sehir devletiydi, ama Cenne icin kunye yok. 1700-1893 arasi da sahipsiz: Massina Devleti (Ahmedu Lobbo, TDV mali maddesinde adiyla geciyor, 1830 cami insasi TDV cenne'de) ve Toucouleur icin devletler.js'te KUNYE YOK." },
+  neden:"veri-yok — UC AYRI ARALIK, ucu de BILEREK bos ve ucunun de gerekcesi AYRI. ① 1281-1473: sehir IX. yuzyildan beri var (TDV cenne) ve 1473'e kadar Songay'a gecmedi; bagimsiz bir sehir devletiydi ama Cenne icin kunye YOK. ② 1591-04-13 → 1596-01-01 (4,7 yil): Tondibi ile Cudar Pasa'nin sehri almasi arasi; TDV'nin KENDISI 'buyuk ihtimalle 1596'da' diyerek TEREDDUT ediyor ve o tereddudu doldurmak icin tarih uydurmak, dort yil sekiz aylik bir bosluktan kotudur. ③ 1700 → 1818 (118 yil): Arma pasaligi donemi; TDV gao yalniz 'XVIII. yuzyila kadar Askiyalar Fasli pasalarin emrinde' diyor, YIL vermiyor ve arma-pasaligi kunyesi de YOK. ⇒ Ucunde de kaynak ya susuyor ya kunye eksik; hicbirine tarih UYDURULMADI. 🟢 Buna karsilik 1818-1893 arasi ARTIK DOLU: massina ve tekrur kunyeleri indi ve iki donem yazildi." },
 
 // SEGU (Ségou) — Bambara Krallığı'nın başşehri, sonra Toucouleur merkezi.
 // TDV `el-hac-omer` (gövdesi okundu): "1861 başlarında bir başka Bambara
