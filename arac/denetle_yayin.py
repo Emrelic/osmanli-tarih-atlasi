@@ -787,6 +787,40 @@ def main():
                                          "(index.html satiri + app.js cizimi)",
         "data/olaylar_7a4170.js":        "4 kirilmaya kronoloji maddesi; onkosul "
                                          "index.html satiri — YAYINA GIRECEK",
+        # ── DORDUNCU KOSU SONRASI · 16 Agustos 2026, 21:00 ──────────────
+        # Uc ayri onkosul, uc ayri kova. Karistirilmamalari SART: birincisi
+        # HIC baglanmayacak, ikincisi ARAYUZ bekliyor, ucuncusu BIR SONRAKI
+        # KOSUYU bekliyor. "Yetim" tek kelime, sebepleri UC AYRI SEY.
+        #
+        # ① YAMA DOSYALARI — tarayiciya HIC gitmez, gitmemeli
+        # Uygulandilar (245 k: + 187 kd: + 32 kunye) ve KAPALILAR. Tarayici
+        # yuklerse ayni bilgi IKI KEZ girer ve hangisinin canli oldugu
+        # sorulamaz hale gelir.
+        "data/kademe_d48240.js":         "YAMA (Dunya kademe) — UYGULANDI, kapali",
+        "data/kademe_e9353f.js":         "YAMA (Afrika ici kademe) — UYGULANDI, kapali",
+        "data/kademe_f5c9a5.js":         "YAMA (Asya kademe) — UYGULANDI, kapali",
+        "data/kunye_9d907c.js":          "YAMA (32 Amerika kunyesi) — devletler.js'e "
+                                         "islendi (392→424), kapali",
+        "data/kunye_9d907c_2.js":        "YAMA (tui-tonga kunyesi) — islendi, kapali",
+        #
+        # ② ARAYUZ BEKLIYOR — app.js suzgeci HAZIR, index.html satiri yok
+        # `js/app.js` KORIDOR_YAMA_<6hane> sekline gore genisletildi ve
+        # olculdu (cizilen parca 17 → 4). Kalan tek sey <script> satiri, ve
+        # o Oturum 1'in dosyasi — koordinator oraya YAZMAZ (§7).
+        "data/koridor_yama_e9353f.js":   "Bogaz kenari (istanbul↔uskudar); onkosul "
+                                         "index.html <script> satiri — ARAYUZ'de",
+        "data/koridor_yama_f5c9a5.js":   "23 dugum koordinati (parca 17→5); onkosul "
+                                         "index.html <script> satiri — ARAYUZ'de",
+        #
+        # ③ BIR SONRAKI KOSUYU BEKLIYOR — bagliysa harita YALAN soyler
+        # Ikisi de dorduncu kosu BASLADIKTAN SONRA yazildi. Simdi index.html'e
+        # baglanirlarsa yerlesim katmaninda NOKTA gorunur ama o noktanin
+        # PETEGI olmaz — kullanici sahipsiz bir isaret gorur.
+        # 🔴 Anlik goruntu "YAZABILIRSIN" der, "BAGLAYABILIRSIN" demez.
+        "data/yerlesimler_amerika2.js":  "And + K.Amerika ici; kosu 4 BASLADIKTAN "
+                                         "sonra yazildi ⇒ 5. kosuda baglanacak",
+        "data/yerlesimler_hindistan.js": "Hindistan ici; ayni sebep — kosu 4'ten "
+                                         "sonra yazildi ⇒ 5. kosuda baglanacak",
     }
 
     # 🔴 EMEKLİ ≠ BEKLEYEN. Bekleyen "önkoşul kapanınca BAĞLANACAK" vaadi
