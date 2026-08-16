@@ -90,6 +90,26 @@
 //    📌 Ve bu, bir önceki turda kendi yazdığım sınırın ("sayacın kendi
 //      sınırını ÖLÇMEDİM") bir sonraki sorguda karşıma çıkmış hâli.
 //      Yöntemi duyurmuştum; sınırını da duyurmak zorundayım.
+//
+// 🟢🟢 POZİTİF KONTROL YAPILDI — indeksin KENDİSİ sınandı ve GEÇTİ.
+//    Açık borcum şuydu: *"'0' TDV'nin aramasına göre 0; indeksin eksik
+//    olup olmadığını BİLMİYORUM. Adı bir maddede KESİN geçen bir yeri
+//    sorup sayacın onu bulup bulmadığına BAKMADIM."*
+//    Baktım. Kontrol: **"Temnik"** — bu kelimeyi `kasim-hanligi`
+//    gövdesinde BİREBİR okumuş ve Temnikov'un k:3'ünü ona dayamıştım.
+//        arama/?q=Temnik → başlıkta 0 · İÇERİKTE 1
+//        listelenen madde: KĀSIM HANLIĞI  `/kasim-hanligi`  ✓ DOĞRU
+//        ve döndürdüğü cümle: "…Kāsım, Yılatom, Şatsk ve Temnik
+//        kazalarını ihtiva ettiği…"  ← benim kullandığım cümlenin AYNISI
+//    ⇒ İndeks gerçekten arıyor, gerçekten buluyor, doğru maddeyi veriyor.
+//    **"0" sonucu artık güvenilir bir NEGATİF.**
+//    🟢 BONUS: kontrol aynı zamanda Temnikov kaydımı BAĞIMSIZ bir
+//      erişim yolundan yeniden doğruladı — aynı cümle, farklı kapı.
+//
+// ⇒ ALETİN TAM TARİFİ (üç sınavdan sonra):
+//    SIFIR         → güvenilir NEGATİF (pozitif kontrol geçti)
+//    SIFIR DEĞİL   → yalnız İZ; başlıklar okunmalı (3/3 eşadlı çıktı)
+//    SAYI BÜYÜKLÜĞÜ→ alaka göstergesi DEĞİL (en yüksek 29 = en alakasız)
 // 📌 `k:` olan kayıtta bu alan BULUNMAZ — kova yalnız kademesiz kayda ait.
 //
 // A BLOĞU — PARTİ 1: Altın Orda / hanlık çekirdeği + Rus başkenti
