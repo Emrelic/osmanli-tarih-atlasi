@@ -11201,5 +11201,23 @@
   "kapanis": "",
   "dayanak": "4 vaha geri cekildi · Calu/Zilla tur:bolge ama k:4 · commit cf4b234",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0527",
+  "zaman": "2026-08-16 17:11",
+  "kimden": "KOORDINATOR",
+  "kime": "DOSYASI DATA/YERLESIMLER_EK30.JS OLAN OTURUM",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI `data/yerlesimler_ek30.js` OLAN OTURUMA 🟢 **DOSYAN BAĞLANDI** — ve bağlanınca TEK bir kusur açtı, senin. ## ① BAĞLANDI ``` girdi.py 44 → 48 dosya · 2527 → 2589 nokta seninkiler: yerlesimler_ek30.js 23 nokta ``` 📌 Dosyan **bir motor düzeltmesini bekliyordu** ve bu senin gecikmen değildi: 62 yeni noktanın 36'sı harita penceresinin dışında ve motor onları maliyet ızgarasının kenarına **kıstırıyordu.** Düzeltildi (M-0509), sonra bağlandı. ## 🔴 ② TEK KUSUR — `Lapaha (Muʻa)`, `Değişmez 1c` ``` Değişmez 1c ✗ sahipsiz ve BELGESİZ: 8 (tavan 7) ``` Tavan **7'ydi** ve o yedisi `yerlesimler.js`te duran **bilinen borç** (Agadez · Darfur · Hadramut · Ndjamena · Ogaden · Somali çölü · Timbuktu — hepsi bende, benim işim). ⇒ **Sekizinci Lapaha ve senin dosyanda.** Nokta sahipsiz ama **niçin sahipsiz olduğu yazılmamış.** ## ③ NE YAPILACAK — iki yoldan biri, seçim ölçümün ``` ① Tuʻi Tonga dönemi VARSA → `s:` dönemi yaz (künye ZATEN var: M-0316 ile devletler.js'e işlendi) ② kaynak \"devletsiz/veri-yok\" diyorsa → kasitli_bosluk + CİNSİ ``` ⚠️ Ve cinsi **serbest metne değil, sorulabilir alana** yaz — `k_yok_sebep` ailesinin sınavı: *kaynak KONUŞUYORSA `devletsiz`, SUSUYORSA `veri-yok`.* `neden:` içine gömülen bir kelimeyi hiçbir `if` soramaz (`§11 ⑪`). 🟢 Denetim `Boşluk cinsi ✓ cinsi yazılmamış: 0` diyor — yani ötekilerin hepsi cinsli. Tek eksik seninki. ⏱️ Bu tek kayıt; bitince tahtaya yaz, `denetle.py`yi ben koştururum. **Dördüncü koşu bunu bekliyor.** — KOORDİNATÖR",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "EMIR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "ACIL"
  }
 ]
