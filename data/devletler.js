@@ -5151,5 +5151,47 @@ window.DEVLETLER = [
   ozet:"Oaxaca vadisinde Zapotek siyasî geleneğini sürdüren krallık; İspanyol fethiyle sona erdi.",
   kaynak:"Standart akademik (LAC Geo, 'The Zapotec & Mixtec: Builders of Mountain Kingdoms') — Oaxaca vadisinde uzun süreli siyasî yapı, atlas ufku 1281'e hizalandı. Bitiş tarihi nokta verisinde var (İspanyol fethi dönemi), doğrulandı.",
   kronoloji:[]
+},
+
+// ===================================================================
+// BAĞLAMANIN AÇTIĞI KÜNYELER — 16 Ağustos 2026, 5 kayıt
+// Dört uzak coğrafya dosyası girdi.py'ye bağlanınca 6 kimlik
+// dizinsiz kaldı. Beşi burada; altıncısı (panama-cumhuriyeti)
+// sahibinde ölçülüyor.
+// 🟢 Künyeleri ARAŞTIRAN oturumlar yazdı, koordinatör yalnız
+// işledi — ve ikisi de sınırını AÇIKÇA bildirdi:
+//   mutapa            iki uç da YÜZYIL düzeyinde, kesin gün değil
+//   zimbabve-kralligi f: BULUNAMADI, uydurulmadı; yazılan 1281
+//                     ATLASIN UFKU, kuruluş tarihi DEĞİL
+// ===================================================================
+{ id:"tui-tonga-imparatorlugu", ad:"Tuʻi Tonga İmparatorluğu", tur:"imparatorluk", bolge:"okyanusya",
+  f:"1220-01-01", t:"1845-12-04", baskent:"Muʻa (Lapaha)",
+  ozet:"Pasifik'in en geniş deniz imparatorluğu — Tuʻi Tonga hanedan çizgisi geleneksel olarak ~950'ye dayanır, zirvesi 1200-1500 arasıdır. Künyenin bitişi [[tonga-kralligi]]'nin başlangıcıyla BİREBİR hizalıdır (4 Aralık 1845): ikisi aynı gövde DEĞİLDİR, modern krallık Tuʻi Tonga'nın devamı değil onu siyasî olarak yeniden kuran olaydan doğar; devir boşluksuzdur.",
+  kaynak:"UNESCO World Heritage Centre, 'The Ancient Capitals of the Kingdom of Tonga' (whc.unesco.org/en/tentativelists/5167) — hanedan çizgisi geleneksel olarak ~950 CE'ye dayanır, imparatorluğun zirvesi 1200-1500 arasıdır; Muʻa/Lapaha 1220 civarında kalıcı üçüncü ve son başkent oldu (22 kraliyet mezarı/langi bu döneme tarihleniyor). Bitiş tarihi (1845-12-04) mevcut 'tonga-kralligi' künyesinin BAŞLANGIÇ tarihiyle BİREBİR hizalı — I. George Tupou'nun adaları birleştirip MODERN krallığı kurduğu gün; devir boşluksuz.",
+  kronoloji:[]
+},
+{ id:"transvaal", ad:"Transvaal (Güney Afrika Cumhuriyeti — Zuid-Afrikaansche Republiek)", tur:"cumhuriyet", bolge:"guney-afrika",
+  f:"1852-01-01", t:"1902-05-31", baskent:"Pretoria",
+  ozet:"Vaal'in kuzeyindeki Afrikaner cumhuriyeti; bağımsızlığı İngiltere 1852 Sand River Konvansiyonu'yla TANIDI. II. Boer Savaşı'nı bitiren Vereeniging Barışı'yla ilhak edildi. ⚠️ `f:` YIL BEYANIDIR — 1852'nin günü kaynakta yok, `YYYY-01-01` kuralı uygulandı; `t:` ise KESİN GÜNDÜR.",
+  kaynak:"Cambridge University Press — 'English in Multilingual South Africa' içindeki Güney Afrika tarih kronolojisi (üniversite yayını). Sand River Konvansiyonu 1852 (gün kaynakta YOK, yıl beyanı); Vereeniging Barış Antlaşması 31 Mayıs 1902, kesin gün. South African History Online aynı tarihleri veriyordu ama TEK DAYANAK yapılmadı.",
+  kronoloji:[]
+},
+{ id:"oranj", ad:"Oranj Hür Devleti (Oranje Vrijstaat)", tur:"cumhuriyet", bolge:"guney-afrika",
+  f:"1854-04-07", t:"1902-05-31", baskent:"Bloemfontein",
+  ozet:"Oranj ile Vaal arasındaki Afrikaner cumhuriyeti; İngiliz egemenliğinin bırakılmasından üç hafta sonra anayasasını kabul etti. Transvaal ile aynı gün, Vereeniging Barışı'yla sona erdi. 🔴 İKİ ADAY TARİH VARDI ve seçim GİZLENMİYOR: 1853 (ilan) ile 7 Nisan 1854 (anayasanın kabulü). İkincisi seçildi çünkü GÜN hassasiyetinde ve kuruluşu belgeleyen işlemdir; 1853 tercih edilirse gerekçe çökmez, yalnız hassasiyet düşer.",
+  kaynak:"Cambridge University Press — 'English in Multilingual South Africa' kronolojisi (üniversite yayını): Bloemfontein Konvansiyonu 1854, anayasa 7 Nisan 1854'te kabul edildi. Bitiş: Vereeniging, 31 Mayıs 1902.",
+  kronoloji:[]
+},
+{ id:"mutapa", ad:"Mwene Mutapa (Monomotapa)", tur:"imparatorluk", bolge:"guney-afrika",
+  f:"1450-01-01", t:"1695-01-01", baskent:"—",
+  ozet:"Zambezi ile Limpopo arasında altın ve fildişi ticaretiyle yükselen imparatorluk; Portekizlilerle hem ticaret hem savaş ilişkisi kurdu, Rozvi'nin yükselişiyle sona erdi. ⚠️ İKİ UÇ DA YÜZYIL DÜZEYİNDEDİR, KESİN GÜN DEĞİL ve bu gizlenmiyor: kaynak 'devlet EN AZ on beşinci yüzyıla dayanır' diyor — yani 1450 bir ALT SINIRDIR, kuruluş yılı değil.",
+  kaynak:"Cambridge Journal of African History (hakemli) — Rozvi ve Mutapa hanedan çalışmaları: 'the state dated back to AT LEAST the fifteenth century'; Dombo'nun (Portekiz belgelerinde Changamire) savaşları 1684-95, Danangombe'nin başkent oluşu radyokarbonla XVII. yüzyıl sonu. İKİNCİ KAYNAK bağımsız olarak aynı pencereyi veriyor — TDV `zimbabve`: 'XV. yüzyılın ikinci yarısında' imparatorluk, 'XVII. yüzyılın sonlarında … Rozvi hanedanının yükselişiyle ortadan kalktı'.",
+  kronoloji:[]
+},
+{ id:"zimbabve-kralligi", ad:"Büyük Zimbabve Krallığı", tur:"krallik", bolge:"guney-afrika",
+  f:"1281-01-01", t:"1450-01-01", baskent:"Büyük Zimbabve",
+  ozet:"Zimbabve platosunda taş surlarıyla bilinen krallık; başkenti ~1450'de terk edildi — iç bölge aşırı kalabalık şehri artık besleyemiyordu ve ormansızlaşma ilerlemişti. 🔴 `f:` BİR KURULUŞ TARİHİ DEĞİL, ATLASIN UFKUDUR (1281). Kaydı araştıran oturum kuruluş için kaynak BULAMADI ve tarih UYDURMAYI REDDETTİ; krallık bu tarihten önce de vardır. Künye 1281'den geride olmasaydı `Değişmez 4` öterdi.",
+  kaynak:"UNESCO Dünya Mirası, Büyük Zimbabve kaydı — 'About 1450, the capital was abandoned'; Oxford Research Encyclopedia of African History. ⚠️ KURULUŞ TARİHİ BULUNAMADI — arandı, okunan kaynaklarda yok. `f:` alanındaki 1281 atlasın ufkudur, kaynaktan gelen bir tarih DEĞİLDİR.",
+  kronoloji:[]
 }
 ];
