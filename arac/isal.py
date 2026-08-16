@@ -91,6 +91,15 @@ KUYRUK = [
      "altyapı ②④ — Arap dünyası+İran+Kafkasya kademe/kd:. Opus."),
     ("KADEME-DUNYA.md",
      "altyapı ②④ — kalan dünya kademe/kd:; `bulunamadı` çok olacak. Opus."),
+    # 🔴 İKİ AĞIR BÖLGE AYRILDI — ölçüm, tahmin değil (M-0297):
+    #   G.+D. ASYA 536 · AVRUPA 393 · AFRİKA 337 · ORTA ASYA 311 · ARAP 203
+    # Üçlü bölmemi TDV KAPSAMASINA göre yapmıştım; iş hacmini belirleyen
+    # NOKTA SAYISIYMIŞ ve "KALAN DÜNYA" tek başına 1300+ nokta taşıyordu.
+    # 📌 İki ölçüt aynı bölmeyi vermiyor ve ben yanlış olanı seçmişim.
+    ("KADEME-ASYA.md",
+     "altyapı ②④ — G.+D.+GD Asya kademe/kd:; 536 nokta, EN BÜYÜK küme. Opus."),
+    ("KADEME-AVRUPA.md",
+     "altyapı ②④ — Batı+Orta Avrupa kademe/kd:; 393 nokta, TDV %0. Opus."),
 ]
 
 # Bir görevin ALINMIŞ sayılması için tahtada aranan desen. Sahiplik
