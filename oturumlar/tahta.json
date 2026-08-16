@@ -5708,5 +5708,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0245",
+  "zaman": "2026-08-16 03:27",
+  "kimden": "OPUS HAZIR KITA 25",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "*kii — OPUS HAZIR KITA 25 AÇILDI, İŞ İSTİYOR. Kuyruk BOŞ değil, kuyruk BİTMİŞ. Brifingi (CLAUDE.md) okudum. `py arac/isal.py` koşturdum: 8 görevin 8'i sahipli, boş iş yok. Betiğin kendi uyarısı gereği sana yazıyorum. İş SEÇMİYORUM — ölçtüklerimi veriyorum, sırayı sen kur. ## ① NE ÖLÇTÜM KUYRUK (isal.py, tahtadan): 8 görev · 8 ALINMIŞ · 0 BOŞTA ve altısında çoklu sahiplenme var — betiğin bildirdiği sayılar: MOTOR-EPOK.md 14 oturum (kazanan M-0124) NOKTA-SIBIRYA-2.md 8 oturum (kazanan M-0117) VERI-ZAMAN.md 4 oturum (kazanan M-0144) NOKTA-AFRIKA-IC.md 4 oturum (kazanan M-0127) RENK-AFRIKA.md 4 oturum (kazanan M-0145) NOKTA-OKYANUSYA.md 2 oturum (kazanan M-0128) ⇒ 8 iş için 36+ sahiplenme ilanı. M-numarası hakemliği çalışıyor, ama kaybeden her oturum `isal.py`ye geri döndüğünde AYNI dolu kuyruğu görüyor ve sana yazıyor. Yani bu mesajın benzerini bugün başka oturumlar da yazmış olabilir — kuyruk uzunluğu talebi karşılamıyor. TAHTA: 234 mesaj · 173 ACIK · 61 CEVAPLANDI cevap bekleyen + ACIK olan mesaj: 0 (yani sende bekleyen soru yok) ÜRETİM DURUMU — 🔴 KOŞU ŞU ANDA SÜRÜYOR: py süreci 01:01:58'den beri canlı · kosu_egim_16agu.log 03:16'da yazıldı son satır: \"devlet 80/327 · geçen 16dk 17sn · iş %45 · tahminî kalan 19dk 56sn\" ⇒ `motor_izi` üçlüsü (girdi.py · renkler.py · uret_petek.py) DONMUŞ. Bana `arac/*.py` içeren bir iş verirsen koşu biter bitmez başlarım, önce değil. (M-0234 zaten bunu söylüyor; ölçümle teyit ediyorum.) 📌 `data/*.js` KOPYALANIYOR ⇒ veri işi koşu sırasında güvenli. Yani bana bugün verilebilecek iş sınıfı: VERİ ya da BELGE. ## ② NEYİ BULAMADIM · Kendi oturum kimliğim: ÖLÇÜLEMEDİ. `isal.py:_kimlik()` yalnız CLAUDE_SESSION_ID / SESSION_ID çevre değişkenlerine bakıyor, ikisi de boş. Scratchpad UUID'imin ilk 6 hanesi: 66e99d — dosya adı gerekirse `data/yerlesimler_66e99d.js` kullanırım. · Kuyruk DIŞINDA hangi işlerin açık olduğunu ÖLÇMEDİM. `isal.py`nin KUYRUK sabiti elle yazılmış 8 kalem; `oturumlar/` altında 252 .md var ve hangilerinin canlı şartname, hangilerinin bitmiş rapor olduğunu ayırt eden bir alan YOK. Tahmin etmedim, sana soruyorum. · `denetle.py` koşturmadım — koşu sürerken CPU'yu paylaştırmak istemedim. İstersen ilk işim o olur. ## ③ NE İSTİYORUM Bir iş. Tek cümle yeter: hangi şartname, hangi dosya bende. Seçmiyorum ama ELİMDEKİ KISITI bildiriyorum ki yanlış iş verme: 🟢 şimdi başlayabileceğim: `data/*.js` veri işi · kök `*.md` dışı belge işi · ölçüm/denetim raporu · yeni bir `oturumlar/` şartnamesinin gerektirdiği araştırma 🔴 koşu bitene kadar (~20 dk) başlayamayacağım: `arac/*.py` içeren her iş ⚠️ ve `§7` gereği: dosya sahipliğini SEN söylemeden hiçbir dosyaya yazmam. Kuyruktaki 8 işten birini kendi başıma \"kaybeden kazanır\" diye almam — çünkü altısında zaten 4-14 oturum sıra bekliyor ve benim de sıraya girmem darboğazı büyütür, açmaz. Ek olarak bir GÖZLEM, emir değil: kuyruğun tükenmesi bir arıza değil ama tekrarlayan bir arıza İŞARETİ — bugün 8 iş için 36 sahiplenme ilanı yazıldı. `isal.py`nin KUYRUK sabiti elle besleniyor; oraya yeni kalem eklenmezse boşta kalan her oturum sana ayrı ayrı yazacak. Kuyruğu uzatmak senin kararın, ben yalnız sayıyı önüne koyuyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "SORU",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
