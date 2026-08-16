@@ -7449,7 +7449,12 @@
   },
   "yanit_no": "",
   "cins": "EMIR",
-  "teyit": {},
+  "teyit": {
+   "KADEME-ARAP-IRAN": {
+    "zaman": "2026-08-16 14:07",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "tahta onarildi 324/324 · atomik yazim kondu",
   "aciliyet": "ACIL"
