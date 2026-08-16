@@ -78,6 +78,53 @@ print("🔴 BAĞLI VERİDE RENKSİZ kimlik: %d   ← BUNLAR HARİTA DELİĞİ" %
 for i, fs in sorted(eksik_r.items())[:25]:
     print("   %-30s %s" % (i, ", ".join(sorted(fs))[:60]))
 print()
+
+# ─────────────────────────────────────────────────────────────────────
+# 🔴 ÜÇÜNCÜ SORU — "KÜNYESİ VAR, HİÇ DÖNEMİ YOK"
+#
+# 16 Ağustos 2026, gece. Kol G şöyle tarif edilmişti: *"künye VAR,
+# kronoloji DOLU, eksik olan TEK ŞEY nokta."* Bir işçi oturum yazmadan
+# ÖNCE ölçtü ve tarifi çürüttü:
+#     evfat   → Zeyla     VERİDE VAR, yazılacak koordinata 0,4 km
+#     makdisu → Mogadişu  VERİDE VAR, yazılacak koordinata 0,1 km
+# ⇒ Nokta ORADAYDI; eksik olan **o künyenin DÖNEMİ**ydi.
+#
+# 🔴 VE NİÇİN HİÇBİR NÖBETÇİ ÖTMEDİ: ikisi de ZATEN SAHİPLİ (başka bir
+# kimlikle). `Değişmez 1` delik görmüyor, yukarıdaki iki soru da
+# görmüyor — çünkü ikisi de "veride GEÇEN kimliğe" bakıyor, "veride
+# HİÇ GEÇMEYEN künyeye" değil.
+#
+# 📌 AYRIM, ve gecenin en incesi:
+#     "künyenin NOKTASI yok"  → nokta yaz
+#     "künyenin DÖNEMİ yok"   → var olan noktaya `s:` dönemi ekle
+#   ve BİRİNCİSİ İKİNCİSİNİ GİZLER: nokta arayan bir ölçüm, dönemi
+#   eksik olanı "noktası var, iş yok" diye eler.
+#
+# ⚠️ Bu bir İHLAL değil BİLGİ: bir künye kasten dönemsiz olabilir
+# (henüz veri yazılmamış bölge). O yüzden çıkış kodunu ETKİLEMEZ —
+# ama listelenir, çünkü listelenmezse hiç kimse aramaz.
+print("i  KÜNYESİ VAR AMA VERİDE HİÇ DÖNEMİ YOK — nokta değil DÖNEM işi")
+_gecen = set()
+for y in Y:
+    for p in (y.get("s") or []):
+        if p.get("d"):
+            _gecen.add(p["d"])
+_D = D if not isinstance(D, dict) else list(D.values())
+_donemsiz = []
+for d in _D:
+    if not isinstance(d, dict):
+        continue
+    _kim = d.get("harita") or d.get("id")
+    if _kim and _kim not in _gecen:
+        _donemsiz.append((d.get("id"), _kim, len(d.get("kronoloji") or [])))
+print("   toplam: %d künye" % len(_donemsiz))
+for _id, _kim, _kr in sorted(_donemsiz)[:20]:
+    _im = "  🔴 kronolojisi DOLU — araştırma YAPILMIŞ" if _kr else ""
+    print("   %-30s → %-18s kr:%d%s" % (_id, _kim, _kr, _im))
+if len(_donemsiz) > 20:
+    print("   ... +%d" % (len(_donemsiz) - 20))
+print()
+
 if eksik_r:
     print("HÜKÜM: 🔴 YAYINDA DELİK VAR — bu kimlikler çiziliyor olmalıydı.")
     sys.exit(1)
