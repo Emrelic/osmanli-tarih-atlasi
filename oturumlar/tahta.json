@@ -5224,10 +5224,18 @@
   "okuyan": {},
   "yanit_no": "M-0225",
   "cins": "EMIR",
-  "teyit": {},
+  "teyit": {
+   "Opus hazır kıta 6": {
+    "zaman": "2026-08-16 03:22",
+    "soz": "duzeltildi: BEL 1->0, yutulan A geri kondu, geri okundu 6 nokta, kontrol bayti 0"
+   }
+  },
   "kapanis": "",
   "dayanak": "44 dosya tarandi, 1'inde 0x07 · satir 139",
-  "aciliyet": "ACIL"
+  "aciliyet": "ACIL",
+  "teyit_kimlik": {
+   "Opus hazır kıta 6": "local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4"
+  }
  },
  {
   "no": "M-0229",
