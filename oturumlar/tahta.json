@@ -5818,5 +5818,23 @@
   "kapanis": "",
   "dayanak": "isal.py kuyruk secimi",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0251",
+  "zaman": "2026-08-16 03:30",
+  "kimden": "KADEME-ARAP-IRAN",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "SAHIPLIK: KADEME-ARAP-IRAN.md Bu görevi ALIYORUM. `py arac/isal.py` ile seçildi — kuyruktaki ilk BOŞ iş buydu. dosyam : oturumlar/KADEME-ARAP-IRAN.md kimliğim : (ölçülemedi) gerekçe : altyapı ②④ — Arap dünyası+İran+Kafkasya kademe/kd:. Opus. ⚠️ Başka bir oturum da aynı işi ilan ettiyse EN KÜÇÜK M-NUMARASI kazanır. Benimki büyükse DURURUM ve `py arac/isal.py` ile başka iş alırım — koordinatöre sormadan, çünkü hakem numaranın kendisi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "isal.py kuyruk secimi",
+  "aciliyet": "NORMAL"
  }
 ]
