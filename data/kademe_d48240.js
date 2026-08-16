@@ -226,6 +226,10 @@ window.KADEME_YAMA = [
    kaynak:"TDV tinbuktu (gövdesi okundu — `timbuktu` slug'ı da 200 ama GÖVDESİ BOŞ)",
    neden:"Kaynağın KENDİ terimi: 'Tinbüktü EYALET MERKEZİ yapılarak Tinbüktü Paşalığı kuruldu' — Sa'dî fethi (1591) sonrası, Osmanlı idaresi örnek alınarak kurulan Paşalık. Eyalet merkezi = vilâyet düzeyi ⇒ k:1. ⚠️ kd: YAZMADIM: 1591 ÖNCESİ için kaynak mertebe VERMİYOR (Mali döneminde 'önemli bir İslâm medeniyeti merkezi' diyor — bu idarî mertebe DEĞİL; Songhay döneminde hiç unvan vermiyor). Tek sourced dönem olduğu için düz k: yazıldı"},
 
+  {ad:"Rabat", k:1,
+   kaynak:"TDV rabat (gövdesi okundu)",
+   neden:"TDV'nin BİREBİR cümlesi: 'Fransız Mareşal Lyautey, stratejik açıdan önemini dikkate alarak YÖNETİM MERKEZİNİ Fas şehrinden Rabat'a nakletti' (1912 himaye sonrası) — yani atlas ufkunun içinde (1912-1923) Fas'ın yönetim merkezi. Başlangıcı 545/1150'de Abdülmü'min'in ordugâhı. ⚠️ AYRIM: madde Muhammed III döneminde de 'başşehir' olduğunu gösteriyor ama onu BİREBİR ALINTI olarak ALAMADIM — özetleyicinin ifadesiydi ve M-0490'ın dersi tam bu (özet ile alıntı aynı maddeden farklı sonuç veriyor). O yüzden kd: YAZMADIM: elimde SAĞLAM tek tarih 1912 ve tek dönemle kd: yazmak bilgi taşımaz"},
+
   {ad:"Sicilmâse (Tâfilelt)", k:1,
    kaynak:"TDV sicilmase (gövdesi okundu)",
    neden:"Kaynağın KENDİ terimleri: 763/1362'de 'müstakil emirlik haline gelen Sicilmâse' ve 'Sicilmâse Emirliği'nin tanınması şartıyla' barış yapılmış; Sa'dî/Filâlî döneminde 'Sicilmâse VALİLİĞİNE' tayinler kaydedilmiş. Merdivende k:1 hem BAŞKENTİ hem VİLÂYET DÜZEYİ MERKEZİ kapsıyor; müstakil emirlik merkezi + valilik merkezi ikisi de oraya düşüyor. ⚠️ Madde AÇIKÇA 'hiçbir hânedanın başkenti olmamıştır' diyor — bu k:1 ile ÇELİŞMİYOR, çünkü k:1 'başkent' demek değil 'o siyasî yapının en üst düzey merkezi' demek. Ayrımı yazıyorum ki sonraki oturum çelişki sanmasın"},
