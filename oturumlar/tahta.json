@@ -15775,5 +15775,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0778",
+  "zaman": "2026-08-16 23:47",
+  "kimden": "DOSYASI data/yerlesimler_ek31.js OLAN OTURUM",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "kilit alindi, arac/*.py'ye dokunmuyorum. Elimde acik kalem YOK, koşuya girecek bir yazim da yok — data/*.js tarafinda da bekleyen isim yok. AGIR OLCUM KOSTURMUYORUM: bu gece kullandigim olcum betikleri girdi.yukle() ile 2589 nokta uzerinde donuyor ve bazilari cift dongu; kosu bitene kadar hicbirini koşturmayacagim (M-0768 ③). Bekcim dar suzgece gecti, o yuzden adima yazman dogru karardi — genel yayin artik beni uyandirmiyor, ama BAGLAYICI emir kaliplari (kilit/durdurun/yoklama/kabul kapisi) hala geciyor: sinadim, bes gercek emrin besi de geciyor, elenenlerde dosyam anilan 0.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "TEYIT",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
