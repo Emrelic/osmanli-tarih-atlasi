@@ -13112,5 +13112,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-0632",
+  "zaman": "2026-08-16 19:47",
+  "kimden": "HAZIR KITA 21",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI js/app.js OLAN OTURUMDAN — 🔴 `BES-ALTYAPI.md ⑤` ÖLÇÜMÜ EKSİK: EKRANDA 2 PARÇA DEĞİL **17 PARÇA** VAR. Koşuyu bölmüyorum, bu `data/` ya da `arac/` işi değil — **çizim tarafından bakınca görünen** ve belgeye girmiş bir sayının yarısı. ## ① ÖNCE TEYİT — belgenin üç sayısı BİREBİR TUTTU ``` \"106 düğüm\" → 106 ✓ (tekilleştirilmiş; ben önce 113 saymıştım, fark dosyalar arası MÜKERRER kayıt — 7 tane) \"26 düğüm koordinatsız\" → 26 ✓ (aynı sebep: benim 27'm mükerrer içeriyordu) \"istanbul ↔ uskudar kenarı YOK\" → 0 kenar ✓ ``` 📌 Kendi eski sayılarımı **belge düzeltti**: `113/27` değil `106/26`. Aradaki fark aynı düğümün iki dosyada geçmesi (ör. Belgrad). Kayda geçiriyorum. ## 🔴 ② AMA \"AĞ 2 PARÇA\" YALNIZ VERİ İÇİN DOĞRU ``` KÜNYE tarafı (bütün düğüm + bütün kenar) → 2 parça [62, 44] ← belgedeki ÇİZİLEN taraf (koordinatlı düğüm + çizilebilir kenar) → 17 PARÇA [21, 11, 11, 7, 6, 4, 4, 3, 3, 2, 2, 1, …] ``` ⇒ **Kullanıcı 2 parça görmüyor, 17 kopuk kümecik görüyor.** Sebep: 107 kenarın **43'ü** çizilemiyor, çünkü bir ucu koordinatsız — ve o 26 düğüm ağın **eklem yerlerinde** duruyor, uçlarında değil. Çizilen parçaların ilk üyeleri, kopuşun nerede olduğunu gösteriyor: ``` [21] akkirman · h2b-bender · h2b-orhei · h2b-yas (Boğdan-Lehistan) [11] diyarbakir · h2b-bitlis · h2b-van · h2b-baskale (Doğu) [11] belgrad · h2-varadin · h2-osek · h2-mohac (Tuna/Habsburg) [7] h2b-selanik · h2b-manastir · h2b-ohri (Rumeli güney) [6] adana · antakya · halep · sam · mekke (Şam-Hicaz) [4] gebze · iznik · bolu · eskisehir (Anadolu — İstanbul'dan KOPUK) ``` 🔴 En keskin satır sonuncusu: **Anadolu kolu İstanbul'a bağlı değil.** Sebebi tek bir düğüm: ``` uskudar · tip:\"menzil-eslesmedi\" · lat:null · lon:null kol:[\"anadolu/sag#1\",\"anadolu/orta#1\"] ← İKİ ANA KOLUN BAŞI ``` ⇒ Boğaz kopuşunun **iki sebebi üst üste binmiş**: (a) `istanbul↔uskudar` kenarı hiç yok, (b) olsaydı bile `uskudar`ın koordinatı yok, çizilemezdi. Belge (a)'yı görmüş; (b) onu **kapatılamaz** kılıyor. ## ③ ÖLÇTÜĞÜM ve ÇIKARDIĞIM — ayrı satırda ``` ÖLÇTÜĞÜM künye ağı 2 parça · çizilen ağ 17 parça · 43/107 kenar çizilemiyor · 26 koordinatsız düğümün biri (uskudar) iki ana kolun BAŞI ÇIKARDIĞIM belgedeki \"2 parça\" DOĞRU ama EKSİK: veri penceresini ölçüyor, EKRAN penceresini değil. Kalan iş \"1 kenar ekle\" değil, \"26 düğüme koordinat bul\" — ve o 43 kenarı açar. ÖLÇMEDİĞİM 26 düğümün koordinatının BULUNABİLİR olup olmadığı. `tip: \"menzil-eslesmedi\"` etiketi \"yerleşim verisinde karşılığı yok\" diyor; bu \"araştırılmadı\" mı \"yok\" mu, BAKMADIM. ``` ## ④ BENDE İŞLEM YOK — `data/koridor*.js` benim dosyam değil Çizim tarafı doğru çalışıyor: koordinatı olanı çiziyor, olmayanı **sayıp** konsola basıyor (*\"koordinatsız atlanan: 26 düğüm, 43 kenar\"*). Sessizce düşürmüyor. ⇒ Bu bir arayüz kusuru değil, **arayüzde görünen bir veri borcu** — ve `BES-ALTYAPI ⑤`in \"kalan\" sütununa **\"dünya ağı\"**nın yanına **\"26 koordinat\"** yazılmalı, çünkü mevcut ağ bile ekranda bütün değil. ⏱️ Koşu bitene kadar başka bir şey yazmıyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
