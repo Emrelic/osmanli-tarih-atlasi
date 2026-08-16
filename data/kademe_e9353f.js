@@ -226,11 +226,26 @@ window.KADEME_YAMA = [
 {ad:"Herseknovi (Herceg Novi)", kaynak:"bosna-hersek", k_yok_sebep:"kaynak-susuyor",
  neden:"kaynak susuyor — ARANDI. herseknovi slug'i OLU (302); hersek slug'i CANLI ama STUB (bosna-hersek'e atif); bosna-hersek maddesi okundu ve Hersek sancaginin 1470'te kuruldugunu, 1580'de Bosna beylerbeyiligine baglandigini veriyor AMA sancagin MERKEZINI sylemiyor ve Herceg Novi'yi idari taksimat konusunda HIC ANMIYOR. ⇒ k: YAZILMADI"},
 
-{ad:"Sin (Sinj)", kaynak:"bulunamadi", k_yok_sebep:"kaynak-susuyor",
- neden:"kaynak susuyor — ARANDI. sinj slug'i OLU (302); dalmacya ve kirka genel maddeleri okundu, ikisi de Sinj'in idari kademesini VERMIYOR (dalmacya maddesi Klis, Nadin ve Vrana'yi aniyor, Sinj'i anmiyor). ⇒ k: YAZILMADI"},
+// 🟢 KOVASI KESIN — ve kaniti YENI CEKIM GEREKTIRMEDI, kendi onceki
+//   olcumumde ZATEN vardi: dalmacya maddesinin govdesini okumustum ve o
+//   madde Klis, Nadin, Vrana ve Scardona'yi ADIYLA aniyor, Sinj'i ANMIYOR.
+//   ⇒ Kapsayici madde VAR ve bu tanecikte SUSUYOR = kaynak-susuyor.
+//   📌 M-0494'te bunu "belirsiz" diye kaydetmistim; belirsiz DEGILMIS,
+//     kanit elimdeydi ve ben kendi olcumume bakmamistim.
+{ad:"Sin (Sinj)", kaynak:"dalmacya", k_yok_sebep:"kaynak-susuyor",
+ neden:"kaynak susuyor — ARANDI VE KANITI VAR. sinj ve sinj--sehir sluglari OLU (302); kapsayici maddeler dalmacya ve kirka CANLI ve govdeleri OKUNDU. dalmacya maddesi Klis, Nadin, Vrana ve Scardona'yi adiyla aniyor ama Sinj'i HIC anmiyor; kirka maddesi de Knin'i merkez diye veriyor, Sinj'in kademesini vermiyor. ⇒ madde VAR, bu tanecikte SUSUYOR ⇒ kaynak-susuyor, madde-yok DEGIL"},
 
-{ad:"Otranto", kaynak:"bulunamadi", k_yok_sebep:"kaynak-susuyor",
- neden:"kaynak susuyor — ARANDI. otranto slug'i OLU (302). Osmanli donemi zaten 13 AY (1480-08-11..1481-09-10) ve bu surede kalici bir idari kademe kurulup kurulmadigi olculemedi. Italya tarafindaki (napoli) kademesi de bu kutunun isi degil, ayri kaynak ister. ⇒ k: YAZILMADI"},
+// 🟢 KOVASI SONRADAN KESINLESTIRILDI — M-0494'te "belirsiz" diye kaydettigim
+//   borc kapatildi: kapsayici maddenin (italya) GOVDESI Otranto icin OZEL
+//   OLARAK okundu. Sonuc: madde VAR, Otranto'yu ADIYLA aniyor, kademeyi
+//   YAZMIYOR ⇒ `madde-yok` DEGIL, kesin `kaynak-susuyor`.
+// 🟢 VE BONUS — MADDE VERIYI BAGIMSIZ DOGRULADI: "Fatih Sultan Mehmed'in
+//   saltanatinin son yilinda Otranto'nun zaptedilmesi (11 Agustos 1480)" ve
+//   "on bir ay Turkler'in elinde kalan Otranto guclukle geri alinabilmisti
+//   (10 Eylul 1481)". Veride Osmanli donemi 1480-08-11 → 1481-09-10 yazili,
+//   yani GUNU GUNUNE ayni. Kademe icin sustu ama TARIHI teyit etti.
+{ad:"Otranto", kaynak:"italya", k_yok_sebep:"kaynak-susuyor",
+ neden:"kaynak susuyor — ARANDI VE KANITI VAR. otranto, otrant, otranto--sehir sluglarinin UCU DE OLU (302); kapsayici madde `italya` CANLI ve govdesi Otranto icin ozel olarak OKUNDU: sehri adiyla aniyor ve iki tarihi veriyor ama IDARI KADEME hakkinda hicbir sey soylemiyor. ⇒ Bu, madde-yok DEGIL kaynak-susuyor: madde var, dogru yeri aniyor, kademeyi yazmiyor. 🟢 Ve ayni okuma veriyi DOGRULADI: maddenin verdigi 11 Agustos 1480 ve 10 Eylul 1481, verideki Osmanli donemiyle GUNU GUNUNE ayni"},
 
 // ───────── C3. KADEME UYGULANMAZ — 🔴 İKİ KAYIT GERİ ÇEKİLDİ ─────────
 //
