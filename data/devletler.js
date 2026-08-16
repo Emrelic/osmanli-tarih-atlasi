@@ -5193,5 +5193,29 @@ window.DEVLETLER = [
   ozet:"Zimbabve platosunda taş surlarıyla bilinen krallık; başkenti ~1450'de terk edildi — iç bölge aşırı kalabalık şehri artık besleyemiyordu ve ormansızlaşma ilerlemişti. 🔴 `f:` BİR KURULUŞ TARİHİ DEĞİL, ATLASIN UFKUDUR (1281). Kaydı araştıran oturum kuruluş için kaynak BULAMADI ve tarih UYDURMAYI REDDETTİ; krallık bu tarihten önce de vardır. Künye 1281'den geride olmasaydı `Değişmez 4` öterdi.",
   kaynak:"UNESCO Dünya Mirası, Büyük Zimbabve kaydı — 'About 1450, the capital was abandoned'; Oxford Research Encyclopedia of African History. ⚠️ KURULUŞ TARİHİ BULUNAMADI — arandı, okunan kaynaklarda yok. `f:` alanındaki 1281 atlasın ufkudur, kaynaktan gelen bir tarih DEĞİLDİR.",
   kronoloji:[]
+},
+
+// ===================================================================
+// SONGHAY SONRASI BATI AFRİKA — 16 Ağustos 2026, 2 kayıt
+// `Değişmez 1b`de üç boşluk vardı (Gao 198 yıl · Cenne 193 + 4,7
+// yıl): Songhay 1591'de yıkıldı, ardılı hiç yazılmamıştı.
+// Kaynak araştırmasını nokta oturumu yaptı; koordinatör işledi.
+// 🔴 `tekrur`un `t:`si İKİ TDV MADDESİNİN ÇELİŞTİĞİ yer — seçim
+// yapıldı AMA çelişki `kaynak:` alanında tarihleriyle DURUYOR.
+// ⚠️ Ve bu künyeler Gao'yu KAPSAMIYOR: kaynak Massina'nın
+// hâkimiyetini Cenne ve Tinbuktu için sayıyor, Gao için SAYMIYOR.
+// Gao'nun boşluğu `kasitli_bosluk` + `veri-yok` ile kapanacak.
+// ===================================================================
+{ id:"massina", ad:"Masina Halifeliği (Hamdullahi)", tur:"devlet", bolge:"bati-afrika",
+  f:"1818-01-01", t:"1862-01-01", baskent:"Hamdullahi",
+  ozet:"Nijer İç Deltası'nda Seku Amadu (Ahmedu Lobbo) tarafından kurulan Fulani halifeliği; Cenne ve Tinbuktu'yu hâkimiyeti altına aldı. Umar Taal'ın birlikleri yedi günlük savaşın ardından başkent Hamdallahi'ye girince sona erdi. ⚠️ İki uç da YIL BEYANIDIR (gün kaynakta yok); ama kaynak devleti 'kırk dört yıllık' diye niteliyor ve 1818+44=1862 — yani iki tarih birbirini KENDİ İÇİNDE doğruluyor.",
+  kaynak:"Cambridge History of Africa / Journal of African History (hakemli). Birebir: '1818'de Seku Amadu … Delta'da Maasina Halifeliğini KURDU'; 'halifelik Cenne ve Tinbuktu'nun eski şehirlerini hâkimiyeti altına aldı, başkenti HAMDULLAHİ'; '1862'de Umar Taal'ın birlikleri yedi günlük bir savaşın ardından başkent Hamdallahi'ye girdi'. İKİNCİ KAYNAK bağımsız doğruluyor — TDV `mali`: 'Massina Devleti: Ahmedu Lobbo tarafından kurulmuş, sınırları Cenne'den Tinbuktu'ya uzanıyordu'; TDV `cenne` 1830 cami inşasını Ahmedu Lobbo'ya bağlıyor.",
+  kronoloji:[]
+},
+{ id:"tekrur", ad:"Toucouleur Devleti (Umarî / Segu Tukulor)", tur:"devlet", bolge:"bati-afrika",
+  f:"1852-09-01", t:"1893-01-01", baskent:"Segu",
+  ozet:"El-Hac Ömer Tal'in cihadıyla kurulan, Senegal'den Nijer'e uzanan devlet; Masina Halifeliği'ni 1862'de ortadan kaldırdı ve Cenne ile Tinbuktu'yu devraldı. Fransız ilerleyişiyle sona erdi. Kilometre taşları kaynaklı: Dinguiray 1848 · Kaarta 11 Kasım 1854 · Segu 1861 · Hamdallahi 1862 · El-Hac Ömer'in ölümü 14 Şubat 1864. 🔴 `t:` İÇİN İKİ TDV MADDESİ ÇELİŞİYOR ve çelişki GİZLENMEMİŞTİR — `kaynak:` alanına bak.",
+  kaynak:"TDV `el-hac-omer`: başlangıç AY HASSASİYETİNDE — 'Eylül 1852'de fiilî cihadı başlatma konusunda mânevî işaret aldığını söyleyerek harekete geçti'; ve devletin '1893-1894 yıllarında' Fransızlarca işgal edildiği. 🔴 ÇELİŞKİ: TDV `mali` maddesi Fransız fetihlerini 'Bamako (1883), Segu ve Sikasso (1898)' diye veriyor — Toucouleur'un başkenti Segu olduğu için beş yıllık bir fark doğuyor. SEÇİM VE GEREKÇESİ: `t:1893-01-01` alındı, çünkü `el-hac-omer` maddesi DOĞRUDAN bu devleti anlatıyor, `mali` maddesi ise bölgenin fetih zincirini sayarken ondan GEÇERKEN bahsediyor — konusu o olan kaynak, ondan bahseden kaynağı yener. ⚠️ ÖLÇÜLMEDİ: `mali` maddesindeki 1898'in aynı cümlede andığı Sikasso'nun Toucouleur başkenti OLMADIĞI, dolayısıyla o tarihin başka bir siyasî gövdeye ait olabileceği bir İHTİMALDİR, ölçüm değildir. Çelişki kapanmadı, KAYDEDİLDİ.",
+  kronoloji:[]
 }
 ];
