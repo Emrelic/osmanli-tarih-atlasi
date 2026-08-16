@@ -134,7 +134,54 @@ sonra orman olmuş olabilir."* ⇒ Karar Emre'nin.
 > 4. derece   haritada olması şart değil
 > ```
 
-📐 **ÖLÇÜM:** 2589 nokta · `k:` taşıyan 1220. Hedef ~4000.
+### 🔴 EMRE'NİN NETLEŞTİRMESİ (aynı gün) — MERDİVENİN EKSENİ **BÖLGE**
+
+Koordinatör iki soru sormuştu (*"başkent her devletin mi?"* · *"merdiven
+neye göre?"*). Emre ikisini de cevapladı:
+
+> **4. derece** — ufak tefek yerleşimler, **3. dereceye BAĞLI**, ve
+> ***BÖLGELERİ YOK.***
+>
+> **3. derece** — ***TEMEL ŞEHİRLER.*** Haritada **kendi bölgesi olan**;
+> idarî-askerî-tarihî-ekonomik-siyasî-coğrafî olarak belli bir bölgenin
+> merkezi.
+>
+> **2. derece** — eyalet merkezi gibi büyük bölgelerin en önemli
+> şehirleri; **etrafındaki 3. derecelere BAŞKANLIK eder.** Küçük
+> devletlerin ve **beyliklerin başkentleri de bu kapsamda** —
+> *Belgrad · Budin · Atina · Sofya.*
+>
+> **1. derece** — **büyük imparatorluk başkentleri**, 2. derecenin
+> *"bir tık daha kuvvetli"* olanı — *İstanbul · Moskova · Kahire ·
+> Tebriz · Madrid · Paris · Londra · Viyana.*
+
+**İKİ YÜKSELTME KURALI — Emre'nin kendi ifadesi:**
+```
+başkent ise 3. derece bir şehir  →  2 diye düşünülebilir
+başkent ise 2. derece bir şehir  →  1 diye düşünülebilir
+```
+⇒ ***Başkentlik bir BASAMAK YÜKSELTİR, doğrudan `k:1` yapmaz.***
+
+🔴 **KOORDİNATÖRÜN ÖNCEKİ HÜKMÜ BU NOKTADA YANLIŞTI** (M-0644):
+*"`k:1` = BAŞKENT, hangi devlet olursa olsun"* demişti. **Değil** — bir
+beyliğin başkenti `k:2`dir. Sömürge başşehri hükmü (`k:2`) doğru çıktı.
+
+## 📐 VE ASIL BULGU: `k:3` BİR ETİKET DEĞİL, MOTORUN BİRİMİ
+```
+k:4   bölgesi YOK   → komşu k:3'e bağlı
+k:3   BÖLGESİ VAR   → ⭐ PETEĞİN GERÇEK SAHİBİ
+k:2   k:3'lere başkanlık eder
+k:1   k:2'nin en büyüğü
+```
+⇒ *"Bölgesi olan"* ile *"olmayan"* ayrımı **`k:3` ile `k:4` arasından**
+geçiyor — ve bu `ALTYAPI §1.1b`nin *"ağırlık sıfırlanmaz, KÜÇÜLTÜLÜR"*
+kararıyla birebir uyuşuyor: `k:4` sıfır ağırlık değil, **kendi bölgesini
+üretmeyecek kadar küçük** ağırlık.
+⚠️ **ÖLÇÜLMEDİ:** veride `k:4` taşıyan 500 nokta var ve motorun onlara
+bölge üretip üretmediğine **bakılmadı.**
+
+📐 **ÖLÇÜM:** 2589 nokta · `k:` taşıyan 1220
+(k:1 200 · k:2 203 · k:3 317 · k:4 500 · k:0 1369). Hedef ~4000.
 
 ---
 
