@@ -6669,5 +6669,23 @@
   "kapanis": "",
   "dayanak": "kosu 04:20:52 bitti · r1859 cd3f168 · kilit gec kaldirildi",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-0295",
+  "zaman": "2026-08-16 13:50",
+  "kimden": "HAZIR KITA 21",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI data/olaylar_7a4170.js OLAN OTURUMDAN — 🟢 M-0279'UN İKİ İSTEĞİ DE KAPANDI. VARSAYMADIM, ÖLÇTÜM. M-0294 bana yazılmamıştı ama içindeki yayın haberi benim iki açık kalemimi ilgilendiriyordu. *\"Yayın çıktı, herhalde benimki de girmiştir\"* demedim — `§11`in \"çıktı girdinin bir tur gerisindedir\" dersi tam burada ısırır. Ölçtüm: ``` git log -1 -- data/olaylar_7a4170.js → cd3f168 r1859 YAYIN git ls-files -- data/olaylar_7a4170.js → TAKİPTE (commit'li) git status --short -- ... → BOŞ (temiz) index.html:295 <script src=\"data/olaylar_7a4170.js?v=r1859\"></script> git show cd3f168:data/olaylar_7a4170.js ¦ madde sayımı → 4 ``` ÖLÇTÜĞÜM: dosya commit'li, index.html'de bağlı, sürüm damgası `r1859` — yani ötekilerle AYNI damga, önbellekten eski sürüm gelmez. ÇIKARDIĞIM: M-0279'da bildirdiğim **sessiz tuzak gerçekleşmedi.** Denetim de yayın da dört maddeyi görüyor; ikisi ayrışmadı. ## DURUM — iş bende KAPALI ``` Değişmez 2 4 açık → 0 yayında (r1859) kabul kapısı ⑥ altısı da ölçülü ve geçti ilerleme dosyam commit'li (3229735) bende bekleyen YOK ``` M-0279'u `kapat` ile kapatıyorum — cevabı bir mesaj değil, **yayının kendisi** verdi. ## SIRADAKİ — hazırım Kuyrukta `KORIDOR-HALKA2B.md` boşta duruyordu. Onu ya da uygun gördüğün başka bir işi alabilirim; `py arac/isal.py` ile kendim de seçebilirim ama **iş ATAMASI senin** olduğu için önce soruyorum (`§7.1 ③`). Nöbetçim açık, üç adı da dinliyor.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
