@@ -635,7 +635,7 @@ window.YERLESIMLER_ASYA = [
 
 // Haydarâbâd (Sind) — Gulâm Şah Kalhora 1768'de kurdu (kur:). Dekken'deki
 // Haydarâbâd ile karışmasın diye ad parantezlidir.
-{ ad:"Haydarâbâd (Sind)", tur:"sehir", lat:25.3960, lon:68.3770, g:0, k:1,kd:[{f:"1281-01-01",t:"1843-02-17",k:1,m:"Haydarâbâd (Sind)"}], d:[],
+{ ad:"Haydarâbâd (Sind)", tur:"sehir", lat:25.3960, lon:68.3770, g:0, k:1,kd:[{f:"1768-01-01",t:"1843-02-17",k:1,m:"Haydarâbâd (Sind)"}], d:[],
   kur:"1768-01-01",
   s:[{f:"1768-01-01", t:"1843-02-17", d:"sind"},
      {f:"1843-02-17", t:"1923-10-29", d:"ingiliz-hindistani"}] },
@@ -694,13 +694,13 @@ window.YERLESIMLER_ASYA = [
 
 // Udeypûr — Rana Udai Singh 1559'da Çitor'un yerine kurdu (kur:). Mevar
 // Bâbürlü'ye 1615'te bağlandı ama başkent hiç Bâbürlü eline geçmedi.
-{ ad:"Udeypûr (Udaipur)", tur:"sehir", lat:24.5850, lon:73.7120, g:1, k:1,kd:[{f:"1281-01-01",t:"1923-10-29",k:1,m:"Udeypûr (Udaipur)"}], d:[],
+{ ad:"Udeypûr (Udaipur)", tur:"sehir", lat:24.5850, lon:73.7120, g:1, k:1,kd:[{f:"1559-01-01",t:"1923-10-29",k:1,m:"Udeypûr (Udaipur)"}], d:[],
   kur:"1559-01-01",
   s:[{f:"1559-01-01", t:"1923-10-29", d:"racput"}] },
 
 // Codhpûr — Rao Codha 1459'da kurdu (kur:). 1679-1707 arası Evrengzîb'in
 // doğrudan idaresi altında kaldı (Mârvâr veraset savaşı).
-{ ad:"Codhpûr (Jodhpur)", tur:"sehir", lat:26.2880, lon:73.0190, g:1, k:1,kd:[{f:"1281-01-01",t:"1923-10-29",k:1,m:"Codhpûr (Jodhpur)"}], d:[],
+{ ad:"Codhpûr (Jodhpur)", tur:"sehir", lat:26.2880, lon:73.0190, g:1, k:1,kd:[{f:"1459-01-01",t:"1923-10-29",k:1,m:"Codhpûr (Jodhpur)"}], d:[],
   kur:"1459-01-01",
   s:[{f:"1459-01-01", t:"1679-01-01", d:"racput"},
      {f:"1679-01-01", t:"1707-03-03", d:"babur-imparatorlugu"},
@@ -709,7 +709,7 @@ window.YERLESIMLER_ASYA = [
 // Caypûr — Sevâî Cay Singh 1727'de kurdu (kur:). Öncesinde hânedanın
 // merkezi 9 km kuzeydoğudaki Amber'dir; Amber ayrı nokta olarak EKLENMEDİ
 // (3 km kuralını geçiyor ama aynı peteği paylaşıyorlar).
-{ ad:"Caypûr (Jaipur)", tur:"sehir", lat:26.9120, lon:75.7870, g:1, k:1,kd:[{f:"1281-01-01",t:"1923-10-29",k:1,m:"Caypûr (Jaipur)"}], d:[],
+{ ad:"Caypûr (Jaipur)", tur:"sehir", lat:26.9120, lon:75.7870, g:1, k:1,kd:[{f:"1727-01-01",t:"1923-10-29",k:1,m:"Caypûr (Jaipur)"}], d:[],
   kur:"1727-01-01",
   s:[{f:"1727-01-01", t:"1923-10-29", d:"racput"}] },
 
@@ -736,7 +736,7 @@ window.YERLESIMLER_ASYA = [
 
 // Ahmedâbâd — Ahmed Şah 26 Şubat 1411'de kurdu (kur:); Gucerât
 // Sultanlığı'nın başkenti.
-{ ad:"Ahmedâbâd", tur:"sehir", lat:23.0230, lon:72.5710, g:1, k:2,kd:[{f:"1407-01-01",t:"1573-01-01",k:1,m:"Ahmedâbâd"}], d:[],
+{ ad:"Ahmedâbâd", tur:"sehir", lat:23.0230, lon:72.5710, g:1, k:2,kd:[{f:"1411-02-26",t:"1573-01-01",k:1,m:"Ahmedâbâd"}], d:[],
   kur:"1411-02-26",
   s:[{f:"1411-02-26", t:"1572-11-18", d:"gucerat-sultanligi"},
      {f:"1572-11-18", t:"1753-04-01", d:"babur-imparatorlugu"},
@@ -1209,7 +1209,7 @@ window.YERLESIMLER_ASYA = [
 // 1724'ten sonra Nizamlığın başkenti ve Hindistan'ın en büyük prens
 // devleti. 1798 yardımcı ittifakı ve 1857 sonrası himâye taht'ı
 // değiştirmediği için kimlik 1923'e kadar sabittir.
-{ ad:"Haydarâbâd (Dekken)", tur:"sehir", lat:17.3850, lon:78.4870, g:2, k:1,kd:[{f:"1512-01-01",t:"1687-09-21",k:1,m:"Haydarâbâd (Dekken)"},{f:"1724-10-11",t:"1923-10-29",k:1,m:"Haydarâbâd (Dekken)"}], d:[],
+{ ad:"Haydarâbâd (Dekken)", tur:"sehir", lat:17.3850, lon:78.4870, g:2, k:1,kd:[{f:"1591-01-01",t:"1687-09-21",k:1,m:"Haydarâbâd (Dekken)"},{f:"1724-10-11",t:"1923-10-29",k:1,m:"Haydarâbâd (Dekken)"}], d:[],
   kur:"1591-01-01",
   s:[{f:"1591-01-01", t:"1687-09-21", d:"golkonda"},
      {f:"1687-09-21", t:"1724-10-11", d:"babur-imparatorlugu"},
@@ -3083,7 +3083,7 @@ window.YERLESIMLER_ASYA = [
 
 // Ava (İnwa) — 1364'te kuruldu (kur:) ve dört yüzyıl boyunca Yukarı
 // Birmanya'nın başkenti oldu.
-{ ad:"Ava (İnwa)", tur:"sehir", lat:21.8550, lon:95.9810, g:1, k:1,kd:[{f:"1313-01-01",t:"1885-11-29",k:1,m:"Ava (İnwa)"}], d:[],
+{ ad:"Ava (İnwa)", tur:"sehir", lat:21.8550, lon:95.9810, g:1, k:1,kd:[{f:"1364-01-01",t:"1885-11-29",k:1,m:"Ava (İnwa)"}], d:[],
   kur:"1364-01-01",
   s:[{f:"1364-01-01", t:"1555-01-01", d:"ava"},
      {f:"1555-01-01", t:"1752-04-23", d:"toungoo"},
@@ -3092,7 +3092,7 @@ window.YERLESIMLER_ASYA = [
 
 // Mandalay — Kral Mindon 1857'de kurdu (kur:); Birmanya'nın son başkenti.
 // 28 Kasım 1885'te İngilizler girdi ve krallık sona erdi. Ava'ya 15.6 km.
-{ ad:"Mandalay", tur:"sehir", lat:21.9750, lon:96.0840, g:1, k:2,kd:[{f:"1752-01-01",t:"1885-11-29",k:1,m:"Mandalay"}], d:[],
+{ ad:"Mandalay", tur:"sehir", lat:21.9750, lon:96.0840, g:1, k:2,kd:[{f:"1857-01-01",t:"1885-11-29",k:1,m:"Mandalay"}], d:[],
   kur:"1857-01-01",
   s:[{f:"1857-01-01", t:"1885-11-28", d:"konbaung"},
      {f:"1885-11-28", t:"1923-10-29", d:"ingiliz-hindistani"}] },
@@ -3190,7 +3190,7 @@ window.YERLESIMLER_ASYA = [
 
 // Ayutthaya — 4 Mart 1351'de kuruldu (kur:), 7 Nisan 1767'de yakıldı ve
 // terk edildi (bit:). Sahiplik zinciri 1923'e kadar TAM bırakıldı.
-{ ad:"Ayutthaya", tur:"sehir", lat:14.3530, lon:100.5780, g:2, k:1,kd:[{f:"1351-01-01",t:"1767-04-07",k:1,m:"Ayutthaya"}], d:[],
+{ ad:"Ayutthaya", tur:"sehir", lat:14.3530, lon:100.5780, g:2, k:1,kd:[{f:"1351-03-04",t:"1767-04-07",k:1,m:"Ayutthaya"}], d:[],
   kur:"1351-03-04", bit:"1767-04-07",
   s:[{f:"1351-03-04", t:"1569-08-08", d:"ayutthaya"},
      {f:"1569-08-08", t:"1584-05-03", d:"toungoo"},
@@ -3209,7 +3209,7 @@ window.YERLESIMLER_ASYA = [
 // Chiang Mai — Lan Na krallığının başkenti, 12 Nisan 1296'da kuruldu
 // (kur:). Bayinnaung 2 Nisan 1558'de aldı ve Lan Na iki yüz yıl Birmanya
 // idaresinde kaldı; 15 Ocak 1774'te Siyam'a geçti.
-{ ad:"Chiang Mai", tur:"sehir", lat:18.7880, lon:98.9850, g:1, k:1,kd:[{f:"1281-01-01",t:"1558-04-02",k:1,m:"Chiang Mai"}], d:[],
+{ ad:"Chiang Mai", tur:"sehir", lat:18.7880, lon:98.9850, g:1, k:1,kd:[{f:"1296-04-12",t:"1558-04-02",k:1,m:"Chiang Mai"}], d:[],
   kur:"1296-04-12",
   s:[{f:"1296-04-12", t:"1558-04-02", d:"lan-na"},
      {f:"1558-04-02", t:"1752-04-23", d:"toungoo"},
@@ -3248,7 +3248,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1828-11-01", t:"1893-10-03", d:"siyam-chakri"},
      {f:"1893-10-03", t:"1923-10-29", d:"fransiz-cinhindi"}] },
 
-{ ad:"Champasak", tur:"sehir", lat:14.8920, lon:105.8760, g:0, k:2,kd:[{f:"1707-01-01",t:"1893-10-03",k:1,m:"Champasak"}], d:[],
+{ ad:"Champasak", tur:"sehir", lat:14.8920, lon:105.8760, g:0, k:2,kd:[{f:"1713-01-01",t:"1893-10-03",k:1,m:"Champasak"}], d:[],
   kur:"1713-01-01",
   s:[{f:"1713-01-01", t:"1778-01-01", d:"laos-kralliklari"},
      {f:"1778-01-01", t:"1893-10-03", d:"siyam-chakri"},
@@ -3273,7 +3273,7 @@ window.YERLESIMLER_ASYA = [
 
 // Phnom Penh — 1434'te Kmer başkenti oldu (kur:). Kral Norodom 11 Ağustos
 // 1863'te Fransız himayesini kabul etti.
-{ ad:"Phnom Penh", tur:"sehir", lat:11.5620, lon:104.8880, g:1, k:1,kd:[{f:"1431-01-01",t:"1923-10-29",k:1,m:"Phnom Penh"}], d:[],
+{ ad:"Phnom Penh", tur:"sehir", lat:11.5620, lon:104.8880, g:1, k:1,kd:[{f:"1434-01-01",t:"1923-10-29",k:1,m:"Phnom Penh"}], d:[],
   kur:"1434-01-01",
   s:[{f:"1434-01-01", t:"1863-08-11", d:"kamboc-kralligi"},
      {f:"1863-08-11", t:"1923-10-29", d:"fransiz-cinhindi"}] },
@@ -3522,7 +3522,7 @@ window.YERLESIMLER_ASYA = [
 // Trowulan — Majapahit'in başkenti. Singhasari 1292'de Kediri isyanıyla
 // yıkıldı; Moğol donanmasının 1293'teki Cava seferini Raden Wijaya kendi
 // lehine çevirdi ve Majapahit'i kurdu (kur: 10 Kasım 1293).
-{ ad:"Trowulan (Majapahit)", tur:"sehir", lat:-7.5450, lon:112.3830, g:2, k:1,kd:[{f:"1293-01-01",t:"1527-01-01",k:1,m:"Trowulan (Majapahit)"}], d:[],
+{ ad:"Trowulan (Majapahit)", tur:"sehir", lat:-7.5450, lon:112.3830, g:2, k:1,kd:[{f:"1293-11-10",t:"1527-01-01",k:1,m:"Trowulan (Majapahit)"}], d:[],
   kur:"1293-11-10",
   s:[{f:"1293-11-10", t:"1527-01-01", d:"majapahit"},
      {f:"1527-01-01", t:"1587-01-01", d:"demak"},
@@ -3561,7 +3561,7 @@ window.YERLESIMLER_ASYA = [
 
 // Batavia — Jan Pieterszoon Coen, Cayakarta'yı 30 Mayıs 1619'da yıkıp
 // yerine Batavia'yı kurdu (kur:) ve VOC'un Asya merkezi yaptı.
-{ ad:"Batavia (Cakarta)", tur:"liman", lat:-6.1750, lon:106.8270, g:2, k:1,kd:[{f:"1602-03-20",t:"1923-10-29",k:1,m:"Batavia (Cakarta)"}], d:[],
+{ ad:"Batavia (Cakarta)", tur:"liman", lat:-6.1750, lon:106.8270, g:2, k:1,kd:[{f:"1619-05-30",t:"1923-10-29",k:1,m:"Batavia (Cakarta)"}], d:[],
   kur:"1619-05-30",
   s:[{f:"1619-05-30", t:"1811-08-18", d:"hollanda-dogu-hint"},
      {f:"1811-08-18", t:"1816-08-19", d:"ingiltere"},
@@ -3582,13 +3582,13 @@ window.YERLESIMLER_ASYA = [
 // bu yüzden dosya kuralı gereği AYRI kimlik taşırlar ve 1923'e kadar
 // "hollanda-dogu-hint" ile boyanmazlar.
 
-{ ad:"Yogyakarta", tur:"sehir", lat:-7.7970, lon:110.3710, g:1, k:2,kd:[{f:"1755-02-13",t:"1923-10-29",k:1,m:"Yogyakarta"}], d:[],
+{ ad:"Yogyakarta", tur:"sehir", lat:-7.7970, lon:110.3710, g:1, k:2,kd:[{f:"1755-10-07",t:"1923-10-29",k:1,m:"Yogyakarta"}], d:[],
   kur:"1755-10-07",
   s:[{f:"1755-10-07", t:"1811-08-18", d:"yogyakarta"},
      {f:"1811-08-18", t:"1816-08-19", d:"ingiltere"},
      {f:"1816-08-19", t:"1923-10-29", d:"yogyakarta"}] },
 
-{ ad:"Surakarta (Solo)", tur:"sehir", lat:-7.5750, lon:110.8240, g:1, k:1,kd:[{f:"1587-01-01",t:"1923-10-29",k:1,m:"Surakarta (Solo)"}], d:[],
+{ ad:"Surakarta (Solo)", tur:"sehir", lat:-7.5750, lon:110.8240, g:1, k:1,kd:[{f:"1745-02-17",t:"1923-10-29",k:1,m:"Surakarta (Solo)"}], d:[],
   kur:"1745-02-17",
   s:[{f:"1745-02-17", t:"1811-08-18", d:"mataram-sultanligi"},
      {f:"1811-08-18", t:"1816-08-19", d:"ingiltere"},
