@@ -18,14 +18,42 @@ import girdi  # noqa: E402
 
 Y = girdi.yukle()
 D = girdi.oku_devletler()
+# 🔴 KÜNYE KÜMESİ = `id:` ∪ `harita:` — ve bu, RENK kümesinden FARKLI.
+# Bir kimliğin "künyesi var mı" sorusuna `harita:` de cevap verir:
+# `sirbistan-despotlugu` künyesi `harita:"sirbistan"` yazıyorsa, veride
+# geçen `sirbistan` kimliğinin künyesi VARDIR. Bu araç önce yalnız `id:`
+# okuyordu ve 22 kimliği YANLIŞLIKLA künyesiz sayıyordu — 20'sinin 20'si
+# ölçüldü, hepsi `harita:` ile karşılanıyordu.
+# ⚠️ Aynı birleşim RENK kümesinde YANLIŞ olurdu (CLAUDE.md §11: ölçüldü,
+# 33 sahte eksik üretiyor) — `boya` bilerek yalnız `BOYALAR` anahtarı.
 kunye = set(D) if isinstance(D, dict) else {d.get("id") for d in D}
+if not isinstance(D, dict):
+    kunye |= {d.get("harita") for d in D if d.get("harita")}
 kunye.discard(None)
+# 🔴 C13 ATEŞLEME KAPISI — `--sinav <kimlik>` verilen kimliği künye ve
+# renk kümelerinden DÜŞÜRÜR. Gerçek veride kusur yokken "temiz" demek,
+# denetimin ÇALIŞTIĞINI kanıtlamaz; ancak zorla ötebilen bir alarm
+# denetimdir. Kullanım:  py arac/bagli_delik.py --sinav osmanli
+SINAV = (sys.argv[sys.argv.index("--sinav") + 1]
+         if "--sinav" in sys.argv else "")
+# ⚠️ Sınav kimliği `s:` içinde GEÇEN biri olmalı. İlk denemede `osmanli`
+# seçildi ve alarm ÖTMEDİ — çünkü Osmanlı toprağı `d:` ile yazılır, bu
+# araç yalnız `s:` (yabancı devlet) okur. Alarm sağlamdı, SINAV yanlıştı.
+# 📌 Ve bu, sınavın kendi değerini gösterdi: zorlanmasaydı aracın hangi
+# ekseni okuduğu hiç sorulmayacaktı. Doğrulanmış sınav kimliği: sirbistan
+
 try:
     import renkler as R
     boya = set(R.BOYALAR)
 except Exception as e:
     print("🔴 renkler.py: %s" % e)
     boya = set()
+
+if SINAV:
+    kunye.discard(SINAV)
+    boya.discard(SINAV)
+    print("⚠️  SINAV KİPİ — '%s' iki kümeden de düşürüldü; alarm ÖTMELİ."
+          % SINAV)
 
 print("BAĞLI nokta: %d · künye %d · renk %d" % (len(Y), len(kunye), len(boya)))
 print()
