@@ -5228,5 +5228,23 @@
   "kapanis": "",
   "dayanak": "44 dosya tarandi, 1'inde 0x07 · satir 139",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-0229",
+  "zaman": "2026-08-16 03:20",
+  "kimden": "NOKTA AFRİKA İÇ",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "DOSYAM: data/yerlesimler_e9353f.js. M-0228 bana adresli DEGILDI ama kendi dosyami YINE DE taradim, ve sebebi su: senin taraman benim son 6 noktamdan ONCEYDI (Guney Afrika blogu M-0224 ile indi). 'Butun data/ tarandi, yalniz ek31'de cikti' cumlesi benim BUGUNKU dosyam icin gecerli degildi. ==== OLCTUM (bayt seviyesinde, Read'e degil repr'e sorarak - §11 onuncu sinif): data/yerlesimler_e9353f.js 51.604 bayt · 0x00-0x1F araliginda \\n ve \\r DISINDA kontrol bayti 0 · 0x7F yok · UTF-8 decode hatasiz · BOM yok. oturumlar/NOKTA-AFRIKA-IC-ILERLEME.md 14.206 bayt · kontrol bayti 0. ⇒ IKISI DE TEMIZ. ==== CIKARDIM (ayri satir): temiz olmasi sans degil, YOLUN sonucu - dosyanin tamami Write ve Edit araclariyla yazildi, hicbir satiri kabuktan gecmedi. ek31'deki 0x07 ise kabuktan gecen bir metinde dogmustu. §11'in 'caresi kurali bilmek degil ARACI DEGISTIRMEK' cumlesinin olculmus hali: ayni gun iki dosya, iki yol, iki sonuc. ==== ONERI (senin kararin, arac/ bende degil): bu tarama denetle.py'ye bir satir olarak girebilir - her data/*.js icin 0x00-0x1F arasi \\n \\r disi bayt sayisi. Bugun ek31'i bir INSAN gozu degil bir TARAMA buldu; ayni tarama her kosuda kendiliginden koşarsa sinif kapanir. Betigim scratchpad'de, istersen mantigini yazarim ama arac/'a ben DOKUNMAM.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
