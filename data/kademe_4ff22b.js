@@ -59,7 +59,6 @@ window.KADEME_YAMA = [
   {ad:"Esferâyin", k:3, kaynak:"horasan", neden:"TDV Horasan sehristan listesi: 'ISFERAYIN' (bizim imlamiz Esferayin) — sehristan, MODERN paragraf ⇒ bir kademe ASAGI"},
   {ad:"Bocnûrd", k:3, kaynak:"horasan", neden:"TDV Horasan sehristan listesi: 'BUCNURD' (bizim imlamiz Bocnurd) — sehristan, MODERN paragraf ⇒ bir kademe ASAGI"},
   {ad:"Sebzevâr", k:3, kaynak:"horasan", neden:"TDV Horasan sehristan listesi: 'SEBZEVAR' — sehristan, MODERN paragraf ⇒ bir kademe ASAGI"},
-  {ad:"Tebbes", k:3, kaynak:"horasan", neden:"TDV Horasan sehristan listesi: 'TABES' (bizim imlamiz Tebbes) — sehristan, MODERN paragraf ⇒ bir kademe ASAGI"},
   {ad:"Kûçân", k:3, kaynak:"horasan", neden:"TDV Horasan sehristan listesi: 'KUCAN' — sehristan, MODERN paragraf ⇒ bir kademe ASAGI"},
   {ad:"Turbet-i Câm", k:3, kaynak:"horasan", neden:"TDV Horasan sehristan listesi: 'TURBETICAM' — sehristan, MODERN paragraf ⇒ bir kademe ASAGI"},
   {ad:"Turbet-i Haydariye", k:3, kaynak:"horasan", neden:"TDV Horasan sehristan listesi: 'TURBETIHAYDARI' — sehristan, MODERN paragraf ⇒ bir kademe ASAGI"},
