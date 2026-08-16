@@ -167,14 +167,14 @@ window.YERLESIMLER_AFRIKA = [
 // kanaldan önce burada yerleşim yoktu; zaman dilimli Voronoi geldiğinde veri
 // hazır olsun diye yazıldı. Dönem zincirleri Mısır'ın geneliyle aynı.
 { ad:"Portsaid", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"liman", lat:31.257, lon:32.284, g:0, k:4, m:"Kahire", kur:"1859-04-25",
-  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-05-19",t:"1805-07-03"}],
-  v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
+  s:[{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+  d:[],
+  v:[{f:"1859-04-25",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
 { ad:"İsmâiliye", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"sehir", lat:30.588, lon:32.271, g:0, k:4, m:"Kahire", kur:"1863-04-27",
-  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-05-19",t:"1805-07-03"}],
-  v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
+  s:[{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+  d:[],
+  v:[{f:"1863-04-27",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
 // Sînâ'nın kuzey kıyısı — Mısır ile Suriye arasındaki tek karayolu buradan
 // geçer; Katye kervan ve hac yolu menzili, El-Arîş sınır kalesidir.
@@ -934,9 +934,9 @@ window.YERLESIMLER_AFRIKA = [
 // Senûsî tarikatının 1856'da kurduğu çöl merkezi ve zâviyesi. kur: yazıldı;
 // motor bugün okumuyor (MIMARI.md §3.1) ama öncesinde burada yerleşim yoktu.
 { ad:"Cağbûb", tur:"sehir", lat:29.744, lon:24.517, g:0, k:4, m:"Bingazi", kur:"1856-01-01",
-  s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
-  d:[{f:"1551-08-15",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}],
-  v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
+  s:[{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+  d:[{f:"1856-01-01",t:"1912-10-18"}],
+  v:[] },
 
 // ===========================================================================
 // 12) DARFUR SULTANLIĞI

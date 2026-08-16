@@ -59,7 +59,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   //    2s tavanı doluydu; teslim raporunda koordinatöre bildirildi.
   { ad:"Tıtvân (Tetuan)", tur:"sehir", lat:35.578, lon:-5.368, g:0, k:0, m:null,
     kur:"1484-01-01",
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1484-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
 
   // İspanyol presidiosu 1610-1689 (Mevlây İsmâil geri aldı). Gün
   // doğrulanamadı ⇒ `§4` gereği YYYY-01-01.
@@ -93,11 +93,11 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // Sîdî Muhammed b. Abdullah 1764'te kurdurdu ⇒ `kur`.
   { ad:"Sûvayra (Mogador)", tur:"liman", lat:31.513, lon:-9.770, g:0, k:0, m:null,
     kur:"1764-01-01",
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1764-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
 
   { ad:"Şefşâven", tur:"sehir", lat:35.171, lon:-5.269, g:0, k:0, m:null,
     kur:"1471-01-01",
-    s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1471-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
 
   // Vezzâniyye zâviyesinin merkezi. Kuruluş yılı için güvenilir tarih
   // BULUNAMADI ⇒ `kur` HİÇ YAZILMADI (`VERI-YAPISI.md`: "Bilinmiyorsa alanı

@@ -222,8 +222,8 @@ window.YERLESIMLER_SEYREK = [
 //       (yerlesimler_kirim.js). ①'in çürümesi oraları da ilgilendirir; o
 //       dosya bu oturumun yetkisinde DEĞİL, dokunulmadı.
 { ad:"Kırcaali", tur:"sehir", lat:41.650, lon:25.370, g:0, k:4, m:"Edirne", kur:"1482-01-01",
-  s:[{f:"1281-01-01",t:"1363-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-07-14",t:"1923-10-29",d:"bulgaristan"}],
-  d:[{f:"1363-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1913-07-14"}] },
+  s:[{f:"1913-07-14",t:"1923-10-29",d:"bulgaristan"}],
+  d:[{f:"1482-01-01",t:"1913-07-14"}] },
 
 // ── p3/H-0016 "Dubrovnik enklavı" ───────────────────────────────────
 // ÖLÇÜM: Dubrovnik'in kendi noktası VAR; enklav görüntüsü ARDINDAKİ

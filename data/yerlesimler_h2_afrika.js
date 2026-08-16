@@ -366,7 +366,7 @@ window.YERLESIMLER_H2_AFRIKA = [
 // tarihinden başlar — YENİ GÜN İCAT EDİLMEDİ (bkz. dosya başı ilkesi;
 // Kesela kaydının 1840 çözümüyle aynı desen).
 { ad:"Bûr Sûdân", tur:"liman", lat:19.617, lon:37.216, g:0, k:3, m:"Sevâkin", kur:"1909-01-01",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
+  s:[{f:"1909-01-01",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
 
 // ===========================================================================
 // 6) ERİTRE
@@ -414,7 +414,7 @@ window.YERLESIMLER_H2_AFRIKA = [
 // ===========================================================================
 
 { ad:"Cibûtî", tur:"liman", lat:11.588, lon:43.145, g:1, k:0, kur:"1888-01-01",
-  s:[{f:"1884-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}], d:[] },
+  s:[{f:"1888-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}], d:[] },
 
 // ⚠️ lat/lon 11,967/43,283'ten 11,993/43,278'e alındı (2,9 km kuzey): ham
 // koordinat Natural Earth 10m kara maskesinin DIŞINDA kalıyordu ve maske
@@ -485,7 +485,7 @@ window.YERLESIMLER_H2_AFRIKA = [
 // ===========================================================================
 
 { ad:"Dire Dava", tur:"sehir", lat:9.593, lon:41.866, g:0, k:0, kur:"1902-01-01",
-  s:[{f:"1887-01-06",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1902-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 { ad:"Dagahbûr", tur:"sehir", lat:8.217, lon:43.567, g:0, k:0,
   s:[{f:"1281-01-01",t:"1887-01-06",d:"adal"},{f:"1887-01-06",t:"1923-10-29",d:"habesistan"}], d:[] },
@@ -563,7 +563,7 @@ window.YERLESIMLER_H2_AFRIKA = [
 
 // Gambela 1907'de Mavi Nil ticaretinin iskelesi olarak kuruldu.
 { ad:"Gambela", tur:"liman", lat:8.250, lon:34.588, g:0, k:0, kur:"1907-01-01",
-  s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
+  s:[{f:"1907-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 // ===========================================================================
 // 11) OGADEN — §3.5.1'in İKİ UÇLU ölçümü
