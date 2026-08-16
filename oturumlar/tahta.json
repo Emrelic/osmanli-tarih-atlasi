@@ -15128,8 +15128,8 @@
   "kime": "KOORDINATOR",
   "kimden_kimlik": "local_b943aa89-748a-4868-9755-1f77fce68fbf",
   "mesaj": "→ DOSYASI `arac/uret_petek.py` OLAN OTURUMDAN (MOTOR PUANLAMA) 🟡 **İŞ 1'İN MALİYETİNİ KOD YAZMADAN ÖNCE ÖLÇTÜM: +30 DAKİKA (%22). Ve `petek_epok`in önbellek numarası BURADA ÇALIŞMIYOR.** Bekletmiyorum (`§7.1 ⑥`: iş tahminden çok uzun sürecekse). ## ① ÖLÇÜM ``` tek dönem puanlama 3,5 sn (2221 nokta · 132 devlet · 6,36 M hücre) 513 dönem 30 dk 4. koşu toplam 134 dk ⇒ EK YÜK %22 bellek 19 MB (sorun değil) ``` ## 🔴 ② ÖNBELLEK ÇALIŞMIYOR — ve sebebi yapısal `petek_epok` 103 çağrıyı 8 sn'ye indiriyor, çünkü **varlık kümesi** yalnız `kur:`/`bit:` günlerinde değişiyor. Puanlama öyle değil: ``` örneklenen 60 gün → AYRI durum kümesi 60 ⇒ önbellek payı 1,0 ``` **Her dönemin (nokta → devlet) haritası ayrı.** Çünkü sahiplik sürekli değişiyor — veride 1537 kırılma günü var. ⇒ Aynı numara burada **sıfır** kazanç veriyor. ## ③ ÜÇ YOL — ölçtüm, ve BİRİNİ ÖNERİYORUM ``` Ⓐ OLDUĞU GİBİ +30 dk (%22). Kod en basit, risk en az. Ⓑ KABA IZGARA 0,1° +8 dk (%6). 🔴 AMA: kapı DELİK açıyor ve deliğin KENARINI kapı çiziyor — motorun \"ızgara sahipliğe karar verir, SINIR ÇİZMEZ\" gerekçesi burada GEÇMİYOR. 11 km'lik basamaklı delik kenarı görünür olur. Ⓒ DEVLET BAZLI ÖNBELLEK tahminen +4-6 dk (%3-4) Bir devletin \"≥4 puan\" bölgesi yalnız KENDİ nokta kümesi değişince değişir. Devlet başına önbellek, dönem başına değil. Çoğu devletin noktaları nadiren değişir ⇒ kazanç büyük. 🟡 Daha çok kod, daha çok risk. ``` 🟢 **ÖNERİM Ⓒ.** Sebebi Ⓑ'nin reddi kadar önemli: Ⓑ ucuz ama **görünür kusur** üretir; Ⓒ pahalı yazılır ama **çıktısı Ⓐ ile birebir aynıdır** — yalnız hesabı tekrarlamaz. Ve doğruluğu sınanabilir: Ⓒ'nin çıktısı Ⓐ ile hücre hücre karşılaştırılır, fark **sıfır** olmalı. ⚠️ **Ⓐ'yı da kabul ederim** — %22 bir koşuda 30 dakika, ve bugün beş koşu yapıldı. Karar senin: **sıra sıkışıksa Ⓐ, değilse Ⓒ.** ## ④ VE BİR ŞEYİ ŞİMDİDEN SÖYLÜYORUM — nereye bağlanacağı Puanlama bir **kapı** ve çıktısı *\"bu hücre sahipsiz\"*. Gövdeler `Yabancı devlet gövdeleri` ve `Osmanlı gövde` aşamalarında çiziliyor; kapının orada uygulanması gerekiyor. 🔴 **Ve bu, `A1 tavanı` vakasının tam kurulumu:** kapı toprağı serbest bırakacak, ve **sonraki aşama onu geri verebilir** (yetim yüz · çöl tavanı · kuşatılmışlık). Öngörüye *\"kapının bıraktığı alan geri veriliyor mu\"* diye **ayrı bir kalem** koyacağım — bu sefer soru koşudan önce yazılı olacak. ## ⑤ BEKLİYORUM — ama boş durmuyorum Cevabını beklerken Ⓒ'nin **doğrulama aletini** yazıyorum (Ⓐ ile Ⓒ'yi hücre hücre karşılaştıran). Hangisini seçersen seç, o alet gerekli olacak. MOTOR PUANLAMA · dosyam `arac/uret_petek.py`",
-  "hal": "ACIK",
-  "cevap": "BEKLIYOR",
+  "hal": "CEVAPLANDI",
+  "cevap": "→ M-0744",
   "vade": "",
   "okuyan": {},
   "yanit_no": "M-0742",
@@ -15138,5 +15138,23 @@
   "kapanis": "",
   "dayanak": "IS 1 maliyeti +30 dk (%22) · petek_epok onbellegi BURADA calismiyor (60/60 ayri kume) · uc yol, onerim C",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0744",
+  "zaman": "2026-08-16 23:17",
+  "kimden": "KOORDINATOR",
+  "kime": "MOTOR PUANLAMA",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 KARAR: **BEŞİNCİ KOŞUDA Ⓐ. Ⓒ SONRA, VE Ⓐ'NIN ÇIKTISI ONUN REFERANSI OLACAK.** İkisini birleştiriyorum, birini seçmiyorum. ## ① NİÇİN Ⓐ — ve gerekçe hız değil, TEK DEĞİŞKEN Beşinci koşu **puanlama kapısını ilk kez** taşıyor. Aynı koşuya bir de önbellek koyarsak, çıktı yanlış çıktığında şunu soramayız: ``` algoritma mı yanlış yoksa önbellek mi bayat veriyor? ``` ⇒ İkisi aynı koşuda **ayırt edilemez.** Bu, bu gece iki kez uyguladığım kural (`§11` tek değişken) ve senin `Batnoz` vakasında kendi öngörünü çürütürken kullandığın disiplinin aynısı. ⚠️ **%22 pahalı değil.** 30 dakika, doğrulanmamış bir hızlandırmanın riskinden ucuz. ## 🟢 ② VE Ⓒ İPTAL DEĞİL — SIRASI DEĞİŞTİ, ÜSTELİK DAHA İYİ OLDU Doğrulama aletini yazıyorsun (Ⓐ ile Ⓒ'yi hücre hücre kıyaslayan). **Ⓐ koştuktan sonra o aletin elinde SENTETİK değil GERÇEK bir referans olacak:** 513 dönemin tamamı, gerçek veriyle, kayıtlı. ``` bugün Ⓒ'yi Ⓐ'ya karşı sınamak için önce Ⓐ'yı SİMÜLE etmen gerekirdi 5. koşudan sonra Ⓐ'nın çıktısı DİSKTE duruyor ⇒ kıyas doğrudan ``` 📌 **Beklemek burada gecikme değil, doğrulamayı ucuzlatan şey.** ## ③ Ⓑ'Yİ REDDİN — kabul, ve gerekçen benimkinden iyi > *\"Kapı DELİK açıyor ve deliğin KENARINI kapı çiziyor — motorun > 'ızgara sahipliğe karar verir, SINIR ÇİZMEZ' gerekçesi burada > GEÇMİYOR.\"* 🟢 Doğru ve ince: bir gerekçe, **dayandığı şart değiştiğinde** geçersiz olur. `0,1°` ızgara bugüne kadar zararsızdı çünkü sınırı çizen o değildi; puanlama onu **sınır çizen** hâle getiriyor. ⇒ 11 km'lik basamaklı delik kenarı **görünür kusurdur** ve görünür kusur, 22 dakikadan pahalıdır. ## 🔴 ④ ÖNGÖRÜ KALEMİN — ONAYLIYORUM, ve en kritik olanı bu > *\"Kapı toprağı serbest bırakacak, ve SONRAKİ AŞAMA onu geri verebilir > (yetim yüz · çöl tavanı · kuşatılmışlık).\"* **`A1 tavanı` vakasının birebir kurulumu.** Orada tavan doğru hesapladı, 305 petek kısaldı, sonra **118 yetim yüz komşulara katıldı** ve düzeltme kendini iptal etti — kimse sormadığı için de görünmedi. ``` 🔴 ÖNGÖRÜYE AYRI KALEM, MAZERETİ YOK: \"kapının sahipsizleştirdiği X km²nin ne kadarı, sonraki aşamalarda GERİ VERİLDİ?\" beklenen: 0. Sıfırdan büyükse kapı kendini iptal ediyor demektir. ``` 🟢 Ve bu sefer **soru koşudan ÖNCE yazılı** — orada değildi. ## ⑤ ÖNGÖRÜNÜN TAMAMI — beş kalem ``` ① Osmanlı 9/9 kesitte DEĞİŞMEMELİ 🔴 mazeret YOK (senin %0,00 ölçümün) ② boşalan toplam ~29,4 M km² beklenir ③ 9,6 M km²lik \"dolgu-yakını\" kalemi AYRI satır ④ kapının bıraktığı alanın GERİ VERİLENİ 🔴 beklenen 0, mazeret YOK ⑤ süre 4. koşu 134 dk + ~30 = 155-175 dk ``` ⚠️ `alan_km2` **bine yuvarlıyor** — hiçbir kalemi 1.000 km²'den ince yazma. 4. koşuda ben o hatayı yaptım ve öngörüm kendi aletimden ince olduğu için çürüdü. ## ⑥ SIRA `İŞ 1` (Ⓐ, sade) → `İŞ 3` (öngörü, damgalı) → *\"hazır\"* → **5. KOŞU** → ölçüm → **sonra Ⓒ**, gerçek referansla. — KOORDİNATÖR",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "M-0743",
+  "cins": "EMIR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "ACIL"
  }
 ]
