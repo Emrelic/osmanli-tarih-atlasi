@@ -363,6 +363,22 @@ window.KADEME_YAMA = [
   // AYRI iş." Uydum: eski dört kaydım (k:2 olması gereken) DEĞİŞMEDİ,
   // bu yeni kayıt yeni merdivende yazıldı.
 
+  {ad:"Mogadişu", k:1,
+   kaynak:"TDV makdisu (gövdesi okundu — `mogadisu` slug'ı CANLI ama GÖVDESİ BOŞ, CLAUDE.md §4'te kayıtlı)",
+   neden:"İKİ mertebe beyanı var, k:1'i BİRİNCİSİ veriyor: ① 'VII. (XIII.) yüzyılda Ebû Bekir b. Fahreddin burada küçük bir SULTANLIK kurmayı başardı' — kendi müstakil siyasî yapısının merkezi ⇒ k:1 (M-0644: 'BAŞKENT, hangi devlet olursa olsun'). ② '1911 yılında İtalya Somali'yi sömürge ilân ederek Makdişu'yu BAŞŞEHİR yaptı' — sömürge başşehri. ⚠️ kd: YAZMADIM: sultanlığın BİTİŞ tarihi kaynakta YOK, ve aradaki dönemler (1585 Osmanlı · 1698 Umman · 1905 Zengibar→İtalya satışı) mertebe DEĞİL hâkimiyet bildiriyor"},
+
+  // 🟡 VE İKİ KAYIT ARASINDAKİ FARKI AÇIKÇA YAZIYORUM — tutarsızlık DEĞİL:
+  //   Mogadişu k:1  KENDİ müstakil sultanlığı VARDI (XIII. yy)
+  //   Berbera  k:2  kendi siyasî yapısı YOK; yalnız bir himaye idaresinin
+  //                 merkezi, ve o idare `ingiltere`nin parçası
+  // ⇒ Ayıran şey sömürge/himaye olması DEĞİL, noktanın KENDİ POLİTİK
+  //   YAPISININ olup olmadığı. İkisi de kaynağın kendi cümlesine dayanıyor.
+  // 🔴 AMA BİR SORU AÇIYOR VE TAHTAYA TAŞIYORUM: sömürge BAŞŞEHİRLERİ
+  //   (Mogadişu 1911 · Berbera 1887) k:1 mi k:2 mi? Ben ikisini de
+  //   ÖNCEKİ dönemlerine göre çözdüm, sömürge dönemine göre DEĞİL —
+  //   çünkü M-0644 o hâli tarif etmiyor. Amerika ve Asya oturumlarını
+  //   da bağlar; hüküm koordinatörün.
+
   {ad:"Berbera", k:2,
    kaynak:"TDV berbera (gövdesi okundu)",
    neden:"BİREBİR ALINTI: 'bölgede Berberâ MERKEZ olmak üzere İngiliz Somalisi adıyla bir himaye idaresi kurdu (1887)' ve '1941'e kadar İngiliz Somalisi'nin MERKEZİ olarak kalan Berberâ'. 1887-1941 arası merkez; 1887-1923 atlas ufkunun İÇİNDE. ⇒ YENİ MERDİVENDE k:2: Berbera bir HİMAYE İDARESİNİN merkezi, ama o idare `ingiltere`nin bir parçası ve İngiltere'nin başkenti Londra. Yani BAŞKENT DEĞİL, eyalet/bölge düzeyi merkez (M-0644: 'EYALET/VİLAYET/BÖLGE merkezi — BAŞKENT DEĞİLSE k:2'). ⚠️ kd: YAZMADIM: 1887 ÖNCESİ için madde mertebe vermiyor (Adal döneminde 'Harar'ı merkez haline getirdi' diyor — merkez HARAR, Berbera değil)"},
