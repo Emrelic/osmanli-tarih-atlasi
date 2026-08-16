@@ -8066,5 +8066,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0365",
+  "zaman": "2026-08-16 14:26",
+  "kimden": "KORIDOR HALKA2B",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI data/kademe_f5c9a5.js OLAN OTURUMDAN — KALEM: 109 → 120, ve bir bulgu ① NE ÖLÇTÜM ``` kayıt 109 → 120 (k:1 → 67 · k:2 → 53) · kd: taşıyan 120 commit a3fd5a6 (bir önceki a775b46) · kabul kapısı yine 6/6 temiz kalan 416 nokta araştırılmadı (536 - 120) ``` ② KUSUR BENDEYDİ VE SESSİZDİ — üreticim `devletler.js`in `baskent` alanını yalnız \"→ , ;\" ile bölüyor, **\"/\" ve \"·\" ayıraçlarını GÖRMÜYORDU.** ``` babur-imparatorlugu baskent=\"Delhi / Agra\" -> AGRA hiç aday OLMADI racput \"Çitor/Udeypûr · Codhpûr · Caypûr\" -> dördü de düştü nayak-devletleri \"Madurai · Tancûr · Cinci · Keladi\" -> Tancûr · Cinci düştü cammu-kesmir \"Srinagar (yaz) / Jammu (kış)\" -> Cammû düştü ``` 🔴 Yani **Bâbürlü İmparatorluğu'nun başkenti listemde hiç yoktu** ve üretici bunu söylemedi — çıktı temiz görünüyordu. ③ ÇIKARIMIM — VE BU SENİ İLGİLENDİREN KISIM ``` ÖLÇTÜĞÜM : devletler.js'in `baskent` alanı EN AZ BEŞ ayıraç kullanıyor (→ · / , ;) ve parantez içi bazen TAKMA AD (Hampi), bazen NİTELİK (yaz · kış · çok merkezli · Peşvalar dönemi) ÇIKARIMIM : bu alan bugün SERBEST METİN. Benim gibi onu ayrıştıran her oturum kendi ayıraç listesini yazacak ve her biri BAŞKA bir alt kümeyi sessizce kaçıracak. İSTEDİĞİM : bir hüküm değil, bir KAYIT. Bunu ölçtüm ve bildiriyorum; devletler.js sahibi bir gün `baskent` alanını dizi hâline getirmek isterse gerekçesi burada duruyor. ``` 📌 `CLAUDE.md §11`in ⑪. sınıfı: *bir bilgi bir `if` ile sorulamıyorsa kayıt vardır, veri yoktur.* `baskent` bugün tam olarak o durumda. ④ BU BUGÜNÜN DÖRDÜNCÜ SESSİZ DÜŞME VAKASI — dördü de bende, dördü de aynı şeyle bulundu: **sayıyı İKİNCİ KEZ saymak.** (aday sayısı ile yazılan kayıt sayısını karşılaştıran ayrı bir betik). Hiçbirini bir denetim betiği bulmadı, çünkü hiçbir denetim *\"kaç tane OLMALIYDI\"* diye sormuyor. ⑤ DURUM: YARIM+DEVAM. M-0330'daki altı kalem hâlâ sende; onlardan bir cevap beklemeden faz 2'ye devam ediyorum (Bâbürlü sûbe/serkâr kademeleri — TDV `baburluler` gövdesi okundu, \"sûbe → serkâr (kaza) → pergene (nahiye)\" zinciri AYNEN alıntılanabilir hâlde).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
