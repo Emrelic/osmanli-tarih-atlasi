@@ -32,10 +32,31 @@
 //   ② kaynak SUSUYOR                          → `k:` YAZMA
 //   ③ kaynak konuşuyor, BAŞKA taksimatta      → MERTEBEYE eşle  ← YENİ
 //
-// Uygulanan mertebe ölçeği (M-0270):
-//   k:1 o devletin BAŞKENTİ / eyalet-vilâyet düzeyi
-//   k:2 ikinci kademe merkez (sancak · KAYMAKAMLIK · voyvodalık · beylik)
-//   k:3 üçüncü kademe (kaza · KADILIK · nahiye)
+// 🔴🔴 VE ÖLÇEĞİ ŞARTNAMEDEN DEĞİL VERİDEN OKUDUM — ikisi AYRIŞIYOR
+// Şartname *"k:1 eyalet/beylerbeyilik merkezi"* diyor. **Veri demiyor.**
+// 481 kayıt üzerinde ölçtüm:
+//   k:1 (54)  Söğüt · Bursa · Edirne · İstanbul — ve Tenochtitlan · Cusco ·
+//             Lima · Havana · Mayapán · Asunción · Mohawk · Taos Pueblo…
+//             ⇒ hepsi KENDİ SİYASÎ YAPISININ BAŞKENTİ
+//   k:2 (113) Erzurum · Diyarbakır · Van · Şam · Halep · Kahire · Bağdat ·
+//             Budin · Sofya · Selanik · Konya · Kefe · BAHÇESARAY
+//             ⇒ EYALET/vilâyet düzeyi
+//   k:3 (281) Mudanya · İznik · İzmit · Balıkesir · Kayseri · Samsun · AZAK
+//             ⇒ sancak/kaza düzeyi
+//   k:4 (493) kasaba · köy · kale
+//
+// ⇒ **Şartnamenin ölçeği yanlış, M-0270'inki DOĞRU.** Şartname eyalet
+//   merkezini k:1 sanıyor; veride eyalet merkezi k:2, k:1 yalnız BAŞKENT.
+//   Ve M-0270 *"k:1 o devletin BAŞKENTİ"* diyor — Amerika başkentlerinin
+//   k:1 oluşu bunu bağımsız doğruluyor.
+//
+// 🟢 ÖLÇEĞİ İKİ ALINTIYLA SINADIM ve ikisi de TUTTU:
+//   TDV azak: "Kefe SANCAĞINA bağlı bir KAZA"  → veride Azak k:3 ✓ Kefe k:2 ✓
+//
+// Uygulanan mertebe ölçeği (veriden okunmuş hâli):
+//   k:1 o siyasî yapının BAŞKENTİ
+//   k:2 eyalet / vilâyet düzeyi merkez
+//   k:3 sancak · kaza · KADILIK · KAYMAKAMLIK düzeyi
 //   k:4 kasaba · köy · kale · menzil
 //
 // 🔴 İKİ KURAL, ikisi de M-0270'ten ve ikisi de bu dosyada uygulandı:
@@ -64,13 +85,13 @@ window.KADEME_YAMA = [
 // ⚠️ TDV maddesi kendi kendini sınırlıyor ve bunu saklamıyorum:
 //    "Osmanlı idarî taksimatında sancak, kaza vb. belirtimi: VERİLMİYOR."
 //    ⇒ k:2 bir MERTEBE eşlemesidir, bir unvan aktarımı DEĞİL.
-{ad:"Akmescid", k:2, kaynak:"akmescid (TDV)",
- neden:"TDV: 'kalgay sultan (veliaht şehzade) tayin etti ve kendisine Akmescid'i MERKEZ olarak verdi'; XVII. yy'da 'kalgay ile emrindeki KADI, SUBAŞI ve MUHTESİP tarafından yönetildiği'. Hanlığın ikinci mertebesi ⇒ M-0270 ölçeğinde k:2. TDV Osmanlı taksimat adı VERMİYOR; bu bir mertebe eşlemesidir."},
+{ad:"Akmescid", k:3, kaynak:"akmescid (TDV)",
+ neden:"TDV: 'kalgay sultan (veliaht şehzade) tayin etti ve kendisine Akmescid'i MERKEZ olarak verdi'; XVII. yy'da 'kalgay ile emrindeki KADI, SUBAŞI ve MUHTESİP tarafından yönetildiği'. Hanlığın İKİNCİ mertebesi. Bahçesaray (hanlık merkezi) veride k:2 olduğu için onun ALTI ⇒ k:3. TDV Osmanlı taksimat adı VERMİYOR; bu bir mertebe eşlemesidir."},
 
 // KARASUBAZAR — kaymakamlık merkezi. M-0270 kaymakamlığı ADIYLA k:2'ye
 // eşliyor, yani burada eşleme yorum bile gerektirmiyor.
-{ad:"Karasubazar", k:2, kaynak:"karasubazar (TDV)",
- neden:"TDV: 'Kırım Hanlığı döneminde şehirde Kalgay Sultan'ın idaresinde bir KAYMAKAMLIK merkezi olmuştur' ve 'hanlık protokolünde en önde gelen beyler olan ŞIRIN beylerinin de merkezi oluşuydu'. M-0270: kaymakamlık = ikinci kademe ⇒ k:2."},
+{ad:"Karasubazar", k:3, kaynak:"karasubazar (TDV)",
+ neden:"TDV: 'Kırım Hanlığı döneminde şehirde Kalgay Sultan'ın idaresinde bir KAYMAKAMLIK merkezi olmuştur' ve 'hanlık protokolünde en önde gelen beyler olan ŞIRIN beylerinin de merkezi oluşuydu'. Hanlık merkezi Bahçesaray veride k:2; kaymakamlık onun altında ⇒ k:3."},
 
 // GÖZLEVE (KEZLEV) — 🔴 MERTEBE VERİLMİYOR, BİR KADEME AŞAĞI YAZILDI.
 // TDV'nin söylediği tek şey iktisadî: liman. İdarî mertebe YOK.
