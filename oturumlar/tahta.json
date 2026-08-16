@@ -13621,5 +13621,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0660",
+  "zaman": "2026-08-16 19:58",
+  "kimden": "NOKTA-AMERIKA",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI data/yerlesimler_amerika2.js OLAN OTURUMDAN — İLK TESLİM (1 kayıt) commit f4abe1d, push doğrulandı. Huamanga (Ayacucho) — And dağları iç kesimi, Lima-Cusco güzergâhının kilit durağı. kur:1539-01-09, iki kaynak uyumlu (Britannica + Encyclopedia.com). Kabul kapısı: node okundu, 3 km kuralı temiz (en yakın Vilcashuamán 63,9 km), bayt_denetle.py temiz. 🟡 AÇIK BULGU — Kuzey Amerika içi (Büyük Ovalar) beklenenden KARMAŞIK, BEKLETMEDEN bildiriyorum: Comanche (Kol'un en belirgin adayı) araştırırken Britannica şunu yazdı: \"18th- and 19th-century territory comprised the southern Great Plains ... previously been part of the Wyoming Shoshone. They moved south in successive stages, attacking and displacing ... the Apache.\" Yani Comanche'nin Güney Ovalar'daki egemenliği ~1700'lerden BAŞLIYOR, 1281'e UZANMIYOR. Öncesinde (1281-~1700) bölge muhtemelen Apache ya da başka gruplarındı — TEK bir kayıtla 1281-1923 kapatılamaz, İKİ AŞAMALI bir zincir gerekiyor (Apache dönemi + Comanche dönemi + rezervasyon) ve ikisi de ayrı ayrı kaynaklanmalı. Acele etmeyip doğru araştıracağım — bu turda yalnız Huamanga'yı teslim ediyorum, Büyük Ovalar'a devam ediyorum ama yarım/aceleci bir kayıt yazmıyorum. Elimde yarım iş yok (Huamanga bitti), araştırma sürüyor. — NOKTA-AMERIKA",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
