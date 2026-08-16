@@ -6096,5 +6096,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0266",
+  "zaman": "2026-08-16 03:35",
+  "kimden": "KADEME-ANADOLU",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ DOSYASI data/kademe_8beb2b.js OLAN OTURUMDAN — ÜÇ KADEME OTURUMUNU DA İLGİLENDİRİYOR 🔴 KAYNAK SUSMUYOR, **BAŞKA BİR TAKSİMATTA KONUŞUYOR.** Şartname iki kova tanıyor; ölçüm ÜÇÜNCÜSÜNÜ gösterdi. Karar sende, çünkü bu bir kaynak sorusu değil MODEL sorusu. ## ① NE ÖLÇTÜM — TDV canlı, madde doğru, gövde okundu ``` kirim 200 · \"Kırım idarî olarak KIRK SEKİZ KADILIĞA ayrılmış olup (bunlardan üç sahil kadılığı Osmanlı idaresine tâbi idi)\" akmescid 200 · \"kalgay sultan (veliaht şehzade) tayin etti ve kendisine Akmescid'i MERKEZ olarak verdi\" · XVII. yy'da \"kalgay ile emrindeki KADI, SUBAŞI ve MUHTESİP tarafından yönetildiği\" 1784 → \"Kırım'ın Tavrida bölgesinin başşehri\" 🔴 madde AÇIKÇA: \"Osmanlı idarî taksimatında sancak, kaza vb. belirtimi: VERİLMİYOR\" karasubazar 200 · \"Kalgay Sultan'ın idaresinde bir KAYMAKAMLIK merkezi\" \"hanlık protokolünde en önde gelen beyler olan ŞIRIN beylerinin de merkezi\" 🔴 \"Sancak, kaza veya kadılık merkezi olduğuna dair bilgi VERİLMİYOR\" 🔴 ÖLÜ (302) solhat · eski-kirim · gozleve · kezlev · or-kapi · perekop · rostov · taganrog · kuban · ozi 🟢 CANLI ek kefe · azak · silistre (henüz okumadım) ``` ## ② SORUN — ve iki kovanın hiçbirine girmiyor Şartname diyor ki: *\"Kaynak SUSUYORSA k: YAZMA... 'Şehirdir, herhâlde 3. kademedir' demek KOLAYDIR ve UYDURMADIR.\"* **Kaynak susmuyor.** Akmescid'in ve Karasubazar'ın idarî konumunu **açıkça** veriyor. Ama verdiği kelimeler benim ölçeğimde YOK: ``` BENİM ÖLÇEĞİM (Osmanlı) KAYNAĞIN KELİMELERİ (Hanlık) k:1 eyalet/beylerbeyilik han merkezi (Bahçesaray) k:2 sancak KALGAY merkezi (Akmescid) · NUREDDİN k:3 kaza/nahiye KAYMAKAMLIK (Karasubazar) · KADILIK (48 adet) k:4 kasaba/köy/kale BEYLİK (Şırın vb.) ``` ⇒ *\"Kaymakamlık sancak mıdır kaza mıdır\"* sorusunun cevabı **kaynakta yok ve olamaz** — çünkü iki ayrı devletin iki ayrı taksimatı. Eşleştirme bir **ÖLÇÜM değil, bir TASARIM KARARI.** ## ③ ÖNERİM — ve gerekçesi şartnamenin KENDİ cümlesi `KADEME-KD.md §③`: ***\"Kademe bir KAPI değil, bir AĞIRLIKTIR\"*** · *\"sonucu belirleyen ağırlığın kendisi değil KOMŞUSUYLA ORANI.\"* ⇒ Eğer `k:` bir **idarî unvan** değil bir **harita ağırlığıysa**, soru *\"kaymakamlık sancağa denk mi\"* değil, ***\"bu yer komşusuna göre ne kadar toprak tutmalı\"***. Ve o soruya kaynak **cevap veriyor**. ``` ÖNERDİĞİM EŞLEŞTİRME — açıkça bir EŞLEŞTİRME olarak damgalanır han merkezi → k:1 Bahçesaray kalgay/nureddin → k:2 Akmescid kaymakamlık → k:3 Karasubazar kadılık (48) → k:3 beylik · kale → k:4 Or Kapı ``` 🔴 **Şartı:** her kayıtta `neden:` alanına **kaynağın kendi kelimesi** yazılır (*\"kalgay merkezi\"*), eşleştirme **gizlenmez**. Böylece yarın biri modeli değiştirirse hangi kaydın hangi gerekçeyle yazıldığı görünür. ## ④ NİÇİN SENİN KARARIN — kapsamı benden büyük Bu benim 22 noktamın sorunu değil: ``` KADEME-ANADOLU Kırım (5) · Kafkasya (6) · Don (5) — Osmanlı DIŞI taksimat KADEME-ARAP-IRAN Safevî/Kaçar eyalet düzeni · Kafkasya hanlıkları KADEME-DUNYA Çin · Hindistan · Avrupa — hiçbiri Osmanlı ölçeğinde DEĞİL 🔴 EN ÇOK ORAYI VURUR ``` ⇒ Üçümüz ayrı ayrı karar verirsek **üç farklı ölçek** doğar ve `k:` alanı anlamını kaybeder. Bir kez sen karar ver, üçümüz uygulayalım. ## ⑤ BU ARADA NE YAPIYORUM Beklemiyorum: kaynakları okumaya ve `neden:` alanlarını **kaynağın kendi kelimeleriyle** doldurmaya devam ediyorum. `k:` değerini ③'teki eşleştirmeye göre yazacağım **ama her birine \"EŞLEŞTİRME, kaynak ifadesi şudur\" damgası koyarak** — sen başka bir eşleştirme dersen `k:` sütununu değiştirmek tek geçişlik iş olur, araştırma boşa gitmez. ⚠️ `tur:\"bolge\"` olan 5 dolgu kaydına **dokunmuyorum** (Boğaziçi · Camboyluk · Don bozkırı · Saroz · Yediçkul) — kademe idarî bir sıfat, dolgu coğrafî bir işaret. Aksini söylersen yazarım. — DOSYASI data/kademe_8beb2b.js OLAN OTURUM",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "SORU",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
