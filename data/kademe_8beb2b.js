@@ -124,6 +124,61 @@ window.KADEME_YAMA = [
 {ad:"Or Kapı (Ferahkirman)", k:4, kaynak:"kirim (TDV) — dar slug `or-kapi` ve `perekop` İKİSİ DE 302 ölü",
  neden:"TDV `kirim`: 'Orkapı 945'e (1538) doğru Sâhib Giray Han tarafından tahkim edildi, Kırım yarımadasına giriş yeri olan bu dar berzahın uç kısmında FERAHKİRMAN adlı bir KALE yaptırıldı'. Kaynağın verdiği mertebe KALE ⇒ k:4. Veliaht makamı olduğuna dair ifade yalnız ÖZETTE geçti, maddenin cümlesi olarak doğrulanamadı; ona dayanıp yükseltmedim."},
 
+// ───────── DON / KUBAN — KAYNAK SUSUYOR, `k:` YAZILMADI ─────────
+//
+// 🔴 BU BEŞ KAYIT BİR TIKANMA DEĞİL, BİR SONUÇTUR.
+//   Şartname (`KADEME-KD.md §④③`): *"Kaynak SUSUYORSA k: YAZMA.
+//   `neden:"kaynak susuyor"` yaz. 'Şehirdir, herhâlde 3. kademedir'
+//   demek KOLAYDIR ve UYDURMADIR."*
+//   ⇒ Beşi de kaydediliyor ki bir sonraki oturum **sıfırdan aramasın**;
+//     neyin denendiği ve niçin yetmediği her kayıtta yazılı.
+//
+// ═══ TDV KAPISI — ÜÇ AŞAMA DA DENENDİ, HÜKÜM HTTP KODUYLA VERİLDİ ═══
+// ① dar slug   rostov · taganrog · kuban · yekaterinodar · zaporojye ·
+//              don-kazaklari · cerkes  → YEDİSİ DE 302
+// ② etnonim    kazaklar 200 CANLI ama **YANLIŞ HALK**: gövdesi
+//              "Orta Asya'da Hazar denizinden Çin sınırına kadar uzanan
+//               topraklarda yaşayan bir Türk topluluğu" — Kazak TÜRKLERİ,
+//              Kozaklarla (Cossack) ilgisi YOK. `§4②` tuzağının
+//              ETNONİM alt-sınıfı.
+// ③ kapsayıcı  azak (200) → "Don Kazakları her zaman Azak'ı ele geçirmek
+//              hayali ile yaşamışlardır" ama **Çerkask ve Taganrog için
+//              bilgi VERİLMİYOR**
+//              rusya (200) → beşinin HİÇBİRİNİ idarî kademeyle anmıyor;
+//              "On bir eyalete, elli vilâyete" bölündüğünü söylüyor ama
+//              güneye özgü birim ve merkez ADLANDIRMIYOR
+//
+// ⚠️ HÜKMÜN DAYANAĞI HTTP KODUDUR, BOYUT DEĞİL. Ölü slug boş sayfa
+//   döndürmez — arama sayfasına gider ve o sayfa doludur. Bu dosyadaki
+//   her "ölü" hükmü **302**'ye dayanıyor; bayt/boyut eşiğine dayanan
+//   hüküm SIFIR. (Bir kardeş oturum boyut eşiği yüzünden sahte bir "yok"
+//   üretmişti — M-0439 ⑤; bu dosya o deliğe düşmüyor.)
+//
+// ═══ TDV DIŞI — ERİŞİLEMEDİ, ve bu AYRI bir kova ═══
+//   Brill "Itelmen-Kamchadal Complex"  HTTP 403
+//   Encyclopaedia Britannica            HTTP 403 — ve M-0391'den sonra
+//                                       zaten 🟡 SARI: tek dayanak OLAMAZ
+// 📌 `SABLON §④`: *"aradım, YOK"* ile *"aradım, ERİŞEMEDİM"* ayrı kovalar
+//   ve ikincisi **tekrar denenebilir.** Bu beş kayıt için:
+//     TDV tarafı  → "kaynak SUSUYOR"     (kapandı, o tanecikte kapsamıyor)
+//     akademik    → "ERİŞİLEMEDİ"        (AÇIK, tekrar denenebilir)
+//   İkisi aynı kayıtta ve **ayrı ayrı** yazılı; birbirine karıştırmıyorum.
+
+{ad:"Rostov (Don)", kaynak:"bulunamadı — TDV kapsamıyor (dar slug `rostov` 302; kapsayıcı `rusya` ve `azak` okundu, idarî kademe vermiyor)",
+ neden:"kaynak susuyor — TDV üç aşamada da (dar slug · etnonim · kapsayıcı madde) idarî kademe VERMİYOR. `rusya` maddesi şehri yalnız nüfus listesinde anıyor ('Rostovna-Donu'), idarî mertebe YOK. Akademik kaynağa ERİŞİLEMEDİ (Britannica 403 ve zaten 🟡 sarı). k: YAZILMADI."},
+
+{ad:"Taganrog", kaynak:"bulunamadı — TDV kapsamıyor (dar slug `taganrog` 302; kapsayıcı `azak` okundu, adı HİÇ geçmiyor)",
+ neden:"kaynak susuyor — `azak` maddesi Don ağzını anlatıyor ama Taganrog adını HİÇ anmıyor; `rusya` da anmıyor. Osmanlı-Rus mücadelesinin içinde kurulmuş bir Rus deniz üssü, ve TDV bu taneciği kapsamıyor. k: YAZILMADI."},
+
+{ad:"Çerkask (Razdory)", kaynak:"bulunamadı — TDV kapsamıyor (`don-kazaklari` 302; `kazaklar` 200 ama YANLIŞ HALK; `azak` ve `rusya` okundu)",
+ neden:"kaynak susuyor — Don Kazak Ordusu'nun merkezi olduğu biliniyor ama TDV bunu SÖYLEMİYOR: `azak` yalnız 'Don Kazakları her zaman Azak'ı ele geçirmek hayali ile yaşamışlardır' diyor, merkez ADI yok; `rusya` yalnız 'Stenko Rasin' isyanını anıyor. ⚠️ Ve `kazaklar` slug'ı CANLI ama madde Orta Asya Kazak TÜRKLERİ hakkında — Kozaklarla ilgisi yok. k: YAZILMADI."},
+
+{ad:"Zaporojye Seçi", kaynak:"bulunamadı — TDV kapsamıyor (`zaporojye` 302; `rusya` okundu, Seç adını anmıyor)",
+ neden:"kaynak susuyor — `rusya` maddesi 'Saporog (Dinyeper, Özü) Kazakları' diyerek halkı anıyor ama SEÇ'i bir yerleşim/merkez olarak HİÇ anmıyor. Kendi siyasî yapısının merkezi olduğu akademik literatürde geçiyor fakat o kaynaklara ERİŞİLEMEDİ (403) ve Britannica 🟡 sarı, tek dayanak olamaz. k: YAZILMADI."},
+
+{ad:"Kuban (Yekaterinodar)", kaynak:"bulunamadı — TDV kapsamıyor (`kuban` · `yekaterinodar` · `kuban-nehri` üçü de 302; `rusya` okundu, ikisini de anmıyor)",
+ neden:"kaynak susuyor — TDV'de ne 'Kuban' ne 'Yekaterinodar' adı geçiyor. Karadeniz Kazak Ordusu'nun merkezi olduğu biliniyor ama TDV bu taneciği kapsamıyor ve akademik kaynağa ERİŞİLEMEDİ. k: YAZILMADI."},
+
 ];
 
 // ═══════════ YAZILMAYANLAR — ve her biri NİÇİN ═══════════
