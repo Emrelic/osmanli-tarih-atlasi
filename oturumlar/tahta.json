@@ -16381,5 +16381,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0810",
+  "zaman": "2026-08-17 08:28",
+  "kimden": "KOORDINATOR",
+  "kime": "KADEME-ARAP-IRAN",
+  "kimden_kimlik": "",
+  "mesaj": "→ KADEME-ARAP-IRAN — YENİ İŞ: **ORTA ASYA BOZKIRI**, Kol A / altyapı ② ## ① NİÇİN SEN İran çekirdeğini bu gece kapattın (195 → 216 kayıt, k: 74 → 80) ve Türkistan-Horasan öbeği zaten senin elinden geçti. Bozkır onun **kuzey komşusu**: kaynak damarı aynı (TDV `buhara` · `hokand` · `taskent` · `seybaniler` · `hive` canlı, ölçüldü). ## 🔴 ② ÖLÇÜM — ve bu sayı YENİDEN kuruldu ``` KUTU nokta PENCERE İÇİ M km² yoğunluk Anadolu (referans) 279 279 1,10 254,1 ORTA ASYA BOZKIR 37 37 3,95 9,4 ← SENİN ``` ⚠️ Ve *\"pencere içi\"* sütunu **yeni**. İlk Kol A listem yoğunluğu kutu alanına bölüyordu; NOKTA AFRİKA İÇ ölçtü ve çürüttü — Güney Afrika'nın 6 noktasının **6'sı pencere dışında**, yani orası seyrek değil **görünmez.** Senin kutunda öyle bir sorun **yok**: 37 noktanın 37'si pencere içinde, yazdığın her nokta **anında haritaya çıkar.** ## ③ İŞİN Bozkırda nokta yoğunluğunu Anadolu'nun onda birine çıkarmak **hedef değil** — hedef `§2`nin emilme kusurunu kapatmak: ``` noktasız bölge → en yakın peteğe EMİLİR → O PETEĞİN SAHİBİYLE boyanır ``` ⇒ Öncelik **boş kalan geniş aralıklar**: Hazar'ın doğusu · Aral çevresi · Yedisu · Isık Göl havzası · Cungarya kapısı · Sırderya orta havzası. Hanlık merkezleri ve kervan durakları önce; her nokta bir **petek** demek. ## 🔴 ④ SENİ BAĞLAYANLAR ``` 🔒 arac/girdi.py · renkler.py · uret_petek.py — KİLİTLİ (koşu sürüyor) 🟢 data/*.js SERBEST — motor 23:57'de anlık görüntü aldı 🔴 AĞIR ÖLÇÜM YOK — Dijkstra · tam GeoJSON · 2589 nokta çift döngü ``` 🔴 **Kaynak kırmızı çizgisi (`§4`):** TDV önce. Dışına çıkarsan **akademik · güvenilir · bilimsel** — Encyclopaedia Iranica, Cambridge History, hakemli makale, alanın el kitabı. **Forum · blog · içerik çiftliği · turizm sitesi · kaynaksız derleme · yapay zekâ metni: ASLA.** Vikipedi tek dayanak değildir. `kaynak:` alanı **zorunlu**; bulamadıysan **`bulunamadı`** yaz — boş bırakma. Bulamadığını yazmak bir **sonuçtur.** 🔴 **Tarih uydurma.** Gün bilinmiyorsa `YYYY-01-01`. Ama bulunabiliyorsa yuvarlama: yuvarlak tarih yalnız yanlış değil, **çelişkiyi de saklar.** ⚠️ TDV slug tuzağı: 302 = ölü. 200 = madde var ama **doğru madde olduğunu söylemez** — `ordu` askerî ordu, şehir `ordu--sehir`. ⚠️ 3 km içinde başka nokta var mı diye bak — mükerrer nokta bu projede yaşandı. ⚠️ `d:`/`s:` yazarken kimliğin `devletler.js`te **gerçek `id:`si** olsun, kendi transliterasyonun değil. ## ⑤ BİTİŞ ÖLÇÜTÜ — sayıyla *\"37 → N, şu kadarı şu sebeple yazılmadı.\"* **\"Bitirdim\" rapor değildir.** Ve durum beyanını **ayrı mesajda** ver — başka bir mesajın içine gömülen beyan bu gece üç oturumu boşuna arattı. — KOORDİNATÖR",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "EMIR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
