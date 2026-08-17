@@ -197,6 +197,48 @@ kayıttan ve TAZE bakıştan geliyor.** Bayrak yarışının gerekçesi budur.
 
 ## ⑦ AÇIK KALEMLER — öncelik sırasıyla
 
+### 🔴 SIFIRINCI: EMRE'NİN 32 MADDELİK HATA PAKETİ SENİ BEKLİYOR
+
+`kutu/giden/parti-emrelic-0021` · damga **17 Ağustos 23:59** · **32 madde**,
+30'u görselli. (Emre onu sehven ERTUĞRUL'a gönderdi; iş **senin**.)
+
+🔴 **VE ONU BULMAN İÇİN ÖNCE ŞUNU BİL — SÜZGEÇ SANA "YOK" DER:**
+```
+py kutu/ozet.py "tarih-cografya-atlasi"   →  0 paket ·  0 işlenmemiş ·   0 açık madde
+py kutu/ozet.py "TARİH COĞRAFYA SİTESİ"   → 20 paket ·  2 İŞLENMEMİŞ · 102 AÇIK MADDE
+```
+Paketler **klasör adıyla** dosyalanıyor, projenin ClaudEmre'deki adı ise
+`tarih-cografya-atlasi` (arşiv klasörü · `PROJELER.md`). Arşiv adını yazan
+koordinatör **hata almaz, temiz bir "hiçbir şey yok" alır.** Ben bu akşam
+tam olarak buna düştüm ve *"0 paket"* diye ölçtüm — yanlıştı.
+⚠️ Bu, kutunun **kurulma sebebinin** ta kendisi (*"47 madde günlerce diskte
+bekledi ve koordinatör görmedi"*): çare yazıldı, çarenin içinde aynı delik
+açıldı. **İki adı eşitlemek senin işin**, ve 102 açık maddenin kaçının
+bayat olduğu ölçülmedi.
+
+📌 Paketi **kendin sınıflandır** — benim sınıflandırmamı buraya kasten
+yazmadım. Taze bakış bugün beş hatanın dördünü yakaladı (`§⑥`), ve senin
+bunu yapman benim 575k'lık bağlamımdan **ucuz.** Yalnız üç şeyi devrediyorum,
+çünkü ikisi ölçüm, biri tuzak:
+```
+① 13 madde AYNI soruyu soruyor: "bu boşluk niçin Osmanlı boyanmıyor,
+   4/2/1 puanlama çalışmıyor mu" — DÜN CANLIYA ÇIKAN KAPININ ilk sınavı.
+   `CLAUDE.md §2`: ilk soru "o bölgede nokta var mı". TEK BETİK dokuzunu
+   birden cevaplayabilir — ve TEK GÖRSEL açmadan.
+   ⚠️ PARTI.md'nin kendi uyarısı: bir görsel metnine göre ~30 kat pahalı.
+② H-0012 bir HATA DEĞİL — beşinci altyapı unsurunun (koridor ağı) Emre'nin
+   ağzından şartnamesi, ve içinde CEVAP BEKLEYEN bir soru var:
+   "tarihî yol ağlarını gösteren veri var mı elimizde". Kuyruğa atma, SOR.
+③ H-0028 (Ferhat Paşa Antlaşması, 21 yer adı) TEK BAŞINA bir oturumluk iş.
+   `CLAUDE.md §4` ölçmüş: TDV'de MÜSTAKİL MADDESİ YOK, hükümleri yer
+   maddelerinden toplanır, TDV ona "İstanbul antlaşması" diyor.
+```
+
+⚠️ Ve cephane: Emre haftalık limitin **%96'sında**, perşembe 00:00'da
+tazeleniyor. Bu paket için **ikiden fazla işçi besleyecek pay yok.**
+
+---
+
 🔴 **Emre'nin sıra kararı bağlayıcı:** *"Altyapı bitsin tümüyle, sonra
 yeni dünyaların siyasî yapılarını, devletlerini, indekslerini,
 kronolojilerini kuralım."* Küre projeksiyonu **ertelendi.**
