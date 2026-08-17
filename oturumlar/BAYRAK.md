@@ -32,48 +32,53 @@ sunar, uygularsın.
 
 ---
 
-## ② ŞU AN NE OLUYOR — devrettiğim canlı iş
+## ② KOŞU BİTTİ VE YAYINLANDI — devraldığında canlı iş YOK
 
-### 🔴 BEŞİNCİ ÜRETİM KOŞUSU ÇALIŞIYOR
 ```
-süreç      py arac/uret_petek.py    (17 Ağu 09:48'de devlet 80/392)
-log        kosu_puanlama.log
-başlangıç  16 Ağu 23:57:16
-⚠️ makine gece UYUDU: 497 dk duvar / 26 dk işlemci oranı görülürse
-   koşu ÖLMEMİŞTİR, uyumuştur. Motor bunu kendi satırıyla söylüyor:
-   "⚠️ duvar ≫ işlemci: UYKU ya da REKABET"
+🟢 BEŞİNCİ KOŞU BİTTİ    17 Ağu 11:05 · 11 sa 07 dk duvar (makine uyudu)
+🟢 YAYIN ÇIKTI           r2576 · commit 68ac2ab · push ✓
+   donemler.js 25,1 MB · 513 dönem · 2589 nokta · 71 bölge
+🔓 KİLİT KALKTI          arac/*.py yazılabilir
 ```
 
-**Bu koşu Emre'nin ④. altyapı unsurunu ilk kez sınıyor** — puanlama
-kapısı: *"burası kimsenin mi?"* · `0-200 km = 4 puan · 200-300 = 2 ·
-300-400 = 1 · eşik 4` · puanlar **aynı devletin** merkezlerinden toplanır.
-
-🔒 **KİLİT SÜRÜYOR:** `arac/girdi.py` · `arac/renkler.py` ·
-`arac/uret_petek.py` — üçü `motor_izi` ile parmak izli, koşu sırasında
-birine yazmak **koşuyu öldürür.** `data/*.js` **serbest** (anlık görüntü
-23:57'de alındı).
-
-### KOŞU BİTİNCE — sırayla
-```bash
-py denetim/dogrula_puanlama.py
+**④. altyapı unsuru CANLI:** puanlama kapısı — *"burası kimsenin mi?"* ·
+`0-200 km = 4 puan · 200-300 = 2 · 300-400 = 1 · eşik 4` · puanlar
+**aynı devletin** merkezlerinden toplanır.
 ```
-Bu betik **koşudan önce damgalanmış** öngörünün
-(`denetim/PUANLAMA-ONGORU.md`, commit `61a3469`) sekiz kalemini ölçer.
-Ayrıştırıcıları iki yönde sınandı (8/8). Taban ölçüm
-`denetim/olcu_TABAN.json`'da (koşu öncesi `URETIM_OLCU`).
+kesilen 355,6 M km² (gövde-toplamı) · tamamen boşalan gövde-dönemi 0
+yabancı toplam  386,5 M → 344,0 M   (9 kesitte -42,47 M, %11)
+Osmanlı 9/9 kesitte DEĞİŞMEDİ
+```
 
-🔴 **BEŞ KALEM MAZERETSİZ. Biri çürürse YAYIN DURUR** — harita değil
-**kapı** düzeltilir. En kritiği:
+### Öngörünün sekiz kalemi ölçüldü — beş mazeretsizin beşi de TUTTU
+`denetim/PUANLAMA-ONGORU.md` (damga `61a3469`) ·
+ölçüm: `py denetim/dogrula_puanlama.py`
 
-> ⑤ **A1 TUZAĞI** — kapının kestiği alan geri veriliyor mu?
-> Vakası: `A1 tavanı` koşusunda tavan doğru hesapladı, sonra **yetim yüz**
-> mantığı toprağı en yakın komşuya **geri verdi** ve düzeltme kendini
-> iptal etti. *"Bir tavan alanı ARTIRAMAZ."* Kusur ne tavandaydı ne
-> yetim-yüzde — **ikisinin arasındaydı.**
+🔴 **AMA DOĞRULAMA ALETİ İLK KOŞUSUNDA YANILDI VE YAYINI DURDURACAKTI.**
+⑤'i *"kesilen ÷ gerçek düşüş"* diye bölüyordu, %88 geri verilmiş
+gösterdi. İki sayı **aynı evrende değil**:
+```
+kesilen  → her (devlet × dönem) GÖVDESİ için birikiyor (3344 gövde)
+düşüş    → yalnız 9 KESİT tarihinden ölçülüyor
+```
+⇒ *"Doğru aleti yanlış evrenle koşturmak"* — ve bu sefer yanılan
+**ölçen aletin kendisiydi.** A1'in asıl sorusu başka ve ölçülebilir:
+**kapının etkisi çıktıya yansıdı mı?** Yansıdı. Oran artık
+hesaplanmıyor.
 
-Betik temiz çıkarsa yayın: `uret_devirler.py` → `renk_olc.py` →
-`denetle_yayin.py` → `surum_damgala.py` → commit + push. Yayın gecikmesi
-~40-60 sn.
+📌 Ve ③ (*"tamamen boşalan: 0"*, öngörü 50-400) bir kusur **değil,
+yapısal zorunluluk**: bir devletin kendi noktası kendine 0 km uzakta ve
+`0-200 km = 4 puan` ⇒ eşiği tek başına geçer. **Noktası olan bir gövde
+hiçbir zaman tamamen boşalamaz.**
+
+### ⚠️ YAYIN KAPISI SARI — sekiz dosya "üretiliyor ama çizilmiyor"
+Üçü (`yerlesimler_amerika2` · `_hindistan` · `_4ff22b`) **`girdi.py`ye
+hiç bağlanmamış**; koşu onlarsız üretildi. Şimdi bağlamak yayını **bayat**
+yapar (çıktı 48 dosyalık girdiden, `girdi.py` 51 derdi).
+🔴 **Ve bir vaat bayatladı:** ikisinde *"5. koşuda bağlanacak"* yazıyordu;
+beşinci koşu buydu ve bağlanmadılar. Kayıt düzeltildi.
+⇒ **6. KOŞUNUN İLK İŞİ:** üçünü `girdi.py`ye bağla, sonra koş.
+Kalan beşi ARAYÜZ bekliyor (`index.html` `<script>` satırı).
 
 ---
 
@@ -197,9 +202,9 @@ yeni dünyaların siyasî yapılarını, devletlerini, indekslerini,
 kronolojilerini kuralım."* Küre projeksiyonu **ertelendi.**
 
 ```
-1  KOŞU + DOĞRULAMA + YAYIN            ← şu an, ~50 istek
-2  ④ puanlama sonucunun hükmü           doğrulama çıktısına bağlı
-3  ② Kol A nokta yoğunluğu (~1400 nokta)
+1  🔴 ÜÇ DOSYAYI girdi.py'ye BAĞLA      6. koşunun İLK işi, yukarıda
+     yerlesimler_amerika2 · _hindistan · _4ff22b
+2  ② Kol A nokta yoğunluğu (~1400 nokta)
      PENCERE-İÇİ sıra (Anadolu 254,1 referans):
      Kongo 3,1 · Batı Afrika 3,5 · Doğu Sibirya 3,7 ·
      Batı Sibirya 5,7 · Orta Asya 9,4 · GDAsya 10,8
