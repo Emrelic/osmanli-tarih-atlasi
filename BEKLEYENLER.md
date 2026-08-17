@@ -1,6 +1,6 @@
 # BEKLEYENLER — Emre'nin kararını bekleyen kalemler
 
-> Son güncelleme: **15 Ağustos 2026**
+> Son güncelleme: **17 Ağustos 2026**
 > ⚠️ Bunlar sistemin **yapamayacağı** kararlar. Cevaplanmadan ilgili iş ilerlemez.
 
 ⚠️ **BU DOSYANIN BAŞLIKLARI `arac/uret_bekleyenler.py` TARAFINDAN AYRIŞTIRILIYOR.**
@@ -12,6 +12,22 @@ yerine gürültülü durdu (*"bayat tablo, yanlış tablodan kötüdür"*).
 ---
 
 ## 🔴 KARAR BEKLEYENLER
+
+### 🔴 17 AĞUSTOS — TEK KALEM, VE SİSTEMİN YAPAMAYACAĞI İŞ
+
+| # | BEKLENEN | NİÇİN SENDE | HAZIR OLAN |
+|---|---|---|---|
+| ⑪ | **OSMAN GAZİ koordinatör oturumunu aç** — Opus, dizin: proje kökü. Açılınca ona söylenecek tek şey: *"`oturumlar/BAYRAK.md`yi oku."* | Oturum açmak ve model seçmek **yalnız senin elinde** — sistem yapamıyor (`F18`) | devir notu `oturumlar/BAYRAK.md` · hanedan kanunu `oturumlar/DEVIR-KURALI.md` · ikisi de commit'li (`246c6e6`) |
+
+🟢 **Bekleyen başka karar YOK.** ERTUĞRUL oturumu bayrağı doğal sınırda
+bıraktı: koşu bitti, doğrulandı, **r2576 yayınlandı** (`68ac2ab`), canlı iş
+yok, girdi kilidi yok, cevapsız söz yok.
+
+📌 Ve devrin sebebi ölçülmüştü, tercih değildi: bu oturumun bağlamı istek
+başına **575k**'ya çıkmıştı; `DEVIR-KURALI.md`nin mutlak tavanı **250k**.
+Osman Gazi'nin ilk işi `girdi.py`ye üç dosya bağlamak (T-41).
+
+---
 
 ### 🟢 15 AĞUSTOS — ÜÇ KARAR VERİLDİ
 
