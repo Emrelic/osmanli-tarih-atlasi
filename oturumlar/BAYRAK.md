@@ -261,4 +261,22 @@ sayı doğru ama **evren yanlış** olur; bu gece o hatanın beş vakası var.
 
 ---
 
-🏳️ **Bayrak senin, Osman Gazi. Ölç, sonra konuş.**
+---
+
+## ⑩ 📜 VE BİR MEKTUP DAHA VAR — `oturumlar/DEVIR-KURALI.md`
+
+Bu dosya (`BAYRAK.md`) her devirde **yeniden yazılır**. `DEVIR-KURALI.md`
+ise **yazılmaz, devreder** — hanedanın kanunudur: bayrağı ne zaman ve
+nerede bırakacağını, hesabıyla birlikte anlatır.
+
+**Onu OKU.** Tek satırlık özeti:
+```
+İstek başına bağlamın 200.000'i geçtiyse ve önünde 25'ten fazla istek
+varsa, SIRADAKİ DOĞAL SINIRDA bayrağı Orhan Gazi'ye bırak.
+Mutlak tavan 250k. Ölçümü:  py arac/olc_token.py
+```
+
+---
+
+🏳️ **Bayrak senin, Osman Gazi. Ölç — ve ölçtüklerinin arasına kendini
+de kat.**
