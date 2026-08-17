@@ -286,18 +286,65 @@ diyor — bu *"araştırılmadı"* mı *"yok"* mu, henüz bakılmadı.
 
 ---
 
-## DURUM ÖZETİ — 16 Ağustos 2026, dördüncü koşu sırasında
+## DURUM ÖZETİ — 17 Ağustos 2026, BEŞİNCİ koşu sırasında
 
 | # | unsur | durum | kalan |
 |---|---|---|---|
 | ① | topoğrafya | 🟢 1. derece TAM · 2. derecede **plato·bataklık·gorge ENGEL, çöl tavan, ova KASTEN dışarıda** | yalnız **orman** (ve o da anakronizm riski taşıyor) |
-| ② | yerleşimler | 🟡 2589 / ~4000 · `k:` 1220 | ~1400 nokta |
-| ③ | bölgeler topoğrafyaya yaslanır | 🟢 motor kurulu, İLK KEZ koşuyor | koşunun doğrulanması |
-| ④ | doğum/ölüm + boş arazi kuralı | 🟡 `kur:`/`bit:` var · **puanlama KARARI YOK** | Emre'nin (a)/(b) kararı |
+| ② | yerleşimler | 🟡 2589 / ~4000 · `k:` 1220 | ~1400 nokta — **sıra YENİDEN kuruldu, aşağıya bak** |
+| ③ | bölgeler topoğrafyaya yaslanır | 🟢 motor kurulu, 5. koşuda 71 bölge üretti (336 KB) | koşunun doğrulanması |
+| ④ | doğum/ölüm + boş arazi kuralı | 🟢 **KARAR VERİLDİ ve KOD KOŞUYOR** — puanlama kapısı 5. koşuda İLK KEZ | koşu sonrası 8 kalemlik doğrulama |
 | ⑤ | koridor ağı | 🔴 106 düğüm · veride 2 parça ama **EKRANDA 17** | **26 düğüm koordinatı** (43 kenarı açar) + dünya ağı |
 
-⚠️ **Hiçbiri "bitti" değil.** En yakın olan ③, ve o da bu koşunun
-sonucuna bağlı.
+⚠️ **Hiçbiri "bitti" değil.** ③ ve ④ bu koşunun sonucuna bağlı; ⑤ en geride.
+
+### 🔴 ②'NİN SIRASI YENİDEN KURULDU — ve eski sıralama YANLIŞTI
+
+Koordinatör Kol A'yı *"en seyrek bölge önce"* diye sıralamıştı ve
+**Güney Afrika'yı başa** koymuştu (yoğunluk 1,6). NOKTA AFRİKA İÇ ölçtü
+ve çürüttü:
+
+```
+Güney Afrika   6 nokta · PENCERE İÇİ 0 · görünür yoğunluk 0,0
+pencere        box(-12,-11,146,82) ∪ box(-25,60,-12,82)
+               Güney Afrika'nın tamamı -15'in altında
+```
+
+⇒ Orası **seyrek değil GÖRÜNMEZ.** Ve kanıtı bir tablo değil, o oturumun
+kendi gecesiydi: Kap · Büyük Zimbabve · Mapungubwe · Ulundi · Transvaal ·
+Oranj — **altısını da yazdı, altısı da çizilmiyor.**
+
+🔴 **Kusur ölçümde değil EVRENDEYDİ.** Yoğunluk kutu alanına bölünüyordu,
+**pencereye** değil. Aynı sayı iki farklı soruya cevap veriyordu:
+```
+"kaç nokta düşüyor"    → 1,6   ← sorulan
+"kaç nokta GÖRÜNÜYOR"  → 0,0   ← sorulması gereken
+```
+
+**PENCERE-İÇİ yoğunlukla yeniden ölçülmüş sıra** (Anadolu 254,1 = referans):
+```
+Kongo havzası      3,1   (7 görünür nokta / 2,23 M km²)
+Batı Afrika        3,5   (20)
+Doğu Sibirya       3,7   (19)
+Batı Sibirya       5,7   (16)
+Orta Asya bozkır   9,4   (37)
+Güneydoğu Asya    10,8   (191)
+Hindistan içi     26,7   (64)
+Doğu Afrika       31,3   (195)
+İskandinavya      35,5   (64)
+İber              63,8   (63)
+🔴 Güney Afrika    0,0   PENCERE DIŞI — nokta yazmak haritayı DEĞİŞTİRMEZ
+```
+
+⚠️ **Güney Afrika için TERS KİLİT var** ve karar verildi: `CLAUDE.md §6`
+*"nokta yoğunluğu sağlanmadan `BOLGE` kutusunu açma"* der; ama pencere
+kapalı olduğu için nokta yazmanın da görünür faydası yok. ⇒ **Pencere
+ŞİMDİLİK AÇILMIYOR**, çünkü Emre'nin sırası *"altyapı bitsin tümüyle,
+sonra yeni dünyalar"* diyor. Güney Afrika o sıraya girer.
+
+📌 Ve ders `§11`in *"ölçüm doğru, evren dar"* ailesinin **pencere**
+yüzü: *"iş yapıp haritada hiçbir şey göstermemek, işi bitmemiş
+göstermenin en pahalı yoludur."*
 
 ---
 
