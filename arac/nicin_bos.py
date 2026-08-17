@@ -38,8 +38,11 @@ import os
 import re
 import sys
 
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8",
-                              errors="replace", line_buffering=True)
+# 🔴 stdout SARMALANMAZ, YENİDEN AYARLANIR. İki alet de sarmalayınca ikinci
+# sarmalayıcı birincinin tamponunu KAPATIYOR — ölçüldü, `olc_ekleyici.py`
+# bu dosyayı import edince "ValueError: I/O operation on closed file".
+# `reconfigure` yeni nesne yaratmaz, aynı akışı ayarlar.
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(KOK, "arac"))
 
