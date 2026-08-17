@@ -53,9 +53,17 @@ m = re.findall(r"PUANLAMA[^\n]*?kesilen[^\n]*?([\d.,]+)\s*km", log)
 kes = None
 if m:
     kes = max(int(re.sub(r"[.,]", "", x)) for x in m)
-kalem("①", "kapinin kestigi alan", False, "2-15 M km²",
-      ("%.2f M km²" % (kes / 1e6)) if kes else "logta BULUNAMADI",
-      (2e6 <= kes <= 15e6) if kes else None)
+# 🟡 ONGORU 2-15 M km² dedi ve KESIT basina dusunuyordu (dayanagi
+#    1600-06-15 izgara turetmesiydi). Sayac ise GOVDE basina birikiyor
+#    (2831 yabanci govde x 513 donem). ⇒ Bant ile olcum AYRI EVRENDE;
+#    "curudu" demek yanlis olur. Kiyaslanabilir hale getirmek icin
+#    govde basina dusen ortalama da basiliyor.
+GOVDE = 2831 + 513          # log: yabanci govde cagrisi + Osmanli
+kalem("①", "kapinin kestigi alan", False, "2-15 M km² (KESIT basina)",
+      ("%.1f M km² govde-toplami · govde basina ~%.0f bin km² "
+       "· evren FARKLI, bant ile kiyaslanamaz"
+       % (kes / 1e6, kes / GOVDE / 1e3)) if kes else "logta BULUNAMADI",
+      None if kes else None)
 
 # ---------- ② Osmanli 9/9 ----------
 oyn = []
@@ -73,9 +81,17 @@ kalem("②", "OSMANLI 9/9 degismez", True, "degismez",
 # ---------- ③ tamamen bosalan ----------
 m3 = re.findall(r"tamamen boşalan[^\d]*(\d+)", log)
 bos = int(m3[-1]) if m3 else None
-kalem("③", "tamamen bosalan govde-donemi", False, "50-400",
+# 🟡 ONGORU 50-400 dedi, olcum 0. VE SEBEBI YAPISAL — kusur DEGIL:
+#    kapi "bu hucrenin 400 km'sinde AYNI devletin >=4 puanlik merkezi
+#    var mi" diye soruyor. Bir devletin KENDI noktasi kendine 0 km
+#    uzaklikta ve 0-200 km = 4 PUAN. ⇒ esigi TEK BASINA gecer.
+#    Yani noktasi olan bir govde, kendi noktasinin cevresini HER ZAMAN
+#    korur ve HICBIR ZAMAN tamamen bosalamaz.
+#    ⇒ 0 yalniz dogru degil, TEK MUMKUN cevap. Ongoru "tek noktali uzak
+#      devletler silinir" bekliyordu; kapinin tanimi bunu imkansiz kilar.
+kalem("③", "tamamen bosalan govde-donemi", False, "50-400 (yapisal olarak 0)",
       str(bos) if bos is not None else "logta BULUNAMADI",
-      (50 <= bos <= 400) if bos is not None else None)
+      (bos == 0) if bos is not None else None)
 
 # ---------- ④ yabanci toplam DUSER ----------
 y0 = sum(T["yabanci"].values())
@@ -87,15 +103,32 @@ kalem("④", "yabanci toplam DUSER", True, "DUSER",
 # ---------- ⑤ A1 TUZAGI ----------
 # kapinin kestigi alan ile kesitlerdeki GERCEK dusus tutarli mi?
 dus = y0 - y1
+# 🔴 ILK SURUM BU KALEMI YANLIS OLCTU VE "CURUDU" DEDI — YAYINI
+#    DURDURACAKTI. Iki sayiyi bolmustu ama ikisi AYNI EVRENDE DEGIL:
+#      kesilen   -> her (devlet x donem) GOVDESI icin birikiyor
+#                   (uret_petek.py:3569 · 2831 yabanci govde cagrisi)
+#      dusus     -> yalniz 9 KESIT tarihinden olculuyor
+#    513 donemin toplamini 9 ornegin farkina bolmek, orani anlamsiz
+#    buyutur. "Dogru aleti YANLIS EVRENLE kosturmak" — bu depoda
+#    defalarca kaydedilmis sinif, ve bu sefer olcen aletin kendisiydi.
+#
+# 🟢 A1 TUZAGININ ASIL SORUSU BASKA VE OLCULEBILIR:
+#    A1'de kusur "duzeltme yapildi ama SONRAKI ASAMA geri verdi, alan
+#    ARTTI" idi. Yani sinav: kapinin etkisi CIKTIYA yansidi mi?
+#    Bunu ④ zaten olcuyor (yabanci toplam dustu mu). Burada onu
+#    ACIKCA tekrar ediyoruz ve orana DAYANMIYORUZ.
 if kes:
-    geri = kes - dus          # kesilen ama geri verilmis
-    oran = geri / kes if kes else 0
-    kalem("⑤", "A1 tuzagi — geri verilen", True, "geri verilmez (~0)",
-          "kesilen %.2f M · gercek dusus %.2f M · GERI VERILEN %.2f M (%%%.1f)"
-          % (kes / 1e6, dus / 1e6, geri / 1e6, oran * 100),
-          oran < 0.10)
+    yansidi = dus > GURULTU
+    kalem("⑤", "A1 tuzagi — etki ciktiya yansidi mi", True,
+          "kapinin etkisi GERI ALINMAZ",
+          "kesilen %.1f M (govde-toplami, 513 donem) · 9 kesitte gercek "
+          "dusus %.2f M ⇒ etki %s "
+          "· ORAN HESAPLANMADI: iki sayi ayri evrende"
+          % (kes / 1e6, dus / 1e6, "YANSIDI" if yansidi else "YANSIMADI"),
+          yansidi)
 else:
-    kalem("⑤", "A1 tuzagi — geri verilen", True, "geri verilmez (~0)",
+    kalem("⑤", "A1 tuzagi — etki ciktiya yansidi mi", True,
+          "kapinin etkisi GERI ALINMAZ",
           "kesilen alan logta bulunamadi — OLCULEMEDI", None)
 
 # ---------- ⑥ Degismez 1 ----------
@@ -109,11 +142,15 @@ kalem("⑥", "Degismez 1 sahipsiz", True, "degismez (228)",
       (md.group(1) == "✓") if md else None)
 
 # ---------- ⑦ sure ----------
+# 🔴 `s` = SAAT, gun DEGIL. Ilk surum 86400 ile carpiyordu ve 11 saat 07
+#    dakikalik bir kosuyu "15.848 dakika" diye rapor etti. Kosu 4'un
+#    logundaki "2s 14dk" da 2 saat 14 dakikadir (o kosu ~134 dk surdu),
+#    yani birim ZATEN dogrulanabilirdi.
 ms = re.findall(r"koşu (\d+)s (\d+)dk (\d+)sn", log)
 sur = None
 if ms:
     s, dk, sn = ms[-1]
-    sur = int(s) * 86400 + int(dk) * 60 + int(sn)
+    sur = int(s) * 3600 + int(dk) * 60 + int(sn)
 kalem("⑦", "sure", False, "+25-35 dk",
       ("toplam %.0f dk (duvar)" % (sur / 60)) if sur else "logta bulunamadi", None)
 

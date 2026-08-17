@@ -817,10 +817,23 @@ def main():
         # baglanirlarsa yerlesim katmaninda NOKTA gorunur ama o noktanin
         # PETEGI olmaz — kullanici sahipsiz bir isaret gorur.
         # 🔴 Anlik goruntu "YAZABILIRSIN" der, "BAGLAYABILIRSIN" demez.
-        "data/yerlesimler_amerika2.js":  "And + K.Amerika ici; kosu 4 BASLADIKTAN "
-                                         "sonra yazildi ⇒ 5. kosuda baglanacak",
-        "data/yerlesimler_hindistan.js": "Hindistan ici; ayni sebep — kosu 4'ten "
-                                         "sonra yazildi ⇒ 5. kosuda baglanacak",
+        # 🔴 VAAT BAYATLADI VE BUNU KAYDEDIYORUM — 17 Agustos 2026.
+        # Asagidaki iki satir "5. kosuda baglanacak" diyordu. BESINCI KOSU
+        # 17 Agu 11:05'te BITTI ve ikisi de BAGLANMADI: girdi.py olculdu,
+        # ucu de (amerika2 · hindistan · 4ff22b) GIRDI_DOSYALARI'nda YOK.
+        # ⇒ Kosu onlarsiz uretildi. Simdi baglamak yayini BAYAT yapar
+        #   (cikti 48 dosyalik girdiden, girdi.py 51 derdi).
+        # 📌 Ve ders: bir BEKLEYEN kaydi "hangi kosuda" diye SIRA yazarsa,
+        #   o sira gelip gectiginde kayit kendi kendini yalanlar. Vaadi
+        #   yazan, vaadin BAYATLADIGINI da yazmali — yoksa bir sonraki
+        #   okuyan onu hala gecerli bir plan saniyor.
+        "data/yerlesimler_amerika2.js":  "And + K.Amerika ici; 5. kosuda "
+                                         "BAGLANAMADI (girdi.py'ye hic girmedi) "
+                                         "⇒ 6. kosunun ILK isi",
+        "data/yerlesimler_hindistan.js": "Hindistan ici; ayni — 5. kosuda "
+                                         "BAGLANAMADI ⇒ 6. kosunun ILK isi",
+        "data/yerlesimler_4ff22b.js":    "Arap-Iran nokta partisi; girdi.py'ye "
+                                         "hic baglanmadi ⇒ 6. kosunun ILK isi",
     }
 
     # 🔴 EMEKLİ ≠ BEKLEYEN. Bekleyen "önkoşul kapanınca BAĞLANACAK" vaadi
