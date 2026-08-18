@@ -1,7 +1,7 @@
 {
   "surum": 1,
   "proje": "Osmanlı Tarih Atlası",
-  "guncelleme": "2026-08-15T15:18",
+  "guncelleme": "2026-08-18T16:02",
   "isler": [
     {
       "id": "T-0001",
@@ -2010,6 +2010,26 @@
       "u": "*",
       "sahip": null,
       "girdi": "2026-08-14T09:48",
+      "basladi": null,
+      "bitti": null,
+      "olcum": null
+    },
+    {
+      "id": "T-0117",
+      "baslik": "COK DILLI YAYIN — atlas anlatilarinin 12+ dile cevrilmesi",
+      "hal": "bekletildi",
+      "kanal": 2,
+      "onem": 1,
+      "irilik": 5,
+      "nicin": "Emre'nin NIYET BEYANI (18 Agustos 2026, oturumdan): altyapi · veri · tasarim tamamlandiktan SONRA. Hedef diller: Ingilizce · Fransizca · Almanca · Rusca · Arapca · Farsca · Italyanca · Ispanyolca · Portekizce · Yunanca · Cince · Hintce. SIRA KAYDI: Emre'nin baglayici sira karari 'altyapi bitsin tumuyle, sonra yeni dunyalarin siyasi yapilarini kuralim' diyor; ceviri ONUN DA sonrasi. BEKLETILDI cunku ERKEN yapilirsa her metin degisikligi 12 kez tekrar cevrilir — ceviri, metin DONDUKTAN sonra ucuzdur. KAPSAM OLCUSU (bugun): 1223 kronoloji maddesi + 431 devlet kunyesi + 1636 devlet kronoloji maddesi + 90 kisi + 123 savas + 62 sehir karti + arayuzun kendi metinleri. ILK ADIM ceviri DEGIL, ALTYAPI: bugun butun metinler koda ve veriye GOMULU (js/app.js icinde Turkce dizeler, data/*.js icinde Turkce alanlar). Once bir dil katmani (anahtar->metin) gerekir; o olmadan ceviri her dosyayi catallamak demektir.",
+      "olcek": "m3",
+      "ust": null,
+      "z": "*",
+      "m": "*",
+      "k": "*",
+      "u": "*",
+      "sahip": null,
+      "girdi": "2026-08-18T15:59",
       "basladi": null,
       "bitti": null,
       "olcum": null
