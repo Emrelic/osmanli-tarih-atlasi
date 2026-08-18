@@ -276,7 +276,15 @@ body {
    çocuğu: sol grup (📜 Kronoloji + sayaç), sağ grup (uçuş onay kutusu ·
    kip · ⚙). Dar ekranda `flex-wrap` sarmalıyor ama her GRUP kendi içinde
    kırılmıyor — "📜 Kronoloji" ve "⚙" hiçbir zaman kırpılmıyor (§⑧①⚠️). */
-#olay-akisi-baslik { display: flex; align-items: baseline; gap: 8px; white-space: nowrap; }
+/* 🔴 EMRE, 18 Ağustos 2026: "kronoloji yazısının ALTINDA 706/1223 başlık
+   yazısı olsun, ORTA KISMI süzgeç butonuna ayıralım."
+   Eskiden başlık ve sayaç YAN YANAYDI (baseline flex) ve süzgeç ayrı bir
+   satırdaydı. Şimdi sol grup DİKEY (başlık üstte, sayaç altında), orta
+   süzgece kalıyor, sağda uçuş grubu. Üç sütun tek satırda. */
+#olay-akisi-baslik {
+  display: flex; flex-direction: column; align-items: flex-start;
+  gap: 1px; white-space: nowrap; flex: 0 0 auto;
+}
 #ucus-grup { display: flex; align-items: center; gap: 6px; flex: 0 0 auto; white-space: nowrap; }
 #ucus-kontrol { display: flex; align-items: center; gap: 3px; cursor: pointer; font-size: 12px; }
 #ucus-kip { font-size: 11px; padding: 1px 4px; }
@@ -1323,11 +1331,25 @@ body {
 /* Konu süzgeci (PLAN-ETIKET §8) — kronoloji listesinin üstünde, KAPALI açılır.
    Varsayılan kapalı: süzgeç bir araç, atlasın kendisi değil; açık dursaydı
    listenin üstünden yedi satır yer alırdı. */
-#konu-suzgec { border-bottom: 1px solid var(--altin); background: rgba(247,241,227,.5); }
+/* 🔴 18 Ağustos 2026 — SÜZGEÇ ARTIK BAŞLIĞIN İÇİNDE, kendi satırında değil.
+   Emre: "konu süzgeci SATIRINI İPTAL edip süzgeci kronoloji yazısının
+   YANINA koymalı." Kutu `#olay-akisi h2`nin orta çocuğu oldu; açılır gövde
+   `position:absolute` çünkü akışta kalsaydı başlığı büyütür ve listeyi
+   aşağı iterdi — yani iptal ettiğimiz satırı geri getirirdi. */
+#konu-suzgec { position: relative; flex: 0 1 auto; min-width: 0; }
 .suzgec-baslik {
-  width: 100%; text-align: left; cursor: pointer;
-  background: none; border: none; padding: 6px 10px;
-  font: 600 12px/1.3 system-ui, sans-serif; color: #4d3a20;
+  width: 100%; text-align: center; cursor: pointer;
+  background: rgba(200,162,74,.14); border: 1px solid #d8c9a3;
+  border-radius: 4px; padding: 3px 8px;
+  font: 600 11px/1.2 system-ui, sans-serif; color: #4d3a20;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+#konu-suzgec.acik .suzgec-baslik { background: rgba(200,162,74,.34); }
+#konu-suzgec .suzgec-govde {
+  position: absolute; top: calc(100% + 3px); left: 0; z-index: 40;
+  min-width: 172px; background: var(--panel-koyu, #f7f1e3);
+  border: 1px solid var(--altin); border-radius: 5px;
+  box-shadow: 0 4px 14px rgba(0,0,0,.22);
 }
 .suzgec-baslik:hover { background: rgba(200,162,74,.18); }
 .suzgec-govde { display: none; padding: 2px 10px 8px; }

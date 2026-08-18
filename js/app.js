@@ -2908,7 +2908,20 @@ function suzgecUrlOku() {
   });
   kutu.appendChild(baslik);
   kutu.appendChild(govde);
-  olayListe.parentNode.insertBefore(kutu, olayListe);
+  // 🔴 EMRE, 18 Ağustos 2026: "kronoloji sütununun üstünde, kronoloji
+  // başlığının altında konu süzgeci SATIRINI İPTAL edip süzgeci kronoloji
+  // yazısının YANINA koymalı. Kronoloji yazısının altında '706/1223 başlık'
+  // yazısı olsun, ORTA KISMI süzgeç butonuna ayıralım."
+  // Eskiden kutu `#olay-listesi`nin ÜSTÜNE ayrı bir satır olarak giriyordu ve
+  // listeden dikey yer çalıyordu. Şimdi başlığın (h2) ORTASINA giriyor:
+  //     [📜 Kronoloji]        [⛭ süzgeç]        [🛩 ⚙]
+  //     [706 / 1223 başlık]
+  // Açılır gövde `position:absolute` — açılınca başlığı büyütmüyor, listenin
+  // üstüne biniyor (css/style.css #konu-suzgec).
+  var _h2 = document.querySelector("#olay-akisi h2");
+  var _ucus = document.getElementById("ucus-grup");
+  if (_h2 && _ucus) _h2.insertBefore(kutu, _ucus);
+  else olayListe.parentNode.insertBefore(kutu, olayListe);   // yedek: eski yer
   if (suzgecSecim) kutu.classList.add("acik");   // süzme açıksa gizli kalmasın
   suzgecUygula();
 })();
@@ -2951,8 +2964,21 @@ function olaylarGuncelle(t) {
       // kaydırmak hiçbir atayı etkilemez.
       var _kap = olayDom[yeni].parentElement;
       if (_kap && _kap.scrollHeight > _kap.clientHeight) {
-        _kap.scrollTop = olayDom[yeni].offsetTop - _kap.clientHeight / 2
-                         + olayDom[yeni].offsetHeight / 2;
+        // 🔴 EMRE, 18 Ağustos 2026: "o madde EN BAŞTA görünmeli; sonraki
+        // kronolojik maddeler ondan sonra ikinci üçüncü görünmeli."
+        // Eskiden madde EKRANIN ORTASINA alınıyordu; ekranın üst yarısı
+        // GEÇMİŞ maddelere gidiyordu. Başa alınınca aynı ekran SONRAKİ
+        // maddeleri gösteriyor — "şimdi neredeyim, sırada ne var" tek bakışta.
+        //
+        // ⚠️ `offsetTop` KULLANILMIYOR ve sebebi ÖLÇÜLDÜ: offsetTop kaydırılan
+        // kaba değil `offsetParent`a göredir; `#olay-listesi` konumlandırılmış
+        // olmadığı için madde 157 px YUKARI kayıyor ve başın ÜSTÜNDE kalıyordu
+        // (tarayıcıda ölçüldü: listenin üstünden -157 px). Kusur eski ortalama
+        // kodunda da vardı, yalnız ortalama onu gizliyordu.
+        // Geometri farkı her durumda doğru: kabın üstü ile maddenin üstü
+        // arasındaki mesafe kadar kaydır.
+        _kap.scrollTop += olayDom[yeni].getBoundingClientRect().top
+                          - _kap.getBoundingClientRect().top;
       } else {
         olayDom[yeni].scrollIntoView({ block: "nearest", behavior: zamanlayici ? "auto" : "smooth" });
       }
