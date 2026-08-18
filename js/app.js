@@ -4524,5 +4524,151 @@ document.addEventListener("keydown", function (e) {
   else if (e.key === " ") { oynatDurdur(); e.preventDefault(); }
 });
 
+// ═══════════════════════════════════════════════════════════════════════
+// DEVLET ODAĞI — "istersem Rusya seçip Rusya'nın kronolojisini oynatayım"
+// ═══════════════════════════════════════════════════════════════════════
+// 🔴 EMRE, 18 Ağustos 2026: *"haritanın odağını diğer devletlere ayarlayacak
+// yapıyı kuralım; kronoloji, harita gösterimi, uçuş animasyonu ve kronolojik
+// maddelerin kısa anlatımlarını madde açıklaması penceremize ayarlayalım."*
+//
+// 📌 ÖLÇÜLDÜ, ÖNCE: dört parçanın ÜÇÜ zaten vardı ve yalnız BİRİ eksikti.
+//     veri     `devletler.js` 431 künye · 392'sinde kronoloji · 1636 madde
+//     harita   `devletler_harita.js` gövdeler çiziliyor · `devletiYay(id)`
+//              o devletin gövdesine yakınlaştıran fonksiyon HAZIRDI
+//     uçuş     `flyTo` + `ucus-ac`/`ucus-kip` ayarları HAZIRDI
+//     ekran    devlet odağı/seçimi:  0 geçiş        ← EKSİK OLAN TEK ŞEY
+// ⇒ Bu blok yeni bir mekanizma kurmuyor, VAR OLANI Osmanlı'dan çözüyor.
+//
+// ⚠️ SARMALAMA, YENİDEN YAZMA DEĞİL: `padisahGuncelle` ve `olaylarGuncelle`
+// dokunulmadan duruyor; odak yokken çağrı doğrudan onlara gidiyor. Böylece
+// bugünkü Osmanlı davranışı BİT BİT aynı kalıyor ve bu blok kapatılınca
+// (odak "—" seçilince) hiçbir iz bırakmıyor.
+(function odakKur() {
+  var kunye = window.DEVLETLER || [];
+  if (!kunye.length) return;
+  var ODAK = null;                     // null = Osmanlı (varsayılan)
+  var liste = document.getElementById("olay-listesi");
+  var sec = document.getElementById("odak-devlet");
+  if (!sec || !liste) return;
+
+  // ---- seçenekler: YALNIZ kronolojisi olan devletler --------------------
+  // 39 künyenin kronolojisi boş (hepsi Amerika: Arjantin · Cherokee ·
+  // Cahokia · Haudenosaunee…). Onları listelemek, tıklayınca boş panel
+  // açılan bir seçenek sunmak olurdu — "yok" ile "boş" ekranda aynı görünür.
+  var adaylar = kunye.filter(function (d) {
+    return d.kronoloji && d.kronoloji.length;
+  }).sort(function (a, b) { return a.ad.localeCompare(b.ad, "tr"); });
+  adaylar.forEach(function (d) {
+    var o = document.createElement("option");
+    o.value = d.id;
+    o.textContent = d.ad + " (" + (d.kronoloji.length) + ")";
+    sec.appendChild(o);
+  });
+
+  function bul(id) {
+    for (var i = 0; i < kunye.length; i++) if (kunye[i].id === id) return kunye[i];
+    return null;
+  }
+
+  // ---- odaklı kart: padişah portresinin yerine devlet künyesi -----------
+  function kartCiz(d) {
+    portreKutu.innerHTML = "";
+    portreKutu.textContent = (d.ad || "?").charAt(0);
+    adKutu.textContent = d.ad;
+    saltanatKutu.textContent =
+      (d.f || "").slice(0, 4) + " – " + (d.t || "").slice(0, 4)
+      + (d.baskent ? " · " + d.baskent : "");
+  }
+
+  // ---- odaklı kronoloji listesi ----------------------------------------
+  // Maddeler {t, tur, b}: gün · tür · kısa anlatım. `yer_id` YOK, yani
+  // uçuşun hedefi maddenin yeri değil DEVLETİN O GÜNKÜ GÖVDESİ olabilir —
+  // `devletiYay` tam bunu yapıyor. Olmayan bir koordinat uydurmuyoruz.
+  function listeCiz(d) {
+    liste.innerHTML = "";
+    d.kronoloji.slice().sort(function (a, b) {
+      return (a.t || "").localeCompare(b.t || "");
+    }).forEach(function (m) {
+      var el = document.createElement("div");
+      el.className = "olay odak-madde";
+      el.innerHTML = '<span class="olay-tarih">' + (m.t || "").slice(0, 10)
+        + '</span> <span class="olay-baslik">' + (m.b || "").replace(/</g, "&lt;")
+        + "</span>";
+      el.addEventListener("click", function () { maddeAc(d, m); });
+      liste.appendChild(el);
+    });
+    var sayac = document.getElementById("olay-sayac");
+    if (sayac) sayac.textContent = d.kronoloji.length + " madde";
+  }
+
+  // ---- madde açıklaması: mevcut #olay-bilgi penceresine ----------------
+  function maddeAc(d, m) {
+    var gi = gunIdx(m.t);
+    tarihAyarla(gi);                       // zaman çubuğu o güne gider
+    if (obPanel) {
+      obPanel.classList.remove("gizli");
+      var bas = document.getElementById("ob-baslik");
+      if (bas) bas.textContent = d.ad + " — " + (m.tur || "madde");
+      var det = document.getElementById("ob-detay");
+      if (det) det.textContent = (m.t || "") + " · " + (m.b || "");
+    }
+    // 🔴 UÇUŞ HER ZAMAN — `ucus-ac` anahtarına BAĞLANMAZ, ve bu bir ölçümle
+    // düzeltildi. İlk yazımda ona bağlamıştım; tarayıcıda sınandı, anahtar
+    // kapalıyken `fitBounds` çağrısı 0 çıktı. Sonra anahtarın KENDİ
+    // açıklaması okundu: *"SIRADAKİ OLAYA GEÇİLİNCE harita o yeri
+    // KENDİLİĞİNDEN ortalar"* — yani o ayar OTOMATİK akış içindir.
+    // Kullanıcının bir maddeye elle tıklaması otomatik değildir; tıklamak
+    // zaten "beni oraya götür" demektir. Ayarı ona bağlamak, kullanıcının
+    // açık isteğini bir tercihe tâbi kılardı.
+    // 🔴 `d.harita || d.id` — KÜNYE KİMLİĞİ ile HARİTA KİMLİĞİ AYRI ŞEYLER.
+    // Ölçüldü: `habsburg` künyesinin `harita:` alanı **"avusturya"**dır ve
+    // gövde o adla kayıtlı; `devletiYay("habsburg")` hiçbir şey bulamıyor,
+    // hata da vermiyor, sessizce dönüyordu. 431 künyenin 248'inde `harita:`
+    // alanı var ⇒ kusur çoğunluğu vuruyordu. Rusya'da görünmedi, çünkü
+    // onun `harita:` alanı `id`siyle aynı — yani TEK ÖRNEKLE SINAMAK
+    // bu kusuru kaçırırdı (`§11`: "ölçüm doğru, evren dar").
+    try { devletiYay(d.harita || d.id); } catch (e) { /* sahnede değil */ }
+  }
+
+  // ---- sarmalayıcılar ---------------------------------------------------
+  var _padisahAsil = padisahGuncelle;
+  padisahGuncelle = function (t) {
+    if (!ODAK) return _padisahAsil(t);
+    kartCiz(ODAK);
+  };
+  var _olaylarAsil = olaylarGuncelle;
+  olaylarGuncelle = function (t) {
+    if (!ODAK) return _olaylarAsil(t);
+    // odaklı listede "geçmiş" vurgusu: o güne kadar akmış maddeler
+    var kk = liste.querySelectorAll(".odak-madde");
+    var sirali = ODAK.kronoloji.slice().sort(function (a, b) {
+      return (a.t || "").localeCompare(b.t || "");
+    });
+    for (var i = 0; i < kk.length && i < sirali.length; i++)
+      kk[i].classList.toggle("gecmis", gunIdx(sirali[i].t) <= t);
+  };
+
+  sec.addEventListener("change", function () {
+    ODAK = sec.value ? bul(sec.value) : null;
+    if (ODAK) {
+      kartCiz(ODAK);
+      listeCiz(ODAK);
+      try { devletiYay(ODAK.harita || ODAK.id); } catch (e) { /* sahnede değil */ }
+      console.log("Atlas: odak → " + ODAK.ad + " · "
+                  + ODAK.kronoloji.length + " kronoloji maddesi");
+    } else {
+      // Osmanlı'ya dönüş — özgün liste yeniden kurulur
+      liste.innerHTML = "";
+      olaylarGuncelleZorla();
+      _padisahAsil(suanki);
+      console.log("Atlas: odak → Osmanlı (varsayılan)");
+    }
+    guncelle();
+  });
+
+  console.log("Atlas: devlet odağı hazır — " + adaylar.length
+              + " devlet seçilebilir (kronolojisi olanlar).");
+})();
+
 // İlk çizim
 guncelle();
