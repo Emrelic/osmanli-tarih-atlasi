@@ -138,19 +138,19 @@ window.YERLESIMLER_EK31 = [
 // kaynak: bulunamadı — İtelmen için TDV ARANDI (16 Ağu, iki arama), madde YOK;
 //   yalnız `asya` ve `samanizm` içinde geçiyor. Akademik literatür aranmadı.
 { ad:"Kamçatka (İtelmen toprakları)", tur:"bolge", lat:55.000, lon:158.500, g:0, k:0,
-  bos:true, neden:"veri-yok — 1281'de yarımadada sahnede nokta YOK (Petropavlovsk kur:1740) ve §2 gereği 642-751 km öteden emiliyordu. İtelmen için TDV ARANDI (16 Ağu): madde YOK, yalnız Asya ve samanizm içinde geçiyor. Akademik literatür aranmadı.",
+  kasitli_bosluk:true, bos:"veri-yok", neden:"veri-yok — 1281'de yarımadada sahnede nokta YOK (Petropavlovsk kur:1740) ve §2 gereği 642-751 km öteden emiliyordu. İtelmen için TDV ARANDI (16 Ağu): madde YOK, yalnız Asya ve samanizm içinde geçiyor. Akademik literatür aranmadı.",
   s:[], d:[], v:[] },
 
 // kaynak: bulunamadı — Yukagir için TDV ARANDI (16 Ağu), madde YOK.
 //   Akademik literatür aranmadı.
 { ad:"Kolıma havzası (Yukagir toprakları)", tur:"bolge", lat:66.000, lon:152.000, g:0, k:0,
-  bos:true, neden:"veri-yok — 64°K/152°D hücresi en yakın 1281 noktasına 555 km. Yukagir için TDV ARANDI (16 Ağu): madde YOK. Akademik literatür aranmadı.",
+  kasitli_bosluk:true, bos:"veri-yok", neden:"veri-yok — 64°K/152°D hücresi en yakın 1281 noktasına 555 km. Yukagir için TDV ARANDI (16 Ağu): madde YOK. Akademik literatür aranmadı.",
   s:[], d:[], v:[] },
 
 // kaynak: bulunamadı — Çuvan ve Yukagir için TDV ARANDI (16 Ağu), madde YOK.
 //   Akademik literatür aranmadı.
 { ad:"Doğu Sibirya kıyısı (Çuvan-Yukagir)", tur:"bolge", lat:70.000, lon:161.000, g:0, k:0,
-  bos:true, neden:"veri-yok — 68-72°K / 152-168°D hücreleri 507-709 km uzakta; kuzey kıyı şeridi 1281'de noktasızdı. Çuvan/Yukagir için TDV ARANDI: madde YOK.",
+  kasitli_bosluk:true, bos:"veri-yok", neden:"veri-yok — 68-72°K / 152-168°D hücreleri 507-709 km uzakta; kuzey kıyı şeridi 1281'de noktasızdı. Çuvan/Yukagir için TDV ARANDI: madde YOK.",
   s:[], d:[], v:[] },
 
 // ───── İNCE TARAMANIN KALAN TEK GERÇEK KARA BOŞLUĞU ─────
@@ -171,7 +171,7 @@ window.YERLESIMLER_EK31 = [
 //   akademik literatür ARANMADI (İtelmen/Yukagir kayıtlarıyla aynı gerekçe)
 
 { ad:"Penjina havzası (kuzey Koryak)", tur:"bolge", lat:61.000, lon:156.500, g:0, k:0,
-  bos:true, neden:"veri-yok — 60°K/156°D hücresi en yakın 1281 noktasına 576 km. Kamçatka boynu ile Koryak yaylası arasındaki şerit noktasızdı. Koryak için TDV ARANDI: madde YOK.",
+  kasitli_bosluk:true, bos:"veri-yok", neden:"veri-yok — 60°K/156°D hücresi en yakın 1281 noktasına 576 km. Kamçatka boynu ile Koryak yaylası arasındaki şerit noktasızdı. Koryak için TDV ARANDI: madde YOK.",
   s:[], d:[], v:[] },
 
 ];

@@ -3462,6 +3462,117 @@ def _puan_bolgesi(did, aktif, gun):
     return _g
 
 
+# ═══ EKLEYİCİ KAPI — "boş kalan yer, çevresi tek devletse ONUN" ═══════════
+# 🔴 EMRE, 18 Ağustos 2026 — aynı gün İKİ hüküm:
+#     "puanlama kapısı ekleyici olsun"
+#     "enklav yada koridor eğer boş alan ise etrafındaki bölgeye katılmalı …
+#      ama eğer tarihî gerçeklik ise enklavlar YERİNDE KALMALI … o bölgede
+#      başka bölgenin yada yerleşimin KABİLENİN etkisi yok ise katılabilir"
+#
+# 📌 KESİCİ KAPIDAN FARKI TEK CÜMLE: kesici kapı (`_puan_bolgesi`, :3568)
+#    bir KESİŞİMDİ ve yalnız BOYAMAYI kısıtlıyordu. Bu kapı SAHİPLİK ATAR.
+#
+# 📌 VE PETEK DÜZEYİNDE ÇALIŞIR, geometri düzeyinde değil: sahipsiz bir
+#    peteği kazanan devletin `aktif` kümesine EKLER. Enklav/koridor doldurma
+#    bundan kendiliğinden çıkar — çevresi tek devlet olan sahipsiz petek o
+#    devlete katılır, ve mevcut geometri makinesi hiç değişmez.
+#
+# ⚠️ ÖLÇÜLDÜ, KOŞUDAN ÖNCE (`arac/olc_ekleyici.py`): Emre'nin kuralının
+#    "burası Osmanlı olmalı" dediği ama boş duran toprak 1,67 M km²ydi —
+#    %11'i A1'in kestiği, %70'i dolgu noktası peteği, %19'u kayıtsız.
+#    Dolguların 13'ü `0cf702b`de emekli edildi; bu kapı geri kalanı çözer.
+#
+# 🔴 ŞARTI `bos:` ALANINA SORAR — Emre'nin "araştırmadan katılmamalı"
+#    cümlesinin karşılığı bu alandır ve 235 kaydın 230'unda gerekçesi yazılı.
+DOLGU_ACIK = os.environ.get("MOTOR_DOLGU_KAPALI") != "1"
+DOLDURULABILIR_BOS = {"devletsiz", "hata"}
+#   devletsiz → kaynak "devlet yoktu" diyor        → boş arazi, KATILABİLİR
+#   hata      → kaydın kendi itirafı, motor kusuru → KATILABİLİR
+#   kabile    → aşiret etkisi VAR                  → KATILMAZ (Emre'nin şartı)
+#   veri-yok  → "arandı, kaynak SUSUYOR"           → KATILMAZ (bilmediğimizi
+#               iddia etmek olurdu — "araştırmadan katılmamalı"nın ta kendisi)
+#   insansiz  → terra nullius                      → KATILMAZ (Novaya Zemlya'yı
+#               Rus boyamak olurdu; idare yokluğu sahiplik değildir)
+_DOLGU_ONBELLEK = {}
+_DOLGU_SAYAC = {"petek": 0, "gun": 0, "cekismeli": 0}
+
+
+def _dolgu_kumesi(a):
+    """`a` gününde sahipsiz peteklerden hangisi hangi devlete katılır.
+
+    Döner: {devlet_kimligi: frozenset(petek_indeksi)}   ("OSMANLI" dâhil)
+    Ölçüt Emre'nin kendi kuralı: 0-200=4p · 200-300=2p · 300-400=1p, eşik 4,
+    puanlar AYNI devletin merkezlerinden toplanır (kesici kapıyla aynı yorum).
+    🔴 ÇEKİŞME = KATILMAMA: iki devlet de eşiği geçiyor ve BERABERSE petek
+    boş kalır. "Kime ait" sorusunu cevaplayamadığımız yeri boyamak, kapının
+    var oluş sebebine aykırı olurdu.
+    """
+    if a in _DOLGU_ONBELLEK:
+        return _DOLGU_ONBELLEK[a]
+    import numpy as _np3
+    # kur:/bit: — o gün henüz kurulmamış (ya da yok olmuş) nokta ne sahip
+    # sayılır ne doldurulur; peteği zaten komşusuna devredilmiştir.
+    _dv = devir_kumesi(a)
+    sahip_ix, sahip_kim = [], []
+    bos_ix = []
+    for j, y in enumerate(YERLER):
+        if j in _dv:
+            continue
+        kim = None
+        if _osm_aktif(y, a):
+            kim = "OSMANLI"
+        else:
+            for sp in y["s"]:
+                if sp["f"] <= a < sp["t"]:
+                    kim = sp["d"]
+                    break
+        if kim is not None:
+            sahip_ix.append(j)
+            sahip_kim.append(kim)
+            continue
+        # sahipsiz — katılabilir mi?
+        if (y.get("bos") in DOLDURULABILIR_BOS
+                or (y.get("tur") == "bolge" and not y.get("bos"))):
+            bos_ix.append(j)
+    if not bos_ix or not sahip_ix:
+        _DOLGU_ONBELLEK[a] = {}
+        return {}
+    bla = _np3.array([YERLER[j]["lat"] for j in bos_ix])
+    blo = _np3.array([YERLER[j]["lon"] for j in bos_ix])
+    sla = _np3.array([YERLER[j]["lat"] for j in sahip_ix])
+    slo = _np3.array([YERLER[j]["lon"] for j in sahip_ix])
+    _co = _np3.cos(_np3.radians((bla[:, None] + sla[None, :]) / 2))
+    _m = _np3.sqrt(((bla[:, None] - sla[None, :]) * 110.574) ** 2
+                   + ((blo[:, None] - slo[None, :]) * 111.320 * _co) ** 2)
+    _k = _np3.zeros(_m.shape, dtype="int16")
+    _once = 0.0
+    for _e, _pu in PUAN_HALKA:
+        _k[(_m >= _once) & (_m < _e)] = _pu
+        _once = _e
+    devletler = sorted(set(sahip_kim))
+    dizin = {d: [i for i, k in enumerate(sahip_kim) if k == d]
+             for d in devletler}
+    puanlar = _np3.zeros((len(bos_ix), len(devletler)), dtype="int32")
+    for di, d in enumerate(devletler):
+        puanlar[:, di] = _k[:, dizin[d]].sum(axis=1)
+    out = {}
+    en = puanlar.max(axis=1)
+    for bi, j in enumerate(bos_ix):
+        if en[bi] < PUAN_ESIK:
+            continue
+        kazananlar = [devletler[di] for di in range(len(devletler))
+                      if puanlar[bi, di] == en[bi]]
+        if len(kazananlar) != 1:            # çekişme → katılmaz
+            _DOLGU_SAYAC["cekismeli"] += 1
+            continue
+        out.setdefault(kazananlar[0], []).append(j)
+        _DOLGU_SAYAC["petek"] += 1
+    out = {d: frozenset(v) for d, v in out.items()}
+    _DOLGU_SAYAC["gun"] += 1
+    _DOLGU_ONBELLEK[a] = out
+    return out
+
+
 asama("Yabancı devlet gövdeleri")
 def _osm_aktif(y, a):
     return (any(dn["f"] <= a < dn["t"] for dn in y["d"]) or
@@ -3545,6 +3656,13 @@ for _dv_i, (did, (dad, renk)) in enumerate(BOYALAR.items(), 1):
                           and any(sp["d"] == did and sp["f"] <= a < sp["t"]
                                   for sp in YERLER[j]["s"])
                           and not _osm_aktif(YERLER[j], a))
+        # ---- EKLEYİCİ KAPI: sahipsiz peteklerden bu devlete düşenler ------
+        # Emre'nin "enklav/koridor boş alan ise etrafındaki bölgeye katılmalı"
+        # hükmü. Petek düzeyinde katılıyor ⇒ geometri makinesi hiç değişmiyor.
+        if DOLGU_ACIK and aktif:
+            _ek = _dolgu_kumesi(a).get(did)
+            if _ek:
+                aktif = aktif | _ek
         if aktif == onceki and dnm and aktif:
             dnm[-1]["t"] = b; continue
         onceki = aktif
@@ -3657,6 +3775,14 @@ for i in range(len(tarihler) - 1):
     dogrudan = frozenset(j for j, y in enumerate(YERLER)
                          if j not in _dv
                          and any(dn["f"] <= a < dn["t"] for dn in y["d"])) - tabi
+    # ---- EKLEYİCİ KAPI: sahipsiz peteklerden Osmanlı'ya düşenler ----------
+    # 🔴 DOĞRUDAN'a katılıyor, TÂBİ'ye değil: doldurulan yer boş arazidir,
+    # orada bir tâbi beylik YOKTUR. Tâbilik bir SİYASÎ İLİŞKİDİR ve onu
+    # kimsenin olmadığı toprağa yazmak, olmayan bir ilişkiyi iddia etmek olur.
+    if DOLGU_ACIK and dogrudan:
+        _ek = _dolgu_kumesi(a).get("OSMANLI")
+        if _ek:
+            dogrudan = dogrudan | (_ek - tabi)
     aktif = dogrudan | tabi
     if not aktif:
         continue
@@ -3785,6 +3911,21 @@ js += "window.DONEMLER = " + json.dumps(donemler, separators=(",",":")) + ";\n"
 # ⚠️ YALNIZ YABANCI HAVUZ. Osmanlı havuzu (`PARCALAR`) ELLENMİYOR — kademe
 # 4-5 (Söğüt-Bursa çekirdeği, Osmanlı gövdesi, 1923 Türkiye) dokunulmaz.
 SEYRELT_TOL = 0.03          # ≈3,3 km — ölçülmüş kırılma noktası
+# ---- EKLEYİCİ KAPININ BİLANÇOSU — sessiz kapı, kapatılmış kapıdır ---------
+# 🔴 BURADA, çünkü kapı İKİ döngüde birden çalışıyor: yabancı gövdeler
+# (:3662) ve Osmanlı dönemleri (:3791). İlk yazımda bilançoyu yabancı
+# döngünün hemen ardına koymuştum ve sayacın YARISINI raporluyordu —
+# `§11`in "geç öten alarm" dersinin ters yüzü: ERKEN ölçen sayaç da yalan
+# söyler. İki döngü de bitmeden basılmaz.
+if not DOLGU_ACIK:
+    print("  🚪 EKLEYİCİ KAPI KAPALI (MOTOR_DOLGU_KAPALI=1) — katılım YOK")
+else:
+    print(f"  🚪 EKLEYİCİ KAPI: {_DOLGU_SAYAC['petek']} petek-gün katıldı · "
+          f"{_DOLGU_SAYAC['cekismeli']} ÇEKİŞMELİ (boş bırakıldı) · "
+          f"{_DOLGU_SAYAC['gun']} gün hesaplandı")
+    print(f"     şart: bos ∈ {sorted(DOLDURULABILIR_BOS)} ya da tur=bolge · "
+          f"kabile · veri-yok · insansiz KATILMAZ (Emre, 18 Ağustos 2026)")
+
 asama("Uzak coğrafya seyreltme (yabancı havuz)")
 _don = don_kose_kur(
     (DEV_HALKA, DEV_PARCA, [(d["id"], p["f"], p["t"], p["g"])
