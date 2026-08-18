@@ -147,7 +147,17 @@ BEKLENEN_YERLESIM = 968
 #    Ders orada YAZILIYDI; buraya UYGULANMAMISTI.
 # 182 -> 180: 172 +6 EMILME (Orta Afrika) +4 SIBIRYA idi; iki nokta sonradan
 # sahip kazandi. Sabit olculene cekildi.
-BEKLENEN_SAHIPSIZ = 228   # 202 +26 — bkz. 16 Agustos notu hemen asagida
+BEKLENEN_SAHIPSIZ = 214   # 228 -14 — bkz. 18 Agustos DOLGU EMEKLILIGI notu
+# 🔴 228 -> 214, 18 Agustos 2026 — 13 DOLGU NOKTASI EMEKLIYE AYRILINCA.
+#    Emre'nin hukmu: "devletsiz alanlari emekli edelim." Olculdu (0cf702b):
+#    adi cografi alan olan 36 dolgu noktasi tek tek kaldirilip "toprak kime
+#    giderdi" diye soruldu; 15'i ISLEVSIZ (A1 tavani zaten yetismiyor), 9'u
+#    Osmanli'yi durduruyor, 12'si toprgi BASKA devlete verirdi.
+#    13'u emekli edildi (silinmedi, YORUMLANDI), 8'i tarihen sinanmak uzere
+#    DURDURULDU: Rub'ul Hali'yi bosaltmak onu UMMAN, Nube colunu SENNAR
+#    boyardi — §3.5 hayalet devlet kurali.
+#    ⚠️ Tavani SIKILASTIRMAK denetimin kendi uyarisiydi: gevsek birakmak
+#    "aradaki 14 puanlik gercek regresyonu GORUNMEZ" yapardi.
 # 🔴 202 -> 228, 16 Agustos 2026 — DORT UZAK COGRAFYA DOSYASI BAGLANINCA.
 #    girdi.py 44 -> 48 dosya, 2527 -> 2589 nokta (+62). Sahipsiz 202 -> 228.
 #
