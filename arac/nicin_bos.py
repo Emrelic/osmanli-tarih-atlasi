@@ -84,8 +84,35 @@ def sabit_dogrula():
     return tamam
 
 
+def var_mi(y, g):
+    """Yerleşim `g` gününde SAHNEDE mi? (`kur:` / `bit:`)
+
+    🔴 BU FONKSİYON BİR HATADAN DOĞDU — 18 Ağustos 2026.
+    Alet `kur:`/`bit:` alanlarını HİÇ OKUMUYORDU ve üç teşhisi birden
+    yanlış zeminde verdi:
+        H-0020 (1577)  "en yakın nokta Kuveyt"        → Kuveyt kur:1716
+        H-0009 (1604)  "en yakın nokta Vladikavkaz"   → Vladikavkaz kur:1784
+        H-0023 (1577)  aynı Vladikavkaz
+    Üçü de o tarihte HENÜZ KURULMAMIŞTI. Motor onları `petek_epok()` ile
+    komşusuna devrediyor; alet ise sahnedeymiş gibi sayıp "sahipsiz nokta
+    buradan emiyor" dedi. Ölçüm doğru çalışıyordu, EVRENİ yanlıştı — ve
+    hüküm koordinatöre "sebep bulundu" diye gitti.
+    📌 `uret_petek.py:devir_kumesi()` bunu zaten yapıyordu; alet motorun
+    bildiği bir şeyi bilmiyordu.
+    """
+    kur = y.get("kur")
+    bit = y.get("bit")
+    if kur and g < kur:
+        return False
+    if bit and g >= bit:
+        return False
+    return True
+
+
 def sahip(y, g):
     """Yerleşimin `g` günündeki sahibi. (motorun d/v/s sırası)"""
+    if not var_mi(y, g):
+        return None
     for p in y.get("d") or []:
         if p["f"] <= g < p["t"]:
             return "OSMANLI"
@@ -100,11 +127,22 @@ def sahip(y, g):
 
 def olc(Y, lat, lon, gun, n=10, yaricap=450.0):
     cevre = []
+    yok = 0
     for y in Y:
         d = girdi.km(lat, lon, y["lat"], y["lon"])
-        if d <= yaricap:
-            cevre.append((d, y))
+        if d > yaricap:
+            continue
+        # 🔴 O gün SAHNEDE OLMAYAN nokta komşu DEĞİLDİR — "sahipsiz" de
+        # değildir, YOKTUR. İkisini karıştırmak aletin ilk üç teşhisini
+        # bozdu (bkz. var_mi). Motor onun peteğini komşusuna devrediyor.
+        if not var_mi(y, gun):
+            yok += 1
+            continue
+        cevre.append((d, y))
     cevre.sort(key=lambda t: t[0])
+    if yok:
+        print(f"   (o gün henüz kurulmamış / yok olmuş {yok} nokta "
+              f"komşuluktan ÇIKARILDI — kur:/bit:)")
 
     print(f"\n{'='*74}")
     print(f"NOKTA  {lat:.4f} K · {lon:.4f} D     GÜN  {gun}")

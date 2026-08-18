@@ -24,7 +24,8 @@ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(KOK, "arac"))
 
 import girdi                                                    # noqa: E402
-from nicin_bos import PUAN_HALKA, PUAN_ESIK, TAVAN_KM, sahip, olc  # noqa: E402
+from nicin_bos import (PUAN_HALKA, PUAN_ESIK, TAVAN_KM, sahip, olc,
+                       var_mi)  # noqa: E402
 
 # madde -> (gün, lat0, lat1, lon0, lon1, kısa not)
 # 🔴 KUTU, ölçümün DEĞİL görselin künyesidir: bu satırlar Emre'nin
@@ -75,8 +76,10 @@ PAKETLER = {"0021": (P0021, P0021_METIN, P0021_ARAYUZ)}
 
 
 def hukum(Y, lat, lon, gun):
-    cevre = sorted(((girdi.km(lat, lon, y["lat"], y["lon"]), y) for y in Y),
-                   key=lambda t: t[0])
+    # 🔴 `var_mi` süzgeci: o gün kurulmamış nokta komşu SAYILMAZ (bkz.
+    # nicin_bos.var_mi — aletin ilk üç teşhisini bozan kusur).
+    cevre = sorted(((girdi.km(lat, lon, y["lat"], y["lon"]), y)
+                    for y in Y if var_mi(y, gun)), key=lambda t: t[0])
     cevre = [(d, y) for d, y in cevre if d <= 450]
     if not cevre:
         return "NOKTASIZ", "450 km içinde hiç yerleşim yok", None, 0
