@@ -969,7 +969,14 @@ window.YERLESIMLER = [
 // kilometre uzanır ya da yarıçap sınırı yüzünden "baloncuk" oluşur. Bu noktalar
 // hiçbir zaman Osmanlı sayılmaz, yalnızca peteklerin nerede biteceğini belirler.
 { ad:"Nefud çölü", bos:"devletsiz", neden:"1744 öncesi Necid'de merkezî devlet denetimi yoktu; yerleşim VARDI ama hiçbir devletin idaresinde değildi. Kaynak: CLAUDE.md §3'te belgelenmiş proje kararı — 'Sahra ve Rub'ul Hâlî çölleri, 1744 öncesi Necid, körfez şeyhlikleri'.", tur:"bolge", lat:28.30, lon:41.00, g:0, k:0, d:[], v:[{f:"1818-09-09",t:"1824-06-01",k:"Mısır (İbrâhim Paşa)"}], s:[{f:"1744-01-01",t:"1818-09-09",d:"suud"},{f:"1824-06-01",t:"1836-01-01",d:"suud"},{f:"1836-01-01",t:"1921-11-02",d:"sammar"},{f:"1921-11-02",t:"1923-10-29",d:"suud"}] },
-{ ad:"Rub'ul Hâlî kuzeyi", tur:"bolge", lat:22.50, lon:47.00, g:0, k:0, d:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Rub'ul Hâlî (Boş Çeyrek) tarih boyunca hiçbir devletin fiilen denetlemediği dünyanın en büyük kum çölüdür; sınırları ancak 20. yy'da Suudi-Yemen-Umman anlaşmalarıyla çizildi." },
+// 🔴 EMEKLİ — 18 Ağustos 2026, Emre'nin onayıyla (dolgu noktası ölçümü).
+//    Kaldırılınca toprak: BOŞ kalır
+//    Gerekçe: A1 yarıçap tavanı (uret_petek.py:699) dolgunun işini yapısal
+//    olarak yapıyor; bu nokta emilmeyi önlemek için konmuş bir HİLEYDİ ve
+//    uret_petek.py:696 zaten emekli edilebileceklerini yazıyordu.
+//    Ölçüm: arac/olc_ekleyici.py · scratchpad/olc_dolgu.py
+//    ⚠️ SİLİNMEDİ, YORUMLANDI — araştırılmış veri geri alınabilir olmalı.
+// { ad:"Rub'ul Hâlî kuzeyi", tur:"bolge", lat:22.50, lon:47.00, g:0, k:0, d:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Rub'ul Hâlî (Boş Çeyrek) tarih boyunca hiçbir devletin fiilen denetlemediği dünyanın en büyük kum çölüdür; sınırları ancak 20. yy'da Suudi-Yemen-Umman anlaşmalarıyla çizildi." },
 { ad:"Rub'ul Hâlî doğusu", tur:"bolge", lat:20.00, lon:52.00, g:0, k:0, d:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Aynı Boş Çeyrek çölünün doğu ucu; kaynaklar bu iç kesimde tarih boyunca yerleşik siyasi denetim olmadığını belirtiyor." },
 { ad:"Necid içi", bos:"devletsiz", neden:"1744 öncesi Necid'de merkezî devlet denetimi yoktu; yerleşim VARDI ama hiçbir devletin idaresinde değildi. Kaynak: CLAUDE.md §3'te belgelenmiş proje kararı — 'Sahra ve Rub'ul Hâlî çölleri, 1744 öncesi Necid, körfez şeyhlikleri'.", tur:"bolge", lat:25.50, lon:44.50, g:0, k:0, d:[], v:[{f:"1818-09-09",t:"1824-06-01",k:"Mısır (İbrâhim Paşa)"}], s:[{f:"1744-01-01",t:"1818-09-09",d:"suud"},{f:"1824-06-01",t:"1891-01-01",d:"suud"},{f:"1891-01-01",t:"1902-01-15",d:"sammar"},{f:"1902-01-15",t:"1923-10-29",d:"suud"}] },
 { ad:"Hadramut", tur:"bolge", lat:15.50, lon:48.50, g:0, k:0, d:[] },
@@ -981,7 +988,14 @@ window.YERLESIMLER = [
 // Oturum 16'nın "geometri karar veremez" tespitinin tam örneği — bu bir petek kararı
 // değil, bir İDARE kararı. Motora özel durum yazmak yerine veri açık hâle getirildi.
 { ad:"Sina güneyi", isg:[{f:"1798-07-01",t:"1801-10-09",d:"fransa",kaynak:"kahire"}], tur:"bolge", lat:28.50, lon:33.80, g:0, k:0, m:"Kahire", s:[{f:"1281-01-01",t:"1517-01-22",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], d:[{f:"1517-01-22",t:"1805-07-03"}], v:[{f:"1805-07-03",t:"1867-06-08",k:"Mısır valiliği (Kavalalı hanedanı)"},{f:"1867-06-08",t:"1914-12-18",k:"Mısır Hidivliği"}] },
-{ ad:"Batı çölü (Mısır)", tur:"bolge", lat:26.50, lon:27.00, g:0, k:0, d:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Mısır'ın Libya (Batı) Çölü'nün derin iç kesimi; vaha şehirleri hariç bu alan tarih boyunca fiilen yerleşimsiz ve devletsizdir, Memlük/Osmanlı Mısır idaresi kıyı-vaha eksenliydi." },
+// 🔴 EMEKLİ — 18 Ağustos 2026, Emre'nin onayıyla (dolgu noktası ölçümü).
+//    Kaldırılınca toprak: OSMANLI'ya gider (10p)
+//    Gerekçe: A1 yarıçap tavanı (uret_petek.py:699) dolgunun işini yapısal
+//    olarak yapıyor; bu nokta emilmeyi önlemek için konmuş bir HİLEYDİ ve
+//    uret_petek.py:696 zaten emekli edilebileceklerini yazıyordu.
+//    Ölçüm: arac/olc_ekleyici.py · scratchpad/olc_dolgu.py
+//    ⚠️ SİLİNMEDİ, YORUMLANDI — araştırılmış veri geri alınabilir olmalı.
+// { ad:"Batı çölü (Mısır)", tur:"bolge", lat:26.50, lon:27.00, g:0, k:0, d:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Mısır'ın Libya (Batı) Çölü'nün derin iç kesimi; vaha şehirleri hariç bu alan tarih boyunca fiilen yerleşimsiz ve devletsizdir, Memlük/Osmanlı Mısır idaresi kıyı-vaha eksenliydi." },
 { ad:"Nûbe çölü", tur:"bolge", lat:20.50, lon:33.50, g:0, k:0, d:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Nûbe Çölü'nün iç kesimi; Nil vadisi dışındaki bu alan tarih boyunca yerleşik nüfustan ve devlet denetiminden yoksundur." },
 // 🔴 md.40'IN AÇIK BORCU KAPANIYOR — üç KASTEN SAHİPSİZ dolgu noktası.
 // Oturum 14 dört vahayı (Hârice · Dâhile · Ferâfire · Bahriye) ekledi ve asimetri
@@ -992,17 +1006,52 @@ window.YERLESIMLER = [
 // Bu üç nokta o kum denizlerini geri oyuyor: vahalar sahipli kalıyor, aradaki çöl
 // boşalıyor. Hiçbir dönemi yok — kasten sahipsiz (CLAUDE.md, Değişmez 1 muafiyeti).
 // ⚠️ BEKLENEN_SAHIPSIZ 40 → 43 (Oturum 2'ye bildirildi).
-{ ad:"Ramletü'l-kübrâ (Büyük Kum Denizi)", tur:"bolge", lat:26.50, lon:26.00, g:0, k:0, d:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Büyük Kum Denizi (Great Sand Sea), Mısır-Libya sınırında insansız kum çölü; hiçbir dönemde bir devletin fiilen denetlediğine dair kayıt yok." },
+// 🔴 EMEKLİ — 18 Ağustos 2026, Emre'nin onayıyla (dolgu noktası ölçümü).
+//    Kaldırılınca toprak: OSMANLI'ya gider (4p)
+//    Gerekçe: A1 yarıçap tavanı (uret_petek.py:699) dolgunun işini yapısal
+//    olarak yapıyor; bu nokta emilmeyi önlemek için konmuş bir HİLEYDİ ve
+//    uret_petek.py:696 zaten emekli edilebileceklerini yazıyordu.
+//    Ölçüm: arac/olc_ekleyici.py · scratchpad/olc_dolgu.py
+//    ⚠️ SİLİNMEDİ, YORUMLANDI — araştırılmış veri geri alınabilir olmalı.
+// { ad:"Ramletü'l-kübrâ (Büyük Kum Denizi)", tur:"bolge", lat:26.50, lon:26.00, g:0, k:0, d:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Büyük Kum Denizi (Great Sand Sea), Mısır-Libya sınırında insansız kum çölü; hiçbir dönemde bir devletin fiilen denetlediğine dair kayıt yok." },
 { ad:"Gilf el-Kebîr", tur:"bolge", lat:23.50, lon:26.00, g:0, k:0, d:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Gilf el-Kebîr platosu, Sahra'nın en izole ve susuz kesimlerinden biri; tarihte hiçbir yerleşim ya da devlet denetimi kaydı yok." },
 { ad:"Selîme (Nûbe çölü batısı)", tur:"bolge", lat:21.50, lon:29.30, g:0, k:0, d:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Selîme kum yaylası, Nûbe Çölü'nün batısında insansız bir kesim; kervan yolu üzerinde olsa da yerleşik/siyasi denetim kaydı yok." },
 { ad:"Kordofan", tur:"bolge", lat:13.00, lon:29.50, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)"}] },
 { ad:"Darfur", tur:"bolge", lat:13.50, lon:24.00, g:0, k:0, d:[] },
 { ad:"Tibesti", tur:"bolge", lat:21.00, lon:17.50, g:0, k:0, d:[], kasitli_bosluk:true, bos:"kabile", neden:"Tibesti dağlık çölü, Toubou (Tubu) aşiret konfederasyonlarının denetimindeydi; tarih boyunca herhangi bir devletin (Osmanlı Trablusgarp dahil) fiilen ulaştığı bir bölge değildi." },
-{ ad:"Fizan güneyi", tur:"bolge", lat:23.00, lon:14.00, g:0, k:0, d:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Fizan'ın (Fezzan) güney iç çölü, vaha zincirinin dışında kalan kesim; Evladü Muhammed/Osmanlı Trablusgarp idaresi kervan yolu ve vahalarla sınırlıydı, bu derin çöl kesimi denetim dışıydı." },
-{ ad:"Büyük Doğu Ergi", tur:"bolge", lat:29.50, lon:7.50, g:0, k:0, d:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Grand Erg Oriental (Büyük Doğu Kum Denizi), Cezayir-Tunus-Libya arasında geniş bir kumul denizi; tarih boyunca yerleşimsiz ve devlet denetimi dışında." },
+// 🔴 EMEKLİ — 18 Ağustos 2026, Emre'nin onayıyla (dolgu noktası ölçümü).
+//    Kaldırılınca toprak: OSMANLI'ya gider (5p)
+//    Gerekçe: A1 yarıçap tavanı (uret_petek.py:699) dolgunun işini yapısal
+//    olarak yapıyor; bu nokta emilmeyi önlemek için konmuş bir HİLEYDİ ve
+//    uret_petek.py:696 zaten emekli edilebileceklerini yazıyordu.
+//    Ölçüm: arac/olc_ekleyici.py · scratchpad/olc_dolgu.py
+//    ⚠️ SİLİNMEDİ, YORUMLANDI — araştırılmış veri geri alınabilir olmalı.
+// { ad:"Fizan güneyi", tur:"bolge", lat:23.00, lon:14.00, g:0, k:0, d:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Fizan'ın (Fezzan) güney iç çölü, vaha zincirinin dışında kalan kesim; Evladü Muhammed/Osmanlı Trablusgarp idaresi kervan yolu ve vahalarla sınırlıydı, bu derin çöl kesimi denetim dışıydı." },
+// 🔴 EMEKLİ — 18 Ağustos 2026, Emre'nin onayıyla (dolgu noktası ölçümü).
+//    Kaldırılınca toprak: OSMANLI'ya gider (6p)
+//    Gerekçe: A1 yarıçap tavanı (uret_petek.py:699) dolgunun işini yapısal
+//    olarak yapıyor; bu nokta emilmeyi önlemek için konmuş bir HİLEYDİ ve
+//    uret_petek.py:696 zaten emekli edilebileceklerini yazıyordu.
+//    Ölçüm: arac/olc_ekleyici.py · scratchpad/olc_dolgu.py
+//    ⚠️ SİLİNMEDİ, YORUMLANDI — araştırılmış veri geri alınabilir olmalı.
+// { ad:"Büyük Doğu Ergi", tur:"bolge", lat:29.50, lon:7.50, g:0, k:0, d:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Grand Erg Oriental (Büyük Doğu Kum Denizi), Cezayir-Tunus-Libya arasında geniş bir kumul denizi; tarih boyunca yerleşimsiz ve devlet denetimi dışında." },
 { ad:"Hoggar", tur:"bolge", lat:24.00, lon:3.00, g:0, k:0, d:[], kasitli_bosluk:true, bos:"kabile", neden:"Hoggar (Ahaggar) yaylası, Kel Ahaggar Tuareg konfederasyonunun Amenokal liderliğinde denetlediği bir bölgeydi; bu bir aşiret/konfederasyon yapısıydı, devlet değil." },
-{ ad:"Sahra batısı", tur:"bolge", lat:27.00, lon:-4.00, g:0, k:0, d:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Batı Sahra'nın iç çöl kesimi; kıyı ve vaha yerleşimleri dışında bu alanda tarih boyunca yerleşik devlet denetimi yok." },
-{ ad:"Sirte iç çölü", tur:"bolge", lat:28.50, lon:18.50, g:0, k:0, d:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Sirte Körfezi'nin güneyindeki iç çöl kesimi, kıyı şeridinin (Osmanlı Trablusgarp) dışında kalan denetimsiz alan." },
+// 🔴 EMEKLİ — 18 Ağustos 2026, Emre'nin onayıyla (dolgu noktası ölçümü).
+//    Kaldırılınca toprak: BOŞ kalır
+//    Gerekçe: A1 yarıçap tavanı (uret_petek.py:699) dolgunun işini yapısal
+//    olarak yapıyor; bu nokta emilmeyi önlemek için konmuş bir HİLEYDİ ve
+//    uret_petek.py:696 zaten emekli edilebileceklerini yazıyordu.
+//    Ölçüm: arac/olc_ekleyici.py · scratchpad/olc_dolgu.py
+//    ⚠️ SİLİNMEDİ, YORUMLANDI — araştırılmış veri geri alınabilir olmalı.
+// { ad:"Sahra batısı", tur:"bolge", lat:27.00, lon:-4.00, g:0, k:0, d:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Batı Sahra'nın iç çöl kesimi; kıyı ve vaha yerleşimleri dışında bu alanda tarih boyunca yerleşik devlet denetimi yok." },
+// 🔴 EMEKLİ — 18 Ağustos 2026, Emre'nin onayıyla (dolgu noktası ölçümü).
+//    Kaldırılınca toprak: OSMANLI'ya gider (17p)
+//    Gerekçe: A1 yarıçap tavanı (uret_petek.py:699) dolgunun işini yapısal
+//    olarak yapıyor; bu nokta emilmeyi önlemek için konmuş bir HİLEYDİ ve
+//    uret_petek.py:696 zaten emekli edilebileceklerini yazıyordu.
+//    Ölçüm: arac/olc_ekleyici.py · scratchpad/olc_dolgu.py
+//    ⚠️ SİLİNMEDİ, YORUMLANDI — araştırılmış veri geri alınabilir olmalı.
+// { ad:"Sirte iç çölü", tur:"bolge", lat:28.50, lon:18.50, g:0, k:0, d:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Sirte Körfezi'nin güneyindeki iç çöl kesimi, kıyı şeridinin (Osmanlı Trablusgarp) dışında kalan denetimsiz alan." },
 // ⚠️ DEŞT-İ KIPÇAK 1441'DE DEĞİL 1502'DE KIRIM'A GEÇER — 61 yıllık hata düzeltildi.
 // Kullanıcı 1476-02-01'de dört ekran görüntüsü gönderip "bu bölgede Kırım
 // Hanlığı var mıydı, nerede başlayıp nerede bitiyordu" diye sordu; gördüğü üç

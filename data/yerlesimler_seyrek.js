@@ -126,15 +126,29 @@ window.YERLESIMLER_SEYREK = [
 // hâkimiyeti 1744'ten itibaren kaynaklıdır (TDV `necid`: 1744 ittifakı,
 // 1891 Reşîdî sürgünü, 1902 Riyad'ın geri alınışı).
 // İki kırılma günü (1818-09-09 · 1824-06-01) `Necid içi`de zaten var.
-{ ad:"Necid güneybatısı", tur:"bolge", lat:21.500, lon:42.600, g:0, k:0, d:[],
-  kasitli_bosluk:true,bos:"devletsiz", neden:"TDV `necid`: 1744 öncesi bölgede etkin bir devlet ortaya çıkmamıştır",
-  s:[{f:"1744-01-01",t:"1818-09-09",d:"suud"},{f:"1824-06-01",t:"1891-01-01",d:"suud"},{f:"1891-01-01",t:"1902-01-15",d:"sammar"},{f:"1902-01-15",t:"1923-10-29",d:"suud"}],
-  v:[{f:"1818-09-09",t:"1824-06-01",k:"Mısır (İbrâhim Paşa)"}] },
+// 🔴 EMEKLİ — 18 Ağustos 2026, Emre'nin onayıyla (dolgu noktası ölçümü).
+//    Kaldırılınca toprak: OSMANLI'ya gider (4p, tâbi)
+//    Gerekçe: A1 yarıçap tavanı (uret_petek.py:699) dolgunun işini yapısal
+//    olarak yapıyor; bu nokta emilmeyi önlemek için konmuş bir HİLEYDİ ve
+//    uret_petek.py:696 zaten emekli edilebileceklerini yazıyordu.
+//    Ölçüm: arac/olc_ekleyici.py · scratchpad/olc_dolgu.py
+//    ⚠️ SİLİNMEDİ, YORUMLANDI — araştırılmış veri geri alınabilir olmalı.
+// { ad:"Necid güneybatısı", tur:"bolge", lat:21.500, lon:42.600, g:0, k:0, d:[],
+//   kasitli_bosluk:true,bos:"devletsiz", neden:"TDV `necid`: 1744 öncesi bölgede etkin bir devlet ortaya çıkmamıştır",
+//   s:[{f:"1744-01-01",t:"1818-09-09",d:"suud"},{f:"1824-06-01",t:"1891-01-01",d:"suud"},{f:"1891-01-01",t:"1902-01-15",d:"sammar"},{f:"1902-01-15",t:"1923-10-29",d:"suud"}],
+//   v:[{f:"1818-09-09",t:"1824-06-01",k:"Mısır (İbrâhim Paşa)"}] },
 
-{ ad:"Necid güneyi", tur:"bolge", lat:21.000, lon:45.000, g:0, k:0, d:[],
-  kasitli_bosluk:true,bos:"devletsiz", neden:"TDV `necid`: 1744 öncesi bölgede etkin bir devlet ortaya çıkmamıştır",
-  s:[{f:"1744-01-01",t:"1818-09-09",d:"suud"},{f:"1824-06-01",t:"1891-01-01",d:"suud"},{f:"1891-01-01",t:"1902-01-15",d:"sammar"},{f:"1902-01-15",t:"1923-10-29",d:"suud"}],
-  v:[{f:"1818-09-09",t:"1824-06-01",k:"Mısır (İbrâhim Paşa)"}] },
+// 🔴 EMEKLİ — 18 Ağustos 2026, Emre'nin onayıyla (dolgu noktası ölçümü).
+//    Kaldırılınca toprak: BOŞ kalır
+//    Gerekçe: A1 yarıçap tavanı (uret_petek.py:699) dolgunun işini yapısal
+//    olarak yapıyor; bu nokta emilmeyi önlemek için konmuş bir HİLEYDİ ve
+//    uret_petek.py:696 zaten emekli edilebileceklerini yazıyordu.
+//    Ölçüm: arac/olc_ekleyici.py · scratchpad/olc_dolgu.py
+//    ⚠️ SİLİNMEDİ, YORUMLANDI — araştırılmış veri geri alınabilir olmalı.
+// { ad:"Necid güneyi", tur:"bolge", lat:21.000, lon:45.000, g:0, k:0, d:[],
+//   kasitli_bosluk:true,bos:"devletsiz", neden:"TDV `necid`: 1744 öncesi bölgede etkin bir devlet ortaya çıkmamıştır",
+//   s:[{f:"1744-01-01",t:"1818-09-09",d:"suud"},{f:"1824-06-01",t:"1891-01-01",d:"suud"},{f:"1891-01-01",t:"1902-01-15",d:"sammar"},{f:"1902-01-15",t:"1923-10-29",d:"suud"}],
+//   v:[{f:"1818-09-09",t:"1824-06-01",k:"Mısır (İbrâhim Paşa)"}] },
 
 // ── ⑤ HAZAR KUZEYİ — listenin 3. ve 5. sırası ───────────────────────
 // 🔴 KASTEN COĞRAFÎ DOLGU. Volga ile Yayık (Ural) arasındaki Rın kumulları;

@@ -136,7 +136,14 @@ window.YERLESIMLER_EK4 = [
 //    YANLIŞ etiketlenmişti; adına bakıp ölçmemiştim (`Sirte iç çölü` dolgusu
 //    400 km batıda). Ölçüm AÇ dedi, düzeltildi.
 // 3 km: en yakın nokta 52,19 km (Câlû) ✓ · maske ✓ · d:/v: yok ⇒ borç sıfır
-{ ad:"Libya iç çölü (Sirte ardı)", tur:"bolge", lat:29.50, lon:21.50, g:0, k:0, d:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Sirte'nin ardındaki Libya iç çölü, Osmanlı Trablusgarp idaresinin kıyı-vaha ekseninin dışında kalan denetimsiz bir alandı." },
+// 🔴 EMEKLİ — 18 Ağustos 2026, Emre'nin onayıyla (dolgu noktası ölçümü).
+//    Kaldırılınca toprak: OSMANLI'ya gider (18p)
+//    Gerekçe: A1 yarıçap tavanı (uret_petek.py:699) dolgunun işini yapısal
+//    olarak yapıyor; bu nokta emilmeyi önlemek için konmuş bir HİLEYDİ ve
+//    uret_petek.py:696 zaten emekli edilebileceklerini yazıyordu.
+//    Ölçüm: arac/olc_ekleyici.py · scratchpad/olc_dolgu.py
+//    ⚠️ SİLİNMEDİ, YORUMLANDI — araştırılmış veri geri alınabilir olmalı.
+// { ad:"Libya iç çölü (Sirte ardı)", tur:"bolge", lat:29.50, lon:21.50, g:0, k:0, d:[], kasitli_bosluk:true, bos:"devletsiz", neden:"Sirte'nin ardındaki Libya iç çölü, Osmanlı Trablusgarp idaresinin kıyı-vaha ekseninin dışında kalan denetimsiz bir alandı." },
 
 // ── SLOBODA — 🔴 `zaporojye` YAZILMADI, sebebi aşağıda ───────────────
 // Koordinatör: *"Harkov çevresi (Sloboda Ukrayna) → zaporojye ekseni,

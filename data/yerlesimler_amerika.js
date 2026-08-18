@@ -1015,9 +1015,16 @@ window.YERLESIMLER_AMERIKA = [
 { ad:"Büyük Ovalar (orta kesim)", tur:"bolge", lat:43.0, lon:-100.0, g:0, k:0,
   kasitli_bosluk:true, bos:"devletsiz",
   neden:"Standart akademik Büyük Ovalar tarihyazımı XIX. yüzyıla kadar bölgede birleşik, toprak iddiası taşıyan bir siyasi otorite tanımlamıyor — göçebe atlı kabile konfederasyonları var ama sabit sınırlı 'devlet' kategorisine girmiyor." },
-{ ad:"Kanada Arktiği / Kuzeyi", tur:"bolge", lat:70.0, lon:-95.0, g:0, k:0,
-  kasitli_bosluk:true, bos:"devletsiz",
-  neden:"İnuit toplumları, standart akademik konsensüste merkezî bir siyasi otorite ya da toprak-devlet iddiası taşımayan, akrabalık/av bölgesi temelli organizasyonlarla tanımlanır." },
+// 🔴 EMEKLİ — 18 Ağustos 2026, Emre'nin onayıyla (dolgu noktası ölçümü).
+//    Kaldırılınca toprak: BOŞ kalır
+//    Gerekçe: A1 yarıçap tavanı (uret_petek.py:699) dolgunun işini yapısal
+//    olarak yapıyor; bu nokta emilmeyi önlemek için konmuş bir HİLEYDİ ve
+//    uret_petek.py:696 zaten emekli edilebileceklerini yazıyordu.
+//    Ölçüm: arac/olc_ekleyici.py · scratchpad/olc_dolgu.py
+//    ⚠️ SİLİNMEDİ, YORUMLANDI — araştırılmış veri geri alınabilir olmalı.
+// { ad:"Kanada Arktiği / Kuzeyi", tur:"bolge", lat:70.0, lon:-95.0, g:0, k:0,
+//   kasitli_bosluk:true, bos:"devletsiz",
+//   neden:"İnuit toplumları, standart akademik konsensüste merkezî bir siyasi otorite ya da toprak-devlet iddiası taşımayan, akrabalık/av bölgesi temelli organizasyonlarla tanımlanır." },
 // kaynak: standart akademik Kuzey Amerika tarihyazımı — kaynak KONUŞUYOR ve devletsiz diyor.
 
 // ============================================================================

@@ -906,9 +906,16 @@ window.YERLESIMLER_H2_AFRIKA = [
   s:[], d:[], v:[] },
 
 // ⚠️ 20,500/24,500 → 20,000/25,200: ilk koordinat LİBYA'ya düşüyordu.
-{ ad:"Sudan kuzeybatı çölü", tur:"bolge", lat:20.000, lon:25.200, g:0, k:0,
-  kasitli_bosluk:true,bos:"devletsiz", neden:"Libya çölü — fiilî idare yok",
-  s:[], d:[], v:[] },
+// 🔴 EMEKLİ — 18 Ağustos 2026, Emre'nin onayıyla (dolgu noktası ölçümü).
+//    Kaldırılınca toprak: BOŞ kalır
+//    Gerekçe: A1 yarıçap tavanı (uret_petek.py:699) dolgunun işini yapısal
+//    olarak yapıyor; bu nokta emilmeyi önlemek için konmuş bir HİLEYDİ ve
+//    uret_petek.py:696 zaten emekli edilebileceklerini yazıyordu.
+//    Ölçüm: arac/olc_ekleyici.py · scratchpad/olc_dolgu.py
+//    ⚠️ SİLİNMEDİ, YORUMLANDI — araştırılmış veri geri alınabilir olmalı.
+// { ad:"Sudan kuzeybatı çölü", tur:"bolge", lat:20.000, lon:25.200, g:0, k:0,
+//   kasitli_bosluk:true,bos:"devletsiz", neden:"Libya çölü — fiilî idare yok",
+//   s:[], d:[], v:[] },
 
 { ad:"Zolat el-Hammâd", tur:"bolge", lat:20.600, lon:27.100, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Bayûda-Libya çölü geçişi — fiilî idare yok",

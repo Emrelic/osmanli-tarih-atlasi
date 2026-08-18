@@ -241,9 +241,16 @@ window.YERLESIMLER_EK13 = [
 // sınıftan bir `bolge` noktası kondu. Sahibi Yeniseysk (1619) ve
 // Turuhansk (1607) üzerinden toplanan yasak idaresidir; 1630 o idarenin
 // platoya ulaştığı yıldır.
-{ ad:"Aşağı Tunguska platosu (Evenki)", tur:"bolge", lat:63.5000, lon:104.0000, g:0, k:0, d:[],
-  kasitli_bosluk:true,bos:"devletsiz", neden:"1630 öncesi Evenk toprağı, devletsiz. ⚠️ Bu bir COĞRAFÎ DOLGUDUR, kasaba değil: pencerede kurulmuş yerleşim yok (Tura 1924 · Vanavara 1932 · Baykit 1927 — üçü de 1923 sonrası), o yüzden yerleşim UYDURULMADI. 🔴 TDV'ye basmıyor.",
-  s:[{f:"1630-01-01",t:"1923-10-29",d:"rusya"}] },
+// 🔴 EMEKLİ — 18 Ağustos 2026, Emre'nin onayıyla (dolgu noktası ölçümü).
+//    Kaldırılınca toprak: BOŞ kalır
+//    Gerekçe: A1 yarıçap tavanı (uret_petek.py:699) dolgunun işini yapısal
+//    olarak yapıyor; bu nokta emilmeyi önlemek için konmuş bir HİLEYDİ ve
+//    uret_petek.py:696 zaten emekli edilebileceklerini yazıyordu.
+//    Ölçüm: arac/olc_ekleyici.py · scratchpad/olc_dolgu.py
+//    ⚠️ SİLİNMEDİ, YORUMLANDI — araştırılmış veri geri alınabilir olmalı.
+// { ad:"Aşağı Tunguska platosu (Evenki)", tur:"bolge", lat:63.5000, lon:104.0000, g:0, k:0, d:[],
+//   kasitli_bosluk:true,bos:"devletsiz", neden:"1630 öncesi Evenk toprağı, devletsiz. ⚠️ Bu bir COĞRAFÎ DOLGUDUR, kasaba değil: pencerede kurulmuş yerleşim yok (Tura 1924 · Vanavara 1932 · Baykit 1927 — üçü de 1923 sonrası), o yüzden yerleşim UYDURULMADI. 🔴 TDV'ye basmıyor.",
+//   s:[{f:"1630-01-01",t:"1923-10-29",d:"rusya"}] },
 
 { ad:"Vilyuysk", tur:"kale", lat:63.7500, lon:121.6300, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"1634 öncesi Yakut (Saha) toprağı, devletsiz. 🔴 TDV'ye basmıyor.",
