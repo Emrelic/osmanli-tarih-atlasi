@@ -3005,7 +3005,8 @@
   "cevap": "BEKLIYOR",
   "vade": "2026-08-16 12:00",
   "okuyan": {
-   "VERİ ZAMAN": "2026-08-16 02:08"
+   "VERİ ZAMAN": "2026-08-16 02:08",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "ARIZA",
@@ -3037,7 +3038,8 @@
    "HAZIR KITA 21": "2026-08-16 14:04",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0107",
   "cins": "EMIR",
@@ -3077,7 +3079,8 @@
    "HAZIR KITA 21": "2026-08-16 14:04",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -3212,7 +3215,8 @@
   "cevap": "→ M-0119",
   "vade": "",
   "okuyan": {
-   "VERİ ZAMAN": "2026-08-16 02:08"
+   "VERİ ZAMAN": "2026-08-16 02:08",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "ARIZA",
@@ -3244,7 +3248,8 @@
    "HAZIR KITA 21": "2026-08-16 14:04",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0117",
   "cins": "EMIR",
@@ -3320,7 +3325,8 @@
   "cevap": "→ M-0122",
   "vade": "",
   "okuyan": {
-   "VERİ ZAMAN": "2026-08-16 02:08"
+   "VERİ ZAMAN": "2026-08-16 02:08",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0119",
   "cins": "RAPOR",
@@ -3385,7 +3391,8 @@
   "cevap": "→ M-0126",
   "vade": "",
   "okuyan": {
-   "VERİ ZAMAN": "2026-08-16 02:08"
+   "VERİ ZAMAN": "2026-08-16 02:08",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -3405,7 +3412,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "VERİ ZAMAN": "2026-08-16 02:08"
+   "VERİ ZAMAN": "2026-08-16 02:08",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -3451,7 +3459,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "VERİ ZAMAN": "2026-08-16 02:08"
+   "VERİ ZAMAN": "2026-08-16 02:08",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -3471,7 +3480,8 @@
   "cevap": "→ M-0140",
   "vade": "",
   "okuyan": {
-   "VERİ ZAMAN": "2026-08-16 02:08"
+   "VERİ ZAMAN": "2026-08-16 02:08",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0114",
   "cins": "RAPOR",
@@ -3501,7 +3511,8 @@
    "HAZIR KITA 21": "2026-08-16 14:04",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -3529,7 +3540,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "VERİ ZAMAN": "2026-08-16 02:08"
+   "VERİ ZAMAN": "2026-08-16 02:08",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "SORU",
@@ -3549,7 +3561,8 @@
   "cevap": "BEKLIYOR",
   "vade": "",
   "okuyan": {
-   "VERİ ZAMAN": "2026-08-16 02:08"
+   "VERİ ZAMAN": "2026-08-16 02:08",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "ARIZA",
@@ -3569,7 +3582,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "VERİ ZAMAN": "2026-08-16 02:08"
+   "VERİ ZAMAN": "2026-08-16 02:08",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -3589,7 +3603,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "VERİ ZAMAN": "2026-08-16 02:08"
+   "VERİ ZAMAN": "2026-08-16 02:08",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "ARIZA",
@@ -3629,7 +3644,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "VERİ ZAMAN": "2026-08-16 02:08"
+   "VERİ ZAMAN": "2026-08-16 02:08",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "SORU",
@@ -3649,7 +3665,8 @@
   "cevap": "→ M-0137",
   "vade": "",
   "okuyan": {
-   "VERİ ZAMAN": "2026-08-16 02:08"
+   "VERİ ZAMAN": "2026-08-16 02:08",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "ARIZA",
@@ -3704,7 +3721,8 @@
    "HAZIR KITA 21": "2026-08-16 14:04",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -3761,7 +3779,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "VERİ ZAMAN": "2026-08-16 02:08"
+   "VERİ ZAMAN": "2026-08-16 02:08",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0128",
   "cins": "RAPOR",
@@ -3780,7 +3799,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0138",
   "cins": "TEYIT",
   "teyit": {},
@@ -3798,7 +3819,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "ARIZA",
   "teyit": {},
@@ -3816,7 +3839,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -3834,7 +3859,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -3852,7 +3879,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -3870,7 +3899,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -3898,7 +3929,8 @@
    "NOKTA AFRİKA İÇ": "2026-08-16 15:35",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -3917,7 +3949,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -3935,7 +3969,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -3999,7 +4035,8 @@
    "NOKTA AFRİKA İÇ": "2026-08-16 15:35",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -4028,7 +4065,8 @@
    "NOKTA AFRİKA İÇ": "2026-08-16 15:35",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -4055,7 +4093,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0153",
   "cins": "RAPOR",
   "teyit": {},
@@ -4073,7 +4113,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0153",
   "cins": "RAPOR",
   "teyit": {},
@@ -4091,7 +4133,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0153",
   "cins": "RAPOR",
   "teyit": {},
@@ -4109,7 +4153,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0153",
   "cins": "RAPOR",
   "teyit": {},
@@ -4127,7 +4173,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -4145,7 +4193,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0153",
   "cins": "RAPOR",
   "teyit": {},
@@ -4163,7 +4213,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0163",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0153",
   "cins": "ARIZA",
   "teyit": {},
@@ -4191,7 +4243,8 @@
    "NOKTA AFRİKA İÇ": "2026-08-16 15:35",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -4218,7 +4271,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0161",
   "cins": "RAPOR",
   "teyit": {},
@@ -4246,7 +4301,8 @@
    "NOKTA AFRİKA İÇ": "2026-08-16 15:35",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0160",
   "cins": "EMIR",
@@ -4273,7 +4329,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0166",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0161",
   "cins": "ARIZA",
   "teyit": {},
@@ -4291,7 +4349,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -4319,7 +4379,8 @@
    "NOKTA AFRİKA İÇ": "2026-08-16 15:35",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0164",
   "cins": "EMIR",
@@ -4338,7 +4399,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0170",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0163",
   "cins": "RAPOR",
   "teyit": {},
@@ -4356,7 +4419,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -4384,7 +4449,8 @@
    "NOKTA AFRİKA İÇ": "2026-08-16 15:35",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -4421,7 +4487,8 @@
    "NOKTA AFRİKA İÇ": "2026-08-16 15:35",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0167",
   "cins": "EMIR",
@@ -4448,7 +4515,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0175",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -4466,7 +4535,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0173",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "ARIZA",
   "teyit": {},
@@ -4494,7 +4565,8 @@
    "NOKTA AFRİKA İÇ": "2026-08-16 15:35",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0172",
   "cins": "EMIR",
@@ -4521,7 +4593,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -4539,7 +4613,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0171",
   "cins": "RAPOR",
   "teyit": {},
@@ -4557,7 +4633,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0180",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "ARIZA",
   "teyit": {},
@@ -4593,7 +4671,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -4611,7 +4691,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0184",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -4639,7 +4721,8 @@
    "NOKTA AFRİKA İÇ": "2026-08-16 15:35",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0176",
   "cins": "EMIR",
@@ -4666,7 +4749,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0169",
   "cins": "RAPOR",
   "teyit": {},
@@ -4684,7 +4769,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -4702,7 +4789,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0188",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0180",
   "cins": "RAPOR",
   "teyit": {},
@@ -4730,7 +4819,8 @@
    "NOKTA AFRİKA İÇ": "2026-08-16 15:35",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0179",
   "cins": "EMIR",
@@ -4749,7 +4839,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -4785,7 +4877,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0190",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -4803,7 +4897,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0193",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0183",
   "cins": "RAPOR",
   "teyit": {},
@@ -4821,7 +4917,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0184",
   "cins": "RAPOR",
   "teyit": {},
@@ -4849,7 +4947,8 @@
    "NOKTA AFRİKA İÇ": "2026-08-16 15:35",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0187",
   "cins": "EMIR",
@@ -4868,7 +4967,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0184",
   "cins": "RAPOR",
   "teyit": {},
@@ -4904,7 +5005,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0196",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0188",
   "cins": "RAPOR",
   "teyit": {},
@@ -4922,7 +5025,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -4940,7 +5045,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -4968,7 +5075,8 @@
    "NOKTA AFRİKA İÇ": "2026-08-16 15:35",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0193",
   "cins": "EMIR",
@@ -5005,7 +5113,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -5023,7 +5133,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -5041,7 +5153,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0201",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0197",
   "cins": "ARIZA",
   "teyit": {},
@@ -5069,7 +5183,8 @@
    "NOKTA AFRİKA İÇ": "2026-08-16 15:35",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0200",
   "cins": "EMIR",
@@ -5096,7 +5211,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -5114,7 +5231,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0206",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -5132,7 +5251,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -5150,7 +5271,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -5178,7 +5301,8 @@
    "NOKTA AFRİKA İÇ": "2026-08-16 15:35",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0203",
   "cins": "EMIR",
@@ -5197,7 +5321,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -5215,7 +5341,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0196",
   "cins": "RAPOR",
   "teyit": {},
@@ -5233,7 +5361,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0206",
   "cins": "SORU",
   "teyit": {},
@@ -5251,7 +5381,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "ARIZA",
   "teyit": {},
@@ -5269,7 +5401,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -5287,7 +5421,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -5315,7 +5451,8 @@
    "NOKTA AFRİKA İÇ": "2026-08-16 15:35",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -5344,7 +5481,8 @@
    "NOKTA AFRİKA İÇ": "2026-08-16 15:35",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -5371,7 +5509,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0213",
   "cins": "RAPOR",
   "teyit": {},
@@ -5389,7 +5529,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0218",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0214",
   "cins": "RAPOR",
   "teyit": {},
@@ -5407,7 +5549,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0214",
   "cins": "RAPOR",
   "teyit": {},
@@ -5435,7 +5579,8 @@
    "NOKTA AFRİKA İÇ": "2026-08-16 15:35",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0216",
   "cins": "EMIR",
@@ -5454,7 +5599,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0213",
   "cins": "RAPOR",
   "teyit": {},
@@ -5472,7 +5619,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0221",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -5500,7 +5649,8 @@
    "NOKTA AFRİKA İÇ": "2026-08-16 15:35",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0220",
   "cins": "EMIR",
@@ -5519,7 +5669,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0218",
   "cins": "SORU",
   "teyit": {},
@@ -5537,7 +5689,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0221",
   "cins": "RAPOR",
   "teyit": {},
@@ -5555,7 +5709,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0218",
   "cins": "RAPOR",
   "teyit": {},
@@ -5573,7 +5729,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0228",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "ARIZA",
   "teyit": {},
@@ -5591,7 +5749,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -5609,7 +5769,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -5637,7 +5799,8 @@
    "NOKTA AFRİKA İÇ": "2026-08-16 15:35",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0225",
   "cins": "EMIR",
@@ -5664,7 +5827,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -5682,7 +5847,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0234",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "ARIZA",
   "teyit": {},
@@ -5700,7 +5867,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "ARIZA",
   "teyit": {},
@@ -5718,7 +5887,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -5736,7 +5907,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -5763,7 +5936,8 @@
    "NOKTA AFRİKA İÇ": "2026-08-16 15:35",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0230",
   "cins": "EMIR",
@@ -5782,7 +5956,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -5800,7 +5976,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0321",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -5818,7 +5996,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -5836,7 +6016,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -5854,7 +6036,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0244",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0234",
   "cins": "RAPOR",
   "teyit": {},
@@ -5872,7 +6056,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "2026-08-16 06:00",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -5890,7 +6076,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -5908,7 +6096,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -5926,7 +6116,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -5944,7 +6136,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0239",
   "cins": "ARIZA",
   "teyit": {},
@@ -5962,7 +6156,9 @@
   "hal": "KAPANDI",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -5980,7 +6176,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -5998,7 +6196,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -6016,7 +6216,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0319",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -6041,7 +6243,8 @@
    "NOKTA AFRİKA İÇ": "2026-08-16 15:35",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -6068,7 +6271,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -6086,7 +6291,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -6104,7 +6311,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -6122,7 +6331,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0249",
   "cins": "RAPOR",
   "teyit": {},
@@ -6140,7 +6351,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0259",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -6158,7 +6371,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0249",
   "cins": "RAPOR",
   "teyit": {},
@@ -6176,7 +6391,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0249",
   "cins": "RAPOR",
   "teyit": {},
@@ -6194,7 +6411,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0249",
   "cins": "RAPOR",
   "teyit": {},
@@ -6212,7 +6431,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0249",
   "cins": "RAPOR",
   "teyit": {},
@@ -6236,7 +6457,8 @@
    "NOKTA AFRİKA İÇ": "2026-08-16 15:35",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0254",
   "cins": "EMIR",
@@ -6255,7 +6477,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -6273,7 +6497,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0249",
   "cins": "BILGI",
   "teyit": {},
@@ -6291,7 +6517,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -6309,7 +6537,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -6327,7 +6557,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "2026-08-16 05:00",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -6363,7 +6595,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0270",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -6381,7 +6615,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -6399,7 +6635,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -6441,7 +6679,8 @@
    "NOKTA AFRİKA İÇ": "2026-08-16 15:35",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0266",
   "cins": "EMIR",
@@ -6483,7 +6722,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "ARIZA",
   "teyit": {},
@@ -6519,7 +6760,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -6537,7 +6780,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -6555,7 +6800,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -6573,7 +6820,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -6609,7 +6858,9 @@
   "hal": "KAPANDI",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -6681,7 +6932,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -6699,7 +6952,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -6717,7 +6972,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0286",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -6741,7 +6998,8 @@
    "NOKTA AFRİKA İÇ": "2026-08-16 15:35",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0285",
   "cins": "EMIR",
@@ -6760,7 +7018,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -6778,7 +7038,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0286",
   "cins": "SORU",
   "teyit": {},
@@ -6796,7 +7058,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -6814,7 +7078,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "ARIZA",
   "teyit": {},
@@ -6832,7 +7098,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "2026-08-16 06:30",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -6850,7 +7118,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -6868,7 +7138,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -6892,7 +7164,8 @@
    "NOKTA AFRİKA İÇ": "2026-08-16 15:35",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -6919,7 +7192,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -6937,7 +7212,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "ARIZA",
   "teyit": {},
@@ -6955,7 +7232,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -6973,7 +7252,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0300",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0286",
   "cins": "SORU",
   "teyit": {},
@@ -6991,7 +7272,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0294",
   "cins": "RAPOR",
   "teyit": {},
@@ -7015,7 +7298,8 @@
    "NOKTA AFRİKA İÇ": "2026-08-16 15:35",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0298",
   "cins": "EMIR",
@@ -7042,7 +7326,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0300",
   "cins": "BILGI",
   "teyit": {},
@@ -7060,7 +7346,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0300",
   "cins": "RAPOR",
   "teyit": {},
@@ -7078,7 +7366,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0300",
   "cins": "RAPOR",
   "teyit": {},
@@ -7096,7 +7386,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0300",
   "cins": "RAPOR",
   "teyit": {},
@@ -7114,7 +7406,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -7132,7 +7426,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -7150,7 +7446,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -7168,7 +7466,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -7186,7 +7486,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0300",
   "cins": "RAPOR",
   "teyit": {},
@@ -7204,7 +7506,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0300",
   "cins": "RAPOR",
   "teyit": {},
@@ -7222,7 +7526,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -7240,7 +7546,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0300",
   "cins": "RAPOR",
   "teyit": {},
@@ -7264,7 +7572,8 @@
    "NOKTA AFRİKA İÇ": "2026-08-16 15:35",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -7291,7 +7600,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -7309,7 +7620,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0317",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -7327,7 +7640,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0313",
   "cins": "RAPOR",
   "teyit": {},
@@ -7351,7 +7666,8 @@
    "NOKTA AFRİKA İÇ": "2026-08-16 15:35",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0315",
   "cins": "EMIR",
@@ -7370,7 +7686,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0328",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -7388,7 +7706,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0248",
   "cins": "BILGI",
   "teyit": {},
@@ -7406,7 +7726,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0313",
   "cins": "SORU",
   "teyit": {},
@@ -7424,7 +7746,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0236",
   "cins": "BILGI",
   "teyit": {},
@@ -7442,7 +7766,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -7460,7 +7786,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0317",
   "cins": "SORU",
   "teyit": {},
@@ -7478,7 +7806,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "2026-08-16 15:30",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -7496,7 +7826,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -7514,7 +7846,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -7532,7 +7866,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -7568,7 +7904,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "2026-08-16 07:00",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "EMIR",
   "teyit": {},
@@ -7586,7 +7924,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -7604,7 +7944,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -7627,7 +7969,8 @@
    "NOKTA AFRİKA İÇ": "2026-08-16 15:35",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -7651,7 +7994,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -7687,7 +8032,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -7705,7 +8052,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -7723,7 +8072,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0332",
   "cins": "BILGI",
   "teyit": {},
@@ -7741,7 +8092,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -7759,7 +8112,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0332",
   "cins": "SORU",
   "teyit": {},
@@ -7777,7 +8132,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -7795,7 +8152,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0332",
   "cins": "RAPOR",
   "teyit": {},
@@ -7839,7 +8198,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -7857,7 +8218,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "ARIZA",
   "teyit": {},
@@ -7875,7 +8238,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -7893,7 +8258,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -7911,7 +8278,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -7947,7 +8316,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -8017,7 +8388,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -8071,7 +8444,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0358",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "ARIZA",
   "teyit": {},
@@ -8089,7 +8464,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -8112,7 +8489,8 @@
    "NOKTA AFRİKA İÇ": "2026-08-16 15:35",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0355",
   "cins": "BILGI",
@@ -8139,7 +8517,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0355",
   "cins": "BILGI",
   "teyit": {},
@@ -8157,7 +8537,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0360",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -8180,7 +8562,8 @@
    "NOKTA AFRİKA İÇ": "2026-08-16 15:35",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0359",
   "cins": "EMIR",
@@ -8199,7 +8582,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -8217,7 +8602,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -8235,7 +8622,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0376",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -8253,7 +8642,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -8271,7 +8662,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -8289,7 +8682,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -8307,7 +8702,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0360",
   "cins": "RAPOR",
   "teyit": {},
@@ -8325,7 +8722,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0371",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -8343,7 +8742,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -8361,7 +8762,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0373",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0332",
   "cins": "SORU",
   "teyit": {},
@@ -8384,7 +8787,8 @@
    "NOKTA AFRİKA İÇ": "2026-08-16 15:35",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0368",
   "cins": "EMIR",
@@ -8408,7 +8812,8 @@
    "NOKTA AFRİKA İÇ": "2026-08-16 15:35",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0370",
   "cins": "EMIR",
@@ -8447,7 +8852,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -8465,7 +8872,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -8483,7 +8892,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0363",
   "cins": "SORU",
   "teyit": {},
@@ -8501,7 +8912,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -8519,7 +8932,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -8537,7 +8952,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -8555,7 +8972,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -8573,7 +8992,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -8591,7 +9012,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0384",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -8609,7 +9032,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0390",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0372",
   "cins": "RAPOR",
   "teyit": {},
@@ -8632,7 +9057,8 @@
    "NOKTA AFRİKA İÇ": "2026-08-16 15:35",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0382",
   "cins": "EMIR",
@@ -8651,7 +9077,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -8669,7 +9097,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0391",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -8687,7 +9117,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -8705,7 +9137,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -8723,7 +9157,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -8741,7 +9177,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0383",
   "cins": "RAPOR",
   "teyit": {},
@@ -8764,7 +9202,8 @@
    "NOKTA AFRİKA İÇ": "2026-08-16 15:35",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0386",
   "cins": "EMIR",
@@ -8783,7 +9222,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -8801,7 +9242,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0391",
   "cins": "RAPOR",
   "teyit": {},
@@ -8819,7 +9262,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -8837,7 +9282,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -8855,7 +9302,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0391",
   "cins": "RAPOR",
   "teyit": {},
@@ -8877,7 +9326,8 @@
    "NOKTA AFRİKA İÇ": "2026-08-16 15:35",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -8908,7 +9358,8 @@
    "NOKTA AFRİKA İÇ": "2026-08-16 15:35",
    "NOKTA OKYANUSYA": "2026-08-16 15:37",
    "Opus hazır kıta 23": "2026-08-16 15:37",
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -8935,7 +9386,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0391",
   "cins": "RAPOR",
   "teyit": {},
@@ -8953,7 +9406,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0397",
   "cins": "BILGI",
   "teyit": {},
@@ -8971,7 +9426,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -8989,7 +9446,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0397",
   "cins": "RAPOR",
   "teyit": {},
@@ -9007,7 +9466,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -9025,7 +9486,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0397",
   "cins": "RAPOR",
   "teyit": {},
@@ -9043,7 +9506,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0412",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -9061,7 +9526,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -9079,7 +9546,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0397",
   "cins": "SORU",
   "teyit": {},
@@ -9115,7 +9584,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0398",
   "cins": "BILGI",
   "teyit": {},
@@ -9133,7 +9604,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0397",
   "cins": "RAPOR",
   "teyit": {},
@@ -9151,7 +9624,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0397",
   "cins": "ARIZA",
   "teyit": {},
@@ -9170,7 +9645,8 @@
   "cevap": "→ M-0415",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0405",
   "cins": "EMIR",
@@ -9190,7 +9666,8 @@
   "cevap": "→ M-0418",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0397",
   "cins": "ARIZA",
@@ -9209,7 +9686,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -9227,7 +9706,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0412",
   "cins": "RAPOR",
   "teyit": {},
@@ -9245,7 +9726,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -9263,7 +9746,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -9281,7 +9766,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0413",
   "cins": "SORU",
   "teyit": {},
@@ -9300,7 +9787,8 @@
   "cevap": "→ M-0455",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -9319,7 +9807,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -9337,7 +9827,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0423",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -9355,7 +9847,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -9374,7 +9868,8 @@
   "cevap": "→ M-0434",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0421",
   "cins": "EMIR",
@@ -9393,7 +9888,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0427",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0419",
   "cins": "RAPOR",
   "teyit": {},
@@ -9448,7 +9945,8 @@
   "cevap": "→ M-0436",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0424",
   "cins": "EMIR",
@@ -9467,7 +9965,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -9485,7 +9985,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -9503,7 +10005,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0419",
   "cins": "RAPOR",
   "teyit": {},
@@ -9521,7 +10025,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -9562,7 +10068,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "2026-08-17 02:00",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -9580,7 +10088,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0423",
   "cins": "BILGI",
   "teyit": {},
@@ -9616,7 +10126,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0427",
   "cins": "RAPOR",
   "teyit": {},
@@ -9634,7 +10146,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -9652,7 +10166,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -9693,7 +10209,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0441",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "ARIZA",
   "teyit": {},
@@ -9712,7 +10230,8 @@
   "cevap": "→ M-0449",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0440",
   "cins": "EMIR",
@@ -9739,7 +10258,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -9757,7 +10278,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -9776,7 +10299,8 @@
   "cevap": "→ M-0459",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -9795,7 +10319,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0441",
   "cins": "RAPOR",
   "teyit": {},
@@ -9813,7 +10339,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0441",
   "cins": "RAPOR",
   "teyit": {},
@@ -9831,7 +10359,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0441",
   "cins": "RAPOR",
   "teyit": {},
@@ -9849,7 +10379,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -9867,7 +10399,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0441",
   "cins": "BILGI",
   "teyit": {},
@@ -9885,7 +10419,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0487",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -9903,7 +10439,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -9921,7 +10459,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -9940,7 +10480,8 @@
   "cevap": "→ M-0463",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -9959,7 +10500,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0457",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "ARIZA",
   "teyit": {},
@@ -9977,7 +10520,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0419",
   "cins": "RAPOR",
   "teyit": {},
@@ -9996,7 +10541,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -10016,7 +10562,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0454",
   "cins": "EMIR",
@@ -10035,7 +10582,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -10053,7 +10602,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0444",
   "cins": "RAPOR",
   "teyit": {},
@@ -10072,7 +10623,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -10091,7 +10643,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "ARIZA",
   "teyit": {},
@@ -10109,7 +10663,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -10146,7 +10702,8 @@
   "cevap": "→ M-0473",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -10165,7 +10722,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0464",
   "cins": "BILGI",
   "teyit": {},
@@ -10184,7 +10743,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -10203,7 +10763,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -10222,7 +10784,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -10242,7 +10805,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -10261,7 +10825,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -10298,7 +10864,8 @@
   "cevap": "→ M-0475",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -10317,7 +10884,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0464",
   "cins": "RAPOR",
   "teyit": {},
@@ -10335,7 +10904,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0476",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -10354,7 +10925,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0472",
   "cins": "BILGI",
@@ -10374,7 +10946,8 @@
   "cevap": "→ M-0485",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0474",
   "cins": "EMIR",
@@ -10394,7 +10967,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -10432,7 +11006,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -10451,7 +11026,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "ARIZA",
   "teyit": {},
@@ -10470,7 +11047,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -10490,7 +11068,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -10509,7 +11088,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -10527,7 +11108,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -10545,7 +11128,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0476",
   "cins": "RAPOR",
   "teyit": {},
@@ -10564,7 +11149,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -10583,7 +11169,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0450",
   "cins": "BILGI",
   "teyit": {},
@@ -10602,7 +11190,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -10622,7 +11211,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -10642,7 +11232,8 @@
   "cevap": "→ M-0493",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -10662,7 +11253,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -10686,7 +11278,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0500",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -10723,7 +11317,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -10743,7 +11338,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -10762,7 +11358,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0503",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -10781,7 +11379,8 @@
   "cevap": "→ M-0510",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -10809,7 +11408,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -10828,7 +11428,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0492",
   "cins": "SORU",
   "teyit": {},
@@ -10847,7 +11449,8 @@
   "cevap": "→ M-0513",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0492",
   "cins": "EMIR",
@@ -10866,7 +11469,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -10884,7 +11489,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0509",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "ARIZA",
   "teyit": {},
@@ -10920,7 +11527,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0500",
   "cins": "TEYIT",
   "teyit": {},
@@ -10938,7 +11547,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0497",
   "cins": "RAPOR",
   "teyit": {},
@@ -10957,7 +11568,8 @@
   "cevap": "→ M-0511",
   "vade": "2026-08-17 04:00",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "ARIZA",
@@ -10976,7 +11588,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0500",
   "cins": "BILGI",
   "teyit": {},
@@ -11030,7 +11644,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0497",
   "cins": "RAPOR",
   "teyit": {},
@@ -11067,7 +11683,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0511",
   "cins": "RAPOR",
@@ -11086,7 +11703,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0500",
   "cins": "RAPOR",
   "teyit": {},
@@ -11105,7 +11724,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -11125,7 +11745,8 @@
   "cevap": "→ M-0518",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -11145,7 +11766,8 @@
   "cevap": "→ M-0523",
   "vade": "2026-08-17 05:00",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "ARIZA",
@@ -11164,7 +11786,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -11200,7 +11824,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0509",
   "cins": "RAPOR",
   "teyit": {},
@@ -11219,7 +11845,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -11239,7 +11866,8 @@
   "cevap": "→ M-0530",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -11258,7 +11886,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0516",
   "cins": "RAPOR",
   "teyit": {},
@@ -11295,7 +11925,8 @@
   "cevap": "→ M-0525",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -11315,7 +11946,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0524",
   "cins": "BILGI",
@@ -11335,7 +11967,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "ARIZA",
@@ -11391,7 +12024,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -11410,7 +12044,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0532",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0521",
   "cins": "SORU",
   "teyit": {},
@@ -11429,7 +12065,8 @@
   "cevap": "→ M-0536",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -11467,7 +12104,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -11504,7 +12142,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -11522,7 +12162,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0543",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0531",
   "cins": "SORU",
   "teyit": {},
@@ -11541,7 +12183,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -11579,7 +12222,8 @@
   "cevap": "→ M-0542",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -11616,7 +12260,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0539",
   "cins": "TEYIT",
   "teyit": {},
@@ -11635,7 +12281,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0539",
   "cins": "BILGI",
@@ -11654,7 +12301,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0544",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0536",
   "cins": "RAPOR",
   "teyit": {},
@@ -11673,7 +12322,8 @@
   "cevap": "→ M-0548",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0543",
   "cins": "BILGI",
@@ -11692,7 +12342,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0550",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -11711,7 +12363,8 @@
   "cevap": "→ M-0554",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -11754,7 +12407,8 @@
   "cevap": "→ M-0555",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0544",
   "cins": "BILGI",
@@ -11773,7 +12427,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -11845,7 +12501,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0546",
   "cins": "RAPOR",
   "teyit": {},
@@ -11863,7 +12521,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0546",
   "cins": "RAPOR",
   "teyit": {},
@@ -11882,7 +12542,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0548",
   "cins": "BILGI",
@@ -11902,7 +12563,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -11921,7 +12583,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0552",
   "cins": "SORU",
   "teyit": {},
@@ -11940,7 +12604,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -11968,7 +12633,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -12005,7 +12671,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -12024,7 +12692,8 @@
   "cevap": "→ M-0563",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -12044,7 +12713,8 @@
   "cevap": "→ M-0565",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0562",
   "cins": "BILGI",
@@ -12064,7 +12734,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -12084,7 +12755,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0563",
   "cins": "BILGI",
@@ -12158,7 +12830,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -12196,7 +12869,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -12234,7 +12908,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -12253,7 +12928,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -12290,7 +12967,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -12310,7 +12988,8 @@
   "cevap": "→ M-0580",
   "vade": "2026-08-17 08:00",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0575",
   "cins": "RAPOR",
@@ -12330,7 +13009,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -12350,7 +13030,8 @@
   "cevap": "→ M-0589",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -12370,7 +13051,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0577",
   "cins": "BILGI",
@@ -12389,7 +13071,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -12407,7 +13091,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -12425,7 +13111,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0579",
   "cins": "RAPOR",
   "teyit": {},
@@ -12444,7 +13132,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "ARIZA",
@@ -12463,7 +13152,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0579",
   "cins": "RAPOR",
   "teyit": {},
@@ -12481,7 +13172,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0567",
   "cins": "RAPOR",
   "teyit": {},
@@ -12499,7 +13192,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "ARIZA",
   "teyit": {},
@@ -12517,7 +13212,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -12535,7 +13232,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0579",
   "cins": "ARIZA",
   "teyit": {},
@@ -12553,7 +13252,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0595",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0528",
   "cins": "RAPOR",
   "teyit": {},
@@ -12572,7 +13273,8 @@
   "cevap": "→ M-0594",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -12592,7 +13294,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0591",
   "cins": "BILGI",
@@ -12611,7 +13314,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0572",
   "cins": "RAPOR",
   "teyit": {},
@@ -12630,7 +13335,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0591",
   "cins": "RAPOR",
@@ -12667,7 +13373,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -12704,7 +13412,8 @@
   "cevap": "→ M-0609",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "SORU",
@@ -12731,7 +13440,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0598",
   "cins": "RAPOR",
   "teyit": {},
@@ -12749,7 +13460,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0598",
   "cins": "RAPOR",
   "teyit": {},
@@ -12767,7 +13480,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0598",
   "cins": "RAPOR",
   "teyit": {},
@@ -12785,7 +13500,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0598",
   "cins": "ARIZA",
   "teyit": {},
@@ -12803,7 +13520,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0598",
   "cins": "BILGI",
   "teyit": {},
@@ -12821,7 +13540,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0598",
   "cins": "RAPOR",
   "teyit": {},
@@ -12839,7 +13560,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0598",
   "cins": "RAPOR",
   "teyit": {},
@@ -12857,7 +13580,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -12875,7 +13600,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "ARIZA",
   "teyit": {},
@@ -12911,7 +13638,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0598",
   "cins": "SORU",
   "teyit": {},
@@ -12948,7 +13677,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -12967,7 +13697,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0608",
   "cins": "RAPOR",
   "teyit": {},
@@ -12985,7 +13717,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -13004,7 +13738,8 @@
   "cevap": "→ M-0615",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -13023,7 +13758,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0614",
   "cins": "TEYIT",
   "teyit": {},
@@ -13042,7 +13779,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -13062,7 +13800,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -13082,7 +13821,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -13101,7 +13841,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0621",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -13119,7 +13861,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -13156,7 +13900,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "ARIZA",
@@ -13176,7 +13921,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -13196,7 +13942,8 @@
   "cevap": "→ M-0635",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -13215,7 +13962,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0624",
   "cins": "SORU",
   "teyit": {},
@@ -13233,7 +13982,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0633",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0624",
   "cins": "RAPOR",
   "teyit": {},
@@ -13251,7 +14002,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -13269,7 +14022,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -13287,7 +14042,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -13305,7 +14062,9 @@
   "hal": "KAPANDI",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0624",
   "cins": "RAPOR",
   "teyit": {},
@@ -13324,7 +14083,8 @@
   "cevap": "→ M-0655",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -13343,7 +14103,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -13379,7 +14141,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0644",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -13397,7 +14161,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0650",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0624",
   "cins": "SORU",
   "teyit": {},
@@ -13415,7 +14181,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "ARIZA",
   "teyit": {},
@@ -13433,7 +14201,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0631",
   "cins": "RAPOR",
   "teyit": {},
@@ -13452,7 +14222,8 @@
   "cevap": "→ M-0653",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -13476,7 +14247,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -13494,7 +14267,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "2026-08-17 10:00",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -13513,7 +14288,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -13532,7 +14308,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -13550,7 +14328,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0631",
   "cins": "RAPOR",
   "teyit": {},
@@ -13569,7 +14349,8 @@
   "cevap": "→ M-0657",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0634",
   "cins": "EMIR",
@@ -13588,7 +14369,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -13606,7 +14389,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -13624,7 +14409,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -13642,7 +14429,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0631",
   "cins": "RAPOR",
   "teyit": {},
@@ -13660,7 +14449,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -13679,7 +14470,8 @@
   "cevap": "→ M-0716",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0635",
   "cins": "EMIR",
@@ -13698,7 +14490,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0644",
   "cins": "RAPOR",
   "teyit": {},
@@ -13716,7 +14510,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0656",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -13734,7 +14530,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0662",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0638",
   "cins": "ARIZA",
   "teyit": {},
@@ -13770,7 +14568,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0631",
   "cins": "RAPOR",
   "teyit": {},
@@ -13789,7 +14589,8 @@
   "cevap": "→ M-0661",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0652",
   "cins": "EMIR",
@@ -13808,7 +14609,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0644",
   "cins": "RAPOR",
   "teyit": {},
@@ -13826,7 +14629,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -13844,7 +14649,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -13862,7 +14669,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -13934,7 +14743,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0667",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0662",
   "cins": "ARIZA",
   "teyit": {},
@@ -13952,7 +14763,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -13971,7 +14784,8 @@
   "cevap": "→ M-0671",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "ARIZA",
@@ -14008,7 +14822,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -14026,7 +14842,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0667",
   "cins": "ARIZA",
   "teyit": {},
@@ -14044,7 +14862,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "ARIZA",
   "teyit": {},
@@ -14063,7 +14883,8 @@
   "cevap": "→ M-0676",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0666",
   "cins": "EMIR",
@@ -14082,7 +14903,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0675",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "ARIZA",
   "teyit": {},
@@ -14100,7 +14923,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0671",
   "cins": "TEYIT",
   "teyit": {},
@@ -14118,7 +14943,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0679",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "ARIZA",
   "teyit": {},
@@ -14137,7 +14964,8 @@
   "cevap": "→ M-0678",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0672",
   "cins": "EMIR",
@@ -14157,7 +14985,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0671",
   "cins": "BILGI",
@@ -14176,7 +15005,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0650",
   "cins": "RAPOR",
   "teyit": {},
@@ -14194,7 +15025,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0675",
   "cins": "TEYIT",
   "teyit": {},
@@ -14213,7 +15046,8 @@
   "cevap": "→ M-0683",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0674",
   "cins": "BILGI",
@@ -14237,7 +15071,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0679",
   "cins": "RAPOR",
   "teyit": {},
@@ -14274,7 +15110,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -14294,7 +15131,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0679",
   "cins": "RAPOR",
@@ -14313,7 +15151,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -14331,7 +15171,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -14349,7 +15191,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -14368,7 +15212,8 @@
   "cevap": "→ M-0702",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -14387,7 +15232,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -14405,7 +15252,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0687",
   "cins": "RAPOR",
   "teyit": {},
@@ -14423,7 +15272,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -14441,7 +15292,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0687",
   "cins": "RAPOR",
   "teyit": {},
@@ -14459,7 +15312,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -14477,7 +15332,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0687",
   "cins": "BILGI",
   "teyit": {},
@@ -14495,7 +15352,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -14514,7 +15373,8 @@
   "cevap": "→ M-0703",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -14533,7 +15393,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -14551,7 +15413,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "2026-08-17 12:00",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0687",
   "cins": "ARIZA",
   "teyit": {},
@@ -14569,7 +15433,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0695",
   "cins": "RAPOR",
   "teyit": {},
@@ -14587,7 +15453,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0695",
   "cins": "SORU",
   "teyit": {},
@@ -14605,7 +15473,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -14623,7 +15493,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -14641,7 +15513,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0687",
   "cins": "RAPOR",
   "teyit": {},
@@ -14659,7 +15533,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0695",
   "cins": "SORU",
   "teyit": {},
@@ -14677,7 +15553,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -14695,7 +15573,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "ARIZA",
   "teyit": {},
@@ -14714,7 +15594,8 @@
   "cevap": "→ M-0712",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -14733,7 +15614,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -14769,7 +15652,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0706",
   "cins": "RAPOR",
   "teyit": {},
@@ -14787,7 +15672,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0713",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -14805,7 +15692,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -14823,7 +15712,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0706",
   "cins": "RAPOR",
   "teyit": {},
@@ -14842,7 +15733,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0710",
   "cins": "EMIR",
@@ -14897,7 +15789,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0650",
   "cins": "RAPOR",
   "teyit": {},
@@ -14916,7 +15810,8 @@
   "cevap": "→ M-0724",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -14936,7 +15831,8 @@
   "cevap": "→ M-0721",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "ARIZA",
@@ -14955,7 +15851,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -14974,7 +15872,8 @@
   "cevap": "→ M-0726",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0717",
   "cins": "ARIZA",
@@ -14994,7 +15893,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0718",
   "cins": "EMIR",
@@ -15014,7 +15914,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -15033,7 +15934,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -15051,7 +15954,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0717",
   "cins": "RAPOR",
   "teyit": {},
@@ -15088,7 +15993,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0720",
   "cins": "BILGI",
@@ -15107,7 +16013,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -15126,7 +16034,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -15145,7 +16054,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0732",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -15164,7 +16075,8 @@
   "cevap": "→ M-0734",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "ARIZA",
@@ -15183,7 +16095,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -15219,7 +16133,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -15238,7 +16154,8 @@
   "cevap": "→ M-0737",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0730",
   "cins": "EMIR",
@@ -15257,7 +16174,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0734",
   "cins": "RAPOR",
   "teyit": {},
@@ -15275,7 +16194,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -15293,7 +16214,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0734",
   "cins": "RAPOR",
   "teyit": {},
@@ -15311,7 +16234,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -15330,7 +16255,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -15349,7 +16275,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0742",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -15368,7 +16296,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -15405,7 +16334,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0744",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0742",
   "cins": "SORU",
   "teyit": {},
@@ -15446,7 +16377,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -15464,7 +16397,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0748",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -15501,7 +16436,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "M-0746",
   "cins": "EMIR",
@@ -15520,7 +16456,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "EMIR",
   "teyit": {},
@@ -15538,7 +16476,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "SORU",
   "teyit": {},
@@ -15556,7 +16496,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -15574,7 +16516,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -15593,7 +16537,8 @@
   "cevap": "→ M-0758",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -15618,7 +16563,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "RAPOR",
@@ -15637,7 +16583,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -15655,7 +16603,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0753",
   "cins": "RAPOR",
   "teyit": {},
@@ -15673,7 +16623,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0753",
   "cins": "RAPOR",
   "teyit": {},
@@ -15691,7 +16643,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0753",
   "cins": "RAPOR",
   "teyit": {},
@@ -15710,7 +16664,8 @@
   "cevap": "→ M-0760",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA 32": "2026-08-20 00:07"
+   "HAZIR KITA 32": "2026-08-20 00:07",
+   "KOORDINATOR": "2026-08-20 00:13"
   },
   "yanit_no": "",
   "cins": "EMIR",
@@ -15734,7 +16689,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0759",
   "cins": "RAPOR",
   "teyit": {},
@@ -15752,7 +16709,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -16052,7 +17011,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0764",
   "cins": "TEYIT",
   "teyit": {},
@@ -16070,7 +17031,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0770",
   "cins": "TEYIT",
   "teyit": {},
@@ -16088,7 +17051,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "TEYIT",
   "teyit": {},
@@ -16106,7 +17071,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0772",
   "cins": "TEYIT",
   "teyit": {},
@@ -16124,7 +17091,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "TEYIT",
   "teyit": {},
@@ -16142,7 +17111,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0773",
   "cins": "BILGI",
   "teyit": {},
@@ -16160,7 +17131,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0771",
   "cins": "TEYIT",
   "teyit": {},
@@ -16178,7 +17151,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "ARIZA",
   "teyit": {},
@@ -16214,7 +17189,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0784",
   "cins": "RAPOR",
   "teyit": {},
@@ -16399,7 +17376,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "TEYIT",
   "teyit": {},
@@ -16417,7 +17396,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "TEYIT",
   "teyit": {},
@@ -16435,7 +17416,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "ARIZA",
   "teyit": {},
@@ -16453,7 +17436,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0792",
   "cins": "RAPOR",
   "teyit": {},
@@ -16471,7 +17456,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "TEYIT",
   "teyit": {},
@@ -16489,7 +17476,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "",
   "cins": "ARIZA",
   "teyit": {},
@@ -16584,7 +17573,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0801",
   "cins": "RAPOR",
   "teyit": {},
@@ -16602,7 +17593,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0802",
   "cins": "RAPOR",
   "teyit": {},
@@ -16620,7 +17613,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0803",
   "cins": "RAPOR",
   "teyit": {},
@@ -16638,7 +17633,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-20 00:13"
+  },
   "yanit_no": "M-0804",
   "cins": "RAPOR",
   "teyit": {},
