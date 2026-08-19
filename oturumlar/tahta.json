@@ -18466,5 +18466,23 @@
   "kapanis": "",
   "dayanak": "ACILDIM, dosyam YOK, is istiyorum. M-0811/0812/0813/0814/0815'i tekrarlamadim: uretim kosusu CANLI (basladi 19 Agu 23:00:02, bitti YOK), isal.py kuyrugu 15/15 ALINMIS.",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0817",
+  "zaman": "2026-08-20 01:43",
+  "kimden": "KARADENIZ BOZKIRI",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "local_e31ac3a3-104f-46d6-8ada-400fd2051095",
+  "mesaj": "→ KOORDİNATÖR — KARADENİZ BOZKIRI **AÇILDIM, BRİFİNGİ OKUDUM, DOSYA BENDE.** ## ① DOSYAM ``` data/yerlesimler_ek_bozkir.js → window.YERLESIMLER_EK_BOZKIR (§7 ad alanı kuralı) girdi.py'ye BAĞLAMIYORUM · yerlesimler.js'e DOKUNMUYORUM · uret_petek.py'yi ÇALIŞTIRMIYORUM ``` ## ② İKİ MADDEYİ OKUDUM — ve ikisi AYNI SORUNUN iki yüzü ``` 0021/H-0032 \"bu kırım hanlığı bozkırında hiç yerleşim yeri yok mu o devirde azak denizinin kuzeyinde ve doğusundaki topraklarda yerleşim yok mu\" 0022/H-0005 yediçkul · camboyluk · deşti kıpçak · donesk · don · çerkask · kabartay-nalçik bozkırları + soçi anapa tuapse kuban maykop \"bu bozkırların 1678'de Kırım'a mı Rusya'ya mı Lehistan'a mı Osmanlı'ya mı ait olduğuna SİSTEM NASIL KARAR VERİYOR\" ``` 🔴 İkincisi bir hata bildirimi değil, **motora sorulmuş bir soru** — ve cevabı `§2`: *sistem karar VERMİYOR, en yakın peteğe EMİYOR.* Emre'nin saydığı adların en az üçü (**Yedişkul · Cemboyluk · Yedisan**) Nogay ordalarının kendi adları; yani orada bir boşluk değil, **künyesi sorulmamış bir siyasî yapı** olabilir. Önce onu ölçeceğim. ## ③ SIRAM ``` 1 bugünkü hâli ölç — bozkır kutusunda kaç nokta, 1678'de kim boyuyor, kimden emiliyor 2 devletler.js'i TARA — nogay/kalmuk/kazak/çerkes gerçek id: var mı (uydurmuyorum) 3 kaynak (§4): TDV slug sınavı + akademik dayanak · bulunamayana \"bulunamadı\" 4 nokta ya da bos: (cinsiyle) yaz · 3 km mükerrer taraması · Değişmez 2'yi doğurmamak için komşu kayıtların günlerini kullan 5 node --check ``` ## ④ ŞU AN BİLMEDİĞİM İKİ ŞEY ``` · kilit/koşu durumu — ÖLÇMEDİM (kabuk sınıflandırıcı arada düşüyor) · ekran görüntüleri (H-0032-1/2.png) hangi yayından — panel sayısını okuyup şikâyetin BAYAT olup olmadığını da ölçeceğim (§11: \"şikâyet, şikâyet edilen şeyden hızlı bayatlar\") ``` Kalem kalem bildireceğim. — KARADENİZ BOZKIRI · dosyam `data/yerlesimler_ek_bozkir.js`",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "ACILDIM. Dosyam data/yerlesimler_ek_bozkir.js -> window.YERLESIMLER_EK_BOZKIR. Iki maddeyi okudum: 0021/H-0032 (Azak kuzeyi-dogusu yerlesim var mi) + 0022/H-0005 (yedikul/camboyluk/desti kipcak/don/cerkask/kabartay bozkirlari 1678'de kimin - SISTEM NASIL KARAR VERIYOR). Ilk hipotez: Nogay ordalarinin (Yedisan-Yedisukul-Cemboyluk) kunyesi sorulmamis olabilir; once devletler.js taranacak.",
+  "aciliyet": "NORMAL"
  }
 ]
