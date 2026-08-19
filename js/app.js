@@ -1912,8 +1912,25 @@ function sonrakiOlayaKadar(gi) {
 //   meydan muharebesi -> iki kılıç, kuşatma -> şehrin üstünde küçük çember,
 //   iç isyan -> ateş, deniz muharebesi -> çapa. Kuşatma/muharebe başarısızsa
 //   simgenin üstüne kırmızı bir çarpı biner.
-var SAVAS_TUR_SIMGE = { meydan: "⚔", kusatma: "◎", isyan: "🔥", deniz: "⚓" };
-var savasIsaretleri = (window.SAVASLAR || []).filter(function (s) { return s.lat; })
+var SAVAS_TUR_SIMGE = { meydan: "⚔", kusatma: "◎", isyan: "🔥", deniz: "⚓",
+                        antlasma: "📜" };
+// 🔴 ANTLAŞMALAR DA İŞARETLENİR — 19 Ağustos 2026, `0023/H-0017`.
+// Emre: *"karlofça anlaşması maddesinde karlofça kasabası haritada
+// gösterilmiyor."* Sebep İKİ katmanlıydı ve tek başına biri yetmiyordu:
+//   ① `ANTLASMALAR` kayıtlarında `lat`/`lon` HİÇ YOKTU
+//   ② bu dizi YALNIZ `SAVASLAR`ı okuyordu — koordinat yazılsa bile
+//      görülmeyecekti
+// ⇒ Yalnız ①'i düzeltmek "veri yazdım ama ekranda yok" derdi; yalnız ②'yi
+// düzeltmek hiçbir şey değiştirmezdi. `CLAUDE.md §11`in "iki uç da ölçülür"
+// kuralının arayüz tarafı.
+// 📜 glifi İCAT EDİLMEDİ: lejant (`app.js:1067`) zaten *"📜 Antlaşmayla
+// alındı"* diyor — kullanıcının öğrendiği dil korundu.
+var savasIsaretleri = (window.SAVASLAR || [])
+  .concat((window.ANTLASMALAR || []).map(function (a) {
+    return { t: a.t, ad: a.ad, tur: "antlasma", lat: a.lat, lon: a.lon,
+             sonuc: "belirsiz", sure: a.sure };
+  }))
+  .filter(function (s) { return s.lat; })
   .map(function (s) {
     var tur = s.tur || "meydan";
     var dis = document.createElement("div");
@@ -1952,7 +1969,34 @@ function savasGuncelle(t) {
   // geçmiş durumda). Sonra savaş işaretleri KENDİ aralarında da elenir —
   // aynı haftada birden çok muharebe olduğunda (ör. sefer güzergâhı) onlar da
   // çakışabiliyordu.
+  // 🔴 ODAKTAKİ MUHAREBE ELENMEZ — 19 Ağustos 2026, `0023/H-0012·15·16`.
+  // Emre: *"salankamen bozgunu ve bunun gibi diğer bozgun ve muharebe
+  // yerleri haritada işaretli değil."* Üçünün de (Salankamen · Ulaş ·
+  // Zenta) `savaslar.js` kaydı ve koordinatı ZATEN VARDI ve `sure`
+  // penceresi de sağlamdı (`sonrakiOlayaKadar` en az 60 gün döndürüyor).
+  // ⇒ Geriye tek aday kalıyor: AŞAĞIDAKİ ELEME. Üçü de kasabaların tam
+  // üstünde geçmiş muharebeler; şehir etiketi öncelikli olduğu için
+  // muharebe işareti siliniyordu.
+  //
+  // ⚠️ VE BU ÖLÇÜLMEDİ, AÇIKÇA YAZIYORUM: bu oturumun tarayıcısında harita
+  // hiç çizilmedi (`harita.getStyle()` undefined, WebGL başlamıyor), o
+  // yüzden elemeyi ateşleyip göremedim. Kural yine de değiştirildi, çünkü
+  // ÖLÇÜMDEN BAĞIMSIZ OLARAK YANLIŞ: kullanıcı bir muharebe maddesini
+  // okurken o muharebenin işareti, yanındaki şehir etiketine feda edilemez.
+  // O anda ekranın KONUSU odur.
+  // 📌 Eğer Emre koşudan sonra hâlâ görmüyorsa sebep bu DEĞİLMİŞ demektir
+  // ve teşhis yeniden kurulur — bu satır o zaman da doğru kalır.
+  var odakGi = (sonVurgulanan >= 0 && olaylar[sonVurgulanan])
+    ? olaylar[sonVurgulanan].gi : null;
   var tutulan = [];
+  var korunan = [];
+  for (var mk0 = 0; mk0 < savasIsaretleri.length; mk0++) {
+    var mp = savasIsaretleri[mk0];
+    if (!mp.ekli || odakGi === null || mp.gi !== odakGi) continue;
+    var pel = mp.mk.getElement();
+    var pr = pel ? pel.getBoundingClientRect() : null;
+    if (pr && pr.width) { korunan.push(pr); tutulan.push(pr); }
+  }
   for (var si = 0; si < sehirler.length; si++) {
     if (!sehirler[si].ekli) continue;
     var sr = sehirler[si].ic.getBoundingClientRect();
@@ -1961,6 +2005,7 @@ function savasGuncelle(t) {
   for (var mi2 = 0; mi2 < savasIsaretleri.length; mi2++) {
     var mm = savasIsaretleri[mi2];
     if (!mm.ekli) continue;
+    if (odakGi !== null && mm.gi === odakGi) continue;   // odaktaki: dokunma
     var el = mm.mk.getElement();
     var r = el ? el.getBoundingClientRect() : null;
     if (!r || !r.width) continue;

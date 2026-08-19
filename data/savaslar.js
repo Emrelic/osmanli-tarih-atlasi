@@ -123,6 +123,16 @@ window.SAVASLAR = [
 { t:"1695-09-22", tur:"meydan", ad:"Lugoş zaferi", taraf_metin:"Kutsal İttifak", sonuc:"zafer", seri:"habsburg", lat:45.69, lon:21.9, taraf:["osmanli","habsburg"] },
 // Ulaş/Olaş, Bega boyu — Temeşvar doğusu
 { t:"1696-08-27", tur:"meydan", ad:"Ulaş (Olaşin) zaferi", taraf_metin:"Kutsal İttifak", sonuc:"zafer", seri:"habsburg", lat:45.8, lon:21.15, taraf:["osmanli","habsburg"] },
+// ---- B3 · 19 Ağustos 2026 — Emre: "haritada işaretli değil" -------------
+// `0023/H-0013`: *"granbosa kalesinin fethi maddesinde granbosa kalesinin
+// yeri"* — ölçüldü: kronoloji maddesi VAR (1692-01-01, `olaylar_ek*.js`)
+// ama `savaslar.js`te KAYIT YOKTU, dolayısıyla işaret hiç kurulmuyordu.
+// `js/app.js:1916` yalnız `s.lat` olan kayıtlardan işaret üretiyor.
+// ⚠️ Peteği çizilemez ve bu KASITLI: veride zaten *"bunlar ayrı adacıklar
+// üzerinde kurulu olduğu için haritada Girit'in geri kalanından ayrı
+// gösterilemez"* yazıyor. Ama Emre'nin istediği petek değil İŞARET —
+// ikisi ayrı katman, biri çizilemiyor diye öteki de eksik kalmamalı.
+{ t:"1692-01-01", tur:"kusatma", ad:"Granbosa Kalesi'nin fethi", taraf_metin:"Venedik", sonuc:"zafer", lat:35.622, lon:23.586, taraf:["osmanli","venedik"], galip:"osmanli" },
 // koordinat yerlesimler.js'ten: Korfu
 { t:"1716-08-20", tur:"kusatma", ad:"Korfu kuşatması", taraf_metin:"Venedik", sonuc:"yenilgi", seri:"venedik", lat:39.624, lon:19.922, taraf:["osmanli","venedik"] },
 // koordinat yerlesimler.js'ten: Tiflis
@@ -385,7 +395,13 @@ window.ANTLASMALAR = [
   taraf:["osmanli","safevi"], topraklar:"Bağdat ve Irak-ı Arab kesin olarak Osmanlı'da kaldı; Revan ve Karabağ Safevî'de kaldı — bugünkü Türkiye-İran-Irak sınırının temeli atıldı." },
 { t:"1672-10-18", ad:"Bucaş", savas_basi:"1672-06-01",                taraf_metin:"Lehistan",         ozet:"Podolya katıldı; en geniş sınırlar",
   taraf:["osmanli","lehistan"], topraklar:"Podolya (Kamaniçe dahil) Lehistan'dan Osmanlı'ya geçti, Podolya Eyaleti kuruldu; Ukrayna'daki Kazak toprakları üzerinde Osmanlı himayesi tanındı." },
-{ t:"1699-01-26", ad:"Karlofça", savas_basi:"1683-07-14",             taraf_metin:"Kutsal İttifak",   ozet:"Macaristan, Mora, Podolya kaybedildi",
+// `0023/H-0017`: *"karlofça anlaşması maddesinde karlofça kasabası
+// haritada gösterilmiyor."* ÖLÇÜLDÜ ve sebep iki katmanlıydı: ① antlaşma
+// kayıtlarının hiçbirinde `lat`/`lon` YOKTU, ② `js/app.js` işaretleri
+// YALNIZ `SAVASLAR`dan üretiyordu — yani koordinat yazılsa bile
+// okunmayacaktı. İkisi de düzeltildi (bkz. `app.js:savasIsaretleri`).
+// Karlofça = Sremski Karlovci, Tuna kıyısı, Petrovaradin'in kuzeyi.
+{ t:"1699-01-26", ad:"Karlofça", savas_basi:"1683-07-14", lat:45.201, lon:19.932, taraf_metin:"Kutsal İttifak",   ozet:"Macaristan, Mora, Podolya kaybedildi",
   taraf:["osmanli","habsburg","lehistan","venedik","rusya"],
   topraklar:"Macaristan ve Erdel Osmanlı'dan Habsburg'a; Podolya Osmanlı'dan Lehistan'a; Mora ve Dalmaçya kıyıları Osmanlı'dan Venedik'e geçti. Azak konusu ayrı olarak Rusya ile 1700 İstanbul Antlaşması'na bırakıldı." },
 { t:"1711-07-21", ad:"Prut", savas_basi:"1711-05-01",                 taraf_metin:"Rusya",            ozet:"Azak geri alındı",
