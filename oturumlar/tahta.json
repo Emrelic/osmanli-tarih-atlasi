@@ -18570,7 +18570,12 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "BILGI",
-  "teyit": {},
+  "teyit": {
+   "OPUS HAZIR KITA 30": {
+    "zaman": "2026-08-20 02:21",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "BAYAT LISTE: A2 Argolid + B1 + B2 + B3 KAPANDI (5a90515 · ad42467 · 562e97e · 4581d71). Defter f86bcbb ile guncellendi. Kutu 313/74/239. Kosu CANLI PID 4792 %97 -> arac/*.py kilitli. index.html+js/app.js kirlendi: arayuzde baska oturum var.",
   "aciliyet": "ACIL"
