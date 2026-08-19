@@ -347,6 +347,50 @@ window.YERLESIMLER = [
     v:[{f:"1825-02-24",t:"1828-10-05",k:"Mısır (İbrâhim Paşa)"}] },
 { ad:"Balyabadra (Patras)", tur:"liman", lat:38.246, lon:21.735, g:0, k:3, m:"Mora (Tripoliçe)", s:[{f:"1281-01-01",t:"1458-05-01",d:"bizans"},{f:"1687-07-01",t:"1715-07-01",d:"venedik"},{f:"1821-03-25",t:"1923-10-29",d:"yunanistan"}], d:[{f:"1458-05-01",t:"1687-07-01",y:"kusatma"},{f:"1715-07-01",t:"1821-03-25"}] },
 { ad:"Anabolu (Nauplion)", tur:"kale", lat:37.567, lon:22.800, g:0, k:3, m:"Mora (Tripoliçe)", s:[{f:"1281-01-01",t:"1540-11-01",d:"venedik"},{f:"1686-08-30",t:"1715-07-20",d:"venedik"},{f:"1822-12-12",t:"1923-10-29",d:"yunanistan"}], d:[{f:"1540-11-01",t:"1686-08-30",y:"antlasma"},{f:"1715-07-20",t:"1822-12-12",y:"kusatma"}] },
+// ---- ARGOLİD DOĞU YARIMADASI (Ermionida-Troizinia) — 19 Ağustos 2026 -------
+// 🔴 NİÇİN EKLENDİ. Emre (`0023/H-0008`): *"Napli'nin doğusundaki bir parça
+// toprak görünüyor … bu parça ASLA oradaki adaların peteğinin boyaması
+// olmamalı. Egina ve Hidra adalarının peteği buraya ulaşmamalı."*
+// Ölçüldü (`arac/nicin_bos.py`, 1687-09-26) ve HAKLI ÇIKTI:
+//     Çamlıca (Hidra)     24,4 km  OSMANLI   ← ADA
+//     Egina (Aegina)      26,6 km  OSMANLI   ← ADA
+//     Kulluk (Salamis)    47,3 km  OSMANLI   ← ADA
+//     Anabolu (Nauplion)  47,8 km  venedik   ← ANAKARA, İKİ KAT UZAKTA
+// ⇒ `CLAUDE.md §2`nin ders kitabı vakası: yarımadanın 60 km'lik gövdesinde
+// TEK nokta yoktu, en yakın komşu 19-29 km ötede ve ÜÇÜ DE ADA. Kusur ne
+// kodda ne motorda — NOKTASIZLIKTA. Dördü de 3 km mükerrer taramasından
+// temiz geçti (en yakın komşu 19,2 km).
+//
+// 📌 TARİHLER KASTEN KOMŞULARINKİYLE AYNI GÜN — `Değişmez 2`: yeni bir
+// kırılma günü doğarsa ±30 gün içinde kronoloji maddesi gerekir. 1460-05-29
+// ve 1821-03-25 Mora (Tripoliçe)'nin, 1686-08-30 ve 1715-07-20 Anabolu'nun
+// günleri; dördü de ÇEKİRDEKTE (`yerlesimler.js`) ve maddeleri var.
+// ⚠️ Bu bir kolaylık değil DOĞRULUK tercihi: Argolid, Anabolu ile birlikte
+// düştü ve birlikte geri alındı; ayrı bir gün uydurmak yanlış olurdu.
+//
+// `§4` KAYNAK — TANECİKLİK BOŞLUĞU, örtülmedi yazıldı: dört kasabanın
+// TDV'de müstakil maddesi YOK (`troizen` · `methana` · `hermione` ·
+// `kranidi` slugları sınandı, DÖRDÜ DE HTTP 302 = ölü). Bölge tarihi
+// TDV `mora` maddesinden alındı: *"1095 (1684) ile 1097 (1686) yılları
+// arasındaki savaşlar sırasında Francesco Morosini kumandasındaki büyük bir
+// donanma Mora'ya çıkarma yaparak bütün yarımadayı ele geçirdi ve burasını
+// bir Venedik eyaleti hâline getirdi"* · dönüş: *"Damad Ali Paşa'nın askerî
+// harekâtı sonucu (1127/1715 yazı)"*.
+// ⚠️ ÖLÇMEDİĞİM ŞEY, açıkça: Anabolu 1388-1540 arası Venedik'ti; bu dört
+// kasabanın o aralıkta da Venedik olup olmadığını gösteren kaynak
+// BULUNAMADI. Bölge deseni (Mora Despotluğu → 1460 Osmanlı) izlendi —
+// kanıtlanmamış bir Venedik tasarrufu UYDURULMADI.
+{ ad:"Damala (Troizen)", tur:"kasaba", lat:37.508, lon:23.339, g:2, k:4, m:"Mora (Tripoliçe)", s:[{f:"1281-01-01",t:"1460-05-29",d:"bizans"},{f:"1686-08-30",t:"1715-07-20",d:"venedik"},{f:"1821-03-25",t:"1923-10-29",d:"yunanistan"}], d:[{f:"1460-05-29",t:"1686-08-30"},{f:"1715-07-20",t:"1821-03-25"}], kaynak:"TDV mora — kasabanın müstakil maddesi yok (slug 302); bölge tarihi mora maddesinden" },
+{ ad:"Methana", tur:"kasaba", lat:37.588, lon:23.380, g:2, k:4, m:"Mora (Tripoliçe)", s:[{f:"1281-01-01",t:"1460-05-29",d:"bizans"},{f:"1686-08-30",t:"1715-07-20",d:"venedik"},{f:"1821-03-25",t:"1923-10-29",d:"yunanistan"}], d:[{f:"1460-05-29",t:"1686-08-30"},{f:"1715-07-20",t:"1821-03-25"}], kaynak:"TDV mora — kasabanın müstakil maddesi yok (slug 302); bölge tarihi mora maddesinden" },
+// ⚠️ lat 37.386 → 37.3884 (220 m kuzey): denetim "0,22 km kara maskesinin
+// dışında" dedi. `§11`in KARA DIŞI sınıfı — nokta YANLIŞ yerde, çare
+// koordinatı düzeltmek. (PENCERE DIŞI sınıfında koordinata DOKUNULMAZ;
+// ikisi bir zamanlar tek satırda raporlanıyordu ve Sofala 1020 km
+// taşınacaktı.) Öneri motorun kendi maskesinde SINANDI, yazılacağı
+// hassasiyette (4 ondalık) geçti.
+{ ad:"Ermiyoni (Hermione)", tur:"liman", lat:37.3884, lon:23.2486, g:2, k:4, m:"Mora (Tripoliçe)", s:[{f:"1281-01-01",t:"1460-05-29",d:"bizans"},{f:"1686-08-30",t:"1715-07-20",d:"venedik"},{f:"1821-03-25",t:"1923-10-29",d:"yunanistan"}], d:[{f:"1460-05-29",t:"1686-08-30"},{f:"1715-07-20",t:"1821-03-25"}], kaynak:"TDV mora — kasabanın müstakil maddesi yok (slug 302); bölge tarihi mora maddesinden" },
+{ ad:"Kranidi", tur:"kasaba", lat:37.364, lon:23.147, g:2, k:4, m:"Mora (Tripoliçe)", s:[{f:"1281-01-01",t:"1460-05-29",d:"bizans"},{f:"1686-08-30",t:"1715-07-20",d:"venedik"},{f:"1821-03-25",t:"1923-10-29",d:"yunanistan"}], d:[{f:"1460-05-29",t:"1686-08-30"},{f:"1715-07-20",t:"1821-03-25"}], kaynak:"TDV mora — kasabanın müstakil maddesi yok (slug 302); bölge tarihi mora maddesinden" },
+// ---- ARGOLİD DOĞU YARIMADASI SONU ----------------------------------------
 { ad:"İnebahtı", tur:"kale", lat:38.399, lon:21.827, g:2, k:3, m:"Mora (Tripoliçe)", s:[{f:"1281-01-01",t:"1499-08-26",d:"venedik"},{f:"1687-08-06",t:"1715-07-01",d:"venedik"},{f:"1829-05-01",t:"1923-10-29",d:"yunanistan"}], d:[{f:"1499-08-26",t:"1687-08-06",y:"kusatma"},{f:"1715-07-01",t:"1829-05-01"}] },
 { ad:"Eğriboz", tur:"kale", lat:38.4631, lon:23.6023, g:0, k:3, m:"Mora (Tripoliçe)", s:[{f:"1281-01-01",t:"1470-07-12",d:"venedik"},{f:"1829-05-01",t:"1923-10-29",d:"yunanistan"}], d:[{f:"1470-07-12",t:"1829-05-01",y:"kusatma"}] },
 { ad:"İstefe (Tebai)", tur:"sehir", lat:38.322, lon:23.319, g:0, k:4, m:"Atina", s:[{f:"1281-01-01",t:"1456-06-04",d:"atinadukaligi"},{f:"1821-03-25",t:"1923-10-29",d:"yunanistan"}], d:[{f:"1456-06-04",t:"1821-03-25"}] },
