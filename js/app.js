@@ -4724,11 +4724,29 @@ document.addEventListener("keydown", function (e) {
       console.log("Atlas: odak → " + ODAK.ad + " · "
                   + ODAK.kronoloji.length + " kronoloji maddesi");
     } else {
-      // Osmanlı'ya dönüş — özgün liste yeniden kurulur
+      // ---- Osmanlı'ya dönüş -------------------------------------------
+      // 🔴 KUSURDU ve Emre bildirdi (19 Ağustos 2026): *"osmanlı kronolojisi
+      // ve diğer devletleri seçmek için kurcaladım ama osmanlı kronolojisine
+      // geri döndüğüm zaman kronoloji maddeleri sütunda görünmedi."*
+      //
+      // ESKİ HÂLİ  `liste.innerHTML = ""` + `olaylarGuncelleZorla()`
+      // NİÇİN BOŞ KALIYORDU: iki işlev BAŞKA ŞEY yapıyor ve adları bunu
+      // gizliyor. `olaylarGuncelleZorla` listeyi KURMAZ — var olan
+      // `olayDom[]` düğümlerinin `.gecmis`/`.simdiki` VURGUSUNU tazeler.
+      // `innerHTML = ""` ise o düğümleri belgeden KOPARIR. Yani kabı
+      // boşaltıp, boş kaba "kendini tazele" diyordum.
+      //
+      // ⚠️ Düğümler SİLİNMİŞ değil KOPARILMIŞTI — `olayDom[]` hâlâ hepsini
+      // tutuyor, dinleyicileriyle birlikte. Çare yeniden kurmak değil GERİ
+      // TAKMAK: hem ucuz (1223 düğüm yeniden üretilmiyor), hem de tıklama
+      // dinleyicileri, süzgecin `.suzuldu` sınıfları ve indeks düzeni
+      // aynen korunuyor. Yeniden kursaydım süzgeç seçimi sessizce sıfırlanırdı.
       liste.innerHTML = "";
+      for (var oi = 0; oi < olayDom.length; oi++) liste.appendChild(olayDom[oi]);
       olaylarGuncelleZorla();
       _padisahAsil(suanki);
-      console.log("Atlas: odak → Osmanlı (varsayılan)");
+      console.log("Atlas: odak → Osmanlı (varsayılan) · "
+                  + olayDom.length + " madde geri takıldı");
     }
     guncelle();
   });
