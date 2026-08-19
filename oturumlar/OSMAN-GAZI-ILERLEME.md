@@ -1,86 +1,94 @@
-# OSMAN GAZİ — ilerleme defteri (18 Ağustos 2026)
+# OSMAN GAZİ — ilerleme defteri
 
-> Bu dosya `compact` öncesi yazıldı. Uçuşta olan durum burada; sohbet
-> özetlense de iş kaybolmasın.
+> 🔴 **BU DOSYA ARTIK BİR GÖREV LİSTESİ GİBİ OKUNUYOR.** 20 Ağustos gecesi
+> **beş yedek oturum** (HAZIR KITA 30 · 31 · 32 · Sonnet 30 · Sonnet 31)
+> koordinatörden iş isterken açık kalem listesini **buradan** aldı — ve
+> hepsi **18 Ağustos'un bayat listesini** aldı: A2 · B1 · B2 · B3 o sırada
+> **kapanmıştı.** `CLAUDE.md §1.5`in bayatlama ailesi, bu sefer bir
+> **ilerleme defterinde.** ⇒ Kalemler kapandıkça **burası aynı gün**
+> güncellenecek.
 
-## Bugün İNEN ve PUSH EDİLEN
+## Son güncelleme: 2026-08-20 01:30 (ölçüldü, hatırlanmadı)
+
+## KAPANDI — `git log` ile doğrulandı
 
 ```
-0cf702b  13 dolgu noktası emekli · taban 2589 → 2576 · denetim TEMİZ
-675201d  BEKLENEN_SAHIPSIZ 228 → 214 (denetimin kendi uyarısı)
-b55c262  EKLEYİCİ KAPI — Emre'nin 18 Ağu hükmü motora indi
-c734af9  DEVLET ODAĞI — harita Osmanlı'dan çözüldü (r2586)
-f1873bc  CLAUDE'SUZ KOŞU + YAYIN + zamanlanmış görev "AtlasKosu"
-f226aa2  ARAYÜZ üç kalem (scroll başa · süzgeç başlığa · bölge butonlara)
-9777657  nicin_bos kur:/bit: körlüğü — ÜÇ HÜKÜM GERİ ALINDI
-be9c248  arac/nicin_bos.py          ab8e239  arac/olc_ekleyici.py
-66df81b  kutu_dokum · kutu_serit · kutu_olc
+5a90515  19 Ağu 22:44  A2 ARGOLİD doğu yarımadası — ada peteği anakarayı
+                        boyuyordu, 4 nokta yazıldı                    ✅ KAPALI
+ad42467  19 Ağu 09:58  B1 kronoloji sütunu / madde penceresi
+                        B2 tepe metni tarihle senkron (r2595)         ✅ KAPALI
+562e97e  19 Ağu 22:55  ODAK DÖNÜŞÜ kusuru + alttaki şerit (r2597)     ✅ KAPALI
+4581d71  19 Ağu 23:24  B3 beş muharebe/antlaşma işareti — ÜÇ AYRI
+                        SEBEP, tek sebep değildi (r2598)              ✅ KAPALI
 ```
 
-## SIRADA — Emre'nin sırası: A → B → C
+Daha önce (18 Ağu): `0cf702b` 13 dolgu noktası emekli (taban 2589 → 2576) ·
+`675201d` BEKLENEN_SAHIPSIZ 228 → 214 · `b55c262` EKLEYİCİ KAPI ·
+`c734af9` DEVLET ODAĞI (r2586) · `f1873bc` CLAUDE'suz koşu + yayın ·
+`9777657` `nicin_bos` `kur:`/`bit:` körlüğü — üç hüküm geri alındı.
 
-### 🔴 A2 · Napli doğusu (`0023/H-0008`) — ÖLÇÜM HAZIR, yazılacak
-Emre: *"o parça asla oradaki adaların peteğinin boyaması olmamalı, eğer
-öyleyse bu korkunç bir hata."* **Haklı, ölçüldü:**
+## AÇIK KALEMLER — bugün ölçülmüş hâli
+
+### 🔴 A3 · `veri-kaynak/motor_kara.geojson` commit'siz
+Hâlâ ` M`. **Bilerek bekliyor:** M-0809'daki hüküm bu dosyanın motorun
+**çıktısı** olduğunu söylüyor ve koşu şu an onu yeniden yazıyor olabilir.
+⇒ Koşu bitmeden commit edilmez.
+
+### 🟡 A4 · Solnok (`0023/H-0004`, 1686-06-01) — dönem kaydı ÖLÇÜLMEDİ
+
+### 🟡 A2b · `uret_petek.py:1407` ADA KURALI Argolid'i niçin önlemedi
+**ÖLÇÜLMEDİ.** Dosya koşu boyunca **kilitli** — koşu bitmeden açılmaz.
+
+### 🔵 C · araştırma kolları (her biri tek oturumluk)
 ```
-py arac/nicin_bos.py --lat 37.53 --lon 23.34 --gun 1687-09-26 --yaricap 120
-   Çamlıca (Hidra)     24,4 km  OSMANLI   ← ADA
-   Egina (Aegina)      26,6 km  OSMANLI   ← ADA
-   Anabolu (Nauplion)  47,8 km  venedik   ← ANAKARA, iki kat uzakta
-```
-⇒ Argolid doğu yarımadasının **kendi yerleşimi yok**; iki adanın peteği
-anakarayı boyuyor. Çare: yarımadaya nokta (Damala/Troezen · Methana ·
-Ermioni). `§4`: TDV'de Yunan kasabaları zayıf; bulunamazsa
-`kaynak:"bulunamadı — …"` + akademik dayanak.
-⚠️ `uret_petek.py:1407 ADA KURALI` bunu önlemeliydi; niçin önlemediği
-ÖLÇÜLMEDİ — ikinci bir kalem.
-
-### 🔴 A3 · `veri-kaynak/motor_kara.geojson` commit'siz duruyor
-İzsiz girdiyle koşulmaz. Tek commit.
-
-### 🟡 A4 · Solnok (`0023/H-0004`, 1686-06-01) — dönem kaydı ölçülecek
-
-### 🟡 B · arayüz (koşuyu beklemez)
-- B1 kronoloji sütununu kısalt / madde penceresini büyüt
-  (`#olay-listesi` bugün `flex:1 1 auto`, bütün boşluğu yiyor)
-- B2 `0023/H-0014` harita tepesindeki metin tarihle senkron değil — GERÇEK KUSUR
-- B3 `0023/H-0012·13·15·16·17` Salankamen · Granbosa · Ulaş · Zenta · Karlofça
-  haritada işaretsiz
-
-### 🔵 C · araştırma (ayrı oturum işi — Emre'nin bölme kuralı geçerli)
-```
-C1 İyon+Ege adaları   0021/H-0011 + 0022/H-0004      tek oturum
-C2 Ferhad Paşa hattı  0021/H-0019 · 0027 · 0028      tek oturum
-C3 Karadeniz bozkırı  0021/H-0032 + 0022/H-0005      tek oturum
-C4 Macaristan üçlemesi 0023/H-0001 · 0002 · 0005     tek oturum
-C5 Bahreyn/Safevî 1602 0021/H-0007 + H-0021          küçük
+C1 İyon + Ege adaları     0021/H-0011 + 0022/H-0004
+C2 Ferhad Paşa hattı      0021/H-0019 · 0027 · 0028
+C3 Karadeniz bozkırı      0021/H-0032 + 0022/H-0005
+C4 Macaristan üçlemesi    0023/H-0001 · 0002 · 0005
+C5 Bahreyn / Safevî 1602  0021/H-0007 + H-0021
 ```
 
-### ⬜ D · `parti-emrelic-0019` — 81 madde, HİÇ AÇILMADI
+### ⬜ D · `parti-emrelic-0019` — 81 madde, `CEVAP.json` YOK, HİÇ AÇILMADI
 
-## Kutu durumu
+### ⭐ Aletlerin EVREN doğrulaması yok
+*"Benim komşu kümem motorunkiyle aynı mı"* diye soran bir denetim **yok**.
+18 Ağustos'ta bir günde üç kez *"ölçüm doğru, evren dar"* hatası yapıldı.
+Defterde *"bir sonraki oturumun ilk işi"* yazıyordu — **yapılmadı**, hâlâ açık.
+
+## Kutu durumu — 20 Ağu 01:30 ölçümü (`py arac/kutu_dokum.py`)
+
 ```
-py arac/kutu_dokum.py            # envanter
-py arac/kutu_serit.py <paket>    # görsel künyeleri (86 kat ucuz)
-py arac/kutu_olc.py 0021         # 32 maddeyi tek koşuda ölç
-313 madde · KAPALI 75 · AÇIK 238
+313 madde · KAPALI 74 · AÇIK 239
+   sırada 92 · HÜKÜMSÜZ 81 · ölçülecek 63 · çözüldü 59 ·
+   zaten-doğru 12 · tekrar 3 · senin-kararın 3
+   parti-0019  81 açık (CEVAP.json YOK)  ·  0021  30  ·  0022  5  ·  0023  16
 ```
+⚠️ 18 Ağustos'ta **KAPALI 75 · AÇIK 238** yazıyordu; bugün **74 · 239**.
+Bir kalem ters yöne dönmüş — **sebebi ÖLÇÜLMEDİ**, yazan bunu "ölçülmüş"
+sanmasın.
 
-## 🔴 BUGÜN ÜÇ KEZ AYNI HATAYI YAPTIM — tekrarlanmasın
-Üçü de **"ölçüm doğru, EVREN dar"**:
-1. `kaynak:` alanına bakıp dayanağın `neden:`de olduğunu görmemek
-2. kayıt yapısını `yerlesimler.js`te doğrulayıp bütün dosyalara genellemek
-   (çok satırlı kayıtlar → dört dosya bozuldu, git'ten geri alındı)
-3. `nicin_bos.py`nin `kur:`/`bit:` körlüğü → **üç hüküm yanlış zeminde**
-   verildi ve "sebep bulundu" diye koordinatöre gitti
+## Koşu — 20 Ağustos gecesi CANLI
 
-⇒ Aletlerin **evren doğrulaması** yok. `--sabit-dogrula` sabitleri kaynağa
-soruyor ama *"benim komşu kümem motorunkiyle aynı mı"* diye soran bir
-denetim yok. **Bir sonraki oturumun ilk işi bu olmalı.**
-
-## Koşu
 ```
-gece 00:00 · görev "AtlasKosu" · KOSU-BASLAT.bat ile erken de koşar
-ölçülmüş süre ~3¼ saat (11 saat UYKUYDU — py arac/olc_kosu_suresi.py)
-altı değişmez düşerse commit ATILMAZ, push YAPILMAZ (iki yönde sınandı)
+PID 4792 · başladı 19 Ağu 23:00:02 · 00:37 itibarıyla
+duvar 97 dk · işlemci 93,8 dk = %97   (uyku YOK; 17 Ağustos'taki %5'in tersi)
+kosu_otomatik.log: [23:00:02] ▶ ① harita üretimi (arac/uret_petek.py)
+ölçülmüş süre ~3¼ saat  ⇒  beklenen bitiş ~02:15
+```
+🔒 `arac/girdi.py · renkler.py · uret_petek.py` **KİLİTLİ** — yazan koşuyu
+öldürür (motor_izi). Ağır ölçüm yok: Dijkstra · tam GeoJSON · çift döngü.
+
+## ⚠️ Arayüz dosyalarında başka bir oturum var (ölçüm)
+```
+oturum açılışında kirli : css/style.css · data/bolgeler.js · motor_kara.geojson
+01:30'da kirli          : + index.html + js/app.js   (138 satır ekleme)
+```
+⇒ `index.html` ve `js/app.js` bu oturum başladıktan **sonra** kirlendi.
+Ölçtüğüm bu; **kimin** çalıştığı bilinmiyor.
+
+## Tahta
+```
+M-0813  20 Ağu 01:01  OSMAN GAZI → KOORDINATOR  · iş isteği (kii), cevap BEKLENİYOR
+aynı gece 00:45-01:29 arası beş yedek oturum daha iş istedi (M-0811 · 0812 ·
+0814 · 0815 · 0816) — koordinatörden 17 Ağustos'tan (M-0810) beri CEVAP YOK
 ```
