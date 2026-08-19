@@ -168,21 +168,54 @@ body {
 #govde { flex: 1 1 auto; display: flex; min-height: 0; }
 #harita { flex: 1 1 auto; min-width: 0; position: relative; }
 
+/* 🔴 EMRE, 19 Ağustos 2026: *"sağdaki ... sağ alt bölüm genişliği şimdiki
+   genişlik ve dar gösterim olarak İKİ KADEME olsun ve dar gösterim şimdiki
+   genişliğin %60'ı kadar olsun."*
+   Taban `#yanpanel`in kendi kuralında (bu dosyada, `clamp(280px,24vw,380px)`);
+   dar kip onun BİREBİR %60'ı: 280·0,6=168 · 24·0,6=14,4 · 380·0,6=228.
+   ⚠️ SIRA ÖNEMLİ — `.dar` ile `.katli` aynı özgüllükte (id+sınıf). `.dar`
+   ÖNCE yazıldı ki panel hem katlı hem dar iken KATLI kazansın (0 genişlik);
+   ters sırada katlanmış panel 228 px açık kalırdı. Ölçmedim: iki sınıfın
+   aynı anda takılı olduğu bir kullanım akışı var mı — ama CSS'in buna
+   dayanması için akışın var olması gerekmiyor. */
+#yanpanel.dar { flex: 0 0 clamp(168px, 14.4vw, 228px); }
+/* Dar kipte yalnız NEFES payı kısılıyor. Yatay taşma nöbetçileri
+   (`min-width: 0` · `<select>` tavanı · kelime kırma) `.dar`a DEĞİL,
+   `#yanpanel`in kendi kuralına kondu — çünkü ölçüldüğünde kaçak GENİŞ
+   kipte de vardı (555 px). `.dar`a bağlasaydım kusuru yalnız yeni kipte
+   kapatmış, geniş kipte bırakmış olurdum. */
+#yanpanel.dar #padisah-karti { gap: 7px; padding: 6px 7px; }
+#yanpanel.dar #olay-bilgi { padding: 9px 8px; }
+
 /* yan panel katlanabilir — haritaya azami alan bırakmak için */
 #yanpanel.katli { flex: 0 0 0; overflow: hidden; border-left: none; }
-#btn-panel {
+
+/* İki harita düğmesi (panel katla · panel genişliği) tek sarmalda. Eskiden
+   `#btn-panel` TEK BAŞINA `position:absolute; right:8px` idi; ikinci düğme
+   için sabit bir `right:` px vermek düğme metni değiştikçe ("⇥ Panel" →
+   "⇤ Panel") kayardı. Sarmal flex olunca ofset ÖLÇÜLMÜYOR, doğuyor. */
+#harita-dugmeler {
   position: absolute;
   top: 8px;
   right: 8px;
   z-index: 9;
+  display: flex;
+  gap: 6px;
+}
+#btn-panel, #btn-panel-genislik {
   background: rgba(247, 241, 227, 0.94);
   border: 1px solid var(--altin);
   border-radius: 6px;
   padding: 4px 9px;
   font-size: 13px;
   cursor: pointer;
+  color: var(--metin);
+  white-space: nowrap;
 }
-#btn-panel:hover { background: #ffe9a8; }
+#btn-panel:hover, #btn-panel-genislik:hover { background: #ffe9a8; }
+/* dar kipteyken düğme "açık" görünsün — kullanıcı hangi kademede olduğunu
+   metinden ("↔ Geniş") okur, ama renk onu bakmadan da söyler. */
+#btn-panel-genislik.etkin { background: #ffe0a0; font-weight: bold; }
 
 /* p2/H-0006 — panel katlanınca kronoloji tamamen kaybolmasın diye haritanın
    en altında ince bir özet şerit. Yalnız #yanpanel .katli iken görünür
@@ -222,6 +255,31 @@ body {
 #kronoloji-serit .ks-sene { font-weight: bold; color: #ffd700; margin-right: 8px; }
 #kronoloji-serit .ks-tarih { color: #d8c9a3; margin-right: 8px; }
 
+/* 🔴 `min-width: 0` — 19 Ağustos 2026, ÖLÇÜLMÜŞ BİR KAÇAĞIN TIKACI.
+   Dar kip yazılırken `#yanpanel` tarayıcıda ölçüldü ve `flex-basis` ile
+   kullanılan genişlik AYRIŞIYORDU:
+       vw 1280 · flex-basis 307,2 px (clamp doğru hesaplıyor)
+       KULLANILAN GENİŞLİK          555 px      ⇒ %81 fazla
+   Sebep `clamp` değil: `min-width` varsayılanı `auto`dur ve bir flex
+   öğesini İÇERİĞİNİN min-content genişliğinin altına inmekten alıkoyar.
+   İçerideki suçlu ölçüldü: `#odak-devlet` — 393 seçenekli `<select>`,
+   en uzun devlet adına göre boyutlanıyor ve TEK BAŞINA 475 px.
+   ⇒ Panelin genişliğini bu dosya değil, `data/devletler.js`teki en uzun
+   künye adı belirliyordu. `min-width: 0` denetimi CSS'e geri veriyor.
+
+   ⚠️ VE BU, DAR KİP İÇİN ŞARTTI: tıkaç olmadan `#yanpanel.dar`ın
+   `clamp(168px,14.4vw,228px)`ı da aynı 555 px'e ezilirdi — düğme çalışır
+   görünüp HİÇBİR ŞEY yapmazdı. Kusuru aramasaydım "iki kademe" tek
+   kademe olarak teslim edilecekti.
+
+   📌 Ve kaçak zaten GÖRÜNÜR bir hizasızlık üretiyordu: bu dosyada
+   `width: clamp(280px, 24vw, 380px)` diyen ve yorumunda *"#yanpanel ile
+   aynı"* yazan ikinci bir kural var — o 307 px'ti, panel 555 px. Yani
+   projenin kendi beyanı iki yerde duruyordu ve biri tutmuyordu.
+   ⚠️ ÖLÇMEDİM: kaçağın ne zaman doğduğunu (`#odak-devlet` 18 Ağustos'ta
+   eklendi, muhtemelen o gün) ve Emre'nin 555 px'i "şimdiki genişlik"
+   sanıp sanmadığını. Geniş kip bugün 555 → 307 px'e İNİYOR; bu bir
+   daraltma kararı değil, beyan edilen genişliğe DÖNÜŞ. */
 #yanpanel {
   flex: 0 0 clamp(280px, 24vw, 380px);
   display: flex;
@@ -229,7 +287,15 @@ body {
   background: var(--panel);
   border-left: 2px solid var(--altin);
   min-height: 0;
+  min-width: 0;
 }
+/* Tıkacın ikinci ayağı: panel artık daralabildiğine göre, içindeki
+   genişliğini KENDİ ölçen öğeler yatay taşırmasın. Gizleme YOK —
+   `<select>` kısalır (seçili metni kırpar, açılır listesi tam görünür),
+   uzun tek kelimeli başlıklar sarar. */
+#padisah-bilgi { min-width: 0; }
+#odak-devlet { max-width: 100%; }
+#padisah-ad, #ob-baslik { overflow-wrap: anywhere; }
 
 /* ---------- Padişah kartı (kompakt) ---------- */
 #padisah-karti {
@@ -260,8 +326,17 @@ body {
 #padisah-saltanat { font-size: 12px; color: #6b5a33; }
 
 /* ---------- Olay akışı ---------- */
+/* 🔴 EMRE, 19 Ağustos 2026: *"kronoloji sütunu ve madde açıklamaları
+   kutucukları sağdaki sütunun yüksekliğini %50-%50 kullansın."*
+   `flex: 1 1 50%` İKİSİNDE DE aynı ⇒ artan/eksilen yer eşit bölünür.
+   `#olay-bilgi.gizli` `display:none` olduğu için kapalıyken bölüşecek
+   ikinci kutu YOKTUR ve akış tamamını alır — ayrı bir kural gerekmiyor.
+   ⚠️ `min-height: 90px` KALDI: %50 çok kısa ekranda h2 + liste toplamının
+   altına inebilir; bu, ekranın taşmasını değil kutunun küçülmesini
+   durduran son çizgidir. Ölçmedim: hangi pencere yüksekliğinin altında
+   90 px'in gerçekten devreye girdiği. */
 #olay-akisi {
-  flex: 1 1 auto;
+  flex: 1 1 50%;
   display: flex;
   flex-direction: column;
   min-height: 90px;
@@ -313,10 +388,18 @@ body {
   color: var(--metin);
 }
 #ucus-grup #btn-ayarlar:hover { background: #ffe9a8; }
-/* min-height: detay penceresi %62'ye kadar büyüyebildiği için kronolojinin
-   TABANI olmalı — yoksa uzun bir maddede liste birkaç piksele iniyor.
-   ~4 satır: kullanıcı nerede olduğunu görmeye devam eder. */
-#olay-listesi { flex: 1 1 auto; overflow-y: auto; padding: 5px; min-height: 118px; }
+/* ~~min-height: 118px~~ — 🔴 KALDIRILDI, 19 Ağustos 2026. **Süzgeci
+   kaldırmadan önce neyi koruduğunu oku** (`CLAUDE.md §11`): bu taban,
+   detayın `max-height: 62%`e kadar BÜYÜYEBİLMESİNE karşı konmuştu —
+   uzun bir maddede liste birkaç piksele iniyordu.
+   ⇒ O tehdit artık YOK: `#olay-bilgi` de `flex: 1 1 50%` ve tavanı
+   kaldırıldı, yani detay hiçbir maddede %50'yi geçemiyor. Taban artık
+   YAPIDAN geliyor, sayıdan değil.
+   ⚠️ Ve 118 px'i BIRAKMAK zararlı olurdu: %50 payı 118'in altına düşen
+   kısa pencerelerde `#olay-akisi`nin içeriği kutusunu taşıracaktı
+   (`overflow: visible`). Sayı bir taban değil, ikinci bir tavan hâline
+   gelirdi. `min-height: 0` ⇒ bölüşmeyi yalnız %50 belirliyor. */
+#olay-listesi { flex: 1 1 auto; overflow-y: auto; padding: 5px; min-height: 0; }
 
 .olay {
   padding: 4px 7px;
@@ -338,7 +421,22 @@ body {
   box-shadow: 0 1px 4px rgba(0,0,0,0.15);
 }
 .olay .o-tarih { font-size: 11px; color: #8a6d2f; font-weight: bold; }
-.olay .o-baslik { line-height: 1.3; }
+/* 🔴 EMRE, 19 Ağustos 2026: *"dar gösterimde kronoloji maddeleri metin
+   uzunluğu genişliğe sığmaz ise İKİ SATIR şeklinde aşağıya uzanabilsin."*
+   ÖLÇÜLDÜ: başlıkta zaten `white-space: nowrap` ya da kırpma YOKTU —
+   normal metin 168 px'te de sarıyordu. Yani talebin ÇOĞU zaten
+   sağlanıyordu; sağlanmayan tek şey **kırılamayan uzun tek kelime**
+   ("Karahisâr-ı Sâhib", "Konstantinopolis") — o, kutuyu yatay taşırıyordu.
+   ⇒ `overflow-wrap: anywhere` kelimeyi İÇİNDEN kırar. `break-word` yerine
+   `anywhere` seçildi çünkü `break-word` kelimenin kendi genişliğini
+   min-content hesabında hâlâ sayar ve dar sütunu genişletmeye çalışır.
+   ⚠️ Taşma GİZLENMİYOR: hiçbir yere `text-overflow`/`nowrap` konmadı,
+   satır sayısına da tavan konmadı — "iki satır" bir SINIR değil, sığmayan
+   metnin doğal sonucu. Üç satır gerekiyorsa üç satır olur.
+   Kural her iki kipte de geçerli; dar kipe bağlamadım, çünkü geniş kipte
+   de taşan uzun kelime aynı kusuru üretiyordu (ölçmedim: geniş kipte kaç
+   maddede taşıyordu). */
+.olay .o-baslik { line-height: 1.3; overflow-wrap: anywhere; }
 
 /* kategori renkleri */
 .olay.k-fetih    { border-left-color: #1e7d32; }
@@ -809,10 +907,24 @@ body {
    yaratmaz, yalnız UZUN maddenin daha çoğunu gösterir. Tavan %46 → %62;
    kronolojiye de bir TABAN kondu (#olay-listesi min-height) ki hiç yok
    olmasın. Yani kısalan şey kronolojinin PAYI değil, TAVANI. */
+/* 🔴 VE YUKARIDAKİ KARAR 19 Ağustos 2026'da GERİ ALINDI — Emre bu sefer
+   AÇIKÇA sabit bölüşme istedi: *"kronoloji sütunu ve madde açıklamaları
+   kutucukları sağdaki sütunun yüksekliğini %50-%50 kullansın."*
+   `flex: 0 0 auto` + `max-height: 62%` → `flex: 1 1 50%`, tavan kalktı.
+   ⚠️ **Bedeli biliniyor ve kabul edildi:** üstteki yorumun övdüğü davranış
+   (kısa maddede detay kutusu kendiliğinden küçük kalır) BİLEREK bırakıldı;
+   kısa bir maddede kutu artık %50'yi alır ve altı boş durur. Bu bir kusur
+   değil, istenen bölüşmenin doğrudan sonucu — kutuların yeri madde
+   uzunluğuna göre ZIPLAMIYOR, sabit kalıyor.
+   ⚠️ ÖLÇMEDİM: maddelerin kaçının kısa (boşluk bırakacak) olduğunu. Emre
+   boşluktan şikâyet ederse çare tavanı geri koymak değil, `flex-basis`i
+   içerik yüksekliğine bağlamaktır — o zaman %50 talebi de düşer.
+   `.gizli` `display:none` olduğu için kapalıyken bu satırların HİÇBİRİ
+   uygulanmaz; akış tek başına kalır ve %100 alır. */
 #olay-bilgi {
   position: relative;
-  flex: 0 0 auto;
-  max-height: 62%;
+  flex: 1 1 50%;
+  min-height: 0;
   overflow-y: auto;
   background: var(--panel);
   border-top: 3px solid var(--altin);
