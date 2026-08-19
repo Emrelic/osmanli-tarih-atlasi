@@ -38,6 +38,8 @@ from datetime import datetime
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 GUNLUK = os.path.join(KOK, "kosu_otomatik.log")
+# Her aşamanın TAM stdout'u buraya; `kosu_otomatik.log` yalnız özet taşır.
+LOG_DIZIN = os.path.join(KOK, "kosu_gunluk")
 
 
 def yaz(s):
@@ -59,6 +61,28 @@ def kos(ad, argv, kuru, zorunlu=True, uyari_kodu=False):
                        capture_output=True, text=True,
                        encoding="utf-8", errors="replace")
     sure = time.time() - t0
+
+    # ---- TAM ÇIKTIYI DİSKE AL — 12 satır bir motoru anlatmaya yetmez -----
+    # 🔴 19 Ağustos 2026'da ölçüldü: 18 Ağustos koşusunun motor aşaması
+    # 180 dakika sürdü ve stdout'unun TAMAMI atıldı, yalnız son 12 satır
+    # kaldı. İçinde EKLEYİCİ KAPI'nın bilançosu vardı — yani o günün en
+    # büyük değişikliğinin kaç petek-gün kattığı ÖLÇÜLEMEZ oldu.
+    # Ve bu, `uret_petek.py`nin kendi yorumunun ihlali: "sessiz kapı,
+    # kapatılmış kapıdır." Kapı sustuğu için değil, GÜNLÜK sustuğu için.
+    try:
+        os.makedirs(LOG_DIZIN, exist_ok=True)
+        _ad = "".join(c if (c.isalnum() or c in "-_") else "_" for c in ad)
+        _yol = os.path.join(LOG_DIZIN, f"{_ad}.log")
+        with io.open(_yol, "w", encoding="utf-8", newline="\n") as f:
+            f.write(f"# {ad}\n# {' '.join(argv)}\n"
+                    f"# çıkış {r.returncode} · {sure/60:.1f} dk\n"
+                    f"# {datetime.now():%Y-%m-%d %H:%M}\n\n")
+            f.write(r.stdout or "")
+            if r.stderr:
+                f.write("\n\n===== STDERR =====\n" + r.stderr)
+    except Exception as e:                                  # noqa: BLE001
+        yaz(f"   ⚠️ tam günlük yazılamadı: {e}")
+
     son = [l for l in (r.stdout or "").splitlines() if l.strip()][-12:]
     for l in son:
         yaz("   │ " + l)
