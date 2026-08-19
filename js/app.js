@@ -4382,6 +4382,40 @@ document.getElementById("btn-panel").addEventListener("click", function () {
   setTimeout(function () { harita.resize(); }, 60);
 });
 
+// 🔴 PANEL GENİŞLİĞİ — İKİ KADEME (Emre, 19 Ağustos 2026)
+// *"sağ alt bölüm genişliği şimdiki genişlik ve dar gösterim olarak iki
+//  kademe olsun ve dar gösterim şimdiki genişliğin %60'ı kadar olsun.
+//  geniş ve dar gösterim ayarlanabilsin."*
+// Genişliğin kendisi CSS'te (`#yanpanel` / `#yanpanel.dar`); burada yalnız
+// sınıf ve TERCİH var. Tercih `localStorage`ta, çünkü projede lejant
+// (`lejantKapali`), duygu (`duyguAc`) ve uçuş (`ucusAc`) ayarları da böyle
+// duruyor — kullanıcı her açılışta yeniden daraltmak zorunda kalmasın.
+var btnPanelGenislik = document.getElementById("btn-panel-genislik");
+function panelGenislikUygula(dar) {
+  document.getElementById("yanpanel").classList.toggle("dar", dar);
+  // Metin BULUNDUĞU kipi değil, TIKLAYINCA GİDİLECEK kipi yazar — "⇥ Panel"
+  // düğmesindeki desenin aynısı (katlıyken "⇤ Panel" yazıyor).
+  btnPanelGenislik.textContent = dar ? "↔ Geniş" : "↔ Dar";
+  btnPanelGenislik.classList.toggle("etkin", dar);
+  btnPanelGenislik.setAttribute("aria-pressed", String(dar));
+}
+// ⚠️ Bu satır haritadan SONRA koşuyor (harita js/app.js:549'da kuruluyor,
+// bu blok ~4380'de). Yani kayıtlı tercih dar ise kabın genişliği harita
+// kurulduktan SONRA değişiyor ⇒ resize ŞART, yoksa tuval eski genişlikte
+// kalıp sağda boşluk bırakıyor. Ölçmedim: MapLibre 4.7.1'in kendi
+// ResizeObserver'ı bunu zaten yakalar mı — yakalasa da ikinci bir resize
+// zararsız, yakalamazsa tek çare bu.
+panelGenislikUygula(localStorage.getItem("panelDar") === "1");
+if (localStorage.getItem("panelDar") === "1") {
+  setTimeout(function () { harita.resize(); }, 60);
+}
+btnPanelGenislik.addEventListener("click", function () {
+  var dar = !document.getElementById("yanpanel").classList.contains("dar");
+  panelGenislikUygula(dar);
+  localStorage.setItem("panelDar", dar ? "1" : "0");
+  setTimeout(function () { harita.resize(); }, 60);
+});
+
 // Otomatik yakınlaştırma düğmesi
 var btnZoom = document.getElementById("btn-zoom");
 btnZoom.addEventListener("click", function () {
