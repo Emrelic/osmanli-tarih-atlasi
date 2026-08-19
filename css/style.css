@@ -128,6 +128,20 @@ body {
   min-width: 0;
 }
 
+/* p23/H-0014 — harita değişiminin özeti ("Kayıp: Budin, Peşte…"). Madde
+   başlığından AYRI ve sönük: asıl metin kronolojiyle senkron akan başlık,
+   bu yalnız değişimin olduğu gün beliren bir dipnot. */
+#tepe-degisim {
+  font-size: 12px;
+  color: #ffd700;
+  white-space: nowrap;
+  flex: 0 1 auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  opacity: 0.85;
+}
+#tepe-degisim:not(:empty)::before { content: "· "; opacity: 0.6; }
+
 /* Bölge combobox'ı p2/H-0010 ile haritanın üstünden üst çubuğa taşındı. */
 #bolge-secici { flex: 0 0 auto; }
 #bolge {
@@ -299,7 +313,10 @@ body {
   color: var(--metin);
 }
 #ucus-grup #btn-ayarlar:hover { background: #ffe9a8; }
-#olay-listesi { flex: 1 1 auto; overflow-y: auto; padding: 5px; }
+/* min-height: detay penceresi %62'ye kadar büyüyebildiği için kronolojinin
+   TABANI olmalı — yoksa uzun bir maddede liste birkaç piksele iniyor.
+   ~4 satır: kullanıcı nerede olduğunu görmeye devam eder. */
+#olay-listesi { flex: 1 1 auto; overflow-y: auto; padding: 5px; min-height: 118px; }
 
 .olay {
   padding: 4px 7px;
@@ -784,10 +801,18 @@ body {
 }
 
 /* ---------- Olay bilgi paneli — kronolojinin ALTINDA, haritayı kapatmaz ---------- */
+/* 🔴 EMRE, 18 Ağustos 2026: *"kronoloji sütununun kapladığı alanı kısaltsak
+   ve madde içeriğine sağladığımız pencerenin alanını artırsak mı."*
+   ÖLÇÜLDÜ (640 px panelde): kronoloji 371 px (%58) · detay 199 px (%31).
+   ⚠️ Sabit bölüşme YANLIŞ çare olurdu: `flex: 0 0 auto` sayesinde detay
+   penceresi KISA maddede zaten küçük kalıyor — tavanı büyütmek boşluk
+   yaratmaz, yalnız UZUN maddenin daha çoğunu gösterir. Tavan %46 → %62;
+   kronolojiye de bir TABAN kondu (#olay-listesi min-height) ki hiç yok
+   olmasın. Yani kısalan şey kronolojinin PAYI değil, TAVANI. */
 #olay-bilgi {
   position: relative;
   flex: 0 0 auto;
-  max-height: 46%;
+  max-height: 62%;
   overflow-y: auto;
   background: var(--panel);
   border-top: 3px solid var(--altin);

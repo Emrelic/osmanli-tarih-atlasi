@@ -3346,7 +3346,9 @@ function guncelle() {
     harita.getSource("imparatorluk").setData(bosVeri());
     harita.getSource("serbest").setData(bosVeri());
     harita.getSource("bolge").setData(bosVeri());
-    donemEtiketi.textContent = "Fetret Devri — şehzade payları";
+    // p23/H-0014 — etiketi ARTIK BURASI YAZMIYOR. Bu dal yalnız dönem
+    // DEĞİŞTİĞİNDE giriliyor (`di !== aktifDonem`), yani buradan yazılan metin
+    // sonraki bütün günlerde takılı kalıyordu. Tek yazan: tepeEtiketGuncelle().
     var alanBos = document.getElementById("alan-goster");
     if (alanBos) alanBos.textContent = "📐 tek gövde yok — paylar ayrı ayrı";
   } else if (haritaHazir && di >= 0 && di !== aktifDonem) {
@@ -3367,7 +3369,7 @@ function guncelle() {
     // hatCoz zaten FeatureCollection dönüyor (her hat kendi `u`sunu taşıyor).
     harita.getSource("serbest").setData(d.sb || bosVeri());
     harita.getSource("bolge").setData(bolgeVerisi(suanki));
-    donemEtiketi.textContent = d.ad;
+    // p23/H-0014 — `d.ad` buradan YAZILMIYOR (yukarıdaki gerekçe).
     var alanEl = document.getElementById("alan-goster");
     if (alanEl) {
       {
@@ -3418,9 +3420,48 @@ function guncelle() {
   isgalGuncelle(suanki);
   padisahGuncelle(suanki);
   olaylarGuncelle(suanki);
+  tepeEtiketGuncelle();
   kronolojiSeritGuncelle();
   obTazele();
   baslikDamgala();
+}
+
+// ---------- Harita tepesindeki metin (p23/H-0014) ----------
+// 🔴 EMRE: *"kronoloji maddeleri ileri ileri oynatılırken haritanın tepesindeki
+// metin kronoloji maddesi ile aynı metin ve tarih olacak şekilde ayarlanmalı
+// ama senkronize değil. tarih değişiyor ama metin değişmiyor takılıyor."*
+//
+// KUSUR ÖLÇÜLDÜ (19 Ağustos 2026) — `#donem-etiketi` DÖNEM adını taşıyordu
+// (`donemler[di].ad`, motorun ürettiği "Kayıp: Budin, Peşte…" özeti) ve
+// yalnız `di !== aktifDonem` dalından yazılıyordu. Yani metin dönem
+// değişene kadar OLDUĞU GİBİ KALIYORDU:
+//
+//   tarih  8 Kasım 1687   madde  IV. Mehmed'in hal'i ve II. Süleyman'ın cülûsu
+//                         tepe   Kayıp: Herseknovi   ← 26 Eylül'ün kaybı, TAKILI
+//
+// ⚠️ Ve ilk yedi ölçüm satırı TESADÜFEN uyuşuyordu, çünkü hepsi toprak kaybı
+// maddesiydi. Kusur ancak toprak DEĞİŞMEYEN ilk maddede görünür oluyor —
+// `§11`in "temiz çıkan örneklem, örneklemin dışını temiz ilan etmez" vakası.
+//
+// ⇒ Bölündü: madde başlığı kronolojiyle SENKRON akar; dönemin kendi adı
+// `#tepe-degisim`e geçti ve YALNIZ değişimin gerçekleştiği gün görünür
+// (`d.fi === suanki`). Böylece bir daha bayatlayamaz: bayatlayabilecek tek
+// metin, artık yalnız bir gün yaşıyor.
+var tepeDegisim = document.getElementById("tepe-degisim");
+function tepeEtiketGuncelle() {
+  if (!donemEtiketi) return;
+  var o = sonVurgulanan >= 0 ? olaylar[sonVurgulanan] : null;
+  donemEtiketi.textContent = o ? o.b : "";
+  donemEtiketi.title = o ? (idxYazi(gunIdx(o.t)) + " — " + o.b) : "";
+  if (!tepeDegisim) return;
+  var di = donemBul(suanki);
+  if (di === -2) {
+    tepeDegisim.textContent = "Fetret Devri — şehzade payları";
+  } else if (di >= 0 && donemler[di].fi === suanki) {
+    tepeDegisim.textContent = donemler[di].ad || "";
+  } else {
+    tepeDegisim.textContent = "";
+  }
 }
 
 // p2/H-0006 — panel katlıyken (#yanpanel.katli) kronoloji tamamen kaybolmasın:
