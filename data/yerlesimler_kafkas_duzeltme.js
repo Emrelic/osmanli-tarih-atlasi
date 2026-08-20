@@ -234,4 +234,69 @@ window.YERLESIMLER_KAFKAS_DUZELTME = [
       +"kronoloji bende degil. KAYDA GECIRIYORUM, dokunmuyorum. "
       +"🟢 Ote yandan 1635-08-08 TDV ile BIREBIR: \"8 Agustos'ta teslim aldi\"."},
 
+// ─────────────────────────────────────────────────────────────────────
+// 7 · HEMEDAN — TDV zinciri ADIM ADIM veriyor, tek cümlede
+// ─────────────────────────────────────────────────────────────────────
+{ad:"Hemedan",
+ s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},
+    {f:"1340-01-01",t:"1387-11-01",d:"celayirli"},
+    {f:"1387-11-01",t:"1452-01-01",d:"timurlu"},
+    {f:"1452-01-01",t:"1469-01-01",d:"karakoyunlu"},
+    {f:"1469-01-01",t:"1508-01-01",d:"akkoyunlu"},
+    {f:"1508-01-01",t:"1736-03-08",d:"safevi"},
+    {f:"1736-03-08",t:"1747-06-20",d:"afsar"},
+    {f:"1747-06-20",t:"1796-01-01",d:"zend"},
+    {f:"1796-01-01",t:"1923-10-29",d:"kacar"}],
+ d:[{f:"1590-03-21",t:"1603-10-21"},{f:"1724-08-31",t:"1730-08-12"}],
+ v:[],
+ kaynak:"hemedan",
+ neden:"ESKI: ilhanli 1281..1335-12-01, sonra `iran` 1335-12-01..1508-01-01 (172,1 yil hayalet, "
+      +"kunye f:1925-12-12). "
+      +"🟢 TDV `hemedan` (200, GOVDESI OKUNDU) zinciri TEK CUMLEDE ve SIRAYLA veriyor, aynen: "
+      +"\"Ilhanlilar'dan sonra Celayirliler ve Timurlular'in eline gecti\" ... \"daha sonra da "
+      +"SIRASIYLA Karakoyunlular, Akkoyunlular ve Safeviler'in hakimiyeti altinda kaldi\". "
+      +"⇒ Alti kimligin ALTISI da kaynakta ADIYLA ve SIRASIYLA geciyor. Kimlik tarafinda hicbir "
+      +"cikarim yok. "
+      +"GUNLER: TDV tarih vermiyor; komsu Kasr-i Sirin'in (130 km) zincirindeki gunleri aldim — "
+      +"1340-01-01(50) · 1387-11-01(26) · 1452-01-01(40) · 1469-01-01(150) · 1508-01-01(95), "
+      +"hepsi kulliyatta VAR, yeni gun dogurulmadi. Bu tarafi CIKARIM. "
+      +"🟢 VE BIR TARIH BIREBIR TUTTU: veri 1724-08-31, TDV \"elli dokuz gunluk bir kusatmanin "
+      +"ardindan Hemedan'i aldiysa da (11 Zilhicce 1136 / 31 AGUSTOS 1724)\". "
+      +"⚠️ EKLENMEYEN IKI OSMANLI DONEMI, ikisi de TDV'de VAR: (a) 1588 \"Cigalazade Sinan Pasa "
+      +"Hemedan civarini zaptetti\" — \"civarini\" diyor, sehri degil; (b) 1630 \"Husrev Pasa 27 "
+      +"Sevval 1039'da (9 Haziran 1630) Hemedan'a girdi\" — bu bir SEFER isgali, ne kadar surdugu "
+      +"yazmiyor. Ikisi de YENI kirilma gunu dogururdu ve Degismez 2 madde ister. KAYDA GECIRILDI."},
+
+// ─────────────────────────────────────────────────────────────────────
+// 8 · KİRMANŞAH — TDV bu tanecikte SUSUYOR; dayanak açıkça yazıldı
+// ─────────────────────────────────────────────────────────────────────
+{ad:"Kirmanşah",
+ s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},
+    {f:"1340-01-01",t:"1387-11-01",d:"celayirli"},
+    {f:"1387-11-01",t:"1452-01-01",d:"timurlu"},
+    {f:"1452-01-01",t:"1469-01-01",d:"karakoyunlu"},
+    {f:"1469-01-01",t:"1508-01-01",d:"akkoyunlu"},
+    {f:"1508-01-01",t:"1736-03-08",d:"safevi"},
+    {f:"1736-03-08",t:"1747-06-20",d:"afsar"},
+    {f:"1747-06-20",t:"1796-01-01",d:"zend"},
+    {f:"1796-01-01",t:"1923-10-29",d:"kacar"}],
+ d:[{f:"1590-03-21",t:"1603-10-21"},{f:"1723-10-01",t:"1730-08-12"}],
+ v:[],
+ kaynak:"bulunamadı — TDV `kirmansah` maddesi (slug CANLI, 200, gövdesi OKUNDU) 14.-16. yüzyılı "
+       +"HİÇ anlatmıyor: Selçukluların 1045'te şehri almasından doğrudan Osmanlı-İran savaşlarına "
+       +"atlıyor. Dayanak: komşu Hemedan (TDV `hemedan`, ~130 km), zinciri orada ADIYLA veriliyor.",
+ neden:"ESKI: `iran` 1335-12-01..1508-01-01 (172,1 yil hayalet). "
+      +"🔴 TDV BU TANECIKTE SUSUYOR — ve bu CLAUDE.md §4'un olculmus 'TANECIKLIK BOSLUGU' vakasi: "
+      +"TDV bolgeyi goruyor ama O KADAR INCE taneciklikte konusmuyor. Kural: susuyorsa standart "
+      +"akademik kaynak mesru, SARTI kaynagin ACIKCA yazilmasi. `kaynak:` alanina yazdim. "
+      +"⇒ Kimlik zinciri Hemedan'dan devralindi (ayni Cibal bolgesi, ayni Osmanli-Safevi hatti, "
+      +"130 km). Kirmansah'in KENDI kaydinda TDV dayanagi YOK — bunu gizlemiyorum. "
+      +"🟢 Ama bir sey KESIN: `iran` YANLIS. Kunye f:1925-12-12, donem 1335'te basliyor ⇒ 424 yillik "
+      +"hayalet. Yanlisin yerine 'bilmiyorum' yazilamaz (Degismez 1 sahipsizlik uretir); en yakin "
+      +"belgeli komsunun zinciri, hayaletten HER HALUKARDA daha dogru. "
+      +"⚠️ TDV'nin verdigi TEK somut sey: \"1630 yilinda Husrev Pasa tarafindan tahkim edildikten "
+      +"sonra\" ve \"son olarak 1916 yilinda Osmanlilar'in eline gectiyse de 1917 Martinda tahliye "
+      +"edildi\". Ikisi de mevcut donemlerle celismiyor; 1916-1917 atlasin ufkunda ama veride yok — "
+      +"AYRI BIR KALEM, dokunmadim."},
+
 ];
