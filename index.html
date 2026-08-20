@@ -126,6 +126,35 @@
         <select id="odak-devlet" title="Haritanın ve kronolojinin odağını başka bir devlete al">
           <option value="">☪ Osmanlı (varsayılan)</option>
         </select>
+        <!-- ÇOK SEKMELİ ARAYÜZ — Emre'nin tarifi (20 Ağustos 2026), birebir:
+             "ODAK'a EK OLARAK Rusya Lehistan Osmanlı Venedik kronolojilerini
+             de görmek istiyorsam... hangi ÖNEMDEKİ maddelerin gösterileceğini
+             ayarlayabilelim." Kilit kural: ODAK'ın kendi kronolojisi HER ZAMAN
+             tam gösterilir (süzgeçsiz); EK devletler dunya/kapsam ile süzülür.
+             Liste js/app.js'te KRONOLOJİSİ OLAN devletlerden (odak hariç)
+             DİNAMİK dolduruluyor — burada devlet adı elle YAZILMIYOR, yeni
+             bir kronoloji_*.js eklenince otomatik listeye girer. -->
+        <div id="ek-devletler-kutu">
+          <button type="button" id="ek-devletler-ac" title="Ek devlet kronolojilerini bu listeye ekle">
+            ➕ Ek devletler
+          </button>
+          <div id="ek-devletler-panel" class="gizli">
+            <div id="ek-devletler-liste"></div>
+            <label class="ek-ayar-satir">
+              Dünya önemi ≥
+              <select id="ek-dunya-esik" title="Yalnız bu değerin ÜSTÜNDEKİ dünya öneminde maddeler eklenir">
+                <option value="1">1 (hepsi)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4" selected>4</option>
+                <option value="5">5 (yalnız dönüm noktaları)</option>
+              </select>
+            </label>
+            <label class="ek-ayar-satir">
+              <input type="checkbox" id="ek-yalniz-dis"> yalnız dış mesele maddeleri
+            </label>
+          </div>
+        </div>
       </div>
     </section>
     <section id="olay-akisi">
@@ -366,6 +395,17 @@
 <!-- hatalar 8.docx madde 1: antlasmalarda taralı devir alanları. Uretici: arac/uret_devirler.py -->
 <script src="data/devirler.js?v=r2706"></script>
 <script src="data/devletler.js?v=r2706"></script>
+<!-- ÇOK SEKMELİ ARAYÜZ (20 Ağustos 2026, KOORDİNATÖR görevi) — devletlerin
+     DERİN kronolojileri. `data/devletler.js`teki habsburg/rusya/lehistan
+     künyeleri hâlâ eski/kısa listeyi taşıyor (14/15/12 madde, çoğu Osmanlı
+     cephesinden); bu dosyalar devletler.js'e HENÜZ BAĞLANMADI (koordinatörün
+     işi) — js/app.js açılışta `window.KRONOLOJI_*`yi ilgili künyenin
+     `.kronoloji` alanına BELLEKTE bindiriyor (dosyaya yazmıyor). Yeni bir
+     devlet (`kronoloji_venedik.js` gibi) eklenince BURAYA bir satır +
+     app.js'teki `KRONOLOJI_EK_KAYNAK` sözlüğüne bir satır gerekir. -->
+<script src="data/kronoloji_habsburg.js"></script>
+<script src="data/kronoloji_rusya.js"></script>
+<script src="data/kronoloji_lehistan.js"></script>
 <script src="data/kisiler.js?v=r2706"></script>
 <script src="data/savaslar.js?v=r2706"></script>
 <!-- YERLESIM PARTILERI - hepsi yuklenir ve TEK diziye birlestirilir.
