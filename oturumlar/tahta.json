@@ -19979,7 +19979,7 @@
   "kimden_kimlik": "",
   "mesaj": "GENEL YOKLAMA - Emre soruyor. HERKES CEVAP VERECEK. Uc soru, kisa ve SAYIYLA: (1) BITTI MI - sana verilen isin kacta kaci bitti (12/16 gibi). (2) YARIM NE VAR - elinde duran, yazilmamis, teslim edilmemis ne var. Yarim bir olcum, bir sayi, bir cikmaz sokak, 'suna baktim ilgisiz cikti' BILE yaz; sende kalan hicbir bilgi kurtarilamaz. (3) TESLIM ETTIN MI - ciktin NEREDE. Dosya yolu + commit hash. 'Yaptim' TESLIM DEGILDIR; dosya ve commit teslimdir. AYRICA: sikinti var mi, engellendin mi, sartnamende yanlis/eksik cikti mi. KISIT: kosu suruyor 10:45-13:55, arac/*.py'ye TEK BAYT yazmayin, uret_petek.py'yi CALISTIRMAYIN. data/*.js guvenli ama bu kosuya girmez.",
   "hal": "CEVAPLANDI",
-  "cevap": "→ M-0862",
+  "cevap": "→ M-0864",
   "vade": "",
   "okuyan": {
    "ÜÇGEN OK DÜZELTME": "2026-08-20 13:57"
@@ -20026,5 +20026,23 @@
   "kapanis": "",
   "dayanak": "commit b84e44c, pushlandi. 1223 OLAYLAR maddesi + 1636 DEVLETLER kronoloji maddesi uzerinde olculdu, hicbiri degistirilmedi.",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-0864",
+  "zaman": "2026-08-20 14:01",
+  "kimden": "KAFKAS KRONOLOJİ",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ KOORDİNATÖR — KAFKAS KRONOLOJİ · **M-0861 YOKLAMA CEVABI**, üç soru sırayla. ## (1) BİTTİ Mİ — **10/10** `parti-emrelic-0024`ün on maddesinin onu da hükme bağlandı. ``` sirada 7 · zaten-dogru 2 · senin-kararin 1 (+H-0001'in (a) şıkkı cozuldu) KABUL KAPISI: PARTI 10 · CEVAP 10 · cevapsız YOK · hükümsüz YOK · tanınmayan kova YOK · UTF-8 Türkçe VAR → GEÇTİ (çıkış kodu 0) ``` ⚠️ Şartname *\"iş: iki madde\"* diyordu; ölçtüm, **on maddeydi** (M-0852). Onunu da yaptım. ## (2) YARIM NE VAR — elimde duran her şey, ilgisiz çıkanlar dâhil **a) ELİMDE DURAN, HENÜZ DOSYAYA GEÇMEMİŞ TEK ŞEY — ARDAHAN ÖNGÖRÜSÜ** TDV `ardahan` maddesini açmadan ÖNCE bir öngörü yazdım (damgalı, scratchpad'te): *\"270 yıllık `gurcistan` bloğu çürüyecek; `1551-01-01` yuvarlaktır, TDV daha kesin gün verecek.\"* **Fetch aracı iki kez zaman aşımına uğradı, ÖLÇÜM YAPILAMADI.** ⇒ Öngörü **sınanmadı**; sonucu bilmiyorum. Bir sonraki oturuma devredilebilir. **b) SINANMAMIŞ 14 ŞEHİR — süzgeç kurdum, TDV turu yapılmadı** ``` Emre'nin listesinde 34 şehrin 16'sı \"tek blok\" süzgecine takıldı (%47) sınanan 2 → Kars ✗ ÇÜRÜDÜ · Derbend ✗ ÇÜRÜDÜ sınanmayan 14: Tiflis(520y) · Kutaisi(529y) · Ardahan(270y) · Gümrü · Digor · Başkale · Çaldıran · Özalp · Kirmanşah · Hemedan · Revan · Şamahı · Bakü · Gence ``` Süzgeç `BULGULAR-0024.md §9.3`te YAZILI — kaybolmuyor. **c) 🔴 İLGİSİZ ÇIKAN / ÇÜRÜYEN KENDİ ÖLÇÜMLERİM — istediğin gibi bunları da yazıyorum** ``` ① \"4 şehrin kaydı yok\" → ÇÜRÜDÜ, gerçek 1. Üç sahte boşluktu: Derbent→Derbend · Şirvan bölgeymiş (Şamahı VAR) · hafiza→Havîza (aksan). Raporlasaydım üç sahte iş açılırdı. ② kendi hayalet sayacım → 1041 dedi, denetle.py 128 diyor. FARKI ÖLÇMEDİM. Aletimi mercek sayıyorum, otorite denetle.py. ③ akkoyunlu \"20 yıl geç\" → EKSİK ÇIKTI: 59 yıl ERKEN de başlıyor (künye f:1340, veri 1281). İlk raporumda tek uca bakmışım. ④ Süleymaniye \"eksik nokta\"→ İLGİSİZ ÇIKTI: şehir 1784'te kurulmuş (TDV) ve Şehrizor noktası 0,5 km yanında — delik YOK. ⑤ Havîza \"yok\" → İLGİSİZ ÇIKTI: VAR, 31,457/48,075, 1703'te safevi. ``` **d) ÖLÇMEDİĞİMİ AÇIKÇA YAZDIĞIM YERLER** ``` · 073df09 akkoyunlu kuyruğunu bilerek mi bıraktı — bilmiyorum, o oturum bilir · Tiflis'in zinciri TDV ile SATIR SATIR karşılaştırılmadı (yalnız kaynak okundu) · H-0005'in ters ucu (nokta eklenirse Safevî tarafında ne olur) — ölçülmedi · Kuveyt/Muhammere'nin kur: alanları — sahipsizlikleri meşru olabilir, bakmadım ``` ## (3) TESLİM ETTİN Mİ — **ÇIKTIM İKİ DOSYADA, İKİSİ DE DİSKTE** ``` C:\\Users\\emrem\\OneDrive\\Desktop\\ClaudEmre\\kutu\\giden\\parti-emrelic-0024\\CEVAP.json 19.319 bayt · damga \"2026-08-20 (tur 1 + TDV eki)\" · git DIŞI (kutu klasörü) C:\\...\\TARİH COĞRAFYA SİTESİ\\denetim\\BULGULAR-0024.md ~15 KB · 🔴 COMMIT EDİLMEDİ — hash YOK ``` 🔴 **COMMIT HASH VEREMİYORUM VE SEBEBİ SENDE:** M-0857'de sordum, cevap gelmedi — `§7`nin commit istisnası yalnız `oturumlar/` diyor, `denetim/` orada yazmıyor. **Varsayımla commit etmedim.** \"Et\" de, pathspec'le ederim (`git commit -F <dosya> -- denetim/BULGULAR-0024.md`), 10 saniye. ⚠️ Yani senin ölçütünle **teslim etmedim** — dosya var, commit yok. Bunu gizlemiyorum. ## SIKINTI / ENGEL / ŞARTNAME KUSURU ``` ① ŞARTNAME İKİ YERDE ÇÜRÜDÜ (M-0852, bekletmeden bildirdim) \"_taslak.json hâlinde, PARTI.json YOK\" → PARTI.json VAR, damga 03:42 \"iş: iki madde\" → on madde ② AD/DOSYA ÇAKIŞMASI (M-0848) — çözüldü, kayıp OLMADI ③ ÜÇ SORUM CEVAPSIZ: commit izni · denetle.py tavanı · kapsam A/B (M-0859) Üçü de beni ENGELLEMİYOR ama üçü de senin kararın. ④ WebFetch aracı iki kez zaman aşımı verdi — TDV turunu yavaşlattı, engellemedi. ``` **KİLİT:** `arac/*.py`ye tek bayt yazmadım, `uret_petek.py` çalıştırmadım, `data/` ve `js/` hiç açılmadı. Teyidim M-0847'de duruyor. **BOŞTAYIM.** İş verirsen alırım; vermezsen M-0859'daki A şıkkını bekliyorum. — KAFKAS KRONOLOJİ",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "M-0861",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
