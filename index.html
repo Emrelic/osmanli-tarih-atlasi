@@ -279,9 +279,90 @@
       <label for="duygu-ac">😊 Duygu emojileri <span class="ayar-ipucu">(okuyanın tepkisi — kaynağın hükmü değil, TDV'ye basmaz)</span></label>
       <input type="checkbox" id="duygu-ac" checked>
     </div>
-    <h3 class="ayar-altbaslik">🛩 Uçuş kipi</h3>
+    <!-- 🔴 ODAKLAMA MOTORU — Emre'nin 20 Ağustos tarifi. Dört ayar, dördü de
+         İNSAN BİRİMİNDE. Eskisi MapLibre'nin soyut sayılarını (curve 1.42 ·
+         speed 1.2 · zoom 5.5) doğrudan gösteriyordu; Emre `p0019/H-0059`da
+         *"uçuş ayarları hiç etki etmiyor görünüyor"* dedi ve ÖLÇÜLDÜ:
+         ayarlar UYGULANIYORDU, ama etkileri OKUNAMIYORDU. Kusur mekanizmada
+         değil BİRİMDEYDİ. -->
+    <h3 class="ayar-altbaslik">🛩 Odaklanma</h3>
+    <!-- ① Emre: "ekranda sağ kenardan sol kenara kaç kilometrelik alan
+         sığsın, bu sorunun cevabını veren bir ayar olsun."
+         🔴 Enlem düzeltmesi ŞART ve kodda var: Mercator'da aynı zoom
+         Ekvator'da 2 kat geniş görünür. Ölçüldü — 1500 km ayarı 41°K'de
+         zoom 6,01 · 15°K'de 6,37 · 50°K'de 5,78 veriyor. Düzeltme olmasa
+         ayar KULLANICIYA YALAN SÖYLERDİ. -->
     <div class="ayar-satir">
-      <label for="ayar-irtifa">İrtifa <span class="ayar-ipucu">(yayın tepe yüksekliği)</span></label>
+      <label for="ayar-genislik-km">Görüş genişliği <span class="ayar-ipucu">(ekranda sağdan sola kaç km — orta enlemde)</span></label>
+      <input type="range" id="ayar-genislik-km" min="100" max="8000" step="50" value="1500">
+      <span id="ayar-genislik-km-deger" class="ayar-deger"></span>
+    </div>
+    <!-- ② Emre: "Kırım'da bir olay mı oldu yukarıdan ekrana girer. İran ile
+         savaş mı çıktı sağdan pencereye girer… ama pencereye hemen karenin
+         ucundan değil de belli bir miktar pencerenin içine doğru."
+         S2 hükmü: hedef ZATEN EKRANDAYSA kamera OYNAMAZ, yalnız işaret
+         yanıp söner (iki kez). -->
+    <div class="ayar-satir">
+      <label for="ayar-yerlesim">Yerleşim <span class="ayar-ipucu">(olay mahalli ekranın ortasına mı, kenardan mı girsin)</span></label>
+      <select id="ayar-yerlesim">
+        <option value="orta" selected>Ortala</option>
+        <option value="kenar">Kenardan girsin</option>
+      </select>
+      <span class="ayar-deger"></span>
+    </div>
+    <div class="ayar-satir">
+      <label for="ayar-kenarpay">Kenar payı <span class="ayar-ipucu">(kenardan girişte çerçevenin ne kadar içine — %)</span></label>
+      <input type="range" id="ayar-kenarpay" min="5" max="45" step="1" value="18">
+      <span id="ayar-kenarpay-deger" class="ayar-deger"></span>
+    </div>
+    <!-- ③ Emre'nin kendi gördüğü gerilim: "Bursa'dan İstanbul'a mevzu bahis
+         olduğunda bu çok yavaş olacaktır." ÖLÇÜLDÜ:
+           sabit 1000 km/sn → Yemen-Kamaniçe 3,00 sn ✓ · Bursa-İstanbul 0,09 ✗
+           sabit 2 sn       → ikisi de 2 sn ✓ ama "hız" kelimesi anlamsız
+         ⇒ HIZ TABANLI + SÜRE TABANI/TAVANI. Bugünkü değerlerle ölçüm:
+           Bursa-İstanbul     91 km → 0,80 sn (taban tuttu)
+           İstanbul-Viyana  1277 km → 0,85 sn
+           Yemen-Kamaniçe   4039 km → 2,69 sn (serbest)
+           Fas-Basra        5171 km → 3,00 sn (tavan tuttu)
+         Mesafe HİSSEDİLİYOR ama hiçbir uçuş ne göz kırpması ne eziyet. -->
+    <div class="ayar-satir">
+      <label for="ayar-hiz-kms">Odaklanma hızı <span class="ayar-ipucu">(km / saniye — uzun yol uzun sürer)</span></label>
+      <input type="range" id="ayar-hiz-kms" min="200" max="6000" step="100" value="1500">
+      <span id="ayar-hiz-kms-deger" class="ayar-deger"></span>
+    </div>
+    <div class="ayar-satir">
+      <label for="ayar-sure-taban">En kısa süre <span class="ayar-ipucu">(yakın olaylar göz kırpması gibi geçmesin)</span></label>
+      <input type="range" id="ayar-sure-taban" min="0.2" max="2" step="0.1" value="0.8">
+      <span id="ayar-sure-taban-deger" class="ayar-deger"></span>
+    </div>
+    <div class="ayar-satir">
+      <label for="ayar-sure-tavan">En uzun süre <span class="ayar-ipucu">(uzak olaylar eziyet olmasın)</span></label>
+      <input type="range" id="ayar-sure-tavan" min="1" max="8" step="0.1" value="3">
+      <span id="ayar-sure-tavan-deger" class="ayar-deger"></span>
+    </div>
+    <!-- ④ Emre: "yatay hareket seçilir ise … harita zoomunu değiştirmeden …
+         eğik atışta ise harita önce zoom out olup … sonra zoom in ile."
+         MapLibre ikisini de yerlisinde veriyor: `flyTo` van Wijk parabolü,
+         `easeTo` düz interpolasyon.
+         ⚠️ EŞİK NİÇİN VAR: uzun mesafede `easeTo` haritayı ŞERİT gibi akıtır
+         — `flyTo` zaten bu yüzden icat edilmiş. Eşiğin üstünde yatay seçilse
+         bile eğik atışa düşülüyor. Eşik AYARDA, yani Emre'nin seçimi
+         EZİLMİYOR; sınırını kendisi koyuyor. -->
+    <div class="ayar-satir">
+      <label for="ayar-hareket">Hareket biçimi <span class="ayar-ipucu">(eğik atış: uzaklaşıp yaklaşır · yatay: düz kayar)</span></label>
+      <select id="ayar-hareket">
+        <option value="egik" selected>Eğik atış</option>
+        <option value="yatay">Yatay hareket</option>
+      </select>
+      <span class="ayar-deger"></span>
+    </div>
+    <div class="ayar-satir">
+      <label for="ayar-yatay-esik">Yatay sınırı <span class="ayar-ipucu">(bu km'nin üstünde yatay seçilse de eğik atışa geçer)</span></label>
+      <input type="range" id="ayar-yatay-esik" min="200" max="5000" step="100" value="1200">
+      <span id="ayar-yatay-esik-deger" class="ayar-deger"></span>
+    </div>
+    <div class="ayar-satir">
+      <label for="ayar-irtifa">İrtifa <span class="ayar-ipucu">(eğik atışta yayın tepe yüksekliği)</span></label>
       <input type="range" id="ayar-irtifa" min="0.5" max="3" step="0.1" value="1.42">
       <span id="ayar-irtifa-deger" class="ayar-deger"></span>
     </div>

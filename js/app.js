@@ -4648,13 +4648,29 @@ function haritayiOlayaGotur(o) {
   //   ② ayar-yerlesim      orta | kenar
   //   ③ ayar-hiz-kms + taban/tavan   süre = sınırla(mesafe/hız, taban, tavan)
   //   ④ ayar-hareket       egik (flyTo, yay) | yatay (easeTo, düz)
-  var _kap = harita.getContainer().getBoundingClientRect();
+  var _kap = _haritaKutu();
   var yakinlik = kmDanZoom(+_ayar("ayar-genislik-km", 1500),
                            hedef.lat, _kap.width);
   var _kmMesafe = kmArasi(harita.getCenter().lat, harita.getCenter().lng,
                           hedef.lat, hedef.lon);
   var _sureMs = ucusSuresiMs(_kmMesafe);
   var ofset = odakOfseti(hedef, _kap);
+
+  // 🔴 S2 — Emre'nin hükmü, birebir: *"Eğer ekran içinde ise ve uzaktan
+  // bakma ayarı belli ise bir şey yapmasına gerek yok, sadece ilgili
+  // animasyon … sembol işaret yanma sönme hareketi yapsın, İKİ KEZ YETER."*
+  // ⚠️ İKİ ŞART BİRDEN: hedef görünüyor OLACAK **ve** yakınlık zaten
+  // istenen ölçekte olacak. Yalnız birincisine bakmak yanlış olurdu —
+  // hedef ekranda olabilir ama kıta ölçeğinden bakıyor olabiliriz; o zaman
+  // "bir şey yapma" demek kullanıcıyı 6.000 km yükseklikte bırakırdı.
+  // 📌 Ve bu, boşuna uçuşu da önlüyor: art arda aynı bölgedeki maddelerde
+  // harita titremiyor.
+  if (_ekrandaMi(hedef, _kap) &&
+      Math.abs(harita.getZoom() - yakinlik) < 0.6) {
+    isaretYanipSon(hedef);
+    return;
+  }
+
   if (ucusKipEl.value === "ani" || hizliGecis) {
     // KİP A — tak diye, animasyonsuz. §⑧④(c): uçuş kipindeyken de hızlı
     // art arda geçişte aynı yola düşer, yarım kalmış uçuşların titremesini
@@ -4702,6 +4718,28 @@ function _ayar(id, varsayilan) {
   var e = document.getElementById(id);
   return e && e.value !== "" ? +e.value : varsayilan;
 }
+
+// 🔴 HARİTA KUTUSU — `getBoundingClientRect()` DOĞRUDAN KULLANILMAZ.
+// 20 Ağustos 2026'da ölçüldü: sayfa kompozit edilmeyen bir ortamda
+// (görünmeyen sekme, arka planda pencere, başsız tarayıcı) bu çağrı
+// **{width: 0, height: 0}** döndürüyor. Sessiz bir sonuç, ve iki dalı
+// birden çürütüyordu:
+//     _ekrandaMi   `p.x <= 0` şartı ⇒ HER ZAMAN false ⇒ S2 hiç ateşlemez
+//     odakOfseti   yarımX = 0 ⇒ t = 0 ⇒ ofset HEP [0,0] ⇒ kenar kipi ölü
+// ⚠️ Ve ikisi de HATA VERMİYORDU — "çalışıyor ama yanlış" sınıfı, yani
+// `CLAUDE.md §11`in en zor bulunan cinsi. Kusuru gösteren şey çıktı değil,
+// kabın kendisini ÖLÇMEK oldu.
+// ⇒ Üç kademeli düşüş: gerçek kutu → offsetWidth → tuval → makul varsayılan.
+function _haritaKutu() {
+  var c = harita.getContainer();
+  var r = c.getBoundingClientRect();
+  if (r.width > 1 && r.height > 1) return r;
+  var w = c.offsetWidth, h = c.offsetHeight;
+  if (!(w > 1 && h > 1)) {
+    try { var t = harita.getCanvas(); w = t.width; h = t.height; } catch (e) { /* yok */ }
+  }
+  return { width: (w > 1 ? w : 900), height: (h > 1 ? h : 620) };
+}
 function _ayarMetin(id, varsayilan) {
   var e = document.getElementById(id);
   return e && e.value ? e.value : varsayilan;
@@ -4748,6 +4786,42 @@ function ucusSuresiMs(kmMesafe) {
   return Math.max(taban, Math.min(tavan, kmMesafe / hiz)) * 1000;
 }
 
+// Hedef şu an çerçevenin içinde mi? (S2'nin birinci şartı)
+// Kenarlara yapışık olanı "içeride" saymamak için küçük bir iç pay var —
+// tam kenardaki bir nokta görünüyor sayılsa kullanıcı onu ARAMAK zorunda
+// kalırdı ve "bir şey olmadı" derdi.
+function _ekrandaMi(hedef, kap) {
+  var p;
+  try { p = harita.project([hedef.lon, hedef.lat]); } catch (e) { return false; }
+  var payX = kap.width * 0.08, payY = kap.height * 0.08;
+  return p.x >= payX && p.x <= kap.width - payX &&
+         p.y >= payY && p.y <= kap.height - payY;
+}
+
+// İşaret yanıp sönmesi — İKİ KEZ (Emre: "iki kez yeter").
+// Kamera oynamadığında kullanıcının "bir şey oldu mu" sorusunun cevabı bu.
+// ⚠️ Kendi işaretini kuruyor ve söndürüyor: var olan şehir/savaş
+// işaretlerini yakıp söndürmek onların kendi yaşam döngüsüne karışırdı
+// (`savasGuncelle` çakışma elemesi yapıyor, elenen bir işareti yakmak
+// görünmeyen bir şeyi yakmak olurdu).
+var _yanipSonEl = null, _yanipSonZaman = null;
+function isaretYanipSon(hedef) {
+  try {
+    if (_yanipSonZaman) { clearTimeout(_yanipSonZaman); _yanipSonZaman = null; }
+    if (_yanipSonEl) { _yanipSonEl.remove(); _yanipSonEl = null; }
+    var el = document.createElement("div");
+    el.className = "odak-parlama";
+    _yanipSonEl = new maplibregl.Marker({ element: el, anchor: "center" })
+      .setLngLat([hedef.lon, hedef.lat]).addTo(harita);
+    // CSS animasyonu 2 çevrim (0,55 sn × 2) — süre oradan geliyor, burada
+    // TEKRARLANMIYOR ki ikisi ayrışmasın (iki yerde duran sayı bayatlar).
+    _yanipSonZaman = setTimeout(function () {
+      if (_yanipSonEl) { _yanipSonEl.remove(); _yanipSonEl = null; }
+      _yanipSonZaman = null;
+    }, 1250);
+  } catch (e) { /* harita hazır değil — sessiz geç */ }
+}
+
 // ② YERLEŞİM — orta | kenar.  Emre: *"Kırım'da bir olay mı oldu yukarıdan
 // ekrana girer. İran ile savaş mı çıktı sağdan pencereye girer… ama
 // pencereye hemen karenin ucundan değil de belli bir miktar pencerenin
@@ -4782,17 +4856,49 @@ function odakOfseti(hedef, kap) {
 // modal deseni). Değerler kalıcı, sürgünün yanında sayı olarak da yazılır.
 (function () {
   var pencere = document.getElementById("ayarlar-pencere");
-  [["ayar-irtifa", "ayarIrtifa"], ["ayar-hiz", "ayarHiz"], ["ayar-kenarpay", "ayarKenarPay"]].forEach(function (p) {
+  // 🔴 ETİKET SAYIYI DEĞİL BİRİMİ GÖSTERİR — `p0019/H-0059`un asıl dersi.
+  // Emre *"uçuş ayarları hiç etki etmiyor görünüyor"* dedi ve ölçüldü:
+  // ayarlar UYGULANIYORDU. Sorun, `1.42` ve `1.2` gibi soyut sayıların
+  // kullanıcıya HİÇBİR ŞEY söylememesiydi — etkiyi göremeyince "etki yok"
+  // sanılıyordu. Artık her sürgünün yanında birimi yazıyor.
+  var BIRIM = {
+    "ayar-genislik-km": function (v) { return (+v >= 1000 ? (v / 1000).toFixed(1).replace(".0", "") + " bin km" : v + " km"); },
+    "ayar-hiz-kms":     function (v) { return v + " km/sn"; },
+    "ayar-sure-taban":  function (v) { return (+v).toFixed(1) + " sn"; },
+    "ayar-sure-tavan":  function (v) { return (+v).toFixed(1) + " sn"; },
+    "ayar-yatay-esik":  function (v) { return v + " km"; },
+    "ayar-kenarpay":    function (v) { return "%" + v; },
+    "ayar-irtifa":      function (v) { return v; },
+    "ayar-hiz":         function (v) { return v; }
+  };
+  [["ayar-irtifa", "ayarIrtifa"], ["ayar-hiz", "ayarHiz"],
+   ["ayar-kenarpay", "ayarKenarPay"],
+   ["ayar-genislik-km", "ayarGenislikKm"], ["ayar-hiz-kms", "ayarHizKms"],
+   ["ayar-sure-taban", "ayarSureTaban"], ["ayar-sure-tavan", "ayarSureTavan"],
+   ["ayar-yatay-esik", "ayarYatayEsik"]].forEach(function (p) {
     var girdi = document.getElementById(p[0]);
     var deger = document.getElementById(p[0] + "-deger");
+    if (!girdi) return;                       // eski sürgü kaldırılmış olabilir
     var kayitli = localStorage.getItem(p[1]);
     if (kayitli) girdi.value = kayitli;
-    deger.textContent = girdi.value;
+    var yaz = function () {
+      if (deger) deger.textContent = (BIRIM[p[0]] || function (v) { return v; })(girdi.value);
+    };
+    yaz();
     girdi.addEventListener("input", function () {
-      deger.textContent = girdi.value;
+      yaz();
       localStorage.setItem(p[1], girdi.value);
     });
   });
+  // İki açılır liste (yerleşim · hareket biçimi) — sürgü değil, ayrı döngü.
+  [["ayar-yerlesim", "ayarYerlesim"], ["ayar-hareket", "ayarHareket"]]
+    .forEach(function (p) {
+      var e = document.getElementById(p[0]);
+      if (!e) return;
+      var k = localStorage.getItem(p[1]);
+      if (k) e.value = k;
+      e.addEventListener("change", function () { localStorage.setItem(p[1], e.value); });
+    });
   // `ayar-yakinlik` ayrı: etiketi zoom sayısı değil km (§⑧③, yakinlikEtiket).
   var yakinlikGirdi = document.getElementById("ayar-yakinlik");
   var yakinlikDeger = document.getElementById("ayar-yakinlik-deger");

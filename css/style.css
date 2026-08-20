@@ -1660,6 +1660,29 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
      halka  KESKİN ama İÇİ BOŞ çember  → yerleşim KESİN var, ama toprağı
                                           bir devlete ait DEĞİL
    İçinin boş olması anlamlı: nokta kesin, sahiplik yok. */
+/* 🔴 ODAK PARLAMASI — Emre, 20 Ağustos 2026: *"eğer ekran içinde ise …
+   bir şey yapmasına gerek yok, sadece … sembol işaret yanma sönme hareketi
+   yapsın, İKİ KEZ YETER."*
+   Kamera oynamadığında kullanıcının "bir şey oldu mu" sorusunun cevabı bu.
+   ⚠️ `iteration-count: 2` — süre TEK YERDE (burada). `js/app.js` işareti
+   1250 ms sonra kaldırıyor; 2 × 550 ms = 1100 ms + pay. İki sayı iki
+   yerde duruyor ama biri ÖTEKİNDEN BÜYÜK olmak zorunda, eşit değil —
+   bu yüzden bayatlama riski yok, yorumda gerekçesi yazılı. */
+@keyframes odakParla {
+  0%   { transform: scale(0.55); opacity: 0.15; }
+  45%  { transform: scale(1.35); opacity: 0.95; }
+  100% { transform: scale(0.55); opacity: 0.15; }
+}
+.odak-parlama {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  pointer-events: none;
+  border: 3px solid var(--altin);
+  box-shadow: 0 0 12px 3px rgba(255, 215, 0, 0.55);
+  animation: odakParla 0.55s ease-in-out 2;
+}
+
 .bosluk-halka {
   width: 13px;
   height: 13px;
