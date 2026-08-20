@@ -19364,5 +19364,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0847",
+  "zaman": "2026-08-20 10:44",
+  "kimden": "KOORDINATOR",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "GIRDI KILITLI - kosu basliyor. arac/*.py dosyalarina TEK BAYT yazmayin, kosu olur (motor_izi her asamada parmak izi dogruluyor). data/*.js yazmak guvenli ama BU kosuya girmez. Kosu ~3.2 saat. Bitince 'dosya senin' diyecegim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
