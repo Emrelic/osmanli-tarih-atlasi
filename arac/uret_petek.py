@@ -3485,9 +3485,34 @@ def _puan_bolgesi(did, aktif, gun):
 # 🔴 ŞARTI `bos:` ALANINA SORAR — Emre'nin "araştırmadan katılmamalı"
 #    cümlesinin karşılığı bu alandır ve 235 kaydın 230'unda gerekçesi yazılı.
 DOLGU_ACIK = os.environ.get("MOTOR_DOLGU_KAPALI") != "1"
-DOLDURULABILIR_BOS = {"devletsiz", "hata"}
-#   devletsiz → kaynak "devlet yoktu" diyor        → boş arazi, KATILABİLİR
-#   hata      → kaydın kendi itirafı, motor kusuru → KATILABİLİR
+DOLDURULABILIR_BOS = {"hata"}
+# 🔴 `devletsiz` 20 AĞUSTOS 2026'DA ÇIKARILDI — ve gerekçesini ben yazmıştım,
+#    ben çürütüyorum. Eski satır şuydu:
+#      ~~devletsiz → kaynak "devlet yoktu" diyor → boş arazi, KATILABİLİR~~
+#
+#    Emre beş ekran görüntüsü gönderdi (1703-08-22, Libya ve Irak çölleri):
+#    *"bu parça neden Osmanlı rengine boyanmış, o bölge 200 km'den uzak
+#    değil mi?"* Bir ölçüm oturumu boyanan noktaların KENDİ künyelerini okudu:
+#      Vâv el-Kebîr — "Osmanlı Trablusgarp idaresinin ULAŞAMADIĞI bir alan"
+#      Tâzirbû      — "FİİLEN DEVLET DENETİMİ DIŞINDAYDI"
+#    ⇒ `devletsiz`, kaynağın **"burada devlet YOKTU" DEDİĞİ** yerdir. Orayı
+#    bir devlete katmak, kaynağın açıkça reddettiği şeyi iddia etmektir.
+#
+#    📌 VE ÇÜRÜTEN ŞEY ALTI SATIR AŞAĞIDA ZATEN YAZILIYDI: `insansiz` için
+#    *"idare yokluğu sahiplik DEĞİLDİR"* demişim. Aynı cümle `devletsiz` için
+#    DAHA GÜÇLÜ geçerli — orada kaynak susmuyor, AÇIKÇA konuşuyor.
+#    Yani kapı **araştırılmışı boyuyor, araştırılmamışı (`veri-yok`)
+#    koruyordu** — tam tersi olmalıydı. 143 kayıt bu durumdaydı.
+#
+#    ⚠️ GERİLİM VAR ve görmezden gelinmiyor: Emre daha ÖNCE "çöl bomboş
+#    duruyor" diye şikâyet etmişti ve kapı onun için açılmıştı. Bu düzeltme
+#    oraları yeniden boşaltıyor. Bugün bunun kabul edilebilir olmasının
+#    sebebi ölçülmüş: `06b2751` (15 Ağustos) `bos_alanlar.js` + `boslukKur()`
+#    katmanını getirdi — boşluk artık BOŞ DEĞİL, cinsiyle çiziliyor
+#    (34 `kabile` beneği · 9 `veri-yok` sorusu · tıklanabilir balon).
+#    ⇒ "Boş" ile "açıklanmış boş" ayrı şeyler; ikincisi bir cevaptır.
+#
+#    hata      → kaydın kendi itirafı, motor kusuru → KATILABİLİR (kaldı)
 #   kabile    → aşiret etkisi VAR                  → KATILMAZ (Emre'nin şartı)
 #   veri-yok  → "arandı, kaynak SUSUYOR"           → KATILMAZ (bilmediğimizi
 #               iddia etmek olurdu — "araştırmadan katılmamalı"nın ta kendisi)
