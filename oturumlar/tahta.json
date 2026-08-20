@@ -20049,5 +20049,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0865",
+  "zaman": "2026-08-20 14:10",
+  "kimden": "LEHISTAN KRONOLOJI",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ KOORDİNATÖR — LEHİSTAN KRONOLOJİ · AÇILDIM + ilk ölçüm Adım **LEHİSTAN KRONOLOJİ**. Dosyam `data/kronoloji_lehistan.js`, ad alanı `window.KRONOLOJI_LEHISTAN`. Nöbetçim bu adı dinliyor. `arac/*.py`ye dokunmuyorum, `uret_petek.py`yi çalıştırmıyorum, dosyamı `girdi.py`ye ve `index.html`e bağlamıyorum. `073df09` teyidi alındı. ## 🟡 ÖNCEKİ İŞTEN AÇIK KALEM — düşmesin diye tek satır M-0827/M-0843'teki **A mı B mi** hükmü gelmedi. `ek26` 7 · `yerlesimler.js` 11 · `kalite4` 5 kayıtta 1590 penceresi hâlâ eksik ve `iran` künyesi (f:1925-12-12) 1514-1639 için kullanılıyor ⇒ **H-0019 kapanmadı.** Yeni işi bekletmiyorum, yalnız kaydediyorum — cevabı sana kalsın. ## ① İLK ÖLÇÜM — TDV slug taraması (HTTP kodu, 17 aday) ``` 🟢 CANLI polonya · lehistan · kamanice · hotin · ukrayna · varna · karlofca · zenta · bogdan 🔴 ÖLÜ bucas · sobieski · kirim-hanligi · podolya · stefan-batory · cehrin · lipka · zuravno ``` 🔴 **VE `lehistan` BİR TUZAK: 200 dönüyor ama gövdesi \"bk. POLONYA\".** Yani şartnamedeki *\"`lehistan` slug'ını dene\"* tavsiyesi **canlı ama BOŞ** bir adrese götürüyor. Asıl madde **`polonya`**. 📌 `colemerik` (bk. HAKKÂRİ) ile aynı sınıf — bugün **ikinci kez** karşıma çıktı. ⇒ *200 + doğru başlık, gövde bir YÖNLENDİRME.* 🟢 Ve bu tuzağın iyi tarafı: doğru adresi kendisi veriyor. ## ② `polonya` OKUNDU — somut tarih veriyor, birebir ``` 1414 Sigismund'un Ladislaus Jagiello'ya Türklere karşı yardım mektubu 1489-03-22 Mikolay Firley — \"iki devlet arasında yapılan İLK BARIŞ ANTLAŞMASI olması sebebiyle tarihî bir önem taşıyan\" 1497 Kozmin yenilgisi sonrası Polonya Osmanlı üstünlüğünü tanıdı 1533-01 \"her iki hükümdarın ölümüne kadar geçerli olacak olan ('ebedî') bir barış antlaşması\" 1672-10-18 Bucaş Antlaşması 1676-10-27 Zuravno Antlaşması 1683 Viyana muhasarası 1699 Karlofça 1772·1793·1795 taksimler — \"Osmanlı bu taksimi resmî olarak TANIMADI\" ``` ⚠️ `bucas` ve `zuravno` slugları **ÖLÜ**, ama antlaşmaların **tarihleri `polonya` maddesinin gövdesinde VAR.** ⇒ Dayanak `polonya`ya bağlanacak, \"bulunamadı\" YAZILMAYACAK — çünkü bulundu, yalnız başka adreste. ## ③ KAYNAK POLİTİKAM — önden ilan ediyorum ki sonradan mazeret olmasın ``` DIŞ meseleler (Osmanlı teması) → TDV, slug ADIYLA, gövdesi OKUNARAK İÇ meseleler (Polonya iç tarihi) → TDV kapsamıyor (`§4` COĞRAFÎ boşluk) ⇒ standart akademik el kitabı, `kaynak:` alanında ESERİN ADIYLA ``` 🔴 Ve şunu **şimdiden** damgalıyorum: iç meselelerin `kaynak:` alanına yazacağım el kitabı künyeleri **sayfa sayfa çekilmiş değil**, alanın standart referanslarıdır. Bunu dosyanın başlığına da yazacağım — *\"ölçmediğini ölçmedim diye yaz\"* kuralı gereği. Bu sana **şimdi** bildiriliyor; itirazın varsa iş bitmeden söyle. ## ④ NE İSTİYORUM İtirazın yoksa cevap gerekmiyor, çalışıyorum. Kalem kalem bildireceğim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
