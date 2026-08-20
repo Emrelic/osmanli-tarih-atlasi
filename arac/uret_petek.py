@@ -3556,8 +3556,31 @@ def _dolgu_kumesi(a):
             sahip_kim.append(kim)
             continue
         # sahipsiz — katılabilir mi?
+        # 🔴 EMRE, 20 Ağustos 2026 — hüküm ve şartı birebir:
+        #   *"Eğer BOŞ ÇÖL ise, orada siyasî yapı yok ise ya da aşiret yapısı
+        #   filan yok ise, o zaman benim puanlamam boyasın. Böylece anlamsız
+        #   girintiler kapanmış olur."*
+        #
+        # ⚠️ `bos:"devletsiz"`i ham hâliyle geri almak bu şartı ÇİĞNERDİ.
+        # Ölçüldü — o etiket ÜÇ ayrı şeyi tek kovaya koymuş (129 kayıt):
+        #    tur="bolge"  37   dolgu noktası, gerçek yerleşim YOK
+        #                      Gilf el-Kebîr · Selîme · Serîr · Rebyâne ·
+        #                      Nefud · Rub'ul Hâlî · Vâdî Tanezzûft
+        #                      ⇒ Emre'nin "boş çöl"ü BUDUR
+        #    yerleşim     92   Riyad · Hâil · Dir'iye · Buraydâ · Uneyze ·
+        #                      Manama · Doha · Abu Dabi · Mukalla ·
+        #                      Vladivostok · Matsumae · Taos Pueblo
+        #                      ⇒ kayıtların KENDİ metni: "yerleşim VARDI ama
+        #                        hiçbir devletin idaresinde değildi"
+        # Yerleşim varsa orası boş çöl DEĞİLDİR; körfez şeyhliği ve Necid
+        # kasabası birer SİYASÎ YAPIDIR. 92'yi boyamak, Emre'nin kendi
+        # `0021/H-0007` Bahreyn şikâyetini geri getirirdi.
+        #
+        # 🟢 Ve ayırt edici ZATEN VERİDEYDİ — `tur:` alanı. Yeni alan icat
+        # edilmedi (`§11`: "bir alan tasarlamadan önce var olup olmadığını ölç").
         if (y.get("bos") in DOLDURULABILIR_BOS
-                or (y.get("tur") == "bolge" and not y.get("bos"))):
+                or (y.get("tur") == "bolge"
+                    and y.get("bos") in (None, "", "devletsiz"))):
             bos_ix.append(j)
     if not bos_ix or not sahip_ix:
         _DOLGU_ONBELLEK[a] = {}
@@ -3948,7 +3971,8 @@ else:
     print(f"  🚪 EKLEYİCİ KAPI: {_DOLGU_SAYAC['petek']} petek-gün katıldı · "
           f"{_DOLGU_SAYAC['cekismeli']} ÇEKİŞMELİ (boş bırakıldı) · "
           f"{_DOLGU_SAYAC['gun']} gün hesaplandı")
-    print(f"     şart: bos ∈ {sorted(DOLDURULABILIR_BOS)} ya da tur=bolge · "
+    print(f"     şart: bos ∈ {sorted(DOLDURULABILIR_BOS)} ya da "
+          f"(tur=bolge ve bos ∈ [yok, devletsiz]) · "
           f"kabile · veri-yok · insansiz KATILMAZ (Emre, 18 Ağustos 2026)")
 
 asama("Uzak coğrafya seyreltme (yabancı havuz)")
