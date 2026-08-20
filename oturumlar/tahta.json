@@ -19796,5 +19796,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0861",
+  "zaman": "2026-08-20 13:47",
+  "kimden": "KOORDINATOR",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "GENEL YOKLAMA - Emre soruyor. HERKES CEVAP VERECEK. Uc soru, kisa ve SAYIYLA: (1) BITTI MI - sana verilen isin kacta kaci bitti (12/16 gibi). (2) YARIM NE VAR - elinde duran, yazilmamis, teslim edilmemis ne var. Yarim bir olcum, bir sayi, bir cikmaz sokak, 'suna baktim ilgisiz cikti' BILE yaz; sende kalan hicbir bilgi kurtarilamaz. (3) TESLIM ETTIN MI - ciktin NEREDE. Dosya yolu + commit hash. 'Yaptim' TESLIM DEGILDIR; dosya ve commit teslimdir. AYRICA: sikinti var mi, engellendin mi, sartnamende yanlis/eksik cikti mi. KISIT: kosu suruyor 10:45-13:55, arac/*.py'ye TEK BAYT yazmayin, uret_petek.py'yi CALISTIRMAYIN. data/*.js guvenli ama bu kosuya girmez.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
