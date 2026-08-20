@@ -133,6 +133,37 @@ ONGORU = [
 ]
 
 
+# ═══════════════════════════════════════════════════════════════════════════
+# 2 · KARNE — ÖLÇÜMDEN SONRA yazıldı (20 Ağu 2026, ölçüm bittikten sonra)
+# ═══════════════════════════════════════════════════════════════════════════
+# 🟢 REPLİKA GEÇME SINAVI (C13): motor 69198 / 250 / 1532 ·
+#    replika 69296 / 250 / 1534 — çekişmeli BİREBİR, sapma +%0,14
+#    (replikada `_kusatilmis` yok; sapma oradan ve raporlandı).
+#
+#   Ö1  ÇÜRÜDÜ   45.000-55.000 dedim · ÖLÇÜM 60.687 (%87,6)
+#                ⇒ kapı fiilen "devletsiz kapısı"; öteki iki etiket %12,4
+#   Ö2  ÇÜRÜDÜ   çekişmeli 250 → 60-150 dedim · ÖLÇÜM 250, HİÇ DEĞİŞMEDİ
+#                ⇒ 250 çekişmenin 250'si `devletsiz` DIŞINDAN geliyor
+#   Ö3  ASKIDA   ② kod değişikliği + koşu ister, ölçülmedi
+#   Ö4  ASKIDA   aynı sebep
+#   Ö5  TUTTU    (mazeretsiz) ②/③ Basra-Bağdat boşluğuna dokunamıyor
+#   Ö6  TUTTU    (mazeretsiz) Serîr · Vâv el-Kebîr 1703-08-22 S3 → boş kalır
+#   Ö7  TUTTU    (mazeretsiz) iki şikâyeti birden karşılayan çare bu ikisi değil
+#   Ö8  ÖLÇMEDİM km² etkisi geometri ister — "ölçmedim" diye yazıyorum
+#
+# 🔴 VE ÖNGÖRÜNÜN GÖREMEDİĞİ ÇIKTI — DÖRDÜNCÜ SINIF:
+#    Nâsıriye (kur:1869) 1703'te sahipsiz · kuşatılmışlıkta YOK · kapıya uygun
+#    DEĞİL ⇒ peteği DELİK. Emre puanı orada OSMANLI 41 · safevi 18 (eşik 4).
+#    ÇÖL'ün "izole edemedim" dediği Irak boşluğunun sebebi BU.
+#    Örneklemde (26 gün): 2635 petek-gün delik · %48'i kapanabilir · 223 yerleşim.
+#    📌 Sekiz kalemin sekizi de bu sınıfı ÖNGÖRMEDİ — çünkü hepsi işçinin
+#       üç kusurunun İÇİNDE kaldı. Öngörü, sorulan sorunun dışını göremez.
+#
+# 📌 Ve bilgiyi yine YANLIŞ olanlar taşıdı: Ö1/Ö2 çürüdüğü için "kapı fiilen
+#    devletsiz kapısıdır" ve "çekişme başka yerden doğuyor" öğrenildi.
+#    Tutan üç kalem hiçbir şey öğretmedi, yalnız teşhisi doğruladı.
+
+
 def bas():
     print("EKLEYİCİ KAPI — ÖNGÖRÜ (ölçümden ÖNCE yazıldı)")
     print("taban: 69198 petek-gün · 250 çekişmeli · 1532 gün · r2622")
