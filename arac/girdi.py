@@ -438,6 +438,24 @@ GIRDI_DOSYALARI = [
     "yerlesimler_ek31.js",
     "yerlesimler_0ee15e.js",
     "yerlesimler_e9353f.js",
+    # ---- 19-20 Ağustos 2026 · dört araştırma oturumunun teslimi ----------
+    # 13 nokta. BAĞLANMADAN ÖNCE tek tek VE BİRLİKTE doğrulandı:
+    #   sözdizimi 4/4 ✓ · ad alanı 4/4 dosya adıyla uyuşuyor (§7) ·
+    #   ad alanı çakışması YOK · ad çakışması YOK · 3 km mükerrer YOK ·
+    #   rengi olmayan kimlik YOK · taban 2580 → 2593
+    # 📌 "Birlikte" ölçümü şart: `§7`de bir vaka var — beş dosya TEK ad
+    # alanı kullanınca tek tek 537, birlikte 137 kayıt okunuyordu (%74 kayıp)
+    # ve hiçbir denetim ötmüyordu, çünkü denetimler "yama UYGULANDI mı" diye
+    # sorar, "yama OKUNDU mu" diye sormaz.
+    "yerlesimler_ek_adalar.js",       # Paksos · Elafonisos (İyon-Ege)
+    "yerlesimler_ek_bozkir.js",       # Karadeniz kuzeyi bozkırı
+    "yerlesimler_ek_ferhadpasa.js",   # 1590 Ferhad Paşa hattı
+    # ⚠️ Macaristan dosyası TEK BAŞINA bağlanamazdı: Fülek · Ungvár ·
+    # Munkács'a `v:` (Orta Macar, 1682-1685) yazıyor, ama krallığın
+    # BAŞKENTİ Kassa ile Eperjes ve Tokaj `yerlesimler_ek.js`te kesintisiz
+    # `avusturya`ydı ⇒ 1682-85 haritası ALACALI çıkardı. O üç kayıt aynı
+    # commit'te düzeltildi (TDV `tokoli-imre` toplu teslim tarihi).
+    "yerlesimler_ek_macaristan.js",   # Fülek · Ungvár · Munkács · Szatmár
     # ⚠️ `yerlesimler_8beb2b.js` BİLEREK BAĞLANMADI: dosya var, 165 satır,
     # ama kayıt dizisi BOŞ (0 nokta — node ile ölçüldü). Bağlamak hiçbir şey
     # eklemez, ama "bağlı" görünmesi sahibinin işini BİTMİŞ gösterir.

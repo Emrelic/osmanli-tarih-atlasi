@@ -427,7 +427,19 @@ window.YERLESIMLER = [
 { ad:"Erdel (Kaloşvar)", tur:"bolge", lat:46.770, lon:23.591, g:0, k:2, s:[{f:"1281-01-01",t:"1526-09-01",d:"macaristan"},{f:"1687-08-12",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"romanya-kralligi"}], v:[{f:"1541-08-29",t:"1687-08-12",k:"Erdel Prensliği"},{f:"1526-09-01",t:"1541-08-29",k:"Macaristan (Zapolya vasal krallığı)"}], d:[] },
 { ad:"Budin", tur:"sehir", lat:47.498, lon:19.040, g:2, k:2, s:[{f:"1281-01-01",t:"1526-09-01",d:"macaristan"},{f:"1686-09-02",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"macaristan"}], v:[{f:"1526-09-01",t:"1541-08-29",k:"Macaristan (Zapolya vasal krallığı)"}], d:[{f:"1541-08-29",t:"1686-09-02",y:"ilhak"}] },
 { ad:"Peçuy", tur:"sehir", lat:46.073, lon:18.233, g:0, k:3, m:"Budin", s:[{f:"1281-01-01",t:"1543-07-21",d:"macaristan"},{f:"1686-10-14",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"macaristan"}], d:[{f:"1543-07-21",t:"1686-10-14",y:"kusatma"}] },
-{ ad:"Estergon", tur:"kale", lat:47.795, lon:18.740, g:0, k:3, m:"Budin", s:[{f:"1281-01-01",t:"1543-08-10",d:"macaristan"},{f:"1595-09-02",t:"1605-10-03",d:"avusturya"},{f:"1683-10-09",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"macaristan"}], d:[{f:"1543-08-10",t:"1595-09-02",y:"kusatma"},{f:"1605-10-03",t:"1683-10-09",y:"kusatma"}] },
+// 🔴 1683-10-09 → 1683-10-27 (20 Ağustos 2026). Harita 18 GÜN ERKEN
+// çeviriyordu ve sebebi tek maddede İKİ OLAY olması: kronoloji maddesi
+// `b:"Parkan bozgunu ve Estergon'un kaybı"` ve `t:"1683-10-09"` — o gün
+// PARKAN BOZGUNUNUN günü. Kalenin teslimi 27 Ekim.
+// 📌 VE BUNU MADDENİN KENDİSİ ZATEN YAZIYORDU: `gun:"9 Ekim 1683 /
+// 27 Ekim 1683"`, `kaynak:"estergon"` (TDV), ve anlatısı *"Parkan'da
+// ikinci kez bozguna uğradı; ARDINDAN … Estergon düştü"*. Yani kaynak
+// iki günü de veriyordu; harita yanlış olanı seçmişti.
+// ⚠️ Değişmez 2 sağlam: yeni kırılma günü maddeden 18 gün uzakta (tavan 30).
+// 📌 Emre'nin *"ikinci olay mıdır"* sorusunun cevabı: EVET, ayrı olay.
+// Kronoloji maddesini BÖLMEK ayrı bir kalem — bölünürse 1683-10-27'ye
+// kendi maddesi yazılır ve bu yorum düşer.
+{ ad:"Estergon", tur:"kale", lat:47.795, lon:18.740, g:0, k:3, m:"Budin", s:[{f:"1281-01-01",t:"1543-08-10",d:"macaristan"},{f:"1595-09-02",t:"1605-10-03",d:"avusturya"},{f:"1683-10-27",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"macaristan"}], d:[{f:"1543-08-10",t:"1595-09-02",y:"kusatma"},{f:"1605-10-03",t:"1683-10-27",y:"kusatma"}] },
 { ad:"Eğri", tur:"kale", lat:47.902, lon:20.377, g:0, k:3, m:"Budin", s:[{f:"1281-01-01",t:"1596-10-12",d:"macaristan"},{f:"1687-12-17",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"macaristan"}], d:[{f:"1596-10-12",t:"1687-12-17",y:"kusatma"}] },
 { ad:"Kanije", tur:"kale", lat:46.454, lon:16.989, g:0, k:3, m:"Budin", s:[{f:"1281-01-01",t:"1600-10-20",d:"macaristan"},{f:"1690-04-13",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"macaristan"}], d:[{f:"1600-10-20",t:"1690-04-13",y:"kusatma"}] },
 { ad:"Uyvar", tur:"kale", lat:47.986, lon:18.162, g:0, k:3, m:"Budin", s:[{f:"1281-01-01",t:"1663-09-24",d:"avusturya"},{f:"1685-08-19",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"cekoslovakya"}], d:[{f:"1663-09-24",t:"1685-08-19",y:"kusatma"}] },

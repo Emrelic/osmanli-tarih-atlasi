@@ -82,26 +82,49 @@ window.YERLESIMLER_EK = [
 // Dördü de SALT `s:` — hiç Osmanlı dönemi yok, dolayısıyla Değişmez 2 borcu YOK.
 // 1526-08-29 Mohaç kırılması mevcut Bratislava kaydının kullandığı emsalin aynısı.
 //
-// ⚠️ TÖKÖLİ BOŞLUĞU — bilerek YAZILMADI, §80 gereği.
-//    TDV `tokoli-imre`: 16 Eylül 1682'de Fülek önünde berat verildi, "Orta
-//    Macar" adıyla Osmanlı'ya tâbi yeni bir devlet kuruldu; Tököli 15 Ekim
-//    1685'te yakalandı. Bu, haritanın `v:` ile ifade edebileceği gerçek bir
-//    tâbiiyettir ve iki kırılmanın da maddesi VAR (1682-09-16 tam gün,
-//    1685-10-25'e 6 gün). YAZILMAMASININ tek sebebi §80: olay Kassa'ya
-//    yazılıp Eperjes ile Tokaj'a yazılmazsa "birkaçına yazıp bırakma" olur,
-//    üçüne birden yazmak içinse şehir şehir denetim tarihi gerekiyor ve
-//    bulunamadı. Kaynaklı araştırma kalemi olarak koordinatöre bildirildi.
+// 🟢 TÖKÖLİ BOŞLUĞU KAPANDI — 20 Ağustos 2026. Aşağıdaki paragraf borcun
+//    gerekçesiydi; ENGEL KALKTIĞI için üç kayda da `v:` yazıldı.
+//    ~~⚠️ TÖKÖLİ BOŞLUĞU — bilerek YAZILMADI, §80 gereği. … üçüne birden
+//    yazmak içinse ŞEHİR ŞEHİR denetim tarihi gerekiyor ve BULUNAMADI.~~
+//
+//    🔴 VE O GEREKÇE YANLIŞ SORUYU SORUYORDU. Bir araştırma oturumu TDV
+//    `tokoli-imre` maddesinin GÖVDESİNİ okudu (müellif Sándor Papp) ve
+//    kaynağın şehir şehir değil TOPLU konuştuğunu gösterdi:
+//      · "Budin Beylerbeyi İbrâhim Paşa 16 Eylül'de Fülek Kalesi önünde…
+//         berat" — kuruluş, TAM GÜN
+//      · "15 Ekim 1685'te… Varad Beylerbeyi Ahmed Paşa… Tököli'yi
+//         yakalattı… MUNKÁCS KALESİ'NİN DIŞINDA BÜTÜN KALE VE ŞEHİRLER
+//         TESLİM OLDU" — çözülme, TAM GÜN ve TOPLU
+//    ⇒ "Şehir şehir tarih yok" DOĞRUYDU; ama gereken şehir şehir tarih
+//    DEĞİLDİ — kaynak üçünü birden, tek cümlede, tek günde teslim ediyor.
+//    §80'in "birkaçına yazıp bırakma" endişesi de böylece karşılandı:
+//    üçüne de AYNI gün yazılıyor, çünkü kaynak öyle diyor.
+//    📌 `CLAUDE.md §11`: "ölçüm doğru, EVREN dar" ailesinin kaynak tarafı —
+//    aranan tanecik yanlıştı, kaynak susmuyordu.
+//
+//    ⚠️ Bu üç kayıt OLMADAN `data/yerlesimler_ek_macaristan.js` bağlanamaz:
+//    o dosya Fülek · Ungvár · Munkács'a `v:` yazıyor, bunlar kesintisiz
+//    `avusturya` kalsaydı 1682-1685 haritası ALACALI çıkardı — aynı
+//    krallığın başkenti Habsburg, kasabaları Osmanlı tâbisi görünürdü.
+//    Değişmez 2: iki kırılma günü de çekirdekte maddeli (1682-09-16 → 0 gün,
+//    1685-10-15 → 3 gün).
 { ad:"Kassa (Košice)", tur:"sehir", lat:48.714, lon:21.258, g:0, k:0, d:[],
+    v:[{f:"1682-09-16",t:"1685-10-15",k:"Orta Macar Krallığı (Tököli İmre)"}],
     s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan"},
-       {f:"1526-08-29",t:"1918-11-11",d:"avusturya"},
+       {f:"1526-08-29",t:"1682-09-16",d:"avusturya"},
+       {f:"1685-10-15",t:"1918-11-11",d:"avusturya"},
        {f:"1918-11-11",t:"1923-10-29",d:"cekoslovakya"}] },
 { ad:"Eperjes (Prešov)", tur:"sehir", lat:48.999, lon:21.236, g:0, k:0, d:[],
+    v:[{f:"1682-09-16",t:"1685-10-15",k:"Orta Macar Krallığı (Tököli İmre)"}],
     s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan"},
-       {f:"1526-08-29",t:"1918-11-11",d:"avusturya"},
+       {f:"1526-08-29",t:"1682-09-16",d:"avusturya"},
+       {f:"1685-10-15",t:"1918-11-11",d:"avusturya"},
        {f:"1918-11-11",t:"1923-10-29",d:"cekoslovakya"}] },
 { ad:"Tokaj", tur:"kale", lat:48.117, lon:21.409, g:0, k:0, d:[],
+    v:[{f:"1682-09-16",t:"1685-10-15",k:"Orta Macar Krallığı (Tököli İmre)"}],
     s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan"},
-       {f:"1526-08-29",t:"1918-11-11",d:"avusturya"},
+       {f:"1526-08-29",t:"1682-09-16",d:"avusturya"},
+       {f:"1685-10-15",t:"1918-11-11",d:"avusturya"},
        {f:"1918-11-11",t:"1923-10-29",d:"macaristan"}] },
 { ad:"Sopron", tur:"sehir", lat:47.685, lon:16.590, g:0, k:0, d:[],
     s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan"},

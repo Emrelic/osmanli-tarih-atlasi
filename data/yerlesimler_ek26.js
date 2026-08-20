@@ -57,34 +57,60 @@ window.YERLESIMLER_EK26 = [
   s:[{f:"1281-01-01",t:"1534-01-01",d:"akkoyunlu"},{f:"1878-03-03",t:"1921-10-13",d:"rusya"}],
   d:[{f:"1534-01-01",t:"1878-03-03"},{f:"1921-10-13",t:"1923-10-29"}], v:[] },
 
+// 🔴 `iran` HAYALETİ TEMİZLENDİ — 20 Ağustos 2026, 7 kayıt.
+// Emre sordu: *"Başkale civarındaki pembe"* ve *"1705'te Gümrü kime aitti,
+// neden başka renk görünüyor?"* ÖLÇÜLDÜ ve haklıydı:
+//   1577 · 1590 · 1604 · 1638 kesitlerinde `iran` taşıyan nokta TAM 7,
+//   hep aynısı: Gümrü · Eçmiyadzin · Doğubayazıt · Çaldıran · Özalp ·
+//   Başkale · Yüksekova — ve HEPSİ BU DOSYADA.
+//   Komşuları `safevi` yazıyor; en yakın çift 19 km (Eçmiyadzin ↔ Revan).
+//   Renkler #cc1664 ↔ #a56cab ⇒ ekranda İKİ AYRI DEVLET gibi görünüyordu.
+//
+// 📌 VE BU, `CLAUDE.md §3.5`te KAYITLI hayaletin YENİDEN DOĞMUŞ hâli.
+// Orada aynı kusur ölçülmüş ("Tebriz, Hemedan, Bağdat ve 70 kayıt · iran
+// 1501-1736 · 235 yıl") ve düzeltilmişti; bu dosya sonradan yazılırken
+// aynı çökertme tekrar yapılmış. ⇒ Bir kusuru düzeltmek, onun bir daha
+// YAZILMASINI engellemiyor — engelleyecek olan bir NÖBETÇİ ve o yok.
+//
+// ÇARE — komşu Nahçıvan'ın (`yerlesimler.js:581`) zinciri BİREBİR alındı:
+//   İran hattı (5 kayıt)  `iran` 1514-1639  →  `safevi`
+//                          (Safevî 1501-1736 arası hüküm sürdü, aralık
+//                           tamamen içinde ⇒ YENİ KIRILMA GÜNÜ YOK)
+//   Ermenistan (2 kayıt)  `iran` 1534-1828  →  safevi → afsar → zend → kacar
+//                          günler 1736-03-08 · 1747-06-20 · 1796-01-01
+//                          ÜÇÜ DE Nahçıvan ve Revan'da zaten kullanılıyor
+//                          ve o kayıtlar ÇEKİRDEKTE ⇒ maddeleri VAR
+// ⚠️ ÖLÇMEDİĞİM: bu yedi yerin Afşar/Zend/Kaçar geçişlerinin ŞEHİR ŞEHİR
+// tarihi. Bölge deseni izlendi (komşu kayıtla aynı gün) — uydurma gün
+// yazılmadı, `Değişmez 2` açık kırılma üretmesin diye.
 // Ermenistan yakası
 { ad:"Gümrü (Aleksandropol)", tur:"sehir", lat:40.789, lon:43.847, g:0, k:3, m:"Erzurum",
-  s:[{f:"1281-01-01",t:"1534-01-01",d:"akkoyunlu"},{f:"1534-01-01",t:"1828-02-22",d:"iran"},{f:"1828-02-22",t:"1923-10-29",d:"rusya"}],
+  s:[{f:"1281-01-01",t:"1534-01-01",d:"akkoyunlu"},{f:"1534-01-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1796-01-01",d:"zend"},{f:"1796-01-01",t:"1828-02-22",d:"kacar"},{f:"1828-02-22",t:"1923-10-29",d:"rusya"}],
   d:[], v:[] },
 
 { ad:"Eçmiyadzin", tur:"sehir", lat:40.162, lon:44.293, g:0, k:3, m:"Erzurum",
-  s:[{f:"1281-01-01",t:"1534-01-01",d:"akkoyunlu"},{f:"1534-01-01",t:"1828-02-22",d:"iran"},{f:"1828-02-22",t:"1923-10-29",d:"rusya"}],
+  s:[{f:"1281-01-01",t:"1534-01-01",d:"akkoyunlu"},{f:"1534-01-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1796-01-01",d:"zend"},{f:"1796-01-01",t:"1828-02-22",d:"kacar"},{f:"1828-02-22",t:"1923-10-29",d:"rusya"}],
   d:[], v:[] },
 
 // ───────── İRAN HATTI · Kasr-ı Şirin (1639) çizgisi ─────────
 { ad:"Doğubayazıt", tur:"kale", lat:39.548, lon:44.084, g:0, k:3, m:"Erzurum",
-  s:[{f:"1281-01-01",t:"1514-09-06",d:"akkoyunlu"},{f:"1514-09-06",t:"1639-05-17",d:"iran"}],
+  s:[{f:"1281-01-01",t:"1514-09-06",d:"akkoyunlu"},{f:"1514-09-06",t:"1639-05-17",d:"safevi"}],
   d:[{f:"1639-05-17",t:"1923-10-29"}], v:[] },
 
 { ad:"Çaldıran", tur:"kasaba", lat:39.145, lon:43.910, g:0, k:3, m:"Van",
-  s:[{f:"1281-01-01",t:"1514-09-06",d:"akkoyunlu"},{f:"1514-09-06",t:"1639-05-17",d:"iran"}],
+  s:[{f:"1281-01-01",t:"1514-09-06",d:"akkoyunlu"},{f:"1514-09-06",t:"1639-05-17",d:"safevi"}],
   d:[{f:"1639-05-17",t:"1923-10-29"}], v:[] },
 
 { ad:"Özalp (Saray)", tur:"kasaba", lat:38.658, lon:43.998, g:0, k:3, m:"Van",
-  s:[{f:"1281-01-01",t:"1514-09-06",d:"akkoyunlu"},{f:"1514-09-06",t:"1639-05-17",d:"iran"}],
+  s:[{f:"1281-01-01",t:"1514-09-06",d:"akkoyunlu"},{f:"1514-09-06",t:"1639-05-17",d:"safevi"}],
   d:[{f:"1639-05-17",t:"1923-10-29"}], v:[] },
 
 { ad:"Başkale", tur:"kale", lat:38.045, lon:44.010, g:0, k:3, m:"Van",
-  s:[{f:"1281-01-01",t:"1514-09-06",d:"akkoyunlu"},{f:"1514-09-06",t:"1639-05-17",d:"iran"}],
+  s:[{f:"1281-01-01",t:"1514-09-06",d:"akkoyunlu"},{f:"1514-09-06",t:"1639-05-17",d:"safevi"}],
   d:[{f:"1639-05-17",t:"1923-10-29"}], v:[] },
 
 { ad:"Yüksekova (Gever)", tur:"kasaba", lat:37.573, lon:44.290, g:0, k:3, m:"Van",
-  s:[{f:"1281-01-01",t:"1514-09-06",d:"akkoyunlu"},{f:"1514-09-06",t:"1639-05-17",d:"iran"}],
+  s:[{f:"1281-01-01",t:"1514-09-06",d:"akkoyunlu"},{f:"1514-09-06",t:"1639-05-17",d:"safevi"}],
   d:[{f:"1639-05-17",t:"1923-10-29"}], v:[] },
 
 
