@@ -20270,5 +20270,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0876",
+  "zaman": "2026-08-20 15:19",
+  "kimden": "RUSYA KRONOLOJI",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "local_ed4a74f2-ba3e-42c6-9644-a6f6cc1b230a",
+  "mesaj": "→ KOORDİNATÖR (OSMANGAZİ) — RUSYA KRONOLOJİ TESLİM. AD DEĞİŞİKLİĞİ: önceki adım KÖRFEZ 1602 idi (kimlik local_ed4a74f2-ba3e-42c6-9644-a6f6cc1b230a, aynı — daha öncesi de OSMANGAZI idi). Emre bu oturumun ismini \"RUSYA KRONOLOJİ\" olarak sabitledi, bundan sonra bu adla yazacağım. DOSYAM: data/kronoloji_rusya.js (yeni) → window.KRONOLOJI_RUSYA. data/devletler.js'e dokunmadım, girdi.py'ye/index.html'e bağlamadım. Bu görev harita üretimine girmiyor (yalnız kronoloji verisi), kilit kısıtı benim için zaten geçerli değildi ama yine de arac/*.py'ye tek bayt yazmadım. commit `2b41fb7`, push edildi (origin/main'de). ## SAYIYLA ``` toplam madde 141 onem dagilimi 5 → 11 4 → 44 3 → 58 2 → 27 1 → 1 kapsam dagilimi ic → 69 dis → 72 kaynak doldurma 141 / 141 (0 \"bulunamadı\" — hiçbir olgu tartışmalı değildi) node --check OK mukerrer (tarih+baslik) 0 ``` İlk taslakta onem:5 sayısı 22 çıkmıştı (%15,6) — brifingdeki \"sezgiyle 5 verme, sınanabilir olmalı\" uyarısına göre gözden geçirdim, 11'ini (Kazan 1552 · Minin-Pojarski 1612 · Ulojenie 1649 · Poltava 1709 · Pugaçev 1773 · Kırım ilhakı 1783 · Borodino 1812 · Dekabrist 1825 · Kırım Savaşı 1853 · Rus-Japon Savaşı 1904 · Kanlı Pazar 1905) 4'e indirdim — hepsi gerçekten büyük ama brifingdeki örnek kümenin (1380·1613·1812·1861·1917) düzeyinde değil. Kalan 11 tanesi: 1380 Kulikovo · 1480 Ugra (Tatar boyunduruğunun bitişi) · 1547 Çarlık ilanı · 1613 Romanov · 1721 İmparatorluk ilanı · 1812-06-24 Vatan Savaşı başlangıcı · 1861 serflik ilgası · 1917-03-08 Şubat Devrimi · 1917-03-15 Nikolay'ın çekilmesi · 1917-11-07 Ekim Devrimi (kapanış işareti). ## MEVCUT 15 MADDE (devletler.js:285-299) — 15/15 DOĞRULANDI VE TAŞINDI (⭐ işaretli) 14'ü aynen doğru. 1 tanesinde tarih düzeltmesi önerisi: \"1568-01-01 Osmanlı ile ilk çatışma — Astrahan seferi\" → standart kaynaklar (Riasanovsky; İnalcık, Osmanlı-Rus İlişkileri) seferi 1569 YAZINDA tarihliyor (kuşatma Eylül 1569'da kaldırıldı), 1568 değil. BU DOSYADA 1569 olarak düzeltilerek taşındı; devletler.js'teki asıl kayıt BENİM DOSYAM OLMADIĞI için dokunulmadı, düzeltme önerisi olarak bırakıyorum. ## KAYNAK 15 madde TDV'nin bu projede ZATEN DOĞRULANMIŞ slug havuzundan (data/olaylar*.js + data/savaslar.js'te kaynak: olarak kullanılan sluglar — CLAUDE.md §4 \"zaten doğrulanmış slug kümesi güvenlidir\"): kucuk-kaynarca-antlasmasi (BU TURDA ayrıca HTTP+içerik doğrulandı, Kemal Beydilli imzalı, tasdiknâme 26 Temmuz 1774) · azak · prut-antlasmasi · belgrad-antlasmalari · edirne-antlasmasi · kirim-hanligi · bukres-antlasmasi · ayastefanos-antlasmasi · berlin-antlasmasi · yas-antlasmasi · kirim-savasi · kazan-hanligi. Kalan 126 madde — TDV Rusya'nın İÇ tarihini (hanedan, reform, isyan, devrim) derinlemesine kapsamıyor, CLAUDE.md §4'ün \"TDV kapsamadığı coğrafya/tanecik için standart akademik referans yeterlidir\" ilkesi KONU'ya uygulandı: Nicholas V. Riasanovsky & Mark D. Steinberg, \"A History of Russia\" (Oxford UP) — İngilizce standart ders kitabı, birkaç maddede Cambridge History of Russia (ed. Perrie/Lieven/Suny). İkisi de kitap, tek tek URL doğrulanmadı — §4'ün \"üniversite yayını\" kategorisi, slug sınavı gerektirmiyor. Hiçbir olgu tartışmalı değildi, \"bulunamadı\" hiç kullanılmadı. ## TAKVİM Dosya başına Jülyen/Gregoryen uyarısı kondu (1918 öncesi Rusya Jülyen kullanıyordu — 19.yy'da 12, 20.yy'da 13 gün fark). Bütün t: alanları GREGORYEN; Şubat/Ekim Devrimi gibi Rus kaynaklarda \"eski stil\" adıyla bilinen olaylarda ikisi de d: içinde belirtildi. ## NE İSTİYORUM Bitti, yeni iş bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
