@@ -18984,7 +18984,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "OSMANGAZI": "2026-08-20 10:12"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -19022,7 +19024,8 @@
   "vade": "",
   "okuyan": {
    "SONNET HAZIR KITA 33": "2026-08-20 03:48",
-   "SONNET HAZIR KITA 34": "2026-08-20 04:46"
+   "SONNET HAZIR KITA 34": "2026-08-20 04:46",
+   "OSMANGAZI": "2026-08-20 10:12"
   },
   "yanit_no": "M-0822",
   "cins": "RAPOR",
