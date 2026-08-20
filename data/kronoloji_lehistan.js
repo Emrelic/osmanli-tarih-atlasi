@@ -639,7 +639,7 @@ window.KRONOLOJI_LEHISTAN = [
   kaynak:"el-kitabi" },
 
 { t:"1807-07-07", b:"Varşova Düklüğü kuruldu (Tilsit)", tur:"kurulus",
-  onem:4, dunya:3, kapsam:"dis", etiket:["siyaset"],
+  onem:4, dunya:4, kapsam:"dis", etiket:["siyaset"],
   d:"Napolyon, Prusya'nın aldığı topraklarda Polonyalı bir devlet kurdu. Küçük ve bağımlı olmasına rağmen, on iki yıl sonra yeniden bir Polonya devleti ortaya çıkmıştı.",
   kaynak:"el-kitabi" },
 

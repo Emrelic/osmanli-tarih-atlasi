@@ -278,7 +278,7 @@ window.KRONOLOJI_HABSBURG = [
   d:"Viyana bozgununun ardından takip harekâtı Parkan'da Osmanlı artçısını dağıttı ve Estergon geri alındı. Habsburg taarruzunun ilk somut toprak kazancıdır.",
   kaynak:"depo savaslar.js (1683-10-09) · TDV `estergon` slug CANLI" },
 
-{ t:"1684-03-05", b:"Kutsal İttifak'ın kurulması", tur:"ittifak", onem:4, dunya:3, kapsam:"dis",
+{ t:"1684-03-05", b:"Kutsal İttifak'ın kurulması", tur:"ittifak", onem:4, dunya:4, kapsam:"dis",
   etiket:["ittifak","diplomasi"],
   d:"Papalığın aracılığıyla Habsburg, Lehistan ve Venedik Osmanlı'ya karşı ittifak kurdu; Rusya 1686'da katıldı. Habsburg ilk kez Osmanlı'ya karşı çok cepheli ve sürekli bir koalisyonun içindeydi.",
   kaynak:"bulunamadı — gün DOĞRULANMADI" },
@@ -574,7 +574,7 @@ window.KRONOLOJI_HABSBURG = [
   d:"Avusturya savaşa girmedi ama Tuna prensliklerine asker yığarak Rusya'yı çekilmeye mecbur bıraktı. 1849'da kendisini kurtaran Rusya'yı bu şekilde karşısına alması, imparatorluğu Avrupa'da yalnızlaştırdı.",
   kaynak:"TDV `avusturya`: Avusturya tarafsızlığını korudu, sonra \"Rusya'yı çekilmek mecburiyetinde bırakmıştır (1854)\" · ⚠️ gün DOĞRULANMADI" },
 
-{ t:"1856-03-30", b:"Paris Antlaşması — Osmanlı'nın toprak bütünlüğünün garanti edilmesi", tur:"antlasma", onem:3, dunya:3, kapsam:"dis",
+{ t:"1856-03-30", b:"Paris Antlaşması — Osmanlı'nın toprak bütünlüğünün garanti edilmesi", tur:"antlasma", onem:3, dunya:4, kapsam:"dis",
   etiket:["antlasma","diplomasi"],
   d:"Avusturya, öteki büyük güçlerle birlikte Osmanlı Devleti'nin bağımsızlığını ve toprak bütünlüğünü garanti etti. Üç asır savaştığı devletin koruyucuları arasına girmesi, Viyana dış siyasetindeki dönüşün en açık belgesidir.",
   kaynak:"TDV `avusturya`: Avusturya \"Osmanlı Devleti'nin bağımsızlığını ve toprak bütünlüğünü garanti\" eder (1856 Paris) · ⚠️ gün DOĞRULANMADI" },

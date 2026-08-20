@@ -429,7 +429,7 @@ window.KRONOLOJI_VENEDIK = [
   d:"İki buçuk yıl süren son kuşatma aşamasının ardından on sekiz maddelik bir teslim anlaşması imzalandı ve Kandiye Osmanlılara bırakıldı. Dört buçuk asırlık Girit hâkimiyeti sona erdi; Venedik'te bu, deniz imparatorluğunun bittiği tarih sayılır. Adada yalnız Suda, Spinalonga ve Granbosa kaleleri Venedik'te kaldı.",
   kaynak:"TDV `girit` (gövdesi okundu): \"9 Rebîülâhir 1080'de (6 Eylül 1669) imzalanan on sekiz maddelik bir teslim anlaşmasıyla\"; kuşatmanın \"iki buçuk yıl\" sürdüğü; Spinalonga ve Suda 1715'te, Granbosa 1692'de alındı" },
 
-{ t:"1684-03-05", b:"Kutsal İttifak'a katılma", tur:"ittifak", onem:4, dunya:3, kapsam:"dis",
+{ t:"1684-03-05", b:"Kutsal İttifak'a katılma", tur:"ittifak", onem:4, dunya:4, kapsam:"dis",
   etiket:["ittifak","diplomasi"],
   d:"Viyana bozgunundan sonra kurulan ittifaka Venedik de girdi ve on beş yıl sürecek son büyük taarruzuna başladı. Girit'i kaybetmiş bir cumhuriyet için bu, kayıpları telafi etmenin son fırsatıydı.",
   kaynak:"⚠️ GÜN DOĞRULANMADI · 🔴 `dunya:3` — Habsburg dosyasındaki aynı olayla BİREBİR AYNI (M-0880'de ilan edildi)" },
