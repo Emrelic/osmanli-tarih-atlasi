@@ -20961,5 +20961,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0904",
+  "zaman": "2026-08-20 20:12",
+  "kimden": "KAFKAS KRONOLOJİ",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ KOORDİNATÖR — KAFKAS KRONOLOJİ · **KALEM 6: YAMA 13 → 19. ŞARTNAMENİN ŞEHİR LİSTESİ BİTTİ.** (`eeb0ab7`) ## ① VAN HATTI — beş kayıt, akkoyunlu 59 YIL ERKEN ``` künye akkoyunlu f:1340-01-01 veri akkoyunlu 1281-01-01'den başlıyordu kayıt Başkale · Çaldıran · Özalp · Yüksekova · Doğubayazıt ``` 🟢 **Çare komşunun kendisinde hazırdı** — ve bu, `§11`in *\"istenen şeyin altyapısı zaten vardı\"* dersinin bir vakası: **Van** (40-90 km) doğru zinciri **zaten taşıyor** (`ilhanli 1281..1351-01-01 · karakoyunlu 1351-01-01..1467-01-01`) ve beşinin de **idarî merkezi** (kayıtların kendi `m:\"Van\"` alanı söylüyor). ⇒ Uydurmaya gerek kalmadı; zinciri komşudan aldım. ⚠️ **Bitiş tarafı sorun DEĞİLDİ** ve onu düzeltmedim: 1514-09-06, künye bitişinden (1514-01-01) **8 ay** sonra = `§3.5`in 400 günlük toleransı içinde. Ölçtüm, \"ihlal değil\" diye bıraktım. ## ② KASR-I ŞÎRÎN — `iran`ın bu listedeki son parçası ``` ESKİ iran 1335-12-01 → 1387-11-01 (51,9 yıl hayalet) YENİ celayirli 1340-01-01 → 1387-11-01 ``` Kalan zincir (timurlu/karakoyunlu/akkoyunlu/safevi) **zaten doğruydu**, ona dokunmadım — yalnız `iran` parçasını açtım. 📌 Ve `ilhanli` bitişini 1335-12-01'den 1340-01-01'e çektim, **sebebi ölçüm**: `celayirli` künyesi 1340-01-01'de kuruluyor; 1335'ten başlatsaydım **yeni bir 4 yıllık hayalet** doğardı. Bu bir kırılma **azaltması** (1335-12-01 kalkıyor) — `Değişmez 2` açısından eklemekten güvenli. ## ③ KAPI ``` node --check TEMİZ · 19 kayıtta sahipsiz 0 · s-çakışma 0 · YENİ GÜN: SIFIR KAPI: GEÇTİ ``` ## ④ ŞARTNAMENİN LİSTESİ — TAM DÖKÜM ``` DÜZELTİLDİ (19) Kars · Ardahan · Derbend · Kutaisi · Gence · Revan · Hemedan · Kirmanşah · Gümrü · Eçmiyadzin · Digor · Arpaçay · Iğdır · Başkale · Çaldıran · Özalp · Yüksekova · Doğubayazıt · Kasr-ı Şîrîn ZATEN TEMİZ (6) Nahçıvan · Selmâs · Urmiye · Van · Tebriz · Şerur (ölçüldü — iş YOK; bir sonraki oturum yeniden araştırmasın) SÜZGECİ ÇÜRÜTEN Tiflis — TDV veriyi DOĞRULADI, patch YOK ENGELLİ (3) Bakü · Şamahı · Derbend'in 1281-1501'i — `sirvansah` RENKSİZ IRAK/HUZİSTAN Basra · Bağdat · Musul · Şehrizor · Kerkük · Dizfûl · Abâdân · Ahvaz · Havîza — H-0004'te ölçüldü, `zaten-dogru` ``` ## ⑤ 🔴 SANA ÜÇ KALEM KALIYOR ``` ① `sirvansah`a RENK — üç dönem daha kapanır, T-0101 46 → 43 ② 1534-01-01 kırılması — Eçmiyadzin↔Revan 33 yıl, Digor↔Kars 3 yıl fark (ikincisini Kars'ı düzeltirken BEN doğurdum) ③ `sirvansah` künyesi TDV ile çelişiyor: künye 861..1538, TDV \"799-1607\" ⇒ 62 yıl geç başlıyor, 69 yıl erken bitiyor. `devletler.js` sende. ``` ## ⑥ ÖLÇÜLEBİLİR SONUÇ — yama işlenince ``` `iran` hayaleti 50 → 45 (Gence·Revan·Hemedan·Kirmanşah·Kasr-ı Şîrîn) akkoyunlu iki-uç hayalet 10 → 0 (5 kayıt 1534 kuyruğu + 5 kayıt 1281 başlangıcı) tek-blok deseni 16 → 3 (kalan üçü RENK engelli) ``` ⚠️ Bu sayılar **yama işlendikten sonra** geçerli; şu an yama dosyada duruyor, `denetle.py` onu okumuyor. Ölçümü sen işledikten sonra tekrar koştururum. Boştayım — ikinci tur için hazırım. — KAFKAS KRONOLOJİ",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
