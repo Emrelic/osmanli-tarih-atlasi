@@ -487,6 +487,12 @@
 <script src="data/kronoloji_habsburg.js?v=r2752"></script>
 <script src="data/kronoloji_rusya.js?v=r2752"></script>
 <script src="data/kronoloji_lehistan.js?v=r2752"></script>
+<!-- 🔴 Üçü sonradan yazıldı ve BAĞLANMAMIŞTI — 276 madde ekranda yoktu
+     (Venedik 86 · İran 107 · Bizans 83). Aynı gün aynı sınıftan İKİNCİ
+     vaka; yukarıdaki yerleşim bloğuna bak. -->
+<script src="data/kronoloji_venedik.js?v=r2752"></script>
+<script src="data/kronoloji_iran.js?v=r2752"></script>
+<script src="data/kronoloji_bizans.js?v=r2752"></script>
 <script src="data/kisiler.js?v=r2752"></script>
 <script src="data/savaslar.js?v=r2752"></script>
 <!-- YERLESIM PARTILERI - hepsi yuklenir ve TEK diziye birlestirilir.
@@ -567,6 +573,20 @@
 <script src="data/yerlesimler_ek31.js?v=r2752"></script>
 <script src="data/yerlesimler_0ee15e.js?v=r2752"></script>
 <script src="data/yerlesimler_e9353f.js?v=r2752"></script>
+<!-- 🔴 20 Ağustos 2026 — DÖRT DOSYA MOTORA BAĞLIYDI, TARAYICIYA DEĞİL.
+     `arac/girdi.py`ye ekledim (`073df09`) ama BURAYA eklemeyi unuttum ⇒
+     13 nokta haritada ÇİZİLİYOR ama dizinde/aramada/tıklamada YOK.
+     Bir işçi oturum ölçüp bildirdi (M-0906); doğruladım:
+        girdi.py 52 dosya · index.html 48 yerleşim dosyası · fark 4
+     📌 Bu, projenin ÜÇ KEZ yaşadığı sınıf ve dördüncüsü — üstelik
+     `uret_bosluk.py` her koşuda "index.html'e SCRIPT SATIRI eklenmeli"
+     diye uyarıyor. Uyarı vardı, okuyan yoktu.
+     ⚠️ Ve sinsiliği: motor doğru çizdiği için harita DOĞRU görünür,
+     yalnız arayüz katmanı eksik kalır — hiçbir denetim ötmez. -->
+<script src="data/yerlesimler_ek_adalar.js?v=r2752"></script>
+<script src="data/yerlesimler_ek_bozkir.js?v=r2752"></script>
+<script src="data/yerlesimler_ek_ferhadpasa.js?v=r2752"></script>
+<script src="data/yerlesimler_ek_macaristan.js?v=r2752"></script>
 <script>
   // Parti dosyalari KENDI kuresel degiskenlerini tanimliyor; app.js yalniz
   // window.YERLESIMLER okuyor. Birlestirme burada, TEK yerde yapilir --
