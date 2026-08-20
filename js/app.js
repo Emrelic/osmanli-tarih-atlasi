@@ -1015,9 +1015,20 @@ harita.on("load", function () {
     kayitlar.forEach(function (k) {
       var c = cinsler[k.cins];
       var gosterim = c && c.gosterim;
-      if (gosterim !== "benek" && gosterim !== "soru") return; // "bos" -> hiç çizilmez
+      // "halka" — 20 Ağustos 2026, Emre: *"yerli aşiretler filan ya da
+      // DEVLETSİZ ŞEHİRLER var ise bunları haritada göstermek lâzım."*
+      // Üçüncü glif: `devletsiz-yerlesim` cinsi (92 kayıt — Riyad · Hâil ·
+      // Manama · Doha · Abu Dabi · Vladivostok · Taos Pueblo…). Boyanmayan
+      // ama YERLEŞİMİ OLAN yerler. `benek`ten (aşiret) ve `soru`dan
+      // (veri-yok) ayrı bir glif, çünkü ÜÇÜ ÜÇ AYRI ŞEY söylüyor:
+      //   benek  "aşiret denetimi var, sınırı geçirgen"
+      //   soru   "kaynak susuyor, BİLMİYORUZ"
+      //   halka  "yerleşim var, devlete bağlı değil, hakkı saklı"
+      if (gosterim !== "benek" && gosterim !== "soru" && gosterim !== "halka")
+        return;                                        // "bos" -> hiç çizilmez
       var el = document.createElement("div");
-      el.className = gosterim === "benek" ? "bosluk-benek" : "bosluk-soru";
+      el.className = gosterim === "benek" ? "bosluk-benek"
+                   : gosterim === "halka" ? "bosluk-halka" : "bosluk-soru";
       el.title = k.ad + " — " + (c ? c.ad : k.cins);
       el.addEventListener("click", function (e) {
         e.stopPropagation();

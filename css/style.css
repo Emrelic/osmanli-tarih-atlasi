@@ -1604,6 +1604,30 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
 }
 .bosluk-benek:hover { filter: blur(0.5px); }
 
+/* 🔴 ÜÇÜNCÜ GLİF — 20 Ağustos 2026, Emre: *"yerli aşiretler filan ya da
+   DEVLETSİZ ŞEHİRLER var ise bunları haritada göstermek lâzım … onların
+   hakkını SAKLI TUTALIM o topraklarda."*
+   `devletsiz-yerlesim` cinsi: yerleşimi olan ama merkezî devlete bağlı
+   olmayan 92 yer (Riyad · Hâil · Manama · Doha · Abu Dabi · Mukalla ·
+   Vladivostok · Taos Pueblo…).
+   BİÇİM KASITLI — üç glif üç ayrı şey söylüyor ve karışmamalı:
+     benek  yumuşak gradyan, KENARSIZ  → aşiret sahası, sınırı geçirgen
+     soru   kesikli çember, gri        → kaynak susuyor, BİLMİYORUZ
+     halka  KESKİN ama İÇİ BOŞ çember  → yerleşim KESİN var, ama toprağı
+                                          bir devlete ait DEĞİL
+   İçinin boş olması anlamlı: nokta kesin, sahiplik yok. */
+.bosluk-halka {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  cursor: pointer;
+  pointer-events: auto;
+  background: transparent;
+  border: 2px solid rgba(74, 59, 30, 0.78);
+  box-shadow: 0 0 0 1.5px rgba(247, 241, 227, 0.6);
+}
+.bosluk-halka:hover { border-color: var(--altin); }
+
 .bosluk-soru {
   width: 18px;
   height: 18px;

@@ -62,9 +62,23 @@ CINSLER = {
                   "aciklama": "devlet değil ama SAHİPSİZ DE DEĞİL — "
                               "sınırı yoktur, mevsimlik ve geçirgendir",
                   "gosterim": "benek"},
-    "devletsiz": {"ad": "devletsiz",
-                  "aciklama": "kaynak AÇIKÇA söylüyor: burada devlet yoktu",
+    "devletsiz": {"ad": "devletsiz — boş arazi",
+                  "aciklama": "kaynak AÇIKÇA söylüyor: burada devlet yoktu, "
+                              "ve yerleşim de yok. Emre'nin 4/2/1 puanlaması "
+                              "bu toprağı komşusuna katabilir",
                   "gosterim": "bos"},
+    # 🔴 20 Ağustos 2026 — Emre: "devletsiz ŞEHİRLER var ise bunları haritada
+    # göstermek lâzım … onların hakkını SAKLI TUTALIM o topraklarda."
+    # Bu cins boyanMAZ ve GÖRÜNÜR: yerleşimi olan ama merkezî devlete bağlı
+    # olmayan yerler. Kayıtların kendi metni: "yerleşim VARDI ama hiçbir
+    # devletin idaresinde değildi."
+    "devletsiz-yerlesim":
+                 {"ad": "devletsiz şehir / yerel idare",
+                  "aciklama": "yerleşim VAR ama merkezî bir devlete bağlı "
+                              "değil — körfez şeyhliği, Necid kasabası, "
+                              "yerli topluluk. Toprağı komşu devlete "
+                              "KATILMAZ; hakkı saklıdır",
+                  "gosterim": "halka"},
     "insansiz":  {"ad": "insansız",
                   "aciklama": "yerleşim yoktu — coğrafî boşluk",
                   "gosterim": "bos"},
@@ -85,6 +99,25 @@ def main():
         c = y.get("bos")
         if not c:
             continue
+        # 🔴 EMRE, 20 Ağustos 2026: *"Yerli aşiretler filan ya da DEVLETSİZ
+        # ŞEHİRLER var ise bunları haritada göstermek lâzım."* ve
+        # *"devletsiz ama yerleşim yeri veya aşiret yapısı filan var ise
+        # onların hakkını saklı tutalım o topraklarda."*
+        #
+        # `devletsiz` tek etiketti ve HİÇ ÇİZİLMİYORDU (gosterim="bos").
+        # Ama içinde iki apayrı şey var — ölçüldü, 129 kayıt:
+        #    tur="bolge"  37   boş çöl dolgusu ⇒ ekleyici kapı BOYAYACAK,
+        #                      işaret gereksiz (toprak artık bir devletin)
+        #    yerleşim     92   Riyad · Hâil · Manama · Doha · Abu Dabi ·
+        #                      Mukalla · Vladivostok · Taos Pueblo …
+        #                      ⇒ boyanMAYACAK ve GÖRÜNMESİ gereken bunlar
+        #
+        # 📌 AYRIM KAPININKİYLE BİREBİR AYNI (`uret_petek.py:3559`) ve bu
+        # KASITLI: iki yerde iki farklı ölçüt kullanılsaydı harita ile
+        # işaret katmanı çelişirdi — boyanan yerde işaret, boş yerde hiçbir
+        # şey çıkardı. Aynı soruyu iki alet aynı biçimde sormalı.
+        if c == "devletsiz" and y.get("tur") != "bolge":
+            c = "devletsiz-yerlesim"
         kayit.append({
             "ad": y["ad"], "lat": y["lat"], "lon": y["lon"],
             "cins": str(c),
