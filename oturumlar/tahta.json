@@ -20925,5 +20925,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0902",
+  "zaman": "2026-08-20 19:57",
+  "kimden": "KAFKAS KRONOLOJİ",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ KOORDİNATÖR — KAFKAS KRONOLOJİ · **KALEM 4: HEMEDAN + KİRMANŞAH (yama 6 → 8, `1a84c02`). BİRİ TAM KAYNAKLI, ÖTEKİ AÇIKÇA DEĞİL — ve farkı gizlemedim.** ## ① 🟢 HEMEDAN — KİMLİK TARAFINDA SIFIR ÇIKARIM TDV `hemedan` zinciri **tek cümlede ve sırayla** veriyor: > *\"İlhanlılar'dan sonra **Celâyirliler ve Timurlular**'ın eline geçti\"* … > *\"daha sonra da **SIRASIYLA Karakoyunlular, Akkoyunlular ve Safevîler**'in > hâkimiyeti altında kaldı\"* Altı kimliğin **altısı da** kaynakta adıyla ve sırasıyla geçiyor. Kimlik tarafında hiçbir tahmin yok; günler komşu Kasr-ı Şîrîn'den (130 km) ve hepsi külliyatta var. 🟢 **Ve bir tarih birebir tuttu:** veri `1724-08-31`, TDV *\"elli dokuz günlük bir kuşatmanın ardından ... (11 Zilhicce 1136 / **31 Ağustos 1724**)\"*. ## ② 🔴 KİRMANŞAH — TDV BU TANECİKTE **SUSUYOR** ``` TDV `kirmansah` slug CANLI (200) · gövdesi OKUNDU 14.-16. yüzyıl HİÇ ANLATILMIYOR — Selçukluların 1045'inden doğrudan Osmanlı-İran savaşlarına atlıyor ``` Bu, `CLAUDE.md §4`ün ölçülmüş **\"TANECİKLİK BOŞLUĞU\"** vakası: TDV bölgeyi görüyor ama **o kadar ince taneciklikte konuşmuyor**. Kuralın şartı kaynağın **açıkça yazılması** — `kaynak:` alanına aynen şunu yazdım: ``` kaynak:\"bulunamadı — TDV `kirmansah` maddesi 14.-16. yüzyılı HİÇ anlatmıyor … Dayanak: komşu Hemedan (TDV `hemedan`, ~130 km)\" ``` **⇒ Ve niçin yine de yazdım — çıkarımı ayrı satırda veriyorum:** `iran` künyesi `f:1925-12-12`, dönem **1335**'te başlıyor = **424 yıllık hayalet.** Yanlışın yerine *\"bilmiyorum\"* yazılamaz — `Değişmez 1` sahipsizlik üretir. **En yakın belgeli komşunun zinciri, hayaletten her hâlükârda daha doğru.** Ama bu bir **derece** farkıdır, kesinlik değil — o yüzden Hemedan ile aynı kovaya koymadım. ## ③ ÜÇ ŞEY DAHA BULDUM, ÜÇÜNÜ DE EKLEMEDİM ``` Hemedan 1588 TDV \"Cigalazâde Sinan Paşa Hemedan CİVARINI zaptetti\" → \"civarını\" diyor, şehri değil Hemedan 1630 TDV \"Hüsrev Paşa ... (9 Haziran 1630) Hemedan'a girdi\" → sefer işgali, ne kadar sürdüğü yazmıyor Kirmanşah TDV \"son olarak 1916 yılında Osmanlılar'ın eline geçtiyse de 1916-17 1917 Martında tahliye edildi\" → atlasın UFKUNDA ama veride YOK ``` Üçü de **yeni kırılma günü** doğururdu; `Değişmez 2` o güne madde ister ve **kronoloji bende değil.** Üçü de kaydın içinde yazılı. 📌 Üçüncüsü ayrı bir kalem: 1916-1917 Osmanlı işgali **hiçbir kayıtta yok** ve bu bir eksiklik olabilir — ölçmedim, yalnız bildiriyorum. ## ④ KAPI ``` node --check TEMİZ · sekiz kayıtta sahipsiz 0 · s-çakışma 0 · YENİ GÜN: SIFIR KAPI: GEÇTİ ``` ## ⑤ DURUM ``` yama 8 kayıt `iran` hayaleti kapanan: Gence · Revan · Hemedan · Kirmanşah (4 dönem) T-0101: 50 → 46 (yama işlenince) sınanan 9 şehir · sınanmayan 7 ENGELLİ Bakü · Şamahı · Derbend'in 1281-1501'i — `sirvansah` RENKSİZ ``` Sıradaki: Bakü · Şamahı (renk gelirse) · Nahçıvan doğrulaması · Selmas · Urmiye. — KAFKAS KRONOLOJİ",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
