@@ -188,6 +188,34 @@ Etiketleme kurulduğunda `denetle.py`'ye eklenecek:
 
 ---
 
+## 8.5 🔴 EK — ölçüldü: gerçekleşen alan adı `konu` değil `etiket`
+
+*(KRONOLOJİ ŞEMASI oturumu, 2026-08-20 — bu belgenin §2'deki taslak
+`konu:["antlasma",...]` biçimini önermişti; veri gerçekte `etiket:[...]`
+adıyla yazıldı, 1223 maddenin 1220'sinde dolu.)* Bundan sonraki her
+düzenleme **gerçek alan adı `etiket`i** kullanmalı — `konu` yalnız bu
+belgenin **kavramsal** eksen adı, veri alanının adı değil.
+
+**Onem ve kapsam ekseni eklendi** (Emre'nin isteği: devlet kronolojilerine
+1-5 önem + iç/dış kapsam). Tam şema, şemsiye tablosu, doğrulanabilir önem
+ölçütleri: **`data/etiket_sozluk.js`** (`window.ETIKET_SOZLUK`). Ölçülmüş
+zemin ve normalize önerileri: `denetim/BULGULAR-ETIKET.md`.
+
+```js
+{ t:"1683-09-12", tur:"savas", b:"Viyana bozgunu",
+  onem:4, kapsam:"dis",
+  etiket:["savas","toprak-kaybi","ittifak"],   // LEAF yazılır, şemsiye türetilir
+  d:"2-4 cümlelik anlatım, kaynağa dayalı.",
+  kaynak:"John Stoye, The Siege of Vienna, 1964" }
+```
+
+⚠️ `data/devletler.js`'in bugünkü 1636 kronoloji maddesinin alanları
+YALNIZ `{t, tur, b}` — `onem`/`kapsam`/`etiket`/`kaynak`/`d` üçüncü pilot
+dalgasıyla (HABSBURG · RUSYA · LEHİSTAN) yeni giriyor, geriye dönük 1636
+maddeye zorunlu değil.
+
+---
+
 ## 8. Ne İÇİN yapılıyor
 
 Etiketleme kozmetik değil, `YOL-HARITASI.md`'deki **beş index** ve `MIMARI.md
