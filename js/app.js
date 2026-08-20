@@ -817,26 +817,67 @@ harita.on("load", function () {
   // `["zoom"]` artık interpolate'in DOĞRUDAN girdisi; veriye bağlı `u` ise
   // durak DEĞERLERİNDE kalıyor — MapLibre ikisinin bu şekilde bir arada
   // kullanılmasına izin veriyor (zoom-ve-özellik fonksiyonu).
+  // 🔴 ÜÇGEN/OK UCU DÜZELTMESİ (20 Ağustos 2026, KOORDİNATÖR görevi —
+  // "ÜÇGEN OK DÜZELTME"; teşhis: denetim/BULGULAR-UCGEN-19AGU.md).
+  // Yukarıdaki formül ÜST SINIRSIZDI: çölde u 270 km'ye çıkıyor, bu z7-z8'de
+  // 400-1000 px'lik bulanık bant demekti; hattın kendi segmentleri çoğu yerde
+  // 0,1-3 km olduğu için köşelerde genişlik/segment oranı 71-1056× çıkıyor ve
+  // her keskin köşede dışarı fırlayan "üçgen/ok ucu" lobu doğuyordu (rapor §5.5).
+  //
+  // İKİ ÇARE tasarlanıp ÖLÇÜLDÜ (kayıtlar `denetim/` altında değil, bu görevin
+  // tahta raporunda — ölçüm bu dosyanın Node ile okunmasıyla yapıldı, tarayıcı
+  // bu oturuma açılamıyor):
+  //   A) DÜZ PİKSEL TAVANI (["min", eğri, TAVAN]) — z5'te sınırlı (%15-30
+  //      bağlanıyor), z7'de ağır (%81-92 bağlanıyor, TAVAN 64-96 px arası).
+  //      Rapordaki 15 örnek hat 99-350 px'ten 80 px'e (%35-77 küçülme) iniyor.
+  //   B) HATTIN KENDİ SEGMENT UZUNLUĞUNA GÖRE TAVAN (u_eff = min(u, K×segment))
+  //      — K1-K5 kutularındaki en kötü segmentleri (0,1-3 km) 100-580× oranından
+  //      K'ya (ör. 8×) düşürüyor, AMA havuzun TAMAMINDA (8884 segmentin
+  //      %70,5'i, K=8) etkili oluyor: `u` (tohum-arası/2, KABA ölçek) ile
+  //      polyline segmenti (sınır ayrıntısı, İNCE ölçek — medyan 5,96 km)
+  //      TASARIM GEREĞİ farklı büyüklük mertebesinde; segment-bazlı tavan
+  //      hâlenin VAR OLUŞ SEBEBİNİ (u farkını göstermek) yalnız K1-K5'te değil
+  //      NEREDEYSE HER YERDE söndürüyor. ⇒ B'nin bedelsiz hâli YOK.
+  // ⇒ SEÇİLEN: A, piksel tavanının sildiği bilgi TERS OPAKLIKLA telafi
+  // ediliyor (geniş belirsizlik = daha SOLUK, artık sınırsız KALIN değil).
+  // ⚠️ AÇIKÇA YAZIYORUM: A, K1-K5'teki mutlak taşmayı ve z7-z8 piksel
+  // patlamasını ölçülebilir şekilde küçültüyor (350 px → 80 px gibi), ama
+  // segment/köşe düzeyindeki asıl oransızlığı (0,1 km'lik bir segmentin 80 px
+  // çizilmesi) TAM ÇÖZMÜYOR — o çözüm `arac/uret_petek.py` tarafında geometri
+  // sadeleştirmesi (linemerge) gerektiriyor ve bu oturumun dosyası DEĞİL
+  // (rapor §İKİNCİL zaten bunu öneriyor). Bu bir eksik değil, ölçülmüş bir
+  // sınır — sonraki adres oraya yazıldı.
   var U = ["coalesce", ["get", "u"], 60];          // veri yoksa 60 km varsayılan
   var Z0 = 2, Z1 = 9;
+  var TAVAN_PX = 80;                                // hâle (k=1) piksel tavanı — ölçüldü, yukarıdaki not
   function yerOlcek(k) {                            // k: hâle/çekirdek çarpanı
-    return ["interpolate", ["exponential", 2], ["zoom"],
-            Z0, ["*", U, k * Math.pow(2, Z0) / 67.8],
-            Z1, ["*", U, k * Math.pow(2, Z1) / 67.8]];
+    var egri = ["interpolate", ["exponential", 2], ["zoom"],
+                Z0, ["*", U, k * Math.pow(2, Z0) / 67.8],
+                Z1, ["*", U, k * Math.pow(2, Z1) / 67.8]];
+    return ["min", egri, TAVAN_PX * k];
   }
   var YER_GENISLIK = yerOlcek(1);
   var YER_BULANIK  = yerOlcek(0.85);
   var YER_CEKIRDEK = yerOlcek(0.35);
   var YER_CBULANIK = yerOlcek(0.28);
+  // Tavanın sıkıştırdığı bilgi opaklığa taşınıyor — ölçülmüş çeyrekliklere
+  // oturuyor: Q1 (55,9 km, "tipik" hat) eski değerinde kalıyor, MAX (273,8 km,
+  // en belirsiz hat) en soluk uca iniyor. Aradaki hatlar doğrusal geçiyor.
+  var YER_OPAKLIK  = ["interpolate", ["linear"], U, 56, 0.45, 274, 0.18];
+  var YER_COPAKLIK = ["interpolate", ["linear"], U, 56, 0.50, 274, 0.20];
   harita.addSource("serbest", { type: "geojson", data: bosVeri() });
   harita.addLayer({ id: "serbest-hale", type: "line", source: "serbest",
-    layout: { "line-cap": "round", "line-join": "round" },
+    // line-join "round" → "bevel": round join keskin köşede yarıçapı
+    // width/2 olan bir yay çıkıntısı bırakıyor (genişlik yüzlerce px'ken bu
+    // yay tek başına bir "lob"tur); bevel köşeyi segmentlerin ZARFI dışına
+    // HİÇ taşırmıyor. Ek maliyeti yok, ölçülmemiş ama tek yönlü güvenli.
+    layout: { "line-cap": "round", "line-join": "bevel" },
     paint: { "line-color": "#8e0b22", "line-width": YER_GENISLIK,
-             "line-blur": YER_BULANIK, "line-opacity": 0.45 } });
+             "line-blur": YER_BULANIK, "line-opacity": YER_OPAKLIK } });
   harita.addLayer({ id: "serbest-cekirdek", type: "line", source: "serbest",
-    layout: { "line-cap": "round", "line-join": "round" },
+    layout: { "line-cap": "round", "line-join": "bevel" },
     paint: { "line-color": "#8e0b22", "line-width": YER_CEKIRDEK,
-             "line-blur": YER_CBULANIK, "line-opacity": 0.5 } });
+             "line-blur": YER_CBULANIK, "line-opacity": YER_COPAKLIK } });
 
   // Bölge (eyalet) iç sınırları: ince kesikli çizgi, yakınlaşınca görünür
   harita.addSource("bolge", { type: "geojson", data: bosVeri() });
