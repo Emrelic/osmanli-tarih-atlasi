@@ -20067,5 +20067,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0866",
+  "zaman": "2026-08-20 14:10",
+  "kimden": "KOORDINATOR",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "ŞEMA DEĞİŞTİ — İKİ ÖNEM PUANI. Kayıt yazan herkes DURUP OKUSUN. Emre'nin hükmü (20 Ağustos): \"önem puanı DEVLETE GÖRE ve DÜNYA SİYASETİNE GÖRE iki ayrı puanlamada verilsin.\" Kabul edildi. HABSBURG · RUSYA · LEHİSTAN · KAFKAS ve KRONOLOJİ ŞEMASI oturumlarını bağlar. Şimdiye kadar yazdığınız kayıtlara ikinci alanı EKLEYİN — baştan yazmayın, alan eklemek yeter. ## YENİ ŞEMA { t:\"1683-09-12\", b:\"Viyana kuşatmasının püskürtülmesi\", tur:\"savas\", onem:5, // O DEVLETİN kendi tarihyazımında 1-5 dunya:5, // DÜNYA siyasetindeki ağırlık 1-5 <-- YENİ kapsam:\"dis\", // \"ic\" ¦ \"dis\" etiket:[\"askeri\",\"toprak-kazanc\",\"ittifak\"], d:\"2-4 cümle anlatım.\", kaynak:\"...\" } ## NİÇİN İKİ PUAN — süsleme değil, SÜZGECİN ÇALIŞMASI İÇİN ŞART Emre'nin istediği arayüz şu: \"Osmanlı haritası ve kronolojisi aç, ama EK OLARAK Lehistan Rusya İran Venedik Avusturya kronolojilerini önem sırası 5 olan ve/veya dış mesele maddeleriyle getir.\" Burada bir soru var ve tek puanla cevabı YOK: Habsburg'a odaklanmışken Osmanlı maddelerini HANGİ puana göre süzeceğiz? · Osmanlı'nın KENDİ önemine göre süzersek, Osmanlı'nın kendi iç meselelerini alırız — Habsburg anlatısını okuyan için gürültü. · Dünya puanına göre süzersek, Osmanlı'nın SINIRLARI DIŞINA taşan olaylarını alırız — istenen tam bu. => Ikinci puan, \"ek devletler\" süzgecinin doğru çalışmasının ta kendisi. ## ⚠️ ŞARTIM — dünya puanı İKİNCİ BİR ARAŞTIRMA TURU OLMAYACAK Olursa iş iki katına çıkar ve altından kalkamayız. Dünya puanı KURALLA türetilecek; araştırmacı yargısı DEĞİL. Ölçüt: 5 devletler sistemini BÖLGE DIŞINDA değiştiren (1453 · 1492 · 1648 Vestfalya · 1789 · 1815 Viyana · 1914) 4 iki ya da daha çok BÜYÜK GÜCÜN sınırını değiştiren, bölgeyi yeniden çizen (1683-1699 Kutsal İttifak savaşları · 1772-1795 taksimler) 3 iki devlet arasında kalıcı etkili savaş/antlaşma 2 bölgesel etki 1 yalnız iç mesele — dışarıya taşmıyor 📌 KABA AMA SINANABİLİR BİR EL KURALI: kapsam:\"ic\" ise dunya genelde 1-2 kapsam:\"dis\" ise dunya genelde 3+ Aykırı yazacaksan GEREKÇESİNİ `d:` içinde bir cümleyle belirt. (1861 Rus serflik ilgası ic ama dunya 3 — aykırı, ve gerekçesi yazılır.) ## 🟢 VE SONRA ÖLÇÜLECEK — bu, puanı yargı olmaktan çıkarır On devletin kronolojisi yazıldığında `dunya` puanı ÇAPRAZ ATIFLA ölçülebilir: bir olay KAÇ DEVLETİN kronolojisinde geçiyorsa dünya ağırlığı odur. O zaman kuralla verilen değerle ölçülen değer karşılaştırılacak. ⚠️ AYRIŞMA KUSUR DEĞİL BULGUDUR: kural 4 derken ölçüm 1 diyorsa, ya kural yanlış ya da o olay gerçekten yalnız bir milletin hafızasında. İkisi de öğretici. 📌 Bugünlük kuralla yazın; ölçüm tabanı henüz yok (392 devletin kronolojisi ortalama 4,2 madde — çapraz atıf için çok seyrek). ## DEĞİŞMEYEN `onem` alanının tanımı AYNI KALDI: o devletin/milletin kendi tarihyazımı, kaynakla savunulabilir olmalı. 1683 Viyana Osmanlı'da felaket, Lehistan'da 5'lik zafer — aynı olayın iki dosyada iki farklı `onem` taşıması KUSUR DEĞİL, tasarımın kendisidir. Emre bunu açıkça onayladı. ## KADEME LİSTESİ — Emre onayladı, Venedik ve İran teyit edildi DERİN (100-150 madde) Habsburg · Rusya · Lehistan · Venedik · İran · Bizans · Memlük · Macaristan · Fransa · İngiltere Üçü koşuyor: Habsburg · Rusya · Lehistan. Ötekiler sırada.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "EMIR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
