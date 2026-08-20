@@ -162,4 +162,76 @@ window.YERLESIMLER_KAFKAS_DUZELTME = [
       +"(imereti kunyesinin kendi kronolojisi soyluyor), kesin ilhak 1810-02-20. Tabiiyeti ilhaka "
       +"kadar surdurdum; 1804'e cekilmesi de savunulabilir, KARAR KOORDINATORUN."},
 
+// ─────────────────────────────────────────────────────────────────────
+// 5 · GENCE — `iran` hayaleti; ve TDV'nin KENDİSİ 1468-1501 aralığını veriyor
+// ─────────────────────────────────────────────────────────────────────
+{ad:"Gence",
+ s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},
+    {f:"1340-01-01",t:"1406-10-21",d:"celayirli"},
+    {f:"1406-10-21",t:"1468-04-01",d:"karakoyunlu"},
+    {f:"1468-04-01",t:"1501-07-01",d:"akkoyunlu"},
+    {f:"1501-07-01",t:"1736-03-08",d:"safevi"},
+    {f:"1736-03-08",t:"1747-06-20",d:"afsar"},
+    {f:"1747-06-20",t:"1796-01-01",d:"zend"},
+    {f:"1796-01-01",t:"1813-10-24",d:"kacar"},
+    {f:"1813-10-24",t:"1923-10-29",d:"rusya"}],
+ d:[{f:"1588-01-01",t:"1606-01-01"},{f:"1725-09-12",t:"1735-06-19"}],
+ v:[],
+ kaynak:"gence",
+ neden:"ESKI: ilhanli 1281..1335-12-01, sonra `iran` 1335-12-01..1501-07-01 (165,6 yil). "
+      +"`iran` kunyesi f:1925-12-12 ⇒ 424 yillik hayalet (T-0101). "
+      +"TDV `gence` (200, GOVDESI OKUNDU) o araligi UC katmana boluyor ve BIRINI TARIHIYLE VERIYOR: "
+      +"\"XIV. yuzyil ortalarinda Gence ve Karabag'a Celayirliler hakim oldular\" · "
+      +"\"XV. yuzyilin baslarinda bu bolge Karakoyunlular'in eline gecti\" · "
+      +"\"Akkoyunlular'in bolgede hakimiyet kurdugu donemde (1468-1501) Karabag ve Gence muhtemelen "
+      +"Kacar emirlerinin idaresindeydi\" · \"Safeviler Devleti'nin kurulusundan (1501) sonra\". "
+      +"🟢 TDV'nin verdigi 1468-1501 araligi kulliyattaki 1468-04-01 (50 kayit) ve 1501-07-01 "
+      +"(77 kayit) gunleriyle BIREBIR ortusuyor — yeni gun dogurulmadi. "
+      +"⚠️ TIMURLU KATMANI YAZILMADI: komsu Serur/Nahcivan 1386-1406 timurlu tasiyor ama TDV Gence "
+      +"maddesinde Timur HIC GECMIYOR. Komsuya bakip yazmak, kaynagin susmasini kaynak saymak olurdu; "
+      +"celayirli dogemini 1406-10-21'e kadar uzattim (TDV \"XV. yuzyilin baslari\" diyor, o gun "
+      +"kulliyatta zaten var). Bu bir TERCIH, TDV alintisi degil. "
+      +"⚠️ DEGISTIRMEDIGIM IKI TARIH, ikisi de kaynakla ufak celisiyor: (a) Osmanli 1588-01-01 — TDV "
+      +"\"20 Temmuz 1588'de ... Gence onlerine geldiler\"; (b) Osmanli 1725-09-12 — TDV \"4 Eylul "
+      +"1725'te ... zaptettiler\", 8 gun fark. Ikisi de yeni kirilma gunu dogururdu; Degismez 2 "
+      +"maddesiz kirilma uretmesin diye DOKUNMADIM, kayda geciriyorum. "
+      +"⚠️ Ve TDV Rus isgalini 1804'e cekiyor (\"3 Ocak 1804'te Cevad Han sehid dustu\"), veri "
+      +"1813-10-24 (Gulistan) diyor. Bu de facto/de jure ayrimi olabilir — OLCMEDIM, dokunmadim."},
+
+// ─────────────────────────────────────────────────────────────────────
+// 6 · REVAN — `iran` hayaleti; TDV sirayi doğruluyor ama TARİH vermiyor
+// ─────────────────────────────────────────────────────────────────────
+{ad:"Revan",
+ s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},
+    {f:"1340-01-01",t:"1386-01-01",d:"celayirli"},
+    {f:"1386-01-01",t:"1406-10-21",d:"timurlu"},
+    {f:"1406-10-21",t:"1468-04-01",d:"karakoyunlu"},
+    {f:"1468-04-01",t:"1501-07-01",d:"akkoyunlu"},
+    {f:"1501-07-01",t:"1736-03-08",d:"safevi"},
+    {f:"1736-03-08",t:"1747-06-20",d:"afsar"},
+    {f:"1747-06-20",t:"1796-01-01",d:"zend"},
+    {f:"1796-01-01",t:"1828-02-22",d:"kacar"},
+    {f:"1828-02-22",t:"1923-10-29",d:"rusya"}],
+ d:[{f:"1583-06-01",t:"1604-06-08"},{f:"1635-08-08",t:"1636-04-01"},
+    {f:"1724-09-28",t:"1735-06-19"}],
+ v:[],
+ kaynak:"revan",
+ neden:"ESKI: ilhanli 1281..1335-12-01, sonra `iran` 1335-12-01..1501-07-01 (165,6 yil hayalet). "
+      +"TDV `revan` (200, GOVDESI OKUNDU) SIRAYI dogruluyor ama TARIH VERMIYOR: "
+      +"\"Timur'un Revan'i hakimiyeti altina almasi\" · \"Timurlular'in ardindan Akkoyunlu ve "
+      +"Karakoyunlu idaresine giren Revan bir kultur merkezi haline geldi\" · \"Daha sonra sehre "
+      +"Sirvansahlar, Gurcu prensleri ve Safeviler hakim oldu\". "
+      +"⇒ `iran` YANLIS oldugu KESIN (Timurlu/Karakoyunlu/Akkoyunlu adiyla geciyor), ama gunleri "
+      +"TDV vermedigi icin KOMSU KAYITLARIN gunlerini aldim: Serur (39,55 K) ve Nahcivan (39,21 K) "
+      +"birebir bu zinciri tasiyor ve Revan 40,18 K'da, ikisine de ~70 km. "
+      +"📌 Bu bir CIKARIM: kimlikler TDV'den, GUNLER komsudan. Ayri satirda yaziyorum ki "
+      +"olculmus ile devralinmis karismasin. "
+      +"⚠️ TDV ayrica \"Sirvansahlar\" ve \"Gurcu prensleri\" de sayiyor — TARIHSIZ, ve `sirvansah` "
+      +"kimliginin BOYALAR'da RENGI YOK. Yazilmadi. "
+      +"🔴 DEGISTIRMEDIGIM BIR CELISKI: Osmanli fethi veride 1583-06-01, TDV ise \"991 Ramazani "
+      +"baslarinda (Eylul 1583 ortalari) Osmanlilar tarafindan kontrol altina alindi\" diyor — "
+      +"~3,5 AY fark. Duzeltmek yeni bir kirilma gunu dogurur ve Degismez 2 o gune madde ister; "
+      +"kronoloji bende degil. KAYDA GECIRIYORUM, dokunmuyorum. "
+      +"🟢 Ote yandan 1635-08-08 TDV ile BIREBIR: \"8 Agustos'ta teslim aldi\"."},
+
 ];
