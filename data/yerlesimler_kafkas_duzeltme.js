@@ -299,4 +299,117 @@ window.YERLESIMLER_KAFKAS_DUZELTME = [
       +"edildi\". Ikisi de mevcut donemlerle celismiyor; 1916-1917 atlasin ufkunda ama veride yok — "
       +"AYRI BIR KALEM, dokunmadim."},
 
+// ═════════════════════════════════════════════════════════════════════
+// 9-13 · ek26'NIN BEŞ KAYDI — AKKOYUNLU İKİ UÇTAN DA HAYALET
+//
+// Koordinatör: "073df09 ile düzeltilen 7 kayda dokunma, ÜSTÜNE BAK."
+// Baktım. `iran` hayaleti orada gerçekten kapanmış — ONA DOKUNMADIM.
+// Ama AYRI bir kusur duruyor ve ölçüldü:
+//   künye  akkoyunlu  f:1340-01-01  t:1514-01-01
+//   veri   akkoyunlu  1281-01-01 → 1534-01-01
+//   ⇒ 59 yıl ERKEN başlıyor (devlet doğmamış) + 20 yıl GEÇ bitiyor
+//     = tek künyenin iki ucunda 79 yıllık uydurma ömür
+//
+// 🔴 MİNİMAL MÜDAHALE — ve niçin böyle:
+//   YALNIZ 1281..1534 aralığını açıyorum. 1534-01-01'den SONRAKİ her şey
+//   (Gümrü/Eçmiyadzin'in safevî'si, Digor/Arpaçay/Iğdır'ın Osmanlı'sı)
+//   OLDUĞU GİBİ KALIYOR — o günlere hiç dokunmadım.
+//   Sebebi Değişmez 2: 1534-01-01 kırılması zaten var ve maddesi var;
+//   onu kaldırmak ya da kaydırmak yeni bir madde borcu doğururdu.
+//
+// ⚠️ AÇIK BIRAKTIĞIM SORU (ölçtüm, hüküm vermedim):
+//   Eçmiyadzin ↔ Revan arası 19 km, ama Revan safevî'ye 1501-07-01'de,
+//   Eçmiyadzin 1534-01-01'de geçiyor — 33 YIL fark, 19 km'de.
+//   Digor ↔ Kars arası 20 km; Kars'ın Osmanlı fethini TDV ile 1537'ye
+//   çektim, Digor 1534-01-01'de kalıyor — 3 YIL fark, 20 km'de.
+//   İkisi de gerçek bir tutarsızlık OLABİLİR; ama ikisi de 1534-01-01
+//   kırılmasını kaydırmayı gerektirir ve kronoloji bende değil.
+//   ⇒ KOORDİNATÖRE BIRAKIYORUM.
+// ═════════════════════════════════════════════════════════════════════
+
+{ad:"Gümrü (Aleksandropol)",
+ s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},
+    {f:"1340-01-01",t:"1386-01-01",d:"celayirli"},
+    {f:"1386-01-01",t:"1406-10-21",d:"timurlu"},
+    {f:"1406-10-21",t:"1468-04-01",d:"karakoyunlu"},
+    {f:"1468-04-01",t:"1514-09-06",d:"akkoyunlu"},
+    {f:"1514-09-06",t:"1736-03-08",d:"safevi"},
+    {f:"1736-03-08",t:"1747-06-20",d:"afsar"},
+    {f:"1747-06-20",t:"1796-01-01",d:"zend"},
+    {f:"1796-01-01",t:"1828-02-22",d:"kacar"},
+    {f:"1828-02-22",t:"1923-10-29",d:"rusya"}],
+ d:[], v:[],
+ kaynak:"bulunamadı — kimlik zinciri komşu Nahçıvan/Şerur (TDV `nahcivan` bölgesi) deseninden; "
+       +"akkoyunlu künyesinin f/t'si `data/devletler.js:477`ten ÖLÇÜLDÜ",
+ neden:"073df09 `iran`→`safevi` düzeltmesini yapmış, ONA DOKUNMADIM. Kalan kusur: akkoyunlu "
+      +"1281-01-01..1534-01-01 — künye 1340-01-01..1514-01-01 ⇒ 59 yıl ERKEN + 20 yıl GEÇ. "
+      +"1281-1468 arası komşu zinciriyle dolduruldu; akkoyunlu 1514-09-06'da bitiriliyor "
+      +"(komşu Çaldıran/Özalp/Başkale'nin günü, 11 kayıtta geçer; künye bitişinden 8 ay sonra "
+      +"= §3.5'in 400 günlük toleransı içinde). safevî başlangıcı 1534-01-01'den 1514-09-06'ya "
+      +"ÇEKİLDİ — çünkü 1534-01-01 akkoyunlu'nun ölümünden 20 yıl sonrasıydı ve o boşluğu bir "
+      +"şeyin doldurması gerekiyordu. ⚠️ Eçmiyadzin/Gümrü ile Revan (19-60 km) arasında hâlâ "
+      +"33 yıllık safevî farkı var — ÖLÇTÜM, hüküm vermedim."},
+
+{ad:"Eçmiyadzin",
+ s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},
+    {f:"1340-01-01",t:"1386-01-01",d:"celayirli"},
+    {f:"1386-01-01",t:"1406-10-21",d:"timurlu"},
+    {f:"1406-10-21",t:"1468-04-01",d:"karakoyunlu"},
+    {f:"1468-04-01",t:"1514-09-06",d:"akkoyunlu"},
+    {f:"1514-09-06",t:"1736-03-08",d:"safevi"},
+    {f:"1736-03-08",t:"1747-06-20",d:"afsar"},
+    {f:"1747-06-20",t:"1796-01-01",d:"zend"},
+    {f:"1796-01-01",t:"1828-02-22",d:"kacar"},
+    {f:"1828-02-22",t:"1923-10-29",d:"rusya"}],
+ d:[], v:[],
+ kaynak:"bulunamadı — Gümrü ile aynı gerekçe; Revan'a 19 km (ek26'nın kendi yorumu bu mesafeyi yazıyor)",
+ neden:"Gümrü ile birebir aynı kusur ve aynı çare. akkoyunlu 1281..1534 → künye 1340..1514."},
+
+{ad:"Digor",
+ s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},
+    {f:"1340-01-01",t:"1386-01-01",d:"celayirli"},
+    {f:"1386-01-01",t:"1406-10-21",d:"timurlu"},
+    {f:"1406-10-21",t:"1467-01-01",d:"karakoyunlu"},
+    {f:"1467-01-01",t:"1514-09-06",d:"akkoyunlu"},
+    {f:"1514-09-06",t:"1534-01-01",d:"safevi"},
+    {f:"1878-03-03",t:"1921-10-13",d:"rusya"}],
+ d:[{f:"1534-01-01",t:"1878-03-03"},{f:"1921-10-13",t:"1923-10-29"}],
+ v:[],
+ kaynak:"bulunamadı — kimlik zinciri komşu Kars'tan (20 km); Kars'ın kendi zinciri TDV `kars` ile "
+       +"bu yamada düzeltildi",
+ neden:"akkoyunlu 1281-01-01..1534-01-01 → künye 1340..1514 ⇒ iki uçtan hayalet. "
+      +"Karakoyunlu bitişi Kars'ın günüyle (1467-01-01) hizalandı, Nahçıvan'ın 1468-04-01'iyle "
+      +"değil — Digor Kars'a 20 km, Nahçıvan'a 180 km. "
+      +"🔴 OSMANLI GÜNÜNE DOKUNMADIM: 1534-01-01 duruyor. Ama Kars'ın fethini TDV ile 1537-01-01'e "
+      +"çektim ⇒ 20 km'de 3 yıl fark kaldı. Kaydırmak Değişmez 2'de madde borcu doğurur; "
+      +"KOORDİNATÖRE BIRAKTIM."},
+
+{ad:"Arpaçay (Akyaka)",
+ s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},
+    {f:"1340-01-01",t:"1386-01-01",d:"celayirli"},
+    {f:"1386-01-01",t:"1406-10-21",d:"timurlu"},
+    {f:"1406-10-21",t:"1467-01-01",d:"karakoyunlu"},
+    {f:"1467-01-01",t:"1514-09-06",d:"akkoyunlu"},
+    {f:"1514-09-06",t:"1534-01-01",d:"safevi"},
+    {f:"1878-03-03",t:"1921-10-13",d:"rusya"}],
+ d:[{f:"1534-01-01",t:"1878-03-03"},{f:"1921-10-13",t:"1923-10-29"}],
+ v:[],
+ kaynak:"bulunamadı — Digor ile aynı gerekçe (Kars'a 25 km)",
+ neden:"Digor ile birebir aynı kusur ve aynı çare."},
+
+{ad:"Iğdır",
+ s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},
+    {f:"1340-01-01",t:"1386-01-01",d:"celayirli"},
+    {f:"1386-01-01",t:"1406-10-21",d:"timurlu"},
+    {f:"1406-10-21",t:"1467-01-01",d:"karakoyunlu"},
+    {f:"1467-01-01",t:"1514-09-06",d:"akkoyunlu"},
+    {f:"1514-09-06",t:"1534-01-01",d:"safevi"},
+    {f:"1878-03-03",t:"1921-10-13",d:"rusya"}],
+ d:[{f:"1534-01-01",t:"1878-03-03"},{f:"1921-10-13",t:"1923-10-29"}],
+ v:[],
+ kaynak:"bulunamadı — Digor ile aynı gerekçe",
+ neden:"Digor ile birebir aynı kusur ve aynı çare. ⚠️ Iğdır Revan'a (65 km) Kars'tan (95 km) "
+      +"daha yakın; karakoyunlu bitişini yine de Kars'ın günüyle yazdım çünkü Osmanlı dönemi "
+      +"Kars ile aynı (1534-01-01..1878-03-03), yani idarî olarak o hatta bağlı. Bu bir TERCİH."},
+
 ];
