@@ -178,7 +178,7 @@ body {
    ters sırada katlanmış panel 228 px açık kalırdı. Ölçmedim: iki sınıfın
    aynı anda takılı olduğu bir kullanım akışı var mı — ama CSS'in buna
    dayanması için akışın var olması gerekmiyor. */
-#yanpanel.dar { flex: 0 0 clamp(168px, 14.4vw, 228px); }
+#yanpanel.dar { flex: 0 0 var(--panel-dar); }
 /* Dar kipte yalnız NEFES payı kısılıyor. Yatay taşma nöbetçileri
    (`min-width: 0` · `<select>` tavanı · kelime kırma) `.dar`a DEĞİL,
    `#yanpanel`in kendi kuralına kondu — çünkü ölçüldüğünde kaçak GENİŞ
@@ -280,8 +280,36 @@ body {
    eklendi, muhtemelen o gün) ve Emre'nin 555 px'i "şimdiki genişlik"
    sanıp sanmadığını. Geniş kip bugün 555 → 307 px'e İNİYOR; bu bir
    daraltma kararı değil, beyan edilen genişliğe DÖNÜŞ. */
+/* 🔴 EMRE, 20 Ağustos 2026 — İKİ KADEME DE BÜYÜTÜLDÜ:
+   *"dar çok dar olmuş. Dar gösterim şu anda sistemdeki GENİŞ gösterim kadar
+   olmalı. Geniş gösterim ise şu anda geniş gösterimin 1,5 KATI olmalı."*
+
+     eski dar     clamp(168px, 14.4vw, 228px)     %60
+     eski geniş   clamp(280px, 24vw, 380px)
+     ⇓
+     yeni dar     clamp(280px, 24vw, 380px)       = eski GENİŞ
+     yeni geniş   clamp(420px, 36vw, 570px)       = eski genişin 1,5 KATI
+
+   📌 Üç sayı da 1,5 ile çarpıldı (280→420 · 24→36 · 380→570), yani
+   clamp'in üç ayağı da oranını koruyor: dar kip her ekran boyutunda
+   eski genişin TAM AYNISI, geniş kip her boyutta onun 1,5 katı.
+   ⚠️ `.dar` sınıfının ADI artık yanıltıcı ama DEĞİŞTİRİLMEDİ: `js/app.js`
+   ve `localStorage["panelDar"]` o adı kullanıyor; ad değişirse kullanıcının
+   kayıtlı tercihi sessizce sıfırlanır. Ad kozmetik, tercih gerçek. */
+/* 🔴 GENİŞLİK TEK KAYNAKTAN — değişken, çünkü aynı sayı İKİ YERDE duruyordu
+   ve biri güncellenince öteki bayatladı. `#olay-detay` (satır ~555) yorumunda
+   *"#yanpanel ile aynı"* yazıp AYNI clamp'i ELLE tekrar ediyordu; bugün
+   `#yanpanel` 1,5 katına çıkınca o satır sessizce ayrışacaktı.
+   📌 `CLAUDE.md §11`: "bir bilgi iki yerde duruyorsa, biri güncellenince
+   öteki bayatlar — ve hangisinin okunduğunu ALET söyler, GÖZ değil."
+   Bu vakayı B4 oturumu ölçüp bildirmişti; çare yorumu düzeltmek değil,
+   TEKRARI KALDIRMAK. */
+:root {
+  --panel-genis: clamp(420px, 36vw, 570px);
+  --panel-dar:   clamp(280px, 24vw, 380px);
+}
 #yanpanel {
-  flex: 0 0 clamp(280px, 24vw, 380px);
+  flex: 0 0 var(--panel-genis);
   display: flex;
   flex-direction: column;
   background: var(--panel);
@@ -528,13 +556,22 @@ body {
 #olay-detay {
   position: fixed;
   inset: auto 0 0 auto;                        /* sağ alt */
-  width: clamp(280px, 24vw, 380px);            /* #yanpanel ile aynı */
+  /* #yanpanel ile aynı — ve artık AYNI DEĞİŞKENDEN, elle tekrar YOK.
+     Panel iki kademeli olduğu için bu da iki kademeli olmalı; `#olay-detay`
+     `#yanpanel`in içinde DEĞİL (position:fixed, kardeş bile değil), o yüzden
+     kalıtım işlemiyor ve `:has()` ile ayrı kural gerekiyor (aşağıda). */
+  width: var(--panel-genis);
   max-height: 66vh;
   display: flex;
   align-items: flex-end;
   z-index: 50;
   pointer-events: none;    /* örtü yok; sarmalayıcı haritanın tıklamasını yutmasın */
 }
+/* Panel dar kipteyken detay penceresi de daralsın — yoksa panelden TAŞAR.
+   `:has()` şart: `#olay-detay` `position:fixed` ve `#yanpanel`in içinde
+   değil, o yüzden ne kalıtım ne kardeş seçici işler. Sınıf `#yanpanel`de
+   olduğu için köke çıkıp oradan iniyoruz. */
+html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
 #olay-detay.gizli { display: none; }
 #olay-detay-kutu {
   pointer-events: auto;
