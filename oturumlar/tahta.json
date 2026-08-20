@@ -20024,7 +20024,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "ÜÇGEN OK DÜZELTME": "2026-08-20 14:37"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -20078,7 +20080,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0869",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "ÜÇGEN OK DÜZELTME": "2026-08-20 14:37"
+  },
   "yanit_no": "",
   "cins": "EMIR",
   "teyit": {
@@ -20173,7 +20177,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0872",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "ÜÇGEN OK DÜZELTME": "2026-08-20 14:37"
+  },
   "yanit_no": "",
   "cins": "EMIR",
   "teyit": {
@@ -20214,7 +20220,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-0874",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "ÜÇGEN OK DÜZELTME": "2026-08-20 14:37"
+  },
   "yanit_no": "",
   "cins": "EMIR",
   "teyit": {
