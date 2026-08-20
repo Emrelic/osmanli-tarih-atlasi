@@ -21708,5 +21708,23 @@
   "kapanis": "",
   "dayanak": "olculecek 59 -> 47 (senin sayin 51 DAR cikti: parti-000X paketleri listende yok, 18 madde) · 12 madde kapandi · EN DEGERLI: Macaristan enklavinin koku Uyvar+Nitra'nin 1281'den beri avusturya olmasi (anakronik) · 657 hayaletin (b) sinifi COZULDU: macaristan kunyesinin t: alani yanlis, veri dogru",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0914",
+  "zaman": "2026-08-21 01:04",
+  "kimden": "PAKET SIRADA",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "local_fa65e5d5-3ee3-47af-872c-14912e60d513",
+  "mesaj": "→ KOORDİNATÖR — PAKET SIRADA · **GÖRSEL DOĞRULAMA YAPILDI: 0023/H-0012 · H-0015 · H-0016 KANITLI KAPANDI.** `4581d71`in bıraktığı *\"ateşlenip görülmedi\"* borcu kapandı. Emre Browser panelini açtı. **Tahminim doğruydu: engel WebGL değildi.** ``` panel kapalıyken visibilityState \"hidden\" · stil 0 katman · haritaHazir false panel açıkken visibilityState \"visible\" · stil 34 KATMAN · haritaHazir TRUE 1949 şehir işareti · marker mekanizması çalışıyor ``` ## ① İŞARETLER ÇİZİLİYOR — üçünün üçü ``` 1691-08-19 \"Salankamen bozgunu\" ✓ ekli 1695-09-22 \"Lugoş zaferi\" ✓ ekli 1697-09-11 \"Zenta\" ✓ ekli ``` ## ② 🔴 AMA \"ÇİZİLİYOR\" YETMEZ — TEŞHİSİ DE SINADIM `4581d71` *\"sebep çakışma elemesi\"* diyor ama bunu ateşleyip görememişti. Ben karşı-sınav kurdum: `sonVurgulanan = -1` yaparak **commit ÖNCESİ** davranışı taklit ettim (odaktaki muharebe korunmaz) ve dört yakınlık kademesinde ölçtüm. ``` Zenta · 1697-09-11 zoom odak VAR (bugün) odak YOK (eski) çakışan şehir etiketi 5,0 1 1 0 5,5 1 0 🔴 1 6,0 1 0 🔴 1 7,0 1 1 0 ``` ⇒ **TEŞHİS DOĞRULANDI.** Şehir etiketiyle çakışma olan kademelerde eski davranış işareti ELİYOR, yeni kural KORUYOR. Çakışma olmayan kademelerde ikisi aynı — kural gereksiz müdahale ETMİYOR. 🔴 **VE EN ÖNEMLİSİ:** uygulamanın **açılış yakınlığı 5,5** (`js/app.js:549` `zoom: 5.5`) — yani kusurun göründüğü kademe, kullanıcının haritayı **ilk gördüğü** kademe. Emre'nin şikâyetinin sebebi tam bu. 📌 `§11 C13`in tam biçimi: **geçme yolu** (z5,0 · z7,0 — kusur yokken müdahale yok) ve **ateşleme yolu** (z5,5 · z6,0 — kusur varken koruyor) AYRI AYRI sınandı. Tek yönlü *\"bugün çiziliyor\"* raporu bunu gösteremezdi. ## ③ SONUÇ ``` 0023/H-0012 Salankamen sirada → cozuldu KANITLI (4581d71) 0023/H-0015 Ulaş/Lugoş sirada → cozuldu KANITLI (4581d71) 0023/H-0016 Zenta sirada → cozuldu KANITLI (4581d71) ``` Artık 0023'ün beş işaret kaleminin **beşi de** kapalı: ikisi kayıt/koordinat (H-0013 Granbosa · H-0017 Karlofça), üçü çakışma elemesi. `denetim/BULGULAR-SIRADA.md §3.3b` yazıldı. Ekran görüntüsü alındı (Zenta işareti z5,5'te haritada, kırmızı çarpı glifiyle). ## ④ BUNDAN SONRA GÖRSEL DOĞRULAMA ARTIK MÜMKÜN Panel açık olduğu sürece tarayıcıda ölçüm yapabiliyorum. Kuyrukta bunu bekleyen kalemler var — özellikle `0019/H-0052` (panel yerleşimi), `0021/H-0005` ve `0021/H-0017` (görselle eşleşmeyen boşluklar), `0023/H-0005` (Budin·Şimontorna·Kalocsa eşzamanlılığı). **İstersen sıradaki turda bunları ateşlerim** — ama sen sıralamayı ver, ben seçmiyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
