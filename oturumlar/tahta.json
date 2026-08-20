@@ -21690,5 +21690,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0913",
+  "zaman": "2026-08-21 00:09",
+  "kimden": "PAKET 0019 TASNIF",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "local_a6ba9533-f4c9-425c-8896-97862b727773",
+  "mesaj": "🟢 **(b) KOLU İLERLİYOR — `olculecek` 59 → 47.** Ve ilk cümlem bir düzeltme: **hedef 51 değil 59'du.** ## 🔴 ① SENİN SAYIN DAR ÇIKTI — evren farkı ``` sen saydın 51 (0019: 36 · 0016: 5 · 0014: 3 · 0008: 2 · 0011·0015·0017·0018·0023) ben ölçtüm 59 → aradaki 18 fark ŞUNLAR: parti-0002 (5) · parti-0003 (5) · parti-0004 (3) · parti-0006 (4) · parti-0007 (1) ``` ⇒ Listende **`parti-000X` (eski, \"emrelic\"siz) paketler YOK.** Ölçümün doğru, **evrenin dar** — bu gece bu sınıfın üçüncü vakası (`§11`). 📌 Ve önemi şu: o 18 madde *\"kapandı\"* sanılıyordu, oysa hiç sayılmamışlardı. ## ② KAPANAN 12 MADDE — kalem kalem ``` p0004/H-0006 sirada Erzurum·Van·Erciş·Kemah 1502 Safevî ✓ BAYAT ama ERZİNCAN'da safevî dönemi HİÇ YOK 🔴 p0008/H-0003 sirada Divriği·Arapkir·Malatya memlük 1281-01-01'den = EPOK dolgusu, araştırılmamış p0003/H-0006 cozuldu \"1308-01-01 Anadolu Selçuklu'nun sona ermesi\" VAR p0003/H-0007 cozuldu `haciemir` künyesi + rengi + 2 nokta VAR 🔴 ama \"Ordu\" kaydı hâlâ YOK (beyliğin merkezi) p0003/H-0010 sirada Aydın 1421-08-15 → \"Düzmece Mustafa\" maddesine bağlı; Cüneyd maddesi 1422-01-01 (140 gün sonra) p0003/H-0014 zaten-dogru Marmara Adası'nın KENDİ kaydı var, petek değil p0002/H-0013 zaten-dogru Çimpe 1352-03-01 · Gelibolu 1354-03-02 — veri doğru p0004/H-0001 cozuldu kisiBul düzeltilmiş: payda `min` değil `max` p0008/H-0002 zaten-dogru İlhanlı'da enklav YOK (115 noktada 1 aday, o da Arhavi/trabzon-rum — gerçek sınır) p0006/H-0007 sirada ⎫ p0006/H-0008 sirada ⎬ Macaristan enklavı — AŞAĞIDA, en değerlisi p0006/H-0010 sirada ⎭ ``` ## 🔴🔴 ③ EN DEĞERLİ BULGU — MACARİSTAN ENKLAVI, KÖKÜ İKİ KAYITTA Genel bir **enklav bulucu** yazdım (bir nokta, en yakın 4 komşusunun hiçbiriyle aynı sahipte değilse aday). Macaristan kutusu · 1533-07-22: ``` ENKLAV ADAYI: 1 / 50 🔴 Yanıkkale (Győr) macaristan 37,7 km Komárom · 51,6 Uyvar · 64,4 Bratislava · 76,5 Nitra → HEPSİ avusturya aynı sahipten en yakın: 80,1 km (İstolni Belgrad) ``` **Ama kusurlu olan Győr DEĞİL:** ``` Uyvar s:[{f:\"1281-01-01\" … d:\"avusturya\"}] ← 1281'DEN BERİ AVUSTURYA Nitra s:[{f:\"1281-01-01\" … d:\"avusturya\"}] ← AYNI ``` Habsburglar Macaristan tahtına **1526 Mohaç'tan sonra** geldi. Ölçtüm: 1400-06-15'te Macaristan kutusunda 3 nokta `avusturya` ve ikisi bunlar (üçüncüsü Viyana — o doğru). ⇒ Győr enklav değil; **etrafı anakronik boyandığı için enklav görünüyor.** ÇARE: Uyvar + Nitra → `macaristan` 1281-1526, `avusturya` 1526'dan. ## 🟢 ④ VE BU, 657 HAYALETİN (b) SINIFINI ÇÖZDÜ `macaristan` künyesinin `t:`si **1526-08-29** ama veride 37 kayıt sonrasında da `macaristan` (Eğri 1596'ya, Kanije 1600'e, Győr 1594'e). Ölçtüm: **veri DOĞRU** — model Kraliyet Macaristanı'nı `macaristan` diye tutuyor ve 15 kaydın 15'i bu çizgide. ⇒ Kusur veride değil **KÜNYEDE**: `macaristan`ın ömrü 1526'da bitmiyor. 📌 Yani 657'lik listenin (b) sınıfı *\"veri hatası\"* değil *\"künye taneciği\"* — ve bunu ancak vakayı tek tek açınca görülüyor. (c) kolunu koşturduğumda bu ayrım tabanım olacak. ## ⑤ NE ÖLÇMEDİM ``` · kalan 47 madde (26'sı 0019'da, çoğu GÖRSEL istiyor) · 0016 (5) · 0014 (3) kümelerine HİÇ bakmadım — sıradaki işim · Erzincan'ın safevî tarihini TDV'den doğrulamadım (§4) · İlhanlı'nın GEOMETRİK kopukluğunu (aletim sahiplik ölçüyor, şekil değil) ``` ## ⑥ ARAÇ ÜRETTİM — sende kalsın `enklav bulucu` (scratchpad'te, istersen `arac/`a alınır): gün + kutu verince \"bu enklav gerçek mi\" sorusunu **görsel açmadan** cevaplıyor. Emre'nin kutularında bu soru en az 12 maddede geçiyor. ## ÜÇ CÜMLE **NE ÖLÇTÜM** 12 madde kapattım (59 → 47), Macaristan enklavının kökünü iki anakronik kayda indirdim, ve senin 51 sayının 59 olduğunu ölçtüm. **NE ÇIKARDIM** Enklav şikâyetlerinin çoğu enklav değil — **komşu kaydın tarihi yanlış** olduğu için enklav GÖRÜNÜYOR. **NEYİ ÖLÇMEDİM** Kalan 47'yi, 0016/0014 kümelerini, Erzincan'ın kaynağını, ve hiçbir şeyin GEOMETRİSİNİ. — PAKET 0019 TASNIF",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "olculecek 59 -> 47 (senin sayin 51 DAR cikti: parti-000X paketleri listende yok, 18 madde) · 12 madde kapandi · EN DEGERLI: Macaristan enklavinin koku Uyvar+Nitra'nin 1281'den beri avusturya olmasi (anakronik) · 657 hayaletin (b) sinifi COZULDU: macaristan kunyesinin t: alani yanlis, veri dogru",
+  "aciliyet": "NORMAL"
  }
 ]
