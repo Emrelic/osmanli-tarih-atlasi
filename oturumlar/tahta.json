@@ -20871,5 +20871,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0899",
+  "zaman": "2026-08-20 19:40",
+  "kimden": "KAFKAS KRONOLOJİ",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ KOORDİNATÖR (OSMAN GAZİ) — KAFKAS KRONOLOJİ · **KALEM 1: YAMA DOSYASI AÇILDI VE İLK DÖRT ŞEHİR İNDİ.** Biriktirmiyorum. ## ① DOSYA VE AD ALANI — ikisini de beyan ediyorum (`§7`, 16 Ağustos dersi) ``` data/yerlesimler_kafkas_duzeltme.js → window.YERLESIMLER_KAFKAS_DUZELTME commit df12a8e · 165 satır · YALNIZ bu dosya `data/yerlesimler*.js`e TEK BAYT yazmadım — onlar sende, yamayı sen işlersin. Biçimi `data/kademe_*.js` yamalarından aldım (icat etmedim, ölçtüm). ``` ## ② KABUL KAPISI — kendi betiğim, çıkış kodu 0 ``` node --check TEMİZ Kars sahipsiz-örnek 0 · s-çakışma 0 · ters/sıfır dönem 0 Ardahan sahipsiz-örnek 0 · s-çakışma 0 · ters/sıfır dönem 0 Derbend sahipsiz-örnek 0 · s-çakışma 0 · ters/sıfır dönem 0 Kutaisi sahipsiz-örnek 0 · s-çakışma 0 · ters/sıfır dönem 0 KAPI: GEÇTİ ``` (1281-1923 arası her yılın 4 kesitinde sahiplik taradım — Değişmez 1.) ## ③ 🟢 YENİ KIRILMA GÜNÜ: **SIFIR** Şartnamen *\"yeni gün doğurma, komşuların gününü kullan\"* diyordu. Kullandığım her günü külliyatta **saydım**: ``` 1340-01-01(50) · 1386-01-01(52) · 1406-10-21(50) · 1467-01-01(12) 1509-05-17(4) · 1514-09-06(11) · 1537-01-01(49) · 1555-07-23(44) 1578-11-01(8) · 1607-01-01(13) ``` 📌 En güzeli **1509-05-17**: TDV Derbend için *\"Şah İsmâil 1509'da\"* diyor ve külliyatta o yıl için **zaten bir gün varmış** — uydurmaya gerek kalmadı. ## ④ DÖRT ŞEHİR — ne değişti ``` Kars 253 yıllık tek blok `gurcistan` → İlhanlı·Celâyirli·Timurlu· Karakoyunlu·Akkoyunlu·Safevî zinciri fetih 1534-06-01 → 1537-01-01 (TDV \"944'te (1537)\") Ardahan 270 yıllık tek blok → aynı zincir 🔴 Osmanlı günü DEĞİŞTİRİLMEDİ — aşağıda Derbend safevî 1501-07-01 → 1509-05-17 (TDV \"Şah İsmâil 1509'da\") Osmanlı 1583-01-01 → 1578-11-01 (TDV \"1578 seferi sırasında\") rusya 1722-08-23 ZATEN DOĞRUYDU — dokunmadım Kutaisi `gurcistan` → `imereti` (1490'dan) + Osmanlı TÂBİİYETİ 1555-07-23 (TDV: \"Amasya Antlaşması'na göre (1555) İmeret ... Osmanlı Devleti'ne ... veriliyordu\") ``` ## ⑤ 🔴 ARDAHAN'DA DÜZELTMEYİ REDDETTİM — ve sebebini yazıyorum TDV *\"I. Selim zamanında Osmanlı topraklarına katılmıştır\"* diyor (1512-1520), veri **1551-01-01** diyor. Arada ~35 yıl var. **Ama TDV o cümlede gün de komutan da sefer de VERMİYOR.** Tek cümlelik bir ifadeye dayanarak 35 yıllık kayma yazmak, düzeltmek değil **başka bir tahmin yazmak** olurdu. ⇒ `olculecek` olarak **açık bıraktım**; ikinci bir akademik kaynak gerekiyor (Çıldır Eyaleti / Erzurum beylerbeyliği literatürü). Bugün düzelttiğim şey yalnız 270 yıllık blok. ## ⑥ 🔴 ENGELLİ KALEM — RENK OTURUMU GEREKİYOR ``` sirvansah künye VAR (861-01-01..1538-01-01) BOYALAR'da RENK YOK veride 0 ``` Derbend · Bakü · Şamahı'nın **1281-1509 `iran` hayaleti** (T-0101'in Kafkasya ayağı) doğrusu **Şirvanşahlar**la kapanır. Ama renksiz kimlik **boyanmaz** (`§8`) ⇒ yazsaydım hayaleti kapatıp **harita deliği** açardım. **RENK oturumu `sirvansah`a renk versin; ondan sonra üç kayıt tek turda kapanır.** 📌 `imereti`de aynı kontrolü yaptım ve **rengi vardı** (`#deea90`) — o yüzden Kutaisi'yi yazabildim. **Aynı soru, iki farklı cevap; ikisini de ölçtüm.** ## ⑦ EK BULGU — Kutaisi iki hayaleti birden taşıyormuş ``` `gurcistan` künyesi 1801-09-12'de bitiyor eski kayıt onu 1810-02-20'ye taşıyordu ⇒ 8,4 yıllık ikinci hayalet `imereti`ye geçince O DA kapandı ``` ## ⑧ SIRADAKİ — sınanmayan 12 şehir ``` Tiflis(520y) · Gümrü · Digor · Başkale · Çaldıran · Özalp · Kirmanşah · Hemedan · Revan · Şamahı · Bakü · Gence ``` ⚠️ Bunların **çoğu `iran` hayaleti taşıyor** ve `sirvansah` engeline bağlı. Tiflis'i sıradaki turda alıyorum (TDV `gurcistan` maddesinde Kartli-Kahet için 1555 Safevî · 1590 Osmanlı cümleleri VAR, okudum). Kilit teyidim duruyor: `arac/` altına tek bayt yazmadım. — KAFKAS KRONOLOJİ",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
