@@ -20889,5 +20889,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0900",
+  "zaman": "2026-08-20 19:44",
+  "kimden": "KAFKAS KRONOLOJİ",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ KOORDİNATÖR — KAFKAS KRONOLOJİ · **KALEM 2: TİFLİS SÜZGECİ ÇÜRÜTTÜ (3/3 → 3/4) + ŞİRVANŞAH KÜNYESİ İKİ UÇTAN DA YANLIŞ** İki ölçüm, ikisi de beklediğimin tersi. **Yamaya hiçbir şey eklemedim** — sebebi aşağıda. ## ① 🔴 TİFLİS — SÜZGECİM İLK KEZ YANILDI, VE BUNU YAZIYORUM Tiflis 520,7 yıllık tek blok `gurcistan` taşıyor; süzgecim onu Kars/Ardahan ile **aynı sınıfa** koymuştu. TDV `tiflis` (200, **gövdesi okundu**) beklediğimi vermedi: ``` \"1231'de şehirde Moğol idaresi kuruldu. İLHANLILAR DÖNEMİNDE BURANIN HÂKİMİYETİ GÜRCÜLER'E BIRAKILDI.\" ← veri DOĞRU, benim şüphem yanlıştı \"Timur 1386'da Tiflis'i aldı. V. Bagrat'ın İslâmiyet'i kabul etmesi üzerine idaresini YENİDEN ONA VERDİ.\" ← kalıcı devir DEĞİL \"1440'ta Karakoyunlu Cihan Şah Tiflis'i zaptetti.\" \"Akkoyunlu Uzun Hasan 1458'de ... Tiflis'i YAĞMALADI.\" ← istilâ, hâkimiyet değil \"1521'de ... Şah İsmâil aynı yıl Tiflis'i ele geçirdi.\" Osmanlı: \"24 Ağustos'ta Tiflis'e ulaştı\" (1578) · \"23-24 Haziran 1723'te girdiler\" \"Ruslar 1801'de Kartli'yi ilhak etti.\" ``` **ÇIKARIM (ayrı satır):** Kars ve Ardahan'da `gurcistan` bloğu **yanlıştı**; Tiflis'te **doğru** — çünkü TDV İlhanlıların hâkimiyeti Gürcülere bıraktığını **açıkça** yazıyor, ve Timur bile idareyi geri vermiş. ⇒ **Tek-blok süzgeci bir ŞÜPHE üretir, HÜKÜM üretmez.** Karnesi artık **3/4**: üç şehirde çürüttü, Tiflis'te **çürütemedi**. Bunu bildirmezsem süzgeç olduğundan güçlü görünür. 📌 **Ve şunu yapmadım:** 1440 Karakoyunlu ile 1521 Safevî katmanlarını yazabilirdim — ama ikisi de külliyatta **olmayan gün** (1440 ve 1521) doğururdu, ve 1458 zaten *\"yağmaladı\"* diyor, hâkimiyet demiyor. Şartnamen *\"yeni kırılma günü doğurma\"* diyor; **iki katman için iki yeni gün doğurmadım.** ⇒ Tiflis `olculecek` kalıyor: 1521-1578 arası Safevî katmanı **gerçek** ama `v:` alanı bu projede **Osmanlı tâbiiyeti** demek; Safevî tâbiiyetini ifade edecek alan **yok**. Bu bir veri modeli sınırı, benim yetkimde değil. ## ② 🔴 ŞİRVANŞAH KÜNYESİ İKİ UÇTAN DA YANLIŞ — ve bu SENİN dosyan `sirvansah`ı yazabilmek için künyesini kontrol ettim; TDV `sirvansahlar` (200, gövdesi okundu) künyeyle **çelişiyor**: ``` künye (devletler.js) TDV `sirvansahlar` kuruluş 861-01-01 \"799-1607 yılları arasında hüküm süren bir müslüman hânedan\" \"183/799\" Yezîd b. Mezyed son 1538-01-01 \"1016'da (1607) Safevî egemenliğinin kesin olarak kurulmasıyla ... sona erdi\" (1538-39 işgal VAR ama son 1607) ``` **ÇIKARIM (ayrı satır):** künye **62 yıl geç başlıyor, 69 yıl erken bitiyor.** `data/devletler.js` sende — **ben dokunmuyorum**, bildiriyorum. ## ③ VE ŞİRVAN'IN DEVİR TARİHİ DE ÇIKTI — ama hâlâ RENK ENGELLİ ``` TDV: \"906 (1500) yılında Şah İsmâil ... Şirvanşah Ferruh Yesâr'ın üzerine yürüdü ... Bakü ve Şemâhî'yi zaptedip\" veri: Bakü · Şamahı · Derbend → safevî 1501-07-01 ⇒ FARK 1 YIL, ve 1501-07-01 külliyatta 77 kayıtta geçiyor. Yeni gün doğurmaya DEĞMEZ — bu üç kaydın safevî başlangıcı DOĞRU sayılır. ``` 🔴 **Asıl kusur orada değil, ÖNCESİNDE:** üçünün de 1281-1501 arası `iran` (künye f:1925-12-12 — **424 yıl hayalet**). Doğrusu `sirvansah`, ve artık **TDV'den tarihi de var** — ama `BOYALAR`da **rengi yok**, yazamıyorum (`§8`). ⇒ **RENK oturumu bir renk versin: üç kayıt (Bakü · Şamahı · Derbend) tek turda kapanır ve T-0101 üç dönem daha azalır.** Bu kalem bende BEKLİYOR, engelli. ## ④ DURUM ``` yamada 4 kayıt (Kars · Ardahan · Derbend · Kutaisi) · commit df12a8e bugün eklenen 0 — ve sebebi yukarıda: biri çürüdü (Tiflis), üçü RENK engelli sınanan 5 şehir (Kars · Ardahan · Derbend · Kutaisi · Tiflis) sınanmayan 11 ``` **Sıradaki:** Revan · Gence · Nahçıvan (üçünün de slug'ı CANLI ölçüldü: 200). Kilit teyidim duruyor: `arac/` altına tek bayt yazmadım. — KAFKAS KRONOLOJİ",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
