@@ -412,4 +412,92 @@ window.YERLESIMLER_KAFKAS_DUZELTME = [
       +"daha yakın; karakoyunlu bitişini yine de Kars'ın günüyle yazdım çünkü Osmanlı dönemi "
       +"Kars ile aynı (1534-01-01..1878-03-03), yani idarî olarak o hatta bağlı. Bu bir TERCİH."},
 
+// ═════════════════════════════════════════════════════════════════════
+// 14-18 · VAN HATTI — AKKOYUNLU 59 YIL ERKEN BAŞLIYOR
+//
+// Beş kayıt `akkoyunlu 1281-01-01`den başlıyor; künye f:1340-01-01.
+// ⇒ devlet DOĞMADAN 59 yıl önce boyanıyor. (Bitişleri 1514-09-06,
+//   künye 1514-01-01 ⇒ 8 ay, tolerans içinde — o taraf SORUN DEĞİL.)
+//
+// 🟢 ÇARE KOMŞUNUN KENDİSİNDE HAZIR: Van (40-90 km) zaten doğru zinciri
+//   taşıyor — ilhanli 1281..1351-01-01 · karakoyunlu 1351-01-01..1467-01-01 ·
+//   akkoyunlu 1467-01-01.. — ve Van bu beşinin idarî merkezi (`m:"Van"`).
+//   Yeni gün YOK: 1351-01-01 ve 1467-01-01 külliyatta zaten var.
+//
+// 1514-09-06'dan SONRAKİ hiçbir şeye dokunulmadı.
+// ═════════════════════════════════════════════════════════════════════
+
+{ad:"Başkale",
+ s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},
+    {f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},
+    {f:"1467-01-01",t:"1514-09-06",d:"akkoyunlu"},
+    {f:"1514-09-06",t:"1639-05-17",d:"safevi"}],
+ d:[{f:"1639-05-17",t:"1923-10-29"}], v:[],
+ kaynak:"bulunamadı — zincir komşu ve idarî merkez Van'dan (60 km, kaydın kendi m: alanı Van); "
+       +"akkoyunlu künyesi f:1340-01-01 data/devletler.js:477'den ÖLÇÜLDÜ",
+ neden:"akkoyunlu 1281-01-01'den başlıyordu, künye 1340-01-01'de kuruluyor ⇒ 59 YIL ERKEN. "
+      +"1281-1467 arası Van'ın zinciriyle dolduruldu. 1514-09-06 ve sonrası DEĞİŞMEDİ. "
+      +"073df09'un iran→safevi düzeltmesine DOKUNULMADI."},
+
+{ad:"Çaldıran",
+ s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},
+    {f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},
+    {f:"1467-01-01",t:"1514-09-06",d:"akkoyunlu"},
+    {f:"1514-09-06",t:"1639-05-17",d:"safevi"}],
+ d:[{f:"1639-05-17",t:"1923-10-29"}], v:[],
+ kaynak:"bulunamadı — Başkale ile aynı gerekçe (Van hattı)",
+ neden:"akkoyunlu 59 yıl erken başlıyordu."},
+
+{ad:"Özalp (Saray)",
+ s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},
+    {f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},
+    {f:"1467-01-01",t:"1514-09-06",d:"akkoyunlu"},
+    {f:"1514-09-06",t:"1639-05-17",d:"safevi"}],
+ d:[{f:"1639-05-17",t:"1923-10-29"}], v:[],
+ kaynak:"bulunamadı — Başkale ile aynı gerekçe (Van hattı)",
+ neden:"akkoyunlu 59 yıl erken başlıyordu."},
+
+{ad:"Yüksekova (Gever)",
+ s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},
+    {f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},
+    {f:"1467-01-01",t:"1514-09-06",d:"akkoyunlu"},
+    {f:"1514-09-06",t:"1639-05-17",d:"safevi"}],
+ d:[{f:"1639-05-17",t:"1923-10-29"}], v:[],
+ kaynak:"bulunamadı — Başkale ile aynı gerekçe (Van hattı)",
+ neden:"akkoyunlu 59 yıl erken başlıyordu."},
+
+{ad:"Doğubayazıt",
+ s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},
+    {f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},
+    {f:"1467-01-01",t:"1514-09-06",d:"akkoyunlu"},
+    {f:"1514-09-06",t:"1639-05-17",d:"safevi"}],
+ d:[{f:"1639-05-17",t:"1923-10-29"}], v:[],
+ kaynak:"bulunamadı — Başkale ile aynı gerekçe; Doğubayazıt Van'a 90 km",
+ neden:"akkoyunlu 59 yıl erken başlıyordu."},
+
+// ─────────────────────────────────────────────────────────────────────
+// 19 · KASR-I ŞÎRÎN — `iran` hayaletinin bu listedeki son parçası
+// ─────────────────────────────────────────────────────────────────────
+{ad:"Kasr-ı Şîrîn",
+ s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},
+    {f:"1340-01-01",t:"1387-11-01",d:"celayirli"},
+    {f:"1387-11-01",t:"1452-01-01",d:"timurlu"},
+    {f:"1452-01-01",t:"1469-01-01",d:"karakoyunlu"},
+    {f:"1469-01-01",t:"1503-01-01",d:"akkoyunlu"},
+    {f:"1503-01-01",t:"1736-03-08",d:"safevi"},
+    {f:"1736-03-08",t:"1747-06-20",d:"afsar"},
+    {f:"1747-06-20",t:"1796-01-01",d:"zend"},
+    {f:"1796-01-01",t:"1923-10-29",d:"kacar"}],
+ d:[{f:"1723-10-01",t:"1730-08-12"}], v:[],
+ kaynak:"hemedan",
+ neden:"ESKİ: ilhanli 1281..1335-12-01, sonra iran 1335-12-01..1387-11-01 (51,9 yıl hayalet). "
+      +"Kalan zincir (timurlu/karakoyunlu/akkoyunlu/safevi) ZATEN DOĞRUYDU, dokunulmadı — "
+      +"yalnız iran parçası açıldı. "
+      +"TDV hemedan (150 km, aynı Cibâl-Kürdistan hattı) sırayı veriyor: \"İlhanlılar'dan sonra "
+      +"CELÂYİRLİLER ve Timurlular'ın eline geçti\". ⇒ iran yerine celayirli. "
+      +"⚠️ ilhanli bitişi 1335-12-01'den 1340-01-01'e çekildi: celayirli künyesi f:1340-01-01 ve "
+      +"1335-12-01'den başlatılsaydı 4 yıllık YENİ bir hayalet doğardı. 1340-01-01 külliyatta "
+      +"50 kayıtta geçer; 1335-12-01 kırılması KALKIYOR — kırılma EKLEMEK değil AZALTMAK "
+      +"Değişmez 2 açısından güvenli."},
+
 ];
