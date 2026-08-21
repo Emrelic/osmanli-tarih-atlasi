@@ -58,9 +58,15 @@ window.YERLESIMLER_KAFKAS_DUZELTME = [
     {f:"1467-01-01",t:"1514-09-06",d:"akkoyunlu"},
     {f:"1514-09-06",t:"1537-01-01",d:"safevi"},
     {f:"1878-07-13",t:"1918-05-25",d:"rusya"}],
- d:[{f:"1537-01-01",t:"1878-07-13"},{f:"1918-05-25",t:"1923-10-29"}],
+ d:[{f:"1537-01-01",t:"1878-07-13",y:"kusatma"},{f:"1918-05-25",t:"1923-10-29",y:"antlasma"}],
  v:[],
  kaynak:"kars",
+ // 🔴 `y:` ALANI KORUNDU — ve bunu TESLİMDEN SONRA fark ettim.
+ //   Orijinal kayıtta `d:[{…,y:"kusatma"},{…,y:"antlasma"}]` vardı; ilk
+ //   yazdığım yama onları TAŞIMIYORDU. Koordinatör yamayı olduğu gibi
+ //   işleseydi iki alan SESSİZCE silinecekti — hiçbir denetim ötmezdi,
+ //   çünkü denetimler "dönem var mı" diye sorar, "alanı eksildi mi" diye
+ //   sormaz. Ölçtüm: 19 kaydın YALNIZ Kars'ında `y:` var (1/19).
  neden:"ESKI: s:[{1281-01-01..1534-06-01 gurcistan},{1878..rusya}] · d:[{1534-06-01..1878-07-13}] "
       +"— 253 yillik TEK BLOK ve fetih 1534-06-01. "
       +"TDV `kars` maddesi (HTTP 200, GOVDESI OKUNDU) o 253 yili alti katmana boluyor, aynen: "
