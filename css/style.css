@@ -765,8 +765,15 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
 
 /* ---------- Şehir işaretleri ---------- */
 .sehir { display: flex; align-items: center; gap: 4px; pointer-events: none; }
+/* 🔴 21 Ağustos — Emre: "devlet noktaları daha küçük çemberler ile
+   işaretlensin." Ölçülmüş gerekçe: `.bosluk-halka` (devletsiz yerleşim
+   glifi, aşağıda) 13 px — devlete BAĞLI olmayan bir noktanın, devlete
+   bağlı olağan bir noktadan (eski 7 px) DAHA BÜYÜK çizilmesi ters bir
+   hiyerarşiydi. Bütün kademeler ~%28 küçültüldü (7→5 · 9→7 · 12→9 ·
+   cok-uzak 6→4), ORANLAR (d1<d2<d3) ve `asgari` 4 px'in ALTINDA kalmama
+   kısıtı KORUNDU. */
 .sehir .s-nokta {
-  width: 7px; height: 7px;
+  width: 5px; height: 5px;
   border-radius: 50%;
   background: #2b1006;
   border: 1.5px solid #f7f1e3;
@@ -856,14 +863,14 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
 #harita.cok-uzak .sehir .s-ad  { font-size: 9.5px; letter-spacing: -0.2px; }
 #harita.cok-uzak .sehir.d3 .s-ad { font-size: 10.5px; }
 /* Çok uzakta nokta da küçülsün — 900 nokta ekranı kirletmesin. */
-#harita.cok-uzak .sehir .s-nokta { width: 6px; height: 6px; }
+#harita.cok-uzak .sehir .s-nokta { width: 4px; height: 4px; }
 /* Ediniliş simgesi (⚔ ♜ 📜 🤝 🏰) uzakta okunmuyor, yalnız kalabalık yapıyor. */
 #harita.cok-uzak .sehir .s-yontem { display: none; }
 /* Bölge seçici stili artık üst barda tanımlı (p2/H-0010) — bkz. dosya başı. */
-.sehir.d2 .s-nokta { width: 9px; height: 9px; }
+.sehir.d2 .s-nokta { width: 7px; height: 7px; }
 .sehir.d2 .s-ad { font-size: 12px; font-weight: bold; }
 .sehir.d3 .s-nokta {
-  width: 12px; height: 12px;
+  width: 9px; height: 9px;
   background: var(--osmanli-kirmizi);
   border-color: #ffd700;
 }
@@ -1340,17 +1347,38 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
   display: flex; align-items: center; justify-content: center; z-index: 60;
 }
 #ayarlar-pencere.gizli { display: none; }
+/* 🔴 21 Ağustos — Emre: "ayarlar penceresi DİKEY OLARAK SIĞMIYOR." Desen
+   `#ekokuma-kutu`den (satır ~1372) BİREBİR alındı: dış kutu `max-height` +
+   `flex-direction:column`, başlık/kapat SABİT kalır, yalnız `#ayarlar-govde`
+   kayar. Aynı deseni ikinci kez yazmak yerine kopyalamak bilinçli — iki ayrı
+   modalın AYNI davranması gerekiyordu ve zaten kanıtlanmış bir çözümdü. */
 #ayarlar-kutu {
   background: var(--panel); border: 2px solid var(--altin); border-radius: 10px;
-  width: min(420px, 92vw);
+  width: min(420px, 92vw); max-height: 80vh;
+  display: flex; flex-direction: column;
   padding: 16px 20px; position: relative;
   box-shadow: 0 8px 30px rgba(0,0,0,0.5);
 }
-#ayarlar-kutu h3 { margin-bottom: 12px; }
+#ayarlar-kutu h3 { margin-bottom: 12px; flex: 0 0 auto; }
+#ayarlar-govde { overflow-y: auto; min-height: 0; padding-right: 4px; }
 #ayarlar-kapat {
   position: absolute; top: 8px; right: 10px; border: none; background: none;
   font-size: 18px; cursor: pointer; color: #6b5a33;
 }
+/* `<details>` grupları — Emre'nin kendi ①②③④ tarifi doğal gruplamaydı. */
+.ayar-grup {
+  border: 1px solid #d8c9a3; border-radius: 6px;
+  margin-bottom: 10px; padding: 8px 10px;
+}
+.ayar-grup > summary {
+  cursor: pointer; font-size: 13px; font-weight: bold; color: #5c1020;
+  list-style: none;                       /* ok işareti kendimiz çiziyoruz */
+}
+.ayar-grup > summary::-webkit-details-marker { display: none; }
+.ayar-grup > summary::before { content: "▸ "; }
+.ayar-grup[open] > summary::before { content: "▾ "; }
+.ayar-grup[open] > summary { margin-bottom: 8px; }
+.ayar-grup .ayar-satir:last-child { margin-bottom: 2px; }
 .ayar-satir { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 12px; }
 .ayar-satir label { flex: 1 1 100%; font-size: 12.5px; }
 .ayar-ipucu { font-size: 11px; color: #8a6d2f; font-weight: normal; }
@@ -1362,7 +1390,8 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
 .ayar-satir-anahtar { justify-content: space-between; flex-wrap: nowrap; }
 .ayar-satir-anahtar label { flex: 1 1 auto; }
 .ayar-satir-anahtar input[type="checkbox"] { flex: 0 0 auto; }
-.ayar-altbaslik { margin: 4px 0 10px; padding-top: 10px; border-top: 1px solid #d8c9a3; font-size: 13px; }
+/* `.ayar-altbaslik` (21 Ağustos öncesi h3 alt-başlığı) KALDIRILDI — yerini
+   `.ayar-grup > summary` aldı, artık HTML'de kullanılmıyordu. */
 
 #ekokuma-pencere {
   position: fixed; inset: 0; background: rgba(0,0,0,0.55);
@@ -1683,17 +1712,34 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
   animation: odakParla 0.55s ease-in-out 2;
 }
 
+/* 🔴 21 Ağustos — Emre: "devletsiz şehirlerin isimlerini de … yazalım."
+   `.bosluk-kutu`, `.sehir`in flex desenini BİREBİR izliyor (nokta solda,
+   ad sağında) — haritadaki her yerleşim etiketi tek bir görsel dilde
+   okunsun diye. Tıklama artık KUTUDA (`pointer-events:auto` burada),
+   halka yalnız görsel. */
+.bosluk-kutu { display: flex; align-items: center; gap: 4px; cursor: pointer; pointer-events: auto; }
 .bosluk-halka {
   width: 13px;
   height: 13px;
   border-radius: 50%;
-  cursor: pointer;
-  pointer-events: auto;
+  flex: 0 0 auto;
   background: transparent;
   border: 2px solid rgba(74, 59, 30, 0.78);
   box-shadow: 0 0 0 1.5px rgba(247, 241, 227, 0.6);
 }
-.bosluk-halka:hover { border-color: var(--altin); }
+.bosluk-kutu:hover .bosluk-halka { border-color: var(--altin); }
+/* `.sehir .s-ad` ile AYNI punto/gölge — tek fark italik: "hakkı saklı",
+   sahiplenilmiş bir devlet şehri DEĞİL, o farkı ada da taşıt. */
+.bosluk-ad {
+  font-size: 11px;
+  font-style: italic;
+  color: #3a2a12;
+  text-shadow: 0 0 3px #f7f1e3, 0 0 3px #f7f1e3, 0 0 3px #f7f1e3;
+  white-space: nowrap;
+}
+/* Çok uzakta 92 kayıt kalabalık yapmasın — `.sehir` ile aynı eşik. */
+#harita.cok-uzak .bosluk-ad { display: none; }
+#harita.cok-uzak .bosluk-halka { width: 9px; height: 9px; }
 
 .bosluk-soru {
   width: 18px;

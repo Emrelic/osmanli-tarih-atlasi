@@ -267,11 +267,21 @@
 </footer>
 
 <!-- ARAYUZ-4-SARTNAME.md ② — üç ayar (irtifa/yakınlık/hız) burada, kip ve
-     onay kutusu kronoloji başlığında (Emre'nin isteği, ikisi ayrı yerde). -->
+     onay kutusu kronoloji başlığında (Emre'nin isteği, ikisi ayrı yerde).
+     🔴 21 Ağustos — Emre: "o ayarlar penceresi DİKEY OLARAK SIĞMIYOR ekrana."
+     Çare İKİ PARÇA — `#ekokuma-kutu`nun ZATEN kurulu deseniyle AYNI (§ aşağı):
+     ① `#ayarlar-kutu` başlık+kapat SABİT kalır, `#ayarlar-govde` KAYAN bir
+     kap olur (`max-height:80vh` içinde `overflow-y:auto`) — ölçüldü: 10
+     sürgü + 2 liste + 1 kutu tek sütunda ~900 px tutuyordu. ② Emre'nin
+     kendi ①②③④ numaralaması ZATEN doğal bir gruplama taşıyordu — dört
+     `<details>` grubuna bölündü (native, JS gerektirmez), ilk ikisi AÇIK
+     başlıyor (en sık dokunulanlar), ③④ KAPALI (ayrıntı) — kapalı olmak
+     veriyi SİLMİYOR, yalnız katlıyor. -->
 <div id="ayarlar-pencere" class="gizli">
   <div id="ayarlar-kutu">
     <button id="ayarlar-kapat" title="Kapat">✕</button>
     <h3>⚙ Ayarlar</h3>
+    <div id="ayarlar-govde">
     <!-- DUYGU-VE-SEKME-SARTNAME.md §A② — bu katman TDV'ye BASMAZ, yorumdur.
          Ayardan açılır/kapanır (pazarlık dışı kural); varsayılan AÇIK çünkü
          kapalıyken kimse varlığını bilmez (şartnamenin kendi önerisi). -->
@@ -279,120 +289,138 @@
       <label for="duygu-ac">😊 Duygu emojileri <span class="ayar-ipucu">(okuyanın tepkisi — kaynağın hükmü değil, TDV'ye basmaz)</span></label>
       <input type="checkbox" id="duygu-ac" checked>
     </div>
-    <!-- 🔴 ODAKLAMA MOTORU — Emre'nin 20 Ağustos tarifi. Dört ayar, dördü de
-         İNSAN BİRİMİNDE. Eskisi MapLibre'nin soyut sayılarını (curve 1.42 ·
-         speed 1.2 · zoom 5.5) doğrudan gösteriyordu; Emre `p0019/H-0059`da
-         *"uçuş ayarları hiç etki etmiyor görünüyor"* dedi ve ÖLÇÜLDÜ:
-         ayarlar UYGULANIYORDU, ama etkileri OKUNAMIYORDU. Kusur mekanizmada
-         değil BİRİMDEYDİ. -->
-    <h3 class="ayar-altbaslik">🛩 Odaklanma</h3>
-    <!-- ① Emre: "ekranda sağ kenardan sol kenara kaç kilometrelik alan
-         sığsın, bu sorunun cevabını veren bir ayar olsun."
-         🔴 Enlem düzeltmesi ŞART ve kodda var: Mercator'da aynı zoom
-         Ekvator'da 2 kat geniş görünür. Ölçüldü — 1500 km ayarı 41°K'de
-         zoom 6,01 · 15°K'de 6,37 · 50°K'de 5,78 veriyor. Düzeltme olmasa
-         ayar KULLANICIYA YALAN SÖYLERDİ. -->
-    <div class="ayar-satir">
-      <label for="ayar-genislik-km">Görüş genişliği <span class="ayar-ipucu">(ekranda sağdan sola kaç km — orta enlemde)</span></label>
-      <input type="range" id="ayar-genislik-km" min="100" max="8000" step="50" value="1500">
-      <span id="ayar-genislik-km-deger" class="ayar-deger"></span>
+    <!-- 🔴 ODAKLAMA MOTORU — Emre'nin 20 Ağustos tarifi, İNSAN BİRİMİNDE.
+         Eskisi MapLibre'nin soyut sayılarını (curve 1.42 · speed 1.2 ·
+         zoom 5.5) doğrudan gösteriyordu; Emre `p0019/H-0059`da *"uçuş
+         ayarları hiç etki etmiyor görünüyor"* dedi ve ÖLÇÜLDÜ: ayarlar
+         UYGULANIYORDU, etkileri OKUNAMIYORDU. Kusur mekanizmada değil
+         BİRİMDEYDİ. -->
+    <details class="ayar-grup" open>
+      <summary>🖥 ① Görüş alanı</summary>
+      <!-- Emre: "ekranda sağ kenardan sol kenara kaç kilometrelik alan
+           sığsın, bu sorunun cevabını veren bir ayar olsun."
+           🔴 Enlem düzeltmesi ŞART ve kodda var: Mercator'da aynı zoom
+           Ekvator'da 2 kat geniş görünür. Ölçüldü — 1500 km ayarı 41°K'de
+           zoom 6,01 · 15°K'de 6,37 · 50°K'de 5,78 veriyor. Düzeltme olmasa
+           ayar KULLANICIYA YALAN SÖYLERDİ. -->
+      <div class="ayar-satir">
+        <label for="ayar-genislik-km">Görüş genişliği <span class="ayar-ipucu">(ekranda sağdan sola kaç km — orta enlemde)</span></label>
+        <input type="range" id="ayar-genislik-km" min="100" max="8000" step="50" value="1500">
+        <span id="ayar-genislik-km-deger" class="ayar-deger"></span>
+      </div>
+      <div class="ayar-satir">
+        <label for="ayar-yakinlik">Yakınlık <span class="ayar-ipucu">(olay mahalline inilecek zoom — etiket GÖRÜNEN ALANI gösterir)</span></label>
+        <!-- §⑧③ — Emre: "çok yaklaşıyor, etrafı göremiyorum." Sürgü zoom
+             SAYISI değil ekranda kaç km göründüğünü göstermeli. Uçlar/
+             varsayılan GERÇEK ölçümle kondu: min 3 ≈ 9.000 km (imparatorluk
+             + komşular), max 8 ≈ 230 km (bir sancak ölçeği), varsayılan
+             5.5 ≈ 950-1.360 km (Anadolu ölçeği). -->
+        <input type="range" id="ayar-yakinlik" min="3" max="8" step="0.1" value="5.5">
+        <span id="ayar-yakinlik-deger" class="ayar-deger"></span>
+      </div>
+    </details>
+    <details class="ayar-grup" open>
+      <summary>📍 ② Yerleşim</summary>
+      <!-- Emre: "Kırım'da bir olay mı oldu yukarıdan ekrana girer. İran ile
+           savaş mı çıktı sağdan pencereye girer… ama pencereye hemen karenin
+           ucundan değil de belli bir miktar pencerenin içine doğru."
+           S2 hükmü: hedef ZATEN EKRANDAYSA kamera OYNAMAZ, yalnız işaret
+           yanıp söner (iki kez). -->
+      <div class="ayar-satir">
+        <label for="ayar-yerlesim">Yerleşim <span class="ayar-ipucu">(olay mahalli ekranın ortasına mı, kenardan mı girsin)</span></label>
+        <select id="ayar-yerlesim">
+          <option value="orta" selected>Ortala</option>
+          <option value="kenar">Kenardan girsin</option>
+        </select>
+        <span class="ayar-deger"></span>
+      </div>
+      <div class="ayar-satir">
+        <label for="ayar-kenarpay">Kenar payı <span class="ayar-ipucu">(kenardan girişte çerçevenin ne kadar içine — %)</span></label>
+        <input type="range" id="ayar-kenarpay" min="5" max="45" step="1" value="18">
+        <span id="ayar-kenarpay-deger" class="ayar-deger"></span>
+      </div>
+      <!-- 🔴 21 Ağustos — bu satır DUPLICATE `id="ayar-kenarpay"` taşıyordu
+           (yukarıdakiyle AYNI id, FARKLI birim: % değil px, FARKLI amaç:
+           kenardan-giriş payı değil "nokta yeri olmayan olay" fitBounds
+           payı). `getElementById` her zaman İLKİNİ döndürdüğü için bu ikinci
+           sürgü js/app.js'te HİÇ OKUNMUYORDU — kullanıcı oynatıyordu, hiçbir
+           şey değişmiyordu (`CLAUDE.md §11`in "yazılmış görünüyor,
+           çalışmıyor" sınıfı). Ad ayrıştırıldı, js/app.js'teki okuma satırı
+           (`haritayiOlayaGotur`, `ayar-kenarpay` okuyan `getElementById`)
+           yeni id'ye çevrildi. -->
+      <div class="ayar-satir">
+        <label for="ayar-imparatorluk-pay">İmparatorluk görünümü payı <span class="ayar-ipucu">(nokta yeri olmayan olayda çevre boşluğu — piksel)</span></label>
+        <input type="range" id="ayar-imparatorluk-pay" min="10" max="120" step="5" value="55">
+        <span id="ayar-imparatorluk-pay-deger" class="ayar-deger"></span>
+      </div>
+    </details>
+    <details class="ayar-grup">
+      <summary>⏱ ③ Hız ve süre</summary>
+      <!-- Emre'nin kendi gördüğü gerilim: "Bursa'dan İstanbul'a mevzu bahis
+           olduğunda bu çok yavaş olacaktır." ÖLÇÜLDÜ:
+             sabit 1000 km/sn → Yemen-Kamaniçe 3,00 sn ✓ · Bursa-İstanbul 0,09 ✗
+             sabit 2 sn       → ikisi de 2 sn ✓ ama "hız" kelimesi anlamsız
+           ⇒ HIZ TABANLI + SÜRE TABANI/TAVANI. Bugünkü değerlerle ölçüm:
+             Bursa-İstanbul     91 km → 0,80 sn (taban tuttu)
+             İstanbul-Viyana  1277 km → 0,85 sn
+             Yemen-Kamaniçe   4039 km → 2,69 sn (serbest)
+             Fas-Basra        5171 km → 3,00 sn (tavan tuttu)
+           Mesafe HİSSEDİLİYOR ama hiçbir uçuş ne göz kırpması ne eziyet.
+           🔴 Eski soyut "Hız" sürgüsü (`ayar-hiz`, 0.3-3 "küçük=yavaş")
+           BURADAN KALDIRILDI — ölçüldü, `js/app.js`te hiçbir uçuş
+           hesabında OKUNMUYORDU (`flyTo`ya `speed` hiç verilmiyor, `curve`
+           ve `duration` yeterli — kod yorumunda zaten yazılıydı). İki
+           "hız" adlı sürgüden biri çalışıyor biri çalışmıyordu; çalışmayan
+           kaldırıldı, "gerçek" olan (`ayar-hiz-kms`) tek başına kaldı. -->
+      <div class="ayar-satir">
+        <label for="ayar-hiz-kms">Odaklanma hızı <span class="ayar-ipucu">(km / saniye — uzun yol uzun sürer)</span></label>
+        <input type="range" id="ayar-hiz-kms" min="200" max="6000" step="100" value="1500">
+        <span id="ayar-hiz-kms-deger" class="ayar-deger"></span>
+      </div>
+      <div class="ayar-satir">
+        <label for="ayar-sure-taban">En kısa süre <span class="ayar-ipucu">(yakın olaylar göz kırpması gibi geçmesin)</span></label>
+        <input type="range" id="ayar-sure-taban" min="0.2" max="2" step="0.1" value="0.8">
+        <span id="ayar-sure-taban-deger" class="ayar-deger"></span>
+      </div>
+      <div class="ayar-satir">
+        <label for="ayar-sure-tavan">En uzun süre <span class="ayar-ipucu">(uzak olaylar eziyet olmasın)</span></label>
+        <input type="range" id="ayar-sure-tavan" min="1" max="8" step="0.1" value="3">
+        <span id="ayar-sure-tavan-deger" class="ayar-deger"></span>
+      </div>
+    </details>
+    <details class="ayar-grup">
+      <summary>🎢 ④ Hareket biçimi</summary>
+      <!-- Emre: "yatay hareket seçilir ise … harita zoomunu değiştirmeden …
+           eğik atışta ise harita önce zoom out olup … sonra zoom in ile."
+           MapLibre ikisini de yerlisinde veriyor: `flyTo` van Wijk parabolü,
+           `easeTo` düz interpolasyon.
+           ⚠️ EŞİK NİÇİN VAR: uzun mesafede `easeTo` haritayı ŞERİT gibi
+           akıtır — `flyTo` zaten bu yüzden icat edilmiş. Eşiğin üstünde
+           yatay seçilse bile eğik atışa düşülüyor. Eşik AYARDA, yani
+           Emre'nin seçimi EZİLMİYOR; sınırını kendisi koyuyor. -->
+      <div class="ayar-satir">
+        <label for="ayar-hareket">Hareket biçimi <span class="ayar-ipucu">(eğik atış: uzaklaşıp yaklaşır · yatay: düz kayar)</span></label>
+        <select id="ayar-hareket">
+          <option value="egik" selected>Eğik atış</option>
+          <option value="yatay">Yatay hareket</option>
+        </select>
+        <span class="ayar-deger"></span>
+      </div>
+      <div class="ayar-satir">
+        <label for="ayar-yatay-esik">Yatay sınırı <span class="ayar-ipucu">(bu km'nin üstünde yatay seçilse de eğik atışa geçer)</span></label>
+        <input type="range" id="ayar-yatay-esik" min="200" max="5000" step="100" value="1200">
+        <span id="ayar-yatay-esik-deger" class="ayar-deger"></span>
+      </div>
+      <div class="ayar-satir">
+        <label for="ayar-irtifa">İrtifa <span class="ayar-ipucu">(eğik atışta yayın tepe yüksekliği)</span></label>
+        <input type="range" id="ayar-irtifa" min="0.5" max="3" step="0.1" value="1.42">
+        <span id="ayar-irtifa-deger" class="ayar-deger"></span>
+      </div>
+    </details>
+    <p class="ayar-not">⚠️ Bu değerler MapLibre'nin belgelenmiş varsayılanları
+      (curve 1.42) çevresinde kuruldu — bu oturumda harita render olmadığı
+      için GÖZLE ayarlanamadı. İlk gerçek kullanımda gözden geçirilmeli.</p>
     </div>
-    <!-- ② Emre: "Kırım'da bir olay mı oldu yukarıdan ekrana girer. İran ile
-         savaş mı çıktı sağdan pencereye girer… ama pencereye hemen karenin
-         ucundan değil de belli bir miktar pencerenin içine doğru."
-         S2 hükmü: hedef ZATEN EKRANDAYSA kamera OYNAMAZ, yalnız işaret
-         yanıp söner (iki kez). -->
-    <div class="ayar-satir">
-      <label for="ayar-yerlesim">Yerleşim <span class="ayar-ipucu">(olay mahalli ekranın ortasına mı, kenardan mı girsin)</span></label>
-      <select id="ayar-yerlesim">
-        <option value="orta" selected>Ortala</option>
-        <option value="kenar">Kenardan girsin</option>
-      </select>
-      <span class="ayar-deger"></span>
-    </div>
-    <div class="ayar-satir">
-      <label for="ayar-kenarpay">Kenar payı <span class="ayar-ipucu">(kenardan girişte çerçevenin ne kadar içine — %)</span></label>
-      <input type="range" id="ayar-kenarpay" min="5" max="45" step="1" value="18">
-      <span id="ayar-kenarpay-deger" class="ayar-deger"></span>
-    </div>
-    <!-- ③ Emre'nin kendi gördüğü gerilim: "Bursa'dan İstanbul'a mevzu bahis
-         olduğunda bu çok yavaş olacaktır." ÖLÇÜLDÜ:
-           sabit 1000 km/sn → Yemen-Kamaniçe 3,00 sn ✓ · Bursa-İstanbul 0,09 ✗
-           sabit 2 sn       → ikisi de 2 sn ✓ ama "hız" kelimesi anlamsız
-         ⇒ HIZ TABANLI + SÜRE TABANI/TAVANI. Bugünkü değerlerle ölçüm:
-           Bursa-İstanbul     91 km → 0,80 sn (taban tuttu)
-           İstanbul-Viyana  1277 km → 0,85 sn
-           Yemen-Kamaniçe   4039 km → 2,69 sn (serbest)
-           Fas-Basra        5171 km → 3,00 sn (tavan tuttu)
-         Mesafe HİSSEDİLİYOR ama hiçbir uçuş ne göz kırpması ne eziyet. -->
-    <div class="ayar-satir">
-      <label for="ayar-hiz-kms">Odaklanma hızı <span class="ayar-ipucu">(km / saniye — uzun yol uzun sürer)</span></label>
-      <input type="range" id="ayar-hiz-kms" min="200" max="6000" step="100" value="1500">
-      <span id="ayar-hiz-kms-deger" class="ayar-deger"></span>
-    </div>
-    <div class="ayar-satir">
-      <label for="ayar-sure-taban">En kısa süre <span class="ayar-ipucu">(yakın olaylar göz kırpması gibi geçmesin)</span></label>
-      <input type="range" id="ayar-sure-taban" min="0.2" max="2" step="0.1" value="0.8">
-      <span id="ayar-sure-taban-deger" class="ayar-deger"></span>
-    </div>
-    <div class="ayar-satir">
-      <label for="ayar-sure-tavan">En uzun süre <span class="ayar-ipucu">(uzak olaylar eziyet olmasın)</span></label>
-      <input type="range" id="ayar-sure-tavan" min="1" max="8" step="0.1" value="3">
-      <span id="ayar-sure-tavan-deger" class="ayar-deger"></span>
-    </div>
-    <!-- ④ Emre: "yatay hareket seçilir ise … harita zoomunu değiştirmeden …
-         eğik atışta ise harita önce zoom out olup … sonra zoom in ile."
-         MapLibre ikisini de yerlisinde veriyor: `flyTo` van Wijk parabolü,
-         `easeTo` düz interpolasyon.
-         ⚠️ EŞİK NİÇİN VAR: uzun mesafede `easeTo` haritayı ŞERİT gibi akıtır
-         — `flyTo` zaten bu yüzden icat edilmiş. Eşiğin üstünde yatay seçilse
-         bile eğik atışa düşülüyor. Eşik AYARDA, yani Emre'nin seçimi
-         EZİLMİYOR; sınırını kendisi koyuyor. -->
-    <div class="ayar-satir">
-      <label for="ayar-hareket">Hareket biçimi <span class="ayar-ipucu">(eğik atış: uzaklaşıp yaklaşır · yatay: düz kayar)</span></label>
-      <select id="ayar-hareket">
-        <option value="egik" selected>Eğik atış</option>
-        <option value="yatay">Yatay hareket</option>
-      </select>
-      <span class="ayar-deger"></span>
-    </div>
-    <div class="ayar-satir">
-      <label for="ayar-yatay-esik">Yatay sınırı <span class="ayar-ipucu">(bu km'nin üstünde yatay seçilse de eğik atışa geçer)</span></label>
-      <input type="range" id="ayar-yatay-esik" min="200" max="5000" step="100" value="1200">
-      <span id="ayar-yatay-esik-deger" class="ayar-deger"></span>
-    </div>
-    <div class="ayar-satir">
-      <label for="ayar-irtifa">İrtifa <span class="ayar-ipucu">(eğik atışta yayın tepe yüksekliği)</span></label>
-      <input type="range" id="ayar-irtifa" min="0.5" max="3" step="0.1" value="1.42">
-      <span id="ayar-irtifa-deger" class="ayar-deger"></span>
-    </div>
-    <div class="ayar-satir">
-      <label for="ayar-yakinlik">Yakınlık <span class="ayar-ipucu">(olay mahalline inilecek zoom — etiket GÖRÜNEN ALANI gösterir)</span></label>
-      <!-- §⑧③ — Emre: "çok yaklaşıyor, etrafı göremiyorum." Sürgü zoom
-           SAYISI değil ekranda kaç km göründüğünü göstermeli. Uçlar/varsayılan
-           GERÇEK ölçümle kondu (js/app.js yakinlikKmHesapla, harita
-           kapsayıcısının kendi genişliği + MapLibre'nin 512px döşeme
-           dönüşümüyle): min 3 ≈ 9.000 km (imparatorluk + komşular),
-           max 8 ≈ 230 km (bir sancak ölçeği), varsayılan 5.5 ≈ 950-1.360 km
-           (Anadolu ölçeği) — eski varsayılan 6.5 ≈ 660 km'ydi, "çok
-           yaklaşıyor" şikâyetinin ölçülen karşılığı buydu. -->
-      <input type="range" id="ayar-yakinlik" min="3" max="8" step="0.1" value="5.5">
-      <span id="ayar-yakinlik-deger" class="ayar-deger"></span>
-    </div>
-    <div class="ayar-satir">
-      <label for="ayar-hiz">Hız <span class="ayar-ipucu">(küçük = yavaş)</span></label>
-      <input type="range" id="ayar-hiz" min="0.3" max="3" step="0.1" value="1.2">
-      <span id="ayar-hiz-deger" class="ayar-deger"></span>
-    </div>
-    <div class="ayar-satir">
-      <label for="ayar-kenarpay">Kenar payı <span class="ayar-ipucu">(nokta yeri olmayan olayda imparatorluk görünümünün çevre boşluğu)</span></label>
-      <input type="range" id="ayar-kenarpay" min="10" max="120" step="5" value="55">
-      <span id="ayar-kenarpay-deger" class="ayar-deger"></span>
-    </div>
-    <p class="ayar-not">⚠️ Bu dört değer MapLibre'nin belgelenmiş varsayılanları
-      (curve 1.42 · speed 1.2) çevresinde kuruldu — bu oturumda harita
-      render olmadığı için GÖZLE ayarlanamadı. İlk gerçek kullanımda
-      gözden geçirilmeli.</p>
   </div>
 </div>
 
@@ -481,18 +509,24 @@
      künyeleri hâlâ eski/kısa listeyi taşıyor (14/15/12 madde, çoğu Osmanlı
      cephesinden); bu dosyalar devletler.js'e HENÜZ BAĞLANMADI (koordinatörün
      işi) — js/app.js açılışta `window.KRONOLOJI_*`yi ilgili künyenin
-     `.kronoloji` alanına BELLEKTE bindiriyor (dosyaya yazmıyor). Yeni bir
-     devlet (`kronoloji_venedik.js` gibi) eklenince BURAYA bir satır +
-     app.js'teki `KRONOLOJI_EK_KAYNAK` sözlüğüne bir satır gerekir. -->
+     `.kronoloji` alanına BELLEKTE bindiriyor (dosyaya yazmıyor).
+     🔴 21 Ağustos: `app.js`teki bindirme artık DESENE bakıyor (`window.
+     KRONOLOJI_*`), sabit bir sözlüğe DEĞİL — Venedik/İran/Bizans burada
+     bağlıydı ama app.js'in eski sabit sözlüğü onları hiç bindirmiyordu
+     (script bağlamak TEK BAŞINA yetmiyormuş, TÜKETEN taraf da desene
+     bakmalıymış). ⇒ Yeni bir devlet eklerken YALNIZ buraya bir `<script>`
+     satırı yeter, app.js'e DOKUNULMAZ. -->
 <script src="data/kronoloji_habsburg.js?v=r2783"></script>
 <script src="data/kronoloji_rusya.js?v=r2783"></script>
 <script src="data/kronoloji_lehistan.js?v=r2783"></script>
-<!-- 🔴 Üçü sonradan yazıldı ve BAĞLANMAMIŞTI — 276 madde ekranda yoktu
-     (Venedik 86 · İran 107 · Bizans 83). Aynı gün aynı sınıftan İKİNCİ
-     vaka; yukarıdaki yerleşim bloğuna bak. -->
 <script src="data/kronoloji_venedik.js?v=r2783"></script>
 <script src="data/kronoloji_iran.js?v=r2783"></script>
 <script src="data/kronoloji_bizans.js?v=r2783"></script>
+<!-- 21 Ağustos: iki YENİ dosya diskte hazır ama BAĞLI DEĞİLDİ (Kırım ·
+     Macaristan) — aynı sınıftan üçüncü vaka, bulunur bulunmaz eklendi. -->
+<script src="data/kronoloji_memluk.js?v=r2783"></script>
+<script src="data/kronoloji_kirim.js?v=r2783"></script>
+<script src="data/kronoloji_macaristan.js?v=r2783"></script>
 <script src="data/kisiler.js?v=r2783"></script>
 <script src="data/savaslar.js?v=r2783"></script>
 <!-- YERLESIM PARTILERI - hepsi yuklenir ve TEK diziye birlestirilir.

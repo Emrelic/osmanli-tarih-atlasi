@@ -1011,7 +1011,7 @@ harita.on("load", function () {
     var cinsler = window.BOS_CINSLER || {};
     if (!kayitlar.length) return;
     var boslukPopup = new maplibregl.Popup({ closeButton: true, closeOnClick: true, maxWidth: "300px", className: "bosluk-popup" });
-    var kacBenek = 0, kacSoru = 0;
+    var kacBenek = 0, kacSoru = 0, kacHalka = 0;
     kayitlar.forEach(function (k) {
       var c = cinsler[k.cins];
       var gosterim = c && c.gosterim;
@@ -1026,9 +1026,34 @@ harita.on("load", function () {
       //   halka  "yerleşim var, devlete bağlı değil, hakkı saklı"
       if (gosterim !== "benek" && gosterim !== "soru" && gosterim !== "halka")
         return;                                        // "bos" -> hiç çizilmez
+      // 🔴 21 Ağustos — Emre: "devletsiz şehirlerin isimlerini de şehir
+      // devletlerinin yanına yazalım." `halka` glifi bugüne kadar yalnız
+      // hover'da (`title`) ad taşıyordu; `.sehir .s-ad` deseniyle AYNI
+      // görünürlükte bir isim eklendi — `benek`/`soru` DOKUNULMADI (Emre'nin
+      // isteği özellikle "şehirler" diyordu; aşiret sahası ve "bilmiyoruz"
+      // noktasının bir ŞEHİR ADI yok, ada yazacak bir şey olmazdı).
+      if (gosterim === "halka") {
+        var kutu = document.createElement("div");
+        kutu.className = "bosluk-kutu";
+        kutu.innerHTML = '<span class="bosluk-halka"></span><span class="bosluk-ad"></span>';
+        kutu.querySelector(".bosluk-ad").textContent = k.ad;
+        kutu.title = k.ad + " — " + (c ? c.ad : k.cins);
+        kutu.addEventListener("click", function (e) {
+          e.stopPropagation();
+          var metin = (k.neden && k.neden.trim()) ? k.neden : (c ? c.aciklama : "");
+          var govde = "<b>" + k.ad + "</b><br><i>" + (c ? c.ad : k.cins) + "</i>" +
+            "<p>" + metin.replace(/</g, "&lt;") + "</p>";
+          boslukPopup.setLngLat([k.lon, k.lat]).setHTML(govde).addTo(harita);
+        });
+        // `.sehir` düğümleriyle AYNI çapa/ofset — nokta solda, ad sağında,
+        // haritadaki bütün yerleşim etiketleri tek bir hizalama dilinde.
+        new maplibregl.Marker({ element: kutu, anchor: "left", offset: [-5, 0] })
+          .setLngLat([k.lon, k.lat]).addTo(harita);
+        kacHalka++;
+        return;
+      }
       var el = document.createElement("div");
-      el.className = gosterim === "benek" ? "bosluk-benek"
-                   : gosterim === "halka" ? "bosluk-halka" : "bosluk-soru";
+      el.className = gosterim === "benek" ? "bosluk-benek" : "bosluk-soru";
       el.title = k.ad + " — " + (c ? c.ad : k.cins);
       el.addEventListener("click", function (e) {
         e.stopPropagation();
@@ -1038,9 +1063,14 @@ harita.on("load", function () {
         boslukPopup.setLngLat([k.lon, k.lat]).setHTML(govde).addTo(harita);
       });
       new maplibregl.Marker({ element: el, anchor: "center" }).setLngLat([k.lon, k.lat]).addTo(harita);
+      // 🔴 SAYAÇ DÜZELTİLDİ — eskiden `else kacSoru++` hem "soru" hem
+      // "halka"yı TEK kovaya topluyordu (halka o zaman ayrı bir dala
+      // düşmüyordu), günlük "N soru (veri-yok)" derken aslında iki ayrı
+      // sınıfı toplayıp yanlış etiketle basıyordu.
       if (gosterim === "benek") kacBenek++; else kacSoru++;
     });
-    console.log("Atlas: boşluğun cinsi — " + kacBenek + " benek (kabile) · " + kacSoru + " soru (veri-yok) çizildi.");
+    console.log("Atlas: boşluğun cinsi — " + kacBenek + " benek (kabile) · "
+                + kacSoru + " soru (veri-yok) · " + kacHalka + " halka (devletsiz yerleşim, adlı) çizildi.");
   })();
 
   koridorKur();
@@ -4619,7 +4649,12 @@ function haritayiOlayaGotur(o) {
   if (!hedef) {
     sonUcusKonumAnahtari = null;   // genel görünüme düşünce "ayni yer" hafizasi da sifirlanir
     var di = donemBul(o.gi);
-    var kenar = +document.getElementById("ayar-kenarpay").value;
+    // 🔴 21 Ağustos — eskiden "ayar-kenarpay" okunuyordu, ama o id BAŞKA bir
+    // sürgüyle (kenardan-giriş yüzdesi, § odakOfseti) ÇAKIŞIYORDU; ikisi de
+    // aynı id'yi taşıdığı için `getElementById` hep İLKİNİ (yüzde olanı)
+    // döndürüyor, bu satırın kastettiği "imparatorluk görünümü payı" (px)
+    // sürgüsü HİÇ OKUNMUYORDU. Ad ayrıştırıldı (index.html), burada da.
+    var kenar = +document.getElementById("ayar-imparatorluk-pay").value;
     if (di >= 0 && donemler[di].b) {
       var b = donemler[di].b;
       harita.fitBounds([[b[0], b[1]], [b[2], b[3]]], { padding: kenar, duration: 800 });
@@ -4868,11 +4903,15 @@ function odakOfseti(hedef, kap) {
     "ayar-sure-tavan":  function (v) { return (+v).toFixed(1) + " sn"; },
     "ayar-yatay-esik":  function (v) { return v + " km"; },
     "ayar-kenarpay":    function (v) { return "%" + v; },
-    "ayar-irtifa":      function (v) { return v; },
-    "ayar-hiz":         function (v) { return v; }
+    "ayar-imparatorluk-pay": function (v) { return v + " px"; },
+    "ayar-irtifa":      function (v) { return v; }
+    // 🔴 "ayar-hiz" (eski soyut 0.3-3 hız sürgüsü) BURADAN KALDIRILDI —
+    // hiçbir uçuş hesabında okunmuyordu, ölçüldü (bkz. index.html'deki not).
+    // Ölü bir kontrolü "hâlâ çalışıyormuş gibi" etiketlemek yanıltıcıydı.
   };
-  [["ayar-irtifa", "ayarIrtifa"], ["ayar-hiz", "ayarHiz"],
+  [["ayar-irtifa", "ayarIrtifa"],
    ["ayar-kenarpay", "ayarKenarPay"],
+   ["ayar-imparatorluk-pay", "ayarImparatorlukPay"],
    ["ayar-genislik-km", "ayarGenislikKm"], ["ayar-hiz-kms", "ayarHizKms"],
    ["ayar-sure-taban", "ayarSureTaban"], ["ayar-sure-tavan", "ayarSureTavan"],
    ["ayar-yatay-esik", "ayarYatayEsik"]].forEach(function (p) {
@@ -4978,22 +5017,36 @@ document.addEventListener("keydown", function (e) {
 // `<script>` satırı ② buraya bir satır. İkisi de yapılmazsa devlet sessizce
 // eski/kısa listede kalır — `#odak-devlet` seçeneği yine görünür ama derin
 // veri gelmez.
-var KRONOLOJI_EK_KAYNAK = {
-  habsburg: window.KRONOLOJI_HABSBURG,
-  rusya:    window.KRONOLOJI_RUSYA,
-  lehistan: window.KRONOLOJI_LEHISTAN
-};
+//
+// 🔴 DESENE BAKIYOR, DOSYA LİSTESİNE DEĞİL (koordinatör görevi, 21 Ağustos) —
+// eski hâli `{habsburg:.., rusya:.., lehistan:..}` sabit sözlüğüydü. Venedik/
+// İran/Bizans `index.html`e bağlandığı gün bu sözlük GÜNCELLENMEMİŞTİ ⇒ üç
+// dosya `window`da vardı ama hiçbirinin `.kronoloji`ye bindirilmiş hâli yoktu
+// — script bağlamanın kendisi bile yetmiyor, TÜKETEN kod da desene bakmalı.
+// Artık `window.KRONOLOJI_<ID>` deseni TARANIYOR; yeni bir devlet dosyası
+// yalnız `index.html`e bir `<script>` satırıyla eklenince (bu dosyaya
+// DOKUNMADAN) otomatik bindirilir. `id` = suffix küçük harfe çevrilmiş hâli
+// (`KRONOLOJI_HABSBURG` → `habsburg`) — bugüne kadarki bütün dosyalar bu
+// kalıba uyuyor (habsburg/rusya/lehistan/venedik/iran/bizans/kirim/
+// macaristan); uymayan biri çıkarsa KRONOLOJI_ID_OZEL ile eşlenir.
+var KRONOLOJI_ID_OZEL = {};             // { "KRONOLOJI_XYZ": "gercek-id" } — istisna için
 (function derinKronolojiBindir() {
   var D = window.DEVLETLER || [];
-  var bindirilen = [];
-  Object.keys(KRONOLOJI_EK_KAYNAK).forEach(function (id) {
-    var derin = KRONOLOJI_EK_KAYNAK[id];
+  var bindirilen = [], eslenmeyen = [];
+  Object.keys(window).forEach(function (anahtar) {
+    if (anahtar.slice(0, 10) !== "KRONOLOJI_") return;
+    var derin = window[anahtar];
     if (!derin || !derin.length) return;
+    var id = KRONOLOJI_ID_OZEL[anahtar] || anahtar.slice(10).toLowerCase();
+    var bulundu = false;
     for (var i = 0; i < D.length; i++) {
-      if (D[i].id === id) { D[i].kronoloji = derin; bindirilen.push(id + " (" + derin.length + ")"); break; }
+      if (D[i].id === id) { D[i].kronoloji = derin; bindirilen.push(id + " (" + derin.length + ")"); bulundu = true; break; }
     }
+    if (!bulundu) eslenmeyen.push(anahtar + " → \"" + id + "\" (DEVLETLER'de böyle id yok)");
   });
   if (bindirilen.length) console.log("Atlas: derin kronoloji bindirildi — " + bindirilen.join(", "));
+  // Sessiz kaybolma YOK — eşlenmeyen bir dosya "0 madde" gibi görünmesin.
+  if (eslenmeyen.length) console.warn("Atlas: KRONOLOJI_* eşlenemedi — " + eslenmeyen.join(", "));
 })();
 
 (function odakKur() {
@@ -5251,14 +5304,32 @@ var KRONOLOJI_EK_KAYNAK = {
     // Kullanıcının bir maddeye elle tıklaması otomatik değildir; tıklamak
     // zaten "beni oraya götür" demektir. Ayarı ona bağlamak, kullanıcının
     // açık isteğini bir tercihe tâbi kılardı.
-    // 🔴 `d.harita || d.id` — KÜNYE KİMLİĞİ ile HARİTA KİMLİĞİ AYRI ŞEYLER.
-    // Ölçüldü: `habsburg` künyesinin `harita:` alanı **"avusturya"**dır ve
-    // gövde o adla kayıtlı; `devletiYay("habsburg")` hiçbir şey bulamıyor,
-    // hata da vermiyor, sessizce dönüyordu. 431 künyenin 248'inde `harita:`
-    // alanı var ⇒ kusur çoğunluğu vuruyordu. Rusya'da görünmedi, çünkü
-    // onun `harita:` alanı `id`siyle aynı — yani TEK ÖRNEKLE SINAMAK
-    // bu kusuru kaçırırdı (`§11`: "ölçüm doğru, evren dar").
-    try { devletiYay(d.harita || d.id); } catch (e) { /* sahnede değil */ }
+    // 🔴 21 Ağustos — `yer_id`/`kapsam_genis` (koordinatör görevi ④, M-0879).
+    // Emre: *"tüm kronolojilerin haritadaki olay mahallini işaretlememiz
+    // lâzım, yoksa uçuş modu saçmalıyor."* Eskiden HER tıklama, madde bir
+    // yere mi bağlı yoksa imparatorluk çapında mı olduğuna BAKMADAN doğrudan
+    // `devletiYay`e (devletin O GÜNKÜ TÜM gövdesi) gidiyordu — Viyana'ya
+    // bağlı bir madde de, imparatorluk çapında bir madde de AYNI kamerayı
+    // görüyordu. `olayKonumu()` zaten Osmanlı'nın kendi 821 maddesi için
+    // KURULUYDU (`yer_id`→şehir koordinatı, bulanık eşleşme YOK); DEVLETLER
+    // kronolojisi de AYNI alanı taşıyor, aynı fonksiyon YENİDEN KULLANILDI.
+    // `yer_id` boş/çözülemez İSE (kapsam_genis:true dahil, ayrı bir dal
+    // GEREKMİYOR — ikisi de "nokta yok" anlamına geliyor) eski davranışa
+    // (devletin gövdesine fitBounds) DÜŞÜLÜR — regresyon yok.
+    var hedefYer = m.yer_id ? olayKonumu(m) : null;
+    if (hedefYer) {
+      try { harita.flyTo({ center: [hedefYer.lon, hedefYer.lat], zoom: 6.5, duration: 900 }); }
+      catch (e) { /* harita hazır değil */ }
+    } else {
+      // 🔴 `d.harita || d.id` — KÜNYE KİMLİĞİ ile HARİTA KİMLİĞİ AYRI ŞEYLER.
+      // Ölçüldü: `habsburg` künyesinin `harita:` alanı **"avusturya"**dır ve
+      // gövde o adla kayıtlı; `devletiYay("habsburg")` hiçbir şey bulamıyor,
+      // hata da vermiyor, sessizce dönüyordu. 431 künyenin 248'inde `harita:`
+      // alanı var ⇒ kusur çoğunluğu vuruyordu. Rusya'da görünmedi, çünkü
+      // onun `harita:` alanı `id`siyle aynı — yani TEK ÖRNEKLE SINAMAK
+      // bu kusuru kaçırırdı (`§11`: "ölçüm doğru, evren dar").
+      try { devletiYay(d.harita || d.id); } catch (e) { /* sahnede değil */ }
+    }
   }
 
   // ---- Osmanlı'ya (varsayılana) dönüş — olayDom[] GERİ TAKILIR -----------
