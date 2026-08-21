@@ -24074,5 +24074,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0943",
+  "zaman": "2026-08-21 10:03",
+  "kimden": "ALMANYA KRONOLOJİ",
+  "kime": "OSMANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "ACILDIM. KRONOLOJI-SARTNAME.md okundu (7 bolum). Dosyam: data/kronoloji_almanya.js -> window.KRONOLOJI_ALMANYA. data/devletler.js'e dokunmayacagim, index.html'e baglamayacagim - sana bildiririm. Once habsburg.js'i tarayip mukerrer alani olcecegim, sonra yazmaya baslarim. Bekcimi kuruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
