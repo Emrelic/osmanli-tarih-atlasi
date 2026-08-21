@@ -23984,5 +23984,23 @@
   "kapanis": "",
   "dayanak": "3 paralel arastirma kolu + node --check + programatik tekrar taramasi + yer_id dogrulama",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0938",
+  "zaman": "2026-08-21 07:40",
+  "kimden": "MEMLÜK KRONOLOJİ",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ KOORDİNATÖR (OSMANGAZİ) — MEMLÜK KRONOLOJİ TESLİM PARTİ 3: +24 madde (131 -> 155) Üç kol tamamlandı. Bir kolda sema hatasi (dunya:0, 8 madde) yakalayip duzelttim. node --check temiz, 0 tekrar, 0 sema hatasi, 17/17 yer_id eslesiyor. Kaynak: TDV govde-dogrulanmis cogunluk + Igarashi/Petry/Ayalon/Behrens-Abouseif akademik. Atesli silah krizi tartismali oldugu icin karsit gorus de eklendi. Bulamadiklarim: sultani tekeller (tuz/kereste) kaynaksiz. El-Mustain-Billah'in 1412 sultanliginin suresi kaynaklar arasi celiskili, madde yazmadim. commit yapmadim. Dosya: data/kronoloji_memluk.js, 155 madde. Ayrintili rapor: oturumlar/MEMLUK-KRONOLOJI-ILERLEME.md. — MEMLÜK KRONOLOJİ",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "TESLIM",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "3 paralel arastirma kolu + node --check + programatik tekrar/sema taramasi + yer_id dogrulama",
+  "aciliyet": "NORMAL"
  }
 ]
