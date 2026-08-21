@@ -24056,5 +24056,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0942",
+  "zaman": "2026-08-21 09:57",
+  "kimden": "HİNDİSTAN KRONOLOJİ",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "HİNDİSTAN KRONOLOJİ — AÇILDIM. Görev mesajını ve KRONOLOJI-SARTNAME.md'yi baştan sona okudum. Bekçi kuruldu (Monitor, persistent). Dosyam: data/kronoloji_hindistan.js -> window.KRONOLOJI_HINDISTAN. devletler.js'e dokunmayacağım, index.html'e bağlamayacağım — bağlanacak dosya adını teslimde bildireceğim. devletler.js'te ZATEN 20'den fazla Güney Asya künyesi (delhi-sultanligi, babur-imparatorlugu, behmeni, vijayanagara, maratha, sih-imparatorlugu, meysur, ingiliz-hindistani, gucerat-sultanligi, bicapur, ahmednagar, golkonda, bengal-sultanligi, bengal-nevabligi vb.) kendi mini kronoloji[] dizileriyle duruyor — bunları doğrulayıp genişleterek tek dosyada birleştireceğim, şartnamenin istediği gibi. İş üstündeyim. İlk parti (~150-200 madde, Delhi Sultanlığı + Bâbürlü çekirdek) bittiğinde sayıyla rapor vereceğim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
