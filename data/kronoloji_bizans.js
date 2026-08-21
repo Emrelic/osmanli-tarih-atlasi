@@ -591,4 +591,89 @@ window.KRONOLOJI_BIZANS = [
   d:"Fâtih, birliğin en sert muhalifi Georgios Scholarios'u II. Gennadios adıyla patrik tayin etti ve Ortodoks cemaatinin kendi hukuku içinde yönetilmesinin yolunu açtı. Bizans devlet olarak sona erdi ama kilisesi kurum olarak yaşamayı sürdürdü; Ortodoks tarihyazımı bu yüzden 1453'ü bir yok oluş değil bir statü değişimi olarak da okur.",
   kaynak:"el-kitabi" },
 
+// --- PALAIOLOGOS RONESANSI · ILAHIYAT · BILIM ekseni (21 Agustos 2026) ---
+{ t:"1292-01-01", b:"Maximos Planudes Hint rakamlarını Grekçeye tanıttı", tur:"bilim",
+  onem:3, dunya:3, kapsam:"ic", etiket:["bilim"],
+  yer_id:"İstanbul",
+  d:"Keşiş ve filolog Planudes, Arap-Hint rakam sistemini ve sıfırı anlatan bir risale yazdı. Aynı çevre Ovidius ve Augustinus'u Grekçeye çevirerek Latin dünyasıyla iki yönlü bir alışverişi başlattı; Palaiologos döneminin ilk büyük ilmî canlanması budur.",
+  kaynak:"The Oxford Dictionary of Byzantium (Oxford UP) — TDV bu taneciği kapsamıyor" },
+
+{ t:"1315-01-01", b:"Theodoros Metokhites Khora Manastırı'nı yeniletti", tur:"kultur",
+  onem:4, dunya:3, kapsam:"ic", etiket:["kultur"],
+  yer_id:"İstanbul",
+  d:"Sarayın baş veziri ve dönemin en donanımlı âlimi sayılan Metokhites, harap hâldeki Khora (bugünkü Kariye) Manastırı'nı kendi servetiyle onarttı. Devlet küçülürken sanatın zenginleşmesi Palaiologos çağının en çok tartışılan çelişkisidir.",
+  kaynak:"The Oxford Dictionary of Byzantium (Oxford UP) — TDV bu taneciği kapsamıyor" },
+
+{ t:"1321-06-01", b:"Kariye mozaik ve freskleri tamamlandı — Palaiologos rönesansının zirvesi", tur:"kultur",
+  onem:4, dunya:4, kapsam:"ic", etiket:["kultur"],
+  yer_id:"İstanbul",
+  d:"Khora'nın iç yüzeyleri, Bizans resim sanatının son ve en yüksek evresini temsil eden mozaik ve fresklerle kaplandı. Figürlerin hareketi ve mekân duygusu, İtalyan erken Rönesansıyla karşılaştırılagelmiştir; eser bugün ayakta kalan en bütünlüklü Bizans resim programıdır.",
+  kaynak:"The Oxford Dictionary of Byzantium (Oxford UP) — TDV bu taneciği kapsamıyor" },
+
+{ t:"1330-01-01", b:"Kalabriyalı Barlaam İstanbul'a geldi — hesykhast tartışmasının fitili", tur:"din",
+  onem:3, dunya:2, kapsam:"ic", etiket:["din"],
+  yer_id:"İstanbul",
+  d:"Güney İtalya'dan gelen Barlaam, Aristo mantığına dayanan ilâhiyat anlayışıyla başkentte ders vermeye başladı. Athos keşişlerinin sessiz duayla Tanrı'nın nurunu görebileceği iddiasına karşı çıkması, Bizans'ın son yüzyılının en derin fikrî kavgasını başlattı.",
+  kaynak:"Donald M. Nicol, The Last Centuries of Byzantium 1261-1453 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
+
+{ t:"1354-01-01", b:"Demetrios Kydones Aquinas'ı Grekçeye çevirdi", tur:"bilim",
+  onem:3, dunya:3, kapsam:"ic", etiket:["bilim","din"],
+  yer_id:"İstanbul",
+  d:"Devlet adamı Kydones, Thomas Aquinas'ın Summa contra Gentiles'ini Grekçeye çevirdi. Bu çeviri Bizans ilâhiyatında Latin skolastiğini savunan bir akım doğurdu; kilise birliği yanlısı aydınların fikrî temeli buradan gelir.",
+  kaynak:"The Oxford Dictionary of Byzantium (Oxford UP) — TDV bu taneciği kapsamıyor" },
+
+{ t:"1359-11-14", b:"Gregorios Palamas öldü", tur:"din",
+  onem:4, dunya:2, kapsam:"ic", etiket:["din"],
+  yer_id:"Selanik",
+  d:"Hesykhast öğretisinin kurucusu ve Selanik başpiskoposu olan Palamas öldü. Tanrı'nın özü ile enerjileri arasında yaptığı ayrım Ortodoks ilâhiyatının kalıcı çerçevesi oldu ve bugün hâlâ Doğu ile Batı Hristiyanlığı arasındaki başlıca fikrî ayrım noktalarından biridir.",
+  kaynak:"The Oxford Dictionary of Byzantium (Oxford UP) — TDV bu taneciği kapsamıyor" },
+
+{ t:"1368-01-01", b:"Palamas azizliğe yükseltildi — hesykhazm resmen zafer kazandı", tur:"din",
+  onem:4, dunya:2, kapsam:"ic", etiket:["din"],
+  yer_id:"İstanbul",
+  d:"Ölümünden dokuz yıl sonra Palamas aziz ilan edildi. Hesykhazm böylece yalnız kabul edilmiş bir öğreti değil, Ortodoks kimliğinin merkezî unsuru hâline geldi; Rusya ve Balkanlar'daki manastır hareketleri de bu akımdan beslendi.",
+  kaynak:"The Oxford Dictionary of Byzantium (Oxford UP) — TDV bu taneciği kapsamıyor" },
+
+{ t:"1391-01-01", b:"II. Manuel'in Bir Acemle Diyaloglar'ı", tur:"kultur",
+  onem:3, dunya:2, kapsam:"ic", etiket:["kultur","din"],
+  yer_id:"Ankara",
+  d:"İmparator, Bayezid'in seferine tâbi bir hükümdar olarak katılmak zorunda kaldığı kışı Ankara'da geçirirken bir müslüman âlimle yaptığı tartışmaları kaleme aldı. Metin, Bizans'ın son döneminde İslâm'la kurulan fikrî temasın en ayrıntılı belgesidir.",
+  kaynak:"Donald M. Nicol, The Last Centuries of Byzantium 1261-1453 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
+
+{ t:"1397-02-02", b:"Manuel Khrysoloras Floransa'da Grekçe okutmaya başladı", tur:"bilim",
+  onem:3, dunya:4, kapsam:"dis", etiket:["bilim","kultur"],
+  yer_id:"Floransa",
+  d:"Bizanslı diplomat ve bilgin Khrysoloras, Floransa'da Batı'nın ilk düzenli Grekçe kürsüsünü kurdu. Öğrencileri İtalyan hümanizminin kurucu kuşağını oluşturdu; Antik Yunan metinlerinin Batı'ya dönüşü büyük ölçüde bu kürsüden başlar.",
+  kaynak:"The Oxford Dictionary of Byzantium (Oxford UP) — TDV bu taneciği kapsamıyor" },
+
+{ t:"1410-01-01", b:"Georgios Gemistos Plethon Mistra'da ders vermeye başladı", tur:"kultur",
+  onem:3, dunya:3, kapsam:"ic", etiket:["kultur"],
+  yer_id:"",
+  d:"Platon'u Aristo'ya üstün tutan ve Bizans'a köklü bir siyasî yenilenme öneren Plethon, Mora'daki Mistra'yı bir felsefe merkezine çevirdi. Mistra'nın yerleşim kaydı atlasta bulunmadığı için uçuş hedefi boş bırakıldı.",
+  kaynak:"Donald M. Nicol, The Last Centuries of Byzantium 1261-1453 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
+
+{ t:"1439-12-18", b:"Bessarion kardinal oldu — Bizans bilgisi Batı'ya taşındı", tur:"kultur",
+  onem:3, dunya:3, kapsam:"dis", etiket:["kultur","din"],
+  yer_id:"Roma",
+  d:"Floransa Birliği'nin Bizans tarafındaki başlıca savunucusu olan Bessarion Roma Kilisesi'ne geçti ve kardinal yapıldı. Topladığı Grekçe elyazmaları koleksiyonu daha sonra Venedik'e bırakılarak Marciana Kütüphanesi'nin çekirdeğini oluşturdu; Bizans kitap mirasının en büyük kurtarılmış parçası budur.",
+  kaynak:"The Oxford Dictionary of Byzantium (Oxford UP) — TDV bu taneciği kapsamıyor" },
+
+{ t:"1348-06-01", b:"Galata Kulesi yükseldi — Ceneviz kolonisi kendi surunu tamamladı", tur:"kultur",
+  onem:3, dunya:2, kapsam:"ic", etiket:["kultur","ekonomi"],
+  yer_id:"İstanbul",
+  d:"Cenevizliler, Haliç'in karşı yakasındaki imtiyazlı yerleşimlerinin surlarını imparatorun izni olmadan yükselttiler ve tepesine büyük bir kule kondurdular. Yapı, başkentin içinde fiilen bağımsız bir ticaret devletinin varlığını taşa dönüştürmüştür.",
+  kaynak:"The Oxford Dictionary of Byzantium (Oxford UP) — TDV bu taneciği kapsamıyor" },
+
+{ t:"1355-01-01", b:"Nikephoros Gregoras'ın Roma Tarihi", tur:"kultur",
+  onem:3, dunya:1, kapsam:"ic", etiket:["kultur","bilim"],
+  yer_id:"İstanbul",
+  d:"Bilgin ve astronom Gregoras, kendi çağını da içine alan otuz yedi kitaplık bir tarih yazdı; ayrıca takvim reformu önerdi ve güneş tutulmalarını hesapladı. Hesykhast tartışmasında yenilen taraftaydı ve eseri bu yüzden hem tarih hem savunma metnidir.",
+  kaynak:"The Oxford Dictionary of Byzantium (Oxford UP) — TDV bu taneciği kapsamıyor" },
+
+{ t:"1428-05-01", b:"Mistra Mora'nın merkezi oldu — son Bizans canlanması", tur:"kultur",
+  onem:3, dunya:1, kapsam:"ic", etiket:["kultur","idari"],
+  yer_id:"",
+  d:"Palaiologos hanedanının Mora'daki despotluğu, Latin beyliklerini tasfiye ederek yarımadanın büyük kısmını birleştirdi ve Mistra bir saray, kilise ve felsefe merkezi hâline geldi. İmparatorluk başkentte küçülürken taşrada kısa bir kültürel yükseliş yaşandı.",
+  kaynak:"Donald M. Nicol, The Last Centuries of Byzantium 1261-1453 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
+
 ];
