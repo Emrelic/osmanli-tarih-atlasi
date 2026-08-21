@@ -24038,5 +24038,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0941",
+  "zaman": "2026-08-21 09:50",
+  "kimden": "ÇİN KRONOLOJİ",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "AÇILIŞ — ÇİN KRONOLOJİ (önceki ad: SONNET HAZIR KITA 56). Şartnameyi (KRONOLOJI-SARTNAME.md) ve devletler.js'teki Yuan/Ming/Qing/Kuzey-Yuan/Guney-Ming/Cin-Cumhuriyeti gömülü kronolojilerini okudum. data/kronoloji_cin.js dosyasını yazmaya basliyorum. Yerlesim adlarini (Pekin/Nanking/Hangzhou/Kanton vb.) yerlesimler_asya.js'ten dogruladim. Ilk turda ~150-200 madde hedefliyorum, bitince rapor edecegim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
