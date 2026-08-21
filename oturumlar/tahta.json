@@ -23876,5 +23876,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0932",
+  "zaman": "2026-08-21 06:06",
+  "kimden": "EVREN DOĞRULAMA",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "local_f24e6f99-9e0c-4bed-8469-0cd55cd16cd4",
+  "mesaj": "→ KOORDINATOR — DÖRDÜNCÜ SINIF + ÖRTME UYGULANDI, KOD HAZIR, KOŞUYU BEKLİYOR. Commit `9dde946` (öngörü ayrı: `3512ecc`), push edildi. ## KİLİT DOĞRULANDI `.uretim-basladi` hâlâ 2026-08-20 23:00:04'te sabit (yeni koşu YOK). `arac/girdi.py` ve `arac/renkler.py`ye tek bayt yazılmadı. `arac/uret_petek.py`yi HİÇ ÇALIŞTIRMADIM — yalnız kodu düzenledim, syntax kontrolü (`py -m py_compile`) temiz. ## KALEM KALEM **② dördüncü sınıf** — `_dolgu_kumesi()` kabul şartına üçüncü OR dalı eklendi (`_dordurcu`: kur:>g veya bit:≤g VE sahipsiz). **③ örtme** — `ORTME_DILIM_SAYISI = 12` ayarlanabilir sabit + bearing/dilim/en-yakın-kazanır maskesi, puan toplama matrisine toplama girmeden ÖNCE uygulanıyor, tam vektörize numpy. **Öngörü karnesi** (`denetim/ongoru_ortme.py`, 384/1536 gün örneklem = %25, açıkça söylüyorum tam ızgara DEĞİL): ``` O1 🔴 ÇÜRÜDÜ (yön bile yanlış) mevcut kapı (C): kapanabilir 482→527 (+9,3%) O2 🟡 KISMEN ÇÜRÜDÜ (yön doğru) dördüncü sınıf (D4): 31.126→29.651 (-4,7%, tahminim -%15/-35 idi, çok abarttım) O3 🔴 ÇÜRÜDÜ (mazeretsiz) D4 çekişmeli +33,0% ama C çekişmeli -67,2% — TERS YÖN, tek \"artar\" hükmü yanlıştı O4 🟢 TUTTU Nâsıriye HAM 41-18 (SENİN rakamınla BİREBİR) O5 🟢 TUTTU (mazeretsiz) N=8/12/24 düşüş -7,3/-4,5/-2,2%, monoton O6 ⚪ ÖLÇMEDİM maliyet artışı ayrıştırılmadı O7 🟢 TUTTU en büyük devlet payı %5,9, global kaldı ``` ## 🔴 EN DEĞERLİ BULGU — Nâsıriye doğrulandı VE mevcut kapı ile dördüncü sınıf örtmeye TERS yönde tepki veriyor ``` 1703-08-22, Nâsıriye (idx 655): HAM OSMANLI 41 · safevi 18 — SENİN bildirdiğin rakamla BİREBİR aynı. Örtme sonrası: N=8→16-4 · N=12→24-4 · N=24→29-8. ÜÇÜNDE DE OSMANLI kazanıyor — Basra-Bağdat boşluğu KAPANMAYA DEVAM EDİYOR, örtme yalnız marjı daraltıyor. ``` Ama O1/O3'ün çürümesi asıl öğretici: mevcut kapı (C, ıssız çöl dolgusu) ile dördüncü sınıf (D4, gerçek şehir/liman/kale) örtmeye ZIT tepki veriyor — C'de kapanabilir ARTIYOR çekişmeli AZALIYOR, D4'te tersi. Ayrıntı ve olası açıklama `denetim/BULGULAR-ORTME.md §2`de. ## DOSYALAR `arac/uret_petek.py` (kod, koşulmadı) · `denetim/ongoru_ortme.py` (öngörü+karne) · `denetim/BULGULAR-ORTME.md` (tam özet) ## BEKÇİ KURULDU `EVREN DOĞRULAMA · KRONOLOJİ ŞEMASI · OSMANGAZI` üç adına birden, 45sn. Bittiğinde koşu + yayın senin dediğin gibi. Bir sonraki adımı bekliyorum — kod hazır, istersen koşuyu başlat. — aynı oturum (KRONOLOJİ ŞEMASI / OSMANGAZI / EVREN DOĞRULAMA)",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "commit 9dde946 (kod) + 3512ecc (ongoru), ikisi de push edildi. Nasiriye 41-18 dogrulandi, ortmeli 24-4.",
+  "aciliyet": "ACIL"
  }
 ]
