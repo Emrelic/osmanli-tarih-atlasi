@@ -96,26 +96,62 @@ O7  ÇEKİŞMENİN DEVLET DAĞILIMI (O2'nin global coğrafya bulgusuyla
              devlet-körü olduğu tasarımına dayanıyor.
 
 ═══════════════════════════════════════════════════════════════════════════
-2 · KARNE — ölçümden SONRA doldurulacak (şu an BOŞ, damga ölçüm sonrası)
+2 · KARNE — ölçüldü 2026-08-21 05:xx (384/1536 gün örneklem, %25 — açıkça
+    söyleniyor, tam ızgara DEĞİL). Replika: scratchpad ortme_olcum.py +
+    ortme_olcum2.py (havuz ayrımı + Nâsıriye tek-gün testi).
 ═══════════════════════════════════════════════════════════════════════════
-# O1  ...
-# O2  ...
-# O3  ...
-# O4  ...
-# O5  ...
-# O6  ...
-# O7  ...
+# O1  🔴 ÇÜRÜDÜ — YÖN BİLE YANLIŞ. Mevcut kapı (C sınıfı, bos:hata/
+#     tur:bolge) örtme sonrası kapanabilir sayısı DÜŞMEDİ, ARTTI:
+#     482 → 527 (+9,3%). Sebep muhtemelen: C sınıfı noktalar seyrek/ıssız
+#     olduğu için örtme nadiren puan siliyor, ama sildiği az sayıdaki puan
+#     tam ÇEKİŞMEYİ BOZAN puan oluyor (bkz O3). Tahmin ettiğim mekanizma
+#     (çok-noktalı toplamın eşiğin altına düşmesi) BU HAVUZDA baskın değil.
+#
+# O2  🟡 KISMEN ÇÜRÜDÜ — yön doğru (kapanabilir DÜŞTÜ), büyüklük bandımın
+#     ÇOK altında: dördüncü sınıf (D4) 31.126 → 29.651 (−4,7%), tahmin
+#     bandım %15-35'ti. Aşırı tahmin ettim.
+#
+# O3  🔴 ÇÜRÜDÜ (mazeretsiz) — HAVUZLAR TERS YÖNDE. D4'te çekişmeli ARTTI
+#     (294→391, +33,0%, bandımın içinde) ama C'de AZALDI (67→22, −67,2%).
+#     Genel bir "artar" hükmü YANLIŞTI — iki havuzun geometrik yoğunluğu
+#     öyle farklı ki örtme ikisine ZIT etki yapıyor.
+#
+# O4  🟢 TUTTU — Nâsıriye (1703-08-22) ÖLÇÜLDÜ (tek-gün direkt test, örneklem
+#     dışı): HAM OSMANLI 41 · safevi 18 (koordinatörün bildirdiğiyle BİREBİR
+#     aynı). Örtme sonrası: N=8→16-4 · N=12→24-4 · N=24→29-8. ÜÇÜNDE DE
+#     OSMANLI kazanıyor, sonuç DEĞİŞMEDİ — yalnız marj daraldı.
+#
+# O5  🟢 TUTTU (mazeretsiz) — MONOTON, birleşik havuz N=8/12/24 kapanabilir
+#     düşüşü: −%7,3 / −%4,5 / −%2,2. N=8/N=24 oranı 3,3× (istenen eşik
+#     ≥1,5×'i rahatça geçiyor).
+#
+# O6  ⚪ ÖLÇMEDİM (ayrıştırılmadı) — baseline-yalnız ile baseline+örtme
+#     süresini AYRI ÖLÇMEDİM (aynı koşuda iç içe hesaplandılar). Örtme
+#     hesabının karmaşıklık sınıfı baseline ile AYNI (O(bos×sahip), bir
+#     atan2 + 12 dilimlik vektörize argmin ekleniyor) — ama somut bir
+#     yüzde veremiyorum, "ölçmedim" diye yazıyorum.
+#
+# O7  🟢 TUTTU — örtme sonrası (N=12) en büyük tek devlet payı OSMANLI
+#     %5,9 (1769/30178) — global kaldı, tek devlete kaymadı.
+#
+# 📌 EN DEĞERLİ ÇÜRÜME: O1 ve O3. İkisi de "havuzlar aynı yönde tepki
+# verir" varsayımına dayanıyordu ve İKİSİ DE YANLIŞ ÇIKTI — mevcut kapı (C)
+# ile dördüncü sınıf (D4) örtmeye TERS yönde tepki veriyor. Bu, iki havuzu
+# AYRI ölçmeden tek bir "örtme etkisi" sayısı vermenin yanıltıcı olacağını
+# gösteriyor; BULGULAR-ORTME.md bu yüzden ikisini AYRI raporluyor.
+"""
 
 
 def bas():
+    print("ÖRTME — ÖNGÖRÜ KARNESİ (ölçüldü 2026-08-21, 384/1536 gün örneklem)")
     for satir in (
-        "O1  mevcut kapı düşüşü: %10-30 (nokta %18) — mazeret VAR",
-        "O2  dördüncü-sınıf kapanabilir düşüşü: %15-35 (nokta %22) — mazeret VAR",
-        "O3  çekişmeli ARTAR %10-40 — MAZERETSİZ",
-        "O4  Nâsıriye SONUCU DEĞİŞMEZ (OSMANLI kazanır) — mazeret VAR",
-        "O5  dilim daraldıkça düşüş küçülür (monoton) — MAZERETSİZ",
-        "O6  maliyet artışı ≤%50 — MAZERETSİZ",
-        "O7  çekişme sonrası dağılım GLOBAL kalır — mazeret VAR",
+        "O1  ÇÜRÜDÜ (yön yanlış) — mevcut kapı (C) kapanabilir 482→527 (+9,3%)",
+        "O2  KISMEN ÇÜRÜDÜ (yön doğru, büyüklük küçük) — D4 31126→29651 (-4,7%)",
+        "O3  ÇÜRÜDÜ (mazeretsiz) — D4 çekişmeli +33,0% ama C çekişmeli -67,2%",
+        "O4  TUTTU — Nâsıriye HAM 41-18, örtmeli N12 24-4, OSMANLI hep kazandı",
+        "O5  TUTTU (mazeretsiz) — N=8/12/24 düşüş -7,3/-4,5/-2,2%, monoton",
+        "O6  ÖLÇMEDİM — maliyet artışı ayrıştırılmadı",
+        "O7  TUTTU — en büyük devlet payı %5,9, global kaldı",
     ):
         print(satir)
 

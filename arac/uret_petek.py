@@ -3391,6 +3391,18 @@ PUAN_TAVAN_KM = 200.0            # Emre'nin beyanı — 4 puanlık halka
 PUAN_ESIK = 4                    # boyanma eşiği
 PUAN_HALKA = ((200.0, 4), (300.0, 2), (400.0, 1))
 PUAN_KAPALI = os.environ.get("MOTOR_PUAN_KAPALI") == "1"
+# 🔴 ÖRTME (occlusion) — Emre, 20-21 Ağustos 2026:
+#   *"Bir toprağın en yakınındaki yerleşim merkezlerini bir çizgi ile
+#   birleştirdikten sonra bu çizginin arkasında kalan yerleşim yerleri
+#   puanlamaya katılmaz. Doğuda 300 · 305 · 310 km'de üç yerleşim varsa
+#   yalnız en yakındaki 1 tanesi katılır."*
+# Çevre ORTME_DILIM_SAYISI eş dilime bölünür (taban 12 → 30°/dilim); her
+# dilimde YALNIZ EN YAKIN sahip nokta puan verir — DEVLETİ NE OLURSA OLSUN
+# (occlusion geometrik: yakın bir köy hangi devletin olursa olsun, aynı
+# yöndeki uzak köyün görüş hattını KESER). Ölçüldü (denetim/ongoru_ortme.py
+# karnesi, 384/1536 gün örneklem): N=8→−%7,3 · N=12→−%4,5 · N=24→−%2,2
+# (kapanabilir petek-gün üzerinde) — dilim genişledikçe düşüş büyür, MONOTON.
+ORTME_DILIM_SAYISI = 12
 _PUAN_ONBELLEK = {}              # yalnız aynı dönem içinde tekrar için
 _PUAN_KESILEN = [0.0]            # kapının kestiği toplam km² (ölçüm)
 _PUAN_TAMAMEN = [0]              # tamamen boşalan gövde-dönemi sayısı
@@ -3578,9 +3590,26 @@ def _dolgu_kumesi(a):
         #
         # 🟢 Ve ayırt edici ZATEN VERİDEYDİ — `tur:` alanı. Yeni alan icat
         # edilmedi (`§11`: "bir alan tasarlamadan önce var olup olmadığını ölç").
+        #
+        # 🔴 DÖRDÜNCÜ SINIF (KAPI KARNESİ, `1ff92b5` · BULGULAR-DORDUNCU.md,
+        # commit 3240fb8) — `_sahipli(y,g)=YANLIŞ` olan (kaydın hiçbir
+        # döneminde bu tarihi kapsayan bir sahip yazılı DEĞİL) VE `kur:`/`bit:`
+        # yüzünden sahnede olmayan noktalar `devir_kumesi()`ye de GİRMİYORDU
+        # (o küme `_sahipli=DOĞRU` şartını arıyor) — yani ne devredilir ne
+        # doldurulurdu: PETEK DELİK. Nâsıriye (kur:1869) böyle bulundu; Emre'nin
+        # Basra-Bağdat şikâyetinin sebebiydi. Ölçüldü: bu sınıf tek başına
+        # (§DOLGU_ACIK üstündeki C sınıfının) ~3 katı büyüklükte
+        # (205.387 vs 69.198 petek-gün, örneklemsiz tam ızgara). Emre'nin
+        # kendi şartı zaten bunu kapsıyor — kayıt hiçbir dönemde "burada
+        # devlet YOKTU" demiyor, sadece henüz sözü geçen bir kayıt yok;
+        # `hata`/`bolge` sınıfından farkı yok, yalnız `tur:`/`bos:` süzgeci
+        # bunu YANLIŞLIKLA dışarıda bırakıyordu.
+        _dordurcu = bool((y.get("kur") and y["kur"] > a)
+                          or (y.get("bit") and y["bit"] <= a))
         if (y.get("bos") in DOLDURULABILIR_BOS
                 or (y.get("tur") == "bolge"
-                    and y.get("bos") in (None, "", "devletsiz"))):
+                    and y.get("bos") in (None, "", "devletsiz"))
+                or _dordurcu):
             bos_ix.append(j)
     if not bos_ix or not sahip_ix:
         _DOLGU_ONBELLEK[a] = {}
@@ -3590,13 +3619,34 @@ def _dolgu_kumesi(a):
     sla = _np3.array([YERLER[j]["lat"] for j in sahip_ix])
     slo = _np3.array([YERLER[j]["lon"] for j in sahip_ix])
     _co = _np3.cos(_np3.radians((bla[:, None] + sla[None, :]) / 2))
-    _m = _np3.sqrt(((bla[:, None] - sla[None, :]) * 110.574) ** 2
-                   + ((blo[:, None] - slo[None, :]) * 111.320 * _co) ** 2)
+    _dy = (sla[None, :] - bla[:, None]) * 110.574
+    _dx = (slo[None, :] - blo[:, None]) * 111.320 * _co
+    _m = _np3.sqrt(_dx ** 2 + _dy ** 2)
     _k = _np3.zeros(_m.shape, dtype="int16")
     _once = 0.0
     for _e, _pu in PUAN_HALKA:
         _k[(_m >= _once) & (_m < _e)] = _pu
         _once = _e
+    # 🔴 ÖRTME (occlusion, Emre 20-21 Ağustos 2026 — bkz ORTME_DILIM_SAYISI
+    # tanımı yukarıda). Çevre dilimlere bölünür, her dilimde YALNIZ EN YAKIN
+    # sahip nokta puan verir — devleti ne olursa olsun. Ölçüldü
+    # (denetim/ongoru_ortme.py karnesi): dördüncü sınıfta kapanabilir
+    # petek-gün ~%4-7 düşüyor, Nâsıriye vakası (OSMANLI 41 · safevi 18) sonuç
+    # DEĞİŞTİRMİYOR (örtme sonrası 24-4, hâlâ OSMANLI).
+    _ang = (_np3.degrees(_np3.arctan2(_dx, _dy)) + 360.0) % 360.0
+    _genislik = 360.0 / ORTME_DILIM_SAYISI
+    _dilim = (_ang // _genislik).astype(int)
+    _keep = _np3.zeros(_m.shape, dtype=bool)
+    _nrow = _np3.arange(_m.shape[0])
+    for _d in range(ORTME_DILIM_SAYISI):
+        _mask_d = (_dilim == _d)
+        if not _mask_d.any():
+            continue
+        _m_masked = _np3.where(_mask_d, _m, _np3.inf)
+        _best_j = _m_masked.argmin(axis=1)
+        _has_any = _mask_d.any(axis=1)
+        _keep[_nrow[_has_any], _best_j[_has_any]] = True
+    _k = _np3.where(_keep, _k, 0)
     devletler = sorted(set(sahip_kim))
     dizin = {d: [i for i, k in enumerate(sahip_kim) if k == d]
              for d in devletler}
@@ -3972,8 +4022,10 @@ else:
           f"{_DOLGU_SAYAC['cekismeli']} ÇEKİŞMELİ (boş bırakıldı) · "
           f"{_DOLGU_SAYAC['gun']} gün hesaplandı")
     print(f"     şart: bos ∈ {sorted(DOLDURULABILIR_BOS)} ya da "
-          f"(tur=bolge ve bos ∈ [yok, devletsiz]) · "
-          f"kabile · veri-yok · insansiz KATILMAZ (Emre, 18 Ağustos 2026)")
+          f"(tur=bolge ve bos ∈ [yok, devletsiz]) ya da DÖRDÜNCÜ SINIF "
+          f"(kur:>g/bit:≤g VE sahipsiz — BULGULAR-DORDUNCU.md) · "
+          f"kabile · veri-yok · insansiz KATILMAZ (Emre, 18 Ağustos 2026) · "
+          f"ÖRTME açık, {ORTME_DILIM_SAYISI} dilim (Emre, 21 Ağustos 2026)")
 
 asama("Uzak coğrafya seyreltme (yabancı havuz)")
 _don = don_kose_kur(
