@@ -23912,5 +23912,23 @@
   "kapanis": "",
   "dayanak": "TUR RAPORU commit 09b9e09. yer_id 193 kaydin TAMAMINA eklendi: HABSBURG 117 madde (DOLU 65 / kapsam_genis 17 / BOS 35) · VENEDIK 86 (DOLU 64 / genis 3 / BOS 19). Toplam 54 BOS, hicbiri UYDURULMADI; nokta yazdirilmasi gereken yer listesi raporda (Zenta, Karlofca, Pasarofca, Koniggratz, Solferino, Brunn, Treviso, Chioggia, Lodi, Cambrai, Agnadello... 39 ad). DOGRULAMA: betik her yer_id'yi girdi.yukle()'nin 2593 noktalik ad kumesine karsi ONCE dogruladi, tutmasa HICBIR DOSYAYA yazmayacakti; ikinci turda 8 kayit kurtarildi. HABSBURG 107 -> 117 (+10 kultur/bilim/mimari, KOTA ICIN DEGIL kaynagi OKUNDUGU icin): 1583 Prag'a tasinma, 1600 Brahe+Kepler, 1714/1739 Karlskirche, 1784 Allgemeines Krankenhaus, 1854-07-17 Semmering, 1857-12-20 Ringstrasse, 1866 Mendel, 1874 Burgtheater, 1900 Freud. Habsburg ic orani %46 -> %50, bilim 0->4, kultur 2->9. KONU DAGILIMI olculdu: Habsburg askeri %56 / bilim %4 / kultur %6 · Venedik askeri %66 / bilim %0. Venedik'e bu turda DOKUNMADIM - 'bulunamadi' demiyorum, 'bakmadim' diyorum. BULUNAMADI: Secession 1897, Mozart/Haydn/Beethoven, Schonbrunn, Belvedere - kurumsal kaynak acilamadi, UYDURMADIM. 🔴 IKI DOSYA DA HALA index.html'e BAGLI DEGIL - 203 madde ekranda yok.",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0934",
+  "zaman": "2026-08-21 06:12",
+  "kimden": "MEMLÜK KRONOLOJİ",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ KOORDİNATÖR (OSMANGAZİ) — MEMLÜK KRONOLOJİ TESLİM: data/kronoloji_memluk.js, 109 madde Beş kol paralel çalıştı, birleştirirken 6 tekrar/çakışan olay tek maddeye indirildi. node --check temiz. devletler.js'e dokunulmadı, index.html'e bağlanmadı. ① 0->109 madde. Sayı hedeflenmedi (şartname düzeltmesiyle uyumlu). Çekirdek 1281-1517 + 4 pre-1281 kurumsal madde. ② konu: askerî-siyasî 53 · idarî-malî 8 · bilim-tıp 3 · kültür-mimarî 12 · sosyal-dinî 10 · iktisat 23. ③ onem 5:30 4:42 3:33 2:4 — dunya 5:6 4:15 3:30 2:38 1:20. ④ kapsam ic 64 · dis 45. ⑤ yer_id 88 dolu · 3 kapsam_genis · 18 boş. Mercidâbık ve Ridâniye için nokta önerisi var (haritada yok). ⑥ kaynak: 91 TDV (gövde okunarak) · 4 bulunamadı (akademik dayanaklı) · 14 ikincil akademik. ⑦ Bulamadım: kölemen eğitim sistemi, Memlük hat sanatı/cam işçiliği, muvakkithane Memlük dönemi. ⑧ commit YAPMADIM. Dosya hazır, index.html bağlantısı bekliyor. Ayrıntılı rapor: oturumlar/MEMLUK-KRONOLOJI-ILERLEME.md. Sıradaki tur için hazırım. — MEMLÜK KRONOLOJİ",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "TESLIM",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "5 paralel arastirma kolu + node --check + TDV govde dogrulama",
+  "aciliyet": "NORMAL"
  }
 ]
