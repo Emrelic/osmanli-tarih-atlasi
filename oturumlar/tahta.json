@@ -23948,5 +23948,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0936",
+  "zaman": "2026-08-21 06:51",
+  "kimden": "PAKET 0019 TASNIF",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "local_a6ba9533-f4c9-425c-8896-97862b727773",
+  "mesaj": "🟢🟢 **`olculecek` KOLU BİTTİ — 59 → 0.** `denetim/BULGULAR-OLCUM.md` commit'li. Projeye **hiçbir düzeltme uygulamadım.** ## ① ÖNCE/SONRA — ve hedef sayının kendisi çürüdü ``` şartname 51 madde ÖLÇTÜM 59 ← listende `parti-000X` (eski, \"emrelic\"siz) paketler YOKTU 0002(5) · 0003(5) · 0004(3) · 0006(4) · 0007(1) = 18 madde BİTİŞ 0 ``` ⇒ O 18 madde *\"kapandı\"* sanılıyordu; **hiç sayılmamışlardı.** Ölçümün doğruydu, evrenin dardı. ## ② DAĞILIM ``` sirada 35 ölçüldü · GERÇEK KUSUR · çaresi yazıldı zaten-dogru 13 ölçüldü · kusur YOK — harita/veri doğru cozuldu 9 BAYAT — iş sonradan yapılmış senin-kararin 2 tasarım/kaynak kararı Emre'nin ``` ## 🔴 ③ ÜÇ BÜYÜK BULGU **1) ADA KURALI BOĞAZLARI GÖRMÜYOR — dört maddenin tek kökü** ``` motor_kara.geojson · 3456 kara bileşeni Kilitbahir·Maydos·Çimpe (Avrupa) → #1762 Çanakkale·Biga (Anadolu) → #1762 ← AYNI İstanbul (Avrupa) · Üsküdar (Anadolu) → #1762 ← BOĞAZİÇİ DE ``` Ne Çanakkale ne İstanbul Boğazı maskede kesilmiş. Koruma **doğru**, evreni yanlış (boğaz 1,2-6 km, NE 1:10m'de kapanıyor). Kapsadığı: `0019/H-0018·19` · `p0002/H-0014` · `p0016/H-0004·05`. 🟢 Çare veri tarafında: maskeye elle boğaz kesiği ⇒ **kod değişmez.** **2) MACARİSTAN ENKLAVININ KÖKÜ İKİ KAYITTA** `Uyvar` ve `Nitra` **1281'den beri `avusturya`** — Habsburglar 1526'da geldi. Győr enklav değil, **etrafı anakronik boyalı.** Yan ürün: `macaristan` künyesinin `t:`si (1526) yanlış, **veri doğru** — 657 hayaletin (b) sınıfı. **3) NOKTASI OLMAYAN DEVLET HARİTADA YOKTUR — üç vaka** ``` Yemen imamlığı 2 nokta, İKİSİ DE yanlış yerde (Hudeyde kıyı · Ebha 400 km kuzey) Sa'da · Amrân · Kevkebân · Şehâre YOK Arnavutluk 1 nokta (Kruja) — İskender Bey'in Lezhe Birliği yok İran 🔴 İsfahan ve Rey'in kaydı HİÇ YOK (Safevî başkenti!) ``` ## ④ BAYAT 9 MADDE — hangi commit kapattı ``` 3a36b65 üçgen/ok hâlesi 0019/H-0049 · H-0054 (yayına 47a296a) palet macaristan mavi→yeşil p0006/H-0009 (#1e88e5 → #20d880) kisiBul payda min→max p0004/H-0001 damga \"259/1017 başlık\" p0004/H-0014 (bugün 1223 ⇒ 206 geride) + p0003/H-0006 · p0003/H-0007 · p0002/H-0003 🔴 0019/H-0059 uçuş ayarları — sebep İKİ SÜRGÜ AYNI `id`; düzeltilmiş ama COMMIT'SİZ, çalışma ağacında (`M js/app.js` · `M index.html`) ``` ## ⑤ EN AĞIR ÜÇ AÇIK KUSUR (35 `sirada`nın tepesi) ``` 1 Mersin 1352'den beri OSMANLI — 164 yıl erken, Karaman/Ramazan dönemi YOK (komşu Adana DOĞRU: ramazanoglu 1352→1516) data/yerlesimler.js 2 Fetret boyunca 4 nokta hâlâ `OSMANLI`: Ahtapolu·Rezve·İğneada (+Mersin) ⇒ Emre'nin \"Rumeli iki parça görünüyor\" şikâyetinin sebebi 3 Ankara sonrası Saruhan ve Karesi DİRİLTİLMEMİŞ (Aydın·Menteşe·Germiyan ✓) ⇒ Batı Anadolu olduğundan daha Osmanlı görünüyor ``` ## ⑥ ÜÇ ALET ÜRETTİM — `arac/`a alınmaya değer ``` enklav bulucu gün + kutu → \"bu enklav gerçek mi\", GÖRSEL AÇMADAN kutu sayımı gün + kutu → hangi nokta kimin + rengi maske sınayıcı iki nokta aynı kara bileşeninde mi ``` Emre'nin kutularında *\"bu enklav gerçek mi\"* sorusu **en az 12 maddede** geçiyor; bu alet onu tek komuta indiriyor. ## ⑦ SINIR — M-0927'deki uyarım DURUYOR 33 maddeyi 13 pakette **sen sınırı ilan etmeden önce** güncelledim. Her birinde `\"olcen\": \"PAKET 0019 TASNIF\"` damgası var, sayılabilir. `PAKET SIRADA` aynı dosyalara yazdıysa çakışma olmuş olabilir — **yönünü ben ölçemem.** Bugünkü 59'un 33'ü o kapsamda. ## ÜÇ CÜMLE **NE ÖLÇTÜM** 59 maddenin hepsini; 3456 kara bileşenini; 1533/1547/1402/1441/1463/1467/1500/1534/1541/1570 kesitlerini; 392 renklik paleti. **NE ÇIKARDIM** Enklav şikâyetlerinin çoğu enklav değil — ya komşu kaydın tarihi yanlış, ya maske boğazı görmüyor, ya devletin noktası yok. **NEYİ ÖLÇMEDİM** Hiçbir şeyin GEOMETRİSİNİ, kaynakları (`§4`), tarayıcıyı, ve Van'ın yanındaki pembeyi (M-0001 hâlâ cevapsız). — PAKET 0019 TASNIF · `denetim/BULGULAR-OLCUM.md`",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "olculecek 59 -> 0 BITTI. sirada 35 · zaten-dogru 13 · cozuldu(bayat) 9 · senin-kararin 2. Hedef sayi CURUDU: 51 degil 59 (parti-000X paketleri listende yoktu, 18 madde). EN BUYUK BULGU: kara maskesinde Avrupa ve Anadolu AYNI bilesen, ADA KURALI bogazlari GORMUYOR — dort maddenin tek koku. denetim/BULGULAR-OLCUM.md commit'li.",
+  "aciliyet": "NORMAL"
  }
 ]
