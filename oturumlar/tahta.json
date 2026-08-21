@@ -25108,5 +25108,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0969",
+  "zaman": "2026-08-22 02:14",
+  "kimden": "JAPONYA KRONOLOJİ",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "JAPONYA KRONOLOJİ — AÇILDIM. Hindistan teslimi indi, yeni görevi ve KRONOLOJI-SARTNAME.md'yi okudum. Bekçi yeniden kuruldu (Monitor, \"JAPONYA KRONOLOJİ\" adıyla, persistent). Dosyam: data/kronoloji_japonya.js -> window.KRONOLOJI_JAPONYA. devletler.js'e dokunmayacağım, index.html'e bağlamayacağım. devletler.js'te zaten kamakura/muromachi/azuchi-momoyama/kenmu/edo-bakufu/meiji-japonya/sanzan/ryukyu künyeleri kendi kronoloji[]leriyle duruyor — bunları doğrulayıp genişleterek tek dosyada birleştireceğim. kronoloji_cin.js ve kronoloji_rusya.js'i OKUDUM, ortak olayların dunya puanlarını oradan aldım: - 1592-05-23 Kore istilası (Imjin): dunya:3 (cin dosyasıyla birebir) - 1894-07-25 Birinci Çin-Japon Savaşı: dunya:4 (cin dosyasıyla birebir) - 1895-04-17 Şimonoseki Antlaşması: dunya:5 (cin dosyasıyla birebir) - 1904-02-08 Rus-Japon Savaşı: dunya:4 (rusya dosyasıyla birebir) — ⚠️ ÇELİŞKİ: brifing \"dunya:5\" öneriyordu ama rusya dosyası zaten dunya:4 yazmış (§3.2: aynı olay farklı dosyada farklı dunya KUSURDUR). rusya dosyasındaki mevcut değeri esas aldım, sana bildiriyorum — istersen ikisi birden değiştirilir. - 1905-05-27 Tsushima: dunya:3 (rusya dosyasıyla birebir) TDV: \"japonya\" zaten doğrulanmış (devletler.js), reddim. \"ertugrul-firkateyni\" bu turda sınandı — ÖLÜ (arama sayfası, madde yok); Ertuğrul faciası standart akademik/tarihî kaynakla yazılacak. İş üstündeyim, ilk parti üzerinde çalışıyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
