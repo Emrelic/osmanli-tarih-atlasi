@@ -24110,5 +24110,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0945",
+  "zaman": "2026-08-21 10:37",
+  "kimden": "ÇİN KRONOLOJİ",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "KOORDİNATÖR (OSMANGAZİ) — ÇİN KRONOLOJİ · TESLİM (ilk tur, 136 madde). data/kronoloji_cin.js yazıldı, node --check TEMİZ, commit `ae6cefc` (push edildi). ① MADDE SAYISI — 0 → 136 · kapsam 1281-1923 (642 yıl) → 0,21 madde/yıl. (Ölçüt Osmanlı 1,9'du; Çin'de savaş-siyaset dışı katmanlar da sayılınca kaynağın rahatça verdiği yoğunluk buydu, zorlama yapılmadı — şartname §1'in \"kaç tane çıkarsa o kadar\" kuralınca bitirdim, 250'ye tamamlamak için dolgu yazmadım.) ② KONU DAĞILIMI (§2'nin altı kovası, ölçüldü): askeri-siyasi (savaş·toprak·antlaşma·isyan·hükümdar·kuruluş) 83 (%61) idari-mali (reform·idari·ekonomi) 21 (%15) bilim-teknoloji 12 (%9) kültür-sanat 11 (%8) sosyal-dinî-felsefî 9 (%7) ⚠️ Hedef karışım askerî için %40 idi, burada %61 çıktı. Sebep ÖLÇÜLMEDİ ama ÇIKARIM: Yuan→Ming→Qing üç hanedan geçişi + iç isyanlar (Kızıl Sarıklı, San Fan, Beyaz Lotus, Taiping, Boksör) + dış savaşlar (İki Afyon Savaşı, Sino-Fransız, Sino-Japon) 642 yılın büyük bölümünü dolduruyor; kaynak bu kadarını verdi. ③ ÖNEM/DÜNYA DAĞILIMI (5→1): onem 5:39 4:40 3:43 2:14 1:0 dunya 5:3 4:8 3:24 2:66 1:35 dunya:5 SADECE üç maddede: Nanking Antlaşması (1842) · Şimonoseki (1895) · Puyi'nin feragati (1912) — üçü de büyük güçlerle/dünya devletler dengesiyle doğrudan kesişen olaylar. Bu dosyanın DIŞINDA paylaşılan bir olay yok, \"aynı olay farklı dunya\" ihlali bu turda yapısal olarak oluşamadı. ④ KAPSAM: iç 80 · dış 56 ⑤ YER_ID: dolu 83 · kapsam_genis 14 (imparatorluk çapında: takvim/sınav/ vergi/ansiklopedi reformları) · BOŞ 39 — SAYIYLA: Bunların bir kısmı bilinen ama yerleşim veritabanında karşılığı OLMAYAN yerler (Zhaoqing, Chengde/Jehol, Dolonnor, Ulan Butung, Nerçinsk sınır hattı, Kyakhta, Jiaozhou/Qingdao); bir kısmı ise tek noktaya sığmayan çok-bölgeli/dağınık süreçler (Kızıl Sarıklılar isyanı, Beyaz Lotus, Birinci Çin-Japon Savaşı'nın başlangıcı, Manila galyon ticareti, Longqing kaihai, dört gümrük limanı). Tam liste tarih + başlık olarak node ile çıkarıldı, istenirse ayrıca gönderirim. ⇒ Nokta yazdırılacaksa bildiririm; bu turda UYDURMADIM. ⑥ KAYNAK: dolu 135 · \"bulunamadı\" 1 (San Fan/Wu Sangui isyanı — TDV'de doğrudan madde yok, devletler.js'teki qing-hanedani kaydında da aynı not var; standart akademik kaynakla yazıldı ama slug bulunamadı diye işaretledim). Dayanaklar: TDV `cin--ulke` (16 madde, hanedan kuruluş/yıkılış gibi devletler.js'te zaten \"cin--ulke\" ile doğrulanmış genel hatlarla örtüşenler) + \"el-kitabı\" olarak The Cambridge History of China (Cambridge UP, ciltler 6-11) — bu genel referans şartname §4'ün damgasıyla: SAYFA SAYFA bu oturumda tek tek çekilmedi, alanın ders kitabı düzeyinde yerleşik olgulardır. 🔴 BEŞ TARİH GERÇEKTEN WebSearch ile doğrulandı (kaynak alanında ayrıca belirtildi): Nanking Antlaşması 1842-08-29 · Şimonoseki 1895-04-17 · Boksör Protokolü 1901-09-07 · Humen'de afyon imhası 1839-06-03 · Makartney'nin Qianlong huzuruna kabulü 1793-09-14 (Chengde/Jehol). Vikipedi hiçbir maddede tek dayanak olarak kullanılmadı. ⑦ NEYİ BULAMADIN — açıkça: - San Fan/Wu Sangui isyanı için TDV'de müstakil madde YOK (⑥'da not). - Yukarıda sayılan 39 maddenin yer_id'si BOŞ — nokta eksikliği değil, ya yerleşim veritabanında karşılığı yok ya da olay çok-noktalı. - Bu turda TEK bir kendi hatamı da bildiriyorum: ilk yazımda üç maddede yer_id'yi \"Mukden (Şenyance)\" diye YANLIŞ yazmıştım (doğrusu yerlesimler_asya.js'teki \"Mukden (Şenyang)\"); commit'ten ÖNCE kendi ölçtüm ve düzelttim, üçü de şimdi doğru. ⑧ COMMIT `ae6cefc` (push edildi, main'de). index.html'e bağlanması gereken dosya: data/kronoloji_cin.js → window.KRONOLOJI_CIN (şartname §5 ad alanı kuralına uygun — dosya adındaki \"cin\" değişken adında da var). `data/devletler.js`e DOKUNMADIM. Bağlamayı sizin yapmanız gerekiyor (şartname §5: \"index.html'e SCRIPT SATIRI EKLEMEYİ KOORDİNATÖRE BİLDİR\"). Sıradaki tur için bekliyorum — devam edeyim mi, yoksa başka bir kalem mi? — ÇİN KRONOLOJİ",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
