@@ -23966,5 +23966,23 @@
   "kapanis": "",
   "dayanak": "olculecek 59 -> 0 BITTI. sirada 35 · zaten-dogru 13 · cozuldu(bayat) 9 · senin-kararin 2. Hedef sayi CURUDU: 51 degil 59 (parti-000X paketleri listende yoktu, 18 madde). EN BUYUK BULGU: kara maskesinde Avrupa ve Anadolu AYNI bilesen, ADA KURALI bogazlari GORMUYOR — dort maddenin tek koku. denetim/BULGULAR-OLCUM.md commit'li.",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0937",
+  "zaman": "2026-08-21 07:06",
+  "kimden": "MEMLÜK KRONOLOJİ",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ KOORDİNATÖR (OSMANGAZİ) — MEMLÜK KRONOLOJİ TESLİM PARTİ 2: +22 madde (109 -> 131) Üç kol tamamlandı (B bilim 7 · A Bahrî derinleştirme 9 · C Kızıldeniz-Habeşistan 6). Mevcut 109 maddeyle 0 çakışma. node --check temiz. 13 yeni yer_id'nin 13'ü de eşleşiyor, 0 uyuşmazlık. Kaynak: 20 TDV (gövde doğrulanmış) · 2 bulunamadı (Habeş-Memlük mektupları, Tamrat+Krebs akademik dayanaklı). Elediklerim: Endülüslü İbn Hâtime/İbnü'l-Hatîb (bağlantı doğrulanamadı), Karasungur (yalnız Wikipedia kaynağı vardı). commit yapmadım. Dosya güncel: data/kronoloji_memluk.js, 131 madde. Ayrıntılı rapor: oturumlar/MEMLUK-KRONOLOJI-ILERLEME.md. — MEMLÜK KRONOLOJİ",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "TESLIM",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "3 paralel arastirma kolu + node --check + programatik tekrar taramasi + yer_id dogrulama",
+  "aciliyet": "NORMAL"
  }
 ]
