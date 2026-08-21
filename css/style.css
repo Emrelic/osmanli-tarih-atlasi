@@ -46,8 +46,9 @@ body {
   flex: 0 0 auto;
   position: relative;   /* #menu-butonlar bunun altına asılıyor */
 }
-#ustbar h1 { font-size: 15px; letter-spacing: 0.3px; white-space: nowrap; flex: 0 0 auto; }
-#ustbar .alt { font-weight: normal; font-size: 12px; opacity: 0.8; }
+/* `#ustbar h1` / `.alt` KURALLARI KALDIRILDI — 21 Ağustos, `<h1>` HTML'den
+   silindi (Emre: "Osmanlı Tarih Atlası etiketini şimdilik kaldıralım");
+   `.alt` yalnız o `<h1>`in içinde kullanılıyordu, başka hiçbir yerde yok. */
 
 #btn-menu {
   background: #f3e6c8;
@@ -101,14 +102,18 @@ body {
 }
 #btn-tamekran { padding: 3px 8px; font-size: 14px; }
 
-/* Orta: tarih + dönem/kronoloji başlığı — geri kalan alanı paylaşıyor ki
-   YIL ve başlık sağda sabit kalsın. */
+/* Orta: tarih + dönem/kronoloji başlığı — geri kalan alanı paylaşıyor.
+   🔴 21 Ağustos — Emre: "Osmanlı Tarih Atlası" başlığı gidince çubuğun sağ
+   ucunu artık `#ustbar-yil` TEK BAŞINA tutuyor; tarih bloğunu SOLA
+   ÖTELEYİP "bu çubuğun hizasının bittiği yerden SAĞA YANAŞIK" koymak için
+   `justify-content` `center`den `flex-end`e döndü — blok artık `#ustbar-
+   yil`in hemen soluna yaslanıyor, ortada değil. */
 #ustbar-orta {
   flex: 1 1 auto;
   min-width: 0;
   display: flex;
   align-items: baseline;
-  justify-content: center;
+  justify-content: flex-end;
   gap: 8px;
   overflow: hidden;
 }
@@ -165,7 +170,17 @@ body {
 }
 
 /* ---------- Gövde ---------- */
+/* 🔴 21 Ağustos 2026 — PAKET 0026/H-0001, Emre: "sağdaki sütun en tepeden
+   en aşağıya kadar devam etsin." `#govde` artık KÖK SATIR: sol sütun
+   (üst bar + harita + alt bar, dikey) ile `#yanpanel` (tam yükseklik)
+   yan yana. Eskiden `#govde` yalnız harita+panel taşıyordu, üst/alt bar
+   `<body>`nin AYRI flex-column çocuklarıydı (üç yatay şerit). Şimdi
+   `#govde` TEK satır, panel köşeden köşeye. */
 #govde { flex: 1 1 auto; display: flex; min-height: 0; }
+#sol-govde {
+  flex: 1 1 auto; min-width: 0; min-height: 0;
+  display: flex; flex-direction: column;
+}
 #harita { flex: 1 1 auto; min-width: 0; position: relative; }
 
 /* 🔴 EMRE, 19 Ağustos 2026: *"sağdaki ... sağ alt bölüm genişliği şimdiki
@@ -190,15 +205,25 @@ body {
 /* yan panel katlanabilir — haritaya azami alan bırakmak için */
 #yanpanel.katli { flex: 0 0 0; overflow: hidden; border-left: none; }
 
+/* 🔴 21 Ağustos — Emre: "km² göstergesini haritanın en sağ köşesinde
+   yazdıralım" (eskiden alt çubuktaydı). `#harita-ust-sag` köşenin TEK
+   sahibi (`position:absolute` burada); düğme sırası ÜSTTE, km² badge'i
+   ALTINDA — ikisi ayrı ayrı absolute olsaydı çakışırlardı. */
+#harita-ust-sag {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 9;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+}
 /* İki harita düğmesi (panel katla · panel genişliği) tek sarmalda. Eskiden
    `#btn-panel` TEK BAŞINA `position:absolute; right:8px` idi; ikinci düğme
    için sabit bir `right:` px vermek düğme metni değiştikçe ("⇥ Panel" →
    "⇤ Panel") kayardı. Sarmal flex olunca ofset ÖLÇÜLMÜYOR, doğuyor. */
 #harita-dugmeler {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  z-index: 9;
   display: flex;
   gap: 6px;
 }
@@ -322,34 +347,58 @@ body {
    `<select>` kısalır (seçili metni kırpar, açılır listesi tam görünür),
    uzun tek kelimeli başlıklar sarar. */
 #padisah-bilgi { min-width: 0; }
-#odak-devlet { max-width: 100%; }
 #padisah-ad, #ob-baslik { overflow-wrap: anywhere; }
 
-/* ---------- ÇOK SEKMELİ ARAYÜZ (20 Ağustos 2026) — ek devletler ---------- */
-#ek-devletler-kutu { margin-top: 4px; }
-#ek-devletler-ac {
+/* ---------- TEK DEVLET SEÇİCİ (21 Ağustos 2026) — odak + ek, tek panel --
+   PAKET 0026/H-0001: eski `#odak-devlet` (<select>) + `#ek-devletler-*`
+   (checkbox paneli) BİRLEŞTİ. `#odak-devlet`in "393 seçenekli <select>
+   panel genişliğini ezer" kusuru (yukarıdaki `min-width:0` notu) burada
+   DOĞMAZ — bu bir <select> değil, kendi genişliğini panelin İÇİNDE, kayan
+   bir listede tutan `<div>`. -------------------------------------------- */
+#devlet-secici { margin-top: 2px; position: relative; }
+#devlet-secici-buton {
+  width: 100%;
+  text-align: left;
   background: var(--panel-koyu);
   border: 1px solid var(--altin);
-  border-radius: 4px;
-  font-size: 11px;
-  padding: 2px 7px;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 4px 8px;
   cursor: pointer;
   color: var(--metin);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
-#ek-devletler-ac:hover { background: #ffe9a8; }
-#ek-devletler-panel {
-  margin-top: 4px;
+#devlet-secici-buton:hover { background: #ffe9a8; }
+#devlet-secici-panel {
+  position: absolute;
+  left: 0; right: 0; top: 100%;
+  z-index: 15;
+  margin-top: 3px;
   padding: 5px 7px;
   background: #fffdf6;
   border: 1px solid #d8c9a3;
-  border-radius: 5px;
+  border-radius: 6px;
   font-size: 11.5px;
-  max-height: 140px;
-  overflow-y: auto;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.3);
 }
-#ek-devletler-panel.gizli { display: none; }
-.ek-devlet-satir { display: flex; align-items: center; gap: 4px; padding: 1px 0; cursor: pointer; }
-.ek-devlet-satir input { flex: 0 0 auto; }
+#devlet-secici-panel.gizli { display: none; }
+#devlet-secici-liste { max-height: 220px; overflow-y: auto; }
+.devlet-secici-satir {
+  display: flex; align-items: center; gap: 5px;
+  padding: 3px 4px; border-radius: 4px; cursor: pointer;
+}
+.devlet-secici-satir:hover { background: #f0e6c8; }
+.devlet-secici-satir.secili-odak { background: #fbe9b0; font-weight: bold; }
+.devlet-secici-satir.secili-ek { background: #eef3e6; }
+.dss-ad { flex: 1 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.dss-rozet {
+  flex: 0 0 auto; font-size: 9.5px; font-weight: bold; letter-spacing: 0.3px;
+  padding: 1px 5px; border-radius: 3px; color: #fff;
+}
+.secili-odak .dss-rozet { background: #8e0b22; }
+.secili-ek .dss-rozet { background: #2e7d32; }
 .ek-nokta { width: 8px; height: 8px; border-radius: 50%; flex: 0 0 auto; display: inline-block; }
 .ek-ayar-satir { display: flex; align-items: center; gap: 5px; margin-top: 4px; padding-top: 4px; border-top: 1px dashed #d8c9a3; }
 .ek-ayar-satir select { font-size: 11px; }
@@ -394,6 +443,13 @@ body {
   flex: 0 0 auto;
 }
 #padisah-portre img { width: 100%; height: 100%; object-fit: cover; }
+/* 🔴 21 Ağustos — PAKET 0025/H-0003: dar/geniş düğmesi padişah adının
+   sağına, panelin EN KENARINA yaslandı. `justify-content:space-between`
+   ad'ı sola, düğmeyi sağa iter; `min-width:0` ad UZUNKEN (ör. "II. Abdül-
+   hamid Hân") düğmenin taşmasını değil, ad'ın satır kırmasını sağlar. */
+#padisah-ad-satir { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+#padisah-ad-satir #padisah-ad { min-width: 0; }
+#padisah-ad-satir #btn-panel-genislik { flex: 0 0 auto; padding: 2px 7px; font-size: 11.5px; }
 #padisah-ad { font-weight: bold; font-size: 14.5px; line-height: 1.2; }
 #padisah-saltanat { font-size: 12px; color: #6b5a33; }
 
@@ -577,18 +633,8 @@ body {
   max-width: 130px;
 }
 #zaman { flex: 1 1 auto; accent-color: var(--osmanli-kirmizi); height: 5px; min-width: 90px; }
-#tarih-goster {
-  min-width: 118px;
-  text-align: center;
-  font-size: 14.5px;
-  font-weight: bold;
-  color: #f3e6c8;
-  background: rgba(0,0,0,0.35);
-  border: 1px solid var(--altin);
-  border-radius: 5px;
-  padding: 3px 8px;
-  white-space: nowrap;
-}
+/* `#tarih-goster` KURALI KALDIRILDI — 21 Ağustos, öğe HTML'den silindi
+   (bkz. index.html footer notu). Üst çubuktaki `#ustbar-tarih` yeterli. */
 
 /* ---------- Olay detay penceresi ---------- */
 /* hatalar 14 md.1: "olay başlıklarının üzerine tıklayınca AYNI SÜTUNDA SAĞ ALTTA
@@ -755,13 +801,11 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
   padding-top: 4px;
 }
 .lejant-baslik:first-child { margin-top: 0; border-top: none; padding-top: 0; }
-#alan-goster {
-  border-top: 1px solid #d8c9a3;
-  padding-top: 4px;
-  margin-top: 2px;
-  font-weight: bold;
-  color: #5c1020;
-}
+/* 🔴 21 Ağustos — bu kural (lejant kutusu içindeki ESKİ `#alan-goster`
+   yerleşimi) YETİM kalmıştı: öğe önce zaman çubuğuna (7 Ağustos), şimdi
+   haritanın köşesine (bkz. aşağıda `#harita-ust-sag #alan-goster`)
+   taşındı ama bu satır İKİ TAŞINMADAN da SİLİNMEMİŞTİ — aynı id için tek
+   bir kural KALDI, iki ayrı yerde çelişen tanım YOK. */
 
 /* ---------- Şehir işaretleri ---------- */
 .sehir { display: flex; align-items: center; gap: 4px; pointer-events: none; }
@@ -1560,19 +1604,25 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
 }
 .devlet-etiket:hover { color: rgba(52, 38, 22, 1); text-decoration: underline; }
 
-/* Yüzölçümü göstergesi — zaman çubuğunda, tarihin yanında.
-   Lejanttan buraya taşındı: orası gizlenebiliyordu ve tercih hatırlanıyordu,
-   yani kullanıcının şikâyetinin cevabı kullanıcı tarafından kapatılabiliyordu.
-   ⚠️ Tarihten SÖNÜK duruyor: tarih birincil bilgi (nerede olduğumuz), alan
-   ikincil (ne kadar). Aynı ağırlıkta olsalar ikisi de okunmaz. */
+/* Yüzölçümü göstergesi — 7 Ağustos'ta lejanttan zaman çubuğuna taşınmıştı
+   (kapatılabilir bir kutuda durmasın diye), 21 Ağustos'ta Emre'nin isteğiyle
+   HARİTANIN sağ üst köşesine taşındı (`#harita-ust-sag`, panel düğmelerinin
+   altında) — id AYNI kaldı, js/app.js dokunulmadı. Artık koyu bir çubuğun
+   ÜSTÜNDE değil DOĞRUDAN HARİTANIN üstünde durduğu için `#btn-panel` ile
+   AYNI açık-krem rozet stiline geçti; eski sönük koyu-zemin stili haritanın
+   çeşitli renkleri üstünde OKUNMAZ olurdu. */
 #alan-goster {
+  background: rgba(247, 241, 227, 0.94);
+  border: 1px solid var(--altin);
+  border-radius: 6px;
+  padding: 3px 9px;
   font-size: 12px;
-  color: #e0cfa8;
-  opacity: 0.9;
+  font-weight: bold;
+  color: #5c1020;
   white-space: nowrap;
-  padding: 0 2px;
 }
-/* Dar ekranda tarih kalsın, alan düşsün — tarih olmadan çubuk anlamsız. */
+#alan-goster:empty { display: none; }
+/* Dar ekranda köşe kalabalıklaşmasın — panel düğmeleri önceliği alır. */
 @media (max-width: 720px) { #alan-goster { display: none; } }
 
 /* Konu süzgeci (PLAN-ETIKET §8) — kronoloji listesinin üstünde, KAPALI açılır.

@@ -8,6 +8,17 @@
 <link rel="stylesheet" href="css/style.css?v=r2783">
 </head>
 <body>
+<!-- 🔴 21 Ağustos 2026 — PAKET 0026/H-0001, Emre: "sağdaki kronoloji sütunu
+     EN TEPEDEN EN AŞAĞIYA KADAR devam etsin." Eskiden `#yanpanel` yalnız
+     `#ustbar` ile `#zamanbar` ARASINDAKİ dar şeride sıkışıyordu (üç ayrı
+     yatay şerit: üst bar tam genişlik · gövde satırı · alt bar tam genişlik).
+     Şimdi `#govde` KÖK satır oldu (sol sütun + sağ panel, ikisi de tam
+     yükseklik); üst bar ve alt bar `#sol-govde`nin İÇİNE taşındı — panelin
+     SOLUNDA biterler, panelin kendisi artık tepeden tabana kesintisiz.
+     Sarmalı KOYAN YER burası: aşağıdaki `<header>`/`<footer>` DOM'da yer
+     değiştirdi, içerikleri (menü/tarih/oynatıcı) DOKUNULMADI. -->
+<main id="govde">
+<div id="sol-govde">
 <header id="ustbar">
   <!-- p2/H-0010 — kullanıcı: "Hakkında butonuna artık gerek yok. Buradaki
        butonları tek bir 'butonları aç' butonuna tıklanınca dizilecek şekilde
@@ -65,21 +76,38 @@
        (Emre, 18 Ağustos 2026). Üst çubukta yalnız tarih·dönem·yıl·başlık
        kaldı; id="bolge" değişmediği için js/app.js'e dokunulmadı. -->
 
+  <!-- 🔴 21 Ağustos — Emre: "OSMANLI TARİH ATLASI ETİKETİNİ ŞİMDİLİK
+       KALDIRALIM." `<h1>` SİLİNDİ (yalnız gizlenmedi — kullanılmayan bir
+       öğeyi ekranda tutmak `CLAUDE.md §11`in "yazılmış görünüyor" sınıfına
+       girer). Sayfa `<title>` etiketi zaten var, erişilebilirlik/SEO için
+       ayrı bir `<h1>` şart değil. "ŞİMDİLİK" olduğu için burada KAYITLI:
+       geri gelirse `#ustbar-yil`in hemen ardına eklenir.
+       `#ustbar-yil` KALDI (Emre onu kaldırmayı istemedi) ve artık çubuğun
+       EN SAĞINDA — tarih bloğu (`#ustbar-orta`) sağa yanaşık olarak
+       hemen solunda bitiyor (bkz. css/style.css `#ustbar-orta`). -->
   <div id="ustbar-yil"></div>
-  <h1>🕌 Osmanlı Tarih Atlası <span class="alt">1281–1923</span></h1>
 </header>
 
-<main id="govde">
   <div id="harita">
-    <!-- 🔴 EMRE, 19 Ağustos 2026: panel genişliği "şimdiki" ve "dar" (%60)
-         olmak üzere İKİ KADEME, ve ayarlanabilir olsun. Düğme #btn-panel'in
-         yanına kondu çünkü ikisi de AYNI şeyin ayarı: panelin harita
-         karşısındaki payı (katla = 0 · dar = %60 · geniş = %100).
-         Sarmal `#harita-dugmeler`: iki düğmenin arası px ile değil flex
-         `gap` ile veriliyor, metin uzunluğu değişince kaymasın diye. -->
-    <div id="harita-dugmeler">
-      <button id="btn-panel-genislik" title="Dar / geniş panel">↔ Dar</button>
-      <button id="btn-panel" title="Yan paneli gizle/göster (haritayı büyüt)">⇥ Panel</button>
+    <!-- 🔴 21 Ağustos — Emre: "kilometrekare göstergesini haritanın üzerinde
+         en sağ köşede yazdıralım" (eskiden alt çubuktaydı, bkz. footer'daki
+         not). `#harita-ust-sag` TEK bir köşe-sarmalı: düğmeler ÜSTTE, km²
+         ALTTA — ikisi ayrı ayrı `position:absolute` olsaydı aynı köşede
+         çakışırlardı. `#alan-goster` id'si AYNI KALDI, js/app.js'teki
+         `document.getElementById("alan-goster")` DOKUNULMADAN çalışıyor;
+         yalnız DOM'daki YERİ değişti. -->
+    <div id="harita-ust-sag">
+      <!-- 🔴 21 Ağustos — PAKET 0025/H-0003: `#btn-panel-genislik` (dar/geniş)
+           BURADAN `#padisah-karti`ye TAŞINDI (Emre: "padişah isminin sağ
+           tarafına"). `#btn-panel` (panelin TAMAMINI gizle/göster) BURADA
+           KALDI — panel gizliyken içindeki bir düğmeyle geri açılamaz. Tek
+           düğme kalınca `#harita-dugmeler` sarmalının kendisi de artık
+           GEREKMİYOR ama SİLİNMEDİ: yarın üçüncü bir harita düğmesi
+           eklenirse aynı flex-gap deseni hazır bekliyor. -->
+      <div id="harita-dugmeler">
+        <button id="btn-panel" title="Yan paneli gizle/göster (haritayı büyüt)">⇥ Panel</button>
+      </div>
+      <div id="alan-goster"></div>
     </div>
     <!-- Bölge önayarları p2/H-0010 ile üst çubuğa taşındı (id="bolge" aynı,
          yalnız DOM konumu değişti — js/app.js id üzerinden çalışıyor). -->
@@ -112,36 +140,71 @@
 
   </div>
 
+  <footer id="zamanbar">
+    <button id="btn-geri" title="Önceki olaya git">⏮</button>
+    <button id="btn-oynat" title="Oynat / Duraklat">▶</button>
+    <button id="btn-ileri" title="Sonraki olaya git">⏭</button>
+    <select id="akis-modu" title="Akış tipi: doğrusal zaman veya olay olay">
+      <option value="zaman" selected>⏱ Zaman akışı</option>
+      <option value="olay">📜 Olay olay</option>
+    </select>
+    <select id="hiz" title="Oynatma hızı (gün/saniye)">
+      <option value="30">Yavaş (ay/sn)</option>
+      <option value="180" selected>Normal (6 ay/sn)</option>
+      <option value="730">Hızlı (2 yıl/sn)</option>
+      <option value="3650">Çok hızlı (10 yıl/sn)</option>
+    </select>
+    <select id="olay-hiz" title="Her olayda bekleme süresi" style="display:none">
+      <option value="3000">3 sn/olay</option>
+      <option value="5000" selected>5 sn/olay</option>
+      <option value="8000">8 sn/olay</option>
+      <option value="12000">12 sn/olay</option>
+    </select>
+    <button id="btn-zoom" title="Otomatik yakınlaştırma: toprak büyüdükçe uzaklaş">🔍 Oto</button>
+    <input type="range" id="zaman" min="0" max="0" step="1">
+    <!-- 🔴 21 Ağustos — Emre: "alttaki gün ay yıl şeklinde olan göstergeyi
+         kaldıralım, üst çubukta zaten bir tarih göstergesi var." `#tarih-
+         goster` (eski id) SİLİNDİ; `js/app.js`teki `tarihGoster` değişkeni
+         artık BULAMADIĞI öğeye null-korumalı yazıyor mu diye AŞAĞIDA
+         (js/app.js tarafında) ayrıca düzeltildi — sessiz `TypeError`
+         BIRAKILMADI. `#alan-goster` (km²) de BURADAN kaldırıldı, haritanın
+         sağ üst köşesine taşındı (bkz. `#harita-ust-sag`, yukarıda). -->
+  </footer>
+  </div><!-- /#sol-govde -->
+
   <aside id="yanpanel">
     <section id="padisah-karti">
       <div id="padisah-portre"></div>
       <div id="padisah-bilgi">
-        <div id="padisah-ad">—</div>
+        <!-- 🔴 21 Ağustos — PAKET 0025/H-0003, Emre: "dar/geniş butonu sağ üst
+             köşeye, padişah isminin sağ tarafına, en kenara koyalım." Buton
+             haritadan (`#harita-ust-sag`) BURAYA taşındı — id AYNI KALDI
+             (`btn-panel-genislik`), js/app.js'teki dinleyici DOKUNULMADAN
+             çalışıyor. `#btn-panel` (panelin TAMAMINI gizle/göster) haritada
+             KALDI — panel gizliyken panelin İÇİNDEKİ bir düğmeyle tekrar
+             açılamaz, o yüzden o düğme panelin DIŞINDA olmak ZORUNDA. -->
+        <div id="padisah-ad-satir">
+          <div id="padisah-ad">—</div>
+          <button id="btn-panel-genislik" title="Dar / geniş panel">↔ Dar</button>
+        </div>
         <div id="padisah-saltanat"></div>
-        <!-- DEVLET ODAĞI — Emre, 18 Ağustos 2026: "istersem Avusturya-Habsburg
-             ya da Rusya seçip onun kronolojisini ve haritasını oynatayım."
-             Seçenekler js/app.js'te YALNIZ kronolojisi olan künyelerden
-             doldurulur (392/431); boş olanı listelemek, tıklayınca boş panel
-             açan bir seçenek sunmak olurdu. -->
-        <select id="odak-devlet" title="Haritanın ve kronolojinin odağını başka bir devlete al">
-          <option value="">☪ Osmanlı (varsayılan)</option>
-        </select>
-        <!-- ÇOK SEKMELİ ARAYÜZ — Emre'nin tarifi (20 Ağustos 2026), birebir:
-             "ODAK'a EK OLARAK Rusya Lehistan Osmanlı Venedik kronolojilerini
-             de görmek istiyorsam... hangi ÖNEMDEKİ maddelerin gösterileceğini
-             ayarlayabilelim." Kilit kural: ODAK'ın kendi kronolojisi HER ZAMAN
-             tam gösterilir (süzgeçsiz); EK devletler dunya/kapsam ile süzülür.
-             Liste js/app.js'te KRONOLOJİSİ OLAN devletlerden (odak hariç)
-             DİNAMİK dolduruluyor — burada devlet adı elle YAZILMIYOR, yeni
-             bir kronoloji_*.js eklenince otomatik listeye girer. -->
-        <div id="ek-devletler-kutu">
-          <button type="button" id="ek-devletler-ac" title="Ek devlet kronolojilerini bu listeye ekle">
-            ➕ Ek devletler
+        <!-- 🔴 21 Ağustos — PAKET 0026/H-0001, Emre: "padişah ismi kronoloji
+             seçme combobox'ı VE ek devlet combobox'ı TEK OLSUN, çoktan
+             seçmeli olsun, tek tek işaretlenebilsin. İLK İŞARETLENEN ODAK
+             DEVLET olacak, ikinci üçüncü seçilenler EK DEVLET kategorisinde."
+             Eskiden İKİ ayrı kontrol vardı (`#odak-devlet` tek seçimli
+             `<select>` + `#ek-devletler-*` checkbox paneli); şimdi TEK panel,
+             rol TIKLAMA SIRASINDAN türüyor (js/app.js `satirTikla`). Satırlar
+             ELLE YAZILMIYOR — Osmanlı sabit ilk satır + kronolojisi olan
+             devletler DİNAMİK (yeni bir kronoloji_*.js otomatik listeye girer). -->
+        <div id="devlet-secici">
+          <button type="button" id="devlet-secici-buton" title="Kronoloji odağını ve ek devletleri seç — ilk tıkladığın ODAK, sonrakiler EK olur">
+            ☪ Osmanlı ▾
           </button>
-          <div id="ek-devletler-panel" class="gizli">
-            <div id="ek-devletler-liste"></div>
+          <div id="devlet-secici-panel" class="gizli">
+            <div id="devlet-secici-liste"></div>
             <label class="ek-ayar-satir">
-              Dünya önemi ≥
+              Ek devletlerde dünya önemi ≥
               <select id="ek-dunya-esik" title="Yalnız bu değerin ÜSTÜNDEKİ dünya öneminde maddeler eklenir">
                 <option value="1">1 (hepsi)</option>
                 <option value="2">2</option>
@@ -151,7 +214,7 @@
               </select>
             </label>
             <label class="ek-ayar-satir">
-              <input type="checkbox" id="ek-yalniz-dis"> yalnız dış mesele maddeleri
+              <input type="checkbox" id="ek-yalniz-dis"> ek devletlerde yalnız dış mesele maddeleri
             </label>
           </div>
         </div>
@@ -233,38 +296,6 @@
     </section>
   </aside>
 </main>
-
-<footer id="zamanbar">
-  <button id="btn-geri" title="Önceki olaya git">⏮</button>
-  <button id="btn-oynat" title="Oynat / Duraklat">▶</button>
-  <button id="btn-ileri" title="Sonraki olaya git">⏭</button>
-  <select id="akis-modu" title="Akış tipi: doğrusal zaman veya olay olay">
-    <option value="zaman" selected>⏱ Zaman akışı</option>
-    <option value="olay">📜 Olay olay</option>
-  </select>
-  <select id="hiz" title="Oynatma hızı (gün/saniye)">
-    <option value="30">Yavaş (ay/sn)</option>
-    <option value="180" selected>Normal (6 ay/sn)</option>
-    <option value="730">Hızlı (2 yıl/sn)</option>
-    <option value="3650">Çok hızlı (10 yıl/sn)</option>
-  </select>
-  <select id="olay-hiz" title="Her olayda bekleme süresi" style="display:none">
-    <option value="3000">3 sn/olay</option>
-    <option value="5000" selected>5 sn/olay</option>
-    <option value="8000">8 sn/olay</option>
-    <option value="12000">12 sn/olay</option>
-  </select>
-  <button id="btn-zoom" title="Otomatik yakınlaştırma: toprak büyüdükçe uzaklaş">🔍 Oto</button>
-  <input type="range" id="zaman" min="0" max="0" step="1">
-  <div id="tarih-goster">—</div>
-  <!-- Yüzölçümü göstergesi. Eskiden lejant kutusunun içindeydi; o kutunun
-       gizle düğmesi var ve tercihi localStorage'da saklanıyor, yani kullanıcı
-       bir kez kapattığında alan bilgisi de kalıcı olarak kayboluyordu.
-       Kullanıcının şikâyeti "toprak kazandı mı kaybetti mi anlayamıyorum"du —
-       cevabı kapatılabilir bir yerde duramaz. Buraya taşındı: zaman çubuğu
-       zaten "şu an neredeyiz" şeridi, "şu an ne kadar toprak" onun karşılığı. -->
-  <div id="alan-goster"></div>
-</footer>
 
 <!-- ARAYUZ-4-SARTNAME.md ② — üç ayar (irtifa/yakınlık/hız) burada, kip ve
      onay kutusu kronoloji başlığında (Emre'nin isteği, ikisi ayrı yerde).
