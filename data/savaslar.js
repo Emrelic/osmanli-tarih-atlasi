@@ -185,6 +185,21 @@ window.SAVASLAR = [
 { t:"1473-08-11", tur:"meydan", ad:"Otlukbeli",                 taraf_metin:"Akkoyunlu",         sonuc:"zafer",   seri:"",        lat:39.97, lon:40.00, taraf:["osmanli","akkoyunlu"], galip:"osmanli" },
 { t:"1480-08-11", tur:"meydan", ad:"Otranto çıkarması",         taraf_metin:"Napoli",            sonuc:"belirsiz",seri:"venedik", lat:40.15, lon:18.49, taraf:["osmanli","napoli"] },
 { t:"1514-08-23", tur:"meydan", ad:"Çaldıran",                  taraf_metin:"Safevî",            sonuc:"zafer",   seri:"safevi",  lat:39.09, lon:43.91, taraf:["osmanli","safevi"], galip:"osmanli" },
+// ---- MEMLÜK'Ü BİTİREN İKİ MUHAREBE — 21 Ağustos 2026 -----------------------
+// 🔴 İKİSİ DE HARİTADA İŞARETSİZDİ ve bunu MEMLÜK KRONOLOJİ oturumu bildirdi:
+// *"Mercidâbık ve Ridâniye — Memlük'ün iki en önemli savaşı — haritada nokta
+// yok, uçuş modunda işaretlenemiyor."* Doğruladım:
+//     data/yerlesimler*.js   ad: kaydı YOK  (yalnız yorum içinde geçiyor)
+//     data/savaslar.js       0 eşleşme
+// ⇒ Osmanlı'ya Suriye'yi, Mısır'ı ve hilâfeti kazandıran iki muharebe
+// haritada hiç görünmüyordu. Kronoloji maddeleri VARDI, işaret YOKTU —
+// `B3`te ölçülen ayrımın aynısı: petek ile İŞARET ayrı katmanlar.
+// ⚠️ İkisi de MUHAREBE ALANIDIR, yerleşim değil — o yüzden `savaslar.js`e
+// yazıldı, `yerlesimler.js`e değil. Kronolojideki `yer_id` alanları BOŞ
+// bırakılmıştı ve bu DOĞRU davranıştı: muharebe Halep'te ya da Kahire'de
+// DEĞİL, onların dışında geçti; en yakın şehri yazmak yeri kaydırırdı.
+{ t:"1516-08-24", tur:"meydan", ad:"Mercidâbık",                taraf_metin:"Memlük",            sonuc:"zafer",   lat:36.553, lon:37.152, taraf:["osmanli","memluk"], galip:"osmanli" },
+{ t:"1517-01-22", tur:"meydan", ad:"Ridâniye",                  taraf_metin:"Memlük",            sonuc:"zafer",   lat:30.089, lon:31.283, taraf:["osmanli","memluk"], galip:"osmanli" },
 { t:"1515-06-13", tur:"meydan", ad:"Turnadağ",                  taraf_metin:"Dulkadiroğulları",  sonuc:"zafer",   seri:"",        lat:38.20, lon:37.20, taraf:["osmanli","dulkadir"], galip:"osmanli" },
 { t:"1516-08-24", tur:"meydan", ad:"Mercidabık",                taraf_metin:"Memlûk",            sonuc:"zafer",   seri:"memluk",  lat:36.60, lon:37.00, taraf:["osmanli","memluk"], galip:"osmanli" },
 { t:"1517-01-22", tur:"meydan", ad:"Ridaniye",                  taraf_metin:"Memlûk",            sonuc:"zafer",   seri:"memluk",  lat:30.06, lon:31.28, taraf:["osmanli","memluk"], galip:"osmanli" },
