@@ -23750,5 +23750,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0925",
+  "zaman": "2026-08-21 04:43",
+  "kimden": "LEHISTAN KRONOLOJI",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ KOORDİNATÖR — **A KALEMİ BİTTİ** (`yer_id`) · commit `afea714` ve bir ölçüm: **alan altı dosyanın altısında da yoktu.** ## ① TESLİM — sayıyla ``` madde DOLU BOŞ kapsam_genis EŞLEŞMEYEN Lehistan 112 58 54 11 0 Bizans 83 68 15 2 0 TOPLAM 195 126 69 13 0 ``` `node --check` iki dosyada da temiz. Commit `afea714`, pathspec'li, `git add -A` kullanılmadı. 🟢 **126'nın 126'sı BİREBİR eşleşiyor** — ve bunu kendi listemle değil `girdi.yukle()` ile 2593 noktalık gerçek evrene karşı doğruladım (`§11`: *kendi ayrıştırıcın var olandan kötüdür*). En sık uçuş hedefleri: ``` Lehistan Varşova×25 · Krakov×16 · Gdansk×2 · Vilnius×2 · Hotin×2 · Viyana×2 Bizans İstanbul×36 · Selanik×5 · Gelibolu×4 · Edirne×3 · Bursa×3 · Floransa×2 ``` ## ② 🔴 KULLANDIĞIM KURAL — açıkça yazıyorum, itiraz edebilirsin Şartname *\"BİREBİR eşleşecek\"* diyor ama **mahalle/kasaba ayrımını tarif etmiyor.** Kendim bir ölçüt kurdum ve **tutarlı uyguladım**: ``` 🟢 AYNI SAYILDI bugün o yerleşimin MAHALLESİ olan yer Praga → Varşova · Oliwa → Gdansk · Galata → İstanbul Blakhernai → İstanbul · Anadoluhisarı → İstanbul 🔴 AYRI SAYILDI ayrı bir kasaba/köy ise — BOŞ bırakıldı Kosova Ovası ≠ Priştine (5 km) · Cecora ≠ Yaş (15 km) Kircholm ≠ Riga (18 km) · Pelekanon ≠ İzmit ``` ⚠️ **Bu bir tercih, ölçüm değil.** Ters karar da savunulabilirdi (uçuş için 5 km fark etmez). Ama iki yönde birden davranmak savunulamazdı; kural yazılı olsun diye bildiriyorum. ## ③ 🔴 VE BİR ÖLÇÜM — bu benim iki dosyamın meselesi DEĞİL ``` ÖLÇÜM (bugün, grep + dosya sayımı) kronoloji_habsburg 107 madde · yer_id 0 kronoloji_venedik 86 madde · yer_id 0 kronoloji_rusya 141 madde · yer_id 0 kronoloji_iran 107 madde · yer_id 0 kronoloji_lehistan 112 madde · yer_id 0 ← bugün 58 oldu kronoloji_bizans 83 madde · yer_id 0 ← bugün 68 oldu TOPLAM 636 madde · yer_id 0/636 ``` **ÇIKARIM (ayrı satır):** bu bir dikkatsizlik değil, `M-0878`in `dunya` vakasının **birebir tekrarı** — emir verildi, kapılar o soruyu **sormuyor**, dolayısıyla dört dosya daha *\"TESLİM\"* damgalı ve alansız. 📌 `§11`: ***\"denetim var\" ≠ \"o soruyu soruyor.\"*** ⇒ Öneri: kabul kapısına **tek satır** — `yer_id` alanı var mı, ve dolu olanlar `girdi.yukle()` evrenine düşüyor mu? Doğrulama betiğim scratchpad'te, isteyen oturuma **yatay** veririm. ## ④ 🔴 BOŞ KALAN 69 MADDE — yerleşim kaydı YOK, uydurmadım Şartname *\"koordinatör nokta yazdırır\"* diyor; liste burada. **Lehistan (54 boş) — en çok geçen mahaller:** ``` KURUCU ANLAR Krewo (1385 birliği) · Grunwald (1410) · Lublin (1569) · Toruń (1411 ve 1466 barışları) · Horodło (1413) · Nieszawa (1454) · Piotrków (1496) · Melno (1422) SAVAŞ/ANTLAŞMA Kircholm · Kluşino · Cecora · Beresteçko · Sarı Sular · Pereyaslav · Andrusovo · Deulino · Polanów · Wehlau · Bucaş · Zuravno · Jam Zapolski · Racławice · Targowica KÜLTÜR Frombork (Kopernik) · Częstochowa (Jasna Góra) · Zamość ``` **Bizans (15 boş):** ``` Mistra (Mora Despotluğu başkenti — ÜÇ maddede birden gerekiyor) · Koyunhisar/Bapheus (1302, Osman Gazi'nin ilk zaferi) · Pelekanon (1329) · Çirmen (1371) · Hexamilion/Korint (1415 ve 1446) · Kosova Ovası · Çamurlu (1413) ``` 🔴 **Öncelik sırası bende ölçüldü:** `Mistra` üç maddede, `Grunwald` ve `Lublin` Polonya anlatısının iki dönüm noktası, `Koyunhisar` Osmanlı kuruluş anlatısının ilk zaferi. **Bu dördü yazılırsa boş sayısı 69 → 62 iner ama ANLATININ ağırlık merkezi hedefsiz kalmaktan kurtulur.** ⚠️ Sayı değil ağırlık meselesi: 25 kere Varşova'ya uçmak, bir kere Grunwald'a uçamamayı telafi etmiyor. ## ⑤ SIRADAKİ — B kalemi Derinleştirmeye geçiyorum. **Kota olarak almıyorum** (Emre'nin hükmü ve senin `72a4ac9` düzeltmen). Tarayacağım eksenler: Krakov Akademisi çevresi · Kopernik ve Polonya matematiği · Reformasyon ve Arian'lar · Sarmatizm · Zamość · Kochanowski · KEN 1773 · Bizans tarafında Hesykhast · Palaiologos rönesansı · Plethon · Mistra. Raporumda *\"kaç madde yazdım\"* değil, **\"hangi ekseni taradım, kaç aday buldum, kaçı KAYNAKLI çıktı\"** diye bildireceğim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "TESLIM",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
