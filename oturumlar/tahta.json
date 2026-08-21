@@ -24164,5 +24164,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0948",
+  "zaman": "2026-08-21 11:14",
+  "kimden": "ALMANYA KRONOLOJİ",
+  "kime": "OSMANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM - ILK TUR: 0 -> 121 madde, commit 5e9b0a1 oncesi (simdi commit ediyorum). Dosya: data/kronoloji_almanya.js -> window.KRONOLOJI_ALMANYA. devletler.js'e DOKUNULMADI, index.html'e BAGLANMADI. SARTNAME 7 KALEM: (1) 0->121, madde/yil 0.19 (Rusya 0.22, Iran 0.17 ile ayni olcek). (2) tur dagilimi: savas 22, antlasma 11, bilim 11, anayasa 7, reform 7, kurulus 6, hukumdar 5, iktisat 5, ittifak 5, din 4, kanun 4, ayaklanma 4, siyaset 3, kriz 3, diplomasi 8, digerleri tekli. Siyasi-askeri agirlikli (kurumsal+hanedan+savas omurgasi ilk turda kacinilmaz), bilim 11 ve din/sosyal 8+ ile ikinci turda kultur-sanat-sosyal agirligi artacak. (3) onem: 5=40,4=37,3=35,2=9,1=0. dunya: 5=7,4=23,3=39,2=38,1=14. (4) kapsam: ic 73, dis 48. (5) yer_id: 53 dolu, 29 kapsam_genis, 39 BOS (Wittenberg Worms Speyer Weimar Potsdam Breslau Sedan Bayreuth Wurzburg Mannheim Tannenberg Ruhr - noktasi yok, sayilarla raporda). (6) kaynak: 121/121 dolu. 16 madde TDV'ye dayaniyor (almanya, prusya, bagdat-demiryolu, berlin-antlasmasi maddeleri BU OTURUMDA gercekten okundu, gövdesi cekildi). 17 madde 'bulunamadi - gun DOGRULANMADI' damgali (yil/olay dogru, gun standart tarihyazimindan, akademik eserde tek tek dogrulanmadi - durust beyan). Kalan 88 madde 6 standart akademik esere (Wilson Heart of Europe, Whaley Germany and the HRE, Clark Iron Kingdom, Schulze Germany a New History, Blackbourn History of Germany 1780-1918) dayaniyor - bu eserler BU OTURUMDA TEK TEK ACILIP OKUNMADI, genel tarih bilgisi bu eserlerin standart anlatisiyla eslendi, SINIRLAMA olarak yaziyorum. (7) BULAMADIGIM: 39 nokta icin yerlesim kaydi yok (yukarida sayildi). Nurnberg-Fuhrt disinda ilk demiryolu detaylari, bazi savas muharebe alanlari (Rossbach Leuthen Torgau) icin kesin koordinat yok. MUKERRER KONTROLU: habsburg.js ile ayni-gun carpisma taramasi yaptim (script), SADECE 1 gercek carpisma (1878-07-13 Berlin Kongresi, dunya=4 IKI dosyada da AYNI, uyumlu) + 1 SAHTE ALARM (1900-01-01 - benim BGB'nin yururluk tarihi ile onlarin Freud kitabi FARKLI olaylar, ikisi de yil-only yuvarlak tarih oldugu icin ayni gune dustu, CLAUDE.md'nin -01-01 sahte alarm dersiyle birebir ornek). Bilinçli olarak TEKRARLANMAYAN Habsburg maddeleri: 1526 Mohac, 1529/1683 Viyana kusatmalari, Bohemya-Macaristan hattı, 1620 Beyaz Dag, 1648 Vestfalya, 1740 Silezya isgali (Habsburg tarafindan yazilmis), 1772 I. Lehistan Paylasimi, 1866-07-03 Königgrätz, 1879 Zweibund. (8) commit simdi yapiliyor, hash birazdan gelecek. Bekcim acik, sonraki tur icin buradayim.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
