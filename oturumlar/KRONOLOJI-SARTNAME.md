@@ -6,11 +6,35 @@
 
 ---
 
-## 1. HEDEF YOĞUNLUK — Emre'nin hükmü (20 Ağustos)
+## 1. YOĞUNLUK — 🔴 KOTA DEĞİL, ÖLÇEK FİKRİ
 
-> *"O devlet kaç sene yaşamış ise **en az sene başına iki olay** olacak
-> şekilde kronoloji maddesi olmaya çalışalım. Yani 500 sene yaşayan devletin
-> 1000 tane kronolojik maddesi olsun mümkünse."*
+### Emre'nin DÜZELTMESİ (21 Ağustos) — bu, aşağıdaki her sayıyı bağlar
+
+> *"Her seneye 2 madde olsun gibi bir laf ettik ama **yanlış anlaşılmasın.
+> İllâ ki her seneye 2 madde olacak diye bir şey yok.** Belki 10 sene
+> boyunca kayda değer bir olay olmamış ise **madde uyduracak hâlimiz yok**,
+> ya da çok gereksiz maddeler uydurmak gereği yok. … **Bu bir zorunluluk
+> değil.** Eğer var ise o kadar önemli olayı 1000 maddede de yapılır 1500
+> maddede de yapılır, ama eğer o kadar mesele o kadar olay yok ise ne kadar
+> madde var ise onlar alınır. Şart yok, sadece örnek vermek için söyledim.
+> … **Zorlama ile 1000 maddeye çıkılmaya çalışılmaz. Kaç tane çıkarsa o
+> kadar.** Devlet 500 sene yaşamıştır ama önemli olaylar maddeler 100 tane
+> de çıkabilir. BU ÖNEMLİ."*
+
+🔴 **Aşağıdaki "hedef" sütunu bir ÜST SINIR SEZGİSİDİR, doldurulacak bir
+kova DEĞİLDİR.** Kaynağın söylediği kadar madde yazılır; sessiz on yıl
+sessiz kalır. **Boş yıl bir kusur değildir.**
+
+⚠️ Ve bunun sınanabilir hâli şu: *bir maddeyi silsen kronolojiden bir şey
+eksilir mi?* Eksilmiyorsa o madde **dolgudur** ve yazılmamalıydı.
+📌 Dolgu madde iki kez zarar verir: kullanıcının vaktini alır **ve**
+gerçek maddelerin arasına karışıp onları değersizleştirir.
+
+### Emre'nin ilk ifadesi (20 Ağustos) — ölçek fikri buradan geliyor
+
+> *"O devlet kaç sene yaşamış ise sene başına iki olay olacak şekilde
+> kronoloji maddesi olmaya çalışalım. Yani 500 sene yaşayan devletin
+> 1000 tane kronolojik maddesi olsun **mümkünse**."*
 
 Ölçüt Osmanlı'nın kendi yoğunluğudur ve **ölçüldü**:
 
@@ -30,10 +54,15 @@ Venedik     1281-1797     516     86    0,17    ~1.030
 Bizans      1281-1453     172     83    0,48      ~345
 ```
 
-⚠️ **Bu tek turda bitmez ve bitirmeye çalışma.** Her tur 150-250 madde
-hedefle, bitir, teslim et, rapor ver. Koordinatör sıradaki turu verir.
-**Yarım bırakılmış 400 maddelik bir dosya, tamamlanmış 200 maddelikten
-kötüdür** — teslim edilmemiş iş yok sayılır.
+⚠️ **Bu tek turda bitmez ve bitirmeye çalışma.** Her tur, kaynağın verdiği
+kadar madde yaz (kabaca 150-250), bitir, teslim et, rapor ver. Koordinatör
+sıradaki turu verir. **Yarım bırakılmış 400 maddelik bir dosya,
+tamamlanmış 200 maddelikten kötüdür** — teslim edilmemiş iş yok sayılır.
+
+🔴 **VE SAYIYA ULAŞMAK İÇİN MADDE UYDURMA.** Turun 150'de bitmesi bir
+başarısızlık değildir; 250'ye çıkmak için dolgu yazmak **kusurdur**.
+Raporunda *"kaynak bu kadarını verdi"* demek geçerli ve beklenen bir
+cevaptır.
 
 ---
 
