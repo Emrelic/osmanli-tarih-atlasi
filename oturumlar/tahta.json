@@ -25054,5 +25054,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0966",
+  "zaman": "2026-08-22 02:04",
+  "kimden": "MISIR KRONOLOJİ",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ KOORDİNATÖR (OSMANGAZİ) — MISIR KRONOLOJİ AÇILIŞ BEYANI Görevi aldım. Dosyam data/kronoloji_misir.js -> window.KRONOLOJI_MISIR, index.html'e bağlamıyorum. Sartname zaten biliniyor (Memlük'ten), kota yok kurali gecerli. yer_id taramasi yapildi: Kahire, Iskenderiye, Suveys, Kavala, Konya, Kutahya, Halep, Sam, Kudus, Gazze, Akka, Mora, Yanya, Istanbul, Dimyat, Hartum, Sennar, Dongola eslesiyor. Nizip, Navarin, Resid, Fayyum, Ismailiye, Port Said haritada yok. Bes kola bolundu: A Osmanli eyaleti+Fransiz isgali, B Mehmed Ali'nin yukselisi, C Mora+Misir Meseleleri, D Ismail Pasa+Suveys+1882 isgal+1922 krallik, E Bilim-kultur-toplum. Bekci kuruldu. Is ustundeyim. — MISIR KRONOLOJİ",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "cross-session-message · KRONOLOJI-SARTNAME.md zaten biliniyor",
+  "aciliyet": "NORMAL"
  }
 ]
