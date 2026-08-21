@@ -104,3 +104,54 @@ tekrarı elendi). `node --check` temiz. `data/devletler.js`e dokunulmadı,
 Sıradaki tur için hazırım — koordinatör sıradaki parçayı (2. tur,
 150-200 hedefi olmadan, kalan konular: Mercidâbık/Ridâniye yer noktası
 eklenirse coğrafi ayrıntı, ya da başka bir devlet) verirse devam ederim.
+
+## 2026-08-21 — TESLİM KABUL EDİLDİ (OSMANGAZİ, commit a3337ca)
+88/88 yer_id gerçek yerleşimle eşleşiyor, 0 uyuşmazlık. Mercidâbık ve
+Ridâniye savaslar.js'e eklendi (SAVAŞLAR 169→171). ⑦'deki üç eksik
+"BULUNAMADI, kalsın" diye onaylandı — zorlanmayacak.
+
+## İKİNCİ PARTİ — üç kol (kota yok, kaynak verdiği kadar)
+- B ÖNCELİKLİ: bilim kovası (dar kalmıştı) — İbnü'ş-Şâtır, muvakkithane,
+  veba risâleleri, rasathane girişimleri — Mamlûk bağlantısı DOĞRULANARAK
+- A: Bahrî dönem derinleştirme — Suriye valileri isyanları, Moğol-Memlük
+  sınır çatışmaları, Ermeni Kilikya seferleri, erken Kıbrıs ilişkileri
+- C: Kızıldeniz-Hint Okyanusu — Cidde tahkimatı, Yemen/Hicaz'daki Memlük
+  varlığı, Resûlî rekabeti derinleştirme
+Üç kol paralel başlatıldı, mevcut 109 maddeyle çakışmaması için her
+birine zaten yazılmış olaylar bildirildi.
+
+## 2026-08-21 — TESLİM: PARTİ 2, +22 madde (109 → 131)
+
+Üç kol tamamlandı, mevcut (commit a3337ca) 109 maddeyle programatik
+çakışma taraması yapıldı: **0 birebir tekrar** (tarih+başlık eşleşmesi).
+`node --check` temiz. 13 yeni `yer_id` değerinin 13'ü de gerçek
+yerleşimle eşleşiyor (py girdi.py ile doğrulandı) — 0 uyuşmazlık.
+
+### RAPOR — KRONOLOJI-SARTNAME.md §7 (yalnız PARTİ 2'nin 22 maddesi)
+① **madde sayısı:** 109 → 131 (+22). Kota hedeflenmedi.
+② **konu dağılımı:** bilim 7 (İbnü'ş-Şâtır astronomi aletleri/muvakkitlik,
+   veba risâleleri) · askerî-siyasî-toprak 9 (Bahrî dönem: Rahbe seferi,
+   Malatya fethi 1315, Tenkiz'in idamı 1340, Sis'in fethi 1375, Kıbrıs
+   ilişkileri) · siyasî-idarî (Kızıldeniz-Habeşistan-Yemen) 6.
+③ **onem/dunya:** çoğunlukla 2-4 aralığında (Sis'in fethi tek `onem:5`,
+   `dunya:5` — Kilikya Ermeni Krallığı'nın sonu).
+④ **kapsam:** hemen hepsi `dis` (Memlük'ün komşularıyla ilişkileri).
+⑤ **yer_id:** 13 dolu · 9 boş (Rahbe, Sis, Ca'ber Kalesi, Yasavur akını
+   sahası, 1271/1370 Kıbrıs maddeleri, Yemen, Habeşistan — haritada
+   nokta yok).
+⑥ **kaynak:** 20 madde TDV (HTTP+gövde doğrulanmış) · 2 madde
+   `"bulunamadı — ..."` damgalı (Habeş-Memlük mektuplaşmaları, TDV
+   kapsamıyor; dayanak: Taddesse Tamrat *Church and State in Ethiopia
+   1270-1527* + Verena Krebs 2019 akademik makalesi — açıkça damgalı).
+   Vikipedi yine hiçbir maddede tek dayanak olmadı.
+⑦ **Bulamadıklarım/ELEDİKLERİM (kasıtlı):** Endülüslü İbn Hâtime ve
+   İbnü'l-Hatîb'in veba risaleleri — Memlük coğrafyasıyla bağlantısı
+   doğrulanamadığı için YAZILMADI. Karasungur/Aqqush el-Afram'ın
+   İlhanlı'ya sığınması (1312) — yalnız Wikipedia-kaynaklı özet
+   bulunabildi, akademik kaynak (Encyclopaedia Iranica) 403 döndürdü,
+   proje kırmızı çizgisi gereği YAZILMADI. Kahire rasathanesi, Memlük
+   dönemi matematik/optik âlimi — TDV'de bulunamadı.
+⑧ **commit:** YAPMADIM (§7). Dosya güncellendi:
+   `data/kronoloji_memluk.js` → `window.KRONOLOJI_MEMLUK`, 131 madde.
+
+Sıradaki tur için hazırım.

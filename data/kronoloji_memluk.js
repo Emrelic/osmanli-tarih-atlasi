@@ -1,60 +1,44 @@
 // =====================================================================
 // MEMLÜK SULTANLIĞI — KRONOLOJİ · 1261-1517 (çekirdek kapsam 1281-1517)
-// Oturum: MEMLÜK KRONOLOJİ (eski ad: SONNET HAZIR KITA 33) · 21 Ağustos 2026
+// Oturum: MEMLÜK KRONOLOJİ (eski ad: SONNET HAZIR KITA 33)
 // Görevi veren: OSMANGAZİ (koordinatör). Otorite: oturumlar/KRONOLOJI-SARTNAME.md
 //
-// ⚠️ 1261, 1263, 1265, 1266, 1269 tarihli dört madde 1281 öncesine düşüyor —
-//    KASITLI: Abbasî halifeliğinin Kahire'de ihyası, Baybars'ın berîd/dört
-//    mezhep başkadılığı/hac düzenlemeleri Memlük Sultanlığı'nın kurumsal
-//    temelini atan olaylardır ve 1281 sonrası bütün dönemi etkiler. Devletin
-//    KENDİSİ 1250'de kurulmuştur; bu atlasın Osmanlı senkronu 1281'den
-//    başladığı için harita bu dönemde Memlük'ü zaten gösteriyor olacak.
+// PARTİ 1 (21 Ağustos 2026, commit a3337ca): 109 madde, beş paralel kol.
+// PARTİ 2 (21 Ağustos 2026): +23 madde, üç kol —
+//   B bilim kovası derinleştirme (7)  · A Bahrî dönem derinleştirme (10) ·
+//   C Kızıldeniz-Hint Okyanusu siyasî-idarî (6)
+// TOPLAM: 131 madde. Sayı hedeflenmedi (Emre'nin 21 Ağustos
+// düzeltmesi, KRONOLOJI-SARTNAME.md §1 commit 72a4ac9): kota değil, kaynak
+// verdiği kadar. Parti 2'de eklenirken parti 1'deki 109 maddeyle başlık+tarih
+// çakışması programatik olarak tarandı (0 tekrar).
+//
+// ⚠️ 1261, 1263, 1265, 1266, 1269 tarihli beş madde 1281 öncesine düşüyor —
+//    KASITLI: Memlük devletinin kurumsal temelini atan olaylar (bkz. parti 1
+//    notu). Devlet 1250'de kurulmuş, atlas senkronu 1281'den başlıyor.
 //
 // ─────────────────────────────────────────────────────────────────────
 // §D — İKİ PUAN (KRONOLOJI-SARTNAME.md §3.2)
-//   onem   1-5   MEMLÜK için ağırlık — bu olay Memlük tarihinin akışını
-//                ne kadar değiştirdi? (iyilik/kötülük skalası DEĞİL)
-//   dunya  1-5   OLAYIN kendisine ait, her dosyada AYNI olmalı.
-//                Mercidâbık ve Ridâniye dunya:5 — Osmanlı'yı bölgesel
-//                güçten imparatorluğa taşıyan, halifeliğin merkezini
-//                Kahire'den İstanbul'a nakleden çağ kapatıp açan olaylar.
+//   onem   1-5   MEMLÜK için ağırlık (iyilik/kötülük skalası DEĞİL)
+//   dunya  1-5   OLAYIN kendisine ait, her dosyada AYNI olmalı
 //
 // ─────────────────────────────────────────────────────────────────────
-// §K — KAYNAK POLİTİKASI (CLAUDE.md §4, KRONOLOJI-SARTNAME.md §4)
-// Beş paralel araştırma kolu tarafından üretildi, koordinatör (bu oturum)
-// tarafından birleştirildi, tekrarlar (aynı olayın iki koldan gelmesi)
-// elendi/birleştirildi:
-//   ① Bahrî dönem siyaset/savaş (1281-1382)         — 17 madde
-//   ② Burcî/Çerkes dönem + Osmanlı-Memlük savaşı     — 37 madde
-//   ③ İdarî-malî-hukukî-sosyal-dinî-demografik       — 17 madde
-//   ④ Bilim-tıp-kültür-sanat-mimarî-edebiyat         — 18 madde
-//   ⑤ İktisadî tarih (Kârimî, Kızıldeniz, Portekiz)  — 20 madde
-// TOPLAM: 109 madde. Her maddenin kaynağı kendi alanında görünür:
-//   - TDV İslâm Ansiklopedisi slug'ı, HTTP koduyla VE gövdesi okunarak
-//     doğrulanmış (çoğunluk)
-//   - "bulunamadı — ..." damgalı 4 madde: TDV o taneçikte konuşmuyor,
-//     dayanak standart akademik kaynak (Cambridge History of Egypt ed.
-//     Petry, P.M. Holt, Michael Dols, Robert Irwin vb.) AÇIKÇA yazılı
-//   - "WebSearch çapraz doğrulama" damgalı maddeler: TDV'nin ayrı maddesi
-//     yok/yetersiz, ikincil akademik kaynakla kurulmuş, birincil metne
-//     ulaşılamadığı AÇIKÇA belirtilmiş (özellikle iktisat kolunda)
-// 🔴 HİÇBİR MADDEDE forum/blog/AI-üretimi metin kullanılmadı. Vikipedi
-//    tek dayanak olarak KULLANILMADI (yalnız bir maddede gün teyidi için
-//    ikinci kaynak olarak anıldı, TDV zaten yılı doğruluyordu).
+// §K — KAYNAK: TDV İslâm Ansiklopedisi (HTTP koduyla VE gövdesi okunarak
+//    doğrulanmış, çoğunluk) · "bulunamadı — ..." damgalı maddeler TDV'nin
+//    o taneçikte sustuğu yerler, dayanak standart akademik kaynak (Cambridge
+//    History of Egypt ed. Petry, P.M. Holt, Michael Dols, Robert Irwin,
+//    Eliyahu Ashtor, David A. King, Taddesse Tamrat, Verena Krebs) AÇIKÇA
+//    yazılı. Vikipedi hiçbir maddede TEK dayanak olarak kullanılmadı.
+//    Endülüslü İbn Hâtime/İbnü'l-Hatîb ve Karasungur'un İlhanlı'ya
+//    sığınması gibi Memlük bağlantısı doğrulanamayan/yalnız Wikipedia'yla
+//    desteklenen adaylar BİLEREK YAZILMADI.
 //
 // ─────────────────────────────────────────────────────────────────────
-// §Y — yer_id: MEMLÜK KRONOLOJİ oturumunun kendi taradığı
-//    data/yerlesimler*.js listesinden BİREBİR alındı (Kahire, Şam, Halep,
-//    Humus, Kudüs, Akkâ, Trablus/Trablusşam, Diyarbakır, Bağdat, Tebriz,
-//    Malatya, Urfa, Kayseri, Sivas, Erzincan, İskenderiye, Aden, Cidde,
-//    Süveyş vb). 21 madde yer_id boş — ya haritadaki bir yerleşimle
-//    BİREBİR eşleşmiyor (Kerek, Safed, Diu, Kıbrıs/Lefkoşa, Dâbık/Mercidâbık
-//    sahrası, Ridâniye/Ureyc mevkii, Ördekli mevkii gibi savaş sahaları ve
-//    kaleler) ya da İMPARATORLUK ÇAPINDA bir olaydır (3 madde 'kapsam_genis:
-//    true' ile işaretli: 1298 ve 1315 toprak tahrirleri, 1301 kararnamesi).
-//    🔴 KOORDİNATÖRE NOT: yukarıdaki savaş sahaları ve kaleler için nokta
-//    eklenmesi önerilir — Mercidâbık/Ridâniye gibi Memlük tarihinin en
-//    önemli iki savaşı şu an uçuş modunda haritada işaretlenemiyor.
+// §Y — yer_id: data/yerlesimler*.js'ten BİREBİR. Parti 1'de 88/88 doğrulandı
+//    (koordinatör ölçtü, commit a3337ca). Boş kalan maddeler ya haritada
+//    nokta olarak yok (Kerek, Safed, Diu, Kıbrıs/Lefkoşa, Dâbık/Mercidâbık
+//    sahrası, Ridâniye/Ureyc mevkii, Ördekli mevkii, Rahbe, Sis, Ca'ber
+//    Kalesi, Yemen, Habeşistan) ya da İMPARATORLUK ÇAPINDA (kapsam_genis:true).
+//    🟢 Mercidâbık ve Ridâniye artık savaslar.js'te var (koordinatör ekledi).
 //
 // §T — Günü bilinmeyen madde YYYY-01-01. Tarih uydurulmadı.
 // =====================================================================
@@ -69,6 +53,8 @@ window.KRONOLOJI_MEMLUK = [
 { t:"1266-01-01", b:"Memlükler Haremeyn'e ilk surreyi gönderdi", tur:"dini", onem:3, dunya:1, kapsam:"ic", etiket:["dini"], yer_id:"Mekke", d:"Abbâsî halifeliğini Kahire'de ihya eden Memlükler, hilâfetin eski geleneği olan surreyi (Mekke-Medine halkına gönderilen yıllık para ve hediye) de üstlendiler. İlk Memlük surresinin 664'te (1266) yollandığı kabul edilir; bu, Hicaz üzerindeki nüfuzu, aynı iddiada bulunan Yemen'in Resûlî emîrlerine karşı ilan etmenin bir yoluydu.", kaynak:"surre (TDV, gövde okundu)" },
 
 { t:"1269-01-01", b:"Baybars hacca gitti, Haremeyn'de Memlük nüfuzunu pekiştirdi", tur:"dini", onem:4, dunya:2, kapsam:"dis", etiket:["dini"], yer_id:"Mekke", d:"Yemen'in Resûlî emîri de surre ve Kâbe örtüsü göndererek Hicaz'da hâkimiyet iddia ediyordu; Sultan Baybars 1269'da bizzat hacca giderek surre ve kisve gönderme hakkının Memlükler'de olduğunu kesinleştirdi. Bu tarihten sonra Kahire, Şam, Bağdat ve Halep gibi büyük şehirlerden düzenlenen hac kervanlarının her biri kendi mahmiliyle yola çıkmaya başladı.", kaynak:"surre (TDV, gövde okundu)" },
+
+{ t:"1271-01-01", b:"Baybars'ın başarısız Kıbrıs deniz seferi", tur:"savas", onem:2, dunya:2, kapsam:"dis", etiket:["askeri"], yer_id:"", d:"Filistin ve Suriye'de Haçlılara ait son kale ve şehirleri ele geçirmekte olan Sultan Baybars, 1271'de Kıbrıs üzerine on yedi gemiden oluşan bir filo gönderdi. Filo, çıkan fırtına yüzünden adaya ulaşamadan dağıldı ve sefer sonuçsuz kaldı. Bu erken teşebbüs, Bahrî Memlüklerin bir yüzyıl sonra I. Petro'nun İskenderiye baskınıyla (1365) doruğa çıkacak Kıbrıs Krallığı'yla gergin ilişkisinin ilk halkalarından biridir.", kaynak:"tdv-kibris" },
 
 { t:"1281-10-29", b:"Humus'ta İlhanlı ordusu püskürtüldü", tur:"savas", onem:4, dunya:3, kapsam:"dis", etiket:["savas"], yer_id:"Humus", d:"İlhanlı hükümdarı Abaka Han'ın kardeşi Moğol kumandanı Mengü Timur'un idaresindeki büyük bir Moğol-Ermeni-Gürcü ordusu Suriye'ye girdi; Sultan Kalavun bizzat sevk ettiği Memlük kuvvetleriyle Humus önünde bu orduyu ağır bir yenilgiye uğrattı. Zafer, on beş yıl önceki Ayn Câlût'tan sonra Memlük-İlhanlı mücadelesinde ikinci büyük dönüm noktası oldu ve Kalavun'un iktidarını sağlamlaştırdı.", kaynak:"kalavun" },
 
@@ -102,11 +88,27 @@ window.KRONOLOJI_MEMLUK = [
 
 { t:"1310-03-05", b:"I. en-Nâsır Muhammed üçüncü kez tahta çıktı", tur:"hukumdar", onem:5, dunya:2, kapsam:"ic", etiket:["siyaset"], yer_id:"Kahire", d:"Kerek'teki sürgününden dönen I. en-Nâsır Muhammed, kendisini destekleyen emirlerin gücüyle 5 Mart 1310'da üçüncü kez tahta oturdu; tahttan çekilen Baybars el-Çaşnigîr Gazze yakınlarında yakalanıp 16 Nisan'da idam edildi. Artık otuz bir yıl sürecek ve tamamen kendi iradesiyle yönetecek bu üçüncü saltanat, Bahrî Memlük döneminin en istikrarlı ve en görkemli evresini başlattı.", kaynak:"baybars-ii; dayanak (dönüş anlatımı): P.M. Holt, The Age of the Crusades (Longman)" },
 
+{ t:"1313-02-01", b:"Moğollara karşı sefer ve Rahbe kuşatmasının kalkması", tur:"savas", onem:2, dunya:2, kapsam:"dis", etiket:["askeri"], yer_id:"", d:"İlhanlı kuvvetlerinin Fırat kıyısındaki Rahbe Kalesi'ni kuşatması üzerine Sultan I. en-Nâsır Muhammed Şevval 712'de (Şubat 1313) Kahire'den ordusuyla yola çıktı. Moğolların kuşatmayı terk edip geri çekildiğini öğrenince sultan güzergâhını değiştirip hac görevini yerine getirmek üzere Hicaz'a yöneldi. Sefer muharebesiz sonuçlansa da Memlük-İlhanlı sınırındaki gerginliğin 1323 barışına kadar sürdüğünü gösterir.", kaynak:"tdv-muhammed-b-kalavun" },
+
+{ t:"1314-04-03", b:"Altın Orda'dan Kahire'ye görkemli elçilik heyeti", tur:"ittifak", onem:3, dunya:3, kapsam:"dis", etiket:["diplomasi"], yer_id:"Kahire", d:"Sultan I. en-Nâsır Muhammed'in Özbek Han'dan bir Cengizli prensesi istemesi üzerine, 16 Zilhicce 713'te (3 Nisan 1314) o zamana kadar görülmemiş derecede muhteşem, 174 kişilik bir Altın Orda elçilik heyeti değerli hediyelerle Kahire'ye ulaştı ve büyük itibarla karşılandı. Memlükler karşılığında Ramazan 715'te (Aralık 1315) Altın Orda'ya bir elçilik heyeti gönderdi. Bu karşılıklı elçilikler, İlhanlılara karşı ortak çıkarları olan iki devlet arasındaki yakınlaşmanın diplomatik zeminini hazırladı.", kaynak:"tdv-ozbek-han" },
+
 { t:"1315-01-01", b:"Nâsır Muhammed büyük toprak tahririni tamamlattı — er-Ravkü'n-Nâsırî", tur:"idari", onem:5, dunya:2, kapsam:"ic", etiket:["idari","mali"], yer_id:"", kapsam_genis:true, d:"Üçüncü saltanatında (1310-1341) el-Melikü'n-Nâsır Muhammed, Mısır'ın bütün tarım arazilerini yeniden ölçtürüp sulama ve verim kayıtlarını çıkarttı; geniş iktâlar küçültülüp sultanın doğrudan gelirleri artırıldı. El-Makrîzî'ye göre tahrir 715'te (1315), el-Kalkaşendî'ye göre 716'da (1316) başladı; ülke Aşağı Mısır'da on iki, Yukarı Mısır'da dokuz idari bölgeye ayrıldı ve reform hazine gelirlerini önemli ölçüde artırdı, fakat uzun vadede iktâ suistimallerinin de önünü açtı.", kaynak:"ikta (TDV — Nâsır Muhammed'in üçüncü saltanatında yapılan tahriri doğruluyor, kesin yıl vermiyor) + akademik (el-Makrîzî/el-Kalkaşendî tarih ihtilafı ve idari bölünme için: Al-Ruk al-Nasiri)" },
+
+{ t:"1315-04-28", b:"Malatya'nın Memlükler tarafından fethi", tur:"toprak-kazanc", onem:4, dunya:2, kapsam:"dis", etiket:["askeri"], yer_id:"Malatya", d:"Ermeni hâkimiyetindeki ve Moğollarla iş birliği içindeki Malatya halkının daveti üzerine Sultan I. en-Nâsır Muhammed, Şam nâibi Seyfeddin Tenkiz kumandasında bir orduyu şehre gönderdi; Memlük kuvvetleri 22 Muharrem 715'te (28 Nisan 1315) Malatya'ya girdi. Sultan şehri yedi bölgeden oluşan bir sınır eyaleti (serhad) hâline getirdi. Fetih, Memlüklerin Ermeni Kilikya'sına karşı kuzeydeki en ileri harekâtlarından biridir.", kaynak:"tdv-malatya" },
+
+{ t:"1318-01-01", b:"Yasavur istilası sırasında Memlük akını", tur:"savas", onem:2, dunya:2, kapsam:"dis", etiket:["askeri"], yer_id:"", d:"Çağatay prensi Yasavur'un Horasan'a saldırdığı ve İlhanlı ordularının onu püskürtmekle meşgul olduğu sırada, Sultan I. en-Nâsır Muhammed'in gönderdiği Memlük kuvvetleri Doğu Anadolu'da İlhanlı topraklarına ait bazı yerleşim yerlerini yağmaladı. Akın, İlhanlıların iç meşguliyetinden yararlanan fırsatçı bir sınır harekâtıdır ve 1323 barış antlaşmasına kadar süren düşük yoğunluklu çatışmaların bir parçasıdır.", kaynak:"tdv-ebu-said-bahadir-han" },
+
+{ t:"1320-05-16", b:"Özbek Han'ın yeğeni Tolunbay Hatun'un sultanla evliliği", tur:"ittifak", onem:3, dunya:3, kapsam:"dis", etiket:["diplomasi"], yer_id:"Kahire", d:"1314'teki elçilik görüşmelerinin ardından Özbek Han, yeğeni Tolunbay Hatun'u Mısır'a gönderdi ve nikâh merasimi 6 Rebîülâhir 720'de (16 Mayıs 1320) Kahire'de gerçekleştirildi. Evlilik, Memlük Sultanlığı ile Altın Orda arasındaki hânedan ittifakını perçinleyen sembolik bir adımdı. İki devlet, ortak düşman İlhanlılara karşı bu yakınlaşmayı sürdürdü.", kaynak:"tdv-ozbek-han" },
 
 { t:"1323-01-01", b:"İlhanlılarla Halep Antlaşması imzalandı", tur:"antlasma", onem:4, dunya:4, kapsam:"dis", etiket:["antlasma"], yer_id:"Halep", d:"İlhanlı hükümdarı Ebû Said Bahadır Han'ın naibi Emîr Çoban'ın girişimiyle, altmış yılı aşkın süredir aralıklarla devam eden Memlük-İlhanlı savaş hali resmen sona erdirildi. Antlaşma iki devlet arasındaki düşmanlığı kalıcı bir barışa çevirdi ve Suriye sınırındaki askerî gerilimi bir daha canlanmamak üzere dindirdi.", kaynak:"ebu-said-bahadir-han" },
 
+{ t:"1325-01-01", b:"Memlük desteğiyle Resûlî tahtı yeniden kuruldu", tur:"siyaset", onem:2, dunya:2, kapsam:"dis", etiket:["siyasi","askeri"], yer_id:"", d:"Yemen'deki Resûlî Sultanı el-Melikü'l-Mücâhid Ali, kısa süreli bir tahttan indirilmenin ardından Memlük Sultanı Muhammed b. Kalavun'un gönderdiği birliklerin yardımıyla hükümranlığını yeniden kurdu ve kaybettiği toprakları geri aldı. Bu askerî müdahale, Resûlî Sultanlığı'nın Memlük himayesindeki tâbi konumunu bir kez daha somutlaştırdı.", kaynak:"resuliler" },
+
 { t:"1326-04-05", b:"İbn Battûta Kahire'yi ilk ziyaret etti", tur:"kultur", onem:2, dunya:2, kapsam:"dis", etiket:["kultur","seyahat"], yer_id:"Kahire", d:"Fasıl seyyah, Sultan el-Melikü'n-Nâsır Muhammed b. Kalavun döneminde şehre ulaştı ve burada Şeyh Burhâneddin el-A'rec'in telkiniyle Hint, Sind ve Çin gibi doğu memleketlerini görme hevesine kapıldı. Seyahatnamesinde Mısır Memlüklerini 'Etrâk' (Türkler) diye tanımlaması ve Ayzâb Limanı'nın milletlerarası konumuna dair gözlemleri, dönemin Kahire'sine dair önemli bir dış tanıklık oluşturur.", kaynak:"ibn-battuta" },
+
+{ t:"1337-01-01", b:"İbnü'ş-Şâtır'ın çok işlevli usturlabı", tur:"bilim", onem:2, dunya:2, kapsam:"ic", etiket:["bilim"], yer_id:"Şam", d:"Dımaşklı astronom ve muvakkit İbnü'ş-Şâtır, 738 (1337-38) yılında birden fazla gökcismi hesaplamasını tek gövdede toplayan 'el-âletü'l-câmia' usturlaplarını imal etti. Bu aletler dönemin İslam dünyasında üretilen en gelişmiş gözlem araçları arasında sayılır. İbnü'ş-Şâtır'ın yıllar içinde geliştirdiği gezegen modelleri Batlamyus astronomisine köklü değişiklikler getirecek, iki asır sonra Kopernik'in ulaştığı sonuçlara Şam'dan çok önce yaklaşacaktı.", kaynak:"ibnus-satir" },
+
+{ t:"1340-07-11", b:"Şam nâibi Tenkiz'in tutuklanıp idamı", tur:"siyaset", onem:4, dunya:1, kapsam:"dis", etiket:["siyaset"], yer_id:"Şam", d:"1312'den beri (1 Rebîülâhir 712) yirmi sekiz yıl boyunca Şam nâibliği yapan, imar ve ilim faaliyetleriyle tanınan Seyfeddin Tenkiz, son yıllarında Sultan I. en-Nâsır Muhammed ile arası bozulunca av bahanesiyle Ca'ber Kalesi'ne sığınmaya kalkıştı. Safed nâibi tarafından yakalanıp zincire vurularak Kahire'ye götürüldü, İskenderiye'de hapsedildikten beş gün sonra sultanın emriyle 15 Muharrem 741'de (11 Temmuz 1340) öldürüldü. Bahrî Memlük tarihinin en uzun süreli ve en güçlü Suriye valiliklerinden birinin bu şekilde sona ermesi, sultanın son yıllarında emirler üzerindeki baskısını gösterir.", kaynak:"tdv-tenkiz" },
 
 { t:"1341-06-07", b:"I. en-Nâsır Muhammed öldü, kargaşa dönemi başladı", tur:"hukumdar", onem:5, dunya:1, kapsam:"ic", etiket:["siyaset"], yer_id:"Kahire", d:"Otuz bir yıllık üçüncü saltanatının ardından ölen I. en-Nâsır Muhammed, güçlü bir halef bırakmamıştı; ardından gelen kırk bir yıl içinde sekizden fazla oğlu ve torunu, çoğu çocuk yaşta, birbiri ardına ve genellikle emirler tarafından tahta çıkarılıp indirildi. Gerçek iktidar artık sultanlardan çok onları perde arkasından yöneten güçlü emirlerin elindeydi; bu istikrarsızlık Bahrî Memlük döneminin sonunu hazırlayan sürecin başlangıcı oldu.", kaynak:"bulunamadı — TDV el-melikun-nasir-muhammed gövdesi çekilemedi (boilerplate); dayanak: standart akademik kaynak, Cambridge History of Egypt c.1 (ed. C. Petry), P.M. Holt, The Age of the Crusades" },
 
@@ -116,15 +118,31 @@ window.KRONOLOJI_MEMLUK = [
 
 { t:"1348-08-01", b:"Kara Ölüm Dımaşk'ı vurdu — bir günde 300'den fazla ölü", tur:"sosyal", onem:5, dunya:3, kapsam:"ic", etiket:["sosyal","demografi","saglik"], yer_id:"Şam", d:"1330'larda Orta Asya'dan başlayıp İpekyolu ticaret kervanlarıyla yayılan Kara Ölüm, 749'da (1348) Dımaşk ve çevresine ulaştı. Çağdaş tarihçi İbn Kesîr, salgının en şiddetli günlerinde şehirde bir günde 300'den fazla kişinin öldüğünü, Emeviyye Camii'nde aynı anda on beş cenaze namazının birden kılındığını kaydeder.", kaynak:"taun (TDV, gövde okundu — müellif Nükhet Varlık; İbn Kesîr, el-Bidâye ve'n-nihâye, XIV, 237 naklen)" },
 
+{ t:"1348-09-01", b:"1348 vebası Şam'ı vurdu", tur:"bilim", onem:3, dunya:3, kapsam:"ic", etiket:["bilim"], yer_id:"Şam", d:"749 (1348) yılında Çin'den başlayıp Akdeniz havzasına yayılan büyük veba salgını (Kara Ölüm) Dımaşk'a ve çevresine ulaştı. TDV İslâm Ansiklopedisi'nin taun maddesine göre salgının en şiddetli günlerinde şehirde ve civarında bir günde 300'den fazla kişi hayatını kaybetti. Bu felaket, Memlük coğrafyasında sonraki on yıllarda kaleme alınacak veba risalelerinin ardında yatan doğrudan deneyimlerden biriydi.", kaynak:"taun" },
+
 { t:"1350-01-01", b:"Kârimîlerin ticaret zirvesi", tur:"iktisat", onem:4, dunya:3, kapsam:"dis", etiket:["iktisat","ticaret","karimi","baharat"], yer_id:"Aden", d:"14. yüzyılın ortası ve ikinci yarısında Kârimî tüccarları, Aden üzerinden Kızıldeniz-Hint Okyanusu baharat ticaretinde neredeyse tekelci bir konum kazandı. TDV İslâm Ansiklopedisi'ne göre bu dönemde bazı Kârimî tüccarların servetleri on milyon dinara ulaştı; nâzırü'l-bahr ve'l-kârim adlı bir devlet görevlisi onların işlerini denetleyip vergilerini topluyordu. Zenginlikleri onları zaman zaman diplomatik elçilik görevlerine de taşıdı.", kaynak:"karimi (TDV İslâm Ansiklopedisi)" },
+
+{ t:"1350-06-01", b:"Resûlî sultanı hac sırasında Mekke'de tutuklandı", tur:"siyaset", onem:2, dunya:2, kapsam:"dis", etiket:["siyasi"], yer_id:"Mekke", d:"Resûlî Sultanı el-Melikü'l-Mücâhid Ali, 751 (1350) yılında hac için gittiği Mekke'de şerifin yönlendirmesiyle Memlük Sultanı Muhammed b. Kalavun'un hac emîri tarafından tutuklanarak Mısır'a götürüldü. Bir yıl boyunca Mısır'da alıkonulan sultanın yokluğunda Resûlî Sultanlığı neredeyse çöküş noktasına geldi.", kaynak:"resuliler" },
 
 { t:"1356-01-01", b:"Sultan Hasan Camii ve Külliyesi'nin inşasına başlandı", tur:"mimari", onem:5, dunya:3, kapsam:"ic", etiket:["mimari"], yer_id:"Kahire", d:"Kale eteğinde yükselen dev kompleksin inşaatı 1356'da başladı; Sultan Hasan 1361'de tahttan indirilip öldürüldükten sonra bile inşaat kesintiye uğramadan sürdürüldü ve 1363'te tamamlandı. Yaklaşık 8.000 metrekarelik alana yayılan, dört medrese eyvanı ve anıtsal türbesiyle Memlük mimarîsinin en görkemli örneği kabul edilir.", kaynak:"bulunamadı — TDV'nin ayrı 'sultan-hasan-camii-ve-kulliyesi' maddesi ölü slug (302), 'hasan-b-muhammed-b-kalavun' kişi maddesi yalnız genel bilgi veriyor, kesin tarih yok; dayanak: Doris Behrens-Abouseif, Islamic Architecture in Cairo: An Introduction (Brill, 1989) ve archnet.org (Aga Khan Trust for Culture / MIT akademik arşivi)" },
 
 { t:"1363-01-01", b:"Mısır'da yeni bir veba salgını görüldü", tur:"sosyal", onem:3, dunya:2, kapsam:"ic", etiket:["sosyal","demografi"], yer_id:"Kahire", d:"İbn Kesîr'in kaydına göre 764'te (1363) Mısır'da yeniden şiddetli bir tâun salgını çıktı ve çok sayıda insan hayatını kaybetti. Kara Ölüm'ün ardından yaklaşık her on yılda bir tekrarlanan bu nüksler, Memlük Mısırı'nın nüfusunu bütün XIV. yüzyıl boyunca baskı altında tuttu.", kaynak:"taun (TDV, gövde okundu — İbn Kesîr, el-Bidâye ve'n-nihâye, XIV, 317)" },
 
+{ t:"1365-01-01", b:"İbnü'ş-Şâtır Halep'te güneş saati yaptı", tur:"bilim", onem:2, dunya:1, kapsam:"ic", etiket:["bilim"], yer_id:"Halep", d:"İbnü'ş-Şâtır 767 (1365-66) yılında Halep için bir güneş saati inşa etti. Şamlı muvakkitin bu eseri, ilm-i mîkat alanındaki pratik uygulamalarının Dımaşk dışına da taştığını gösterir. Güneş saatleri dönemde yalnız zaman ölçmekle kalmıyor, namaz vakitlerinin belirlenmesinde de kullanılıyordu.", kaynak:"ibnus-satir" },
+
 { t:"1365-10-09", b:"Kıbrıs Kralı I. Petro İskenderiye'yi yağmaladı", tur:"savas", onem:4, dunya:3, kapsam:"dis", etiket:["savas"], yer_id:"İskenderiye", d:"Kıbrıs Krallığı'nın başında I. Petro'nun (Pierre de Lusignan) yönettiği bir Haçlı filosu Rodos'tan hareketle İskenderiye önlerine geldi ve şehri üç gün boyunca ele geçirip ağır biçimde yağmaladı; müslüman, hıristiyan ve yahudi ahali ayrım gözetmeksizin katliama uğradı. TDV'nin de \"Haçlılar'ın Mısır'a yaptıkları seferlerin sonuncusu\" diye nitelediği bu baskın, Memlük donanmasının Akdeniz'deki zafiyetini açıkça gösterdi ve Avrupa'yla ticari ilişkilerde uzun süreli bir güvensizlik yarattı.", kaynak:"iskenderiye (TDV, yıl); dayanak (gün): P.M. Holt, The Age of the Crusades" },
 
+{ t:"1370-01-01", b:"Memlük-Kıbrıs barış antlaşması", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", etiket:["siyaset"], yer_id:"", d:"1365'teki İskenderiye baskınının ardından Memlükler için kökü kazınması gereken bir düşman hâline gelen Kıbrıs Krallığı ile ilişkiler, baskının sorumlusu Kral I. Petro'nun 1369'da öldürülmesinin ardından yumuşadı. İki devlet arasında 1370'te bir barış antlaşması imzalandı. Antlaşma, on beş yıl sonra gerçekleşecek Sis'in fethiyle (1375) Memlüklerin dikkatini kuzeye, Kilikya Ermenileri'ne çevirebilmesini kolaylaştırdı.", kaynak:"tdv-kibris" },
+
+{ t:"1371-01-01", b:"Emeviyye Camii'ne büyük güneş saati", tur:"bilim", onem:3, dunya:2, kapsam:"ic", etiket:["bilim"], yer_id:"Şam", d:"Dımaşk'ta Emeviyye Camii'nin muvakkitliğine getirilen İbnü'ş-Şâtır, 773 (1371-72) yılında caminin minaresine büyük bir güneş saati ekledi. Şam'da ilm-i mîkat bilimi tam bu yüzyılda, sekizinci (ondördüncü) hicri asırda, en yüksek düzeyine ulaşmıştı. Eser, sonraki nesil muvakkitler için Şam'daki uygulamanın referans noktası oldu.", kaynak:"ibnus-satir, ilm-i-mikat" },
+
+{ t:"1372-01-01", b:"Habeş kralı Memlük kervanlarına sınırı kapattı", tur:"siyaset", onem:2, dunya:2, kapsam:"dis", etiket:["siyasi"], yer_id:"", d:"1372-1382 yılları arasında hüküm süren Habeş Kralı Nevaya Krestos, Mısır'dan gelen kervanların ülke sınırlarından içeri girmesini yasakladı. Bu tutum, Memlük sultanlarına resmî bağlılık bildiren önceki Habeş krallarının siyasetinden bir kopuşu ve iki ülke arasında gerilimli bir dönemin başlangıcını işaret ediyordu.", kaynak:"etiyopya" },
+
 { t:"1374-01-01", b:"İkinci büyük veba dalgası Kahire'yi iki yıl etkisi altında tuttu", tur:"sosyal", onem:3, dunya:2, kapsam:"ic", etiket:["sosyal","demografi"], yer_id:"Kahire", d:"776'da (1374) başlayan yeni bir salgın Kahire'de iki yıl sürdü; el-Makrîzî bu dalganın da şehirde ağır can kaybına yol açtığını kaydeder. Tekrarlanan salgınlar, dönemin diğer İslâm ülkeleriyle kıyaslandığında Memlük Mısırı'nın nüfus toparlanmasını özellikle yavaşlattı.", kaynak:"kahire (TDV, gövde okundu — el-Makrîzî, el-Ḫıṭaṭ, I, 339)" },
+
+{ t:"1375-06-01", b:"İbnü'ş-Şâtır vefat etti", tur:"bilim", onem:3, dunya:2, kapsam:"ic", etiket:["bilim"], yer_id:"Şam", d:"İslam astronomisinin önde gelen isimlerinden İbnü'ş-Şâtır, 777 (1375) yılında Dımaşk'ta vefat etti. Zîcü İbni'ş-Şâtır adlı eseri ve geliştirdiği gezegen modelleriyle Batlamyus sistemine getirdiği değişiklikler, ölümünden sonra da İslam astronomi geleneğinde etkisini sürdürdü.", kaynak:"ibnus-satir" },
+
+{ t:"1375-06-01", b:"Sis'in fethi ve Kilikya Ermeni Krallığı'nın sonu", tur:"savas", onem:5, dunya:4, kapsam:"dis", etiket:["askeri"], yer_id:"", d:"776'da (1375) Memlük kuvvetleri Kilikya Ermeni Krallığı'nın başşehri Sis'i ele geçirdi ve krallığı ortadan kaldırdı; bu topraklar Memlük Sultanlığı'nın kuzey sınırını teşkil etmeye başladı. Yüzyıl boyunca aralıklı akınlarla (1315 Malatya fethi dahil) zayıflatılan Kilikya Ermeni Devleti'nin bu şekilde tarih sahnesinden silinmesi, Bahrî dönemin son büyük toprak kazanımlarından biridir.", kaynak:"tdv-memlukler" },
 
 { t:"1377-01-01", b:"İbn Haldun Mukaddime'nin müsveddelerini tamamladı", tur:"bilim", onem:3, dunya:5, kapsam:"dis", etiket:["bilim","kultur","tarih-yaziciligi"], yer_id:"", d:"Eser, 779 (1377) yılında Cezayir'de, İbn Haldun'un Mısır'a gelişinden beş yıl önce tamamlandı; bu yüzden Kahire'ye bağlı bir yer_id verilemiyor. Toplumların doğuş-yükseliş-çöküş döngüsünü ve devletlerin asabiyet üzerinden analizini sistemleştiren bu giriş bölümü, yazarının sonradan yerleştiği Memlük Mısırı'nın ilim çevrelerine taşıdığı en kalıcı mirastır ve dünya tarihyazıcılığında çığır açtığı kabul edilir.", kaynak:"ibn-haldun" },
 
@@ -176,6 +194,8 @@ window.KRONOLOJI_MEMLUK = [
 
 { t:"1416-01-01", b:"Memlük-Osmanlı dostluk ve ticaret antlaşması", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", etiket:["antlasma","ittifak","ticaret"], yer_id:"", d:"Şeyh el-Mahmûdî ile Osmanlı hükümdarı Çelebi Mehmed arasında 1416-1420 yılları arasında dostane ilişkiler kuruldu; taraflar antlaşma yapıp hediye teâtisinde bulundu, ticarî ilişkilerin kolaylaştırılması amaçlandı. Bu dönem, iki devlet arasında barışçıl bir coğrafi paylaşımı yansıtıyordu.", kaynak:"tdv:seyh-el-mahmudi (yıl aralığı 1416-1420 teyitli, kesin gün yok)" },
 
+{ t:"1416-01-01", b:"İbn Hacer Bezlü'l-mâ'ûn'u yazmaya başladı", tur:"bilim", onem:2, dunya:1, kapsam:"ic", etiket:["bilim"], yer_id:"Kahire", d:"Kahireli hadis ve tarih âlimi İbn Hacer el-Askalânî, 819 (1416) yılında kızları Fâtıma ve Gāliye'yi vebadan kaybetmesi üzerine, konuyla ilgili hadis ve rivayetleri derlediği 'Bezlü'l-mâ'ûn fî fazli't-tâ'ûn' risalesini kaleme almaya başladı. Eser, Memlük Kahiresi'nde yaşanan kişisel bir yasın bilimsel-dinî bir derlemeye dönüşmesiyle ortaya çıktı.", kaynak:"ibn-hacer-el-askalani" },
+
 { t:"1420-01-01", b:"Şeyh el-Mahmûdî Karamanoğulları'nı itaate zorladı", tur:"siyaset", onem:2, dunya:2, kapsam:"dis", etiket:["siyasi"], yer_id:"", d:"Şeyh el-Mahmûdî döneminde Memlük otoritesi Anadolu'nun güneyine doğru gösterişli biçimde hissettirildi: Karamanoğulları itaate zorlandı ve bağımsızlık arayışındaki Türkmen beylikleri denetim altına alındı. Bu politika, Memlük-Osmanlı-Türkmen beylikleri üçgeninde Kahire'nin bölgesel nüfuzunu korumaya yönelikti.", kaynak:"tdv:memlukler (yıl aralığı 1412-1421 saltanatı içinde, gün/kesin yıl vermiyor)" },
 
 { t:"1422-04-01", b:"Barsbay'ın tahta çıkışı", tur:"hukumdar", onem:4, dunya:2, kapsam:"ic", etiket:["taht-degisikligi"], yer_id:"Kahire", d:"Sultan Tatar'ın oğlu Muhammed'i tahttan indiren Barsbay, 1 Nisan 1422'de Memlük sultanı oldu. On altı yıl sürecek saltanatında hem askerî seferlere hem de Kızıldeniz ticaretini devlet tekeline alan sert bir ekonomi politikasına yönelecekti.", kaynak:"tdv:barsbay" },
@@ -198,11 +218,17 @@ window.KRONOLOJI_MEMLUK = [
 
 { t:"1430-01-01", b:"Kârimî tüccarların çöküşü", tur:"iktisat", onem:4, dunya:3, kapsam:"ic", etiket:["iktisat","ticaret","karimi"], yer_id:"", d:"Barsbay'ın baharat tekeli, ağır vergilendirme ve artan korsanlık baskısı bir araya gelince asırlardır Kızıldeniz-Hint Okyanusu ticaretine hâkim olan Kârimî tüccar zümresi hızla güç kaybetti. TDV İslâm Ansiklopedisi bu süreci Kârimîlerin tarihsel çöküşünün başlangıcı olarak tarif eder; zümre 15. yüzyılın ikinci yarısında bağımsız bir ticaret gücü olarak neredeyse ortadan kalktı.", kaynak:"karimi (TDV İslâm Ansiklopedisi)" },
 
+{ t:"1430-01-01", b:"Bezlü'l-mâ'ûn on dört yıl sonra tamamlandı", tur:"bilim", onem:2, dunya:1, kapsam:"ic", etiket:["bilim"], yer_id:"Kahire", d:"İbn Hacer el-Askalânî, 819 (1416)'da yazmaya başladığı veba risalesi Bezlü'l-mâ'ûn'u, en büyük kızı Zeyn Hatun'un da aynı hastalıktan ölmesi üzerine 833 (1430) yılında Kahire'de tamamladı. Risale, vebaya dair hadisleri ve rivayetleri derleyen bir başvuru eseri olarak Memlük döneminin veba literatüründe önemli bir yer tutar.", kaynak:"ibn-hacer-el-askalani" },
+
 { t:"1438-01-01", b:"Çakmak'ın tahta çıkışı", tur:"hukumdar", onem:3, dunya:2, kapsam:"ic", etiket:["taht-degisikligi","siyasi"], yer_id:"Kahire", d:"el-Melikü'z-Zâhir Seyfeddin Çakmak 1438'de Memlük tahtına çıktı ve on beş yıllık saltanatında ülkeye görece bir istikrar ve huzur dönemi yaşattı. Rodos'taki Saint Jean (Hospitalier) şövalyelerine karşı tutarlı bir mücadele yürütürken Şâhruh ve diğer komşu hükümdarlarla dostane ilişkiler kurdu.", kaynak:"tdv:memlukler (yıl teyitli, gün vermiyor)" },
+
+{ t:"1438-01-01", b:"Zara Yakob'dan Barsbay'a dostane mektup", tur:"siyaset", onem:2, dunya:2, kapsam:"dis", etiket:["siyasi","dini"], yer_id:"", d:"Habeş Kralı Zara Yakob, 1437-1438'de Memlük Sultanı Barsbay'a bir mektup göndererek Mısır'daki Kıptî hıristiyanlarına iyi davranılmasını istedi. Mektup uzlaşmacı bir üslup taşıyordu ve iki devlet arasındaki ilişkilerin henüz açık bir gerilime dönüşmediğini gösteriyordu.", kaynak:"bulunamadı — TDV bu olayı kapsamıyor, dayanak: Taddesse Tamrat, Church and State in Ethiopia 1270-1527, Oxford: Clarendon Press, 1972, s. 262-263" },
 
 { t:"1438-06-07", b:"Barsbay'ın ölümü", tur:"hukumdar", onem:3, dunya:1, kapsam:"ic", etiket:["olum"], yer_id:"Kahire", d:"Barsbay, kısa süren bir hastalığın ardından 7 Haziran 1438'de Kahire'de öldü ve on altı yıllık saltanatı sona erdi. Kızıldeniz ticaret tekeli ve Kıbrıs'ın vasallaştırılması, mirasının en kalıcı unsurları olarak kaldı.", kaynak:"tdv:barsbay" },
 
 { t:"1440-01-01", b:"Cidde-Aden ticaret rekabeti", tur:"iktisat", onem:3, dunya:3, kapsam:"dis", etiket:["iktisat","ticaret","aden"], yer_id:"Cidde", d:"Kızıldeniz'in kuzey ucundaki Cidde ile güneyindeki Aden limanı, Hint Okyanusu'ndan gelen baharat kervanlarının hangi güzergâhı izleyeceği konusunda 15. yüzyıl boyunca rekabet içindeydi. Memlük sultanları Cidde'nin ticari üstünlüğünü korumak için zaman zaman tüccarları Aden yerine doğrudan Cidde'ye yönlendiren düzenlemelere başvurdu; bu rekabet Barsbay'ın tekel politikasının da arka planını oluşturdu.", kaynak:"cidde + karimi (TDV İslâm Ansiklopedisi) çapraz okuma" },
+
+{ t:"1441-01-01", b:"Zara Yakob'dan Çakmak'a Nil tehdidi içeren protesto", tur:"siyaset", onem:3, dunya:2, kapsam:"dis", etiket:["siyasi","dini"], yer_id:"", d:"Habeş Kralı Zara Yakob, 1441'de Memlük Sultanı Çakmak'ın emriyle Mısır'daki Debre Mitmak manastırının yıkıldığını öğrenince sultana sert bir protesto mektubu gönderdi. Ülkesindeki müslüman tebaaya adil davrandığını hatırlatarak Nil'in mecrasını değiştirme gücüne sahip olduğunu ama insanların çekeceği acı yüzünden bunu yapmadığını bildirdi; Çakmak hediyelerle karşılık verse de yıkılan kiliseleri yeniden inşa etmeyi reddetti.", kaynak:"bulunamadı — TDV bu olayı kapsamıyor (cakmak-el-melikuz-zahir maddesi konuyu içermiyor, kontrol edildi), dayanak: Taddesse Tamrat, Church and State in Ethiopia 1270-1527, Oxford: Clarendon Press, 1972, s. 262-263; Verena Krebs, 'Crusading Threats? Ethiopian-Egyptian Relations in the 1440s', Les Croisades en Afrique (ed. B. Weber), Toulouse: Presses Universitaires du Midi, 2019, s. 245-274" },
 
 { t:"1442-01-28", b:"Makrîzî vefat etti — Hıtat ve es-Sülûk'ün yazarı", tur:"kultur", onem:4, dunya:3, kapsam:"ic", etiket:["kultur","tarih-yaziciligi","olum"], yer_id:"Kahire", d:"16 Ramazan 845 (28 Ocak 1442) tarihinde Kahire'de vefat eden tarihçi, Mısır'ın topografya ve tarihini anlatan el-Hıtat'ı ve Selâhaddin'den kendi dönemine kadar sultanların tarihini kaydeden es-Sülûk'ü kaleme aldı. Ayrıca kıtlıkların iktisadî etkilerini incelediği İġâsetü'l-ümme'si, Memlük Mısırı'nın ekonomik tarihi için başlıca kaynaklardan biri sayılır.", kaynak:"makrizi" },
 
@@ -255,6 +281,8 @@ window.KRONOLOJI_MEMLUK = [
 { t:"1509-06-01", b:"Diu sonrası Memlük maliyesi çöktü", tur:"iktisat", onem:5, dunya:4, kapsam:"dis", etiket:["iktisat","baharat","portekiz"], yer_id:"Kahire", d:"Diu yenilgisinin ardından Portekiz, Hint Okyanusu'nda cartaz (geçiş izni) sistemini zorla uygulamaya başladı ve Gucerât-Kalikut-Kızıldeniz arasındaki geleneksel ticaret akışını büyük ölçüde kesti. Cidde ve Süveyş üzerinden gelen baharat gümrük gelirleri keskin biçimde düştü; Kahire hazinesi, Memlük Sultanlığı'nın son yıllarını belirleyecek kalıcı bir mali krize girdi.", kaynak:"WebSearch çapraz doğrulama (ikincil akademik kaynak) — birincil kaynağa ulaşılamadı" },
 
 { t:"1510-01-01", b:"Kansu Gavri ağır vergilere başvurdu", tur:"iktisat", onem:4, dunya:2, kapsam:"ic", etiket:["iktisat","kansu-gavri"], yer_id:"Kahire", d:"Diu yenilgisiyle daralan baharat gelirini telafi etmek için Kansu Gavri, Mısır ve Suriye'de yeni ve ağır vergiler ile zorunlu bağışlar (mukâsemeler) uyguladı. Bu politika kısa vadede hazineyi rahatlatsa da halk ve tüccarlar arasında ciddi hoşnutsuzluğa yol açtı; Memlük idaresinin son yedi yılında mali istikrarsızlık kalıcı hâle geldi.", kaynak:"WebSearch çapraz doğrulama (ikincil akademik kaynak) — birincil kaynağa ulaşılamadı" },
+
+{ t:"1511-01-01", b:"Kansu Gavri'nin emriyle Cidde'ye kale yaptırıldı", tur:"idari", onem:3, dunya:2, kapsam:"dis", etiket:["siyasi","askeri"], yer_id:"Cidde", d:"Kızıldeniz'e giren Portekiz gemilerinin oluşturduğu tehdide karşı Sultan Kansu Gavri'nin Cidde nâibi olarak atadığı Hüseyin el-Kürdî, şehri korumak için dokuz ay gibi kısa bir sürede bir kale inşa ettirdi. Bu tahkimat, 1517'de bölgenin Osmanlı idaresine geçmesinden sonra da savunma amacıyla kullanılmaya devam etti.", kaynak:"cidde" },
 
 { t:"1514-01-01", b:"Kansu Gavri'nin Selim'in ittifak teklifini reddetmesi", tur:"siyaset", onem:5, dunya:3, kapsam:"dis", etiket:["siyasi","ittifak"], yer_id:"Kahire", d:"Osmanlı Sultanı I. Selim'in 1514'te Safevî Devleti'ne karşı önerdiği ittifaka Kansu Gavri katılmayı reddetti. Bu reddin yanı sıra Gavri'nin Şehzade Ahmed'in oğullarına verdiği destek, iki devlet arasındaki ilişkileri hızla bozdu ve Mercidâbık'a giden yolu açtı.", kaynak:"tdv:kansu-gavri (yıl 920/1514 teyitli, gün vermiyor)" },
 
