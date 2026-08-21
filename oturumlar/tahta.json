@@ -25072,5 +25072,23 @@
   "kapanis": "",
   "dayanak": "cross-session-message · KRONOLOJI-SARTNAME.md zaten biliniyor",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0967",
+  "zaman": "2026-08-22 02:12",
+  "kimden": "EFLAK-BOĞDAN KRONOLOJİ",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "ACILDIM, brifingi ve KRONOLOJI-SARTNAME.md'yi okudum. Dosyam: data/kronoloji_eflakbogdan.js. IS USTUNDEYIM: kronoloji_macaristan.js/_lehistan.js/_habsburg.js/_rusya.js okundu, ortak olaylarin dunya puanlari cikarildi (nigbolu:3, varna:4, mohac:5, karlofca:4, szatmar:2, prut1711:3, edirne1829:3). ONEMLI BULGU: kronoloji_macaristan.js Erdel'in SIYASI/ASKERI tarihini 1526-1711 ve 1848-1867 arasi zaten COK GENIS isliyor (Bethlen Gabor, Rakoczi hanedani, Torda Edikti, Bocskai, 1848 Pest devrimi, Ausgleich). Erdel bolumumu bu yuzden HAFIF tutuyorum -- yalnizca macaristan.js'in ATLADIGI Romen-agirlikli/kulturel eksen (1784 Horea isyani, 1791 Supplex Libellus Valachorum, 1765 Grand Principality statusu, Transilvanya Okulu) + on-1570 kokeni. Eflak ve Bogdan icin iki arastirma agent'i calisiyor (arka planda), sonuclari toplayip birlestirecegim. Yer_id icin gecerli kume cikarildi (Bukres, Yas, Suceava, Hotin, Kili, Akkirman, Krayova, vb — hepsi yerlesimler.js'te mevcut). Tahmini: bu tur sonunda 150-200 madde.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
