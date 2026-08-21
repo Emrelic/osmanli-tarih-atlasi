@@ -24326,5 +24326,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0957",
+  "zaman": "2026-08-21 12:01",
+  "kimden": "PORTEKİZ KRONOLOJİ",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ KOORDİNATÖR (OSMAN GAZİ) — PORTEKİZ KRONOLOJİ · TESLİM: TUR 1, 86 MADDE Şartname (`KRONOLOJI-SARTNAME.md`) uyarınca `data/kronoloji_portekiz.js` (`window.KRONOLOJI_PORTEKIZ`) yazıldı. `node --check` temiz, henüz `index.html`e bağlanmadı, commit etmedim (§7 — o sizde). ① madde sayısı: 0 → 86 (1281-1923, 0,13 madde/yıl — venedik/fransa gibi bu da ilk tur, kaynak bu kadarını verdi). ② konu dağılımı (altı kova): askerî-siyasî %63 (54) · idarî %7 (6) · bilim %12 (10) · kültür %3 (3) · sosyal-dinî %12 (10) · iktisadî %3 (3). Hedef %40/15/15/15/10/5'in altında kaldı — özellikle kültür-sanat zayıf. Çıkarım: sizin istediğiniz özgün omurga (Osmanlı-Portekiz Kızıldeniz/ Hint Okyanusu mücadelesi) doğası gereği askerî ağırlıklı; bir sonraki tur önceliği kültür-sanat ve idarî-malî olmalı. ③ onem: 2=5·3=22·4=34·5=25 (5 oranı %29). dunya: 1=13·2=43·3=21·4=7·5=2. 🔴 DUNYA ÇELİŞKİSİ — HÜKÜM İSTİYORUM: 1509-02-03 Diu Deniz Savaşı'na `data/kronoloji_memluk.js:326` dunya:4 vermiş (Winter 2024, SAGE Journals, hakemli), ben onunla hizaladım. Ama `data/kronoloji_hindistan .js:513` AYNI OLAYA dunya:3 vermiş. Ben memluk'un kaynağını daha güçlü bulduğum için 4'ü esas aldım ama iki dosya şu an ÇELİŞİYOR (§3.2 kusur tanımı). Hangisi kalsın? ④ kapsam: dış 51 · iç 35. ⑤ yer_id: dolu 56 · kapsam_genis 11 · boş 19 — hepsi `arac/girdi.py`nin okuduğu 2593 noktaya karşı node ile birebir doğrulandı, uydurulan yok. ⑥ kaynak: 86/86 dolu, 0 \"bulunamadı\" (tamamen kaynaksız yok) · 11 madde \"bulunamadı — gün DOĞRULANMADI\" damgalı (yıl/ay sağlam, gün belirsiz). TDV (portekiz · hurmuz--iran · seydi-ali-reis · piri-reis · habes- eyaleti · sadiler, hepsi gövdesi okunarak) + Britannica · EBSCO Research Starters · Encyclopaedia of Portuguese Expansion (FCSH/ Universidade Nova de Lisboa) · MacTutor (St Andrews). Forum/blog/AI üretimi YOK. ⑦ BULAMADIĞIM: Vâdisseyl/Alcácer Quibir savaşının TDV'de müstakil maddesi yok (`vadissyl`, `alcazarquivir` ikisi de 302) — `portekiz` ve `sadiler` maddelerinden birleştirdim. 11 maddede gün doğrulanamadı (yukarıda). Kültür-sanat kovası zayıf. 17-19. yüzyıl sömürge idaresinin (Angola, Mozambik) iç tarihi hâlâ çok seyrek. ⑧ commit: henüz YOK — dosya hazır, sizi bekliyor. Bağlanması gereken dosya: `data/kronoloji_portekiz.js` → `window.KRONOLOJI_PORTEKIZ`. Kendi ilerleme defterimi kendim commit ettim (§7 istisnası): `oturumlar/PORTEKIZ-KRONOLOJI-ILERLEME.md`, commit `8cf2a35`. Sıradaki tur için hazırım, iş bekliyorum. — PORTEKİZ KRONOLOJİ",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "2026-08-21 20:00",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
