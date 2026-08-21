@@ -143,6 +143,20 @@ def main():
     kos("⑥ yayın kapısı", ["arac/denetle_yayin.py"], a.kuru,
         uyari_kodu=True)
 
+    # ⑥b KRONOLOJİ ŞEMASI — 21 Ağustos 2026'da zincire girdi.
+    # 🔴 NİÇİN: dokuz `data/kronoloji_*.js` dosyası (1093 madde) vardı ve
+    # İÇLERİNE BAKAN HİÇBİR ŞEY YOKTU. Altı değişmez yerleşim verisini
+    # denetler; yayın kapısı dosyanın YÜKLENİP yüklenmediğine bakar, İÇİNE
+    # değil. ⇒ `CLAUDE.md §11`: "denetim var ≠ o soruyu soruyor."
+    # Doğuran vaka: MEMLÜK oturumu kendi çıktısında 8 kayıtta `dunya:0`
+    # buldu (şema 1-5 istiyor), kendisi düzeltti ve bildirdi. Asıl soru
+    # onun bulduğu değil, "ÖTEKİ SEKİZ DOSYADA DA var mı" idi — ve onu
+    # soracak bir alet yoktu.
+    # ⚠️ UYARI kipinde: bir şema ihlali haritayı bozmaz, yayını durdurmak
+    # orantısız olur. Ama sessiz de kalmaz — günlüğe düşer.
+    kos("⑥b kronoloji şeması", ["arac/denetle_kronoloji.py"], a.kuru,
+        uyari_kodu=True)
+
     # ⑦ commit + push
     if a.kuru:
         yaz("▶ ⑦ commit + push   (kuru koşu — yapılmadı)")

@@ -155,3 +155,61 @@ yerleşimle eşleşiyor (py girdi.py ile doğrulandı) — 0 uyuşmazlık.
    `data/kronoloji_memluk.js` → `window.KRONOLOJI_MEMLUK`, 131 madde.
 
 Sıradaki tur için hazırım.
+
+## 2026-08-21 — PARTİ 2 KABUL EDİLDİ (commit a83f66c)
+131/131 alan dolu, 0 mükerrer, 13/13 yeni yer_id eşleşti. 🟡 **Kendi
+hatam kaydedildi:** raporumda "Sis'in fethi … dunya:5" yazmışım, veride
+doğrusu duruyordu (`onem:5, dunya:4`) — onem'i dunya diye yazmışım.
+Koordinatör veriyi bıraktı, raporu düzeltti. **Ders: rapordaki sayılar
+dosyadan KOPYALANACAK, hafızadan yazılmayacak.**
+İki davranışım olumlu kaydedildi: Karasungur'u (yalnız Wikipedia vardı)
+ve İbn Hâtime/İbnü'l-Hatîb'i (koordinatörün önerisi olmasına rağmen
+Memlük bağlantısı doğrulanamadığı için) yazmamam.
+
+## ÜÇÜNCÜ PARTİ — üç kol, C öncelikli (kota yok)
+- C ÖNCELİKLİ: idarî-malî derinleştirme — ıktâ bozulması, sikke tağşişi,
+  sultanî tekeller, vakıf iktisadı
+- A: Burcî dönem derinleştirme — Berkuk sonrası taht mücadeleleri,
+  Kıbrıs/Lusignan tâbiiyeti derinleştirme, Kayıtbay'ın imar faaliyeti,
+  Kansu Gavri döneminde ateşli silah krizi
+- B: Suriye-Filistin — Kudüs (HİÇ yok şu an), Trablusşam (HİÇ yok),
+  Emeviye Camii yangınları, Kudüs'ün imarı
+
+## 2026-08-21 — TESLİM: PARTİ 3, +24 madde (131 → 155)
+
+Üç kol tamamlandı (C idarî-malî 5 · A Burcî derinleştirme 11 · B
+Suriye-Filistin 8, Kudüs ve Trablusşam ilk kez girdi). Bir kolda şema
+hatası buldum ve düzelttim: Suriye-Filistin kolu 8 maddenin 8'inde de
+`dunya:0` yazmıştı (şema 1-5 istiyor) — elle `dunya:1` ya da `2`ye
+çektim, gerekçesini dosyaya not düştüm. `node --check` temiz, sıfır
+tekrar (programatik tarandı), sıfır şema hatası (dört alan da: tarih
+biçimi, onem/dunya 1-5 aralığı, kapsam ic/dis — hepsi kontrol edildi).
+17 farklı yer_id'nin 17'si de gerçek yerleşimle eşleşiyor.
+
+### RAPOR — KRONOLOJI-SARTNAME.md §7 (sayılar DOSYADAN, hafızadan değil)
+① 131 → 155 (+24).
+② konu: idarî-malî 5 (Dîvân-ı Müfred 1395, vakıf kaldırma girişimi 1387,
+   Kayıtbay müsaderesi, Kansu Gavri tağşişi + cülban isyanı) · Burcî
+   siyaset/savaş 9 (Ferec b. Berkuk'un beş iç mücadelesi 1400-1412,
+   Kıbrıs tâbiiyetinin devamı 1460/1490) · mimarî 3 (İskenderiye kalesi,
+   Kudüs Eşrefiyye, Mescid-i Nebevî yangını) · Kudüs/Trablusşam mimarî
+   6 · Emeviyye yangını 1.
+③ tüm dosya (155 madde): onem 5→31·4→48·3→56·2→20·1→0 — dunya
+   5→6·4→16·3→34·2→63·1→36.
+④ kapsam: ic 93 · dis 62.
+⑤ yer_id: 17 farklı değer, 17/17 eşleşiyor (0 uyuşmazlık).
+⑥ kaynak (parti 3'ün 24 maddesi): TDV gövde-doğrulanmış çoğunluk ·
+   ikincil akademik: Igarashi (Dîvân-ı Müfred, MSR 2006), Petry
+   (Protectors or Praetorians?, cülban isyanı), Ayalon (ateşli silah
+   krizi — TARTIŞMALI olduğu maddede açıkça belirtildi, karşıt görüş
+   Petry de eklendi), Behrens-Abouseif (Emeviyye yangını, MSR 2004).
+   "Bulunamadı" yeni madde yok bu partide.
+⑦ Bulamadıklarım: "sultanî tekeller (baharat/şeker dışında — tuz/
+   kereste/şap)" TDV'de yok, güvenilir akademik kaynak da bulunamadı —
+   yazılmadı. El-Musta'in-Billâh'ın 1412'deki kısa sultanlığı — TDV ve
+   nümizmatik literatür süresi konusunda çelişiyor (3 gün mü 6 ay mı),
+   çelişki çözülemedi, madde YAZILMADI (uydurmaktansa atlandı).
+⑧ commit YAPMADIM (§7). Dosya güncel: `data/kronoloji_memluk.js`,
+   155 madde, `window.KRONOLOJI_MEMLUK`.
+
+Sıradaki tur için hazırım.
