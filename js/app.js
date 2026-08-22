@@ -4705,37 +4705,21 @@ function olayKonumu(o) {
   return null;
 }
 
-// §⑧③ — Emre: "çok yaklaşıyor, etrafı göremiyorum." Sürgü zoom SAYISI
-// gösteriyordu, insan zoom sayısıyla düşünmüyor. Gerçek km'yi MapLibre'nin
-// KENDİ döşeme dönüşümüyle (512px, 256 DEĞİL — Google/Bing'in eski 256px
-// kuralı burada YANLIŞ sonuç verir, ölçüldü ve düzeltildi: aradaki fark tam
-// 2× çıkıyordu) hesaplıyoruz — `harita.getBounds()` ile ampirik doğrulandı.
-function yakinlikKm(zoom) {
-  var lat = harita.getCenter().lat;
-  var genislikPx = harita.getContainer().offsetWidth || 973;
-  var metrePerPiksel = Math.cos(lat * Math.PI / 180) * 2 * Math.PI * 6378137 / (512 * Math.pow(2, zoom));
-  return Math.round(metrePerPiksel * genislikPx / 1000);
-}
-// Ölçülmüş çapa noktaları (gerçek şehir/bölge çiftleri arası haversine
-// mesafesi — TAHMİN EDİLMEDİ): bir şehir ~66 km (İstanbul metropolü),
-// bir sancak ~141 km (Bosna sancağı), Batı Anadolu ~521 km (Çanakkale-
-// Antalya), Anadolu ~1.499 km (Çanakkale-Iğdır), imparatorluk ~3.306 km
-// (Viyana kapıları-Basra).
-var YAKINLIK_CAPA = [
-  { km: 66, ad: "bir şehir" }, { km: 141, ad: "bir sancak" },
-  { km: 521, ad: "Batı Anadolu" }, { km: 1499, ad: "Anadolu" },
-  { km: 3306, ad: "imparatorluk" }
-];
-function yakinlikEtiket(zoom) {
-  var km = yakinlikKm(zoom);
-  var enYakin = YAKINLIK_CAPA[0], enKucukFark = Infinity;
-  YAKINLIK_CAPA.forEach(function (c) {
-    var fark = Math.abs(Math.log(km / c.km));
-    if (fark < enKucukFark) { enKucukFark = fark; enYakin = c; }
-  });
-  var kmYazi = km >= 1000 ? (km / 1000).toFixed(1).replace(".0", "") + " bin km" : km + " km";
-  return "~" + kmYazi + " (" + enYakin.ad + " ölçeğinde)";
-}
+// 🔴 `yakinlikKm` · `YAKINLIK_CAPA` · `yakinlikEtiket` SİLİNDİ (22 Ağu 2026).
+// Üçü de yalnız `ayar-yakinlik` sürgüsünün etiketini besliyordu; o sürgü ÖLÜ
+// çıktı (değeri hiçbir kamera kodu okumuyordu) ve kaldırıldı. Sürgü gidince
+// bu üçü de çağrısız kaldı.
+// `YASALAR A4`: **ölü ÖZELLİK kodu silinir, ölü SAVUNMA dalı KALIR.** Bunlar
+// özellik kodu — bir etiketi biçimlendiriyorlardı, hiçbir şeyi korumuyorlardı.
+//
+// 📌 KAYIT — silinen ölçüm, yeniden ölçülmesin diye:
+//   zoom→km dönüşümü MapLibre'nin KENDİ döşeme kuralıyla yapılıyordu:
+//   512px, 256 DEĞİL (Google/Bing'in eski 256px kuralı burada tam 2× yanlış
+//   sonuç veriyordu, ölçülüp düzeltilmişti).
+//   Çapa noktaları GERÇEK haversine ölçümüydü, tahmin değil:
+//     bir şehir ~66 km (İstanbul metropolü) · bir sancak ~141 km (Bosna)
+//     Batı Anadolu ~521 km · Anadolu ~1.499 km · imparatorluk ~3.306 km
+//   ⇒ Ters yön (`kmDanZoom`) YAŞIYOR ve uçuşun kalbi; bu bilgi orada duruyor.
 
 // §A② — varsayılan AÇIK (şartnamenin kendi önerisi: "kapalıyken kimse
 // varlığını bilmez"). `localStorage`ta hiç kayıt yoksa açık kalır; kullanıcı
@@ -5456,18 +5440,15 @@ function odakOfseti(hedef, kap) {
       if (k) e.value = k;
       e.addEventListener("change", function () { localStorage.setItem(p[1], e.value); });
     });
-  // `ayar-yakinlik` ayrı: etiketi zoom sayısı değil km (§⑧③, yakinlikEtiket).
-  var yakinlikGirdi = document.getElementById("ayar-yakinlik");
-  var yakinlikDeger = document.getElementById("ayar-yakinlik-deger");
-  var yakinlikKayitli = localStorage.getItem("ayarYakinlik");
-  if (yakinlikKayitli) yakinlikGirdi.value = yakinlikKayitli;
-  yakinlikDeger.textContent = yakinlikEtiket(+yakinlikGirdi.value);
-  yakinlikGirdi.addEventListener("input", function () {
-    yakinlikDeger.textContent = yakinlikEtiket(+yakinlikGirdi.value);
-    localStorage.setItem("ayarYakinlik", yakinlikGirdi.value);
-  });
+  // 🔴 `ayar-yakinlik` KALDIRILDI — ÖLÜ SÜRGÜYDÜ (22 Ağustos 2026).
+  // Emre sordu: *"bu ayarın ne işe yaradığını anlayamadım."* Ölçüldü, cevap
+  // HİÇBİR ŞEY: değeri localStorage'a yazılıyor, etiketi güncelleniyordu ama
+  // **hiçbir kamera kodu onu OKUMUYORDU.** Uçuş `ayar-genislik-km`yi okuyor.
+  // ⚠️ Ve zararsız değildi: birinci sürgüyle aynı şeyi kontrol ediyormuş gibi
+  // görünüyordu — kullanıcı onun niçin işe yaramadığını çözmeye çalıştı.
+  // 📌 `CLAUDE.md §11` "yazılmış görünüyor" sınıfı. Ölü ÖZELLİK kodu silinir
+  // (ölü SAVUNMA dalı kalır — o ayrım `YASALAR A4`te).
   document.getElementById("btn-ayarlar").addEventListener("click", function () {
-    yakinlikDeger.textContent = yakinlikEtiket(+yakinlikGirdi.value);   // acilista harita merkezine gore taze
     pencere.classList.remove("gizli");
   });
   document.getElementById("ayarlar-kapat").addEventListener("click", function () {
