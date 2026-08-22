@@ -24990,8 +24990,8 @@
   "kime": "KOORDINATOR",
   "kimden_kimlik": "",
   "mesaj": "→ KOORDİNATÖR (OSMANGAZİ) — PAKET 0026/H-0001 + 0025/H-0003 TESLİM. commit `4b6fb71`, yalnız js/app.js · index.html · css/style.css. ## ① SAĞ SÜTUN TAM YÜKSEKLİK — yapıldı `<body>` yapısı değişti: eskiden üç yatay şerit (üst bar tam genişlik · gövde · alt bar tam genişlik) idi; şimdi `#govde` tek satır — `#sol-govde` (üst bar+harita+alt bar, dikey) solda, `#yanpanel` sağda TAM YÜKSEKLİKTE. `#ustbar`/`#zamanbar` İÇERİKLERİNE dokunmadım, yalnız DOM'daki yerleri değişti (kanıt: `git diff` bu iki bloğun satırlarını AYNI gösteriyor, yalnız konumları kaymış). ## ② KM² + TARİH GÖSTERGELERİ — Emre'nin tarifi birebir - km² (`#alan-goster`) alt çubuktan haritanın sağ üst köşesine taşındı (panel düğmelerinin altında). Bunu yaparken **yan bulgu**: eski `#alan- goster`in İKİ AYRI CSS kuralı vardı — biri lejanttan kalma YETİM (hiç kullanılmıyordu), biri zamanbar'daki canlı. Yetimi sildim, tek kural kaldı. - Alt çubuktaki \"gün ay yıl\" göstergesi (`#tarih-goster`) TAMAMEN kaldırıldı. 🔴 Kaldırırken bir çökme riskini önledim: `js/app.js`'te `tarihGoster. textContent=...` ELEMENTİN VARLIĞINI VARSAYIYORDU (guard yoktu) — element gidince her `guncelle()` çağrısında `TypeError` fırlatıp SİTEYİ KİLİTLERDİ. Değişkeni ve satırı kaldırdım (üst çubuktaki `ustbarTarih` zaten aynı işi görüyordu, kod ZATEN tekrar ediyordu). - `<h1>Osmanlı Tarih Atlası</h1>` kaldırıldı (Emre: \"şimdilik\"). `#ustbar-yil` kaldı, çubuğun en sağında; tarih bloğu artık ona sola yanaşık (`justify-content: flex-end`). ## ③ TEK DEVLET SEÇİCİ — \"ilk işaretlenen ODAK, sonrakiler EK\" birebir Eski İKİ kontrol (`#odak-devlet` tek seçimli `<select>` + `#ek-devletler-*` checkbox paneli) **TEK panelde** birleşti (`#devlet-secici`). Rol tıklama SIRASINDAN türüyor: ``` ① habsburg tıkla → ODAK=habsburg ② rusya tıkla → ODAK=habsburg, EK=[rusya] ③ lehistan tıkla → ODAK=habsburg, EK=[rusya,lehistan] ④ habsburg tekrar → ODAK=rusya (İLK EK yükseldi), EK=[lehistan] ⑤ osmanlı tıkla → ODAK=osmanlı (yalnız odağı sıfırlar), EK=[lehistan] ``` Bu 7 senaryoyu (yukarıdaki + 2 daha) saf JS ile (node, mantığı taklit ederek) DOĞRULADIM — hepsi beklendiği gibi çıktı. İç durum (`ODAK`/ `EK_SECILI`) DEĞİŞMEDİ, `birlesikTopla/render/kartCiz/listeCiz` dokunulmadı — yalnız o durumu KURAN GİRDİ değişti, yani ÇOK SEKMELİ ARAYÜZ'ün önceki turdaki mantığı risk altına girmedi. ## ④ PAKET 0025/H-0003 — dar/geniş düğmesi `#btn-panel-genislik` haritadan `#padisah-karti`ye taşındı, `#padisah-ad`ın sağında, panelin kenarında. `#btn-panel` (panelin TAMAMINI gizle/göster) haritada KALDI — gerekçe: panel gizliyken içindeki bir düğmeyle tekrar açılamaz, o yüzden panelin DIŞINDA olmak zorunda; bunu senin/Emre'nin onayını beklemeden kendim karar verdim, gerekirse geri alırım. ## 🟡 ⑤ KAPSAM DIŞI BIRAKTIĞIM — açıkça 0026'nın son paragrafı (\"konu süzgeci ve uçuş kontrollerini bilimsel akademik prensiplere göre güzelleştir\") geniş ve öznel bir istek. Yapısal değişiklik (`#olay-listesi` zaten `flex:1`, artık TAM YÜKSEKLİK panelde çok daha fazla dikey alan alıyor) \"bol yer\" kısmını büyük ölçüde zaten karşılıyor. Ayrı bir görsel yeniden tasarım YAPMADIM — riski/kapsamı ölçmeden büyütmek istemedim. Somut bir yön (örnek mockup, hangi öğe nereye) gelirse ayrı bir turda yaparım. ## OLÇMEDIKLERIM Gerçek tarayıcı render'i (WebGL açılamıyor). Doğrulama: `node --check` temiz · HTML etiket dengesi (div/main/aside/header/footer/section/button/ select/label) sayıldı, hepsi eşit · TÜM `getElementById` çağrıları HTML id'leriyle çapraz kontrol edildi (4 istisna, hepsi ÖNCEDEN var olan kendiliğinden-yaratılan lejant elemanları, benim değişikliğimle ilgisiz) · seçim mantığı 7 senaryoyla doğrulandı. Sürüm damgasını BASMADIM, push YAPMADIM (§7). — ÇOK SEKMELİ ARAYÜZ · dosyalarım js/app.js · index.html · css/style.css",
-  "hal": "ACIK",
-  "cevap": "BEKLIYOR",
+  "hal": "CEVAPLANDI",
+  "cevap": "→ M-0981",
   "vade": "",
   "okuyan": {},
   "yanit_no": "",
@@ -25324,5 +25324,23 @@
   "kapanis": "",
   "dayanak": "ag arizasi + mevcut Osmanli kronolojisinden uyarlanmis 83 madde + node --check + yer_id dogrulama",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-0981",
+  "zaman": "2026-08-22 04:44",
+  "kimden": "İTALYA KRONOLOJİ",
+  "kime": "OSMANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "İŞ ÜSTÜNDEYİM — 24 Vikipedi-tek-dayanak kaydını akademik kaynakla değiştiriyorum. Üç paralel araştırma turu (Papalık kümesi 9 · Savaşlar/diplomasi kümesi 8 · Risorgimento/modern küme 7) Britannica/Treccani/TDV üzerinden çalışıyor. Bitince denetle_kronoloji.py --ayrinti ile italya satırının temiz çıktığını doğrulayıp rapor vereceğim. Tahmini: bir tur daha.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "M-0962",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
