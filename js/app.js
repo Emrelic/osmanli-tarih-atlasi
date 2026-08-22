@@ -2843,13 +2843,24 @@ function kareSayaciBaslat(beklenenMs, etiket) {
     // ⚠️ `%s`/`%d` yer tutucusu KULLANILMIYOR: bazı konsol okuyucuları onu
     // değiştirmeden basıyor ve satır okunmaz hâle geliyor (ölçüldü). Bu satırı
     // Emre okuyacak — biçim riski taşımasın diye düz birleştirme.
-    console.log("🎞 " + (etiket || "uçuş")
-                + " — kare: " + kare + "/" + beklenenKare
-                + " · " + fps + " fps"
-                + " · en uzun boşluk " + Math.round(enUzun) + " ms · "
-                + (akici ? "✓ AKICI"
-                         : (enUzun > 50 ? "🔴 KARE DÜŞÜYOR (ağır çizim?)"
-                                        : "🟡 kare oranı düşük")));
+    var hukum = akici ? "✓ AKICI"
+                      : (enUzun > 50 ? "🔴 KARE DÜŞÜYOR (ağır çizim)"
+                                     : "🟡 kare oranı düşük");
+    var satir = (etiket || "uçuş") + " — " + kare + "/" + beklenenKare
+                + " kare · " + fps + " fps · en uzun boşluk "
+                + Math.round(enUzun) + " ms · " + hukum;
+    console.log("🎞 " + satir);
+    // 🔴 EKRANA DA YAZ — Emre: *"hangi satırı yapıştıracağım anlamadım."*
+    // Kullanıcıdan geliştirici konsolu açmasını istemek, ölçümü ULAŞILMAZ
+    // kılar. Ölçüm, onu okuyacak kişinin BAKTIĞI yerde durmalı.
+    // 📌 Bu, `§⑧③`in dersinin aynısı: orada sürgü zoom SAYISI gösteriyordu
+    // ve Emre "ayarlar etki etmiyor" sandı — kusur mekanizmada değil
+    // GÖRÜNÜRLÜKTEYDİ. Burada da ölçüm DOĞRUYDU, görünmüyordu.
+    var kutu = document.getElementById("ucus-olcum");
+    if (kutu) {
+      kutu.textContent = satir;
+      kutu.className = "ayar-olcum " + (akici ? "olcum-iyi" : "olcum-kotu");
+    }
   };
 }
 

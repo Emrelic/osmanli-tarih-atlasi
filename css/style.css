@@ -1435,6 +1435,16 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
 .ayar-ipucu { font-size: 11px; color: #8a6d2f; font-weight: normal; }
 .ayar-satir input[type="range"] { flex: 1 1 auto; }
 .ayar-deger { font-size: 12px; color: #6b4a1f; min-width: 2.5em; text-align: right; }
+/* 🔴 22 Ağustos 2026 — uçuş akıcılık ölçümü. Konsolda duruyordu ve Emre
+   *"hangi satırı yapıştıracağım, o sembol nedir?"* diye sordu. Ölçüm, onu
+   okuyacak kişinin BAKTIĞI yerde durmalı. Tek satır, sabit genişlikli —
+   sayılar hizalı okunsun. */
+.ayar-olcum { font-size: 12px; font-family: Consolas, "Courier New", monospace;
+  color: #6b4a1f; background: #fdf8ec; border: 1px solid #e0cfa8;
+  border-radius: 4px; padding: 4px 7px; margin-top: 2px; width: 100%;
+  box-sizing: border-box; }
+.ayar-olcum.olcum-iyi  { color: #1c6b2e; border-color: #9ccfa8; background: #f2fbf4; }
+.ayar-olcum.olcum-kotu { color: #9a2b1e; border-color: #e2a79c; background: #fdf3f1; }
 .ayar-not { font-size: 11px; color: #8c3444; line-height: 1.4; margin-top: 4px; }
 /* DUYGU-VE-SEKME-SARTNAME.md §A — anahtar tipi ayar satırı: etiket sola,
    checkbox sağa (sürgü satırlarından farklı, tek satırlık anahtar). */
