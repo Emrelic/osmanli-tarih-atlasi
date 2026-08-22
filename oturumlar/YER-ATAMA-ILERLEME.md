@@ -269,8 +269,42 @@ misir/rusya.js` dosyalarını da (varsa) kaynak listesine alıyor.
 Kalan 86 kayıt için 2 paralel araştırma görevi başlatıldı (43+43, TDV +
 Encyclopaedia Iranica, WebFetch) — kişi-adı tuzağına özellikle karşı uyarıldı.
 
+## 🟢 İRAN TAMAMLANDI — 107/107
+
+İki araştırma alt-görevi (43+43) tamamlandı, doğrulandı (1 küçük "b"
+yazım farkı — "Nâdir Şah" vs kaynaktaki "Nadir Şah" — düzeltildi, ondan
+sonra 0 hata), birleştirildi.
+
+```
+İran toplam: 107/107
+  yer_id        76
+  eksik_nokta   14 (benzersiz — bazı kayıtlar aynı yere düştü)
+  kapsam_genis  17
+```
+Kalite örnekleri (araştırmanın derinliğini gösteren):
+- **Karakoyunlu kuruluş yeri düzeltmesi:** kaydın kendi metni "merkezi
+  Tebriz" diyordu, TDV 'karakoyunlular' maddesi kuruluşu Van-Erciş
+  bölgesine bağlıyor (Tebriz ancak ~30 yıl sonra başkent oldu) — kayıt
+  metniyle ÇELİŞEN ama TDV'ye dayanan doğru yer seçildi, tarihe dokunulmadı.
+- **Kişi adı tuzağı iki kez doğru ayıklandı:** "Şah İsmail" (kişi) ile
+  havuzdaki "İsmail" (Tuna'da bir kale) çakışması — ikisi de gerçek ölüm/
+  taç giyme yerine (Tebriz, Kazvin) doğru atandı.
+- **data/olaylar*.js ile çapraz kontrol:** birkaç kayıt (Otlukbeli, Merv,
+  Kasr-ı Şirin, Fethâbâd, Tahran/Kaçar kuruluşu) ana kronolojide ZATEN
+  doğrulanmış olarak bulundu, mükerrer araştırma yapılmadan aynı atama
+  kullanıldı — tutarlılık sağlandı.
+- Bazı TDV↔kayıt tarih farkları (bir-iki gün, bazen ~1 yıl — örn. Kerden/
+  Kazvin, Türkmençay 10 Şubat vs TDV 22 Şubat) görüldü, **hepsi not alanına
+  yazıldı, hiçbiri tarihe dokunmadan bırakıldı** (görev yalnız yer).
+- İkinci araştırma görevi TDV/Iranica'ya doğrudan erişemedi (403 bot
+  koruması) — WebSearch üzerinden çoklu bağımsız kaynakla (Britannica,
+  DOAJ, akademik özetler) çapraz doğrulama yaptı, şeffaf biçimde belirtti.
+
+`data/yer_yama.js`: **519 kayıt toplam** (412 olaylar* + 107 İran). Tam
+dosya kapı sınaması: 0 hata.
+
 ## Durum
-**Devam ediyor** — 2 İran araştırma görevi arka planda. Bitince İran
-tamamlanmış olacak (107/107), sonra Rusya/Habsburg/Lehistan/Venedik/
-Macaristan/Kırım sırasıyla aynı yöntemle.
+**İran tamamlandı.** Sırada: **Rusya** (Emre'nin sırası: Rusya · Habsburg
+(Avusturya) · Lehistan · Venedik · Macaristan · Kırım). Kapsamını ölçüp
+aynı yöntemle devam ediyorum.
 `kronoloji_sirbistan.js` sorusu hâlâ cevapsız — dokunmuyorum.
