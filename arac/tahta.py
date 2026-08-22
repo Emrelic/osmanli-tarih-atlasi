@@ -97,6 +97,88 @@ def _yukle():
         sys.exit(2)
 
 
+class _Kilit(object):
+    """🔴🔴 OKU-DEĞİŞTİR-YAZ KİLİDİ — 22 Ağustos 2026, ÖLÇÜLMÜŞ KAYIP.
+
+    `_kaydet` 16 Ağustos'ta atomik yapıldı ve dosya bozulması bitti. Ama o
+    düzeltmenin kendi yorumu şunu **açıkça kabul ediyordu**:
+        *"⚠️ Yarış hâlâ var (iki yazım birbirinin üstüne binebilir ve biri
+        kaybolabilir) ama dosya hiçbir zaman bozulmaz."*
+    ⇒ Bilinmeyen bir kusur değil, **kabul edilmiş bir risk**ti. Bugün on beş
+    oturum aynı anda yazarken GERÇEKLEŞTİ:
+
+        OPUS HAZIR KITA 52: *"ilk yazma denemem 21:21'de KAYBOLDU. tahta.py
+        çıkış kodu 0 verdi ama mesaj tahtaya inmedi — aynı dakikada sen
+        M-1049/1050/1051 yazıyordun."*
+
+    Yarışın şekli:
+        A: _yukle() → 1050 kayıt        B: _yukle() → 1050 kayıt
+        A: ekle → _kaydet(1051)         B: ekle → _kaydet(1051)   ← A KAYBOLDU
+
+    🔴 VE BU KAYIP HİÇBİR İZ BIRAKMIYOR: numara `len(kayit)+1` ile üretildiği
+    için ne BOŞLUK ne MÜKERRER numara doğuyor. Koordinatör "10 mesajın 10'u
+    indi" diye ölçtü ve ölçüm DOĞRUYDU — ama o ölçüm bu kayıp sınıfını
+    GÖREMEZ. *Bir denetimin kapsamı, doğruluğundan ayrı ölçülür.*
+
+    ⚠️ NİÇİN `msvcrt`/`fcntl` DEĞİL: ikisi de platforma bağlı ve bu dosya iki
+    işletim sisteminde de koşuyor (`_kaydet`in kendi başlığı aynı tuzağa
+    düştüğünü yazıyor: *"aynı satır iki işletim sisteminde iki farklı şey
+    yapıyor"*). `O_CREAT|O_EXCL` ikisinde de ATOMİKTİR.
+
+    ⚠️ BAYAT KİLİT: bir süreç kilidi alıp ölürse kanal sonsuza kadar kilitli
+    kalırdı — kilitten KÖTÜ olan tek şey budur. O yüzden kilit dosyası
+    `BAYAT_SN`den eskiyse kırılıyor ve **kırıldığı EKRANA yazılıyor** (sessiz
+    kırma, kilitsizlikle aynı şeydir ama fark edilmez).
+    """
+    BAYAT_SN = 30.0
+
+    def __init__(self, yol):
+        self.yol = yol + ".kilit"
+        self.fd = None
+
+    def __enter__(self):
+        import time as _t
+        basla = _t.time()
+        while True:
+            try:
+                self.fd = os.open(self.yol, os.O_CREAT | os.O_EXCL | os.O_WRONLY)
+                os.write(self.fd, str(os.getpid()).encode())
+                return self
+            except FileExistsError:
+                try:
+                    yas = _t.time() - os.path.getmtime(self.yol)
+                except OSError:
+                    yas = 0
+                if yas > self.BAYAT_SN:
+                    print("⚠️ BAYAT KİLİT kırıldı (%.0f sn) — kilidi alan süreç "
+                          "ölmüş olabilir" % yas)
+                    try:
+                        os.unlink(self.yol)
+                    except OSError:
+                        pass
+                    continue
+                if _t.time() - basla > self.BAYAT_SN:
+                    # Kilidi ALAMADAN devam etmek, tam olarak önlemeye
+                    # çalıştığımız kayıptır ⇒ PATLA ve SÖYLE.
+                    raise RuntimeError(
+                        "tahta kilidi %.0f sn'de alınamadı — başka bir oturum "
+                        "yazıyor olabilir. TEKRAR DENE; mesajın YAZILMADI."
+                        % self.BAYAT_SN)
+                _t.sleep(0.05)
+
+    def __exit__(self, *a):
+        if self.fd is not None:
+            try:
+                os.close(self.fd)
+            except OSError:
+                pass
+        try:
+            os.unlink(self.yol)
+        except OSError:
+            pass
+        return False
+
+
 def _kaydet(kayit):
     """🔴 ATOMİK YAZIM — 16 Ağustos 2026'da TAHTA BOZULDU ve sebebi buydu.
 
@@ -690,15 +772,25 @@ def yaz(a):
         #    saatlerce fark edilmedi ve BÜTÜN denetim/üretim hattı durdu.
         "aciliyet": (_t(a.get("aciliyet")) or "NORMAL").upper(),  # DURDURUCU·ACIL·NORMAL·DUSUK
     }
-    if m["yanit_no"]:
-        hedef = next((x for x in kayit if x["no"] == m["yanit_no"]), None)
-        if hedef is None:
-            print("🔴 --yanit %s: BÖYLE BİR MESAJ YOK. Yazılmadı." % m["yanit_no"])
-            return 2
-        hedef["hal"] = "CEVAPLANDI"
-        hedef["cevap"] = "→ %s" % no
-    kayit.append(m)
-    _kaydet(kayit)
+    # 🔴🔴 KRİTİK BÖLGE — KİLİT ALTINDA. Yukarıdaki `kayit`/`no` artık BAYAT
+    # olabilir: mesaj hazırlanırken başka bir oturum yazmış olabilir. O yüzden
+    # burada TAZE okunuyor ve numara YENİDEN hesaplanıyor.
+    # ⚠️ Eski hâlde bu satırlar kilitsizdi ve ölçülmüş bir kayıp üretti
+    # (OPUS HAZIR KITA 52, 21:21 — "çıkış kodu 0, mesaj tahtada yok").
+    # Gerekçe `_Kilit` başlığında.
+    with _Kilit(VERI):
+        kayit = _yukle()
+        no = "M-%04d" % (len(kayit) + 1)
+        m["no"] = no
+        if m["yanit_no"]:
+            hedef = next((x for x in kayit if x["no"] == m["yanit_no"]), None)
+            if hedef is None:
+                print("🔴 --yanit %s: BÖYLE BİR MESAJ YOK. Yazılmadı." % m["yanit_no"])
+                return 2
+            hedef["hal"] = "CEVAPLANDI"
+            hedef["cevap"] = "→ %s" % no
+        kayit.append(m)
+        _kaydet(kayit)
     print("%s yazıldı  %s → %s%s" % (
         no, m["kimden"], m["kime"],
         ("  (cevap BEKLENİYOR%s)" % (", vade " + m["vade"] if m["vade"] else ""))
