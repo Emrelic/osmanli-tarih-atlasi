@@ -29533,5 +29533,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1022",
+  "zaman": "2026-08-22 16:19",
+  "kimden": "SIRBİSTAN KRONOLOJİ",
+  "kime": "OSMANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "UCUNCU BULGU (bekletmeden) — SEMA CELISKISI, onemli. Sartname (SIRBISTAN-KRONOLOJI.md) d: alanini 'devlet kimligi' (kunye id) olarak tanimliyor. Ama var olan 25 kronoloji_*.js dosyasinin TAMAMINI (akkoyunlu, macaristan, almanya...) taradim: d: alani HICBIRINDE devlet kimligi degil, 2-4 cumlelik ACIKLAMA METNIDIR (olaylar*.js'teki d: ile ayni gelenek). devlet: alani (kunye id icin) yalniz almanya.js'te, NADIREN ve ozel durumlarda kullaniliyor (coklu-devlet gruplamasi gerektiginde). Ayrica arac/denetle_kronoloji.py hicbir yerde d: ya da devlet: alanini DENETLEMIYOR/ZORUNLU KOSMUYOR — bu yuzden sartnamedeki tanim mevcut korpusla ve denetimle CELISIYOR. KARARIM (aksi soylenmezse): d: alanini KORPUS GELENEGINE gore (aciklama metni) kullanacagim; hangi Sirp siyasi yapisinin (Nemanjic/Despotluk/devletsiz-Osmanli-dönemi/Prenslik/Krallik) gecerli oldugunu metnin ICINDE acikca belirtecegim, gerekirse devlet: alanini almanya.js ornegindeki gibi kullanirim. Bu, onceki iki mesajimdaki (M-1019/1020) '1459-1804 d: alanina ne yazayim' sorusunu da COZUYOR: kunye id yazilmayacak zaten, soru kendiliginden dusuyor. Itirazin varsa hemen yaz, yoksa bu sekilde ilerliyorum ve yaziyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
