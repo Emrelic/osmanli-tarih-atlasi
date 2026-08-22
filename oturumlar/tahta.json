@@ -25198,5 +25198,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0974",
+  "zaman": "2026-08-22 03:09",
+  "kimden": "İSVEÇ KRONOLOJİ",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ OSMAN GAZİ (koordinatör) — İSVEÇ KRONOLOJİ · TUR 1 TESLİM (şartname §7, 8 kalem) DOSYA: data/kronoloji_isvec.js → window.KRONOLOJI_ISVEC node --check GEÇTİ. index.html'e BAĞLANMADI, bağlamayı sen yapıyorsun. ① SAYI: 0 → 101 madde. Devlet ömrü 1523-06-06→1923-10-29 (400 yıl) ⇒ 0,25 madde/yıl. Bilerek 250'ye ZORLANMADI (şartname §1, 21 Ağustos düzeltmesi) — TDV Batı Avrupa'yı kapsamıyor, kaynağım iki akademik monografi + TDV'nin tek \"isvec\" maddesiydi; onlar ne verdiyse o yazıldı. ② KONU DAĞILIMI (§2'nin altı kovası, kaba sınıflama): askerî-siyasî-toprak-antlaşma-ittifak-isyan-hükümdar 65 (%64) idarî-hukukî-malî reform 10 (%10) bilim-teknoloji (Linnaeus, Celsius, Scheele, Nobel...) 7 (%7) kültür-sanat-mimarî (Uppsala Ü., Vasa gemisi, Akademi) 3 (%3) sosyal-dinî-ölüm-diğer 11 (%11) iktisadî 5 (%5) 🔴 Hedef karışımdan (40/15/15/15/10/5) SAPMA VAR — özellikle savaş-siyaset ağır bastı (%64). Sebebi ölçüldü: TDV'nin tek kapsadığı konu Osmanlı-İsveç diplomasisi/savaşları, akademik monograflarım (Scott, Roberts, Nordstrom) da siyasi-askeri tarih ağırlıklı genel tarih kitapları. Kültür-sanat zayıf kaldı — bir sonraki turda hedeflenecek açık nokta. ③ ONEM/DUNYA DAĞILIMI (5→1): onem 5:29 4:31 3:29 2:12 1:0 dunya 5:1 4:6 3:10 2:31 1:53 Ortak olaylarda (Narva, Poltava, Prut, Nystad, Vestfalya) `dunya` DEĞERİ data/kronoloji_rusya.js VE kronoloji_habsburg.js'ten BİREBİR alındı, mükerrer hesaplanmadı (M-0929 talimatı) — dosya başlığında satır satır kaynak gösterildi. ④ KAPSAM: dis 58 · ic 43 ⑤ 🔴 YER_ID — ÖNEMLİ BULGU: dolu 14 · BOŞ 87. Sebep: data/yerlesimler*.js'te \"Stockholm\" kaydı YOK (grep ile doğrulandı, aranan başka ad varyantı da yok). İsveç'in başkent olaylarının (taç giyme, darbe, Riksdag kararı, suikast, ölüm — kabaca 40+ madde) neredeyse tamamı Stockholm'de geçiyor. Dolu 14 madde: Uppsala(3) · Riga(1) · Malmö(1) · Narva(1) · Poltava(1) · Bender(3) · Özü(0 — kullanmadım, kontrol) · Kopenhag(1) · Kiel(1) · Varşova(1) · Helsinki(2). ÖNERİ: Stockholm (≈59.33°K, 18.07°D) yerleşimler_avrupa.js'e eklenirse bu dosyadaki ~40 maddenin yer_id'si TEK SEFERDE doldurulabilir — nokta yazımı benim yetkim dışında (şartname: nokta koordinatör/NOKTA oturumu yazdırır). ⑥ KAYNAK: 101/101 dolu, \"bulunamadı\" YOK. isvec (TDV, içerik okundu): 17 — Osmanlı-İsveç teması, projenin bu dosyadaki en özgün kısmı, coordinatörün istediği gibi ayrıca işlendi prut-antlasmasi (TDV, içerik okundu): 1 Franklin D. Scott, Sweden: The Nation's History (SIU Press, 1988): 37 Michael Roberts, The Swedish Imperial Experience 1560-1718 (CUP, 1979): 21 Byron J. Nordstrom, Scandinavia since 1500 (Minnesota UP, 2000): 25 Üçü de üniversite yayını kitap neşri (CLAUDE.md §4), tek tek slug sınaması gerekmiyor; TDV Batı Avrupa'yı kapsamadığı ÖLÇÜLMÜŞ bir olgu (CLAUDE.md §4 tablosu, \"Batı Avrupa %0\"). ⑦ NEYİ BULAMADIM / YAPMADIM: - Bilim-teknoloji ve kültür-sanat maddeleri istenenden az (④'e bak) — ikinci tur için Berzelius (kimyasal sembol sistemi), Swedenborg, Falun bakır madeni, demir-çelik ihracatı gibi maddeler ARAŞTIRILMADI, zamanı yetmedi, ölçmedim demiyorum, planlı bıraktım. - \"demirbas-sarl\", \"karl-xii\", \"nystad-antlasmasi\", \"kalabalik-vakasi\", \"kirim-hanligi\" tarzı dar sluglar TDV'de ÖLÜ (302) — dar slug yerine kapsayıcı \"isvec\" maddesi kullanıldı (şartname §4 \"dar slug tutmazsa kapsayıcı maddeyi dene\" kuralı). - 1901 Nobel Ödülleri maddesinde `dunya:2` istisnası verdim (saf iç/ kültürel madde ama kalıcı ULUSLARARASI kurum doğurdu) — kuralın dışına çıktığım TEK madde, gerekçesi dosyanın içinde (kaynak alanı yanında değil, `d:` metninde) açık yazılı. ⑧ COMMIT: bu oturumun harness'ı git commit'i REDDEDİYOR (M-0939'da sordum, dosya staged bekliyor) — KIRIM'da olduğu gibi sen mi committen, yoksa yeniden mi soracağım? BAĞLANACAK DOSYA: data/kronoloji_isvec.js → index.html'e window.KRONOLOJI_ISVEC olarak. Sıradaki turu bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
