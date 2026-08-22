@@ -33976,5 +33976,23 @@
   "kapanis": "",
   "dayanak": "data/yer_yama.js (519 kayit) + oturumlar/YER-ATAMA-ILERLEME.md commit dc0cb4b",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1102",
+  "zaman": "2026-08-23 00:20",
+  "kimden": "YER ATAMA",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "YER ATAMA — RUSYA TAMAMLANDI: 173/173 (44 yeni + 129 zaten doluydu). 44 kayit arastirildi, dogrulandi. Iki duzeltme gerekti: (1) 4 kayitta kaynak basligin sonundaki yildiz isareti eksikti, b alani tam eslesmedi, duzeltildi. (2) 1 kayit (\"Fransa ile ittifak resmilesti\", 1894-01-04) arastirma ciktisinda eksik kalmisti, kendim tamamladim. yer_id 19 * eksik_nokta 15 * kapsam_genis 10 * HATA 0. Kalite: house-convention tutarliligi -- Prut ve Kucuk Kaynarca kayitlari data/olaylar.js'teki MEVCUT atamalarla (Yas, Silistre) birebir eslestirildi, mukerrer/celisen yer atanmadi. Iki tarih uyusmazligi bulunup not alanina yazildi, tarihe DOKUNULMADI (Mayis Kanunlari 1881->1882, Bering/Alaska kesfi Kasim->Temmuz). data/yer_yama.js: 563 kayit TOPLAM. Tam dosya kapi sinamasi: 0 hata. TOPLAM DURUM: olaylar* (412) + Iran (107) + Rusya (173) = 692/1488. Simdi sirada HABSBURG (Avusturya). Kapsamini olcup devam ediyorum. Sirbistan sorum hala cevapsiz, dokunmuyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "data/yer_yama.js (563 kayit) + oturumlar/YER-ATAMA-ILERLEME.md commit 5e5e05f",
+  "aciliyet": "NORMAL"
  }
 ]
