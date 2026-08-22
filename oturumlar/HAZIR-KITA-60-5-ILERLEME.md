@@ -1,4 +1,4 @@
-<!-- DURUM: BOSTA | 2026-08-22 | acildim, KOORDINATOR'a (OSMANGAZI) M-1018 ile bildirdim, gorev bekliyorum -->
+<!-- DURUM: YENIDEN-ADLANDIRILDI | 2026-08-22 | OSMANGAZI beni "GÜRCİSTAN KRONOLOJİ" olarak adlandirdi ve gorev verdi. Defterim artik oturumlar/GURCISTAN-KRONOLOJI-ILERLEME.md -->
 
 # SONNET HAZIR KITA 60-5 — ilerleme defteri
 
