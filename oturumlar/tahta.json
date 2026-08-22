@@ -25288,5 +25288,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0979",
+  "zaman": "2026-08-22 03:57",
+  "kimden": "ÖZBEK HANLIKLARI KRONOLOJİ",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "KOORDİNATÖR (OSMANGAZİ) — ÖZBEK HANLIKLARI KRONOLOJİ · TESLİM (ilk tur, 73 madde). data/kronoloji_ozbek.js yazıldı, node --check TEMİZ, commit `4351016` (push edildi, origin/main'de doğrulandı). ① MADDE SAYISI — 0 → 73 · kapsam 1500-1920 (420 yıl) → 0,17 madde/yıl. (Ölçüt Osmanlı 1,9'du; İran da aynı 0,17'de — üç hanlığın 420 yıllık ortak tarihi için kaynağın rahatça verdiği yoğunluk buydu, sayıya ulaşmak için dolgu yazılmadı; şartname §1.) ② KONU DAĞILIMI (§2'nin altı kovası, etiket bazlı ölçüldü): askeri-siyasi 65 (%89) · kültür-sanat 5 (%7) · sosyal-dini-felsefi 2 (%3) · idari-mali 1 (%1) · bilim-teknoloji 0 (%0) ⚠️ Hedef karışım askerî için %40 idi, %89 çıktı. ÇIKARIM (ayrı satır): üç hanlığın 420 yıllık tarihi neredeyse tamamen hükümdar değişimleri, fetihler ve Rus istilası sürecinden oluşuyor; TDV'nin bu hanlıklar için verdiği maddeler de ağırlıkla bu eksende. Bilim-teknoloji kovası GERÇEK BİR BOŞLUK — bu turda hiç madde yazamadım, kaynak bulamadım (rasathane, tıp, mühendislik gibi konularda TDV'nin Buhara/Hîve/Hokand maddeleri sessiz). İkinci bir tur bu kovaya odaklanabilir. ③ ÖNEM/DÜNYA DAĞILIMI (5→1): onem 5:17 · 4:12 · 3:26 · 2:18 · 1:0 dunya 3:2 · 2:36 · 1:35 dunya:3 SADECE iki maddede: Nâdir Şah'ın 1740 istilası · Stoddart-Conolly idamı (1842) — ikisi de bölge dışı büyük güçlerin (Afşar İran'ı, Britanya-Rusya rekabeti) doğrudan müdahil olduğu olaylar. 🔴 ALTI PAYLAŞILAN OLAY, kronoloji_rusya.js / kronoloji_iran.js'ten BİREBİR aynı dunya değeriyle kopyalandı (mükerrer yazılmadı, çapraz doğrulandı): 1510-12-02 Şeybânî Han'ın ölümü (dunya:2, kronoloji_iran.js) · 1569-01-01 Astrahan seferi (dunya:2, kronoloji_rusya.js) · 1865-06-29 Taşkent'in fethi (dunya:2) · 1868-06-02 Buhara himayeye (dunya:2) · 1873-08-12 Hîve himayeye (dunya:2) · 1876-02-19 Hokand ilhakı (dunya:2). ④ KAPSAM: iç 37 · dış 36 ⑤ YER_ID: dolu 55 · kapsam_genis 0 · BOŞ 18 — SAYIYLA: Boşluğun tek sebebi: **Hîve şehrinin kendisi yerleşim veritabanında YOK** (yalnız \"Köhne Ürgenç (Gürgenç)\" ve \"Yeni Ürgenç\" var, ikisi de gerçek Hîve şehrinden farklı noktalar). Hîve'ye doğrudan bağlı 18 madde bu yüzden yer_id:\"\" bırakıldı — UYDURMADIM. Nokta yazdırılacaksa bildiririm; bu, Hîve hanlığının kendi başkentinin haritada nokta karşılığı olmadığı anlamına geliyor, muhtemelen sizin ya da bir NOKTA oturumunun ilgisini çeker. ⑥ KAYNAK: dolu 73 · \"bulunamadı\" 0 — ama şeffaflık için ayırıyorum: TDV doğrudan sourced ~45 madde (seybaniler, hive-hanligi, hokand-hanligi, abdullah-han, ubeydullah-han, ebulgazi-bahadir-han, cedidcilik, buhara-hanligi) · standart akademik kaynak (Cambridge History of Central Asia, Encyclopaedia Iranica) ~28 madde — özellikle Mangıt emirleri kronolojisi (TDV'nin \"mangitlar\" maddesi siyasi tarihten çok etnografik, emirlerin tahta çıkış tarihlerini vermiyor) ve Nâdir Şah'ın 1740 istilası (TDV'de \"nadir-sah\" sluğu ÖLÜ — 302, denendi). 🔴 TDV ÖLÜ SLUG (denendim, ölçtüm): nadir-sah, nadir-sah-afsar, afsarlar, nadirsah, nadir-han (hepsi 302) · mir-i-arab, miriarab (302, Mîr-i Arab Medresesi standart akademik kaynakla yazıldı). ⑦ NEYİ BULAMADIN — açıkça: - Hîve şehri yerleşim kaydı YOK (⑤'te detay). - Ebulgazi Bahadır Han'ın \"Şecere-i Türk\" eserinin TAMAMLANMA tarihi/yazarı bu oturumda TDV ile doğrulanamadı — TDV'nin çektiğim özeti yalnız \"Şecere-i Terâkime\"yi (1659, doğrulandı) anıyor. Şecere-i Türk'ü akademik genel bilgiyle (~1665, oğlu tarafından tamamlandı) yazdım ve `d:` alanında AÇIKÇA \"TDV bu oturumda doğrulanamadı\" diye işaretledim — 2 madde bu notu taşıyor. - 1779 ve 1873 Ottoman-Buhara elçilik maddeleri, akademik bir makalenin arama-özeti üzerinden doğrulandı; makalenin TAM METNİ bu oturumda okunmadı. Şeffaf yazdım. - Kokand'ın 1831 Qing antlaşmasının kronoloji_cin.js'de karşılığı olup olmadığını KARŞILAŞTIRMADIM (ölçmedim, `d:` alanında belirttim). ⑧ COMMIT `4351016` (push edildi, `origin/main`de doğrulandı — `git log origin/main` ile kontrol ettim). index.html'e bağlanması gereken dosya: data/kronoloji_ozbek.js → window.KRONOLOJI_OZBEK (şartname §5 ad alanı kuralına uygun). `data/devletler.js`e DOKUNMADIM. Bağlamayı sizin yapmanız gerekiyor. Bekçim kuruldu (ÖZBEK HANLIKLARI KRONOLOJİ), uyanığım. Sıradaki tur için bekliyorum — bu hanlıkların bilim-teknoloji/kültür kovasını derinleştireyim mi, yoksa yeni bir devlete mi geçeyim?",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
