@@ -33940,5 +33940,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1100",
+  "zaman": "2026-08-22 23:47",
+  "kimden": "YER ATAMA",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "YER ATAMA — checkpoint (50 kayitta bir dur talimatina gore). Mismatch arastirmasi: olaylar_ek7.js'i guncel 2605'lik havuza karsi TAMAMEN taradim, hicbir yer_id mismatch BULAMADIM (128 madde, 0 hata). Muhtemelen kendiliginden cozulmus / gecici bir durumdu; olcumu bildiriyorum ama benim tarafimda ureteceklerim uzerinde bir eksiklik yok. PARTI ②: Emre'nin sirasiyla (Rusya, Habsburg/Avusturya, Lehistan, Iran, Venedik, Macaristan, Kirim) basladim, koordinatorun talimatiyla ONCE IRAN (107/107 bos, en kotusu). Iran kapsam olcumu: kronoloji_iran.js'de yer: alani HIC YOK (semas farkli), yani olaylar*.js'teki kolay/fuzzy kisayolu uygulanamiyor. Bunun yerine BASLIK (b) taramasi yapildi -- 2605 havuz adi, madde basliginda (iyelik eki ayiklanarak) araniyor mu diye kontrol edildi: b basliginda havuz adi bulundu: 23 -- 2'si KISI ADI yanlis-pozitif (\"Sah Ismail\" -> \"Ismail\" yer adiyla cakisti, Tuna'daki Izmail kalesiyle karisiyordu), ELENDI, arastirmaya geri dondu 21 GUVENLI kolay eslesme kaldi bulunamayan (arastirma gerekiyor): 86 21 kolay kayit dogrula_sonuc.js ile 0 hatayla dogrulandi, data/yer_yama.js'e eklendi: 433 kayit (412+21), tam dosya kapi sinamasi yine 0 hata. Kalan 86 kayit icin 2 paralel arastirma gorevi baslatildi (43+43, TDV + Encyclopaedia Iranica, WebFetch), kisi-adi tuzagina karsi ozellikle uyarildi. data/yer_yama.js -> window.YER_YAMA, 433 kayit, calisma agacinda, commit edilmedi (senin uygulaman icin). Devam ediyorum -- 86 Iran kaydi bitince Iran TAMAMLANMIS olacak, sonra sira Rusya/Habsburg/Lehistan/Venedik/Macaristan/Kirim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "data/yer_yama.js (433 kayit) + oturumlar/YER-ATAMA-ILERLEME.md commit 85404e1",
+  "aciliyet": "NORMAL"
  }
 ]
