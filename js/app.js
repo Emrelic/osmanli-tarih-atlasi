@@ -2799,6 +2799,60 @@ function dizindenUc(lat, lon) {
 // "kaç ms susayım" diye bir sihirli sayı YOK. (Ölçülen 1,9 sn'lik gecikme
 // tam da böyle bir sayının niçin uydurulamayacağını gösteriyor: makineye,
 // veriye ve o anki dönem yoğunluğuna göre değişiyor.)
+// ═══════════════════════════════════════════════════════════════════════════
+// KARE SAYACI — Emre: *"kesik kesik olmamalı, görüntü stabil akmalı."*
+//
+// 🔴 NİÇİN SAYAÇ, NİÇİN TAHMİN DEĞİL: "kesik kesik" iki APAYRI sebepten
+// doğar ve ÇARELERİ TERS:
+//     ① EASING  kareler düzgün akıyor ama HIZ profili yanlış
+//               (sabit hızla gidip duruyor, yumuşama yok)  → eğri düzeltilir
+//     ② KARE DÜŞMESİ  hız profili doğru ama kareler GELMİYOR
+//               (ağır çizim ana iş parçacığını blokluyor)   → çizim ertelenir
+// İkisi GÖZLE aynı görünür. Ayırt eden tek şey kare sayısıdır.
+// 📌 Bugün üç kez tahmin yürütüp üçünde de yanıldım (kilit süresi · panel
+//    titremesi · asıl sebep `prefers-reduced-motion`). Dördüncüde ölçüyorum.
+//
+// Çıktı örneği:
+//   🎞 kare: 52/54 · 61 fps · en uzun boşluk 18 ms  → ✓ AKICI
+//   🎞 kare: 19/54 · 22 fps · en uzun boşluk 210 ms → 🔴 KARE DÜŞÜYOR
+var _KARE_SAYAC_ACIK = true;
+function kareSayaciBaslat(beklenenMs, etiket) {
+  if (!_KARE_SAYAC_ACIK || typeof requestAnimationFrame !== "function") {
+    return function () {};
+  }
+  var t0 = performance.now(), son = t0, kare = 0, enUzun = 0, calisiyor = true;
+  function tik(t) {
+    if (!calisiyor) return;
+    kare++;
+    // İLK kareyi boşluk ölçümüne KATMA: `flyTo` çağrısı ile ilk karenin
+    // arasında animasyonla ilgisi olmayan bir kurulum gecikmesi var.
+    if (kare > 1) { var b = t - son; if (b > enUzun) enUzun = b; }
+    son = t;
+    requestAnimationFrame(tik);
+  }
+  requestAnimationFrame(tik);
+  return function bitir() {
+    if (!calisiyor) return;
+    calisiyor = false;
+    var gecen = performance.now() - t0;
+    var beklenenKare = Math.max(1, Math.round(gecen / 16.67));
+    var fps = Math.round(kare / (gecen / 1000));
+    // Hüküm: kare oranı %85'in altındaysa ya da bir boşluk 50 ms'yi
+    // aşıyorsa göz "kesik" görür. Eşikler ÖLÇÜLMEDİ — gözle ayarlanacak.
+    var akici = (kare / beklenenKare) >= 0.85 && enUzun <= 50;
+    // ⚠️ `%s`/`%d` yer tutucusu KULLANILMIYOR: bazı konsol okuyucuları onu
+    // değiştirmeden basıyor ve satır okunmaz hâle geliyor (ölçüldü). Bu satırı
+    // Emre okuyacak — biçim riski taşımasın diye düz birleştirme.
+    console.log("🎞 " + (etiket || "uçuş")
+                + " — kare: " + kare + "/" + beklenenKare
+                + " · " + fps + " fps"
+                + " · en uzun boşluk " + Math.round(enUzun) + " ms · "
+                + (akici ? "✓ AKICI"
+                         : (enUzun > 50 ? "🔴 KARE DÜŞÜYOR (ağır çizim?)"
+                                        : "🟡 kare oranı düşük")));
+  };
+}
+
 // 🔴🔴 22 Ağustos 2026 — KİLİT SAYAÇ OLDU, ve sebebi ÖLÇÜLDÜ.
 // Emre: *"uçuş modu çalışmıyor, şak şak ani geçiş yapıyor."* Ölçüm:
 //
@@ -4991,11 +5045,16 @@ function haritayiOlayaGotur(o, zorla) {
     // bırakıyordu; uçuşun 0,8-3 saniyesi korumasızdı ve `zoomUygula`nın
     // `fitBounds`u uçuşu kesip ışınlanmaya çeviriyordu.
     kameraKilitle();
+    // Kare sayacı uçuşla BİRLİKTE başlar, varışta biter. Ölçtüğü şey
+    // TAM OLARAK uçuş süresi — öncesi ve sonrası değil.
+    var _kareBitir = kareSayaciBaslat(_sonSure,
+                       (_kip === "yatay" && _kmMesafe <= _esik) ? "yatay" : "eğik");
     function _varisBirKez() {
       if (_vardi) return;
       _vardi = true;
       if (_varisTimer) { clearTimeout(_varisTimer); _varisTimer = null; }
       harita.off("moveend", _varisBirKez);
+      _kareBitir();                      // ÖNCE ölç — kırpma sayıya karışmasın
       kameraCoz();                       // uçuş bitti — koruma kalkıyor
       _varista();                        // kırpma kendi kilidini ALIYOR
     }
@@ -5009,14 +5068,21 @@ function haritayiOlayaGotur(o, zorla) {
     // ÖLÇÜM yapsın diye. Üç tur boyunca hangi dalın koştuğunu bilmeden
     // tahmin yürüttük; bu satır o tahmini gereksiz kılıyor.
     if (window.__UCUS_TESHIS !== false) {
-      console.log("🛩 uçuş: %s · %.0f km · %d ms · zoom→%.2f · ofset[%.0f,%.0f]"
-                  + " · reduce-motion:%s · essential:%s",
-                  (_kip === "yatay" && _kmMesafe <= _esik) ? "easeTo(yatay)"
-                                                          : "flyTo(eğik)",
-                  _kmMesafe, _sonSure, yakinlik, ofset[0], ofset[1],
-                  window.matchMedia("(prefers-reduced-motion: reduce)").matches
-                    ? "AÇIK" : "kapalı",
-                  _ortak.essential);
+      // ⚠️ Yer tutucu KULLANILMIYOR — bkz. `kareSayaciBaslat` içindeki not:
+      // bazı konsol okuyucuları `%s`/`%d`yi değiştirmeden basıyor.
+      // 🔴 Ve `%.0f` JavaScript'te ZATEN ÇALIŞMAZ (o C/Python biçimi) —
+      // ilk yazımda onu kullanmışım, satır her konsolda bozuk çıkacaktı.
+      console.log("🛩 uçuş: "
+                  + ((_kip === "yatay" && _kmMesafe <= _esik) ? "easeTo(yatay)"
+                                                             : "flyTo(eğik)")
+                  + " · " + Math.round(_kmMesafe) + " km"
+                  + " · " + Math.round(_sonSure) + " ms"
+                  + " · zoom→" + yakinlik.toFixed(2)
+                  + " · ofset[" + Math.round(ofset[0]) + "," + Math.round(ofset[1]) + "]"
+                  + " · reduce-motion:"
+                  + (window.matchMedia("(prefers-reduced-motion: reduce)").matches
+                     ? "AÇIK" : "kapalı")
+                  + " · essential:" + _ortak.essential);
     }
 
     if (_kip === "yatay" && _kmMesafe <= _esik) {
