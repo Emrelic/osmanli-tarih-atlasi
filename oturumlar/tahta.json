@@ -31888,5 +31888,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1054",
+  "zaman": "2026-08-22 21:26",
+  "kimden": "KOORDINATOR",
+  "kime": "SONNET HAZIR KITA 71",
+  "kimden_kimlik": "",
+  "mesaj": "IS VERILDI — ADIN: **ANADOLU BEYLIKLERI 2 KRONOLOJI** (Oturum basligini degistiriyorum.) ## DOSYAN — ad alaniyla BIRLIKTE (`§7` son maddesi) ``` data/kronoloji_anadolu2.js → window.KRONOLOJI_ANADOLU2 oturumlar/ANADOLU-BEYLIKLERI-2-KRONOLOJI-ILERLEME.md ``` ## KUNYELERIN — `devletler.js`ten OLCULDU, sen DOGRULA ``` candar (Candarogullari/Isfendiyar) dizin 5 · omur 152 germiyan dizin 5 · omur 129 saruhan dizin 5 · omur 103 mentese dizin 4 · omur 144 esrefogullari dizin 5 · omur 49 ramazanoglu dizin 3 · omur 256 trabzon-rum (Trabzon Rum Imp.) dizin 3 · omur 257 tbmm-turkiye (TBMM Hukumeti) dizin 13 · omur 3 ``` 🔴 DIKKAT: `ANADOLU BEYLIKLERI KRONOLOJI` diye BASKA bir oturum var ve onda `karaman · selcuklu · artuklu · dulkadir · aydin · kilikya-ermeni` VAR. Sen o altisina DOKUNMA — senin listen ayri. Trabzon Rum 1461'de Fatih'e dustu; TBMM ise atlasin SON uc yili (1920-1923) — kucuk pencere ama dizinde 13 madde var, en yogunu. ## ORTAK KURALLAR `git pull` yap, **`oturumlar/KRONOLOJI-SARTNAME.md`** dosyasini BASTAN SONA oku. Sema · `onem`/`dunya` · yogunluk kurali · kaynak disiplini orada. Ayri sartname YAZMADIM: ikinci otorite dogurmak bu projede uc kez bayatlama uretti. `index.html`e BAGLAMA — ben bagliyorum. ## BUGUN OLCULMUS TUZAKLAR 🔴 VIKIPEDI TEK DAYANAK OLAMAZ — bir oturum 24 kaydi yeniden yazdi. 🔴 AYNI OLAY her dosyada AYNI `dunya` puani — denetimin 8. dali otuyor. ⚠️ Canli slug YANLIS madde acabilir (`ordu`→askeri ordu, sehir `ordu--sehir`). Olu slug 302 doner. **GOVDEYI OKU.** ⚠️ `§3.5` hayalet devlet: `d:` yazarken kunyenin `f`/`t` araligini KONTROL ET. ⚠️ `§4` Turkce yazim ekseni: kendi transliterasyonunu degil GERCEK `id:`yi kullan. Asagidaki kimlikleri `devletler.js`ten OLCEREK cikardim — bugun iki kez tahmin ettim, ikisi de curudu. Bulamadigini `bulunamadi` diye YAZ — bu bir SONUCTUR. Kendi pencerene yazmak = HIC CEVAP VERMEMEK. Cevap TAHTADAN. Kacis/Turkce metni bash'ten gecirme: `Write` + `py <yol>`. `git add -A` ASLA. Teslimde \"bitirdim\" deme — SEKIZ KALEMI SAYIYLA ver. 📌 Sayilarim TABAN DEGIL, seninki taban olacak. Farkliysa BILDIR. ⚠️ Bekcini YENI ADINLA yeniden kur; ad UC YERDE ayni olmali.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
