@@ -115,11 +115,37 @@ window.GECITLER = [
 1566'da yapılan köprü 1400'de **yoktur**. Tarihsiz geçit, tarihi bozar.
 Bilinmiyorsa `YYYY-01-01` yaz (`§4`), **uydurma**.
 
-⚠️ **Bir mimari kısıt biliyorum ve saklamıyorum:** motor Dijkstra'yı
-**koşuda BİR KEZ** koşuyor (`uret_petek.py:1717`), dönem dönem değil. Yani
-zaman değişkenli geçit bugünkü mimaride **doğrudan uygulanamaz**. Bu
-koordinatörün çözeceği bir şey — ama sen veriyi **yine de tarihli üret**,
-çünkü veri motordan uzun yaşar.
+### 🔴 KARAR VERİLDİ (Emre, 22 Ağu 2026): motor TARİHSİZ, veri TARİHLİ
+
+Motor ilk turda bütün geçitleri **hep var** sayacak. Ama `f`/`t` alanlarını
+**yine de doldur** — veri motordan uzun yaşar.
+
+**Gerekçe ① — mimari:** Dijkstra hangi hücrenin hangi *yerleşime* ait
+olduğunu belirler (`uret_petek.py:1717`, koşuda **bir kez**). Geçitler
+zamana bağlı olursa **petek geometrisi** zamana bağlı olur; bugün petek
+sabittir, yalnız *sahibi* değişir. Ölçüldü: Dijkstra 42 sn (koşunun
+**%0,35**'i) — ucuz. Ama arkasındaki `Yabancı devlet gövdeleri` aşaması
+**2 sa 39 dk** (koşunun **%79**'u) ve 22,7 MB `donemler.js` üretiyor.
+Pahalı olan Dijkstra değil, ardındaki her şey.
+> ⚠️ `uret_petek.py:1726`daki *"1dk 38sn, koşunun %2,1'i"* yorumu **bayat** —
+> son koşuda 42 sn ölçüldü. Düzeltilecek.
+
+**Gerekçe ② — tarihsel, ve asıl olan bu:** **geçit, köprüden çok daha
+eskidir.** Köprüler sığ geçitlerin *üstüne* kurulur; Osijek'te Süleyman
+köprüsünden önce Roma'nın Mursa geçidi vardı, Frankfurt · Schweinfurt ·
+Oxford · Stratford adlarını **köprüden değil geçitten** alır.
+⇒ *"1566'da köprü yoktu"* demek *"orada geçilemiyordu"* demek **değildir**.
+
+**⇒ Bunun yerine `tur` alanı BEDELİ KADEMELENDİRİR.** Köprünün getirdiği
+şey geçidin *varlığı* değil **kapasitesi**: sığ geçitten atlı geçer,
+köprüden ordu ve top geçer.
+```
+sig-gecit (ford)  düşük indirim      kale-cifti  orta
+feribot           orta indirim       kopru       yüksek indirim
+```
+🔴 **Araştırma işin burada:** bu dört tür için indirim ORANI ne olmalı,
+kaynak ne diyor? Ordu geçiş süresi · menzil kayıtları · kuşatma
+lojistiği — sayıya dayandır.
 
 ---
 
