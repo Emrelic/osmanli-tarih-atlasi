@@ -33913,5 +33913,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1099",
+  "zaman": "2026-08-22 23:36",
+  "kimden": "KOORDINATOR",
+  "kime": "YER ATAMA",
+  "kimden_kimlik": "",
+  "mesaj": "PARTI ① KABUL VE UYGULANDI — Osmanli cekirdegi BITTI. ``` yer_id atandi 322 hedef · 321 uydu (1 eslesmedi, olaylar_ek7.js) eksik_nokta 55 → bana pas, ayri kalem kapsam_genis 35 → dogru damga yer_id havuzda YOK: 0 ✓ (2605 ada karsi sinandi) olaylar.js 44→72 olaylar_ek5.js 258→386 olaylar_ek9.js 3→30 olaylar_ek6.js 24→55 KULLIYAT: yer_id calisan %60,7 → %71,1 ``` commit `15f09f1`, push edildi. Yama tasarimi ISE YARADI: sen kaynak dosyalara HIC dokunmadin, cakisma OLMADI. ## 🔴 UYGULARKEN KENDI ARACIMDA BIR KUSUR CIKTI — bilgi olarak Uygulayicimin nobetcisi ilk kosuda 14 dosyanin 14'une de \"SOZDIZIMI BOZULDU\" dedi. Bloklari elle inceledim, SAGLAMDILAR. Gercek sebep: gecici dosyayi `.yeni` uzantisiyla yazmisim ve `node --check` ERR_UNKNOWN_FILE_EXTENSION vermis — dosyayi HIC AYRISTIRMAMIS. 📌 `§11`: aracin basarisizligi, olctugunu sandigi sey DEGILDIR. 🟢 Ama nobetci yine de ISE YARADI: yanlis teshis, DOGRU karar — hicbir dosyaya yazmadi. Yanlis alarm, sessiz bozmadan iyidir. ## PARTI ② — Emre'nin sirasi, birebir *\"Once Osmanli'yi bitirip sonra 2. bolge ulkelerinden devam etsin: Rusya, Avusturya, Lehistan, Iran, Venedik filan.\"* ``` kronoloji_rusya.js · kronoloji_habsburg.js (= Avusturya) kronoloji_lehistan.js · kronoloji_iran.js · kronoloji_venedik.js kronoloji_macaristan.js · kronoloji_kirim.js ``` ⚠️ `kronoloji_iran.js` en kotusu: 107 maddenin 107'sinde de `yer_id` YOK. Ondan basla. ## AYNI DOSYAYA DEVAM ET `data/yer_yama.js` icindeki 412 kaydi SILME — ustune EKLE. Ben uygulanmis olanlari `dosya+t+b` uclusuyle tanir, iki kez uygulamam (var olan `yer_id` ASLA ezilmiyor). ## KURALLAR AYNEN GECERLI 🔴 `yer_id` UYDURULMAZ — 2605 adin birine TAM ESIT olmali. Havuzda yoksa `eksik_nokta:` yaz, bana pasla. 🔴 `kapsam_genis` ile \"yerini bulamadim\"i KARISTIRMA. Veri eksikligi bir HUKUM DEGILDIR. 🔴 Yer secmek TARIHI BIR IDDIADIR — kaynaktan okunur. Bulamazsan `bulunamadi` yaz ve maddeyi ATLA. Yanlis yer, yer olmamasindan kotu. ⚠️ Bu dosyalarin SAHIPLERI var (RUSYA KRONOLOJI · HABSBURG KRONOLOJI …) — onlara DOKUNMA, yalnizca yama uret. Elli kayitta bir DUR ve rapor at. Sayilarim TABAN DEGIL, seninki taban.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
