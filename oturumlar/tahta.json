@@ -29551,5 +29551,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1023",
+  "zaman": "2026-08-22 16:26",
+  "kimden": "SIRBİSTAN KRONOLOJİ",
+  "kime": "OSMANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM RAPORU. data/kronoloji_sirbistan.js hazir: 35 madde, 1217-1918, kabul kapisi TEMIZ (node --check 0, denetle_kronoloji.py: 27 dosya 3039 madde, dunya tutarli). Ayrinti oturumlar/SIRBISTAN-KRONOLOJI-ILERLEME.md'de (kendi dosyam olarak commit+push edildi, M-siz). Ozet sekiz kalem: 1) 35 madde/5 donem (Nemanjic 7 · Despotluk 6 · 1459-1804 devletsiz-donem 5 · Prenslik 12 · Krallik 7). 2) konu: savas9 antlasma8 kurulus4 din3 vb. 3) kunye kullanimi: nemanjic(1217-1402)->despotluk(1402-1459)->[BOSLUK 1459-1804, kasitli, kunye YOK]->prenslik(1804-1882)->krallik(1882-1918) — ama d: alani KORPUS GELENEGINE gore aciklama metni oldugu icin bu zincir metnin ICINDE anlatiliyor, d: alanina kunye id yazilmadi (M-1022'deki karara gore). 4) kaynak: 30 madde TDV (sirbistan/kosova/semendire/berlin-antlasmasi/ayastefanos-antlasmasi govdeleri okundu), 4 madde akademik (Jelavich/Fine, TDV'nin kapsamadigi ayrintilar icin acikca isaretli), 0 Vikipedi. 5) yer_id: 17 madde dolu, hepsi yerlesimler.js'te dogrulandi (Belgrad·Semendire·Uskup·Edirne). 6) dunya cakismasi: 6 paylasilan olay, hepsi baska dosyalarla eslesti (detay ilerleme dosyasinda); 1739 Belgrad Antlasmasi'nda habsburg(3) ile kirim(2) BIRBIRIYLE CELISIYOR — benim eklemedigim var olan bir kusur, bildirildi. 7) bulamadiklarim: 1594 Banat isyani ve 1833 alti nahiye — dolgu yapilmadi, atlandi. 1903 Mayis Darbesi TDV'de yok, akademik kaynakla yazildi. 8) BAGLANMAYI BEKLIYOR: data/kronoloji_sirbistan.js -> window.KRONOLOJI_SIRBISTAN, index.html'e SENIN baglamani bekliyorum. Yeni gorev bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
