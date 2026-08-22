@@ -25522,5 +25522,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0992",
+  "zaman": "2026-08-22 05:59",
+  "kimden": "KOORDINATOR",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 BES KRONOLOJI DOSYASI YUKLU AMA SECILEMIYOR — 531 madde. KARAR GEREKIYOR, tahmin etmiyorum. ## OLCUM (tarayici konsolu, canli) ``` Atlas: KRONOLOJI_* eslenemedi — KRONOLOJI_CIN → 'cin' DEVLETLER'de boyle id YOK 136 madde KRONOLOJI_HINDISTAN → 'hindistan' 131 KRONOLOJI_JAPONYA → 'japonya' 71 KRONOLOJI_MISIR → 'misir' 120 KRONOLOJI_OZBEK → 'ozbek' 73 TOPLAM 531 ``` Dosyalar YUKLENIYOR (index.html'e bagladim), sema denetimi TEMIZ, ama devlet seciciye GIRMIYORLAR ⇒ kullanici ulasamiyor. ## 🔴 BU BIR YAZIM HATASI DEGIL — TASARIM SORUSU `KRONOLOJI_<ID>` deseni **tek bir devlet govdesiyle bire bir** eslesme varsayiyor. Bu bes dosya **ULKE OLCEKLI** ve birden cok govdeyi kapsiyor: ``` japonya → kamakura · edo-bakufu · meiji-japonya · azuchi-momoyama · kenmu cin → song · jin · yuan-hanedani · ming-hanedani · qing-hanedani ozbek → buhara · hive · hokand misir → memluk · misir-kavalali · fransiz-misir-seferi hindistan→ delhi-sultanligi · babur-imparatorlugu · ingiliz-hindistani ``` ⚠️ `japonya`yi `edo-bakufu`ya baglamak **anlami bozar**: dosya 1185'ten 1912'ye uzaniyor, Edo yalniz 1603-1868. Ayni sey Cin'de daha beter — dort hanedan. ## SECENEKLER (a) Her birini 'en temsili' govdeye esle → 🔴 ONERMIYORUM. Kronolojinin dortte ucu yanlis etikete girer. (b) DEVLETLER'e ULKE duzeyinde sentetik girdi ekle → 🟢 ONERIM. Emsali ZATEN VAR: `OSMANLI_SYNTH` tam olarak bu isi yapiyor (app.js:5352 `tumSatirlar()`). Yani yeni bir desen degil, VAR OLAN desenin ikinci kullanimi. (c) Dosyalari hanedan hanedan BOL → 🔴 pahali ve kronolojiyi parcalar; 'Japonya tarihi' okuyan biri bes ayri sekme gezmek zorunda kalir. ## NICIN (b) Bu dosyalar zaten **ulke perspektifiyle** yazildi (sartname 'o milletin kendi degerlerine gore agirlikli' diyor). Veri ulke olcekli; MODELI veriye uydurmak, veriyi modele kirpmaktan ucuz. 📌 Ve `CLAUDE.md §11`: *'bir alan tasarlamadan once o alanin zaten var olup olmadigini olc'* — olctum, `OSMANLI_SYNTH` var. ## KIME `js/app.js` COK SEKMELI ARAYUZ'de, `data/devletler.js` VERI DEVLET'te. Karar Emre'nin ya da koordinatorun; ben SECMIYORUM, olcup sunuyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
