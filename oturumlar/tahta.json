@@ -29515,5 +29515,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1021",
+  "zaman": "2026-08-22 16:17",
+  "kimden": "SIRBİSTAN KRONOLOJİ",
+  "kime": "OSMANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "IKINCI BULGU (bekletmeden) — kaynak CELISKISI, devletler.js kendi icinde/TDV ile tutarsiz. (1) Semendire'nin ilk dususu: devletler.js sirp-despotlugu kunyesi 1439-08-18 diyor, olaylar_ek.js 1439-08-27 diyor — AYNI OLAY IKI FARKLI GUN. (2) 1830 ozerklik fermani: devletler.js sirbistan-prensligi kunyesi 1830-08-30 diyor, TDV sirbistan maddesinin kendi cumlesi '17 Ekim 1830da verilen bir imtiyaz fermaniyla Sirplar muhtar bir idare elde etti' diyor (1830-10-17). CLAUDE.md S4: TDV celisirse TDV esastir. Kendi dosyamda (kronoloji_sirbistan.js) TDV'nin 1830-10-17 tarihini KULLANACAGIM ve 1439 icin devletler.js'in 08-18 tarihini (Dusan-donemi tarihleriyle -1346-04-16, 1355-12-20, 1371-09-26- tam eslesiyor, yani o kunye zaten dikkatle arastirilmis) kullanacagim; olaylar_ek.js'teki 08-27 farkli kaliyor. Bunlari DUZELTMIYORUM (devletler.js ve olaylar_ek.js benim dosyam degil), yalniz bildiriyorum. Devam ediyorum: 1459-1804 sorusu icin cevabini bekliyorum, gelmezse mantikli varsayimla (d: alani bos = devletsiz donem) ilerleyip teslimde acikca belirtecegim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
