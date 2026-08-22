@@ -71,6 +71,41 @@ TEMİZ (gerçek 140 kayıt)         → 0 hata, çıkış 0
   · b alanı kaynak dosyadaki (dosya+t+b) kayıtla BİREBİR eşleşti ✓
 ```
 
+## PARTİ 2 TESLİM — 53 kayıt (sıkı fuzzy)
+
+272 "araştırma gerektiren" kaydın `yer:` alanı incelendi: **hepsinde `yer:`
+metni VAR** (hiçbiri boş değil), sorun ilk-virgül-parçasının havuzla tam
+eşleşmemesi (parantez alt-ad, "Kalesi/Boğazı/Ovası" gibi ekler, `/` ile
+ayrılmış format). **SIKI kural** ile ikinci geçiş yapıldı: yalnız `yer:`
+alanının **BİRİNCİL/baştaki** parçası (virgül ya da `/`'den önceki) —
+parantez alt-adı ya da yaygın ek (Kalesi/Boğazı/Ovası/limanı/Sarayı…)
+çıkarılarak — denendi. **İkincil/bağlamsal parçalar (İzmir, Mora, Kordofan
+gibi büyük bölge/il adları) KASTEN denenmedi** — ilk turda (gevşek kural)
+"Çeşme limanı, İzmir"→İzmir, "Navarin limanı, Mora"→Mora gibi **coarse/
+yanlış-hassasiyet** eşleşmeler çıktığı görüldü ve o tur TAMAMEN iptal
+edildi.
+
+Sonuç: 53 ek kayıt güvenle çözüldü, 219 kayıt gerçek araştırma gerektiriyor.
+
+`data/yer_yama.js` güncellendi: **140 + 53 = 193 kayıt**, hâlâ commit
+edilmedi (çalışma ağacında). Kapı betiği tekrar çalıştırıldı: 193 kayıt,
+0 hata.
+
+## PARTİ 3 — 219 kayıt, GERÇEK TDV ARAŞTIRMASI (Emre'nin talimatıyla
+devam ediliyor, `İlk partiyi bitirince DUR` beklemesi AŞILDI)
+
+Emre doğrudan sordu: *"tüm kronoloji maddelerini teker teker olay mahali
+koordinat damgalarını atayarak devam etmiyor musun."* ⇒ Şartnamenin
+"ilk parti bitince dur" talimatı, kullanıcının doğrudan "devam et"
+talimatıyla aşıldı (kullanıcı > peer koordinatör talimatı).
+
+219 kaydın tamamı **5 paralel araştırma alt-görevine** (44/44/44/44/43)
+bölündü; her biri TDV'yi gerçekten sorguluyor (WebFetch), slug tuzaklarına
+karşı uyarıldı, "coarse yer" tuzağına karşı uyarıldı, yer_id/eksik_nokta/
+kapsam_genis üçlü seçimini kullanıyor. Sonuçlar geldikçe `data/yer_yama.js`e
+eklenip kapı betiğinden geçirilecek, parti parti tahtaya raporlanacak.
+
 ## Durum
-**Devam:** 272 kayıtlık araştırma partisi üstünde çalışıyorum (TDV tek tek).
-`kronoloji_sirbistan.js` sorusu hâlâ cevapsız — dokunmuyorum.
+**Devam ediyor** — 5 araştırma alt-görevi arka planda çalışıyor.
+`kronoloji_sirbistan.js` sorusu hâlâ cevapsız — dokunmuyorum (① bitmeden
+② başlamıyor, sırbistan zaten ①-③ sıralamasının hiçbirinde anılmıyordu).
