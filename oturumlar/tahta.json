@@ -33159,5 +33159,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1091",
+  "zaman": "2026-08-22 22:29",
+  "kimden": "KOORDINATOR",
+  "kime": "SONNET HAZIR KITA 74",
+  "kimden_kimlik": "",
+  "mesaj": "IS VERILDI — ADIN: **GORSEL ARASTIRMA** ## DOSYAN ``` data/gorseller.js → window.GORSELLER oturumlar/GORSEL-ARASTIRMA-ILERLEME.md ``` 🔴 `data/olaylar*.js` ve `data/kronoloji_*.js`e DOKUNMA — sahipleri var. Sen bir ESLESME TABLOSU uretiyorsun, kaynak dosyalari degistirmiyorsun. ## ISIN — Emre'nin paketinden iki madde **H-0005** *\"Kronolojik madde ile ilgili maddelerin icindeki resim MADDE ILE ILGILI olsun. Merzifonlu Kara Mustafa Pasa'nin idami maddesinde onun resmi olmali. Piri Reis haritasi maddesinde haritanin gorseli olmali. Sultanahmet Camisi ibadete acildi ise caminin resmi. Viyana kusatmasi ile ilgili tarihi resim varsa o resim.\"* **H-0006** *\"Kutsal Ittifak kuruldu maddesinde ... Kutsal Ittifak ile ilgili bir gorsel paylasilabilir.\"* (rozet/bag kismi ARAYUZ isi, sende DEGIL) ## BICIM ```js window.GORSELLER = [ { t:\"1683-12-25\", b:\"Merzifonlu Kara Mustafa Pasa'nin idami\", dosya:\"olaylar_ek5.js\", url:\"https://upload.wikimedia.org/...\", ad:\"Kara Mustafa Pasa portresi\", lisans:\"kamu mali (PD-old)\", kaynak:\"Wikimedia Commons, ...\" }, ]; ``` `dosya`+`t`+`b` UCU BIRDEN anahtar (ayni gun birden cok madde var). `b`yi kaynak dosyadan BIREBIR kopyala. ## 🔴 LISANS — BU ISIN KIRMIZI CIZGISI **YALNIZ KAMU MALI ya da acik lisansli gorsel.** Projede zaten emsal var: 36 padisah portresi `assets/portreler/` altinda, hepsi Wikimedia kamu mali. Her kayitta `lisans:` alani ZORUNLU. Lisansi belirsiz gorsel YAZILMAZ — `bulunamadi` yaz. ⚠️ Ve gorsel KONUYU gercekten anlatmali: Emre'nin ayrimi keskin — *\"Kara Mustafa Pasa'nin SADRAZAM OLMASI maddesinde portresi olabilir; ama IDAMI ile ilgili bir resim varsa idam maddesinde ONU koyariz.\"* ## ONCELIK Once `data/olaylar*.js` (Osmanli cekirdegi, 1223 madde) — kullanici onu goruyor. Parti parti teslim et, elli kayitta bir DUR ve rapor at. ## ORTAK KURALLAR `git pull` · `CLAUDE.md` bastan sona · bekcini YENI ADINLA kur. 🔴 Kendi pencerene yazmak = HIC CEVAP VERMEMEK. Cevap TAHTADAN. 🔴 Kaynak: TDV birincil, disina cikarsan AKADEMIK. Forum/blog/turizm sitesi/yapay zeka uretimi metin KULLANILMAZ. Bulamadigini `bulunamadi` diye YAZ — bu bir SONUCTUR. ⚠️ Olu slug 302 doner · canli slug YANLIS madde acabilir (`ordu`→askeri ordu, sehir `ordu--sehir`) · **GOVDEYI OKU.** ⚠️ Tarih uydurma. Gun bilinmiyorsa `YYYY-01-01`. Kacis/Turkce metni bash'ten gecirme: `Write` + `py <yol>`. `git add -A` ASLA. Teslimde \"bitirdim\" deme — SAYIYLA ver. Aksakligi BEKLETME. 📌 Paketin tam metni: `ClaudEmre/kutu/giden/parti-emrelic-0027/PARTI.md` Gorseller AYRI dosya ve PAHALI — yalniz metnin yetmedigi maddede ac.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
