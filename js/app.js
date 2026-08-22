@@ -5360,6 +5360,37 @@ var KRONOLOJI_ID_OZEL = {};             // { "KRONOLOJI_XYZ": "gercek-id" } — 
     secButon.textContent = ozet + " ▾";
   }
 
+  // 🔴🔴 22 Ağustos 2026 — BU FONKSİYON ÇAĞRILIYORDU AMA TANIMLI DEĞİLDİ,
+  // ve kusur CANLI YAYINDAYDI. `satirTikla()` 5392'de `vurguGuncelle()`
+  // çağırıyor; tanım yoktu ⇒ `ReferenceError` ⇒ fonksiyon ORADA patlıyor ve
+  // ALTINDAKİ HİÇBİR SATIR ÇALIŞMIYOR:
+  //     if (secPanel) secPanel.classList.add("gizli");   ← KUSUR ① düzeltmesi
+  //     guncelle();                                       ← panel tazeleme
+  //
+  // 📌 VE ASIL BULGU: Emre'nin ÜÇ AYRI kusuru sandığımız şeyin TEK KÖKÜ bu.
+  // Kusur ③ için yazılan çağrı, kusur ①'in düzeltmesini ÖLDÜRÜYORDU. Emre
+  // "combobox kapanmıyor" diye şikâyet ettiğinde düzeltme ZATEN YAZILMIŞTI
+  // (satır 5397) — yazılmış ama kendinden önceki bir satır yüzünden hiç
+  // koşmuyordu.
+  //
+  // ⚠️ HİÇBİR DENETİM GÖRMEDİ: `node --check` TEMİZ geçiyor (sözdizimi
+  // kusursuz), yayın kapısı da kod ÇALIŞTIRMIYOR. Kusur yalnız ÇALIŞMA
+  // ANINDA, yalnız kullanıcı tıklayınca doğuyor. `CLAUDE.md §11`in
+  // *"bir düzeltmenin veride inmesi haritada indiği anlamına gelmez"*
+  // dersinin ARAYÜZ tarafı: **sözdiziminin temiz olması, çalıştığı anlamına
+  // gelmez.** Tarayıcıda tıklamadan bilinemezdi ve tıklandı.
+  //
+  // Makine zaten kuruluydu (`devlet-odak-vurgu` katmanı, satır 746, filtresi
+  // `__yok__`); eksik olan YALNIZ filtreyi güncelleyen bu üç satırdı.
+  function vurguGuncelle() {
+    if (!harita || !haritaHazir || !harita.getLayer
+        || !harita.getLayer("devlet-odak-vurgu")) return;
+    // ODAK yokken (Osmanlı) hiçbir gövde eşleşmemeli — filtreyi BOŞ bırakmak
+    // MapLibre'de TÜM yabancı devletleri kırmızı çizerdi (satır 743 uyarısı).
+    var kimlik = ODAK ? (ODAK.harita || ODAK.id) : "__yok__";
+    harita.setFilter("devlet-odak-vurgu", ["==", ["get", "id"], kimlik]);
+  }
+
   function satirTikla(id) {
     var eskiOdakId = ODAK ? ODAK.id : null;       // KUSUR ③ — odak GERÇEKTEN değişti mi?
     if (id === "osmanli") {
