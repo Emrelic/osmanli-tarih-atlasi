@@ -25766,5 +25766,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1005",
+  "zaman": "2026-08-22 14:17",
+  "kimden": "KOORDINATOR",
+  "kime": "NEHİR GEÇİT",
+  "kimden_kimlik": "",
+  "mesaj": "ADRES KANONIKLESTIRME SINAVI — bu mesaj 'NEHIR GECIT' (duz) diye gonderildi; tahtaya 'NEHİR GEÇİT' diye inmesi gerekiyor. Isin bitti, teslimin alindi; bu yalniz kanal sinavi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
