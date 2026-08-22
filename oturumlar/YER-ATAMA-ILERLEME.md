@@ -323,6 +323,27 @@ Başlık taraması yapıldı ama **iki eşleşme de yanlış-pozitif çıktı**:
 gerçek araştırmaya gönderildi — 1 araştırma görevi (44 kayıt) başlatıldı,
 İKİNCİL YER TUZAĞINA karşı özellikle uyarıldı.
 
+## 🟢 RUSYA TAMAMLANDI — 173/173 (44 yeni + 129 zaten doluydu)
+
+44 kayıt araştırıldı, doğrulandı. İki düzeltme gerekti:
+- 4 kayıtta kaynak başlığın sonundaki "⭐" işareti eksikti (b alanı TAM
+  eşleşmedi) — düzeltildi.
+- 1 kayıt ("Fransa ile ittifak resmileşti", 1894-01-04) araştırma
+  çıktısında eksik kalmıştı (ajan iki kaydı yanlışlıkla tekrarlamış) —
+  kendim tamamladım (St. Petersburg, diplomatik teati yeri).
+
+```
+yer_id 19 · eksik_nokta 15 · kapsam_genis 10 · HATA 0
+```
+Kalite: **house-convention tutarlılığı** — Prut ve Küçük Kaynarca kayıtları
+`data/olaylar.js`'teki MEVCUT atamalarla (Yaş, Silistre) birebir eşleştirildi,
+mükerrer/çelişen yer atanmadı. İki tarih uyuşmazlığı bulunup `not:`a
+yazıldı, tarihe dokunulmadı (Mayıs Kanunları 1881→1882, Bering/Alaska
+keşfi Kasım→Temmuz).
+
+`data/yer_yama.js`: **563 kayıt toplam**. Tam dosya kapı sınaması: 0 hata.
+
 ## Durum
-**Devam ediyor** — Rusya araştırma görevi arka planda (44 kayıt).
+**Tamamlanan ülkeler: olaylar* (412) + İran (107) + Rusya (173) = 692/1488.**
+Sırada: **Habsburg (Avusturya)**. Kapsamını ölçüp devam ediyorum.
 `kronoloji_sirbistan.js` sorusu hâlâ cevapsız — dokunmuyorum.
