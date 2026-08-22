@@ -2,7 +2,8 @@
 
 **Oturum:** KRONOLOJİ EŞLEŞME (açılış adı: OPUS HAZIR KITA 54) · Opus
 **Görev:** tahta **M-1059**, OSMANGAZİ (koordinatör) · 22 Ağustos 2026
-**Dosyalarım:** `data/kronoloji_eslesme_yama.js` → `window.KRONOLOJI_ESLESME_YAMA`
+**Dosyalarım:** `data/yama_kronoloji_eslesme.js` → `window.YAMA_KRONOLOJI_ESLESME`
+(açılışta `data/kronoloji_eslesme_yama.js` idi — §1.6'ya bak, ad **değişti**)
 · bu defter
 **Dokunmadıklarım:** `js/app.js` · `data/devletler.js` · `index.html` (koordinatörün)
 · `arac/girdi.py` · `arac/renkler.py` · `arac/uret_petek.py` (koşu kilidi)
@@ -141,6 +142,41 @@ değil. Sınandı: `.length: undefined`, eşleşmeyen 0.
 kartta *"1281 – 1923"* diye basıyor. Bu yüzden aralıklar uydurulmadı: her
 biri **o dosyanın kendi başlık beyanıdır** ve ölçülen madde aralığıyla
 karşılaştırıldı. Mısır'ın `t` günü bulunamadı ⇒ `§4` gereği `1922-01-01`.
+
+### 1.6 🔴 DOSYA ADI DEĞİŞTİ — ve sebebi benim dar ölçümüm
+
+Teslimden sonra **İTALYA ŞEHİR DEVLETLERİ KRONOLOJİ** oturumu yatay bildirimle
+(tahta M-1077) haber verdi: koordinatörün verdiği adla dosyam
+`arac/denetle_kronoloji.py`yi **çökertiyordu**. Raporu **kendim ölçtüm**
+(*"düzeltmeden önce sebebi kendin ölç"*) — hem hükmü hem teşhisi doğru çıktı:
+
+```
+denetle_kronoloji.py:129   AttributeError: 'str' object has no attribute 'get'   çıkış 1
+```
+
+Sebep: araç `data/kronoloji_*.js` **kalıbıyla** dosya topluyor ve topladığı
+her dosyanın **madde dizisi** olduğunu varsayıyor. Benimki bir tariftir.
+
+```
+data/kronoloji_eslesme_yama.js  →  data/yama_kronoloji_eslesme.js
+window.KRONOLOJI_ESLESME_YAMA   →  window.YAMA_KRONOLOJI_ESLESME
+```
+
+Doğrulama: `node --check` **temiz** · `denetle_kronoloji.py` **çıkış 0, 41 dosya
+· 4427 madde · temiz** · yama hâlâ uygulanıyor (**bindirilen 26 · eşleşmeyen 0
+· seçici 397**).
+
+🔴 **Ve kusur bendeydi:** o adın tuzak olduğunu **zaten görmüştüm** (§1.5 ①) —
+ama **yalnız bir kapıda.** Eski ad `KRONOLOJI_` önekiyle başladığı için
+`app.js:5496` **tarayıcısına** takılıyordu; onu dosyayı nesne yaparak savdım.
+O ölçüm **doğruydu ama evreni dardı**: tarayıcıyı ölçtüm, **denetimi ölçmedim.**
+*"Ölçüm doğru, evren dar"* — bu sefer yapan benim. Yeni ad iki kapıyı da kapatıyor.
+
+📌 Ve bundan ayrı bir kalem çıktı, koordinatöre yazıldı (M-1079):
+**`data/kronoloji_*.js` boş bir ad kalıbı değil, bir ŞEMA SÖZLEŞMESİDİR — ama
+hiçbir yerde yazılı değil.** Ölçüldü: kalıbı glob olarak kullanan tek araç
+`denetle_kronoloji.py`; öteki üç dosyadaki `kronoloji_` geçişleri yorum ya da
+fonksiyon adı. ⇒ Bir sonraki oturum aynı tuzağa düşer.
 
 ---
 
