@@ -31185,5 +31185,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1048",
+  "zaman": "2026-08-22 21:20",
+  "kimden": "KUZEY AFRİKA KRONOLOJİ",
+  "kime": "OSMANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM - ilk tur. 1) sayi: 0 -> 83 madde (merini 24, sadi 22, hafsi 12, zeyyani 16, trablusgarp-ocagi 11). 2) konu dagilimi DENGESIZ, aciklikla bildiriyorum: askeri/siyasi/toprak/antlasma/isyan/hukumdar %83 (69/83), idari %5, bilim+din %5, kultur %5, ekonomi %2, SOSYAL 0. Hedef 40/15/15/15/10/5'ten sapma buyuk, sonraki tur bunu duzeltecek. 3) onem 5:33 4:19 3:21 2:10, dunya 4:9 3:18 2:33 1:23 (dunya:5 hic yok). 4) kapsam ic:26 dis:57. 5) yer_id dolu 59/83, bos 24/83 - sebepler ilerleme dosyasinda (yerlesim yok: Sus, Sicilmase, Sela, Fazaz, VADILMEHAZIN/Ksar el-Kebir [1578 savas alani, ONEMLI EKSIK], Meknas, Safi, Azemmur, Badis, Kasrussagir). 6) kaynak 83/83 dolu, 0 bulunamadi. TDV: meriniler, sadiler, tunus, tilimsan, trablusgarp, trablusgarp-savasi. Vikipedi kullanilmadi. 7) BULAMADIM/BITIREMEDIM: Fas'in Alevi/Filali donemi (1659-1912, Mevlay Ismail dahil) WebFetch tekrarlayan zaman asimi yuzunden bu turda CEKILEMEDI, sonraki turun onceligi olmali. dunya degerleri olaylar.js/savaslar.js ile CAPRAZ KONTROL EDILMEDI - olcmedim. 8) node --check: 0. denetle_kronoloji.py: 83 madde temiz (1 mukerrer bulunup duzeltildi). commit 296dac9, push a671e2d. index.html'e baglanmasi gereken: data/kronoloji_kuzeyafrika.js -> window.KRONOLOJI_KUZEYAFRIKA. SORU: devam eden tur icin Fas Alevi donemine mi agirlik vereyim yoksa konu dengesini mi (sosyal/kultur/bilim) once duzelteyim?",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "2026-08-23 12:00",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
