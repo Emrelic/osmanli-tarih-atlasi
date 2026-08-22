@@ -2828,6 +2828,15 @@ Object.defineProperty(KAMERA, "olayBekliyor", {
 function kameraKilitle() { KAMERA.kilit++; }
 function kameraCoz() { KAMERA.kilit = Math.max(0, KAMERA.kilit - 1); }
 
+// 🔴 KIRPMA BAYRAĞI — tanımı BURADA, kilidin yanında. Kullanıldığı yerler
+// (`guncelle` 3691 · `tarihAyarla` 3785) bu satırdan ÖNCE geliyor; `var`
+// yükseltmesi sayesinde çalışıyordu ama bir okuyucunun "burada tanımsız"
+// diye düşünmesi için sebep vardı. Bayrak, kamera kilidinin kardeşi:
+// ikisi de "şu an olağan akış DEĞİL" diyor.
+//   kilit  → oto-zoom kameraya dokunmasın
+//   bayrak → panel/liste/zaman çubuğu OYNAMASIN (harita çizilmeye devam eder)
+var _kirpmaKilitli = false;
+
 // Bir olaya gidilecekse ÜÇ ADIM BİRLİKTE yapılır ve `tarihAyarla`nın
 // tetikleyeceği oto-zoom bu süre boyunca susar.
 // ⚠️ `finally` şart: `guncelle()` fırlatırsa bayrak açık kalır ve oto-zoom
@@ -3668,6 +3677,28 @@ function guncelle() {
   koridorGuncelle(suanki);
   devirGuncelle(suanki);
   isgalGuncelle(suanki);
+  // 🔴🔴 22 Ağustos 2026 — KIRPMA SIRASINDA PANEL DONDURULUYOR.
+  // Emre: *"ileri tuşuna basınca kronoloji maddelerinde ileri geri gösterim
+  // bozukluğu yaşanıyor — Kaluğeran'dan ileri tıklayınca Estergon'un
+  // Avusturya'ya kaybı maddesinde kronoloji maddeleri bir ileri bir geri
+  // gidiyor."*
+  //
+  // ÖLÇÜM: öncesi/sonrası kırpması DÖRT kez `tarihAyarla` çağırıyor,
+  // `tarihAyarla` → `guncelle()` → `olaylarGuncelle()` LİSTEYİ YENİDEN
+  // KURUYOR. Yani liste dört kez bir gün geri, bir gün ileri gidiyordu.
+  // Emre'nin örneği bunu doğruluyor: Estergon'un kaybı bir DÖNEM KIRILMASI,
+  // yani kırpmanın tam ateşlendiği gün.
+  //
+  // 🔴 VE KUSUR BİR TASARIM KARARIMDAN: kırpmayı yazarken *"tek kapı
+  // kullanayım, iki otorite doğmasın"* diyerek `tarihAyarla`yı seçmiştim.
+  // Gerekçe genel olarak DOĞRU ama BURADA YANLIŞTI: kırpma bir ZAMAN
+  // DEĞİŞİMİ değil, GÖRSEL BİR KARŞILAŞTIRMA. Kullanıcının bulunduğu an
+  // değişmiyor — yalnız harita geçici olarak başka bir günü çiziyor.
+  // ⇒ Kesme çizgisi burada: YUKARISI harita (çizilsin), AŞAĞISI panel
+  //   (dokunulmasın). `sehir/savas/sefer/koridor/devir/isgal` hepsi harita
+  //   katmanı, o yüzden yukarıda kaldı.
+  if (_kirpmaKilitli) return;
+
   padisahGuncelle(suanki);
   olaylarGuncelle(suanki);
   tepeEtiketGuncelle();
@@ -3757,7 +3788,10 @@ function obTazele() {
 
 function tarihAyarla(t) {
   suanki = Math.max(BASLANGIC, Math.min(BITIS, t));
-  kaydirici.value = suanki;
+  // 🔴 Kırpma sırasında ZAMAN ÇUBUĞU da oynamaz. Kullanıcı bir gün geri
+  // gitmedi — harita geçici olarak önceki hâli gösteriyor. Çubuğun
+  // titremesi, olmayan bir zaman yolculuğunu varmış gibi gösterirdi.
+  if (!_kirpmaKilitli) kaydirici.value = suanki;
   guncelle();
 }
 
@@ -5195,8 +5229,7 @@ function _yabanciImza(t) {
   return im;
 }
 
-var _kirpmaKilitli = false;
-
+// (`_kirpmaKilitli` tanımı KAMERA kilidinin yanında — bkz. ~2830)
 function _kirpmaKilidiBirak() {
   if (_kirpmaKilitli) { _kirpmaKilitli = false; kameraCoz(); }
 }
