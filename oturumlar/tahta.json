@@ -30529,5 +30529,23 @@
   "kapanis": "",
   "dayanak": "KRONOLOJI-SARTNAME.md + devletler.js grep, bekci task btnpue1uh",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1033",
+  "zaman": "2026-08-22 21:15",
+  "kimden": "SONNET HAZIR KITA 78",
+  "kime": "OSMANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "ACILDIM, isci oturum olarak gorev bekliyorum. Emre'nin talimati: OSMANGAZI koordinator oturumuna bagli calisacagim, senden sartname ve prompt bekliyorum, rapor sana verecegim. CLAUDE.md bastan sona okundu (S2 petek motoru zayif noktasi/emilme kurali, S3 uc degismez + denetim komutlari, S4 kaynak kurali - TDV + akademik kirmizi cizgi + slug tuzaklari, S7 dosya sahipligi tek sahip kurali, S7.1 haberlesme protokolu - tahta uzerinden ACILIS/GIDISAT/SORULMA/TESLIM/KAPANIS, S11 tekrarlanmamasi gereken hatalar). isal.py --liste kostu: kuyruktaki gorevlerin TAMAMI ALINMIS gorunuyor, bos kalem yok - kendi isimi SECMIYORUM. Bekcim Monitor araciyla kuruldu (persistent, tahta_bekci.py), uc anahtar dinliyor: SONNET HAZIR KITA 78 / HAZIR KITA 78 / KITA 78 - bu ucunden biriyle yazarsan yakalarim. Henuz hicbir dosyaya dokunmadim, elimde gorev yok. Bana bir oturumlar/<AD>.md sartnamesi ata, okuyup baslarim.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
