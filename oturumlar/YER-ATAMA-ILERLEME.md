@@ -231,8 +231,46 @@ Büyükçekmece 41.02,28.59
 43.62,25.35) — aynı yer, ~1000m fark, önemsiz; nokta oturumu tek kayıt
 açacaksa ikisi de kullanılabilir.
 
+## PARTİ ① KOORDİNATÖR UYGULADI (M-1099) — 321/322 indi, 1 uyuşmazlık
+
+Koordinatör 412 kaydı işledi: yer_id 322 hedeften 321'i uydu, `olaylar_ek7.js`de
+1 tanesi eşleşmedi. **Kendi tarafımda araştırdım** (güncel 2605'lik havuza
+karşı `olaylar_ek7.js`'in TAMAMINI taradım) — **mismatch BULAMADIM**, 128
+maddenin hiçbirinde havuzda olmayan bir `yer_id` yok. Muhtemelen koordinatör
+tarafında geçici bir durum (belki iki kayıt çakışması, belki başka bir
+oturumun eşzamanlı düzenlemesi) — kendiliğinden çözülmüş görünüyor.
+Koordinatöre bu ölçümü bildirdim.
+
+## PARTİ ② BAŞLADI — sıra (Emre'nin kendi sırası): Rusya · Habsburg
+(Avusturya) · Lehistan · İran · Venedik · Macaristan · Kırım
+**İran'dan başlanıyor** (koordinatörün talimatı: en kötüsü, 107/107 boş).
+
+### İran — kapsam ölçümü
+`kronoloji_iran.js`: 107 madde, **107'sinde de `yer_id` YOK** (doğrulandı).
+🔴 Bu dosyada `yer:` alanı HİÇ YOK (şema farklı — yalnız `t,b,tur,onem,dunya,
+kapsam,etiket,d,kaynak`), yani `olaylar*.js`teki "kolay/fuzzy" kısayolu
+uygulanamıyor. Bunun yerine **başlık (b) taraması** yapıldı: 2605 havuz adı,
+madde başlığında (iyelik eki ayıklanarak) aranıyor mu diye kontrol edildi.
+```
+b başlığında havuz adı bulundu   23
+  └─ 2'si KİŞİ ADI yanlış-pozitif ("Şah İsmail" → "İsmail" yer adıyla
+     çakıştı, Tuna'daki İsmail/Izmail kalesiyle karışıyordu) — ELENDİ,
+     araştırmaya geri döndü
+  └─ 21 GÜVENLİ kolay eşleşme kaldı
+b başlığında bulunamayan (araştırma gerekiyor)   86
+```
+21 kolay kayıt `dogrula_sonuc.js` ile 0 hatayla doğrulandı, `data/yer_yama.js`e
+eklendi: **433 kayıt** (412 + 21), tam dosya kapı sınaması yine 0 hata.
+
+⚠️ **DOSYA HAVUZU GENİŞLETİLDİ** — `dogrula_sonuc.js` ve `kapi_yer_yama.js`
+artık `kronoloji_iran/kirim/macaristan/lehistan/venedik/habsburg/memluk/
+misir/rusya.js` dosyalarını da (varsa) kaynak listesine alıyor.
+
+Kalan 86 kayıt için 2 paralel araştırma görevi başlatıldı (43+43, TDV +
+Encyclopaedia Iranica, WebFetch) — kişi-adı tuzağına özellikle karşı uyarıldı.
+
 ## Durum
-**① TESLİM EDİLDİ.** ②'ye (iran · kırım · macaristan · lehistan · venedik
-· habsburg · memluk · misir) geçiyorum — Emre'nin "devam et" talimatı
-gereği duraklamadan.
+**Devam ediyor** — 2 İran araştırma görevi arka planda. Bitince İran
+tamamlanmış olacak (107/107), sonra Rusya/Habsburg/Lehistan/Venedik/
+Macaristan/Kırım sırasıyla aynı yöntemle.
 `kronoloji_sirbistan.js` sorusu hâlâ cevapsız — dokunmuyorum.
