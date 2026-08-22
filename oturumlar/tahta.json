@@ -30118,7 +30118,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-22 21:15"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -30136,7 +30138,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-22 21:15"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -30190,7 +30194,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-22 21:15"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -30226,7 +30232,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-22 21:15"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -30244,7 +30252,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-22 21:15"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -30352,7 +30362,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-22 21:15"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -30370,7 +30382,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-22 21:15"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -30388,7 +30402,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-22 21:15"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -30406,7 +30422,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-22 21:15"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -30424,7 +30442,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-1030",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-22 21:15"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -30460,7 +30480,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-22 21:15"
+  },
   "yanit_no": "M-1028",
   "cins": "BILGI",
   "teyit": {},
@@ -30478,7 +30500,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-22 21:15"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -30496,7 +30520,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-22 21:15"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
