@@ -128,9 +128,35 @@ düşülmedi. `eksik_nokta` kararları da (Zitvatorok, Karlofça, Bucaş,
 Granbosa, Bileća, Sakarya/Polatlı) TDV'nin kesin ama havuzda karşılığı
 olmayan yerleri için doğru kullanılmış.
 
+## PARTİ 3 — alt-parti 4/5 ve 5/5 teslim (44 + 43 = 87 kayıt)
+
+İkisi de `scratchpad/dogrula_sonuc.js` ile sıfır hatayla doğrulandı:
+```
+arastir_sonuc_4.json: 44 kayıt — yer_id 30 · eksik_nokta 5 · kapsam_genis 9 · HATA 0
+arastir_sonuc_5.json: 43 kayıt — yer_id 29 · eksik_nokta 6 · kapsam_genis 8 · HATA 0
+```
+Dikkat çeken bulgular (araştırmanın kalitesini gösteren örnekler):
+- **Ziştovi vs Tırnova** (5/5): madde tarihi 27 Haziran, ama havuzda TAM
+  eşleşen "Tırnova" o tarihte henüz düşmemişti (~10 gün sonra düştü).
+  Kolay/tembel eşleşme "Tırnova"yı seçerdi — araştırma tarihi kontrol edip
+  doğru yer için (Ziştovi, havuzda yok) `eksik_nokta` seçti.
+- **Yenipazar vs "Arnavutluk"** (5/5): kaynak madde "Arnavutluk ve Yenipazar
+  sancağı" diyordu; "Arnavutluk" bölge adı kaba kalırdı, Yenipazar havuzda
+  TAM var ve somut cephe merkezi — doğru seçildi.
+- **Fethâbâd/Nadir Şah** (5/5): TDV maddesi "canlı slug + boilerplate gövde"
+  tuzağına düştü (gövde gelmedi); standart akademik kaynağa (Encyclopaedia
+  Iranica) geçildi, kaynak alanına açıkça yazıldı.
+- **"Taneciklik boşluğu" 8 kez doğru kullanıldı** (5/5, Fas/Cezayir kıyı
+  kaleleri): TDV genel maddeyi kapsıyor ama bu kadar ince taneciği
+  (Beşşâr, Aynı Sâlih, el-Hüseyme vb.) içermiyor — `CLAUDE.md §4`nin
+  "coğrafî boşluk ≠ taneciklik boşluğu, ikisi de aynı muameleyi görür"
+  kuralı doğru uygulandı, kaynak alanına açıkça yazıldı.
+
+`data/yer_yama.js` yeniden üretildi: **140+53+131 = 324/412 kayıt tamam**.
+
 ## Durum
-**Devam ediyor** — kalan 4 araştırma alt-görevi arka planda çalışıyor
-(bağlantı kesintisinden sonra yeniden başlatıldı). Sonuçlar geldikçe aynı
-yöntemle doğrulanıp `data/yer_yama.js`e eklenecek.
+**Devam ediyor** — kalan 2 araştırma alt-görevi (2/5, 3/5) arka planda
+çalışıyor. Bir turda platform genelinde geçici bağlantı kesintisi yaşandı,
+hepsi "kaldığın yerden devam et" ile yeniden başlatıldı, veri kaybı olmadı.
 `kronoloji_sirbistan.js` sorusu hâlâ cevapsız — dokunmuyorum (① bitmeden
 ② başlamıyor, sırbistan zaten ①-③ sıralamasının hiçbirinde anılmıyordu).
