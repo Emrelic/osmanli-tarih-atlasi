@@ -5179,8 +5179,33 @@ function oncesiSonrasiKirp(gun) {
   var oIm = _yabanciImza(once), gIm = _yabanciImza(gun);
   if (oIdx === gIdx && oIm === gIm) return;      // sessiz gün — kırpma YOK
 
-  var ms = +_ayar("ayar-kirpma-ms", 420);
-  var adet = +_ayar("ayar-kirpma-adet", 2);
+  // 🔴 22 Ağustos — BİRİM DEĞİŞTİ, Emre: *"göz kırpma özelliği 1 SANİYE
+  // sürsün."* Eskiden ayar "her hâl kaç ms" idi ve toplam süreyi kullanıcı
+  // kafadan çarpmak zorundaydı (420 × 2 × 2 = 1680 ms). Şimdi ayar TOPLAM
+  // SÜRE; hâl başına düşen pay ondan TÜRETİLİYOR.
+  // 📌 Bu projede aynı ders ölçülmüştü: Emre *"uçuş ayarları hiç etki
+  //    etmiyor görünüyor"* demişti ve ayarlar UYGULANIYORDU — okunamıyordu.
+  //    *Kusur mekanizmada değil BİRİMDEYDİ.* Aynı hatayı yeni ayarda
+  //    tekrarlamamak için ayar, kullanıcının DÜŞÜNDÜĞÜ birime çevrildi.
+  //
+  // 🔴 VARSAYILAN 900 ms — Emre: *"1 saniye uzun olabilir, 500 pır pır
+  // edecekse 700 olsun, SEN KARAR VER."* Karar ve gerekçesi:
+  // Asıl ölçüt TOPLAM değil, HÂL BAŞINA düşen süre. `adet:2` dört hâl demek:
+  //     500 ms →  125 ms/hâl   pır pır — harita YENİDEN ÇİZİMİ bile bitmez
+  //     700 ms →  175 ms/hâl   sınırda: "bir şey oldu" dersin, NE olduğunu göremezsin
+  //     900 ms →  225 ms/hâl   ✓ tanıma eşiğinin üstünde
+  //    1000 ms →  250 ms/hâl   iyi ama gereksiz uzun
+  // ⚠️ VE SON HÂL BEKLEMİYOR, orada kalıyor: 900 ms'lik ayarda gözün
+  //    gördüğü HAREKET 3 × 225 = 675 ms — Emre'nin hedeflediği aralık.
+  //    Yani "toplam süre" ayarı, algılanan sürenin 4/3'ü.
+  //
+  // ⚠️ Alt sınır 150 ms (90 DEĞİL): altında MapLibre yeniden çizimi bitmeden
+  //    sonraki hâle geçiliyor ve kullanıcı iki hâl değil BULANIKLIK görüyor.
+  //    🔴 Bu sayı ÖLÇÜLMEDİ — çizim süresi haritanın yüküne göre değişir;
+  //    gözle doğrulanacak ve gerekirse ölçülüp düzeltilecek.
+  var adet = Math.max(1, +_ayar("ayar-kirpma-adet", 2));
+  var toplam = +_ayar("ayar-kirpma-toplam-ms", 900);
+  var ms = Math.max(150, Math.round(toplam / (adet * 2)));
   _kirpmaGun = gun;                              // kesilirse buraya dönülür
 
   // Dizilim: (önce → sonra) × adet, ve HER ZAMAN `sonra`da biter.
