@@ -43,6 +43,34 @@
    Cevap gelene kadar sirbistan'a DOKUNMUYORUM — hem yamada hem kapı
    betiğinde §5 sırasındaki dosyalarla sınırlı kalıyorum.
 
+## ① olaylar*.js — kapsam ölçümü
+
+18 dosya (olaylar.js, olaylar_7a4170.js, olaylar_ek.js, olaylar_ek2…16.js) —
+toplam **1223 madde**, `yer_id` eksik **412** (şartnamenin "~336" tahmininden
+farklı — kaba tahmindi, kendi ölçümüm taban).
+
+`yer_id` eksik 412 madde ikiye ayrıldı:
+- **140 "kolay"** — maddenin KENDİ `yer:` alanı (yazarı zaten TDV'den
+  doğrulamış, `kaynak:` slug'ı da orada) yerleşim havuzuyla (2603 kayıt)
+  BİREBİR ya da ilk virgül-öncesi parçasıyla eşleşiyor. Yeni araştırma
+  YAPILMADI — var olan beyanı koordinat bağlantısına çevirdim.
+- **272 "araştırma gerektiren"** — `yer:` alanı yok ya da havuzda karşılığı
+  yok. TDV'den tek tek doğrulanacak, sıradaki iş.
+
+## PARTİ 1 TESLİM — 140 kayıt
+
+`data/yer_yama.js` yazıldı (**COMMIT EDİLMEDİ** — NOKTA EPİR emsali: veri
+dosyası çalışma ağacında bırakılıyor, koordinatör uygulayınca commit'lenecek).
+
+Kapı betiği iki yönde sınandı:
+```
+ATEŞLEME (5 kasıtlı bozuk kayıt) → 5/5 hata sınıfı yakalandı, çıkış 0
+TEMİZ (gerçek 140 kayıt)         → 0 hata, çıkış 0
+  · dosya·t·b·kaynak dolu ✓ · yer_id∨eksik_nokta∨kapsam_genis tek seçenek ✓
+  · yer_id'lerin HEPSİ 2603 havuzunda VAR ✓ · mükerrer anahtar yok ✓
+  · b alanı kaynak dosyadaki (dosya+t+b) kayıtla BİREBİR eşleşti ✓
+```
+
 ## Durum
-**① olaylar*.js partisine başlıyorum** (~336 madde, tam sayı: aşağıda).
-Kapı betiği yazılacak, ilk parti bitince tahtaya rapor.
+**Devam:** 272 kayıtlık araştırma partisi üstünde çalışıyorum (TDV tek tek).
+`kronoloji_sirbistan.js` sorusu hâlâ cevapsız — dokunmuyorum.
