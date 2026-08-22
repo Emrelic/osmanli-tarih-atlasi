@@ -356,7 +356,27 @@ kullanmaları söylendi.
 
 `data/yer_yama.js`: **564 kayıt** (1 kolay eklendi). Tam kapı sınaması: 0 hata.
 
+## 🟢 HABSBURG TAMAMLANDI — 52/52
+
+İki araştırma görevi (26+25) tamamlandı, doğrulandı, 0 hata.
+```
+yer_id 17 · eksik_nokta 24 · kapsam_genis 11
+```
+Kalite: **`data/savaslar.js` çapraz kontrolü** — çoğu savaş/muharebe kaydı
+zaten proje içinde koordinatlı olarak duruyordu (Güns, Haçova, Sen Gotar,
+Salankamen, Zenta, Hisarcık), mükerrer araştırma yapılmadan kullanıldı.
+**İkincil yer tuzağı 5 kez doğru ayıklandı**: Karlofça (Macaristan/Mora
+kazanç-kayıp, imza yeri değil) · Pasarofça (Tımışvar/Belgrad/Sırbistan
+devredilen topraklar) · Austerlitz (Venedik/İstriya/Dalmaçya kaybedilen
+topraklar) · Debrecen (Budin değil — meclis savaş nedeniyle taşınmıştı) ·
+Campo Formio (Belçika/Venedik ikincil sonuç). **Karlsbad Kararları**'nda
+"kolayca Viyana" tuzağına da düşülmedi — konferans gerçekte Bohemya'da
+yapılmıştı.
+
+`data/yer_yama.js`: **615 kayıt toplam**. Tam kapı sınaması: 0 hata.
+
 ## Durum
-**Tamamlanan: olaylar* (412) + İran (107) + Rusya (173) = 692/1488.**
-Habsburg araştırması sürüyor (51 kayıt, 2 paralel görev).
+**Tamamlanan: olaylar* (412) + İran (107) + Rusya (173) + Habsburg (52)
+= 744/1488 — YARISI GEÇİLDİ.**
+Sırada: **Lehistan**. Kapsamını ölçüp devam ediyorum.
 `kronoloji_sirbistan.js` sorusu hâlâ cevapsız — dokunmuyorum.
