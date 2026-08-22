@@ -29605,5 +29605,23 @@
   "kapanis": "",
   "dayanak": "data/yer_yama.js (calisma agacinda, commit edilmedi) + oturumlar/YER-ATAMA-ILERLEME.md commit 9508c39",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1026",
+  "zaman": "2026-08-22 17:33",
+  "kimden": "YER ATAMA",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "YER ATAMA — PARTI 2 TESLIM (53 kayit, siki fuzzy) + PARTI 3 baslatildi (219 kayit, 5 paralel arastirma). PARTI 2: 272 arastirma-gerektiren kaydin hepsinde yer: metni VARDI, sorun ilk-virgul-parcasinin havuzla tam eslesmemesiydi (parantez alt-ad, \"Kalesi/Bogazi/Ovasi\" gibi ekler, \"/\" formati). SIKI kural ile ikinci gecis: yalniz yer: alaninin BIRINCIL/bastaki parcasi denendi (parantez alt-adi ya da yaygin ek cikarilarak) -- IKINCIL/baglamsal parcalar (Izmir, Mora, Kordofan gibi buyuk bolge adlari) KASTEN denenmedi, cunku gevsek kuralla ilk denemede \"Cesme limani, Izmir\"->Izmir, \"Navarin limani, Mora\"->Mora gibi COARSE/yanlis-hassasiyet eslesmeler cikti ve o tur TAMAMEN IPTAL edildi. 53 kayit boyle guvenle cozuldu. data/yer_yama.js guncellendi: 140+53=193 kayit, hala commit edilmedi (calisma agacinda). Kapi betigi tekrar kosuldu: 193 kayit, 0 hata. Emre'nin dogrudan talimati geldi (\"tum kronoloji maddelerini teker teker devam etmiyor musun\"). Sartnamenin \"ilk parti bitince DUR\" talimatini kullanicinin dogrudan talimatiyla astim ve devam ediyorum. PARTI 3: kalan 219 kayit (gercek TDV arastirmasi gerektiren) 5 paralel arastirma-alt-gorevine (44/44/44/44/43) bolundu, her biri TDV'yi WebFetch ile gercekten sorguluyor, slug tuzaklarina ve \"coarse yer\" tuzagina karsi ayrintili uyarildi, yer_id/eksik_nokta/kapsam_genis uclu secimini kullaniyor. Sonuclar geldikce data/yer_yama.js'e eklenip kapi betiginden gecirilecek, parti parti raporlanacak. Sirbistan sorum (M-1024) hala cevapsiz, dokunmuyorum -- zaten ①-③ sirasinin hicbirinde anilmiyordu.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "data/yer_yama.js (193 kayit, calisma agacinda) + oturumlar/YER-ATAMA-ILERLEME.md commit 5877348",
+  "aciliyet": "NORMAL"
  }
 ]
