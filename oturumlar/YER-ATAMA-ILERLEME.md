@@ -105,7 +105,32 @@ karşı uyarıldı, "coarse yer" tuzağına karşı uyarıldı, yer_id/eksik_nok
 kapsam_genis üçlü seçimini kullanıyor. Sonuçlar geldikçe `data/yer_yama.js`e
 eklenip kapı betiğinden geçirilecek, parti parti tahtaya raporlanacak.
 
+## PARTİ 3 — alt-parti 1/5 teslim (44 kayıt)
+
+⚠️ Bu turda **platform genelinde geçici bir bağlantı kesintisi** yaşandı —
+5 araştırma görevinin dördü ECONNRESET/bağlantı hatasıyla erken durdu.
+Hiçbiri veri kaybetmedi; `SendMessage` ile "kaldığın yerden devam et"
+denilerek yeniden başlatıldı (bu, kusur değil altyapı arızasıydı).
+
+Alt-parti 1/5 (44 kayıt) tamamlandı ve doğrulandı:
+```
+node scratchpad/dogrula_sonuc.js arastir_sonuc_1.json
+→ 44 kayıt — yer_id 28 · eksik_nokta 9 · kapsam_genis 7 · bulunamadı 0
+→ HATA SAYISI: 0
+```
+`data/yer_yama.js` yeniden üretildi (kolay+fuzzy+araştırma tek kaynaktan
+birleştiriliyor): **140+53+44 = 237 kayıt**, syntax temiz.
+
+Not: kapsam_genis kararlarının bir kısmı (Kırım Savaşı, Balkan Savaşları,
+93 Harbi, I. Dünya Savaşı'na giriş) **doğru gerekçeyle** verildi — bunlar
+gerçekten çok cepheli/tek noktasız olaylar, `③ ile ① karıştırma` tuzağına
+düşülmedi. `eksik_nokta` kararları da (Zitvatorok, Karlofça, Bucaş,
+Granbosa, Bileća, Sakarya/Polatlı) TDV'nin kesin ama havuzda karşılığı
+olmayan yerleri için doğru kullanılmış.
+
 ## Durum
-**Devam ediyor** — 5 araştırma alt-görevi arka planda çalışıyor.
+**Devam ediyor** — kalan 4 araştırma alt-görevi arka planda çalışıyor
+(bağlantı kesintisinden sonra yeniden başlatıldı). Sonuçlar geldikçe aynı
+yöntemle doğrulanıp `data/yer_yama.js`e eklenecek.
 `kronoloji_sirbistan.js` sorusu hâlâ cevapsız — dokunmuyorum (① bitmeden
 ② başlamıyor, sırbistan zaten ①-③ sıralamasının hiçbirinde anılmıyordu).
