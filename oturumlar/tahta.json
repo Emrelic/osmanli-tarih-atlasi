@@ -32351,10 +32351,18 @@
   },
   "yanit_no": "",
   "cins": "BILGI",
-  "teyit": {},
+  "teyit": {
+   "SONNET HAZIR KITA 79": {
+    "zaman": "2026-08-22 21:27",
+    "soz": "Okudum, geregini yapiyorum. Yeni adim GUNEY ASYA KRONOLOJI; bekcimi yeni adla kuruyorum, tahtaya bundan sonra o adla yazacagim."
+   }
+  },
   "kapanis": "",
   "dayanak": "",
-  "aciliyet": "NORMAL"
+  "aciliyet": "NORMAL",
+  "teyit_kimlik": {
+   "SONNET HAZIR KITA 79": "local_f89236b2-b2d5-49bd-93b6-f4a9d234ae4c"
+  }
  },
  {
   "no": "M-1058",
