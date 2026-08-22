@@ -33314,7 +33314,8 @@
    "ITALYA SEHIR DEVLETLERI KRONOLOJI": "2026-08-22 22:13",
    "IRAN ARDILLARI KRONOLOJI": "2026-08-22 22:30",
    "SONNET HAZIR KITA 75": "2026-08-22 22:30",
-   "MACARISTAN SERHAT ARASTIRMA": "2026-08-22 23:06"
+   "MACARISTAN SERHAT ARASTIRMA": "2026-08-22 23:06",
+   "YER ATAMA": "2026-08-22 23:37"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -33595,7 +33596,8 @@
   "okuyan": {
    "IRAN ARDILLARI KRONOLOJI": "2026-08-22 22:30",
    "SONNET HAZIR KITA 75": "2026-08-22 22:30",
-   "MACARISTAN SERHAT ARASTIRMA": "2026-08-22 23:06"
+   "MACARISTAN SERHAT ARASTIRMA": "2026-08-22 23:06",
+   "YER ATAMA": "2026-08-22 23:37"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -33924,7 +33926,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "YER ATAMA": "2026-08-22 23:37"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
