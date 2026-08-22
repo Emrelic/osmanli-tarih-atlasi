@@ -4845,9 +4845,20 @@ function haritayiOlayaGotur(o, zorla) {
   // 1500 km ayarı z~6,04 istiyor ve 0,53'lük fark 0,6'nın altında kaldığı
   // için kamera o ölçeğe HİÇ YAKINSAMIYORDU. Bedeli 1 fazladan uçuş,
   // kazancı ayarın gerçekten uygulanması.
+  // 🔴 22 Ağustos — VARIŞ ANI TEK KAPIDAN GEÇİYOR.
+  // Emre: *"olay mahaline gelince VE DURUNCA … öncesi sonrası göz kırpar
+  // gibi iki kez."* "Durunca" şartı üç ayrı dalda ayrı ayrı doğuyordu
+  // (ekrandaysa hemen · `ani` kipinde jumpTo'dan sonra · uçuşta `moveend`);
+  // üçünü ayrı ayrı çağırmak, birini unutmanın kesin yoluydu.
+  // 📌 `KAMERA` hakemi kamerayı tek kapıya toplamıştı; bu da VARIŞI topluyor.
+  function _varista() {
+    isaretYanipSon(hedef);              // NEREDE olduğunu söyler
+    oncesiSonrasiKirp(o.gi);            // NE OLDUĞUNU söyler
+  }
+
   if (_ekrandaMi(hedef, _kap) &&
       Math.abs(harita.getZoom() - yakinlik) < 0.25) {
-    isaretYanipSon(hedef);
+    _varista();                         // kamera oynamıyor ⇒ varış ZATEN oldu
     return;
   }
 
@@ -4863,6 +4874,7 @@ function haritayiOlayaGotur(o, zorla) {
     // 📌 `hizliGecis` ölü bir değişken değil — aşağıda SÜREYİ KISALTMAKTA
     //    kullanılıyor: hızlı ⏭'de uçuş kısalır ama YİNE DE UÇAR.
     harita.jumpTo({ center: [hedef.lon, hedef.lat], zoom: yakinlik, offset: ofset });
+    _varista();                         // ani kipte varış ANINDA
   } else {
     // KİP B — uçuş. ⚠️ `flyTo` kendi içinde ÖNCEKİ animasyonu KESER
     // (MapLibre/Mapbox GL'nin belgelenmiş davranışı: yeni bir kamera
@@ -4890,6 +4902,26 @@ function haritayiOlayaGotur(o, zorla) {
     var _sonSure = hizliGecis ? Math.max(220, _sureMs * 0.5) : _sureMs;
     var _ortak = { center: [hedef.lon, hedef.lat], zoom: yakinlik,
                    offset: ofset, duration: _sonSure };
+    // 🔴 VARIŞI BEKLE — `moveend`, süre tahmini DEĞİL.
+    // `flyTo`/`easeTo` kesilebilir (⏭ üst üste basılırsa MapLibre yeni
+    // çağrıyı DEVRALIR), o yüzden "duration kadar bekle" YANLIŞ olurdu:
+    // kesilen uçuşun kırpması, yeni uçuş sürerken ateşlerdi.
+    // ⚠️ Ama `once("moveend")` tek başına da yetmez — uçuş hiç başlamazsa
+    // (harita gizli sekmede, rAF donmuş) olay HİÇ gelmez ve kırpma sonsuza
+    // kadar beklerdi. O yüzden emniyet zamanlayıcısı var ve İKİSİNDEN
+    // hangisi önce gelirse ÖTEKİNİ İPTAL EDİYOR.
+    var _vardi = false;
+    var _varisTimer = null;
+    function _varisBirKez() {
+      if (_vardi) return;
+      _vardi = true;
+      if (_varisTimer) { clearTimeout(_varisTimer); _varisTimer = null; }
+      harita.off("moveend", _varisBirKez);
+      _varista();
+    }
+    harita.once("moveend", _varisBirKez);
+    _varisTimer = setTimeout(_varisBirKez, _sonSure + 400);
+
     if (_kip === "yatay" && _kmMesafe <= _esik) {
       harita.easeTo(_ortak);
     } else {
@@ -5080,6 +5112,91 @@ function isaretYanipSon(hedef) {
       _yanipSonZaman = null;
     }, 1250);
   } catch (e) { /* harita hazır değil — sessiz geç */ }
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// ÖNCESİ / SONRASI KIRPMASI — Emre, 22 Ağustos 2026, birebir:
+//   *"Olay mahaline gelince ve durunca BİR ÖNCESİ SONRASI GÖSTERİM göz
+//    kırpar gibi iki kez yanıp sönecek. Yani BİR ÖNCESİ HARİTANIN HÂLİ
+//    gösterilecek, sonra SON HÂLİ gösterilecek."*
+//
+// 🔴 BUGÜNE KADAR YAPILAN ŞEY BU DEĞİLDİ. `isaretYanipSon` bir İŞARET
+// (nokta) parlatıyordu — harita hiç değişmiyordu. Emre'nin istediği
+// HARİTANIN KENDİ HÂLİ: toprak el değiştirdiyse "işte önce, işte sonra".
+// Olayın ANLATAN kısmı bu; nokta parlaması yalnız YERİ gösteriyor.
+// 📌 İkisi birbirinin yerine geçmez, ikisi de KALIYOR: işaret NEREDE
+//    olduğunu, kırpma NE OLDUĞUNU söyler.
+//
+// ⚙️ NİÇİN `tarihAyarla` ÜZERİNDEN — ve niçin bu UCUZ:
+// `guncelle()` ağır çizimi `di !== aktifDonem` şartının ARKASINDA tutuyor
+// (app.js:3577). Yani gün geri alınınca dönem değişmiyorsa HİÇBİR ŞEY
+// çizilmiyor. Ayrı bir çizim yolu yazmadım — `CLAUDE.md §11`in
+// *"iki otorite doğar ve ayrışır"* dersi: tek kapı `tarihAyarla` kalıyor.
+//
+// ⚠️ VE HİÇBİR ŞEY DEĞİŞMEDİYSE KIRPMA YAPILMAZ. Boş bir kırpma,
+// kullanıcıya "bir şey oldu" der ve YALAN söyler. Değişimin olup olmadığı
+// İKİ eksende sınanıyor:
+//     Osmanlı gövdesi  → donemBul(t) indeksi
+//     yabancı gövdeler → aktif dönem imzası (devletGuncelle'nin ölçütü)
+// 🔴 Tek eksene bakmak yetmez: Venedik'ten Osmanlı'ya geçen bir yer
+//    ikisini de değiştirir, ama İKİ YABANCI arasında el değiştiren bir yer
+//    (Venedik → Napoli) Osmanlı indeksini HİÇ oynatmaz.
+var _kirpmaZaman = [], _kirpmaGun = null;
+
+function _yabanciImza(t) {
+  // `devletGuncelle`nin (app.js:301) imza ölçütünün AYNISI — yalnız çizim
+  // yapmadan. Ölçüt orada değişirse burası da değişmeli; iki yerde duran
+  // bir ölçüt bayatlar (bugün tahtada aynı sınıftan bir kusur ölçüldü).
+  var im = "";
+  try {
+    devletler2.forEach(function (s) {
+      for (var i = 0; i < s.dnm.length; i++) {
+        var p = s.dnm[i];
+        if (p.fi <= t && t < p.ti) { im += s.id + ":" + i + ";"; break; }
+      }
+    });
+  } catch (e) { return null; }
+  return im;
+}
+
+function kirpmayiDurdur() {
+  for (var i = 0; i < _kirpmaZaman.length; i++) clearTimeout(_kirpmaZaman[i]);
+  _kirpmaZaman = [];
+  if (_kirpmaGun !== null) { var g = _kirpmaGun; _kirpmaGun = null; tarihAyarla(g); }
+}
+
+// `gun` — olayın günü (gün numarası). `once` onun bir GÜN öncesidir:
+// atlas gün hassasiyetinde olduğu için "olaydan hemen önceki hâl" budur.
+function oncesiSonrasiKirp(gun) {
+  kirpmayiDurdur();
+  if (!haritaHazir) return;
+  if (!_kirpmaAcik()) return;
+  var once = gun - 1;
+  if (once < BASLANGIC) return;
+
+  // DEĞİŞİM VAR MI — yoksa hiç başlama
+  var oIdx = donemBul(once), gIdx = donemBul(gun);
+  var oIm = _yabanciImza(once), gIm = _yabanciImza(gun);
+  if (oIdx === gIdx && oIm === gIm) return;      // sessiz gün — kırpma YOK
+
+  var ms = +_ayar("ayar-kirpma-ms", 420);
+  var adet = +_ayar("ayar-kirpma-adet", 2);
+  _kirpmaGun = gun;                              // kesilirse buraya dönülür
+
+  // Dizilim: (önce → sonra) × adet, ve HER ZAMAN `sonra`da biter.
+  var sira = [];
+  for (var c = 0; c < adet; c++) { sira.push(once); sira.push(gun); }
+  sira.forEach(function (g, i) {
+    _kirpmaZaman.push(setTimeout(function () {
+      tarihAyarla(g);
+      if (i === sira.length - 1) { _kirpmaGun = null; _kirpmaZaman = []; }
+    }, i * ms));
+  });
+}
+
+function _kirpmaAcik() {
+  var el = document.getElementById("ayar-kirpma-ac");
+  return !el || el.checked;
 }
 
 // ② YERLEŞİM — orta | kenar.  Emre: *"Kırım'da bir olay mı oldu yukarıdan
