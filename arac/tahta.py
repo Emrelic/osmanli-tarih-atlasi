@@ -515,8 +515,27 @@ def kimler(a):
     return 0
 
 
+def _duzle(s):
+    """Türkçe harfleri ve büyük/küçük farkını DÜZLER — yalnız EŞLEŞTİRME için.
+
+    ⚠️ Python'un `.upper()`i Türkçe'de yanıltıcıdır: `"i".upper()` → `"I"`
+    ama Türkçe'de `"i"`nin büyüğü `"İ"`dir. Bu yüzden `OSMANGAZI` ile
+    `OSMANGAZİ` iki AYRI ad gibi görünüyordu. Burada iki yönü de aynı
+    havuza indiriyoruz; YAZILAN ad hep kanonik hâlidir, bu düzleme
+    yalnız karşılaştırmada kullanılır.
+    """
+    t = (s or "")
+    for a, b in (("İ", "I"), ("ı", "i"), ("Ş", "S"), ("ş", "s"),
+                 ("Ğ", "G"), ("ğ", "g"), ("Ü", "U"), ("ü", "u"),
+                 ("Ö", "O"), ("ö", "o"), ("Ç", "C"), ("ç", "c")):
+        t = t.replace(a, b)
+    return " ".join(t.upper().split())
+
+
 def _adres_denetle(kayit, kime):
     """🔴 ADRES DENETİMİ — `--sadece-bana` bekçisinin ÖN ŞARTI.
+
+    Dönüş: kanonik ad (düzeltildiyse) ya da None (dokunma).
 
     Emre'nin emri (16 Ağustos gece): bekçi yalnız *"sana atılmış mesaj
     varsa"* uyandıracak. O kural ancak `kime` alanı GERÇEK BİR ADA tam
@@ -532,11 +551,39 @@ def _adres_denetle(kayit, kime):
     yazdıysa adı bilinir. Elle liste tutmak, bu projede üç kez bayatladı.
     """
     if not kime or kime == "HERKES":
-        return
+        return None
     bilinen = {(m.get("kimden") or "").strip() for m in kayit}
     bilinen.discard("")
     if kime in {b.upper() for b in bilinen}:
-        return
+        return None
+
+    # 🔴 KANONİKLEŞTİRME — 22 Ağustos 2026, ÖLÇÜLMÜŞ bir düzensizlik.
+    # Emre: *"nehir geçit oturumu isim düzensizliğini düzeltelim."*
+    # Ölçüm (999 mesaj): AYNI oturum birden çok yazımla görünüyordu —
+    #     'Opus hazır kıta 23'  41 mesaj  ↔  'OPUS HAZIR KITA 23'
+    #     'OSMANGAZI'            5 mesaj  ↔  'OSMANGAZİ'
+    #     'YAPI DENETIM 3'                ↔  'YAPI DENETİM 3'
+    # Sebep: Türkçe `İ/I` · `Ş/S` · `Ğ/G` çifti ve büyük/küçük harf. Bir
+    # bekçi `--sadece-bana` koşuyorsa öteki yazımı KAÇIRIR.
+    #
+    # ⇒ Düzlenmiş biçim TEK bir bilinen ada eşleşiyorsa, mesaj o adın
+    #   KANONİK hâliyle yazılır. Uyarı basmak yetmiyordu: uyarı bir
+    #   DENETİM DEĞİL (`CLAUDE.md §11` — "uyarının basılması okunduğu
+    #   anlamına gelmez"); bugün 25+ mesaj o uyarıya rağmen yanlış adrese
+    #   gitti.
+    aday = {b for b in bilinen if _duzle(b) == _duzle(kime)}
+    if len(aday) == 1:
+        dogru = aday.pop()
+        print("ℹ️ ADRES DÜZELTİLDİ — aynı oturumun başka yazımı:")
+        print("   verilen : %s" % kime)
+        print("   yazılan : %s   (tahtadaki kanonik ad)" % dogru)
+        return dogru
+    if len(aday) > 1:
+        print("⚠️ ADRES BELİRSİZ — düzlenince %d ada birden uyuyor: %s"
+              % (len(aday), " · ".join(sorted(aday))))
+        print("   ⇒ TAM ADI yaz; kanonikleştirme YAPILMADI.")
+        return None
+
     print("⚠️ ADRES UYARISI — `kime` bilinen bir oturum adına TAM EŞİT değil:")
     print("   verilen : %s" % kime)
     # en yakın adları öner (kaba: ortak kelime sayısı)
@@ -554,10 +601,29 @@ def _adres_denetle(kayit, kime):
 def yaz(a):
     kayit = _yukle()
     no = "M-%04d" % (len(kayit) + 1)
-    _adres_denetle(kayit, _t(a["kime"]).upper())
+    # 🔴 Kanonik ad dönerse ONU yaz — düzensiz yazımlar tahtaya GİRMESİN.
+    # (Denetim artık yalnız uyarmıyor, DÜZELTİYOR; gerekçe `_adres_denetle`de.)
+    _kanon = _adres_denetle(kayit, _t(a["kime"]).upper())
+    _kime = _kanon if _kanon else _t(a["kime"]).upper()
+    # 🔴 GÖNDEREN TARAFI — aynı oturum kendini İKİ YAZIMLA imzalarsa tahtada
+    # İKİ OTURUM gibi görünür ve `--sadece-bana` bekçisi birini kaçırır.
+    # Ölçüldü (999 mesaj): `OPUS HAZIR KITA 6` (3 mesaj) ↔ `Opus hazır kıta 6`
+    # (43) · `YAPI DENETIM 3` (3) ↔ `YAPI DENETİM 3` (1).
+    # ⚠️ BURADA DÜZELTMİYORUZ, yalnız UYARIYORUZ: `kimden` bir KİMLİKTİR,
+    # onu sessizce değiştirmek oturumun kendi beyanını ezmek olur. Alıcı
+    # adresi düzeltilebilir (mesaj yerine ulaşsın diye), kimlik EDİLEMEZ.
+    _ben = _t(a["kim"])
+    _oteki = {b for b in {(m.get("kimden") or "").strip() for m in kayit}
+              if b and b != _ben and _duzle(b) == _duzle(_ben)}
+    if _oteki:
+        print("⚠️ İMZA DÜZENSİZLİĞİ — bu tahtada kendini BAŞKA yazımla da imzalamışsın:")
+        print("   şimdi   : %s" % _ben)
+        print("   önceden : %s" % " · ".join(sorted(_oteki)))
+        print("   🔴 `--sadece-bana` bekçisi iki adı AYRI sayabilir ⇒ mesaj kaçar.")
+        print("   ⇒ TEK bir yazımda karar kıl ve hep onu kullan.")
     m = {
         "no": no, "zaman": _simdi(),
-        "kimden": _t(a["kim"]), "kime": _t(a["kime"]).upper(),
+        "kimden": _t(a["kim"]), "kime": _kime,
         # 🔴 KİMLİK — Emre'nin eklettiği alan (13 Ağustos 2026):
         #   "oturumun adı, adresi, id'si nesi var ise bu verileri de ilgili
         #    yerlere doldurmak gerekebilir."

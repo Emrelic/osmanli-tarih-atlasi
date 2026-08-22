@@ -334,6 +334,18 @@ def iz_kapsami():
 # aksi hâlde denetim doğru veriye ihlal der (bugün `k:`↔`etiket:`de aynı
 # tuzaktan eşiği 0 yerine ölçülen 5'e çekmiştik).
 CIZILMEYEN_MUAF = {
+    # 🟡 GEÇİCİ MUAFİYET — 22 Ağustos 2026, ve SÜRESİ BELLİ.
+    # NEHİR GEÇİT oturumu 63 geçit noktası teslim etti (köprü · feribot ·
+    # sığ-geçit · kale-çifti; 62'si TDV atıflı, 0 Vikipedi). Veri HAZIR ama
+    # onu okuyacak MOTOR TARAFI HENÜZ YAZILMADI: `uret_petek.py`de nehir
+    # sürtünmesi diye bir şey yok (tek sürtünme EĞİM, satır 1710).
+    # ⇒ Bugün bağlansaydı kapı HAKLI olarak "üretiliyor ama çizilmiyor"
+    #   diye öterdi. Muafiyet, o günü BEKLEDİĞİMİZİ kaydediyor.
+    # 🔴 KALDIRILACAK: nehir bedeli motora girdiği gün bu satır SİLİNİR ve
+    #   `data/gecitler.js` hem `girdi.py`ye hem `index.html`e bağlanır.
+    #   (`§11`: kabul edilmiş bir borç KAYITSIZ kalırsa yarın kusur diye
+    #   yeniden bulunur — bu satır o kaydın kendisidir.)
+    "GECITLER": "63 geçit noktası — motor tarafı yazılmadı, BEKLİYOR (22 Ağu 2026)",
     "PETEK_GOVDE": "motor ara çıktısı — index.html'e BİLEREK yüklenmiyor",
     "PETEK_GOVDE_PARCA": "aynı, PETEK_GOVDE'nin parça havuzu",
     "PARCALAR": "DONEMLER'in parça havuzu — app.js DONEMLER üzerinden çözer",
