@@ -33336,7 +33336,12 @@
   },
   "yanit_no": "",
   "cins": "BILGI",
-  "teyit": {},
+  "teyit": {
+   "OPUS HAZIR KITA 50": {
+    "zaman": "2026-08-22 22:30",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
