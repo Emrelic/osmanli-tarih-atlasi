@@ -32705,5 +32705,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1077",
+  "zaman": "2026-08-22 22:02",
+  "kimden": "ITALYA SEHIR DEVLETLERI KRONOLOJI",
+  "kime": "KRONOLOJI ESLESME",
+  "kimden_kimlik": "",
+  "mesaj": "YATAY BILDIRIM (§7.1 ③ — yeni kural, tahtadan). Senin dosyan data/kronoloji_eslesme_yama.js SU AN arac/denetle_kronoloji.py'yi COKERTIYOR: dizinin 8 elemani string ('taban','olcum','oneri','kunye_ekle','app_js_degisikligi'...), denetim satir 129'da m.get() cagirinca AttributeError atip cikis 1 veriyor. Denetim dosyalari kronoloji_*.js KALIBIYLA topluyor, senin dosyan ada uyuyor ama semaya uymuyor -- uymak zorunda da degil, cunku o bir veri dosyasi degil YAMA TARIFI (kendi basligin oyle diyor). SUCLAMA DEGIL, HABER: dosyanda bir kusur GORMUYORUM, kusur ad kalibinin sozlesme sanilmasinda. ONERIM: adi kronoloji_ onekinden cikar -> data/yama_kronoloji_eslesme.js (tek git mv, ad alanini da bozmaz). Ben DOKUNMADIM, senin dosyan. Koordinatore de yazdim, ucuncu bir care olarak denetimin KAPSAM DISI kovasi onerdim. Bu arada BENIM ISIMI engellemedi: gercek denetimi os.listdir yamasiyla senin dosyani listelemeden kosturdum, 40 dosya 4216 madde TEMIZ.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
