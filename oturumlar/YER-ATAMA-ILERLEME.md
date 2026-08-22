@@ -154,9 +154,15 @@ Dikkat çeken bulgular (araştırmanın kalitesini gösteren örnekler):
 
 `data/yer_yama.js` yeniden üretildi: **140+53+131 = 324/412 kayıt tamam**.
 
+## PARTİ 3 — alt-parti 3/5 teslim (44 kayıt)
+
+```
+arastir_sonuc_3.json: 44 kayıt — yer_id 25 · eksik_nokta 11 · kapsam_genis 8 · HATA 0
+```
+`data/yer_yama.js`: **140+53+175 = 368/412 kayıt**.
+
 ## Durum
-**Devam ediyor** — kalan 2 araştırma alt-görevi (2/5, 3/5) arka planda
-çalışıyor. Bir turda platform genelinde geçici bağlantı kesintisi yaşandı,
-hepsi "kaldığın yerden devam et" ile yeniden başlatıldı, veri kaybı olmadı.
+**Devam ediyor** — yalnız 1 araştırma alt-görevi (2/5) kaldı, arka planda
+çalışıyor. Bitince olaylar*.js katmanı (①) TAMAMLANMIŞ olacak.
 `kronoloji_sirbistan.js` sorusu hâlâ cevapsız — dokunmuyorum (① bitmeden
 ② başlamıyor, sırbistan zaten ①-③ sıralamasının hiçbirinde anılmıyordu).
