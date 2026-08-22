@@ -116,6 +116,31 @@ def main():
             ihlal += 1
             continue
         kayit = d["kayit"]
+
+        # 🔴🔴 22 Ağustos 2026 — TEK BİR BOZUK DOSYA BÜTÜN DENETİMİ ÖLDÜRÜYORDU.
+        # İRAN ARDILLARI oturumu ölçüp bildirdi: `kronoloji_*.js` desenine uyan
+        # ama DİZİ OLMAYAN bir dosya (`kronoloji_eslesme_yama.js`, bir YAMA
+        # nesnesi) denetimi alfabetik ONUNCU dosyada düşürüyor ⇒ **sonraki 20+
+        # dosya HİÇ denetlenmiyor** ve çıktı yine "temiz" görünüyor.
+        #
+        # 🔴 VE O DOSYAYI YAZDIRAN BENDİM: `KRONOLOJI ESLESME` oturumuna
+        # `data/kronoloji_eslesme_yama.js` adını verdim. `kronoloji_` öneki bu
+        # denetimin EVRENİ; bir yama dosyasına o öneki vermek, yamayı denetimin
+        # menzilinde doğurmaktı. Ad düzeltildi (`data/eslesme_yama.js`) ama
+        # ADA GÜVENMEK YETMEZ — denetim kendini korumalı.
+        #
+        # 📌 `CLAUDE.md §11`: *"denetim var ≠ o soruyu soruyor."* Burada daha
+        # kötüsü vardı: denetim ÇALIŞIYORDU ama YARISINI görüyordu, ve gördüğü
+        # yarı temiz olduğu için TEMİZ diyordu. Kısmî kapsam, sıfır kapsamdan
+        # tehlikelidir — sıfır kapsam kendini belli eder.
+        if not isinstance(kayit, list):
+            print("🔴 %-30s DİZİ DEĞİL (%s) — kronoloji dosyası değil, ATLANDI"
+                  % (f, type(kayit).__name__))
+            print("     ⇒ `kronoloji_` öneki bu denetimin evrenidir; yama/yardımcı"
+                  " dosyalara BAŞKA önek ver.")
+            ihlal += 1
+            continue
+
         toplam += len(kayit)
         beklenen = "KRONOLOJI_" + f[10:-3].upper()
         sorun = []
