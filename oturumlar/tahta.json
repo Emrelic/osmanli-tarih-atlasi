@@ -33015,5 +33015,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1083",
+  "zaman": "2026-08-22 22:15",
+  "kimden": "ANADOLU BEYLİKLERİ KRONOLOJİ",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM - ANADOLU BEYLIKLERI KRONOLOJI. data/kronoloji_anadolu.js -> window.KRONOLOJI_ANADOLU, commit 9d73a8c (origin/main'de). ① 0 -> 281 madde (karaman 51, selcuklu 87, artuklu 45, dulkadir 36, aydin 30, kilikya-ermeni 32). ② konu dagilimi hedefi asti: askeri-siyasi %73 (hedef ~40), kultur %12.5, idari %5, sosyal %3.6, ekonomi %3.2, bilim %2.8 - kaynak boyle agirlikli, kota icin UYDURMA yapilmadi. ③ onem/dunya dagilimlari dengeli. ④ kapsam ic:162 dis:119. ⑤ yer_id: dolu 182, kapsam_genis 36, BOS 99 (cogu bolgesel/muglak; 12 yer icin NOKTA YOK: Hasankeyf, Sis, Ayas, Mut, Silvan, Kiziltepe, Sugdak, Kefersud, Malazgirt, Myriokephalon, Kosedag, Turnadag - Hasankeyf ve Sis en agir, ikisi de kurulus/baskent merkezi). ⑥ kaynak: dolu 281/281, bulunamadi 4 (acikca isaretli). Kilikya-Ermeni'nin 32 maddesinin TAMAMI akademik kaynaga dayaniyor (TDV'de mustakil maddesi yok, dogrulandi). ⑦ bulamadiklarim ve 7 ek beylik + 15 kucuk beylik tarama sonucu detay dosyada: oturumlar/ANADOLU-KRONOLOJI-ILERLEME.md. index.html script satiri SENIN isin. AKSAKLIK hala acik: Ankara Savasi dunya celiskisi (timurlu=5 akkoyunlu=4) - cevap bekliyorum, ama BU dosyada savasi tekrarlamadigim icin yeni celiski dogurmadi. denetle_kronoloji.py: dosyam TEMIZ (0 sema ihlali, 0 dunya celiskisi), ayrica dogruladim - baska bir oturumun eszamanli yazdigi kronoloji_eslesme_yama.js gecici olarak ayristirma hatasi veriyordu, benim dosyamla ilgisi yok, kendi izole betigimle capraz kontrol ettim.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1084",
+  "zaman": "2026-08-22 22:15",
+  "kimden": "BALKAN DEVLETLERİ KRONOLOJİ",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — BALKAN DEVLETLERİ KRONOLOJİ data/kronoloji_balkan.js hazır: 177 madde, window.KRONOLOJI_BALKAN. Kabul kapısı: node --check → 0, py arac/denetle_kronoloji.py → dosyam \"✓ temiz\" (41 dosya · 4482 madde toplamda tek İHLAL benim dosyamda DEĞİL, bkz. aşağı). Beş süreklilik: zeta(15)+karadag(37)=52 · bulgar-carligi(13)+boşluk dönemi(13)+bulgaristan-prensligi(9)+bulgaristan-kralligi(16)=51 · bosna-kralligi=21 · yunanistan=54. Tam sekiz kalemlik rapor: oturumlar/BALKAN-KRONOLOJI-ILERLEME.md (commit a8d064f, push edildi). 🔴 ÜÇ MADDE BEKLETMEDEN BİLDİRİLİYOR (ilerleme dosyasında ⑧'de ayrıntılı): 1) devletler.js `karadag` künyesinin f:1516 tarihi araştırmayla DOĞRULANAMADI — gerçek dönüm noktası 1514 (Zeta'nın sonu, kesintisiz devam) ya da 1528 (İskender Bey'in ölümü). Kronolojim 1528'den başlıyor, devletler.js'e dokunmadım — Oturum 0'ın kararına bırakıyorum. 2) denetle_kronoloji.py \"1 İHLAL\" veriyor: Navarin (1827-10-20) dunya değeri kronoloji_fransa.js'te 3, benimki+ingiltere.js+misir.js'te 4. Benim eklediğim çelişki değil, kronoloji_fransa.js'in tek başına düşük kaldığı bir vaka — düzeltme o dosyanın sahibine ait. 3) 1897 Osmanlı-Yunan Savaşı başlangıcı: devletler.js embedded 1897-04-18 diyor, olaylar_ek5.js 1897-04-17 diyor. Ben olaylar_ek5.js'i kullandım (TDV ile uyumlu). data/kronoloji_balkan.js HENÜZ COMMIT EDİLMEDİ — dosya sende (Oturum 0), commit/push ve index.html bağlantısını sen yapacaksın. Nöbetteyim, görev bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "data/kronoloji_balkan.js (177 madde) + oturumlar/BALKAN-KRONOLOJI-ILERLEME.md commit a8d064f, denetle_kronoloji.py cikti",
+  "aciliyet": "NORMAL"
  }
 ]
