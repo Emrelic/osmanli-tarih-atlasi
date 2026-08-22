@@ -1335,4 +1335,54 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"Göktepe'deki başarı uzun sürmedi: Ruslar 1881'de Türkmen elini imparatorluklarına kattılar. Beş asırlık boy konfederasyonlarının bağımsız hareket devri böylece kapandı; Merv 1884'te teslim olunca Rus Türkistanı'nın güney sınırı Afganistan'a dayanacaktı.",
   kaynak:"turkmenler (TDV)" }
 
+,
+
+// === J) KÜLTÜR · BİLİM · EDEBİYAT — ayrı bölüm, ve NİÇİN AYRI ==============
+// 🔴 ÖLÇÜM: ilk yazımdan sonra konu dağılımı ölçüldü ve askerî/siyasî kova
+// %87 çıktı; şartname §2 kabaca %40 hedefliyor. Sebebi ölçüldü: bu dokuz
+// kimliğin kaynakları (TDV kazan-hanligi · nogaylar · sibir-hanligi ·
+// kazaklar · kalmuklar · turkmenler) ezici çoğunlukla SİYASÎ-ASKERÎ anlatı
+// veriyor; göçebe hanlıklardan geriye yazılı kültür mirası az kalmıştır ve
+// kaynak susuyorsa madde UYDURULMAZ (§1). Aşağıdaki altı kalem, kaynağın
+// GERÇEKTEN tarih verdiği kültür/bilim olaylarıdır — sayıyı yükseltmek için
+// değil, kaynak konuştuğu için yazılmıştır.
+// ⚠️ Yine de dağılım hedefin çok altında kalıyor; bu bir EKSİKLİK olarak
+// raporlanmıştır, kapatılmış gibi gösterilmemiştir.
+
+{ t:"1250-01-01", b:"Kâşgar'da Mesûdiye Medresesi yaptırıldı", tur:"bilim", onem:3, dunya:1, kapsam:"ic",
+  etiket:["bilim","kultur","mimari"],
+  yer_id:"Kaşgar",
+  d:"Cengiz Han ülkesini oğulları arasında taksim edince Kâşgar Çağatay Han'ın payına düşmüş, ancak idaresi Buhara Emîri Mahmud Yalavaç'a ve ardından oğlu Mesud Yalavaç'a bırakılmıştı. Şehirdeki Mesûdiye Medresesi Mesud Yalavaç tarafından yaptırılmıştır. Moğol idaresi altında Tarım havzasında kurulan bu medrese, bölgenin İslâmî ilim geleneğinin sürdüğünün delilidir. ⚠️ Tarih YAKLAŞIKTIR: kaynak yıl vermiyor, Mesud Yalavaç'ın valilik dönemine tarihlenmiştir.",
+  kaynak:"kasgar (TDV, madde: kasgar — içerik okundu, 2026-08-22); YIL YAKLAŞIK, kaynak gün/yıl vermiyor" },
+
+{ t:"1733-01-01", b:"MAHTUMKULU doğdu — Türkmen edebî dilinin kurucusu", tur:"kultur", onem:5, dunya:2, kapsam:"ic",
+  etiket:["kultur","edebiyat","din"],
+  yer_id:"Esterâbâd (Gürgân)",
+  d:"Göklen uruğunun Gerkez kabilesinden Mahtumkulu, genellikle kabul edildiğine göre 1146'da (1733) Etrek ile Gürgen nehirleri arasındaki Hacıgovşan'da doğdu. Babası Dövletmemet Azadi de şairdi. Buhara'daki Kükeltaş ve Hîve'deki Şirgazi medreselerinde okudu, Şirgazi'de talebe halifesi oldu ve orada Türkmenler için bir bölüm açıldı. Kendisinden öncekiler gibi klasik Türk edebiyat diliyle değil canlı Türkmen şivesiyle yazarak Türkmen edebî dilinin doğuşunu sağladı.",
+  kaynak:"mahtumkulu (TDV, madde: mahtumkulu — içerik okundu, 2026-08-22); doğum yılı kaynağın kendi ifadesiyle 'genellikle kabul edildiğine göre'" },
+
+{ t:"1783-01-02", b:"Mahtumkulu'nun ölümü — beş yüz şiir, tek bir halkın sesi", tur:"olum", onem:4, dunya:1, kapsam:"ic",
+  etiket:["kultur","edebiyat","olum"],
+  yer_id:"Esterâbâd (Gürgân)",
+  d:"Şairin 1197'den (1783) sonraki bir tarihte öldüğü sanılmaktadır; tesbit edilen şiirlerinin sayısı 500'ü bulur. Türkmen kabileleri arasında kanlı çarpışmaların yaşandığı, İran Şahlığı ve Hîve Hanlığı'nın Türkmenlerle mücadeleye giriştiği bir dönemde yerinden edilen, esir pazarlarında satılan halkına yanmış ve Türkmen birliğini sağlamayı en büyük ideal saymıştır. XVIII. yüzyıl Türkmen sosyal hayatının analizi onun şiirlerinden yapılabilmektedir. ⚠️ Ölüm tarihi kesin değildir, kaynak '1783'ten sonra' diyor.",
+  kaynak:"mahtumkulu (TDV) — TARİH YAKLAŞIK, kaynak kesin yıl vermiyor" },
+
+{ t:"1842-01-01", b:"Mahtumkulu'nun şiirlerinin yayımlanması başladı", tur:"kultur", onem:3, dunya:1, kapsam:"ic",
+  etiket:["kultur","edebiyat","bilim"],
+  yer_id:"Aşkabad",
+  d:"Mahtumkulu'nun şiirlerinin yayımlanması işi 1842'de başladı ve XX. yüzyılın başlarından itibaren hakkındaki araştırmalarla birlikte sürdü; Taşkent (1907), Astırhan (1911), Bakü ve Aşkābâd baskıları bunu izledi. Divanının 100'den fazla nüshası bulunmaktadır. Sözlü bir boy edebiyatının matbu bir millî edebiyata dönüşmesi bu yayınlarla başlar.",
+  kaynak:"mahtumkulu (TDV)" },
+
+{ t:"1856-01-01", b:"Çokan Velihanoğlu MANAS DESTANI'nın bir varyantını derledi", tur:"kultur", onem:4, dunya:2, kapsam:"ic",
+  etiket:["kultur","edebiyat","bilim"],
+  yer_id:"",
+  d:"Dünyanın en hacimli destanı olan Manas'ı bilim dünyasına ilk duyuran, Cengiz Han soyundan gelen Kazak bilgini Çokan Velihanoğlu'dur; 1856'da Kırgızistan'da yaptığı gezi sırasında destanın bir varyantını derledi. Destanın 840 civarında Yenisey Kırgızlarının Uygur ve Çinlilerle savaşları sırasında oluşmaya başladığı, XVI-XVII. yüzyıllarda Kırgız-Kalmuk savaşlarıyla zenginleştiği kabul edilir. ⚠️ Derlemenin yapıldığı yer için birebir yerleşim kaydı yok.",
+  kaynak:"manas-destani (TDV, madde: manas-destani — içerik okundu, 2026-08-22)" },
+
+{ t:"1885-01-01", b:"Radloff Manas derlemelerini Petersburg'da yayımladı", tur:"bilim", onem:3, dunya:1, kapsam:"dis",
+  etiket:["bilim","kultur","edebiyat"],
+  yer_id:"",
+  d:"W. Radloff, 1862, 1864 ve 1869 yıllarındaki Kırgızistan gezilerinde Manas'tan parçalar derleyip yazıya geçirdi ve bunları Proben der Volkslitteratur der türkischen Stämme adlı eserinin V. cildinde (St. Petersburg 1885) Kırgızca, Rusça ve Almanca olarak yayımladı. Velihanoğlu'nun 1861'de Rus Coğrafya Derneği dergisinde çıkardığı Kökütey Han'ın Aşı bölümüyle birlikte bu yayın, Kırgız sözlü geleneğinin dünya bilimine girişidir.",
+  kaynak:"manas-destani (TDV)" }
+
 ];
