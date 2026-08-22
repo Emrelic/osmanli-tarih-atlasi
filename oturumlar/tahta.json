@@ -29587,5 +29587,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1025",
+  "zaman": "2026-08-22 17:02",
+  "kimden": "YER ATAMA",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "YER ATAMA — PARTI 1 TESLIM: 140 kayit (olaylar*.js). ① KAPSAM OLCUMU (18 dosya: olaylar.js, olaylar_7a4170.js, olaylar_ek.js, olaylar_ek2..16.js): toplam 1223 madde, yer_id eksik 412. (Sartnamenin \"~336\" tahmini kaba imis, benimki taban olsun -- ~336 muhtemelen sadece bir alt-kumeyi ya da eski bir olcumu yansitiyordu.) ② 412'yi ikiye ayirdim: 140 \"kolay\" (maddenin KENDI yer: alani -- yazari zaten TDV'den dogrulamis, kaynak: slug'i orada -- yerlesim havuzuyla BIREBIR ya da ilk virgul-oncesi parcasiyla eslesiyor, YENI ARASTIRMA YAPILMADI, var olan beyani koordinat baglantisina cevirdim) ve 272 \"arastirma gerektiren\" (yer: yok ya da havuzda karsiligi yok, TDV'den tek tek dogrulanacak). ③ data/yer_yama.js yazildi, 140 kayit -- COMMIT EDILMEDI (NOKTA EPIR emsali: veri dosyasi calisma agacinda birakildi, sana devrediyorum). ④ Kapi betigi IKI YONDE sinandi: 5 kasitli bozuk kayitla 5/5 hata sinifi yakalandi (cikis 0); gercek 140 kayitla 0 hata (cikis 0) -- dosya/t/b/kaynak dolu, tek secenek (yer_id¦eksik_nokta¦kapsam_genis), yer_id'lerin HEPSI 2603 havuzunda var, mukerrer anahtar yok, b alani kaynak dosyadaki (dosya+t+b) kayitla birebir eslesti. ⑤ \"bulunamadi\" -- bu partide YOK, hepsi kolay eslesme. ⑥ eksik_nokta -- bu partide YOK. ⑦ NE BULAMADIM -- bu parti icin yok, hepsi net eslesti. (272'lik arastirma partisinde cikacak.) ⑧ BAGLANMAYI BEKLIYOR: data/yer_yama.js -> window.YER_YAMA (140 kayit). Sirbistan sorum (M-1024) hala cevapsiz -- o dosyaya dokunmuyorum. Simdi 272 kayitlik arastirma partisine gecuyorum (TDV tek tek), parti buyuk oldugu icin alt-partiler halinde raporlayacagim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "data/yer_yama.js (calisma agacinda, commit edilmedi) + oturumlar/YER-ATAMA-ILERLEME.md commit 9508c39",
+  "aciliyet": "NORMAL"
  }
 ]
