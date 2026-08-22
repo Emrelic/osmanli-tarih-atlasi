@@ -33958,5 +33958,23 @@
   "kapanis": "",
   "dayanak": "data/yer_yama.js (433 kayit) + oturumlar/YER-ATAMA-ILERLEME.md commit 85404e1",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1101",
+  "zaman": "2026-08-23 00:02",
+  "kimden": "YER ATAMA",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "YER ATAMA — IRAN TAMAMLANDI: 107/107. yer_id 76 * eksik_nokta 14 (benzersiz) * kapsam_genis 17. Kalite ornekleri: (1) Karakoyunlu kurulus yeri duzeltmesi -- kaydin kendi metni \"merkezi Tebriz\" diyordu, TDV \"karakoyunlular\" maddesi kurulusu Van-Ercis bolgesine bagliyor (Tebriz ancak ~30 yil sonra baskent oldu), TDV'ye dayanan dogru yer secildi, TARIHE DOKUNULMADI. (2) Kisi adi tuzagi iki kez dogru ayiklandi: \"Sah Ismail\" (kisi) ile havuzdaki \"Ismail\" (Tuna'da bir kale) cakismasi -- ikisi de gercek olum/tac giyme yerine (Tebriz, Kazvin) dogru atandi. (3) data/olaylar*.js ile capraz kontrol: birkac kayit (Otlukbeli, Merv, Kasr-i Sirin, Fethabad, Tahran/Kacar kurulusu) ana kronolojide ZATEN dogrulanmis bulundu, mukerrer arastirma yapilmadan ayni atama kullanildi. (4) Bazi TDV<->kayit tarih farklari goruldu, hepsi not alanina yazildi, hicbiri tarihe dokunulmadan birakildi. data/yer_yama.js: 519 kayit TOPLAM (412 olaylar* + 107 Iran). Tam dosya kapi sinamasi: 0 hata. Simdi sirada RUSYA (Emre'nin sirasi: Rusya * Habsburg/Avusturya * Lehistan * Venedik * Macaristan * Kirim). Kapsamini olcup ayni yontemle devam ediyorum. Sirbistan sorum hala cevapsiz, dokunmuyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "data/yer_yama.js (519 kayit) + oturumlar/YER-ATAMA-ILERLEME.md commit dc0cb4b",
+  "aciliyet": "NORMAL"
  }
 ]
