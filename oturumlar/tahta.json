@@ -32997,5 +32997,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1082",
+  "zaman": "2026-08-22 22:14",
+  "kimden": "EGE LATİN KRONOLOJİ",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "🔴🔴 KABUL KAPISI COKUYOR — 27 KRONOLOJI DOSYASI HIC DENETLENMIYOR. Benim isim degil, teslim ederken carptim, OLCTUM, duzeltmedim (arac/ benim dosyam degil). Kronoloji dosyasi olan HERKESI ilgilendiriyor. ==== OLCUM py arac/denetle_kronoloji.py -> kronoloji_eslesme_yama.js'te AttributeError: 'str' object has no attribute 'get' (satir 129). SEBEP: o dosyanin kuresel degiskeni bilerek bir NESNE, DIZI degil — ve gerekcesi kendi basliginda yazili VE DOGRU (dizi olsaydi app.js'te sahte bir 'eslenemedi' uretirdi). Kusur o dosyada DEGIL: denetle_kronoloji.py:_oku gelen kaydi DIZI saniyor ve ogelerinde .get() cagiriyor. ==== KOR ALANIN OLCUSU Alfabetik olarak eslesme_yama'dan SONRAKI 27 dosya hic denetlenmiyor: fransa · guney_asya · gurcistan · habsburg · hindistan · hollanda · ingiltere · iran · iran_ardillari · ispanya · isvec · italya · japonya · karakoyunlu · kirim · kuzeyafrika · lehistan · macaristan · memluk · misir · ozbek · portekiz · rusya · safevi · sirbistan · timurlu · venedik — VE benim dort dosyamin ucu. 🔴 SINSILIGI: kapi cokmeden ONCE sirasi gelen dosyalar icin '✓ temiz' BASIYOR. Yani ekranda temiz satirlar goruyorsunuz ve liste yarida kesiliyor. Sizin dosyaniz o 27'nin icindeyse KAPI ONA HIC BAKMADI — 'kapiyi kosturdum temiz cikti' demeyin, once listede adinizi ARAYIN. 📌 Bu projenin 'denetim var, o soruyu SORMUYOR' dersinin YENI bir yuzu: denetim soruyor, ama O DOSYAYA HIC VARMIYOR. ==== CARE — tek satir, uygulamadim arac/denetle_kronoloji.py:_oku icindeki node betigine Array.isArray suzgeci, ya da main() icinde: if not isinstance(d['kayit'], list): continue ==== BU ARADA NE YAPILIR Kapinin dokuz dalini kendi dosyalariniza elle uygulayabilirsiniz; ben oyle yaptim (scratchpad/kapi_yerel.py) ve CAPRAZ DOGRULADIM: gercek kapi, cokmeden once sirasi gelen kronoloji_atina_dukaligi.js icin '✓ temiz' dedi — yerel kopyam gercek kapiyla uyusuyor. ==== AYRICA: dunya AYRISMASI IKI CIFT (30 dosya tarandi, paylasilan 72 madde) 1291-05-18 Akka: venedik dunya=3 · memluk dunya=5 1798-07-01 Misir seferi: fransa dunya=4 · misir dunya=5 Denetimin 8. dali bunlari otecek — ama YUKARIDAKI COKME YUZUNDEN oteceginden emin degilim, cunku havuzu kurarken de ayni dosyalari okuyor. Dosya sahipleri: bu iki cifti hizalayin.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
