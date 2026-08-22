@@ -72,20 +72,20 @@ gerekir. Projenin bütün kalite kuralları (§3) bu tek cümleden türer.
 
 | Katman | Ölçülen durum |
 |---|---|
-| Yerleşim (motorun okuduğu) | **2589** nokta, 48 girdi dosyası |
+| Yerleşim (motorun okuduğu) | **2603** nokta, 53 girdi dosyası |
 | Kronoloji | **1223** madde · 1223 duygu etiketli · 811 `yer_id` · 26 `vefat_id` |
-| Değişmez 1 — sahipsizlik | ✓ 2589 yerleşim, 228 sahipsiz (beklenen 228) |
-| Değişmez 1b — iç boşluk | ✗ pencere arası boşluk: 3 (beklenen 0) — örnekleme YAPILMAZ, tam tarama |
-| Değişmez 2 — Osmanlı senkronu | ✓ 511 kırılma, 0 açık (beklenen 0) |
-| Değişmez 2s — yabancı senkron | ✓ 939 YABANCI kırılması · 78 AÇIK (tavan 121) · 178 KAPSAM DIŞI |
+| Değişmez 1 — sahipsizlik | ✓ 2603 yerleşim, 214 sahipsiz (beklenen 214) |
+| Değişmez 1b — iç boşluk | ✓ BEYANSIZ pencere arası boşluk: 0 (beklenen 0) · beyanlı 3/3 — tam tarama |
+| Değişmez 2 — Osmanlı senkronu | ✓ 515 kırılma, 0 açık (beklenen 0) |
+| Değişmez 2s — yabancı senkron | ✓ 945 YABANCI kırılması · 80 AÇIK (tavan 121) · 178 KAPSAM DIŞI |
 | Değişmez 2i — işgal senkronu | ✓ 20 İŞGAL kırılması, 3 açık (tavan 3) |
 | Değişmez 2t — kırılmasız madde | ✓ kırılmasız madde: 32 (tavan 42) — bilinen borç |
-| Konum denetimi | 180 nokta PENCERE DIŞINDA — ihlal DEĞİL, pencere oraya açılana kadar BEKLEYEN veri |
-| Devletler dizini | **424** künye · **396** renk (`renkler.py`) |
-| Dizinsiz harita kimliği | 🔴 **6** kimlik / 7 pencere karşılıksız · *kapsam: `girdi.py`nin okuduğu 48 dosya — bağlanmamış partiler HARİÇ* |
+| Konum denetimi | 179 nokta PENCERE DIŞINDA — ihlal DEĞİL, pencere oraya açılana kadar BEKLEYEN veri |
+| Devletler dizini | **431** künye · **400** renk (`renkler.py`) |
+| Dizinsiz harita kimliği | 🔴 **1** kimlik / 2 pencere karşılıksız · *kapsam: `girdi.py`nin okuduğu 53 dosya — bağlanmamış partiler HARİÇ* |
 | Padişah · kartvizit | 41 kayıt · 36 portre · **41** kartvizit dolu |
 | Harita penceresi | `unary_union([box(-12, -11, 146, 82), box(-25, 60, -12, 82)])` |
-| Yayın | **r1859** · `dd664e9` |
+| Yayın | **r2973** · `52c45dc` |
 
 > ⚙️ **BU TABLO ELLE YAZILMAZ — ÜRETİLİR.**
 > ```bash
