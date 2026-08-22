@@ -400,8 +400,15 @@ body {
 .secili-odak .dss-rozet { background: #8e0b22; }
 .secili-ek .dss-rozet { background: #2e7d32; }
 .ek-nokta { width: 8px; height: 8px; border-radius: 50%; flex: 0 0 auto; display: inline-block; }
-.ek-ayar-satir { display: flex; align-items: center; gap: 5px; margin-top: 4px; padding-top: 4px; border-top: 1px dashed #d8c9a3; }
-.ek-ayar-satir select { font-size: 11px; }
+/* 🔴 21 Ağustos — Emre (KUSUR ②, ekran görüntüsü): "Ek devletlerde dünya
+   önemi" kutusu panelden DIŞARI TAŞIYOR. AYNI KAÇAK — `#odak-devlet`
+   vakasının (yukarıdaki uzun not, satır ~283) bir benzeri: `<select>`in
+   varsayılan `min-width:auto`ı, flex satırını İÇERİĞİNİN min-content
+   genişliğinin altına inmekten alıkoyuyordu. `min-width:0` + `max-width`
+   tıkacı BURADA da gerekiyor — panel genişliği ne olursa olsun (`--panel-
+   dar`/`--panel-genis`), kutu ASLA onu aşmayacak. */
+.ek-ayar-satir { display: flex; align-items: center; gap: 5px; margin-top: 4px; padding-top: 4px; border-top: 1px dashed #d8c9a3; min-width: 0; }
+.ek-ayar-satir select { font-size: 11px; min-width: 0; max-width: 100%; flex: 0 1 auto; }
 
 /* Birleşik listedeki madde satırı: rozet (kaynak devlet) + tarih + başlık. */
 .olay.ek-madde { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px; }

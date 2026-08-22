@@ -306,6 +306,14 @@ function devletGuncelle(t) {
       var p = s.dnm[i];
       if (p.fi <= t && t < p.ti) {
         imza += s.id + ":" + i + ";";
+        // 🔴 21 Ağustos — KUSUR ③ (odak vurgusu) için: `p.ft` zaten "renk"
+        // taşıyordu ama devletin KİMLİĞİNİ taşımıyordu (dolgu boyamak için
+        // gerekmiyordu). `devlet-odak-vurgu` katmanı bunu FİLTRELEMEK için
+        // istiyor. Aynı nesneye her kare YAZILIYOR (idempotent, zararsız) —
+        // ayrı bir kopya çıkarmaya gerek yok, `devletler2` bu oturumun
+        // BELLEK içi verisi (dosyaya yazılmıyor).
+        p.ft.properties = p.ft.properties || {};
+        p.ft.properties.id = s.id;
         fs.push(p.ft);
         // Her gövde parçası için ayrı etiket adayı
         var mp = p.ft.geometry.coordinates;
@@ -726,6 +734,18 @@ harita.on("load", function () {
     paint: { "fill-color": ["get", "renk"], "fill-opacity": 0.44 } });
   harita.addLayer({ id: "devlet-cizgi", type: "line", source: "devlet",
     paint: { "line-color": ["get", "renk"], "line-width": 1.5, "line-opacity": 0.85 } });
+  // 🔴 21 Ağustos — KUSUR ③, Emre (ekran görüntüsü): "odaklanan ülke belirgin
+  // bir renk ile boyanmalı — bu Osmanlı kırmızısı olabilir." AYNI `devlet`
+  // kaynağından, AYNI feature'lar üzerinden — yalnız `["get","id"]` ODAK'ın
+  // `harita`/`id` alanına eşit olanı süzüyor (odakKur() `vurguGuncelle()`
+  // ile filtreyi her odak değişiminde günceller). Dolgunun ÜSTÜNE değil
+  // `devlet-cizgi`nin ÜSTÜNE çiziliyor ki ülkenin KENDİ rengi (dolgu)
+  // kaybolmasın — yalnız SINIRI Osmanlı kırmızısıyla kalınlaşıp belirginleşir.
+  // Varsayılan filtre HİÇBİR ŞEYLE eşleşmez (`__yok__`) — filtre boş
+  // bırakılsaydı MapLibre TÜM yabancı devletleri kırmızı çizerdi.
+  harita.addLayer({ id: "devlet-odak-vurgu", type: "line", source: "devlet",
+    filter: ["==", ["get", "id"], "__yok__"],
+    paint: { "line-color": "#8e0b22", "line-width": 3.5, "line-opacity": 0.95 } });
 
   // ⚠️ GENEL KURAL (kullanıcı, hatalar 10.docx madde 1):
   //   "Osmanlı devletinin sınırlarını kalın kırmızı bir çizgi ile belirleyelim,
@@ -2730,6 +2750,72 @@ function seferLejanti(turler, sonuclar) {
   lejantYerlestir();
 }
 
+// Dizin penceresinden bir şehre/yerleşime gitme — uçuş motorunun ayarlarını
+// kullanır ama bir OLAY maddesi olmadığı için `haritayiOlayaGotur`a girmez
+// (orada `yer_id`/`kapsam_genis` mantığı var, burada yok). Ortak olan tek şey
+// yakınlık, süre ve yay hesabı; üçü de aynı fonksiyonlardan geliyor ki
+// ⚙ ayarları her yerde AYNI anlama gelsin.
+// ⚠️ Bu fonksiyon dosyada `kmDanZoom`/`ucusSuresiMs`/`ucusYayi`dan ÖNCE
+// duruyor; JavaScript'te işlev bildirimleri yükseltildiği (hoisting) ve bu
+// gövde ancak bir tıklamayla koştuğu için sorun yok.
+function dizindenUc(lat, lon) {
+  try {
+    var kap = _haritaKutu();
+    var km = kmArasi(harita.getCenter().lat, harita.getCenter().lng, lat, lon);
+    harita.flyTo({ center: [lon, lat],
+                   zoom: kmDanZoom(+_ayar("ayar-genislik-km", 1500), lat, kap.width),
+                   duration: ucusSuresiMs(km),
+                   curve: ucusYayi(km) });
+  } catch (e) {
+    harita.flyTo({ center: [lon, lat], zoom: 6.2, duration: 900 });   // eski davranışa düş
+  }
+}
+
+// ---------- KAMERA HAKEMİ ----------------------------------------------
+// 🔴 22 Ağustos 2026 — Emre: *"PAT ORADA PAT BURADA … harita odağı çat çat
+// değişmemeli … bir yakın bir uzak, bir koca imparatorluğu gösteren tarzda
+// da olmamalı."* Sebep ÖLÇÜLDÜ, tarayıcıda, kamera metotları sarmalanarak:
+//
+//   8 kez ⏭ (uçuş açıkken) · her metot çağrısı ve çağıranı kaydedildi
+//     zoomUygula<guncelle          4 kez  fitBounds → İMPARATORLUK görünümü
+//     haritayiOlayaGotur           7 kez  (3 flyTo z~6,03 + 4 fitBounds)
+//   ⇒ AYNI SEKİZ ADIMDA İKİ MEKANİZMA AYNI KAMERAYI SÜRÜYOR.
+//
+// 🔴 Ve iki komut arasındaki süre ÖLÇÜLDÜ: **1811 · 1867 · 1911 · 2036 ms.**
+// Bu, tahmin edilenden (`<50 ms`, "biri ötekini keser") KÖTÜ: `fitBounds`
+// 750 ms'de TAMAMLANIYOR, ikinci komut ~1,9 sn SONRA geliyor. Kullanıcı bir
+// kesme değil **İKİ AYRI TAMAMLANMIŞ HAREKET** görüyor — önce imparatorluğa
+// açılıyor, duruyor, sonra noktaya iniyor. *"Pat orada pat burada"* budur.
+//
+// Çare bir zamanlayıcı YARIŞI değil, bir ÖNCELİK SIRASI:
+//     ① kullanıcının elle gezinmesi   (zaten var: `zoomstart` + originalEvent)
+//     ② olay uçuşu                     ← bu bloğun kurduğu şey
+//     ③ oto-zoom (dönem değişimi)
+// ⚠️ Oto-zoom SİLİNMİYOR — Emre'nin kendi isteği (`btn-zoom` "🔍 Oto").
+// Uçuş varken SUSUYOR, yok olmuyor.
+//
+// 📌 Ve bayrak bir SÜREYE değil, bir KAPSAMA bağlı. `tarihAyarla` eşzamanlı
+// çalıştığı için `try/finally` tam olarak `guncelle()`nin süresini kapsar;
+// "kaç ms susayım" diye bir sihirli sayı YOK. (Ölçülen 1,9 sn'lik gecikme
+// tam da böyle bir sayının niçin uydurulamayacağını gösteriyor: makineye,
+// veriye ve o anki dönem yoğunluğuna göre değişiyor.)
+var KAMERA = { olayBekliyor: false };
+
+// Bir olaya gidilecekse ÜÇ ADIM BİRLİKTE yapılır ve `tarihAyarla`nın
+// tetikleyeceği oto-zoom bu süre boyunca susar.
+// ⚠️ `finally` şart: `guncelle()` fırlatırsa bayrak açık kalır ve oto-zoom
+// bir daha HİÇ çalışmazdı — sessiz bir kilitlenme olurdu.
+// `panelGoster` — `obGoster` çağrılsın mı (⏮/⏭ eskiden çağırmıyordu, öyle kaldı)
+// `zorla`       — 🛩 anahtarını atla. ELLE yapılan her eylem (tıklama, ⏮/⏭)
+//                 zorlar; YALNIZ otomatik akış anahtara tâbidir, çünkü
+//                 anahtarın kendi metni *"sıradaki olaya GEÇİLİNCE"* diyor.
+function olayaGit(o, panelGoster, zorla) {
+  KAMERA.olayBekliyor = true;
+  try { tarihAyarla(o.gi); } finally { KAMERA.olayBekliyor = false; }
+  if (panelGoster !== false) obGoster(o);
+  haritayiOlayaGotur(o, zorla);
+}
+
 // ---------- Otomatik yakınlaştırma ----------
 // Oynatma sırasında titremeyi önlemek için: görünüm yeni sınırları zaten makul
 // oranda kapsıyorsa veya son ayardan 900 ms geçmediyse yeniden çerçevelenmez.
@@ -2737,6 +2823,8 @@ var otoZoom = true;
 var sonZoomZamani = 0;
 function zoomUygula(d) {
   if (!otoZoom || !haritaHazir) return;
+  // ③ < ② — bir olay uçuşu sıradaysa oto-zoom kameraya HİÇ dokunmaz.
+  if (KAMERA.olayBekliyor) return;
   // 🔴 KAPSAMA KORUMASI ARTIK HER ZAMAN ÇALIŞIYOR — eskiden `if (zamanlayici)`
   // bloğunun İÇİNDEYDİ, yani yalnız otomatik oynatmada. Elle gezen kullanıcı
   // (⏮/⏭, liste tıklaması, çubuk) korumasızdı ve HER dönem değişiminde harita
@@ -2932,11 +3020,10 @@ olaylar.forEach(function (o, i) {
   // tam ekran modal (detayAc) devreye giriyordu. İki ayrı gösterim, biri gizli.
   // Panel içi sürüm ayrıca DAHA ZENGİN: padişah portresi, muharebe künyesi, antlaşma
   // hükmü, kişi kartları. Yani modalı taşımak değil, iki modu da panele yöneltmek doğru.
-  div.addEventListener("click", function () {
-    tarihAyarla(o.gi);
-    obGoster(o);
-    haritayiOlayaGotur(o);
-  });
+  // 🔴 `olayaGit` — üçlü artık TEK KAPIDAN geçiyor (KAMERA hakemi). Eskiden
+  // burada `tarihAyarla` + `obGoster` + `haritayiOlayaGotur` ayrı ayrı
+  // duruyordu ve birincisi oto-zoom'u imparatorluğa açıyordu.
+  div.addEventListener("click", function () { olayaGit(o, true, true); });
   olayListe.appendChild(div);
   olayDom.push(div);
 });
@@ -3233,7 +3320,12 @@ function dizinDoldur(sekme) {
                 otoZoom = false;
                 document.getElementById("btn-zoom").classList.add("pasif");
                 tarihAyarla(gunIdx(ilk.f));
-                harita.flyTo({ center: [s.lon, s.lat], zoom: 6.2, duration: 900 });
+                // 🔴 22 Ağustos — sabit `zoom: 6.2` KALDIRILDI. Dizinden bir
+                // şehre gitmek de bir "olay mahalline gitme"dir; kullanıcının
+                // ⚙ genişlik ayarını burada yok saymak, sonraki uçuşlarla
+                // arasında bir zoom sıçraması üretiyordu (kabul ölçütü ③:
+                // *"yakınlık ayarı sabit kalır"*).
+                dizindenUc(s.lat, s.lon);
               });
       });
     });
@@ -3309,7 +3401,7 @@ function dizinDoldur(sekme) {
           otoZoom = false;
           document.getElementById("btn-zoom").classList.add("pasif");
           tarihAyarla(gunIdx(p.f));
-          harita.flyTo({ center: [y.lon, y.lat], zoom: 6.2, duration: 900 });
+          dizindenUc(y.lat, y.lon);          // aynı gerekçe — sabit 6.2 kalktı
         });
         liste.appendChild(d);
       });
@@ -4026,9 +4118,7 @@ function ayniGunSeridiGuncelle(o) {
     pil.addEventListener("click", function () {
       var idxOlay = olaylar.indexOf(kardes);
       if (idxOlay >= 0) suankiOlayI = idxOlay;   // ⏮/⏭ kardeşten devam etsin
-      tarihAyarla(kardes.gi);
-      obGoster(kardes);
-      haritayiOlayaGotur(kardes);
+      olayaGit(kardes, true, true);              // K2'nin üçlüsü, KAMERA hakemli
     });
     piller.appendChild(pil);
   });
@@ -4330,9 +4420,7 @@ function oynatDurdur() {
       var i = suankiOlayI + 1;
       if (i >= olaylar.length) { oynatDurdur(); return; }
       suankiOlayI = i;
-      tarihAyarla(olaylar[i].gi);
-      obGoster(olaylar[i]);
-      haritayiOlayaGotur(olaylar[i]);
+      olayaGit(olaylar[i]);                      // otomatik akış, KAMERA hakemli
     };
     adimla();
     zamanlayici = setInterval(adimla, bekleme);
@@ -4606,7 +4694,13 @@ var ucusKipEl = document.getElementById("ucus-kip");
 var obYerYokEl = document.getElementById("ob-yer-yok");
 // Tercihler kalıcı — `lejantKapali`/`panel katli` ile aynı desen.
 (function () {
-  ucusAcEl.checked = localStorage.getItem("ucusAc") === "1";
+  // 🔴 22 Ağustos — `=== "1"` İDİ ve HTML'deki `checked`i EZİYORDU: kayıt
+  // yokken `null === "1"` false verir, yani kutu her temiz tarayıcıda
+  // KAPALI açılırdı. `checked` özniteliğini eklemek TEK BAŞINA yetmezdi —
+  // bu satır onu geri alıyordu. (`duygu-ac` aynı bloğun 20 satır üstünde
+  // doğrusunu zaten yapıyor: `!== "0"`. İki kardeş kontrol, iki farklı
+  // varsayılan mantığı — biri yanlıştı.)
+  ucusAcEl.checked = localStorage.getItem("ucusAc") !== "0";
   if (localStorage.getItem("ucusKip")) ucusKipEl.value = localStorage.getItem("ucusKip");
   ucusAcEl.addEventListener("change", function () { localStorage.setItem("ucusAc", ucusAcEl.checked ? "1" : "0"); });
   ucusKipEl.addEventListener("change", function () { localStorage.setItem("ucusKip", ucusKipEl.value); });
@@ -4647,11 +4741,51 @@ var sonUcusZamani = 0;
 // bir yokluk da yok.
 // §⑦ — nokta yeri olmayan olay sessiz kalmaz: o günkü imparatorluk
 // sınırına (`donemler[i].b`) çerçevelenir. Metin niçin uzaklaşıldığını söyler.
-function haritayiOlayaGotur(o) {
-  if (!ucusAcEl.checked) { if (obYerYokEl) obYerYokEl.textContent = ""; return; }
+// `zorla` — 🛩 anahtarını ATLA. Anahtarın kendi açıklaması *"SIRADAKİ OLAYA
+// GEÇİLİNCE harita o yeri kendiliğinden ortalar"* diyor, yani o ayar OTOMATİK
+// akış içindir. Kullanıcı bir maddeye ELLE tıkladıysa bu otomatik değildir —
+// tıklamak zaten "beni oraya götür" demektir. (Bu ayrım `maddeAc`ta ölçümle
+// bulunmuştu; motora bağlanırken KAYBOLMASIN diye parametreye dönüştürüldü.)
+function haritayiOlayaGotur(o, zorla) {
+  if (!zorla && !ucusAcEl.checked) { if (obYerYokEl) obYerYokEl.textContent = ""; return; }
   var hedef = olayKonumu(o);
   if (!hedef) {
     sonUcusKonumAnahtari = null;   // genel görünüme düşünce "ayni yer" hafizasi da sifirlanir
+    // 🔴🔴 22 Ağustos 2026 — BU DALIN ŞARTI DEĞİŞTİ, ve sebebi ÖLÇÜM.
+    //
+    // ESKİ HÂLİ: `yer_id` çözülemeyen HER madde imparatorluk sınırına
+    // `fitBounds` yapıyordu (§⑦: "nokta yeri olmayan olay sessiz kalmaz").
+    // O kural kendi içinde tutarlıydı — ama evren ölçülünce çöktü:
+    //     Osmanlı kronolojisi        1223 madde
+    //     konumu ÇÖZÜLEN              809
+    //     🔴 KONUMSUZ                 414   = %33,9
+    //     kapsam_genis:true             0   ← olaylar*.js'te HİÇBİRİNDE YOK
+    //                                       (alan var ama data/kronoloji_*.js
+    //                                        içinde: 24 dosya, 189 kayıt)
+    // ⇒ Her ÜÇ maddeden BİRİ, "imparatorluk çapında olduğu için" değil,
+    //   sadece `yer_id`si yazılmadığı için kıtaya açılıyordu. Ölçülmüş
+    //   dizilim (8 adımlık koşu): fit(imparatorluk) → fly(z6,04) →
+    //   fit(imparatorluk) → fit → fly(z6,03) …
+    // 🔴 Emre'nin hükmü bunu doğrudan çürütüyor: *"harita odağı BİR YAKIN
+    //   BİR UZAK, bir koca imparatorluğu gösteren tarzda da olmamalı."*
+    //
+    // ⇒ YENİ KURAL: imparatorluk görünümü artık bir DOLGU değil, bir BEYAN.
+    //   Yalnız `kapsam_genis:true` maddelerde açılır. `yer_id` YOKLUĞU bir
+    //   veri eksiğidir, "olay imparatorluk çapındaydı" demek DEĞİLDİR —
+    //   ikisini aynı davranışa bağlamak, eksikliği bir hükümmüş gibi
+    //   çizmekti.
+    // 📌 `CLAUDE.md §11`: *"iki ayrı kusur tek satırda raporlanırsa, çareleri
+    //   ters olsa bile aynı çare uygulanır."* Burada iki ayrı DURUM tek dala
+    //   düşüyordu; ayrıldılar.
+    // ⚠️ Ve madde SESSİZ KALMIYOR — §⑦'nin asıl kaygısı korunuyor: kamera
+    //   yerinde kalır ama not YAZILIR, yani kullanıcı niçin bir şey
+    //   olmadığını okur.
+    if (!o.kapsam_genis) {
+      if (obYerYokEl) {
+        obYerYokEl.textContent = "📍 Bu olayın haritada nokta yeri işaretlenmemiş — harita yerinde kaldı.";
+      }
+      return;
+    }
     var di = donemBul(o.gi);
     // 🔴 21 Ağustos — eskiden "ayar-kenarpay" okunuyordu, ama o id BAŞKA bir
     // sürgüyle (kenardan-giriş yüzdesi, § odakOfseti) ÇAKIŞIYORDU; ikisi de
@@ -4704,16 +4838,30 @@ function haritayiOlayaGotur(o) {
   // "bir şey yapma" demek kullanıcıyı 6.000 km yükseklikte bırakırdı.
   // 📌 Ve bu, boşuna uçuşu da önlüyor: art arda aynı bölgedeki maddelerde
   // harita titremiyor.
+  // 🔴 Eşik 0,6 → 0,25. Ölçüldü ki bu değişikliğin S2 sayısına etkisi
+  // neredeyse SIFIR (200 olayda 120 → 121) — çünkü kamera bir kez uçunca
+  // zoom tam `yakinlik`a oturur. Yani bu bir "daha çok uçsun" ayarı DEĞİL;
+  // tek işi AÇILIŞ HÂLİNİ düzeltmek: harita z5,5'te başlıyor, kullanıcının
+  // 1500 km ayarı z~6,04 istiyor ve 0,53'lük fark 0,6'nın altında kaldığı
+  // için kamera o ölçeğe HİÇ YAKINSAMIYORDU. Bedeli 1 fazladan uçuş,
+  // kazancı ayarın gerçekten uygulanması.
   if (_ekrandaMi(hedef, _kap) &&
-      Math.abs(harita.getZoom() - yakinlik) < 0.6) {
+      Math.abs(harita.getZoom() - yakinlik) < 0.25) {
     isaretYanipSon(hedef);
     return;
   }
 
-  if (ucusKipEl.value === "ani" || hizliGecis) {
-    // KİP A — tak diye, animasyonsuz. §⑧④(c): uçuş kipindeyken de hızlı
-    // art arda geçişte aynı yola düşer, yarım kalmış uçuşların titremesini
-    // önler.
+  if (ucusKipEl.value === "ani") {
+    // KİP A — tak diye, animasyonsuz. Kullanıcı BİLE BİLE seçtiyse meşru.
+    // 🔴 22 Ağustos — `|| hizliGecis` ŞARTI KALDIRILDI. Eskiden art arda
+    // <500 ms'lik geçişlerde uçuş kipindeyken de `jumpTo`ya düşülüyordu ve
+    // Emre'nin ①. kabul ölçütü tam olarak bunu yasaklıyor: *"kamera hiçbir
+    // zaman ışınlanmaz."* Gerekçe de zaten çürüktü — yorumun kendisi (aşağıda,
+    // KİP B) `flyTo`nun önceki animasyonu KESTİĞİNİ, kuyruk OLUŞMADIĞINI
+    // yazıyor. Yani "yarım kalmış uçuşların titremesi" diye bir şey yok:
+    // MapLibre yeni çağrıyı DEVRALIYOR. Sıçratmaya gerek YOKTU.
+    // 📌 `hizliGecis` ölü bir değişken değil — aşağıda SÜREYİ KISALTMAKTA
+    //    kullanılıyor: hızlı ⏭'de uçuş kısalır ama YİNE DE UÇAR.
     harita.jumpTo({ center: [hedef.lon, hedef.lat], zoom: yakinlik, offset: ofset });
   } else {
     // KİP B — uçuş. ⚠️ `flyTo` kendi içinde ÖNCEKİ animasyonu KESER
@@ -4734,15 +4882,21 @@ function haritayiOlayaGotur(o) {
     // ezmiyor — sınırını kendisi koyuyor.
     var _kip = _ayarMetin("ayar-hareket", "egik");
     var _esik = +_ayar("ayar-yatay-esik", 1200);
+    // 🔴 Hızlı ⏭'de artık SIÇRAMIYORUZ, KISALTIYORUZ. Eskiden bu durum
+    // `jumpTo`ya düşüyordu (ışınlanma); şimdi uçuş sürüyor ama süresi
+    // yarıya iniyor — hareket SÜREKLİ kalıyor, sabırsız kullanıcı da
+    // beklemiyor. Alt sınır 220 ms: bunun altı göz için sıçramadan
+    // ayırt edilemez hâle geliyor (ölçülmedi — gözle ayarlanmalı).
+    var _sonSure = hizliGecis ? Math.max(220, _sureMs * 0.5) : _sureMs;
     var _ortak = { center: [hedef.lon, hedef.lat], zoom: yakinlik,
-                   offset: ofset, duration: _sureMs };
+                   offset: ofset, duration: _sonSure };
     if (_kip === "yatay" && _kmMesafe <= _esik) {
       harita.easeTo(_ortak);
     } else {
       // `curve` yayın tepe yüksekliği. `speed` VERİLMİYOR: `duration` ile
       // birlikte verilirse MapLibre `speed`i yok sayar ve ikisi çelişir —
       // süreyi biz hesapladığımız için (③) `duration` esastır.
-      _ortak.curve = +_ayar("ayar-irtifa", 1.42);
+      _ortak.curve = ucusYayi(_kmMesafe);
       harita.flyTo(_ortak);
     }
   }
@@ -4825,14 +4979,81 @@ function ucusSuresiMs(kmMesafe) {
   return Math.max(taban, Math.min(tavan, kmMesafe / hiz)) * 1000;
 }
 
+// ④ YAY YÜKSEKLİĞİ — MESAFEYLE ORANTILI.  Emre: *"eğik atışta yay yüksekliği
+// mesafeyle orantılı olmalı; 100 km'lik geçişte kıtaya çıkmak saçma."*
+//
+// 🔴 Eskiden `curve` SABİTTİ (`ayar-irtifa`, 1.42) ve mesafeyi HİÇ görmüyordu:
+// Bursa→İznik (60 km) ile Yemen→Kamaniçe (3.900 km) AYNI yayla uçuluyordu.
+// van Wijk & Nuij'de `curve` yayın tepe yüksekliğini belirler — büyüdükçe
+// kamera daha çok yükselip daha çok alçalır.
+//
+// ⚠️ `ayar-irtifa` sürgüsü ÖLDÜRÜLMEDİ, ANLAMI DEĞİŞTİ: artık mutlak bir yay
+// değil, bir ÇARPAN/merkez. Kullanıcının seçtiği değer "orta mesafedeki yay"
+// olarak korunuyor, kısa/uzun mesafede onun etrafında yumuşakça geziniyor.
+// Bir kontrolü sessizce yok saymak yerine kapsamını daraltmak — bu projenin
+// `ayar-hiz` vakasında öğrendiği ders (ölü sürgüyü "çalışıyormuş gibi"
+// etiketlemek yanıltıcıydı).
+//
+// Ölçek — ⚠️ bu tablo TARAYICIDA ÖLÇÜLDÜ, elle hesaplanmadı
+// (ayar-irtifa = 1.42 varsayılanıyla):
+//     30 km   → 1,02      taban; kamera neredeyse hiç yükselmez
+//     50 km   → 1,02
+//    100 km   → 1,07
+//    250 km   → 1,22
+//    800 km   → 1,40      ← eğrinin çapası: burada `merkez` değerini verir
+//   1500 km   → 1,50
+//   3000 km   → 1,61
+//   8000 km   → 1,77
+// 📌 İlk yazımda bu tabloyu ELLE hesaplayıp yazmıştım ve üç satırı YANLIŞTI
+// (1000→1,35 · 3000→1,52 diyordu; ölçüm 1,61 dedi). Bu projenin yazılı dersi:
+// *"bir bilgi iki yerde duruyorsa biri güncellenince öteki bayatlar"* — burada
+// iki yer FORMÜL ile YORUM'du ve daha doğmadan ayrışmışlardı.
+// 📌 Eğri logaritmik, çünkü ALGI logaritmik: 50→250 km'lik fark, 3000→8000
+// km'lik farktan daha çok hissedilir.
+function ucusYayi(kmMesafe) {
+  var merkez = +_ayar("ayar-irtifa", 1.42);          // kullanıcının seçtiği orta yay
+  var km = Math.max(1, kmMesafe || 1);
+  // 800 km'de tam olarak `merkez` verir; iki yana log2 ile açılır.
+  var t = Math.log(km / 800) / Math.LN2;             // -4 … +3,3 civarı
+  var yay = merkez + t * 0.11;
+  return Math.max(1.02, Math.min(1.9, yay));         // MapLibre'de <1 anlamsız
+}
+
 // Hedef şu an çerçevenin içinde mi? (S2'nin birinci şartı)
 // Kenarlara yapışık olanı "içeride" saymamak için küçük bir iç pay var —
 // tam kenardaki bir nokta görünüyor sayılsa kullanıcı onu ARAMAK zorunda
 // kalırdı ve "bir şey olmadı" derdi.
+// 🔴 22 Ağustos 2026 — PAY ARTIK SABİT 0,08 DEĞİL, KULLANICININ KENDİ AYARI.
+//
+// Kusur ölçülerek bulundu: düzeltmeden sonra 8 adımlık koşuda uçuş motorundan
+// **sıfır** çağrı çıktı. Dallar tek tek sayıldı:
+//     konumsuz 5/8   ·   S2 susturdu 3/8   ·   gerçek uçuş 0/8
+// Üçünün de `zFark`ı 0,529-0,551 idi — yani 0,6'lık eşiğin **kıl payı**
+// altında. Kamera z5,5'te takılı kalıyor, kullanıcının istediği ölçeğe
+// (1500 km ⇒ z~6,04) HİÇ YAKINSAMIYORDU.
+//
+// ⚠️ Ve ilk teşhisim YANLIŞTI: *"zoom eşiği çok gevşek"* dedim. 200 olayda
+// beş eşik denendi ve zoom eşiğinin neredeyse HİÇ etkisi olmadığı çıktı —
+// çünkü kamera bir kez uçtuktan sonra zoom TAM `yakinlik`a oturuyor, fark
+// ~0 oluyor. Etkiyi yapan tek şey KENAR PAYI:
+//     zEşik 0,60 · pay %8    S2 120 · uçuş 50     ← bugünkü
+//     zEşik 0,25 · pay %8    S2 121 · uçuş 49     ← zoom eşiği: ETKİSİZ
+//     zEşik 0,25 · pay %18   S2 106 · uçuş 64     ← seçilen
+//     zEşik 0,25 · pay %25   S2  91 · uçuş 79
+//
+// ⇒ Ve doğru sayı UYDURULMADI, ZATEN VARDI: `ayar-kenarpay` (varsayılan %18)
+// kullanıcının *"pencereye hemen karenin ucundan değil, belli bir miktar
+// içeriye"* tercihini tutuyor. Bir hedefi EKRANA GETİRİRKEN kullandığımız pay
+// ile onu ZATEN GÖRÜNÜYOR SAYARKEN kullandığımız pay **aynı olmak zorunda** —
+// yoksa kenara %10 uzaklıkta duran bir nokta "görünüyor" sayılır ama motor
+// onu oraya asla koymazdı. İki ayrı sayı = iki ayrı otorite = ayrışırlar.
+// 📌 Bu, `§11`in *"bir alan tasarlamadan önce zaten var olup olmadığını ölç"*
+// dersinin küçük hâli: yeni bir eşik icat etmek yerine var olanı okuduk.
 function _ekrandaMi(hedef, kap) {
   var p;
   try { p = harita.project([hedef.lon, hedef.lat]); } catch (e) { return false; }
-  var payX = kap.width * 0.08, payY = kap.height * 0.08;
+  var oran = Math.max(0.02, Math.min(0.45, _ayar("ayar-kenarpay", 18) / 100));
+  var payX = kap.width * oran, payY = kap.height * oran;
   return p.x >= payX && p.x <= kap.width - payX &&
          p.y >= payY && p.y <= kap.height - payY;
 }
@@ -4970,15 +5191,15 @@ document.getElementById("btn-geri").addEventListener("click", function () {
   olayIndexTazele();
   if (suankiOlayI <= 0) { suankiOlayI = -1; tarihAyarla(BASLANGIC); return; }
   suankiOlayI--;
-  tarihAyarla(olaylar[suankiOlayI].gi);
-  haritayiOlayaGotur(olaylar[suankiOlayI]);
+  // ⏮ ELLE yapılan bir eylem ⇒ KAMERA hakemli + 🛩 anahtarını zorlar.
+  // (Panel gösterimi eskisi gibi KAPALI — bu düğme paneli hiç açmıyordu.)
+  olayaGit(olaylar[suankiOlayI], false, true);
 });
 document.getElementById("btn-ileri").addEventListener("click", function () {
   olayIndexTazele();
   if (suankiOlayI >= olaylar.length - 1) { tarihAyarla(BITIS); return; }
   suankiOlayI++;
-  tarihAyarla(olaylar[suankiOlayI].gi);
-  haritayiOlayaGotur(olaylar[suankiOlayI]);
+  olayaGit(olaylar[suankiOlayI], false, true);   // ⏭ — aynı gerekçe
 });
 
 // Klavye: ←→ gün (Shift: yıl), boşluk oynat/durdur
@@ -5140,6 +5361,7 @@ var KRONOLOJI_ID_OZEL = {};             // { "KRONOLOJI_XYZ": "gercek-id" } — 
   }
 
   function satirTikla(id) {
+    var eskiOdakId = ODAK ? ODAK.id : null;       // KUSUR ③ — odak GERÇEKTEN değişti mi?
     if (id === "osmanli") {
       ODAK = null;                              // Osmanlı her zaman odağı SIFIRLAR
     } else if (ODAK && ODAK.id === id) {
@@ -5156,8 +5378,23 @@ var KRONOLOJI_ID_OZEL = {};             // { "KRONOLOJI_XYZ": "gercek-id" } — 
         EK_SECILI.push(id);                     // ODAK doluydu → SIRADAKİ, EK OL
       }
     }
+    // 🔴 21 Ağustos — Emre (ekran görüntüsü, KUSUR ③): "alttaki detay kutusu
+    // hâlâ Osmanlı maddesini gösteriyor" — odak değişince `#olay-bilgi`
+    // ESKİ devletin (ya da Osmanlı'nın) açık kalan maddesini göstermeye
+    // devam ediyordu, hiçbir kod ona dokunmuyordu. Odak GERÇEKTEN
+    // değiştiyse (ek devlet ekleme/çıkarma DEĞİL — yalnız odak) panel
+    // KAPATILIR; yeni devletin rastgele bir maddesini ZORLA açmak yerine
+    // (bu hem zaman çubuğunu hem haritayı `devletiYay`la YARIŞAN ikinci bir
+    // konuma uçururdu) kullanıcı listeden kendi maddesini seçer.
+    if ((ODAK ? ODAK.id : null) !== eskiOdakId && obPanel) obPanel.classList.add("gizli");
     panelDoldur();
     render();
+    vurguGuncelle();          // KUSUR ③ — odaklanan devletin gövdesi belirgin renkle
+    // 🔴 21 Ağustos — Emre (ekran görüntüsü, KUSUR ①): "kronoloji combobox'u
+    // kapanmıyor, böyle açık kalıyor." Seçim yapılınca panel KAPANIR — normal
+    // bir `<select>`in davranışı buydu, biz onu TEK panelde birleştirirken
+    // (çoktan seçmeli, ama her tık bir SEÇİM/İŞLEM) bu kapanmayı unutmuşuz.
+    if (secPanel) secPanel.classList.add("gizli");
     console.log("Atlas: odak → " + (ODAK ? ODAK.ad + " · " + ODAK.kronoloji.length + " kronoloji maddesi" : "Osmanlı (varsayılan)")
                 + (EK_SECILI.length ? "  ·  ek: " + EK_SECILI.join(", ") : ""));
     guncelle();
@@ -5324,7 +5561,12 @@ var KRONOLOJI_ID_OZEL = {};             // { "KRONOLOJI_XYZ": "gercek-id" } — 
   // ---- madde açıklaması: mevcut #olay-bilgi penceresine ----------------
   function maddeAc(d, m) {
     var gi = gunIdx(m.t);
-    tarihAyarla(gi);                       // zaman çubuğu o güne gider
+    // 🔴 KAMERA hakemi — `tarihAyarla` oto-zoom'u tetikliyordu ve ~1,9 sn
+    // sonra gelen uçuş onu eziyordu (ölçüldü). Bayrak `guncelle()`nin
+    // tamamını kapsar; `finally` şart, yoksa bir fırlatma oto-zoom'u kalıcı
+    // olarak susturur.
+    KAMERA.olayBekliyor = true;
+    try { tarihAyarla(gi); } finally { KAMERA.olayBekliyor = false; }
     if (obPanel) {
       obPanel.classList.remove("gizli");
       var bas = document.getElementById("ob-baslik");
@@ -5352,10 +5594,36 @@ var KRONOLOJI_ID_OZEL = {};             // { "KRONOLOJI_XYZ": "gercek-id" } — 
     // `yer_id` boş/çözülemez İSE (kapsam_genis:true dahil, ayrı bir dal
     // GEREKMİYOR — ikisi de "nokta yok" anlamına geliyor) eski davranışa
     // (devletin gövdesine fitBounds) DÜŞÜLÜR — regresyon yok.
+    // 🔴 22 Ağustos — SABİT `zoom: 6.5` KALDIRILDI, madde ODAKLAMA MOTORUNA
+    // bağlandı. Ölçüm: bu dal motoru bütünüyle atlıyordu, yani kullanıcının
+    // ⚙ ayarları (genişlik-km · hız · süre taban/tavan · hareket biçimi ·
+    // kenar payı) devlet kronolojisi sekmesinde HİÇ ETKİ ETMİYORDU.
+    // Ve `d.harita` dalı (aşağıda) imparatorluk gövdesine `fitBounds`
+    // yapıyor ⇒ ardışık iki maddede z~4 ile z6,5 arasında gidip geliniyordu:
+    // Emre'nin *"bir yakın bir uzak"* şikâyetinin BU SEKMEDEKİ hâli.
+    // ⚠️ `haritayiOlayaGotur` maddeyi olduğu gibi alıyor (`yer_id`/`yer_kon`/
+    // `kapsam_genis` alanları Osmanlı maddeleriyle AYNI) — ayrı bir uyarlama
+    // katmanı GEREKMİYOR, aynı fonksiyon yeniden kullanılıyor.
     var hedefYer = m.yer_id ? olayKonumu(m) : null;
     if (hedefYer) {
-      try { harita.flyTo({ center: [hedefYer.lon, hedefYer.lat], zoom: 6.5, duration: 900 }); }
-      catch (e) { /* harita hazır değil */ }
+      try { haritayiOlayaGotur(m, true); } catch (e) { /* harita hazır değil */ }
+    } else if (!m.kapsam_genis) {
+      // 🔴 22 Ağustos — Osmanlı listesinde uygulanan kuralın AYNISI, ve
+      // burada evren daha da büyük. Ölçüldü (26 `KRONOLOJI_*` değişkeni):
+      //     toplam madde        2961
+      //     yer_id YOK          1225   = %41,4
+      //     kapsam_genis         189
+      // ⇒ 1036 madde, "imparatorluk çapında olduğu için" DEĞİL, sadece
+      //   `yer_id`si yazılmadığı için devletin bütün gövdesine açılıyordu.
+      //   Sekmede bir maddeden ötekine geçerken kamera nokta ölçeği ile
+      //   imparatorluk ölçeği arasında gidip geliyordu — *"bir yakın bir
+      //   uzak"* şikâyetinin bu sekmedeki hâli.
+      // 📌 Ve sekme AÇILIRKEN gövde zaten çerçeveleniyor (`render()` →
+      //   `devletiYay`), yani kullanıcı devletin bütününü BİR KEZ görüyor.
+      //   Her maddede oraya geri sıçramak bilgi eklemiyor, yalnız yoruyor.
+      if (obYerYokEl) {
+        obYerYokEl.textContent = "📍 Bu maddenin haritada nokta yeri işaretlenmemiş — harita yerinde kaldı.";
+      }
     } else {
       // 🔴 `d.harita || d.id` — KÜNYE KİMLİĞİ ile HARİTA KİMLİĞİ AYRI ŞEYLER.
       // Ölçüldü: `habsburg` künyesinin `harita:` alanı **"avusturya"**dır ve
