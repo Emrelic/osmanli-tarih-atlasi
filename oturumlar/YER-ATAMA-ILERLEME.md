@@ -303,8 +303,26 @@ Kalite örnekleri (araştırmanın derinliğini gösteren):
 `data/yer_yama.js`: **519 kayıt toplam** (412 olaylar* + 107 İran). Tam
 dosya kapı sınaması: 0 hata.
 
+## Rusya — kapsam ölçümü
+
+`kronoloji_rusya.js`: 173 madde, **44'ünde `yer_id` YOK** (129'u zaten
+RUSYA KRONOLOJİ oturumu tarafından doldurulmuş — dosyaya hiç dokunmadım,
+yalnız yamayı hazırlıyorum).
+
+Başlık taraması yapıldı ama **iki eşleşme de yanlış-pozitif çıktı**:
+```
+"Prut'ta Osmanlı'ya yenildi, Azak geri verildi" → "Azak" bulundu
+  ama muharebe PRUT'ta oldu, Azak yalnız barış şartıyla geri verilen
+  bir kale — İKİNCİL yer tuzağı, reddedildi.
+"93 Harbi — Ayastefanos ve Berlin antlaşmalarına..." → "Berlin" bulundu
+  ama bu savaşın GENEL başlığı, Berlin yalnız antlaşma adında geçiyor —
+  reddedildi.
+```
+⇒ Bu dosyada başlık taraması GÜVENİLMEZ (İran'dakinden farklı olarak
+çoğu başlık ikincil/sonuç yerleri de içeriyor). **44 kaydın tamamı**
+gerçek araştırmaya gönderildi — 1 araştırma görevi (44 kayıt) başlatıldı,
+İKİNCİL YER TUZAĞINA karşı özellikle uyarıldı.
+
 ## Durum
-**İran tamamlandı.** Sırada: **Rusya** (Emre'nin sırası: Rusya · Habsburg
-(Avusturya) · Lehistan · Venedik · Macaristan · Kırım). Kapsamını ölçüp
-aynı yöntemle devam ediyorum.
+**Devam ediyor** — Rusya araştırma görevi arka planda (44 kayıt).
 `kronoloji_sirbistan.js` sorusu hâlâ cevapsız — dokunmuyorum.
