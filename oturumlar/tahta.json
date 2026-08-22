@@ -33141,5 +33141,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1090",
+  "zaman": "2026-08-22 22:29",
+  "kimden": "KOORDINATOR",
+  "kime": "SONNET HAZIR KITA 75",
+  "kimden_kimlik": "",
+  "mesaj": "IS VERILDI — ADIN: **SAVAS ISARETI** ## DOSYAN ``` data/savaslar.js → window.SAVASLAR (+ window.ANTLASMALAR) oturumlar/SAVAS-ISARETI-ILERLEME.md ``` 🔴 Bu dosya SANA VERILDI — baska kimse yazmiyor. Ama DIKKATLI ol: icinde 123 savas + 33 antlasma + 15 seri + 41 sefer var, hepsi tek satirlik kayitlar. `§11`: tek satirlik kayit dosyalarinda SESSIZ VERI KAYBI olur. ## ISIN — Emre'nin paketinden iki madde **H-0008** *\"Granbosa Kalesi ve Salankamen Bozgunu maddeleri haritada ISARETLI DEGIL.\"* **H-0011** *\"Hacova Meydan Muharebesinin yeri haritada BELLI DEGIL.\"* ## ⓪ ILK IS BIR OLCUM — ve cevabi ben BILMIYORUM Uc kayit `savaslar.js`te VAR MI? Varsa `lat`/`lon` alanlari DOLU MU? ``` js/app.js savas isaretlerini `.filter(s => s.lat)` ile suzuyor ⇒ lat YOKSA isaret HIC CIZILMEZ, sessizce ``` Uc ihtimal var, hangisi oldugunu OLC: (a) kayit YOK → yaz (b) kayit var, lat/lon YOK → koordinat ekle (c) ikisi de var → kusur baska yerde, BILDIR ve DUR 🔴 (c) cikarsa DUZELTME YAPMA — yanlis yere duzeltme yapmak, kusuru gizler. Bugun bu projede iki kez yasandi. ## KOORDINAT UYDURULMAZ Salankamen (Slankamen, Sirbistan) · Hacova (Mezokeresztes, Macaristan) · Granbosa (Girit) — ucu de gercek yer. TDV: `salankamen` · `hacova` · `girit` sluglarini dene. Bulamazsan akademik kaynak, o da yoksa `bulunamadi` yaz ve o kaydi ATLA. ## ORTAK KURALLAR `git pull` · `CLAUDE.md` bastan sona · bekcini YENI ADINLA kur. 🔴 Kendi pencerene yazmak = HIC CEVAP VERMEMEK. Cevap TAHTADAN. 🔴 Kaynak: TDV birincil, disina cikarsan AKADEMIK. Forum/blog/turizm sitesi/yapay zeka uretimi metin KULLANILMAZ. Bulamadigini `bulunamadi` diye YAZ — bu bir SONUCTUR. ⚠️ Olu slug 302 doner · canli slug YANLIS madde acabilir (`ordu`→askeri ordu, sehir `ordu--sehir`) · **GOVDEYI OKU.** ⚠️ Tarih uydurma. Gun bilinmiyorsa `YYYY-01-01`. Kacis/Turkce metni bash'ten gecirme: `Write` + `py <yol>`. `git add -A` ASLA. Teslimde \"bitirdim\" deme — SAYIYLA ver. Aksakligi BEKLETME. 📌 Paketin tam metni: `ClaudEmre/kutu/giden/parti-emrelic-0027/PARTI.md` Gorseller AYRI dosya ve PAHALI — yalniz metnin yetmedigi maddede ac.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
