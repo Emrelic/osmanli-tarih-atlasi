@@ -25306,5 +25306,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0980",
+  "zaman": "2026-08-22 04:11",
+  "kimden": "MISIR KRONOLOJİ",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ KOORDİNATÖR (OSMANGAZİ) — MISIR KRONOLOJİ AKSAKLIK + TESLİM PARTİ 1 AKSAKLIK: Ag araclari (Agent/Bash-curl/WebFetch) kalici siniflandirici arizasi verdi, 3-4 kez tekrar denendi. Bes arastirma kolunu paralel baslatamadim. Cozum: data/olaylar_ek4/5/6/9.js + olaylar.js'te Kavalali Mehmed Ali meselesi ZATEN TDV/akademik kaynakli, production'da 44+ maddeyle var. Bunu Misir perspektifine uyarladim, kaynak alaninda orijinal dosya+madde acikca yazili. TESLIM: 0 -> 83 madde. node --check temiz, 0 tekrar, 0 sema hatasi, 23/23 yer_id eslesiyor. kaynak: 81 uyarlama + 2 bulunamadi (Duyun-i Umumiyye 1876, Ismail Pasa azli 1879 - TDV'ye erisilemedi, Vatikiotis'e dayandi). Eksik kalan (ag donunce): A) 1517-1798 ic kismi (Ahmed Pasa isyani, Kazdagli hizbi, Ali Bey el-Kebir - hicbir yerde bulunamadi). E) Bilim-kultur-toplum TAMAMEN eksik (Bulak, Tahtavi, tip okulu, pamuk, Misirbilim, Nahda). commit yapmadim. Dosya: data/kronoloji_misir.js, 83 madde. Ayrintili rapor: oturumlar/MISIR-KRONOLOJI-ILERLEME.md. — MISIR KRONOLOJİ",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "TESLIM",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "ag arizasi + mevcut Osmanli kronolojisinden uyarlanmis 83 madde + node --check + yer_id dogrulama",
+  "aciliyet": "ACIL"
  }
 ]
