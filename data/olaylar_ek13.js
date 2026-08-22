@@ -118,7 +118,7 @@ window.OLAYLAR_EK13 = [
   b:"Arzila'nın Portekiz tarafından alınışı — Fas kıyısında ikinci köprübaşı",
   gun:"24 Ağustos 1471", yer:"Arzila (Asîlâ) — Fas",
   kisiler:"V. Afonso (Portekiz kralı)",
-  d:"V. Afonso 30.000 kişilik bir kuvvet ve 400 parçalık donanmayla bizzat Fas kıyısına çıktı ve Vattâsî idaresindeki Arzila'yı 24 Ağustos 1471'de aldı. Şehrin düşmesi Tanca'nın direncini kırdı; Tanca dört gün sonra, 28 Ağustos'ta savaşsız teslim oldu. Portekiz böylece Sebte (1415) ve Kasrüssagīr'den (1458) sonra Fas'ın Atlas kıyısında üçüncü ve dördüncü mevziisini kurdu; kral bu seferden sonra unvanına \"Afrika'nın efendisi\" ibaresini ekletti.", duygu:["🎉"] },
+  d:"V. Afonso 30.000 kişilik bir kuvvet ve 400 parçalık donanmayla bizzat Fas kıyısına çıktı ve Vattâsî idaresindeki Arzila'yı 24 Ağustos 1471'de aldı. Şehrin düşmesi Tanca'nın direncini kırdı; Tanca dört gün sonra, 28 Ağustos'ta savaşsız teslim oldu. Portekiz böylece Sebte (1415) ve Kasrüssagīr'den (1458) sonra Fas'ın Atlas kıyısında üçüncü ve dördüncü mevziisini kurdu; kral bu seferden sonra unvanına \"Afrika'nın efendisi\" ibaresini ekletti.", duygu:["🎉"], yer_id:"Arzila (Asilah)" },
 
 // ---------------------------------------------------------------------------
 // A-4 — Safi   ⚠️ BAŞLANGIÇ TARİHİNDE KAYNAKLAR AYRIŞIYOR
@@ -159,7 +159,7 @@ window.OLAYLAR_EK13 = [
   b:"Mazagan kalesinin kurulması — Fas'ta en uzun kalacak Portekiz mevzii",
   gun:"1514 yazı (gün kaynakta yok; kale 1541-42'de yeniden ve çok daha güçlü inşa edildi)",
   yer:"Mazagan (el-Cedîde) — Fas Atlas kıyısı",
-  d:"Azemmûr'un alınmasının ertesi yılı, 1514 yazında kıyıda Mazagan hisarı inşa edildi. 1541'deki genel çöküşten sonra Portekiz, Fas'taki bütün mevzilerini bırakırken Mazagan'ı bırakmadı; tersine kaleyi İtalyan tarzı burçlarla baştan yaptırdı ve şehir iki yüz elli beş yıl boyunca elde tutuldu. 1562'deki büyük kuşatma da püskürtüldü. Mazagan, Portekiz'in Fas'taki son mevzii olarak 1769'da boşaltılacaktı.", duygu:["🌱"] },
+  d:"Azemmûr'un alınmasının ertesi yılı, 1514 yazında kıyıda Mazagan hisarı inşa edildi. 1541'deki genel çöküşten sonra Portekiz, Fas'taki bütün mevzilerini bırakırken Mazagan'ı bırakmadı; tersine kaleyi İtalyan tarzı burçlarla baştan yaptırdı ve şehir iki yüz elli beş yıl boyunca elde tutuldu. 1562'deki büyük kuşatma da püskürtüldü. Mazagan, Portekiz'in Fas'taki son mevzii olarak 1769'da boşaltılacaktı.", duygu:["🌱"], yer_id:"Mazagan (El Jadida)" },
 
 // ---------------------------------------------------------------------------
 // A-8 — Agadir'in düşüşü   🔴 1541 ÇÖKÜŞÜNÜN TETİĞİ, GÜN KESİN
@@ -202,7 +202,7 @@ window.OLAYLAR_EK13 = [
   yer:"Arzila (Asîlâ) — Fas kuzey kıyısı",
   kisiler:"III. João (Portekiz kralı), Muhammed eş-Şeyh",
   d:"Malî bunalım ve Sa'dî baskısının birleşmesiyle III. João, 1471'den beri elde tutulan Arzila'yı boşalttı. TDV `fas` maddesi tarihi bir yıl sonraya koyar ve şehri komşusuyla birlikte anar: \"Portekizliler… 1550'de de Kasrüssagīr ile Asîlâ'yı boşaltmak zorunda kaldılar\"; aynı yıl Fas şehri de Sa'dîler'in eline geçti. Portekiz'in Fas'taki varlığı böylece Sebte, Tanca ve Mazagan'a indi. Arzila 1577'de kısa süre yeniden işgal edilecek, 1589'da kesin olarak bırakılacaktı.",
-  kaynak:"fas", duygu:["😔"] },
+  kaynak:"fas", duygu:["😔"], yer_id:"Arzila (Asilah)" },
 
 // ---------------------------------------------------------------------------
 // A-11 — Mazagan'ın boşaltılması   🔴 GÜN KESİN — Portekiz Fası'nın sonu
@@ -212,7 +212,7 @@ window.OLAYLAR_EK13 = [
   gun:"11 Mart 1769 (tahliye filosu Lizbon'dan 1 Şubat'ta hareket etti)",
   yer:"Mazagan (el-Cedîde) — Fas Atlas kıyısı",
   kisiler:"Sultan III. Muhammed b. Abdullah, Dinis Gregório (vali), Bernardo Ramires Esquível",
-  d:"Alevî sultanı III. Muhammed b. Abdullah'ın 1769 başında başlattığı kuşatma karşısında 592 kişilik garnizon tutunamadı; Lizbon'dan 1 Şubat'ta yola çıkan tahliye filosu 11 Mart 1769'da son askerleri gemiye aldı ve şehri en son vali Dinis Gregório terk etti. Böylece 1415'te Sebte'nin alınmasıyla başlayan Portekiz'in Fas'taki varlığı üç buçuk asır sonra sona erdi. Mazagan, 1541'deki genel çöküşten sonra elde tutulan tek Atlas kıyısı mevziiydi ve iki yüz elli beş yılla Portekiz'in Fas'ta en uzun tuttuğu yer oldu.", duygu:["😔"] },
+  d:"Alevî sultanı III. Muhammed b. Abdullah'ın 1769 başında başlattığı kuşatma karşısında 592 kişilik garnizon tutunamadı; Lizbon'dan 1 Şubat'ta yola çıkan tahliye filosu 11 Mart 1769'da son askerleri gemiye aldı ve şehri en son vali Dinis Gregório terk etti. Böylece 1415'te Sebte'nin alınmasıyla başlayan Portekiz'in Fas'taki varlığı üç buçuk asır sonra sona erdi. Mazagan, 1541'deki genel çöküşten sonra elde tutulan tek Atlas kıyısı mevziiydi ve iki yüz elli beş yılla Portekiz'in Fas'ta en uzun tuttuğu yer oldu.", duygu:["😔"], yer_id:"Mazagan (El Jadida)" },
 
 // ===========================================================================
 // İŞ ③ — BAHREYN (D9'un borcu)
@@ -241,7 +241,7 @@ window.OLAYLAR_EK13 = [
   gun:"1417 (TDV hanedan sırasını verir, TARİH VERMEZ; yıl komşu Katîf ve Lahsa kayıtlarının deseninden alındı — literatür Cebrî hanedanının kuruluşunu XV. yüzyıl başına koyar)",
   yer:"Bahreyn (Evâl adaları), Katîf, Lahsa",
   d:"TDV `bahreyn` maddesi adanın \"sırasıyla Uyûnîler, Salgurlular, Tabîler, Cebrîler idaresinde kaldığı ve Cebrîler devrinde çoğunluğun Şiîler'den Sünnîler'e geçtiği\" kaydını düşer; hiçbirine tarih vermez. Genel literatürde Cebrî hanedanı XV. yüzyılın başında, Katîf'teki son Cervânî hükümdarını devirerek kuruldu ve en parlak devrinde (Acvâd b. Zâmil, ö. 1496) Basra körfezinin bütün Arap kıyısını, Lahsa'yı, Katîf'i ve Bahreyn adalarını denetledi. Acvâd'ın ardından Evâl adaları Mukrin b. Zâmil'e geçti — 1521'de Portekizliler'e yenilecek olan hükümdar odur.",
-  kaynak:"bahreyn", duygu:["🏛"] },
+  kaynak:"bahreyn", duygu:["🏛"], yer_id:"Manama (Bahreyn)" },
 
 // ---------------------------------------------------------------------------
 // A-13 — Portekiz'in Bahreyn'i alışı
@@ -252,7 +252,7 @@ window.OLAYLAR_EK13 = [
   yer:"Bahreyn (Evâl adaları)",
   kisiler:"António Correia, Mukrin b. Zâmil (Cebrî hükümdarı)",
   d:"Cebrî hükümdarı Mukrin b. Zâmil'in Hürmüz'e vergi ödemeyi reddetmesi üzerine Portekiz donanması ile Portekiz'e tâbi Hürmüz Krallığı'nın kuvvetleri adaya çıktı; Mukrin savaşta yenildi ve Bahreyn 1521'de Portekiz idaresine girdi. Ada bundan sonra seksen yıl boyunca Hürmüz üzerinden, çoğunlukla Sünnî İranlı valiler eliyle yönetildi. Bahreyn'in incisi ve stratejik konumu, adayı körfezdeki Osmanlı-Portekiz çekişmesinin doğrudan hedefi hâline getirecekti.",
-  kaynak:"bahreyn", duygu:["😔"] },
+  kaynak:"bahreyn", duygu:["😔"], yer_id:"Manama (Bahreyn)" },
 
 // ---------------------------------------------------------------------------
 // A-14 — 1559 Osmanlı seferi   🔴 TDV ile BATI LİTERATÜRÜ ÇELİŞİYOR
@@ -278,7 +278,7 @@ window.OLAYLAR_EK13 = [
   yer:"Bahreyn (Evâl adaları)",
   kisiler:"Mustafa Paşa (Lahsa beylerbeyi)",
   d:"Basra'nın 1546'da ilhakı ve Lahsa eyaletinin kurulmasıyla körfezin Arap kıyısına yerleşen Osmanlı Devleti, adanın inci ticaretini ve Portekiz'in Hürmüz hattını hedef alarak Lahsa beylerbeyi Mustafa Paşa kumandasında Bahreyn üzerine yürüdü. Seferin sonucu kaynaklarda ayrışır: TDV `bahreyn` maddesi Osmanlılar'ın \"1559 yılında Bahreyn'i ele geçirip orada bir üs\" kurduğunu, adaların \"daha sonra tekrar Portekizliler'in idaresine\" geçtiğini yazar; batı literatürü ise kuşatmanın başarısız olduğunu, Hürmüz'den denizden gelen Portekiz takviyesinin Osmanlı kuvvetlerini püskürttüğünü ve her iki tarafı da kıran bir veba salgınının ardından Osmanlılar'ın teslim şartları istediğini kaydeder. İki anlatı sonucun kendisinde ayrılır; ortak olan, Bahreyn'in Osmanlı elinde kalıcı olmadığıdır.",
-  kaynak:"bahreyn", duygu:["🐎","😔"] },
+  kaynak:"bahreyn", duygu:["🐎","😔"], yer_id:"Manama (Bahreyn)" },
 
 // ---------------------------------------------------------------------------
 // A-15 — Safevî fethi
@@ -289,7 +289,7 @@ window.OLAYLAR_EK13 = [
   yer:"Bahreyn (Evâl adaları)",
   kisiler:"Şah I. Abbas, Allahverdi Han",
   d:"Şah I. Abbas'ın gönderdiği kuvvetler adadaki isyancılarla birleşerek Portekiz garnizonunu kaleden çıkardı; TDV'nin ifadesiyle adalar \"1602'de İran'a bağlı kuvvetler tarafından\" Portekizliler'in elinden alındı. Bahreyn böylece seksen bir yıllık Portekiz idaresinden çıkıp Safevî hâkimiyetine girdi ve yüz on beş yıl İran'a bağlı kaldı. Bu, Portekiz'in körfezdeki çözülmesinin ilk halkasıdır; yirmi yıl sonra Hürmüz'ün kendisi de İngiliz-İran ortak harekâtıyla düşecekti.",
-  kaynak:"bahreyn", duygu:["🏛"] },
+  kaynak:"bahreyn", duygu:["🏛"], yer_id:"Manama (Bahreyn)" },
 
 // ---------------------------------------------------------------------------
 // A-16 — Umman istilâsı
@@ -299,7 +299,7 @@ window.OLAYLAR_EK13 = [
   gun:"1717 (gün ve ay kaynakta yok)",
   yer:"Bahreyn (Evâl adaları)",
   d:"Safevî Devleti'nin son yıllarındaki çözülme sırasında Ya'rubî hanedanı idaresindeki Umman donanması adayı istilâ etti ve Safevî hâkimiyeti sona erdi. Bunu izleyen otuz beş yıl körfezin en karışık dönemidir: ada Umman, İran ve yerel Arap güçleri arasında birkaç kez el değiştirdi. ⚠️ Bu pencerenin iç ayrıntısı bu turda kesinleştirilemedi; kayıt yazılırken tek blok mu yoksa birkaç dönem mi olacağı ayrı bir ölçüm ister.",
-  kaynak:"bahreyn", duygu:["🏛"] },
+  kaynak:"bahreyn", duygu:["🏛"], yer_id:"Manama (Bahreyn)" },
 
 // ---------------------------------------------------------------------------
 // A-17 — Âl-i Mezkûr dönemi
@@ -310,7 +310,7 @@ window.OLAYLAR_EK13 = [
   yer:"Bahreyn (Evâl adaları), Bûşehr",
   kisiler:"Âl-i Mezkûr ailesi",
   d:"Aslen Umman'dan gelip Bûşehr'e yerleşen ve Huvele sayılan Âl-i Mezkûr ailesi, 1753'te Bûşehr'deki üslerinden hareketle Bahreyn'i idareleri altına aldı. Aile İran'ın körfez kıyısındaki Arap topluluklarına önderlik ediyor ve adayı İran adına yönetiyordu; son temsilcisi Nasr Âl-i Mezkûr, Bahreyn valiliğine Zend idaresince atanmıştı. Bu, adanın Âl-i Halîfe'den önceki son yönetimidir.",
-  kaynak:"bahreyn", duygu:["🏛"] },
+  kaynak:"bahreyn", duygu:["🏛"], yer_id:"Manama (Bahreyn)" },
 
 // ---------------------------------------------------------------------------
 // A-18 — Âl-i Halîfe'nin fethi   🔴 RENK KİMLİĞİ YOK (ilerleme dosyası §İŞ ③)
@@ -321,7 +321,7 @@ window.OLAYLAR_EK13 = [
   yer:"Bahreyn (Evâl adaları), Zübâre — Katar yarımadası",
   kisiler:"Ahmed b. Muhammed b. Halîfe, Nasr Âl-i Mezkûr",
   d:"Zend idaresinin Bahreyn valisi Nasr Âl-i Mezkûr, Katar yarımadasındaki Zübâre'yi kuşattı; Ahmed b. Muhammed b. Halîfe kumandasındaki Utûb kuvvetleri kuşatmayı kırdı ve karşı taarruza geçerek aynı yıl Bahreyn'i aldı. TDV'nin kaydı kısadır: \"Bahreyn 1783 yılında Utûb kabilesinden Âl-i Halîfe'nin hâkimiyetine girdi.\" Ahmed b. Muhammed bu zaferden sonra \"el-Fâtih\" lakabıyla anıldı ve kurduğu hanedan adada bugüne kadar hüküm sürdü.",
-  kaynak:"bahreyn", duygu:["🏛"] },
+  kaynak:"bahreyn", duygu:["🏛"], yer_id:"Manama (Bahreyn)" },
 
 // ---------------------------------------------------------------------------
 // A-19 — İngiltere ile antlaşma   ⚠️ TDV 21 MAYIS, ATLAS 31 MAYIS
@@ -334,7 +334,7 @@ window.OLAYLAR_EK13 = [
   yer:"Bahreyn (Evâl adaları)",
   kisiler:"Şeyh Muhammed b. Halîfe, kardeşi Ali",
   d:"TDV'nin kaydına göre \"21 Mayıs 1861'de İngiltere ile Bahreyn'i temsilen Şeyh Muhammed'in kardeşi Ali, bölgede köle ticaretini ve korsanlığı meneden bir anlaşma imzaladılar\"; İngiliz belgelerinde aynı antlaşma (Perpetual Truce of Friendship and Peace) 31 Mayıs 1861 tarihini taşır. Antlaşma Bahreyn'in dış ilişkilerini İngiltere'ye bağlayan himaye düzeninin ilk halkasıdır ve ada, Osmanlı'nın 1871'de Lahsa ile Katîf'e yeniden yerleşmesinden sonra da bu düzenin dışında kaldı. ⚠️ İki tarih arasındaki on günlük fark bu turda çözülemedi; atlas bugün 31 Mayıs'ı taşıyor.",
-  kaynak:"bahreyn", duygu:["🤝"] },
+  kaynak:"bahreyn", duygu:["🤝"], yer_id:"Manama (Bahreyn)" },
 
 // ===========================================================================
 // İŞ ④ — MARDİN ÇELİŞKİSİ (PETEK/NOKTA'nın iddia denetiminden)

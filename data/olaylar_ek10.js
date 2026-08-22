@@ -300,7 +300,7 @@ window.OLAYLAR_EK10 = [
   kisiler:"III. Ahmed, Boğdan Voyvodası Dimitrie Cantemir (1711'de Rusya'ya geçen voyvoda), Demirbaş Şarl",
   d:"Prut seferinde Boğdan voyvodası Dimitrie Cantemir'in Rusya tarafına geçmesi, voyvodalığın kuzey sınırının artık voyvodaya bırakılamayacağını gösterdi. Bunun üzerine Hotin 1711'den sonra Boğdan'dan alınıp doğrudan Osmanlı idaresine sokuldu; önce bir nahiye, sonra sancak statüsü verildi. 1713'teki geçici Rus işgalinin ardından kale İstanbul'dan gönderilen Osmanlı ve Fransız teknik heyetinin nezaretinde yeniden tamir edilerek genişletildi ve Tuna'nın kuzeyindeki en güçlü Osmanlı istihkâmı hâline geldi. Haritada bu tarihten sonra Hotin'in tâbi voyvodalık tonundan çıkıp doğrudan Osmanlı rengine dönmesi, ve tâbi Boğdan'ın ortasında yalnız bir ada gibi durması işte bu idarî ayrılmanın karşılığıdır — bir çizim hatası değildir. Aynı yapı Bucak'ta 1538'den, Kili ve Akkirman'da 1484'ten beri zaten vardı: voyvodalık iç işlerinde serbest, sınır kaleleri devletin.",
   statu_dogrudan:["Hotin"],
-  kaynak:"hotin", duygu:["📋"] },
+  kaynak:"hotin", duygu:["📋"], yer_id:"Hotin" },
 
 // ===========================================================================
 // D BLOĞU — hatalar 11, Balkan ekseni 1877-1913 (md.38·39 · md.46-49 · md.54 ·
@@ -359,7 +359,7 @@ window.OLAYLAR_EK10 = [
   gun:"18 Kasım 1877", yer:"Kars Kalesi ve Erzurum-Aziziye tabyaları",
   kisiler:"Ahmed Muhtar Paşa, General Melikof, General Lazarof, Nene Hatun",
   d:"Doğu Anadolu'da Kars, Doğubayazıt ve Ardahan'a doğru üç koldan ilerleyen Ruslar 30 Nisan'da Doğubayazıt'ı almış, Ardahan'a girmiş, fakat Erzurum üzerine yürürken 15 Temmuz'da mağlûp edilerek sınır dışına atılmışlardı. Ahmed Muhtar Paşa'ya \"Gazi\" unvanını kazandıran bu başarı ağustosta General Lazarof'un yeniden taarruza geçmesiyle tersine döndü ve 18 Kasım'da Kars düştü. Daha uygun bir savunma için Erzurum'a çekilen Osmanlı kuvvetleri Aziziye tabyalarında, Nene Hatun'un ahaliyi teşvikiyle büyük bir mukavemet gösterdi. Kars, Ardahan ve Batum sekiz ay sonra Berlin'de harp tazminatının bir kısmına karşılık Rusya'ya bırakılacaktır.",
-  kaynak:"doksanuc-harbi", duygu:["😔"] },
+  kaynak:"doksanuc-harbi", duygu:["😔"], yer_id:"Kars" },
 
 // --- md.46-49 — Ayastefanos'tan Berlin'e ----------------------------------
 
@@ -370,7 +370,7 @@ window.OLAYLAR_EK10 = [
   gun:"8 Ekim 1912", yer:"Arnavutluk ve Yenipazar sancağı",
   kisiler:"Karadağ Kralı Nikola, Sadrazam Gazi Ahmed Muhtar Paşa, Hariciye Nâzırı Noradungiyan Efendi",
   d:"Balkan devletleri, İttihat ve Terakkî'nin 3 Temmuz 1911 tarihli kanunla kiliseler meselesini çözmesinin ardından aralarındaki en büyük engeli kaldırmış, Rusya'nın kışkırtmasıyla 1912 boyunca birbirleriyle ittifak antlaşmaları imzalamışlardı (13 Mart'ta Bulgaristan-Yunanistan, ağustosta Karadağ-Bulgaristan, 6 Ekim'de Karadağ-Sırbistan). Bâbıâli bunu farketmedi; hatta Rusya'nın teminatına güvenerek Rumeli'deki 120 tâlimli taburu terhis etti. Dört devlet 3 Ekim'de ortak nota vererek Makedonya, Arnavutluk ve Girit'e muhtariyet istedi; cevap alamayınca 8 Ekim 1912'de Karadağ'ın savaş ilânıyla harekât başladı. 13 Ekim'de Sırbistan ve Bulgaristan elçilerinin pasaportları ellerine verildi, ertesi gün bu iki devlet, ardından Yunanistan savaş ilân etti. ⚠️ Kronolojide bu olay bugüne kadar ay hassasiyetli `1912-10` olarak duruyordu; CLAUDE.md §8 gün yazılmasını şart koşuyor.",
-  kaynak:"balkan-savasi", duygu:["⚔️"] },
+  kaynak:"balkan-savasi", duygu:["⚔️"], yer_id:"Yenipazar (Novi Pazar)" },
 
 { t:"1912-10-23", k:"kayip", etiket:["savas","toprak-kaybi"],
   b:"Şark Ordusu'nun bozgunu ve Çatalca hattına çekiliş — Kumanova ve Selânik'in kaybı",
@@ -414,7 +414,7 @@ window.OLAYLAR_EK10 = [
   kisiler:"I. Abdülhamid, Avusturya İmparatoru II. Joseph",
   d:"Avusturya'nın 9 Şubat 1788'de Rusya'nın yanında savaşa girmesinin ardından Sava hattı yeniden cephe oldu ve Böğürdelen 24 Nisan 1788'de Avusturya hâkimiyetine geçti. Kale daha önce 17 Ağustos 1717'de savaşsız olarak Avusturya'ya terkedilmiş ve Belgrad Antlaşması'na (1739) kadar elde tutulmuştu; o dönemde nüfusu öylesine azalmıştı ki şehirde otuz dört hıristiyan evi kalmış, hiç müslüman kalmamıştı. 1739-1788 arasındaki Osmanlı devrinde nüfus yeniden 1500-2000'e çıkmıştı. İkinci işgal Ziştovi Antlaşması'yla (4 Ağustos 1791) sona erecek ve kale Osmanlılar'a iade edilecekti.",
   kaybedilen:["Böğürdelen (Šabac)"],
-  kaynak:"bogurdelen", duygu:["😔"] },
+  kaynak:"bogurdelen", duygu:["😔"], yer_id:"Böğürdelen (Šabac)" },
 
 { t:"1806-01-26", k:"kayip", etiket:["toprak-kaybi","isyan"],
   b:"Böğürdelen'in Kara Yorgi'ye teslimi — Birinci Sırp İsyanı'nda ilk kale",
@@ -422,7 +422,7 @@ window.OLAYLAR_EK10 = [
   kisiler:"III. Selim, Karadjordje (Kara Yorgi) Petroviç",
   d:"1804'te Belgrad'daki dayı ve yamakların baskısına tepki olarak başlayan, sonra milliyetçi bir karakter kazanan ilk Sırp ihtilâli sırasında Böğürdelen Kalesi 26 Ocak 1806'da Kara Yorgi'ye teslim edildi. Sava üzerindeki bu kale, isyancıların ele geçirdiği ilk büyük Osmanlı istihkâmıdır ve Belgrad'ın düşüşünü haber verir. İsyan 1813'te bastırılıp Belgrad geri alınınca kale de Osmanlı idaresine döndü; ancak 1830 fermanının garnizon şartıyla Böğürdelen, Belgrad, Semendire ve Fethülislâm ile birlikte özerk Sırbistan'ın içinde Osmanlı askerinin kaldığı dört kaleden biri olarak tanımlandı ve 1867'de garnizonu çekilene kadar bu statüde kaldı.",
   kaybedilen:["Böğürdelen (Šabac)"],
-  kaynak:"bogurdelen", duygu:["😔"] },
+  kaynak:"bogurdelen", duygu:["😔"], yer_id:"Böğürdelen (Šabac)" },
 
 { t:"1457-01-01", k:"fetih", etiket:["toprak-kazanc","idare"],
   b:"Podgorica'nın Osmanlı topraklarına katılması — Zeta ovasının denetim altına alınması",
@@ -438,7 +438,7 @@ window.OLAYLAR_EK10 = [
   kisiler:"II. Murad, Üsküp beyi İshak Bey, oğlu Îsâ Bey",
   d:"Bosna kralları 1428-1429'da haraca bağlandıktan sonra Osmanlılar krallığın içine doğru kalıcı biçimde yerleşmeye başladı. 1428-1435 arasında Hodidjed kasabası alındı; 852'de (1448) Hodidjed vilâyeti Saray ovasıyla birlikte tamamen Osmanlı idaresine girdi. Bu, Bosna'nın fethinden on beş yıl önce krallığın ortasında kurulmuş bir uç sahasıdır ve voyvoda unvanı taşıyan Üsküp beyi Îsâ Bey tarafından idare edilmiştir — çevresinde hâlâ Osmanlı'ya tâbi Bosna beyleri bulunduğu için bölge çift taraflı denetim altındaydı. Şehrin kendisi de bu dönemde doğdu: 1462'den önce İshak Bey ya da oğlu Îsâ Bey ilk müslüman mahallesini kurdu, 862'de (1458) Fâtih adına Hünkâr Camii yapıldı ve Brodec köyünün ekinliği imar edilerek Saray kasabası ortaya çıktı. 1463'teki fetih Bosna Krallığı'nı ortadan kaldırdı; Saray ovası ise o tarihte zaten on beş yıldır Osmanlı toprağıydı.",
   fethedilen:["Saraybosna"],
-  kaynak:"saraybosna", duygu:["🎉"] },
+  kaynak:"saraybosna", duygu:["🎉"], yer_id:"Saraybosna" },
 
 { t:"1465-01-01", k:"fetih", etiket:["toprak-kazanc","idare"],
   b:"Foça'nın alınışı — Hersek Düklüğü'ne ilk girişin açılması",
