@@ -161,8 +161,78 @@ arastir_sonuc_3.json: 44 kayıt — yer_id 25 · eksik_nokta 11 · kapsam_genis 
 ```
 `data/yer_yama.js`: **140+53+175 = 368/412 kayıt**.
 
+## 🟢 ① TAMAMLANDI — olaylar*.js, 412/412 kayıt
+
+Son alt-parti (2/5, 44 kayıt) geldi, doğrulandı (0 hata), birleştirildi.
+`data/yer_yama.js`: **412 kayıt — TAMAMI**.
+
+Bütün dosya üzerinde son kapı sınaması (`kapi_yer_yama.js`, iki yönlü):
+```
+ATEŞLEME (5 kasıtlı bozuk kayıt) → 5/5 hata sınıfı yakalandı, çıkış 0
+TEMİZ SINAMA (gerçek 412 kayıt)  → 0 hata, çıkış 0
+```
+
+### TESLİM RAPORU — ① olaylar*.js (şartname §7 sırasıyla)
+
+```
+① İŞLENEN: 412/412 (18 dosyanın tamamı) — yer_id 322 · eksik_nokta 55 · kapsam_genis 35
+② "bulunamadı": 0 — hiçbir madde atlanmadı; her biri yer_id/eksik_nokta/
+   kapsam_genis üçünden birine net biçimde yerleşti
+③ eksik_nokta — 54 benzersiz aday (55 kayıttan, 2 kayıt aynı savaşın iki
+   ayrı olayı olduğu için aynı koordinata düştü): tam liste aşağıda
+④ §1'deki 1488 sayısı bağımsız ölçüldü ve TUTTU (4262/1488/8 — açılış
+   raporunda bildirilmişti); bu partinin kendi alt-kümesi (olaylar*.js
+   412) da baştan sona kendi ölçümümle üretildi, sapma yok
+⑤ kapı betiği iki yönlü sınandı — yukarıda, 0 hata
+⑥ NE BULAMADIM:
+   - Birkaç TDV↔kayıt TARİH uyuşmazlığı görüldü (İsa Çelebi 1403 vs
+     kayıttaki 1406, Karakoyunlu 1467-11 TDV vs 1468-04 kayıt, Mekteb-i
+     Harbiye 1834 kayıt vs TDV 1835, vb.) — GÖREVİM YALNIZ YER olduğu
+     için tarihlere DOKUNULMADI, `not:` alanına açıkça yazıldı.
+   - Birkaç düşük-kesinlik koordinat (Kerden/Kazvin, Fethâbâd/Kuçan,
+     Rovine) — kaynakta "kesin yeri tartışmalı" diye işaretli, `not:`ta
+     açık.
+⑦ BAĞLANMAYI BEKLİYOR: data/yer_yama.js → window.YER_YAMA (412 kayıt,
+   ÇALIŞMA AĞACINDA, commit edilmedi — NOKTA EPİR emsali)
+```
+
+### eksik_nokta — 54 benzersiz aday (koordinatör nokta oturumuna paslayabilir)
+
+```
+Zitvatorok (Zsitva-Tuna kavşağı) 47.77,18.20 · Granbosa (Gramvousa) 35.61,23.58
+Suda Kalesi (Girit) 35.49,24.19 · Bucaş (Podolya) 49.07,25.40
+Karlofça 45.20,19.93 · Polatlı (Sakarya cephesi) 39.58,32.15
+Ključ Kalesi (Bosna) 44.53,16.77 · Bileća (Hersek) 42.87,18.43
+Rovine (Eflak/Oltenya) 44.33,23.80 · Linz 48.31,14.29
+Salankamen 45.12,20.25 · Lugoş 45.68,21.95
+Ulaş/Olash (Bega) 45.75,21.30 · Zenta (Senta) 45.93,20.09
+Ebûkır (Aboukir) 31.32,30.07 · Reşid (Rosetta) 31.40,30.42
+Safra (Hicaz) 24.20,39.05 · Bisel (Necid) 26.00,43.50
+Missolonghi 38.37,21.42 · Belen (Hatay) 36.20,36.19
+es-Süveydâ (Cebel-i Dürûz) 32.70,36.57 · Birecik 37.02,37.98
+Nizip 37.01,37.79 · Yanbolu 42.48,26.50
+İnceğiz (Çatalca) 41.22,28.42 · Sancak mevkii (Bingöl-Kiğı) 39.10,40.40
+Savra (Viyosa) 40.65,19.75 · Leş (Lezhë) 41.78,19.65
+Vaslui/Racova 46.64,27.73 · Terrûce (Aşağı Mısır) 30.70,30.50
+Güns (Köszeg) 47.39,16.54 · Sisak 45.49,16.38
+Alaçayır (Göksun) 38.02,36.50 · Serav/Serâb 37.94,47.53
+Sen Gotar 46.96,16.28 · Vasvár 46.93,16.80
+Prut kıyısı (Stănilești) 46.75,28.05 · Hisarcık/Grocka 44.67,20.73
+Kerden (Kazvin yakını) 36.28,50.00 · Kartal/Kagul (Cahul) 45.80,28.18
+Kozluca/Kozludzha 43.28,27.60 · Ziştovi/Svishtov 43.62,25.35
+Oltenitsa 44.09,26.64 · Sîdî Ferruc 36.77,2.85
+Baden-Baden 48.76,8.24 · Sancak (Bingöl yakını) 38.89,40.50
+Mugan Sahrası 39.50,48.70 · Tellülkebîr 30.56,31.99
+Kalûgerân/Călugăreni 44.20,25.99 · Şıpka Geçidi 42.75,25.33
+Tomar 39.60,-8.42 · Fethâbâd (Kuçan yakını) 37.10,58.50
+Büyükçekmece 41.02,28.59
+```
+⚠️ "Ziştovi/Svishtov" iki alt-partiden ayrı ayrı geldi (43.617,25.35 ve
+43.62,25.35) — aynı yer, ~1000m fark, önemsiz; nokta oturumu tek kayıt
+açacaksa ikisi de kullanılabilir.
+
 ## Durum
-**Devam ediyor** — yalnız 1 araştırma alt-görevi (2/5) kaldı, arka planda
-çalışıyor. Bitince olaylar*.js katmanı (①) TAMAMLANMIŞ olacak.
-`kronoloji_sirbistan.js` sorusu hâlâ cevapsız — dokunmuyorum (① bitmeden
-② başlamıyor, sırbistan zaten ①-③ sıralamasının hiçbirinde anılmıyordu).
+**① TESLİM EDİLDİ.** ②'ye (iran · kırım · macaristan · lehistan · venedik
+· habsburg · memluk · misir) geçiyorum — Emre'nin "devam et" talimatı
+gereği duraklamadan.
+`kronoloji_sirbistan.js` sorusu hâlâ cevapsız — dokunmuyorum.
