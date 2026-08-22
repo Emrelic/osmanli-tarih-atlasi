@@ -189,15 +189,68 @@ kurum; ayrı oturumu hak ediyor. `piza` · `parma` · `bonacolsi` (Mantova)
 
 ---
 
+## 4b. TUR 2 — FERRARA/ESTE + SİENA · TESLİM
+
+Dosya **124 → 186 madde**. Denetim: `kronoloji_italya_sehir.js 186 madde ✓ temiz`
+(`node --check` 0). Külliyattaki tek ihlal 1827 Navarin, `balkan` d4 ¦ `fransa` d3
+— **benim değil**, bildirdim.
+
+| künye | madde | önce | ask-siy | idarî | bilim | kültür | sosyal | iktisat |
+|---|---|---|---|---|---|---|---|---|
+| CENOVA | 124 | 19 | %53 | %13 | %7 | %12 | %6 | %8 |
+| FERRARA/ESTE | **37** | **4** | %49 | %3 | %11 | %24 | %14 | %0 |
+| SİENA | **25** | **2** | %32 | %12 | %8 | %24 | %16 | %8 |
+| *hedef (§2)* | | | *%40* | *%15* | *%15* | *%15* | *%10* | *%5* |
+
+`yer_id`: 185/186 dolu, 1 boş (Piacenza — havuzda yok, uydurulmadı).
+`kaynak`: 186/186 dolu · **Vikipedi 0**.
+
+### Tur 1'de verdiğim sözün ölçümü
+Tur 1 raporunda *"askerî-siyasî %52, hedefin 12 puan üstünde; bir sonraki turda
+dengeyi BAŞTAN kuracağım"* demiştim. Ölçüm:
+```
+Siena  %32 (hedefin 8 puan ALTINDA)   kültür %24 · sosyal %16   ✓ söz tutuldu
+Ferrara %49 (hâlâ 9 puan üstünde)     ama kültür %24 · bilim %11 ✓ kısmen
+Ferrara'nın idarî kovası %3 — 🔴 BU KUSUR: Este'nin malî ve idarî düzenini
+(vergi, bataklık kurutma yönetimi, saray teşkilatı) hiç yazmadım.
+```
+**Ölçüm ile çıkarım ayrı:** ölçüm *"idarî %3"*; çıkarım *"kaynak yok"* DEĞİL —
+Dean'in kitabı tam da bu konuda; **ben yazmadım.** Bir sonraki turda telafi
+edilecek kalem olarak kaydediyorum.
+
+### 🔴 TDV kapsama boşluğu — ölçüldü, saklanmadı
+```
+ÖLÜ (302):  ferrara · este · modena · reggio · siena · floransa · medici ·
+            milano · savoya · mantova · lucca · pisa
+CANLI (200): toskana · papalik · napoli · sicilya · italya
+```
+Kapsayıcı madde de denendi (`§4`: *"dar slug tutmazsa kapsayıcı maddeyi dene"*):
+`italya` canlı ama Ferrara'yı ve Siena'yı **hiç anmıyor**. ⇒ Bu, TDV'nin
+ölçülmüş **Batı Avrupa %0** kapsama boşluğudur; Ferrara'nın 37 maddesinin 37'si,
+Siena'nın 25'inin 25'i akademik kaynağa dayanıyor ve **her birinin `kaynak:`
+alanında bu açıkça yazılı**.
+
+### İki devlet, aynı olay, zıt cevap — kronolojinin kazandırdığı karşıtlık
+```
+1492  İspanya'dan sürülen Sefaradlar
+      CENOVA   iskelede bekletti, gemileri doğuya yolladı   (yerleşim izni YOK)
+      FERRARA  davet etti, ticaret ve ibadet izni verdi     (Sefarad merkezi oldu)
+```
+İkisi de aynı dosyada, aynı yılda, yan yana duruyor. Tek bir devletin
+kronolojisinde bu karşıtlık **görünmezdi**.
+
+---
+
 ## 5. SIRADAKİ TUR — cevabı beklemeden başlıyorum
 
 Öncelik sırası **açlığa göre** (ölçüm §0):
 ```
-① FERRARA/ESTE   4 madde /  578 yıl   ← en aç
-② SİENA          2 madde /  274 yıl   ← en aç
-③ MİLANO        26 madde /  464 yıl
+① FERRARA/ESTE   ✓ YAPILDI (Tur 2)  —  4 → 37 madde
+② SİENA          ✓ YAPILDI (Tur 2)  —  2 → 25 madde
+③ MİLANO        26 madde /  464 yıl   ← SIRADAKİ
 ④ SAVOYA        15 madde /  580 yıl
 ⑤ NAPOLİ · FLORANSA/TOSKANA (33'er madde — en doygunları, en sona)
+⑥ PİZA · PARMA · BONACOLSİ (Mantova) — koordinatörün cevabı gelirse
 ```
 
 ---
