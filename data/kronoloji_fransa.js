@@ -294,7 +294,17 @@ window.KRONOLOJI_FRANSA = [
   d:"I. François'nın oğlu II. Henri, babasının Habsburg karşıtı siyasetini ve İtalyan Savaşları'nı sürdürdü; saltanatı, eşi Catherine de Médicis'in sonraki otuz yıl Fransız siyasetinde belirleyici rol oynayacağı bir dönemin de başlangıcıydı.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
 
-{ t:"1559-04-03", b:"Cateau-Cambrésis Antlaşması — İtalyan Savaşları'nın sona ermesi", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"",
+// 🔴 `dunya` 3 → 4 (22 Ağustos 2026). `arac/denetle_kronoloji.py`nin ⑧. dalı
+// (dosyalar arası tutarlılık) bu olayı YAKALADI: fransa 3 · italya 4 · ispanya 3.
+// Hüküm oy çokluğuyla DEĞİL, skalanın kendi tanımıyla verildi:
+//   `4` = "iki ya da daha çok BÜYÜK GÜCÜN sınırını değiştiren, bölgeyi
+//          yeniden çizen"
+// Cateau-Cambrésis 65 yıllık İtalyan Savaşları'nı bitirdi, İspanya'nın
+// İtalya'daki hâkimiyetini 150 yıl için tescil etti, ve Fransa · İspanya ·
+// Savoia · İngiltere'nin sınırlarını birden değiştirdi. ⇒ 4.
+// 📌 Azınlıkta kalan (italya=4) DOĞRUYDU. Çoğunluğa uymak yanlış olurdu —
+// bu, "veri doğru, rapor yanlış" dersinin puanlama yüzü.
+{ t:"1559-04-03", b:"Cateau-Cambrésis Antlaşması — İtalyan Savaşları'nın sona ermesi", tur:"antlasma", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kaybi"],
   d:"Altmış beş yıllık İtalyan Savaşları'nı bitiren antlaşmayla Fransa İtalya'daki iddialarının çoğundan vazgeçti ama Calais'yi İngiltere'den geri aldı. Barış, iki büyük Katolik gücü artık kendi ülkelerindeki Protestan hareketiyle yüzleşmeye serbest bıraktı.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },

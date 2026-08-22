@@ -52,20 +52,23 @@
 // TDV CANLI ama GÖVDESİ BU TURDA OKUNMADI: `inebahti` · `sicilya`.
 // TDV ÖLÜ (302, doğrulandı bu turda): `otranto` · `roma--sehir` ·
 //   `milano` · `floransa`.
-// AKADEMİK (İngilizce Wikipedia + bilinen akademik konsensüs — Cambridge
-//   History of Italy / Encyclopaedia Britannica tipi eserlerin ANLATTIĞI,
-//   bu oturumda TEK TEK o ciltler OKUNMADI): Sicilya Akşamı · Avignon
-//   Papalığı · Batı Skizması · Roma'nın Yağmalanması · Cateau-Cambrésis ·
-//   Trent Konsili · Marignano · Pavia · Kongre-i Viyana'nın İtalya
-//   maddeleri · Bin Seferi'nin tarihleri · İtalya Krallığı'nın ilanı ·
-//   Roma'nın alınması · Floransa Katedrali kubbesi · Galileo davası ·
-//   Cosimo de' Medici'nin dönüşü · Charles VIII'in Napoli seferi ·
-//   III. Bağımsızlık Savaşı · Londra Antlaşması · Roma Yürüyüşü.
-// 🟡 Vikipedi bu turda TARİH DOĞRULAMA ARACI olarak kullanıldı (İngilizce
-//   Wikipedia, dipnotlu ve akademik konsensüsü yansıtan maddeler) — TEK
-//   DAYANAK olarak değil; her fetch'te alıntı gösterildi.
-// 🔴 Britannica.com bu oturumda 403 döndürdü (beş ayrı deneme), Treccani
-//   sayfaları navigasyon gövdesi döndürdü — ikisi de erişilemedi.
+// 🔴 22 Ağustos 2026 DÜZELTMESİ — İLK YAZIMDA 24 KAYIT VİKİPEDİ'Yİ TEK
+//   DAYANAK OLARAK KULLANIYORDU (`denetle_kronoloji.py` ⑨. dal, koordinatör
+//   ölçtü). Hepsi bu turda AKADEMİK kaynakla değiştirildi:
+//   Encyclopaedia Britannica (WebSearch snippet üzerinden, doğrudan fetch
+//   403 verdi: Sicilya Akşamı · Charles VIII · Marignano · Pavia ·
+//   Cateau-Cambrésis · Viyana Kongresi'nin iki maddesi · Avignon Papalığı ·
+//   Trent Konsili açılışı · Floransa Katedrali kubbesi) ve Treccani —
+//   Istituto della Enciclopedia Italiana (bu kez gövdesi WebFetch ile
+//   GERÇEKTEN OKUNDU, birebir İtalyanca alıntıyla: Urban VI · Clement VII ·
+//   Martin V · Roma'nın Yağmalanması · Trent Konsili kapanışı · Galileo
+//   davası · Roma'nın alınması 1870 · Bin Seferi'nin iki tarihi · İtalya
+//   Krallığı'nın ilanı · Londra Antlaşması · Avusturya-Macaristan'a savaş
+//   ilanı · Roma Yürüyüşü) ve TDV İslâm Ansiklopedisi (Sakız Adası'nın
+//   Osmanlı'ya ilhakı, `sakiz-adasi` slug'ı gövdesiyle okundu).
+//   Urban VI'nın seçim günü Britannica (8 Nisan, yaygın kabul) ile Treccani
+//   (7 Nisan, ilk oylama) arasında AÇIKÇA farklı — ikisi de kaynağıyla
+//   maddede duruyor, 8 Nisan esas alındı.
 // OKUMADIĞIM ESERE ATIF YAZILMADI. Doğrulanmamış her maddede kaynak
 // alanı bunu açıkça söylüyor.
 //
@@ -102,7 +105,7 @@ window.KRONOLOJI_ITALYA = [
 { t:"1309-03-09", b:"Avignon Papalığı'nın başlaması", tur:"kurulus", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["papalik","kriz"],
   d:"V. Clement, papalık dairesini Roma'dan Fransa'nın güneyindeki Avignon'a taşıdı; papalar burada yaklaşık yetmiş yıl (\"Babil sürgünü\" olarak anılan dönem) Fransız krallarının etkisi altında yaşadı. Roma'nın dinî ve siyasî ağırlığı bu süre boyunca ciddi biçimde zayıfladı.",
-  kaynak:"İngilizce Wikipedia, 'Avignon Papacy': \"Clement refused to move to Rome, and in 1309 he moved his court to the papal enclave at Avignon\" · \"curia moved to Avignon, 9 March 1309\" — bu oturumda WebFetch ile doğrulandı; TEK DAYANAK Wikipedia değil, olgu standart akademik konsensüsün parçası" },
+  kaynak:"Encyclopaedia Britannica, 'Clement V' (WebSearch ile alıntılandı): \"He arrived there on March 9, 1309\"" },
 
 { t:"1348-01-01", b:"Kara Ölüm Avignon'u vurur", tur:"salgin", onem:3, dunya:3, kapsam:"ic", yer_id:"",
   etiket:["papalik","kriz"],
@@ -117,17 +120,17 @@ window.KRONOLOJI_ITALYA = [
 { t:"1378-04-08", b:"VI. Urban'ın seçilmesi — Batı Skizması'nın fitili", tur:"kriz", onem:5, dunya:4, kapsam:"dis", yer_id:"Roma",
   etiket:["papalik","kriz"],
   d:"Roma halkının baskısı altında toplanan konklav, İtalyan Bartolomeo Prignano'yu VI. Urban adıyla papa seçti. Fransız kardinaller seçimin baskı altında yapıldığını ileri sürüp beş ay sonra Cenevreli Robert'i rakip papa (VII. Clement) ilan edecek, Katolik dünyası kırk yıl sürecek bir bölünmeye girecekti.",
-  kaynak:"İngilizce Wikipedia, 'Western Schism': \"On 8 April 1378, the cardinals elected Bartolomeo Prignano, the Archbishop of Bari, as Pope Urban VI\" — bu oturumda WebFetch ile doğrulandı" },
+  kaynak:"Encyclopaedia Britannica ('Western Schism', WebSearch ile alıntılandı) 8 Nisan diyor; Treccani, Dizionario Biografico degli Italiani 'URBANO VI, papa' (gövdesi WebFetch ile okundu) ilk oylamayı 7 Nisan'a koyuyor: \"Nel primo scrutinio (7 aprile) il Collegio cardinalizio... elesse con tredici voti Prignano\" — 8 Nisan (yaygın kabul edilen ilan/tören günü) esas alındı, gün farkı AÇIKÇA not edildi" },
 
 { t:"1378-09-20", b:"Rakip papa VII. Clement'in seçilmesi — skizma resmileşir", tur:"bolunme", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["papalik","kriz"],
   d:"Fondi'de toplanan on üç kardinal, VI. Urban'ın seçimini geçersiz ilan edip Cenevreli Robert'i VII. Clement adıyla papa seçti; Clement kısa süre sonra Avignon'a yerleşti. Katolik Avrupa artık iki papaya bölünmüştü — İngiltere ve Kutsal Roma-Cermen İmparatorluğu Roma'yı, Fransa ve müttefikleri Avignon'u tanıyordu.",
-  kaynak:"İngilizce Wikipedia, 'Western Schism': \"Meeting at Fondi, thirteen cardinals elected Count Robert of Geneva as Pope Clement VII on 20 September 1378\"; skizmanın süresi \"from 20 September 1378 to 11 November 1417\" olarak veriliyor — bu oturumda WebFetch ile doğrulandı" },
+  kaynak:"Treccani, Dizionario Biografico degli Italiani, 'CLEMENTE VII, antipapa' (gövdesi WebFetch ile okundu): \"il 20 sett. 1378, nella cappella del castello dei Caetani, elessero all'unanimità papa Roberto di Ginevra\"" },
 
 { t:"1417-11-11", b:"Martin V'in seçilmesi — Batı Skizması'nın sona ermesi", tur:"kurulus", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["papalik","diplomasi"],
   d:"Konstanz Konsili, üç rakip papa iddiasını da geçersiz kılıp Oddone Colonna'yı Martin V adıyla tek papa seçti. Otuz dokuz yıllık bölünme sona erdi; Martin V birkaç yıl içinde papalık dairesini kesin olarak Roma'ya taşıyacaktı.",
-  kaynak:"İngilizce Wikipedia, 'Western Schism': skizmanın bitiş tarihi \"11 November 1417\" — bu oturumda WebFetch ile doğrulandı" },
+  kaynak:"Treccani, Enciclopedia dei Papi, 'Martino V' (gövdesi WebFetch ile okundu): \"Dopo la proclamazione della sede vacante, il 30 maggio 1417, Oddone fu eletto papa l'11 novembre 1417, all'ora decima\"" },
 
 { t:"1447-03-06", b:"V. Nicholas'ın seçilmesi — Rönesans papalığının başlangıcı", tur:"kultur", onem:4, dunya:3, kapsam:"ic", yer_id:"Roma",
   etiket:["papalik","kultur","bilim"],
@@ -162,17 +165,17 @@ window.KRONOLOJI_ITALYA = [
 { t:"1527-05-06", b:"Roma'nın Yağmalanması", tur:"kriz", onem:5, dunya:4, kapsam:"dis", yer_id:"Roma",
   etiket:["papalik","askeri","kriz"],
   d:"İmparator V. Karl'ın maaşı ödenmemiş İspanyol-Alman paralı askerleri Roma'ya girip şehri günlerce yağmaladı, binlerce kişiyi öldürdü; Papa VII. Clement Castel Sant'Angelo'ya sığınmak zorunda kaldı. Olay, Rönesans Roma'sının ihtişamının fiilen sona erdiği tarih olarak anılır ve papalığın İtalyan Savaşları'ndaki bağımsız siyasetinin sonunu getirdi.",
-  kaynak:"İngilizce Wikipedia, 'Sack of Rome (1527)': \"the capture of Rome on 6 May 1527 by the mutinous troops of Charles V, Holy Roman Emperor\" — bu oturumda WebFetch ile doğrulandı" },
+  kaynak:"Treccani, Dizionario di Storia, 'Sacco di Roma' (gövdesi WebFetch ile okundu): \"L'attacco alla città, che mise a rischio la vita del pontefice, il quale si salvò rifugiandosi in Castel Sant'Angelo, iniziò il 6 maggio 1527\"" },
 
 { t:"1545-12-13", b:"Trent Konsili'nin açılması", tur:"din", onem:5, dunya:5, kapsam:"dis", yer_id:"",
   etiket:["papalik","din","reform"],
   d:"Katolik kilisesi, Reform karşısındaki doktriner ve kurumsal cevabını on sekiz yıl sürecek bu konsille şekillendirmeye başladı — Kutsal Kitap'ın yorum tekeli, ayin biçimi, ruhban eğitimi ve endülüjans uygulamaları burada yeniden tanımlandı. Konsil, Katolik Avrupa'nın sonraki üç yüzyıllık dinî çerçevesini kurdu.",
-  kaynak:"İngilizce Wikipedia, 'Council of Trent': \"The Council met for twenty-five sessions between 13 December 1545 and 4 December 1563\" — bu oturumda WebFetch ile doğrulandı" },
+  kaynak:"Encyclopaedia Britannica, 'Council of Trent' (WebSearch ile alıntılandı): \"opened on December 13, 1545, and closed on December 4, 1563, after twenty-five formal sessions\"; Treccani 'dicembre 1545' ay/yılını doğrudan fetch ile doğruladı" },
 
 { t:"1563-12-04", b:"Trent Konsili'nin kapanması", tur:"din", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["papalik","din","reform"],
   d:"Konsilin son oturumu Papa IV. Pius döneminde tamamlandı; kararları sonraki papalarca resmî kilise doktrini olarak onaylandı ve Karşı-Reform'un temel metni hâline geldi.",
-  kaynak:"İngilizce Wikipedia, 'Council of Trent': \"continued until its final adjournment on 4 December 1563\" — bu oturumda WebFetch ile doğrulandı" },
+  kaynak:"Treccani, 'Concilio di Trento' (gövdesi WebFetch ile okundu): kapanışın \"4 dicembre 1563\" tarihinde \"proclamata\" edildiği belirtiliyor" },
 
 { t:"1600-02-17", b:"Giordano Bruno'nun yakılması", tur:"din", onem:3, dunya:3, kapsam:"ic", yer_id:"Roma",
   etiket:["papalik","din","bilim"],
@@ -182,7 +185,7 @@ window.KRONOLOJI_ITALYA = [
 { t:"1633-06-22", b:"Galileo Galilei'nin Roma Engizisyonu'nca mahkûm edilmesi", tur:"bilim", onem:4, dunya:4, kapsam:"ic", yer_id:"Roma",
   etiket:["papalik","bilim","din"],
   d:"Galileo, Güneş merkezli evren modelini savunduğu için \"şiddetle sapkınlıktan şüpheli\" bulundu, görüşlerinden vazgeçmeye ve ev hapsinde yaşamaya mahkûm edildi. Dava, kilisenin bilimsel otoriteyle ilişkisinin en çok anılan kırılma noktası oldu ve üç yüz elli yıl sonra (1992) Vatikan resmen özür diledi.",
-  kaynak:"İngilizce Wikipedia, 'Galileo affair': \"the sentence of the Inquisition, issued on 22 June 1633\" — bu oturumda WebFetch ile doğrulandı" },
+  kaynak:"Treccani, 'Galileo Galilei' (gövdesi WebFetch ile okundu): \"La mattina del 22 giugno 1633 fu condotto in una sala del convento di Santa Maria sopra Minerva a Roma e fu fatto inginocchiare durante la lettura della sentenza che lo condannava all'incarcerazione\"" },
 
 { t:"1798-02-15", b:"Roma Cumhuriyeti'nin ilanı — Papa VI. Pius'un sürgünü", tur:"isgal", onem:5, dunya:3, kapsam:"dis", yer_id:"Roma",
   etiket:["papalik","kriz","isgal"],
@@ -222,7 +225,7 @@ window.KRONOLOJI_ITALYA = [
 { t:"1870-09-20", b:"Roma'nın işgali — Papalık Devleti'nin dünyevî iktidarının sonu", tur:"son", onem:5, dunya:5, kapsam:"dis", yer_id:"Roma",
   etiket:["papalik","isgal","milliyetcilik"],
   d:"Fransa'nın Sedan'da yenilip Roma garnizonunu çekmesinden bir ay sonra İtalyan Krallığı orduları Porta Pia'dan gedik açıp şehre girdi; Papa IX. Pius direnmeyip kendini \"Vatikan mahpusu\" ilan etti. On bir yüzyıllık Papalık Devleti'nin dünyevî hükümranlığı sona erdi ve İtalyan birleşmesi fiilen tamamlandı — Roma sorunu ancak 1929 Laterano Antlaşmaları'yla çözülecekti.",
-  kaynak:"İngilizce Wikipedia, 'Capture of Rome': \"At 5 a.m. on 20 September, Italian artillery began firing at the city walls\" — bu oturumda WebFetch ile doğrulandı; tarih data/devletler.js `papalik` (t:) ve `italya` embedded kronolojisiyle birebir uyumlu" },
+  kaynak:"Treccani, Dizionario di Storia, 'Questione romana' (gövdesi WebFetch ile okundu): \"Il 20 sett. 1870 le truppe italiane entrarono a Roma\"; tarih data/devletler.js `papalik` (t:) ve `italya` embedded kronolojisiyle birebir uyumlu" },
 
 { t:"1871-05-13", b:"Garanti Kanunu — Papa'nın statüsünün tek taraflı düzenlenmesi", tur:"kanun", onem:3, dunya:2, kapsam:"ic", yer_id:"Roma",
   etiket:["papalik","idari"],
@@ -236,7 +239,7 @@ window.KRONOLOJI_ITALYA = [
 { t:"1282-03-30", b:"Sicilya Akşamı — eski Sicilya Krallığı'nın ikiye bölünmesi", tur:"isyan", onem:5, dunya:5, kapsam:"dis", yer_id:"Palermo",
   etiket:["napoli","isyan","toprak-kayip"],
   d:"Palermo'da akşam ayini çanları çalarken patlak veren halk ayaklanması, adadaki Fransız Anjou garnizonunu birkaç hafta içinde katletti; Sicilyalılar tacı Aragon Kralı III. Peter'e teklif etti. İsyan, eski Sicilya Krallığı'nı kalıcı biçimde ikiye böldü: ada Aragon hanedanına geçti, Napoli merkezli anakara Anjou hanedanında kaldı — Akdeniz güç dengesini Aragon lehine değiştiren epokal bir kırılmadır.",
-  kaynak:"İngilizce Wikipedia, 'Sicilian Vespers': \"an insurrection which began at the start of Vespers... on Easter Monday, 30 March 1282, at the Church of the Holy Spirit just outside Palermo\" — bu oturumda WebFetch ile doğrulandı; tarih data/devletler.js `napoli` embedded kronolojisiyle birebir uyumlu" },
+  kaynak:"Encyclopaedia Britannica, 'Sicilian Vespers' (WebSearch ile alıntılandı): \"a riot that took place in a church outside Palermo at the hour of vespers on Easter Monday, March 30, 1282 ... The people of Palermo followed suit and massacred 2,000 French inhabitants of the city the night of March 30-31\"; tarih data/devletler.js `napoli` embedded kronolojisiyle birebir uyumlu" },
 
 { t:"1282-08-30", b:"III. Peter'ın Sicilya'ya çıkıp taç giymesi", tur:"hukumdar", onem:4, dunya:3, kapsam:"dis", yer_id:"Palermo",
   etiket:["napoli","hanedan"],
@@ -271,7 +274,7 @@ window.KRONOLOJI_ITALYA = [
 { t:"1495-02-22", b:"Charles VIII'in Napoli'ye girmesi — İtalyan Savaşları'nın açılışı", tur:"isgal", onem:5, dunya:5, kapsam:"dis", yer_id:"Napoli",
   etiket:["napoli","isgal","askeri"],
   d:"Fransa Kralı VIII. Charles, Napoli tahtı üzerindeki Anjou iddiasını öne sürerek İtalya'yı boydan boya geçip Napoli'ye girdi ve kendini kral ilan etti. Girişi kısa sürdü — bir İtalyan Ligi bir yıl içinde onu geri çekilmeye zorladı — ama olay, altmış beş yıl sürecek İtalyan Savaşları'nı başlattı ve İtalya'yı Fransız-İspanyol-Habsburg rekabetinin savaş alanına çevirdi.",
-  kaynak:"İngilizce Wikipedia, 'Italian Wars': \"In September Charles invaded the peninsula\"; \"In February 1495, the French reached Monte San Giovanni Campano in the Kingdom of Naples\" — bu oturumda WebFetch ile doğrulandı, giriş günü (22 Şubat) YAYGIN KABUL edilen tarih olup bu oturumda ikinci kaynakla teyit edilmedi" },
+  kaynak:"Encyclopaedia Britannica, 'Charles VIII' (WebSearch ile alıntılandı): \"Charles entered Naples in triumph on Feb. 22, 1495, and was crowned there on May 12\"" },
 
 { t:"1495-07-06", b:"Fornovo Savaşı — İtalyan Ligi'nin Fransızları geri püskürtmesi", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["napoli","askeri"],
@@ -351,12 +354,12 @@ window.KRONOLOJI_ITALYA = [
 { t:"1860-05-11", b:"Garibaldi'nin Bin'i Marsala'ya çıkar", tur:"isgal", onem:5, dunya:5, kapsam:"dis", yer_id:"",
   etiket:["napoli","milliyetcilik","askeri"],
   d:"Giuseppe Garibaldi, Cenova'dan yola çıkan yaklaşık bin gönüllü kızıl gömlekliyle Sicilya'nın batı kıyısındaki Marsala'ya çıkarma yaptı; bu küçük sefer, İki Sicilya Krallığı'nı birkaç ay içinde çökertip İtalyan birleşmesini geri döndürülemez hâle getirecekti — Risorgimento'nun en simgesel askeri harekâtıdır. (Marsala yerleşim veri tabanında kayıtlı değil.)",
-  kaynak:"İngilizce Wikipedia, 'Expedition of the Thousand': \"the Thousand steamers arrived in the early hours of the afternoon of 11 May 1860\" — bu oturumda WebFetch ile doğrulandı" },
+  kaynak:"Treccani, Dizionario di Storia, 'Spedizione dei Mille' (gövdesi WebFetch ile okundu): \"sbarcarono a Marsala l'11 maggio 1860\"" },
 
 { t:"1860-05-15", b:"Calatafimi Savaşı — Bin'in ilk zaferi", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["napoli","askeri","milliyetcilik"],
   d:"Sayıca çok üstün Bourbon kuvvetlerine karşı Garibaldi'nin gönüllüleri Calatafimi'de ilk zaferini kazandı; \"Burada ya İtalya'yı yaratırız ya ölürüz\" sözü bu savaşa atfedilir ve sefer boyunca moral kaynağı oldu.",
-  kaynak:"İngilizce Wikipedia, 'Expedition of the Thousand': \"The Thousand... had their first clash on 15 May 1860 in the battle of Calatafimi\" — bu oturumda WebFetch ile doğrulandı" },
+  kaynak:"Treccani, Dizionario di Storia, 'Spedizione dei Mille' (gövdesi WebFetch ile okundu): \"Il giorno dopo le truppe borboniche erano battute in un durissimo scontro a Calatafimi\" (14 Mayıs Salemi diktatörlük ilanının ertesi günü, yani 15 Mayıs)" },
 
 { t:"1860-05-27", b:"Palermo ayaklanması ve Garibaldi'nin şehre girmesi", tur:"isgal", onem:4, dunya:4, kapsam:"dis", yer_id:"Palermo",
   etiket:["napoli","askeri","milliyetcilik"],
@@ -455,7 +458,7 @@ window.KRONOLOJI_ITALYA = [
 { t:"1566-04-14", b:"Sakız Adası'nın Osmanlı'ya ilhakı — son Ege kolonisinin kaybı", tur:"toprak-kayip", onem:5, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["ceneviz","toprak-kayip"],
   d:"Kaptan-ı Derya Piyale Paşa'nın donanması Sakız'ı işgal edip Giustiniani ailesinin iki asırlık Maona idaresine son verdi; Cenova'nın Doğu Akdeniz'deki son kolonisi de böylece kayboldu ve cumhuriyet artık yalnızca Ligurya kıyısı ve Korsika'ya sıkışmış bir güç hâline geldi.",
-  kaynak:"data/devletler.js `cenova` embedded kronoloji: \"Sakız Adası Osmanlı'ya ilhak edildi — son Ege kolonisi kayboldu\"; İngilizce Wikipedia 'Republic of Genoa': \"the loss of Chios to the Ottoman Empire (1566), struck a severe blow\" — bu oturumda WebFetch ile doğrulandı" },
+  kaynak:"TDV İslâm Ansiklopedisi, 'Sakız Adası' (gövdesi WebFetch ile okundu, slug `sakiz-adasi` canlı): \"Kaptanıderyâ Piyâle Paşa tarafından çatışma olmaksızın zaptedildi. Cenevizliler İstanbul'a gönderildi (24 Ramazan 973 / 14 Nisan 1566) ... Bu fetihle Sakız'da 220 yıl süren Maona hâkimiyeti son buldu\"; data/devletler.js `cenova` embedded kronolojisiyle birebir uyumlu" },
 
 { t:"1684-05-17", b:"Fransız donanmasının Cenova'yı bombalaması", tur:"kriz", onem:3, dunya:2, kapsam:"dis", yer_id:"Cenova",
   etiket:["ceneviz","askeri","kriz"],
@@ -477,10 +480,10 @@ window.KRONOLOJI_ITALYA = [
   d:"Napolyon'un İtalya Seferi sırasında Cenova, aristokratik anayasası feshedilip Fransız modelinde bir Ligurya Cumhuriyeti'ne dönüştürüldü; yedi yüzyıllık bağımsız Ceneviz Cumhuriyeti böylece resmen sona erdi.",
   kaynak:"data/devletler.js `cenova` (t:\"1797-06-14\"): \"Napolyon tarafından ilga edildi\"" },
 
-{ t:"1815-01-01", b:"Viyana Kongresi — Cenova'nın Sardinya-Piyemonte'ye katılması", tur:"toprak-kayip", onem:4, dunya:2, kapsam:"dis", yer_id:"Cenova",
+{ t:"1815-06-09", b:"Viyana Kongresi — Cenova'nın Sardinya-Piyemonte'ye katılması", tur:"toprak-kayip", onem:4, dunya:2, kapsam:"dis", yer_id:"Cenova",
   etiket:["ceneviz","diplomasi"],
-  d:"Viyana Kongresi, kısa ömürlü bağımsız cumhuriyet ilanını (1814) tanımayıp Cenova'yı doğrudan Savoya hanedanının Sardinya-Piyemonte Krallığı'na kattı; şehir bir asrı aşkın süre bu krallığın en önemli liman kenti olarak kalacaktı.",
-  kaynak:"İngilizce Wikipedia, 'Congress of Vienna': \"The King of Sardinia... gained control of Genoa (putting an end to the brief proclamation of a restored Republic of Genoa)\" — bu oturumda WebFetch ile doğrulandı; gün YAKLAŞIK" },
+  d:"Viyana Kongresi Nihaî Senedi, kısa ömürlü bağımsız cumhuriyet ilanını (1814) tanımayıp Cenova'yı doğrudan Savoya hanedanının Sardinya-Piyemonte Krallığı'na kattı; şehir bir asrı aşkın süre bu krallığın en önemli liman kenti olarak kalacaktı.",
+  kaynak:"Encyclopaedia Britannica, 'Italy — The restoration period' (WebSearch ile alıntılandı): \"His kingdom was later restored, with the addition of Genoa, by the Final Act of the Congress of Vienna (June 9, 1815) ... the Vienna settlement dismantled the three aristocratic republics of Venice, Genoa, and Lucca; it strengthened Piedmont\"" },
 
 // ══════════════════════════════════════════════════════════════════
 // IV. MİLANO DÜKALIĞI (Milano) — Visconti-Sforza
@@ -539,7 +542,7 @@ window.KRONOLOJI_ITALYA = [
 { t:"1515-09-13", b:"Marignano Savaşı — Fransa'nın Milano'yu geri alması", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["milano","askeri","toprak-kayip"],
   d:"Yeni Fransa Kralı I. François, iki gün süren kanlı bir savaşta İsviçreli paralı askerleri yenip Milano Kalesi'ni ele geçirdi; dükalık yeniden Fransız kontrolüne girdi. Savaş, dönemin en ağır kayıplı çarpışmalarından biri olarak \"devlerin savaşı\" diye anıldı.",
-  kaynak:"İngilizce Wikipedia, 'Battle of Marignano': \"which took place on 13-14 September 1515\"; \"Francis gained the city of Milan, and more importantly, the Castello Sforzesco\" — bu oturumda WebFetch ile doğrulandı" },
+  kaynak:"Encyclopaedia Britannica, 'Battle of Marignano' (WebSearch ile alıntılandı): \"The Battle of Marignano (Sept. 13-14, 1515) was a French victory over a Swiss army in the first Italian campaign of Francis I of France ... the battle resulted in the French recovery of Milan\"" },
 
 { t:"1521-11-19", b:"İmparator-Papa ittifakının Fransızları Milano'dan çıkarması", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"Milano",
   etiket:["milano","askeri"],
@@ -549,7 +552,7 @@ window.KRONOLOJI_ITALYA = [
 { t:"1525-02-24", b:"Pavia Savaşı — Fransa Kralı'nın esir düşmesi", tur:"savas", onem:5, dunya:5, kapsam:"dis", yer_id:"",
   etiket:["milano","askeri","toprak-kayip"],
   d:"İmparator V. Karl'ın kuvvetleri, Milano'yu geri almaya çalışan I. François'in ordusunu Pavia'da imha etti; kralın kendisi esir düştü. Savaş, Habsburg üstünlüğünün İtalya'da kesin biçimde tesis edildiği dönüm noktasıdır ve Avrupa güç dengesini bir nesil boyunca V. Karl lehine değiştirdi.",
-  kaynak:"İngilizce Wikipedia, 'Battle of Pavia': \"fought on the morning of 24 February 1525\"; Francis I esir düştü, \"French abandoning their control of Lombardy\" — bu oturumda WebFetch ile doğrulandı" },
+  kaynak:"Encyclopaedia Britannica, 'Battle of Pavia' (WebSearch ile alıntılandı): \"The Battle of Pavia on February 24, 1525, resulted in the annihilation of the French army and the capture of King Francis I by Habsburg forces\"" },
 
 { t:"1535-11-01", b:"Son Sforza dükünün ölümü — Milano'nun İspanyol tacına katılması", tur:"bolunme", onem:5, dunya:4, kapsam:"dis", yer_id:"Milano",
   etiket:["milano","hanedan","toprak-kayip"],
@@ -559,7 +562,7 @@ window.KRONOLOJI_ITALYA = [
 { t:"1559-04-03", b:"Cateau-Cambrésis Antlaşması — İspanyol Milano'sunun teyidi", tur:"antlasma", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["milano","antlasma","diplomasi"],
   d:"Fransa'yı İtalyan Savaşları'ndan kesin olarak çekilmeye zorlayan antlaşma, İspanya'nın Milano ve Napoli üzerindeki hâkimiyetini uluslararası hukukta tescil etti; altmış beş yıl süren savaşlar dönemi böylece kapandı ve İtalya'da bir buçuk asır sürecek İspanyol üstünlüğü dönemi başladı.",
-  kaynak:"İngilizce Wikipedia, 'Peace of Cateau-Cambrésis': antlaşma \"3 April 1559\" imzalandı, \"Henry II of France renounced his hereditary claims to the Duchy of Milan\" — bu oturumda WebFetch ile doğrulandı" },
+  kaynak:"Encyclopaedia Britannica, 'Peace of Cateau-Cambrésis' (WebSearch ile alıntılandı): \"The Peace of Cateau-Cambrésis (April 3, 1559) was an agreement marking the end of the 65-year (1494-1559) struggle between France and Spain for the control of Italy, leaving Habsburg Spain the dominant power there for the next 150 years ... Henry also restored Corsica to Genoa and renounced his hereditary claim to Milan\"" },
 
 { t:"1630-01-01", b:"Milano vebası", tur:"salgin", onem:3, dunya:2, kapsam:"ic", yer_id:"Milano",
   etiket:["milano","kriz"],
@@ -586,10 +589,10 @@ window.KRONOLOJI_ITALYA = [
   d:"Napolyon, Milano merkezli fethettiği toprakları birleştirip Fransız modelinde bir Cisalpine Cumhuriyeti kurdu; bu, İtalyan topraklarının modern anlamda tek bir devlet çatısı altında birleştirilmesinin ilk (ve kısa ömürlü) denemesiydi.",
   kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı" },
 
-{ t:"1815-01-01", b:"Lombardiya-Venedik Krallığı'nın Avusturya'ya bağlanması", tur:"toprak-kayip", onem:4, dunya:3, kapsam:"dis", yer_id:"Milano",
+{ t:"1815-04-07", b:"Lombardiya-Venedik Krallığı'nın Avusturya'ya bağlanması", tur:"toprak-kayip", onem:4, dunya:3, kapsam:"dis", yer_id:"Milano",
   etiket:["milano","diplomasi","toprak-kayip"],
   d:"Viyana Kongresi, Milano ve Venedik'i birleştirip Avusturya İmparatorluğu'na bağlı özerk bir Lombardiya-Venedik Krallığı olarak yeniden düzenledi; bu düzenleme, otuz beş yıl sonra İtalyan milliyetçi hareketinin en büyük hedef tahtası hâline gelecekti.",
-  kaynak:"İngilizce Wikipedia, 'Congress of Vienna': \"Austria gained much of northern Italy... received Lombardy-Venetia in Italy\" — bu oturumda WebFetch ile doğrulandı" },
+  kaynak:"Encyclopaedia Britannica, 'Italy — The restoration period' (WebSearch ile alıntılandı): \"Austria was compensated with Lombardy and Venice ... according to the Final Act of the congress, Francis I of Austria also became king of Lombardy-Venetia. On April 7, 1815, Francis I proclaimed the formation of the kingdom of Lombardy-Venetia\"; toprak devri Nihaî Senet'le (9 Haziran 1815) tescillendi, krallık ilanı 7 Nisan 1815'tir" },
 
 { t:"1848-03-18", b:"Milano'nun Beş Günü — Avusturya garnizonuna karşı ayaklanma", tur:"isyan", onem:4, dunya:3, kapsam:"ic", yer_id:"Milano",
   etiket:["milano","isyan","milliyetcilik"],
@@ -648,7 +651,7 @@ window.KRONOLOJI_ITALYA = [
 { t:"1436-03-25", b:"Floransa Katedrali kubbesinin açılışı", tur:"mimari", onem:4, dunya:4, kapsam:"ic", yer_id:"Floransa",
   etiket:["floransa","mimari","kultur"],
   d:"Filippo Brunelleschi'nin, Roma'dan beri hiçbir mimarın çözemediği kadar geniş bir açıklığı iskelesiz kubbeyle örtme problemini yeni bir çifte-kabuk tekniğiyle çözmesiyle inşa edilen kubbe, Papa IV. Eugenius tarafından resmen açılıp katedral kutsandı. Yapı, mühendislik tarihinde bir dönüm noktası ve Floransa Rönesansı'nın en görünür simgesi oldu.",
-  kaynak:"İngilizce Wikipedia, 'Florence Cathedral': \"The cathedral was consecrated by Pope Eugene IV on 25 March 1436\" — bu oturumda WebFetch ile doğrulandı" },
+  kaynak:"Opera di Santa Maria del Fiore (Floransa Katedrali'nin resmî kurumu, WebFetch ile okundu): \"Il 25 marzo 1436 veniva consacrata Santa Maria del Fiore\" (Papa IV. Eugenius tarafından); Encyclopaedia Britannica 'The Duomo' (WebSearch): \"The completed structure was consecrated in 1436\" — Treccani'de bu tarihi doğrudan veren sayfa bulunamadı, doğrulama kurumsal kaynak+Britannica ile yapıldı" },
 
 { t:"1439-07-06", b:"Floransa Konsili — Doğu-Batı kilise birliği bildirisi", tur:"din", onem:4, dunya:4, kapsam:"dis", yer_id:"Floransa",
   etiket:["floransa","din","diplomasi"],
@@ -891,7 +894,7 @@ window.KRONOLOJI_ITALYA = [
 { t:"1861-03-17", b:"İtalya Krallığı'nın ilanı", tur:"kurulus", onem:5, dunya:5, kapsam:"ic", yer_id:"Torino",
   etiket:["italya-birlik","milliyetcilik","kurulus"],
   d:"Torino'da toplanan yeni parlamento, II. Vittorio Emanuele'yi birleşik İtalya Krallığı'nın kralı ilan etti — unvanını \"II. Vittorio Emanuele\" olarak koruyarak (Sardinya kralı sayısını sürdürerek) Piyemonte'nin öncü rolünü simgeledi. On üç asır sonra İtalyan yarımadası (Venedik ve Roma hariç) ilk kez tek bir devlet çatısı altında birleşti.",
-  kaynak:"İngilizce Wikipedia, 'Kingdom of Italy (1861-1946)': \"This allowed the Sardinian government to declare a united Italian kingdom on 17 March 1861\" — bu oturumda WebFetch ile doğrulandı; tarih data/devletler.js `italya` (f:) ile birebir uyumlu" },
+  kaynak:"Treccani, 'Vittorio Emanuele II re d'Italia' (L'Unificazione, gövdesi WebFetch ile okundu): \"il 17 marzo 1861, venne proclamato dal primo Parlamento italiano re d'Italia\"; tarih data/devletler.js `italya` (f:) ile birebir uyumlu" },
 
 { t:"1861-06-06", b:"Cavour'un ölümü", tur:"olum", onem:4, dunya:2, kapsam:"ic", yer_id:"Torino",
   etiket:["italya-birlik","siyaset"],
@@ -971,12 +974,12 @@ window.KRONOLOJI_ITALYA = [
 { t:"1915-04-26", b:"Londra Gizli Antlaşması", tur:"antlasma", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["italya-birlik","antlasma","diplomasi"],
   d:"İtalya, İtilaf Devletleri ile gizlice imzaladığı antlaşmada Trentino, Güney Tirol, Trieste, İstria ve Dalmaçya'nın büyük kısmını vaat edilmesi karşılığında bir ay içinde İtilaf saflarında savaşa girmeyi kabul etti; bu vaatlerin savaş sonunda ancak kısmen tutulması, faşizmin yükselişini besleyecek \"sakatlanmış zafer\" söyleminin temelini atacaktı.",
-  kaynak:"İngilizce Wikipedia, 'Italian entry into World War I': \"The Treaty of London was signed on 26 April 1915\" — bu oturumda WebFetch ile doğrulandı" },
+  kaynak:"Treccani, Dizionario Biografico, 'Sonnino, Sidney Costantino, barone' (gövdesi WebFetch ile okundu): \"portò l'Italia in guerra a fianco dell'Intesa con la firma del Patto di Londra (26 apr. 1915)\"" },
 
 { t:"1915-05-23", b:"Avusturya-Macaristan'a savaş ilanı", tur:"savas", onem:5, dunya:5, kapsam:"dis", yer_id:"Roma",
   etiket:["italya-birlik","askeri","ittifak"],
   d:"İtalya, Londra Antlaşması'ndaki taahhüdünü yerine getirip eski müttefiki Avusturya-Macaristan'a savaş ilan etti; Almanya'ya karşı savaş ilanı ise ancak 1916'da gelecekti. İtalya böylece I. Dünya Savaşı'na fiilen girdi ve Alp cephesinde üç yıl sürecek yıpratıcı bir mevzi savaşı başladı.",
-  kaynak:"İngilizce Wikipedia, 'Italian entry into World War I': \"Italy declared war against Austria-Hungary on 23 May 1915\" — bu oturumda WebFetch ile doğrulandı; tarih data/devletler.js `italya` embedded kronolojisiyle birebir uyumlu" },
+  kaynak:"Treccani, Dizionario Biografico, 'Avarna, Giuseppe, duca di Gualtieri' (gövdesi WebFetch ile okundu): \"il 23, secondo le istruzioni del governo, consegnava a Burian la dichiarazione di guerra dell'Italia\" (Viyana büyükelçisi Avarna'nın Avusturya Dışişleri Bakanı'na savaş ilanını teslim ettiği gün); tarih data/devletler.js `italya` embedded kronolojisiyle birebir uyumlu" },
 
 { t:"1917-10-24", b:"Caporetto Bozgunu", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["italya-birlik","askeri"],
@@ -1006,7 +1009,7 @@ window.KRONOLOJI_ITALYA = [
 { t:"1922-10-28", b:"Roma Yürüyüşü — Mussolini'nin iktidara gelişi", tur:"darbe", onem:5, dunya:5, kapsam:"ic", yer_id:"Roma",
   etiket:["italya-birlik","kriz","siyaset"],
   d:"Binlerce Kara Gömlekli faşist milis, Benito Mussolini önderliğinde Roma'ya doğru yürüyüşe geçti; Kral III. Vittorio Emanuele, sıkıyönetim ilan edip orduyla müdahale etmek yerine iki gün sonra Mussolini'yi hükümeti kurmaya davet etti. Tek bir silah patlamadan gerçekleşen bu iktidar devri, İtalya'da yirmi bir yıl sürecek faşist rejimin başlangıcı ve 20. yüzyıl Avrupa siyasetinin en dönüştürücü olaylarından biri oldu.",
-  kaynak:"İngilizce Wikipedia, 'March on Rome': \"On 28 October, the fascist demonstrators and Blackshirt paramilitaries approached the capital\"; \"On 30 October 1922, the King appointed Mussolini as Prime Minister\" — bu oturumda WebFetch ile doğrulandı" },
+  kaynak:"Treccani, Dizionario di Storia, 'Marcia su Roma' (gövdesi WebFetch ile okundu): \"Manifestazione di carattere eversivo, organizzata dal Partito nazionale fascista il 28 ottobre 1922\"; Mussolini fiilen 30 Ekim'de Roma'ya ulaştı, Yürüyüş'ün kendisi ve kralın hükümet kurma daveti 28-29 Ekim'dedir" },
 
 // ══════════════════════════════════════════════════════════════════
 // VIII. RÖNESANS, BİLİM VE SANAT — kova dengesini düzeltmek için eklenen kesit

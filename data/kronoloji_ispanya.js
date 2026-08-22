@@ -302,7 +302,15 @@ window.KRONOLOJI_ISPANYA = [
   d:"İspanyol-İngiliz kuvvetleri Fransız ordusunu Saint-Quentin'de ağır yenilgiye uğrattı; zafer, Aziz Lorenzo gününe (10 Ağustos) denk geldiği için II. Felipe, yeni sarayı El Escorial'i bu azizin adına adamaya karar verdi. Savaş, İtalyan Savaşları'nın sonunu getiren Cateau-Cambrésis barışının zeminini hazırladı.",
   kaynak:"standart akademik kaynak (Kamen)" },
 
-{ t:"1559-04-03", b:"Cateau-Cambrésis Barışı — İtalyan Savaşları sona erdi", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"",
+// 🔴 `dunya` 3 → 4 (22 Ağustos 2026) — `kronoloji_fransa.js`teki aynı olayla
+// birlikte düzeltildi. Gerekçe orada yazılı: skalanın `4` tanımı ("iki+ büyük
+// gücün sınırını değiştiren") bu antlaşmayı birebir karşılıyor.
+// ⚠️ Bu kaydı denetim GÖREMEDİ — başlığı ötekilerden farklı ("Barışı" ·
+// "Antlaşması") ve ⑧. dal başlığı normalleştirerek eşleştiriyor. Yani
+// çelişki ÜÇ dosyadaydı, denetim İKİSİNİ gösterdi.
+// 📌 Ders: bir eşleştirme sezgiseline dayanan denetim, sezgiselin kaçırdığını
+// da kaçırır. Kalıcı çare `olay_id` alanı — kuyrukta.
+{ t:"1559-04-03", b:"Cateau-Cambrésis Barışı — İtalyan Savaşları sona erdi", tur:"antlasma", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["antlasma","diplomasi"],
   d:"Altmış yıldır süren İspanya-Fransa (İtalyan Savaşları) rekabetini sona erdiren antlaşmayla İspanya, Milano ve Napoli üzerindeki denetimini pekiştirdi ve İtalya'da bir asrı aşkın süre sürecek üstünlüğünü kurdu. Antlaşma, II. Felipe'nin Fransız prensesi Elisabeth de Valois ile evliliğiyle de pekiştirildi.",
   kaynak:"standart akademik kaynak (Kamen)" },

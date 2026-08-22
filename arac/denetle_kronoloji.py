@@ -47,6 +47,29 @@ AYRINTI = "--ayrinti" in sys.argv
 ZORUNLU = ("t", "b", "onem", "dunya", "kapsam", "kaynak")
 GUN = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
+# ⑨ VİKİPEDİ TEK DAYANAK — `CLAUDE.md §4` KIRMIZI ÇİZGİSİ
+# Emre'nin kuralı: *"Vikipedi HİÇBİR ZAMAN tek dayanak değildir. 'Hangi
+# olaya bakmalıyım' sorusunu cevaplar; tarih oradan alınıp DOĞRULANMADAN
+# yazılmaz."*
+#
+# 🔴 NİÇİN DAL AÇILDI — 22 Ağustos 2026, ölçülmüş vaka:
+# Bu denetimin ⑧. dalı (dunya ayrışması) bir çelişki yakaladı; çelişen
+# kaydı okurken `kaynak:"İngilizce Wikipedia, 'Peace of Cateau-Cambrésis'"`
+# görüldü. Asıl soru o kayıt DEĞİLDİ: *"öteki 18 dosyada da var mı?"*
+# Ölçüm: 23 kayıt, HEPSİ `kronoloji_italya.js`te, hepsi TEK DAYANAK.
+# ⇒ Bir oturum kuralı bilmiyordu ve HİÇBİR ŞEY ötmedi. Kural yazılıydı
+# (şartname §4), okunmadı — ve *"uyarının basılması okunduğu anlamına
+# gelmez"* dersi bugün tam bunun için yazılmıştı.
+#
+# 🟢 VE İHLAL "GİZLENMİŞ" DEĞİL: oturum kaynağını AÇIKÇA yazmış, uydurmamış.
+# Kusur dürüstlükte değil ÖLÇÜTTE. O yüzden bu dal bir suçlama değil bir
+# HATIRLATICI: yanında kabul edilebilir bir kaynak varsa MEŞRU sayılır.
+VIKIPEDI = re.compile(r"wikipedi|vikipedi|wikipedia", re.I)
+KABUL_KAYNAK = re.compile(
+    r"TDV|islamansiklopedisi|Cambridge|Oxford|Encyclopaedia|Iranica|"
+    r"University|Üniversite|hakemli|dergi|Press|Brill|Routledge|"
+    r"Almanac|Chronicle|Corpus|neşri|el kitab", re.I)
+
 
 def _oku(yol):
     """Dosyayı node ile ayrıştırıp JSON olarak alır — kendi ayrıştırıcımı
@@ -100,7 +123,7 @@ def main():
         if d["ad"] != beklenen:
             sorun.append("ad alanı %s, beklenen %s" % (d["ad"], beklenen))
 
-        eksik = bicim = aralik = kaps = yerid = 0
+        eksik = bicim = aralik = kaps = yerid = viki = 0
         for m in kayit:
             for a in ZORUNLU:
                 if m.get(a) in (None, ""):
@@ -122,6 +145,14 @@ def main():
                 yerid += 1
                 if AYRINTI:
                     print("     yer_id EŞLEŞMİYOR: %r  (%s)" % (yi, m.get("t")))
+            # ⑨ Vikipedi TEK DAYANAK mı? Yanında kabul edilebilir kaynak
+            #    varsa meşru — kural "tek dayanak olamaz", "hiç geçemez" değil.
+            _k = str(m.get("kaynak") or "")
+            if VIKIPEDI.search(_k) and not KABUL_KAYNAK.search(_k):
+                viki += 1
+                if AYRINTI:
+                    print("     VİKİPEDİ TEK DAYANAK: %s  %s"
+                          % (m.get("t"), str(m.get("b"))[:44]))
             # dunya tutarlılığı havuzu
             anahtar = (m.get("t"), re.sub(r"\W+", "", str(m.get("b") or ""))[:26])
             dunya_havuz.setdefault(anahtar, {}).setdefault(m.get("dunya"),
@@ -135,7 +166,8 @@ def main():
 
         for ad, n in (("zorunlu alan eksik", eksik), ("tarih biçimi", bicim),
                       ("onem/dunya 1-5 dışı", aralik), ("kapsam geçersiz", kaps),
-                      ("yer_id eşleşmiyor", yerid), ("mükerrer", muk)):
+                      ("yer_id eşleşmiyor", yerid), ("mükerrer", muk),
+                      ("VİKİPEDİ tek dayanak (§4)", viki)):
             if n:
                 sorun.append("%s: %d" % (ad, n))
 

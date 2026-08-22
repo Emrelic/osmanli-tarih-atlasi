@@ -467,6 +467,27 @@ def _dinamik_topluyor(ad):
                     desenler.append(re.compile(ham))
                 except re.error:
                     pass
+            # 🔴 ÖNEK DEYİMLERİ — 22 Ağustos 2026, `C14`ün ÜÇÜNCÜ vakası.
+            # Bu yardımcı 11 Ağustos'ta regex toplayıcılar için yazıldı ve
+            # doğru çalıştı. Ama `js/app.js:5263` kronolojileri REGEXLE DEĞİL
+            # DİLİM KARŞILAŞTIRMASIYLA topluyor:
+            #     if (anahtar.slice(0, 10) !== "KRONOLOJI_") return;
+            # ⇒ Aynı iş, başka deyim. Alet 26 SAHTE ALARM verdi (bütün
+            # `KRONOLOJI_*` dosyaları "app.js OKUMUYOR" diye işaretlendi).
+            #
+            # ⚠️ Ve zararı "gürültü" değil KÖRLÜK: 26 sahte satırın arasında
+            # GERÇEK bir bulgu (5 `YERLESIMLER_*` dosyası) duruyordu ve
+            # okunmuyordu. Bir denetim, kurt masalı anlattığı ölçüde susar.
+            #
+            # 📌 Ders, yardımcının kendi başlığındakinin bir kademe ötesi:
+            # orada *"toplayıcı DESENİ değişirse bu da kendiliğinden
+            # değişir"* deniyor — ama yalnız DESEN değişirse. **DEYİM
+            # değişince (regex → slice) alet yine kör kaldı.**
+            for onek in re.findall(
+                    r'\.slice\(\s*0\s*,\s*\d+\s*\)\s*[!=]==?\s*"([A-Z0-9_]+)"', m):
+                desenler.append(re.compile(re.escape(onek)))
+            for onek in re.findall(r'\.startsWith\(\s*"([A-Z0-9_]+)"\s*\)', m):
+                desenler.append(re.compile(re.escape(onek)))
         _DINAMIK_ONBELLEK["d"] = desenler
     return any(d.match(ad) for d in _DINAMIK_ONBELLEK.get("d", []))
 
@@ -621,7 +642,25 @@ def inline_sozdizimi():
        Butun denetimler VERIYE bakiyordu, KODA bakan yoktu.
     """
     h = io.open(os.path.join(KOK, "index.html"), encoding="utf-8").read()
-    bloklar = re.findall(r"<script(?![^>]*\bsrc=)[^>]*>(.*?)</script>", h, re.S)
+    # 🔴 YORUMLAR ÖNCE ELENİR — 22 Ağustos 2026, ÖLÇÜLMÜŞ YANLIŞ ALARM.
+    # `index.html:563` bir HTML YORUMUNUN İÇİNDE `<script>` kelimesi taşıyor
+    # ("Yeni bir devlet eklerken YALNIZ buraya bir `<script>`…"). Çıkarıcı onu
+    # GERÇEK bir inline blok sandı ve `(.*?)` bir sonraki `</script>`e kadar
+    # her şeyi yuttu — araya giren `<script src="…kronoloji_habsburg.js">`
+    # satırları dâhil. Sonuç: `node --check` haklı olarak sözdizimi hatası
+    # verdi ve kapı GÜNLERDİR "window.YERLESIMLER HİÇ atanmıyor olabilir"
+    # diye ötüyordu. Gerçek blok (satır 701) TERTEMİZDİ.
+    #
+    # 📌 VE DERS BU DOSYADA ZATEN YAZILIYDI: `_yorumsuz_html` tam bu sebeple
+    # 14 Ağustos'ta yazılmış (`BEKLEYENLER` bir yorumda geçtiği için tüketim
+    # kanıtı sayılmıştı) — ama YALNIZ ad aramasına uygulanmış, blok
+    # çıkarıcıya UYGULANMAMIŞ. Aynı kör nokta, aynı dosyada, iki yerde:
+    # biri kapatıldı, öteki açık kaldı.
+    # ⇒ Bir dersin BİR ÇAĞRI YERİNDE uygulanması, ÖĞRENİLDİĞİ anlamına
+    #   gelmiyor. Çare yazıldığında "bu kusur BAŞKA NEREDE olabilir?" diye
+    #   sorulmadıkça, düzeltme kendi satırında hapis kalıyor.
+    bloklar = re.findall(r"<script(?![^>]*\bsrc=)[^>]*>(.*?)</script>",
+                         _yorumsuz_html(h), re.S)
     gec = os.path.join(tempfile.gettempdir(), "_yayin_blok.js")
     bulgular = []
     for i, b in enumerate(bloklar, 1):

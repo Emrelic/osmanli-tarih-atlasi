@@ -235,7 +235,17 @@
         </span>
         <span id="ucus-grup">
           <label id="ucus-kontrol" title="Sıradaki olaya geçilince harita o yeri kendiliğinden ortalar">
-            <input type="checkbox" id="ucus-ac"> 🛩
+            <!-- 🔴 22 Ağustos 2026 — `checked` EKLENDİ. Ölçüldü: temiz bir
+                 localStorage'la sekiz kez ⏭ basıldığında uçuş motorundan
+                 SIFIR çağrı çıkıyordu, çünkü `haritayiOlayaGotur`un ilk
+                 satırı bu kutuya bakıp hemen dönüyor. Emre'nin *"pat orada
+                 pat burada"* şikâyetinin BİRİNCİ ayağı buydu: animasyon
+                 bozuk değildi, HİÇ ÇALIŞMIYORDU.
+                 📌 `duygu-ac`ta zaten uygulanmış desenin aynısı ve orada
+                 yazılı gerekçe burada da geçerli: *"kapalıyken kimse
+                 varlığını bilmez."* Kullanıcı bir kez kapatırsa tercih
+                 `localStorage`ta "0" olarak kalıcı olur. -->
+            <input type="checkbox" id="ucus-ac" checked> 🛩
           </label>
           <select id="ucus-kip" title="Geçiş biçimi">
             <option value="ani">Ani</option>
@@ -443,7 +453,12 @@
         <span id="ayar-yatay-esik-deger" class="ayar-deger"></span>
       </div>
       <div class="ayar-satir">
-        <label for="ayar-irtifa">İrtifa <span class="ayar-ipucu">(eğik atışta yayın tepe yüksekliği)</span></label>
+        <!-- 🔴 22 Ağustos — ANLAMI DARALDI: artık MUTLAK yay değil, ORTA
+             MESAFEDEKİ (~800 km) yay. `ucusYayi()` bu değerin etrafında
+             mesafeye göre geziniyor (50 km → ~1,04 · 3000 km → ~1,52).
+             Emre: *"100 km'lik geçişte kıtaya çıkmak saçma."* Sürgü
+             öldürülmedi, kapsamı daraltıldı. -->
+        <label for="ayar-irtifa">İrtifa <span class="ayar-ipucu">(orta mesafedeki yay — kısa/uzun geçişte otomatik alçalıp yükselir)</span></label>
         <input type="range" id="ayar-irtifa" min="0.5" max="3" step="0.1" value="1.42">
         <span id="ayar-irtifa-deger" class="ayar-deger"></span>
       </div>
@@ -581,6 +596,14 @@
      DOĞRU: iki ayrı devlet, birbirinin rakibi, ayrı `onem` ölçekleri. -->
 <script src="data/kronoloji_akkoyunlu.js?v=r2864"></script>
 <script src="data/kronoloji_karakoyunlu.js?v=r2864"></script>
+<!-- 22 Agu 2026: yedi dosya data/ altinda TEMIZ duruyordu ama buraya bagli DEGILDI ⇒ 438 madde gorunmuyordu. Sema denetimi "ekranda var mi" diye SORMUYOR. -->
+<script src="data/kronoloji_altinorda.js?v=r2864"></script>
+<script src="data/kronoloji_hollanda.js?v=r2864"></script>
+<script src="data/kronoloji_isvec.js?v=r2864"></script>
+<script src="data/kronoloji_japonya.js?v=r2864"></script>
+<script src="data/kronoloji_misir.js?v=r2864"></script>
+<script src="data/kronoloji_ozbek.js?v=r2864"></script>
+<script src="data/kronoloji_timurlu.js?v=r2864"></script>
 <script src="data/kisiler.js?v=r2864"></script>
 <script src="data/savaslar.js?v=r2864"></script>
 <!-- YERLESIM PARTILERI - hepsi yuklenir ve TEK diziye birlestirilir.
