@@ -343,7 +343,20 @@ keşfi Kasım→Temmuz).
 
 `data/yer_yama.js`: **563 kayıt toplam**. Tam dosya kapı sınaması: 0 hata.
 
+## Habsburg — kapsam ölçümü, araştırma başlatıldı
+
+`kronoloji_habsburg.js`: 117 madde, 52'sinde `yer_id` yok. Başlık taraması:
+1 güvenli (Augsburg — 1555 Din Barışı, doğrudan eşleşme), 1 yanlış-pozitif
+("Campo Formio — ...Venedik'in kazanılması" → "Venedik" bulundu ama bu
+İKİNCİL yer tuzağı: antlaşma Campo Formio'da imzalandı, Venedik yalnız
+kazanılan toprak — reddedildi). 51 kayıt 2 paralel araştırma görevine
+(26+25) gönderildi; `data/savaslar.js`e bakmaları ve Viyana-merkezli
+kararname/reform kayıtları için house-convention (başkent = imza yeri)
+kullanmaları söylendi.
+
+`data/yer_yama.js`: **564 kayıt** (1 kolay eklendi). Tam kapı sınaması: 0 hata.
+
 ## Durum
-**Tamamlanan ülkeler: olaylar* (412) + İran (107) + Rusya (173) = 692/1488.**
-Sırada: **Habsburg (Avusturya)**. Kapsamını ölçüp devam ediyorum.
+**Tamamlanan: olaylar* (412) + İran (107) + Rusya (173) = 692/1488.**
+Habsburg araştırması sürüyor (51 kayıt, 2 paralel görev).
 `kronoloji_sirbistan.js` sorusu hâlâ cevapsız — dokunmuyorum.
