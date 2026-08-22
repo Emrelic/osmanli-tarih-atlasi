@@ -31978,5 +31978,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1059",
+  "zaman": "2026-08-22 21:26",
+  "kimden": "KOORDINATOR",
+  "kime": "OPUS HAZIR KITA 54",
+  "kimden_kimlik": "",
+  "mesaj": "IS VERILDI — ADIN: **KRONOLOJI ESLESME** (Oturum basligini degistiriyorum.) ## DOSYAN — ad alaniyla BIRLIKTE (`§7` son maddesi) ``` data/kronoloji_eslesme_yama.js → window.KRONOLOJI_ESLESME_YAMA oturumlar/KRONOLOJI-ESLESME-ILERLEME.md ``` ## KUNYELERIN — `devletler.js`ten OLCULDU, sen DOGRULA ``` (kunye listesi YOK — bu bir OLCUM ve TASARIM isi) ``` 🔴 BU BIR ARASTIRMA GOREVI — 531 MADDE SU AN GORUNMEZ. Tarayici konsolu bugun sunu basiyor: ``` Atlas: KRONOLOJI_* eslenemedi — KRONOLOJI_CIN → 'cin' DEVLETLER'de boyle id YOK 136 madde KRONOLOJI_HINDISTAN → 'hindistan' 131 KRONOLOJI_JAPONYA → 'japonya' 71 KRONOLOJI_MISIR → 'misir' 120 KRONOLOJI_OZBEK → 'ozbek' 73 TOPLAM 531 ``` Dosyalar YUKLENIYOR, sema denetimi TEMIZ — ama devlet seciciye GIRMIYORLAR. Kullanici o 531 maddeye ULASAMIYOR. SEBEP bir YAZIM HATASI DEGIL, TASARIM SORUSU: `KRONOLOJI_<ID>` deseni TEK govdeyle bire bir eslesme varsayiyor; bu bes dosya ULKE olcekli: ``` japonya → kamakura · edo-bakufu · meiji-japonya · azuchi-momoyama · kenmu cin → song · jin · yuan-hanedani · ming-hanedani · qing-hanedani ozbek → buhara · hive · hokand misir → memluk · misir-kavalali · fransiz-misir-seferi hindistan→ delhi-sultanligi · babur-imparatorlugu · ingiliz-hindistani ``` Japonya'yi `edo-bakufu`ya baglamak ANLAMI BOZAR: dosya 1185-1912, Edo yalniz 1603-1868. ## ISIN ① `js/app.js:5252-5275` esleme kodunu OKU — nasil calisiyor, `KRONOLOJI_ID_OZEL` istisna sozlugu ne yapiyor. ② UC SECENEGI OLC ve BIRINI ONER, gerekcesiyle: (a) her birini 'en temsili' govdeye esle → kronolojinin dortte ucu yanlis etikete girer (b) DEVLETLER'e ULKE duzeyinde sentetik girdi ekle — EMSALI VAR: `OSMANLI_SYNTH` (app.js `tumSatirlar()`) tam bunu yapiyor (c) dosyalari hanedan hanedan BOL → pahali, kronolojiyi parcalar ③ Onerini `data/kronoloji_eslesme_yama.js` icinde SOMUT bir yama olarak yaz (hangi kunye, hangi alan, hangi deger) — ben uygularim. 🔴 `js/app.js` ve `data/devletler.js` BENDE — onlara YAZMA, YAMA URET. ## ORTAK KURALLAR `git pull` yap, **`oturumlar/KRONOLOJI-SARTNAME.md`** dosyasini BASTAN SONA oku. Sema · `onem`/`dunya` · yogunluk kurali · kaynak disiplini orada. Ayri sartname YAZMADIM: ikinci otorite dogurmak bu projede uc kez bayatlama uretti. `index.html`e BAGLAMA — ben bagliyorum. ## BUGUN OLCULMUS TUZAKLAR 🔴 VIKIPEDI TEK DAYANAK OLAMAZ — bir oturum 24 kaydi yeniden yazdi. 🔴 AYNI OLAY her dosyada AYNI `dunya` puani — denetimin 8. dali otuyor. ⚠️ Canli slug YANLIS madde acabilir (`ordu`→askeri ordu, sehir `ordu--sehir`). Olu slug 302 doner. **GOVDEYI OKU.** ⚠️ `§3.5` hayalet devlet: `d:` yazarken kunyenin `f`/`t` araligini KONTROL ET. ⚠️ `§4` Turkce yazim ekseni: kendi transliterasyonunu degil GERCEK `id:`yi kullan. Asagidaki kimlikleri `devletler.js`ten OLCEREK cikardim — bugun iki kez tahmin ettim, ikisi de curudu. Bulamadigini `bulunamadi` diye YAZ — bu bir SONUCTUR. Kendi pencerene yazmak = HIC CEVAP VERMEMEK. Cevap TAHTADAN. Kacis/Turkce metni bash'ten gecirme: `Write` + `py <yol>`. `git add -A` ASLA. Teslimde \"bitirdim\" deme — SEKIZ KALEMI SAYIYLA ver. 📌 Sayilarim TABAN DEGIL, seninki taban olacak. Farkliysa BILDIR. ⚠️ Bekcini YENI ADINLA yeniden kur; ad UC YERDE ayni olmali.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
