@@ -2799,7 +2799,34 @@ function dizindenUc(lat, lon) {
 // "kaç ms susayım" diye bir sihirli sayı YOK. (Ölçülen 1,9 sn'lik gecikme
 // tam da böyle bir sayının niçin uydurulamayacağını gösteriyor: makineye,
 // veriye ve o anki dönem yoğunluğuna göre değişiyor.)
-var KAMERA = { olayBekliyor: false };
+// 🔴🔴 22 Ağustos 2026 — KİLİT SAYAÇ OLDU, ve sebebi ÖLÇÜLDÜ.
+// Emre: *"uçuş modu çalışmıyor, şak şak ani geçiş yapıyor."* Ölçüm:
+//
+//   olayaGit()  KAMERA.olayBekliyor = true
+//               tarihAyarla(o.gi)            ← oto-zoom SUSTURULUYOR
+//               KAMERA.olayBekliyor = false  ← 🔴 KİLİT BURADA AÇILIYOR
+//               haritayiOlayaGotur()         ← 🔴 UÇUŞ BURADA BAŞLIYOR
+//
+// ⇒ Kilit, uçuş BAŞLAMADAN bir satır önce açılıyordu. Uçuş 0,8-3 saniye
+//   sürüyor ve o süre boyunca kamera KORUMASIZ: oynatma gün ilerletip dönem
+//   değiştirdiğinde `zoomUygula` (satır ~2851) `fitBounds` atıyor, MapLibre
+//   yeni kamera çağrısını DEVRALIYOR ve uçuş ortasında kesiliyor.
+//   Kullanıcının gördüğü "ışınlanma" bu.
+//
+// 📌 Ve kusur mekanizmada değil SÜREDEYDİ: hakem doğruydu, `zoomUygula`
+//   gerçekten susuyordu — ama YANLIŞ ARALIKTA. Bir korumanın DOĞRU olması
+//   yetmiyor, DOĞRU SÜRE boyunca tutulması da gerekiyor.
+//
+// ⚠️ Boolean YETMEZ, SAYAÇ şart: uçuş sürerken kırpma da kilit istiyor ve
+//   iç içe geçiyorlar. Boolean olsaydı içteki `false` dıştakini de açardı.
+//   `olayBekliyor` bir GETTER olarak duruyor — mevcut okuyucular
+//   (`zoomUygula`) tek satır bile değişmeden çalışmaya devam ediyor.
+var KAMERA = { kilit: 0 };
+Object.defineProperty(KAMERA, "olayBekliyor", {
+  get: function () { return KAMERA.kilit > 0; }
+});
+function kameraKilitle() { KAMERA.kilit++; }
+function kameraCoz() { KAMERA.kilit = Math.max(0, KAMERA.kilit - 1); }
 
 // Bir olaya gidilecekse ÜÇ ADIM BİRLİKTE yapılır ve `tarihAyarla`nın
 // tetikleyeceği oto-zoom bu süre boyunca susar.
@@ -2810,10 +2837,10 @@ var KAMERA = { olayBekliyor: false };
 //                 zorlar; YALNIZ otomatik akış anahtara tâbidir, çünkü
 //                 anahtarın kendi metni *"sıradaki olaya GEÇİLİNCE"* diyor.
 function olayaGit(o, panelGoster, zorla) {
-  KAMERA.olayBekliyor = true;
-  try { tarihAyarla(o.gi); } finally { KAMERA.olayBekliyor = false; }
+  kameraKilitle();
+  try { tarihAyarla(o.gi); } finally { kameraCoz(); }
   if (panelGoster !== false) obGoster(o);
-  haritayiOlayaGotur(o, zorla);
+  haritayiOlayaGotur(o, zorla);   // kilidi KENDİSİ alıyor, varışta bırakıyor
 }
 
 // ---------- Otomatik yakınlaştırma ----------
@@ -4912,14 +4939,23 @@ function haritayiOlayaGotur(o, zorla) {
     // hangisi önce gelirse ÖTEKİNİ İPTAL EDİYOR.
     var _vardi = false;
     var _varisTimer = null;
+    // 🔴 KİLİT BURADA ALINIYOR — uçuş SÜRERKEN oto-zoom kameraya dokunamasın.
+    // Eski kod kilidi `olayaGit` içinde, uçuş BAŞLAMADAN bir satır önce
+    // bırakıyordu; uçuşun 0,8-3 saniyesi korumasızdı ve `zoomUygula`nın
+    // `fitBounds`u uçuşu kesip ışınlanmaya çeviriyordu.
+    kameraKilitle();
     function _varisBirKez() {
       if (_vardi) return;
       _vardi = true;
       if (_varisTimer) { clearTimeout(_varisTimer); _varisTimer = null; }
       harita.off("moveend", _varisBirKez);
-      _varista();
+      kameraCoz();                       // uçuş bitti — koruma kalkıyor
+      _varista();                        // kırpma kendi kilidini ALIYOR
     }
     harita.once("moveend", _varisBirKez);
+    // ⚠️ Emniyet: uçuş hiç başlamazsa (harita gizli sekmede, rAF donmuş)
+    // `moveend` HİÇ gelmez ve kilit sonsuza kadar açık kalmazdı — kalırdı.
+    // İkisinden hangisi önce gelirse ötekini iptal ediyor.
     _varisTimer = setTimeout(_varisBirKez, _sonSure + 400);
 
     if (_kip === "yatay" && _kmMesafe <= _esik) {
@@ -5159,10 +5195,20 @@ function _yabanciImza(t) {
   return im;
 }
 
+var _kirpmaKilitli = false;
+
+function _kirpmaKilidiBirak() {
+  if (_kirpmaKilitli) { _kirpmaKilitli = false; kameraCoz(); }
+}
+
 function kirpmayiDurdur() {
   for (var i = 0; i < _kirpmaZaman.length; i++) clearTimeout(_kirpmaZaman[i]);
   _kirpmaZaman = [];
-  if (_kirpmaGun !== null) { var g = _kirpmaGun; _kirpmaGun = null; tarihAyarla(g); }
+  if (_kirpmaGun !== null) {
+    var g = _kirpmaGun; _kirpmaGun = null;
+    tarihAyarla(g);                 // kesildiyse SON hâle dön
+  }
+  _kirpmaKilidiBirak();
 }
 
 // `gun` — olayın günü (gün numarası). `once` onun bir GÜN öncesidir:
@@ -5208,13 +5254,25 @@ function oncesiSonrasiKirp(gun) {
   var ms = Math.max(150, Math.round(toplam / (adet * 2)));
   _kirpmaGun = gun;                              // kesilirse buraya dönülür
 
+  // 🔴🔴 KİLİT ŞART — VE BU SATIR OLMADAN KIRPMA IŞINLANMA ÜRETİYORDU.
+  // `tarihAyarla` → `guncelle()` → dönem değişti → `zoomUygula` → `fitBounds`.
+  // Kırpma dört kez `tarihAyarla` çağırdığı için DÖRT `fitBounds` atıyordu:
+  // kamera her kırpmada imparatorluk sınırlarına savruluyordu.
+  // ⇒ Emre'nin gördüğü "şak şak"ın bir kısmı DOĞRUDAN BUYDU ve bugün ben
+  //   yazdım. Ölçmeden yazmanın bedeli.
+  _kirpmaKilitli = true;
+  kameraKilitle();
+
   // Dizilim: (önce → sonra) × adet, ve HER ZAMAN `sonra`da biter.
   var sira = [];
   for (var c = 0; c < adet; c++) { sira.push(once); sira.push(gun); }
   sira.forEach(function (g, i) {
     _kirpmaZaman.push(setTimeout(function () {
       tarihAyarla(g);
-      if (i === sira.length - 1) { _kirpmaGun = null; _kirpmaZaman = []; }
+      if (i === sira.length - 1) {
+        _kirpmaGun = null; _kirpmaZaman = [];
+        _kirpmaKilidiBirak();
+      }
     }, i * ms));
   });
 }
