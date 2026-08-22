@@ -356,6 +356,18 @@ GIRDI_DOSYALARI = [
     # Aralarında Gyulafehérvár var — Erdel Prensliği'nin BAŞKENTİ ve
     # bugüne kadar veride yoktu; Erdel kimliğinin darboğazıydı.
     "yerlesimler_ek29.js",
+    # NOKTA EPİR, 22 Ağustos 2026 — 2 nokta, ve azlığı KASITLI.
+    # Emre: *"Parga genellikle Venedik'te görünüyor ama kuzeyindeki topraklar
+    # yerleşim yeri olmadığı için Parga'nın peteğine emilip Venedik
+    # boyanıyor."* Ölçüldü: Parga'nın peteği 3.701 km² ve 96,9 km KUZEYE
+    # uzanıyor; Epir kutusunda topu topu 8 nokta var ve Parga'nın kuzeyi
+    # BOŞ — üstelik boşluğu paylaşan iki komşudan biri (Korfu) de VENEDİK,
+    # yani tampon yok. `§2` emilmesinin ders kitabı vakası.
+    # ⚠️ Beş yer daha aday olarak duruyordu (Delvine · Sarandë · Butrint ·
+    # Borsh · İgumenitsa) ama TDV'de maddeleri YOK (slug sınavı: hepsi 302)
+    # ve doğrulanmış akademik kaynak elde değildi. Tarih uydurmaktansa
+    # YAZILMADI; `oturumlar/NOKTA-EPIR.md` ile araştırmaya verildi.
+    "yerlesimler_epir.js",
     "yerlesimler_amerika.js",
     # ── HALKA-2 NOKTA PARTILERI · 7 Agustos 2026 ───────────────────
     # Uc oturum, uc bolge, 333 yeni nokta. Yogunluk olcumu (nokta/mn km2):
