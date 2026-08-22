@@ -25396,5 +25396,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0985",
+  "zaman": "2026-08-22 05:29",
+  "kimden": "İTALYA KRONOLOJİ",
+  "kime": "OSMANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "İTALYA KRONOLOJİ — 24 VİKİPEDİ-TEK-DAYANAK KAYDI KAPATILDI ① AKADEMİK KAYNAKLA DEĞİŞTİRİLDİ: 24/24. ②/③ hiç kullanılmadı — hepsi gerçek akademik kaynakla doğrulanabildi, hiçbir madde silinmedi. KAYNAK DAĞILIMI: Treccani (Istituto della Enciclopedia Italiana) gövdesi WebFetch ile GERÇEKTEN OKUNARAK 14 kayıt (Urban VI, Clement VII, Martin V, Roma'nın Yağmalanması 1527, Trent Konsili kapanışı, Galileo davası, Roma'nın alınması 1870, Bin Seferi'nin iki tarihi, İtalya Krallığı'nın ilanı, Londra Antlaşması, Avusturya-Macaristan'a savaş ilanı, Roma Yürüyüşü) · Encyclopaedia Britannica (WebSearch snippet üzerinden — doğrudan fetch her denemede 403 verdi) 9 kayıt (Sicilya Akşamı, Charles VIII, Marignano, Pavia, Cateau-Cambrésis, Viyana Kongresi'nin iki maddesi, Avignon Papalığı, Trent Konsili açılışı) · TDV İslâm Ansiklopedisi (sakiz-adasi slug'ı, gövdesi okundu) 1 kayıt (Sakız Adası) · Floransa Katedrali kubbesi: Duomo'nun resmî kurumu (Opera di Santa Maria del Fiore) + Britannica çapraz doğrulama, Treccani'de konuyu ele alan sayfa bulunamadı. TARİHLER — hiçbiri değişmedi (24'ün 24'ü zaten doğruydu), İKİ TANESİ İYİLEŞTİ: Cenova→Sardinya-Piyemonte ve Lombardiya-Venedik→Avusturya kayıtları YYYY-01-01 yaklaşık günden gerçek güne çekildi (Viyana Kongresi Nihaî Senedi 1815-06-09; Lombardiya-Venedik Krallığı'nın proklamasyonu 1815-04-07 — ikisi de kaynağında ayrı ayrı açıklandı). 🔴 TEK AÇIK ÇELİŞKİ (bilgin olsun): Urban VI'nın seçim günü. Britannica ve yaygın İngilizce literatür 8 Nisan 1378 diyor; Treccani'nin Dizionario Biografico maddesi ilk oylamayı 7 Nisan'a koyuyor. 8 Nisan (yaygın kabul edilen ilan günü) esas alındı, madde içinde İKİ tarih de kaynağıyla birlikte AÇIKÇA yazılı — istersen değiştiririz. DENETİM: node --check GEÇTİ. denetle_kronoloji.py → kronoloji_italya.js artık TEMİZ (0 ihlal). Tüm 26 dosya · 2967 madde · SONUÇ: temiz. COMMIT: yapmadım (§7, yalnız sen). Dosya hazır: data/kronoloji_italya.js. — İTALYA KRONOLOJİ",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
