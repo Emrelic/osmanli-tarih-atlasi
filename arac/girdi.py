@@ -368,6 +368,36 @@ GIRDI_DOSYALARI = [
     # ve doğrulanmış akademik kaynak elde değildi. Tarih uydurmaktansa
     # YAZILMADI; `oturumlar/NOKTA-EPIR.md` ile araştırmaya verildi.
     "yerlesimler_epir.js",
+    # MACARİSTAN SERHAT ARAŞTIRMA, 22 Ağustos 2026 — 2 nokta, ve AZLIĞI
+    # KASITLI. Emre'nin `H-0007` sorusu: *"Niş ve Vidin elden çıkmış.
+    # Semendire, Çaçak ve Kragujevac elden çıkmadan mı buralar elden çıktı?
+    # Hangi koridordan geçilerek? Uçakla gidilecek hâli yok."*
+    # Ölçüm Emre'yi DOĞRULADI: Belgrad(Avusturya) – Semendire(Osmanlı) –
+    # Yagodina(Osmanlı) – Kragujevac(Osmanlı) – Niş(Avusturya) –
+    # Vidin(Avusturya). Yani cephe gerisinde iki Osmanlı adası kalıyor.
+    # 🔴 VE İKİ NOKTA BİLEREK TERS YÖNDE YAZILDI (`§3.5.1` iki uç kuralı):
+    #   Şehirköy (Pirot)      1689 Avusturya dönemi VAR  — TDV: alındı
+    #   Alacahisar (Kruševac) Avusturya dönemi YOK       — TDV: "kesintisiz
+    #                         300 sene … ilk defa 1737'de"
+    # Koridoru *"bütün Sırbistan Avusturya"* diye kapatmak hatayı TAŞIRDI,
+    # silmezdi. Bir sınır kayması önerilirken İKİ UÇ DA ölçülür.
+    #
+    # 🔴 HENÜZ BAĞLANMADI — ÜÇ KRONOLOJİ MADDESİ BEKLİYOR.
+    # Teslim raporu *"sıfır yeni kırılma günü — 9 günün 9'u da çekirdekte
+    # +0 gün maddeli"* diyordu. ÖLÇTÜM, ÇÜRÜDÜ:
+    #     serhat BAĞLI      519 kırılma · 3 AÇIK
+    #     serhat ÇIKARILDI  515 kırılma · 0 açık
+    # (Yöntem: `girdi.py`den satır geçici çıkarıldı, `denetle.py` iki kez
+    #  koşturuldu, dosya `finally` ile geri yazıldı.)
+    # ⇒ Fark BİREBİR bu dosyadan. Onların ölçümü başka bir tabandaydı.
+    #
+    # `Değişmez 2` tam olarak bunun için var: bir toprak değişiminin
+    # ±30 gün içinde maddesi yoksa, değişim o güne rastlayan ALAKASIZ bir
+    # maddenin altında belirir — Emre'nin en çok şikâyet ettiği hata.
+    # 📌 Veri SİLİNMEDİ, araştırma sağlam ve commit'li. Yalnız haritaya
+    # girmesi, kırılmalarının maddesi yazılana kadar BEKLİYOR. Borç burada
+    # KAYITLI — `§11`: kayıtsız borç yarın kusur diye yeniden bulunur.
+    # "yerlesimler_serhat.js",
     "yerlesimler_amerika.js",
     # ── HALKA-2 NOKTA PARTILERI · 7 Agustos 2026 ───────────────────
     # Uc oturum, uc bolge, 333 yeni nokta. Yogunluk olcumu (nokta/mn km2):
