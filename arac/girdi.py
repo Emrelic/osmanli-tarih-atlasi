@@ -382,7 +382,22 @@ GIRDI_DOSYALARI = [
     # Koridoru *"bütün Sırbistan Avusturya"* diye kapatmak hatayı TAŞIRDI,
     # silmezdi. Bir sınır kayması önerilirken İKİ UÇ DA ölçülür.
     #
-    # 🔴 HENÜZ BAĞLANMADI — ÜÇ KRONOLOJİ MADDESİ BEKLİYOR.
+    # 🟢 BORÇ KAPANDI (22 Ağu 2026) — `data/olaylar_serhat.js` yazıldı, üç
+    # açık kırılma gününe madde geldi ve `Değişmez 2` 0 açığa döndü.
+    # ⚠️ İKİSİ BİRLİKTE BAĞLANIR: nokta dosyası burada, madde dosyası
+    # `index.html`de. Biri bağlanıp öteki bağlanmazsa maddelerin `yer_id`si
+    # eşleşmez ve denetim başka bir yerden kırmızıya döner.
+    #
+    # 📌 VE BORCUN KENDİSİ ÖĞRETİCİYDİ: teslim "sıfır yeni kırılma günü"
+    # demişti, ölçüm 3 açık buldu. Sebebi oturum kendi buldu ve bildirdi:
+    #     kendi ölçümü 48 dosyada (kronoloji_* + olaylar*) yapılmış
+    #     `denetle.py:703` ise YALNIZ `glob("data/olaylar*.js")` = 18 dosya
+    # `1428-01-01` onların evreninde "+0 gün" görünüyordu — o madde
+    # `kronoloji_balkan.js`teydi, yani KUYRUKTA; çekirdekte en yakın madde
+    # 214 gün ötede. `CLAUDE.md §11`: *"bu gün zaten var" yetmiyor — HANGİ
+    # KOVADA olduğu da sorulmalı.*
+    #
+    # ESKİ NOT (borç açıkken yazılmıştı, kayıt olsun diye duruyor):
     # Teslim raporu *"sıfır yeni kırılma günü — 9 günün 9'u da çekirdekte
     # +0 gün maddeli"* diyordu. ÖLÇTÜM, ÇÜRÜDÜ:
     #     serhat BAĞLI      519 kırılma · 3 AÇIK
@@ -397,7 +412,7 @@ GIRDI_DOSYALARI = [
     # 📌 Veri SİLİNMEDİ, araştırma sağlam ve commit'li. Yalnız haritaya
     # girmesi, kırılmalarının maddesi yazılana kadar BEKLİYOR. Borç burada
     # KAYITLI — `§11`: kayıtsız borç yarın kusur diye yeniden bulunur.
-    # "yerlesimler_serhat.js",
+    "yerlesimler_serhat.js",
     "yerlesimler_amerika.js",
     # ── HALKA-2 NOKTA PARTILERI · 7 Agustos 2026 ───────────────────
     # Uc oturum, uc bolge, 333 yeni nokta. Yogunluk olcumu (nokta/mn km2):
