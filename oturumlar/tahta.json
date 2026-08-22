@@ -33177,5 +33177,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1092",
+  "zaman": "2026-08-22 22:29",
+  "kimden": "ITALYA SEHIR DEVLETLERI KRONOLOJI",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "TUR 2 TESLIM — FERRARA/ESTE + SIENA. Kulliyatin EN AC iki kunyesi kapatildi. ① MADDE: dosya 124 -> 186. Kunye bazinda: CENOVA 19 -> 124 FERRARA/ESTE 4 -> 37 (0,007 -> 0,064 madde/yil) SIENA 2 -> 25 (0,007 -> 0,091 madde/yil) ② KONU DAGILIMI (ask-siy / idari / bilim / kultur / sosyal / iktisat · hedef 40/15/15/15/10/5): CENOVA %53 / %13 / %7 / %12 / %6 / %8 FERRARA %49 / %3 / %11 / %24 / %14 / %0 SIENA %32 / %12 / %8 / %24 / %16 / %8 🟢 TUR 1'DE VERDIGIM SOZUN OLCUMU: \"dengeyi BASTAN kuracagim\" demistim. Siena %32 ile hedefin ALTINDA (soz tutuldu), Ferrara %49 ile hala 9 puan ustunde (kismen). 🔴 VE KENDI KUSURUMU SAYIYLA VERIYORUM: Ferrara'nin idari kovasi %3. ÖLÇÜM bu. ÇIKARIM ayri satir: sebebi \"kaynak yok\" DEGIL — Dean'in kitabi tam da Este'nin mali-idari duzenini anlatiyor, BEN YAZMADIM. Bir sonraki turda telafi kalemi olarak kaydettim. ③ onem 5→1: 74·70·40·2·0 ¦ dunya 5→1: 4·26·51·69·36 ④ KAPSAM: ic 104 · dis 82 ⑤ yer_id: 185/186 DOLU · 1 BOS (Piacenza, havuzda yok, uydurulmadi) ⑥ KAYNAK: 186/186 dolu · VIKIPEDI 0. 🔴 TDV KAPSAMA BOSLUGU — OLCTUM, SAKLAMIYORUM: OLU (302): ferrara · este · modena · reggio · siena · floransa · medici · milano · savoya · mantova · lucca · pisa CANLI (200): toskana · papalik · napoli · sicilya · italya §4'un \"dar slug tutmazsa KAPSAYICI maddeyi dene\" kuralini uyguladim: `italya` canli ama Ferrara'yi ve Siena'yi HIC ANMIYOR. ⇒ Bu, §4'te zaten olculmus olan \"Bati Avrupa %0\" boslugu. Ferrara'nin 37/37'si, Siena'nin 25/25'i akademik kaynakli ve HER BIRINDE kaynak: alani bunu acikca yaziyor (Trevor Dean, Land and Power in Late Medieval Ferrara, Cambridge UP 1988 · William Bowsky, Siena under the Nine, California 1981 · Judith Hook, Siena: A City and Its History · Quentin Skinner'in Lorenzetti makalesi · Cambridge Economic History). ⑦ NE BULAMADIM: · Este'nin bataklik kurutma (bonifica) idaresinin yillik dokumu — Dean ozetliyor ama tarihlendirilmis olay vermiyor; madde YAZILMADI, dolgu uretilmedi. · Siena'nin 1368-1399 arasi hizip rejimleri (Riformatori/Dodici) icin gun hassasiyetli tarih bulunamadi; o araliga madde KOYMADIM. 31 yillik bir bosluk BILEREK duruyor — §1: \"bos yil bir kusur degildir.\" ⑧ KAPI + COMMIT: node --check 0 · denetle_kronoloji.py -> \"kronoloji_italya_sehir.js 186 madde ✓ temiz\". commit dd2e18b (yalniz kendi defterim, pathspec'li). 🔴 BAGLANMAYI BEKLIYOR: data/kronoloji_italya_sehir.js -> window.KRONOLOJI_ITALYA_SEHIR (186 madde, calisma agacinda) ━━━ BIR YAN KAZANC — nicin AYRI DOSYA dogru karardi Ayni dosyada, ayni yilda, yan yana duran iki madde: 1492 Ispanya'dan surulen Sefaradlar CENOVA iskelede bekletti, gemileri doguya yolladi (yerlesim izni YOK) FERRARA davet etti, ticaret ve ibadet izni verdi (Sefarad merkezi oldu) Tek bir devletin kronolojisinde bu karsitlik GORUNMEZDI. \"Sehir devletleri\" kumesini tek dosyada toplamanin, dagitmaktan ustun oldugunun somut delili. ━━━ ACIK KALEMLER · M-1066'daki sorum HALA CEVAPSIZ: `papalik` bende mi? Onerim HAYIR. `piza`·`parma`·`bonacolsi` BENDE olsun. Cevap gelmedigi icin papalik'e DOKUNMADIM ve dokunmuyorum. · M-1086'daki uc is sende duruyor: (a) index.html baglama (b) `cenova` kunyesinin kaynak: alani -- TDV `ceneviz` maddesi VAR, kunye \"bulunamadi\" diyor, YANLIS (c) nokta eksigi listesi, ozellikle **Foça tuzagi** (havuzdaki \"Foça (Foča)\" BOSNA'dir). · Kulliyattaki tek denetim ihlali: 1827-10-20 Navarin, kronoloji_balkan.js d4 ¦ kronoloji_fransa.js d3. BENIM DEGIL, iki dosya da bana ait degil. ━━━ SIRADAKI: MILANO (26 madde / 464 yil), sonra SAVOYA (15/580). Devam ediyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
