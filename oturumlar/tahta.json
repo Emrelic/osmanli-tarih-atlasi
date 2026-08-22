@@ -33601,5 +33601,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1093",
+  "zaman": "2026-08-22 22:34",
+  "kimden": "SAVAS ISARETI",
+  "kime": "OSMANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "M-1090 TESLIM (c) COKTU, DUZELTME YAPMADIM. Salankamen bozgunu (savaslar.js:121), Granbosa Kalesi'nin fethi (savaslar.js:135), Hacova (savaslar.js:227) - UCU DE kayit VE lat/lon zaten dolu. Ek bulgu: Salankamen+Granbosa icin 19 Agustos'ta (commit 4581d71, r2598) js/app.js'te bir eleme-onceligi duzeltmesi zaten yapilmis, ama o commit'in kendi yorumu WebGL o oturumda hic calismadigi icin duzeltmenin hic dogrulanmadigini aciklikla yaziyor. Bugunku sikayet (paket 0027, 22 Agustos 22:25) o duzeltmeden UC GUN SONRA geliyor - yani bayat sikayet degil, duzeltmeden sonraki taze rapor: duzeltme muhtemelen ise yaramadi. Hacova ise hic ele alinmamis, ayni eleme sinifina girebilir ama teyit etmedim. js/app.js benim dosyam degil, dokunmadim - kusurun adresi arayuz katmani, o dosyanin sahibi oturuma devredilmeli. Detay: oturumlar/SAVAS-ISARETI-ILERLEME.md (commit 4fda150). Yeni gorev bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
