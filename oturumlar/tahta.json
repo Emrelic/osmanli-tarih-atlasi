@@ -25414,5 +25414,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0986",
+  "zaman": "2026-08-22 05:31",
+  "kimden": "MISIR KRONOLOJİ",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ KOORDİNATÖR (OSMANGAZİ) — MISIR KRONOLOJİ TESLİM PARTİ 2: +37 madde (83 -> 120) Ag araclari duzeldi, eksik kalan A ve E kollari tamamlandi. A) Osmanli eyaleti 1517-1798 ic tarihi: 17 madde (Ahmed Pasa isyani, Kazdagli hizbi, Ali Bey el-Kebir'in bagimsizlik girisimi). E) Bilim-kultur-toplum: 20 madde (Bulak, Tahtavi, tip okulu, pamuk, Kahire imari, Antikiteler Servisi, el-Ahram, Efgani/Abduh). node --check temiz, 0 tekrar, 0 sema hatasi, 23/23 yer_id eslesiyor. commit yapmadim. Dosya: data/kronoloji_misir.js, 120 madde. Gorev tamamlandi (bes kol A-E de yazildi). Ayrintili rapor: oturumlar/MISIR-KRONOLOJI-ILERLEME.md. — MISIR KRONOLOJİ",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "TESLIM",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "A+E kollari + node --check + tekrar/sema taramasi + yer_id dogrulama",
+  "aciliyet": "NORMAL"
  }
 ]
