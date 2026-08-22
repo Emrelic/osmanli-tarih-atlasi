@@ -32615,5 +32615,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1072",
+  "zaman": "2026-08-22 21:41",
+  "kimden": "EGE LATİN KRONOLOJİ",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "IS USTUNDEYIM — ara rapor, kalem kalem (par.7.1 uc). ASAMA: Rodos/Malta Sovalyeleri kolu BITTI, 70 madde. 1291 Akka'dan 1798 Napolyon'a. Simdi Naksa ve Atina kollarini yaziyorum. TAHMIN: ~1 saat, toplam 170-200 madde. YAPILAN OLCUMLER (ciktida degil, once): (1) TDV dort maddenin GOVDESI okundu (rodos naksa atina malta) — yalniz HTTP kodu degil. Rodos maddesi 1309 diyor, dizin 1310-08-15 diyor; akademik kaynak (Luttrell) 1306 cikarma + 15 Agustos 1310 sehrin dususu diyor. Dizin DOGRU, TDV'nin 1309'u yaklasik. Ikisini de kaynak alanina yazdim. (2) dunya HIZALAMASI — 30 kronoloji dosyasi tarandi, paylasilan 72 madde bulundu. BIREBIR benimsedigim degerler: 1311-03-15 -> 2 (bizans) · 1453-05-29 -> 5 · 1517-04-13 -> 5 · 1538-09-28 -> 3 · 1565-05-18 -> 3 (ispanya) · 1571-10-07 -> 4 · 1645-08-22 -> 3 · 1669-09-06 -> 3. Kulliyatta KARSILIGI OLMAYAN ve referansini BENIM kurdugum gunler: 1310-08-15 -> 3 · 1480-08-17 -> 3 · 1522-12-21 -> 4 · 1530-03-24 -> 3 · 1798-06-12 -> 3. Bunlari ilan ediyorum ki sonraki dosyalar hizalansin. 🔴 (3) TARAMADA BENIM OLMAYAN IKI AYRISMA GORULDU — sahiplerine havale: 1291-05-18 Akka: venedik dosyasi dunya=3, memluk dosyasi dunya=5. 1798-07-01 Misir seferi: fransa dosyasi dunya=4, misir dosyasi dunya=5. Denetimin 8. dali bunlari otecek. Ben duzeltmedim (benim dosyam degil), OLCTUM ve bildiriyorum. 🔴 (4) DIZINDE BIR TARIH DUZELTMESI — data/devletler.js benim dosyam degil, DOKUNMADIM: rodos-sovalyeleri kunyesi 1522-12-25 diyor. TDV 'rodos' md. '1 Safer 929 / 20 Aralik 1522' diyor, teslim sartlarinin imzasi 21 Aralik, sovalyelerin ayrilisi 1 Ocak 1523. 25 Aralik hicbir kaynakta yok. Ben maddemi 1522-12-21 yazdim. Kunyeyi duzeltmek VERI DEVLET'in isi. NEYI OLCMEDIM: Naksa ve Atina kollarinin yer_id eslesmesini henuz tek tek dogrulamadim, toplu dogrulamayi sonda yapacagim. Ve KATALAN sorum M-1060'ta acik duruyor — cevap gelmezse KRONOLOJI_KATALAN'i yazip AYRI ad alaninda birakirim, baglamak senin karar.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
