@@ -4961,8 +4961,37 @@ function haritayiOlayaGotur(o, zorla) {
     // beklemiyor. Alt sınır 220 ms: bunun altı göz için sıçramadan
     // ayırt edilemez hâle geliyor (ölçülmedi — gözle ayarlanmalı).
     var _sonSure = hizliGecis ? Math.max(220, _sureMs * 0.5) : _sureMs;
+    // 🔴🔴🔴 22 Ağustos 2026 — `essential: true` VE UÇUŞUN HİÇ ÇALIŞMAMASININ
+    // GERÇEK SEBEBİ BUYDU.
+    //
+    // Emre üç kez *"uçuş modu çalışmıyor, şak şak ani geçiş yapıyor"* dedi.
+    // İki gerçek kusur bulunup düzeltildi (kamera kilidinin süresi · kırpmanın
+    // panel titretmesi) ve İKİSİ DE İŞE YARAMADI. Ölçüm:
+    //
+    //     window.matchMedia("(prefers-reduced-motion: reduce)").matches → TRUE
+    //
+    // MapLibre GL'in BELGELENMİŞ davranışı: işletim sisteminde "hareketi
+    // azalt" açıksa `flyTo`/`easeTo`/`panTo` animasyonu TAMAMEN ATLAR ve
+    // anında sıçrar — TEK İSTİSNA `options.essential === true`.
+    // ⇒ Kod doğruydu, ayarlar doğruydu, kilit doğruydu. **Kütüphane
+    //   animasyonu SESSİZCE iptal ediyordu.** "Uçuş" ile "ani" kipinin aynı
+    //   görünmesinin sebebi buydu.
+    //
+    // 📌 VE BU, BU PROJENİN EN PAHALI DERS AİLESİNİN YENİ BİR ÜYESİ:
+    // *"denetim var ≠ o soruyu soruyor"* değil, *"kod doğru ≠ ÇALIŞIYOR"*.
+    // Üç tur boyunca KENDİ kodumuzda hata aradık; hata KODUN DIŞINDAYDI —
+    // tarayıcının/işletim sisteminin bir tercihinde. Ve o tercih hiçbir
+    // hata, uyarı ya da log üretmiyor: sessizce davranış değiştiriyor.
+    //
+    // ⚠️ ETİK NOT — bu bir ERİŞİLEBİLİRLİK tercihini EZİYOR, o yüzden
+    // KOŞULLU: yalnız kullanıcı 🛩 anahtarını AÇTIYSA. Uçuş bu uygulamanın
+    // dekoru değil ÖZELLİĞİ ve kullanıcı onu arayüzden bilerek seçiyor —
+    // yani bizim anahtarımız, bu özellik için kullanıcının hareket
+    // tercihidir. Anahtar kapalıysa `essential` verilmiyor ve sistem
+    // tercihi aynen geçerli.
     var _ortak = { center: [hedef.lon, hedef.lat], zoom: yakinlik,
-                   offset: ofset, duration: _sonSure };
+                   offset: ofset, duration: _sonSure,
+                   essential: !!(ucusAcEl && ucusAcEl.checked) };
     // 🔴 VARIŞI BEKLE — `moveend`, süre tahmini DEĞİL.
     // `flyTo`/`easeTo` kesilebilir (⏭ üst üste basılırsa MapLibre yeni
     // çağrıyı DEVRALIR), o yüzden "duration kadar bekle" YANLIŞ olurdu:
@@ -4991,6 +5020,20 @@ function haritayiOlayaGotur(o, zorla) {
     // `moveend` HİÇ gelmez ve kilit sonsuza kadar açık kalmazdı — kalırdı.
     // İkisinden hangisi önce gelirse ötekini iptal ediyor.
     _varisTimer = setTimeout(_varisBirKez, _sonSure + 400);
+
+    // 🔴 TEŞHİS SATIRI — bir sonraki "çalışmıyor" raporunu İZLENİM değil
+    // ÖLÇÜM yapsın diye. Üç tur boyunca hangi dalın koştuğunu bilmeden
+    // tahmin yürüttük; bu satır o tahmini gereksiz kılıyor.
+    if (window.__UCUS_TESHIS !== false) {
+      console.log("🛩 uçuş: %s · %.0f km · %d ms · zoom→%.2f · ofset[%.0f,%.0f]"
+                  + " · reduce-motion:%s · essential:%s",
+                  (_kip === "yatay" && _kmMesafe <= _esik) ? "easeTo(yatay)"
+                                                          : "flyTo(eğik)",
+                  _kmMesafe, _sonSure, yakinlik, ofset[0], ofset[1],
+                  window.matchMedia("(prefers-reduced-motion: reduce)").matches
+                    ? "AÇIK" : "kapalı",
+                  _ortak.essential);
+    }
 
     if (_kip === "yatay" && _kmMesafe <= _esik) {
       harita.easeTo(_ortak);
@@ -5331,18 +5374,35 @@ function odakOfseti(hedef, kap) {
   var p;
   try { p = harita.project([hedef.lon, hedef.lat]); } catch (e) { return [0, 0]; }
   var pay = Math.max(0.02, Math.min(0.45, _ayar("ayar-kenarpay", 18) / 100));
-  var icX = W * pay, icY = H * pay;
-  // Hedef şu an görünen çerçevenin İÇİNDEYSE: kamerayı oynatma (S2).
+  // Hedef şu an görünen çerçevenin İÇİNDEYSE: kamerayı oynatma (S2 + Emre'nin
+  // ③. kuralı: *"olay mahalli zaten gösterim çerçevesi içinde ise haritanın
+  // kaydırılmasına gerek yoktur"*).
   if (p.x >= 0 && p.x <= W && p.y >= 0 && p.y <= H) return [0, 0];
-  // Dışarıdaysa: merkezden hedefe giden ışının, "iç dikdörtgen"i deldiği
-  // noktaya yerleştir. Böylece hangi kenardan geldiyse oradan girer ve
-  // kenara yapışmaz — payı kadar içeride durur.
+
+  // 🔴 22 Ağustos 2026 — KURAL DEĞİŞTİ, Emre'nin tarifi BİREBİR:
+  //   *"Olay mahalli hem ÜST kenardan hem YAN kenardan EN AZ ekranın %15'i
+  //    kadar içeri girecek. SADECE ÜST VEYA YAN DEĞİL, İKİ KENARDAN DA.
+  //    Yatay doğrultuyu 100'e böl, 15. dilime denk gelecek şekilde soldan
+  //    giriş yapacak. Dikey doğrultuda ekranı 100'e böl, 15. dilimde yer
+  //    alacak şekilde üstten aşağıya doğru ekrana girecek."*
+  //
+  // ESKİ HÂLİ IŞIN TABANLIYDI: merkezden hedefe giden ışının "iç
+  // dikdörtgen"i deldiği noktaya koyuyordu. O yöntem hedefi ışının ÇIKTIĞI
+  // kenardan payı kadar içeri alır — ama ÖTEKİ eksende hedef ekranın tam
+  // ortasında da olabilir, kenarına da yapışabilir. Emre'nin istediği bu
+  // DEĞİL: **iki eksende de aynı anda %15.**
+  //
+  // ⇒ Yeni kural: hedef, iç dikdörtgenin GELDİĞİ YÖNDEKİ KÖŞESİNE oturur.
+  //   Hangi köşe olduğunu, hedefin merkeze göre işareti söyler.
+  //   Hedef tam bir eksende ortadaysa (dx≈0) o eksende ORTA kalır —
+  //   yoksa hiç gerekmeyen bir kayma üretirdik.
   var dx = p.x - W / 2, dy = p.y - H / 2;
   if (!dx && !dy) return [0, 0];
-  var yarimX = W / 2 - icX, yarimY = H / 2 - icY;
-  var t = Math.min(Math.abs(dx) > 1e-6 ? yarimX / Math.abs(dx) : Infinity,
-                   Math.abs(dy) > 1e-6 ? yarimY / Math.abs(dy) : Infinity);
-  return [dx * t, dy * t];
+  var hedefX = W / 2, hedefY = H / 2;
+  if (Math.abs(dx) > 1e-6) hedefX = (dx > 0) ? W * (1 - pay) : W * pay;
+  if (Math.abs(dy) > 1e-6) hedefY = (dy > 0) ? H * (1 - pay) : H * pay;
+  // `offset`, hedefin kabın MERKEZİNE göre piksel sapmasıdır.
+  return [hedefX - W / 2, hedefY - H / 2];
 }
 
 // ⚙ Ayarlar penceresi — dört sürgü, `#ayarlar-pencere` (`#dizin`in aynı
