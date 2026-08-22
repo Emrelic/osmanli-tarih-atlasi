@@ -157,6 +157,20 @@ def main():
     kos("⑥b kronoloji şeması", ["arac/denetle_kronoloji.py"], a.kuru,
         uyari_kodu=True)
 
+    # ⑥c ARAYÜZ — `index.html` ile `js/app.js` arasındaki sessiz kopukluklar.
+    # 🔴 NİÇİN EKLENDİ (22 Ağustos 2026): o gün üç kusur da DENETİMSİZDİ ve
+    # üçünü de KULLANICI buldu:
+    #   ölü sürgü        `ayar-yakinlik` hiçbir kod tarafından okunmuyordu;
+    #                    Emre "bu ne işe yarıyor?" diye sordu
+    #   kırık yorum      bir HTML yorumu erken kapandı, açıklama metni
+    #                    AYARLAR PENCERESİNE sızdı; Emre ekran görüntüsü attı
+    #   mükerrer id      `ayar-kenarpay` iki sürgüde birden vardı, ikincisi
+    #                    hiç okunmuyordu (index.html:383'te kayıtlı)
+    # ⚠️ UYARI kipinde: arayüz kopukluğu haritayı bozmaz, yayını durdurmak
+    # orantısız olur. Ama sessiz de kalmaz — günlüğe düşer.
+    kos("⑥c arayüz denetimi", ["arac/denetle_arayuz.py"], a.kuru,
+        uyari_kodu=True)
+
     # ⑦ commit + push
     if a.kuru:
         yaz("▶ ⑦ commit + push   (kuru koşu — yapılmadı)")
