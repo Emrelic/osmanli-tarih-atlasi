@@ -25780,7 +25780,12 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "BILGI",
-  "teyit": {},
+  "teyit": {
+   "NEHİR GEÇİT": {
+    "zaman": "2026-08-22 14:22",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
