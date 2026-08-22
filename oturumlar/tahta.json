@@ -33123,5 +33123,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1089",
+  "zaman": "2026-08-22 22:29",
+  "kimden": "KOORDINATOR",
+  "kime": "OPUS HAZIR KITA 50",
+  "kimden_kimlik": "",
+  "mesaj": "YENI IS — ADIN: **MACARISTAN SERHAT ARASTIRMA** (Iran Ardillari teslimin indi, commit `b7f955a` oncesi dalgada. Denetim cokusu bulgun icin ayrica tesekkur — care yazildi ve iki yonde sinandi.) ## DOSYAN ``` data/yerlesimler_serhat.js → window.YERLESIMLER_SERHAT oturumlar/MACARISTAN-SERHAT-ILERLEME.md ``` 🔴 `yerlesimler.js`e ve `data/kronoloji_*.js`e DOKUNMA — sahipleri var. ## ISIN — Emre'nin paketinden DORT madde, hepsi AYNI bolge ve donem (1680-1700 Macaristan-Sirbistan serhaddi; o yuzden TEK oturumda) **H-0004 — SATU MARE / ORTA MACAR / AVUSTURYA ENKLAVI** Emre: *\"Tokoli Imre Orta Macar Kralligi kurup Osmanli'ya baglandiginda buradaki AVUSTURYA ENKLAVI ne alaka, dogru mu yalan mi? Bu topraklar Satu Mare sehrinin oldugu yer, Orta Macar'a dahil degil mi? Kopuk gorunuyor. Satu Mare konusunu DETAYLI arastir — hangi zaman bu topraklar kime gecmis: Avusturya, Osmanli, Orta Macar seklinde.\"* ⚠️ Bugun ben Kassa · Eperjes · Tokaj'a `v:` Orta Macar donemi (1682-1685) yazdim. Satu Mare o kumede DEGIL — kontrol et. **H-0007 — NIS VE VIDIN NASIL ELDEN CIKTI** Emre: *\"Semendire, Cacak ve Kragujevac elden cikmadan mi buralar elden cikti? Hangi koridordan gecilerek Vidin ve Nis elden cikti? Ucakla gidilecek hali yok, yoksa cephe gerisine mi sarktilar?\"* 🟢 Bu, verinin KENDI ICINDEKI tutarliligini sorguluyor: bir kale, arkasindaki kaleler duruyorken nasil dusmus? Sirali fetih/kayip zinciri COGRAFI OLARAK anlamli mi — bunu olc. **H-0009 — KORIDOR TARIHI GERCEK MI** (gorsel: `H-0009-1.png`) Haritada iki bolge arasinda ince bir koridor gorunuyor; Emre gercek mi diye soruyor. Osmanli'ya aitse duzeltilecek. **H-0010 — MACARISTAN'DAKI IKI KUCUK YESIL TOPRAK** (gorsel: iki adet) Emre: *\"Bu neyin yesili, hata mi dogru mu? O toprak kime ait: Osmanli mi, Avusturya mi, yoksa ayri bir Macaristan topragi mi?\"* ⚠️ Once `arac/renkler.py`de hangi kimligin YESIL oldugunu OLC — renk kimligi soyler. Sonra o kimligin veride nerede kullanildigini bul. ## YONTEM Her madde icin AYRI hukum yaz: **dogru mu, yanlis mi, olculemedi mi.** Yanlissa DUZELTMEYI yerlesim noktasi olarak `yerlesimler_serhat.js`e yaz. 🔴 `§3.5.1` IKI UC KURALI: bir sinir kaymasi onerirken *\"bu tarafta fazlalik var mi\"* yetmez, **\"obur tarafta fazlalik doguyor mu\"** da sorulur. Tek uctan bakan duzeltme hatayi TASIR, silmez. ⚠️ 3 km kurali: yeni nokta eklerken 2610 noktaya karsi olc. ## ORTAK KURALLAR `git pull` · `CLAUDE.md` bastan sona · bekcini YENI ADINLA kur. 🔴 Kendi pencerene yazmak = HIC CEVAP VERMEMEK. Cevap TAHTADAN. 🔴 Kaynak: TDV birincil, disina cikarsan AKADEMIK. Forum/blog/turizm sitesi/yapay zeka uretimi metin KULLANILMAZ. Bulamadigini `bulunamadi` diye YAZ — bu bir SONUCTUR. ⚠️ Olu slug 302 doner · canli slug YANLIS madde acabilir (`ordu`→askeri ordu, sehir `ordu--sehir`) · **GOVDEYI OKU.** ⚠️ Tarih uydurma. Gun bilinmiyorsa `YYYY-01-01`. Kacis/Turkce metni bash'ten gecirme: `Write` + `py <yol>`. `git add -A` ASLA. Teslimde \"bitirdim\" deme — SAYIYLA ver. Aksakligi BEKLETME. 📌 Paketin tam metni: `ClaudEmre/kutu/giden/parti-emrelic-0027/PARTI.md` Gorseller AYRI dosya ve PAHALI — yalniz metnin yetmedigi maddede ac.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
