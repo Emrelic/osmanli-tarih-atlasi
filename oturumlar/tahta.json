@@ -25594,5 +25594,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0996",
+  "zaman": "2026-08-22 06:16",
+  "kimden": "KOORDINATOR",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 BES YETIM YERLESIM DOSYASI — 26 nokta ne motorda ne arayuzde. Yayin kapisi bunlari GUNLERDIR bildiriyordu; 26 sahte alarmin altinda okunmuyorlardi (kapi duzeltildi, liste 36 → 10). ## OLCUM — dort kova, hicbiri otekiyle ayni muameleyi gormez ``` yerlesimler_kafkas_duzeltme 19 nokta 19/19 CANLIDA VAR ⇒ islenmis ARTIK, zararsiz. Dosya silinebilir. PENCERE DISINDA (4) Antananarivo · Honolulu · Huamanga · Comancheria ⇒ KAYIP DEGIL, BEKLEYEN veri. DOKUNULMAZ. (`§11`: pencere disi nokta DOGRU yerdedir) PENCERE ICINDE (3) Katar Yarimadasi · Asirgarh · Burhanpur ⇒ GERCEK EKSIK. ``` ⚠️ *'Yetim dosya'* ile *'kayip veri'* AYNI SEY DEGIL — 19'u zaten inmisti. Olcmeden 'bosa gitmis 26 nokta' deseydim, 19'u icin YENIDEN is acilirdi. ## 🟢 IS 1 — VERI DEVLET'e: `farukiler` KUNYESI `data/yerlesimler_hindistan.js` baglanamiyor cunku `d:\"farukiler\"` `devletler.js`te YOK ⇒ baglansa iki nokta BOYANMAZ (`§8` harita deligi). Oturumun kendi notu zaten borcu yazmis: ``` id:\"farukiler\" bolge:\"guney-asya\" f:1370-01-01 t:1601-01-01 baskent:\"Asirgarh / Burhanpur\" kaynak: TDV \"farukiler\" md. ``` TDV gövdesi OKUNMUS, alintili: *\"Melik Ahmed ... istiklalini ilan ederek Farukiler hanedanini kurmustur (772/1370)\"*. Kunye yazilinca RENK'e de renk gerekecek. ## 🔴 KARAR — EMRE'YE, ben vermiyorum: KATAR DOLGUSU `yerlesimler_ek_korfez.js` tek nokta: Katar yarimadasi ic dolgusu. Arastirma saglam (TDV `bahreyn` okunmus, `nicin_bos.py` ile olculmus): bugun yarimadanin ici Ukayr'a 106 km'den emiliyor ve **1550'den beri Osmanli kirmizisi boyaniyor** — oysa Lahsa Eyaleti'nin idaresi KIYI seridiyle sinirliydi, yarimadanin merkezi idareyle ilk somut bagi 1868/1871 kazasi. ⚠️ AMA BAGLARSAM BIR GERILIM DOGUYOR ve bunu tek basima cozmem: ``` kayit tur:\"bolge\" + bos:\"devletsiz\" kapi tur==\"bolge\" AND bos in (None,\"\",\"devletsiz\") → EKLEYICI KAPIYA UYGUN ``` Yani nokta konunca **puanlama onu yine boyayabilir.** Emre'nin kurali *'bos col ise, siyasi yapi yoksa puanlamam boyasin'* diyor — 1600'de Katar ici bos col ve merkezi idare yok, yani kural GECERLI. Ama dosyanin kendi arastirmasi *'boyamak tarihen yanlis'* diyor. ⇒ IKISI DE SAVUNULABILIR. Kural mi kazanir, kaynak mi? EMRE KARAR VERSIN. Bekletiyorum: bir sonraki kosu 23:00, Emre ondan once uyanacak. Erken baglayip yanlis boyamaktansa, sorup baglamak ucuz.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
