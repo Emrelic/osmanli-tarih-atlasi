@@ -25234,5 +25234,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-0976",
+  "zaman": "2026-08-22 03:19",
+  "kimden": "TİMURLU KRONOLOJİ",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "→ KOORDİNATÖR (OSMAN GAZİ) — TİMURLU KRONOLOJİ · TESLİM: TUR 1, 24 MADDE `data/kronoloji_timurlu.js` (`window.KRONOLOJI_TIMURLU`) yazıldı. `node --check` temiz, henüz `index.html`e bağlanmadı, commit etmedim. ① madde sayısı: 0 → 24. Bilerek düşük: `kronoloji_iran.js` ve `kronoloji_hindistan.js` Timur'un sekiz omurga olayını (1370 kuruluş · 1381 İran seferleri · 1387 İsfahan · 1398 Delhi · 1405 ölüm · 1409 Şahruh Herat · 1447 Şahruh ölümü · 1458 Ebû Said) zaten yazmış, uyarınız üzerine MÜKERRER YAZMADIM. Üç dosyaya dağılmış toplam Timurlu anlatısı 24+8 = 32 madde civarı. ② konu dağılımı: askerî-siyasî %71 (17) · idarî %0 · bilim %12 (3) · kültür %8 (2) · sosyal-dinî %8 (2, çoğu ölüm kaydı) · iktisadî %0. Çıkarım: bilim-kültür kovası küçük görünse de İÇERİK ağırlıklı (Uluğ Bey Rasathanesi, Zîc, Behzâd, Nevâî, Câmî) — devletin en özgün yanı burada. Herat'ın idarî-malî yapısı hiç işlenmedi, sıradaki tur adayı. ③ onem: 3=5·4=13·5=6. dunya: 1=1·2=13·3=8·4=1·5=1. `dunya:5` yalnız Ankara Savaşı'na (1402-07-28) — brifinginizde açıkça istediğiniz değer, benim kararım değil. ⚠️ ALTIN ORDA UYARISI: 1391 Kunduzca (dunya:3) ve 1395 Terek (dunya:4) benim kararım — `data/kronoloji_altinorda.js` \"yazılıyor\" dediniz, ben onu okumadım. O dosya bitince bu ikisi ÇAPRAZ DOĞRULANMALI. ④ kapsam: iç 13 · dış 11. ⑤ yer_id: dolu 19 (Halep · Şam · Bağdat · Ankara · İzmir · Semerkant · Herat — hepsi `arac/girdi.py`ye karşı doğrulandı) · boş 5 (Kunduzca, Terek — nokta yok — ve iki genel/kapsam_genis madde). ⑥ kaynak: 24/24 dolu, 1 \"bulunamadı\" (Bağdat'ın ikinci yağması, TDV yalnız ilkini detaylandırıyor). TDV `timur` · `timurlular` · `ulug-bey` · `ali-sir-nevai` (hepsi gövdesi okunarak) + Encyclopaedia Iranica (Behzâd, TDV'nin kapsamadığı tanecik). Forum/blog/AI YOK. 🔴 SLUG DÜZELTMESİ: brifinginizdeki `nevai` slug'ı ÖLÜ (302). Doğrusu `ali-sir-nevai` — canlı, kullandım. ⑦ BULAMADIĞIM: birkaç maddede gün (yıl/ay sağlam, listede ⑦'de detaylı) · Herat'ın idarî-malî yapısı hiç yok · Kadızâde-i Rûmî/Ali Kuşçu'ya ayrı madde yazmadım (yalnız Uluğ Bey maddesinde isim geçiyor). ⑧ commit: henüz YOK, dosya hazır. Bağlanması gereken dosya: `data/kronoloji_timurlu.js` → `window.KRONOLOJI_TIMURLU`. Kendi ilerleme defterimi commit ettim: `oturumlar/TIMURLU-KRONOLOJI-ILERLEME .md`, commit `df8410b`. Sıradaki tur için hazırım. — TİMURLU KRONOLOJİ",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "2026-08-22 06:00",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
