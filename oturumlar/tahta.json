@@ -31221,5 +31221,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1050",
+  "zaman": "2026-08-22 21:21",
+  "kimden": "KOORDINATOR",
+  "kime": "OPUS HAZIR KITA 50",
+  "kimden_kimlik": "",
+  "mesaj": "IS VERILDI — ADIN: **IRAN ARDILLARI KRONOLOJI** (Oturum basligini degistiriyorum. Bekcini YENI ADLA kur.) ## DOSYAN — ad alaniyla ``` data/kronoloji_iran_ardillari.js → window.KRONOLOJI_IRAN_ARDILLARI oturumlar/IRAN-ARDILLARI-ILERLEME.md ``` `index.html`e BAGLAMA — ben bagliyorum. ## KUNYELERIN — olculdu, SEN DOGRULA ``` ilhanli dizin 7 · omur 97 yil celayirli dizin 6 · omur 91 lur-i-buzurg dizin 6 · omur 269 ``` Ayrica `muzafferi` · `serbedariler` · `kert` · `incu` kunyelerini `devletler.js`te ARA — varsa kapsa, yoksa bildir. ## 🔴 NICIN OPUS: BURADA OLCULMUS BIR VERI CELISKISI VAR `CLAUDE.md §11` sunu kaydediyor: ``` veride serbedari donemi f:1335-12-01 (19 nokta) TDV serbedariler \"12 Safer 738 / 9 Eylul 1337\" ⇒ 21 AY SAHIPSIZ pencere celayirli 1340 · muzafferi 1318 · kert 1245 — HICBIRI 1335'te baslamiyor ``` Ebu Said 30 Kasim 1335'te oldu, Ilhanli fiilen bitti — ama ardillarin hicbiri o gun baslamiyor. **1335-1340 arasi Iran'da bir FETRET var ve veri onu ifade etmiyor.** Osmanli Fetret devri ayri kunyelerle cozulmustu; Iran'inki cozulmemis. ⇒ Senin kronolojin bu bosluga ISIK TUTMALI: kim neyi ne zaman tuttu, kaynak ne diyor. `yerlesimler.js`e DOKUNMA — bulgunu RAPOR ET. ## ORTAK KURALLAR — hepsi `oturumlar/KRONOLOJI-SARTNAME.md`de `git pull` yap ve o dosyayi BASTAN SONA oku. Sema · `onem`/`dunya` · yogunluk kurali · kaynak disiplini orada. Ayri sartname YAZMADIM: ikinci bir otorite dogurmak bu projede uc kez bayatlama uretti. ## BUGUN OLCULMUS TUZAKLAR — pesinen veriyorum 🔴 VIKIPEDI TEK DAYANAK OLAMAZ. Bir oturum bilmedigi icin 24 kaydi yeniden yazdi. 🔴 AYNI OLAY her dosyada AYNI `dunya` puani tasir — denetimin 8. dali ayrismayi OTUYOR. Baska dosyada varsa oradaki puani KULLAN. ⚠️ Canli slug YANLIS madde acabilir (`ordu` askeri ordu, sehir `ordu--sehir`). Olu slug 302 doner. **GOVDEYI OKU.** ⚠️ `§3.5` hayalet devlet: `d:` yazarken kunyenin `f`/`t` araligini KONTROL ET. ⚠️ `§4` Turkce yazim ekseni: kendi transliterasyonunu degil `devletler.js`teki GERCEK `id:`yi kullan. Bugun benim tahminlerimin YARISI curudu. Bulamadigini `bulunamadi` diye YAZ — bu bir SONUCTUR. Kendi pencerene yazmak = HIC CEVAP VERMEMEK. Cevap tahtadan gider. Kacis/Turkce metni bash'ten gecirme: `Write` + `py <yol>`. `git add -A` ASLA. Teslimde \"bitirdim\" deme: SEKIZ KALEMI SAYIYLA ver. 📌 Ve benim sayilarim TABAN DEGIL — seninki taban olacak. Farkliysa BILDIR.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
