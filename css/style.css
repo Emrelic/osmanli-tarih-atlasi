@@ -108,13 +108,20 @@ body {
    ÖTELEYİP "bu çubuğun hizasının bittiği yerden SAĞA YANAŞIK" koymak için
    `justify-content` `center`den `flex-end`e döndü — blok artık `#ustbar-
    yil`in hemen soluna yaslanıyor, ortada değil. */
+/* 23 Agustos, PAKET 0027/H-0013 — Emre BU KARARI TERSINE CEVIRDI:
+   "BU KRONOLOJI MADDESININ METNI UST CUBUKTA GORUNEN METIN SAGA DEGIL
+    SOLA YANASIK OLARAK GORUNSUN VE VURGULU BIR SEKILDE OKUNABILSIN"
+   Ustteki 21 Agustos yorumu `flex-end`in NICIN secildigini anlatiyor ve
+   o gerekce O GUN dogruydu. Bugun Emre tersini istiyor; yeni talimat
+   gecerli. Yorum SILINMEDI cunku kararin tarihcesi, kararin kendisi
+   kadar degerli — bir sonraki oturum "niye sagdaydi" diye sormasin. */
 #ustbar-orta {
   flex: 1 1 auto;
   min-width: 0;
   display: flex;
   align-items: baseline;
-  justify-content: flex-end;
-  gap: 8px;
+  justify-content: flex-start;
+  gap: 10px;
   overflow: hidden;
 }
 #ustbar-tarih {
@@ -123,10 +130,22 @@ body {
   white-space: nowrap;
   flex: 0 0 auto;
 }
+/* 23 Agustos, PAKET 0027/H-0003 + H-0013 (Emre ayni seyi IKI KEZ yazdi):
+   "cubuktaki yaziyi daha goze carpan bir sekilde biraz daha kalin
+    yazdirabiliriz ve rengi goze carpici olsun"
+   Uc degisiklik, ucu de okunabilirlik icin:
+     13px -> 15px      · 400 -> 600      · #e8d9a8 -> #ffe08a
+   VE italik KALDIRILDI: Emre "vurgulu bir sekilde OKUNABILSIN" diyor,
+   italik ise bu puntoda okunabilirligi DUSURUYOR. Vurguyu kalinlik ve
+   renk tasiyor, egiklik degil.
+   Renk secimi kasitli: #ustbar-yil ve #tepe-degisim saf altin (#ffd700).
+   Baslik ONLARLA YARISMASIN diye bir ton acik sicak sari secildi —
+   goze carpar ama yilin "en sagda KOCAMAN vurgulu" rolunu calmaz. */
 #donem-etiketi {
-  font-size: 13px;
-  font-style: italic;
-  color: #e8d9a8;
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffe08a;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.55);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -227,7 +246,9 @@ body {
   display: flex;
   gap: 6px;
 }
-#btn-panel, #btn-panel-genislik {
+/* 23 Agustos — #btn-panel-genislik KALDIRILDI (0027/H-0012). Islevi
+   #btn-panel'e tasindi; o dugme artik uc kademe donduruyor. */
+#btn-panel {
   background: rgba(247, 241, 227, 0.94);
   border: 1px solid var(--altin);
   border-radius: 6px;
@@ -237,10 +258,7 @@ body {
   color: var(--metin);
   white-space: nowrap;
 }
-#btn-panel:hover, #btn-panel-genislik:hover { background: #ffe9a8; }
-/* dar kipteyken düğme "açık" görünsün — kullanıcı hangi kademede olduğunu
-   metinden ("↔ Geniş") okur, ama renk onu bakmadan da söyler. */
-#btn-panel-genislik.etkin { background: #ffe0a0; font-weight: bold; }
+#btn-panel:hover { background: #ffe9a8; }
 
 /* p2/H-0006 — panel katlanınca kronoloji tamamen kaybolmasın diye haritanın
    en altında ince bir özet şerit. Yalnız #yanpanel .katli iken görünür
@@ -346,7 +364,16 @@ body {
    genişliğini KENDİ ölçen öğeler yatay taşırmasın. Gizleme YOK —
    `<select>` kısalır (seçili metni kırpar, açılır listesi tam görünür),
    uzun tek kelimeli başlıklar sarar. */
-#padisah-bilgi { min-width: 0; }
+/* 23 Agustos, 0027/H-0002.3 = H-0012 — Emre: "kronoloji secme dropdownu
+   biraz daha genisletilsin ve saga yanasik yapilsin."
+   OLCULDU: padisah karti 378px, bilgi sutunu 1504'te bitiyordu, sagda
+   71 PIKSEL BOSTA duruyordu — cunku `flex: 0 1 auto` sutunun BUYUMESINI
+   engelliyordu. `1 1 auto` ile sutun kartin sag kenarina kadar aciliyor;
+   #devlet-secici-buton zaten width:100% oldugu icin dropdown kendiliginden
+   hem genisliyor hem saga yanasiyor.
+   📌 Yeni bir genislik SAYISI uydurulmadi: bosluk zaten karta AYRILMISTI,
+      yalnizca kullanilmiyordu. */
+#padisah-bilgi { min-width: 0; flex: 1 1 auto; }
 #padisah-ad, #ob-baslik { overflow-wrap: anywhere; }
 
 /* ---------- TEK DEVLET SEÇİCİ (21 Ağustos 2026) — odak + ek, tek panel --
@@ -456,7 +483,6 @@ body {
    hamid Hân") düğmenin taşmasını değil, ad'ın satır kırmasını sağlar. */
 #padisah-ad-satir { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
 #padisah-ad-satir #padisah-ad { min-width: 0; }
-#padisah-ad-satir #btn-panel-genislik { flex: 0 0 auto; padding: 2px 7px; font-size: 11.5px; }
 #padisah-ad { font-weight: bold; font-size: 14.5px; line-height: 1.2; }
 #padisah-saltanat { font-size: 12px; color: #6b5a33; }
 

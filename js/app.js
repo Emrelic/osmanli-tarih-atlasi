@@ -5027,51 +5027,77 @@ document.addEventListener("fullscreenchange", function () {
 });
 
 // Yan paneli katlama (haritaya azami alan)
-document.getElementById("btn-panel").addEventListener("click", function () {
+// ═══════════════════════════════════════════════════════════════════
+// PANEL — UC KADEME (Emre, 23 Agustos 2026 · 0027/H-0002.2 = H-0012)
+// ═══════════════════════════════════════════════════════════════════
+// *"panel butonu bastikca kapali dar genis kapali seklinde ayarlanan bir
+//   buton olsun"* ve *"SOL TARAFTAKI DAR GENIS BUTONUNU KALDIRALIM"*
+//
+// ESKIDEN IKI BAGIMSIZ DURUM VARDI ve CARPILIYORLARDI:
+//     .katli  (btn-panel)            panel tamamen gizli
+//     .dar    (btn-panel-genislik)   panel %60 genislikte
+// "katli + dar" ulasilabilir ama ANLAMSIZ bir haldi — gizli bir panelin
+// genisligi neyi degistirir? Ve kullanici paneli kapatip actiginda hangi
+// genislige donecegini onceden bilemiyordu.
+// ⇒ Tek zincir: genis -> dar -> kapali -> genis. Anlamsiz bilesim artik
+//   URETILEMEZ; iki durumun carpimi yerine uc noktali bir dongu var.
+//
+// ETIKET — bu dosyadaki kuraldan KASITLI sapma:
+//   Yazili kural "metin TIKLAYINCA GIDILECEK kipi yazar" der ve IKI
+//   durumda dogrudur (tek alternatif vardir, belirsizlik yok). UC
+//   durumda "Dar" yazan bir dugme "su an dar mi" "dar yapar mi" belli
+//   degildir. Bu yuzden uc kademede etiket BULUNULAN hali yazar —
+//   Emre'nin kendi ifadesi de oyle: "GENIS DAR KAPALI SEKLINDE
+//   ISIMLENDIRILEREK".
+var PANEL_KADEMELER = ["genis", "dar", "kapali"];
+var PANEL_ETIKET = { genis: "⇥ Genis", dar: "⇥ Dar", kapali: "⇤ Kapali" };
+var PANEL_BASLIK = {
+  genis: "Panel: genis — tikla, DAR olsun",
+  dar: "Panel: dar — tikla, KAPANSIN",
+  kapali: "Panel: kapali — tikla, GENIS olsun"
+};
+var btnPanel = document.getElementById("btn-panel");
+
+function panelKademeUygula(kademe, tuvaliTazele) {
+  if (PANEL_KADEMELER.indexOf(kademe) === -1) kademe = "genis";
   var yp = document.getElementById("yanpanel");
-  var katli = yp.classList.toggle("katli");
-  this.textContent = katli ? "⇤ Panel" : "⇥ Panel";
-  // p2/H-0006: panel katlanınca kronoloji tamamen kaybolmasın diye alttaki
-  // özet şerit açılıyor; panel geri açılınca şerit gereksiz, kapanıyor.
+  var katli = (kademe === "kapali");
+  yp.classList.toggle("katli", katli);
+  yp.classList.toggle("dar", kademe === "dar");
+  btnPanel.textContent = PANEL_ETIKET[kademe];
+  btnPanel.title = PANEL_BASLIK[kademe];
+  btnPanel.setAttribute("aria-expanded", String(!katli));
+  // p2/H-0006: panel katlaninca kronoloji tamamen kaybolmasin diye alttaki
+  // ozet serit aciliyor; panel geri acilinca serit gereksiz, kapaniyor.
   if (kronolojiSerit) {
     kronolojiSerit.classList.toggle("gizli", !katli);
     if (katli) kronolojiSeritGuncelle();
   }
-  setTimeout(function () { harita.resize(); }, 60);
-});
+  // ⚠️ resize SART: kabin genisligi degisti, MapLibre tuvali eski
+  // genislikte kalirsa sagda bos serit birakir.
+  if (tuvaliTazele !== false) setTimeout(function () { harita.resize(); }, 60);
+}
 
-// 🔴 PANEL GENİŞLİĞİ — İKİ KADEME (Emre, 19 Ağustos 2026)
-// *"sağ alt bölüm genişliği şimdiki genişlik ve dar gösterim olarak iki
-//  kademe olsun ve dar gösterim şimdiki genişliğin %60'ı kadar olsun.
-//  geniş ve dar gösterim ayarlanabilsin."*
-// Genişliğin kendisi CSS'te (`#yanpanel` / `#yanpanel.dar`); burada yalnız
-// sınıf ve TERCİH var. Tercih `localStorage`ta, çünkü projede lejant
-// (`lejantKapali`), duygu (`duyguAc`) ve uçuş (`ucusAc`) ayarları da böyle
-// duruyor — kullanıcı her açılışta yeniden daraltmak zorunda kalmasın.
-var btnPanelGenislik = document.getElementById("btn-panel-genislik");
-function panelGenislikUygula(dar) {
-  document.getElementById("yanpanel").classList.toggle("dar", dar);
-  // Metin BULUNDUĞU kipi değil, TIKLAYINCA GİDİLECEK kipi yazar — "⇥ Panel"
-  // düğmesindeki desenin aynısı (katlıyken "⇤ Panel" yazıyor).
-  btnPanelGenislik.textContent = dar ? "↔ Geniş" : "↔ Dar";
-  btnPanelGenislik.classList.toggle("etkin", dar);
-  btnPanelGenislik.setAttribute("aria-pressed", String(dar));
-}
-// ⚠️ Bu satır haritadan SONRA koşuyor (harita js/app.js:549'da kuruluyor,
-// bu blok ~4380'de). Yani kayıtlı tercih dar ise kabın genişliği harita
-// kurulduktan SONRA değişiyor ⇒ resize ŞART, yoksa tuval eski genişlikte
-// kalıp sağda boşluk bırakıyor. Ölçmedim: MapLibre 4.7.1'in kendi
-// ResizeObserver'ı bunu zaten yakalar mı — yakalasa da ikinci bir resize
-// zararsız, yakalamazsa tek çare bu.
-panelGenislikUygula(localStorage.getItem("panelDar") === "1");
-if (localStorage.getItem("panelDar") === "1") {
-  setTimeout(function () { harita.resize(); }, 60);
-}
-btnPanelGenislik.addEventListener("click", function () {
-  var dar = !document.getElementById("yanpanel").classList.contains("dar");
-  panelGenislikUygula(dar);
-  localStorage.setItem("panelDar", dar ? "1" : "0");
-  setTimeout(function () { harita.resize(); }, 60);
+// ESKI TERCIHTEN GOC — sessizce sifirlamak yerine cevriliyor.
+// Kullanicinin daha once sectigi genislik KAYBOLMAZ; "panelDar=1" diyen
+// bir tarayici "dar" kademesiyle acilir. Eski anahtar SILINMIYOR: geri
+// alinmasi gerekirse tercih hala orada duruyor.
+(function () {
+  var k = localStorage.getItem("panelKademe");
+  if (!k) {
+    k = (localStorage.getItem("panelDar") === "1") ? "dar" : "genis";
+    localStorage.setItem("panelKademe", k);
+  }
+  panelKademeUygula(k, k !== "genis");
+})();
+
+btnPanel.addEventListener("click", function () {
+  var yp = document.getElementById("yanpanel");
+  var simdiki = yp.classList.contains("katli") ? "kapali"
+              : (yp.classList.contains("dar") ? "dar" : "genis");
+  var sonraki = PANEL_KADEMELER[(PANEL_KADEMELER.indexOf(simdiki) + 1) % 3];
+  panelKademeUygula(sonraki);
+  localStorage.setItem("panelKademe", sonraki);
 });
 
 // Otomatik yakınlaştırma düğmesi
