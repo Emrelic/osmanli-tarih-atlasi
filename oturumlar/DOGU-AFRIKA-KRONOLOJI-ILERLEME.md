@@ -281,4 +281,96 @@ eşleşmezliği yakaladı** ve dosyayı yazmayı reddetti.
 adımı tamamlanmadı** ve araç şunu bastı: *"MESAJ SENDE KALDI... Bunu
 KULLANICIYA da söyle."* Sebep muhtemelen paylaşılan index üzerinde
 eşzamanlı yazım. **Tekrar yazmadım** (aracın kendi talimatı: mükerrer
-olur); teyit bir sonraki tahta yazımıyla taşınacak.
+olur); teyit bir sonraki tahta yazımıyla taşındı ve M-1145'in teyidi
+temiz gitti.
+
+---
+
+# ÜÇÜNCÜ İŞ — MISIR OLAY MAHALLİ (23 Ağustos 2026, tahta M-1145)
+
+**Yazdığım dosya:** `data/yer_yama_misir.js` → `window.YER_YAMA_MISIR`
+**Kaynak:** `data/kronoloji_misir.js` (120 madde, 35'i `yer_id`siz)
+
+## 15. TESLİM — 35/35
+
+```
+yer_id                      26
+eksik_nokta (koordinatlı)    6
+eksik_nokta (enlem:null)     1   "arandı, bulunamadı" — Bisel
+kapsam_genis                 2
+                           ───
+                            35   kapsama %100
+```
+
+## 16. 🔴 İKİ YAZIM KURALI ALTI KEZ TUTTU — ve bir PANZEHİR doğdu
+
+M-1140'ta herkese bildirilen Türkçe-yazım tuzağı bu dosyada **altı
+kaydı kurtardı**. Tek yazımla arasaydım altısına da *"havuzda YOK"*
+hükmü verecektim:
+
+```
+Sâlihiye     ✗ →  Sâlihiyye            ✓
+Ebûkır       ✗ →  Ebûkîr               ✓   (ı → î)
+Reşid        ✗ →  Reşîd (Rosetta)      ✓   (parantezli ad)
+Dir'iye      ✗ →  Dir'iye (Necid)      ✓   (parantezli ad)
+Fâşir        ✗ →  El-Fâşir             ✓   (harf-i tarif)
+Ümmüdurman   ✗ →  Ümmü Dermân          ✓   (İKİ KELİME)
+```
+
+🟢 **VE SON İKİSİNİ AD ARAMASI BULMADI — KUTU TARAMASI BULDU.** Yerin
+bilinen koordinat kutusundaki bütün havuz noktalarını listeledim ve
+`Ebûkîr` ile `Ümmü Dermân` orada çıktı.
+📌 ***Ad araması bir tuzaksa, konum araması onun panzehiridir.*** Bir adı
+bulamadığında aramayı bırakma — **aynı yeri koordinattan ara.** Bu,
+M-1140'a eklenmesi gereken ikinci ayaktır ve koordinatöre bildirildi.
+
+## 17. 🔴 EN ÖNEMLİ BULGU — YAMAM TAAHHÜT EDİLMEDEN VE RAPOR EDİLMEDEN UYGULANDI
+
+`data/yer_yama_misir.js`'i yazdım, kapıdan geçirmeden **önce** ölçtüm ve
+şunu gördüm: **35 boşluk 9'a inmiş.** Ölçtüm:
+
+```
+BİREBİR UYAN : 34 / 35      SAPMA : 0
+uygulanmayan :  1  (Bisel — enlem:null, doğru davranış)
+git durumu   : `?? data/yer_yama_misir.js`  ← HÂLÂ TAKİP EDİLMİYOR
+```
+
+Yani koordinatör yamayı **commit edilmemiş, tahtaya bildirilmemiş**
+çalışma ağacı dosyamdan okuyup uyguladı (`f2cb7bf`). Sonuç kusursuz —
+34'ün 34'ü, kendi GeoNames koordinatlarım üç ondalığa kadar birebir.
+
+⚠️ **Ama bu bir tasarım değil, bir zamanlama tesadüfü.** Aynı dosya üç
+dakika önce **yarım** hâldeydi. Ve bu, aynı hatanın **ikinci** vakası:
+birincisinde (`e728000`) `kronoloji_dogu_afrika.js` **129 maddeyken**
+alınıp `index.html`e bağlanmıştı; tam hâli 218'di.
+📌 ***İki kez oldu, ikisinde de zarar tesadüfen doğmadı — ve hiçbir
+denetim ötmedi, çünkü yarım ama geçerli bir dosya her kapıyı geçer.***
+⇒ Öneri: bir dosyayı sahibi *"hazır"* demeden uygulama; ya da uygularken
+`git status`ta `??` olan dosyayı **atla**.
+
+## 18. ARACIN EVRENİ İKİ KEZ DEĞİŞTİ — ikisini de SAYI yakaladı
+
+```
+① Doğu Afrika üreteci  48 bekliyordu, 30 çıkardı  (yamam uygulanmıştı)
+② Mısır kapısı         35 bekliyordu, 9 boşluk gördü (yamam uygulanmıştı)
+```
+İkisi de hata değil **evren değişimi**. `CLAUDE.md §11`: *"BİR ALETİN
+EVRENİ DEĞİŞİNCE, ALET DEĞİŞMEDEN SESSİZCE YANILIR."*
+🟢 İkisini de **bastığım sayı** yakaladı — betikler her koşuda
+`eşleşen N / boş M` yazıyor. Sayıyı basmasaydım ikisi de sessiz geçerdi.
+
+## 19. ⚠️ İKİ AÇIK KARAR — koordinatör çevirebilir
+
+1. **1883 Şeykan** → `yer_id:"Kordofan (Ubeyyid)"`. Şeykan ne havuzda ne
+   GeoNames'te var; madde metni olayı *"Kordofan çölünde"* diye
+   çerçeveliyor ve seferin hedefi El-Ubeyyid'di (muharebe alanı ~50 km
+   güneyi). **Uydurma koordinat yerine kaynağın verdiği çerçeve** seçildi.
+2. **1798 Ehramlar** → Kahire'ye **değil**, `eksik_nokta:"İmbâbe"`ye
+   (~5 km). Gerçek bir şehri savaş alanı diye göstermemek için.
+
+## 20. DOSYALAR ARASI TUTARLILIK — kasten sağlandı
+
+`1865-01-01 Sevâkin/Masavva/Dahlak` maddesini `kronoloji_misir.js`te de
+**Masavva**'ya bağladım — `kronoloji_dogu_afrika.js`te de öyle yapmıştım.
+📌 *Aynı olay iki dosyada aynı mahalli taşımalı* — `dunya` puanı için
+geçerli olan kural **olay mahalli için de** geçerlidir.
