@@ -413,6 +413,15 @@ GIRDI_DOSYALARI = [
     # girmesi, kırılmalarının maddesi yazılana kadar BEKLİYOR. Borç burada
     # KAYITLI — `§11`: kayıtsız borç yarın kusur diye yeniden bulunur.
     "yerlesimler_serhat.js",
+    # 23 Ağustos 2026 — MACARİSTAN SERHAT ARAŞTIRMA teslimi.
+    # Tek kayıt: Debrecen. `H-0004`ün ikinci ayağı — Szatmár
+    # enklavının noktasızlık sebebi. Debrecen yokken onun toprağı
+    # Varad (58 km, OSMANLI) · Tokaj (67 km, TÂBİ) · Szatmár
+    # (97 km, avusturya) arasında paylaşılıyor ve Szatmár'ın
+    # peteğini şişiriyordu.
+    # Dayanak TDV `varad`: "Varad merkezli yeni eyaletin Varad
+    # dışında beş sancağı vardı: Salanta/Salonta, DEBRECEN, ..."
+    "yerlesimler_kdmacar.js",
     "yerlesimler_amerika.js",
     # ── HALKA-2 NOKTA PARTILERI · 7 Agustos 2026 ───────────────────
     # Uc oturum, uc bolge, 333 yeni nokta. Yogunluk olcumu (nokta/mn km2):
