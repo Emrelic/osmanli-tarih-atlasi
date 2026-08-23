@@ -2889,6 +2889,19 @@ function agirOlc(ad, is) {
 
 var _longObs = null;
 function agirBaslat() {
+  // 🔴 GÖZLEMCİ SIZINTISI — 22 Ağustos, ölçüldü ve KENDİ ALETİMDEYDİ.
+  // Eski hâl yeni bir `PerformanceObserver` kuruyor ama ESKİSİNİ
+  // KAPATMIYORDU. Uçuşlar biriktikçe gözlemciler üst üste yığıldı ve aynı
+  // görevi defalarca saydılar:
+  //     toplam 9303 ms → 38288 ms   (aynı uzunlukta uçuşlarda)
+  // "Bir uçuşta 38 saniye uzun görev" imkânsız bir sayıdır ve tam da bu
+  // yüzden ele verdi.
+  // ⚠️ `en uzun görev` etkilenmedi (765-1144 ms) — o hâlâ geçerli; ama
+  // TOPLAM güvenilmezdi ve ben onu rapora yazıyordum.
+  // 📌 `§11`: *aletin kendisi bozulunca, ölçtüğü şey değil ALET yanılır.*
+  // Bugün üçüncü kez kendi aletimde kusur buldum (uzantı reddi · kaydedici
+  // yanlış zamanda · şimdi bu). Alet de veridir, o da denetlenir.
+  if (_longObs) { try { _longObs.disconnect(); } catch (e) {} _longObs = null; }
   _AGIR = { en: 0, ad: "", uzun: 0, uzunTop: 0, acik: true };
   if (typeof PerformanceObserver !== "function") return;
   try {
