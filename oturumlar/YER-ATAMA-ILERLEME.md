@@ -472,8 +472,65 @@ Kalite örnekleri:
 sınaması iki yönlü sınandı: ATEŞLEME 5/5 hata sınıfı yakalandı (çıkış 0),
 TEMİZ SINAMA 704 kayıt · 0 hata (çıkış 0).
 
+## Macaristan — kapsam ölçümü
+
+`data/kronoloji_macaristan.js` → `window.KRONOLOJI_MACARISTAN`, 127 madde,
+**74'ünde `yer_id` yok** — koordinatörün 74/127 sayısıyla BİREBİR tuttu.
+Bu dosyada da `yer:` alanı yok, başlık taraması yapıldı: 9 aday bulundu,
+3'ü güvenli doğrudan eşleşme (Niğbolu, Konstanz, Roma-taç-giyme — "Roma'da"
+açıkça yazılı, ikincil tuzak DEĞİL), 2'si ikincil yer tuzağı ("Kutsal Roma
+Kralı" ifadesindeki "Roma" — kişi/kavram çakışması; "Viyana borsa" —
+ambiguous, araştırmaya bırakıldı).
+
+Ayrıca proje içi house-convention taraması yapıldı (Zitvatorok, Karlofça,
+Zenta, Szatmár — bu 4 antlaşma/muharebe başka dosyalarda zaten TDV/akademik
+kaynaklı işlenmişti): 4 kayıt daha kolay olarak çözüldü, yeni araştırma
+gerekmedi.
+
+Toplam **7 kayıt house-convention/kolay ile çözüldü**, **67 kayıt** 2
+paralel araştırma görevine (34+33) gönderildi.
+
+## 🟢 MACARİSTAN TAMAMLANDI — 74/74
+
+İki araştırma alt-görevi (34+33) tamamlandı, ikisi de `dogrula_sonuc.js`
+ile 0 hatayla doğrulandı (düzeltme gerekmedi — `oneri_yer_adi` alanları
+havuza karşı ayrıca doğrulanıp `yer_id`/`eksik_nokta`'ya çevrildi).
+
+```
+Macaristan toplam: 74/74
+  yer_id (7 kolay dahil)   24
+  eksik_nokta              36
+  kapsam_genis             14
+```
+Kalite örnekleri:
+- **İkincil yer tuzağı 4 kez doğru ayıklandı**: Solferino ve Königgrätz
+  ("X bozgununun Y'yi kaçınılmaz kılması" kalıbı — asıl muharebe yeri
+  seçildi, soyut sonuç değil; her ikisi kronoloji_habsburg.js'teki AYNI
+  olaylarla house-convention'la birleştirildi) · "Zsigmond'un Kutsal Roma
+  Kralı seçilmesi"nde "Roma" kelimesi kişi/kavram çakışmasıydı, araştırma
+  yeri BULAMADI ve kapsam_genis'e bırakıldı (uydurma yapılmadı).
+- **İki TARİH UYUŞMAZLIĞI bulunup açıkça işaretlendi, DOKUNULMADI** (görev
+  yalnız yer): Torda Edikti kayıtta 1571 ama kaynaklara göre 1568'de kabul
+  edilmiş (1571'de tersi yönde bir yasa çıkmıştı) · Lajos'un Lehistan tacı
+  kayıtta Şubat ama kaynaklar Kasım diyor · ayrıca 1867 Yahudi Emansipasyon
+  Yasası'nda 14 Aralık kayıt vs 20-28 Aralık kaynak aralığı.
+- **house-convention 6 kez uygulandı**: II. Kosova (data/savaslar.js'teki
+  "II. Kosova" kaydıyla aynı tarih+koordinat) · Zigetvar/Kanuni ölümü
+  (data/olaylar.js'teki mevcut kayıtla) · Solferino/Königgrätz/Ausgleich
+  (kronoloji_habsburg.js'teki kayıtlarla) · Zitvatorok/Karlofça/Zenta/
+  Szatmár (yukarıda, açılış partisi).
+- **Somut araştırma, kolay kapsam_genis'e tercih edildi** çok kez: Kazinczy
+  nyelvújítás (Széphalom bulundu) · Martinovics idamı (Vérmező bulundu) ·
+  1873 Viyana borsa çöküşü (asıl olay Viyana Borsası'nda, somut ve tarihiyle
+  birebir örtüşüyor — yapısal sonuç değil) · 1914 Avusturya-Macaristan savaş
+  ilanı (Viyana değil, Franz Joseph'in imzaladığı Bad Ischl bulundu).
+
+`data/yer_yama.js`: **778 kayıt toplam** (704 + 74). Tam dosya kapı
+sınaması iki yönlü sınandı: ATEŞLEME 5/5 hata sınıfı yakalandı (çıkış 0),
+TEMİZ SINAMA 778 kayıt · 0 hata (çıkış 0).
+
 ## Durum
 **Tamamlanan: olaylar* (412) + İran (107) + Rusya (173) + Habsburg (52)
-+ Lehistan (67) + Venedik (22) = 833/1488.**
-Sırada (Emre'nin kendi sırası): **Macaristan**, sonra **Kırım**.
++ Lehistan (67) + Venedik (22) + Macaristan (74) = 907/1488.**
+Sırada (Emre'nin kendi sırası): **Kırım**.
 `kronoloji_sirbistan.js` sorusu hâlâ cevapsız — dokunmuyorum.
