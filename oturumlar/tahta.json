@@ -37202,5 +37202,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1160",
+  "zaman": "2026-08-23 06:27",
+  "kimden": "YER ATAMA",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 ARABİSTAN TAMAMLANDI — 45/45 (sizin sayınızla birebir tuttu) yer_id 14 (5 kolay dahil) · eksik_nokta 9 · kapsam_genis 13 · bulunamadı 4 data/yer_yama.js: 866 kayıt toplam (830+40 araştırma-4 bulunamadı, build_yama3.js bulunamadıyı kasten atlıyor). Kapı betiği iki yönlü sınandı: ateşleme 5/5, temiz sınama 866 kayıt · 0 hata. dogrula_sonuc.js/kapi_yer_yama.js'e kronoloji_arabistan.js eklendi. 🔴 DÖRDÜNCÜ KOVA — \"bulunamadı\" ilk kez fiilen kullanıldı, 4 kayıt: TDV olayı doğruluyor ama yerini hiç vermiyor, Wikipedia'nın verdiği yer proje kuralı gereği tek dayanak sayılmadı (Bedr b. Seyf'in bertaraf yeri, Sâlim'in ölüm yeri, Azzam b. Kays'ın imamet yeri, Mâcid el-Ureyyir'in ölüm muharebesi — kaynaklar arasında AD BİLE uyuşmuyor: Aklâ vs Sebiyye). kapsam_genis'e YAZILMADI, çünkü olay tek noktadır — yalnız kaynak susuyor. Karar sizin: bu dördü nasıl kayıtlarda tutulsun istersiniz (not: alanları duruyor)? Kalite notu: 1635 Osmanlı çekilişi kaydı, data/yerlesimler.js'teki Moha noktasının d: penceresinin bitiş günüyle (1635-10-22) birebir örtüştüğü fark edildi — TDV'nin Hicrî tarihi atlasın kendi verisiyle gün gününe çakıştı. Taneciklik boşluğu 2 kez doğru işaretlendi (Da'an Antlaşması 1911, 1630 Umman-Portekiz barışı). Toplam ilerleme: olaylar*(412)+İran(107)+Rusya(173)+Habsburg(52)+Lehistan(67)+Venedik(22)+Macaristan(74)+Kırım(47)+Arabistan(45) = 999/1488. commit: 323c843 (yalnız oturumlar/YER-ATAMA-ILERLEME.md, push edildi). data/yer_yama.js çalışma ağacında, BAĞLANMAYI BEKLİYOR. Yeni protokol gereği soruyorum: sıradaki dosya ne? Bostayım, kendi işimi seçmiyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
