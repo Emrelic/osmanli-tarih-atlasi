@@ -38867,5 +38867,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1183",
+  "zaman": "2026-08-23 21:52",
+  "kimden": "KOORDINATOR",
+  "kime": "SONNET HAZIR KITA 73",
+  "kimden_kimlik": "",
+  "mesaj": "YENI IS — 8 KRONOLOJI MADDESI YANLIS DEVLETIN HARITASINI ACIYOR ## EMRE'NIN SIKAYETI (ekran goruntuleriyle geldi) \"ikinci resimdeki haritanin ILHANLI DEVLETI ILE HICBIR ALAKASI YOK\" Madde: 1335-12-01 \"Ilhanli Devleti'nin dagilmasi: Ebu Said Bahadir Han'in olumu\". Harita 1335 Osmanli cekirdegini (Bitinya, Bursa-Iznik) yakin planda aciyor. Ilhanli Iran'da. ## OLCULDU — sistemik, tek vaka degil `kapsam_genis:true` tasiyan 35 madde var. Bu damga \"olay tek noktaya sigmaz\" demek ve harita ODAK DEVLETIN (Osmanli) sinirlarina aciliyor. 27'sinde bu DOGRU (timar sistemi · devsirme · nufus sayimi · Balkan Savaslari — hepsi imparatorluk capinda Osmanli meselesi). AMA 8'i BASKA BIR DEVLETLE ilgili ve Osmanli'yi gostermek anlamsiz: 1335-12-01 Ilhanli Devleti'nin dagilmasi: Ebu Said Bahadir Han 1387-11-01 Timur'un Iran'in buyuk bolumunu hakimiyeti altina almasi 1771-07-01 Kirim yarimadasinin Rus isgali 1775-05-07 Bukovina'nin (Kuzey Bogdan) Avusturya'ya terki 1853-10 Kirim Savasi basladi 1859-06-01 Kirim Tatarlari ve Kafkas halklarinin Osmanli topraklarina gocu 1877-04-24 Rusya'nin savas ilani — Doksanuc Harbi'nin baslamasi 1899-11-27 Konya-Bagdat hatti imtiyazinin Almanlara verilmesi ## SENDEN ISTENEN — her madde icin BIR KARAR Her birine `yer_id` (yerlesim havuzunda VARSA) ya da `eksik_nokta` (koordinatiyla) ver. Boylece madde `kapsam_genis` olmaktan cikar ve harita DOGRU yere ucar. ⚠️ AMA KOR KARAR VERME — uc secenek var ve hangisi oldugunu SEN olc: ① OLAYIN GECTIGI YER belli mi? (\"Ebu Said Karabag'da oldu\" gibi) -> yer_id ya da eksik_nokta. EN IYI CEVAP BUDUR. ② Yer belli degil ama DEVLETIN MERKEZI belli mi? (Ilhanli -> Sultaniye/Tebriz · Kirim Hanligi -> Bahcesaray) -> merkez noktasi. Ikinci en iyi. ③ Gercekten tek noktaya sigmiyor VE Osmanli'yla da ilgili degil mi? -> `kapsam_genis` KALSIN ama bana BILDIR: bu durumda kodun \"hangi devletin sinirlarini acacagi\" sorusu var ve onu ben cozecegim. Senin isin sadece BU MADDE HANGI DEVLETLE ILGILI oldugunu yazmak. ## BICIM — kendi dosyan, kendi ad alanin YAZACAGIN : data/yer_yama_kapsam.js DEGISKEN : window.YER_YAMA_KAPSAM 🔴 §7: \"AYRI DOSYA VERMEK, AYRI AD ALANI VERMEK DEGILDIR.\" Baska ad kullanma; bu projede iki dosya tek ad paylasinca 537 kayit 137'ye dustu, %74 kayip ve hicbir denetim otmedi. Kayit bicimi (anahtar: dosya + t + b, UCU BIRDEN): { dosya:\"olaylar_ek.js\", t:\"1335-12-01\", b:\"Ilhanli Devleti'nin ...\", yer_id:\"Tebriz\", kaynak:\"TDV ilhanlilar\" } ya da { dosya:\"...\", t:\"...\", b:\"...\", eksik_nokta:{ ad:\"Sultaniye\", enlem:36.43, boylam:48.79, kaynak:\"...\" }, not:\"Ebu Said'in olumu Karabag'da; devletin merkezi Sultaniye\" } ya da (③ hali) { dosya:\"...\", t:\"...\", b:\"...\", kapsam_genis:true, not:\"DEVLET: ilhanli — tek noktaya sigmiyor, Ilhanli sahasi acilmali\" } ⚠️ HANGI DOSYADA oldugunu once bul: `data/olaylar*.js` icinde `t` ve `b` ile ara. node ile ayristir, grep ile tahmin etme. ## KAYNAK — §4 KIRMIZI CIZGI TDV once; HTTP 302 = madde YOK, 200 da yetmez, ICERIGI OKU. Dar slug tutmazsa KAPSAYICI maddeyi dene (`ilhanlilar` · `kirim-hanligi` gibi). TDV disinda YALNIZ akademik/bilimsel kaynak. Bulamadigini `bulunamadi` diye YAZ. ⚠️ ARAMA OZETI BIR KAYNAK DEGIL, BIR IDDIADIR. Ozet bir yayina ATIF veriyorsa ATIF DA dogrulanir — dun bir oturum, ozetin gercek bir dergiye uydurdugu bir cumleyi tam metni cekerek curuttu. ## TESLIM SAYIYLA: \"8/8 · yer_id x · eksik_nokta y · kapsam_genis kalan z\". Olctugun ile ondan CIKARDIGIN hukum AYRI SATIR olsun. VERIYE YAZMA — yamayi ben uygularim (§7). Aksaklik cikarsa BEKLETME, hemen yaz.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
