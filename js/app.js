@@ -2873,7 +2873,9 @@ function kareSayaciBaslat(beklenenMs, etiket) {
     return function () {};
   }
   var t0 = performance.now(), son = t0, kare = 0, enUzun = 0, calisiyor = true;
-  agirBaslat();                      // uçuş boyunca "kim blokluyor" kaydı
+  // ⚠️ `agirBaslat()` BURADA ÇAĞRILMIYOR — `olayaGit` onu çok daha erken
+  // açıyor ki `tarihAyarla` da ölçüme girsin. Burada açsaydık, ilk turda
+  // olduğu gibi bizim çizim işlevlerimiz kaydın DIŞINDA kalırdı.
   function tik(t) {
     if (!calisiyor) return;
     kare++;
@@ -2899,11 +2901,14 @@ function kareSayaciBaslat(beklenenMs, etiket) {
     var hukum = akici ? "✓ AKICI"
                       : (enUzun > 50 ? "🔴 KARE DÜŞÜYOR (ağır çizim)"
                                      : "🟡 kare oranı düşük");
+    // 🔴 İKİNCİ SATIR ARTIK HER ZAMAN YAZILIYOR. Önce yalnız kötü hâlde
+    // yazıyordum; satır gelmeyince "ölçüm mü boş, Emre mi kopyalamadı"
+    // ayırt edilemedi ve bir tur kayboldu. Ölçüm, VARLIĞIYLA da bilgi verir.
     var satir = (etiket || "uçuş") + " — " + kare + "/" + beklenenKare
                 + " kare · " + fps + " fps · en uzun boşluk "
                 + Math.round(enUzun) + " ms · " + hukum
-                + (akici ? "" : "\nSUÇLU: " + agirBitir());
-    if (akici) agirBitir();          // kaydı her hâlükârda kapat
+                + "\nÇİZİM (uçuştan önce): " + Math.round(_CIZIM_MS) + " ms"
+                + "  ·  UÇUŞ SIRASINDA: " + agirBitir();
     console.log("🎞 " + satir);
     // 🔴 EKRANA DA YAZ — Emre: *"hangi satırı yapıştıracağım anlamadım."*
     // Kullanıcıdan geliştirici konsolu açmasını istemek, ölçümü ULAŞILMAZ
@@ -3002,9 +3007,25 @@ function _haritaSakinlesince(is) {
   zaman = setTimeout(calistir, 1500);
 }
 
+// 🔴 ÖLÇÜM ALETİMDE KUSUR VARDI — 22 Ağustos, üçüncü tur.
+// `agirBaslat()` kare sayacıyla birlikte, yani UÇUŞ BAŞLADIĞINDA açılıyordu.
+// Ama `guncelle()` — `agirOlc` sarmalayıcılarının olduğu yer — uçuştan
+// ÖNCE koşuyor. Kaydedici o sırada KAPALIYDI ⇒ "SUÇLU" satırı boş geldi.
+// 📌 Ve bu boşluk BİLGİ taşıyor: 716 ms'lik blok bizim `*Guncelle`
+// işlevlerimizde DEĞİL. Aletin susması da bir ölçümdür — ama ancak
+// niçin sustuğunu bilirsen.
+// ⇒ Kaydedici artık `tarihAyarla`yı DA kapsıyor ve iki fazı AYRI raporluyor:
+//     ÇİZİM  = uçuştan önceki `tarihAyarla` (bizim JS'imiz)
+//     UÇUŞ   = uçuş sırasındaki bloklar (MapLibre'nin içi)
+// İkisinin hangisi büyükse çare oradadır.
+var _CIZIM_MS = 0;
+
 function olayaGit(o, panelGoster, zorla) {
   kameraKilitle();
+  agirBaslat();
+  var _c0 = performance.now();
   try { tarihAyarla(o.gi); } finally { kameraCoz(); }
+  _CIZIM_MS = performance.now() - _c0;
   if (panelGoster !== false) obGoster(o);
   // Kilidi `haritayiOlayaGotur` KENDİSİ alıyor, varışta bırakıyor.
   // Uçuş, ağır çizim yatıştıktan SONRA başlıyor (gerekçe yukarıda).
