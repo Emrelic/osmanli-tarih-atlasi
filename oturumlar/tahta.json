@@ -37067,8 +37067,8 @@
   "kime": "SONNET HAZIR KITA 72",
   "kimden_kimlik": "",
   "mesaj": "YENI IS — OLAY MAHALLI ATAMASI (son dalga). Dosyan: data/kronoloji_memluk.js ⚠️ ONCE: elinde yarim is varsa BUNU ALMA, bana yaz. ## NEREDEYIZ kronoloji toplam 6064 konumlu 5623 %92,7 EKSIK 441 SENIN DOSYAN 29 eksik / 155 madde Sabah %80,6 idi. Sekiz oturum paralel calisti. ## DOSYA VE AD ALANI — SANA OZEL, ZORUNLU okuyacagin : data/kronoloji_memluk.js YAZACAGIN : data/yer_yama_memluk.js DEGISKEN : window.YER_YAMA_MEMLUK 🔴 §7: \"AYRI DOSYA VERMEK, AYRI AD ALANI VERMEK DEGILDIR.\" Ayni adi kullanan iki dosyada ikincisi birincisini SESSIZCE ezer — bu projede olculdu: 537 kayit 137'ye dustu, %74 kayip, hicbir denetim otmedi. ⚠️ KRONOLOJI DOSYANA YAZMA. Yamayi `arac/yama_uygula.js` uyguluyor. ## UC KARAR, UC AYRI KOVA — careleri TERS Anahtar: dosya + t + b (UCU BIRDEN). (1) yer_id nokta havuzda VAR { dosya:\"kronoloji_memluk.js\", t:\"...\", b:\"...\", yer_id:\"...\", kaynak:\"...\" } (2) eksik_nokta yer BELLI, havuzda YOK, koordinatini SEN bul { dosya:\"kronoloji_memluk.js\", t:\"...\", b:\"...\", eksik_nokta:{ ad:\"...\", enlem:0.0, boylam:0.0, kaynak:\"...\" } } ⇒ YERLESIM OLMAZ: olaya dogrudan koordinat iner, petek almaz, toprak boyamaz. (3) kapsam_genis olay TEK NOKTAYA SIGMAZ { dosya:\"kronoloji_memluk.js\", t:\"...\", b:\"...\", kapsam_genis:true, not:\"...\" } ⇒ Bu bir EKSIKLIK DEGIL, bir KARARDIR. ## 🔴 TURKCE-YAZIM TUZAGI — DOGU AFRIKA buldu, herkesi baglar Bir yeri INGILIZCE/YEREL yazimiyla aramak, havuzda TURKCE yazilmis kaydi BULMAZ ve \"nokta yok\" hukmu YANLIS cikar: Aceh->Ace · Mogadishu->Makdisu · Massawa->Masavva · Suakin->Sevakin `eksik_nokta` yazmadan ONCE adin TURKCE yazimini da dene. ## IKINCIL YER TUZAGI Antlasma maddeleri cogu zaman IMZA YERINI degil DEVREDILEN TOPRAKLARI anlatir. Olay mahalli IMZA YERIDIR. Ve \"kolayca baskent\" tuzagi: bir kararin baskentte alindigini VARSAYMA. ## ONCE UCUZ OLANA BAK 🟢 data/savaslar.js: 171 savasin 171'i koordinatli. Mukerrer arastirma yapma, oradan al. 🔴 Havuz 2605 kayit. `arac/girdi.py`yi IMPORT ederek oku — elle dosya listesi yazma, tek otorite GIRDI_DOSYALARI sabitidir. ## KAYNAK — §4 KIRMIZI CIZGI TDV once. HTTP 302 = madde YOK; 200 da yetmez, ICERIGI OKU. Dar slug tutmazsa KAPSAYICI maddeyi dene. TDV disinda YALNIZ akademik/bilimsel. Forum, blog, icerik ciftligi, kaynaksiz derleme site KULLANILMAZ. Bulamadigini `bulunamadi` diye YAZ. ## SENIN DOSYANA OZEL Memluk maddelerinde `kapsam_genis` orani yuksek cikabilir: saltanat degisiklikleri ve emir atamalari cogu zaman Kahire'dedir ama bazi kayitlar butun Sam-Misir sahasini anlatir. Ikisini AYIR. ## TESLIM Bitince SAYIYLA: \"N/M · yer_id x · eksik_nokta y · kapsam_genis z\". Olctugun ile ondan CIKARDIGIN hukum AYRI SATIR olsun. ⚠️ GIRDI KILITLI (M-1109): petek kosusu suruyor, data/yerlesimler*.js ve arac/*.py DONMUS. Senin isin bunlara dokunmuyor.",
-  "hal": "ACIK",
-  "cevap": "BEKLIYOR",
+  "hal": "CEVAPLANDI",
+  "cevap": "→ M-1164",
   "vade": "",
   "okuyan": {
    "SONNET HAZIR KITA 72": "2026-08-23 06:19"
@@ -37280,6 +37280,24 @@
     "soz": "okudum, gereğini yapıyorum"
    }
   },
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1164",
+  "zaman": "2026-08-23 06:29",
+  "kimden": "SONNET HAZIR KITA 72",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "M-1153 TESLIM. OLCUM: data/kronoloji_memluk.js 155 madde, olay mahalli damgasi olmayan 29 (senin sayinla birebir). Uzettim: data/yer_yama_memluk.js -> window.YER_YAMA_MEMLUK, 29/29 kayit -- yer_id 7, eksik_nokta 6, kapsam_genis 16. Kronoloji dosyasina DOKUNMADIM, yamayi arac/yama_uygula.js icin biraktim. KAPI DENETIMI: node --check temiz, anahtar (dosya+t+b) orijinal 29 eksikle BIREBIR (0 eksik 0 fazla), mukerrer anahtar 0, her kayitta tam BIR alan var (0 hata), eksik_nokta dortlusu eksiksiz (0 hata), 7 yer_id degeri havuzda birebir dogrulandi (0 hata). CIKARDIGIM HUKUM (ayri satir): ongorun dogru cikti, kapsam_genis orani yuksek (16/29, %55) -- sebep iki cins: (a) cogu bilateral antlasma/mektup imza/gonderim yerini VERMIYOR (Kibris 1370, Ceneviz 1386, Osmanli-Memluk 1416/1491, Habes mektuplari 1438/1441), Kahire varsaymadim cunku karsi taraf da olasiydi; (b) bolge-geneli olaylar (Dogu Anadolu akini, Karimi ticaret baskisi/cokusu, Barsbay'in ilk iki Kibris seferi -- inis noktasi verilmiyor). Sultan-sarayi olaylari (Sultan Halil'in oldurulmesi -> Kahire) ve beylik tahti olaylari (Dulkadir -> Maras) AYRILDI, dogrudan yer_id aldi. OZEL VAKA: Seyh el-Mahmudi'nin 1409'da 'Sarhad'da' maglup edilmesi maddesinde Sarhad'in koordinatini BULAMADIM -- TDV'nin kendi ferec maddesi (icerik okundu) yer adini veriyor ama bolge/yakin sehir bilgisi vermiyor, Ingilizce akademik kaynaklarda da yok. Sema uc kova taniyor, 'bulunamadi ama tek noktadir' icin dorduncu kova yok -- bu kaydi kapsam_genis'e koydum ama notunda BUYUK HARFLE BULUNAMADI diye isaretledim, gercek bolge-geneli vakalarla KARISMASIN diye. Istersen bu tek kaydi ayri ele al. Ayrinti oturumlar/HAZIR-KITA-72-ILERLEME.md (commit b42db9c, push edildi). Yeni gorev bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "M-1153",
+  "cins": "BILGI",
+  "teyit": {},
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
