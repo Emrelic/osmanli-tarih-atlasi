@@ -1447,6 +1447,28 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
      sonunu korur ama uzun satırı da sarar — `nowrap` olsaydı suçlunun adı
      kutunun dışında kalır, yani ölçüm yine görünmezdi. */
   white-space: pre-line; line-height: 1.5; }
+/* 🔴🔴 UÇUŞ SIRASINDA DOM İŞARETLERİ GİZLENİR — ölçülmüş bir darboğaz.
+   Emre'nin ekranından, beş turluk ölçüm dizisi:
+       7/220 kare · 1132 ms   →   13/349 kare · 799 ms · TOPLAM 4961 ms
+   ~5,8 saniyelik uçuşta 4961 ms uzun görev = iş parçacığı sürenin %85'inde
+   meşgul. TEK BLOK DEĞİL, SÜREKLİ YÜK — ve bu, işaretlerin imzasıdır.
+
+   SAYILDI (haritayı çalıştırmadan, veriden):
+       boslukKur         226 KALICI işaret (bir kez kurulur, hiç kaldırılmaz)
+       bölge etiketi      71   ·   koridor 65+64   ·   devlet etiketi ~50-100
+       savaş işareti     171'e kadar          ⇒ ~500+ DOM düğümü
+   MapLibre HER `Marker`ı HER `move` olayında yeniden konumlandırır: uçuşta
+   kare başına 500 transform yazması, her biri stil yeniden hesabı tetikler.
+
+   ⇒ `display: none` bütün alt ağacı yerleşim/boyama dışına çıkarır. JS
+   tarafındaki transform yazması sürüyor (onu ancak işaretleri haritadan
+   ÇIKARARAK durdururuz, o da 500 remove + 500 add demek) ama PAHALI kısım
+   — yeniden hesap, yerleşim, boyama, katman birleştirme — tamamen düşer.
+   ⚠️ Tek sınıf değişimi; işaret başına iş YOK.
+   ⚠️ VE GÖRSEL OLARAK SINANMADI: bu ortamda tarayıcı paneli gizli,
+   MapLibre hiç başlamıyor. Ölçüm Emre'nin ekranında yapılacak. */
+.harita-ucusta .maplibregl-marker { display: none !important; }
+
 .ayar-olcum.olcum-iyi  { color: #1c6b2e; border-color: #9ccfa8; background: #f2fbf4; }
 .ayar-olcum.olcum-kotu { color: #9a2b1e; border-color: #e2a79c; background: #fdf3f1; }
 .ayar-not { font-size: 11px; color: #8c3444; line-height: 1.4; margin-top: 4px; }

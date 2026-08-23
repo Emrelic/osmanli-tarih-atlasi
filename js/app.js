@@ -5248,6 +5248,11 @@ function haritayiOlayaGotur(o, zorla) {
     // bırakıyordu; uçuşun 0,8-3 saniyesi korumasızdı ve `zoomUygula`nın
     // `fitBounds`u uçuşu kesip ışınlanmaya çeviriyordu.
     kameraKilitle();
+    // 🔴 DOM İŞARETLERİ UÇUŞ BOYUNCA GİZLİ — gerekçe ve ölçüm
+    // `css/style.css` `.harita-ucusta` kuralının başında.
+    // Tek sınıf değişimi: ~500 işaretin her biri için ayrı iş YAPILMIYOR.
+    var _hkap = harita.getContainer();
+    if (_hkap) _hkap.classList.add("harita-ucusta");
     // Kare sayacı uçuşla BİRLİKTE başlar, varışta biter. Ölçtüğü şey
     // TAM OLARAK uçuş süresi — öncesi ve sonrası değil.
     var _kareBitir = kareSayaciBaslat(_sonSure,
@@ -5258,6 +5263,10 @@ function haritayiOlayaGotur(o, zorla) {
       if (_varisTimer) { clearTimeout(_varisTimer); _varisTimer = null; }
       harita.off("moveend", _varisBirKez);
       _kareBitir();                      // ÖNCE ölç — kırpma sayıya karışmasın
+      // ⚠️ İşaretler ÖLÇÜMDEN SONRA geri geliyor: geri getirme işi (stil
+      // yeniden hesabı) uçuşun kare sayısına karışmasın. Ve `_varista`dan
+      // ÖNCE — kırpma sırasında işaretler görünür olmalı.
+      if (_hkap) _hkap.classList.remove("harita-ucusta");
       kameraCoz();                       // uçuş bitti — koruma kalkıyor
       _varista();                        // kırpma kendi kilidini ALIYOR
     }
