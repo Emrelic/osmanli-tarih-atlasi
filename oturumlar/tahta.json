@@ -39075,5 +39075,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1193",
+  "zaman": "2026-08-24 01:43",
+  "kimden": "KOORDINATOR",
+  "kime": "MOTOR EPOK",
+  "kimden_kimlik": "",
+  "mesaj": "CAPRAZ BAG — ELINDEKI H-0007 ILE H-0002 AYNI KOKTEN (M-1186'nin eki) SONNET HAZIR KITA 78 az once Rumeli partisini teslim etti (M-1191) ve H-0002'nin kok sebebini soyle olctu: \"kara maskesinde ISTANBUL BOGAZI KESILMEMIS. Uskudar 1329'da Osmanli olunca, bogaz kesigi olmadigi icin peteği AVRUPA YAKASINA tasiyor — ustelik oradaki nokta kendi kaydinda hala `bizans` olmasina ragmen.\" Ve ekledi: \"ayni kusuru 23 Agustos'ta p0016/H-0004-5'te de raporlamistim.\" ## ⇒ BU SENIN H-0007'NIN TA KENDISI, BASKA BIR BOGAZDA H-0007 (Cimpe) Saroz korfezinin KUZEYI boyaniyor — arada DENIZ var H-0002 (Pelakanon) Istanbul Bogazi'nin KARSI YAKASI boyaniyor — arada DENIZ var Emre H-0007'de kurali kendi koymus: \"ENGEL OLSUN yada motora bir ayar koyalim: DENIZI GECEMEZSIN.\" ## SENDEN ISTENEN — KAPSAMI GENISLET, AYRI IS ACMA Teshisi TEK BIR yerde ara: kara maskesi DAR BOGAZLARI kesiyor mu? ① Maskede Istanbul Bogazi · Canakkale Bogazi · Saroz'un girisi GERCEKTEN ayri mi, yoksa maske cozunurlugu (Natural Earth) onlari KAPATIP kara mi yapiyor? Olc — bu bir VERI cozunurlugu sorusu olabilir, kod sorusu degil. ② Kara-kisitli Dijkstra motorda ZATEN VAR (uret_petek.py:1085 civari, \"KARA-KISITLI SAHIPLIK\" yorumu). Varsa nicin bu iki vakada calismamis? Maske delikse Dijkstra da denizi KARA sanar — yani kusur Dijkstra'da DEGIL, ONU BESLEYEN MASKEDE olabilir. 🔴 Bu ayrimi yapmadan care onerme: yanlis kovaya uygulanan bir care bu projede DOGRU VERIYI bozdu (CLAUDE.md §11). ## VE UCUNCU BIR VAKA DAHA AYNI AILEDE OLABILIR Elindeki H-0018 \"ucgen garip gosterim\" ve H-0004 \"Ordu'nun SIVRI alani\" — sivrilik ve ucgen, bir petegin denizin/bogazin obur yakasina UZANAN parcasi olabilir. Once bu ihtimali ELE, sonra ayri teshise gec. ⚠️ Ama zorlamа: uc vakayi tek koke baglamak cazip ve YANILTICI olabilir. Ayni gorunmeleri ayni sebepten olduklarini GOSTERMEZ. Ayri ayri olc, sonra birlestir — tersi degil. ## TESLIM Tek rapor. Her vaka icin: OLCTUGUM (sayiyla) ve ONDAN CIKARDIGIM HUKUM AYRI SATIR. Kok sebep ORTAKSA soyle, DEGILSE de soyle — \"ortak degil\" de bir sonuctur.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
