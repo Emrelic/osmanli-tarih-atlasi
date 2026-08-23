@@ -420,9 +420,60 @@ Kalite örnekleri:
 sınaması iki yönlü sınandı: ATEŞLEME 5/5 hata sınıfı yakalandı (çıkış 0),
 TEMİZ SINAMA 682 kayıt · 0 hata (çıkış 0).
 
+## Venedik — dosya doğrulandı, kapsam ölçümü
+
+`data/kronoloji_venedik.js` → `window.KRONOLOJI_VENEDIK`, `index.html`e
+bağlı (satır: `<script src="data/kronoloji_venedik.js?v=r3119">`).
+86 madde, **22'sinde `yer_id` yok** (bu dosyada da `yer:` alanı hiç yok —
+İran'daki gibi başlık taraması yapıldı).
+
+Başlık taraması 9 aday buldu, **hepsi ikincil yer tuzağı çıktı**
+("Venedik" ×7 — savaş adı/hedef taraf, antlaşmanın imza yeri değil;
+"Milano"/"Mora" — devredilen toprak, imza yeri değil) — sıfırı kolay
+olarak kabul edilmedi, 22 kaydın tamamı ele alındı:
+- **4 kayıt house-convention ile ÇÖZÜLDÜ** (yeni araştırma yapılmadan):
+  Granbosa (olaylar.js'teki aynı tarihli kayıtla birebir), Karlofça
+  (3 dosyada zaten kullanılan koordinat), Pasarofça ve Campoformio
+  (kronoloji_habsburg.js'teki TDV-kaynaklı kayıtlarla birebir).
+- **18 kayıt gerçek araştırmaya gönderildi** (1 araştırma görevi).
+
+## 🟢 VENEDİK TAMAMLANDI — 22/22
+
+```
+Venedik toplam: 22/22
+  yer_id (4 kolay-eşdeğeri dahil değil, saf yer_id)   4
+  eksik_nokta                                        12
+  kapsam_genis                                         6
+```
+Kalite örnekleri:
+- **İkincil yer tuzağı iki kez açıkça ayıklandı**: "Fornovo ve Venedik
+  Ligi" → lig kuruluşu Venedik'te ayrı/önceki bir tarih, bu kayıt savaş
+  TARİHİYLE (6 Temmuz 1495) örtüştüğü için mahal Fornovo di Taro seçildi;
+  "Cambrai Ligi — Venedik'e karşı ittifak" → ittifak hedef aldığı Venedik
+  DEĞİL, imzalandığı Cambrai (Fransa) olarak çözüldü.
+- **House-convention 4 kez uygulandı** (Granbosa/Karlofça/Pasarofça/
+  Campoformio, yukarıda) + **Linz için 4. tekrar**: proje içinde 3 ayrı
+  dosyada (olaylar_ek3, kronoloji_habsburg, kronoloji_lehistan) zaten
+  kullanılan "Kutsal İttifak → Linz, 5 Mart 1684" koordinatı dördüncü kez
+  aynen kullanıldı — uydurma değil, doğrulanmış tekrar.
+- **③ kapsam_genis 6 kez doğru gerekçeyle** kullanıldı: çok cepheli savaş
+  başlangıçları (1463, 1494, 1714'ün bir kısmı İstanbul'a bağlandı ama
+  1615 Uskok Savaşı çok noktalı sınır çatışması olduğu için genişletildi),
+  Ümit Burnu ticaret yolu açılışı (coğrafi olarak Venedik'e SONUÇ, tek
+  mahal değil), silahlı tarafsızlık siyaseti (politika değişikliği).
+- **Savaş ilanı → başkent house-convention**: "Son Osmanlı-Venedik
+  Savaşı'nın başlaması" (1714-12-08) proje içindeki emsale (1788 Son
+  Osmanlı-Habsburg savaşı → İstanbul) dayanarak İstanbul'a bağlandı.
+- Bir kayıtta (Cremona Barışı) kaynak kendi içinde belirsizlik taşıyordu
+  (imza Cremona mı yoksa yakınındaki Cavriana'da mı) — `not:` alanına
+  açıkça yazıldı, en yaygın kabul gören ad (Cremona) seçildi.
+
+`data/yer_yama.js`: **704 kayıt toplam** (682 + 22). Tam dosya kapı
+sınaması iki yönlü sınandı: ATEŞLEME 5/5 hata sınıfı yakalandı (çıkış 0),
+TEMİZ SINAMA 704 kayıt · 0 hata (çıkış 0).
+
 ## Durum
 **Tamamlanan: olaylar* (412) + İran (107) + Rusya (173) + Habsburg (52)
-+ Lehistan (67) = 811/1488.**
-Sırada: **Venedik**. Önce `kronoloji_venedik.js` dosya adı/varlığı
-doğrulanacak (koordinatör: "dosya adını sen bul").
++ Lehistan (67) + Venedik (22) = 833/1488.**
+Sırada (Emre'nin kendi sırası): **Macaristan**, sonra **Kırım**.
 `kronoloji_sirbistan.js` sorusu hâlâ cevapsız — dokunmuyorum.
