@@ -36,8 +36,27 @@ var KONU_GRUPLARI = [
   { id: "askeri",  ad: "Askerî",        k: ["savas", "fetih", "kayip", "kusatma", "sefer"] },
   { id: "siyasi",  ad: "Siyasî",        k: ["siyaset", "antlasma", "diplomasi", "ittifak", "vassal"] },
   { id: "hanedan", ad: "Hânedan",       k: ["taht", "sadrazam", "darbe", "evlilik", "kurulus"] },
-  { id: "icduzen", ad: "İç düzen",      k: ["ayaklanma", "isyan", "reform", "kanun", "idari"] },
-  { id: "kultur",  ad: "Kültür-bilim",  k: ["kultur", "bilim", "kesif"] },
+  // 23 Ağustos 2026, 0027/H-0002.5 — Emre: "konu süzgeci konularının
+  // hepsi var mı, olması gereken başka etiket var mı araştıralım."
+  // ÖLÇÜLDÜ: veride 29 ayrı `k:` değeri var, burada 25'i eşleniyordu.
+  // Dördü SESSİZCE `diger`e düşüyordu — tam da bu dosyanın kendi
+  // uyarısının haber verdiği kusur:
+  //     mimari 26 · sosyoloji 13 · spor 5 · felsefe 1  =  45 madde
+  // Gruplama İÇERİĞE bakılarak yapıldı, tahminle değil:
+  //   mimari    → Mimar Sinan · Şehzade Camii · Büyükçekmece Köprüsü ·
+  //               Kırkçeşme isâle hattı
+  //   spor      → Okmeydanı · Kırkpınar · cirit
+  //   felsefe   → Kınalızâde'nin ahlâk felsefesi
+  //   sosyoloji → ilk kahvehaneler · ilk nüfus sayımı · 1864 Vilâyet
+  //               Nizamnâmesi · 1869 Maârif Nizamnâmesi · Muhâcirîn
+  //               Komisyonu — grup zaten `idari`/`kanun`/`reform`
+  //               taşıyor, nizamnâme ve sayım tam o eksende.
+  // 🔴 YENİ GRUP AÇILMADI: `CLAUDE.md §1.6` konu başlıklarını 8. boyut
+  //    sayıyor ve KASTEN KAPALI tutuyor. Var olan değerleri var olan
+  //    gruplara bağlamak sızıntı kapatmaktır; yeni grup açmak kapsam
+  //    genişletmek olurdu.
+  { id: "icduzen", ad: "İç düzen",      k: ["ayaklanma", "isyan", "reform", "kanun", "idari", "sosyoloji"] },
+  { id: "kultur",  ad: "Kültür-bilim",  k: ["kultur", "bilim", "kesif", "mimari", "spor", "felsefe"] },
   { id: "iktisat", ad: "İktisat",       k: ["ekonomi"] },
   // ⚠️ `diger` GERÇEK BİR KATEGORİ DEĞİL, karışık torba (46 madde). Ayrı
   // duruyor ki "hepsini seç" ile "sınıflandırılmamışı da göster" ayrışsın.
