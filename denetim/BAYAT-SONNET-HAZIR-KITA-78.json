@@ -1,0 +1,164 @@
+[
+ {
+  "paket": "parti-0006",
+  "no": "H-0001",
+  "hukum": "hala-acik",
+  "kanit": "3 alt-kalem, ikisi çözüldü biri değil. (a) Katîf/Basra: node ile ölçüm — Katîf'in s: dizisinde 1524-1550 dönemi artık 'safevi' (iran değil), 47aa386'da bölünmüş; 'İran ÇEKİRDEĞİ' hayaleti de commit 073df09 (IRAN HAYALETI) + 57049d7 (IRAN KRONOLOJI 107 madde) ile kapandı → ÇÖZÜLDÜ. (c) Portekiz Umman/Hürmüz: ÇAPRAZ İBERYA oturumu kapandı (oturumlar/CAPRAZ-IBERYA-ILERLEME.md, commit ff3c816), Hürmüz/Umman dönemleri (1515,1602,1622,1717-1753) tek tek doğrulanmış tabloda duruyor → ÇÖZÜLDÜ. (b) Safevî toprağı Katîf'in güneybatısında — 'ölçülecek' denmişti, ilerleme dosyasında bu alt-kalemi kapatan bir ölçüm YOK → HÂLÂ AÇIK. Bileşke: 2/3 kapandı, 1/3 açık kaldığı için bütün olarak hala-acik."
+ },
+ {
+  "paket": "parti-0006",
+  "no": "H-0002",
+  "hukum": "cozuldu",
+  "kanit": "node ile ölçüm: data/devletler.js:2260 id:\"zeyyani\" (Zeyyânîler/Tilimsan) künyesi zaten var, harita:\"zeyyani\". Yerleşim havuzunda 'Tilimsan' noktası s:[{f:1281-01-01,t:1552-01-01,d:'zeyyani'}] olarak zaten bu künyeye bağlı — sorunun aslı ('Tilimsan bir devlet mi, ayrı görünmesi doğru mu') veride ZATEN doğru cevaplanmış durumda."
+ },
+ {
+  "paket": "parti-0006",
+  "no": "H-0004",
+  "hukum": "cozuldu",
+  "kanit": "grep: data/olaylar_ek5.js:473, t:1523-01-05 'Şövalyelerin çekilişi: Bodrum, İstanköy ve Onikiada'nın devri' — yer:'Bodrum, İstanköy, Kelemez, İleryoz' diye TEK TEK ADIYLA sayılıyor, tam istenen biçimde. (Satır commit 930a27d ile eklenmiş.)"
+ },
+ {
+  "paket": "parti-0006",
+  "no": "H-0005",
+  "hukum": "hala-acik",
+  "kanit": "node ile ±30 gün taraması: Kalender Şah (savaslar.js:340, t:1526-01-01) için hâlâ dedike bir kronoloji maddesi yok — metin arandı, sıfır sonuç. Deli Hasan (savaslar.js:356, t:1603-01-01) yalnız 1599-06-01 tarihli Karayazıcı Abdülhalim maddesinde YAN İSİM olarak geçiyor, kendi tarihine (1603) yakın madde yok. Diu (1538) zaten maddeli ama o üçlünün BAŞLI BAŞINA sorunu değildi — asıl açık olanlar Kalender Şah ve Deli Hasan."
+ },
+ {
+  "paket": "parti-0006",
+  "no": "H-0007",
+  "hukum": "hala-acik",
+  "kanit": "node ile ölçüm: Uyvar ve Nitra'nın s: dizisi HÂLÂ f:'1281-01-01' → d:'avusturya' (anakronik, çare uygulanmamış). Bugünkü Macaristan seri çalışması (YER ATAMA + SONNET KITA 64, M-1141) bu spesifik anakronizme dokunmadı — onlar olay mahalli ataması yaptı, yerleşim s: alanına değil."
+ },
+ {
+  "paket": "parti-0006",
+  "no": "H-0008",
+  "hukum": "hala-acik",
+  "kanit": "H-0007 ile AYNI kayıt/aynı kanıt: Uyvar/Nitra s: hâlâ 1281-avusturya. Bu paketteki üç kalem (H-0007/8/10) aynı ölçümü paylaşıyor."
+ },
+ {
+  "paket": "parti-0006",
+  "no": "H-0010",
+  "hukum": "hala-acik",
+  "kanit": "H-0007 ile AYNI kayıt/aynı kanıt: Uyvar/Nitra s: hâlâ 1281-avusturya, çare (1526-08-29 kırılımı) uygulanmamış."
+ },
+ {
+  "paket": "parti-0006",
+  "no": "H-0013",
+  "hukum": "cozuldu",
+  "kanit": "data/merak.js yüklendi, node ile MERAK dizisinde id:'karaman-nicin-zor' kartı MEVCUT — istenen içerik (Karaman farkı, dört ilhak yöntemi) kart hâline gelmiş."
+ },
+ {
+  "paket": "parti-0006",
+  "no": "H-0014",
+  "hukum": "cozuldu",
+  "kanit": "data/merak.js: id:'kapitulasyon-zaaf-mi-arac-mi' kartı MEVCUT."
+ },
+ {
+  "paket": "parti-0006",
+  "no": "H-0015",
+  "hukum": "cozuldu",
+  "kanit": "data/merak.js: id:'gurcistan-nicin-alinmadi' kartı MEVCUT."
+ },
+ {
+  "paket": "parti-0006",
+  "no": "H-0016",
+  "hukum": "cozuldu",
+  "kanit": "data/ekokuma.js yüklendi, node ile EKOKUMA dizisinde id:'ahi-birlikleri-ankara' kartı MEVCUT."
+ },
+ {
+  "paket": "parti-0006",
+  "no": "H-0017",
+  "hukum": "cozuldu",
+  "kanit": "data/ekokuma.js: id:'yeniceri-ocagi-kurulusu' kartı MEVCUT."
+ },
+ {
+  "paket": "parti-0006",
+  "no": "H-0018",
+  "hukum": "cozuldu",
+  "kanit": "data/ekokuma.js: id:'tabi-devlet-vassallik' kartı MEVCUT — istenen 'vassallık nedir + idari katman' birleşimi tam bu."
+ },
+ {
+  "paket": "parti-0006",
+  "no": "H-0019",
+  "hukum": "cozuldu",
+  "kanit": "data/merak.js: id:'i-murad-sehadeti' kartı MEVCUT."
+ },
+ {
+  "paket": "parti-0006",
+  "no": "H-0020",
+  "hukum": "cozuldu",
+  "kanit": "data/merak.js: id:'kardes-katli-karsilastirmali' kartı MEVCUT — istenen Bizans/Rus/Timurlu karşılaştırması bu kartta."
+ },
+ {
+  "paket": "parti-0006",
+  "no": "H-0021",
+  "hukum": "cozuldu",
+  "kanit": "data/merak.js: id:'siyasi-evlilikler' kartı MEVCUT. H-0021 ve H-0022'nin notu zaten 'tek kart olsun' diyordu — öyle de olmuş."
+ },
+ {
+  "paket": "parti-0006",
+  "no": "H-0022",
+  "hukum": "cozuldu",
+  "kanit": "H-0021 ile AYNI kart: data/merak.js id:'siyasi-evlilikler' — madde metninin kendi notu 'H-0021 ile TEK KART' diyordu, öyle uygulanmış."
+ },
+ {
+  "paket": "parti-0006",
+  "no": "H-0023",
+  "hukum": "cozuldu",
+  "kanit": "data/merak.js: id:'kadinlar-saltanati' kartı MEVCUT."
+ },
+ {
+  "paket": "parti-emrelic-0016",
+  "no": "H-0002",
+  "hukum": "hala-acik",
+  "kanit": "Önerilen çare (Pınarbaşı · Sarız · Gürün · Darende nokta eklemesi) yerleşim havuzunda ARANDI, dördü de YOK — Voronoi kaması hâlâ duruyor. Notun kendisi bunu p0017/H-0001 ile 'tek kalem' sayıyordu, ikisi de aynı sebepten hâlâ açık."
+ },
+ {
+  "paket": "parti-emrelic-0016",
+  "no": "H-0003",
+  "hukum": "hala-acik",
+  "kanit": "Bu kalem zaten 'senin-kararin' (Emre'nin karar vermesi gereken bir çözünürlük tercihi: (a) tek kaynak (b) daha ince kaynak (c) seçici incelme). git log'da bu üç seçenek arasında bir karar/uygulama izi YOK — karar hâlâ bekliyor."
+ },
+ {
+  "paket": "parti-emrelic-0016",
+  "no": "H-0004",
+  "hukum": "hala-acik",
+  "kanit": "Çare, kara maskesine Çanakkale/İstanbul boğaz kesiği eklenmesiydi (veri-kaynak/ sorumluluğunda). git log --since=2026-08-12 -- veri-kaynak/ taraması bu konuda bir commit göstermiyor (yalnız OTOMATIK KOŞU ve genel motor bakımı var, boğaz/kesik/kanal geçmiyor)."
+ },
+ {
+  "paket": "parti-emrelic-0016",
+  "no": "H-0005",
+  "hukum": "hala-acik",
+  "kanit": "H-0004 ile AYNI kök sebep (kara maskesinde Boğaz kesilmemiş), aynı kanıt: ilgili commit yok."
+ },
+ {
+  "paket": "parti-emrelic-0017",
+  "no": "H-0001",
+  "hukum": "hala-acik",
+  "kanit": "p0016/H-0002 ile AYNI Voronoi kaması (Kayseri-Elbistan-Sivas üçgeni), aynı çare (Pınarbaşı/Sarız/Gürün/Darende) — havuzda dördü de yok, aynı ölçümle doğrulandı."
+ },
+ {
+  "paket": "parti-emrelic-0025",
+  "no": "H-0001",
+  "hukum": "hala-acik",
+  "kanit": "Reçetenin ilk adımı ('imereti künyesi zaten hazır, yalnız Kutaisi'nin d: alanı gurcistan→imereti değişecek') UYGULANMAMIŞ: node ile ölçüm, Kutaisi noktası hâlâ d:'gurcistan' (1281-1810). kartli/kaheti künyeleri de devletler.js'te YOK. Not: id:'imereti' künyesi zaten VARDI (bu paketten önce de), yalnız kullanılmıyor."
+ },
+ {
+  "paket": "parti-emrelic-0025",
+  "no": "H-0004",
+  "hukum": "hala-acik",
+  "kanit": "devletler.js'te aranan üç künye (prusya/prusya-dukaligi, kurlandiya, livonya) hiçbiri YOK — Königsberg/Klaipėda hâlâ 'almanya' etiketli olmalı (künye yokluğu bunu zaten gösteriyor), reçete uygulanmamış."
+ },
+ {
+  "paket": "parti-emrelic-0025",
+  "no": "H-0005",
+  "hukum": "hala-acik",
+  "kanit": "Üç seçenekten (a/b/c) hiçbiri uygulanmamış: devletler.js'te 'kraliyet-macaristani' künyesi YOK. Karar zaten 'senin-kararin' (Emre'ye bırakılmış) olarak not düşülmüştü, henüz karar/uygulama izi yok."
+ },
+ {
+  "paket": "parti-emrelic-0025",
+  "no": "H-0009",
+  "hukum": "hala-acik",
+  "kanit": "node ile ölçüm: Kofçaz · Dereköy · Demirköy · İğneada · Rezve · Vize · Ahtapolu · Malko Tırnova · Havsa · Lalapaşa · Orestiada · Mustafapaşa noktalarının HEPSİ hâlâ d:[{f:'1361-01-01',...}] taşıyor — reçetenin istediği ikili ayrım (Edirne-çevresi → 1361-03-01 sonrası, Istranca/kıyı → 1371-09-26 sonrası) uygulanmamış."
+ }
+]

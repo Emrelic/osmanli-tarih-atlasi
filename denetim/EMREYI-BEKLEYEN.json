@@ -1,0 +1,52 @@
+[
+ {
+  "paket": "parti-emrelic-0012",
+  "no": "H-0001",
+  "not": "GİRİNTİ YUMUŞATMA — çöl 200 km tavanının göze tuhaf gelen kenarları. Anladığım: bugünkü kural her yönü AYRI ölçüyor; sen yönlerin birbirini TAKVİYE etmesini istiyorsun. Kuzeyden 250 + batıdan 300 + doğudan 400 km uzaktaki toprak, tek yönden 201 km uzaktakinden daha çok o devletindir. İKİYE AYIRDIM, çünkü biri bedava biri riskli: (a) ENKLAV DOLDURMA — parametresiz, risksiz. Çevresinin TAMAMI tek devlet olan sahipsiz alan o devletin olur. Emre'nin 'adacık gibi kalamaz' dediği hâl tam bu. (b) ÇOK YÖNLÜ TAKVİYE — sert 200 km duvarı yerine uzaklıkla azalan bir çekim; aynı devletin noktalarının çekimleri TOPLANIR. Emre'nin tarif ettiği şeyin matematiği, ve girintileri kendiliğinden yumuşatır. ⚠️ Bir eşik sayısı var ve BÜTÜN DÜNYAYI etkiler. ÖNERİM: önce (a). Sonra Sahra'nın iki hâlini yan yana görüp (b)'yi kararlaştıralım — bunun için TAM koşu gerekmiyor, bölge çizimi yeter (dakikalar). 📌 TEKRAR EDEN MADDE: aynı istek `koşu 4'ten sonra` sohbetinde ve H-0002'de de var — ÜÇ kez söylendi."
+ },
+ {
+  "paket": "parti-emrelic-0012",
+  "no": "H-0002",
+  "not": "H-0001'in aynısı, başka bir bölgeden görseli. Aynı karara bağlı: önce (a) enklav doldurma, sonra (b) çok yönlü takviye. ⚠️ Görseller AÇILMADI — H-0001'in beş görseli konuyu zaten tarif ediyor ve metin nettir. Bir karar gerektiğinde açılacak."
+ },
+ {
+  "paket": "parti-emrelic-0014",
+  "no": "H-0004",
+  "not": "ÖLÇTÜM — İKİSİ DE MASKEDE DELİK, YANİ \"GÖL ÜZERİNE BOYA\" SORUNU YOK. ``` Aral Gölü (45,00K 60,00D) 🟢 delik Baykal (53,50K 108,00D) 🟢 delik ``` ⇒ Şikâyetin *\"kıyıların haritayla örtüşmesi\"* kısmı bir ÇÖZÜNÜRLÜK sorusu ve p0016/H-0003 ile aynı karar. Bugünkü kaynak NE 1:10m. ⚠️ Ve Aral'da ayrı bir mesele var, ÖLÇMEDİM ama işaret ediyorum: Aral Gölü 20. yüzyılda büyük ölçüde KURUDU. Tek bir sabit göl poligonu kullanmak 1281-1923 için sorun değil, ama atlas 2026'ya uzatılırsa **anakronik** olur — motorun 28 modern baraj gölünü kasten bırakma kararının (CLAUDE.md §2) ters yüzü."
+ },
+ {
+  "paket": "parti-emrelic-0016",
+  "no": "H-0003",
+  "not": "ÖLÇTÜM — GÖL ÇIKARILMIŞ; KALAN SORU **ÇÖZÜNÜRLÜK** VE KARARI SENİN. ``` Tuz Gölü maskede DELİK 🟢 (kaynak: ne_10m_lakes.geojson) ``` *\"6. derecede kalite ile oturmalı\"* dediğin şey kıyı çizgisinin AYRINTISI. Bugünkü kaynak **Natural Earth 1:10.000.000** — dünya ölçekli bir atlas için standart, ama tek bir gölün kıyısını \"birebir\" vermez. Karar senin, çünkü bedeli var: ``` a) BUGÜNKÜ (NE 10m) tek kaynak, 5 MB, bütün dünya tutarlı b) DAHA İNCE kaynak ör. HydroLAKES / yerel veri — yalnız bazı göller için; ATLAS TUTARSIZ olur (bir göl keskin, yanındaki kaba) c) SEÇİCİ İNCELTME yalnız Osmanlı çekirdeğindeki göller ``` 🟢 Önerim (c) — ama tutarsızlık bedelini bilerek. `§11`: bir kaynağı kısmen değiştirmek, iki otorite doğurur."
+ },
+ {
+  "paket": "parti-emrelic-0019",
+  "no": "H-0050",
+  "not": "İki parça: ① 'Canbirdi Gazâli daha ileride bir toprakta yenilmiş — aradaki topraklar geçmeden ileri harekât mı yapıldı?' ⇒ ÖLÇÜLEBİLİR, ölçmedim. ② 🔴 'Öncü kuvvetlerin aldığı bölgeleri daha AÇIK BİR TON ve TARAMA ile göstermeye ne dersin, senin görüşünü alalım.' ⇒ BU BİR KARAR SORUSU, sahibi sensin. GÖRÜŞÜM: taramayı **öncü kuvvet** için kullanma. Sebep ölçülü — tarama deseni bu projede ZATEN KULLANILIYOR ve anlamı 'İŞGAL' (`app.js:970 isgalDesenleriKur`, `isgal-dolgu`). Aynı desene ikinci bir anlam yüklemek, kullanıcının öğrendiği dili bozar. Öncü harekât için AÇIK TON yeterli; tarama işgale kalsın."
+ },
+ {
+  "paket": "parti-emrelic-0019",
+  "no": "H-0061",
+  "not": "'Mohaç'tan sonra Osmanlı Macaristan haritası bu şekilde tecelli etmeli mi? Bugün enklav şeklinde duruyor. Himaye olunca açık kırmızıya boyuyor muyuz?' 🔴 BU MADDE İKİ SORU TAŞIYOR ve biri SENİN KARARIN: ① VERİ SORUSU (ölçülebilir): 1526-1541 arası Macaristan'ın hangi kısmı `d:` (doğrudan), hangisi `v:` (tâbi), hangisi Habsburg. ÖLÇMEDİM. ② TASARIM SORUSU (senin): Szapolyai'nin Macaristan'ı 1526-1541 arası ne sayılmalı — vassal mı, himaye mi, müstakil krallık mı? Bu bir KAYNAK + TERCİH meselesi ve H-0075'te kendin de soruyorsun. ⇒ İkisini ayırmadan ölçüm yapmak yanlış zemin olur: önce ②'ye karar, sonra ① ona göre ölçülür."
+ },
+ {
+  "paket": "parti-emrelic-0019",
+  "no": "H-0075",
+  "not": "🔴 BU MADDE BİR TASARIM KARARI İSTİYOR VE SEN ZATEN a ŞIKKINI SEÇMİŞSİN: 'himaye edilen bölgenin sınırları boyunca Osmanlı kırmızısı ince şerit, iç renk o devletin kendi rengi.' GÖRÜŞÜM: **a şıkkı doğru seçim** ve gerekçem ölçülü — ① Tarama deseni bu projede ZATEN İŞGAL demek (`app.js:970 isgalDesenleriKur`, 83 kayıt). Aynı deseni himayeye de vermek iki ayrı siyasî durumu tek görsele bindirirdi. ② Bugün iki kademe var: doğrudan (koyu) · tâbi (açık ton). Himaye ÜÇÜNCÜ bir kademe ve şerit onu ikisinden de ayırır. ③ Şerit, iç rengi bozmadığı için 'bu toprak KİMİN' sorusunu cevapsız bırakmaz — tarama ise bırakır. ⚠️ ÖLÇMEDİM: hangi kayıtların 'himaye' sayılacağını. Karar verilirse veri tarafında yeni bir kademe alanı gerekir."
+ },
+ {
+  "paket": "parti-emrelic-0019",
+  "no": "H-0081",
+  "not": "'Deniz ve göl için daha açık bir mavi mi kullansak? Haritacılıkta bunun standardını araştır.' ÖLÇÜM: bugünkü zemin **`#a8c8dc`** (`app.js:567` background + `app.js:604` su dolgusu) — orta açıklıkta, gri-mavi bir ton. GÖRÜŞÜM: bu renk ZATEN standarda yakın. Kartografyada siyasî haritaların su tonu geleneksel olarak düşük doygunlukta ve açık seçilir (ör. Times Atlas ve National Geographic siyasî serilerinde su, kara tonlarından belirgin biçimde daha SOLUK durur) — sebebi tam senin dediğin: su bir ZEMİN, devlet renkleri ŞEKİL. ⚠️ Bunu bir kaynağa dayandırmadım (`§4`: akademik kaynak şartı) — yani bu bir GÖRÜŞ, ölçüm değil. ⇒ ASIL ÇARE H-0080: suyu açmak yerine, devlet paletinden suya yakın tonları YASAKLAMAK daha sağlam. Karar senin."
+ },
+ {
+  "paket": "parti-emrelic-0021",
+  "no": "H-0012",
+  "not": "HATA DEĞİL — beşinci altyapı unsurunun (koridor ağı) senin ağzından şartnamesi. Karar sende, değişiklik yok. İçindeki soruya cevap (18 Ağustos ölçümü, bugün tekrar edilmedi): `veri-kaynak/viabundus/` kurulu (Viabundus 1.3, 19.283 kenar) AMA coğrafyası KUZEY AVRUPA — 39 koridor düğümümüzün 25 km'sinde SIFIR kenar, en yakın Belgrad'a 466 km. ⇒ Osmanlı dünyası için ayrı kaynak gerekiyor."
+ },
+ {
+  "paket": "parti-emrelic-0024",
+  "no": "H-0003",
+  "not": "\"Mesaj kutusunu okuyup şartnameye göre düzenleyen ve koordinatöre ileten bir MESAJ KOORDİNATÖRÜ oturumu açmanın hız/düzen/doğruluk/token faydası olur mu\" Bu bir SÜREÇ sorusu; veri ya da harita işi değil, benim yetkimde de değil. ÖLÇMEDİM — ve ölçmediğimi ölçmüş gibi yazmıyorum. Yalnız bir GÖZLEM bırakıyorum (ölçüm değil, bugün yaşadığım vaka): Bugün bana verilen ad ve dosya (`PAKET 0019 TASNİF` · `parti-emrelic-0019`) ZATEN CANLI olan başka bir oturumundu. Çakışma tahtadan iki mesajla (M-0848 · M-0849) 20 dakikada çözüldü ve veri kaybı olmadı. Yani mevcut TAHTA düzeni bu sınıf hatayı YAKALADI — soru \"kanal çalışıyor mu\" değil, \"koordinatörün üstündeki yük dağıtılmalı mı\" sorusudur. Karar Emre ve koordinatörün."
+ }
+]
