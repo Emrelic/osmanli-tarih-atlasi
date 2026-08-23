@@ -635,7 +635,16 @@ function altlikKur() {
   ["a", "b"].forEach(function (grup) {
     ALTLIK_KATMAN[grup].forEach(function (k) {
       if (!window.ALTLIK[k.kaynak]) return;
-      harita.addSource(k.id, { type: "geojson", data: window.ALTLIK[k.kaynak] });
+      // 🔴 `data/altlik.js` 5,3 MB (Natural Earth kara·göl·nehir·dağ) ve bu
+      // kaynaklar KATMANLARI GİZLİ olsa da açılışta ekleniyor. Aynı
+      // `maxzoom`/`buffer` sınırı burada da geçerli: atlasın yakınlık tavanı
+      // ~8, zoom 18'e kadar döşeme piramidi kurmanın karşılığı YOK.
+      // ⚠️ Ölçülmedi — uçuş bloğunun bu kaynaktan geldiğine dair kanıt YOK
+      // (gizli katmanlar döşeme üretmemeli). Bedava sigorta olarak konuyor;
+      // kazanç çıkarsa açılış süresinde çıkar.
+      harita.addSource(k.id, { type: "geojson", maxzoom: 9, buffer: 32,
+                               tolerance: 0.5,
+                               data: window.ALTLIK[k.kaynak] });
       var kat = { id: k.id, type: k.tip, source: k.id, paint: k.boya,
                   layout: { visibility: "none" } };
       if (k.minzoom) kat.minzoom = k.minzoom;
@@ -729,7 +738,42 @@ harita.on("load", function () {
   veriSiniriKur();
 
   // Yabancı devletler: Osmanlı katmanlarının ALTINA çizilir
-  harita.addSource("devlet", { type: "geojson", data: bosVeri() });
+  // ═════════════════════════════════════════════════════════════════════
+  // 🔴🔴 GEOJSON KAYNAK AYARLARI — ÖLÇÜLMÜŞ BİR DARBOĞAZIN ÇARESİ
+  //
+  // Emre'nin ekranından gelen ölçüm (22 Ağustos 2026, dördüncü tur):
+  //     eğik — 7/220 kare · 2 fps · en uzun boşluk 1132 ms
+  //     ÇİZİM (uçuştan önce): 231 ms · sehirGuncelle 150 ms
+  //     UZUN GÖREV: tek blok 1144 ms · TOPLAM 9303 ms
+  //
+  // 3,6 saniyelik uçuşta 9,3 SANİYELİK uzun görev — ana iş parçacığı doymuş.
+  // Ve ayrım kesin: BİZİM en ağır işlevimiz 150 ms, blok 1144 ms.
+  // ⇒ Suçlu bizim JS'imiz DEĞİL, MapLibre'nin kaynak işlemesi.
+  //
+  // SEBEP: hiçbir `geojson` kaynağında `maxzoom` verilmemişti ⇒ MapLibre
+  // varsayılanı **18** kullanıyor ve zoom 18'e kadar döşeme piramidi kuruyor.
+  // Bu atlasın EN YAKIN görünümü bir sancak ölçeği (~zoom 8); 9-18 arası
+  // döşemeler HİÇ GÖRÜNMÜYOR ama üretiliyor.
+  // `buffer` varsayılanı da 128 px — ülke poligonu için gereksiz geniş.
+  //
+  // ⚠️ RİSK VE SINIRI: `maxzoom` aşıldığında MapLibre son seviyeyi BÜYÜTEREK
+  // gösterir. 9'un üstünde sınır çizgileri bir tık kabalaşabilir. Atlasın
+  // yakınlık tavanı zaten 8 olduğu için pratikte görünmemeli — ama bu
+  // ÖLÇÜLMEDİ, gözle doğrulanacak. Kabalaşma görülürse `maxzoom` 10-11'e
+  // çekilir; kazancın çoğu yine kalır (18 → 11 bile piramidin yarısıdır).
+  //
+  // 📌 Ve bu, dört turdur aradığım şeyin İLK KEZ ölçümle gösterilen hâli.
+  // Önceki üç turda kendi kodumda hata aradım; ölçüm beni kütüphanenin
+  // kaynak ayarlarına götürdü — oraya kendi başıma bakmazdım.
+  var AGIR_GEOJSON = { type: "geojson", maxzoom: 9, buffer: 32,
+                       tolerance: 0.5, data: null };
+  function agirKaynak() {
+    return { type: "geojson", maxzoom: AGIR_GEOJSON.maxzoom,
+             buffer: AGIR_GEOJSON.buffer, tolerance: AGIR_GEOJSON.tolerance,
+             data: bosVeri() };
+  }
+
+  harita.addSource("devlet", agirKaynak());
   harita.addLayer({ id: "devlet-dolgu", type: "fill", source: "devlet",
     paint: { "fill-color": ["get", "renk"], "fill-opacity": 0.44 } });
   harita.addLayer({ id: "devlet-cizgi", type: "line", source: "devlet",
@@ -764,7 +808,7 @@ harita.on("load", function () {
   // örtünce dışarıda kalan kısım bir dış çerçeve gibi görünür; iç sınırlar
   // dolgunun altında kaldığı için silinir. Union'ın görsel karşılığı budur ve
   // 442 dönem için ek geometri üretmeye gerek kalmaz.
-  harita.addSource("imparatorluk", { type: "geojson", data: bosVeri() });
+  harita.addSource("imparatorluk", agirKaynak());
   harita.addLayer({ id: "imparatorluk-hale", type: "line", source: "imparatorluk",
     layout: { "line-cap": "round", "line-join": "round" },
     // Kalınlık 7 → 3.5 (kullanıcı: "yarı yarıya inceltelim"). Hale dolgunun
@@ -773,7 +817,7 @@ harita.on("load", function () {
     // opaklık 0.95'te bırakıldı.
     paint: { "line-color": "#6d0d1c", "line-width": 3.5, "line-opacity": 0.95 } });
 
-  harita.addSource("vassal", { type: "geojson", data: bosVeri() });
+  harita.addSource("vassal", agirKaynak());
   // ⚠️ Renk yakınlaştırıldı (kullanıcı: "vassal devletlerin kırmızısı sadece bir
   // ton açık renk olmalı, burada kırmızı ve pembe olacak şekilde fark büyük,
   // ayrı devlet gibi görünüyorlar"). Eski: #d4707d @0.52 — Osmanlı #8e0b22
@@ -783,7 +827,7 @@ harita.on("load", function () {
   // Kesikli çizgi KALDIRILDI: "ayrı devlet" algısını en çok o üretiyordu.
   // Tâbi toprağın dış hattı artık imparatorluk halesinden geliyor.
 
-  harita.addSource("osmanli", { type: "geojson", data: bosVeri() });
+  harita.addSource("osmanli", agirKaynak());
   harita.addLayer({ id: "osmanli-dolgu", type: "fill", source: "osmanli",
     paint: { "fill-color": "#8e0b22", "fill-opacity": 0.68 } });
   // Petek modunda iç çizgiler görünmesin diye çizgi katmanı yok; dolgu kendi
@@ -885,7 +929,7 @@ harita.on("load", function () {
   // en belirsiz hat) en soluk uca iniyor. Aradaki hatlar doğrusal geçiyor.
   var YER_OPAKLIK  = ["interpolate", ["linear"], U, 56, 0.45, 274, 0.18];
   var YER_COPAKLIK = ["interpolate", ["linear"], U, 56, 0.50, 274, 0.20];
-  harita.addSource("serbest", { type: "geojson", data: bosVeri() });
+  harita.addSource("serbest", agirKaynak());
   harita.addLayer({ id: "serbest-hale", type: "line", source: "serbest",
     // line-join "round" → "bevel": round join keskin köşede yarıçapı
     // width/2 olan bir yay çıkıntısı bırakıyor (genişlik yüzlerce px'ken bu
@@ -900,7 +944,7 @@ harita.on("load", function () {
              "line-blur": YER_CBULANIK, "line-opacity": YER_COPAKLIK } });
 
   // Bölge (eyalet) iç sınırları: ince kesikli çizgi, yakınlaşınca görünür
-  harita.addSource("bolge", { type: "geojson", data: bosVeri() });
+  harita.addSource("bolge", agirKaynak());
   harita.addLayer({ id: "bolge-cizgi", type: "line", source: "bolge", minzoom: 5.2,
     paint: { "line-color": "#5a3a24", "line-width": 0.9, "line-opacity": 0.5,
              "line-dasharray": [2, 3] } });
@@ -945,7 +989,7 @@ harita.on("load", function () {
   // özellik başına farklı kesik deseni verilemiyor. Dokuz tür → dokuz ince
   // katman; her biri kendi `tur` değerine göre süzülüyor. Renk ve genişlik
   // veriyle sürülebildiği için onlar tek ifadede kalıyor.
-  harita.addSource("seferler", { type: "geojson", data: bosVeri() });
+  harita.addSource("seferler", agirKaynak());
   Object.keys(HAREKET).forEach(function (tur) {
     var h = HAREKET[tur];
     harita.addLayer({
@@ -967,7 +1011,7 @@ harita.on("load", function () {
   // 1686'da, Eğri 1687'de, Varad 1692'de düşmüştü.
   // Tarama deseni çalışma anında canvas'ta çiziliyor — dış dosya yok.
   devirDesenleriKur();
-  harita.addSource("devir", { type: "geojson", data: bosVeri() });
+  harita.addSource("devir", agirKaynak());
   harita.addLayer({ id: "devir-dolgu", type: "fill", source: "devir",
     paint: { "fill-pattern": ["get", "desen"], "fill-opacity": 0.85 } });
   harita.addLayer({ id: "devir-cizgi", type: "line", source: "devir",
@@ -988,7 +1032,7 @@ harita.on("load", function () {
   // altta sahibin rengi, üstünde işgalcinin rengi. İlhak olduğunda tarama biter,
   // alan düz işgalci rengine döner (madde 54: Bosna 1908'de bu geçişi yapmalı).
   isgalDesenleriKur();
-  harita.addSource("isgal", { type: "geojson", data: bosVeri() });
+  harita.addSource("isgal", agirKaynak());
   harita.addLayer({ id: "isgal-dolgu", type: "fill", source: "isgal",
     paint: { "fill-pattern": ["get", "desen"], "fill-opacity": 0.8 } });
   harita.addLayer({ id: "isgal-cizgi", type: "line", source: "isgal",
