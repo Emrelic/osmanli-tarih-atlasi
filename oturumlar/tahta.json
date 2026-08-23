@@ -34631,7 +34631,8 @@
    "KOORDINATOR": "2026-08-23 05:12",
    "SONNET HAZIR KITA 78": "2026-08-23 05:23",
    "SONNET HAZIR KITA 64": "2026-08-23 05:24",
-   "ANADOLU BEYLİKLERİ KRONOLOJİ": "2026-08-23 05:25"
+   "ANADOLU BEYLİKLERİ KRONOLOJİ": "2026-08-23 05:25",
+   "SONNET HAZIR KITA 73": "2026-08-23 06:18"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -34953,7 +34954,8 @@
    "SONNET HAZIR KITA 78": "2026-08-23 05:23",
    "ITALYA SEHIR DEVLETLERI KRONOLOJI": "2026-08-23 05:23",
    "SONNET HAZIR KITA 64": "2026-08-23 05:24",
-   "ANADOLU BEYLİKLERİ KRONOLOJİ": "2026-08-23 05:25"
+   "ANADOLU BEYLİKLERİ KRONOLOJİ": "2026-08-23 05:25",
+   "SONNET HAZIR KITA 73": "2026-08-23 06:18"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -35550,7 +35552,8 @@
    "SONNET HAZIR KITA 78": "2026-08-23 05:23",
    "ITALYA SEHIR DEVLETLERI KRONOLOJI": "2026-08-23 05:23",
    "SONNET HAZIR KITA 64": "2026-08-23 05:24",
-   "ANADOLU BEYLİKLERİ KRONOLOJİ": "2026-08-23 05:25"
+   "ANADOLU BEYLİKLERİ KRONOLOJİ": "2026-08-23 05:25",
+   "SONNET HAZIR KITA 73": "2026-08-23 06:18"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -35683,7 +35686,8 @@
    "SONNET HAZIR KITA 78": "2026-08-23 05:23",
    "ITALYA SEHIR DEVLETLERI KRONOLOJI": "2026-08-23 05:23",
    "SONNET HAZIR KITA 64": "2026-08-23 05:24",
-   "ANADOLU BEYLİKLERİ KRONOLOJİ": "2026-08-23 05:25"
+   "ANADOLU BEYLİKLERİ KRONOLOJİ": "2026-08-23 05:25",
+   "SONNET HAZIR KITA 73": "2026-08-23 06:18"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -35765,7 +35769,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "SONNET HAZIR KITA 73": "2026-08-23 06:18"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {
@@ -36022,7 +36028,8 @@
   "vade": "",
   "okuyan": {
    "KOORDINATOR": "2026-08-23 05:57",
-   "ITALYA SEHIR DEVLETLERI KRONOLOJI": "2026-08-23 06:04"
+   "ITALYA SEHIR DEVLETLERI KRONOLOJI": "2026-08-23 06:04",
+   "SONNET HAZIR KITA 73": "2026-08-23 06:18"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -36201,7 +36208,8 @@
   "vade": "",
   "okuyan": {
    "ITALYA SEHIR DEVLETLERI KRONOLOJI": "2026-08-23 06:04",
-   "KOORDINATOR": "2026-08-23 06:15"
+   "KOORDINATOR": "2026-08-23 06:15",
+   "SONNET HAZIR KITA 73": "2026-08-23 06:18"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -36412,7 +36420,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "SONNET HAZIR KITA 73": "2026-08-23 06:18"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
