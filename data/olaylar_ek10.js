@@ -267,7 +267,7 @@ window.OLAYLAR_EK10 = [
   gun:"23 Ağustos 1595", yer:"Kalûgerân (Călugăreni), Neajlov bataklığı, Eflak",
   kisiler:"III. Mehmed, Sadrazam Koca Sinan Paşa, Eflak Voyvodası Cesur Mihail",
   d:"Üç voyvodalığın birden elden çıkması üzerine sadrazam Koca Sinan Paşa büyük bir orduyla Tuna'yı geçti ve Eflak'ı yeniden itaat altına almak üzere yürüdü. Cesur Mihail açık savaşta karşı koyamayacağını bildiğinden orduyu Neajlov'un bataklık geçidinde, Kalûgerân'da bekledi ve dar araziye sıkışan kuvvetlere baskın verdi. Baskından sonra sayıca üstün Osmanlı ordusuna karşı duramayarak kuzeye, dağlara çekildi; Sinan Paşa Bükreş ve Târgovişte'yi işgal edip Eflak'ı doğrudan idareye bağlamayı denedi. Kalûgerân bu yüzden Osmanlı için bir yenilgi değil, seferin tamamlanmasını geciktiren bir baskındı; ama Mihail'in ordusunu koruyabilmiş olması, birkaç hafta sonra Erdel'den gelen yardımla karşı taarruza geçmesini mümkün kıldı.",
-  kaynak:"eflak", duygu:["⚔️"] },
+  kaynak:"eflak", duygu:["⚔️"], yer_kon:[44.2,25.99] },
 
 // ---------------------------------------------------------------------------
 // C-4) 1595 EKİM — geri çekilme ve Yergöğü baskını
@@ -345,14 +345,14 @@ window.OLAYLAR_EK10 = [
   gun:"27 Haziran 1877", yer:"Ziştovi (Sviştov), Tuna'nın sağ yakası",
   kisiler:"Grandük Nikola, Abdülkerim Nâdir Paşa",
   d:"Savaşın başlamasıyla Romanya topraklarına giren ve bu prensliği kendi tarafına çeken Ruslar, biri Dobruca diğeri Bükreş istikametinde olmak üzere iki koldan ilerledi. Tuna, Rusçuk ile Niğbolu arasından geçildi ve 27 Haziran'da Ziştovi, 1 Temmuz'da eski Bulgar başşehri Tırnova ele geçirildi. Tahliyesi emredildiği halde bu hususa itina gösterilmediği için Niğbolu da bir müddet direndikten sonra teslim oldu. Birinci savunma hattının bir hafta içinde yarılması İstanbul'da büyük paniğe yol açtı; saltanat merkezinin Bursa'ya nakledileceğine dair haberler bile yayıldı ve savaşın idaresi başşehirde kurulan bir askerî meclise devredildi.",
-  kaynak:"doksanuc-harbi", duygu:["😔"] },
+  kaynak:"doksanuc-harbi", duygu:["😔"], yer_kon:[43.62,25.35] },
 
 { t:"1877-07-19", k:"kayip", etiket:["savas","toprak-kaybi"],
   b:"Şıpka Geçidi'nin tahliyesi — Balkan hattının yarılması",
   gun:"19 Temmuz 1877", yer:"Şıpka Geçidi, Balkan (Stara Planina) dağları",
   kisiler:"General Gurko, Süleyman Paşa",
   d:"Balkan dağlarını aşan geçitlerin en stratejiği olan Şıpka'daki Osmanlı kuvvetleri Rus saldırılarına şiddetle karşı koydular; ancak yenileceklerine kanaat getirince 19 Temmuz'da geçidi gizlice tahliye ettiler. Böylece ikinci savunma hattı da açıldı ve General Gurko 22 Temmuz'da Eski Zağra'yı ele geçirdi. Karadağ tarafından yetişen Süleyman Paşa Gurko'yu yenilgiye uğratıp Balkanların güneyindeki işgal altındaki yerleri geri aldıysa da 21 Ağustos'tan itibaren aylarca süren taarruzlara rağmen Şıpka'yı geri alamadı. Haritada bu, Balkan sıradağlarının kuzeyi ile güneyi arasındaki savunma bütünlüğünün bir daha kurulamamasıdır: Tuna cephesindeki mücadele bundan sonra Plevne'de düğümlenecektir.",
-  kaynak:"doksanuc-harbi", duygu:["😔"] },
+  kaynak:"doksanuc-harbi", duygu:["😔"], yer_kon:[42.75,25.33] },
 
 { t:"1877-11-18", k:"kayip", etiket:["savas","toprak-kaybi"],
   b:"Kars'ın düşüşü — Doğu cephesinin çözülmesi ve Aziziye tabyaları",

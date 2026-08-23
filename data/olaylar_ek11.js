@@ -160,7 +160,7 @@ window.OLAYLAR_EK11 = [
   b:"İberya Birliği: Portekiz tacı İspanya kralına geçti",
   gun:"16 Nisan 1581", yer:"Tomar — Portekiz",
   kisiler:"II. Felipe (Portekiz kralı I. Filipe), Kardinal Kral Henrique",
-  d:"Kardinal Kral Henrique'nin vârissiz ölümüyle açılan veraset kavgası Alcântara Muharebesi'nde (25 Ağustos 1580) İspanya lehine kapandı ve Tomar'da toplanan Portekiz Cortes'i 16 Nisan 1581'de II. Felipe'yi Portekiz kralı olarak tanıdı. Tomar şartlarına göre Portekiz kendi kurumlarını, parasını ve dilini koruyacak, yönetime yalnız Portekizliler atanacak, Madrid'de ayrı bir Portekiz konseyi bulunacaktı — yani birleşme kişisel birlikti, ilhak değil. Atlas aynı hukukî durumu Felemenk ve Milano için `ispanya` diye boyadığından anakara Portekiz de altmış yıl boyunca aynı şekilde işlendi; buna karşılık Estado da Índia (Goa, Diu, Malaka, Makao) Portekiz tacı altında kaldığı için `portekiz` bırakıldı. Kaynak: Britannica, History of Portugal — Union of Spain and Portugal, 1580-1640.", duygu:["🏛"] },
+  d:"Kardinal Kral Henrique'nin vârissiz ölümüyle açılan veraset kavgası Alcântara Muharebesi'nde (25 Ağustos 1580) İspanya lehine kapandı ve Tomar'da toplanan Portekiz Cortes'i 16 Nisan 1581'de II. Felipe'yi Portekiz kralı olarak tanıdı. Tomar şartlarına göre Portekiz kendi kurumlarını, parasını ve dilini koruyacak, yönetime yalnız Portekizliler atanacak, Madrid'de ayrı bir Portekiz konseyi bulunacaktı — yani birleşme kişisel birlikti, ilhak değil. Atlas aynı hukukî durumu Felemenk ve Milano için `ispanya` diye boyadığından anakara Portekiz de altmış yıl boyunca aynı şekilde işlendi; buna karşılık Estado da Índia (Goa, Diu, Malaka, Makao) Portekiz tacı altında kaldığı için `portekiz` bırakıldı. Kaynak: Britannica, History of Portugal — Union of Spain and Portugal, 1580-1640.", duygu:["🏛"], yer_kon:[39.6,-8.42] },
 
 // ⚠️ `toprak-kayip` YAZIM HATASIYDI, doğrusu `toprak-kaybi` (öteki 183 kayıt öyle
 // yazıyor). Önemsiz görünür, değil: `denetle.py`nin `kirilmasiz_madde()` sayacı
@@ -202,7 +202,7 @@ window.OLAYLAR_EK11 = [
   b:"Nâdir Şah'ın öldürülmesi — Afşar hâkimiyetinin dağılışı",
   gun:"20 Haziran 1747", yer:"Fethâbâd, Horasan",
   kisiler:"Nâdir Şah Afşar",
-  d:"Safevî tahtını sona erdirip 1736'da kendi adına saltanat ilân eden, Hindistan seferiyle Delhi'ye kadar giden ve Osmanlı ile üç savaş yapıp 1746 Kerden Antlaşması'yla barışan Nâdir Şah, kendi muhafızları tarafından çadırında öldürüldü. Ardından İran tek elden yönetilemedi: Horasan'da Afşar kalıntısı, güneyde Zend, kuzeyde yükselen Kaçar kırk dokuz yıl boyunca ülkeyi paylaştı. Osmanlı doğu sınırı bu dağınıklık sayesinde uzun süre sakin kaldı.", duygu:["🏛"] },
+  d:"Safevî tahtını sona erdirip 1736'da kendi adına saltanat ilân eden, Hindistan seferiyle Delhi'ye kadar giden ve Osmanlı ile üç savaş yapıp 1746 Kerden Antlaşması'yla barışan Nâdir Şah, kendi muhafızları tarafından çadırında öldürüldü. Ardından İran tek elden yönetilemedi: Horasan'da Afşar kalıntısı, güneyde Zend, kuzeyde yükselen Kaçar kırk dokuz yıl boyunca ülkeyi paylaştı. Osmanlı doğu sınırı bu dağınıklık sayesinde uzun süre sakin kaldı.", duygu:["🏛"], yer_kon:[37.1,58.5] },
 
 { t:"1796-01-01", k:"siyaset", etiket:["siyaset"],
   b:"Kaçar hânedanının İran'a hâkim oluşu",

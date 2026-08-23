@@ -113,7 +113,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1532-08-05", b:"Güns (Kőszeg) kuşatması ve Alaman seferinin dönüşü", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","kusatma"],
   d:"Kanûnî'nin ikinci Viyana harekâtı Güns kalesinin direnişiyle yavaşladı ve ordu Viyana'ya varmadan geri döndü. Habsburg tarafı bunu, başkenti kurtaran bir savunma başarısı olarak anar.",
-  kaynak:"depo savaslar.js (1532-08-05)" },
+  kaynak:"depo savaslar.js (1532-08-05)", yer_kon:[47.39,16.54] },
 
 { t:"1538-01-01", b:"Nagyvárad (Varad) Anlaşması — Macaristan'ın ikili paylaşımı", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","toprak-kazanc"],
@@ -177,7 +177,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1596-10-26", b:"Haçova bozgunu", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri"],
   d:"Haçova'da Habsburg-Erdel ordusu ağır yenilgi aldı ve Eğri Osmanlı eline geçti. Yenilgi, Uzun Savaş'ın Habsburg tarafında beklentileri düşürdü.",
-  kaynak:"depo savaslar.js (1596-10-26)" },
+  kaynak:"depo savaslar.js (1596-10-26)", yer_kon:[47.82,20.72] },
 
 { t:"1600-01-01", b:"Tycho Brahe ve Kepler'in Prag sarayında buluşması", tur:"kultur", onem:3, dunya:4, kapsam:"ic", etiket:["bilim","kultur"], yer_id:"Prag",
   d:"II. Rudolf'un Prag sarayında astronomlar Tycho Brahe ile Johannes Kepler aynı anda görevliydi. Brahe'nin gözlem verileri Kepler'in eline geçti ve gezegen hareketleri yasalarının yolunu açtı; modern astronominin doğduğu masa bir Habsburg sarayındaydı.",
@@ -201,7 +201,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1606-11-11", b:"Zitvatorok Antlaşması — protokolde eşitlik", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","antlasma"],
   d:"Uzun Türk Savaşı'nı bitiren antlaşma, Habsburg imparatorunu Osmanlı padişahıyla protokolde eşit saydı ve yıllık ödemeyi tek seferlik bir armağana çevirdi. Avusturya tarihyazımı bunu, Osmanlı üstünlüğünün simgesel olarak kırıldığı ilk belge sayar.",
-  kaynak:"TDV `avusturya`: \"1593-1606 arası devam eden savaş, nihayet Zitvatorok Antlaşması (1606) ile sona ermiştir\" · depo savaslar.js (1606-11-11) · TDV `zitvatorok-antlasmasi` slug CANLI" },
+  kaynak:"TDV `avusturya`: \"1593-1606 arası devam eden savaş, nihayet Zitvatorok Antlaşması (1606) ile sona ermiştir\" · depo savaslar.js (1606-11-11) · TDV `zitvatorok-antlasmasi` slug CANLI", yer_kon:[47.855,18.242] },
 
 // ══════════════════════════════════════════════════════════════════
 // II. OTUZ YIL SAVAŞLARI VE KARŞI-REFORM (1608-1648)
@@ -240,7 +240,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1634-02-25", b:"Wallenstein'ın öldürülmesi", tur:"olum", onem:3, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["askeri","hanedan","kriz"],
   d:"İmparatorluk ordularının başkomutanı Wallenstein, ihanet şüphesiyle Eger'de öldürüldü. Olay, savaş boyunca imparatorun kendi ordusu üzerindeki denetim kaygısının en keskin ifadesidir.",
-  kaynak:"bulunamadı — gün DOĞRULANMADI" },
+  kaynak:"bulunamadı — gün DOĞRULANMADI", yer_kon:[50.078,12.373] },
 
 { t:"1648-10-24", b:"Vestfalya Barışı — imparatorluk üzerindeki Habsburg üstünlüğünün sınırlanması", tur:"antlasma", onem:5, dunya:5, kapsam:"dis", yer_id:"Münster",
   etiket:["antlasma","diplomasi","din","anayasa"],
@@ -259,12 +259,12 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1664-08-01", b:"Sen Gotar (St. Gotthard) zaferi", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri"],
   d:"Montecuccoli komutasındaki imparatorluk ordusu Raab nehri kıyısında Osmanlı ordusunu yendi. Bu, Habsburg'un Osmanlı'ya karşı kazandığı ilk büyük meydan muharebesidir ve Avusturya askerî anlatısında bir dönüşün işareti sayılır.",
-  kaynak:"depo savaslar.js (1664-08-01)" },
+  kaynak:"depo savaslar.js (1664-08-01)", yer_kon:[46.94,16.27] },
 
 { t:"1664-08-10", b:"Vasvár Antlaşması — zafere rağmen ödün", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","antlasma"],
   d:"Sen Gotar zaferinin hemen ardından imzalanan antlaşma, Uyvar'ın Osmanlı'da kalmasını kabul etti. Macar soyluları bunu ihanet saydı; antlaşma, birkaç yıl sonraki Wesselényi tertibinin başlıca sebebi oldu.",
-  kaynak:"depo savaslar.js (1664-08-10) · TDV `vasvar-antlasmasi` slug CANLI · TDV `avusturya`" },
+  kaynak:"depo savaslar.js (1664-08-10) · TDV `vasvar-antlasmasi` slug CANLI · TDV `avusturya`", yer_kon:[47.048,16.804] },
 
 { t:"1671-04-30", b:"Wesselényi tertibinin bastırılması ve Macar anayasasının askıya alınması", tur:"isyan", onem:4, dunya:2, kapsam:"ic", yer_id:"Viyana",
   etiket:["isyan","anayasa"],
@@ -289,7 +289,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1684-03-05", b:"Kutsal İttifak'ın kurulması", tur:"ittifak", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["ittifak","diplomasi"],
   d:"Papalığın aracılığıyla Habsburg, Lehistan ve Venedik Osmanlı'ya karşı ittifak kurdu; Rusya 1686'da katıldı. Habsburg ilk kez Osmanlı'ya karşı çok cepheli ve sürekli bir koalisyonun içindeydi.",
-  kaynak:"bulunamadı — gün DOĞRULANMADI" },
+  kaynak:"bulunamadı — gün DOĞRULANMADI", yer_kon:[48.3069,14.2858] },
 
 { t:"1686-09-02", b:"Budin'in geri alınışı", tur:"toprak-kazanc", onem:5, dunya:3, kapsam:"dis", yer_id:"Budin",
   etiket:["askeri","toprak-kazanc"],
@@ -309,12 +309,12 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1691-08-19", b:"Salankamen zaferi", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri"],
   d:"Tuna ile Tisa arasında kazanılan zafer, Osmanlı'nın Macaristan'ı geri alma girişimini durdurdu. Savaş bundan sonra Sava ve Tuna hattına kaydı.",
-  kaynak:"depo savaslar.js (1691-08-19)" },
+  kaynak:"depo savaslar.js (1691-08-19)", yer_kon:[45.13,20.28] },
 
 { t:"1697-09-11", b:"Zenta zaferi — Prens Eugen'in yükselişi", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri"],
   d:"Savoyalı Prens Eugen, Tisa'yı geçmekte olan Osmanlı ordusunu Zenta'da imha etti. TDV bu yenilginin Osmanlı'yı barışa mecbur ettiğini yazar; Avusturya anlatısında ise Eugen'in efsanesi ve imparatorluğun büyük güç hâline gelişi buradan başlar.",
-  kaynak:"TDV `avusturya`: \"Osmanlı ordusunun Zenta'daki mağlûbiyeti (1697), nihayet Türkler'i kayıplarını sineye çekecek bir barışa mecbur\" etti · depo savaslar.js (1697-09-11) · TDV `zenta` slug CANLI" },
+  kaynak:"TDV `avusturya`: \"Osmanlı ordusunun Zenta'daki mağlûbiyeti (1697), nihayet Türkler'i kayıplarını sineye çekecek bir barışa mecbur\" etti · depo savaslar.js (1697-09-11) · TDV `zenta` slug CANLI", yer_kon:[45.93,20.09] },
 
 { t:"1699-01-26", b:"Karlofça Antlaşması — Macaristan'ın Habsburg'a geçişi", tur:"toprak-kazanc", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kazanc","diplomasi"],
@@ -362,7 +362,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1718-07-21", b:"Pasarofça Antlaşması — imparatorluğun en geniş sınırı", tur:"toprak-kazanc", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kazanc"],
   d:"Tımışvar, Belgrad, kuzey Sırbistan ve Küçük Eflak Habsburg'a bırakıldı. İmparatorluğun güneydoğudaki sınırı tarihindeki en uzak noktaya ulaştı; bu genişleme yirmi bir yıl sürecekti.",
-  kaynak:"TDV `avusturya`: \"Tımışvar ve Belgrad Avusturya'ya bırakılmakta\" · depo savaslar.js (1718-07-21) · TDV `pasarofca-antlasmasi` slug CANLI · TDV `temesvar` slug CANLI" },
+  kaynak:"TDV `avusturya`: \"Tımışvar ve Belgrad Avusturya'ya bırakılmakta\" · depo savaslar.js (1718-07-21) · TDV `pasarofca-antlasmasi` slug CANLI · TDV `temesvar` slug CANLI", yer_kon:[44.62,21.19] },
 
 { t:"1720-01-01", b:"Pragmatik Yaptırım'ın eyalet meclislerince kabulü", tur:"reform", onem:3, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["anayasa","diplomasi"],
@@ -381,7 +381,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1739-07-22", b:"Hisarcık (Grocka) bozgunu", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri"],
   d:"Belgrad'ın hemen güneydoğusundaki bozgun, kalenin savunulamayacağını gösterdi ve barış görüşmelerini kaçınılmaz kıldı.",
-  kaynak:"depo savaslar.js (1739-07-22)" },
+  kaynak:"depo savaslar.js (1739-07-22)", yer_kon:[44.67,20.72] },
 
 { t:"1739-09-18", b:"Belgrad Antlaşması — Pasarofça kazançlarının kaybı", tur:"toprak-kayip", onem:4, dunya:3, kapsam:"dis", yer_id:"Belgrad",
   etiket:["antlasma","toprak-kayip"],
@@ -430,7 +430,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1763-02-15", b:"Hubertusburg Barışı — Silezya'dan kesin vazgeçiş", tur:"antlasma", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kayip"],
   d:"Barış savaşı statükoyla bitirdi: Maria Theresia Silezya'dan kesin olarak vazgeçti, buna karşılık II. Friedrich oğlu Joseph'in imparator seçilmesinde oyunu verdi. Avusturya'nın Almanya'daki üstünlüğü artık Prusya ile paylaşılıyordu.",
-  kaynak:"Wien Geschichte Wiki, 'Friede von Hubertusburg': \"(15. Februar 1763)\" · Die Welt der Habsburger: statüko, Silezya'dan vazgeçiş, Friedrich'in oy sözü" },
+  kaynak:"Wien Geschichte Wiki, 'Friede von Hubertusburg': \"(15. Februar 1763)\" · Die Welt der Habsburger: statüko, Silezya'dan vazgeçiş, Friedrich'in oy sözü", yer_kon:[51.278,12.939] },
 
 { t:"1772-01-01", b:"Lehistan'ın birinci paylaşımı — Galiçya'nın ilhakı", tur:"toprak-kazanc", onem:4, dunya:4, kapsam:"dis", yer_id:"Lvov",
   etiket:["toprak-kazanc","diplomasi"],
@@ -484,7 +484,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1791-08-04", b:"Ziştovi Antlaşması — son Osmanlı-Habsburg barışı", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["antlasma","diplomasi"],
   d:"Savaş öncesi sınıra dönülerek imzalanan antlaşma, iki devlet arasındaki savaşlar çağını kapattı. TDV bunu açıkça \"son Avusturya-Osmanlı savaşı\" diye niteler; bundan sonra Viyana, Osmanlı'yı yıkılmaması gereken bir denge unsuru olarak görecektir.",
-  kaynak:"TDV `avusturya`: \"Ziştovi Antlaşması ile biten savaş, son Avusturya-Osmanlı savaşı olmuştur\" · depo savaslar.js (1791-08-04)" },
+  kaynak:"TDV `avusturya`: \"Ziştovi Antlaşması ile biten savaş, son Avusturya-Osmanlı savaşı olmuştur\" · depo savaslar.js (1791-08-04)", yer_kon:[43.6167,25.35] },
 
 // ══════════════════════════════════════════════════════════════════
 // VI. FRANSIZ SAVAŞLARI VE İMPARATORLUĞUN İLANI (1792-1815)
@@ -498,7 +498,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1797-10-17", b:"Campo Formio — Belçika'nın kaybı, Venedik'in kazanılması", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kayip","toprak-kazanc"],
   d:"Avusturya Hollandası (Belçika) Fransa'ya bırakıldı, karşılığında Venedik Cumhuriyeti'nin toprakları alındı. Habsburg ağırlığı Batı'dan Adriyatik ve Tuna'ya kaydı.",
-  kaynak:"bulunamadı — gün DOĞRULANMADI" },
+  kaynak:"bulunamadı — gün DOĞRULANMADI", yer_kon:[46.0167,13.1667] },
 
 { t:"1804-08-11", b:"Avusturya İmparatorluğu'nun ilanı", tur:"kurulus", onem:5, dunya:4, kapsam:"ic", yer_id:"Viyana",
   etiket:["hanedan","anayasa"],
@@ -508,7 +508,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1805-12-02", b:"Austerlitz — Üç İmparator Muharebesi", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip"],
   d:"Ruslar ve Avusturyalılar Austerlitz'te kesin biçimde yenildi. Ardından gelen Pressburg Barışı ağır toprak kayıpları getirdi: Venedik, İstriya ve Dalmaçya Fransa'ya, bütün Ön Avusturya Bavyera'ya geçti — yaklaşık üç milyon nüfus.",
-  kaynak:"Die Welt der Habsburger, 'Kaiser Franz II./I. und Napoleon': Austerlitz sonrası Pressburg Barışı, 1000 kare mil / üç milyon nüfus kaybı, Venedik-İstriya-Dalmaçya Fransa'ya, Ön Avusturya Bavyera'ya" },
+  kaynak:"Die Welt der Habsburger, 'Kaiser Franz II./I. und Napoleon': Austerlitz sonrası Pressburg Barışı, 1000 kare mil / üç milyon nüfus kaybı, Venedik-İstriya-Dalmaçya Fransa'ya, Ön Avusturya Bavyera'ya", yer_kon:[49.0667,16.8667] },
 
 { t:"1806-08-06", b:"Kutsal Roma İmparatorluğu'nun sonu", tur:"son", onem:5, dunya:5, kapsam:"ic", yer_id:"Viyana",
   etiket:["anayasa","hanedan"],
@@ -518,7 +518,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1809-07-06", b:"Wagram bozgunu", tur:"savas", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip"],
   d:"Aspern'deki başarının ardından Wagram'da alınan yenilgi, Avusturya'nın Napolyon'a karşı tek başına verdiği savaşı bitirdi. Schönbrunn Barışı yeni toprak kayıpları ve Adriyatik'e çıkışın kesilmesi anlamına geldi.",
-  kaynak:"bulunamadı — gün DOĞRULANMADI" },
+  kaynak:"bulunamadı — gün DOĞRULANMADI", yer_kon:[48.3092,16.5667] },
 
 { t:"1810-04-01", b:"Marie Louise'in Napolyon ile evlendirilmesi", tur:"hanedan", onem:3, dunya:2, kapsam:"dis", yer_id:"Viyana",
   etiket:["hanedan","diplomasi"],
@@ -547,7 +547,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1819-09-20", b:"Karlsbad Kararları — sansür ve muhalefetin bastırılması", tur:"reform", onem:3, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["reform","kriz"],
   d:"Metternich'in yönlendirmesiyle Alman Konfederasyonu basın sansürü, üniversite denetimi ve muhalefet takibi kararları aldı. \"Vormärz\" denen otuz yıllık baskı dönemi böyle kuruldu ve 1848 patlamasının basıncını biriktirdi.",
-  kaynak:"bulunamadı — gün DOĞRULANMADI" },
+  kaynak:"bulunamadı — gün DOĞRULANMADI", yer_kon:[50.2311,12.8712] },
 
 { t:"1821-01-01", b:"İtalya'daki ayaklanmaların bastırılması", tur:"isyan", onem:2, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","isyan"],
@@ -577,12 +577,12 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1849-04-14", b:"Macaristan'ın Habsburg hâkimiyetinden ayrılma ilanı", tur:"isyan", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["isyan","milliyetcilik"],
   d:"Macar meclisi Habsburg hanedanını tahttan indirdiğini ilan etti. Monarşi ilk kez, tebaasından birinin resmen ayrıldığı bir durumla karşı karşıyaydı.",
-  kaynak:"Die Welt der Habsburger / Wien Geschichte Wiki: \"Hungary, which broke away from Habsburg rule on April 14, 1849\"" },
+  kaynak:"Die Welt der Habsburger / Wien Geschichte Wiki: \"Hungary, which broke away from Habsburg rule on April 14, 1849\"", yer_kon:[47.5316,21.6273] },
 
 { t:"1849-08-13", b:"Macar ayaklanmasının Rus yardımıyla bastırılması", tur:"savas", onem:4, dunya:3, kapsam:"ic", yer_id:"",
   etiket:["askeri","isyan"],
   d:"Haziran'dan itibaren Rus desteğiyle yürütülen harekât 13 Ağustos'ta Macar ordusunun teslimiyle sonuçlandı; Macaristan anayasasını yitirdi ve 1850 yazına kadar Haynau'nun askerî idaresi altında çok sayıda idam yapıldı. Viyana'nın kendi tebaasını bastırmak için Rusya'ya muhtaç kalması, imparatorluğun zayıflığının açık kanıtı sayıldı.",
-  kaynak:"Die Welt der Habsburger / Wien Geschichte Wiki: \"militärisch bis 13. August 1849 unterworfen (ab Juni mit russischer Unterstützung) und verlor seine Verfassung (Militärherrschaft unter Haynau bis Sommer 1850 mit zahlreichen Hinrichtungen)\"" },
+  kaynak:"Die Welt der Habsburger / Wien Geschichte Wiki: \"militärisch bis 13. August 1849 unterworfen (ab Juni mit russischer Unterstützung) und verlor seine Verfassung (Militärherrschaft unter Haynau bis Sommer 1850 mit zahlreichen Hinrichtungen)\"", yer_kon:[46.2578,21.6217] },
 
 { t:"1851-12-31", b:"Silvester Patenti — neo-mutlakiyetin kurulması", tur:"reform", onem:3, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["anayasa","reform"],
@@ -596,7 +596,7 @@ window.KRONOLOJI_HABSBURG = [
 
 { t:"1854-07-17", b:"Semmering demiryolu — Avrupa'nın ilk dağ demiryolu", tur:"reform", onem:4, dunya:3, kapsam:"ic", etiket:["teknoloji","ekonomi"], yer_id:"", kapsam_genis:true,
   d:"Carl Ritter von Ghega'nın inşa ettiği Semmering geçişi tamamlandı ve Gloggnitz-Mürzzuschlag bağlantısı açıldı. Bir dağ silsilesini normal açıklıklı rayla aşan ilk demiryoluydu; Viyana'yı Trieste limanına bağlayan hattın kilit halkasıydı ve imparatorluğun iç pazarını birleştirdi.",
-  kaynak:"Wien Geschichte Wiki, 'Eisenbahn': \"Carl Ritter von Ghega constructed the first mountain railway in Europe crossing the Semmering, with the connection piece Gloggnitz-Mürzzuschlag completed on July 17, 1854\"" },
+  kaynak:"Wien Geschichte Wiki, 'Eisenbahn': \"Carl Ritter von Ghega constructed the first mountain railway in Europe crossing the Semmering, with the connection piece Gloggnitz-Mürzzuschlag completed on July 17, 1854\"", yer_kon:[47.6167,15.8333] },
 
 { t:"1856-03-30", b:"Paris Antlaşması — Osmanlı'nın toprak bütünlüğünün garanti edilmesi", tur:"antlasma", onem:3, dunya:4, kapsam:"dis", yer_id:"Paris",
   etiket:["antlasma","diplomasi"],
@@ -610,16 +610,16 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1859-06-24", b:"Solferino bozgunu ve Lombardiya'nın kaybı", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip"],
   d:"Franz Joseph'in bizzat komuta ettiği ordu Solferino'da ağır yenilgi aldı; imparatorun ordu komutanı olarak yetersizliği bu savaşla kanıtlanmış sayıldı. Avusturya Lombardiya'yı bıraktı, Toskana, Modena ve Parma'daki Habsburg yan kolları da topraklarını yitirdi. Savaşın yol açtığı insanî felaket Kızılhaç'ın kuruluş fikrini doğurdu.",
-  kaynak:"Die Welt der Habsburger, 'Schlacht von Solferino 1859': \"Die entscheidende Schlacht fand am 24. Juni 1859 bei Solferino statt\"; Franz Joseph şahsen komuta etti, Lombardiya bırakıldı, yan kollar kaybetti" },
+  kaynak:"Die Welt der Habsburger, 'Schlacht von Solferino 1859': \"Die entscheidende Schlacht fand am 24. Juni 1859 bei Solferino statt\"; Franz Joseph şahsen komuta etti, Lombardiya bırakıldı, yan kollar kaybetti", yer_kon:[45.3833,10.7667] },
 
 { t:"1866-01-01", b:"Mendel'in kalıtım yasalarını yayımlaması", tur:"kultur", onem:2, dunya:4, kapsam:"ic", etiket:["bilim"], yer_id:"",
   d:"Brünn'de öğretmenlik yapan rahip Gregor Mendel, bezelye melezleri üzerindeki deneylerinin sonuçlarını Brünn Doğa Tarihi Cemiyeti'nin bildirilerinde yayımladı. Çalışmanın önemi ancak ölümünden sonra, 1900 civarında anlaşıldı; genetik biliminin kurucu metnidir ve bir Habsburg taşra şehrinde yazılmıştır.",
-  kaynak:"Wien Geschichte Wiki, 'Gregor Mendel': bulgular 1866'da Brünn Doğa Tarihi Cemiyeti bildirilerinde yayımlandı; 1854'ten itibaren Brünn'de öğretmenlik, 1856'dan itibaren bezelye deneyleri; öneminin 1900 civarında ölümünden sonra anlaşıldığı · ⚠️ GÜN DOĞRULANMADI · ⚠️ yer_id BOŞ: Brünn/Brno yerleşim listesinde YOK (ölçüldü)" },
+  kaynak:"Wien Geschichte Wiki, 'Gregor Mendel': bulgular 1866'da Brünn Doğa Tarihi Cemiyeti bildirilerinde yayımlandı; 1854'ten itibaren Brünn'de öğretmenlik, 1856'dan itibaren bezelye deneyleri; öneminin 1900 civarında ölümünden sonra anlaşıldığı · ⚠️ GÜN DOĞRULANMADI · ⚠️ yer_id BOŞ: Brünn/Brno yerleşim listesinde YOK (ölçüldü)", yer_kon:[49.1951,16.6068] },
 
 { t:"1866-07-03", b:"Königgrätz — Almanya'daki üstünlüğün kaybı", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip"],
   d:"Prusya-Avusturya savaşının kaderini belirleyen muharebe Habsburg monarşisinin aleyhine sonuçlandı. Yenilgi, Avusturya'nın Alman prensleri arasındaki önderliğinin kesin kaybı demekti; Almanya Prusya çevresinde birleşecek, Avusturya ise Tuna havzasına kapanacaktı. Franz Joseph'in saltanatının en derin sarsıntısıdır.",
-  kaynak:"Die Welt der Habsburger, 'Schlacht von Königgrätz 1866' ve 'Entscheidungsschlacht gegen Preußen': \"Am 3. Juli 1866 brachte die Schlacht von Königgrätz die Entscheidung zu Ungunsten der Habsburgermonarchie\"; \"den endgültigen Verlust der habsburgischen Vorherrschaft unter den deutschen Fürsten zur Folge\"" },
+  kaynak:"Die Welt der Habsburger, 'Schlacht von Königgrätz 1866' ve 'Entscheidungsschlacht gegen Preußen': \"Am 3. Juli 1866 brachte die Schlacht von Königgrätz die Entscheidung zu Ungunsten der Habsburgermonarchie\"; \"den endgültigen Verlust der habsburgischen Vorherrschaft unter den deutschen Fürsten zur Folge\"", yer_kon:[50.2092,15.8328] },
 
 { t:"1866-10-03", b:"Viyana Barışı — Venedik'in kaybı", tur:"toprak-kayip", onem:3, dunya:4, kapsam:"dis", yer_id:"Viyana",
   etiket:["antlasma","toprak-kayip"],
@@ -667,7 +667,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1889-01-30", b:"Mayerling — Veliaht Rudolf'un ölümü", tur:"hanedan", onem:3, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["hanedan","kriz"],
   d:"Veliaht Rudolf, Mayerling'deki av köşkünde ölü bulundu ve veraset hattı sarsıldı. Olay, hanedanın 19. yüzyıl sonundaki bir dizi kişisel felaketinin ilkidir ve Avusturya kültüründe kalıcı bir efsaneye dönüşmüştür.",
-  kaynak:"bulunamadı — aranan kaynaklarda müstakil sayfa BULUNAMADI, gün DOĞRULANMADI" },
+  kaynak:"bulunamadı — aranan kaynaklarda müstakil sayfa BULUNAMADI, gün DOĞRULANMADI", yer_kon:[48.0667,16.0833] },
 
 { t:"1898-09-10", b:"İmparatoriçe Elisabeth'in öldürülmesi", tur:"olum", onem:3, dunya:2, kapsam:"ic", yer_id:"Cenevre",
   etiket:["hanedan","kriz"],
