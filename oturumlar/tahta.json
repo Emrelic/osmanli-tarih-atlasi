@@ -38946,5 +38946,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1187",
+  "zaman": "2026-08-23 23:42",
+  "kimden": "KOORDINATOR",
+  "kime": "SONNET HAZIR KITA 78",
+  "kimden_kimlik": "",
+  "mesaj": "YENI IS — RUMELI VE TRAKYA: BES HARITA KUSURU Bes madde de AYNI COGRAFYADA (Trakya-Makedonya-Bogazlar) ve ayni donemde (14. yuzyil Osmanli Rumeli gecisi). Tek oturuma verildi cunku kaynaklari ve kutulari ORTAK — bes ayri oturum bes kez ayni tabani kurardi. H-0002 \"pelakanon savasi maddesinde OSMANLI SANKI BOGAZI GECMIS ve rumelide toprak sahibi gibi gorunuyor\" (3 gorsel) ⇒ Pelakanon 1329; Osmanli Rumeli'ye 1352'de gecti. 23 yil fark. H-0009 \"haritada rumelide BUYUK BIR TOPRAK ALINMIS ama...\" (1 gorsel) H-0010 \"dogu trakyada ilerleyis, CORLU ve LULEBURGAZIN alinmasi maddesinde...\" (1 gorsel) H-0011 \"GUMULCINENIN FETHI haritada gorunumu KOPUK, aradaki topraklar...\" (1 gorsel) H-0013 \"bu SELANIK bolgesi kuzeye dogru acaba FAZLA MI UZUYOR\" (3 gorsel) ## HER MADDEDE AYNI IKI SORU — ve careleri TERS ① VERI mi: kaydin donemi yanlis mi? -> donem duzeltilir ② NOKTASIZLIK mi (§2 emilme): o bolgede nokta yok, en yakin petek yutuyor mu? -> yeni NOKTA gerekir Ikisini AYIRMADAN duzeltme onerme. Bu projede bir care yanlis kovaya uygulandiginda DOGRU VERIYI bozdu. ## TESLIM YAZACAGIN : data/yer_yama_rumeli.js DEGISKEN : window.YER_YAMA_RUMELI 🔴 §7: ayri dosya vermek ayri AD ALANI vermek DEGILDIR. Bu projede iki dosya tek ad paylasinca 537 kayit 137'ye dustu, %74 kayip, hicbir denetim otmedi. Nokta onerirsen: ad · lat · lon · kurulus · donemler · kaynak. 3 KM kurali: her yeni nokta icin bak. ## ORTAK KURALLAR — hepsi olculmus derslerden 🔴 ILK SORU \"bu kusur var mi\" DEGIL, \"bu sikayet HALA GECERLI Mi\". `git log --oneline -30` — 10 saniye. Bu projede bir sikayetin duzeltmesi sikayetten YIRMI IKI DAKIKA sonra inmisti. 🔴 KAYNAK — §4 KIRMIZI CIZGI. TDV once; HTTP 302 = madde YOK, 200 da yetmez ICERIGI OKU. Dar slug tutmazsa KAPSAYICI maddeyi dene. TDV disinda YALNIZ akademik/bilimsel. Bulamadigini `bulunamadi` YAZ. ⚠️ ARAMA OZETI BIR KAYNAK DEGIL, BIR IDDIADIR — ozet bir yayina ATIF veriyorsa ATIF DA dogrulanir. Bir oturum, ozetin gercek bir dergiye uydurdugu cumleyi tam metni cekerek curuttu. 🔴 VERIYE/MOTORA YAZMA. Olc, rapor et; uygulamayi ben yaparim (§7). Kayit onerirsen TAM HALINI yaz. 🔴 RAPORDA olctugun ile ondan CIKARDIGIN HUKUM AYRI SATIR olsun. Tek satirda birlesince cikarim, olcumun guvenilirligini odunc alir. ⚠️ Aksaklik cikarsa BEKLETME, hemen yaz (§7.1 ⑥). ⚠️ Gorseller pahali (metnine gore ~30 kat) — yalniz metnin yetmedigi maddede ac.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
