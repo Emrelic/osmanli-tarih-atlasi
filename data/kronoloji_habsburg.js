@@ -118,7 +118,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1538-01-01", b:"Nagyvárad (Varad) Anlaşması — Macaristan'ın ikili paylaşımı", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","toprak-kazanc"],
   d:"Ferdinand ile Zápolya János arasında yapılan anlaşma, Macaristan'ı iki kral arasında paylaştırdı ve Zápolya'nın ölümünden sonra tacın Habsburglara geçmesini öngördü. Anlaşma tutmadı; Zápolya'nın oğlunun doğması Budin'in Osmanlı eline geçmesine giden krizi başlattı.",
-  kaynak:"bulunamadı — TDV bu anlaşmayı müstakil maddede işlemiyor, gün DOĞRULANMADI (yıl damgası kullanıldı)" },
+  kaynak:"bulunamadı — TDV bu anlaşmayı müstakil maddede işlemiyor, gün DOĞRULANMADI (yıl damgası kullanıldı)", yer_id:"Varad (Oradea)" },
 
 { t:"1541-08-29", b:"Budin'in fethi — Macaristan üçe bölündü", tur:"bolunme", onem:4, dunya:3, kapsam:"dis", yer_id:"Budin",
   etiket:["askeri","toprak-kayip"],
@@ -138,7 +138,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1555-01-01", b:"Augsburg Din Barışı — Ferdinand'ın uzlaşması", tur:"antlasma", onem:4, dunya:4, kapsam:"ic", yer_id:"",
   etiket:["din","diplomasi","anayasa"],
   d:"Ferdinand'ın imparatorluk meclisiyle müzakere ettiği barış, Protestanlara mülklerini ve serbest ibadeti güvence altına aldı. Ağabeyi Şarlken'in uzlaşmaz çizgisinin aksine Ferdinand pragmatik davrandı; bu tercih Habsburg topraklarında mezhep savaşını yarım yüzyıl erteledi.",
-  kaynak:"Die Welt der Habsburger, 'Ferdinand I. als Begründer der österreichischen Monarchie der Habsburger': Ferdinand 1555'te Augsburg barışını müzakere etti, Protestanlara mülk ve serbest ibadet güvencesi · ⚠️ gün DOĞRULANMADI" },
+  kaynak:"Die Welt der Habsburger, 'Ferdinand I. als Begründer der österreichischen Monarchie der Habsburger': Ferdinand 1555'te Augsburg barışını müzakere etti, Protestanlara mülk ve serbest ibadet güvencesi · ⚠️ gün DOĞRULANMADI", yer_id:"Augsburg" },
 
 { t:"1556-01-01", b:"Hofkriegsrat'ın kurulması — sürekli ordunun idarî omurgası", tur:"kurulus", onem:3, dunya:1, kapsam:"ic", yer_id:"Viyana",
   etiket:["reform","askeri"],
@@ -319,7 +319,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1699-01-26", b:"Karlofça Antlaşması — Macaristan'ın Habsburg'a geçişi", tur:"toprak-kazanc", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kazanc","diplomasi"],
   d:"Antlaşmayla Macaristan ve Erdel Habsburg'a bırakıldı; iki yüz yıllık savaşın toprak hesabı kesin biçimde kapandı. TDV bunu Osmanlı-Avrupa ilişkilerinde bir dönüm noktası, gücün Avusturya ve Rusya'ya devri diye anlatır. Habsburg açısından ise imparatorluk, Tuna havzasında büyük bir toprak devleti hâline geldi.",
-  kaynak:"TDV `avusturya`: \"bu antlaşmayla gerileyen Osmanlı gücü yerini Avusturya ve Rusya'ya bırakmıştır\" · depo savaslar.js (1699-01-26) · TDV `karlofca` slug CANLI" },
+  kaynak:"TDV `avusturya`: \"bu antlaşmayla gerileyen Osmanlı gücü yerini Avusturya ve Rusya'ya bırakmıştır\" · depo savaslar.js (1699-01-26) · TDV `karlofca` slug CANLI", yer_id:"Varadin (Petrovaradin)" },
 
 // ══════════════════════════════════════════════════════════════════
 // IV. BÜYÜK GÜÇ VE VERASET MESELESİ (1700-1740)
@@ -338,12 +338,12 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1711-11-29", b:"Szatmár Barışı — Macaristan'la uzlaşma", tur:"antlasma", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["antlasma","isyan","anayasa"],
   d:"VI. Karl, ödünler vererek Rákóczi ayaklanmasını sona erdirdi ve Macaristan'ı hanedana daha sıkı bağladı. Habsburg, Macaristan'ı bastırarak değil uzlaşarak tuttuğu ilk büyük denemeyi burada yaptı; 1867'nin uzlaşma modeli bu geleneğe dayanır.",
-  kaynak:"Wien Geschichte Wiki, 'Friede von Szatmár': \"29. November 1711\" · ⚠️ ÇELİŞKİ KAYDI: yaygın literatürde barışın imzası 30 Nisan 1711 olarak da geçiyor; ikinci bir kaynakla ayırt EDEMEDİM, kurumsal kaynağın günü alındı" },
+  kaynak:"Wien Geschichte Wiki, 'Friede von Szatmár': \"29. November 1711\" · ⚠️ ÇELİŞKİ KAYDI: yaygın literatürde barışın imzası 30 Nisan 1711 olarak da geçiyor; ikinci bir kaynakla ayırt EDEMEDİM, kurumsal kaynağın günü alındı", yer_id:"Szatmár (Satu Mare)" },
 
 { t:"1713-04-19", b:"Pragmatik Yaptırım — monarşinin ilk temel yasası", tur:"reform", onem:5, dunya:4, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["anayasa","hanedan"],
   d:"İmparator VI. Karl, bütün Habsburg ülkelerinin bölünmezliğini ve doğrudan hatta veraseti ilan etti; kızları, babasının ve kardeşinin kızlarından önce mirasçı sayıldı. \"Bölünmez ve ayrılmaz\" (indivisibiliter ac inseparabiliter) formülü monarşinin anayasal temeli oldu ve 1918'e kadar yürürlükte kaldı.",
-  kaynak:"Die Welt der Habsburger, 'Pragmatische Sanktion 1713' (sayfa doğrudan okundu): \"19. Apr 1713\" · \"Erklärung über die Unteilbarkeit aller habsburgischen Länder und die Erbfolge in direkter Linie\" · monarşinin sonuna (1918) kadar anayasal temel" },
+  kaynak:"Die Welt der Habsburger, 'Pragmatische Sanktion 1713' (sayfa doğrudan okundu): \"19. Apr 1713\" · \"Erklärung über die Unteilbarkeit aller habsburgischen Länder und die Erbfolge in direkter Linie\" · monarşinin sonuna (1918) kadar anayasal temel", yer_id:"Viyana" },
 
 { t:"1714-01-01", b:"Karlskirche'nin temelinin atılması — Habsburg barokunun beyannamesi", tur:"kultur", onem:3, dunya:1, kapsam:"ic", etiket:["kultur","din"], yer_id:"Viyana",
   d:"VI. Karl'ın veba adağı olarak yaptırdığı Karlskirche'nin inşasına Johann Bernhard Fischer von Erlach'ın planlarıyla başlandı. Roma sütunlarını Bizans kubbesiyle ve barok cepheyle birleştiren yapı, imparatorluğun evrensellik iddiasının taştan ifadesi sayılır.",
@@ -405,7 +405,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1745-09-13", b:"Franz Stephan'ın imparator seçilmesi — Habsburg-Lothringen hanedanı", tur:"hanedan", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["hanedan"],
   d:"Maria Theresia'nın eşi Franz Stephan imparator seçildi ve hanedan resmen Habsburg-Lothringen adını aldı. Taç imparatorda, iktidar ise Maria Theresia'daydı.",
-  kaynak:"bulunamadı — gün DOĞRULANMADI" },
+  kaynak:"bulunamadı — gün DOĞRULANMADI", yer_id:"Frankfurt" },
 
 { t:"1748-10-01", b:"Aachen Barışı — Maria Theresia'nın tanınması, Silezya'nın kaybı", tur:"antlasma", onem:4, dunya:4, kapsam:"dis", yer_id:"Aachen",
   etiket:["antlasma","toprak-kayip"],
@@ -415,7 +415,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1749-01-01", b:"Haugwitz reformları — merkezî idarenin kurulması", tur:"reform", onem:4, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["reform","ekonomi","askeri"],
   d:"Silezya'nın kaybı, devletin yeniden kurulması gerektiğini gösterdi: maliye ve idare eyalet meclislerinden alınıp merkezî dairelerde birleştirildi, sürekli ordu için düzenli vergi bağlandı. Maria Theresia dönemi reformları modern Avusturya devletinin doğduğu an sayılır.",
-  kaynak:"Die Welt der Habsburger, 'Die maria-theresianischen Reformen' (başlık ve konu doğrulandı) · ⚠️ gün DOĞRULANMADI, reform dizisi yıllara yayılıdır" },
+  kaynak:"Die Welt der Habsburger, 'Die maria-theresianischen Reformen' (başlık ve konu doğrulandı) · ⚠️ gün DOĞRULANMADI, reform dizisi yıllara yayılıdır", yer_id:"Viyana" },
 
 { t:"1756-01-01", b:"Renversement des alliances — Fransa ile ittifak", tur:"ittifak", onem:4, dunya:2, kapsam:"dis", yer_id:"", kapsam_genis:true,
   etiket:["ittifak","diplomasi"],
@@ -440,7 +440,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1774-01-01", b:"Allgemeine Schulordnung — zorunlu ilköğretim", tur:"reform", onem:3, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["reform","kultur"],
   d:"Genel okul nizamnâmesi ile altı-on iki yaş arası çocuklar için ilköğretim zorunlu kılındı ve devlet eliyle bir okul ağı kuruldu. Avusturya kamu belleğinde Maria Theresia'nın en çok anılan icraatlarından biridir.",
-  kaynak:"bulunamadı — Die Welt der Habsburger 'Die maria-theresianischen Reformen' başlığı okul reformunu kapsıyor, ancak nizamnâmenin GÜNÜ doğrulanmadı" },
+  kaynak:"bulunamadı — Die Welt der Habsburger 'Die maria-theresianischen Reformen' başlığı okul reformunu kapsıyor, ancak nizamnâmenin GÜNÜ doğrulanmadı", yer_id:"Viyana" },
 
 { t:"1780-11-29", b:"Maria Theresia'nın ölümü ve II. Joseph'in tek başına iktidarı", tur:"hanedan", onem:4, dunya:1, kapsam:"ic", yer_id:"Viyana",
   etiket:["hanedan","reform"],
@@ -450,22 +450,22 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1781-10-13", b:"Hoşgörü Fermanı (Toleranzpatent)", tur:"reform", onem:4, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["reform","din"],
   d:"II. Joseph, Augsburg ve Helvetik mezheplerine bağlı Protestanlarla Ortodokslara serbest ibadet hakkı tanıdı; sınırlama yalnız kilise mimarisindeydi — kule, çan ve sokağa açılan kapı yasaktı. Ferman, Beyaz Dağ'dan beri süren tek-mezhep düzenini sona erdirdi.",
-  kaynak:"Wien Geschichte Wiki, 'Toleranzpatent': \"von Kaiser Joseph II. am 13. Oktober 1781 für die Anhänger der Augsburger und Helvetischen Konfession sowie die nicht unierten (orthodoxen) Griechen erlassen\"; kilise inşasındaki sınırlamalar" },
+  kaynak:"Wien Geschichte Wiki, 'Toleranzpatent': \"von Kaiser Joseph II. am 13. Oktober 1781 für die Anhänger der Augsburger und Helvetischen Konfession sowie die nicht unierten (orthodoxen) Griechen erlassen\"; kilise inşasındaki sınırlamalar", yer_id:"Viyana" },
 
 { t:"1781-11-01", b:"Serfliğin (Leibeigenschaft) kaldırılması", tur:"reform", onem:4, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["reform","ekonomi"],
   d:"Kişisel bağımlılığı kaldıran ferman, köylülerin çiftliği terk edip başka yerde çalışabilmesinin önünü açtı. Toprak yükümlülükleri sürdü, ama hukukî statü değişti; Avusturya sosyal tarihinde 1848'e kadarki en büyük adımdır.",
-  kaynak:"Wien Geschichte Wiki, 'Josephinismus' ve Die Welt der Habsburger, 'Patent zur Aufhebung der Leibeigenschaft 1781': kişisel özgürlük kaldırıldı, köylüler çiftlikten ayrılabildi · ⚠️ ayın günü DOĞRULANMADI (kaynaklar yalnız 1781 diyor)" },
+  kaynak:"Wien Geschichte Wiki, 'Josephinismus' ve Die Welt der Habsburger, 'Patent zur Aufhebung der Leibeigenschaft 1781': kişisel özgürlük kaldırıldı, köylüler çiftlikten ayrılabildi · ⚠️ ayın günü DOĞRULANMADI (kaynaklar yalnız 1781 diyor)", yer_id:"Viyana" },
 
 { t:"1782-01-12", b:"Manastırların kapatılması", tur:"reform", onem:3, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["reform","din"],
   d:"Hastabakıcılık ya da öğretim yapmayan bütün tefekkür manastırlarının kaldırılması emredildi; yalnız Viyana'da on bir erkek ve yedi kadın manastırı kapandı, düzenli rahiplerin sayısı 946'dan 347'ye düştü. Elde edilen mallar bir din fonuna aktarıldı.",
-  kaynak:"Wien Geschichte Wiki, 'Klosteraufhebungen': \"Am 12. Jänner 1782 wurde das erste große Klosteraufhebungsdekret erlassen\"; Viyana'da 11 erkek + 7 kadın manastırı, 946 → 347" },
+  kaynak:"Wien Geschichte Wiki, 'Klosteraufhebungen': \"Am 12. Jänner 1782 wurde das erste große Klosteraufhebungsdekret erlassen\"; Viyana'da 11 erkek + 7 kadın manastırı, 946 → 347", yer_id:"Viyana" },
 
 { t:"1784-01-01", b:"Almancanın idare dili yapılması", tur:"reform", onem:3, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["reform","milliyetcilik"],
   d:"II. Joseph, Latince yerine Almancayı monarşinin tek idare dili ilan etti. Verimlilik amacı taşıyan bu adım, Macaristan ve Bohemya'da güçlü bir tepki doğurdu ve 19. yüzyıl milliyetçiliklerinin ilk kıvılcımlarından biri sayılır.",
-  kaynak:"bulunamadı — Wien Geschichte Wiki 'Josephinismus' idare reformlarını sayıyor ama dil fermanının GÜNÜNÜ vermiyor" },
+  kaynak:"bulunamadı — Wien Geschichte Wiki 'Josephinismus' idare reformlarını sayıyor ama dil fermanının GÜNÜNÜ vermiyor", yer_id:"Viyana" },
 
 { t:"1784-08-16", b:"Allgemeines Krankenhaus — tıbbî bakımın yoksul bakımından ayrılması", tur:"reform", onem:4, dunya:2, kapsam:"ic", etiket:["reform","bilim","sosyal"], yer_id:"Viyana",
   d:"II. Joseph'in kurduğu Genel Hastane ile tıbbî bakım, yoksul bakımından kurumsal olarak ayrıldı. Hastane Avrupa'nın en büyük tıp kurumlarından biri oldu ve Viyana Tıp Okulu'nun yükselişinin altyapısını kurdu; devletin sağlığı bir kamu görevi sayması bu tarihten başlar.",
@@ -474,7 +474,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1788-02-09", b:"Son Osmanlı-Habsburg savaşının başlaması", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri"],
   d:"II. Joseph, Rusya'nın müttefiki olarak Osmanlı'ya savaş açtı. Savaş beklenen sonucu vermedi ve imparatorun iç reformlarına duyulan tepkiyle birleşerek saltanatının sonunu gölgeledi.",
-  kaynak:"depo savaslar.js (savas_basi 1788-02-09) · TDV `avusturya`" },
+  kaynak:"depo savaslar.js (savas_basi 1788-02-09) · TDV `avusturya`", yer_id:"İstanbul" },
 
 { t:"1790-02-20", b:"II. Joseph'in ölümü ve reformların geri alınması", tur:"hanedan", onem:4, dunya:1, kapsam:"ic", yer_id:"Viyana",
   etiket:["hanedan","reform","isyan"],
@@ -528,7 +528,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1811-06-01", b:"ABGB — Genel Medenî Kanun", tur:"reform", onem:3, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["reform","anayasa"],
   d:"Aydınlanma hukukçuluğunun ürünü olan Genel Medenî Kanun yürürlüğe girdi ve monarşinin Alman-Slav topraklarında ortak bir özel hukuk kurdu. Kanun bugün hâlâ Avusturya hukukunun omurgasıdır.",
-  kaynak:"bulunamadı — gün DOĞRULANMADI" },
+  kaynak:"bulunamadı — gün DOĞRULANMADI", yer_id:"Viyana" },
 
 { t:"1814-09-18", b:"Viyana Kongresi'nin toplanması", tur:"diplomasi", onem:5, dunya:4, kapsam:"dis", yer_id:"Viyana",
   etiket:["diplomasi","ittifak"],
@@ -587,7 +587,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1851-12-31", b:"Silvester Patenti — neo-mutlakiyetin kurulması", tur:"reform", onem:3, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["anayasa","reform"],
   d:"1849 anayasası yürürlükten kaldırıldı ve imparator doğrudan idareyi yeniden kurdu. Bach sisteminin on yılı, merkezîleşme ve modern bürokrasi ile birlikte sıkı bir polis rejimi anlamına geliyordu.",
-  kaynak:"bulunamadı — gün DOĞRULANMADI" },
+  kaynak:"bulunamadı — gün DOĞRULANMADI", yer_id:"Viyana" },
 
 { t:"1854-01-01", b:"Kırım Savaşı'nda silahlı tarafsızlık — Rusya'nın Tuna'dan çekilmesi", tur:"diplomasi", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","askeri"],
@@ -633,12 +633,12 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1867-03-30", b:"Ausgleich — Avusturya-Macaristan ikili monarşisi", tur:"bolunme", onem:5, dunya:2, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["anayasa","milliyetcilik"],
   d:"Uzlaşma, Habsburg monarşisini iki egemen devletin birliğine dönüştürdü: her iki yarı kendi anayasası, hükûmeti ve meclisiyle donatıldı; ortak kalan yalnız hükümdar, ordu ve dış siyasetti. Königgrätz'in iç siyasî faturası budur ve 1918'e kadar imparatorluğun anayasal çerçevesi olarak kaldı.",
-  kaynak:"Die Welt der Habsburger / Der Erste Weltkrieg, 'Die Doppelmonarchie': \"Der Österreichisch-Ungarische Ausgleich 1867 verwandelte die Habsburgermonarchie in eine Verbindung zweier souveräner Staaten\"; her yarı kendi anayasası, hükûmeti ve halk temsiliyle · ⚠️ GÜN DOĞRULANMADI (mevcut künyenin tarihi korundu; kaynak yalnız 1867 diyor)" },
+  kaynak:"Die Welt der Habsburger / Der Erste Weltkrieg, 'Die Doppelmonarchie': \"Der Österreichisch-Ungarische Ausgleich 1867 verwandelte die Habsburgermonarchie in eine Verbindung zweier souveräner Staaten\"; her yarı kendi anayasası, hükûmeti ve halk temsiliyle · ⚠️ GÜN DOĞRULANMADI (mevcut künyenin tarihi korundu; kaynak yalnız 1867 diyor)", yer_id:"Viyana" },
 
 { t:"1867-12-21", b:"Aralık Anayasası — temel haklar ve hukuk devleti", tur:"reform", onem:4, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["anayasa","reform"],
   d:"Avusturya yarısında temel hakları, bağımsız yargıyı ve din özgürlüğünü güvenceye alan anayasa kabul edildi. Metinlerin bir bölümü Avusturya Cumhuriyeti'nde bugün de yürürlüktedir.",
-  kaynak:"bulunamadı — gün DOĞRULANMADI" },
+  kaynak:"bulunamadı — gün DOĞRULANMADI", yer_id:"Viyana" },
 
 { t:"1873-05-01", b:"Viyana Dünya Sergisi'nin açılışı", tur:"kultur", onem:3, dunya:1, kapsam:"ic", yer_id:"Viyana",
   etiket:["kultur","ekonomi"],
