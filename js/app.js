@@ -3188,6 +3188,33 @@ function _haritaSakinlesince(is) {
 var _CIZIM_MS = 0;
 
 function olayaGit(o, panelGoster, zorla) {
+  // 23 Agustos 2026 — H-0004. Emre: "bu maddede iken bir sonraki maddeye
+  // tiklayinca iki madde birden geciliyor ... ikinci madde kendi sirasinda
+  // da gosterime giriyor."
+  //
+  // CANLI OLARAK URETILDI (tahmin degil):
+  //     liste[5].click()  ->  baslikta 6. MADDE gorundu
+  //     suankiOlayI       ->  -1
+  //     btn-ileri         ->  7      (6. madde ATLANDI)
+  //
+  // KOK SEBEP: bu fonksiyon olay NESNESINI aliyordu ama INDEKSINI hicbir
+  // yere yazmiyordu. Sonra btn-ileri/btn-geri olayIndexTazele()yi cagirip
+  // indeksi YENIDEN TARIYOR, ve tarama "gi <= suanki olan SON kayit"
+  // dedigi icin ayni tarihli bir grupta GRUBUN SONUNU seciyor.
+  // Veride 54 ayni-tarihli cift var, yani belirti 54 yerde uretilebilir.
+  //
+  // Tarama KASITLI VE DOGRU: zaman cubugu suruklenerek bir tarihe
+  // gelindiginde o gunun butun maddeleri gecmistedir, grubun sonu dogru
+  // cevaptir. Kusur taramada DEGIL, taramanin gereksiz yere calismasinda.
+  // => Care: gosterilen maddenin indeksi BURADA yazilir; olayIndexTazele
+  //    zaten "indeksin tarihi suankiyle ayniysa dokunma" diyor ve artik
+  //    o kapidan donuyor. Surukleme yolu BIT BIT ayni kaliyor.
+  //
+  // indexOf -1 dondururse (devlet odagi gibi SUZULMUS bir listeden gelen
+  // olay) indekse DOKUNULMUYOR — yanlis bir indeks yazmaktansa eski
+  // davranis korunur.
+  var _oi = olaylar.indexOf(o);
+  if (_oi >= 0) suankiOlayI = _oi;
   kameraKilitle();
   agirBaslat();
   var _c0 = performance.now();
