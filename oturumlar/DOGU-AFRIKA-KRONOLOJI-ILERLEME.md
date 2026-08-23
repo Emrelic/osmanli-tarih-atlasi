@@ -185,3 +185,100 @@ data/kronoloji_dogu_afrika.js  →  window.KRONOLOJI_DOGU_AFRIKA
 `index.html`e **BAĞLAMADIM** — koordinatörün işi (`KRONOLOJI-SARTNAME §5`).
 `data/devletler.js`e **DOKUNMADIM**; oradaki 24 gömülü olayın hepsi bu
 dosyanın içine alındı ve TDV gövdesiyle doğrulandı.
+
+---
+
+# İKİNCİ İŞ — OLAY MAHALLİ ATAMASI (23 Ağustos 2026, tahta M-1127)
+
+**Yazdığım dosya:** `data/yer_yama_dogafr.js` → `window.YER_YAMA_DOGAFR`
+**Kronoloji dosyasına DOKUNMADIM** — yamayı koordinatör uygular.
+
+## 9. TESLİM — 48/48, dört kova
+
+```
+yer_id        18   havuzda VAR olan yerleşime bağlandı
+eksik_nokta   15   yer BELLİ, havuzda YOK → koordinat yazıldı
+kapsam_genis   9   olay TEK NOKTAYA SIĞMAZ (bir KARAR, eksiklik değil)
+bulunamadi     6   🔴 DÖRDÜNCÜ KOVA — şartnamede yoktu, ben ekledim
+              ───
+              48   kapsama %100, kapsanmayan 0
+```
+
+### 🔴 NİÇİN DÖRDÜNCÜ KOVA AÇTIM
+
+M-1127 üç kova veriyor. Altı kaydım **hiçbirine girmiyor**: bunlar
+*"geniş"* değil — tek bir meydan savaşı ya da tek bir doğum yeri; ama
+**kaynak o yeri söylemiyor.** Onları `kapsam_genis` kovasına atmak
+*"bilmiyorum"*u *"tek noktaya sığmaz"* diye **yanlış raporlamak**
+olurdu — ve bir sonraki oturum onları bir daha aramazdı.
+(`CLAUDE.md §11`: *"ölçülemedi ≠ temiz"* · *"boşluğun CİNSİNİ kaydetmek
+gerekiyor"*.) Kovayı koordinatör istemezse `not:` alanları duruyor,
+istediği kovaya taşınabilirler.
+
+**Altısı:** 1328 Evfât sultanının esareti · 1386 Hakkuddin'in ölümü ·
+1506 Ahmed el-Mücâhid'in doğum yeri (Hubat) · 1542-08-28 zaferi ·
+1577 Vebi nehri bozgunu · 1579 Addi Karro. Hepsi **arandı**, hiçbiri
+bulunamadı — "aranmadı" demiyorum.
+
+## 10. 🔴 KENDİ İLK RAPORUMU İKİ YERDE ÇÜRÜTTÜM
+
+M-1094'te *"Dehlek atlasta KAYITLI DEĞİL"* ve *"Aussa KAYITLI DEĞİL"*
+diye rapor etmiştim. **İkisi de yanlıştı:**
+
+```
+Dehlek  →  havuzda `Dahlak`          (15,692 / 40,138)
+Aussa   →  havuzda `Asâyita (Avsa)`  (11,567 / 41,440)
+```
+
+**Sebep:** havuzu kendi transliterasyonumla aradım, **havuzun yazımıyla
+değil.** Bu, `CLAUDE.md §4`teki TÜRKÇE YAZIM EKSENİ tuzağının
+**yerleşim tarafı** — orada `aceh`/`ace-sultanligi` künye kimliğindeydi,
+burada `Dehlek`/`Dahlak` yerleşim adında.
+⇒ Dört kayıt `eksik_nokta`dan `yer_id` kovasına taştı.
+📌 Ders: *bir adı ararken kendi yazımını değil, HAVUZUN yazımını dene* —
+ve "yok" hükmü, **en az iki yazım denenmeden** verilmez.
+
+## 11. 🟡 YAKLAŞIK KOORDİNAT DAMGASI — üç nokta
+
+Şimbra Kure · Wayna Daga · Fatagar **tam konum değildir.** Britannica,
+Cambridge History ve tandfonline taramalarının hiçbiri bu savaş
+alanlarına koordinat vermiyor; yalnız bölge veriyor (*"central Shoa"*,
+*"near Lake Tana / Dambiya"*). Nokta **bölge merkezine** konuldu ve
+`kaynak:` alanında 🟡 ile damgalandı.
+⚠️ **Damgasız bir yaklaşıklık, ölçülmüş bir kesinlikten ayırt edilemez.**
+Kalan 12 `eksik_nokta` GeoNames'ten derece-dakika-saniye olarak alındı ve
+değerleri `kaynak:` alanında **aynen** yazılı.
+
+## 12. ⚠️ İKİNCİL YER TUZAĞI — uygulandı, ve bir alt-tuzak çıktı
+
+- **Wichale (Uccialli):** madde Masavva-Keselâ çizgisini anlatır; olay
+  mahalli **imza yeridir** → Wuchale.
+  🔴 **VE ETİYOPYA'DA İKİ WUCHALE VAR:** Vollo'daki (11,50/39,60) ile
+  Oromiya'daki (9,55/42,19). Antlaşma **Vollo'dakinde** imzalandı.
+  Tuzağın tuzağı: doğru adı bulmak yetmiyor, **doğru adaşı** da gerekiyor.
+- **Zar'a Ya'kūb'un mektupları** Kahire'yi ve Nil'i anlatır; mahal
+  **gönderen saraydır** (Aksum).
+- **1626/1632 Susenyos-Fasilidas:** Gondar'a bağlamak **anakronik**
+  olurdu — şehir 1636'da kuruldu. Danqaz'a (12,467/37,617) bağlandı.
+
+## 13. KABUL KAPISI — yine iki yönde
+
+- **ateşleme:** 7 kasten bozuk kayıt → **7 hata sınıfı öttü** (havuzda
+  olmayan `yer_id` · kronolojide olmayan anahtar · zaten `yer_id`si olan
+  maddeye yama · iki kova birden · kutu dışı koordinat · havuzda VAR olan
+  adı `eksik_nokta` yazmak · notsuz `bulunamadi`)
+- **geçme:** gerçek 48 kayıt → **0 hata**, kapsama **48/48**
+- `node --check data/yer_yama_dogafr.js` → 0
+
+`b` alanları kaynak dosyadan **birebir kopyalandı** — elle yazılmadı, bir
+üreteç betiği çıkardı. Üretecin kendi anahtar denetimi ilk koşuda **bir
+eşleşmezliği yakaladı** ve dosyayı yazmayı reddetti.
+
+## 14. ARIZA (§7.1 ⑥ — bekletmeden)
+
+`py arac/tahta.py teyit M-1127` çalıştı, teyit `oturumlar/tahta.json`a
+**yazıldı** (`"okudum, gereğini yapıyorum"`, 05:26) ama aracın **commit
+adımı tamamlanmadı** ve araç şunu bastı: *"MESAJ SENDE KALDI... Bunu
+KULLANICIYA da söyle."* Sebep muhtemelen paylaşılan index üzerinde
+eşzamanlı yazım. **Tekrar yazmadım** (aracın kendi talimatı: mükerrer
+olur); teyit bir sonraki tahta yazımıyla taşınacak.
