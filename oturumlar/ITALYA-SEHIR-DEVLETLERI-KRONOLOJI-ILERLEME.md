@@ -255,6 +255,43 @@ kronolojisinde bu karşıtlık **görünmezdi**.
 
 ---
 
+## 5b. ARA GÖREV — OLAY MAHALLİ ATAMASI (M-1124 · onay M-1144) · TESLİM
+
+Şehir devleti turları **donduruldu**, koordinatörün talimatıyla bu iş araya girdi.
+
+```
+data/yer_yama_italya.js  →  window.YER_YAMA_ITALYA
+72 / 72  ·  yer_id 39  ·  eksik_nokta 33  ·  kapsam_genis 0  ·  KAPSANMAYAN 0
+arac/yama_uygula.js kuru koşu: 72 kronoloji_italya.js · eşleşme yok 0 · çoklu 0
+data/kronoloji_italya.js'e TEK BAYT yazılmadı.
+```
+
+### Kendi kapımı iki yönde de sınadım (`§11` C13)
+```
+GEÇME     gerçek 72 kayıt        → çıkış 0, on bir dalın hiçbiri ötmedi
+ATEŞLEME  kasten bozuk 10 kayıt  → çıkış 1, ON BİR DALIN ON BİRİ de öttü
+```
+En çok güvendiğim dal (`eksik_nokta` yazılmış ama ad havuzda VAR) gerçek veride
+hiç ötmedi — **zorlanmasaydı "çalışıyor" sayamazdım.**
+
+### İkincil yer tuzağı — 11 kez, biri kılpayı
+Koordinatör *"en çok senin dosyanda"* demişti; ölçüm: **11 kayıt**. En sinsisi
+**1768 Korsika satışı**: `Bastia (Korsika)` havuzda **var**, kapı da geçerdi —
+ama olay Korsika'da geçmedi, **Versailles'da** imzalandı.
+📌 ***Havuzda bir ad bulmak, doğru adı bulmak değildir.***
+
+"Kolayca başkent" tuzağı 4 kez: 1417→Konstanz · 1378→Fondi · 1866→**Floransa**
+(1865-71 başkenti) · 1900→Monza.
+
+### Türkçe-yazım tuzağı (M-1141) uygulandı ve bir kayıt kurtardı
+33 adayın her biri Türkçe/yerel varyantlarla da tarandı. 33'ün 33'ü gerçekten
+havuzda yok; **iki sahte eşleşme** elendi (`Kirmasti (M.Kemalpaşa)` = Bursa,
+İzmir Nif değil · `Talodi` = Sudan, Lodi değil).
+🟢 **Bir gerçek kurtarış:** `Curzola` yok ama **`Korçula (Kurzola)` VAR** —
+`eksik_nokta` yazılacakken `yer_id` oldu.
+
+---
+
 ## 6. BAĞLANMAYI BEKLİYOR
 
 ```
