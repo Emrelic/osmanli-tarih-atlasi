@@ -37345,7 +37345,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "SONNET HAZIR KITA 72": "2026-08-23 12:18"
+   "SONNET HAZIR KITA 72": "2026-08-23 12:18",
+   "SONNET HAZIR KITA 73": "2026-08-23 12:18"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -37364,7 +37365,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "SONNET HAZIR KITA 73": "2026-08-23 12:18"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
