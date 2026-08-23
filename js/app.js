@@ -2910,11 +2910,50 @@ var _kirpmaKilitli = false;
 // `zorla`       — 🛩 anahtarını atla. ELLE yapılan her eylem (tıklama, ⏮/⏭)
 //                 zorlar; YALNIZ otomatik akış anahtara tâbidir, çünkü
 //                 anahtarın kendi metni *"sıradaki olaya GEÇİLİNCE"* diyor.
+// 🔴🔴🔴 22 Ağustos 2026 — UÇUŞ, KENDİ ÇİZİMİNİN ÜSTÜNE BİNİYORDU.
+// Emre'nin ekranından gelen ÖLÇÜM:
+//     eğik — 5/188 kare · 2 fps · en uzun boşluk 949 ms · 🔴 KARE DÜŞÜYOR
+// 949 ms'lik TEK bir boşluk. Bu "kare düşmesi" değil, ana iş parçacığının
+// neredeyse tam bir saniye BLOKLANMASI.
+//
+// 📌 VE ÖLÇÜM BENİM BAŞ ŞÜPHELİMİ ELEDİ: "DOM işaretleri her karede yeniden
+// konumlanıyor" diyordum. O maliyet kare başına küçüktür, tek seferde 949 ms
+// olamaz. Ölçmeseydim yanlış yeri düzeltecektim — bugün dördüncü kez.
+//
+// GERÇEK SIRA:
+//     ① tarihAyarla → setData(devasa GeoJSON)   hızlı DÖNER
+//     ② flyTo başlar
+//     ③ MapLibre GeoJSON'u AYRIŞTIRIR + GPU'ya yükler  ← 949 ms, ANA İŞ
+//        PARÇACIĞINDA, yani ①'in FATURASI ②'den SONRA geliyor
+//     ④ uçuş animasyonu aç kalır, 188 karenin 5'i çizilir
+// `data/donemler.js` 22,7 MB — fatura o kadar.
+//
+// ⇒ ÇARE: ağır çizim BİTENE KADAR bekle, SONRA uç. MapLibre'nin `idle`
+//   olayı tam bunu söyler: "yüklenecek veri ve çizilecek kare kalmadı."
+// ⚠️ Emniyet zamanlayıcısı ŞART: `idle` bazı hâllerde HİÇ gelmez (gizli
+//   sekme, sürekli akan kaynak) ve uçuş sonsuza kadar başlamazdı. Kilidin
+//   `moveend` emniyetiyle aynı desen.
+function _haritaSakinlesince(is) {
+  if (!harita || !haritaHazir || typeof harita.once !== "function") { is(); return; }
+  var yapildi = false, zaman = null;
+  function calistir() {
+    if (yapildi) return;
+    yapildi = true;
+    if (zaman) { clearTimeout(zaman); zaman = null; }
+    try { harita.off("idle", calistir); } catch (e) { /* zaten çözülmüş */ }
+    is();
+  }
+  harita.once("idle", calistir);
+  zaman = setTimeout(calistir, 1500);
+}
+
 function olayaGit(o, panelGoster, zorla) {
   kameraKilitle();
   try { tarihAyarla(o.gi); } finally { kameraCoz(); }
   if (panelGoster !== false) obGoster(o);
-  haritayiOlayaGotur(o, zorla);   // kilidi KENDİSİ alıyor, varışta bırakıyor
+  // Kilidi `haritayiOlayaGotur` KENDİSİ alıyor, varışta bırakıyor.
+  // Uçuş, ağır çizim yatıştıktan SONRA başlıyor (gerekçe yukarıda).
+  _haritaSakinlesince(function () { haritayiOlayaGotur(o, zorla); });
 }
 
 // ---------- Otomatik yakınlaştırma ----------
