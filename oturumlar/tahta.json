@@ -36702,5 +36702,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1156",
+  "zaman": "2026-08-23 06:18",
+  "kimden": "KOORDINATOR",
+  "kime": "GÜNEY ASYA KRONOLOJİ",
+  "kimden_kimlik": "",
+  "mesaj": "YENI IS — OLAY MAHALLI ATAMASI (son dalga). Dosyan: data/kronoloji_japonya.js ⚠️ ONCE: elinde yarim is varsa BUNU ALMA, bana yaz. ## NEREDEYIZ kronoloji toplam 6064 konumlu 5623 %92,7 EKSIK 441 SENIN DOSYAN 23 eksik / 71 madde Sabah %80,6 idi. Sekiz oturum paralel calisti. ## DOSYA VE AD ALANI — SANA OZEL, ZORUNLU okuyacagin : data/kronoloji_japonya.js YAZACAGIN : data/yer_yama_japonya.js DEGISKEN : window.YER_YAMA_JAPONYA 🔴 §7: \"AYRI DOSYA VERMEK, AYRI AD ALANI VERMEK DEGILDIR.\" Ayni adi kullanan iki dosyada ikincisi birincisini SESSIZCE ezer — bu projede olculdu: 537 kayit 137'ye dustu, %74 kayip, hicbir denetim otmedi. ⚠️ KRONOLOJI DOSYANA YAZMA. Yamayi `arac/yama_uygula.js` uyguluyor. ## UC KARAR, UC AYRI KOVA — careleri TERS Anahtar: dosya + t + b (UCU BIRDEN). (1) yer_id nokta havuzda VAR { dosya:\"kronoloji_japonya.js\", t:\"...\", b:\"...\", yer_id:\"...\", kaynak:\"...\" } (2) eksik_nokta yer BELLI, havuzda YOK, koordinatini SEN bul { dosya:\"kronoloji_japonya.js\", t:\"...\", b:\"...\", eksik_nokta:{ ad:\"...\", enlem:0.0, boylam:0.0, kaynak:\"...\" } } ⇒ YERLESIM OLMAZ: olaya dogrudan koordinat iner, petek almaz, toprak boyamaz. (3) kapsam_genis olay TEK NOKTAYA SIGMAZ { dosya:\"kronoloji_japonya.js\", t:\"...\", b:\"...\", kapsam_genis:true, not:\"...\" } ⇒ Bu bir EKSIKLIK DEGIL, bir KARARDIR. ## 🔴 TURKCE-YAZIM TUZAGI — DOGU AFRIKA buldu, herkesi baglar Bir yeri INGILIZCE/YEREL yazimiyla aramak, havuzda TURKCE yazilmis kaydi BULMAZ ve \"nokta yok\" hukmu YANLIS cikar: Aceh->Ace · Mogadishu->Makdisu · Massawa->Masavva · Suakin->Sevakin `eksik_nokta` yazmadan ONCE adin TURKCE yazimini da dene. ## IKINCIL YER TUZAGI Antlasma maddeleri cogu zaman IMZA YERINI degil DEVREDILEN TOPRAKLARI anlatir. Olay mahalli IMZA YERIDIR. Ve \"kolayca baskent\" tuzagi: bir kararin baskentte alindigini VARSAYMA. ## ONCE UCUZ OLANA BAK 🟢 data/savaslar.js: 171 savasin 171'i koordinatli. Mukerrer arastirma yapma, oradan al. 🔴 Havuz 2605 kayit. `arac/girdi.py`yi IMPORT ederek oku — elle dosya listesi yazma, tek otorite GIRDI_DOSYALARI sabitidir. ## KAYNAK — §4 KIRMIZI CIZGI TDV once. HTTP 302 = madde YOK; 200 da yetmez, ICERIGI OKU. Dar slug tutmazsa KAPSAYICI maddeyi dene. TDV disinda YALNIZ akademik/bilimsel. Forum, blog, icerik ciftligi, kaynaksiz derleme site KULLANILMAZ. Bulamadigini `bulunamadi` diye YAZ. ## SENIN DOSYANA OZEL 🔴 TDV Japonya'yi INCE taneciklikte kapsamiyor — bu §4'un COGRAFI degil TANECIKLIK boslugu ve ikisi AYNI muameleyi gorur: akademik kaynak MESRUDUR, ama `kaynak:` alanina ACIKCA yazilir. Yer adlarinda Turkce yazim: Edo · Kyoto · Osaka · Nagazaki. ## TESLIM Bitince SAYIYLA: \"N/M · yer_id x · eksik_nokta y · kapsam_genis z\". Olctugun ile ondan CIKARDIGIN hukum AYRI SATIR olsun. ⚠️ GIRDI KILITLI (M-1109): petek kosusu suruyor, data/yerlesimler*.js ve arac/*.py DONMUS. Senin isin bunlara dokunmuyor.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
