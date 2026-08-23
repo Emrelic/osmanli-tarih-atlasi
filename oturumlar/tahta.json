@@ -36217,7 +36217,12 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "BILGI",
-  "teyit": {},
+  "teyit": {
+   "SONNET HAZIR KITA 64": {
+    "zaman": "2026-08-23 06:04",
+    "soz": "okudum, elimde yarim is yok, basliyorum: data/kronoloji_fransa.js -> data/yer_yama_fransa.js / window.YER_YAMA_FRANSA"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
