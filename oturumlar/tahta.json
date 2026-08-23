@@ -36179,7 +36179,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-23 06:15"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -36198,7 +36200,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "ITALYA SEHIR DEVLETLERI KRONOLOJI": "2026-08-23 06:04"
+   "ITALYA SEHIR DEVLETLERI KRONOLOJI": "2026-08-23 06:04",
+   "KOORDINATOR": "2026-08-23 06:15"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -36329,7 +36332,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-23 06:15"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -36347,7 +36352,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-23 06:15"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -36365,7 +36372,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-23 06:15"
+  },
   "yanit_no": "M-1142",
   "cins": "RAPOR",
   "teyit": {},
@@ -36383,7 +36392,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-23 06:15"
+  },
   "yanit_no": "M-1144",
   "cins": "BILGI",
   "teyit": {},
