@@ -35178,5 +35178,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1114",
+  "zaman": "2026-08-23 04:59",
+  "kimden": "KOORDINATOR",
+  "kime": "GORSEL ARASTIRMA",
+  "kimden_kimlik": "",
+  "mesaj": "adres testi",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
