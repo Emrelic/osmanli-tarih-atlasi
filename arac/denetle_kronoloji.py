@@ -107,6 +107,8 @@ def main():
     ihlal = 0
     toplam = 0
     dunya_havuz = {}          # (tarih, başlık normalize) -> {dunya: [dosya]}
+    dunya_baslik = {}         # aynı anahtar -> gerçek başlıklar (sahte
+                              # eşleşmeyi insan bir bakışta ayırt etsin)
 
     print("=" * 72)
     for f in dosyalar:
@@ -179,9 +181,27 @@ def main():
                     print("     VİKİPEDİ TEK DAYANAK: %s  %s"
                           % (m.get("t"), str(m.get("b"))[:44]))
             # dunya tutarlılığı havuzu
-            anahtar = (m.get("t"), re.sub(r"\W+", "", str(m.get("b") or ""))[:26])
+            # 🔴 23 Ağustos 2026 — ANAHTAR GENİŞLETİLDİ, ve sebebi ölçüldü.
+            # ESKİ HÂLİ: (t, ilk 26 alfasayısal karakter) — BÜYÜK/küçük
+            # harfe DUYARLI. Veride `dunya` ayrışması olan ÜÇ olay vardı
+            # ve bu anahtar BİRİNİ buluyordu:
+            #   Grunwald  GRUNWALDTannenbergMUHAREBE
+            #           != GrunwaldTannenbergMuharebe   yalnız HARF farkı
+            #   Waterloo  ...Napolyonkesi != ...Napolyonunke
+            #           "Napolyon" ile "Napolyon'un" farkı
+            #   Navarin   başlıklar birebir aynı → yakalandı
+            # 📌 "DENETİM VAR" ≠ "O SORUYU SORUYOR": bir denetimin
+            #    KAPSAMI, doğruluğundan ayrı ölçülür.
+            # YENİ: tarih + başlığın İLK İKİ UZUN KELİMESİ (küçük harf).
+            # ⚠️ Sahte eşleşme mümkün (aynı gün, aynı iki kelime) — o
+            #    yüzden rapor artık BAŞLIKLARI DA basıyor; ucuz bir
+            #    yanlış alarm, sessiz bir kaçıştan iyidir.
+            _b = str(m.get("b") or "").lower()
+            _kel = [w for w in re.split(r"\W+", _b, flags=re.UNICODE) if len(w) > 4]
+            anahtar = (m.get("t"), " ".join(_kel[:2]) or _b[:26])
             dunya_havuz.setdefault(anahtar, {}).setdefault(m.get("dunya"),
                                                            []).append(f)
+            dunya_baslik.setdefault(anahtar, set()).add(str(m.get("b") or "")[:52])
 
         g = {}
         for m in kayit:
@@ -204,15 +224,78 @@ def main():
     ayrisan = {k: v for k, v in dunya_havuz.items()
                if len(v) > 1 and sum(len(x) for x in v.values()) > 1}
     print("=" * 72)
-    if ayrisan:
-        print("🔴 `dunya` AYRIŞMASI: %d olay farklı dosyalarda farklı puan taşıyor"
-              % len(ayrisan))
-        for (t, b), v in list(ayrisan.items())[:12]:
-            print("   %s  %-28s  %s" % (t, b[:28],
-                                        " · ".join("%s→%s" % (d, ",".join(set(fs)))
-                                                   for d, fs in v.items())))
-        ihlal += len(ayrisan)
-    else:
+    # 🔴 23 Ağustos 2026 — AYRIŞMA İKİ KOVAYA AYRILDI.
+    # Anahtar genişletilince bulgu 1 → 23 oldu, ama başlıklar bir
+    # kısmının SAHTE olduğunu gösterdi: 1402-07-28'de DÖRT ayrı
+    # "Ankara Savaşı …" maddesi var ve üçü de FARKLI olayı anlatıyor.
+    # Şişmiş bir ihlal sayısı kendi başına zarardır — *"ölçülemedi ≠
+    # temiz"*in kardeşi: **YANLIŞ ALARM ≠ BULGU**. Gürültülü bir kapıya
+    # bir sonraki oturum bakmaz.
+    # ⇒ Başlık BENZERLİĞİ ölçülüyor. Türkçe ekler token eşitliğini
+    #   bozduğu için karşılaştırma TOKEN ÖNEKİ (ilk 5 harf) üzerinden:
+    #   "savaş" ile "savaşı" aynı öneke düşer.
+    def _onek_kumesi(bs):
+        # 🔴 KİMLİK TİRE ÖNCESİNDEDİR. Bu projede başlıklar
+        # "AD — açıklama" yapısında ve tireden sonrası her dosyanın
+        # KENDİ cephesinden yazdığı açıklamadır:
+        #     "Troyes Antlaşması — V. Henry Fransız tahtının vârisi"
+        #     "Troyes Antlaşması — İngiliz veraset iddiasının tescili"
+        # Bunlar AYNI antlaşma; açıklamalar benzerliği seyreltiyor ve
+        # gerçek çelişki ŞÜPHELİ kovasına düşüyordu.
+        # ⇒ Karşılaştırma tire öncesine çekildi. Aynı gündeki FARKLI
+        #   olaylar yine ayrışıyor, çünkü onların adı da farklı:
+        #     "Ankara Savaşı" ≠ "Ankara Savaşı sonrası Timur'un …"
+        bs = re.split(r"\s[—–-]\s", bs, 1)[0]
+        k = set()
+        for w in re.split(r"\W+", bs.lower(), flags=re.UNICODE):
+            if len(w) > 4:
+                k.add(w[:5])
+        return k
+
+    def _benzerlik(basliklar):
+        kumeler = [_onek_kumesi(b) for b in basliklar if b]
+        if len(kumeler) < 2:
+            return 1.0
+        en_dusuk = 1.0
+        for i in range(len(kumeler)):
+            for j in range(i + 1, len(kumeler)):
+                a, b = kumeler[i], kumeler[j]
+                if not (a | b):
+                    continue
+                en_dusuk = min(en_dusuk, len(a & b) / len(a | b))
+        return en_dusuk
+
+    kesin, supheli = {}, {}
+    for anah, v in ayrisan.items():
+        if _benzerlik(dunya_baslik.get(anah, ())) >= 0.5:
+            kesin[anah] = v
+        else:
+            supheli[anah] = v
+
+    def _bas(baslik, kume, isaret):
+        print("%s %d olay" % (baslik, len(kume)))
+        for anah, v in list(kume.items())[:10]:
+            t, _ = anah
+            print("   %s  %s" % (t, " · ".join("%s→%s" % (d, ",".join(set(fs)))
+                                               for d, fs in v.items())))
+            for _bs in sorted(dunya_baslik.get(anah, ()))[:4]:
+                print("        %s %s" % (isaret, _bs))
+        if len(kume) > 10:
+            print("   … %d tane daha" % (len(kume) - 10))
+
+    if kesin:
+        _bas("🔴 `dunya` AYRIŞMASI — AYNI OLAY, farklı dosyada farklı puan:",
+             kesin, "·")
+        print("   ⇒ Başlıklar örtüşüyor (≥%50 önek); bunlar GERÇEK çelişki.")
+        ihlal += len(kesin)
+    if supheli:
+        print("-" * 72)
+        _bas("⚠️ ŞÜPHELİ — aynı gün, benzer başlangıç, AMA başlıklar ayrışıyor:",
+             supheli, "?")
+        print("   ⇒ Muhtemelen AYNI GÜNDEKİ FARKLI olaylar. İhlal SAYILMIYOR;")
+        print("     gözle bakılsın diye basılıyor. (1402-07-28'deki dört")
+        print("     'Ankara Savaşı …' maddesi bu kovanın örneğidir.)")
+    if not kesin and not supheli:
         print("✓ `dunya` tutarlı — aynı olay her dosyada aynı puan")
 
     print("=" * 72)
