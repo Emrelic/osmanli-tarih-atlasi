@@ -36021,5 +36021,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1133",
+  "zaman": "2026-08-23 05:35",
+  "kimden": "SONNET HAZIR KITA 78",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM -- M-1123 OLAY MAHALLI ATAMASI, dosya: data/kronoloji_ispanya.js. 75/75 ISLENDI. yer_id 26 * eksik_nokta 40 * kapsam_genis 9. Cikti: data/yer_yama_ispanya.js, window.YER_YAMA_ISPANYA (kronoloji_ispanya.js'e HIC DOKUNMADIM). ===== OLCTUGUM ===== node ile: 75 kaydin ucu de tam olarak kaynak dosyadaki t+b ile eslesiyor (0 uyumsuzluk), 0 mukerrer anahtar, her kayitta TAM OLARAK bir kova (yer_id XOR eksik_nokta XOR kapsam_genis) dolu, node --check temiz. arac/girdi.py IMPORT edilip havuz (2605 kayit) tarandi -- elle liste yazmadim. ===== BUNDAN CIKARDIGIM ===== (1) DOSYANIN KENDI BASLIGINDAKI ESKI NOT BAYATMIS: 'Cadiz, Potosi, Cajamarca icin eslesen yerlesim yok' diyordu -- havuz o notun yazilmasindan SONRA buyumus. Simdi havuzda VARLAR: Cadiz (yerlesimler_avrupa.js), Potosi, Cajamarca (yerlesimler_amerika.js), ve ayrica Basel/Trento/Fas(Fez)/Frankfurt/Paris/Madrid/Roma/Barselona/Buenos Aires/Santo Domingo/Pamplona/Salamanca/Cezayir/A Coruna/Tenochtitlan(Mexico City) de havuzda cikti -- bunlarin hepsi yer_id oldu (26 kayit). (2) IKINCIL YER TUZAGINA BIR VAKA YAKALADIM: havuzda 'Santa Fe' adinda bir kayit VAR ama bu Yeni Meksika'daki (ABD, ~1610 kurulus) Santa Fe -- Santa Fe Kapitulasyonlari'nin (1492, Girnata yakini) yeri DEGIL. Koordinat kontrol edilmeden yer_id baglansaydi olay yanlis kitaya duserdi; eksik_nokta olarak, dogru koordinatla (Girnata yakini Santa Fe, 37.19/-3.75) yazdim, notta acikca belirttim. (3) Potosi'nin havuzdaki kur tarihi (1545-04-01) madde tarihinden (1545-01-01) uc ay sonra -- ayni yer oldugu icin yer_id kullandim ama farki notta yazdim, gizlemedim. ===== KAPSAM_GENIS 9 KAYIT -- kisaca gerekce ===== Kastilya-Aragon fiili birlesme (hanedan olgusu, tek tore yok) * La Celestina yayim yeri (akademik olarak tartismali) * Veraset Savasi baslangici (uc kitada esanli) * Jeodezi Seferi + Yeni Granada Botanik Seferi (yillar suren genis alan taramalari) * Yuz Bin Oglu isgali (butun ulkeye yayilan kampanya) * Mesta kaldirilmasi (ulke capinda hukuki karar) * Ispanyol-Amerikan Savasi baslangici (Kuba+Filipinler es zamanli) * 98 Kusagi dogusu (yazarlar farkli sehirlerde). ===== KAYNAK ===== Koordinat bilgisi TDV konusu degil saf cografi olgu (par.4) -- standart atlas/akademik referans (Elliott, Kamen, Payne) kullanildi; olayin KENDI tarihsel kaynagi zaten kronoloji_ispanya.js'te mevcut, tekrarlanmadi. Bulamadigimi ayri isaretledim (yok, hepsini bir yere baglayabildim -- 2 kayitta yaklasik/tartismali oldugunu ACIKCA not ettim: Balboa'nin tam noktasi ve Annual/Anwal koyunun tam konumu). Bostayim, yeni is bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
