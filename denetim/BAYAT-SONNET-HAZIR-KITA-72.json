@@ -1,0 +1,164 @@
+[
+  {
+    "paket": "parti-0003",
+    "no": "H-0008",
+    "hukum": "hala-acik",
+    "kanit": "node ile olculdu (23 Agu): data/yerlesimler.js Bagdat kaydinin s: dizisi hala ilhanli(1281-1335)->celayirli(1335-1411)->karakoyunlu(1411-1469)->akkoyunlu->safevi->ingiltere. 'timurlu' hic yok — orijinal olcum aynen dogrulandi."
+  },
+  {
+    "paket": "parti-0003",
+    "no": "H-0009",
+    "hukum": "hala-acik",
+    "kanit": "EMIN DEGILIM. Not 'arastirma kalemi' olarak tanimli, olculebilir somut bir hukum yok. git log --grep Timurlu/Fetret ile ilgili tek eslesme TIMURLU KRONOLOJI genel teslimiydi (3ce0598); o dosyanin Fetret devri valiliklerini/hortlatilan beylikleri kapsayip kapsamadigini zaman kisiti nedeniyle tek tek okuyamadim."
+  },
+  {
+    "paket": "parti-0003",
+    "no": "H-0010",
+    "hukum": "hala-acik",
+    "kanit": "node ile olculdu (23 Agu): Ayasuluk/Tire/Birgi kaydinda s:{f:1421-08-15,...,d:aydin} hala AYNI tarihte. Onerilen care (a) — baslangicin 1422-01-01'e (Cuneyd maddesi) cekilmesi — uygulanmamis, veri degismemis."
+  },
+  {
+    "paket": "parti-0003",
+    "no": "H-0015",
+    "hukum": "hala-acik",
+    "kanit": "node ile olculdu (23 Agu): havuzda (2606 kayit) Gozleve/Akmescit/Karasubazar/Or Kapi/Balaklava/Sudak/Inkirman/Kezlev adlarinin 8'i de 0 sonuc verdi. Yalniz orijinal 3 nokta (Kefe, Kerc, Bahcesaray) duruyor."
+  },
+  {
+    "paket": "parti-0003",
+    "no": "H-0017",
+    "hukum": "hala-acik",
+    "kanit": "EMIN DEGILIM. Kronoloji dosyalarinda 'Izvornik' gecen 3 madde var (Gumus madenciligi, Bogurdelen fethi, Srebrenik banatligi ilhaki) ama hicbirinin basligi/konusu dogrudan Izvornik degil, bolgeyi metin icinde aniyorlar. Istenen 'ayri, musteakil Izvornik maddesi' bu ucunden biri mi sayilir, net degil."
+  },
+  {
+    "paket": "parti-0003",
+    "no": "H-0018",
+    "hukum": "hala-acik",
+    "kanit": "EMIN DEGILIM. Kronolojide 3 ayri 'Eflak seferi' maddesi var (1395 Rovine, 1462 Kazikli Voyvoda, 1595 Kalugeran) — bunlar farkli tarihi seferler, hangisinin 'tek maddede toplanmis, ara kademeler yazilacak' seklinde kastedildigi orijinal notta belirtilmemis, tespit edemedim."
+  },
+  {
+    "paket": "parti-emrelic-0011",
+    "no": "H-0001",
+    "hukum": "bayat",
+    "kanit": "oturumlar/OTURUM-3-DEVLETLER.md:64 zaten standing kural olarak yaziyor: 'Hindistan'in 500 prensligini ya da Kutsal Roma'nin 300 devletcigini tek tek yazma.' Bu paket 'karar senin' diye sordugu soruyu — Kutsal Roma'yi parcalayip parcalamayacagimizi — proje ONCEDEN, baska bir belgede zaten cevaplamis (parcalanmayacak). Sikayet kendi tarihinden sonra degil ONCEDEN cevaplanmis bir soru soruyordu."
+  },
+  {
+    "paket": "parti-emrelic-0011",
+    "no": "H-0002",
+    "hukum": "hala-acik",
+    "kanit": "node ile olculdu (23 Agu): Behramkale/Assos/Bogazici/Beykoz/Karabiga havuzda 0 sonuc. Onerilen 4 nokta yazilmamis."
+  },
+  {
+    "paket": "parti-emrelic-0021",
+    "no": "H-0001",
+    "hukum": "cozuldu",
+    "kanit": "NOKTA EPIR oturumu (commit 2931f04 · 66a6e69, oturumlar/NOKTA-EPIR-ILERLEME.md): Parga'nin petegi %71 kuculdu (olculdu), Epir kiyisina 8 nokta eklendi (Yanya, Arta, Avlonya, Vonitsa, Preveze, Kanina dahil — node ile 23 Agu'da 11 nokta sayildi). Venedik 1401-1797 kaydi bagimsiz bir metinle KISMEN teyitli (NOKTA-EPIR.md:95-98) — TDV'de 'parga' slug'i olu oldugu icin tam TDV teyidi mumkun degildi, ama alternatif kaynakla kismi dogrulama var. Asil sikayetin gorsel nedeni (asiri buyuk petek) giderildi."
+  },
+  {
+    "paket": "parti-emrelic-0021",
+    "no": "H-0002",
+    "hukum": "hala-acik",
+    "kanit": "Notta belirtilen iki kalan is (adalarin ayri olcumu, kiyi seridinin kaynakla teyidi) icin ilgili commit bulunamadi. Ada meselesi ayni ailesinden H-0029 da hala acik (asagida) — o da cozulmedi."
+  },
+  {
+    "paket": "parti-emrelic-0021",
+    "no": "H-0003",
+    "hukum": "cozuldu",
+    "kanit": "node ile olculdu (23 Agu): Egri kaydi macaristan(1281-1526)->avusturya(1526-1596)->OSMANLI d:(1596-1687)->avusturya(1687-1918)->macaristan; Kanije ayni desende macaristan->avusturya(1526-1600)->OSMANLI d:(1600-1690)->avusturya->macaristan. Ikisi de bosluksuz ve dogru sirali. MACARISTAN SERHAT ARASTIRMA oturumunun (oturumlar/MACARISTAN-SERHAT-ILERLEME.md, 'REÇETE 2 Egri ve Kanije') calismasi veriye ISLEMIS — sorulan 'hangi tarihten sonra Macaristan nasil bolusuldu' sorusu artik veride cevapli."
+  },
+  {
+    "paket": "parti-emrelic-0021",
+    "no": "H-0004",
+    "hukum": "hala-acik",
+    "kanit": "node ile olculdu (23 Agu): 'Nitra' havuzda hic yok. MACARISTAN SERHAT oturumunun ilerleme dosyasinda Nitra'ya ozel bir kaynak turu bulamadim (odak Egri/Kanije/Semendire/Debrecen'deydi)."
+  },
+  {
+    "paket": "parti-emrelic-0021",
+    "no": "H-0005",
+    "hukum": "hala-acik",
+    "kanit": "Notta belirtilen gorsel eslestirme ('iki bosluk kutu merkezinde degil') icin ilgili commit veya olcum bulunamadi."
+  },
+  {
+    "paket": "parti-emrelic-0021",
+    "no": "H-0007",
+    "hukum": "hala-acik",
+    "kanit": "node ile olculdu (23 Agu): data/yerlesimler.js Manama kaydinin s: dizisi hala YALNIZ [{f:1861-05-31,d:ingiltere}]. Onerilen care (Portekiz 1521-1602 / Safevi 1602-1717 / vb. donemlerin yazilmasi) uygulanmamis."
+  },
+  {
+    "paket": "parti-emrelic-0021",
+    "no": "H-0010",
+    "hukum": "hala-acik",
+    "kanit": "node ile olculdu (23 Agu, 1638-12-24 kesiti): Samerra/Kerkuk/Tikrit/Erbil hala 'safevi', Bagdat 'OSMANLI'. Orijinal olcumle BIREBIR ayni — degismemis."
+  },
+  {
+    "paket": "parti-emrelic-0021",
+    "no": "H-0012",
+    "hukum": "hala-acik",
+    "kanit": "Kendi hukmu zaten 'senin-kararin' (ACIK-KALEMLER.json) — bu bir hata degil, bekleyen bir kapsam karari. Bugun bu konuda yeni bir karar/commit bulamadim; Osmanli/Anadolu icin ayri koridor kaynagi hala bulunmus degil (18 Agustos olcumu tekrarlanmadi, zaman kisiti)."
+  },
+  {
+    "paket": "parti-emrelic-0021",
+    "no": "H-0015",
+    "hukum": "cozuldu",
+    "kanit": "commit 06b2751 dogrulandi (git show ile). js/app.js:938 boslukKur() 'kabile' kayitlarini yumusak kenarsiz benek olarak ciziyor — beyaz colden ayirt ediliyor, notta yazan gibi. Asil soru ('bu bilerek bos mu') zaten TEYIT EDILDI diye isaretliydi; kalan minik is (bos_alanlar.js kaydi) notta da 'olculmedi' diye ayrica belirtilmis, esas sikayeti etkilemiyor."
+  },
+  {
+    "paket": "parti-emrelic-0021",
+    "no": "H-0017",
+    "hukum": "hala-acik",
+    "kanit": "Notta belirtilen gorsel eslestirme icin ilgili commit veya olcum bulunamadi."
+  },
+  {
+    "paket": "parti-emrelic-0021",
+    "no": "H-0021",
+    "hukum": "hala-acik",
+    "kanit": "H-0007 ile AYNI kusur ('tek kusur iki yuzu' diye notta yazili). Manama kaydi hala eksik (bkz. H-0007 kaniti) — care uygulanmadigi icin bu da acik kaliyor."
+  },
+  {
+    "paket": "parti-emrelic-0021",
+    "no": "H-0024",
+    "hukum": "hala-acik",
+    "kanit": "Notta istenen 'siyasi yapi nasil, hanlik yapisi filan' sorusu icin dedike bir KAYNAK oturumu/commit bulunamadi. Kutu merkezindeki boyama zaten dogruydu (bu kisim sorun degildi, notta da oyle yaziyor)."
+  },
+  {
+    "paket": "parti-emrelic-0021",
+    "no": "H-0025",
+    "hukum": "cozuldu",
+    "kanit": "H-0003 ile 'tek oturum' diye notta belirtilmisti — MACARISTAN SERHAT ARASTIRMA oturumunun Egri/Kanije/bolge calismasi (bkz. H-0003 kaniti) ayni sorunun cevabini kapsiyor: Macaristan/Avusturya/Osmanli sinirlarinin donemsel gecisleri artik veride dogru."
+  },
+  {
+    "paket": "parti-emrelic-0021",
+    "no": "H-0027",
+    "hukum": "hala-acik",
+    "kanit": "node ile olculdu (23 Agu, 1590-03-21 kesiti): Tebriz hala OSMANLI, Culfa/Hoy/Merend hala safevi — 'ulasilamaz Tebriz' deseni BIREBIR ayni. FERHAD PASA HATTI oturumunun commitleri var (32b4bc3 vb.) ama bu spesifik kayitlari degistirmemis."
+  },
+  {
+    "paket": "parti-emrelic-0021",
+    "no": "H-0028",
+    "hukum": "hala-acik",
+    "kanit": "H-0027 ile ayni veri govdesi, degismedi (bkz. H-0027 kaniti). 21 adin dokumu (Osmanli 7 / safevi 15 / iran 4 / vb.) icin kaynak turu (TDV bagdat, IV. Murad, ferhad-pasa) yapildigina dair commit bulunamadi."
+  },
+  {
+    "paket": "parti-emrelic-0021",
+    "no": "H-0029",
+    "hukum": "hala-acik",
+    "kanit": "Benzer sinifin bir vakasi (Argolid) commit 5a90515 ile dogrulandi (git show ile teyit) — AMA notun kendisi Dalmacya adaciklari icin 'ayni yontem uygulanabilir, ÖLÇÜM YAPILMADI' diyor ve bunu degistiren bir commit bulamadim."
+  },
+  {
+    "paket": "parti-emrelic-0021",
+    "no": "H-0030",
+    "hukum": "hala-acik",
+    "kanit": "KISMEN cozuldu ama tam degil. Kod duzeltmesi dogrulandi: commit 4581d71 (r2598) var, js/app.js:2168-2173 savasIsaretleri artik window.ANTLASMALAR'i okuyor (grep ile teyit). AMA veri hala eksik: node ile olculdu (23 Agu) — window.ANTLASMALAR 41 kayittan 40'inda hala lat/lon YOK. Yani notta 'ucu de duzeltildi' denen sey kod tarafinda dogru, veri tarafinda YANLIS — coğu antlasma/sefer isareti hala haritada gorunmuyor."
+  },
+  {
+    "paket": "parti-emrelic-0022",
+    "no": "H-0001",
+    "hukum": "hala-acik",
+    "kanit": "Uc alt sorudan biri (Parga) NOKTA EPIR ile buyuk olcude ilerledi (bkz. 0021/H-0001 kaniti) ama oteki ikisi (Cehrin -> lehistan/rusya sinir kaynagi, Yazlovets/Bucas Antlasmasi TDV kamanice/podolya kaynak cikarimi) icin ilgili commit bulunamadi — ucu birden tek maddede oldugu icin butun madde acik kaliyor."
+  },
+  {
+    "paket": "parti-emrelic-0022",
+    "no": "H-0005",
+    "hukum": "hala-acik",
+    "kanit": "node ile olculdu (23 Agu): Kabartay ve Kuban kayitlari zaten makul donemlerle var (altinorda->kirim->rusya, 1441/1774/1783 tarihli) ama notta istenen ince taneli (Nogay/Kalmuk/Kirim el degistirme, gun hassasiyetinde) kronoloji icin dedike bir KAYNAK oturumu/commit bulunamadi."
+  }
+]
