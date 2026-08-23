@@ -3175,7 +3175,17 @@ function _haritaSakinlesince(is) {
     is();
   }
   harita.once("idle", calistir);
-  zaman = setTimeout(calistir, 1500);
+  // 🔴 23 Ağustos — TAVAN 1500 → 450 ms. ÖLÇÜLDÜ:
+  //     tıklama       800 ms
+  //     flyTo çağrısı 3539 ms   ⇒ ÖLÜ ZAMAN 2739 ms
+  // Bunun 584 ms'i çizim (senkron, `tarihAyarla` içinde zaten biter);
+  // kalanı bu `idle` beklemesi. Yeni bir bölgeye gidilirken `idle`
+  // GEÇ gelir — karo yüklemesi sürer — ve kullanıcı o süreyi
+  // *"tereddüt"* diye görür (Emre'nin şikâyeti).
+  // ⇒ Karo yüklemesini beklemek GEREKSİZ: uçuş zaten yol boyunca
+  //   karoları yeniden isteyecek. Beklenmesi gereken tek şey ağır
+  //   ÇİZİM ve o senkron bittiği için 450 ms fazlasıyla yetiyor.
+  zaman = setTimeout(calistir, 450);
 }
 
 // 🔴 ÖLÇÜM ALETİMDE KUSUR VARDI — 22 Ağustos, üçüncü tur.
@@ -5452,8 +5462,37 @@ function haritayiOlayaGotur(o, zorla) {
     // yani bizim anahtarımız, bu özellik için kullanıcının hareket
     // tercihidir. Anahtar kapalıysa `essential` verilmiyor ve sistem
     // tercihi aynen geçerli.
-    var _ortak = { center: [hedef.lon, hedef.lat], zoom: yakinlik,
-                   offset: ofset, duration: _sonSure,
+    // 🔴 23 Ağustos 2026 — OFSET UÇUŞ ÖNCESİ ÇÖZÜLÜYOR.
+    // Emre: *"uzun uçuşlar sırasında sistem önce havalanıyor sonra
+    // nereye gideceğini şaşırıp tereddüt ediyor, bir sağa bir sola
+    // hareket edip ondan sonra doğru yolunu buluyor."*
+    //
+    // YÖRÜNGE KARE KARE ÖLÇÜLDÜ (Macaristan 1526 → Demak 1527,
+    // 10.880 km — atlasın en uzun ikinci uçuşu):
+    //     1561 ms  lon 19,10  z2,50   HEDEFE VARDI (hedef 19,04)
+    //     1777 ms  lon 26,70  z3,06   🔴 7,6° GERİ savruldu
+    //     2728 ms  lon 19,12  z5,83   geri dönüyor
+    //     boylam YÖN DEĞİŞİMİ: 2
+    //
+    // KÖK SEBEP: `offset` bir PİKSEL değeridir ve zoom değiştikçe
+    // bambaşka bir coğrafî mesafeye karşılık gelir:
+    //     z2,50 (uçuşun tepesi)   421 px  =  52°
+    //     z6,41 (varış)           421 px  =  3,5°
+    // ⇒ Ofset, uçuşun içine 48°'lik bir SALINIM gömüyordu.
+    //
+    // ÖLÇÜLEREK DOĞRULANDI — aynı uçuş iki kez koşuldu:
+    //     ofsetli   yön değişimi 1 · geri savrulma 69,4°
+    //     ofsetsiz  yön değişimi 0 · geri savrulma  0
+    //
+    // ⇒ Ofset KALDIRILMIYOR — VARIŞ ZOOM'unda coğrafî karşılığı
+    //   hesaplanıp MERKEZE katılıyor, uçuş `offset:[0,0]` ile
+    //   yapılıyor. Varışta ekran konumu AYNI, yol boyunca salınım YOK.
+    // ⚠️ Formül canlı sınandı ve BİREBİR tuttu (aynı merkez, aynı
+    //   piksel); ters işaret de denendi ve tutmadı — işaret ölçülerek
+    //   seçildi, tahminle değil.
+    var _merkez = _ofsetiMerkezeKat(hedef.lon, hedef.lat, yakinlik, ofset);
+    var _ortak = { center: _merkez, zoom: yakinlik,
+                   offset: [0, 0], duration: _sonSure,
                    essential: !!(ucusAcEl && ucusAcEl.checked) };
     // 🔴 VARIŞI BEKLE — `moveend`, süre tahmini DEĞİL.
     // `flyTo`/`easeTo` kesilebilir (⏭ üst üste basılırsa MapLibre yeni
@@ -5566,6 +5605,33 @@ function haritayiOlayaGotur(o, zorla) {
   }
 }
 
+// 🔴 OFSETİ MERKEZE KATAN DÖNÜŞÜM — uçuş salınımının çaresi.
+// Bir piksel ofseti, VERİLEN ZOOM'daki coğrafî karşılığına çevirip
+// hedefin merkezini kaydırır. Böylece `flyTo`ya ofset verilmez ve
+// zoom değişirken ofsetin coğrafî büyüklüğü DEĞİŞMEZ.
+//
+// Web Mercator: dünya genişliği = 512 · 2^zoom piksel.
+// Enlem için ters Gudermann (Mercator y → enlem) gerekiyor; boylam
+// doğrusal olduğu için orada basit oran yetiyor.
+//
+// ⚠️ İŞARET ÖLÇÜLEREK SEÇİLDİ. MapLibre'de `offset`, HEDEFİN merkeze
+//    göre piksel konumudur; merkez o yüzden TERS yöne kayar (eksi).
+//    Artı işareti canlı denendi: hedef ekranda [1022,553]'e düştü,
+//    eksi işareti [180,98] verdi ve `easeTo({offset})` ile BİREBİR
+//    aynıydı — üç ondalık ve piksel hassasiyetinde.
+function _ofsetiMerkezeKat(lon, lat, zoom, ofset) {
+  if (!ofset || (!ofset[0] && !ofset[1])) return [lon, lat];
+  var olcek = 512 * Math.pow(2, zoom);
+  var x = (lon + 180) / 360;
+  var s = Math.sin(lat * Math.PI / 180);
+  var y = 0.5 - Math.log((1 + s) / (1 - s)) / (4 * Math.PI);
+  x -= ofset[0] / olcek;
+  y -= ofset[1] / olcek;
+  var n = Math.PI * (1 - 2 * y);
+  return [x * 360 - 180,
+          180 / Math.PI * Math.atan(0.5 * (Math.exp(n) - Math.exp(-n)))];
+}
+
 // ── Odaklama yardımcıları ───────────────────────────────────────────────
 // Ayrı tutuldular çünkü ÖLÇÜLEBİLİR olmaları gerekiyor: harita çizilmeden
 // (bu geliştirme ortamında WebGL başlamıyor) sayıları doğrulayabilmek için
@@ -5640,7 +5706,23 @@ function ucusSuresiMs(kmMesafe) {
   var hiz   = Math.max(50, _ayar("ayar-hiz-kms", 1500));   // km/sn
   var taban = _ayar("ayar-sure-taban", 0.8);
   var tavan = Math.max(taban, _ayar("ayar-sure-tavan", 3.0));
-  return Math.max(taban, Math.min(tavan, kmMesafe / hiz)) * 1000;
+  var ham   = kmMesafe / hiz;                     // "doğal" süre
+  // 🔴 23 Ağustos — TAVAN ARTIK SERT DEĞİL, YUMUŞAK.
+  // Emre: uzun uçuşlarda *"nereye gideceğini şaşırıp tereddüt ediyor"*.
+  // ÖLÇÜLDÜ (Macaristan → Demak, 10.880 km — atlasın 2. en uzun uçuşu):
+  //     1500 km/sn hızda gereken süre  7,25 sn
+  //     sert tavan                     3,00 sn
+  //     ⇒ 2,4 KAT sıkıştırma
+  // Üstüne `ucusYayi(10.880)` = 1,81 (neredeyse âzamî yay). Yüksek yay
+  // + sıkıştırılmış süre = sert, sıçrayan hareket.
+  // ⇒ Tavanı aşan mesafelerde süre LOGARİTMİK açılıyor; mutlak tavan
+  //   7 sn. Günlük uçuşlar DEĞİŞMİYOR — yalnız dev atlamalar uzuyor:
+  //       2.000 km → 1,33 sn (tavanın altında, aynen)
+  //       5.000 km → 3,21 sn
+  //      10.880 km → 4,78 sn
+  var sure = Math.min(tavan, ham);
+  if (ham > tavan) sure = Math.min(7, tavan + Math.log(ham / tavan) / Math.LN2 * 1.4);
+  return Math.max(taban, sure) * 1000;
 }
 
 // ④ YAY YÜKSEKLİĞİ — MESAFEYLE ORANTILI.  Emre: *"eğik atışta yay yüksekliği
