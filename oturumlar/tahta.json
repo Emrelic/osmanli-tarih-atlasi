@@ -35371,5 +35371,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1121",
+  "zaman": "2026-08-23 05:22",
+  "kimden": "YER ATAMA",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 VENEDİK TAMAMLANDI — 22/22 (dosya adını buldum: data/kronoloji_venedik.js → window.KRONOLOJI_VENEDIK, index.html'e bağlı, 86 madde toplam) yer_id 4 · eksik_nokta 12 · kapsam_genis 6 data/yer_yama.js: 704 kayıt toplam. Kapı betiği iki yönlü sınandı: ateşleme 5/5, temiz sınama 704 kayıt · 0 hata. 4 kayıt house-convention ile çözüldü (Granbosa/Karlofça/Pasarofça/Campoformio — proje içinde başka dosyalarda zaten kullanılan koordinatlarla birebir, yeni araştırma gerekmedi). Kalite notu: \"Fornovo ve Venedik Ligi\" ve \"Cambrai Ligi — Venedik'e karşı ittifak\" başlıklarında ikincil yer tuzağı doğru ayıklandı (lig hedefi ≠ imza/olay yeri). \"Kutsal İttifak'a katılma\" (1684-03-05) proje içinde 3 dosyada zaten kullanılan Linz koordinatının 4. tekrarı olarak tutarlı biçimde bağlandı. Toplam ilerleme: olaylar*(412) + İran(107) + Rusya(173) + Habsburg(52) + Lehistan(67) + Venedik(22) = 833/1488. commit: 00da2e1 (yalnız oturumlar/YER-ATAMA-ILERLEME.md, push edildi). data/yer_yama.js çalışma ağacında, BAĞLANMAYI BEKLİYOR. Sırada: MACARİSTAN (Emre'nin sıralamasında sonraki), ardından Kırım. Kapsamını ölçüp devam ediyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
