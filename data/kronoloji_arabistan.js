@@ -342,7 +342,7 @@ window.KRONOLOJI_ARABISTAN = [
   onem:2, dunya:2, kapsam:"dis", etiket:["ittifak","osmanli"],
   yer_id:"",
   d:"İran'da Zend hanedanının hükümdarı Kerim Han'ın Basra'yı kuşatması sırasında Uman, kuşatma altındaki Osmanlı garnizonuna destek sağladı — imametin Basra körfezi siyasetinde Osmanlı'nın tarafında yer aldığı nadir doğrudan ittifak anlarından biri.",
-  kaynak:"TDV `uman`: '1775-1776: Kerim Khan Zend Basra'yı kuşattı; Uman, Osmanlı Basra'sına yardım etti.'" },
+  kaynak:"TDV `uman`: '1775-1776: Kerim Khan Zend Basra'yı kuşattı; Uman, Osmanlı Basra'sına yardım etti.'", yer_id:"Basra" },
 
 { t:"1798-01-18", b:"İngiltere ile 'kavilnâme' — Maskat'ta İngiliz temsilciliği açıldı", tur:"antlasma",
   onem:4, dunya:2, kapsam:"dis", etiket:["antlasma","diplomasi"],
@@ -384,7 +384,7 @@ window.KRONOLOJI_ARABISTAN = [
   onem:3, dunya:2, kapsam:"dis", etiket:["toprak-kazanc","savas"],
   yer_id:"",
   d:"Yıllar süren çatışmanın ardından Saîd b. Sultân, Doğu Afrika kıyısındaki önemli liman kenti Mombasa'yı rakip Mazruî hanedanından aldı — Uman'ın Afrika kıyısındaki hâkimiyetinin doruk noktalarından biri.",
-  kaynak:"TDV `said-b-sultan`: '1837 - Mazruî hanedanını yenerek Mombasa'yı fethetti.'" },
+  kaynak:"TDV `said-b-sultan`: '1837 - Mazruî hanedanını yenerek Mombasa'yı fethetti.'", yer_id:"Mombasa" },
 
 { t:"1840-01-01", b:"Zengibar resmen başkent ilan edildi", tur:"hukumdar",
   onem:4, dunya:2, kapsam:"dis", etiket:["idari","siyasi"],
@@ -396,7 +396,7 @@ window.KRONOLOJI_ARABISTAN = [
   onem:2, dunya:1, kapsam:"dis", etiket:["diplomasi"],
   yer_id:"",
   d:"Saîd b. Sultân, Osmanlı'nın Cidde valisi Hasib Paşa'yı ziyaret ederek Kızıldeniz'in iki yakasındaki güç merkezleri arasında nadir bir doğrudan temas daha kurdu.",
-  kaynak:"TDV `uman`: '1850: Saîd b. Sultân, Osmanlı Cidde valisi Hasib Paşa'yı ziyaret etti.'" },
+  kaynak:"TDV `uman`: '1850: Saîd b. Sultân, Osmanlı Cidde valisi Hasib Paşa'yı ziyaret etti.'", yer_id:"Cidde" },
 
 { t:"1856-01-01", b:"Saîd b. Sultân'ın ölümü — ülke Maskat ve Zengibar arasında bölündü", tur:"bolunme",
   onem:5, dunya:3, kapsam:"dis", etiket:["bolunme","olum"],
@@ -434,7 +434,7 @@ window.KRONOLOJI_ARABISTAN = [
   onem:2, dunya:1, kapsam:"dis", etiket:["idari"],
   yer_id:"",
   d:"Lahsa'nın idari statüsü beylerbeyiliğe yükseltildi ve yerel Âl-i Hamîd kabilesi yönetimde söz sahibi oldu — Osmanlı'nın bölgeyi doğrudan değil yerel aracılar üzerinden yönetme eğiliminin bir örneği; bu eğilim on yedi yıl sonra Benî Hâlid'in bağımsızlığını ilan etmesini kolaylaştıracaktı.",
-  kaynak:"TDV `lahsa`: '1553 sonrası: Lahsâ beylerbeyiliğe yükseltildi; Âl-i Hamîd kabilesi yönetimde.'" },
+  kaynak:"TDV `lahsa`: '1553 sonrası: Lahsâ beylerbeyiliğe yükseltildi; Âl-i Hamîd kabilesi yönetimde.'", yer_id:"Lahsa" },
 
 { t:"1670-01-01", b:"Berrâk b. Guraybir, Hufuf'u alarak Benî Hâlid emirliğini kurdu", tur:"kurulus",
   onem:5, dunya:2, kapsam:"ic", etiket:["kurulus","toprak-kazanc"],
@@ -464,7 +464,7 @@ window.KRONOLOJI_ARABISTAN = [
   onem:5, dunya:2, kapsam:"dis", etiket:["toprak-kayip","savas"],
   yer_id:"",
   d:"Yükselen I. Suûdî Devleti'nin hükümdarı Abdülazîz b. Muhammed b. Suûd, Lahsa'yı ele geçirerek Benî Hâlid emirliğini ilk kez ortadan kaldırdı. TDV'nin `lahsa` maddesi bu olayı bir yıl farkla '1796' olarak veriyor (devletler.js '1795' diyor); bu ayrılık ÇÖZÜLMEDİ, iki tarih de not düşüldü.",
-  kaynak:"devletler.js `benihalid` künyesi: '1795: Abdülazîz b. Suûd, Lahsa'yı ele geçirip emirliği ilk kez tasfiye etti.' · TDV `lahsa`: '1796: Emîr Suûd tarafından bölge doğrudan Dir'iye'ye bağlandı.'" },
+  kaynak:"devletler.js `benihalid` künyesi: '1795: Abdülazîz b. Suûd, Lahsa'yı ele geçirip emirliği ilk kez tasfiye etti.' · TDV `lahsa`: '1796: Emîr Suûd tarafından bölge doğrudan Dir'iye'ye bağlandı.'", yer_id:"Lahsa" },
 
 { t:"1818-01-01", b:"İbrâhim Paşa'nın Vehhâbî seferinin ardından emirlik geçici olarak yeniden kuruldu", tur:"toprak-kazanc",
   onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kazanc","savas"],

@@ -92,7 +92,7 @@ window.KRONOLOJI_FRANSA = [
 { t:"1303-09-07", b:"Anagni Baskını — Papa VIII. Bonifacius'un tutuklanması", tur:"kriz", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["din","siyaset","kriz"],
   d:"Philippe le Bel'in adamı Guillaume de Nogaret, papalık vergilendirme yetkisini kraliyete bağlamak isteyen Bonifacius'u İtalya'da bastırıp kısa süre tutsak etti; Papa bir ay sonra öldü. Olay, kilise ile krallık arasındaki üstünlük dengesinin krallık lehine döndüğü dönüm noktası sayılır.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_kon:[41.746,13.152] },
 
 { t:"1309-01-01", b:"Papalığın Avignon'a taşınması", tur:"din", onem:3, dunya:3, kapsam:"dis", yer_id:"Avignon",
   etiket:["din","siyaset"],
@@ -112,17 +112,17 @@ window.KRONOLOJI_FRANSA = [
 { t:"1337-05-24", b:"Yüzyıl Savaşları'nın başlaması", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","savas","hanedan"],
   d:"III. Edward'ın Fransa tahtı üzerindeki iddiasını resmen ileri sürmesiyle, aralıklarla 116 yıl sürecek olan Fransa-İngiltere çatışması başladı. Savaş yalnız bir hanedan anlaşmazlığı değil, iki krallığın millet kimliğinin şekillendiği uzun bir süreç olacaktı.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", kapsam_genis:true },
 
 { t:"1340-06-24", b:"Sluys Deniz Savaşı — Fransız donanmasının imhası", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri"],
   d:"İngiliz filosu, Flanders açıklarında Fransız-Cenevizli donanmasını neredeyse tamamen yok etti ve Manş Denizi'nin denetimini yıllarca elinde tuttu. Yenilgi, savaşın ilk on yılında Fransa'nın stratejik inisiyatifi kaybettiğinin en açık göstergesiydi.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_kon:[51.308,3.383] },
 
 { t:"1346-08-26", b:"Crécy Savaşı — Fransız şövalye ordusunun bozgunu", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","savas"],
   d:"İngiliz uzun yaylı okçularının Fransız ağır süvarisini ezdiği Crécy, Ortaçağ Avrupası'nda şövalye savaş düzeninin sonunun habercisiydi. VI. Philippe'in ordusu ağır kayıp verdi; savaş, İngilizlerin Calais'yi kuşatmasının önünü açtı.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_kon:[50.258,1.886] },
 
 { t:"1347-08-03", b:"Calais'nin İngilizlere düşmesi", tur:"toprak-kayip", onem:4, dunya:2, kapsam:"dis", yer_id:"Calais",
   etiket:["askeri","toprak-kaybi"],
@@ -142,12 +142,12 @@ window.KRONOLOJI_FRANSA = [
 { t:"1358-05-28", b:"Jacquerie köylü ayaklanması", tur:"isyan", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["isyan","sosyal"],
   d:"Kralın esaretinden ve savaşın yıkımından bunalan Kuzey Fransa köylüleri, kısa ama son derece kanlı bir ayaklanma başlattı; hareket birkaç hafta içinde soylular tarafından acımasızca bastırıldı. 'Jacquerie' terimi sonraki yüzyıllarda her köylü isyanı için kullanılan genel ad oldu.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", kapsam_genis:true },
 
 { t:"1360-05-08", b:"Brétigny Antlaşması", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kaybi"],
   d:"Fransa, Aquitaine'in tam egemenliğini İngiltere'ye bırakmayı ve Kral II. Jean için ağır bir fidye ödemeyi kabul etti; buna karşılık Edward Fransa tacı üzerindeki iddiasından vazgeçti. Antlaşma savaşı yalnız geçici olarak durdurdu; on yıl içinde çatışmalar yeniden başladı.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_kon:[48.47,1.47] },
 
 { t:"1364-04-08", b:"V. Charles'ın tahta çıkışı", tur:"hukumdar", onem:4, dunya:1, kapsam:"ic", yer_id:"Reims",
   etiket:["hukumdar","idari"],
@@ -167,12 +167,12 @@ window.KRONOLOJI_FRANSA = [
 { t:"1415-10-25", b:"Azincourt Savaşı", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","savas"],
   d:"V. Henry'nin sayıca çok daha küçük İngiliz ordusu, çamura saplanan Fransız şövalye kuvvetini neredeyse tamamen imha etti; Fransız soylularının büyük bölümü öldü ya da esir düştü. Bozgun, savaşın en karanlık on yılını başlattı ve beş yıl sonra Troyes Antlaşması'na giden yolu açtı.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_kon:[50.467,2.133] },
 
 { t:"1420-05-21", b:"Troyes Antlaşması — İngiliz veraset iddiasının tescili", tur:"antlasma", onem:5, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["antlasma","hanedan","toprak-kaybi"],
   d:"VI. Charles, kızı Catherine'i V. Henry ile evlendirerek İngiliz kralını kendi vârisi ve naibi ilan etti; öz oğlu Dauphin Charles veraset dışı bırakıldı. Antlaşma iki tacı fiilen birleştirdi ve Fransa'nın bağımsız varlığını en kırılgan anına taşıdı.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_id:"Troyes" },
 
 { t:"1429-05-08", b:"Jeanne d'Arc'ın Orléans kuşatmasını kaldırması", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"Orléans",
   etiket:["askeri","savas","din"],
@@ -187,17 +187,17 @@ window.KRONOLOJI_FRANSA = [
 { t:"1435-09-21", b:"Arras Antlaşması — Burgonya'nın Fransa'ya dönüşü", tur:"antlasma", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["antlasma","diplomasi"],
   d:"Burgonya Dükü İyi Philippe, VII. Charles ile barış yaparak İngiliz ittifakını terk etti; Armagnac-Burgonya bölünmesi böylece kapandı. Fransız cephesinin birleşmesi, savaşın son on sekiz yılında İngilizlerin geri püskürtülmesini mümkün kıldı.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_id:"Arras" },
 
 { t:"1445-01-01", b:"Compagnies d'ordonnance — daimî kraliyet ordusunun kurulması", tur:"reform", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["askeri","idari","reform"],
   d:"VII. Charles, savaş sonrası başıboş kalan paralı asker birliklerini disipline etmek için Avrupa'nın ilk daimî, maaşlı kraliyet ordusunu kurdu. Reform, kraliyetin vergilendirme ve askerî tekelini feodal beylerin elinden alan uzun sürecin başlangıcı sayılır.",
-  kaynak:"standart ders kitabı bilgisi — gün bilinmiyor, YYYY-01-01" },
+  kaynak:"standart ders kitabı bilgisi — gün bilinmiyor, YYYY-01-01", kapsam_genis:true },
 
 { t:"1453-07-17", b:"Castillon Savaşı — Yüzyıl Savaşları'nın fiilen sona ermesi", tur:"toprak-kazanc", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","savas","toprak-kazanc"],
   d:"Fransız topçusunun ağır bastığı Castillon'da İngiliz kuvvetleri son büyük yenilgisini aldı; savaş sonunda İngiltere kıta Avrupası'nda yalnız Calais'yi elinde tuttu. Barış hiç imzalanmadı ama silahlı çatışma burada fiilen bitti; Fransa, Avrupa'nın en kalabalık ve merkezî krallığı olarak savaştan çıktı.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_kon:[44.85,-0.033] },
 
 { t:"1461-07-22", b:"XI. Louis'nin tahta çıkışı", tur:"hukumdar", onem:4, dunya:1, kapsam:"ic", yer_id:"Reims",
   etiket:["hukumdar","idari"],
@@ -227,7 +227,7 @@ window.KRONOLOJI_FRANSA = [
 { t:"1494-09-02", b:"İtalyan Savaşları'nın başlaması — VIII. Charles'ın Napoli seferi", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","savas"],
   d:"Napoli tahtı üzerindeki hanedan iddiasıyla İtalya'yı istila eden VIII. Charles, altmış yıl sürecek ve bütün büyük Avrupa güçlerini İtalya'da karşı karşıya getirecek savaşlar dizisini başlattı. Sefer aynı zamanda Fransız soylularını İtalyan Rönesansı'nın sanat ve mimarisiyle doğrudan temasa geçirdi.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", kapsam_genis:true },
 
 { t:"1515-01-01", b:"I. François'nın tahta çıkışı", tur:"hukumdar", onem:5, dunya:2, kapsam:"ic", yer_id:"Paris",
   etiket:["hukumdar","kultur"],
@@ -237,12 +237,12 @@ window.KRONOLOJI_FRANSA = [
 { t:"1515-09-14", b:"Marignano Savaşı", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","savas"],
   d:"I. François'nın kişisen komuta ettiği Fransız ordusu, İsviçre paralı askerlerini iki günlük çarpışmada bozguna uğratıp Milano'yu ele geçirdi. Zafer, genç kralın askerî prestijini pekiştirdi ve 1516 Fribourg 'Ebedî Barışı' ile İsviçre'yi Fransız müttefikine dönüştürdü.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_kon:[45.356,9.328] },
 
 { t:"1516-08-18", b:"Bologna Konkordatosu", tur:"reform", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["din","idari","reform"],
   d:"Papa X. Leo ile imzalanan anlaşma, Fransız kralına ülke içindeki üst düzey kilise atamalarını (piskopos, başrahip) belirleme hakkı verdi; karşılığında papalık vergi gelirlerinin bir kısmını korudu. Fransız kilisesinin krallığa bağımlılığı ('Gallikanizm') bu anlaşmayla kurumsallaştı.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_kon:[44.495,11.343] },
 
 { t:"1519-06-28", b:"I. François'nın Kutsal Roma-Germen İmparatorluğu seçiminde Charles'a yenilmesi", tur:"kriz", onem:4, dunya:3, kapsam:"dis", yer_id:"Frankfurt",
   etiket:["diplomasi","siyaset"],
@@ -252,7 +252,7 @@ window.KRONOLOJI_FRANSA = [
 { t:"1525-02-24", b:"Pavia Savaşı — I. François'nın esir düşmesi", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","savas","hanedan"],
   d:"İspanyol-imparatorluk kuvvetleri Fransız ordusunu Pavia'da ağır yenilgiye uğrattı ve bizzat I. François'yı esir aldı; kral 'her şeyimi kaybettim, onurum ve canım dışında' diye yazdı. Esaret, on ay sonra Madrid Antlaşması'nı ve dolayısıyla Fransa'nın Osmanlı'ya elçi göndererek ittifak aramasını doğrudan tetikledi.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_kon:[45.185,9.158] },
 
 { t:"1525-12-06", b:"Kanûnî Sultan Süleyman'ın Fransız elçisi Frangipani'yi kabulü", tur:"diplomasi", onem:4, dunya:3, kapsam:"dis", yer_id:"İstanbul",
   etiket:["diplomasi","ittifak"],
@@ -282,7 +282,7 @@ window.KRONOLOJI_FRANSA = [
 { t:"1539-08-10", b:"Villers-Cotterêts Fermanı — Fransızcanın resmî idare dili olması", tur:"reform", onem:4, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["idari","reform","kultur"],
   d:"Ferman, bütün resmî ve hukukî belgelerin Latince yerine Fransızca yazılmasını zorunlu kıldı ve doğum-ölüm kayıtlarının tutulmasını devlete bağladı. Fransızcanın idare dili olarak kurumsallaşması, ülkenin dilsel-idari birliğinin en erken ve kalıcı adımlarından biridir.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_kon:[49.25,3.086] },
 
 { t:"1543-01-01", b:"Toulon'un Osmanlı donanmasına üs olarak açılması", tur:"ittifak", onem:4, dunya:3, kapsam:"dis", yer_id:"Toulon",
   etiket:["ittifak","askeri"],
@@ -307,7 +307,7 @@ window.KRONOLOJI_FRANSA = [
 { t:"1559-04-03", b:"Cateau-Cambrésis Antlaşması — İtalyan Savaşları'nın sona ermesi", tur:"antlasma", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kaybi"],
   d:"Altmış beş yıllık İtalyan Savaşları'nı bitiren antlaşmayla Fransa İtalya'daki iddialarının çoğundan vazgeçti ama Calais'yi İngiltere'den geri aldı. Barış, iki büyük Katolik gücü artık kendi ülkelerindeki Protestan hareketiyle yüzleşmeye serbest bıraktı.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_kon:[50.097,3.539] },
 
 { t:"1559-07-10", b:"II. Henri'nin turnuva kazasında ölümü", tur:"olum", onem:4, dunya:1, kapsam:"ic", yer_id:"Paris",
   etiket:["hanedan","kriz"],
@@ -317,7 +317,7 @@ window.KRONOLOJI_FRANSA = [
 { t:"1562-03-01", b:"Wassy Katliamı — Din Savaşları'nın başlaması", tur:"din", onem:5, dunya:4, kapsam:"ic", yer_id:"",
   etiket:["din","kriz","isyan"],
   d:"Guise Dükü'nün adamlarının bir Protestan (Huguenot) ayin toplantısını basıp onlarca kişiyi öldürmesi, otuz altı yıl aralıklarla sürecek Din Savaşları'nın fiilî başlangıcı oldu. Sekiz ayrı savaş dalgasıyla Fransa, yüzyılın geri kalanında dinî bölünmeyle iç içe geçmiş bir iç savaş sarmalına girdi.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_kon:[48.5,4.683] },
 
 { t:"1572-08-24", b:"Aziz Bartelmi Katliamı", tur:"din", onem:4, dunya:4, kapsam:"ic", yer_id:"Paris",
   etiket:["din","kriz","isyan"],
@@ -342,7 +342,7 @@ window.KRONOLOJI_FRANSA = [
 { t:"1608-07-03", b:"Samuel de Champlain'in Québec'i kurması", tur:"kesif", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["kesif","toprak-kazanc"],
   d:"Champlain'in Saint Lawrence Nehri kıyısında kurduğu yerleşim, Yeni Fransa sömürgesinin ve sonraki Kanada Fransız varlığının çekirdeği oldu. Bu tarihten itibaren Fransa, Kuzey Amerika'da İngiltere ile yüzyıl sürecek bir sömürge rekabetine girdi.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_id:"Quebec" },
 
 { t:"1610-05-14", b:"IV. Henri'nin suikastı", tur:"olum", onem:5, dunya:2, kapsam:"ic", yer_id:"Paris",
   etiket:["hanedan","kriz"],
@@ -362,12 +362,12 @@ window.KRONOLOJI_FRANSA = [
 { t:"1635-05-19", b:"Fransa'nın Otuz Yıl Savaşları'na resmen girmesi", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","savas"],
   d:"Katolik Fransa, mezhep çıkarını değil devlet çıkarını önceleyerek Protestan İsveç'in yanında Katolik Habsburglara savaş açtı; Richelieu'nün bu tercihi 'raison d'état' (devlet aklı) siyasetinin en çarpıcı örneğidir. On üç yıl sürecek savaş Fransa'yı mali olarak tükenme noktasına getirecek ama sonunda kıtanın en güçlü devleti olarak çıkaracaktı.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_id:"Paris" },
 
 { t:"1637-06-08", b:"Descartes'ın 'Yöntem Üzerine Söylev'inin yayımlanması", tur:"bilim", onem:4, dunya:3, kapsam:"ic", yer_id:"",
   etiket:["bilim","kultur"],
   d:"Descartes'ın (Fransa dışında, Hollanda'da basılan ama bir Fransız düşünürün eseri olan) yapıtı, 'düşünüyorum öyleyse varım' önermesiyle modern felsefenin ve rasyonalist bilimsel yöntemin temel metni sayılır. Eser, Fransız Aydınlanma düşüncesinin uzak ama doğrudan öncüsüdür.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_kon:[52.16,4.497] },
 
 { t:"1642-12-04", b:"Richelieu'nün ölümü", tur:"olum", onem:4, dunya:1, kapsam:"ic", yer_id:"Paris",
   etiket:["idari","siyaset"],
@@ -377,7 +377,7 @@ window.KRONOLOJI_FRANSA = [
 { t:"1643-05-19", b:"Rocroi Savaşı — İspanyol piyade üstünlüğünün kırılması", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","savas"],
   d:"Yirmi bir yaşındaki Enghien Dükü (sonraki Büyük Condé) komutasındaki Fransız ordusu, bir buçuk asırdır yenilmez sayılan İspanyol tercio piyadesini ezici bir zaferle imha etti. Zafer, XIV. Louis'nin (o hafta tahta çıkan beş yaşındaki çocuk kralın) saltanatının askerî açıdan muhteşem bir başlangıcı oldu.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_kon:[49.933,4.517] },
 
 { t:"1648-01-30", b:"Fronde isyanının başlaması", tur:"isyan", onem:4, dunya:2, kapsam:"ic", yer_id:"Paris",
   etiket:["isyan","kriz"],
@@ -387,12 +387,12 @@ window.KRONOLOJI_FRANSA = [
 { t:"1648-10-24", b:"Vestfalya Barışı'nın imzalanması", tur:"antlasma", onem:5, dunya:5, kapsam:"dis", yer_id:"",
   etiket:["antlasma","diplomasi","toprak-kazanc"],
   d:"Otuz Yıl Savaşları'nı bitiren antlaşmalar dizisinde Fransa, Alsace'ın büyük bölümünü kazandı ve Kutsal Roma-Germen İmparatorluğu'nun parçalanmışlığını garanti ederek kıtanın en güçlü devleti konumuna yerleşti. Vestfalya, modern devletler sisteminin egemenlik ilkesini kuran antlaşma olarak kabul edilir.",
-  kaynak:"standart ders kitabı bilgisi · 🔴 dunya:5 — habsburg dosyasıyla BİREBİR AYNI (M-0873 hizalaması)" },
+  kaynak:"standart ders kitabı bilgisi · 🔴 dunya:5 — habsburg dosyasıyla BİREBİR AYNI (M-0873 hizalaması)", yer_id:"Münster" },
 
 { t:"1659-11-07", b:"Pireneler Antlaşması", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kazanc","evlilik"],
   d:"Fransa-İspanya savaşını bitiren antlaşmayla Fransa Roussillon ve Artois'nın bir kısmını kazandı; anlaşmanın parçası olarak XIV. Louis, İspanyol İnfantası Maria Theresa ile evlendi. Bu evlilik, kırk yıl sonra İspanya Veraset Savaşı'nın hukukî zeminini de hazırlayacaktı.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_kon:[43.347,-1.79] },
 
 { t:"1661-03-09", b:"Mazarin'in ölümü ve XIV. Louis'nin şahsi saltanatının başlaması", tur:"hukumdar", onem:5, dunya:3, kapsam:"ic", yer_id:"Paris",
   etiket:["hukumdar","idari"],
@@ -402,7 +402,7 @@ window.KRONOLOJI_FRANSA = [
 { t:"1661-09-05", b:"Maliye Nazırı Fouquet'nin tutuklanması", tur:"siyaset", onem:3, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["siyaset","idari"],
   d:"Aşırı zenginliği ve saraya rakip görkemiyle kralın güvenini yitiren Maliye Nazırı Nicolas Fouquet tutuklandı; yerine geçen Colbert, devlet maliyesini merkezîleştiren reformlara girişti. Olay, XIV. Louis'nin hiçbir gücün kendisiyle yarışmasına izin vermeyeceğinin açık göstergesiydi.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_id:"Nantes" },
 
 { t:"1666-12-22", b:"Bilimler Akademisi'nin kurulması", tur:"bilim", onem:4, dunya:2, kapsam:"ic", yer_id:"Paris",
   etiket:["bilim"],
@@ -412,12 +412,12 @@ window.KRONOLOJI_FRANSA = [
 { t:"1667-05-24", b:"Devrolma Savaşı'nın başlaması", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kazanc"],
   d:"XIV. Louis, eşi Maria Theresa'nın İspanyol Hollandası üzerindeki miras hakkını gerekçe göstererek bölgeyi işgal etti; savaş 1668 Aachen Antlaşması'yla sınırlı toprak kazanımıyla sona erdi. Sefer, kralın sonraki elli yıl boyunca sürdüreceği yayılmacı dış siyasetin ilk denemesiydi.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", kapsam_genis:true },
 
 { t:"1682-05-06", b:"Sarayın Versay'a taşınması", tur:"idari", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["idari","mimari","kultur"],
   d:"XIV. Louis, hükümeti ve soylu sınıfını resmen Versay Sarayı'na taşıdı; soyluların günlük yaşamını saray törenlerine ('etiquette') bağlayarak onları siyasî güçten fiilen uzaklaştırdı. Versay, Avrupa'daki bütün hükümdarların örnek aldığı mutlakiyetçi saray mimarisinin ve seremoninin modeli hâline geldi.",
-  kaynak:"standart ders kitabı bilgisi — kesin gün için akademik kaynaklar Mayıs 1682'yi verir, tam gün doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — kesin gün için akademik kaynaklar Mayıs 1682'yi verir, tam gün doğrulanmadı", yer_kon:[48.805,2.12] },
 
 { t:"1683-09-06", b:"Colbert'in ölümü", tur:"olum", onem:4, dunya:1, kapsam:"ic", yer_id:"Paris",
   etiket:["idari","iktisat"],
@@ -427,12 +427,12 @@ window.KRONOLOJI_FRANSA = [
 { t:"1685-10-18", b:"Nantes Fermanı'nın İlgası (Fontainebleau Fermanı)", tur:"din", onem:5, dunya:4, kapsam:"ic", yer_id:"",
   etiket:["din","kanun","sosyal"],
   d:"XIV. Louis, seksen yedi yıllık dinî tahammül düzenlemesini yürürlükten kaldırarak Protestanlığı fiilen yasakladı; yaklaşık iki yüz bin Huguenot, servetlerini ve becerilerini beraberinde götürerek Hollanda, İngiltere ve Prusya'ya göç etti. Karar, Fransa'nın zanaat ve ticaret gücüne uzun vadeli, telafisi güç bir zarar verdi.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_kon:[48.408,2.701] },
 
 { t:"1701-09-07", b:"İspanya Veraset Savaşı'nın başlaması", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","savas","hanedan"],
   d:"XIV. Louis'nin torunu Felipe'nin İspanya tahtına geçmesi, Avrupa'nın büyük çoğunluğunu Fransa-İspanya birleşmesini önlemek için Büyük İttifak'ta bir araya getirdi. On üç yıl sürecek savaş, Fransa'yı Blenheim ve Ramillies gibi ağır yenilgilerle mali ve askerî olarak tüketecekti.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", kapsam_genis:true },
 
 { t:"1713-04-11", b:"Utrecht Antlaşması", tur:"antlasma", onem:4, dunya:4, kapsam:"dis", yer_id:"Utrecht",
   etiket:["antlasma","diplomasi"],
@@ -467,12 +467,12 @@ window.KRONOLOJI_FRANSA = [
 { t:"1756-01-01", b:"Diplomatik Devrim ve Yedi Yıl Savaşları'na giriş", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","diplomasi","toprak-kaybi"],
   d:"Fransa, asırlık düşmanı Habsburg Avusturya ile ittifak kurarak Prusya-İngiltere bloğuna karşı savaşa girdi; savaş Avrupa'da olduğu kadar Kuzey Amerika ve Hindistan'da da sürdü. Yedi yıl sonra imzalanacak Paris Antlaşması, Fransa'yı Kuzey Amerika sömürge imparatorluğunun neredeyse tamamından mahrum bırakacaktı.",
-  kaynak:"standart ders kitabı bilgisi — gün bilinmiyor, YYYY-01-01" },
+  kaynak:"standart ders kitabı bilgisi — gün bilinmiyor, YYYY-01-01", kapsam_genis:true },
 
 { t:"1763-02-10", b:"Paris Antlaşması — Yeni Fransa'nın kaybı", tur:"toprak-kayip", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kaybi"],
   d:"Yedi Yıl Savaşları'nı bitiren antlaşmayla Fransa, Kanada'yı ve Mississippi'nin doğusundaki bütün topraklarını İngiltere'ye devretti; Fransız sömürge imparatorluğu Karayipler ve birkaç Hindistan mevkiine küçüldü. Yenilgi, mali ve askerî reform ihtiyacını görünür kılarak on beş yıl sonra Amerikan Bağımsızlık Savaşı'na müdahaleyi motive edecekti.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_id:"Paris" },
 
 { t:"1774-05-10", b:"XVI. Louis'nin tahta çıkışı", tur:"hukumdar", onem:4, dunya:2, kapsam:"ic", yer_id:"Paris",
   etiket:["hukumdar"],
@@ -482,7 +482,7 @@ window.KRONOLOJI_FRANSA = [
 { t:"1778-02-06", b:"Fransa'nın Amerikan bağımsızlık savaşçılarıyla ittifakı", tur:"ittifak", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["ittifak","diplomasi","askeri"],
   d:"Fransa, İngiltere'ye karşı on üç koloniyle resmî ittifak imzalayarak Amerikan Bağımsızlık Savaşı'na askerî ve mali destek verdi; bu müdahale 1763 yenilgisinin rövanşı olarak görüldü. Ancak savaşın maliyeti, zaten kırılgan olan devlet hazinesini iflasın eşiğine getirdi.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_id:"Paris" },
 
 { t:"1783-09-03", b:"Paris Antlaşması — Amerikan bağımsızlığının tanınması", tur:"antlasma", onem:3, dunya:5, kapsam:"dis", yer_id:"Paris",
   etiket:["antlasma","diplomasi"],
@@ -527,12 +527,12 @@ window.KRONOLOJI_FRANSA = [
 { t:"1790-07-12", b:"Ruhban Sınıfının Medenî Anayasası", tur:"din", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["din","kanun","reform"],
   d:"Meclis, Katolik ruhbanını devlet memuru statüsüne alıp papalık yerine devlete bağlılık yemini zorunlu kıldı; birçok rahip yemini reddetti. Karar, kilise ile İhtilâl arasında derin ve kalıcı bir çatlak açtı ve karşı-devrimci direnişin en güçlü kaynaklarından biri oldu.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_id:"Paris" },
 
 { t:"1791-06-20", b:"Kraliyet ailesinin Varennes Kaçışı", tur:"kriz", onem:5, dunya:3, kapsam:"ic", yer_id:"",
   etiket:["kriz","hanedan"],
   d:"XVI. Louis ve ailesi, sınırı geçip yabancı destekle İhtilâl'i bastırmak amacıyla gizlice Paris'ten kaçtı ama Varennes'te tanınıp yakalandı. Başarısız kaçış, kralın halk nezdindeki meşruiyetini geri dönülmez biçimde sarstı ve cumhuriyetçi fikirlerin ilk kez ciddiye alınmasına yol açtı.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_kon:[49.2,5.033] },
 
 { t:"1791-09-03", b:"1791 Anayasası'nın kabulü — Meşruti Monarşi", tur:"reform", onem:4, dunya:3, kapsam:"ic", yer_id:"Paris",
   etiket:["anayasa","reform"],
@@ -542,7 +542,7 @@ window.KRONOLOJI_FRANSA = [
 { t:"1792-04-20", b:"Fransa'nın Avusturya'ya savaş açması", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","savas"],
   d:"Meclis, karşı-devrimci güçleri desteklemekle suçladığı Avusturya'ya savaş ilan etti; bu, sonraki yirmi üç yıl neredeyse kesintisiz sürecek Fransa-Avrupa savaşları dizisinin başlangıcı oldu. Savaş, İhtilâl'in radikalleşmesini de doğrudan hızlandırdı.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_id:"Paris" },
 
 { t:"1792-08-10", b:"Tuileries Sarayı Baskını — monarşinin fiilen devrilmesi", tur:"isyan", onem:5, dunya:4, kapsam:"ic", yer_id:"Paris",
   etiket:["isyan","hanedan","kriz"],
@@ -552,7 +552,7 @@ window.KRONOLOJI_FRANSA = [
 { t:"1792-09-20", b:"Valmy Muharebesi — Fransız ordusunun ilk zaferi", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","savas"],
   d:"Yeni kurulan Fransız gönüllü ordusu, Prusya-Avusturya müdahale kuvvetini Valmy'de durdurdu; Goethe bu zaferin ardından 'burada ve bugün dünya tarihinde yeni bir çağ başlıyor' diye yazdı. Zafer, Cumhuriyet'in askerî meşruiyetini ilk kez kanıtladı.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_kon:[49.05,4.767] },
 
 { t:"1792-09-22", b:"I. Fransız Cumhuriyeti'nin ilanı", tur:"kurulus", onem:5, dunya:4, kapsam:"ic", yer_id:"Paris",
   etiket:["anayasa","kurulus","hanedan"],
@@ -617,12 +617,12 @@ window.KRONOLOJI_FRANSA = [
 { t:"1796-04-12", b:"Napolyon Bonapart'ın İtalya Seferi'nin başlaması", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","savas"],
   d:"Yirmi altı yaşındaki general Napolyon Bonapart, Direktuvar ordusunun İtalya kolunu devralıp Avusturya kuvvetlerine karşı bir dizi parlak zafer kazandı. Sefer, onu Fransa'nın en popüler askerî figürüne dönüştürerek üç yıl sonraki iktidar yürüyüşünün zeminini hazırladı.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", kapsam_genis:true },
 
 { t:"1797-10-17", b:"Campo Formio Antlaşması", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kazanc"],
   d:"Napolyon'un bizzat müzakere ettiği antlaşma, Avusturya'yı savaş dışı bıraktı ve Venedik Cumhuriyeti'nin topraklarının Fransa-Avusturya arasında paylaşılmasını öngördü. Anlaşma, bin yıllık Venedik bağımsızlığının sonu ve Napolyon'un artık sivil hükümetten bağımsız hareket edebildiğinin ilk kanıtıydı.",
-  kaynak:"standart ders kitabı bilgisi — venedik dosyasındaki 1797-10-17 kaydıyla AYNI olay, 🔴 dunya hizalaması için bkz. kronoloji_venedik.js" },
+  kaynak:"standart ders kitabı bilgisi — venedik dosyasındaki 1797-10-17 kaydıyla AYNI olay, 🔴 dunya hizalaması için bkz. kronoloji_venedik.js", yer_kon:[46.017,13.167] },
 
 { t:"1798-07-01", b:"Napolyon'un Mısır Seferi'nin başlaması", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"Kahire",
   etiket:["askeri","savas","isgal"],
@@ -642,7 +642,7 @@ window.KRONOLOJI_FRANSA = [
 { t:"1801-07-15", b:"Napolyon-Papalık Konkordatosu", tur:"din", onem:4, dunya:3, kapsam:"ic", yer_id:"",
   etiket:["din","antlasma","reform"],
   d:"Napolyon, Katolikliği 'Fransızların çoğunluğunun dini' olarak tanıyan ama devlet denetimini koruyan bir anlaşmayla papalıkla İhtilâl'den beri süren çatışmayı sona erdirdi. Konkordato, 1905'e kadar kilise-devlet ilişkilerinin çerçevesini belirleyecekti.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_id:"Paris" },
 
 { t:"1802-05-19", b:"Légion d'Honneur nişanının kurulması", tur:"idari", onem:3, dunya:2, kapsam:"ic", yer_id:"Paris",
   etiket:["idari","reform"],
@@ -657,7 +657,7 @@ window.KRONOLOJI_FRANSA = [
 { t:"1802-05-01", b:"Lise (Lycée) sisteminin kurulması", tur:"reform", onem:3, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["reform","idari","bilim"],
   d:"Napolyon, devlete bağlı, standart müfredatlı orta öğretim kurumları (lycées) kurarak eğitimi merkezî devlet denetimine aldı. Sistem, Fransız millî eğitiminin çekirdek yapısını oluşturdu ve yüzyıllar boyunca büyük ölçüde korundu.",
-  kaynak:"standart ders kitabı bilgisi — gün bilinmiyor, ay bilgisiyle yazıldı" },
+  kaynak:"standart ders kitabı bilgisi — gün bilinmiyor, ay bilgisiyle yazıldı", yer_id:"Paris" },
 
 { t:"1804-03-21", b:"Napolyon Kanunu'nun (Code civil) yürürlüğe girmesi", tur:"kanun", onem:5, dunya:5, kapsam:"ic", yer_id:"Paris",
   etiket:["kanun","reform","idari"],
@@ -672,12 +672,12 @@ window.KRONOLOJI_FRANSA = [
 { t:"1805-12-02", b:"Austerlitz Savaşı — 'Üç İmparator Muharebesi'", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","savas"],
   d:"Napolyon, sayıca üstün Avusturya-Rusya ortak ordusunu taktik bir başyapıtla ezici biçimde yendi; zafer, Üçüncü Koalisyon'u dağıttı ve Napolyon'un askerî dehasının doruk noktası sayılır. Muharebe, ertesi yıl Kutsal Roma-Germen İmparatorluğu'nun tasfiyesine giden yolu açtı.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_kon:[49.152,16.882] },
 
 { t:"1806-08-06", b:"Kutsal Roma-Germen İmparatorluğu'nun sona ermesi", tur:"son", onem:4, dunya:5, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","siyaset"],
   d:"Napolyon'un kurduğu Ren Konfederasyonu'nun baskısı altında II. Franz, sekiz asırlık Kutsal Roma-Germen İmparatorluğu tacından resmen feragat etti. Fransa'nın dolaylı ama belirleyici rolü, Avrupa'nın en eski siyasî kurumunu tarihe gömdü.",
-  kaynak:"standart ders kitabı bilgisi · 🔴 dunya:5 — habsburg dosyasıyla BİREBİR AYNI (M-0873 hizalaması)" },
+  kaynak:"standart ders kitabı bilgisi · 🔴 dunya:5 — habsburg dosyasıyla BİREBİR AYNI (M-0873 hizalaması)", yer_id:"Viyana" },
 
 { t:"1806-11-21", b:"Kıta Ablukası'nın (Berlin Kararnamesi) ilanı", tur:"iktisat", onem:4, dunya:4, kapsam:"dis", yer_id:"Berlin",
   etiket:["iktisat","ekonomi","diplomasi"],
@@ -687,7 +687,7 @@ window.KRONOLOJI_FRANSA = [
 { t:"1807-07-07", b:"Tilsit Antlaşması", tur:"antlasma", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["antlasma","diplomasi","ittifak"],
   d:"Napolyon ile Çar I. Aleksandr, bir sal üzerinde Niemen Nehri'nde buluşup Rusya-Fransa ittifakını ve Prusya'nın topraklarının yarısını kaybetmesini öngören antlaşmayı imzaladı. Barış geçiciydi; beş yıl sonra aynı ittifakın çöküşü Napolyon'un Rusya Seferi'ne yol açacaktı.",
-  kaynak:"TDV `fransa` maddesi (canlı) \"1807: Tilsit Antlaşması\" — gün akademik kaynaklarla çapraz kontrol edildi (7 Temmuz 1807)" },
+  kaynak:"TDV `fransa` maddesi (canlı) \"1807: Tilsit Antlaşması\" — gün akademik kaynaklarla çapraz kontrol edildi (7 Temmuz 1807)", yer_kon:[55.082,21.879] },
 
 { t:"1808-09-27", b:"Erfurt Kongresi — Napolyon-Çar Aleksandr görüşmesi", tur:"diplomasi", onem:3, dunya:2, kapsam:"dis", yer_id:"Erfurt",
   etiket:["diplomasi"],
@@ -697,7 +697,7 @@ window.KRONOLOJI_FRANSA = [
 { t:"1809-05-17", b:"Papalık topraklarının Fransa'ya ilhakı", tur:"isgal", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["isgal","din"],
   d:"Napolyon, Kıta Ablukası'na direnen Papa VII. Pius'un topraklarını imparatorluğa ilhak etti; Papa'yı aforoz etmesi üzerine Fransız kuvvetleri onu tutuklayıp 1814'e kadar hapsetti. Olay, `data/devletler.js`teki Papalık Devleti kaydında zaten işlenmiştir; bu maddede Fransa cephesinden özetlenir.",
-  kaynak:"data/devletler.js (Papalık Devleti kaydı) — Ambrogio Caiani, 'To Kidnap a Pope' (Yale UP, 2021)" },
+  kaynak:"data/devletler.js (Papalık Devleti kaydı) — Ambrogio Caiani, 'To Kidnap a Pope' (Yale UP, 2021)", yer_id:"Viyana" },
 
 { t:"1812-06-24", b:"Napolyon'un Rusya Seferi'nin başlaması", tur:"savas", onem:5, dunya:5, kapsam:"dis", yer_id:"Moskova",
   etiket:["askeri","savas","kayip"],
@@ -722,7 +722,7 @@ window.KRONOLOJI_FRANSA = [
 { t:"1815-06-18", b:"Waterloo Savaşı — Napolyon'un kesin yenilgisi", tur:"savas", onem:5, dunya:5, kapsam:"dis", yer_id:"",
   etiket:["askeri","savas","kayip"],
   d:"Wellington ve Blücher komutasındaki İngiliz-Prusya ortak kuvvetleri, bugünkü Belçika'da Napolyon'u kesin biçimde yendi; imparator dört gün sonra ikinci kez ve bu sefer nihai olarak feragat etti. Waterloo, çağdaş dilde 'kesin ve nihai yenilgi' anlamında bir deyim hâline gelecek kadar tarihe kazındı.",
-  kaynak:"standart ders kitabı bilgisi — dunya:5, çağ kapatan nihai yenilgi olması nedeniyle" },
+  kaynak:"standart ders kitabı bilgisi — dunya:5, çağ kapatan nihai yenilgi olması nedeniyle", yer_kon:[50.717,4.4] },
 
 { t:"1815-06-09", b:"Viyana Kongresi Nihaî Senedi'nin imzalanması", tur:"antlasma", onem:4, dunya:5, kapsam:"dis", yer_id:"Viyana",
   etiket:["antlasma","diplomasi","toprak-kayip"],
@@ -737,7 +737,7 @@ window.KRONOLOJI_FRANSA = [
 { t:"1827-10-20", b:"Navarin Deniz Savaşı", tur:"savas", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","savas"],
   d:"Fransa, İngiltere ve Rusya'nın birleşik donanması, Yunan bağımsızlık ayaklanmasını bastırmaya çalışan Osmanlı-Mısır donanmasını Navarin Körfezi'nde imha etti. TDV maddesinde de anılan bu müdahale, Fransa'nın Osmanlı'ya karşı ilk kez doğrudan silahlı harekâta katıldığı andır.",
-  kaynak:"TDV `fransa` maddesi (canlı) — \"1827 (Navarin): müttefik donanmasının Osmanlı donanmasını yakması\"" },
+  kaynak:"TDV `fransa` maddesi (canlı) — \"1827 (Navarin): müttefik donanmasının Osmanlı donanmasını yakması\"", yer_kon:[36.91,21.68] },
 
 { t:"1829-04-24", b:"Yunanistan bağımsızlığının Bâbıâli'ye kabul ettirilmesi", tur:"diplomasi", onem:3, dunya:3, kapsam:"dis", yer_id:"İstanbul",
   etiket:["diplomasi","siyaset"],
@@ -767,7 +767,7 @@ window.KRONOLOJI_FRANSA = [
 { t:"1833-07-08", b:"Hünkâr İskelesi Antlaşması'nın imzalanması", tur:"diplomasi", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","siyaset"],
   d:"Osmanlı'nın Rusya ile imzaladığı bu savunma ittifakı, Fransa ve İngiltere'de büyük kaygı yarattı; TDV maddesi olayı Fransa'nın Osmanlı Boğazlar siyasetine ilgisinin arttığı bir dönüm noktası olarak kaydeder. Antlaşma, Fransa'yı sonraki on yıllarda Osmanlı toprak bütünlüğünü destekleyen bir Boğazlar siyasetine yöneltti.",
-  kaynak:"TDV `fransa` maddesi (canlı) — \"1833: Hünkâr İskelesi Antlaşması\" · gün akademik literatürle çapraz kontrol edildi" },
+  kaynak:"TDV `fransa` maddesi (canlı) — \"1833: Hünkâr İskelesi Antlaşması\" · gün akademik literatürle çapraz kontrol edildi", yer_kon:[41.05,29.05] },
 
 { t:"1840-07-15", b:"Londra Antlaşması — Osmanlı toprak bütünlüğünün Avrupa güvencesi", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"Londra",
   etiket:["antlasma","diplomasi"],
@@ -782,7 +782,7 @@ window.KRONOLOJI_FRANSA = [
 { t:"1848-04-27", b:"Fransız sömürgelerinde köleliğin kaldırılması", tur:"reform", onem:4, dunya:3, kapsam:"ic", yer_id:"",
   etiket:["reform","sosyal","kanun"],
   d:"Geçici hükümetin altında Victor Schoelcher'in öncülüğünde çıkarılan kararname, Fransız sömürgelerindeki köleliği kesin olarak kaldırdı. Karar, İhtilâl'in 1794'te ilan edip Napolyon'un 1802'de geri getirdiği yasağın nihai ve kalıcı hâle gelmesiydi.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_id:"Paris" },
 
 { t:"1848-12-10", b:"Louis-Napoléon Bonapart'ın cumhurbaşkanı seçilmesi", tur:"siyaset", onem:4, dunya:2, kapsam:"ic", yer_id:"Paris",
   etiket:["siyaset","hanedan"],
@@ -797,7 +797,7 @@ window.KRONOLOJI_FRANSA = [
 { t:"1853-10-04", b:"Kırım Savaşı'nın başlaması — Fransa'nın Osmanlı yanında savaşa girişi", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","savas","ittifak"],
   d:"Fransa, Rusya'nın Osmanlı topraklarına yayılmasını Akdeniz çıkarlarına tehdit sayarak İngiltere'yle birlikte Osmanlı'nın yanında savaşa girdi; TDV maddesi bu ittifakı 1853-1856 arasında açıkça kaydeder. Savaş, III. Napolyon'a beklediği uluslararası prestiji kazandırdı ve Paris'te imzalanan barışla (1856) sona erecekti.",
-  kaynak:"TDV `fransa` maddesi (canlı) — \"1853-1856: Kırım Savaşı (Fransa ve İngiltere Osmanlı tarafında)\"" },
+  kaynak:"TDV `fransa` maddesi (canlı) — \"1853-1856: Kırım Savaşı (Fransa ve İngiltere Osmanlı tarafında)\"", yer_id:"Paris" },
 
 { t:"1855-05-15", b:"Paris Dünya Sergisi", tur:"kultur", onem:3, dunya:2, kapsam:"ic", yer_id:"Paris",
   etiket:["kultur","iktisat","bilim"],
@@ -817,12 +817,12 @@ window.KRONOLOJI_FRANSA = [
 { t:"1859-06-24", b:"Solferino Savaşı — İtalyan birliği için Fransız desteği", tur:"savas", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","savas"],
   d:"III. Napolyon, Piedmont-Sardunya'nın yanında Avusturya'ya karşı savaşarak İtalyan birliği sürecini destekledi; muharebenin dehşet verici yaralı sayısı, İsviçreli tanık Henry Dunant'ı Kızılhaç'ı kurmaya yöneltti. Zafer karşılığında Fransa, Savoie ve Nice'i topraklarına kattı.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_kon:[45.383,10.583] },
 
 { t:"1863-06-10", b:"Meksika Seferi — Maximilian'ın imparator ilanı hazırlığı", tur:"isgal", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["isgal","askeri","siyaset"],
   d:"III. Napolyon, ABD İç Savaşı'nın verdiği fırsatla Meksika'yı işgal ettirip Habsburg Arşidükü Maximilian'ı kukla imparator yaptı; macera 1867'de Maximilian'ın idamıyla Fransa için büyük bir dış politika hezimetine dönüştü. Girişim, III. Napolyon'un yayılmacı hırsının en pahalı ve en talihsiz örneğidir.",
-  kaynak:"standart ders kitabı bilgisi — gün bilinmiyor, ay bilgisiyle yazıldı" },
+  kaynak:"standart ders kitabı bilgisi — gün bilinmiyor, ay bilgisiyle yazıldı", kapsam_genis:true },
 
 { t:"1863-05-15", b:"'Çayırda Öğle Yemeği' skandalı — Manet ve modern resmin doğuşu", tur:"kultur", onem:3, dunya:2, kapsam:"ic", yer_id:"Paris",
   etiket:["sanat","kultur"],
@@ -832,17 +832,17 @@ window.KRONOLOJI_FRANSA = [
 { t:"1869-11-17", b:"Süveyş Kanalı'nın açılışı", tur:"iktisat", onem:4, dunya:5, kapsam:"dis", yer_id:"",
   etiket:["iktisat","toprak-kazanc","ekonomi"],
   d:"Fransız diplomat ve mühendis Ferdinand de Lesseps'in yönettiği proje, Akdeniz'i Kızıldeniz'e bağlayarak Avrupa-Asya deniz ticaretini kökten değiştirdi. TDV maddesi kanalı Fransa-Osmanlı ilişkilerinin Mısır'daki mali-siyasî boyutunun merkezine yerleştirir; kanal sonraki on yıllarda İngiliz-Fransız rekabetinin de odağı olacaktı.",
-  kaynak:"standart ders kitabı bilgisi · dunya:5, küresel ticaret yollarını kalıcı biçimde değiştirmesi nedeniyle" },
+  kaynak:"standart ders kitabı bilgisi · dunya:5, küresel ticaret yollarını kalıcı biçimde değiştirmesi nedeniyle", yer_kon:[31.265,32.302] },
 
 { t:"1870-07-19", b:"Fransa-Prusya Savaşı'nın başlaması", tur:"savas", onem:4, dunya:5, kapsam:"dis", yer_id:"",
   etiket:["askeri","savas"],
   d:"III. Napolyon, İspanya tahtı adaylığı krizini (Ems Telgrafı) bahane ederek Prusya'ya savaş ilan etti; Bismarck'ın kışkırttığı bu savaş, Fransa'nın hazırlıksızlığı yüzünden hızla felakete dönüşecekti. Savaş, hem III. İmparatorluğu hem de Avrupa'nın güç dengesini kökten değiştirecek sonuçlar doğurdu.",
-  kaynak:"standart ders kitabı bilgisi — dunya:5, Avrupa güç dengesini kalıcı biçimde değiştiren sonuçları nedeniyle" },
+  kaynak:"standart ders kitabı bilgisi — dunya:5, Avrupa güç dengesini kalıcı biçimde değiştiren sonuçları nedeniyle", yer_id:"Paris" },
 
 { t:"1870-09-02", b:"Sedan Savaşı — III. Napolyon'un esir düşmesi", tur:"savas", onem:5, dunya:5, kapsam:"dis", yer_id:"",
   etiket:["askeri","savas","kayip"],
   d:"Prusya kuvvetleri Fransız ordusunu Sedan'da kuşatıp bizzat İmparator III. Napolyon'u esir aldı; bozgun, iki asra yakın süredir Avrupa'nın en büyük askerî gücü sayılan Fransa'nın itibarını derinden sarstı. Esaret haberi Paris'e ulaşınca iki gün içinde İmparatorluk çökecekti.",
-  kaynak:"standart ders kitabı bilgisi — dunya:5, II. İmparatorluk'un çöküşünü doğrudan tetikleyen yenilgi" },
+  kaynak:"standart ders kitabı bilgisi — dunya:5, II. İmparatorluk'un çöküşünü doğrudan tetikleyen yenilgi", yer_kon:[49.7,4.95] },
 
 { t:"1870-09-04", b:"III. Cumhuriyet'in ilanı", tur:"kurulus", onem:5, dunya:3, kapsam:"ic", yer_id:"Paris",
   etiket:["kurulus","anayasa","siyaset"],
@@ -852,7 +852,7 @@ window.KRONOLOJI_FRANSA = [
 { t:"1871-01-18", b:"Alman İmparatorluğu'nun Versay'da ilanı", tur:"kurulus", onem:4, dunya:5, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","siyaset","hanedan"],
   d:"Alman prensleri, hâlâ kuşatma altındaki Fransa'nın Versay Sarayı Aynalar Salonu'nda toplanıp Prusya Kralı I. Wilhelm'i Alman İmparatoru ilan etti; seçilen yer, Fransa'ya bilinçli bir aşağılama olarak okundu. Alman birliğinin bu şekilde ilanı, Avrupa güç dengesinde bir asrı aşkın sürecek yeni bir merkezin doğuşuydu.",
-  kaynak:"standart ders kitabı bilgisi — dunya:5, Avrupa'nın yeni büyük gücünün doğuşu olması nedeniyle" },
+  kaynak:"standart ders kitabı bilgisi — dunya:5, Avrupa'nın yeni büyük gücünün doğuşu olması nedeniyle", yer_kon:[48.805,2.12] },
 
 { t:"1871-03-18", b:"Paris Komünü'nün ilanı", tur:"isyan", onem:4, dunya:3, kapsam:"ic", yer_id:"Paris",
   etiket:["isyan","kriz","sosyal"],
@@ -877,7 +877,7 @@ window.KRONOLOJI_FRANSA = [
 { t:"1881-03-28", b:"Jules Ferry Yasaları — laik, zorunlu ve parasız ilköğretim", tur:"reform", onem:4, dunya:3, kapsam:"ic", yer_id:"",
   etiket:["reform","kanun","din"],
   d:"Eğitim Bakanı Jules Ferry'nin öncülüğündeki yasalar, ilköğretimi devlet tekeline alıp dinî öğretimden ayırarak parasız ve zorunlu hâle getirdi. Reform, III. Cumhuriyet'in cumhuriyetçi-laik kimliğini kuran en kalıcı toplumsal mühendislik girişimidir.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_id:"Paris" },
 
 { t:"1881-05-12", b:"Bardo Antlaşması — Tunus'un Fransız himayesine girmesi", tur:"toprak-kazanc", onem:4, dunya:3, kapsam:"dis", yer_id:"Tunus",
   etiket:["antlasma","toprak-kazanc","isgal"],
@@ -932,12 +932,12 @@ window.KRONOLOJI_FRANSA = [
 { t:"1911-11-04", b:"İkinci Fas Krizi — Agadir Krizi'nin çözümü", tur:"diplomasi", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","kriz","toprak-kazanc"],
   d:"Almanya'nın bir savaş gemisini Agadir'e göndererek Fas'taki Fransız nüfuzuna meydan okuduğu kriz, Fransa'nın Kongo'dan toprak tavizi vermesiyle çözüldü ama Fas üzerindeki Fransız himayesini de kesinleştirdi. Kriz, Almanya'ya karşı İngiliz-Fransız dayanışmasını daha da pekiştiren gerginlik dizisinin son büyük halkasıydı.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_id:"Berlin" },
 
 { t:"1912-03-30", b:"Fas Antlaşması — Fransız himayesinin resmîleşmesi", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kazanc"],
   d:"Fes Antlaşması, Fas Sultanlığı'nı resmen Fransız himayesi altına aldı; ülkenin iç idaresi Sultan'da kalsa da dış ilişkiler ve ordu Fransız Genel Vali'nin denetimine geçti. Himaye rejimi, 1956'daki bağımsızlığa kadar sürecekti.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_kon:[34.033,-5] },
 
 { t:"1914-07-31", b:"Jean Jaurès'in suikastı", tur:"olum", onem:4, dunya:2, kapsam:"ic", yer_id:"Paris",
   etiket:["siyaset","olum"],
@@ -957,61 +957,61 @@ window.KRONOLOJI_FRANSA = [
 { t:"1916-02-21", b:"Verdun Savaşı'nın başlaması", tur:"savas", onem:5, dunya:5, kapsam:"dis", yer_id:"",
   etiket:["askeri","savas","kayip"],
   d:"Alman ordusunun 'Fransa'yı kansızlıktan öldürmek' amacıyla başlattığı Verdun Savaşı, on ay süren ve iki taraftan yaklaşık 700 bin kayıpla sonuçlanan I. Dünya Savaşı'nın en kanlı muharebelerinden biri oldu. 'Onlar geçemeyecek' (Ils ne passeront pas) sözü, Fransız direnişinin simgesi hâline geldi.",
-  kaynak:"standart ders kitabı bilgisi — dunya:5, ölçek ve simgesel önemi nedeniyle" },
+  kaynak:"standart ders kitabı bilgisi — dunya:5, ölçek ve simgesel önemi nedeniyle", yer_kon:[49.159,5.382] },
 
 { t:"1916-05-16", b:"Sykes-Picot Antlaşması'nın imzalanması", tur:"antlasma", onem:4, dunya:5, kapsam:"dis", yer_id:"",
   etiket:["antlasma","diplomasi","toprak-kazanc"],
   d:"Fransız diplomat François Georges-Picot ile İngiliz Mark Sykes arasında gizlice müzakere edilen antlaşma, Osmanlı'nın Arap topraklarını Fransız ve İngiliz nüfuz bölgelerine bölüştürdü. TDV maddesinde de kaydedilen bu gizli paylaşım, Ortadoğu'nun yüzyıl sonrasına kadar sürecek sınırlarının en tartışmalı temelini attı.",
-  kaynak:"TDV `fransa` maddesi (canlı) — \"16 Mayıs 1916: Sykes-Picot Antlaşması\" · dunya:5, Ortadoğu sınırlarının kalıcı belirleyicisi olması nedeniyle" },
+  kaynak:"TDV `fransa` maddesi (canlı) — \"16 Mayıs 1916: Sykes-Picot Antlaşması\" · dunya:5, Ortadoğu sınırlarının kalıcı belirleyicisi olması nedeniyle", yer_id:"Londra" },
 
 { t:"1916-09-15", b:"İlk tank saldırısı — Somme Muharebesi'nde", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","bilim"],
   d:"Somme Muharebesi sırasında İngiliz kuvvetleri (Fransız cephesinin bir parçası olarak) ilk kez zırhlı tankları savaş alanına sürdü; yenilik siper savaşının çıkmazını kırmaya yönelik ilk ciddi teknolojik girişimdi. Muharebe, aynı zamanda savaşın en yüksek kayıp oranlı çarpışmalarından biriydi.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_kon:[50,2.65] },
 
 { t:"1917-04-16", b:"Nivelle Taarruzu ve Fransız ordusu isyanları", tur:"isyan", onem:4, dunya:3, kapsam:"ic", yer_id:"",
   etiket:["isyan","askeri","kriz"],
   d:"General Nivelle'in kesin zafer vaat ettiği taarruz ağır kayıplarla başarısız olunca, tükenmiş Fransız birliklerinde geniş çaplı itaatsizlik dalgaları başladı; General Pétain, disiplini iyileştirme ve siper koşullarını düzeltme sözüyle isyanları büyük ölçüde şiddetsiz bastırdı. Kriz, Fransız ordusunun moral tükenişinin savaşın en kritik anlarından biri olduğunu gösterdi.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", kapsam_genis:true },
 
 { t:"1917-04-17", b:"Saint-Jean-de-Maurienne Antlaşması", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["antlasma","diplomasi"],
   d:"Fransa, İngiltere ve İtalya arasında imzalanan gizli antlaşma, Sykes-Picot düzenlemesine İtalya'nın Anadolu'daki pay taleplerini de eklemeyi öngördü; TDV maddesi bunu doğrudan Osmanlı topraklarının paylaşım zincirinin bir halkası olarak kaydeder. Antlaşma, savaş sonrası İtalya'nın Anadolu'ya asker çıkarmasının (1919) hukukî dayanaklarından biriydi.",
-  kaynak:"TDV `fransa` maddesi (canlı) — \"17 Nisan 1917: Saint Jean de Maurienne Antlaşması\"" },
+  kaynak:"TDV `fransa` maddesi (canlı) — \"17 Nisan 1917: Saint Jean de Maurienne Antlaşması\"", yer_kon:[45.276,6.349] },
 
 { t:"1918-11-11", b:"Compiègne Ateşkesi — I. Dünya Savaşı'nın Batı Cephesi'nde sona ermesi", tur:"antlasma", onem:5, dunya:5, kapsam:"dis", yer_id:"",
   etiket:["antlasma","askeri","diplomasi"],
   d:"Almanya, Compiègne ormanında bir tren vagonunda imzalanan ateşkesle silah bırakmayı kabul etti; dört yıllık, Fransız topraklarının büyük bölümünü harabeye çeviren savaş sona erdi. TDV maddesindeki 30 Ekim 1918 Mondros Mütarekesi ile aynı haftaya denk gelen bu tarih, Osmanlı ve Almanya cephelerinin aynı anda çöktüğü küresel dönüm noktasıdır.",
-  kaynak:"standart ders kitabı bilgisi · 🔴 dunya:5 — habsburg dosyasıyla BİREBİR AYNI (M-0873 hizalaması, Cihan Harbi'nin sonu)" },
+  kaynak:"standart ders kitabı bilgisi · 🔴 dunya:5 — habsburg dosyasıyla BİREBİR AYNI (M-0873 hizalaması, Cihan Harbi'nin sonu)", yer_kon:[49.417,2.826] },
 
 { t:"1919-06-28", b:"Versay Antlaşması'nın imzalanması", tur:"antlasma", onem:5, dunya:5, kapsam:"dis", yer_id:"",
   etiket:["antlasma","diplomasi","toprak-kazanc"],
   d:"Fransa'nın öncülüğünde hazırlanan antlaşma, Almanya'yı ağır tazminata mahkûm edip Alsace-Lorraine'i Fransa'ya iade etti; imza töreni bilerek 1871'de Alman İmparatorluğu'nun ilan edildiği Aynalar Salonu'nda yapıldı — kırk sekiz yıllık aşağılanmanın simgesel rövanşıydı. Antlaşmanın ağırlığı, sonraki yirmi yıl içinde yeni bir dünya savaşının zeminini hazırlayacaktı.",
-  kaynak:"standart ders kitabı bilgisi — dunya:5, sonraki yirmi yılın dünya düzenini belirlemesi nedeniyle" },
+  kaynak:"standart ders kitabı bilgisi — dunya:5, sonraki yirmi yılın dünya düzenini belirlemesi nedeniyle", yer_kon:[48.805,2.12] },
 
 { t:"1920-04-25", b:"San Remo Konferansı — manda paylaşımının kesinleşmesi", tur:"antlasma", onem:3, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["antlasma","diplomasi","toprak-kazanc"],
   d:"Konferans, Sykes-Picot'nun öngördüğü paylaşımı Milletler Cemiyeti manda sistemi çerçevesinde resmîleştirdi: Suriye ve Lübnan Fransız, Filistin ve Irak İngiliz mandası oldu. TDV maddesi bu tarihi doğrudan kaydeder; karar, bugünkü Suriye-Lübnan sınırlarının uluslararası hukuktaki temelidir.",
-  kaynak:"TDV `fransa` maddesi (canlı) — \"25 Nisan 1920: San Remo Antlaşması\" · dunya:4, Ortadoğu manda düzenini kesinleştirmesi nedeniyle" },
+  kaynak:"TDV `fransa` maddesi (canlı) — \"25 Nisan 1920: San Remo Antlaşması\" · dunya:4, Ortadoğu manda düzenini kesinleştirmesi nedeniyle", yer_kon:[43.817,7.776] },
 
 { t:"1920-07-24", b:"Meysalun Savaşı — Fransa'nın Şam'ı işgali", tur:"isgal", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["isgal","askeri"],
   d:"Fransız kuvvetleri, Kral Faysal'ın kısa ömürlü Arap Krallığı'nın direnişini Meysalun'da kırıp Şam'a girdi; Suriye mandası böylece fiilen kuruldu. Zafer, San Remo kararlarının silah zoruyla hayata geçirilmesiydi ve Fransız-Arap ilişkilerinde uzun vadeli bir güvensizliğin başlangıcı oldu.",
-  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
+  kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_kon:[33.53,36.06] },
 
 { t:"1920-08-10", b:"Sevr Antlaşması'nın imzalanması", tur:"antlasma", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["antlasma","diplomasi","toprak-kaybi"],
   d:"Fransa'nın da imzacısı olduğu antlaşma, Osmanlı Devleti'ni parçalayıp Anadolu'nun büyük bölümünü yabancı nüfuz bölgelerine ayırdı; TDV maddesi bu tarihi doğrudan kaydeder. Antlaşma hiçbir zaman uygulanamadı — Millî Mücadele'nin zaferi onu üç yıl sonra Lozan'la geçersiz kılacaktı.",
-  kaynak:"TDV `fransa` maddesi (canlı) — \"10 Ağustos 1920: Sevr Antlaşması\"" },
+  kaynak:"TDV `fransa` maddesi (canlı) — \"10 Ağustos 1920: Sevr Antlaşması\"", yer_kon:[48.824,2.214] },
 
 { t:"1921-10-20", b:"Ankara Antlaşması — Fransa'nın Anadolu'daki savaşı sona erdirmesi", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["antlasma","diplomasi","toprak-kayip"],
   d:"Fransa, Kilikya'daki (Adana-Maraş-Antep) işgal kuvvetlerini geri çekmeyi ve Türkiye Büyük Millet Meclisi hükümetini fiilen tanımayı kabul ederek Millî Mücadele karşısındaki ilk büyük itilaf devleti geri adımını attı. TDV maddesi bu antlaşmayı Hatay'ın (İskenderun Sancağı) özel statüsünün de başlangıcı olarak kaydeder.",
-  kaynak:"TDV `fransa` maddesi (canlı) — \"20 Ekim 1921: Ankara Antlaşması (Hatay'ın özel statüsü)\"" },
+  kaynak:"TDV `fransa` maddesi (canlı) — \"20 Ekim 1921: Ankara Antlaşması (Hatay'ın özel statüsü)\"", yer_id:"Ankara" },
 
 { t:"1923-07-24", b:"Lozan Antlaşması'nın imzalanması", tur:"antlasma", onem:4, dunya:5, kapsam:"dis", yer_id:"",
   etiket:["antlasma","diplomasi"],
   d:"Fransa'nın da imzacısı olduğu Lozan, Sevr'i tamamen geçersiz kılıp Türkiye Cumhuriyeti'nin bağımsızlığını ve bugünkü sınırlarının büyük bölümünü uluslararası hukukta tescil etti. TDV maddesi kaydını burada kapatır; bu dosyanın kapsamı da (1281-1923) bu antlaşmayla son buluyor.",
-  kaynak:"TDV `fransa` maddesi (canlı) — \"1923: Lozan Antlaşması\" · dunya:5, iki taraflı bir barışın ötesinde yeni bir devletin uluslararası tanınmasını sağlaması nedeniyle" },
+  kaynak:"TDV `fransa` maddesi (canlı) — \"1923: Lozan Antlaşması\" · dunya:5, iki taraflı bir barışın ötesinde yeni bir devletin uluslararası tanınmasını sağlaması nedeniyle", yer_id:"Lozan" },
 
 ];

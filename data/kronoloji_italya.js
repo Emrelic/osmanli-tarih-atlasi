@@ -90,7 +90,7 @@ window.KRONOLOJI_ITALYA = [
 { t:"1294-12-13", b:"Celestine V'in istifası — tarihte ilk gönüllü papalık istifası", tur:"olum", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["papalik","kriz"],
   d:"Sekiz aylık bir papalıktan sonra keşiş Pietro da Morrone (Celestine V), makamın idarî yükünü taşıyamayacağını söyleyip istifa etti — Benedict XVI'nın 2013'teki istifasına kadar tek örnek olarak kaldı. Yerine seçilen VIII. Boniface, halefinin dönüşünü engellemek için onu hapse attırdı; Celestine hapiste öldü.",
-  kaynak:"bulunamadı — standart akademik konsensüs; bu oturumda birincil metin OKUNMADI, yıl kesin" },
+  kaynak:"bulunamadı — standart akademik konsensüs; bu oturumda birincil metin OKUNMADI, yıl kesin", yer_id:"Napoli" },
 
 { t:"1302-11-18", b:"Unam Sanctam fermanı — papalık üstünlüğünün en sert ifadesi", tur:"din", onem:4, dunya:3, kapsam:"dis", yer_id:"Roma",
   etiket:["papalik","din"],
@@ -100,17 +100,17 @@ window.KRONOLOJI_ITALYA = [
 { t:"1303-09-07", b:"Anagni Olayı — Fransız ajanlarının papayı tutuklaması", tur:"kriz", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["papalik","kriz","diplomasi"],
   d:"IV. Philip'in adamları Guillaume de Nogaret önderliğinde Anagni'deki papalık sarayını bastı, VIII. Boniface'i üç gün tutsak tuttu. Papa kısa süre sonra öldü; olay, ortaçağ papalığının Fransa krallığı karşısındaki gücünün sonunu simgeler ve altı yıl içinde papalığın Avignon'a taşınmasının zeminini hazırlar.",
-  kaynak:"bulunamadı — standart akademik konsensüs; bu oturumda birincil metin OKUNMADI, gün YAYGIN KABUL" },
+  kaynak:"bulunamadı — standart akademik konsensüs; bu oturumda birincil metin OKUNMADI, gün YAYGIN KABUL", yer_kon:[41.735,13.152] },
 
 { t:"1309-03-09", b:"Avignon Papalığı'nın başlaması", tur:"kurulus", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["papalik","kriz"],
   d:"V. Clement, papalık dairesini Roma'dan Fransa'nın güneyindeki Avignon'a taşıdı; papalar burada yaklaşık yetmiş yıl (\"Babil sürgünü\" olarak anılan dönem) Fransız krallarının etkisi altında yaşadı. Roma'nın dinî ve siyasî ağırlığı bu süre boyunca ciddi biçimde zayıfladı.",
-  kaynak:"Encyclopaedia Britannica, 'Clement V' (WebSearch ile alıntılandı): \"He arrived there on March 9, 1309\"" },
+  kaynak:"Encyclopaedia Britannica, 'Clement V' (WebSearch ile alıntılandı): \"He arrived there on March 9, 1309\"", yer_id:"Avignon" },
 
 { t:"1348-01-01", b:"Kara Ölüm Avignon'u vurur", tur:"salgin", onem:3, dunya:3, kapsam:"ic", yer_id:"",
   etiket:["papalik","kriz"],
   d:"Veba Avignon'daki papalık sarayına ulaştı; Papa VI. Clement, salgının Yahudilere atfedilmesini kınayan ve onları koruyan bir ferman yayımladı — dönemin yaygın komplo teorisine karşı nadir bir resmî tavırdır. Şehir nüfusunun büyük bölümü öldü.",
-  kaynak:"bulunamadı — gün DOĞRULANMADI, standart akademik konsensüs" },
+  kaynak:"bulunamadı — gün DOĞRULANMADI, standart akademik konsensüs", yer_id:"Avignon" },
 
 { t:"1377-01-17", b:"Papalığın Roma'ya dönüşü", tur:"kurulus", onem:4, dunya:3, kapsam:"dis", yer_id:"Roma",
   etiket:["papalik","diplomasi"],
@@ -125,12 +125,12 @@ window.KRONOLOJI_ITALYA = [
 { t:"1378-09-20", b:"Rakip papa VII. Clement'in seçilmesi — skizma resmileşir", tur:"bolunme", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["papalik","kriz"],
   d:"Fondi'de toplanan on üç kardinal, VI. Urban'ın seçimini geçersiz ilan edip Cenevreli Robert'i VII. Clement adıyla papa seçti; Clement kısa süre sonra Avignon'a yerleşti. Katolik Avrupa artık iki papaya bölünmüştü — İngiltere ve Kutsal Roma-Cermen İmparatorluğu Roma'yı, Fransa ve müttefikleri Avignon'u tanıyordu.",
-  kaynak:"Treccani, Dizionario Biografico degli Italiani, 'CLEMENTE VII, antipapa' (gövdesi WebFetch ile okundu): \"il 20 sett. 1378, nella cappella del castello dei Caetani, elessero all'unanimità papa Roberto di Ginevra\"" },
+  kaynak:"Treccani, Dizionario Biografico degli Italiani, 'CLEMENTE VII, antipapa' (gövdesi WebFetch ile okundu): \"il 20 sett. 1378, nella cappella del castello dei Caetani, elessero all'unanimità papa Roberto di Ginevra\"", yer_kon:[41.356,13.427] },
 
 { t:"1417-11-11", b:"Martin V'in seçilmesi — Batı Skizması'nın sona ermesi", tur:"kurulus", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["papalik","diplomasi"],
   d:"Konstanz Konsili, üç rakip papa iddiasını da geçersiz kılıp Oddone Colonna'yı Martin V adıyla tek papa seçti. Otuz dokuz yıllık bölünme sona erdi; Martin V birkaç yıl içinde papalık dairesini kesin olarak Roma'ya taşıyacaktı.",
-  kaynak:"Treccani, Enciclopedia dei Papi, 'Martino V' (gövdesi WebFetch ile okundu): \"Dopo la proclamazione della sede vacante, il 30 maggio 1417, Oddone fu eletto papa l'11 novembre 1417, all'ora decima\"" },
+  kaynak:"Treccani, Enciclopedia dei Papi, 'Martino V' (gövdesi WebFetch ile okundu): \"Dopo la proclamazione della sede vacante, il 30 maggio 1417, Oddone fu eletto papa l'11 novembre 1417, all'ora decima\"", yer_id:"Konstanz" },
 
 { t:"1447-03-06", b:"V. Nicholas'ın seçilmesi — Rönesans papalığının başlangıcı", tur:"kultur", onem:4, dunya:3, kapsam:"ic", yer_id:"Roma",
   etiket:["papalik","kultur","bilim"],
@@ -170,12 +170,12 @@ window.KRONOLOJI_ITALYA = [
 { t:"1545-12-13", b:"Trent Konsili'nin açılması", tur:"din", onem:5, dunya:5, kapsam:"dis", yer_id:"",
   etiket:["papalik","din","reform"],
   d:"Katolik kilisesi, Reform karşısındaki doktriner ve kurumsal cevabını on sekiz yıl sürecek bu konsille şekillendirmeye başladı — Kutsal Kitap'ın yorum tekeli, ayin biçimi, ruhban eğitimi ve endülüjans uygulamaları burada yeniden tanımlandı. Konsil, Katolik Avrupa'nın sonraki üç yüzyıllık dinî çerçevesini kurdu.",
-  kaynak:"Encyclopaedia Britannica, 'Council of Trent' (WebSearch ile alıntılandı): \"opened on December 13, 1545, and closed on December 4, 1563, after twenty-five formal sessions\"; Treccani 'dicembre 1545' ay/yılını doğrudan fetch ile doğruladı" },
+  kaynak:"Encyclopaedia Britannica, 'Council of Trent' (WebSearch ile alıntılandı): \"opened on December 13, 1545, and closed on December 4, 1563, after twenty-five formal sessions\"; Treccani 'dicembre 1545' ay/yılını doğrudan fetch ile doğruladı", yer_id:"Trento" },
 
 { t:"1563-12-04", b:"Trent Konsili'nin kapanması", tur:"din", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["papalik","din","reform"],
   d:"Konsilin son oturumu Papa IV. Pius döneminde tamamlandı; kararları sonraki papalarca resmî kilise doktrini olarak onaylandı ve Karşı-Reform'un temel metni hâline geldi.",
-  kaynak:"Treccani, 'Concilio di Trento' (gövdesi WebFetch ile okundu): kapanışın \"4 dicembre 1563\" tarihinde \"proclamata\" edildiği belirtiliyor" },
+  kaynak:"Treccani, 'Concilio di Trento' (gövdesi WebFetch ile okundu): kapanışın \"4 dicembre 1563\" tarihinde \"proclamata\" edildiği belirtiliyor", yer_id:"Trento" },
 
 { t:"1600-02-17", b:"Giordano Bruno'nun yakılması", tur:"din", onem:3, dunya:3, kapsam:"ic", yer_id:"Roma",
   etiket:["papalik","din","bilim"],
@@ -249,7 +249,7 @@ window.KRONOLOJI_ITALYA = [
 { t:"1302-08-31", b:"Caltabellotta Antlaşması — bölünmenin resmileşmesi", tur:"antlasma", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["napoli","antlasma","toprak-kayip"],
   d:"Yirmi yıllık savaşın ardından imzalanan antlaşma, Sicilya Akşamı'nın fiilî bölünmesini hukuken tescil etti: ada (\"Trinacria Krallığı\") Aragon hanedanına, anakaradaki Napoli Krallığı Anjou hanedanına bırakıldı. İki ayrı Sicilya tacı fikri buradan doğdu ve bir buçuk asır sonra Alfonso V'in birleştirmesine kadar sürdü.",
-  kaynak:"bulunamadı — gün YAYGIN KABUL, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı" },
+  kaynak:"bulunamadı — gün YAYGIN KABUL, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı", yer_kon:[37.577,13.216] },
 
 { t:"1442-06-02", b:"Alfonso V'in Napoli'yi fethedip iki tacı birleştirmesi", tur:"toprak-kazanc", onem:5, dunya:3, kapsam:"dis", yer_id:"Napoli",
   etiket:["napoli","hanedan","toprak-kazanc"],
@@ -279,12 +279,12 @@ window.KRONOLOJI_ITALYA = [
 { t:"1495-07-06", b:"Fornovo Savaşı — İtalyan Ligi'nin Fransızları geri püskürtmesi", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["napoli","askeri"],
   d:"Venedik, Milano, Papalık, İspanya ve İmparator'un oluşturduğu İtalyan Ligi, Napoli'den çekilen Fransız ordusunu Fornovo'da karşıladı; savaş taktik olarak berabere bitse de Fransızların İtalya'dan çıkışını hızlandırdı.",
-  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı" },
+  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı", yer_kon:[44.693,10.1] },
 
 { t:"1503-12-29", b:"Garigliano Savaşı — İspanya'nın Napoli'yi kesin ele geçirmesi", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["napoli","askeri","toprak-kayip"],
   d:"İspanyol komutan Gonzalo Fernández de Córdoba, Fransız kuvvetlerini Garigliano nehri kıyısında kesin biçimde yenerek Napoli üzerindeki Fransız iddiasına son verdi. Krallık bundan sonra iki yüzyıl boyunca İspanyol tacına bağlı bir vicekrallık olarak yönetilecekti.",
-  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı" },
+  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı", yer_kon:[41.246,13.813] },
 
 { t:"1504-01-01", b:"Napoli'nin İspanyol vicekrallığına dönüşmesi", tur:"idari", onem:4, dunya:3, kapsam:"ic", yer_id:"Napoli",
   etiket:["napoli","idari"],
@@ -304,12 +304,12 @@ window.KRONOLOJI_ITALYA = [
 { t:"1713-04-11", b:"Utrecht Antlaşması — Napoli'nin Avusturya'ya geçmesi", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["napoli","antlasma","toprak-kayip"],
   d:"İspanyol Veraset Savaşı'nı sonlandıran antlaşmalar zinciri, Napoli Krallığı'nı İspanyol Habsburglarından Avusturya Habsburglarına devretti; İspanyol vicekrallığı dönemi burada sona erdi.",
-  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı" },
+  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı", yer_id:"Utrecht" },
 
 { t:"1734-05-25", b:"Bitonto Muharebesi — Bourbon Napoli Krallığı'nın kuruluşu", tur:"kurulus", onem:5, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["napoli","askeri","hanedan"],
   d:"İspanyol Bourbon prensi Carlos, Bitonto'da Avusturya kuvvetlerini yenip Napoli'yi ele geçirdi; krallık böylece bir asır aradan sonra yeniden bağımsız bir taç olarak kuruldu ve Bourbon hanedanının Güney İtalya'daki iki asırlık hâkimiyeti başladı.",
-  kaynak:"data/devletler.js `napoli` embedded kronoloji: \"İspanyol Bourbon prensi Carlos, Bitonto Muharebesi'nde Avusturya kuvvetlerini yenip Napoli'yi ele geçirdi; bağımsız Bourbon krallığı olarak yeniden kuruldu\"" },
+  kaynak:"data/devletler.js `napoli` embedded kronoloji: \"İspanyol Bourbon prensi Carlos, Bitonto Muharebesi'nde Avusturya kuvvetlerini yenip Napoli'yi ele geçirdi; bağımsız Bourbon krallığı olarak yeniden kuruldu\"", yer_kon:[41.107,16.69] },
 
 { t:"1735-07-03", b:"Carlos'un Napoli ve Sicilya kralı olarak taç giymesi", tur:"hukumdar", onem:3, dunya:2, kapsam:"ic", yer_id:"Palermo",
   etiket:["napoli","hanedan"],
@@ -334,7 +334,7 @@ window.KRONOLOJI_ITALYA = [
 { t:"1815-05-20", b:"Joachim Murat'ın yenilgisi — Napolyoncu Napoli'nin sonu", tur:"son", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["napoli","askeri"],
   d:"Napolyon'un Elba'dan dönüşüyle cesaretlenen Murat, İtalya'yı birleştirme umuduyla Avusturya'ya savaş açtı ama yenildi; Napolyoncu Napoli Krallığı sona erdi ve Bourbon hanedanı tahta döndü. Murat birkaç ay sonra geri dönüş girişiminde yakalanıp idam edildi.",
-  kaynak:"data/devletler.js `napoli` embedded kronoloji: \"Napolyoncu kral Joachim Murat, Avusturya'ya karşı savaşı kaybetti; Napolyoncu Napoli Krallığı sona erdi, Bourbon hanedanı tahta döndü\"" },
+  kaynak:"data/devletler.js `napoli` embedded kronoloji: \"Napolyoncu kral Joachim Murat, Avusturya'ya karşı savaşı kaybetti; Napolyoncu Napoli Krallığı sona erdi, Bourbon hanedanı tahta döndü\"", yer_kon:[43.209,13.284] },
 
 { t:"1816-12-08", b:"İki Sicilya Krallığı'nın resmen kurulması", tur:"kurulus", onem:4, dunya:2, kapsam:"ic", yer_id:"Napoli",
   etiket:["napoli","idari"],
@@ -349,17 +349,17 @@ window.KRONOLOJI_ITALYA = [
 { t:"1821-03-07", b:"Avusturya müdahalesiyle anayasanın iptali", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["napoli","askeri","anayasa"],
   d:"Kutsal İttifak adına harekete geçen Avusturya orduları, Rieti-Antrodoco'da anayasacı kuvvetleri yenip anayasayı iptal ettirdi; Metternich sisteminin İtalya'daki liberal hareketleri bastırma kararlılığının ilk somut örneğiydi.",
-  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı" },
+  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı", yer_kon:[42.404,12.863] },
 
 { t:"1860-05-11", b:"Garibaldi'nin Bin'i Marsala'ya çıkar", tur:"isgal", onem:5, dunya:5, kapsam:"dis", yer_id:"",
   etiket:["napoli","milliyetcilik","askeri"],
   d:"Giuseppe Garibaldi, Cenova'dan yola çıkan yaklaşık bin gönüllü kızıl gömlekliyle Sicilya'nın batı kıyısındaki Marsala'ya çıkarma yaptı; bu küçük sefer, İki Sicilya Krallığı'nı birkaç ay içinde çökertip İtalyan birleşmesini geri döndürülemez hâle getirecekti — Risorgimento'nun en simgesel askeri harekâtıdır. (Marsala yerleşim veri tabanında kayıtlı değil.)",
-  kaynak:"Treccani, Dizionario di Storia, 'Spedizione dei Mille' (gövdesi WebFetch ile okundu): \"sbarcarono a Marsala l'11 maggio 1860\"" },
+  kaynak:"Treccani, Dizionario di Storia, 'Spedizione dei Mille' (gövdesi WebFetch ile okundu): \"sbarcarono a Marsala l'11 maggio 1860\"", yer_kon:[37.799,12.436] },
 
 { t:"1860-05-15", b:"Calatafimi Savaşı — Bin'in ilk zaferi", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["napoli","askeri","milliyetcilik"],
   d:"Sayıca çok üstün Bourbon kuvvetlerine karşı Garibaldi'nin gönüllüleri Calatafimi'de ilk zaferini kazandı; \"Burada ya İtalya'yı yaratırız ya ölürüz\" sözü bu savaşa atfedilir ve sefer boyunca moral kaynağı oldu.",
-  kaynak:"Treccani, Dizionario di Storia, 'Spedizione dei Mille' (gövdesi WebFetch ile okundu): \"Il giorno dopo le truppe borboniche erano battute in un durissimo scontro a Calatafimi\" (14 Mayıs Salemi diktatörlük ilanının ertesi günü, yani 15 Mayıs)" },
+  kaynak:"Treccani, Dizionario di Storia, 'Spedizione dei Mille' (gövdesi WebFetch ile okundu): \"Il giorno dopo le truppe borboniche erano battute in un durissimo scontro a Calatafimi\" (14 Mayıs Salemi diktatörlük ilanının ertesi günü, yani 15 Mayıs)", yer_kon:[37.914,12.861] },
 
 { t:"1860-05-27", b:"Palermo ayaklanması ve Garibaldi'nin şehre girmesi", tur:"isgal", onem:4, dunya:4, kapsam:"dis", yer_id:"Palermo",
   etiket:["napoli","askeri","milliyetcilik"],
@@ -369,7 +369,7 @@ window.KRONOLOJI_ITALYA = [
 { t:"1860-07-20", b:"Milazzo Savaşı — Sicilya'nın son Bourbon direnişinin kırılması", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["napoli","askeri"],
   d:"Messina yakınındaki Milazzo'da Garibaldi'nin kuvvetleri son büyük Bourbon direnişini de kırdı; Sicilya'nın tamamı birkaç hafta içinde Garibaldi'nin kontrolüne geçti.",
-  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı" },
+  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı", yer_kon:[38.221,15.241] },
 
 { t:"1860-09-07", b:"Garibaldi'nin Napoli'ye girmesi", tur:"isgal", onem:4, dunya:5, kapsam:"dis", yer_id:"Napoli",
   etiket:["napoli","milliyetcilik","askeri"],
@@ -379,7 +379,7 @@ window.KRONOLOJI_ITALYA = [
 { t:"1860-10-01", b:"Volturno Savaşı — Bourbon karşı taarruzunun kırılması", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["napoli","askeri"],
   d:"II. Francesco'nun Gaeta'ya çekilen ordusu, kaybettiği toprakları geri almak için Volturno nehri hattında büyük bir karşı taarruz başlattı; Garibaldi'nin gönüllüleri saldırıyı püskürttü. Bu, İki Sicilya'nın bağımsızlığını askerî olarak geri kazanma umudunun fiilen sona erdiği savaştır.",
-  kaynak:"bulunamadı — gün YAYGIN KABUL, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı" },
+  kaynak:"bulunamadı — gün YAYGIN KABUL, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı", yer_kon:[41.081,14.253] },
 
 { t:"1860-10-21", b:"Halkoylaması — İki Sicilya'nın İtalya Krallığı'na katılımı", tur:"birlesme", onem:4, dunya:4, kapsam:"ic", yer_id:"Napoli",
   etiket:["napoli","milliyetcilik","anayasa"],
@@ -389,7 +389,7 @@ window.KRONOLOJI_ITALYA = [
 { t:"1861-02-13", b:"Gaeta'nın düşüşü — Bourbon direnişinin sonu", tur:"son", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["napoli","askeri","son"],
   d:"II. Francesco'nun sığındığı son kale Gaeta, üç aylık kuşatmanın ardından İtalyan-Piyemonte kuvvetlerine teslim oldu; kral sürgüne çıktı. İki Sicilya Krallığı'nın altı yüzyıllık kesintisiz siyasî varlığı böylece fiilen sona erdi.",
-  kaynak:"data/devletler.js `napoli` (t:\"1861-02-13\") — dosyanın kendi kapanış tarihiyle birebir uyumlu" },
+  kaynak:"data/devletler.js `napoli` (t:\"1861-02-13\") — dosyanın kendi kapanış tarihiyle birebir uyumlu", yer_kon:[41.213,13.571] },
 
 // ══════════════════════════════════════════════════════════════════
 // III. CENOVA (CENEVİZ) CUMHURİYETİ (Cenova)
@@ -398,57 +398,57 @@ window.KRONOLOJI_ITALYA = [
 { t:"1261-03-13", b:"Nymphaeum Antlaşması — Karadeniz kapısının açılması", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["ceneviz","antlasma","ekonomi"],
   d:"Bizans İmparatoru VIII. Mihail, Latin İmparatorluğu'nu devirme mücadelesinde desteğine karşılık Cenova'ya Karadeniz'de geniş ticaret ayrıcalıkları tanıdı. Antlaşma, cumhuriyetin Kırım kıyısında (Kefe başta olmak üzere) bir asır sürecek koloni ağının hukukî temelini attı.",
-  kaynak:"data/devletler.js `cenova` embedded kronoloji: \"Nymphaeum Antlaşması ile Bizans'tan Karadeniz'de ticaret ayrıcalığı aldı — Kırım kolonizasyonunun önünü açtı\"" },
+  kaynak:"data/devletler.js `cenova` embedded kronoloji: \"Nymphaeum Antlaşması ile Bizans'tan Karadeniz'de ticaret ayrıcalığı aldı — Kırım kolonizasyonunun önünü açtı\"", yer_kon:[38.427,27.415] },
 
 { t:"1284-08-06", b:"Meloria Deniz Savaşı — Pisa'nın deniz gücü olarak sonu", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["ceneviz","askeri"],
   d:"Cenova donanması, rakip deniz cumhuriyeti Pisa'yı Meloria açıklarında ağır bir yenilgiye uğrattı; binlerce Pisalı esir alındı. Savaş, Pisa'nın Akdeniz'deki deniz gücü olma iddiasını fiilen bitirdi ve Cenova'yı Batı Akdeniz'in tartışmasız hâkimi yaptı.",
-  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı" },
+  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı", yer_kon:[43.545,10.22] },
 
 { t:"1298-09-08", b:"Curzola deniz zaferi — Venedik rekabetinin zirvesi", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["ceneviz","askeri"],
   d:"Dalmaçya açıklarında Venedik donanmasını ağır yenilgiye uğratan Cenova, esirler arasında yakaladığı Marco Polo'yu Cenova zindanına attı — Polo seyahatnâmesini burada bir hücre arkadaşına dikte ettirdi. İki cumhuriyetin bir asrı aşan deniz rekabeti bu zaferle zirveye çıktı.",
-  kaynak:"data/kronoloji_venedik.js aynı olayı `dunya:2` ile kaydediyor — bu dosyada AYNI değer kullanıldı (§3.2 hizalama); gün ayrıca DOĞRULANMADI" },
+  kaynak:"data/kronoloji_venedik.js aynı olayı `dunya:2` ile kaydediyor — bu dosyada AYNI değer kullanıldı (§3.2 hizalama); gün ayrıca DOĞRULANMADI", yer_id:"Korçula (Kurzola)" },
 
 { t:"1346-01-01", b:"Kefe kolonisinin kurulması", tur:"toprak-kazanc", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["ceneviz","ekonomi","toprak-kazanc"],
   d:"Cenova, Kırım'ın güney kıyısında Kefe (Caffa) kolonisini kurdu; koloni bir buçuk asır boyunca cumhuriyetin Karadeniz-İpek Yolu ticaretindeki en kârlı üssü ve Doğu Avrupa köle ticaretinin ana limanı olacaktı.",
-  kaynak:"data/devletler.js `cenova` embedded kronoloji: \"Kefe kolonisi kuruldu (Kırım kıyısı)\"" },
+  kaynak:"data/devletler.js `cenova` embedded kronoloji: \"Kefe kolonisi kuruldu (Kırım kıyısı)\"", yer_id:"Kefe" },
 
 { t:"1347-01-01", b:"Kefe kuşatması ve Kara Ölüm'ün Avrupa'ya taşınması", tur:"salgin", onem:3, dunya:5, kapsam:"dis", yer_id:"",
   etiket:["ceneviz","kriz","salgin"],
   d:"Altın Orda kuvvetlerinin Kefe'yi kuşatması sırasında, kuşatmacıların vebadan ölen cesetleri mancınıkla surların içine atmasıyla salgının kente sıçradığı anlatılır; kaçan Cenevizli tüccar gemileri hastalığı 1347 sonunda Sicilya'ya, oradan bütün Avrupa'ya taşıdı. Kara Ölüm'ün Avrupa'ya girişinin en çok anılan öyküsü, tek bir Ceneviz kolonisinden başlar ve kıtanın nüfusunun üçte birini silecek bir felakete dönüşür.",
-  kaynak:"bulunamadı — bu anlatı (Gabriele de' Mussi'nin çağdaş tanıklığına dayanır) standart akademik salgın tarihi literatüründe yaygın kabul görür; bu oturumda birincil metin OKUNMADI, kesin mekanizma tarihçiler arasında hâlâ tartışmalıdır" },
+  kaynak:"bulunamadı — bu anlatı (Gabriele de' Mussi'nin çağdaş tanıklığına dayanır) standart akademik salgın tarihi literatüründe yaygın kabul görür; bu oturumda birincil metin OKUNMADI, kesin mekanizma tarihçiler arasında hâlâ tartışmalıdır", yer_id:"Kefe" },
 
 { t:"1379-08-16", b:"Chioggia'nın ele geçirilmesi — Venedik lagününe girilmesi", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["ceneviz","askeri"],
   d:"Macaristan ve Padova ile ittifak hâlindeki Cenova donanması Chioggia'yı ele geçirip Venedik lagününün içine kadar girdi — cumhuriyet tarihinin Venedik'e en yaklaştığı andır. Ama Venedik'in çaresizlik içinde topladığı yeni donanma bir yıl içinde dengeyi tersine çevirecekti.",
-  kaynak:"data/kronoloji_venedik.js aynı kuşatmayı anlatıyor (Venedik perspektifinden); gün DOĞRULANMADI, dunya değeri Venedik dosyasıyla uyumlu tutuldu (dunya:2)" },
+  kaynak:"data/kronoloji_venedik.js aynı kuşatmayı anlatıyor (Venedik perspektifinden); gün DOĞRULANMADI, dunya değeri Venedik dosyasıyla uyumlu tutuldu (dunya:2)", yer_kon:[45.219,12.279] },
 
 { t:"1381-08-08", b:"Torino Barışı — Chioggia Savaşı'nın sona ermesi", tur:"antlasma", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["ceneviz","antlasma"],
   d:"Savoya Kontu'nun arabuluculuğuyla imzalanan barış, Cenova'nın lagüne girmesine rağmen savaşı kesin bir zaferle bitiremediğini tescil etti; iki cumhuriyet arasındaki üstünlük mücadelesi bundan sonra giderek Venedik lehine dönecekti.",
-  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı" },
+  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı", yer_id:"Torino" },
 
 { t:"1453-05-29", b:"İstanbul'un fethi — Galata'nın (Pera) Osmanlı'ya bağlanması", tur:"toprak-kayip", onem:5, dunya:5, kapsam:"dis", yer_id:"",
   etiket:["ceneviz","toprak-kayip","kriz"],
   d:"II. Mehmed'in İstanbul'u fethiyle, Haliç karşısındaki Ceneviz kolonisi Galata (Pera) tarafsızlığını koruyamayıp teslim oldu; Osmanlı yönetimi kolonizasyon ayrıcalıklarının çoğunu tanısa da, cumhuriyetin Boğaz'daki bağımsız siyasî varlığı fiilen sona erdi. Bu, Cenova'nın Doğu Akdeniz koloni ağının çözülüşünün ilk büyük halkasıdır.",
-  kaynak:"CLAUDE.md'de projede zaten ilan edilmiş `dunya` hizalaması: 1453-05-29 → 5 — bu dosyada AYNI değer kullanıldı; gün İstanbul'un fetih tarihiyle (proje çapında sabit) birebir" },
+  kaynak:"CLAUDE.md'de projede zaten ilan edilmiş `dunya` hizalaması: 1453-05-29 → 5 — bu dosyada AYNI değer kullanıldı; gün İstanbul'un fetih tarihiyle (proje çapında sabit) birebir", yer_id:"İstanbul" },
 
 { t:"1455-01-01", b:"Sakız Adası'nın Maona şirketi idaresine geçmesi", tur:"idari", onem:3, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["ceneviz","ekonomi"],
   d:"Cenova'nın Ege'deki en değerli kolonisi Sakız (Chios), doğrudan devlet yönetimi yerine Giustiniani ailesinin başını çektiği bir hissedarlar şirketi olan Maona'nın idaresine bırakıldı — ortaçağ Avrupa'sının erken bir özel-sermaye sömürgecilik modelidir.",
-  kaynak:"data/devletler.js `cenova` embedded kronoloji: \"Sakız Adası Maona şirketi idaresine geçti\"" },
+  kaynak:"data/devletler.js `cenova` embedded kronoloji: \"Sakız Adası Maona şirketi idaresine geçti\"", yer_id:"Sakız" },
 
 { t:"1461-08-15", b:"Amasra kolonisinin Osmanlı'ya düşmesi", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["ceneviz","toprak-kayip"],
   d:"Fatih Sultan Mehmed'in Karadeniz seferi sırasında Cenova'nın Anadolu kıyısındaki kolonisi Amasra, direnmeden Osmanlı'ya teslim oldu; Karadeniz kıyısındaki Ceneviz varlığının tasfiyesinin ilk adımlarından biriydi.",
-  kaynak:"data/devletler.js `cenova` embedded kronoloji: \"Amasra kolonisi Osmanlı'ya düştü\"" },
+  kaynak:"data/devletler.js `cenova` embedded kronoloji: \"Amasra kolonisi Osmanlı'ya düştü\"", yer_id:"Amasra" },
 
 { t:"1475-06-01", b:"Kefe'nin Osmanlı'ya düşmesi", tur:"toprak-kayip", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["ceneviz","toprak-kayip","askeri"],
   d:"Gedik Ahmed Paşa komutasındaki Osmanlı donanması Kefe'yi kuşatıp birkaç gün içinde teslim aldı; cumhuriyetin bir buçuk asırlık Kırım koloni ağının kalbi kayboldu. Kefe'nin düşüşü, Cenova'nın Karadeniz'deki ekonomik varlığının fiilen sonu anlamına geliyordu.",
-  kaynak:"data/devletler.js `cenova` embedded kronoloji: \"Kefe, Osmanlı'ya düştü\"" },
+  kaynak:"data/devletler.js `cenova` embedded kronoloji: \"Kefe, Osmanlı'ya düştü\"", yer_id:"Kefe" },
 
 { t:"1528-09-12", b:"Andrea Doria'nın anayasa reformu", tur:"anayasa", onem:5, dunya:2, kapsam:"ic", yer_id:"Cenova",
   etiket:["ceneviz","anayasa","reform"],
@@ -458,7 +458,7 @@ window.KRONOLOJI_ITALYA = [
 { t:"1566-04-14", b:"Sakız Adası'nın Osmanlı'ya ilhakı — son Ege kolonisinin kaybı", tur:"toprak-kayip", onem:5, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["ceneviz","toprak-kayip"],
   d:"Kaptan-ı Derya Piyale Paşa'nın donanması Sakız'ı işgal edip Giustiniani ailesinin iki asırlık Maona idaresine son verdi; Cenova'nın Doğu Akdeniz'deki son kolonisi de böylece kayboldu ve cumhuriyet artık yalnızca Ligurya kıyısı ve Korsika'ya sıkışmış bir güç hâline geldi.",
-  kaynak:"TDV İslâm Ansiklopedisi, 'Sakız Adası' (gövdesi WebFetch ile okundu, slug `sakiz-adasi` canlı): \"Kaptanıderyâ Piyâle Paşa tarafından çatışma olmaksızın zaptedildi. Cenevizliler İstanbul'a gönderildi (24 Ramazan 973 / 14 Nisan 1566) ... Bu fetihle Sakız'da 220 yıl süren Maona hâkimiyeti son buldu\"; data/devletler.js `cenova` embedded kronolojisiyle birebir uyumlu" },
+  kaynak:"TDV İslâm Ansiklopedisi, 'Sakız Adası' (gövdesi WebFetch ile okundu, slug `sakiz-adasi` canlı): \"Kaptanıderyâ Piyâle Paşa tarafından çatışma olmaksızın zaptedildi. Cenevizliler İstanbul'a gönderildi (24 Ramazan 973 / 14 Nisan 1566) ... Bu fetihle Sakız'da 220 yıl süren Maona hâkimiyeti son buldu\"; data/devletler.js `cenova` embedded kronolojisiyle birebir uyumlu", yer_id:"Sakız" },
 
 { t:"1684-05-17", b:"Fransız donanmasının Cenova'yı bombalaması", tur:"kriz", onem:3, dunya:2, kapsam:"dis", yer_id:"Cenova",
   etiket:["ceneviz","askeri","kriz"],
@@ -473,7 +473,7 @@ window.KRONOLOJI_ITALYA = [
 { t:"1768-05-15", b:"Korsika'nın Fransa'ya satılması", tur:"toprak-kayip", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["ceneviz","toprak-kayip","antlasma"],
   d:"Korsikalı isyancılara (Pasquale Paoli önderliğinde) karşı adayı bir türlü tam denetim altına alamayan Cenova, Versailles Antlaşması'yla adanın egemenlik haklarını Fransa'ya devretti. Bir yıl sonra adada doğacak Napolyon Bonapart, bu yüzden Fransız vatandaşı olarak dünyaya gelecekti.",
-  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı" },
+  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı", yer_kon:[48.804,2.121] },
 
 { t:"1797-06-14", b:"Napolyon'un cumhuriyeti ilga etmesi — Ligurya Cumhuriyeti'nin kuruluşu", tur:"son", onem:5, dunya:3, kapsam:"dis", yer_id:"Cenova",
   etiket:["ceneviz","isgal","son"],
@@ -512,7 +512,7 @@ window.KRONOLOJI_ITALYA = [
 { t:"1454-04-09", b:"Lodi Barışı — İtalyan Ligi'nin kurulması", tur:"antlasma", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["milano","antlasma","diplomasi"],
   d:"Milano, Venedik, Floransa, Napoli ve Papalık arasında imzalanan barış, beş büyük İtalyan devletini karşılıklı güvenlik garantisi veren bir dengeye (İtalyan Ligi) bağladı. Kırk yıl sürecek bu göreli barış dönemi, Rönesans kültürünün en parlak on yıllarına zemin hazırladı — 1494'te Fransız işgaliyle çökecekti.",
-  kaynak:"bulunamadı — gün YAYGIN KABUL, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı" },
+  kaynak:"bulunamadı — gün YAYGIN KABUL, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı", yer_kon:[45.314,9.503] },
 
 { t:"1476-12-26", b:"Galeazzo Maria Sforza'nın suikastı", tur:"kriz", onem:3, dunya:1, kapsam:"ic", yer_id:"Milano",
   etiket:["milano","kriz"],
@@ -542,7 +542,7 @@ window.KRONOLOJI_ITALYA = [
 { t:"1515-09-13", b:"Marignano Savaşı — Fransa'nın Milano'yu geri alması", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["milano","askeri","toprak-kayip"],
   d:"Yeni Fransa Kralı I. François, iki gün süren kanlı bir savaşta İsviçreli paralı askerleri yenip Milano Kalesi'ni ele geçirdi; dükalık yeniden Fransız kontrolüne girdi. Savaş, dönemin en ağır kayıplı çarpışmalarından biri olarak \"devlerin savaşı\" diye anıldı.",
-  kaynak:"Encyclopaedia Britannica, 'Battle of Marignano' (WebSearch ile alıntılandı): \"The Battle of Marignano (Sept. 13-14, 1515) was a French victory over a Swiss army in the first Italian campaign of Francis I of France ... the battle resulted in the French recovery of Milan\"" },
+  kaynak:"Encyclopaedia Britannica, 'Battle of Marignano' (WebSearch ile alıntılandı): \"The Battle of Marignano (Sept. 13-14, 1515) was a French victory over a Swiss army in the first Italian campaign of Francis I of France ... the battle resulted in the French recovery of Milan\"", yer_kon:[45.359,9.323] },
 
 { t:"1521-11-19", b:"İmparator-Papa ittifakının Fransızları Milano'dan çıkarması", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"Milano",
   etiket:["milano","askeri"],
@@ -552,7 +552,7 @@ window.KRONOLOJI_ITALYA = [
 { t:"1525-02-24", b:"Pavia Savaşı — Fransa Kralı'nın esir düşmesi", tur:"savas", onem:5, dunya:5, kapsam:"dis", yer_id:"",
   etiket:["milano","askeri","toprak-kayip"],
   d:"İmparator V. Karl'ın kuvvetleri, Milano'yu geri almaya çalışan I. François'in ordusunu Pavia'da imha etti; kralın kendisi esir düştü. Savaş, Habsburg üstünlüğünün İtalya'da kesin biçimde tesis edildiği dönüm noktasıdır ve Avrupa güç dengesini bir nesil boyunca V. Karl lehine değiştirdi.",
-  kaynak:"Encyclopaedia Britannica, 'Battle of Pavia' (WebSearch ile alıntılandı): \"The Battle of Pavia on February 24, 1525, resulted in the annihilation of the French army and the capture of King Francis I by Habsburg forces\"" },
+  kaynak:"Encyclopaedia Britannica, 'Battle of Pavia' (WebSearch ile alıntılandı): \"The Battle of Pavia on February 24, 1525, resulted in the annihilation of the French army and the capture of King Francis I by Habsburg forces\"", yer_kon:[45.185,9.156] },
 
 { t:"1535-11-01", b:"Son Sforza dükünün ölümü — Milano'nun İspanyol tacına katılması", tur:"bolunme", onem:5, dunya:4, kapsam:"dis", yer_id:"Milano",
   etiket:["milano","hanedan","toprak-kayip"],
@@ -562,7 +562,7 @@ window.KRONOLOJI_ITALYA = [
 { t:"1559-04-03", b:"Cateau-Cambrésis Antlaşması — İspanyol Milano'sunun teyidi", tur:"antlasma", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["milano","antlasma","diplomasi"],
   d:"Fransa'yı İtalyan Savaşları'ndan kesin olarak çekilmeye zorlayan antlaşma, İspanya'nın Milano ve Napoli üzerindeki hâkimiyetini uluslararası hukukta tescil etti; altmış beş yıl süren savaşlar dönemi böylece kapandı ve İtalya'da bir buçuk asır sürecek İspanyol üstünlüğü dönemi başladı.",
-  kaynak:"Encyclopaedia Britannica, 'Peace of Cateau-Cambrésis' (WebSearch ile alıntılandı): \"The Peace of Cateau-Cambrésis (April 3, 1559) was an agreement marking the end of the 65-year (1494-1559) struggle between France and Spain for the control of Italy, leaving Habsburg Spain the dominant power there for the next 150 years ... Henry also restored Corsica to Genoa and renounced his hereditary claim to Milan\"" },
+  kaynak:"Encyclopaedia Britannica, 'Peace of Cateau-Cambrésis' (WebSearch ile alıntılandı): \"The Peace of Cateau-Cambrésis (April 3, 1559) was an agreement marking the end of the 65-year (1494-1559) struggle between France and Spain for the control of Italy, leaving Habsburg Spain the dominant power there for the next 150 years ... Henry also restored Corsica to Genoa and renounced his hereditary claim to Milan\"", yer_kon:[50.101,3.545] },
 
 { t:"1630-01-01", b:"Milano vebası", tur:"salgin", onem:3, dunya:2, kapsam:"ic", yer_id:"Milano",
   etiket:["milano","kriz"],
@@ -572,7 +572,7 @@ window.KRONOLOJI_ITALYA = [
 { t:"1706-09-07", b:"Torino Savaşı — Fransızların Milano'dan çıkarılması", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["milano","askeri"],
   d:"İspanyol Veraset Savaşı sırasında Savoya-Avusturya ittifakı Fransız kuşatma ordusunu Torino'da yenilgiye uğrattı; bu zafer, Fransa'nın Kuzey İtalya'daki nüfuzunu kırıp Milano'nun Avusturya Habsburglarına geçmesinin yolunu açtı.",
-  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı" },
+  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı", yer_id:"Torino" },
 
 { t:"1714-01-01", b:"Milano'nun resmen Avusturya Habsburglarına geçmesi", tur:"toprak-kayip", onem:5, dunya:3, kapsam:"dis", yer_id:"Milano",
   etiket:["milano","antlasma","toprak-kayip"],
@@ -607,7 +607,7 @@ window.KRONOLOJI_ITALYA = [
 { t:"1859-11-10", b:"Zürih Antlaşması — Lombardiya'nın Sardinya-Piyemonte'ye bırakılması", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["milano","antlasma","son"],
   d:"II. Bağımsızlık Savaşı'nı resmen sonlandıran antlaşma, Avusturya'nın Lombardiya'dan (Venedik hariç) çekilmesini ve bölgenin Sardinya-Piyemonte'ye katılmasını tescil etti; Milano Dükalığı'nın bağımsız-taşra tarihi burada son buldu, şehir birleşecek İtalya'nın en büyük sanayi merkezi olacaktı.",
-  kaynak:"data/devletler.js `milano-dukaligi` (t:\"1859-11-10\"): \"Zürih Antlaşması ile Lombardiya Sardinya-Piyemonte'ye bırakıldı\"" },
+  kaynak:"data/devletler.js `milano-dukaligi` (t:\"1859-11-10\"): \"Zürih Antlaşması ile Lombardiya Sardinya-Piyemonte'ye bırakıldı\"", yer_id:"Zürih" },
 
 // ══════════════════════════════════════════════════════════════════
 // V. FLORANSA CUMHURİYETİ / TOSKANA BÜYÜK DÜKALIĞI (Floransa) — Medici
@@ -760,42 +760,42 @@ window.KRONOLOJI_ITALYA = [
 { t:"1260-09-04", b:"Montaperti Savaşı — Siena'nın Floransa'yı ağır yenilgiye uğratması", tur:"savas", onem:5, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["siena","askeri"],
   d:"Ghibelline (İmparator yanlısı) Siena, sürgündeki Floransalı Ghibellinelerin ve Napoli Kralı Manfred'in desteğiyle Guelph (Papa yanlısı) Floransa ordusunu Montaperti'de ağır bir yenilgiye uğrattı — Dante bu savaşın kanla kızaran Arbia nehrini \"İlahi Komedya\"da anacaktı. Zafer kısa sürdü: dokuz yıl sonra Floransa aynı ittifak dengesiyle intikamını alacaktı. (Bu olay `data/devletler.js`de zaten kayıtlı; pencere öncesi (1260) olduğu için açılış madde olarak, sonraki dönemin arka planını vermek üzere alındı.)",
-  kaynak:"data/devletler.js `siena` embedded kronoloji: \"Montaperti Savaşı'nda Floransa'yı ağır yenilgiye uğrattı\"" },
+  kaynak:"data/devletler.js `siena` embedded kronoloji: \"Montaperti Savaşı'nda Floransa'yı ağır yenilgiye uğrattı\"", yer_kon:[43.32,11.451] },
 
 { t:"1348-01-01", b:"Kara Ölüm'ün Siena'yı vurması — katedral genişletme projesinin terki", tur:"salgin", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["siena","kriz","mimari"],
   d:"Veba, Siena nüfusunun büyük bir bölümünü öldürdü; şehrin o dönemde Hristiyanlığın en büyük katedrali olmayı hedefleyen devasa genişletme projesi (bugün yalnız yarım kalan duvarlarıyla görülür) işçi ve kaynak kıtlığı yüzünden terk edildi. Salgın öncesi zenginliğinin zirvesindeki cumhuriyet, bu tarihten sonra bir daha eski gücüne kavuşamadı.",
-  kaynak:"bulunamadı — gün DOĞRULANMADI, standart akademik konsensüs" },
+  kaynak:"bulunamadı — gün DOĞRULANMADI, standart akademik konsensüs", yer_id:"Siena" },
 
 { t:"1555-04-17", b:"Siena'nın Floransa-İspanyol kuvvetlerine teslimi", tur:"son", onem:5, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["siena","askeri","son"],
   d:"Cosimo I'in Floransa'sı ile İspanya'nın müttefik kuvvetleri, on dört ay süren açlık kuşatmasının ardından cumhuriyeti teslim aldı; birkaç yıl sonra Cateau-Cambrésis Antlaşması Siena'yı resmen Toskana Büyük Dükalığı'na kattı. Üç yüz elli yıllık bağımsız cumhuriyet tarihi böylece sona erdi.",
-  kaynak:"data/devletler.js `siena` (t:\"1555-04-17\"): \"Uzun kuşatma sonunda Floransa-İspanya kuvvetlerine teslim oldu\"" },
+  kaynak:"data/devletler.js `siena` (t:\"1555-04-17\"): \"Uzun kuşatma sonunda Floransa-İspanya kuvvetlerine teslim oldu\"", yer_id:"Siena" },
 
 { t:"1240-01-01", b:"Este ailesinin Ferrara'da beyliğini kurması", tur:"kurulus", onem:4, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["ferrara","este","kurulus"],
   d:"Kuzey İtalya'nın en eski hanedanlarından biri olan Este ailesi, Po nehri deltasındaki Ferrara'da kalıcı bir senyörlük kurdu; hanedan sonraki altı asır boyunca Rönesans İtalya'sının en uzun ömürlü küçük saraylarından birini yönetecekti.",
-  kaynak:"data/devletler.js `ferrara` embedded kronoloji: \"Este ailesi Ferrara'da beyliğini kurdu\"" },
+  kaynak:"data/devletler.js `ferrara` embedded kronoloji: \"Este ailesi Ferrara'da beyliğini kurdu\"", yer_id:"Ferrara" },
 
 { t:"1471-01-01", b:"Papalık'ın 'Ferrara Dükü' unvanını tanıması", tur:"kurulus", onem:3, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["ferrara","este","hanedan"],
   d:"Papa, Este hanedanının beyliğini resmen dükalık statüsüne yükseltti; Ferrara sarayı bu dönemde İtalya'nın en zengin edebiyat ve müzik merkezlerinden birine dönüşecekti.",
-  kaynak:"data/devletler.js `ferrara` embedded kronoloji: \"Papa tarafından 'Ferrara Dükü' unvanı tanındı\"" },
+  kaynak:"data/devletler.js `ferrara` embedded kronoloji: \"Papa tarafından 'Ferrara Dükü' unvanı tanındı\"", yer_id:"Roma" },
 
 { t:"1516-01-01", b:"Ariosto'nun 'Çılgın Orlando'yu yayımlaması", tur:"kultur", onem:4, dunya:3, kapsam:"ic", yer_id:"",
   etiket:["ferrara","este","kultur","sanat"],
   d:"Este sarayının şairi Ludovico Ariosto, şövalyelik destanı geleneğini ironiyle harmanlayan \"Orlando Furioso\"nun ilk baskısını Ferrara'da yayımladı; eser, İtalyan edebiyatının en etkili şiir yapıtlarından biri olarak sonraki yüzyılların Avrupa edebiyatını (Spenser, Cervantes) doğrudan etkileyecekti.",
-  kaynak:"bulunamadı — gün DOĞRULANMADI, standart akademik konsensüs (ilk baskı 1516)" },
+  kaynak:"bulunamadı — gün DOĞRULANMADI, standart akademik konsensüs (ilk baskı 1516)", yer_id:"Ferrara" },
 
 { t:"1598-01-01", b:"Ferrara'nın Papalık Devleti'ne ilhakı", tur:"toprak-kayip", onem:5, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["ferrara","este","toprak-kayip"],
   d:"Meşru (evlilik-içi) bir varis bırakmadan ölen dük Alfonso II'nin ardından Papa VIII. Clement, feodal hukuku gerekçe göstererek Ferrara'yı doğrudan Papalık Devleti'ne kattı; Este hanedanı payitahtını kuzeydeki Modena'ya taşımak zorunda kaldı.",
-  kaynak:"data/devletler.js `ferrara` embedded kronoloji: \"Ferrara, meşru varis yokluğuyla Papalık Devleti'ne ilhak edildi, hanedan Modena'ya çekildi\"" },
+  kaynak:"data/devletler.js `ferrara` embedded kronoloji: \"Ferrara, meşru varis yokluğuyla Papalık Devleti'ne ilhak edildi, hanedan Modena'ya çekildi\"", yer_id:"Ferrara" },
 
 { t:"1859-01-01", b:"Modena'nın Sardinya-Piyemonte'ye katılması", tur:"birlesme", onem:5, dunya:3, kapsam:"ic", yer_id:"",
   etiket:["ferrara","este","milliyetcilik","son"],
   d:"II. Bağımsızlık Savaşı'nın yarattığı devrimci dalgada Modena'daki Este dükü tahtından indirildi ve bölge halkoylamasıyla Sardinya-Piyemonte'ye katıldı; altı asırlık Este hanedanlığı böylece son buldu.",
-  kaynak:"data/devletler.js `ferrara` (t:\"1859-01-01\"): \"İtalyan birleşme hareketiyle Modena da Sardinya-Piyemonte'ye katıldı\"" },
+  kaynak:"data/devletler.js `ferrara` (t:\"1859-01-01\"): \"İtalyan birleşme hareketiyle Modena da Sardinya-Piyemonte'ye katıldı\"", yer_id:"Modena" },
 
 // ══════════════════════════════════════════════════════════════════
 // VII. SAVOYA → SARDİNYA-PİYEMONTE KRALLIĞI → İTALYA KRALLIĞI (Torino → Roma)
@@ -804,7 +804,7 @@ window.KRONOLOJI_ITALYA = [
 { t:"1416-02-19", b:"Savoya'nın dükalığa yükseltilmesi", tur:"kurulus", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["piyemonte","savoya","hanedan"],
   d:"İmparator Sigismund, VIII. Amedeo'yu Alp geçitlerini denetleyen kadim Savoya kontluğunun dükü ilan etti; hanedan bu unvanla üç asır boyunca Fransa ile İtalya arasındaki jeopolitik menteşe konumunu koruyacaktı.",
-  kaynak:"data/devletler.js `savoya` embedded kronoloji: \"İmparator Sigismund, VIII. Amedeo'yu Savoya Dükü ilan etti\"" },
+  kaynak:"data/devletler.js `savoya` embedded kronoloji: \"İmparator Sigismund, VIII. Amedeo'yu Savoya Dükü ilan etti\"", yer_id:"Chambéry" },
 
 { t:"1563-01-01", b:"Başkentin Chambéry'den Torino'ya taşınması", tur:"idari", onem:3, dunya:1, kapsam:"ic", yer_id:"Torino",
   etiket:["piyemonte","savoya","idari"],
@@ -819,7 +819,7 @@ window.KRONOLOJI_ITALYA = [
 { t:"1798-12-09", b:"Piyemonte'nin Fransa'ya ilhakı", tur:"isgal", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["piyemonte","isgal"],
   d:"Fransız Devrim orduları önceki yıllarda Savoy ve Nice'i ilhak etmişti; şimdi de anakara Piyemonte doğrudan Fransız idaresine alındı, kraliyet hanedanı ada olan Sardinya'ya sığınmak zorunda kaldı — krallığın en küçüldüğü dönemdir.",
-  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı" },
+  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı", yer_id:"Torino" },
 
 { t:"1814-05-20", b:"Viyana sonrası restorasyon — Cenova'nın eklenmesi", tur:"kurulus", onem:4, dunya:2, kapsam:"dis", yer_id:"Torino",
   etiket:["piyemonte","diplomasi"],
@@ -839,12 +839,12 @@ window.KRONOLOJI_ITALYA = [
 { t:"1848-03-23", b:"I. Bağımsızlık Savaşı'nın başlaması", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["piyemonte","askeri","milliyetcilik"],
   d:"Milano'nun Avusturya'ya karşı ayaklanmasından cesaret alan Carlo Alberto, Lombardiya'yı \"kurtarma\" gerekçesiyle Avusturya'ya savaş açtı; savaş bir yıl sonra Piyemonte'nin Novara'da ağır yenilgisiyle sonuçlanacak olsa da, İtalyan milliyetçi hareketinin ilk düzenli ordu-devlet girişimiydi.",
-  kaynak:"data/devletler.js `sardinya-piyemonte` embedded kronoloji: \"I. Bağımsızlık Savaşı'nda Avusturya'ya karşı savaştı\" (t:\"1848-03-23\")" },
+  kaynak:"data/devletler.js `sardinya-piyemonte` embedded kronoloji: \"I. Bağımsızlık Savaşı'nda Avusturya'ya karşı savaştı\" (t:\"1848-03-23\")", yer_id:"Torino" },
 
 { t:"1849-03-23", b:"Novara Savaşı yenilgisi — Carlo Alberto'nun tahttan çekilmesi", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["piyemonte","askeri"],
   d:"Avusturya Mareşali Radetzky, Piyemonte ordusunu Novara'da kesin bir yenilgiye uğrattı; Carlo Alberto aynı gün tahttan çekilip sürgüne gitti, yerine oğlu II. Vittorio Emanuele geçti. Yenilgiye rağmen yeni kral, Statuto Albertino'yu yürürlükte tutarak Piyemonte'yi İtalya'da anayasal düzenin tek kalesi hâline getirdi.",
-  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı" },
+  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı", yer_kon:[45.446,8.622] },
 
 { t:"1852-11-04", b:"Cavour'un başbakan olması", tur:"siyaset", onem:5, dunya:2, kapsam:"ic", yer_id:"Torino",
   etiket:["piyemonte","siyaset","diplomasi"],
@@ -859,27 +859,27 @@ window.KRONOLOJI_ITALYA = [
 { t:"1858-07-21", b:"Plombières görüşmesi — Cavour-Napolyon III gizli anlaşması", tur:"diplomasi", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["piyemonte","diplomasi"],
   d:"Cavour, Fransa İmparatoru III. Napolyon ile gizlice buluşup Avusturya'ya karşı ortak bir savaş ve savaş sonrası toprak paylaşımı (Piyemonte Lombardiya-Venedik'i alacak, Fransa karşılığında Savoy ve Nice'i alacak) üzerinde anlaştı; bu gizli pazarlık, bir yıl sonraki II. Bağımsızlık Savaşı'nın diplomatik zeminini kurdu.",
-  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı" },
+  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı", yer_kon:[47.965,6.458] },
 
 { t:"1859-04-29", b:"II. Bağımsızlık Savaşı'nın başlaması", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["piyemonte","askeri","milliyetcilik"],
   d:"Avusturya, Piyemonte'nin seferberliğini durdurmasını isteyen bir ültimatom verip reddedilince savaş ilan etti — tam olarak Cavour'un Plombières'te tasarladığı senaryoydu. Fransız-Piyemonte ordusu birkaç ay içinde Lombardiya'yı ele geçirecekti.",
-  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı" },
+  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı", yer_id:"Torino" },
 
 { t:"1859-06-04", b:"Magenta Savaşı", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["piyemonte","askeri"],
   d:"Fransız-Piyemonte kuvvetleri Avusturya ordusunu Magenta'da yenip Milano yolunu açtı; savaş sırasında kullanılan koyu mor-kırmızı boya rengine bu zaferin adı verildi (magenta rengi).",
-  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı" },
+  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı", yer_kon:[45.465,8.879] },
 
 { t:"1859-06-24", b:"Solferino Savaşı", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["piyemonte","askeri"],
   d:"On dokuzuncu yüzyılın en büyük çaplı savaşlarından biri olan Solferino'da Fransız-Piyemonte ordusu Avusturya'yı kesin biçimde yendi. Savaş alanındaki korkunç manzarayı gören İsviçreli işadamı Henry Dunant'ın tanıklığı, birkaç yıl sonra Uluslararası Kızılhaç Komitesi'nin kurulmasına doğrudan yol açacaktı — savaşın İtalyan birleşmesi dışındaki en kalıcı mirası budur.",
-  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı" },
+  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı", yer_kon:[45.373,10.567] },
 
 { t:"1859-07-11", b:"Villafranca Ateşkesi", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["piyemonte","antlasma","diplomasi"],
   d:"III. Napolyon, Prusya'nın müdahale tehdidinden ve savaşın beklenenden kanlı gitmesinden ürkerek Cavour'a danışmadan Avusturya ile ateşkes imzaladı; Piyemonte yalnız Lombardiya'yı aldı, Venedik Avusturya'da kaldı. Cavour öfkeyle istifa etti ama Lombardiya kazanımı kalıcı oldu.",
-  kaynak:"data/devletler.js `sardinya-piyemonte` embedded kronoloji: \"II. Bağımsızlık Savaşı'nda Fransa ile birlikte Avusturya'yı yenip Lombardiya'yı kazandı\" (t:\"1859-07-11\")" },
+  kaynak:"data/devletler.js `sardinya-piyemonte` embedded kronoloji: \"II. Bağımsızlık Savaşı'nda Fransa ile birlikte Avusturya'yı yenip Lombardiya'yı kazandı\" (t:\"1859-07-11\")", yer_kon:[45.352,10.845] },
 
 { t:"1860-03-24", b:"Torino Antlaşması — Nice ve Savoy'un Fransa'ya devri", tur:"toprak-kayip", onem:4, dunya:3, kapsam:"dis", yer_id:"Torino",
   etiket:["piyemonte","toprak-kayip","antlasma"],
@@ -904,12 +904,12 @@ window.KRONOLOJI_ITALYA = [
 { t:"1862-08-29", b:"Aspromonte — Garibaldi'nin Roma seferinin durdurulması", tur:"kriz", onem:3, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["italya-birlik","askeri","kriz"],
   d:"Garibaldi, hükümetin onayı olmadan Roma'yı Papalık'tan almak için gönüllü topladı; kral II. Vittorio Emanuele, Fransa'yı kızdırmaktan çekinerek düzenli orduyu Garibaldi'nin üstüne gönderdi ve Aspromonte'de kısa bir çatışmada Garibaldi yaralanıp esir alındı — birleşme hareketinin kendi içindeki devlet-gönüllü gerilimini açığa çıkaran olaydır.",
-  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı" },
+  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı", yer_kon:[38.17,15.9] },
 
 { t:"1866-06-20", b:"III. Bağımsızlık Savaşı'nın ilanı", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["italya-birlik","askeri","milliyetcilik"],
   d:"İtalya, Prusya ile ittifak kurup Avusturya'ya savaş açtı; amaç, Avusturya Prusya'ya karşı savaşırken Venedik'i almaktı. İtalyan ordusu Custoza'da karada, donanması Lissa'da denizde yenilse de, Prusya'nın Königgrätz'de kazandığı zafer İtalya'yı savaşın galip tarafına taşıdı.",
-  kaynak:"data/devletler.js `italya` embedded kronoloji: \"III. Bağımsızlık Savaşı ile Venedik'i kazandı\" (yıl 1866 olarak veriliyor, gün bu oturumda ayrıca doğrulanmadı)" },
+  kaynak:"data/devletler.js `italya` embedded kronoloji: \"III. Bağımsızlık Savaşı ile Venedik'i kazandı\" (yıl 1866 olarak veriliyor, gün bu oturumda ayrıca doğrulanmadı)", yer_id:"Floransa" },
 
 { t:"1866-10-21", b:"Venedik plebisiti", tur:"birlesme", onem:5, dunya:4, kapsam:"ic", yer_id:"Venedik",
   etiket:["italya-birlik","milliyetcilik","venedik"],
@@ -919,7 +919,7 @@ window.KRONOLOJI_ITALYA = [
 { t:"1867-11-03", b:"Mentana Savaşı — Garibaldi'nin ikinci Roma girişiminin durdurulması", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["italya-birlik","askeri"],
   d:"Garibaldi'nin gönüllüleri yine hükümetin onayı olmadan Roma'ya yürüdü; ama Roma'yı koruyan Fransız garnizonu (yeni icat edilen Chassepot tüfekleriyle) gönüllüleri Mentana'da kesin biçimde durdurdu. Roma sorunu ancak üç yıl sonra, Fransa'nın kendi savaşıyla meşgul olmasıyla çözülecekti.",
-  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı" },
+  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı", yer_kon:[42.032,12.643] },
 
 { t:"1871-07-02", b:"Roma'nın resmen başkent olması", tur:"idari", onem:4, dunya:3, kapsam:"ic", yer_id:"Roma",
   etiket:["italya-birlik","idari"],
@@ -929,17 +929,17 @@ window.KRONOLOJI_ITALYA = [
 { t:"1882-05-20", b:"Üçlü İttifak'ın imzalanması", tur:"ittifak", onem:5, dunya:5, kapsam:"dis", yer_id:"",
   etiket:["italya-birlik","ittifak","diplomasi"],
   d:"İtalya, Fransa ile Tunus üzerine yaşadığı sömürge rekabetinin ardından Almanya ve Avusturya-Macaristan ile savunma amaçlı bir ittifak imzaladı — ironik biçimde, Avusturya'ya karşı üç bağımsızlık savaşı vermiş bir devlet, şimdi o devletle aynı ittifak masasındaydı. Bu ittifak sistemi, otuz iki yıl sonra I. Dünya Savaşı'nın patlak vermesindeki blok yapısının kurucu taşlarından biri olacaktı.",
-  kaynak:"bulunamadı — gün DOĞRULANMADI, standart akademik konsensüs" },
+  kaynak:"bulunamadı — gün DOĞRULANMADI, standart akademik konsensüs", yer_id:"Viyana" },
 
 { t:"1896-03-01", b:"Adwa Savaşı yenilgisi", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["italya-birlik","askeri","kolonyalizm"],
   d:"İtalya'nın Habeşistan'ı sömürgeleştirme girişimi, İmparator II. Menelik'in ordusuna Adwa'da ağır bir yenilgiyle sonuçlandı — bir Afrika devletinin bir Avrupa sömürgeci gücünü açık savaşta yenip bağımsızlığını koruduğu, dönemin nadir örneklerinden biri. Yenilgi İtalya'da hükümetin düşmesine yol açtı ve sömürge hırslarını on beş yıl geciktirdi.",
-  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı" },
+  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı", yer_id:"Adua" },
 
 { t:"1900-07-29", b:"I. Umberto'nun suikastı", tur:"olum", onem:3, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["italya-birlik","kriz"],
   d:"Kral I. Umberto, anarşist Gaetano Bresci tarafından Monza'da tabancayla öldürüldü; suikast, Bresci'nin bir yıl önce hükümetin işçi gösterilerine ateş açtırmasının (Bava-Beccaris Katliamı) intikamıydı. Tahta oğlu III. Vittorio Emanuele geçti.",
-  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı" },
+  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı", yer_kon:[45.584,9.274] },
 
 { t:"1908-12-28", b:"Messina Depremi", tur:"felaket", onem:4, dunya:2, kapsam:"ic", yer_id:"Messina",
   etiket:["italya-birlik","kriz"],
@@ -949,22 +949,22 @@ window.KRONOLOJI_ITALYA = [
 { t:"1911-09-29", b:"Trablusgarp Savaşı'nın ilanı", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["italya-birlik","askeri","kolonyalizm"],
   d:"İtalya, Osmanlı Devleti'ne son Kuzey Afrika vilayeti Trablusgarp'ı devretmesi için ültimatom verip reddedilince savaş ilan etti; bu, İtalya'nın birleşmesinden sonraki ilk büyük sömürgeci savaşıydı ve tarihte uçağın askerî amaçla ilk kez kullanıldığı çatışma olarak da anılır.",
-  kaynak:"data/devletler.js `italya` embedded kronoloji: \"Trablusgarp Savaşı'nı başlattı\" (t:\"1911-09-29\"); TDV `trablusgarp` (gövdesi okundu) farklı bir tarih (\"1 Eylül 1911\") veriyor — bu oturumda İKİ KAYNAK ÇELİŞTİ, data/devletler.js'in tarihi (uluslararası akademik konsensüsle de örtüşen 29 Eylül) esas alındı, çelişki KOORDİNATÖRE bildirilecek" },
+  kaynak:"data/devletler.js `italya` embedded kronoloji: \"Trablusgarp Savaşı'nı başlattı\" (t:\"1911-09-29\"); TDV `trablusgarp` (gövdesi okundu) farklı bir tarih (\"1 Eylül 1911\") veriyor — bu oturumda İKİ KAYNAK ÇELİŞTİ, data/devletler.js'in tarihi (uluslararası akademik konsensüsle de örtüşen 29 Eylül) esas alındı, çelişki KOORDİNATÖRE bildirilecek", yer_id:"Roma" },
 
 { t:"1911-10-05", b:"Trablus'un işgali", tur:"isgal", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["italya-birlik","askeri","kolonyalizm"],
   d:"İtalyan donanmasının bombardımanının ardından deniz piyadeleri Trablus şehrine çıkarma yaptı; kısa sürede kıyı şeridi ele geçirilse de iç bölgelerdeki (Osmanlı destekli, Mustafa Kemal'in de gönüllü katıldığı) direniş yıllarca sürecekti.",
-  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı" },
+  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı", yer_id:"Trablus" },
 
 { t:"1912-05-04", b:"Rodos ve Oniki Ada'nın işgali", tur:"isgal", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["italya-birlik","askeri","kolonyalizm"],
   d:"İtalya, Osmanlı'yı barışa zorlamak için Trablusgarp cephesinin dışında Ege'de bir ikinci cephe açıp Rodos ve çevresindeki on iki adayı işgal etti; adaların \"geçici\" olduğu antlaşmayla belirtilse de fiiliyatta otuz yıldan uzun süre İtalyan idaresinde kalacaktı.",
-  kaynak:"data/devletler.js `oniki-ada-italyan` embedded kronoloji: \"İtalya, Rodos ve Oniki Ada'yı işgal etti\" (t:\"1912-05-04\")" },
+  kaynak:"data/devletler.js `oniki-ada-italyan` embedded kronoloji: \"İtalya, Rodos ve Oniki Ada'yı işgal etti\" (t:\"1912-05-04\")", yer_id:"Rodos" },
 
 { t:"1912-10-18", b:"Uşi (Ouchy/Lozan) Antlaşması", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["italya-birlik","antlasma","kolonyalizm"],
   d:"Osmanlı Devleti, Balkan Savaşı'nın patlak vermesiyle iki cepheli savaşı sürdüremeyeceğini görüp İsviçre'nin Uşi şehrinde imzalanan antlaşmayla Trablusgarp ve Bingazi'yi İtalya'ya bıraktı; Kuzey Afrika'daki son Osmanlı toprağı böylece kaybedildi.",
-  kaynak:"TDV `trablusgarp` (gövdesi okundu): \"1912'de İsviçre'nin Uşi (Ouchy/Lozan) şehrinde yapılan antlaşma ile Osmanlı Devleti, Afrika'daki bu son vilâyetini İtalya'ya terkettiğini kabul etti\" — bu oturumda WebFetch ile doğrulandı; tarih data/devletler.js `italya` ve `oniki-ada-italyan` embedded kronolojisiyle birebir uyumlu" },
+  kaynak:"TDV `trablusgarp` (gövdesi okundu): \"1912'de İsviçre'nin Uşi (Ouchy/Lozan) şehrinde yapılan antlaşma ile Osmanlı Devleti, Afrika'daki bu son vilâyetini İtalya'ya terkettiğini kabul etti\" — bu oturumda WebFetch ile doğrulandı; tarih data/devletler.js `italya` ve `oniki-ada-italyan` embedded kronolojisiyle birebir uyumlu", yer_id:"Lozan" },
 
 { t:"1914-08-03", b:"Tarafsızlık ilanı", tur:"diplomasi", onem:4, dunya:3, kapsam:"dis", yer_id:"Roma",
   etiket:["italya-birlik","diplomasi"],
@@ -974,7 +974,7 @@ window.KRONOLOJI_ITALYA = [
 { t:"1915-04-26", b:"Londra Gizli Antlaşması", tur:"antlasma", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["italya-birlik","antlasma","diplomasi"],
   d:"İtalya, İtilaf Devletleri ile gizlice imzaladığı antlaşmada Trentino, Güney Tirol, Trieste, İstria ve Dalmaçya'nın büyük kısmını vaat edilmesi karşılığında bir ay içinde İtilaf saflarında savaşa girmeyi kabul etti; bu vaatlerin savaş sonunda ancak kısmen tutulması, faşizmin yükselişini besleyecek \"sakatlanmış zafer\" söyleminin temelini atacaktı.",
-  kaynak:"Treccani, Dizionario Biografico, 'Sonnino, Sidney Costantino, barone' (gövdesi WebFetch ile okundu): \"portò l'Italia in guerra a fianco dell'Intesa con la firma del Patto di Londra (26 apr. 1915)\"" },
+  kaynak:"Treccani, Dizionario Biografico, 'Sonnino, Sidney Costantino, barone' (gövdesi WebFetch ile okundu): \"portò l'Italia in guerra a fianco dell'Intesa con la firma del Patto di Londra (26 apr. 1915)\"", yer_id:"Londra" },
 
 { t:"1915-05-23", b:"Avusturya-Macaristan'a savaş ilanı", tur:"savas", onem:5, dunya:5, kapsam:"dis", yer_id:"Roma",
   etiket:["italya-birlik","askeri","ittifak"],
@@ -984,27 +984,27 @@ window.KRONOLOJI_ITALYA = [
 { t:"1917-10-24", b:"Caporetto Bozgunu", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["italya-birlik","askeri"],
   d:"Alman takviyeli Avusturya-Macaristan kuvvetleri, yeni sızma taktikleriyle İtalyan cephesini Caporetto'da yardı; İtalyan ordusu yüz kilometreden fazla geri çekilmek zorunda kaldı, yüz binlerce asker esir düştü. Bozgun, İtalyan siyasî hafızasında ulusal utancın simgesi olarak kaldı (\"Caporetto\" kelimesi İtalyancada hâlâ \"büyük felaket\" anlamında kullanılır).",
-  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı" },
+  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı", yer_kon:[46.246,13.579] },
 
 { t:"1918-10-24", b:"Vittorio Veneto Zaferi'nin başlaması", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["italya-birlik","askeri"],
   d:"Caporetto'nun tam bir yıl dönümünde başlatılan büyük İtalyan taarruzu, çökmekte olan Avusturya-Macaristan ordusunu kesin biçimde dağıttı; zafer, İtalya'nın savaştan galip çıkmasını sağladı ve Caporetto'nun utancını simgesel olarak sildi.",
-  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı" },
+  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı", yer_kon:[45.977,12.302] },
 
 { t:"1918-11-03", b:"Villa Giusti Mütarekesi — Avusturya-Macaristan'ın teslimi", tur:"antlasma", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["italya-birlik","antlasma","son"],
   d:"Vittorio Veneto zaferinin ardından Avusturya-Macaristan, İtalya ile ateşkes imzalayıp savaştan çekildi; mütareke, çok uluslu imparatorluğun dağılma sürecini de hızlandırdı. Trentino ve Trieste böylece fiilen İtalyan kontrolüne geçti.",
-  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı" },
+  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı", yer_id:"Padova" },
 
 { t:"1919-04-28", b:"Antalya ve çevresinin işgali", tur:"isgal", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["italya-birlik","isgal","kolonyalizm"],
   d:"Londra Antlaşması'nda vaat edilen ama Paris Barış Konferansı'nda tam karşılığını bulamayan İtalya, Yunan çıkarmasından önce davranıp Antalya ve Güneybatı Anadolu'yu tek taraflı işgal etti; işgal, Millî Mücadele'nin güney-batı cephelerinden birini oluşturdu ve 1921'de İtalyan-Türk anlaşmasıyla sona erecekti.",
-  kaynak:"data/devletler.js `italya` embedded kronoloji: \"Antalya ve çevresini işgal etti (Millî Mücadele cephelerinden biri)\" (t:\"1919-04-28\")" },
+  kaynak:"data/devletler.js `italya` embedded kronoloji: \"Antalya ve çevresini işgal etti (Millî Mücadele cephelerinden biri)\" (t:\"1919-04-28\")", yer_id:"Antalya" },
 
 { t:"1919-09-12", b:"D'Annunzio'nun Fiume'yi işgali", tur:"isgal", onem:4, dunya:3, kapsam:"ic", yer_id:"",
   etiket:["italya-birlik","milliyetcilik","kriz"],
   d:"Şair-asker Gabriele D'Annunzio, Paris Barış Konferansı'nın İtalya'ya vermediği Fiume limanını birkaç bin gönüllüyle işgal edip \"Kaptanlık\" ilan etti; on beş ay süren bu işgal, resmî hükümetin yetkisini tanımayan bir paramiliter hareketin ilk büyük örneği olarak faşizmin estetiğine ve yöntemlerine doğrudan model oldu.",
-  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı" },
+  kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı", yer_kon:[45.327,14.442] },
 
 { t:"1922-10-28", b:"Roma Yürüyüşü — Mussolini'nin iktidara gelişi", tur:"darbe", onem:5, dunya:5, kapsam:"ic", yer_id:"Roma",
   etiket:["italya-birlik","kriz","siyaset"],
