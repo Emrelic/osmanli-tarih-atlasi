@@ -2815,12 +2815,65 @@ function dizindenUc(lat, lon) {
 // Çıktı örneği:
 //   🎞 kare: 52/54 · 61 fps · en uzun boşluk 18 ms  → ✓ AKICI
 //   🎞 kare: 19/54 · 22 fps · en uzun boşluk 210 ms → 🔴 KARE DÜŞÜYOR
+// ═══════════════════════════════════════════════════════════════════════════
+// UZUN İŞ KAYDEDİCİSİ — "ağır çizim" NEREDE?
+//
+// 🔴 NİÇİN: kare sayacı iki kez ölçtü ve ikisinde de aynı şeyi söyledi —
+//     5/188 kare · 949 ms boşluk        (ilk ölçüm)
+//     9/229 kare · 866 ms boşluk        (çizim yatışması eklendikten SONRA)
+// Yani `idle` beklemek KURTARMADI ⇒ ağır iş uçuştan ÖNCE değil, uçuşun
+// TAM ORTASINDA oluyor. Ama HANGİ iş olduğunu sayaç söylemiyor.
+//
+// 📌 Ve bugün dört kez tahmin yürütüp dördünde de yanıldım. Beşincide
+// tahmin etmiyorum: bloklayan şeyi ADIYLA ölçüyorum.
+//
+// `PerformanceObserver('longtask')` tarayıcının kendi ölçümüdür — 50 ms'yi
+// aşan her ana-iş-parçacığı bloğunu bildirir. Ona ek olarak bilinen ağır
+// çizim işlevleri tek tek zamanlanıyor; ikisi birlikte "ne kadar" ile
+// "kim" sorularını birden cevaplıyor.
+var _AGIR = { en: 0, ad: "", uzun: 0, uzunTop: 0, acik: false };
+
+function agirOlc(ad, is) {
+  if (!_AGIR.acik) return is();
+  var t0 = performance.now();
+  try { return is(); }
+  finally {
+    var s = performance.now() - t0;
+    if (s > _AGIR.en) { _AGIR.en = s; _AGIR.ad = ad; }
+  }
+}
+
+var _longObs = null;
+function agirBaslat() {
+  _AGIR = { en: 0, ad: "", uzun: 0, uzunTop: 0, acik: true };
+  if (typeof PerformanceObserver !== "function") return;
+  try {
+    _longObs = new PerformanceObserver(function (l) {
+      l.getEntries().forEach(function (e) {
+        _AGIR.uzunTop += e.duration;
+        if (e.duration > _AGIR.uzun) _AGIR.uzun = e.duration;
+      });
+    });
+    _longObs.observe({ entryTypes: ["longtask"] });
+  } catch (e) { _longObs = null; }   // tarayıcı desteklemiyor — sessiz geç
+}
+function agirBitir() {
+  _AGIR.acik = false;
+  if (_longObs) { try { _longObs.disconnect(); } catch (e) {} _longObs = null; }
+  var p = [];
+  if (_AGIR.ad) p.push(_AGIR.ad + " " + Math.round(_AGIR.en) + " ms");
+  if (_AGIR.uzun) p.push("en uzun görev " + Math.round(_AGIR.uzun) + " ms"
+                         + " (toplam " + Math.round(_AGIR.uzunTop) + ")");
+  return p.length ? p.join(" · ") : "ağır iş ölçülemedi";
+}
+
 var _KARE_SAYAC_ACIK = true;
 function kareSayaciBaslat(beklenenMs, etiket) {
   if (!_KARE_SAYAC_ACIK || typeof requestAnimationFrame !== "function") {
     return function () {};
   }
   var t0 = performance.now(), son = t0, kare = 0, enUzun = 0, calisiyor = true;
+  agirBaslat();                      // uçuş boyunca "kim blokluyor" kaydı
   function tik(t) {
     if (!calisiyor) return;
     kare++;
@@ -2848,7 +2901,9 @@ function kareSayaciBaslat(beklenenMs, etiket) {
                                      : "🟡 kare oranı düşük");
     var satir = (etiket || "uçuş") + " — " + kare + "/" + beklenenKare
                 + " kare · " + fps + " fps · en uzun boşluk "
-                + Math.round(enUzun) + " ms · " + hukum;
+                + Math.round(enUzun) + " ms · " + hukum
+                + (akici ? "" : "\nSUÇLU: " + agirBitir());
+    if (akici) agirBitir();          // kaydı her hâlükârda kapat
     console.log("🎞 " + satir);
     // 🔴 EKRANA DA YAZ — Emre: *"hangi satırı yapıştıracağım anlamadım."*
     // Kullanıcıdan geliştirici konsolu açmasını istemek, ölçümü ULAŞILMAZ
@@ -3774,13 +3829,17 @@ function guncelle() {
     }
     zoomUygula(d);
   }
-  devletGuncelle(suanki);
-  sehirGuncelle(suanki);
-  savasGuncelle(suanki);
-  seferGuncelle(suanki);
-  koridorGuncelle(suanki);
-  devirGuncelle(suanki);
-  isgalGuncelle(suanki);
+  // 🔴 SUÇLU ARAYIŞI — `agirOlc` sarmalayıcısı yalnız uçuş sürerken ölçer
+  // (`_AGIR.acik`), öteki zaman doğrudan çağrıya düşer, maliyeti YOK.
+  // Kare sayacı "866 ms boşluk" diyor ama KİMİN bloklattığını söylemiyor;
+  // bu satırlar onu adıyla söyleyecek. Beşinci turda tahmin yürütmüyorum.
+  agirOlc("devletGuncelle", function () { devletGuncelle(suanki); });
+  agirOlc("sehirGuncelle", function () { sehirGuncelle(suanki); });
+  agirOlc("savasGuncelle", function () { savasGuncelle(suanki); });
+  agirOlc("seferGuncelle", function () { seferGuncelle(suanki); });
+  agirOlc("koridorGuncelle", function () { koridorGuncelle(suanki); });
+  agirOlc("devirGuncelle", function () { devirGuncelle(suanki); });
+  agirOlc("isgalGuncelle", function () { isgalGuncelle(suanki); });
   // 🔴🔴 22 Ağustos 2026 — KIRPMA SIRASINDA PANEL DONDURULUYOR.
   // Emre: *"ileri tuşuna basınca kronoloji maddelerinde ileri geri gösterim
   // bozukluğu yaşanıyor — Kaluğeran'dan ileri tıklayınca Estergon'un

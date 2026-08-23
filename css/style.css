@@ -1442,7 +1442,11 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
 .ayar-olcum { font-size: 12px; font-family: Consolas, "Courier New", monospace;
   color: #6b4a1f; background: #fdf8ec; border: 1px solid #e0cfa8;
   border-radius: 4px; padding: 4px 7px; margin-top: 2px; width: 100%;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  /* Ölçüm iki satır olabiliyor (ikincisi "SUÇLU: …"). `pre-line` satır
+     sonunu korur ama uzun satırı da sarar — `nowrap` olsaydı suçlunun adı
+     kutunun dışında kalır, yani ölçüm yine görünmezdi. */
+  white-space: pre-line; line-height: 1.5; }
 .ayar-olcum.olcum-iyi  { color: #1c6b2e; border-color: #9ccfa8; background: #f2fbf4; }
 .ayar-olcum.olcum-kotu { color: #9a2b1e; border-color: #e2a79c; background: #fdf3f1; }
 .ayar-not { font-size: 11px; color: #8c3444; line-height: 1.4; margin-top: 4px; }
