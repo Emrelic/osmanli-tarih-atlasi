@@ -3128,6 +3128,10 @@ function kameraCoz() { KAMERA.kilit = Math.max(0, KAMERA.kilit - 1); }
 //   kilit  → oto-zoom kameraya dokunmasın
 //   bayrak → panel/liste/zaman çubuğu OYNAMASIN (harita çizilmeye devam eder)
 var _kirpmaKilitli = false;
+// Kirpma sirasinda atlanan agir guncellemelerin BORCU. Atlamak
+// ucuzdur, ATLADIGINI UNUTMAK pahali: isaretler DOM'a hic
+// eklenmeden kalir. Kilit birakilirken bir kez odenir.
+var _kirpmaBorcu = false;
 
 // Bir olaya gidilecekse ÜÇ ADIM BİRLİKTE yapılır ve `tarihAyarla`nın
 // tetikleyeceği oto-zoom bu süre boyunca susar.
@@ -4078,6 +4082,17 @@ function guncelle() {
     agirOlc("savasGuncelle", function () { savasGuncelle(suanki); });
     agirOlc("seferGuncelle", function () { seferGuncelle(suanki); });
     agirOlc("koridorGuncelle", function () { koridorGuncelle(suanki); });
+  } else {
+    // 🔴 23 Agustos — BORC YAZILIYOR. 0027/H-0011: Emre "Hacova Meydan
+    // Muharebesinin yeri haritada belli degil" dedi ve HAKLIYDI.
+    // Bu atlama bugun eklendi (olculdu: 1307 ms kazandiriyor ve dordu de
+    // kirpma sirasinda GORSEL OLARAK degismiyor) -- iyilestirme dogruydu,
+    // ama ATLANANI BIR DAHA CAGIRMIYORDUM. Kirpma sirasinda dusen SON
+    // guncelleme, isaretleri hic eklenmemis halde birakiyordu.
+    // Belirti ARALIKLI: Granbosa ve Salankamen calisiyordu, Hacova
+    // calismiyordu -- kirpmanin son cagriya denk gelip gelmemesine bagli.
+    // Araliklilik onu daha sinsi yapar: "bende calisiyor" denip kapatilir.
+    _kirpmaBorcu = true;
   }
   agirOlc("devirGuncelle", function () { devirGuncelle(suanki); });
   agirOlc("isgalGuncelle", function () { isgalGuncelle(suanki); });
@@ -4302,6 +4317,21 @@ harita.on("moveend", function () {
   //   getirirdi. Uçuş bitince `_varista` zaten tazeliyor.
   if (haritaHazir && !KAMERA.olayBekliyor) {
     try { sehirGuncelle(suanki); } catch (e) { /* veri hazır değil */ }
+    // 🔴 23 Agustos, 0027/H-0011 — YAKINSAMA GARANTISI (teshis DEGIL).
+    // Emre: "Hacova Meydan Muharebesinin yeri haritada belli degil."
+    // Olculdu: savasGuncelle DOGRU tarihle, KILITSIZ cagriliyor ve
+    // isaret eklenmiyor; AYNI cagri bir an sonra elle yapilinca
+    // ekleniyor. Uc hipotez (kirpma kilidi · sure onbellegi · dizi
+    // kimligi) veriyle CURUTULDU, kok sebep BULUNAMADI.
+    // ⇒ Buraya teshis degil EMNIYET yaziliyor: harita her
+    //   yerlestiginde isaret katmanlari da tazeleniyor. Kusur
+    //   ARALIKLI oldugu icin bu sart -- araliklilik onu sinsi yapar,
+    //   bir sonraki oturum "bende calisiyor" deyip kapatabilir.
+    // ⚠️ Kok sebep bulunursa bu blok GEREKSIZ hale gelir; o zaman
+    //   KALDIRILMALI, ustune yenisi eklenmemeli.
+    try { savasGuncelle(suanki); } catch (e) { }
+    try { seferGuncelle(suanki); } catch (e) { }
+    try { koridorGuncelle(suanki); } catch (e) { }
     // KIRPMANIN ZORUNLU IKINCI YARISI, ETIKET TARAFI. Devlet
     // etiketleri de artik gorus alanina gore kirpiliyor; `zoom`
     // olayi KAYDIRMADA atesLEMEZ, yani pan sonrasi disarida kalmis
@@ -5732,6 +5762,17 @@ function _yabanciImza(t) {
 // (`_kirpmaKilitli` tanımı KAMERA kilidinin yanında — bkz. ~2830)
 function _kirpmaKilidiBirak() {
   if (_kirpmaKilitli) { _kirpmaKilitli = false; kameraCoz(); }
+  // BORCU ODE — atlanan dort guncelleme burada BIR KEZ kosar.
+  // Sira onemli: kilit ONCE birakilir, sonra odenir. Ters olsaydi
+  // guncelle() yine `_kirpmaKilitli` gorup atlar ve borc HIC odenmezdi
+  // (ayni tuzaga `etiketTazele`de dusmemek icin oradaki sira da boyle).
+  if (_kirpmaBorcu) {
+    _kirpmaBorcu = false;
+    try { sehirGuncelle(suanki); } catch (e) { }
+    try { savasGuncelle(suanki); } catch (e) { }
+    try { seferGuncelle(suanki); } catch (e) { }
+    try { koridorGuncelle(suanki); } catch (e) { }
+  }
 }
 
 function kirpmayiDurdur() {
