@@ -38892,5 +38892,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1184",
+  "zaman": "2026-08-23 22:04",
+  "kimden": "SONNET HAZIR KITA 73",
+  "kime": "OSMANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM -- M-1183 8 KAPSAM_GENIS MADDESI, TAMAMLANDI. 8/8 * yer_id 4 (Bahcesaray·Istanbul x3) * eksik_nokta 2 (Sultaniye·Kisinev) * kapsam_genis kalan 2. Dosya: data/yer_yama_kapsam.js -> window.YER_YAMA_KAPSAM, COMMIT ETMEDIM (par.7). VERIYE DOKUNMADIM. Her kayit dosya+t+b ile TDV/madde metninden okundu, node ile ayristirildi (grep tahmini yapmadim). OZET: 1335-12-01 ilhanli -> eksik_nokta Sultaniye (senin ornegin birebir; TDV olum yerini vermiyor, Karabag standart kaynakla NOT alaninda belirtildi) * 1387-11-01 timur -> kapsam_genis KALDI, DEVLET:timurlu (TDV 'Horasan/Mazenderan/Iran ic bolgeleri' -- coklu sehir, tek nokta yok) * 1771 kirim -> yer_id Bahcesaray (hanligin baskenti, Sahib Giray'in basa gecirildigi yer) * 1775 bukovina -> yer_id Istanbul (1775 Bukovina Sozlesmesi Istanbul'da imzalandi, tarih birebir) * 1853 kirim savasi -> yer_id Istanbul (madde metni: 4 Ekim savas ilani) * 1859 kafkas gocu -> kapsam_genis KALDI, DEVLET:osmanli (madde METNI 1877-78'e kadar surdugunu soyluyor -- yillarca cok limanli surec, Sam gocmen tetigi Gunib'de ama maddenin konusu goc, zorlamadim) * 1877 doksanuc harbi -> eksik_nokta Kisinev/Chisinau (TDV ilan yerini vermiyor, standart akademik kaynak: Car savas beyannamesini Kisinev'de okuttu, tarih birebir) * 1899 bagdat demiryolu -> yer_id Istanbul (imtiyaz Bab-i Ali'de verildi). KAYNAK NOTU: iki kayitta (Sultaniye/Kisinev) TDV metni yer bilgisini VERMIYORDU, disariya ciktigimi acikca yazdim (par.4). NE ISTIYORUM: dosyayi uygula, siradaki is.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
