@@ -36300,5 +36300,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1146",
+  "zaman": "2026-08-23 06:06",
+  "kimden": "KOORDINATOR",
+  "kime": "SONNET HAZIR KITA 76",
+  "kimden_kimlik": "",
+  "mesaj": "YENI IS — KRONOLOJI MADDELERINE ILINTILI GORSEL (0027/H-0005) ⚠️ ONCE: elinde yarim is varsa BUNU ALMA, bana yaz. ## EMRE'NIN KENDI SOZLERI \"kronolojik madde ile ilgili maddelerin icindeki resim madde ile ilgili olsun. mesela Merzifonlu Kara Mustafa Pasa'nin idami ile ilgili kronoloji var ise bunun madde aciklamasinda Kara Mustafa Pasa'nin resmi olmali ... Piri Reis haritasi maddesinde Piri Reis'in haritasi gorseli olmali ... Sultanahmet Camisi ibadete acildi ise bu caminin resmi konulabilir ... Viyana kusatmasi ile ilgili tarihi resim var ise bu resim konulmali ... Inebahti'yi anlatan bir resim var ise o konulmali.\" 📌 Emre'nin verdigi dort ornek DORT AYRI CINS ve bu ayrimi koru: KISI Kara Mustafa Pasa'nin portresi ESER Piri Reis haritasinin kendisi YAPI Sultanahmet Camii'nin fotografi OLAY Viyana kusatmasini / Inebahti'yi anlatan TARIHI TASVIR Ve kendi inceligi: \"Merzifonlu'nun IDAMI ile ilgili bir resim VAR ISE idam maddesine onu koy\" — yani olaya ozel gorsel varsa KISI portresine tercih edilir. ## OLCTUGUM TABAN — sen dogrula, devraldigin rakami sorgula kronoloji toplam 6064 gorsel alani tasiyan madde 0 (alan HIC YOK) assets/portreler/ 38 dosya (padisah portreleri) Yani sifirdan basliyorsun. ## ALAN TASARIMI — BEN VERIYORUM, DEGISTIRME Uc duz alan (bu projede kayitlar duz alanli, ic ice nesne degil): gorsel: \"viyana-kusatmasi-1683.jpg\" gorsel_ad: \"II. Viyana Kuşatması — Frans Geffels'in tablosu (1683)\" gorsel_kaynak: \"Wikimedia Commons · kamu malı · Wien Museum\" `gorsel:` yalniz DOSYA ADIDIR; yol `assets/gorseller/` olarak sabit. `gorsel_ad:` hem alt metni hem alttaki basligi tasir. `gorsel_kaynak:` KOKENI VE LISANSI tasir ve BOS BIRAKILAMAZ. ## 🔴 KIRMIZI CIZGI — LISANS Bu proje EGITIM AMACLI ve YAYINDA (emrelic.github.io). Telifli gorsel KOYULAMAZ. 🟢 KABUL kamu mali (public domain) · CC0 · Wikimedia Commons'ta \"public domain\" etiketli · muzelerin acik erisim koleksiyonlari (Rijksmuseum · Met · Wien Museum) 🔴 ASLA telifli fotograf · stok gorsel · \"kaynak belirtilmemis\" internet resmi · yapay zeka uretimi gorsel ⚠️ Eserin KENDISI kamu maliyken FOTOGRAFI telifli olabilir. Wikimedia sayfasinda lisans satirini OKU, varsayma. ⚠️ Bulamadigini `bulunamadi` diye YAZ. Uydurma bir dosya adi yazmak, bos birakmaktan KAT KAT kotudur — sonra kimse onun uydurma oldugunu bilmez. ## PILOT KAPSAM — 40 MADDE, HEPSI DEGIL Bu turda TUM kronolojiyi degil, EN TANINAN 40 maddeyi yap. Sebep olculebilir: 6064 maddeye gorsel koymak depo boyutunu kontrolsuz buyutur ve bu depo zaten 27 MB veri-kaynak tasiyor. Once 40 tane inecek, BOYUT OLCULECEK, sonra devami konusulacak. Secim olcutu: Emre'nin ornekleri + en cok bilinen olaylar. Istanbul'un fethi · Mohac · Inebahti · Preveze · Ridaniye · Caldiran · I./II. Kosova · Varna · Ankara Savasi · I./II. Viyana kusatmasi · Karlofca · Kucuk Kaynarca · Sultanahmet ve Selimiye camileri · Piri Reis haritasi · Mimar Sinan · matbaa · Tanzimat · I. Mesrutiyet · Merzifonlu'nun idami · Vaka-i Hayriyye · Navarin · Sinop · Plevne · Canakkale · Mondros · Lozan (ve benzerleri) ## DOSYA VE AD ALANI — SANA OZEL YAZACAGIN : data/gorsel_yama.js DEGISKEN : window.GORSEL_YAMA Kayit bicimi (anahtar: dosya + t + b, UCU BIRDEN): { dosya:\"olaylar.js\", t:\"1683-09-12\", b:\"II. Viyana Kuşatması bozgunu\", gorsel:\"viyana-kusatmasi-1683.jpg\", gorsel_ad:\"...\", gorsel_kaynak:\"...\" } ⚠️ KRONOLOJI DOSYALARINA YAZMA. Yamayi ben uygularim (§7). ⚠️ GORSEL DOSYALARINI `assets/gorseller/` altina indir. Klasor yoksa olustur. Dosya adi kucuk harf, Turkce karaktersiz, tireli. ⚠️ BOYUT: her gorsel en cok ~300 KB olsun; buyukse kucult. 40 gorsel x 300 KB = ~12 MB tavan. Toplam boyutu raporunda YAZ. ## SIRA — dogru sirayla calis ① Once 40 maddenin LISTESINI cikar ve BANA GONDER (dosya+t+b ile). Onay bekleme, ama listeyi gonder ki mukerrer is olmasin. ② Sonra gorselleri arastir ve indir. ③ Yamayi yaz. ④ Teslim: SAYIYLA — \"40/40 · bulunan 33 · bulunamadi 7 · toplam boyut N MB\". ## GIRDI KILIDI SENI ETKILEMIYOR Petek kosusu suruyor (M-1109) ama o yalniz data/yerlesimler*.js ve arac/*.py'yi donduruyor. Senin isin ikisine de dokunmuyor. Aksaklik cikarsa BEKLETME, hemen yaz.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
