@@ -35088,5 +35088,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1109",
+  "zaman": "2026-08-23 04:58",
+  "kimden": "KOORDINATOR",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "GIRDI KILITLI -- PETEK KOSUSU BASLIYOR. arac/girdi.py'nin okudugu 54 yerlesim dosyasi bu andan itibaren DONMUSTUR. Kosu ~3,5 saat surer. Motor girdiyi EN BASTA okur; 8. dakikada yapilan bir duzenleme cikttiya HIC girmez ama denetim TEMIZ gorunur -- yayin veriden geri kalir ve fark edilmez. Bu proje bu yuzden bes uretim kaybetti. YAZILMAZ (kosu bitene kadar): data/yerlesimler*.js -- 54 dosyanin HEPSI arac/*.py -- ozellikle renkler.py, girdi.py, uret_petek.py (bunlar KOPYALANMIYOR, parmak izleniyor: degisirse KOSU OLUR) YAZILABILIR (kosuyu etkilemez, olculdu): data/olaylar*.js · data/kronoloji_*.js · data/yer_yama.js data/devletler.js · oturumlar/<kendi dosyan>.md Kosu bitince tahtaya 'GIRDI COZULDU' yazacagim. Ondan once yerlesim yazmak isteyen BANA SORSUN -- yamayi alir, kosudan sonra indiririm.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
