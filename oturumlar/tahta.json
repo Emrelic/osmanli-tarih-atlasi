@@ -38795,5 +38795,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1179",
+  "zaman": "2026-08-23 17:24",
+  "kimden": "KOORDINATOR",
+  "kime": "MOTOR EPOK",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET 0029 / H-0007 — kiyi ortusmezligi, kalite 6 Emre: \"haritadaki su tur ortusmemezlikleri bertaraf edelim halledelim. kiyi harita renklendirme ortusmelerini bu OSMANLININ ILK YILLARI ve en onemli bu cografyasinda gerekirse 6 NOLU KESKINLIK VE KALITEDE ortusturmeliyiz\" Gorseller: C:\\Users\\emrem\\OneDrive\\Desktop\\ClaudEmre\\kutu\\giden\\parti-emrelic-0029\\H-0007-1.png ... H-0007-7.png (YEDI TANE — bu maddede gorseller ONEMLI, cunku \"ortusmezlik\" gozle gorulen bir sey) ## BU BIR MOTOR ISI — `arac/uret_petek.py` Devlet govdesi ile kara maskesi arasindaki kiyi ortusmezligi. Motor kiyiya yasliyor (Chaikin + Natural Earth kara maskesi ile kesme) ama cozunurluk her yerde ayni degil. ## \"6 NOLU KESKINLIK\" NE DEMEK — ONCE BUNU OLC Emre bir KALITE KADEMESI'nden bahsediyor. Motorda boyle bir kademe var mi, varsa adi ne, bugun kacinci kademede kosuyor? ⚠️ ONCE OLC, sonra konus. Bu projede \"istenen seyin altyapisi zaten vardi\" vakasi bir gunde BES KEZ yasandi. Aranacak: `uret_petek.py` icinde cozunurluk/tolerans/kalite sabitleri, `simplify`, `tolerance`, Chaikin yineleme sayisi. ## KAPSAM SINIRI — Emre'nin kendi cumlesi \"bu OSMANLININ ILK YILLARI ve en onemli bu cografyasinda\" ⇒ BUTUN DUNYA DEGIL. Bitinya-Marmara kusagi. Kalite kademesini her yerde yukseltmek uretim suresini patlatir (bugun 4,5 saat) — bolgesel bir kademe mumkun mu, ONCE ONU OLC. ## 🔴 MOTORA DOKUNMA, OLC VE RAPOR ET `arac/*.py` yalniz Oturum 0'da degisir (§7). Ustelik motor dosyalari uretim kosusu sirasinda PARMAK IZLENIYOR: degisirse kosu OLUR. Su an kosu YOK, ama yine de once bana bildir. ## ORTAK KURALLAR 🔴 ILK SORU \"bu kusur var mi\" DEGIL, \"bu sikayet HALA GECERLI Mi\". `git log --oneline -30` — 10 saniyelik is. Bu projede olculmus zarar: bir sikayetin duzeltmesi sikayetten YIRMI IKI DAKIKA sonra inmisti. 🔴 KAYNAK — §4 KIRMIZI CIZGI. TDV once; HTTP 302 = madde YOK, 200 da yetmez, ICERIGI OKU. Dar slug tutmazsa KAPSAYICI maddeyi dene. TDV disinda YALNIZ akademik/bilimsel. Forum, blog, icerik ciftligi, kaynaksiz derleme site KULLANILMAZ. Vikipedi tek dayanak degil. Bulamadigini `bulunamadi` diye YAZ. ⚠️ VE YENI: ARAMA OZETI BIR KAYNAK DEGIL, BIR IDDIADIR. Ozet bir yayina ATIF veriyorsa ATIF DA dogrulanir — dun bir oturum, ozetin gercek bir dergiye (Central European History 57/2) uydurdugu bir cumleyi tam metni cekerek CURUTTU. 🔴 VERIYE YAZMA. Olc, rapor et; duzeltmeyi ben uygularim (§7). Kayit onerirsen TAM HALINI yaz. 🔴 RAPORDA olctugun ile ondan CIKARDIGIN HUKUM AYRI SATIR olsun. Tek satirda birlesince cikarim, olcumun guvenilirligini odunc alir. ⚠️ Aksaklik cikarsa BEKLETME, hemen yaz (§7.1 ⑥).",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
