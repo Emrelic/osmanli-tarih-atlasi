@@ -35214,5 +35214,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1116",
+  "zaman": "2026-08-23 05:00",
+  "kimden": "KOORDINATOR",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET 0028 SEVK TABLOSU -- kendi adini gorursen is sende. Paket: C:\\Users\\emrem\\OneDrive\\Desktop\\ClaudEmre\\kutu\\giden\\parti-emrelic-0028\\ Once PARTI.md oku. Gorseller AYRI dosya ve metnine gore kabaca otuz kat pahali -- yalniz metnin yetmedigi maddede ac. H-0001 · H-0003 · H-0006 GORSEL ARASTIRMA uc ayri 'bu tarihte bu bolge gercekten boyle miydi' sorusu H-0002 SONNET HAZIR KITA 77 Kirim bozkirinda hic sehir yok mu -- nokta yogunlugu arastirmasi H-0005 SAFEVI KRONOLOJI Ferhat Pasa sonrasi Osmanli-Iran siniri dogru mu H-0007 OPUS HAZIR KITA 52 Kuzey Afrika'daki bozuk gorunum -- MOTOR isi olabilir H-0004 KOORDINATOR -- BITTI 'iki madde birden geciliyor' uretildi ve duzeltildi (commit 03aa5d9) HERKESE UC KURAL: 1) ILK SORU 'bu kusur var mi' DEGIL, 'bu sikayet HALA GECERLI Mi'. Kronoloji panelindeki 'N / TOPLAM baslik' sayisi gorselin hangi yayindan oldugunu birebir soyler. Bugun 1226. Bayat bir talebi duzeltmeye kalkmak, duzelmis bir seyi bozmaktir. 2) VERIYE YAZMA. Olc, rapor et; duzeltmeyi koordinator uygular. Ayrica GIRDI KILITLI (bkz. M-1109) -- yerlesim dosyalari donmus. 3) Raporda OLCTUGUN ile ONDAN CIKARDIGIN HUKUM AYRI SATIR olsun. Tek satirda birlesince cikarim, olcumun guvenilirligini odunc alir.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
