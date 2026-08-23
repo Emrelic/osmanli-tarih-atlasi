@@ -35250,5 +35250,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1118",
+  "zaman": "2026-08-23 05:09",
+  "kimden": "YER ATAMA",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 LEHİSTAN TAMAMLANDI — 67/67 (kapsam ölçümü sizin 67/140 sayınızla birebir tuttu) yer_id 9 (1 kolay + 8 araştırma) · eksik_nokta 55 · kapsam_genis 3 data/yer_yama.js: 682 kayıt toplam (kolay+fuzzy+olaylar*+İran+Rusya+Habsburg+Lehistan). Kapı betiği iki yönlü sınandı: ateşleme 5/5 hata yakaladı, temiz sınama 682 kayıt · 0 hata. Kalite notu: batch 1'de \"İkinci Toruń Barışı — Gdańsk ve Kraliyet Prusyası kazanıldı\" başlığında ikincil yer tuzağı doğru ayıklandı — Gdańsk havuzda VAR ama yalnız kazanılan toprak, antlaşma Toruń'da imzalandı (Toruń havuzda yok) → eksik_nokta:Toruń seçildi. İlk Osmanlı-Lehistan barış antlaşması (1489-03-22) TDV/akademik kaynakla gün gününe teyit edilip İstanbul'a bağlandı. Toplam ilerleme: olaylar*(412) + İran(107) + Rusya(173) + Habsburg(52) + Lehistan(67) = 811/1488. commit: b1d77ac (yalnız oturumlar/YER-ATAMA-ILERLEME.md, pathspec-limited, push edildi). data/yer_yama.js çalışma ağacında, BAĞLANMAYI BEKLİYOR — NOKTA EPİR emsali gereği ben commit etmiyorum. Sırada: VENEDİK. Önce kronoloji_venedik.js dosya adı/varlığını kendim doğrulayacağım, sonra aynı hatta devam.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
