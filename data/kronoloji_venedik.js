@@ -452,7 +452,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1692-01-01", b:"Granbosa Kalesi'nin kaybı", tur:"toprak-kayip", onem:2, dunya:1, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip"],
   d:"Girit'in kuzeybatısındaki Granbosa Kalesi Osmanlılar tarafından alındı ve adada kalan üç Venedik mevziinden biri düştü.",
-  kaynak:"TDV `girit` (gövdesi okundu): \"Granbosa Kalesi ise 1692 yılında ele geçirilmişti\" · depo `savaslar.js` (1692-01-01) · ⚠️ gün DOĞRULANMADI" },
+  kaynak:"TDV `girit` (gövdesi okundu): \"Granbosa Kalesi ise 1692 yılında ele geçirilmişti\" · depo `savaslar.js` (1692-01-01) · ⚠️ gün DOĞRULANMADI", yer_kon:[35.6119,23.5814] },
 
 { t:"1694-09-21", b:"Sakız'ın alınması", tur:"toprak-kazanc", onem:3, dunya:1, kapsam:"dis", yer_id:"Sakız",
   etiket:["askeri","toprak-kazanc"],
@@ -467,7 +467,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1699-01-26", b:"Karlofça Antlaşması — Mora'nın Venedik'e bırakılması", tur:"toprak-kazanc", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kazanc"],
   d:"Antlaşmayla Mora yarımadası Venedik'te kaldı; cumhuriyet iki yüz yıl sonra ilk kez Osmanlı'dan toprak kazanarak bir savaştan çıktı. Bu kazanç Venedik'te büyük gurur kaynağı oldu ama yalnız on altı yıl sürdü.",
-  kaynak:"depo `data/savaslar.js` (1699-01-26) · TDV `karlofca` slug CANLI · 🔴 `dunya:4` — Habsburg dosyasıyla BİREBİR AYNI, M-0873 çapa listesinde de 4" },
+  kaynak:"depo `data/savaslar.js` (1699-01-26) · TDV `karlofca` slug CANLI · 🔴 `dunya:4` — Habsburg dosyasıyla BİREBİR AYNI, M-0873 çapa listesinde de 4", yer_kon:[45.2019,19.9339] },
 
 // ══════════════════════════════════════════════════════════════════
 // VII. SON SAVAŞ VE CUMHURİYETİN SONU (1700-1797)
@@ -491,7 +491,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1718-07-21", b:"Pasarofça Antlaşması — Mora'nın kesin kaybı", tur:"antlasma", onem:5, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kayip"],
   d:"Antlaşmayla Mora Osmanlı'da kaldı; Venedik'e Dalmaçya'da küçük kazanımlar ve Korfu bırakıldı. Cumhuriyetin Osmanlı ile savaşları burada sona erdi ve Venedik bir daha büyük güç siyasetine katılmadı.",
-  kaynak:"depo `data/savaslar.js` (1718-07-21) · TDV `pasarofca-antlasmasi` slug CANLI · 🔴 `dunya:3` — Habsburg dosyasıyla BİREBİR AYNI (M-0880)" },
+  kaynak:"depo `data/savaslar.js` (1718-07-21) · TDV `pasarofca-antlasmasi` slug CANLI · 🔴 `dunya:3` — Habsburg dosyasıyla BİREBİR AYNI (M-0880)", yer_kon:[44.62,21.19] },
 
 { t:"1720-01-01", b:"Silahlı tarafsızlık siyasetine geçiş", tur:"diplomasi", onem:4, dunya:1, kapsam:"dis", yer_id:"", kapsam_genis:true,
   etiket:["diplomasi"],
@@ -526,6 +526,6 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1797-10-17", b:"Campoformio Antlaşması — Venedik'in Avusturya'ya verilmesi", tur:"son", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kayip","diplomasi"],
   d:"Napolyon, Venedik'i ve topraklarını Avusturya'ya bıraktı; bağımsızlık kesin olarak sona erdi ve şehir sonradan Lombardo-Veneto'nun parçası oldu. Venedik'in bir pazarlık kozu olarak devredilmesi, İtalyan tarihyazımında bağımsızlık kaybının simgesi sayılır.",
-  kaynak:"Treccani, 'Manìn, Ludovico': \"Con il trattato di Campoformio (1797) Venezia fu ceduta da Napoleone all'Austria e, perduta l'indipendenza, entrò a far parte del Lombardo-Veneto\" · 🔴 `dunya:4` — Habsburg dosyasında bu gün YOK; değer ötekiler için REFERANSTIR" },
+  kaynak:"Treccani, 'Manìn, Ludovico': \"Con il trattato di Campoformio (1797) Venezia fu ceduta da Napoleone all'Austria e, perduta l'indipendenza, entrò a far parte del Lombardo-Veneto\" · 🔴 `dunya:4` — Habsburg dosyasında bu gün YOK; değer ötekiler için REFERANSTIR", yer_kon:[46.0167,13.1667] },
 
 ];
