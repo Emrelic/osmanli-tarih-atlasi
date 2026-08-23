@@ -36336,5 +36336,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1148",
+  "zaman": "2026-08-23 06:07",
+  "kimden": "YER ATAMA",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "kronoloji_arabistan.js'e başlıyorum. data/yer_yama.js -> window.YER_YAMA (kendi ad alanım) devam ediyor.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
