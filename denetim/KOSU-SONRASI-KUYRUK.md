@@ -151,3 +151,130 @@ kaynağa bakmadan dönem yazılmaz. Oturum bunu **`ARANMADI`** diye işaretledi
 — `bulunamadı` demedi. Bu ayrım doğru ve değerli.
 
 ⇒ **Bu kalem `AKADEMİK KAYNAK` yetkisiyle ayrıca verildi.**
+
+---
+
+# EK — 23 Ağustos 06:30, KUZEYDOĞU MACARİSTAN teslimi
+
+## ① BAĞLANACAK: `data/yerlesimler_kdmacar.js`
+
+`arac/girdi.py` → `GIRDI_DOSYALARI` sabitine eklenecek. **Koşu bittikten
+sonra**, çünkü girdi kümesi donmuş durumda.
+
+Tek kayıt: **Debrecen** (47,5316 / 21,6273). Bağımsız doğrulandı:
+```
+zincir   1281 → 1526 → 1660 → 1692 → 1918 → 1923   boşluk 0 · çakışma 0
+3 km     en yakın Varad 58,2 km   (havuz 2612 nokta)
+Değişmez 2   beş kırılma günü, beşi de çekirdekte maddeli (0-2 gün)
+```
+
+🟢 **Ve premisim yanlıştı, oturum düzeltti.** Bu kalemi *"TDV kapsamıyor
+⇒ akademik kaynak yetkisi"* diye vermiştim. Dört slug gerçekten ölü
+(`debrecen` · `debrecin` · `nagybanya` · `kallo` → 302) **ama TDV `varad`
+maddesi Debrecen'i adıyla anıyor**: *"Varad merkezli yeni eyaletin Varad
+dışında beş sancağı vardı: Salanta/Salonta, Debrecen, Halmaş, Sengevi,
+Yapışmaz."*
+⇒ `§4`'ün *"dar slug tutmazsa KAPSAYICI maddeyi dene"* kuralının canlı
+vakası. Verdiğim akademik yetki bu nokta için **kullanılmadı**.
+
+---
+
+## ② KABUL EDİLMİŞ BORÇ — CONDOMINIUM (model ifade edemiyor)
+
+TDV `varad`, birebir:
+> *"bu kesimdeki köylüler hem Osmanlı sipahi ve zaîmlerine hem de eski
+> Macar toprak sahiplerine vergi veriyordu (ortak sahiplik /
+> condominium)."*
+
+Debrecen'in **1526-1660** penceresi `v:` (tâbi) yazıldı. Bu bir hüküm
+değil, **atlasın mevcut sözleşmesi**: Varad — aynı eyaletin merkezi —
+zaten `v:tabi 1526-09-01 .. 1660-08-27` taşıyor (ölçüldü).
+
+⚠️ **Model "ikisinin birden" diyemiyor.** `d:` doğrudan, `v:` tâbi,
+`s:` yabancı — üçü de TEK sahip varsayıyor. `v:` en az yanlış ifade.
+`OGRENILENLER §72`'nin aynası: orada *"kimsenin değildi"* ifade
+edilemiyordu, burada *"ikisinin birden"*.
+
+⇒ Model bunu ifade edebildiği gün bu satır düzeltilecek. **Kayıtsız
+kabul edilmiş borç, yarın kusur diye yeniden bulunur.**
+
+---
+
+## ③ 🔴 ASIL BULGU — H-0004 ENKLAVININ KÖKÜ SANDIĞIMDAN DERİN
+
+Doğrulama için Varad ve komşularını ölçerken çıktı. Aynı bölgede **iki
+sözleşme yan yana duruyor ve ikisi de 1526'da başlıyor**:
+
+```
+Varad     v:tabi        1526-09-01 → 1660-08-27
+Szatmár   s:avusturya   1526-08-29 → 1918-11-11    KESİNTİSİZ
+Tokaj     s:avusturya   1526-08-29 → 1682-09-16
+```
+
+⇒ H-0004'ün enklavı bir "veri kusuru" olmayabilir: bölgenin **gerçek
+bölünmüşlüğü** ile atlasın **tek sahipli modeli** arasındaki gerilim.
+Szatmár'ın tek başına Avusturya kalması, komşularının tâbi olmasıyla
+birleşince ada gibi görünüyor.
+
+⚠️ Bu, ②'deki condominium borcunun aynı ailesi ve **Debrecen eklenince
+kapanmıyor** — yalnız küçülüyor.
+
+---
+
+## ④ ARAŞTIRMA KAPANDI, HARİTA BORCU KAPANMADI
+
+Yedi nokta (Nagybánya · Kálló · Ecsed · Ónod · Szendrő · Huszt ·
+Máramarossziget) **"arandı, kasaba özelinde bulunamadı"** diye kapatıldı
+— *"TDV kapsamıyor"* diye değil. Oturum üç sebebi ayırdı:
+```
+① TDV'de yok       dört slug 302 · beş kapsayıcı madde de tarandı
+                   (macaristan 67 KB · erdel 23 KB · egri · uyvar · varad)
+② cins bulundu     Kálló·Ónod·Szendrő·Ecsed = Habsburg végvár
+   zincir yok      ama yıl yıl sahiplik veren gövde YOK
+③ arama yetmedi    Nagybánya · Huszt · Máramarossziget
+```
+🟢 *"Cins bilmek dönem yazmaya yetmez"* — toptan "Habsburg serhat
+kalesi" yazmak kolaydı ve çoğu için doğru olurdu; **tahmini veriye
+kesinlik diye yazmak** bir sonraki oturum için görünmez bir yalan
+üretirdi.
+
+🔴 **Ama Szatmár'ın peteği hâlâ olması gerekenden büyük.** Araştırma
+kapandı, harita borcu kapanmadı. İkisini karıştırmak *"bakıldı"* ile
+*"düzeldi"*yi aynı saymak olur.
+
+---
+
+## ⑤ CLAUDE.md'YE GİRMEYİ HAK EDEN KURAL — SAHTE ATIF
+
+Oturum, arama özetinin kendisine **Michels, *Central European History*
+57/2 (2024)** diye verdiği bir cümleyi tam metni çekerek çürüttü:
+*"Debrecen o makalede hiç geçmiyor."* Atıf sahteydi, kullanılmadı.
+
+> **ARAMA ÖZETİ BİR KAYNAK DEĞİL, BİR İDDİADIR.** Özet bir yayına ATIF
+> veriyorsa, atıf DA doğrulanır — çünkü özet kaynağı uydurabilir ve
+> uydurduğunda **gerçek bir dergi adıyla** uydurur.
+
+`§4`'ün *"yapay zekâ üretimi metin kullanılmaz"* kuralının yazılı
+olmayan ayağı. Kural yazılı değildi; oturum ölçüp uyguladı.
+
+---
+
+## ⑥ KÜÇÜK DÜZELTME — "birebir aldım" tutmadı
+
+Oturum *"fetih ve kayıp günleri Varad kaydından BİREBİR alındı"* yazdı.
+Ölçüldü, birebir değil:
+```
+Varad     1526-09-01 → v:tabi
+Debrecen  1526-08-29 → v:tabi
+```
+Üç gün fark. **Seçim daha iyi** (Mohaç 29 Ağustos 1526) ve `Değişmez 2`
+temiz (0 gün, *"Mohaç Meydan Muharebesi"*). Yani seçim doğru, **ifade**
+yanlış.
+
+📌 Ve 1918 ardılında **kasıtlı ve doğru** ayrıldı: Varad ile Szatmár
+`romanya-kralligi` taşırken Debrecen `macaristan` yazıldı — Trianon'da
+Oradea ve Satu Mare Romanya'ya gitti, Debrecen Macaristan'da kaldı.
+Varad'ı körü körüne izleseydi yanlış olurdu.
+
+⇒ *"Nereden aldım"* da en az *"ne aldım"* kadar ölçülür: tutmayan bir
+kaynak beyanı, bir sonraki oturumu yanlış bir zemine oturtur.
