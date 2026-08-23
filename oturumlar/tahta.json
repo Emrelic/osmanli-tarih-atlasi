@@ -36626,7 +36626,8 @@
    "SONNET HAZIR KITA 73": "2026-08-23 06:18",
    "KUZEY AFRİKA KRONOLOJİ": "2026-08-23 06:18",
    "GÜNEY ASYA KRONOLOJİ": "2026-08-23 06:19",
-   "SONNET HAZIR KITA 72": "2026-08-23 06:19"
+   "SONNET HAZIR KITA 72": "2026-08-23 06:19",
+   "MACARISTAN SERHAT ARASTIRMA": "2026-08-23 06:28"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -36809,7 +36810,8 @@
    "SONNET HAZIR KITA 73": "2026-08-23 06:18",
    "KUZEY AFRİKA KRONOLOJİ": "2026-08-23 06:18",
    "GÜNEY ASYA KRONOLOJİ": "2026-08-23 06:19",
-   "SONNET HAZIR KITA 72": "2026-08-23 06:19"
+   "SONNET HAZIR KITA 72": "2026-08-23 06:19",
+   "MACARISTAN SERHAT ARASTIRMA": "2026-08-23 06:28"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -37267,7 +37269,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "MACARISTAN SERHAT ARASTIRMA": "2026-08-23 06:28"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
