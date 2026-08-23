@@ -87,12 +87,12 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1340-10-30", b:"Río Salado Savaşı — Merînî-Nasrî ittifakının kesin yenilgisi", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kazanc"],
   d:"Kastilya, Aragon ve Portekiz müttefik kuvvetleri, Gırnata Emirliği ile onu destekleyen Fas Merînî ordusunu Río Salado'da ağır yenilgiye uğrattı. Yenilgi, Kuzey Afrika hanedanlarının İber yarımadasına asker çıkarmasının fiilen son örneğiydi ve Gırnata'yı 150 yıl boyunca dış yardımdan yoksun bıraktı.",
-  kaynak:"TDV `nasriler` maddesi (aynı olay `data/devletler.js` içindeki `granada` künyesinde de kayıtlı) · standart akademik kaynak (Kamen)" },
+  kaynak:"TDV `nasriler` maddesi (aynı olay `data/devletler.js` içindeki `granada` künyesinde de kayıtlı) · standart akademik kaynak (Kamen)", yer_kon:[36.05,-5.65] },
 
 { t:"1385-08-14", b:"Aljubarrota Savaşı — Portekiz bağımsızlığı Kastilya karşısında pekişti", tur:"savas", onem:2, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri"],
   d:"Kastilya kralı I. Juan, Portekiz tahtı üzerindeki iddiasını Aljubarrota'da İngiliz okçularının desteklediği Portekiz ordusuna yenilerek kaybetti. Yenilgi, iki İber krallığının ayrı yollarda ilerlemesini bir asır daha kesinleştirdi.",
-  kaynak:"standart akademik kaynak (Payne, A History of Spain and Portugal)" },
+  kaynak:"standart akademik kaynak (Payne, A History of Spain and Portugal)", yer_kon:[39.653,-8.821] },
 
 { t:"1391-06-04", b:"Sevilla'da başlayan toplu Yahudi katliamları bütün Kastilya'ya yayıldı", tur:"din", onem:4, dunya:2, kapsam:"ic", yer_id:"Sevilla",
   etiket:["din","sosyal","kriz"],
@@ -102,7 +102,7 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1412-06-24", b:"Caspe Uzlaşması — Aragon tahtına Trastámara hanedanı geçti", tur:"hanedan", onem:3, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["hanedan"],
   d:"Aragon'da hanedan boşluğu doğunca dokuz hakemin oyladığı Caspe Uzlaşması ile Kastilya kökenli Trastámara hanedanından Fernando tahta çıkarıldı. Bu karar, Kastilya ve Aragon taçlarını aynı hanedana bağlayarak 1469'daki birliğin siyasî zeminini hazırladı.",
-  kaynak:"standart akademik kaynak (Elliott, Imperial Spain 1469-1716)" },
+  kaynak:"standart akademik kaynak (Elliott, Imperial Spain 1469-1716)", yer_kon:[41.235,-0.033] },
 
 { t:"1469-10-19", b:"İsabel ile Fernando'nun evliliği — iki taç aynı hanedanda birleşti", tur:"hanedan", onem:5, dunya:3, kapsam:"ic", yer_id:"Valladolid",
   etiket:["hanedan","antlasma"],
@@ -112,7 +112,7 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1474-12-13", b:"İsabel, Kastilya kraliçesi ilan edildi", tur:"hanedan", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["hanedan"],
   d:"IV. Enrique'nin ölümü üzerine İsabel, kardeşinin kızı Juana la Beltraneja'nın veraset iddiasına rağmen Kastilya tahtına çıktı. İzleyen veraset savaşı (1475-1479) Portekiz'in müdahalesiyle büyüdü ve ancak Alcáçovas Antlaşması'yla (1479) kapandı.",
-  kaynak:"standart akademik kaynak (Kamen)" },
+  kaynak:"standart akademik kaynak (Kamen)", yer_kon:[40.9429,-4.1088] },
 
 { t:"1478-11-01", b:"İspanyol Engizisyonu kuruldu", tur:"din", onem:5, dunya:3, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["din","kriz"],
@@ -122,7 +122,7 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1479-01-20", b:"Kastilya ile Aragon tacları fiilen birleşti", tur:"birlesme", onem:5, dunya:4, kapsam:"ic", yer_id:"",
   etiket:["hanedan","antlasma"],
   d:"Fernando'nun babası II. Juan'ın ölümüyle Aragon tahtına çıkması, İsabel'in zaten hüküm sürdüğü Kastilya ile tacı aynı çiftin elinde birleştirdi. İki krallık ayrı kurumlarını (Cortes, para birimi, hukuk) korudu; birlik kişisel/hanedan temelliydi, tam idari birleşme 18. yüzyıl Nueva Planta kararnamelerini bekleyecekti.",
-  kaynak:"`data/devletler.js` `kastilya`/`aragon`/`ispanya` künyeleri (tarih korunuyor) · standart akademik kaynak (Elliott)" },
+  kaynak:"`data/devletler.js` `kastilya`/`aragon`/`ispanya` künyeleri (tarih korunuyor) · standart akademik kaynak (Elliott)", kapsam_genis:true },
 
 { t:"1492-01-02", b:"Gırnata'nın düşüşü — Endülüs'te sekiz asırlık İslâm hâkimiyeti sona erdi", tur:"toprak-kazanc", onem:5, dunya:4, kapsam:"dis", yer_id:"Granada",
   etiket:["askeri","toprak-kazanc","din"],
@@ -137,37 +137,37 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1492-04-17", b:"Santa Fe Kapitülasyonları — Kolomb'un seferi için kraliyet onayı", tur:"antlasma", onem:4, dunya:5, kapsam:"dis", yer_id:"",
   etiket:["antlasma","kesif"],
   d:"İsabel ve Fernando, Cristóbal Colón ile Gırnata yakınındaki Santa Fe karargâhında bir sözleşme imzaladı: Colón'a amiral unvanı, keşfedeceği toprakların valiliği ve gelirin onda biri vaat edildi. Belge, birkaç ay sonraki seferin hukukî temelini oluşturdu.",
-  kaynak:"standart akademik kaynak (Elliott, The Old World and the New 1492-1650)" },
+  kaynak:"standart akademik kaynak (Elliott, The Old World and the New 1492-1650)", yer_kon:[37.1901,-3.7524] },
 
 { t:"1492-08-03", b:"Kolomb, Palos limanından Atlas Okyanusu'na açıldı", tur:"kesif", onem:5, dunya:5, kapsam:"dis", yer_id:"",
   etiket:["kesif"],
   d:"Cristóbal Colón, Santa María, Pinta ve Niña gemileriyle Palos de la Frontera'dan yola çıktı; Hindistan'a batı yönünden ulaşmayı hedefliyordu. Sefer, Avrupa'nın Amerika kıtasıyla kalıcı temasını başlatacaktı.",
-  kaynak:"standart akademik kaynak (Elliott, The Old World and the New)" },
+  kaynak:"standart akademik kaynak (Elliott, The Old World and the New)", yer_kon:[37.2338,-6.8925] },
 
 { t:"1492-10-12", b:"Kolomb Amerika kıyılarına ulaştı", tur:"kesif", onem:5, dunya:5, kapsam:"dis", yer_id:"",
   etiket:["kesif"],
   d:"Colón'un filosu bugünkü Bahamalar'da bir adaya (San Salvador) ayak bastı; Avrupa ile Amerika kıtası arasında kalıcı bir temas ilk kez kuruldu. Bu olay, sonraki üç asırda İspanyol dünya imparatorluğunun ve küresel gümüş/kölelik ekonomisinin başlangıç noktası oldu.",
-  kaynak:"standart akademik kaynak (Elliott, The Old World and the New) — dünya tarihinin dönüm noktalarından, `dunya:5` ölçütü \"çağ açan\" tanımına birebir uyuyor" },
+  kaynak:"standart akademik kaynak (Elliott, The Old World and the New) — dünya tarihinin dönüm noktalarından, `dunya:5` ölçütü \"çağ açan\" tanımına birebir uyuyor", yer_kon:[24.0125,-74.4759] },
 
 { t:"1492-01-01", b:"Nebrija'nın Kastilya Dilbilgisi'nin yayımlanması", tur:"bilim", onem:3, dunya:3, kapsam:"ic", yer_id:"",
   etiket:["bilim","kultur"],
   d:"Antonio de Nebrija'nın *Gramática de la lengua castellana*'sı, modern bir Avrupa halk dilinin ilk sistemli dilbilgisi kitabı olarak Gırnata'nın düşüşüyle aynı yıl basıldı. Nebrija, kraliçeye sunumunda dilin \"imparatorluğun arkadaşı\" olduğunu yazdı — Kastilyanca'nın yeni fethedilen topraklarda idarî dil olacağının ilk işaretiydi.",
-  kaynak:"standart akademik kaynak (Elliott, Imperial Spain, kültür bölümü)" },
+  kaynak:"standart akademik kaynak (Elliott, Imperial Spain, kültür bölümü)", yer_id:"Salamanca" },
 
 { t:"1494-06-07", b:"Tordesillas Antlaşması — dünyanın İspanya ve Portekiz arasında paylaşımı", tur:"antlasma", onem:4, dunya:5, kapsam:"dis", yer_id:"",
   etiket:["antlasma","kesif"],
   d:"Papa'nın onayladığı bir hatla, Yeşil Burun Adaları'nın batısındaki topraklar İspanya ile Portekiz arasında paylaşıldı; hattın doğusu Portekiz'e (bu sayede Brezilya), batısı İspanya'ya kaldı. Antlaşma, Avrupa dışı dünyanın iki Katolik güç arasında resmî olarak bölüştürülmesinin ilk örneğiydi.",
-  kaynak:"standart akademik kaynak (Elliott, The Old World and the New)" },
+  kaynak:"standart akademik kaynak (Elliott, The Old World and the New)", yer_kon:[41.501,-5.0003] },
 
 { t:"1499-01-01", b:"Alcalá de Henares Üniversitesi'nin kuruluşu", tur:"bilim", onem:3, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["bilim","kultur"],
   d:"Kardinal Cisneros'un girişimiyle kurulan üniversite, kısa sürede Salamanca'nın yanında İspanya'nın ikinci büyük bilim merkezi hâline geldi; Complutensian Politgot İncil projesinin de merkeziydi. Alcalá'daki yerleşim kaydı bulunmadığından `yer_id` boş bırakıldı.",
-  kaynak:"standart akademik kaynak (Kamen, Spain 1469-1714)" },
+  kaynak:"standart akademik kaynak (Kamen, Spain 1469-1714)", yer_kon:[40.4818,-3.3635] },
 
 { t:"1499-01-01", b:"Fernando de Rojas'ın La Celestina'sının yayımlanması", tur:"kultur", onem:2, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["kultur","edebiyat"],
   d:"Diyalog biçiminde yazılan *La Celestina*, İspanyol edebiyatının Rönesans'a geçişinin ilk büyük eseri sayılır ve sonraki pikaresk romanın öncüsüdür. Yayım yılı kesin biliniyor, ay/gün kaynaklarda geçmiyor.",
-  kaynak:"standart akademik kaynak (Kamen, kültür bölümü)" },
+  kaynak:"standart akademik kaynak (Kamen, kültür bölümü)", kapsam_genis:true },
 
 { t:"1502-01-01", b:"Kastilya'daki müslümanlara zorla vaftiz ya da sürgün dayatıldı", tur:"din", onem:4, dunya:3, kapsam:"ic", yer_id:"Granada",
   etiket:["din","sosyal","kriz"],
@@ -182,12 +182,12 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1504-11-26", b:"Kraliçe İsabel'in ölümü", tur:"olum", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["hanedan"],
   d:"İsabel'in ölümü Kastilya'da bir veraset krizine yol açtı; kızı Juana (\"la Loca\") akıl sağlığı tartışmalı olduğundan tahtın fiilî denetimi önce kocası Felipe'ye, onun 1506'da ölümüyle babası Fernando'ya geçti. Bu geçiş dönemi, 1516'da torunları Şarlken'in her iki tacı da devralmasının zeminini hazırladı.",
-  kaynak:"standart akademik kaynak (Kamen)" },
+  kaynak:"standart akademik kaynak (Kamen)", yer_kon:[41.3081,-4.9152] },
 
 { t:"1512-07-25", b:"Navarra'nın güney (İber) kısmı İspanya'ya ilhak edildi", tur:"toprak-kazanc", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kazanc"],
   d:"Fernando, Papa'nın aforoz tehdidini gerekçe göstererek Navarra Krallığı'nın güney (bugünkü İspanyol) kısmını işgal edip Kastilya'ya kattı; kuzeydeki Béarn/Fransız kolu 1620'ye dek ayrı sürdü. `data/devletler.js`teki `navarra` künyesinin `t:` alanı zaten bu tarihi taşıyordu.",
-  kaynak:"`data/devletler.js` `navarra` künyesi (tarih korunuyor) · standart akademik kaynak" },
+  kaynak:"`data/devletler.js` `navarra` künyesi (tarih korunuyor) · standart akademik kaynak", yer_id:"Pamplona" },
 
 { t:"1512-12-27", b:"Burgos Kanunları — Amerika yerlilerine yönelik ilk kodifiye hukuk", tur:"hukuk", onem:3, dunya:3, kapsam:"dis", yer_id:"", kapsam_genis:true,
   etiket:["hukuk","sosyal"],
@@ -197,7 +197,7 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1516-01-23", b:"Fernando'nun ölümü — taç, torunu Şarlken'e geçti", tur:"hanedan", onem:5, dunya:3, kapsam:"ic", yer_id:"",
   etiket:["hanedan"],
   d:"Fernando'nun ölümüyle Kastilya ve Aragon tacı, annesi Juana adına naiplik yapan on altı yaşındaki Habsburg prensi Şarlken'e (I. Carlos) geçti. Şarlken 1517'de İspanya'ya ilk kez ayak bastığında Flaman maiyeti ve dili bilmemesi, üç yıl sonraki Comuneros isyanının zeminini hazırladı.",
-  kaynak:"standart akademik kaynak (Kamen, Spain 1469-1714)" },
+  kaynak:"standart akademik kaynak (Kamen, Spain 1469-1714)", yer_kon:[39.1508,-5.6194] },
 
 // ───────────────────────────────────────────────────────────────────
 // II. ŞARLKEN (I. CARLOS) DÖNEMİ — İMPARATORLUK VE FETİH (1516-1556)
@@ -206,7 +206,7 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1519-06-28", b:"Şarlken, Kutsal Roma İmparatoru seçildi", tur:"hanedan", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["hanedan","diplomasi"],
   d:"Frankfurt'taki seçmenler kurulu, Fransa kralı I. François'ya karşı İspanya kralı Şarlken'i imparator seçti; böylece İspanya, Almanya, Hollanda, Burgonya ve İtalya'nın büyük kısmını kapsayan bir kişisel birliğin merkezi oldu. Seçim, Şarlken'in İspanya'dan uzun süre uzak kalmasına ve ağır vergi taleplerine yol açarak Comuneros isyanını tetikledi.",
-  kaynak:"standart akademik kaynak (Kamen, Spain 1469-1714)" },
+  kaynak:"standart akademik kaynak (Kamen, Spain 1469-1714)", yer_id:"Frankfurt" },
 
 { t:"1520-05-29", b:"Comuneros İsyanı başladı", tur:"isyan", onem:4, dunya:2, kapsam:"ic", yer_id:"Toledo",
   etiket:["isyan","kriz"],
@@ -216,7 +216,7 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1521-04-23", b:"Villalar Savaşı — Comuneros isyanı bastırıldı", tur:"isyan", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["isyan","askeri"],
   d:"Kraliyet ordusu isyancı milisleri Villalar'da kesin biçimde yendi; isyan liderleri ertesi gün idam edildi. Yenilgi, Kastilya şehirlerinin siyasî özerklik iddialarını sona erdirdi ve kraliyet otoritesini pekiştirdi.",
-  kaynak:"standart akademik kaynak (Kamen)" },
+  kaynak:"standart akademik kaynak (Kamen)", yer_kon:[41.6633,-5.05] },
 
 { t:"1521-08-13", b:"Tenochtitlan'ın düşüşü — Aztek İmparatorluğu'nun sonu", tur:"toprak-kazanc", onem:5, dunya:5, kapsam:"dis", yer_id:"Tenochtitlan (Mexico City)",
   etiket:["askeri","toprak-kazanc","kesif"],
@@ -226,7 +226,7 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1513-09-25", b:"Balboa, Panama'yı geçerek Büyük Okyanus'a ulaştı", tur:"kesif", onem:3, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["kesif"],
   d:"Vasco Núñez de Balboa, Panama kıstağını geçerek Avrupalıların Amerika'nın batı kıyısında ilk kez Büyük Okyanus'u (o dönemki adıyla \"Mar del Sur\") görmesini sağladı. Keşif, İspanya'nın Pasifik'e açılan bir imparatorluk olacağının ilk işaretiydi.",
-  kaynak:"standart akademik kaynak (Elliott, The Old World and the New)" },
+  kaynak:"standart akademik kaynak (Elliott, The Old World and the New)", yer_kon:[8.183,-78.183] },
 
 { t:"1519-09-20", b:"Macellan'ın (Magellan) dünya turu seferi İspanya'dan yola çıktı", tur:"kesif", onem:3, dunya:4, kapsam:"dis", yer_id:"Sevilla",
   etiket:["kesif"],
@@ -246,12 +246,12 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1529-08-03", b:"Cambrai Barışı (\"Hanımlar Barışı\")", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["antlasma","diplomasi"],
   d:"Şarlken'in halası Margaret ile François'nın annesi Louise arasında müzakere edilen antlaşma, İtalyan Savaşları'nın bu safhasını geçici olarak durdurdu ve Şarlken'in İtalya'daki üstünlüğünü tanıdı. Antlaşma Şarlken'e 1530'da Bologna'da imparator tacını giyme fırsatı verdi.",
-  kaynak:"standart akademik kaynak (Kamen)" },
+  kaynak:"standart akademik kaynak (Kamen)", yer_kon:[50.1763,3.2351] },
 
 { t:"1532-11-16", b:"Atahualpa'nın Cajamarca'da esir alınması", tur:"toprak-kazanc", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kazanc","kesif"],
   d:"Francisco Pizarro'nun küçük müfrezesi, İnka İmparatoru Atahualpa'yı bir tuzakla Cajamarca'da yakaladı; on binlerce koruma yanındayken imparatorun ele geçirilmesi İnka devlet aygıtını felç etti. Fidye olarak muazzam miktarda altın-gümüş toplanmasına rağmen Atahualpa dokuz ay sonra idam edildi.",
-  kaynak:"standart akademik kaynak (Elliott, The Old World and the New)" },
+  kaynak:"standart akademik kaynak (Elliott, The Old World and the New)", yer_id:"Cajamarca" },
 
 { t:"1533-11-15", b:"Cuzco'nun ele geçirilmesi — İnka İmparatorluğu'nun fiilen sonu", tur:"toprak-kazanc", onem:5, dunya:4, kapsam:"dis", yer_id:"Cusco (Qosqo)",
   etiket:["askeri","toprak-kazanc"],
@@ -286,12 +286,12 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1545-01-01", b:"Potosí gümüş madenlerinin keşfi", tur:"ekonomi", onem:5, dunya:5, kapsam:"dis", yer_id:"",
   etiket:["ekonomi","kesif"],
   d:"Bugünkü Bolivya'da bulunan Potosí, kısa sürede dünyanın en büyük gümüş kaynağı hâline geldi; buradan çıkarılan gümüş, 16-17. yüzyıl Avrupa'sında \"Fiyat Devrimi\" olarak bilinen büyük enflasyonu tetikledi. Potosí için yerleşim veritabanında eşleşen bir kayıt bulunamadı.",
-  kaynak:"standart akademik kaynak (Elliott, The Old World and the New, ekonomi bölümü) — dünya ekonomisini kalıcı biçimde değiştiren keşif" },
+  kaynak:"standart akademik kaynak (Elliott, The Old World and the New, ekonomi bölümü) — dünya ekonomisini kalıcı biçimde değiştiren keşif", yer_id:"Potosí" },
 
 { t:"1556-01-16", b:"Şarlken'in tahttan çekilmesi — İspanya tacı II. Felipe'ye geçti", tur:"hanedan", onem:5, dunya:3, kapsam:"ic", yer_id:"",
   etiket:["hanedan"],
   d:"Şarlken, Brüksel'de düzenlenen törenle İspanya ve Hollanda tacını oğlu Felipe'ye devretti; imparatorluk unvanını ise kardeşi Ferdinand'a bıraktı. Bu ayrım, Habsburg hanedanının Avusturya ve İspanya kollarının bundan böyle ayrı yürüyeceğinin ilanıydı.",
-  kaynak:"standart akademik kaynak (Kamen, Spain 1469-1714)" },
+  kaynak:"standart akademik kaynak (Kamen, Spain 1469-1714)", yer_kon:[50.8466,4.3528] },
 
 // ───────────────────────────────────────────────────────────────────
 // III. II. FELİPE — ALTIN ÇAĞ VE AKDENİZ CEPHESİ (1556-1598)
@@ -300,7 +300,7 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1557-08-10", b:"Saint-Quentin Savaşı — İspanya'nın Fransa karşısında zaferi", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri"],
   d:"İspanyol-İngiliz kuvvetleri Fransız ordusunu Saint-Quentin'de ağır yenilgiye uğrattı; zafer, Aziz Lorenzo gününe (10 Ağustos) denk geldiği için II. Felipe, yeni sarayı El Escorial'i bu azizin adına adamaya karar verdi. Savaş, İtalyan Savaşları'nın sonunu getiren Cateau-Cambrésis barışının zeminini hazırladı.",
-  kaynak:"standart akademik kaynak (Kamen)" },
+  kaynak:"standart akademik kaynak (Kamen)", yer_kon:[49.8489,3.2876] },
 
 // 🔴 `dunya` 3 → 4 (22 Ağustos 2026) — `kronoloji_fransa.js`teki aynı olayla
 // birlikte düzeltildi. Gerekçe orada yazılı: skalanın `4` tanımı ("iki+ büyük
@@ -313,7 +313,7 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1559-04-03", b:"Cateau-Cambrésis Barışı — İtalyan Savaşları sona erdi", tur:"antlasma", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["antlasma","diplomasi"],
   d:"Altmış yıldır süren İspanya-Fransa (İtalyan Savaşları) rekabetini sona erdiren antlaşmayla İspanya, Milano ve Napoli üzerindeki denetimini pekiştirdi ve İtalya'da bir asrı aşkın süre sürecek üstünlüğünü kurdu. Antlaşma, II. Felipe'nin Fransız prensesi Elisabeth de Valois ile evliliğiyle de pekiştirildi.",
-  kaynak:"standart akademik kaynak (Kamen)" },
+  kaynak:"standart akademik kaynak (Kamen)", yer_kon:[50.1042,3.534] },
 
 { t:"1561-01-01", b:"Madrid, kalıcı başkent ilan edildi", tur:"idari", onem:4, dunya:1, kapsam:"ic", yer_id:"Madrid",
   etiket:["idari"],
@@ -368,12 +368,12 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1581-04-15", b:"Tomar Kortesleri — II. Felipe Portekiz kralı ilan edildi", tur:"birlesme", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["hanedan","antlasma"],
   d:"Portekiz Kortesleri, II. Felipe'yi (Portekiz'de I. Filipe unvanıyla) kral olarak tanıdı; Portekiz kendi kurumlarını, parasını ve sömürge imparatorluğunu koruyarak kişisel birlik hâlinde İspanya tacına bağlandı. Birlik, 1640'taki Braganza ayaklanmasına dek sürecekti.",
-  kaynak:"standart akademik kaynak (Elliott, Imperial Spain)" },
+  kaynak:"standart akademik kaynak (Elliott, Imperial Spain)", yer_kon:[39.6033,-8.4177] },
 
 { t:"1580-06-01", b:"Osmanlı ile fiilî ateşkes", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["antlasma","diplomasi"],
   d:"Uzun süredir aralıklarla savaşan İspanya ve Osmanlı, İtalyan diplomat Giovanni Margliani'nin arabuluculuğuyla fiilî bir ateşkese vardı; bu, iki gücün Akdeniz'deki doğrudan çatışmasının fiilen sonu oldu ve her ikisinin de dikkatini başka cephelere (İspanya'nın Atlantik'e, Osmanlı'nın İran'a) çevirmesine imkân verdi. `data/devletler.js` `ispanya` künyesi bu tarihi zaten taşıyordu.",
-  kaynak:"`data/devletler.js` `ispanya` künyesi (tarih korunuyor) · standart akademik kaynak" },
+  kaynak:"`data/devletler.js` `ispanya` künyesi (tarih korunuyor) · standart akademik kaynak", yer_id:"İstanbul" },
 
 { t:"1584-09-13", b:"El Escorial'in tamamlanması", tur:"kultur", onem:3, dunya:2, kapsam:"ic", yer_id:"Madrid",
   etiket:["kultur","mimari"],
@@ -383,17 +383,17 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1588-08-08", b:"İspanyol Armadası'nın bozgunu", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip"],
   d:"İngiltere'yi işgal etmek üzere yola çıkan 130 gemilik Armada, Gravelines açıklarında İngiliz donanmasınca dağıtıldı ve dönüş yolunda fırtınalarla büyük kayıplar verdi. Yenilgi, İspanya'nın deniz üstünlüğü efsanesini kırdı ve İngiltere ile Hollanda'nın yükselişine kapı araladı — İspanya'nın 17. yüzyıl gerilemesinin sembolik başlangıcı sayılır.",
-  kaynak:"standart akademik kaynak (Kamen, Spain 1469-1714)" },
+  kaynak:"standart akademik kaynak (Kamen, Spain 1469-1714)", yer_kon:[50.987,2.0958] },
 
 { t:"1596-06-30", b:"İngiliz filosu Cádiz'i yağmaladı", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri"],
   d:"Essex Kontu komutasındaki İngiliz-Hollanda filosu Cádiz limanına baskın düzenledi, şehri yağmaladı ve limandaki İspanyol donanmasının büyük bölümünü yaktı. Baskın, Armada bozgunundan sonra İspanya'nın kendi kıyılarını bile koruyamadığının bir başka göstergesiydi. Cádiz için yerleşim kaydı bulunamadı.",
-  kaynak:"standart akademik kaynak (Kamen)" },
+  kaynak:"standart akademik kaynak (Kamen)", yer_id:"Cádiz" },
 
 { t:"1598-09-13", b:"II. Felipe'nin ölümü", tur:"olum", onem:5, dunya:3, kapsam:"ic", yer_id:"",
   etiket:["hanedan"],
   d:"Kırk iki yıl hüküm süren II. Felipe, inşa ettirdiği El Escorial'de öldü; imparatorluk bu dönemde coğrafi olarak zirvesindeydi ama devlet hazinesi art arda gelen iflaslarla (1557, 1575, 1596) ağır biçimde tükenmişti. Yerine oğlu III. Felipe geçti.",
-  kaynak:"standart akademik kaynak (Kamen, Spain 1469-1714)" },
+  kaynak:"standart akademik kaynak (Kamen, Spain 1469-1714)", yer_kon:[40.5897,-4.1483] },
 
 // ───────────────────────────────────────────────────────────────────
 // IV. GERİLEME ÇAĞI — 17. YÜZYIL (1598-1700)
@@ -427,7 +427,7 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1625-06-05", b:"Breda'nın teslimi — Spínola'nın zaferi", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri"],
   d:"General Ambrosio Spínola komutasındaki İspanyol ordusu, uzun bir kuşatmanın ardından Hollanda'nın stratejik Breda kalesini ele geçirdi; zafer Velázquez'in ünlü \"Las Lanzas\" (Mızraklar) tablosuna konu oldu. Bu, Hollanda savaşında İspanya'nın kazandığı son büyük zaferlerden biriydi.",
-  kaynak:"standart akademik kaynak (Kamen, kültür ve askeri bölümleri)" },
+  kaynak:"standart akademik kaynak (Kamen, kültür ve askeri bölümleri)", yer_kon:[51.5883,4.7754] },
 
 { t:"1626-01-01", b:"Kont-Dük Olivares'in \"Silah Birliği\" (Unión de Armas) reformu", tur:"reform", onem:4, dunya:2, kapsam:"ic", yer_id:"Madrid",
   etiket:["reform","idari","ekonomi"],
@@ -437,7 +437,7 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1639-10-21", b:"Downs Deniz Savaşı — Hollanda İspanyol donanmasını imha etti", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip"],
   d:"Amiral Maarten Tromp komutasındaki Hollanda donanması, İngiliz sularında (The Downs) büyük bir İspanyol filosunu neredeyse tamamen yok etti. Yenilgi, İspanya'nın deniz gücünün 17. yüzyıl ortasındaki çöküşünün en açık göstergelerinden biriydi.",
-  kaynak:"standart akademik kaynak (Kamen)" },
+  kaynak:"standart akademik kaynak (Kamen)", yer_kon:[51.1975,1.4] },
 
 { t:"1640-06-07", b:"Katalan İsyanı (\"Kanlı Corpus\") başladı", tur:"isyan", onem:5, dunya:3, kapsam:"ic", yer_id:"Barselona",
   etiket:["isyan","kriz"],
@@ -452,7 +452,7 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1643-05-19", b:"Rocroi Savaşı — İspanyol piyadesinin efsanesi kırıldı", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip"],
   d:"Genç Fransız komutan Enghien Dükü (sonraki Büyük Condé), yüz yıldır Avrupa'nın en korkulan piyade birliği sayılan İspanyol tercioslarını Rocroi'de ağır biçimde yendi. Yenilgi, sembolik olarak İspanya'nın askerî üstünlüğünün sonu ve Fransa'nın Avrupa'daki yükselişinin başlangıcı sayılır.",
-  kaynak:"standart akademik kaynak (Kamen, Spain 1469-1714)" },
+  kaynak:"standart akademik kaynak (Kamen, Spain 1469-1714)", yer_kon:[49.9256,4.5219] },
 
 { t:"1648-01-30", b:"Münster Antlaşması — Hollanda'nın bağımsızlığı tanındı", tur:"antlasma", onem:5, dunya:4, kapsam:"dis", yer_id:"Amsterdam",
   etiket:["antlasma","toprak-kayip"],
@@ -467,7 +467,7 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1659-11-07", b:"Pireneler Barışı — Fransa ile savaş sona erdi", tur:"antlasma", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["antlasma","diplomasi"],
   d:"Yirmi dört yıllık İspanya-Fransa savaşını sona erdiren antlaşma, Roussillon ve bazı Flandre topraklarının Fransa'ya bırakılmasını öngördü; anlaşmayı pekiştirmek için İspanyol prensesi Maria Teresa, Fransa kralı XIV. Louis ile evlendirildi. Bu evlilik, kırk yıl sonraki İspanya Veraset Savaşı'nın hukuki zeminini de hazırlayacaktı.",
-  kaynak:"standart akademik kaynak (Kamen)" },
+  kaynak:"standart akademik kaynak (Kamen)", yer_kon:[43.3392,-1.7908] },
 
 { t:"1665-09-17", b:"IV. Felipe'nin ölümü — hasta çocuk II. Carlos tahta çıktı", tur:"hanedan", onem:4, dunya:2, kapsam:"ic", yer_id:"Madrid",
   etiket:["hanedan","kriz"],
@@ -491,7 +491,7 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1701-05-01", b:"İspanya Veraset Savaşı başladı", tur:"savas", onem:5, dunya:5, kapsam:"dis", yer_id:"",
   etiket:["askeri","hanedan"],
   d:"Fransa, İspanya ve Bavyera'ya karşı İngiltere, Hollanda ve Kutsal Roma İmparatorluğu'nun oluşturduğu Büyük İttifak, V. Felipe'nin (Anjou Dükü) İspanya tahtına çıkmasını Avrupa güçler dengesine tehdit sayarak savaş ilan etti. Savaş, Avrupa'nın yanı sıra Kuzey Amerika (Kraliçe Anne Savaşı) ve İtalya'da da yürütülen ilk küresel çaplı çatışmalardan biriydi.",
-  kaynak:"standart akademik kaynak (Kamen, Spain 1469-1714) — kıtalar arası cepheleriyle dünya çapında etkili" },
+  kaynak:"standart akademik kaynak (Kamen, Spain 1469-1714) — kıtalar arası cepheleriyle dünya çapında etkili", kapsam_genis:true },
 
 { t:"1704-08-04", b:"Cebelitarık'ın İngilizler tarafından ele geçirilmesi", tur:"toprak-kayip", onem:5, dunya:3, kapsam:"dis", yer_id:"Cebelitarık (Gibraltar)",
   etiket:["askeri","toprak-kayip"],
@@ -501,7 +501,7 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1707-04-25", b:"Almansa Savaşı — Bourbon zaferi", tur:"savas", onem:3, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["askeri"],
   d:"V. Felipe'ye bağlı Fransız-İspanyol kuvvetleri, Avusturya arşidükü Charles'ı destekleyen müttefik ordusunu Almansa'da yendi; zafer, Aragon ve Valencia krallıklarının Bourbon tarafına kesin olarak geçmesini sağladı ve bu krallıkların kendi kurumlarının kaldırılmasının (Nueva Planta) askerî zeminini hazırladı.",
-  kaynak:"standart akademik kaynak (Kamen)" },
+  kaynak:"standart akademik kaynak (Kamen)", yer_kon:[38.869,-1.0986] },
 
 { t:"1707-06-29", b:"Aragon ve Valencia için Nueva Planta Kararnamesi", tur:"reform", onem:5, dunya:2, kapsam:"ic", yer_id:"Zaragoza",
   etiket:["reform","idari","anayasa"],
@@ -531,12 +531,12 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1717-01-01", b:"Casa de Contratación Cádiz'e taşındı", tur:"ekonomi", onem:3, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["ekonomi","idari"],
   d:"Sevilla'daki nehir limanının Amerika ticareti için artan gemi boyutlarına elverişsiz hâle gelmesi üzerine, iki asırlık ticaret tekeli kurumu Cádiz'e nakledildi; bu, 18. yüzyıl İspanyol ticaret coğrafyasının yeniden şekillenmesinin ilk adımıydı. Cádiz için yerleşim kaydı bulunamadı.",
-  kaynak:"standart akademik kaynak (Elliott, Imperial Spain, ekonomi bölümü)" },
+  kaynak:"standart akademik kaynak (Elliott, Imperial Spain, ekonomi bölümü)", yer_id:"Cádiz" },
 
 { t:"1734-05-25", b:"Bitonto Savaşı — Napoli ve Sicilya yeniden kazanıldı", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kazanc"],
   d:"Lehistan Veraset Savaşı sırasında İspanyol kuvvetleri Bitonto'da Avusturya ordusunu yenerek Napoli ve Sicilya krallıklarını yeniden ele geçirdi; bu topraklar V. Felipe'nin oğlu (sonraki III. Carlos) için ayrı bir Bourbon krallığı olarak kuruldu.",
-  kaynak:"standart akademik kaynak (Kamen)" },
+  kaynak:"standart akademik kaynak (Kamen)", yer_kon:[41.1173,16.6884] },
 
 { t:"1737-06-02", b:"Real Academia de la Historia'nın kuruluşu", tur:"bilim", onem:2, dunya:1, kapsam:"ic", yer_id:"Madrid",
   etiket:["bilim","kultur"],
@@ -546,7 +546,7 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1736-01-01", b:"Fransız-İspanyol Jeodezi Seferi (Ekvator ölçümü)", tur:"bilim", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["bilim","teknoloji"],
   d:"Fransız Bilimler Akademisi'nin Dünya'nın şeklini ölçmek için düzenlediği sefere İspanyol subay-bilim insanları Jorge Juan ve Antonio de Ulloa da katıldı; ekip bugünkü Ekvador'da (o zamanki Peru Genel Valiliği) yıllarca çalışarak enlem-boylam ölçümleri yaptı. Sefer, İspanyol biliminin Aydınlanma çağı Avrupa bilimiyle doğrudan temasının erken örneğiydi.",
-  kaynak:"standart akademik kaynak (Elliott, The Old World and the New / genel bilim tarihi)" },
+  kaynak:"standart akademik kaynak (Elliott, The Old World and the New / genel bilim tarihi)", kapsam_genis:true },
 
 { t:"1741-03-20", b:"Cartagena de Indias Kuşatması'nın püskürtülmesi", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"Cartagena de Indias",
   etiket:["askeri"],
@@ -561,7 +561,7 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1761-08-15", b:"Üçüncü Aile Sözleşmesi — Bourbon ittifakı", tur:"ittifak", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["ittifak","diplomasi"],
   d:"İspanya ve Fransa Bourbon hanedanları, İngiltere'ye karşı karşılıklı askerî destek taahhüt eden bir ittifak imzaladı; bu antlaşma İspanya'yı Yedi Yıl Savaşları'na (1762) sürükleyecekti.",
-  kaynak:"standart akademik kaynak" },
+  kaynak:"standart akademik kaynak", yer_id:"Paris" },
 
 { t:"1762-08-13", b:"Havana'nın İngilizler tarafından ele geçirilmesi", tur:"toprak-kayip", onem:4, dunya:3, kapsam:"dis", yer_id:"Havana (La Habana)",
   etiket:["askeri","toprak-kayip"],
@@ -571,7 +571,7 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1763-02-10", b:"1763 Paris Antlaşması — Florida karşılığı Louisiana", tur:"antlasma", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kayip","toprak-kazanc"],
   d:"Yedi Yıl Savaşları'nı sona erdiren antlaşmayla İspanya, Havana'yı geri almak karşılığında Florida'yı İngiltere'ye bıraktı; buna karşılık müttefiki Fransa'dan Louisiana'yı devraldı. Kuzey Amerika'daki sömürge sınırlarının bu yeniden çizimi kıtasal dengeleri kalıcı biçimde değiştirdi.",
-  kaynak:"standart akademik kaynak (Kamen)" },
+  kaynak:"standart akademik kaynak (Kamen)", yer_id:"Paris" },
 
 { t:"1766-03-23", b:"Esquilache İsyanı — Madrid'de reform karşıtı ayaklanma", tur:"isyan", onem:3, dunya:1, kapsam:"ic", yer_id:"Madrid",
   etiket:["isyan","sosyal"],
@@ -601,12 +601,12 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1783-01-01", b:"Yeni Granada Kraliyet Botanik Seferi'nin başlaması", tur:"bilim", onem:2, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["bilim"],
   d:"Botanikçi José Celestino Mutis öncülüğünde, bugünkü Kolombiya topraklarında geniş çaplı bir bitki örnekleme ve sınıflandırma seferi başlatıldı; sefer otuz yılı aşkın sürdü ve Aydınlanma çağı İspanyol biliminin en büyük doğa tarihi projelerinden biri oldu.",
-  kaynak:"standart akademik kaynak (genel bilim tarihi)" },
+  kaynak:"standart akademik kaynak (genel bilim tarihi)", kapsam_genis:true },
 
 { t:"1783-09-03", b:"Paris/Versailles Antlaşması — Amerikan Bağımsızlık Savaşı sona erdi", tur:"antlasma", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kazanc"],
   d:"Amerikan Bağımsızlık Savaşı'nı sona erdiren antlaşmalar dizisiyle İspanya, Fransa'nın yanında savaşmasının karşılığında Florida'yı (1763'te kaybettiği) ve Menorca'yı geri kazandı; buna karşılık Cebelitarık'ı geri alma hedefine bu kez de ulaşamadı.",
-  kaynak:"standart akademik kaynak (Kamen)" },
+  kaynak:"standart akademik kaynak (Kamen)", yer_kon:[48.8049,2.1204] },
 
 { t:"1788-12-14", b:"III. Carlos'un ölümü", tur:"olum", onem:4, dunya:2, kapsam:"ic", yer_id:"Madrid",
   etiket:["hanedan"],
@@ -616,37 +616,37 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1793-03-23", b:"Devrimci Fransa'ya savaş ilanı — Pireneler Savaşı başladı", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri"],
   d:"İspanya, XVI. Louis'nin idamına tepki olarak Birinci Koalisyon'a katılıp devrimci Fransa'ya savaş açtı; savaş İspanya için beklenenin aksine kötü geçti ve Katalonya ile Bask bölgesinden Fransız işgaline uğradı.",
-  kaynak:"standart akademik kaynak" },
+  kaynak:"standart akademik kaynak", yer_id:"Madrid" },
 
 { t:"1795-07-22", b:"Basel Barışı — Fransa ile savaş sona erdi", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kayip"],
   d:"Savaşın kötü gitmesi üzerine İspanya, Fransa ile ayrı bir barış yaparak Santo Domingo'nun (bugünkü Dominik Cumhuriyeti) İspanyol yarısını Fransa'ya bıraktı; barışı müzakere eden Manuel Godoy, \"Barış Prensi\" unvanını bu antlaşmadan aldı.",
-  kaynak:"standart akademik kaynak" },
+  kaynak:"standart akademik kaynak", yer_id:"Basel" },
 
 { t:"1796-08-19", b:"San Ildefonso Antlaşması — Fransa ile ittifak", tur:"ittifak", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["ittifak","diplomasi"],
   d:"İspanya, eski düşmanı Fransa ile İngiltere'ye karşı bir askerî ittifak imzaladı; bu, İspanya'yı fiilen Napolyon'un uydusu hâline getirecek uzun bir sürecin başlangıcıydı ve İngiltere ile deniz savaşına yol açtı.",
-  kaynak:"standart akademik kaynak" },
+  kaynak:"standart akademik kaynak", yer_kon:[40.8975,-4.0075] },
 
 { t:"1797-02-14", b:"Aziz Vincent Burnu Savaşı — İspanyol donanmasının yenilgisi", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri"],
   d:"Amiral John Jervis ve komodor Horatio Nelson komutasındaki İngiliz filosu, sayıca üstün İspanyol donanmasını Aziz Vincent Burnu açıklarında yendi; yenilgi, San Ildefonso ittifakının İspanya'ya deniz gücü açısından bedelini gösterdi.",
-  kaynak:"standart akademik kaynak" },
+  kaynak:"standart akademik kaynak", yer_kon:[37.02,-9] },
 
 { t:"1800-10-01", b:"Üçüncü San Ildefonso Antlaşması — Louisiana Fransa'ya geri verildi", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kayip"],
   d:"Napolyon'un baskısıyla İspanya, 1763'te devraldığı Louisiana'yı gizli bir antlaşmayla Fransa'ya iade etti; toprak üç yıl sonra Fransa tarafından ABD'ye satılacaktı (Louisiana Satın Alımı).",
-  kaynak:"standart akademik kaynak" },
+  kaynak:"standart akademik kaynak", yer_kon:[40.8975,-4.0075] },
 
 { t:"1803-11-30", b:"Balmis Aşı Seferi'nin yola çıkışı", tur:"bilim", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["bilim","teknoloji","sosyal"],
   d:"Doktor Francisco Javier de Balmis komutasındaki \"Kraliyet Hayırsever Aşı Seferi\", canlı çiçek aşısını yirmi iki yetim çocuğun kollarında zincirleme taşıyarak İspanya'nın bütün Amerika kolonilerine ve Filipinler'e ulaştırdı. Tarihteki ilk uluslararası kamu sağlığı seferi sayılır ve on binlerce kişiyi çiçek hastalığından korudu.",
-  kaynak:"standart akademik kaynak (genel tıp tarihi)" },
+  kaynak:"standart akademik kaynak (genel tıp tarihi)", yer_id:"A Coruña" },
 
 { t:"1805-10-21", b:"Trafalgar Deniz Savaşı — Fransız-İspanyol donanmasının imhası", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip"],
   d:"Amiral Nelson komutasındaki İngiliz filosu, Fransız-İspanyol birleşik donanmasını Trafalgar açıklarında imha etti; İspanyol amiral Federico Gravina da aldığı yaralardan öldü. Yenilgi, İspanya'nın deniz gücünü fiilen ortadan kaldırdı ve Amerika kıtasıyla bağlantısını tehlikeye attı — üç yıl sonraki kolonyal isyanların dolaylı zeminlerinden biri oldu.",
-  kaynak:"standart akademik kaynak (Kamen, Spain 1469-1714)" },
+  kaynak:"standart akademik kaynak (Kamen, Spain 1469-1714)", yer_kon:[36.1817,-6.0294] },
 
 // ───────────────────────────────────────────────────────────────────
 // VI. NAPOLYON İŞGALİ VE İMPARATORLUĞUN ÇÖZÜLÜŞÜ (1808-1833)
@@ -655,7 +655,7 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1808-03-19", b:"Aranjuez Ayaklanması — IV. Carlos tahttan çekildi", tur:"isyan", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["isyan","hanedan","kriz"],
   d:"Godoy'un Fransız birliklerini ülkeye sokmasına ve saray yolsuzluğuna öfkelenen halk, Aranjuez'de ayaklandı; IV. Carlos tahtı oğlu VII. Fernando'ya bırakmak zorunda kaldı. Kriz, Napolyon'un İspanya işlerine doğrudan müdahalesine kapı açtı.",
-  kaynak:"standart akademik kaynak" },
+  kaynak:"standart akademik kaynak", yer_kon:[40.0322,-3.6039] },
 
 { t:"1808-05-02", b:"Dos de Mayo Ayaklanması — Madrid'in Fransız işgaline direnişi", tur:"isyan", onem:5, dunya:4, kapsam:"ic", yer_id:"Madrid",
   etiket:["isyan","askeri","milliyetcilik"],
@@ -670,27 +670,27 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1808-07-22", b:"Bailén Savaşı — Napolyon ordusunun ilk büyük yenilgisi", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri"],
   d:"General Castaños komutasındaki İspanyol ordusu, Bailén'de bir Fransız kolordusunu kuşatıp teslim olmaya zorladı; bu, Napolyon'un Avrupa'daki yenilmezlik efsanesinin kırıldığı ilk büyük yenilgiydi ve kıta çapında direniş hareketlerine ilham verdi.",
-  kaynak:"standart akademik kaynak (Kamen)" },
+  kaynak:"standart akademik kaynak (Kamen)", yer_kon:[38.0956,-3.7789] },
 
 { t:"1810-05-25", b:"Buenos Aires'te Mayıs Devrimi — Amerika'da bağımsızlık sürecinin başlaması", tur:"toprak-kayip", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["isyan","toprak-kayip"],
   d:"İspanya'nın Napolyon işgali altında meşruiyetinin sarsılmasından yararlanan Buenos Aires kreolleri, kraliyet valisini görevden alıp kendi geçici hükümetini kurdu; bu, sonraki on beş yılda bütün kıta Amerika'sının bağımsızlaşacağı sürecin ilk büyük kıvılcımıydı.",
-  kaynak:"standart akademik kaynak (genel Latin Amerika tarihi)" },
+  kaynak:"standart akademik kaynak (genel Latin Amerika tarihi)", yer_id:"Buenos Aires" },
 
 { t:"1810-09-24", b:"Cádiz Kortesleri'nin toplanması", tur:"reform", onem:5, dunya:3, kapsam:"ic", yer_id:"",
   etiket:["reform","anayasa"],
   d:"Fransız kuşatması altındaki Cádiz'de toplanan ulusal meclis, İspanya tarihinde ilk kez halk egemenliği ilkesine dayalı bir anayasa hazırlamaya başladı; hem yarımadalı hem Amerika kolonilerinden temsilcileri bir araya getiren meclis, liberal İspanyol siyasetinin doğum yeri sayılır. Cádiz için yerleşim kaydı bulunamadı.",
-  kaynak:"standart akademik kaynak (Kamen, Spain 1469-1714)" },
+  kaynak:"standart akademik kaynak (Kamen, Spain 1469-1714)", yer_id:"Cádiz" },
 
 { t:"1812-03-19", b:"Cádiz Anayasası'nın ilanı", tur:"reform", onem:5, dunya:4, kapsam:"ic", yer_id:"",
   etiket:["reform","anayasa","milliyetcilik"],
   d:"\"La Pepa\" diye anılan anayasa, egemenliği monarktan millete devreden, güçler ayrılığı ve sınırlı oy hakkı öngören İspanya'nın ilk yazılı anayasasıydı. Metin kısa ömürlü olsa da (1814'te Ferdinand VII tarafından iptal edildi) 19. yüzyıl İspanyol ve Latin Amerika liberalizminin temel referans belgesi oldu.",
-  kaynak:"standart akademik kaynak (Kamen, Spain 1469-1714)" },
+  kaynak:"standart akademik kaynak (Kamen, Spain 1469-1714)", yer_id:"Cádiz" },
 
 { t:"1813-06-21", b:"Vitoria Savaşı — Fransızlar İspanya'dan sürüldü", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri"],
   d:"Wellington Dükü komutasındaki İngiliz-Portekiz-İspanyol ordusu, Joseph Bonaparte'ın ordusunu Vitoria'da kesin biçimde yendi; zafer, Fransız kuvvetlerinin İspanya'dan pratik olarak çekilmesini başlattı ve Yarımada Savaşı'nın sonunu getirdi.",
-  kaynak:"standart akademik kaynak" },
+  kaynak:"standart akademik kaynak", yer_kon:[42.8467,-2.6716] },
 
 { t:"1814-05-04", b:"VII. Fernando'nun mutlakiyeti geri getirmesi", tur:"reform", onem:5, dunya:2, kapsam:"ic", yer_id:"Madrid",
   etiket:["reform","anayasa","kriz"],
@@ -705,12 +705,12 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1820-01-01", b:"Riego Ayaklanması — Liberal Üçyıl'ın başlaması", tur:"isyan", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["isyan","reform"],
   d:"Amerika'ya sevk edilmek üzere toplanan bir ordu birliğinin komutanı Rafael del Riego, birliğini Cádiz yakınında ayaklandırıp 1812 Anayasası'nın yeniden yürürlüğe girmesini talep etti; VII. Fernando kısa süre sonra anayasayı kabul etmek zorunda kaldı. Üç yıl sürecek liberal dönem (Trienio Liberal) böyle başladı.",
-  kaynak:"standart akademik kaynak" },
+  kaynak:"standart akademik kaynak", yer_kon:[36.98,-5.935] },
 
 { t:"1823-04-07", b:"\"Aziz Louis'nin Yüz Bin Oğlu\" Fransız ordusu İspanya'yı işgal etti", tur:"isgal", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["isgal","askeri"],
   d:"Kutsal İttifak'ın kararıyla harekete geçen büyük bir Fransız ordusu İspanya'ya girip liberal hükümeti devirdi ve VII. Fernando'nun mutlak yetkilerini yeniden tesis etti; liberal önderlerin çoğu idam edildi ya da sürgüne gitti.",
-  kaynak:"standart akademik kaynak" },
+  kaynak:"standart akademik kaynak", kapsam_genis:true },
 
 { t:"1821-09-27", b:"Meksika'nın bağımsızlığı", tur:"toprak-kayip", onem:5, dunya:4, kapsam:"dis", yer_id:"Tenochtitlan (Mexico City)",
   etiket:["toprak-kayip","milliyetcilik"],
@@ -720,7 +720,7 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1824-12-09", b:"Ayacucho Savaşı — Güney Amerika'da İspanyol egemenliğinin fiilen sonu", tur:"toprak-kayip", onem:5, dunya:5, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip"],
   d:"Antonio José de Sucre komutasındaki bağımsızlıkçı ordu, son büyük kraliyetçi orduyu Ayacucho'da yenilgiye uğrattı; bu zafer, üç asırlık İspanyol Güney Amerika imparatorluğunun fiilen sona ermesi anlamına geliyordu. Küba ve Porto Riko dışında bütün kıta Amerika kolonileri bu tarihe dek kaybedilmişti.",
-  kaynak:"standart akademik kaynak (genel Latin Amerika tarihi) — bir kıtasal imparatorluğun sonu, dünya güçler dengesini kalıcı biçimde değiştirdi" },
+  kaynak:"standart akademik kaynak (genel Latin Amerika tarihi) — bir kıtasal imparatorluğun sonu, dünya güçler dengesini kalıcı biçimde değiştirdi", yer_kon:[-13.1588,-74.2239] },
 
 // ───────────────────────────────────────────────────────────────────
 // VII. 19. YÜZYIL İÇ ÇATIŞMALARI VE SON (1833-1923)
@@ -734,17 +734,17 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1836-01-01", b:"Mesta'nın (göçebe koyun yetiştiricileri loncası) kaldırılması", tur:"ekonomi", onem:2, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["ekonomi","reform"],
   d:"Ortaçağdan beri Kastilya kırsalının en etkili ekonomik-hukuki kurumlarından biri olan Mesta, liberal hükümetin toprak reformları çerçevesinde kaldırıldı; karar, İspanyol kırsal ekonomisinin serbest mülkiyet temelinde yeniden düzenlenmesinin bir parçasıydı.",
-  kaynak:"standart akademik kaynak (Payne)" },
+  kaynak:"standart akademik kaynak (Payne)", kapsam_genis:true },
 
 { t:"1839-08-31", b:"Vergara Sözleşmesi — Birinci Karlist Savaşı sona erdi", tur:"antlasma", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["antlasma","isyan"],
   d:"General Espartero ile Karlist komutan Maroto arasında imzalanan sözleşme, Bask ve Navarra bölgesel imtiyazlarının (fueros) korunması karşılığında Karlist ordusunun teslim olmasını sağladı; savaş resmen bitse de Karlist hareket 19. yüzyıl boyunca iki kez daha (1846-49, 1872-76) ayaklanacaktı.",
-  kaynak:"standart akademik kaynak (Payne)" },
+  kaynak:"standart akademik kaynak (Payne)", yer_kon:[43.1167,-2.4167] },
 
 { t:"1868-09-19", b:"Şanlı Devrim (\"La Gloriosa\") — İsabel II tahttan indirildi", tur:"isyan", onem:5, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["isyan","hanedan","kriz"],
   d:"Amiral Topete'nin Cádiz'de başlattığı ayaklanma, kısa sürede genel bir devrime dönüştü; İsabel II ülkeyi terk etmek zorunda kaldı. Devrim, İspanya'yı altı yıl sürecek bir siyasî istikrarsızlık dönemine (yeni hanedan arayışı, kısa ömürlü Amadeo I saltanatı, Cumhuriyet) sürükledi.",
-  kaynak:"standart akademik kaynak (Payne)" },
+  kaynak:"standart akademik kaynak (Payne)", yer_id:"Cádiz" },
 
 { t:"1873-02-11", b:"Birinci İspanya Cumhuriyeti'nin ilanı", tur:"kurulus", onem:5, dunya:2, kapsam:"ic", yer_id:"Madrid",
   etiket:["anayasa","kriz"],
@@ -754,7 +754,7 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1874-12-29", b:"Bourbon Restorasyonu — XII. Alfonso kral ilan edildi", tur:"hanedan", onem:5, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["hanedan","anayasa"],
   d:"General Martínez Campos'un Sagunto'da başlattığı askerî darbeyle İsabel II'nin oğlu Alfonso, XII. Alfonso unvanıyla tahta çıkarıldı; Restorasyon dönemi, muhafazakârlar ve liberaller arasında dönüşümlü iktidar sistemine (turno pacífico) dayanan görece istikrarlı bir yarım asrı başlattı.",
-  kaynak:"standart akademik kaynak (Payne)" },
+  kaynak:"standart akademik kaynak (Payne)", yer_kon:[39.6833,-0.2667] },
 
 { t:"1876-06-30", b:"1876 Anayasası'nın ilanı — Restorasyon rejiminin hukukî çerçevesi", tur:"reform", onem:4, dunya:1, kapsam:"ic", yer_id:"Madrid",
   etiket:["anayasa","reform"],
@@ -764,7 +764,7 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1898-04-25", b:"İspanyol-Amerikan Savaşı'nın başlaması", tur:"savas", onem:5, dunya:5, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip"],
   d:"Küba'daki bağımsızlık ayaklanması ve Havana limanında batan USS Maine zırhlısı gerekçesiyle ABD, İspanya'ya savaş ilan etti; savaş yalnız on haftada İspanyol donanmasının Santiago de Cuba ve Manila'da imhasıyla sonuçlandı. Yenilgi, ABD'nin dünya gücü olarak sahneye çıkışını ve İspanya'nın son büyük sömürge imparatorluğunun sonunu birlikte simgeledi.",
-  kaynak:"standart akademik kaynak (Payne, A History of Spain and Portugal) — dünya güçler dengesini değiştiren bir savaş" },
+  kaynak:"standart akademik kaynak (Payne, A History of Spain and Portugal) — dünya güçler dengesini değiştiren bir savaş", kapsam_genis:true },
 
 { t:"1898-12-10", b:"1898 Paris Antlaşması — Küba, Porto Riko ve Filipinler kaybedildi", tur:"toprak-kayip", onem:5, dunya:5, kapsam:"dis", yer_id:"Manila",
   etiket:["antlasma","toprak-kayip"],
@@ -779,12 +779,12 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1912-03-30", b:"Fas Protektorası'nın kurulması", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kazanc"],
   d:"Fransa ile imzalanan antlaşmayla İspanya, Fas'ın kuzey (Rif) ve güney (İfni-Tarfaya) bölgelerinde bir himaye yönetimi kurdu; bu, İspanya'nın 1898 sonrası tek ciddi sömürge genişlemesiydi ve on yıl içinde ağır bir askerî bataklığa (Rif Savaşı) dönüşecekti.",
-  kaynak:"standart akademik kaynak (Payne)" },
+  kaynak:"standart akademik kaynak (Payne)", yer_id:"Fas (Fez)" },
 
 { t:"1921-07-22", b:"Annual Felaketi — Rif Savaşı'nda ağır bozgun", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","kriz"],
   d:"Rif Berberi direnişçileri (Abdülkerim el-Hattabi önderliğinde), General Silvestre komutasındaki İspanyol ordusunu Annual'da bozguna uğrattı; on binden fazla asker öldü ya da esir düştü. Felaket, İspanyol kamuoyunda büyük bir siyasî krize ve ordu-hükümet güvensizliğine yol açarak 1923 darbesinin dolaylı zeminini hazırladı.",
-  kaynak:"standart akademik kaynak (Payne)" },
+  kaynak:"standart akademik kaynak (Payne)", yer_kon:[35.167,-2.933] },
 
 { t:"1923-09-13", b:"Primo de Rivera Darbesi — parlamenter rejimin askıya alınması", tur:"isyan", onem:5, dunya:2, kapsam:"ic", yer_id:"Madrid",
   etiket:["isyan","anayasa","kriz"],
@@ -805,7 +805,7 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1514-01-01", b:"Complutensian Poliglot İncil'in basımına başlandı", tur:"bilim", onem:3, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["bilim","din"],
   d:"Kardinal Cisneros'un Alcalá'da örgütlediği bilginler ekibi, İbranice, Yunanca, Latince ve Aramice metinleri yan yana basan ilk çok dilli İncil projesini tamamladı; eser Avrupa'da erken modern filoloji biliminin başyapıtlarından sayılır. Basım 1514'te başladı, kilise onayı ve dağıtımı 1522'yi buldu.",
-  kaynak:"standart akademik kaynak (Kamen, kültür bölümü)" },
+  kaynak:"standart akademik kaynak (Kamen, kültür bölümü)", yer_kon:[40.4818,-3.3635] },
 
 { t:"1527-08-01", b:"Valladolid Konferansı — Erasmusçu hümanizmin sınandığı toplantı", tur:"felsefe", onem:2, dunya:2, kapsam:"ic", yer_id:"Valladolid",
   etiket:["felsefe","din"],
@@ -815,12 +815,12 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1538-10-28", b:"Santo Domingo Üniversitesi kuruldu — Amerika'nın ilk üniversitesi", tur:"bilim", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["bilim","kultur"],
   d:"Papa III. Paulus'un fermanıyla Santo Domingo'da kurulan üniversite, Amerika kıtasındaki ilk yükseköğretim kurumu oldu; İspanya'nın sömürge idaresini yalnız askerî-ekonomik değil kurumsal-eğitimsel bir proje olarak da kurduğunun erken kanıtıdır.",
-  kaynak:"standart akademik kaynak (Elliott, The Old World and the New)" },
+  kaynak:"standart akademik kaynak (Elliott, The Old World and the New)", yer_id:"Santo Domingo" },
 
 { t:"1545-12-13", b:"Trent Konsili açıldı — İspanyol teologların öncü rolü", tur:"din", onem:3, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["din","felsefe"],
   d:"Katolik Kilisesi'nin Reform'a karşı kendini yeniden tanımladığı konsile İspanyol teologlar (Domingo de Soto başta olmak üzere) doktrin tartışmalarında belirleyici katkılar sundu; II. Felipe konsil kararlarını İspanya'da harfiyen uygulatarak Karşı-Reform'un en sıkı takipçisi kimliğini pekiştirdi.",
-  kaynak:"standart akademik kaynak (Kamen, Spain 1469-1714)" },
+  kaynak:"standart akademik kaynak (Kamen, Spain 1469-1714)", yer_id:"Trento" },
 
 { t:"1550-08-15", b:"Valladolid Tartışması — Las Casas ile Sepúlveda karşı karşıya", tur:"felsefe", onem:4, dunya:3, kapsam:"ic", yer_id:"Valladolid",
   etiket:["felsefe","hukuk","sosyal"],
@@ -830,17 +830,17 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1556-01-01", b:"Azpilcueta'nın parasal miktar teorisini ortaya koyması", tur:"bilim", onem:3, dunya:3, kapsam:"ic", yer_id:"",
   etiket:["bilim","ekonomi"],
   d:"Salamanca Okulu'nun teologu Martín de Azpilcueta, Amerika'dan gelen gümüşün fiyatları neden yükselttiğini açıklarken para arzı ile fiyat düzeyi arasındaki ilişkiyi ilk kez sistemli biçimde formüle etti; bu, modern iktisadın \"miktar teorisi\"nin öncüllerinden sayılır.",
-  kaynak:"standart akademik kaynak (Elliott, Imperial Spain, iktisat bölümü)" },
+  kaynak:"standart akademik kaynak (Elliott, Imperial Spain, iktisat bölümü)", yer_id:"Salamanca" },
 
 { t:"1580-09-19", b:"Cervantes'in Cezayir esaretinden kurtarılması", tur:"kultur", onem:2, dunya:1, kapsam:"dis", yer_id:"",
   etiket:["kultur","din"],
   d:"Beş yıl önce bir deniz baskınında esir düşüp Cezayir'de tutulan yazar Miguel de Cervantes, Trinitarian tarikatının topladığı fidyeyle serbest bırakıldı; esaret yılları sonraki eserlerinde (Don Kişot içindeki \"Esir'in Hikâyesi\" dahil) doğrudan iz bıraktı.",
-  kaynak:"standart akademik kaynak (Kamen, kültür bölümü)" },
+  kaynak:"standart akademik kaynak (Kamen, kültür bölümü)", yer_id:"Cezayir" },
 
 { t:"1622-03-12", b:"Dörtlü kanonizasyon — Ávilalı Teresa ve üç İspanyol azizin törenle azizleştirilmesi", tur:"din", onem:2, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["din","kultur"],
   d:"Papa XV. Gregorius, aynı törende İspanyol Karşı-Reform'unun dört büyük ismini (Ávilalı Teresa, Loyolalı Ignatius, Xavierli Francis, Madridli Isidore) azizleştirdi; tören, İspanyol Katolikliğinin döneme damga vuran dinî özgüveninin bir göstergesiydi.",
-  kaynak:"standart akademik kaynak" },
+  kaynak:"standart akademik kaynak", yer_id:"Roma" },
 
 { t:"1627-01-01", b:"Kraliyet hazinesinin iflası (dördüncü büyük iflas)", tur:"ekonomi", onem:3, dunya:2, kapsam:"ic", yer_id:"Madrid",
   etiket:["ekonomi","kriz"],
@@ -855,7 +855,7 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1692-01-01", b:"Sor Juana Inés de la Cruz'un Primero sueño'yu yayımlaması (Yeni İspanya)", tur:"kultur", onem:2, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["kultur","felsefe"],
   d:"Meksika'daki (Yeni İspanya) manastırında yaşayan şair-bilgin Sor Juana, dönemin en özgün felsefî şiirlerinden birini yayımladı; İspanyol dilindeki Barok edebiyatının sömürge coğrafyasındaki en yüksek noktalarından biri sayılır.",
-  kaynak:"standart akademik kaynak (genel edebiyat tarihi)" },
+  kaynak:"standart akademik kaynak (genel edebiyat tarihi)", yer_id:"Tenochtitlan (Mexico City)" },
 
 { t:"1752-04-12", b:"San Fernando Güzel Sanatlar Akademisi'nin kuruluşu", tur:"kultur", onem:2, dunya:1, kapsam:"ic", yer_id:"Madrid",
   etiket:["kultur","sanat"],
@@ -875,7 +875,7 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1789-07-30", b:"Malaspina Seferi'nin yola çıkışı — bilimsel dünya turu", tur:"bilim", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["bilim","kesif"],
   d:"İtalyan asıllı İspanyol denizci Alessandro Malaspina komutasındaki iki fırkateyn, beş yıl sürecek bir bilimsel-siyasî keşif seferiyle Amerika, Pasifik ve Filipinler kıyılarını haritalandırıp doğa örnekleri topladı. Sefer, Bourbon aydınlanmacılığının Cook ve La Pérouse seferleriyle yarışan en büyük bilimsel girişimiydi.",
-  kaynak:"standart akademik kaynak (genel bilim tarihi)" },
+  kaynak:"standart akademik kaynak (genel bilim tarihi)", yer_id:"Cádiz" },
 
 { t:"1857-09-09", b:"Moyano Kanunu — modern eğitim sisteminin kurulması", tur:"reform", onem:4, dunya:1, kapsam:"ic", yer_id:"Madrid",
   etiket:["reform","idari","bilim"],
@@ -895,12 +895,12 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1888-08-12", b:"Genel İşçi Sendikası'nın (UGT) kuruluşu", tur:"kurulus", onem:2, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["sosyal","kurulus"],
   d:"Barselona'da toplanan bir kongrede kurulan UGT, PSOE'ye yakın sosyalist sendikal hareketin çatı örgütü oldu ve 20. yüzyıl boyunca İspanyol işçi hareketinin en büyük iki kanadından (öteki anarko-sendikalist CNT) biri olarak kaldı.",
-  kaynak:"standart akademik kaynak (Payne)" },
+  kaynak:"standart akademik kaynak (Payne)", yer_id:"Barselona" },
 
 { t:"1898-01-01", b:"98 Kuşağı'nın doğuşu — imparatorluk kaybının aydınlar üzerindeki etkisi", tur:"kultur", onem:3, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["kultur","felsefe","sosyal"],
   d:"1898 felaketinin ardından Miguel de Unamuno, Azorín, Pío Baroja ve Antonio Machado gibi yazarlar, İspanya'nın kimliğini ve gerilemesinin köklerini sorgulayan bir edebî-felsefî akım oluşturdu; \"98 Kuşağı\" adı sonradan verildi, hareketin billurlaşması 1898-1900 arasına yayılır.",
-  kaynak:"standart akademik kaynak (Payne, A History of Spain and Portugal)" },
+  kaynak:"standart akademik kaynak (Payne, A History of Spain and Portugal)", kapsam_genis:true },
 
 { t:"1900-03-27", b:"Villaverde Malî Reformu — 1898 sonrası bütçe dengesi", tur:"reform", onem:3, dunya:1, kapsam:"ic", yer_id:"Madrid",
   etiket:["reform","ekonomi","idari"],

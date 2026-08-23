@@ -97,7 +97,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1298-09-08", b:"Curzola deniz bozgunu — Ceneviz rekabetinin zirvesi", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri"],
   d:"Dalmaçya açıklarında Ceneviz donanmasına yenilen Venedik ağır kayıp verdi; esirler arasında Marco Polo da vardı ve seyahatnâmesini Cenova zindanında yazdırdı. İki cumhuriyetin bir asır sürecek mücadelesi bu dönemde keskinleşti.",
-  kaynak:"bulunamadı — gün DOĞRULANMADI · TDV `ceneviz` slug CANLI (gövdesi OKUNMADI)" },
+  kaynak:"bulunamadı — gün DOĞRULANMADI · TDV `ceneviz` slug CANLI (gövdesi OKUNMADI)", yer_id:"Korçula (Kurzola)" },
 
 { t:"1310-06-15", b:"Tiepolo-Querini tertibi ve Onlar Konseyi'nin kurulması", tur:"kurulus", onem:5, dunya:1, kapsam:"ic", yer_id:"Venedik",
   etiket:["anayasa","isyan"],
@@ -107,7 +107,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1339-01-24", b:"Treviso'nun alınması — ilk Terraferma tecrübesi", tur:"toprak-kazanc", onem:4, dunya:1, kapsam:"dis", yer_id:"",
   etiket:["toprak-kazanc"],
   d:"Mastino della Scala'ya karşı Floransa ile ittifak hâlinde yürütülen savaş, Treviso'nun işgaliyle sonuçlandı ve şehir Venedik'in doğal art bölgesi sayıldı. 1339-1381 arasındaki Treviso hâkimiyeti, cumhuriyetin ilk mütevazı toprak devleti tecrübesidir.",
-  kaynak:"Treccani, 'La conquista della terraferma': 1336-1339 savaşı Treviso'nun işgaliyle sonuçlandı, şehir Venedik'in doğal \"contado\"su sayıldı; \"La dominazione veneziana di Treviso tra il 1339 e il 1381 rappresenta la prima modesta esperienza di dominio territoriale\" · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"Treccani, 'La conquista della terraferma': 1336-1339 savaşı Treviso'nun işgaliyle sonuçlandı, şehir Venedik'in doğal \"contado\"su sayıldı; \"La dominazione veneziana di Treviso tra il 1339 e il 1381 rappresenta la prima modesta esperienza di dominio territoriale\" · ⚠️ GÜN DOĞRULANMADI", yer_kon:[45.6669,12.2431] },
 
 { t:"1348-01-25", b:"Kara Ölüm", tur:"kriz", onem:4, dunya:3, kapsam:"ic", yer_id:"Venedik",
   etiket:["kriz","ekonomi"],
@@ -196,7 +196,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1441-11-20", b:"Cremona Barışı — Milano ile sınırın çizilmesi", tur:"antlasma", onem:3, dunya:1, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kazanc"],
   d:"Milano ile yapılan barış Venedik'in Lombardiya'daki kazanımlarını tescil etti ve Adda sınırını sabitledi. Cumhuriyet artık İtalya'nın beş büyük devletinden biriydi.",
-  kaynak:"bulunamadı — gün DOĞRULANMADI" },
+  kaynak:"bulunamadı — gün DOĞRULANMADI", yer_kon:[45.1327,10.0227] },
 
 { t:"1453-05-29", b:"İstanbul'un fethi — Levant düzeninin çöküşü", tur:"savas", onem:5, dunya:5, kapsam:"dis", yer_id:"İstanbul",
   etiket:["askeri","ekonomi"],
@@ -206,7 +206,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1454-04-09", b:"Lodi Barışı — İtalya'da güçler dengesi", tur:"antlasma", onem:5, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["antlasma","diplomasi"],
   d:"Milano ve Venedik delegeleri arasında iki taraflı görüşülen barış Lombardiya'da statükoyu kurdu: Venedik Polesine'i Ferrara'ya bıraktı, Milano'dan Crema'yı aldı ve Francesco Sforza'nın dukalık unvanını tanıdı. Bu barış İtalya'da kırk yıl sürecek beş devletli denge sisteminin temeli sayılır.",
-  kaynak:"Treccani, 'Venezia e la politica italiana: 1454-1530': \"La pace di Lodi fu negoziata bilateralmente tra delegati milanesi e veneziani nell'aprile 1454\"; Polesine Ferrara'ya, Crema Milano'dan, Sforza'nın unvanı tanındı · ⚠️ ayın GÜNÜ doğrulanmadı" },
+  kaynak:"Treccani, 'Venezia e la politica italiana: 1454-1530': \"La pace di Lodi fu negoziata bilateralmente tra delegati milanesi e veneziani nell'aprile 1454\"; Polesine Ferrara'ya, Crema Milano'dan, Sforza'nın unvanı tanındı · ⚠️ ayın GÜNÜ doğrulanmadı", yer_kon:[45.3142,9.5034] },
 
 // ══════════════════════════════════════════════════════════════════
 // III. OSMANLI İLE İLK BÜYÜK SAVAŞ VE OKYANUS DARBESİ (1463-1503)
@@ -215,7 +215,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1463-01-01", b:"Birinci Osmanlı-Venedik Savaşı'nın başlaması", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri"],
   d:"On altı yıl sürecek savaş, Mora'daki Venedik kalelerinin Osmanlı baskısı altına girmesiyle başladı. Cumhuriyet ilk kez bütün gücüyle Osmanlı'ya karşı savaşa girdi ve sonunda ağır bir fatura ödedi.",
-  kaynak:"TDV `venedik` (gövdesi okundu): \"1463-1479 Osmanlı-Venedik savaşı esnasında\" · depo `savaslar.js` (savas_basi 1463-01-01) · ⚠️ gün DOĞRULANMADI" },
+  kaynak:"TDV `venedik` (gövdesi okundu): \"1463-1479 Osmanlı-Venedik savaşı esnasında\" · depo `savaslar.js` (savas_basi 1463-01-01) · ⚠️ gün DOĞRULANMADI", kapsam_genis:true },
 
 { t:"1470-07-12", b:"Eğriboz'un (Negroponte) kaybı", tur:"toprak-kayip", onem:4, dunya:2, kapsam:"dis", yer_id:"Eğriboz",
   etiket:["askeri","toprak-kayip"],
@@ -245,12 +245,12 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1494-09-01", b:"İtalya Savaşları'nın başlaması", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","diplomasi"],
   d:"Fransa Kralı VIII. Charles'ın İtalya'ya inmesiyle yarımada büyük güçlerin savaş alanına döndü ve Lodi dengesi çöktü. Venedik bundan sonra kendi ölçeğindeki rakiplerle değil, kıta imparatorluklarıyla uğraşacaktı.",
-  kaynak:"bulunamadı — gün DOĞRULANMADI" },
+  kaynak:"bulunamadı — gün DOĞRULANMADI", kapsam_genis:true },
 
 { t:"1495-07-06", b:"Fornovo ve Venedik Ligi", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","ittifak"],
   d:"Venedik'in öncülük ettiği lig, Fransız ordusunu Fornovo'da karşıladı ve İtalya'dan çekilmesini sağladı. Cumhuriyet kısa bir süre için yarımadanın hakemi gibi göründü; bu görüntü on üç yıl sonra Cambrai'yi doğuracaktı.",
-  kaynak:"bulunamadı — gün DOĞRULANMADI" },
+  kaynak:"bulunamadı — gün DOĞRULANMADI", yer_kon:[44.7075,10.1075] },
 
 { t:"1498-05-20", b:"Ümit Burnu yolunun açılması — baharat tekelinin kırılması", tur:"kriz", onem:5, dunya:5, kapsam:"dis", yer_id:"", kapsam_genis:true,
   etiket:["ekonomi","kriz"],
@@ -270,7 +270,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1503-01-01", b:"İkinci savaşın sonu", tur:"antlasma", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kayip"],
   d:"Barış Mora'daki kayıpları tescil etti ve Venedik'in Osmanlı karşısındaki geri çekilişinin ikinci halkası oldu. Ticaret imtiyazları yine korundu.",
-  kaynak:"TDV `venedik`: 1499-1502 savaş dönemi · ⚠️ hem GÜN hem YIL kesinliği DOĞRULANMADI (TDV 1502, yaygın adlandırma 1503)" },
+  kaynak:"TDV `venedik`: 1499-1502 savaş dönemi · ⚠️ hem GÜN hem YIL kesinliği DOĞRULANMADI (TDV 1502, yaygın adlandırma 1503)", yer_id:"İstanbul" },
 
 // ══════════════════════════════════════════════════════════════════
 // IV. CAMBRAI LİGİ VE AKDENİZ'İN BÖLÜŞÜMÜ (1508-1573)
@@ -279,12 +279,12 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1508-12-10", b:"Cambrai Ligi — bütün Avrupa'nın Venedik'e karşı ittifakı", tur:"ittifak", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["ittifak","diplomasi"],
   d:"Papa II. Julius'un öncülüğünde Fransa, İspanya ve İmparatorluk gizlice Cambrai'de birleşti; açık amaç Venedik'in Terraferma'daki üstünlüğünü kırmaktı. Paylaşım önceden yapılmıştı: Padova, Verona, Vicenza, Treviso, Friuli ve İstriya imparatora; Brescia, Bergamo, Crema ve Cremona Fransa'ya.",
-  kaynak:"Treccani, 'Cambrai, lega di': \"costituita segretamente a Cambrai il 10 dicembre 1508\"; şehir paylaşım listesi birebir" },
+  kaynak:"Treccani, 'Cambrai, lega di': \"costituita segretamente a Cambrai il 10 dicembre 1508\"; şehir paylaşım listesi birebir", yer_kon:[50.174,3.2333] },
 
 { t:"1509-05-14", b:"Agnadello bozgunu — Terraferma'nın bir günde kaybı", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip"],
   d:"Fransız ordusu Adda'yı geçip Venedik ordusunu Vailate'de dağıttı. Tek bir muharebeyle yüz yılda kurulmuş kara imparatorluğu çözüldü; Venedik tarihyazımında Agnadello cumhuriyetin gördüğü en ağır askerî felakettir.",
-  kaynak:"Treccani, 'Agnadello, battaglia di': \"Il 14 maggio 1509 le truppe veneziane subirono una clamorosa sconfitta\"; Fransız ordusu 10 Mayıs'ta Adda'yı geçti, 14'ünde Vailate'de bozguna uğrattı" },
+  kaynak:"Treccani, 'Agnadello, battaglia di': \"Il 14 maggio 1509 le truppe veneziane subirono una clamorosa sconfitta\"; Fransız ordusu 10 Mayıs'ta Adda'yı geçti, 14'ünde Vailate'de bozguna uğrattı", yer_kon:[45.4167,9.6167] },
 
 { t:"1509-07-17", b:"Padova'nın geri alınması — çöküşün durdurulması", tur:"toprak-kazanc", onem:4, dunya:2, kapsam:"dis", yer_id:"Padova",
   etiket:["askeri","toprak-kazanc"],
@@ -309,7 +309,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1529-12-23", b:"Bologna Barışı — İtalya savaşlarından çekilme", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["antlasma","diplomasi"],
   d:"Venedik, Şarlken'le anlaşarak Puglia limanlarından ve Romagna'daki iddialarından vazgeçti ve İtalya savaşlarının dışına çıktı. Cumhuriyet bundan sonra iki yüz yıl boyunca büyük güç savaşlarına katılmayacak, gücünü yalnız Osmanlı cephesinde kullanacaktı.",
-  kaynak:"bulunamadı — gün DOĞRULANMADI" },
+  kaynak:"bulunamadı — gün DOĞRULANMADI", yer_kon:[44.4949,11.3426] },
 
 { t:"1537-08-25", b:"Korfu kuşatması ve üçüncü savaşın başlaması", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"Korfu",
   etiket:["askeri","kusatma"],
@@ -324,7 +324,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1540-10-02", b:"Üçüncü savaşın sonu — Ege mevzilerinin bırakılması", tur:"antlasma", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kayip"],
   d:"Venedik tek başına barış yaparak Nauplia ve Malvasia ile Ege'deki son mevzilerinden bazılarını bıraktı ve tazminat ödedi. Müttefiklerinden ayrı barış yapması, ticaret çıkarını ittifak dayanışmasının önünde tutmasının açık örneğidir.",
-  kaynak:"TDV `venedik`: 1537-1540 çatışma dönemi · ⚠️ GÜN DOĞRULANMADI" },
+  kaynak:"TDV `venedik`: 1537-1540 çatışma dönemi · ⚠️ GÜN DOĞRULANMADI", yer_id:"İstanbul" },
 
 { t:"1570-09-09", b:"Lefkoşa'nın düşüşü", tur:"toprak-kayip", onem:4, dunya:3, kapsam:"dis", yer_id:"Lefkoşa",
   etiket:["askeri","kusatma","toprak-kayip"],
@@ -383,7 +383,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1615-01-01", b:"Uskok Savaşı — Avusturya ile Adriyatik çatışması", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri"],
   d:"Adriyatik'te korsanlık yapan Uskoklar yüzünden Venedik ile Habsburg Avusturyası çatıştı. Savaş, cumhuriyetin Adriyatik'i \"kendi körfezi\" sayan iddiasını savunmak için verdiği son büyük mücadeledir.",
-  kaynak:"bulunamadı — gün DOĞRULANMADI (yıl damgası)" },
+  kaynak:"bulunamadı — gün DOĞRULANMADI (yıl damgası)", kapsam_genis:true },
 
 { t:"1618-05-18", b:"\"İspanya tertibi\" — gerçekliği tartışmalı bir komplo", tur:"kriz", onem:3, dunya:1, kapsam:"ic", yer_id:"Venedik",
   etiket:["kriz","diplomasi"],
@@ -432,7 +432,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1684-03-05", b:"Kutsal İttifak'a katılma", tur:"ittifak", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["ittifak","diplomasi"],
   d:"Viyana bozgunundan sonra kurulan ittifaka Venedik de girdi ve on beş yıl sürecek son büyük taarruzuna başladı. Girit'i kaybetmiş bir cumhuriyet için bu, kayıpları telafi etmenin son fırsatıydı.",
-  kaynak:"⚠️ GÜN DOĞRULANMADI · 🔴 `dunya:3` — Habsburg dosyasındaki aynı olayla BİREBİR AYNI (M-0880'de ilan edildi)" },
+  kaynak:"⚠️ GÜN DOĞRULANMADI · 🔴 `dunya:3` — Habsburg dosyasındaki aynı olayla BİREBİR AYNI (M-0880'de ilan edildi)", yer_kon:[48.3069,14.2858] },
 
 { t:"1685-06-01", b:"Mora seferinin başlaması — Morosini'nin taarruzu", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"Koron",
   etiket:["askeri","toprak-kazanc"],
@@ -476,7 +476,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1714-12-08", b:"Son Osmanlı-Venedik Savaşı'nın başlaması", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri"],
   d:"Osmanlı Devleti Mora'yı geri almak için savaş ilan etti. Venedik bu savaşa yalnız girdi; Karlofça'nın kazancını koruyacak ne donanması ne müttefiki vardı.",
-  kaynak:"depo `data/savaslar.js` (savas_basi 1714-12-08) · TDV `venedik`: 1714-1718 son çatışma dönemi" },
+  kaynak:"depo `data/savaslar.js` (savas_basi 1714-12-08) · TDV `venedik`: 1714-1718 son çatışma dönemi", yer_id:"İstanbul" },
 
 { t:"1715-07-01", b:"Mora'nın kaybı — Damad Ali Paşa harekâtı", tur:"toprak-kayip", onem:5, dunya:2, kapsam:"dis", yer_id:"Anabolu (Nauplion)",
   etiket:["askeri","toprak-kayip"],

@@ -245,7 +245,7 @@ window.OLAYLAR_EK10 = [
   gun:"5 Ekim 1594", yer:"Erdel, Eflak ve Boğdan voyvodalıkları",
   kisiler:"III. Murad, Erdel Prensi Zsigmond Báthory, Eflak Voyvodası Cesur Mihail, Boğdan Voyvodası Aron Vodâ, Papa VIII. Clément, Avusturya Kralı II. Rudolf",
   d:"Uzun Savaş'ın ikinci yılında Osmanlı'nın Orta Avrupa'daki vasal kuşağı bir anda çözüldü. Papa VIII. Clément'in himayesinde kurulan Kutsal İttifak'a önce Erdel Prensi Zsigmond Báthory girdi; Báthory 28 Ağustos 1594'te savaşa karşı çıkan Osmanlı yanlısı beyleri tasfiye ederek içerideki muhalefeti kırmıştı. Ardından Eflak Voyvodası Cesur Mihail ile Boğdan Voyvodası Aron Vodâ da aynı ittifaka katılma kararı aldılar. Böylece Osmanlı'nın Tuna'nın kuzeyindeki üç tâbi prensliği — yüz elli yıldır haraç ödeyen, voyvodası İstanbul'ca onaylanan üç voyvodalık — aynı sonbaharda birden karşı tarafa geçti. Karar 28 Ocak 1595'te Prag'da imzalanan antlaşmayla resmîleşti. Bu, Osmanlı'nın Balkanlar'ın kuzeyindeki dolaylı yönetim düzeninin uğradığı en ağır sarsıntıydı; ayaklanma bastırılacak ama üç prensliğin sadakati bir daha 1526-1593 arasındaki kadar sağlam olmayacaktı.",
-  kaynak:"bogdan", duygu:["🏛"] },
+  kaynak:"bogdan", duygu:["🏛"], kapsam_genis:true },
 
 // ---------------------------------------------------------------------------
 // C-2) 1594 KASIM — ayaklanmanın Tuna hattına vurması
@@ -338,7 +338,7 @@ window.OLAYLAR_EK10 = [
   gun:"24 Nisan 1877", yer:"Tuna ve Doğu Anadolu cepheleri",
   kisiler:"II. Abdülhamid, Serdârıekrem Abdülkerim Nâdir Paşa, Ahmed Muhtar Paşa, Grandük Nikola",
   d:"1876 Bulgar İsyanı'nın bastırılışı Avrupa kamuoyunda büyük infial uyandırmış, Rusya bunu Bâbıâli'yi yalnızlaştırmak için sonuna kadar kullanmıştı. İstanbul (Tersane) Konferansı'nın Bulgaristan'ı iki muhtar eyalete bölme teklifi ve ardından 31 Mart 1877 tarihli Londra Protokolü Osmanlı Devleti tarafından reddedilince Rusya 24 Nisan 1877'de savaş ilân etti. Rûmî takvimde 1293 yılına rastladığı için savaş Doksanüç Harbi adıyla anılır. Harekât Tuna ve Doğu Anadolu olmak üzere iki cephede yürüdü: Tuna'da 180.000 kişilik Osmanlı ordusu nehrin sol kıyısını birinci, Balkan dağlarını ikinci savunma hattı saymıştı; doğuda Ahmed Muhtar Paşa'nın 55.000 askeri Ardahan-Doğubayazıt arasında mevzilenmişti. Bu savaş haritada Osmanlı Rumelisi'nin çöküşünü başlatan olaydır — Bulgaristan, Sırbistan, Karadağ ve Romanya'nın bugünkü sınırlarının hepsi bu on beş ayın ürünüdür.",
-  kaynak:"doksanuc-harbi", duygu:["⚔️"] },
+  kaynak:"doksanuc-harbi", duygu:["⚔️"], kapsam_genis:true },
 
 { t:"1877-06-27", k:"kayip", etiket:["savas","toprak-kaybi"],
   b:"Rus ordusunun Tuna'yı geçmesi — Ziştovi ve Tırnova'nın düşüşü",
@@ -377,7 +377,7 @@ window.OLAYLAR_EK10 = [
   gun:"23 Ekim 1912", yer:"Doğu Trakya (Çatalca hattı), Kumanova, Selânik",
   kisiler:"Tahsin Paşa, Gazi Ahmed Muhtar Paşa, Kâmil Paşa",
   d:"Osmanlı Şark Ordusu 23 Ekim 1912'de kendisinden üç kat kalabalık Bulgar ordusuna yenilerek İstanbul'un otuz kilometre batısındaki Çatalca hattına kadar çekildi; başşehir savaşın ilk ayında doğrudan tehdit altına girdi. Aynı günlerde Garp Ordusu 23-24 Ekim'de Kumanova'da Sırplar'a yenildi ve Tahsin Paşa 35.000 kişilik ordusuyla Selânik'te Yunanlılar'a teslim oldu. Bu bozgunlar üzerine 29 Ekim'de Gazi Ahmed Muhtar Paşa kabinesi istifa etti; Selânik'te sürgün hayatı süren II. Abdülhamid 1 Kasım'da İstanbul'a nakledildi. Çatalca hattı savaşın sonuna kadar tutuldu — Rumeli'nin beş yüz yıllık Osmanlı coğrafyası birkaç hafta içinde bu dar şeride indi.",
-  kaynak:"balkan-savasi", duygu:["😔"] },
+  kaynak:"balkan-savasi", duygu:["😔"], kapsam_genis:true },
 
 // ===========================================================================
 // E BLOĞU — BEKLEMEDE, BU DOSYADA DEĞİL

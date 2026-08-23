@@ -191,7 +191,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1604-01-01", b:"Bocskai ayaklanması — Macar soylularının isyanı", tur:"isyan", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["isyan","din","milliyetcilik"],
   d:"Habsburg'un Macaristan'da yürüttüğü karşı-reform ve merkezîleştirme siyaseti, Bocskai István önderliğinde bir soylu ayaklanmasını tetikledi. İsyan, Viyana'yı hem Osmanlı hem de kendi Macar tebaası karşısında iki cepheli bir mücadeleye zorladı.",
-  kaynak:"bulunamadı — gün DOĞRULANMADI (yıl damgası kullanıldı)" },
+  kaynak:"bulunamadı — gün DOĞRULANMADI (yıl damgası kullanıldı)", kapsam_genis:true },
 
 { t:"1606-06-23", b:"Viyana Barışı — Macar Protestanlarına mezhep serbestisi", tur:"antlasma", onem:3, dunya:2, kapsam:"ic", yer_id:"Viyana",
   etiket:["din","anayasa","isyan"],
@@ -333,7 +333,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1703-01-01", b:"II. Rákóczi Ferenc ayaklanmasının başlaması", tur:"isyan", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["isyan","milliyetcilik"],
   d:"Türk hâkimiyetinden yeni kurtulmuş Macaristan'ı Viyana'ya sıkı sıkıya bağlamak isteyen mutlakiyetçi yeniden düzenlemeye karşı, Rákóczi önderliğinde bir bağımsızlık savaşı patlak verdi. Ayaklanma 1704'te Viyana'yı doğrudan tehdit etti ve şehirde Linienwall savunma duvarının yapımına yol açtı.",
-  kaynak:"Wien Geschichte Wiki, 'Friede von Szatmár' ve 'Kuruzzeneinfall': 1703'te patlak veren Macar isyanı; 1704'te Viyana tehdidi ve Linienwall · ⚠️ gün DOĞRULANMADI" },
+  kaynak:"Wien Geschichte Wiki, 'Friede von Szatmár' ve 'Kuruzzeneinfall': 1703'te patlak veren Macar isyanı; 1704'te Viyana tehdidi ve Linienwall · ⚠️ gün DOĞRULANMADI", kapsam_genis:true },
 
 { t:"1711-11-29", b:"Szatmár Barışı — Macaristan'la uzlaşma", tur:"antlasma", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["antlasma","isyan","anayasa"],
@@ -400,7 +400,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1740-12-16", b:"Prusya'nın Silezya'yı işgali", tur:"toprak-kayip", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip"],
   d:"Prusya Kralı II. Friedrich Silezya'ya girdi; bu, Avusturya Veraset Savaşı'nın başlangıç işareti oldu. Silezya monarşinin en zengin ve en sanayileşmiş eyaletiydi ve kaybı, Avusturya'nın bir asır sürecek Prusya rekabetinin başlangıcıdır.",
-  kaynak:"Die Welt der Habsburger, 'Der Österreichische Erbfolgekrieg': \"1740 fiel der preußische König Friedrich der Große in Schlesien ein – der Startschuss für den Österreichischen Erbfolgekrieg\" · ⚠️ gün DOĞRULANMADI" },
+  kaynak:"Die Welt der Habsburger, 'Der Österreichische Erbfolgekrieg': \"1740 fiel der preußische König Friedrich der Große in Schlesien ein – der Startschuss für den Österreichischen Erbfolgekrieg\" · ⚠️ gün DOĞRULANMADI", kapsam_genis:true },
 
 { t:"1745-09-13", b:"Franz Stephan'ın imparator seçilmesi — Habsburg-Lothringen hanedanı", tur:"hanedan", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["hanedan"],
@@ -493,7 +493,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1792-04-20", b:"Fransa ile savaşın başlaması", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","hanedan"],
   d:"Devrimci Fransa Avusturya'ya savaş ilan etti; Marie Antoinette'in kardeşi olan imparator için mesele hem hanedanî hem rejim meselesiydi. Yirmi üç yıl sürecek savaşlar dizisi başladı.",
-  kaynak:"bulunamadı — gün DOĞRULANMADI" },
+  kaynak:"bulunamadı — gün DOĞRULANMADI", kapsam_genis:true },
 
 { t:"1797-10-17", b:"Campo Formio — Belçika'nın kaybı, Venedik'in kazanılması", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kayip","toprak-kazanc"],
@@ -552,7 +552,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1821-01-01", b:"İtalya'daki ayaklanmaların bastırılması", tur:"isyan", onem:2, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","isyan"],
   d:"Napoli ve Piyemonte'deki anayasa hareketleri Avusturya ordusu tarafından bastırıldı. Avusturya, kutsal ittifak düzeninin jandarması rolünü üstlenmiş oldu.",
-  kaynak:"bulunamadı — gün DOĞRULANMADI (yıl damgası)" },
+  kaynak:"bulunamadı — gün DOĞRULANMADI (yıl damgası)", kapsam_genis:true },
 
 { t:"1835-03-02", b:"I. Franz'ın ölümü ve devlet konferansı idaresi", tur:"hanedan", onem:2, dunya:1, kapsam:"ic", yer_id:"Viyana",
   etiket:["hanedan"],
@@ -592,7 +592,7 @@ window.KRONOLOJI_HABSBURG = [
 { t:"1854-01-01", b:"Kırım Savaşı'nda silahlı tarafsızlık — Rusya'nın Tuna'dan çekilmesi", tur:"diplomasi", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","askeri"],
   d:"Avusturya savaşa girmedi ama Tuna prensliklerine asker yığarak Rusya'yı çekilmeye mecbur bıraktı. 1849'da kendisini kurtaran Rusya'yı bu şekilde karşısına alması, imparatorluğu Avrupa'da yalnızlaştırdı.",
-  kaynak:"TDV `avusturya`: Avusturya tarafsızlığını korudu, sonra \"Rusya'yı çekilmek mecburiyetinde bırakmıştır (1854)\" · ⚠️ gün DOĞRULANMADI" },
+  kaynak:"TDV `avusturya`: Avusturya tarafsızlığını korudu, sonra \"Rusya'yı çekilmek mecburiyetinde bırakmıştır (1854)\" · ⚠️ gün DOĞRULANMADI", kapsam_genis:true },
 
 { t:"1854-07-17", b:"Semmering demiryolu — Avrupa'nın ilk dağ demiryolu", tur:"reform", onem:4, dunya:3, kapsam:"ic", etiket:["teknoloji","ekonomi"], yer_id:"", kapsam_genis:true,
   d:"Carl Ritter von Ghega'nın inşa ettiği Semmering geçişi tamamlandı ve Gloggnitz-Mürzzuschlag bağlantısı açıldı. Bir dağ silsilesini normal açıklıklı rayla aşan ilk demiryoluydu; Viyana'yı Trieste limanına bağlayan hattın kilit halkasıydı ve imparatorluğun iç pazarını birleştirdi.",

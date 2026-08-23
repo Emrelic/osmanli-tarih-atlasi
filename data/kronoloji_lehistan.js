@@ -839,7 +839,7 @@ window.KRONOLOJI_LEHISTAN = [
   onem:4, dunya:2, kapsam:"ic", etiket:["kultur"],
   yer_id:"",
   d:"Rej bütün eserlerini Latince yerine Lehçe yazdı ve Polonyalıların kaz olmadığı, kendi dilleri bulunduğu sözüyle anıldı. Polonya edebiyat tarihi ulusal dilde edebiyatın başlangıcını ona bağlar; şlahta kültürünün kendi sesini bulması bu kuşakla olur.",
-  kaynak:"Norman Davies, God's Playground: A History of Poland (Oxford UP) — TDV bu taneciği kapsamıyor" },
+  kaynak:"Norman Davies, God's Playground: A History of Poland (Oxford UP) — TDV bu taneciği kapsamıyor", kapsam_genis:true },
 
 { t:"1578-06-01", b:"Kochanowski'nin Yunan Elçilerinin Uğurlanması'ı — ilk Lehçe trajedi", tur:"kultur",
   onem:4, dunya:2, kapsam:"ic", etiket:["kultur"],
@@ -904,7 +904,7 @@ window.KRONOLOJI_LEHISTAN = [
   onem:4, dunya:2, kapsam:"ic", etiket:["din","siyaset"],
   yer_id:"",
   d:"Sejm, Arian'lara ya Katolikliği kabul etmeyi ya da ülkeyi terk etmeyi şart koştu. Avrupa'nın ilk dinî hoşgörü belgesini üretmiş olan ülke, seksen beş yıl sonra bir mezhebi topluca sürdü. Sürgünler Hollanda ve Prusya'ya giderek Aydınlanma düşüncesine katkıda bulundu.",
-  kaynak:"Norman Davies, God's Playground: A History of Poland (Oxford UP) — TDV bu taneciği kapsamıyor" },
+  kaynak:"Norman Davies, God's Playground: A History of Poland (Oxford UP) — TDV bu taneciği kapsamıyor", kapsam_genis:true },
 
 { t:"1677-01-01", b:"Wilanów Sarayı'nın inşası başladı", tur:"kultur",
   onem:3, dunya:1, kapsam:"ic", etiket:["kultur"],
