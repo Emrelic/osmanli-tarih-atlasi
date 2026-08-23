@@ -78,5 +78,55 @@ metin doğrudan Stockholm demiyor ama dönemin Riksdag/hükümet merkezi
 olması gerekçesiyle atandı; kaynak alanında "orta güven" ibaresiyle
 işaretli, koordinatör isterse ayrıca sınayabilir.
 
-## Durum
-TESLİM EDİLDİ (M-1122 cevabı, tahtaya yazıldı). Yeni görev bekliyorum.
+## Durum (M-1122)
+TESLİM EDİLDİ. Yeni görev geldi: M-1153.
+
+---
+
+## Görev 2 (M-1153, koordinatörden — 23 Ağustos 2026 06:18)
+Aynı iş, ikinci dosya: `data/kronoloji_memluk.js` (Memlük Devleti kronolojisi).
+Okuma: `data/kronoloji_memluk.js` → `window.KRONOLOJI_MEMLUK`
+Yazma: `data/yer_yama_memluk.js` → `window.YER_YAMA_MEMLUK`
+Kronoloji dosyasına DOKUNULMADI — yamayı artık `arac/yama_uygula.js`
+uyguluyor (koordinatörün yeni ortak aracı, benim şemama uydurulmuş).
+
+### Ölçüm
+- `data/kronoloji_memluk.js`: 155 madde, olay mahalli damgası olmayan
+  **29 madde** (koordinatörün verdiği sayıyla birebir).
+- Üretilen `data/yer_yama_memluk.js`: **29/29** kayıt —
+  `yer_id` **7** · `eksik_nokta` **6** · `kapsam_genis` **16**.
+
+### Kapı denetimi (aynı altı kontrol, tekrar koşuldu)
+Söz dizimi temiz · anahtar (dosya+t+b) orijinal 29 eksikle birebir (0
+eksik/0 fazla) · mükerrer anahtar 0 · her kayıtta tam bir alan var (0
+hata) · `eksik_nokta` dörtlüsü eksiksiz (0 hata) · 7 `yer_id` değeri
+havuzda birebir doğrulandı (0 hata).
+
+### Çıkardığım hüküm (ayrı satır)
+Koordinatörün öngörüsü doğru çıktı: Memlük'te `kapsam_genis` oranı
+yüksek (16/29, %55). Sebep dağılımı iki cins: (a) çoğu bilateral
+antlaşma/mektup için metin imza/gönderim yerini VERMİYOR (Kıbrıs
+antlaşması 1370, Ceneviz 1386, Osmanlı-Memlük 1416/1491, Habeş
+mektupları 1438/1441) — Kahire varsaymak yanlış olurdu çünkü karşı
+taraf da olası; (b) bölge-geneli olaylar (Doğu Anadolu akını, Kârimî
+ticaret baskısı/çöküşü, Barsbay'ın ilk iki Kıbrıs seferi — iniş noktası
+verilmiyor). Sultan-sarayı olayları (Sultan Halîl'in öldürülmesi) ve
+beylik tahtı olayları (Dulkadir — Maraş) AYRILDI, doğrudan yer_id aldı.
+
+### Özel vaka — "bulunamadı", uydurma koordinat YAZILMADI
+Şeyh el-Mahmûdî'nin 1409'da "Sarhad'da" mağlup edilmesi maddesinde
+Sarhad'ın koordinatını bulamadım: TDV'nin kendi `ferec` maddesi
+(içerik okundu) yer adını veriyor ama bölge/yakın şehir bilgisi
+vermiyor, İngilizce akademik kaynaklarda da bulunamadı. Şema üç kova
+tanımlıyor (yer_id/eksik_nokta/kapsam_genis) ve "bulunamadı, ama tek
+noktadır" için dördüncü bir kova yok — bu kaydı `kapsam_genis` alanına
+koydum ama notunda BÜYÜK HARFLE "BULUNAMADI" diye işaretledim ki
+kapsam_genis'in gerçek (bölge-geneli) vakalarıyla KARIŞMASIN.
+Koordinatöre ayrıca bildirildi — isterse bu tek kaydı ayrı ele alabilir.
+
+### Bulamadıklarım
+Yalnız yukarıdaki Sarhad koordinatı. 29 kaydın 28'i tam güvenle
+karara bağlandı.
+
+## Durum (M-1153)
+TESLİM EDİLDİ (tahtaya yazıldı). Yeni görev bekliyorum.
