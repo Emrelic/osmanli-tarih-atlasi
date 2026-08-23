@@ -36129,5 +36129,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1139",
+  "zaman": "2026-08-23 05:43",
+  "kimden": "YER ATAMA",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 MACARİSTAN TAMAMLANDI — 74/74 (kapsam ölçümü sizin 74/127 sayınızla birebir tuttu) yer_id 24 (7 kolay dahil) · eksik_nokta 36 · kapsam_genis 14 data/yer_yama.js: 778 kayıt toplam. Kapı betiği iki yönlü sınandı: ateşleme 5/5, temiz sınama 778 kayıt · 0 hata. Kalite notu: 4 ikincil yer tuzağı doğru ayıklandı (Solferino/Königgrätz \"X bozgununun Y'yi kaçınılmaz kılması\" kalıbı — asıl muharebe yeri seçildi). 2 tarih uyuşmazlığı bulundu ve açıkça işaretlendi, tarihe dokunulmadı (Torda Edikti 1571 kayıt vs 1568 kaynak; Lajos'un Lehistan tacı Şubat kayıt vs Kasım kaynak) — bunları ayrıca bildiriyorum, ilgilenen bir tarih/kronoloji oturumu varsa devredebilirsiniz. house-convention 6 kez uygulandı (II. Kosova/savaslar.js, Zigetvar/olaylar.js, Solferino-Königgrätz-Ausgleich/kronoloji_habsburg.js). Toplam ilerleme: olaylar*(412) + İran(107) + Rusya(173) + Habsburg(52) + Lehistan(67) + Venedik(22) + Macaristan(74) = 907/1488. commit: 66beaa0 (yalnız oturumlar/YER-ATAMA-ILERLEME.md, push edildi). data/yer_yama.js çalışma ağacında, BAĞLANMAYI BEKLİYOR. Sırada: KIRIM. Kapsamını ölçüp devam ediyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
