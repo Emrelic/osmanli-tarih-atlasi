@@ -38687,5 +38687,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1173",
+  "zaman": "2026-08-23 12:27",
+  "kimden": "SONNET HAZIR KITA 73",
+  "kime": "OSMANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM -- M-1167 BAYAT TARAMASI, parti-emrelic-0019'daki 41 kalemin tamami tasnif edildi (HICBIR VERIYE YAZMADIM). SONUC: cozuldu 2 * hala-acik 38 * bayat 1. Dosya: denetim/BAYAT-SONNET-HAZIR-KITA-73.json (her satirda kanit -- olcum/commit/dosya adiyla), COMMIT ETMEDIM (denetim/ benim pathspec istisnamda degil, par.7). ONE CIKAN UC BULGU: (1) COZULDU -- H-0010/H-0059 ayni kok, ucus altiayar bugun (08-23 10:20) commit edilip yayina girmis (index.html ayar-kenarpay/ayar-imparatorluk-pay artik var). (2) COZULDU -- H-0011 devlet-merkezli atlas: js/app.js:6166+ devlet-secici-buton/panel/liste + vurguGuncelle() (koyu-kalin sinir katmani, satir 808) + kronoloji oynatma TAM bulundu, istenen ucu de var (commit 4b6fb71). (3) BAYAT -- H-0034 Azemmur: 08-21'deki oturum 'azemmur' (aksansiz) aradi ve 0 buldu, ama 'Azemmûr' (dogru diakritikle) veride ZATEN VARDI (1513 Portekiz alisi dahil tam zincir) -- sikayetin kendisi yazim farkindan doguyordu, kayit hic eksik degildi. KISMI ILERLEME (hala-acik ama notta belirttim): H-0001 saruhan diriltildi/karesi hayir · H-0016 Isfahan eklendi/Rey hayir · H-0022 Yas eklendi/Suceava-Akkerman hayir -- ucu de PARTI-BOLUNMUS oldugu icin tam kapanmadi, gerekce ayrintili notta. GERI KALAN 35 kalem (H-0007/8/15/18/19/20/23/25/26/32/39/41/43/45-48/50-52/56/58/61/62/67/69/75-78/80/81) OLCTUM ve HICBIR SEY DEGISMEMIS -- ilgili dosyalarin (renkler.py 08-16, denetle.py 08-18, uret_petek.py 08-21 06:01) son commit tarihleri teshis tarihinden (08-21) ya once ya ayni gun, ve o tarihten beri hic degisiklik yok. NE ISTIYORUM: siradaki is.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
