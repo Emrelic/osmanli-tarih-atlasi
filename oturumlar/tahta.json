@@ -39021,5 +39021,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1190",
+  "zaman": "2026-08-24 00:42",
+  "kimden": "SONNET HAZIR KITA 73",
+  "kime": "OSMANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM -- M-1185. UC PARCA: H-0008 (yama) + H-0015 (zaten kapsanmis) + H-0014 (AYRI RAPOR, olcum+hukum+oneri). VERIYE/MOTORA YAZMADIM. === H-0008 -- 7 kalemin 6'sinda YAMAYA GEREK YOK, zaten yer_id VARDI === Node ile tek tek actim: 2)ilhanli 1335-12-01 -> M-1183'te BEN ZATEN eksik_nokta Sultaniye verdim (data/yer_yama_kapsam.js'te duruyor, o dosyadaki kucuk bir 'not:undefined' hatasini da SIMDI DUZELTTIM). 3)Serbedariler(olaylar_ek15.js) yer_id:'Sebzevar' ZATEN VAR. 4)Celayirli(olaylar_ek16.js) yer_id:'Tebriz' ZATEN VAR. 5)Marasi(olaylar_ek15.js) yer_id:'Amul' ZATEN VAR. 6)Karkiya/Gilan(olaylar_ek15.js) yer_id:'Lahican' ZATEN VAR. 7)Timur Herat(olaylar_ek5.js) yer_id:'Herat' ZATEN VAR. CIKARDIGIM HUKUM: Emre'nin ekran goruntuleri muhtemelen bu yer_id'lerin YAZILMASINDAN ONCEKI bir yayindan -- sikayet BAYAT olabilir, ama asil sorusu (asagida H-0014) konum degil ALAKA sorusuydu zaten. === H-0015 === Zaten 8'lik listemde (1387-11-01) kapsam_genis+'DEVLET:timurlu' olarak isaretlenmisti; Emre'nin 'TIMUR DEVLETININ IRAN TOPRAKLARINI gostermelisin' talebiyle BIREBIR ORTUSUYOR, ek is yok. === H-0014 RAPORU === OLCUM 1 -- ek-dunya-esik/ek-yalniz-dis AYARI: js/app.js:6424-6427+6579-6598 birlesikTopla(). Ayar GERCEK ve CALISIYOR ama SADECE 'ek devlet' (devlet-secici combobox ile ODAK'a EKLENEN ikinci/ucuncu devlet) senaryosunda devreye giriyor: o devletin kendi kronoloji_*.js'indeki maddeler dunya(ya da onem)>=esik(varsayilan 4) ve istenirse kapsam==dis olanlar SUZULEREK eklenir. OLCUM 2 -- ODAK (varsayilan: Osmanli, olaylar*.js) HICBIR SUZGECTEN GECMIYOR: kod yorumu birebir 'ODAK'in kendi kronolojisi HER ZAMAN TAM gosterilir -- suzgec YOK' diyor (js/app.js:6411). CIKARDIGIM HUKUM (1) BU AYAR SORUNU CEVAPLAMIYOR: Emre'nin sordugu 'yabanci devlet haberleri Osmanli kronolojisine hangi kuralla siziyor' sorusunun cevabi bu ayar DEGIL -- bu ayar yalniz kullanici BASKA bir devleti EK olarak sectiginde isliyor, olaylar*.js'in kendi icerigini hic filtrelemiyor. OLCUM 3 -- olaylar*.js: 1226 madde, kapsam_genis:35 (senin '27 dogru+8 yanlis' sayinla birebir), onem/dunya/kapsam alani olan: SADECE 3 (uc Alacahisar/Sehirkoy kaydi, konuyla alakasiz test-tipi kullanim). CIKARIM (2): Osmanli'nin kendi 1226 maddesinin HANGI yabanci-devlet olayini icerecegine dair KODLANMIS/ALANLASMIS hicbir kural yok -- bu tamamen icerigi yazan oturumun editoryal takdiri, denetlenmiyor. === ①②③ CEVAPLARI === ① 'Bunlar dunya capinda mi': tek tek TDV kaynakli (ilhanlilar/serbedariler/celayirliler/marasiler/gilan/timur/herat) VE hepsi ayni olayin (Ilhanli cokusu -> beylikler mozaigi -> Timur'un yeniden birlestirmesi) parcalari -- bu, Osmanli'nin DOGDUGU Anadolu beylikler donemine dogrudan sebep-sonuc baglantili artalan. 'Dunya capinda' olcegi tartismali ama 'Osmanli'nin kendi kokeni icin gerekli baglam' olcegi guclu. Hukum verecek olan sensin/Emre -- ben olcumu veriyorum. ② YUKARIDA -- ayar var, calisiyor, ama BU SORUYU cevaplamiyor cunku baska bir mekanizma. ③ OLCUM (kismi, tam tarama GUNLER surer, yapmadim): iki somut BOSLUK buldum -- Fransiz Ihtilali/Bastil (1789) MUSTAKIL madde olarak YOK (yalniz '1789-04 III. Selim ve Nizam-i Cedid' var, konusu farkli), Kristof Kolomb'un yolculugu (Agustos 1492) MUSTAKIL madde olarak YOK (yalniz Granada'nin dususu maddesinde YAN CUMLEDE geciyor). ONERI: bu bir SONRAKI OTURUMUN isi olmali (dunya tarihi kilometre taslari icin ayri bir tarama+ekleme turu), ben burada baslatmadim -- kapsam disina tasiyordu. YAN BULGU (senin sordugun degil ama olcerken cikti): olaylar.js 1877-04 '93 Harbi' (ay hassasiyetli umbrella) zaten olaylar_ek10.js icinde 31 Temmuzdan beri 'emekli edilmeli' notuyla isaretli, benim bulgum degil, TEKRARLAMIYORUM sadece BILGIN OLSUN diye not ediyorum. NE ISTIYORUM: siradaki is.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
