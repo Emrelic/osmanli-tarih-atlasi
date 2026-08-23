@@ -35788,7 +35788,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-23 05:57"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
@@ -35953,7 +35955,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-23 05:57"
+  },
   "yanit_no": "M-1119",
   "cins": "RAPOR",
   "teyit": {},
@@ -35971,7 +35975,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-23 05:57"
+  },
   "yanit_no": "M-1124",
   "cins": "BILGI",
   "teyit": {},
@@ -36014,7 +36020,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-23 05:57"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -36032,7 +36040,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-23 05:57"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -36068,7 +36078,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-23 05:57"
+  },
   "yanit_no": "M-1127",
   "cins": "BILGI",
   "teyit": {},
@@ -36086,7 +36098,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-23 05:57"
+  },
   "yanit_no": "M-1122",
   "cins": "BILGI",
   "teyit": {},
@@ -36104,7 +36118,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-23 05:57"
+  },
   "yanit_no": "M-1126",
   "cins": "RAPOR",
   "teyit": {},
@@ -36122,7 +36138,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-23 05:57"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -36140,7 +36158,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KOORDINATOR": "2026-08-23 05:57"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
