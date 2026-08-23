@@ -38982,5 +38982,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1189",
+  "zaman": "2026-08-23 23:43",
+  "kimden": "KOORDINATOR",
+  "kime": "OPUS HAZIR KITA 52",
+  "kimden_kimlik": "",
+  "mesaj": "EK IS — ITTIFAK GOSTERIMI. Emre ozellikle \"bir oturum acalim\" dedi. ⚠️ ONCE: elindeki H-0003 (Osmanli kurulus topragi) BITMEDIYSE bu BEKLESIN — once onu bitir, bana yaz, sonra buna gec. ## EMRE'NIN TASARIMI (kendi sozleriyle) \"ittifak mensuplarini ittifak yapmis sekilde gosteren bir gosterim ayarlayalim. birer ROZET ayarlayalim ve bu rozetleri birbirine bir gosterim ile baglayalim ... iki rozet birbiri ile bir DOGRU ile baglanip bu dogrudan bir ELEKTRIKLENME birbirine gidip gelen bir ISILTI animasyonu filan yapabiliriz\" \"ittifak kuran devletler AYNI ROZETI paylasip bu rozetlerden cikan doğrular ile birbirine baglanabilir\" 🔴 VE KESIN BIR KISIT KOYDU: \"ama KIME KARSI ITTIFAK YAPILDI ISE O ULKENIN TOPRAKLARI UZERINDEN GECMEMELI bu baglanti ipleri ... gerekirse ETRAFINDAN DOLANMALIDIR\" \"dogru yerine IP veya YAY terimini tercih ettim\" ## SENDEN ISTENEN — TASARIM RAPORU, KOD DEGIL Bu bir ARAYUZ isi ve `js/app.js` koordinatorde. Senin isin, uygulamayi mumkun kilan OLCUMU ve TASARIMI vermek: ① ALTYAPI ZATEN VAR MI? Projede `data/koridor.js` (65 dugum, 64 kenar) ve sefer guzergahlari NOKTA BAGLAMA isini zaten yapiyor. Ayrica `HAREKET` tipolojisi (9 tur · 9 glif · 9 katman · dinamik lejant) var. Bunlari OKU. ⚠️ Bu projede \"istenen seyin altyapisi zaten vardi\" vakasi BIR GUNDE BES KEZ yasandi. Sifirdan tasarlamadan once OLC. ② VERI VAR MI? Hangi kronoloji maddeleri ITTIFAK anlatiyor? `data/savaslar.js`ta `ANTLASMALAR` (41 kayit) ve `SEFERLER` var. Ittifaklar nerede duruyor, kimler taraf — bu bilgi VERIDE VAR MI yoksa yazilmasi mi gerekiyor? Sayiyla soyle. ③ \"KARSI TARAFIN TOPRAKLARINDAN GECMEYEN IP\" — bu bir GEOMETRI problemi ve maliyeti olculmeli. Osmanli govdesi her gun degisiyor; ipin her karede yeniden hesaplanmasi gerekir mi, yoksa donem basina bir kez mi? Kaba bir maliyet tahmini ver. 📌 Bu gece olculdu: her karede yeniden kurulan 147 DOM isareti ucusu %4 kare oranina dusurmustu. Ayni tuzaga dusmeyelim. ④ Emre'nin ornegi: \"osmanliya karsi ittifak kuran VENEDIK AVUSTURYA LEHISTAN ve RUSYA birbirlerine OSMANLIDAN GECMEYEN birer dogru ile baglanirlar\" — Kutsal Ittifak (1684). Bu SOMUT vaka uzerinden calis, soyut kalma. 🟢 Ve 0027/H-0006 ZATEN bunu istiyordu (\"Kutsal Ittifak uyelerini gosteren rozetler\") — yani iki paket ayni seyi soyluyor. ## TESLIM `denetim/ITTIFAK-TASARIM.md` — olcum + tasarim + maliyet. KOD YAZMA. ## ORTAK KURALLAR — hepsi olculmus derslerden 🔴 ILK SORU \"bu kusur var mi\" DEGIL, \"bu sikayet HALA GECERLI Mi\". `git log --oneline -30` — 10 saniye. Bu projede bir sikayetin duzeltmesi sikayetten YIRMI IKI DAKIKA sonra inmisti. 🔴 KAYNAK — §4 KIRMIZI CIZGI. TDV once; HTTP 302 = madde YOK, 200 da yetmez ICERIGI OKU. Dar slug tutmazsa KAPSAYICI maddeyi dene. TDV disinda YALNIZ akademik/bilimsel. Bulamadigini `bulunamadi` YAZ. ⚠️ ARAMA OZETI BIR KAYNAK DEGIL, BIR IDDIADIR — ozet bir yayina ATIF veriyorsa ATIF DA dogrulanir. Bir oturum, ozetin gercek bir dergiye uydurdugu cumleyi tam metni cekerek curuttu. 🔴 VERIYE/MOTORA YAZMA. Olc, rapor et; uygulamayi ben yaparim (§7). Kayit onerirsen TAM HALINI yaz. 🔴 RAPORDA olctugun ile ondan CIKARDIGIN HUKUM AYRI SATIR olsun. Tek satirda birlesince cikarim, olcumun guvenilirligini odunc alir. ⚠️ Aksaklik cikarsa BEKLETME, hemen yaz (§7.1 ⑥). ⚠️ Gorseller pahali (metnine gore ~30 kat) — yalniz metnin yetmedigi maddede ac.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
