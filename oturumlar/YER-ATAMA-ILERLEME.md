@@ -586,11 +586,111 @@ Kalite örnekleri:
 sınaması iki yönlü sınandı: ATEŞLEME 5/5 hata sınıfı yakalandı (çıkış 0),
 TEMİZ SINAMA 825 kayıt · 0 hata (çıkış 0).
 
+## 🔴 06:03 — KOORDİNATÖR 9 OTURUMU PARALELE ALDI, YENİ REJİM
+
+Koordinatör (M-1120…M-1145 tahta serisi) İngiltere/İsveç/İspanya/İtalya/
+Fransa/Almanya/Doğu Afrika/Anadolu/Arabistan dosyalarını **9 AYRI oturuma**
+paralel dağıttı — her biri KENDİ ad alanına (`data/yer_yama_<ülke>.js` →
+`window.YER_YAMA_<ÜLKE>`) yazıyor, `CLAUDE.md §7`'nin "ayrı dosya vermek
+ayrı ad alanı vermek değildir" dersi uygulanmış. **Bu, benim İngiltere'ye
+başlamamdan HEMEN SONRA fark edildi** — Monitor bekçisi tahtada
+`SONNET HAZIR KITA 73`'ün İngiltere'yi ZATEN 120/120 bitirip teslim
+ettiğini gösterdi (M-1134). **İngiltere'ye hiç yama yazmadım** (yalnız
+ölçüm/tarama yaptım), bırakıldı — çakışma yok.
+
+Ayrıca **Macaristan iki kez işlendi** (koordinatörün itirafı, M-1141/
+M-1143): benim 74/74'üm ile `SONNET HAZIR KITA 64`'ün 55/55'i aynı anda
+verilmiş. Ad alanları ayrı (`YER_YAMA` / `YER_YAMA_MACAR`) olduğu için
+**veri kaybı yok**, yalnız 55 kayıtlık araştırma emeği boşa gitti —
+koordinatörün kendi hatası, benim değil.
+
+**KIRIM'DA ÜÇÜNCÜ BİR SAYI ÇIKTI (henüz açıklanamadı):** M-1143 bana
+"kronoloji_kirim.js 34 eksik/91, bitir" dedi — ama Kırım'ı ZATEN 47/47
+bitirmiş, M-1140'ta (M-1143'ten 1 dakika önce) bildirmiştim. Kaynağı
+yeniden ölçtüm: **41 eksik/91** çıktı (benim orijinal 47'm de, koordinatörün
+34'ü de değil). Ben kronoloji_kirim.js'e hiç yazmadım — dosya benim
+dışımda değişmiş. Koordinatöre bildirdim (M-1147), üstüne yeni tur
+atmadım — data/yer_yama.js'teki 47 kayıt duruyor, kapı betiği 0 hata.
+
+⇒ **YENİ PROTOKOL (koordinatörün M-1143 talimatı):** bundan sonra HER
+dosyaya başlamadan önce tahtaya "X'e başlıyorum" yazılacak — kuyruk
+çakışmasını önlemek için.
+
+## Arabistan — kapsam ölçümü ve iş
+
+M-1143'te koordinatörden ikinci kalem olarak `kronoloji_arabistan.js`
+verildi (45 eksik/60, orandaki en kötü dosya). Başlamadan tahtaya
+duyuru yazıldı (M-1148, yeni protokol). Dosya doğrulandı:
+`data/kronoloji_arabistan.js` → `window.KRONOLOJI_ARABISTAN`, 60 madde,
+**45'inde `yer_id` yok** — koordinatörün sayısıyla BİREBİR tuttu.
+
+Başlık taraması: 7 aday, 5'i güvenli doğrudan eşleşme (Basra/Kerim Han
+Zend kuşatması, Mombasa/1837 alınış, Cidde/vali ziyareti, Lahsa/1553
+beylerbeyilik, Lahsa/1795 Abdülazîz b. Suûd), 2'si ikincil yer tuzağı
+(Maskat/Saîd b. Sultân'ın ölüm-sonrası bölünme SONUCU, ölüm yeri değil;
+Basra/Lahsa'nın idari bağlanma HEDEFİ).
+
+40 kayıt 2 tematik paralel araştırma görevine (Yemen-Zeydî+erken Umman 20 ·
+geç Umman-Bû Saîd+Lahsa-Benî Hâlid 20) gönderildi.
+
+## 🟢 ARABİSTAN TAMAMLANDI — 45/45
+
+İki araştırma alt-görevi tamamlandı, ikisi de `dogrula_sonuc.js` ile
+0 hatayla doğrulandı (`oneri_yer_adi` alanları havuza karşı ayrıca
+doğrulandı, düzeltme gerekmedi). `dogrula_sonuc.js`/`kapi_yer_yama.js`'in
+kaynak dosya listesine `kronoloji_arabistan.js` eklendi.
+
+```
+Arabistan toplam: 45/45
+  yer_id (5 kolay dahil)   14
+  eksik_nokta               9
+  kapsam_genis             13
+  bulunamadı                4  ← DÖRDÜNCÜ KOVA, ilk kez kullanıldı
+```
+
+🔴 **"BULUNAMADI" dördüncü kova ilk kez fiilen kullanıldı** (dört kayıt):
+kaynak (TDV) olayın kendisini doğruluyor ama YERİNİ hiç vermiyor, ve
+Wikipedia'nın verdiği yer bilgisi proje kuralı gereği (Wikipedia tek
+dayanak olamaz) kabul edilmedi — Bedr b. Seyf'in bertaraf yeri, Sâlim'in
+ölüm yeri, Azzam b. Kays'ın imamet yeri, Mâcid el-Ureyyir'in ölüm
+muharebesi (Aklâ/Sebiyye — kaynaklar arasında AD BİLE UYUŞMUYOR). Bunlar
+`kapsam_genis`e YAZILMADI — olay tek noktadır, kaynak susuyor; `CLAUDE.md
+§11`in "ölçülemedi ≠ temiz" ve boşluğun cinsini kaydetme kuralı burada
+uygulandı.
+
+Kalite örnekleri:
+- **İkincil yer tuzağı 2 kez net ayıklandı**: Saîd b. Sultân'ın ölümü
+  ("Maskat ve Zengibar arasında bölündü") — TDV açıkça "iki şehir
+  ARASINDA denizde vefat etti" diyor, kara noktası uydurulmadı,
+  kapsam_genis. Süleyman el-Hamîdî — kayıt "tahttan indirilme" (Lahsa'dan
+  çıkarılma) anlatıyor, TDV'nin ayrıca verdiği ölüm yeri (Harc) ile
+  KARIŞTIRILMADI.
+- **Proje kendi verisiyle çapraz doğrulandı**: 1635 Osmanlı çekilişi
+  kaydı, `data/yerlesimler.js`'teki Moha noktasının `d:` penceresinin
+  BİTİŞ GÜNÜYLE (1635-10-22) birebir örtüştüğü fark edildi — TDV'nin
+  Hicrî tarihi atlasın kendi verisiyle gün gününe çakıştı.
+- **Taneciklik boşluğu 2 kez doğru işaretlendi** (`CLAUDE.md §4`): Da'an
+  Antlaşması (1911) ve 1630 Umman-Portekiz barışı — TDV olayı ya hiç ya
+  da isimsiz anıyor, standart akademik kaynağa (Journal of Arabian
+  Studies, Umman tarihi literatürü) geçildi, `kaynak:` alanına açıkça
+  yazıldı, koordinatlar "kesin değil, yaklaşık" diye damgalandı.
+- **3 km kuralı doğru uygulandı**: Hufuf için ayrı nokta açılmadı,
+  havuzdaki "Lahsa" (birkaç km mesafede) kullanıldı.
+
+`data/yer_yama.js`: **866 kayıt toplam** (830 + 40 araştırma − 4
+"bulunamadı"). `build_yama3.js` bulunamadı kayıtlarını KASTEN
+`yer_yama.js`'e yazmıyor (betiğin kendi yorumu: "bulunamadi ... ATLA —
+yer_yama'ya girmez") — bu bir hata değil, tasarım: üç seçenek de boşsa
+haritaya iner bir veri yok, yalnız KAYIT (`oturumlar/` defterinde ve
+`arastir_sonuc_arabistan_b.json`'da) kalıyor ki bir sonraki oturum
+"aranmadı" ile "arandı, bulunamadı"yı ayırt edebilsin. Tam dosya kapı
+sınaması iki yönlü sınandı: ATEŞLEME 5/5 hata sınıfı yakalandı (çıkış 0),
+TEMİZ SINAMA 866 kayıt · 0 hata (çıkış 0).
+
 ## Durum
 **Tamamlanan: olaylar* (412) + İran (107) + Rusya (173) + Habsburg (52)
-+ Lehistan (67) + Venedik (22) + Macaristan (74) + Kırım (47) = 954/1488.**
-Şartnamenin ② listesindeki ülkeler (İran·Rusya·Habsburg·Lehistan·İran·
-Venedik·Macaristan·Kırım) TAMAMLANDI. Sırada koordinatörün ③ listesi:
-**İngiltere, İsveç, İspanya, İtalya, Fransa, Almanya, Çin, Japonya** — ya
-da koordinatör başka bir öncelik bildirirse ona göre.
++ Lehistan (67) + Venedik (22) + Macaristan (74) + Kırım (47) +
+Arabistan (45) = 999/1488** (bulunamadı kovası dahil edilirse).
+Sırada: koordinatörden yeni kalem bekleniyor — yeni protokol gereği
+tahtaya soracağım.
 `kronoloji_sirbistan.js` sorusu hâlâ cevapsız — dokunmuyorum.
