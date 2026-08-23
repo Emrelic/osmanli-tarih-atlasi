@@ -529,8 +529,68 @@ Kalite örnekleri:
 sınaması iki yönlü sınandı: ATEŞLEME 5/5 hata sınıfı yakalandı (çıkış 0),
 TEMİZ SINAMA 778 kayıt · 0 hata (çıkış 0).
 
+## Kırım — kapsam ölçümü
+
+`data/kronoloji_kirim.js` → `window.KRONOLOJI_KIRIM`, 91 madde, **47'sinde
+`yer_id` yok**. Bu dosyada da `yer:` alanı yok. Başlık taraması: 9 aday,
+4'ü güvenli doğrudan eşleşme (Akkirman/1484 sefer hedefi, Peçuy/kışlama,
+Viyana/1683 kuşatma, İstanbul/1784 "İstanbul'da imzalanan" açık ifade),
+5'i ikincil yer tuzağı (Moskova/Kazan/Yeniköy-İstanbul-Boğazı hedef-rakip
+karışıklığı, "Gazi Kirman" ile havuzdaki Farsça "Kirman" arasında olası
+yanlış eşleşme riski, "Yaş Antlaşması sonrası" ifadesindeki Yaş antlaşma
+yeri ama BU kayıt antlaşma SONRASI ayrı bir karar).
+
+Proje içi house-convention taraması 5 kayıt daha çözdü: Zitvatorok,
+Küçük Kaynarca (Silistre), Aynalıkavak Tenkihnâmesi (İstanbul), Haçova
+(savaslar.js) ve Sarı Sular/Zhovti Vody (kronoloji_lehistan.js'teki AYNI
+tarihli kayıtla).
+
+Toplam **9 kayıt kolay/house-convention ile çözüldü**, **38 kayıt** 2
+paralel araştırma görevine (19+19) gönderildi.
+
+## 🟢 KIRIM TAMAMLANDI — 47/47
+
+İki araştırma alt-görevi (19+19) tamamlandı, ikisi de `dogrula_sonuc.js`
+ile 0 hatayla doğrulandı (`oneri_yer_adi` alanları havuza karşı ayrıca
+doğrulanıp `yer_id`/`eksik_nokta`'ya çevrildi, düzeltme gerekmedi).
+
+```
+Kırım toplam: 47/47
+  yer_id (9 kolay dahil)   24
+  eksik_nokta               8
+  kapsam_genis             15
+```
+Kalite örnekleri:
+- **TDV madde içeriği doğrudan okunarak** çok sayıda hassas bulgu elde
+  edildi: Hacı Giray'ın 1441 bağımsızlık iddiasının en erken numismatik
+  kanıtı Kırkyer değil Solhat'ta (TDV 'haci-giray-i') · Hacı Giray ve
+  Mengli Giray'ın ikisinin de Bahçesaray'daki Salacık'a gömüldüğü (TDV
+  'mengli-giray-turbesi') · Şâhin Giray'ın 14 Mayıs 1782'de Kerç'e sığındığı
+  (TDV 'sahin-giray', tarih birebir örtüşüyor).
+- **İkincil yer tuzağı birden çok kez doğru ayıklandı**: Sâhib Giray'ın
+  "eski Kazan hanı" sıfatı Kazan'ı olay yeri yapmadı (TDV: karşılama Özü
+  nehri geçişinde oldu, resmî tören yeri belirsiz → kapsam_genis) · "Gazi
+  Kirman'dan dönüş" ifadesi İran'daki Farsça "Kirman" ile KARIŞTIRILMADI —
+  Kafkasya'daki ayrı bir kaledir, ölüm yeri bağımsız kaynaklarla (Wikidata)
+  Temryuk olarak belirlendi.
+- **Zayıf kanıtlı çıkarımlar açıkça ⚠️ işaretlendi**, uydurulmadı: erken
+  dönem hanların (1468, 1478, 1665, 1776) tahta çıkış yeri doğrudan
+  kaynaklanmadığında "kurumsal gelenek" gerekçesiyle Kırkyer/Bahçesaray
+  önerildi ama güven düşük-orta diye belirtildi.
+- **Proje içi çapraz kontrol 4 kez ekstra tasarruf sağladı** (araştırma
+  batch'leri içinde): Prut Seferi (Yaş, olaylar.js) · 1768 savaş ilanı
+  (İstanbul, olaylar_ek5.js, 2 gün tarih farkı not edildi) · Kefe (1475
+  tâbiiyet, olaylar.js) · Saray (1502, olaylar_ek5.js).
+
+`data/yer_yama.js`: **825 kayıt toplam** (778 + 47). Tam dosya kapı
+sınaması iki yönlü sınandı: ATEŞLEME 5/5 hata sınıfı yakalandı (çıkış 0),
+TEMİZ SINAMA 825 kayıt · 0 hata (çıkış 0).
+
 ## Durum
 **Tamamlanan: olaylar* (412) + İran (107) + Rusya (173) + Habsburg (52)
-+ Lehistan (67) + Venedik (22) + Macaristan (74) = 907/1488.**
-Sırada (Emre'nin kendi sırası): **Kırım**.
++ Lehistan (67) + Venedik (22) + Macaristan (74) + Kırım (47) = 954/1488.**
+Şartnamenin ② listesindeki ülkeler (İran·Rusya·Habsburg·Lehistan·İran·
+Venedik·Macaristan·Kırım) TAMAMLANDI. Sırada koordinatörün ③ listesi:
+**İngiltere, İsveç, İspanya, İtalya, Fransa, Almanya, Çin, Japonya** — ya
+da koordinatör başka bir öncelik bildirirse ona göre.
 `kronoloji_sirbistan.js` sorusu hâlâ cevapsız — dokunmuyorum.
