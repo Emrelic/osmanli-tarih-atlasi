@@ -104,13 +104,35 @@ function pencereKonumu(p, altSinir, ustSinir) {
 // `gorunurMu` verilirse (süzgeç açıkken) gizlenmiş maddeler atlanır: kullanıcı
 // o konuyu kapatmışsa panelde de görmemeli, ve listede vurgulanan satır zaten
 // gizli olduğu için panel onu gösterirse ikisi yine ayrışır.
-function suankiOlay(olaylar, t, gorunurMu) {
+// `tercih` (4. parametre) — 🔴 EMRE, 24 Ağustos 2026 (H-0019):
+// *"kronoloji Muzafferî hânedanı maddesine geldi ama haritada ANADOLU
+// gösteriliyor … kronoloji maddesi hangisi duruyor ise haritada da o
+// gösterilmeli."*
+//
+// Sebep: bu arama "gi <= t olan SON madde"yi verir, yani AYNI GÜNE İKİ
+// MADDE düşerse HEP SONUNCUSUNU seçer. Kullanıcı ⏭ ile 101'e gitmiş olsa
+// bile panel 102'yi gösteriyordu. Ölçülen vaka:
+//     101  1393-01-01  Anadolu Beylerbeyliği kuruldu   (Kütahya)  ← harita
+//     102  1393-01-01  Muzafferî hânedanının sonu      (Şîraz)    ← panel
+//
+// ⚠️ TERCİH YALNIZ `gi` TAM EŞİTSE KAZANIR. Gerekçesi: beraberlik dışında
+// hiçbir davranış değişmesin. Zaman çubuğu sürüklenince `suankiOlayI`
+// bayatlayabilir; `gi` eşitliği onu zararsız kılar, çünkü seçebileceği
+// tek şey ZATEN O GÜNE AİT bir maddedir.
+//
+// 📌 Ve tercih SÜZGEÇTEN de geçmek zorunda: gizlenmiş bir maddeyi tercih
+// diye öne almak, aşağıdaki "gizliyse geriye yürü" kuralını delerdi.
+function suankiOlay(olaylar, t, gorunurMu, tercih) {
   var lo = 0, hi = olaylar.length - 1, bulunan = -1;
   while (lo <= hi) {                       // gi <= t olan son madde (ikili arama)
     var orta = (lo + hi) >> 1;
     if (olaylar[orta].gi <= t) { bulunan = orta; lo = orta + 1; } else { hi = orta - 1; }
   }
-  if (bulunan < 0 || !gorunurMu) return bulunan;
+  if (bulunan < 0) return bulunan;
+  if (tercih != null && tercih >= 0 && tercih < olaylar.length &&
+      olaylar[tercih] && olaylar[tercih].gi === olaylar[bulunan].gi &&
+      (!gorunurMu || gorunurMu(tercih))) return tercih;
+  if (!gorunurMu) return bulunan;
   while (bulunan >= 0 && !gorunurMu(bulunan)) bulunan--;   // gizliyse geriye yürü
   return bulunan;
 }

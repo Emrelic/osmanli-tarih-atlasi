@@ -3612,6 +3612,13 @@ function suzgecUrlOku() {
 // Titreme önleme: her tıkta 234 satırı yeniden boyamak yerine yalnızca eski ve
 // yeni konum arasındaki satırlar güncellenir; kaydırma oynatmada seyreltilir.
 var sonVurgulanan = -1;
+// 🔴 `gecmis` SINIRI VURGUDAN AYRI TUTULUR (H-0019, 24 Ağustos 2026).
+// Eskiden `sonVurgulanan` İKİ İŞ birden yapıyordu: vurgunun yeri VE `gecmis`
+// boyamasının hangi aralıkta tazeleneceği. İkisi hep aynı olduğu için sorun
+// yoktu. Beraberlikte (aynı güne iki madde) ayrılınca vurgu 101'de kalır,
+// sınır 102'de — ve bir sonraki geri gidişte 102 aralığın DIŞINDA kalıp
+// `gecmis` sınıfı bayat kalırdı: hata vermeyen, yanlış boyalı bir satır.
+var sonYeni = -1;
 var sonKaydirma = 0;
 function olaylarGuncelle(t) {
   var lo = 0, hi = olaylar.length - 1, yeni = -1;
@@ -3619,11 +3626,21 @@ function olaylarGuncelle(t) {
     var orta = (lo + hi) >> 1;
     if (olaylar[orta].gi <= t) { yeni = orta; lo = orta + 1; } else { hi = orta - 1; }
   }
-  if (yeni === sonVurgulanan) return;
-  var a = Math.max(0, Math.min(yeni, sonVurgulanan));
-  var b = Math.min(olaylar.length - 1, Math.max(yeni, sonVurgulanan));
-  if (sonVurgulanan < 0) { a = 0; b = olaylar.length - 1; }
-  for (var i = a; i <= b; i++) olayDom[i].classList.toggle("gecmis", olaylar[i].gi <= t);
+  // Aynı güne iki madde düşerse kullanıcının GİTTİĞİ madde vurgulanır —
+  // gerekçesi ve sınırı `zaman.js`teki `suankiOlay` başlığında.
+  var vurgu = yeni;
+  if (yeni >= 0 && suankiOlayI >= 0 && suankiOlayI < olaylar.length &&
+      olaylar[suankiOlayI] && olaylar[suankiOlayI].gi === olaylar[yeni].gi &&
+      !(olayDom[suankiOlayI] && olayDom[suankiOlayI].classList.contains("suzuldu")))
+    vurgu = suankiOlayI;
+  if (yeni === sonYeni && vurgu === sonVurgulanan) return;
+  if (yeni !== sonYeni) {
+    var a = Math.max(0, Math.min(yeni, sonYeni));
+    var b = Math.min(olaylar.length - 1, Math.max(yeni, sonYeni));
+    if (sonYeni < 0) { a = 0; b = olaylar.length - 1; }
+    for (var i = a; i <= b; i++) olayDom[i].classList.toggle("gecmis", olaylar[i].gi <= t);
+    sonYeni = yeni;
+  }
   if (sonVurgulanan >= 0) olayDom[sonVurgulanan].classList.remove("simdiki");
   var sayacEl = document.getElementById("olay-sayac");
   if (sayacEl) {
@@ -3631,11 +3648,11 @@ function olaylarGuncelle(t) {
     // listede 905 satır görünür ve aradaki fark sessiz kalır — kullanıcı
     // eksikliği kusur sanar. Görünen her değişikliğin sayısı da görünmeli.
     var gizli = +(sayacEl.dataset.gizli || 0);
-    sayacEl.textContent = (yeni + 1) + " / " + olaylar.length + " başlık" +
+    sayacEl.textContent = (vurgu + 1) + " / " + olaylar.length + " başlık" +
                           (gizli ? "  ·  " + gizli + " gizli" : "");
   }
-  if (yeni >= 0) {
-    olayDom[yeni].classList.add("simdiki");
+  if (vurgu >= 0) {
+    olayDom[vurgu].classList.add("simdiki");
     var simdi = Date.now();
     if (!zamanlayici || simdi - sonKaydirma > 700) {
       sonKaydirma = simdi;
@@ -3645,7 +3662,7 @@ function olaylarGuncelle(t) {
       // yarısı görünüyor" dedi. Asıl çare css/style.css'te (`html`e de
       // overflow:hidden), ama burada da kaynağı kesiyoruz: liste kabını ELLE
       // kaydırmak hiçbir atayı etkilemez.
-      var _kap = olayDom[yeni].parentElement;
+      var _kap = olayDom[vurgu].parentElement;
       if (_kap && _kap.scrollHeight > _kap.clientHeight) {
         // 🔴 EMRE, 18 Ağustos 2026: "o madde EN BAŞTA görünmeli; sonraki
         // kronolojik maddeler ondan sonra ikinci üçüncü görünmeli."
@@ -3660,14 +3677,14 @@ function olaylarGuncelle(t) {
         // kodunda da vardı, yalnız ortalama onu gizliyordu.
         // Geometri farkı her durumda doğru: kabın üstü ile maddenin üstü
         // arasındaki mesafe kadar kaydır.
-        _kap.scrollTop += olayDom[yeni].getBoundingClientRect().top
+        _kap.scrollTop += olayDom[vurgu].getBoundingClientRect().top
                           - _kap.getBoundingClientRect().top;
       } else {
-        olayDom[yeni].scrollIntoView({ block: "nearest", behavior: zamanlayici ? "auto" : "smooth" });
+        olayDom[vurgu].scrollIntoView({ block: "nearest", behavior: zamanlayici ? "auto" : "smooth" });
       }
     }
   }
-  sonVurgulanan = yeni;
+  sonVurgulanan = vurgu;
 }
 
 // ---------- Olay detay penceresi ----------
@@ -4254,7 +4271,7 @@ function obTazele() {
   if (!window.ZAMAN || !obPanel || obPanel.classList.contains("gizli")) return;
   var i = window.ZAMAN.suankiOlay(olaylar, suanki, function (k) {
     return !olayDom[k].classList.contains("suzuldu");   // süzülmüş maddeyi atla
-  });
+  }, suankiOlayI);                            // aynı güne iki madde: H-0019
   if (i < 0 || i === obSonIndeks) return;
   obSonIndeks = i;
   obGoster(olaylar[i]);
@@ -4304,7 +4321,7 @@ function damgaMadde() {
   if (!window.ZAMAN || !olaylar || !olaylar.length) return "";
   var i = window.ZAMAN.suankiOlay(olaylar, suanki, function (k) {
     return !olayDom[k] || !olayDom[k].classList.contains("suzuldu");
-  });
+  }, suankiOlayI);                            // aynı güne iki madde: H-0019
   if (i < 0 || !olaylar[i]) return "";
   // "·" ayırıcıdır; madde metninde geçerse başlık yanlış bölünür.
   return String(olaylar[i].b || "").replace(/[·|]/g, "-")
@@ -5268,7 +5285,15 @@ var duyguAcEl = document.getElementById("duygu-ac");
   });
 })();
 
-var ucusAcEl = document.getElementById("ucus-ac");
+// 🔴 `ucus-ac` onay kutusu 24 Ağustos 2026'da KALDIRILDI; yerini kip
+// kutusundaki `pasif` seçeneği aldı (gerekçe index.html'de).
+// Tek kapı burası: uçuş/ani/pasif kararını okuyan HER yer bunu çağırır.
+// ⚠️ Ayrı ayrı `ucusKipEl.value !== "pasif"` yazmak cazipti; yazılmadı,
+// çünkü bu projede aynı sorunun iki ayrı yerde sorulması defalarca
+// ayrışma üretti (`§11`: "bir bilgi iki yerde duruyorsa biri bayatlar").
+function ucusAcik() {
+  return !!(ucusKipEl && ucusKipEl.value !== "pasif");
+}
 var ucusKipEl = document.getElementById("ucus-kip");
 var obYerYokEl = document.getElementById("ob-yer-yok");
 // Tercihler kalıcı — `lejantKapali`/`panel katli` ile aynı desen.
@@ -5279,10 +5304,20 @@ var obYerYokEl = document.getElementById("ob-yer-yok");
   // bu satır onu geri alıyordu. (`duygu-ac` aynı bloğun 20 satır üstünde
   // doğrusunu zaten yapıyor: `!== "0"`. İki kardeş kontrol, iki farklı
   // varsayılan mantığı — biri yanlıştı.)
-  ucusAcEl.checked = localStorage.getItem("ucusAc") !== "0";
+  // GEÇİŞ — eski `ucusAc:"0"` tercihi kaybolmasın: `pasif`e çevrilir ve
+  // eski anahtar SİLİNİR. Silinmezse kullanıcı kipi değiştirdiğinde her
+  // açılışta geri gelirdi — sessiz ve bulunması zor bir kusur.
+  if (localStorage.getItem("ucusAc") === "0") {
+    localStorage.setItem("ucusKip", "pasif");
+  }
+  if (localStorage.getItem("ucusAc") !== null) localStorage.removeItem("ucusAc");
   if (localStorage.getItem("ucusKip")) ucusKipEl.value = localStorage.getItem("ucusKip");
-  ucusAcEl.addEventListener("change", function () { localStorage.setItem("ucusAc", ucusAcEl.checked ? "1" : "0"); });
-  ucusKipEl.addEventListener("change", function () { localStorage.setItem("ucusKip", ucusKipEl.value); });
+  ucusKipEl.addEventListener("change", function () {
+    localStorage.setItem("ucusKip", ucusKipEl.value);
+    // Pasife geçilince ekranda duran "pasif" uyarısı bayatlamasın.
+    if (ucusAcik() && obYerYokEl && /Pasif kip/.test(obYerYokEl.textContent))
+      obYerYokEl.textContent = "";
+  });
 })();
 
 // §⑧④(a) — koordinatör bunu AYAR değil GERÇEK KUSUR sayıyor: `flyTo`
@@ -5326,7 +5361,18 @@ var sonUcusZamani = 0;
 // tıklamak zaten "beni oraya götür" demektir. (Bu ayrım `maddeAc`ta ölçümle
 // bulunmuştu; motora bağlanırken KAYBOLMASIN diye parametreye dönüştürüldü.)
 function haritayiOlayaGotur(o, zorla) {
-  if (!zorla && !ucusAcEl.checked) { if (obYerYokEl) obYerYokEl.textContent = ""; return; }
+  // 🔴 `pasif` kip HER YOLU kapatır — `zorla` DÂHİL. Gerekçesi Emre'nin
+  // tanımı: *"harita o şekilde kalacaktır."* (Ayrıntı: index.html.)
+  // ⚠️ `zorla` bayrağı artık yalnız belge değeri taşıyor; kaldırılmadı
+  // çünkü çağıranların niyetini ("bu bir ELLE tıklama") anlatıyor ve
+  // ileride pasif dışında bir ayrım gerekirse yeri hazır.
+  if (!ucusAcik()) {
+    // Sessiz kalınmaz: hiçbir şey yapmamak, kusurdan ayırt edilemez.
+    if (obYerYokEl) obYerYokEl.textContent =
+      "🛩 Pasif kip — harita bıraktığınız yerde duruyor. Geçiş biçimini " +
+      "kronoloji başlığındaki kutudan değiştirebilirsiniz.";
+    return;
+  }
   var hedef = olayKonumu(o);
   if (!hedef) {
     sonUcusKonumAnahtari = null;   // genel görünüme düşünce "ayni yer" hafizasi da sifirlanir
@@ -5406,12 +5452,12 @@ function haritayiOlayaGotur(o, zorla) {
         var _sr = ucusSuresiMs(_km);
         harita.flyTo({ center: _kam.center, zoom: _kam.zoom,
                        duration: _sr, curve: ucusYayi(_km), offset: [0, 0],
-                       essential: !!(ucusAcEl && ucusAcEl.checked) });
+                       essential: ucusAcik() });
       } else {
         // `cameraForBounds` çözemezse eski yol — ama `essential` ile.
         harita.fitBounds([[b[0], b[1]], [b[2], b[3]]],
                          { padding: kenar, duration: 800,
-                           essential: !!(ucusAcEl && ucusAcEl.checked) });
+                           essential: ucusAcik() });
       }
       if (obYerYokEl) obYerYokEl.textContent = "📍 Bu olayın haritada nokta yeri yok — imparatorluk görünümüne geçildi.";
     } else if (obYerYokEl) {
@@ -5576,7 +5622,7 @@ function haritayiOlayaGotur(o, zorla) {
     var _merkez = _ofsetiMerkezeKat(hedef.lon, hedef.lat, yakinlik, ofset);
     var _ortak = { center: _merkez, zoom: yakinlik,
                    offset: [0, 0], duration: _sonSure,
-                   essential: !!(ucusAcEl && ucusAcEl.checked) };
+                   essential: ucusAcik() };
     // 🔴 VARIŞI BEKLE — `moveend`, süre tahmini DEĞİL.
     // `flyTo`/`easeTo` kesilebilir (⏭ üst üste basılırsa MapLibre yeni
     // çağrıyı DEVRALIR), o yüzden "duration kadar bekle" YANLIŞ olurdu:
@@ -5764,7 +5810,26 @@ function kmDanZoom(km, enlem, genislikPx) {
   km = Math.max(5, km || 1500);
   genislikPx = Math.max(200, genislikPx || 800);
   var mpp = (km * 1000) / genislikPx;                    // metre/piksel
-  var z = Math.log(156543.03392 * Math.cos(enlem * Math.PI / 180) / mpp)
+  // 🔴🔴 24 Ağustos 2026 — SABİT İKİYE BÖLÜNDÜ, ve bu bir ÖLÇÜMLE bulundu.
+  // 156543,03392 ekvatorda **256 piksellik** bir fayansın metre/pikselidir.
+  // MapLibre **512 piksellik** fayans kullanır ⇒ aynı zoomda çözünürlük
+  // yarısı kadardır. Bölünmemiş sabit, her çağrıda TAM BİR KADEME fazla
+  // yakınlık döndürüyordu: istenen genişliğin YARISI gösteriliyordu.
+  //
+  // Ölçüm (Amasya, 1393-06-01):
+  //     istenen  1919 km   ·   gerçek  846 km   ·   oran 1,97 ≈ 2,0
+  //
+  // ⚠️ Ve zararı bir sürgüden ibaret değildi: `gorusGenisligiKm` odak
+  // devletin genişliğini **1,35 ile çarpıp** onu çerçeveye sığdırmayı
+  // amaçlıyor. Yarıya inince 1,35 kat istek 0,675 kata dönüşüyordu —
+  // yani devleti SIĞDIRMASI gereken çarpan, onu KESMEYİ garanti
+  // ediyordu. Emre'nin *"Osmanlı topraklarının genelini harita dışında
+  // tutarak"* şikâyetinin ikinci yarısı buydu.
+  // 📌 `ayar-genislik-km` varsayılanı da 1500 → 750 yapıldı ve kayıtlı
+  //   tercih bir kez yarıya indirildi; "sabit" kipinde ekran BİREBİR
+  //   aynı kalsın diye. Kusura göre ayarlanmış tercih de taşınmazsa
+  //   düzeltme, kullanıcı için bozulma gibi görünür.
+  var z = Math.log(78271.51696 * Math.cos(enlem * Math.PI / 180) / mpp)
           / Math.LN2;
   return Math.max(0.5, Math.min(18, z));                 // MapLibre sınırı
 }
@@ -6009,7 +6074,24 @@ function _yabanciImza(t) {
 
 // (`_kirpmaKilitli` tanımı KAMERA kilidinin yanında — bkz. ~2830)
 function _kirpmaKilidiBirak() {
-  if (_kirpmaKilitli) { _kirpmaKilitli = false; kameraCoz(); }
+  if (_kirpmaKilitli) {
+    _kirpmaKilitli = false; kameraCoz();
+    // 🔴 24 Ağustos 2026 — DAMGA DA BURADA TAZELENİR, ve sebebi ölçüldü.
+    // `guncelle()` kırpma boyunca erken dönüyor (`if (_kirpmaKilitli)
+    // return;`) ve `baslikDamgala` o satırın ALTINDA. Kilit bırakılırken
+    // aşağıdaki borç dört işlevi ödüyordu; damga listede YOKTU. Sonuç:
+    // kırpmadan sonra başlık ÖNCEKİ güne ve ÖNCEKİ maddeye takılı kalıyor.
+    //
+    // Ölçülen vaka: `suanki` 1393-06-01 (Amasya), başlık "1393-01-01 ·
+    // Muzafferî". Durum doğruydu, DAMGA bayattı; elle bir çağrı anında
+    // düzeltti ⇒ kusur hesapta değil ÇAĞRIDA.
+    //
+    // ⚠️ Ve bu kozmetik DEĞİL: damga bir ölçüm aletidir. `§11`de yazılı
+    // ders (*"paneldeki N/TOPLAM sayısı görüntünün hangi yayından
+    // olduğunu söyler"*) bayat bir damgayla çöker — bir ekran görüntüsü
+    // YANLIŞ TARİHLENİR. İlk kurbanı bu ölçümün kendisi oldu.
+    try { baslikDamgala(); } catch (e) { /* damga atlası durdurmaz */ }
+  }
   // BORCU ODE — atlanan dort guncelleme burada BIR KEZ kosar.
   // Sira onemli: kilit ONCE birakilir, sonra odenir. Ters olsaydi
   // guncelle() yine `_kirpmaKilitli` gorup atlar ve borc HIC odenmezdi
@@ -6169,7 +6251,52 @@ function odakOfseti(hedef, kap) {
   //   Hangi köşe olduğunu, hedefin merkeze göre işareti söyler.
   //   Hedef tam bir eksende ortadaysa (dx≈0) o eksende ORTA kalır —
   //   yoksa hiç gerekmeyen bir kayma üretirdik.
-  var dx = p.x - W / 2, dy = p.y - H / 2;
+  // 🔴 23 Ağustos 2026 — YÖN ARTIK ODAK DEVLETE GÖRE, kameraya göre DEĞİL.
+  // Emre: *"osmanlı odağının DOĞUSUNDA vuku bulan olaylar için olay
+  // mahalli ekranın sağ tarafından gösterime sokulacak … kuzeydeyse sağ
+  // üstten, güneydeyse sağ alttan."*
+  //
+  // ESKİ HÂLİ referansı MEVCUT KAMERA MERKEZİ alıyordu ve ölçülmüş bir
+  // kusur üretiyordu: İran'dan gelince Amasya sola düşüyor → sol kenara
+  // yapışıyor → BATISINDAKİ OSMANLI TOPRAKLARI EKRAN DIŞINA İTİLİYOR.
+  // Emre'nin gördüğü tam buydu.
+  // ⇒ Referans ODAK DEVLETİN MERKEZİ. Amasya Osmanlı'nın doğusunda →
+  //   sağdan girer → Osmanlı batıda çerçevede KALIR.
+  // Kaynak zaten var (`donemler[aktifDonem].b`); `gorusGenisligiKm` de
+  // aynı kaynağı okuyor, yeni bir veri yolu açılmadı.
+  var _rx = W / 2, _ry = H / 2;                 // varsayılan: kamera merkezi
+  try {
+    var _od = (typeof aktifDonem !== "undefined" && aktifDonem >= 0
+               && typeof donemler !== "undefined" && donemler[aktifDonem])
+              ? donemler[aktifDonem] : null;
+    if (_od && _od.b) {
+      // 🔴 24 Ağustos 2026 — BURADA BİR "KUTUNUN İÇİNDEYSE ORTALA" KURALI
+      // VARDI, KALDIRILDI. Ölçüldü: Emre'nin VERDİĞİ ÖRNEĞİN ta kendisinde
+      // devreye girip isteğini etkisiz kılıyordu.
+      //     102 Muzafferî (Şîraz) → 103 Amasya · odak kutusu doğu kenarı
+      //     36,95 · Amasya 35,83 ⇒ İÇERİDE ⇒ [0,0] ⇒ ekranda %50/%50
+      // Amasya'yı kutunun içine sokan şey MADDENİN KENDİSİ: fetih o gün
+      // sınırla birlikte kutuyu da büyütüyor. ⇒ **Bir Osmanlı fethi tanımı
+      // gereği hep kutunun içindedir**, yani kural, Emre'nin isteğinin en
+      // çok işe yarayacağı sınıfın TAMAMINDA susuyordu.
+      //
+      // Gerekçem *"içerideyse dışarısı yoktur"* idi — kutuyu bir ÇERÇEVE
+      // sanmak. Oysa kural çerçeve değil YÖN söylüyor (*"odağın
+      // DOĞUSUNDA"*), ve doğu/batı kutuya değil MERKEZE göre ölçülür: bir
+      // şehir kutunun içinde olup merkezin doğusunda olabilir.
+      // 📌 Ölçüm doğruydu (nokta gerçekten içerideydi), ÇIKARIM yanlıştı.
+      //
+      // ⚠️ Ve asıl koruma zaten yukarıda: Emre'nin ③. kuralı, hedef
+      // görünen çerçevedeyse kamerayı hiç oynatmıyor. Kenar yerleşimi
+      // ancak hedef EKRAN DIŞINDAYKEN çalışır — yani gerçek bir sıçrama
+      // varken, ki yönün anlamı tam oradadır. İkinci bir koruma eklemek,
+      // birincisini görmemekti.
+      var _om = harita.project([(_od.b[0] + _od.b[2]) / 2,
+                                (_od.b[1] + _od.b[3]) / 2]);
+      if (isFinite(_om.x) && isFinite(_om.y)) { _rx = _om.x; _ry = _om.y; }
+    }
+  } catch (eOdak) { /* dönem yok — kamera merkezine düşülür */ }
+  var dx = p.x - _rx, dy = p.y - _ry;
   if (!dx && !dy) return [0, 0];
   var hedefX = W / 2, hedefY = H / 2;
   if (Math.abs(dx) > 1e-6) hedefX = (dx > 0) ? W * (1 - pay) : W * pay;
@@ -6206,6 +6333,15 @@ function odakOfseti(hedef, kap) {
    ["ayar-genislik-km", "ayarGenislikKm"], ["ayar-hiz-kms", "ayarHizKms"],
    ["ayar-sure-taban", "ayarSureTaban"], ["ayar-sure-tavan", "ayarSureTavan"],
    ["ayar-yatay-esik", "ayarYatayEsik"]].forEach(function (p) {
+    // 🔴 TEK SEFERLİK GEÇİŞ — `kmDanZoom` sabiti düzeltildi (yukarı bak) ve
+    // kayıtlı "görüş genişliği" tercihi KUSURLU davranışa göre seçilmişti.
+    // Yarıya indirilmezse kullanıcının haritası bir gecede iki kat
+    // uzaklaşırdı. Bayrak olmadan her açılışta tekrar bölerdi.
+    if (p[0] === "ayar-genislik-km" && !localStorage.getItem("genislikKmYariland")) {
+      var _eskiG = localStorage.getItem(p[1]);
+      if (_eskiG) localStorage.setItem(p[1], String(Math.max(100, Math.round(+_eskiG / 2))));
+      localStorage.setItem("genislikKmYariland", "1");
+    }
     var girdi = document.getElementById(p[0]);
     var deger = document.getElementById(p[0] + "-deger");
     if (!girdi) return;                       // eski sürgü kaldırılmış olabilir
@@ -6741,7 +6877,15 @@ var KRONOLOJI_ID_OZEL = {};             // { "KRONOLOJI_XYZ": "gercek-id" } — 
       // alanı var ⇒ kusur çoğunluğu vuruyordu. Rusya'da görünmedi, çünkü
       // onun `harita:` alanı `id`siyle aynı — yani TEK ÖRNEKLE SINAMAK
       // bu kusuru kaçırırdı (`§11`: "ölçüm doğru, evren dar").
-      try { devletiYay(d.harita || d.id); } catch (e) { /* sahnede değil */ }
+      // 🔴 24 Ağustos 2026 — `pasif` kipte bu dal da haritayı oynatmaz.
+      // Kardeşi `haritayiOlayaGotur` ana kapıdan geçiyor; burası tek
+      // başına kalmıştı. Aynı kip, aynı kural: harita bırakıldığı yerde.
+      if (!ucusAcik()) {
+        if (obYerYokEl) obYerYokEl.textContent =
+          "🛩 Pasif kip — harita bıraktığınız yerde duruyor.";
+      } else {
+        try { devletiYay(d.harita || d.id); } catch (e) { /* sahnede değil */ }
+      }
     }
   }
 
