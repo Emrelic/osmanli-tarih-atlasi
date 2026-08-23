@@ -39039,5 +39039,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1191",
+  "zaman": "2026-08-24 01:27",
+  "kimden": "SONNET HAZIR KITA 78",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM -- M-1187 RUMELI VE TRAKYA: BES HARITA KUSURU. 5/5 madde olculdu (H-0002 uc alt-gorsel dahil 7 kayit). Cikti: data/yer_yama_rumeli.js, window.YER_YAMA_RUMELI. VERIYE/MOTORA/ARAYUZE YAZMADIM, yalnizca olctum. ===== OZET (H-no -> tur -> hukum) ===== H-0002 (Pelakanon 1329, Bogazici erken Osmanli) -> MOTOR: kok sebep ONCEDEN BILINEN ve HALA DUZELTILMEMIS bir kusur -- kara maskesinde Istanbul Bogazi kesilmemis (ayni kusuru 23 Agustos'ta p0016/H-0004-5'te de raporlamistim). Uskudar 1329'da Osmanli olunca, bogaz kesigi olmadigi icin peteği Avrupa yakasina (Bogazici/Rumeli yakasi noktasi USTUNE, o nokta kendi kaydinda hala bizans olmasina ragmen) tasiyor. Gorsel 2 ve 3'teki koyu/mor lekeler ayni ailenin kucuk yan urunleri, kesin kod-seviyesi teshisi arayuz oturumuna birakiyorum. H-0009 (Rumeli'de buyuk toprak, Pencik Kanunu maddesinde gorunuyor) -> VERI: 12 Trakya yerlesiminin (Lalapasa, Kofcaz, Vize, vb.) HEPSI ayni yuvarlak gunde (1361-01-01) Osmanli oluyor, o gun TESADUFEN alakasiz bir 'Pencik Kanunu' maddesiyle CAKISIYOR. Bu AYNEN benim 23 Agustos BAYAT TARAMASI'nda (parti-emrelic-0025/H-0009) HALA-ACIK bulup receteyi yazdigim kayitla BIREBIR AYNI kusur -- gorsel bunun hala canli oldugunu kanitliyor. Recete orada yazili duruyor (Edirne cevresi -> 1361-03 sonrasi, Istranca+kiyi -> 1371-09 Cirmen sonrasi). H-0010 (Corlu/Luleburgaz + Yenicери Ocagi ayni gun) -> VERI+ARAYUZ: iki bagimsiz madde (biri toprak, biri kurumsal) TAM AYNI GUNDE (1362-06-01) cakisiyor. Yeniceri Ocagi maddesinin tarihi zaten TDV'ye gore 'kademeli surec, kesin tarih yok' -- birkac ay kaydirmak cakismayi REDUCE eder ama kullanicinin asil istedigi (her madde AYRI oynatilsin) bir ARAYUZ/js-app.js degisikligi, veri yamasiyla TAM cozulmez. H-0011 (Gumulcine 1363 kopuk gorunuyor) -> ARASTIRILMIS KARAR, kusur DEGIL: yerlesimler.js:1264 civarinda ONCEKI bir oturum ZATEN bu tarihi arastirip 'TDV tek tarih vermiyor (1361/1363/1371 oncesi), 1363 mesru' diye not dusmus. Madde metni de Gumulcine'yi Evrenos Bey'in 'ileri karargahi' olarak aciklar -- yani UC AKINI/leapfrog fetih tarzi, tarihen olagan. Kopukluk gorsel olarak gercek ama muhtemelen dogru bir tarihsel deseni yansitiyor; ISTERSE aradaki koridora (Meric-Dedeagac arasi) 1-2 ara nokta EKLENEBILIR (gorseli yumusatir) ama bu bir ZORUNLULUK degil. H-0013 (Selanik/Uskup topografyaya dayanmiyor) -> NOKTASIZLIK: Uskup'un 100 km cevresinde SADECE 2 nokta (kendisi + 77 km'deki Pristine) -- Anadolu ortalamasinin (~23 km) 3-4 kati seyrek. Aday sehirler var (Kumanova, Kalkandelen, Ustrumca, Istip, Kopruluk, Kircova, Kratova) ama TAM tarihsel arastirma (kurulus/donem/TDV kaynak) YAPMADIM -- bu NOKTA-EKLEME tipi ayri bir arastirma turu gerektiriyor, sadece adaylari ve seyrekligin OLCUMUNU veriyorum. ===== OLCTUGUM ile CIKARDIGIM ayri ===== Her kalemde node ile veri dogrudan okundu (girdi.py havuzu, olaylar*.js/kronoloji_*.js), gorseller SADECE metnin yetmedigi 3 alt-kalemde acildi (H-0002'nin 2. ve 3. resmi, H-0013'un 3 resmi de topografya iddiasini dogrudan gostermek icin gerekliydi). Iki kalem (H-0009, H-0011) DAHA ONCE BASKA BIR BAGLAMDA (kendi bayat taramam / eski bir yerlesim yorumu) olculmustu -- bunu SAKLAMADIM, aciklikla belirttim. Bostayim, yeni is bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
