@@ -2556,7 +2556,40 @@ function seferGuncelle(t) {
   if (!haritaHazir) return;
   var cizgiler = [], turler = {}, sonuclar = {};
   seferler.forEach(function (m) {
-    var aktif = m.fi <= t && t < m.ti;
+    // 🔴 23 Ağustos, 0029/H-0004 — OK KENDİ ÇAPASINDAN ÖNCE BELİRMEZ.
+    // Emre: *"katalan birliklerin anadolu seferi oku BİR OLAY ERKEN
+    // çıkıyor."* Ölçüldü ve haklı:
+    //     Katalan seferi  f:1303-09-01  t:1305-06-01
+    //     kronoloji maddesi             1305-06-01
+    //     ⇒ ok, kendi maddesinden 21 AY önce çizilmeye başlıyordu.
+    // Sistemik: 61 seferin 52'sinde `f` ile `t` farklı.
+    //
+    // KURAL VERİDEN TÜRETİLDİ, SAYI UYDURULMADI: ok, çapasından
+    // (`ti`nin dayandığı gün) ÖNCEKİ OLAYDAN daha erken belirmez.
+    // Emre'nin ifadesi zaten bu — *"bir olay erken"*. Sabit bir gün
+    // tavanı (180 gibi) koysaydık o sayıyı savunamazdık; bu kural
+    // kullanıcının ADIM ADIM ilerleyişiyle ölçülüyor.
+    // ⚠️ ÖDÜNLEŞME: uzun seferlerde ok artık seferin TAMAMI boyunca
+    //    değil, çapasından itibaren görünür. Kaybedilen "seferi
+    //    ilerlerken izlemek", kazanılan "ait olmadığı maddede
+    //    görünmemek". Emre ikincisini istedi.
+    // 🟢 ASIL ÇARE VERİDEDİR: bu seferlerin BAŞINDA kronoloji maddesi
+    //    yok. *"Katalan Kumpanyası Anadolu'ya geçti (1303)"* diye bir
+    //    madde olsaydı ok orada belirirdi ve bu kurala gerek kalmazdı.
+    //    Altı sefer bir yıldan uzun ve altısının da başı maddesiz.
+    if (m._fiKirpik === undefined) {
+      m._fiKirpik = m.fi;
+      try {
+        var capa = m.ti;                       // pencerenin dayandığı gün
+        var oncekiOlay = -Infinity;
+        for (var oi = 0; oi < olaylar.length; oi++) {
+          if (olaylar[oi].gi < capa && olaylar[oi].gi > oncekiOlay)
+            oncekiOlay = olaylar[oi].gi;
+        }
+        if (isFinite(oncekiOlay)) m._fiKirpik = Math.max(m.fi, oncekiOlay);
+      } catch (e) { /* olaylar hazır değil — kırpma yok, eski davranış */ }
+    }
+    var aktif = m._fiKirpik <= t && t < m.ti;
     if (aktif) {
       cizgiler.push({ type: "Feature", properties: { renk: m.renk, tur: m.tur },
                       geometry: { type: "LineString", coordinates: m.yol } });
@@ -3243,7 +3276,19 @@ function olayaGit(o, panelGoster, zorla) {
 // ---------- Otomatik yakınlaştırma ----------
 // Oynatma sırasında titremeyi önlemek için: görünüm yeni sınırları zaten makul
 // oranda kapsıyorsa veya son ayardan 900 ms geçmediyse yeniden çerçevelenmez.
-var otoZoom = true;
+// 🔴 23 Ağustos, 0029/H-0005 — VARSAYILAN KAPALI.
+// Emre: *"bir sonraki maddeye geçince harita birden zoom in oluyor,
+// sonra tekrar zoom out oluyor ... bir aşağı bir yukarı olmaması
+// gerekiyor haritanın."*
+// Sebep `zoomUygula`: her toprak değişiminde `fitBounds` çağırıp
+// haritayı devletin sınırlarına yeniden çerçeveliyor. Sıçramalı, ve
+// olaydan olaya geçerken göze vuruyor.
+// ⇒ Varsayılan kapalı. Aynı ihtiyacın YUMUŞAK hâli `ayar-genislik-kip`
+//   "korele" kipidir (0029/H-0006): görüş genişliği devletle birlikte
+//   sürekli ölçekleniyor, sıçramadan.
+// ⚠️ Mekanizma SİLİNMEDİ — Emre'nin kendi isteğiydi (`btn-zoom` "🔍 Oto")
+//   ve isteyen açabiliyor. Değişen yalnız VARSAYILAN ve ayarın YERİ.
+var otoZoom = false;
 var sonZoomZamani = 0;
 function zoomUygula(d) {
   if (!otoZoom || !haritaHazir) return;
@@ -5356,7 +5401,7 @@ function haritayiOlayaGotur(o, zorla) {
   //   ③ ayar-hiz-kms + taban/tavan   süre = sınırla(mesafe/hız, taban, tavan)
   //   ④ ayar-hareket       egik (flyTo, yay) | yatay (easeTo, düz)
   var _kap = _haritaKutu();
-  var yakinlik = kmDanZoom(+_ayar("ayar-genislik-km", 1500),
+  var yakinlik = kmDanZoom(gorusGenisligiKm(hedef.lat),
                            hedef.lat, _kap.width);
   var _kmMesafe = kmArasi(harita.getCenter().lat, harita.getCenter().lng,
                           hedef.lat, hedef.lon);
@@ -5702,6 +5747,57 @@ function kmArasi(la1, lo1, la2, lo2) {
 //     sabit 2 sn       → ikisi de 2 sn ✓ ama "hız" kelimesi anlamsız
 // ⇒ HIZ TABANLI + SÜRE TABANI/TAVANI. Mesafe hissediliyor ama hiçbir uçuş
 // ne göz kırpması ne eziyet oluyor.
+// 🔴 0029/H-0006 — GÖRÜŞ GENİŞLİĞİ, ODAK DEVLETİN GENİŞLİĞİYLE KORELE.
+// Emre: *"devlet küçük iken 1000 km, büyüdükçe 2000 3000 5000 km gibi
+// artan bir şekilde ... hem kuzey güney hem doğu batı eksenindeki
+// genişliğine korele ... fakat eğer kullanıcı isterse SABİT yapabilmeli."*
+//
+// ÖLÇÜ **BÜYÜK OLAN KENAR**, ortalama DEĞİL. Emre'nin kendi örnekleri
+// bunu gerektiriyor: Şili ve İsveç kuzey-güney, Rusya doğu-batı uzar.
+// Ortalama alsaydık ikisini de yanlış çerçevelerdik — uzun ülkeyi
+// kırpar, geniş ülkeyi boşlukta bırakırdık.
+//
+// SLIDER ARTIK TABAN: kullanıcının seçtiği km, görüşün ALT SINIRI.
+// Devlet ondan büyükse görüş devletle birlikte açılır; küçükse
+// kullanıcının seçimi korunur. Böylece "kişi kaç km olacağına karar
+// verdikten sonra" cümlesi de, "artıp azalmalı" cümlesi de sağlanıyor.
+//
+// PAY 1,35: devletin kendisi ekranı tam doldurmasın, çevresi de görünsün.
+// Emre: *"o devleti seyretmek ister iken etrafındaki devletlerde neler
+// oluyor buna da bakmak istiyor olabilir."*
+// 🔴 0029/H-0001 + H-0005 — OTO-ODAK TEK KAPIDAN.
+// Ayar (`ayar-oto-odak`) ve haritadaki düğme (`btn-zoom`) AYNI
+// `otoZoom` değişkenini sürüyor. İkisini ayrı tutmak, `§11`in
+// "bir bilgi iki yerde durursa biri güncellenince öteki bayatlar"
+// kusurunu davet ederdi — bu projede o kusur ölçülmüş bir vakadır.
+function _otoOdakUygula(acik) {
+  otoZoom = !!acik;
+  var d = document.getElementById("btn-zoom");
+  if (d) d.classList.toggle("pasif", !otoZoom);
+  var a = document.getElementById("ayar-oto-odak");
+  if (a && (a.value === "acik") !== otoZoom) a.value = otoZoom ? "acik" : "kapali";
+}
+
+function gorusGenisligiKm(lat) {
+  var taban = +_ayar("ayar-genislik-km", 1500);
+  if (_ayarMetin("ayar-genislik-kip", "korele") !== "korele") return taban;
+  var d = (typeof aktifDonem !== "undefined" && aktifDonem >= 0
+           && typeof donemler !== "undefined" && donemler[aktifDonem])
+          ? donemler[aktifDonem] : null;
+  if (!d || !d.b) return taban;
+  var ortLat = (d.b[1] + d.b[3]) / 2;
+  var enKm  = (d.b[2] - d.b[0]) * 111.32 * Math.cos(ortLat * Math.PI / 180);
+  var boyKm = (d.b[3] - d.b[1]) * 110.57;
+  var buyuk = Math.max(Math.abs(enKm), Math.abs(boyKm));
+  if (!isFinite(buyuk) || buyuk <= 0) return taban;
+  // Boy ekseni baskınsa ekranın DAR kenarı sınırlar; genişliğe çevirirken
+  // en-boy oranı hesaba katılıyor, yoksa uzun ülke ekrana sığmaz.
+  var kap = document.getElementById("harita");
+  var oran = (kap && kap.clientHeight) ? (kap.clientWidth / kap.clientHeight) : 1.6;
+  if (Math.abs(boyKm) > Math.abs(enKm)) buyuk = Math.abs(boyKm) * oran;
+  return Math.max(taban, Math.min(8000, buyuk * 1.35));
+}
+
 function ucusSuresiMs(kmMesafe) {
   var hiz   = Math.max(50, _ayar("ayar-hiz-kms", 1500));   // km/sn
   var taban = _ayar("ayar-sure-taban", 0.8);
@@ -5967,7 +6063,34 @@ function oncesiSonrasiKirp(gun) {
 
 function _kirpmaAcik() {
   var el = document.getElementById("ayar-kirpma-ac");
-  return !el || el.checked;
+  if (el && !el.checked) return false;
+  // 🔴 23 Ağustos, 0029/H-0001 — HIZLI OYNATMADA KIRPMA YOK.
+  // Emre: *"1 olay/1 sn gibi hızlarda göz kırpma animasyonu kullanmamak
+  // gerek ... yada varsayılan olarak belli hızlardan sonra göz kırpma
+  // animasyonunu başlatmak mantıklı olabilir, buna da sen karar ver."*
+  //
+  // KARAR VE GEREKÇESİ — ölçüyle, tercihle değil:
+  // Kırpma toplam süresi `ayar-kirpma-toplam-ms` (varsayılan 900 ms) ve
+  // varıştan SONRA başlıyor (bugün düzeltildi). Olaylar arası bekleme
+  // ondan kısaysa kırpma bir sonraki olaya taşar ve iki kırpma üst üste
+  // biner — kullanıcı "titreme" görür, "vurgu" değil.
+  // ⇒ ÖLÇÜT: bekleme, kırpmanın EN AZ İKİ KATI olmalı.
+  //     900 ms kırpma ⇒ 1800 ms'den hızlı akışta kırpma YOK
+  //     1 olay/1 sn  → kapalı      1 olay/2 sn → kapalı (1800 sınırında)
+  //     1 olay/3 sn  → açık
+  // Sabit bir hız listesi YAZILMADI: eşik kırpma süresinden TÜRÜYOR,
+  // yani kullanıcı kırpmayı uzatırsa eşik de kendiliğinden yükselir.
+  // 📌 Bu, `CLAUDE.md`nin "elle liste tutma, ölçüden türet" dersinin
+  //    küçük bir uygulaması — iki sayı arasında sessiz bir tutarsızlık
+  //    kalmasın diye.
+  if (typeof zamanlayici !== "undefined" && zamanlayici
+      && typeof akisModu !== "undefined" && akisModu
+      && akisModu.value === "olay") {
+    var bekleme = parseInt((olayHizSec && olayHizSec.value) || "5000", 10);
+    var kirpma  = +_ayar("ayar-kirpma-toplam-ms", 900);
+    if (bekleme < kirpma * 2) return false;
+  }
+  return true;
 }
 
 // ② YERLEŞİM — orta | kenar.  Emre: *"Kırım'da bir olay mı oldu yukarıdan
@@ -6060,13 +6183,28 @@ function odakOfseti(hedef, kap) {
     });
   });
   // İki açılır liste (yerleşim · hareket biçimi) — sürgü değil, ayrı döngü.
-  [["ayar-yerlesim", "ayarYerlesim"], ["ayar-hareket", "ayarHareket"]]
+  // 🔴 23 Ağustos, 0029/H-0006 ve H-0001 — iki yeni açılır liste.
+  // `ayar-oto-odak` DEĞİŞTİĞİNDE `otoZoom`u da güncelliyor: bir ayarı
+  // eklemek yetmez, OKUNDUĞU da gösterilmeli. Bu projede `ayar-yakinlik`
+  // sürgüsü değerini kaydediyor ve etiketini güncelliyordu ama hiçbir
+  // hesapta okunmuyordu — Emre sordu, ölçüldü, cevap HİÇBİR ŞEY çıktı ve
+  // sürgü kaldırıldı. Aynı hataya düşülmüyor.
+  [["ayar-yerlesim", "ayarYerlesim"], ["ayar-hareket", "ayarHareket"],
+   ["ayar-genislik-kip", "ayarGenislikKip"], ["ayar-oto-odak", "ayarOtoOdak"]]
     .forEach(function (p) {
       var e = document.getElementById(p[0]);
       if (!e) return;
       var k = localStorage.getItem(p[1]);
       if (k) e.value = k;
-      e.addEventListener("change", function () { localStorage.setItem(p[1], e.value); });
+      e.addEventListener("change", function () {
+        localStorage.setItem(p[1], e.value);
+        // Oto-odaklama ayarı DOĞRUDAN `otoZoom`u sürüyor; düğme (`btn-zoom`)
+        // ile ayar aynı değişkeni paylaşıyor, iki ayrı doğruluk kaynağı
+        // doğmasın diye. (`§11`: bir bilgi iki yerde durursa biri
+        // güncellenince öteki bayatlar.)
+        if (p[0] === "ayar-oto-odak") _otoOdakUygula(e.value === "acik");
+      });
+      if (p[0] === "ayar-oto-odak") _otoOdakUygula(e.value === "acik");
     });
   // 🔴 `ayar-yakinlik` KALDIRILDI — ÖLÜ SÜRGÜYDÜ (22 Ağustos 2026).
   // Emre sordu: *"bu ayarın ne işe yaradığını anlayamadım."* Ölçüldü, cevap
