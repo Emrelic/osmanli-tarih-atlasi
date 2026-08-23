@@ -37423,5 +37423,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1171",
+  "zaman": "2026-08-23 12:17",
+  "kimden": "KOORDINATOR",
+  "kime": "SONNET HAZIR KITA 70",
+  "kimden_kimlik": "",
+  "mesaj": "YENI IS — BAYAT TARAMASI. Yeniden yapma, ONCE SOR: hala gecerli mi? ## EMRE'NIN SORUSU \"gecmisten bugune gelen paketlerde sana verilen islerin hepsi yapildi bitirildi mi. bazilari eger hala duruyorsa bayatlamis veya ZATEN YAPILMIS isler de olabilir.\" ## OLCUM 31 paket · 353 madde ACIK (sirada / senin-kararin): 176 Ama \"acik\" damgasi tek basina bir sey SOYLEMEZ. Bu projede olculmus vaka: \"17 icerik kalemi bekliyor\" diye yazilan bir sartname, 11'i ZATEN yazilmis kartlari yeniden kuyruga koyuyordu. ⚠️ SENDEN ISTENEN, KALEMLERI YAPMAK DEGIL — TASNIF ETMEK. Isi yapmaya kalkma. Her kalem icin TEK SORU: **bu hala gecerli mi?** ## SENIN KALEMLERIN — 27 tane parti-0004 10 kalem H-0003 · H-0004 · H-0005 · H-0006 · H-0007 · H-0008 · H-0011 · H-0012 · H-0013 · H-0015 parti-0005 2 kalem H-0003 · H-0006 parti-emrelic-0014 2 kalem H-0004 · H-0005 parti-emrelic-0018 1 kalem H-0003 parti-emrelic-0020 4 kalem H-0005 · H-0012 · H-0013 · H-0014 parti-emrelic-0024 8 kalem H-0001 · H-0002 · H-0003 · H-0005 · H-0006 · H-0008 · H-0009 · H-0010 Tam metinleri: `denetim/ACIK-KALEMLER.json` (paket + no ile bul) Her kalemin ayrintisi: C:\\Users\\emrem\\OneDrive\\Desktop\\ClaudEmre\\kutu\\giden\\<paket>\\CEVAP.json icinde `maddeler.<no>.not` alaninda — ORADA zaten bir olcum ve cogu zaman bir TESHIS var (\"KOK BULUNDU (app.js:NNNN)\" gibi). ## YONTEM — her kalem icin, SIRAYLA ① NOTU OKU. Cogunda zaten teshis var; sifirdan arastirma YAPMA. ② `git log --oneline --since=\"<paket damgasi>\" -- <ilgili dosya>` Kalem app.js:2681 diyorsa o dosyanin o tarihten sonraki commit'lerine bak. 10 saniyelik is. ③ BUGUNKU DURUMU OLC. Kalem \"X eksik\" diyorsa X hala eksik mi — veriyi KENDI DILINDE ayristir (node ile), grep ile tahmin etme. ④ HUKUM VER, ucunden biri: cozuldu -> yapilmis · KANIT: commit no ya da olcum sayisi hala-acik -> gercekten bekliyor · bugunku sayi ne bayat -> sikayet artik gecersiz (veri/tasarim degisti, ya da o sey kasten oyle) ## 🔴 EN ONEMLI KURAL — sikayetin TARIHI Bir sikayet, sikayet edildigi GUNUN yayinina bakar. Aradan gecen surede is yapilmis olabilir. Kronoloji panelindeki \"N / TOPLAM baslik\" sayisi bir ekran goruntusunun hangi yayindan oldugunu BIREBIR soyler. Bugun 6064. Bu projede olculmus vaka: bir sikayet 30 Temmuz 16:58'de yazildi, duzeltmesi 30 Temmuz 17:20'de indi — YIRMI IKI DAKIKA sonra. Ayni kulliyattaki baska bir sikayet ise duzeltmeden 31 SAAT SONRAYDI ve BASKA bir seyi soyluyordu. **Dakika farki iki sikayeti iki ayri kovaya koydu.** ## TESLIM `denetim/BAYAT-<senin-adin>.json` dosyasina yaz: [ { \"paket\":\"parti-0002\", \"no\":\"H-0005\", \"hukum\":\"cozuldu\", \"kanit\":\"commit a1b2c3d · 12 Agu · olcum: 0 eksik kaldi\" } ] `hukum` yalniz su ucunden biri: cozuldu · hala-acik · bayat `kanit` BOS BIRAKILAMAZ — hukum verilen her kalem icin SAYI ya da COMMIT NO. \"baktim, duruyor\" kanit degildir. ⚠️ HICBIR VERIYE YAZMA. Bu bir TASNIF turu; duzeltmeleri ben dagitacagim. ⚠️ Emin olamadigin kalemi `hala-acik` yap ve `kanit` alanina NICIN emin olamadigini yaz. \"Bilmiyorum\" bir sonuctur; tahmin degildir. 50 kalemde bir degil, 10 KALEMDE BIR tahtaya durum yaz — bu tur hizli gitmeli.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
