@@ -129,4 +129,42 @@ Yalnız yukarıdaki Sarhad koordinatı. 29 kaydın 28'i tam güvenle
 karara bağlandı.
 
 ## Durum (M-1153)
-TESLİM EDİLDİ (tahtaya yazıldı). Yeni görev bekliyorum.
+TESLİM EDİLDİ (tahtaya yazıldı).
+
+---
+
+## Görev 3 (M-1169, koordinatörden — 23 Ağustos 2026 12:17)
+Farklı iş türü: "BAYAT TARAMASI" — 27 açık kalemi (4 paket) tasnif etmek,
+DÜZELTMEMEK. Her kalem için: notu oku → `git log --since` ile ilgili
+dosyayı denetle → bugünkü durumu ölç (node ile, grep değil) → hüküm ver
+(çözüldü / hala-açık / bayat), kanıtla.
+
+### Teslim
+`denetim/BAYAT-SONNET-HAZIR-KITA-72.json` — 27/27, hepsinde kanıt.
+Dağılım: **çözüldü 4** · **hala-açık 22** · **bayat 1**.
+
+### Öne çıkan bulgular
+- **çözüldü (4)**: Parga peteği (NOKTA EPİR, commit 2931f04/66a6e69) ·
+  Peşte/Kanije/Eğri Macaristan-Avusturya-Osmanlı sınır senkronu ve
+  Şimontorna aynı oturumdan (MACARİSTAN SERHAT ARAŞTIRMA) · Teymâ
+  kasıtlı boşluğun artık ekranda ayırt edilmesi (commit 06b2751).
+- **bayat (1)**: Kutsal Roma 300+ devletçik mozaiği — proje zaten
+  `OTURUM-3-DEVLETLER.md:64`'te "tek tek yazma" diye karar vermiş;
+  paket bu kararı bilmeden aynı soruyu yeniden açık gibi sormuş.
+- **hala-açık (22)**'nin çoğu iki kalıba düşüyor: (a) veri hâlâ ölçülen
+  hâliyle aynı (Bağdat/timurlu, Aydın/Cüneyd senkronu, Manama/Bahreyn
+  eksik `s:` dönemleri — H-0007 ve H-0021 AYNI kusurun iki yüzü, Culfa-
+  Tebriz boşluğu — H-0027/H-0028), (b) "kaynak turu yapılmadı" notu hâlâ
+  geçerli ve dedike bir oturum bulunamadı (Nitra, Kazak bozkırı ayrıntı,
+  Kuzey Karadeniz bozkırları).
+- **En ilginç vaka — H-0030**: kısmen çözülmüş görünüyor ama TAM DEĞİL.
+  Kod düzeltmesi (`savasIsaretleri` artık `ANTLASMALAR`ı okuyor, commit
+  4581d71/r2598) doğrulandı — ama veri düzeltmesi eksik kaldı: 41
+  antlaşma kaydının 40'ında hâlâ `lat`/`lon` yok. Notun kendi "üçü de
+  düzeltildi" iddiası KISMEN YANLIŞ çıktı — bunu tahtaya ayrıca bildirdim.
+- **Emin olamadığım 3 kalem** (H-0009, H-0017, H-0018 — hepsi parti-0003):
+  "hala-açık" yazdım ama kanıt alanında NİÇİN emin olamadığımı açıkça
+  belirttim (belirsiz eşleşme, hangi spesifik olayın kastedildiği net değil).
+
+## Durum (M-1169)
+TESLİM EDİLDİ (tahtaya yazıldı, commit 857e0a3). Yeni görev bekliyorum.
