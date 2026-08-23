@@ -57,12 +57,12 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { t:"1216-01-01", b:"Tâze'de Muvahhid ordusuna zafer", tur:"savas", onem:3, dunya:1, kapsam:"dis", yer_id:"",
   etiket:["askeri"],
   d:"Merînîler 20.000 kişilik bir Muvahhid ordusunu Tâze'de yenilgiye uğrattı; bağımsızlaşma sürecinin ilk büyük askerî başarısı.",
-  kaynak:"TDV `meriniler`: \"613/1216'da 20.000 kişilik Muvahhid ordusunu yenilgiye uğrattı\"" },
+  kaynak:"TDV `meriniler`: \"613/1216'da 20.000 kişilik Muvahhid ordusunu yenilgiye uğrattı\"", yer_id:"Tâze (Taza)" },
 
 { t:"1255-01-01", b:"Fas yakınlarında ikinci büyük Muvahhid zaferi", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri"],
   d:"80.000 kişilik bir Muvahhid ordusu Fas yakınlarında mağlûp edildi; Merînîlerin kuzey Fas'taki üstünlüğü perçinlendi.",
-  kaynak:"TDV `meriniler`: \"653/1255'te 80.000 kişilik Muvahhid ordusunu mağlûp etti\"" },
+  kaynak:"TDV `meriniler`: \"653/1255'te 80.000 kişilik Muvahhid ordusunu mağlûp etti\"", yer_id:"Fas (Fez)" },
 
 { t:"1258-01-01", b:"Ebû Yûsuf Ya'kūb saltanata geçti", tur:"hanedan", onem:4, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["hanedan"],
@@ -82,12 +82,12 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { t:"1275-09-08", b:"İsticce'de Kastilya ordusuna zafer (Endülüs seferi)", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri"],
   d:"Ebû Yûsuf Ya'kūb'un Endülüs'teki Nasrîlere yardıma çıkan ilk büyük seferi, İsticce (Ecija) yakınlarında Kastilya ordusunu bozguna uğrattı.",
-  kaynak:"TDV `meriniler`: \"15 Rebîülevvel 674/8 Eylül 1275'te İsticce savaşında Kastilya ordusunu mağlûp etti\"" },
+  kaynak:"TDV `meriniler`: \"15 Rebîülevvel 674/8 Eylül 1275'te İsticce savaşında Kastilya ordusunu mağlûp etti\"", yer_kon:[37.5417,-5.0819] },
 
 { t:"1340-10-30", b:"Rio Salado'da (Tarîf) Kastilya-Portekiz ittifakına yenilgi", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip"],
   d:"Ebü'l-Hasan'ın büyük Endülüs ordusu, Tarîf yakınında XI. Alfonso (Kastilya) ile IV. Alfonso'nun (Portekiz) birleşik kuvvetlerine yenildi. Yenilgi Merînîlerin Endülüs'e askerî müdahale kapasitesini kalıcı olarak kırdı ve Reconquista'nın önündeki son büyük Müslüman deniz aşırı ordusunu tasfiye etti.",
-  kaynak:"TDV `meriniler`: \"8 Cemâziyelevvel 741/30 Ekim 1340'ta Tarîf yakınında XI. Alfonso ve IV. Alfonso'nun birleşik kuvvetlerine yenildi\"" },
+  kaynak:"TDV `meriniler`: \"8 Cemâziyelevvel 741/30 Ekim 1340'ta Tarîf yakınında XI. Alfonso ve IV. Alfonso'nun birleşik kuvvetlerine yenildi\"", yer_kon:[36.0128,-5.6076] },
 
 { t:"1270-01-01", b:"Abdülvâdîler (Zeyyânîler) bağımsızlaşarak Tilimsan'ı kurdu", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Tilimsan",
   etiket:["toprak-kayip"],
@@ -142,7 +142,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { t:"1458-01-01", b:"Kasrüssagīr Portekizlilerin eline geçti", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["toprak-kayip"],
   d:"Portekiz kıyı işgallerini sürdürerek Kasrüssagīr'i ele geçirdi.",
-  kaynak:"TDV `meriniler`: \"862/1458'de Kasrüssagīr şehri Portekizlilerin eline geçti\"" },
+  kaynak:"TDV `meriniler`: \"862/1458'de Kasrüssagīr şehri Portekizlilerin eline geçti\"", yer_kon:[35.8494,-5.5667] },
 
 { t:"1465-01-01", b:"Tanca Portekiz'e düştü, son Merînî sultanı öldürülerek hanedan sona erdi", tur:"son", onem:5, dunya:3, kapsam:"dis", yer_id:"Fas (Fez)",
   etiket:["toprak-kayip","hanedan"],
@@ -152,7 +152,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { t:"1299-01-01", b:"Mansûre şehri kuruldu (Tilimsan kuşatması karargâhı)", tur:"kultur", onem:2, dunya:1, kapsam:"dis", yer_id:"",
   etiket:["mimari","kurum"],
   d:"Sekiz yıl süren Tilimsan kuşatması sırasında ordugâh olarak Mansûre şehri kuruldu; köşkler, resmî binalar ve hamamlar inşa edildi — bir kuşatma karargâhının kalıcı şehre dönüşümü.",
-  kaynak:"TDV `meriniler`: \"698/1299'da Mansûre şehri kuruldu; bu sırada köşkler, binalar, hamamlar yapıldı\"" },
+  kaynak:"TDV `meriniler`: \"698/1299'da Mansûre şehri kuruldu; bu sırada köşkler, binalar, hamamlar yapıldı\"", yer_id:"Tilimsan" },
 
 { t:"1323-01-01", b:"Medresetü'l-Attârîn inşa edildi", tur:"bilim", onem:2, dunya:1, kapsam:"ic", yer_id:"Fas (Fez)",
   etiket:["bilim","mimari"],
@@ -171,7 +171,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { t:"1511-01-01", b:"Muhammed b. Abdurrahman es-Sa'dî Sûs'ta cihad emîri ilân edildi", tur:"kurulus", onem:5, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["hanedan"],
   d:"Muhammed b. Abdurrahman es-Sa'dî, Sûs bölgesinde elli kadar kabile reisinden biat alarak cihad emîri oldu — İber yarımadası ve Portekiz'in kıyı işgallerine karşı direniş söylemiyle yükselen Sâdî hanedanının başlangıcı.",
-  kaynak:"TDV `sadiler`: \"916/1511'de Muhammed b. Abdurrahman es-Sa'dî, Sûs bölgesinde cihad emîri olarak atandı\"" },
+  kaynak:"TDV `sadiler`: \"916/1511'de Muhammed b. Abdurrahman es-Sa'dî, Sûs bölgesinde cihad emîri olarak atandı\"", kapsam_genis:true },
 
 { t:"1517-01-01", b:"Kurucunun vefatı, Ahmed el-A'rec tahta geçti", tur:"hanedan", onem:3, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["hanedan"],
@@ -216,7 +216,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { t:"1564-01-01", b:"İspanyollar Bâdis'i ele geçirdi", tur:"toprak-kayip", onem:2, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["toprak-kayip"],
   d:"İspanya, Akdeniz kıyısındaki Bâdis adasını ele geçirdi. (Bâdis'in TDV'de müstakil maddesi yok; bilgi `sadiler` maddesinden alındı.)",
-  kaynak:"TDV `sadiler`: \"1564'te İspanyolların Bâdis adasını ele geçirmesi\"" },
+  kaynak:"TDV `sadiler`: \"1564'te İspanyolların Bâdis adasını ele geçirmesi\"", yer_id:"Bâdis (Peñón de Vélez)" },
 
 { t:"1576-01-01", b:"Osmanlı desteğiyle Abdülmelik Fas'a girdi", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"Fas (Fez)",
   etiket:["askeri","hanedan"],
@@ -226,7 +226,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { t:"1578-08-04", b:"Vâdilmehâzin (Üç Kral) Savaşı — Portekiz Haçlı ordusu imha edildi", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kaybi"],
   d:"Portekiz Kralı Sebastião'nun bizzat başında bulunduğu Haçlı ordusu Vâdilmehâzin'de (Alcácer Quibir) bozguna uğratıldı; kral savaş alanında öldü, Abdülmelik de aynı gün hastalıktan öldü, Ahmed el-Mansûr tahta geçti. Portekiz tahtı vâris bırakmadan boşaldı ve iki yıl sonra İspanya Kralı II. Felipe Portekiz tacını ele geçirdi (1580 İber Birliği) — savaş, Fas sınırları dışında bir Avrupa hanedan krizini doğrudan tetikledi. ⚠️ Savaş alanı (Ksar el-Kebir/Alcácer Quibir) atlasın yerleşim veri tabanında YOK, yer_id boş bırakıldı.",
-  kaynak:"TDV `sadiler`: \"30 Cemâziyelevvel 986/4 Ağustos 1578'de Vâdilmehâzin (Üç Kral) savaşında Portekiz Haçlı ordusunun mağlûbiyeti\" · \"Abdülmelik'in hastalıktan savaş alanında ölümü\" · \"Ahmed el-Mansûr'un tahta geçişi\" — İber Birliği bağlantısı genel akademik bilgi, TDV maddesinde işlenmiyor" },
+  kaynak:"TDV `sadiler`: \"30 Cemâziyelevvel 986/4 Ağustos 1578'de Vâdilmehâzin (Üç Kral) savaşında Portekiz Haçlı ordusunun mağlûbiyeti\" · \"Abdülmelik'in hastalıktan savaş alanında ölümü\" · \"Ahmed el-Mansûr'un tahta geçişi\" — İber Birliği bağlantısı genel akademik bilgi, TDV maddesinde işlenmiyor", yer_kon:[35.006,-5.904] },
 
 { t:"1588-01-01", b:"Ahmed el-Mansûr Osmanlı'ya vergiyi kesti", tur:"idari", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["diplomasi"],
@@ -256,7 +256,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { t:"1610-01-01", b:"Ülke Fas ve Merakeş emirlikleri olarak fiilen ikiye bölündü", tur:"bolunme", onem:5, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["hanedan","toprak-kayip"],
   d:"On yıla yakın süren taht kavgalarının ardından ülke kuzeyde Fas, güneyde Merakeş merkezli iki ayrı emirliğe bölündü; bu bölünme hanedanın 1659'daki sonuna kadar sürdü.",
-  kaynak:"TDV `sadiler`: \"Ülkenin Merakeş (güney) ve Fas (kuzey) emirlikleri olarak bölünmesi\" (1019/1610 dolayları)" },
+  kaynak:"TDV `sadiler`: \"Ülkenin Merakeş (güney) ve Fas (kuzey) emirlikleri olarak bölünmesi\" (1019/1610 dolayları)", kapsam_genis:true },
 
 { t:"1659-01-01", b:"Ahmed el-Abbas öldürülerek Sâdî hanedanı sona erdi", tur:"son", onem:5, dunya:3, kapsam:"ic", yer_id:"Merakeş",
   etiket:["hanedan"],
@@ -266,7 +266,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { t:"1580-01-01", b:"Osmanlı ordu teşkilâtı örnek alınarak reform", tur:"idari", onem:3, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["reform"],
   d:"Abdülmelik ve Ahmed el-Mansûr döneminde Osmanlı'da tanınan idari deneyim örnek alınarak devlet teşkilâtlanması ve ordu (özellikle ateşli silah birlikleri) reformları yapıldı — ironik biçimde Osmanlı'ya karşı bağımsızlığını koruyan bir devlet, gücünü kısmen Osmanlı modelinden aldı. ⚠️ TDV yalnız \"Abdülmelik ve Ahmed el-Mansûr devrinde\" diyor, kesin yıl vermiyor; saltanat başlangıcı (1578) yaklaşık tarih olarak kullanıldı.",
-  kaynak:"TDV `sadiler`: \"Abdülmelik ve Ahmed el-Mansûr devrinde Osmanlı sistemi örnek alınarak devlet teşkilâtlanması ve ordu reformları\"" },
+  kaynak:"TDV `sadiler`: \"Abdülmelik ve Ahmed el-Mansûr devrinde Osmanlı sistemi örnek alınarak devlet teşkilâtlanması ve ordu reformları\"", kapsam_genis:true },
 
 { t:"1593-01-01", b:"Kasrü'l-bedî' Sarayı inşa edildi", tur:"kultur", onem:3, dunya:2, kapsam:"ic", yer_id:"Merakeş",
   etiket:["mimari"],
@@ -276,7 +276,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { t:"1595-01-01", b:"Fransa, İngiltere, Hollanda ile ticarî ilişkiler kuruldu", tur:"ekonomi", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["iktisadi","diplomasi"],
   d:"Ahmed el-Mansûr döneminde Sâdîler, şeker ve Sudan altını ticareti üzerinden Fransa, İngiltere ve Hollanda ile doğrudan ticarî ilişkiler kurdu — Fas'ın Avrupa devletleriyle Osmanlı arabuluculuğu olmaksızın kurduğu ilk düzenli ilişkiler. ⚠️ TDV kesin yıl vermiyor, saltanatının sonu yaklaşık tarih olarak kullanıldı.",
-  kaynak:"TDV `sadiler`: \"Ahmed el-Mansûr devrinde Fransa, İngiltere, Hollanda gibi Avrupa devletleriyle ticarî ilişkiler kurulması\"" },
+  kaynak:"TDV `sadiler`: \"Ahmed el-Mansûr devrinde Fransa, İngiltere, Hollanda gibi Avrupa devletleriyle ticarî ilişkiler kurulması\"", kapsam_genis:true },
 
 // ══════════════════════════════════════════════════════════════════
 // III. HAFSÎLER (TUNUS, 1229-1574)
@@ -473,7 +473,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
 { t:"1911-12-01", b:"Enver Bey direniş karargâhını üstlendi", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri"],
   d:"Gönüllü subay olarak Kuzey Afrika'ya geçen Enver Bey (sonraki Enver Paşa), yerel Arap ve Berberî direnişçilerle birlikte Bingazi-Derne hattında karargâh kurup düzenli bir direniş örgütledi.",
-  kaynak:"TDV `trablusgarp-savasi`: \"1 Aralık 1911 Enver Bey'in karargâhı üstlenmesi\"" },
+  kaynak:"TDV `trablusgarp-savasi`: \"1 Aralık 1911 Enver Bey'in karargâhı üstlenmesi\"", kapsam_genis:true },
 
 { t:"1912-10-18", b:"Uşi Antlaşması — Osmanlı hâkimiyeti resmen sona erdi", tur:"son", onem:5, dunya:3, kapsam:"dis", yer_id:"Trablus",
   etiket:["diplomasi","toprak-kayip"],

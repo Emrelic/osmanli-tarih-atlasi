@@ -203,7 +203,7 @@ window.KRONOLOJI_MACARISTAN = [
   etiket:["hukumdar","diplomasi"],
   yer_id:"",
   d:"Macar kralı aynı zamanda Kutsal Roma İmparatorluğu'nun başına seçildi; bu çifte taç Macaristan'ı bir süreliğine Orta Avrupa diplomasisinin merkezine taşıdı ama Zsigmond'un dikkatini de imparatorluk meseleleriyle böldü.",
-  kaynak:"akademik: Engel (2001), s. 221-222", kapsam_genis:true },
+  kaynak:"akademik: Engel (2001), s. 221-222", yer_id:"Frankfurt" },
 
 { t:"1414-11-05", b:"Konstanz Konsili'nin açılması — Zsigmond'un Büyük Skizma'ya son verme girişimi", tur:"diplomasi", onem:3, dunya:3, kapsam:"dis",
   etiket:["din","diplomasi"],
@@ -237,7 +237,7 @@ window.KRONOLOJI_MACARISTAN = [
   etiket:["askeri","idari"],
   yer_id:"",
   d:"Alt tabakadan bir soylu ailesinden gelen Hunyadi János, askerî yeteneği sayesinde Erdel voyvodası ve güney serhaddin başkumandanı oldu; bundan sonraki on yedi yıl Macaristan'ın Osmanlı karşısındaki savunmasının fiilî yürütücüsü olacaktı.",
-  kaynak:"akademik: Engel (2001), s. 279-283 — TDV'de Hunyadi için müstakil madde yok, anlatısı `kosova`, `izladi`, `varna` maddelerine dağılmış", kapsam_genis:true },
+  kaynak:"akademik: Engel (2001), s. 279-283 — TDV'de Hunyadi için müstakil madde yok, anlatısı `kosova`, `izladi`, `varna` maddelerine dağılmış", yer_id:"Budin" },
 
 { t:"1443-01-01", b:"Uzun Sefer'in (Long Campaign) başlaması", tur:"savas", onem:4, dunya:2, kapsam:"dis",
   etiket:["askeri"],
@@ -255,7 +255,7 @@ window.KRONOLOJI_MACARISTAN = [
   etiket:["idari","hukumdar"],
   yer_id:"",
   d:"Varna bozgunundan sonra kralsız kalan ülkede soylu meclisi, küçük yaştaki V. László adına Hunyadi'yi naip seçti; Hunyadi bu makamda 1453'e kadar fiilî devlet başkanı olarak kaldı.",
-  kaynak:"akademik: Engel (2001), s. 293-295", kapsam_genis:true },
+  kaynak:"akademik: Engel (2001), s. 293-295", yer_id:"Peşte" },
 
 { t:"1448-10-17", b:"İkinci Kosova Savaşı", tur:"savas", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","toprak-kaybi"],
