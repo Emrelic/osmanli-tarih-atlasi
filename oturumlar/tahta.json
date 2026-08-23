@@ -36214,8 +36214,8 @@
   "kime": "SONNET HAZIR KITA 64",
   "kimden_kimlik": "",
   "mesaj": "TESLIMIN INDI — 55/55, kusursuz. AMA BOSA GITTI VE SUC BENDE. Ayni dosyayi (kronoloji_macaristan.js) YER ATAMA da isliyordu; onun kuyrugunda vardi ve ben sana verdim. Iki mesajim celisiyordu. Senin isinde bir kusur YOK: 55/55, yer_id 25 · eksik_nokta 23 · kapsam_genis 7, ve kronoloji dosyasini simulasyonla dogrulaman (127/127) tam istedigim seydi. Veri kaybi olmadi — ad alanin ayriydi. ## YENI IS — bu sefer kuyrukları ONCEDEN sordum dosya : data/kronoloji_fransa.js YAZACAGIN : data/yer_yama_fransa.js DEGISKEN : window.YER_YAMA_FRANSA olcum : 70 eksik / 184 madde Yontem aynen M-1126'daki gibi. Uc kova, ikincil yer tuzagi, once savaslar.js'e bak, TDV kirmizi cizgi. 🔴 FRANSA'YA OZEL UYARI — TDV KAPSAMI: CLAUDE.md'de olculmus: TDV'nin Bati Avrupa kapsami %0. `fransa` maddesi CANLI ama Fransa'nin IC tarihini (Valois-Bourbon veraset kavgalari, Huguenot savaslari, Fronde) kasaba ozelinde konusmuyor. ⇒ Buyuk ihtimalle §4'un TANECIKLIK boslugu vakasi: TDV bolgeyi goruyor ama O KADAR INCE taneciklikte konusmuyor. O zaman akademik kaynak MESRUDUR — ama `kaynak:` alanina ACIKCA yazilir, gizlenmez. ⇒ Ve \"dar slug tutmazsa KAPSAYICI maddeyi dene\" kurali burada cok ise yarar: `fransa` genel maddesi tek basina onlarca kaydi kapsayabilir.",
-  "hal": "ACIK",
-  "cevap": "BEKLIYOR",
+  "hal": "CEVAPLANDI",
+  "cevap": "→ M-1149",
   "vade": "",
   "okuyan": {},
   "yanit_no": "",
@@ -36353,6 +36353,24 @@
   "teyit": {},
   "kapanis": "",
   "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1149",
+  "zaman": "2026-08-23 06:12",
+  "kimden": "SONNET HAZIR KITA 64",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM · SONNET HAZIR KITA 64 · M-1142 · data/yer_yama_fransa.js ① SAYIYLA: 70/70 · yer_id 22 · eksik_nokta 38 · kapsam_genis 10. Kronoloji dosyası (184 madde) simülasyonla doğrulandı: yama uygulanınca 184/184 madde olay mahalli damgası taşıyor, 0 eksik kalıyor. ② ÖLÇTÜĞÜM: her yer_id değeri arac/girdi.py girdi.yukle() havuzunda (2605 kayıt) TEK TEK doğrulandı — 22/22 havuzda birebir var (Paris 11 kez, Troyes · Arras · Münster · Nantes · Quebec · Berlin · Londra · Ankara · Lozan birer kez, Viyana 2 kez). Her kayıt dosya+t+b üçlüsüyle kronoloji_fransa.js'teki orijinal maddeyle node ile eşleştirildi: 70/70 eşleşti, 0 \"coktan dolu\", 0 kaynaksız kayıt. ③ ÖNCE UCUZA BAKTIM (savaslar.js): Navarin Deniz Savaşı için ayrı koordinat aramadım — data/savaslar.js:257 kaydındaki lat/lon ile BİREBİR aynı değeri kullandım (mükerrer araştırma yapılmadı). ④ KAYNAK DÜRÜSTLÜĞÜ (§4, Emre'nin Batı Avrupa TDV-%0 uyarısı doğru çıktı): 38 eksik_nokta kaydının BÜYÜK ÇOĞUNLUĞU (Crécy, Azincourt, Castillon, Marignano, Pavia, Waterloo, Sedan, Verdun, Valmy, Rocroi…) madde BAŞLIĞINDA adı zaten geçen, dünyaca bilinen yerleşimler — ek araştırma gerekmedi, kaynağa \"yer adı başlıkta\" diye açıkça yazıldı. Madde metninde yer adı GEÇMEYEN ~8 kayıtta (Descartes'ın Leiden'de basımı, Fouquet'nin Nantes'ta tutuklanması, Agadir krizinin Berlin'de çözülmesi, Sykes-Picot'nun Londra'da imzalanması, Schönbrunn/Viyana fermanı, Hünkâr İskelesi'nin Boğaz'daki tam konumu) WebSearch ile doğrulama yapıldı ve kaynak alanına \"TDV/akademik ile ayrıca doğrulanmadı\" damgası kondu. Hünkâr İskelesi'nin TAM koordinatı düşük güvenle işaretli — modern karşılığı kaynaklarda net verilmiyor. ⑤ 10 kapsam_genis kaydı: hepsi ya çok duraklı bir sefer/işgal (İtalyan Savaşları başlaması, Napolyon'un İtalya Seferi, Devrolma Savaşı, Meksika Seferi) ya da coğrafi olarak dağınık bir süreç (Jacquerie, 1917 ordu isyanları, Yüzyıl Savaşları'nın \"başlaması\", İspanya Veraset Savaşı başlaması, Diplomatik Devrim) ya da yeri kaynaklarda belirsiz kalan bir reform (Compagnies d'ordonnance) — \"not:\" alanında NİÇİN tek noktaya sığmadığı yazılı. ⑥ 11 kez tekrar eden \"Paris\" (savaş ilanları, antlaşma imzaları, yasama kararları) — hepsi hükümetin/meclisin o tarihte fiilen Paris'te olduğu, madde metninde şehir adı açıkça yazmayan kayıtlar; Versay döneminde (1682-1789) olsalar bile kararlar Devrim sonrası hep Paris'te alındığı için tarihe göre ayrıştırıldı (Versay yalnız sarayın kendisiyle ilgili 3 maddede: saray taşınması, Alman İmparatorluğu ilanı, Versay Antlaşması). ⑦ DOKUNMADIĞIM: data/kronoloji_fransa.js (par.7, koordinatör uygular) · data/yerlesimler*.js · arac/*.py. ⑧ Ad alanı: window.YER_YAMA_FRANSA — istenen ad birebir kullanıldı. Sıradaki iş için hazırım.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "M-1142",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "data/yer_yama_fransa.js + node dogrulama (dosya+t+b eslesmesi, girdi.py havuz kontrolu, savaslar.js capraz kontrol)",
   "aciliyet": "NORMAL"
  }
 ]
