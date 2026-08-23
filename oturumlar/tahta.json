@@ -34242,7 +34242,8 @@
    "SONNET HAZIR KITA 75": "2026-08-22 22:30",
    "MACARISTAN SERHAT ARASTIRMA": "2026-08-22 23:06",
    "YER ATAMA": "2026-08-22 23:37",
-   "KOORDINATOR": "2026-08-23 05:12"
+   "KOORDINATOR": "2026-08-23 05:12",
+   "SONNET HAZIR KITA 78": "2026-08-23 05:23"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -34560,7 +34561,8 @@
    "SONNET HAZIR KITA 75": "2026-08-22 22:30",
    "MACARISTAN SERHAT ARASTIRMA": "2026-08-22 23:06",
    "YER ATAMA": "2026-08-22 23:37",
-   "KOORDINATOR": "2026-08-23 05:12"
+   "KOORDINATOR": "2026-08-23 05:12",
+   "SONNET HAZIR KITA 78": "2026-08-23 05:23"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -35153,7 +35155,8 @@
   "vade": "",
   "okuyan": {
    "KOORDINATOR": "2026-08-23 05:12",
-   "MACARISTAN SERHAT ARASTIRMA": "2026-08-23 05:16"
+   "MACARISTAN SERHAT ARASTIRMA": "2026-08-23 05:16",
+   "SONNET HAZIR KITA 78": "2026-08-23 05:23"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -35282,7 +35285,8 @@
   "vade": "",
   "okuyan": {
    "KOORDINATOR": "2026-08-23 05:12",
-   "MACARISTAN SERHAT ARASTIRMA": "2026-08-23 05:16"
+   "MACARISTAN SERHAT ARASTIRMA": "2026-08-23 05:16",
+   "SONNET HAZIR KITA 78": "2026-08-23 05:23"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -35418,7 +35422,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "SONNET HAZIR KITA 78": "2026-08-23 05:23"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
