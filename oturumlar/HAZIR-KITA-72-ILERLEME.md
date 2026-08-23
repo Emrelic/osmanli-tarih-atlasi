@@ -167,4 +167,52 @@ Dağılım: **çözüldü 4** · **hala-açık 22** · **bayat 1**.
   belirttim (belirsiz eşleşme, hangi spesifik olayın kastedildiği net değil).
 
 ## Durum (M-1169)
-TESLİM EDİLDİ (tahtaya yazıldı, commit 857e0a3). Yeni görev bekliyorum.
+TESLİM EDİLDİ (tahtaya yazıldı, commit 857e0a3).
+
+---
+
+## Görev 4 (M-1188, koordinatörden — 23 Ağustos 2026 23:43)
+Üçüncü iş türü: "ÜÇ HARİTA KUSURU" (renk · Hamid · Niş) — parti-emrelic-0030
+paketinden H-0001, H-0012, H-0017. Bu bir tasnif ya da yer-atama işi değil,
+**kusur teşhisi**. H-0001 için yalnız rapor istendi (yama değil).
+
+### Yöntem — özetle
+- H-0001: `renk_olc.py` koşuldu (0 çakışma, 0 aynı-hex — palet sorunu
+  YOK). Katman sırasını `js/app.js`ten okudum. Sonra localhost'ta statik
+  sunucu açıp (port 8791) tarayıcıyı motor kodunu ÇALIŞTIRARAK (WebGL
+  beklemeden, `devletGuncelle`/`donemler`/`petekVerisi` fonksiyonlarını
+  doğrudan çağırarak) 1324-01-01 günü için Bizans'ın Gemlik/İznik
+  parçasının merkez noktasını hem kendi poligonunda hem Osmanlı'nın aynı
+  günkü petek gövdesinde test ettim — **İKİSİNDE DE ÇIKTI.**
+- H-0012: TDV `hamidogullari` maddesini WebFetch ile okudum, 1381 satışına
+  hangi şehirlerin dahil olduğunu doğrudan aldım.
+- H-0017: `data/yerlesimler.js`'te ilgili kutuda (33 halka noktalı
+  Sırbistan parçasının bbox'ı) yerleşim sayısını saydım (0), sonra en
+  yakın gerçek noktaları mesafeyle sıraladım.
+
+### Teslim
+`data/yer_yama_anadolu2.js` → `window.YER_YAMA_ANADOLU2`, 3 kayıt — ÜÇÜ
+DE RAPOR, hiçbiri veri/motora yazılmadı. Her kayıtta `hukum` ve `kanit`
+(+ H-0017'de `cikarim`) ayrı alanlarda.
+
+### Bulgular (özet)
+- **H-0001 — GERÇEK KUSUR, motor sorusu**: aynı koordinat ([29.211,
+  40.501], İmralı/Gemlik civarı) hem `devletler_harita.js`'in Bizans
+  gövdesinde HEM `donemler.js`'in Osmanlı gövdesinde 1324-01-01'de aynı
+  anda var — iki üretim hattı aynı günde aynı bölgede farklı Voronoi
+  sınırı üretiyor gibi görünüyor. Kullanıcının sezgisi ("Bizans mavisi
+  üzerine Osmanlı kırmızısı eklenmiş") birebir doğru çıktı. `yerlesimler.js`
+  kaydının kendisi (İmralı Adası) tertemiz — geçiş 1324-01-01'de
+  pürüzsüz. Kusur tek kayıtta değil, MOTOR senkronunda.
+- **H-0012 — hata değil**: TDV'nin kendi maddesi Isparta'nın 1381 satışına
+  DAHİL OLMADIĞINI, Hamidoğlu'nun Isparta'yı 1391'e kadar elinde
+  tuttuğunu açıkça yazıyor. Veri TDV ile birebir — düzeltme önerilmedi.
+- **H-0017 — şüpheli ama kesin değil**: kutuda gerçekten sıfır yerleşim
+  var (§2 emilme aktif), ama emen nokta EN YAKINI değil — üç Osmanlı
+  noktası (Niş, Köstendil, Sofya, 0,71-0,86°) Sırbistan'ın emen noktasından
+  (Priştine, 1,48°) neredeyse İKİ KAT yakın. Ham derece-mesafesi kaba bir
+  ölçüt olduğu için (gerçek motor sırt/kıyı yaslaması çok daha karmaşık)
+  bunu kesin kusur diye damgalamadım — motor incelemesi önerdim.
+
+## Durum (M-1188)
+TESLİM EDİLDİ. Yeni görev bekliyorum.
