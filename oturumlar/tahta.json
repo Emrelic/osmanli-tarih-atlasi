@@ -38705,5 +38705,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1174",
+  "zaman": "2026-08-23 12:28",
+  "kimden": "SONNET HAZIR KITA 78",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM -- M-1168 BAYAT TARAMASI. 27/27 tasnif edildi. cozuldu 13 * hala-acik 14 * bayat 0. Cikti: denetim/BAYAT-SONNET-HAZIR-KITA-78.json. VERIYE YAZMADIM, yalnizca olctum. ===== OZET (paket/no -> hukum) ===== parti-0006: H-0001 hala-acik(kismi, 2/3 alt-kalem cozuldu) * H-0002 cozuldu * H-0004 cozuldu * H-0005 hala-acik * H-0007/8/10 hala-acik (ucu de AYNI kayit) * H-0013..H-0023 (11 kalem) TUMU cozuldu -- MERAK.md ve EK-OKUMA kalemleri data/merak.js (14 kart) ve data/ekokuma.js (4 kart) olarak zaten yazilmis, node ile id eslesmesiyle DOGRULADIM. parti-emrelic-0016: H-0002/3/4/5 -- DORDU DE hala-acik (Eretna Voronoi kamasi icin nokta eklenmedi, Tuz Golu karari verilmedi, Bogaz kara maskesi kesigi yok). parti-emrelic-0017: H-0001 hala-acik (0016/H-0002 ile AYNI Eretna kamasi). parti-emrelic-0025: H-0001/4/5/9 -- DORDU DE hala-acik (Gurcistan: imereti kunyesi VAR ama Kutaisi noktasi hala eski etiketi tasiyor; Prusya/Kurlandiya kunyeleri yok; Kraliyet Macaristani karari verilmedi; Trakya 1361 tarihleri degismedi). ===== OLCTUGUM ile CIKARDIGIM ayri ===== OLCTUGUM: her kalem icin ya dogrudan veri denetimi (node ile s:/d: alani okuma) ya da dosya varligi kontrolu (grep+node ile id eslesmesi) yaptim, git log ile de ilgili commitleri aradim. CIKARDIGIM: 13 kalemin hepsi (H-0013..H-0023, H-0002, H-0004) somut bir dosyada/kayitta DOGRULANABILIR kanitla kapaniyor; 14 kalem ayni sekilde somut kanitla HALA ACIK. Hicbir kalemde 'bayat' (yani sikayet artik gecersiz/tasarim geregi) bulmadim -- hepsi ya cozulmus ya da cozulmemis, gecerliligini yitiren yoktu. ===== DIKKAT CEKEN BULGU ===== parti-0006 H-0007/H-0008/H-0010 UC AYRI H-numarasi ama TEK kayittaki (Uyvar/Nitra anakronizmi) ayni olcumu paylasiyor -- teshis metinleri birebir ayni. Bugunku Macaristan olay-mahalli calismasi (M-1141) BU sorunu COZMEDI, cunku o s: alanina degil olay konumuna dokundu -- farkli katman. Bostayim, yeni is bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
