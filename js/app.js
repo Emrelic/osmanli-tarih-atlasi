@@ -2965,7 +2965,23 @@ function kareSayaciBaslat(beklenenMs, etiket) {
                 + " kare · " + fps + " fps · en uzun boşluk "
                 + Math.round(enUzun) + " ms · " + hukum
                 + "\nÇİZİM (uçuştan önce): " + Math.round(_CIZIM_MS) + " ms"
-                + "  ·  UÇUŞ SIRASINDA: " + agirBitir();
+                + "  ·  UÇUŞ SIRASINDA: " + agirBitir()
+                // 🔴 DOM İŞARETİ SAYIMI — eleyip geri getirdiğim aday.
+                // İlk ölçümde "tek 949 ms blok" görünce elemiştim: işaret
+                // maliyeti KARE BAŞINA küçüktür, tek seferde bir saniye
+                // olamaz. Ama yeni ölçüm başka bir şey söylüyor:
+                //     ~5,8 sn uçuşta TOPLAM 4961 ms uzun görev
+                // yani tek blok değil SÜREKLİ yük — ve o, işaretlerin
+                // imzasıdır: MapLibre her `Marker`ı HER KAREDE yeniden
+                // konumlandırır (N işaret = N DOM yazması × 60/sn).
+                // 📌 Bir adayı elemek, onu SONSUZA KADAR elemek değildir:
+                //    ölçüm değişince aday geri gelir. İlk eleme YANLIŞ
+                //    değildi — o günkü ölçüme göre DOĞRUYDU.
+                + "\nDOM işareti: "
+                + document.querySelectorAll(".maplibregl-marker").length
+                + "  ·  şehir katmanı: "
+                + (document.querySelectorAll(".sehir-isaret").length
+                   || document.querySelectorAll("[class*='isaret']").length);
     console.log("🎞 " + satir);
     // 🔴 EKRANA DA YAZ — Emre: *"hangi satırı yapıştıracağım anlamadım."*
     // Kullanıcıdan geliştirici konsolu açmasını istemek, ölçümü ULAŞILMAZ
