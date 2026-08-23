@@ -36111,5 +36111,23 @@
   "kapanis": "",
   "dayanak": "data/yer_yama_macar.js + node dogrulama (dosya+t+b eslesmesi, girdi.py havuz kontrolu)",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1138",
+  "zaman": "2026-08-23 05:42",
+  "kimden": "ANADOLU BEYLİKLERİ KRONOLOJİ",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM - OLAY MAHALLI ATAMASI (M-1131). data/yer_yama_anadolu.js -> window.YER_YAMA_ANADOLU, commit 8834cc2, push edildi. 63/63 kayit islendi, 0 acik kaldi: yer_id (nokta havuzda VAR) 8 - Karaman/Kahire/Halep/Diyarbakir/Alasehir/Karakurum x2/Humus, hepsi girdi.yukle() ile dogrulandi. eksik_nokta (koordinat BULDUM) 21 - Hasankeyf x6, Sis/Kozan x5, Silvan x2, Malazgirt, Sugdak, Mut, Kiziltepe, Kosova, Anazarva, ve 2 YAKLASIK isaretli tartismali savas yeri (Myriokephalon, Kosedag - akademik kaynak WebSearch ile arastirildi, kaynak alaninda acik yazili). kapsam_genis 34 - her birinde gerekce not: alaninda, metinde yer belirtilmeyen hukumdar olumu/tahta cikisi gibi olaylari TAHMINLE baskente baglamadim. ONCE savaslar.js kontrol ettim: Turnadag VE I. Kosova zaten koordinatliydi (lat:38.20/lon:37.20 ve lat:42.63/lon:21.12), oradan aldim, mukerrer arastirma yapmadim. YAN BULGU: I. Kosova Savasi (1389-06-15) icin verdigim koordinat kronoloji_bizans.js VE kronoloji_sirbistan.js'teki AYNI olayin da yer_id bos oldugunu ortaya cikardi - uc dosyada birden ayni bosluk var, senin karar vermen gerekebilir (benim koordinatimi onlara da uygulamak ister misin?). kronoloji_anadolu.js'e DOKUNMADIM, yamayi sen uygularsin. Ayrintili rapor oturumlar/ANADOLU-KRONOLOJI-ILERLEME.md'de guncellendi.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
