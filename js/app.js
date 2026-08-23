@@ -5497,9 +5497,41 @@ function haritayiOlayaGotur(o, zorla) {
     }
     harita.once("moveend", _varisBirKez);
     // ⚠️ Emniyet: uçuş hiç başlamazsa (harita gizli sekmede, rAF donmuş)
-    // `moveend` HİÇ gelmez ve kilit sonsuza kadar açık kalmazdı — kalırdı.
-    // İkisinden hangisi önce gelirse ötekini iptal ediyor.
-    _varisTimer = setTimeout(_varisBirKez, _sonSure + 400);
+    // `moveend` HİÇ gelmez ve kilit sonsuza kadar açık kalırdı.
+    //
+    // 🔴 23 Ağustos — AMA EMNİYET AĞI KORUDUĞU ŞEYDEN ÖNCE ÖTÜYORDU.
+    // Emre: *"uzun uçuşlar sırasında harita oraya gelene kadar göz kırpma
+    // bitmiş oluyor ve kullanıcı bunu göremiyor."*
+    // CANLI ÖLÇÜLDÜ:
+    //     33358 ms  movestart
+    //     35357 ms  KIRPMA BAŞLADI   ← uçuş HÂLÂ sürüyor
+    //     37504 ms  moveend          ← harita 2147 ms SONRA varıyor
+    // `_sonSure` 1600'dü, gerçek uçuş 4146 ms sürdü; zamanlayıcı 2000
+    // ms'de ateşleyip VARIŞI ÇALDI. Tasarım doğruydu (kırpma `_varista`
+    // içinde, tek kapıda) — erken açan şey bu zamanlayıcıydı.
+    //
+    // ⇒ Zamanlayıcı artık SÜREYE değil GERÇEK HAREKETE bakıyor:
+    //   `isMoving()` hâlâ true ise uçuş sürüyordur, bekle ve yeniden
+    //   yokla. Yalnız hareket DURDUYSA varış sayılır.
+    // 📌 `CLAUDE.md §10`: *"bekçi her zaman GERÇEKLEŞMİŞ bir olaya
+    //    bağlanır — geçen süreye, tahmine ya da bir oturumun 'bitiyorum'
+    //    demesine değil."* O ders 9-bip bekçisi için yazılmıştı; aynı
+    //    kusur burada da varmış.
+    // ⚠️ SERT TAVAN 15 sn: `isMoving()` bir şekilde hiç false olmazsa
+    //    (donmuş sekme) kilit sonsuza kadar kalmasın.
+    var _varisBasi = performance.now();
+    (function _varisYokla() {
+      _varisTimer = setTimeout(function () {
+        if (_vardi) return;
+        var _hareketli = false;
+        try { _hareketli = harita.isMoving(); } catch (e) { _hareketli = false; }
+        if (_hareketli && (performance.now() - _varisBasi) < 15000) {
+          _varisYokla();                 // hâlâ uçuyor — varış DEĞİL
+          return;
+        }
+        _varisBirKez();
+      }, _sonSure + 400);
+    })();
 
     // 🔴 TEŞHİS SATIRI — bir sonraki "çalışmıyor" raporunu İZLENİM değil
     // ÖLÇÜM yapsın diye. Üç tur boyunca hangi dalın koştuğunu bilmeden

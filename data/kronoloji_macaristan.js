@@ -273,7 +273,7 @@ window.KRONOLOJI_MACARISTAN = [
   etiket:["hukumdar","salgin"],
   yer_id:"",
   d:"Belgrad zaferinden üç hafta sonra, kuşatma sırasında ordugâhta yayılan vebaya Hunyadi da yakalanarak öldü. Ölümü, Macaristan'ı hem askerî hem siyasî bir liderlik boşluğuna soktu ve oğulları László ile Mátyás'ı iktidar mücadelesinin merkezine taşıdı.",
-  kaynak:"akademik: Engel (2001), s. 297-298", yer_kon:[44.8433,20.4004] },
+  kaynak:"akademik: Engel (2001), s. 297-298", yer_kon:[44.8433,20.4004], yer_id:"Belgrad" },
 
 { t:"1457-03-16", b:"László Hunyadi'nin idamı — V. László'nun tertibi", tur:"darbe", onem:4, dunya:1, kapsam:"ic",
   etiket:["hukumdar","darbe"],
@@ -663,7 +663,7 @@ window.KRONOLOJI_MACARISTAN = [
   etiket:["darbe","siyaset"],
   yer_id:"",
   d:"Fransız Devrimi'nden etkilenen küçük bir cumhuriyetçi-radikal çevrenin komplosu keşfedilince, önderleri Budin yakınlarında idam edildi; bastırma, izleyen otuz yılda Habsburg sansürünün sertleşmesine yol açtı ve Macar milliyetçi hareketinin daha ihtiyatlı, kültürel bir çizgide (dil reformu) yeniden doğmasına neden oldu.",
-  kaynak:"akademik: Kontler (2002), s. 198-199", yer_kon:[47.5026,19.0263] },
+  kaynak:"akademik: Kontler (2002), s. 198-199", yer_kon:[47.5026,19.0263], yer_id:"Budin" },
 
 { t:"1811-01-01", b:"Kazinczy Ferenc'in 'nyelvújítás' (dil yenileme) hareketinin doruğa çıkması", tur:"kultur", onem:3, dunya:1, kapsam:"ic",
   etiket:["kultur","edebiyat"],
@@ -685,7 +685,7 @@ window.KRONOLOJI_MACARISTAN = [
   etiket:["kultur","ekonomi"],
   yer_id:"",
   d:"Széchenyi, kitabında Macar tarım ekonomisinin geri kalmışlığını soylu vergi muafiyetine ve modern kredi sisteminin yokluğuna bağladı; eser, Reform Çağı'nın ekonomik modernleşme gündemini belirleyen temel metinlerden biri oldu.",
-  kaynak:"akademik: Kontler (2002), s. 214-215", yer_kon:[47.4979,19.0402] },
+  kaynak:"akademik: Kontler (2002), s. 214-215", yer_kon:[47.4979,19.0402], yer_id:"Peşte" },
 
 { t:"1831-08-01", b:"Doğu Slovakya kolera isyanı", tur:"isyan", onem:2, dunya:1, kapsam:"ic",
   etiket:["salgin","isyan","sosyal"],
@@ -785,7 +785,7 @@ window.KRONOLOJI_MACARISTAN = [
   etiket:["siyaset","diplomasi"],
   yer_id:"",
   d:"Deák, 1848 Nisan Yasaları'nın hukuki sürekliliğini talep ederken tam bağımsızlıktan vazgeçen ve ortak dışişleri-savunma alanlarını kabul eden bir uzlaşma formülü önerdi; bu ılımlı çizgi, altı yıl sonraki Ausgleich'ın fikrî temelini oluşturdu.",
-  kaynak:"akademik: Kontler (2002), s. 237-238", yer_kon:[47.4979,19.0402] },
+  kaynak:"akademik: Kontler (2002), s. 237-238", yer_kon:[47.4979,19.0402], yer_id:"Peşte" },
 
 { t:"1866-07-03", b:"Königgrätz bozgununun Ausgleich'i kaçınılmaz kılması", tur:"kriz", onem:4, dunya:4, kapsam:"dis",
   etiket:["askeri","kriz"],
@@ -903,7 +903,7 @@ window.KRONOLOJI_MACARISTAN = [
   etiket:["askeri","siyaset"],
   yer_id:"",
   d:"Macar Başbakanı Tisza István, hükümet toplantılarında savaşa en son razı olan isim olsa da nihayetinde savaş kararını destekledi; Macaristan, ortak ordu içindeki geniş askere alma katkısıyla Birinci Dünya Savaşı'na tam olarak girdi.",
-  kaynak:"akademik: Kontler (2002), s. 265-266 — bkz. `kronoloji_habsburg.js` aynı olay, dunya:5 (BİREBİR aynı)", yer_kon:[47.7113,13.6221] },
+  kaynak:"akademik: Kontler (2002), s. 265-266 — bkz. `kronoloji_habsburg.js` aynı olay, dunya:5 (BİREBİR aynı)", yer_kon:[47.7113,13.6221], yer_id:"Viyana" },
 
 { t:"1918-10-31", b:"Aster Devrimi (Őszirózsás forradalom) — Károlyi Mihály'nın iktidara gelmesi", tur:"isyan", onem:5, dunya:3, kapsam:"ic",
   etiket:["isyan","siyaset","hukumdar"],
