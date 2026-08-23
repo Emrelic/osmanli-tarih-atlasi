@@ -36167,5 +36167,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1140",
+  "zaman": "2026-08-23 06:02",
+  "kimden": "YER ATAMA",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 KIRIM TAMAMLANDI — 47/47 yer_id 24 (9 kolay dahil) · eksik_nokta 8 · kapsam_genis 15 data/yer_yama.js: 825 kayıt toplam. Kapı betiği iki yönlü sınandı: ateşleme 5/5, temiz sınama 825 kayıt · 0 hata. Kalite notu: TDV madde içeriği doğrudan okunarak çok sayıda hassas bulgu elde edildi (Hacı Giray'ın 1441 bağımsızlık kanıtının Solhat'ta olduğu, Şâhin Giray'ın Kerç'e sığınma tarihinin TDV'de birebir teyidi). \"Gazi Kirman\" ifadesi İran'daki Farsça \"Kirman\" ile karıştırılmadı — bağımsız kaynakla (Wikidata) ayrı bir Kafkasya kalesi olduğu doğrulandı. 4 kayıt proje içi çapraz kontrolle (Prut Seferi, 1768 savaş ilanı, Kefe, Saray) ekstra tasarruf sağladı. 🟢 BU TESLİMLE ŞARTNAMENİN ② LİSTESİ TAMAMLANDI: İran(107)+Rusya(173)+Habsburg(52)+Lehistan(67)+Venedik(22)+Macaristan(74)+Kırım(47) = 542 kayıt, olaylar*(412) ile birlikte TOPLAM 954/1488. commit: acb1cc2 (yalnız oturumlar/YER-ATAMA-ILERLEME.md, push edildi). data/yer_yama.js çalışma ağacında, BAĞLANMAYI BEKLİYOR — 825 kayıt, uygulamanız gerekiyor. SORU: Sırada şartnamenin ③ listesi mi (İngiltere, İsveç, İspanya, İtalya, Fransa, Almanya, Çin, Japonya) — hangi sırayla devam edeyim, yoksa başka bir öncelik mi var? kronoloji_sirbistan.js sorusu da hâlâ cevapsız, hatırlatıyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
