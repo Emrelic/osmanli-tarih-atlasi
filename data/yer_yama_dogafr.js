@@ -11,21 +11,33 @@
 // ANAHTAR: dosya + t + b  (ÜÇÜ BİRDEN). `b` alanları kaynak dosyadan
 // BİREBİR kopyalandı — elle yazılmadı, bir üreteç betiği çıkardı.
 //
-// ── DÖRT KOVA ─────────────────────────────────────────────────────
+// ── ÜÇ KOVA + BİR HÂL ─────────────────────────────────────────────
 //   yer_id        havuzda VAR olan yerleşim adı (birebir eşleşir)
 //   eksik_nokta   yer BELLİ, havuzda YOK → koordinat burada
 //   kapsam_genis  olay TEK NOKTAYA SIĞMAZ (bir KARAR, eksiklik değil)
-//   bulunamadi    🔴 DÖRDÜNCÜ KOVA — şartnamede YOKTU, ben ekledim
+//   eksik_nokta + enlem:null   🔴 "ARANDI, BULUNAMADI" HÂLİ
 //
-// 🔴 NİÇİN DÖRDÜNCÜ KOVA: M-1127 üç kova veriyor, ama benim 48 kaydımın
-//    altısı hiçbirine girmiyor. Bunlar "geniş" DEĞİL — tek bir meydan
-//    savaşı ya da tek bir doğum yeri; ama KAYNAK O YERİ SÖYLEMİYOR.
-//    Bunları `kapsam_genis` kovasına atmak, "bilmiyorum"u "tek noktaya
-//    sığmaz" diye YANLIŞ RAPORLAMAK olurdu — ve bir sonraki oturum
-//    onları bir daha aramazdı. `CLAUDE.md §11`: "ölçülemedi ≠ temiz"
-//    ve "boşluğun CİNSİNİ kaydetmek gerekiyor".
-//    ⇒ Koordinatör bu kovayı istemezse `not:` alanları duruyor,
-//      istediği kovaya taşınabilirler. Kararı ona bırakıyorum.
+// 🔴 BU HÂL BİR TARTIŞMANIN SONUCUDUR — kayda geçiyor:
+//    M-1127 üç kova verdi; benim 48 kaydımın altısı hiçbirine girmiyordu.
+//    Bunlar "geniş" DEĞİL — tek bir meydan savaşı ya da tek bir doğum
+//    yeri; ama KAYNAK O YERİ SÖYLEMİYOR. `kapsam_genis`e atmak,
+//    "bilmiyorum"u "tek noktaya sığmaz" diye YANLIŞ raporlamak olurdu.
+//    M-1135'te dördüncü bir ALAN (`bulunamadi:true`) önerdim.
+//    ⇒ **M-1145 HÜKMÜ: ayrım HAKLI, ama YENİ ALAN AÇILMAZ.** Hâl,
+//      MEVCUT biçimin içinde ifade edilir: `enlem:null, boylam:null`.
+//      Uygulayıcı sayı olmayan koordinatı İŞLEMEZ ⇒ kayıt KAYBOLMAZ,
+//      UYGULANMAZ. İkisi ayrı şeydir.
+//    📌 Gerekçe (koordinatörün): `CLAUDE.md`de ölçülmüş bir ders var —
+//      *"bir alan tasarlamadan önce o alanın ZATEN VAR OLUP OLMADIĞINI
+//      ölç"*. Bu projede bir alan icat edilmiş, belgeye yazılmış,
+//      kullanıcıya bildirilmiş, sonra aynı işi yapan bir alanın zaten
+//      var olduğu ortaya çıkmıştı.
+//    ⇒ Ben `bulunamadi:true` biçimini GERİ ALDIM, altı kayıt bu dosyada
+//      `enlem:null` biçimine çevrildi. Ayrım korundu, alan açılmadı.
+//
+// ⚠️ ÜÇ KAYITTA KAYNAK YER ADINI VERİYOR (Hubat · Vebi kıyısı · Addi
+//    Karro) — o adlar AYNEN yazıldı; üçünde kaynak adı da vermiyor,
+//    oraya TARİF yazıldı, UYDURMA AD yazılmadı.
 //
 // ── 🟡 YAKLAŞIK KOORDİNAT DAMGASI ─────────────────────────────────
 // Üç `eksik_nokta` (Şimbra Kure · Wayna Daga · Fatagar) TAM KONUM
@@ -59,20 +71,10 @@
 
 window.YER_YAMA_DOGAFR = [
 
-{ dosya:"kronoloji_dogu_afrika.js", t:"1285-01-01",
-  b:"Ali b. Ömer Veleşma', Şüve Emirliği'ni ilhak ederek Evfât Emirliği'ni kurdu",
-  yer_id:"Ankober",
-  kaynak:"Evfât'ın çekirdeği Şüve (Shoa) bölgesidir; Ankober bu bölgenin havuzdaki tek noktası ve tarihî Şeva merkezidir. TDV `etiyopya`: \"Harar'ın kuzeybatısındaki Şüve Emirliği\"" },
-
-{ dosya:"kronoloji_dogu_afrika.js", t:"1300-01-01",
-  b:"Sabrüddin Muhammed'in Evfât tahtına çıkışı",
-  yer_id:"Ankober",
-  kaynak:"cülûs olayı, Evfât'ın Şeva çekirdeğine bağlandı (ŞARTNAME §3.1 ② başkent kuralı)" },
-
 { dosya:"kronoloji_dogu_afrika.js", t:"1328-01-01",
   b:"Evfât sultanı Habeş kralına yenildi ve esir düştü",
-  bulunamadi:true,
-  not:"TDV `evfat` yalnız \"728 (1328) yılında yapılan şiddetli savaş\" diyor; SAVAŞ YERİNİ VERMİYOR. Uydurmadım." },
+  eksik_nokta:{ ad:"Evfât-Habeş meydan savaşı (yeri adsız)", enlem:null, boylam:null,
+    kaynak:"bulunamadı — TDV `evfat` yalnız \"728 (1328) yılında yapılan şiddetli savaş\" diyor; SAVAŞ YERİNİ VERMİYOR. Uydurmadım." } },
 
 { dosya:"kronoloji_dogu_afrika.js", t:"1350-01-01",
   b:"Ömerî'nin kaydettiği yedi müslüman emirlik ve aralarındaki bölünme",
@@ -84,35 +86,15 @@ window.YER_YAMA_DOGAFR = [
   kapsam_genis:true,
   not:"Habeş-Mısır sınır hattının tamamında geçerli bir ticaret yasağı — tek noktaya sığmaz" },
 
-{ dosya:"kronoloji_dogu_afrika.js", t:"1376-01-01",
-  b:"Evfât'ta taht kavgası ve II. Hakkuddin'in bağımsızlık iddiası",
-  yer_id:"Ankober",
-  kaynak:"iç savaş ve taht ele geçirme — Evfât merkezine bağlandı" },
-
 { dosya:"kronoloji_dogu_afrika.js", t:"1386-01-01",
   b:"II. Hakkuddin Habeş kralına yenilerek öldürüldü",
-  bulunamadi:true,
-  not:"TDV `evfat` savaşın YERİNİ vermiyor, yalnız yılını veriyor. Uydurmadım." },
-
-{ dosya:"kronoloji_dogu_afrika.js", t:"1397-01-01",
-  b:"Dehlek adasının Habeşistan'a bağlanması",
-  yer_id:"Dahlak",
-  kaynak:"🔴 KENDİ İLK ÖLÇÜMÜMÜ ÇÜRÜTTÜM: ilk turda \"Dehlek atlasta KAYITLI DEĞİL\" yazmıştım — havuzda `Dahlak` adıyla VAR (15,692/40,138). Türkçe yazım ekseni tuzağının yerleşim tarafı." },
-
-{ dosya:"kronoloji_dogu_afrika.js", t:"1415-01-02",
-  b:"Adal Sultanlığı Evfât'ın yerini aldı",
-  yer_id:"Zeyla",
-  kaynak:"TDV `evfat`+`harar`: Adal'ın ilk merkezi Zeyla' civarıdır; başkent 1520'de Harar'a taşınır" },
-
-{ dosya:"kronoloji_dogu_afrika.js", t:"1508-01-01",
-  b:"Lebna Dengel'in tahta çıkışı ve Adal akınlarının durdurulması",
-  yer_id:"Aksum",
-  kaynak:"Süleymanî hânedanının taç giyme ve meşruiyet merkezi; TDV `etiyopya` krallık başkentini Aksum diye anıyor (1636'da Gondar'a taşınana kadar saray gezgindir)" },
+  eksik_nokta:{ ad:"Hakkuddin'in son savaşı (yeri adsız)", enlem:null, boylam:null,
+    kaynak:"bulunamadı — TDV `evfat` savaşın YERİNİ vermiyor, yalnız yılını veriyor. Uydurmadım." } },
 
 { dosya:"kronoloji_dogu_afrika.js", t:"1506-01-01",
   b:"Ahmed el-Mücâhid'in (Ahmed Gran) doğumu",
-  bulunamadi:true,
-  not:"TDV \"Abad Emirliği'nin Hubat bölgesi\" diyor; Hubat havuzda YOK ve akademik kaynakta koordinatı bulunamadı. Aranmadı değil — ARANDI, BULUNAMADI." },
+  eksik_nokta:{ ad:"Hubat (Abad Emirliği)", enlem:null, boylam:null,
+    kaynak:"bulunamadı — TDV \"Abad Emirliği'nin Hubat bölgesi\" diyor; Hubat havuzda YOK ve akademik kaynakta koordinatı bulunamadı. Aranmadı değil — ARANDI, BULUNAMADI." } },
 
 { dosya:"kronoloji_dogu_afrika.js", t:"1529-03-09",
   b:"Şimbra Kure Muharebesi — Habeş ordusunun bozguna uğratılması",
@@ -141,8 +123,8 @@ window.YER_YAMA_DOGAFR = [
 
 { dosya:"kronoloji_dogu_afrika.js", t:"1542-08-28",
   b:"Ahmed el-Mücâhid, Habeş-Portekiz ordusunu bozguna uğrattı",
-  bulunamadi:true,
-  not:"TDV `ahmed-el-mucahid` ve `etiyopya` bu zaferin YERİNİ vermiyor. Batı literatüründe Wofla diye anılır ama TDV bunu SÖYLEMİYOR; TDV dışı adı veriye YAZMADIM." },
+  eksik_nokta:{ ad:"Ahmed el-Mücâhid'in 1542 zaferi (yeri adsız)", enlem:null, boylam:null,
+    kaynak:"bulunamadı — TDV `ahmed-el-mucahid` ve `etiyopya` bu zaferin YERİNİ vermiyor. Batı literatüründe Wofla diye anılır ama TDV bunu SÖYLEMİYOR; TDV dışı adı veriye YAZMADIM." } },
 
 { dosya:"kronoloji_dogu_afrika.js", t:"1543-02-21",
   b:"Wayna Daga Muharebesi — Ahmed el-Mücâhid öldürüldü, istilâ çöktü",
@@ -156,43 +138,13 @@ window.YER_YAMA_DOGAFR = [
 
 { dosya:"kronoloji_dogu_afrika.js", t:"1577-01-01",
   b:"Vebi nehri bozgunu — Harar Emirliği'nin ileri gelenleri öldürüldü",
-  bulunamadi:true,
-  not:"TDV `harar` yalnız \"Webi nehri kıyıları\" diyor. Nehir ~1130 km; kıyının HANGİ noktası olduğu kaynakta YOK. Nehrin ortasına nokta koymak uydurma olurdu." },
-
-{ dosya:"kronoloji_dogu_afrika.js", t:"1577-01-02",
-  b:"Merkezin Aussa'ya nakli ve Harar Sultanlığı'nın Galla göçebelerince yıkılışı",
-  yer_id:"Asâyita (Avsa)",
-  kaynak:"🔴 İKİNCİ ÇÜRÜTME: ilk turda \"Aussa KAYITLI DEĞİL\" yazmıştım — havuzda `Asâyita (Avsa)` adıyla VAR (11,567/41,44). Avsa = Aussa." },
-
-{ dosya:"kronoloji_dogu_afrika.js", t:"1312-01-01",
-  b:"Amda Sion dönemi başladı — Etiyopya'da İslâmiyet'in zayıfladığı devir",
-  yer_id:"Aksum",
-  kaynak:"saltanat başlangıcı — Süleymanî taç giyme merkezi" },
-
-{ dosya:"kronoloji_dogu_afrika.js", t:"1382-01-01",
-  b:"Kral David'in tahta çıkışı ve Memlüklerle ilişkilerin düzelmesi",
-  yer_id:"Aksum",
-  kaynak:"cülûs — Süleymanî taç giyme merkezi" },
+  eksik_nokta:{ ad:"Vebi (Webi Şebelle) kıyısı", enlem:null, boylam:null,
+    kaynak:"bulunamadı — TDV `harar` yalnız \"Webi nehri kıyıları\" diyor. Nehir ~1130 km; kıyının HANGİ noktası olduğu kaynakta YOK. Nehrin ortasına nokta koymak uydurma olurdu." } },
 
 { dosya:"kronoloji_dogu_afrika.js", t:"1434-01-01",
   b:"Zar'a Ya'kūb dönemi — krallığın en geniş sınırları",
   kapsam_genis:true,
   not:"maddenin KONUSU krallığın en geniş SINIRLARIDIR — tanımı gereği tek noktaya sığmaz" },
-
-{ dosya:"kronoloji_dogu_afrika.js", t:"1438-01-01",
-  b:"Zar'a Ya'kūb'dan Memlük Sultanı Barsbay'a dostane mektup",
-  yer_id:"Aksum",
-  kaynak:"mektubun GÖNDERİLDİĞİ yer Habeş sarayıdır; muhatabı Kahire'dir. ⚠️ İKİNCİL YER TUZAĞI: metindeki büyük ad (Kahire/Mısır) olay mahalli DEĞİL" },
-
-{ dosya:"kronoloji_dogu_afrika.js", t:"1441-01-01",
-  b:"Zar'a Ya'kūb'dan Sultan Çakmak'a Nil tehdidi içeren protesto",
-  yer_id:"Aksum",
-  kaynak:"aynı gerekçe: gönderen saray. Metindeki Nil ve Mısır adları olay mahalli değil" },
-
-{ dosya:"kronoloji_dogu_afrika.js", t:"1554-04-01",
-  b:"Özdemir Paşa'nın İstanbul'a çağrılması — Habeş siyasetinin kurulması",
-  yer_id:"İstanbul",
-  kaynak:"olay AÇIKÇA İstanbul'da geçiyor: Özdemir Paşa oraya çağrıldı ve siyaset orada kuruldu" },
 
 { dosya:"kronoloji_dogu_afrika.js", t:"1558-01-01",
   b:"Osmanlı ordusunun Tigre bölgesine hâkim olması",
@@ -226,13 +178,8 @@ window.YER_YAMA_DOGAFR = [
 
 { dosya:"kronoloji_dogu_afrika.js", t:"1579-01-01",
   b:"Addi Karro Muharebesi — Osmanlı yenilgisi ve toprak kaybı",
-  bulunamadi:true,
-  not:"TDV `habes-eyaleti` \"Tigre toprakları üzerinde Addi Karro denilen yer\" diyor; Addi Karro ne havuzda ne GeoNames'te bulundu. ARANDI, BULUNAMADI." },
-
-{ dosya:"kronoloji_dogu_afrika.js", t:"1589-01-01",
-  b:"Osmanlı-Habeşistan dostluğunun sona ermesi",
-  yer_id:"Masavva",
-  kaynak:"ilişkiyi yürüten merci Habeş Eyaleti beylerbeyiliğidir, merkezi Masavva" },
+  eksik_nokta:{ ad:"Addi Karro", enlem:null, boylam:null,
+    kaynak:"bulunamadı — TDV `habes-eyaleti` \"Tigre toprakları üzerinde Addi Karro denilen yer\" diyor; Addi Karro ne havuzda ne GeoNames'te bulundu. ARANDI, BULUNAMADI." } },
 
 { dosya:"kronoloji_dogu_afrika.js", t:"1626-01-01",
   b:"Kral Susenyos'un Katolikliğe geçmesi",
@@ -244,25 +191,10 @@ window.YER_YAMA_DOGAFR = [
   eksik_nokta:{ ad:"Danqaz", enlem:12.467, boylam:37.617,
     kaynak:"GeoNames `Danqaz`, Amhara (N 12°28′00″ / E 37°37′00″). Susenyos'un otağı ve Gondar'dan (1636) önceki kraliyet merkezi. Gondar'a bağlamak ANAKRONİK olurdu — şehir bu olaydan sonra kuruldu." } },
 
-{ dosya:"kronoloji_dogu_afrika.js", t:"1872-01-01",
-  b:"IV. Yohannes'in İngiliz desteğiyle imparator olması",
-  yer_id:"Aksum",
-  kaynak:"IV. Yohannes Ocak 1872'de AKSUM'da taç giydi (Bahru Zewde, A History of Modern Ethiopia). TDV yalnız yılı veriyor" },
-
 { dosya:"kronoloji_dogu_afrika.js", t:"1872-01-02",
   b:"Hidiv İsmâil Paşa'nın Mavi Nil kaynaklarını ilhak teşebbüsünün başarısızlığı",
   kapsam_genis:true,
   not:"Mavi Nil'in KAYNAK BÖLGESİNİ ilhak teşebbüsü — tek noktaya sığmaz" },
-
-{ dosya:"kronoloji_dogu_afrika.js", t:"1886-01-01",
-  b:"Dehlek adalarının İtalya tarafından işgali",
-  yer_id:"Dahlak",
-  kaynak:"havuzda `Dahlak` VAR" },
-
-{ dosya:"kronoloji_dogu_afrika.js", t:"1887-01-01",
-  b:"İtalya-Etiyopya çatışması ve İtalyan birliklerinin yenilgisi",
-  yer_id:"Masavva",
-  kaynak:"⚠️ çatışma Masavva'ın hinterlandındaki yolda (Dogali) oldu; TDV Dogali adını VERMİYOR, o yüzden TDV'nin verdiği çerçeve olan Masavva'ya bağlandı" },
 
 { dosya:"kronoloji_dogu_afrika.js", t:"1889-05-02",
   b:"Wichale (Uccialli) Antlaşması — Menelik'in İtalya ile anlaşması",
@@ -274,20 +206,10 @@ window.YER_YAMA_DOGAFR = [
   eksik_nokta:{ ad:"Adva (Adwa)", enlem:14.163, boylam:38.899,
     kaynak:"GeoNames `Adwa`, Tigray (N 14°09′48″ / E 38°53′57″). Britannica `Adwa`: \"Aksum ile Adigrat arasındaki doğu-batı karayolu üzerinde\". Havuzda YOK — bu, ilk turda bildirdiğim en önemli nokta eksiğidir." } },
 
-{ dosya:"kronoloji_dogu_afrika.js", t:"1889-01-01",
-  b:"Menelik'in Kudüs'teki kilise meselesiyle Osmanlı hükümetine heyet göndermesi",
-  yer_id:"Kudüs",
-  kaynak:"olayın KONUSU Kudüs'teki kilisedir; heyet o mesele için gönderildi" },
-
 { dosya:"kronoloji_dogu_afrika.js", t:"1896-03-01",
   b:"Adva Muharebesi — İtalya'nın yenilgisi ve Etiyopya bağımsızlığının korunması",
   eksik_nokta:{ ad:"Adva (Adwa)", enlem:14.163, boylam:38.899,
     kaynak:"GeoNames `Adwa`, Tigray (N 14°09′48″ / E 38°53′57″). Britannica `Adwa`: \"Aksum ile Adigrat arasındaki doğu-batı karayolu üzerinde\". Havuzda YOK — bu, ilk turda bildirdiğim en önemli nokta eksiğidir." } },
-
-{ dosya:"kronoloji_dogu_afrika.js", t:"1513-01-02",
-  b:"Portekizlilerin Dehlek'e çıkışı",
-  yer_id:"Dahlak",
-  kaynak:"havuzda `Dahlak` VAR" },
 
 { dosya:"kronoloji_dogu_afrika.js", t:"1822-01-01",
   b:"Toro Krallığı'nın Bunyoro'dan ayrılması",
