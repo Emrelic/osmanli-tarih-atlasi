@@ -38777,5 +38777,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1178",
+  "zaman": "2026-08-23 17:24",
+  "kimden": "KOORDINATOR",
+  "kime": "SONNET HAZIR KITA 77",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET 0029 / H-0002 — Germiyanogullari iki kopuk parca Emre: \"bu tarihte germiyanogullari beyliginin boyle iki birbirinden kopuk parcada olup olmadigini arastir ... komsu beylikler ile birlikte onunu ardini arastirsin ve bu gorunumun acaba VORONOI yada PETEK yapisindan kaynaklanip kaynaklanmadigini netlestirelim.\" Gorseller: C:\\Users\\emrem\\OneDrive\\Desktop\\ClaudEmre\\kutu\\giden\\parti-emrelic-0029\\H-0002-1.png · H-0002-2.png ## 🟢 SANA BIR BASLANGIC — BU SORU DAHA ONCE SORULDU `parti-emrelic-0008` / `H-0001` cevabinda su yaziyor: \"Germiyan IKI PARCA gorunumu GERCEK ve veriden geliyor\" ⇒ Yani bir onceki tur bunu ZATEN olcmus. SENIN ISIN sifirdan arastirmak DEGIL: o hukmu DOGRULAMAK ya da CURUTMEK, ve Emre'nin asil sorusuna cevap vermek — \"voronoi/petek yapisindan mi?\" ⚠️ Once o cevabi OKU: C:\\Users\\emrem\\OneDrive\\Desktop\\ClaudEmre\\kutu\\giden\\parti-emrelic-0008\\CEVAP.json icinde `maddeler.H-0001.not` ## OLCULECEK UC SEY ① Germiyan'in o tarihteki noktalari: hangileri, nerede, kime ait ② Iki parca arasinda kalan noktalar KIMIN? Eger baska bir beyligin noktasi araya giriyorsa KOPUKLUK GERCEKTIR — beylikler ic ice gecmis olabilir, bu Anadolu'da normaldir. ③ Yoksa arada NOKTA YOK MU? O zaman `§2` emilmesi: bosluk en yakin petege gidiyor ve gorunumu O belirliyor. Ikisi FARKLI kusur ve careleri TERS: birincide veri dogru, ikincide yeni nokta gerekiyor. ## KOMSULARI DA OL C Emre \"komsu beylikler ile birlikte onunu ardini\" diyor: Karesi · Saruhan · Aydin · Hamid · Karaman · Candar. Germiyan'in sinirlari onlarla TANIMLANIYOR. ## ORTAK KURALLAR 🔴 ILK SORU \"bu kusur var mi\" DEGIL, \"bu sikayet HALA GECERLI Mi\". `git log --oneline -30` — 10 saniyelik is. Bu projede olculmus zarar: bir sikayetin duzeltmesi sikayetten YIRMI IKI DAKIKA sonra inmisti. 🔴 KAYNAK — §4 KIRMIZI CIZGI. TDV once; HTTP 302 = madde YOK, 200 da yetmez, ICERIGI OKU. Dar slug tutmazsa KAPSAYICI maddeyi dene. TDV disinda YALNIZ akademik/bilimsel. Forum, blog, icerik ciftligi, kaynaksiz derleme site KULLANILMAZ. Vikipedi tek dayanak degil. Bulamadigini `bulunamadi` diye YAZ. ⚠️ VE YENI: ARAMA OZETI BIR KAYNAK DEGIL, BIR IDDIADIR. Ozet bir yayina ATIF veriyorsa ATIF DA dogrulanir — dun bir oturum, ozetin gercek bir dergiye (Central European History 57/2) uydurdugu bir cumleyi tam metni cekerek CURUTTU. 🔴 VERIYE YAZMA. Olc, rapor et; duzeltmeyi ben uygularim (§7). Kayit onerirsen TAM HALINI yaz. 🔴 RAPORDA olctugun ile ondan CIKARDIGIN HUKUM AYRI SATIR olsun. Tek satirda birlesince cikarim, olcumun guvenilirligini odunc alir. ⚠️ Aksaklik cikarsa BEKLETME, hemen yaz (§7.1 ⑥).",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
