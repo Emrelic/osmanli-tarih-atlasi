@@ -38964,5 +38964,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1188",
+  "zaman": "2026-08-23 23:43",
+  "kimden": "KOORDINATOR",
+  "kime": "SONNET HAZIR KITA 72",
+  "kimden_kimlik": "",
+  "mesaj": "YENI IS — UC HARITA KUSURU (renk · Hamid · Nis) H-0001 \"bu KOYU KIRMIZI renk sebebi nedir acaba BIZANS MAVISI uzerine ...\" (1 gorsel: C:\\Users\\emrem\\OneDrive\\Desktop\\ClaudEmre\\kutu\\giden\\parti-emrelic-0030\\H-0001-1.png) ⇒ Bir renk/katman ortusmesi. `arac/renkler.py` (BOYALAR sozlugu) ve `js/app.js`teki katman sirasi (vassal-dolgu, devlet-dolgu, isgal ortusu) OKUNACAK. Uc katman ust uste binebiliyor. ⚠️ `renk_olc.py` ZATEN bir denetim: kos ve ciktisina bak. \"0 cakisma\" diyorsa kusur renkte DEGIL KATMAN SIRASINDA olabilir. H-0012 \"HAMID ILININ ISPARTANIN PARA ILE ALINMASI maddesinde isparta...\" (1 gorsel) ⇒ Hamidoglu'ndan satin alma (1381 civari). Isparta ve cevresinin o tarihteki sahipligini kaynaktan dogrula. H-0017 \"osmanli NISI ALMIS ama burada bir SIRBISTAN TOPRAGI KALMIS gibi...\" (1 gorsel) ⇒ §2 emilme adayi: Nis alinmis ama cevresinde nokta yoksa komsu petek Sirbistan boyar. VEYA gercekten bir Sirp kaydi kalmistir. IKISINI AYIR. ## TESLIM YAZACAGIN : data/yer_yama_anadolu2.js DEGISKEN : window.YER_YAMA_ANADOLU2 H-0001 icin yama DEGIL rapor: hangi katman/renk, hangi kayit. ## ORTAK KURALLAR — hepsi olculmus derslerden 🔴 ILK SORU \"bu kusur var mi\" DEGIL, \"bu sikayet HALA GECERLI Mi\". `git log --oneline -30` — 10 saniye. Bu projede bir sikayetin duzeltmesi sikayetten YIRMI IKI DAKIKA sonra inmisti. 🔴 KAYNAK — §4 KIRMIZI CIZGI. TDV once; HTTP 302 = madde YOK, 200 da yetmez ICERIGI OKU. Dar slug tutmazsa KAPSAYICI maddeyi dene. TDV disinda YALNIZ akademik/bilimsel. Bulamadigini `bulunamadi` YAZ. ⚠️ ARAMA OZETI BIR KAYNAK DEGIL, BIR IDDIADIR — ozet bir yayina ATIF veriyorsa ATIF DA dogrulanir. Bir oturum, ozetin gercek bir dergiye uydurdugu cumleyi tam metni cekerek curuttu. 🔴 VERIYE/MOTORA YAZMA. Olc, rapor et; uygulamayi ben yaparim (§7). Kayit onerirsen TAM HALINI yaz. 🔴 RAPORDA olctugun ile ondan CIKARDIGIN HUKUM AYRI SATIR olsun. Tek satirda birlesince cikarim, olcumun guvenilirligini odunc alir. ⚠️ Aksaklik cikarsa BEKLETME, hemen yaz (§7.1 ⑥). ⚠️ Gorseller pahali (metnine gore ~30 kat) — yalniz metnin yetmedigi maddede ac.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
