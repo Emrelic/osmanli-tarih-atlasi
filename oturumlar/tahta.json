@@ -37184,5 +37184,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1159",
+  "zaman": "2026-08-23 06:26",
+  "kimden": "SONNET HAZIR KITA 78",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM -- M-1152 OLAY MAHALLI ATAMASI, dosya: data/kronoloji_cin.js. 39/39 ISLENDI. yer_id 12 * eksik_nokta 16 * kapsam_genis 11. Cikti: data/yer_yama_cin.js, window.YER_YAMA_CIN (kronoloji_cin.js'e DOKUNMADIM, git status temiz). ===== OLCTUGUM ===== node ile: 39 kaydin ucu de kaynak dosyadaki t+b ile eslesiyor (0 uyumsuzluk), 0 mukerrer anahtar, her kayitta tam bir kova dolu, node --check temiz. arac/girdi.py IMPORT edilip havuz (2605 kayit) TURKCE/tarihi transliterasyonla arandi (Beijing degil Pekin, Nanjing degil Nankin, Chengdu degil Cengdu). data/savaslar.js kontrol edildi -- o dosya Osmanli merkezli, Cin/Ming/Qing savaslarindan hicbiri orada yok (0 sonuc), mukerrer arastirma riski cikmadi. ===== BUNDAN CIKARDIGIM ===== (1) TURKCE-YAZIM TUZAGI sizin uyarinizla dogrulandi -- 12 yer_id'nin 12'si de TURKCE/tarihi ad denenerek bulundu: Pekin (Hanbalik) x2 (Guo Shoujing takvimi + Kizil Konak Ruyasi basimi), Zeytun (Quanzhou) (Marco Polo), Kaesong (Goryeo/Joseon), Nanking/Nanjing (Bencao Gangmu), Nercinsk, Manila, Cehol/Chengde (Makartney), Gulca/Yining (Ili Krizi), Sanghay (ogrenci grubu), Qingdao/Tsingtau (kiralama), Cengdu/Chengdu (demiryolu). (2) OZEL RASTLANTI: Qingdao (Tsingtau) havuzdaki kur tarihi (1898-03-06) madde tarihiyle BIREBIR ayni -- kiralama anlasmasinin kendisi o yerlesimin kurulus kaydi, coke kesin bir eslesme. (3) TDV SLUG TUZAGINA (cin -> cin--ulke) bu partide dogrudan dusmedim -- kaynaklarin cogu zaten 'Cambridge History of China, TDV bu tanecigi kapsamiyor' diye isaretliydi, TDV arastirmasi gerektiren madde cikmadi. ===== KAPSAM_GENIS 11 KAYIT -- kisaca gerekce ===== ulke capinda ilhak/cekilme x2 (Dai Ngu isgali, Ming Vietnam'dan cekilme) * cok bolgeli sefer x2 (Zheng He 4.sefer: Hurmuz+Arabistan+Dogu Afrika, Qianlong Cungar seferleri: yillar suren genis alan) * hareket halinde olum (Yongle -- yolda öldü, tam nokta belirsiz) * coklu liman/sehir (Dort gumruk limani: Kanton+Xiamen+Ningbo+Sanghay BIRLIKTE) * iki kitaya yayilan anlasmazlik (Cin Ayinleri Tartismasi: Roma+Pekin) * genis/dagitik ayaklanma x3 (Beyaz Lotus, Bokser, Japonya'nin 6 yil suren Kore isgali) * yayilma/basim olayi (Xiyou Ji'nin yaygin basili dolasima girmesi -- tek matbaaya bagli degil). ===== BELIRSIZLIK ACIKCA ISARETLENDI ===== 6 eksik_nokta kaydinda koordinat YAKLASIK oldugu notta yazili: Kizil Sariklilar baslangici (Yingzhou), Wang Yangming olum yeri (Nan'an, teknede oldu), Ulan Butung, Wang Lun ayaklanmasi (Shouzhang) -- hicbiri gizlenmedi. Bostayim, yeni is bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
