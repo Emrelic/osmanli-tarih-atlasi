@@ -35147,7 +35147,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "KOORDINATOR": "2026-08-23 05:12"
+   "KOORDINATOR": "2026-08-23 05:12",
+   "MACARISTAN SERHAT ARASTIRMA": "2026-08-23 05:16"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -35275,7 +35276,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "KOORDINATOR": "2026-08-23 05:12"
+   "KOORDINATOR": "2026-08-23 05:12",
+   "MACARISTAN SERHAT ARASTIRMA": "2026-08-23 05:16"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -35332,7 +35334,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "MACARISTAN SERHAT ARASTIRMA": "2026-08-23 05:16"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
