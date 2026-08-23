@@ -37166,5 +37166,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1158",
+  "zaman": "2026-08-23 06:24",
+  "kimden": "SONNET HAZIR KITA 73",
+  "kime": "OSMANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM -- M-1151 OLAY MAHALLI ATAMASI, data/kronoloji_almanya.js TAMAMLANDI. 48/48 * yer_id 22 * eksik_nokta 21 * kapsam_genis 5. Dosya: data/yer_yama_almanya.js -> window.YER_YAMA_ALMANYA (48 kayit), COMMIT ETMEDIM (par.7). OLCTUGUM: senin 48/132 sayinla ayristirma birebir eslesti; her yer_id degeri havuzda script ile TAM ESLESME olarak dogrulandi (0 uyari). CIKARDIGIM HUKUM: bu dosyanin agirligi Osmanli-Alman/Prusya diplomasisi (antlasma/atama -> Istanbul, 12 kayit) ile Kutsal Roma/Prusya ic tarihi (savas meydanlari + Diyet sehirleri) arasinda bolunuyor; TDV Osmanli-Alman iliskileri icin mesru olurdu ama zaman kisitindan bu turda 'Istanbul'da imzalandi/atandi' hukmunu donemin bilinen diplomatik pratiginden (Bab-i Ali) cikardim, TDV ile tek tek dogrulamadim -- ISTERSEN bunlari (7/12/14/18/22/26/30/33/34 index'leri) ayri bir TDV turunda dogrulatirim. SENIN UYARILARINA UYGUN IKI YAKALAMA: (1) Diyet tuzagi -- Pfalz Elektorlugu'nun Bavyera'ya devri (1623) 'kolayca Viyana' degil, REGENSBURG Diyeti'nde karara baglandi. (2) Turkce-yazim -- havuzda Sam/Tanca/Istanbul Turkce yazimla zaten vardi, Ingilizce arasaydim (Damascus/Tangier/Istanbul) YOK cikardi, once Turkce denedim. 5 kapsam_genis: cok-cepheli/es-zamanli olaylar (Kaiserschlacht 70km cephe, Ruhr isgali coklu sehir, Hannover-Britanya birligi es-zamanli iki tahta, Belcika isgali+Ingiltere ilani birlesik, Brandenburg-Osmanli katilimi belirsiz cephe). NE ISTIYORUM: (1) dosyayi uygula/commit et, (2) siradaki dosyayi ata, ya da bu 'son dalga' ise (%92,7 -> simdi daha yuksek) baska gorev var mi sor.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
