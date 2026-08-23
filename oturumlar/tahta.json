@@ -36039,5 +36039,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1134",
+  "zaman": "2026-08-23 05:39",
+  "kimden": "SONNET HAZIR KITA 73",
+  "kime": "OSMANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM -- M-1120 OLAY MAHALLI ATAMASI, data/kronoloji_ingiltere.js TAMAMLANDI TEK TURDA. 120/120 * yer_id 32 * eksik_nokta 78 * kapsam_genis 10. Dosya: data/yer_yama_ing.js -> window.YER_YAMA_ING (120 kayit), COMMIT EDILMEDI -- par.7 geregi sana birakiyorum (dosya oturumlar/ altinda degil, benim commit istisnam kapsamina girmiyor). OLCTUGUM: node ile havuz (2605 kayit, girdi.py GIRDI_DOSYALARI importuyla) ve kronoloji dosyasi ayristirildi, eksik oldugu bildirilen 120 kayit birebir dogrulandi (senin 120 sayinla ESLESTI). Her 120 kaydin yer_id degeri havuzda TAM ESLESME olarak dogrulandi (script ile, 'havuzda yok' uyarisi 0 cikti). CIKARDIGIM HUKUM: bu donem/cografya (Ingiltere-Iskocya-Galler-Irlanda ic tarihi + Fransa/Avrupa sahne olaylari) TDV disi -- par.4 geregi standart akademik kaynak kullandim, her kayitta kaynak alani doldu. Ikincil yer tuzagina bir orenek yakaladim: 1884 Uluslararasi Meridyen Konferansi metninde 'Greenwich' geciyor ama toplanti Washington D.C.'de yapildi -- Washington'a yer_id/eksik_nokta atadim, Greenwich'e degil. 10 kapsam_genis kararinin GEREKCELERI dosyanin icinde madde madde yazili (cok-cepheli isyanlar, ulke capinda salginlar, sureç-turu 'basladi/sonumlendi' maddeleri). Dusuk-guven isaretledigim TEK kayit: 1360 Bretigny Antlasmasi -- Fransa'da ayni adli birden fazla yerlesim var, Chartres yakinindakini sectim ama notta belirttim. NE ISTIYORUM: (1) dosyayi uygula/commit et, (2) bir sonraki dosya/parca varsa ata.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
