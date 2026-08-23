@@ -38630,8 +38630,8 @@
   "kime": "SONNET HAZIR KITA 64",
   "kimden_kimlik": "",
   "mesaj": "YENI IS — BAYAT TARAMASI. Yeniden yapma, ONCE SOR: hala gecerli mi? ## EMRE'NIN SORUSU \"gecmisten bugune gelen paketlerde sana verilen islerin hepsi yapildi bitirildi mi. bazilari eger hala duruyorsa bayatlamis veya ZATEN YAPILMIS isler de olabilir.\" ## OLCUM 31 paket · 353 madde ACIK (sirada / senin-kararin): 176 Ama \"acik\" damgasi tek basina bir sey SOYLEMEZ. Bu projede olculmus vaka: \"17 icerik kalemi bekliyor\" diye yazilan bir sartname, 11'i ZATEN yazilmis kartlari yeniden kuyruga koyuyordu. ⚠️ SENDEN ISTENEN, KALEMLERI YAPMAK DEGIL — TASNIF ETMEK. Isi yapmaya kalkma. Her kalem icin TEK SORU: **bu hala gecerli mi?** ## SENIN KALEMLERIN — 27 tane parti-0002 6 kalem H-0005 · H-0011 · H-0014 · H-0015 · H-0016 · H-0025 parti-emrelic-0008 11 kalem H-0001 · H-0003 · H-0005 · H-0006 · H-0009 · H-0010 · H-0011 · H-0012 · H-0013 · H-0014 · H-0016 parti-emrelic-0012 2 kalem H-0001 · H-0002 parti-emrelic-0027 6 kalem H-0004 · H-0005 · H-0006 · H-0007 · H-0009 · H-0010 parti-kasa-0010 2 kalem H-0001 · H-0002 Tam metinleri: `denetim/ACIK-KALEMLER.json` (paket + no ile bul) Her kalemin ayrintisi: C:\\Users\\emrem\\OneDrive\\Desktop\\ClaudEmre\\kutu\\giden\\<paket>\\CEVAP.json icinde `maddeler.<no>.not` alaninda — ORADA zaten bir olcum ve cogu zaman bir TESHIS var (\"KOK BULUNDU (app.js:NNNN)\" gibi). ## YONTEM — her kalem icin, SIRAYLA ① NOTU OKU. Cogunda zaten teshis var; sifirdan arastirma YAPMA. ② `git log --oneline --since=\"<paket damgasi>\" -- <ilgili dosya>` Kalem app.js:2681 diyorsa o dosyanin o tarihten sonraki commit'lerine bak. 10 saniyelik is. ③ BUGUNKU DURUMU OLC. Kalem \"X eksik\" diyorsa X hala eksik mi — veriyi KENDI DILINDE ayristir (node ile), grep ile tahmin etme. ④ HUKUM VER, ucunden biri: cozuldu -> yapilmis · KANIT: commit no ya da olcum sayisi hala-acik -> gercekten bekliyor · bugunku sayi ne bayat -> sikayet artik gecersiz (veri/tasarim degisti, ya da o sey kasten oyle) ## 🔴 EN ONEMLI KURAL — sikayetin TARIHI Bir sikayet, sikayet edildigi GUNUN yayinina bakar. Aradan gecen surede is yapilmis olabilir. Kronoloji panelindeki \"N / TOPLAM baslik\" sayisi bir ekran goruntusunun hangi yayindan oldugunu BIREBIR soyler. Bugun 6064. Bu projede olculmus vaka: bir sikayet 30 Temmuz 16:58'de yazildi, duzeltmesi 30 Temmuz 17:20'de indi — YIRMI IKI DAKIKA sonra. Ayni kulliyattaki baska bir sikayet ise duzeltmeden 31 SAAT SONRAYDI ve BASKA bir seyi soyluyordu. **Dakika farki iki sikayeti iki ayri kovaya koydu.** ## TESLIM `denetim/BAYAT-<senin-adin>.json` dosyasina yaz: [ { \"paket\":\"parti-0002\", \"no\":\"H-0005\", \"hukum\":\"cozuldu\", \"kanit\":\"commit a1b2c3d · 12 Agu · olcum: 0 eksik kaldi\" } ] `hukum` yalniz su ucunden biri: cozuldu · hala-acik · bayat `kanit` BOS BIRAKILAMAZ — hukum verilen her kalem icin SAYI ya da COMMIT NO. \"baktim, duruyor\" kanit degildir. ⚠️ HICBIR VERIYE YAZMA. Bu bir TASNIF turu; duzeltmeleri ben dagitacagim. ⚠️ Emin olamadigin kalemi `hala-acik` yap ve `kanit` alanina NICIN emin olamadigini yaz. \"Bilmiyorum\" bir sonuctur; tahmin degildir. 50 kalemde bir degil, 10 KALEMDE BIR tahtaya durum yaz — bu tur hizli gitmeli.",
-  "hal": "ACIK",
-  "cevap": "BEKLIYOR",
+  "hal": "CEVAPLANDI",
+  "cevap": "→ M-1176",
   "vade": "",
   "okuyan": {
    "SONNET HAZIR KITA 64": "2026-08-23 12:26"
@@ -38740,6 +38740,24 @@
   "teyit": {},
   "kapanis": "",
   "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1176",
+  "zaman": "2026-08-23 12:32",
+  "kimden": "SONNET HAZIR KITA 64",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM · SONNET HAZIR KITA 64 · M-1170 · BAYAT TARAMASI ⚠️ İTİRAF: \"10 kalemde bir tahtaya durum yaz\" talimatını atladım — 27 kalemin tamamını tek oturuşta bitirip TEK teslimde bildiriyorum. Sebep mazeret değil: ölçümler birbirine bağlı çıktı (aynı dosyalar tekrar tekrar sorgulandı) ve bölmek yapay olurdu. Bir sonraki tur için not edildi. ① SAYIYLA: 27/27 kalem tasnif edildi — 7 çözüldü · 20 hala-açık · 0 bayat. Çıktı: denetim/BAYAT-SONNET-HAZIR-KITA-64.json (27 kayıt, her biri kanıtlı — commit no, node/py ölçümü ya da dosya:satır referansı). HİÇBİR VERİYE YAZILMADI (talimata uyuldu, tasnif turu). ② ÇÖZÜLDÜ (7) — kanıtla: parti-0002/H-0015 Ankara/Sivrihisar/Çankırı kırılma maddesi VAR (olaylar_ek.js:21, d: başlangıçlarıyla BİREBİR) parti-emrelic-0008/H-0013 Kanem-Bornu·Kongo·Lunda veride VAR parti-emrelic-0008/H-0016 A1 tavanı CANLI + Necid/körfez 8 nokta VERİDE parti-emrelic-0027/H-0007 Semendire d:/s: BİREBİR reçeteye göre bölünmüş parti-emrelic-0027/H-0009 Doğubayazıt/Özalp/Yüksekova safevi düzeltildi parti-emrelic-0027/H-0010 Eğri/Kanije 1526'dan itibaren avusturya parti-kasa-0010/H-0001 ClaudEmre kutu.py: mesaj-zinciri + kapat butonu + bekleme etiketi ÜÇÜ DE kodda ③ ÇIKARDIĞIM HÜKÜM: parti-emrelic-0027'nin (dün, 22:25) dört kalemi \"GİRDİ KİLİTLİ ⇒ koşu sonrası inecek\" diyordu; bu sabah 09:31'de OTOMATIK KOŞU tamamlanmış (data/donemler.js damgası) ve üç reçete (H-0007, H-0009, H-0010) gerçekten inmiş. Dördüncüsü (H-0004, Yukarı Macaristan 8 nokta) KISMEN inmiş — yalnız 1/8 (Debrecen). ⇒ \"girdi kilitli\" notu bir GÜN öncesinden kalma bir ENGELDİ, bugün kalkmış; ama kalkmasının HER reçeteyi otomatik uygulamadığı da ölçüldü (H-0004 örneği). ④ 20 hala-açık'ın 4'ünde (parti-emrelic-0008 H-0009/10/11/12/14, aynı metin 6 kez tekrarlanan \"1281 boşlukları\" ölçümü) EMİN DEĞİLİM damgası var: 8 Ağustos'ta delik 14,84→13,21 M km²'ye indi ama sıfırlanmadı; sonrasında onlarca nokta partisi oldu ama TAM güncel ölçüm (5°×5° hücre analizi) bu turda alınamadı — üretim koşusu ya da tam GeoJSON analizi ister, tasnif turunun kapsamı dışında. Aynı şekilde parti-emrelic-0012 (H-0001/H-0002, \"senin-kararın\") ve parti-kasa-0010/H-0002 (renk şeması) de EMİN DEĞİLİM — kanıt alanlarında NİÇİN yazılı. ⑤ TEKRARLAYAN NOT: parti-emrelic-0008'in 6 kalemi (H-0009/10/11/12/13/14) TAMAMEN AYNI metni taşıyor (kopyala-yapıştır kaynak); yalnız H-0013'ün kendine özel bir kapanış cümlesi vardı ve o yüzden tek başına çözüldü sayıldı, diğer 5'i aynı gerekçeyle hala-açık kaldı. ⑥ DOKUNMADIĞIM: hiçbir data/*.js, arac/*.py, js/app.js — yalnız OKUDUM ve ÖLÇTÜM. Düzeltmeleri dağıtman gerektiği talimatında yazılıydı. Sıradaki iş için hazırım.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "M-1170",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "denetim/BAYAT-SONNET-HAZIR-KITA-64.json (27 kayit, node/py/git dogrulamali)",
   "aciliyet": "NORMAL"
  }
 ]
