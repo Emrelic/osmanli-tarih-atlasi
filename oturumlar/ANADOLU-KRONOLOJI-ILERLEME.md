@@ -102,3 +102,41 @@ yazılmasıyla yapıldı. Ajan çıktıları ham JSON olarak toplandı, sonra:
    `kronoloji_eslesme_yama.js` dosyasında geçici bir ayrıştırma hatasına
    çarpıp çöktü — BENİM dosyamla ilgisi yok, kendi doğrulamamı o dosyayı
    atlayan ayrı bir betikle tamamladım.
+
+---
+
+## İKİNCİ TUR — OLAY MAHALLİ ATAMASI (M-1131, 23 Ağustos 2026)
+
+Koordinatörden yeni görev: `data/kronoloji_anadolu.js`'teki 63 boş `yer_id`
+için (nokta-havuzunda-var / eksik-nokta-koordinat-bul / kapsam-genis-karar)
+üçlü sınıflandırma. Teslim: **data/yer_yama_anadolu.js → window.YER_YAMA_ANADOLU**,
+63/63 kayıt işlendi, 0 açık kaldı.
+
+```
+yer_id (nokta havuzda VAR)      8   Karaman · Kahire · Halep · Diyarbakır ·
+                                     Alaşehir · Karakurum ×2 · Humus
+eksik_nokta (koordinat BULUNDU) 21  Hasankeyf ×6 · Sis/Kozan ×5 · Silvan ×2 ·
+                                     Malazgirt · Suğdak · Mut · Kızıltepe ·
+                                     Kosova · Anazarva · Myriokephalon(yaklaşık) ·
+                                     Kösedağ(yaklaşık) · Turnadağ(savaslar.js'ten)
+kapsam_genis (tek noktaya sığmaz) 34  her birinde gerekçe `not:` alanında
+```
+
+**Metodoloji**: metinde açık yer adı geçmeyen olaylar (çoğu hükümdar
+ölümü/tahta çıkışı) TAHMİNLE bir başkente bağlanmadı — kapsam_genis'e
+gitti; §CLAUDE.md'nin "beylik başkent değiştirmiş olabilir, bugünkü bilinen
+merkez değil" uyarısı ciddiye alındı. `data/savaslar.js` önce kontrol edildi
+(Turnadağ ve I. Kosova zaten koordinatlıydı, oradan alındı — mükerrer
+araştırma yapılmadı). Üç tartışmalı savaş yeri (Myriokephalon, Kösedağ,
+Turnadağ öncesi kendi aramamda) WebSearch ile araştırıldı, akademik/haber
+kaynağı `eksik_nokta.kaynak` alanına açıkça yazıldı, kesin olmayanlar
+"YAKLAŞIK" diye işaretlendi.
+
+**Yan bulgu**: I. Kosova Savaşı (1389-06-15) için verdiğim koordinat
+`kronoloji_bizans.js` ve `kronoloji_sirbistan.js`'teki AYNI olayın da
+`yer_id:""` olduğunu ortaya çıkardı — üç dosyada birden aynı boşluk var,
+koordinatöre bildirildi.
+
+`node --check data/yer_yama_anadolu.js`: temiz. Anahtar bütünlüğü (dosya+t+b)
+kodla doğrulandı: yamadaki 63 kayıt kronolojideki 63 boş kayıtla birebir
+eşleşiyor, ne eksik ne fazla.
