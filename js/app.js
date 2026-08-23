@@ -5374,7 +5374,45 @@ function haritayiOlayaGotur(o, zorla) {
     var kenar = +document.getElementById("ayar-imparatorluk-pay").value;
     if (di >= 0 && donemler[di].b) {
       var b = donemler[di].b;
-      harita.fitBounds([[b[0], b[1]], [b[2], b[3]]], { padding: kenar, duration: 800 });
+      // 🔴 23 Ağustos, 0029 eki — İMPARATORLUK GÖRÜNÜMÜ ARTIK UÇUYOR.
+      // Emre: *"bu haritaya hem ANİ bir şekilde ÇAT DİYE geçiliyor …
+      // bu gösterim çat diye yapılmamalı. TIPKI UÇUŞ ANİMASYONUNDAKİ
+      // GİBİ haritada yavaş yavaş sürüklenerek yapılmalı."*
+      //
+      // KÖK SEBEP BU GECEKİ UÇUŞ KUSURUNUN AYNISIYDI: eski çağrı
+      //     fitBounds(..., { padding: kenar, duration: 800 })
+      // `duration` taşıyor AMA `essential: true` YOK. `prefers-reduced-
+      // motion` açıkken MapLibre animasyonu TAMAMEN ATLAR ve ışınlar.
+      // O kusur bu gece UÇUŞ dalında bulunup düzeltilmişti; bu dal
+      // ATLANMIŞTI.
+      // 📌 Ders: bir düzeltme, aynı kusurun BÜTÜN dallarında aranmalı.
+      //    Tek dal düzelince öteki sessizce kalıyor ve daha geç bulunuyor.
+      //
+      // ⇒ Ayrı bir animasyon YAZILMADI: `cameraForBounds` ile sınır
+      //   merkez+zoom'a çevrilip AYNI `flyTo` yolundan geçiriliyor —
+      //   aynı süre fonksiyonu, aynı yay, aynı `essential` kapısı.
+      //   İki ayrı animasyon yolu olsaydı biri düzelirken öteki
+      //   bayatlardı (`§11`: bir bilgi iki yerde durursa ayrışır).
+      var _kam = null;
+      try {
+        _kam = harita.cameraForBounds([[b[0], b[1]], [b[2], b[3]]],
+                                      { padding: kenar });
+      } catch (e) { _kam = null; }
+      if (_kam && _kam.center) {
+        var _mc = harita.getCenter();
+        var _km = kmArasi(_mc.lat, _mc.lng,
+                          _kam.center.lat !== undefined ? _kam.center.lat : _kam.center[1],
+                          _kam.center.lng !== undefined ? _kam.center.lng : _kam.center[0]);
+        var _sr = ucusSuresiMs(_km);
+        harita.flyTo({ center: _kam.center, zoom: _kam.zoom,
+                       duration: _sr, curve: ucusYayi(_km), offset: [0, 0],
+                       essential: !!(ucusAcEl && ucusAcEl.checked) });
+      } else {
+        // `cameraForBounds` çözemezse eski yol — ama `essential` ile.
+        harita.fitBounds([[b[0], b[1]], [b[2], b[3]]],
+                         { padding: kenar, duration: 800,
+                           essential: !!(ucusAcEl && ucusAcEl.checked) });
+      }
       if (obYerYokEl) obYerYokEl.textContent = "📍 Bu olayın haritada nokta yeri yok — imparatorluk görünümüne geçildi.";
     } else if (obYerYokEl) {
       obYerYokEl.textContent = "📍 Bu olayın haritada yeri işaretlenmemiş.";
