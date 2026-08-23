@@ -375,8 +375,54 @@ yapılmıştı.
 
 `data/yer_yama.js`: **615 kayıt toplam**. Tam kapı sınaması: 0 hata.
 
+## Lehistan — kapsam ölçümü
+
+`kronoloji_lehistan.js`: kapsam ölçümü koordinatörün 67/140 sayısıyla
+BİREBİR tuttu. Başlık (b) taraması yapıldı: 7 aday bulundu, **6'sı ikincil
+yer tuzağı** ("Moskova" ×5 — rakip/hedef şehir, muharebe başka yerde;
+"Kamaniçe" ×1 — benzer sebep), **1'i güvenli** (Brest Birliği — doğrudan
+eşleşme). 1 kolay kayıt eklendi, 66 kayıt 2 paralel araştırma görevine
+(33+33) gönderildi.
+
+## 🟢 LEHİSTAN TAMAMLANDI — 67/67
+
+İki araştırma alt-görevi (33+33) tamamlandı, ikisi de `dogrula_sonuc.js`
+ile 0 hatayla doğrulandı (düzeltme gerekmedi), birleştirildi.
+
+```
+Lehistan toplam: 67/67
+  yer_id (kolay 1 + araştırma 8)   9
+  eksik_nokta                     55
+  kapsam_genis                     3
+```
+Kalite örnekleri:
+- **İkincil yer tuzağı doğru ayıklandı** (batch 1): "İkinci Toruń Barışı —
+  Gdańsk ve Kraliyet Prusyası kazanıldı" → Gdańsk havuzda VAR ama yalnız
+  kazanılan toprak; antlaşma (adı da "Toruń Barışı") Toruń'da imzalandı,
+  Toruń havuzda yok → doğru biçimde `eksik_nokta:{ad:"Toruń"}` seçildi.
+- **TDV tarihle birebir teyit**: "İlk Osmanlı-Lehistan barış antlaşması"
+  (1489-03-22) → TDV/genel akademik kaynak antlaşmanın 22 Mart 1489'da
+  İstanbul'da imzalandığını doğruluyor, kayıttaki tarihle GÜN GÜNÜNE
+  örtüşüyor → `yer_id:"İstanbul"`.
+- **Kişi/yer bağlamı doğru kuruldu**: Koszyce imtiyazı → `yer_id:"Kassa
+  (Košice)"` (Koszyce = Polonya kaynaklarındaki ad, bugünkü Košice);
+  Segedin barışı bozuldu → `yer_id:"Segedin (Szeged)"` (TDV
+  `varna-muharebesi` maddesinden).
+- **Taneciklik boşluğu açıkça işaretlendi**: Hmelnitski ayaklanması/Sarı
+  Sular (Zhovti Vody) — TDV'nin `kazaklar` maddesi bu olayı hiç
+  kapsamıyor, standart akademik kaynağa geçildi ve `kaynak:` alanına
+  açıkça yazıldı.
+- Ortaçağ Polonya sitelerinin (Gniezno, Grunwald, Lublin Birliği,
+  Krewo, Horodło, Nihil Novi/Radom, vb.) çoğu havuzda yok — hepsi
+  `eksik_nokta` olarak, koordinatlarıyla birlikte teslim edildi.
+
+`data/yer_yama.js`: **682 kayıt toplam** (615 + 67). Tam dosya kapı
+sınaması iki yönlü sınandı: ATEŞLEME 5/5 hata sınıfı yakalandı (çıkış 0),
+TEMİZ SINAMA 682 kayıt · 0 hata (çıkış 0).
+
 ## Durum
 **Tamamlanan: olaylar* (412) + İran (107) + Rusya (173) + Habsburg (52)
-= 744/1488 — YARISI GEÇİLDİ.**
-Sırada: **Lehistan**. Kapsamını ölçüp devam ediyorum.
++ Lehistan (67) = 811/1488.**
+Sırada: **Venedik**. Önce `kronoloji_venedik.js` dosya adı/varlığı
+doğrulanacak (koordinatör: "dosya adını sen bul").
 `kronoloji_sirbistan.js` sorusu hâlâ cevapsız — dokunmuyorum.
