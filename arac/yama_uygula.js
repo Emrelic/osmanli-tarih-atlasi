@@ -41,6 +41,14 @@ const VERI = path.join(KOK, "data");
 const KURU = process.argv.indexOf("--yaz") === -1;
 
 // ---- yama dosyalarini bul ----
+// 🔴 24 Agustos 2026 — BU KALIBA YALNIZ YAMA KOYULUR, RAPOR KOYULMAZ.
+// Iki teshis raporu `data/yer_yama_rumeli.js` ve `..._anadolu2.js` adiyla
+// yazildi (koordinatorun sevk hatasi). Ikisi de basliginda "bu bir OLCUM
+// RAPORUDUR" diyordu, ama ad kalibi bunu soylemiyor — ve arac ad kalibina
+// bakiyor. 9 kaydin 9'unda `dosya` alani yoktu; anahtar `undefined|t|b`
+// oldu ve hepsi "MUKERRER, AYNI HUKUM ⇒ ZARARSIZ" diye raporlandi.
+// ⇒ Raporlar `denetim/` altina tasindi; asagidaki kova da tekrarini
+//   onlemek icin eklendi (yalniz tasimak, bir dahakini onlemezdi).
 const yamaDosyalari = fs.readdirSync(VERI)
   .filter(f => /^yer_yama.*\.js$/.test(f))
   .sort();

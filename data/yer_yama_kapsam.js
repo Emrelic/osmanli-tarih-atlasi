@@ -30,8 +30,7 @@ window.YER_YAMA_KAPSAM = [
   kapsam_genis:true, not:"DEVLET: osmanli — ama coğrafî olarak DİFÜZ: kaynak Kafkasya/Kırım, hedef Osmanlı'nın çok sayıda Karadeniz+Rumeli limanı (Trabzon, Samsun, Varna, Köstence...), madde metninin kendisi 'bu göç dalgası 1877-78'e kadar sürdü' diyor -- yıllarca süren çok noktalı bir süreç, tek nokta yok. Tetikleyici olay (Şeyh Şâmil'in esir düşmesi) Gunib'de (Dağıstan) oldu ama maddenin konusu esir düşme değil GÖÇ olduğu için Gunib'i zorlamadım." },
 
 { dosya:"olaylar_ek10.js", t:"1877-04-24", b:"Rusya'nın savaş ilânı — Doksanüç Harbi'nin başlaması",
-  eksik_nokta:{ ad:"Kişinev (Chișinău)", enlem:47.0105, boylam:28.8638, kaynak:"standart akademik kaynak — TDV doksanuc-harbi maddesi ilan yerini belirtmiyor (dış kaynak kullanıldığını açıkça belirtiyorum); Çar II. Aleksandr savaş beyannamesini birliklerini denetlediği Kişinev'de (Besarabya) okuttu, 24 Nisan 1877 — madde tarihiyle birebir" },
-  not:"undefined" },
+  eksik_nokta:{ ad:"Kişinev (Chișinău)", enlem:47.0105, boylam:28.8638, kaynak:"standart akademik kaynak — TDV doksanuc-harbi maddesi ilan yerini belirtmiyor (dış kaynak kullanıldığını açıkça belirtiyorum); Çar II. Aleksandr savaş beyannamesini birliklerini denetlediği Kişinev'de (Besarabya) okuttu, 24 Nisan 1877 — madde tarihiyle birebir" } },
 
 { dosya:"olaylar_ek5.js", t:"1899-11-27", b:"Konya-Bağdat hattı imtiyazının Almanlara verilmesi",
   yer_id:"İstanbul", kaynak:"madde metni: imtiyaz Osmanlı hükümetince (Bâb-ı Âlî, İstanbul) Anadolu Demiryolu Şirketi'ne verildi" },
