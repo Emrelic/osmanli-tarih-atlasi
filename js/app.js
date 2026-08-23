@@ -411,9 +411,27 @@ function etiketleriYerlestir() {
   // böylece adalar ve koloniler yakınlaşınca adlarını gösterir.
   var esik = 0.55 / Math.pow(2, z - 3);
   var yerlesen = [];
+  // 23 Agustos 2026 — GORUS ALANI KIRPMASI.
+  // OLCULDU (1281 kesiti, pencere Anadolu): 321 canli .devlet-etiket
+  // isareti vardi ve cogu ekranin disindaydi ("Yuan Hanedani" Cin'de).
+  // MapLibre HER Marker'i HER `move` olayinda yeniden konumlandirdigi
+  // icin bunlar kare basina odenen bir bedel — hicbiri gorunmuyor.
+  // PAY %20: kenardaki etiketin cakisma kutusu pencereyi asabilir; tam
+  // sinirdan kesilseydi kenar etiketleri yerlesim duzenine katilmaz ve
+  // ic taraftakiler yanlis yere otururdu.
+  var _ep = null;
+  try {
+    var _eb = harita.getBounds();
+    var _ex = (_eb.getEast() - _eb.getWest()) * 0.2;
+    var _ey = (_eb.getNorth() - _eb.getSouth()) * 0.2;
+    _ep = { b: _eb.getWest() - _ex, d: _eb.getEast() + _ex,
+            g: _eb.getSouth() - _ey, k: _eb.getNorth() + _ey };
+  } catch (eBnd) { _ep = null; }
   for (var i = 0; i < etiketAdaylari.length; i++) {
     var e = etiketAdaylari[i];
     if (e.alan < esik) continue;
+    if (_ep && e.c && (e.c[0] < _ep.b || e.c[0] > _ep.d
+                       || e.c[1] < _ep.g || e.c[1] > _ep.k)) continue;
     var pt = harita.project(e.c);
     // Punto gövde büyüklüğünden türer: "Mısır" ile "Ragusa" aynı boyutta
     // yazılmasın (md.21). Ayrı bir "büyük ülkeler listesi" tutulmuyor; sıra
@@ -1248,7 +1266,19 @@ harita.on("load", function () {
     lejantDugme.textContent = kapali ? "☰" : "×";
     lejantDugme.setAttribute("aria-expanded", String(!kapali));
   }
-  lejantDurum(localStorage.getItem("lejantKapali") === "1");
+  // 🔴 22 Ağustos 2026 — VARSAYILAN KAPALI. Emre: *"lejant penceresi de
+  // sürekli açık duruyor."* Ölçüldü: kutu **547×567 piksel** ve haritanın
+  // ortasını kaplıyor; 800 piksellik bir ekranda yarısından fazlası.
+  // Eski koşul `=== "1"` idi: kayıt YOKSA açık geliyordu, yani her yeni
+  // ziyaretçi haritayı örtülü görüyordu ve önce onu kapatması gerekiyordu.
+  // ⇒ `!== "0"`: kullanıcı BİR KEZ açtıysa açık kalır, hiç dokunmadıysa
+  //   KAPALI. Lejant bir başvuru aracıdır — lâzım olunca açılır, sürekli
+  //   durması gereken bir şey değil.
+  // 📌 Ve düğme yerinde duruyor (☰), yani özellik kaybolmuyor; yalnız
+  //   VARSAYILAN değişiyor. Bugünkü `ayar-yakinlik` vakasının tersi: orada
+  //   işe yaramayan bir denetim SİLİNDİ, burada işe yarayan bir denetimin
+  //   yalnız başlangıç hâli düzeltildi.
+  lejantDurum(localStorage.getItem("lejantKapali") !== "0");
   lejantDugme.addEventListener("click", function () {
     var kapali = !lejant.classList.contains("kapali");
     lejantDurum(kapali);
@@ -1389,8 +1419,26 @@ harita.on("load", function () {
   // Kare başına değil, kare sonunda: zoom olayı sürüklerken saniyede onlarca
   // kez ateşliyor ve yerleşim 61 bölge + ~86 gövde için DOM işareti kuruyor.
   var etiketBekleyen = 0;
+  var etiketBorcu = false;
   function etiketTazele() {
     if (etiketBekleyen) return;
+    // 23 Agustos 2026 — UCUS SIRASINDA ETIKET YERLESIMI YAPILMAZ.
+    // OLCULDU ve "surekli yuk" imzasinin ASIL kaynagi buydu:
+    //     harita.on("zoom", zoomSinifi)  ->  etiketTazele()
+    // Bir ucus zoom'u HER KARE degistirir, yani bu dal saniyede ~60 kez
+    // ateşliyordu ve her ateslemede IKI pahali is yapiyordu:
+    //     etiketleriYerlestir()  147 isaret SIL + YENIDEN KUR (DOM)
+    //     sehirGuncelle()        olculdu: 99-228 ms
+    // Yani ucusun kendisi degil, ucusun TETIKLEDIGI yeniden yerlesim
+    // is parcacigini dolduruyordu. Kare sayacinin %4'te takili kalmasinin
+    // sebebi buydu.
+    // VE yerlesim ucus sirasinda ZATEN GORUNMUYOR: harita-ucusta kurali
+    // butun isaretleri display:none yapiyor. Yani bu hesap kimsenin
+    // gormedigi bir sonuc icin yapiliyordu.
+    // => Askiya alinir, BORC yazilir, varista BIR KEZ odenir.
+    // OGRENILENLER: bir isi hizlandirmanin en ucuz yolu onu HIC YAPMAMAK;
+    // ama yapilmayan is KAYDEDILMEZSE kaybolur, o yuzden etiketBorcu.
+    if (KAMERA.olayBekliyor) { etiketBorcu = true; return; }
     etiketBekleyen = requestAnimationFrame(function () {
       etiketBekleyen = 0;
       if (!haritaHazir) return;
@@ -1403,6 +1451,15 @@ harita.on("load", function () {
     });
   }
   harita.on("zoom", zoomSinifi);
+  // Borc odeyici: ucus bitince disaridan cagriliyor. etiketTazele bu
+  // kapsamin ICINDE tanimli oldugu icin (kapanis) disariya ancak boyle
+  // acilabiliyor — ayri bir kopya yazmak yerine AYNI fonksiyon cagriliyor.
+  window.__etiketTazele = etiketTazele;
+  window.__etiketBorcuOde = function () {
+    if (!etiketBorcu) return;
+    etiketBorcu = false;
+    etiketTazele();
+  };
   window.zoomEsigi = zoomEsigi;
   zoomSinifi();
   guncelle();
@@ -1853,8 +1910,45 @@ function sehirGuncelle(t) {
   // aralarında da normal elenirler. Böylece `anilan` gerçekten koordinatöre
   // tarif ettiğim şey oluyor — ÖNCELİK YÜKSELTİCİ, muafiyet değil.
   var yerlesenSehir = [], anilanSehir = [], yaklasanSehir = [], asgariSehir = [];
+  // ═══════════════════════════════════════════════════════════════════════
+  // 🔴 GÖRÜNMEYEN ŞEHİR ELENİR — ölçülmüş darboğaz.
+  // Canlı ölçüm: `sehirGuncelle` 318-716 ms sürüyordu ve 2900 şehrin
+  // HEPSİNİ dolaşıyordu — ekranda bir avuç görünürken.
+  // Pencere + %60 pay dışındaki şehir için:
+  //   · dönem taraması yapılmaz (şehir başına O(dönem) döngü)
+  //   · DOM'a dokunulmaz
+  // ⚠️ AMA EKLİ OLANLAR KALDIRILIR: pencereden çıkan bir işaret ekranda
+  //   asılı kalırsa, kaydırdıkça hayalet birikir. Eleme "unutmak" değil
+  //   "temizleyip geçmek" olmalı.
+  // ⚠️ Pay %60: kamera hareket ederken kenardan girecek şehirler hazır
+  //   olsun diye. Sayı ÖLÇÜLMEDİ — dar gelirse işaretler geç belirir,
+  //   geniş gelirse kazanç azalır. Gözle ayarlanacak.
+  // 📌 Ve bu bir GÖRÜNÜM eleme, VERİ eleme DEĞİL: `sehirler` dizisi ve
+  //   `kayitlar` dokunulmadan duruyor; yalnız o an ÇİZİLMEYECEK olanın
+  //   hesabı atlanıyor.
+  var _gp = null;
+  try {
+    var _b = harita.getBounds();
+    var _dx = (_b.getEast() - _b.getWest()) * 0.6;
+    var _dy = (_b.getNorth() - _b.getSouth()) * 0.6;
+    _gp = { b: _b.getWest() - _dx, d: _b.getEast() + _dx,
+            g: _b.getSouth() - _dy, k: _b.getNorth() + _dy };
+  } catch (e) { _gp = null; }        // harita hazır değilse eleme YOK
+
   sehirOncelik.forEach(function (mi) {
     var m = sehirler[mi];
+    // ⚠️ Koordinat `m.s`te, `m`de DEĞİL — tarayıcıda doğrulandı.
+    // İlk yazımda `m.lon` yazmıştım: `undefined` olduğu için koşul hep
+    // yanlış çıkacak ve eleme SESSİZCE HİÇ ÇALIŞMAYACAKTI. Kod koşardı,
+    // denetim temiz derdi, kazanç sıfır olurdu.
+    // 📌 `§11`: sessiz atlama, yanlış sonuçtan zor bulunur — yanlış sonuç
+    // bir sayı gösterir, sessiz atlama HİÇBİR ŞEY göstermez.
+    var _sk = m.s;
+    if (_gp && _sk && (_sk.lon < _gp.b || _sk.lon > _gp.d
+                       || _sk.lat < _gp.g || _sk.lat > _gp.k)) {
+      if (m.ekli) { m.mk.remove(); m.ekli = false; }
+      return;
+    }
     var aktif = null;
     for (var i = 0; i < m.kayitlar.length; i++) {
       var r = m.kayitlar[i];
@@ -3927,11 +4021,37 @@ function guncelle() {
   // (`_AGIR.acik`), öteki zaman doğrudan çağrıya düşer, maliyeti YOK.
   // Kare sayacı "866 ms boşluk" diyor ama KİMİN bloklattığını söylemiyor;
   // bu satırlar onu adıyla söyleyecek. Beşinci turda tahmin yürütmüyorum.
+  // ═══════════════════════════════════════════════════════════════════
+  // 🔴🔴 KIRPMA SIRASINDA YALNIZ TOPRAK ÇİZİLİR — ÖLÇÜLMÜŞ DARBOĞAZ
+  //
+  // Canlı ölçüm (22 Ağustos 2026, Emre'nin ekranı, tek bir olay tıklaması):
+  //     sehirGuncelle  an  401 ms →  325 ms   ← gerçek tarih değişimi
+  //     sehirGuncelle  an 2568 ms →  716 ms   ← KIRPMA
+  //     sehirGuncelle  an 4220 ms →  591 ms   ← KIRPMA
+  //                                  ───────
+  //                                  1632 ms  (1307'si kırpmadan)
+  //
+  // Kırpma `tarihAyarla`yı dört kez çağırıyor ve her çağrı BÜTÜN çizim
+  // zincirini yeniden koşturuyordu. Oysa kırpmanın işi TEK BİR ŞEY:
+  // *"işte toprağın önceki hâli, işte sonraki."* Şehir işaretleri (2500+
+  // DOM düğümü), savaşlar, seferler, koridorlar, devirler, işgaller
+  // kırpmada DEĞİŞMEZ — yeniden kurulmalarının karşılığı YOK.
+  //
+  // ⚠️ `devirGuncelle` ve `isgalGuncelle` de KALIYOR: ikisi de toprak
+  // görünümünün parçası (devir = el değiştirme oku, işgal = taralı örtü)
+  // ve kırpmanın anlatmak istediği şeyin ta kendisi.
+  // 🔴 Dışarıda kalan dördü GÖRSEL OLARAK DEĞİŞMEZ ama 1300 ms yiyordu.
+  //
+  // 📌 `§11`in *"iki aşama arasındaki boşluk"* ailesinin yeni üyesi: kırpma
+  // DOĞRU çalışıyordu, çizim zinciri DOĞRU çalışıyordu — kusur, kırpmanın
+  // ihtiyacı olmayan bir zinciri çağırmasındaydı.
   agirOlc("devletGuncelle", function () { devletGuncelle(suanki); });
-  agirOlc("sehirGuncelle", function () { sehirGuncelle(suanki); });
-  agirOlc("savasGuncelle", function () { savasGuncelle(suanki); });
-  agirOlc("seferGuncelle", function () { seferGuncelle(suanki); });
-  agirOlc("koridorGuncelle", function () { koridorGuncelle(suanki); });
+  if (!_kirpmaKilitli) {
+    agirOlc("sehirGuncelle", function () { sehirGuncelle(suanki); });
+    agirOlc("savasGuncelle", function () { savasGuncelle(suanki); });
+    agirOlc("seferGuncelle", function () { seferGuncelle(suanki); });
+    agirOlc("koridorGuncelle", function () { koridorGuncelle(suanki); });
+  }
   agirOlc("devirGuncelle", function () { devirGuncelle(suanki); });
   agirOlc("isgalGuncelle", function () { isgalGuncelle(suanki); });
   // 🔴🔴 22 Ağustos 2026 — KIRPMA SIRASINDA PANEL DONDURULUYOR.
@@ -4142,7 +4262,26 @@ function baslikDamgala() {
 }
 
 harita.on("load", function () { tuvalOlc(); baslikDamgala(); });
-harita.on("moveend", function () { tuvalOlc(); baslikDamgala(); });
+harita.on("moveend", function () {
+  tuvalOlc(); baslikDamgala();
+  // 🔴 GÖRÜNÜM ELEMESİNİN ZORUNLU İKİNCİ YARISI.
+  // `sehirGuncelle` artık pencere dışındaki şehirleri atlıyor. Kaydırma
+  // ya da yakınlaşma pencereyi değiştirince, YENİ giren şehirlerin
+  // hesabı hiç yapılmamış olur ve ekranda BELİRMEZLER.
+  // ⇒ Eleme, tazeleme olmadan bir KUSURDUR: kazanç için görünürlüğü
+  //   feda etmiş oluruz.
+  // ⚠️ Kamera kilitliyken (uçuş · kırpma) ATLANIYOR: uçuşun her ara
+  //   `moveend`inde tam tarama koşmak, tam da kaçındığımız yükü geri
+  //   getirirdi. Uçuş bitince `_varista` zaten tazeliyor.
+  if (haritaHazir && !KAMERA.olayBekliyor) {
+    try { sehirGuncelle(suanki); } catch (e) { /* veri hazır değil */ }
+    // KIRPMANIN ZORUNLU IKINCI YARISI, ETIKET TARAFI. Devlet
+    // etiketleri de artik gorus alanina gore kirpiliyor; `zoom`
+    // olayi KAYDIRMADA atesLEMEZ, yani pan sonrasi disarida kalmis
+    // etiketler geri gelmezdi. Ustteki sehir dersinin aynisi.
+    try { if (window.__etiketTazele) window.__etiketTazele(); } catch (e2) { }
+  }
+});
 harita.on("zoomend", baslikDamgala);
 harita.on("resize", function () { tuvalOlc(); baslikDamgala(); });
 window.addEventListener("resize", function () { tuvalOlc(); baslikDamgala(); });
@@ -5268,6 +5407,9 @@ function haritayiOlayaGotur(o, zorla) {
       // ÖNCE — kırpma sırasında işaretler görünür olmalı.
       if (_hkap) _hkap.classList.remove("harita-ucusta");
       kameraCoz();                       // uçuş bitti — koruma kalkıyor
+      // SIRA ONEMLI: kameraCoz()tan SONRA. etiketTazele kilidi okuyor;
+      // once cagrilsaydi borcu YENIDEN yazar ve hic odenmezdi.
+      if (window.__etiketBorcuOde) window.__etiketBorcuOde();
       _varista();                        // kırpma kendi kilidini ALIYOR
     }
     harita.once("moveend", _varisBirKez);
