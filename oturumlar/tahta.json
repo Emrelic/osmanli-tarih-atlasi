@@ -38759,5 +38759,23 @@
   "kapanis": "",
   "dayanak": "denetim/BAYAT-SONNET-HAZIR-KITA-64.json (27 kayit, node/py/git dogrulamali)",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1177",
+  "zaman": "2026-08-23 17:23",
+  "kimden": "KOORDINATOR",
+  "kime": "OPUS HAZIR KITA 52",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET 0029 / H-0003 — EN ONEMLI MADDE. Opus verildi. Emre'nin kendi sozleri: \"osmanlinin ilk kurulusundaki topraklari boyle birbirinden kopuk iki parca olarak gorunuyor ... bu iki birbirine caprazlama satranc tahtasindaki capraz kare gibi TEK NOKTADAN BITISEN iki bolgeyi cografi yapi, koridor, topografya ile birbirine baglayabilirmiyiz. oradaki dag tepe nehir yapilarini ve kayitli yerlesimleri iyi etud et ... bu madde COK ONEMLI cunku imparatorlugun en basindaki hali boyle gozu kanatan sekilde gorunmemeli.\" Gorsel: C:\\Users\\emrem\\OneDrive\\Desktop\\ClaudEmre\\kutu\\giden\\parti-emrelic-0029\\H-0003-1.png ## EMRE'NIN KOYDUGU SINIR — bunu ASMA \"tarihi ve cografi idari gerceklere aykiri hareket etmeden\" ⇒ Iki parcayi birlestirmek icin veri UYDURULMAZ. Eger kaynak aradaki topragin Osmanli olmadigini soyluyorsa, KOPUKLUK DOGRUDUR ve hukum \"bu gorunum GERCEK\" olur. Emre'nin istedigi sey guzel bir harita degil, DOGRU bir harita — cumlesinde ikisini de soyluyor. ## UC AYRI SORU VAR, UCUNU AYIR ① KOPUKLUK GERCEK MI? 1281-1300 arasi Osmanli yerlesimlerini ve komsularini (Bizans · Germiyan · Karesi · Candar · Ahi) kaynaktan cikar. Sogut · Domanic · Bilecik · Inegol · Yenisehir · Karacahisar hangi tarihte kimde? ② KOPUKLUK VERIDEN MI MOTORDAN MI? `CLAUDE.md §2`: noktasi olmayan bolge en yakin petege EMILIR. Iki parca arasindaki bosluk NOKTASIZLIKTAN doguyor olabilir — o zaman care yeni NOKTA, sinir kaydirmak degil. ⇒ O kutuda bugun kac nokta var, sahipleri kim? node ile olc. ③ BAGLANABILIR MI? Emre koridor ve topografyayi isaret ediyor. Projede `data/koridor.js` (65 dugum) ve `data/gecitler.js` (63 gecit, HENUZ BAGLANMAMIS) var. Ikisini de OKU — istenen altyapi ZATEN VAR OLABILIR. Bu projede \"istenen seyin altyapisi zaten vardi\" vakasi BIR GUNDE BES KEZ yasandi. ## TESLIM Uc soruya uc ayri hukum. Nokta onerirsen: ad · lat · lon · kurulus · sahiplik donemleri · kaynak. 3 KM kurali: her yeni nokta icin bak. Degismez 2: yeni kirilma gunu yazacaksan cekirdekte (YALNIZ `data/olaylar*.js`) maddesi var mi diye ONCEDEN olc. ## ORTAK KURALLAR 🔴 ILK SORU \"bu kusur var mi\" DEGIL, \"bu sikayet HALA GECERLI Mi\". `git log --oneline -30` — 10 saniyelik is. Bu projede olculmus zarar: bir sikayetin duzeltmesi sikayetten YIRMI IKI DAKIKA sonra inmisti. 🔴 KAYNAK — §4 KIRMIZI CIZGI. TDV once; HTTP 302 = madde YOK, 200 da yetmez, ICERIGI OKU. Dar slug tutmazsa KAPSAYICI maddeyi dene. TDV disinda YALNIZ akademik/bilimsel. Forum, blog, icerik ciftligi, kaynaksiz derleme site KULLANILMAZ. Vikipedi tek dayanak degil. Bulamadigini `bulunamadi` diye YAZ. ⚠️ VE YENI: ARAMA OZETI BIR KAYNAK DEGIL, BIR IDDIADIR. Ozet bir yayina ATIF veriyorsa ATIF DA dogrulanir — dun bir oturum, ozetin gercek bir dergiye (Central European History 57/2) uydurdugu bir cumleyi tam metni cekerek CURUTTU. 🔴 VERIYE YAZMA. Olc, rapor et; duzeltmeyi ben uygularim (§7). Kayit onerirsen TAM HALINI yaz. 🔴 RAPORDA olctugun ile ondan CIKARDIGIN HUKUM AYRI SATIR olsun. Tek satirda birlesince cikarim, olcumun guvenilirligini odunc alir. ⚠️ Aksaklik cikarsa BEKLETME, hemen yaz (§7.1 ⑥).",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
