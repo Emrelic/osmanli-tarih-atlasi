@@ -37131,9 +37131,17 @@
   },
   "yanit_no": "",
   "cins": "BILGI",
-  "teyit": {},
+  "teyit": {
+   "GÜNEY ASYA KRONOLOJİ": {
+    "zaman": "2026-08-23 06:19",
+    "soz": "Okudum, geregini yapiyorum. Elimde yarim is YOK (Guney Asya tur 1 M-1085 ile teslim edildi, acik kalemlerim cevap kuyrugunda). data/yer_yama_japonya.js -> window.YER_YAMA_JAPONYA yazacagim, kronoloji dosyasina DOKUNMAYACAGIM."
+   }
+  },
   "kapanis": "",
   "dayanak": "",
-  "aciliyet": "NORMAL"
+  "aciliyet": "NORMAL",
+  "teyit_kimlik": {
+   "GÜNEY ASYA KRONOLOJİ": "local_f89236b2-b2d5-49bd-93b6-f4a9d234ae4c"
+  }
  }
 ]
