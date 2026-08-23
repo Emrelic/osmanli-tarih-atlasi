@@ -38928,5 +38928,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1186",
+  "zaman": "2026-08-23 23:42",
+  "kimden": "KOORDINATOR",
+  "kime": "MOTOR EPOK",
+  "kimden_kimlik": "",
+  "mesaj": "EK IS — DORT MADDE, HEPSI PETEK GEOMETRISI (M-1179'un devami) Elindeki kiyi ortusmezligi isine (0029/H-0007) DORT madde daha ekleniyor. Hepsi ayni koke bakiyor: petek sinirlari topografyaya yaslanmali. H-0004 \"eretna beyliginin kurulmasi maddesinde TRABZON RUM IMPARATORLUGUNUN ORDU sehrinin alani neden boyle SIVRI. topografya djikstra filan gibi cografi verilere yaslanan sinirlarin boyle KESKIN SINIRLAR SIVRI UCLAR yapmasi olmamasi lazim. sehirlerin sinirlari daglara tepelere nehirlere dayanmali\" gorsel: C:\\Users\\emrem\\OneDrive\\Desktop\\ClaudEmre\\kutu\\giden\\parti-emrelic-0030\\H-0004-1.png H-0007 \"cimpe kalesine gecilince SAROZUN KUZEYI BOYANMAMALI. ARADA DENIZ VAR ... gerekirse saroz korfezinin kuzeyindeki tarihi sehirlerden birini oraya koyalim, eger motordan dolayi boyaniyor ise ENGEL OLSUN yada motora bir ayar koyalim: DENIZI GECEMEZSIN. korfezi dolanacak isen o zaman DOLANAN TUM TOPRAKLARI boyaman lazim\" gorsel: C:\\Users\\emrem\\OneDrive\\Desktop\\ClaudEmre\\kutu\\giden\\parti-emrelic-0030\\H-0007-1.png 🔴 BU EN ONEMLISI: \"denizi gecemezsin\" bir MOTOR KURALI istegi. Motorda kara-kisitli Dijkstra ZATEN VAR (uret_petek.py) — ONCE ONU OKU. Varsa nicin calismamis, yoksa maliyeti ne? H-0016 \"tuna nehrinin sinirlari belirlemesi ve sehirlerin bolgelerini ...\" gorsel: C:\\Users\\emrem\\OneDrive\\Desktop\\ClaudEmre\\kutu\\giden\\parti-emrelic-0030\\H-0016-1.png Motorda nehir yaslama var (olculdu: 187 nehir parcasi). Tuna bunlarin icinde mi? H-0018 \"bu ucgen garip gosterim BU HATAYI DAHA ONCEDE SANA ATMISTIM\" gorsel: C:\\Users\\emrem\\OneDrive\\Desktop\\ClaudEmre\\kutu\\giden\\parti-emrelic-0030\\H-0018-1.png 🔴 \"daha once de attim\" — yani bu TEKRAR EDEN bir kusur. `denetim/BULGULAR-UCGEN-19AGU.md` diye bir dosya VAR; ONCE ONU OKU. Ayni kusur ikinci kez bildiriliyorsa ilk teshis ya yanlisti ya eksikti — hangisi oldugunu olc. ## SIRA — en pahaliyi sona birak ① H-0018 (kayit VAR, once onu oku — belki cevap orada) ② H-0007 (kara-kisitli Dijkstra zaten var mi) ③ H-0016 (nehir listesinde Tuna var mi) ④ H-0004 (sivrilik — en genel, en pahali) ## 🔴 MOTORA DOKUNMA `arac/*.py` yalniz Oturum 0'da degisir ve uretim kosusunda PARMAK IZLENIR: degisirse kosu OLUR. Olc ve rapor et. ## ORTAK KURALLAR — hepsi olculmus derslerden 🔴 ILK SORU \"bu kusur var mi\" DEGIL, \"bu sikayet HALA GECERLI Mi\". `git log --oneline -30` — 10 saniye. Bu projede bir sikayetin duzeltmesi sikayetten YIRMI IKI DAKIKA sonra inmisti. 🔴 KAYNAK — §4 KIRMIZI CIZGI. TDV once; HTTP 302 = madde YOK, 200 da yetmez ICERIGI OKU. Dar slug tutmazsa KAPSAYICI maddeyi dene. TDV disinda YALNIZ akademik/bilimsel. Bulamadigini `bulunamadi` YAZ. ⚠️ ARAMA OZETI BIR KAYNAK DEGIL, BIR IDDIADIR — ozet bir yayina ATIF veriyorsa ATIF DA dogrulanir. Bir oturum, ozetin gercek bir dergiye uydurdugu cumleyi tam metni cekerek curuttu. 🔴 VERIYE/MOTORA YAZMA. Olc, rapor et; uygulamayi ben yaparim (§7). Kayit onerirsen TAM HALINI yaz. 🔴 RAPORDA olctugun ile ondan CIKARDIGIN HUKUM AYRI SATIR olsun. Tek satirda birlesince cikarim, olcumun guvenilirligini odunc alir. ⚠️ Aksaklik cikarsa BEKLETME, hemen yaz (§7.1 ⑥). ⚠️ Gorseller pahali (metnine gore ~30 kat) — yalniz metnin yetmedigi maddede ac.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
