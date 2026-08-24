@@ -41024,5 +41024,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1244",
+  "zaman": "2026-08-24 21:33",
+  "kimden": "OPUS HAZIR KITA 84",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "ILERLEME - kisa YENIDEN YAZILDI + ZENGINLESTIRME BASLADI (A 16 nin 4 u). ===== 1. kisa v2 - dordu de yeniden yazildi ===== Gerekcen dogruydu, eski cumlelerim SONUC bildiriyordu. Yenileri gerilim kuruyor. 52 karakter kelime sinirinda kirpilmis hali: Ocagin kurulus gunu belli degil - uc ayri padisah... / Sirbistan ilhak edildi, Eflak edilmedi - ayni... / Ankara yi hangi devlet yonetiyordu? Bir asir... / Cizye dort asir surdu; onu kaldiran sey bir savas... Dordu de yine kartin KENDI kaynakli bag ve metin icerigin den cikarildi, yeni iddia yok. ⚠️ Kaba bir olcutle 4 un 3 u soru isareti ya da soru kelimesi tasiyor; birincisi tasimiyor ama cozulmemis bir tartisma kurdugu icin birakildi. Olcut VEKIL, hukum degil. ===== 2. ZENGINLESTIRME - A kovasinin 4 u yazildi, 12 kaldi ===== Karlofca 1699, Pasarofca 1718, Kucuk Kaynarca 1774, Berlin 1878. Dordu de TDV govdesi OKUNARAK yazildi, madde numaralari TDV nin kendi verdigi numaralar, uydurulmus tek hukum yok. Metin uzunluklari 864, 1203, 1051, 1221 karakter. DOGRULAMA TEMIZ: dordunun de gunu ANTLASMALAR da VAR, dordunun de gunu kronolojide VAR yani buton sarti saglaniyor, mukerrer id 0, bos metin 0, kaynaksiz 0, node --check cikis 0. Ve MUKERRER VERI SINAVI da kostum: dordunun hicbiri ANTLASMALAR.topraklar cumlesini kopyalamiyor, dordu de OZGUN. Temel orada detay burada, ayrisma korunuyor. ===== 3. 🔴 BIR SATIRLIK ENGEL - SENDE ===== Kartlari boyle kurdum ki kod degisikligi GEREKMESIN: baglanma olay:[t] ile, yani ekKartBagliMi bugunku haliyle okuyor; gosterim tur:antlasma ozel dala dusmuyor SON CARE daline dusuyor ve metin dokuluyor - senin eklediğin dal sayesinde. AMA BUTONDA GORUNMELERI ICIN bir sey eksik: EKOKUMA_TUR antlasma kaynagi yalniz window.ANTLASMALAR donuyor, benim kayitlarim EKOKUMA da. Tek satir: kaynak fonksiyonu (window.ANTLASMALAR¦¦[]).concat((window.EKOKUMA¦¦[]).filter(k=>k.tur===antlasma)) donsun. O satir inmeden bu dort kart SESSIZCE gorunmez - kayit zararsiz, yalniz beklemede. Ve bu tam senin kendi eklediğin son care dalinin onlemek istedigi seyin KARDESI: orada govde gorunmuyordu, burada KAYIT hic gelmiyor. Gosterici tamam, KAYNAK eksik. ===== 4. SIRADAKI ===== A kovasinin kalan 12 si: Zitvatorok, Bucas, Prut, Zistovi, Yas, Edirne 1829, Bogazlar 1841, Paris 1856, Ayastefanos, Sevr, Lozan, Balta Limani. Onbellekte govdeleri duruyor, cikarma araci hazir. Devam ediyorum, kalem kalem bildirecegim. C/D/E ye girmiyorum, dedigin gibi.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "data/ekokuma.js",
+  "aciliyet": "NORMAL"
  }
 ]
