@@ -163,21 +163,41 @@ def _deniz_oku():
     yol = os.path.join(os.path.dirname(os.path.dirname(
         os.path.abspath(__file__))), "js", "app.js")
     s = io.open(yol, encoding="utf-8").read()
-    zemin = re.search(r'"zemin".*?"background-color":\s*"(#[0-9a-fA-F]{6})"',
-                       s, re.S)
-    gol = re.search(r'"g-gol".*?"fill-color":\s*"(#[0-9a-fA-F]{6})".*?'
-                     r'"fill-opacity":\s*([0-9.]+)', s, re.S)
-    if not zemin or not gol:
-        raise SystemExit("!! deniz rengi app.js'ten okunamadi (zemin/g-gol "
-                         "bulunamadi) - DE_DENIZ olculemez")
-    zh, gh, gop = zemin.group(1), gol.group(1), float(gol.group(2))
-    if zh.lower() != gh.lower():
-        raise SystemExit("!! zemin (%s) ve g-gol (%s) FARKLI hex - deniz "
-                         "rengi belirsiz, elle bakilmali" % (zh, gh))
+    # 🔴 25 Agustos 2026 — OKUMA BICIMI DEGISTI, CUNKU KAYNAK DEGISTI.
+    #
+    # Eskiden hex IKI AYRI YERDEN okunuyordu ("zemin" ve "g-gol") ve
+    # farkliysa SystemExit atiliyordu — bu bir CAPRAZ DENETIMDI.
+    # `js/app.js` artik `var SU_RENGI = "#..."` tek sabitini kullaniyor
+    # ve iki katman da ONA baglaniyor. Eski regex hicbir sey bulamadi ve
+    # arac "DE_DENIZ olculemez" diyerek DURDU.
+    # 🟢 Ve DURMASI DOGRUYDU: sessizce eski bir hex'e dusseydi, palet
+    #    ARTIK GECERSIZ bir deniz rengine gore olculurdu.
+    #
+    # ⚠️ CAPRAZ DENETIM KALDIRILMADI, YERI DEGISTI: eskiden "iki hex ayni
+    #    mi" diye soruluyordu; artik "iki katman da SABITE mi bagli" diye
+    #    soruluyor. Biri ham hex'e donerse (yani sabit atlanirsa) bu
+    #    denetim yine oter.
+    #    📌 Bir tekrari kaldirmak, onu koruyan denetimi de kaldirmak
+    #       DEGILDIR — denetim yeni yapiya CEVRILIR.
+    sabit = re.search(r'var\s+SU_RENGI\s*=\s*"(#[0-9a-fA-F]{6})"', s)
+    zemin_s = re.search(r'"zemin".*?"background-color":\s*(SU_RENGI|"#[0-9a-fA-F]{6}")',
+                        s, re.S)
+    gol_s = re.search(r'"g-gol".*?"fill-color":\s*(SU_RENGI|"#[0-9a-fA-F]{6}").*?'
+                      r'"fill-opacity":\s*([0-9.]+)', s, re.S)
+    if not sabit or not zemin_s or not gol_s:
+        raise SystemExit("!! deniz rengi app.js'ten okunamadi "
+                         "(SU_RENGI / zemin / g-gol bulunamadi) - "
+                         "DE_DENIZ olculemez")
+    kaynaklar = {zemin_s.group(1), gol_s.group(1)}
+    if kaynaklar != {"SU_RENGI"}:
+        raise SystemExit("!! zemin ve g-gol AYNI SABITE bagli degil (%s) - "
+                         "biri ham hex'e donmus, deniz rengi ayrisabilir"
+                         % ", ".join(sorted(kaynaklar)))
+    gop = float(gol_s.group(2))
     if gop < 0.999:
         raise SystemExit("!! g-gol artik opak degil (fill-opacity=%.2f) - "
                          "bindirme hesaba katilmali, kod guncellensin" % gop)
-    return gh
+    return sabit.group(1)
 
 
 DENIZ_HEX = _deniz_oku()

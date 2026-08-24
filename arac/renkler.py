@@ -165,6 +165,43 @@ KOVA = {
 }
 
 BOYALAR = {
+
+    # ═══ HAYALET DÖNEM YAMASININ AÇTIĞI DÖRT KİMLİK ═══════════════════
+    # OPUS HAZIR KITA 87 · 25 Ağustos 2026 · dayanak:
+    # `denetim/BULGU-HAYALET-DONEM-2.md` + `denetim/ONERI-HAYALET-RENK.txt`
+    #
+    # 🔴 BU DÖRDÜ OLMADAN `yer_yama_hayalet`(129) ve `hayalet2`(118)
+    # UYGULANAMAZ: `BOYALAR`da karşılığı olmayan bir kimliğe geçen gövde
+    # motorda HİÇ ÇİZİLMEZ (`uret_petek.py`). Yani yamayı önce uygulamak
+    # hayaleti kapatıp DELİK açardı — `§3.5.1`: bir sınır kayması
+    # önerildiğinde İKİ UÇ DA ölçülür.
+    #
+    # ⚠️ VE `renk_olc.py --oner`İN KENDİ ÇIKTISI KULLANILMADI, çünkü araç
+    # KENDİ UYARISINI öttürdü: "komşusu ölçülemeyen kimlik" — dördünün de
+    # veride dönemi YOK, yani engel kümesi kurulamıyor. Ürettiği dört renk
+    # birbirinden ayırt edilemezdi:
+    #     norvec-kralligi ↔ isvec-birlik-oncesi   ΔE 1,97
+    #     (Kalmar Birliği'nin İKİ ORTAĞI — komşu ülkeler)
+    # ⇒ Engel kümesi YAMANIN UYGULANDIĞI evrende kuruldu (hedefin alacağı
+    #   noktalar + pencere, ≤1500 km eşzamanlı). Aynı çift artık ΔE 46,4.
+    # 📌 Bozuk çıktı SİLİNMEDİ (`denetim/oneri-20260824-232904.txt`) —
+    #    vaka kayıtlı kalsın diye.
+    #
+    # EŞİKLER GEVŞETİLMEDİ, SIKILAŞTIRILDI:
+    #     anlatının merkezindeki çift   ≥ 25
+    #     ≤600 km eşzamanlı komşu       ≥ 15   (12'yi geçmek YETMİYOR)
+    #     600-1500 km eşzamanlı         ≥ 12
+    #     altlıktan                     ≥ 15   (dördü de ≥ 30,8)
+    # En dar kısıtlar: norveç 15,1 · isveç 13,2 · şirvan 14,2 · naiplik 17,0
+    #
+    # 🔴 VE BİR SINIR AÇIKÇA YAZILI: `isvec-birlik-oncesi`nin EN DAR çifti
+    # (13,2) aracın HİÇ KURMADIĞI bir çiftten geliyor ⇒ bu öneriyi
+    # `--dogrula` ile doğrulamak YETERLİ DEĞİL; o denetim o çifti
+    # menziline almıyor. ("Denetim var ≠ o soruyu soruyor.")
+    "norvec-kralligi": ("Norveç Krallığı (Birlik Öncesi ve Kalmar Dönemi)", "#2490d2"),
+    "isvec-birlik-oncesi": ("İsveç Krallığı (Kalmar Birliği Öncesi ve Dönemi)", "#a824d2"),
+    "sirvansah": ("Şirvanşahlar", "#d2cc24"),
+    "macaristan-naiplik": ("Macaristan (1918 Sonrası: Cumhuriyet → Naiplik)", "#d23024"),
     # ↑ Anadolu kümesi (bkz. `candar` üstündeki blok) · ton kayması  1,6°
     # bizans  #4e3c81 → #0f0f5d  (toplu tur)
     "bizans": ("Bizans", "#0f0f5d"),
