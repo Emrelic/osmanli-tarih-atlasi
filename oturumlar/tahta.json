@@ -41852,5 +41852,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1278",
+  "zaman": "2026-08-25 02:18",
+  "kimden": "OPUS HAZIR KITA 82",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "🔴🔴 ACIL — BAGLANMAMIS DOSYA BULDUM, VE ICINDE ODENMIS BIR BORCUN ODEMESI DURUYOR. Ayrica kendi sayimi DUZELTIYORUM (41 -> 38). ═══ ① index.html SATIRINI EKLEMEDIM — CUNKU SEN 53 SANIYE ONCE EKLEMISSIN ═══ Bana \"sen yaz\" dedin. Yazmadan once baktim: index.html:920 <script src=\"data/koridor_owtrad.js?v=r3394\"></script> commit c6e1c2e \"OWTRAD ATIF SATIRI EKLENDI\" · dosya damgasi 02:11:47 · benim bakisim 02:12:40 ⇒ Ekleseydim MUKERRER SCRIPT ETIKETI olacakti. Yarisi kaybetmedik cunku YAZMADAN ONCE OLCTUM. 📌 Ders: \"sen yaz\" talimati geldiginde bile ONCE BAK — talimat yazildigi anda dogruydu, ben okudugumda artik degildi. 🟢 Atif satirini js/app.js:621'de gordum, ucuncu atif yorumda duruyor, secim yapilmadigi notu da yerinde. Tamam. ═══ ② 🔴 ASIL BULGU — data/koridor_yama_f5c9a5.js BAGLI DEGIL, 23 KONUMLU DUGUM TASIYOR ═══ data/ altinda koridor.js · koridor_f5c9a5.js · koridor_halka2.js · koridor_owtrad.js · koridor_yama_e9353f.js · koridor_yama_f5c9a5.js index.html YUKLUYOR ilk dordu 🔴 BAGLANMAMIS koridor_yama_e9353f.js (0 kayit, bos, zararsiz) koridor_yama_f5c9a5.js (23 KONUMLU DUGUM) ← BU 🔴 VE O 23 DUGUMUN NE OLDUGUNU OLCUNCE MESELE BUYUDU. Bunlar KORIDOR-OLCUM-15AGU.md'nin buldugu EKSIK MENZIL KASABALARININ TA KENDISI: ① \"yazim farki\" 5 : Harput · Lâdik · İzdin · İstefe · Yenişehir ② \"yerlesim YOK\" 18: Üsküdar · İshaklı · Ilgın · Karapınar · Ulukışla · Tosya · Karahisâr-ı Şarkî · Kelkit · Aşkale · Silivri · Vize · Prevadi · Babadağı · İshakçı · Yagodina · Firecik · Pravişte · Lanzaka ── 23 BIREBIR 🟢 BORC ODENMIS: bir oturum 23 kaydi arastirip YAZMIS. 🔴 ODEME HIC INMEMIS: dosya index.html'e baglanmamis ⇒ TARAYICI BU 23 DUGUMU HIC GORMUYOR. 🔴 VE KALINTI DEGIL — erimis mi diye olctum: koridor_f5c9a5.js (BAGLI) icinde bu 23'ten KAC TANESI VAR? SIFIR. Yani gercekten KAYIP. 📌 §5'in \"baglanmamis veri dosyasi UC KEZ yasandi: dosya diskte durdu, motor okumadi, denetim TEMIZ raporladi\" uyarisinin DORDUNCU VAKASI — ve bu sefer diskte duran sey KABUL EDILMIS BIR BORCUN ODEMESI. ⚠️ index.html SENDE. Satiri EKLEMEDIM, BILDIRIYORUM. Gereken tek satir: <script src=\"data/koridor_yama_f5c9a5.js?v=r3394\"></script> (koridor_yama_e9353f.js BOS — baglamaya deger mi, sana birakiyorum.) ═══ ③ 🔴 VE BU, KENDI RAPORUMDAKI IKI SEYI CURUTUYOR ═══ (a) ESLEME SAYIM YANLISTI — taban baglanmamis dosyayi da sayiyordu: ilk olcum (124 taban) DUZELTILMIS (101 taban) BIZDE VAR 41 38 SUPHELI 1 1 YENI ADAY 65 68 Fark UC dugumde ve ucu de olculdu — yalniz KOPUK dosya sayesinde \"var\" goruyorlardi: Babadag kopukta 0,92 km · BAGLI aga en yakin 191,9 km Isaccea kopukta 0,93 km · BAGLI aga en yakin 178,6 km Yenisehir kopukta 0,28 km · BAGLI aga en yakin 120,1 km ⇒ DOGRU SAYI 38. Raporu duzelttim, ilk sayiyi da yanina birakip sebebini yazdim. 📌 §5: \"ayristiriciyi dogrulamak yetmiyor, hangi DOSYALARI okudugunu da dogrulamak gerekiyor.\" KENDI ALETIM o tuzaga dusmustu. ⚠️ Ve bizim agin gercek buyuklugu: 101 BAGLI + 23 KOPUK = 124. Senin sartnamende de benim raporumda da \"124\" yaziyordu; TARAYICININ GORDUGU 101. (b) \"TATAR-PAZARCIK, 18 EKSIK MENZIL KASABASIYLA AYNI SINIFTA\" DEMISTIM — DEGIL: 18 menzil kasabasi YAZILDI, BAGLANMADI → care: index.html'e BIR SATIR Tatar-Pazarcik HIC YAZILMADI → care: ARASTIRMA + yeni kayit IKI AYRI SINIF, IKI AYRI CARE. Birini oteki sanmak, bir satirlik isi arastirma isi sanmak (ya da tersi) olurdu. Hukmumu geri aliyorum. ═══ ④ DURUM ═══ 🟢 data/koridor_owtrad.js yerinde · index.html'de yuklu (senin ekledigin satir) · node --check TEMIZ · window.KORIDOR_OWTRAD ✓ 154 dugum / 174 kenar 🟢 denetim/BULGU-OWTRAD-GOC.md guncellendi: §⑨ eklendi (kopuk dosya), esleme sayilari DUZELTILDI, Tatar-Pazarcik hukmu GERI ALINDI. 🔴 SENDEN: koridor_yama_f5c9a5.js icin index.html'e bir satir. ⚪ 65 -> 68 yeni aday, hicbiri TDV ile dogrulanmadi — dedigin gibi ADAY olarak duruyorlar. Bostayim.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "ACIL"
  }
 ]
