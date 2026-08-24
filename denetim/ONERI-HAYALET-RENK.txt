@@ -1,0 +1,24 @@
+// HAYALET DONEM — dort renksiz kimlik icin hex onerisi
+// OPUS HAZIR KITA 87 · 2026-08-24 · dayanak: denetim/BULGU-HAYALET-DONEM-2.md §2
+//
+// AKTARIMI KOORDINATOR YAPAR (arac/renkler.py onun dosyasi, uretim kosusunda
+// PARMAK IZLENIYOR — kosarken degisirse kosu olur).
+// Aktarimdan SONRA:  py arac/renk_olc.py --dogrula denetim/ONERI-HAYALET-RENK.txt
+//
+// 🔴 AYNI KLASORDEKI `oneri-20260824-232904.txt` DOSYASINI KULLANMAYIN.
+//    O, `renk_olc.py --oner`in bu dort kimlik icin urettigi ciktidir ve
+//    ARACIN KENDI UYARISIYLA dayanaksizdir ("komsusu olculemeyen kimlik" —
+//    dordunun de veride donemi YOK). Urettigi dort renk birbirinden
+//    AYIRT EDILEMEZ: norvec-kralligi ↔ isvec-birlik-oncesi ΔE 1,97
+//    (Kalmar Birligi'nin iki ortagi, komsu ulkeler).
+//    Asagidaki dortlunun ayni cifti: ΔE 46,4.
+//
+// ESIK KADEMESI (gevsetilmedi, SIKILASTIRILDI):
+//    anlatinin merkezindeki cift  ≥ 25
+//    <= 600 km eszamanli komsu    ≥ 15   (DE_SINIRDA — 12'yi gecmek yetmiyor)
+//    600-1500 km eszamanli        ≥ 12   (DE_KOMSU)
+//    altliktan                    ≥ 15   (dordu de >= 30,8)
+norvec-kralligi #2490d2
+isvec-birlik-oncesi #a824d2
+sirvansah #d2cc24
+macaristan-naiplik #d23024

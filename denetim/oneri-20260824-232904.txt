@@ -1,0 +1,6 @@
+// renk_olc.py --oner çıktısı — aktarımdan SONRA:
+//   py arac/renk_olc.py --dogrula oneri-20260824-232904.txt
+norvec-kralligi #2424d2
+isvec-birlik-oncesi #242ad2
+sirvansah #2430d2
+macaristan-naiplik #2436d2

@@ -16,7 +16,7 @@ window.KRONOLOJI_KATALAN = [
   kaynak:"Setton, Catalan Domination of Athens 1311-1388, rev. ed. (Variorum, 1975) · devletler.js künye kronolojisi · gün yaklaşıktır" },
 
 { t:"1305-04-30", b:"Roger de Flor'un öldürülmesi ve 'Katalan İntikamı'nın başlaması", tur:"kriz", onem:5, dunya:2, kapsam:"dis", yer_id:"Edirne",
-  etiket:["kriz","askeri"],
+  etiket:["kriz","askeri","isyan"],
   d:"Roger de Flor, Bizans ortak imparatoru IX. Mihail'in adamlarınca Edirne'de öldürüldü. Kumpanya buna karşılık Trakya ve Makedonya'yı iki yıl boyunca sistemli biçimde yağmaladı; bu yağma Katalan kaynaklarında 'Katalan İntikamı' diye anılır. Bölgenin uğradığı tahribat, Osmanlı'nın kırk yıl sonra Trakya'ya girişini kolaylaştıran şartlardan biri sayılır.",
   kaynak:"Setton, Catalan Domination of Athens 1311-1388 · Ramon Muntaner, Crònica (14. yy birincil kaynak, standart neşir) · devletler.js künye kronolojisi" },
 

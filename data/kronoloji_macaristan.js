@@ -660,7 +660,7 @@ window.KRONOLOJI_MACARISTAN = [
   kaynak:"akademik: Evans (2006), s. 224-225", yer_id:"Viyana" },
 
 { t:"1795-05-20", b:"Martinovics Ignác ve Macar Yakobenlerinin idamı", tur:"darbe", onem:3, dunya:1, kapsam:"ic",
-  etiket:["darbe","siyaset"],
+  etiket:["darbe","siyaset","isyan"],
   yer_id:"",
   d:"Fransız Devrimi'nden etkilenen küçük bir cumhuriyetçi-radikal çevrenin komplosu keşfedilince, önderleri Budin yakınlarında idam edildi; bastırma, izleyen otuz yılda Habsburg sansürünün sertleşmesine yol açtı ve Macar milliyetçi hareketinin daha ihtiyatlı, kültürel bir çizgide (dil reformu) yeniden doğmasına neden oldu.",
   kaynak:"akademik: Kontler (2002), s. 198-199", yer_kon:[47.5026,19.0263], yer_id:"Budin" },
@@ -754,7 +754,7 @@ window.KRONOLOJI_MACARISTAN = [
   kaynak:"akademik: Kontler (2002), s. 231-232 — bkz. `kronoloji_habsburg.js` aynı olay, dunya:3 (BİREBİR aynı)", yer_kon:[46.2667,21.6667] },
 
 { t:"1849-10-06", b:"Aradi Vértanúk — on üç Macar generalinin idamı", tur:"olum", onem:5, dunya:2, kapsam:"ic",
-  etiket:["darbe","olum"],
+  etiket:["darbe","olum","isyan"],
   yer_id:"",
   d:"Bağımsızlık savaşının on üç generali Arad'da idam edildi; aynı gün Peşte'de Başbakan Batthyány Lajos da kurşuna dizildi. Bu infazlar Macar millî hafızasında en derin travmalardan biri olarak kaldı ve tarih boyunca 6 Ekim yas günü olarak anılmaya devam etti.",
   kaynak:"akademik: Kontler (2002), s. 232", yer_kon:[46.1866,21.3123] },

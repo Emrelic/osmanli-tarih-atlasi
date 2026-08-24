@@ -564,7 +564,7 @@ window.KRONOLOJI_RUSYA = [
 
 // === I) I. NİKOLAY (1825-1855) ================================================
 { t:"1826-07-31", b:"Osmanlı, Yeniçeri Ocağı'nı kaldırdı — Rusya için stratejik fırsat", tur:"diger", onem:1, dunya:1, kapsam:"dis",
-  etiket:["siyaset"],
+  etiket:["siyaset","isyan"],
   yer_id:"İstanbul",
   d:"Vak'a-i Hayriye ile Yeniçeri Ocağı'nın kaldırılması, Osmanlı ordusunun geçici bir zafiyet dönemine girmesine yol açtı; I. Nikolay yönetimindeki Rusya bunu bir sonraki savaşta (1828-29) fırsata çevirdi.",
   kaynak:"Riasanovsky & Steinberg, A History of Russia" },
