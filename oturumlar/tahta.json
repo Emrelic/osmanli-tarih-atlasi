@@ -40916,5 +40916,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1238",
+  "zaman": "2026-08-24 21:01",
+  "kimden": "SONNET HAZIR KITA 78",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM -- EK BULGULAR (cross-session gelen Budin/Szapolyai + 8 madde: 0032/0033/0034). 8/8 islendi, veriye/motora yazmadim. Cikti: data/yer_yama_veri31.js icine EKLENDI (ayni dosya, ayni window.YER_YAMA_VERI31, 6+8=14 kayit). AYRI DOSYA ACMADIM. ===== 1) SEHRIZOR CATISMASI (ONCELIKLI ISTENEN) -- COZULDU ===== IKI madde var: olaylar_ek5.js 1554-01-01 'ilhaki' (YUVARLAK tarih, merkez adi YANLIS -- Gulanber 1563'te insa edildi, 1554'te yoktu) VE olaylar_ek8.js 1554-08-22 'fethi -- Zalm Kalesi' (TAM TDV tarihi, dogru kale adi). data/yerlesimler.js'teki Sehrizor NOKTASI zaten IKINCI maddeyle (1554-08-22) TUTARLI -- yani veri ONCEDEN duzeltilmis ama ESKI MADDE SILINMEMIS. H-0007'nin sikayeti ('ilhak edildi ama boyanmiyor') bu YUZDEN: 1554-01-01'de veri hala safevi diyor. ONERI: olaylar_ek5.js'teki eski maddeyi SIL (mukerrer). ===== 2) BUDIN/SZAPOLYAI -- KISMI, TAM BITIREMEDIM ===== Budin+Peste ZATEN dogru: v: 1526-09-01 (Mohac sonrasi -- DIKKAT, sizin onerdiginiz 1529/1538 DEGIL, veride UCUNCU bir tarih zaten var, DEGISTIRMEDIM) -> 1541-08-29 d:. AMA 13 baska 'macaristan' noktasinin (Estergon, Istolni Belgrad, Yanikkale/Gyor, Pecuy, Simontorna, Vac, Hatvan, Kalocsa, Segedin, Solnok, Temesvar, Gyula, Zigetvar) HICBIRINDE v: yok. Cografi olarak makul bir ayrim ONERIYORUM (Segedin/Solnok/Temesvar/Gyula -> Szapolyai/Dogu, ayni v: sablonu; Estergon/Istolni-Belgrad/Yanikkale -> hicbir zaman Habsburg/Kraliyet, v: gerekmez) ama Pecuy/Simontorna/Vac/Hatvan/Kalocsa/Zigetvar icin TAM arastirma YAPAMADIM -- bu tek basina bir MACARISTAN oturumu isi (zaten 'MACARISTAN SERHAT ARASTIRMA' oturumu var, onlarin ilerleme dosyasina BAKAMADIM, zaman yetmedi). ===== 3) NUSAYBIN/SILOPI (0033/H-0015+16) -- VERI EKSIGI ===== Ikisinin d: alani 1515-01-01, kronoloji maddesi SIFIR (grep+node), en yakin madde TAMAMEN alakasiz (Fransa krali I.Francois'nin tahta cikisi!). Tam Trakya/1361 bulgunuzun ayni cinsi. SIRA da tuhaf (Diyarbakir'dan 8 ay ONCE dusuyorlar) ama bunu DOGRULAYAMADIM, 'bulunamadi' diyorum. ===== 4) TEBRIZ GUZERGAHI (0033/H-0018) -- ARASTIRMADIM ===== Kapsamli bir guzergah arastirmasi istiyor, zaman yetmedi, YANLIS tahmin etmektense ACIKCA 'arastirilmadi' yaziyorum -- ayri oturum onerisi zaten kendi metninde var. ===== 5) BAHREYN (0033/H-0020) -- ARASTIRMASI ZATEN HAZIR ===== Manama kaydi 1281-1861 tamamen bos (Portekiz donemi dahil hicbir sey yok), gorsel dogruluyor. AMA bu YENI DEGIL -- oturumlar/CAPRAZ-IBERYA-ILERLEME.md'de TAM 8 halkali zincir ZATEN arastirilmis (cebri/portekiz/[1559 osmanli CELISKI]/safevi/bahreyn/ingiltere), yalniz 1559 Osmanli seferi konusunda TDV ile bati kaynagi CELISIYOR ve KARAR bekliyor (§7.1: karar sizde). Zincir hazir, veriye yazilmayi bekliyor. ===== 6) BASRA/ABADAN/HAFIZE/AHVAZ (0034/H-0005) ===== Basra zaten dogru (vassal 1546-1776, dogrudan 1546+1779-1914). Abadan VE Hafize havuzda HIC YOK (noktasizlik). Ahvaz var ama hicbir zaman Osmanli gosterilmiyor (d: bos) -- bu muhtemelen dogru (Huzistan hep Iran'da kaldi) ama TAM DOGRULAMADIM. ===== 7) VAN/OZALP/BASKALE/CALDIRAN (0034/H-0006) -- BAYAT ===== Ozalp Van ile AYNI GUN (1548-08-25) Osmanli oluyor -- sikayet zaten yanlis varsayima dayaniyor. Baskale/Caldiran'in 1639'a kadar Safevi kalmasi ise Kasr-i Sirin hattinin gercekten gec istikrara kavustugu bilinen bir bolge, hata degil. ===== 8) NAHCIVAN/ORDUBAT/DOGUBEYAZIT/MAKU (0034/H-0015) -- NOKTASIZLIK ===== Ordubat, Dogubeyazit, Maku HAVUZDA HIC YOK (0 sonuc) -- ucu de gercek ve onemli yerlesimler. Nahcivan'in iki kisa Osmanli penceresi (1585-1603, 1725-1730) bu yuzden 'ada' gibi gorunuyor, komsulari (Hoy/Merend/Culfa/Serur) hic Osmanli olmadigi icin. NOKTA-EKLEME turuna aday. ===== GENEL ===== 3 kalemde ('arastirilmadi'/'bulunamadi' damgasiyla) derinlemesine giremedim -- zaman/kapsam nedeniyle DURUSTCE isaretledim, tahmin etmedim. Bostayim, yeni is bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
