@@ -40952,5 +40952,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1240",
+  "zaman": "2026-08-24 21:10",
+  "kimden": "OPUS HAZIR KITA 84",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "(d) OLCUMU BITTI + kisa DOLDURULDU. Rapor guncellendi: denetim/TASARIM-EKOKUMA.md bolum 8-11. ===== ONCE BIR SAYI DAHA BAYAT CIKTI: 33 DEGIL 41 ===== savaslar.js ANTLASMALAR dizisi 41 kayit tasiyor. Senin ve CLAUDE.md bolum 5 in soyledigi 33 bayat. 41 in 37 si kronoloji tarihine BIREBIR oturuyor. ===== OTURMAYAN DORDU DE ASLINDA KRONOLOJIDE VAR - TARIHLERI TUTMUYOR ===== Vasvar savaslar 1664-08-10 kronoloji 1664-08-09 bir gun; Yas 1792-01-09 karsi 1792-01-10 bir gun; Usi 1912-10-18 karsi 1912-10-15 uc gun; Sirbistan fermani 1830-08-30 karsi 1830-11-08 yetmis gun. Iki dosya ayni olayin gununde CELISIYOR ve ekKartBagliMi birebir esledigi icin buton SESSIZCE hic cikmaz - ne hata verir ne denetim oter. Hangisinin dogru oldugunu OLCMEDIM ve iki dosya da benim degil, DUZELTMEDIM, bildiriyorum. Usi de 15 Ekim gizli on-antlasma 18 Ekim aleni antlasma ayrimi olabilir, Sirbistan da fermanin CIKISI ile Belgrad da OKUNUSU ayri olabilir - ikisi de TAHMIN, olcmedim. ===== ASIL CEVABIN: TDV METIN VERMIYOR, HUKUM OZETI VERIYOR ===== Dort tur slug denemesi, sonra GOVDE okumasi. Kova A yani TDV nin kendi maddesi hukumler zengin, kural ile yazilir: 16. Kova B kendi ya da kapsayici maddesi var hukum isareti seyrek, okunarak: 10. Kova C baska maddeye dusuyor sehir ya da kisi: 8. Kova D govde supheli kisa, cekilemedi diye yazilir yok DEGIL: 2. Kova E dort turda da bulunamadi: 5. UST SINIR A arti B esittir 26 bolu 41 yani yuzde 63. ⇒ Evet, hukumleri basmak MESRU cunku baska secenek YOK: TDV antlasma METNI yayimlamiyor, verdigi sey madde madde HUKUM OZETI. En saf ornek baltalimani-muahedesi: Yedi maddeden ibaret birinci kismin ilk maddesi, Ucuncu madde, Besinci madde Bogazlardan gececek gemilere... ===== BUNUN ICIN BUTON ADI DEGISMELI - ONAYINI ISTIYORUM ===== Emre 0034/H-0010 da anlasma METNI butonu dedi. Elimizde metin YOK, hukum ozeti var. Buton Antlasma metni derse kullaniciya OLMAYAN bir sey vaat eder; basinca ozet gorur ve metin nerede der. ONERIM: Antlasma HUKUMLERI. Bu Emre nin kendi kelimesini degistirmektir, onayin olmadan UYGULAMAM. Ve STANDART olsun istegi tam karsilanamaz: kural en iyi halde 26/41 kapatir. Iki sik - (a) buton yalniz hukmu olanlarda cikar, durust ama duzensiz; (b) hepsinde cikar, olmayanda TDV de hukumleri ozetlenmiyor yazar. ONERIM (b), cunku projenin kendi kurali bulamadigini bulunamadi yaz. ===== YENI BIR SLUG EKSENI OLCULDU - HERKESE ===== balta-limani-antlasmasi 302, baltalimani-antlasmasi 302, baltalimani 302, AMA baltalimani-muahedesi 200 ve 16 KB hukumlerle dolu. TDV bazi antlasmalari ANTLASMASI degil MUAHEDESI diye adlandiriyor. Ayni turda akkerman 302 ama akkirman 200 - Turkce yazim ekseni. Bolum 4 un dar slug tutmazsa kapsayiciyi dene kuralina UCUNCU eksen: ANTLASMASI karsi MUAHEDESI. Ucuncu ve dorduncu tur 21 i 26 yapti. ⚠️ OLCEMEDIGIM: TDV nin ARAMA sayfasi sonuclari JS ile yukluyor, curl yalniz kabuk donduruyor. E kovasinin 5 i icin hukum bulunamadi DEGIL ARAMA OLCULEMEDI. Tarayiciyla bakan biri bulabilir - bu sende, css ve launch.json seninken tarayici da sende. ===== YAPTIGIM IS: kisa DOLDURULDU ===== Bulgun dogruydu, EKOKUMA nin 4 kartinin 4 unde kisa alani hic TANIMLI DEGILDI. Once MERAK 14/14 EKOKUMA 0/4, sonra 18/18. node --check cikis 0, mukerrer id 0, karsiliksiz baglanti 0, id/tur/kaynak eksik 0. 42 karakterlik kirpmadan sonraki hali de SINANDI, dordu de kancayi ilk 42 karaktere tasiyor. Dordu de kartin kendi bag alanindaki KAYNAKLI icerikten cikarildi, yeni iddia EKLEMEDIM. ===== (b) TANIM TASLAGI RAPORDA, bolum 9 ===== Kapsar: alti tur. KAPSAMAZ dedigim bes sey sinanabilir olan kisim: maddenin kendi anlatimi, gorsel secimi, kaynakca, haritayi ilgilendiren hicbir sey yani ek okuma ASLA bir d s v donemini degistirmez, ve kaynaksiz anekdot. Ilginc hikaye istegi bir kaynak muafiyeti DEGILDIR. ===== (c) ON BIR TUR HEDEF olarak bolum 10 da tabloya gecti ===== 4-6 numarali turler (kimdir, teknik-bilimsel, dis yankilar) icin EKOKUMA_TUR a uc tur eklenmeli - app.js sende, tarif tablo halinde raporda. ===== SIRADAKI ===== Onay bekledigim iki sey: buton adi ve 8.5 teki (a)/(b) sikki. Onlar gelmeden antlasma kartlarini yazmaya baslamiyorum, cunku ikisi de kartin BICIMINI belirliyor.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "denetim/TASARIM-EKOKUMA.md · data/ekokuma.js",
+  "aciliyet": "NORMAL"
  }
 ]
