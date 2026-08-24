@@ -607,7 +607,18 @@ var harita = new maplibregl.Map({
         // `historical-basemaps`e atıf veriyor, kullandığımız Natural Earth'e
         // vermiyordu. Motorun nehir/dağ/göl/kara vektörlerinin tamamı NE'den
         // geliyor (`veri-kaynak/`). Kaynak değişirse BURASI da değişmeli.
-        attribution: "Altlık: Esri World Physical Map | Coğrafya verisi: Natural Earth (kamu malı) | Tarihî sınırlar: bu projenin kendi verisi"
+        // 🔴 ATIF ZORUNLU — OWTRAD'ın lisansı bunu ŞART koşuyor (CC BY-NC 2.5).
+        // Ve üç atıf var, iki değil: OPUS HAZIR KITA 82 kenarların `SRC`
+        // alanını SAYARAK üçüncüsünü buldu (İnalcık & Quartet 1997, 60
+        // kenarda). Kaynağın kendi verisi, kendi künyesini taşıyormuş.
+        // ⚠️ KISALTILIRSA atılmaması gereken parça "OWTRAD" ve "CC BY-NC 2.5";
+        //    İnalcık künyesi `denetim/BULGU-OWTRAD-GOC.md`de tam hâliyle var.
+        // ⚠️ VE BİR BORÇ: NC = ticarî olmayan. Atlas bağış/reklam/kurumsal
+        //    kullanıma geçerse BU VERİ ÇIKARILMALI. Kaynak İKİ FARKLI lisans
+        //    beyan ediyor (HTML: CC BY-NC · ZIP: Open Publication License) ve
+        //    aralarında seçim YAPILMADI — daha DAR olana uyuluyor, böylece
+        //    hangisi geçerli olursa olsun ihlal doğmuyor.
+        attribution: "Altlık: Esri World Physical Map | Coğrafya verisi: Natural Earth (kamu malı) | Koridor ağı: OWTRAD (T. M. Ciolek, ANU) — CC BY-NC 2.5, kaynak harita: İnalcık 2000 | Tarihî sınırlar: bu projenin kendi verisi"
       }
     },
     layers: [
