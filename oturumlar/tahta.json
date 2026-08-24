@@ -39491,7 +39491,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "SONNET HAZIR KITA 72": "2026-08-24 11:28"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
