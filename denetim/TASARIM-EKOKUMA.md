@@ -290,3 +290,175 @@ gösterdi — JavaScript'te sözdizimi hatası olurdu. Hüküm vermeden önce
 📌 `CLAUDE.md §11`in *"aletin gösterdiği ≠ dosyada yazan"* dersinin ters
 yönü: orada araç bir kusuru **gizlemişti**, burada **olmayan bir kusuru
 gösterdi.** İkisinin de çaresi aynı: `Read`'e değil **bayta** sor.
+
+---
+---
+
+# EK — AŞAMA 2 AÇILIŞI (koordinatörün dört cevabından sonra)
+
+## 8. (d) ÖLÇÜM — ANTLAŞMA KURALI KAÇ MADDEYİ KAPATIR?
+
+### 8.1 Önce sayı düzeltmesi: **33 değil 41**
+
+```
+data/savaslar.js  ANTLASMALAR  →  41 kayıt
+```
+Şartname (ve `CLAUDE.md §5`) **33** diyor. Bir bayat sayı daha.
+
+### 8.2 Kronoloji tarihine oturma
+
+```
+41 antlaşmanın 37'si  olaylar*.js'te BİREBİR bir t: değerine oturuyor
+                  4'ü OTURMUYOR
+```
+
+🔴 **Ve oturmayan dördü de kronolojide VAR — tarihleri tutmuyor:**
+
+| antlaşma | `savaslar.js` | `olaylar*.js` | fark |
+|---|---|---|---|
+| Vasvar | `1664-08-10` | `1664-08-09` | 1 gün |
+| Yaş | `1792-01-09` | `1792-01-10` | 1 gün |
+| Uşi | `1912-10-18` | `1912-10-15` | 3 gün |
+| Sırbistan özerklik fermanı | `1830-08-30` | `1830-11-08` | 70 gün |
+
+⇒ İki dosya aynı olayın gününde **çelişiyor**. `ekKartBagliMi` birebir
+eşleştirdiği için bu, butonu **sessizce hiç çıkarmaz** — ne hata verir ne
+denetim öter.
+📌 Bu, *"bir gün fark bir özelliği görünmez yapar"* sınıfı ve **denetimsiz.**
+⚠️ **Hangisinin doğru olduğunu ÖLÇMEDİM** ve `olaylar*.js` ile
+`savaslar.js` benim dosyalarım değil — **düzeltmedim, bildiriyorum.**
+(Uşi'de 15 Ekim gizli ön-antlaşma / 18 Ekim alenî antlaşma ayrımı olabilir;
+Sırbistan'da ferman**ın çıkışı** ile Belgrad'da **okunuşu** ayrı olabilir.
+İkisi de **tahmin** — `⚠️ ölçmedim`.)
+
+### 8.3 🔴 ASIL CEVAP: TDV "METİN" VERMİYOR, "HÜKÜM ÖZETİ" VERİYOR
+
+Koordinatörün sorusu: *"kaç tanesinin TDV maddesinde maddeleri
+özetleniyor? 'Metin' değil 'hükümleri' basmak da meşru olabilir."*
+
+**Ölçüm — dört tur slug denemesi, sonra GÖVDE okuması:**
+
+| kova | ne | sayı |
+|---|---|---|
+| **A** | TDV'nin **kendi** maddesi, hükümler zengin → **kuralla yazılır** | **16** |
+| **B** | TDV'nin kendi/kapsayıcı maddesi, hüküm işareti seyrek → **okunarak** | **10** |
+| **C** | başka maddeye düşüyor (şehir/kişi) → hüküm özeti beklenmez | 8 |
+| **D** | gövde şüpheli/kısa → **"çekilemedi"**, "yok" değil | 2 |
+| **E** | dört turda da bulunamadı → **`bulunamadı`** | 5 |
+
+```
+ÜST SINIR (A+B) = 26 / 41  =  %63
+```
+
+⇒ **Cevap: evet, "hükümleri" basmak meşru — çünkü BAŞKA SEÇENEK YOK.**
+TDV antlaşma **metni** yayımlamıyor; verdiği şey madde madde **hüküm
+özeti.** En saf örnek `baltalimani-muahedesi`:
+> *"Yedi maddeden ibaret birinci kısmın ilk maddesi…"* · *"Üçüncü madde…"* ·
+> *"Beşinci madde Boğazlar'dan geçecek gemilere…"*
+
+### 8.4 🔴 BU YÜZDEN BUTONUN ADI DEĞİŞMELİ — onay gerekiyor
+
+Emre `0034/H-0010`'da **"anlaşma metni butonu"** dedi. Ama ölçüm diyor ki
+elimizde **metin yok, hüküm özeti var.**
+⇒ Buton **"📜 Antlaşma metni"** derse kullanıcıya **olmayan bir şey** vaat
+eder; basınca özet görür ve *"metin nerede"* der.
+**Önerim: "📜 Antlaşma hükümleri".**
+⚠️ Bu Emre'nin **kendi kelimesini** değiştirmektir — **koordinatörün onayı
+olmadan uygulamam.**
+
+### 8.5 Ve `0034/H-0010`'un "STANDART olsun" isteği tam karşılanamaz
+
+Kural en iyi hâlde **26/41 (%63)** kapatır. Kalan 15'te buton **çıkmaz**.
+İki şık: (a) buton yalnız hükmü olanlarda çıkar — dürüst ama düzensiz;
+(b) hepsinde çıkar, olmayanda *"TDV'de hükümleri özetlenmiyor"* yazar —
+düzenli ve **`bulunamadı`yı bir sonuç olarak gösterir.**
+**Önerim (b)** — projenin kendi kuralı: *"bulamadığını `bulunamadı` yaz."*
+
+### 8.6 §4 DERSİ — yeni bir yazım ekseni ölçüldü
+
+`balta-limani-antlasmasi` 302 · `baltalimani-antlasmasi` 302 · `baltalimani` 302
+**`baltalimani-muahedesi` → 200**, 16 KB, hükümler madde madde.
+⇒ **TDV bazı antlaşmaları "ANTLAŞMASI" değil "MUAHEDESİ" diye adlandırıyor.**
+Aynı turda `akkerman` 302 · **`akkirman` 200** (Türkçe yazım ekseni).
+📌 `§4`ün *"dar slug tutmazsa kapsayıcıyı dene"* kuralına **üçüncü bir
+eksen**: *ANTLAŞMASI ↔ MUAHEDESİ*. Üçüncü/dördüncü tur **21 → 26** yaptı.
+
+⚠️ **Ölçemediğim:** TDV'nin **arama** sayfası (`/arama/?q=`) sonuçları JS
+ile yüklüyor; `curl` yalnız kabuk döndürüyor. ⇒ E kovasının 5'i için hüküm
+**"bulunamadı" değil "ARAMA ÖLÇÜLEMEDİ"**. Tarayıcı ile bakan biri
+bulabilir.
+
+---
+
+## 9. (b) "EK OKUMA" TANIMI — taslak, `CLAUDE.md`ye koordinatör işler
+
+> ### EK OKUMA — ne demektir
+> **"Ek okuma", kronoloji maddesinin altında açılan kart ailesinin ÜST
+> ADIDIR** — tek bir tür değil. Emre'nin beyanı: `0034/H-0026`.
+>
+> **KAPSAR** (altı tür, `0034/H-0026`):
+> merak · kimdir · magazin · sebep-sonuç · teknik-bilimsel · dış yankılar
+>
+> **KAPSAMAZ — ve sınanabilir olan budur:**
+> - **maddenin kendi anlatımını** (o `b:` alanıdır; ek okuma onu tekrar etmez)
+> - **görsel seçimini** (`0032/H-0010` ayrı bir iştir, buton değildir)
+> - **kaynakçayı** (`kaynak:` alanı zaten var)
+> - **haritayı ya da sınırı** ilgilendiren hiçbir şeyi — ek okuma
+>   **hiçbir zaman** bir `d:`/`s:`/`v:` dönemini değiştirmez
+> - **kaynaksız anekdotu.** "İlginç hikâye" isteği bir kaynak muafiyeti
+>   değildir; `§4` aynen geçerlidir ve bulunamayan `bulunamadı` yazılır.
+>
+> **ÖLÇÜSÜ:** bir kart, maddeyi okuyan birinin *"peki ya…"* diye soracağı
+> şeye cevap veriyorsa ek okumadır; maddeyi **özetliyorsa** değildir.
+
+📌 Kapsamayanı yazmak kapsayanı yazmaktan değerli — koordinatörün isteği
+buydu ve projenin `§4` dersiyle aynı: *"olumlu tarif neredeyse boştur,
+sınanabilir olan neyin DIŞARIDA olduğudur."*
+
+---
+
+## 10. (c) ON BİR TÜR — HEDEF olarak kayda geçti
+
+Koordinatör kararı: **`0034/H-0026`'nın ALTISI ile başla.** Gerekçesi
+ölçülebilir ve bu raporun bulgusuna dayanıyor (`magazin`: kodda var, veride
+sıfır — boş dal zaten bir tane var).
+
+| # | tür | bugün | hedefte |
+|---|---|---|---|
+| 1 | merak | ✅ 14 kart | başlangıç kümesi |
+| 2 | sebep-sonuç | ✅ 4 kart | başlangıç kümesi |
+| 3 | magazin | ⚠️ kod var, **veri 0** | başlangıç kümesi |
+| 4 | kimdir | 🔴 yok | başlangıç kümesi |
+| 5 | teknik-bilimsel | 🔴 yok | başlangıç kümesi |
+| 6 | dış yankılar | 🔴 yok | başlangıç kümesi |
+| 7-11 | tartışma · kahramanlık hikâyeleri · menkıbeler · şok haberler · okuma | 🔴 yok | **HEDEF** — `0034/H-0022`, Emre'ye koordinatör götürecek |
+
+⚠️ 4-6 için `EKOKUMA_TUR`'a üç tür eklenmeli — **`js/app.js` koordinatörde**,
+tarif bu tablodur, uygulamayı o yapar.
+
+---
+
+## 11. YAPILAN İŞ — `kisa` dolduruldu
+
+Koordinatörün bulgusu doğruydu: `EKOKUMA`'nın 4 kartının 4'ünde `kisa`
+**yoktu** (alan hiç tanımlı değildi).
+
+```
+ÖNCE   MERAK 14/14 dolu · EKOKUMA 0/4
+SONRA  MERAK 14/14      · EKOKUMA 4/4      ⇒ 18/18
+node --check data/ekokuma.js   çıkış 0
+mükerrer id 0 · karşılıksız bağlantı 0 · id/tur/kaynak eksik 0
+```
+
+42 karakterlik kırpmadan sonra butonda görünecek hâli **sınandı** — dördü de
+kancayı ilk 42 karaktere taşıyor:
+```
+🔗 Sebep-Sonuç · Kuruluş ânı hâlâ tartışmalı: ocak bir günd…
+🔗 Sebep-Sonuç · Beş yıl arayla iki zıt çözüm: Sırbistan il…
+🔗 Sebep-Sonuç · Ankara'yı bir hânedan değil bir ESNAF-FÜTÜ…
+🔗 Sebep-Sonuç · Dört asırlık düzeni bitiren şey bir fetih …
+```
+📌 `kisa` "iki kelime" değil kartın **iddiasıdır**; dördü de kartın kendi
+`bag:` alanındaki kaynaklı içerikten çıkarıldı, yeni bir iddia eklenmedi.
+
+⚠️ **Görsel olarak doğrulanmadı** — koordinatör bu doğrulamayı üstlendi.

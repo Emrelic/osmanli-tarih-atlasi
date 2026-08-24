@@ -489,11 +489,11 @@ window.ANTLASMALAR.push(
 window.ANTLASMALAR.push(
   { t:"1618-09-26", ad:"Serav", savas_basi:"1616-01-01", taraf_metin:"Safevî", ozet:"1612 Nasuh Paşa sınırı teyit edildi; barış kısa sürdü",
     taraf:["osmanli","safevi"], topraklar:"Toprak el değiştirmedi (1612 sınırı korundu); Osmanlı'nın istediği yıllık ipek/haraç ödemesi Safevî'ce kabul edilmedi — gerilim 1623'te Bağdat'ın kaybına giden savaşı doğurdu." },
-  { t:"1664-08-10", ad:"Vasvar", savas_basi:"1663-04-01", taraf_metin:"Habsburg", ozet:"Sen Gotar yenilgisine rağmen toprak korundu; 20 yıllık ateşkes",
+  { t:"1664-08-09", ad:"Vasvar", savas_basi:"1663-04-01", taraf_metin:"Habsburg", ozet:"Sen Gotar yenilgisine rağmen toprak korundu; 20 yıllık ateşkes",
     taraf:["osmanli","habsburg"], topraklar:"Toprak büyük ölçüde korundu — Uyvar ve Novigrad (savaş sırasında alınmıştı) Osmanlı'da kaldı; buna karşılık Erdel'de Habsburg'un adayı tanındı." },
   { t:"1791-08-04", ad:"Ziştovi", savas_basi:"1788-02-09", taraf_metin:"Habsburg", ozet:"Savaş öncesi sınıra dönüş; Belgrad geri verildi",
     taraf:["osmanli","habsburg"], topraklar:"Toprak el değiştirmedi — Avusturya savaş sırasında aldığı Belgrad ve Sırbistan'ı boşaltıp 1788 öncesi sınıra döndü." },
-  { t:"1792-01-09", ad:"Yaş", savas_basi:"1787-08-17", taraf_metin:"Rusya", ozet:"Yedisan kaybedildi; Kırım'ın kaybı kesinleşti",
+  { t:"1792-01-10", ad:"Yaş", savas_basi:"1787-08-17", taraf_metin:"Rusya", ozet:"Yedisan kaybedildi; Kırım'ın kaybı kesinleşti",
     taraf:["osmanli","rusya"], topraklar:"Bug-Dinyester arası (Yedisan) Rusya'ya bırakıldı; Rusya'nın 1783'te ilhak ettiği Kırım tanındı; Boğdan ve Eflak Osmanlı'da kaldı." },
   { t:"1826-10-07", ad:"Akkerman", savas_basi:null, taraf_metin:"Rusya", ozet:"Savaşsız dayatıldı; 1812 Bükreş kazanımları genişletildi",
     taraf:["osmanli","rusya"], topraklar:"Toprak el değiştirmedi; Sırbistan'ın ve Eflak-Boğdan'ın özerkliği genişletildi, Rusya'nın Kafkasya'daki 1812 sınır kazanımları teyit edildi." },

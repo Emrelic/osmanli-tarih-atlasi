@@ -52,6 +52,7 @@
 window.EKOKUMA = [
 
 { id:"yeniceri-ocagi-kurulusu", tur:"sebep-sonuc",
+  kisa:"Kuruluş ânı hâlâ tartışmalı: ocak bir günde değil, iki pâdişah devrine yayılarak doğdu.",
   sebep:{ b:"Orhan Gazi'den itibaren Rumeli'ye geçiş ve artan fetihlerle beylik ordusunun sürekli, merkeze bağlı ve maaşlı bir piyade gücüne duyduğu ihtiyaç", t:"1352-03-01" },
   sonuc:{ b:"I. Murad'ın cülûsuyla pençik sisteminin ve Gelibolu'daki Acemi Ocağı'nın — Yeniçeri teşkilatının çekirdeğinin — kurulması", t:"1362-03" },
   bag:"TDV'ye göre savaş esirlerinin beşte birinin (pençik) alınıp eğitilerek daimî orduya katılması fikri Orhan döneminin sonlarıyla I. Murad devri arasında tedricen olgunlaştı; tarihçiler kesin kuruluş ânını hâlâ tartışıyor, bazıları Yıldırım Bayezid dönemini işaret ediyor.",
@@ -62,6 +63,7 @@ window.EKOKUMA = [
   kaynak:"TDV: yeniceri" },
 
 { id:"tabi-devlet-vassallik", tur:"sebep-sonuc",
+  kisa:"Beş yıl arayla iki zıt çözüm: Sırbistan ilhak edildi, Eflak tâbi bırakıldı — farkı MALİYET belirledi.",
   sebep:{ b:"Sırbistan'ın 1439'da doğrudan ilhak edilip sancak hâline getirilmesinin, Tuna'nın ötesindeki uzak toprakları savunma ve idare masrafı bakımından tutulamaz kılması", t:"1439-08-27" },
   sonuc:{ b:"Edirne-Segedin Antlaşması'nda Eflak'ın haraç veren, kendi voyvodasınca yönetilen tâbi (vasal) bir statüde tanınması — sonraki üç asrın Eflak-Boğdan-Erdel-Kırım modeli", t:"1444-06-12" },
   bag:"TDV'nin Eflak maddesine göre bu antlaşma 'ikili bir hükümranlık' kurdu: voyvoda haraç ödeyip iç işlerinde serbest kalıyor, toprak tımara bölünmüyordu — aynı dönemde doğrudan ilhak edilip eyalet yapılan Sırbistan'ın tam tersi bir çözüm.",
@@ -72,6 +74,7 @@ window.EKOKUMA = [
   kaynak:"TDV: eflak · murad-ii" },
 
 { id:"ahi-birlikleri-ankara", tur:"sebep-sonuc",
+  kisa:"Ankara'yı bir hânedan değil bir ESNAF-FÜTÜVVET birliği yönetiyordu; Osmanlı şehri 1354'te ondan devraldı.",
   sebep:{ b:"Anadolu Selçuklu merkezî otoritesinin Kösedağ bozgunuyla çökmesi ve esnaf-dinî fütüvvet birliklerinin (ahî) birçok şehirde fiilî yerel yönetime dönüşmesi", t:"1243-07-01" },
   sonuc:{ b:"Ahî yönetimindeki Ankara'nın, Orhan Gazi'nin oğlu Süleyman Paşa tarafından Osmanlı idaresine katılması", t:"1354-08-01" },
   bag:"TDV'nin Ahîlik maddesine göre bu birlikler özellikle Moğol istilâsı sırasında birçok Anadolu şehrinde mahallî otorite hâline geldi; Ankara bunun en belgeli örneğidir (Köprülü, \"Ankara ve Ahîler\", 1926) ve şehir 1354'e kadar bu yönetim altında kaldı. Kösedağ'ın günü kaynaklarda ayrışır (İbn Bîbî 1 Temmuz, İbnü'l-Adîm 3 Temmuz 1243 der).",
@@ -89,6 +92,7 @@ window.EKOKUMA = [
 // kartında; burada TANIM ve İŞLEYİŞ var. İkisi kasten ayrıldı.
 
 { id:"zimmi-cizye-millet-duzeni", tur:"sebep-sonuc",
+  kisa:"Dört asırlık düzeni bitiren şey bir fetih değil bir FERMAN'dı: cizye 1856'da kalktı.",
   sebep:{ b:"İstanbul'un fethiyle imparatorluğun en kalabalık gayrimüslim cemaatlerinin tek merkezde tebaa hâline gelmesi ve bu nüfusun idaresi için kurumsal bir çerçeveye ihtiyaç duyulması", t:"1453-05-29" },
   sonuc:{ b:"Islahat Fermanı ile cizyenin kaldırılıp gayrimüslimlere askerlik yükümlülüğünün getirilmesi — dört asırlık zimmet düzeninin hukuken sona ermesi", t:"1856-02-18" },
   bag:"TDV Zimmî maddesi klasik düzenin \"Tanzimat'tan sonra önemli ölçüde ortadan kaldırıldığını\" yazar; Cizye maddesi 1856 Islahat Fermanı'nın cizyeyi kaldırdığını ve yerine 1907'ye kadar süren bedel-i askerînin geçtiğini kaydeder. Millet maddesine göre Ermeni milleti 1461'de Fâtih'in İstanbul'da bir patrik tayin etmesiyle kurulmuştu; 1856'dan sonra cemaat idaresine laik unsurlar girdi ve patrikhânelerin yetkileri azaldı.",
