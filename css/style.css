@@ -1097,6 +1097,11 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
   animation: obGir 0.28s ease-out;
 }
 #olay-bilgi.gizli { display: none; }
+/* Panel sinyali (`.panel-sinyal` + `@keyframes panelSinyal`) BU DOSYADA
+   AŞAĞIDA tanımlı — buraya İKİNCİ bir kopyası yazılmış ve ölçümle
+   yakalanıp kaldırıldı. CSS'te sonraki tanım kazandığı için iki kopya
+   SESSİZCE ayrışırdı: biri güncellenir, öteki ölü kalır ve okuyan
+   yanlış olanı okur. Aynı gün yazılan uyarının aynı gün ihlali. */
 @keyframes obGir {
   from { opacity: 0; transform: translateY(10px); }
   to   { opacity: 1; transform: translateY(0); }
