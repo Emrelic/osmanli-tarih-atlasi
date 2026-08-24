@@ -113,7 +113,7 @@ window.KRONOLOJI_SAFEVI = [
 
 // === D) I. TAHMASB — KIZILBAŞ İÇ ÇEKİŞMELERİ VE ÖZBEK/OSMANLI CEPHESİ (1524-1555) ==
 { t:"1526-07-01", b:"Kızılbaş boy çatışması — Çuha Sultan'ın öldürülmesi", tur:"ic-karisiklik", onem:3, dunya:1, kapsam:"ic",
-  etiket:["siyaset","ayaklanma"],
+  etiket:["siyaset","isyan","darbe-askeri"],
   d:"On iki yaşındaki Tahmasb adına naiplik yapan Kızılbaş emîrleri arasındaki rekabet, Ustaclu boyunun lideri Div Sultan Rumlu'nun rakip Çuha Sultan Tekelü'yü öldürtmesiyle açık çatışmaya döndü; bu tür iç kavgalar 1533'e kadar sarayı felç edecekti.",
   kaynak:"Encyclopaedia Iranica, madde: ṬAHMĀSP I", yer_id:"Tebriz" },
 { t:"1528-09-24", b:"Câm Muharebesi — Tahmasb'ın ilk büyük zaferi", tur:"savas", onem:4, dunya:2, kapsam:"dis",
@@ -155,7 +155,7 @@ window.KRONOLOJI_SAFEVI = [
   d:"Yarı kör olan Muhammed Hüdâbende'nin tahta çıkışı, fiilî yönetimin eşi Hayrünnisa Begüm (Mehd-i Ulyâ) ve rakip Kızılbaş boy liderleri arasında paylaşılmasına yol açtı; bu iktidar boşluğu, III. Murad'ın 1578'de başlattığı büyük Osmanlı seferinin doğrudan fırsatı oldu.",
   kaynak:"Encyclopaedia Iranica, madde: MOḤAMMAD ḴODĀBANDA", yer_id:"Kazvin" },
 { t:"1579-07-01", b:"Mehd-i Ulyâ'nın öldürülmesi — Kızılbaş boylarının darbesi", tur:"ic-karisiklik", onem:3, dunya:1, kapsam:"ic",
-  etiket:["siyaset","ic-karisiklik"],
+  etiket:["siyaset","ic-karisiklik","darbe-askeri"],
   d:"Fiilî yönetimi elinde tutan Hayrünnisa Begüm'ün artan nüfuzundan rahatsız olan Kızılbaş emîrleri, sarayda bir darbeyle onu boğdurdu; bu olay 1578-1590 savaşının en kötü gittiği yıllarda merkezî otoritenin ne denli çökmüş olduğunu gösterir.",
   kaynak:"Encyclopaedia Iranica, madde: MAHD-E ʿOLYĀ", yer_id:"Kazvin" },
 { t:"1585-09-21", b:"Tebriz'in Osmanlı işgali ve kale inşası", tur:"toprak-kayip", onem:4, dunya:2, kapsam:"dis",
@@ -227,7 +227,7 @@ window.KRONOLOJI_SAFEVI = [
   d:"Şah Abbas, Kızılbaş emîrlerinin elindeki büyük eyaletlerin (Şirvan, Kirman, Fars gibi) bir kısmını doğrudan hazineye bağlı has topraklara çevirerek merkezî hazinenin gelirini artırdı ve aynı zamanda taşra emîrlerinin ekonomik gücünü kırdı; bu, gulâm reformunun malî ayağıydı.",
   kaynak:"Encyclopaedia Iranica, madde: ʿABBĀS I", yer_id:"", kapsam_genis:true },
 { t:"1611-01-01", b:"Sikke reformu — abbasî gümüş parasının standardizasyonu", tur:"ekonomi", onem:2, dunya:1, kapsam:"ic",
-  etiket:["ekonomi"],
+  etiket:["ekonomi","islahat"],
   d:"Devletin adını taşıyan yeni bir gümüş sikke (abbasî) standart ağırlık ve ayarla basılmaya başlandı; bu, ipek ticaretinin getirdiği gümüş akışını düzenli bir para sistemine bağlama çabasının parçasıydı ve 18. yüzyıla dek İran'ın temel para birimi olarak kaldı.",
   kaynak:"Encyclopaedia Iranica, madde: COINAGE iv. Safavid", yer_id:"", kapsam_genis:true },
 { t:"1617-01-01", b:"İngiliz Doğu Hindistan Şirketi ile ilk ticaret imtiyazı", tur:"ekonomi", onem:3, dunya:2, kapsam:"dis",
@@ -269,7 +269,7 @@ window.KRONOLOJI_SAFEVI = [
   d:"İsfahan'ı kuzey-güney ekseninde kateden, iki yanı çınar ağaçları ve su kanallarıyla düzenlenmiş geniş Çihar Bağ Caddesi, dönemin Avrupalı seyyahlarının hayranlıkla anlattığı bir kent planlama örneğiydi; cadde üzerine sonradan (1706-1714) Çihar Bağ Medresesi de eklendi.",
   kaynak:"Encyclopaedia Iranica, madde: ČAHĀRBĀḠ", yer_id:"Isfahan" },
 { t:"1600-01-01", b:"Rızâ Abbâsî'nin saray nakkaşhânesinde yükselişi", tur:"kultur", onem:3, dunya:1, kapsam:"ic",
-  etiket:["kultur","sanat"],
+  etiket:["kultur","kultur"],
   d:"Şah Abbas'ın himayesindeki nakkaş Rızâ Abbâsî, Herat/Kazvin okulunun idealize edilmiş minyatür üslubundan uzaklaşıp gerçekçi ve gündelik yaşamı konu alan tekli figür portreleri (genç erkekler, dervişler, âşık çiftler) ile İsfahan okulunun karakteristik üslubunu kurdu; kendinden sonraki bir asrı etkileyen bu yeni tarz, İran resim sanatının en özgün dönemlerinden biri sayılır.",
   kaynak:"Encyclopaedia Iranica, madde: REŻĀ ʿABBĀSI", yer_id:"Isfahan" },
 { t:"1600-01-01", b:"Safevî halı sanatının Avrupa'ya ihracı — \"Polonaise\" halıları", tur:"ekonomi", onem:2, dunya:1, kapsam:"dis",
@@ -371,11 +371,11 @@ window.KRONOLOJI_SAFEVI = [
   d:"Sultan Hüseyin'in annesinin himayesinde inşa edilen bu büyük medrese ve kervansaray kompleksi, devletin son yıllarında bile sürdürülen büyük ölçekli imar faaliyetinin — ama artık askerî değil yalnız dinî-eğitim eksenli — bir örneğidir.",
   kaynak:"Encyclopaedia Iranica, madde: ESFAHAN vii. Monuments", yer_id:"Isfahan" },
 { t:"1714-01-01", b:"Sünni Afgan ve Belûclara yönelik zorla ihtida baskısı", tur:"din", onem:3, dunya:2, kapsam:"ic",
-  etiket:["din","ayaklanma"],
+  etiket:["din","isyan"],
   d:"Sultan Hüseyin döneminde doğu eyaletlerindeki Sünni Gilzai ve Abdâlî Afgan kabilelerine ve Belûc topluluklarına yönelik zorla Şiîleştirme girişimleri şiddetlendi; bu baskı politikası, 1709'daki Mir Veys isyanının ve onu izleyen büyük Afgan istilasının doğrudan tetikleyicilerinden biri olarak kaynaklarda geçer.",
   kaynak:"Encyclopaedia Iranica, madde: AFGHANISTAN v. AFGHANS IN SAFAVID PERIOD", yer_id:"", kapsam_genis:true },
-{ t:"1717-01-01", b:"Belûc isyanı — Kirman'ın yağmalanması", tur:"ayaklanma", onem:2, dunya:1, kapsam:"ic",
-  etiket:["ayaklanma","askeri"],
+{ t:"1717-01-01", b:"Belûc isyanı — Kirman'ın yağmalanması", tur:"isyan", onem:2, dunya:1, kapsam:"ic",
+  etiket:["isyan","askeri"],
   d:"Merkezî otoritenin doğu eyaletlerindeki zayıflığından yararlanan Belûc aşiretleri Kirman bölgesini yağmaladı; bu, aynı dönemde patlak veren Afgan isyanıyla birlikte devletin doğu sınırının tümüyle kontrolden çıktığını gösteren paralel bir gelişmeydi.",
   kaynak:"Cambridge History of Iran, c.6", yer_id:"Kirman" },
 
@@ -399,7 +399,7 @@ window.KRONOLOJI_SAFEVI = [
 
 // === O) HOTAKÎ ARA DÖNEMİ VE SAFEVÎ'NİN NOMİNAL DEVAMI (1722-1736) ==========
 { t:"1725-04-25", b:"Mahmud Hotakî'nin öldürülmesi, Eşref Han'ın tahta çıkışı", tur:"diger", onem:3, dunya:1, kapsam:"ic",
-  etiket:["siyaset"],
+  etiket:["siyaset","taht-kavgasi"],
   d:"Giderek zalimleşen ve akıl sağlığı bozulan Mahmud, kuzeni Eşref Han önderliğindeki bir sarayiçi darbeyle öldürüldü; Eşref'in dört yıllık saltanatı, hem Osmanlı hem Rusya'nın İran topraklarını fiilen paylaştığı bir dönemde geçti.",
   kaynak:"Encyclopaedia Iranica, madde: AŠRAF ḠALZAY", yer_id:"Isfahan" },
 { t:"1729-02-01", b:"Tahmasb II'nin Nadir'in gölgesinde nominal şahlığı", tur:"hukumdar", onem:3, dunya:2, kapsam:"ic",
@@ -407,7 +407,7 @@ window.KRONOLOJI_SAFEVI = [
   d:"Şah Sultan Hüseyin'in oğlu Tahmasb, Afgan istilasından Mazenderan'a kaçıp kendini şah ilan etmişti; Nadir onun adına savaşarak Afganları yendiyse de fiilî iktidarı hiçbir zaman Tahmasb'a bırakmadı — Safevî hânedanının artık yalnız SEMBOLİK bir meşruiyet kaynağı olarak kullanıldığı dönem burada başlar.",
   kaynak:"Encyclopaedia Iranica, madde: ṬAHMĀSP II", yer_id:"" },
 { t:"1732-08-01", b:"Nadir'in Tahmasb II'yi tahttan indirip bebek III. Abbas'ı şah ilan etmesi", tur:"darbe", onem:4, dunya:2, kapsam:"ic",
-  etiket:["siyaset","darbe"],
+  etiket:["siyaset","darbe","darbe-askeri"],
   d:"Nadir, kendi otoritesini artık tam anlamıyla gölgeleyen Tahmasb'ı sarhoşluk ve beceriksizlik bahanesiyle tahttan indirip yerine sekiz aylık oğlu III. Abbas'ı nominal şah ilan etti; bir bebeğin adına naiplik yapmak, Nadir'e dört yıl sonra kendi hânedanını kurana dek gerekli meşruiyet örtüsünü sağladı.",
   kaynak:"Encyclopaedia Iranica, madde: ʿABBĀS III", yer_id:"" },
 

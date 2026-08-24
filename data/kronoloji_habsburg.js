@@ -238,7 +238,7 @@ window.KRONOLOJI_HABSBURG = [
   kaynak:"bulunamadı — gün DOĞRULANMADI (Beyaz Dağ sonrası düzenleme, Die Welt der Habsburger karşı-reform anlatısıyla uyumlu; müstakil sayfa okunmadı)" },
 
 { t:"1634-02-25", b:"Wallenstein'ın öldürülmesi", tur:"olum", onem:3, dunya:2, kapsam:"ic", yer_id:"",
-  etiket:["askeri","hanedan","kriz"],
+  etiket:["askeri","hanedan","kriz","suikast"],
   d:"İmparatorluk ordularının başkomutanı Wallenstein, ihanet şüphesiyle Eger'de öldürüldü. Olay, savaş boyunca imparatorun kendi ordusu üzerindeki denetim kaygısının en keskin ifadesidir.",
   kaynak:"bulunamadı — gün DOĞRULANMADI", yer_kon:[50.078,12.373] },
 
@@ -670,7 +670,7 @@ window.KRONOLOJI_HABSBURG = [
   kaynak:"bulunamadı — aranan kaynaklarda müstakil sayfa BULUNAMADI, gün DOĞRULANMADI", yer_kon:[48.0667,16.0833] },
 
 { t:"1898-09-10", b:"İmparatoriçe Elisabeth'in öldürülmesi", tur:"olum", onem:3, dunya:2, kapsam:"ic", yer_id:"Cenevre",
-  etiket:["hanedan","kriz"],
+  etiket:["hanedan","kriz","suikast"],
   d:"İmparatoriçe Elisabeth Cenevre'de bir anarşist tarafından öldürüldü. \"Sisi\" figürü, monarşinin son döneminde imparatorluk imgesinin en güçlü ve en trajik parçası hâline geldi.",
   kaynak:"Wien Geschichte Wiki, 'Attentate': \"Empress Elisabeth was attacked in Geneva on September 10, 1898\"" },
 
@@ -684,7 +684,7 @@ window.KRONOLOJI_HABSBURG = [
   kaynak:"TDV `avusturya`: \"otuz yıldır fiilen idare ettiği Bosna-Hersek'i resmen ilhak etmiştir (1908)\" · Der Erste Weltkrieg, 'Die Annexionskrise 1908': uluslararası algı, Sırbistan ve Rusya'nın savaş tehdidi, 1911'de kurulan örgütün radikalleşmeyle bağı · ⚠️ GÜN DOĞRULANMADI" },
 
 { t:"1914-06-28", b:"Saraybosna suikastı — Veliaht Franz Ferdinand'ın öldürülmesi", tur:"olum", onem:5, dunya:4, kapsam:"dis", yer_id:"Saraybosna",
-  etiket:["hanedan","kriz"],
+  etiket:["hanedan","kriz","suikast"],
   d:"Veliaht Franz Ferdinand ve eşi Saraybosna'da bir Sırp suikastçı tarafından öldürüldü. Suikast, otuz gün içinde Avrupa'yı savaşa sürükleyen krizi başlattı.",
   kaynak:"TDV `avusturya`: \"1914 yılında Avusturya-Macaristan veliahdının Saraybosna'da bir Sırp suikastçı tarafından öldürülmesi\" · Der Erste Weltkrieg (ww1.habsburger.net), 'Die Kriegserklärung' · ⚠️ GÜN DOĞRULANMADI" },
 

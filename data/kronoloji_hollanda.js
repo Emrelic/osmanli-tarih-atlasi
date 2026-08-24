@@ -72,7 +72,7 @@ window.KRONOLOJI_HOLLANDA = [
   d:"Kuzeydeki vilâyetler ortak savunma ve iç işlerde egemenlik esasına dayanan bir birlik kurdu. Bu metin Birleşik Provinsler'in fiilî anayasası oldu ve 1795'e kadar yürürlükte kaldı; TDV bağımsızlığın kazanıldığı tarih olarak 1579'u verir.",
   kaynak:"TDV `hollanda` (gövdesi okundu): \"Hollanda, 1579 yılında İspanya'dan bağımsızlığını kazandıktan hemen sonra deniz aşırı ülkelere açılmak için büyük çaba harcadı\" · ⚠️ GÜN DOĞRULANMADI" },
 
-{ t:"1581-07-26", b:"Feragat Bildirisi — kralın azledilmesi", tur:"anayasa", onem:5, dunya:4, kapsam:"ic", etiket:["anayasa","isyan"], yer_id:"",
+{ t:"1581-07-26", b:"Feragat Bildirisi — kralın azledilmesi", tur:"anayasa", onem:5, dunya:4, kapsam:"ic", etiket:["anayasa","isyan","darbe-siyasi"], yer_id:"",
   d:"Genel Meclis, II. Felipe'yi hükümdarlıktan azlettiğini ilan etti: bir hükümdar tebaasına karşı yükümlülüklerini çiğnerse tebaanın onu görevden alma hakkı vardır. Bir halkın kralını hukukî gerekçeyle azlettiği bu metin, Avrupa siyasî düşüncesinde bir ilktir.",
   kaynak:"bulunamadı — okunan kaynaklarda GÜN doğrulanmadı · ⚠️ yer_id BOŞ: Lahey (Den Haag) yerleşim listesinde YOK, oysa Genel Meclis'in merkezidir (ölçüldü, koordinatöre bildirildi)" },
 

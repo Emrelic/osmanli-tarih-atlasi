@@ -108,18 +108,18 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   d:"Veleşma hânedanından Sabrüddin Muhammed tahta çıktı ve emirliği uzun süre idare etti. Onun dönemi Evfât'ın Zeyla' limanı üzerinden yürüttüğü kara ve deniz ticaretinin zirvesidir.",
   kaynak:"TDV `evfat`: \"Son olarak Sabrüddin Muhammed tahta çıktı (700/1300-1301) ve emirliği uzun süre idare etti\"", yer_id:"Ankober" },
 
-{ t:"1300-01-02", b:"Evfât'ın kervan yolları üzerindeki tekeli ve altı tâbi sultanlık", tur:"iktisadi", onem:4, dunya:2, kapsam:"ic", yer_id:"Zeyla",
+{ t:"1300-01-02", b:"Evfât'ın kervan yolları üzerindeki tekeli ve altı tâbi sultanlık", tur:"ekonomi", onem:4, dunya:2, kapsam:"ic", yer_id:"Zeyla",
   etiket:["ticaret","idari"],
   d:"Evfât, Habeşistan yaylasını Zeyla' limanına bağlayan kervan yollarını denetliyor, bölgenin kara ve deniz ticaretine hâkim oluyordu. Emirliğin nüfuzu altında Dâvaro, Erâbînî, Hedye, Şerhâ, Bâlî ve Dâre adlı altı müslüman sultanlık daha vardı.",
   kaynak:"TDV `evfat`: \"Zeyla‘ limanına giden ticaret yollarını elinde tutuyor ... Dâvaro, Erâbînî, Hedye, Şerhâ, Bâlî, Dâre\"" },
 
 { t:"1328-01-01", b:"Evfât sultanı Habeş kralına yenildi ve esir düştü", tur:"savas", onem:5, dunya:2, kapsam:"dis", yer_id:"",
-  etiket:["askeri","toprak-kaybi"],
+  etiket:["askeri","toprak-kayip"],
   d:"728 (1328) yılında yapılan şiddetli bir meydan savaşında Evfât sultanı mağlûp oldu ve Habeş kralının eline esir düştü. Bu yenilgi, emirliğin bağımsız bir güç olmaktan çıkıp Habeş krallığına tâbi hâle gelişinin başlangıcıdır.",
   kaynak:"TDV `evfat`: \"728 (1328) yılında yapılan şiddetli savaşta Evfât sultanı mağlûp oldu ve esir düştü\"" },
 
 { t:"1332-01-01", b:"Amda Sion Zeyla' limanını ve Evfât topraklarının büyük kısmını aldı", tur:"toprak", onem:5, dunya:3, kapsam:"dis", yer_id:"Zeyla",
-  etiket:["askeri","toprak-kaybi"],
+  etiket:["askeri","toprak-kayip"],
   d:"Negus Amda Sion (Gabra Maskal, 1312-1344) müslümanlara saldırarak Zeyla' ile Evfât topraklarının büyük bir kısmını ele geçirdi. Bölgenin İslâm emirliklerini denize bağlayan tek büyük liman böylece hıristiyan krallığın eline geçti; Amda Sion dönemi Etiyopya'da İslâmiyet'in en çok zayıfladığı devirdir.",
   kaynak:"TDV `harar`: \"negus Amda Sion'un (1312-1344) 1332 yılında müslümanlara saldırarak Zeyla‘ ve Evfât topraklarının büyük bir kısmını ele geçirdiği\" · TDV `etiyopya`: \"Zeyla‘ı (1332) ... kaybettiler\"" },
 
@@ -133,7 +133,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   d:"İbn Fazlullah el-Ömerî (ö. 1361), Etiyopya'nın doğu ve güneydoğusunda Evfât, Davâro, Bâlî, Hadbe, Şerhâ, Arâbabnî ve Dârâ adlı yedi müslüman emirlik bulunduğunu, meliklerinin Etiyopya kralı tarafından tayin edildiğini ve farklı mezheplere sahip bu emirliklerin birbiriyle çekiştiğini yazar. Bölünme, Habeş üstünlüğünün asıl sebebidir.",
   kaynak:"TDV `etiyopya`: \"melikleri Etiyopya kralı tarafından tayin edilen Evfât, Davâro, Bâlî, Hadbe, Şerhâ, Arâbabnî, Dârâ adında yedi emirlik vardı\"", kapsam_genis:true },
 
-{ t:"1372-01-01", b:"Nevaya Krestos Memlük kervanlarına Habeş sınırını kapattı", tur:"iktisadi", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+{ t:"1372-01-01", b:"Nevaya Krestos Memlük kervanlarına Habeş sınırını kapattı", tur:"ekonomi", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["ticaret","diplomasi"],
   d:"1372-1382 arasında hüküm süren Habeş kralı Nevaya Krestos, Mısır kafilelerinin Etiyopya sınırından içeri girmesini yasakladı. Kızıldeniz ticaretinin iç Afrika ayağını kesen bu karar, Memlük-Habeş ilişkilerinin uzun gerilim döneminin başlangıcıdır.",
   kaynak:"TDV `etiyopya`: \"1372-1382 yıllarında hüküm süren Nevaya Krestos Mısır kafilelerini Etiyopya sınırlarından içeri sokmamıştır\" · dunya puanı kronoloji_memluk.js 1372-01-01 kaydından devralındı", kapsam_genis:true },
@@ -149,7 +149,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   kaynak:"TDV `evfat`: \"Ancak Hakkuddin 1386 yılında Habeş kralıyla giriştiği savaşta yenildi ve öldürüldü\"" },
 
 { t:"1397-01-01", b:"Dehlek adasının Habeşistan'a bağlanması", tur:"toprak", onem:3, dunya:2, kapsam:"dis", yer_id:"",
-  etiket:["toprak-kaybi","ticaret"],
+  etiket:["toprak-kayip","ticaret"],
   d:"İbn Mismâr yönetimindeki Dehlek adası 1397'den sonra Habeşistan'a bağlandı. Kızıldeniz'in Afrika yakasındaki en eski müslüman yerleşimlerinden biri olan takımada böylece hıristiyan krallığın denetimine girdi. (Dehlek atlasta yerleşim noktası olarak KAYITLI DEĞİL — yer_id boş bırakıldı.)",
   kaynak:"TDV `etiyopya`: \"1397'den sonra İbn Mismâr yönetimindeki Dehlek adası da Habeşistan'a bağlanmış\"", yer_id:"Dahlak" },
 
@@ -159,7 +159,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   kaynak:"TDV `zeyla`: \"Sa'deddin 1403'te Habeş Kralı I. David'den kaçarak Zeyla'a sığındı\"" },
 
 { t:"1415-01-01", b:"II. Sa'deddin Zeyla' adasında öldürüldü — Evfât Emirliği sona erdi", tur:"yikilis", onem:5, dunya:2, kapsam:"dis", yer_id:"Zeyla",
-  etiket:["hanedan","toprak-kaybi"],
+  etiket:["hanedan","toprak-kayip"],
   d:"Zeyla' adasına sığınan son Evfât sultanı Sa'deddin orada kıstırılıp öldürüldü ve emirlik dağıldı. Veleşma hânedanının hayatta kalan üyeleri doğuya çekilerek Adal Sultanlığı'nı kuracak; İfat'ın davası bir asır sonra Ahmed el-Mücâhid'in cihadıyla yeniden dirilecektir.",
   kaynak:"TDV `evfat`: \"Sâdeddin Zeyla‘ adasına sığındıysa da orada kıstırılıp öldürüldü (1415)\" · TDV `evfat`: \"Adal Emirliği Evfât'ın yerini aldı\"" },
 
@@ -249,12 +249,12 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   kaynak:"TDV `ahmed-el-mucahid`: \"28 Ağustos 1542'de Habeş krallık ordusu ile Portekiz kuvvetlerini büyük bir bozguna uğrattı\"" },
 
 { t:"1543-02-21", b:"Wayna Daga Muharebesi — Ahmed el-Mücâhid öldürüldü, istilâ çöktü", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"",
-  etiket:["askeri","toprak-kaybi","hanedan"],
+  etiket:["askeri","toprak-kayip","hanedan"],
   d:"Habeşistan'ın geri kalanını da almak isteyen Ahmed el-Mücâhid, ordusunu yeterince takviye etmeden giriştiği ikinci savaşta Tana gölü civarındaki Woina Daga'da yenildi ve hayatını kaybetti. Ölümü, on altı yıllık fethi bir yıl içinde geri aldırdı ve Habeşistan'da İslâmiyet'in siyasî yayılışını kalıcı olarak durdurdu. (Savaş alanı atlasta yerleşim olarak KAYITLI DEĞİL.)",
   kaynak:"TDV `etiyopya`: \"Tana gölü civarında yaptığı Woina Daga savaşında yenildi ve hayatını kaybetti (21 Şubat 1543)\" · dunya puanı kronoloji_portekiz.js 1543-02-21 kaydından devralındı", yer_kon:[12.283,37.45] },
 
 { t:"1543-02-22", b:"Adal Sultanlığı'nın dağılması, müslüman varlığının sahile çekilmesi", tur:"yikilis", onem:5, dunya:2, kapsam:"ic", yer_id:"Harar",
-  etiket:["toprak-kaybi","din"],
+  etiket:["toprak-kayip","din"],
   d:"Ahmed el-Mücâhid'in öldürülmesiyle Adal Sultanlığı'nın yayla hâkimiyeti çöktü ve müslümanlar varlıklarını Somali kıyılarında, Makdişu ile Zeyla'da sürdürdüler. Devletin kalan gövdesi Harar merkezli bir emirliğe dönüştü.",
   kaynak:"TDV `somali`: \"1543 yılında Habeşliler'in Portekizliler'den destek alıp Ahmed el-Mücâhid'i öldürmeleri neticesinde Adel Sultanlığı'nın yıkılmasının ardından müslümanlar Somali kıyılarında Makdişu ve Zeyla'da varlıklarını sürdürdüler\"" },
 
@@ -324,7 +324,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   kaynak:"TDV `harar`: \"Habeş ordusu 20.000 askerle şehrin üzerine yürüdü (Kasım 1886)\"" },
 
 { t:"1887-01-07", b:"Şeleneko Muharebesi — Harar Emirliği'nin sonu", tur:"savas", onem:5, dunya:2, kapsam:"dis", yer_id:"Harar",
-  etiket:["askeri","toprak-kaybi"],
+  etiket:["askeri","toprak-kayip"],
   d:"Cihad ilân eden Emîr Abdullah 5000 kişiyle 7 Ocak 1887 günü Habeşleri Şeleneko'da karşıladı; yenileceğini anlayınca güney Harar'daki Ogaden bölgesine kaçtı. II. Menelik şehri ilhak etti ve Adal-Harar zincirinin 472 yıllık siyasî varlığı sona erdi. (Şeleneko atlasta yerleşim olarak KAYITLI DEĞİL.)",
   kaynak:"TDV `harar`: \"Cihad ilân eden Emîr Abdullah 5000 kişiyle 7 Ocak 1887 günü Habeşler'i Şeleneko'da karşıladı\"" },
 
@@ -370,7 +370,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   kaynak:"kronoloji_memluk.js 1438-01-01 kaydı (onem 2, dunya 2) — aynı olay, dunya puanı DEVRALINDI", yer_id:"Aksum" },
 
 { t:"1441-01-01", b:"Zar'a Ya'kūb'dan Sultan Çakmak'a Nil tehdidi içeren protesto", tur:"diplomasi", onem:3, dunya:2, kapsam:"dis", yer_id:"",
-  etiket:["diplomasi","iktisadi"],
+  etiket:["diplomasi","ekonomi"],
   d:"Habeş kralı Memlük Sultanı Çakmak'a, Mısır'daki kıptîlere yapılan muameleyi protesto eden ve Nil'in akışını kesmekle tehdit eden bir mektup gönderdi. Nil kaynaklarının Habeş yaylasında olması, Etiyopya'ya Mısır karşısında yüzyıllar sürecek bir koz verdi.",
   kaynak:"kronoloji_memluk.js 1441-01-01 kaydı (onem 3, dunya 2) — aynı olay, dunya puanı DEVRALINDI", yer_id:"Aksum" },
 
@@ -405,12 +405,12 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   kaynak:"TDV `habes-eyaleti`: \"15 Şâban 962 (5 Temmuz 1555) tarihinde resmen kurulan Habeş beylerbeyiliğine getirildi\"" },
 
 { t:"1555-11-17", b:"Habeş eyaletine ilk nâzır-ı emvâl tayini (Ahmed Bey)", tur:"idari", onem:2, dunya:1, kapsam:"ic", yer_id:"Sevâkin",
-  etiket:["idari","iktisadi"],
+  etiket:["idari","ekonomi"],
   d:"Eyaletin malî işlerini yürütmek üzere ilk defa 17 Kasım 1555'te Ahmed Bey nâzır-ı emvâl tayin edildi. Gelirin ana kaynağı Kızıldeniz limanlarının gümrük resmiydi.",
   kaynak:"TDV `habes-eyaleti`: \"İlk defa 17 Kasım 1555'te Ahmed Bey nâzır-ı emvâl tayin edildi (BA, KK, Ruûs)\"" },
 
-{ t:"1555-11-30", b:"Habeş eyaletine ilk kadı tayini (Abdülvehhâb)", tur:"hukuki", onem:2, dunya:1, kapsam:"ic", yer_id:"Sevâkin",
-  etiket:["hukuki","idari","din"],
+{ t:"1555-11-30", b:"Habeş eyaletine ilk kadı tayini (Abdülvehhâb)", tur:"hukuk", onem:2, dunya:1, kapsam:"ic", yer_id:"Sevâkin",
+  etiket:["hukuk","idari","din"],
   d:"Habeş beylerbeyiliği kurulur kurulmaz buraya Abdülvehhâb adlı bir kadı tayin edildi. Osmanlı hukuk düzeninin Doğu Afrika sahiline taşınmasının ilk adımıdır.",
   kaynak:"TDV `habes-eyaleti`: \"Habeş beylerbeyiliği kurulur kurulmaz buraya Abdülvehhâb adlı bir kadı tayin edildi (30 Kasım 1555)\"" },
 
@@ -465,7 +465,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   kaynak:"TDV `habes-eyaleti`: \"Beylerbeyi Masavva‘da bulunduğundan buraya müstakil bir sancak beyi gönderildi (1564)\"" },
 
 { t:"1565-01-01", b:"Habeş eyaletine ilk defterdarın gönderilmesi", tur:"idari", onem:2, dunya:1, kapsam:"ic", yer_id:"Masavva",
-  etiket:["idari","iktisadi"],
+  etiket:["idari","ekonomi"],
   d:"İlk defterdar, Özdemiroğlu Osman Paşa zamanında 1565'te gönderildi. Eyaletin malî teşkilâtı böylece tamamlandı.",
   kaynak:"TDV `habes-eyaleti`: \"İlk defterdar Özdemiroğlu Osman Paşa zamanında 1565'te gönderildi (BA, KK, Ruûs)\"" },
 
@@ -485,7 +485,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   kaynak:"TDV `habes-eyaleti`: \"Habeş eyaleti en geniş sınırlarına 1560-1578 yılları arasında ulaştı ... 1578'de ulaşılan sınırın âzami sınırlar olduğunu gösterdi\" · TDV `masavva`: \"986 (1578) yılında ... Habeşler galip geldilerse de Masavva‘ Türkler'in elinde kalmaya devam etti\"" },
 
 { t:"1579-01-01", b:"Addi Karro Muharebesi — Osmanlı yenilgisi ve toprak kaybı", tur:"savas", onem:5, dunya:2, kapsam:"dis", yer_id:"",
-  etiket:["askeri","toprak-kaybi"],
+  etiket:["askeri","toprak-kayip"],
   d:"Tigre toprakları üzerinde Addi Karro denilen yerde yapılan meydan savaşında Osmanlı kuvvetleri yenildi ve Beylerbeyi Ahmed Paşa öldürüldü; eyalet topraklarının bir kısmı Habeşistan Krallığı'nın eline geçti. Osmanlı'nın Habeş yaylasındaki ilerlemesi burada kalıcı olarak durdu. (Addi Karro atlasta yerleşim olarak KAYITLI DEĞİL.)",
   kaynak:"TDV `habes-eyaleti`: \"meydan savaşı, Tigre toprakları üzerinde Addi Karro denilen yerde yapıldı (1579)\" · \"1579'da Osmanlılar'ın yenilgisiyle sonuçlanan Addi Karro Savaşı'nın ardından eyalet topraklarının bir kısmı Habeşistan Krallığı'nın eline geçti\"" },
 
@@ -560,12 +560,12 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   kaynak:"TDV `zeyla`: \"Evliya Çelebi, 1673 yılında bizzat gittiği ve bir ay kaldığı Zeyla‘ hakkında ayrıntılı bilgi vermektedir\"" },
 
 { t:"1698-01-01", b:"Habeş Eyaleti'nin güney kısımlarının mahallî âmillere terki", tur:"idari", onem:4, dunya:1, kapsam:"ic", yer_id:"Masavva",
-  etiket:["idari","iktisadi"],
+  etiket:["idari","ekonomi"],
   d:"Eyaletin güney kısımları 1698'den itibaren mahallî âmillerin yönetimine terkedilmeye başlandı ve gümrük gelirleri daha da düştü. Merkezden idare fiilen yerini yerli Türk-Arap ailelerin özerk yönetimine bıraktı.",
   kaynak:"TDV `habes-eyaleti`: \"Eyaletin güney kısımları da 1698'den itibaren mahallî âmillerin yönetimine terkedilmeye başlandığından gümrük gelirleri daha da düştü\"" },
 
-{ t:"1699-01-01", b:"Habeş Eyaleti'nin surre yükümlülüğünden muaf tutulması", tur:"iktisadi", onem:3, dunya:1, kapsam:"ic", yer_id:"Masavva",
-  etiket:["iktisadi","idari","din"],
+{ t:"1699-01-01", b:"Habeş Eyaleti'nin surre yükümlülüğünden muaf tutulması", tur:"ekonomi", onem:3, dunya:1, kapsam:"ic", yer_id:"Masavva",
+  etiket:["ekonomi","idari","din"],
   d:"1699'dan itibaren Habeş eyaleti hac mevsiminde gönderdiği surreden muaf tutuldu. Muafiyet, eyaletin malî çöküşünün resmî kabulüdür.",
   kaynak:"TDV `etiyopya`: \"1699'dan itibaren Habeş eyaleti hac mevsiminde gönderdiği surreden muaf tutuldu\"" },
 
@@ -625,7 +625,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   kaynak:"TDV `etiyopya`: \"Tigre beyi askerî başarılarından dolayı 1872'de İngilizler'in de desteğiyle IV. ...\"", yer_id:"Aksum" },
 
 { t:"1872-01-02", b:"Hidiv İsmâil Paşa'nın Mavi Nil kaynaklarını ilhak teşebbüsünün başarısızlığı", tur:"savas", onem:4, dunya:2, kapsam:"dis", yer_id:"",
-  etiket:["askeri","iktisadi"],
+  etiket:["askeri","ekonomi"],
   d:"1872'de Hidiv İsmâil Paşa, İngilizlerin de teşvikiyle Mavi Nil'in kaynak yerlerini Mısır'a ilhak etmek istedi, fakat başarısızlığa uğradı. Nil sularının denetimi meselesi Mısır-Etiyopya ilişkilerinin değişmez ekseni olarak kaldı.",
   kaynak:"TDV `etiyopya`: \"1872'de Hidiv İsmâil Paşa İngilizler'in de teşvikiyle Mavi Nil'in kaynak yerlerini Mısır'a ilhak etmek istedi, fakat başarısızlığa uğradı\"", kapsam_genis:true },
 
@@ -660,7 +660,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   kaynak:"TDV `habes-eyaleti`: \"Zeyla‘ ile Masavva‘ arasındaki sahilde tekrar idaresini tesis etti (1884)\"" },
 
 { t:"1885-02-05", b:"İtalya'nın Masavva'ı işgali — Osmanlı bayrağının Kızıldeniz batı kıyısından inişi", tur:"toprak", onem:5, dunya:3, kapsam:"dis", yer_id:"Masavva",
-  etiket:["askeri","toprak-kaybi"],
+  etiket:["askeri","toprak-kayip"],
   d:"1882'de güneydeki Assab'ı sömürgeleştiren İtalyanlar, İngiltere'nin daveti üzerine 5 Şubat 1885'te Osmanlı bayrağının dalgalandığı ve Mısır askerinin bulunduğu Masavva'a girdiler. 1884 Adve Antlaşması'na rağmen Etiyopya'ya silâh transitine izin vermediler; Eritre sömürgesinin ve Etiyopya ile otuz yıl sürecek çekişmenin temeli atıldı.",
   kaynak:"TDV `masavva`: \"5 Şubat 1885'te Masavva‘a girdiler\" · TDV `etiyopya`: \"Osmanlılar'a bağlı bir muhafızlık olan Masavva‘ı 5 Şubat 1885'te zaptettiler\"" },
 
@@ -670,7 +670,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   kaynak:"TDV `habes-eyaleti`: \"Mısır'ın malî sıkıntı içinde bulunması yüzünden buranın Yemen vilâyeti tarafından idaresine karar verildi (1885)\"" },
 
 { t:"1886-01-01", b:"Dehlek adalarının İtalya tarafından işgali", tur:"toprak", onem:3, dunya:2, kapsam:"dis", yer_id:"",
-  etiket:["toprak-kaybi"],
+  etiket:["toprak-kayip"],
   d:"1865'te Mısır emlâkine dâhil edilinceye kadar Habeş eyaletine bağlı kalan Dehlek takımadası 1886'da İtalya tarafından işgal edildi. Masavva'ın karşısındaki bu stratejik adalar Eritre sömürgesinin deniz ayağını tamamladı. (Dehlek atlasta yerleşim olarak KAYITLI DEĞİL.)",
   kaynak:"TDV `dehlek`: \"Habeş eyaletine bağlı kalan Dehlek 1886 yılında İtalya tarafından işgal edildi\"", yer_id:"Dahlak" },
 
@@ -690,7 +690,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   kaynak:"TDV `etiyopya`: \"Metemme'de yapılan savaşta öldü ve yerine oğlu Ras Mangasya geçti (1889)\" · gün data/devletler.js `habesistan` künyesindeki 1889-05-02 kaydından FARKLI: künye Uccialli gününü taşıyor, bu ayrı olaydır" },
 
 { t:"1889-05-02", b:"Wichale (Uccialli) Antlaşması — Menelik'in İtalya ile anlaşması", tur:"antlasma", onem:5, dunya:4, kapsam:"dis", yer_id:"",
-  etiket:["antlasma","toprak-kaybi"],
+  etiket:["antlasma","toprak-kayip"],
   d:"İtalyanlar güçlenen Şüve Kralı Menelik'i negus ilân edip yanlarına çekmeye çalıştılar; Menelik ilk iş olarak 2 Mayıs 1889'da onlarla Wichale (Uccialli) Antlaşması'nı imzaladı ve Masavva'dan Keselâ'ya uzanan bir çizginin kuzeyindeki toprakları İtalya'ya verdi. Antlaşmanın Amharca ve İtalyanca metinleri arasındaki fark — İtalya'nın himaye iddiası — Adva Savaşı'na giden yolu açacaktır.",
   kaynak:"TDV `etiyopya`: \"Menelik de ilk iş olarak 2 Mayıs 1889'da onlarla Wichale (Uccialli) Antlaşması'nı imzaladı\" · TDV `masavva`: \"Menelik ile yaptıkları Wichale (Uccialli) Antlaşması ile Kızıldeniz kıyısındaki bazı toprakları ele geçirdiler (2 Mayıs 1889)\"", yer_kon:[11.5,39.6] },
 
@@ -793,16 +793,16 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   kaynak:"TDV `kilve`: \"1498 ve 1502 yıllarında Vasco da Gama, 1500 yılında Pedro Alvares Cabral burayı ziyaret etti\" · TDV `mombasa`: \"1500'de Pedro Alvarès Cabral kumandasındaki Portekiz donanması Mombasa önüne kadar geldi\"" },
 
 { t:"1505-07-24", b:"Francisco d'Almeida'nın Kilve'yi işgali ve yağmalaması", tur:"savas", onem:5, dunya:2, kapsam:"dis", yer_id:"Kilwa Kisiwani (Kilve)",
-  etiket:["askeri","ticaret","toprak-kaybi"],
+  etiket:["askeri","ticaret","toprak-kayip"],
   d:"Etiyopya-Arabistan bölgesi valisi tayin edilen kral nâibi Francisco d'Almeida 500 kişilik bir kuvvetle Kilve adasına çıktı ve şehri yağmaladı. Sofala altın ticaretinin merkezi olan sultanlık, Doğu Afrika kıyısındaki Portekiz üs zincirinin ilk halkası oldu.",
   kaynak:"TDV `kilve`: \"kral nâibi Francisco d'Almeida 1505'te 500 kişilik bir kuvvetle adaya çıktı\" · gün ve dunya puanı kronoloji_portekiz.js 1505-07-24 kaydından devralındı (onem 3, dunya 2)" },
 
 { t:"1505-08-14", b:"Mombasa'nın top ateşiyle yağmalanması", tur:"savas", onem:5, dunya:2, kapsam:"dis", yer_id:"Mombasa",
-  etiket:["askeri","toprak-kaybi"],
+  etiket:["askeri","toprak-kayip"],
   d:"Yirmi gemiden oluşan Portekiz donanması Sofala ve Kilve'nin ardından Mombasa'yı da ele geçirdi ve şehri top ateşiyle yağmaladı. Kıyının en zengin üç limanı bir yaz içinde düştü.",
   kaynak:"TDV `mombasa`: \"Francisco d'Almeida kumandasındaki yirmi gemiden meydana gelen Portekiz donanması Süfâle ve Kilve'nin ardından 1505'te Mombasa'yı da ele geçirdi\" · gün ve dunya puanı kronoloji_portekiz.js 1505-08-14 kaydından devralındı (onem 2, dunya 2)" },
 
-{ t:"1506-01-01", b:"Kilve Sultanlığı'nın Mombasa gemilerinden vergi aldığının kaydedilmesi", tur:"iktisadi", onem:2, dunya:1, kapsam:"ic", yer_id:"Kilwa Kisiwani (Kilve)",
+{ t:"1506-01-01", b:"Kilve Sultanlığı'nın Mombasa gemilerinden vergi aldığının kaydedilmesi", tur:"ekonomi", onem:2, dunya:1, kapsam:"ic", yer_id:"Kilwa Kisiwani (Kilve)",
   etiket:["ticaret","idari"],
   d:"1506'da Portekiz kralına yazılan bir rapordan, Mombasa ile Kilve Sultanlığı arasında münasebet bulunduğu ve Kilve'nin Mombasa'ya ait gemilerden vergi aldığı anlaşılmaktadır. Svahili şehirleri arasındaki hiyerarşiyi gösteren nadir kayıtlardan biridir.",
   kaynak:"TDV `mombasa`: \"Mombasa ile Kilve Sultanlığı arasında münasebetlerin bulunduğu, 1506'da Portekiz kralına yazılan bir rapordan anlaşılmakta ve Kilve Sultanlığı'nın Mombasa'ya ait gemilerden vergi aldığı belirtilmektedir\"" },
@@ -827,7 +827,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   d:"Dünya deniz ticaretini ele geçirmek ve bunun için Kızıldeniz'de hâkimiyet kurmak isteyen Portekizliler 1513'te Dehlek'e çıktılar ve Melik Ahmed b. İsmâil'i tâbi kılmaya çalıştılar; 1520'de Diego Lopes de Sequeira kumandasındaki kuvvetler adayı işgal edip yaktılar. (Dehlek atlasta yerleşim olarak KAYITLI DEĞİL.)",
   kaynak:"TDV `dehlek`: \"Portekizliler 1513 yılında Dehlek'e çıktılar\" · \"geri dönen Diego Lopes de Sequeira kumandasındaki Portekiz kuvvetleri Dehlek'i işgal edip yaktılar (1520)\"", yer_id:"Dahlak" },
 
-{ t:"1516-01-01", b:"Duarte Barbosa'nın Mombasa tasviri — taş evler, bal, bal mumu ve fildişi ihracı", tur:"iktisadi", onem:3, dunya:1, kapsam:"ic", yer_id:"Mombasa",
+{ t:"1516-01-01", b:"Duarte Barbosa'nın Mombasa tasviri — taş evler, bal, bal mumu ve fildişi ihracı", tur:"ekonomi", onem:3, dunya:1, kapsam:"ic", yer_id:"Mombasa",
   etiket:["ticaret","kultur","sehircilik"],
   d:"Portekiz kraliyet ticareti memuru Duarte Barbosa 1516'da Mombasa'ya uğradı; şehrin taştan yapılmış badanalı evleri, güzel caddeleri ve gösterişli meydanları bulunduğunu, ahalisinin bal, bal mumu ve fildişi ihraç ettiğini yazdı. Svahili şehir kültürünün işgal öncesi hâline dair en somut Avrupa kaydıdır.",
   kaynak:"TDV `mombasa`: \"Mombasa'ya uğrayarak (1516) burası hakkında bilgi veren Duarte Barbosa şehrin taştan yapılmış badanalı evleri, güzel caddeleri ve gösterişli meydanları bulunduğunu, ahalisinin bal, bal mumu ve fildişi ihraç ettiğini belirtmekte\"" },
@@ -842,7 +842,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   d:"Portekizlilerin Kilve'de ele geçirdikleri Kilve tarihi bu alandaki ilk yazılı kaynak olup 1530'da João de Barros tarafından tercüme edildi. Eser 1862'de Şeyh Muhyiddin tarafından yeniden kaleme alınacak, 1877'de Zengibar Sultanı Bergaş bir nüshasını İngiliz konsolosuna hediye edecek ve 'es-Selve fî ahbâri Kilve' adıyla basılacaktır — Doğu Afrika'nın kendi kaleminden yazılmış en eski tarih metnidir.",
   kaynak:"TDV `kilve`: \"Portekizliler'in Kilve tarihi hakkında ele geçirdikleri eser bu alanda ilk yazılı kaynak olup 1530'da João de Barros tarafından tercüme edildi\" · \"Uman Kültür Bakanlığı ise aynı nüshayı es-Selve fî aḫbâri Kilve adıyla bastırdı (1985)\"" },
 
-{ t:"1532-01-01", b:"Estevão da Gama'nın gemi satın almak üzere Makdişu'ya gelişi", tur:"iktisadi", onem:2, dunya:1, kapsam:"dis", yer_id:"Mogadişu",
+{ t:"1532-01-01", b:"Estevão da Gama'nın gemi satın almak üzere Makdişu'ya gelişi", tur:"ekonomi", onem:2, dunya:1, kapsam:"dis", yer_id:"Mogadişu",
   etiket:["ticaret"],
   d:"Vasco da Gama'nın oğlu Estevão da Gama 1532'de gemi satın almak amacıyla Makdişu'ya geldi. İşgal edilemeyen şehirle Portekiz'in ilişkisi savaştan ticarete dönmüştü.",
   kaynak:"TDV `makdisu`: \"1532'de Vasco da Gama'nın oğlu Estevāo da Gama gemi satın almak amacıyla buraya gelmişti\"" },
@@ -868,7 +868,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   kaynak:"TDV `mombasa`: \"1589'da emrindeki dört kadırga ve bir yelkenliyle yeniden Doğu Afrika sahillerine gönderilen Ali Bey'e, Portekiz işgali altındaki Melindi sultanı hariç sahil şehirlerindeki bütün müslüman sultanlar bağlılıklarını bildirerek yardımcı oldular\" · TDV `makdisu`: \"Ali Bey beş gemiyle tekrar bölgeye gelip bu sahillerin Osmanlı hâkimiyetinde olduğunu ilân etti (1589)\"" },
 
 { t:"1589-03-05", b:"Portekiz donanmasının Mombasa'da Osmanlı filosunu yakması", tur:"deniz", onem:5, dunya:3, kapsam:"dis", yer_id:"Mombasa",
-  etiket:["askeri","toprak-kaybi"],
+  etiket:["askeri","toprak-kayip"],
   d:"5 Mart 1589'da adanın girişini kapatan Portekiz donanması şehri bombalayıp limandaki Türk donanmasını yaktı. Osmanlı'nın ekvator altı Afrika'daki varlığı bu tek gecede sona erdi; Portekiz bunun üzerine Melindi'deki deniz üssünü Mombasa'ya nakletti.",
   kaynak:"TDV `mombasa`: \"5 Mart 1589'da adanın girişini kapatan Portekiz donanması şehri bombalayıp limandaki Türk donanmasını yaktı\"" },
 
@@ -918,7 +918,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 //    Mecertin · Osmanlı-Mısır idaresi · Avrupa paylaşımı · Derviş Devleti
 // ══════════════════════════════════════════════════════════════════
 
-{ t:"1281-01-01", b:"Makdişu'nun Ebû Bekir b. Fahreddin hânedanı altında ticaret merkezi olması", tur:"iktisadi", onem:5, dunya:2, kapsam:"ic", yer_id:"Mogadişu",
+{ t:"1281-01-01", b:"Makdişu'nun Ebû Bekir b. Fahreddin hânedanı altında ticaret merkezi olması", tur:"ekonomi", onem:5, dunya:2, kapsam:"ic", yer_id:"Mogadişu",
   etiket:["ticaret","hanedan","din"],
   d:"VII/XIII. yüzyılda Ebû Bekir b. Fahreddin, Makdişu'da bir sultanlık kurdu ve şehir refah seviyesi yüksek bir ticaret merkezi hâline geldi. Mescid-i Cum'a'nın 636 (1238), Erbaa Rükûn Camii'nin 667 (1268) ve Fahreddin Camii'nin 27 Şâban 667 (1 Mayıs 1269) tarihli kitâbeleri şehrin bu dönemdeki imar faaliyetini belgeler.",
   kaynak:"TDV `somali`: \"VII/XIII. yüzyıl: Ebû Bekir b. Fahreddin Makdişu'da sultanlık kurdu\" · TDV `makdisu`: \"Mescid-i Cum'a ve diğer iki büyük caminin 636 (1238), 667 (1268) ve Şâban 667 (Nisan 1269) tarihli kitâbeleri\"" },
@@ -934,7 +934,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   kaynak:"TDV `makdisu`: \"1331 yılında Sultan Ebû Bekir b. Ömer ... şehrin büyük gelişme gösterdiğini kaydetmiştir\" · \"XIV-XV. yüzyıl: Makdişu tarihinin en refah bulduğu zaman dilimi\"" },
 
 { t:"1500-01-01", b:"Ecuran (Ajuran) Sultanlığı'nın güney Somali'de hâkimiyet kurması", tur:"kurulus", onem:5, dunya:2, kapsam:"ic", yer_id:"Berâve",
-  etiket:["kurulus","idari","iktisadi"],
+  etiket:["kurulus","idari","ekonomi"],
   d:"Ecuran (Ajuran) Sultanlığı, güney Somali kıyısında ve Şebelle vadisinde hâkimiyet kurdu. Kuyu ve sulama düzeniyle iç bölgeleri örgütleyen bu yapı, Makdişu şehir sultanlığının yerini alan ilk büyük kara devletidir.",
   kaynak:"data/devletler.js `somali` künyesi: \"Ecuran (Ajuran) Sultanlığı, güney Somali kıyısında ve Şebelle vadisinde hâkimiyet kurdu\" — TDV `somali` maddesi Ecuran'ı ADIYLA anıyor ama KURULUŞ GÜNÜ vermiyor, künyenin yuvarlak yılı korundu" },
 
@@ -989,7 +989,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   kaynak:"TDV `zeyla`: \"İngiliz seyyahı Sir Richard Francis Burton 1854 Ekiminde geldiği Zeyla‘da nahiye müdürü el-Hac Ali Şârmârkī tarafından karşılandı\"" },
 
 { t:"1859-01-01", b:"Fransa'nın Ubûk'u (Obock) sömürge ilân etmesi", tur:"toprak", onem:4, dunya:2, kapsam:"dis", yer_id:"Tacûra",
-  etiket:["toprak-kaybi"],
+  etiket:["toprak-kayip"],
   d:"Fransa 1859'da mahallî idarecisinden kiraladığı Somali'nin kuzey ucundaki Ubûk'u (Obock) sömürgesi ilân etti ve Osmanlıların bütün engelleme çabalarına rağmen burada Fransız Somalisi adıyla bir sömürge yönetimi kurdu. Bugünkü Cibuti'nin temeli budur. (Obock atlasta yerleşim olarak KAYITLI DEĞİL; en yakın kayıtlı nokta Tacûra kullanıldı.)",
   kaynak:"TDV `somali`: \"Fransa 1859'da mahallî idarecisinden kiraladığı Somali'nin kuzey ucundaki Ubûk'u (Obock) sömürgesi ilân edip Osmanlılar'ın bütün engelleme çabalarına rağmen burada Fransız Somalisi adıyla bir sömürge yönetimi kurdu\"" },
 
@@ -1024,17 +1024,17 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   kaynak:"TDV `somali`: \"Mısır birlikleri Sudan'daki Muhammed Ahmed el-Mehdî isyanları sebebiyle 1883'te Somali'den çekildi\"" },
 
 { t:"1884-07-18", b:"İngiltere'nin Zeyla' ve Berberâ'yı işgali — İngiliz Somalisi'nin başlangıcı", tur:"toprak", onem:5, dunya:3, kapsam:"dis", yer_id:"Berbera",
-  etiket:["toprak-kaybi","antlasma"],
+  etiket:["toprak-kayip","antlasma"],
   d:"Mehdî hadisesini fırsat bilen İngiltere Zeyla' ile beraber Berberâ'yı da işgal etti ve buradaki kabilelerle anlaşmalar yaparak şehre yerleşti. Osmanlı'nın 1877'de tanınmış hakları fiilen ortadan kalktı; üç yıl sonra Berberâ merkez olmak üzere İngiliz Somalisi himaye idaresi kurulacaktır.",
   kaynak:"TDV `berbera`: \"Fakat mehdî hadisesini fırsat bilen İngiltere Zeyla‘ ile beraber Berberâ'yı da işgal etti ve buradaki kabilelerle anlaşmalar yaparak şehre yerleşti (1884)\" · gün olaylar_ek16.js 1884-07-18 kaydından alındı" },
 
 { t:"1887-01-02", b:"Berberâ merkezli İngiliz Somalisi himaye idaresinin kurulması", tur:"idari", onem:5, dunya:3, kapsam:"dis", yer_id:"Berbera",
-  etiket:["idari","toprak-kaybi"],
+  etiket:["idari","toprak-kayip"],
   d:"İngiltere, Berberâ merkez olmak üzere İngiliz Somalisi adıyla bir himaye idaresi kurdu. Bu idare 1941'e kadar sürecek ve Somali'nin kuzeyi ile güneyi arasındaki bugüne uzanan siyasî ayrımın temelini atacaktır.",
   kaynak:"TDV `berbera`: \"bölgede Berberâ merkez olmak üzere İngiliz Somalisi adıyla bir himaye idaresi kurdu (1887)\"" },
 
 { t:"1888-01-01", b:"Fransa'nın Zeyla' yöresini işgali ve Osmanlı idaresinin sona ermesi", tur:"toprak", onem:4, dunya:2, kapsam:"dis", yer_id:"Zeyla",
-  etiket:["toprak-kaybi"],
+  etiket:["toprak-kayip"],
   d:"Osmanlı'nın 1884'te yeniden kurduğu ve Mısır Hidivliği'nin üstleneceği Zeyla'-Masavva sahil idaresi, Fransa'nın Zeyla' yöresini işgaliyle son buldu. Aynı yıl İngiltere Sudan'da, İtalya da Kızıldeniz'in Habeşistan sahillerinde himaye idareleri kurdular.",
   kaynak:"TDV `zeyla`: \"Bu idareyi Mısır Hidivliği üstlenecekti, ancak Fransa'nın Zeyla‘ yöresini işgali bu yönetime de son verdi (1888)\" · TDV `habes-eyaleti`: \"İngiltere Sudan'da, İtalya da Kızıldeniz'in Habeşistan sahillerinde himaye idaresi kurdular (1888)\"" },
 
@@ -1044,12 +1044,12 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   kaynak:"TDV `somali`: \"1889'da Somali'de İmam Muhammed b. Abdullah Hasan ...\" · \"İngilizler 1910'da sahil bölgelerinden çekilmek zorunda kaldılar\" · \"Onun 1920 yılında ölümünün ardından İtalya bölgede güç kazandı\"" },
 
 { t:"1891-03-02", b:"İngiliz-İtalyan antlaşması — Berâve ve Merkâ'nın İtalya'da kalması", tur:"antlasma", onem:5, dunya:3, kapsam:"dis", yer_id:"Berâve",
-  etiket:["antlasma","toprak-kaybi"],
+  etiket:["antlasma","toprak-kayip"],
   d:"2 Mart 1891'de İngilizlerin İtalyanlarla anlaşmasının ardından Somali'nin güney sahilindeki Berâve ve Merkâ gibi şehirler İtalyanların elinde kaldı. Somali toprakları böylece İngiliz, İtalyan ve Fransız payları arasında bölündü.",
   kaynak:"TDV `somali`: \"2 Mart 1891'de İngilizler'in İtalyanlar'la anlaşmasının ardından Somali'nin güney sahilindeki Berâve ve Merkâ gibi şehirler İtalyanlar'ın elinde kaldı\"" },
 
-{ t:"1892-01-01", b:"Makdişu'nun 160.000 rupi karşılığında İtalya'ya kiralanması", tur:"iktisadi", onem:5, dunya:2, kapsam:"dis", yer_id:"Mogadişu",
-  etiket:["toprak-kaybi","ticaret"],
+{ t:"1892-01-01", b:"Makdişu'nun 160.000 rupi karşılığında İtalya'ya kiralanması", tur:"ekonomi", onem:5, dunya:2, kapsam:"dis", yer_id:"Mogadişu",
+  etiket:["toprak-kayip","ticaret"],
   d:"Zengibar Sultanı Halîfe b. Saîd'in 1889'da limanı İtalya'ya kiraya vermesinin ardından Makdişu, Berâve, Merkâ ve Varşeyh şehirleriyle beraber 1892'de 160.000 rupi karşılığında İtalya tarafından kiralandı ve buralar İtalyan himayesindeki kıyılar ilân edildi. Bir sultanlığın kendi limanlarını kiraya vermesi, dolaylı sömürgeleşmenin tipik yoludur.",
   kaynak:"TDV `makdisu`: \"Makdişu 1892 yılında 160.000 rupi karşılığında aynı ülke tarafından kiralandı ve buraları İtalyan himayesindeki kıyılar olarak ilân edildi\"" },
 
@@ -1059,22 +1059,22 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   kaynak:"TDV `makdisu`: \"1897'de Somali-Habeşistan sınırını çizmek için bir antlaşma yapmaya teşebbüs ettiler\"" },
 
 { t:"1902-01-02", b:"Zengibar Sultanlığı'nın İtalya'nın Benâdir hâkimiyetini kabulü", tur:"antlasma", onem:4, dunya:2, kapsam:"dis", yer_id:"Mogadişu",
-  etiket:["antlasma","toprak-kaybi"],
+  etiket:["antlasma","toprak-kayip"],
   d:"Zengibar Sultanlığı, İtalya'nın Benâdir bölgesindeki hâkimiyetini 1902'de kabul etti. Kira ilişkisi böylece egemenlik devrine dönüştü.",
   kaynak:"TDV `makdisu`: \"Zengibar Sultanlığı, İtalya'nın Benâdir bölgesindeki hâkimiyetini 1902'de kabul etti\"" },
 
 { t:"1905-01-01", b:"Makdişu'nun İtalya'ya satılması ve İngiliz Somalisi'nin Aden'e bağlanması", tur:"toprak", onem:5, dunya:2, kapsam:"dis", yer_id:"Mogadişu",
-  etiket:["toprak-kaybi","idari"],
+  etiket:["toprak-kayip","idari"],
   d:"Zengibar Sultanı Seyyid Ali b. Hamûd 1905'te Makdişu'yu, 1906'da Somali sahilinde Zengibar'a ait bütün toprakları İtalya'ya sattı. Aynı yıl İngiltere de Somaliland'ı Aden'deki sömürgesiyle birleştirdi; Somali kıyısında Afrika-Arap siyasî bağı tamamen koptu.",
   kaynak:"TDV `makdisu`: \"Hamûd 1905'te Makdişu'yu, 1906'da Somali sahilinde Zengibar'a ait bulunan bütün toprakları İtalya'ya sattı\" · TDV `somali`: \"İngiltere 1905 yılında Somaliland'ı Aden'deki sömürgesiyle birleştirdi\"" },
 
 { t:"1911-01-02", b:"İtalya'nın Somali'yi sömürge ilân etmesi ve Makdişu'yu başşehir yapması", tur:"idari", onem:5, dunya:3, kapsam:"dis", yer_id:"Mogadişu",
-  etiket:["idari","toprak-kaybi"],
+  etiket:["idari","toprak-kayip"],
   d:"1911 yılında İtalya Somali'yi sömürge ilân ederek Makdişu'yu başşehir yaptı. Aynı yıl Trablusgarp'a da saldıran İtalya, Osmanlı'nın Afrika'daki son iki dayanağını aynı anda hedef almış oldu.",
   kaynak:"TDV `makdisu`: \"1911 yılında İtalya Somali'yi sömürge ilân ederek Makdişu'yu başşehir yaptı\"" },
 
 { t:"1916-01-01", b:"Osmanlı'nın Zeyla'daki hâkimiyetinin fiilen sona ermesi", tur:"idari", onem:5, dunya:2, kapsam:"dis", yer_id:"Zeyla",
-  etiket:["toprak-kaybi","idari"],
+  etiket:["toprak-kayip","idari"],
   d:"I. Dünya Savaşı sırasında Osmanlı Devleti'nin Zeyla'daki hâkimiyeti fiilen sona erdi. 1559'da Özdemir Paşa'nın bağladığı liman üzerindeki 357 yıllık Osmanlı iddiası böylece kapandı; bu, Osmanlı'nın Doğu Afrika'daki son toprak bağıdır.",
   kaynak:"TDV `zeyla`: \"Böylece Osmanlı Devleti'nin Zeyla‘daki hâkimiyeti fiili olarak 1916 yılında sona erdi\"" },
 
@@ -1105,17 +1105,17 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   kaynak:"data/devletler.js `cimma-sultanligi` künyesi (1830-01-01 → 1923-10-29) · TDV'de MÜSTAKİL MADDE YOK · dayanak: Richard Pankhurst, The Ethiopian Borderlands (Red Sea Press, 1997), Gibe krallıkları bölümü" },
 
 { t:"1894-01-17", b:"Vollayta (Wolaita) Krallığı'nın Menelik tarafından ilhakı", tur:"toprak", onem:5, dunya:2, kapsam:"dis", yer_id:"Sodo (Vollayta)",
-  etiket:["askeri","toprak-kaybi"],
+  etiket:["askeri","toprak-kayip"],
   d:"Menelik'in güney seferlerinde Vollayta Krallığı ağır bir savaşın ardından ilhak edildi ve kralı Tona Gaga esir alındı. Adva zaferinden iki yıl önce yapılan bu güney genişlemesi, Etiyopya'nın bugünkü sınırlarının büyük kısmını çizen hareketin parçasıdır.",
   kaynak:"data/devletler.js `vollayta-kralligi` künyesi (t: 1894-01-17) · TDV'de MÜSTAKİL MADDE YOK · dayanak: Bahru Zewde, A History of Modern Ethiopia 1855-1974 (Menelik'in güney fetihleri bölümü; eser TDV `harar` maddesinin bibliyografyasında da anılıyor)" },
 
 { t:"1897-01-01", b:"Sidamo krallıklarının Etiyopya'ya katılması", tur:"toprak", onem:5, dunya:2, kapsam:"dis", yer_id:"Yirgalem (Sidamo)",
-  etiket:["askeri","toprak-kaybi"],
+  etiket:["askeri","toprak-kayip"],
   d:"Menelik'in güney seferleri sırasında Sidamo bölgesindeki krallıklar Etiyopya'ya katıldı. Bu genişleme, imparatorluğun nüfusunu ve tarım kaynaklarını iki katına çıkardı ve Adva'da Avrupa'ya direnecek malî gücü sağladı.",
   kaynak:"data/devletler.js `sidamo-kralliklari` künyesi (t: 1897-01-01) · TDV'de MÜSTAKİL MADDE YOK · dayanak: Bahru Zewde, A History of Modern Ethiopia 1855-1974" },
 
 { t:"1897-09-10", b:"Kaffa Krallığı'nın düşüşü — son kral Gaki Şeroço'nun esir alınması", tur:"yikilis", onem:5, dunya:2, kapsam:"dis", yer_id:"Bonga (Kaffa)",
-  etiket:["askeri","toprak-kaybi","hanedan"],
+  etiket:["askeri","toprak-kayip","hanedan"],
   d:"Ras Wolde Giyorgis komutasındaki Habeş ordusu, beş asırlık Kaffa Krallığı'nın son kralı Gaki Şeroço'yu esir aldı ve ülke Etiyopya'ya katıldı. Güneybatı krallıklarının bağımsız varlığı böylece sona erdi; Menelik'in güney fetihleri tamamlandı.",
   kaynak:"data/devletler.js `kaffa-kralligi` künyesi: \"Ras Wolde Giyorgis komutasındaki Habeş ordusu son kral Gaki Şeroço'yu esir aldı\" · TDV'de MÜSTAKİL MADDE YOK · dayanak: Richard Pankhurst, The Ethiopian Borderlands (Red Sea Press, 1997)" },
 
@@ -1135,7 +1135,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   d:"Omukama Kyebambe'nin oğlu Prens Kaboyo, 1822 yılında kendi sorumluluğundaki bölgede Toro Krallığı'nı kurarak Bunyoro'dan ayrıldı. Büyük Göller bölgesinin en büyük krallığı olan Bunyoro'nun parçalanması, Buganda'nın yükselişinin önünü açtı. (Toro atlasta yerleşim olarak KAYITLI DEĞİL.)",
   kaynak:"TDV `uganda`: \"Omukama Kyebambe'nın oğlu Prens Kaboyo'nun 1822 yılında kendi sorumluluğundaki bölgede tesis ettiği Toro Krallığı\"", yer_kon:[0.662,30.275] },
 
-{ t:"1836-01-01", b:"Suna Kalema Kansinge dönemi — Zengibarlı Arap tüccarların Buganda'ya gelişi", tur:"iktisadi", onem:5, dunya:2, kapsam:"dis", yer_id:"Mengo (Buganda)",
+{ t:"1836-01-01", b:"Suna Kalema Kansinge dönemi — Zengibarlı Arap tüccarların Buganda'ya gelişi", tur:"ekonomi", onem:5, dunya:2, kapsam:"dis", yer_id:"Mengo (Buganda)",
   etiket:["ticaret","din"],
   d:"Suna Kalema Kansinge (1836-1854) Doğu Afrika sahilleriyle ilişkileri geliştirince Zengibar Sultanlığı'ndan Arap asıllı tüccarlar fildişi ve köle ticareti için Buganda topraklarına gelmeye başladılar. 1840'lardan itibaren başlayan bu ticaret ülkede refahı artırdı ve İslâmiyet'i Büyük Göller bölgesine taşıdı.",
   kaynak:"TDV `uganda`: \"Suna Kalema Kansinge (1836-1854) Doğu Afrika sahilleriyle ilişkileri geliştirince Zengibar Sultanlığı'ndan Arap asıllı tüccarlar fildişi ve köle ticareti için Buganda Krallığı topraklarına gelmeye başladılar\"" },
@@ -1196,7 +1196,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   kaynak:"TDV `uganda`: \"1888'de tahttan indirilip sürgüne gönderilen Muvanga iki yıl sonra hıristiyanların desteğiyle tekrar tahta oturdu\"" },
 
 { t:"1890-01-02", b:"Almanya-İngiltere antlaşması ile Doğu Afrika'nın paylaşılması", tur:"antlasma", onem:5, dunya:4, kapsam:"dis", yer_id:"Zanzibar (Zengibar)",
-  etiket:["antlasma","toprak-kaybi"],
+  etiket:["antlasma","toprak-kayip"],
   d:"Almanya ile İngiltere, Afrika'nın doğu sahillerini aralarında paylaşma konusunu ilk defa 1890 yılında bir anlaşma ile gündeme getirdiler. Helgoland-Zengibar Antlaşması olarak bilinen bu düzenleme, Uganda'yı İngiliz, Tanganyika'yı Alman nüfuz bölgesine bıraktı ve Zengibar'ı İngiliz himayesine soktu.",
   kaynak:"TDV `uganda`: \"Almanya ile İngiltere, Afrika'nın doğu sahillerini aralarında paylaşma konusunu ilk defa 1890 yılında bir anlaşma ile gündeme getirdiler\" · TDV `zengibar`: \"1890: Helgoland-Zanzibar Antlaşması İngiliz himayesini kurar\"" },
 
@@ -1206,12 +1206,12 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   kaynak:"TDV `uganda`: \"1892 yılı Ocak ayında aralarında başlayan mücadeleyi silâh bakımından üstün olan Protestanlar kazandı\" · \"Uganda topraklarında 1892'de başlayan İngiliz sömürgeciliği 1962 yılına kadar devam etti\"" },
 
 { t:"1894-06-18", b:"İngiltere ile himaye antlaşmasının imzalanması", tur:"antlasma", onem:5, dunya:3, kapsam:"dis", yer_id:"Mengo (Buganda)",
-  etiket:["antlasma","toprak-kaybi"],
+  etiket:["antlasma","toprak-kayip"],
   d:"Buganda Krallığı, İngiltere ile bir himaye antlaşması imzaladı ve Uganda Protektorası resmen kuruldu. Altı asırlık krallık, iç yapısını koruyarak fakat dış egemenliğini kaybederek İngiliz idaresine girdi.",
   kaynak:"data/devletler.js `buganda` künyesi: \"İngiltere ile himaye antlaşması imzalandı\" (t: 1894-06-18) · TDV `uganda` maddesi himaye idaresini anlatıyor, GÜN VERMİYOR — gün künyeden devralındı" },
 
 { t:"1900-01-01", b:"Buganda Antlaşması — toprakların resmen sömürgeleştirilmesi", tur:"antlasma", onem:5, dunya:2, kapsam:"dis", yer_id:"Mengo (Buganda)",
-  etiket:["antlasma","idari","toprak-kaybi"],
+  etiket:["antlasma","idari","toprak-kayip"],
   d:"1900 yılında İngilizlerle yapılan antlaşmayla Buganda toprakları resmen sömürgeleştirildi. Antlaşma toprağı şeflere özel mülk olarak dağıttı (mailo) ve krallığın geleneksel toprak düzenini kalıcı olarak değiştirdi.",
   kaynak:"TDV `uganda`: \"1900 yılında İngilizler'le yapılan antlaşmayla Buganda toprakları resmen sömürgeleştirildi\"" },
 
@@ -1220,8 +1220,8 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   d:"Muvanga'nın 1903'te Seyşeller (Seychelles) adasında sürgündeyken ölmesi üzerine oğullarının en büyüğü II. Daudi Chwa tahta çıktı. Onun krallığı 1939'daki ölümüne kadar tamamen İngiliz sömürge idaresi altında geçti.",
   kaynak:"TDV `uganda`: \"Muvanga'nın 1903'te Seyşeller (Seychelles) adasında sürgünde iken ölmesi üzerine oğullarının en büyüğü II. ...\" · \"Daudi Chwa'nın krallığı 1939'da ölümüne kadar İngiliz sömürge idaresi altında geçti\"" },
 
-{ t:"1903-01-02", b:"Uganda'da pamuk tarımının başlaması", tur:"iktisadi", onem:4, dunya:2, kapsam:"ic", yer_id:"Mengo (Buganda)",
-  etiket:["ticaret","iktisadi"],
+{ t:"1903-01-02", b:"Uganda'da pamuk tarımının başlaması", tur:"ekonomi", onem:4, dunya:2, kapsam:"ic", yer_id:"Mengo (Buganda)",
+  etiket:["ticaret","ekonomi"],
   d:"Kahve ve çaydan sonra ülkenin üçüncü ihraç ürünü olan pamuk, Uganda'da ilk defa 1903 yılında yetiştirilmeye başlandı ve demiryollarının gelişmesiyle Kenya üzerinden pazarlandı. Sömürge iktisadının Büyük Göller bölgesini dünya pazarına bağlaması bu ürünle oldu.",
   kaynak:"TDV `uganda`: \"Kahve ve çaydan sonra üçüncü ihraç ürünü pamuk ülkede ilk defa 1903 yılında yetiştirilmeye başlanmış ve demiryollarının gelişmesiyle Kenya üzerinden pazarlanmıştır\"" },
 

@@ -157,7 +157,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   kaynak:"kazan-hanligi (TDV)" },
 
 { t:"1487-07-09", b:"KAZAN İLK DEFA RUS İŞGALİNE UĞRADI — başşehir düştü", tur:"isgal", onem:5, dunya:3, kapsam:"dis",
-  etiket:["askeri","isgal","toprak-kaybi"],
+  etiket:["askeri","isgal","toprak-kayip"],
   yer_id:"Kazan",
   d:"9 Temmuz 1487'de başşehir Kazan Ruslar tarafından ilk defa işgal edildi. Moskova hanlığı tamamen ortadan kaldıracak güçte olmadığı ya da onu Kāsım Hanlığı gibi tâbi bir devlet olarak tutmayı tercih ettiği için III. İvan, Kazan tahtına Muhammed Emin'i çıkardı. Kazan Hanlığı'nın altmış beş yıl sürecek Moskova nüfuzu devri bu tarihte başlar.",
   kaynak:"kazan-hanligi (TDV)" },
@@ -253,7 +253,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   kaynak:"kazan-hanligi (TDV)" },
 
 { t:"1551-06-01", b:"Sviyajsk kalesi kuruldu — Kazan'ın karşı yakasına Rus üssü", tur:"idari", onem:4, dunya:2, kapsam:"dis",
-  etiket:["askeri","idari","toprak-kaybi"],
+  etiket:["askeri","idari","toprak-kayip"],
   yer_id:"Sviyajsk",
   d:"IV. İvan, Kazan'ın batısında İdil ile Sviyaga'nın birleştiği noktada bir kale kurdurarak seferin lojistik üssünü hanlığın kapısına yerleştirdi. Kalenin kurulmasıyla Kazan'ın dağ tarafı (yani sağ yaka) merkezden koptu ve ertesi yılki kuşatma bu üsten beslendi. Kale bugün de aynı adla ayakta olan bir ada yerleşimidir.",
   kaynak:"bulunamadı — TDV kazan-hanligi maddesi Sviyajsk'ı adıyla anmıyor; dayanak standart akademik kaynak (Kurat, Türkiye ve İdil Boyu), ay YAKLAŞIK" },
@@ -271,7 +271,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   kaynak:"kazan-hanligi (TDV — '20 Ağustos 1552'de Kazan'a ulaşarak 23 Ağustos'ta şehri kuşattı')" },
 
 { t:"1552-10-15", b:"Kazan'ın düşüşü — Orta İdil'de dokuz asırlık Türk hâkimiyeti bitti", tur:"son", onem:5, dunya:4, kapsam:"dis",
-  etiket:["askeri","isgal","son","toprak-kaybi"],
+  etiket:["askeri","isgal","son","toprak-kayip"],
   yer_id:"Kazan",
   d:"İki ay kadar süren kanlı çarpışmaların ardından 15 Ekim 1552'de Kazan düştü ve Orta İdil sahasında milâttan sonra VI. yüzyıldan beri süren Türk hâkimiyeti sona erdi. Şehrin sanat, hat ve yapı eserleri yağma edildi; büyük çoğunluğunun izi bile kalmadı. ⚠️ kronoloji_rusya.js aynı olayı 1552-10-02 diye tarihliyor; TDV 15 Ekim diyor, fark takvim/kaynak ayrılığıdır ve koordinatöre bildirilmiştir.",
   kaynak:"kazan-hanligi (TDV — '15 Ekim 1552'de Kazan düştü')" },
@@ -351,7 +351,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   kaynak:"nogaylar (TDV) — yıl YAKLAŞIK, kaynak 'XVI. yüzyılın başında' diyor" },
 
 { t:"1554-01-01", b:"Yûsuf Mirza öldürüldü — orda Osmanlı ve Moskova taraftarı diye ikiye bölündü", tur:"bolunme", onem:5, dunya:2, kapsam:"ic",
-  etiket:["siyaset","kriz","hanedan"],
+  etiket:["siyaset","kriz","hanedan","taht-kavgasi"],
   yer_id:"",
   d:"Osmanlı taraftarı Yûsuf Mirza ile Moskova taraftarı kardeşi İsmâil Mirza arasındaki mücadele Yûsuf'un öldürülmesiyle sonuçlandı ve yüzyılın ortasında orda bölünmeye uğradı. Bir bozkır konfederasyonunun iç kavgası, iki büyük devletin dış siyaseti hâline gelmişti; bölünme bir daha onarılamadı.",
   kaynak:"nogaylar (TDV) — yıl YAKLAŞIK, kaynak 'yüzyılın ortasında' diyor" },
@@ -387,7 +387,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   kaynak:"nogaylar (TDV)" },
 
 { t:"1586-01-01", b:"Moskova, Nogayları kuşatmak için Samara ve Ufa'yı kurdu", tur:"idari", onem:4, dunya:2, kapsam:"dis",
-  etiket:["askeri","idari","toprak-kaybi"],
+  etiket:["askeri","idari","toprak-kayip"],
   yer_id:"Samara",
   d:"İdil dolaylarında güvenliği sağlamak ve Büyük Nogayları etkisiz hâle getirmek için Moskova Çarlığı 1586'da Sâmerrâ (Samara) ve Ufa şehirlerini kurdu. Şehir kurmak, bozkır konfederasyonlarına karşı Rusya'nın bulduğu asıl silâhtı: her yeni kale bir otlak yolunu kesiyordu.",
   kaynak:"nogaylar (TDV)" },
@@ -474,7 +474,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   kaynak:"sibir-hanligi (TDV)" },
 
 { t:"1493-01-01", b:"İbak Han öldürüldü — taht Şeybânîlerden Tayboğa soyuna geçti", tur:"hanedan", onem:4, dunya:1, kapsam:"ic",
-  etiket:["hanedan","kriz","siyaset"],
+  etiket:["hanedan","kriz","siyaset","taht-kavgasi"],
   yer_id:"Tümen (Çimgi-Tura)",
   d:"İbak Han 1493'te Muhammed Tayboğa tarafından öldürüldü ve Tümen Hanlığı tahtı Şeybânîlerden Tayboğa soyuna mensup hanların eline geçti. Cengiz soyundan olmayan bir hânedanın tahta çıkması, hanlığı Orta Asya'daki Şeybânîlerden nisbeten bağımsız hâle getirdi.",
   kaynak:"sibir-hanligi (TDV)" },
@@ -528,7 +528,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   kaynak:"kucum-han (TDV)" },
 
 { t:"1581-10-23", b:"ÇUAŞ BURNU SAVAŞI — Küçüm'ün ordusu dağıldı", tur:"savas", onem:5, dunya:3, kapsam:"dis",
-  etiket:["askeri","savas","toprak-kaybi"],
+  etiket:["askeri","savas","toprak-kayip"],
   yer_id:"Tobolsk (İsker)",
   d:"Tobol deltasından 2 km yukarıda, İrtiş'in doğu kıyısındaki Çuaş burnunda iki taraf karşılaştı; ilk çarpışmada üstünlük sağlanamadı, ancak 23 Ekim'deki ikinci savaşta Küçüm'ün kuvvetleri bozguna uğradı ve dağıldı. Han 25 Ekim gecesi ailesiyle İsker'den ayrıldı, Yermak ertesi gün şehre girdi. Rusya'nın Asya'ya açılışı bu muharebeyle başlar.",
   kaynak:"kucum-han (TDV)" },
@@ -546,7 +546,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   kaynak:"kucum-han (TDV) — gün YAKLAŞIK, kaynak 'Ağustos 1584' diyor" },
 
 { t:"1586-07-29", b:"Ruslar Tara yakınına yerleşti; Tümen ve Tobolsk kuruldu", tur:"idari", onem:4, dunya:2, kapsam:"dis",
-  etiket:["askeri","idari","toprak-kaybi"],
+  etiket:["askeri","idari","toprak-kayip"],
   yer_id:"Tümen (Çimgi-Tura)",
   d:"Rus askerleri 29 Temmuz 1586'da Tara'ya yakın bir yere, Tatarların Çinki dedikleri şehrin yanına yerleşti; ardından Ruslar bölgede kalıcı olmak için Tümen ve Tobolsk şehirlerini kurdular. Küçüm Han ile rakibi Sayedek'in çatışması bu yerleşmeyi kolaylaştırdı.",
   kaynak:"kucum-han (TDV)" },
@@ -564,7 +564,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   kaynak:"kucum-han (TDV)" },
 
 { t:"1595-03-17", b:"Baraba bozkırı işgal edildi", tur:"isgal", onem:3, dunya:1, kapsam:"dis",
-  etiket:["askeri","isgal","toprak-kaybi"],
+  etiket:["askeri","isgal","toprak-kayip"],
   yer_id:"Baraba bozkırı",
   d:"İrtiş'in yukarısında, Küçüm'e daha yakın bir noktada Tara şehrini kuran Ruslar, 17 Mart 1595'te Baraba çölüne asker göndererek hana tâbi o bölgedeki toprakları da işgal ettiler. Hanlığın hareket sahası artık İrtiş'in yukarı kollarıyla sınırlıydı.",
   kaynak:"kucum-han (TDV)" },
@@ -593,7 +593,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"Sibirya'nın tamamen zaptı 1593-1604 yıllarında tamamlandı; bundan sonra Rus çarının unvanına bütün Sibirya topraklarının hükümdarı ibaresi eklendi. Bir unvan değişikliği, Moskova'nın bir Avrupa knezliğinden bir Asya imparatorluğuna dönüşmesinin resmî kaydıdır.",
   kaynak:"sibir-hanligi (TDV)" },
 
-{ t:"1560-01-02", b:"Sibir Hanlığı'nın ticaret ağı: Orta Asya'dan kumaş, hanlıktan kürk", tur:"iktisat", onem:3, dunya:1, kapsam:"ic",
+{ t:"1560-01-02", b:"Sibir Hanlığı'nın ticaret ağı: Orta Asya'dan kumaş, hanlıktan kürk", tur:"ekonomi", onem:3, dunya:1, kapsam:"ic",
   etiket:["ekonomi","ticaret","sosyal"],
   yer_id:"Tobolsk (İsker)",
   d:"Çimgi-Tura ve Sibir şehirlerinin yanı sıra hanlıkta yirmiden fazla şehir vardı (Kızıl-Tura, Karaçin, Taşatkan, Abalak, Tarhankale). Ahali hayvancılık, dericilik, ziraat, demircilik, kuyumculuk, avcılık, balıkçılık ve ticaretle uğraşıyordu; Orta Asya, Nogay Ordası, Kazan Hanlığı ve Rus Devleti ile ticarî ilişkiler gelişmişti. Orta Asya'dan kumaş, elbise, halı, süs eşyası ve ilâç ithal edilirken hanlık av kuşu ile kürk ihraç ediyordu.",
@@ -661,7 +661,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   kaynak:"kazakistan (TDV) — yıl YAKLAŞIK, kaynak Tevekkel dönemini verip gün vermiyor" },
 
 { t:"1598-01-02", b:"Tevekkel Han Buhara önünde II. Abdullah'a yenildi", tur:"savas", onem:4, dunya:2, kapsam:"dis",
-  etiket:["askeri","savas","toprak-kaybi"],
+  etiket:["askeri","savas","toprak-kayip"],
   yer_id:"Buhara",
   d:"Tevekkel Han'ın 1598'deki son seferi, Buhara'da birliği yeniden sağlayan II. Abdullah Han (1557-1599) tarafından bozguna uğratıldı. Kazakların Mâverâünnehir'e uzanan ilerleyişi burada durdu ve güney sınırı bir daha bu kadar ilerlemedi.",
   kaynak:"kazakistan (TDV)" },
@@ -691,13 +691,13 @@ window.KRONOLOJI_ORTA_ASYA = [
   kaynak:"kazakistan (TDV)" },
 
 { t:"1710-01-02", b:"Cungarlar Doğu Türkistan ve Taşkent'i alarak Kazakların üzerine döndü", tur:"savas", onem:4, dunya:3, kapsam:"dis",
-  etiket:["askeri","toprak-kaybi"],
+  etiket:["askeri","toprak-kayip"],
   yer_id:"Taşkent",
   d:"Oyratların Moğolistan'da kalan kısmıyla birleşen Cungarlar, Khungtayji Batur önderliğinde bütün Doğu Türkistan'ı ve Taşkent'i işgal ederek Çin içlerine uzanan bir devlet kurdular. Çin'e hâkim Mançu idaresinin direnişi üzerine batıya, yani Kazakistan'a yöneldiler. Kazaklar başlangıçta başarıyla direndilerse de Cungarlar önce büyük cüzü, ardından orta cüzü hâkimiyetleri altına aldı.",
   kaynak:"kazakistan (TDV) — yıl YAKLAŞIK, kaynak sırayı verip gün vermiyor" },
 
-{ t:"1723-01-01", b:"BÜYÜK CÜZ Kalmuklara boyun eğdi — Aktaban Şubırındı yılları", tur:"toprak-kaybi", onem:4, dunya:2, kapsam:"dis",
-  etiket:["askeri","toprak-kaybi","sosyal"],
+{ t:"1723-01-01", b:"BÜYÜK CÜZ Kalmuklara boyun eğdi — Aktaban Şubırındı yılları", tur:"toprak-kayip", onem:4, dunya:2, kapsam:"dis",
+  etiket:["askeri","toprak-kayip","sosyal"],
   yer_id:"Almatı (Vernıy)",
   d:"Almatı, Evliyaata, Çimkent, Talas ve Yedisu bölgelerini kapsayan, on bir Kazak boyunu içine alan büyük cüz, Moğolistan sınırına yakınlığı sebebiyle Kalmukların hücumuna uğradı ve 1723'te boyun eğdi. Büyük cüz 1750 başlarına kadar Kalmuk hâkimiyetinde kaldı. Kazak halk hâfızasında bu yıllar büyük felâket dönemi olarak anılır.",
   kaynak:"kazakistan (TDV)" },
@@ -709,7 +709,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   kaynak:"kazakistan (TDV)" },
 
 { t:"1735-01-01", b:"ORENBURG KALESİ tamamlandı — ve amaç dışı kullanıldı", tur:"idari", onem:4, dunya:3, kapsam:"dis",
-  etiket:["askeri","idari","toprak-kaybi"],
+  etiket:["askeri","idari","toprak-kayip"],
   yer_id:"Orenburg",
   d:"Or ile Ural nehirleri arasında bir yıl içinde tamamlanan Orenburg Kalesi, verilen izin dışında kullanıldı ve özellikle Rusya'nın Başkırt ülkesini işgalinde önemli rol oynadı. Başkırt ileri gelenleri Kazak cüzlerine elçi gönderip Ruslara topraklarında üs vermemelerini istedi. Ebülhayr Han orta cüz hanını ortak harekete çağırdı, çağrısı reddedilince tek başına savaşmaktan çekindi.",
   kaynak:"kazakistan (TDV)" },
@@ -721,7 +721,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   kaynak:"kazakistan (TDV)" },
 
 { t:"1748-01-01", b:"Ebülhayr Han öldürüldü — yerine Nur Ali geçti", tur:"hukumdar", onem:3, dunya:1, kapsam:"ic",
-  etiket:["hanedan","hukumdar","kriz"],
+  etiket:["hanedan","hukumdar","kriz","taht-kavgasi"],
   yer_id:"Uralsk (Yayık)",
   d:"Ebülhayr Han 1748'de rakipleri tarafından öldürüldü; yerine bir zamanlar Ruslara rehin bıraktığı büyük oğlu Nur Ali getirildi (1748-1775). Rehin verilen bir şehzadenin han olması, Rus nüfuzunun küçük cüzde ne kadar derinleştiğini gösterir.",
   kaynak:"kazakistan (TDV)" },
@@ -858,8 +858,8 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"Ruslar anlaşma yolları aramaya başladı ve Mayıs 1845'te gelen heyet Kenasarı'dan Rusya'nın hâkimiyetini tanımasını istedi; Kenasarı bunu reddetti. Daha önce çarla görüşmek için Petersburg'a davet edildiğinde de görüşmenin şartı olarak işgal edilen Kazak topraklarından çıkılmasını öne sürmüştü.",
   kaynak:"kazakistan (TDV)" },
 
-{ t:"1845-09-01", b:"Kenasarı Karatav'ı boşaltmak zorunda kaldı", tur:"toprak-kaybi", onem:3, dunya:1, kapsam:"dis",
-  etiket:["askeri","toprak-kaybi"],
+{ t:"1845-09-01", b:"Kenasarı Karatav'ı boşaltmak zorunda kaldı", tur:"toprak-kayip", onem:3, dunya:1, kapsam:"dis",
+  etiket:["askeri","toprak-kayip"],
   yer_id:"Kazak bozkırı (Sarısu)",
   d:"Orenburg ve Sibirya'daki ordularıyla iki koldan saldıran Ruslara 1845 sonbaharına kadar dayanamayan Kenasarı kuvvetleri Karatav bölgesini boşaltarak önce Kök-Köl'e, bir yıl sonra Alatav istikametine çekildi. Kenasarı mücadeleyi bütün çabalarına rağmen üç cüze yayamamış, küçük ve büyük cüz gerekli desteği vermemişti.",
   kaynak:"kazakistan (TDV) — gün YAKLAŞIK, kaynak '1845 sonbaharına kadar' diyor" },
@@ -877,7 +877,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   kaynak:"kazakistan (TDV) — yıl YAKLAŞIK" },
 
 { t:"1854-06-22", b:"I. NİKOLA FERMANI — bütün Kazak toprakları Rusya'ya bağlandı", tur:"son", onem:5, dunya:3, kapsam:"dis",
-  etiket:["idari","kanun","toprak-kaybi"],
+  etiket:["idari","kanun","toprak-kayip"],
   yer_id:"Orenburg",
   d:"Rus Çarı I. Nikola, 22 Haziran 1854'te bir ferman çıkararak bütün Kazak topraklarının Rusya hâkimiyeti altına geçtiğini ve Kazakların Rus kanunlarına tâbi olduğunu ilân etti. Buna karşılık bazı boy beyleri Rus hâkimiyetini reddederek mücadeleyi sürdürdü; bozkırın hukukî ilhakı ile fiilî teslimi arasındaki fark yıllarca sürdü.",
   kaynak:"kazakistan (TDV)" },
@@ -971,8 +971,8 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"1862'de Kırgız kumandanı Sâdık Bey Kâşgar'a girdi; iki yıl sonra 1864'te Ruslara tâbi oldu. Bu iki tarih, Kırgızların Tarım havzasındaki hanlık mücadelesine karıştığı ve ardından Rus idaresine geçtiği kısa pencereyi işaretler.",
   kaynak:"kirgizlar (TDV)" },
 
-{ t:"1864-01-01", b:"Kırgızlar Rus hâkimiyetine girdi", tur:"toprak-kaybi", onem:4, dunya:2, kapsam:"dis",
-  etiket:["siyaset","toprak-kaybi"],
+{ t:"1864-01-01", b:"Kırgızlar Rus hâkimiyetine girdi", tur:"toprak-kayip", onem:4, dunya:2, kapsam:"dis",
+  etiket:["siyaset","toprak-kayip"],
   yer_id:"",
   d:"Kâşgar'a giren Sâdık Bey 1864'te Ruslara tâbi oldu ve Kırgızların yaşadığı topraklar Rus idaresine geçti. Bu topraklar 1917'ye kadar Türkistan Genel Valiliği'nin Semireçen, Siriderya, Fergana ve Semerkant bölgelerine dahil edildi.",
   kaynak:"kirgizlar (TDV)" },
@@ -1044,13 +1044,13 @@ window.KRONOLOJI_ORTA_ASYA = [
   kaynak:"kalmuklar (TDV, madde: kalmuklar — içerik okundu, 2026-08-22)" },
 
 { t:"1705-01-01", b:"Yarkent Hanlığı fiilen sona erdi", tur:"son", onem:5, dunya:2, kapsam:"dis",
-  etiket:["siyaset","son","toprak-kaybi"],
+  etiket:["siyaset","son","toprak-kayip"],
   yer_id:"Yarkent (Şaçe)",
   d:"Cungar hâkimiyetinin pekişmesiyle Yarkent (Sa'îdiyye) Hanlığı fiilen sona erdi. Tarım havzasında Çağatay soyundan gelen hânedanın 191 yıllık idaresi böylece bitti; bölgeyi bundan sonra Hocalar Cungar denetiminde yönetecekti.",
   kaynak:"devletler.js yarkent-hanligi künyesi — TDV müstakil madde vermiyor, dayanak standart akademik kaynak" },
 
 { t:"1759-06-01", b:"Çin Tarım havzasını işgal etti, merkezi Yârkend olan yönetim kuruldu", tur:"isgal", onem:4, dunya:3, kapsam:"dis",
-  etiket:["isgal","idari","toprak-kaybi"],
+  etiket:["isgal","idari","toprak-kayip"],
   yer_id:"Yarkent (Şaçe)",
   d:"1759'da Çin Tarım havzasının tamamını işgal etti ve merkezi Yârkend olan mahallî bir yönetim kurdu; aynı yıl sürgüne gönderilen Hocalar, bir asır sürecek direnişin liderleri olacaklardı. ⚠️ Fethin Çin tarafı kronoloji_cin.js'te 1759-01-01 tarihiyle ZATEN var; bu madde kurulan İDARÎ YAPIdır.",
   kaynak:"kasgar (TDV) — ay YAKLAŞIK" },
@@ -1080,7 +1080,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   kaynak:"yakub-beg (TDV)" },
 
 { t:"1871-06-01", b:"Ruslar Kulca'yı işgal etti — Yâkub Beg dışında kalan tek bölge", tur:"isgal", onem:3, dunya:3, kapsam:"dis",
-  etiket:["askeri","isgal","toprak-kaybi"],
+  etiket:["askeri","isgal","toprak-kayip"],
   yer_id:"Gulca (Yining)",
   d:"1871'de Ruslar Kulca'yı (İli) işgal etti; Yâkub Beg bu bölge dışında bütün Doğu Türkistan'ı egemenliği altına aldı. Kulca meselesi bundan sonra on yıl boyunca Rusya ile Çin arasında bir sınır anlaşmazlığı olarak sürecektir.",
   kaynak:"yakub-beg (TDV) — ay YAKLAŞIK" },
@@ -1116,7 +1116,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   kaynak:"kasgar + yakub-beg (TDV)" },
 
 { t:"1877-05-16", b:"Çin ordusu Turfan'ı ele geçirdi", tur:"savas", onem:3, dunya:2, kapsam:"dis",
-  etiket:["askeri","savas","toprak-kaybi"],
+  etiket:["askeri","savas","toprak-kayip"],
   yer_id:"Turfan",
   d:"Çin'in Mançu hükümetinin 1877 baharında General Zuo Zongtang ve General Liu Cintang kumandasında yolladığı ordu Kumul ve Urumçi'yi işgal edip Kâşgar'a doğru ilerledi; Aksu etrafındaki Davançıng Geçidi civarında şiddetli çarpışmalar oldu. Sayıca üstün düşman karşısında geri çekilmek zorunda kalan Yâkub Beg antlaşma teklifi gönderdi. Çinliler 16 Mayıs 1877'de Turfan'ı da ele geçirdiler.",
   kaynak:"yakub-beg (TDV)" },
@@ -1197,8 +1197,8 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"Galdan Han'ın ardından gelen Sevang Rabdan (1697-1727) ve Galdan Sereng (1727-1745), Taşkent dahil bütün Orta Asya'yı ele geçirerek devleti en geniş sınırlarına ulaştırdılar. Cungar Hanlığı bu dönemde Kazak cüzlerini, Tarım havzasını ve Halha Moğollarını aynı anda denetleyen tek güçtü.",
   kaynak:"kalmuklar (TDV)" },
 
-{ t:"1724-01-01", b:"İdil Kalmukları Rusya'ya bağlandı", tur:"toprak-kaybi", onem:4, dunya:2, kapsam:"dis",
-  etiket:["siyaset","toprak-kaybi"],
+{ t:"1724-01-01", b:"İdil Kalmukları Rusya'ya bağlandı", tur:"toprak-kayip", onem:4, dunya:2, kapsam:"dis",
+  etiket:["siyaset","toprak-kayip"],
   yer_id:"Kalmuk bozkırı",
   d:"Batıdaki İdil Kalmukları, sırasıyla hüküm süren Horluk, Dayçin, Bunçuk ve Ayuke'nin hanlıkları sırasında bir yandan Kırım Hanlığı bir yandan Rus Çarlığı ile savaşarak bağımsızlıklarını korudularsa da 1724'te Rusya'ya bağlandılar. Doksan iki yıllık bağımsız Kalmuk hanlığı böylece sona erdi.",
   kaynak:"kalmuklar (TDV)" },
@@ -1263,7 +1263,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"XVI. yüzyılın ikinci yarısının ortalarında Emba suyu kıyılarında oturan ve kendilerine Nogay da denilen Mangıtların akınlarına dayanamayan Teke ve Yomutlar, Küçük Balhan ile Kızılarvat ortasındaki Küren dağı çevresine göç etti. Türkmen boylarının Mangışlak'tan güneye kayışı bu akınlarla başlar.",
   kaynak:"turkmenler (TDV) — yıl YAKLAŞIK, kaynak 'XVI. yüzyılın ikinci yarısının ortalarında' diyor" },
 
-{ t:"1575-01-01", b:"CEYHUN YATAK DEĞİŞTİRDİ — bütün Türkmenlerin ekonomisi darbe yedi", tur:"iktisat", onem:4, dunya:2, kapsam:"ic",
+{ t:"1575-01-01", b:"CEYHUN YATAK DEĞİŞTİRDİ — bütün Türkmenlerin ekonomisi darbe yedi", tur:"ekonomi", onem:4, dunya:2, kapsam:"ic",
   etiket:["ekonomi","sosyal","cografya"],
   yer_id:"Köhne Ürgenç (Gürgenç)",
   d:"1575-1578 yılları arasında Ceyhun (Amuderya) yeniden yatak değiştirerek Hazar yerine Aral gölüne dökülmeye başladı. Irmak boyunda oturan Adaklı Hızır Eli, Ali Eli ve Teveciler bundan doğrudan etkilendi ve kaynağın ifadesiyle bütün Türkmenlerin ekonomik hayatı darbe yedi. Bir nehrin yatağını değiştirmesi, bir savaş kadar belirleyici bir tarihî olaydır.",
@@ -1330,7 +1330,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   kaynak:"turkmenler (TDV) — gün YAKLAŞIK, kaynak 'Eylül 1879' diyor" },
 
 { t:"1881-01-01", b:"Ruslar Türkmen elini imparatorluklarına kattı", tur:"son", onem:5, dunya:3, kapsam:"dis",
-  etiket:["askeri","isgal","toprak-kaybi"],
+  etiket:["askeri","isgal","toprak-kayip"],
   yer_id:"Aşkabad",
   d:"Göktepe'deki başarı uzun sürmedi: Ruslar 1881'de Türkmen elini imparatorluklarına kattılar. Beş asırlık boy konfederasyonlarının bağımsız hareket devri böylece kapandı; Merv 1884'te teslim olunca Rus Türkistanı'nın güney sınırı Afganistan'a dayanacaktı.",
   kaynak:"turkmenler (TDV)" }

@@ -108,7 +108,7 @@ window.KRONOLOJI_ARABISTAN = [
 // ═══════════════════════ YEMEN ZEYDÎ İMAMLIĞI (897-1923) ═══════════════
 
 { t:"0897-01-01", b:"Zeydî imametinin kuruluşu — İmam Hâdî-İlelhak Sa'de'ye geldi", tur:"kurulus",
-  onem:5, dunya:2, kapsam:"ic", etiket:["kurulus","din","siyasi"],
+  onem:5, dunya:2, kapsam:"ic", etiket:["kurulus","din","siyaset"],
   yer_id:"",
   d:"Yahyâ b. Hüseyin, 'Hâdî-İlelhak' (Hakka İleten) unvanıyla kuzey Yemen'deki Sa'de şehrine gelip yerel kabileler arasındaki kan davalarını hakemlik yaparak çözdü ve Zeydî fıkhına dayalı bir imamet kurdu. Bu tarih, devletler.js'teki `yemen-zeydi` künyesinin f: alanıdır ve 1962'ye kadar (site ufkunun ötesinde) sürecek bir kurumun başlangıcıdır. Sa'de bugünkü yerleşimler.js'te kaydı yok; yer_id boş bırakıldı.",
   kaynak:"TDV `yemen`: '284/897: İmam Hâdî-İlelhak Yahyâ b. Hüseyin Sa'de'ye geldi, Zeydî imâmetini tesis etti.'", yer_kon:[16.9402,43.7592] },
@@ -188,8 +188,8 @@ window.KRONOLOJI_ARABISTAN = [
   d:"İmam Müeyyed'in ölümünün ardından Mütevekkil İsmâil b. Kāsım imam oldu ve 1676'ya kadar sürecek dönemde Kāsımî imametini Yemen'in neredeyse tamamına (Hadramut'a kadar) yayarak en geniş sınırlarına ulaştırdı — Zeydî imametin tarihindeki en güçlü dönemlerinden biri.",
   kaynak:"TDV `yemen`: '1644-1676: Mütevekkil İsmâil b. Kāsım hüküm sürdü.'", yer_id:"Sana" },
 
-{ t:"1681-01-01", b:"Ahmed b. Hasan'ın nominal Osmanlı bağı iddiası", tur:"siyasi",
-  onem:2, dunya:1, kapsam:"dis", etiket:["siyasi"],
+{ t:"1681-01-01", b:"Ahmed b. Hasan'ın nominal Osmanlı bağı iddiası", tur:"siyaset",
+  onem:2, dunya:1, kapsam:"dis", etiket:["siyaset"],
   yer_id:"",
   d:"Bir dönem imamet içi bir yönetici olan Ahmed b. Hasan, Yemen'i Osmanlı padişahı adına yönettiğini ileri sürdü — Osmanlı'nın fiilen yıllardır Yemen'de bulunmadığı bir dönemde bu iddianın pratikte bir karşılığı olmadığı, sembolik/diplomatik bir jest olduğu anlaşılıyor.",
   kaynak:"TDV `yemen`: '1681: Ahmed b. Hasan Yemen'i Osmanlı adına yönettiğini belirtti.'", kapsam_genis:true },
@@ -247,7 +247,7 @@ window.KRONOLOJI_ARABISTAN = [
   kaynak:"TDV `yemen`: '1905: Ahmed Feyzi Paşa San'a'ya girdi.' — data/yerlesimler.js Sana kaydıyla (1905-09-01) çapraz doğrulandı." },
 
 { t:"1911-10-13", b:"Da'an Antlaşması — imamete geniş özerklik tanındı", tur:"antlasma",
-  onem:5, dunya:3, kapsam:"dis", etiket:["antlasma","siyasi"],
+  onem:5, dunya:3, kapsam:"dis", etiket:["antlasma","siyaset"],
   yer_id:"",
   d:"Ahmed İzzet Paşa ile İmam Yahyâ arasında imzalanan antlaşma, Zeydî bölgelerine geniş bir iç özerklik tanıdı — imamet artık Osmanlı çatısı altında fiilen kendi kendini yönetiyordu. Bu, yedi yıl sonraki tam bağımsızlığın önsözüydü.",
   kaynak:"TDV `yemen`: '13 Ekim 1911: Ahmed İzzet Paşa ve İmam Yahyâ antlaşma yaptı.'", yer_kon:[15.72,43.95] },
@@ -315,7 +315,7 @@ window.KRONOLOJI_ARABISTAN = [
   kaynak:"TDV `yarubiler`: '1711 - Seyf b. Sultân vefat etti; oğlu II. Sultân yönetimi devraldı.'", yer_kon:[23.39,57.42] },
 
 { t:"1720-01-01", b:"II. Sultân'ın ölümü — on iki yaşındaki II. Seyf döneminde veraset krizi", tur:"bolunme",
-  onem:3, dunya:1, kapsam:"ic", etiket:["bolunme","siyasi"],
+  onem:3, dunya:1, kapsam:"ic", etiket:["bolunme","siyaset"],
   yer_id:"",
   d:"II. Sultân'ın ölümüyle on iki yaşındaki oğlu II. Seyf imam ilan edildi; yaşının küçüklüğü kabile reisleri arasında sekiz yıl sürecek bir iç savaşı tetikledi ve imametin bu krizden zayıflamış çıkması, otuz yıl sonra hanedanın tamamen el değiştirmesinin zeminini hazırladı.",
   kaynak:"TDV `yarubiler`: '1720 - II. Sultân öldü; on iki yaşındaki oğlu II. Seyf'in yönetimi tartışmalar başlattı.'", yer_kon:[23.39,57.42] },
@@ -356,8 +356,8 @@ window.KRONOLOJI_ARABISTAN = [
   d:"Babasının deniz savaşında ölümü üzerine on üç yaşındaki Saîd b. Sultân, kardeşi Sâlim'le birlikte Uman, Basra körfezi adaları ve Zengibar topraklarını yönetmeye başladı — elli iki yıl sürecek ve Uman'ı bir Hint Okyanusu ticaret imparatorluğuna dönüştürecek bir hükümdarlığın başlangıcı.",
   kaynak:"TDV `said-b-sultan`: '1804 - Babasının deniz savaşında ölümünün ardından tahta çıktı; Uman, Basra körfezi adaları ve Zengibar topraklarını kardeşi Sâlim'le birlikte yönetti.'" },
 
-{ t:"1806-01-01", b:"Kuzeni Bedr b. Seyf bertaraf edildi", tur:"siyasi",
-  onem:2, dunya:1, kapsam:"ic", etiket:["siyasi"],
+{ t:"1806-01-01", b:"Kuzeni Bedr b. Seyf bertaraf edildi", tur:"siyaset",
+  onem:2, dunya:1, kapsam:"ic", etiket:["siyaset"],
   yer_id:"",
   d:"Suûdîler'in desteklediği kuzeni Bedr b. Seyf'i bertaraf ederek Saîd b. Sultân kendi iktidarını sağlamlaştırdı — Uman'ın kuzey Arabistan'daki Vehhâbî nüfuzuyla ilk doğrudan sürtüşmelerinden biri.",
   kaynak:"TDV `said-b-sultan`: '1806 - Suûdîler'in desteklediği kuzeni Bedr b. Sayf'ı bertaraf ederek iktidarını sağlamlaştırdı.'" },
@@ -374,8 +374,8 @@ window.KRONOLOJI_ARABISTAN = [
   d:"Saîd b. Sultân hac için Hicaz'a gitti ve orada Mısır valisi Kavalalı Mehmed Ali Paşa tarafından ağırlandı — Uman hükümdarının Osmanlı sistemi içindeki en yüksek rütbeli bir figürle doğrudan temasının nadir örneklerinden biri.",
   kaynak:"TDV `uman`: '1824: Saîd b. Sultân hac yaptı; Muhammed Ali Paşa tarafından onurlandırıldı.'", yer_id:"Mekke" },
 
-{ t:"1828-01-01", b:"Zengibar'a yerleşti", tur:"siyasi",
-  onem:3, dunya:2, kapsam:"dis", etiket:["siyasi","iktisat"],
+{ t:"1828-01-01", b:"Zengibar'a yerleşti", tur:"siyaset",
+  onem:3, dunya:2, kapsam:"dis", etiket:["siyaset","ekonomi"],
   yer_id:"",
   d:"Saîd b. Sultân, fildişi ve köle ticaretinin merkezi olan Zengibar'ın stratejik önemini fark ederek burada uzun süreli ikamete başladı — hanedanın ağırlık merkezinin Arap yarımadasından Doğu Afrika'ya kaymasının başlangıcı.",
   kaynak:"TDV `said-b-sultan`: '1828 - Zengibar'a taşındı, fildişi ve köle ticareti için önemli bir merkez olarak tanıdı.'", yer_id:"Zanzibar (Zengibar)" },
@@ -387,7 +387,7 @@ window.KRONOLOJI_ARABISTAN = [
   kaynak:"TDV `said-b-sultan`: '1837 - Mazruî hanedanını yenerek Mombasa'yı fethetti.'", yer_id:"Mombasa" },
 
 { t:"1840-01-01", b:"Zengibar resmen başkent ilan edildi", tur:"hukumdar",
-  onem:4, dunya:2, kapsam:"dis", etiket:["idari","siyasi"],
+  onem:4, dunya:2, kapsam:"dis", etiket:["idari","siyaset"],
   yer_id:"",
   d:"Saîd b. Sultân, Zengibar'ı resmî başkent ilan ederek nüfuzunu Mogadişu'dan Cape Delgado'ya kadar genişletti — bu tarihten sonra Uman/Zengibar imparatorluğunun ağırlık merkezi kalıcı olarak Afrika'ya taşındı ve on altı yıl sonraki bölünmenin zemini hazırlandı.",
   kaynak:"TDV `said-b-sultan`: '1840 - Zengibar'ı resmî başkent ilan etti; Mogadişu'dan Cape Delgado'ya nüfuz genişletti.'", yer_id:"Zanzibar (Zengibar)" },
@@ -411,7 +411,7 @@ window.KRONOLOJI_ARABISTAN = [
   kaynak:"TDV `uman`: '1862: İngiltere, Fransa ve Almanya'nın kararıyla Zengibar ve Uman birbirinden bağımsız iki ayrı devlet olarak tanındı.'", kapsam_genis:true },
 
 { t:"1866-01-01", b:"Sultan Süveynî, oğlu Salim tarafından öldürüldü", tur:"olum",
-  onem:2, dunya:1, kapsam:"ic", etiket:["olum","siyasi"],
+  onem:2, dunya:1, kapsam:"ic", etiket:["olum","siyaset","taht-kavgasi"],
   yer_id:"Maskat",
   d:"Maskat kolunun hükümdarı Süveynî, kendi oğlu Sâlim tarafından öldürüldü — hanedanın Maskat şubesindeki iç istikrarsızlığın bir başka örneği.",
   kaynak:"TDV `uman`: '1866: Sultan Thuwaini murdered by son Salim.'" },
@@ -449,13 +449,13 @@ window.KRONOLOJI_ARABISTAN = [
   kaynak:"devletler.js `benihalid` künyesi (devralındı, bkz. yukarıdaki not).", kapsam_genis:true },
 
 { t:"1744-01-01", b:"Muhammed b. Abdülvehhâb'ın Dir'iye'ye sığınması — Suûdîlerle husumet başladı", tur:"savas",
-  onem:3, dunya:2, kapsam:"dis", etiket:["din","siyasi"],
+  onem:3, dunya:2, kapsam:"dis", etiket:["din","siyaset"],
   yer_id:"Dir'iye (Necid)",
   d:"Vehhâbî hareketinin kurucusu Muhammed b. Abdülvehhâb'ın Dir'iye'de Muhammed b. Suûd'un himayesine sığınıp ittifak kurması, Benî Hâlid emirliği ile yükselen Suûdî-Vehhâbî hareketi arasındaki ölümcül husumetin başlangıç noktasıdır — elli bir yıl sonra bu husumet emirliğin ilk çöküşüyle sonuçlanacaktı.",
   kaynak:"devletler.js `benihalid` künyesi; aynı olay devletler.js `suud-birinci` künyesinde de kurucu olay olarak kayıtlı (dunya değeri için çapraz bakılabilir, bu turda ayrıca ölçülmedi)." },
 
 { t:"1752-01-01", b:"Süleyman el-Hamîdî tahttan indirildi — iç çekişmeler başladı", tur:"bolunme",
-  onem:3, dunya:1, kapsam:"ic", etiket:["bolunme","siyasi"],
+  onem:3, dunya:1, kapsam:"ic", etiket:["bolunme","siyaset","taht-kavgasi"],
   yer_id:"",
   d:"Emirin tahttan indirilmesiyle Benî Hâlid içinde taht kavgaları başladı; bu iç zayıflama, kırk üç yıl sonra Suûdî ilhakının önünü açan etkenlerden biri olacaktı.",
   kaynak:"devletler.js `benihalid` künyesi (devralındı).", yer_id:"Lahsa" },

@@ -356,7 +356,7 @@ window.KRONOLOJI_ISPANYA = [
   kaynak:"`data/yerlesimler.js` Tunus kaydı (tarih korunuyor) · standart akademik kaynak" },
 
 { t:"1577-01-01", b:"El Greco Toledo'ya yerleşti", tur:"kultur", onem:2, dunya:2, kapsam:"ic", yer_id:"Toledo",
-  etiket:["kultur","sanat"],
+  etiket:["kultur","kultur"],
   d:"Girit doğumlu ressam Domínikos Theotokópoulos (El Greco), Roma'dan Toledo'ya taşınarak İspanyol Altın Çağı resim sanatının en özgün isimlerinden biri hâline geldi; kalan otuz yedi yılını burada geçirdi. Yıl kesin, ay/gün kaynaklarda net değil.",
   kaynak:"standart akademik kaynak (Kamen, kültür bölümü)" },
 
@@ -460,7 +460,7 @@ window.KRONOLOJI_ISPANYA = [
   kaynak:"`data/devletler.js` `hollanda` künyesi (tarih korunuyor) · standart akademik kaynak" },
 
 { t:"1656-01-01", b:"Velázquez, Las Meninas'ı tamamladı", tur:"kultur", onem:3, dunya:3, kapsam:"ic", yer_id:"Madrid",
-  etiket:["kultur","sanat"],
+  etiket:["kultur","kultur"],
   d:"Saray ressamı Diego Velázquez, kraliyet ailesini ve kendisini aynı tabloda betimleyen *Las Meninas*'ı tamamladı; eser, batı resim sanatının kompozisyon ve gerçeklik-temsil tartışmalarında en çok incelenen tablolardan biri olacaktı.",
   kaynak:"standart akademik kaynak (Kamen, kültür bölümü)" },
 
@@ -524,7 +524,7 @@ window.KRONOLOJI_ISPANYA = [
   kaynak:"standart akademik kaynak (Kamen, Spain 1469-1714)" },
 
 { t:"1714-10-03", b:"Real Academia Española'nın (İspanyol Dil Akademisi) resmî onayı", tur:"kultur", onem:3, dunya:2, kapsam:"ic", yer_id:"Madrid",
-  etiket:["kultur","bilim"],
+  etiket:["kultur","bilim","islahat"],
   d:"1713'te bir grup aydının girişimiyle toplanan akademi, V. Felipe'nin fermanıyla resmen kuruldu; \"temizler, düzenler ve parlaklık verir\" (limpia, fija y da esplendor) sloganıyla İspanyolca'nın standart sözlüğünü ve dilbilgisini hazırlamayı üstlendi.",
   kaynak:"standart akademik kaynak (Kamen, kültür bölümü)" },
 
@@ -698,7 +698,7 @@ window.KRONOLOJI_ISPANYA = [
   kaynak:"standart akademik kaynak (Kamen)" },
 
 { t:"1814-01-01", b:"Goya'nın \"3 Mayıs 1808\" tablosunu tamamlaması", tur:"kultur", onem:3, dunya:3, kapsam:"ic", yer_id:"Madrid",
-  etiket:["kultur","sanat"],
+  etiket:["kultur","kultur"],
   d:"Francisco de Goya, Napolyon işgaline direnen Madridlilerin infazını konu alan tabloyu, savaşın hemen ardından yeni kral VII. Fernando'ya sundu. Eser, savaşın vahşetini idealize etmeden anlatan modern anlamda ilk \"savaş karşıtı\" resim sayılır ve dünya sanat tarihinde geniş etki bıraktı.",
   kaynak:"standart akademik kaynak (genel sanat tarihi)" },
 
@@ -742,7 +742,7 @@ window.KRONOLOJI_ISPANYA = [
   kaynak:"standart akademik kaynak (Payne)", yer_kon:[43.1167,-2.4167] },
 
 { t:"1868-09-19", b:"Şanlı Devrim (\"La Gloriosa\") — İsabel II tahttan indirildi", tur:"isyan", onem:5, dunya:2, kapsam:"ic", yer_id:"",
-  etiket:["isyan","hanedan","kriz"],
+  etiket:["isyan","hanedan","kriz","darbe-askeri"],
   d:"Amiral Topete'nin Cádiz'de başlattığı ayaklanma, kısa sürede genel bir devrime dönüştü; İsabel II ülkeyi terk etmek zorunda kaldı. Devrim, İspanya'yı altı yıl sürecek bir siyasî istikrarsızlık dönemine (yeni hanedan arayışı, kısa ömürlü Amadeo I saltanatı, Cumhuriyet) sürükledi.",
   kaynak:"standart akademik kaynak (Payne)", yer_id:"Cádiz" },
 
@@ -787,7 +787,7 @@ window.KRONOLOJI_ISPANYA = [
   kaynak:"standart akademik kaynak (Payne)", yer_kon:[35.167,-2.933] },
 
 { t:"1923-09-13", b:"Primo de Rivera Darbesi — parlamenter rejimin askıya alınması", tur:"isyan", onem:5, dunya:2, kapsam:"ic", yer_id:"Madrid",
-  etiket:["isyan","anayasa","kriz"],
+  etiket:["isyan","anayasa","kriz","darbe-askeri"],
   d:"Barselona garnizon komutanı General Miguel Primo de Rivera, Rif felaketinin siyasî sorumluluğunu araştıran soruşturmanın gölgesinde kansız bir darbeyle iktidarı ele geçirdi; XIII. Alfonso darbeyi onayladı ve 1876 Anayasası'nı fiilen askıya aldırdı. Bu tarih, projenin dünya ölçeğindeki 29 Ekim 1923 sınırına en yakın büyük İspanyol dönüm noktasıdır.",
   kaynak:"standart akademik kaynak (Payne, A History of Spain and Portugal)" },
 
@@ -858,7 +858,7 @@ window.KRONOLOJI_ISPANYA = [
   kaynak:"standart akademik kaynak (genel edebiyat tarihi)", yer_id:"Tenochtitlan (Mexico City)" },
 
 { t:"1752-04-12", b:"San Fernando Güzel Sanatlar Akademisi'nin kuruluşu", tur:"kultur", onem:2, dunya:1, kapsam:"ic", yer_id:"Madrid",
-  etiket:["kultur","sanat"],
+  etiket:["kultur","kultur"],
   d:"Ferdinand VI'nın fermanıyla kurulan akademi, resim, heykel ve mimarlık eğitimini devlet gözetiminde kurumsallaştırdı; 18. yüzyıl sonunda Goya'nın da hocalık yaptığı kurum, modern İspanyol sanat eğitiminin temelini attı.",
   kaynak:"standart akademik kaynak" },
 
@@ -868,7 +868,7 @@ window.KRONOLOJI_ISPANYA = [
   kaynak:"standart akademik kaynak" },
 
 { t:"1786-01-01", b:"Goya birinci saray ressamı oldu", tur:"kultur", onem:2, dunya:1, kapsam:"ic", yer_id:"Madrid",
-  etiket:["kultur","sanat"],
+  etiket:["kultur","kultur"],
   d:"Francisco de Goya, kraliyet gobelin fabrikası için yaptığı kartonlarla dikkat çektikten sonra saray ressamlığına atandı; bu görev, onu hem III. Carlos hem IV. Carlos döneminin resmî portrelerini yapan, hem de Napolyon işgalinin dehşetini kaydeden bir sanatçıya dönüştürecek kariyerin başlangıcıydı.",
   kaynak:"standart akademik kaynak" },
 

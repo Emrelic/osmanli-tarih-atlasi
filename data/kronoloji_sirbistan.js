@@ -98,7 +98,7 @@ window.KRONOLOJI_SIRBISTAN = [
 // ───────────────────────── NEMANJİÇ KRALLIĞI/İMPARATORLUĞU (1217-1402)
 
 { t:"1217-01-01", b:"Sırbistan Krallığı ilan edildi (Stefan İlk-Taçlı)", tur:"kurulus",
-  onem:5, dunya:2, kapsam:"ic", etiket:["kurulus","siyasi"],
+  onem:5, dunya:2, kapsam:"ic", etiket:["kurulus","siyaset"],
   yer_id:"",
   d:"Stefan Nemanja'nın oğlu Stefan, papadan aldığı taçla kendini kral ilan etti ve Nemanjić hanedanının krallığını kurdu. Bu tarih Sırp devlet geleneğinin başlangıcı sayılır ve devletler.js'teki `sirbistan-nemanjic` künyesinin f: tarihidir.",
   kaynak:"TDV `sirbistan`: '1217'de burada Sırbistan Krallığı ilân edildi.'" },
@@ -110,7 +110,7 @@ window.KRONOLOJI_SIRBISTAN = [
   kaynak:"TDV `sirbistan` — genel hanedan anlatısı; tahta çıkış yılı devletler.js `sirbistan-nemanjic` künyesiyle doğrulandı." },
 
 { t:"1346-04-16", b:"Duşan imparatorluk tacı giydi (Üsküp meclisi)", tur:"hukumdar",
-  onem:5, dunya:3, kapsam:"dis", etiket:["hukumdar","siyasi"],
+  onem:5, dunya:3, kapsam:"dis", etiket:["hukumdar","siyaset"],
   yer_id:"Üsküp",
   d:"Duşan kendini 'Sırpların ve Rumların çarı' ilan ederek Bizans'a rakip bir imparatorluk kurdu, başkentini Serez'e taşıdı. TDV maddesi olayı '1345'te' verip gün belirtmiyor; taç giyme töreninin gününü (Paskalya, 16 Nisan 1346, Üsküp) standart akademik literatür kesinleştiriyor.",
   kaynak:"TDV `sirbistan`: '1345'te kendisini Sırplar'ın ve Yunanlılar'ın çarı ve hükümdarı ilân etti.' Gün: akademik (J.V.A. Fine, The Late Medieval Balkans, 1994) — devletler.js künyesiyle de örtüşüyor." },
@@ -136,7 +136,7 @@ window.KRONOLOJI_SIRBISTAN = [
 // ───────────────────────── SIRP DESPOTLUĞU (1402-1459)
 
 { t:"1402-01-01", b:"Sırp Despotluğu'nun kuruluşu (Stefan Lazareviç)", tur:"kurulus",
-  onem:4, dunya:2, kapsam:"ic", etiket:["kurulus","siyasi"],
+  onem:4, dunya:2, kapsam:"ic", etiket:["kurulus","siyaset"],
   yer_id:"",
   d:"Ankara Savaşı'nda (1402) Osmanlı yenilgisinin doğurduğu Fetret Devri'nden yararlanan Stefan Lazareviç, Bizans'tan 'despot' unvanını aldı ve Sırp Despotluğu'nu kurdu; başkent önce Belgrad oldu. Bu, Nemanjiç krallığının Osmanlı vasallığı altında dönüşmüş devamıdır (devletler.js `sirp-despotlugu` künyesi).",
   kaynak:"TDV `sirbistan` genel anlatısı + akademik (Fine, The Late Medieval Balkans) — gün TDV'de verilmiyor, YYYY-01-01." },
@@ -285,8 +285,8 @@ window.KRONOLOJI_SIRBISTAN = [
   d:"Bulgaristan'ın Doğu Rumeli eyaletini ilhak ederek Balkan güç dengesini bozmasına tepki olarak Sırbistan Bulgaristan'a savaş açtı; kısa savaş Sırbistan'ın Slivnitsa'da yenilgisiyle sonuçlandı ve Avusturya-Macaristan arabuluculuğuyla durduruldu. Gün akademik kaynaktan (standart tarih 14 Kasım 1885).",
   kaynak:"TDV `sirbistan`: 'Bulgaristan 1885'te Doğu Rumeli eyaletini ilhak edince Sırbistan Bulgaristan'a savaş açtı.' Gün: akademik (Jelavich)." },
 
-{ t:"1903-06-11", b:"Mayıs Darbesi — Obrenović hanedanının sonu, Karađorđević'e geçiş", tur:"siyasi",
-  onem:4, dunya:2, kapsam:"ic", etiket:["siyasi","hukumdar"],
+{ t:"1903-06-11", b:"Mayıs Darbesi — Obrenović hanedanının sonu, Karađorđević'e geçiş", tur:"siyaset",
+  onem:4, dunya:2, kapsam:"ic", etiket:["siyaset","hukumdar","darbe-askeri"],
   yer_id:"Belgrad",
   d:"Bir grup subay Kral I. Aleksandar Obrenović ile eşi Kraliçe Draga'yı saray baskınında öldürdü; taht, Kara Yorgi'nin torunu I. Petar Karađorđević'e geçti. Darbe, Sırbistan'ın dış politikasını Avusturya-Macaristan'dan uzaklaştırıp Rusya'ya yaklaştıran bir dönüm noktası oldu. TDV `sirbistan` bu olaydan bahsetmiyor — `CLAUDE.md §4` taneciklik kuralı gereği standart akademik kaynağa dayanıldı.",
   kaynak:"bulunamadı — TDV bu ayrıntıyı kapsamıyor; dayanak: akademik (B. Jelavich, History of the Balkans, 1983)." },

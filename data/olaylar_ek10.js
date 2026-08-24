@@ -294,7 +294,7 @@ window.OLAYLAR_EK10 = [
 // olarak o boşluğu doldurur. "Tek başına" görünmesi de doğrudur: Hotin 1713-1812
 // arasında tâbi Boğdan'ın ortasında ayrı bir doğrudan Osmanlı sancağıdır.
 
-{ t:"1713-06-24", k:"idari", etiket:["toprak-kazanc","idare"],
+{ t:"1713-06-24", k:"idari", etiket:["toprak-kazanc","idari"],
   b:"Hotin'in Boğdan'dan koparılması — voyvodalığın ortasında doğrudan Osmanlı sancağı",
   gun:"24 Haziran 1713", yer:"Hotin Kalesi, Dinyester'in sağ yakası, kuzey Boğdan",
   kisiler:"III. Ahmed, Boğdan Voyvodası Dimitrie Cantemir (1711'de Rusya'ya geçen voyvoda), Demirbaş Şarl",
@@ -340,21 +340,21 @@ window.OLAYLAR_EK10 = [
   d:"1876 Bulgar İsyanı'nın bastırılışı Avrupa kamuoyunda büyük infial uyandırmış, Rusya bunu Bâbıâli'yi yalnızlaştırmak için sonuna kadar kullanmıştı. İstanbul (Tersane) Konferansı'nın Bulgaristan'ı iki muhtar eyalete bölme teklifi ve ardından 31 Mart 1877 tarihli Londra Protokolü Osmanlı Devleti tarafından reddedilince Rusya 24 Nisan 1877'de savaş ilân etti. Rûmî takvimde 1293 yılına rastladığı için savaş Doksanüç Harbi adıyla anılır. Harekât Tuna ve Doğu Anadolu olmak üzere iki cephede yürüdü: Tuna'da 180.000 kişilik Osmanlı ordusu nehrin sol kıyısını birinci, Balkan dağlarını ikinci savunma hattı saymıştı; doğuda Ahmed Muhtar Paşa'nın 55.000 askeri Ardahan-Doğubayazıt arasında mevzilenmişti. Bu savaş haritada Osmanlı Rumelisi'nin çöküşünü başlatan olaydır — Bulgaristan, Sırbistan, Karadağ ve Romanya'nın bugünkü sınırlarının hepsi bu on beş ayın ürünüdür.",
   kaynak:"doksanuc-harbi", duygu:["⚔️"], kapsam_genis:true, yer_kon:[47.0105,28.8638] },
 
-{ t:"1877-06-27", k:"kayip", etiket:["savas","toprak-kaybi"],
+{ t:"1877-06-27", k:"kayip", etiket:["savas","toprak-kayip"],
   b:"Rus ordusunun Tuna'yı geçmesi — Ziştovi ve Tırnova'nın düşüşü",
   gun:"27 Haziran 1877", yer:"Ziştovi (Sviştov), Tuna'nın sağ yakası",
   kisiler:"Grandük Nikola, Abdülkerim Nâdir Paşa",
   d:"Savaşın başlamasıyla Romanya topraklarına giren ve bu prensliği kendi tarafına çeken Ruslar, biri Dobruca diğeri Bükreş istikametinde olmak üzere iki koldan ilerledi. Tuna, Rusçuk ile Niğbolu arasından geçildi ve 27 Haziran'da Ziştovi, 1 Temmuz'da eski Bulgar başşehri Tırnova ele geçirildi. Tahliyesi emredildiği halde bu hususa itina gösterilmediği için Niğbolu da bir müddet direndikten sonra teslim oldu. Birinci savunma hattının bir hafta içinde yarılması İstanbul'da büyük paniğe yol açtı; saltanat merkezinin Bursa'ya nakledileceğine dair haberler bile yayıldı ve savaşın idaresi başşehirde kurulan bir askerî meclise devredildi.",
   kaynak:"doksanuc-harbi", duygu:["😔"], yer_kon:[43.62,25.35] },
 
-{ t:"1877-07-19", k:"kayip", etiket:["savas","toprak-kaybi"],
+{ t:"1877-07-19", k:"kayip", etiket:["savas","toprak-kayip"],
   b:"Şıpka Geçidi'nin tahliyesi — Balkan hattının yarılması",
   gun:"19 Temmuz 1877", yer:"Şıpka Geçidi, Balkan (Stara Planina) dağları",
   kisiler:"General Gurko, Süleyman Paşa",
   d:"Balkan dağlarını aşan geçitlerin en stratejiği olan Şıpka'daki Osmanlı kuvvetleri Rus saldırılarına şiddetle karşı koydular; ancak yenileceklerine kanaat getirince 19 Temmuz'da geçidi gizlice tahliye ettiler. Böylece ikinci savunma hattı da açıldı ve General Gurko 22 Temmuz'da Eski Zağra'yı ele geçirdi. Karadağ tarafından yetişen Süleyman Paşa Gurko'yu yenilgiye uğratıp Balkanların güneyindeki işgal altındaki yerleri geri aldıysa da 21 Ağustos'tan itibaren aylarca süren taarruzlara rağmen Şıpka'yı geri alamadı. Haritada bu, Balkan sıradağlarının kuzeyi ile güneyi arasındaki savunma bütünlüğünün bir daha kurulamamasıdır: Tuna cephesindeki mücadele bundan sonra Plevne'de düğümlenecektir.",
   kaynak:"doksanuc-harbi", duygu:["😔"], yer_kon:[42.75,25.33] },
 
-{ t:"1877-11-18", k:"kayip", etiket:["savas","toprak-kaybi"],
+{ t:"1877-11-18", k:"kayip", etiket:["savas","toprak-kayip"],
   b:"Kars'ın düşüşü — Doğu cephesinin çözülmesi ve Aziziye tabyaları",
   gun:"18 Kasım 1877", yer:"Kars Kalesi ve Erzurum-Aziziye tabyaları",
   kisiler:"Ahmed Muhtar Paşa, General Melikof, General Lazarof, Nene Hatun",
@@ -372,7 +372,7 @@ window.OLAYLAR_EK10 = [
   d:"Balkan devletleri, İttihat ve Terakkî'nin 3 Temmuz 1911 tarihli kanunla kiliseler meselesini çözmesinin ardından aralarındaki en büyük engeli kaldırmış, Rusya'nın kışkırtmasıyla 1912 boyunca birbirleriyle ittifak antlaşmaları imzalamışlardı (13 Mart'ta Bulgaristan-Yunanistan, ağustosta Karadağ-Bulgaristan, 6 Ekim'de Karadağ-Sırbistan). Bâbıâli bunu farketmedi; hatta Rusya'nın teminatına güvenerek Rumeli'deki 120 tâlimli taburu terhis etti. Dört devlet 3 Ekim'de ortak nota vererek Makedonya, Arnavutluk ve Girit'e muhtariyet istedi; cevap alamayınca 8 Ekim 1912'de Karadağ'ın savaş ilânıyla harekât başladı. 13 Ekim'de Sırbistan ve Bulgaristan elçilerinin pasaportları ellerine verildi, ertesi gün bu iki devlet, ardından Yunanistan savaş ilân etti. ⚠️ Kronolojide bu olay bugüne kadar ay hassasiyetli `1912-10` olarak duruyordu; CLAUDE.md §8 gün yazılmasını şart koşuyor.",
   kaynak:"balkan-savasi", duygu:["⚔️"], yer_id:"Yenipazar (Novi Pazar)" },
 
-{ t:"1912-10-23", k:"kayip", etiket:["savas","toprak-kaybi"],
+{ t:"1912-10-23", k:"kayip", etiket:["savas","toprak-kayip"],
   b:"Şark Ordusu'nun bozgunu ve Çatalca hattına çekiliş — Kumanova ve Selânik'in kaybı",
   gun:"23 Ekim 1912", yer:"Doğu Trakya (Çatalca hattı), Kumanova, Selânik",
   kisiler:"Tahsin Paşa, Gazi Ahmed Muhtar Paşa, Kâmil Paşa",
@@ -392,7 +392,7 @@ window.OLAYLAR_EK10 = [
 //    ADIMDA yapıştırıldı (kaynak: oturumlar/OTURUM-11-BALKAN.md §19.5).
 // ===========================================================================
 
-{ t:"1476-02-01", k:"kayip", etiket:["toprak-kaybi","savas"],
+{ t:"1476-02-01", k:"kayip", etiket:["toprak-kayip","savas"],
   b:"Böğürdelen'in Macarlara kaybı — Sava hattındaki ilk gedik",
   gun:"Şubat 1476", yer:"Böğürdelen (Šabac), Sava nehri kıyısı", yer_id:"Böğürdelen (Šabac)",
   kisiler:"Fatih Sultan Mehmed, Macar Kralı Mátyás Corvin",
@@ -408,7 +408,7 @@ window.OLAYLAR_EK10 = [
   fethedilen:["Böğürdelen (Šabac)"],
   kaynak:"bogurdelen", duygu:["🎉"] },
 
-{ t:"1788-04-24", k:"kayip", etiket:["toprak-kaybi","savas"],
+{ t:"1788-04-24", k:"kayip", etiket:["toprak-kayip","savas"],
   b:"Böğürdelen'in ikinci Avusturya işgali — Sava cephesinin açılması",
   gun:"24 Nisan 1788", yer:"Böğürdelen (Šabac), Sava nehri kıyısı",
   kisiler:"I. Abdülhamid, Avusturya İmparatoru II. Joseph",
@@ -416,7 +416,7 @@ window.OLAYLAR_EK10 = [
   kaybedilen:["Böğürdelen (Šabac)"],
   kaynak:"bogurdelen", duygu:["😔"], yer_id:"Böğürdelen (Šabac)" },
 
-{ t:"1806-01-26", k:"kayip", etiket:["toprak-kaybi","isyan"],
+{ t:"1806-01-26", k:"kayip", etiket:["toprak-kayip","isyan"],
   b:"Böğürdelen'in Kara Yorgi'ye teslimi — Birinci Sırp İsyanı'nda ilk kale",
   gun:"26 Ocak 1806", yer:"Böğürdelen (Šabac), Sava nehri kıyısı",
   kisiler:"III. Selim, Karadjordje (Kara Yorgi) Petroviç",
@@ -424,7 +424,7 @@ window.OLAYLAR_EK10 = [
   kaybedilen:["Böğürdelen (Šabac)"],
   kaynak:"bogurdelen", duygu:["😔"], yer_id:"Böğürdelen (Šabac)" },
 
-{ t:"1457-01-01", k:"fetih", etiket:["toprak-kazanc","idare"],
+{ t:"1457-01-01", k:"fetih", etiket:["toprak-kazanc","idari"],
   b:"Podgorica'nın Osmanlı topraklarına katılması — Zeta ovasının denetim altına alınması",
   gun:"1457", yer:"Podgorica (Ribnica), Morača ile Ribnica'nın kavuştuğu yer, Zeta ovası", yer_id:"Podgorica",
   kisiler:"Fatih Sultan Mehmed",
@@ -432,7 +432,7 @@ window.OLAYLAR_EK10 = [
   fethedilen:["Podgorica"],
   kaynak:"podgorica", duygu:["🎉"] },
 
-{ t:"1448-01-01", k:"fetih", etiket:["toprak-kazanc","idare"],
+{ t:"1448-01-01", k:"fetih", etiket:["toprak-kazanc","idari"],
   b:"Saray ovasının ilhakı — Bosna içindeki Osmanlı ucunun kurulması",
   gun:"1448", yer:"Hodidjed, Saray ovası (Vrhbosna), orta Bosna",
   kisiler:"II. Murad, Üsküp beyi İshak Bey, oğlu Îsâ Bey",
@@ -440,7 +440,7 @@ window.OLAYLAR_EK10 = [
   fethedilen:["Saraybosna"],
   kaynak:"saraybosna", duygu:["🎉"], yer_id:"Saraybosna" },
 
-{ t:"1465-01-01", k:"fetih", etiket:["toprak-kazanc","idare"],
+{ t:"1465-01-01", k:"fetih", etiket:["toprak-kazanc","idari"],
   b:"Foça'nın alınışı — Hersek Düklüğü'ne ilk girişin açılması",
   gun:"1465", yer:"Foça (Foča), Drina vadisi, Hersek", yer_id:"Foça (Foča)",
   kisiler:"Fatih Sultan Mehmed, Hersek Dükü Stjepan Vukçiç-Kosaça",
@@ -464,7 +464,7 @@ window.OLAYLAR_EK10 = [
   fethedilen:["Srebrenik"],
   kaynak:"bosna-hersek", duygu:["🎉"] },
 
-{ t:"1420-01-01", k:"fetih", etiket:["toprak-kazanc","idare"],
+{ t:"1420-01-01", k:"fetih", etiket:["toprak-kazanc","idari"],
   b:"Aşağı Tuna'nın kapanması — Yergöğü, Turnu, Orşova ve Dobruca'nın ilhakı",
   gun:"1420", yer:"Yergöğü (Giurgiu), Turnu (Kule), Orşova (Fethülislâm), Dobruca", yer_id:"Yergöğü (Giurgiu)",
   kisiler:"Çelebi Sultan Mehmed, Eflak Voyvodası I. Mircea (ö. 1418)",

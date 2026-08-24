@@ -76,7 +76,7 @@ window.OLAYLAR_SERHAT = [
   kaynak:"alacahisar + sehirkoy" },
 
 { t:"1443-01-01", b:"Haçlı ordusu Şehirköy'ü zaptetti — 'Uzun Sefer'in Nişava kolu", tur:"kayip",
-  onem:3, dunya:2, kapsam:"dis", etiket:["askeri","toprak-kaybi","hacli"],
+  onem:3, dunya:2, kapsam:"dis", etiket:["askeri","toprak-kayip","hacli"],
   yer_id:"Şehirköy (Pirot)",
   d:"Kral Vladislav ve Sırp Despotu Curac Brankoviç liderliğindeki Haçlı ordusu 1443'te Şehirköy'ü zaptetti. Aynı seferin devamında Osmanlı kuvvetleri kasım ayında İzladi geçidinde bozguna uğrayacaktır. Şehirköy, Segedin Antlaşması'nın (1444) ardından II. Murad tarafından tekrar Sırplar'a verilmiş, ancak 1456'da Curac Brankoviç'in ölümünden sonra Osmanlılar'a geçmiştir. ⚠️ TARİH HAKKINDA: TDV yıl veriyor, gün vermiyor.",
   kaynak:"sehirkoy" },

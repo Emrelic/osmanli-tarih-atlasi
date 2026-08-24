@@ -52,37 +52,37 @@ window.OLAYLAR_EK9 = [
 // kırılmalarına yuvarlamıştı. Aşağıdaki maddeler yazıldıktan sonra
 // yerlesimler_afrika.js'te gerçek tarihlerine çekildiler.
 
-{ t:"1841-01-01", k:"kayip", etiket:["toprak-kaybi"],
+{ t:"1841-01-01", k:"kayip", etiket:["toprak-kayip"],
   b:"Muaskar'ın (Mascara) Fransız işgali — Abdülkādir'in başkentinin kaybı",
   gun:"1841", yer:"Muaskar (Mascara), Vehrân eyaleti", kisiler:"Abdülkādir el-Cezâirî, Mareşal Bugeaud",
   d:"Bugeaud'nun 1841'de valiliğe gelmesiyle Fransız stratejisi değişti: kıyıda tutunmak yerine iç şehirleri tek tek işgal etmek. Vehrân, Mostagānim ve Medea'dan çıkan hareketli kollar Abdülkādir'in düzenli devletinin merkezlerini aldı; darphanesi, barut imalâthanesi ve tahıl ambarlarıyla gerçek bir başkent olan Muaskar bunların en önemlisiydi. Emîr bundan sonra sabit bir merkez kurmaktan vazgeçip ordusunu 'smala' denen göçer kampa çevirdi. Günü kaynaklarda kesinleşmediği için burada yıl hassasiyetinde yazılmıştır.",
   kaynak:"cezayir", duygu:["😔"], yer_id:"Muaskar" },
 
-{ t:"1843-01-01", k:"kayip", etiket:["toprak-kaybi"],
+{ t:"1843-01-01", k:"kayip", etiket:["toprak-kayip"],
   b:"Şelif vadisi ve Tenes'in işgali — Orléansville'in kurulması",
   gun:"1843 (Nisan)", yer:"Şelif vadisi, Tenes, Dahra", kisiler:"Mareşal Bugeaud",
   d:"Abdülkādir'i takip edebilmek için Fransızlar 1843 Nisanında Şelif vadisinin ortasında Orléansville adlı yeni bir şehir kurdular; aynı yıl kıyıdaki Tenes limanı da işgal edildi. Böylece Cezayir ile Vehrân arasındaki iç koridor Fransız denetimine girdi ve Dahra dağlarındaki direniş kuşatıldı. Aynı yılın 16 Mayısında Abdülkādir'in göçer kampı 'smala' tesadüfen bulunup dağıtıldı. Ayı bilinmekle birlikte günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
   kaynak:"cezayir", duygu:["😔"], yer_id:"Şelif" },
 
-{ t:"1843-06-12", k:"kayip", etiket:["toprak-kaybi"],
+{ t:"1843-06-12", k:"kayip", etiket:["toprak-kayip"],
   b:"Sîdî Bel Abbès müstahkem kampının kurulması",
   gun:"12 Haziran 1843", yer:"Sîdî Bel Abbès, Vehrân eyaleti", kisiler:"Mareşal Bugeaud, General Bedeau",
   d:"Bugeaud 12 Haziran 1843'te General Bedeau'ya Sîdî Bel Abbès'te hendekli ve surlu bir müstahkem kamp kurma emrini verdi; inşaata 18 Haziranda başlandı ve aynı yılın kasımında Yabancı Lejyon'un bir taburu buraya yerleşti. Kamp, Vehrân ile Tilimsan arasındaki iç ovayı denetleyen kalıcı bir üs oldu. Oturum 14 bu noktayı 1844-03-04'e yuvarlamıştı; gerçek tarih budur.",
   kaynak:"cezayir", duygu:["😔"], yer_id:"Sîdî Bel Abbès" },
 
-{ t:"1844-01-01", k:"kayip", etiket:["toprak-kaybi"],
+{ t:"1844-01-01", k:"kayip", etiket:["toprak-kayip"],
   b:"Nedrûme ve Fas sınır kuşağının Fransız denetimine geçişi",
   gun:"1844", yer:"Nedrûme, Tilimsan çevresi, Fas sınırı", kisiler:"Mareşal Bugeaud, Abdülkādir el-Cezâirî",
   d:"Abdülkādir'in 1843'te Fas'a çekilmesinden sonra Tilimsan'ın kuzeybatısındaki Nedrûme ve Trâra kıyısı Fransız denetimine girdi. 14 Ağustos 1844'teki Isly Muharebesi Fas ordusunu bozguna uğrattı ve iki ülke arasındaki sınır 18 Mart 1845 Lâlla Mağniye Sözleşmesi'yle çizildi; Nedrûme bu çizginin Cezayir tarafında kaldı. Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
   kaynak:"tilimsan", duygu:["😔"], yer_id:"Nedrûme" },
 
-{ t:"1852-12-04", k:"kayip", etiket:["toprak-kaybi","savas"],
+{ t:"1852-12-04", k:"kayip", etiket:["toprak-kayip","savas"],
   b:"Ağvât'ın (Laghouat) düşüşü — Sahra kapısının açılması",
   gun:"4 Aralık 1852", yer:"Ağvât (Laghouat)", kisiler:"General Pélissier",
   d:"General Pélissier altı bin kişilik bir kuvvetle 21 Kasım 1852'de Ağvât'ı kuşattı ve 4 Aralıkta şehir kanlı bir hücumla düştü. Ağvât, Tell ile Sahra arasındaki geçişi tutan vaha şehriydi; düşmesi Fransız ilerleyişini çöl kervan yollarına açtı ve Mîzâb konfederasyonunun bir yıl içinde vergiye bağlanmasının önünü hazırladı. Oturum 14 bu tarihi 1854-12-02'ye (Tuggurt) yuvarlamak zorunda kalmıştı.",
   kaynak:"cezayir", duygu:["😔"], yer_id:"Ağvât" },
 
-{ t:"1882-01-01", k:"kayip", etiket:["toprak-kaybi"],
+{ t:"1882-01-01", k:"kayip", etiket:["toprak-kayip"],
   b:"Mîzâb vahalarının (Gardâye) ilhakı",
   gun:"1882 (Kasım)", yer:"Gardâye, Mîzâb vahaları", kisiler:"—",
   d:"Mîzâb'ın İbâzî şehirleri 1852'de Fransa'ya vergi ödemeyi kabul etmiş ama iç idarelerini korumuştu; otuz yıl sonra, 1882'de bölge doğrudan Fransız topraklarına katıldı ve Gardâye askerî idareye bağlandı. Böylece kuzey Sahra'nın son özerk kuşağı da hukuken sona erdi. Ayı bilinmekle birlikte günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
@@ -101,7 +101,7 @@ window.OLAYLAR_EK9 = [
   d:"Fildişi ve köle ticaretiyle güçlenen Zübeyr Rahmet Paşa, Remington tüfekleriyle donattığı kuvvetlerle 25 Ekim 1874'te Menevâşî'de Fur ordusunu dağıttı; Sultan İbrâhim muharebede öldü. Zübeyr 2 Kasımda El-Fâşir'e çarpışmadan girdi ve 1603'ten beri süren Keyra hânedanının hükümdarlığı fiilen sona erdi. Darfur böylece Kavalalı Mısır'ının Sudan eyaletlerine katıldı; ama Keyra ailesinin dağlardaki direnişi 1891'e kadar sürdü.",
   kaynak:"darfur", duygu:["🎉"], yer_id:"El-Fâşir" },
 
-{ t:"1883-12-23", k:"kayip", etiket:["toprak-kaybi","ayaklanma"],
+{ t:"1883-12-23", k:"kayip", etiket:["toprak-kayip","isyan"],
   b:"Darfur'un Mehdî kuvvetlerine geçişi — Slatin Paşa'nın teslimi",
   gun:"23 Aralık 1883", yer:"Darfur, Dara, El-Fâşir", kisiler:"Rudolf Slatin Paşa, Şeyh Madibbo b. Ali, Muhammed Ahmed el-Mehdî",
   d:"Darfur genel valisi Slatin Paşa, 1882'den beri Rizeykāt kabilesinin Mehdîci ayaklanmasıyla uğraşıyordu; askerlerinin yenilgileri onun hıristiyan oluşuna yüklediğini düşünerek 1883'te açıkça müslüman oldu ve Abdülkādir adını aldı. Hicks Paşa'nın ordusunun kasım 1883'te Kordofan'da yok edilmesinden sonra direnişin anlamı kalmadı ve 23 Aralık 1883'te Emîr Madibbo'ya teslim oldu. Darfur'daki küçük Mısır karakolları da kısa sürede aynı yolu izledi; on yıllık Türk-Mısır idaresi bitti.",
@@ -130,7 +130,7 @@ window.OLAYLAR_EK9 = [
   d:"Hidiv İsmâil'in Kızıldeniz'in batı kıyısında kurduğu 'Doğu Sudan ve Kızıldeniz Sahili' vilâyetinin valisi Werner Munzinger Paşa, 1872'de Bilen halkının yaşadığı Bogos bölgesini ve merkezi Kerene'yi Mısır'a bağladı. Bu, Mısır'ın Habeş yaylasının kenarına yaptığı en kalıcı ilerleyişti ve Habeşistan ile on iki yıl süren bir sınır anlaşmazlığı başlattı. Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
   kaynak:"hidiv", duygu:["🎉"], yer_id:"Kerene" },
 
-{ t:"1884-06-03", k:"antlasma", etiket:["antlasma","toprak-kaybi","diplomasi"],
+{ t:"1884-06-03", k:"antlasma", etiket:["antlasma","toprak-kayip","diplomasi"],
   b:"Hewett (Adua) Antlaşması — Bogos'un Habeşistan'a bırakılması",
   gun:"3 Haziran 1884", yer:"Adua, Habeşistan", kisiler:"Amiral William Hewett, Yohannes IV, Hidiv Tevfik",
   d:"Mehdî ayaklanması Sudan'daki Mısır garnizonlarını kuşatınca İngiltere, Habeşistan'ın yardımını almak için 3 Haziran 1884'te Adua'da Yohannes IV ile antlaşma imzaladı. Antlaşmanın ikinci maddesi Bogos'u Habeşistan'a geri veriyor, karşılığında Habeşistan kuşatılmış garnizonların Masavva üzerinden tahliyesine yol açıyordu. Kerene böylece on iki yıllık Mısır idaresinden çıktı; beş yıl sonra bölge İtalyan Eritresi'ne katılacaktı.",
@@ -140,7 +140,7 @@ window.OLAYLAR_EK9 = [
 // E) TOKAR — Doğu Sudan'ın sekiz yıllık Mehdî devri
 // ---------------------------------------------------------------------------
 
-{ t:"1884-01-01", k:"kayip", etiket:["toprak-kaybi","ayaklanma"],
+{ t:"1884-01-01", k:"kayip", etiket:["toprak-kayip","isyan"],
   b:"Doğu Sudan'ın Mehdî kuvvetlerine geçişi — Tokar'ın kaybı",
   gun:"1884", yer:"Tokar, Sinkat, Sevâkin ardalanı", kisiler:"Osman Digna, Muhammed Ahmed el-Mehdî",
   d:"Mehdî'nin doğu Sudan'daki halifesi Osman Digna, 1883 sonbaharından itibaren Bece kabilelerini ayaklandırarak Sevâkin'in ardalanını ele geçirdi; Sinkat ve Tokar garnizonları kuşatıldı ve 1884 başında bölge tamamen Mehdî idaresine girdi. Sevâkin limanı İngiliz-Mısır elinde kaldığı için kıyı ile içerisi sekiz yıl boyunca ayrı iki idare altında durdu. Tokar 1891 Şubatında geri alındı. Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
@@ -190,7 +190,7 @@ window.OLAYLAR_EK9 = [
 // G) KONSTANTİN — md.18'in gerçek sebebi
 // ---------------------------------------------------------------------------
 
-{ t:"1837-10-13", k:"kayip", etiket:["toprak-kaybi","savas"],
+{ t:"1837-10-13", k:"kayip", etiket:["toprak-kayip","savas"],
   b:"Konstantin'in düşüşü — doğu Cezayir beyliğinin sonu",
   gun:"13 Ekim 1837", yer:"Konstantin (Kostantîne), doğu Cezayir", kisiler:"Ahmed Bey, Mareşal Valée, General Damrémont",
   d:"Cezayir'in 1830'da düşmesinden sonra doğu beylerbeyliği dağılmadı: son bey Ahmed, Konstantin'de kendi idaresini sürdürdü ve Osmanlı adına hareket ettiğini ilân etti. Fransızların 1836'daki ilk seferi bozgunla bitti; ikinci sefer 6 Ekim 1837'de şehri kuşattı, kumandan Damrémont 12 Ekimde top ateşiyle öldü ve 13 Ekimde surlar aşılarak şehir sokak sokak alındı. Ahmed Bey dağlara çekildi ve ancak 1848'de teslim oldu. Bu tarih, Cezayir'in doğusunda üç yüz yıllık Osmanlı-Türk idaresinin fiilî bitişidir. Denetim bu kırılmayı iki gün sonraki Cebel-i Dürûz ayaklanması maddesiyle eşleştiriyordu — bu madde o eşleşmeyi düzeltir.",
@@ -207,7 +207,7 @@ window.OLAYLAR_EK9 = [
 // doğuda Ahmed Bey'in beyliği, batıda Emîr Abdülkādir'in devletiydi.
 // Bu madde, düzeltmenin ihtiyaç duyduğu kırılmayı önceden açar.
 
-{ t:"1832-11-22", k:"fetih", etiket:["ayaklanma"],
+{ t:"1832-11-22", k:"fetih", etiket:["isyan"],
   b:"Emîr Abdülkādir'in devletinin kuruluşu — batı Cezayir'de direnişin merkezîleşmesi",
   gun:"22 Kasım 1832", yer:"Muaskar, Tagdempt, batı ve orta Cezayir", kisiler:"Abdülkādir el-Cezâirî, Muhyiddin el-Hasenî",
   d:"Cezayir'in düşüşünden sonra dağılan direniş, Kādirî şeyhi Muhyiddin'in oğlu genç Abdülkādir etrafında toplandı; 22 Kasım 1832'de Muaskar yakınlarında kabile reisleri ona 'emîrü'l-mü'minîn' sıfatıyla biat etti. Kurduğu yapı bir kabile ittifakı değil düzenli bir devletti: darphanesi, barut imalâthanesi, vergi düzeni ve Tagdempt'te bir başkenti vardı. Fransa 1837 Tâfnâ Antlaşması'yla hâkimiyetini resmen tanıdı. Abdülkādir Osmanlı'ya değil Fas sultanı Abdurrahman'ın metbûiyetine sığındı; yani bu topraklar 1832'den sonra Osmanlı tâbiiyeti DEĞİLDİR. 23 Aralık 1847'de teslim oldu ve Osmanlı Devleti de aynı yıl Cezayir üzerindeki haklarının sona erdiğini ilân etti.",
@@ -236,13 +236,13 @@ window.OLAYLAR_EK9 = [
 // "1882-09 Mısır'ın İngiliz işgali" maddesi duruyor; ama AY hassasiyetinde ve
 // CLAUDE.md §8 gün istiyor. Düzeltmesi merkez oturumda (bkz. OTURUM-14-DUZELTMELER.md).
 
-{ t:"1882-07-11", k:"kayip", etiket:["toprak-kaybi","savas"],
+{ t:"1882-07-11", k:"kayip", etiket:["toprak-kayip","savas"],
   b:"İskenderiye'nin bombardımanı ve İngiliz çıkarması",
   gun:"11-12 Temmuz 1882 (bombardıman) · 15 Temmuz (işgal)", yer:"İskenderiye", yer_id:"İskenderiye", kisiler:"Ahmed Urâbî Paşa, Amiral Seymour, Hidiv Tevfik",
   d:"Urâbî Paşa'nın önderliğindeki subay hareketi hidivi denetim altına alınca İngiltere Süveyş yolunun güvenliğini bahane ederek müdahale etti. Amiral Seymour'un filosu 11-12 Temmuz 1882'de İskenderiye'nin sahil tabyalarını bombaladı; şehirde çıkan yangın ve yağmadan sonra 15 Temmuzda İngiliz birlikleri karaya çıktı. Osmanlı Devleti hukuken hükümran olduğu bir vilâyetinde bu harekâta engel olamadı ve müdahaleye katılma çağrısını da cevapsız bıraktı. Böylece otuz iki yıl sürecek işgalin ilk adımı atılmış oldu.",
   kaynak:"urabi-pasa", duygu:["😔"] },
 
-{ t:"1882-09-13", k:"kayip", etiket:["toprak-kaybi","savas"],
+{ t:"1882-09-13", k:"kayip", etiket:["toprak-kayip","savas"],
   b:"Tel el-Kebîr Muharebesi — Urâbî ordusunun dağılması",
   gun:"13 Eylül 1882", yer:"Tellülkebîr, Şarkıyye", kisiler:"Ahmed Urâbî Paşa, General Garnet Wolseley",
   d:"Wolseley kuvvetlerini Süveyş Kanalı üzerinden İsmâiliye'ye çıkarıp çölden yürüterek 13 Eylül 1882 şafağında Tel el-Kebîr'deki Mısır siperlerine baskın yaptı; muharebe bir saatte bitti. Urâbî ertesi gün teslim oldu ve İngiliz süvarisi aynı gün Kahire'ye girdi. Bu tarihten sonra Mısır'ın malî, askerî ve dış işleri fiilen İngiliz denetimine geçti; Osmanlı hükümranlığı ise hukuken 1914'e kadar sürdü. Atlasta bu ikilik `isg:` işgal örtüsüyle gösterilir: taban rengi tâbi Mısır, üstündeki tarama İngiliz denetimi.",
@@ -292,7 +292,7 @@ window.OLAYLAR_EK9 = [
 // Mehdî devleti tek hamlede doğup tek hamlede yıkılıyor gibi görünüyor.
 // Aşağıdaki dört madde arasını doldurur.
 
-{ t:"1883-11-05", k:"kayip", etiket:["toprak-kaybi","savas","ayaklanma"],
+{ t:"1883-11-05", k:"kayip", etiket:["toprak-kayip","savas","isyan"],
   b:"Şeykan bozgunu — Hicks Paşa ordusunun yok edilişi",
   gun:"5 Kasım 1883", yer:"Şeykan, Kordofan", kisiler:"William Hicks Paşa, Muhammed Ahmed el-Mehdî",
   d:"Kahire'den gönderilen ve yaklaşık on bin kişilik Mısır kuvvetine kumanda eden emekli İngiliz subayı Hicks Paşa, Kordofan çölünde susuz ve kılavuzsuz ilerlerken 5 Kasım 1883'te Şeykan'da Mehdî kuvvetlerince kuşatıldı ve ordu neredeyse tamamen imha edildi. Bu bozgun Sudan'daki Mısır idaresinin belkemiğini kırdı: bir ay içinde Darfur ve Bahrülgazâl teslim oldu, Kordofan'ın tamamı Mehdî'ye geçti. Hartum'un düşüşüne giden yol buradan başlar.",
@@ -320,7 +320,7 @@ window.OLAYLAR_EK9 = [
 // K) KIZILDENİZ — md.44, Zeyla'nın yanlış maddeye bağlanması
 // ---------------------------------------------------------------------------
 
-{ t:"1884-01-01", k:"kayip", etiket:["toprak-kaybi","diplomasi"],
+{ t:"1884-01-01", k:"kayip", etiket:["toprak-kayip","diplomasi"],
   b:"Zeyla ve Somali sahilinin İngiliz idaresine geçişi",
   gun:"1884", yer:"Zeyla, Berbera, Bulhar, Somali sahili", kisiler:"Hidiv Tevfik, Aden siyasî mukimi",
   d:"Mehdî ayaklanması Mısır'ın Sudan ve Kızıldeniz garnizonlarını çökertince Kahire, Habeş kıyısındaki uzak karakollarını boşaltmak zorunda kaldı. Aden'deki İngiliz idaresi 1884'te Zeyla ve Berbera'ya asker çıkardı; ertesi yıl Somali kabile reisleriyle himaye antlaşmaları imzalanarak İngiliz Somalilandı kuruldu. 1559'dan beri Habeş eyaletine bağlı olan Zeyla böylece elden çıktı. Denetim bu kırılmayı aynı güne düşen 'Reji İdaresi' maddesiyle eşleştiriyordu; bu madde o eşleşmeyi düzeltir. Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",
@@ -377,7 +377,7 @@ window.OLAYLAR_EK9 = [
 // Yalnız Akkâ kuşatmasının günü TDV'de kesin: 18 Mart 1799 (`akka`).
 // Piramitler'in günü standart kayıttan alındı ve maddede işaretlendi.
 
-{ t:"1798-07-21", k:"kayip", etiket:["toprak-kaybi","savas"],
+{ t:"1798-07-21", k:"kayip", etiket:["toprak-kayip","savas"],
   b:"Piramitler Muharebesi ve Kahire'nin Fransızlarca alınması",
   gun:"21 Temmuz 1798 (gün standart kayıttan)", yer:"Îmbâbe, Giza, Kahire", kisiler:"Napolyon Bonapart, Murad Bey, İbrâhim Bey",
   d:"Napolyon İskenderiye'den Nil boyunca güneye yürüdü ve 21 Temmuz 1798'de Giza karşısındaki Îmbâbe'de Murad Bey'in Kölemen süvarisini karşıladı. Kare düzenindeki Fransız piyadesi süvari hücumlarını kırdı; Kölemen ordusu dağıldı ve Kahire iki gün sonra direnişsiz teslim oldu. Murad Bey Yukarı Mısır'a, İbrâhim Bey Suriye'ye çekildi. Fransızlar Kahire'de bir dîvân kurup idareyi ulemâ eliyle yürütmeye çalıştılar; 1798 Ekiminde ve 1800 Martında iki büyük Kahire ayaklanması çıktı.",
@@ -412,7 +412,7 @@ window.OLAYLAR_EK9 = [
 // yanlış-eşleşme sınıfı. Mükerrer denetimi bu üçünü ayırt ediyor (ortak kişi ve
 // ortak kök yok); yine de uygulamadan önce kontrol edilmeli.
 
-{ t:"1427-01-01", k:"kayip", etiket:["toprak-kaybi","diplomasi"],
+{ t:"1427-01-01", k:"kayip", etiket:["toprak-kayip","diplomasi"],
   b:"Alâiye'nin Memlük Sultanı Barsbay'a satılması",
   gun:"1427", yer:"Alâiye (Alanya), İçel sahili", yer_id:"Alanya", kisiler:"Karaman b. Savcı Bey, Memlük Sultanı Barsbay",
   d:"1293'te Karamanoğlu Mecdüddin Mahmud Bey'in ele geçirdiği Alâiye, Karamanoğulları'nın bir kolu tarafından yönetilen ayrı bir beylik hâline gelmişti; İbn Battûta 1333'te idarenin Karamanoğlu Yûsuf Bey'de olduğunu kaydeder. Karaman b. Savcı Bey 1427'de şehri beş bin altın karşılığında Memlük Sultanı Barsbay'a sattı ve Alâiye Memlük idaresine girdi. Akdeniz'in bu kilit limanı böylece Osmanlı'nın güneye açılan yolunda Memlük elinde bir engel oldu; 1471'de Gedik Ahmed Paşa kuşatınca son bey Kılıcarslan şehri teslim etti. Günü doğrulanamadığı için yıl hassasiyetinde yazılmıştır.",

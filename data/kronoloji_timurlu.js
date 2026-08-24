@@ -151,7 +151,7 @@ window.KRONOLOJI_TIMURLU = [
   kaynak:"TDV `ulug-bey`: \"1447-1449 arası hükümdarlık yaptı\"" },
 
 { t:"1449-10-25", b:"Uluğ Bey, öz oğlu tarafından öldürüldü", tur:"kriz", onem:5, dunya:2, kapsam:"ic", yer_id:"Semerkant",
-  etiket:["hanedan","kriz","din"],
+  etiket:["hanedan","kriz","din","taht-kavgasi"],
   d:"Oğlu Abdüllatif'in isyanıyla Semerkant yakınında yenilen Uluğ Bey, tahttan indirildi ve dinî sapkınlık suçlamasıyla (rasathane çalışmalarının bazı din adamlarınca 'İslâm'a aykırı' görülmesi) idam edildi — kaybettikten yalnız birkaç hafta sonra. Bilim tarihinin en verimli hükümdarlarından birinin bu trajik sonu, Timurlu birliğinin de fiilen sonu oldu; imparatorluk artık kalıcı olarak parçalı kalacaktı.",
   kaynak:"TDV `ulug-bey`: \"Oğlu Abdüllatif ile giriştiği mücadelede Semerkant yakınında yenilip 1449'da (25 Ekim) idam edildi\"" },
 

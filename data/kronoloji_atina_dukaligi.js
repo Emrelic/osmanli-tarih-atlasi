@@ -43,7 +43,7 @@ window.KRONOLOJI_ATINA_DUKALIGI = [
   d:"Latin beylerinin ittifakı, İznik İmparatorluğu ordusuna Pelagonia'da yenildi ve Atina dukası dâhil birçok bey esir düştü. Yenilgi, Bizans'ın 1261'de İstanbul'u geri almasının yolunu açtı. Atina bu savaştan sonra Mora'nın kaderinden ayrılıp kendi başına bir güç olmaya yöneldi.",
   kaynak:"Lock, The Franks in the Aegean 1204-1500 · Longnon, L'Empire latin de Constantinople · gün yaklaşıktır" },
 
-{ t:"1280-01-01", b:"Tebai'de ipek dokumacılığının Latin himayesinde gelişmesi", tur:"iktisat", onem:3, dunya:2, kapsam:"ic", yer_id:"İstefe (Tebai)",
+{ t:"1280-01-01", b:"Tebai'de ipek dokumacılığının Latin himayesinde gelişmesi", tur:"ekonomi", onem:3, dunya:2, kapsam:"ic", yer_id:"İstefe (Tebai)",
   etiket:["ekonomi","kultur"],
   d:"Dukalığın asıl idarî merkezi olan Tebai, Bizans döneminden devraldığı ipek üretimini Latin beyleri altında sürdürdü ve İtalyan tüccarlar aracılığıyla Batı pazarlarına bağlandı. Dukaların Atina'da değil Tebai'de oturmasının sebebi de bu iktisadî ağırlıktı. Latin hâkimiyeti Yunan zanaatını yok etmedi, ticaret yollarını değiştirdi.",
   kaynak:"Lock, The Franks in the Aegean 1204-1500 · David Jacoby, 'Silk in Western Byzantium before the Fourth Crusade', Byzantinische Zeitschrift 84/85 (1991-92) · yıl yaklaşıktır" },
@@ -124,7 +124,7 @@ window.KRONOLOJI_ATINA_DUKALIGI = [
   d:"Dukalar, Akropolis'in anıtsal giriş yapısı Propylaia'yı kendi konutlarına çevirdi ve yanına bir Frank kulesi ('Frank Kulesi') diktirdi. Antik yapı böylece bir Orta Çağ şatosunun parçası oldu. Kule 1874'te yıkıldı; Latin Atina'sının en görünür izinin kaldırılması, 19. yüzyıl Yunan millî tarih anlayışının bir kararıydı.",
   kaynak:"Setton, 'The Latins in Greece and the Aegean', Cambridge Medieval History IV/1 · Lock, The Franks in the Aegean 1204-1500 · yıl yaklaşıktır" },
 
-{ t:"1318-01-01", b:"Atina'da Batı Avrupa ticaret kolonilerinin yerleşmesi", tur:"iktisat", onem:3, dunya:1, kapsam:"ic", yer_id:"Atina",
+{ t:"1318-01-01", b:"Atina'da Batı Avrupa ticaret kolonilerinin yerleşmesi", tur:"ekonomi", onem:3, dunya:1, kapsam:"ic", yer_id:"Atina",
   etiket:["ekonomi"],
   d:"Katalan döneminde Barselona ve Mayorka tüccarları Atina ve Pire'de yerleşik hâle geldi; buğday, bal, zeytinyağı ve ipek Batı'ya taşındı. Şehir Bizans ekonomisinden koparak Batı Akdeniz ağına bağlandı. Latin hâkimiyetinin en somut ekonomik sonucu, ticaret yönünün doğudan batıya dönmesidir.",
   kaynak:"Setton, Catalan Domination of Athens 1311-1388, rev. ed. (Variorum, 1975) · yıl yaklaşıktır" },

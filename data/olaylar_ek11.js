@@ -63,7 +63,7 @@ window.OLAYLAR_EK11 = [
 // ayaklanması" ve içinde Aydınoğulları HİÇ geçmiyor. İki madde o boşluğu
 // kapatır.
 
-{ t:"1422-01-01", k:"kayip", etiket:["toprak-kaybi","siyaset"],
+{ t:"1422-01-01", k:"kayip", etiket:["toprak-kayip","siyaset"],
   b:"Cüneyd Bey Aydın-ili'nin başına döndü — Aydınoğulları yeniden müstakil",
   gun:"1422 (ay ve gün kaynakta yok)", yer:"İzmir, Ayasuluk, Tire, Birgi — Aydın-ili", yer_id:"İzmir",
   kisiler:"Aydınoğlu Cüneyd Bey, II. Murad, Mustafa Çelebi (Düzmece Mustafa)",
@@ -166,7 +166,7 @@ window.OLAYLAR_EK11 = [
 // yazıyor). Önemsiz görünür, değil: `denetle.py`nin `kirilmasiz_madde()` sayacı
 // tam bu etikete bakıyor — yanlış yazılan etiket, toprak iddiası taşıyan maddeyi
 // "kırılmasız" sayıp Değişmez 2t tavanını boş yere yer.
-{ t:"1640-12-01", k:"siyaset", etiket:["siyaset","toprak-kaybi"],
+{ t:"1640-12-01", k:"siyaset", etiket:["siyaset","toprak-kayip"],
   b:"Restauração: Portekiz bağımsızlığını geri aldı",
   gun:"1 Aralık 1640", yer:"Lizbon", yer_id:"Lizbon",
   kisiler:"IV. João (Braganza Dükü), Kont-Dük Olivares",
@@ -198,7 +198,7 @@ window.OLAYLAR_EK11 = [
 //    Zend, Tahran'da Kacar) ve genel etiketin en mesru oldugu yer orasi.
 //    Sehir sehir bolunmesi ayri bir TDV taramasi istiyor, uydurulmayacak.
 
-{ t:"1747-06-20", k:"siyaset", etiket:["siyaset"],
+{ t:"1747-06-20", k:"siyaset", etiket:["siyaset","suikast"],
   b:"Nâdir Şah'ın öldürülmesi — Afşar hâkimiyetinin dağılışı",
   gun:"20 Haziran 1747", yer:"Fethâbâd, Horasan",
   kisiler:"Nâdir Şah Afşar",

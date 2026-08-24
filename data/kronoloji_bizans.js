@@ -112,7 +112,7 @@ window.KRONOLOJI_BIZANS = [
   kaynak:"el-kitabi" },
 
 { t:"1290-01-01", b:"Anadolu sınırı çözüldü — akritai düzeninin sonu", tur:"toprak-kayip",
-  onem:5, dunya:2, kapsam:"ic", etiket:["toprak-kaybi"],
+  onem:5, dunya:2, kapsam:"ic", etiket:["toprak-kayip"],
   yer_id:"", kapsam_genis:true,
   d:"Sınır boylarını tutan asker-köylü (akritai) düzeninin vergi muafiyetleri kaldırılınca savunma hattı dağıldı ve Türkmen beylikleri Batı Anadolu'ya serbestçe yayıldı. Bizans'ın Anadolu'yu kaybetmesi askerî bir yenilgiyle değil, bu idarî çözülmeyle başladı.",
   kaynak:"el-kitabi" },
@@ -125,7 +125,7 @@ window.KRONOLOJI_BIZANS = [
 
 // ═══════════ II. OSMANLI'NIN DOĞUŞU ve KATALANLAR (1300-1330) ═══════════
 { t:"1302-07-27", b:"KOYUNHİSAR (Bapheus) — Osman Gazi'nin ilk zaferi", tur:"savas",
-  onem:5, dunya:3, kapsam:"dis", etiket:["savas","toprak-kaybi"],
+  onem:5, dunya:3, kapsam:"dis", etiket:["savas","toprak-kayip"],
   yer_id:"",
   d:"Pachymeres'in kaydına göre Yalova yakınında yapılan savaşta Osman Gazi imparatorluk kuvvetlerini yendi. Bu, Osmanlı Beyliği ile Bizans arasındaki ilk meydan savaşıdır ve Bizans'ın Bitinya'daki şehirlerinin birer birer kuşatılmasının önünü açtı.",
   kaynak:"bizans" },
@@ -137,25 +137,25 @@ window.KRONOLOJI_BIZANS = [
   kaynak:"el-kitabi" },
 
 { t:"1305-04-30", b:"Roger de Flor öldürüldü — Katalan İntikamı başladı", tur:"isyan",
-  onem:4, dunya:2, kapsam:"ic", etiket:["ayaklanma","savas"],
+  onem:4, dunya:2, kapsam:"ic", etiket:["isyan","savas"],
   yer_id:"Edirne",
   d:"Katalan reisinin sarayda öldürülmesi üzerine kumpanya isyan etti ve Trakya ile Makedonya'yı iki yıl boyunca yağmaladı. Bizans, kiraladığı orduyu üzerinde bulmuş oldu; \"Katalan intikamı\" tabiri buradan gelir.",
   kaynak:"el-kitabi" },
 
 { t:"1311-03-15", b:"Katalanlar Atina Düklüğü'nü ele geçirdi", tur:"toprak-kayip",
-  onem:3, dunya:2, kapsam:"dis", etiket:["toprak-kaybi"],
+  onem:3, dunya:2, kapsam:"dis", etiket:["toprak-kayip"],
   yer_id:"Atina",
   d:"Halmyros'ta Frank ordusunu yenen kumpanya Atina'ya yerleşti ve yetmiş yıl orada kaldı. Yunanistan'ın parçalanmışlığı bir kat daha arttı.",
   kaynak:"el-kitabi" },
 
 { t:"1321-01-01", b:"Birinci iç savaş başladı — dede ile torun karşı karşıya", tur:"isyan",
-  onem:5, dunya:2, kapsam:"ic", etiket:["ayaklanma","siyaset"],
+  onem:5, dunya:2, kapsam:"ic", etiket:["isyan","siyaset"],
   yer_id:"", kapsam_genis:true,
   d:"II. Andronikos ile torunu III. Andronikos arasındaki taht kavgası yedi yıl sürdü ve imparatorluğun son askerî ve malî kaynaklarını tüketti. Bu yıllar, Osmanlı Beyliği'nin Bitinya şehirlerini rahatça kuşatabildiği yıllardır: Bizans'ın kaybı düşman yüzünden değil, kendi iç savaşı yüzünden hızlandı.",
   kaynak:"el-kitabi" },
 
 { t:"1326-04-06", b:"BURSA DÜŞTÜ — Osmanlı'nın ilk başşehri", tur:"toprak-kayip",
-  onem:5, dunya:3, kapsam:"dis", etiket:["toprak-kaybi"],
+  onem:5, dunya:3, kapsam:"dis", etiket:["toprak-kayip"],
   yer_id:"Bursa",
   d:"Uzun bir ablukanın ardından Bursa Orhan Gazi tarafından fethedildi ve Osmanlı Beyliği'nin başşehri oldu. Bizans, Anadolu'daki en büyük şehirlerinden birini kaybetti ve karşısındaki beylik ilk kez bir devlet merkezine kavuştu.",
   kaynak:"bizans" },
@@ -173,38 +173,38 @@ window.KRONOLOJI_BIZANS = [
   kaynak:"el-kitabi" },
 
 { t:"1329-06-10", b:"Pelekanon bozgunu — Anadolu'yu kurtarma girişimi çöktü", tur:"savas",
-  onem:5, dunya:2, kapsam:"dis", etiket:["savas","toprak-kaybi"],
+  onem:5, dunya:2, kapsam:"dis", etiket:["savas","toprak-kayip"],
   yer_id:"",
   d:"İmparatorun bizzat kumanda ettiği ordu Orhan Gazi karşısında yenildi ve kendisi yaralandı. Bu, bir Bizans imparatorunun Osmanlılara karşı Anadolu'da yönettiği son sefer oldu; bundan sonra İznik ve İzmit yardımsız bırakıldı.",
   kaynak:"el-kitabi" },
 
 { t:"1331-03-01", b:"İZNİK DÜŞTÜ — sürgün başkenti Osmanlı'ya geçti", tur:"toprak-kayip",
-  onem:5, dunya:3, kapsam:"dis", etiket:["toprak-kaybi"],
+  onem:5, dunya:3, kapsam:"dis", etiket:["toprak-kayip"],
   yer_id:"İznik",
   d:"Latin işgali yıllarında imparatorluğun sürgün başkentliğini yapmış olan İznik, Orhan Gazi'nin eline geçti. Bizans için bu yalnız bir şehir değil, hanedanın yeniden doğduğu şehrin kaybıydı.",
   kaynak:"bizans" },
 
 // ═══════════ III. İKİNCİ İÇ SAVAŞ, VEBA, HESYKHASM (1330-1354) ═══════════
 { t:"1337-01-01", b:"İzmit (Nikomedia) düştü — Bitinya bütünüyle kaybedildi", tur:"toprak-kayip",
-  onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kaybi"],
+  onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kayip"],
   yer_id:"İzmit",
   d:"Marmara'nın doğu kıyısındaki son büyük Bizans şehri de Osmanlı'ya geçti. İmparatorluğun Anadolu'daki varlığı birkaç kıyı kalesine indi.",
   kaynak:"el-kitabi" },
 
 { t:"1341-06-15", b:"III. Andronikos öldü — ikinci iç savaş başladı", tur:"isyan",
-  onem:5, dunya:2, kapsam:"ic", etiket:["ayaklanma","siyaset"],
+  onem:5, dunya:2, kapsam:"ic", etiket:["isyan","siyaset"],
   yer_id:"İstanbul",
   d:"Dokuz yaşındaki V. İoannis adına naiplik kavgası, Kantakuzenos ile saray partisi arasında altı yıl sürecek bir iç savaşa dönüştü. Bizans tarihyazımı bu savaşı imparatorluğun kendi kendini bitirdiği an sayar: iki taraf da Sırp, Türk ve Bulgar yardımcı kuvvetler çağırarak düşmanlarını ülkenin içine soktu.",
   kaynak:"el-kitabi" },
 
 { t:"1341-06-10", b:"Hesykhast tartışması sinoda taşındı", tur:"siyaset",
-  onem:3, dunya:1, kapsam:"ic", etiket:["siyaset","kultur-sanat"],
+  onem:3, dunya:1, kapsam:"ic", etiket:["siyaset","kultur"],
   yer_id:"İstanbul",
   d:"Gregorios Palamas'ın savunduğu münzevi dua geleneği ile Barlaam'ın temsil ettiği akılcı ilahiyat arasındaki tartışma resmî sinodlara taşındı. Tartışma iç savaşla iç içe geçti ve taraflar siyasî kamplara dönüştü.",
   kaynak:"el-kitabi" },
 
 { t:"1342-01-01", b:"Selanik'te Zelot yönetimi kuruldu", tur:"isyan",
-  onem:4, dunya:1, kapsam:"ic", etiket:["ayaklanma","siyaset"],
+  onem:4, dunya:1, kapsam:"ic", etiket:["isyan","siyaset"],
   yer_id:"Selanik",
   d:"İmparatorluğun ikinci şehrinde halk hareketi aristokrasiyi devirip yedi yıl süren kendi yönetimini kurdu. Bizans tarihinde eşi olmayan bu şehir cumhuriyeti, iç savaşın toplumsal derinliğini gösterir.",
   kaynak:"el-kitabi" },
@@ -216,7 +216,7 @@ window.KRONOLOJI_BIZANS = [
   kaynak:"el-kitabi" },
 
 { t:"1346-04-16", b:"Stefan Dušan 'Sırpların ve Rumların imparatoru' ilan edildi", tur:"toprak-kayip",
-  onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kaybi","siyaset"],
+  onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kayip","siyaset"],
   yer_id:"Üsküp",
   d:"Sırp kralı, Bizans'ın Makedonya ve Epir topraklarını alarak imparator unvanını üstlendi. Balkanlar'da Bizans'ın yerini almaya aday yeni bir güç doğmuştu; ancak Dušan'ın 1355'teki ani ölümü bu devleti dağıtacaktı.",
   kaynak:"el-kitabi" },
@@ -240,19 +240,19 @@ window.KRONOLOJI_BIZANS = [
   kaynak:"el-kitabi" },
 
 { t:"1351-05-28", b:"Blakhernai Sinodu — Palamas'ın öğretisi resmî akîde oldu", tur:"siyaset",
-  onem:4, dunya:2, kapsam:"ic", etiket:["siyaset","kultur-sanat"],
+  onem:4, dunya:2, kapsam:"ic", etiket:["siyaset","kultur"],
   yer_id:"İstanbul",
   d:"Hesykhast öğretisi Ortodoks kilisesinin resmî öğretisi olarak kabul edildi. Bu karar, Ortodoks dünyasının Latin ilahiyatından düşünce olarak da ayrılmasını kesinleştirdi ve 1439 birliğinin niçin tutmadığını açıklayan zeminlerden biridir.",
   kaynak:"el-kitabi" },
 
 { t:"1352-01-01", b:"ÇİMPE KALESİ — Türkler Rumeli'de ilk kaleyi aldı", tur:"toprak-kayip",
-  onem:5, dunya:3, kapsam:"dis", etiket:["toprak-kaybi"],
+  onem:5, dunya:3, kapsam:"dis", etiket:["toprak-kayip"],
   yer_id:"Çimpe",
   d:"İç savaşta verdikleri yardımın karşılığı olarak Türkler Gelibolu yarımadasındaki Çimpe Kalesi'ni aldı. Bu, Osmanlıların Avrupa yakasındaki ilk kalıcı üssüdür; Bizans kendi müttefikini Rumeli'ye kendi eliyle yerleştirmiş oldu.",
   kaynak:"bizans" },
 
 { t:"1354-03-02", b:"GELİBOLU DEPREMİ — Osmanlılar Rumeli'ye yerleşti", tur:"toprak-kayip",
-  onem:5, dunya:4, kapsam:"dis", etiket:["toprak-kaybi"],
+  onem:5, dunya:4, kapsam:"dis", etiket:["toprak-kayip"],
   yer_id:"Gelibolu",
   d:"Depremde surları yıkılan Gelibolu Süleyman Paşa tarafından zaptedildi ve Anadolu'dan getirilen nüfusla iskân edildi. Bizans tarihyazımında bu tarih, Osmanlıların Balkanlar'a geçişinin geri döndürülemez hâle geldiği gündür; imparatorluk artık iki yandan kuşatılmıştı.",
   kaynak:"bizans" },
@@ -277,13 +277,13 @@ window.KRONOLOJI_BIZANS = [
   kaynak:"el-kitabi" },
 
 { t:"1361-01-01", b:"Dimetoka ve çevresi kaybedildi — Trakya çözülüyor", tur:"toprak-kayip",
-  onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kaybi"],
+  onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kayip"],
   yer_id:"Dimetoka",
   d:"Gelibolu'dan yayılan Osmanlı kuvvetleri Trakya'nın iç kesimlerini almaya başladı. Başkent kara yolundan Avrupa'daki topraklarına ulaşamaz hâle geliyordu.",
   kaynak:"el-kitabi" },
 
 { t:"1363-01-01", b:"Filibe (Plovdiv) düştü — Meriç vadisi Osmanlı'ya geçti", tur:"toprak-kayip",
-  onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kaybi"],
+  onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kayip"],
   yer_id:"Filibe",
   d:"Trakya'nın kuzeyindeki en önemli şehir alınarak Balkan içlerine giden yol açıldı. Bizans'ın Avrupa'daki toprakları başkentin çevresindeki dar bir şeride indi.",
   kaynak:"el-kitabi" },
@@ -295,7 +295,7 @@ window.KRONOLOJI_BIZANS = [
   kaynak:"el-kitabi" },
 
 { t:"1369-01-01", b:"Edirne Osmanlı başşehri oldu — Bizans kuşatıldı", tur:"toprak-kayip",
-  onem:5, dunya:3, kapsam:"dis", etiket:["toprak-kaybi"],
+  onem:5, dunya:3, kapsam:"dis", etiket:["toprak-kayip"],
   yer_id:"Edirne",
   d:"Osmanlı Devleti'nin merkezinin Rumeli'ye taşınması, Bizans'ın Trakya'daki varlığını fiilen bitirdi. Başkent artık Osmanlı toprağıyla çevrili bir ada gibiydi. ⚠️ Edirne'nin fetih yılı kaynaklarda 1361 ile 1369 arasında tartışmalıdır; burada başşehir oluşu esas alınmıştır.",
   kaynak:"el-kitabi" },
@@ -313,13 +313,13 @@ window.KRONOLOJI_BIZANS = [
   kaynak:"el-kitabi" },
 
 { t:"1373-01-01", b:"BİZANS OSMANLI'YA TÂBİ OLDU — haraç ve asker yükümlülüğü", tur:"antlasma",
-  onem:5, dunya:3, kapsam:"dis", etiket:["antlasma","toprak-kaybi"],
+  onem:5, dunya:3, kapsam:"dis", etiket:["antlasma","toprak-kayip"],
   yer_id:"İstanbul",
   d:"Dimetoka yakınındaki yenilginin ardından V. İoannis, I. Murad'a tâbi olmayı, haraç ödemeyi ve seferlere asker göndermeyi kabul etti. Roma İmparatorluğu'nun mirasçısı sayılan devlet, artık bir Osmanlı vasalıydı; imparatorlar bundan sonra sultanın seferlerinde onun yanında yer alacaktı.",
   kaynak:"bizans" },
 
 { t:"1376-08-12", b:"IV. Andronikos babasını devirdi — taht kavgası sultanın elinde", tur:"isyan",
-  onem:4, dunya:1, kapsam:"ic", etiket:["ayaklanma","siyaset"],
+  onem:4, dunya:1, kapsam:"ic", etiket:["isyan","siyaset","taht-kavgasi"],
   yer_id:"İstanbul",
   d:"Oğul, Ceneviz ve Osmanlı desteğiyle babasını hapsedip tahta çıktı ve karşılığında Gelibolu'yu Osmanlılara geri verdi. Bizans taht kavgaları artık sultanın hakemliğinde çözülüyordu.",
   kaynak:"el-kitabi" },
@@ -331,7 +331,7 @@ window.KRONOLOJI_BIZANS = [
   kaynak:"el-kitabi" },
 
 { t:"1381-08-08", b:"Torino Barışı — Tenedos boşaltıldı", tur:"antlasma",
-  onem:3, dunya:2, kapsam:"dis", etiket:["antlasma","toprak-kaybi"],
+  onem:3, dunya:2, kapsam:"dis", etiket:["antlasma","toprak-kayip"],
   yer_id:"Bozcaada",
   d:"Venedik ile Ceneviz arasındaki savaşı bitiren barışta, Bizans'a ait olan Tenedos adasının boşaltılıp tahkimatının yıkılmasına karar verildi. Adanın sahibine hiç sorulmadı: imparatorluğun toprağı artık başkalarının masasında paylaşılıyordu.",
   kaynak:"el-kitabi" },
@@ -343,7 +343,7 @@ window.KRONOLOJI_BIZANS = [
   kaynak:"el-kitabi" },
 
 { t:"1387-04-09", b:"SELANİK DÜŞTÜ — imparatorluğun ikinci şehri kaybedildi", tur:"toprak-kayip",
-  onem:5, dunya:3, kapsam:"dis", etiket:["toprak-kaybi"],
+  onem:5, dunya:3, kapsam:"dis", etiket:["toprak-kayip"],
   yer_id:"Selanik",
   d:"Uzun kuşatmanın ardından Selanik Osmanlı idaresine girdi. Bizans'ın elinde başkent, Mora ve birkaç ada dışında neredeyse hiçbir şey kalmamıştı.",
   kaynak:"el-kitabi" },
@@ -355,7 +355,7 @@ window.KRONOLOJI_BIZANS = [
   kaynak:"el-kitabi" },
 
 { t:"1390-04-14", b:"VII. İoannis'in beş aylık gaspı", tur:"isyan",
-  onem:2, dunya:1, kapsam:"ic", etiket:["ayaklanma"],
+  onem:2, dunya:1, kapsam:"ic", etiket:["isyan"],
   yer_id:"İstanbul",
   d:"Torun, Osmanlı desteğiyle başkenti ele geçirdi ama beş ay sonra amcası tarafından çıkarıldı. Hanedan içi kavga imparatorluğun son yıllarında bile sürüyordu.",
   kaynak:"el-kitabi" },
@@ -367,7 +367,7 @@ window.KRONOLOJI_BIZANS = [
   kaynak:"bizans" },
 
 { t:"1393-07-17", b:"Tırnova düştü — Bulgar Krallığı sona erdi", tur:"toprak-kayip",
-  onem:3, dunya:3, kapsam:"dis", etiket:["toprak-kaybi"],
+  onem:3, dunya:3, kapsam:"dis", etiket:["toprak-kayip"],
   yer_id:"Tırnova",
   d:"Bulgaristan'ın başkenti alındı ve devlet ortadan kalktı. Bizans'ın kuzeyinde tampon işlevi görebilecek son Ortodoks krallık da haritadan silinmişti.",
   kaynak:"el-kitabi" },
@@ -416,7 +416,7 @@ window.KRONOLOJI_BIZANS = [
   kaynak:"el-kitabi" },
 
 { t:"1408-01-01", b:"Mora Despotluğu güçlendi — Mistra'nın yükselişi", tur:"toprak-kazanc",
-  onem:4, dunya:1, kapsam:"ic", etiket:["siyaset","kultur-sanat"],
+  onem:4, dunya:1, kapsam:"ic", etiket:["siyaset","kultur"],
   yer_id:"",
   d:"Despot Theodoros idaresinde Mora, imparatorluğun en canlı parçası hâline geldi ve Mistra bir düşünce merkezine dönüştü. Bizans'ın son kültürel parlaması başkentte değil burada yaşandı.",
   kaynak:"el-kitabi" },
@@ -458,7 +458,7 @@ window.KRONOLOJI_BIZANS = [
   kaynak:"bizans" },
 
 { t:"1423-09-14", b:"Selanik Venedik'e devredildi — savunulamayan şehrin satışı", tur:"toprak-kayip",
-  onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kaybi"],
+  onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kayip"],
   yer_id:"Selanik",
   d:"Despot Andronikos, savunamadığı şehri Venedik'e teslim etti. Bizans artık kendi şehirlerini koruyamadığı için başkalarına devrediyordu.",
   kaynak:"el-kitabi" },
@@ -482,7 +482,7 @@ window.KRONOLOJI_BIZANS = [
   kaynak:"el-kitabi" },
 
 { t:"1430-03-29", b:"Selanik Osmanlı'ya düştü", tur:"toprak-kayip",
-  onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kaybi"],
+  onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kayip"],
   yer_id:"Selanik",
   d:"Venedik idaresindeki şehir hücumla alındı. Ege'nin kuzeyinde Bizans ya da Latin bir varlık kalmadı.",
   kaynak:"el-kitabi" },
@@ -494,7 +494,7 @@ window.KRONOLOJI_BIZANS = [
   kaynak:"el-kitabi" },
 
 { t:"1438-01-01", b:"Plethon ve Bessarion İtalya'da — Bizans bilgisinin Batı'ya geçişi", tur:"kurulus",
-  onem:3, dunya:4, kapsam:"dis", etiket:["kultur-sanat"],
+  onem:3, dunya:4, kapsam:"dis", etiket:["kultur"],
   yer_id:"Floransa",
   d:"Birlik görüşmeleri için giden heyetteki Georgios Gemistos Plethon, Floransa'da Platon üzerine verdiği derslerle Medici çevresini derinden etkiledi ve Platon Akademisi'nin kurulmasına yol açtı. Bizans siyasî olarak biterken, taşıdığı Yunan mirası İtalyan Rönesansı'na aktarıldı — imparatorluğun dünya tarihine en kalıcı katkısı bu aktarımdır.",
   kaynak:"el-kitabi" },
@@ -512,7 +512,7 @@ window.KRONOLOJI_BIZANS = [
   kaynak:"varna-muharebesi" },
 
 { t:"1446-12-10", b:"Hexamilion duvarı yıkıldı — Mora savunmasız kaldı", tur:"toprak-kayip",
-  onem:4, dunya:1, kapsam:"dis", etiket:["savas","toprak-kaybi"],
+  onem:4, dunya:1, kapsam:"dis", etiket:["savas","toprak-kayip"],
   yer_id:"",
   d:"Korint berzahını kapatan sur II. Murad tarafından topla yıkıldı ve Mora yağmalandı. Despotluk haraca bağlandı; imparatorluğun son toprak parçası da güvencesizdi.",
   kaynak:"el-kitabi" },
@@ -572,13 +572,13 @@ window.KRONOLOJI_BIZANS = [
   kaynak:"el-kitabi" },
 
 { t:"1453-05-29", b:"İSTANBUL'UN FETHİ — Bizans İmparatorluğu sona erdi", tur:"son",
-  onem:5, dunya:5, kapsam:"dis", etiket:["toprak-kaybi","savas"],
+  onem:5, dunya:5, kapsam:"dis", etiket:["toprak-kayip","savas"],
   yer_id:"İstanbul",
   d:"Elli üç günlük kuşatmanın ardından şehir alındı; son imparator XI. Konstantinos surlarda savaşırken öldü ve cesedi kesin olarak teşhis edilemedi. Bin yüz yıllık Doğu Roma İmparatorluğu sona erdi. Bu tarih hem Osmanlı hem Bizans hem de Avrupa tarihyazımında bir çağın kapanışı sayılır — Osmanlı için bir dönüm noktası, Bizans için son, dünya için devletler sisteminin yeniden kurulduğu andır.",
   kaynak:"bizans" },
 
 { t:"1460-05-31", b:"Mora Despotluğu ilhak edildi — son Bizans toprağı", tur:"son",
-  onem:5, dunya:2, kapsam:"dis", etiket:["toprak-kaybi"],
+  onem:5, dunya:2, kapsam:"dis", etiket:["toprak-kayip"],
   yer_id:"",
   d:"Başkentin düşüşünden yedi yıl sonra Palaiologos hanedanının elindeki son toprak da Osmanlı'ya katıldı. ⚠️ Bu madde dosyanın 1281-1453 kapsamının DIŞINDADIR; anlatı kapanmadan bitmesin diye epilog olarak kondu. Trabzon Rum İmparatorluğu (1461) AYRI bir künyedir ve bu dosyaya alınmadı.",
   kaynak:"el-kitabi" },

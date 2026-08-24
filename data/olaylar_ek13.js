@@ -72,7 +72,7 @@ window.OLAYLAR_EK13 = [
 // A-2 — Don Juan de Austria'nın Tunus'u geri alışı
 // ---------------------------------------------------------------------------
 // TDV `tunus` GÜN VERİYOR: "10 Ekim 1573". Yer tutucu gerekmedi.
-{ t:"1573-10-10", k:"kayip", etiket:["toprak-kaybi"],
+{ t:"1573-10-10", k:"kayip", etiket:["toprak-kayip"],
   b:"Don Juan de Austria'nın Tunus'u geri alışı — İnebahtı'nın karadaki tek karşılığı",
   gun:"10 Ekim 1573",
   yer:"Tunus, Halkulvâdî", yer_id:"Tunus",
@@ -164,7 +164,7 @@ window.OLAYLAR_EK13 = [
 // ---------------------------------------------------------------------------
 // A-8 — Agadir'in düşüşü   🔴 1541 ÇÖKÜŞÜNÜN TETİĞİ, GÜN KESİN
 // ---------------------------------------------------------------------------
-{ t:"1541-03-12", k:"kayip", etiket:["toprak-kaybi"],
+{ t:"1541-03-12", k:"kayip", etiket:["toprak-kayip"],
   b:"Agadir'in düşüşü — Sa'dîler'in Portekiz'i Fas'tan söküşü başlıyor",
   gun:"12 Mart 1541 (kuşatma 16 Şubat 1541'de başladı)",
   yer:"Agadir (Santa Cruz do Cabo de Gué) — Sûs", yer_id:"Agadir",
@@ -180,7 +180,7 @@ window.OLAYLAR_EK13 = [
 // veriyor; TDV `fas` yalnız "aynı yıl" diyor. `t:` sourced AYIN 1'ine konuldu
 // — YYYY-01-01 yer tutucusu KULLANILMADI, çünkü o Agadir'in düşüşünden ÖNCEYE
 // düşer ve sebep-sonuç sırasını ters çevirirdi.
-{ t:"1541-10-01", k:"kayip", etiket:["toprak-kaybi"],
+{ t:"1541-10-01", k:"kayip", etiket:["toprak-kayip"],
   b:"Safi ve Azemmûr'un boşaltılması — Portekiz Atlas kıyısından çekiliyor",
   gun:"Ekim 1541 (tahliye Eylül-Ekim'de tamamlandı; gün kaynakta yok)",
   yer:"Safi (Asfi), Azemmûr — Fas Atlas kıyısı", yer_id:"Safi (Asfi)",
@@ -196,7 +196,7 @@ window.OLAYLAR_EK13 = [
 // ⇒ İKİSİ DE YAZILDI (koordinatörün kuralı). `t:` batı okumasına konuldu
 //   çünkü koordinatörün kuyruk listesi "1549 Arzila" diyor; TDV okuması
 //   metinde duruyor ve kırılma 1550'ye taşınırsa `t:` de taşınmalıdır.
-{ t:"1549-01-01", k:"kayip", etiket:["toprak-kaybi"],
+{ t:"1549-01-01", k:"kayip", etiket:["toprak-kayip"],
   b:"Arzila'nın boşaltılması — Portekiz kuzey kıyısını daraltıyor",
   gun:"1549 (TDV `fas` 1550 der ve Kasrüssagīr ile birlikte anar; gün hiçbirinde yok)",
   yer:"Arzila (Asîlâ) — Fas kuzey kıyısı",
@@ -207,7 +207,7 @@ window.OLAYLAR_EK13 = [
 // ---------------------------------------------------------------------------
 // A-11 — Mazagan'ın boşaltılması   🔴 GÜN KESİN — Portekiz Fası'nın sonu
 // ---------------------------------------------------------------------------
-{ t:"1769-03-11", k:"kayip", etiket:["toprak-kaybi"],
+{ t:"1769-03-11", k:"kayip", etiket:["toprak-kayip"],
   b:"Mazagan'ın boşaltılması — Portekiz'in Fas'taki son mevzii düştü",
   gun:"11 Mart 1769 (tahliye filosu Lizbon'dan 1 Şubat'ta hareket etti)",
   yer:"Mazagan (el-Cedîde) — Fas Atlas kıyısı",
@@ -246,7 +246,7 @@ window.OLAYLAR_EK13 = [
 // ---------------------------------------------------------------------------
 // A-13 — Portekiz'in Bahreyn'i alışı
 // ---------------------------------------------------------------------------
-{ t:"1521-01-01", k:"kayip", etiket:["toprak-kaybi"],
+{ t:"1521-01-01", k:"kayip", etiket:["toprak-kayip"],
   b:"Portekiz'in Bahreyn'i alışı — Cebrî hâkimiyetinin sonu",
   gun:"1521 (TDV: \"Portekizliler, 1521'de Bahreyn'i ele geçirdiler\"; ay ve gün yok)",
   yer:"Bahreyn (Evâl adaları)",

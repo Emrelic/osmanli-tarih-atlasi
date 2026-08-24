@@ -233,7 +233,7 @@ window.KRONOLOJI_ANADOLU = [
   kaynak:"karamanogullari", yer_id:"Karaman" },
 
 { t:"1361-01-01", b:"Süleyman Bey akrabaları tarafından öldürüldü, Alâeddin Bey iktidara geçti", tur:"isyan",
-  onem:5, dunya:2, kapsam:"ic", etiket:["isyan","hukumdar"],
+  onem:5, dunya:2, kapsam:"ic", etiket:["isyan","hukumdar","taht-kavgasi"],
   yer_id:"",
   d:"Süleyman Bey'in kendi akrabaları tarafından suikaste kurban gitmesinin ardından Alâeddin Bey iktidarı ele geçirdi; Alâeddin Bey'in 37 yıl sürecek uzun hükümdarlığı böyle başladı.",
   kaynak:"karamanogullari", kapsam_genis:true },
@@ -619,7 +619,7 @@ window.KRONOLOJI_ANADOLU = [
   kaynak:"kilicarslan-ii" },
 
 { t:"1196-01-01", b:"II. Süleyman Şah'ın kardeşini tahttan indirmesi", tur:"isyan",
-  onem:3, dunya:1, kapsam:"ic", etiket:["taht kavgası", "Keyhusrev"],
+  onem:3, dunya:1, kapsam:"ic", etiket:["taht kavgası","Keyhusrev","taht-kavgasi"],
   yer_id:"Konya",
   d:"I. Gıyâseddin Keyhusrev, kardeşi II. Süleyman Şah tarafından tahttan indirildi (593/1196); Süleyman Şah kardeşlerinin topraklarını da ele geçirerek ülkenin siyasî birliğini yeniden kurmaya çalıştı.",
   kaynak:"keyhusrev-i" },
@@ -1729,7 +1729,7 @@ window.KRONOLOJI_ANADOLU = [
   kaynak:"Bournoutian (2006); ikincil özetten derlendi" },
 
 { t:"1296-01-01", b:"Sempat, kardeşlerini alaşağı etti: Toros boğduruldu, Hetum kör edildi", tur:"isyan",
-  onem:4, dunya:1, kapsam:"ic", etiket:["Sempat", "iç çatışma", "kör etme"],
+  onem:4, dunya:1, kapsam:"ic", etiket:["Sempat","iç çatışma","kör etme","taht-kavgasi"],
   yer_id:"",
   d:"Taht kavgasında kardeş Sempat, III. Toros'u boğdurttu ve II. Hetum'u dağlayarak kısmen kör ettirdi, tahtı ele geçirdi; üç yıl sonra bir başka kardeş III. Konstantin tarafından devrildi.",
   kaynak:"Bournoutian (2006); ikincil özetten (soy kütüğü kaynaklarıyla çapraz kontrol)", kapsam_genis:true },
@@ -1747,7 +1747,7 @@ window.KRONOLOJI_ANADOLU = [
   kaynak:"Council of Sis literatürü, ikincil akademik özetten derlendi (doğrudan birincil tarama yapılamadı); Bournoutian (2006)", yer_kon:[37.4522,35.8283] },
 
 { t:"1307-11-17", b:"II. Hetum ve kral II. Levon, Moğol kumandanı Bilarga tarafından öldürüldü", tur:"isyan",
-  onem:5, dunya:2, kapsam:"dis", etiket:["suikast", "Bilarga", "Moğol"],
+  onem:5, dunya:2, kapsam:"dis", etiket:["suikast","Bilarga","Moğol","darbe-siyasi"],
   yer_id:"",
   d:"Kilikya'daki Moğol garnizon kumandanı, Müslüman Bilarga, başkent Sis'te cami inşa etme niyetini duyurunca II. Hetum İlhanlı hükümdarı Olcaytu'ya şikâyet etti; öfkelenen Bilarga eski kral II. Hetum'u ve genç kral II. Levon'u Anazarva yakınındaki otağına çağırıp maiyetleriyle katletti. Olcaytu, Bilarga'yı bu cinayet yüzünden idam ettirdi.",
   kaynak:"Stewart, The Armenian Kingdom and the Mamluks (2001); ikincil özetten derlendi, doğrudan doğrulama önerilir", yer_kon:[37.2667,35.9167] },
@@ -1789,7 +1789,7 @@ window.KRONOLOJI_ANADOLU = [
   kaynak:"\"The Armenian Kingdom of Cilicia and the Mamluk Sultanate\", Orient dergisi (jstage.jst.go.jp)" },
 
 { t:"1341-08-28", b:"IV. Levon kendi baronları tarafından öldürüldü", tur:"isyan",
-  onem:5, dunya:1, kapsam:"ic", etiket:["suikast", "baronlar", "Hetumid sonu"],
+  onem:5, dunya:1, kapsam:"ic", etiket:["suikast","baronlar","Hetumid sonu","darbe-siyasi"],
   yer_id:"",
   d:"Batı yanlısı politikaları ve Katolik Kilisesi ile uzlaşma çabaları yerli baronları kızdıran IV. Levon, 1337'deki yeni Memlük saldırısı sırasında Sis kalesine sığınmışken kendi baronları tarafından öldürüldü — Hetumid hanedanının son kralıydı.",
   kaynak:"Bournoutian (2006); ikincil özetten derlendi", yer_kon:[37.4522,35.8283] },
@@ -1801,7 +1801,7 @@ window.KRONOLOJI_ANADOLU = [
   kaynak:"Bournoutian (2006); ikincil özetten derlendi", kapsam_genis:true },
 
 { t:"1344-04-17", b:"II. Konstantin bir ayaklanmada öldürüldü", tur:"isyan",
-  onem:3, dunya:1, kapsam:"ic", etiket:["ayaklanma", "Lusignan"],
+  onem:3, dunya:1, kapsam:"ic", etiket:["isyan","Lusignan","darbe-siyasi"],
   yer_id:"",
   d:"Yerli baronların yabancı (Latin) hanedana duyduğu güvensizlik yeniden patladı; II. Konstantin bir isyanda öldürüldü, yerine uzak akraba III. Konstantin geçti.",
   kaynak:"Bournoutian (2006); ikincil özetten derlendi", kapsam_genis:true },

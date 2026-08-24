@@ -106,7 +106,7 @@ window.KRONOLOJI_KARAKOYUNLU = [
   kaynak:"karakoyunlular" },
 
 { t:"1366-01-01", b:"Celâyirli Sultan Üveys Musul'u geri aldı", tur:"kayip",
-  onem:3, dunya:1, kapsam:"dis", etiket:["askeri","toprak-kaybi"],
+  onem:3, dunya:1, kapsam:"dis", etiket:["askeri","toprak-kayip"],
   yer_id:"Musul",
   d:"Celâyirli hükümdarı Sultan Üveys, 767 (1366) yılında Musul'u Karakoyunlular'ın elinden geri aldı ve şehirdeki Karakoyunlu valisi Birdi Hoca'yı hapsetti. Kuruluşundan on beş yıl sonra genç devlet, güneydeki en önemli kazancını kaybetmiş oldu.",
   kaynak:"karakoyunlular" },
@@ -150,7 +150,7 @@ window.KRONOLOJI_KARAKOYUNLU = [
   kaynak:"karakoyunlular" },
 
 { t:"1387-01-01", b:"Timur Erzurum'a kadar ilerledi", tur:"kayip",
-  onem:4, dunya:3, kapsam:"dis", etiket:["askeri","toprak-kaybi","timur"],
+  onem:4, dunya:3, kapsam:"dis", etiket:["askeri","toprak-kayip","timur"],
   yer_id:"Erzurum",
   d:"789 (1387) yılında Timur, Doğu Anadolu'ya girerek Erzurum'a kadar olan toprakları ele geçirdi. Timur'un bölgeye gelişi Karakoyunlu tarihinin en uzun süreli dış tehdidini başlattı; hanedan bundan sonra otuz yıl boyunca varlığını Timurlu baskısı altında sürdürecektir.",
   kaynak:"karakoyunlular" },
@@ -182,7 +182,7 @@ window.KRONOLOJI_KARAKOYUNLU = [
   kaynak:"karakoyunlular" },
 
 { t:"1394-07-31", b:"Timur Avnik Kalesi'ni 43 günlük kuşatmadan sonra aldı", tur:"kayip",
-  onem:4, dunya:2, kapsam:"dis", etiket:["askeri","kusatma","toprak-kaybi","timur"],
+  onem:4, dunya:2, kapsam:"dis", etiket:["askeri","kusatma","toprak-kayip","timur"],
   yer_id:"",
   d:"Timur, Karakoyunlu'nun kilit müstahkem mevkii Avnik Kalesi'ni kuşattı; kale kumandanı Mısır Hoca kırk üç günlük direnişin ardından 2 Şevval 796 (31 Temmuz 1394) günü teslim oldu. Gün hassasiyetli bu kayıt, Timur'un Doğu Anadolu'yu sistematik olarak tasfiye ettiği seferin en somut halkasıdır. ⚠️ Avnik Kalesi'nin atlas verisinde yerleşim kaydı YOKTUR, bu yüzden `yer_id` boş bırakıldı.",
   kaynak:"karakoyunlular" },
@@ -318,7 +318,7 @@ window.KRONOLOJI_KARAKOYUNLU = [
   kaynak:"karakoyunlular · akkoyunlular" },
 
 { t:"1421-07-30", b:"Eleşkirt'te Şâhruh'a yenilgi", tur:"kayip",
-  onem:5, dunya:2, kapsam:"dis", etiket:["askeri","savas","timur","toprak-kaybi"],
+  onem:5, dunya:2, kapsam:"dis", etiket:["askeri","savas","timur","toprak-kayip"],
   yer_id:"",
   d:"29 Receb - 1 Şâban 824 (30 Temmuz - 1 Ağustos 1421) günlerinde İskender, Timurlu hükümdarı Şâhruh'un kuvvetleri karşısında Eleşkirt'te ağır bir yenilgi aldı. Bu yenilgi, Karakoyunlu'nun Timurlu vesâyetine yeniden girdiği ve İskender'in bütün saltanatı boyunca Şâhruh ile mücadele edeceği dönemi başlattı. ⚠️ Eleşkirt'in atlas verisinde yerleşim kaydı YOKTUR.",
   kaynak:"karakoyunlular" },
@@ -372,7 +372,7 @@ window.KRONOLOJI_KARAKOYUNLU = [
   kaynak:"karakoyunlular" },
 
 { t:"1438-05-01", b:"İskender, oğlu Şah Kubâd tarafından Alıncak Kalesi'nde öldürüldü", tur:"hukumdar",
-  onem:5, dunya:1, kapsam:"ic", etiket:["olum","taht-degisikligi","hanedan"],
+  onem:5, dunya:1, kapsam:"ic", etiket:["olum","taht-degisikligi","hanedan","taht-kavgasi"],
   yer_id:"",
   d:"Zilkade 841 (Mayıs 1438) ayında İskender, kendi oğlu Şah Kubâd tarafından Alıncak Kalesi'nde öldürüldü. On sekiz yıl boyunca Timurlu baskısına direnen hükümdarın bir dış düşman eliyle değil hanedan içinden gelen bir suikastle ölmesi, Karakoyunlu veraset düzeninin kırılganlığının en açık örneğidir. ⚠️ Alıncak Kalesi'nin atlas verisinde yerleşim kaydı YOKTUR.",
   kaynak:"karakoyunlular" },
@@ -472,7 +472,7 @@ window.KRONOLOJI_KARAKOYUNLU = [
   kaynak:"karakoyunlular" },
 
 { t:"1469-12-19", b:"Son Hille valisi idam edildi — Irak'ta Akkoyunlu düzeni kuruldu", tur:"kayip",
-  onem:4, dunya:1, kapsam:"dis", etiket:["olum","idari","akkoyunlu","toprak-kaybi"],
+  onem:4, dunya:1, kapsam:"dis", etiket:["olum","idari","akkoyunlu","toprak-kayip"],
   yer_id:"Hille",
   d:"14 Cemâziyelâhir 874 (19 Aralık 1469) günü Karakoyunlu'nun son Hille valisi idam edildi ve Irak'ta Akkoyunlu hâkimiyeti kuruldu. Kara Yûsuf'un 1402'de sürgünde sığındığı Hille, altmış yedi yıl sonra hanedanın son toprağı olarak elden çıktı.",
   kaynak:"karakoyunlular" },
@@ -486,7 +486,7 @@ window.KRONOLOJI_KARAKOYUNLU = [
 // ───────────────────────── KÜLTÜR · MİMARÎ · İLİM · DİN · İKTİSAT
 
 { t:"1465-01-01", b:"Tebriz'de Gökmescid (Mescid-i Kebûd) inşasına başlandı", tur:"mimari",
-  onem:5, dunya:2, kapsam:"ic", etiket:["mimari","kultur","din","sanat"],
+  onem:5, dunya:2, kapsam:"ic", etiket:["mimari","kultur","din","kultur"],
   yer_id:"Tebriz",
   d:"Cihan Şah, 870 (1465-66) yılında Tebriz'de mimar Muhammed el-Bevvâb'a bir külliye yaptırmaya başladı; mimarın adı çini kitâbede bugün hâlâ okunabilmektedir. Mavi çinilerle kaplı olduğu için halk arasında Mescid-i Kebûd (Gökmescid) diye anılan yapı, büyük ve hafifçe sivrilen bir kubbe ile onu çevreleyen üç alçak kubbeli mekândan oluşur ve Büyük Selçuklu mimarî ilkelerinin merkezî plana uyarlanmış hâlidir. Uzmanlarca İran'ın günümüzde sanat değeri en yüksek eserlerinden biri sayılır.",
   kaynak:"gokmescid · karakoyunlular · cihan-sah" },
@@ -504,7 +504,7 @@ window.KRONOLOJI_KARAKOYUNLU = [
   kaynak:"cihan-sah" },
 
 { t:"1438-04-19", b:"Cihan Şah'ın 'Hakîkî' mahlasıyla Türkçe divanı", tur:"kultur",
-  onem:4, dunya:1, kapsam:"ic", etiket:["kultur","edebiyat","sanat"],
+  onem:4, dunya:1, kapsam:"ic", etiket:["kultur","edebiyat","kultur"],
   yer_id:"Tebriz",
   d:"Cihan Şah, 'Hakîkî' mahlasıyla Türkçe şiirler yazdı ve Azerî edebiyatında müstakil bir yer edindi. Bir hükümdarın devlet dili olarak Farsça'nın hâkim olduğu bir çevrede Türkçe divan sahibi olması, Karakoyunlu'nun Türkmen kimliğini kültür alanında da sürdürdüğünün göstergesidir. ⚠️ TARİH HAKKINDA: kaynak divanın telif yılını VERMİYOR; madde, şairliğin hükümdarlık kimliğinin bir parçası olması sebebiyle cülûs gününe bağlandı. Bu bir TERCİHTİR, ölçüm değildir ve gizlenmiyor.",
   kaynak:"cihan-sah · karakoyunlular" },
@@ -522,13 +522,13 @@ window.KRONOLOJI_KARAKOYUNLU = [
   kaynak:"karakoyunlular (himaye) · celaleddin-ed-devvani ÇEKİLEMEDİ" },
 
 { t:"1438-04-19", b:"Dört halife adına para basımı — Sünnî çizginin sürdüğünün delili", tur:"din",
-  onem:4, dunya:1, kapsam:"ic", etiket:["din","iktisat","sosyal"],
+  onem:4, dunya:1, kapsam:"ic", etiket:["din","ekonomi","sosyal"],
   yer_id:"", kapsam_genis:true,
   d:"Karakoyunlu hükümdarları dört halifenin adını taşıyan sikkeler bastırdılar. Bu, aynı dönemde Şeyh Cüneyd-i Safevî gibi isimlerin öncülüğünde Şiî hareketlerin bölgede yayılmasına rağmen hanedanın resmî çizgisinde Sünnî unsurların sürdüğünü gösterir. Karakoyunlu'nun mezhep kimliği bu yüzden tek renkli değildir: sikke Sünnî, çevredeki tarikat hareketi Şiîdir ve ikisi aynı devlette yan yana durmaktadır. ⚠️ TARİH HAKKINDA: kaynak sikkelerin basım yılını vermiyor; madde Cihan Şah'ın cülûsuna bağlandı, bir tercihtir. `kapsam_genis` sayılabilecek imparatorluk çapında bir uygulamadır, bu yüzden `yer_id` boştur.",
   kaynak:"karakoyunlular" },
 
 { t:"1446-01-01", b:"Malî teşkilât: muhassıl ve tahvildarlar eliyle şer'î ve örfî vergi düzeni", tur:"idari",
-  onem:3, dunya:1, kapsam:"ic", etiket:["idari","iktisat","hukuk"],
+  onem:3, dunya:1, kapsam:"ic", etiket:["idari","ekonomi","hukuk"],
   yer_id:"", kapsam_genis:true,
   d:"Karakoyunlu Devleti, muhassıl ve tahvildar gibi malî görevliler eliyle hem şer'î hem örfî vergileri toplayan bir maliye teşkilâtı işletiyordu; bu gelirler geniş saray bürokrasisini ve orduyu finanse ediyordu. ⚠️ TARİH HAKKINDA: kaynak bu teşkilâtın kuruluş yılını vermiyor; madde devletin sınırlarının en geniş olduğu ve teşkilâtın en çok yüklendiği Bağdat fethi yılına bağlandı. Bir tercihtir. İmparatorluk çapında olduğu için `yer_id` boştur.",
   kaynak:"karakoyunlular" },

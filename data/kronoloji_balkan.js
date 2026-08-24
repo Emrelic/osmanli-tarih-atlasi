@@ -81,7 +81,7 @@ window.KRONOLOJI_BALKAN = [
 // ═══════════════════════════════════════════════════════════════════
 
 { t:"1356-01-01", b:"Balšić ailesi Sırp Krallığı'nın dağılmasında bağımsızlaştı", tur:"kurulus",
-  onem:5, dunya:1, kapsam:"ic", etiket:["kurulus","siyasi"], yer_id:"", kapsam_genis:true,
+  onem:5, dunya:1, kapsam:"ic", etiket:["kurulus","siyaset"], yer_id:"", kapsam_genis:true,
   d:"Sırp Krallığı'nın 1355'te Stefan Duşan'ın ölümüyle çözülmeye başlamasından yararlanan Balšić ailesi, Zeta bölgesinde bağımsız bir hâkimiyet kurdu. TDV'nin karadag maddesi bu süreci XI. yüzyıldan (Zeta adının doğuşu, 1077 krallık, 1189 Sırp hâkimiyeti ve 'Crna Gora' adının ilk kullanımı) başlatıyor ama Balšić hanedanının kendisi hakkında ayrıntı vermiyor; hanedanın kuruluşu standart akademik kaynağa dayanıyor.",
   kaynak:"TDV `karadag`: '1189 yılında Sırbistan hâkimiyetini sağlamlaştırdı... Sırbistan XIII. yüzyılın ikinci yarısında çözülmeye başladığında Zeta büyük oranda bağımsızlığını elde etti.' Balšić hanedanının kuruluş tarihi: J.V.A. Fine, The Late Medieval Balkans, University of Michigan Press, 1994." },
 
@@ -91,12 +91,12 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"TDV `karadag`: 'Osmanlılar'la ilk çarpışma 1385'te gerçekleşti.'" },
 
 { t:"1421-01-01", b:"Son Balšić hükümdarı Zeta'yı Sırp despotuna miras bıraktı", tur:"bolunme",
-  onem:4, dunya:1, kapsam:"ic", etiket:["saray","siyasi"], yer_id:"", kapsam_genis:true,
+  onem:4, dunya:1, kapsam:"ic", etiket:["saray","siyaset"], yer_id:"", kapsam_genis:true,
   d:"Balšić hanedanının son idarecisi (Balša III), vârissiz ölümü öncesinde Zeta'yı akrabası Sırp despotu Stefan Lazarević'e miras bıraktı. Bu, Balšić hâkimiyetinin sonu ve Crnojević ailesinin yükselişine kadar geçen ara dönemin başlangıcıdır.",
   kaynak:"TDV `karadag`: '1421'de Balšići ailesinin son idarecisi Zeta'yı miras olarak Sırp despotuna bıraktı.'" },
 
 { t:"1451-01-01", b:"Crnojević ailesi Zeta'nın başına geçti", tur:"hukumdar",
-  onem:3, dunya:1, kapsam:"ic", etiket:["hukumdar","siyasi"], yer_id:"", kapsam_genis:true,
+  onem:3, dunya:1, kapsam:"ic", etiket:["hukumdar","siyaset"], yer_id:"", kapsam_genis:true,
   d:"Sırp despotluğunun zayıflamasıyla yerel bir feodal aile olan Crnojevići, Stefan Crnojević önderliğinde Zeta'nın fiilî hâkimi hâline geldi; merkezleri başlangıçta Žabljak Crnojevića idi.",
   kaynak:"bulunamadı — TDV `karadag` maddesi Crnojević hanedanının başlangıcını tarihlendirmiyor; dayanak: J.V.A. Fine, The Late Medieval Balkans, 1994." },
 
@@ -105,8 +105,8 @@ window.KRONOLOJI_BALKAN = [
   d:"Zeta'nın en tanınmış Crnojević hükümdarı İvan Crnojević, ağabeyi Stefan'ın yerine geçti; Osmanlı ve Venedik arasındaki dengeyi gözeten, sonunda merkezini dağlara taşıyan hükümdarlığı başladı.",
   kaynak:"bulunamadı — TDV tarih vermiyor; dayanak: standart akademik kaynak (Fine, 1994; Cetinje Manastırı ve Karadağ Millî Kütüphanesi resmî tarihçeleriyle çapraz doğrulandı)." },
 
-{ t:"1479-01-25", b:"İşkodra Venedik'ten Osmanlı'ya geçti — Zeta'nın kuzey komşusu değişti", tur:"siyasi",
-  onem:2, dunya:2, kapsam:"dis", etiket:["diplomasi","siyasi"], yer_id:"İşkodra",
+{ t:"1479-01-25", b:"İşkodra Venedik'ten Osmanlı'ya geçti — Zeta'nın kuzey komşusu değişti", tur:"siyaset",
+  onem:2, dunya:2, kapsam:"dis", etiket:["diplomasi","siyaset"], yer_id:"İşkodra",
   d:"İstanbul Antlaşması'yla (1479) uzun kuşatmanın ardından Venedik, İşkodra'yı Osmanlı'ya bıraktı. Zeta'nın en büyük komşu şehri artık doğrudan Osmanlı elindeydi; bu, Osmanlı'nın Zeta'yı kıskaca alan son adımlarından biriydi ve on beş yıl sonraki fethin zeminini hazırladı.",
   kaynak:"Yerel veri (data/yerlesimler.js, İşkodra kaydı: s:[{f:1281-01-01,t:1479-01-25,d:venedik}]) + standart akademik kaynak (Fine, 1994) — TDV `karadag` bu olayı doğrudan anmıyor." },
 
@@ -115,13 +115,13 @@ window.KRONOLOJI_BALKAN = [
   d:"Osmanlı baskısı karşısında savunması daha kolay bir konum arayan İvan Crnojević, sarayını Obod'dan Lovćen Dağı eteğindeki Cetinje ovasına taşıdı.",
   kaynak:"Yerel veri (data/yerlesimler.js, Cetinje kaydı: kur:'1482-01-01') + standart akademik kaynak — TDV `karadag` tarih vermiyor." },
 
-{ t:"1482-06-01", b:"Stanko Crnojević İstanbul'a gönderildi, İslam'a girip İskender Bey oldu", tur:"siyasi",
+{ t:"1482-06-01", b:"Stanko Crnojević İstanbul'a gönderildi, İslam'a girip İskender Bey oldu", tur:"siyaset",
   onem:3, dunya:1, kapsam:"dis", etiket:["diplomasi","saray"], yer_id:"", kapsam_genis:true,
   d:"İvan Crnojević, oğlu Stanko'yu sadakat rehinesi olarak Osmanlı sarayına (II. Bayezid dönemi) gönderdi; Stanko orada İslam'a girip İskender adını aldı. Otuz iki yıl sonra aynı kişi, 1514'te Karadağ Sancağı'nın ilk beyi olacaktı.",
   kaynak:"bulunamadı — TDV `karadag` İskender Bey'in kimliğini doğruluyor ama dönüşüm hikâyesini anlatmıyor; dayanak: standart akademik kaynak (Crnojević hanedanı literatürü)." },
 
-{ t:"1484-01-01", b:"Cetinje Manastırı kuruldu", tur:"siyasi",
-  onem:3, dunya:1, kapsam:"ic", etiket:["mimari","kultur-sanat"], yer_id:"Cetinje",
+{ t:"1484-01-01", b:"Cetinje Manastırı kuruldu", tur:"siyaset",
+  onem:3, dunya:1, kapsam:"ic", etiket:["mimari","kultur"], yer_id:"Cetinje",
   d:"İvan Crnojević, yeni başkentindeki Meryem Ana Manastırı'nı (Cetinje Manastırı) kendi vakfı olarak inşa ettirdi. Manastır, sonraki dört asır boyunca Karadağ Ortodoks kilisesinin ve piskopos-prensliğin fiilî merkezi olacaktı.",
   kaynak:"bulunamadı — TDV `karadag` kuruluş tarihini vermiyor; dayanak: standart akademik kaynak (Cetinje Manastırı ve Karadağ Millî Kütüphanesi resmî tarihçeleriyle çapraz doğrulandı)." },
 
@@ -130,23 +130,23 @@ window.KRONOLOJI_BALKAN = [
   d:"İvan Crnojević'in ölümüyle oğlu Đurađ Crnojević Zeta'nın başına geçti; kısa hükümdarlığı (1490-1496) kültürel açıdan en parlak dönemlerden biri oldu — matbaanın kuruluşu bu döneme rastlar.",
   kaynak:"bulunamadı — TDV tarih vermiyor; dayanak: standart akademik kaynak." },
 
-{ t:"1493-01-01", b:"Đurađ Crnojević, Balkanlar'ın ilk Kiril matbaasını Cetine'de kurdu", tur:"siyasi",
-  onem:4, dunya:2, kapsam:"ic", etiket:["bilim","kultur-sanat"], yer_id:"Cetinje",
+{ t:"1493-01-01", b:"Đurađ Crnojević, Balkanlar'ın ilk Kiril matbaasını Cetine'de kurdu", tur:"siyaset",
+  onem:4, dunya:2, kapsam:"ic", etiket:["bilim","kultur"], yer_id:"Cetinje",
   d:"Crnojević Matbaası, Venedik'ten getirilen ustalarla Cetinje'de kuruldu; Balkanlar'daki ilk, Avrupa'daki ikinci Kiril harfli matbaaydı. Üç yıl çalışıp 1496'da Osmanlı baskısıyla kapandı.",
   kaynak:"bulunamadı — TDV `karadag` matbaadan hiç bahsetmiyor; dayanak: standart akademik kaynak (Karadağ Millî Kütüphanesi resmî tarihçesi, Cetinje Oktoih literatürüyle çapraz doğrulandı)." },
 
-{ t:"1494-01-04", b:"İlk basılı kitap: Oktoih (Osmoglasnik)", tur:"siyasi",
-  onem:3, dunya:1, kapsam:"ic", etiket:["bilim","kultur-sanat"], yer_id:"Cetinje",
+{ t:"1494-01-04", b:"İlk basılı kitap: Oktoih (Osmoglasnik)", tur:"siyaset",
+  onem:3, dunya:1, kapsam:"ic", etiket:["bilim","kultur"], yer_id:"Cetinje",
   d:"Crnojević Matbaası'nın ilk ürünü olan Oktoih Prvoglasnik, Kilise Slavcası'nın Sırp redaksiyonuyla basılan ilk kitaptı. Gün hassasiyetli tarih kitabın kendi kolofonundan gelir.",
   kaynak:"bulunamadı — TDV maddesi bahsetmiyor; dayanak: standart akademik kaynak (Cetinje Octoechos üzerine yayınlanmış kütüphanecilik literatürü)." },
 
 { t:"1496-01-01", b:"Đurađ Crnojević Venedik'e kaçtı, kardeşi Stefan Osmanlı'nın eline geçti", tur:"hukumdar",
-  onem:4, dunya:2, kapsam:"dis", etiket:["diplomasi","siyasi"], yer_id:"", kapsam_genis:true,
+  onem:4, dunya:2, kapsam:"dis", etiket:["diplomasi","siyaset"], yer_id:"", kapsam_genis:true,
   d:"Osmanlı beyi Firuz Bey'in güçlü bir kuvvetle Zeta'ya girmesi üzerine Đurađ Crnojević direnmekten vazgeçip Venedik'e sığındı; yerine geçen kardeşi Stefan, fiilen Osmanlı'nın onayıyla hüküm süren bir yönetici konumuna düştü.",
   kaynak:"bulunamadı — TDV bu ayrıntıyı vermiyor, yalnız 'Fâtih Sultan Mehmed döneminin son yıllarında tesis edilen ilk Osmanlı idaresi'nden bahsediyor; dayanak: standart akademik kaynak." },
 
 { t:"1499-01-01", b:"Zeta İşkodra Sancağı'na bağlandı", tur:"toprak-kayip",
-  onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kaybi","idari"], yer_id:"İşkodra",
+  onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kayip","idari"], yer_id:"İşkodra",
   d:"Crnojevići'nin direnişi kırıldıktan sonra Zeta, ayrı bir sancak olarak değil, İşkodra Sancağı'nın bir parçası olarak Osmanlı idaresine katıldı.",
   kaynak:"TDV `karadag`: 'Fakat bu durum direnme güçlerini kaybetmeleriyle sona erdi. Burası İşkodra sancağının bir parçası haline getirildi...'" },
 
@@ -161,27 +161,27 @@ window.KRONOLOJI_BALKAN = [
 // ═══════════════════════════════════════════════════════════════════
 
 { t:"1528-01-01", b:"İskender Bey öldü, Karadağ Sancağı İşkodra'ya bağlı özerk birim oldu", tur:"bolunme",
-  onem:4, dunya:1, kapsam:"ic", etiket:["idari","siyasi"], yer_id:"", kapsam_genis:true,
+  onem:4, dunya:1, kapsam:"ic", etiket:["idari","siyaset"], yer_id:"", kapsam_genis:true,
   d:"Karadağ Sancağı'nın ilk ve tek ayrı sancakbeyi İskender Bey'in ölümüyle sancak, ayrı bir Crnojević-soylu bey atanmadan İşkodra Sancağı'na bağlı, kendine özgü statüsü olan bir birim hâline geldi. TDV'nin tasvir ettiği yönetim biçimi ('idareciler mahallî işlere fazlaca müdahale etmediler', 'Cetinje vladikası tedricen en yüksek otorite hâline geldi') tam bu dönemden itibaren gelişti.",
   kaynak:"bulunamadı — TDV `karadag` İskender Bey'in ölüm tarihini vermiyor; dayanak: standart akademik kaynak (Sanjak of Montenegro idari tarihi literatürü). TDV'nin genel çerçevesi bu maddeyi destekliyor." },
 
-{ t:"1530-01-01", b:"Karadağ'ın vergi düzeni: maktû sistem ve tuz madenlerinde angarya", tur:"siyasi",
+{ t:"1530-01-01", b:"Karadağ'ın vergi düzeni: maktû sistem ve tuz madenlerinde angarya", tur:"siyaset",
   onem:2, dunya:1, kapsam:"ic", etiket:["ekonomi","idari"], yer_id:"", kapsam_genis:true,
   d:"Osmanlı idaresi Karadağ'ı padişah hassı statüsüne aldı; vergiler hâne başına bir altın (filori) olarak toplu biçimde (maktû sistem) tahsil edildi ve halktan yalnız tuz madenlerinde sınırlı angarya istendi — bunun dışında yerel yaşam tarzına neredeyse hiç müdahale edilmedi.",
   kaynak:"TDV `karadag`: 'Osmanlılar bütün bölgeyi padişah hassı durumuna getirdiler... Vergilerin topluca alınması (maktû sistem)... tuz madenlerinde bir miktar insan gücünden faydalanılması... dışında hususlar idareciler mahallî işlere fazlaca müdahale etmediler.' Tarih TDV'de verilmiyor." },
 
-{ t:"1614-01-01", b:"Karadağ'ın Osmanlı dönemi nüfus ve idari yapısı: beş nahiye, doksan köy", tur:"siyasi",
+{ t:"1614-01-01", b:"Karadağ'ın Osmanlı dönemi nüfus ve idari yapısı: beş nahiye, doksan köy", tur:"siyaset",
   onem:2, dunya:1, kapsam:"ic", etiket:["idari","sosyal"], yer_id:"", kapsam_genis:true,
   d:"Cetinje vladikasına bağlı Karadağ beş nahiyeden, doksan köyden, 3500 haneden, ~8000 yetişkin erkek nüfustan oluşuyordu; içlerinde 1000 kişilik silahlı bir güç vardı.",
   kaynak:"TDV `karadag`: 'Çetine vladikasına bağlı olarak Karadağ'da beş nahiye bulunuyordu. Bunlar 1614'te doksan köyden oluşuyor ve 3500 hâne, 8000 dolayında yetişkin erkek nüfus... İçlerinde silâhlı 1000 kişilik bir kuvvet vardı.'" },
 
-{ t:"1683-09-12", b:"II. Viyana bozgunu Karadağ-Osmanlı ilişkisinin dönüm noktası oldu", tur:"siyasi",
-  onem:3, dunya:5, kapsam:"dis", etiket:["siyasi","diplomasi"], yer_id:"", kapsam_genis:true,
+{ t:"1683-09-12", b:"II. Viyana bozgunu Karadağ-Osmanlı ilişkisinin dönüm noktası oldu", tur:"siyaset",
+  onem:3, dunya:5, kapsam:"dis", etiket:["siyaset","diplomasi"], yer_id:"", kapsam_genis:true,
   d:"Karadağlılar 1683'e kadar Venedik'e ve isyancılara karşı Osmanlı'ya yardımcı oluyordu; Kahlenberg'deki Osmanlı bozgunu bu ittifakın sonunu getirdi.",
   kaynak:"TDV `karadag`: 'Bu durum 1683'teki II. Viyana bozgununa kadar sürdü.' Gün ve dunya: kronoloji_habsburg.js (1683-09-12, dunya:5) ile eşleştirildi." },
 
-{ t:"1688-01-01", b:"Karadağlılar Venedik himayesine girdi", tur:"siyasi",
-  onem:4, dunya:2, kapsam:"dis", etiket:["diplomasi","siyasi"], yer_id:"", kapsam_genis:true,
+{ t:"1688-01-01", b:"Karadağlılar Venedik himayesine girdi", tur:"siyaset",
+  onem:4, dunya:2, kapsam:"dis", etiket:["diplomasi","siyaset"], yer_id:"", kapsam_genis:true,
   d:"Büyük Türk Savaşı sürerken Karadağlılar resmen Venedik Cumhuriyeti'nin himayesi altına girdi; bölgenin Osmanlı'dan kopmasının ilk somut adımıydı.",
   kaynak:"TDV `karadag`: 'Karadağlılar savaş sırasında 1688'de Venedik'in himayesi altına girdiler.'" },
 
@@ -191,16 +191,16 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"TDV `karadag`: '1692'de Osmanlı kuvvetleri Çetine'yi tahrip etti.'" },
 
 { t:"1697-01-01", b:"Danilo I Petrović-Njegoš vladika seçildi — kalıtsal piskopos-prenslik başladı", tur:"hukumdar",
-  onem:5, dunya:2, kapsam:"ic", etiket:["hukumdar","siyasi"], yer_id:"Cetinje",
+  onem:5, dunya:2, kapsam:"ic", etiket:["hukumdar","siyaset"], yer_id:"Cetinje",
   d:"Danilo Petrović, Cetinje vladikası olarak seçildi ve unvanı ailesinde kalıtsal kıldı; Petrović-Njegoš hanedanının (1697-1918) başlangıcı. Ruhban evlenemediği için taç amcadan yeğene geçecek, ama hanedan sürekliliği 221 yıl bozulmayacaktı.",
   kaynak:"bulunamadı — TDV `karadag` Danilo I'in adını anmıyor; dayanak: Britannica, 'Danilo I' maddesi." },
 
-{ t:"1704-01-01", b:"Çetine yeniden imar edildi", tur:"siyasi",
+{ t:"1704-01-01", b:"Çetine yeniden imar edildi", tur:"siyaset",
   onem:2, dunya:1, kapsam:"ic", etiket:["imar"], yer_id:"Cetinje",
   d:"1692'de yıkılan Cetinje, Danilo I döneminde yeniden inşa edildi.",
   kaynak:"TDV `karadag`: 'Şehir 1704'te yeniden imar edildi.'" },
 
-{ t:"1711-01-01", b:"Rusya Karadağ'a elçi gönderip Osmanlı'ya karşı kışkırttı", tur:"siyasi",
+{ t:"1711-01-01", b:"Rusya Karadağ'a elçi gönderip Osmanlı'ya karşı kışkırttı", tur:"siyaset",
   onem:3, dunya:2, kapsam:"dis", etiket:["diplomasi"], yer_id:"", kapsam_genis:true,
   d:"Çar I. Petro, Prut seferi öncesinde Karadağ'a elçi göndererek Osmanlı'ya karşı harekete geçmelerini istedi. Rusya'nın Prut'ta mağlûp olması bu kışkırtmaya son verdi.",
   kaynak:"TDV `karadag`: 'Ruslar, 1711'de Karadağ'a elçi göndererek... Prut Savaşı'nda mağlûp olunca bu faaliyetlerine son verdiler.'" },
@@ -225,17 +225,17 @@ window.KRONOLOJI_BALKAN = [
   d:"Kara Mahmud Paşa'nın Kruse'de yenilip ölmesi on yıllık Osmanlı baskısının sonu oldu; zaferin ardından Zeta'nın doğusundaki bazı kabileler Karadağ'a katıldı.",
   kaynak:"TDV `karadag`: '1795'te Kruse savaşında hayatını kaybetmesi üzerine Zeta'nın doğusundaki bir kısım kabileler Karadağ'a iltihak ettiler.'" },
 
-{ t:"1798-01-01", b:"Petar I Petrović-Njegoš Karadağ'ın ilk yazılı kanunu Zakonik'i çıkardı", tur:"siyasi",
+{ t:"1798-01-01", b:"Petar I Petrović-Njegoš Karadağ'ın ilk yazılı kanunu Zakonik'i çıkardı", tur:"siyaset",
   onem:3, dunya:1, kapsam:"ic", etiket:["kanun","idari"], yer_id:"Cetinje",
   d:"Kabileler arası kan davalarını ve mülkiyet anlaşmazlıklarını sınırlı da olsa yazılı kurallara bağlayan Zakonik, Karadağ'ın ilk kodifiye hukuk metniydi.",
   kaynak:"bulunamadı — TDV `karadag` bu kanunnameden bahsetmiyor; dayanak: standart akademik kaynak (Z. Rašović, 'The History of the Codification of Civil Law in Montenegro')." },
 
 { t:"1830-01-01", b:"Petar II Petrović-Njegoš 'Karadağlılar'ın hükümdarı' unvanını ilk kez aldı", tur:"hukumdar",
-  onem:4, dunya:2, kapsam:"ic", etiket:["hukumdar","siyasi"], yer_id:"Cetinje",
+  onem:4, dunya:2, kapsam:"ic", etiket:["hukumdar","siyaset"], yer_id:"Cetinje",
   d:"Şair-vladika Petar II, geleneksel dinî unvanının yanına ilk kez laik bir hükümdarlık iddiası ekledi. Yirmi bir yıllık hükümdarlığı, Rus etkisinin kurumsallaştığı dönemdir.",
   kaynak:"TDV `karadag`: 'Rus etkisi hâkim hale geldi. Çar II. Petro (1830-1851) ilk defa olarak Karadağlılar'ın hükümdarı unvanını aldı.'" },
 
-{ t:"1831-10-01", b:"Praviteljstvujušči Senat (Yönetici Meclis) kuruldu", tur:"siyasi",
+{ t:"1831-10-01", b:"Praviteljstvujušči Senat (Yönetici Meclis) kuruldu", tur:"siyaset",
   onem:3, dunya:1, kapsam:"ic", etiket:["idari","kanun"], yer_id:"Cetinje",
   d:"Petar II, on iki kabile reisinden oluşan ve vladikanın başkanlık ettiği bir yönetici-yargı meclisi kurdu; merkezî devlet yapısına doğru ilk somut adım.",
   kaynak:"bulunamadı — TDV bu kurumdan bahsetmiyor; dayanak: standart akademik kaynak (Karadağ anayasa/idare tarihi literatürü)." },
@@ -245,13 +245,13 @@ window.KRONOLOJI_BALKAN = [
   d:"Hersek-Dalmaçya sınırı yakınındaki tartışmalı Grahova arazisi tarafsız bölge ilan edildi — ama düzenleme yirmi yıl sürmeyecek, 1858'de yeniden savaş sebebi olacaktı.",
   kaynak:"TDV `karadag`: '1838'de iki taraf arasında imzalanan antlaşmayla... Grahova arazisi tarafsız hale getirildi.'" },
 
-{ t:"1847-02-01", b:"Njegoš'un 'Dağlar Tacı' (Gorski vijenac) Viyana'da basıldı", tur:"siyasi",
-  onem:4, dunya:2, kapsam:"ic", etiket:["kultur-sanat"], yer_id:"", kapsam_genis:true,
+{ t:"1847-02-01", b:"Njegoš'un 'Dağlar Tacı' (Gorski vijenac) Viyana'da basıldı", tur:"siyaset",
+  onem:4, dunya:2, kapsam:"ic", etiket:["kultur"], yer_id:"", kapsam_genis:true,
   d:"Petar II'nin 1846'da Cetinje'de yazdığı dramatik şiiri, 1847 Şubat'ında Viyana'da basıldı. Karadağlıların Osmanlı'ya karşı direnişini konu alan eser, Güney Slav edebiyatının en etkili yapıtlarından biri sayılır ve Karadağ millî kimliğinin edebî temel taşı hâline geldi.",
   kaynak:"bulunamadı — TDV `karadag` Njegoš'un edebî eserlerinden hiç bahsetmiyor; dayanak: standart akademik kaynak (Güney Slav edebiyatı tarihi literatürü, çok kaynakla çapraz doğrulandı)." },
 
 { t:"1852-01-01", b:"II. Danilo dinî unvanı bırakıp laik kalıtsal prensliğe dönüştü", tur:"bolunme",
-  onem:5, dunya:3, kapsam:"dis", etiket:["siyasi","kurulus"], yer_id:"Cetinje",
+  onem:5, dunya:3, kapsam:"dis", etiket:["siyaset","kurulus"], yer_id:"Cetinje",
   d:"Vladika II. Danilo, evlenmek isteyerek ruhban sınıfından ayrıldı ve piskopos-prensliği laik, kalıtsal bir prensliğe dönüştürdü; Osmanlı ile tâbilik bağlarını resmen kesti.",
   kaynak:"TDV `karadag`: 'II. Danilo'nun (1852-1860) Osmanlı hükümetiyle tâbilik bağlarını kesmesi, Osmanlılar'a karşı baş gösteren hareketlenmeler üzerine Ömer Paşa kumandasındaki bir ordu Karadağ'a girdi.'" },
 
@@ -265,7 +265,7 @@ window.KRONOLOJI_BALKAN = [
   d:"Avusturya'nın diplomatik baskısıyla 1853 Mart'ında, mevcut sınırların geçerli sayılması şartıyla Osmanlı-Karadağ antlaşması yapıldı.",
   kaynak:"TDV `karadag`: '1853 Martında sınırlardaki mevcut durumun geçerli olması şartıyla bir antlaşma yapıldı.'" },
 
-{ t:"1856-03-30", b:"Paris Kongresi'nde bağımsızlık talebi reddedildi", tur:"siyasi",
+{ t:"1856-03-30", b:"Paris Kongresi'nde bağımsızlık talebi reddedildi", tur:"siyaset",
   onem:2, dunya:3, kapsam:"dis", etiket:["diplomasi"], yer_id:"", kapsam_genis:true,
   d:"Kırım Harbi'ni bitiren Paris Kongresi'ne başvuran Karadağlılar istiklallerinin tanınmasını istedi; kongre karar almadı — bağımsızlık ancak 1878'de gelecekti.",
   kaynak:"TDV `karadag`: 'Kırım Harbi sonrasında toplanan Paris Kongresi'ne başvuran Karadağlılar... istiklâllerinin tasdikini... istedilerse de bu hususta herhangi bir karar alınmadı.'" },
@@ -315,8 +315,8 @@ window.KRONOLOJI_BALKAN = [
   d:"Karadağ'a bırakılan, daha önce yerleşik ve verimli bölgelerin ilhakı, şehirli Müslüman nüfusun sürülmesi ve göçüyle birlikte yürüdü; TDV bu süreci 1912'ye kadar süren bir dizi olarak tarif ediyor.",
   kaynak:"TDV `karadag`: 'Coğrafî genişlemeye daha çok şehir ahalisinden oluşan müslüman nüfusun kovulması ve imhası eşlik etti.'" },
 
-{ t:"1905-12-19", b:"İlk anayasa (Ustav) ilan edildi — meşruti prenslik", tur:"siyasi",
-  onem:4, dunya:2, kapsam:"ic", etiket:["kanun","idari"], yer_id:"Cetinje",
+{ t:"1905-12-19", b:"İlk anayasa (Ustav) ilan edildi — meşruti prenslik", tur:"siyaset",
+  onem:4, dunya:2, kapsam:"ic", etiket:["kanun","idari","islahat"], yer_id:"Cetinje",
   d:"1905 Rus Devrimi'nin dalgasıyla halkın baskısı sonucu Prens Nikola 222 maddelik ilk yazılı anayasayı ilan etti; Karadağ meşruti monarşiye dönüştü, Cetinje'de ilk parlamento açıldı.",
   kaynak:"bulunamadı — TDV `karadag` anayasadan bahsetmiyor; dayanak: standart akademik kaynak (worldstatesmen.org anayasa metni, Karadağ Meclisi resmî tarihçesi)." },
 
@@ -341,7 +341,7 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"TDV `balkan-savasi`: '(8 Ekim 1912 - 29 Eylül 1913)' + yerel veri (data/devletler.js `karadag`, data/olaylar_ek10.js). dunya: kronoloji_sirbistan.js ile hizalandı." },
 
 { t:"1918-11-26", b:"Podgorica Meclisi Sırbistan'la birleşmeyi oyladı — Karadağ Krallığı sona erdi", tur:"son",
-  onem:5, dunya:3, kapsam:"dis", etiket:["son","siyasi"], yer_id:"Podgorica",
+  onem:5, dunya:3, kapsam:"dis", etiket:["son","siyaset"], yer_id:"Podgorica",
   d:"Avusturya-Macaristan işgaline uğrayan ve kralı sürgüne giden Karadağ'da, Podgorica'da toplanan olağanüstü meclis Kral Nikola'yı tahttan indirip Sırbistan Krallığı ile koşulsuz birleşmeyi oyladı.",
   kaynak:"Yerel veri (data/devletler.js `karadag`, t:'1918-11-26') + kronoloji_sirbistan.js (1918-12-01, dunya:3) ile hizalandı." },
 
@@ -351,13 +351,13 @@ window.KRONOLOJI_BALKAN = [
 // ═══════════════════════════════════════════════════════════════════
 
 { t:"1185-01-01", b:"Asen kardeşler Bizans'a isyan etti — İkinci Bulgar İmparatorluğu kuruldu", tur:"kurulus",
-  onem:5, dunya:3, kapsam:"dis", etiket:["kurulus","siyasi","askeri"],
+  onem:5, dunya:3, kapsam:"dis", etiket:["kurulus","siyaset","askeri"],
   yer_id:"Tırnova",
   d:"Bolyar Petar ve Asen kardeşler Tırnova çevresinde ayaklanarak Bizans idaresine son verdi ve Kuzey Bulgaristan'ı ele geçirdi. 1186'da Bizans imparatoru barışa zorlandı, 1187'de de yeni Bulgar devletini resmen tanıdı. Bu tarih devletler.js'teki `bulgar-carligi` künyesinin f: tarihidir.",
   kaynak:"TDV `bulgaristan`: 'Bolyar Petar ve Bolyar Asen kardeşlerin önderlik ettikleri bir başka ayaklanma başladı... 1187'de Bizans, ikinci Bulgar Devleti'ni tanıdı.'" },
 
 { t:"1205-04-14", b:"Edirne Savaşı — Çar Kaloyan Latin İmparator Baldwin'i esir aldı", tur:"savas",
-  onem:4, dunya:3, kapsam:"dis", etiket:["askeri","siyasi"],
+  onem:4, dunya:3, kapsam:"dis", etiket:["askeri","siyaset"],
   yer_id:"Edirne",
   d:"Kaloyan (1197-1207) Kıpçak müttefikleriyle birlikte İstanbul'u 1204'te ele geçiren IV. Haçlı Seferi'nin Latin İmparatorluğu ordusunu Edirne yakınlarında ağır bir bozguna uğrattı; İmparator I. Baldwin esir düştü ve Tırnova'da hapiste öldü. Zafer, henüz yeni kurulmuş Latin İmparatorluğu'nun Balkanlar'daki genişlemesini durdurdu ve Bulgar Çarlığı'nı bölgenin en güçlü devleti hâline getirdi.",
   kaynak:"TDV `bulgaristan` genel anlatısı Kaloyan'ın 'eski toprakları geri aldığını' belirtiyor, ayrıntı vermiyor; tam tarih ve olay akademik kaynaktan: J.V.A. Fine, The Late Medieval Balkans, University of Michigan Press, 1994." },
@@ -387,7 +387,7 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"kronoloji_sirbistan.js (1371-09-26, dunya:3) — TDV `sirbistan`: '1371 Çirmen ve 1389 Kosova savaşları ile Osmanlı ordularına karşı yenilgiye uğrayan...'" },
 
 { t:"1371-01-01", b:"İvan Aleksandır'ın ölümü — devlet Tırnova ve Vidin çarlıklarına bölündü", tur:"bolunme",
-  onem:5, dunya:2, kapsam:"ic", etiket:["siyasi","bolunme"],
+  onem:5, dunya:2, kapsam:"ic", etiket:["siyaset","bolunme"],
   yer_id:"Tırnova",
   d:"İvan Aleksandır'ın (1331-1371) ölümüyle çarlık, oğulları arasında Tırnova (İvan Şişman) ve Vidin (İvan Sratsimir) çarlıkları olarak ikiye bölündü; bu bölünme Osmanlı ilerleyişine karşı ortak bir cephe kurulmasını imkânsızlaştırdı ve fethi hızlandırdı. Tarih devletler.js `bulgar-carligi` künyesiyle birebir eşleşiyor.",
   kaynak:"devletler.js `bulgar-carligi` künyesi: 'İvan Aleksandır'ın ölümüyle devlet Tırnova ve Vidin çarlıklarına bölündü.' ⚠️ WebFetch ile çekilen TDV `bulgaristan` özeti bu olayı '1365' olarak veriyordu; İvan Aleksandır'ın ölüm yılının tarihyazımında 1371 olduğu akademik literatürle (Fine) doğrulandığı için 1365 KULLANILMADI, çelişki not edildi." },
@@ -446,14 +446,14 @@ window.KRONOLOJI_BALKAN = [
   d:"Kuzeybatı Bulgaristan'daki Katolik maden işçisi topluluğu Chiprovtsi merkezli olarak, Habsburg'un Belgrad'ı ele geçirmesinin (1688) yarattığı umutla Osmanlı'ya karşı ayaklandı; isyan hızla bastırıldı, kasaba yakıldı ve halkının önemli bölümü Eflak ve Habsburg topraklarına göç etti. Bu dönemde ayrı bir Bulgar devleti yoktur; isyan Bulgar halkının Osmanlı idaresine karşı direncinin nadir örneklerinden biridir. Gün kesin değil, ay YYYY-09-01 olarak işaretlendi.",
   kaynak:"bulunamadı — TDV müstakil madde vermiyor (`bulgar-eksarhligi`, `bulgar-kilisesi` gibi ilgili sluglar ölü); dayanak: akademik (R.J. Crampton, A Concise History of Bulgaria, 2. bs., Cambridge University Press, 2005)." },
 
-{ t:"1762-01-01", b:"Paisiy Hilendarski 'Slav-Bulgar Tarihi'ni yazdı — millî uyanışın başlangıcı", tur:"siyasi",
+{ t:"1762-01-01", b:"Paisiy Hilendarski 'Slav-Bulgar Tarihi'ni yazdı — millî uyanışın başlangıcı", tur:"siyaset",
   onem:4, dunya:2, kapsam:"ic", etiket:["kultur","sosyal"],
   yer_id:"", kapsam_genis:true,
   d:"Athos'taki Hilandar Manastırı keşişi Paisiy, 'İstoriya Slavyanobolgarskaya' adlı eserinde Bulgar halkına kendi tarihini ve dilini hatırlatarak Yunan kültürel asimilasyonuna karşı millî bilinci uyandırdı; bu eser modern Bulgar Millî Uyanışı'nın (Bılgarsko vızrazhdane) sembolik başlangıcı sayılır. Gün belirtilmiyor, YYYY-01-01.",
   kaynak:"bulunamadı — TDV bu ayrıntıyı kapsamıyor; dayanak: akademik (Crampton, A Concise History of Bulgaria, 2005 — 'Millî Uyanış'ın başlangıcı bölümü)." },
 
-{ t:"1835-01-02", b:"Aprilov Mektebi (Gabrovo) açıldı — ilk modern Bulgar okulu", tur:"siyasi",
-  onem:3, dunya:1, kapsam:"ic", etiket:["bilim","sosyal"],
+{ t:"1835-01-02", b:"Aprilov Mektebi (Gabrovo) açıldı — ilk modern Bulgar okulu", tur:"siyaset",
+  onem:3, dunya:1, kapsam:"ic", etiket:["bilim","sosyal","islahat"],
   yer_id:"", kapsam_genis:true,
   d:"Tüccar Vasil Aprilov'un girişimiyle Gabrovo'da açılan bu okul, Bulgar dilinde ve Batı tarzı müfredatla eğitim veren ilk modern Bulgar okuludur; Millî Uyanış döneminin eğitim seferberliğinin başlangıç noktası kabul edilir ve model kısa sürede diğer Bulgar kasabalarına yayıldı.",
   kaynak:"bulunamadı — TDV bu taneciği kapsamıyor; dayanak: akademik (Crampton, A Concise History of Bulgaria, 2005)." },
@@ -464,32 +464,32 @@ window.KRONOLOJI_BALKAN = [
   d:"Paskalya günü İstanbul'daki Bulgar kilisesinde papaz İlarion Makariopolski, âyin sırasında Rum Patriği'nin adını anmayı reddederek Bulgar cemaatinin Fener Rum Patrikhânesi'nden fiilen ayrılışını başlattı; bu hareket on yıl sonra Eksarhlık fermanıyla resmîleşecektir.",
   kaynak:"bulunamadı — TDV `bulgaristan` maddesi bu ayrıntıya girmiyor, yalnız 1870 fermanından bahsediyor; dayanak: akademik (Crampton, A Concise History of Bulgaria, 2005)." },
 
-{ t:"1864-10-01", b:"Midhat Paşa Tuna Vilâyeti valisi oldu — reform dönemi başladı", tur:"siyasi",
-  onem:4, dunya:2, kapsam:"dis", etiket:["idari","iktisadi"],
+{ t:"1864-10-01", b:"Midhat Paşa Tuna Vilâyeti valisi oldu — reform dönemi başladı", tur:"siyaset",
+  onem:4, dunya:2, kapsam:"dis", etiket:["idari","ekonomi","islahat"],
   yer_id:"Rusçuk",
   d:"Silistre, Vidin ve Niş eyaletlerinin birleştirilmesiyle bugünkü Bulgaristan'ın büyük bölümünü kapsayan Tuna Vilâyeti kuruldu; merkezi Rusçuk olan bu vilâyette vali Midhat Paşa yol yapımı, tarım kredisi sandıkları (sonradan Ziraat Bankası) ve Osmanlı'nın ilk vilâyet gazetesi 'Tuna'yı (Mart 1865, Türkçe-Bulgarca) hayata geçirdi. Bu vilâyet modeli, Bulgaristan Prensliği'nin 1878'de devraldığı idari altyapının temelini oluşturdu.",
   kaynak:"TDV `midhat-pasa`: 'Ekim 1864'te Tuna vilâyetine ... vali tayin edildi ... Mart 1865'te Türkçe ve Bulgarca Tuna gazetesi yayımlanmaya başladı.'" },
 
 { t:"1870-03-11", b:"Bulgar Eksarhlığı kuruldu — Bulgar kilisesi bağımsızlığını kazandı", tur:"din",
-  onem:5, dunya:3, kapsam:"dis", etiket:["din","sosyal","siyasi"],
+  onem:5, dunya:3, kapsam:"dis", etiket:["din","sosyal","siyaset"],
   yer_id:"İstanbul",
   d:"Sultan II. Abdülaziz'in fermanıyla Fener Rum Patrikhânesi'nden bağımsız bir Bulgar Ortodoks Eksarhlığı kuruldu; bu kurumsal ayrılık, sonraki sekiz yıl içinde siyasi bağımsızlık talebinin kültürel-dinî zeminini hazırladı ve Balkan milliyetçiliğinde bir dönüm noktası oldu. Osmanlı yönetimi Rusya'yı dengelemek amacıyla bu adımı destekledi.",
   kaynak:"TDV `bulgaristan`: '11 Mart 1870'te müstakil Bulgar kilisesi kuruldu.'" },
 
 { t:"1873-02-18", b:"Vasil Levski Sofya'da idam edildi", tur:"isyan",
-  onem:4, dunya:2, kapsam:"ic", etiket:["sosyal","siyasi"],
+  onem:4, dunya:2, kapsam:"ic", etiket:["sosyal","siyaset"],
   yer_id:"Sofya",
   d:"Bulgar İç Devrimci Örgütü'nün kurucusu ve millî kahraman Vasil Levski, örgüt ağı Osmanlı yetkililerince çökertildikten sonra yakalanıp Sofya'da idam edildi; ölümü, üç yıl sonra patlak verecek Nisan İsyanı'nın manevi mirası oldu ve modern Bulgaristan'da en çok anılan millî figür hâline geldi.",
   kaynak:"bulunamadı — TDV müstakil madde vermiyor (`vasil-levski` slug ölü); dayanak: akademik (Crampton, A Concise History of Bulgaria, 2005)." },
 
 { t:"1876-05-02", b:"Nisan İsyanı — Batak katliamı ve Avrupa kamuoyunun tepkisi", tur:"isyan",
-  onem:5, dunya:4, kapsam:"ic", etiket:["sosyal","siyasi"],
+  onem:5, dunya:4, kapsam:"ic", etiket:["sosyal","siyaset"],
   yer_id:"", kapsam_genis:true,
   d:"Bulgar İç Devrimci Örgütü'nün örgütlediği ayaklanma özellikle Filibe vilâyeti kırsalında patlak verdi; Türk köyleri yakıldı, isyan yaklaşık 18.000 kişilik bir kuvvetle bastırılırken Batak kasabasında sivillerin katledilmesi Avrupa basınında büyük yankı uyandırdı ('Bulgarian Horrors'). Bu tepki, bir yıl sonra Rusya'nın savaş ilanının uluslararası zeminini hazırladı. Gün Julian takvimine göre 20 Nisan'dır, Gregoryen'e çevrildi.",
   kaynak:"TDV `bulgaristan`: 'Nisan 1876'da büyük bir isyanın çıkmasına sebep oldu ... 18.000 kişilik bir askerî kuvvet gönderilerek isyan bastırıldı.' Gün: akademik (Crampton, 2005)." },
 
 { t:"1877-04-24", b:"93 Harbi başladı — Rusya Osmanlı'ya savaş ilan etti", tur:"savas",
-  onem:5, dunya:5, kapsam:"dis", etiket:["askeri","siyasi"],
+  onem:5, dunya:5, kapsam:"dis", etiket:["askeri","siyaset"],
   yer_id:"", kapsam_genis:true,
   d:"Nisan İsyanı'nın bastırılışının yarattığı Avrupa tepkisi ve İstanbul Konferansı'nın (Aralık 1876) sonuçsuz kalması üzerine Rusya Osmanlı Devleti'ne savaş açtı; savaş Tuna'yı geçen Rus ordularının Bulgar gönüllüleriyle birlikte ilerlemesiyle doğrudan Bulgar topraklarında yürütüldü ve bu topraklarda '500.000 ile 600.000 Türk'ün öldürüldüğü veya göçe zorlandığı' bir dönemin başlangıcı oldu.",
   kaynak:"TDV `bulgaristan`: '1877-1878 Osmanlı-Rus Savaşı ... 500.000 ile 600.000 Türk'ün öldürüldüğü veya göçe zorlandığı bilinmektedir.' Savaş ilanı gün: akademik (Crampton, 2005)." },
@@ -518,31 +518,31 @@ window.KRONOLOJI_BALKAN = [
 // ═══════════════════════════════════════════════════════════════════
 
 { t:"1878-03-03", b:"Ayastefanos Antlaşması — 'Büyük Bulgaristan' kısa ömürlü ilan edildi", tur:"antlasma",
-  onem:4, dunya:3, kapsam:"dis", etiket:["antlasma","siyasi"],
+  onem:4, dunya:3, kapsam:"dis", etiket:["antlasma","siyaset"],
   yer_id:"İstanbul",
   d:"93 Harbi'ni bitiren Ayastefanos Antlaşması, Tuna'dan Ege'ye, Arnavutluk'tan Karadeniz'e uzanan çok geniş, Osmanlı'ya bağlı özerk bir Bulgaristan Prensliği öngördü; bu 'Büyük Bulgaristan' Panslavizm'in zirve noktasıydı ve Avrupa güçlerinin (özellikle İngiltere'nin) sert tepkisiyle dört ay sonra Berlin'de küçültülecekti. dunya puanı kronoloji_rusya.js'teki aynı olayla eşleştirildi.",
   kaynak:"TDV `ayastefanos-antlasmasi`: 'Bulgaristan, Osmanlı Devleti'ne bağlı özerk bir prenslik haline getirilecek ... Sınırları Tuna'dan Ege denizine, Arnavutluk'tan Karadeniz'e kadar uzanacaktı.' — kronoloji_rusya.js (1878-03-03, dunya:3)." },
 
 { t:"1878-07-13", b:"Berlin Antlaşması — Bulgaristan Prensliği resmen kuruldu", tur:"kurulus",
-  onem:5, dunya:4, kapsam:"dis", etiket:["antlasma","kurulus","siyasi"],
+  onem:5, dunya:4, kapsam:"dis", etiket:["antlasma","kurulus","siyaset"],
   yer_id:"", kapsam_genis:true,
   d:"Ayastefanos'un Avrupa güçlerince revize edilmesiyle imzalanan Berlin Antlaşması, Bulgaristan'ı üçe böldü: Osmanlı'ya tâbi ama iç işlerinde serbest, Sofya-Tırnova-Varna-Şumnu-Rusçuk-Silistre'yi içeren küçültülmüş bir Prenslik; ayrı idareli Doğu Rumeli vilâyeti; ve doğrudan Osmanlı'da kalan Makedonya. dunya puanı dört ayrı kronoloji dosyasıyla (rusya, almanya, habsburg, ingiltere) eşleştirildi — dördü de 4'te birleşiyor.",
   kaynak:"TDV `berlin-antlasmasi`: 'Bulgaristan toprakları üç bölgeye ayrılacaktı. Birinci bölge Osmanlı Devleti'ne tâbi, iç işlerinde serbest, prensi halk tarafından seçilen ... Tuna ile Balkanlar arasında Sofya, Niğbolu, Ziştovi, Rusçuk, Silistre, Varna, Şumnu, Lofça ve Tırnova gibi şehirleri içine alan muhtar bir Bulgaristan Prensliği kuruldu.'" },
 
-{ t:"1879-04-16", b:"Tırnova Anayasası kabul edildi", tur:"siyasi",
-  onem:5, dunya:2, kapsam:"ic", etiket:["idari","siyasi"],
+{ t:"1879-04-16", b:"Tırnova Anayasası kabul edildi", tur:"siyaset",
+  onem:5, dunya:2, kapsam:"ic", etiket:["idari","siyaset","islahat"],
   yer_id:"Tırnova",
   d:"Tırnova'da toplanan Kurucu Millet Meclisi, dönemin Avrupa standartlarına göre son derece liberal sayılan bir anayasa kabul etti; geniş bir Millet Meclisi (Narodno Sıbranie), evrensel erkek oy hakkı ve temel hak-özgürlükler güvence altına alındı. Bu anayasa, genç prensliğin idari-hukuki iskeletini kurdu ve 1947'ye kadar (küçük değişikliklerle) yürürlükte kaldı.",
   kaynak:"bulunamadı — TDV `bulgaristan` maddesi bu anayasadan ayrıntılı bahsetmiyor; dayanak: akademik (Crampton, A Concise History of Bulgaria, 2005 — Tırnova Anayasası'nın kabul tarihi ve içeriği)." },
 
 { t:"1879-04-29", b:"Aleksandr Battenberg Bulgaristan Prensi seçildi", tur:"hukumdar",
-  onem:4, dunya:2, kapsam:"ic", etiket:["siyasi","idari"],
+  onem:4, dunya:2, kapsam:"ic", etiket:["siyaset","idari"],
   yer_id:"Tırnova",
   d:"Tırnova'daki Kurucu Millet Meclisi, Rus Çarı II. Aleksandr'ın yeğeni Alman asıllı Prens Aleksandr von Battenberg'i Bulgaristan'ın ilk prensi seçti; seçim, Berlin Antlaşması'nın öngördüğü Avrupa devletlerinin onayı ve Osmanlı'nın tasdiki sürecinden geçti. TDV `bulgaristan` genel anlatısı 'Prens Ferdinand'ın yönetiminde' derken aslında ilk prensin Battenberg olduğunu atlıyor — bu madde o boşluğu dolduruyor.",
   kaynak:"bulunamadı — TDV özet metninde ilk prens (Battenberg) adı geçmiyor, doğrudan Ferdinand'a atlıyor; dayanak: akademik (Crampton, A Concise History of Bulgaria, 2005)." },
 
 { t:"1885-09-18", b:"Doğu Rumeli ilhak edildi — Bulgaristan birleşti", tur:"toprak-kazanc",
-  onem:5, dunya:3, kapsam:"dis", etiket:["siyasi","toprak-kazanc"],
+  onem:5, dunya:3, kapsam:"dis", etiket:["siyaset","toprak-kazanc"],
   yer_id:"Filibe",
   d:"Filibe'de bir darbeyle Doğu Rumeli valisi görevden alındı ve vilâyetin Bulgaristan Prensliği'yle birleşmesi ilan edildi; Osmanlı'nın askerî müdahale tehdidi Avrupa güçlerinin baskısıyla gerçekleşmedi ve fiilî birleşme kabul edildi. Tarih yerlesimler.js'teki Filibe kaydıyla (s: bulgaristan başlar 1885-09-18) birebir eşleşiyor.",
   kaynak:"TDV `bulgaristan`: '1885'te Doğu Rumeli vilâyetini de topraklarına kattı.'" },
@@ -560,13 +560,13 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"bulunamadı — TDV bu antlaşmadan ayrıca bahsetmiyor; dayanak: akademik (Crampton, A Concise History of Bulgaria, 2005)." },
 
 { t:"1887-07-07", b:"Ferdinand Bulgaristan Prensi seçildi", tur:"hukumdar",
-  onem:5, dunya:2, kapsam:"ic", etiket:["siyasi"],
+  onem:5, dunya:2, kapsam:"ic", etiket:["siyaset"],
   yer_id:"Tırnova",
   d:"Battenberg'in 1886'daki zorla tahttan indirilişinin ardından bir yıl süren prenssiz dönemin sonunda, Sakson-Coburg-Gotha hanedanından Ferdinand, Millet Meclisi'nce yeni prens seçildi; Osmanlı ve büyük güçlerin resmî tanıması gecikmeli geldi. Ferdinand, 1908'de bağımsızlığı ilan edip çar olacak isimdir.",
   kaynak:"bulunamadı — TDV tam seçim tarihini vermiyor; dayanak: akademik (Crampton, A Concise History of Bulgaria, 2005)." },
 
-{ t:"1888-10-01", b:"Sofya Yüksek Okulu kuruldu — Bulgaristan'ın ilk üniversitesi", tur:"siyasi",
-  onem:3, dunya:1, kapsam:"ic", etiket:["bilim","idari"],
+{ t:"1888-10-01", b:"Sofya Yüksek Okulu kuruldu — Bulgaristan'ın ilk üniversitesi", tur:"siyaset",
+  onem:3, dunya:1, kapsam:"ic", etiket:["bilim","idari","islahat"],
   yer_id:"Sofya",
   d:"Prensliğin ilk yükseköğretim kurumu olan 'Yüksek Okul' (Vissche Uchilishte) Sofya'da açıldı; başlangıçta tarih-filoloji ve fizik-matematik bölümleriyle kurulan okul 1904'te resmen Sofya Üniversitesi adını aldı ve Bulgaristan'ın bilimsel-idari kadrolarının yerli olarak yetiştirilmesinde merkezi rol oynadı.",
   kaynak:"bulunamadı — TDV `bulgaristan` maddesi bu kuruma değinmiyor; dayanak: akademik (Crampton, A Concise History of Bulgaria, 2005)." },
@@ -577,13 +577,13 @@ window.KRONOLOJI_BALKAN = [
 // ═══════════════════════════════════════════════════════════════════
 
 { t:"1908-10-05", b:"Bağımsızlık ilan edildi — Ferdinand 'Çar' unvanını aldı", tur:"kurulus",
-  onem:5, dunya:4, kapsam:"dis", etiket:["siyasi","kurulus"],
+  onem:5, dunya:4, kapsam:"dis", etiket:["siyaset","kurulus"],
   yer_id:"Tırnova",
   d:"Ferdinand, Tırnova'daki Kırk Şehitler Kilisesi'nde Bulgaristan'ın Osmanlı'ya olan otuz yıllık tâbiiyetine son verip tam bağımsızlığını ve kendi 'çar' unvanını ilan etti; bu, tâbiiyetten çıkıştı, bir ilhaktan kurtuluş DEĞİLDİ — Prenslik zaten 1878'den beri özerkti. Tarih devletler.js'teki her iki künyenin (prensligi t: / kralligi f:) ortak sınır tarihidir.",
   kaynak:"TDV `bulgaristan`: 'Bulgaristan 5 Ekim 1908 tarihinde bağımsızlığını ilân etti.'" },
 
 { t:"1912-03-13", b:"Sırp-Bulgar İttifak Antlaşması — Balkan İttifakı'nın çekirdeği kuruldu", tur:"diplomasi",
-  onem:4, dunya:3, kapsam:"dis", etiket:["idari","siyasi"],
+  onem:4, dunya:3, kapsam:"dis", etiket:["idari","siyaset"],
   yer_id:"Sofya",
   d:"Sofya'da gizlice imzalanan Sırp-Bulgar antlaşması, Osmanlı'ya karşı ortak hareket ve Makedonya'nın paylaşımını öngören bir ittifakın temelini attı; kısa süre içinde Yunanistan ve Karadağ'ın katılımıyla Balkan İttifakı tamamlandı. Bu diplomatik hazırlık, yedi ay sonra I. Balkan Savaşı'nın patlamasına zemin hazırladı.",
   kaynak:"bulunamadı — TDV `bulgaristan` maddesi bu antlaşmadan ayrıntılı bahsetmiyor; dayanak: akademik (Crampton, A Concise History of Bulgaria, 2005)." },
@@ -631,7 +631,7 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"TDV `bulgaristan`: '10 Ağustos 1913: Bükreş Barış Antlaşması imzalandı; Güney Dobruca Romanya'ya bırakıldı.' — kronoloji_sirbistan.js (1913-08-10, dunya:3)." },
 
 { t:"1915-10-14", b:"Bulgaristan I. Dünya Savaşı'na Merkezi Devletler yanında girdi", tur:"savas",
-  onem:5, dunya:4, kapsam:"dis", etiket:["askeri","siyasi"],
+  onem:5, dunya:4, kapsam:"dis", etiket:["askeri","siyaset"],
   yer_id:"", kapsam_genis:true,
   d:"1913'teki toprak kayıplarının rövanşını almak isteyen Bulgaristan, Sırbistan'a savaş ilan ederek Almanya-Avusturya-Macaristan-Osmanlı ittifakına katıldı; Bulgar ordusu kısa sürede Sırbistan'ı işgal ederek 1913'te kaybettiği Makedonya topraklarını geri aldı. Bu ittifak dört yıl sonra Bulgaristan'ın yenilgi tarafında savaşı bitirmesiyle sonuçlanacaktı.",
   kaynak:"bulunamadı — TDV `bulgaristan` maddesi savaşa giriş tarihini ayrıntılı vermiyor; dayanak: akademik (Crampton, A Concise History of Bulgaria, 2005)." },
@@ -643,7 +643,7 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"TDV `bulgaristan`: 'Çar Ferdinand mütareke istemek ve oğlu Boris lehine tahttan çekilmek zorunda kaldı (29 Eylül 1918).'" },
 
 { t:"1918-10-03", b:"Ferdinand tahttan çekildi — III. Boris çar oldu", tur:"hukumdar",
-  onem:4, dunya:2, kapsam:"ic", etiket:["siyasi"],
+  onem:4, dunya:2, kapsam:"ic", etiket:["siyaset"],
   yer_id:"Sofya",
   d:"Selanik Mütarekesi'nin doğurduğu iç kriz ve halk ayaklanması tehdidi karşısında Ferdinand, oğlu Boris lehine tahttan çekilip sürgüne gitti; III. Boris, ağır barış koşullarını devralan yeni çar oldu. TDV `bulgaristan` maddesi bu olayı mütareke ile aynı cümlede, 29 Eylül tarihiyle veriyor; akademik kaynaklar çekilmeyi birkaç gün sonrasına (3 Ekim) tarihlendiriyor.",
   kaynak:"TDV `bulgaristan` (mütarekeyle birlikte anıyor) + akademik (Crampton, A Concise History of Bulgaria, 2005 — tahttan çekilmenin 3 Ekim 1918 olduğu)." },
@@ -654,8 +654,8 @@ window.KRONOLOJI_BALKAN = [
   d:"I. Dünya Savaşı'nı Bulgaristan için resmen sona erdiren Neuilly Antlaşması, ülkeyi Batı Trakya'nın tamamından mahrum bırakarak Ege Denizi'ne kıyı erişimini kesti; ayrıca ağır savaş tazminatı ve askerî kısıtlamalar getirildi.",
   kaynak:"TDV `bulgaristan`: 'Neully Antlaşması (27 Kasım 1919): Batı Trakya tamamen kaybedildi.'" },
 
-{ t:"1923-06-09", b:"9 Haziran Darbesi — Stamboliyski hükümeti devrildi", tur:"siyasi",
-  onem:4, dunya:2, kapsam:"ic", etiket:["siyasi"],
+{ t:"1923-06-09", b:"9 Haziran Darbesi — Stamboliyski hükümeti devrildi", tur:"siyaset",
+  onem:4, dunya:2, kapsam:"ic", etiket:["siyaset","darbe-askeri"],
   yer_id:"Sofya",
   d:"Savaş sonrası köylü reformlarıyla toprak sahibi elit ve orduyu karşısına alan Başbakan Aleksandır Stamboliyski, ordu subayları ve Makedon komitecilerin ortaklaştığı bir darbeyle devrildi; birkaç gün sonra öldürülecekti.",
   kaynak:"bulunamadı — TDV `bulgaristan` maddesi bu darbeden bahsetmiyor; dayanak: akademik (Crampton, A Concise History of Bulgaria, 2005)." },
@@ -751,8 +751,8 @@ window.KRONOLOJI_BALKAN = [
   d:"Stjepan Vukčić Kosača, Kutsal Roma İmparatoru III. Friedrich'e gönderdiği belgede kendini 'Aziz Sava'nın Herceki (dükü)' olarak tanımladı ve bu unvanla fiilen bağımsız bir dukalık kurdu — bölgeye bugünkü 'Hersek' adını veren de bu unvandır.",
   kaynak:"TDV `bosna-hersek`: '...Stjepan Vukčić-Kosača, kendisini St. Sava'nın Herceki yani dükü ilân etmiş...' · belge tarihi (20 Ocak 1448) standart akademik derleme (CEEOL) ile teyit edildi." },
 
-{ t:"1450-01-01", b:"Gümüş madenciliği ve Dubrovnik ticareti — krallığın iktisadi omurgası", tur:"iktisadi",
-  onem:3, dunya:1, kapsam:"ic", etiket:["iktisadi"], yer_id:"", kapsam_genis:true,
+{ t:"1450-01-01", b:"Gümüş madenciliği ve Dubrovnik ticareti — krallığın iktisadi omurgası", tur:"ekonomi",
+  onem:3, dunya:1, kapsam:"ic", etiket:["ekonomi"], yer_id:"", kapsam_genis:true,
   d:"Kreševo ve Fojnica'da bakır-gümüş, Olovo'da kurşun, İzvornik'te ve özellikle Srebrenica'da yılda birkaç ton gümüş çıkarılıyordu; Dubrovnik (Ragusa) tüccarları Podvisoki, Fojnica ve Srebrenica'da kalıcı ticaret kolonileri kurmuştu.",
   kaynak:"TDV `bosna-hersek`: '...ekonomik faaliyetin en önemli kolu olan madencilik...' · standart akademik kaynak ('Battle for Silver: Srebrenica Between Bosnian Kings and Serbian Despots in the 15th Century', akademik makale)." },
 
@@ -777,12 +777,12 @@ window.KRONOLOJI_BALKAN = [
 // ═══════════════════════════════════════════════════════════════════
 
 { t:"1821-02-22", b:"İpsilantis'in Eflak-Boğdan'a girişi", tur:"isyan",
-  onem:3, dunya:2, kapsam:"dis", etiket:["ayaklanma","ideoloji"], yer_id:"",
+  onem:3, dunya:2, kapsam:"dis", etiket:["isyan","ideoloji"], yer_id:"",
   d:"Filiki Eterya'nın lideri Aleksandros İpsilantis, küçük bir kuvvetle Prut nehrini geçerek Osmanlı'ya tâbi Eflak-Boğdan'a girdi ve Rusya'nın desteğini ima eden bir bildiri yayımladı. Mora'daki asıl patlamadan bir ay önce isyanın ilk cephesi burada açıldı; Rus desteği gelmeyince hareket kısa sürede bastırıldı.",
   kaynak:"TDV `yunanistan` (M. Hacısalihoğlu): 'Nihayet 1821'de Fenerli beyler tarafından yönetilen Eflak-Boğdan'da ve ardından Mora'da Yunan isyanı başladı.' Gün TDV'de yok; dayanak: standart akademik kaynak (Britannica, 'War of Greek Independence')." },
 
 { t:"1821-03-25", b:"Mora İsyanı başladı", tur:"isyan",
-  onem:5, dunya:5, kapsam:"dis", etiket:["ayaklanma","kurulus"], yer_id:"", kapsam_genis:true,
+  onem:5, dunya:5, kapsam:"dis", etiket:["isyan","kurulus"], yer_id:"", kapsam_genis:true,
   d:"Filiki Eterya'nın örgütlediği ayaklanma Mora yarımadasında patlak verdi; kısa sürede Mora'nın büyük bölümüne ve Kiklad adalarına yayıldı. Bu tarih hem Yunanistan'ın modern devlet olarak doğuş anı hem de Yunan millî bayramı olarak kutlanır.",
   kaynak:"TDV `yunanistan` + data/olaylar.js:133 ile zaten doğrulanmış, data/devletler.js embedded kronolojisiyle birebir uyumlu." },
 
@@ -826,13 +826,13 @@ window.KRONOLOJI_BALKAN = [
   d:"Osmanlı yenilgisi üzerine büyük güçler, Mora ve Attika'dan Tesalya'ya uzanan toprakları kapsayan bir Yunan Devleti'nin tam bağımsızlığını Londra Protokolü ile ilan etti. Yeni devlet, Osmanlı idaresindeki yaklaşık iki milyonluk Rum nüfusun yarısından azını içeriyordu.",
   kaynak:"TDV `yunanistan`: 'Osmanlı yenilgisi üzerine Mora yarımadasında ve Atina'yı da içine alan, Attika'dan Tesalya'ya kadar uzanan bir Yunan Devleti kuruldu (1829). Osmanlı Devleti 1830'da bu devleti tanımak zorunda kaldı.' + data/devletler.js embedded kronolojisi." },
 
-{ t:"1831-10-09", b:"Kapodistrias'ın suikastı", tur:"siyasi",
-  onem:4, dunya:2, kapsam:"ic", etiket:["siyasi","suikast"], yer_id:"",
+{ t:"1831-10-09", b:"Kapodistrias'ın suikastı", tur:"siyaset",
+  onem:4, dunya:2, kapsam:"ic", etiket:["siyaset","suikast"], yer_id:"",
   d:"Yeni devletin başına geçen ilk yönetici Ioannis Kapodistrias, baskıcı yönetim tarzına ve Mavromihalis ailesiyle giriştiği çatışmaya kurban giderek Nafplion'da bir kilise önünde suikaste uğradı. Suikast, ülkeyi Rus-İngiliz-Fransız yanlısı hiziplere bölen siyasî krizi derinleştirdi.",
   kaynak:"TDV `yunanistan`: 'Baskıcı bir rejim kurmaya yönelen ve Rusya'ya yakın bir politika izleyen Kapodistrias 1831'de bir suikasta kurban gitti.' Gün TDV'de yok; dayanak: standart akademik kaynak (Britannica, 'Ioannis Kapodistrias')." },
 
-{ t:"1832-05-07", b:"Otto'nun Yunanistan kralı seçilmesi", tur:"siyasi",
-  onem:4, dunya:2, kapsam:"ic", etiket:["siyasi"], yer_id:"", kapsam_genis:true,
+{ t:"1832-05-07", b:"Otto'nun Yunanistan kralı seçilmesi", tur:"siyaset",
+  onem:4, dunya:2, kapsam:"ic", etiket:["siyaset"], yer_id:"", kapsam_genis:true,
   d:"Büyük güçlerin onayıyla Bavyera Kralı'nın henüz reşit olmayan oğlu Otto, Londra Antlaşması ile 'Helenler'in kralı' sıfatıyla Yunanistan tahtına davet edildi; reşit oluncaya kadar bir naiblik konseyi kurulması da kararlaştırıldı.",
   kaynak:"TDV `yunanistan`: '1832'de büyük güçlerin onayıyla Yunan Millî Meclisi, Bavyera kralının henüz reşid olmayan oğlu Otto'yu \"Helenler'in kralı\" sıfatıyla Yunanistan'a davet etti.' Tam tarih TDV'de yok; dayanak: standart akademik kaynak (Britannica/Treaty of Constantinople 1832)." },
 
@@ -841,8 +841,8 @@ window.KRONOLOJI_BALKAN = [
   d:"Osmanlı Devleti, büyük güçlerle imzaladığı antlaşmayla yeni Yunan Krallığı'nı resmen tanıdı ve kuzey sınırını Arta-Volos hattı olarak belirledi.",
   kaynak:"TDV `yunanistan`: 'Ülkenin ilk çekirdeği, Mora yarımadasından Golos (Volos) ve Arta körfezleri boyunca çekilecek bir çizginin güney kısmı ile Eğriboz ve Kiklad adalarını kapsar.' Antlaşmanın tam tarihi TDV'de yok; dayanak: standart akademik kaynak." },
 
-{ t:"1833-02-06", b:"Otto'nun Yunanistan'a gelişi", tur:"siyasi",
-  onem:3, dunya:1, kapsam:"ic", etiket:["siyasi"], yer_id:"",
+{ t:"1833-02-06", b:"Otto'nun Yunanistan'a gelişi", tur:"siyaset",
+  onem:3, dunya:1, kapsam:"ic", etiket:["siyaset"], yer_id:"",
   d:"Otto ve beraberindeki Bavyeralı naiblik heyeti Nafplion'a ulaşarak devleti fiilen teşkilatlandırmaya başladı. Genç kral Yunan millî kıyafetini benimseyerek ve adını Hellenceleştirerek ('Othon') halkın sempatisini kazanmaya çalıştı.",
   kaynak:"TDV `yunanistan`: '1833'te Otto ve beraberindeki heyet Yunanistan'a geldi ve devleti teşkilâtlandırmaya başladı.' Gün TDV'de yok; dayanak: standart akademik kaynak (Royal Museums Greenwich arşiv kaydı)." },
 
@@ -876,13 +876,13 @@ window.KRONOLOJI_BALKAN = [
   d:"İstanbul'daki Fener Rum Ortodoks Patrikhânesi, on yedi yıl önce Yunan hükümetince tek taraflı ilan edilen kilise özerkliğini nihayet bir Tomos ile resmen tanıdı.",
   kaynak:"TDV `yunanistan`: 'Patrikhâne bu durumu ancak 1850'de tanıdı.' Tam tarih TDV'de yok; dayanak: standart akademik kaynak (Tomos, 29 Haziran 1850)." },
 
-{ t:"1862-10-10", b:"Kral Otto'nun tahttan indirilmesi", tur:"siyasi",
-  onem:4, dunya:2, kapsam:"ic", etiket:["siyasi","darbe"], yer_id:"Atina",
+{ t:"1862-10-10", b:"Kral Otto'nun tahttan indirilmesi", tur:"siyaset",
+  onem:4, dunya:2, kapsam:"ic", etiket:["siyaset","darbe","darbe-askeri"], yer_id:"Atina",
   d:"Megali İdea siyasetinde kayda değer bir başarı gösteremeyen ve baskıcı bir rejim sürdüren Kral Otto, bir isyanla tahttan indirildi. Yunan tarih yazımında bu dönem 'Bavyera egemenliği' (Bavarokratia) diye anılır.",
   kaynak:"TDV `yunanistan`: 'Megali ideaya sadık bir politika izlemeye çalışan, fakat bunda kayda değer bir başarı gösteremediği gibi baskıcı bir rejim oluşturan Kral Otto, 1862'de bir isyanla tahttan indirildi.' Tam gün TDV'de yok; dayanak: standart akademik kaynak (Britannica)." },
 
-{ t:"1863-03-30", b:"Prens Georgios'un Yunanistan kralı seçilmesi", tur:"siyasi",
-  onem:4, dunya:2, kapsam:"ic", etiket:["siyasi"], yer_id:"Atina",
+{ t:"1863-03-30", b:"Prens Georgios'un Yunanistan kralı seçilmesi", tur:"siyaset",
+  onem:4, dunya:2, kapsam:"ic", etiket:["siyaset"], yer_id:"Atina",
   d:"İç çekişmeler sürerken büyük güçlerin müdahalesiyle Yunan Millî Meclisi, on yedi yaşındaki Danimarkalı Prens Wilhelm Georg'u (I. Georgios) 'Helenler'in kralı' seçti; bu, Yunanistan'da 1917'ye kadar sürecek yeni bir hânedanın başlangıcıydı.",
   kaynak:"TDV `yunanistan`: '1863'te Danimarkalı on yedi yaşındaki Prens Wilhelm Georg'u (Georgios) \"Helenler'in kralı\" seçti.' Tam gün TDV'de yok; dayanak: standart akademik kaynak (Investiture of the kings of Greece)." },
 
@@ -916,7 +916,7 @@ window.KRONOLOJI_BALKAN = [
   d:"Antik çağdan beri hayal edilen, Mora yarımadasını anakaradan ayıran Korint Kanalı tamamlandı ve İyon denizini Ege'ye bağladı. Proje on bir yıl sürmüş, Yunan devleti için hem mühendislik hem malî açıdan büyük bir yük olmuştu.",
   kaynak:"TDV `yunanistan` (coğrafya bölümü) kanalın varlığını anıyor ama açılış tarihini vermiyor; dayanak: standart akademik kaynak (Britannica, 'Corinth Canal')." },
 
-{ t:"1893-12-10", b:"Trikoupis'in iflası ilan etmesi", tur:"iktisadi",
+{ t:"1893-12-10", b:"Trikoupis'in iflası ilan etmesi", tur:"ekonomi",
   onem:4, dunya:2, kapsam:"ic", etiket:["ekonomi"], yer_id:"Atina",
   d:"Başbakan Harilaos Trikoupis, mecliste 'Maalesef iflas ettik' diyerek devletin dış borçlarını ödeyemez duruma düştüğünü ilan etti. Modernleşme atılımının (demiryolları, Korint Kanalı) malî bedeli, Yunanistan'ı yüzyılın en büyük ekonomik krizine sürükledi.",
   kaynak:"TDV `yunanistan` bu krizi yalnız dolaylı anıyor ('1895'te finans krizlerinin etkisiyle Trikoupis hükümetten çekilmek zorunda kaldı'); dayanak: standart akademik kaynak (Trikoupis'in meclis konuşması, 10 Aralık 1893)." },
@@ -936,13 +936,13 @@ window.KRONOLOJI_BALKAN = [
   d:"Osmanlı ordusu, Teselya cephesinde ilerleyerek Yenişehir ve Çatalca'nın ardından Dömeke'de Yunan ordusunu kesin biçimde bozguna uğrattı. Savaş II. Abdülhamid devrinin tek kesin askerî zaferi olarak kalsa da büyük devletlerin araya girmesiyle kazanılan topraklar Yunanistan'a iade edildi.",
   kaynak:"data/savaslar.js:267 ('Dömeke', 1897-05-17, seri:yunan, galip:osmanli) — zaten doğrulanmış kayıt. TDV `yunanistan`: 'Yunanistan bu savaşta ağır bir yenilgiye uğradı ve Osmanlı ordusunun ilerlemesi büyük güçlerin aracılığıyla durduruldu.'" },
 
-{ t:"1897-12-18", b:"Girit'in özerkliğinin ilanı", tur:"siyasi",
-  onem:5, dunya:3, kapsam:"dis", etiket:["siyasi","toprak-kazanc"], yer_id:"Kandiye (Girit)",
+{ t:"1897-12-18", b:"Girit'in özerkliğinin ilanı", tur:"siyaset",
+  onem:5, dunya:3, kapsam:"dis", etiket:["siyaset","toprak-kazanc"], yer_id:"Kandiye (Girit)",
   d:"Osmanlı'nın savaşı kazanmasına rağmen İngiltere, Rusya, Fransa ve İtalya, Girit'i Osmanlı hâkimiyetinde ama tarafsız ve özerk bir vilâyet ilan etti. Adanın başına padişahın büyük güçlerin onayıyla beş yıllığına atayacağı bir vali geçecekti.",
   kaynak:"TDV `girit`: '...İngiltere, Rusya, Fransa ve İtalya, 2 Mart 1897 tarihli notada bahsedilen Girit'in muhtariyetini ilân ettiler (18 Aralık 1897)... Almanya ile Avusturya ise karara katılmadılar.'" },
 
-{ t:"1898-12-22", b:"Prens George'un Girit fevkalade komiseri olması", tur:"siyasi",
-  onem:4, dunya:2, kapsam:"dis", etiket:["siyasi"], yer_id:"Hanya",
+{ t:"1898-12-22", b:"Prens George'un Girit fevkalade komiseri olması", tur:"siyaset",
+  onem:4, dunya:2, kapsam:"dis", etiket:["siyaset"], yer_id:"Hanya",
   d:"Büyük güçler, Yunan kralının ikinci oğlu Prens George'u Girit'e üç yıllığına fevkalade komiser olarak atadı; adadaki dört büyük devlet askerî kuvveti görevine başladıktan sonra adadan çekilmeye başladı. Bâbıâli'nin itirazlarına rağmen Girit fiilen Yunan yönetimine geçti. Bu tarih, data/yerlesimler.js'teki yaklaşık tarihten (1898-12-01) üç hafta sonradır — TDV'nin kesin günü kullanıldı.",
   kaynak:"TDV `girit`: 'Büyük devletler Yunan kralının oğlu Prens George'un üç yıl müddetle fevkalâde komiser sıfatı ile Girit'e tayin edilmesini kabul ettiler ve durumu 19 Kasım 1898'de Bâbıâli'ye bildirdiler. Prens George'un 22 Aralık 1898'de adada görevine başlaması üzerine...'" },
 
@@ -951,23 +951,23 @@ window.KRONOLOJI_BALKAN = [
   d:"Gazeteci Alexandros Pallis'in İncil'i halk diline (dimotiki) çevirip tefrika etmesi, 'kutsal metnin bayağılaştırıldığı' iddiasıyla büyük bir toplumsal öfkeye yol açtı. 'Kara Perşembe' olarak anılan gösterilerde sekiz kişi öldü; olay, Yunanistan'ın on yıllarca süren 'dil sorununun' (katharevousa/dimotiki) en şiddetli sahnesi oldu.",
   kaynak:"bulunamadı — TDV `yunanistan` dil tartışmasına girmiyor; dayanak: standart akademik/tarihsel referans (OrthodoxHistory.org, 'Athens Gospel Riots of 1901', 'Black Thursday')." },
 
-{ t:"1908-10-06", b:"Girit Millî Meclisi'nin Yunanistan'a katılımı (enosis) ilanı", tur:"siyasi",
-  onem:5, dunya:3, kapsam:"dis", etiket:["siyasi","toprak-kazanc"], yer_id:"Kandiye (Girit)",
+{ t:"1908-10-06", b:"Girit Millî Meclisi'nin Yunanistan'a katılımı (enosis) ilanı", tur:"siyaset",
+  onem:5, dunya:3, kapsam:"dis", etiket:["siyaset","toprak-kazanc"], yer_id:"Kandiye (Girit)",
   d:"Bulgaristan'ın bağımsızlığını ilan etmesi ve Bosna-Hersek'in Avusturya-Macaristan tarafından ilhak edilmesiyle aynı haftada, Girit Millî Meclisi de adanın Yunanistan Krallığı'na katıldığını resmen ilan etti. Osmanlı topraklarının her yanında protestolar patlak verdi; büyük devletler ilhakı tanımadıklarını bildirseler de fiilî durumu değiştirmediler.",
   kaynak:"TDV `girit`: 'Girit Millî Meclisi, Bosna-Hersek'in Avusturya-Macaristan tarafından ilhakı ve Bulgaristan'ın istiklâlini ilân etmesi üzerine adanın Yunanistan Krallığı'na katılmasını resmen ilân edince buna karşı Osmanlı topraklarının her tarafından protestolar yağdırıldı.'" },
 
-{ t:"1909-08-28", b:"Gudi (Goudi) Darbesi", tur:"siyasi",
-  onem:4, dunya:2, kapsam:"ic", etiket:["siyasi","darbe"], yer_id:"Atina",
+{ t:"1909-08-28", b:"Gudi (Goudi) Darbesi", tur:"siyaset",
+  onem:4, dunya:2, kapsam:"ic", etiket:["siyaset","darbe","darbe-askeri"], yer_id:"Atina",
   d:"Jön Türk ihtilâlinden bir yıl sonra Yunan ordusunda da benzer bir askerî ihtilâl gerçekleşti. Atina'nın Gudi banliyösünde toplanan subaylar hükümete reform dayattı; askerî yönetim kısa süre sonra Giritli politikacı Eleftherios Venizelos'u ülkeye davet etti.",
   kaynak:"TDV `yunanistan`: 'Jön Türk ihtilâlinden bir yıl sonra Yunanistan'da da benzer bir askerî ihtilâl gerçekleşti (Gudi ihtilâli) ve askerî yönetim bir süre sonra Giritli politikacı Eleftherios Venizelos'u Yunanistan'a davet etti.'" },
 
-{ t:"1910-05-09", b:"Girit Millî Meclisi'nin Yunan kralı adına açılması", tur:"siyasi",
-  onem:4, dunya:2, kapsam:"dis", etiket:["siyasi"], yer_id:"Kandiye (Girit)",
+{ t:"1910-05-09", b:"Girit Millî Meclisi'nin Yunan kralı adına açılması", tur:"siyaset",
+  onem:4, dunya:2, kapsam:"dis", etiket:["siyaset"], yer_id:"Kandiye (Girit)",
   d:"Girit Millî Meclisi, büyük devletlerin itirazına rağmen 'Helenler'in kralı' adına açıldı ve mebuslar kral adına yemin ettirildi; müslüman mebuslarla ihtilâf çıkması üzerine Venizelos'un teklifiyle meclis, müslüman mebusları bir daha toplantılara kabul etmeme kararı aldı.",
   kaynak:"TDV `girit`: 'Girit Millî Meclisi 9 Mayıs 1910'da Helenler'in kralı adına açıldı; mebuslar kral adına yemin ettirildiler... Girit hükûmet reisi Venizelos'un teklifi üzerine millî meclis 30 Mayıs'ta müslüman mebusları toplantılara artık kabul etmemeye karar verdi.'" },
 
-{ t:"1910-10-06", b:"Venizelos'un başbakan olması", tur:"siyasi",
-  onem:5, dunya:3, kapsam:"ic", etiket:["siyasi"], yer_id:"Atina",
+{ t:"1910-10-06", b:"Venizelos'un başbakan olması", tur:"siyaset",
+  onem:5, dunya:3, kapsam:"ic", etiket:["siyaset"], yer_id:"Atina",
   d:"Gudi darbesinin ardından ülkeye davet edilen Giritli politikacı Eleftherios Venizelos, seçimleri kazanarak başbakanlığa geldi. Usta diplomasisi ve reformcu politikaları sayesinde Venizelos, modern Yunan tarihinin en etkili lideri hâline gelecek ve ülkeyi Balkan Savaşları'nın en kazançlı devleti kılacaktı.",
   kaynak:"TDV `yunanistan`: 'Askerî yönetimin sona ermesini sağlayarak 1910'da başbakan seçilen Venizelos modern Yunanistan tarihinde önemli roller oynayacak...' Tam gün TDV'de yok; dayanak: standart akademik kaynak." },
 
@@ -986,8 +986,8 @@ window.KRONOLOJI_BALKAN = [
   d:"Uzun süredir Osmanlı savunmasında kalan Yanya, Yunan ordusunun kuşatması sonucunda düştü; Güney Epir'in tamamı Yunanistan'ın eline geçti.",
   kaynak:"data/yerlesimler.js:335 ('Yanya', s: dönemi f:'1913-03-06' d:'yunanistan') — zaten doğrulanmış harita verisiyle birebir uyumlu." },
 
-{ t:"1913-03-18", b:"Kral I. Georgios'un suikastı", tur:"siyasi",
-  onem:4, dunya:2, kapsam:"ic", etiket:["siyasi","suikast"], yer_id:"Selanik",
+{ t:"1913-03-18", b:"Kral I. Georgios'un suikastı", tur:"siyaset",
+  onem:4, dunya:2, kapsam:"ic", etiket:["siyaset","suikast"], yer_id:"Selanik",
   d:"Elli yıllık saltanatının altın yıldönümü kutlamaları arifesinde, yeni fethedilen Selanik'te sıradan bir akşam yürüyüşü sırasında bir suikastçı tarafından sırtından vurularak öldürüldü. Yerine oğlu Konstantinos geçti.",
   kaynak:"TDV `yunanistan`: '1913'te Kral Georg, Yunan topraklarına yeni katılan Selânik'te bir suikast sonucu öldürüldü. Yerine oğlu Konstantinos kral oldu.' Tam gün TDV'de yok; dayanak: standart akademik kaynak." },
 
@@ -1021,33 +1021,33 @@ window.KRONOLOJI_BALKAN = [
   d:"İtilâf devletlerinin Osmanlı hükümetiyle imzalattığı antlaşma, Doğu Trakya'yı ve İzmir bölgesini (beş yıl sonra referandumla ilhak şartıyla) Yunanistan'a bırakıyordu. Ankara'daki Millî Mücadele hareketi antlaşmayı hiç tanımadı ve metin hiçbir zaman uygulanamadı.",
   kaynak:"data/olaylar_ek8.js:22, data/kronoloji_fransa.js:1002 ve data/kronoloji_ingiltere.js:1341 ile zaten çapraz doğrulanmış (dunya:4, üçünde de aynı)." },
 
-{ t:"1920-10-25", b:"Kral Aleksandros'un ölümü", tur:"siyasi",
-  onem:3, dunya:1, kapsam:"ic", etiket:["siyasi"], yer_id:"Atina",
+{ t:"1920-10-25", b:"Kral Aleksandros'un ölümü", tur:"siyaset",
+  onem:3, dunya:1, kapsam:"ic", etiket:["siyaset"], yer_id:"Atina",
   d:"Kral Aleksandros, Tatoi'deki kraliyet arazisinde bir maymun tarafından ısırılması sonucu gelişen kan zehirlenmesinden yirmi yedi yaşında öldü. Ani ölüm, sürgündeki babası Konstantinos'un geri çağrılmasına ve seçimlerde Venizelos'un iktidarı kaybetmesine yol açan siyasî zincirin ilk halkasıydı.",
   kaynak:"bulunamadı — TDV `yunanistan` bu olayı anmıyor; dayanak: standart akademik/tarihsel referans (History.com)." },
 
 { t:"1922-08-26", b:"Büyük Taarruz'un başlaması", tur:"savas",
-  onem:5, dunya:3, kapsam:"dis", etiket:["askeri","savas","toprak-kaybi"], yer_id:"",
+  onem:5, dunya:3, kapsam:"dis", etiket:["askeri","savas","toprak-kayip"], yer_id:"",
   d:"Mustafa Kemal Paşa önderliğindeki Türk ordusunun Afyon-Dumlupınar hattında başlattığı taarruz, üç haftada Yunan cephesini tamamen çökertti. Yunanistan için savaşın kaderini belirleyen dönüm noktasıydı.",
   kaynak:"data/savaslar.js:685 ('Büyük Taarruz (1922)', f:'1922-08-26', t:'1922-09-18') — zaten doğrulanmış kayıt, Yunanistan perspektifine uyarlandı." },
 
 { t:"1922-09-09", b:"İzmir'in Türk ordusunca geri alınması — 'Küçükasya Felâketi'", tur:"savas",
-  onem:5, dunya:4, kapsam:"dis", etiket:["askeri","toprak-kaybi"], yer_id:"İzmir",
+  onem:5, dunya:4, kapsam:"dis", etiket:["askeri","toprak-kayip"], yer_id:"İzmir",
   d:"Yunan ordusunun Anadolu'dan tamamen çekilmesiyle Türk ordusu İzmir'e girdi. Yunan tarih yazımında 'Mikrasiatiki katastrofi' (Küçükasya felâketi) diye anılan bu yenilgi, 'Megali İdea' siyasetini fiilen sona erdirdi ve Anadolu'daki yüz binlerce Rum'un Yunanistan'a kaçışını başlattı.",
   kaynak:"data/olaylar.js:183 ile aynı olay — Türk perspektifinden zaten doğrulanmış tarih, Yunanistan perspektifine uyarlandı. TDV `yunanistan`: '...yüz binlerce Rum... Yunanistan'a kaçmak zorunda kaldı... Bu \"felâket\"le megali idea politikası fiilen sona erdi.'" },
 
-{ t:"1922-09-27", b:"Kral Konstantin'in ikinci kez tahttan çekilmesi", tur:"siyasi",
-  onem:4, dunya:2, kapsam:"ic", etiket:["siyasi","darbe"], yer_id:"Atina",
+{ t:"1922-09-27", b:"Kral Konstantin'in ikinci kez tahttan çekilmesi", tur:"siyaset",
+  onem:4, dunya:2, kapsam:"ic", etiket:["siyaset","darbe","darbe-askeri"], yer_id:"Atina",
   d:"Anadolu bozgunundan sorumlu tutulan Kral Konstantin, Venizelosçu subayların askerî müdahalesi üzerine tahtı ikinci kez bırakarak ülkeyi terketti; yerine oğlu II. Georgios geçti.",
   kaynak:"TDV `yunanistan`: 'Yunan ordularının Anadolu'daki yenilgisi Yunanistan'da siyasal krize yol açtı; Eylül 1922'de askerlerin müdahalesi üzerine Kral Konstantinos tahtı bırakarak ülkeyi terketti. Yerine oğlu Georg geçti.'" },
 
 { t:"1923-01-30", b:"Nüfus mübadelesi sözleşmesinin imzalanması", tur:"antlasma",
-  onem:5, dunya:4, kapsam:"dis", etiket:["antlasma","sosyal","toprak-kaybi"], yer_id:"", kapsam_genis:true,
+  onem:5, dunya:4, kapsam:"dis", etiket:["antlasma","sosyal","toprak-kayip"], yer_id:"", kapsam_genis:true,
   d:"Lozan görüşmeleri sürerken Türkiye ve Yunanistan, dinî mensubiyet esasına göre zorunlu bir nüfus mübadelesini öngören sözleşmeyi imzaladı. Yaklaşık 500.000 Türk/müslüman Yunanistan'dan Türkiye'ye, 1,5 milyon Rum-Ortodoks Anadolu'dan Yunanistan'a göç ettirildi.",
   kaynak:"TDV `yunanistan`: '1923 Lozan Antlaşması sonucunda gerçekleşen nüfus mübadelesiyle ülke nüfusunun etnik ve dinî yapısı önemli ölçüde değişmiştir.' İmza tarihi TDV'de ayrıca verilmiyor; dayanak: birincil kaynak (T.C. Dışişleri Bakanlığı resmî sitesi)." },
 
 { t:"1923-07-24", b:"Lozan Antlaşması'nın imzalanması", tur:"antlasma",
-  onem:5, dunya:5, kapsam:"dis", etiket:["antlasma","toprak-kaybi"], yer_id:"", kapsam_genis:true,
+  onem:5, dunya:5, kapsam:"dis", etiket:["antlasma","toprak-kayip"], yer_id:"", kapsam_genis:true,
   d:"Sevr'in öngördüğü bütün kazanımları geçersiz kılan Lozan Antlaşması, Yunanistan'ın kuruluşundan beri sürdürdüğü toprak genişlemesini kesin olarak durdurdu. Venizelos, Yunanistan'ın Anadolu bozgunundan en az kayıpla çıkması için görüşmelerde bizzat yer aldı.",
   kaynak:"TDV `yunanistan`: 'Lozan Antlaşması, Sevr Antlaşması'nın Yunanistan'a sağladığı kazanımları ortadan kaldırdığından Yunanistan'ın kurulduğu tarihten beri sürdürdüğü genişlemeyi durduran bir antlaşma oldu.' dunya:5 değeri data/kronoloji_fransa.js:1012 ile birebir çapraz doğrulandı." },
 

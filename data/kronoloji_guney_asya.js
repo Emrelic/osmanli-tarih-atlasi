@@ -103,7 +103,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   kaynak:"ekber-sah (TDV): \"4 Receb 949'da (14 Ekim 1542) Sind'deki Ömerkût Kalesi'nde doğdu\"" },
 
 { t:"1554-01-01", b:"Mirza Îsâ Han Tarhan Sind'de idareyi ele aldı", tur:"hukumdar", onem:4, dunya:1, kapsam:"ic",
-  etiket:["hanedan","darbe"], yer_id:"Tatta (Thatta)",
+  etiket:["hanedan","darbe","taht-kavgasi"], yer_id:"Tatta (Thatta)",
   d:"[Sind — Tarhan] Ergun hânedanının son temsilcisinin ölümüyle idare, aynı Orta Asya geleneğinden gelen Tarhan ailesine geçti. Îsâ Han'ın Tatta'daki türbesi, Sind'in taş işçiliğinde ulaştığı düzeyin bugün ayakta duran örneğidir.",
   kaynak:"sind (TDV) — Tatta türbeleri arasında \"Îsâ Han\" adıyla anılır; hânedan geçişi için Cambridge History of India, III" },
 
@@ -152,7 +152,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   d:"[Sind] Afgan hükümdarı, Nâdir Şah'ın mirasını devralarak Kalhora idaresini kendine bağladı; Sind bundan sonra Kâbil'e vergi ödeyen bir tâbi bölge sayıldı. Şikârpûr, Afgan-Hint ticaretinin ve Sindî sarraflarının merkezi olarak yükseldi.",
   kaynak:"sind (TDV); ahmed-sah-durrani (TDV)" },
 
-{ t:"1772-01-01", b:"İngiliz Doğu Hindistan Şirketi Sind'de ilk fabrikasını kurdu", tur:"iktisat", onem:4, dunya:3, kapsam:"dis",
+{ t:"1772-01-01", b:"İngiliz Doğu Hindistan Şirketi Sind'de ilk fabrikasını kurdu", tur:"ekonomi", onem:4, dunya:3, kapsam:"dis",
   etiket:["ticaret","somurge"], yer_id:"Tatta (Thatta)",
   d:"[Sind] Şirketin ticaret acentesi, İndus deltasında kalıcı bir ayak izi bıraktı. Askerî fetihten yetmiş yıl önce gelen bu ticarî yerleşme, İngiliz nüfuzunun Sind'e önce tüccar kılığında girdiğini gösterir.",
   kaynak:"sind (TDV): \"İngiliz Doğu Hindistan Şirketi 1772'de ilk fabrikasını kurdu\"" },
@@ -237,7 +237,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   d:"[Nepal — Malla] Şair-kral olarak anılan Pratap Malla döneminde Hanuman Dhoka sarayı genişletildi, Katmandu meydanları bugünkü görünümünü kazandı ve vadi sanatı zirveye çıktı. Üç krallık arasındaki rekabet, üç ayrı saray meydanı bırakmıştır.",
   kaynak:"bulunamadı — dayanak: D. R. Regmi, Medieval Nepal; Cambridge History of India" },
 
-{ t:"1650-01-01", b:"Nepal-Tibet ticaret ve darphane antlaşması", tur:"iktisat", onem:4, dunya:2, kapsam:"dis",
+{ t:"1650-01-01", b:"Nepal-Tibet ticaret ve darphane antlaşması", tur:"ekonomi", onem:4, dunya:2, kapsam:"dis",
   etiket:["ticaret","antlasma","para"], yer_id:"Katmandu",
   d:"[Nepal — Malla] Katmandu, Tibet için gümüş sikke basma imtiyazını ve Lhasa ticaretinin aracılığını elde etti. Himalaya geçitleri üzerindeki bu tekel, üç Malla krallığının zenginliğinin kaynağıydı — ve bir asır sonra Gorkha ile Tibet'i karşı karşıya getirecek asıl sebep de buydu.",
   kaynak:"bulunamadı — TDV `nepal` maddesi bu ayrıntıyı vermiyor. Dayanak: L. Petech, Nepal ve Tibet ilişkileri üzerine çalışmaları; Cambridge History of India" },
@@ -273,7 +273,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   kaynak:"bulunamadı — TDV `nepal` maddesi savaşı anmıyor. Dayanak: L. Petech; Cambridge History of India, V" },
 
 { t:"1806-04-01", b:"Bhimsen Thapa muhtâr (başvezir) olarak iktidarı ele aldı", tur:"darbe", onem:4, dunya:1, kapsam:"ic",
-  etiket:["darbe","siyaset"], yer_id:"Katmandu",
+  etiket:["darbe","siyaset","darbe-siyasi"], yer_id:"Katmandu",
   d:"[Nepal — Gorkha] Saray kırımının ardından yönetimi eline alan Thapa, otuz yıl boyunca ülkeyi kralın adına yönetti ve orduyu Avrupa usulünde düzenlemeye çalıştı. Nepal'de gerçek iktidarın kraldan başvezire kayması ilk defa bu dönemde kalıcılaştı.",
   kaynak:"bulunamadı — dayanak: John Pemble, The Invasion of Nepal; Cambridge History of India, V" },
 
@@ -288,7 +288,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   kaynak:"nepal (TDV): \"Suguali Antlaşması ile nüfusun yoğunlaştığı Terai topraklarının büyük kısmı İngilizler'e geçti\"" },
 
 { t:"1846-09-14", b:"Kot Katliamı: Jung Bahadur Rana iktidarı ele geçirdi", tur:"darbe", onem:5, dunya:2, kapsam:"ic",
-  etiket:["darbe","siyaset"], yer_id:"Katmandu",
+  etiket:["darbe","siyaset","darbe-siyasi"], yer_id:"Katmandu",
   d:"[Nepal — Rana] Saray avlusunda toplanan devlet adamlarının kılıçtan geçirilmesiyle Jung Bahadur tek hâkim güç hâline geldi. Kral saltanatta kaldı, iktidar ise babadan oğula geçen Rana başvezirlerine devredildi; bu düzen 1951'e kadar sürecekti.",
   kaynak:"nepal (TDV): \"1846 yılında Jung Bahadur Rana adlı kumandan, bir ayaklanma ile bütün devlet adamı ve yöneticileri öldürerek ... idaresini ele geçirdi\"" },
 
@@ -349,7 +349,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   kaynak:"bulunamadı — dayanak: Cambridge History of India, III; R. C. Majumdar (ed.), The Delhi Sultanate" },
 
 { t:"1448-01-01", b:"Çitor'da Vijaya Stambha (Zafer Kulesi) tamamlandı", tur:"kultur", onem:4, dunya:2, kapsam:"ic",
-  etiket:["mimari","sanat"], yer_id:"Çitor (Chittorgarh)",
+  etiket:["mimari","kultur"], yer_id:"Çitor (Chittorgarh)",
   d:"[Racput — Mevâr] Dokuz katlı, otuz yedi metrelik kule Rânâ Kumbha'nın Mâlvâ zaferi için yaptırıldı ve yüzeyi Hindu tanrı kabartmalarıyla kaplandı. Bir askerî zaferin taşa çevrilmiş hâli olarak Racput kimliğinin görsel merkezi oldu.",
   kaynak:"bulunamadı — dayanak: Cambridge History of India, III; Percy Brown, Indian Architecture (Hindu dönemi)" },
 
@@ -394,7 +394,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   kaynak:"bulunamadı — dayanak: Cambridge History of India, IV; Satish Chandra, Medieval India" },
 
 { t:"1605-01-01", b:"Çâvend'de Râgamâlâ dizisi resmedildi; Mevâr minyatür ekolü doğdu", tur:"kultur", onem:4, dunya:2, kapsam:"ic",
-  etiket:["sanat","minyatur"], yer_id:"Udeypûr (Udaipur)",
+  etiket:["kultur","minyatur"], yer_id:"Udeypûr (Udaipur)",
   d:"[Racput — Mevâr] Ressam Nisârüddin'in Çâvend'de tamamladığı Râgamâlâ albümü, tarihi kesin olarak bilinen ilk Racput minyatür dizisidir. Bâbürlü sarayının İran etkisindeki üslûbundan ayrı, parlak renkli ve halk anlatısına yakın bir resim dili burada kuruldu. (yer_id: Çâvend, Udeypûr yakınlarındaki geçici başşehirdir.)",
   kaynak:"bulunamadı — dayanak: Cambridge History of India, IV; B. N. Goswamy, Indian painting üzerine standart çalışmaları" },
 
@@ -538,7 +538,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   d:"[Travankur — Venâd] Pândya taht kavgasından yararlanan Venâd kralı Madurai'yi ve ardından Kançipuram'ı aldı; kendini bütün Güney Hindistan'ın hükümdarı ilân etti. Zafer kalıcı olmadı — birkaç yıl içinde Delhi Sultanlığı'nın Dekken seferleri bölgenin bütün dengelerini alt üst etti. (yer_id boş: Kançipuram atlasın yerleşim kayıtlarında yok.)",
   kaynak:"bulunamadı — dayanak: K. A. Nilakanta Sastri, A History of South India; A. Sreedhara Menon, a.g.e." },
 
-{ t:"1503-01-01", b:"Portekizliler Kolam'da ticaret merkezi kurdu", tur:"iktisat", onem:4, dunya:3, kapsam:"dis",
+{ t:"1503-01-01", b:"Portekizliler Kolam'da ticaret merkezi kurdu", tur:"ekonomi", onem:4, dunya:3, kapsam:"dis",
   etiket:["ticaret","somurge","baharat"], yer_id:"Kolam (Quilon)",
   d:"[Travankur — Venâd] Karabiber ticaretinin merkezlerinden Kolam'da açılan Portekiz acentesi, Avrupa'nın Malabar sahiline ilk kalıcı yerleşmesidir. Venâd, komşu Koçin ve Kalikut arasındaki Portekiz rekabetinde denge siyaseti yürütmeyi tercih etti.",
   kaynak:"bulunamadı — dayanak: A. Sreedhara Menon, A Survey of Kerala History; M. N. Pearson, The Portuguese in India (Cambridge)" },
@@ -669,7 +669,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   kaynak:"bulunamadı — dayanak: C. U. Aitchison, a.g.e.; Gangmumei Kamei, A History of Manipur" },
 
 { t:"1891-03-24", b:"Saray darbesi İngiliz müdahalesini tetikledi", tur:"kriz", onem:4, dunya:2, kapsam:"ic",
-  etiket:["darbe","kriz"], yer_id:"İmphâl (Manipûr)",
+  etiket:["darbe","kriz","darbe-siyasi"], yer_id:"İmphâl (Manipûr)",
   d:"[Manipûr — Ningthouca] Tikendracît Singh'in kardeşi Surçandra'yı tahttan indirmesi üzerine İngiliz mukimi duruma el koymak istedi; görüşme çatışmaya döndü ve baş komiser dahil beş İngiliz görevlisi öldürüldü. Küçük bir saray meselesi, bir savaşa dönüştü.",
   kaynak:"bulunamadı — dayanak: Gangmumei Kamei, A History of Manipur; Cambridge History of India, VI" },
 
@@ -704,7 +704,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
 // ── SİND ───────────────────────────────────────────────────────────────────
 
 { t:"1509-01-01", b:"Makli nekropolü Semmâ döneminde büyük anıt mezarlarla genişledi", tur:"kultur", onem:4, dunya:2, kapsam:"ic",
-  etiket:["mimari","mezar","sanat"], yer_id:"Tatta (Thatta)",
+  etiket:["mimari","mezar","kultur"], yer_id:"Tatta (Thatta)",
   d:"[Sind — Semmâ] Tatta'nın batısındaki tepede kurulan mezarlık, altı yüzyıl boyunca sultanların, âlimlerin ve şeyhlerin gömüldüğü devasa bir taş işçiliği müzesine dönüştü. Hindu tapınak süslemesiyle İran kubbe geleneğini aynı yapıda buluşturan üslûbu, Sind'in iki dünya arasındaki yerini taşa çevirir.",
   kaynak:"sind (TDV) — Tatta türbeleri (Câm Nizâmeddin, Îsâ Han, Mirza Canbeg) ve taş işçiliği bölümü" },
 
@@ -713,7 +713,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   d:"[Sind / Bâbürlü] Fetihten sonra şehirde çok sayıda medrese ve kütüphane kuruldu; Sindli hekimler, matematikçiler ve hadis âlimleri bütün Hint dünyasında tanındı. Sind'in İslâm ilimlerine katkısı, siyasî ağırlığının çok üstündedir.",
   kaynak:"sind (TDV): \"Sind'de yetişen ünlü sûfî, âlim, şair ve edipler\" listesi ve Abbâsî dönemi tercüme faaliyeti" },
 
-{ t:"1620-01-01", b:"Deniz İpek yolu Sind limanlarını Basra körfezine bağladı", tur:"iktisat", onem:3, dunya:2, kapsam:"dis",
+{ t:"1620-01-01", b:"Deniz İpek yolu Sind limanlarını Basra körfezine bağladı", tur:"ekonomi", onem:3, dunya:2, kapsam:"dis",
   etiket:["ticaret","liman","yol"], yer_id:"Tatta (Thatta)",
   d:"[Sind / Bâbürlü] Kuzeyden sahile inen ipek ve pamuklu kumaş, Sind ve Gucerât limanlarından Basra ve Aden'e, oradan İskenderiye üzerinden Avrupa'ya taşınıyordu. Tatta'nın zenginliği tarımdan değil, bu geçiş trafiğinden geliyordu — ve delta kapandığında şehir de söndü.",
   kaynak:"sind (TDV): \"Deniz İpek yolu da kuzeyden sahile gelerek Sind ve Gucerât limanlarından Basra körfezine ... varıyordu\"" },
@@ -741,7 +741,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   kaynak:"bulunamadı — dayanak: Percy Brown, Indian Architecture (İslâm dönemi); Cambridge History of India, IV" },
 
 { t:"1760-01-01", b:"Kişangarh ekolünde Bani Thani üslûbu doğdu", tur:"kultur", onem:3, dunya:2, kapsam:"ic",
-  etiket:["sanat","minyatur"], yer_id:"Ecmîr (Ajmer)",
+  etiket:["kultur","minyatur"], yer_id:"Ecmîr (Ajmer)",
   d:"[Racput — Kişangarh] Uzun boyun, keskin burun ve badem gözle tanınan üslûp, Racput minyatürünün en özgün dalını oluşturdu. Bâbürlü sarayının çöküşüyle başkentten dağılan ressamların taşra saraylarında bulduğu himaye, Hint resminde bir merkezsizleşme ve çeşitlenme dönemi başlattı. (yer_id: Kişangarh, Ecmîr'in kuzeyindedir.)",
   kaynak:"bulunamadı — dayanak: B. N. Goswamy, Indian painting üzerine çalışmaları; Cambridge History of India, IV" },
 
@@ -752,7 +752,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
 
 // ── LADAKH ─────────────────────────────────────────────────────────────────
 
-{ t:"1650-01-01", b:"Ladakh, Tibet yünü ile Keşmir şal sanayii arasındaki tekeli elinde tuttu", tur:"iktisat", onem:4, dunya:2, kapsam:"dis",
+{ t:"1650-01-01", b:"Ladakh, Tibet yünü ile Keşmir şal sanayii arasındaki tekeli elinde tuttu", tur:"ekonomi", onem:4, dunya:2, kapsam:"dis",
   etiket:["ticaret","tekel","yol"], yer_id:"Leh (Ladakh)",
   d:"[Ladakh — Namgyal] Batı Tibet'in ince keçi yünü (paşmina) yalnız Ladakh üzerinden Keşmir'e geçebiliyordu. Dünyanın en pahalı şallarının ham maddesi bu dar geçitten akıyordu; Leh'in bir dağ kasabası olmaktan çıkıp uluslararası bir kervan merkezi hâline gelmesinin sebebi budur.",
   kaynak:"bulunamadı — dayanak: L. Petech, The Kingdom of Ladakh; J. Rizvi, Trans-Himalayan Caravans" },
@@ -765,7 +765,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
 // ── NEPAL ──────────────────────────────────────────────────────────────────
 
 { t:"1702-01-01", b:"Bhaktapur'da Nyatapola Tapınağı tamamlandı", tur:"kultur", onem:4, dunya:2, kapsam:"ic",
-  etiket:["mimari","tapinak","sanat"], yer_id:"Katmandu",
+  etiket:["mimari","tapinak","kultur"], yer_id:"Katmandu",
   d:"[Nepal — Malla] Bhupatindra Malla'nın yaptırdığı beş katlı pagoda, vadinin en yüksek yapısıdır ve yüzyıllar boyunca depremlerde ayakta kaldı. Malla krallıklarının birbiriyle yarıştığı alan savaş kadar mimarîydi; her başşehir ötekinden daha görkemli bir meydan kurmaya çalıştı. (yer_id: Bhaktapur, Katmandu vadisindedir.)",
   kaynak:"bulunamadı — dayanak: M. Slusser, Nepal Mandala: A Cultural Study of the Kathmandu Valley; D. R. Regmi, Medieval Nepal" },
 
@@ -775,7 +775,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   kaynak:"bulunamadı — dayanak: John Whelpton, A History of Nepal; Cambridge History of India, VI" },
 
 { t:"1889-01-01", b:"Bîr Hastahanesi kuruldu: Nepal'in ilk modern hastahanesi", tur:"bilim", onem:4, dunya:2, kapsam:"ic",
-  etiket:["tip","saglik","kurum"], yer_id:"Katmandu",
+  etiket:["tip","saglik","kurum","islahat"], yer_id:"Katmandu",
   d:"[Nepal — Rana] Başvezir Bîr Şemşer'in kurdurduğu hastahane, ülkeye modern cerrahi ve aşı uygulamasını getirdi. Rana idaresinin dışa kapalı siyasetine rağmen tıp ve mühendislik alanında Hindistan'dan bilgi aktarımı sürdü.",
   kaynak:"bulunamadı — dayanak: John Whelpton, A History of Nepal" },
 
@@ -797,12 +797,12 @@ window.KRONOLOJI_GUNEY_ASYA = [
 // ── TRAVANKUR ──────────────────────────────────────────────────────────────
 
 { t:"1601-01-01", b:"Padmanâbhapuram Sarayı'nın ahşap yapıları yükseldi", tur:"kultur", onem:4, dunya:2, kapsam:"ic",
-  etiket:["mimari","saray","sanat"], yer_id:"Trivandrum (Thiruvananthapuram)",
+  etiket:["mimari","saray","kultur"], yer_id:"Trivandrum (Thiruvananthapuram)",
   d:"[Travankur — Venâd] Muson yağmurlarına göre tasarlanmış, taş temel üzerine tamamen ahşaptan kurulan saray, Kerala mimarîsinin en büyük örneğidir. Eğimli çatılar, oyma tavanlar ve doğal havalandırma, iklimin mimarîyi nasıl belirlediğinin ders kitabı örneğidir. (yer_id: Padmanâbhapuram, Trivandrum'un güneyindedir.)",
   kaynak:"bulunamadı — dayanak: A. Sreedhara Menon, A Survey of Kerala History; Percy Brown, Indian Architecture (Hindu dönemi)" },
 
 { t:"1650-01-01", b:"Kottârakkara'da Râmanâttam doğdu: Kathakali'nin başlangıcı", tur:"kultur", onem:5, dunya:3, kapsam:"ic",
-  etiket:["sanat","tiyatro","dans"], yer_id:"Kolam (Quilon)",
+  etiket:["kultur","tiyatro","dans"], yer_id:"Kolam (Quilon)",
   d:"[Travankur — Venâd] Kottârakkara racasının Râmâyana'yı sahnelemek için geliştirdiği oyun biçimi, yüz boyama, el işaretleri (mudra) ve davul eşliğiyle Kathakali'ye dönüştü. Hindistan'ın en tanınan klasik tiyatro geleneklerinden biri, bir taşra sarayının kültürel rekabetinden doğdu. (yer_id: Kottârakkara, Kolam'ın doğusundadır.)",
   kaynak:"bulunamadı — dayanak: A. Sreedhara Menon, A Survey of Kerala History; Farley Richmond v.dğr., Indian Theatre: Traditions of Performance" },
 
@@ -822,14 +822,14 @@ window.KRONOLOJI_GUNEY_ASYA = [
   kaynak:"bulunamadı — dayanak: Robin Jeffrey, The Decline of Nayar Dominance; S. N. Sen, Hindistan'da bilim tarihi çalışmaları" },
 
 { t:"1846-01-01", b:"Svâti Tirunal'in ölümüyle Karnatik müziğinde bir dönem kapandı", tur:"kultur", onem:4, dunya:2, kapsam:"ic",
-  etiket:["muzik","sanat","olum"], yer_id:"Trivandrum (Thiruvananthapuram)",
+  etiket:["muzik","kultur","olum"], yer_id:"Trivandrum (Thiruvananthapuram)",
   d:"[Travankur] Kendisi de dört yüzü aşkın eser besteleyen kral, Tanjavur'dan gelen müzisyenleri sarayında toplayarak Travankur'u Güney Hindistan müziğinin merkezlerinden biri yaptı. Hükümdarın bizzat besteci olması, prenslik saraylarının sanat hâmiliğinde ne kadar ileri gidebildiğini gösterir.",
   kaynak:"bulunamadı — dayanak: A. Sreedhara Menon, A Survey of Kerala History; Robin Jeffrey, a.g.e." },
 
 // ── MANİPUR ────────────────────────────────────────────────────────────────
 
 { t:"1779-01-01", b:"Bhâgyaçandra Ras Lîlâ dansını oluşturdu: Manipûrî klasik dansı doğdu", tur:"kultur", onem:5, dunya:3, kapsam:"ic",
-  etiket:["dans","sanat","din"], yer_id:"İmphâl (Manipûr)",
+  etiket:["dans","kultur","din"], yer_id:"İmphâl (Manipûr)",
   d:"[Manipûr — Ningthouca] Burma sürgününden dönen kral, Krişna tapınmasını Meitei dans geleneğiyle birleştirerek yeni bir sahne biçimi kurdu. Yumuşak hareketleri ve işlemeli kostümüyle Manipûrî, Hindistan'ın sekiz klasik dansından biri olarak kabul edilir — Vaişnava dönüşümünün en kalıcı ürünü bir savaş değil bir danstır.",
   kaynak:"bulunamadı — dayanak: Gangmumei Kamei, A History of Manipur; Saryu Doshi, Manipuri dansı üzerine çalışmaları" },
 

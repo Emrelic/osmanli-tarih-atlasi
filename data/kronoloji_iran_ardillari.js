@@ -216,7 +216,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   kaynak:"ilhanlilar" },
 
 { t:"1260-09-03", b:"Aynicâlût Savaşı — Moğol ilerleyişi Memlükler karşısında durdu", tur:"savas",
-  onem:5, dunya:5, kapsam:"dis", etiket:["askeri","toprak-kaybi"],
+  onem:5, dunya:5, kapsam:"dis", etiket:["askeri","toprak-kayip"],
   yer_id:"",
   d:"Hülâgû, ağabeyi Mengü'nün ölümü üzerine Karakorum'a giderken ordusunu Ketboğa Noyan'a bıraktı. Filistin'de Aynicâlût'ta Memlük Sultanı Kutuz Moğol ordusunu bozguna uğrattı (3 Eylül 1260) ve Ketboğa öldürüldü. İlhanlı kuvvetleri Fırat kıyılarına çekildi; Suriye, Filistin ve Kuzey Irak tahliye edildi. Moğol istilâsı Mısır ve Mağrib'e hiç ulaşamadı — İslâm dünyasının batı yarısı bu savaşla kurtuldu. ⚠️ YER HAKKINDA: Aynicâlût (Ayn Câlût) veride kayıtlı değildir.",
   kaynak:"ilhanlilar" },
@@ -248,7 +248,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   kaynak:"ilhanlilar" },
 
 { t:"1284-08-10", b:"Argun, Ahmed Teküder'i tahttan indirip öldürttü", tur:"hukumdar",
-  onem:3, dunya:1, kapsam:"ic", etiket:["hukumdar","ic-savas","olum"],
+  onem:3, dunya:1, kapsam:"ic", etiket:["hukumdar","ic-savas","olum","taht-kavgasi"],
   yer_id:"Tebriz",
   d:"Tahta çıkmasından iki yıl sonra Ahmed Teküder, ilk günden beri kendisine karşı saltanat mücadelesi veren Abaka'nın büyük oğlu Argun tarafından tahttan indirilerek öldürüldü. İlhanlı'nın İslâmlaşması on bir yıl gecikti; Argun'la birlikte Budist hânedan geleneği geri döndü.",
   kaynak:"ilhanlilar" },
@@ -273,14 +273,14 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   d:"Geyhatu, Anadolu'da İlhanlı yönetimine karşı başlatılan ayaklanmaları bastırmak için yeni kuvvetler gönderdi ve başta Karamanoğulları olmak üzere Türkmenler'e ağır darbeler vurdu. Anadolu'nun İlhanlı idaresi altındaki huzursuzluğu bu seferlerle bastırıldı ama ortadan kalkmadı; Türkmen beylikleri bir kuşak sonra bu boşluktan doğacaktır.",
   kaynak:"ilhanlilar" },
 
-{ t:"1294-01-01", b:"Kâğıt para (çav) denemesi — dört ay sonra kaldırıldı", tur:"iktisat",
-  onem:4, dunya:3, kapsam:"ic", etiket:["iktisat","mali","reform","kriz"],
+{ t:"1294-01-01", b:"Kâğıt para (çav) denemesi — dört ay sonra kaldırıldı", tur:"ekonomi",
+  onem:4, dunya:3, kapsam:"ic", etiket:["ekonomi","mali","reform","kriz"],
   yer_id:"Tebriz",
   d:"Devletin malî gücü zayıflayınca Vezir Sadreddin Ahmed el-Hâlidî, Çin'deki uygulamaları örnek alarak kâğıt para bastırdı ve madenî paraları yasakladı. Halkın tepkisi ve ekonomik hayatta başlayan buhran üzerine yenilik dört ay sonra kaldırıldı (1294). İslâm dünyasında kâğıt paranın ilk ve uzun süre son denemesidir; başarısızlığı, Çin'den alınan bir kurumun aynen aktarılamayacağını göstermiştir.",
   kaynak:"ilhanlilar" },
 
 { t:"1295-03-24", b:"Geyhatu öldürüldü, Baydu tahta geçti", tur:"hukumdar",
-  onem:3, dunya:1, kapsam:"ic", etiket:["hukumdar","ic-savas","olum"],
+  onem:3, dunya:1, kapsam:"ic", etiket:["hukumdar","ic-savas","olum","taht-kavgasi"],
   yer_id:"Tebriz",
   d:"1295 başlarında Geyhatu'nun sefih yaşantısından memnun olmayan bazı devlet adamları, onun Cengiz yasasını ihlâl ettiği gerekçesiyle Hülâgû'nun torunlarından Baydu'yu tahtı ele geçirmeye kışkırttılar. 24 Mart'ta Geyhatu öldürüldü. Baydu'nun saltanatı ise altı ay sürecektir.",
   kaynak:"ilhanlilar" },
@@ -348,7 +348,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   kaynak:"gazan-han", kapsam_genis:true },
 
 { t:"1303-04-20", b:"Dımaşk yenilgisi — Suriye ümidi kesin olarak bitti", tur:"savas",
-  onem:4, dunya:3, kapsam:"dis", etiket:["askeri","toprak-kaybi"],
+  onem:4, dunya:3, kapsam:"dis", etiket:["askeri","toprak-kayip"],
   yer_id:"",
   d:"Moğol ordusuyla Memlük kuvvetleri arasında Dımaşk yakınlarında meydana gelen savaş Memlükler'in zaferiyle neticelendi (2 Ramazan 702 / 20 Nisan 1303). Bu yenilgi İlhanlı'nın Suriye üzerindeki elli yıllık iddiasını fiilen sona erdirdi; Gāzân Han üzüntüsünden yeni bir sefere çıkma imkânı bulamadan öldü. ⚠️ YER HAKKINDA: Dımaşk (Şam) bu atlasın penceresi içinde ama madde İran ardılları dosyasında olduğu için yer_id boş bırakıldı — savaş alanı şehrin kendisi değildir.",
   kaynak:"gazan-han" },
@@ -371,14 +371,14 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   d:"Gāzân Han 11 Şevval 703 (17 Mayıs 1304) tarihinde Kazvin civarında vefat etti. Dokuz yıllık saltanatında İlhanlı'yı bir Moğol işgal idaresinden bir İran-İslâm devletine dönüştürmüş; para, vergi, toprak ve posta düzenini yeniden kurmuştu. Kendisinden sonra gelen hiçbir ilhan bu ölçüde iz bırakmamıştır.",
   kaynak:"gazan-han" },
 
-{ t:"1283-01-01", b:"Tebriz dönemin en önemli ticaret merkezlerinden biri hâline geldi", tur:"iktisat",
-  onem:4, dunya:3, kapsam:"ic", etiket:["iktisat","ticaret","sehircilik"],
+{ t:"1283-01-01", b:"Tebriz dönemin en önemli ticaret merkezlerinden biri hâline geldi", tur:"ekonomi",
+  onem:4, dunya:3, kapsam:"ic", etiket:["ekonomi","ticaret","sehircilik"],
   yer_id:"Tebriz",
   d:"Tebriz, ilk müslüman İlhanlı hükümdarı olan Ahmed Teküder zamanında (1282-1284) dönemin en önemli ticaret merkezlerinden biri hâline geldi. Abaka Han'ın İlhanlı başşehri yaptığı şehir, Arap coğrafyacılarının surları ve camileriyle övdüğü bir merkezdi. İlhanlı'nın İslâmlaşmasıyla ticaretin canlanması aynı yıllara denk gelir. ⚠️ TARİH HAKKINDA: kaynak saltanat aralığını veriyor, gün vermiyor.",
   kaynak:"tebriz" },
 
-{ t:"1295-01-01", b:"Kefe-Trabzon-Tebriz ticaret yolu önem kazandı", tur:"iktisat",
-  onem:3, dunya:3, kapsam:"dis", etiket:["iktisat","ticaret","ulasim","rekabet"],
+{ t:"1295-01-01", b:"Kefe-Trabzon-Tebriz ticaret yolu önem kazandı", tur:"ekonomi",
+  onem:3, dunya:3, kapsam:"dis", etiket:["ekonomi","ticaret","ulasim","rekabet"],
   yer_id:"Tebriz",
   d:"XIII. yüzyıl sonlarına doğru İlhanlı-Altın Orda siyasî rekabeti yüzünden Kefe-Trabzon-Tebriz ticaret yolu önem kazanmaya başladı; daha önce canlı olan İstanbul-Konya-Tebriz ekseninin yerini bu kuzey hattı aldı. 📌 Bir siyasî düşmanlığın ticaret güzergâhını değiştirmesi, Karadeniz'in İtalyan kolonileri için niçin bu kadar kıymetli olduğunu da açıklar. ⚠️ TARİH HAKKINDA: kaynak yüzyıl sonu diyor, yıl vermiyor; madde bir BEYANDIR.",
   kaynak:"tebriz" },
@@ -395,8 +395,8 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   d:"İlhanlı devlet adamı, âlim ve tarihçi Reşîdüddin'in Tebriz'in Vâliyân semtinde yaptırdığı binalar Rab'-ı Reşîdî mahallesini oluşturdu. Burası bir mahalleden çok bir ilim sitesiydi: medreseler, kütüphane, hastahane ve Câmiu't-tevârîh'in her yıl çoğaltıldığı bir istinsah atölyesi. Vakfiyesi, nüshaların düzenli olarak Arapça ve Farsça kopyalanıp İslâm şehirlerine gönderilmesini şart koşuyordu. ⚠️ TARİH HAKKINDA: kaynak kuruluş yılını vermiyor; madde Câmiu't-tevârîh'in tamamlandığı yıllara konuldu ve bu bir tercihtir.",
   kaynak:"tebriz" },
 
-{ t:"1320-06-01", b:"Tebriz üzerinden Avrupa'ya uzanan lüks ticareti", tur:"iktisat",
-  onem:3, dunya:3, kapsam:"dis", etiket:["iktisat","ticaret","kultur"],
+{ t:"1320-06-01", b:"Tebriz üzerinden Avrupa'ya uzanan lüks ticareti", tur:"ekonomi",
+  onem:3, dunya:3, kapsam:"dis", etiket:["ekonomi","ticaret","kultur"],
   yer_id:"Tebriz",
   d:"İlhanlılar'dan itibaren Hint'in baharatı, Çin'in porseleni ve ipekli kumaşları, Deştikıpçak'ın kürkleri, Mâzenderan, Gîlân ve Şirvan'ın ipeği, Hürmüz'ün kıymetli taşları Tebriz'den Türk, İranlı, İtalyan, Rus ve İngiliz tâcirlerince Avrupa'ya ve İslâm ülkelerine ihraç ediliyordu. İtalyan tüccarlarının Tebriz'deki kolonileri bu dönemde görünmeye başlamış; Avrupalı seyyahlar şehri ticarî malların çokluğu bakımından devrin en zengin şehri diye tanıtmışlardır. Sâhibâbâd meydanında ticarethaneler bulunuyor, çevgân ve nevruz gibi sosyal-sportif faaliyetler yapılıyordu. ⚠️ TARİH HAKKINDA: bu bir süreçtir; madde Ebû Said devrinin ortasına konuldu.",
   kaynak:"tebriz" },
@@ -416,7 +416,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   kaynak:"ilhanlilar" },
 
 { t:"1313-01-01", b:"Olcaytu Türbesi (Sultâniye Kümbeti) yapıldı", tur:"mimari",
-  onem:3, dunya:3, kapsam:"ic", etiket:["mimari","sanat","din"],
+  onem:3, dunya:3, kapsam:"ic", etiket:["mimari","kultur","din"],
   yer_id:"Sultâniye",
   d:"Olcaytu'nun Sultâniye'de yaptırdığı türbe İlhanlı sanatının bugüne ulaşan en görkemli eseridir; şehir hânedanın yıkılışından sonra hızla küçülmüş, geriye bu türbe kalmıştır. 🔴 KAYNAK HAKKINDA — AÇIKÇA: TDV'de Sultâniye ŞEHRİ maddesi BULUNAMADI. `sultaniyye` slug'ı HTTP 200 döndürüyor ve başlığı 'SULTÂNİYYE' yazıyor, ama açılan madde MEMLÜK ORDUSUNDAKİ KAPIKULU BİRLİKLERİDİR — şehirle ilgisi yoktur (`CLAUDE.md §4` ② tuzağı, gövde okunarak yakalandı). `sultaniye` · `sultaniye--sehir` · `sultaniyye--sehir` · `sultaniye-sehri` · `olcaytu-turbesi` sluglarının hepsi 302'dir. ⚠️ TARİH HAKKINDA: 1313 yılı bir BEYANDIR, TDV'den alınmamıştır.",
   kaynak:"bulunamadı — TDV'de Sultâniye şehri/Olcaytu Türbesi maddesi yok; beş slug sınandı" },
@@ -454,7 +454,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   kaynak:"ilhanlilar", kapsam_genis:true },
 
 { t:"1327-01-01", b:"Emîr Çoban ve oğlu Herat'ta öldürüldü — Çobanlı ailesinin tasfiyesi", tur:"siyaset",
-  onem:5, dunya:2, kapsam:"ic", etiket:["siyaset","olum","ic-savas"],
+  onem:5, dunya:2, kapsam:"ic", etiket:["siyaset","olum","ic-savas","taht-kavgasi"],
   yer_id:"Herat",
   d:"Ebû Said ile Emîr Çoban'ın arası açıldı; sultan başarılı hizmetler veren Çoban ailesini ihanetle suçlayarak bütün fertlerinin öldürülmesini emretti. Kert Meliki Gıyâseddin, yanına sığınan Melikü'l-ümerâ Emîr Çoban ile oğlu Calav Han'ı ilhanın emriyle öldürtmekte tereddüt göstermedi (727/1327). Ebû Said'i bu karara iten sebep, Emîr Çoban'ın evli kızı Bağdat Hatun'a âşık olmasıydı. ⚠️ Bu madde devletin sonunun anahtarıdır: tasfiye edilen aile yok olmadı, torunu Hasan-ı Kûçek'te dirilerek Çobanlılar'ı kuracaktır.",
   kaynak:"kert" },
@@ -529,7 +529,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   kaynak:"hasan-i-buzurg" },
 
 { t:"1338-06-01", b:"Hasan-ı Büzürg Azerbaycan'ı terk etti — Bağdat'a çekiliş", tur:"toprak-kayip",
-  onem:5, dunya:1, kapsam:"ic", etiket:["toprak-kaybi","siyaset","goc"],
+  onem:5, dunya:1, kapsam:"ic", etiket:["toprak-kayip","siyaset","goc"],
   yer_id:"Bağdat",
   d:"Şehrinev yenilgisinden sonra Azerbaycan'ı terk edip Irâk-ı Acem'e çekilen Hasan-ı Büzürg, burada yeni bir cephe kurmayı denediyse de Hasan-ı Kûçek karşısında yeniden yenildi ve Bağdat'a çekilerek Abaka Han'ın oğlu Şah Cihan Timur'a biat etti. 📌 Celâyirli Devleti'nin Irak merkezli olmasının sebebi bir tercih değil, bu YENİLGİDİR — Azerbaycan'ı kaybettiği için Bağdat'a devlet kurmuştur.",
   kaynak:"hasan-i-buzurg" },
@@ -565,7 +565,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   kaynak:"inculular" },
 
 { t:"1343-01-01", b:"Mesud Şah öldürüldü — İncû hânedanında iç savaşın sonu", tur:"siyaset",
-  onem:3, dunya:1, kapsam:"ic", etiket:["olum","ic-savas"],
+  onem:3, dunya:1, kapsam:"ic", etiket:["olum","ic-savas","taht-kavgasi"],
   yer_id:"Şiraz",
   d:"Şîraz'dan sürülen Mesud Şah Luristan'a gidip Melik Eşref'in kardeşi Yağıbastı ile ittifak yaptı ve onun desteğiyle Şîraz'a girdiyse de 743 (1343) yılında öldürüldü. Şerefeddin Mahmud Şah'ın dört oğlundan geriye yalnız Ebû İshak kalmıştı; Fars artık tek elde toplanmıştı.",
   kaynak:"inculular" },
@@ -595,7 +595,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   kaynak:"serbedariler" },
 
 { t:"1355-01-01", b:"Melik Eşref dönemi kapandı — Çobanlıların Azerbaycan hâkimiyeti sona erdi", tur:"son",
-  onem:5, dunya:2, kapsam:"dis", etiket:["son","hanedan","toprak-kaybi"],
+  onem:5, dunya:2, kapsam:"dis", etiket:["son","hanedan","toprak-kayip"],
   yer_id:"Tebriz",
   d:"Hasan-ı Kûçek'in kardeşi Melik Eşref'in 1343'te başlayan Azerbaycan hâkimiyeti 1355'te sona erdi; Çobanlılar'ın on yedi yıllık Tebriz idaresi böylece kapandı. TDV `tebriz` maddesi şehrin el değiştirme sırasını doğrudan veriyor: 'İlhanlılar'ın ardından Çobanlı, Altın Orda, Muzafferîler ve Celâyirliler'in hâkimiyetine girdi.' ⚠️ Melik Eşref'in sonu için TDV `hasan-i-buzurg` maddesi 1355'i veriyor; Altın Orda Hanı Cânî Beg'in Tebriz'e girişi için ayrı bir gün ARANMADI, bu dosyanın kapsamı dışındadır.",
   kaynak:"hasan-i-buzurg" },
@@ -647,7 +647,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   kaynak:"celayirliler" },
 
 { t:"1393-08-29", b:"Timur Bağdat'ı zaptetti — Celâyirliler Anadolu'ya kaçtı", tur:"isgal",
-  onem:5, dunya:3, kapsam:"dis", etiket:["askeri","toprak-kaybi","isgal"],
+  onem:5, dunya:3, kapsam:"dis", etiket:["askeri","toprak-kayip","isgal"],
   yer_id:"Bağdat",
   d:"Timur'un 1393'ten itibaren Bağdat, Diyarbekir ve el-Cezîre bölgelerini ele geçirmesi Ahmed Celâyir'i önce kaçmaya, sonra Memlük sultanına sığınmaya mecbur etti. 📌 Bu madde `data/olaylar_ek5.js`te de vardır ve bu dosya onu TEKRARLAMAK için değil, Celâyirli tarihinin zincirini kırmamak için taşır — `dunya` puanı ORADAN devralınmıştır.",
   kaynak:"celayirliler" },
@@ -659,7 +659,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   kaynak:"celayirliler" },
 
 { t:"1400-01-01", b:"Ahmed ve Kara Yûsuf Timur'a yenilip Mısır'a kaçtı", tur:"savas",
-  onem:4, dunya:2, kapsam:"dis", etiket:["askeri","toprak-kaybi","ittifak"],
+  onem:4, dunya:2, kapsam:"dis", etiket:["askeri","toprak-kayip","ittifak"],
   yer_id:"Bağdat",
   d:"Ahmed Celâyir, Karakoyunlu Kara Yûsuf ile birlikte Timur'a karşı giriştikleri mücadeleyi kaybedince tekrar Mısır'a kaçtılar (1400). Fakat Timur'dan korkan Mısır hükümdarı onları kabul etmeyince Osmanlı Hükümdarı Yıldırım Bayezid'in yanına gittiler. İki sürgün hükümdarın bu yolculuğu, iki yıl sonra Ankara Ovası'nda iki imparatorluğu karşı karşıya getirecektir.",
   kaynak:"celayirliler" },
@@ -683,7 +683,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   kaynak:"celayirliler" },
 
 { t:"1411-01-01", b:"Şah Veled tahta çıktı — Bağdat Karakoyunlu eline geçti", tur:"toprak-kayip",
-  onem:4, dunya:1, kapsam:"dis", etiket:["hukumdar","toprak-kaybi"],
+  onem:4, dunya:1, kapsam:"dis", etiket:["hukumdar","toprak-kayip"],
   yer_id:"Bağdat",
   d:"Ahmed'in ölümünden sonra Celâyirliler'in başına henüz küçük yaştaki Şah Veled geçti (813/1410-1411) ve ardından Şah Mahmud tahta çıktı (814/1411). Aynı yıl Bağdat Karakoyunlu hâkimiyetine girdi; hânedan artık Hille ve Basra çevresine sıkışmış bir mahallî güçtür.",
   kaynak:"celayirliler" },
@@ -777,7 +777,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   kaynak:"muzafferiler" },
 
 { t:"1357-05-12", b:"Ebû İshak öldürüldü — İncû hânedanı sona erdi", tur:"son",
-  onem:5, dunya:2, kapsam:"dis", etiket:["son","olum","hanedan"],
+  onem:5, dunya:2, kapsam:"dis", etiket:["son","olum","hanedan","taht-kavgasi"],
   yer_id:"Şiraz",
   d:"İsfahan'da Şeyhülislâm Nizâmeddin Asîl'in evine sığınan Ebû İshak, birkaç gün sonra teslim edilip Şîraz'a Mübârizüddin'in yanına gönderildi ve daha önce öldürttüğü Emîr-i Hac Darrâb'ın akrabaları tarafından Mübârizüddin'in huzurunda öldürüldü (21 Cemâziyelevvel 758 / 12 Mayıs 1357). Böylece İncûlular hânedanı tarihe karıştı. Ölümü üzerine başta Hâfız-ı Şîrâzî ve Ubeyd-i Zâkânî olmak üzere şairler mersiyeler yazmıştır — bir hânedanın sonunun İran edebiyatına mersiye olarak geçtiği ender bir örnektir.",
   kaynak:"inculular" },
@@ -789,13 +789,13 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   kaynak:"muzafferiler" },
 
 { t:"1358-01-01", b:"Mübârizüddin Tebriz'i istilâ etti ama elinde tutamadı", tur:"savas",
-  onem:4, dunya:2, kapsam:"dis", etiket:["askeri","toprak","toprak-kaybi"],
+  onem:4, dunya:2, kapsam:"dis", etiket:["askeri","toprak","toprak-kayip"],
   yer_id:"Tebriz",
   d:"Azerbaycan'ı da hâkimiyeti altına almak amacıyla Tebriz'i istilâ eden Mübârizüddin şehri elinde tutmaya muvaffak olamadı ve bölge Celâyirli Şeyh Üveys'in eline geçti. 🔴 TDV `tebriz` maddesinin verdiği el değiştirme sırasının (Çobanlı → Altın Orda → Muzafferî → Celâyirli) üçüncü halkası budur ve süresi bir mevsimden kısadır.",
   kaynak:"muzafferiler" },
 
 { t:"1358-06-01", b:"Şah Şücâ' babasını hal'edip gözlerine mil çektirdi", tur:"hukumdar",
-  onem:5, dunya:1, kapsam:"ic", etiket:["hukumdar","ic-savas","siyaset"],
+  onem:5, dunya:1, kapsam:"ic", etiket:["hukumdar","ic-savas","siyaset","taht-kavgasi"],
   yer_id:"Isfahan",
   d:"Mübârizüddin 759'da (1358) İsfahan'a geldiğinde oğlu Şah Şücâ' tarafından hal'edilerek gözlerine mil çektirildi; önce Fars'taki Kal'a-i Sefîd'e, taraftarlarının onu tekrar tahta çıkarma girişimleri üzerine Kal'a-i Bûm'a sürüldü ve oradaki zindanda öldü (765/1364). Muzafferî hânedanının bütün tarihi bu sahnenin tekrarıdır: iktidar hep aileden birine karşı kazanılır.",
   kaynak:"muzafferiler" },
@@ -813,7 +813,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   kaynak:"muzafferiler" },
 
 { t:"1360-01-01", b:"Muzafferî mimarisi: Kirman, Yezd ve Meybüz'de cami ve medreseler", tur:"mimari",
-  onem:2, dunya:2, kapsam:"ic", etiket:["mimari","sanat","din"],
+  onem:2, dunya:2, kapsam:"ic", etiket:["mimari","kultur","din"],
   yer_id:"Kirman",
   d:"Kirman'daki Mescid-i Câmi' ile Mescid-i Pâminâr, Yezd'deki Mescid-i Ya'kūbî ve Meybüz'deki Medrese-i Alâ (Muzafferiyye) bu dönemin başlıca mimarî eserleridir. TDV, Muzafferî döneminin daha çok hânedan içi kavgalarla geçtiğini ve ilim ile sanatta önemli sayılabilecek ilerleme kaydedilemediğini açıkça yazar — bu yapılar bir yükselişin değil, bir sürekliliğin işaretidir. ⚠️ TARİH HAKKINDA: kaynak yapım yıllarını vermiyor; madde dönemin ortasına konuldu.",
   kaynak:"muzafferiler" },
@@ -922,7 +922,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   kaynak:"serbedariler" },
 
 { t:"1338-07-01", b:"Abdürrezzâk kardeşi Vecîhüddin Mes'ûd tarafından öldürüldü", tur:"hukumdar",
-  onem:4, dunya:1, kapsam:"ic", etiket:["hukumdar","olum","ic-savas"],
+  onem:4, dunya:1, kapsam:"ic", etiket:["hukumdar","olum","ic-savas","taht-kavgasi"],
   yer_id:"Sebzevâr",
   d:"Kurucu Abdürrezzâk bir tartışma esnasında kardeşi Vecîhüddin Mes'ûd tarafından öldürüldü (12 Zilhicce 738 / 1 Temmuz 1338). Serbedârî tarihinin değişmez kalıbı ilk yılında kurulmuştur: elli yıllık hânedanın on iki emîrinden çoğu kendi adamları ya da akrabaları tarafından öldürülecektir.",
   kaynak:"serbedariler" },
@@ -958,7 +958,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   kaynak:"serbedariler" },
 
 { t:"1346-05-01", b:"Muhammed Aytimur dervişlerin tahrikiyle öldürüldü", tur:"hukumdar",
-  onem:3, dunya:1, kapsam:"ic", etiket:["hukumdar","olum","din","ic-savas"],
+  onem:3, dunya:1, kapsam:"ic", etiket:["hukumdar","olum","din","ic-savas","taht-kavgasi"],
   yer_id:"Sebzevâr",
   d:"Mes'ûd'un ölümünden sonra iktidarı kumandanlardan Muhammed Aytimur ele geçirdi, ancak emirliği uzun sürmedi ve Hasan-ı Cûrî'nin müridlerinden bir derviş grubunun tahrikiyle öldürüldü (Muharrem 747 / Mayıs 1346). Şeyhin ölümünden dört yıl sonra bile tarikat kanadının devlet üzerindeki vetosu işlemektedir.",
   kaynak:"serbedariler" },
@@ -969,20 +969,20 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   d:"Aytimur'un ölümünden sonra Serbedârîler'in başına kimin geçeceği konusunda kararsız bir dönem yaşandı; perde arkasında duruma hâkim olan Hâce Şemseddin Ali'nin onayıyla önce Kelû (Kelvâ) İsfendiyâr, sonra Mes'ûd'un kardeşi Şemseddin başa geçirildi ama ikisinin de iktidarı uzun sürmedi. Nihayet Hâce Şemseddin Ali hükümdar olmayı kabul etti (16 Şâban 748 / 21 Kasım 1347).",
   kaynak:"serbedariler" },
 
-{ t:"1348-01-01", b:"İlk bağımsız Serbedârî sikkesi basıldı", tur:"iktisat",
-  onem:5, dunya:2, kapsam:"ic", etiket:["iktisat","mali","siyaset","bagimsizlik"],
+{ t:"1348-01-01", b:"İlk bağımsız Serbedârî sikkesi basıldı", tur:"ekonomi",
+  onem:5, dunya:2, kapsam:"ic", etiket:["ekonomi","mali","siyaset","bagimsizlik"],
   yer_id:"Sebzevâr",
   d:"Hâce Şemseddin Ali emirliğin idarî yapısını güçlendirdi, ekonomik bir reform programı uyguladı ve komşu devletlerle antlaşmalar yaptı. İlk bağımsız Serbedârî sikkesi onun zamanında basıldı (748/1348). 📌 Sikke kesmek İslâm siyaset geleneğinde bağımsızlığın iki alâmetinden biridir; bir isyan hareketinin devlet olduğu an bu tarihtir.",
   kaynak:"serbedariler" },
 
 { t:"1351-01-01", b:"Hâce Şemseddin Ali kendi adamları tarafından öldürüldü", tur:"hukumdar",
-  onem:4, dunya:1, kapsam:"ic", etiket:["hukumdar","olum","ic-savas"],
+  onem:4, dunya:1, kapsam:"ic", etiket:["hukumdar","olum","ic-savas","taht-kavgasi"],
   yer_id:"Sebzevâr",
   d:"Başarılı bir devlet adamı olan Hâce Şemseddin Ali, vergi işlerindeki yolsuzluğu yüzünden cezalandırdığı Haydar b. Kassâb ile Mes'ûd'un eski kumandanlarından Yahyâ Kerrâbî tarafından öldürüldü (752/1351). Hânedanın en yapıcı hükümdarı, yaptığı malî denetimin bedelini hayatıyla ödemiştir.",
   kaynak:"serbedariler" },
 
 { t:"1358-01-01", b:"Emîr Velî Esterâbâd'da kendi adına para bastırdı", tur:"bolunme",
-  onem:3, dunya:1, kapsam:"dis", etiket:["bolunme","toprak-kaybi","mali"],
+  onem:3, dunya:1, kapsam:"dis", etiket:["bolunme","toprak-kayip","mali"],
   yer_id:"Esterâbâd (Gürgân)",
   d:"Mes'ûd'un oğlu Lutfullah döneminde Esterâbâd'ın eski valisinin oğlu Emîr Velî, Serbedârî valisini şehirden kovdu, Haydar b. Kassâb'ın gönderdiği kuvvetleri mağlûp etti ve 759'da (1358) Esterâbâd'da kendi adına para bastırdı; Hasan Dâmegānî'nin gönderdiği yardımcı birlikleri de hezimete uğrattı. Gürgân, Toğa Timur'dan alındıktan on altı yıl sonra yeniden kaybedilmiştir.",
   kaynak:"serbedariler" },
@@ -1000,7 +1000,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   kaynak:"serbedariler" },
 
 { t:"1362-01-01", b:"Hâce Ali b. Müeyyed Sebzevâr'ı ele geçirdi, Hasan Dâmegānî öldürüldü", tur:"hukumdar",
-  onem:4, dunya:1, kapsam:"ic", etiket:["hukumdar","ic-savas","olum"],
+  onem:4, dunya:1, kapsam:"ic", etiket:["hukumdar","ic-savas","olum","taht-kavgasi"],
   yer_id:"Sebzevâr",
   d:"Sebzevârlı bir asilzade olan Hâce Ali b. Müeyyed karışıklıklardan yararlanarak Dâmgan şehrini zaptetti ve Derviş Azîz ile birleşerek Sebzevâr'ı ele geçirdi; askerler ayaklanıp Hasan Dâmegānî'yi öldürdüler (763/1362). Hâce Ali, hânedanın son ve en uzun süre hüküm süren emîridir: yirmi dört yıl.",
   kaynak:"serbedariler" },
@@ -1018,7 +1018,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   kaynak:"serbedariler" },
 
 { t:"1376-01-01", b:"Rükneddin Muzafferî desteğiyle Sebzevâr'ı ele geçirdi", tur:"savas",
-  onem:3, dunya:1, kapsam:"dis", etiket:["askeri","din","toprak-kaybi"],
+  onem:3, dunya:1, kapsam:"dis", etiket:["askeri","din","toprak-kayip"],
   yer_id:"Sebzevâr",
   d:"Derviş Azîz'in halefi Rükneddin, Muzafferîler'in desteğiyle Sebzevâr'ı ele geçirdi (778/1376-77). Bir tarikat kolunun, komşu devletin ordusuyla başşehri alması, Serbedârî devletinin artık kendi içindeki bölünmeyi taşıyamadığını gösterir.",
   kaynak:"serbedariler" },
@@ -1036,7 +1036,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   kaynak:"serbedariler" },
 
 { t:"1386-01-01", b:"Hâce Ali öldürüldü — Serbedârî hânedanı sona erdi", tur:"son",
-  onem:5, dunya:2, kapsam:"ic", etiket:["son","olum","hanedan"],
+  onem:5, dunya:2, kapsam:"ic", etiket:["son","olum","hanedan","taht-kavgasi"],
   yer_id:"Sebzevâr",
   d:"Hâce Ali'nin 788 (1386) yılında öldürülmesiyle Serbedârî hânedanı sona erdi; cesedi Sebzevâr'a nakledilerek burada gömüldü. Serbedârî hâkimiyetindeki topraklar Timur'a hizmet eden birkaç lider arasında bölündü. Bir Moğol memurunun öldürülmesiyle başlayan hareket, kırk dokuz yıl sonra Timurlu düzenine eklemlenerek kapanmıştır.",
   kaynak:"serbedariler" },
@@ -1070,7 +1070,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   kaynak:"kert" },
 
 { t:"1250-01-01", b:"Herat yeniden imar edildi — ilim ve ticaret merkezi oldu", tur:"sehircilik",
-  onem:4, dunya:3, kapsam:"ic", etiket:["sehircilik","iktisat","kultur","imar"],
+  onem:4, dunya:3, kapsam:"ic", etiket:["sehircilik","ekonomi","kultur","imar"],
   yer_id:"Herat",
   d:"Moğol istilâsında yıkılmış olan Herat şehrini tekrar mâmur hâle getiren Şemseddin, ilim adamı, sanatkâr ve tüccarların buraya yerleşmesini teşvik etti; şehir yeniden gelişerek bir kültür ve ticaret merkezi oldu. 📌 Timurlular'ın bir buçuk asır sonra Herat'ı başşehir yapabilmesinin altyapısı bu imarla kurulmuştur — Kert hânedanının en kalıcı mirası bir hânedan değil, bir şehirdir. ⚠️ TARİH HAKKINDA: kaynak imarın yılını vermiyor; madde Şemseddin'in saltanatının erken yıllarına konuldu.",
   kaynak:"kert" },
@@ -1118,7 +1118,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   kaynak:"kert" },
 
 { t:"1381-04-01", b:"Timur Herat'ı işgal etti — Kert hânedanı vasal oldu", tur:"isgal",
-  onem:5, dunya:3, kapsam:"dis", etiket:["askeri","isgal","toprak-kaybi"],
+  onem:5, dunya:3, kapsam:"dis", etiket:["askeri","isgal","toprak-kayip"],
   yer_id:"Herat",
   d:"Son Kert meliki Gıyâseddin Pîr Ali zamanında Herat, Timur tarafından işgal edildi (783/1381). Bir süre hapsedilen Gıyâseddin ve oğlu daha sonra affedildi; Gıyâseddin Pîr Ali, Timur'un vasalı olarak 791 (1389) yılına kadar Herat'ta hüküm sürdü. 📌 Bu madde `data/olaylar_ek5.js`te de kayıtlıdır ve Horasan'ın Timurlu'ya geçişini işaretler.",
   kaynak:"kert" },
@@ -1130,7 +1130,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   kaynak:"kert" },
 
 { t:"1305-01-01", b:"Kal'a-i İhtiyârüddin ve Herat'ın Kert dönemi mimarisi", tur:"mimari",
-  onem:3, dunya:2, kapsam:"ic", etiket:["mimari","sanat","ilim","himaye"],
+  onem:3, dunya:2, kapsam:"ic", etiket:["mimari","kultur","ilim","himaye"],
   yer_id:"Herat",
   d:"Kertler döneminde Herat'ta birçok cami ve medrese yapılmış, âlim ve sanatkârlar, şair ve edipler himaye edilmiştir. Günümüze ulaşan Kal'a-i İhtiyârüddin dönemin başlıca eserlerinden biridir. ⚠️ TARİH HAKKINDA: kaynak kalenin yapım yılını vermiyor; madde hânedanın en müreffeh dönemine konuldu ve bu bir tercihtir.",
   kaynak:"kert" },

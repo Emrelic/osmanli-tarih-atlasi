@@ -157,7 +157,7 @@ window.KRONOLOJI_PORTEKIZ = [
 // ══════════════════════════════════════════════════════════════════
 
 { t:"1498-05-20", b:"Vasco da Gama, Kalikut'a ulaştı — Hindistan'a deniz yolu açıldı", tur:"bilim", onem:5, dunya:5, kapsam:"dis", yer_id:"Kalikut (Kozhikode)",
-  etiket:["bilim","iktisat","toprak-kazanc"],
+  etiket:["bilim","ekonomi","toprak-kazanc"],
   d:"Vasco da Gama komutasındaki dört gemilik filo, Ümit Burnu'nu dolaşıp Doğu Afrika kıyısından pilot alarak Hindistan'ın Kalikut limanına ulaştı. Avrupa ile Hindistan arasında Osmanlı ve Memlük denetimindeki Kızıldeniz-Akdeniz güzergâhına ihtiyaç duymayan bir deniz yolu açıldı; bu, sonraki bir asrın dünya ticaret dengesini yeniden kuracak bir dönüm noktasıdır.",
   kaynak:"TDV `portekiz`: \"1498: Vasco da Gama deniz yoluyla Hindistan'a (Kaliküt) ulaştı\" · `data/kronoloji_memluk.js:308` ile `dunya` birebir hizalı" },
 
@@ -167,7 +167,7 @@ window.KRONOLOJI_PORTEKIZ = [
   kaynak:"standart akademik kronoloji, çapraz doğrulama (kurumun 1500 tarihi ve işlevi çoklu akademik kaynakla teyitli)" },
 
 { t:"1500-03-09", b:"Cabral filosu Hindistan'a yola çıktı, Brezilya'ya rastladı", tur:"toprak-kazanc", onem:5, dunya:4, kapsam:"dis", yer_id:"",
-  etiket:["toprak-kazanc","iktisat"],
+  etiket:["toprak-kazanc","ekonomi"],
   d:"Pedro Álvares Cabral, on üç gemilik bir filoyla Hindistan'a giderken rotası Atlantik'in batısına kaydı ve 22 Nisan 1500'de bugünkü Brezilya kıyısını gördü; toprağı 'Vera Cruz Adası' sanarak Portekiz adına ilhak etti. Tordesillas hattının Brezilya'yı Portekiz payına düşürmesiyle birleşince bu rastlantı, üç asır sürecek bir Güney Amerika sömürgesinin başlangıcı oldu.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama (Britannica, 'Pedro Alvares Cabral'; Encyclopaedia of Portuguese Expansion — FCSH/Universidade Nova de Lisboa, 'The Discovery of Brazil')" },
 
@@ -375,7 +375,7 @@ window.KRONOLOJI_PORTEKIZ = [
   kaynak:"standart akademik kronoloji, çapraz doğrulama (Treaty of Lisbon, 13 Şubat 1668)" },
 
 { t:"1693-01-01", b:"Minas Gerais'te altın bulundu — Brezilya altın çağı başladı", tur:"ekonomi", onem:5, dunya:3, kapsam:"dis", yer_id:"",
-  etiket:["iktisat"],
+  etiket:["ekonomi"],
   d:"São Paulo'dan içerilere sefer düzenleyen bandeirante'ler, bugünkü Ouro Preto çevresinde zengin altın yatakları buldu; haber yayılınca kıyı bölgelerinden binlerce kişi bölgeye akın etti. Brezilya altını, on sekizinci yüzyıl boyunca Portekiz hazinesinin ve Lizbon'un yeniden inşasının başlıca kaynağı olacaktı.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama (Brazilian gold rush, 1693-1695 keşif dönemi)" },
 
@@ -493,7 +493,7 @@ window.KRONOLOJI_PORTEKIZ = [
   kaynak:"standart akademik kronoloji, çapraz doğrulama (1890 British Ultimatum, 11 Ocak 1890)" },
 
 { t:"1908-02-01", b:"Kral I. Carlos ve veliaht suikaste kurban gitti — Lizbon Regicide'i", tur:"kriz", onem:5, dunya:2, kapsam:"ic", yer_id:"Lizbon",
-  etiket:["kriz","hanedan"],
+  etiket:["kriz","hanedan","suikast"],
   d:"Kral I. Carlos ve veliaht Prens Luís Filipe, açık bir arabayla Lizbon'da Terreiro do Paço meydanından geçerken cumhuriyetçi suikastçılar tarafından vurularak öldürüldü. Suikast, monarşinin son iki yılına damgasını vurdu ve genç kardeş II. Manuel'in kısa, kırılgan saltanatını başlattı.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama (Lisbon Regicide, 1 Şubat 1908)" },
 

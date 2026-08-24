@@ -112,7 +112,7 @@ window.KRONOLOJI_MACARISTAN = [
 // ══════════════════════════════════════════════════════════════════
 
 { t:"1290-07-10", b:"IV. (Kun) László'nın kendi Kuman muhafızları tarafından öldürülmesi", tur:"olum", onem:4, dunya:1, kapsam:"ic",
-  etiket:["hanedan","hukumdar"],
+  etiket:["hanedan","hukumdar","suikast"],
   yer_id:"",
   d:"Kral László, Kumanları Hıristiyanlaştırma ve topraklarını sınırlama siyaseti yüzünden kendi eski müttefikleriyle bozuşmuştu; Körösszeg yakınında öldürülmesi Árpád hanedanının çöküş sürecini hızlandırdı. Ardılı III. András ile hanedan on bir yıl sonra tamamen sona erecekti.",
   kaynak:"akademik: Pál Engel, The Realm of St Stephen (2001), s. 106-110 — Kun László'nın Kuman siyaseti ve öldürülmesi", yer_kon:[47.0434,21.6678] },
@@ -182,7 +182,7 @@ window.KRONOLOJI_MACARISTAN = [
   kaynak:"akademik: Engel (2001), s. 195-201" },
 
 { t:"1396-09-25", b:"Niğbolu Savaşı — Haçlı ordusunun bozgunu", tur:"savas", onem:5, dunya:3, kapsam:"dis",
-  etiket:["askeri","toprak-kaybi"],
+  etiket:["askeri","toprak-kayip"],
   yer_id:"",
   d:"Zsigmond'un çağrısıyla toplanan Avrupa haçlı ordusu, Yıldırım Bayezid karşısında Niğbolu'da ağır bir yenilgiye uğradı; Zsigmond kendisi güçlükle kaçabildi. Bozgun, Osmanlı'nın Tuna sınırındaki ilerleyişini artık hiçbir koalisyonun tek seferde durduramayacağını gösterdi ve Macaristan'ı sürekli bir sınır savaşı devletine dönüştürdü.",
   kaynak:"TDV `nigbolu`: Niğbolu Savaşı'nın Haçlı ordusunun bozgunuyla sonuçlandığı ve Zsigmond'un canını güçlükle kurtardığı anlatılır", yer_id:"Niğbolu" },
@@ -246,7 +246,7 @@ window.KRONOLOJI_MACARISTAN = [
   kaynak:"TDV `izladi`: İzladi Geçidi Muharebesi'nin Hunyadi'nin Uzun Sefer'i sırasında yaşandığı anlatılır", yer_id:"Belgrad" },
 
 { t:"1444-11-10", b:"Varna Savaşı — Macar-Leh Kralı I. Ulászló'nun ölümü", tur:"savas", onem:5, dunya:4, kapsam:"dis",
-  etiket:["askeri","hukumdar","toprak-kaybi"],
+  etiket:["askeri","hukumdar","toprak-kayip"],
   yer_id:"Varna",
   d:"Edirne-Segedin barışını bozup yenilenen haçlı seferi, II. Murad'ın ordusu karşısında Varna'da tam bir bozgunla sonuçlandı; genç kral Ulászló savaş alanında öldürüldü. Yenilgi, Osmanlı'nın Balkanlar'daki konumunu on yıllarca kalıcı hâle getirdi ve Macaristan'ı bir kez daha naiplik idaresine (Hunyadi'nin valiliğine) soktu.",
   kaynak:"TDV `varna`: Varna Savaşı'nın Osmanlı zaferiyle sonuçlandığı, Macar-Leh Kralı I. Ulászló'nun savaş meydanında öldürüldüğü anlatılır" },
@@ -258,7 +258,7 @@ window.KRONOLOJI_MACARISTAN = [
   kaynak:"akademik: Engel (2001), s. 293-295", yer_id:"Peşte" },
 
 { t:"1448-10-17", b:"İkinci Kosova Savaşı", tur:"savas", onem:5, dunya:3, kapsam:"dis",
-  etiket:["askeri","toprak-kaybi"],
+  etiket:["askeri","toprak-kayip"],
   yer_id:"",
   d:"Hunyadi'nin komutasındaki haçlı ordusu, II. Murad karşısında üç gün süren savaşta ağır biçimde yenildi; Sırp Despotu Brankoviç'in tarafsız kalması Hunyadi'nin geri çekilişini daha da zorlaştırdı. Bozgun, Balkanlar'da büyük ölçekli bir haçlı seferinin son ciddi girişimi oldu.",
   kaynak:"TDV `kosova`: İkinci Kosova Savaşı'nın Osmanlı zaferiyle sonuçlandığı, Hunyadi'nin ordusunun dağıldığı anlatılır", yer_kon:[42.63,21.12] },
@@ -276,7 +276,7 @@ window.KRONOLOJI_MACARISTAN = [
   kaynak:"akademik: Engel (2001), s. 297-298", yer_kon:[44.8433,20.4004], yer_id:"Belgrad" },
 
 { t:"1457-03-16", b:"László Hunyadi'nin idamı — V. László'nun tertibi", tur:"darbe", onem:4, dunya:1, kapsam:"ic",
-  etiket:["hukumdar","darbe"],
+  etiket:["hukumdar","darbe","darbe-siyasi"],
   yer_id:"",
   d:"Genç Kral V. László, kendisine karşı gördüğü Hunyadi ailesinin gücünü kırmak için büyük oğul László Hunyadi'yi tuzağa düşürüp idam ettirdi; küçük kardeş Mátyás da tutuklandı. Bu şiddet, bir yıl sonra Mátyás'ın kral seçilmesinin zeminini hazırlayan halk desteğini doğurdu.",
   kaynak:"akademik: Engel (2001), s. 298-300", yer_id:"Budin" },
@@ -380,13 +380,13 @@ window.KRONOLOJI_MACARISTAN = [
   kaynak:"akademik: Engel (2001), s. 358-360" },
 
 { t:"1521-08-29", b:"Nándorfehérvár'ın (Belgrad) Osmanlı'ya düşmesi", tur:"toprak-kayip", onem:5, dunya:3, kapsam:"dis",
-  etiket:["askeri","toprak-kaybi"],
+  etiket:["askeri","toprak-kayip"],
   yer_id:"Belgrad",
   d:"Kanuni Sultan Süleyman'ın kişisel komutasındaki ordu, 1456'da Hunyadi'nin savunduğu Belgrad'ı altmış beş yıl sonra ele geçirdi; Macaristan'ın güney sınırındaki en güçlü kalesinin kaybı, Budin'e giden yolu açtı ve beş yıl sonraki Mohaç faciasının zeminini hazırladı.",
   kaynak:"TDV `kanuni-sultan-suleyman`: 1521'de Belgrad'ın fethedildiği, bunun Macaristan seferlerinin önünü açtığı anlatılır" },
 
 { t:"1526-08-29", b:"Mohaç Meydan Savaşı — bağımsız Macar krallığının sonu", tur:"son", onem:5, dunya:5, kapsam:"dis",
-  etiket:["askeri","hanedan","toprak-kaybi","son"],
+  etiket:["askeri","hanedan","toprak-kayip","son"],
   yer_id:"Mohaç",
   d:"Kanuni Sultan Süleyman'ın ordusu, II. Lajos'un komutasındaki Macar ordusunu iki saatten kısa bir sürede yok etti; kral, savaş alanından kaçarken bir bataklıkta boğularak öldü, Macar soylu ve din adamlarının büyük bölümü savaş meydanında can verdi. Bu yenilgiyle 895'ten beri süregelen bağımsız Macar krallığı fiilen sona erdi ve ülke üç asır sürecek bir bölünme ve yabancı hâkimiyeti dönemine girdi.",
   kaynak:"TDV `mohac`: II. Lajos'un ordusunun ağır bir bozguna uğradığı, kralın kaçarken öldüğü, Macaristan'ın bu yenilgiyle merkezî otoritesini yitirdiği anlatılır · depo savaslar.js (1526-08-29)" },
@@ -420,7 +420,7 @@ window.KRONOLOJI_MACARISTAN = [
   kaynak:"akademik: Engel (2001), s. 366", yer_kon:[45.9589,23.5686] },
 
 { t:"1541-08-29", b:"Budin'in Osmanlı tarafından fethi — ülkenin üçe bölünmesi", tur:"bolunme", onem:5, dunya:3, kapsam:"dis",
-  etiket:["askeri","toprak-kaybi","bolunme"],
+  etiket:["askeri","toprak-kayip","bolunme"],
   yer_id:"Budin",
   d:"Kanuni Sultan Süleyman, Budin'i kuşatma bahanesiyle ele geçirip doğrudan Osmanlı eyaleti hâline getirdi; ülke bundan böyle üç ayrı siyasî varlığa bölündü — merkezde Osmanlı Budin Eyaleti, batı ve kuzeyde Habsburg'a bağlı Kraliyet Macaristanı, doğuda Osmanlı vasalı Erdel Prensliği. Bu bölünme 1699'a kadar 158 yıl sürecekti ve Macar tarihinde en derin travmalardan biri sayılır.",
   kaynak:"TDV `budin`: Budin'in 1541'de Osmanlı eyaleti hâline getirildiği, Macaristan'ın bu tarihten sonra üç kesime ayrıldığı anlatılır" },
@@ -508,7 +508,7 @@ window.KRONOLOJI_MACARISTAN = [
   kaynak:"akademik: Kontler (2002), s. 160-161", kapsam_genis:true },
 
 { t:"1660-08-27", b:"Nagyvárad'ın Osmanlı'ya düşmesi", tur:"toprak-kayip", onem:4, dunya:2, kapsam:"dis",
-  etiket:["askeri","toprak-kaybi"],
+  etiket:["askeri","toprak-kayip"],
   yer_id:"",
   d:"Rákóczi'nin Lehistan felaketinin ardından Osmanlı, Erdel'in en önemli batı kalesi Nagyvárad'ı doğrudan ilhak etti; kayıp, Erdel'in özerkliğinin fiilen sona erme sürecinin bir başka aşamasıydı.",
   kaynak:"akademik: Kontler (2002), s. 161", yer_id:"Varad (Oradea)" },
@@ -532,7 +532,7 @@ window.KRONOLOJI_MACARISTAN = [
   kaynak:"akademik: Kontler (2002), s. 165-166 — depo: `data/yerlesimler_ek_macaristan.js`'te Kassa/Eperjes/Tokaj için 1682-09-16→1685-10-15 v: dönemi (Orta Macar Krallığı) tanımlı" },
 
 { t:"1685-10-15", b:"Thököly'nin Kassa'yı kaybetmesi ve Orta Macar Krallığı'nın çöküşü", tur:"toprak-kayip", onem:4, dunya:2, kapsam:"ic",
-  etiket:["askeri","toprak-kaybi"],
+  etiket:["askeri","toprak-kayip"],
   yer_id:"Kassa (Košice)",
   d:"1683 Viyana bozgunundan sonra Habsburg karşı taarruzu, Thököly'nin vasal krallığını hızla çözdü; Kassa'nın kaybıyla Orta Macar Krallığı fiilen sona erdi ve Kuruc hareketi bir sonraki on yılda Rákóczi ailesine (II. Ferenc) miras kalacak bir direniş geleneğine dönüştü.",
   kaynak:"akademik: Kontler (2002), s. 166" },
@@ -584,7 +584,7 @@ window.KRONOLOJI_MACARISTAN = [
   kaynak:"akademik: Kontler (2002), s. 171" },
 
 { t:"1707-06-13", b:"Ónod Diyeti — Habsburg hanedanının tahttan indirildiğinin ilanı", tur:"kanun", onem:4, dunya:2, kapsam:"ic",
-  etiket:["kanun","isyan"],
+  etiket:["kanun","isyan","darbe-siyasi"],
   yer_id:"", kapsam_genis:true,
   d:"Rákóczi'nin çağırdığı Diyet, Habsburg hanedanını Macar tahtından resmen 'hal' etti; ancak bu radikal adım, ılımlı soyluların bir kısmını harekete küstürdü ve savaşın malî-siyasî temelini de zayıflattı.",
   kaynak:"akademik: Kontler (2002), s. 171-172", yer_kon:[48.1,20.9333] },
@@ -636,7 +636,7 @@ window.KRONOLOJI_MACARISTAN = [
   kaynak:"akademik: Evans (2006), s. 180-181" },
 
 { t:"1735-06-22", b:"Selmecbánya Maden Akademisi'nin kurulması", tur:"kurulus", onem:4, dunya:2, kapsam:"ic",
-  etiket:["bilim","egitim","ekonomi"],
+  etiket:["bilim","egitim","ekonomi","islahat"],
   yer_id:"",
   d:"Habsburg idaresi, Avrupa'nın en zengin gümüş-altın madenlerinden birine sahip Selmecbánya'da (bugünkü Banská Štiavnica, Slovakya) bir maden okulu kurdu; 1770'te 'Bergakademie' olarak yeniden yapılandırılan kurum, dünyanın ilk teknik yükseköğretim akademilerinden biri sayılır ve maden mühendisliği eğitiminde Avrupa çapında model oldu.",
   kaynak:"akademik: Evans (2006), s. 200-201", yer_kon:[48.4585,18.8945] },
@@ -700,7 +700,7 @@ window.KRONOLOJI_MACARISTAN = [
   kaynak:"akademik: Kontler (2002), s. 217" },
 
 { t:"1837-08-22", b:"Pesti Nemzeti Színház'ın (Ulusal Tiyatro) açılışı", tur:"kultur", onem:3, dunya:1, kapsam:"ic",
-  etiket:["kultur","sanat"],
+  etiket:["kultur","kultur"],
   yer_id:"Peşte",
   d:"Pest'te açılan tiyatro, Macarca dilinde profesyonel drama sanatının ilk kalıcı kurumsal merkeziydi; Reform Çağı'nın kültürel milliyetçilik projesinin görünür simgelerinden biri oldu.",
   kaynak:"akademik: Kontler (2002), s. 217-218" },
@@ -712,7 +712,7 @@ window.KRONOLOJI_MACARISTAN = [
   kaynak:"akademik: Kontler (2002), s. 218-219" },
 
 { t:"1844-07-02", b:"'Himnusz'un (Macar millî marşı) bestelenmesi", tur:"kultur", onem:3, dunya:1, kapsam:"ic",
-  etiket:["kultur","sanat"],
+  etiket:["kultur","kultur"],
   yer_id:"Peşte",
   d:"Kölcsey Ferenc'in 1823 tarihli şiiri, Erkel Ferenc'in açtığı bir yarışmayı kazanan bestesiyle müziğe uyarlandı; eser 1903'te resmen millî marş kabul edilecek, bugün de Macaristan'ın millî marşı olarak kullanılmaya devam edecekti.",
   kaynak:"akademik: Kontler (2002), s. 219" },
@@ -742,7 +742,7 @@ window.KRONOLOJI_MACARISTAN = [
   kaynak:"akademik: Kontler (2002), s. 229" },
 
 { t:"1849-04-14", b:"Debrecen'de Habsburg hanedanının hal'i ve bağımsızlığın ilanı", tur:"son", onem:5, dunya:2, kapsam:"ic",
-  etiket:["son","isyan","hukumdar"],
+  etiket:["son","isyan","hukumdar","darbe-siyasi"],
   yer_id:"",
   d:"Debrecen'e sığınan Macar Meclisi, Kossuth Lajos'un önerisiyle Habsburg hanedanını tahttan indirdiğini ve Macaristan'ın bağımsız bir devlet olduğunu ilan etti; Kossuth 'kormányzó-elnök' (naip-başkan) seçildi. Bu radikal adım uluslararası tanınma getirmedi ve Rus askerî müdahalesini kaçınılmaz kıldı.",
   kaynak:"akademik: Kontler (2002), s. 230-231 — bkz. `kronoloji_habsburg.js` aynı tarih, dunya:2 (BİREBİR aynı olay)", yer_kon:[47.5316,21.6273] },
@@ -834,7 +834,7 @@ window.KRONOLOJI_MACARISTAN = [
   kaynak:"akademik: Kontler (2002), s. 247-248", yer_kon:[47.4979,19.0402] },
 
 { t:"1868-11-01", b:"Magyar Államvasutak'ın (MÁV, Macar Devlet Demiryolları) kurulması", tur:"kurulus", onem:3, dunya:1, kapsam:"ic",
-  etiket:["ekonomi","kurulus"],
+  etiket:["ekonomi","kurulus","islahat"],
   yer_id:"Peşte",
   d:"Ausgleich sonrası hızlı sanayileşme siyasetinin parçası olarak kurulan devlet demiryolu şirketi, izleyen kırk yılda Macaristan'ı Orta Avrupa'nın en yoğun demiryolu ağlarından birine kavuşturacaktı; Budapeşte, ağın Doğu-Batı ticaretindeki merkezi konumunu bu dönemde kazandı.",
   kaynak:"akademik: Kontler (2002), s. 248-249" },
@@ -852,7 +852,7 @@ window.KRONOLOJI_MACARISTAN = [
   kaynak:"akademik: Kontler (2002), s. 250" },
 
 { t:"1875-11-14", b:"Liszt Ferenc Zeneakademisi'nin (Müzik Akademisi) kurulması", tur:"kurulus", onem:3, dunya:1, kapsam:"ic",
-  etiket:["kultur","sanat","bilim"],
+  etiket:["kultur","kultur","bilim"],
   yer_id:"Peşte",
   d:"Besteci Liszt Ferenc'in başkanlığında Budapeşte'de kurulan akademi, kısa sürede Bartók Béla ve Kodály Zoltán gibi 20. yüzyıl bestecilerini yetiştirecek, Macar müzik geleneğinin ulusal ve uluslararası kurumsal merkezi hâline gelecekti.",
   kaynak:"akademik: Kontler (2002), s. 251" },
@@ -876,7 +876,7 @@ window.KRONOLOJI_MACARISTAN = [
   kaynak:"akademik: Kontler (2002), s. 256" },
 
 { t:"1896-05-02", b:"Macar Millî Bin Yılı (Millennium) sergisinin açılışı", tur:"kultur", onem:4, dunya:1, kapsam:"ic",
-  etiket:["kultur","sanat"],
+  etiket:["kultur","kultur"],
   yer_id:"Peşte",
   d:"Macar kabile beylerinin Karpat Havzası'na girişinin (Honfoglalás, 896) bininci yılını kutlamak için Városliget'te (Kent Parkı) düzenlenen dev sergi ve şenlik, Ausgleich sonrası dönemin millî özgüveninin en görkemli sahnelenişiydi; sergi kompleksi bugünkü Hősök tere (Kahramanlar Meydanı) ve Vajdahunyad Kalesi'ni doğurdu.",
   kaynak:"akademik: Kontler (2002), s. 255-256" },

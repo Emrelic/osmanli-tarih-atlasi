@@ -106,7 +106,7 @@ window.KRONOLOJI_LEHISTAN = [
   kaynak:"el-kitabi", yer_kon:[52.535,17.583] },
 
 { t:"1296-02-08", b:"II. Przemysł Rogoźno'da suikastle öldürüldü", tur:"son",
-  onem:3, dunya:1, kapsam:"ic", etiket:["siyaset"],
+  onem:3, dunya:1, kapsam:"ic", etiket:["siyaset","suikast"],
   yer_id:"",
   d:"Taç giymesinin üzerinden yedi ay geçmeden öldürülmesi birleşme girişimini yarıda kesti; taht yeniden Bohemya ile Piast kolları arasında çekişme konusu oldu.",
   kaynak:"el-kitabi", yer_kon:[52.749,16.9997] },
@@ -124,7 +124,7 @@ window.KRONOLOJI_LEHISTAN = [
   kaynak:"el-kitabi" },
 
 { t:"1308-11-13", b:"Töton Şövalyeleri Gdańsk'ı aldı — Pomerelya'nın kaybı", tur:"toprak-kayip",
-  onem:5, dunya:2, kapsam:"dis", etiket:["toprak-kaybi","savas"],
+  onem:5, dunya:2, kapsam:"dis", etiket:["toprak-kayip","savas"],
   yer_id:"Gdansk",
   d:"Yardıma çağrılan Töton Şövalyeleri şehre girip Polonya'nın Baltık'a açılan tek kapısını kendi topraklarına kattı. Bu kayıp, Polonya tarihyazımında iki yüzyıl sürecek Töton meselesinin başlangıcı sayılır ve denize çıkışın kapanması ülkenin en büyük stratejik yarası olarak anlatılır.",
   kaynak:"el-kitabi" },
@@ -166,7 +166,7 @@ window.KRONOLOJI_LEHISTAN = [
   kaynak:"el-kitabi", yer_kon:[51.762,18.0922] },
 
 { t:"1364-05-12", b:"Krakov Akademisi kuruldu", tur:"kurulus",
-  onem:4, dunya:1, kapsam:"ic", etiket:["kultur-sanat"],
+  onem:4, dunya:1, kapsam:"ic", etiket:["kultur"],
   yer_id:"Krakov",
   d:"Orta Avrupa'nın Prag'dan sonraki en eski üniversitesi kuruldu; 1400'de Jagiellon vakfıyla yeniden canlandırıldı. Kopernik'i yetiştiren kurum olarak Polonya kültürel anlatısının merkezindedir.",
   kaynak:"el-kitabi" },
@@ -275,7 +275,7 @@ window.KRONOLOJI_LEHISTAN = [
   kaynak:"varna-muharebesi", yer_id:"Segedin (Szeged)" },
 
 { t:"1444-11-10", b:"VARNA MUHAREBESİ — Kral III. Władysław savaş alanında öldü", tur:"savas",
-  onem:5, dunya:4, kapsam:"dis", etiket:["savas","toprak-kaybi"],
+  onem:5, dunya:4, kapsam:"dis", etiket:["savas","toprak-kayip"],
   yer_id:"Varna",
   d:"II. Murad kumandasındaki Osmanlı ordusu haçlı ordusunu bozguna uğrattı; beş yüz atlıyla Osmanlı ordugâhına yüklenen genç kral atının düşmesi üzerine yeniçeriler tarafından öldürüldü. Polonya hafızasında \"Varnalı Władysław\" (Warneńczyk), Hristiyanlık uğruna ölen kral olarak anılır; cesedi hiç bulunamadığı için etrafında yüzyıllarca efsane dolaştı.",
   kaynak:"varna-muharebesi" },
@@ -317,7 +317,7 @@ window.KRONOLOJI_LEHISTAN = [
   kaynak:"kili" },
 
 { t:"1484-08-03", b:"Akkirman'ın Osmanlılarca alınması — Karadeniz kapısı kapandı", tur:"toprak-kayip",
-  onem:4, dunya:3, kapsam:"dis", etiket:["savas","toprak-kaybi"],
+  onem:4, dunya:3, kapsam:"dis", etiket:["savas","toprak-kayip"],
   yer_id:"Akkirman",
   d:"Dinyester ağzındaki Akkirman'ın düşmesiyle Polonya'nın Karadeniz'e çıkan ticaret yolu fiilen kapandı. Lviv üzerinden akan doğu ticareti sarsıldı ve krallık dikkatini Baltık'a çevirdi.",
   kaynak:"akkirman" },
@@ -371,7 +371,7 @@ window.KRONOLOJI_LEHISTAN = [
   kaynak:"polonya", yer_id:"İstanbul" },
 
 { t:"1543-01-01", b:"Kopernik'in 'De revolutionibus'u basıldı", tur:"kurulus",
-  onem:4, dunya:5, kapsam:"ic", etiket:["kultur-sanat"],
+  onem:4, dunya:5, kapsam:"ic", etiket:["kultur"],
   yer_id:"",
   d:"Krakov Akademisi'nde okumuş Mikołaj Kopernik'in güneş merkezli evren modeli ölüm yılında yayımlandı. Polonya kültürel anlatısında ülkenin dünya bilimine yaptığı en büyük katkı olarak anılır.",
   kaynak:"el-kitabi", yer_kon:[49.4521,11.0767] },
@@ -450,7 +450,7 @@ window.KRONOLOJI_LEHISTAN = [
   kaynak:"el-kitabi", yer_kon:[56.8608,24.3564] },
 
 { t:"1606-01-01", b:"Zebrzydowski rokoşu — soyluların krala karşı ayaklanması", tur:"isyan",
-  onem:3, dunya:1, kapsam:"ic", etiket:["ayaklanma","siyaset"],
+  onem:3, dunya:1, kapsam:"ic", etiket:["isyan","siyaset"],
   yer_id:"",
   d:"Kralın yetkisini artırma girişimine karşı soylular silahlı direniş hakkını kullandı. Ayaklanma bastırıldı ama kralın güçlenme çabası bir daha ciddi biçimde denenemedi.",
   kaynak:"el-kitabi", yer_kon:[50.6821,21.75] },
@@ -492,7 +492,7 @@ window.KRONOLOJI_LEHISTAN = [
   kaynak:"el-kitabi", yer_kon:[55.31,34.48] },
 
 { t:"1648-05-16", b:"Hmelnitski ayaklanması başladı — Sarı Sular", tur:"isyan",
-  onem:5, dunya:4, kapsam:"ic", etiket:["ayaklanma","savas"],
+  onem:5, dunya:4, kapsam:"ic", etiket:["isyan","savas"],
   yer_id:"",
   d:"Kazak hatmanı Bohdan Hmelnitski'nin Kırım Tatarlarıyla ittifak kurarak başlattığı ayaklanma, Sarı Sular'da bir Polonya kuvvetini imha etti ve on gün sonra Korsun'da ordunun ana gövdesini yok etti. Polonya tarihyazımı bu tarihi altın çağın bittiği an olarak alır: cumhuriyet bir daha eski gücüne dönemedi.",
   kaynak:"kazaklar", yer_kon:[48.35,33.5] },
@@ -510,25 +510,25 @@ window.KRONOLOJI_LEHISTAN = [
   kaynak:"el-kitabi" },
 
 { t:"1654-01-18", b:"Pereyaslav Andı — Kazaklar Moskova himayesine geçti", tur:"toprak-kayip",
-  onem:5, dunya:4, kapsam:"dis", etiket:["toprak-kaybi","diplomasi"],
+  onem:5, dunya:4, kapsam:"dis", etiket:["toprak-kayip","diplomasi"],
   yer_id:"",
   d:"Hmelnitski ve Kazak meclisi Moskova çarına bağlılık yemini etti. Polonya için bu, Ukrayna'nın kaybının ve Rusya'nın Avrupa siyasetine kalıcı biçimde girişinin başlangıcıdır; sonraki üç yüzyılın kuzeydoğu meselesi buradan doğar.",
   kaynak:"ukrayna", yer_kon:[50.0667,31.45] },
 
 { t:"1655-07-25", b:"POTOP — İsveç Tufanı başladı", tur:"isgal",
-  onem:5, dunya:3, kapsam:"dis", etiket:["savas","toprak-kaybi"],
+  onem:5, dunya:3, kapsam:"dis", etiket:["savas","toprak-kayip"],
   yer_id:"", kapsam_genis:true,
   d:"İsveç orduları kuzeyden girdi, Ujście'de Büyük Polonya soyluları teslim oldu ve birkaç ay içinde Varşova ile Krakov dâhil ülkenin neredeyse tamamı işgal edildi. \"Tufan\" (Potop) adı Polonya hafızasında bir felaketin değil, bir milletin yok olma eşiğinden dönüşünün adıdır; Sienkiewicz'in romanıyla ulusal anlatının merkezine yerleşmiştir.",
   kaynak:"el-kitabi", yer_kon:[52.9886,16.7211] },
 
 { t:"1655-11-18", b:"Jasna Góra savunması — direnişin dönüm noktası", tur:"savas",
-  onem:5, dunya:1, kapsam:"ic", etiket:["savas","ayaklanma"],
+  onem:5, dunya:1, kapsam:"ic", etiket:["savas","isyan"],
   yer_id:"",
   d:"Częstochowa'daki Jasna Góra manastırı, küçük bir kuvvetle kırk günlük İsveç kuşatmasına dayandı. Polonya anlatısında bu savunma askerî bir olaydan çok manevî bir dönüm noktasıdır: ertesi yıl kral, Meryem'i \"Polonya Kraliçesi\" ilan etti ve direniş ülke geneline yayıldı.",
   kaynak:"el-kitabi", yer_kon:[50.8118,19.1203] },
 
 { t:"1657-09-19", b:"Wehlau Antlaşması — Prusya Düklüğü tâbiyetten çıktı", tur:"antlasma",
-  onem:5, dunya:4, kapsam:"dis", etiket:["antlasma","toprak-kaybi"],
+  onem:5, dunya:4, kapsam:"dis", etiket:["antlasma","toprak-kayip"],
   yer_id:"",
   d:"İsveç'e karşı destek almak için Brandenburg elektörünün Prusya Düklüğü üzerindeki tâbiyeti kaldırıldı. Polonya tarihyazımı bunu tufanın en pahalı bedeli sayar: 1525'te diz çöken hanedan artık egemendi ve bir buçuk asır sonra Polonya'yı bölecek devletlerden birine dönüşecekti.",
   kaynak:"el-kitabi", yer_kon:[54.6167,21.2167] },
@@ -540,7 +540,7 @@ window.KRONOLOJI_LEHISTAN = [
   kaynak:"el-kitabi" },
 
 { t:"1667-01-30", b:"Andrusovo Mütarekesi — Ukrayna Dinyeper'den ikiye bölündü", tur:"antlasma",
-  onem:5, dunya:4, kapsam:"dis", etiket:["antlasma","toprak-kaybi"],
+  onem:5, dunya:4, kapsam:"dis", etiket:["antlasma","toprak-kayip"],
   yer_id:"",
   d:"Smolensk, Çernigov ve Dinyeper'in sol yakası ile Kiev Moskova'ya bırakıldı. Polonya için bu, doğudaki üstünlüğün kesin olarak Rusya'ya geçtiği belgedir; Deulino'da çizilen sınır kalıcı biçimde geri alındı.",
   kaynak:"el-kitabi", yer_kon:[54.2906,31.5092] },
@@ -552,7 +552,7 @@ window.KRONOLOJI_LEHISTAN = [
   kaynak:"el-kitabi" },
 
 { t:"1672-08-27", b:"KAMANİÇE DÜŞTÜ — Podolya Osmanlı'ya geçti", tur:"toprak-kayip",
-  onem:5, dunya:3, kapsam:"dis", etiket:["toprak-kaybi","savas"],
+  onem:5, dunya:3, kapsam:"dis", etiket:["toprak-kayip","savas"],
   yer_id:"Kamaniçe",
   d:"Dokuz günlük kuşatmanın ardından Avrupa'nın en güçlü kalelerinden sayılan Kamaniçe Osmanlılara teslim oldu (3 Cemâziyelevvel 1083). Polonya anlatısında bu, Hristiyan Avrupa'nın kalkanı olma iddiasının en ağır yarası ve cumhuriyetin savunamaz hâle geldiğinin kanıtıdır.",
   kaynak:"kamanice" },
@@ -561,7 +561,7 @@ window.KRONOLOJI_LEHISTAN = [
 // sonucu. Ayrı bir "dönüm noktası" iddiası kaynakla savunulamayacağı için
 // bilerek 4'te tutuldu (şartname: 5 verilen her madde SINANABİLİR olmalı).
 { t:"1672-10-18", b:"Bucaş Antlaşması — haraç şartı ve Podolya'nın terki", tur:"antlasma",
-  onem:4, dunya:2, kapsam:"dis", etiket:["antlasma","toprak-kaybi"],
+  onem:4, dunya:2, kapsam:"dis", etiket:["antlasma","toprak-kayip"],
   yer_id:"",
   d:"Podolya Osmanlı'ya bırakıldı ve cumhuriyete yıllık ödeme şartı kondu. Polonya tarihyazımında Bucaş, bir Avrupa devletinin haraçgüzar sayılmasını kabul ettiği için ulusal onur meselesi hâline geldi; sejm antlaşmayı onaylamayı reddetti ve savaş sürdü.",
   kaynak:"kamanice", yer_kon:[49.0667,25.4] },
@@ -660,7 +660,7 @@ window.KRONOLOJI_LEHISTAN = [
   kaynak:"el-kitabi" },
 
 { t:"1768-02-29", b:"Bar Konfederasyonu — Rus vesayetine karşı ilk silahlı direniş", tur:"isyan",
-  onem:5, dunya:3, kapsam:"ic", etiket:["ayaklanma","savas"],
+  onem:5, dunya:3, kapsam:"ic", etiket:["isyan","savas"],
   yer_id:"Bar (Podolya)",
   d:"Rus müdahalesine ve dayatılan din eşitliği yasasına karşı ayaklanan soylular dört yıl süren bir direniş yürüttü. Polonya tarihyazımı Bar'ı ilk ulusal ayaklanma sayar; bastırılması doğrudan birinci taksime yol açtı.",
   kaynak:"el-kitabi" },
@@ -678,13 +678,13 @@ window.KRONOLOJI_LEHISTAN = [
   kaynak:"polonya" },
 
 { t:"1772-08-05", b:"BİRİNCİ TAKSİM — Rusya, Prusya ve Avusturya toprak aldı", tur:"toprak-kayip",
-  onem:5, dunya:4, kapsam:"dis", etiket:["toprak-kaybi","antlasma"],
+  onem:5, dunya:4, kapsam:"dis", etiket:["toprak-kayip","antlasma"],
   yer_id:"", kapsam_genis:true,
   d:"Üç komşu devlet, cumhuriyetin yaklaşık üçte birini ve nüfusunun üçte birini aralarında paylaştı; sejm baskı altında paylaşımı onaylamak zorunda kaldı. Polonya anlatısında birinci taksim, hem bir felaket hem de reform hareketini doğuran sarsıntıdır: kaybın ardından ülke kendini kurtarmak için köklü değişime girişti.",
   kaynak:"el-kitabi", yer_id:"St. Petersburg" },
 
 { t:"1773-10-14", b:"Millî Eğitim Komisyonu kuruldu", tur:"kurulus",
-  onem:4, dunya:2, kapsam:"ic", etiket:["kultur-sanat","siyaset"],
+  onem:4, dunya:2, kapsam:"ic", etiket:["kultur","siyaset"],
   yer_id:"Varşova",
   d:"Cizvit tarikatının lağvedilmesiyle boşalan okullar ve gelirler tek bir devlet kuruluşuna devredildi. Polonya tarihyazımı bunu dünyanın ilk millî eğitim bakanlığı sayar ve taksim sonrası dirilişin en somut kurumu olarak anlatır.",
   kaynak:"el-kitabi" },
@@ -696,7 +696,7 @@ window.KRONOLOJI_LEHISTAN = [
   kaynak:"el-kitabi" },
 
 { t:"1791-05-03", b:"3 MAYIS ANAYASASI — Avrupa'nın ilk yazılı anayasası", tur:"siyaset",
-  onem:5, dunya:4, kapsam:"ic", etiket:["siyaset"],
+  onem:5, dunya:4, kapsam:"ic", etiket:["siyaset","islahat"],
   yer_id:"Varşova",
   d:"Liberum veto kaldırıldı, taht irsî hâle getirildi, şehirliler ve köylüler devletin koruması altına alındı. Polonya ulusal anlatısında 3 Mayıs, ülkenin kendi kendini kurtarma iradesinin en yüksek ifadesidir; Avrupa'nın ilk, dünyanın ise Amerika'dan sonraki ikinci yazılı anayasası sayılır ve bugün millî bayramdır.",
   kaynak:"el-kitabi" },
@@ -708,31 +708,31 @@ window.KRONOLOJI_LEHISTAN = [
   kaynak:"el-kitabi", yer_kon:[48.35,30.53] },
 
 { t:"1793-01-23", b:"İKİNCİ TAKSİM — Rusya ve Prusya yeniden böldü", tur:"toprak-kayip",
-  onem:5, dunya:4, kapsam:"dis", etiket:["toprak-kaybi","antlasma"],
+  onem:5, dunya:4, kapsam:"dis", etiket:["toprak-kayip","antlasma"],
   yer_id:"", kapsam_genis:true,
   d:"3 Mayıs Anayasası iptal edildi ve ülkenin büyük bölümü Rusya ile Prusya arasında paylaşıldı; geriye küçük ve savunmasız bir kalıntı kaldı. Grodno'da toplanan sejm paylaşımı süngü altında onayladı.",
   kaynak:"el-kitabi", yer_kon:[53.6778,23.8306] },
 
 { t:"1794-03-24", b:"KOŚCIUSZKO AYAKLANMASI — Krakov'da ant içildi", tur:"isyan",
-  onem:5, dunya:3, kapsam:"ic", etiket:["ayaklanma","savas"],
+  onem:5, dunya:3, kapsam:"ic", etiket:["isyan","savas"],
   yer_id:"Krakov",
   d:"Amerikan Bağımsızlık Savaşı'nın generali Tadeusz Kościuszko, Krakov meydanında millete ant içerek ayaklanmayı başlattı ve ilk kez köylüleri de silah altına çağırdı. Polonya anlatısında bu ayaklanma, devletin son savunması ve modern ulusal hareketin doğduğu andır.",
   kaynak:"el-kitabi" },
 
 { t:"1794-04-04", b:"Racławice zaferi — tırpanlı köylüler", tur:"savas",
-  onem:4, dunya:1, kapsam:"ic", etiket:["savas","ayaklanma"],
+  onem:4, dunya:1, kapsam:"ic", etiket:["savas","isyan"],
   yer_id:"",
   d:"Tırpanlarla silahlanmış köylü birlikleri Rus topçusunu ele geçirerek muharebeyi kazandı. Zafer askerî olarak küçük ama simgesel olarak büyüktü: mücadele ilk kez soyluların ötesine geçmişti.",
   kaynak:"el-kitabi", yer_kon:[50.3297,20.2322] },
 
 { t:"1794-11-04", b:"Praga katliamı — Varşova'nın düşüşü", tur:"savas",
-  onem:4, dunya:2, kapsam:"ic", etiket:["savas","toprak-kaybi"],
+  onem:4, dunya:2, kapsam:"ic", etiket:["savas","toprak-kayip"],
   yer_id:"Varşova",
   d:"Suvorov'un kuvvetleri Varşova'nın Vistül'ün sağ yakasındaki mahallesini ele geçirirken binlerce sivil öldürüldü; şehir iki gün sonra teslim oldu. Ayaklanma bastırıldı ve devletin son direnci kırıldı.",
   kaynak:"el-kitabi" },
 
 { t:"1795-10-24", b:"ÜÇÜNCÜ TAKSİM — Polonya devleti haritadan silindi", tur:"son",
-  onem:5, dunya:4, kapsam:"dis", etiket:["toprak-kaybi","antlasma"],
+  onem:5, dunya:4, kapsam:"dis", etiket:["toprak-kayip","antlasma"],
   yer_id:"", kapsam_genis:true,
   d:"Rusya, Prusya ve Avusturya geriye kalan toprakları da paylaştı ve Polonya-Litvanya Cumhuriyeti sona erdi; kral 25 Kasım'da tahttan çekildi. Devlet 123 yıl boyunca haritada yer almayacaktı. Polonya ulusal anlatısının en belirleyici tarihi budur: bundan sonraki her şey — ayaklanmalar, göç, edebiyat — bu kaybın etrafında kurulur. Osmanlı Devleti taksimi resmen tanımadı.",
   kaynak:"el-kitabi", yer_id:"St. Petersburg" },
@@ -757,7 +757,7 @@ window.KRONOLOJI_LEHISTAN = [
   kaynak:"el-kitabi" },
 
 { t:"1830-11-29", b:"Kasım Ayaklanması başladı", tur:"isyan",
-  onem:5, dunya:2, kapsam:"ic", etiket:["ayaklanma","savas"],
+  onem:5, dunya:2, kapsam:"ic", etiket:["isyan","savas"],
   yer_id:"Varşova",
   d:"Varşova'daki harbiyeliler ayaklanarak Rus yönetimini devirdi ve on ay süren bir savaş başladı. Yenilgiyle biten ayaklanma, on binlerce Polonyalıyı Batı Avrupa'ya süren \"Büyük Göç\"ü doğurdu; Chopin ve Mickiewicz'in kuşağı bu sürgünde yetişti.",
   kaynak:"el-kitabi" },
@@ -769,7 +769,7 @@ window.KRONOLOJI_LEHISTAN = [
   kaynak:"el-kitabi" },
 
 { t:"1863-01-22", b:"Ocak Ayaklanması başladı", tur:"isyan",
-  onem:5, dunya:2, kapsam:"ic", etiket:["ayaklanma","savas"],
+  onem:5, dunya:2, kapsam:"ic", etiket:["isyan","savas"],
   yer_id:"Varşova",
   d:"Zorunlu askere alma listelerine karşı başlayan ayaklanma, bir buçuk yıl süren en uzun Polonya direnişine dönüştü. Bastırılmasının ardından Kongre Polonyası'nın özerkliği tamamen kaldırıldı; ulusal mücadele silahtan eğitim ve iktisada kaydı.",
   kaynak:"el-kitabi" },
@@ -925,7 +925,7 @@ window.KRONOLOJI_LEHISTAN = [
   kaynak:"Norman Davies, God's Playground: A History of Poland (Oxford UP) — TDV bu taneciği kapsamıyor" },
 
 { t:"1765-03-15", b:"Şövalye Okulu kuruldu", tur:"kultur",
-  onem:3, dunya:1, kapsam:"ic", etiket:["kultur","askeri"],
+  onem:3, dunya:1, kapsam:"ic", etiket:["kultur","askeri","islahat"],
   yer_id:"Varşova",
   d:"Stanisław August subay ve devlet adamı yetiştirmek için modern bir askerî akademi kurdu. Okul yalnız savaş sanatı değil, yurttaşlık ve matematik de öğretti; mezunları arasında Tadeusz Kościuszko vardır.",
   kaynak:"Norman Davies, God's Playground: A History of Poland (Oxford UP) — TDV bu taneciği kapsamıyor" },
@@ -943,7 +943,7 @@ window.KRONOLOJI_LEHISTAN = [
   kaynak:"The Cambridge History of Poland (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
 { t:"1794-05-07", b:"Połaniec Beyannamesi — köylülere kişisel hürriyet", tur:"reform",
-  onem:4, dunya:2, kapsam:"ic", etiket:["reform","ayaklanma"],
+  onem:4, dunya:2, kapsam:"ic", etiket:["reform","isyan"],
   yer_id:"",
   d:"Kościuszko ayaklanma ordusuna katılan köylülere kişisel hürriyet ve angarya indirimi ilan etti. Beyanname uygulanmaya fırsat bulamadan ayaklanma bastırıldı; buna rağmen Polonya toplumsal tarihinde serfliğe karşı atılmış ilk resmî adım olarak anılır.",
   kaynak:"The Cambridge History of Poland (Cambridge UP) — TDV bu taneciği kapsamıyor", yer_kon:[50.6167,21.2833] },

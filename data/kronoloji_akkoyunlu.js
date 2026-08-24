@@ -120,7 +120,7 @@ window.KRONOLOJI_AKKOYUNLU = [
   kaynak:"akkoyunlular" },
 
 { t:"1378-01-01", b:"Pîr Hüseyin Bey öldü, Erzincan ve Bayburt Eretna'ya geçti", tur:"kayip",
-  onem:3, dunya:1, kapsam:"dis", etiket:["olum","toprak-kaybi"],
+  onem:3, dunya:1, kapsam:"dis", etiket:["olum","toprak-kayip"],
   yer_id:"Erzincan",
   d:"Pîr Hüseyin Bey'in ölümüyle Erzincan ve Bayburt Eretna emîrlerinin eline geçti. On altı yılda kazanılan kuzey toprakları tek bir ölümle kaybedildi; erken Akkoyunlu'nun toprak tutamama sorunu bu vakada açıkça görünür.",
   kaynak:"akkoyunlular" },
@@ -256,7 +256,7 @@ window.KRONOLOJI_AKKOYUNLU = [
   kaynak:"uzun-hasan (⚠️ akkoyunlular maddesi 1447 diyor — çelişki açıkça bildirildi)" },
 
 { t:"1450-01-01", b:"Cihan Şah Erzincan'ı aldı — Akkoyunlu bunalımı derinleşti", tur:"kayip",
-  onem:4, dunya:1, kapsam:"dis", etiket:["askeri","toprak-kaybi","karakoyunlu"],
+  onem:4, dunya:1, kapsam:"dis", etiket:["askeri","toprak-kayip","karakoyunlu"],
   yer_id:"Erzincan",
   d:"854 (1450) yılında Karakoyunlu hükümdarı Cihan Şah Erzincan'ı ele geçirdi. Kaybedilen bu şehir, Cihangir'in Karakoyunlu ile barış yapmak zorunda kalmasına ve kardeşi Uzun Hasan'ın ondan ayrılarak kendi yolunu çizmesine yol açtı.",
   kaynak:"akkoyunlular · uzun-hasan" },
@@ -282,7 +282,7 @@ window.KRONOLOJI_AKKOYUNLU = [
   kaynak:"uzun-hasan" },
 
 { t:"1461-01-01", b:"Fâtih Trabzon'u fethetti — Uzun Hasan engel olamadı, Despina ile evlendi", tur:"siyaset",
-  onem:4, dunya:3, kapsam:"dis", etiket:["siyaset","osmanli","hanedan","toprak-kaybi"],
+  onem:4, dunya:3, kapsam:"dis", etiket:["siyaset","osmanli","hanedan","toprak-kayip"],
   yer_id:"Trabzon",
   d:"865 (1461) yılında Fâtih Sultan Mehmed Trabzon'u fethetti ve Uzun Hasan buna engel olamadı; Trabzon Komnenos hanedanından Despina Hatun ile evlenerek imparatorluk aileleriyle bağ kurdu. Bir asır önce Akkoyunlu'nun akın düzenlediği devletin Osmanlı eliyle ortadan kaldırılması, iki devletin Doğu Anadolu'da karşı karşıya geldiği ilk andır — Otlukbeli'ne giden sürecin başlangıcıdır.",
   kaynak:"uzun-hasan · akkoyunlular" },
@@ -368,7 +368,7 @@ window.KRONOLOJI_AKKOYUNLU = [
   kaynak:"otlukbeli-savasi · uzun-hasan" },
 
 { t:"1473-08-23", b:"Fâtih Bayburt'u ve Şarkîkarahisar'ı aldı", tur:"kayip",
-  onem:4, dunya:1, kapsam:"dis", etiket:["askeri","toprak-kaybi","osmanli"],
+  onem:4, dunya:1, kapsam:"dis", etiket:["askeri","toprak-kayip","osmanli"],
   yer_id:"Karahisâr-ı Şarkî (Şebinkarahisar)",
   d:"28 Rebîülevvel 878 (23 Ağustos 1473) günü Otlukbeli zaferinden on iki gün sonra Fâtih Sultan Mehmed Bayburt'u, ardından Şarkîkarahisar kalesini ele geçirdi. Osmanlı ordusu Akkoyunlu'yu takip etmedi ve savaş alanında iki üç gün kaldıktan sonra geri çekildi — yani Otlukbeli bir işgal değil, bir caydırma harekâtıydı ve Akkoyunlu'nun batıya bakışını kalıcı olarak kırdı. ⚠️ Bayburt'un atlas kaydı yoktur; `yer_id` kaydı bulunan Şarkîkarahisar'a verildi.",
   kaynak:"otlukbeli-savasi" },
@@ -398,7 +398,7 @@ window.KRONOLOJI_AKKOYUNLU = [
   kaynak:"uzun-hasan" },
 
 { t:"1477-12-01", b:"Uğurlu Mehmed Erzincan'da öldürüldü", tur:"hanedan",
-  onem:3, dunya:1, kapsam:"ic", etiket:["olum","hanedan","ic-savas"],
+  onem:3, dunya:1, kapsam:"ic", etiket:["olum","hanedan","ic-savas","taht-kavgasi"],
   yer_id:"Erzincan",
   d:"Ramazan 882 (Aralık 1477) ayında isyan edip Osmanlılar'a sığınan Uğurlu Mehmed, Erzincan'da öldürüldü. Karakoyunlu hanedanına son veren komutanın kendi babasına isyan edip bir suikastle ölmesi, Akkoyunlu veraset düzeninin de en az rakibininki kadar kırılgan olduğunu gösterdi.",
   kaynak:"uzun-hasan" },
@@ -450,7 +450,7 @@ window.KRONOLOJI_AKKOYUNLU = [
   kaynak:"akkoyunlular" },
 
 { t:"1493-01-01", b:"Baysungur mağlûp edilip öldürüldü", tur:"ic-savas",
-  onem:3, dunya:1, kapsam:"ic", etiket:["ic-savas","olum","hanedan"],
+  onem:3, dunya:1, kapsam:"ic", etiket:["ic-savas","olum","hanedan","taht-kavgasi"],
   yer_id:"",
   d:"898 (1493) yılında Baysungur mağlûp edilerek öldürüldü. Hanedan üyelerinin birbirini ortadan kaldırdığı bu döngü, Safevî hareketinin güçlenmesi için gereken boşluğu yarattı.",
   kaynak:"akkoyunlular" },
@@ -480,7 +480,7 @@ window.KRONOLOJI_AKKOYUNLU = [
   kaynak:"akkoyunlular", kapsam_genis:true },
 
 { t:"1501-04-01", b:"ŞAH İSMÂİL TEBRİZ'E GİRDİ — Safevî Devleti kuruldu", tur:"kayip",
-  onem:5, dunya:4, kapsam:"dis", etiket:["askeri","savas","toprak-kaybi","donum-noktasi","safevi"],
+  onem:5, dunya:4, kapsam:"dis", etiket:["askeri","savas","toprak-kayip","donum-noktasi","safevi"],
   yer_id:"Tebriz",
   d:"Nisan 1501'de Şah İsmâil, Elvend'i yenerek Tebriz'e girdi ve Safevî Devleti kuruldu. Akkoyunlu'nun başkenti ve Azerbaycan'ın merkezi elden çıktı. 🔴 AMA DEVLET BİTMEDİ: Murad'ın elindeki Irak, Fars ve Kirman on üç yıl daha Akkoyunlu idaresinde kaldı. `CLAUDE.md §3.5`: *merkezin kaybı ≠ devletin sonu* — bu ayrım yapılmazsa harita 1501'de biten bir Akkoyunlu gösterir ve yanılır.",
   kaynak:"akkoyunlular" },
@@ -488,7 +488,7 @@ window.KRONOLOJI_AKKOYUNLU = [
 // ───────────────────────── SON ON ÜÇ YIL (1501-1514)
 
 { t:"1503-01-01", b:"Murad, Hemedan yakınında yenildi", tur:"kayip",
-  onem:4, dunya:1, kapsam:"dis", etiket:["askeri","savas","safevi","toprak-kaybi"],
+  onem:4, dunya:1, kapsam:"dis", etiket:["askeri","savas","safevi","toprak-kayip"],
   yer_id:"Hemedan",
   d:"909 (1503) yılında Akkoyunlu hükümdarı Murad, Hemedan yakınlarında Safevîler karşısında yenildi. Batı İran'daki son direniş kırıldı; hanedan artık yalnız Irak'ta tutunabiliyordu.",
   kaynak:"akkoyunlular" },
@@ -500,13 +500,13 @@ window.KRONOLOJI_AKKOYUNLU = [
   kaynak:"akkoyunlular" },
 
 { t:"1509-01-01", b:"Murad Bağdat'tan kaçtı — Irak da elden çıktı", tur:"kayip",
-  onem:4, dunya:1, kapsam:"dis", etiket:["toprak-kaybi","safevi"],
+  onem:4, dunya:1, kapsam:"dis", etiket:["toprak-kayip","safevi"],
   yer_id:"Bağdat",
   d:"915 (1509) yılında Murad Bağdat'tan kaçtı. Akkoyunlu'nun son toprak parçası da Safevîlerin eline geçti; hanedan bundan sonra beş yıl daha yaşar ama artık bir devlet değil, bir hükümdar adayıdır.",
   kaynak:"akkoyunlular" },
 
 { t:"1514-01-01", b:"MURAD ÖLDÜRÜLDÜ — Akkoyunlu Devleti tarih sahnesinden silindi", tur:"kayip",
-  onem:5, dunya:2, kapsam:"dis", etiket:["olum","donum-noktasi","toprak-kaybi"],
+  onem:5, dunya:2, kapsam:"dis", etiket:["olum","donum-noktasi","toprak-kayip"],
   yer_id:"",
   d:"920 (1514) yılında son Akkoyunlu hükümdarı Murad öldürüldü ve Akkoyunlu Devleti tarih sahnesinden silindi. Tur Ali Bey'in 1340'ta Trabzon'a düzenlediği akınlarla başlayan yüz yetmiş dört yıllık hanedan böylece sona erdi. ⚠️ Aynı yıl Çaldıran'da Osmanlı ile Safevî karşı karşıya geldi: Akkoyunlu'nun bıraktığı boşluk artık iki büyük imparatorluk arasında paylaşılacaktır. TDV gün vermiyor, `YYYY-01-01` yazıldı — uydurulmadı.",
   kaynak:"akkoyunlular" },
@@ -514,13 +514,13 @@ window.KRONOLOJI_AKKOYUNLU = [
 // ───────────────────────── KÜLTÜR · İLİM · MİMARÎ · HUKUK · İKTİSAT
 
 { t:"1452-09-01", b:"HASAN PADİŞAH KANUNLARI — Akkoyunlu vergi kanunnâmesi", tur:"hukuk",
-  onem:5, dunya:3, kapsam:"ic", etiket:["hukuk","idari","iktisat","reform"],
+  onem:5, dunya:3, kapsam:"ic", etiket:["hukuk","idari","ekonomi","reform"],
   yer_id:"", kapsam_genis:true,
   d:"Uzun Hasan, 'Hasan Padişah Kanunları' adıyla bilinen bir vergi kanunnâmesi düzenletti; çiftçiden, esnaftan, sanatkârdan ve tüccardan alınan vergilerin âdil biçimde tarh ve tahsili esasına dayanıyordu. 🔴 Bu kanunnâmenin önemi Akkoyunlu'yu aşar: Osmanlılar doğu eyaletlerinde fetihten sonra uzun süre bu kanunları uygulamayı sürdürdü, Safevîler de İran'da uzun süre kullandı. Yani hanedan yıkıldıktan sonra da hukuku yaşadı — Akkoyunlu'nun en kalıcı eseri bir kale ya da cami değil, bir vergi düzenidir. ⚠️ TARİH HAKKINDA: kaynak kanunnâmenin çıkarılış yılını vermiyor; madde Uzun Hasan'ın iktidara geldiği tarihe bağlandı. Bu bir TERCİHTİR, ölçüm değildir.",
   kaynak:"uzun-hasan · akkoyunlular" },
 
-{ t:"1452-09-01", b:"'Hasanbegî' sikkesi bastırıldı", tur:"iktisat",
-  onem:3, dunya:1, kapsam:"ic", etiket:["iktisat","idari","para"],
+{ t:"1452-09-01", b:"'Hasanbegî' sikkesi bastırıldı", tur:"ekonomi",
+  onem:3, dunya:1, kapsam:"ic", etiket:["ekonomi","idari","para"],
   yer_id:"", kapsam_genis:true,
   d:"Uzun Hasan, iki akçe değerinde 'hasanbegî' adlı sikkeler bastırdı. Kendi adını taşıyan bir para birimi çıkarmak, Memlük tâbiiyetinden çıkan hanedanın egemenlik iddiasının iktisadî ilânıdır. ⚠️ TARİH HAKKINDA: kaynak basım yılını vermiyor; madde iktidara geliş tarihine bağlandı, bir tercihtir.",
   kaynak:"uzun-hasan" },
@@ -550,19 +550,19 @@ window.KRONOLOJI_AKKOYUNLU = [
   kaynak:"uzun-hasan" },
 
 { t:"1452-09-01", b:"Cami, medrese, zâviye ve kervansaray imar programı", tur:"mimari",
-  onem:4, dunya:1, kapsam:"ic", etiket:["mimari","kultur","din","iktisat"],
+  onem:4, dunya:1, kapsam:"ic", etiket:["mimari","kultur","din","ekonomi"],
   yer_id:"", kapsam_genis:true,
   d:"Uzun Hasan cami, medrese, zâviye ve kervansaray olmak üzere birçok eser yaptırdı. 🔴 Bu eserlerin BÜYÜK KISMI GÜNÜMÜZE ULAŞMADI: Safevîler Tebriz'deki Akkoyunlu yapılarının çoğunu KASITLI olarak yıktı. Bir hanedanın mimarî mirasının ardılı tarafından bilerek silinmesi, Akkoyunlu'nun bugün Karakoyunlu'dan (Gökmescid ayakta) daha az görünür olmasının sebebidir — yani kaynak azlığı bir tesadüf değil, bir siyasetin sonucudur. ⚠️ TARİH HAKKINDA: kaynak tek tek yapıların tarihini vermiyor; imar programı iktidara geliş tarihine bağlandı, bir tercihtir.",
   kaynak:"akkoyunlular · uzun-hasan" },
 
 { t:"1478-06-01", b:"Heşt Bihişt Sarayı — Venedikli tacirlerin hayranlıkla anlattığı yapı", tur:"mimari",
-  onem:4, dunya:2, kapsam:"ic", etiket:["mimari","kultur","sanat"],
+  onem:4, dunya:2, kapsam:"ic", etiket:["mimari","kultur","kultur"],
   yer_id:"Tebriz",
   d:"Yâkub Bey'in yaptırdığı 'Heşt Bihişt' (Sekiz Cennet) sarayı, Tebriz'i ziyaret eden Venedikli tacirler tarafından hayranlıkla tasvir edilmiştir. 📌 Bu yapının bilinmesini bir Müslüman kroniğe değil, AVRUPALI TÜCCARLARIN seyahat notlarına borçluyuz — Uzun Hasan'ın Venedik ittifakı, hanedanın mimarî mirasının kaydedilmesini de sağlamış oldu. ⚠️ TARİH HAKKINDA: sarayın inşa yılı kaynakta verilmiyor; madde Yâkub Bey'in cülûsuna bağlandı, bir tercihtir. `hest-bihist` slugu ölü (302) ölçüldü.",
   kaynak:"akkoyunlular" },
 
-{ t:"1478-06-01", b:"TÜRKMEN MİNYATÜR MEKTEBİ — Safevî sanatının kaynağı", tur:"sanat",
-  onem:5, dunya:3, kapsam:"ic", etiket:["sanat","kultur","himaye"],
+{ t:"1478-06-01", b:"TÜRKMEN MİNYATÜR MEKTEBİ — Safevî sanatının kaynağı", tur:"kultur",
+  onem:5, dunya:3, kapsam:"ic", etiket:["kultur","kultur","himaye"],
   yer_id:"Tebriz",
   d:"Yâkub Bey döneminde minyatür sanatı büyük gelişme gösterdi; sanat tarihçileri bu dönemin üretimini 'Türkmen minyatür mektebi' diye adlandırır ve bu okulun Safevî minyatürleri üzerinde derin tesirler bıraktığını tespit ederler. 🔴 Akkoyunlu'nun en kalıcı kültürel mirası budur: devlet 1514'te yıkıldı, ama Tebriz atölyesinin üslûbu Safevî sarayında yaşamaya devam etti ve İran minyatürünün klasik çağını hazırladı. ⚠️ TARİH HAKKINDA: kaynak tek bir yıl vermiyor; madde Yâkub Bey'in cülûsuna bağlandı, bir tercihtir.",
   kaynak:"akkoyunlular" },

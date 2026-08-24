@@ -83,7 +83,7 @@ window.KRONOLOJI_GURCISTAN = [
   kaynak:"devletler.js gurcistan künyesi (TDV)" },
 
 { t:"1200-01-01", b:"Şota Rustaveli'nin 'Kaplan Postlu Şövalye' destanının yazılması (yaklaşık tarih)", tur:"kultur", onem:5, dunya:1, kapsam:"ic",
-  etiket:["kultur-sanat","edebiyat"],
+  etiket:["kultur","edebiyat"],
   yer_id:"Tiflis",
   d:"Kraliçe Tamar'a ithaf edilen 'Vepkhistqaosani' (Kaplan Postlu Şövalye) destanı, Gürcü edebiyatının kurucu eseri ve millî kimliğin edebi temel taşı olarak kabul edilir. Kesin yazım tarihi belgelenmemiştir; tarihyazımı eseri Tamar'ın saltanatına (yaklaşık 1184-1213) tarihler.",
   kaynak:"bulunamadı — TDV bu konuyu (Hıristiyan Gürcü edebiyatı) kapsamıyor; dayanak standart akademik kaynak, bu turda ikinci bir kaynakla doğrulanamadı (Britannica/Iranica 403 hatası verdi) — tarih YAKLAŞIK olarak işaretlidir" },
@@ -175,7 +175,7 @@ window.KRONOLOJI_GURCISTAN = [
   kaynak:"cildir-eyaleti (TDV, madde: cildir-eyaleti — içerik okundu, 2026-08-22)" },
 
 { t:"1590-03-21", b:"Ferhad Paşa Antlaşması — Gürcistan'ın büyük kısmı Osmanlı'da kaldı", tur:"toprak-kayip", onem:5, dunya:3, kapsam:"dis",
-  etiket:["antlasma","toprak-kaybi"],
+  etiket:["antlasma","toprak-kayip"],
   yer_id:"", kapsam_genis:true,
   d:"On iki yıllık savaşı bitiren antlaşmayla Azerbaycan, Şirvan, Karabağ, Gürcistan'ın büyük kısmı ve Luristan'ın bir bölümü Osmanlı'ya bırakıldı; imparatorluk doğuda tarihinin en geniş sınırlarına ulaştı. Gürcü toprakları için bu, 1723'e kadar sürecek en yaygın Osmanlı hâkimiyeti dönemidir.",
   kaynak:"ferhad-pasa-antlasmasi (TDV — müstakil maddesi yok, hükümleri luristan maddesinden derlenmiştir; zaten doğrulanmış, bkz. data/kronoloji_iran.js)" },
@@ -211,7 +211,7 @@ window.KRONOLOJI_GURCISTAN = [
   kaynak:"tiflis (TDV)" },
 
 { t:"1709-01-01", b:"Tiflis'te ilk Gürcü matbaasının kurulması (yaklaşık tarih)", tur:"bilim", onem:4, dunya:1, kapsam:"ic",
-  etiket:["bilim","kultur-sanat"],
+  etiket:["bilim","kultur"],
   yer_id:"Tiflis",
   d:"Kral Vahtang VI'nın girişimiyle Tiflis'te ilk Gürcü matbaası kuruldu; Kafkasya'daki ilk yerli matbaalardan biri olarak Gürcüce dinî ve hukuki metinlerin basımını mümkün kıldı.",
   kaynak:"bulunamadı — TDV bu konuyu kapsamıyor; dayanak standart akademik kaynak, bu turda ikinci bir kaynakla doğrulanamadı (Britannica/Iranica 403 hatası verdi) — tarih YAKLAŞIK olarak işaretlidir" },
@@ -235,7 +235,7 @@ window.KRONOLOJI_GURCISTAN = [
   kaynak:"gurcistan (TDV — 'Osmanlılar ise Kartli ve onun büyük şehirleri Tiflis ve Gori'yi alıp burayı yurtluk ve ocaklık olarak Kartli Çarı Vahtang'ın oğlu olup ihtida eden İbrâhim'e verdiler')" },
 
 { t:"1724-06-24", b:"İstanbul Mukâsemenâmesi — Gürcistan'ın Osmanlı-Rusya arasında paylaşılması", tur:"toprak-kayip", onem:5, dunya:4, kapsam:"dis",
-  etiket:["antlasma","diplomasi","toprak-kaybi"],
+  etiket:["antlasma","diplomasi","toprak-kayip"],
   yer_id:"", kapsam_genis:true,
   d:"Çöken Safevî ülkesi üzerinde Osmanlı ile Rusya'nın karşı karşıya gelmesini önlemek için imzalanan taksim antlaşmasıyla Gürcistan, Şirvan ve Azerbaycan Osmanlı'ya, Hazar'ın batı-güney kıyıları Rusya'ya bırakıldı. Gürcistan'ın kendi rızası olmaksızın iki büyük gücün masasında paylaşılması, ülkenin 18. yüzyıldaki konumunu özetleyen bir andır.",
   kaynak:"ahmed-iii (TDV, zaten doğrulanmış — bkz. data/olaylar_ek5.js)" },
@@ -278,7 +278,7 @@ window.KRONOLOJI_GURCISTAN = [
   kaynak:"bulunamadı — TDV bu taneciği kapsamıyor; dayanak standart akademik kaynak, bu turda ikinci bir kaynakla doğrulanamadı (Britannica/Iranica 403 hatası verdi)" },
 
 { t:"1801-09-12", b:"Kartli-Kaheti Çarlığı'nın Rusya tarafından ilhakı", tur:"son", onem:5, dunya:4, kapsam:"dis",
-  etiket:["toprak-kaybi","siyaset"],
+  etiket:["toprak-kayip","siyaset"],
   yer_id:"Tiflis",
   d:"Çar I. Pavel'in 12 Eylül 1801 tarihli emriyle Kartli-Kaheti Çarlığı feshedilip doğrudan Rusya'nın bir eyaleti ilan edildi; 793 yıl önce III. Bagrat'ın kurduğu Gürcistan Krallığı'nın son ve en büyük parçası böylece bağımsızlığını tamamen yitirdi. Bu ilhak, Osmanlı-İran-Rusya üçgeninde Transkafkasya'nın kalıcı olarak Rusya'ya geçişinin başlangıç noktasıdır.",
   kaynak:"gurcistan (TDV, madde: gurcistan — '12 Eylül 1801 tarihli emirle Rusya'nın bir eyaleti ilân')" },
@@ -291,7 +291,7 @@ window.KRONOLOJI_GURCISTAN = [
   kaynak:"gurcistan (TDV, madde: gurcistan — 'İmeretiya ve Guriya [1804]')" },
 
 { t:"1810-02-20", b:"İmereti Krallığı'nın kesin ilhakı — Kral II. Solomon tahttan indirildi", tur:"son", onem:5, dunya:3, kapsam:"dis",
-  etiket:["toprak-kaybi","siyaset"],
+  etiket:["toprak-kayip","siyaset"],
   yer_id:"Kutaisi",
   d:"Artan Rus baskısına direnmeye devam eden İmereti Krallığı'nın son kralı II. Solomon, Rus birliklerinin başkent Kutaisi'yi ele geçirmesiyle tahttan indirildi. İmereti böylece fiilen sona erdi ve doğrudan Rus idaresine bağlandı; Solomon, Osmanlı topraklarına kaçarak sürgünde öldü (1815).",
   kaynak:"devletler.js imereti künyesi + data/olaylar_ek16.js (standart akademik kaynak, zaten doğrulanmış)" },
@@ -304,7 +304,7 @@ window.KRONOLOJI_GURCISTAN = [
   kaynak:"bulunamadı — TDV bu konuyu kapsamıyor; dayanak standart akademik kaynak, bu turda ikinci bir kaynakla doğrulanamadı (Britannica/Iranica 403 hatası verdi)" },
 
 { t:"1829-09-14", b:"Edirne Antlaşması — Ahıska ve Ahılkelek Rusya'ya terkedildi", tur:"toprak-kayip", onem:5, dunya:3, kapsam:"dis",
-  etiket:["antlasma","toprak-kaybi"],
+  etiket:["antlasma","toprak-kayip"],
   yer_id:"Ahıska",
   d:"1578 Çıldır zaferinden beri Osmanlı idaresinde olan ve Çıldır Eyaleti'nin merkezliğini yapan Ahıska, 1828-1829 savaşının sonunda imzalanan Edirne Antlaşması'yla Ahılkelek'le birlikte Rusya'ya terkedildi; eyalet beş kazaya küçülüp sonunda Erzurum'a bağlı bir sancak hâline geldi. Şehrin elden çıkışı Osmanlı Gürcüleri arasında derin bir üzüntü yarattı ve pek çok ağıda konu oldu.",
   kaynak:"ahiska (TDV) + cildir-eyaleti (TDV — 'Ahıska ve Ahılkelek Rusya'ya terkedildi... eyalet beş kazaya düştü') — bkz. data/olaylar_ek7.js" },

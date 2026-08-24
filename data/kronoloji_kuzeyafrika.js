@@ -160,7 +160,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
   kaynak:"TDV `meriniler`: \"723/1323'e ait kaynaklar Medresetü'l-Attârîn'in inşasını gösterir\"" },
 
 { t:"1304-01-01", b:"İlk resmî hac kafilesi yola çıktı", tur:"din", onem:2, dunya:1, kapsam:"dis", yer_id:"",
-  etiket:["dini"],
+  etiket:["din"],
   d:"Merînî hükümdarlığı himayesinde ilk resmî hac kafilesi Mekke'ye yola çıktı; hanedanın dinî meşruiyet ve hac yolu güvenliği siyasetinin erken bir göstergesi.",
   kaynak:"TDV `meriniler`: \"703/1303-1304'te ilk hac kafilesi yola çıktı\"" },
 
@@ -224,7 +224,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
   kaynak:"TDV `sadiler`: \"983/1576'da Osmanlı kuvvetleriyle Abdülmelik'in Fas'a girişi\" · \"19 Rebîülâhir 984/16 Temmuz 1576'da Abdülmelik'in Mu'tasım unvanıyla tahta oturması\"" },
 
 { t:"1578-08-04", b:"Vâdilmehâzin (Üç Kral) Savaşı — Portekiz Haçlı ordusu imha edildi", tur:"savas", onem:5, dunya:4, kapsam:"dis", yer_id:"",
-  etiket:["askeri","toprak-kaybi"],
+  etiket:["askeri","toprak-kayip"],
   d:"Portekiz Kralı Sebastião'nun bizzat başında bulunduğu Haçlı ordusu Vâdilmehâzin'de (Alcácer Quibir) bozguna uğratıldı; kral savaş alanında öldü, Abdülmelik de aynı gün hastalıktan öldü, Ahmed el-Mansûr tahta geçti. Portekiz tahtı vâris bırakmadan boşaldı ve iki yıl sonra İspanya Kralı II. Felipe Portekiz tacını ele geçirdi (1580 İber Birliği) — savaş, Fas sınırları dışında bir Avrupa hanedan krizini doğrudan tetikledi. ⚠️ Savaş alanı (Ksar el-Kebir/Alcácer Quibir) atlasın yerleşim veri tabanında YOK, yer_id boş bırakıldı.",
   kaynak:"TDV `sadiler`: \"30 Cemâziyelevvel 986/4 Ağustos 1578'de Vâdilmehâzin (Üç Kral) savaşında Portekiz Haçlı ordusunun mağlûbiyeti\" · \"Abdülmelik'in hastalıktan savaş alanında ölümü\" · \"Ahmed el-Mansûr'un tahta geçişi\" — İber Birliği bağlantısı genel akademik bilgi, TDV maddesinde işlenmiyor", yer_kon:[35.006,-5.904] },
 
@@ -239,7 +239,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
   kaynak:"TDV `sadiler`: \"999/1591'de Tondibi savaşıyla Songay Sultanlığının yıkılması; Sudan'ın fethi\"" },
 
 { t:"1591-06-01", b:"Sudan seferinden ganimet: 20.000 köle, altın, fildişi", tur:"ekonomi", onem:3, dunya:2, kapsam:"dis", yer_id:"Timbuktu",
-  etiket:["iktisadi"],
+  etiket:["ekonomi"],
   d:"Tondibi zaferinin ardından Sâdî ordusu yaklaşık 20.000 köle ile büyük miktarda altın ve fildişi ganimeti Fas'a taşıdı; Sâdî hazinesi Sudan altınıyla dolduğu için Ahmed el-Mansûr'a 'ez-Zeheb' (Altınlı) lakabı yakıştırıldı.",
   kaynak:"TDV `sadiler`: \"Sudan seferi sonrası 20.000 civarında köle, bol altın ve fildişi elde edilmesi\"" },
 
@@ -274,7 +274,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
   kaynak:"TDV `sadiler`: \"Ahmed el-Mansûr devrinde Kasrü'l-bedî' Sarayı'nın Merakeş'te inşası\"" },
 
 { t:"1595-01-01", b:"Fransa, İngiltere, Hollanda ile ticarî ilişkiler kuruldu", tur:"ekonomi", onem:3, dunya:2, kapsam:"dis", yer_id:"",
-  etiket:["iktisadi","diplomasi"],
+  etiket:["ekonomi","diplomasi"],
   d:"Ahmed el-Mansûr döneminde Sâdîler, şeker ve Sudan altını ticareti üzerinden Fransa, İngiltere ve Hollanda ile doğrudan ticarî ilişkiler kurdu — Fas'ın Avrupa devletleriyle Osmanlı arabuluculuğu olmaksızın kurduğu ilk düzenli ilişkiler. ⚠️ TDV kesin yıl vermiyor, saltanatının sonu yaklaşık tarih olarak kullanıldı.",
   kaynak:"TDV `sadiler`: \"Ahmed el-Mansûr devrinde Fransa, İngiltere, Hollanda gibi Avrupa devletleriyle ticarî ilişkiler kurulması\"", kapsam_genis:true },
 

@@ -148,12 +148,12 @@ window.KRONOLOJI_ITALYA = [
   kaynak:"bulunamadı — gün YAKLAŞIK (1 Kasım geleneksel tarih), standart akademik konsensüs" },
 
 { t:"1506-04-18", b:"Yeni Aziz Petrus Bazilikası'nın temelinin atılması", tur:"mimari", onem:3, dunya:3, kapsam:"ic", yer_id:"Roma",
-  etiket:["papalik","mimari","sanat"],
+  etiket:["papalik","mimari","kultur"],
   d:"II. Julius, Konstantin döneminden kalma eski bazilikayı yıktırıp yerine Bramante'nin tasarladığı devasa yeni yapının temelini attı. İnşaat yüz yirmi yıl sürecek, Michelangelo'nun kubbesiyle Hristiyanlığın en büyük mimari simgelerinden biri olacaktı — ve endülüjans satışlarıyla finansmanı, birkaç yıl sonra Luther'in tepkisini tetikleyen unsurlardan biri olacaktı.",
   kaynak:"bulunamadı — gün DOĞRULANMADI, standart akademik konsensüs" },
 
-{ t:"1512-10-31", b:"Sistine Şapeli tavan freskinin açılışı", tur:"sanat", onem:4, dunya:3, kapsam:"ic", yer_id:"Roma",
-  etiket:["papalik","sanat","kultur"],
+{ t:"1512-10-31", b:"Sistine Şapeli tavan freskinin açılışı", tur:"kultur", onem:4, dunya:3, kapsam:"ic", yer_id:"Roma",
+  etiket:["papalik","kultur","kultur"],
   d:"Michelangelo dört yıllık çalışmanın ardından şapel tavanındaki fresk döngüsünü tamamladı; Yaratılış sahneleri, Batı sanat tarihinin en çok tanınan imgeleri arasına girdi. Papa II. Julius eseri Azizler Yortusu arifesinde açtırdı.",
   kaynak:"bulunamadı — gün YAYGIN KABUL, standart akademik konsensüs" },
 
@@ -451,7 +451,7 @@ window.KRONOLOJI_ITALYA = [
   kaynak:"data/devletler.js `cenova` embedded kronoloji: \"Kefe, Osmanlı'ya düştü\"", yer_id:"Kefe" },
 
 { t:"1528-09-12", b:"Andrea Doria'nın anayasa reformu", tur:"anayasa", onem:5, dunya:2, kapsam:"ic", yer_id:"Cenova",
-  etiket:["ceneviz","anayasa","reform"],
+  etiket:["ceneviz","anayasa","reform","islahat"],
   d:"Amiral Andrea Doria, Fransız nüfuzundan koparıp İmparator V. Karl'la ittifaka giren cumhuriyette aristokratik bir anayasa reformu yaptı; iki yılda bir seçilen doge sistemiyle iç hizip çatışmalarını dizginleyen bu düzen, cumhuriyetin 1797'ye kadar sürecek son siyasî çerçevesi oldu.",
   kaynak:"data/devletler.js `cenova` embedded kronoloji: \"Andrea Doria, Fransız nüfuzunu kırıp aristokratik cumhuriyet anayasasını kurdu\"" },
 
@@ -515,7 +515,7 @@ window.KRONOLOJI_ITALYA = [
   kaynak:"bulunamadı — gün YAYGIN KABUL, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı", yer_kon:[45.314,9.503] },
 
 { t:"1476-12-26", b:"Galeazzo Maria Sforza'nın suikastı", tur:"kriz", onem:3, dunya:1, kapsam:"ic", yer_id:"Milano",
-  etiket:["milano","kriz"],
+  etiket:["milano","kriz","suikast"],
   d:"Zalim yönetimiyle tanınan dük, Aziz İstefanos Kilisesi'nde üç genç soylu tarafından bıçaklanarak öldürüldü; suikastçılar kısa sürede yakalanıp idam edildi ama olay, tahta genç bir çocuğun (Gian Galeazzo Sforza) geçmesine ve amcası Ludovico'nun fiilî iktidarı ele geçirmesine yol açtı.",
   kaynak:"bulunamadı — gün DOĞRULANMADI, standart akademik konsensüs" },
 
@@ -524,8 +524,8 @@ window.KRONOLOJI_ITALYA = [
   d:"Yeğeni Gian Galeazzo'nun şüpheli ölümüyle Ludovico Sforza fiilen dük oldu; Napoli krallığının kendisine düşman olmasından çekinerek Fransa Kralı VIII. Charles'ı İtalya'ya davet etti. Bu davet, altmış beş yıl sürecek İtalyan Savaşları'nın doğrudan fitili oldu — Ludovico'nun kendisi de bu savaşların kurbanı olacaktı.",
   kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı" },
 
-{ t:"1495-04-02", b:"Leonardo da Vinci'nin 'Son Akşam Yemeği'ne başlaması", tur:"sanat", onem:4, dunya:3, kapsam:"ic", yer_id:"Milano",
-  etiket:["milano","sanat","kultur"],
+{ t:"1495-04-02", b:"Leonardo da Vinci'nin 'Son Akşam Yemeği'ne başlaması", tur:"kultur", onem:4, dunya:3, kapsam:"ic", yer_id:"Milano",
+  etiket:["milano","kultur","kultur"],
   d:"Ludovico Sforza'nın himayesinde Milano'da çalışan Leonardo, Santa Maria delle Grazie manastırının yemekhane duvarına \"Son Akşam Yemeği\" freskini yapmaya başladı; üç yıl sürecek eser, Batı resim sanatının en çok incelenen ve kopyalanan yapıtlarından biri olacaktı.",
   kaynak:"bulunamadı — gün DOĞRULANMADI, standart akademik konsensüs (çalışmanın 1495-1498 arasında yapıldığı yaygın kabul)" },
 
@@ -633,13 +633,13 @@ window.KRONOLOJI_ITALYA = [
   d:"Loncalara bile kabul edilmeyen alt tabaka yün işçileri (ciompi) ayaklanıp kısa süreliğine kendi temsilcilerini yönetime soktu; Avrupa tarihinin en erken belgelenmiş işçi ayaklanmalarından biri sayılır. Hareket birkaç yıl içinde bastırıldı ama loncasız emekçilerin siyasî talebini ilk kez gündeme getirdi.",
   kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı" },
 
-{ t:"1397-01-01", b:"Medici Bankası'nın kurulması", tur:"iktisat", onem:5, dunya:3, kapsam:"ic", yer_id:"Floransa",
+{ t:"1397-01-01", b:"Medici Bankası'nın kurulması", tur:"ekonomi", onem:5, dunya:3, kapsam:"ic", yer_id:"Floransa",
   etiket:["floransa","ekonomi","hanedan"],
   d:"Giovanni di Bicci de' Medici, ailenin bankacılık işini Floransa'da kurumsallaştırdı; şube ağı kısa sürede Roma'dan Londra'ya, Bruges'e kadar uzanacak ve Medici hanedanının servetinin (dolayısıyla siyasî iktidarının) temeli olacaktı. Banka, papalık maliyesinin de fiilen kasadarı hâline geldi.",
   kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı" },
 
-{ t:"1401-01-01", b:"Vaftizhane kapı yarışması — Rönesans'ın simgesel açılışı", tur:"sanat", onem:3, dunya:3, kapsam:"ic", yer_id:"Floransa",
-  etiket:["floransa","sanat","kultur"],
+{ t:"1401-01-01", b:"Vaftizhane kapı yarışması — Rönesans'ın simgesel açılışı", tur:"kultur", onem:3, dunya:3, kapsam:"ic", yer_id:"Floransa",
+  etiket:["floransa","kultur","kultur"],
   d:"Floransa Katedrali Vaftizhanesi'nin bronz kapılarını yapacak sanatçıyı belirlemek için düzenlenen yarışmayı Lorenzo Ghiberti, rakibi Filippo Brunelleschi'ye karşı kazandı; yarışma, sanat tarihçilerince Rönesans'ın Floransa'daki simgesel başlangıç noktalarından biri sayılır. Yenilen Brunelleschi enerjisini mimarîye yöneltip otuz beş yıl sonra kubbeyi inşa edecekti.",
   kaynak:"bulunamadı — gün DOĞRULANMADI, standart akademik konsensüs" },
 
@@ -783,7 +783,7 @@ window.KRONOLOJI_ITALYA = [
   kaynak:"data/devletler.js `ferrara` embedded kronoloji: \"Papa tarafından 'Ferrara Dükü' unvanı tanındı\"", yer_id:"Roma" },
 
 { t:"1516-01-01", b:"Ariosto'nun 'Çılgın Orlando'yu yayımlaması", tur:"kultur", onem:4, dunya:3, kapsam:"ic", yer_id:"",
-  etiket:["ferrara","este","kultur","sanat"],
+  etiket:["ferrara","este","kultur","kultur"],
   d:"Este sarayının şairi Ludovico Ariosto, şövalyelik destanı geleneğini ironiyle harmanlayan \"Orlando Furioso\"nun ilk baskısını Ferrara'da yayımladı; eser, İtalyan edebiyatının en etkili şiir yapıtlarından biri olarak sonraki yüzyılların Avrupa edebiyatını (Spenser, Cervantes) doğrudan etkileyecekti.",
   kaynak:"bulunamadı — gün DOĞRULANMADI, standart akademik konsensüs (ilk baskı 1516)", yer_id:"Ferrara" },
 
@@ -937,7 +937,7 @@ window.KRONOLOJI_ITALYA = [
   kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı", yer_id:"Adua" },
 
 { t:"1900-07-29", b:"I. Umberto'nun suikastı", tur:"olum", onem:3, dunya:1, kapsam:"ic", yer_id:"",
-  etiket:["italya-birlik","kriz"],
+  etiket:["italya-birlik","kriz","suikast"],
   d:"Kral I. Umberto, anarşist Gaetano Bresci tarafından Monza'da tabancayla öldürüldü; suikast, Bresci'nin bir yıl önce hükümetin işçi gösterilerine ateş açtırmasının (Bava-Beccaris Katliamı) intikamıydı. Tahta oğlu III. Vittorio Emanuele geçti.",
   kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı", yer_kon:[45.584,9.274] },
 
@@ -1007,7 +1007,7 @@ window.KRONOLOJI_ITALYA = [
   kaynak:"bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı", yer_kon:[45.327,14.442] },
 
 { t:"1922-10-28", b:"Roma Yürüyüşü — Mussolini'nin iktidara gelişi", tur:"darbe", onem:5, dunya:5, kapsam:"ic", yer_id:"Roma",
-  etiket:["italya-birlik","kriz","siyaset"],
+  etiket:["italya-birlik","kriz","siyaset","darbe-askeri"],
   d:"Binlerce Kara Gömlekli faşist milis, Benito Mussolini önderliğinde Roma'ya doğru yürüyüşe geçti; Kral III. Vittorio Emanuele, sıkıyönetim ilan edip orduyla müdahale etmek yerine iki gün sonra Mussolini'yi hükümeti kurmaya davet etti. Tek bir silah patlamadan gerçekleşen bu iktidar devri, İtalya'da yirmi bir yıl sürecek faşist rejimin başlangıcı ve 20. yüzyıl Avrupa siyasetinin en dönüştürücü olaylarından biri oldu.",
   kaynak:"Treccani, Dizionario di Storia, 'Marcia su Roma' (gövdesi WebFetch ile okundu): \"Manifestazione di carattere eversivo, organizzata dal Partito nazionale fascista il 28 ottobre 1922\"; Mussolini fiilen 30 Ekim'de Roma'ya ulaştı, Yürüyüş'ün kendisi ve kralın hükümet kurma daveti 28-29 Ekim'dedir" },
 
@@ -1020,13 +1020,13 @@ window.KRONOLOJI_ITALYA = [
 // yine kendi devletine (etiket) bağlı, ayrı bir "genel İtalya kültürü"
 // başlığı DEĞİL.
 
-{ t:"1494-01-01", b:"Luca Pacioli'nin çift girişli muhasebeyi kodifiye etmesi (Milano bağlantısı)", tur:"iktisat", onem:4, dunya:4, kapsam:"ic", yer_id:"Milano",
-  etiket:["milano","bilim","iktisat"],
+{ t:"1494-01-01", b:"Luca Pacioli'nin çift girişli muhasebeyi kodifiye etmesi (Milano bağlantısı)", tur:"ekonomi", onem:4, dunya:4, kapsam:"ic", yer_id:"Milano",
+  etiket:["milano","bilim","ekonomi"],
   d:"Toskanalı keşiş-matematikçi Luca Pacioli, 'Summa de Arithmetica, Geometria, Proportioni et Proportionalita' adlı eserinde Venedikli tüccarların pratikte kullandığı çift girişli muhasebe yöntemini ilk kez sistemli biçimde yazıya döktü (kitap Venedik'te basıldı). Pacioli birkaç yıl sonra Ludovico Sforza'nın Milano sarayına yerleşip Leonardo da Vinci ile aynı çatı altında çalışacak, ona geometri dersleri verecekti — modern muhasebenin kurucu metni Milano-Venedik-Floransa üçgeninin ortak ürünüdür.",
   kaynak:"bulunamadı — standart akademik konsensüs (Pacioli literatüründe yaygın kabul); bu oturumda birincil metin OKUNMADI. ⚠️ Kitabın basım yeri Venedik'tir, bu madde Pacioli'nin sonraki Milano bağlantısı üzerinden bu dosyaya alındı — koordinatöre bildirilecek bir sınır vakası" },
 
-{ t:"1508-01-01", b:"Raphael'in Vatikan Odaları'nı (Stanze) çalışmaya başlaması", tur:"sanat", onem:4, dunya:3, kapsam:"ic", yer_id:"Roma",
-  etiket:["papalik","sanat","kultur"],
+{ t:"1508-01-01", b:"Raphael'in Vatikan Odaları'nı (Stanze) çalışmaya başlaması", tur:"kultur", onem:4, dunya:3, kapsam:"ic", yer_id:"Roma",
+  etiket:["papalik","kultur","kultur"],
   d:"Papa II. Julius, genç Raphael'i Vatikan sarayının özel dairelerini freskle donatmakla görevlendirdi; buradaki 'Atina Okulu' (Antik filozofları Rönesans sanatçılarının yüzleriyle betimleyen kompozisyon), Batı sanatının klasik-Hristiyan sentezinin en çok yeniden üretilen imgelerinden biri oldu.",
   kaynak:"bulunamadı — gün DOĞRULANMADI, standart akademik konsensüs" },
 
@@ -1036,17 +1036,17 @@ window.KRONOLOJI_ITALYA = [
   kaynak:"bulunamadı — gün YAYGIN KABUL, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı" },
 
 { t:"1550-01-01", b:"Vasari'nin 'Sanatçıların Hayatları'nı yayımlaması", tur:"kultur", onem:4, dunya:3, kapsam:"ic", yer_id:"Floransa",
-  etiket:["floransa","kultur","sanat"],
+  etiket:["floransa","kultur","kultur"],
   d:"Ressam-mimar Giorgio Vasari, Floransa merkezli İtalyan Rönesans sanatçılarının (Giotto'dan Michelangelo'ya) biyografilerini topladığı 'Le Vite' adlı eserini yayımladı; kitap yalnız bir kaynak değil, sanat tarihi disiplininin kendisinin kurucu metni sayılır ve 'Rönesans' kavramının kendisini büyük ölçüde bu anlatı biçimlendirmiştir.",
   kaynak:"bulunamadı — gün DOĞRULANMADI, standart akademik konsensüs" },
 
 { t:"1581-01-01", b:"Uffizi Galerisi'nin kurulması", tur:"kultur", onem:3, dunya:2, kapsam:"ic", yer_id:"Floransa",
-  etiket:["floransa","toskana","kultur","sanat"],
+  etiket:["floransa","toskana","kultur","kultur"],
   d:"Büyük Dük I. Francesco, babası Cosimo I'in idarî büro binası (uffizi — 'ofisler') olarak yaptırdığı yapının üst katını Medici koleksiyonunun sergilendiği bir galeriye dönüştürdü; dünyanın ilk modern sanat müzelerinden biri sayılan Uffizi, bugün hâlâ Rönesans resminin en zengin koleksiyonlarından birini barındırıyor.",
   kaynak:"bulunamadı — gün DOĞRULANMADI, standart akademik konsensüs" },
 
-{ t:"1600-10-06", b:"İlk opera 'Euridice'nin Floransa'da sahnelenmesi", tur:"sanat", onem:4, dunya:4, kapsam:"ic", yer_id:"Floransa",
-  etiket:["floransa","sanat","kultur"],
+{ t:"1600-10-06", b:"İlk opera 'Euridice'nin Floransa'da sahnelenmesi", tur:"kultur", onem:4, dunya:4, kapsam:"ic", yer_id:"Floransa",
+  etiket:["floransa","kultur","kultur"],
   d:"Bestecı Jacopo Peri'nin, Floransalı hümanist bir çevrenin (Camerata) antik Yunan tragedyasını müzikle canlandırma deneylerinden doğan 'Euridice'si, Fransa Kralı IV. Henri ile Maria de' Medici'nin düğün kutlamaları vesilesiyle sahnelendi; günümüze tam metniyle ulaşan ilk opera olarak kabul edilir ve Floransa'yı bu yeni sanat formunun doğum yeri yapar — opera birkaç on yıl içinde Venedik ve sonra bütün Avrupa'ya yayılacaktı.",
   kaynak:"bulunamadı — gün DOĞRULANMADI, standart akademik konsensüs (temsilin 1600 Ekim'inde olduğu yaygın kabul)" },
 
@@ -1055,8 +1055,8 @@ window.KRONOLOJI_ITALYA = [
   d:"Dünya tarihini değiştirecek 1492 seferinin kaptanı, bir Cenevizli dokumacı ailesinin oğlu olarak dünyaya geldi (kesin doğum günü belgelenmemiştir, yıl tarihçilerce yaygın kabul görür). Kolomb'un Cenova'da denizcilik ve haritacılık öğrenmesi, cumhuriyetin uzun deniz ticareti geleneğinin dolaylı ama en kalıcı mirası sayılır — kendisi İspanya adına sefer yapacak, doğduğu cumhuriyetin bu keşiften doğrudan payı olmayacaktı.",
   kaynak:"bulunamadı — doğum yılı standart akademik konsensüs, kesin gün tarihçiler arasında TARTIŞMALI (belgelenmemiş); bu oturumda birincil metin OKUNMADI" },
 
-{ t:"1737-05-04", b:"San Carlo Operası'nın açılışı", tur:"sanat", onem:3, dunya:2, kapsam:"ic", yer_id:"Napoli",
-  etiket:["napoli","sanat","kultur"],
+{ t:"1737-05-04", b:"San Carlo Operası'nın açılışı", tur:"kultur", onem:3, dunya:2, kapsam:"ic", yer_id:"Napoli",
+  etiket:["napoli","kultur","kultur"],
   d:"Bourbon Kralı Carlos'un emriyle inşa edilen Teatro di San Carlo, dönemin Avrupa'sının en büyük opera binası olarak açıldı; Napoli bu tarihten itibaren, kendi bestecileriyle (Neapolitan opera okulu — Alessandro Scarlatti, Pergolesi, Cimarosa) 18. yüzyıl Avrupa müziğinin en etkili merkezlerinden birine dönüştü.",
   kaynak:"bulunamadı — gün YAYGIN KABUL, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı" },
 
@@ -1065,8 +1065,8 @@ window.KRONOLOJI_ITALYA = [
   d:"Bourbon Kralı Carlos'un emriyle, MS 79'da Vezüv'ün küllerinin altında kalan Roma şehri Pompeii'de sistemli kazılara başlandı (Herculaneum'da birkaç yıl önce başlamıştı); buluntular Avrupa'da neoklasik sanat akımını doğrudan besledi ve modern arkeoloji disiplininin doğuşuna zemin hazırladı — Napoli Krallığı'nın bilim tarihine en kalıcı katkısı budur.",
   kaynak:"bulunamadı — gün DOĞRULANMADI, standart akademik konsensüs" },
 
-{ t:"1778-08-03", b:"La Scala Operası'nın açılışı", tur:"sanat", onem:4, dunya:3, kapsam:"ic", yer_id:"Milano",
-  etiket:["milano","sanat","kultur"],
+{ t:"1778-08-03", b:"La Scala Operası'nın açılışı", tur:"kultur", onem:4, dunya:3, kapsam:"ic", yer_id:"Milano",
+  etiket:["milano","kultur","kultur"],
   d:"Avusturya idaresindeki Milano'da, önceki tiyatronun yanmasının ardından inşa edilen Teatro alla Scala açıldı; bina kısa sürede dünyanın en prestijli opera sahnelerinden biri hâline geldi ve on dokuzuncu yüzyılda Verdi'nin çoğu eserinin prömiyerine ev sahipliği yapacaktı.",
   kaynak:"bulunamadı — gün YAYGIN KABUL, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı" },
 

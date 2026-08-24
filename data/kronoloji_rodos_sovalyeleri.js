@@ -86,7 +86,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
   d:"Dört yıllık direnişten sonra Rodos şehri teslim oldu ve tarikat merkezini adaya taşıdı. Bundan sonra Hospitalier tarikatı yalnız bir dinî-askerî düzen değil, kendi parasını basan, elçi kabul eden EGEMEN BİR DEVLETTİR. Bu hâl 1798'e kadar 488 yıl sürecektir.",
   kaynak:"Anthony Luttrell, The Hospitaller State on Rhodes and its Western Provinces 1306-1462 (Variorum, 1999) · TDV 'rodos' md.: \"Saint Jean şövalyelerinin (Hospitalier/İsbitâriyye) eline geçişine kadar\" · 🟢 `dunya:3` — külliyatta bu gün YOK, değeri BEN kuruyorum" },
 
-{ t:"1312-05-03", b:"Tapınak Şövalyeleri'nin mallarının tarikata devri", tur:"iktisat", onem:5, dunya:3, kapsam:"dis", yer_id:"",
+{ t:"1312-05-03", b:"Tapınak Şövalyeleri'nin mallarının tarikata devri", tur:"ekonomi", onem:5, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["ekonomi","din"],
   d:"Papa V. Clemens, Vienne Konsili'nde lağvedilen Tapınak Şövalyeleri'nin Avrupa'daki mülklerini Hospitalier tarikatına devretti. Bu devir, Rodos'taki devletin maddî temelini kurdu: adanın kendi geliri bir donanmayı besleyemezdi, Batı Avrupa'daki commanderie ağı besledi. Tarikatın Rodos'ta ayakta kalmasının asıl sebebi budur.",
   kaynak:"Helen Nicholson, The Knights Hospitaller (Boydell, 2001) · Luttrell, The Hospitaller State on Rhodes" },
@@ -336,12 +336,12 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
   kaynak:"TDV 'inebahti-savasi' md. · Setton, The Papacy and the Levant, c. IV · `dunya:4` — venedik ve ispanya dosyalarıyla BİREBİR hizalandı" },
 
 { t:"1573-01-01", b:"Saint John Ortak Katedrali'nin inşasına başlanması", tur:"mimari", onem:4, dunya:2, kapsam:"ic", yer_id:"Malta",
-  etiket:["mimari","din","sanat"],
+  etiket:["mimari","din","kultur"],
   d:"Büyük Üstat Jean de la Cassière, Gerolamo Cassar'ın tasarımıyla tarikatın konvent kilisesini yaptırmaya başladı; yapı 1578'de ibadete açıldı. Dış cephenin sert askerî sadeliği ile iç mekânın sonraki yüzyıllarda kazandığı zenginlik arasındaki tezat, tarikatın kendini nasıl gördüğünü anlatır. Zemini, sekiz langue'un şövalyelerine ait mermer kakma mezar taşlarıyla kaplanmıştır.",
   kaynak:"Quentin Hughes, The Building of Malta 1530-1795 · Mallia-Milanes (ed.), Hospitaller Malta 1530-1798 · gün bilinmiyor" },
 
 { t:"1574-01-01", b:"Sacra Infermeria'nın (Kutsal Hastane) açılması", tur:"bilim", onem:5, dunya:3, kapsam:"ic", yer_id:"Malta",
-  etiket:["bilim","sosyal","mimari"],
+  etiket:["bilim","sosyal","mimari","islahat"],
   d:"Valletta'da tarikatın büyük hastanesi hizmete girdi; ana koğuşu Avrupa'nın en uzun salonlarından biriydi ve hastalara gümüş kaplarda yemek verilmesi kuraldı. Hasta bakımı, din ve millet ayrımı gözetilmeksizin, Müslüman esirlere de uygulanırdı. Tarikatın adındaki 'hospitalier' sıfatının Malta'daki en somut karşılığıdır ve şövalyelerin öz tanımının merkezindedir.",
   kaynak:"Paul Cassar, Medical History of Malta (Wellcome Historical Medical Library, 1964) · Mallia-Milanes (ed.), Hospitaller Malta 1530-1798 · açılış yılı yaklaşıktır" },
 
@@ -350,13 +350,13 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
   d:"Papa XIII. Gregorius'un fermanıyla Valletta'da Cizvit koleji açıldı ve adada ilk yüksek öğretim kurumu doğdu. Kurum felsefe ve ilâhiyat okuttu, sonradan tıp ve hukuk eklendi. 1769'da Cizvitler kovulunca aynı kurum Malta Üniversitesi'ne dönüşecektir.",
   kaynak:"Mallia-Milanes (ed.), Hospitaller Malta 1530-1798 · gün bilinmiyor" },
 
-{ t:"1607-07-14", b:"Caravaggio'nun tarikata şövalye olarak kabulü", tur:"sanat", onem:4, dunya:3, kapsam:"ic", yer_id:"Malta",
-  etiket:["sanat","kultur"],
+{ t:"1607-07-14", b:"Caravaggio'nun tarikata şövalye olarak kabulü", tur:"kultur", onem:4, dunya:3, kapsam:"ic", yer_id:"Malta",
+  etiket:["kultur","kultur"],
   d:"Roma'da işlediği cinayetten kaçan ressam Caravaggio Malta'ya sığındı ve Büyük Üstat Alof de Wignacourt tarafından itaat şövalyesi yapıldı. Adada kaldığı bir yılda tarikat için birkaç eser üretti. Bir suçlunun sanatı sayesinde şövalye yapılması, tarikatın 17. yüzyıldaki değişen önceliklerini de gösterir.",
   kaynak:"Keith Sciberras, Caravaggio to Mattia Preti: Baroque Painting in Malta (Midsea, 2015) · Mallia-Milanes (ed.), Hospitaller Malta 1530-1798" },
 
-{ t:"1608-01-01", b:"Caravaggio'nun 'Vaftizci Yahya'nın Başının Kesilmesi' tablosunu tamamlaması", tur:"sanat", onem:4, dunya:4, kapsam:"ic", yer_id:"Malta",
-  etiket:["sanat","kultur","din"],
+{ t:"1608-01-01", b:"Caravaggio'nun 'Vaftizci Yahya'nın Başının Kesilmesi' tablosunu tamamlaması", tur:"kultur", onem:4, dunya:4, kapsam:"ic", yer_id:"Malta",
+  etiket:["kultur","kultur","din"],
   d:"Ressamın Saint John Katedrali'nin ibadethanesi için yaptığı dev tablo tamamlandı; sanatçının imzasını attığı BİLİNEN TEK eserdir ve imza, azizin kanıyla atılmış gibi resmedilmiştir. Yapıt Batı resminin başyapıtları arasında sayılır ve bugün hâlâ yapıldığı yerde durmaktadır. Caravaggio aynı yıl tarikattan ihraç edilip adadan kaçtı.",
   kaynak:"Keith Sciberras, Caravaggio to Mattia Preti: Baroque Painting in Malta (Midsea, 2015) · gün bilinmiyor" },
 
@@ -385,8 +385,8 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
   d:"Tarikat kadırgalarının 1644'te bir Osmanlı hac konvoyunu basıp esir alması, Osmanlı'nın Venedik Girit'ine sefer açması için gerekçe oldu ve savaş Hanya'nın kuşatılmasıyla başladı. Şövalyeler savaş boyunca Venedik'e kadırga desteği verdiler. Bir tarikat baskınının yirmi dört yıllık bir savaşı başlatması, corso'nun siyasî bedelini gösterir.",
   kaynak:"TDV 'girit' md. · Setton, Venice, Austria and the Turks in the Seventeenth Century (American Philosophical Society, 1991) · `dunya:3` — venedik dosyasıyla hizalandı" },
 
-{ t:"1661-01-01", b:"Mattia Preti'nin Saint John tonozunu boyamaya başlaması", tur:"sanat", onem:4, dunya:3, kapsam:"ic", yer_id:"Malta",
-  etiket:["sanat","kultur","din"],
+{ t:"1661-01-01", b:"Mattia Preti'nin Saint John tonozunu boyamaya başlaması", tur:"kultur", onem:4, dunya:3, kapsam:"ic", yer_id:"Malta",
+  etiket:["kultur","kultur","din"],
   d:"İtalyan ressam Mattia Preti, katedralin beşik tonozunu Vaftizci Yahya'nın hayatını anlatan sahnelerle boyamaya girişti ve iş beş yılda tamamlandı. Preti ölümüne kadar Malta'da kaldı ve adanın resim geleneğini kurdu. Barok resmin en geniş ölçekli tonoz programlarından biridir.",
   kaynak:"Keith Sciberras, Caravaggio to Mattia Preti: Baroque Painting in Malta (Midsea, 2015) · gün bilinmiyor" },
 
@@ -441,7 +441,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
 //    kusur bir sayıda değil, dosyayı OSMANLI CEPHESİNDEN yazmış
 //    olmamdaydı — `kronoloji_venedik.js` başlığındaki ölçülmüş
 //    hatanın aynısı. Bu parti onu düzeltmek için yazıldı.
-{ t:"1314-01-01", b:"Rodos'ta tarikat parasının basılmaya başlanması", tur:"iktisat", onem:4, dunya:2, kapsam:"ic", yer_id:"Rodos",
+{ t:"1314-01-01", b:"Rodos'ta tarikat parasının basılmaya başlanması", tur:"ekonomi", onem:4, dunya:2, kapsam:"ic", yer_id:"Rodos",
   etiket:["ekonomi","idari"],
   d:"Tarikat, Rodos'ta kendi sikkesini (gigliato) basmaya başladı ve para Doğu Akdeniz ticaretinde yaygın kabul gördü. Kendi parasını basmak, egemenliğin en somut nişanıdır ve tarikatı bir dinî düzenden bir DEVLET'e çeviren adımlardandır. Rodos gigliato'su Anadolu beyliklerinde bile taklit edildi.",
   kaynak:"Luttrell, The Hospitaller State on Rhodes and its Western Provinces 1306-1462 (Variorum, 1999) · yıl yaklaşıktır" },
@@ -451,7 +451,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
   d:"Rodos şehrinin iç kalesinde, her millet (langue) için ayrı bir konak (auberge) yapıldı ve bunlar tek bir cadde boyunca dizildi. Cadde, Orta Çağ'dan bugüne neredeyse bozulmadan gelen en bütün Gotik sokaklardan biridir. Mimarî düzenin idarî düzeni birebir yansıtması, tarikat devletinin karakteristiğidir.",
   kaynak:"Luttrell, The Hospitaller State on Rhodes 1306-1462 · Elias Kollias, The Medieval City of Rhodes and the Palace of the Grand Master (Athens, 1998) · yıl yaklaşıktır" },
 
-{ t:"1358-01-01", b:"Rodos'ta şeker kamışı üretiminin geliştirilmesi", tur:"iktisat", onem:3, dunya:2, kapsam:"ic", yer_id:"Rodos",
+{ t:"1358-01-01", b:"Rodos'ta şeker kamışı üretiminin geliştirilmesi", tur:"ekonomi", onem:3, dunya:2, kapsam:"ic", yer_id:"Rodos",
   etiket:["ekonomi","teknoloji"],
   d:"Tarikat, Kıbrıs'tan getirilen usullerle adada şeker kamışı ekimini ve işlenmesini yaygınlaştırdı; şeker Batı'ya ihraç edilen başlıca ürün oldu. Değirmenler ve kaynatma tesisleri devlet eliyle kuruldu. Askerî bir tarikatın plantasyon işletmesi kurması, Rodos ekonomisinin ne kadar Latin sömürge modeline benzediğini gösterir.",
   kaynak:"Luttrell, The Hospitaller State on Rhodes and its Western Provinces 1306-1462 · yıl yaklaşıktır" },
@@ -487,7 +487,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
   kaynak:"Vatin, L'Ordre de Saint-Jean-de-Jérusalem... 1480-1522 · yıl yaklaşıktır" },
 
 { t:"1533-01-01", b:"Malta'da nüfus sayımı ve adanın idarî düzeninin kurulması", tur:"idari", onem:3, dunya:1, kapsam:"ic", yer_id:"Malta",
-  etiket:["idari","sosyal"],
+  etiket:["idari","sosyal","islahat"],
   d:"Tarikat, devraldığı adanın nüfusunu ve kaynaklarını saydırdı; sayı yaklaşık yirmi bindi ve toprak büyük ölçüde kıraçtı. Maltalı soyluların oluşturduğu Università adlı yerel meclis korundu ama yetkileri sınırlandı. Bu ikili yapı — tarikat devleti ile yerli meclis — iki yüz altmış sekiz yıl boyunca sürekli sürtüşme kaynağı oldu.",
   kaynak:"Mallia-Milanes (ed.), Hospitaller Malta 1530-1798 (Mireva, 1993) · yıl yaklaşıktır" },
 
@@ -512,7 +512,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
   kaynak:"Quentin Hughes, The Building of Malta 1530-1795 (Tiranti, 1956) · yıl yaklaşıktır" },
 
 { t:"1638-01-01", b:"Malta'da hastane hemşireliğinin kadınlara açılması ve Kadınlar Hastanesi", tur:"sosyal", onem:3, dunya:2, kapsam:"ic", yer_id:"Malta",
-  etiket:["sosyal","bilim"],
+  etiket:["sosyal","bilim","islahat"],
   d:"Valletta'da kadın hastalar için ayrı bir hastane (Casetta delle Donne) kuruldu ve bakım kadın görevlilere verildi. Sacra Infermeria yalnız erkeklere hizmet ediyordu ve bu boşluk uzun süredir eleştiriliyordu. Tarikatın hasta bakımını cinsiyete göre kurumsallaştırması, dönemin Akdeniz'inde ileri bir uygulamadır.",
   kaynak:"Paul Cassar, Medical History of Malta (Wellcome Historical Medical Library, 1964) · yıl yaklaşıktır" },
 
@@ -527,7 +527,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
   kaynak:"Mallia-Milanes (ed.), Hospitaller Malta 1530-1798 · yıl yaklaşıktır" },
 
 { t:"1731-01-09", b:"Manoel Tiyatrosu'nun açılması", tur:"kultur", onem:3, dunya:2, kapsam:"ic", yer_id:"Malta",
-  etiket:["kultur","sanat"],
+  etiket:["kultur","kultur"],
   d:"Büyük Üstat Manoel de Vilhena, kendi parasıyla yaptırdığı tiyatroyu 'halkın dürüst eğlencesi için' açtı. Yapı, Avrupa'da hâlâ faal olan en eski tiyatro binalarından biridir. Bir askerî tarikatın başkanının tiyatro yaptırması, 18. yüzyılda tarikatın nasıl bir aristokrat kulübüne dönüştüğünü gösterir.",
   kaynak:"Mallia-Milanes (ed.), Hospitaller Malta 1530-1798 · gün yaklaşıktır" },
 
@@ -546,7 +546,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
   d:"Lazzaretto'daki karantina rejimi, Avrupa devletlerinin Doğu'dan gelen gemiler için Malta belgesini kabul etmesiyle uluslararası bir standarda dönüştü. Tarikat böylece askerî değil SIHHÎ bir hizmetle Akdeniz ticaretinde vazgeçilmez oldu. Bu, devletin son yüzyılda bulduğu en kalıcı varlık gerekçesidir.",
   kaynak:"Paul Cassar, Medical History of Malta (Wellcome Historical Medical Library, 1964) · yıl yaklaşıktır" },
 
-{ t:"1786-01-01", b:"Tarikat gelirlerinin ve Avrupa'daki mülk ağının son ölçümü", tur:"iktisat", onem:3, dunya:1, kapsam:"dis", yer_id:"",
+{ t:"1786-01-01", b:"Tarikat gelirlerinin ve Avrupa'daki mülk ağının son ölçümü", tur:"ekonomi", onem:3, dunya:1, kapsam:"dis", yer_id:"",
   etiket:["ekonomi","idari"],
   d:"Tarikatın geliri hâlâ büyük ölçüde Fransa, İspanya, İtalya ve Almanya'daki commanderie'lerden geliyordu; Malta'nın kendi üretimi bütçenin küçük bir kısmıydı. Bu bağımlılık, Avrupa'da bir siyasî kırılma olduğunda devletin bir gecede iflas edebileceği anlamına geliyordu. Altı yıl sonra Fransa'da tam bu oldu.",
   kaynak:"Mallia-Milanes (ed.), Hospitaller Malta 1530-1798 · yıl yaklaşıktır" },

@@ -125,7 +125,7 @@ window.KRONOLOJI_FRANSA = [
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_kon:[50.258,1.886] },
 
 { t:"1347-08-03", b:"Calais'nin İngilizlere düşmesi", tur:"toprak-kayip", onem:4, dunya:2, kapsam:"dis", yer_id:"Calais",
-  etiket:["askeri","toprak-kaybi"],
+  etiket:["askeri","toprak-kayip"],
   d:"On bir aylık kuşatmanın ardından şehir teslim oldu; Calais, ardından iki yüz yirmi yıl boyunca İngiliz Kraliyeti'nin kıta Avrupası'ndaki son kalesi olarak kaldı. 'Calais'nin altı burjuvası' anlatısı bu teslimiyetten doğdu.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
 
@@ -145,7 +145,7 @@ window.KRONOLOJI_FRANSA = [
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", kapsam_genis:true },
 
 { t:"1360-05-08", b:"Brétigny Antlaşması", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"",
-  etiket:["antlasma","toprak-kaybi"],
+  etiket:["antlasma","toprak-kayip"],
   d:"Fransa, Aquitaine'in tam egemenliğini İngiltere'ye bırakmayı ve Kral II. Jean için ağır bir fidye ödemeyi kabul etti; buna karşılık Edward Fransa tacı üzerindeki iddiasından vazgeçti. Antlaşma savaşı yalnız geçici olarak durdurdu; on yıl içinde çatışmalar yeniden başladı.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_kon:[48.47,1.47] },
 
@@ -160,7 +160,7 @@ window.KRONOLOJI_FRANSA = [
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
 
 { t:"1407-11-23", b:"Orléans Dükü'nün suikastı — Armagnac-Burgonya iç savaşının başlaması", tur:"kriz", onem:5, dunya:3, kapsam:"ic", yer_id:"Paris",
-  etiket:["kriz","hanedan","isyan"],
+  etiket:["kriz","hanedan","isyan","suikast"],
   d:"Burgonya Dükü Korkusuz Jean'ın adamları, kralın kardeşi Orléans Dükü Louis'yi Paris sokaklarında öldürttü; cinayet, on yıllardır süren hanedan içi rekabeti açık bir iç savaşa dönüştürdü. Bölünmüş Fransa, birkaç yıl sonra İngiliz istilasına karşı neredeyse hiç direnemeyecekti.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
 
@@ -170,7 +170,7 @@ window.KRONOLOJI_FRANSA = [
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_kon:[50.467,2.133] },
 
 { t:"1420-05-21", b:"Troyes Antlaşması — İngiliz veraset iddiasının tescili", tur:"antlasma", onem:5, dunya:3, kapsam:"dis", yer_id:"",
-  etiket:["antlasma","hanedan","toprak-kaybi"],
+  etiket:["antlasma","hanedan","toprak-kayip"],
   d:"VI. Charles, kızı Catherine'i V. Henry ile evlendirerek İngiliz kralını kendi vârisi ve naibi ilan etti; öz oğlu Dauphin Charles veraset dışı bırakıldı. Antlaşma iki tacı fiilen birleştirdi ve Fransa'nın bağımsız varlığını en kırılgan anına taşıdı.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_id:"Troyes" },
 
@@ -260,7 +260,7 @@ window.KRONOLOJI_FRANSA = [
   kaynak:"TDV `fransa` maddesi (islamansiklopedisi.org.tr/fransa, canlı, gövdesi okundu)" },
 
 { t:"1526-01-14", b:"Madrid Antlaşması — I. François'nın serbest bırakılması", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"Madrid",
-  etiket:["antlasma","toprak-kaybi"],
+  etiket:["antlasma","toprak-kayip"],
   d:"Burgonya'yı Habsburglara bırakmayı ve oğullarını rehin vermeyi kabul eden François, serbest bırakılır bırakılmaz antlaşmayı 'zorla imzalatıldığı' gerekçesiyle tanımadığını ilan etti. Antlaşmanın çökmesi, Habsburg-Fransa savaşlarının yeni bir turunu başlattı.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
 
@@ -305,7 +305,7 @@ window.KRONOLOJI_FRANSA = [
 // 📌 Azınlıkta kalan (italya=4) DOĞRUYDU. Çoğunluğa uymak yanlış olurdu —
 // bu, "veri doğru, rapor yanlış" dersinin puanlama yüzü.
 { t:"1559-04-03", b:"Cateau-Cambrésis Antlaşması — İtalyan Savaşları'nın sona ermesi", tur:"antlasma", onem:4, dunya:4, kapsam:"dis", yer_id:"",
-  etiket:["antlasma","toprak-kaybi"],
+  etiket:["antlasma","toprak-kayip"],
   d:"Altmış beş yıllık İtalyan Savaşları'nı bitiren antlaşmayla Fransa İtalya'daki iddialarının çoğundan vazgeçti ama Calais'yi İngiltere'den geri aldı. Barış, iki büyük Katolik gücü artık kendi ülkelerindeki Protestan hareketiyle yüzleşmeye serbest bıraktı.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_kon:[50.097,3.539] },
 
@@ -325,7 +325,7 @@ window.KRONOLOJI_FRANSA = [
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
 
 { t:"1589-08-01", b:"III. Henri'nin suikastı ve Valois hanedanının sona ermesi", tur:"hanedan", onem:5, dunya:3, kapsam:"ic", yer_id:"Paris",
-  etiket:["hanedan","din","kriz"],
+  etiket:["hanedan","din","kriz","suikast"],
   d:"Fanatik bir keşiş tarafından bıçaklanarak öldürülen III. Henri'nin ölümüyle iki buçuk asırlık Valois hanedanı sona erdi ve taç, Protestan Navarre Kralı Henri'ye (IV. Henri) geçerek Bourbon hanedanını başlattı. Katolik Birliği'nin bir Protestan kralı tanımayı reddetmesi savaşı dört yıl daha uzattı.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
 
@@ -345,7 +345,7 @@ window.KRONOLOJI_FRANSA = [
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_id:"Quebec" },
 
 { t:"1610-05-14", b:"IV. Henri'nin suikastı", tur:"olum", onem:5, dunya:2, kapsam:"ic", yer_id:"Paris",
-  etiket:["hanedan","kriz"],
+  etiket:["hanedan","kriz","suikast"],
   d:"Katolik fanatik François Ravaillac'ın hançeriyle öldürülen IV. Henri'nin ardından dokuz yaşındaki XIII. Louis tahta çıktı; annesi Marie de Médicis'in naipliği ülkeyi yeniden soylu isyanlarına ve siyasî istikrarsızlığa sürükledi. Suikast, Bourbon hanedanının ilk büyük krizi oldu.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
 
@@ -405,7 +405,7 @@ window.KRONOLOJI_FRANSA = [
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_id:"Nantes" },
 
 { t:"1666-12-22", b:"Bilimler Akademisi'nin kurulması", tur:"bilim", onem:4, dunya:2, kapsam:"ic", yer_id:"Paris",
-  etiket:["bilim"],
+  etiket:["bilim","islahat"],
   d:"Colbert'in girişimiyle kurulan Académie royale des sciences, devlet himayesinde düzenli bilimsel araştırmayı kurumsallaştıran Avrupa'nın öncü bilim akademilerinden biri oldu. Ertesi yıl kurulan Paris Gözlemevi ile akademi, Fransa'yı bilimde bir asrı aşkın süre öncü konuma taşıdı.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
 
@@ -420,7 +420,7 @@ window.KRONOLOJI_FRANSA = [
   kaynak:"standart ders kitabı bilgisi — kesin gün için akademik kaynaklar Mayıs 1682'yi verir, tam gün doğrulanmadı", yer_kon:[48.805,2.12] },
 
 { t:"1683-09-06", b:"Colbert'in ölümü", tur:"olum", onem:4, dunya:1, kapsam:"ic", yer_id:"Paris",
-  etiket:["idari","iktisat"],
+  etiket:["idari","ekonomi"],
   d:"Yirmi iki yıl boyunca Fransız maliyesini, sanayisini ve donanmasını yeniden inşa eden Jean-Baptiste Colbert'in ölümü, merkantilist devlet ekonomisinin en yaratıcı döneminin sonu oldu. Ölümünden sonra savaş harcamaları maliyeyi hızla dengesizliğe sürükleyecekti.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
 
@@ -450,7 +450,7 @@ window.KRONOLOJI_FRANSA = [
   kaynak:"TDV `fransa` maddesi (canlı) — \"1720'de Yirmisekiz Mehmed Çelebi'nin Paris'e gönderilişi\" · gün belirsiz, YYYY-01-01" },
 
 { t:"1720-05-01", b:"Mississippi Balonu'nun patlaması — John Law'ın çöküşü", tur:"kriz", onem:4, dunya:3, kapsam:"ic", yer_id:"Paris",
-  etiket:["iktisat","kriz","ekonomi"],
+  etiket:["ekonomi","kriz","ekonomi"],
   d:"İskoç finansçı John Law'ın kâğıt para ve Louisiana ticaret şirketi hisseleri üzerine kurduğu spekülatif sistem çöktü; binlerce yatırımcı iflas etti ve devlet uzun süre kâğıt paraya güvenini yitirdi. Kriz, Fransız maliyesinin XVIII. yüzyıl boyunca kronikleşecek borç sorununu daha da derinleştirdi.",
   kaynak:"standart ders kitabı bilgisi — gün belirsiz, ay bilgisiyle yazıldı" },
 
@@ -465,12 +465,12 @@ window.KRONOLOJI_FRANSA = [
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
 
 { t:"1756-01-01", b:"Diplomatik Devrim ve Yedi Yıl Savaşları'na giriş", tur:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"",
-  etiket:["askeri","diplomasi","toprak-kaybi"],
+  etiket:["askeri","diplomasi","toprak-kayip"],
   d:"Fransa, asırlık düşmanı Habsburg Avusturya ile ittifak kurarak Prusya-İngiltere bloğuna karşı savaşa girdi; savaş Avrupa'da olduğu kadar Kuzey Amerika ve Hindistan'da da sürdü. Yedi yıl sonra imzalanacak Paris Antlaşması, Fransa'yı Kuzey Amerika sömürge imparatorluğunun neredeyse tamamından mahrum bırakacaktı.",
   kaynak:"standart ders kitabı bilgisi — gün bilinmiyor, YYYY-01-01", kapsam_genis:true },
 
 { t:"1763-02-10", b:"Paris Antlaşması — Yeni Fransa'nın kaybı", tur:"toprak-kayip", onem:5, dunya:4, kapsam:"dis", yer_id:"",
-  etiket:["antlasma","toprak-kaybi"],
+  etiket:["antlasma","toprak-kayip"],
   d:"Yedi Yıl Savaşları'nı bitiren antlaşmayla Fransa, Kanada'yı ve Mississippi'nin doğusundaki bütün topraklarını İngiltere'ye devretti; Fransız sömürge imparatorluğu Karayipler ve birkaç Hindistan mevkiine küçüldü. Yenilgi, mali ve askerî reform ihtiyacını görünür kılarak on beş yıl sonra Amerikan Bağımsızlık Savaşı'na müdahaleyi motive edecekti.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_id:"Paris" },
 
@@ -570,7 +570,7 @@ window.KRONOLOJI_FRANSA = [
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
 
 { t:"1793-07-13", b:"Marat'nın suikastı", tur:"olum", onem:3, dunya:1, kapsam:"ic", yer_id:"Paris",
-  etiket:["siyaset","kriz"],
+  etiket:["siyaset","kriz","suikast"],
   d:"Jakoben gazeteci Jean-Paul Marat, Girondin sempatizanı Charlotte Corday tarafından banyosunda bıçaklanarak öldürüldü. Suikast, Jakobenlerin Girondinlere karşı kampanyasını sertleştirerek Terör'ün tırmanmasına katkı yaptı.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
 
@@ -580,7 +580,7 @@ window.KRONOLOJI_FRANSA = [
   kaynak:"standart ders kitabı bilgisi — dunya:4, uzun vadeli küresel etki nedeniyle" },
 
 { t:"1793-08-10", b:"Louvre'un halka açık müze olarak açılması", tur:"kultur", onem:3, dunya:2, kapsam:"ic", yer_id:"Paris",
-  etiket:["kultur","sanat"],
+  etiket:["kultur","kultur"],
   d:"Eski kraliyet sarayı, el konan kilise ve soylu koleksiyonlarıyla zenginleştirilerek halkın ücretsiz girebildiği bir müzeye dönüştürüldü. Louvre, kraliyet mülkiyetindeki sanatı 'milletin mirası' hâline getiren bu jestle dünyanın en etkili müzecilik modellerinden birinin öncüsü oldu.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
 
@@ -630,12 +630,12 @@ window.KRONOLOJI_FRANSA = [
   kaynak:"TDV `fransa` maddesi (canlı) — \"1798'de (1 Temmuz) Napolyon'un Mısır işgali\"" },
 
 { t:"1799-11-09", b:"18 Brumaire Darbesi — Napolyon'un iktidara gelişi", tur:"siyaset", onem:5, dunya:4, kapsam:"ic", yer_id:"Paris",
-  etiket:["siyaset","kriz","idari"],
+  etiket:["siyaset","kriz","idari","darbe-askeri"],
   d:"Napolyon, Direktuvar rejimini askerî güçle devirip kendisini üç konsülden biri (ve fiilen tek karar verici) ilan etti; darbe, on yıllık İhtilâl döneminin siyasî deneylerini kapatıp bireysel askerî otoriteye dayalı yeni bir çağ açtı. Cumhuriyet takviminde 'Brumaire ayının 18. günü' adını taşıyan olay, sonraki bütün askerî darbeler için standart bir siyasî model hâline geldi.",
   kaynak:"standart ders kitabı bilgisi — dunya:4, siyasî model olarak uzun vadeli etkisi nedeniyle" },
 
-{ t:"1800-01-18", b:"Fransa Bankası'nın (Banque de France) kurulması", tur:"iktisat", onem:4, dunya:3, kapsam:"ic", yer_id:"Paris",
-  etiket:["iktisat","ekonomi","idari"],
+{ t:"1800-01-18", b:"Fransa Bankası'nın (Banque de France) kurulması", tur:"ekonomi", onem:4, dunya:3, kapsam:"ic", yer_id:"Paris",
+  etiket:["ekonomi","ekonomi","idari","islahat"],
   d:"Napolyon, İhtilâl'in kâğıt para krizlerinden sonra ülkenin maliyesini istikrara kavuşturmak için merkezî bir emisyon bankası kurdurdu. Kurum, bugün de Fransa'nın merkez bankası olarak faaliyetini sürdürüyor ve modern merkez bankacılığının erken örneklerinden biridir.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
 
@@ -679,8 +679,8 @@ window.KRONOLOJI_FRANSA = [
   d:"Napolyon'un kurduğu Ren Konfederasyonu'nun baskısı altında II. Franz, sekiz asırlık Kutsal Roma-Germen İmparatorluğu tacından resmen feragat etti. Fransa'nın dolaylı ama belirleyici rolü, Avrupa'nın en eski siyasî kurumunu tarihe gömdü.",
   kaynak:"standart ders kitabı bilgisi · 🔴 dunya:5 — habsburg dosyasıyla BİREBİR AYNI (M-0873 hizalaması)", yer_id:"Viyana" },
 
-{ t:"1806-11-21", b:"Kıta Ablukası'nın (Berlin Kararnamesi) ilanı", tur:"iktisat", onem:4, dunya:4, kapsam:"dis", yer_id:"Berlin",
-  etiket:["iktisat","ekonomi","diplomasi"],
+{ t:"1806-11-21", b:"Kıta Ablukası'nın (Berlin Kararnamesi) ilanı", tur:"ekonomi", onem:4, dunya:4, kapsam:"dis", yer_id:"Berlin",
+  etiket:["ekonomi","ekonomi","diplomasi"],
   d:"Napolyon, İngiltere'yi ekonomik olarak boğmak için bütün kıta Avrupası'nın İngiliz mallarıyla ticaretini yasakladı. Ablukanın etkisiz kalması ve kaçakçılığı önlemek için gerekli işgaller (özellikle İspanya ve sonra Rusya), imparatorluğun aşırı yayılmasının başlıca nedenlerinden biri oldu.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
 
@@ -760,7 +760,7 @@ window.KRONOLOJI_FRANSA = [
   kaynak:"data/devletler.js (fransa-cumhuriyet kaydı) — TDV `fransa` genel maddesiyle uyumlu" },
 
 { t:"1830-11-25", b:"'Hernani Savaşı' — Victor Hugo ve Romantizmin zaferi", tur:"kultur", onem:3, dunya:2, kapsam:"ic", yer_id:"Paris",
-  etiket:["kultur","sanat"],
+  etiket:["kultur","kultur"],
   d:"Victor Hugo'nun klasik tiyatro kurallarını çiğneyen oyunu 'Hernani'nin ilk gösterimi, klasisist ve romantik taraftarlar arasında salonda neredeyse yumruk yumruğa bir kavgaya dönüştü. Olay, Romantizm akımının Fransız sahnesindeki kesin zaferi olarak edebiyat tarihine geçti.",
   kaynak:"standart ders kitabı bilgisi — gün bilinmiyor, ay bilgisiyle yazıldı" },
 
@@ -800,7 +800,7 @@ window.KRONOLOJI_FRANSA = [
   kaynak:"TDV `fransa` maddesi (canlı) — \"1853-1856: Kırım Savaşı (Fransa ve İngiltere Osmanlı tarafında)\"", yer_id:"Paris" },
 
 { t:"1855-05-15", b:"Paris Dünya Sergisi", tur:"kultur", onem:3, dunya:2, kapsam:"ic", yer_id:"Paris",
-  etiket:["kultur","iktisat","bilim"],
+  etiket:["kultur","ekonomi","bilim"],
   d:"III. Napolyon rejiminin sanayi ve kültür gücünü sergilemek için düzenlediği ilk büyük Paris Dünya Sergisi, milyonlarca ziyaretçi çekti. Sergi, imparatorluğun ekonomik modernleşme iddiasının uluslararası vitrini oldu.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
 
@@ -810,7 +810,7 @@ window.KRONOLOJI_FRANSA = [
   kaynak:"TDV `fransa` maddesi (canlı) — \"18 Şubat 1856: Islahat Fermanı ilânı\"" },
 
 { t:"1857-08-20", b:"Baudelaire'in 'Kötülük Çiçekleri' davası", tur:"kultur", onem:3, dunya:1, kapsam:"ic", yer_id:"Paris",
-  etiket:["kultur","sanat","kanun"],
+  etiket:["kultur","kultur","kanun"],
   d:"Charles Baudelaire'in şiir kitabı 'Les Fleurs du Mal' 'kamu ahlakına aykırılık' gerekçesiyle mahkemeye verildi ve altı şiiri yasaklandı. Dava, dönemin sanatsal özgürlük-sansür geriliminin ve modern şiirin doğuşunun simge olaylarından biridir.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
 
@@ -825,12 +825,12 @@ window.KRONOLOJI_FRANSA = [
   kaynak:"standart ders kitabı bilgisi — gün bilinmiyor, ay bilgisiyle yazıldı", kapsam_genis:true },
 
 { t:"1863-05-15", b:"'Çayırda Öğle Yemeği' skandalı — Manet ve modern resmin doğuşu", tur:"kultur", onem:3, dunya:2, kapsam:"ic", yer_id:"Paris",
-  etiket:["sanat","kultur"],
+  etiket:["kultur","kultur"],
   d:"Édouard Manet'nin 'Le Déjeuner sur l'herbe' tablosu resmi Salon'dan reddedilince, imparatorun izniyle açılan alternatif 'Reddedilenler Salonu'nda sergilendi ve büyük skandal yarattı. Olay, akademik resim geleneğine meydan okuyan modern sanatın sembolik başlangıç noktalarından biri sayılır.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
 
-{ t:"1869-11-17", b:"Süveyş Kanalı'nın açılışı", tur:"iktisat", onem:4, dunya:5, kapsam:"dis", yer_id:"",
-  etiket:["iktisat","toprak-kazanc","ekonomi"],
+{ t:"1869-11-17", b:"Süveyş Kanalı'nın açılışı", tur:"ekonomi", onem:4, dunya:5, kapsam:"dis", yer_id:"",
+  etiket:["ekonomi","toprak-kazanc","ekonomi"],
   d:"Fransız diplomat ve mühendis Ferdinand de Lesseps'in yönettiği proje, Akdeniz'i Kızıldeniz'e bağlayarak Avrupa-Asya deniz ticaretini kökten değiştirdi. TDV maddesi kanalı Fransa-Osmanlı ilişkilerinin Mısır'daki mali-siyasî boyutunun merkezine yerleştirir; kanal sonraki on yıllarda İngiliz-Fransız rekabetinin de odağı olacaktı.",
   kaynak:"standart ders kitabı bilgisi · dunya:5, küresel ticaret yollarını kalıcı biçimde değiştirmesi nedeniyle", yer_kon:[31.265,32.302] },
 
@@ -865,7 +865,7 @@ window.KRONOLOJI_FRANSA = [
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
 
 { t:"1871-05-10", b:"Frankfurt Antlaşması — Alsace-Lorraine'in kaybı", tur:"toprak-kayip", onem:5, dunya:4, kapsam:"dis", yer_id:"Frankfurt",
-  etiket:["antlasma","toprak-kaybi"],
+  etiket:["antlasma","toprak-kayip"],
   d:"Fransa-Prusya Savaşı'nı bitiren antlaşma, Fransa'yı Alsace ile Lorraine'in büyük bölümünü Almanya'ya bırakmaya ve ağır bir savaş tazminatı ödemeye mahkûm etti. Bu toprak kaybı, sonraki kırk üç yıl Fransız dış politikasının ('revanchisme') temel saplantısı hâline geldi ve I. Dünya Savaşı'nın uzak nedenlerinden biri oldu.",
   kaynak:"standart ders kitabı bilgisi — dunya:4, uzun vadeli Fransız-Alman geriliminin doğrudan kaynağı olması nedeniyle" },
 
@@ -905,7 +905,7 @@ window.KRONOLOJI_FRANSA = [
   kaynak:"standart ders kitabı bilgisi — dunya:4, Fransız toplumunu ve siyasetini on yılı aşkın süre bölmesi nedeniyle" },
 
 { t:"1895-12-28", b:"Lumière Kardeşler'in ilk sinema gösterimi", tur:"bilim", onem:4, dunya:4, kapsam:"ic", yer_id:"Paris",
-  etiket:["bilim","kultur","sanat"],
+  etiket:["bilim","kultur","kultur"],
   d:"Auguste ve Louis Lumière, Paris'te Grand Café'de paralı bilet karşılığında hareketli görüntüleri halka ilk kez gösterdi; gösterim, sinemanın ticari bir sanat ve endüstri olarak doğuşunun kabul edilen başlangıç anıdır. İcat, yirminci yüzyılın en etkili kitle iletişim ve sanat formunu başlattı.",
   kaynak:"standart ders kitabı bilgisi — dunya:4, sinemanın küresel bir sanat/endüstri olarak doğuşu nedeniyle" },
 
@@ -940,7 +940,7 @@ window.KRONOLOJI_FRANSA = [
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_kon:[34.033,-5] },
 
 { t:"1914-07-31", b:"Jean Jaurès'in suikastı", tur:"olum", onem:4, dunya:2, kapsam:"ic", yer_id:"Paris",
-  etiket:["siyaset","olum"],
+  etiket:["siyaset","olum","suikast"],
   d:"Sosyalist lider ve savaş karşıtı Jean Jaurès, savaşı önlemeye çalıştığı son günlerinde milliyetçi bir fanatik tarafından bir kafede vurularak öldürüldü. Suikast, savaş öncesi son barış umudunun da söndüğü an olarak Fransız siyasî belleğinde derin iz bıraktı.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
 
@@ -1000,7 +1000,7 @@ window.KRONOLOJI_FRANSA = [
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", yer_kon:[33.53,36.06] },
 
 { t:"1920-08-10", b:"Sevr Antlaşması'nın imzalanması", tur:"antlasma", onem:4, dunya:4, kapsam:"dis", yer_id:"",
-  etiket:["antlasma","diplomasi","toprak-kaybi"],
+  etiket:["antlasma","diplomasi","toprak-kayip"],
   d:"Fransa'nın da imzacısı olduğu antlaşma, Osmanlı Devleti'ni parçalayıp Anadolu'nun büyük bölümünü yabancı nüfuz bölgelerine ayırdı; TDV maddesi bu tarihi doğrudan kaydeder. Antlaşma hiçbir zaman uygulanamadı — Millî Mücadele'nin zaferi onu üç yıl sonra Lozan'la geçersiz kılacaktı.",
   kaynak:"TDV `fransa` maddesi (canlı) — \"10 Ağustos 1920: Sevr Antlaşması\"", yer_kon:[48.824,2.214] },
 

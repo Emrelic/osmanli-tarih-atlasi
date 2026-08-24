@@ -44,7 +44,7 @@ window.KRONOLOJI_NAKSA_DUKALIGI = [
   kaynak:"Lock, The Franks in the Aegean 1204-1500 · Slot, Archipelagus Turbatus · yıl yaklaşıktır" },
 
 { t:"1383-01-01", b:"Crispo darbesi — Sanudo hanedanının sonu", tur:"darbe", onem:5, dunya:1, kapsam:"ic", yer_id:"Nakşa",
-  etiket:["darbe","hanedan","siyaset"],
+  etiket:["darbe","hanedan","siyaset","darbe-siyasi"],
   d:"Veronalı Francesco Crispo, son Sanudo dukası Niccolò dalle Carceri'yi bir av sırasında öldürterek dukalığı ele geçirdi ve Venedik onu kısa sürede tanıdı. Hanedan değişikliği kan dökülerek olsa da adanın idarî düzeninde kesinti yaratmadı. Crispo ailesi 1566'ya kadar dukalığı elinde tutacaktır.",
   kaynak:"TDV 'naksa' md.: \"The Crispo family (from Verona) took control of the duchy and administration\" (1383) · Lock, The Franks in the Aegean · gün bilinmiyor" },
 
@@ -114,7 +114,7 @@ window.KRONOLOJI_NAKSA_DUKALIGI = [
   d:"Dukalık toprakları, Venedikli ailelere Batı usulü tımar (fief) olarak dağıtıldı ve Rum köylüler bu beylere bağlandı. Bizans'ın vergi düzeni yerine Batı Avrupa feodalizmi getirildi. Ege adalarında Latin hâkimiyetinin köylü için ne anlama geldiğini belirleyen düzenleme budur.",
   kaynak:"Lock, The Franks in the Aegean 1204-1500 · Slot, Archipelagus Turbatus · yıl yaklaşıktır" },
 
-{ t:"1350-01-01", b:"Kikladlar'da zımpara ve mermer ihracatının Latin ağına bağlanması", tur:"iktisat", onem:3, dunya:1, kapsam:"ic", yer_id:"Nakşa",
+{ t:"1350-01-01", b:"Kikladlar'da zımpara ve mermer ihracatının Latin ağına bağlanması", tur:"ekonomi", onem:3, dunya:1, kapsam:"ic", yer_id:"Nakşa",
   etiket:["ekonomi"],
   d:"Nakşa'nın zımpara taşı ve mermeri, Venedikli tüccarlar aracılığıyla İtalya'ya düzenli olarak taşınmaya başladı. Adanın tarım dışı tek ciddi geliri buydu ve duka bu ticaretten pay alıyordu. Küçük bir ada devletinin ayakta kalması, tek bir hammaddenin Batı pazarına bağlanmasına dayanıyordu.",
   kaynak:"Slot, Archipelagus Turbatus: Les Cyclades entre colonisation latine et occupation ottomane (1982) · yıl yaklaşıktır" },

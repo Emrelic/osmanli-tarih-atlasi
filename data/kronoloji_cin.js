@@ -77,7 +77,7 @@
 window.KRONOLOJI_CIN = [
 
 { t:"1281-06-23", b:"İkinci Japonya seferi tayfunla dağıldı (\"kamikaze\")", tur:"savas",
-  onem:3, dunya:2, kapsam:"dis", etiket:["askeri","toprak-kaybi"],
+  onem:3, dunya:2, kapsam:"dis", etiket:["askeri","toprak-kayip"],
   yer_id:"",
   d:"Kubilay Han'ın Japonya'yı ikinci kez fethetme girişimi, donanmayı dağıtan bir tayfunla sonuçsuz kaldı. Yenilgi, Yuan'ın deniz aşırı genişlemesinin sınırını gösterdi ve Japon kaynaklarında \"tanrısal rüzgâr\" (kamikaze) efsanesinin kökeni oldu.",
   kaynak:"The Cambridge History of China, cilt 6 (Cambridge UP) — TDV bu taneciği kapsamıyor", yer_kon:[33.6,130.42] },
@@ -89,7 +89,7 @@ window.KRONOLOJI_CIN = [
   kaynak:"The Cambridge History of China, cilt 6 (Cambridge UP) — TDV bu taneciği kapsamıyor", yer_kon:[21.1717,94.8607] },
 
 { t:"1281-01-01", b:"Guo Shoujing'in Shoushi takvimi kabul edildi", tur:"bilim",
-  onem:3, dunya:2, kapsam:"ic", etiket:["bilim"],
+  onem:3, dunya:2, kapsam:"ic", etiket:["bilim","islahat"],
   yer_id:"",
   d:"Astronom Guo Shoujing'in geliştirdiği Shoushi (\"Mevsim Verme\") takvimi, güneş yılını 365,2425 güne kadar hassaslaştırdı — Gregoryen takviminden üç asır önce, ona neredeyse özdeş bir doğrulukta. Yuan sarayı bu iş için İslâm astronomi biriminden (Huihui Sitiantai) de yararlandı.",
   kaynak:"The Cambridge History of China, cilt 6 (Cambridge UP) — TDV bu taneciği kapsamıyor", yer_id:"Pekin (Hanbalık)" },
@@ -233,7 +233,7 @@ window.KRONOLOJI_CIN = [
   kaynak:"cin--ulke", kapsam_genis:true },
 
 { t:"1427-01-01", b:"Ming, Vietnam'dan çekildi — Lê hanedanı kuruldu", tur:"toprak-kayip",
-  onem:3, dunya:2, kapsam:"dis", etiket:["askeri","toprak-kaybi"],
+  onem:3, dunya:2, kapsam:"dis", etiket:["askeri","toprak-kayip"],
   yer_id:"",
   d:"Lê Lợi önderliğindeki Lam Sơn ayaklanması yirmi yıllık Ming işgalini bitirdi; Ming orduları çekilip Vietnam bağımsızlığını (Lê hanedanı) yeniden kazandı. Yenilgi, Ming'in güneye doğru doğrudan ilhak siyasetini terk etmesine yol açtı.",
   kaynak:"The Cambridge History of China, cilt 7 (Cambridge UP) — TDV bu taneciği kapsamıyor", kapsam_genis:true },
@@ -383,7 +383,7 @@ window.KRONOLOJI_CIN = [
   kaynak:"The Cambridge History of China, cilt 9 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
 { t:"1630-01-01", b:"Adam Schall von Bell Pekin'de Ming takvim reformuna katıldı", tur:"bilim",
-  onem:3, dunya:1, kapsam:"dis", etiket:["bilim"],
+  onem:3, dunya:1, kapsam:"dis", etiket:["bilim","islahat"],
   yer_id:"Pekin (Hanbalık)",
   d:"Cizvit bilgin Adam Schall von Bell, Batı astronomi yöntemleriyle Çin takvimini düzeltme komisyonuna katıldı. Çalışma, Qing döneminde Shixian takvimi olarak resmîleşecek reformun temelini attı.",
   kaynak:"The Cambridge History of China, cilt 9 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
@@ -419,7 +419,7 @@ window.KRONOLOJI_CIN = [
   kaynak:"The Cambridge History of China, cilt 9 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
 { t:"1645-06-08", b:"Nanjing düştü — Güney Ming direnişi güneye çekildi", tur:"toprak-kayip",
-  onem:3, dunya:2, kapsam:"ic", etiket:["askeri","toprak-kaybi"],
+  onem:3, dunya:2, kapsam:"ic", etiket:["askeri","toprak-kayip"],
   yer_id:"Nanking (Nanjing)",
   d:"Qing kuvvetleri Nanjing'de kurulu Hongguang sarayını devirip şehri aldı. Ming loyalistleri direnişi güneye, sırasıyla Fuzhou ve Kunming'e taşıyarak sürdürdü.",
   kaynak:"The Cambridge History of China, cilt 9 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
@@ -623,13 +623,13 @@ window.KRONOLOJI_CIN = [
   kaynak:"The Cambridge History of China, cilt 9 (Cambridge UP) — WebSearch ile tarih doğrulandı (1839-06-03 başlangıç)" },
 
 { t:"1840-06-01", b:"Birinci Afyon Savaşı başladı", tur:"savas",
-  onem:5, dunya:4, kapsam:"dis", etiket:["askeri","toprak-kaybi"],
+  onem:5, dunya:4, kapsam:"dis", etiket:["askeri","toprak-kayip"],
   yer_id:"Kanton (Guangzhou)",
   d:"Britanya donanması Kanton açıklarını abluka altına alıp Çin kıyılarını bombalamaya başladı. Modern buharlı savaş gemileri karşısında Qing donanması ve kıyı tahkimatı çaresiz kaldı; savaş iki yıl sürecekti.",
   kaynak:"The Cambridge History of China, cilt 9 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
 { t:"1842-08-29", b:"Nanking Antlaşması imzalandı", tur:"antlasma",
-  onem:5, dunya:5, kapsam:"dis", etiket:["antlasma","toprak-kaybi","ticaret"],
+  onem:5, dunya:5, kapsam:"dis", etiket:["antlasma","toprak-kayip","ticaret"],
   yer_id:"Nanking (Nanjing)",
   d:"HMS Cornwallis güvertesinde imzalanan antlaşmayla Qing, Hong Kong adasını Britanya'ya bıraktı, beş limanı (Kanton, Amoy, Fuzhou, Ningbo, Şanghay) serbest ticarete açtı ve ağır bir savaş tazminatı ödemeyi kabul etti. Antlaşma, Çin tarihinde \"eşit olmayan antlaşmalar\" (bu johrun) döneminin ilkiydi ve Kanton tekel sistemini kalıcı olarak sona erdirdi.",
   kaynak:"The Cambridge History of China, cilt 10 (Cambridge UP) — WebSearch ile tarih doğrulandı (1842-08-29)" },
@@ -665,13 +665,13 @@ window.KRONOLOJI_CIN = [
   kaynak:"The Cambridge History of China, cilt 10 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
 { t:"1860-10-24", b:"Pekin Sözleşmesi — Kowloon devredildi, afyon meşrulaştı", tur:"antlasma",
-  onem:4, dunya:3, kapsam:"dis", etiket:["antlasma","toprak-kaybi"],
+  onem:4, dunya:3, kapsam:"dis", etiket:["antlasma","toprak-kayip"],
   yer_id:"Pekin (Hanbalık)",
   d:"İkinci Afyon Savaşı'nı bitiren Pekin Sözleşmesi, Kowloon yarımadasını Britanya'ya bırakıp afyon ticaretini yasallaştırdı ve daha fazla limanı yabancı ticarete açtı. Antlaşma, \"eşit olmayan antlaşmalar\" zincirinin en ağır halkalarından biriydi.",
   kaynak:"The Cambridge History of China, cilt 10 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
 { t:"1861-01-20", b:"Zongli Yamen kuruldu — ilk modern dışişleri organı", tur:"idari",
-  onem:4, dunya:2, kapsam:"dis", etiket:["idari","diplomasi"],
+  onem:4, dunya:2, kapsam:"dis", etiket:["idari","diplomasi","islahat"],
   yer_id:"Pekin (Hanbalık)",
   d:"İkinci Afyon Savaşı'nın ardından Qing, yabancı devletlerle ilişkileri yürütecek Zongli Yamen'i (Dış İşleri Ofisi) kurdu. Kurum, Çin'in geleneksel haraç diplomasisinden modern devletler arası diplomasiye geçişinin ilk kurumsal adımıydı.",
   kaynak:"The Cambridge History of China, cilt 10 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
@@ -689,7 +689,7 @@ window.KRONOLOJI_CIN = [
   kaynak:"The Cambridge History of China, cilt 10-11 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
 { t:"1862-01-01", b:"Tongwen Guan (Yabancı Diller Okulu) kuruldu", tur:"bilim",
-  onem:3, dunya:1, kapsam:"ic", etiket:["egitim","bilim"],
+  onem:3, dunya:1, kapsam:"ic", etiket:["egitim","bilim","islahat"],
   yer_id:"Pekin (Hanbalık)",
   d:"Zongli Yamen'e bağlı olarak açılan Tongwen Guan, diplomatlar ve tercümanlar yetiştirmek üzere Batı dilleri ve fen bilimleri öğretti. Okul, Çin'in modern eğitim kurumlarının ilk örneklerinden biri oldu.",
   kaynak:"The Cambridge History of China, cilt 10 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
@@ -707,7 +707,7 @@ window.KRONOLOJI_CIN = [
   kaynak:"The Cambridge History of China, cilt 10 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
 { t:"1871-01-01", b:"İli Krizi — Rusya bölgeyi işgal etti", tur:"toprak-kayip",
-  onem:3, dunya:2, kapsam:"dis", etiket:["askeri","toprak-kaybi"],
+  onem:3, dunya:2, kapsam:"dis", etiket:["askeri","toprak-kayip"],
   yer_id:"",
   d:"Doğu Türkistan'daki Yakup Bey isyanının doğurduğu istikrarsızlıktan yararlanan Rusya, İli vadisini \"düzeni korumak\" bahanesiyle işgal etti. On yıl sürecek diplomatik kriz, 1881 St. Petersburg Antlaşması'yla bölgenin büyük kısmının Qing'e iadesiyle çözülecekti.",
   kaynak:"The Cambridge History of China, cilt 11 (Cambridge UP) — TDV bu taneciği kapsamıyor", yer_id:"Gulca (Yining)" },
@@ -737,7 +737,7 @@ window.KRONOLOJI_CIN = [
   kaynak:"cin--ulke" },
 
 { t:"1884-08-23", b:"Çin-Fransız Savaşı — Fuzhou donanması imha edildi", tur:"savas",
-  onem:3, dunya:2, kapsam:"dis", etiket:["askeri","toprak-kaybi"],
+  onem:3, dunya:2, kapsam:"dis", etiket:["askeri","toprak-kayip"],
   yer_id:"Fuzhou",
   d:"Fransız donanması, ilan edilmemiş bir savaşta Fuzhou tersanesindeki Fujian filosunu bir günde neredeyse tamamen batırdı. Savaş sonunda Qing, Vietnam üzerindeki geleneksel haraç üstünlüğünden vazgeçmek zorunda kaldı.",
   kaynak:"The Cambridge History of China, cilt 11 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
@@ -749,13 +749,13 @@ window.KRONOLOJI_CIN = [
   kaynak:"The Cambridge History of China, cilt 11 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
 { t:"1894-07-25", b:"Birinci Çin-Japon Savaşı başladı", tur:"savas",
-  onem:5, dunya:4, kapsam:"dis", etiket:["askeri","toprak-kaybi"],
+  onem:5, dunya:4, kapsam:"dis", etiket:["askeri","toprak-kayip"],
   yer_id:"",
   d:"Kore üzerindeki nüfuz mücadelesi, Japon donanmasının Çin nakliyesini vurmasıyla açık savaşa dönüştü. Modernleşmiş Japon ordusu karşısında Qing kara ve deniz kuvvetleri art arda ağır yenilgiler aldı.",
   kaynak:"The Cambridge History of China, cilt 11 (Cambridge UP) — TDV bu taneciği kapsamıyor", yer_kon:[37,126.28] },
 
 { t:"1895-04-17", b:"Şimonoseki Antlaşması imzalandı", tur:"antlasma",
-  onem:5, dunya:5, kapsam:"dis", etiket:["antlasma","toprak-kaybi"],
+  onem:5, dunya:5, kapsam:"dis", etiket:["antlasma","toprak-kayip"],
   yer_id:"",
   d:"Li Hongzhang'ın imzaladığı antlaşmayla Qing, Kore'nin bağımsızlığını tanıdı, Tayvan ve Liaodong yarımadasını Japonya'ya bıraktı ve ağır bir tazminat ödemeyi kabul etti. Yenilgi, Çin'in kendi bölgesinde bile artık büyük bir güç sayılmadığını Avrupa devletlerine gösterip yeni bir imtiyaz yarışını (scramble for concessions) tetikledi.",
   kaynak:"The Cambridge History of China, cilt 11 (Cambridge UP) — WebSearch ile tarih doğrulandı (1895-04-17)", yer_kon:[33.949,130.921] },
@@ -767,13 +767,13 @@ window.KRONOLOJI_CIN = [
   kaynak:"The Cambridge History of China, cilt 11 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
 { t:"1898-09-21", b:"Cixi darbe yaptı — Guangxu hapsedildi", tur:"siyaset",
-  onem:5, dunya:2, kapsam:"ic", etiket:["siyaset"],
+  onem:5, dunya:2, kapsam:"ic", etiket:["siyaset","darbe-siyasi"],
   yer_id:"Pekin (Hanbalık)",
   d:"Cixi, muhafazakâr generallerin desteğiyle saray darbesi yapıp Guangxu'yu Yasak Şehir'deki bir adacıkta göz hapsine aldı ve Yüz Gün Reformu'nu iptal etti. Kang Youwei ve Liang Qichao yurt dışına kaçarken, reform yanlısı altı yetkili idam edildi.",
   kaynak:"The Cambridge History of China, cilt 11 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
 { t:"1898-03-06", b:"Almanya Jiaozhou Körfezi'ni (Qingdao) 99 yıllığına kiraladı", tur:"toprak-kayip",
-  onem:3, dunya:3, kapsam:"dis", etiket:["toprak-kaybi"],
+  onem:3, dunya:3, kapsam:"dis", etiket:["toprak-kayip"],
   yer_id:"",
   d:"Bir misyonerin öldürülmesini bahane eden Almanya, Şantung'daki Jiaozhou Körfezi'ni doksan dokuz yıllığına kiraladı. Anlaşma, büyük güçlerin Çin kıyısını nüfuz bölgelerine bölüştüğü \"imtiyazlar hücumu\"nun (scramble for concessions) fitilini ateşledi.",
   kaynak:"The Cambridge History of China, cilt 11 (Cambridge UP) — TDV bu taneciği kapsamıyor", yer_id:"Qingdao (Tsingtau)" },
@@ -791,7 +791,7 @@ window.KRONOLOJI_CIN = [
   kaynak:"The Cambridge History of China, cilt 11 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
 { t:"1901-09-07", b:"Boksör Protokolü imzalandı", tur:"antlasma",
-  onem:5, dunya:4, kapsam:"dis", etiket:["antlasma","toprak-kaybi"],
+  onem:5, dunya:4, kapsam:"dis", etiket:["antlasma","toprak-kayip"],
   yer_id:"Pekin (Hanbalık)",
   d:"Qing, Sekiz Ülke İttifakı'na ve on bir devlete karşı imzaladığı protokolle dev bir tazminat (450 milyon gümüş tael, otuz dokuz yılda ödenecek), Pekin'de yabancı garnizon hakkı ve Boksör destekçisi yetkililerin cezalandırılmasını kabul etti. Antlaşma, Qing devletinin malî ve askerî egemenliğini fiilen büyük güçlerin denetimine bıraktı.",
   kaynak:"The Cambridge History of China, cilt 11 (Cambridge UP) — WebSearch ile tarih doğrulandı (1901-09-07)" },
@@ -815,7 +815,7 @@ window.KRONOLOJI_CIN = [
   kaynak:"The Cambridge History of China, cilt 11 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
 { t:"1911-05-09", b:"Demiryolları millîleştirme kararı isyanı ateşledi", tur:"isyan",
-  onem:3, dunya:2, kapsam:"ic", etiket:["ekonomi","isyan"],
+  onem:3, dunya:2, kapsam:"ic", etiket:["ekonomi","isyan","islahat"],
   yer_id:"",
   d:"Qing hükümetinin yerel yatırımcıların elindeki demiryolu hatlarını yabancı kredili merkezî bir projeye devretme kararı, Sichuan'da geniş bir protesto dalgası (Baolu Yundong) başlattı. Protesto, beş ay sonra Wuchang'daki askerî isyanın dolaylı fitili olacaktı.",
   kaynak:"The Cambridge History of China, cilt 11 (Cambridge UP) — TDV bu taneciği kapsamıyor", yer_id:"Çengdu (Chengdu)" },
@@ -845,7 +845,7 @@ window.KRONOLOJI_CIN = [
   kaynak:"The Cambridge History of China, cilt 11 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
 { t:"1912-11-01", b:"Dış Moğolistan ve Tibet fiilî bağımsızlıklarını ilan etti", tur:"toprak-kayip",
-  onem:3, dunya:2, kapsam:"dis", etiket:["toprak-kaybi"],
+  onem:3, dunya:2, kapsam:"dis", etiket:["toprak-kayip"],
   yer_id:"Lhasa",
   d:"Qing'in çöküşünden yararlanan Dış Moğolistan ve Tibet, merkezî otoritenin zayıflığından yararlanarak kendi bağımsızlıklarını ilan etti. Genç cumhuriyet, iki bölge üzerindeki egemenlik iddiasını sürdürse de fiilî denetimi yeniden kuramadı.",
   kaynak:"cin--ulke" },

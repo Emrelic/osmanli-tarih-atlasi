@@ -209,13 +209,13 @@ window.KRONOLOJI_INGILTERE = [
   kaynak:"el-kitabi", yer_kon:[56.4127,-3.4082] },
 
 { t:"1314-06-24", b:"Bannockburn Savaşı — İskoç zaferi", tur:"savas",
-  onem:5, dunya:2, kapsam:"dis", etiket:["askeri","savas","toprak-kaybi","iskocya","ingiltere"],
+  onem:5, dunya:2, kapsam:"dis", etiket:["askeri","savas","toprak-kayip","iskocya","ingiltere"],
   yer_id:"",
   d:"II. Edward'ın büyük ordusu, Robert Bruce'un çok daha küçük İskoç kuvveti karşısında ağır bir bozguna uğradı; savaş, İskoç bağımsızlığının fiilen güvence altına alındığı dönüm noktası sayılır. Yenilgi II. Edward'ın iktidarını da derinden sarstı.",
   kaynak:"el-kitabi", yer_kon:[56.09,-3.91] },
 
 { t:"1328-05-01", b:"Edinburgh-Northampton Antlaşması — İskoç bağımsızlığı tanındı", tur:"antlasma",
-  onem:5, dunya:2, kapsam:"dis", etiket:["antlasma","toprak-kaybi","iskocya","ingiltere"],
+  onem:5, dunya:2, kapsam:"dis", etiket:["antlasma","toprak-kayip","iskocya","ingiltere"],
   yer_id:"",
   d:"III. Edward'ın naipliği döneminde imzalanan antlaşmayla İngiltere, Robert Bruce'u İskoçya kralı ve İskoçya'nın bağımsızlığını resmen tanıdı. Barış kısa sürdü; III. Edward reşit olduktan sonra antlaşmayı tanımayıp savaşı yeniden başlattı.",
   kaynak:"el-kitabi", yer_id:"Edinburg" },
@@ -223,7 +223,7 @@ window.KRONOLOJI_INGILTERE = [
 // ═════════════ B) YÜZYIL SAVAŞLARI'NIN BAŞLANGICI (1327-1360) ═════════════
 
 { t:"1327-01-25", b:"II. Edward tahttan indirildi, III. Edward kral oldu", tur:"hukumdar",
-  onem:3, dunya:1, kapsam:"ic", etiket:["siyaset","hanedan","ingiltere"],
+  onem:3, dunya:1, kapsam:"ic", etiket:["siyaset","hanedan","ingiltere","darbe-siyasi"],
   yer_id:"Londra",
   d:"Kraliçe Isabella ve sevgilisi Roger Mortimer'ın öncülüğündeki bir darbeyle II. Edward tahttan indirildi ve birkaç ay sonra Berkeley Kalesi'nde öldürüldü; on dört yaşındaki oğlu III. Edward kral ilan edildi. III. Edward 1330'da Mortimer'ı devirip fiilî iktidarı ele alacaktı.",
   kaynak:"el-kitabi" },
@@ -272,28 +272,28 @@ window.KRONOLOJI_INGILTERE = [
   d:"Yaşlanan III. Edward döneminde toplanan bu meclis, kraliyet sarayındaki yolsuzlukları soruşturup ilk kez birkaç danışmanı azletti (impeachment). Parlamentonun icra erkini denetleme yetkisinin ilk somut örneklerinden sayılır.",
   kaynak:"el-kitabi" },
 
-{ t:"1381-06-13", b:"Köylü Ayaklanması — Wat Tyler Londra'ya girdi", tur:"ayaklanma",
-  onem:5, dunya:2, kapsam:"ic", etiket:["ayaklanma","sosyal","ingiltere"],
+{ t:"1381-06-13", b:"Köylü Ayaklanması — Wat Tyler Londra'ya girdi", tur:"isyan",
+  onem:5, dunya:2, kapsam:"ic", etiket:["isyan","sosyal","ingiltere"],
   yer_id:"Londra",
   d:"Kişi başı vergisi (poll tax) ve Kara Ölüm sonrası dayatılan işgücü kısıtlamalarına karşı patlak veren isyan, Wat Tyler önderliğinde Londra'yı ele geçirdi; genç II. Richard isyancılarla görüşmek zorunda kaldı. Tyler kısa süre sonra öldürüldü ve isyan bastırıldı, ama serflik sisteminin çözülüşünü hızlandırdı.",
   kaynak:"el-kitabi" },
 
 { t:"1387-01-01", b:"Chaucer'ın Canterbury Hikâyeleri'ni yazmaya başlaması", tur:"kultur",
-  onem:3, dunya:1, kapsam:"ic", etiket:["edebiyat","kultur-sanat","ingiltere"],
+  onem:3, dunya:1, kapsam:"ic", etiket:["edebiyat","kultur","ingiltere"],
   yer_id:"",
   d:"Geoffrey Chaucer, Canterbury'ye hac yolculuğuna çıkan farklı toplumsal kesimlerden hacıların anlattığı hikâyeleri derleyen eserini bu yıllarda kaleme almaya başladı. Orta İngilizce'nin edebî bir dil olarak itibar kazanmasında belirleyici eser sayılır.",
   kaynak:"el-kitabi", kapsam_genis:true },
 
 { t:"1399-09-30", b:"II. Richard tahttan indirildi, IV. Henry (Lancaster) kral oldu", tur:"hukumdar",
-  onem:5, dunya:1, kapsam:"ic", etiket:["siyaset","hanedan","ingiltere"],
+  onem:5, dunya:1, kapsam:"ic", etiket:["siyaset","hanedan","ingiltere","darbe-siyasi"],
   yer_id:"Londra",
   d:"Sürgündeki kuzeni Henry Bolingbroke'un topraklarına el koyan II. Richard, dönüşte Bolingbroke'un başlattığı isyanla tahttan indirildi ve kısa süre sonra hapiste öldü. Bolingbroke IV. Henry olarak taç giyip Lancaster hanedanını kurdu — yarım yüzyıl sonra Güller Savaşları'nın tohumu bu el koymayla atıldı.",
   kaynak:"el-kitabi" },
 
 // ═════════════ D) LANCASTER VE YÜZYIL SAVAŞLARI'NIN SON PERDESİ (1400-1453) ═════════════
 
-{ t:"1400-09-16", b:"Owain Glyndŵr Galler'de ayaklanma başlattı", tur:"ayaklanma",
-  onem:5, dunya:1, kapsam:"dis", etiket:["ayaklanma","galler"],
+{ t:"1400-09-16", b:"Owain Glyndŵr Galler'de ayaklanma başlattı", tur:"isyan",
+  onem:5, dunya:1, kapsam:"dis", etiket:["isyan","galler"],
   yer_id:"",
   d:"Kendini Galler Prensi ilan eden Owain Glyndŵr, on yılı aşkın sürecek bir ulusal ayaklanma başlattı; hareket bir ara Galler'in büyük bölümünü kontrol altına aldı ve kendi parlamentosunu topladı. İsyan 1415'e dek aralıklarla sürdü, Glyndŵr hiç yakalanmadı.",
   kaynak:"el-kitabi", yer_kon:[52.9411,-3.301] },
@@ -329,7 +329,7 @@ window.KRONOLOJI_INGILTERE = [
   kaynak:"el-kitabi", yer_id:"Rouen" },
 
 { t:"1453-07-17", b:"Castillon Savaşı — Yüzyıl Savaşları sona erdi, Gaskonya kaybedildi", tur:"toprak-kayip",
-  onem:5, dunya:4, kapsam:"dis", etiket:["askeri","toprak-kaybi","ingiltere"],
+  onem:5, dunya:4, kapsam:"dis", etiket:["askeri","toprak-kayip","ingiltere"],
   yer_id:"",
   d:"Fransız topçusunun etkili kullanımıyla kazanılan Castillon zaferi, İngiltere'nin üç yüzyıllık Akitanya/Gaskonya hâkimiyetine son verdi; İngiltere kıtada yalnızca Calais'yi elinde tuttu. Yenilgi, Yüzyıl Savaşları'nı fiilen bitirdi ve İngiltere'de siyasî istikrarsızlığı derinleştirerek Güller Savaşları'nın önünü açtı.",
   kaynak:"el-kitabi", yer_kon:[44.8492,-0.0392] },
@@ -355,7 +355,7 @@ window.KRONOLOJI_INGILTERE = [
   kaynak:"el-kitabi", yer_kon:[51.993,-2.158] },
 
 { t:"1476-01-01", b:"Caxton Westminster'da İngiltere'nin ilk matbaasını kurdu", tur:"bilim",
-  onem:5, dunya:3, kapsam:"ic", etiket:["teknoloji","kultur-sanat","ingiltere"],
+  onem:5, dunya:3, kapsam:"ic", etiket:["teknoloji","kultur","ingiltere"],
   yer_id:"Londra",
   d:"William Caxton, Bruges'te öğrendiği matbaacılığı Westminster'a taşıyarak İngiltere'nin ilk basımevini kurdu; Chaucer'ın eserleri dâhil pek çok kitabı basıp yaygınlaştırdı. Matbaanın gelişi, İngilizce'nin standartlaşmasını ve okuryazarlığın yayılmasını hızlandırdı.",
   kaynak:"el-kitabi" },
@@ -437,7 +437,7 @@ window.KRONOLOJI_INGILTERE = [
   kaynak:"el-kitabi" },
 
 { t:"1549-01-21", b:"İlk Ortak Dua Kitabı dayatıldı, Dua Kitabı İsyanı çıktı", tur:"din",
-  onem:3, dunya:1, kapsam:"ic", etiket:["din","ayaklanma","ingiltere"],
+  onem:3, dunya:1, kapsam:"ic", etiket:["din","isyan","ingiltere"],
   yer_id:"",
   d:"Thomas Cranmer'in hazırladığı İngilizce ibadet kitabının Latince âyinin yerine zorunlu kılınması, özellikle Cornwall ve Devon'da geleneksel Katolik ibadete bağlı halkın silahlı isyanına yol açtı. İsyan kraliyet ordusunca kanlı biçimde bastırıldı.",
   kaynak:"el-kitabi", yer_id:"Londra" },
@@ -449,7 +449,7 @@ window.KRONOLOJI_INGILTERE = [
   kaynak:"el-kitabi" },
 
 { t:"1558-01-07", b:"Calais Fransa'ya kaybedildi", tur:"toprak-kayip",
-  onem:5, dunya:2, kapsam:"dis", etiket:["askeri","toprak-kaybi","ingiltere"],
+  onem:5, dunya:2, kapsam:"dis", etiket:["askeri","toprak-kayip","ingiltere"],
   yer_id:"Calais",
   d:"Fransız Guise Dükü'nün ani seferi karşısında iki asırdır elde tutulan Calais teslim oldu; şehir, İngiltere'nin kıta Avrupası'ndaki son kalıntı toprağıydı. Kayıp, I. Mary'nin saltanatının en ağır darbesi sayılır ve İngiltere'nin kıtadaki varlığını fiilen sona erdirdi.",
   kaynak:"el-kitabi" },
@@ -635,7 +635,7 @@ window.KRONOLOJI_INGILTERE = [
   kaynak:"el-kitabi", yer_kon:[51.4769,-0.0005] },
 
 { t:"1685-02-06", b:"II. James kral oldu, Monmouth İsyanı bastırıldı", tur:"hukumdar",
-  onem:3, dunya:1, kapsam:"ic", etiket:["siyaset","ayaklanma","ingiltere"],
+  onem:3, dunya:1, kapsam:"ic", etiket:["siyaset","isyan","ingiltere"],
   yer_id:"Londra",
   d:"Katolik II. James'in tahta çıkışı, gayrimeşru yeğeni Monmouth Dükü'nün önderliğindeki bir isyan girişimini tetikledi; isyan hızla bastırıldı. James'in açıkça Katolik yanlısı politikaları kısa sürede Protestan seçkinlerin tepkisini büyütecekti.",
   kaynak:"el-kitabi" },
@@ -708,8 +708,8 @@ window.KRONOLOJI_INGILTERE = [
   d:"Kraliçe Anne'in Protestan yakın akrabası olmaması üzerine Yerleşim Yasası gereği Hanover Elektörü George, I. George unvanıyla İngiltere tahtına çıktı. İngilizceyi iyi konuşamayan yeni kral, günlük yönetimi giderek bakanlarına bırakacaktı.",
   kaynak:"el-kitabi" },
 
-{ t:"1715-09-06", b:"1715 Jakobit Ayaklanması", tur:"ayaklanma",
-  onem:4, dunya:1, kapsam:"ic", etiket:["ayaklanma","siyaset","iskocya"],
+{ t:"1715-09-06", b:"1715 Jakobit Ayaklanması", tur:"isyan",
+  onem:4, dunya:1, kapsam:"ic", etiket:["isyan","siyaset","iskocya"],
   yer_id:"",
   d:"Hanover hanedanına karşı, tahtan indirilen Stuart hanedanının vârisi 'Eski Sahtekâr' James Francis Edward'ı destekleyen İskoç Jakobitler ayaklandı. İsyan birkaç ay içinde bastırıldı, ama Jakobit hareketi otuz yıl sonra yeniden alevlenecekti.",
   kaynak:"el-kitabi", yer_kon:[57.008,-3.397] },
@@ -726,8 +726,8 @@ window.KRONOLOJI_INGILTERE = [
   d:"Anglikan din adamı John Wesley, resmî kiliselerin dışında madenci ve işçi topluluklarına açık havada vaaz vermeye başladı; hareket kısa sürede Metodizm adıyla örgütlü bir dinî uyanışa dönüştü. Hareket, sanayileşen İngiltere'nin işçi sınıfları arasında derin bir toplumsal etki bıraktı.",
   kaynak:"el-kitabi", yer_kon:[51.461,-2.5] },
 
-{ t:"1745-08-19", b:"1745 Jakobit Ayaklanması — Bonnie Prince Charlie karaya çıktı", tur:"ayaklanma",
-  onem:5, dunya:1, kapsam:"ic", etiket:["ayaklanma","siyaset","iskocya"],
+{ t:"1745-08-19", b:"1745 Jakobit Ayaklanması — Bonnie Prince Charlie karaya çıktı", tur:"isyan",
+  onem:5, dunya:1, kapsam:"ic", etiket:["isyan","siyaset","iskocya"],
   yer_id:"",
   d:"Stuart vârisi Charles Edward Stuart ('Genç Sahtekâr'), İskoçya'ya çıkarak babası adına tahtı geri almak üzere bir ayaklanma başlattı; kuvvetleri bir ara İngiltere içlerine, Derby'ye kadar ilerledi. Hükümet kuvvetlerinin toparlanmasıyla isyan geri püskürtüldü.",
   kaynak:"el-kitabi", yer_kon:[56.873,-5.441] },
@@ -795,7 +795,7 @@ window.KRONOLOJI_INGILTERE = [
   kaynak:"el-kitabi" },
 
 { t:"1776-07-04", b:"Amerikan kolonileri bağımsızlığını ilan etti", tur:"toprak-kayip",
-  onem:5, dunya:4, kapsam:"dis", etiket:["siyaset","toprak-kaybi","buyuk-britanya"],
+  onem:5, dunya:4, kapsam:"dis", etiket:["siyaset","toprak-kayip","buyuk-britanya"],
   yer_id:"",
   d:"On üç Britanya kolonisi, vergilendirme ve temsil anlaşmazlıklarının silahlı çatışmaya dönüşmesinin ardından bağımsızlığını ilan etti. İlan, yedi yıl sürecek bir savaşın ve İngiliz İmparatorluğu'nun Kuzey Amerika'daki en büyük kaybının başlangıcıydı.",
   kaynak:"el-kitabi", yer_id:"Philadelphia" },
@@ -807,7 +807,7 @@ window.KRONOLOJI_INGILTERE = [
   kaynak:"el-kitabi", yer_kon:[51.381,-2.359] },
 
 { t:"1783-09-03", b:"Paris Antlaşması — Amerikan bağımsızlığı tanındı", tur:"toprak-kayip",
-  onem:5, dunya:5, kapsam:"dis", etiket:["antlasma","toprak-kaybi","buyuk-britanya"],
+  onem:5, dunya:5, kapsam:"dis", etiket:["antlasma","toprak-kayip","buyuk-britanya"],
   yer_id:"Paris",
   d:"Yorktown'daki askerî yenilginin ardından Britanya, Amerika Birleşik Devletleri'nin bağımsızlığını resmen tanıyan antlaşmayı imzaladı. Antlaşma, modern devletler sisteminde bağımsızlık yoluyla kurulan ilk büyük cumhuriyeti tescilleyerek uluslararası düzende kalıcı bir emsal yarattı.",
   kaynak:"el-kitabi" },
@@ -912,7 +912,7 @@ window.KRONOLOJI_INGILTERE = [
 
 // ═════════════ N) REFORM ÇAĞI VE ERKEN VİKTORYA DÖNEMİ (1819-1851) ═════════════
 
-{ t:"1819-08-16", b:"Peterloo Katliamı", tur:"ayaklanma",
+{ t:"1819-08-16", b:"Peterloo Katliamı", tur:"isyan",
   onem:4, dunya:1, kapsam:"ic", etiket:["sosyal","siyaset","birlesik-krallik"],
   yer_id:"Manchester",
   d:"Manchester'da parlamento reformu talep eden barışçıl bir mitinge süvari birlikleri müdahale etti, on beşten fazla kişi öldü, yüzlercesi yaralandı. Katliam, işçi sınıfı siyasî hareketlerinin ve reform talebinin daha da güçlenmesine yol açtı.",
@@ -984,7 +984,7 @@ window.KRONOLOJI_INGILTERE = [
   d:"On sekiz yaşındaki Victoria, amcası IV. William'ın ölümüyle tahta çıktı; altmış üç yıl sürecek saltanatı, Britanya'nın sanayi ve imparatorluk gücünün doruğa ulaştığı döneme adını verecekti. Victoria dönemi, toplumsal muhafazakârlıkla teknolojik ve ekonomik dönüşümün iç içe geçtiği bir çağ olarak anılır.",
   kaynak:"el-kitabi" },
 
-{ t:"1838-05-01", b:"Halkın Fermanı yayımlandı — Çartist hareket başladı", tur:"ayaklanma",
+{ t:"1838-05-01", b:"Halkın Fermanı yayımlandı — Çartist hareket başladı", tur:"isyan",
   onem:3, dunya:1, kapsam:"ic", etiket:["sosyal","siyaset","birlesik-krallik"],
   yer_id:"Londra",
   d:"İşçi sınıfı temsilcilerinin hazırladığı Halkın Fermanı (People's Charter), evrensel erkek oy hakkı ve gizli oy dâhil altı temel siyasî talebi ortaya koydu. Çartizm, on yıl boyunca kitlesel imza kampanyaları ve mitinglerle Britanya'nın en büyük işçi sınıfı hareketine dönüştü.",
@@ -1027,7 +1027,7 @@ window.KRONOLOJI_INGILTERE = [
   kaynak:"el-kitabi" },
 
 { t:"1851-05-01", b:"Büyük Sergi — Kristal Saray açıldı", tur:"kultur",
-  onem:5, dunya:3, kapsam:"ic", etiket:["kultur-sanat","bilim","birlesik-krallik"],
+  onem:5, dunya:3, kapsam:"ic", etiket:["kultur","bilim","birlesik-krallik"],
   yer_id:"Londra",
   d:"Prens Albert'in öncülüğünde Hyde Park'ta cam ve demirden inşa edilen Kristal Saray'da açılan Büyük Sergi, dünyanın dört bir yanından altı milyondan fazla ziyaretçi çekerek Britanya'nın sanayi ve teknik üstünlüğünü sergiledi. Sergi, uluslararası dünya fuarları geleneğinin başlangıcı sayılır.",
   kaynak:"el-kitabi" },
@@ -1070,8 +1070,8 @@ window.KRONOLOJI_INGILTERE = [
   d:"Antlaşma, Karadeniz'i tarafsızlaştırıp Rusya'nın burada savaş donanması bulundurmasını yasakladı ve Osmanlı Devleti'nin toprak bütünlüğünü Avrupa güçlerinin ortak güvencesine bağladı. Britanya için antlaşma, Rusya'nın güneye yayılma stratejisini bir kuşak boyunca durdurma hedefinin diplomatik tescili oldu.",
   kaynak:"ingiltere (TDV) — dunya değeri kronoloji_rusya.js ile BİREBİR eşleştirildi" },
 
-{ t:"1857-05-10", b:"Hint Ayaklanması başladı", tur:"ayaklanma",
-  onem:5, dunya:4, kapsam:"dis", etiket:["ayaklanma","askeri","birlesik-krallik"],
+{ t:"1857-05-10", b:"Hint Ayaklanması başladı", tur:"isyan",
+  onem:5, dunya:4, kapsam:"dis", etiket:["isyan","askeri","birlesik-krallik"],
   yer_id:"Delhi",
   d:"Meerut'taki Hintli askerlerin (sipahi) isyanı hızla yayılarak Delhi'nin ele geçirilmesine ve geniş bölgelerde Doğu Hindistan Şirketi yönetimine karşı büyük bir ayaklanmaya dönüştü. Ayaklanma bir yıldan fazla süren kanlı bir bastırma kampanyasıyla sonlandırıldı ve Hindistan yönetiminde kalıcı bir dönüşümü tetikledi.",
   kaynak:"el-kitabi" },
@@ -1278,8 +1278,8 @@ window.KRONOLOJI_INGILTERE = [
   d:"Aylarca süren kanlı ve sonuçsuz muharebelerin ardından Britanya İmparatorluğu ve Fransız kuvvetleri, neredeyse hiç kayıp vermeden Gelibolu yarımadasından tahliye edildi. Yenilgi, savaşın en büyük Britanya-Osmanlı çarpışmasının Osmanlı zaferiyle kapanması anlamına geldi ve Britanya siyasetinde (Churchill'in kariyerinde) uzun süreli izler bıraktı.",
   kaynak:"el-kitabi" },
 
-{ t:"1916-04-24", b:"Dublin'de Paskalya Ayaklanması", tur:"ayaklanma",
-  onem:5, dunya:2, kapsam:"ic", etiket:["ayaklanma","siyaset","irlanda"],
+{ t:"1916-04-24", b:"Dublin'de Paskalya Ayaklanması", tur:"isyan",
+  onem:5, dunya:2, kapsam:"ic", etiket:["isyan","siyaset","irlanda"],
   yer_id:"Dublin",
   d:"İrlanda cumhuriyetçi grupları, savaşın ortasında Dublin'de silahlı bir ayaklanma başlatıp bağımsız bir cumhuriyet ilan etti; isyan altı gün içinde bastırıldı ve liderleri idam edildi. İdamlar, kamuoyu desteğini isyancılardan yana çevirerek İrlanda bağımsızlık hareketini kalıcı olarak radikalleştirdi.",
   kaynak:"el-kitabi" },
@@ -1339,7 +1339,7 @@ window.KRONOLOJI_INGILTERE = [
   kaynak:"el-kitabi", yer_kon:[48.8049,2.1204] },
 
 { t:"1920-08-10", b:"Sevr Antlaşması Osmanlı Devleti ile imzalandı", tur:"antlasma",
-  onem:4, dunya:4, kapsam:"dis", etiket:["antlasma","toprak-kaybi","birlesik-krallik"],
+  onem:4, dunya:4, kapsam:"dis", etiket:["antlasma","toprak-kayip","birlesik-krallik"],
   yer_id:"",
   d:"Britanya'nın öncülüğünde şekillenen antlaşma, Osmanlı topraklarının büyük bölümünü İtilaf devletleri ve Yunanistan arasında paylaştırıp boğazları uluslararası denetime bıraktı. Antlaşma Osmanlı hükümetince imzalanmasına rağmen Millî Mücadele'nin direnişiyle hiçbir zaman uygulanamadı ve üç yıl sonra Lozan'la yerini büsbütün başka bir düzenlemeye bıraktı.",
   kaynak:"el-kitabi", yer_kon:[48.8228,2.2087] },
@@ -1351,7 +1351,7 @@ window.KRONOLOJI_INGILTERE = [
   kaynak:"el-kitabi" },
 
 { t:"1922-10-18", b:"British Broadcasting Company kuruldu", tur:"bilim",
-  onem:4, dunya:2, kapsam:"ic", etiket:["teknoloji","kultur-sanat","birlesik-krallik"],
+  onem:4, dunya:2, kapsam:"ic", etiket:["teknoloji","kultur","birlesik-krallik"],
   yer_id:"Londra",
   d:"Birkaç radyo cihazı üreticisinin ortaklığıyla kurulan British Broadcasting Company, aynı yılın Kasım ayında düzenli radyo yayınlarına başladı. Kurum 1927'de kraliyet fermanıyla kamu kurumu Britanya Yayın Kurumu'na (BBC) dönüşerek dünyanın en etkili yayın kuruluşlarından birinin temelini attı.",
   kaynak:"el-kitabi" },
@@ -1370,7 +1370,7 @@ window.KRONOLOJI_INGILTERE = [
 // maddenin tarihi doğrudur ve d: içinde bağlamı taşır. Rapor §2'de SAYIYLA.
 
 { t:"1599-09-21", b:"Globe Tiyatrosu açıldı — Shakespeare'in oyunları sahnelendi", tur:"kultur",
-  onem:5, dunya:3, kapsam:"ic", etiket:["edebiyat","kultur-sanat","ingiltere"],
+  onem:5, dunya:3, kapsam:"ic", etiket:["edebiyat","kultur","ingiltere"],
   yer_id:"Londra",
   d:"Lord Chamberlain's Men oyuncu topluluğunun Thames kıyısında inşa ettirdiği Globe Tiyatrosu, William Shakespeare'in Hamlet, Kral Lear ve Macbeth gibi başyapıtlarının ilk sahnelendiği yer oldu. Shakespeare'in eserleri, İngiliz dilinin ve dünya tiyatrosunun en kalıcı klasikleri arasında sayılır.",
   kaynak:"el-kitabi" },
@@ -1412,19 +1412,19 @@ window.KRONOLOJI_INGILTERE = [
   kaynak:"el-kitabi", yer_id:"Londra" },
 
 { t:"1742-04-13", b:"Handel'in Mesih oratoryosu Dublin'de seslendirildi", tur:"kultur",
-  onem:3, dunya:1, kapsam:"ic", etiket:["kultur-sanat","buyuk-britanya"],
+  onem:3, dunya:1, kapsam:"ic", etiket:["kultur","buyuk-britanya"],
   yer_id:"Dublin",
   d:"Almanya doğumlu ama kariyerinin büyük bölümünü Londra'da geçiren George Frideric Handel'in Messiah oratoryosu ilk kez Dublin'de bir hayır konseri olarak seslendirildi. Eser, İngiliz koro müziği geleneğinin en kalıcı ve en sık icra edilen yapıtı hâline geldi.",
   kaynak:"el-kitabi" },
 
 { t:"1768-12-10", b:"Kraliyet Sanat Akademisi kuruldu", tur:"kultur",
-  onem:3, dunya:1, kapsam:"ic", etiket:["kultur-sanat","buyuk-britanya"],
+  onem:3, dunya:1, kapsam:"ic", etiket:["kultur","buyuk-britanya","islahat"],
   yer_id:"Londra",
   d:"III. George'un fermanıyla ressam Joshua Reynolds'ın ilk başkanlığında kurulan Royal Academy of Arts, resim ve heykel sanatının eğitimini ve yıllık sergilerini kurumsallaştırdı. Akademi, İngiliz sanat çevrelerinin merkezî kurumu olarak günümüze dek varlığını sürdürdü.",
   kaynak:"el-kitabi" },
 
-{ t:"1780-06-02", b:"Gordon Ayaklanması — Londra'da Katolik karşıtı isyan", tur:"ayaklanma",
-  onem:3, dunya:1, kapsam:"ic", etiket:["sosyal","din","ayaklanma","buyuk-britanya"],
+{ t:"1780-06-02", b:"Gordon Ayaklanması — Londra'da Katolik karşıtı isyan", tur:"isyan",
+  onem:3, dunya:1, kapsam:"ic", etiket:["sosyal","din","isyan","buyuk-britanya"],
   yer_id:"Londra",
   d:"Katoliklere tanınan sınırlı hak genişletmelerine tepki olarak Lord George Gordon'ın öncülüğünde başlayan gösteri, kontrolden çıkıp bir hafta süren yağma ve kundaklama dalgasına dönüştü; ordu müdahalesiyle bastırılana dek yüzlerce kişi öldü. Ayaklanma, dönemin dinî hoşgörüsüzlüğünün ve kentsel kalabalığın ne denli patlayıcı olabileceğinin bir göstergesiydi.",
   kaynak:"el-kitabi" },
@@ -1436,7 +1436,7 @@ window.KRONOLOJI_INGILTERE = [
   kaynak:"el-kitabi" },
 
 { t:"1798-01-01", b:"Wordsworth ve Coleridge'in Lirik Baladlar'ı yayımlandı", tur:"kultur",
-  onem:4, dunya:2, kapsam:"ic", etiket:["edebiyat","kultur-sanat","buyuk-britanya"],
+  onem:4, dunya:2, kapsam:"ic", etiket:["edebiyat","kultur","buyuk-britanya"],
   yer_id:"",
   d:"William Wordsworth ve Samuel Taylor Coleridge'in ortak yayımladığı Lyrical Ballads, günlük dili ve doğayı şiirin merkezine taşıyarak İngiliz Romantik şiir akımının başlangıcı sayıldı. Kitabın önsözü, sonraki bir yüzyıl boyunca şiir eleştirisini etkileyecek bir manifesto niteliği taşıdı.",
   kaynak:"el-kitabi", yer_id:"Bristol" },
@@ -1460,7 +1460,7 @@ window.KRONOLOJI_INGILTERE = [
   kaynak:"el-kitabi" },
 
 { t:"1848-09-01", b:"Pre-Raphael Kardeşliği kuruldu", tur:"kultur",
-  onem:2, dunya:1, kapsam:"ic", etiket:["kultur-sanat","birlesik-krallik"],
+  onem:2, dunya:1, kapsam:"ic", etiket:["kultur","birlesik-krallik"],
   yer_id:"Londra",
   d:"Genç ressamlar Dante Gabriel Rossetti, John Everett Millais ve William Holman Hunt, akademik resim geleneğine karşı Rönesans öncesi (Rafael öncesi) sadeliğe dönüşü savunan bir sanat topluluğu kurdu. Hareket, dönemin İngiliz resim ve tasarım anlayışını uzun süre etkileyecekti.",
   kaynak:"el-kitabi" },
@@ -1472,7 +1472,7 @@ window.KRONOLOJI_INGILTERE = [
   kaynak:"el-kitabi" },
 
 { t:"1871-01-01", b:"Gilbert ve Sullivan iş birliği başladı", tur:"kultur",
-  onem:2, dunya:1, kapsam:"ic", etiket:["kultur-sanat","birlesik-krallik"],
+  onem:2, dunya:1, kapsam:"ic", etiket:["kultur","birlesik-krallik"],
   yer_id:"Londra",
   d:"Librettist W. S. Gilbert ile besteci Arthur Sullivan'ın iş birliği, HMS Pinafore ve The Mikado gibi hafif operet eserleriyle Viktorya dönemi İngiliz müzikli tiyatrosunun en popüler ve uzun ömürlü türünü yarattı. Eserleri, İngiliz müzikal komedi geleneğinin doğrudan öncüsü sayılır.",
   kaynak:"el-kitabi" },
@@ -1516,13 +1516,13 @@ window.KRONOLOJI_INGILTERE = [
   kaynak:"el-kitabi", yer_id:"Lincoln" },
 
 { t:"1404-03-21", b:"Owain Glyndŵr Machynlleth'te kendi parlamentosunu topladı", tur:"kurulus",
-  onem:5, dunya:2, kapsam:"dis", etiket:["siyaset","anayasa","ayaklanma","galler"],
+  onem:5, dunya:2, kapsam:"dis", etiket:["siyaset","anayasa","isyan","galler"],
   yer_id:"",
   d:"Ayaklanmasının doruğunda bağımsız Galler Prensi ilan edilen Owain Glyndŵr, Machynlleth'te kendi parlamentosunu topladı ve Fransa ile bir ittifak antlaşması imzaladı; bağımsız bir Galler kilisesi ve iki üniversite kurma planları bile hazırlandı. Bu, ortaçağ Galler tarihinde bağımsız devlet kurumlarına en çok yaklaşılan andır.",
   kaynak:"el-kitabi", yer_kon:[52.591,-3.853] },
 
 { t:"1415-01-01", b:"Glyndŵr'ün ayaklanması sönümlendi", tur:"son",
-  onem:4, dunya:1, kapsam:"dis", etiket:["ayaklanma","galler"],
+  onem:4, dunya:1, kapsam:"dis", etiket:["isyan","galler"],
   yer_id:"",
   d:"V. Henry'nin artan askerî baskısı ve müttefiklerinin zayıflamasıyla Owain Glyndŵr'ün on beş yıllık ayaklanması sönümlendi; Glyndŵr'ün kendisi hiç yakalanmadan gözden kayboldu ve efsanevi bir figüre dönüştü. Ayaklanmanın bastırılması, Galler'in İngiliz idaresine kesin biçimde bağlanmasının önünü açtı.",
   kaynak:"el-kitabi", kapsam_genis:true },
@@ -1596,7 +1596,7 @@ window.KRONOLOJI_INGILTERE = [
   kaynak:"el-kitabi", yer_kon:[54.121,-0.105] },
 
 { t:"1437-02-20", b:"I. James suikastle öldürüldü", tur:"son",
-  onem:4, dunya:1, kapsam:"ic", etiket:["siyaset","iskocya"],
+  onem:4, dunya:1, kapsam:"ic", etiket:["siyaset","iskocya","suikast"],
   yer_id:"",
   d:"On sekiz yıllık İngiliz esaretinden döndükten sonra soylu iktidarını sert biçimde kısıtlamaya çalışan I. James, Perth'te kendi amcasının torunlarının düzenlediği bir suikastle öldürüldü. Cinayet, İskoç kraliyet otoritesinin soylu klanlar karşısında ne denli kırılgan olduğunu gösterdi.",
   kaynak:"el-kitabi", yer_id:"Perth (İskoçya)" },
@@ -1638,7 +1638,7 @@ window.KRONOLOJI_INGILTERE = [
   kaynak:"el-kitabi", yer_kon:[55.975,-3.17] },
 
 { t:"1567-02-10", b:"Lord Darnley öldürüldü", tur:"siyaset",
-  onem:4, dunya:1, kapsam:"ic", etiket:["siyaset","iskocya"],
+  onem:4, dunya:1, kapsam:"ic", etiket:["siyaset","iskocya","suikast"],
   yer_id:"",
   d:"Mary Stuart'ın ikinci kocası Lord Darnley'nin konaklamakta olduğu Kirk o' Field evi barutla havaya uçuruldu; Darnley'nin cesedi bahçede boğulmuş hâlde bulundu. Cinayetin failinin Mary'nin üçüncü kocası olacak Bothwell Kontu olduğu yönündeki güçlü şüpheler, Mary'nin tahtını kalıcı olarak sarstı.",
   kaynak:"el-kitabi", yer_id:"Edinburg" },
@@ -1668,7 +1668,7 @@ window.KRONOLOJI_INGILTERE = [
   kaynak:"el-kitabi", yer_kon:[55.997,-2.515] },
 
 { t:"1689-07-27", b:"Killiecrankie Savaşı — ilk Jakobit ayaklanması", tur:"savas",
-  onem:3, dunya:1, kapsam:"ic", etiket:["askeri","savas","ayaklanma","iskocya"],
+  onem:3, dunya:1, kapsam:"ic", etiket:["askeri","savas","isyan","iskocya"],
   yer_id:"",
   d:"Şanlı Devrim'le tahttan indirilen II. James'i destekleyen Highland kabileleri, Bonnie Dundee komutasında hükümet kuvvetlerini Killiecrankie'de yendi; ama Dundee savaşta öldü ve önderlik zayıflayınca ayaklanma kısa sürede söndü. Bu, bir asır boyunca aralıklarla tekrarlanacak Jakobit ayaklanmalarının ilkiydi.",
   kaynak:"el-kitabi", yer_kon:[56.728,-3.77] },
@@ -1708,8 +1708,8 @@ window.KRONOLOJI_INGILTERE = [
   d:"II. Richard, bir İngiliz kralının İrlanda'ya çıkardığı en büyük ortaçağ ordusuyla adaya geçip birçok Gal beyinin nominal bağlılığını sağladı; ama kazanımlar kalıcı olmadı, kral ayrılır ayrılmaz Gal direnişi yeniden canlandı. Sefer, İngiliz Krallığı'nın fiilî denetiminin the Pale denen dar bir bölgenin ötesine pek geçmediğini gösterdi.",
   kaynak:"el-kitabi", yer_kon:[52.2593,-7.1101] },
 
-{ t:"1534-06-11", b:"İpekli Thomas İsyanı başladı", tur:"ayaklanma",
-  onem:4, dunya:1, kapsam:"dis", etiket:["ayaklanma","siyaset","irlanda"],
+{ t:"1534-06-11", b:"İpekli Thomas İsyanı başladı", tur:"isyan",
+  onem:4, dunya:1, kapsam:"dis", etiket:["isyan","siyaset","irlanda"],
   yer_id:"",
   d:"Kildare Kontu'nun oğlu 'İpekli Thomas' Fitzgerald, babasının Londra'da tutuklandığı yanlış haberi üzerine krala bağlılığını açıkça reddederek ayaklandı. İsyan bir yıl içinde bastırıldı ve Fitzgerald ailesinin yüzyıllardır süren Kildare hâkimiyeti sona erdi — Henry VIII'in İrlanda'ya doğrudan müdahalesinin dönüm noktalarından biri.",
   kaynak:"el-kitabi", yer_id:"Dublin" },
@@ -1738,8 +1738,8 @@ window.KRONOLOJI_INGILTERE = [
   d:"Kontların Kaçışı'yla boşalan Ulster toprakları, İskoç ve İngiliz Protestan yerleşimcilere sistematik olarak dağıtıldı; plan, bölgenin dinî ve etnik bileşimini kalıcı olarak değiştirmeyi hedefliyordu. Plantasyon, kuzey İrlanda'da bugüne dek süren Protestan-Katolik ayrışmasının doğrudan kökeni sayılır.",
   kaynak:"el-kitabi", kapsam_genis:true },
 
-{ t:"1641-10-23", b:"1641 İrlanda İsyanı başladı", tur:"ayaklanma",
-  onem:5, dunya:2, kapsam:"ic", etiket:["ayaklanma","din","irlanda"],
+{ t:"1641-10-23", b:"1641 İrlanda İsyanı başladı", tur:"isyan",
+  onem:5, dunya:2, kapsam:"ic", etiket:["isyan","din","irlanda"],
   yer_id:"",
   d:"Ulster'deki Katolik İrlandalılar, plantasyon yerleşimcilerine karşı geniş çaplı bir ayaklanma başlattı; şiddet dalgasında binlerce Protestan yerleşimci öldürüldü ya da sürüldü, abartılı raporlar İngiltere'de derin bir infial yarattı. İsyan on bir yıl sürecek bir iç savaşa dönüştü ve nihayetinde Cromwell'in müdahalesini tetikledi.",
   kaynak:"el-kitabi", kapsam_genis:true },
@@ -1751,7 +1751,7 @@ window.KRONOLOJI_INGILTERE = [
   kaynak:"el-kitabi", yer_kon:[53.7189,-6.3478] },
 
 { t:"1652-08-12", b:"İrlanda İçin Yerleşim Yasası — toprak müsaderesi", tur:"toprak-kayip",
-  onem:5, dunya:2, kapsam:"ic", etiket:["toprak-kaybi","ekonomi","irlanda"],
+  onem:5, dunya:2, kapsam:"ic", etiket:["toprak-kayip","ekonomi","irlanda"],
   yer_id:"",
   d:"Cromwell'in fethini tamamlayan yasa, isyana katılan (ya da katılmadığı ispatlanamayan) Katolik toprak sahiplerinin mülklerine el koyup onları Shannon Nehri'nin batısındaki Connacht'a sürdü — 'Cehenneme ya da Connacht'a' deyişi bu politikadan doğdu. Müsadere, İrlanda toprak mülkiyetinin dinî dengesini yüzyıllar boyu sürecek biçimde Protestan lehine çevirdi.",
   kaynak:"el-kitabi", yer_id:"Londra" },
@@ -1786,8 +1786,8 @@ window.KRONOLOJI_INGILTERE = [
   d:"Fransız Devrimi'nden ilham alan Protestan avukat Theobald Wolfe Tone ve arkadaşları, Katolik ve Protestanları birleştirip İrlanda için bağımsız ve demokratik bir cumhuriyet hedefleyen Society of United Irishmen'i kurdu. Örgüt, yedi yıl sonra 1798 Ayaklanması'nın çekirdeğini oluşturacaktı.",
   kaynak:"el-kitabi", yer_id:"Belfast" },
 
-{ t:"1798-05-23", b:"1798 İrlanda Ayaklanması başladı", tur:"ayaklanma",
-  onem:5, dunya:2, kapsam:"ic", etiket:["ayaklanma","irlanda"],
+{ t:"1798-05-23", b:"1798 İrlanda Ayaklanması başladı", tur:"isyan",
+  onem:5, dunya:2, kapsam:"ic", etiket:["isyan","irlanda"],
   yer_id:"",
   d:"Birleşik İrlandalılar'ın önderliğinde başlayan geniş çaplı ayaklanma, en yoğun çarpışmaları Wexford'da yaşandı; beklenen Fransız desteği gecikince isyan üç ay içinde ağır kayıplarla bastırıldı. Ayaklanmanın yarattığı istikrarsızlık, Britanya hükümetini üç yıl sonraki Birlik Yasası'nı dayatmaya ikna eden başlıca gerekçelerden biri oldu.",
   kaynak:"el-kitabi", kapsam_genis:true },
@@ -1798,8 +1798,8 @@ window.KRONOLOJI_INGILTERE = [
   d:"Yoksul kırsal nüfusun temel besin kaynağı olan patates mahsulünü çürüten bir mantar hastalığı ilk kez gazetelerde haber oldu; hastalık dört yıl boyunca tekrarlayarak yaklaşık bir milyon kişinin açlıktan ölümüne ve bir milyondan fazlasının göçüne yol açtı. Britanya hükümetinin yetersiz ve ideolojik müdahalesi, kıtlığın İrlanda millî hafızasında derin bir güvensizlik bırakmasına neden oldu.",
   kaynak:"el-kitabi", kapsam_genis:true },
 
-{ t:"1848-07-29", b:"Genç İrlanda Ayaklanması", tur:"ayaklanma",
-  onem:2, dunya:1, kapsam:"ic", etiket:["ayaklanma","irlanda"],
+{ t:"1848-07-29", b:"Genç İrlanda Ayaklanması", tur:"isyan",
+  onem:2, dunya:1, kapsam:"ic", etiket:["isyan","irlanda"],
   yer_id:"",
   d:"Kıtlığın ortasında umutsuzlukla harekete geçen küçük bir Genç İrlanda grubu, Tipperary'de sembolik ama askerî açıdan önemsiz bir ayaklanma girişiminde bulundu; hızla bastırıldı. Başarısızlığına rağmen hareket, sonraki nesil İrlanda cumhuriyetçiliğine ilham kaynağı oldu.",
   kaynak:"el-kitabi", yer_kon:[52.467,-7.803] },

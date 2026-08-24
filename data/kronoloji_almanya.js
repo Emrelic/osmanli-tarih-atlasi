@@ -62,12 +62,12 @@ window.KRONOLOJI_ALMANYA = [
 // ══════════════════════════════════════════════════════════════════
 
 { t:"1338-07-16", devlet:"kutsal-roma", b:"Rhense Bildirisi — imparatorluk seçiminin papalıktan bağımsızlığı", tur:"anayasa", onem:4, dunya:3, kapsam:"ic", yer_id:"", kapsam_genis:true,
-  etiket:["idari","siyasi","kutsal-roma"],
+  etiket:["idari","siyaset","kutsal-roma"],
   d:"Yedi seçici prens (Kurfürst), Rhense'de toplanıp seçtikleri Roma Kralı'nın papa onayına ihtiyaç duymadığını ilan etti. Bu, imparatorluk ile papalık arasındaki asırlık üstünlük çekişmesinde İmparatorluk lehine kalıcı bir dönüm noktasıydı ve Altın Ferman'ın (1356) hukukî temelini hazırladı.",
   kaynak:"Peter H. Wilson, Heart of Europe (2016) — Kurfürstler'in Rhense Bildirisi ve papalık onayının reddi standart anlatı; gün Temmuz 1338 olarak kabul edilir" },
 
 { t:"1346-07-11", devlet:"kutsal-roma", b:"IV. Karl'ın Roma Kralı seçilmesi", tur:"hukumdar", onem:3, dunya:2, kapsam:"ic", yer_id:"",
-  etiket:["hanedan","siyasi","kutsal-roma"],
+  etiket:["hanedan","siyaset","kutsal-roma"],
   d:"Lüksemburg hanedanından Karl, Bohemya kralı olarak yedi seçici tarafından Roma Kralı seçildi; babası Jean'in Crécy'de ölümünden sonra 1347'de tahta tam olarak geçti. IV. Karl'ın imparatorluğu, Altın Ferman ve Prag'ın imparatorluk merkezi hâline gelmesiyle anılır.",
   kaynak:"Wilson, Heart of Europe — IV. Karl'ın 1346 seçimi ve 1347 taç giymesi standart kronoloji", yer_kon:[50.2917,7.5975] },
 
@@ -77,12 +77,12 @@ window.KRONOLOJI_ALMANYA = [
   kaynak:"Whaley, Germany and the Holy Roman Empire I (2012) — Prag Üniversitesi'nin 1348 kuruluşu ve IV. Karl'ın eğitim politikası" },
 
 { t:"1356-01-10", devlet:"kutsal-roma", b:"Altın Ferman — yedi seçici prens sisteminin hukukîleşmesi", tur:"anayasa", onem:5, dunya:4, kapsam:"ic", yer_id:"", kapsam_genis:true,
-  etiket:["idari","siyasi","kanun","kutsal-roma"],
+  etiket:["idari","siyaset","kanun","kutsal-roma"],
   d:"IV. Karl'ın Nürnberg ve Metz diyetlerinde ilan ettiği Altın Ferman, imparator seçimini yedi seçici prense (üç başpiskopos, Bohemya kralı, Ren Kontu, Sakson dükü, Brandenburg markgrafı) bıraktı ve seçim usulünü dört asır sürecek şekilde sabitledi. İmparatorluğun merkezî otoritesi zayıflarken prenslerin gücünü hukuken pekiştirdi.",
   kaynak:"Wilson, Heart of Europe — Altın Ferman'ın 1356 Ocak (Nürnberg) ve Aralık (Metz) bölümleri, standart tarih 10 Ocak 1356" },
 
 { t:"1356-11-24", devlet:"hansa", b:"Lübeck'te ilk genel Hanse toplantısı (Hansetag)", tur:"kurulus", onem:3, dunya:2, kapsam:"ic", yer_id:"Lübeck",
-  etiket:["iktisat","diplomasi","hansa"],
+  etiket:["ekonomi","diplomasi","hansa"],
   d:"Kuzey Alman ve Baltık liman şehirlerinin ticaret birliği Hansa, ilk belgelenmiş genel meclisini (Hansetag) Lübeck'te topladı ve gevşek bir ticaret ağından ortak çıkarları savunan bir kurumsal yapıya dönüştü. Zirve döneminde 200'e yakın şehri kapsayan birlik, Kuzey Denizi ve Baltık ticaretine üç asır egemen oldu.",
   kaynak:"Schulze, Germany: A New History — Hansa'nın kurumsallaşması ve Lübeck'in merkezî rolü; gün belirsiz, yıl 1356 için genel kabul var" },
 
@@ -97,7 +97,7 @@ window.KRONOLOJI_ALMANYA = [
   kaynak:"Whaley, Germany and the Holy Roman Empire I — 1409 Kutná Hora sonrası Prag'dan Leipzig'e göç ve üniversitenin 2 Aralık 1409 kuruluşu" },
 
 { t:"1415-04-30", devlet:"brandenburg-prusya", b:"Hohenzollern hanedanının Brandenburg Elektörlüğü'nü alması", tur:"hanedan", onem:5, dunya:2, kapsam:"ic", yer_id:"",
-  etiket:["hanedan","siyasi","brandenburg-prusya"],
+  etiket:["hanedan","siyaset","brandenburg-prusya"],
   d:"İmparator Sigismund, Konstanz Konsili sırasında Nürnberg Burgraf'ı I. Friedrich von Hohenzollern'i Brandenburg Elektörü olarak yatırdı. Bu, sonraki beş asır Prusya ve nihayet birleşik Almanya'yı yönetecek hanedanın Kuzey Almanya'daki iktidarının başlangıcıydı.",
   kaynak:"Clark, Iron Kingdom (2006) — Hohenzollern'in 1415 Brandenburg yatırımı, kitabın açılış anlatısı", yer_id:"Konstanz" },
 
@@ -112,7 +112,7 @@ window.KRONOLOJI_ALMANYA = [
   kaynak:"bulunamadı — kuruluş yılı 1460 genel akademik kabul, gün DOĞRULANMADI" },
 
 { t:"1474-02-28", devlet:"hansa", b:"Utrecht Barışı — Hansa'nın İngiltere'yle ticarî imtiyazları", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"",
-  etiket:["iktisat","diplomasi","hansa"],
+  etiket:["ekonomi","diplomasi","hansa"],
   d:"Dokuz yıl süren Anglo-Hanseatik Savaşı'nı sona erdiren Utrecht Antlaşması, Hansa tüccarlarına İngiltere'de geniş gümrük muafiyetleri ve Londra'da kendi ticaret merkezlerini (Stalhof) tanıdı. Antlaşma Hansa'nın Kuzey Avrupa ticaretindeki zirve gücünü perçinledi.",
   kaynak:"Schulze, Germany: A New History — Hansa'nın İngiltere ile 1474 Utrecht uzlaşması", yer_id:"Utrecht" },
 
@@ -131,8 +131,8 @@ window.KRONOLOJI_ALMANYA = [
   d:"Köln Diyeti'nde imparatorluk çevreleri sayısı on ikiye (fiilen on aktif çevreye) çıkarıldı; Avusturya ve Bohemya toprakları ile seçici prensliklerin bazıları da sisteme dahil edildi. Bu genişleme, imparatorluğun idarî haritasını 1806'ya kadar geçerli kalacak şekilde sabitledi.",
   kaynak:"bulunamadı — gün DOĞRULANMADI, yıl 1512 standart akademik anlatının verdiği tarih" },
 
-{ t:"1519-06-28", devlet:"kutsal-roma", b:"Fugger ailesinin V. Karl'ın imparator seçimini finanse etmesi", tur:"iktisat", onem:3, dunya:2, kapsam:"ic", yer_id:"Augsburg",
-  etiket:["iktisat","siyasi","kutsal-roma"],
+{ t:"1519-06-28", devlet:"kutsal-roma", b:"Fugger ailesinin V. Karl'ın imparator seçimini finanse etmesi", tur:"ekonomi", onem:3, dunya:2, kapsam:"ic", yer_id:"Augsburg",
+  etiket:["ekonomi","siyaset","kutsal-roma"],
   d:"Augsburglu bankacı Jakob Fugger, Habsburglu Karl'ın imparator seçilmesi için seçici prenslere dağıtılan rüşvetin büyük kısmını (yaklaşık 850.000 flori) finanse etti ve Fransa Kralı I. François'yı yarıştan çıkardı. Bu, özel bankacı sermayesinin imparatorluk siyasetini doğrudan belirlediği en çarpıcı örnektir.",
   kaynak:"Wilson, Heart of Europe — Fugger'in 1519 finansmanı ve Karl'ın seçimi, standart anlatı" },
 
@@ -146,7 +146,7 @@ window.KRONOLOJI_ALMANYA = [
   kaynak:"Schulze, Germany: A New History; Whaley, Germany and the Holy Roman Empire I — 31 Ekim 1517 standart tarih. Wittenberg yerleşim kaydı yok, yer_id boş" },
 
 { t:"1521-04-17", devlet:"kutsal-roma", b:"Luther'in Worms Diyeti'nde tezlerini geri almayı reddetmesi", tur:"din", onem:5, dunya:4, kapsam:"ic", yer_id:"", kapsam_genis:true,
-  etiket:["din","siyasi","kutsal-roma"],
+  etiket:["din","siyaset","kutsal-roma"],
   d:"İmparator V. Karl'ın huzuruna çıkarılan Luther, öğretilerini geri çekmeyi reddetti; İmparator bir ay sonra (25 Mayıs) çıkardığı Worms Fermanı ile onu aforozlu ve fermana muhalif ilan etti. Ferman uygulanamadı — Saksonya Elektörü Bilge Friedrich, Luther'i Wartburg Kalesi'nde saklayarak korudu.",
   kaynak:"Whaley, Germany and the Holy Roman Empire I — Worms Diyeti 17-18 Nisan 1521, Worms Fermanı 25 Mayıs 1521. Worms yerleşim kaydı yok, yer_id boş" },
 
@@ -166,7 +166,7 @@ window.KRONOLOJI_ALMANYA = [
   kaynak:"Schulze, Germany: A New History — Köylü Savaşı'nın 1524-25 seyri ve Frankenhausen'de bastırılışı, 15 Mayıs 1525 standart tarih" },
 
 { t:"1529-04-19", devlet:"kutsal-roma", b:"Speyer Diyeti — 'Protestan' adının doğuşu", tur:"din", onem:3, dunya:2, kapsam:"ic", yer_id:"", kapsam_genis:true,
-  etiket:["din","siyasi","kutsal-roma"],
+  etiket:["din","siyaset","kutsal-roma"],
   d:"İmparator'un Speyer Diyeti'nde Worms Fermanı'nı yeniden yürürlüğe koyma kararına, Luthercilik yanlısı prens ve şehirler resmî bir protesto (Protestation) ile karşı çıktı. Bu protestodan \"Protestan\" adı doğdu ve reformcu güçlerin siyasî bir blok olarak tanınmasının ilk adımı atıldı.",
   kaynak:"Whaley — 1529 Speyer Protestation'ı, 19 Nisan tarihi standart anlatı" },
 
@@ -175,12 +175,12 @@ window.KRONOLOJI_ALMANYA = [
   d:"Protestan prens ve şehirler Schmalkalden'de bir araya gelip savunma amaçlı bir askerî-siyasî birlik kurdu. On altı yıl İmparator V. Karl'a karşı Protestan tarafının başlıca gücü olan birlik, 1547'de Mühlberg'de dağıtıldı.",
   kaynak:"Whaley — Schmalkaldic Birliği'nin 27 Şubat 1531 kuruluşu" },
 
-{ t:"1534-02-23", devlet:"kutsal-roma", b:"Anabaptistlerin Münster'de iktidarı ele geçirmesi", tur:"ayaklanma", onem:3, dunya:2, kapsam:"ic", yer_id:"Münster",
+{ t:"1534-02-23", devlet:"kutsal-roma", b:"Anabaptistlerin Münster'de iktidarı ele geçirmesi", tur:"isyan", onem:3, dunya:2, kapsam:"ic", yer_id:"Münster",
   etiket:["din","sosyal","kutsal-roma"],
   d:"Radikal Anabaptist vaiz Bernhard Rothmann ve takipçileri Münster şehir meclisi seçimlerini kazanıp kenti bir \"Yeni Kudüs\" ilan etti; kısa süre sonra Leidenli Jan kendini kral ilan ederek çok eşliliği ve mal ortaklığını dayattı. Şehir, piskoposun ordusunca kuşatıldı.",
   kaynak:"Schulze, Germany: A New History — Münster Anabaptist Krallığı'nın 1534 başlangıcı" },
 
-{ t:"1535-06-25", devlet:"kutsal-roma", b:"Münster kuşatmasının sona ermesi ve Anabaptist krallığın çöküşü", tur:"ayaklanma", onem:3, dunya:2, kapsam:"ic", yer_id:"Münster",
+{ t:"1535-06-25", devlet:"kutsal-roma", b:"Münster kuşatmasının sona ermesi ve Anabaptist krallığın çöküşü", tur:"isyan", onem:3, dunya:2, kapsam:"ic", yer_id:"Münster",
   etiket:["din","sosyal","kutsal-roma"],
   d:"On altı ay süren kuşatmadan sonra piskoposun kuvvetleri şehre girdi; Leidenli Jan ve yakın çevresi işkenceyle öldürüldü, cesetleri şehrin Lamberti Kilisesi kulesinde demir kafeslerde asırlarca teşhir edildi. Olay, Anabaptist hareketinin Almanya'daki en travmatik hafızası oldu.",
   kaynak:"Schulze — Münster kuşatmasının 24-25 Haziran 1535'te sona ermesi" },
@@ -248,7 +248,7 @@ window.KRONOLOJI_ALMANYA = [
 // ══════════════════════════════════════════════════════════════════
 
 { t:"1640-12-01", devlet:"brandenburg-prusya", b:"Büyük Elektör Friedrich Wilhelm'in tahta çıkışı", tur:"hukumdar", onem:5, dunya:2, kapsam:"ic", yer_id:"Berlin",
-  etiket:["hanedan","siyasi","brandenburg-prusya"],
+  etiket:["hanedan","siyaset","brandenburg-prusya"],
   d:"Otuz Yıl Savaşları'nın harabeye çevirdiği Brandenburg'un başına geçen Friedrich Wilhelm, dağınık toprakları (Brandenburg, Doğu Prusya, Ren'deki Kleve-Mark) tek bir daimî ordu ve merkezî vergi sistemiyle birleştirmeye girişti. \"Büyük Elektör\" unvanı, sonraki bir asırda Prusya devletinin kurumsal omurgasını attığı için verildi.",
   kaynak:"Clark, Iron Kingdom — Büyük Elektör'ün 1640 tahta çıkışı ve devlet inşası, kitabın merkez anlatısı" },
 
@@ -268,7 +268,7 @@ window.KRONOLOJI_ALMANYA = [
   kaynak:"Clark, Iron Kingdom — Potsdam Fermanı'nın 29 Ekim 1685 ilanı ve Huguenot göçü. Potsdam yerleşim kaydı yok, yer_id boş", yer_kon:[52.3906,13.0645] },
 
 { t:"1701-01-18", devlet:"brandenburg-prusya", b:"I. Friedrich'in kendini 'Prusya Kralı' ilan etmesi", tur:"kurulus", onem:5, dunya:3, kapsam:"ic", yer_id:"Königsberg",
-  etiket:["hanedan","siyasi","brandenburg-prusya"],
+  etiket:["hanedan","siyaset","brandenburg-prusya"],
   d:"Elektör Friedrich III, İspanya Veraset Savaşı'nda İmparator'a askerî destek karşılığında aldığı izinle Königsberg'de kendini \"Prusya'da Kral\" I. Friedrich olarak taçlandırdı. Kutsal Roma İmparatorluğu içinde bir elektörlüğün krallık unvanı kazanması, Prusya'nın Avrupa devletler sistemindeki statüsünü kalıcı olarak yükseltti.",
   kaynak:"Clark, Iron Kingdom — I. Friedrich'in 18 Ocak 1701 Königsberg taç giyme töreni" },
 
@@ -318,7 +318,7 @@ window.KRONOLOJI_ALMANYA = [
   kaynak:"Clark, Iron Kingdom — Torgau'nun 3 Kasım 1760 muharebesi", yer_kon:[51.56,13] },
 
 { t:"1761-03-22", devlet:"brandenburg-prusya", b:"Osmanlı-Prusya dostluk ve ticaret antlaşması", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"",
-  etiket:["diplomasi","iktisat","brandenburg-prusya"],
+  etiket:["diplomasi","ekonomi","brandenburg-prusya"],
   d:"Yedi Yıl Savaşları sürerken imzalanan antlaşma, iki devlet arasındaki ilk resmî dostluk ve ticaret çerçevesini kurdu. Osmanlı tarafı, Avrupa'daki güçler dengesinde Prusya'yı Avusturya ve Rusya'ya karşı potansiyel bir denge unsuru olarak görüyordu.",
   kaynak:"TDV `prusya`: \"22 Mart 1761 Dostluk ve ticaret antlaşması imzalanır\" — bu oturumda okundu", yer_id:"İstanbul" },
 
@@ -372,7 +372,7 @@ window.KRONOLOJI_ALMANYA = [
   kaynak:"Clark, Iron Kingdom — Ekim Fermanı'nın 9 Ekim 1807 ilanı, Prusya sarayının Königsberg sürgünü döneminde" },
 
 { t:"1810-10-15", devlet:"brandenburg-prusya", b:"Berlin (Humboldt) Üniversitesi'nin açılması", tur:"bilim", onem:5, dunya:3, kapsam:"ic", yer_id:"Berlin",
-  etiket:["bilim","kultur","brandenburg-prusya"],
+  etiket:["bilim","kultur","brandenburg-prusya","islahat"],
   d:"Wilhelm von Humboldt'un öncülüğünde kurulan Berlin Üniversitesi, araştırma ile öğretimi birleştiren \"Humboldt modeli\"ni hayata geçirdi ve dünya çapında modern araştırma üniversitesinin şablonu oldu. Jena bozgunundan sonra \"kılıçla kaybedileni zihinle kazanma\" fikrinin somut ürünüydü.",
   kaynak:"Clark, Iron Kingdom — Humboldt Üniversitesi'nin 1809 fermanı ve 1810 açılışı" },
 
@@ -382,7 +382,7 @@ window.KRONOLOJI_ALMANYA = [
   kaynak:"Clark, Iron Kingdom — 1812 Yahudi Emansipasyon Fermanı'nın 11 Mart 1812 ilanı" },
 
 { t:"1813-03-17", devlet:"brandenburg-prusya", b:"Prusya'nın Fransa'ya savaş ilanı — 'Halkıma' çağrısı", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"", kapsam_genis:true,
-  etiket:["askeri","siyasi","brandenburg-prusya"],
+  etiket:["askeri","siyaset","brandenburg-prusya"],
   d:"Kral III. Friedrich Wilhelm, \"An Mein Volk\" (Halkıma) bildirisiyle halkı Napolyon'a karşı Özgürlük Savaşları'na çağırdı ve aynı gün Fransa'ya resmen savaş ilan etti. Gönüllü seferberlik ve Landwehr (milis) örgütlenmesi, kitlesel Alman milliyetçiliğinin ilk büyük deneyimi oldu.",
   kaynak:"Clark, Iron Kingdom — 17 Mart 1813 savaş ilanı ve halka çağrı" },
 
@@ -401,27 +401,27 @@ window.KRONOLOJI_ALMANYA = [
 // ══════════════════════════════════════════════════════════════════
 
 { t:"1815-06-08", devlet:"alman-konfederasyonu", b:"Alman Konfederasyonu'nun (Deutscher Bund) kurulması", tur:"kurulus", onem:5, dunya:4, kapsam:"ic", yer_id:"", kapsam_genis:true,
-  etiket:["idari","siyasi","alman-konfederasyonu"],
+  etiket:["idari","siyaset","alman-konfederasyonu"],
   d:"Viyana Kongresi'nin Nihaî Senedi'nin bir parçası olarak imzalanan Bundesakte, dağılmış Kutsal Roma İmparatorluğu'nun yerine otuz dokuz Alman devletini gevşek bir konfederasyona bağladı; başkanlığı Avusturya, meclisi (Bundestag) Frankfurt'ta topluyordu. Yapı, ne merkezî bir hükûmete ne de birleşik bir orduya sahipti — elli iki yıl sonra Prusya'nın önderliğinde daha sıkı bir birliğe dönüşene kadar sürdü.",
   kaynak:"Blackbourn, History of Germany 1780-1918 — Alman Konfederasyonu'nun 8 Haziran 1815 Bundesakte'siyle kuruluşu" },
 
-{ t:"1818-05-26", devlet:"brandenburg-prusya", b:"Prusya Gümrük Yasası — Zollverein'in temeli", tur:"iktisat", onem:4, dunya:2, kapsam:"ic", yer_id:"Berlin",
-  etiket:["iktisat","idari","brandenburg-prusya"],
+{ t:"1818-05-26", devlet:"brandenburg-prusya", b:"Prusya Gümrük Yasası — Zollverein'in temeli", tur:"ekonomi", onem:4, dunya:2, kapsam:"ic", yer_id:"Berlin",
+  etiket:["ekonomi","idari","brandenburg-prusya"],
   d:"Prusya'nın kendi içindeki iç gümrükleri kaldırıp dış sınırında tek bir tarife uygulamaya başlayan yasa, on altı yıl sonra kurulacak Alman Gümrük Birliği'nin (Zollverein) prototipiydi. Ekonomik birleşmenin siyasî birleşmeden önce geldiği model, sonraki on yıllarda komşu devletleri Prusya'nın gümrük sistemine katılmaya ikna etti.",
   kaynak:"Blackbourn — Prusya Gümrük Yasası'nın 1818 çıkarılışı, standart tarih 26 Mayıs 1818" },
 
-{ t:"1834-01-01", devlet:"brandenburg-prusya", b:"Alman Gümrük Birliği'nin (Zollverein) yürürlüğe girmesi", tur:"iktisat", onem:5, dunya:3, kapsam:"ic", yer_id:"", kapsam_genis:true,
-  etiket:["iktisat","brandenburg-prusya"],
+{ t:"1834-01-01", devlet:"brandenburg-prusya", b:"Alman Gümrük Birliği'nin (Zollverein) yürürlüğe girmesi", tur:"ekonomi", onem:5, dunya:3, kapsam:"ic", yer_id:"", kapsam_genis:true,
+  etiket:["ekonomi","brandenburg-prusya"],
   d:"On sekiz Alman devletini kapsayan Zollverein, iç gümrükleri kaldırıp ortak bir dış tarife uygulamaya koydu; Avusturya bilinçli olarak dışarıda bırakıldı. Ekonomik birlik, otuz yedi yıl sonraki siyasî birleşmenin altyapısını Prusya önderliğinde inşa etti.",
   kaynak:"Blackbourn — Zollverein'in 1 Ocak 1834 yürürlüğe girişi" },
 
 { t:"1835-12-07", devlet:"bavyera", b:"Almanya'nın ilk demiryolu hattı — Nürnberg-Fürth", tur:"teknoloji", onem:3, dunya:2, kapsam:"ic", yer_id:"Nürnberg",
-  etiket:["teknoloji","iktisat","bavyera"],
+  etiket:["teknoloji","ekonomi","bavyera"],
   d:"\"Ludwigsbahn\" adı verilen altı kilometrelik hat, Nürnberg ile Fürth arasında Almanya'nın ilk buharlı tren seferini başlattı. Sonraki otuz yılda hızla genişleyen demiryolu ağı, Zollverein'in ekonomik birleşmesini fiziksel olarak tamamladı ve 1866-71 seferberliğinde askerî lojistiğin belkemiği oldu.",
   kaynak:"Blackbourn — Nürnberg-Fürth hattının 7 Aralık 1835 açılışı, standart tarih" },
 
 { t:"1840-01-01", devlet:"alman-konfederasyonu", b:"Osmanlı-Alman ticaret antlaşmasının yenilenmesi", tur:"antlasma", onem:2, dunya:1, kapsam:"dis", yer_id:"",
-  etiket:["iktisat","diplomasi","alman-konfederasyonu"],
+  etiket:["ekonomi","diplomasi","alman-konfederasyonu"],
   d:"Zollverein'in genişlemesiyle birlikte Osmanlı-Alman ticarî ilişkileri 1840'ta yeni bir antlaşmayla güncellendi. Antlaşma, on dokuzuncu yüzyıl boyunca giderek yoğunlaşacak Osmanlı-Alman ticaretinin erken aşamalarından biriydi.",
   kaynak:"TDV `almanya`: \"1840 Osmanlı-Alman ticaret antlaşması yenilendi\" — bu oturumda okundu, gün belirtilmedi", yer_id:"İstanbul" },
 
@@ -430,13 +430,13 @@ window.KRONOLOJI_ALMANYA = [
   d:"Orta Çağ'dan yarım kalan ve üç asırdır tamamlanmamış Köln Katedrali'nin inşasına, Kral IV. Friedrich Wilhelm'in temel taşını yeniden koymasıyla kaldığı yerden devam edildi. İnşaat, on dokuzuncu yüzyıl Alman milliyetçi romantizminin ortak bir ulusal proje olarak benimsediği simgelerden biri hâline geldi.",
   kaynak:"Blackbourn — Köln Katedrali inşasının 1842'de yeniden başlaması, gün 4 Eylül 1842" },
 
-{ t:"1844-06-04", devlet:"brandenburg-prusya", b:"Silezya dokumacı ayaklanması", tur:"ayaklanma", onem:3, dunya:2, kapsam:"ic", yer_id:"",
-  etiket:["sosyal","ayaklanma","brandenburg-prusya"],
+{ t:"1844-06-04", devlet:"brandenburg-prusya", b:"Silezya dokumacı ayaklanması", tur:"isyan", onem:3, dunya:2, kapsam:"ic", yer_id:"",
+  etiket:["sosyal","isyan","brandenburg-prusya"],
   d:"Endüstrileşmenin yıktığı geleneksel el dokumacılığının yoksullaştırdığı Silezyalı işçiler, ücretlerini ve fiyatları protesto ederek fabrikaları bastı; ayaklanma ordu tarafından kanlı biçimde bastırıldı. Olay, Alman toplumunda sanayileşmenin sosyal maliyetine dair ilk büyük kamuoyu tartışmalarından birini başlattı ve Heinrich Heine'nin bir şiirine konu oldu.",
   kaynak:"Blackbourn — Silezya dokumacı ayaklanmasının Haziran 1844'te (4-6 Haziran) bastırılması", yer_kon:[50.7314,16.5928] },
 
-{ t:"1847-10-12", devlet:"brandenburg-prusya", b:"Siemens & Halske şirketinin kurulması", tur:"iktisat", onem:3, dunya:1, kapsam:"ic", yer_id:"Berlin",
-  etiket:["iktisat","teknoloji","brandenburg-prusya"],
+{ t:"1847-10-12", devlet:"brandenburg-prusya", b:"Siemens & Halske şirketinin kurulması", tur:"ekonomi", onem:3, dunya:1, kapsam:"ic", yer_id:"Berlin",
+  etiket:["ekonomi","teknoloji","brandenburg-prusya"],
   d:"Werner von Siemens ve Johann Georg Halske'nin Berlin'de kurduğu telgraf üretim şirketi, kısa sürede Avrupa'nın önde gelen elektrik-mühendislik firmalarından birine dönüştü. Almanya'nın ikinci sanayi devrimindeki (elektrik, kimya) öncü rolünün erken örneklerinden biriydi.",
   kaynak:"bulunamadı — kuruluş tarihi 12 Ekim 1847 standart şirket tarihi kabulüdür, akademik eserde müstakil doğrulanmadı" },
 
@@ -445,28 +445,28 @@ window.KRONOLOJI_ALMANYA = [
   d:"Fizyolog ve fizikçi Hermann von Helmholtz, Berlin Fizik Derneği'nde sunduğu \"Kuvvetin Korunumu Üzerine\" adlı çalışmasında enerjinin yok olmadığını, yalnız biçim değiştirdiğini matematiksel olarak formüle etti. Termodinamiğin birinci yasasının en sistematik erken ifadelerinden biri, Alman bilim camiasının on dokuzuncu yüzyıl ortası fizik alanındaki öncülüğünü gösterdi.",
   kaynak:"bulunamadı — Helmholtz'un 23 Temmuz 1847 sunumu bilim tarihinde standart kabul görmüş tarih, akademik eserde müstakil doğrulanmadı" },
 
-{ t:"1848-03-18", devlet:"brandenburg-prusya", b:"Berlin barikat çatışmaları — Mart Devrimi", tur:"ayaklanma", onem:5, dunya:4, kapsam:"ic", yer_id:"Berlin",
-  etiket:["siyasi","isyan","brandenburg-prusya"],
+{ t:"1848-03-18", devlet:"brandenburg-prusya", b:"Berlin barikat çatışmaları — Mart Devrimi", tur:"isyan", onem:5, dunya:4, kapsam:"ic", yer_id:"Berlin",
+  etiket:["siyaset","isyan","brandenburg-prusya"],
   d:"Paris ve Viyana'daki devrimlerin ardından Berlin sokaklarında halk ile ordu arasında çatışmalar patlak verdi; Kral IV. Friedrich Wilhelm askerlerini geri çekmek zorunda kaldı ve anayasa vaat etti. Ayaklanma, Alman devletlerinin çoğunda eşzamanlı devrim dalgasının en görünür sahnesiydi.",
   kaynak:"Blackbourn — Berlin barikat çatışmalarının 18 Mart 1848'de patlak vermesi" },
 
 { t:"1848-05-18", devlet:"alman-konfederasyonu", b:"Frankfurt Paulskirche Meclisi'nin toplanması", tur:"kurulus", onem:5, dunya:4, kapsam:"ic", yer_id:"Frankfurt", kapsam_genis:true,
-  etiket:["siyasi","idari","alman-konfederasyonu"],
+  etiket:["siyaset","idari","alman-konfederasyonu"],
   d:"Bütün Alman devletlerinden seçilen 585 delege, Frankfurt'taki Paulskirche'de birleşik ve anayasal bir Almanya kurmak amacıyla ilk özgür Alman parlamentosunu topladı. Meclis on bir ay tartıştı, ama arkasında bir orduya ya da vergi gücüne sahip olmadığı için nihayetinde başarısız kaldı.",
   kaynak:"Blackbourn — Frankfurt Ulusal Meclisi'nin 18 Mayıs 1848 açılışı" },
 
 { t:"1849-03-28", devlet:"alman-konfederasyonu", b:"Paulskirche Anayasası'nın kabulü", tur:"anayasa", onem:4, dunya:3, kapsam:"ic", yer_id:"Frankfurt",
-  etiket:["idari","siyasi","alman-konfederasyonu"],
+  etiket:["idari","siyaset","alman-konfederasyonu","islahat"],
   d:"Frankfurt Meclisi, temel haklar güvencesi ve kalıtsal anayasal monarşi öngören bir birleşik Almanya anayasasını kabul etti. Belge hiçbir zaman yürürlüğe girmedi, ama sonraki Alman anayasalarının (1871, 1919, 1949) temel haklar bölümlerine kalıcı biçimde iz bıraktı.",
   kaynak:"Blackbourn — Paulskirche Anayasası'nın 28 Mart 1849 kabulü" },
 
 { t:"1849-04-03", devlet:"brandenburg-prusya", b:"IV. Friedrich Wilhelm'in imparatorluk tacını reddi", tur:"siyaset", onem:5, dunya:3, kapsam:"ic", yer_id:"Berlin",
-  etiket:["siyasi","brandenburg-prusya"],
+  etiket:["siyaset","brandenburg-prusya"],
   d:"Frankfurt Meclisi'nin sunduğu imparatorluk tacını Prusya Kralı IV. Friedrich Wilhelm, \"halktan gelen bir taç kabul edilemez\" gerekçesiyle reddetti — meşruiyetin ancak diğer hükümdarlardan gelebileceğini savundu. Ret, 1848 Devrimi'nin \"aşağıdan\" birleşme projesinin sonunu getirdi; birleşme on beş yıl sonra Bismarck'ın \"yukarıdan\" siyasetiyle gerçekleşti.",
   kaynak:"Blackbourn — IV. Friedrich Wilhelm'in tacı 3 Nisan 1849'da reddetmesi" },
 
 { t:"1850-11-29", devlet:"brandenburg-prusya", b:"Olmütz Punktasyonu — Erfurt Birliği girişiminin çöküşü", tur:"kriz", onem:3, dunya:2, kapsam:"ic", yer_id:"",
-  etiket:["siyasi","brandenburg-prusya"],
+  etiket:["siyaset","brandenburg-prusya"],
   d:"Prusya'nın önderliğinde küçük-Alman birliği kurma girişimi olan Erfurt Birliği projesi, Avusturya'nın askerî tehdidi karşısında Olmütz'de geri çekilmeyle sona erdi; Prusya, Alman Konfederasyonu'nun eski düzenine dönmeyi kabul etti. Bu \"Olmütz aşağılanması\", on altı yıl sonra Königgrätz'de tersine çevrilecekti.",
   kaynak:"Blackbourn — Olmütz Punktasyonu'nun 29 Kasım 1850 imzası", yer_kon:[49.5938,17.2509] },
 
@@ -476,12 +476,12 @@ window.KRONOLOJI_ALMANYA = [
   kaynak:"bulunamadı — keşif tarihi Ağustos 1856 standart bilim tarihi kabulüdür, gün DOĞRULANMADI. Düsseldorf yerleşim kaydı yok", yer_kon:[51.2225,6.9497] },
 
 { t:"1862-03-20", devlet:"brandenburg-prusya", b:"Zollverein-Osmanlı gümrük muahedesi", tur:"antlasma", onem:2, dunya:1, kapsam:"dis", yer_id:"",
-  etiket:["iktisat","diplomasi","brandenburg-prusya"],
+  etiket:["ekonomi","diplomasi","brandenburg-prusya"],
   d:"Alman Gümrük Birliği ile Osmanlı Devleti arasında yeni bir ticaret ve gümrük antlaşması imzalandı; bu, birleşme öncesi dağınık Alman devletlerinin ortak ekonomik kimliğiyle Osmanlı'yla kurduğu ilişkinin bir göstergesiydi.",
   kaynak:"TDV `prusya`: \"20 Mart 1862 Zollverein ile yeni muahede yapıldı\" — bu oturumda okundu", yer_id:"İstanbul" },
 
 { t:"1862-09-23", devlet:"brandenburg-prusya", b:"Bismarck'ın Prusya Başbakanı olması", tur:"siyaset", onem:5, dunya:4, kapsam:"ic", yer_id:"Berlin",
-  etiket:["siyasi","brandenburg-prusya"],
+  etiket:["siyaset","brandenburg-prusya"],
   d:"Kral I. Wilhelm, ordu bütçesi krizini aşmak için Otto von Bismarck'ı başbakanlığa getirdi. Bismarck, meclise karşı \"demir ve kan\" konuşmasıyla meşhur olan sert bir güç siyaseti izleyerek dokuz yıl içinde Alman birleşmesini kendi şartlarıyla gerçekleştirdi.",
   kaynak:"Blackbourn — Bismarck'ın 23 Eylül 1862 başbakanlık ataması" },
 
@@ -496,7 +496,7 @@ window.KRONOLOJI_ALMANYA = [
   kaynak:"Blackbourn — Prag Barışı'nın 23 Ağustos 1866 imzası, Königgrätz'in (3 Temmuz) siyasî sonucu" },
 
 { t:"1867-04-16", devlet:"brandenburg-prusya", b:"Kuzey Alman Konfederasyonu Anayasası'nın kabulü", tur:"anayasa", onem:5, dunya:3, kapsam:"ic", yer_id:"", kapsam_genis:true,
-  etiket:["idari","siyasi","brandenburg-prusya"],
+  etiket:["idari","siyaset","brandenburg-prusya","islahat"],
   d:"Prusya önderliğinde yirmi iki Kuzey Alman devletini birleştiren Konfederasyon, evrensel oyla seçilen bir Reichstag ve Prusya kralının başkanlığındaki federal bir yapı kurdu. Bu anayasa, dört yıl sonra ilan edilecek Alman İmparatorluğu'nun anayasasının doğrudan taslağıydı.",
   kaynak:"Blackbourn — Kuzey Alman Konfederasyonu Anayasası'nın 16 Nisan 1867 kabulü" },
 
@@ -511,12 +511,12 @@ window.KRONOLOJI_ALMANYA = [
   kaynak:"Blackbourn — Sedan Muharebesi'nin 2 Eylül 1870 teslimiyeti", yer_kon:[49.7016,4.9438] },
 
 { t:"1871-01-18", devlet:"alman-imparatorlugu", b:"Alman İmparatorluğu'nun Versailles'de ilanı", tur:"kurulus", onem:5, dunya:5, kapsam:"ic", yer_id:"Metz", kapsam_genis:true,
-  etiket:["siyasi","hanedan","kurulus","alman-imparatorlugu"],
+  etiket:["siyaset","hanedan","kurulus","alman-imparatorlugu"],
   d:"Kuşatma altındaki Paris yakınındaki Versailles Sarayı'nın Aynalı Salonu'nda toplanan Alman prensler, Prusya Kralı I. Wilhelm'i \"Alman İmparatoru\" ilan etti. Sekiz asırlık dağınıklığın ardından ilk kez tek bir ulus devlette birleşen Almanya, Avrupa'nın güç dengesini kalıcı olarak değiştirdi.",
   kaynak:"Blackbourn, History of Germany 1780-1918; devletler.js `almanya` künyesinin de kaydettiği 18 Ocak 1871 tarihi — standart ve tartışmasız" },
 
 { t:"1871-04-16", devlet:"alman-imparatorlugu", b:"Alman İmparatorluğu Anayasası'nın kabulü", tur:"anayasa", onem:4, dunya:3, kapsam:"ic", yer_id:"", kapsam_genis:true,
-  etiket:["idari","siyasi","alman-imparatorlugu"],
+  etiket:["idari","siyaset","alman-imparatorlugu","islahat"],
   d:"Reichstag'ın kabul ettiği anayasa, imparatorluğu yirmi beş devletten oluşan federal bir yapı olarak tanımladı; evrensel erkek oyuyla seçilen Reichstag'ın yanında gerçek güç Prusya kralı-imparator ve onun atadığı şansölyede (Bismarck) toplandı. Bu \"yarı-anayasal\" denge, imparatorluğun 1918'e kadarki siyasî yapısını belirledi.",
   kaynak:"Blackbourn — İmparatorluk Anayasası'nın 16 Nisan 1871 kabulü" },
 
@@ -535,7 +535,7 @@ window.KRONOLOJI_ALMANYA = [
   kaynak:"Blackbourn — Kulturkampf Mayıs Yasaları'nın 11 Mayıs 1873 çıkarılışı" },
 
 { t:"1876-08-13", devlet:"alman-imparatorlugu", b:"Bayreuth Festspielhaus'un açılışı — Wagner'in 'Nibelung'un Yüzüğü'", tur:"kultur", onem:3, dunya:2, kapsam:"ic", yer_id:"",
-  etiket:["kultur","sanat","alman-imparatorlugu"],
+  etiket:["kultur","kultur","alman-imparatorlugu"],
   d:"Richard Wagner'in kendi tasarladığı Bayreuth Festival Binası, bestecinin dört operadan oluşan \"Der Ring des Nibelungen\" döngüsünün ilk tam icrasıyla açıldı. Bina ve festival, Alman romantik milliyetçiliğinin sanat alanındaki en görünür simgelerinden biri hâline geldi.",
   kaynak:"bulunamadı — Bayreuth Festspielhaus açılışının 13 Ağustos 1876 tarihi standart müzik tarihi kabulüdür, akademik eserde doğrulanmadı. Bayreuth yerleşim kaydı yok", yer_kon:[49.9456,11.5713] },
 
@@ -545,7 +545,7 @@ window.KRONOLOJI_ALMANYA = [
   kaynak:"TDV `berlin-antlasmasi`: 13 Temmuz 1878 tarihli antlaşma; dunya değeri kronoloji_habsburg.js'teki aynı tarihli maddeyle (dunya:4) HİZALANDI, kusur önlendi" },
 
 { t:"1878-10-19", devlet:"alman-imparatorlugu", b:"Sosyalistlere Karşı Yasa (Sozialistengesetz)", tur:"kanun", onem:4, dunya:2, kapsam:"ic", yer_id:"", kapsam_genis:true,
-  etiket:["siyasi","kanun","alman-imparatorlugu"],
+  etiket:["siyaset","kanun","alman-imparatorlugu"],
   d:"İmparatora yönelik iki suikast girişimini bahane eden Bismarck, sosyalist örgütleri, toplantıları ve yayınları yasaklayan bir yasayı Reichstag'dan geçirdi. Yasa on iki yıl yürürlükte kaldı ama Sosyal Demokrat Parti'yi bastıramadı; Bismarck aynı dönemde işçi sınıfını devlete bağlamak için sosyal sigorta reformlarını başlattı.",
   kaynak:"Blackbourn — Sozialistengesetz'in 19 Ekim 1878 kabulü" },
 
@@ -555,7 +555,7 @@ window.KRONOLOJI_ALMANYA = [
   kaynak:"Blackbourn — Sağlık sigortası yasasının 15 Haziran 1883 kabulü" },
 
 { t:"1884-11-15", devlet:"alman-imparatorlugu", b:"Berlin Kongo Konferansı — Afrika'nın paylaşılması", tur:"diplomasi", onem:4, dunya:4, kapsam:"dis", yer_id:"Berlin",
-  etiket:["diplomasi","siyasi","alman-imparatorlugu"],
+  etiket:["diplomasi","siyaset","alman-imparatorlugu"],
   d:"Bismarck'ın davetiyle Berlin'de toplanan on dört Avrupa devleti ve ABD temsilcisi, Afrika kıtasının Avrupa güçleri arasında paylaşılmasının kurallarını belirledi. Almanya bu süreçte kendi sömürgelerini (Togo, Kamerun, Güneybatı Afrika, Doğu Afrika) resmen ilan etti — geç ama hızlı bir sömürgecilik atılımıydı.",
   kaynak:"Blackbourn — Berlin Kongo Konferansı'nın 15 Kasım 1884'te açılması" },
 
@@ -565,17 +565,17 @@ window.KRONOLOJI_ALMANYA = [
   kaynak:"Blackbourn — Berlin Genel Senedi'nin 26 Şubat 1885 imzası" },
 
 { t:"1888-06-15", devlet:"alman-imparatorlugu", b:"II. Wilhelm'in tahta çıkışı — 'Üç İmparator Yılı'nın sonu", tur:"hukumdar", onem:5, dunya:3, kapsam:"ic", yer_id:"Berlin",
-  etiket:["hanedan","siyasi","alman-imparatorlugu"],
+  etiket:["hanedan","siyaset","alman-imparatorlugu"],
   d:"I. Wilhelm'in Mart'ta, kanser hastası oğlu III. Friedrich'in yalnızca doksan dokuz gün sonra ölmesiyle taht torunu II. Wilhelm'e geçti. Genç, hırslı ve dış siyasette Bismarck'tan bağımsız hareket etmeye kararlı yeni imparator, iki yıl içinde \"yaşlı şansölye\"yi görevden alacaktı.",
   kaynak:"Blackbourn — 'Üç İmparator Yılı'nın 15 Haziran 1888'de II. Wilhelm'in tahta çıkışıyla kapanması" },
 
-{ t:"1888-10-04", devlet:"alman-imparatorlugu", b:"Deutsche Bank'ın Haydarpaşa-İzmit hattı imtiyazını alması", tur:"iktisat", onem:3, dunya:2, kapsam:"dis", yer_id:"",
-  etiket:["iktisat","diplomasi","alman-imparatorlugu"],
+{ t:"1888-10-04", devlet:"alman-imparatorlugu", b:"Deutsche Bank'ın Haydarpaşa-İzmit hattı imtiyazını alması", tur:"ekonomi", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+  etiket:["ekonomi","diplomasi","alman-imparatorlugu"],
   d:"Deutsche Bank, İstanbul'un Haydarpaşa yakasından İzmit'e uzanan demiryolu hattının işletme imtiyazını aldı — Bağdat Demiryolu'na uzanacak on beş yıllık Alman-Osmanlı demiryolu ortaklığının ilk somut adımıydı. Aynı yıl imtiyaz Ankara'ya kadar genişletildi.",
   kaynak:"TDV `almanya`: \"4 Ekim 1888 Deutsche Bank, Haydarpaşa-İzmit ve İzmit-Ankara hattı imtiyazlarını aldı\" — bu oturumda okundu", yer_id:"İstanbul" },
 
 { t:"1889-01-01", devlet:"alman-imparatorlugu", b:"II. Wilhelm'in İstanbul ziyareti", tur:"diplomasi", onem:4, dunya:3, kapsam:"dis", yer_id:"",
-  etiket:["diplomasi","siyasi","alman-imparatorlugu"],
+  etiket:["diplomasi","siyaset","alman-imparatorlugu"],
   d:"Tahta çıkışından altı ay sonra II. Sultan Abdülhamid'i ziyaret eden II. Wilhelm, bir Avrupa hükümdarının Osmanlı başkentine yaptığı ilk resmî ziyaretlerden birini gerçekleştirdi. Ziyaret, sonraki otuz yılın Alman-Osmanlı yakınlaşmasının açılış sahnesiydi.",
   kaynak:"TDV `almanya`: \"1889 II. Wilhelm'in İstanbul ziyareti gerçekleşti\" — bu oturumda okundu, gün belirtilmedi; devletler.js `almanya` künyesindeki 1889-01-01 tarihiyle HİZALANDI", yer_id:"İstanbul" },
 
@@ -585,7 +585,7 @@ window.KRONOLOJI_ALMANYA = [
   kaynak:"Blackbourn — Yaşlılık ve Malullük Sigortası Yasası'nın 22 Haziran 1889 kabulü" },
 
 { t:"1890-03-20", devlet:"alman-imparatorlugu", b:"Bismarck'ın görevden alınması", tur:"siyaset", onem:5, dunya:3, kapsam:"ic", yer_id:"Berlin",
-  etiket:["siyasi","alman-imparatorlugu"],
+  etiket:["siyaset","alman-imparatorlugu"],
   d:"II. Wilhelm ile artan gerginlik sonucu Bismarck, imparatorluğu on dokuz yıl yöneten şansölyelik görevinden istifaya zorlandı. \"Kılavuzun bırakılması\" (Dropping the Pilot) karikatürüyle dünya basınına yansıyan olay, Almanya'nın dış siyasetinde ölçülü Bismarck dengesinden II. Wilhelm'in daha saldırgan \"Weltpolitik\"ine geçişi simgeledi.",
   kaynak:"Blackbourn — Bismarck'ın 20 Mart 1890 istifası" },
 
@@ -595,7 +595,7 @@ window.KRONOLOJI_ALMANYA = [
   kaynak:"bulunamadı — Röntgen'in keşif tarihi 8 Kasım 1895 bilim tarihinde standart kabuldür, akademik eserde müstakil doğrulanmadı. Würzburg yerleşim kaydı yok", yer_id:"Würzburg" },
 
 { t:"1898-11-08", devlet:"alman-imparatorlugu", b:"II. Wilhelm'in Şam ziyareti — '300 milyon Müslümanın dostu' beyanı", tur:"diplomasi", onem:4, dunya:3, kapsam:"dis", yer_id:"",
-  etiket:["diplomasi","siyasi","alman-imparatorlugu"],
+  etiket:["diplomasi","siyaset","alman-imparatorlugu"],
   d:"İstanbul-Kudüs-Şam güzergâhlı ikinci Osmanlı seyahatinde II. Wilhelm, Selahaddin Eyyûbî'nin türbesini ziyaret ederek kendisini \"dünyadaki üç yüz milyon Müslümanın dostu\" ilan etti. Beyan, Almanya'nın İslâm dünyasına yönelik siyasetinin sembolik zirvesiydi ve İngiliz-Fransız kamuoyunda büyük tepki yarattı.",
   kaynak:"TDV `almanya`: \"1898 sonbahar II. Wilhelm'in İstanbul-Kudüs ziyareti; kendini 300 milyon müslümanın dostu ilân etti\" — bu oturumda okundu; Şam konuşmasının 8 Kasım 1898 tarihi standart tarihyazımı", yer_id:"Şam" },
 
@@ -610,17 +610,17 @@ window.KRONOLOJI_ALMANYA = [
   kaynak:"bulunamadı — Planck'ın 14 Aralık 1900 sunumu bilim tarihinde standart kabuldür, akademik eserde müstakil doğrulanmadı" },
 
 { t:"1903-03-05", devlet:"alman-imparatorlugu", b:"Bağdat Demiryolu Antlaşması", tur:"antlasma", onem:5, dunya:4, kapsam:"dis", yer_id:"",
-  etiket:["iktisat","diplomasi","alman-imparatorlugu"],
+  etiket:["ekonomi","diplomasi","alman-imparatorlugu","islahat"],
   d:"Deutsche Bank önderliğindeki Alman sermayesine, İstanbul'dan Bağdat ve Basra Körfezi'ne uzanacak demiryolu hattının inşa ve işletme imtiyazını veren antlaşma imzalandı. Proje, İngiliz-Alman emperyal rekabetinin (\"Berlin-Bağdat\" hattı) simgesi oldu ve I. Dünya Savaşı öncesi gerginliklerin kaynaklarından biri sayılır.",
   kaynak:"TDV `almanya`: \"5 Mart 1903 Bağdat Demiryolu Antlaşması imzalandı\"; TDV `bagdat-demiryolu`: nihai finansman anlaşması 21 Mart 1903, şirketin resmî kuruluşu 13 Nisan 1903 — bu oturumda ikisi de okundu, antlaşmanın imza tarihi olarak almanya maddesindeki 5 Mart esas alındı", yer_id:"İstanbul" },
 
 { t:"1905-03-31", devlet:"alman-imparatorlugu", b:"Birinci Fas Krizi — Tanca çıkarması", tur:"kriz", onem:4, dunya:4, kapsam:"dis", yer_id:"",
-  etiket:["diplomasi","siyasi","alman-imparatorlugu"],
+  etiket:["diplomasi","siyaset","alman-imparatorlugu"],
   d:"II. Wilhelm, Fransa'nın Fas üzerindeki artan nüfuzunu protesto etmek amacıyla Tanca'ya çıkarak Fas'ın bağımsızlığını destekleyen bir konuşma yaptı. Kriz, Fransa-İngiltere yakınlaşmasını (Entente Cordiale) pekiştirmesi bakımından tersine tepti ve Almanya'nın diplomatik yalnızlaşmasını derinleştirdi.",
   kaynak:"bulunamadı — 31 Mart 1905 Tanca çıkarması standart diplomasi tarihi kabulüdür, akademik eserde müstakil doğrulanmadı", yer_id:"Tanca" },
 
 { t:"1911-07-01", devlet:"alman-imparatorlugu", b:"İkinci Fas Krizi — Agadir Krizi", tur:"kriz", onem:4, dunya:4, kapsam:"dis", yer_id:"",
-  etiket:["diplomasi","siyasi","alman-imparatorlugu"],
+  etiket:["diplomasi","siyaset","alman-imparatorlugu"],
   d:"Almanya, Fransa'nın Fas'taki genişlemesine karşılık Agadir limanına Panther adlı bir savaş gemisi gönderdi. Kriz diplomatik yollarla (Almanya'nın Orta Afrika'da toprak tavizi almasıyla) çözüldü, ama İngiltere'de Almanya'ya karşı kamuoyu tepkisini keskinleştirdi ve I. Dünya Savaşı öncesi silahlanma yarışını hızlandırdı.",
   kaynak:"bulunamadı — Panther gemisinin Agadir'e 1 Temmuz 1911'de varışı standart tarih, akademik eserde müstakil doğrulanmadı", yer_id:"Agadir" },
 
@@ -639,7 +639,7 @@ window.KRONOLOJI_ALMANYA = [
   kaynak:"TDV `almanya`: \"2 Ağustos 1914 Gizli savunma ittifakı antlaşması imzalandı; Osmanlı Devleti savaşa girdi\" — bu oturumda okundu; devletler.js `almanya` künyesindeki 1914-08-02 tarihiyle BİREBİR örtüşüyor", yer_id:"İstanbul" },
 
 { t:"1914-08-04", devlet:"alman-imparatorlugu", b:"Almanya'nın Belçika'yı işgali ve İngiltere'nin savaş ilanı", tur:"savas", onem:5, dunya:5, kapsam:"dis", yer_id:"",
-  etiket:["askeri","siyasi","alman-imparatorlugu"],
+  etiket:["askeri","siyaset","alman-imparatorlugu"],
   d:"Fransa'yı hızla saf dışı bırakmayı öngören Schlieffen Planı gereği Alman orduları tarafsız Belçika'yı işgal etti; Belçika'nın bağımsızlığını garanti eden İngiltere aynı gün Almanya'ya savaş ilan etti. Bu, Avrupa'nın büyük güçlerinin tamamını saran genel bir savaşın başlangıcıydı.",
   kaynak:"Clark, The Sleepwalkers — Schlieffen Planı'nın uygulanması ve 4 Ağustos 1914 İngiliz savaş ilanı", kapsam_genis:true },
 
@@ -664,7 +664,7 @@ window.KRONOLOJI_ALMANYA = [
   kaynak:"bulunamadı — Einstein'ın 25 Kasım 1915 sunumu bilim tarihinde standart kabuldür, akademik eserde müstakil doğrulanmadı" },
 
 { t:"1917-04-06", devlet:"alman-imparatorlugu", b:"ABD'nin Almanya'ya savaş ilanı", tur:"savas", onem:5, dunya:5, kapsam:"dis", yer_id:"",
-  etiket:["askeri","siyasi","alman-imparatorlugu"],
+  etiket:["askeri","siyaset","alman-imparatorlugu"],
   d:"Almanya'nın sınırsız denizaltı savaşını yeniden başlatması ve Zimmermann Telgrafı'nın ifşasının ardından ABD Kongresi, Almanya'ya savaş ilan etti. Amerikan askerî ve ekonomik gücünün savaşa girişi, Almanya'nın nihai yenilgisinde belirleyici etkenlerden biri oldu.",
   kaynak:"bulunamadı — ABD savaş ilanının 6 Nisan 1917 tarihi standart tarih, akademik eserde müstakil doğrulanmadı", yer_kon:[38.9072,-77.0369] },
 
@@ -674,7 +674,7 @@ window.KRONOLOJI_ALMANYA = [
   kaynak:"bulunamadı — Kaiserschlacht'ın 21 Mart 1918 başlangıcı standart askerî tarih kabulüdür, akademik eserde müstakil doğrulanmadı", kapsam_genis:true },
 
 { t:"1918-11-09", devlet:"alman-imparatorlugu", b:"II. Wilhelm'in tahttan çekilmesi ve Cumhuriyet ilanı", tur:"son", onem:5, dunya:5, kapsam:"ic", yer_id:"Berlin",
-  etiket:["siyasi","son","alman-imparatorlugu"],
+  etiket:["siyaset","son","alman-imparatorlugu"],
   d:"Kiel'deki donanma isyanının bütün ülkeye yayılmasıyla İmparator II. Wilhelm tahttan feragat etmek zorunda kaldı ve Hollanda'ya sığındı; aynı gün Berlin'de Sosyal Demokrat Philipp Scheidemann Cumhuriyeti ilan etti. Elli asırlık Alman imparatorluk geleneği bu günle sona erdi.",
   kaynak:"Blackbourn — II. Wilhelm'in feragati ve Cumhuriyet ilanının 9 Kasım 1918'de gerçekleşmesi" },
 
@@ -684,17 +684,17 @@ window.KRONOLOJI_ALMANYA = [
   kaynak:"Blackbourn — Versay Antlaşması'nın 28 Haziran 1919 imzası; Metz'in Fransa'ya iadesi yerlesimler.js'te aynı döneme (t:1919-06-28) denk düşüyor" },
 
 { t:"1919-08-11", devlet:"weimar-cumhuriyeti", b:"Weimar Anayasası'nın kabulü", tur:"anayasa", onem:5, dunya:3, kapsam:"ic", yer_id:"", kapsam_genis:true,
-  etiket:["idari","siyasi","weimar-cumhuriyeti"],
+  etiket:["idari","siyaset","weimar-cumhuriyeti","islahat"],
   d:"Weimar'da toplanan Ulusal Meclis'in kabul ettiği anayasa, evrensel oy hakkı (kadınlar dahil), orantılı temsil ve geniş temel haklar güvencesiyle döneminin en demokratik anayasalarından biriydi. Aynı zamanda cumhurbaşkanına olağanüstü hâl yetkisi veren 48. madde, on dört yıl sonra Nazi rejiminin hukukî zeminini de hazırladı.",
   kaynak:"Blackbourn — Weimar Anayasası'nın 11 Ağustos 1919 kabulü. Weimar yerleşim kaydı yok" },
 
 { t:"1923-01-11", devlet:"weimar-cumhuriyeti", b:"Fransız-Belçika Ruhr İşgali", tur:"isgal", onem:4, dunya:3, kapsam:"dis", yer_id:"",
-  etiket:["askeri","iktisat","weimar-cumhuriyeti"],
+  etiket:["askeri","ekonomi","weimar-cumhuriyeti"],
   d:"Almanya'nın savaş tazminatı ödemelerinde temerrüde düşmesi bahanesiyle Fransız ve Belçika birlikleri, Almanya'nın sanayi kalbi Ruhr bölgesini işgal etti. Alman hükûmetinin \"pasif direniş\" çağrısı, işçilere maaş ödemek için para basımını hızlandırarak hiperenflasyonu doludizgin bir çöküşe sürükledi.",
   kaynak:"Blackbourn — Ruhr İşgali'nin 11 Ocak 1923 başlangıcı", kapsam_genis:true },
 
 { t:"1923-11-15", devlet:"weimar-cumhuriyeti", b:"Rentenmark'ın çıkarılması — hiperenflasyonun durdurulması", tur:"reform", onem:4, dunya:2, kapsam:"ic", yer_id:"Berlin",
-  etiket:["iktisat","reform","weimar-cumhuriyeti"],
+  etiket:["ekonomi","reform","weimar-cumhuriyeti"],
   d:"Kasım 1923'te bir dolar 4,2 trilyon markla değişilirken, geçici para birimi Rentenmark'ın çıkarılması ve arzının sıkı biçimde sınırlandırılması, dünyanın en şiddetli hiperenflasyon örneklerinden birini haftalar içinde durdurdu. İstikrar, Weimar Cumhuriyeti'nin görece sakin \"altın çağının\" (1924-1929) başlangıcı oldu.",
   kaynak:"Blackbourn — Rentenmark'ın 15 Kasım 1923'te çıkarılması ve hiperenflasyonun durması" },
 
@@ -711,27 +711,27 @@ window.KRONOLOJI_ALMANYA = [
   kaynak:"Wilson, Heart of Europe — Grunwald/Tannenberg'in 15 Temmuz 1410 muharebesi ve Töton Tarikatı'nın gerilemesi. Grunwald yerleşim kaydı yok", yer_kon:[53.4917,20.2306] },
 
 { t:"1619-08-26", devlet:"pfalz", b:"Friedrich V'in Bohemya tacını kabulü — 'Kış Kralı'", tur:"hukumdar", onem:5, dunya:3, kapsam:"dis", yer_id:"",
-  etiket:["hanedan","siyasi","din","pfalz"],
+  etiket:["hanedan","siyaset","din","pfalz"],
   d:"Pfalz Elektörü V. Friedrich, Habsburg'a isyan eden Bohemya Meclisi'nin sunduğu krallık tacını kabul ederek İmparator'a açıkça meydan okudu. Yalnızca bir kış süren saltanatı, ertesi yıl Beyaz Dağ'daki (Habsburg dosyasında işlenmiştir) yenilgiyle sona erdi; Friedrich hem Bohemya tacını hem de kalıtsal Pfalz topraklarını kaybederek ömrünün geri kalanını sürgünde geçirdi.",
   kaynak:"Wilson, Europe's Tragedy — Friedrich V'in 26 Ağustos 1619 Bohemya tacını kabulü, 'Kış Kralı' (Winterkönig) lakabı", yer_id:"Prag" },
 
 { t:"1623-02-25", devlet:"pfalz", b:"Pfalz Elektörlüğü unvanının Bavyera'ya devri", tur:"bolunme", onem:5, dunya:3, kapsam:"ic", yer_id:"",
-  etiket:["siyasi","toprak-kayip","pfalz","bavyera"],
+  etiket:["siyaset","toprak-kayip","pfalz","bavyera"],
   d:"Regensburg Diyeti'nde İmparator II. Ferdinand, isyancı Friedrich V'in elinden aldığı seçici prenslik unvanını müttefiki Bavyera Dükü Maximilian'a verdi. Bir Wittelsbach kolundan diğerine geçen bu unvan devri, Pfalz'ın bir asır sürecek siyasî güç kaybının ve Bavyera'nın imparatorluk içindeki yükselişinin dönüm noktasıydı.",
   kaynak:"Wilson, Europe's Tragedy — Pfalz elektörlük unvanının 25 Şubat 1623'te Bavyera'ya devri", yer_id:"Regensburg" },
 
 { t:"1697-06-15", devlet:"saksonya", b:"Sakson Elektörü'nün Katolikliğe geçip Lehistan Kralı seçilmesi", tur:"hukumdar", onem:5, dunya:3, kapsam:"dis", yer_id:"Dresden",
-  etiket:["hanedan","siyasi","din","saksonya"],
+  etiket:["hanedan","siyaset","din","saksonya"],
   d:"Sakson Elektörü Friedrich August I, Lehistan tacını kazanabilmek için Lutherciliği bırakıp Katolikliğe geçti ve August II ('Güçlü August') olarak Lehistan-Litvanya Krallığı'na seçildi. Saksonya-Lehistan kişisel birliği, Sakson elektörlüğünü doğrudan Osmanlı'nın kuzey komşusu bir krallığın tacıyla birleştirerek 1763'e kadar (aralıklarla) sürdü.",
   kaynak:"bulunamadı — August der Starke'nin 1697 Lehistan seçimi standart akademik anlatı, gün DOĞRULANMADI (15 Haziran 1697 yaygın kabul gören tarih)" },
 
 { t:"1714-08-01", devlet:"hannover", b:"Hannover Elektörü'nün İngiltere Kralı I. George olarak tahta çıkışı", tur:"hukumdar", onem:5, dunya:3, kapsam:"dis", yer_id:"",
-  etiket:["hanedan","siyasi","hannover"],
+  etiket:["hanedan","siyaset","hannover"],
   d:"İngiltere'nin 1701 Veraset Yasası, Katolik Stuart hanedanını dışlayıp en yakın Protestan varis olarak Hannover hanedanını belirlemişti; Kraliçe Anne'nin ölümüyle Hannover Elektörü Georg Ludwig, İngiltere-İskoçya-İrlanda Kralı I. George oldu. Hannover ile Britanya arasında kurulan bu kişisel birlik, 123 yıl sürecekti.",
   kaynak:"bulunamadı — I. George'un 1714 İngiliz tahtına çıkışı standart akademik anlatı, gün DOĞRULANMADI", yer_id:"Londra" },
 
 { t:"1837-06-20", devlet:"hannover", b:"Hannover-Britanya kişisel birliğinin sona ermesi", tur:"bolunme", onem:4, dunya:2, kapsam:"dis", yer_id:"",
-  etiket:["hanedan","siyasi","hannover"],
+  etiket:["hanedan","siyaset","hannover"],
   d:"Hannover'in Salic Kanunu kadın varisleri tahttan dışladığı için, Britanya tahtına çıkan Victoria Hannover Elektörlüğü'nü miras alamadı; taç, amcası Ernst August'a geçti ve 123 yıllık Hannover-Britanya kişisel birliği sona erdi. Hannover, bağımsız bir krallık olarak 1866'da Prusya tarafından ilhak edilene kadar ayrı kaldı.",
   kaynak:"bulunamadı — birliğin 20 Haziran 1837'de sona ermesi standart akademik anlatı, gün DOĞRULANMADI", kapsam_genis:true },
 
@@ -741,22 +741,22 @@ window.KRONOLOJI_ALMANYA = [
   kaynak:"Whaley, Germany and the Holy Roman Empire II — Reichsdeputationshauptschluss'un 25 Şubat 1803 kabulü ve kilise topraklarının sekülerleşmesi" },
 
 { t:"1806-01-01", devlet:"bavyera", b:"Bavyera'nın krallığa yükseltilmesi", tur:"kurulus", onem:5, dunya:3, kapsam:"ic", yer_id:"",
-  etiket:["hanedan","siyasi","bavyera"],
+  etiket:["hanedan","siyaset","bavyera"],
   d:"Napolyon'un müttefiki olan Bavyera Elektörü IV. Maximilian Joseph, Pressburg Antlaşması'nın (1805) tanıdığı hakla kendini Kral I. Maximilian I Joseph ilan etti. Bavyera'nın bir elektörlükten krallığa yükselmesi, Napolyon'un Almanya'yı yeniden düzenleme siyasetinin en görünür sonuçlarından biriydi.",
   kaynak:"bulunamadı — Bavyera krallığının 1806 ilanı standart akademik anlatı, gün DOĞRULANMADI (yıl başı olarak kabul edilen tarih kullanıldı)", yer_id:"Bratislava" },
 
 { t:"1806-01-01", devlet:"wurttemberg", b:"Württemberg'in krallığa yükseltilmesi", tur:"kurulus", onem:5, dunya:2, kapsam:"ic", yer_id:"Stuttgart",
-  etiket:["hanedan","siyasi","wurttemberg"],
+  etiket:["hanedan","siyaset","wurttemberg"],
   d:"Napolyon'un Pressburg Antlaşması'yla tanıdığı hakla Württemberg Dükü III. Friedrich, kendini Kral I. Friedrich ilan etti. Bavyera ile birlikte Napolyon'un Ren Konfederasyonu'nun (Rheinbund) iki en büyük üyesi olan Württemberg Krallığı, 1918'e kadar ayrı bir monarşi olarak sürdü.",
   kaynak:"bulunamadı — Württemberg krallığının 1806 ilanı standart akademik anlatı, gün DOĞRULANMADI" },
 
 { t:"1818-08-22", devlet:"baden", b:"Baden Anayasası — dönemin en liberal metinlerinden biri", tur:"anayasa", onem:4, dunya:1, kapsam:"ic", yer_id:"",
-  etiket:["idari","siyasi","baden"],
+  etiket:["idari","siyaset","baden","islahat"],
   d:"Büyük Dukalık Baden, iki meclisli bir yasama organı ve geniş sivil hak güvenceleri içeren bir anayasa kabul etti; bu, Alman Konfederasyonu üyeleri arasında dönemin en liberal anayasal düzenlemelerinden biriydi. Baden, on dokuzuncu yüzyıl boyunca Alman liberalizminin başlıca kalelerinden biri olarak anılacaktı.",
   kaynak:"bulunamadı — Baden Anayasası'nın 22 Ağustos 1818 kabulü standart akademik anlatı, gün DOĞRULANMADI", yer_kon:[49.0069,8.4037] },
 
 { t:"1669-05-01", devlet:"hansa", b:"Son genel Hanse toplantısının (Hansetag) Lübeck'te yapılması", tur:"son", onem:3, dunya:2, kapsam:"ic", yer_id:"Lübeck",
-  etiket:["iktisat","son","hansa"],
+  etiket:["ekonomi","son","hansa"],
   d:"Bir zamanlar iki yüze yakın şehri kapsayan Hansa Birliği, son genel meclisini Lübeck'te topladı; katılım yalnız dokuz şehirle sınırlı kaldı. Otuz Yıl Savaşları'nın yıkımı, merkantilist ulus-devletlerin (İsveç, Hollanda, İngiltere) yükselişi ve iç rekabet, birliği fiilen işlevsiz bırakmıştı.",
   kaynak:"Schulze, Germany: A New History — son Hansetag'ın 1669'da toplanması, standart tarih Mayıs 1669" }
 
