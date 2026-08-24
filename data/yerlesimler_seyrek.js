@@ -99,7 +99,7 @@ window.YERLESIMLER_SEYREK = [
 // 📌 `d:`/`v:` HİÇ YOK ⇒ bu kayıt tek bir kırılma bile üretmiyor.
 { ad:"Dûmetülcendel (Cevf)", tur:"sehir", lat:29.812, lon:39.868, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"TDV `necid`: bölgede merkezî devlet yok, aşiret idaresi; 1836 öncesi sahipsizlik KASITLI",
-  s:[{f:"1836-01-01",t:"1921-11-02",d:"sammar"},{f:"1921-11-02",t:"1923-10-29",d:"suud"}] },
+  s:[{f:"1836-01-01",t:"1921-11-02",d:"sammar"},{f:"1921-11-02",t:"1923-10-29",d:"suud-ucuncu"}] },
 
 // 🔴 KASTEN SAHİPSİZ DOLGU — ve yıldızı asıl kesen nokta budur (merkeze 87 km).
 // Vâdî Sirhân, TDV `dumetulcendel`de "Vâdissirhân-Suriye kervan yolları"
@@ -116,7 +116,7 @@ window.YERLESIMLER_SEYREK = [
 // nüfuzundadır ⇒ Hâil/Dûmetülcendel zincirinin aynısı.
 { ad:"Teymâ", tur:"sehir", lat:27.632, lon:38.545, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"kabile", neden:"TDV `teyma`: son bağımsız emîr 1950'de öldü — yerel emîrlik, devlet idaresi yok",
-  s:[{f:"1836-01-01",t:"1921-11-02",d:"sammar"},{f:"1921-11-02",t:"1923-10-29",d:"suud"}] },
+  s:[{f:"1836-01-01",t:"1921-11-02",d:"sammar"},{f:"1921-11-02",t:"1923-10-29",d:"suud-ucuncu"}] },
 
 // ── ④ HİCAZ-NECİD ARASI — p5/H-0009 KAMASININ İLACI ─────────────────
 // 🔴 KASTEN COĞRAFÎ DOLGU (`Necid içi`, `Nefud çölü`, `Rub'ul Hâlî kuzeyi`
@@ -189,7 +189,7 @@ window.YERLESIMLER_SEYREK = [
 //   günü. Tail (1913-07-14 → 1913-09-29 → 1920-05-27) Gümülcine'den birebir:
 //   TDV'nin anlattığı Bulgar-işgal / itilâf / Yunan sırası tam olarak o.
 { ad:"İskeçe", tur:"sehir", lat:41.140, lon:24.890, g:0, k:4, m:"Selanik",
-  s:[{f:"1281-01-01",t:"1373-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-07-14",t:"1913-09-29",d:"bulgaristan"},{f:"1920-05-27",t:"1923-10-29",d:"yunanistan"}],
+  s:[{f:"1281-01-01",t:"1373-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-07-14",t:"1913-09-29",d:"bulgaristan-kralligi"},{f:"1920-05-27",t:"1923-10-29",d:"yunanistan"}],
   d:[{f:"1373-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1913-07-14"},{f:"1913-09-29",t:"1920-05-27"}] },
 
 // Rodop'un kuzey yarısı Gümülcine ile Filibe arasında 120 km boştu.
@@ -236,7 +236,7 @@ window.YERLESIMLER_SEYREK = [
 //       (yerlesimler_kirim.js). ①'in çürümesi oraları da ilgilendirir; o
 //       dosya bu oturumun yetkisinde DEĞİL, dokunulmadı.
 { ad:"Kırcaali", tur:"sehir", lat:41.650, lon:25.370, g:0, k:4, m:"Edirne", kur:"1482-01-01",
-  s:[{f:"1913-07-14",t:"1923-10-29",d:"bulgaristan"}],
+  s:[{f:"1913-07-14",t:"1923-10-29",d:"bulgaristan-kralligi"}],
   d:[{f:"1482-01-01",t:"1913-07-14"}] },
 
 // ── p3/H-0016 "Dubrovnik enklavı" ───────────────────────────────────
@@ -255,7 +255,7 @@ window.YERLESIMLER_SEYREK = [
 // Zincir Foça'nın birebir aynısı — `isg:` 1878 Berlin işgali örtüsü dahil:
 // taban renk 1908 ilhakına kadar Osmanlı kalır (girdi.py isg: gerekçesi).
 { ad:"Trebinye", tur:"sehir", lat:42.711, lon:18.344, g:0, k:3, m:"Saraybosna",
-  s:[{f:"1281-01-01",t:"1466-06-01",d:"bosna"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"sirbistan"}],
+  s:[{f:"1281-01-01",t:"1466-06-01",d:"bosna"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1918-12-01",d:"sirbistan-kralligi"}, {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
   d:[{f:"1466-06-01",t:"1908-10-05"}],
   isg:[{f:"1878-07-29",t:"1908-10-05",d:"avusturya",kaynak:"berlin-antlasmasi"}] },
 
@@ -268,7 +268,7 @@ window.YERLESIMLER_SEYREK = [
 // ⇒ Fetih günü olarak 1463-06-01 (Travnik'in günü) seçildi: Bosna
 //   Krallığı'nın yıkıldığı yıl ve mevcut kırılma günü.
 { ad:"Vişegrad", tur:"sehir", lat:43.783, lon:19.288, g:0, k:3, m:"Saraybosna",
-  s:[{f:"1281-01-01",t:"1463-06-01",d:"bosna"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"sirbistan"}],
+  s:[{f:"1281-01-01",t:"1463-06-01",d:"bosna"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1918-12-01",d:"sirbistan-kralligi"}, {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
   d:[{f:"1463-06-01",t:"1908-10-05"}],
   isg:[{f:"1878-07-29",t:"1908-10-05",d:"avusturya",kaynak:"berlin-antlasmasi"}] },
 
@@ -278,7 +278,7 @@ window.YERLESIMLER_SEYREK = [
 // Zincir İzvornik'in birebir aynısı: aynı Drina havzası, aynı sancak,
 // 1460-01-01 mevcut kırılma günü.
 { ad:"Tuzla (Bosna)", tur:"sehir", lat:44.538, lon:18.676, g:0, k:3, m:"Saraybosna",
-  s:[{f:"1281-01-01",t:"1460-01-01",d:"bosna"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"sirbistan"}],
+  s:[{f:"1281-01-01",t:"1460-01-01",d:"bosna"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1918-12-01",d:"sirbistan-kralligi"}, {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
   d:[{f:"1460-01-01",t:"1908-10-05"}],
   isg:[{f:"1878-07-29",t:"1908-10-05",d:"avusturya",kaynak:"berlin-antlasmasi"}] },
 

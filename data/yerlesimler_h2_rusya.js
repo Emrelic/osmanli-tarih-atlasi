@@ -433,7 +433,7 @@ window.YERLESIMLER_H2_RUSYA = [
      {f:"1654-01-08", t:"1923-10-29", d:"rusya"}] },
 { ad:"Hluhiv", tur:"sehir", lat:51.678, lon:33.917, g:2, k:0,
   s:[{f:"1281-01-01", t:"1362-01-01", d:"altinorda"},
-     {f:"1362-01-01", t:"1503-04-02", d:"lehistan"},
+     {f:"1362-01-01",t:"1503-04-02",d:"litvanya-buyuk-dukalik"},
      {f:"1503-04-02", t:"1547-01-16", d:"moskova"},
      {f:"1547-01-16", t:"1923-10-29", d:"rusya"}] },
 // Taganrog — Azak'ın karşı kıyısı. Dönemleri BİREBİR Azak'ın kırılma

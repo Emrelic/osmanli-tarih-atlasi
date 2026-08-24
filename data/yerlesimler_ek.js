@@ -125,11 +125,11 @@ window.YERLESIMLER_EK = [
     s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan"},
        {f:"1526-08-29",t:"1682-09-16",d:"avusturya"},
        {f:"1685-10-15",t:"1918-11-11",d:"avusturya"},
-       {f:"1918-11-11",t:"1923-10-29",d:"macaristan"}] },
+       {f:"1918-11-11",t:"1923-10-29",d:"macaristan-naiplik"}] },
 { ad:"Sopron", tur:"sehir", lat:47.685, lon:16.590, g:0, k:0, d:[],
     s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan"},
        {f:"1526-08-29",t:"1918-11-11",d:"avusturya"},
-       {f:"1918-11-11",t:"1923-10-29",d:"macaristan"}] },
+       {f:"1918-11-11",t:"1923-10-29",d:"macaristan-naiplik"}] },
 
 // ═══ ② DALMAÇYA — SALT VENEDİK KIYI ŞEHİRLERİ ═════════════════════════════
 // Bu dördü hiç Osmanlı olmadı: Değişmez 2 borcu YOK, tek işleri anakara
@@ -357,7 +357,7 @@ window.YERLESIMLER_EK = [
     s:[{f:"1281-01-01",t:"1527-01-01",d:"macaristan"},
        {f:"1527-01-01",t:"1592-06-19",d:"avusturya"},
        {f:"1908-10-05",t:"1918-11-11",d:"avusturya"},
-       {f:"1918-11-11",t:"1923-10-29",d:"sirbistan"}],
+       {f:"1918-11-11",t:"1918-12-01",d:"sirbistan-kralligi"}, {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
     d:[{f:"1592-06-19",t:"1908-10-05",y:"kusatma"}],
     isg:[{f:"1878-09-18",t:"1908-10-05",d:"avusturya",kaynak:"bihac"}] },
 

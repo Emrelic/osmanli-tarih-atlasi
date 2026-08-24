@@ -104,22 +104,22 @@ window.YERLESIMLER_AVRUPA = [
 // Dış Hebridler 1266'da (Perth Antlaşması) Norveç'ten İskoçya'ya geçti — 1281'de İskoç
 { ad:"Stornoway", tur:"liman", lat:58.2111, lon:-6.3870, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1707-05-01",d:"iskocya"},{f:"1707-05-01",t:"1923-10-29",d:"ingiltere"}] },
 // Orkney ve Shetland 1472'ye kadar Norveç tacında (1468-69 rehin, 1472 ilhak)
-{ ad:"Kirkwall (Orkney)", tur:"liman", lat:58.981, lon:-2.960, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1472-02-20",d:"norvec"},{f:"1472-02-20",t:"1707-05-01",d:"iskocya"},{f:"1707-05-01",t:"1923-10-29",d:"ingiltere"}] },
-{ ad:"Lerwick (Shetland)", tur:"liman", lat:60.153, lon:-1.145, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1472-02-20",d:"norvec"},{f:"1472-02-20",t:"1707-05-01",d:"iskocya"},{f:"1707-05-01",t:"1923-10-29",d:"ingiltere"}] },
+{ ad:"Kirkwall (Orkney)", tur:"liman", lat:58.981, lon:-2.960, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1472-02-20",d:"norvec-kralligi"},{f:"1472-02-20",t:"1707-05-01",d:"iskocya"},{f:"1707-05-01",t:"1923-10-29",d:"ingiltere"}] },
+{ ad:"Lerwick (Shetland)", tur:"liman", lat:60.153, lon:-1.145, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1472-02-20",d:"norvec-kralligi"},{f:"1472-02-20",t:"1707-05-01",d:"iskocya"},{f:"1707-05-01",t:"1923-10-29",d:"ingiltere"}] },
 
 // ── İRLANDA ────────────────────────────────────────────────────────────────
 // İngiliz (Anglo-Norman) kasabaları: taç idaresinde, 1922-12-06 Serbest Devlet.
 // Gal beylikleri bölgeleri: 1603-03-30'a (Mellifont) kadar irlanda kimliği.
-{ ad:"Cork", tur:"liman", lat:51.898, lon:-8.471, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1922-12-06",d:"ingiltere"},{f:"1922-12-06",t:"1923-10-29",d:"irlanda"}] },
-{ ad:"Waterford", tur:"liman", lat:52.259, lon:-7.110, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1922-12-06",d:"ingiltere"},{f:"1922-12-06",t:"1923-10-29",d:"irlanda"}] },
-{ ad:"Limerick", tur:"sehir", lat:52.664, lon:-8.623, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1922-12-06",d:"ingiltere"},{f:"1922-12-06",t:"1923-10-29",d:"irlanda"}] },
-{ ad:"Galway", tur:"liman", lat:53.272, lon:-9.049, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1922-12-06",d:"ingiltere"},{f:"1922-12-06",t:"1923-10-29",d:"irlanda"}] },
-{ ad:"Kilkenny", tur:"sehir", lat:52.654, lon:-7.244, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1922-12-06",d:"ingiltere"},{f:"1922-12-06",t:"1923-10-29",d:"irlanda"}] },
-{ ad:"Wexford", tur:"liman", lat:52.336, lon:-6.463, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1922-12-06",d:"ingiltere"},{f:"1922-12-06",t:"1923-10-29",d:"irlanda"}] },
-{ ad:"Sligo", tur:"liman", lat:54.270, lon:-8.472, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1603-03-30",d:"irlanda"},{f:"1603-03-30",t:"1922-12-06",d:"ingiltere"},{f:"1922-12-06",t:"1923-10-29",d:"irlanda"}] },
-{ ad:"Athlone", tur:"sehir", lat:53.424, lon:-7.941, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1603-03-30",d:"irlanda"},{f:"1603-03-30",t:"1922-12-06",d:"ingiltere"},{f:"1922-12-06",t:"1923-10-29",d:"irlanda"}] },
-{ ad:"Donegal", tur:"sehir", lat:54.654, lon:-8.110, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1603-03-30",d:"irlanda"},{f:"1603-03-30",t:"1922-12-06",d:"ingiltere"},{f:"1922-12-06",t:"1923-10-29",d:"irlanda"}] },
-{ ad:"Tralee", tur:"sehir", lat:52.271, lon:-9.700, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1603-03-30",d:"irlanda"},{f:"1603-03-30",t:"1922-12-06",d:"ingiltere"},{f:"1922-12-06",t:"1923-10-29",d:"irlanda"}] },
+{ ad:"Cork", tur:"liman", lat:51.898, lon:-8.471, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1922-12-06",d:"ingiltere"},{f:"1922-12-06",t:"1923-10-29",d:"irlanda-serbest-devlet"}] },
+{ ad:"Waterford", tur:"liman", lat:52.259, lon:-7.110, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1922-12-06",d:"ingiltere"},{f:"1922-12-06",t:"1923-10-29",d:"irlanda-serbest-devlet"}] },
+{ ad:"Limerick", tur:"sehir", lat:52.664, lon:-8.623, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1922-12-06",d:"ingiltere"},{f:"1922-12-06",t:"1923-10-29",d:"irlanda-serbest-devlet"}] },
+{ ad:"Galway", tur:"liman", lat:53.272, lon:-9.049, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1922-12-06",d:"ingiltere"},{f:"1922-12-06",t:"1923-10-29",d:"irlanda-serbest-devlet"}] },
+{ ad:"Kilkenny", tur:"sehir", lat:52.654, lon:-7.244, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1922-12-06",d:"ingiltere"},{f:"1922-12-06",t:"1923-10-29",d:"irlanda-serbest-devlet"}] },
+{ ad:"Wexford", tur:"liman", lat:52.336, lon:-6.463, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1922-12-06",d:"ingiltere"},{f:"1922-12-06",t:"1923-10-29",d:"irlanda-serbest-devlet"}] },
+{ ad:"Sligo", tur:"liman", lat:54.270, lon:-8.472, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1603-03-30",d:"irlanda"},{f:"1603-03-30",t:"1922-12-06",d:"ingiltere"},{f:"1922-12-06",t:"1923-10-29",d:"irlanda-serbest-devlet"}] },
+{ ad:"Athlone", tur:"sehir", lat:53.424, lon:-7.941, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1603-03-30",d:"irlanda"},{f:"1603-03-30",t:"1922-12-06",d:"ingiltere"},{f:"1922-12-06",t:"1923-10-29",d:"irlanda-serbest-devlet"}] },
+{ ad:"Donegal", tur:"sehir", lat:54.654, lon:-8.110, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1603-03-30",d:"irlanda"},{f:"1603-03-30",t:"1922-12-06",d:"ingiltere"},{f:"1922-12-06",t:"1923-10-29",d:"irlanda-serbest-devlet"}] },
+{ ad:"Tralee", tur:"sehir", lat:52.271, lon:-9.700, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1603-03-30",d:"irlanda"},{f:"1603-03-30",t:"1922-12-06",d:"ingiltere"},{f:"1922-12-06",t:"1923-10-29",d:"irlanda-serbest-devlet"}] },
 // Kuzey İrlanda: 1922'de Birleşik Krallık'ta kaldı
 { ad:"Belfast", tur:"liman", lat:54.597, lon:-5.930, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1603-03-30",d:"irlanda"},{f:"1603-03-30",t:"1923-10-29",d:"ingiltere"}] },
 { ad:"Derry", tur:"liman", lat:54.997, lon:-7.309, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1603-03-30",d:"irlanda"},{f:"1603-03-30",t:"1923-10-29",d:"ingiltere"}] },
@@ -307,24 +307,24 @@ window.YERLESIMLER_AVRUPA = [
 // ⚠️ BOLGE kutusunun (lat 62) KUZEYİNDE — kutu açılana dek çizilmez, veri ileriye dönük
 { ad:"Sundsvall", tur:"liman", lat:62.391, lon:17.306, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"isvec"}] },
 // Gotland: 1361 Valdemar Atterdag'ın fethi, 1645 (Brömsebro) İsveç'e döndü
-{ ad:"Visby (Gotland)", tur:"liman", lat:57.635, lon:18.294, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1361-07-27",d:"isvec"},{f:"1361-07-27",t:"1645-08-13",d:"danimarka"},{f:"1645-08-13",t:"1923-10-29",d:"isvec"}] },
+{ ad:"Visby (Gotland)", tur:"liman", lat:57.635, lon:18.294, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1361-07-27",d:"isvec-birlik-oncesi"},{f:"1361-07-27",t:"1645-08-13",d:"danimarka"},{f:"1645-08-13",t:"1923-10-29",d:"isvec"}] },
 // Skåne 1658'e (Roskilde), Halland 1645'e (Brömsebro) kadar Danimarka
 { ad:"Malmö", tur:"liman", lat:55.605, lon:13.000, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1658-02-26",d:"danimarka"},{f:"1658-02-26",t:"1923-10-29",d:"isvec"}] },
 { ad:"Helsingborg", tur:"liman", lat:56.0500, lon:12.7005, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1658-02-26",d:"danimarka"},{f:"1658-02-26",t:"1923-10-29",d:"isvec"}] },
 { ad:"Halmstad", tur:"liman", lat:56.674, lon:12.857, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1645-08-13",d:"danimarka"},{f:"1645-08-13",t:"1923-10-29",d:"isvec"}] },
 // Bohuslän 1658'e kadar Norveç tacında
-{ ad:"Uddevalla", tur:"liman", lat:58.348, lon:11.938, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec"},{f:"1537-01-01",t:"1658-02-26",d:"danimarka"},{f:"1658-02-26",t:"1923-10-29",d:"isvec"}] },
+{ ad:"Uddevalla", tur:"liman", lat:58.348, lon:11.938, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1658-02-26",d:"danimarka"},{f:"1658-02-26",t:"1923-10-29",d:"isvec"}] },
 
 // ── NORVEÇ (1537 danimarka, 1814 isvec, 1905 norvec — bkz. başlık) ─────────
-{ ad:"Bergen", tur:"liman", lat:60.393, lon:5.324, g:0, k:0,kd:[{f:"1281-01-01",t:"1537-01-01",k:1,m:null}], d:[], s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec"},{f:"1905-06-07",t:"1923-10-29",d:"norvec"}] },
+{ ad:"Bergen", tur:"liman", lat:60.393, lon:5.324, g:0, k:0,kd:[{f:"1281-01-01",t:"1537-01-01",k:1,m:null}], d:[], s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec"},{f:"1905-06-07",t:"1923-10-29",d:"norvec"}] },
 // Stavanger yarımadası NE-10m kara maskesinde çözünmüyor; nokta 4 km güneybatıya,
 // maskenin kara saydığı Hafrsfjord kıyısına alındı
-{ ad:"Stavanger", tur:"liman", lat:58.940, lon:5.680, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec"},{f:"1905-06-07",t:"1923-10-29",d:"norvec"}] },
-{ ad:"Tønsberg", tur:"liman", lat:59.268, lon:10.407, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec"},{f:"1905-06-07",t:"1923-10-29",d:"norvec"}] },
+{ ad:"Stavanger", tur:"liman", lat:58.940, lon:5.680, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec"},{f:"1905-06-07",t:"1923-10-29",d:"norvec"}] },
+{ ad:"Tønsberg", tur:"liman", lat:59.268, lon:10.407, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec"},{f:"1905-06-07",t:"1923-10-29",d:"norvec"}] },
 // Kristiansand 1641'de IV. Christian tarafından kuruldu
 { ad:"Kristiansand", tur:"liman", lat:58.147, lon:7.996, g:0, k:0, kur:"1641-01-01", d:[], s:[{f:"1641-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec"},{f:"1905-06-07",t:"1923-10-29",d:"norvec"}] },
 // ⚠️ BOLGE kutusunun (lat 62) KUZEYİNDE — kutu açılana dek çizilmez, veri ileriye dönük
-{ ad:"Trondheim", tur:"liman", lat:63.431, lon:10.395, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec"},{f:"1905-06-07",t:"1923-10-29",d:"norvec"}] },
+{ ad:"Trondheim", tur:"liman", lat:63.431, lon:10.395, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec"},{f:"1905-06-07",t:"1923-10-29",d:"norvec"}] },
 
 // ── FİNLANDİYA (isvec → 1809 rusya → 1917 finlandiya) ──────────────────────
 { ad:"Turku (Åbo)", tur:"liman", lat:60.452, lon:22.267, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-12-06",d:"rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}] },
@@ -398,7 +398,7 @@ window.YERLESIMLER_AVRUPA = [
 // Cenevre: piskoposluk şehri; 1536'da reform + Bern ittifakıyla fiilen konfederasyon yörüngesinde
 { ad:"Cenevre", tur:"sehir", lat:46.204, lon:6.143, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1536-01-01",d:"almanya"},{f:"1536-01-01",t:"1923-10-29",d:"isvicre"}] },
 // Vaud 1536'ya kadar Savoya'da (sardinya kimliği), sonra Bern idaresi
-{ ad:"Lozan", tur:"sehir", lat:46.520, lon:6.632, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1536-01-01",d:"sardinya"},{f:"1536-01-01",t:"1923-10-29",d:"isvicre"}] },
+{ ad:"Lozan", tur:"sehir", lat:46.520, lon:6.632, g:0, k:0, d:[], s:[{f:"1281-01-01",t:"1536-01-01",d:"savoya"},{f:"1536-01-01",t:"1923-10-29",d:"isvicre"}] },
 
 // ── İTALYA: kuzey (Po ovası ve Veneto) ─────────────────────────────────────
 // Venedik karası: 1405 dolayı fetihler; 1797-05-12 Cumhuriyet'in sonu (mevcut

@@ -73,27 +73,27 @@ window.YERLESIMLER_EK8 = [
 // Bugün Trondheim (63,43) atlasın en kuzey Norveç noktası; ondan Nordkapp'a
 // 1.100 km boyunca hiç nokta yok. Beş nokta o hattı kuruyor.
 { ad:"Mosjøen", tur:"sehir", lat:65.8370, lon:13.1920, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec"},{f:"1905-06-07",t:"1923-10-29",d:"norvec"}] },
+  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec"},{f:"1905-06-07",t:"1923-10-29",d:"norvec"}] },
 
 // ⚠️ Maske: 67,2804/14,4049 (şehir merkezi) yarımadanın ucunda ve 10m
 //    maskesi orayı deniz sayıyor; 2,2 km doğuya (Bodø'nün kendi kıstağı)
 //    çekildi. Aynı düzeltme Tromsø · Luleå · Svalbard · Vaygaç'ta da var.
 { ad:"Bodø", tur:"sehir", lat:67.2933, lon:14.4446, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec"},{f:"1905-06-07",t:"1923-10-29",d:"norvec"}] },
+  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec"},{f:"1905-06-07",t:"1923-10-29",d:"norvec"}] },
 
 // ⚠️ Maske: Tromsø ADA şehridir (Tromsøya); 2,2 km doğuya, karşı kıyıya alındı.
 { ad:"Tromsø", tur:"sehir", lat:69.6527, lon:19.0119, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec"},{f:"1905-06-07",t:"1923-10-29",d:"norvec"}] },
+  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec"},{f:"1905-06-07",t:"1923-10-29",d:"norvec"}] },
 
 { ad:"Alta", tur:"sehir", lat:69.9689, lon:23.2717, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec"},{f:"1905-06-07",t:"1923-10-29",d:"norvec"}] },
+  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec"},{f:"1905-06-07",t:"1923-10-29",d:"norvec"}] },
 
 // 🔴 BU PARTİNİN EN GEREKLİ TEK NOKTASI. Vardøhus kalesi ~1306'dan beri
 // Norveç'in kuzeydoğu çıpasıdır ve o çıpa olmadan Kola'nın Rus noktası
 // bütün Finnmark'ı emer — yani Rusya, Norveç kıyısında Nordkapp'a kadar
 // boyanır. `§3.5.1`in "noktasızlık İKİ YÖNE de hata üretir" vakası.
 { ad:"Vardø", tur:"kale", lat:70.3705, lon:31.1107, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec"},{f:"1905-06-07",t:"1923-10-29",d:"norvec"}] },
+  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec"},{f:"1905-06-07",t:"1923-10-29",d:"norvec"}] },
 
 // ── ② İSVEÇ LAPLAND'İ — Norrbotten ve Torne Lappmark ────────────────
 // ⚠️ 1809 SINIRI BURADA GEÇİYOR ve üç nokta da BATI yakasında kaldı:

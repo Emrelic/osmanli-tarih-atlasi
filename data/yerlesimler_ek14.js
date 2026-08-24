@@ -120,15 +120,15 @@ window.YERLESIMLER_EK14 = [
 // Rus, Buhara'nın 1920'ye kadar Buhara olması bu yüzden ÇELİŞKİ DEĞİL:
 // biri ilhak edildi, öteki himaye altına alındı.
 { ad:"Buhara", tur:"sehir", lat:39.7681, lon:64.4210, g:0, k:1, d:[],
-  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1920-09-02",d:"buhara"},{f:"1920-09-02",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1920-09-02",d:"buhara"},{f:"1920-09-02",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 { ad:"Karşi (Nahşeb)", tur:"sehir", lat:38.8600, lon:65.7950, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1920-09-02",d:"buhara"},{f:"1920-09-02",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1920-09-02",d:"buhara"},{f:"1920-09-02",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // Timur'un doğduğu yer (Kiş). Bir dönem yarı bağımsız beklik oldu ama
 // Buhara'nın dışına hiç çıkmadı — ayrı kimlik YAZILMADI.
 { ad:"Şehrisebz (Kiş)", tur:"sehir", lat:39.0580, lon:66.8330, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1920-09-02",d:"buhara"},{f:"1920-09-02",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1920-09-02",d:"buhara"},{f:"1920-09-02",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // ⚠️ TDV'de MÜSTAKİL MADDE YOK — `termiz` slug'ı "Arama" sayfası döndürüyor
 //    (`<title>` ile sınandı). Zinciri komşusu Hisar'dan alındı; Ceyhun'un
@@ -136,14 +136,14 @@ window.YERLESIMLER_EK14 = [
 //    Kayıt bir HÜKÜM taşımıyor, yalnız kuzey yakayı Kâbil'in 345 km'lik
 //    peteğinden kurtarıyor.
 { ad:"Termez", tur:"sehir", lat:37.2240, lon:67.2780, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1920-09-02",d:"buhara"},{f:"1920-09-02",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1920-09-02",d:"buhara"},{f:"1920-09-02",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // ── ② DOĞU BUHARA — emirliğin 1920'ye kadar tuttuğu dağlık kesim ────
 { ad:"Hisar", tur:"kale", lat:38.5200, lon:68.5500, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1920-09-02",d:"buhara"},{f:"1920-09-02",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1920-09-02",d:"buhara"},{f:"1920-09-02",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 { ad:"Külâb (Kulob)", tur:"sehir", lat:37.9100, lon:69.7800, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1920-09-02",d:"buhara"},{f:"1920-09-02",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1920-09-02",d:"buhara"},{f:"1920-09-02",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // ── ③ AÇLI SINIR — Buhara ile Rus Türkistanı'nın ayrıldığı yer ──────
 // 🔴 Cizzah bu dosyada Semerkant'tan AYRI bir gün taşıyor: Ruslar burayı

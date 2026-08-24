@@ -35,7 +35,7 @@ window.YERLESIMLER_EK2 = [
 //   vermiyor — gün UYDURULMADI, mevcut kırılmaya oturtuldu.
 // Zincir Travnik'in birebir aynısı (isg: 1878 Berlin işgali örtüsü dahil).
 { ad:"Koniçe (Konjic)", tur:"sehir", lat:43.652, lon:17.962, g:0, k:3, m:"Saraybosna",
-  s:[{f:"1281-01-01",t:"1463-06-01",d:"bosna"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"sirbistan"}],
+  s:[{f:"1281-01-01",t:"1463-06-01",d:"bosna"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1918-12-01",d:"sirbistan-kralligi"}, {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
   d:[{f:"1463-06-01",t:"1908-10-05"}],
   isg:[{f:"1878-07-29",t:"1908-10-05",d:"avusturya",kaynak:"berlin-antlasmasi"}] },
 
@@ -49,7 +49,7 @@ window.YERLESIMLER_EK2 = [
 //    geçişinden alındı ve ikisi ayrı ayrı yazıldı ki karıştırılmasın.
 // ⇒ Zincir Saraybosna'nın birebir aynısı, 1448-01-01 (mevcut kırılma).
 { ad:"Visoko", tur:"sehir", lat:43.989, lon:18.179, g:0, k:3, m:"Saraybosna",
-  s:[{f:"1281-01-01",t:"1448-01-01",d:"bosna"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"sirbistan"}],
+  s:[{f:"1281-01-01",t:"1448-01-01",d:"bosna"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1918-12-01",d:"sirbistan-kralligi"}, {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
   d:[{f:"1448-01-01",t:"1908-10-05"}],
   isg:[{f:"1878-07-29",t:"1908-10-05",d:"avusturya",kaynak:"berlin-antlasmasi"}] },
 

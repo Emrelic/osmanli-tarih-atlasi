@@ -78,7 +78,7 @@
 window.YERLESIMLER_EK5 = [
 
 { ad:"Gyula (Göle)", tur:"kale", lat:46.650, lon:21.277, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1566-09-02",d:"macaristan"},{f:"1699-01-26",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"macaristan"}],
+  s:[{f:"1281-01-01",t:"1566-09-02",d:"macaristan"},{f:"1699-01-26",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"macaristan-naiplik"}],
   d:[{f:"1566-09-02",t:"1699-01-26",y:"kusatma"}] },
 
 ];

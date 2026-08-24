@@ -176,7 +176,7 @@ window.YERLESIMLER_EPIR = [
 { ad:"Delvine", tur:"sehir", lat:39.9500, lon:20.0972, g:0, k:3, m:"Yanya",
   kaynak:"delvine",
   s:[{f:"1281-01-01", t:"1430-10-01", d:"bizans"},
-     {f:"1912-11-28", t:"1923-10-29", d:"arnavutluk"}],
+     {f:"1912-11-28",t:"1923-10-29",d:"arnavutluk-bagimsiz"}],
   v:[{f:"1430-10-01", t:"1537-08-25", k:"Arvanid sancağı — nominal tâbiiyet, KESİN hâkimiyet yok"}],
   d:[{f:"1537-08-25", t:"1912-11-28"}] },
 // kaynak: TDV "delvine" md. — GÖVDE OKUNDU, 22 Ağu 2026.
@@ -219,7 +219,7 @@ window.YERLESIMLER_EPIR = [
 { ad:"Ergiri (Ergirikasrı)", tur:"sehir", lat:40.0758, lon:20.1389, g:0, k:3, m:"Yanya",
   kaynak:"arnavutluk",
   s:[{f:"1281-01-01", t:"1417-01-01", d:"bizans"},
-     {f:"1912-11-28", t:"1923-10-29", d:"arnavutluk"}],
+     {f:"1912-11-28",t:"1923-10-29",d:"arnavutluk-bagimsiz"}],
   d:[{f:"1417-01-01", t:"1912-11-28"}] },
 // kaynak: TDV "arnavutluk" md. — GÖVDE OKUNDU.
 //   "Arvanid sancak beyi, sancak merkezi olan Ergirikasrı'nda yaşardı;
@@ -247,7 +247,7 @@ window.YERLESIMLER_EPIR = [
   s:[{f:"1281-01-01", t:"1386-01-01", d:"bizans"},
      {f:"1386-01-01", t:"1797-10-17", d:"venedik"},
      {f:"1797-10-17", t:"1798-10-23", d:"fransa-cumhuriyet"},
-     {f:"1912-11-28", t:"1923-10-29", d:"arnavutluk"}],
+     {f:"1912-11-28",t:"1923-10-29",d:"arnavutluk-bagimsiz"}],
   d:[{f:"1798-10-23", t:"1912-11-28"}] },
 // kaynak: TDV "tepedelenli-ali-pasa" md. — GÖVDE OKUNDU. Butrint'in
 //   müstakil maddesi YOK (slug `butrint` 302 = ölü), ama Ali Paşa maddesi
@@ -279,7 +279,7 @@ window.YERLESIMLER_EPIR = [
 { ad:"Hımara (Himarë)", tur:"kale", lat:40.1017, lon:19.7444, g:0, k:4, m:"Avlonya",
   kaynak:"avlonya",
   s:[{f:"1281-01-01", t:"1417-01-01", d:"napoli"},
-     {f:"1912-11-28", t:"1923-10-29", d:"arnavutluk"}],
+     {f:"1912-11-28",t:"1923-10-29",d:"arnavutluk-bagimsiz"}],
   d:[{f:"1417-01-01", t:"1912-11-28"}] },
 // kaynak: TDV "avlonya" md. — GÖVDE OKUNDU. Hımara'nın müstakil maddesi
 //   YOK (`himara` ve `himare` ikisi de 302), ama Avlonya maddesi onu ADIYLA
@@ -301,7 +301,7 @@ window.YERLESIMLER_EPIR = [
 { ad:"Ayasaranda (Sarandë)", tur:"sehir", lat:39.8750, lon:20.0053, g:0, k:4, m:"Delvine",
   kaynak:"bulunamadı — TDV'de müstakil madde YOK, Delvine md. yalnız konum veriyor",
   s:[{f:"1281-01-01", t:"1430-10-01", d:"bizans"},
-     {f:"1912-11-28", t:"1923-10-29", d:"arnavutluk"}],
+     {f:"1912-11-28",t:"1923-10-29",d:"arnavutluk-bagimsiz"}],
   v:[{f:"1430-10-01", t:"1537-08-25", k:"Arvanid sancağı — nominal tâbiiyet"}],
   d:[{f:"1537-08-25", t:"1912-11-28"}] },
 // 🔴 BU KAYIT BİR ÇIKARIMDIR — TDV'DE SARANDË MADDESİ YOKTUR.

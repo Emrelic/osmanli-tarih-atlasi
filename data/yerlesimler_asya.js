@@ -230,7 +230,7 @@ window.YERLESIMLER_ASYA = [
 //     Muharebesi'nden sonra saray İngiliz himayesine girdi.
 { ad:"Delhi", tur:"sehir", lat:28.6440, lon:77.2160, g:2, k:1,kd:[{f:"1281-01-01",t:"1857-09-21",k:1,m:"Delhi"}], d:[],
   s:[{f:"1281-01-01", t:"1398-12-17", d:"delhi-sultanligi"},
-     {f:"1398-12-17", t:"1399-01-01", d:"timurlu"},
+     {f:"1398-12-17", t:"1399-01-01", d:"timurlu",enklav:true},
      {f:"1399-01-01", t:"1526-04-21", d:"delhi-sultanligi"},
      {f:"1526-04-21", t:"1540-05-17", d:"babur-imparatorlugu"},
      {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
@@ -588,7 +588,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1622-06-22", t:"1638-01-01", d:"safevi"},
      {f:"1638-01-01", t:"1649-02-22", d:"babur-imparatorlugu"},
      {f:"1649-02-22", t:"1709-04-21", d:"safevi"},
-     {f:"1709-04-21", t:"1747-06-20", d:"iran"},
+     {f:"1709-04-21",t:"1738-03-24",d:"galzay"}, {f:"1738-03-24",t:"1747-06-20",d:"afsar"},
      {f:"1747-06-20", t:"1826-01-01", d:"afgan-durrani"},
      {f:"1826-01-01", t:"1923-10-29", d:"afganistan"}] },
 
@@ -1029,7 +1029,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1538-01-01", t:"1564-01-01", d:"sur-hanedani"},
      {f:"1564-01-01", t:"1576-07-12", d:"bengal-sultanligi"},
      {f:"1576-07-12", t:"1580-01-01", d:"babur-imparatorlugu"},
-     {f:"1580-01-01", t:"1632-06-24", d:"portekiz"},
+     {f:"1580-01-01", t:"1632-06-24", d:"portekiz",enklav:true},
      {f:"1632-06-24", t:"1717-01-01", d:"babur-imparatorlugu"},
      {f:"1717-01-01", t:"1757-06-23", d:"bengal-nevabligi"},
      {f:"1757-06-23", t:"1923-10-29", d:"ingiliz-hindistani"}] },
@@ -1040,11 +1040,11 @@ window.YERLESIMLER_ASYA = [
 // tekrar İngiliz işgalinde kaldı, sonra 1950'ye kadar Fransız.
 { ad:"Çandernagor", tur:"liman", lat:22.8620, lon:88.3570, g:0, k:0, d:[],
   kur:"1688-01-01",
-  s:[{f:"1688-01-01", t:"1757-03-23", d:"fransa"},
-     {f:"1757-03-23", t:"1763-02-10", d:"ingiltere"},
-     {f:"1763-02-10", t:"1793-06-10", d:"fransa"},
-     {f:"1793-06-10", t:"1816-12-04", d:"ingiltere"},
-     {f:"1816-12-04", t:"1923-10-29", d:"fransa"}] },
+  s:[{f:"1688-01-01", t:"1757-03-23", d:"fransa",enklav:true},
+     {f:"1757-03-23", t:"1763-02-10", d:"ingiltere",enklav:true},
+     {f:"1763-02-10", t:"1793-06-10", d:"fransa",enklav:true},
+     {f:"1793-06-10", t:"1816-12-04", d:"ingiltere",enklav:true},
+     {f:"1816-12-04",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
 
 // ORISSA: Doğu Ganga (1281-1434) ve Gacapati (1434-1568) hânedanları tek
 // "orissa" kimliğinde; ikisi de aynı krallığın hânedanlarıdır. 1568'de
@@ -1294,8 +1294,8 @@ window.YERLESIMLER_ASYA = [
      {f:"1318-01-01", t:"1407-01-01", d:"delhi-sultanligi"},
      {f:"1407-01-01", t:"1534-12-23", d:"gucerat-sultanligi"},
      {f:"1534-12-23", t:"1665-02-18", d:"portekiz"},
-     {f:"1665-02-18", t:"1757-06-23", d:"ingiltere"},
-     {f:"1757-06-23", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+     {f:"1665-02-18", t:"1757-06-23", d:"ingiltere",enklav:true},
+     {f:"1757-06-23", t:"1923-10-29", d:"ingiliz-hindistani",enklav:true}] },
 
 // Çaul — Portekiz'in Bombay'dan eski limanı (1521); Marathalar 1740'ta
 // aldı. Bombay'a 43 km.
@@ -1397,10 +1397,10 @@ window.YERLESIMLER_ASYA = [
 // Fransızlara aldı, 1748 Aachen Antlaşması ile 1749'da iade edildi.
 { ad:"Madras (Chennai)", tur:"liman", lat:13.0830, lon:80.2700, g:2, k:1,kd:[{f:"1708-01-01",t:"1923-10-29",k:1,m:"Madras (Chennai)"}], d:[],
   kur:"1639-08-22",
-  s:[{f:"1639-08-22", t:"1746-09-21", d:"ingiltere"},
-     {f:"1746-09-21", t:"1749-08-21", d:"fransa"},
-     {f:"1749-08-21", t:"1757-06-23", d:"ingiltere"},
-     {f:"1757-06-23", t:"1923-10-29", d:"ingiliz-hindistani"}] },
+  s:[{f:"1639-08-22", t:"1746-09-21", d:"ingiltere",enklav:true},
+     {f:"1746-09-21", t:"1749-08-21", d:"fransa",enklav:true},
+     {f:"1749-08-21", t:"1757-06-23", d:"ingiltere",enklav:true},
+     {f:"1757-06-23", t:"1923-10-29", d:"ingiliz-hindistani",enklav:true}] },
 
 // Pondişeri — Fransız Hindistanı'nın başkenti, 1674'te kuruldu (kur:).
 // Beş kez el değiştirdi: 1693 Hollanda, 1699 iade; 1761 İngiliz, 1765
@@ -1408,15 +1408,15 @@ window.YERLESIMLER_ASYA = [
 // en çok kırılan noktadır ve hepsi belgelidir.
 { ad:"Pondişeri", tur:"liman", lat:11.9340, lon:79.8300, g:1, k:0, d:[],
   kur:"1674-01-01",
-  s:[{f:"1674-01-01", t:"1693-09-06", d:"fransa"},
+  s:[{f:"1674-01-01", t:"1693-09-06", d:"fransa",enklav:true},
      {f:"1693-09-06", t:"1699-09-01", d:"hollanda"},
-     {f:"1699-09-01", t:"1761-01-16", d:"fransa"},
-     {f:"1761-01-16", t:"1765-01-01", d:"ingiltere"},
-     {f:"1765-01-01", t:"1778-10-18", d:"fransa"},
-     {f:"1778-10-18", t:"1785-01-01", d:"ingiltere"},
-     {f:"1785-01-01", t:"1793-08-23", d:"fransa"},
-     {f:"1793-08-23", t:"1816-12-04", d:"ingiltere"},
-     {f:"1816-12-04", t:"1923-10-29", d:"fransa"}] },
+     {f:"1699-09-01", t:"1761-01-16", d:"fransa",enklav:true},
+     {f:"1761-01-16", t:"1765-01-01", d:"ingiltere",enklav:true},
+     {f:"1765-01-01", t:"1778-10-18", d:"fransa",enklav:true},
+     {f:"1778-10-18", t:"1785-01-01", d:"ingiltere",enklav:true},
+     {f:"1785-01-01", t:"1793-08-23", d:"fransa",enklav:true},
+     {f:"1793-08-23", t:"1816-12-04", d:"ingiltere",enklav:true},
+     {f:"1816-12-04",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
 
 // Nagapatnam — Portekiz 1554, Hollanda 1658 (Hollanda Koromandel'inin
 // başkenti), İngiliz 12 Kasım 1781.
@@ -1438,7 +1438,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1335-01-01", t:"1378-01-01", d:"madurai-sultanligi"},
      {f:"1378-01-01", t:"1532-01-01", d:"vijayanagara"},
      {f:"1532-01-01", t:"1620-11-19", d:"nayak-devletleri"},
-     {f:"1620-11-19", t:"1845-02-22", d:"danimarka"},
+     {f:"1620-11-19", t:"1845-02-22", d:"danimarka",enklav:true},
      {f:"1845-02-22", t:"1923-10-29", d:"ingiliz-hindistani"}] },
 
 // Tancûr (Thanjavur) — 1674'te Şivâcî'nin üvey kardeşi Venkocî burada
@@ -1484,7 +1484,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1649-01-01", t:"1677-05-01", d:"bicapur"},
      {f:"1677-05-01", t:"1698-01-08", d:"maratha"},
      {f:"1698-01-08", t:"1750-09-11", d:"babur-imparatorlugu"},
-     {f:"1750-09-11", t:"1761-04-05", d:"fransa"},
+     {f:"1750-09-11", t:"1761-04-05", d:"fransa",enklav:true},
      {f:"1761-04-05", t:"1923-10-29", d:"ingiliz-hindistani"}] },
 
 // Vellor — Vijayanagara'nın Talikota sonrası başkenti (1606-1646).
@@ -3417,8 +3417,8 @@ window.YERLESIMLER_ASYA = [
 { ad:"Malaka", tur:"liman", lat:2.1960, lon:102.2500, g:2, k:2,kd:[{f:"1400-01-01",t:"1511-08-24",k:1,m:"Malaka"}], d:[],
   kur:"1400-01-01",
   s:[{f:"1400-01-01", t:"1511-08-24", d:"malaka-sultanligi"},
-     {f:"1511-08-24", t:"1641-01-14", d:"portekiz"},
-     {f:"1641-01-14", t:"1825-03-01", d:"hollanda-dogu-hint"},
+     {f:"1511-08-24", t:"1641-01-14", d:"portekiz",enklav:true},
+     {f:"1641-01-14", t:"1825-03-01", d:"hollanda-dogu-hint",enklav:true},
      {f:"1825-03-01", t:"1923-10-29", d:"ingiliz-malaya"}] },
 
 // Singapur — Raffles 29 Ocak 1819'da karaya çıktı ve Johor'dan aldığı

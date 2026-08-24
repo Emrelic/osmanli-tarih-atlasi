@@ -114,9 +114,9 @@ window.YERLESIMLER_SERHAT = [
 //    (1689-09-24) ile Vidin arasındaki hattın eksik halkası budur.
 { ad:"Şehirköy (Pirot)", tur:"kasaba", lat:43.1531, lon:22.5861, g:0, k:3, m:"Sofya",
   s:[{f:"1281-01-01",t:"1428-01-01",d:"sirbistan"},
-     {f:"1443-01-01",t:"1456-01-01",d:"sirbistan"},
+     {f:"1443-01-01",t:"1456-01-01",d:"sirp-despotlugu"},
      {f:"1689-09-24",t:"1690-09-09",d:"avusturya"},
-     {f:"1878-07-13",t:"1923-10-29",d:"sirbistan"}],
+     {f:"1878-07-13",t:"1882-03-06",d:"sirbistan-prensligi"}, {f:"1882-03-06",t:"1918-12-01",d:"sirbistan-kralligi"}, {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
   d:[{f:"1428-01-01",t:"1443-01-01"},
      {f:"1456-01-01",t:"1689-09-24"},
      {f:"1690-09-09",t:"1878-07-13"}],
@@ -131,8 +131,8 @@ window.YERLESIMLER_SERHAT = [
 //    karşı veriye konmuş bir sınır taşıdır (`§3.5.1` iki uç kuralı).
 { ad:"Alacahisar (Kruševac)", tur:"sehir", lat:43.5800, lon:21.3270, g:0, k:3, m:"Belgrad",
   s:[{f:"1281-01-01",t:"1428-01-01",d:"sirbistan"},
-     {f:"1444-08-01",t:"1454-01-01",d:"sirbistan"},
-     {f:"1878-07-13",t:"1923-10-29",d:"sirbistan"}],
+     {f:"1444-08-01",t:"1454-01-01",d:"sirp-despotlugu"},
+     {f:"1878-07-13",t:"1882-03-06",d:"sirbistan-prensligi"}, {f:"1882-03-06",t:"1918-12-01",d:"sirbistan-kralligi"}, {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
   d:[{f:"1428-01-01",t:"1444-08-01"},
      {f:"1454-01-01",t:"1878-07-13"}],
   v:[] },

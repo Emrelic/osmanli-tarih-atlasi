@@ -76,7 +76,7 @@ window.YERLESIMLER_EK16 = [
 //    (1833, 1837) BAŞARISIZ oldu — yani hiçbir zaman İran'a geçmedi.
 //    O yüzden ara dönem için `kacar` YAZILMADI.
 { ad:"Herat", tur:"sehir", lat:34.3420, lon:62.2030, g:0, k:2, d:[],
-  s:[{f:"1281-01-01",t:"1335-12-01",d:"ilhanli"},{f:"1335-12-01",t:"1381-04-01",d:"iran"},{f:"1381-04-01",t:"1507-01-01",d:"timurlu"},{f:"1507-01-01",t:"1510-12-02",d:"buhara"},{f:"1510-12-02",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1826-01-01",d:"afgan-durrani"},{f:"1826-01-01",t:"1923-10-29",d:"afganistan"}] },
+  s:[{f:"1281-01-01",t:"1335-12-01",d:"ilhanli"},{f:"1335-12-01",t:"1381-04-01",d:"kert"},{f:"1381-04-01",t:"1507-01-01",d:"timurlu"},{f:"1507-01-01",t:"1510-12-02",d:"buhara"},{f:"1510-12-02",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1826-01-01",d:"afgan-durrani"},{f:"1826-01-01",t:"1923-10-29",d:"afganistan"}] },
 
 // ── ② BELH — Ceyhun'un güney yakası ─────────────────────────────────
 // ⚠️ ZİNCİRİ HERAT'INKİNDEN AYRI ve bu kasıtlı: Belh Horasan değil

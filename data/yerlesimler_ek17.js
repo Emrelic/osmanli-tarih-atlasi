@@ -120,29 +120,29 @@ window.YERLESIMLER_EK17 = [
 //    1654 Pereyaslav ile tekrar Rusya'ya geçti. Haritada bugün bu üç
 //    devrin HİÇBİRİ görünmüyor — kuşakta nokta yok.
 { ad:"Çernigov", tur:"sehir", lat:51.4982, lon:31.2893, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1503-04-02",d:"lehistan"},{f:"1503-04-02",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1618-12-11",d:"rusya"},{f:"1618-12-11",t:"1654-01-08",d:"lehistan"},{f:"1654-01-08",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1503-04-02",d:"litvanya-buyuk-dukalik"},{f:"1503-04-02",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1618-12-11",d:"rusya"},{f:"1618-12-11",t:"1654-01-08",d:"lehistan"},{f:"1654-01-08",t:"1923-10-29",d:"rusya"}] },
 
 { ad:"Novgorod-Seversk", tur:"sehir", lat:51.9874, lon:33.2620, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1503-04-02",d:"lehistan"},{f:"1503-04-02",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1618-12-11",d:"rusya"},{f:"1618-12-11",t:"1654-01-08",d:"lehistan"},{f:"1654-01-08",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1503-04-02",d:"litvanya-buyuk-dukalik"},{f:"1503-04-02",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1618-12-11",d:"rusya"},{f:"1618-12-11",t:"1654-01-08",d:"lehistan"},{f:"1654-01-08",t:"1923-10-29",d:"rusya"}] },
 
 // ⚠️ PUTİVL ÖTEKİ İKİSİNİN ZİNCİRİNİ TAŞIMIYOR — kopyalanmadı.
 //    Deulino (1618) Çernigov ve Novgorod-Seversk'i Polonya'ya verdi ama
 //    Putivl **Moskova'da kaldı** ve sınır kalesi oldu. Kopyalasaydım
 //    şehir 36 yıl yanlış devlette görünecekti.
 { ad:"Putivl", tur:"kale", lat:51.3364, lon:33.8703, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1503-04-02",d:"lehistan"},{f:"1503-04-02",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1503-04-02",d:"litvanya-buyuk-dukalik"},{f:"1503-04-02",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1923-10-29",d:"rusya"}] },
 
 // ── ② YUKARI OKA — Litvanya'nın doğu ucu ────────────────────────────
 // Bryansk 1503'te değil **1500'de** Moskova'ya geçti (Vedroşa savaşı).
 // 🟢 Ve bu günün kronolojide maddesi VAR (8 gün) — üç kırılmadan biri.
 { ad:"Bryansk", tur:"sehir", lat:53.2436, lon:34.3639, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1356-01-01",d:"altinorda"},{f:"1356-01-01",t:"1500-08-01",d:"lehistan"},{f:"1500-08-01",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1356-01-01",d:"altinorda"},{f:"1356-01-01",t:"1500-08-01",d:"litvanya-buyuk-dukalik"},{f:"1500-08-01",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1923-10-29",d:"rusya"}] },
 
 { ad:"Kursk", tur:"sehir", lat:51.7304, lon:36.1926, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1503-04-02",d:"lehistan"},{f:"1503-04-02",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1503-04-02",d:"litvanya-buyuk-dukalik"},{f:"1503-04-02",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1923-10-29",d:"rusya"}] },
 
 { ad:"Orel", tur:"sehir", lat:52.9700, lon:36.0700, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1503-04-02",d:"lehistan"},{f:"1503-04-02",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1503-04-02",d:"litvanya-buyuk-dukalik"},{f:"1503-04-02",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1923-10-29",d:"rusya"}] },
 
 // ── ③ RYAZAN — dosyanın en tartışmalı kaydı, ve işaretli ────────────
 // ⚠️ Ryazan 1521'e kadar **ayrı bir büyük knezlikti**, Moskova'nın değil.

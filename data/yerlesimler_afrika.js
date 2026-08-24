@@ -656,7 +656,7 @@ window.YERLESIMLER_AFRIKA = [
 // Sevâkin'in iç ardalanı (Bece ülkesi). 1883-1891 arası fiilen Mehdî
 // kuvvetlerinin elindeydi; bu ara dönem yazılmadı, Sevâkin zinciri korundu.
 { ad:"Tokar", tur:"sehir", lat:18.427, lon:37.729, g:0, k:4, m:"Sevâkin",
-  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1884-01-01",t:"1891-02-06",d:"mehdi"},{f:"1891-02-06",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1517-04-13",t:"1557-01-01",d:"habesistan"},{f:"1884-01-01",t:"1891-02-06",d:"mehdi",enklav:true},{f:"1891-02-06",t:"1923-10-29",d:"ingiltere"}],
   d:[{f:"1557-01-01",t:"1884-01-01"}] },
 
 { ad:"Sinkat", tur:"sehir", lat:18.833, lon:36.833, g:0, k:4, m:"Sevâkin",
@@ -730,12 +730,12 @@ window.YERLESIMLER_AFRIKA = [
 // Aseb: Rubattino şirketinin hakları 10 Mart 1882'de İtalyan devletine
 // devredildi — koloninin resmî başlangıcı budur.
 { ad:"Aseb", tur:"liman", lat:13.009, lon:42.735, g:0, k:2,
-  s:[{f:"1281-01-01",t:"1882-03-10",d:"adal"},{f:"1882-03-10",t:"1923-10-29",d:"italya"}], d:[] },
+  s:[{f:"1281-01-01",t:"1882-03-10",d:"adal"},{f:"1882-03-10",t:"1923-10-29",d:"italya",enklav:true}], d:[] },
 
 // Fransız himayesi 1884'te kuruldu; GÜN DOĞRULANAMADI, bu yüzden proje
 // kuralına göre YYYY-01-01 yazıldı (mevcut Zeyla kaydıyla aynı desen).
 { ad:"Tacûra", tur:"liman", lat:11.788, lon:42.882, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1884-01-01",d:"adal"},{f:"1884-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}], d:[] },
+  s:[{f:"1281-01-01",t:"1884-01-01",d:"adal"},{f:"1884-01-01",t:"1923-10-29",d:"fransa-cumhuriyet",enklav:true}], d:[] },
 
 // ===========================================================================
 // 9) SOMALİ KIYISI

@@ -118,7 +118,7 @@ window.YERLESIMLER_KDMACAR = [
   // aynı fetih, aynı Karlofça sonrası devir).
   s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan"},
      {f:"1692-06-05",t:"1918-11-11",d:"avusturya"},
-     {f:"1918-11-11",t:"1923-10-29",d:"macaristan"}],
+     {f:"1918-11-11",t:"1923-10-29",d:"macaristan-naiplik"}],
   d:[{f:"1660-08-27",t:"1692-06-05"}],
   v:[{f:"1526-08-29",t:"1660-08-27"}] },
 

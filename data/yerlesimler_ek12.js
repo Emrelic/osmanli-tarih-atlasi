@@ -74,13 +74,13 @@
 window.YERLESIMLER_EK12 = [
 
 { ad:"Reykjavík", tur:"sehir", lat:64.1466, lon:-21.9426, g:0, k:1, d:[],
-  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec"},{f:"1537-01-01",t:"1918-12-01",d:"danimarka"},{f:"1918-12-01",t:"1923-10-29",d:"izlanda"}] },
+  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1918-12-01",d:"danimarka"},{f:"1918-12-01",t:"1923-10-29",d:"izlanda"}] },
 
 // ⚠️ maske: Akureyri (65,6835/−18,0878) Eyjafjörður'un dibinde ve 10m
 //    maskesi orayı deniz sayıyor; 2,2 km kuzeydoğuya çekildi. Aynı sınıf
 //    düzeltme `_ek8`de beş kayıtta daha var.
 { ad:"Akureyri", tur:"sehir", lat:65.7008, lon:-18.0635, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec"},{f:"1537-01-01",t:"1918-12-01",d:"danimarka"},{f:"1918-12-01",t:"1923-10-29",d:"izlanda"}] },
+  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1918-12-01",d:"danimarka"},{f:"1918-12-01",t:"1923-10-29",d:"izlanda"}] },
 
 // ── DOĞU GRÖNLAND — pencerenin tamamında sahipsiz ───────────────────
 // ONAYLANDI, VARSAYILMADI: Norse yerleşimleri adanın GÜNEYBATI kıyısındaydı
