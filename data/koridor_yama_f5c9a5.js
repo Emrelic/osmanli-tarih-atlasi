@@ -27,38 +27,247 @@
 //   biri DİZİ öteki NESNE. index.html ikisini de yüklerse ikincisi birincisini
 //   SESSİZCE EZER ⇒ 23 düğüm + 1 kenar → ya 23 ya 1, ASLA 24.
 //   Kural: data/<tur>_yama_<kısaltma>.js → window.<TUR>_YAMA_<KISALTMA>
-window.KORIDOR_YAMA_F5C9A5 = [
-
-{id:"uskudar",ad:"Üsküdar",y:"Üsküdar",lat:41.0227,lon:29.0153,kaynak:"data/yerlesimler_ek29.js (girdi.yukle)",neden:"birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"},
-{id:"ishakli",ad:"İshaklı",y:"İshaklı",lat:38.5439,lon:31.2447,kaynak:"data/yerlesimler_ek29.js (girdi.yukle)",neden:"birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"},
-{id:"ilgin",ad:"Ilgın",y:"Ilgın",lat:38.2792,lon:31.9139,kaynak:"data/yerlesimler_ek29.js (girdi.yukle)",neden:"birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"},
-{id:"karapinar",ad:"Karapınar",y:"Karapınar",lat:37.7156,lon:33.5514,kaynak:"data/yerlesimler_ek29.js (girdi.yukle)",neden:"birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"},
-{id:"ulukisla",ad:"Ulukışla",y:"Ulukışla",lat:37.5461,lon:34.4869,kaynak:"data/yerlesimler_ek29.js (girdi.yukle)",neden:"birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"},
-{id:"tosya",ad:"Tosya",y:"Tosya",lat:41.0161,lon:34.0397,kaynak:"data/yerlesimler_ek29.js (girdi.yukle)",neden:"birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"},
-{id:"harput",ad:"Harput",y:"Harput (Elazığ)",lat:38.714,lon:39.245,kaynak:"data/yerlesimler.js (girdi.yukle)",neden:"parantezli ad: veride `Harput (Elazığ)`"},
-{id:"ladik",ad:"Lâdik",y:"Ladik (Amasya)",lat:40.912,lon:35.898,kaynak:"data/yerlesimler.js (girdi.yukle)",neden:"parantezli ad: veride `Ladik (Amasya)` — ⚠️ Vladikavkaz DEGIL (M-0100'un ilk surumu oraya dusmustu)"},
-{id:"karahisar-i-sarki",ad:"Karahisar-ı Şarkî",y:"Karahisâr-ı Şarkî (Şebinkarahisar)",lat:40.2886,lon:38.4247,kaynak:"data/yerlesimler_ek29.js (girdi.yukle)",neden:"birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"},
-{id:"kelkit",ad:"Kelkit",y:"Kelkit",lat:40.1281,lon:39.4381,kaynak:"data/yerlesimler_ek29.js (girdi.yukle)",neden:"birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"},
-{id:"askale",ad:"Aşkale",y:"Aşkale",lat:39.9214,lon:40.6939,kaynak:"data/yerlesimler_ek29.js (girdi.yukle)",neden:"birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"},
-{id:"vize",ad:"Vize",y:"Vize",lat:41.5714,lon:27.7658,kaynak:"data/yerlesimler_ek29.js (girdi.yukle)",neden:"birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"},
-{id:"prevadi",ad:"Prevadi",y:"Prevadi (Provadia)",lat:43.1789,lon:27.4331,kaynak:"data/yerlesimler_ek29.js (girdi.yukle)",neden:"birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"},
-{id:"babadagi",ad:"Babadağı",y:"Babadağı (Babadag)",lat:44.8917,lon:28.7169,kaynak:"data/yerlesimler_ek29.js (girdi.yukle)",neden:"birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"},
-{id:"ishakci",ad:"İshakçı",y:"İshakçı (Isaccea)",lat:45.2736,lon:28.46,kaynak:"data/yerlesimler_ek29.js (girdi.yukle)",neden:"birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"},
-{id:"silivri",ad:"Silivri",y:"Silivri",lat:41.0791,lon:28.2493,kaynak:"data/yerlesimler_ek29.js (girdi.yukle)",neden:"birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"},
-{id:"yagodina",ad:"Yagodina",y:"Yagodina (Jagodina)",lat:43.9772,lon:21.2617,kaynak:"data/yerlesimler_ek29.js (girdi.yukle)",neden:"birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"},
-{id:"firecik",ad:"Firecik",y:"Ferecik (Feres)",lat:40.897,lon:26.172,kaynak:"data/yerlesimler.js (girdi.yukle)",neden:"M-0100 (NOKTA MENZIL) beni duzeltti: ben 'veride YOK' demistim, veride `Ferecik (Feres)` olarak VAR — tek harf farki (i/e)."},
-{id:"praviste",ad:"Pravişte",y:"Praviște (Eleftheroupoli)",lat:40.9167,lon:24.25,kaynak:"data/yerlesimler_ek29.js (girdi.yukle)",neden:"birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"},
-{id:"lanzaka",ad:"Lanzaka",y:"Lanzaka (Lagkadas)",lat:40.75,lon:23.0667,kaynak:"data/yerlesimler_ek29.js (girdi.yukle)",neden:"birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"},
-{id:"yenisehir",ad:"Yenişehir",y:"Yenişehir (Larissa)",lat:39.639,lon:22.418,kaynak:"data/yerlesimler.js (girdi.yukle)",neden:"veride UC aday var (Bursa · Kopruhisar · Larissa). Zincir lanzaka(#8) -> yenisehir(#9) -> izdin(#10) -> istefe(#11); Izdin=Lamia (38,90/22,43) ve Istefe=Tebai (38,32/23,32) TESELYA'da. Larissa secildi: Lanzaka'ya 135 km, Lamia'ya 84 km — zincir TUTUYOR. Bursa secilseydi 560 km ve 620 km olurdu, kol Rumeli'den Anadolu'ya sicrardi. ⚠️ M-0100 Bursa demisti; komsulari koordinat kazaninca SINANABILIR oldu ve Larissa cikti."},
-{id:"izdin",ad:"İzdin",y:"İzdin (Lamia)",lat:38.9,lon:22.434,kaynak:"data/yerlesimler.js (girdi.yukle)",neden:"birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"},
-{id:"istefe",ad:"İstefe",y:"İstefe (Tebai)",lat:38.322,lon:23.319,kaynak:"data/yerlesimler.js (girdi.yukle)",neden:"birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"},
-
-];
-
-// 🔴 VERİDE HİÇ OLMAYAN ÜÇ DÜĞÜM — "aranmadı" DEĞİL, "ARANDI, YOK".
-//   Bunlara koordinat YAZILAMAZ; önce yerleşim kaydı gerekir (KOL A işi).
-window.KORIDOR_YAMA_F5C9A5_EKSIK = [
-{id:"hasan-celebi",ad:"Hasan Çelebi",durum:"veride-yok",neden:"aranan: hasan · hacilar — veride YOK"},
-{id:"hasankale",ad:"Hasankale",durum:"veride-yok",neden:"aranan: hasankale · pasinler — veride YOK"},
-{id:"karasu",ad:"Karasu",durum:"veride-yok",neden:"aranan: karasu · cernavoda · medgidia · bogazkoy — veride YOK. ⚠️ Veride `Karasubazar` VAR ama o KIRIM'da (45,06/34,60); koridordaki Karasu DOBRUCA'da, prevadi(#4) ile babadagi(#6) arasinda. Arada ~1000 km — ad esler, YER ESLEMEZ."},
-];
+// 🔴 BİÇİM GÖÇÜ — 25 Ağustos 2026. Bu dosya 16 Ağustos'ta DÜZ DİZİ
+// olarak yazıldı ve DOKUZ GÜN `index.html`e HİÇ eklenmedi. Eklendiğinde
+// de görünmeyecekti: `js/app.js:2740` `{dugum:[…], kenar:[…], eksik:[…]}`
+// bekliyor ve düz diziyi BİLEREK reddediyor —
+//   "TANIMADIĞIM ŞEKLİ SESSİZCE ELEMİYORUM ... 'idare edip' kabul
+//    etseydim göçün yapılmadığı GÖRÜNMEZ olurdu."
+// ⇒ O red doğruydu ve bu göçü ZORUNLU kıldı. Sessizce kabul edilseydi
+//   biçim borcu bugün de ödenmemiş olurdu.
+//
+// İÇERİK DEĞİŞMEDİ: 23 düğüm + 3 eksik kaydı AYNEN taşındı. `_EKSIK`
+// ayrı global olmaktan çıktı çünkü `app.js` süzgeci onu HİÇ görmüyordu
+// (regex `_EKSIK` ekiyle eşleşmiyor) — yani ölçülmüş bir borç, ikinci
+// bir görünmezlik katmanının altındaydı.
+window.KORIDOR_YAMA_F5C9A5 = {
+  dugum: [
+  {
+    "id": "uskudar",
+    "ad": "Üsküdar",
+    "y": "Üsküdar",
+    "lat": 41.0227,
+    "lon": 29.0153,
+    "kaynak": "data/yerlesimler_ek29.js (girdi.yukle)",
+    "neden": "birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"
+  },
+  {
+    "id": "ishakli",
+    "ad": "İshaklı",
+    "y": "İshaklı",
+    "lat": 38.5439,
+    "lon": 31.2447,
+    "kaynak": "data/yerlesimler_ek29.js (girdi.yukle)",
+    "neden": "birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"
+  },
+  {
+    "id": "ilgin",
+    "ad": "Ilgın",
+    "y": "Ilgın",
+    "lat": 38.2792,
+    "lon": 31.9139,
+    "kaynak": "data/yerlesimler_ek29.js (girdi.yukle)",
+    "neden": "birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"
+  },
+  {
+    "id": "karapinar",
+    "ad": "Karapınar",
+    "y": "Karapınar",
+    "lat": 37.7156,
+    "lon": 33.5514,
+    "kaynak": "data/yerlesimler_ek29.js (girdi.yukle)",
+    "neden": "birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"
+  },
+  {
+    "id": "ulukisla",
+    "ad": "Ulukışla",
+    "y": "Ulukışla",
+    "lat": 37.5461,
+    "lon": 34.4869,
+    "kaynak": "data/yerlesimler_ek29.js (girdi.yukle)",
+    "neden": "birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"
+  },
+  {
+    "id": "tosya",
+    "ad": "Tosya",
+    "y": "Tosya",
+    "lat": 41.0161,
+    "lon": 34.0397,
+    "kaynak": "data/yerlesimler_ek29.js (girdi.yukle)",
+    "neden": "birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"
+  },
+  {
+    "id": "harput",
+    "ad": "Harput",
+    "y": "Harput (Elazığ)",
+    "lat": 38.714,
+    "lon": 39.245,
+    "kaynak": "data/yerlesimler.js (girdi.yukle)",
+    "neden": "parantezli ad: veride `Harput (Elazığ)`"
+  },
+  {
+    "id": "ladik",
+    "ad": "Lâdik",
+    "y": "Ladik (Amasya)",
+    "lat": 40.912,
+    "lon": 35.898,
+    "kaynak": "data/yerlesimler.js (girdi.yukle)",
+    "neden": "parantezli ad: veride `Ladik (Amasya)` — ⚠️ Vladikavkaz DEGIL (M-0100'un ilk surumu oraya dusmustu)"
+  },
+  {
+    "id": "karahisar-i-sarki",
+    "ad": "Karahisar-ı Şarkî",
+    "y": "Karahisâr-ı Şarkî (Şebinkarahisar)",
+    "lat": 40.2886,
+    "lon": 38.4247,
+    "kaynak": "data/yerlesimler_ek29.js (girdi.yukle)",
+    "neden": "birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"
+  },
+  {
+    "id": "kelkit",
+    "ad": "Kelkit",
+    "y": "Kelkit",
+    "lat": 40.1281,
+    "lon": 39.4381,
+    "kaynak": "data/yerlesimler_ek29.js (girdi.yukle)",
+    "neden": "birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"
+  },
+  {
+    "id": "askale",
+    "ad": "Aşkale",
+    "y": "Aşkale",
+    "lat": 39.9214,
+    "lon": 40.6939,
+    "kaynak": "data/yerlesimler_ek29.js (girdi.yukle)",
+    "neden": "birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"
+  },
+  {
+    "id": "vize",
+    "ad": "Vize",
+    "y": "Vize",
+    "lat": 41.5714,
+    "lon": 27.7658,
+    "kaynak": "data/yerlesimler_ek29.js (girdi.yukle)",
+    "neden": "birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"
+  },
+  {
+    "id": "prevadi",
+    "ad": "Prevadi",
+    "y": "Prevadi (Provadia)",
+    "lat": 43.1789,
+    "lon": 27.4331,
+    "kaynak": "data/yerlesimler_ek29.js (girdi.yukle)",
+    "neden": "birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"
+  },
+  {
+    "id": "babadagi",
+    "ad": "Babadağı",
+    "y": "Babadağı (Babadag)",
+    "lat": 44.8917,
+    "lon": 28.7169,
+    "kaynak": "data/yerlesimler_ek29.js (girdi.yukle)",
+    "neden": "birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"
+  },
+  {
+    "id": "ishakci",
+    "ad": "İshakçı",
+    "y": "İshakçı (Isaccea)",
+    "lat": 45.2736,
+    "lon": 28.46,
+    "kaynak": "data/yerlesimler_ek29.js (girdi.yukle)",
+    "neden": "birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"
+  },
+  {
+    "id": "silivri",
+    "ad": "Silivri",
+    "y": "Silivri",
+    "lat": 41.0791,
+    "lon": 28.2493,
+    "kaynak": "data/yerlesimler_ek29.js (girdi.yukle)",
+    "neden": "birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"
+  },
+  {
+    "id": "yagodina",
+    "ad": "Yagodina",
+    "y": "Yagodina (Jagodina)",
+    "lat": 43.9772,
+    "lon": 21.2617,
+    "kaynak": "data/yerlesimler_ek29.js (girdi.yukle)",
+    "neden": "birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"
+  },
+  {
+    "id": "firecik",
+    "ad": "Firecik",
+    "y": "Ferecik (Feres)",
+    "lat": 40.897,
+    "lon": 26.172,
+    "kaynak": "data/yerlesimler.js (girdi.yukle)",
+    "neden": "M-0100 (NOKTA MENZIL) beni duzeltti: ben 'veride YOK' demistim, veride `Ferecik (Feres)` olarak VAR — tek harf farki (i/e)."
+  },
+  {
+    "id": "praviste",
+    "ad": "Pravişte",
+    "y": "Praviște (Eleftheroupoli)",
+    "lat": 40.9167,
+    "lon": 24.25,
+    "kaynak": "data/yerlesimler_ek29.js (girdi.yukle)",
+    "neden": "birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"
+  },
+  {
+    "id": "lanzaka",
+    "ad": "Lanzaka",
+    "y": "Lanzaka (Lagkadas)",
+    "lat": 40.75,
+    "lon": 23.0667,
+    "kaynak": "data/yerlesimler_ek29.js (girdi.yukle)",
+    "neden": "birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"
+  },
+  {
+    "id": "yenisehir",
+    "ad": "Yenişehir",
+    "y": "Yenişehir (Larissa)",
+    "lat": 39.639,
+    "lon": 22.418,
+    "kaynak": "data/yerlesimler.js (girdi.yukle)",
+    "neden": "veride UC aday var (Bursa · Kopruhisar · Larissa). Zincir lanzaka(#8) -> yenisehir(#9) -> izdin(#10) -> istefe(#11); Izdin=Lamia (38,90/22,43) ve Istefe=Tebai (38,32/23,32) TESELYA'da. Larissa secildi: Lanzaka'ya 135 km, Lamia'ya 84 km — zincir TUTUYOR. Bursa secilseydi 560 km ve 620 km olurdu, kol Rumeli'den Anadolu'ya sicrardi. ⚠️ M-0100 Bursa demisti; komsulari koordinat kazaninca SINANABILIR oldu ve Larissa cikti."
+  },
+  {
+    "id": "izdin",
+    "ad": "İzdin",
+    "y": "İzdin (Lamia)",
+    "lat": 38.9,
+    "lon": 22.434,
+    "kaynak": "data/yerlesimler.js (girdi.yukle)",
+    "neden": "birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"
+  },
+  {
+    "id": "istefe",
+    "ad": "İstefe",
+    "y": "İstefe (Tebai)",
+    "lat": 38.322,
+    "lon": 23.319,
+    "kaynak": "data/yerlesimler.js (girdi.yukle)",
+    "neden": "birebir ad eşleşmesi; coğrafî sınav geçildi (koridor komşusuna ≤250 km)"
+  }
+],
+  eksik: [
+  {
+    "id": "hasan-celebi",
+    "ad": "Hasan Çelebi",
+    "durum": "veride-yok",
+    "neden": "aranan: hasan · hacilar — veride YOK"
+  },
+  {
+    "id": "hasankale",
+    "ad": "Hasankale",
+    "durum": "veride-yok",
+    "neden": "aranan: hasankale · pasinler — veride YOK"
+  },
+  {
+    "id": "karasu",
+    "ad": "Karasu",
+    "durum": "veride-yok",
+    "neden": "aranan: karasu · cernavoda · medgidia · bogazkoy — veride YOK. ⚠️ Veride `Karasubazar` VAR ama o KIRIM'da (45,06/34,60); koridordaki Karasu DOBRUCA'da, prevadi(#4) ile babadagi(#6) arasinda. Arada ~1000 km — ad esler, YER ESLEMEZ."
+  }
+]
+};

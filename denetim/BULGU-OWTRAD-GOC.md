@@ -193,16 +193,28 @@ TRAVMODE (tasima)    174/174  "nkn"     = BOS
 ORBIS Roma dönemi. **İki kaynak da bu alanı boş bırakıyor.**
 
 ### Eşleşme — 107 gerçek adlı düğüm
+
+🔴 **BU BÖLÜMÜN İLK HÂLİ YANLIŞ BİR TABANLA KURULMUŞTU. Düzeltilmiş sayılar
+altta; sebebi §⑨'da.**
+
 ```
-ADLA eslesen (bizde ZATEN VAR)         35
-3 KM KURALIYLA eslesen (ad tutmadi)     6
-                                       ──
-BIZDE VAR                              41
-3-15 km — SUPHELI, elle bakilmali       1   (Suçava ↔ Suceava, 4,1 km)
-YENI ADAY (>15 km)                     65
-                                       ──
-TOPLAM                                107
+                          ilk olcum      DUZELTILMIS
+                          (124 taban)    (101 taban — TARAYICININ GORDUGU)
+BIZDE VAR                     41              38
+3-15 km SUPHELI                1               1
+YENI ADAY (>15 km)            65              68
+                             ───             ───
+TOPLAM                       107             107
 ```
+**Fark üç düğümde ve üçü de ölçüldü** — yalnız *bağlanmamış* bir dosya
+sayesinde *"bizde var"* görünüyorlardı:
+```
+Babadag     kopuk dosyada 0,92 km · BAGLI aga en yakin 191,9 km
+Isaccea     kopuk dosyada 0,93 km · BAGLI aga en yakin 178,6 km
+Yenisehir   kopuk dosyada 0,28 km · BAGLI aga en yakin 120,1 km
+```
+⇒ **Doğru sayı 38'dir**, çünkü öteki üçünün karşılığını tarayıcı **hiç
+görmüyor.**
 ⚠️ **Ara ölçümde bu dağılım `26 + 15` görünüyordu; toplamı yine 41'di.** Fark
 yalnız ad sözlüğünü genişletmemden (`Caffa→Kefe`, `Lwow→Lvov`, `Azov→Azak`…):
 dokuz eşleşme *"3 km"* kovasından *"ad"* kovasına geçti. **Kova değişti, sayı
@@ -322,7 +334,8 @@ gecikmedir.**
 
 ## Sayıyla — koordinatörün istediği biçimde
 ```
-154 dugum -> bizde var 41 · yeni aday 65 · supheli 1 · SENTETIK 47
+154 dugum -> bizde var 38 · yeni aday 68 · supheli 1 · SENTETIK 47
+             (ilk olcum 41/65 idi; taban BAGLANMAMIS bir dosyayi da sayiyordu — §⑨)
 174 kenar -> kara koridoru (cd) 131 · deniz hatti (sl) 43
 Via Militaris: 9 duraktan 8'i bizde · eksik 1 (Tatar-Pazarcik) · 8/8 kenar VAR
 iki surum: satir sayisi AYNI (174/174) · ayrisan sutun 1 (ROLE, sozluk farki)
@@ -337,6 +350,69 @@ iki surum: satir sayisi AYNI (174/174) · ayrisan sutun 1 (ROLE, sozluk farki)
 · ciolek.com'un bakimsizligi GOZLE gorulen bir kestirim, olcum degil.
 · KML surumu "[under construction]" — HIC denemedim.
 ```
+
+## ⑨ 🔴🔴 GÖÇ SIRASINDA BULUNAN AYRI BİR KUSUR — ÖDENMİŞ BİR BORÇ, TESLİM EDİLMEMİŞ
+
+`index.html`e yükleme satırı eklenip eklenmediğine bakarken **bu göçle ilgisi
+olmayan** bir şey çıktı:
+
+```
+data/ altinda      koridor.js · koridor_f5c9a5.js · koridor_halka2.js ·
+                   koridor_owtrad.js · koridor_yama_e9353f.js · koridor_yama_f5c9a5.js
+index.html YUKLUYOR  ilk dorttu
+🔴 BAGLANMAMIS      koridor_yama_e9353f.js  (0 kayit — bos, zararsiz)
+                    koridor_yama_f5c9a5.js  (23 KONUMLU DUGUM)
+```
+
+**Ve o 23 düğümün ne olduğu ölçülünce mesele büyüdü.** Bunlar
+`KORIDOR-OLCUM-15AGU.md`nin bulduğu **eksik menzil kasabalarının ta kendisi**:
+
+```
+① "yazim farki" 5 : Harput · Lâdik · İzdin · İstefe · Yenişehir
+② "yerlesim YOK" 18: Üsküdar · İshaklı · Ilgın · Karapınar · Ulukışla · Tosya ·
+                     Karahisâr-ı Şarkî · Kelkit · Aşkale · Silivri · Vize ·
+                     Prevadi · Babadağı · İshakçı · Yagodina · Firecik ·
+                     Pravişte · Lanzaka
+                     ───
+                      23   ← BIREBIR
+```
+
+🟢 **Yani borç ÖDENMİŞ:** bir oturum 23 kaydı araştırıp yazmış.
+🔴 **Ama ödeme HİÇ İNMEMİŞ:** dosya `index.html`e bağlanmamış, yani tarayıcı
+bu 23 düğümü **hiç görmüyor.**
+
+**Ölçüldü — erimiş mi diye bakıldı, ERİMEMİŞ:**
+```
+koridor_f5c9a5.js (BAGLI) icinde bu 23'ten kac tanesi var: 0
+⇒ dosya bir KALINTI DEGIL, gercekten KAYIP
+```
+
+### ② ÇIKARDIĞIM
+📌 Bu, `CLAUDE.md §5`in *"bağlanmamış veri dosyası **üç kez** yaşandı: dosya
+diskte durdu, motor okumadı, denetim temiz raporladı"* uyarısının
+**DÖRDÜNCÜ vakası** — ve bu sefer diskte duran şey **kabul edilmiş bir borcun
+ödemesiydi.**
+
+🔴 **Ve bu, kendi raporumdaki bir hükmü de ÇÜRÜTÜYOR.** Yukarıda (§⑤)
+Tatar-Pazarcık için *"`KORIDOR-OLCUM-15AGU`nun 18 eksik menzil kasabası
+bulgusuyla AYNI SINIFTA"* yazmıştım. **Değil:**
+```
+18 menzil kasabasi   YAZILDI, BAGLANMADI   → care: index.html'e BIR SATIR
+Tatar-Pazarcik       HIC YAZILMADI         → care: ARASTIRMA + yeni kayit
+```
+**İki ayrı sınıf, iki ayrı çare** — ve birini öteki sanmak, bir satırlık işi
+araştırma işi sanmak (ya da tersi) demek olurdu.
+
+🔴 **Bir bedeli daha var:** benim eşleşme sayım bu yüzden yanlıştı. Taban
+ayrıştırıcım `data/koridor*.js`in **hepsini** okudu — tarayıcının okumadığını
+da. `41 → 38` düzeltmesi (yukarıda) bundan doğdu.
+📌 `§5`in cümlesi harfiyen: *"ayrıştırıcıyı doğrulamak yetmiyor, hangi
+DOSYALARI okuduğunu da doğrulamak gerekiyor."* Ölçtüm, ve **kendi aletim**
+o tuzağa düşmüştü.
+
+⚠️ **`index.html` koordinatörde — satırı ben eklemedim, bildirdim.**
+
+---
 
 ## Aletler (scratchpad, depoya girmedi)
 ```
