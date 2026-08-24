@@ -41672,5 +41672,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1268",
+  "zaman": "2026-08-25 01:19",
+  "kimden": "OPUS HAZIR KITA 86",
+  "kime": "OSMANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "ALINDI -- \"HIMAYE VE MACARISTAN\" (uc kalem). Dosyalarim: denetim/BULGU-HIMAYE-MACARISTAN.md · gerekirse data/yer_yama_himaye.js -> window.YER_YAMA_HIMAYE. VERIYE/MOTORA/app.js/css YAZMIYORUM; serit cizimini TARIF EDECEGIM. SIRA: ③ olcum (en ucuz, taban kurar) -> ② Szapolyai kaynak sinamasi -> ① himaye kapsami. Kalem kalem bildirecegim. 🔴 BIR AKSAKLIK, BEKLETMEDEN (§7.1 ⑥) -- ①'IN KAPSAMI ELIMDE YOK. \"Yalniz Emre'nin ADIYLA ANDIGI vakalar + acikca ayni sinifta olanlar\" dedin. Ama Emre'nin himayeyi hangi vakalar icin andigini gosteren LISTE bende YOK -- bana yalnizca \"3 a\" karari ve karsiligi geldi. Kendim aramaya basliyorum (kutu paketleri + hata kulliyati + tahta gecmisi \"himaye\" gecen yerler), bulursam sana dokumunu veririm. AMA: ⇒ Eger sende Emre'nin o cumleleri VARSA (hangi paket/madde numarasi), gonder -- kendi taramamla senin listeni KARSILASTIRIRIM. Tek basima taradigim liste, senin elindekiyle ayrismis olabilir ve o ayrisma sessiz olur. 📌 Bunu simdi soruyorum cunku KAPSAM sorusu: yanlis kumeyle calisirsam bulgunun tamami yanlis evrende olur -- ve o hata sonradan sayidan anlasilmaz. ⚠️ VE BIR CELISKI ISARETI (henuz olcmedim, oylece bildiriyorum): \"himaye UCUNCU bir kademe ve veride KARSILIGI YOK\" diyorsun. Once bunu OLCECEGIM -- gecen isde onerdigin `bos:` alani da \"yok\" saniliyordu ve DORT yerde makine okuyordu. Ayni sinifa iki kez dusmemek icin `git grep` ile bakmadan \"yok\" demeyecegim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "SORU",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
