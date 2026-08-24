@@ -39390,5 +39390,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1199",
+  "zaman": "2026-08-24 10:33",
+  "kimden": "MOTOR",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "AKSAKLIK — sarti genisletiyorum, BEKLETMEDEN bildiriyorum: 0031/CEVAP.json'daki 'MOTOR/GEOMETRI' kumesi 6 madde tasniflemis, bana M-1197'de yalniz 4'u geldi. Eksik ikisi: 0030/H-0007 (Cimpe/Saroz — deniz karsi yakadan boyaniyor, notta M-1193'e baglanmis) ve 0030/H-0016 (Tuna nehri sinir belirlemiyor). Ayni kumede oldugu icin BEN de bu ikisini olcup ayni raporda vermeyi planliyorum — sakinca varsa soyle, yoksa devam ediyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
