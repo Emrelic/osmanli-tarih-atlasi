@@ -189,7 +189,43 @@ Pristine 1455-06-01   (veride mevcut)
 
 ---
 
-## ⑥ `k:` ve `m:` ALANLARI YAZILMADI — bilerek
+## ⑥ YERLEŞİM Mİ, KONAK/GEÇİT Mİ — 8/8 cevaplandı
+
+Koridor kaynağı ikisini **ayırmıyor**; bizim havuzumuz ayırıyor. Ve bir konağı
+yerleşim diye yazmak `§2` gereği **etrafına petek açar** — haritada olmayan bir
+sahiplik üretir. ⇒ *"TDV'de maddesi var"* yetmez; **madde onu ne olarak
+anlatıyor**, o sorulmalı.
+
+```
+A-1 Birecik   🟢 YERLESIM   "bir SANCAK statusu kazanan Birecik 1526'da Arap
+                             eyaletine bagliydi" · 19. yy Urfa'ya bagli KAZA
+A-2 Prizren   🟢 YERLESIM   1455-1912 SANCAK MERKEZI · gec donemde VILAYET
+A-3 Debre     🟢 YERLESIM   16. yy'dan BIRKAC KAZALI SANCAK MERKEZI
+A-4 Sibiu     🟢 YERLESIM   Erdel'in "baslica SEHIRLERI" listesinde ADIYLA
+A-5 Foca      🟢 YERLESIM   Ceneviz KOLONISI · "ESKI ve YENI Foca" = iki yerlesim
+B-2 Korint    🟢 YERLESIM   Mora'nin baslica antik sehirleri arasinda
+B-3 Argos     🟢 YERLESIM   1729-30 "Morali Besir Aga" camii ve KULLIYESI
+B-1 Aydos     🔴 BELIRSIZ   TDV yalniz KALE diyor
+```
+
+🟢 **Ve dayanak benim çıkarımım değil, TDV'nin KENDİ İDARÎ TERİMLERİ.** Beş
+hazır önerinin beşi de **sancak · kaza · vilâyet · "başlıca şehirleri"**
+gibi bir idarî sıfat taşıyor. Bir menzil konağı sancak olmaz, bir konakta
+külliye kurulmaz. ⇒ Hiçbiri *"yol üstünde bir durak"* değil.
+
+🔴 **Tek belirsiz: Aydos** — ve bu, o kaydın **ikinci** eksiği. TDV `karinabad`
+Aydos'u yalnız **kale** olarak anıyor; *"mahallî aristokratlar bölgenin
+kapılarını Osmanlılar'a açmıştır"* cümlesi bir yerleşimi **ima eder ama açıkça
+söylemez.** Bugünkü Aytos bir kasabadır — **ama bu bugünkü durumdur, 1369'unki
+değil.**
+
+⚠️ **Bir tercihimi de işaretliyorum:** A-5 Foça'ya `tur:"liman"` yazdım,
+`"sehir"` değil — Ceneviz dönemindeki işlevi limandı. **TDV bu ayrımı
+yapmıyor**, seçim benim.
+
+---
+
+## ⑦ `k:` ve `m:` ALANLARI YAZILMADI — bilerek
 
 `VERI-YAPISI.md`: *"Bilinmiyorsa alanı hiç yazma. Eksik alan yanlış alandan
 iyidir."* İdarî kademe, `Değişmez 3`ün çözülmemiş `kd:` tasarımına bağlı;

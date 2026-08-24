@@ -36,6 +36,17 @@
 //    tahminle doldurmak o borcu buyutur.
 //
 // KAYNAK: her kayitta `dayanak` alani — TDV slug + BIREBIR ALINTI + yazar/cilt.
+//
+// 🔴 `yerlesim_mi` ALANI — "TDV'de maddesi var" YETMEZ
+//    Koridor kaynagi YERLESIM ile KONAK/GECIT'i AYIRMIYOR; bizim havuzumuz
+//    ayiriyor. Ve bir konagi yerlesim diye yazmak §2 geregi ETRAFINA PETEK
+//    ACAR — yani haritada OLMAYAN bir sahiplik uretir.
+//    ⇒ Her kayitta sorulan soru: TDV maddesi burayi bir YERLESIM olarak mi
+//      yoksa bir menzil/gecit/kale olarak mi anlatiyor?
+//    🟢 OLCUM: 5 HAZIR onerinin BESI DE IDARI STATU tasiyor (sancak/kaza/
+//      eyalet merkezi ya da "baslica sehirleri" listesinde). Yani hicbiri
+//      "yol ustunde bir durak" degil — ve bunu TDV'nin KENDI IDARI
+//      TERIMLERI soyluyor, benim cikarimim degil.
 // ═══════════════════════════════════════════════════════════════════════
 
 window.YER_YAMA_OWTRAD = {
@@ -64,6 +75,10 @@ window.YER_YAMA_OWTRAD = {
         "yapıyor. (Halep ve Rakka 1516-08-28 kullanıyor — 4 gün fark var, " +
         "yakın komşu tercih edildi.) Bitiş 1923-10-29: Birecik Urfa'yla birlikte " +
         "Türkiye'de kaldı, Urfa kaydı da 1923-10-29'a kadar gidiyor.",
+      yerlesim_mi: "🟢 YERLEŞİM — ve dayanağı İDARÎ STATÜ. TDV: \"bir sancak " +
+        "statüsü kazanan Birecik 1526'da Arap eyaletine bağlıydı\", 1568-74 " +
+        "sonrası Halep eyaletine, 19. yy'da Urfa'ya bağlı KAZA merkezi. " +
+        "Sancak ve kaza birer İDARÎ BİRİMDİR; bir menzil konağı sancak olmaz.",
       olcmedigim: "TDV'nin andığı Akkoyunlu ara dönemi ÖLÇÜLMEDİ — Urfa kaydı " +
         "1465-1507 akkoyunlu taşıyor, Birecik'inki taşımalı mı bilinmiyor. " +
         "Öneri Cerablus deseniyle (kesintisiz memlük) yazıldı; bu bir " +
@@ -87,6 +102,9 @@ window.YER_YAMA_OWTRAD = {
       gun_secimi: "🔴 BURADA KOMŞU KULLANILMADI, TDV'nin KENDİ GÜNÜ kullanıldı. " +
         "Sebep: TDV hicrî günü veriyor (4 Receb 859), yani gün BİLİNİYOR. " +
         "Bitiş 1912-10-22 komşu Priştine'den alındı (TDV yalnız yıl veriyor).",
+      yerlesim_mi: "🟢 YERLEŞİM — TDV 1455-1912 boyunca SANCAK MERKEZİ diyor, " +
+        "geç dönemde PRİZREN VİLÂYETİ'nin merkezi. Bir vilâyet merkezi, " +
+        "tanım gereği konak/geçit olamaz.",
       uyari: "🔴 YENİ KIRILMA GÜNÜ DOĞUYOR: 1455-06-20. Priştine 1455-06-01 " +
         "kullanıyor — 19 gün fark. Yani bu kayıt `Değişmez 2`ye YENİ bir " +
         "kırılma ekler ve ±30 gün içinde bir kronoloji maddesi ARANMALI. " +
@@ -110,6 +128,9 @@ window.YER_YAMA_OWTRAD = {
         "ardından Yugoslavya'ya geçti.\"",
       gun_secimi: "TDV yalnız '1395' diyor ⇒ 1395-01-01 (§4: gün bilinmiyorsa " +
         "YYYY-01-01). Bitiş 1912-11-29, en yakın komşu Ohri'den (50,6 km).",
+      yerlesim_mi: "🟢 YERLEŞİM — TDV: 16. yy'dan itibaren BİRKAÇ KAZALI " +
+        "SANCAK MERKEZİ; ayrıca \"şehrin ve eski kazanın doğu kısmı\" " +
+        "ifadesi geçiyor. Altında kazalar olan bir merkez, konak değildir.",
       olcmedigim: "🔴 FETRET ALT-DÖNEMLERİ YAZILMADI. Komşuları Ohri ve Üsküp " +
         "1402-1413 için suleyman-celebi / musa-celebi / mehmed-celebi " +
         "alt-dönemleri taşıyor. Debre de taşımalı MI, ölçmedim — TDV bundan " +
@@ -138,6 +159,9 @@ window.YER_YAMA_OWTRAD = {
         "'Brassó (Braşov)' kayıtlarının s:/v: dizileri KARAKTER KARAKTER AYNI " +
         "(1526-09-01 · 1541-08-29 · 1687-08-12 · 1918-11-11). Sibiu ikisiyle " +
         "aynı Erdel'in şehri ve TDV onu başlıca şehirlerden sayıyor.",
+      yerlesim_mi: "🟢 YERLEŞİM — TDV Erdel'in \"başlıca ŞEHİRLERİ\" listesinde " +
+        "ADIYLA sayıyor (Sibiu · Hunedoara · Fagaraş). Bir bölgenin başlıca " +
+        "şehri, yol üstünde bir durak değildir.",
       not: "🟢 LİSTEDEKİ EN GÜÇLÜ ÖNERİ: iki komşu ZATEN aynı deseni taşıyor, " +
         "TDV şehri ADIYLA sayıyor, ve tek bir yeni kırılma günü doğmuyor — " +
         "yani `Değişmez 2` hiç etkilenmiyor."
@@ -166,6 +190,12 @@ window.YER_YAMA_OWTRAD = {
         "kaydından alındı (42,8 km): 1919-05-15 Yunan işgali, 1922-09-09 geri " +
         "alınış. Midilli (1462-09-17) ve Sakız (1566-04-14) da ceneviz→d " +
         "deseni taşıyor, yani desen bölgede yerleşik.",
+      yerlesim_mi: "🟢 YERLEŞİM — TDV `ceneviz` Foça'yı 14. yy Ceneviz " +
+        "KOLONİLERİ arasında sayıyor (Galata · Edremit · İzmir · Sakız · Foça " +
+        "· Midilli ile birlikte) ve \"ESKİ ve YENİ Foça\" diye İKİ yerleşimden " +
+        "söz ediyor. Bir koloni ve şap ticaret merkezi, konak değildir. " +
+        "⚠️ `tur:\"liman\"` seçildi (şehir değil): Foça'nın Ceneviz dönemindeki " +
+        "işlevi limandı. Bu bir TERCİH — TDV bu ayrımı yapmıyor.",
       not: "🟢 Bu kayıt `§4`ün 'dar slug tutmazsa KAPSAYICI maddeyi dene' " +
         "kuralının canlı kazancı: kural olmasaydı `bulunamadı` yazılacaktı ve " +
         "yanlış olacaktı."
@@ -192,6 +222,11 @@ window.YER_YAMA_OWTRAD = {
         "kayıtlı komşu Edirne, 200 km'den uzak ve bambaşka bir tarihi var. " +
         "Aydos'un Osmanlı'dan çıkışı (1878 Berlin? 1885 Şarkî Rumeli?) " +
         "ÖLÇÜLMEDİ.",
+      yerlesim_mi: "🔴 BELİRSİZ — VE BU, EKSİĞİN İKİNCİSİ. TDV `karinabad` " +
+        "Aydos'u yalnız KALE olarak anıyor; \"mahallî aristokratlar bölgenin " +
+        "kapılarını Osmanlılar'a açmıştır\" cümlesi bir yerleşimi de ima eder " +
+        "ama açıkça söylemez. Bugünkü Aytos bir kasabadır — ama bu BUGÜNKÜ " +
+        "durumdur, 1369'unki değil. ⇒ Kale mi, kaleli kasaba mı: ÖLÇÜLMEDİ.",
       hukum: "ÖNERİ YAZILMADI. Bitişsiz bir `d:` dönemi ya 1923'e kadar " +
         "uzatılır (YANLIŞ — Aydos bugün Bulgaristan'da) ya da uydurulur. " +
         "İkisi de kabul edilemez. ⇒ Bulgaristan kuzeydoğusu için AYRI bir " +
@@ -212,6 +247,9 @@ window.YER_YAMA_OWTRAD = {
         "AYRICA söylemiyor; 1395'teki cümle bir davet/nüfuz anlatıyor, fetih " +
         "değil. Komşu Atina 1456-06-04 kullanıyor — 1460'la 4 yıl fark var " +
         "ve hangisinin Korint'e uyduğu ÖLÇÜLMEDİ.",
+      yerlesim_mi: "🟢 YERLEŞİM — TDV `mora` Korinthos'u Mora'nın başlıca " +
+        "ANTİK ŞEHİRLERİ arasında sayıyor (\"Corinth, Sparta, Mantineia, " +
+        "Megalopolis\"). Yerleşim olduğu tartışmasız; eksik olan TARİH.",
       hukum: "ÖNERİ YAZILMADI. 1456 ile 1460 arasından birini seçmek, " +
         "kaynağın söylemediğini söylemek olur."
     },
@@ -228,6 +266,10 @@ window.YER_YAMA_OWTRAD = {
         "1479'da yeniden alındıysa arada Venedik'e geri dönmüş olmalı — ama " +
         "TDV bunu söylemiyor. Bu boşluk yazılmadan kayıt açılırsa " +
         "`Değişmez 1` (sahipsizlik) ya da uydurma bir dönem doğar.",
+      yerlesim_mi: "🟢 YERLEŞİM — TDV `mora` Argos'ta 1729-30'da \"Moralı " +
+        "Beşir Ağa\" camii ve külliyesinin kurulduğunu yazıyor. Külliye " +
+        "kurulan yer bir yerleşimdir; konakta külliye olmaz. " +
+        "Eksik olan TARİH, cins DEĞİL.",
       hukum: "ÖNERİ YAZILMADI. 📌 Not: Argos, en yakın kaydımız Anabolu " +
         "(Nauplion) 9,4 km — 3 km kuralının DIŞINDA ve ikisi GERÇEKTEN AYRI " +
         "şehirdir, yani bu mükerrer değil GERÇEK bir boşluk. Araştırılmayı " +

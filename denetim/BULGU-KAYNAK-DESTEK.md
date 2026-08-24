@@ -101,26 +101,76 @@ sirpsindigi-savasi · ulubat · varna-savasi · zenta-savasi
 
 ### 🟢 Ve kurtarılabilir — *"TDV'de yok"* demek DEĞİL (`§4③`)
 
-18 aday slug denendi, **7'si ilk denemede canlı** çıktı:
-
-| ölü | canlı karşılığı |
-|---|---|
-| `istanbulun-fethi` | `istanbul` |
-| `varna-savasi` | `varna` |
-| `kirim-hanligi` | `kirim` |
-| `zenta-savasi` | `zenta` |
-| `izladi-savasi` | `izladi` |
-| `cumhuriyet` | `turkiye` |
-| `nasuh-pasa-antlasmasi` | `nasuh-pasa` |
+37 adresin tamamı üç eksende arandı:
 
 > 🔴 **YENİ EKSEN** — koordinatörün bulduğu `-muahedesi` ve Türkçe-yazım
 > eksenlerinin yanına: **TDV savaşları çoğunlukla YER ADIYLA tutuyor,
 > `-savasi` ekiyle değil.**
 
-Kalan 11'i (`salankamen` · `sirpsindigi` · `ulubat` · `kosmidion` · `cimpe` ·
-`camurlu` · `preveze` · `kasr-i-sirin` …) ikinci turda aranacak.
+| ölü | canlı karşılığı | | ölü | canlı karşılığı |
+|---|---|---|---|---|
+| `istanbulun-fethi` | `istanbul` | | `belgrad-antlasmalari` | `belgrad` |
+| `varna-savasi` | `varna` | | `bukres-antlasmasi` | `bukres` |
+| `kirim-hanligi` | `kirim` | | `buyuk-taarruz` | `milli-mucadele` |
+| `zenta-savasi` | `zenta` | | `sakarya-meydan-muharebesi` | `milli-mucadele` |
+| `izladi-savasi` | `izladi` | | `cimpe-kalesi` | `gelibolu` |
+| `cumhuriyet` | `turkiye` | | `kirim-savasi` | `kirim` |
+| `nasuh-pasa-antlasmasi` | `nasuh-pasa` | | `reji` | `duyun-i-umumiyye` |
+| `bab-i-ali-baskini` | `babiali` | | `rumeli-hisari` | `rumelihisari` |
+| `balkan-savaslari` | `balkanlar` | | `anadolu-hisari` | `anadoluhisari` |
+| `preveze-deniz-savasi` | `preveze-deniz-muharebesi` | | `edirne-segedin-antlasmasi` | `edirne` |
+| `candarli-halil-hayreddin-pasa` | `candarli-halil-pasa` | | `selimiye-camii-ve-kulliyesi` | `edirne` |
+| **`derbend`** | **`derbend--dagistan`** | | `kutsal-ittifak` | `viyana` |
+| **`hasimiler`** | **`hasim-beni-hasim`** | | | |
 
-📌 Bu sınıf **gövde okumadan** kapatılabilir — ucuz ve kesin.
+📌 `derbend` `CLAUDE.md §4`te *"ölü"* diye kayıtlıydı ve **karşılığı
+yazılı değildi** — `derbend--dagistan` bu turda bulundu, `hurmuz` →
+`hurmuz--iran` deseninin aynısı.
+
+### 🔴 Ve asıl sayı: **adres düzelince kaynak kaydı destekliyor mu?**
+
+```
+37 ölü adres
+├─ canlı karşılığı BULUNAN     25
+│   ├─ DESTEKLİ                23 çift   ✓ gerçekten kapandı
+│   └─ HÂLÂ DESTEKLEMİYOR       4 çift   🔴 A sınıfından B/C'ye GEÇER
+└─ BULUNAMAYAN                 12
+```
+
+Hâlâ desteklemeyen dört: `anadoluhisari` 1395 · `edirne` 1444 ·
+`edirne` 1575 · `viyana` 1684.
+
+> ⚠️ **Bu dört kalem, bütün denetimin gerekçesidir.** Adresi düzeltip
+> içeriği sınamasaydık, **görünür bir kusuru görünmez bir kusura**
+> çevirmiş olurduk: `kaynak:` alanı canlı bir adres gösterecek, denetim
+> temiz diyecek, ve kayıt yine dayanaksız kalacaktı.
+
+### ⚠️ Ve arama turu iki SAHTE buluş üretti — ikisini de okumak yakaladı
+
+TDV'nin arama ucu (`/arama/?q=`) sonuçları **JS ile** yüklüyor; `curl`
+yalnız gezinti bağlantıları görüyor. Üretilen üç aday şöyle çürüdü:
+
+```
+cildir-savasi  -> `sergi-arsivi`   bir madde DEĞİL, gezinti sayfası
+ozi            -> `ozice`          "ÖZİÇE" = Užice (Sırbistan), Özi DEĞİL
+mesaleler-savasi -> `mesale`       "MEŞ'ALE" = kandil/meşale maddesi,
+                                   Meşaleler Savaşı (1583) DEĞİL — §4②
+```
+
+📌 Üçünü de **otomatik anahtar-kelime koruyucum geçirdi**, okumak yakaladı.
+Üçüncüsü en öğreticisi: `§4②` tuzağına **onu düzeltmek için yazılmış
+aracın kendisi** düştü.
+
+### Bulunamayan 12 — hüküm *"TDV'de yok"* değil, *"arandı, bulunamadı"*
+
+`camurlu-savasi` · `cildir-savasi` · `duzmece-mustafa` ·
+`ferhad-pasa-antlasmasi` · `kasr-i-sirin-antlasmasi` · `kosmidion` ·
+`mesaleler-savasi` · `ozdemiroglu-osman-pasa` · `ozi` · `salankamen-savasi` ·
+`sirpsindigi-savasi` · `ulubat`
+
+📌 `ferhad-pasa-antlasmasi` için `CLAUDE.md §4` zaten *"TDV'de müstakil
+maddesi yok, adı 'İstanbul antlaşması' olarak geçiyor"* diyor — yani bu
+biri **kayıtlı borç**, yeni bulgu değil.
 
 ---
 
@@ -166,6 +216,47 @@ Kalan 11'i (`salankamen` · `sirpsindigi` · `ulubat` · `kosmidion` · `cimpe` 
 
 | `anabolu` 1822-12-12 | Nauplion 30 Kasım 1822 (Julyen) = **12 Aralık 1822** (Gregoryen) düştü; kayıt takvim çevirisini doğru yapmış ve **TDV'den hassas**. Ama TDV *"1823'te … Kolokotranis tarafından işgal edildi"* diyor. Kaydı tutmak **TDV'yi çürütmek** demek (`§4`: *"çelişirse TDV esastır"*). Akademik ikinci dayanak aranmalı mı, yoksa TDV'ye mi uyulmalı? |
 |---|---|
+
+---
+
+## 4.5 C SINIFININ TARANMASI — "susuyor" NİÇİN susuyor?
+
+TDV'nin bir yılı vermemesinin **iki apayrı sebebi** var ve **çareleri ters**:
+
+```
+① TANECİKLİK   madde DOĞRU, olayı anlatıyor ama YILI vermiyor  -> kusur YOK
+② YANLIŞ OLAY  madde doğru bir madde ama OLAY ORADA DEĞİL      -> kusur VAR
+```
+
+Ayırt edici sınav: **kaydın öznesi (yer/kişi adı) gövdede geçiyor mu?**
+27 kalemin tamamına uygulandı → **① 25 · ② 2**.
+
+### 🔴 Ve triyaj aracı ilk koşusunda 3 meşru kaydı kusur gösterdi
+
+```
+lahsa 1550 · lahsa 1670 · mustafa-i 1603 · sikke 1844
+```
+`lahsa` maddesinde *"Lahsa"* geçmiyor göründü — çünkü TDV **"Lahsâ"**
+yazıyor. **Şapkalı harf**, düz dizgi karşılaştırmasında yanlış negatif
+üretiyor, ve o negatif *"madde bu konudan bahsetmiyor"* diye okunuyor.
+Normalleştirme eklendi, **② 5 → 2** oldu.
+
+> 📌 Bu, `§5` ve `§6`daki iki alet kusurunun **üçüncüsü**: aynı gün, aynı
+> oturum, üç ayrı araç, üçü de **meşru veriyi kusur** ya da **kusuru meşru**
+> gösteriyordu. Ortak sebep tek: **ölçüm doğru, evren dar.**
+
+### ⚠️ Ve triyajın ① kovası bir aklanma belgesi DEĞİL
+
+`aden` 1884 triyajda **①**e düşüyor (*"Somali"* ve *"İngiliz"* gövdede var)
+— ama okununca **gerçek kusur** çıktı: kayıt **Zeyla**'yı anlatıyor,
+`aden` maddesi Aden şehrini. ⇒ Triyaj sırayı belirler, **hükmü belirlemez**.
+
+### 🔴 ② kovasının ikisi de okundu — ikisi de gerçek kusur
+
+| kayıt | ölçüm | hüküm |
+|---|---|---|
+| `mevlay-ismail` **1614** | Mevlây İsmâil **1672-1727** hüküm sürdü. Maddedeki İspanyol kalemleri 1681 · 1684 · 1689. `1614` gövdede **hiç geçmiyor** | 🔴 **En net vaka.** Kaynağın **öznesi kayıttan 58 yıl SONRA** doğuyor. Yıl eksikliği değil, **anakronizm** |
+| `sakiz-adasi` **1521** | Kayıt **Nikarya**'yı (Ikaria) anlatıyor; `Nikarya`/`Ikaria` gövdede **0 geçiş**. Madde Sakız'ın 1566'da Piyâle Paşa'ca alındığını söylüyor | 🔴 Ikaria için **yanlış madde**; üstelik kayıt Osmanlı Sakız'ından (1566) **45 yıl önce** |
 
 ---
 
