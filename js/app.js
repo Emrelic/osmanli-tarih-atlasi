@@ -2536,7 +2536,19 @@ var seferler = (window.SEFERLER || []).concat(isyanYayilmaUret()).map(function (
   // `isyanYayilmaUret()` fi/ti'yi hazır veriyor (SAVASLAR'ın kendi `sure`si
   // üstünden); window.SEFERLER hâlâ f/t METİN tarihinden hesaplatıyor.
   var fi = s.fi !== undefined ? s.fi : gunIdx(s.f);
-  var ti = s.fi !== undefined ? s.ti : gunIdx(s.t) + 45;
+  // 🔴 24 Ağustos 2026 — `+ 45` KALDIRILDI (0031/H-0012).
+  // Emre: *"Timur'un İzmir seferi BİR SONRAKİ MADDEDE kesikli çizgi ile
+  // betimlenmiş; bu çizgiyi AİT OLDUĞU KRONOLOJİ MADDESİYLE senkronize
+  // etmeli."* Kök sebebi TİMUR SEFERLERİ oturumu buldu: her çizgi kendi
+  // `t`sinden 45 gün daha ekranda kalıyordu — İzmir seferi 1402-12-14'te
+  // biter, çizgi ~1403-01-28'e kadar durup ardındaki maddelere taşardı.
+  // 61 SEFERLER kaydının HEPSİNİ etkiliyordu.
+  // 📌 Ve bu sayı, aşağıdaki `_fiKirpik` yorumunun MAHKÛM ETTİĞİ şeyin
+  //    ta kendisiydi: *"sabit bir gün tavanı (180 gibi) koysaydık O
+  //    SAYIYI SAVUNAMAZDIK."* Yorum yazılmış, kardeş satır düzeltilmemiş.
+  //    ⇒ Bir düzeltme, aynı kusurun BÜTÜN dallarında aranmalı — bugün
+  //      bu dersin ikinci vakası (ilki `_varista`nın konumsuz dalı).
+  var ti = s.fi !== undefined ? s.ti : gunIdx(s.t);
   return { fi: fi, ti: ti, ad: s.ad, yol: s.yol,
            // sonuc lejant için de lazım: rozet ancak sahnede o sonuçtan bir ok
            // varsa açıklanır (md.4.3 — açıklanmayan simge kalabalıktır).
@@ -2589,7 +2601,24 @@ function seferGuncelle(t) {
         if (isFinite(oncekiOlay)) m._fiKirpik = Math.max(m.fi, oncekiOlay);
       } catch (e) { /* olaylar hazır değil — kırpma yok, eski davranış */ }
     }
-    var aktif = m._fiKirpik <= t && t < m.ti;
+    // 🔴 VE SONU DA ÇAPASINA KIRPILIR — yukarıdaki kuralın ÖTEKİ UCU.
+    // Ok, `t`sinden SONRAKİ İLK OLAYA kadar görünür; o olaya gelince
+    // düşer. Sayı uydurulmuyor, KRONOLOJİDEN türüyor:
+    //     _fiKirpik : çapadan ÖNCEKİ olay       (baş — 23 Ağustos)
+    //     _tiKirpik : `t`den SONRAKİ ilk olay   (son — 24 Ağustos)
+    // Sonraki olay yoksa (külliyatın sonu) `m.ti` olduğu gibi kalır.
+    if (m._tiKirpik === undefined) {
+      m._tiKirpik = m.ti;
+      try {
+        var sonraki = Infinity;
+        for (var si = 0; si < olaylar.length; si++) {
+          if (olaylar[si].gi > m.ti && olaylar[si].gi < sonraki)
+            sonraki = olaylar[si].gi;
+        }
+        if (isFinite(sonraki)) m._tiKirpik = sonraki;
+      } catch (e2) { /* olaylar hazır değil — kırpma yok, eski davranış */ }
+    }
+    var aktif = m._fiKirpik <= t && t < m._tiKirpik;
     if (aktif) {
       cizgiler.push({ type: "Feature", properties: { renk: m.renk, tur: m.tur },
                       geometry: { type: "LineString", coordinates: m.yol } });
@@ -5168,19 +5197,40 @@ document.addEventListener("fullscreenchange", function () {
 // ⇒ Tek zincir: genis -> dar -> kapali -> genis. Anlamsiz bilesim artik
 //   URETILEMEZ; iki durumun carpimi yerine uc noktali bir dongu var.
 //
-// ETIKET — bu dosyadaki kuraldan KASITLI sapma:
-//   Yazili kural "metin TIKLAYINCA GIDILECEK kipi yazar" der ve IKI
-//   durumda dogrudur (tek alternatif vardir, belirsizlik yok). UC
-//   durumda "Dar" yazan bir dugme "su an dar mi" "dar yapar mi" belli
-//   degildir. Bu yuzden uc kademede etiket BULUNULAN hali yazar —
-//   Emre'nin kendi ifadesi de oyle: "GENIS DAR KAPALI SEKLINDE
-//   ISIMLENDIRILEREK".
+// ETIKET — 🔴 24 Agustos 2026'da DEGISTI (0031/H-0006, Emre'nin hukmu).
+//
+// ESKI HALI ve gerekcesi (kayit icin duruyor, cunku itiraz HAKLIYDI):
+//   "Yazili kural 'metin TIKLAYINCA GIDILECEK kipi yazar' der ve IKI
+//    durumda dogrudur (tek alternatif vardir, belirsizlik yok). UC
+//    durumda 'Dar' yazan bir dugme 'su an dar mi' 'dar yapar mi' belli
+//    degildir. Bu yuzden uc kademede etiket BULUNULAN hali yazar."
+// O gerekce 0027/H-0012'den geliyordu ve kendi baglaminda dogruydu.
+//
+// 🔴 AMA 0031/H-0006 TERSINI ISTEDI ve Emre hukmu verdi: "gidecegi".
+// Iki paket birbirinin tersini soyluyordu; ikisi ayni anda dogru olamaz.
+// Karar kendi basima ALINMADI — celiski Emre'ye goturuldu, cevabi
+// "1-gidecegi" oldu.
+//
+// 🟢 VE BELIRSIZLIK GERI GETIRILMEDI — cozum FIIL:
+//   Bir durum adi ("Dar") iki turlu okunur; bir FIIL ("Daralt") tek
+//   turlu okunur, cunku fiil zaten bir EYLEM soyler ve eylemin sonucu
+//   hedef kademedir. Boylece hem Emre'nin hukmu (gidecegi durum) hem
+//   eski itirazin korudugu sey (uc kademede belirsizlik olmasin)
+//   AYNI ANDA saglaniyor.
+//   ⇒ Etiket hedefi ADIYLA degil SONUCUYLA soyluyor:
+//        genis  -> "Daralt"    (tiklayinca dar olur)
+//        dar    -> "Kapat"     (tiklayinca kapanir)
+//        kapali -> "Genislet"  (tiklayinca genis olur)
+// 📌 `title` zaten hedefi yaziyordu ("tikla, DAR olsun") — yani veri
+//    dogruydu, gorunen metin ondan AYRISIYORDU. Simdi ikisi ayni seyi
+//    soyluyor; bir bilginin iki yerde AYRI durmasi bu projede defalarca
+//    bayatlama uretti.
 var PANEL_KADEMELER = ["genis", "dar", "kapali"];
-var PANEL_ETIKET = { genis: "⇥ Genis", dar: "⇥ Dar", kapali: "⇤ Kapali" };
+var PANEL_ETIKET = { genis: "⇥ Daralt", dar: "⇤ Kapat", kapali: "⇥ Genislet" };
 var PANEL_BASLIK = {
-  genis: "Panel: genis — tikla, DAR olsun",
-  dar: "Panel: dar — tikla, KAPANSIN",
-  kapali: "Panel: kapali — tikla, GENIS olsun"
+  genis: "Panel genis — tikla, DARALSIN",
+  dar: "Panel dar — tikla, KAPANSIN",
+  kapali: "Panel kapali — tikla, GENISLESIN"
 };
 var btnPanel = document.getElementById("btn-panel");
 
@@ -5433,6 +5483,16 @@ function haritayiOlayaGotur(o, zorla) {
       if (obYerYokEl) {
         obYerYokEl.textContent = "📍 Bu olayın haritada nokta yeri işaretlenmemiş — harita yerinde kaldı.";
       }
+      // 🔴 24 Ağustos — bu dal da SESSİZDİ ve aynı hükme tâbi (0031 →
+      // "panel"). Konumu işaretlenmemiş bir maddede kamera KASTEN
+      // yerinde kalıyor; kırpma da atmazsa hiçbir sinyal kalmıyordu.
+      // ⚠️ İki sessiz dal vardı; biri düzeltilip öteki bırakılsaydı,
+      //    kusur "düzeldi" sanılıp öteki daldan geri dönerdi — bu
+      //    dosyada yazılı ders: *bir düzeltme, aynı kusurun BÜTÜN
+      //    dallarında aranmalı.*
+      var _kirptiNY = false;
+      try { _kirptiNY = oncesiSonrasiKirp(o.gi); } catch (eKirp2) { }
+      if (!_kirptiNY) panelSinyali();
       return;
     }
     var di = donemBul(o.gi);
@@ -5511,16 +5571,34 @@ function haritayiOlayaGotur(o, zorla) {
       // ⇒ Toprak da değişmiyorsa (bir ayaklanma gibi) harita yine sessiz
       //   kalır. O sessizlik DOĞRUDUR ama kullanıcı onu "atlandı" diye
       //   okuyor; o bir TASARIM sorusu ve Emre'ye soruldu.
-      try { oncesiSonrasiKirp(o.gi); } catch (eKirp) { /* harita hazır değil */ }
+      // 🔴 24 Ağustos — Emre'nin hükmü uygulandı (0031 SESSİZ ADIM → "panel").
+      // Kırpma ATEŞLERSE harita zaten konuşuyor; ATEŞLEMEZSE bu adım
+      // tamamen sessiz kalırdı ve Emre onu "pas geçildi" diye okuyordu.
+      var _kirptiIG = false;
+      try { _kirptiIG = oncesiSonrasiKirp(o.gi); } catch (eKirp) { }
       if (obYerYokEl) obYerYokEl.textContent = "📍 Bu olayın haritada nokta yeri yok — imparatorluk görünümüne geçildi.";
+      if (!_kirptiIG) panelSinyali();
     } else if (obYerYokEl) {
       obYerYokEl.textContent = "📍 Bu olayın haritada yeri işaretlenmemiş.";
     }
+    panelCarp();                        // konumsuz da olsa ADIM ATILDI
     return;
   }
   if (obYerYokEl) obYerYokEl.textContent = "";
   var konumAnahtari = hedef.lat.toFixed(3) + "," + hedef.lon.toFixed(3);
-  if (konumAnahtari === sonUcusKonumAnahtari) return;   // §⑧④(b) — zaten oradayız
+  // 🔴🔴 ÜÇÜNCÜ SESSİZ DAL — 24 Ağustos 2026'da bulundu (0032/H-0004).
+  // Emre: *"ARZİLA … maddesinde YUVARLAK SİMGE YANIP SÖNEN YANMIYOR.
+  // kullanıcının olay mahalini …"*
+  // Bu satır "zaten oradayız" deyip dönüyordu — ama `_varista()`
+  // ÇAĞIRMADAN. Arka arkaya AYNI YERDE geçen iki maddede ikincisinde ne
+  // işaret yanıyordu, ne kırpma oluyordu, ne panel çarpıyordu.
+  // 📌 Aynı kökün ÜÇÜNCÜ dalı: ① konumsuz dal ② imparatorluk dalı
+  //    ③ burası. Dersin kendisi zaten yazılıydı — *"bir düzeltme, aynı
+  //    kusurun BÜTÜN dallarında aranmalı"* — ve iki kez uygulanıp
+  //    üçüncüde yine atlanmıştı. Bu sefer dallar SAYILDI.
+  // ⚠️ Kamera yine oynamıyor (doğrusu bu — zaten oradayız); değişen tek
+  //    şey, varışın İŞLENMESİ.
+  if (konumAnahtari === sonUcusKonumAnahtari) { _varista(); return; }
   sonUcusKonumAnahtari = konumAnahtari;
 
   var simdi = performance.now();
@@ -5570,6 +5648,7 @@ function haritayiOlayaGotur(o, zorla) {
   function _varista() {
     isaretYanipSon(hedef);              // NEREDE olduğunu söyler
     oncesiSonrasiKirp(o.gi);            // NE OLDUĞUNU söyler
+    panelCarp();                        // ADIM ATILDIĞINI söyler
   }
 
   if (_ekrandaMi(hedef, _kap) &&
@@ -6062,6 +6141,26 @@ function _ekrandaMi(hedef, kap) {
 // işaretlerini yakıp söndürmek onların kendi yaşam döngüsüne karışırdı
 // (`savasGuncelle` çakışma elemesi yapıyor, elenen bir işareti yakmak
 // görünmeyen bir şeyi yakmak olurdu).
+// 🔴 PANEL ÇARPMASI — Emre'nin hükmü "2-panel" (24 Ağustos 2026).
+// Bazı olayların haritada karşılığı YOKTUR: ne noktası vardır, ne o gün
+// toprak değiştirir. Harita haklı olarak sessiz kalır ve kullanıcı onu
+// *"haritada yaprak kıpırdamıyor"* diye okur. Sinyal HARİTAYA değil
+// PANELE konuyor — olmayan bir yeri işaret etmek, hiç işaret etmemekten
+// kötüdür.
+// ⚠️ `void offsetWidth` ŞART: aynı sınıfı tekrar eklemek animasyonu
+//    YENİDEN BAŞLATMAZ; tarayıcı "zaten o sınıf vardı" der ve arka
+//    arkaya gelen iki maddede ikincisi sessiz kalırdı — yani düzeltmenin
+//    kendisi, düzeltmeye çalıştığı kusuru üretirdi.
+function panelCarp() {
+  try {
+    var el = document.getElementById("olay-bilgi");
+    if (!el || el.classList.contains("gizli")) return;
+    el.classList.remove("carpti");
+    void el.offsetWidth;                       // akışı zorla — bkz. yukarı
+    el.classList.add("carpti");
+  } catch (e) { /* panel yok — sessiz geç */ }
+}
+
 var _yanipSonEl = null, _yanipSonZaman = null;
 function isaretYanipSon(hedef) {
   try {
@@ -6170,17 +6269,25 @@ function kirpmayiDurdur() {
 
 // `gun` — olayın günü (gün numarası). `once` onun bir GÜN öncesidir:
 // atlas gün hassasiyetinde olduğu için "olaydan hemen önceki hâl" budur.
+// 🔴 24 Ağustos 2026 — ARTIK BOOLEAN DÖNÜYOR: `true` = kırpma başladı.
+// Sebebi Emre'nin hükmü (0031 SESSİZ ADIM → "panel"): kamera oynamayan
+// VE kırpma da atmayan bir adımda panelde sinyal yanacak. Bunu bilmenin
+// tek yolu kırpmanın ATEŞLEYİP ateşlemediğini SORMAK — eskiden bu
+// fonksiyon sessizce dönüyordu ve çağıran taraf hiçbir şey öğrenmiyordu.
+// 📌 Bu projede yazılı olan dersin ta kendisi: *"aletin BASMADIĞI ≠
+//    ölçtüğü"* — sessiz atlama, yanlış sonuçtan daha zor bulunur, çünkü
+//    yanlış sonuç bir sayı gösterir, sessiz atlama HİÇBİR ŞEY göstermez.
 function oncesiSonrasiKirp(gun) {
   kirpmayiDurdur();
-  if (!haritaHazir) return;
-  if (!_kirpmaAcik()) return;
+  if (!haritaHazir) return false;
+  if (!_kirpmaAcik()) return false;
   var once = gun - 1;
-  if (once < BASLANGIC) return;
+  if (once < BASLANGIC) return false;
 
   // DEĞİŞİM VAR MI — yoksa hiç başlama
   var oIdx = donemBul(once), gIdx = donemBul(gun);
   var oIm = _yabanciImza(once), gIm = _yabanciImza(gun);
-  if (oIdx === gIdx && oIm === gIm) return;      // sessiz gün — kırpma YOK
+  if (oIdx === gIdx && oIm === gIm) return false;   // sessiz gün — kırpma YOK
 
   // 🔴 22 Ağustos — BİRİM DEĞİŞTİ, Emre: *"göz kırpma özelliği 1 SANİYE
   // sürsün."* Eskiden ayar "her hâl kaç ms" idi ve toplam süreyi kullanıcı
@@ -6232,6 +6339,50 @@ function oncesiSonrasiKirp(gun) {
       }
     }, i * ms));
   });
+  return true;                                   // kırpma GERÇEKTEN başladı
+}
+
+// 🔴 PANEL SİNYALİ — Emre'nin hükmü, 0031 SESSİZ ADIM: *"panel"*.
+//
+// SORUN (ölçüldü, yayındaki sitede, Emre'nin adıyla andığı vakada):
+//     165 Devşirme sistemi    konum YOK → işaret yanmadı
+//     166 Düzmece Mustafa     konum YOK → işaret yanmadı · kamera DURDU
+//     167 Cüneyd Bey          konum VAR → işaret yandı ✓
+// 166'da harita HİÇBİR ŞEY yapmıyordu. Emre: *"pas geçiliyor."*
+//
+// ÜÇ ŞIK SUNULDU, EMRE (a)'YI SEÇTİ:
+//   (a) sinyal HARİTADA değil PANELDE yansın        ← seçilen
+//   (b) bu maddelere yer_id verelim — harita oynar ama YER UYDURURUZ
+//   (c) olduğu gibi kalsın
+// ⇒ Gerekçe: bir ayaklanmanın haritada karşılığı YOKTUR ve haritayı
+//   konuşturmak YALAN olur; ama adımın kaybolması da kabul edilemez.
+//   Panel, "bir şey oldu" demenin yalan söylemeyen yeridir.
+//
+// ⚠️ YALNIZ GERÇEKTEN SESSİZ ADIMDA ÇAĞRILIR. Her maddede çağrılsaydı
+//    gürültü olurdu ve gürültü, sinyalin kendisini öldürür.
+var _panelSinyalZaman = null;
+function panelSinyali() {
+  try {
+    // ⚠️ HEDEF KİMLİKLE DEĞİL, AKRABALIKLA SEÇİLİYOR — ve bu kasıtlı.
+    // İlk yazışta `olay-detay` id'si kullanılmıştı; ölçüldü ve o eleman
+    // BAŞKA bir kapsayıcı (index.html:598, `class="gizli"` ile açılıyor),
+    // oysa mesajın yazıldığı kart `ob-*` kardeşlerinin içinde (satır 308).
+    // Gizli bir elemanı yakmak, HİÇ yakmamakla aynı şeydir — ve hiçbir
+    // hata vermez, yani sessizce kaybolurdu.
+    // ⇒ Sinyal, mesajın YAZILDIĞI elemanın kapsayıcısına konuyor: mesaj
+    //   görünüyorsa sinyal de görünür. Bu bağ, id'lerin yeniden
+    //   adlandırılmasından da etkilenmez.
+    var k = (obYerYokEl && obYerYokEl.parentElement) || obYerYokEl;
+    if (!k) return;
+    if (_panelSinyalZaman) { clearTimeout(_panelSinyalZaman); }
+    k.classList.remove("panel-sinyal");
+    void k.offsetWidth;                 // reflow — sınıf yeniden takılsın
+    k.classList.add("panel-sinyal");
+    _panelSinyalZaman = setTimeout(function () {
+      k.classList.remove("panel-sinyal");
+      _panelSinyalZaman = null;
+    }, 1100);
+  } catch (e) { /* panel yok — sessiz geç */ }
 }
 
 function _kirpmaAcik() {

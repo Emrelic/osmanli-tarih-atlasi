@@ -1182,6 +1182,39 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
   margin-top: 4px;
 }
 #ob-yer-yok:empty { display: none; }
+
+/* 🔴 PANEL SİNYALİ — Emre'nin hükmü, 24 Ağustos 2026 (0031 SESSİZ ADIM).
+   Emre: *"düzmece mustafa ayaklanması diyor kronolojide … pas geçiliyor"*
+   ve kararı: sinyal HARİTADA değil PANELDE yansın.
+
+   NİÇİN BURADA: bir ayaklanmanın ya da bir kanun maddesinin haritada
+   karşılığı YOKTUR. Haritayı konuşturmak (sahte bir nokta yakmak ya da
+   uydurma bir yer_id vermek) YALAN olurdu; ama adımın hiç iz bırakmaması
+   da kabul edilemez — kullanıcı onu "atlandı" diye okuyor.
+   ⇒ Panel, "bir şey oldu" demenin YALAN SÖYLEMEYEN yeridir.
+
+   ⚠️ BİÇİM KASITLI OLARAK SAKİN: kenardan içeri akan bir vurgu, yanıp
+   sönen bir renk DEĞİL. Harita kırpması zaten "yanıp sönme" dilini
+   kullanıyor; panel aynı dili konuşsaydı ikisi karışır ve kullanıcı
+   hangisinin ne dediğini ayırt edemezdi. İki ayrı şey, iki ayrı dil.
+   📌 Süre 950 ms; `js/app.js` sınıfı 1100 ms sonra kaldırıyor. İki sayı
+   iki yerde ama biri ÖTEKİNDEN BÜYÜK olmak zorunda, EŞİT değil — bu
+   yüzden bayatlama riski yok (`odak-parlama`da aynı desen ve gerekçesi
+   orada da yazılı). */
+@keyframes panelSinyal {
+  0%   { background: rgba(255, 215, 0, 0.00); }
+  18%  { background: rgba(255, 215, 0, 0.16); }
+  100% { background: rgba(255, 215, 0, 0.00); }
+}
+.panel-sinyal {
+  animation: panelSinyal 0.95s ease-out 1;
+  border-radius: 4px;
+}
+@media (prefers-reduced-motion: reduce) {
+  /* Hareket istemeyene sabit bir iz bırakılır — sinyal KAYBOLMAZ,
+     yalnız hareketsiz anlatılır. */
+  .panel-sinyal { animation: none; box-shadow: inset 3px 0 0 var(--altin); }
+}
 /* ARAYÜZ AYNI GÜN — "bu günde N olay var" şeridi + kardeş pilleri.
    K1/K2/K3 (§ARAYUZ-AYNI-GUN.md): boşken :empty ile yer kaplamaz, metin
    SAYIYI önce söyler, pil tıklaması tarihAyarla+obGoster+haritayiOlayaGotur
@@ -1816,6 +1849,37 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
    1250 ms sonra kaldırıyor; 2 × 550 ms = 1100 ms + pay. İki sayı iki
    yerde duruyor ama biri ÖTEKİNDEN BÜYÜK olmak zorunda, eşit değil —
    bu yüzden bayatlama riski yok, yorumda gerekçesi yazılı. */
+/* 🔴 PANEL ÇARPMASI — Emre'nin hükmü, 24 Ağustos 2026 (0031/H-0006 ·
+   H-0018 · H-0020 · 0030/H-0005 · 0032/H-0004 · 0034/H-0009).
+   Emre'nin cevabı tek kelimeydi: *"2-panel"*.
+
+   SORUN: bazı olayların haritada gösterilecek bir karşılığı YOKTUR —
+   ne noktası vardır (Düzmece Mustafa ayaklanması), ne o gün toprak
+   değiştirir. Harita haklı olarak sessiz kalır; ama kullanıcı o
+   sessizliği *"madde atlandı"* diye okur. Emre birebir böyle yazdı:
+   *"haritada yaprak kıpırdamıyor."*
+
+   ⚠️ VE ÇARE HARİTADA ARANMADI — KASITLI. Olmayan bir yeri işaret
+   etmek, hiç işaret etmemekten kötüdür: harita yalan söylemiş olurdu.
+   ⇒ Sinyal PANELE kondu. Panel zaten *"şu an bu maddedesin"* diyen
+     yerdir; adımın gerçekleştiğini söylemek onun işidir.
+
+   BİÇİM — göz kırpmadan AYIRT EDİLEBİLİR olmalı:
+     harita kırpması  toprağın ÖNCESİ/SONRASI — "NE oldu"
+     yuvarlak işaret  olayın noktası          — "NEREDE oldu"
+     panel çarpması   YENİ MADDE              — "ADIM ATILDI"     ← bu
+   Üçü üç ayrı şey söylüyor, o yüzden üçü ayrı görünüyor: kırpma
+   haritayı değiştirir, işaret altın bir halkadır, bu ise panelin kendi
+   kenarında soldan sağa geçen bir vurgudur. */
+@keyframes panelCarp {
+  0%   { box-shadow: inset 3px 0 0 0 var(--altin), 0 0 0 0 rgba(255, 215, 0, 0); }
+  35%  { box-shadow: inset 3px 0 0 0 var(--altin), 0 0 10px 2px rgba(255, 215, 0, 0.38); }
+  100% { box-shadow: inset 0 0 0 0 rgba(255, 215, 0, 0), 0 0 0 0 rgba(255, 215, 0, 0); }
+}
+/* ⚠️ Tek çevrim: bu bir VURGU, bir alarm değil. İki çevrim yapılsaydı
+   göz kırpmayla karışırdı — o zaten iki çevrim (`odakParla ... 2`). */
+#olay-bilgi.carpti { animation: panelCarp 0.75s ease-out 1; }
+
 @keyframes odakParla {
   0%   { transform: scale(0.55); opacity: 0.15; }
   45%  { transform: scale(1.35); opacity: 0.95; }
