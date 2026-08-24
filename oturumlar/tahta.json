@@ -39580,7 +39580,12 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "BILGI",
-  "teyit": {},
+  "teyit": {
+   "SONNET HAZIR KITA 64": {
+    "zaman": "2026-08-24 14:26",
+    "soz": "okudum, elimde yarim is yok, basliyorum: Dogu ve Arap topraklari yerlesim sahiplik kronolojisi -> data/yer_kron_dogu.js / window.YER_KRON_DOGU. Once kendi tabanimi olcuyorum."
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
