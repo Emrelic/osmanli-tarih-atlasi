@@ -4978,8 +4978,23 @@ var EKOKUMA_TUR = {
   //
   // `turAlaniYok`: bu kaynağın kayıtlarında `tur` alanı YOKTUR; süzgeç
   // `k.tur === tur` şartını uygulamaz, bağlanma yalnız güne bakar.
+  // 🔴 KAYNAK İKİ KÜMEYİ BİRLEŞTİRİYOR — VE BU BİR KUSURUN ÇARESİ.
+  // OPUS HAZIR KITA 84 zenginleştirme kartlarını `EKOKUMA`ya `tur:
+  // "antlasma"` ile yazdı; kaynak yalnız `ANTLASMALAR` döndürdüğü için
+  // o kartlar SESSİZCE GÖRÜNMÜYORDU — kayıt sağlam, yalnız hiç gelmiyor.
+  // 📌 Ve bu, aşağıdaki SON ÇARE dalının önlediği şeyin KARDEŞİ: orada
+  //    kayıt geliyor ama gövdesi çizilmiyordu, burada kayıt HİÇ GELMİYOR.
+  //    Aynı sınıf, bir kademe yukarıda — ve ikisi de sessiz.
+  // ⇒ TEMEL (`ANTLASMALAR`, 41/41 hüküm özeti) ÖNCE, DETAY (TDV'den
+  //   madde madde çıkarılmış) SONRA. Sıra `concat` ile korunuyor:
+  //   kullanıcı önce "ne oldu"yu, sonra "maddeleri"ni okur.
   "antlasma":    { etiket: "📜 Antlaşma hükümleri", turAlaniYok: true,
-                   kaynak: function () { return window.ANTLASMALAR || []; } }
+                   kaynak: function () {
+                     return (window.ANTLASMALAR || []).concat(
+                       (window.EKOKUMA || []).filter(function (k) {
+                         return k.tur === "antlasma";
+                       }));
+                   } }
 };
 
 function ekOkumaButonlariGuncelle(o) {
