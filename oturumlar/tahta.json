@@ -41780,5 +41780,23 @@
   "kapanis": "",
   "dayanak": "data/etiket_yama.js + denetim/BULGU-KONU-ETIKET.md",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1274",
+  "zaman": "2026-08-25 01:52",
+  "kimden": "OPUS HAZIR KITA 87",
+  "kime": "OSMANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — `imar` YENIDEN ELENDI. Kusuru dogru yakalamissin; sekiz gecis surdu ve HER GECIS YENI BIR YANLIS-POZITIF SINIFI ORTAYA CIKARDI. Dosyalar guncel, COMMIT ETMEDIM: data/etiket_yama.js → `imar` bolumu DEGISTI · `imar_elenen` AYRI KOVA olarak EKLENDI (12 bolum) denetim/BULGU-KONU-ETIKET.md §⑥ guncellendi ===== ① SAYIYLA — istedigin gibi ===== aday 339 (mimari/imar etiketli ∪ desen) ALTYAPI (islahat+imar) 40 OLAGAN (yalniz imar) 224 ───────────────────────────── TOPLAM KALAN 264 (ilk teslim 248) elenen — OZEL AD 15 elenen — OLAY 43 elenen — isaretsiz 17 govde (`d:`) okunarak KURTARILAN 38 Sekiz gecisin izi: 248 → 267 → 259 → 255 → 246 → 251 → 260 → 264 ===== 🔴 UC YANLIS-POZITIF SINIFI — ucu de AYNI KOKTEN ===== ① OZEL AD (senin buldugun) — Koprulu · Kopruhisar · koprubasi VE ikinci gecisde AYNI SINIFTAN DORT TANE DAHA cikti: Balta Limani (yer) · Liman von Sanders (KISI!) · Surname-i Vehbi (KITAP) · Cesme baskini (yer) · Tersane Konferansi (toplanti) · Fabrika Yasasi (kanun) ② OLAY VETOSU — \"Fatih Camii'nde fetva\" · \"Mudanya limaninin ablukasi\" · \"Mimar Sinan'in ATANMASI\" · \"Bagdat Demiryolu ANTLASMASI\" ③ 🔴 YER OLARAK LIMAN — ucuncu gecisde cikti, EN KALABALIGI: \"Kolomb PALOS LIMANINDAN acildi\" · \"Brezilya LIMANLARI acildi\" · \"Dort gumruk limani acildi\" · \"Kara Olum'un Cenova LIMANINA girmesi\" ⇒ AYRIM: `liman ... acildi` TICARETTIR · `kanal ... acildi` INSAATIN BITISIDIR (Suveys ve Korint bu ayrimla geri kazanildi) 📌 Ucu de senin tarif ettigin kok: KELIME KONUYU DEGIL BASKA BIR SEYI ISARET EDIYOR. Benim darbe kumesinden eledigim \"ekonomisi DARBE YEDI\" mecazlariyla ayni aile; sen buna OZEL AD ayagini ekledin, olcum ona YER ve OLAY ayaklarini ekledi. ===== ② ELEME KOVASI — UC KEZ kendi icinde tarandi ===== Dedigini yaptim ve HAKLI CIKTIN: 1. tarama: 30 elenenin ~12'si GERCEK IMAR (Galata Kulesi · Rialto Koprusu · Ginkaku-ji · Saint Peter Kalesi · Necef turbesi imari · Fort Manoel) 2. tarama: 21 elenenin 5'i gercek 3. tarama: 17 elenenin 2'si gercek Kok HER SEFERINDE CEKIM EKSIKLIGIYDI — desen degil: `yapilmasi` · `imar ettirdi` · `yukseldi` · `modernlestirilmesi` · `acildi` · `kuruldu` YAPIM listesinde yoktu. ⚠️ ARTIK HATA: son 17 elenenin 2'si HALA gercek imar gorunuyor (Fort Manoel'in \"adanin imari\" · Fonte Gaia anitsal cesmesi) ⇒ YANLIS-NEGATIF ~%12. Dokuzuncu gecis kazanci azaltiyor. SAYIYI GIZLEMEK YERINE BILDIRIYORUM. Elenenlerin TAMAMI `imar_elenen` kovasinda (ozel_ad 15 · olay 43 · isaretsiz 17). ===== ③ GOVDE OKUMASI — bedelini olctum ===== Baslik okuyarak tasnif ettigimi iki kez yazmistim; bu vakada bedeli SAYIYLA cikti: GOVDE (`d:`) OKUMASI 38 KAYDI KURTARDI. Yani yalniz basliga guvenmek o 38'i kaybettirecekti. Ornek: \"Yildirim Darussifasi\" · \"Nuruosmaniye Camii'nin temelinin atilmasi\" basliktan gecmiyordu, govde dogruladi. ⚠️ Ama govde okumasi da tek basina yetmedi: `mimari` etiketli bir kaydin basliginda yapim eylemi varsa govde testi ARANMAMALI kuralini eklemek 12 kaydi daha kurtardi. ===== ORNEKLEM DOGRULAMASI ===== Kalan 264 kaydin her 12'ncisini (21 kayit) okudum: 21'inin 21'i GERCEK imar. Yani yanlis-POZITIF orneklemde 0; yanlis-NEGATIF ~%12 (yukarida). Iki yonu de olctum. ===== KABUL ETTIKLERIN ICIN ===== `mimari` → `imar` gocunu simdilik yapmamak dogru karar: kirli bir kumeye 207 kayit tasimak kusuru buyuturdu. Kume artik temiz; goc istersen SIRADAKI is olabilir. DURUM: bitti. BOSTAYIM, kendi kendime is SECMIYORUM.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "data/etiket_yama.js imar + imar_elenen",
+  "aciliyet": "NORMAL"
  }
 ]
