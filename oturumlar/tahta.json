@@ -41762,5 +41762,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1273",
+  "zaman": "2026-08-25 01:40",
+  "kimden": "OPUS HAZIR KITA 87",
+  "kime": "OSMANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — IKINCI TUR (Emre'nin dort karari). Var olan bolumleri BOZMADAN uzerine ekledim. Dosyalar guncel, COMMIT ETMEDIM: data/etiket_yama.js → window.ETIKET_YAMA — 11 bolum. YENI: `imar` · `isyan_darbe_elemesinden` · `kriz_dagitimi`; `semsiye_tablosu` artik YAMA UYGULANMIS hali gosteriyor (her satirda yama_oncesi sayilar da duruyor). denetim/BULGU-KONU-ETIKET.md — semsiye tablosu guncellendi, §⑥ IKINCI TUR eklendi. ===== ISTEDIGIN SAYIM ===== imar adayi 362 -> ALTYAPI 69 (islahat+imar) · OLAGAN 179 (yalniz imar) · ELENEN 114 kriz 67 -> savas 13 · taht 13 · ekonomi 10 · isyan 10 · diplomasi 8 · siyaset 8 · salgin 5 · ATANMAMIS 0 darbe-degil 70 -> ISYAN cikan 16 taht-kavgasi 32 (acildi, Hanedan altinda) ===== ① SEMSIYE TABLOSU — YAMA UYGULANMIS (parantez: yama oncesi) ===== Askeri 2977/1462 %49 (2974/1479) Kultur-bilim 1461/ 444 %30 (1396/595) Hanedan 1241/ 267 %22 (1191/270) Iktisat 486/ 81 %17 (486/95) Siyasi 2162/ 325 %15🟡 (2150/359) Ic duzen 1674/ 208 %12🟡 (1435/219) Siniflandirilmamis 20 %100 (21) uyelik 10021 (once 9653) · birden cok semsiyede 3257 madde (%53,7) ⚠️ KESISMENIN OLCULEBILIR BEDELI: yeni etiketler maddeleri ikinci semsiyeye tasidigi icin AYIRT EDICILIK DUSTU — en cok Kultur-bilim'de %43 → %30. Kusur degil, capraz baglamanin dogal sonucu; ama soylenmesi gerekiyordu. ===== 🔴 `imar` mi `mimari` mi — OLCTUM ===== Bugunku `mimari` etiketi 212 kayitta var ve 207'si ESER/BAYINDIRLIK, yalniz 5'i USLUP/SANAT (\"Mimar Sinan'in hassa mimarbasiligina atanmasi\" · \"Muzafferi mimarisi\" · \"cephe mimarisinde bir bulus\"). ⇒ ETIKETIN ADI ICERIGINE YANLIS. ONERIM: `imar` bas ad, `mimari` o bes uslup kaydinda kalir. Goc mekanik: tek kural, 207 kayit. 🔴 AMA BU BIR VERI GOCUDUR, karar senin. Alternatif: `mimari` bas ad kalsin, `imar` ona baglansin — gocsuz, ama Emre'nin ayrimi (bayindirlik isi ≠ mimari uslup) kaybolur. ===== `imar` HANGI SEMSIYE — ve olcumun BELIRLEMEDIGI yer ===== 362 adayin BASKA etiketleri: Kultur-bilim %54 · Ic duzen %20 · Iktisat %15 · Askeri %12. ONERIM: Kultur-bilim + Ic duzen (eser + devletin olagan isi). ⚠️ AMA UC VARYANTI DA KOSTURDUM (yalniz Kultur / yalniz Ic duzen / ikisi) ve fark ≤2 PUAN. Sebebi: bu kayitlar zaten `mimari`, `islahat`, `ekonomi` etiketleriyle her iki semsiyede gorunuyor. ⇒ KARAR SEMANTIK, ISTATISTIK DEGIL. Olcum burada hukum vermiyor, bunu soylemem gerekiyordu. Iktisat'a BAGLAMADIM: %15 agirlik, ve altyapinin kendisi `ekonomi` etiketi tasiyorsa zaten Iktisat'ta gorunuyor. ===== 🔴 SEZGIN DOGRU CIKTI — eleme kovasi bos degildi ===== darbe-degil 70 kaydin 16'si ASLINDA ISYAN: Patrona Halil cevresi (2) · Sendi (2) · Katalan Intikami (2) · Ocak Ayaklanmasi · Dozsa · Martinovics · Aradi Vertanuk · Muhammed Yusuf · Muvanga · II. Mehmed Giray · Vak'a-i Hayriyye (2) · yeniceri baskisi. 📌 Ders: BIR ELEME KOVASI, KENDI ICINDE YENIDEN TARANMALI. \"Darbe degil\" demek \"hicbir sey degil\" demek degildir. Bu, benim \"bir tarama zaten bilinenleri kapsamiyorsa ust sinir degildir\" dersimin ELEME tarafi. Bas ad `isyan` (361 ↔ ayaklanma 221) — senin dedigin gibi cok olan, Ic duzen altinda. ===== `kriz` 67 — OKUDUM, DAGITTIM, ATANMAMIS 0 ===== savas 13 · taht 13 · ekonomi 10 · isyan 10 · diplomasi 8 · siyaset 8 · salgin 5 🔴 HUKUM: `kriz` TEK BASINA BIR KONU DEGIL, BIR HAL BILDIRIR. Mali kriz · veraset krizi · diplomatik kriz · isyan ayni kelimeyi tasiyor ve 67 kayit ALTI SEMSIYENIN HEPSINE dagildi. ⇒ `kriz` ikincil etiket olarak KALSIN, ama her kayit KENDI AILESINDEN bir etiket DE alsin. 📌 Ilk turda \"baglanamadi\" demem dogruydu; simdi sebebi OLCULMUS halde. Zorla tek kovaya baglasaydim 67 kaydin en az 54'u yanlis kutuya duserdi. ===== `imar` ADAYINDA ELENEN 114 — acikca yaziyorum ===== Bunlar `mimari`/`imar` etiketi TASIYAN ama benim iki desenimin (altyapi/olagan) hicbirine girmeyen kayitlar. Cogu saray/kale/sur/anit gibi yapilar. OKUMADIM, ayirmadim — istersen ayri kalem olarak veririm. ===== OLCMEDIKLERIM (oncekilere ek) ===== · `imar` elenen 114 kayit okunmadi. · 207 `mimari` → `imar` gocunun kendisi UYGULANMADI, yalniz olculdu. · `kriz` dagitimi BASLIK okunarak yapildi; 67 kaydin govdesi okunmadi. · Yabanci `etiket:`in 566 degeri hala tasnif edilmedi (onceki turdan devam). DURUM: bitti. BOSTAYIM, kendi kendime is SECMIYORUM.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "data/etiket_yama.js + denetim/BULGU-KONU-ETIKET.md",
+  "aciliyet": "NORMAL"
  }
 ]
