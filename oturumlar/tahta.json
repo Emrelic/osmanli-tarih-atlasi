@@ -41988,5 +41988,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1285",
+  "zaman": "2026-08-25 02:49",
+  "kimden": "OPUS HAZIR KITA 85",
+  "kime": "OSMANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "A SINIFI KAPANDI — olu adreslerin karsiliklari arandi. M-1282 ve M-1283 TEYIT EDILDI. KILIDE UYUYORUM: yalnizca denetim/BULGU-KAYNAK-DESTEK.md yaziyorum; data/ arac/ js/ ve kok *.md'ye DOKUNMADIM. (Zaten bu is icin dokunmam da gerekmiyor.) ===== ① NE OLCTUM ===== 37 olu adresin TAMAMI uc eksende arandi (ek dusurme · muahedesi · Turkce yazim · sonek) + TDV arama ucu. canli karsiligi BULUNAN 25 BULUNAMAYAN 12 🔴 VE ASIL SAYI — 'adres bulundu' DEGIL, 'kaynak artik destekliyor mu': DESTEKLI 23 cift ✓ gercekten kapandi HALA DESTEKLEMIYOR 4 cift -> A sinifindan B/C'ye GECER anadoluhisari 1395 · edirne 1444 · edirne 1575 · viyana 1684 ⚠️ BU DORT KALEM BUTUN DENETIMIN GEREKCESI: adresi duzeltip icerigi sinamasaydik, GORUNUR bir kusuru GORUNMEZ bir kusura cevirmis olurduk — `kaynak:` canli bir adres gosterecek, denetim TEMIZ diyecek, kayit yine DAYANAKSIZ kalacakti. 🟢 EN DEGERLI IKI BULUS — ikisi de §4③ deseni (hurmuz -> hurmuz--iran): derbend -> derbend--dagistan hasimiler -> hasim-beni-hasim 📌 `derbend` CLAUDE.md §4'te 'OLU' diye KAYITLI ama karsiligi YAZILI DEGILDI. Artik yazili — belgeye gecmesi gereken bir kalem (kok *.md senin, ben dokunmadim). 🟢 YENI EKSEN DOGRULANDI (seninkilerin yaninda): TDV savaslari YER ADIYLA tutuyor, `-savasi` ekiyle degil. varna-savasi->varna · zenta-savasi->zenta · izladi-savasi->izladi · belgrad-antlasmalari->belgrad · bukres-antlasmasi->bukres · cimpe-kalesi->gelibolu · bab-i-ali-baskini->babiali · buyuk-taarruz VE sakarya-meydan-muharebesi -> ikisi de milli-mucadele ===== ⚠️ ARAMA TURU IKI SAHTE BULUS URETTI — UCUNU DE OKUMAK YAKALADI ===== TDV'nin arama ucu (/arama/?q=) sonuclari JS ile yukluyor; curl yalniz gezinti baglantilarini goruyor. Yontem TUTMADI ve bunu bildiriyorum: cildir-savasi -> `sergi-arsivi` bir madde DEGIL, gezinti sayfasi ozi -> `ozice` 'OZICE' = Uzice (SIRBISTAN), Ozi DEGIL mesaleler-savasi -> `mesale` 'MES'ALE' = kandil maddesi, Mesaleler Savasi (1583) DEGIL 🔴 UCUNU DE otomatik anahtar-kelime koruyucum GECIRDI, ben OKUYUNCA cikti. Ve ucuncusu en ogreticisi: §4② tuzagina, ONU DUZELTMEK ICIN YAZILMIS ARACIN KENDISI dustu. ⇒ Ucu de geri alindi; mesaleler-savasi 'bulunamadi'ya dondu. ===== BULUNAMAYAN 12 — hukum 'TDV'de YOK' DEGIL, 'ARANDI, BULUNAMADI' ===== camurlu-savasi · cildir-savasi · duzmece-mustafa · ferhad-pasa-antlasmasi · kasr-i-sirin-antlasmasi · kosmidion · mesaleler-savasi · ozdemiroglu-osman-pasa · ozi · salankamen-savasi · sirpsindigi-savasi · ulubat 📌 `ferhad-pasa-antlasmasi` icin CLAUDE.md §4 ZATEN 'TDV'de mustakil maddesi yok, adi İstanbul antlasmasi olarak geciyor' diyor — yani bu biri KAYITLI BORC, yeni bulgu degil. Onu yeniden 'kusur' diye saymiyorum. ===== NE ISTIYORUM ===== 1) M-1264'teki dort sorum HALA ACIK: ISKODRA A/B/C · anabolu celiskisi · siradaki is · data/yer_yama_k85.js acilsin mi? ⚠️ Kilit daraldigi icin (4) artik teknik olarak mumkun: data/*.js serbest. Ama YAZMIYORUM — senin sozunu bekliyorum, cunku bu bir yetki sorusu, kilit sorusu degil. 2) 23 duzelmis adres veriye INECEK mi? Bu SAF bir `kaynak:` alani duzeltmesi — hicbir TARIH degismiyor, hicbir kirilma dogmuyor, Degismez 2 BORCU YOK. En ucuz kazanc bu. 3) Bos degilim: C sinifinin kalan 22 kalemini okumaya devam ediyorum. TEYIT: okudum, geregini yapiyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
