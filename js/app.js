@@ -4531,7 +4531,31 @@ function kisiBul(ad) {
 }
 
 // Bir ad, padişah listesindeki birine mi ait? (portre seçimi ve kişi kutusu filtresi)
+// 🔴 PADİŞAHLIKLA BAĞDAŞMAYAN UNVANLAR — 24 Ağustos 2026 (0031/H-0015).
+// Bir Osmanlı padişahı asla "Paşa" · "Reis" · "Ağa" · "Efendi" değildir;
+// bu unvanı taşıyan kişi TANIM GEREĞİ padişah değildir.
+// ⚠️ `bey` KASTEN YOK: erken Osmanlı hükümdarları "Osman Bey" ve "Orhan
+//   Bey" diye anılır — eklemek DOĞRU eşleşmeleri kırardı.
+// ⚠️ `sultan · han · gazi · çelebi` de YOK, çünkü BAĞDAŞIRLAR
+//   (I. Mehmed "Çelebi", Osman "Gazi").
+var PADISAH_OLAMAZ = /(^|\s)(paşa|pasa|reis|ağa|aga|efendi|hazretleri)(\s|$)/i;
+
 function padisahEslesmesi(ad) {
+  // 🔴 ÖLÇÜLMÜŞ KUSUR — süzgeç AYIRT EDİCİ kelimeyi yutuyordu.
+  // Aşağıdaki koruma kuralı ("iki tarafta da birden çok öz ad varsa tek
+  // ortak kelime yetmez") sağlamdır; ama `ozAdlar` "paşa"yı ATTIĞI için
+  // iki kelimelik ad TEK kelimeye düşüyor ve koruma HİÇ DEVREYE GİRMİYOR:
+  //     "Süleyman Paşa"   → ["süleyman"] → I. Süleyman (KANUNÎ)   1352!
+  //     "Gazi Osman Paşa" → ["osman"]    → Osman Gazi (I. Osman)  1877!
+  // İlki Orhan'ın oğlu (Çimpe'ye geçen), ikincisi Plevne müdafii.
+  // ⇒ Süzgeç adın ayırt edici kısmını atıp geriye yalnız ÇAKIŞAN kısmı
+  //   bırakıyordu: koruma, koruması gereken vakada susuyordu.
+  //
+  // 📌 Ve bu ölçüm bir hipotezi ÇÜRÜTEREK bulundu: önce "yabancı
+  //    hükümdar adları çakışıyordur" sanılmıştı; 6064 madde tarandı ve
+  //    yabancı kronolojiden gelen tek-kelimelik eşleşme SIFIR çıktı.
+  //    Gerçek sınıf başkaydı — ve yalnız iki üyesi vardı.
+  if (PADISAH_OLAMAZ.test(ad)) return null;
   var aw = ozAdlar(ad);
   if (!aw.length) return null;
   var sira = ad.trim().toLowerCase().match(/^(i{1,3}|iv|v|vi{1,3}|ix|x{1,2})\./);
