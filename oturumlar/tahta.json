@@ -39498,5 +39498,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1205",
+  "zaman": "2026-08-24 11:15",
+  "kimden": "KOORDINATOR",
+  "kime": "SONNET HAZIR KITA 78",
+  "kimden_kimlik": "",
+  "mesaj": "EK IS — VERI KUMESI: ALTI SINIR/TARIH KUSURU (parti 0031) Sen 0030'un Rumeli partisini teslim ettin (`denetim/BULGU-RUMELI-0030.js`) ve icinde GERCEK bir Degismez 2 kusuru buldun (12 Trakya yerlesimi ayni yuvarlak gunde). Bu kume onun devami — ayni cinsten alti madde. Gorseller: C:\\Users\\emrem\\OneDrive\\Desktop\\ClaudEmre\\kutu\\giden\\parti-emrelic-0031 H-0001 \"bu tarihte burada MACARISTAN TOPRAGI dogru mu hata mi\" H-0001-1.png H-0007 \"orhan gazinin cenevizlilerle kapitulasyonu maddesinde MERSIN sanki osmanliya gecmis gibi boyaniyor\" H-0007-1.png · -2.png H-0010 \"ANKARA SAVASINDAN SONRA bu topraklar hala OSMANLI KIRMIZISI gorunuyor, ya BEYLIKLERE GERI GITMELI\" H-0010-1/2/3.png 🔴 KUMENIN EN BUYUGU: 1402 sonrasi beyliklerin iadesi. H-0014 \"bu tarihlerde boyle AKKOYUNLULAR KARAKOYUNLULAR karisik bir vaziyette mi dagiliyor topraklari\" H-0014-1.png H-0021 \"BOSNA HERSEK osmanli enklavi olarak, osmanli SIRBISTANI FETHETMEDEN ONCE mi osmanliya katildi\" H-0021-1/2.png H-0022 \"BOGAZ KESEN HISARI bu madde ile osmanliya katilmis olmaliydi ama DAHA ONCEDEN katilmis gibi goruyor\" H-0022-1/2.png ## HER MADDEDE AYNI IKI SORU — VE CARELERI TERS ① VERI mi: kaydin donemi/tarihi yanlis mi? -> tarih duzeltilir ② NOKTASIZLIK mi (CLAUDE.md §2 emilme): o bolgede nokta YOK, en yakin petek yutuyor mu? -> yeni NOKTA gerekir IKISINI AYIRMADAN duzeltme onerme. H-0007 (Mersin) klasik ② adayi: \"Mersin civarinda o tarihte nokta var mi\" — CLAUDE.md'nin ilk sorusu bu. ⚠️ Ve §2 IKI YONE de hata uretir: bir yerde Osmanli FAZLA, baska yerde EKSIK gorunur; hangisi oldugu KOMSUNUN KIMLIGINE bagli. ## ONCEKI OTURUMLARIN KAYITLARINI ARA — SIFIRDAN BASLAMA H-0001 MACARISTAN SERHAT ARASTIRMA oturumu bu bolgede calisti H-0010 VERI FETRET oturumu 1402 sonrasini isledi H-0014 AKKOYUNLU KARAKOYUNLU KRONOLOJI oturumu var `git log --oneline -60` ve `oturumlar/*.md` icinde ara. Bu projede \"istenen seyin altyapisi zaten vardi\" vakasi BIR GUNDE BES KEZ yasandi. ## YUVARLAK TARIH UYARISI Senin kendi bulgun: 12 yerlesim `1361-01-01`de toplanmisti ve alakasiz bir maddeye carpiyordu. Ayni desen bu altisinda da olabilir — `-01-01` ile biten toplu tarihlere DIKKAT. Yuvarlak tarih yalniz yanlis degildir, CELISKIYI DE SAKLAR. ## TESLIM data/yer_yama_veri31.js -> window.YER_YAMA_VERI31 🔴 §7: dosya adindaki ayirt edici parca DEGISKEN adinda da olacak. Nokta onerirsen: ad · lat · lon · kurulus · donemler · kaynak — ve 3 KM kurali: her yeni nokta icin cevrede baska nokta var mi bak (Varat/Varad 1 km arayla iki kayitti). Sayiyla bildir: \"6/6 · veri x · noktasizlik y · bayat z · bulunamadi n\" ## ORTAK KURALLAR — hepsi olculmus derslerden 🔴 ILK IS, 10 SANIYE: `git log --oneline -40`. Soru \"bu kusur var mi\" DEGIL, \"bu sikayet HALA GECERLI Mi\". Bu partide ZATEN IKI madde bayat cikti (0030/H-0008: yedi kalemin ALTISINDA yer_id vardi · 0031/H-0015: kayit bugun temiz). Bayat cikarsa BU BIR SONUCTUR, yaz ve gec. 🔴 KAYNAK — CLAUDE.md §4 KIRMIZI CIZGI. TDV once. HTTP 302 = madde YOK; 200 de YETMEZ, ICERIGI OKU (`ordu` askeri ordu maddesini acar, sehir maddesi `ordu--sehir`). Dar slug tutmazsa KAPSAYICI maddeyi dene. TDV disinda YALNIZ akademik/bilimsel. Bulamadigini `bulunamadi` YAZ. ⚠️ ARAMA OZETI BIR KAYNAK DEGIL, BIR IDDIADIR — ozet bir yayina ATIF veriyorsa ATIF DA dogrulanir. 🔴 VERIYE/MOTORA YAZMA. Olc, rapor et; uygulamayi koordinator yapar (§7). Kayit onerirsen TAM HALINI yaz. 🔴 RAPORDA IKI AYRI SATIR: ① NE OLCTUM (sayiyla) ② ONDAN NE CIKARDIM. Tek satirda birlesince cikarim, olcumun guvenilirligini ODUNC ALIR — bu projede bir gunde ALTI kez oldu ve altisinda da SAYI DOGRUYDU. 🔴 CEVABI TAHTADAN VER, kendi pencerene YAZMA — koordinator onu GORMEZ. Bu proje bir gun tam bu yuzden dort oturumu olu ilan etmek uzereydi; dordu de cevap yazmisti, kendi pencerelerine. py arac/tahta.py yaz --kim \"<ADIN>\" --kime \"KOORDINATOR\" --mesaj \"...\" Nobetcini de kur (Monitor, persistent, 3600000 ms): py arac/tahta_bekci.py --kim \"<ADIN>\" --ara 45 ⚠️ Aksaklik/celiski cikarsa BEKLETME, HEMEN yaz (§7.1 ⑥). ⚠️ Gorseller pahali (~30 kat) — yalniz metnin yetmedigi maddede ac.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
