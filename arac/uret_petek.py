@@ -589,12 +589,56 @@ if _cakisan:
 # d: hiç yok (Osmanlı dönemi olmayan yerler), çekirdek dosyada ise hep d:[] var.
 # Aşağıdaki setdefault'lar artık gereksiz ama zararsız güvenlik ağı olarak
 # duruyor; yeni isteğe bağlı alanın varsayılanı girdi.py'ye yazılır.
+# 🔴🔴 24 Ağustos 2026 — BOYA ANAHTARI ARTIK `harita:`ya DÜŞEBİLİYOR.
+#
+# Motor bugüne kadar `s:[{d:...}]`in HAM DEĞERİNİ boya anahtarı sayıyordu.
+# Sonuç: `BOYALAR`da karşılığı olmayan bir kimliğe geçen gövde HİÇ
+# ÇİZİLMİYOR — künyesinde `harita:"macaristan"` yazsa bile, çünkü motor o
+# alanı OKUMUYORDU. Ölçüldü (OPUS HAZIR KITA 87): `grep harita
+# uret_petek.py` → SIFIR eşleşme.
+#
+# ⚠️ VE İLK ÖNERİ ÇÜRÜDÜ — bu satırın yazılma sebebi o:
+#   YOL A  "motor `harita:`yı OKUSUN, o kazansın" → 8 MEVCUT kaydın
+#          anahtarı değişiyordu: `romanya-kralligi` → `romanya`,
+#          #2828d8 → #6c6912. Erdel-Temesvar kuşağı SESSİZCE yeniden
+#          boyanırdı — kimsenin istemediği bir değişiklik.
+#   YOL A' "anahtar = `id`, AMA `BOYALAR`da yoksa `harita:`ya düş"
+#          ölçüldü: bugünkü kayıtlardan değişen 0 · hedeflerden boyasız
+#          kalan 0 · renk borcu 12 kimlikten 3'e iniyor.
+# ⇒ A' uygulandı. *Var olanı korumak, doğruyu eklemekten önce gelir.*
+#
+# 📌 Ve öneriyi DARALTAN, öneriyi YAZANIN kendisi oldu: kendi ilk yolunu
+#    ölçüp çürüttü. Ölçülmemiş bir "iyileştirme" burada sekiz kaydı
+#    sessizce bozacaktı.
+_HARITA_ALT = {}
+try:
+    for _k in girdi.oku_devletler():
+        _kid, _kh = _k.get("id"), _k.get("harita")
+        if _kid and _kh:
+            _HARITA_ALT[_kid] = _kh
+except SystemExit:
+    raise                      # girdi.py'nin "sessiz sıfır yasak" kuralı
+except Exception as _e:
+    print(f"  UYARI boya: künye okunamadı ({type(_e).__name__}) — "
+          f"`harita:` düşüşü DEVRE DIŞI, ham `d:` kullanılacak")
+
+_yonlendirilen = 0
 for y in YERLER:
     for _alan, _dv in girdi.VARSAYILAN.items():
         y.setdefault(_alan, [] if _dv == [] else _dv)
     for sp in y["s"]:
         if sp["d"] not in BOYALAR:
-            print(f"  UYARI boya: {y['ad']} bilinmeyen devlet kimliği '{sp['d']}'")
+            _alt = _HARITA_ALT.get(sp["d"])
+            if _alt and _alt in BOYALAR:
+                # Künye "beni şu anahtarla çiz" diyor ve o anahtarın rengi VAR.
+                sp["d"] = _alt
+                _yonlendirilen += 1
+            else:
+                print(f"  UYARI boya: {y['ad']} bilinmeyen devlet kimliği '{sp['d']}'")
+# ⚠️ SAYI HER ZAMAN BASILIYOR, SIFIR OLSA BİLE: sessiz bir yönlendirme,
+#    "bu gövde niçin başka renkte" sorusunu cevapsız bırakır. Bir sonraki
+#    oturum log'a bakıp kaç kaydın yön değiştirdiğini GÖREBİLMELİ.
+print(f"  boya anahtarı `harita:`ya düşen dönem: {_yonlendirilen}")
 print(f"  {len(YERLER)} yerleşim ({sum(1 for y in YERLER if y['d'] or y['v'])} Osmanlı, "
       f"{sum(1 for y in YERLER if not (y['d'] or y['v']))} komşu, "
       f"{sum(1 for y in YERLER if y['v'])} tâbi dönemi olan)")

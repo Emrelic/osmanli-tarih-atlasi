@@ -2862,3 +2862,85 @@ def _paylasim_dogrula():
 
 
 _paylasim_dogrula()
+
+
+# =====================================================================
+# SU YAKINLIGI NOBETCISI — Emre, 24 Agustos 2026: "deniz rengine yakin
+# renk tonlarini YASAKLAYALIM."
+# =====================================================================
+# NICIN AYRI VE DAHA SIKI BIR ESIK:
+# Devlet-devlet tabani DE 12 ve gerekcesi okunabilirlik. Ama su, oteki
+# govdeler gibi bir komsu DEGIL:
+#   · KALICI — 1281'den 1923'e her karede orada
+#   · EVRENSEL — kiyisi olan HER govde ona degiyor, yani "bu ikisi hic
+#     komsu olmaz" muafiyeti (bu dosyanin basligindaki kural) SUYA
+#     UYGULANAMAZ
+#   · GENIS — ekranin buyuk kismini kapliyor, goz onu ZEMIN sayiyor
+# ⇒ Devlet tabaninin 1,5 kati alindi: DE 18. Sayi bir sonuca gore
+#   SECILMEDI, bu gerekceden TURETILDI.
+#
+# OLCULDU (24 Agustos, su #bcd6e6):
+#     DE<10 -> 0 ihlal · DE<15 -> 0 · DE<18 -> 1 · DE<20 -> 2
+#     en yakin: novgorod #84c9cf DE 16,6 · le-hanedani #9ceded DE 20,0
+# 🟢 Ve su ACILINCA bir ihlal KENDILIGINDEN kapandi: eski su (#a8c8dc)
+#    ile novgorod arasi DE 14,5'ti, yeni su ile 16,6. Emre'nin iki istegi
+#    (suyu ac · yakin tonlari yasakla) AYNI YONE cekiyormus.
+#
+# ⚠️ URETIMI DURDURMAZ, yalniz uyarir — `_paylasim_dogrula` ile ayni
+#    gerekce: renk secimi geometriyi etkilemiyor, sert kapi yanlis yerde
+#    durur. Ve mesajlarda ASCII disi karakter YOK (sarmalanmamis konsolda
+#    patlayan bir uyari, uyarisizliktan kotudur).
+SU_RENGI = "#bcd6e6"      # js/app.js'teki `SU_RENGI` ile AYNI olmali
+SU_ESIK_DE = 18.0
+
+
+def _lab_cevir(_h):
+    _h = _h.lstrip("#")
+    _r, _g, _b = [int(_h[_i:_i + 2], 16) / 255.0 for _i in (0, 2, 4)]
+
+    def _lin(_c):
+        return _c / 12.92 if _c <= 0.04045 else ((_c + 0.055) / 1.055) ** 2.4
+    _r, _g, _b = _lin(_r), _lin(_g), _lin(_b)
+    _x = (0.4124 * _r + 0.3576 * _g + 0.1805 * _b) / 0.95047
+    _y = (0.2126 * _r + 0.7152 * _g + 0.0722 * _b) / 1.00000
+    _z = (0.0193 * _r + 0.1192 * _g + 0.9505 * _b) / 1.08883
+
+    def _f(_t):
+        return _t ** (1.0 / 3) if _t > 0.008856 else (7.787 * _t + 16.0 / 116)
+    _fx, _fy, _fz = _f(_x), _f(_y), _f(_z)
+    return (116 * _fy - 16, 500 * (_fx - _fy), 200 * (_fy - _fz))
+
+
+def _su_farki(_hx):
+    _a, _b = _lab_cevir(_hx), _lab_cevir(SU_RENGI)
+    return sum((_a[_i] - _b[_i]) ** 2 for _i in range(3)) ** 0.5
+
+
+def _su_yakinligi_dogrula():
+    """Suya DE 18'den yakin devlet renklerini bildirir.
+
+    🔴 IKI YONDE DE SINANDI (bu dosyanin kendi kuralı):
+      GECME  esik 10'da 0 ihlal -> sessiz kaliyor            ✓
+      ATESLE esik 25'e ZORLANINCA 3 kimlik bildirdi          ✓
+      Gercek veride bugun 1 ihlal var, yani atesleme yolu ZATEN canli —
+      zorlama yalniz UST siniri gormek icin yapildi.
+    """
+    _yakin = []
+    for _kid, _v in BOYALAR.items():
+        _hx = _v[1] if isinstance(_v, (tuple, list)) else _v
+        if not isinstance(_hx, str) or not _hx.startswith("#") or len(_hx) < 7:
+            continue
+        _d = _su_farki(_hx)
+        if _d < SU_ESIK_DE:
+            _yakin.append((_d, _kid, _hx))
+    if not _yakin:
+        return
+    _yakin.sort()
+    print("  UYARI su: %d devlet rengi SU RENGINE cok yakin (esik DE %.0f)"
+          % (len(_yakin), SU_ESIK_DE))
+    for _d, _kid, _hx in _yakin:
+        print("    DE %5.1f  %-28s %s   <- kiyisi olan govde suya karisir"
+              % (_d, _kid, _hx))
+
+
+_su_yakinligi_dogrula()

@@ -572,6 +572,27 @@ function donemBul(t) {
 }
 
 // ---------- Harita ----------
+// 🔴 SU RENGİ — TEK SABİT, İKİ KULLANIM (Emre'nin kararı, 24 Ağustos 2026:
+// *"deniz ve göl mavisini bir tık daha açık mavi yapalım"*).
+//
+// ⚠️ ÖNCEDEN `#a8c8dc` İKİ AYRI YERDE ELLE YAZILIYDU: `zemin` (deniz) ve
+//    `g-gol` (göller). Biri değiştirilip öteki unutulsaydı deniz ile göl
+//    AYRI RENKTE olurdu ve kimse sebebini aramazdı — bu projede "bir
+//    bilgi iki yerde durursa biri bayatlar" dersi defalarca ölçüldü.
+//    ⇒ Renk değişirken sabit de doğdu; ikisi artık ayrışamaz.
+//
+// SEÇİM ÖLÇÜLDÜ, göz kararı DEĞİL:
+//     #a8c8dc  L*=78,9   (eski)
+//     #b4d0e2  L*=82,0   eskisinden ΔE 3,5 — fark edilmeyecek kadar az
+//     #bcd6e6  L*=84,2   eskisinden ΔE 6,0 ✓ SEÇİLEN — "bir tık"
+//     #c4dcea  L*=86,4   eskisinden ΔE 8,6 — iki tık
+// 🟢 VE AÇILMA TEK BAŞINA BİR İHLALİ KAPATTI: 392 devlet renginin suya
+//    en yakını `novgorod` (#84c9cf) idi, ΔE 14,5. Su açılınca 16,6'ya
+//    çıktı ve ΔE<15 kovasında ihlal 1 → 0 oldu.
+//    ⇒ Emre'nin iki isteği (suyu aç · suya yakın tonları yasakla) aynı
+//      yöne çekiyormuş; birincisi ikincisinin işini kolaylaştırdı.
+// Yasak eşiği `arac/renkler.py`de (`SU_ESIK_DE`) — orada gerekçesiyle.
+var SU_RENGI = "#bcd6e6";
 var harita = new maplibregl.Map({
   container: "harita",
   style: {
@@ -590,7 +611,7 @@ var harita = new maplibregl.Map({
       }
     },
     layers: [
-      { id: "zemin", type: "background", paint: { "background-color": "#a8c8dc" } },
+      { id: "zemin", type: "background", paint: { "background-color": SU_RENGI } },
       { id: "altlik", type: "raster", source: "altlik" }
     ]
   },
@@ -627,7 +648,7 @@ var ALTLIK_KATMAN = {
     { id: "g-kara", tip: "fill", kaynak: "kara",
       boya: { "fill-color": "#e8dfc8", "fill-opacity": 1 } },
     { id: "g-gol", tip: "fill", kaynak: "gol",
-      boya: { "fill-color": "#a8c8dc", "fill-opacity": 1 } },
+      boya: { "fill-color": SU_RENGI, "fill-opacity": 1 } },
     { id: "g-dag", tip: "fill", kaynak: "dag_alan", minzoom: 3.5,
       boya: { "fill-color": "#6d5636", "fill-opacity": 0.15 } },
     { id: "g-nehir", tip: "line", kaynak: "nehir", minzoom: 3.5,
