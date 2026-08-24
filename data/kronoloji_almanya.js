@@ -416,7 +416,7 @@ window.KRONOLOJI_ALMANYA = [
   kaynak:"Blackbourn — Zollverein'in 1 Ocak 1834 yürürlüğe girişi" },
 
 { t:"1835-12-07", devlet:"bavyera", b:"Almanya'nın ilk demiryolu hattı — Nürnberg-Fürth", tur:"teknoloji", onem:3, dunya:2, kapsam:"ic", yer_id:"Nürnberg",
-  etiket:["teknoloji","ekonomi","bavyera"],
+  etiket:["teknoloji","ekonomi","bavyera","imar","islahat"],
   d:"\"Ludwigsbahn\" adı verilen altı kilometrelik hat, Nürnberg ile Fürth arasında Almanya'nın ilk buharlı tren seferini başlattı. Sonraki otuz yılda hızla genişleyen demiryolu ağı, Zollverein'in ekonomik birleşmesini fiziksel olarak tamamladı ve 1866-71 seferberliğinde askerî lojistiğin belkemiği oldu.",
   kaynak:"Blackbourn — Nürnberg-Fürth hattının 7 Aralık 1835 açılışı, standart tarih" },
 
@@ -426,7 +426,7 @@ window.KRONOLOJI_ALMANYA = [
   kaynak:"TDV `almanya`: \"1840 Osmanlı-Alman ticaret antlaşması yenilendi\" — bu oturumda okundu, gün belirtilmedi", yer_id:"İstanbul" },
 
 { t:"1842-09-04", devlet:"brandenburg-prusya", b:"Köln Katedrali'nin inşasının yeniden başlatılması", tur:"mimari", onem:3, dunya:1, kapsam:"ic", yer_id:"Köln",
-  etiket:["kultur","mimari","brandenburg-prusya"],
+  etiket:["kultur","mimari","brandenburg-prusya","imar"],
   d:"Orta Çağ'dan yarım kalan ve üç asırdır tamamlanmamış Köln Katedrali'nin inşasına, Kral IV. Friedrich Wilhelm'in temel taşını yeniden koymasıyla kaldığı yerden devam edildi. İnşaat, on dokuzuncu yüzyıl Alman milliyetçi romantizminin ortak bir ulusal proje olarak benimsediği simgelerden biri hâline geldi.",
   kaynak:"Blackbourn — Köln Katedrali inşasının 1842'de yeniden başlaması, gün 4 Eylül 1842" },
 

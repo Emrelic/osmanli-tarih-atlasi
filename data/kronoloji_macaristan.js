@@ -316,7 +316,7 @@ window.KRONOLOJI_MACARISTAN = [
   kaynak:"akademik: Engel (2001), s. 313-315" },
 
 { t:"1473-06-05", b:"Macaristan'ın ilk matbaası — Hess András'ın Buda'da 'Chronica Hungarorum'u basması", tur:"kultur", onem:3, dunya:1, kapsam:"ic",
-  etiket:["bilim","kultur"],
+  etiket:["bilim","kultur","imar","islahat"],
   yer_id:"Budin",
   d:"Gutenberg'in ilk baskısından yalnızca on sekiz yıl sonra, Budin'de kurulan matbaadan çıkan 'Chronica Hungarorum' (Macar Vekayinâmesi), Macaristan'ı Avrupa'nın erken matbaacı ülkeleri arasına soktu. Matbaa Mátyás'ın ölümünden sonra kısa sürede etkinliğini yitirdi.",
   kaynak:"akademik: Kontler (2002), s. 106" },
@@ -834,7 +834,7 @@ window.KRONOLOJI_MACARISTAN = [
   kaynak:"akademik: Kontler (2002), s. 247-248", yer_kon:[47.4979,19.0402] },
 
 { t:"1868-11-01", b:"Magyar Államvasutak'ın (MÁV, Macar Devlet Demiryolları) kurulması", tur:"kurulus", onem:3, dunya:1, kapsam:"ic",
-  etiket:["ekonomi","kurulus","islahat"],
+  etiket:["ekonomi","kurulus","islahat","imar"],
   yer_id:"Peşte",
   d:"Ausgleich sonrası hızlı sanayileşme siyasetinin parçası olarak kurulan devlet demiryolu şirketi, izleyen kırk yılda Macaristan'ı Orta Avrupa'nın en yoğun demiryolu ağlarından birine kavuşturacaktı; Budapeşte, ağın Doğu-Batı ticaretindeki merkezi konumunu bu dönemde kazandı.",
   kaynak:"akademik: Kontler (2002), s. 248-249" },
@@ -882,7 +882,7 @@ window.KRONOLOJI_MACARISTAN = [
   kaynak:"akademik: Kontler (2002), s. 255-256" },
 
 { t:"1904-01-01", b:"Országház'ın (Macar Parlamento Binası) tamamlanması", tur:"kultur", onem:3, dunya:1, kapsam:"ic",
-  etiket:["kultur","mimari"],
+  etiket:["kultur","mimari","imar"],
   yer_id:"Peşte",
   d:"Steindl Imre'nin tasarladığı, neogotik üslupta dönemin dünyadaki en büyük parlamento binalarından biri olan Országház, on yılı aşkın inşaatın ardından tamamlandı; bina, Dualist dönemin siyasî özgüveninin en kalıcı mimarî simgesi oldu.",
   kaynak:"akademik: Kontler (2002), s. 256-257" },

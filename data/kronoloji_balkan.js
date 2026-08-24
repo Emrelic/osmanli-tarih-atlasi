@@ -121,7 +121,7 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"bulunamadı — TDV `karadag` İskender Bey'in kimliğini doğruluyor ama dönüşüm hikâyesini anlatmıyor; dayanak: standart akademik kaynak (Crnojević hanedanı literatürü)." },
 
 { t:"1484-01-01", b:"Cetinje Manastırı kuruldu", tur:"siyaset",
-  onem:3, dunya:1, kapsam:"ic", etiket:["mimari","kultur"], yer_id:"Cetinje",
+  onem:3, dunya:1, kapsam:"ic", etiket:["mimari","kultur","imar"], yer_id:"Cetinje",
   d:"İvan Crnojević, yeni başkentindeki Meryem Ana Manastırı'nı (Cetinje Manastırı) kendi vakfı olarak inşa ettirdi. Manastır, sonraki dört asır boyunca Karadağ Ortodoks kilisesinin ve piskopos-prensliğin fiilî merkezi olacaktı.",
   kaynak:"bulunamadı — TDV `karadag` kuruluş tarihini vermiyor; dayanak: standart akademik kaynak (Cetinje Manastırı ve Karadağ Millî Kütüphanesi resmî tarihçeleriyle çapraz doğrulandı)." },
 
@@ -131,7 +131,7 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"bulunamadı — TDV tarih vermiyor; dayanak: standart akademik kaynak." },
 
 { t:"1493-01-01", b:"Đurađ Crnojević, Balkanlar'ın ilk Kiril matbaasını Cetine'de kurdu", tur:"siyaset",
-  onem:4, dunya:2, kapsam:"ic", etiket:["bilim","kultur"], yer_id:"Cetinje",
+  onem:4, dunya:2, kapsam:"ic", etiket:["bilim","kultur","imar","islahat"], yer_id:"Cetinje",
   d:"Crnojević Matbaası, Venedik'ten getirilen ustalarla Cetinje'de kuruldu; Balkanlar'daki ilk, Avrupa'daki ikinci Kiril harfli matbaaydı. Üç yıl çalışıp 1496'da Osmanlı baskısıyla kapandı.",
   kaynak:"bulunamadı — TDV `karadag` matbaadan hiç bahsetmiyor; dayanak: standart akademik kaynak (Karadağ Millî Kütüphanesi resmî tarihçesi, Cetinje Oktoih literatürüyle çapraz doğrulandı)." },
 
@@ -912,7 +912,7 @@ window.KRONOLOJI_BALKAN = [
   kaynak:"TDV `yunanistan`: '1877-1878 Osmanlı-Rus Savaşı'ndan sonra Osmanlı Devleti ile Yunanistan arasında 1881'de İstanbul'da yapılan bir antlaşmayla Tesalya Yunanistan'a bırakıldı.' Tam gün TDV'de yok; dayanak: standart akademik kaynak (Convention of Constantinople 1881)." },
 
 { t:"1893-08-06", b:"Korint Kanalı'nın açılması", tur:"bilim",
-  onem:3, dunya:2, kapsam:"ic", etiket:["bilim","muhendislik"], yer_id:"",
+  onem:3, dunya:2, kapsam:"ic", etiket:["bilim","muhendislik","imar","islahat"], yer_id:"",
   d:"Antik çağdan beri hayal edilen, Mora yarımadasını anakaradan ayıran Korint Kanalı tamamlandı ve İyon denizini Ege'ye bağladı. Proje on bir yıl sürmüş, Yunan devleti için hem mühendislik hem malî açıdan büyük bir yük olmuştu.",
   kaynak:"TDV `yunanistan` (coğrafya bölümü) kanalın varlığını anıyor ama açılış tarihini vermiyor; dayanak: standart akademik kaynak (Britannica, 'Corinth Canal')." },
 

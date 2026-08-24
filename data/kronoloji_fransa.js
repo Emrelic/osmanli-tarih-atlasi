@@ -205,7 +205,7 @@ window.KRONOLOJI_FRANSA = [
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
 
 { t:"1470-01-01", b:"Fransa'nın ilk matbaasının Sorbonne'da kurulması", tur:"bilim", onem:3, dunya:2, kapsam:"ic", yer_id:"Paris",
-  etiket:["bilim","kultur"],
+  etiket:["bilim","kultur","imar","islahat"],
   d:"Sorbonne'daki üç Alman matbaacı (Ulrich Gering ve ortakları), Fransa'da ilk basılı kitapları üretti. Gelişme, hümanist metinlerin ve hukuk kaynaklarının yayılma hızını Ortaçağ standartlarına göre kökten değiştirdi.",
   kaynak:"standart ders kitabı bilgisi — gün bilinmiyor, YYYY-01-01" },
 
@@ -415,7 +415,7 @@ window.KRONOLOJI_FRANSA = [
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı", kapsam_genis:true },
 
 { t:"1682-05-06", b:"Sarayın Versay'a taşınması", tur:"idari", onem:4, dunya:2, kapsam:"ic", yer_id:"",
-  etiket:["idari","mimari","kultur"],
+  etiket:["idari","mimari","kultur","imar"],
   d:"XIV. Louis, hükümeti ve soylu sınıfını resmen Versay Sarayı'na taşıdı; soyluların günlük yaşamını saray törenlerine ('etiquette') bağlayarak onları siyasî güçten fiilen uzaklaştırdı. Versay, Avrupa'daki bütün hükümdarların örnek aldığı mutlakiyetçi saray mimarisinin ve seremoninin modeli hâline geldi.",
   kaynak:"standart ders kitabı bilgisi — kesin gün için akademik kaynaklar Mayıs 1682'yi verir, tam gün doğrulanmadı", yer_kon:[48.805,2.12] },
 
@@ -830,7 +830,7 @@ window.KRONOLOJI_FRANSA = [
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
 
 { t:"1869-11-17", b:"Süveyş Kanalı'nın açılışı", tur:"ekonomi", onem:4, dunya:5, kapsam:"dis", yer_id:"",
-  etiket:["ekonomi","toprak-kazanc","ekonomi"],
+  etiket:["ekonomi","toprak-kazanc","ekonomi","imar","islahat"],
   d:"Fransız diplomat ve mühendis Ferdinand de Lesseps'in yönettiği proje, Akdeniz'i Kızıldeniz'e bağlayarak Avrupa-Asya deniz ticaretini kökten değiştirdi. TDV maddesi kanalı Fransa-Osmanlı ilişkilerinin Mısır'daki mali-siyasî boyutunun merkezine yerleştirir; kanal sonraki on yıllarda İngiliz-Fransız rekabetinin de odağı olacaktı.",
   kaynak:"standart ders kitabı bilgisi · dunya:5, küresel ticaret yollarını kalıcı biçimde değiştirmesi nedeniyle", yer_kon:[31.265,32.302] },
 
@@ -890,7 +890,7 @@ window.KRONOLOJI_FRANSA = [
   kaynak:"standart ders kitabı bilgisi — dunya:4, modern tıbba küresel katkısı nedeniyle" },
 
 { t:"1889-05-06", b:"Eyfel Kulesi'nin açılışı", tur:"mimari", onem:4, dunya:3, kapsam:"ic", yer_id:"Paris",
-  etiket:["mimari","kultur","bilim"],
+  etiket:["mimari","kultur","bilim","imar"],
   d:"İhtilâl'in yüzüncü yılı için düzenlenen Dünya Sergisi'nin giriş anıtı olarak inşa edilen kule, tamamlandığında dünyanın en yüksek yapısıydı ve mühendislik camiasında büyük tartışma yaratmıştı. Yıkılması planlanan yapı, radyo anteni işlevi kazanınca kalıcı hâle geldi ve zamanla Fransa'nın en tanınan simgesi oldu.",
   kaynak:"standart ders kitabı bilgisi — WebFetch ile doğrulanmadı" },
 

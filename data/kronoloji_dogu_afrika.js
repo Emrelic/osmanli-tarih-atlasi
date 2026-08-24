@@ -264,7 +264,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   kaynak:"TDV `harar`: \"Ancak verdiği ilk savaş yenilgiyle sona erdiği gibi Harar da 1550'de Habeş melikinin baskınına uğradı\"" },
 
 { t:"1551-01-01", b:"Emîr Nûr'un Harar surlarını yaptırması", tur:"mimari", onem:4, dunya:1, kapsam:"ic", yer_id:"Harar",
-  etiket:["mimari","sehircilik"],
+  etiket:["mimari","sehircilik","imar"],
   d:"Sâhibü'l-fethi's-sânî unvanını taşıyan Emîr Nûr b. Mücâhid, Habeş baskınlarına karşı şehri koruyacak Harar surlarını (Cegol) yeniden inşa ettirdi. Bugün de ayakta olan bu sur, Doğu Afrika'daki en tanınmış İslâm şehir tahkimatıdır.",
   kaynak:"TDV `harar`: \"Nûr b. el-Mücâhid (Sâhibü'l-fethi's-sânî) zamanında şehrin surları yeniden yapıldı\" — TDV surların yapım YILINI vermiyor, tarih Emîr Nûr'un 1550 baskınından sonraki ilk yıla konuldu, GÜN UYDURULMADI" },
 
@@ -530,7 +530,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   kaynak:"TDV `masavva`: \"yeni kral Fasilidas (1632-1667) Katolik misyonerleri ülkesinden çıkardı ve Roma'dan gönderilecek yeni misyonerlerin Masavva‘ Limanı'ndan karaya çıkıp Etiyopya'ya girmelerinin engellenmesi için Habeş eyaleti beylerbeyi ile bir anlaşma yaptı\"" },
 
 { t:"1636-01-01", b:"Gondar'ın başkent yapılması", tur:"idari", onem:5, dunya:2, kapsam:"ic", yer_id:"Gondar",
-  etiket:["idari","sehircilik","mimari"],
+  etiket:["idari","sehircilik","mimari","imar"],
   d:"Fasilidas, Tana gölünün kuzeyindeki Gondar'ı başkent yaptı. İki asırdan uzun sürecek Gondar dönemi, Habeşistan'ın gezgin ordugâh başkentlerinden taş saraylı sabit bir payitahta geçişidir; şehrin kale-saray külliyesi Etiyopya mimarisinin klasik eseridir.",
   kaynak:"TDV `etiyopya`: \"Fasilidas Tana gölünün kuzeyindeki Gondar'ı başşehir yaptı (1636)\"" },
 
@@ -763,7 +763,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
 // ══════════════════════════════════════════════════════════════════
 
 { t:"1310-01-01", b:"Husuni Kubwa Sarayı'nın Sultan Hasan b. Süleyman adına yapımı", tur:"mimari", onem:5, dunya:2, kapsam:"ic", yer_id:"Kilwa Kisiwani (Kilve)",
-  etiket:["mimari","kultur","ticaret"],
+  etiket:["mimari","kultur","ticaret","imar"],
   d:"Sultan Hasan b. Süleyman (1310-1333) adına yaptırılan Husuni Kubwa Sarayı, Doğu Afrika Sevâhilî mimarisinin en büyük eseridir: mercan taşından yüz odalı bir saray-ambar külliyesi. Yapı, Kilve'nin Sofala altınından gelen servetinin somut kanıtıdır.",
   kaynak:"TDV `kilve`: \"Sultan Hasan b. Süleyman (1310-1333) adına yaptırılan Husuni Kebva Sarayı başlıca tarihî eserler arasındadır\"" },
 
@@ -773,7 +773,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   kaynak:"TDV `kilve`: \"1331 yılında buraya gelen İbn Battûta'ya göre Kilve dünyanın en güzel ve mâmur şehirlerinden biridir\" · TDV `mombasa`: \"İbn Battûta, 731 (1331) yılında Makdişu'yu ziyaret ettikten sonra Kilve'ye gitmek üzere bindiği gemiyle ... Mombasa (Membessâ) adasına uğradığını\"" },
 
 { t:"1412-01-01", b:"Kilve Büyük Camii'nin Sultan Süleyman zamanında tamamlanması", tur:"mimari", onem:5, dunya:2, kapsam:"ic", yer_id:"Kilwa Kisiwani (Kilve)",
-  etiket:["mimari","din","kultur"],
+  etiket:["mimari","din","kultur","imar"],
   d:"XIV. yüzyılda inşasına başlanan Kilve Büyük Camii (Cuma Camii), Sultan Süleyman (1412-1442) zamanında tamamlandı. Kubbeli ve sütunlu mekân düzeniyle Doğu Afrika Sevâhilî mimarisinin başyapıtı sayılır; Gereza Kalesi ile birlikte adanın en önemli tarihî eseridir.",
   kaynak:"TDV `kilve`: \"XIV. yüzyılda inşasına başlanan ve Sultan Süleyman (1412-1442) zamanında tamamlanan Doğu Afrika Sevâhilî mimarisinin en önemli eserlerinden Kilve Büyük Camii\"" },
 
@@ -848,7 +848,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   kaynak:"TDV `makdisu`: \"1532'de Vasco da Gama'nın oğlu Estevāo da Gama gemi satın almak amacıyla buraya gelmişti\"" },
 
 { t:"1570-01-01", b:"Mombasa'da Mandhry Camii'nin yapımı", tur:"mimari", onem:3, dunya:1, kapsam:"ic", yer_id:"Mombasa",
-  etiket:["mimari","din"],
+  etiket:["mimari","din","imar"],
   d:"1570'te yaptırılan Mandhry Camii, Mombasa'daki tarihî eserlerin en eskisidir. Portekiz işgali altında bile şehrin müslüman hayatının sürdüğünün somut kanıtıdır.",
   kaynak:"TDV `mombasa`: \"Mombasa'daki tarihî eserlerin en eskisi 1570'te yaptırılan Mandhry Camii'dir\"" },
 
@@ -873,7 +873,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   kaynak:"TDV `mombasa`: \"5 Mart 1589'da adanın girişini kapatan Portekiz donanması şehri bombalayıp limandaki Türk donanmasını yaktı\"" },
 
 { t:"1592-01-01", b:"Fort Jesus'un (Îsâ Kalesi) inşasına başlanması", tur:"mimari", onem:5, dunya:3, kapsam:"dis", yer_id:"Mombasa",
-  etiket:["mimari","askeri"],
+  etiket:["mimari","askeri","imar"],
   d:"Türklerin Mombasa'ya yardım filosu göndermesinin kendi aleyhlerine sonuçlandığını gören Portekizliler, Melindi'deki deniz üssünü Mombasa'ya naklettiler ve burada Sevâhilî dilinde Ngome denilen, kendilerinin Fort Jesus adını verdikleri kaleyi inşa ettiler (1592-1596). Doğu Afrika'da Avrupalılar tarafından yapılan ilk kale olduğu ileri sürülür; kalenin 1698'de düşüşü Portekiz çağının sonu olacaktır.",
   kaynak:"TDV `mombasa`: \"kendilerinin Fort Jesus (Îsâ Kalesi) adını verdikleri, Doğu Afrika'da Avrupalılar tarafından yapılan ilk kale olduğu ileri sürülen küçük bir kale inşa ettiler (1592-1596)\"" },
 
@@ -883,7 +883,7 @@ window.KRONOLOJI_DOGU_AFRIKA = [
   kaynak:"TDV `mombasa`: \"1594'te Portekizliler'le yeni sultan arasında yapılan antlaşma ile ada iki eşit parçaya ayrıldı\" · \"1596'da sultana ... gümrük gelirlerinin üçte birinden yararlanma imkânı tanındı\"" },
 
 { t:"1597-01-01", b:"Mombasa'da Augustin manastırının kurulması", tur:"din", onem:3, dunya:1, kapsam:"dis", yer_id:"Mombasa",
-  etiket:["din","mimari"],
+  etiket:["din","mimari","imar"],
   d:"Augustin hıristiyan cemaati 1597'de Mombasa'da bir manastır inşa etti. Portekiz idaresi askerî üssün yanına misyoner kurumunu da yerleştirdi; bu manastır 1631'de adadaki bütün Portekizlilerin hapsedileceği yer olacaktır.",
   kaynak:"TDV `mombasa`: \"Bu arada Augustin hıristiyan cemaati 1597'de Mombasa'da bir manastır inşa etti\"" },
 

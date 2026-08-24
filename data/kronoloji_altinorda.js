@@ -147,7 +147,7 @@ window.KRONOLOJI_ALTINORDA = [
   kaynak:"TDV, madde: altin-orda-hanligi — 'Canıbeg Han'ın (1342-1357) saltanatları döneminde ... eski kudretli günlerine kavuştu'" },
 
 { t:"1341-01-01", b:"Kefe güçlü surlarla çevrilmeye başlandı — Ceneviz kolonisinin tahkimi", tur:"ekonomi", onem:2, dunya:2, kapsam:"ic",
-  etiket:["ekonomi","mimari","sosyal"],
+  etiket:["ekonomi","mimari","sosyal","imar"],
   yer_id:"Kefe",
   d:"Cenevizliler 1341-1348 arasında Kefe'yi güçlü surlarla çevirdi. Kefe, Altın Orda toprağında duran ama Ceneviz'in yönettiği bir liman olarak hanlığın dünya ticaretine açılan kapısıydı: Kıpçak bozkırının kölesi, kürkü ve tahılı buradan Akdeniz'e; İtalyan kumaşı ve gümüşü buradan bozkıra geçiyordu. Surların yükselmesi, kolonilerin han otoritesinden görece bağımsızlaştığının da işaretidir.",
   kaynak:"TDV, madde: kefe — '1341-1348' surlarla çevrilme" },
@@ -189,7 +189,7 @@ window.KRONOLOJI_ALTINORDA = [
   kaynak:"TDV, madde: toktamis-han — '23-26 Ağustos 1382'; dunya:2 kronoloji_rusya.js:88'den OKUNDU" },
 
 { t:"1383-01-01", b:"Kefe surların dışına taştı, yeni bir dış sur çevrildi — koloninin büyümesi", tur:"ekonomi", onem:2, dunya:1, kapsam:"ic",
-  etiket:["ekonomi","mimari","sehircilik"],
+  etiket:["ekonomi","mimari","sehircilik","imar"],
   yer_id:"Kefe",
   d:"Şehir 1383-1386 arasında mevcut surların dışına taşınca ikinci bir sur hattı örüldü. Altın Orda merkezî otoritesinin çözüldüğü yıllarda Kefe'nin BÜYÜMESİ dikkate değerdir: bozkırdaki siyasî kargaşa Karadeniz ticaretini kesmemiş, aksine kolonilerin özerkliğini artırmıştır.",
   kaynak:"TDV, madde: kefe — '1383-1386' dış surlar" },

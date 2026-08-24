@@ -544,19 +544,19 @@ window.KRONOLOJI_AKKOYUNLU = [
   kaynak:"uzun-hasan (⚠️ kitab-i-diyarbekriyye maddesi okunamadı)" },
 
 { t:"1478-01-06", b:"Nasriyye bahçesi — Uzun Hasan'ın kendi yaptırdığı türbe", tur:"mimari",
-  onem:3, dunya:1, kapsam:"ic", etiket:["mimari","kultur","din"],
+  onem:3, dunya:1, kapsam:"ic", etiket:["mimari","kultur","din","imar"],
   yer_id:"Tebriz",
   d:"Uzun Hasan, kendi yaptırdığı Nasriyye bahçesine defnedildi. Hükümdarın kendi ölümünden önce defnedileceği yeri inşa ettirmesi, Akkoyunlu'nun Tebriz'i yalnız fethedilmiş bir şehir değil hanedanın kalıcı yurdu saydığını gösterir. ⚠️ Nasriyye bahçesinin atlas verisinde ayrı bir kaydı yoktur; `yer_id` şehre verildi.",
   kaynak:"uzun-hasan" },
 
 { t:"1452-09-01", b:"Cami, medrese, zâviye ve kervansaray imar programı", tur:"mimari",
-  onem:4, dunya:1, kapsam:"ic", etiket:["mimari","kultur","din","ekonomi"],
+  onem:4, dunya:1, kapsam:"ic", etiket:["mimari","kultur","din","ekonomi","imar"],
   yer_id:"", kapsam_genis:true,
   d:"Uzun Hasan cami, medrese, zâviye ve kervansaray olmak üzere birçok eser yaptırdı. 🔴 Bu eserlerin BÜYÜK KISMI GÜNÜMÜZE ULAŞMADI: Safevîler Tebriz'deki Akkoyunlu yapılarının çoğunu KASITLI olarak yıktı. Bir hanedanın mimarî mirasının ardılı tarafından bilerek silinmesi, Akkoyunlu'nun bugün Karakoyunlu'dan (Gökmescid ayakta) daha az görünür olmasının sebebidir — yani kaynak azlığı bir tesadüf değil, bir siyasetin sonucudur. ⚠️ TARİH HAKKINDA: kaynak tek tek yapıların tarihini vermiyor; imar programı iktidara geliş tarihine bağlandı, bir tercihtir.",
   kaynak:"akkoyunlular · uzun-hasan" },
 
 { t:"1478-06-01", b:"Heşt Bihişt Sarayı — Venedikli tacirlerin hayranlıkla anlattığı yapı", tur:"mimari",
-  onem:4, dunya:2, kapsam:"ic", etiket:["mimari","kultur","kultur"],
+  onem:4, dunya:2, kapsam:"ic", etiket:["mimari","kultur","kultur","imar"],
   yer_id:"Tebriz",
   d:"Yâkub Bey'in yaptırdığı 'Heşt Bihişt' (Sekiz Cennet) sarayı, Tebriz'i ziyaret eden Venedikli tacirler tarafından hayranlıkla tasvir edilmiştir. 📌 Bu yapının bilinmesini bir Müslüman kroniğe değil, AVRUPALI TÜCCARLARIN seyahat notlarına borçluyuz — Uzun Hasan'ın Venedik ittifakı, hanedanın mimarî mirasının kaydedilmesini de sağlamış oldu. ⚠️ TARİH HAKKINDA: sarayın inşa yılı kaynakta verilmiyor; madde Yâkub Bey'in cülûsuna bağlandı, bir tercihtir. `hest-bihist` slugu ölü (302) ölçüldü.",
   kaynak:"akkoyunlular" },
@@ -574,7 +574,7 @@ window.KRONOLOJI_AKKOYUNLU = [
   kaynak:"akkoyunlular" },
 
 { t:"1478-06-01", b:"Gökmescid'in tamamlanması — rakibin eserini bitirmek", tur:"mimari",
-  onem:3, dunya:1, kapsam:"ic", etiket:["mimari","kultur","din"],
+  onem:3, dunya:1, kapsam:"ic", etiket:["mimari","kultur","din","imar"],
   yer_id:"Tebriz",
   d:"Karakoyunlu hükümdarı Cihan Şah'ın 1465'te başlattığı ve 1467'de öldürülmesiyle yarım kalan Gökmescid (Mescid-i Kebûd), Uzun Hasan'ın oğlu Ebû Muzaffer Yâkub Bahadır Han devrinde, hanımı ve kızı Sâliha Hatun'un katkılarıyla tamamlandı. 📌 Cihan Şah'ı öldürten hanedanın onun eserini bitirmesi, Tebriz'in mimarî mirasının hanedanlar üstü sayıldığını gösterir — siyasî düşmanlık, imar mirasına taşınmamıştır. ⚠️ TARİH HAKKINDA: tamamlanma yılı kaynakta verilmiyor, yalnız 'Yâkub Bey devrinde' deniyor; madde cülûs tarihine bağlandı, bir tercihtir.",
   kaynak:"gokmescid" },

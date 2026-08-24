@@ -137,7 +137,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
   kaynak:"TDV 'timur' md. · Setton, The Papacy and the Levant, c. I · Luttrell, The Hospitaller State on Rhodes" },
 
 { t:"1408-01-01", b:"Bodrum'da Saint Peter Kalesi'nin inşasına girişilmesi", tur:"mimari", onem:4, dunya:2, kapsam:"dis", yer_id:"Bodrum",
-  etiket:["mimari","askeri"],
+  etiket:["mimari","askeri","imar"],
   d:"İzmir'in kaybından sonra tarikat, Menteşe beyinden aldığı izinle Halikarnas'ta Saint Peter (Petronium) Kalesi'ni yükseltti; malzemenin bir kısmı antik Mausoleum'un taşlarıydı. Kale hem bir köprübaşı hem Anadolu'dan kaçan Hristiyanlar için bir sığınaktı ve kaleye adını veren 'Petronium' Bodrum adının kökenidir. 1522'ye kadar tarikatın elinde kaldı.",
   kaynak:"TDV 'bodrum' md. · Luttrell, 'The Hospitallers at Bodrum', The Hospitaller State on Rhodes (Variorum, 1999) · inşa yılı yaklaşıktır, gün bilinmiyor" },
 
@@ -207,7 +207,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
   kaynak:"TDV 'cem-sultan' md. · Setton, The Papacy and the Levant, c. II" },
 
 { t:"1489-01-01", b:"Rodos'ta yeni Hastane'nin (Nuovo Ospedale) tamamlanması", tur:"bilim", onem:4, dunya:2, kapsam:"ic", yer_id:"Rodos",
-  etiket:["bilim","mimari","sosyal"],
+  etiket:["bilim","mimari","sosyal","imar"],
   d:"1440'larda başlanan büyük hastane binası tamamlandı; tarikatın adı ve varlık sebebi olan 'hospitalitas' burada kurumsallaştı. İki katlı yapı, büyük koğuşu ve ayrı hasta bölmeleriyle dönemin Akdeniz'indeki en gelişmiş hastane binalarındandır. Şövalyeler kendilerini önce hastabakıcı, sonra asker sayarlardı ve bu yapı o sıralamanın taşa dökülmüş hâlidir.",
   kaynak:"Luttrell, The Hospitaller State on Rhodes and its Western Provinces 1306-1462 · Nicholson, The Knights Hospitaller · tamamlanış yılı yaklaşıktır" },
 { t:"1503-07-03", b:"Pierre d'Aubusson'un ölümü, Emery d'Amboise'ın seçilmesi", tur:"hukumdar", onem:3, dunya:1, kapsam:"ic", yer_id:"Rodos",
@@ -221,7 +221,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
   kaynak:"Vatin, L'Ordre de Saint-Jean-de-Jérusalem... 1480-1522 · Setton, The Papacy and the Levant, c. III · gün yaklaşıktır" },
 
 { t:"1513-01-01", b:"Fabrizio del Carretto'nun seçilmesi ve surların modernleştirilmesi", tur:"mimari", onem:4, dunya:1, kapsam:"ic", yer_id:"Rodos",
-  etiket:["mimari","askeri","reform"],
+  etiket:["mimari","askeri","reform","imar"],
   d:"İtalyan del Carretto büyük üstat oldu ve Rodos surlarını topçu çağına göre baştan düzenletti; İtalyan mühendis Basilio dalla Scuola'yı getirtti. Kalın, alçak ve eğimli yeni burçlar, gülle darbesini emmek üzere tasarlandı. Bu tahkimat 1522'de altı ay dayanacak ve Osmanlı'ya çok ağır kayıp verdirecektir.",
   kaynak:"Vatin (1994) · Nicholson, The Knights Hospitaller · gün bilinmiyor" },
 
@@ -321,7 +321,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
   kaynak:"TDV 'malta' md.: \"16 Safer 973 / 12 September 1565\" kuşatmanın sonu; yaklaşık 20.000 kayıp, 540 timarlı sipahi kaydı · Setton, c. IV" },
 
 { t:"1566-03-28", b:"Valletta'nın kurulması — Avrupa'nın ilk planlı ızgara şehirlerinden", tur:"mimari", onem:5, dunya:3, kapsam:"ic", yer_id:"Malta",
-  etiket:["mimari","reform","sosyal"],
+  etiket:["mimari","reform","sosyal","imar"],
   d:"Valette, kuşatmadan altı ay sonra Sciberras yarımadasında yeni başkentin temelini attı; planı papalık mühendisi Francesco Laparelli çizdi, uygulamayı Maltalı Gerolamo Cassar sürdürdü. Şehir baştan sona ızgara planlı, tahkimatlı ve kanalizasyonlu olarak tasarlandı. Rönesans şehircilik ilkelerinin sıfırdan uygulandığı en eksiksiz örneklerden biridir.",
   kaynak:"Mallia-Milanes (ed.), Hospitaller Malta 1530-1798 · Quentin Hughes, The Building of Malta 1530-1795 (Tiranti, 1956)" },
 
@@ -336,12 +336,12 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
   kaynak:"TDV 'inebahti-savasi' md. · Setton, The Papacy and the Levant, c. IV · `dunya:4` — venedik ve ispanya dosyalarıyla BİREBİR hizalandı" },
 
 { t:"1573-01-01", b:"Saint John Ortak Katedrali'nin inşasına başlanması", tur:"mimari", onem:4, dunya:2, kapsam:"ic", yer_id:"Malta",
-  etiket:["mimari","din","kultur"],
+  etiket:["mimari","din","kultur","imar"],
   d:"Büyük Üstat Jean de la Cassière, Gerolamo Cassar'ın tasarımıyla tarikatın konvent kilisesini yaptırmaya başladı; yapı 1578'de ibadete açıldı. Dış cephenin sert askerî sadeliği ile iç mekânın sonraki yüzyıllarda kazandığı zenginlik arasındaki tezat, tarikatın kendini nasıl gördüğünü anlatır. Zemini, sekiz langue'un şövalyelerine ait mermer kakma mezar taşlarıyla kaplanmıştır.",
   kaynak:"Quentin Hughes, The Building of Malta 1530-1795 · Mallia-Milanes (ed.), Hospitaller Malta 1530-1798 · gün bilinmiyor" },
 
 { t:"1574-01-01", b:"Sacra Infermeria'nın (Kutsal Hastane) açılması", tur:"bilim", onem:5, dunya:3, kapsam:"ic", yer_id:"Malta",
-  etiket:["bilim","sosyal","mimari","islahat"],
+  etiket:["bilim","sosyal","mimari","islahat","imar"],
   d:"Valletta'da tarikatın büyük hastanesi hizmete girdi; ana koğuşu Avrupa'nın en uzun salonlarından biriydi ve hastalara gümüş kaplarda yemek verilmesi kuraldı. Hasta bakımı, din ve millet ayrımı gözetilmeksizin, Müslüman esirlere de uygulanırdı. Tarikatın adındaki 'hospitalier' sıfatının Malta'daki en somut karşılığıdır ve şövalyelerin öz tanımının merkezindedir.",
   kaynak:"Paul Cassar, Medical History of Malta (Wellcome Historical Medical Library, 1964) · Mallia-Milanes (ed.), Hospitaller Malta 1530-1798 · açılış yılı yaklaşıktır" },
 
@@ -366,7 +366,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
   kaynak:"Mallia-Milanes (ed.), Hospitaller Malta 1530-1798 · gün yaklaşıktır" },
 
 { t:"1615-04-21", b:"Wignacourt Su Kemeri'nin tamamlanması", tur:"mimari", onem:3, dunya:1, kapsam:"ic", yer_id:"Malta",
-  etiket:["mimari","teknoloji","sosyal"],
+  etiket:["mimari","teknoloji","sosyal","imar"],
   d:"Büyük Üstat Wignacourt, Mdina yakınlarındaki kaynaklardan Valletta'ya su getiren yaklaşık on altı kilometrelik kemeri kendi parasıyla yaptırdı. Başkentin kuşatma sırasında susuz kalma sorunu böylece çözüldü. Yapı, tarikatın Malta'da yalnız kale değil ALTYAPI da kurduğunun en görünür delilidir.",
   kaynak:"Quentin Hughes, The Building of Malta 1530-1795 · Mallia-Milanes (ed.), Hospitaller Malta 1530-1798 · gün yaklaşıktır" },
 
@@ -376,7 +376,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
   kaynak:"Mallia-Milanes (ed.), Hospitaller Malta 1530-1798 · gün yaklaşıktır" },
 
 { t:"1642-01-01", b:"Malta'da ilk matbaanın kurulması", tur:"teknoloji", onem:3, dunya:2, kapsam:"ic", yer_id:"Malta",
-  etiket:["teknoloji","kultur"],
+  etiket:["teknoloji","kultur","imar","islahat"],
   d:"Tarikatın izniyle adada ilk baskı makinesi çalıştırıldı ve Malta'da basılan ilk kitap yayımlandı. Ancak Engizisyon ve papalık temsilcisinin itirazlarıyla matbaa kısa süre sonra kapatıldı; kalıcı matbaa ancak 1756'da kurulabildi. Tarikat devletinde dinî denetimin idarî iradeyi sınırladığı açık bir vakadır.",
   kaynak:"Mallia-Milanes (ed.), Hospitaller Malta 1530-1798 · William Zammit, Printing in Malta 1642-1839 (Gutenberg, 2008) · gün bilinmiyor" },
 
@@ -401,7 +401,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
   kaynak:"Paul Cassar, Medical History of Malta (Wellcome Historical Medical Library, 1964) · gün bilinmiyor" },
 
 { t:"1693-01-11", b:"Sicilya depreminin Malta'yı vurması", tur:"felaket", onem:3, dunya:2, kapsam:"ic", yer_id:"Malta",
-  etiket:["felaket","mimari"],
+  etiket:["felaket","mimari","imar"],
   d:"Doğu Sicilya'yı yıkan büyük deprem Malta'da da hissedildi ve Mdina Katedrali dâhil birçok yapı ağır hasar gördü. Yeniden inşa, Maltalı mimar Lorenzo Gafà'nın barok yapılarını doğurdu. Bir felâketin ada mimarîsinin en özgün dönemini başlatması, Malta sanat tarihinin dönüm noktası sayılır.",
   kaynak:"Quentin Hughes, The Building of Malta 1530-1795 · Mallia-Milanes (ed.), Hospitaller Malta 1530-1798" },
 
@@ -447,7 +447,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
   kaynak:"Luttrell, The Hospitaller State on Rhodes and its Western Provinces 1306-1462 (Variorum, 1999) · yıl yaklaşıktır" },
 
 { t:"1330-01-01", b:"Şövalye Sokağı'nın (Odos Ippoton) ve langue konaklarının kurulması", tur:"mimari", onem:4, dunya:2, kapsam:"ic", yer_id:"Rodos",
-  etiket:["mimari","idari","kultur"],
+  etiket:["mimari","idari","kultur","imar"],
   d:"Rodos şehrinin iç kalesinde, her millet (langue) için ayrı bir konak (auberge) yapıldı ve bunlar tek bir cadde boyunca dizildi. Cadde, Orta Çağ'dan bugüne neredeyse bozulmadan gelen en bütün Gotik sokaklardan biridir. Mimarî düzenin idarî düzeni birebir yansıtması, tarikat devletinin karakteristiğidir.",
   kaynak:"Luttrell, The Hospitaller State on Rhodes 1306-1462 · Elias Kollias, The Medieval City of Rhodes and the Palace of the Grand Master (Athens, 1998) · yıl yaklaşıktır" },
 
@@ -457,7 +457,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
   kaynak:"Luttrell, The Hospitaller State on Rhodes and its Western Provinces 1306-1462 · yıl yaklaşıktır" },
 
 { t:"1409-01-01", b:"Büyük Üstat Sarayı'nın (Palazzo del Gran Maestro) tamamlanması", tur:"mimari", onem:3, dunya:1, kapsam:"ic", yer_id:"Rodos",
-  etiket:["mimari"],
+  etiket:["mimari","imar"],
   d:"İç kalenin kuzeybatı köşesinde büyük üstadın hem konutu hem son savunma noktası olan saray tamamlandı. Yapı bir saraydan çok bir kaledir ve tarikatın kendi tebaasına da güvenmediğini gösterir. 1856'daki barut patlamasında yıkılmış, 20. yüzyılda yeniden yapılmıştır.",
   kaynak:"Elias Kollias, The Medieval City of Rhodes and the Palace of the Grand Master (Athens, 1998) · yıl yaklaşıktır" },
 
@@ -472,7 +472,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
   kaynak:"Luttrell, The Hospitaller State on Rhodes and its Western Provinces 1306-1462 · Nicholson, The Knights Hospitaller · yıl yaklaşıktır" },
 
 { t:"1481-03-01", b:"Rodos'u vuran büyük deprem", tur:"felaket", onem:4, dunya:1, kapsam:"ic", yer_id:"Rodos",
-  etiket:["felaket","mimari"],
+  etiket:["felaket","mimari","imar"],
   d:"Kuşatmadan birkaç ay sonra ada şiddetli bir depremle sarsıldı ve zaten hasarlı olan surlarla şehrin büyük bölümü yıkıldı. d'Aubusson, Avrupa'dan topladığı bağışlarla yeniden inşaya girişti. Kuşatmanın açtığı yarayı tamamlayan bu felâket, adanın nüfusunu da azalttı.",
   kaynak:"Vatin, L'Ordre de Saint-Jean-de-Jérusalem... 1480-1522 (Peeters, 1994) · gün yaklaşıktır" },
 
@@ -482,7 +482,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
   kaynak:"Paul Cassar, Medical History of Malta (Wellcome Historical Medical Library, 1964) · Luttrell, The Hospitaller State on Rhodes · yıl yaklaşıktır" },
 
 { t:"1512-01-01", b:"Rodos'ta gemi inşa tersanesinin genişletilmesi", tur:"teknoloji", onem:3, dunya:1, kapsam:"ic", yer_id:"Rodos",
-  etiket:["teknoloji","askeri"],
+  etiket:["teknoloji","askeri","imar","islahat"],
   d:"Tarikat, büyük kalyon ve kadırga yapımı için tersanesini genişletti; bu dönemde inşa edilen Santa Anna adlı büyük karak, dönemin en ağır zırhlı gemilerinden sayıldı. Küçük bir ada devletinin dönemin en ileri gemilerini yapabilmesi, Batı'dan gelen sermaye ve teknik adam akışıyla mümkündü. Gemi, 1530'da tarikatla birlikte Malta'ya gitti.",
   kaynak:"Vatin, L'Ordre de Saint-Jean-de-Jérusalem... 1480-1522 · yıl yaklaşıktır" },
 
@@ -507,12 +507,12 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
   kaynak:"Peter Earle, Corsairs of Malta and Barbary (Sidgwick & Jackson, 1970) · Mallia-Milanes (ed.), Hospitaller Malta 1530-1798 · yıl yaklaşıktır" },
 
 { t:"1620-01-01", b:"Wignacourt Kuleleri — kıyı gözetleme ağının kurulması", tur:"mimari", onem:3, dunya:1, kapsam:"ic", yer_id:"Malta",
-  etiket:["mimari","askeri"],
+  etiket:["mimari","askeri","imar"],
   d:"Ada kıyısına, birbirini gören ve ateşle haberleşen bir gözetleme kuleleri zinciri yapıldı. Bir korsan yelkenlisi görüldüğünde haber dakikalar içinde Valletta'ya ulaşıyordu. Kuleler, Malta halkının Kuzey Afrika akınlarına karşı gündelik güvenliğini sağladı ve adanın siluetini kalıcı olarak biçimlendirdi.",
   kaynak:"Quentin Hughes, The Building of Malta 1530-1795 (Tiranti, 1956) · yıl yaklaşıktır" },
 
 { t:"1638-01-01", b:"Malta'da hastane hemşireliğinin kadınlara açılması ve Kadınlar Hastanesi", tur:"sosyal", onem:3, dunya:2, kapsam:"ic", yer_id:"Malta",
-  etiket:["sosyal","bilim","islahat"],
+  etiket:["sosyal","bilim","islahat","imar"],
   d:"Valletta'da kadın hastalar için ayrı bir hastane (Casetta delle Donne) kuruldu ve bakım kadın görevlilere verildi. Sacra Infermeria yalnız erkeklere hizmet ediyordu ve bu boşluk uzun süredir eleştiriliyordu. Tarikatın hasta bakımını cinsiyete göre kurumsallaştırması, dönemin Akdeniz'inde ileri bir uygulamadır.",
   kaynak:"Paul Cassar, Medical History of Malta (Wellcome Historical Medical Library, 1964) · yıl yaklaşıktır" },
 
@@ -522,7 +522,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
   kaynak:"Paul Cassar, Medical History of Malta · Mallia-Milanes (ed.), Hospitaller Malta 1530-1798 · gün yaklaşıktır" },
 
 { t:"1723-01-01", b:"Valletta'da Umumî Kütüphane'nin (Bibliotheca) temellerinin atılması", tur:"kultur", onem:3, dunya:2, kapsam:"ic", yer_id:"Malta",
-  etiket:["kultur","bilim"],
+  etiket:["kultur","bilim","imar"],
   d:"Ölen şövalyelerin kitaplarının tarikata kalması kuralı konarak bir kamu kütüphanesinin çekirdeği oluşturuldu; koleksiyon 1776'da halka açıldı. Kütüphane bugün tarikatın arşivini de barındırır. Kitabın miras yoluyla kamulaştırılması, dönem için alışılmadık bir kültür politikasıdır.",
   kaynak:"Mallia-Milanes (ed.), Hospitaller Malta 1530-1798 · yıl yaklaşıktır" },
 

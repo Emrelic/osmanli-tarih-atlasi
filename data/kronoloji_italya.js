@@ -148,7 +148,7 @@ window.KRONOLOJI_ITALYA = [
   kaynak:"bulunamadı — gün YAKLAŞIK (1 Kasım geleneksel tarih), standart akademik konsensüs" },
 
 { t:"1506-04-18", b:"Yeni Aziz Petrus Bazilikası'nın temelinin atılması", tur:"mimari", onem:3, dunya:3, kapsam:"ic", yer_id:"Roma",
-  etiket:["papalik","mimari","kultur"],
+  etiket:["papalik","mimari","kultur","imar"],
   d:"II. Julius, Konstantin döneminden kalma eski bazilikayı yıktırıp yerine Bramante'nin tasarladığı devasa yeni yapının temelini attı. İnşaat yüz yirmi yıl sürecek, Michelangelo'nun kubbesiyle Hristiyanlığın en büyük mimari simgelerinden biri olacaktı — ve endülüjans satışlarıyla finansmanı, birkaç yıl sonra Luther'in tepkisini tetikleyen unsurlardan biri olacaktı.",
   kaynak:"bulunamadı — gün DOĞRULANMADI, standart akademik konsensüs" },
 
@@ -649,7 +649,7 @@ window.KRONOLOJI_ITALYA = [
   kaynak:"data/devletler.js `floransa` embedded kronoloji: \"Cosimo de' Medici sürgünden dönüp şehrin fiilî hâkimi oldu\" (t:\"1434-09-26\")" },
 
 { t:"1436-03-25", b:"Floransa Katedrali kubbesinin açılışı", tur:"mimari", onem:4, dunya:4, kapsam:"ic", yer_id:"Floransa",
-  etiket:["floransa","mimari","kultur"],
+  etiket:["floransa","mimari","kultur","imar"],
   d:"Filippo Brunelleschi'nin, Roma'dan beri hiçbir mimarın çözemediği kadar geniş bir açıklığı iskelesiz kubbeyle örtme problemini yeni bir çifte-kabuk tekniğiyle çözmesiyle inşa edilen kubbe, Papa IV. Eugenius tarafından resmen açılıp katedral kutsandı. Yapı, mühendislik tarihinde bir dönüm noktası ve Floransa Rönesansı'nın en görünür simgesi oldu.",
   kaynak:"Opera di Santa Maria del Fiore (Floransa Katedrali'nin resmî kurumu, WebFetch ile okundu): \"Il 25 marzo 1436 veniva consacrata Santa Maria del Fiore\" (Papa IV. Eugenius tarafından); Encyclopaedia Britannica 'The Duomo' (WebSearch): \"The completed structure was consecrated in 1436\" — Treccani'de bu tarihi doğrudan veren sayfa bulunamadı, doğrulama kurumsal kaynak+Britannica ile yapıldı" },
 

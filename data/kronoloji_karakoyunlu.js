@@ -486,7 +486,7 @@ window.KRONOLOJI_KARAKOYUNLU = [
 // ───────────────────────── KÜLTÜR · MİMARÎ · İLİM · DİN · İKTİSAT
 
 { t:"1465-01-01", b:"Tebriz'de Gökmescid (Mescid-i Kebûd) inşasına başlandı", tur:"mimari",
-  onem:5, dunya:2, kapsam:"ic", etiket:["mimari","kultur","din","kultur"],
+  onem:5, dunya:2, kapsam:"ic", etiket:["mimari","kultur","din","kultur","imar"],
   yer_id:"Tebriz",
   d:"Cihan Şah, 870 (1465-66) yılında Tebriz'de mimar Muhammed el-Bevvâb'a bir külliye yaptırmaya başladı; mimarın adı çini kitâbede bugün hâlâ okunabilmektedir. Mavi çinilerle kaplı olduğu için halk arasında Mescid-i Kebûd (Gökmescid) diye anılan yapı, büyük ve hafifçe sivrilen bir kubbe ile onu çevreleyen üç alçak kubbeli mekândan oluşur ve Büyük Selçuklu mimarî ilkelerinin merkezî plana uyarlanmış hâlidir. Uzmanlarca İran'ın günümüzde sanat değeri en yüksek eserlerinden biri sayılır.",
   kaynak:"gokmescid · karakoyunlular · cihan-sah" },
@@ -498,7 +498,7 @@ window.KRONOLOJI_KARAKOYUNLU = [
   kaynak:"gokmescid" },
 
 { t:"1467-11-10", b:"Cihan Şah, Tebriz'de kendi yaptırdığı Muzafferiye Medresesi'ne gömüldü", tur:"kultur",
-  onem:3, dunya:1, kapsam:"ic", etiket:["mimari","kultur","din"],
+  onem:3, dunya:1, kapsam:"ic", etiket:["mimari","kultur","din","imar"],
   yer_id:"Tebriz",
   d:"Bingöl baskınında öldürülen Cihan Şah'ın cesedi Tebriz'e getirilerek kendi yaptırdığı Muzafferiye Medresesi'ne defnedildi. Külliyenin medrese kanadının banisinin türbesi hâline gelmesi, Karakoyunlu hükümdarlarının kendi eserleriyle kurdukları bağı gösterir.",
   kaynak:"cihan-sah" },

@@ -215,14 +215,50 @@ Ayrıntı — üç sınır kararı, mecaz elemeleri ve tam listeler:
 
 ## ⑥ İKİNCİ TUR — Emre'nin dört kararı (25 Ağustos)
 
-### `imar` — 362 aday okundu
+### `imar` — SEKİZ GEÇİŞ, ve her geçiş bir yanlış-pozitif sınıfı buldu
+
+İlk teslimim (248 kayıt) **koordinatör tarafından durduruldu**: `köprü` kelimesi
+**Köprülü Mehmed Paşa**'yı yakalıyordu. Süzgeç üç ayağa çıkarıldı; **her geçiş
+yeni bir sınıf** ortaya çıkardı ve **üçü de aynı kökten** — *kelime konuyu değil
+başka bir şeyi işaret ediyor*:
 
 ```
-imar adayı 362  [yalnız regex 147 · yalnız etiket 114]
-   ALTYAPI / ÜRETİM  → `islahat` + `imar`     69
-   OLAĞAN İMAR       → yalnız `imar`         179
-   ELENEN (desen tutmadı ama etiketi var)    114
+①  ÖZEL AD    Köprülü · Köprühisar · köprübaşı        (koordinatör buldu)
+              Balta Limanı · Liman von Sanders · Surnâme-i Vehbî ·
+              Çeşme baskını · Tersane Konferansı · Fabrika Yasası   (2. geçiş)
+②  OLAY       "Fatih Camii'nde fetva" · "Mudanya limanının ablukası" ·
+              "Mimar Sinan'ın ATANMASI" · "Bağdat Demiryolu ANTLAŞMASI"
+③  YER OLARAK LİMAN — en kalabalığı, 3. geçişte çıktı
+              "Kolomb PALOS LİMANINDAN açıldı" · "Brezilya LİMANLARI açıldı"
+              ⇒ `liman … açıldı` TİCARETTİR; `kanal … açıldı` İNŞAATIN BİTİŞİ
 ```
+
+**Sekiz geçişin sayıları:** 248 → 267 → 259 → 255 → 246 → 251 → 260 → **264**
+
+```
+ALTYAPI / ÜRETİM  → `islahat` + `imar`    40
+OLAĞAN İMAR       → yalnız `imar`        224
+                    ─────────────────────────
+                    TOPLAM KALAN         264
+elenen — ÖZEL AD                          15
+elenen — OLAY                             43
+elenen — işaretsiz                        17
+gövde (`d:`) okunarak kurtarılan          38
+```
+
+🔴 **Ve eleme kovasını ÜÇ KEZ kendi içinde taradım** — kendi dersimin
+uygulaması. Her turda gerçek `imar` kaydı çıktı: ilk taramada 30 elenenin
+**~12'si** (Galata Kulesi · Rialto Köprüsü · Ginkaku-ji · Saint Peter Kalesi),
+ikincisinde 5'i. Kök her seferinde **çekim eksikliğiydi**: `yapılması` ·
+`imar ettirdi` · `yükseldi` · `modernleştirilmesi` YAPIM listesinde yoktu.
+
+⚠️ **Artık hata ölçüldü ve gizlenmedi:** son 17 elenenin **2'si** hâlâ gerçek
+imar görünüyor (Fort Manoel'in *"adanın imarı"* · Fonte Gaia anıtsal çeşmesi)
+⇒ **yanlış-negatif ~%12**. Dokuzuncu geçiş kazancı azaltıyor; sayıyı
+saklamak yerine **bildiriyorum**. Elenenlerin tamamı `imar_elenen` kovasında.
+
+📌 **Başlık okuyarak tasnifin bedeli bu vakada ölçüldü.** Gövde (`d:`) okuması
+38 kaydı kurtardı — yani başlığa güvenmek o 38'i kaybettirecekti.
 
 **🔴 Baş ad: `imar` — ve gerekçesi ölçüm.** Bugünkü `mimari` etiketi **212**
 kayıtta var ve **207'si eser/bayındırlık**, yalnız **5'i** üslup/sanat

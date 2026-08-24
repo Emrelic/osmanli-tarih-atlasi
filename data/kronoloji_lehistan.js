@@ -788,7 +788,7 @@ window.KRONOLOJI_LEHISTAN = [
   kaynak:"Norman Davies, God's Playground: A History of Poland (Oxford UP) — TDV bu taneciği kapsamıyor" },
 
 { t:"1473-01-01", b:"Polonya'da ilk matbaa Krakov'da çalışmaya başladı", tur:"bilim",
-  onem:4, dunya:2, kapsam:"ic", etiket:["bilim","kultur"],
+  onem:4, dunya:2, kapsam:"ic", etiket:["bilim","kultur","imar","islahat"],
   yer_id:"Krakov",
   d:"Kasper Straube'nin Krakov'daki atölyesi Polonya topraklarında basılan ilk kitapları çıkardı. Matbaanın gelişi Krakov Akademisi çevresindeki hümanist çevreyi güçlendirdi ve 16. yüzyılda Polonya'yı Orta Avrupa'nın en yoğun kitap üreten merkezlerinden biri yapacak zemini kurdu.",
   kaynak:"Norman Davies, God's Playground: A History of Poland (Oxford UP) — TDV bu taneciği kapsamıyor" },
@@ -919,7 +919,7 @@ window.KRONOLOJI_LEHISTAN = [
   kaynak:"Norman Davies, God's Playground: A History of Poland (Oxford UP) — TDV bu taneciği kapsamıyor" },
 
 { t:"1747-08-08", b:"Załuski Kütüphanesi açıldı — Avrupa'nın ilk halk kütüphanelerinden", tur:"kultur",
-  onem:4, dunya:3, kapsam:"ic", etiket:["kultur"],
+  onem:4, dunya:3, kapsam:"ic", etiket:["kultur","imar"],
   yer_id:"Varşova",
   d:"Załuski kardeşler yaklaşık dört yüz bin ciltlik özel koleksiyonlarını halka açtılar. Kütüphane Avrupa'nın ilk kamuya açık büyük kütüphanelerinden biridir; 1795'te Rusya tarafından Petersburg'a taşınmış, koleksiyonun büyük kısmı 1944'te yakılmıştır.",
   kaynak:"Norman Davies, God's Playground: A History of Poland (Oxford UP) — TDV bu taneciği kapsamıyor" },

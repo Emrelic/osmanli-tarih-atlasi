@@ -105,7 +105,7 @@ window.KRONOLOJI_NAKSA_DUKALIGI = [
 
 // ── EK PARTİ: toplum · hukuk · iktisat · din · mimarî ──
 { t:"1220-01-01", b:"Nakşa Kastro'sunun (kale-şehir) kurulması", tur:"mimari", onem:4, dunya:1, kapsam:"ic", yer_id:"Nakşa",
-  etiket:["mimari","idari"],
+  etiket:["mimari","idari","imar"],
   d:"Sanudo, Nakşa şehrinin tepesinde surla çevrili bir Latin mahallesi (Kastro) kurdurdu; içinde duka konağı, Katolik katedral ve Venedikli ailelerin evleri vardı. Rum halk surun dışındaki varoşta yaşadı. Bu fizikî ayrım, dukalığın toplumsal düzeninin taşa dökülmüş hâlidir ve Nakşa'da bugün hâlâ ayakta durmaktadır.",
   kaynak:"Lock, The Franks in the Aegean 1204-1500 (Longman, 1995) · Slot, Archipelagus Turbatus (1982) · yıl yaklaşıktır" },
 
@@ -125,7 +125,7 @@ window.KRONOLOJI_NAKSA_DUKALIGI = [
   kaynak:"Slot, Archipelagus Turbatus · Lock, The Franks in the Aegean 1204-1500 · yıl yaklaşıktır" },
 
 { t:"1470-01-01", b:"Kiklad kule-çiftliklerinin (pyrgos) yaygınlaşması", tur:"mimari", onem:3, dunya:1, kapsam:"ic", yer_id:"Nakşa",
-  etiket:["mimari","sosyal"],
+  etiket:["mimari","sosyal","imar"],
   d:"Latin beyleri, korsan akınlarına karşı kendi topraklarında tahkimli kule-konaklar yaptırmaya başladı; alt katı ahır ve depo, üst katı konut ve son savunma noktasıydı. Nakşa'da bu kulelerden onlarcası ayakta kalmıştır. Bir devletin merkezî savunma sağlayamadığı yerde mimarînin nasıl askerîleştiğinin örneğidir.",
   kaynak:"Slot, Archipelagus Turbatus (1982) · yıl yaklaşıktır" },
 

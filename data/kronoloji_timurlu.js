@@ -131,12 +131,12 @@ window.KRONOLOJI_TIMURLU = [
 // ══════════════════════════════════════════════════════════════════
 
 { t:"1417-01-01", b:"Uluğ Bey Medresesi'nin inşaatı başladı — Registan'ın ilk yapısı", tur:"bilim", onem:4, dunya:2, kapsam:"ic", yer_id:"Semerkant",
-  etiket:["bilim","kultur"],
+  etiket:["bilim","kultur","imar"],
   d:"Semerkant'ın fiilî valisi genç Uluğ Bey, kendi adını taşıyacak medresenin inşaatını başlattı; üç yıl sonra tamamlanan yapı, iki asır sonra çevresine eklenecek Şirdar ve Tillakâri medreseleriyle birlikte Registan Meydanı'nın çekirdeğini oluşturdu. Medrese yalnız dinî değil, matematik ve astronomi eğitiminin de merkezi olacaktı.",
   kaynak:"standart akademik kronoloji, çapraz doğrulama (Uluğ Bey Medresesi'nin 1417-1420 inşaat tarihleri — TDV `semerkant` maddesiyle teyitli)" },
 
 { t:"1420-01-01", b:"Uluğ Bey Rasathanesi'nin inşaatı başladı", tur:"bilim", onem:5, dunya:2, kapsam:"ic", yer_id:"Semerkant",
-  etiket:["bilim","teknoloji"],
+  etiket:["bilim","teknoloji","imar"],
   d:"Uluğ Bey, Semerkant'ın kuzeyindeki bir tepede, yarıçapı kırk metreyi bulan devasa bir sekstant içeren üç katlı bir rasathane inşa ettirdi; çağının en büyük gökbilim yapısı olan tesis sekiz yıl sonra tamamlandı. Uluğ Bey burada Kadızâde-i Rûmî, Gıyâseddin Cemşîd el-Kâşî ve genç Ali Kuşçu gibi dönemin en önde gelen matematikçi ve gökbilimcilerini bir araya topladı.",
   kaynak:"TDV `ulug-bey`: rasathanenin kuruluşu ve bilginlerin toplanması anlatılıyor, inşaat tarihi vermiyor · standart akademik kronoloji (1420 başlangıç, ~1428 tamamlanma — çoklu akademik özet kaynak)" },
 

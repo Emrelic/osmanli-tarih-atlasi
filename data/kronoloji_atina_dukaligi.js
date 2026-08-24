@@ -24,7 +24,7 @@ window.KRONOLOJI_ATINA_DUKALIGI = [
   kaynak:"Lock, The Franks in the Aegean 1204-1500 (Longman, 1995) · Setton, The Papacy and the Levant, c. I · gün bilinmiyor" },
 
 { t:"1208-01-01", b:"Partenon'un Latin katedraline çevrilmesi", tur:"din", onem:5, dunya:3, kapsam:"ic", yer_id:"Atina",
-  etiket:["din","mimari","kultur"],
+  etiket:["din","mimari","kultur","imar"],
   d:"Ortodoks Meryem kilisesi olarak kullanılmakta olan Partenon, Latin başpiskoposluğunun katedrali (Notre-Dame d'Athènes) hâline getirildi ve içine bir çan kulesi eklendi. Yapı böylece tapınak, kilise ve katedral olarak kesintisiz kullanımını sürdürdü. Atina'nın Latin çağının en somut ve en uzun ömürlü izidir.",
   kaynak:"TDV 'atina' md.: \"Parthenon Katedrali camiye çevrildi\" (sonraki devir için) · Setton, 'The Latins in Greece and the Aegean', Cambridge Medieval History IV/1 · gün bilinmiyor" },
 
@@ -105,7 +105,7 @@ window.KRONOLOJI_ATINA_DUKALIGI = [
 
 // ── EK PARTİ: kültür · hukuk · mimarî · bilim ──
 { t:"1225-01-01", b:"Daphni Manastırı'nın Sistersiyen tarikatına verilmesi", tur:"din", onem:4, dunya:2, kapsam:"ic", yer_id:"Atina",
-  etiket:["din","mimari","kultur"],
+  etiket:["din","mimari","kultur","imar"],
   d:"Otto de la Roche, Atina yakınındaki ünlü Bizans manastırı Daphni'yi Burgonya'dan getirdiği Sistersiyen rahiplere verdi ve burayı hanedan mezarlığı yaptı. Yapıya Gotik bir revak eklendi; 11. yüzyıl Bizans mozaikleri korundu. Latin ve Bizans mimarîsinin aynı yapıda üst üste durması, Frank Atina'sının kültürel karakterinin özetidir.",
   kaynak:"Lock, The Franks in the Aegean 1204-1500 (Longman, 1995) · Setton, 'The Latins in Greece and the Aegean', Cambridge Medieval History IV/1 · yıl yaklaşıktır" },
 
@@ -120,7 +120,7 @@ window.KRONOLOJI_ATINA_DUKALIGI = [
   kaynak:"Lock, The Franks in the Aegean 1204-1500 · Longnon, L'Empire latin de Constantinople · yıl yaklaşıktır" },
 
 { t:"1300-01-01", b:"Akropolis'in duka sarayına çevrilmesi ve Propylaia'nın konut olması", tur:"mimari", onem:4, dunya:2, kapsam:"ic", yer_id:"Atina",
-  etiket:["mimari","kultur"],
+  etiket:["mimari","kultur","imar"],
   d:"Dukalar, Akropolis'in anıtsal giriş yapısı Propylaia'yı kendi konutlarına çevirdi ve yanına bir Frank kulesi ('Frank Kulesi') diktirdi. Antik yapı böylece bir Orta Çağ şatosunun parçası oldu. Kule 1874'te yıkıldı; Latin Atina'sının en görünür izinin kaldırılması, 19. yüzyıl Yunan millî tarih anlayışının bir kararıydı.",
   kaynak:"Setton, 'The Latins in Greece and the Aegean', Cambridge Medieval History IV/1 · Lock, The Franks in the Aegean 1204-1500 · yıl yaklaşıktır" },
 

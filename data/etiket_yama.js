@@ -32,7 +32,13 @@
 //   isyan_darbe_elemesinden  darbe-degil kovasindan cikan 16 ISYAN kaydi
 //   kriz_dagitimi            tur:"kriz" 67 kayit OKUNDU ve dagitildi
 //   semsiye_tablosu          artik YAMA UYGULANMIS hali gosteriyor
-//                            (yama_oncesi sayilari da her satirda duruyor)
+//                            (yama_oncesi sayilari da her satirda duruyor)//
+// ── UCUNCU TUR (25 Agustos): `imar` YENIDEN ELENDI ────────────────────
+//   Koordinator yanlis-pozitif sinifini yakaladi (OZEL AD: Koprulu · Kopruhisar).
+//   Sekiz gecis: 248 → 267 → 259 → 255 → 246 → 251 → 260 → 264
+//   Uc ayri yanlis-pozitif sinifi, ucu de AYNI KOKTEN — kelime KONUYU degil
+//   baska bir seyi isaret ediyor: ① OZEL AD ② OLAY ③ YER OLARAK LIMAN.
+//   `imar_elenen` AYRI KOVA: eleme kovasi uc kez kendi icinde tarandi.
 window.ETIKET_YAMA = {
  "semsiye_tablosu": [
   {
@@ -290,15 +296,21 @@ window.ETIKET_YAMA = {
   "cok_semsiyeli_madde": 3026,
   "siniflandirilmamis_bugun": 4890,
   "siniflandirilmamis_yama_sonrasi": 21,
-  "imar_aday": 362,
-  "imar_altyapi": 69,
-  "imar_olagan": 179,
+  "imar_aday": 339,
+  "imar_altyapi": 40,
+  "imar_olagan": 224,
   "imar_elenen": 114,
   "kriz_dagitilan": 67,
   "kriz_atanmamis": 0,
   "isyan_elemeden": 16,
   "semsiye_uyeligi_yama_sonrasi": 10021,
-  "cok_semsiyeli_yama_sonrasi": 3257
+  "cok_semsiyeli_yama_sonrasi": 3257,
+  "imar_elenen_ozel_ad": 15,
+  "imar_elenen_olay": 43,
+  "imar_elenen_isaretsiz": 17,
+  "imar_govdeden_kurtarilan": 38,
+  "imar_gecis": 8,
+  "imar_artik_yanlis_negatif_yuzde": 12
  },
  "sozluk_koprusu": [
   {
@@ -3036,7 +3048,9 @@ window.ETIKET_YAMA = {
   }
  ],
  "imar": {
-  "aday": 362,
+  "aday": 339,
+  "gecis_sayisi": 8,
+  "onceki_teslim": 248,
   "altyapi_islahat_ve_imar": [
    {
     "t": "1859-04-25",
@@ -3048,17 +3062,8 @@ window.ETIKET_YAMA = {
     ]
    },
    {
-    "t": "1321-01-01",
-    "b": "Mudanya limanının abluka altına alınışı",
-    "kume": "ANA",
-    "etiket_ekle": [
-     "imar",
-     "islahat"
-    ]
-   },
-   {
-    "t": "1838-08-16",
-    "b": "Balta Limanı Ticaret Antlaşması",
+    "t": "1727-07-05",
+    "b": "İlk Osmanlı matbaası kuruldu",
     "kume": "ANA",
     "etiket_ekle": [
      "imar",
@@ -3093,44 +3098,8 @@ window.ETIKET_YAMA = {
     ]
    },
    {
-    "t": "1849-05-01",
-    "b": "Baltalimanı Sözleşmesi: Eflak ve Boğdan'da ortak Osmanlı-Rus himayesi",
-    "kume": "ANA",
-    "etiket_ekle": [
-     "imar",
-     "islahat"
-    ]
-   },
-   {
     "t": "1869-11-17",
     "b": "Süveyş Kanalı'nın açılışı: Mısır üzerinden Hint yolunun kısalması",
-    "kume": "ANA",
-    "etiket_ekle": [
-     "imar",
-     "islahat"
-    ]
-   },
-   {
-    "t": "1876-12-23",
-    "b": "Tersane Konferansı: büyük devletlerin Balkan reform dayatması",
-    "kume": "ANA",
-    "etiket_ekle": [
-     "imar",
-     "islahat"
-    ]
-   },
-   {
-    "t": "1884-02-01",
-    "b": "Sevâkin — Mehdî'ye düşmeyen tek liman",
-    "kume": "ANA",
-    "etiket_ekle": [
-     "imar",
-     "islahat"
-    ]
-   },
-   {
-    "t": "1888-09-24",
-    "b": "Haydarpaşa-Ankara demiryolu imtiyazının Almanlara verilmesi",
     "kume": "ANA",
     "etiket_ekle": [
      "imar",
@@ -3147,8 +3116,8 @@ window.ETIKET_YAMA = {
     ]
    },
    {
-    "t": "1914-10-29",
-    "b": "Karadeniz Baskını: Osmanlı donanmasının Rus limanlarını bombalaması",
+    "t": "1493-01-01",
+    "b": "İstanbul'da ilk matbaanın kurulması",
     "kume": "ANA",
     "etiket_ekle": [
      "imar",
@@ -3156,8 +3125,8 @@ window.ETIKET_YAMA = {
     ]
    },
    {
-    "t": "1915-01-14",
-    "b": "Birinci Kanal Harekâtı: Süveyş'e Sina çölü üzerinden taarruz",
+    "t": "1727-07-01",
+    "b": "İbrahim Müteferrika'ya matbaa kurma izni",
     "kume": "ANA",
     "etiket_ekle": [
      "imar",
@@ -3174,62 +3143,8 @@ window.ETIKET_YAMA = {
     ]
    },
    {
-    "t": "1844-06-04",
-    "b": "Silezya dokumacı ayaklanması",
-    "kume": "YAB",
-    "etiket_ekle": [
-     "imar",
-     "islahat"
-    ]
-   },
-   {
-    "t": "1903-03-05",
-    "b": "Bağdat Demiryolu Antlaşması",
-    "kume": "YAB",
-    "etiket_ekle": [
-     "imar",
-     "islahat"
-    ]
-   },
-   {
-    "t": "1913-12-14",
-    "b": "Liman von Sanders'in Osmanlı ordusuna atanması",
-    "kume": "YAB",
-    "etiket_ekle": [
-     "imar",
-     "islahat"
-    ]
-   },
-   {
-    "t": "1185-01-01",
-    "b": "Amisos (Samsun) limanının fethi",
-    "kume": "YAB",
-    "etiket_ekle": [
-     "imar",
-     "islahat"
-    ]
-   },
-   {
     "t": "1222-01-01",
     "b": "Alanya (Kalonoros)'ın fethi ve tersanenin kuruluşu",
-    "kume": "YAB",
-    "etiket_ekle": [
-     "imar",
-     "islahat"
-    ]
-   },
-   {
-    "t": "1329-01-01",
-    "b": "İzmir Liman Kalesi'nin (Aşağı Kale) fethi",
-    "kume": "YAB",
-    "etiket_ekle": [
-     "imar",
-     "islahat"
-    ]
-   },
-   {
-    "t": "1344-10-28",
-    "b": "İzmir Liman Kalesi'nin Haçlılar tarafından alınması",
     "kume": "YAB",
     "etiket_ekle": [
      "imar",
@@ -3246,17 +3161,8 @@ window.ETIKET_YAMA = {
     ]
    },
    {
-    "t": "1337-01-01",
-    "b": "Ayas limanı Memlüklerin eline geçti",
-    "kume": "YAB",
-    "etiket_ekle": [
-     "imar",
-     "islahat"
-    ]
-   },
-   {
-    "t": "1280-01-01",
-    "b": "Tebai'de ipek dokumacılığının Latin himayesinde gelişmesi",
+    "t": "1493-01-01",
+    "b": "Đurađ Crnojević, Balkanlar'ın ilk Kiril matbaasını Cetine'de kurdu",
     "kume": "YAB",
     "etiket_ekle": [
      "imar",
@@ -3266,24 +3172,6 @@ window.ETIKET_YAMA = {
    {
     "t": "1893-08-06",
     "b": "Korint Kanalı'nın açılması",
-    "kume": "YAB",
-    "etiket_ekle": [
-     "imar",
-     "islahat"
-    ]
-   },
-   {
-    "t": "1685-01-01",
-    "b": "Dört gümrük limanı açıldı (Kanton · Xiamen · Ningbo · Şanghay)",
-    "kume": "YAB",
-    "etiket_ekle": [
-     "imar",
-     "islahat"
-    ]
-   },
-   {
-    "t": "1757-01-01",
-    "b": "Kanton Sistemi — dış ticaret tek limana kısıtlandı",
     "kume": "YAB",
     "etiket_ekle": [
      "imar",
@@ -3309,35 +3197,8 @@ window.ETIKET_YAMA = {
     ]
    },
    {
-    "t": "1911-05-09",
-    "b": "Demiryolları millîleştirme kararı isyanı ateşledi",
-    "kume": "YAB",
-    "etiket_ekle": [
-     "imar",
-     "islahat"
-    ]
-   },
-   {
-    "t": "1332-01-01",
-    "b": "Amda Sion Zeyla' limanını ve Evfât topraklarının büyük kısmını aldı",
-    "kume": "YAB",
-    "etiket_ekle": [
-     "imar",
-     "islahat"
-    ]
-   },
-   {
-    "t": "1828-01-01",
-    "b": "Umman Sultanlığı'nın ikiye bölünmesi ve güney Somali limanlarının Zengibar'a tâbi olması",
-    "kume": "YAB",
-    "etiket_ekle": [
-     "imar",
-     "islahat"
-    ]
-   },
-   {
-    "t": "1877-01-02",
-    "b": "Berberâ'nın serbest liman ilân edilmesi ve Osmanlı hâkimiyet iddiasının tanınması",
+    "t": "1470-01-01",
+    "b": "Fransa'nın ilk matbaasının Sorbonne'da kurulması",
     "kume": "YAB",
     "etiket_ekle": [
      "imar",
@@ -3354,8 +3215,8 @@ window.ETIKET_YAMA = {
     ]
    },
    {
-    "t": "1772-01-01",
-    "b": "İngiliz Doğu Hindistan Şirketi Sind'de ilk fabrikasını kurdu",
+    "t": "1821-10-01",
+    "b": "Kottayam'da matbaa kuruldu; Malayalam basılı kitapla tanıştı",
     "kume": "YAB",
     "etiket_ekle": [
      "imar",
@@ -3363,8 +3224,8 @@ window.ETIKET_YAMA = {
     ]
    },
    {
-    "t": "1620-01-01",
-    "b": "Deniz İpek yolu Sind limanlarını Basra körfezine bağladı",
+    "t": "1709-01-01",
+    "b": "Tiflis'te ilk Gürcü matbaasının kurulması (yaklaşık tarih)",
     "kume": "YAB",
     "etiket_ekle": [
      "imar",
@@ -3381,8 +3242,8 @@ window.ETIKET_YAMA = {
     ]
    },
    {
-    "t": "1613-01-11",
-    "b": "İngiliz Doğu Hindistan Şirketi Sûrat'ta ilk ticaret fabrikasını açtı",
+    "t": "1476-01-01",
+    "b": "Caxton Westminster'da İngiltere'nin ilk matbaasını kurdu",
     "kume": "YAB",
     "etiket_ekle": [
      "imar",
@@ -3408,15 +3269,6 @@ window.ETIKET_YAMA = {
     ]
    },
    {
-    "t": "1833-01-01",
-    "b": "Fabrika Yasası — çocuk işçiliği sınırlandı",
-    "kume": "YAB",
-    "etiket_ekle": [
-     "imar",
-     "islahat"
-    ]
-   },
-   {
     "t": "1866-07-27",
     "b": "Kalıcı Atlantik telgraf kablosu tamamlandı",
     "kume": "YAB",
@@ -3435,80 +3287,8 @@ window.ETIKET_YAMA = {
     ]
    },
    {
-    "t": "1875-11-25",
-    "b": "Disraeli Süveyş Kanalı hisselerini satın aldı",
-    "kume": "YAB",
-    "etiket_ekle": [
-     "imar",
-     "islahat"
-    ]
-   },
-   {
-    "t": "1555-01-01",
-    "b": "İran halı ve ipek dokuma sanayii zirveye ulaştı",
-    "kume": "YAB",
-    "etiket_ekle": [
-     "imar",
-     "islahat"
-    ]
-   },
-   {
-    "t": "1492-08-03",
-    "b": "Kolomb, Palos limanından Atlas Okyanusu'na açıldı",
-    "kume": "YAB",
-    "etiket_ekle": [
-     "imar",
-     "islahat"
-    ]
-   },
-   {
-    "t": "1778-10-12",
-    "b": "Serbest Ticaret Kararnamesi — sömürge limanlarının açılması",
-    "kume": "YAB",
-    "etiket_ekle": [
-     "imar",
-     "islahat"
-    ]
-   },
-   {
-    "t": "1629-09-16",
-    "b": "Altmark Ateşkesi — Prusya limanları İsveç'e geçti",
-    "kume": "YAB",
-    "etiket_ekle": [
-     "imar",
-     "islahat"
-    ]
-   },
-   {
-    "t": "1347-01-01",
-    "b": "Kefe'den taşınan Kara Ölüm'ün Cenova limanına girmesi",
-    "kume": "YAB",
-    "etiket_ekle": [
-     "imar",
-     "islahat"
-    ]
-   },
-   {
-    "t": "1492-08-02",
-    "b": "İspanya'dan sürülen Yahudilerin Cenova limanına gelmesi",
-    "kume": "YAB",
-    "etiket_ekle": [
-     "imar",
-     "islahat"
-    ]
-   },
-   {
-    "t": "1590-06-01",
-    "b": "Serbest liman uygulaması — tahılın gümrüksüz girişi",
-    "kume": "YAB",
-    "etiket_ekle": [
-     "imar",
-     "islahat"
-    ]
-   },
-   {
-    "t": "1872-10-04",
-    "b": "Tomioka İpek Fabrikası açıldı",
+    "t": "1471-06-01",
+    "b": "Cenova'da matbaanın kurulması",
     "kume": "YAB",
     "etiket_ekle": [
      "imar",
@@ -3525,6 +3305,24 @@ window.ETIKET_YAMA = {
     ]
    },
    {
+    "t": "1473-01-01",
+    "b": "Polonya'da ilk matbaa Krakov'da çalışmaya başladı",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar",
+     "islahat"
+    ]
+   },
+   {
+    "t": "1473-06-05",
+    "b": "Macaristan'ın ilk matbaası — Hess András'ın Buda'da 'Chronica Hungarorum'u basması",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar",
+     "islahat"
+    ]
+   },
+   {
     "t": "1868-11-01",
     "b": "Magyar Államvasutak'ın (MÁV, Macar Devlet Demiryolları) kurulması",
     "kume": "YAB",
@@ -3534,8 +3332,8 @@ window.ETIKET_YAMA = {
     ]
    },
    {
-    "t": "1426-01-01",
-    "b": "Cidde limanı gelirlerinin ele geçirilmesi, Kızıldeniz ticaret tekeli",
+    "t": "1821-11-14",
+    "b": "Bulak Matbaası'nın resmî açılışı",
     "kume": "YAB",
     "etiket_ekle": [
      "imar",
@@ -3561,44 +3359,8 @@ window.ETIKET_YAMA = {
     ]
    },
    {
-    "t": "1915-01-14",
-    "b": "Birinci Kanal Harekâtı — Osmanlı'nın Süveyş'e taarruzu",
-    "kume": "YAB",
-    "etiket_ekle": [
-     "imar",
-     "islahat"
-    ]
-   },
-   {
-    "t": "1569-04-01",
-    "b": "Don-Volga kanalı projesi arazide çöktü",
-    "kume": "YAB",
-    "etiket_ekle": [
-     "imar",
-     "islahat"
-    ]
-   },
-   {
-    "t": "1808-01-28",
-    "b": "Brezilya limanları dost uluslara açıldı",
-    "kume": "YAB",
-    "etiket_ekle": [
-     "imar",
-     "islahat"
-    ]
-   },
-   {
-    "t": "1344-10-28",
-    "b": "İzmir Limanı Kalesi'nin Haçlı birliğince alınması",
-    "kume": "YAB",
-    "etiket_ekle": [
-     "imar",
-     "islahat"
-    ]
-   },
-   {
-    "t": "1634-09-18",
-    "b": "Baruthane patlaması — Valletta'da büyük felâket",
+    "t": "1642-01-01",
+    "b": "Malta'da ilk matbaanın kurulması",
     "kume": "YAB",
     "etiket_ekle": [
      "imar",
@@ -3608,15 +3370,6 @@ window.ETIKET_YAMA = {
    {
     "t": "1512-01-01",
     "b": "Rodos'ta gemi inşa tersanesinin genişletilmesi",
-    "kume": "YAB",
-    "etiket_ekle": [
-     "imar",
-     "islahat"
-    ]
-   },
-   {
-    "t": "1764-01-01",
-    "b": "Malta limanının Akdeniz karantina merkezi hâline gelmesi",
     "kume": "YAB",
     "etiket_ekle": [
      "imar",
@@ -3661,30 +3414,6 @@ window.ETIKET_YAMA = {
    }
   ],
   "olagan_yalniz_imar": [
-   {
-    "t": "1770-07",
-    "b": "Çeşme baskını",
-    "kume": "ANA",
-    "etiket_ekle": [
-     "imar"
-    ]
-   },
-   {
-    "t": "1300-01-01",
-    "b": "Köprühisar'ın alınışı ve Yenişehir'in kuruluşuna hazırlık",
-    "kume": "ANA",
-    "etiket_ekle": [
-     "imar"
-    ]
-   },
-   {
-    "t": "1471-08-24",
-    "b": "Arzila'nın Portekiz tarafından alınışı — Fas kıyısında ikinci köprübaşı",
-    "kume": "ANA",
-    "etiket_ekle": [
-     "imar"
-    ]
-   },
    {
     "t": "1543-06-01",
     "b": "Şehzade Camii ve Külliyesi'nin inşaatının başlaması",
@@ -3768,6 +3497,14 @@ window.ETIKET_YAMA = {
    {
     "t": "1419-12-01",
     "b": "Bursa Yeşil Cami Külliyesi'nin tamamlanması",
+    "kume": "ANA",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1592-01-01",
+    "b": "Dâvud Ağa'nın hassa mimarbaşı olması",
     "kume": "ANA",
     "etiket_ekle": [
      "imar"
@@ -3878,22 +3615,6 @@ window.ETIKET_YAMA = {
     ]
    },
    {
-    "t": "1839-05-14",
-    "b": "Tıp okulunun Mekteb-i Tıbbiyye-i Adliyye-i Şâhâne adını alması",
-    "kume": "ANA",
-    "etiket_ekle": [
-     "imar"
-    ]
-   },
-   {
-    "t": "1873-06-28",
-    "b": "Darüşşafaka okulunun eğitime başlaması",
-    "kume": "ANA",
-    "etiket_ekle": [
-     "imar"
-    ]
-   },
-   {
     "t": "1399-06-01",
     "b": "Bursa Ulu Camii tamamlandı",
     "kume": "ANA",
@@ -3934,6 +3655,14 @@ window.ETIKET_YAMA = {
     ]
    },
    {
+    "t": "1577-01-01",
+    "b": "İstanbul Rasathanesi kuruldu",
+    "kume": "ANA",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
     "t": "1331-01-01",
     "b": "İznik'te ilk Osmanlı medresesinin kurulması",
     "kume": "ANA",
@@ -3942,40 +3671,8 @@ window.ETIKET_YAMA = {
     ]
    },
    {
-    "t": "1354-03-02",
-    "b": "Gelibolu'nun alınışı — Rumeli'de kalıcı köprübaşı",
-    "kume": "ANA",
-    "etiket_ekle": [
-     "imar"
-    ]
-   },
-   {
     "t": "1400-01-01",
     "b": "Bursa'da Yıldırım Darüşşifası — ilk Osmanlı hastanesi",
-    "kume": "ANA",
-    "etiket_ekle": [
-     "imar"
-    ]
-   },
-   {
-    "t": "1914-11-14",
-    "b": "Cihâd-ı Ekber ilanı: Fatih Camii'nde cihad fetvasının okunması",
-    "kume": "ANA",
-    "etiket_ekle": [
-     "imar"
-    ]
-   },
-   {
-    "t": "1918-03-03",
-    "b": "Brest-Litovsk Antlaşması: Kars, Ardahan ve Batum'un geri alınması",
-    "kume": "ANA",
-    "etiket_ekle": [
-     "imar"
-    ]
-   },
-   {
-    "t": "1551-01-01",
-    "b": "Ardahan ve Çıldır havzasının alınması",
     "kume": "ANA",
     "etiket_ekle": [
      "imar"
@@ -3998,16 +3695,8 @@ window.ETIKET_YAMA = {
     ]
    },
    {
-    "t": "1565-06-29",
-    "b": "Sokullu Mehmed Paşa sadrazamlığa yükseldi",
-    "kume": "ANA",
-    "etiket_ekle": [
-     "imar"
-    ]
-   },
-   {
-    "t": "1579-10-12",
-    "b": "Sokullu Mehmed Paşa suikaste uğrayıp öldürüldü",
+    "t": "1580-01-22",
+    "b": "İstanbul Rasathanesi hatt-ı hümâyunla yıktırıldı",
     "kume": "ANA",
     "etiket_ekle": [
      "imar"
@@ -4022,64 +3711,8 @@ window.ETIKET_YAMA = {
     ]
    },
    {
-    "t": "1656-09-15",
-    "b": "Köprülü Mehmed Paşa'nın şartlı kabulle sadrazamlığa atanması",
-    "kume": "ANA",
-    "etiket_ekle": [
-     "imar"
-    ]
-   },
-   {
-    "t": "1656-10-01",
-    "b": "Kadızadeliler hareketinin Köprülü Mehmed Paşa tarafından bastırılması",
-    "kume": "ANA",
-    "etiket_ekle": [
-     "imar"
-    ]
-   },
-   {
-    "t": "1661-11-01",
-    "b": "Köprülüzâde Fâzıl Ahmed Paşa'nın sadrazamlığa atanması",
-    "kume": "ANA",
-    "etiket_ekle": [
-     "imar"
-    ]
-   },
-   {
-    "t": "1665-06-01",
-    "b": "Vânî Mehmed Efendi'nin Yeni Cami vâizliğine ve pâdişah hocalığına atanması",
-    "kume": "ANA",
-    "etiket_ekle": [
-     "imar"
-    ]
-   },
-   {
-    "t": "1689-10-25",
-    "b": "Köprülüzâde Fâzıl Mustafa Paşa'nın sadrazamlığa atanması ve mali ıslahatları",
-    "kume": "ANA",
-    "etiket_ekle": [
-     "imar"
-    ]
-   },
-   {
-    "t": "1734-06-01",
-    "b": "Hendesehâne'nin (mühendislik okulunun ilk örneği) kuruluşu",
-    "kume": "ANA",
-    "etiket_ekle": [
-     "imar"
-    ]
-   },
-   {
     "t": "1766-05-01",
     "b": "Büyük İstanbul depremi ve Fâtih Camii'nin yıkılması",
-    "kume": "ANA",
-    "etiket_ekle": [
-     "imar"
-    ]
-   },
-   {
-    "t": "1772-10-01",
-    "b": "Baron de Tott öncülüğünde kısa ömürlü topçuluk okulu denemesi",
     "kume": "ANA",
     "etiket_ekle": [
      "imar"
@@ -4103,7 +3736,39 @@ window.ETIKET_YAMA = {
    },
    {
     "t": "1478-06-01",
+    "b": "Heşt Bihişt Sarayı — Venedikli tacirlerin hayranlıkla anlattığı yapı",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1478-06-01",
     "b": "Gökmescid'in tamamlanması — rakibin eserini bitirmek",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1842-09-04",
+    "b": "Köln Katedrali'nin inşasının yeniden başlatılması",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1341-01-01",
+    "b": "Kefe güçlü surlarla çevrilmeye başlandı — Ceneviz kolonisinin tahkimi",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1383-01-01",
+    "b": "Kefe surların dışına taştı, yeni bir dış sur çevrildi — koloninin büyümesi",
     "kume": "YAB",
     "etiket_ekle": [
      "imar"
@@ -4112,6 +3777,14 @@ window.ETIKET_YAMA = {
    {
     "t": "1302-01-01",
     "b": "Mecdüddin Mahmud Bey, Ermenek Ulucamii'ni tamamlattı",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1318-01-01",
+    "b": "Bedreddin İbrâhim Bey, Lârende'yi başkent yapıp saray inşa ettirdi",
     "kume": "YAB",
     "etiket_ekle": [
      "imar"
@@ -4278,6 +3951,14 @@ window.ETIKET_YAMA = {
     ]
    },
    {
+    "t": "1208-01-01",
+    "b": "Yedi Kardeş Burcu inşa edildi",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
     "t": "1350-01-01",
     "b": "Dicle üzerindeki köprüler ticaret yolunu güvence altına aldı",
     "kume": "YAB",
@@ -4358,48 +4039,88 @@ window.ETIKET_YAMA = {
     ]
    },
    {
-    "t": "1714-01-01",
-    "b": "Köprülüzâde Nûman Paşa Çetine'yi ikinci kez tahrip etti",
+    "t": "1251-01-01",
+    "b": "Korikos deniz kalesi Hetum I döneminde genişletildi",
     "kume": "YAB",
     "etiket_ekle": [
      "imar"
     ]
    },
    {
-    "t": "1375-01-01",
-    "b": "Evtimiy Tırnova Patrikliği'ne getirildi — Tırnova Edebiyat Okulu zirvede",
+    "t": "1208-01-01",
+    "b": "Partenon'un Latin katedraline çevrilmesi",
     "kume": "YAB",
     "etiket_ekle": [
      "imar"
     ]
    },
    {
-    "t": "1835-01-02",
-    "b": "Aprilov Mektebi (Gabrovo) açıldı — ilk modern Bulgar okulu",
+    "t": "1225-01-01",
+    "b": "Daphni Manastırı'nın Sistersiyen tarikatına verilmesi",
     "kume": "YAB",
     "etiket_ekle": [
      "imar"
     ]
    },
    {
-    "t": "1888-10-01",
-    "b": "Sofya Yüksek Okulu kuruldu — Bulgaristan'ın ilk üniversitesi",
+    "t": "1300-01-01",
+    "b": "Akropolis'in duka sarayına çevrilmesi ve Propylaia'nın konut olması",
     "kume": "YAB",
     "etiket_ekle": [
      "imar"
     ]
    },
    {
-    "t": "1862-01-01",
-    "b": "Tongwen Guan (Yabancı Diller Okulu) kuruldu",
+    "t": "1484-01-01",
+    "b": "Cetinje Manastırı kuruldu",
     "kume": "YAB",
     "etiket_ekle": [
      "imar"
     ]
    },
    {
-    "t": "1665-01-01",
-    "b": "Fasilidas'ın Bâbürlü Hükümdarı Evrengzîb'den İslâmî kitap ve cami tamiri için yardım istemesi",
+    "t": "1704-01-01",
+    "b": "Çetine yeniden imar edildi",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1348-06-01",
+    "b": "Galata Kulesi yükseldi — Ceneviz kolonisi kendi surunu tamamladı",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1420-01-01",
+    "b": "Yasak Şehir tamamlandı, başkent Pekin'e taşındı",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1551-01-01",
+    "b": "Emîr Nûr'un Harar surlarını yaptırması",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1636-01-01",
+    "b": "Gondar'ın başkent yapılması",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1310-01-01",
+    "b": "Husuni Kubwa Sarayı'nın Sultan Hasan b. Süleyman adına yapımı",
     "kume": "YAB",
     "etiket_ekle": [
      "imar"
@@ -4422,8 +4143,32 @@ window.ETIKET_YAMA = {
     ]
    },
    {
-    "t": "1913-01-03",
-    "b": "Nuhu Mbogo'nun 600 cami ve okul için arazi tahsisi talebi",
+    "t": "1592-01-01",
+    "b": "Fort Jesus'un (Îsâ Kalesi) inşasına başlanması",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1597-01-01",
+    "b": "Mombasa'da Augustin manastırının kurulması",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1682-05-06",
+    "b": "Sarayın Versay'a taşınması",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1889-05-06",
+    "b": "Eyfel Kulesi'nin açılışı",
     "kume": "YAB",
     "etiket_ekle": [
      "imar"
@@ -4446,6 +4191,62 @@ window.ETIKET_YAMA = {
     ]
    },
    {
+    "t": "1448-01-01",
+    "b": "Çitor'da Vijaya Stambha (Zafer Kulesi) tamamlandı",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1724-01-01",
+    "b": "Savâî Cey Singh II Delhi'de ilk rasathanesini kurdu",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1727-11-18",
+    "b": "Caypûr şehri kuruldu",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1616-01-01",
+    "b": "Senge Namgyal tahta çıktı",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1630-01-01",
+    "b": "Hemis Manastırı kuruldu",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1509-01-01",
+    "b": "Makli nekropolü Semmâ döneminde büyük anıt mezarlarla genişledi",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1592-01-01",
+    "b": "Man Singh Amber Sarayı'nı inşa ettirdi",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
     "t": "1666-01-01",
     "b": "Leh'te Cuma Camii yapıldı",
     "kume": "YAB",
@@ -4454,8 +4255,8 @@ window.ETIKET_YAMA = {
     ]
    },
    {
-    "t": "1854-06-01",
-    "b": "Durbar Okulu açıldı: Nepal'de modern eğitimin başlangıcı",
+    "t": "1702-01-01",
+    "b": "Bhaktapur'da Nyatapola Tapınağı tamamlandı",
     "kume": "YAB",
     "etiket_ekle": [
      "imar"
@@ -4470,6 +4271,22 @@ window.ETIKET_YAMA = {
     ]
    },
    {
+    "t": "1601-01-01",
+    "b": "Padmanâbhapuram Sarayı'nın ahşap yapıları yükseldi",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1837-01-01",
+    "b": "Trivandrum Rasathanesi kuruldu",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
     "t": "1578-08-29",
     "b": "Tiflis'te iki kilisenin camiye çevrilmesi",
     "kume": "YAB",
@@ -4478,8 +4295,56 @@ window.ETIKET_YAMA = {
     ]
    },
    {
-    "t": "1556-01-27",
-    "b": "Hümâyun kütüphane merdiveninden düşerek öldü, Ekber tahta çıktı",
+    "t": "1632-01-01",
+    "b": "Tâc Mahal'in inşaatı başladı",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1638-01-01",
+    "b": "Şah Cihan başkenti Şahcihanâbâd'a (Yeni Delhi) taşımaya karar verdi",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1648-04-19",
+    "b": "Şah Cihan sarayını Şahcihanâbâd'a (Kızıl Kale) taşıdı",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1591-01-01",
+    "b": "Muhammed Kulî Kutub Şah, Haydarâbâd şehrini kurdu",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1656-01-01",
+    "b": "Bîcâpur'da Gol Gumbaz'ın inşası tamamlandı",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1411-01-01",
+    "b": "Ahmed Şah, Ahmedâbâd şehrini kurdu",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1830-01-01",
+    "b": "Rançit Singh, Altın Tapınak'ı altın kaplattı",
     "kume": "YAB",
     "etiket_ekle": [
      "imar"
@@ -4510,32 +4375,24 @@ window.ETIKET_YAMA = {
     ]
    },
    {
-    "t": "1590-01-01",
-    "b": "Jahangir döneminde Bâbürlü minyatür resim okulu doğa gözlemine yöneldi",
+    "t": "1724-01-01",
+    "b": "Racâ Jai Singh II, Delhi'de Jantar Mantar rasathanesini kurdu",
     "kume": "YAB",
     "etiket_ekle": [
      "imar"
     ]
    },
    {
-    "t": "1297-09-11",
-    "b": "Stirling Köprüsü Savaşı — Wallace İngilizleri yendi",
+    "t": "1675-06-22",
+    "b": "Greenwich Kraliyet Rasathanesi kuruldu",
     "kume": "YAB",
     "etiket_ekle": [
      "imar"
     ]
    },
    {
-    "t": "1854-11-04",
-    "b": "Florence Nightingale Üsküdar'daki askerî hastaneye ulaştı",
-    "kume": "YAB",
-    "etiket_ekle": [
-     "imar"
-    ]
-   },
-   {
-    "t": "1870-08-09",
-    "b": "Eğitim Yasası — devlet okulları sistemi kuruldu",
+    "t": "1259-01-01",
+    "b": "Merâga Rasathanesi kuruldu — Nasîrüddin Tûsî'nin yönetiminde",
     "kume": "YAB",
     "etiket_ekle": [
      "imar"
@@ -4544,6 +4401,30 @@ window.ETIKET_YAMA = {
    {
     "t": "1297-10-05",
     "b": "Şenb-i Gāzân (Gāzâniyye) külliyesinin temeli atıldı",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1300-06-01",
+    "b": "Gāzân Han Tebriz'in surlarını genişletti — şehir büyüdü",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1310-06-01",
+    "b": "Rab'-ı Reşîdî mahallesi kuruldu — bir kitap ve ilim şehri",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1305-01-01",
+    "b": "Sultâniye şehri kuruldu ve devlet merkezi oraya taşındı",
     "kume": "YAB",
     "etiket_ekle": [
      "imar"
@@ -4582,6 +4463,54 @@ window.ETIKET_YAMA = {
     ]
    },
    {
+    "t": "1250-01-01",
+    "b": "Herat yeniden imar edildi — ilim ve ticaret merkezi oldu",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1563-04-23",
+    "b": "El Escorial'in inşaatına başlandı",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1584-09-13",
+    "b": "El Escorial'in tamamlanması",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1506-04-18",
+    "b": "Yeni Aziz Petrus Bazilikası'nın temelinin atılması",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1436-03-25",
+    "b": "Floransa Katedrali kubbesinin açılışı",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1348-01-01",
+    "b": "Galata Kulesi'nin inşası — koloninin surla çevrilmesi",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
     "t": "1423-01-01",
     "b": "Pammatone Hastanesi'nin kurulması — şehir hayır sisteminin merkezileşmesi",
     "kume": "YAB",
@@ -4590,16 +4519,72 @@ window.ETIKET_YAMA = {
     ]
    },
    {
-    "t": "1510-09-15",
-    "b": "Cenovalı Katerina'nın ölümü — hastane hizmetinin azizeye dönüşmesi",
+    "t": "1529-01-01",
+    "b": "Villa del Principe'nin tamamlanması — Ceneviz saray mimarisinin başlangıcı",
     "kume": "YAB",
     "etiket_ekle": [
      "imar"
     ]
    },
    {
-    "t": "1565-01-01",
-    "b": "Luca Cambiaso'nun freskleri — Ceneviz resim okulunun doğuşu",
+    "t": "1543-01-01",
+    "b": "Lanterna'nın yeniden inşası — Akdeniz'in en yüksek deniz fenerinin dikilmesi",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1558-01-01",
+    "b": "Strada Nuova'nın açılması — Avrupa'nın ilk planlı saray caddesi",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1632-01-01",
+    "b": "Mura Nuove'nin tamamlanması — Avrupa'nın en uzun şehir surlarından biri",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1552-01-02",
+    "b": "Carignano Bazilikası'nın inşasına başlanması — Alessi'nin merkezî planı",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1684-06-01",
+    "b": "Bombardıman sonrası şehrin yeniden inşası",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1492-09-02",
+    "b": "Addizione Erculea — Avrupa'nın ilk modern şehir genişletme planı",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1493-01-02",
+    "b": "Palazzo dei Diamanti'nin inşası — cephe mimarisinde bir buluş",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1634-01-02",
+    "b": "Modena Dük Sarayı'nın inşasına başlanması",
     "kume": "YAB",
     "etiket_ekle": [
      "imar"
@@ -4614,8 +4599,8 @@ window.ETIKET_YAMA = {
     ]
    },
    {
-    "t": "1419-10-20",
-    "b": "Jacopo della Quercia'nın Fonte Gaia'sı — Campo'nun anıtsal çeşmesi",
+    "t": "1339-01-23",
+    "b": "Duomo Nuovo'nun başlaması — Hıristiyan âleminin en büyük katedrali iddiası",
     "kume": "YAB",
     "etiket_ekle": [
      "imar"
@@ -4630,16 +4615,16 @@ window.ETIKET_YAMA = {
     ]
    },
    {
-    "t": "1502-01-02",
-    "b": "Pinturicchio'nun Piccolomini Kütüphanesi freskleri",
+    "t": "1397-01-01",
+    "b": "Yoshimitsu, Kinkaku-ji'yi (Altın Köşk) inşa ettirdi",
     "kume": "YAB",
     "etiket_ekle": [
      "imar"
     ]
    },
    {
-    "t": "1889-02-05",
-    "b": "Tokyo Sanat Okulu (bugünkü Tokyo Sanat Üniversitesi) kuruldu",
+    "t": "1489-01-01",
+    "b": "Yoshimasa, Ginkaku-ji'yi (Gümüş Köşk) inşa ettirdi",
     "kume": "YAB",
     "etiket_ekle": [
      "imar"
@@ -4655,15 +4640,15 @@ window.ETIKET_YAMA = {
    },
    {
     "t": "1467-11-10",
-    "b": "Gökmescid banisinin ölümüyle yarım kaldı",
+    "b": "Cihan Şah, Tebriz'de kendi yaptırdığı Muzafferiye Medresesi'ne gömüldü",
     "kume": "YAB",
     "etiket_ekle": [
      "imar"
     ]
    },
    {
-    "t": "1467-11-10",
-    "b": "Cihan Şah, Tebriz'de kendi yaptırdığı Muzafferiye Medresesi'ne gömüldü",
+    "t": "1538-01-01",
+    "b": "Sâhib Giray Or Kapı'yı tahkim etti, Ferahkirman Kalesi'ni yaptırdı; Kanûnî'nin Boğdan seferine katıldı",
     "kume": "YAB",
     "etiket_ekle": [
      "imar"
@@ -4718,6 +4703,14 @@ window.ETIKET_YAMA = {
     ]
    },
    {
+    "t": "1503-01-01",
+    "b": "I. Mengli Giray, Bahçesaray'da Han Sarayı'nı kurdu — hanlığın merkezi Kırkyer'den buraya taşındı",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
     "t": "1552-01-01",
     "b": "Gözleve'de Tatar Han Camii inşa edildi",
     "kume": "YAB",
@@ -4726,8 +4719,24 @@ window.ETIKET_YAMA = {
     ]
    },
    {
+    "t": "1299-01-01",
+    "b": "Mansûre şehri kuruldu (Tilimsan kuşatması karargâhı)",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
     "t": "1323-01-01",
     "b": "Medresetü'l-Attârîn inşa edildi",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1593-01-01",
+    "b": "Kasrü'l-bedî' Sarayı inşa edildi",
     "kume": "YAB",
     "etiket_ekle": [
      "imar"
@@ -4750,8 +4759,16 @@ window.ETIKET_YAMA = {
     ]
    },
    {
-    "t": "1602-01-01",
-    "b": "Raków Akademisi — Polonyalı Kardeşler'in okulu",
+    "t": "1318-01-01",
+    "b": "I. Ebû Taşfin döneminde mimari gelişme",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1430-01-01",
+    "b": "İç kale surları yeniden yaptırıldı",
     "kume": "YAB",
     "etiket_ekle": [
      "imar"
@@ -4766,16 +4783,16 @@ window.ETIKET_YAMA = {
     ]
    },
    {
-    "t": "1765-03-15",
-    "b": "Şövalye Okulu kuruldu",
+    "t": "1904-01-01",
+    "b": "Országház'ın (Macar Parlamento Binası) tamamlanması",
     "kume": "YAB",
     "etiket_ekle": [
      "imar"
     ]
    },
    {
-    "t": "1489-01-01",
-    "b": "Bibliotheca Corviniana'nın Avrupa'nın önde gelen Rönesans kütüphanelerinden biri hâline gelmesi",
+    "t": "1270-01-01",
+    "b": "Baybars Kubbetüs-Sahre'yi onarttı",
     "kume": "YAB",
     "etiket_ekle": [
      "imar"
@@ -4790,8 +4807,32 @@ window.ETIKET_YAMA = {
     ]
    },
    {
+    "t": "1294-01-01",
+    "b": "el-Câmiu'l-Mansûrî Trablusşam'da inşa edildi",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1295-01-01",
+    "b": "Devâdâriyye Hankahı Kudüs'te inşa edildi",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
     "t": "1315-06-01",
     "b": "Sencer el-Cavlî Kudüs nâibi oldu, Cavliyye ve Sellâmiyye medreselerini yaptırdı",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1318-06-01",
+    "b": "Kubbetüs-Sahre'nin içi yaldızla yenilendi",
     "kume": "YAB",
     "etiket_ekle": [
      "imar"
@@ -4838,8 +4879,8 @@ window.ETIKET_YAMA = {
     ]
    },
    {
-    "t": "1479-10-13",
-    "b": "Emeviyye Camii'nde büyük yangın çıktı",
+    "t": "1477-01-01",
+    "b": "Kayıtbay'ın İskenderiye Feneri yerine kale inşa ettirmesi",
     "kume": "YAB",
     "etiket_ekle": [
      "imar"
@@ -4862,24 +4903,8 @@ window.ETIKET_YAMA = {
     ]
    },
    {
-    "t": "1501-01-01",
-    "b": "Kansu Gavri Kahire'de yeni han ve kapalı çarşılar inşa ettirdi",
-    "kume": "YAB",
-    "etiket_ekle": [
-     "imar"
-    ]
-   },
-   {
     "t": "1503-01-01",
     "b": "Kansu Gavri Külliyesi'nin inşasına başlandı",
-    "kume": "YAB",
-    "etiket_ekle": [
-     "imar"
-    ]
-   },
-   {
-    "t": "1835-01-01",
-    "b": "Tercüme okulunun Medresetü'l-elsün'e dönüştürülmesi",
     "kume": "YAB",
     "etiket_ekle": [
      "imar"
@@ -4894,16 +4919,24 @@ window.ETIKET_YAMA = {
     ]
    },
    {
-    "t": "1550-01-01",
-    "b": "Süyünbike Kazan'da bir kütüphane kurdu",
+    "t": "1220-01-01",
+    "b": "Nakşa Kastro'sunun (kale-şehir) kurulması",
     "kume": "YAB",
     "etiket_ekle": [
      "imar"
     ]
    },
    {
-    "t": "1870-01-01",
-    "b": "Orenburg'da dinî okullar açıldı — İslâm Kazaklar arasında yaygınlaştı",
+    "t": "1470-01-01",
+    "b": "Kiklad kule-çiftliklerinin (pyrgos) yaygınlaşması",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1550-01-01",
+    "b": "Süyünbike Kazan'da bir kütüphane kurdu",
     "kume": "YAB",
     "etiket_ekle": [
      "imar"
@@ -4942,24 +4975,8 @@ window.ETIKET_YAMA = {
     ]
    },
    {
-    "t": "1900-01-01",
-    "b": "Buhara'da ilk usûl-i cedîd okulları açıldı",
-    "kume": "YAB",
-    "etiket_ekle": [
-     "imar"
-    ]
-   },
-   {
-    "t": "1537-01-01",
-    "b": "Pedro Nunes'un rota risalesi — loxodrome'un keşfi",
-    "kume": "YAB",
-    "etiket_ekle": [
-     "imar"
-    ]
-   },
-   {
-    "t": "1402-12-15",
-    "b": "Timur'un İzmir Kalesi'ni alması — Anadolu köprübaşının kaybı",
+    "t": "1408-01-01",
+    "b": "Bodrum'da Saint Peter Kalesi'nin inşasına girişilmesi",
     "kume": "YAB",
     "etiket_ekle": [
      "imar"
@@ -4968,6 +4985,30 @@ window.ETIKET_YAMA = {
    {
     "t": "1489-01-01",
     "b": "Rodos'ta yeni Hastane'nin (Nuovo Ospedale) tamamlanması",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1513-01-01",
+    "b": "Fabrizio del Carretto'nun seçilmesi ve surların modernleştirilmesi",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1566-03-28",
+    "b": "Valletta'nın kurulması — Avrupa'nın ilk planlı ızgara şehirlerinden",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1573-01-01",
+    "b": "Saint John Ortak Katedrali'nin inşasına başlanması",
     "kume": "YAB",
     "etiket_ekle": [
      "imar"
@@ -4990,8 +5031,40 @@ window.ETIKET_YAMA = {
     ]
    },
    {
-    "t": "1450-01-01",
-    "b": "Rodos'ta tarikat arşivi ve kütüphanesinin düzenlenmesi",
+    "t": "1693-01-11",
+    "b": "Sicilya depreminin Malta'yı vurması",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1330-01-01",
+    "b": "Şövalye Sokağı'nın (Odos Ippoton) ve langue konaklarının kurulması",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1409-01-01",
+    "b": "Büyük Üstat Sarayı'nın (Palazzo del Gran Maestro) tamamlanması",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1481-03-01",
+    "b": "Rodos'u vuran büyük deprem",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1620-01-01",
+    "b": "Wignacourt Kuleleri — kıyı gözetleme ağının kurulması",
     "kume": "YAB",
     "etiket_ekle": [
      "imar"
@@ -5014,16 +5087,16 @@ window.ETIKET_YAMA = {
     ]
    },
    {
-    "t": "1773-06-28",
-    "b": "Moskova Maden Okulu kuruldu",
+    "t": "1479-08-15",
+    "b": "Kremlin Uspenski (Meryem'in Göğe Yükselişi) Katedrali tamamlandı",
     "kume": "YAB",
     "etiket_ekle": [
      "imar"
     ]
    },
    {
-    "t": "1508-09-01",
-    "b": "Bağdat'ta Ebû Hanîfe ve Abdülkādir-i Geylânî türbelerinin tahribi",
+    "t": "1561-07-12",
+    "b": "Aziz Vasili (Pokrovski) Katedrali tamamlandı",
     "kume": "YAB",
     "etiket_ekle": [
      "imar"
@@ -5032,6 +5105,14 @@ window.ETIKET_YAMA = {
    {
     "t": "1598-01-01",
     "b": "Kervan yolu ve kervansaray ağının genişletilmesi",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1602-01-01",
+    "b": "Nakş-ı Cihan (İmam) Meydanı'nın inşasına başlanması",
     "kume": "YAB",
     "etiket_ekle": [
      "imar"
@@ -5062,8 +5143,32 @@ window.ETIKET_YAMA = {
     ]
    },
    {
-    "t": "1620-01-01",
-    "b": "Molla Sadrâ'nın Şîraz'daki Han Medresesi hocalığı",
+    "t": "1596-01-01",
+    "b": "Ali Kapu Sarayı'nın inşası",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1611-01-01",
+    "b": "Çihar Bağ Caddesi'nin açılması",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1600-01-01",
+    "b": "Meraga geleneğinin İsfahan'da devamı — özel rasathane çalışmaları",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
+    "t": "1647-01-01",
+    "b": "Çihil Sütun Sarayı'nın inşası",
     "kume": "YAB",
     "etiket_ekle": [
      "imar"
@@ -5086,6 +5191,14 @@ window.ETIKET_YAMA = {
     ]
    },
    {
+    "t": "1420-01-01",
+    "b": "Uluğ Bey Rasathanesi'nin inşaatı başladı",
+    "kume": "YAB",
+    "etiket_ekle": [
+     "imar"
+    ]
+   },
+   {
     "t": "1591-01-01",
     "b": "Rialto Köprüsü'nün taştan yapılması",
     "kume": "YAB",
@@ -5094,7 +5207,6 @@ window.ETIKET_YAMA = {
     ]
    }
   ],
-  "elenen": 114,
   "bas_ad_onerisi": {
    "oneri": "imar",
    "olcum": {
@@ -5119,6 +5231,12 @@ window.ETIKET_YAMA = {
     "iktisat": 55
    },
    "gerekce": "362 imar adayinin BASKA etiketleri: Kultur-bilim %54 · Ic duzen %20 · Iktisat %15 · Askeri %12. Agirlik Kultur-bilim'de (cami·medrese·kopru eserdir), ama Emre `imar`i 'devletlerin OLAGAN ISLERI' diye tarif etti ⇒ Ic duzen de. Iktisat'a BAGLANMADI: %15 agirlik, altyapinin kendisi zaten `ekonomi` etiketi tasiyorsa Iktisat'ta gorunuyor."
+  },
+  "suzgec": {
+   "ozel_ad_reddi": "Kelime KONUYU degil ADI isaret ediyorsa sayilmaz: Koprulu · Kopruhisar · koprubasi · Balta Limani · Liman von Sanders · Surname-i Vehbi · Cesme baskini · Tersane Konferansi · dokumaci · Fabrika Yasasi",
+   "olay_vetosu": "Madde bir MUHAREBE · KUSATMA · ANTLASMA · ATAMA · YANGIN · TICARETE ACILMA ise, icinde bina adi gecse bile imar DEGILDIR",
+   "liman_kanal_ayrimi": "`liman ... acildi` TICARETTIR, `kanal ... acildi` INSAATIN BITISIDIR. Ucuncu gecisin en kalabalik yanlis-pozitif sinifi buydu.",
+   "govde_okumasi": "Baslik yetmediginde `d:` alani okundu — 38 kayit boyle kurtarildi."
   }
  },
  "isyan_darbe_elemesinden": {
@@ -5350,5 +5468,390 @@ window.ETIKET_YAMA = {
     "Angelo Querini vakası — anayasal muhalefetin bastırılması"
    ]
   }
+ },
+ "imar_elenen": {
+  "olcum": "Eleme kovasi UC KEZ kendi icinde tarandi; her turda gercek imar kaydi cikti.",
+  "ozel_ad": [
+   {
+    "t": "1770-07",
+    "b": "Çeşme baskını",
+    "sebep": "OZEL AD / MECAZ"
+   },
+   {
+    "t": "1300-01-01",
+    "b": "Köprühisar'ın alınışı ve Yenişehir'in kuruluşuna hazırlık",
+    "sebep": "OZEL AD / MECAZ"
+   },
+   {
+    "t": "1471-08-24",
+    "b": "Arzila'nın Portekiz tarafından alınışı — Fas kıyısında ikinci köprübaşı",
+    "sebep": "OZEL AD / MECAZ"
+   },
+   {
+    "t": "1838-08-16",
+    "b": "Balta Limanı Ticaret Antlaşması",
+    "sebep": "OZEL AD / MECAZ"
+   },
+   {
+    "t": "1354-03-02",
+    "b": "Gelibolu'nun alınışı — Rumeli'de kalıcı köprübaşı",
+    "sebep": "OZEL AD / MECAZ"
+   },
+   {
+    "t": "1849-05-01",
+    "b": "Baltalimanı Sözleşmesi: Eflak ve Boğdan'da ortak Osmanlı-Rus himayesi",
+    "sebep": "OZEL AD / MECAZ"
+   },
+   {
+    "t": "1876-12-23",
+    "b": "Tersane Konferansı: büyük devletlerin Balkan reform dayatması",
+    "sebep": "OZEL AD / MECAZ"
+   },
+   {
+    "t": "1656-09-15",
+    "b": "Köprülü Mehmed Paşa'nın şartlı kabulle sadrazamlığa atanması",
+    "sebep": "OZEL AD / MECAZ"
+   },
+   {
+    "t": "1656-10-01",
+    "b": "Kadızadeliler hareketinin Köprülü Mehmed Paşa tarafından bastırılması",
+    "sebep": "OZEL AD / MECAZ"
+   },
+   {
+    "t": "1661-11-01",
+    "b": "Köprülüzâde Fâzıl Ahmed Paşa'nın sadrazamlığa atanması",
+    "sebep": "OZEL AD / MECAZ"
+   },
+   {
+    "t": "1689-10-25",
+    "b": "Köprülüzâde Fâzıl Mustafa Paşa'nın sadrazamlığa atanması ve mali ıslahatları",
+    "sebep": "OZEL AD / MECAZ"
+   },
+   {
+    "t": "1913-12-14",
+    "b": "Liman von Sanders'in Osmanlı ordusuna atanması",
+    "sebep": "OZEL AD / MECAZ"
+   },
+   {
+    "t": "1714-01-01",
+    "b": "Köprülüzâde Nûman Paşa Çetine'yi ikinci kez tahrip etti",
+    "sebep": "OZEL AD / MECAZ"
+   },
+   {
+    "t": "1833-01-01",
+    "b": "Fabrika Yasası — çocuk işçiliği sınırlandı",
+    "sebep": "OZEL AD / MECAZ"
+   },
+   {
+    "t": "1402-12-15",
+    "b": "Timur'un İzmir Kalesi'ni alması — Anadolu köprübaşının kaybı",
+    "sebep": "OZEL AD / MECAZ"
+   }
+  ],
+  "olay": [
+   {
+    "t": "1321-01-01",
+    "b": "Mudanya limanının abluka altına alınışı",
+    "sebep": "OLAY — muharebe·antlasma·atama·yikim·ticaret"
+   },
+   {
+    "t": "1538-01-01",
+    "b": "Mimar Sinan'ın hassa mimarbaşılığına atanması",
+    "sebep": "OLAY — muharebe·antlasma·atama·yikim·ticaret"
+   },
+   {
+    "t": "1884-02-01",
+    "b": "Sevâkin — Mehdî'ye düşmeyen tek liman",
+    "sebep": "liman/kanal TICARETE acilma — insaat degil"
+   },
+   {
+    "t": "1888-09-24",
+    "b": "Haydarpaşa-Ankara demiryolu imtiyazının Almanlara verilmesi",
+    "sebep": "OLAY — muharebe·antlasma·atama·yikim·ticaret"
+   },
+   {
+    "t": "1914-10-29",
+    "b": "Karadeniz Baskını: Osmanlı donanmasının Rus limanlarını bombalaması",
+    "sebep": "OLAY — muharebe·antlasma·atama·yikim·ticaret"
+   },
+   {
+    "t": "1914-11-14",
+    "b": "Cihâd-ı Ekber ilanı: Fatih Camii'nde cihad fetvasının okunması",
+    "sebep": "OLAY — muharebe·antlasma·atama·yikim·ticaret"
+   },
+   {
+    "t": "1633-09-01",
+    "b": "Cibali Yangını",
+    "sebep": "OLAY — muharebe·antlasma·atama·yikim·ticaret"
+   },
+   {
+    "t": "1665-06-01",
+    "b": "Vânî Mehmed Efendi'nin Yeni Cami vâizliğine ve pâdişah hocalığına atanması",
+    "sebep": "OLAY — muharebe·antlasma·atama·yikim·ticaret"
+   },
+   {
+    "t": "1903-03-05",
+    "b": "Bağdat Demiryolu Antlaşması",
+    "sebep": "OLAY — muharebe·antlasma·atama·yikim·ticaret"
+   },
+   {
+    "t": "1185-01-01",
+    "b": "Amisos (Samsun) limanının fethi",
+    "sebep": "OLAY — muharebe·antlasma·atama·yikim·ticaret"
+   },
+   {
+    "t": "1329-01-01",
+    "b": "İzmir Liman Kalesi'nin (Aşağı Kale) fethi",
+    "sebep": "OLAY — muharebe·antlasma·atama·yikim·ticaret"
+   },
+   {
+    "t": "1344-10-28",
+    "b": "İzmir Liman Kalesi'nin Haçlılar tarafından alınması",
+    "sebep": "OLAY — muharebe·antlasma·atama·yikim·ticaret"
+   },
+   {
+    "t": "1337-01-01",
+    "b": "Ayas limanı Memlüklerin eline geçti",
+    "sebep": "OLAY — muharebe·antlasma·atama·yikim·ticaret"
+   },
+   {
+    "t": "1685-01-01",
+    "b": "Dört gümrük limanı açıldı (Kanton · Xiamen · Ningbo · Şanghay)",
+    "sebep": "liman/kanal TICARETE acilma — insaat degil"
+   },
+   {
+    "t": "1757-01-01",
+    "b": "Kanton Sistemi — dış ticaret tek limana kısıtlandı",
+    "sebep": "OLAY — muharebe·antlasma·atama·yikim·ticaret"
+   },
+   {
+    "t": "1911-05-09",
+    "b": "Demiryolları millîleştirme kararı isyanı ateşledi",
+    "sebep": "OLAY — muharebe·antlasma·atama·yikim·ticaret"
+   },
+   {
+    "t": "1332-01-01",
+    "b": "Amda Sion Zeyla' limanını ve Evfât topraklarının büyük kısmını aldı",
+    "sebep": "liman/kanal TICARETE acilma — insaat degil"
+   },
+   {
+    "t": "1559-01-01",
+    "b": "Debârvâ'nın alınması ve müstahkem üsse dönüştürülmesi",
+    "sebep": "OLAY — muharebe·antlasma·atama·yikim·ticaret"
+   },
+   {
+    "t": "1828-01-01",
+    "b": "Umman Sultanlığı'nın ikiye bölünmesi ve güney Somali limanlarının Zengibar'a tâbi olması",
+    "sebep": "liman/kanal TICARETE acilma — insaat degil"
+   },
+   {
+    "t": "1877-01-02",
+    "b": "Berberâ'nın serbest liman ilân edilmesi ve Osmanlı hâkimiyet iddiasının tanınması",
+    "sebep": "liman/kanal TICARETE acilma — insaat degil"
+   },
+   {
+    "t": "1772-01-01",
+    "b": "İngiliz Doğu Hindistan Şirketi Sind'de ilk fabrikasını kurdu",
+    "sebep": "liman/kanal TICARETE acilma — insaat degil"
+   },
+   {
+    "t": "1620-01-01",
+    "b": "Deniz İpek yolu Sind limanlarını Basra körfezine bağladı",
+    "sebep": "liman/kanal TICARETE acilma — insaat degil"
+   },
+   {
+    "t": "1571-01-01",
+    "b": "Ekber Şah yeni başkent Fetihpûr Sikri'yi kurmaya başladı",
+    "sebep": "OLAY — muharebe·antlasma·atama·yikim·ticaret"
+   },
+   {
+    "t": "1613-01-11",
+    "b": "İngiliz Doğu Hindistan Şirketi Sûrat'ta ilk ticaret fabrikasını açtı",
+    "sebep": "liman/kanal TICARETE acilma — insaat degil"
+   },
+   {
+    "t": "1297-09-11",
+    "b": "Stirling Köprüsü Savaşı — Wallace İngilizleri yendi",
+    "sebep": "OLAY — muharebe·antlasma·atama·yikim·ticaret"
+   },
+   {
+    "t": "1875-11-25",
+    "b": "Disraeli Süveyş Kanalı hisselerini satın aldı",
+    "sebep": "OLAY — muharebe·antlasma·atama·yikim·ticaret"
+   },
+   {
+    "t": "1492-08-03",
+    "b": "Kolomb, Palos limanından Atlas Okyanusu'na açıldı",
+    "sebep": "liman/kanal TICARETE acilma — insaat degil"
+   },
+   {
+    "t": "1778-10-12",
+    "b": "Serbest Ticaret Kararnamesi — sömürge limanlarının açılması",
+    "sebep": "liman/kanal TICARETE acilma — insaat degil"
+   },
+   {
+    "t": "1629-09-16",
+    "b": "Altmark Ateşkesi — Prusya limanları İsveç'e geçti",
+    "sebep": "OLAY — muharebe·antlasma·atama·yikim·ticaret"
+   },
+   {
+    "t": "1347-01-01",
+    "b": "Kefe'den taşınan Kara Ölüm'ün Cenova limanına girmesi",
+    "sebep": "OLAY — muharebe·antlasma·atama·yikim·ticaret"
+   },
+   {
+    "t": "1492-08-02",
+    "b": "İspanya'dan sürülen Yahudilerin Cenova limanına gelmesi",
+    "sebep": "OLAY — muharebe·antlasma·atama·yikim·ticaret"
+   },
+   {
+    "t": "1510-09-15",
+    "b": "Cenovalı Katerina'nın ölümü — hastane hizmetinin azizeye dönüşmesi",
+    "sebep": "OLAY — muharebe·antlasma·atama·yikim·ticaret"
+   },
+   {
+    "t": "1590-06-01",
+    "b": "Serbest liman uygulaması — tahılın gümrüksüz girişi",
+    "sebep": "liman/kanal TICARETE acilma — insaat degil"
+   },
+   {
+    "t": "1872-10-04",
+    "b": "Tomioka İpek Fabrikası açıldı",
+    "sebep": "liman/kanal TICARETE acilma — insaat degil"
+   },
+   {
+    "t": "1467-11-10",
+    "b": "Gökmescid banisinin ölümüyle yarım kaldı",
+    "sebep": "OLAY — muharebe·antlasma·atama·yikim·ticaret"
+   },
+   {
+    "t": "1489-01-01",
+    "b": "Bibliotheca Corviniana'nın Avrupa'nın önde gelen Rönesans kütüphanelerinden biri hâline gelmesi",
+    "sebep": "OLAY — muharebe·antlasma·atama·yikim·ticaret"
+   },
+   {
+    "t": "1426-01-01",
+    "b": "Cidde limanı gelirlerinin ele geçirilmesi, Kızıldeniz ticaret tekeli",
+    "sebep": "OLAY — muharebe·antlasma·atama·yikim·ticaret"
+   },
+   {
+    "t": "1479-10-13",
+    "b": "Emeviyye Camii'nde büyük yangın çıktı",
+    "sebep": "OLAY — muharebe·antlasma·atama·yikim·ticaret"
+   },
+   {
+    "t": "1569-04-01",
+    "b": "Don-Volga kanalı projesi arazide çöktü",
+    "sebep": "liman/kanal TICARETE acilma — insaat degil"
+   },
+   {
+    "t": "1808-01-28",
+    "b": "Brezilya limanları dost uluslara açıldı",
+    "sebep": "liman/kanal TICARETE acilma — insaat degil"
+   },
+   {
+    "t": "1344-10-28",
+    "b": "İzmir Limanı Kalesi'nin Haçlı birliğince alınması",
+    "sebep": "OLAY — muharebe·antlasma·atama·yikim·ticaret"
+   },
+   {
+    "t": "1634-09-18",
+    "b": "Baruthane patlaması — Valletta'da büyük felâket",
+    "sebep": "OLAY — muharebe·antlasma·atama·yikim·ticaret"
+   },
+   {
+    "t": "1764-01-01",
+    "b": "Malta limanının Akdeniz karantina merkezi hâline gelmesi",
+    "sebep": "OLAY — muharebe·antlasma·atama·yikim·ticaret"
+   }
+  ],
+  "isaretsiz": [
+   {
+    "t": "1359-01-01",
+    "b": "Osmanlı kuvvetleri ilk kez İstanbul surlarının önünde",
+    "sebep": "kelime var, YAPIM yok, govde de dogrulamadi"
+   },
+   {
+    "t": "1665-01-01",
+    "b": "Fasilidas'ın Bâbürlü Hükümdarı Evrengzîb'den İslâmî kitap ve cami tamiri için yardım istemesi",
+    "sebep": "kelime var, YAPIM yok, govde de dogrulamadi"
+   },
+   {
+    "t": "1913-01-03",
+    "b": "Nuhu Mbogo'nun 600 cami ve okul için arazi tahsisi talebi",
+    "sebep": "kelime var, YAPIM yok, govde de dogrulamadi"
+   },
+   {
+    "t": "1857-12-20",
+    "b": "Ringstrasse kararı — surların yıkılması",
+    "sebep": "kelime var, YAPIM yok, govde de dogrulamadi"
+   },
+   {
+    "t": "1356-01-01",
+    "b": "Fîrûz Şah, Topra ve Meerut'taki Aşoka sütunlarını Delhi'ye taşıttı",
+    "sebep": "etiketi VAR, baslikta ve govdede yapim isareti YOK"
+   },
+   {
+    "t": "1556-01-27",
+    "b": "Hümâyun kütüphane merdiveninden düşerek öldü, Ekber tahta çıktı",
+    "sebep": "kelime var, YAPIM yok, govde de dogrulamadi"
+   },
+   {
+    "t": "1604-08-16",
+    "b": "Guru Arjan, Altın Tapınak'ta Âdi Grânth'ı tamamladı",
+    "sebep": "etiketi VAR, baslikta ve govdede yapim isareti YOK"
+   },
+   {
+    "t": "1854-11-04",
+    "b": "Florence Nightingale Üsküdar'daki askerî hastaneye ulaştı",
+    "sebep": "kelime var, YAPIM yok, govde de dogrulamadi"
+   },
+   {
+    "t": "1305-01-01",
+    "b": "Kal'a-i İhtiyârüddin ve Herat'ın Kert dönemi mimarisi",
+    "sebep": "etiketi VAR, baslikta ve govdede yapim isareti YOK"
+   },
+   {
+    "t": "1348-01-01",
+    "b": "Kara Ölüm'ün Siena'yı vurması — katedral genişletme projesinin terki",
+    "sebep": "etiketi VAR, baslikta ve govdede yapim isareti YOK"
+   },
+   {
+    "t": "1419-10-20",
+    "b": "Jacopo della Quercia'nın Fonte Gaia'sı — Campo'nun anıtsal çeşmesi",
+    "sebep": "etiketi VAR, baslikta ve govdede yapim isareti YOK"
+   },
+   {
+    "t": "1502-01-02",
+    "b": "Pinturicchio'nun Piccolomini Kütüphanesi freskleri",
+    "sebep": "kelime var, YAPIM yok, govde de dogrulamadi"
+   },
+   {
+    "t": "1835-01-01",
+    "b": "Tercüme okulunun Medresetü'l-elsün'e dönüştürülmesi",
+    "sebep": "kelime var, YAPIM yok, govde de dogrulamadi"
+   },
+   {
+    "t": "1722-01-01",
+    "b": "Manoel de Vilhena döneminde adanın imarı ve Fort Manoel",
+    "sebep": "etiketi VAR, baslikta ve govdede yapim isareti YOK"
+   },
+   {
+    "t": "1450-01-01",
+    "b": "Rodos'ta tarikat arşivi ve kütüphanesinin düzenlenmesi",
+    "sebep": "kelime var, YAPIM yok, govde de dogrulamadi"
+   },
+   {
+    "t": "1508-09-01",
+    "b": "Bağdat'ta Ebû Hanîfe ve Abdülkādir-i Geylânî türbelerinin tahribi",
+    "sebep": "kelime var, YAPIM yok, govde de dogrulamadi"
+   },
+   {
+    "t": "1620-01-01",
+    "b": "Molla Sadrâ'nın Şîraz'daki Han Medresesi hocalığı",
+    "sebep": "kelime var, YAPIM yok, govde de dogrulamadi"
+   }
+  ],
+  "artik_hata": "Son 17 kaydin 2'si (Fort Manoel'in adanin imari · Fonte Gaia anitsal cesmesi) HALA gercek imar gorunuyor ⇒ artik yanlis-negatif ~%12. Daha fazla gecis KAZANC AZALTIYOR; sayiyi gizlemek yerine BILDIRIYORUM."
  }
 };

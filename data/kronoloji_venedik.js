@@ -371,7 +371,7 @@ window.KRONOLOJI_VENEDIK = [
   kaynak:"bulunamadı — gün DOĞRULANMADI" },
 
 { t:"1591-01-01", b:"Rialto Köprüsü'nün taştan yapılması", tur:"kultur", onem:2, dunya:1, kapsam:"ic", yer_id:"Venedik",
-  etiket:["kultur","ekonomi"],
+  etiket:["kultur","ekonomi","imar"],
   d:"Büyük Kanal'ın tek geçidi ahşaptan taşa çevrildi. Köprü, ticaretin kalbi olan Rialto pazarının kalıcılığının simgesi sayıldı.",
   kaynak:"bulunamadı — gün DOĞRULANMADI" },
 

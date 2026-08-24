@@ -113,7 +113,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   kaynak:"sind (TDV): \"Bölge bu dönemde Portekizliler'in saldırılarına uğradı\"; ayrıntı: Cambridge History of India, III" },
 
 { t:"1558-01-01", b:"Tatta'da Dabgîr Camii inşa edildi", tur:"kultur", onem:3, dunya:1, kapsam:"ic",
-  etiket:["mimari","cami"], yer_id:"Tatta (Thatta)",
+  etiket:["mimari","cami","imar"], yer_id:"Tatta (Thatta)",
   d:"[Sind] 966 tarihli kitâbesiyle bilinen cami, Sind mimarîsinin Lûdî ve Bâbürlü etkilerini nasıl kendi tuğla-çini geleneğiyle birleştirdiğini gösterir. Portekiz yağmasından hemen sonra yükselmesi, şehrin kendini toparlama hızının işaretidir.",
   kaynak:"sind (TDV): \"Tatta'daki 966 (1558-59) tarihli Dabgîr Camii\"" },
 
@@ -128,7 +128,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   kaynak:"sind (TDV): \"1591'de merkezi Tatta (Thatta) olan Aşağı Sind zaptedilmek suretiyle Bâbürlü topraklarına katıldı\"" },
 
 { t:"1643-01-01", b:"Tatta'da Cami-i Mescid'in inşasına başlandı", tur:"kultur", onem:4, dunya:2, kapsam:"ic",
-  etiket:["mimari","cami"], yer_id:"Tatta (Thatta)",
+  etiket:["mimari","cami","imar"], yer_id:"Tatta (Thatta)",
   d:"[Sind / Bâbürlü] Şah Cihan'ın emriyle yükselen büyük cami, doksan üç kubbesi ve akustiğiyle Bâbürlü tuğla mimarîsinin Sind'deki zirvesidir; 1648'e kadar süren inşaat, imparatorluğun taşra şehirlerine de başkent ölçeğinde eser bırakma iddiasının kanıtıdır.",
   kaynak:"sind (TDV): \"1053-1058 (1643-1648) arasında inşa edilen Cami-i Mescid\"" },
 
@@ -349,7 +349,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   kaynak:"bulunamadı — dayanak: Cambridge History of India, III; R. C. Majumdar (ed.), The Delhi Sultanate" },
 
 { t:"1448-01-01", b:"Çitor'da Vijaya Stambha (Zafer Kulesi) tamamlandı", tur:"kultur", onem:4, dunya:2, kapsam:"ic",
-  etiket:["mimari","kultur"], yer_id:"Çitor (Chittorgarh)",
+  etiket:["mimari","kultur","imar"], yer_id:"Çitor (Chittorgarh)",
   d:"[Racput — Mevâr] Dokuz katlı, otuz yedi metrelik kule Rânâ Kumbha'nın Mâlvâ zaferi için yaptırıldı ve yüzeyi Hindu tanrı kabartmalarıyla kaplandı. Bir askerî zaferin taşa çevrilmiş hâli olarak Racput kimliğinin görsel merkezi oldu.",
   kaynak:"bulunamadı — dayanak: Cambridge History of India, III; Percy Brown, Indian Architecture (Hindu dönemi)" },
 
@@ -434,12 +434,12 @@ window.KRONOLOJI_GUNEY_ASYA = [
   kaynak:"bulunamadı — dayanak: Satish Chandra, Parties and Politics at the Mughal Court" },
 
 { t:"1724-01-01", b:"Savâî Cey Singh II Delhi'de ilk rasathanesini kurdu", tur:"bilim", onem:4, dunya:2, kapsam:"dis",
-  etiket:["astronomi","bilim"], yer_id:"Delhi",
+  etiket:["astronomi","bilim","imar"], yer_id:"Delhi",
   d:"[Racput — Amber] Amber racası, Bâbürlü padişahı Muhammed Şah'ın izniyle taş ve kireçten dev astronomi aletleri kurdurdu. Yantra Mantra adı verilen bu yapılar, teleskop çağının eşiğinde çıplak gözle ulaşılabilecek en yüksek hassasiyeti hedefliyordu.",
   kaynak:"bulunamadı — TDV'de müstakil madde bulunamadı. Dayanak: Cambridge History of India, IV; G. R. Kaye, The Astronomical Observatories of Jai Singh" },
 
 { t:"1727-11-18", b:"Caypûr şehri kuruldu", tur:"sehircilik", onem:5, dunya:3, kapsam:"ic",
-  etiket:["sehircilik","baskent","mimari"], yer_id:"Caypûr (Jaipur)",
+  etiket:["sehircilik","baskent","mimari","imar"], yer_id:"Caypûr (Jaipur)",
   d:"[Racput — Amber] Cey Singh II, dar bir dağ vadisindeki Amber'i bırakıp ovada ızgara planlı, dokuz bloklu yeni bir başşehir kurdurdu. Hint mimarî geleneğiyle geometrik şehir planlamasını birleştiren Caypûr, çağının en bilinçli tasarlanmış şehirlerinden biridir.",
   kaynak:"bulunamadı — dayanak: Cambridge History of India, IV; Percy Brown, Indian Architecture" },
 
@@ -489,12 +489,12 @@ window.KRONOLOJI_GUNEY_ASYA = [
   kaynak:"bulunamadı — dayanak: L. Petech, The Kingdom of Ladakh; A. H. Francke, Antiquities of Indian Tibet" },
 
 { t:"1616-01-01", b:"Senge Namgyal tahta çıktı", tur:"hukumdar", onem:5, dunya:2, kapsam:"ic",
-  etiket:["hukumdar","mimari"], yer_id:"Leh (Ladakh)",
+  etiket:["hukumdar","mimari","imar"], yer_id:"Leh (Ladakh)",
   d:"[Ladakh — Namgyal] 'Aslan Kral' lakabıyla anılan hükümdar, Leh'i başşehir yapıp dokuz katlı sarayını inşa ettirdi, Hemis ve Hanle manastırlarını kurdu ve krallığı Batı Tibet'e kadar genişletti. Ladakh'ın siyasî ve mimarî zirvesi onun saltanatıdır.",
   kaynak:"bulunamadı — dayanak: L. Petech, a.g.e.; Cambridge History of India ilgili bölümleri" },
 
 { t:"1630-01-01", b:"Hemis Manastırı kuruldu", tur:"din", onem:4, dunya:1, kapsam:"ic",
-  etiket:["din","mimari","manastir"], yer_id:"Leh (Ladakh)",
+  etiket:["din","mimari","manastir","imar"], yer_id:"Leh (Ladakh)",
   d:"[Ladakh — Namgyal] Senge Namgyal'in Drukpa Kagyü tarikatına vakfettiği manastır, Ladakh'ın en büyük ve en zengin dinî kurumu oldu. Manastırlara toprak bağışlamak Ladakh'ta hem bir ibadet hem de bir devlet idaresi biçimiydi: vadi vadi örgütlenen manastırlar, kralın taşradaki gözüydü.",
   kaynak:"bulunamadı — dayanak: L. Petech, a.g.e.; D. Snellgrove – T. Skorupski, The Cultural Heritage of Ladakh" },
 
@@ -704,7 +704,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
 // ── SİND ───────────────────────────────────────────────────────────────────
 
 { t:"1509-01-01", b:"Makli nekropolü Semmâ döneminde büyük anıt mezarlarla genişledi", tur:"kultur", onem:4, dunya:2, kapsam:"ic",
-  etiket:["mimari","mezar","kultur"], yer_id:"Tatta (Thatta)",
+  etiket:["mimari","mezar","kultur","imar"], yer_id:"Tatta (Thatta)",
   d:"[Sind — Semmâ] Tatta'nın batısındaki tepede kurulan mezarlık, altı yüzyıl boyunca sultanların, âlimlerin ve şeyhlerin gömüldüğü devasa bir taş işçiliği müzesine dönüştü. Hindu tapınak süslemesiyle İran kubbe geleneğini aynı yapıda buluşturan üslûbu, Sind'in iki dünya arasındaki yerini taşa çevirir.",
   kaynak:"sind (TDV) — Tatta türbeleri (Câm Nizâmeddin, Îsâ Han, Mirza Canbeg) ve taş işçiliği bölümü" },
 
@@ -736,7 +736,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   kaynak:"bulunamadı — TDV'de müstakil madde bulunamadı. Dayanak: J. S. Hawley – M. Juergensmeyer, Songs of the Saints of India; Cambridge History of India, IV" },
 
 { t:"1592-01-01", b:"Man Singh Amber Sarayı'nı inşa ettirdi", tur:"kultur", onem:4, dunya:2, kapsam:"ic",
-  etiket:["mimari","saray"], yer_id:"Caypûr (Jaipur)",
+  etiket:["mimari","saray","imar"], yer_id:"Caypûr (Jaipur)",
   d:"[Racput — Amber] Ekber'in Racput kumandanı, Bâbürlü sarayında gördüğü bahçe ve avlu düzenini kendi kalesine taşıdı. Amber Sarayı, Racput savunma mimarîsiyle Bâbürlü zarafetinin birleştiği ilk büyük örnektir — ittifakın taştan karşılığı.",
   kaynak:"bulunamadı — dayanak: Percy Brown, Indian Architecture (İslâm dönemi); Cambridge History of India, IV" },
 
@@ -758,14 +758,14 @@ window.KRONOLOJI_GUNEY_ASYA = [
   kaynak:"bulunamadı — dayanak: L. Petech, The Kingdom of Ladakh; J. Rizvi, Trans-Himalayan Caravans" },
 
 { t:"1666-01-01", b:"Leh'te Cuma Camii yapıldı", tur:"din", onem:3, dunya:1, kapsam:"ic",
-  etiket:["mimari","cami","din"], yer_id:"Leh (Ladakh)",
+  etiket:["mimari","cami","din","imar"], yer_id:"Leh (Ladakh)",
   d:"[Ladakh — Namgyal] Bâbürlü tâbiiyetinin şartlarından biri olarak başşehrin meydanında yükselen cami, Budist bir krallığın merkezine yerleşen müslüman cemaatin de ibadet yeri oldu. Leh çarşısı bundan sonra Keşmirli, Baltî ve Orta Asyalı tüccarların ortak mekânıydı.",
   kaynak:"bulunamadı — dayanak: L. Petech, The Kingdom of Ladakh; J. Rizvi, Ladakh: Crossroads of High Asia" },
 
 // ── NEPAL ──────────────────────────────────────────────────────────────────
 
 { t:"1702-01-01", b:"Bhaktapur'da Nyatapola Tapınağı tamamlandı", tur:"kultur", onem:4, dunya:2, kapsam:"ic",
-  etiket:["mimari","tapinak","kultur"], yer_id:"Katmandu",
+  etiket:["mimari","tapinak","kultur","imar"], yer_id:"Katmandu",
   d:"[Nepal — Malla] Bhupatindra Malla'nın yaptırdığı beş katlı pagoda, vadinin en yüksek yapısıdır ve yüzyıllar boyunca depremlerde ayakta kaldı. Malla krallıklarının birbiriyle yarıştığı alan savaş kadar mimarîydi; her başşehir ötekinden daha görkemli bir meydan kurmaya çalıştı. (yer_id: Bhaktapur, Katmandu vadisindedir.)",
   kaynak:"bulunamadı — dayanak: M. Slusser, Nepal Mandala: A Cultural Study of the Kathmandu Valley; D. R. Regmi, Medieval Nepal" },
 
@@ -775,7 +775,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   kaynak:"bulunamadı — dayanak: John Whelpton, A History of Nepal; Cambridge History of India, VI" },
 
 { t:"1889-01-01", b:"Bîr Hastahanesi kuruldu: Nepal'in ilk modern hastahanesi", tur:"bilim", onem:4, dunya:2, kapsam:"ic",
-  etiket:["tip","saglik","kurum","islahat"], yer_id:"Katmandu",
+  etiket:["tip","saglik","kurum","islahat","imar"], yer_id:"Katmandu",
   d:"[Nepal — Rana] Başvezir Bîr Şemşer'in kurdurduğu hastahane, ülkeye modern cerrahi ve aşı uygulamasını getirdi. Rana idaresinin dışa kapalı siyasetine rağmen tıp ve mühendislik alanında Hindistan'dan bilgi aktarımı sürdü.",
   kaynak:"bulunamadı — dayanak: John Whelpton, A History of Nepal" },
 
@@ -797,7 +797,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
 // ── TRAVANKUR ──────────────────────────────────────────────────────────────
 
 { t:"1601-01-01", b:"Padmanâbhapuram Sarayı'nın ahşap yapıları yükseldi", tur:"kultur", onem:4, dunya:2, kapsam:"ic",
-  etiket:["mimari","saray","kultur"], yer_id:"Trivandrum (Thiruvananthapuram)",
+  etiket:["mimari","saray","kultur","imar"], yer_id:"Trivandrum (Thiruvananthapuram)",
   d:"[Travankur — Venâd] Muson yağmurlarına göre tasarlanmış, taş temel üzerine tamamen ahşaptan kurulan saray, Kerala mimarîsinin en büyük örneğidir. Eğimli çatılar, oyma tavanlar ve doğal havalandırma, iklimin mimarîyi nasıl belirlediğinin ders kitabı örneğidir. (yer_id: Padmanâbhapuram, Trivandrum'un güneyindedir.)",
   kaynak:"bulunamadı — dayanak: A. Sreedhara Menon, A Survey of Kerala History; Percy Brown, Indian Architecture (Hindu dönemi)" },
 
@@ -812,12 +812,12 @@ window.KRONOLOJI_GUNEY_ASYA = [
   kaynak:"bulunamadı — dayanak: Robin Jeffrey, The Decline of Nayar Dominance; David Arnold, Colonizing the Body (Hindistan'da aşı politikaları)" },
 
 { t:"1821-10-01", b:"Kottayam'da matbaa kuruldu; Malayalam basılı kitapla tanıştı", tur:"kultur", onem:5, dunya:3, kapsam:"ic",
-  etiket:["matbaa","dil","egitim"], yer_id:"Koçin (Kochi)",
+  etiket:["matbaa","dil","egitim","imar","islahat"], yer_id:"Koçin (Kochi)",
   d:"[Travankur] Misyoner Benjamin Bailey'nin döktüğü Malayalam harfleriyle çalışan matbaa, dilin ilk sözlüğünü ve okul kitaplarını bastı. Basılı Malayalam, Kerala'nın yüksek okuryazarlık geleneğinin teknik temeli oldu. (yer_id: Kottayam, Koçin'in güneydoğusundadır.)",
   kaynak:"bulunamadı — dayanak: Robin Jeffrey, a.g.e.; A. Sreedhara Menon, A Survey of Kerala History" },
 
 { t:"1837-01-01", b:"Trivandrum Rasathanesi kuruldu", tur:"bilim", onem:4, dunya:3, kapsam:"ic",
-  etiket:["astronomi","bilim","kurum"], yer_id:"Trivandrum (Thiruvananthapuram)",
+  etiket:["astronomi","bilim","kurum","imar"], yer_id:"Trivandrum (Thiruvananthapuram)",
   d:"[Travankur] Svâti Tirunal'in himayesinde John Caldecott tarafından kurulan rasathane, yer manyetizması ve meteoroloji ölçümleriyle uluslararası ağlara veri sağladı. Bir Hint prensliğinin kendi parasıyla kurduğu ilk modern bilim kurumlarındandır.",
   kaynak:"bulunamadı — dayanak: Robin Jeffrey, The Decline of Nayar Dominance; S. N. Sen, Hindistan'da bilim tarihi çalışmaları" },
 

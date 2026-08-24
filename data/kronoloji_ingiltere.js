@@ -355,7 +355,7 @@ window.KRONOLOJI_INGILTERE = [
   kaynak:"el-kitabi", yer_kon:[51.993,-2.158] },
 
 { t:"1476-01-01", b:"Caxton Westminster'da İngiltere'nin ilk matbaasını kurdu", tur:"bilim",
-  onem:5, dunya:3, kapsam:"ic", etiket:["teknoloji","kultur","ingiltere"],
+  onem:5, dunya:3, kapsam:"ic", etiket:["teknoloji","kultur","ingiltere","imar","islahat"],
   yer_id:"Londra",
   d:"William Caxton, Bruges'te öğrendiği matbaacılığı Westminster'a taşıyarak İngiltere'nin ilk basımevini kurdu; Chaucer'ın eserleri dâhil pek çok kitabı basıp yaygınlaştırdı. Matbaanın gelişi, İngilizce'nin standartlaşmasını ve okuryazarlığın yayılmasını hızlandırdı.",
   kaynak:"el-kitabi" },
@@ -629,7 +629,7 @@ window.KRONOLOJI_INGILTERE = [
   kaynak:"el-kitabi" },
 
 { t:"1675-06-22", b:"Greenwich Kraliyet Rasathanesi kuruldu", tur:"bilim",
-  onem:4, dunya:2, kapsam:"ic", etiket:["bilim","ingiltere"],
+  onem:4, dunya:2, kapsam:"ic", etiket:["bilim","ingiltere","imar"],
   yer_id:"",
   d:"II. Charles, denizcilik için hayatî önemdeki boylam hesaplamalarını geliştirmek amacıyla Greenwich'te bir kraliyet rasathanesi kurdurdu. Rasathane, iki yüzyıl sonra dünyanın başlangıç meridyeninin kabul edildiği referans noktası olacaktı.",
   kaynak:"el-kitabi", yer_kon:[51.4769,-0.0005] },
@@ -813,7 +813,7 @@ window.KRONOLOJI_INGILTERE = [
   kaynak:"el-kitabi" },
 
 { t:"1785-01-01", b:"Cartwright güçlü dokuma tezgâhını patentledi", tur:"bilim",
-  onem:3, dunya:2, kapsam:"ic", etiket:["teknoloji","buyuk-britanya"],
+  onem:3, dunya:2, kapsam:"ic", etiket:["teknoloji","buyuk-britanya","imar","islahat"],
   yer_id:"",
   d:"Papaz Edmund Cartwright'ın geliştirdiği mekanik dokuma tezgâhı (power loom), önceleri verimsiz olsa da sonraki on yıllarda geliştirilerek tekstil üretiminin fabrikalara taşınmasını hızlandırdı. Buluş, dokumacılığın el zanaatından fabrika üretimine geçişinde kilit bir adımdı.",
   kaynak:"el-kitabi", yer_id:"Londra" },
@@ -925,7 +925,7 @@ window.KRONOLOJI_INGILTERE = [
   kaynak:"el-kitabi" },
 
 { t:"1825-09-27", b:"Stockton ve Darlington Demiryolu açıldı", tur:"bilim",
-  onem:5, dunya:4, kapsam:"ic", etiket:["teknoloji","birlesik-krallik"],
+  onem:5, dunya:4, kapsam:"ic", etiket:["teknoloji","birlesik-krallik","imar","islahat"],
   yer_id:"",
   d:"George Stephenson'ın tasarladığı Locomotion No. 1 lokomotifiyle işletilen hat, dünyanın ilk buharlı lokomotifle çalışan halka açık demiryolu oldu. Açılış, sonraki yarım yüzyılda dünyayı değiştirecek demiryolu çağının başlangıcı sayılır.",
   kaynak:"el-kitabi", yer_kon:[54.524,-1.553] },
@@ -1089,7 +1089,7 @@ window.KRONOLOJI_INGILTERE = [
   kaynak:"el-kitabi" },
 
 { t:"1866-07-27", b:"Kalıcı Atlantik telgraf kablosu tamamlandı", tur:"bilim",
-  onem:4, dunya:3, kapsam:"dis", etiket:["teknoloji","birlesik-krallik"],
+  onem:4, dunya:3, kapsam:"dis", etiket:["teknoloji","birlesik-krallik","imar","islahat"],
   yer_id:"",
   d:"Isambard Kingdom Brunel'in tasarladığı dev gemi Great Eastern'ın döşediği kablo, Britanya ile Kuzey Amerika arasında ilk kalıcı ve güvenilir telgraf hattını kurdu. Bağlantı, mesajların haftalar yerine dakikalar içinde Atlantik'i geçmesini sağlayarak küresel iletişimi dönüştürdü.",
   kaynak:"el-kitabi", yer_kon:[47.861,-53.272] },
@@ -1115,7 +1115,7 @@ window.KRONOLOJI_INGILTERE = [
 // ═════════════ P) GEÇ VİKTORYA DÖNEMİ VE EMPERYAL YÜKSELİŞ (1869-1901) ═════════════
 
 { t:"1869-11-17", b:"Süveyş Kanalı açıldı", tur:"ekonomi",
-  onem:5, dunya:4, kapsam:"dis", etiket:["ekonomi","ulasim","birlesik-krallik"],
+  onem:5, dunya:4, kapsam:"dis", etiket:["ekonomi","ulasim","birlesik-krallik","imar","islahat"],
   yer_id:"Süveyş",
   d:"Fransız mühendisliğiyle inşa edilen Süveyş Kanalı, Akdeniz ile Kızıldeniz'i birleştirerek Britanya'nın Hindistan yoluna denizden aylar süren Ümit Burnu güzergâhı yerine haftalar süren bir kısayol sağladı. Kanal, kısa sürede Britanya'nın en hayatî stratejik güzergâhlarından biri hâline geldi.",
   kaynak:"el-kitabi" },

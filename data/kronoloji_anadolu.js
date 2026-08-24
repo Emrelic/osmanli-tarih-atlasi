@@ -173,7 +173,7 @@ window.KRONOLOJI_ANADOLU = [
   kaynak:"karamanogullari" },
 
 { t:"1302-01-01", b:"Mecdüddin Mahmud Bey, Ermenek Ulucamii'ni tamamlattı", tur:"mimari",
-  onem:2, dunya:1, kapsam:"ic", etiket:["mimari","kultur"],
+  onem:2, dunya:1, kapsam:"ic", etiket:["mimari","kultur","imar"],
   yer_id:"Ermenek",
   d:"Beyliğin erken dönem hükümdarlarından Mecdüddin Mahmud Bey, Ermenek'te beyliğin en eski büyük camilerinden Ulucami'nin inşasını tamamlattı.",
   kaynak:"karamanogullari" },
@@ -191,7 +191,7 @@ window.KRONOLOJI_ANADOLU = [
   kaynak:"karamanogullari" },
 
 { t:"1318-01-01", b:"Bedreddin İbrâhim Bey, Lârende'yi başkent yapıp saray inşa ettirdi", tur:"idari",
-  onem:3, dunya:1, kapsam:"ic", etiket:["idari","mimari"],
+  onem:3, dunya:1, kapsam:"ic", etiket:["idari","mimari","imar"],
   yer_id:"Karaman",
   d:"Bedreddin İbrâhim Bey, Lârende'yi (Karaman) beyliğin başkenti ilan edip burada bir saray yaptırdı; şehir bundan sonra beyliğin siyasi merkezi olarak öne çıktı.",
   kaynak:"karamanogullari" },
@@ -209,13 +209,13 @@ window.KRONOLOJI_ANADOLU = [
   kaynak:"karamanogullari" },
 
 { t:"1336-01-01", b:"Aksaray Zinciriye Medresesi tamamlandı", tur:"mimari",
-  onem:2, dunya:1, kapsam:"ic", etiket:["mimari","kultur","bilim"],
+  onem:2, dunya:1, kapsam:"ic", etiket:["mimari","kultur","bilim","imar"],
   yer_id:"Aksaray",
   d:"735-36 (1335-36) yıllarında tamamlanan Aksaray Zinciriye Medresesi, beyliğin erken dönem eğitim yapılarından biri olarak inşa edildi.",
   kaynak:"karamanogullari" },
 
 { t:"1340-01-01", b:"Ermenek Tol Medresesi inşa edildi", tur:"mimari",
-  onem:2, dunya:1, kapsam:"ic", etiket:["mimari","bilim","kultur"],
+  onem:2, dunya:1, kapsam:"ic", etiket:["mimari","bilim","kultur","imar"],
   yer_id:"Ermenek",
   d:"740 (1339-40) tarihinde Ermenek'te Tol Medresesi'nin inşası tamamlandı; beyliğin ilk yurdu olan Ermenek bu dönemde de bir eğitim merkezi olma özelliğini sürdürdü.",
   kaynak:"karamanogullari" },
@@ -251,7 +251,7 @@ window.KRONOLOJI_ANADOLU = [
   kaynak:"karamanogullari" },
 
 { t:"1381-06-01", b:"Nefîse Sultan, Karaman'da Hatuniye Medresesi'ni yaptırdı", tur:"mimari",
-  onem:3, dunya:1, kapsam:"ic", etiket:["mimari","kultur","ittifak"],
+  onem:3, dunya:1, kapsam:"ic", etiket:["mimari","kultur","ittifak","imar"],
   yer_id:"Karaman",
   d:"I. Murad'ın kızı ve Alâeddin Bey'in eşi Nefîse Sultan, 783 (1381) yılında Lârende'de Hatuniye Medresesi'ni yaptırdı. Yapı, iki hanedan arasındaki evlilik ittifakının kültürel mirası olarak günümüze ulaştı.",
   kaynak:"karamanogullari" },
@@ -323,7 +323,7 @@ window.KRONOLOJI_ANADOLU = [
   kaynak:"karamanogullari" },
 
 { t:"1432-01-01", b:"Tâceddin İbrâhim Bey, Karaman'da büyük külliyesini tamamlattı", tur:"mimari",
-  onem:3, dunya:1, kapsam:"ic", etiket:["mimari","kultur","din"],
+  onem:3, dunya:1, kapsam:"ic", etiket:["mimari","kultur","din","imar"],
   yer_id:"Karaman",
   d:"836 (1432) yılında Tâceddin İbrâhim Bey, Lârende'de cami, medrese, imaret ve hamamdan oluşan büyük külliyesini tamamlattı; yapı beyliğin en önemli mimari eserlerinden biri sayılır.",
   kaynak:"karamanogullari" },
@@ -419,13 +419,13 @@ window.KRONOLOJI_ANADOLU = [
   kaynak:"karamanogullari", kapsam_genis:true },
 
 { t:"1431-01-01", b:"Aksaray Ulucamii tamamlandı", tur:"mimari",
-  onem:2, dunya:1, kapsam:"ic", etiket:["mimari","kultur"],
+  onem:2, dunya:1, kapsam:"ic", etiket:["mimari","kultur","imar"],
   yer_id:"Aksaray",
   d:"1431 yılında Aksaray'da beyliğin büyük camilerinden Ulucami'nin inşası tamamlandı.",
   kaynak:"karamanogullari" },
 
 { t:"1441-01-01", b:"Mut'ta Lâl Ağa Camii yaptırıldı", tur:"mimari",
-  onem:1, dunya:1, kapsam:"ic", etiket:["mimari"],
+  onem:1, dunya:1, kapsam:"ic", etiket:["mimari","imar"],
   yer_id:"",
   d:"1441 civarında Mut'ta Lâl Ağa Camii inşa edildi; Mut'un atlas verisinde ayrı bir yerleşim kaydı bulunmuyor.",
   kaynak:"karamanogullari", yer_kon:[36.6469,33.4386] },
@@ -649,7 +649,7 @@ window.KRONOLOJI_ANADOLU = [
   kaynak:"keyhusrev-i" },
 
 { t:"1206-01-01", b:"Kayseri Gevher Nesibe Darüşşifası ve Tıp Medresesi'nin kuruluşu", tur:"bilim",
-  onem:4, dunya:2, kapsam:"ic", etiket:["tıp", "hastane", "Kayseri", "Gevher Nesibe"],
+  onem:4, dunya:2, kapsam:"ic", etiket:["tıp","hastane","Kayseri","Gevher Nesibe","imar"],
   yer_id:"Kayseri",
   d:"I. Gıyâseddin Keyhusrev ve kız kardeşi Gevher Nesibe Hatun tarafından Kayseri'de Gevher Nesibe Darüşşifası ve bitişiğindeki Gıyâseddin Keyhusrev Tıp Medresesi kuruldu; Anadolu Selçuklu döneminin en erken şifahane-tıp medresesi kompleksidir.",
   kaynak:"bimaristan" },
@@ -691,7 +691,7 @@ window.KRONOLOJI_ANADOLU = [
   kaynak:"keykavus-i", kapsam_genis:true },
 
 { t:"1217-01-01", b:"Sivas Keykâvus Darüşşifası'nın inşası", tur:"bilim",
-  onem:3, dunya:1, kapsam:"ic", etiket:["hastane", "Sivas", "tıp"],
+  onem:3, dunya:1, kapsam:"ic", etiket:["hastane","Sivas","tıp","imar"],
   yer_id:"Sivas",
   d:"I. İzzeddin Keykâvus 1217'de Sivas'ta kendi adını taşıyan darüşşifayı (hastane) yaptırdı; sultan 1220'de bu hastanenin türbesine defnedildi.",
   kaynak:"bimaristan" },
@@ -703,7 +703,7 @@ window.KRONOLOJI_ANADOLU = [
   kaynak:"keykubad-i" },
 
 { t:"1222-01-01", b:"Alanya (Kalonoros)'ın fethi ve tersanenin kuruluşu", tur:"toprak-kazanc",
-  onem:4, dunya:2, kapsam:"ic", etiket:["Alanya", "tersane", "Akdeniz"],
+  onem:4, dunya:2, kapsam:"ic", etiket:["Alanya","tersane","Akdeniz","imar","islahat"],
   yer_id:"Alanya",
   d:"I. Alâeddin Keykubad, Antalya'nın doğusundaki Kalonoros Kalesi'ni 619 (1222) yılında alıp yeniden inşa ettirerek Alâiye adını verdi; burada bir tersane kurdurdu.",
   kaynak:"keykubad-i" },
@@ -745,7 +745,7 @@ window.KRONOLOJI_ANADOLU = [
   kaynak:"keykubad-i" },
 
 { t:"1229-01-01", b:"Sultan Hanı kervansaraylarının inşası", tur:"ekonomi",
-  onem:3, dunya:1, kapsam:"ic", etiket:["kervansaray", "ticaret yolu", "Sultan Hanı"],
+  onem:3, dunya:1, kapsam:"ic", etiket:["kervansaray","ticaret yolu","Sultan Hanı","imar"],
   yer_id:"Konya",
   d:"I. Alâeddin Keykubad, biri Konya-Aksaray, diğeri Kayseri-Sivas yolu üzerinde olmak üzere Sultan Hanı adını taşıyan iki muhteşem kervansaray yaptırdı; bu yapılar ticaret yollarının güvenliğini sağlama politikasının simgesi oldu.",
   kaynak:"keykubad-i" },
@@ -775,7 +775,7 @@ window.KRONOLOJI_ANADOLU = [
   kaynak:"sadreddin-konevi" },
 
 { t:"1235-01-01", b:"Çankırı Atabey Ferruh Hastahanesi'nin inşası", tur:"bilim",
-  onem:2, dunya:1, kapsam:"ic", etiket:["hastane", "Çankırı"],
+  onem:2, dunya:1, kapsam:"ic", etiket:["hastane","Çankırı","imar"],
   yer_id:"Çankırı",
   d:"Anadolu Selçuklu döneminde Çankırı'da Atabey Ferruh Hastahanesi 1235 yılında inşa edildi.",
   kaynak:"bimaristan" },
@@ -835,7 +835,7 @@ window.KRONOLOJI_ANADOLU = [
   kaynak:"keykavus-ii" },
 
 { t:"1251-01-01", b:"Karatay Medresesi'nin inşası", tur:"mimari",
-  onem:3, dunya:1, kapsam:"ic", etiket:["Karatay Medresesi", "Konya", "mimari"],
+  onem:3, dunya:1, kapsam:"ic", etiket:["Karatay Medresesi","Konya","mimari","imar"],
   yer_id:"Konya",
   d:"Emîr Celâleddin Karatay, Konya'da 649 (1251) yılında adını taşıyan medreseyi yaptırdı; merkezi kubbeli avlusu ve zengin çini dekorasyonuyla Selçuklu medrese mimarisinin başyapıtlarından biridir.",
   kaynak:"karatay-medresesi" },
@@ -865,7 +865,7 @@ window.KRONOLOJI_ANADOLU = [
   kaynak:"selcuklular" },
 
 { t:"1264-01-01", b:"İnce Minareli Medrese (Sahip Ata Dârülhadisi)'nin inşası", tur:"mimari",
-  onem:2, dunya:1, kapsam:"ic", etiket:["İnce Minareli Medrese", "Konya", "Sahip Ata"],
+  onem:2, dunya:1, kapsam:"ic", etiket:["İnce Minareli Medrese","Konya","Sahip Ata","imar"],
   yer_id:"Konya",
   d:"Selçuklu veziri Sâhib Ata Fahreddin Ali tarafından mimar Kölük b. Abdullah'a Konya'da yaptırılan dârülhadis (hadis medresesi), bitişiğindeki cami ve ince minaresiyle tanınır; yapının kesin inşa tarihi belirsiz olmakla birlikte 1265 tarihli vakfiye kaydından önceye aittir.",
   kaynak:"ince-minareli-medrese" },
@@ -877,7 +877,7 @@ window.KRONOLOJI_ANADOLU = [
   kaynak:"selcuklular" },
 
 { t:"1272-01-01", b:"Kastamonu Ali b. Pervâne Hastahanesi'nin inşası", tur:"bilim",
-  onem:2, dunya:1, kapsam:"ic", etiket:["hastane", "Kastamonu"],
+  onem:2, dunya:1, kapsam:"ic", etiket:["hastane","Kastamonu","imar"],
   yer_id:"Kastamonu",
   d:"Kastamonu'da Ali b. Pervâne Hastahanesi 1272 yılında inşa edildi.",
   kaynak:"bimaristan" },
@@ -895,7 +895,7 @@ window.KRONOLOJI_ANADOLU = [
   kaynak:"sadreddin-konevi" },
 
 { t:"1275-01-01", b:"Tokat Gökmedrese (Pervâne Darüşşifası)'nin inşası", tur:"bilim",
-  onem:3, dunya:1, kapsam:"ic", etiket:["hastane", "Tokat", "Pervâne"],
+  onem:3, dunya:1, kapsam:"ic", etiket:["hastane","Tokat","Pervâne","imar"],
   yer_id:"Tokat",
   d:"Vezir Muînüddin Süleyman Pervâne, Tokat'ta Gökmedrese adıyla da bilinen darüşşifasını 1275 yılında yaptırdı.",
   kaynak:"bimaristan" },
@@ -1006,13 +1006,13 @@ window.KRONOLOJI_ANADOLU = [
   kaynak:"hasankeyf", yer_kon:[37.7128,41.4067] },
 
 { t:"1146-01-01", b:"Harput Ulu Camii Fahreddin Kara Arslan tarafından yaptırıldı", tur:"mimari",
-  onem:3, dunya:2, kapsam:"ic", etiket:["mimari", "cami", "Harput"],
+  onem:3, dunya:2, kapsam:"ic", etiket:["mimari","cami","Harput","imar"],
   yer_id:"Harput (Elazığ)",
   d:"Harput Ulucamii, kitâbesine göre 541 (1146-47) yılında Fahreddin Kara Arslan tarafından yaptırıldı. Cami, Artuklu döneminin Harput'ta bugüne ulaşan en önemli anıtsal eserlerinden biridir.",
   kaynak:"harput" },
 
 { t:"1147-01-01", b:"Malabadi (Silvan) Köprüsü Timurtaş tarafından yaptırıldı", tur:"mimari",
-  onem:3, dunya:2, kapsam:"ic", etiket:["mimari", "kopru", "Silvan", "Timurtaş"],
+  onem:3, dunya:2, kapsam:"ic", etiket:["mimari","kopru","Silvan","Timurtaş","imar"],
   yer_id:"",
   d:"Mardin Artuklu hükümdarı Timurtaş b. İlgazi, Batman Suyu üzerinde inşa ettirdiği ve kitâbesine göre 542 (1147-48) yılında tamamlanan Malabadi Köprüsü'nü yaptırdı; İbnü'l-Ezrak inşaatın 541'de (1146) başladığını yazar. Tek gözlü, dönemine göre olağanüstü büyük kemerli köprü, güneş-aslan kabartmaları ve insan figürleriyle Artuklu taş işçiliğinin en özgün örneklerinden biridir.",
   kaynak:"bulunamadı — TDV'de Malabadi köprüsü için müstakil madde bulunamadı; dayanak: T.C. Kültür ve Turizm Bakanlığı Kültür Portalı ve İnşaat Mühendisleri Odası Su Yapıları Sempozyumu bildirisi", yer_kon:[38.1394,41.0125] },
@@ -1036,7 +1036,7 @@ window.KRONOLOJI_ANADOLU = [
   kaynak:"artuklular" },
 
 { t:"1155-01-01", b:"Hasankeyf Dicle Köprüsü Kara Arslan tarafından yaptırıldı", tur:"mimari",
-  onem:4, dunya:3, kapsam:"ic", etiket:["mimari", "kopru", "Hasankeyf", "Dicle"],
+  onem:4, dunya:3, kapsam:"ic", etiket:["mimari","kopru","Hasankeyf","Dicle","imar"],
   yer_id:"",
   d:"Fahreddin Kara Arslan, göçebe ve tüccar geçişini kolaylaştırmak amacıyla Dicle üzerinde ünlü Hasankeyf Köprüsü'nü yaptırdı; kesin yapım yılı belli olmamakla birlikte hükümdarlığı yıllarına (1144-1167) tarihlenir. Devasa ayakları bugün de ayakta olan köprü, Artuklu mühendisliğinin en tanınmış simgelerinden biri hâline geldi.",
   kaynak:"hasankeyf", yer_kon:[37.7128,41.4067] },
@@ -1054,7 +1054,7 @@ window.KRONOLOJI_ANADOLU = [
   kaynak:"artuklular" },
 
 { t:"1177-01-01", b:"Mardin Ulu Camii'nin minaresi bu döneme tarihlenir", tur:"mimari",
-  onem:4, dunya:2, kapsam:"ic", etiket:["mimari", "cami", "Mardin"],
+  onem:4, dunya:2, kapsam:"ic", etiket:["mimari","cami","Mardin","imar"],
   yer_id:"Mardin",
   d:"On altı ayrı kitâbe taşıyan Mardin Ulu Camii'nin tam inşa tarihi kesin olarak aydınlatılamamıştır, ancak minaresinin alt kısmındaki kitâbe 572 (1176-77) tarihini vermektedir. Cami, Artuklu döneminden günümüze ulaşan en büyük ve en görkemli ibadet yapısı olarak Mardin'in simgelerinden biridir.",
   kaynak:"ulucami" },
@@ -1102,7 +1102,7 @@ window.KRONOLOJI_ANADOLU = [
   kaynak:"artuklular" },
 
 { t:"1204-01-01", b:"Kızıltepe (Dunaysır) Ulu Camii yaptırıldı", tur:"mimari",
-  onem:3, dunya:2, kapsam:"ic", etiket:["mimari", "cami", "Kiziltepe", "Dunaysir"],
+  onem:3, dunya:2, kapsam:"ic", etiket:["mimari","cami","Kiziltepe","Dunaysir","imar"],
   yer_id:"",
   d:"Mardin Artukluları, 1204-1205 yıllarında Dunaysır'da (bugünkü Kızıltepe) anıtsal Ulu Camii'yi inşa ettirdi. Yapı, döneminin taş işçiliği ve süsleme sanatının en zengin örneklerinden biri olarak kabul edilir.",
   kaynak:"artuklular", yer_kon:[37.1928,40.5928] },
@@ -1114,7 +1114,7 @@ window.KRONOLOJI_ANADOLU = [
   kaynak:"cezeri-ismail-b-rezzaz" },
 
 { t:"1208-01-01", b:"Yedi Kardeş Burcu inşa edildi", tur:"mimari",
-  onem:3, dunya:2, kapsam:"ic", etiket:["mimari", "burc", "Diyarbakir", "Nasireddin Mahmud"],
+  onem:3, dunya:2, kapsam:"ic", etiket:["mimari","burc","Diyarbakir","Nasireddin Mahmud","imar"],
   yer_id:"Diyarbakır",
   d:"Nâsırüddin Mahmud döneminde (1200-1222) Âmid surlarının güçlendirilmesi kapsamında Yedi Kardeş Burcu 1208-1209 yıllarında inşa edildi. Aynı dönemde Devegeçidi Köprüsü de hükümdarın imar programının bir parçası olarak yapıldı.",
   kaynak:"bulunamadı — TDV'de müstakil madde yok; dayanak: İ.Ü. Art-Sanat Dergisi hakemli makalesi (Diyarbakır Artuklu Sultanı Nâsırüddin Melik Sâlih Mahmud, 1200-1222)" },
@@ -1180,13 +1180,13 @@ window.KRONOLOJI_ANADOLU = [
   kaynak:"artuklular" },
 
 { t:"1350-01-01", b:"Dicle üzerindeki köprüler ticaret yolunu güvence altına aldı", tur:"ekonomi",
-  onem:2, dunya:2, kapsam:"ic", etiket:["ekonomi", "ticaret", "Dicle", "kopru"],
+  onem:2, dunya:2, kapsam:"ic", etiket:["ekonomi","ticaret","Dicle","kopru","imar"],
   yer_id:"", kapsam_genis:true,
   d:"Hasankeyf ve Malabadi köprüleri gibi Artuklu döneminde inşa edilen geçitler, Dicle ve kollarını aşan kervan yollarını güvenli hâle getirerek Doğu Anadolu-Kuzey Mezopotamya arasındaki İpek Yolu koluna hizmet etti. Bu altyapı, Diyarbakır-Mardin-Hasankeyf üçgeninin bölgesel ticaret merkezi olarak üç asır boyunca önemini korumasını sağladı.",
   kaynak:"bulunamadı — TDV'de müstakil ekonomik değerlendirme yok; genel çıkarım, dayanak: artuklular ve hasankeyf maddelerindeki mimari/ticarî bağlam" },
 
 { t:"1385-01-01", b:"Sultan Îsâ Medresesi tamamlandı", tur:"mimari",
-  onem:3, dunya:2, kapsam:"ic", etiket:["mimari", "medrese", "Mardin"],
+  onem:3, dunya:2, kapsam:"ic", etiket:["mimari","medrese","Mardin","imar"],
   yer_id:"Mardin",
   d:"Mecdüddin Îsâ döneminde inşasına başlanan Sultan Îsâ Medresesi 787 (1385) yılında tamamlandı. Yapı, Artuklu döneminin son yüzyılındaki mimari faaliyetin en önemli örneklerinden biridir.",
   kaynak:"mardin" },
@@ -1243,7 +1243,7 @@ window.KRONOLOJI_ANADOLU = [
   kaynak:"elbistan" },
 
 { t:"1339-01-01", b:"Hurman yolunda Çavlı Han kervansarayı kuruldu", tur:"ekonomi",
-  onem:2, dunya:1, kapsam:"ic", etiket:["ticaret yolu", "kervansaray", "Çavlı Han"],
+  onem:2, dunya:1, kapsam:"ic", etiket:["ticaret yolu","kervansaray","Çavlı Han","imar"],
   yer_id:"Elbistan",
   d:"Elbistan yakınlarında, Hurman yolu üzerinde Çavlı Han adlı bir kervansaray kuruldu. Bu yapı, Dulkadır topraklarının Anadolu ile Suriye arasındaki ticaret yolu üzerindeki stratejik konumunu güçlendirdi.",
   kaynak:"elbistan" },
@@ -1321,7 +1321,7 @@ window.KRONOLOJI_ANADOLU = [
   kaynak:"dulkadirogullari" },
 
 { t:"1442-06-01", b:"Maraş Ulucami'nin inşasına başlandı", tur:"mimari",
-  onem:2, dunya:1, kapsam:"ic", etiket:["cami", "mimari", "Ulucami"],
+  onem:2, dunya:1, kapsam:"ic", etiket:["cami","mimari","Ulucami","imar"],
   yer_id:"Maraş",
   d:"Süleyman Bey döneminde Maraş'ta Ulucami'nin inşasına başlandı; yapı 1442-1454 yılları arasında tamamlandı. Cami, beyliğin başkenti Maraş'taki en önemli erken dönem eserlerinden biri oldu.",
   kaynak:"kahramanmaras" },
@@ -1363,13 +1363,13 @@ window.KRONOLOJI_ANADOLU = [
   kaynak:"dulkadirogullari" },
 
 { t:"1481-01-01", b:"Elbistan'da iki cami ve medrese yaptırıldı", tur:"mimari",
-  onem:2, dunya:1, kapsam:"ic", etiket:["cami", "medrese", "Elbistan"],
+  onem:2, dunya:1, kapsam:"ic", etiket:["cami","medrese","Elbistan","imar"],
   yer_id:"Elbistan",
   d:"Alâüddevle Bey döneminde Elbistan'da iki cami ve bir medrese inşa edildi; âlim ve şeyhler himaye görerek şehrin dinî-kültürel hayatı canlandı. Bu imar faaliyetleri, Elbistan'ın başkentlik konumunu Maraş'a devretmeden önceki son parlak dönemini yansıtır.",
   kaynak:"elbistan" },
 
 { t:"1501-01-01", b:"Maraş Ulucami, Alâüddevle Bozkurt tarafından yenilendi", tur:"mimari",
-  onem:2, dunya:1, kapsam:"ic", etiket:["cami", "mimari", "yenileme"],
+  onem:2, dunya:1, kapsam:"ic", etiket:["cami","mimari","yenileme","imar"],
   yer_id:"Maraş",
   d:"Alâüddevle Bozkurt Bey, 1501-1502 yıllarında babası Süleyman Bey'in yaptırdığı Maraş Ulucami'sini yeniden inşa ettirip genişletti. Bu imar faaliyeti, Alâüddevle döneminin geniş çaplı eser yaptırma siyasetinin bir parçasıydı.",
   kaynak:"kahramanmaras" },
@@ -1387,13 +1387,13 @@ window.KRONOLOJI_ANADOLU = [
   kaynak:"dulkadirogullari" },
 
 { t:"1509-01-01", b:"Maraş Hatuniye Camii yaptırıldı", tur:"mimari",
-  onem:2, dunya:1, kapsam:"ic", etiket:["cami", "mimari", "Şemse Hatun"],
+  onem:2, dunya:1, kapsam:"ic", etiket:["cami","mimari","Şemse Hatun","imar"],
   yer_id:"Maraş",
   d:"Alâüddevle Bozkurt Bey'in hanımı Şemse Hatun, Maraş'ta kendi adıyla anılan Hatuniye Camii'ni yaptırdı. Şemse Hatun'un türbesi, bu caminin altında yer almaktadır.",
   kaynak:"kahramanmaras" },
 
 { t:"1510-01-01", b:"Maraş'ta Taşmedrese ve diğer medreseler inşa edildi", tur:"mimari",
-  onem:2, dunya:1, kapsam:"ic", etiket:["medrese", "mimari", "külliye"],
+  onem:2, dunya:1, kapsam:"ic", etiket:["medrese","mimari","külliye","imar"],
   yer_id:"Maraş",
   d:"Alâüddevle Bozkurt Bey, Maraş'ta Taşmedrese'yi ve Bağdâdiye, Neveviyye ile İmaret medreselerini yaptırdı. Bu eserler, XVI. yüzyıl başında beyliğin son döneminde gerçekleştirilen geniş çaplı bir imar hareketinin parçasıydı.",
   kaynak:"kahramanmaras" },
@@ -1462,7 +1462,7 @@ window.KRONOLOJI_ANADOLU = [
   kaynak:"aydinogullari" },
 
 { t:"1312-01-01", b:"Mehmed Bey Ulu Camii ve külliyesinin inşası", tur:"mimari",
-  onem:3, dunya:1, kapsam:"ic", etiket:["Ulu Cami", "külliye", "Birgi"],
+  onem:3, dunya:1, kapsam:"ic", etiket:["Ulu Cami","külliye","Birgi","imar"],
   yer_id:"Birgi",
   d:"Mehmed Bey, Birgi'de cami, türbe ve medreseden oluşan bir külliye inşa ettirdi (712/1312). Ulu Cami olarak da anılan bu yapı, dönemin yıkımlarından günümüze ulaşabilen en önemli tarihî anıt olarak kabul edilir; türbede Umur Bey, İsa Bey ve Bahadır Bey gibi hânedan üyeleri de gömülüdür.",
   kaynak:"birgi" },
@@ -1546,7 +1546,7 @@ window.KRONOLOJI_ANADOLU = [
   kaynak:"aydinogullari" },
 
 { t:"1374-01-01", b:"İsa Bey Camii'nin Ayasuluk'ta inşası", tur:"mimari",
-  onem:4, dunya:1, kapsam:"ic", etiket:["İsa Bey Camii", "Ayasuluk", "mimari"],
+  onem:4, dunya:1, kapsam:"ic", etiket:["İsa Bey Camii","Ayasuluk","mimari","imar"],
   yer_id:"Ayasuluk (Selçuk)",
   d:"İsa Bey, Ayasuluk'ta yüksek sanat değeriyle öne çıkan büyük camisini inşa ettirdi (776/1374-75). Yapı, Anadolu Türk mimarisinde Selçuklu-Beylikler dönemi geçiş sürecinin önemli örneklerinden biri sayılır.",
   kaynak:"ayasuluk" },
@@ -1675,7 +1675,7 @@ window.KRONOLOJI_ANADOLU = [
   kaynak:"Bournoutian, A Concise History of the Armenian People (2006)", yer_id:"Karakurum" },
 
 { t:"1251-01-01", b:"Korikos deniz kalesi Hetum I döneminde genişletildi", tur:"mimari",
-  onem:2, dunya:1, kapsam:"ic", etiket:["Korikos", "kale", "tahkimat"],
+  onem:2, dunya:1, kapsam:"ic", etiket:["Korikos","kale","tahkimat","imar"],
   yer_id:"", kapsam_genis:true,
   d:"Doğu Akdeniz kıyısındaki stratejik Korikos deniz kalesi, daha önce I. Levon (1206) tarafından onarılmış, ardından Hetum I (1251) döneminde genişletilerek Kilikya'nın en güçlü kıyı tahkimatlarından birine dönüştürüldü; kayaya bitişik ada üzerindeki kale, kıyı kalesiyle birlikte krallığın deniz savunmasının omurgasını oluşturdu.",
   kaynak:"Robert W. Edwards, The Fortifications of Armenian Cilicia (Dumbarton Oaks Studies XXIII, 1987); ikincil özetten derlendi (armenianarchitecture.org), doğrudan tarama yapılamadı" },
@@ -1777,7 +1777,7 @@ window.KRONOLOJI_ANADOLU = [
   kaynak:"Bournoutian (2006); ikincil özetten derlendi" },
 
 { t:"1325-01-01", b:"Ayas limanı yeniden inşa edildi", tur:"ekonomi",
-  onem:3, dunya:1, kapsam:"ic", etiket:["Ayas", "liman", "ticaret"],
+  onem:3, dunya:1, kapsam:"ic", etiket:["Ayas","liman","ticaret","imar","islahat"],
   yer_id:"", kapsam_genis:true,
   d:"Önceki Memlük akınlarında tahrip olan Ayas limanı krallık tarafından yeniden inşa edildi ve Memlük Sultanlığı tarafından ticaret limanı olarak tanındı; İtalyan tüccarlar (özellikle Cenevizliler) faaliyetlerine devam etti.",
   kaynak:"\"The Armenian Kingdom of Cilicia and the Mamluk Sultanate\", Orient dergisi (jstage.jst.go.jp) — hakemli akademik makale" },

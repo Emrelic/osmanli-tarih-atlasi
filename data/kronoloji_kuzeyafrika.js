@@ -150,12 +150,12 @@ window.KRONOLOJI_KUZEYAFRIKA = [
   kaynak:"TDV `meriniler`: \"869/1465'te Tanca Portekizliler tarafından işgal edildi\" · \"869/1465'te Merînî Sultanı Abdülhak öldürülerek Merînîler Devleti sona erdi\"" },
 
 { t:"1299-01-01", b:"Mansûre şehri kuruldu (Tilimsan kuşatması karargâhı)", tur:"kultur", onem:2, dunya:1, kapsam:"dis", yer_id:"",
-  etiket:["mimari","kurum"],
+  etiket:["mimari","kurum","imar"],
   d:"Sekiz yıl süren Tilimsan kuşatması sırasında ordugâh olarak Mansûre şehri kuruldu; köşkler, resmî binalar ve hamamlar inşa edildi — bir kuşatma karargâhının kalıcı şehre dönüşümü.",
   kaynak:"TDV `meriniler`: \"698/1299'da Mansûre şehri kuruldu; bu sırada köşkler, binalar, hamamlar yapıldı\"", yer_id:"Tilimsan" },
 
 { t:"1323-01-01", b:"Medresetü'l-Attârîn inşa edildi", tur:"bilim", onem:2, dunya:1, kapsam:"ic", yer_id:"Fas (Fez)",
-  etiket:["bilim","mimari"],
+  etiket:["bilim","mimari","imar"],
   d:"Fas'ta, Merînî medrese mimarisinin özgün örneklerinden Medresetü'l-Attârîn inşa edildi; hanedan, başkentini bir ilim merkezine dönüştürme siyasetini bu tür kurumlarla sürdürdü.",
   kaynak:"TDV `meriniler`: \"723/1323'e ait kaynaklar Medresetü'l-Attârîn'in inşasını gösterir\"" },
 
@@ -269,7 +269,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
   kaynak:"TDV `sadiler`: \"Abdülmelik ve Ahmed el-Mansûr devrinde Osmanlı sistemi örnek alınarak devlet teşkilâtlanması ve ordu reformları\"", kapsam_genis:true },
 
 { t:"1593-01-01", b:"Kasrü'l-bedî' Sarayı inşa edildi", tur:"kultur", onem:3, dunya:2, kapsam:"ic", yer_id:"Merakeş",
-  etiket:["mimari"],
+  etiket:["mimari","imar"],
   d:"Ahmed el-Mansûr, Tondibi zaferinin Sudan altınıyla finanse edilen görkemli Kasrü'l-bedî' Sarayı'nı Merakeş'te inşa ettirdi; saray, dönemin İber ve Osmanlı saraylarıyla rekabet eden bir güç gösterisiydi. ⚠️ TDV yalnız \"Ahmed el-Mansûr devrinde\" diyor; saltanatının ortası (1593) yaklaşık tarih olarak kullanıldı, gün doğrulanmadı.",
   kaynak:"TDV `sadiler`: \"Ahmed el-Mansûr devrinde Kasrü'l-bedî' Sarayı'nın Merakeş'te inşası\"" },
 
@@ -288,7 +288,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
   kaynak:"TDV `tunus`: Ebû Zekeriyyâ el-Hafsî'nin Tunus'u fethi ve Hafsî hânedanının kurulması" },
 
 { t:"1249-01-01", b:"Şemmâiyye Medresesi inşa edildi", tur:"bilim", onem:2, dunya:1, kapsam:"ic", yer_id:"Tunus",
-  etiket:["bilim","mimari"],
+  etiket:["bilim","mimari","imar"],
   d:"Hafsîler, Tunus'ta sonraki medrese mimarisine örnek teşkil edecek Şemmâiyye Medresesi'ni inşa ettirdi.",
   kaynak:"TDV `tunus`: Şemmâiyye Medresesinin inşası (1249)" },
 
@@ -313,7 +313,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
   kaynak:"TDV `tunus`: \"'yeniden itibar kazandırdı'\" (I. Ebü'l-Abbas Ahmed el-Müstansır'ın hükümdarlığı, 1370-1394)" },
 
 { t:"1437-01-01", b:"Müntasıriyye Medresesi inşa edildi", tur:"bilim", onem:2, dunya:1, kapsam:"ic", yer_id:"Tunus",
-  etiket:["bilim","mimari"],
+  etiket:["bilim","mimari","imar"],
   d:"Hafsîlerin ikinci parlak döneminde Tunus'ta Müntasıriyye Medresesi inşa edildi.",
   kaynak:"TDV `tunus`: Müntasıriyye Medresesinin inşası (1437)" },
 
@@ -357,7 +357,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
   kaynak:"TDV `tilimsan`: \"I. Ebû Zeyyân Muhammed yıkıntıları tamir etti\" (1304-1308)" },
 
 { t:"1318-01-01", b:"I. Ebû Taşfin döneminde mimari gelişme", tur:"kultur", onem:3, dunya:1, kapsam:"ic", yer_id:"Tilimsan",
-  etiket:["mimari"],
+  etiket:["mimari","imar"],
   d:"I. Ebû Taşfin'in hükümdarlığı (1318-1337) döneminde beş saray inşa edildi; Zeyyânî mimarisinin altın çağı.",
   kaynak:"TDV `tilimsan`: \"I. Ebû Tâşfîn Dönemi — beş saray ve mimari gelişme\" (1318-1337)" },
 
@@ -382,7 +382,7 @@ window.KRONOLOJI_KUZEYAFRIKA = [
   kaynak:"TDV `tilimsan` · TDV `meriniler`: \"761/1360'ta Mağrib-i Evsat'ta harekâttan sonuç alınamadı; Abdülvâdîler bağımsız oldu\"" },
 
 { t:"1430-01-01", b:"İç kale surları yeniden yaptırıldı", tur:"kultur", onem:2, dunya:1, kapsam:"ic", yer_id:"Tilimsan",
-  etiket:["mimari"],
+  etiket:["mimari","imar"],
   d:"Ebü'l-Abbas Ahmed, Tilimsan'ın iç kale surlarını yeniden yaptırdı.",
   kaynak:"TDV `tilimsan`: Surların onarımı (1430-1431)" },
 

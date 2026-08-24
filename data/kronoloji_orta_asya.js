@@ -241,7 +241,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   kaynak:"kazan-hanligi (TDV)" },
 
 { t:"1550-01-01", b:"Süyünbike Kazan'da bir kütüphane kurdu", tur:"kultur", onem:3, dunya:1, kapsam:"ic",
-  etiket:["kultur","bilim"],
+  etiket:["kultur","bilim","imar"],
   yer_id:"Kazan",
   d:"XVI. yüzyıl ortalarında Safâ Giray'ın karısı Süyünbike'nin bir kütüphane kurması, kaynağın Kazan'daki kültür seviyesinin yüksekliğine delil olarak gösterdiği olaydır. Kesin yılı verilmemiştir; hanlığın son on yılına tarihlenir. Kütüphane, 1552 istilâsında yağmalanan mimarî ve sanat mirasının bir parçasıdır.",
   kaynak:"kazan-hanligi (TDV) — yıl YAKLAŞIK, kaynak 'XVI. yüzyıl ortaları' diyor" },
@@ -1350,7 +1350,7 @@ window.KRONOLOJI_ORTA_ASYA = [
 // raporlanmıştır, kapatılmış gibi gösterilmemiştir.
 
 { t:"1250-01-01", b:"Kâşgar'da Mesûdiye Medresesi yaptırıldı", tur:"bilim", onem:3, dunya:1, kapsam:"ic",
-  etiket:["bilim","kultur","mimari"],
+  etiket:["bilim","kultur","mimari","imar"],
   yer_id:"Kaşgar",
   d:"Cengiz Han ülkesini oğulları arasında taksim edince Kâşgar Çağatay Han'ın payına düşmüş, ancak idaresi Buhara Emîri Mahmud Yalavaç'a ve ardından oğlu Mesud Yalavaç'a bırakılmıştı. Şehirdeki Mesûdiye Medresesi Mesud Yalavaç tarafından yaptırılmıştır. Moğol idaresi altında Tarım havzasında kurulan bu medrese, bölgenin İslâmî ilim geleneğinin sürdüğünün delilidir. ⚠️ Tarih YAKLAŞIKTIR: kaynak yıl vermiyor, Mesud Yalavaç'ın valilik dönemine tarihlenmiştir.",
   kaynak:"kasgar (TDV, madde: kasgar — içerik okundu, 2026-08-22); YIL YAKLAŞIK, kaynak gün/yıl vermiyor" },

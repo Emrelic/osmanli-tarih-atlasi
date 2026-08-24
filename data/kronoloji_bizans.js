@@ -659,7 +659,7 @@ window.KRONOLOJI_BIZANS = [
   kaynak:"The Oxford Dictionary of Byzantium (Oxford UP) — TDV bu taneciği kapsamıyor" },
 
 { t:"1348-06-01", b:"Galata Kulesi yükseldi — Ceneviz kolonisi kendi surunu tamamladı", tur:"kultur",
-  onem:3, dunya:2, kapsam:"ic", etiket:["kultur","ekonomi"],
+  onem:3, dunya:2, kapsam:"ic", etiket:["kultur","ekonomi","imar"],
   yer_id:"İstanbul",
   d:"Cenevizliler, Haliç'in karşı yakasındaki imtiyazlı yerleşimlerinin surlarını imparatorun izni olmadan yükselttiler ve tepesine büyük bir kule kondurdular. Yapı, başkentin içinde fiilen bağımsız bir ticaret devletinin varlığını taşa dönüştürmüştür.",
   kaynak:"The Oxford Dictionary of Byzantium (Oxford UP) — TDV bu taneciği kapsamıyor" },

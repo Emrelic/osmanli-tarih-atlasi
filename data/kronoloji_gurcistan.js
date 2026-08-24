@@ -163,7 +163,7 @@ window.KRONOLOJI_GURCISTAN = [
   kaynak:"tiflis (TDV, madde: tiflis — 'Lala Mustafa Paşa'nın kuvvetleri 24 Ağustos 1578'de şehre girdi')" },
 
 { t:"1578-08-29", b:"Tiflis'te iki kilisenin camiye çevrilmesi", tur:"din", onem:2, dunya:1, kapsam:"ic",
-  etiket:["din"],
+  etiket:["din","imar"],
   yer_id:"Tiflis",
   d:"Fetihten beş gün sonra şehir içindeki iki kilise ve nehrin karşı yakasındaki bir kilise camiye dönüştürüldü; Osmanlı idaresinin şehre yerleşiminin ilk sembolik adımlarındandı.",
   kaynak:"tiflis (TDV)" },
@@ -211,7 +211,7 @@ window.KRONOLOJI_GURCISTAN = [
   kaynak:"tiflis (TDV)" },
 
 { t:"1709-01-01", b:"Tiflis'te ilk Gürcü matbaasının kurulması (yaklaşık tarih)", tur:"bilim", onem:4, dunya:1, kapsam:"ic",
-  etiket:["bilim","kultur"],
+  etiket:["bilim","kultur","imar","islahat"],
   yer_id:"Tiflis",
   d:"Kral Vahtang VI'nın girişimiyle Tiflis'te ilk Gürcü matbaası kuruldu; Kafkasya'daki ilk yerli matbaalardan biri olarak Gürcüce dinî ve hukuki metinlerin basımını mümkün kıldı.",
   kaynak:"bulunamadı — TDV bu konuyu kapsamıyor; dayanak standart akademik kaynak, bu turda ikinci bir kaynakla doğrulanamadı (Britannica/Iranica 403 hatası verdi) — tarih YAKLAŞIK olarak işaretlidir" },

@@ -321,7 +321,7 @@ window.KRONOLOJI_ISPANYA = [
   kaynak:"standart akademik kaynak (Kamen, Spain 1469-1714)" },
 
 { t:"1563-04-23", b:"El Escorial'in inşaatına başlandı", tur:"kultur", onem:4, dunya:2, kapsam:"ic", yer_id:"Madrid",
-  etiket:["kultur","mimari","din"],
+  etiket:["kultur","mimari","din","imar"],
   d:"II. Felipe'nin Madrid yakınında yaptırdığı manastır-saray-türbe kompleksi, hem kraliyet gücünün hem Karşı-Reform dindarlığının simgesi olarak tasarlandı. Mimar Juan Bautista de Toledo'nun ölümünden sonra projeyi Juan de Herrera tamamladı.",
   kaynak:"standart akademik kaynak (Kamen, kültür bölümü)" },
 
@@ -376,7 +376,7 @@ window.KRONOLOJI_ISPANYA = [
   kaynak:"`data/devletler.js` `ispanya` künyesi (tarih korunuyor) · standart akademik kaynak", yer_id:"İstanbul" },
 
 { t:"1584-09-13", b:"El Escorial'in tamamlanması", tur:"kultur", onem:3, dunya:2, kapsam:"ic", yer_id:"Madrid",
-  etiket:["kultur","mimari"],
+  etiket:["kultur","mimari","imar"],
   d:"Yirmi bir yıllık inşaatın ardından El Escorial tamamlandı; kompleks bir manastır, saray, kütüphane, akademi ve kraliyet türbesini bir arada barındırıyordu ve Habsburg İspanyası'nın hem dinî hem siyasî iddialarının taş hâlini aldı.",
   kaynak:"standart akademik kaynak (Kamen, kültür bölümü)" },
 

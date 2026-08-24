@@ -210,7 +210,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   kaynak:"ilhanlilar" },
 
 { t:"1259-01-01", b:"Merâga Rasathanesi kuruldu — Nasîrüddin Tûsî'nin yönetiminde", tur:"bilim",
-  onem:4, dunya:4, kapsam:"ic", etiket:["bilim","astronomi","kurum"],
+  onem:4, dunya:4, kapsam:"ic", etiket:["bilim","astronomi","kurum","imar"],
   yer_id:"Merâga",
   d:"Hülâgû, Alamut'tan yanına aldığı âlim Nasîrüddin Tûsî'nin yönetiminde Merâga'da bir rasathane kurdurdu. Çin'den Endülüs'e kadar uzanan bir coğrafyadan gelen astronomlar burada çalıştı; on iki yıllık gözlemin ürünü olan Zîc-i İlhânî yüzyıllar boyunca kullanılan bir yıldız cetveli oldu. Merâga modeli Semerkant'ta Uluğ Bey'in, İstanbul'da Takıyyüddin'in rasathanelerine örnek olmuştur — İlhanlı istilâsının en kalıcı olumlu mirası budur.",
   kaynak:"ilhanlilar" },
@@ -312,7 +312,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   kaynak:"gazan-han" },
 
 { t:"1297-10-05", b:"Şenb-i Gāzân (Gāzâniyye) külliyesinin temeli atıldı", tur:"mimari",
-  onem:3, dunya:2, kapsam:"ic", etiket:["mimari","din","vakif"],
+  onem:3, dunya:2, kapsam:"ic", etiket:["mimari","din","vakif","imar"],
   yer_id:"Tebriz",
   d:"Yapımına 16 Zilhicce 696'da (5 Ekim 1297) başlanan külliyeye önce Ebvâbü'l-bir, sonra Gāzâniyye adı verildi. Tebriz'in batısındaki bu yapı topluluğu cami, medrese, hankah, hastahane, kütüphane ve rasathaneyi bir arada topluyordu; giderleri hükümdarın kendi incü gelirlerinden şer'î usullerle karşılanıyordu. Bir Moğol hükümdarının kendi mezarını bir İslâm külliyesinin merkezine koyması, ihtidânın mimarî ifadesidir.",
   kaynak:"gazan-han" },
@@ -390,7 +390,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   kaynak:"tebriz" },
 
 { t:"1310-06-01", b:"Rab'-ı Reşîdî mahallesi kuruldu — bir kitap ve ilim şehri", tur:"kultur",
-  onem:4, dunya:3, kapsam:"ic", etiket:["kultur","ilim","mimari","kitap","vakif"],
+  onem:4, dunya:3, kapsam:"ic", etiket:["kultur","ilim","mimari","kitap","vakif","imar"],
   yer_id:"Tebriz",
   d:"İlhanlı devlet adamı, âlim ve tarihçi Reşîdüddin'in Tebriz'in Vâliyân semtinde yaptırdığı binalar Rab'-ı Reşîdî mahallesini oluşturdu. Burası bir mahalleden çok bir ilim sitesiydi: medreseler, kütüphane, hastahane ve Câmiu't-tevârîh'in her yıl çoğaltıldığı bir istinsah atölyesi. Vakfiyesi, nüshaların düzenli olarak Arapça ve Farsça kopyalanıp İslâm şehirlerine gönderilmesini şart koşuyordu. ⚠️ TARİH HAKKINDA: kaynak kuruluş yılını vermiyor; madde Câmiu't-tevârîh'in tamamlandığı yıllara konuldu ve bu bir tercihtir.",
   kaynak:"tebriz" },
@@ -410,13 +410,13 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   kaynak:"ilhanlilar" },
 
 { t:"1305-01-01", b:"Sultâniye şehri kuruldu ve devlet merkezi oraya taşındı", tur:"kurulus",
-  onem:4, dunya:2, kapsam:"ic", etiket:["mimari","idari","sehircilik"],
+  onem:4, dunya:2, kapsam:"ic", etiket:["mimari","idari","sehircilik","imar"],
   yer_id:"Sultâniye",
   d:"Olcaytu, Kazvin ile Tebriz arasında Sultâniye adlı bir şehir kurdu ve devlet merkezini buraya nakletti. Bozkırdaki bir yaylak alanının planlı bir başşehre dönüştürülmesi, İlhanlı'nın yerleşik devlet olma iddiasının en açık ifadesidir. ⚠️ TARİH HAKKINDA: TDV `ilhanlilar` maddesi şehrin kuruluşuna yıl vermiyor, yalnız Olcaytu saltanatı içinde anlatıyor; madde saltanatın ilk yılına konuldu ve bu bir tercihtir.",
   kaynak:"ilhanlilar" },
 
 { t:"1313-01-01", b:"Olcaytu Türbesi (Sultâniye Kümbeti) yapıldı", tur:"mimari",
-  onem:3, dunya:3, kapsam:"ic", etiket:["mimari","kultur","din"],
+  onem:3, dunya:3, kapsam:"ic", etiket:["mimari","kultur","din","imar"],
   yer_id:"Sultâniye",
   d:"Olcaytu'nun Sultâniye'de yaptırdığı türbe İlhanlı sanatının bugüne ulaşan en görkemli eseridir; şehir hânedanın yıkılışından sonra hızla küçülmüş, geriye bu türbe kalmıştır. 🔴 KAYNAK HAKKINDA — AÇIKÇA: TDV'de Sultâniye ŞEHRİ maddesi BULUNAMADI. `sultaniyye` slug'ı HTTP 200 döndürüyor ve başlığı 'SULTÂNİYYE' yazıyor, ama açılan madde MEMLÜK ORDUSUNDAKİ KAPIKULU BİRLİKLERİDİR — şehirle ilgisi yoktur (`CLAUDE.md §4` ② tuzağı, gövde okunarak yakalandı). `sultaniye` · `sultaniye--sehir` · `sultaniyye--sehir` · `sultaniye-sehri` · `olcaytu-turbesi` sluglarının hepsi 302'dir. ⚠️ TARİH HAKKINDA: 1313 yılı bir BEYANDIR, TDV'den alınmamıştır.",
   kaynak:"bulunamadı — TDV'de Sultâniye şehri/Olcaytu Türbesi maddesi yok; beş slug sınandı" },
@@ -719,7 +719,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   kaynak:"celayirliler" },
 
 { t:"1350-01-01", b:"Hasan-ı Büzürg Necef'teki türbeyi yeniden imar ettirdi", tur:"mimari",
-  onem:2, dunya:1, kapsam:"ic", etiket:["mimari","din","vakif"],
+  onem:2, dunya:1, kapsam:"ic", etiket:["mimari","din","vakif","imar"],
   yer_id:"Necef",
   d:"Hasan Ali evlâdına karşı saygılı olmuş, Necef şehrindeki türbeyi yeniden imar ve ihya ettirmiştir. Celâyirli hânedanının Şiî ziyaret merkezlerine gösterdiği ihtimam, Irak'ta Sünnî Memlük ittifakıyla birlikte yürüyen dengeli bir dinî siyasetin işaretidir. ⚠️ TARİH HAKKINDA: kaynak yıl vermiyor; madde Hasan-ı Büzürg'ün Bağdat'taki hâkimiyetinin ortasına konuldu, bir tercihtir.",
   kaynak:"hasan-i-buzurg" },
@@ -813,7 +813,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   kaynak:"muzafferiler" },
 
 { t:"1360-01-01", b:"Muzafferî mimarisi: Kirman, Yezd ve Meybüz'de cami ve medreseler", tur:"mimari",
-  onem:2, dunya:2, kapsam:"ic", etiket:["mimari","kultur","din"],
+  onem:2, dunya:2, kapsam:"ic", etiket:["mimari","kultur","din","imar"],
   yer_id:"Kirman",
   d:"Kirman'daki Mescid-i Câmi' ile Mescid-i Pâminâr, Yezd'deki Mescid-i Ya'kūbî ve Meybüz'deki Medrese-i Alâ (Muzafferiyye) bu dönemin başlıca mimarî eserleridir. TDV, Muzafferî döneminin daha çok hânedan içi kavgalarla geçtiğini ve ilim ile sanatta önemli sayılabilecek ilerleme kaydedilemediğini açıkça yazar — bu yapılar bir yükselişin değil, bir sürekliliğin işaretidir. ⚠️ TARİH HAKKINDA: kaynak yapım yıllarını vermiyor; madde dönemin ortasına konuldu.",
   kaynak:"muzafferiler" },
@@ -1048,7 +1048,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   kaynak:"serbedariler" },
 
 { t:"1355-01-01", b:"Serbedârî bayındırlık işleri: Tûs su kanalları ve Sebzevâr Mescid-i Câmi'i", tur:"mimari",
-  onem:2, dunya:1, kapsam:"ic", etiket:["mimari","tarim","sehircilik"],
+  onem:2, dunya:1, kapsam:"ic", etiket:["mimari","tarim","sehircilik","imar"],
   yer_id:"Tûs",
   d:"Serbedârî emîrlerinden Yahyâ Kerrâbî, Tûs şehrinde su kanallarını yeniden inşa ettirmiş; Hâce Ali ise Sebzevâr'da Mescid-i Câmi'i onartmış ve büyük bir depo yaptırmıştır. Aynı aileye mensup Emîr Şâhî iyi bir şair olarak temayüz etmiş, devrin şairlerinden İbn Yemîn-i Tuğrâî Serbedârîler'in himayesine mazhar olmuştur. ⚠️ TARİH HAKKINDA: kaynak bu işlerin yıllarını vermiyor; madde iki emîrin dönemlerinin ortasına konuldu, bir tercihtir.",
   kaynak:"serbedariler" },

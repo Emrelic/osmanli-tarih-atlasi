@@ -594,7 +594,7 @@ window.KRONOLOJI_HABSBURG = [
   d:"Avusturya savaşa girmedi ama Tuna prensliklerine asker yığarak Rusya'yı çekilmeye mecbur bıraktı. 1849'da kendisini kurtaran Rusya'yı bu şekilde karşısına alması, imparatorluğu Avrupa'da yalnızlaştırdı.",
   kaynak:"TDV `avusturya`: Avusturya tarafsızlığını korudu, sonra \"Rusya'yı çekilmek mecburiyetinde bırakmıştır (1854)\" · ⚠️ gün DOĞRULANMADI", kapsam_genis:true },
 
-{ t:"1854-07-17", b:"Semmering demiryolu — Avrupa'nın ilk dağ demiryolu", tur:"reform", onem:4, dunya:3, kapsam:"ic", etiket:["teknoloji","ekonomi"], yer_id:"", kapsam_genis:true,
+{ t:"1854-07-17", b:"Semmering demiryolu — Avrupa'nın ilk dağ demiryolu", tur:"reform", onem:4, dunya:3, kapsam:"ic", etiket:["teknoloji","ekonomi","imar","islahat"], yer_id:"", kapsam_genis:true,
   d:"Carl Ritter von Ghega'nın inşa ettiği Semmering geçişi tamamlandı ve Gloggnitz-Mürzzuschlag bağlantısı açıldı. Bir dağ silsilesini normal açıklıklı rayla aşan ilk demiryoluydu; Viyana'yı Trieste limanına bağlayan hattın kilit halkasıydı ve imparatorluğun iç pazarını birleştirdi.",
   kaynak:"Wien Geschichte Wiki, 'Eisenbahn': \"Carl Ritter von Ghega constructed the first mountain railway in Europe crossing the Semmering, with the connection piece Gloggnitz-Mürzzuschlag completed on July 17, 1854\"", yer_kon:[47.6167,15.8333] },
 

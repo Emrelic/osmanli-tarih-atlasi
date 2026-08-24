@@ -221,7 +221,7 @@ window.KRONOLOJI_CIN = [
   kaynak:"The Cambridge History of China, cilt 7 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
 { t:"1420-01-01", b:"Yasak Şehir tamamlandı, başkent Pekin'e taşındı", tur:"kultur",
-  onem:5, dunya:2, kapsam:"ic", etiket:["mimari","siyaset"],
+  onem:5, dunya:2, kapsam:"ic", etiket:["mimari","siyaset","imar"],
   yer_id:"Pekin (Hanbalık)",
   d:"On beş yıllık inşaatın ardından Yasak Şehir tamamlandı ve Yongle başkenti resmen Nanjing'den Pekin'e taşıdı. Kompleks, beş asır boyunca Ming ve Qing imparatorlarının ikametgâhı ve Çin siyasî gücünün simgesi olacaktı.",
   kaynak:"cin--ulke" },
@@ -701,7 +701,7 @@ window.KRONOLOJI_CIN = [
   kaynak:"The Cambridge History of China, cilt 10 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
 { t:"1865-01-01", b:"Jiangnan Tersanesi ve Cephanesi kuruldu", tur:"bilim",
-  onem:3, dunya:1, kapsam:"ic", etiket:["teknoloji","muhendislik"],
+  onem:3, dunya:1, kapsam:"ic", etiket:["teknoloji","muhendislik","imar","islahat"],
   yer_id:"Şanghay",
   d:"Li Hongzhang'ın öncülüğünde Şanghay'da kurulan Jiangnan Tersanesi, Batı tipi buharlı gemi ve silah üretimini Çin topraklarında başlattı. Tesis, Kendini Güçlendirme Hareketi'nin en büyük sınaî yatırımlarından biriydi.",
   kaynak:"The Cambridge History of China, cilt 10 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
@@ -725,7 +725,7 @@ window.KRONOLOJI_CIN = [
   kaynak:"The Cambridge History of China, cilt 11 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
 
 { t:"1876-01-01", b:"Woosung Demiryolu — Çin'in ilk demiryolu açıldı ve söküldü", tur:"bilim",
-  onem:2, dunya:1, kapsam:"dis", etiket:["teknoloji"],
+  onem:2, dunya:1, kapsam:"dis", etiket:["teknoloji","imar","islahat"],
   yer_id:"Şanghay",
   d:"Britanyalı bir şirket, Şanghay-Woosung hattında Çin topraklarındaki ilk demiryolunu izinsiz inşa edip işletti. Yerel muhalefet ve egemenlik kaygısı üzerine Qing hükümeti hattı satın alıp söktürdü — teknolojiye açılışın ne denli çelişkili seyrettiğinin bir göstergesiydi.",
   kaynak:"The Cambridge History of China, cilt 11 (Cambridge UP) — TDV bu taneciği kapsamıyor" },
