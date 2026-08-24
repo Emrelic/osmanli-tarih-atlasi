@@ -4936,7 +4936,48 @@ function ekOkumaButonlariGuncelle(o) {
     if (!eslesen.length) return;
     var b = document.createElement("button");
     b.className = "ob-ek-btn";
-    b.textContent = EKOKUMA_TUR[tur].etiket + (eslesen.length > 1 ? " (" + eslesen.length + ")" : "");
+    // 🔴 24 Ağustos 2026 — 0032/H-0008: *"merak butonu güzel ama KONU
+    // İÇERİĞİ İKİ KELİME BİLE OLSA BUTONDA YER ALMALI kullanıcı merak
+    // etsin diye."*
+    //
+    // 🟢 VE YENİ ALAN AÇILMADI — ÇÜNKÜ ZATEN VARDI. OPUS HAZIR KITA 84
+    // ölçtü: `kisa` alanı 14 merak kartının 14'ünde DOLU. Eksik olan veri
+    // değil GÖSTERİMDİ; bu satır etiketi ve sayıyı basıyor, ipucunu
+    // basmıyordu.
+    // 📌 Bu projede "istenen şeyin altyapısı zaten vardı" vakası bir günde
+    //    BEŞ KEZ yaşandı. Yeni bir alan icat etmek beş dakika, `git grep`
+    //    ile var olanı aramak on saniye.
+    //
+    // ⚠️ İPUCU YALNIZ TEK KARTTA GÖSTERİLİR. Birden çok kart varsa hangi
+    //    kartın ipucunun basılacağı KEYFÎ olurdu — biri seçilip ötekiler
+    //    gizlenirse kullanıcı eksik olanı hiç bilmez. Çok kartta sayı
+    //    zaten "burada birden fazla şey var" diyor; o dürüst bilgidir.
+    var _et = EKOKUMA_TUR[tur].etiket;
+    if (eslesen.length > 1) {
+      b.textContent = _et + " (" + eslesen.length + ")";
+    } else {
+      // 🔴🔴 ALAN SEÇİMİ ÖLÇÜMLE DÜZELTİLDİ — ilk yazışta `kisa` seçilmişti
+      // ve TAM TERSİNİ yapıyordu.
+      //   soru  "Osmanlı Gürcistan'ı niçin bütünüyle ele geçirmedi?"
+      //   kisa  "Gürcistan tek bir devlet değildi; Osmanlı batıyı tâbi
+      //          kıldı, doğusu İran'la paylaşılan bir nüfuz alanı…"
+      // `kisa` CEVABIN ÖZETİDİR. Butona basmak merakı UYANDIRMAZ,
+      // SÖNDÜRÜR — oysa Emre'nin istediği tam tersi: *"kullanıcı MERAK
+      // ETSİN diye."* Soru sorulur, cevap kartta verilir.
+      // 📌 Bunu kod okuması değil TARAYICIDA ÖLÇÜM yakaladı: alan adı
+      //    (`kisa`) kısa bir ipucu vaat ediyordu, gerçek içeriği ise
+      //    82-154 karakterlik tam cümlelerdi. *Alanın ADI, taşıdığı
+      //    şeyin tarifi değildir.*
+      var _s = eslesen[0] || {};
+      var _ham = String(_s.soru || _s.kisa || "").trim();
+      // 52 karakter: en kısa soru 46 karakter, yani çoğu soru TAM sığıyor.
+      // Sınır ondan hemen sonraya konuldu ki kırpma istisna olsun, kural
+      // olmasın. Kırpma her zaman kelime sınırında.
+      var _ip = _ham;
+      if (_ip.length > 52) _ip = _ip.slice(0, 51).replace(/\s+\S*$/, "") + "…";
+      b.textContent = _ip ? _et + " · " + _ip : _et;
+      if (_ham) b.title = _et + " — " + _ham;
+    }
     b.addEventListener("click", function () { ekOkumaPenceresiAc(tur, eslesen); });
     kutu.appendChild(b);
   });
