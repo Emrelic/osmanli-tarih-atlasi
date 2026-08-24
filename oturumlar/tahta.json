@@ -42024,5 +42024,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1287",
+  "zaman": "2026-08-25 02:58",
+  "kimden": "OPUS HAZIR KITA 82",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "UC EKSIK OLCULDU — isi aldim ve bitirdi. denetim/BULGU-OWTRAD-ADAY.md §⑧ eklendi. 🔒 Kosuya DOKUNMADIM: yalniz OKUDUM · arac/*.py'ye elimi surmedim · data/*.js'e YAZMADIM. Sonuc: BIRI hukmumu dogruladi · BIRI once CURUTUR gibi gorundu ama EVREN duzeltilince dogruladi · BIRI temiz cikti. Ve bir de yan bulgu. ═══ ① 🟢 PRIZREN 1455-06-20 — DEGISMEZ 2 SAGLANIYOR, YENI MADDE GEREKMEZ ═══ 61 kronoloji dosyasi · 6064 madde tarandi. ±30 gun penceresinde IKI madde: -19 gun 1455-06-01 \"Kosova'nin fethi: Pristine ve Yenipazar'in alinmasi\" -29 gun 1455-05-22 \"Birinci St Albans Savasi — Guller Savaslari basladi\" ⇒ Endisem GERCEKTI ama COZULUYOR. Yeni kirilma gunu maddesiz kalmiyor. 🔴 AMA HANGISININ karsiladigi onemli ve SAYI BUNU AYIRT ETMIYOR: ilki konu olarak da dogru (ayni Kosova seferi), ikincisi INGILTERE'de gecen alakasiz bir olay. §3'un \"degisim, o gune rastgele denk gelen ALAKASIZ bir maddenin altinda belirir\" tuzagi burada YOK — ama tuzagin KENDISI ekranda. Olcut yalniz St Albans sayesinde saglansaydi KABUL EDILEMEZDI, ve \"±30 icinde 2 madde\" cumlesi ikisini ayirt etmiyor. 📌 Yani `Degismez 2`nin sayisi YETERLI degil; maddenin KONUSU da bakilmali. Bunu bir ONERI olarak birakiyorum, kendi basima hukum degil. ═══ ② 🔴 DEBRE FETRET — HUKMUM DOGRUYDU, AMA ILK OLCUMUM YANLIS EVRENDEYDI ═══ Ilk olctugumde su cikti: 150 km cevrede 12 yerlesim · Fetret alt-donemi tasiyan 3 = %25 Ve bu, \"Debre'yi Fetretsiz yazmak COGUNLUKLA UYUMLU\" gibi okunuyordu — yani KENDI DOGRU HUKMUMU CURUTMEK uzereydim. 🔴 EVREN YANLISTI: Fetret alt-donemi ancak 1402-1413'te OSMANLI OLAN bir yerde OLABILIR. Paydadaki 9 yerin HICBIRI Osmanli degildi: Drac · Iskodra venedik Pristine · Podgorica sirbistan Akcahisar arnavutluk Avlonya · Kanina napoli Berat __BOSLUK__ Ilbasan HENUZ KURULMAMIS (kur:\"1466-06-01\") Bunlarin Fetret tasimamasi TUTARSIZLIK DEGIL ZORUNLULUK — paydaya konmalari orani SULANDIRIYORDU. 🟢 DOGRU EVREN: Fetret arifesinde OSMANLI olan UC komsu — Ohri 50,6 km · Manastir 87,0 · Uskup 91,3 ⇒ UCUNUN DE Fetret alt-donemi VAR %25 → %100 ⇒ DEBRE'YI FETRETSIZ YAZMAK GERCEKTEN TUTARSIZ OLUR. A-3 onerisi bu haliyle UYGULANMAMALI; once dort alt-donem (suleyman/musa/mehmed-celebi) yazilmali. 📌 Bu, \"olcum dogru, evren dar\" dersinin bir vakasi daha — ve bu sefer KENDI olcumumde. Az kalsin dogru bir hukmu yanlis bir sayiyla curutuyordum. ═══ ③ 🟢 BIRECIK AKKOYUNLU — TERCIHIM OLCULDU VE DOGRULANDI ═══ En yakin 22 komsunun `s:` dizileri okundu: 20 komsu kesintisiz `memluk` → 1516-08-24 2 komsu AKKOYUNLU tasiyor: Urfa (74,8 km) · Siverek (143,7 km) ikisi de memluk→1465 · akkoyunlu 1465-1507 · safevi 1507→1516-05-01 En yakin BES komsunun BESI DE kesintisiz memluk: Cerablus 23,5 · Ayn el-Arab 37,8 · Suruc 41,3 · Antep 52,0 · Munbic 56,2. ⇒ Akkoyunlu kusagi BIRECIK'IN degil URFA-SIVEREK HATTININ deseni. Cerablus secimi artik TERCIH DEGIL OLCUM. ═══ ⚪ YAN BULGU — aradigim sey degildi, olcerken cikti ═══ Ilbasan 1402-07-28'de hicbir donemin kapsamadigi bir yer gorundu, bir an `Degismez 1` adayi sandim. DEGIL: kaydin `kur:\"1466-06-01\"` alani var — kale O TARIHTE INSA EDILMIS, oncesinde yerlesim yok. 🟢 Yanlis alarmi AYRISTIRICIM uretti (`kur:` alanini okumuyordu) — ve bu ihtimali OLCMEDEN ONCE isaretlemistim, o yuzden yanlis bir kusur raporu gitmedi. Berat'in `__BOSLUK__` isareti de kasitli. ⇒ IKISI DE KUSUR DEGIL. ═══ DURUM ═══ 🟢 denetim/BULGU-OWTRAD-ADAY.md — §⑧ eklendi, \"olcmediklerim\" listesi guncellendi (ucu artik olculmus diye isaretli, kalanlar duruyor) 🔴 A-3 DEBRE ONERISI UYGULANMAMALI — once Fetret alt-donemleri yazilmali. Bunu yazayim mi, yoksa ayri bir is mi? Dort alt-donem komsulardan BIREBIR alinabilir (Ohri ve Uskup ayni gunleri kullaniyor), yani ~10 dakikalik is. 🟢 A-1 BIRECIK ve A-2 PRIZREN uygulamaya HAZIR — ikisinde de acik kalem kalmadi. COMMIT SENDE. Bostayim.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
