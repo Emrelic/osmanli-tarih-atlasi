@@ -9,6 +9,39 @@
   --metin: #2b2313;
 }
 
+/* 🔴 SAĞ TIK → KOPYALA menüsü — Emre, 24 Ağustos 2026: *"kronoloji
+   maddelerine sağ tıklayıp kopyalama imkânı olsun."*
+   Panelin kendi diliyle konuşuyor (`--panel` zemin, `--altin` kenar), yeni
+   bir renk icat edilmedi — menü haritanın üstünde belirdiği için ayrı bir
+   görsel dil, kullanıcıya "bu başka bir uygulama" hissi verirdi.
+   `z-index` üst bardan (100) ve panelden yüksek; menü HER ŞEYİN üstünde
+   olmalı, yoksa tıklanamaz bir yerde açılır. */
+.kopya-menu {
+  position: fixed;
+  z-index: 9999;
+  background: var(--panel);
+  border: 1px solid var(--altin);
+  border-radius: 4px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.28);
+  padding: 3px;
+  min-width: 168px;
+  display: flex;
+  flex-direction: column;
+}
+.kopya-menu button {
+  background: none;
+  border: 0;
+  text-align: left;
+  font: inherit;
+  font-size: 13px;
+  color: var(--metin);
+  padding: 6px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.kopya-menu button:hover { background: var(--panel-koyu); }
+
 /* 🔴 `overflow: hidden` HTML'DE DE OLMALI — yalnız body'de yetmiyor.
    Kullanıcı (7 Ağustos 2026): "sayfada bir bozukluk var, butonlar
    görünmüyor, tam sayfa yapma butonu ... panel butonunun yarısı görünüyor."

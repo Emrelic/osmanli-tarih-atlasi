@@ -3578,9 +3578,137 @@ olaylar.forEach(function (o, i) {
   // burada `tarihAyarla` + `obGoster` + `haritayiOlayaGotur` ayrı ayrı
   // duruyordu ve birincisi oto-zoom'u imparatorluğa açıyordu.
   div.addEventListener("click", function () { olayaGit(o, true, true); });
+  div.addEventListener("contextmenu", function (e) { kopyaMenusuAc(e, o, div); });
   olayListe.appendChild(div);
   olayDom.push(div);
 });
+
+// ---------- SAĞ TIK → KOPYALA ----------
+// 🔴 Emre, 24 Ağustos 2026: *"kronoloji maddelerine sağ tıklayıp kopyalama
+// imkânı olsun. ve kronoloji madde başlıkları içeriklerine de aynı şekilde
+// metni kopyalama imkânı olsun."*
+//
+// ÖLÇÜLDÜ — ALTYAPI SORUSU ÖNCE SORULDU:
+//     `user-select: none`  css'te HİÇ YOK  ⇒ seçim teknik olarak SERBEST
+//     `contextmenu` işleyicisi                    YOK
+//     `navigator.clipboard` kullanımı             YOK
+// Yani tarayıcının kendi sağ-tık menüsü zaten çalışıyor. Ama pratikte işe
+// yaramıyor, çünkü SATIRIN KENDİSİ TIKLANABİLİR: metni sürükleyerek
+// seçmeye kalkan kullanıcı maddeye ATLIYOR.
+// ⇒ Kusur "kopyalanamıyor" değil "SEÇİLEMİYOR" — ikisi ayrı şey, ve
+//   çaresi de ayrı: seçimi açmak değil, SEÇİM GEREKTİRMEYEN bir kopyalama
+//   yolu vermek.
+//
+// ⚠️ VARSAYILAN MENÜ ENGELLENİYOR AMA BEDELİ ÖLÇÜLDÜ: tarayıcının kendi
+//    menüsünde "araştır", "çeviri" gibi seçenekler de var. Onları kaybetmemek
+//    için SHIFT + sağ tık varsayılan menüyü açık bırakıyor — tarayıcıların
+//    kendi sözleşmesi de budur.
+var _kopyaMenu = null;
+
+function _kopyaMenusuKapat() {
+  if (_kopyaMenu) { _kopyaMenu.remove(); _kopyaMenu = null; }
+}
+document.addEventListener("click", _kopyaMenusuKapat);
+document.addEventListener("scroll", _kopyaMenusuKapat, true);
+window.addEventListener("blur", _kopyaMenusuKapat);
+document.addEventListener("keydown", function (e) {
+  if (e.key === "Escape") _kopyaMenusuKapat();
+});
+
+// Panoya yaz. `navigator.clipboard` yalnız GÜVENLİ BAĞLAMDA (https ya da
+// localhost) var; dosyadan açılan bir kopyada YOK. O yüzden eski yol
+// yedekte duruyor — "çalışmıyor" demek yerine sessizce ikinciye düşüyor.
+function _panoyaYaz(metin, geri) {
+  var bitti = function (ok) { if (geri) geri(ok); };
+  try {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(metin).then(function () { bitti(true); },
+                                                function () { bitti(false); });
+      return;
+    }
+  } catch (e) { /* güvenli bağlam yok — aşağıdaki yola düş */ }
+  try {
+    var ta = document.createElement("textarea");
+    ta.value = metin;
+    ta.style.cssText = "position:fixed;left:-9999px;top:0;";
+    document.body.appendChild(ta);
+    ta.select();
+    var ok = document.execCommand("copy");
+    ta.remove();
+    bitti(ok);
+  } catch (e2) { bitti(false); }
+}
+
+// Bir kronoloji maddesinin TAM METNİ — panelde görünen sırayla.
+// ⚠️ Alanların hepsi isteğe bağlı; boş olan satır HİÇ yazılmıyor ki
+//    kopyalanan metinde boş başlıklar durmasın.
+function olayMetniUret(o, tam) {
+  var s = [];
+  s.push(olayTarihYazi(o) + " — " + o.b);
+  if (!tam) return s.join("\n");
+  if (o.yer) s.push("Yer: " + o.yer);
+  if (o.kisiler) s.push("Kişiler: " + o.kisiler);
+  if (o.d) s.push("", o.d);
+  if (o.kaynak) s.push("", "Kaynak: TDV " + o.kaynak);
+  return s.join("\n");
+}
+
+function kopyaMenusuAc(e, o, kaynakEl) {
+  if (e.shiftKey) return;            // SHIFT: tarayıcının kendi menüsü
+  e.preventDefault();
+  _kopyaMenusuKapat();
+
+  var secili = String(window.getSelection ? window.getSelection() : "").trim();
+  var secenekler = [];
+  if (secili) secenekler.push(["Seçili metni kopyala", secili]);
+  if (o) {
+    secenekler.push(["Başlığı kopyala", olayMetniUret(o, false)]);
+    secenekler.push(["Maddenin tamamını kopyala", olayMetniUret(o, true)]);
+  } else if (kaynakEl) {
+    // Panel: `o` yok, ekranda ne yazıyorsa o kopyalanır.
+    var t = (kaynakEl.innerText || kaynakEl.textContent || "").trim();
+    if (t) secenekler.push(["Bu bölümü kopyala", t]);
+  }
+  if (!secenekler.length) return;
+
+  var m = document.createElement("div");
+  m.className = "kopya-menu";
+  secenekler.forEach(function (par) {
+    var b = document.createElement("button");
+    b.type = "button";
+    b.textContent = par[0];
+    b.addEventListener("click", function (ev) {
+      ev.stopPropagation();
+      _panoyaYaz(par[1], function (ok) {
+        // ⚠️ SESSİZ BAŞARI YOK: kullanıcı kopyalandığını GÖRMELİ, yoksa
+        //    ikinci kez tıklar ve "çalışmıyor" der. Başarısızlık da
+        //    söylenir — sessiz başarısızlık en kötüsü.
+        b.textContent = ok ? "✓ kopyalandı" : "🔴 kopyalanamadı";
+        setTimeout(_kopyaMenusuKapat, ok ? 550 : 1400);
+      });
+    });
+    m.appendChild(b);
+  });
+  document.body.appendChild(m);
+
+  // Ekran dışına taşmasın: önce ölç, sonra yerleştir.
+  var g = m.getBoundingClientRect();
+  var x = Math.min(e.clientX, window.innerWidth - g.width - 8);
+  var y = Math.min(e.clientY, window.innerHeight - g.height - 8);
+  m.style.left = Math.max(4, x) + "px";
+  m.style.top = Math.max(4, y) + "px";
+  _kopyaMenu = m;
+}
+
+// Detay paneli — `o` yok, ekrandaki metin kopyalanıyor.
+(function () {
+  var ob = document.getElementById("olay-bilgi");
+  if (!ob) return;
+  ob.addEventListener("contextmenu", function (e) {
+    var hedef = e.target.closest("#ob-detay, #ob-baslik, #ob-ozel, #olay-bilgi");
+    kopyaMenusuAc(e, aktifOlay || null, hedef || ob);
+  });
+})();
 
 // ---------- KRONOLOJİ SÜZGECİ — arayüz katmanı (PLAN-ETIKET §8) ----------
 // Mantık `js/suzgec.js`'te ve DOM'suz; node'da 20 sağlamayla sınandı. Burada
