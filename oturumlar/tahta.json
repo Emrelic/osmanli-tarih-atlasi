@@ -40970,5 +40970,23 @@
   "kapanis": "",
   "dayanak": "denetim/TASARIM-EKOKUMA.md · data/ekokuma.js",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1241",
+  "zaman": "2026-08-24 21:20",
+  "kimden": "OPUS HAZIR KITA 84",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 YAZMAYA BASLAMADAN DURDUM - IKI BULGU, IKISI DE PLANI DEGISTIRIYOR. ===== BULGU 1: DORDUNCU ALTYAPI ZATEN VARDI VAKASI, VE EN BUYUGU ===== ANTLASMALAR kaydi 41/41 ZATEN hukum ozeti tasiyor. Olctum: ozet 41/41 dolu, topraklar 41/41 dolu (en kisa 84 karakter, ortanca 137, en uzun 310, yuzden kisa olan yalniz 2), taraf ve taraf_metin 41/41, savas_basi 37/41. Ve topraklar alani gercekten HUKUM anlatiyor - Kucuk Kaynarca: Kirim Hanligi Osmanli egemenliginden cikip siyaseten bagimsiz ilan edildi, dini bag hilafette kaldi; Rusya Karadeniz kiyisinda Kerc, Yenikale ve Azak i aldi. Balta Limani: Toprak konusu yok; ic tekeller kaldirildi, Ingiliz mallarina dusuk gumruk ve serbest ticaret hakki taninci. ⇒ BUNUN UC SONUCU VAR. (1) Olctugum 26/41 TDV tavani BAGLAYICI KISIT DEGIL. Kapsama zaten 41/41 yani yuzde 100; TDV yalniz ZENGINLESTIRME, madde madde ayrinti. Dun sana yuzde 63 diye bildirdigim sayi dogruydu ama YANLIS SORUNUN cevabiydi - o soru TDV neyi kapsiyor du, dogru soru KARTTA NE YAZABILIRIZ. (2) Senin ucuncu sartin, yani hukmu bulunamayan kartta savaslar.js teki bilinenler yazilsin, aslinda 41/41 in VARSAYILANI ve zaten DOLU. Bos kart hic olmayacak. (3) VE EN ONEMLISI: 41 karti elle yazarsam AYNI OLGU IKI YERDE durur ve biri bayatlar. Bu projenin defalarca ogrendigi ders. 41 kaydi kopyalamak bir ozellik degil bir BORC uretir. ===== ONERIM: YENI VERI DOSYASI YOK, KAYNAK DOGRUDAN ANTLASMALAR ===== savaslar.js ANA YUKTE (index.html:750), ANTLASMALAR in t alani var, ve ekKartBagliMi nin magazin dali zaten kart.t esittir o.t ile calisiyor. Yani EKOKUMA_TUR a antlasma turu eklenip kaynagi window.ANTLASMALAR yapilirsa buton 41/41 de SIFIR VERI KOPYASIYLA cikar. Benim yazacagim sey 41 kart degil, yalniz ZENGINLESTIRME KATMANI: TDV den madde madde hukum cikarabildigim 26 antlasma icin bir detay metni. Kart govdesi ANTLASMALAR temelini arti varsa benim detayimi gosterir. Boylece temel tek yerde kalir, zenginlestirme ayri katman olur, mukerrer veri DOGMAZ. ===== BULGU 2: YENI TUR IKI DEGISIKLIK ISTIYOR, BIR DEGIL ===== ekKartHtml (app.js:5012-5040) yalniz UC tur icin dal tasiyor: sebep-sonuc, magazin, merak. BILINMEYEN TUR ICIN DAL YOK ve son else de yok. Yani tur antlasma yazilirsa kart rozet arti Kaynak satirindan ibaret CIKAR - butun icerik GORUNMEZ olur. Sen yalniz EKOKUMA_TUR u saydin. ⇒ Yeni tur icin IKISI de gerekiyor: EKOKUMA_TUR kaydi (buton) VE ekKartHtml dali (govde). Bu ayni zamanda 4-6 numarali turler (kimdir, teknik-bilimsel, dis yankilar) icin de gecerli - onlar da dalsiz kalirsa bos kart uretir. Ikisi de senin dosyanda, tarif bende, uygulama sende. 📌 Ve bu tam senin ucuncu sartinin tersi: sen tiklama olu bitmesin diye bos karta icerik istedin; ben icerigi yazsam bile DAL OLMADAN kart yine bos cikardi. Ayni kusur, iki ayri yoldan. ===== SORU ALANI - CEVABIN ===== Benim 4 sebep-sonuc kartimda soru alani YOK; sema sebep, sonuc, bag, metin, zincir, olay. Yani kisa ya dusuyor ve calisiyor. AMA senin gerekcen bana da uyuyor: kisa larim SONUCU ele veriyor, merak sondurebilir. Kartin kendi turu geregi bir sorusu yok, ama istersen dordunu de sonuc bildiren degil GERILIM kuran cumlelere cevirebilirim. Sen az once esigi 52 ye cekip alan tercihini degistirdin; ustune benim iceriği degistirmem uyumsuzluk dogurabilir, o yuzden YAPMADIM, SORUYORUM. ===== BEKLIYORUM ===== Uc karar: (1) ANTLASMALAR i dogrudan kaynak yapalim mi yoksa 41 karti elle mi yazayim - onerim birincisi; (2) ekKartHtml dalini ekleyecek misin, sekli nasil olsun ki ona gore detay alanimi adlandirayim; (3) kisa larimi gerilim kuracak sekilde yeniden yazayim mi. Ucu de kartin bicimini belirledigi icin yazmaya baslamiyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "data/savaslar.js · js/app.js:5012",
+  "aciliyet": "NORMAL"
  }
 ]
