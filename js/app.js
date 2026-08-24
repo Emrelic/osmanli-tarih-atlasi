@@ -1387,10 +1387,27 @@ harita.on("load", function () {
   // Kademe: her işaretin `d` değeri (1-3) önem katmanı. Zoom düştükçe eşik
   // yükseliyor, yani yalnız üst katman kalıyor. Gizlemek yerine haritadan
   // ÇIKARIYORUZ — 587 DOM düğümü uzakta hem yavaş hem okunmaz.
-  //   zoom < 4.0  → yalnız d3 (başkentler: İstanbul, Bursa, Edirne, Kahire…)
+  //   zoom < 4.0  → yalnız d3
   //   4.0 - 5.2   → d3 + d2
   //   5.2 - 6.3   → d3 + d2 + d1
   //   > 6.3       → hepsi (geçici işaretler dahil)
+  //
+  // 🔴 24 Ağustos 2026 — BU YORUM ÖLÇÜLDÜ VE YANLIŞTI. Eski hâli
+  // *"başkentler: İstanbul, Bursa, Edirne, KAHİRE…"* diyordu. OPUS HAZIR
+  // KITA 82 saydı (2606 nokta):
+  //     g=3 → 5     g=2 → 164     g=1 → 372     g=0 → 2065
+  //     z<4,0'da BÜTÜN DÜNYADA çizilen etiket: 5 —
+  //         Söğüt · Bursa · Ankara · Edirne · İstanbul
+  //     z<5,2'de: 169 (%6,5) ⇒ 2437 nokta (%93,5) ETİKETSİZ
+  // ⇒ Kahire `g=2`, yani o beşin İÇİNDE DEĞİL; ve "…" üç noktası
+  //   listenin devamı olduğunu ima ediyordu — devamı YOK, liste beş.
+  //
+  // ⚠️ VE BU KOZMETİK BİR DÜZELTME DEĞİL: yorum, geniş açıda dünyanın
+  //    etiketli olduğu izlenimi veriyordu. Gerçekte `g` alanının %79'u
+  //    boş ve kullanıcı geride bakarken çoğu yerde TEK BİR AD göremiyor.
+  //    Emre'nin *"harita işaretlenmemiş"* şikâyetinin bir kısmı buradan
+  //    geliyor olabilir — ve yorumu okuyan bir oturum sebebi başka yerde
+  //    arardı. *Yanlış bir yorum, aramayı yanlış yöne çevirir.*
   function zoomEsigi() {
     var z = harita.getZoom();
     if (z < 4.0) return 3;
@@ -5184,9 +5201,44 @@ function oynatDurdur() {
   } else {
     var gunSn = parseInt(hizSec.value, 10);
     var adim = Math.max(1, Math.round(gunSn / 16));
+    // 🔴🔴 DÖRDÜNCÜ SESSİZ DAL — 24 Ağustos 2026, OPUS HAZIR KITA 82 buldu.
+    //
+    // Üç sessiz dal bugün düzeltilmişti (konumsuz · konum işaretlenmemiş ·
+    // aynı yerde). Bu dördüncüsü HİÇ SAYILMAMIŞTI ve en sinsisi:
+    // "zaman akışı" kipinde `olayaGit` HİÇ ÇAĞRILMIYOR ⇒ `_varista` da,
+    // `isaretYanipSon` da çağrılmıyor. Gün ilerler, maddeler geçer,
+    // HİÇBİR olay mahalli yanıp sönmez.
+    // ⚠️ Varsayılan kip "olay" olduğu için bu dal yalnız kullanıcı zaman
+    //    akışına geçtiğinde görünür — Emre'nin şikâyetindeki
+    //    ARALIKLILIĞIN ("bazı maddelerde yanıp sönmüyor") sebebi bu olabilir.
+    // 📌 Ve dersin kendisi bu dosyada yazılıydı: *"bir düzeltme, aynı
+    //    kusurun BÜTÜN dallarında aranmalı."* Üç dal arandı, dördüncüsü
+    //    başka bir fonksiyonda olduğu için görülmedi — yani "bütün
+    //    dallar" derken YALNIZ AYNI FONKSİYONA bakılmıştı.
+    //
+    // ⚠️ KAMERA OYNATILMIYOR VE BU KASITLI: zaman akışı kipini seçen
+    //    kullanıcı "haritayı ben yönetiyorum, sen zamanı akıt" diyor.
+    //    Her olayda uçmak o sözleşmeyi bozardı. Yalnız İŞARET yanıyor —
+    //    "burada bir şey oldu" der, kadrajı değiştirmez.
+    var _sonIsaretGun = suanki;
     zamanlayici = setInterval(function () {
       if (suanki >= BITIS) { oynatDurdur(); return; }
+      var _onceki = suanki;
       tarihAyarla(suanki + adim);
+      // Aralıkta kalan SON olayı işaretle. Birden çok olay varsa hepsini
+      // ard arda yakmak titreme üretirdi; sonuncusu "gelinen an"dır.
+      try {
+        var _son = null;
+        for (var _i = 0; _i < olaylar.length; _i++) {
+          var _g = olaylar[_i].gi;
+          if (_g > _onceki && _g <= suanki) _son = olaylar[_i];
+          else if (_g > suanki) break;
+        }
+        if (_son && _son.gi !== _sonIsaretGun) {
+          var _kon = olayKonumu(_son);
+          if (_kon) { _sonIsaretGun = _son.gi; isaretYanipSon(_kon); }
+        }
+      } catch (eAkis) { /* işaret şart değil, akış durmasın */ }
     }, 62);
   }
 }
