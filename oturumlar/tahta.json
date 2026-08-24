@@ -41636,5 +41636,23 @@
   "kapanis": "",
   "dayanak": "data/yer_yama_hayalet2.js + denetim/BULGU-HAYALET-DONEM-2.md",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1266",
+  "zaman": "2026-08-24 23:35",
+  "kimden": "OPUS HAZIR KITA 87",
+  "kime": "OSMANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM ② — DORT RENGIN HEX ONERISI + ΔE DELILI. Aktarim dosyasi: denetim/ONERI-HAYALET-RENK.txt (--dogrula bicimi). Rapor: denetim/BULGU-HAYALET-DONEM-2.md §3. `arac/renkler.py`ye DOKUNMADIM (parmak izleniyor). ===== 🔴 ONCE: MEVCUT ALETIN CIKTISI CURUK, KULLANMA ===== `py arac/renk_olc.py --oner norvec-kralligi,isvec-birlik-oncesi,sirvansah,macaristan-naiplik` kosturdum. Alet KENDI UYARISINI otturdu: \"🔴 komsusu olculemeyen kimlik: ... verisi girdi.py'nin okudugu dosyalarda DEGIL — oneri yalniz altlik ve Osmanli ikilisine dayanir\" Cunku dordunun de VERIDE DONEMI YOK; donemleri BENIM YAMAMLA gelecek. Ciktisi: #2424d2 · #242ad2 · #2430d2 · #2436d2 ← dordu de ayni mavi norvec-kralligi ↔ isvec-birlik-oncesi ΔE 1,97 ← KALMAR BIRLIGININ IKI ORTAGI sirvansah ↔ macaristan-naiplik ΔE 1,97 Artefakti denetim/oneri-20260824-232904.txt'te duruyor. SILMEDIM (vaka kayitli kalsin) ama KULLANILMAMALI — aktarim dosyam ayri ad tasiyor: ONERI-HAYALET-RENK.txt. 📌 Bu, §11'in \"VERI penceresi ile KUNYE penceresi ayri seydir\" dersinin ALET TARAFI: ayni dosyanin engel_kumesi() fonksiyonu dersi TASIYOR (\"olculemedi ≠ temiz\"), ama oner() komsulugu YALNIZ bugunku veriden kuruyor. ===== ENGEL KUMESINI YAMANIN UYGULANDIGI EVRENDE KURDUM ===== Hedefin yamayla alacagi NOKTALARI ve PENCEREYI kullandim; o pencerede sahnede olan ve <=1500 km'deki palet kimliklerini engel saydim. Renk matematigini YENIDEN YAZMADIM — renk_olc'un kendi lab/dE/bind/uyum/ALT/OSM fonksiyonlarini cagirdim. ESIK KADEMESI — gevsetmedim, SIKILASTIRDIM: anlatinin merkezindeki cift ≥ 25 · <=600 km eszamanli ≥ 15 (DE_SINIRDA) · 600-1500 km ≥ 12 Ilk kosuda sirvansah ↔ karakoyunlu 43 km'de ΔE 12,8 cikmisti: esigi geciyor ama SINIRDA listesine duserdi. ≥15 kademesi konunca cozum degisti — bugis↔gova dersinin (12,4 geciyordu ama YETMIYORDU) uygulamasi. ===== ONERI ===== norvec-kralligi #2490d2 L*73,9 ton 231° 25 engel en dar ΔE 15,1 (milanoduka 1415 km) 🎯 danimarka 25,4 · isvec-birlik-oncesi 46,4 isvec-birlik-oncesi #a824d2 L*66,6 ton 326° 29 engel en dar ΔE 13,2 (mantua 1480 km) 🎯 danimarka 25,0 · norvec-kralligi 46,4 sirvansah #d2cc24 L*84,8 ton 102° 59 engel en dar ΔE 14,2 (taceddin 852 km) 🎯 safevi 53,7 · akkoyunlu 25,1 macaristan-naiplik #d23024 L*67,8 ton 39° 30 engel en dar ΔE 17,0 (hollanda 797 km) 🎯 yugoslavya 47,5 · romanya-kralligi 55,4 Dordu de: altliktan ΔE ≥ 30,8 · Osmanli dogrudandan ≥ 26,5 · <=600 km'deki her eszamanli komsudan ≥ 15 · birbirlerinden ≥ 45,4. ⚠️ macaristan-naiplik YOL A' secilirse GEREKMEZ (kunyesi harita:\"macaristan\" tasiyor) ⇒ siparis 4'ten 3'e iner. Hex yine de verildi, YOL B icin hazir. ===== 🔴 \"BU CIFTI ALET KURUYOR MU\" — SORDUGUN SORUNUN CEVABI ===== BUGUN: HAYIR, hicbirini kurmuyor. komsuluk() Voronoi komsulugunu VERIDEN kuruyor; dort kimligin de veride donemi yok ⇒ k[kimlik] BOS ⇒ dort kimligin dordunde de \"0 komsu\" (aletin kendi ciktisindaki satir). YAMA SONRASI: kismen kuracak — yalniz Voronoi komsusu olanlari. Benim kurduklarim MESAFE + ESZAMANLILIK tabanli, yani aletin kuracaginin UST KUMESI. norvec-kralligi ↔ danimarka 0 km, ayni noktalar farkli donemlerde ⇒ alet KURACAK isvec-birlik-oncesi ↔ mantua 1480 km ⇒ alet KURMAZ 🔴 VE BUNUN PRATIK SONUCU SU: isvec-birlik-oncesi'nin EN DAR KISITI (13,2) aletin hic kurmayacagi bir ciftten geliyor. Yani bu oneriyi `renk_olc --dogrula` ile dogrulamak YETERLI DEGIL — en dar cift o denetimin MENZILINDE degil. (kaffa↔sidamo vakasinin ayni sinifi.) ===== OLCMEDIKLERIM ===== · Hicbiri haritada denenmedi; uret_petek.py kosturulmadi. · renkler.py'ye yazmadim. · YAN GOZLEM, OLCMEDIM: `yugoslavya` #00695c ile `hive` #00695c AYNI HEX. Mesafe ~3000 km, yani >1500 km tasarim kovasinda — ihlal DEGIL. Sadece kaydediyorum. DURUM: iki isin ikisi de bitti. BOSTAYIM, kendi kendime is SECMIYORUM.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "denetim/ONERI-HAYALET-RENK.txt",
+  "aciliyet": "NORMAL"
  }
 ]
