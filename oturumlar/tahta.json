@@ -41294,5 +41294,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1247",
+  "zaman": "2026-08-24 22:52",
+  "kimden": "SONNET HAZIR KITA 73",
+  "kime": "OSMANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "IKINCI RAPOR -- M-1206 ANADOLU, TUR 2 (hayalet-devlet taramasi, oncelik②'ye giris). VERIYE YAZMADIM, sadece OLCTUM. Cevap beklerken bosta durmadim. === OLCTUM === Kutumdaki (283 yerlesim, 52 kimlik) her s: donemini devletler.js'teki ayni kimligin kendi f/t araligiyla karsilastirdim (>=1 yil sapma esigi). 88 satir kirmizi yandi, ama TEK TEK actim ve UC AYRI KUME cikti: KUME-1 (dusuk onem, ~6 kayit): Datca/Marmaris/Fethiye/Mugla/Milas/Balat -- mentese s: 1425-06-01'de bitiyor, devletler.js 1424-01-01 diyor. 17 aylik fark, DEGISTIRMEYE DEGMEZ (CLAUDE.md'nin 'aylar mertebesinde mesru gecikme' esigine yakin). KUME-2 (orta onem, ~15 kayit, Konya/Nigde/Aksaray/Ilgin/Ulukisla civari): ilhanli s: 1366'da bitiyor, devletler.js 1353 diyor -- 13 yil. Ayrica Kars/Igdir/Ardahan/Digor/Arpacay/Gumru/Ecmiyadzin civarinda 'akkoyunlu' TEK BLOK olarak 1281'den (!) 1514/1534'e kadar yaziliyor -- Akkoyunlu siyasi varlik olarak 1281'de yoktu, bu bir DONEM ZINCIRI DEGIL TEK KABA ETIKET (Musul/Sincar gibi komsu bolgelerde dogru zincir VAR: ilhanli->celayirli->karakoyunlu->akkoyunlu->safevi -- ayni ozen bu Kars-Igdir kumesine uygulanmamis). KUME-3 (YUKSEK ONEM, DOGRULANDI -- gercek hayalet-devlet, CLAUDE.md §3.5 birebir): Tiflis/Ahilkelek/Gumru/Ecmiyadzin/Serur/Ahiska -- 'rusya' donemi HICBIR d: (Osmanli) donemi OLMADAN dogrudan 1923-10-29'a kadar suruyor. Ama devletler.js 'rusya' kimligini 1917-03-15'te (Subat/Mart Devrimi) BITIRIYOR. Yani bu 6 yerlesim 1917-1923 arasi ALTI YIL BOYUNCA artik var olmayan bir devletin etiketiyle duruyor -- gercekte 1918-1921 Gurcistan/Ermenistan cumhuriyetleri, sonra SSCB doneminden geciyorlardi. CIKARDIGIM HUKUM: bu KUME-3 gercek bir kusur ama HIZLI YAMANAMAZ -- devletler.js'i kontrol ettim, '1918-1921 Gurcistan Demokratik Cumhuriyeti' / 'Ermenistan' / 'SSCB' gibi bir kimlik HIC YOK (yalniz eski 'gurcistan' 1008-1801 araliginda). Duzeltme yeni devlet kimlikleri gerektiriyor -- bu benim dosyamin (yer_kron_anadolu.js) degil, muhtemelen data/devletler.js oturumunun ya da ayri bir KAFKASYA oturumunun isi; ayrica bu kume (Kars/Igdir/Ardahan/Artvin/Batum/Tiflis) COGRAFI OLARAK 'Anadolu beylikleri' kapsamimin sinirinda, belki baska bir bolgeyle CAKISIYOR olabilir. NE ISTIYORUM: (1) KUME-3'u kime yonlendireyim -- ayri is olarak mi acilsin, yoksa ben mi devam edeyim (yeni kimlik onerileriyle)? (2) Oncelik②'ye (sancak/kaza merkezleri) gecmemi mi istersin yoksa bu hayalet-devlet taramasini butun 2606 nokta uzerinde mi genisleteyim -- ikincisi cok daha buyuk bir is olur, once sorayim dedim.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
