@@ -4929,14 +4929,40 @@ function ekOkumaMerakYukle(biterse) {
 // kod hepsini okuyor, tek bir ad dayatmıyor:
 //   sebep-sonuç `olay:[...]`   magazin `t` (tek tarih)   merak `baglanti:[...]`
 function ekKartBagliMi(kart, o) {
-  if (kart.tur === "magazin") return kart.t === o.t;
+  // `tur` alanı olmayan kaynaklar (ANTLASMALAR) da güne bağlanır.
+  if (kart.tur === "magazin" || !kart.tur) return kart.t === o.t;
   var liste = kart.olay || kart.baglanti || [];
   return liste.indexOf(o.t) >= 0;
 }
 var EKOKUMA_TUR = {
   "sebep-sonuc": { etiket: "🔗 Sebep-Sonuç", kaynak: function () { return window.EKOKUMA || []; } },
   "magazin":     { etiket: "🎭 Magazin",     kaynak: function () { return window.EKOKUMA || []; } },
-  "merak":       { etiket: "❓ Merak",        kaynak: function () { return window.MERAK || []; } }
+  "merak":       { etiket: "❓ Merak",        kaynak: function () { return window.MERAK || []; } },
+  // 🔴🔴 24 Ağustos 2026 — 0034/H-0010: *"TÜM ANLAŞMA içeren maddelerin
+  // içine ANLAŞMA METNİ butonu"* (Emre).
+  //
+  // 🟢 VE TEK BİR KART YAZILMADI — VERİ ZATEN VARDI, DÖRDÜNCÜ VAKA.
+  // OPUS HAZIR KITA 84 ölçtü: `ANTLASMALAR`ın 41/41'inde `ozet` VE
+  // `topraklar` DOLU (en kısa 84, ortanca 137, en uzun 310 karakter) ve
+  // `topraklar` gerçekten HÜKÜM anlatıyor:
+  //   Küçük Kaynarca → "Kırım Hanlığı Osmanlı egemenliğinden çıkıp
+  //     siyaseten bağımsız ilan edildi (dinî bağ hilafette kaldı)…"
+  //   Balta Limanı  → "Toprak konusu yok; iç tekeller kaldırıldı,
+  //     İngiliz mallarına düşük gümrük ve serbest ticaret hakkı…"
+  //
+  // ⚠️ Ve 41 kartı ELLE yazmak bir özellik değil BORÇ üretirdi: aynı olgu
+  //    iki yerde durur, biri güncellenir, öteki bayatlar. Bu projede o
+  //    ders üç kez ölçüldü. ⇒ Kopyalama YOK, doğrudan bağlanıyor.
+  //
+  // 📌 VE ÖLÇÜLEN TAVAN YANLIŞ SORUNUN CEVABIYMIŞ: "TDV 41'in 26'sını
+  //    kapsıyor (%63)" doğruydu ama soru *"TDV neyi kapsıyor"*du; doğru
+  //    soru *"kartta ne yazabiliriz"*. Cevabı 41/41. TDV artık bir kısıt
+  //    değil, yalnız ZENGİNLEŞTİRME katmanı.
+  //
+  // `turAlaniYok`: bu kaynağın kayıtlarında `tur` alanı YOKTUR; süzgeç
+  // `k.tur === tur` şartını uygulamaz, bağlanma yalnız güne bakar.
+  "antlasma":    { etiket: "📜 Antlaşma hükümleri", turAlaniYok: true,
+                   kaynak: function () { return window.ANTLASMALAR || []; } }
 };
 
 function ekOkumaButonlariGuncelle(o) {
@@ -4950,7 +4976,12 @@ function ekOkumaButonlariGuncelle(o) {
   aktifOlay = o;
   kutu.innerHTML = "";
   Object.keys(EKOKUMA_TUR).forEach(function (tur) {
-    var eslesen = EKOKUMA_TUR[tur].kaynak().filter(function (k) { return k.tur === tur && ekKartBagliMi(k, o); });
+    var _tanim = EKOKUMA_TUR[tur];
+    var eslesen = _tanim.kaynak().filter(function (k) {
+      // `turAlaniYok` olan kaynakta her kayıt o türdendir (ANTLASMALAR);
+      // ötekilerde kayıt kendi türünü taşır.
+      return (_tanim.turAlaniYok || k.tur === tur) && ekKartBagliMi(k, o);
+    });
     if (!eslesen.length) return;
     var b = document.createElement("button");
     b.className = "ob-ek-btn";
@@ -5032,6 +5063,34 @@ function ekKartHtml(k) {
     (k.goruşler || k.gorusler || []).forEach(function (g, i) {
       h += '<div class="ek-goruş"><b>Görüş ' + (i + 1) + "</b>" + ekEsc(g.tez) +
            (g.dayanak ? " — " + ekEsc(g.dayanak) : "") + "</div>";
+    });
+  } else if (!k.tur && (k.ozet || k.topraklar)) {
+    // 📜 ANTLAŞMA — `ANTLASMALAR` kaydı, `tur` alanı taşımaz.
+    h += "<h4>" + ekEsc(k.ad || "Antlaşma") + "</h4>";
+    if (k.taraf_metin) h += '<p class="ek-alt">' + ekEsc(k.taraf_metin) + "</p>";
+    if (k.ozet) h += "<p>" + ekEsc(k.ozet) + "</p>";
+    // ⚠️ `topraklar` alan adına rağmen YALNIZ toprak anlatmıyor: Balta
+    //    Limanı kaydı "Toprak konusu yok; iç tekeller kaldırıldı…" diyor.
+    //    Yani alan HÜKÜMLERİ taşıyor — başlık ona göre.
+    if (k.topraklar) h += "<p><b>Hükümleri:</b> " + ekEsc(k.topraklar) + "</p>";
+    if (k.savas_basi) h += '<p class="ek-alt">Bitirdiği savaş: ' + ekEsc(k.savas_basi) + "</p>";
+  } else {
+    // 🔴🔴 SON ÇARE DALI — VE BU DAL BUGÜNE KADAR YOKTU.
+    // OPUS HAZIR KITA 84 ölçtü: `ekKartHtml` yalnız ÜÇ tür için dal
+    // taşıyordu ve son bir `else` YOKTU. Bilinmeyen bir `tur` yazılırsa
+    // kart **rozet + "Kaynak:" satırından ibaret** çıkıyordu — bütün
+    // içerik görünmeden.
+    // ⚠️ Ve sinsiliği: hata YOK, uyarı YOK, denetim ÖTMEZ. Yeni bir tür
+    //    ekleyen oturum "yazdım ama görünmüyor" diye kendi verisinden
+    //    şüphelenirdi; oysa veri doğru, GÖSTERİCİ eksikti.
+    // 📌 İki değişiklik gerekiyormuş, bir değil: `EKOKUMA_TUR`a kayıt VE
+    //    `ekKartHtml`e dal. Yalnız birincisini saymıştım.
+    // ⇒ Bu dal bir tür için özel biçim vermez, ama HİÇBİR ŞEY
+    //   göstermemeyi de imkânsız kılar: kaydın yazı taşıyan alanları
+    //   olduğu gibi dökülür. Çirkin olabilir, GÖRÜNMEZ olamaz.
+    if (k.baslik || k.ad || k.soru) h += "<h4>" + ekEsc(k.baslik || k.ad || k.soru) + "</h4>";
+    ["ozet", "metin", "kisa", "not", "bag", "aciklama"].forEach(function (a) {
+      if (k[a] && typeof k[a] === "string") h += "<p>" + ekEsc(k[a]) + "</p>";
     });
   }
   if (k.kaynak) h += '<p class="ek-alt">Kaynak: ' + ekEsc(k.kaynak) + "</p>";
