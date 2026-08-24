@@ -54,6 +54,31 @@ class Sunucu(http.server.SimpleHTTPRequestHandler):
 socketserver.TCPServer.allow_reuse_address = True
 Islem = functools.partial(Sunucu, directory=KOK)
 
-with socketserver.TCPServer(("127.0.0.1", PORT), Islem) as sunucu:
+
+# 🔴🔴 ÇOK İPLİKLİ OLMAK ZORUNDA — VE BU ÖLÇÜLMÜŞ BİR ARIZANIN ÇARESİ.
+#
+# İlk sürüm `socketserver.TCPServer` kullanıyordu: TEK İPLİKLİ, yani bir
+# isteği bitirmeden ötekine bakmıyor, ve `request_queue_size` 5.
+# `index.html` **129 script** yüklüyor; Chrome aynı kaynağa 6+ paralel
+# bağlantı açıyor ⇒ dinleme kuyruğu taşıyor ve fazlası REDDEDİLİYOR.
+#
+# ÖLÇÜLDÜ (OPUS HAZIR KITA 82, tarayıcıdan):
+#     tek iplikli   sayfa `readyState:"loading"`de takıldı ·
+#                   DOM'a 1 script girdi · konsolda 15+ ERR_CONNECTION_REFUSED
+#     çok iplikli   1 script → 133 script, sayfa tamamlandı
+#
+# ⚠️ Ve arızanın sinsiliği: sunucu ÇÖKMÜYOR, hata da vermiyor. Sayfa
+#    yarım yükleniyor ve ölçüm yapan oturum bunu "harita bozuk" diye
+#    okuyor — yani ALTYAPI ARIZASI, VERİ/KOD KUSURU gibi görünüyor.
+#    Bir oturum bu yüzden `js/app.js`teki bir teşhisi yanlış sanıp
+#    saatlerce yanlış yerde arayabilirdi.
+#
+# `daemon_threads`: Ctrl+C'de asılı iplikler süreci canlı tutmasın.
+class CokIplikliSunucu(socketserver.ThreadingTCPServer):
+    daemon_threads = True
+    allow_reuse_address = True
+
+
+with CokIplikliSunucu(("127.0.0.1", PORT), Islem) as sunucu:
     print("atlas → http://127.0.0.1:%d/index.html" % PORT, flush=True)
     sunucu.serve_forever()

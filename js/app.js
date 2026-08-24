@@ -2219,8 +2219,26 @@ function savasGuncelle(t) {
   // muharebe işareti siliniyordu.
   //
   // ⚠️ VE BU ÖLÇÜLMEDİ, AÇIKÇA YAZIYORUM: bu oturumun tarayıcısında harita
-  // hiç çizilmedi (`harita.getStyle()` undefined, WebGL başlamıyor), o
-  // yüzden elemeyi ateşleyip göremedim. Kural yine de değiştirildi, çünkü
+  // hiç çizilmedi, o yüzden elemeyi ateşleyip göremedim.
+  //
+  // 🔴 SEBEBİ 24 AĞUSTOS'TA ÖLÇÜLDÜ VE BU NOT YANLIŞTI. Eski hâli
+  // *"WebGL başlamıyor"* diyordu. OPUS HAZIR KITA 82 ölçtü:
+  //     WebGL ÇALIŞIYOR — `harita.painter` kurulu, ANGLE/D3D11 bağlamı var
+  //     requestAnimationFrame 29,5 saniyede 0 KARE  ← GERÇEK SEBEP
+  //     setInterval(16ms) aynı sürede 10 tik — yani sayfa CANLI
+  // Pano compositing yapmıyor ⇒ rAF hiç ateşlemiyor ⇒ MapLibre render
+  // döngüsü dönmüyor ⇒ stylesheet işlenmiyor ⇒ `load` doğmuyor ⇒
+  // `haritaHazir` hiç `true` olmuyor.
+  //
+  // 📌 VE FARK PRATİKTİR, KELİME OYUNU DEĞİL: *"WebGL yok"* cümlesi
+  //    okuyanı **"bu makinede ölçülemez"** diye vazgeçirir. Gerçek sebep
+  //    *"pano görünmüyor"* ise, panoyu görünür kılan HER ortamda ölçüm
+  //    YAPILABİLİR — nitekim koordinatörün panosu 1280×800'e
+  //    ayarlandığında gerçek sayılar geldi.
+  //    ⇒ Yanlış bir teşhis, yanlış bir sayıdan kötüdür: sayı düzeltilir,
+  //      teşhis ise ARAMAYI DURDURUR.
+  //
+  // Kural yine de değiştirildi, çünkü
   // ÖLÇÜMDEN BAĞIMSIZ OLARAK YANLIŞ: kullanıcı bir muharebe maddesini
   // okurken o muharebenin işareti, yanındaki şehir etiketine feda edilemez.
   // O anda ekranın KONUSU odur.
@@ -5936,7 +5954,10 @@ function _ofsetiMerkezeKat(lon, lat, zoom, ofset) {
 
 // ── Odaklama yardımcıları ───────────────────────────────────────────────
 // Ayrı tutuldular çünkü ÖLÇÜLEBİLİR olmaları gerekiyor: harita çizilmeden
-// (bu geliştirme ortamında WebGL başlamıyor) sayıları doğrulayabilmek için
+// (bazı geliştirme panolarında pano 0×0 kaldığı için rAF hiç ateşlemiyor
+//  ve MapLibre render döngüsü dönmüyor — WebGL'in kendisi ÇALIŞIYOR;
+//  eski not "WebGL başlamıyor" diyordu ve ölçümle çürüdü) sayıları
+// doğrulayabilmek için
 // saf fonksiyon olmalılar. `odakla()` bunları çağırır, kendi matematiğini
 // içinde saklamaz.
 function _ayar(id, varsayilan) {
