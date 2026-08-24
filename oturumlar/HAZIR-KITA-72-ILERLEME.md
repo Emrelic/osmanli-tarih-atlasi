@@ -215,4 +215,44 @@ DE RAPOR, hiçbiri veri/motora yazılmadı. Her kayıtta `hukum` ve `kanit`
   bunu kesin kusur diye damgalamadım — motor incelemesi önerdim.
 
 ## Durum (M-1188)
+TESLİM EDİLDİ. (Not: koordinatör raporumu `data/yer_yama_anadolu2.js`'ten
+`denetim/BULGU-ANADOLU2-0030.js`'e taşımış — "yama ad alanından çıktı"
+kararı, commit d1130fa.)
+
+---
+
+## Görev 5 (M-1204, koordinatörden — 24 Ağustos 2026 11:15)
+Aynı temanın devamı: 0031 paketinden üç yeni madde (H-0002, H-0005,
+H-0017) + kendi 0030/H-0001 bulgumun üstüne inşa etmek. Anahtar soru
+H-0005 için: "0030/H-0001 ile aynı kusur mu, değil mi?"
+
+### Yöntem
+Aynı canlı-motor tekniği (localhost, WebGL beklemeden `devletGuncelle`/
+`donemler`/`noktaIcinde` doğrudan çağrıldı) + `renk_olc.py --ayrinti` +
+ΔE hesapları `renk_olc.py`nin kendi `lab()`/`dE()` fonksiyonlarıyla.
+
+### Teslim
+`denetim/BULGU-RENK-0031.md` — 4 madde (0030/H-0001 özeti + 3 yeni).
+
+### Bulgular
+- **H-0005 — AYNI KUSUR, doğrulandı**: 0030/H-0017'de incelediğim TAM O
+  Sırbistan parçası (Niş-Sofya arası, alan/merkez birebir aynı) 1388'de
+  Osmanlı petek gövdesinin İÇİNDE DEĞİLDİ (saf §2 emilme), ama 1396'da
+  (8 yıl sonra, "Vidin'in ilhakı") AYNI parça Osmanlı'nın içine
+  GİRDİ — Sırbistan'ın geometrisi hiç değişmemiş, Osmanlı'nın büyüyen
+  peteği üstüne binmiş. Yani 0030/H-0017'nin "şüpheli emilme" hükmü ile
+  0030/H-0001'in "gerçek çift-istem" hükmü aslında AYNI KÖKÜN iki farklı
+  anı — statik yabancı-devlet peteği, zamanla büyüyen Osmanlı peteğiyle
+  er ya da geç çakışıyor.
+- **H-0017 — palet çakışması değil**: gürcistan↔karakoyunlu ΔE=25,69,
+  gürcistan↔iran ΔE=37,06 — ikisi de eşiğin (12) 2-3 katı üzerinde. AMA
+  `renk_olc.py --ayrinti`de bu çift HİÇ KURULMUYOR — "temiz" raporu bir
+  şey kanıtlamıyordu, koordinatörün uyarısı doğru çıktı. Üçü de aynı
+  magenta ailesinde ve 300-600 km içinde — teknik ihlal değil ama görsel
+  kalite notu olarak yazdım, renk ÖNERMEDİM (renkler.py'ye dokunmadım).
+- **H-0002 — kanıt yetersiz**: görsel net bir çakışma göstermiyor,
+  muhtemelen işgal örtüsü ya da sefer/hareket katmanı (taralı şevron
+  şekli) — "hala-açık" bıraktım, tahmin yürütmedim.
+
+## Durum (M-1204)
 TESLİM EDİLDİ. Yeni görev bekliyorum.
