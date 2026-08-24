@@ -271,6 +271,34 @@ def asama_ozet():
     print("=" * 64)
 
 
+# 🔴 KÜNYE ANLIK GÖRÜNTÜDEN **ÖNCE** OKUNUR — VE BU BİR ÇÖKÜŞÜN ÇARESİ.
+# 25 Ağustos 2026: boya anahtarının `harita:`ya düşmesi eklendi ve künye
+# okuması `anlik_goruntu()`dan SONRAYA konuldu. Koşu 20 SANİYEDE ÖLDÜ:
+#     !! devletler.js bulunamadı: …\petek_girdi_6z_zdbaj\devletler.js
+# Sebep: `anlik_goruntu()` yalnız `GIRDI_DOSYALARI`nı (56 yerleşim dosyası)
+# kopyalar ve `girdi.DATA`yı o geçici dizine çevirir. `devletler.js` bir
+# YERLEŞİM girdisi değil, o yüzden kopyaya HİÇ girmiyor.
+# ⇒ Künye, `girdi.DATA` hâlâ gerçek `data/`yı gösterirken okunuyor.
+# 🟢 Ve iyi ki 20 saniyede öldü: aynı hata koşunun içinde olsaydı 4,5 saat
+#    sonra görülürdü. `girdi.py`nin "SESSİZ SIFIR YASAK" kuralı (bulamazsa
+#    boş liste değil `SystemExit`) tam da bunun için var.
+_HARITA_ALT = {}
+try:
+    for _k in girdi.oku_devletler():
+        _kid, _kh = _k.get("id"), _k.get("harita")
+        if _kid and _kh:
+            _HARITA_ALT[_kid] = _kh
+    print(f"  künye okundu: {len(_HARITA_ALT)} kimlikte `harita:` alanı var")
+except BaseException as _e:
+    # ⚠️ `SystemExit` DE YAKALANIYOR ve gerekçesi ölçülü: `harita:` düşüşü
+    #    bir ZENGİNLEŞTİRME, koşunun ÖN ŞARTI değil (ölçüldü: bugünkü
+    #    kayıtlardan değişen 0). Onun yüzünden 4,5 saatlik bir koşuyu
+    #    öldürmek, orantısız bir ceza olur.
+    #    Ama SESSİZ de geçilmiyor — uyarı basılıyor, çünkü düşüş devre dışı
+    #    kalırsa bazı gövdeler çizilmez ve sebebi görünmez olurdu.
+    print(f"  ⚠️ UYARI boya: künye okunamadı ({type(_e).__name__}) — "
+          f"`harita:` düşüşü DEVRE DIŞI, ham `d:` kullanılacak")
+
 asama("Girdi anlık görüntüsü")
 girdi.anlik_goruntu()
 
@@ -610,18 +638,10 @@ if _cakisan:
 # 📌 Ve öneriyi DARALTAN, öneriyi YAZANIN kendisi oldu: kendi ilk yolunu
 #    ölçüp çürüttü. Ölçülmemiş bir "iyileştirme" burada sekiz kaydı
 #    sessizce bozacaktı.
-_HARITA_ALT = {}
-try:
-    for _k in girdi.oku_devletler():
-        _kid, _kh = _k.get("id"), _k.get("harita")
-        if _kid and _kh:
-            _HARITA_ALT[_kid] = _kh
-except SystemExit:
-    raise                      # girdi.py'nin "sessiz sıfır yasak" kuralı
-except Exception as _e:
-    print(f"  UYARI boya: künye okunamadı ({type(_e).__name__}) — "
-          f"`harita:` düşüşü DEVRE DIŞI, ham `d:` kullanılacak")
-
+# ⚠️ `_HARITA_ALT` BURADA KURULMUYOR — anlık görüntüden ÖNCE kuruldu
+# (bkz. ~285). Sebebi ölçülmüş bir çöküş: burada kurulduğunda `girdi.DATA`
+# artık geçici kopya dizinini gösteriyor ve `devletler.js` o kopyaya HİÇ
+# girmiyor (o bir YERLEŞİM girdisi değil) ⇒ koşu 20 saniyede ölüyordu.
 _yonlendirilen = 0
 for y in YERLER:
     for _alan, _dv in girdi.VARSAYILAN.items():
