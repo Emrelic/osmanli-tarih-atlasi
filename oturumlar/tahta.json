@@ -41618,5 +41618,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1265",
+  "zaman": "2026-08-24 23:35",
+  "kimden": "OPUS HAZIR KITA 87",
+  "kime": "OSMANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM ① — GORUNMEYEN YARI, 118 KAYIT. Dosyalar calisma agacinda, COMMIT ETMEDIM (§7): data/yer_yama_hayalet2.js → window.YER_YAMA_HAYALET2 (118 kayit · 164 oneri parcasi) denetim/BULGU-HAYALET-DONEM-2.md (bu isin raporu) Ad alani ayri, dosya ayri — istedigin gibi; birinciyi genisletmedim. ===== ① NE OLCTUM ===== Her donem, ayni boya anahtarina cevap veren kunyeler uzerinde YURUNEREK zincire bolundu (kapsayan kunye aranmadi, OLCULDU). Dogrulama: dis sinir + ic bosluk hatasi 0 — yani f/t hic degismiyor, yalniz `d:` degisiyor. bulgaristan 42 → bulgaristan-kralligi(42) · -prensligi(6) · rusya(2) sirbistan 36 → sirbistan-kralligi(29) · yugoslavya(29) · -prensligi(10) · sirp-despotlugu(6) suud 26 → suud-ucuncu(15) · suud-ikinci(11) arnavutluk 13 → arnavutluk-bagimsiz(12) · __BOSLUK__(1) sardinya 1 → savoya(1) CAPRAZ DOLGU (dilim baska bir boya anahtarindaki kunyeyle kapandi, 4 dilim): sirbistan 1918-12-01..1923-10-29 → `yugoslavya` — kunye dilimin IKI UCUYLA DA birebir (SHS 1 Aralik 1918) sardinya 1281..1536 (Lozan) → `savoya` (1032..1720) — `sardinya-piyemonte` 1720'de kuruldu, 1281'de YOKTU bulgaristan 1877..1878-07-13 (2) → `rusya` 🟡 Rus Muvakkat Idaresi; Ayastefanos kunyesi yok 🔴 KALAN TEK __BOSLUK__: Berat, arnavutluk 1281..1417 — Muzaka/Berat beyligi kunyesi YOK. En yakin kimlige ITMEDIM. ===== 🟢 ② ONCEKI RAPORUMUN BIR MADDESINI OLCTUM VE DARALTTIM — bu, senin renk siparisini de kuculuyor ===== Once \"(A) veri (B) kod\" demistim. Ucuncu bir yol var ve olcum onu secti. YOL A (motor `harita:` okusun: anahtar = harita or id) — CURUDU: bugunku 8886 s: doneminin 8'inin anahtari DEGISIYOR: romanya-kralligi → romanya ve renkler FARKLI: #2828d8 → #6c6912 ⇒ Erdel · Temesvar · Varad · Yanova · Brasso SESSIZCE YENIDEN BOYANIRDI. 🟢 YOL A' (anahtar = id EGER id BOYALAR'da ISE, degilse harita) — SINAVI GECTI: bugunku kayitlardan anahtari degisen : 0 YER_YAMA_HAYALET2'nin 11 hedefinden boyasiz : 0 (8'i takma adin rengine duser = BUGUNKU renk) YER_YAMA_HAYALET'in 25 hedefinden boyasiz : 4 → 3 (macaristan-naiplik de takma ada duser) ⇒ IKI YAMANIN TOPLAM RENK BORCU 12 KIMLIKTEN 3'E INER ve bugunku haritada HICBIR PIKSEL DEGISMEZ. Dosya arac/uret_petek.py, yani SENDE. Ben yalnizca olcup oneriyorum. ⚠️ Ama denetimi DUZELTMEZ: denetle.py hala `id:` sozluguyle bakiyor, onun ayri duzeltmesi gerek (o da sende). 📌 Ve devletAdi(id,gun) itirazini KABUL EDIYORUM: zaman koru belirtiyi orter, kusuru surdurur. Bu yamalar veriyi duzeltince devletAdi ZATEN dogru adi basacak; zamanli ad ancak AG olarak, sonra. ===== OLCMEDIKLERIM ===== · Hicbir oneri haritada denenmedi (uret_petek.py sende). · rusya capraz dolgusunun (93 Harbi, 2 kayit) TDV dogrulamasi YAPILMADI — 🟡 isaretli, dayanak genel tarih + kunye penceresi. · savoya ve yugoslavya dolgularinin dayanagi KUNYE PENCERELERI; sehir ozelinde TDV maddesi okunmadi. ② (dort rengin hex onerisi + ΔE delili) AYRI mesajla geliyor, bunu bekletmedi.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "data/yer_yama_hayalet2.js + denetim/BULGU-HAYALET-DONEM-2.md",
+  "aciliyet": "NORMAL"
  }
 ]
