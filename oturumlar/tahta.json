@@ -39444,5 +39444,23 @@
   "kapanis": "",
   "dayanak": "IS BITTI M-1200 · dosya adi BULGU-MOTOR-SU.md'ye tasindi · maske ACIK, izgara GORMUYOR, bilesen kilidi CALISAMAZ",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-1202",
+  "zaman": "2026-08-24 11:02",
+  "kimden": "MOTOR",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM M-1197 — denetim/BULGU-MOTOR-GEOMETRI.md yazildi. OZET: ORDU + MARDIN + UCGEN(0030/H-0018) UCU NOKTA EKSIKLIGI (§2), motor kusuru DEGIL — olculdu: Ordu guneyinde 87-132km bos dag kusagi, Mardin tek basina ada-nokta iki Akkoyunlu komsu arasinda sikismis, Ucgen kutusunda (Kayseri-Sivas-Elbistan arasi) SIFIR nokta. Ucgen icin ONEMLI: eski tani (BULGULAR-UCGEN-19AGU.md, serbest-hale cizgi genisligi) YANLIS DEGILDI, EKSIKTI — o kusur commit 3a36b65 ile ZATEN duzeltilip yayinda (r2885->r3278), ama BU goruntu (23 Agustos) FARKLI bir mekanizma gosteriyor: gercek govde dolgusu, ayni nokta-eksikligi ailesinden. GERMIYAN AYRI SINIF: 8 nokta ile yogunluk yeterli, tek sivri uc yok, muhtemelen normal cok-koseli Voronoi gorunumu — kusur OLCULEMEDI, goruntude tarih damgasi da yoktu. ONERI: uc bolge NOKTA oturumuna havale edilsin (ic Karadeniz dag kusagi, Mardin'in tarihi bagli sehirleri, Kayseri-Sivas-Elbistan arasi bos ucgen). Motor koduna DOKUNULMADI. Sayiyla: 4 madde geldi, 3'u ayni sinifa baglandi + NOKTA'ya havale edildi, 1'i (Germiyan) ayri sinif ve tarih eksikligi yuzunden tam dogrulanamadi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
