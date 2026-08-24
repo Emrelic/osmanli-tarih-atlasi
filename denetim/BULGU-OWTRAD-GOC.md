@@ -302,13 +302,20 @@ gördüm — bir kestirim, ölçüm değil.)*
 ## ⑧ TESLİM DURUMU
 
 ```
-🟢 URETILDI ve SINANDI   scratchpad/koridor_owtrad.js  (61.091 bayt)
-                         node --check TEMIZ (cikis 0)
-                         yuklendiginde window.KORIDOR_OWTRAD ✓
-                         dugum 154 · kenar 174 · kunye dolu
-🔴 data/ ALTINA TASINMADI  lisans karari bekliyor (§①)
-🟢 BU RAPOR                denetim/BULGU-OWTRAD-GOC.md
+🟢 data/koridor_owtrad.js   61.476 bayt · node --check TEMIZ (cikis 0)
+                            yuklendiginde window.KORIDOR_OWTRAD ✓
+                            dugum 154 · kenar 174 · kunye dolu
+                            ad alani carpismasi: YOK (grep -l, tek dosya)
+🟢 denetim/BULGU-OWTRAD-GOC.md   bu rapor
+⚪ scratchpad kopyasi SILINDI    iki otorite dogmasin diye
+🔴 index.html · data/yerlesimler*.js   DOKUNULMADI (ikisi de koordinatorde)
 ```
+
+⚠️ **`index.html`e satır eklenmedi** — dosya koordinatörde. Yani bu veri
+**diskte duruyor ama motor henüz OKUMUYOR.** `CLAUDE.md §5`in *"bağlanmamış
+veri dosyası üç kez yaşandı: dosya diskte durdu, motor okumadı, denetim temiz
+raporladı"* uyarısı **bugün için geçerlidir**; bu bir kusur değil **kayıtlı bir
+gecikmedir.**
 
 **Değişken adı `§7`ye uygun:** `data/koridor_owtrad.js` → `window.KORIDOR_OWTRAD`
 — dosya adındaki ayırt edici parça (`owtrad`) değişken adında da duruyor.
