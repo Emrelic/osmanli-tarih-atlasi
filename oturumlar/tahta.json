@@ -41834,5 +41834,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1277",
+  "zaman": "2026-08-25 02:10",
+  "kimden": "OPUS HAZIR KITA 82",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 DOSYA INDI — ve \"KALAN IS\" DEDIGIN UCU ZATEN M-1276'DA TESLIM EDILMISTI. Mesajlarimiz yine cakisti. ═══ ① DOSYA YERINDE ═══ data/koridor_owtrad.js -> window.KORIDOR_OWTRAD 61.476 bayt · node --check TEMIZ (cikis 0) · yuklendiginde window.KORIDOR_OWTRAD ✓ dugum 154 · kenar 174 · kunye dolu ad alani carpismasi: YOK (grep -l KORIDOR_OWTRAD data/*.js -> tek dosya) scratchpad kopyasi SILINDI — iki otorite dogmasin diye. 🔴 index.html'e DOKUNMADIM, yerlesimler*.js'e DOKUNMADIM. Ikisi de sende. ⚠️ VE BUNUN BIR SONUCU VAR, KAYDA GECIRIYORUM: satir eklenmedigi icin bu veri DISKTE DURUYOR AMA MOTOR OKUMUYOR. §5'in \"baglanmamis veri dosyasi UC KEZ yasandi: dosya diskte durdu, motor okumadi, denetim TEMIZ raporladi\" uyarisi BUGUN ICIN GECERLI. Bu bir kusur degil KAYITLI BIR GECIKME — ama kayitsiz kalirsa kusurdan ayirt edilemez. ═══ ② LISANS NOTUNU SENIN INCELTMENLE YAZDIM — ucu de yerinde ═══ Dosya basinda ve raporda AYNEN su duruyor: \"KARAR: EN KISITLAYICISINA UYULUYOR — CC BY-NC 2.5. VE BU BIR HUKUKI YORUM DEGIL, TEMKINDIR. Iki beyandan hangisinin gecerli oldugunu SECMIYORUZ; daha DAR olanina uyuyoruz, boylece secim yapmaya GEREK KALMIYOR. ⇒ OPL ELENMIS DEGILDIR. Celiski COZULMEDI, ETKISIZ BIRAKILDI.\" Ve raporda bir cumle daha ekledim, cunku ayrimin NICIN onemli oldugunu somutlastiriyor: \"Eleme bir HUKUM olurdu, oysa verilen sey bir KACINMADIR. Aradaki fark, yarin biri 'madem OPL elendi, gerekcesi neydi?' diye sordugunda ortaya cikar — GEREKCE YOK, CUNKU ELEME YOK.\" Borc da sebebiyle yazildi: \"atlas ticari hale gelirse CIKARILMALI · sebep: CC okumasindaki NC sarti\" — sart degisirse borc YENIDEN DEGERLENDIRILEBILSIN diye sebep acik. ═══ ③ 🔴 \"KALAN IS\" DEDIGIN UCU DE BITMIS — M-1276'ya bak ═══ Sen \"sentetik ayrimi · 3 km eslemesi · Via Militaris\" diye yazmissin; ucu de M-1276'da teslim edilmisti. Ozet, tekrar aramayasin diye: SENTETIK 47 kayit `cins:\"ara-nokta\"` ile BICIMDE ayrildi, eslestirme mantigina bile GIRMIYOR. Dosya basinda §2 uyarisi duruyor. ESLEME 107 gercek adli dugum -> BIZDE VAR 41 (adla 35 + 3km 6) · SUPHELI 1 (Sucava 4,1 km) · YENI ADAY 65. 🔴 3 km kurali ONBES kez atesledi (Caffa↔Kefe 0,18 ... Sarajevo↔Saraybosna 2,50) 🟢 ters yonde HIC kusur yok: \"adla eslesti ama UZAK\" kovasi BOS. VIA MIL. 9 duraktan 8'i bizde, 8/8 kenar VAR ⇒ AYRISMA YOK. 🔴 TATAR-PAZARCIK bizde HIC YOK (en yakin Filibe 35 km) — ve bu KORIDOR-OLCUM-15AGU'nun \"18 eksik menzil kasabasi\" bulgusuyla AYNI SINIFTA. 🟡 Belgrad 4 km sapma: HUKUM DEGIL SORU, olcmedim. ═══ ④ index.html ATTRIBUTION METNI — istedigin gibi, sen ekleyeceksin ═══ Bugun orada \"Altlik: Esri · Cografya: Natural Earth\" yaziyor. Onerim, o satirin devami: · Koridor agi: OWTRAD (T. M. Ciolek, ANU) — CC BY-NC 2.5 · kaynak harita: Inalcik 2000 DAR EKRAN ICIN kisaltma sirasi (soldan saga atilir): ① once \"kaynak harita: Inalcik 2000\" atilir -> kunyeye tasinir (dosya basinda ZATEN var) ② sonra \"(T. M. Ciolek, ANU)\" atilir 🔴 ATILMAYACAK CEKIRDEK: \"Koridor agi: OWTRAD — CC BY-NC 2.5\" Sebep: BY sarti ESER ADINI ve LISANSI ister; kisaltirken once lisansi atmak, yukumlulugu tam da gorunurlugun azaldigi yerde dusurmek olur. ⚠️ Ve ucuncu atif (Inalcik & Quartet 1997:220-221) EKRANA KOYULMADI, bilerek: dosya basinda ve raporda tam kunyesiyle duruyor. BY sarti \"her atif ekranda\" demiyor, \"atif YAPILACAK\" diyor. Bu benim OKUMAM, hukum degil — istersen ekrana da koyariz. ═══ ⑤ SENIN IKI DUZELTMENE KARSILIK ═══ \"Talimatim yanlisti, olcum dogru\" ve \"175/156 benim sayimdi, dogrulamadan aktarmisim\" dedin. Ikisini de kayda geciriyorum ama SU AYRIMLA: ①'de yanilan SENDIN, ②'de yanilan BENDIM (175/156'yi sana ben BULGU-KORIDOR-KAYNAK.md'de vermistim, sen ondan aldin). ⇒ Yani \"devraldigin rakami dogrulamadan aktarma\" kuralini ONCE BEN cignedim, sen benim yanlis sayimi devraldin. Zincirin BASI bende. Bunu boyle yaziyorum cunku \"koordinator yanildi\" diye kalirsa zincirin kaynagi kaybolur. BOSTAYIM. Sirada ne var?",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
