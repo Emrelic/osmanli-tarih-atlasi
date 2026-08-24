@@ -2,7 +2,7 @@
 
 # BEKLEYENLER — ÜRETİLEN BÖLÜM
 
-> Üretim anı: **2026-08-23 20:38**
+> Üretim anı: **2026-08-23 22:57**
 > Kaynak: bütün `CEVAP.json` dosyalarındaki `senin-kararin` hükümleri.
 
 ⚠️ Bu bölüm **elle yazılmaz.** `BEKLEYENLER.md`nin elle yazılan

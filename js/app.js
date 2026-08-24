@@ -5459,6 +5459,35 @@ function haritayiOlayaGotur(o, zorla) {
                          { padding: kenar, duration: 800,
                            essential: ucusAcik() });
       }
+      // 🔴🔴 24 Ağustos 2026 — VARIŞ BU DALDA DA İŞLENİR (0031/H-0006 ·
+      // H-0018 · H-0020 ve 0030/H-0005 — DÖRT ŞİKÂYET, TEK KÖK).
+      //
+      // Emre: *"her madde KENDİ HARİTA GÖSTERİMİ ile beraber teker teker
+      // gösterilmesi sağlanmalı … şimdi ÜÇÜ BİRDEN BİTİYOR."*
+      //
+      // ÖLÇÜLDÜ (yayındaki sitede, Emre'nin adıyla andığı vakada):
+      //     165 Devşirme       kapsam_genis · konum YOK → işaret YANMADI
+      //     166 Düzmece Mustafa kapsam_genis · konum YOK → işaret YANMADI
+      //                                                    kamera DURDU
+      //     167 Cüneyd Bey      konum VAR              → işaret YANDI ✓
+      // 166'da harita HİÇBİR ŞEY yapmıyordu: noktası olmadığı için işaret
+      // yanmıyor, bir önceki madde de aynı imparatorluk görünümünü açtığı
+      // için kamera da oynamıyor. Kullanıcı "pas geçildi" diyor — haklı.
+      //
+      // KÖK SEBEP: `_varista()` bu dalda HİÇ ÇAĞRILMIYORDU. Konumlu dal
+      // onu çağırıyor, konumsuz dal 22 Ağustos'ta yazılırken atlanmış.
+      // 📌 Ve bu, YUKARIDA YAZILI olan dersin tekrarı: *"bir düzeltme,
+      //    aynı kusurun BÜTÜN dallarında aranmalı."* O ders `essential:`
+      //    için yazılmıştı; `_varista` için uygulanmamıştı.
+      //
+      // ⚠️ YALNIZ KIRPMA EKLENDİ, İŞARET EKLENMEDİ — ve bu kasıtlı:
+      //    `isaretYanipSon` bir NOKTAYA konur, konumsuz maddenin noktası
+      //    YOKTUR. Çerçeve ortasına koymak, olmayan bir yeri işaret etmek
+      //    olurdu — yanlış bilgi, bilgisizlikten kötüdür.
+      // ⇒ Toprak da değişmiyorsa (bir ayaklanma gibi) harita yine sessiz
+      //   kalır. O sessizlik DOĞRUDUR ama kullanıcı onu "atlandı" diye
+      //   okuyor; o bir TASARIM sorusu ve Emre'ye soruldu.
+      try { oncesiSonrasiKirp(o.gi); } catch (eKirp) { /* harita hazır değil */ }
       if (obYerYokEl) obYerYokEl.textContent = "📍 Bu olayın haritada nokta yeri yok — imparatorluk görünümüne geçildi.";
     } else if (obYerYokEl) {
       obYerYokEl.textContent = "📍 Bu olayın haritada yeri işaretlenmemiş.";
