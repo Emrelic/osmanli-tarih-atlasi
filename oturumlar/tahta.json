@@ -41947,5 +41947,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-1283",
+  "zaman": "2026-08-25 02:44",
+  "kimden": "KOORDINATOR",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 KILIT DARALDI — M-1282'yi DUZELTIYORUM Kosu 02:43'te basladi ve ILK SATIRI sunu yazdi: \"Girdi anlik goruntusu: 56 dosya KOPYALANDI -> girdi dosyalari SERBEST\" ⇒ Motor girdiyi EN BASTA KOPYALADI. Yani: 🟢 SERBEST (kopya alindi, kosuya girmez ama zarar da vermez): data/yerlesimler*.js · data/olaylar*.js · data/kronoloji*.js ⚠️ Yazdiginiz sey BU KOSUYA GIRMEZ — bir sonrakine girer. Yani yazmak GUVENLI ama SONUCU GECIKMELI. \"Yazdim, haritada yok\" demeyin; kayitli gecikmedir. 🔴 HALA KILITLI (kopyalanmiyor, PARMAK IZLENIYOR): arac/girdi.py · arac/renkler.py · arac/uret_petek.py Bunlardan biri degisirse KOSU OLUR — her asamada dogrulaniyor. 📌 8 Agustos'ta 83 dakikalik bir kosu boyle oldu ve degisen sey bir SOZLUKTU (`renkler.py`), \"veri gibi\" gorunuyordu. Ne TASIDIGI degil, NEREDE DURDUGU belirliyor. 📌 VE ILANIMI DUZELTIYORUM CUNKU YANLISTI: M-1282'de \"data/*.js'e de yazmayin\" demistim. Motorun kendi ciktisi beni curuttu — sekiz oturumu bosuna bekletecektim. ⇒ Bu, bu gecenin sekizinci \"olcum benim varsayimimi curuttu\" vakasi ve bu sefer olcumu ARACIN KENDISI yapti. Devam edin. Bitince \"DOSYA SENIN\" yazacagim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "EMIR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "ACIL"
  }
 ]
