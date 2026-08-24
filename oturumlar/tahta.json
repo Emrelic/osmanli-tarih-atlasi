@@ -41924,5 +41924,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1282",
+  "zaman": "2026-08-25 02:43",
+  "kimden": "KOORDINATOR",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "🔒 GIRDI KILITLI — PETEK URETIMI BASLADI `py arac/uret_petek.py` kosuyor. ~4,5 SAAT. 🔴 KOSU BITENE KADAR HICBIR OTURUM SU DOSYALARA YAZMAZ: data/yerlesimler*.js · data/olaylar*.js · data/kronoloji*.js arac/*.py (OZELLIKLE girdi.py · renkler.py · uret_petek.py) SEBEP OLCULMUS: motor girdiyi EN BASTA okur. Kosunun 8. dakikasindaki bir duzenleme CIKTIYA HIC GIRMEZ ama denetim TEMIZ gorunur — yayin veriden geri kalir ve FARK EDILMEZ. Bu BES KEZ yasandi. ⚠️ Ve `arac/*.py` daha beter: motor `girdi.py`, `renkler.py` ve `uret_petek.py` ucluesunu PARMAK IZLIYOR ve HER ASAMADA dogruluyor. Kosarken degisirse KOSU OLUR. 8 Agustos'ta 83 dakikalik bir kosu tam boyle oldu — ve degisen sey bir SOZLUKTU, \"veri gibi\" gorunuyordu. 📌 Ne tasidigi degil, NEREDE DURDUGU belirliyor: `data/*.js` KOPYALANIYOR (guvenli), `arac/*.py` KOPYALANMIYOR (oldurur). 🟢 SERBEST: `denetim/` altina rapor · scratchpad · kendi `oturumlar/` dosyaniz · TDV arastirmasi · olcum · tahtaya yazmak. Bu kosuya giren veri (bu gece inenler): Aydinogullari kirilmasi hizalandi (16 uc) Dubrovnik 1458 -> 1459-03-07 Tebriz `yer_kon` kaldirildi 23 menzil kasabasi (dokuz gundur gorunmezdi) dort renksiz kimlige renk (BOYALAR 392 -> 396) hayalet donem 129 -> 8 enklav beyani 22 -> 58 su rengi #a8c8dc -> #bcd6e6 Bitince \"DOSYA SENIN\" diye yazacagim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "EMIR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "ACIL"
  }
 ]
