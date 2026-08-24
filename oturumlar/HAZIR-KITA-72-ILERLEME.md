@@ -255,4 +255,53 @@ Aynı canlı-motor tekniği (localhost, WebGL beklemeden `devletGuncelle`/
   şekli) — "hala-açık" bıraktım, tahmin yürütmedim.
 
 ## Durum (M-1204)
+TESLİM EDİLDİ.
+
+---
+
+## Görev 6 (özel kanal/cross-session, koordinatörden — 24 Ağustos 2026 23:xx,
+## kabuğu kapalıyken) — 0034/H-0003 · H-0004 + DÜNYA TARAMASI
+
+Aynı raporun (`denetim/BULGU-RENK-0031.md`, ad değişmedi) üstüne inşa
+edildi. İki yeni madde + koordinatörün istediği dünya çapında tarama.
+
+### Ölçüm
+- H-0003 (Korfu açığı, 1537): FARKLI KUSUR — §2 emilme (adacık noktası
+  yok), çift-istem değil. Bölgede havuzda 1 nokta (Korfu).
+- H-0004 (Abu Dabi, 1538): kendi görseli kusur DEĞİL — Abu Dabi
+  `kur:1761`, henüz kurulmamış, `kasitli_bosluk:true`. Tasarlandığı gibi.
+- **DÜNYA TARAMASI** (asıl iş): `data/donemler.js` (519 dönem) +
+  `data/devletler_harita.js` (320 devlet, 2630 devlet-dönem) üzerinde
+  gerçek `shapely` poligon kesişimi — motoru YENİDEN KOŞTURMADAN,
+  yayınlanmış çıktı üzerinde. Betik scratchpad'te yazıldı, veriye/motora
+  dokunmadı.
+
+### Sonuç — sayıyla
+```
+46 ayrı devlet etkilendi · 550 essiz (devlet,dönem) çifti > 10 km²
+medyan oran %0,05 · 433/550 (%79) oran <%1 (sınır sızıntısı, muhtemelen
+görsel etkisi yok) · 13 kayıt oran≥%10 (BARİZ) · 2 kayıt oran=%100
+```
+
+### Çıkardığım hüküm (ayrı satır)
+Üç desen görüyorum:
+1. **"Sırbistan deseni"** — 0030/H-0001 ile AYNI mekanizma, BÜYÜK
+   ÖLÇEKTE doğrulandı: aynı ~6.461 km²'lik parça 1392-1456 arası 64 yıl
+   boyunca 6 kez üst üste çıkıyor.
+2. **"Timurlu restorasyonu deseni"** — YENİ: germiyan (1425-1429) ve
+   saruhan (1402-1416) oran TAM %100. Hipotez (doğrulanmadı): Osmanlı
+   geometrisi restorasyon döneminde toprağı hiç bırakmamış olabilir —
+   Sırbistan'dan (statik YABANCI) farklı bir kök sebep (statik OSMANLI).
+3. **"Büyük-alan/uzun-süre deseni"** — benihalid, yemen, bosna.
+
+Kök sebebi ÖLÇEMEDİM — `uret_petek.py:3756`de `not _osm_aktif(...)`
+filtresi zaten var, neden işlemediğini bulmak motoru enstrümante edip
+yeniden koşturmayı gerektirir (4,5 saat, benim yetkim dışında).
+
+### Teslim
+`denetim/CIFT-ISTEM-TARAMA.json` (550 kayıt, yeni dosya) +
+`denetim/BULGU-RENK-0031.md` güncellendi. Commit 351df0b, push edildi.
+Tahtaya M-1261 olarak teslim edildi.
+
+## Durum (Görev 6)
 TESLİM EDİLDİ. Yeni görev bekliyorum.
