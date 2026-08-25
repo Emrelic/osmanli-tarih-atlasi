@@ -233,17 +233,74 @@ tahminle doldurmak o borcu **büyütür**.
 
 ---
 
-## ⑦ ÖLÇMEDİKLERİM — açıkça
+## ⑧ ÜÇ EKSİĞİN ÖLÇÜMÜ — sonradan kapatıldı
+
+Aşağıdaki listenin üç kalemi **ölçüldü**; üçü de veriye dokunmadan, saf okuma.
+**Biri hükmümü doğruladı, biri çürütecekken evren düzeltilince doğruladı, biri
+temiz çıktı.**
+
+### ① 🟢 Prizren `1455-06-20` — `Değişmez 2` SAĞLANIYOR, yeni madde gerekmez
+61 kronoloji dosyası, **6064 madde** tarandı. ±30 gün penceresinde 2 madde:
+```
+-19 gun   1455-06-01   "Kosova'nin fethi: Pristine ve Yenipazar'in alinmasi"
+-29 gun   1455-05-22   "Birinci St Albans Savasi — Guller Savaslari basladi"
+```
+⇒ Endişem gerçekti ama **çözülüyor.** Ve **hangisinin** karşıladığı önemli:
+ilki konu olarak da doğru (aynı Kosova seferi), ikincisi İngiltere'de geçen
+alâkasız bir olay. 📌 `CLAUDE.md §3`ün *"değişim, o güne rastgele denk gelen
+alâkasız bir maddenin altında belirir"* tuzağı burada **yok** — ama tuzağın
+kendisi ekranda: ölçüt yalnız St Albans sayesinde sağlansaydı **kabul
+edilemezdi**, ve sayı ikisini ayırt etmiyor.
+
+### ② 🔴 Debre FETRET — hükmüm DOĞRUYDU, ama İLK ÖLÇÜMÜM YANLIŞ EVRENDEYDİ
+```
+ILK OLCUM   150 km cevredeki 12 yerlesimin 3'u Fetret tasiyor  = %25
+            ⇒ "Fetretsiz yazmak COGUNLUKLA UYUMLU" gibi okunuyordu
+```
+🔴 **Evren yanlıştı.** Fetret alt-dönemi ancak 1402-1413'te **Osmanlı olan** bir
+yerde olabilir; paydadaki 9 yerin hiçbiri Osmanlı değildi:
+```
+Drac · Iskodra  venedik      Pristine · Podgorica  sirbistan
+Akcahisar       arnavutluk   Avlonya · Kanina      napoli
+Berat           __BOSLUK__   Ilbasan   HENUZ KURULMAMIS (kur:"1466-06-01")
+```
+Bunların Fetret taşımaması **tutarsızlık değil zorunluluk** — paydaya konması
+oranı **sulandırıyordu.**
+```
+DOGRU EVREN   Fetret arifesinde OSMANLI olan 3 komsu:
+              Ohri 50,6 km · Manastir 87,0 · Uskup 91,3
+              UCUNUN DE Fetret alt-donemi VAR              = %100
+```
+⇒ **%25 → %100.** Debre'yi Fetret'siz yazmak **gerçekten tutarsız olur.**
+📌 *"Ölçüm doğru, evren dar"* dersinin bir vakası daha — **bu sefer kendi
+ölçümümde, ve az kalsın kendi DOĞRU hükmümü çürütecektim.**
+
+### ③ 🟢 Birecik AKKOYUNLU — tercihim ÖLÇÜLDÜ ve DOĞRULANDI
+En yakın 22 komşunun `s:` dizileri okundu:
+```
+20 komsu   kesintisiz `memluk` → 1516-08-24
+ 2 komsu   AKKOYUNLU: Urfa (74,8 km) · Siverek (143,7 km)
+           ikisi de memluk→1465 · akkoyunlu 1465-1507 · safevi 1507→1516-05-01
+```
+En yakın **beş** komşunun beşi de kesintisiz memlük: Cerablus (23,5) ·
+Ayn el-Arab (37,8) · Suruç (41,3) · Antep (52,0) · Münbiç (56,2).
+⇒ Akkoyunlu kuşağı Birecik'in değil **Urfa-Siverek hattının** deseni.
+Cerablus seçimi artık **tercih değil ölçüm.**
+
+### ⚪ YAN BULGU — aradığım şey değildi, ölçerken çıktı
+`İlbasan` 1402-07-28'de hiçbir dönemin kapsamadığı bir yer göründü, bir an
+`Değişmez 1` adayı sandım. **Değil:** kaydın `kur:"1466-06-01"` alanı var —
+kale o tarihte **inşa edilmiş**, öncesinde yerleşim yok. Yanlış alarmı
+ayrıştırıcım üretti (`kur:` okumuyordu) ve **bu ihtimali ölçmeden önce
+işaretlemiştim.** `Berat`ın `__BOSLUK__`u da kasıtlı. ⇒ İkisi de kusur değil.
+
+---
+
+## ⑨ ÖLÇMEDİKLERİM — açıkça
 
 ```
-· A-1 Birecik: TDV'nin andigi AKKOYUNLU ara donemi OLCULMEDI. Urfa 1465-1507
-  akkoyunlu tasiyor; Birecik tasimali mi bilinmiyor. Oneri Cerablus deseniyle
-  (kesintisiz memluk) yazildi — bu bir TERCIH, olcum degil.
-· A-3 Debre: FETRET alt-donemleri YAZILMADI. Komsulari Ohri ve Uskup 1402-1413
-  icin suleyman/musa/mehmed-celebi tasiyor. Debre de tasimali MI, olcmedim.
-  ⇒ Bu haliyle uygulanirsa komsulariyla TUTARSIZ olur.
-· A-2 Prizren: 1455-06-20'nin ±30 gun penceresinde bir kronoloji maddesi olup
-  olmadigini OLCMEDIM.
+🟢 UC KALEM OLCULDU, §⑧'de: Prizren ±30 gun · Debre Fetret · Birecik Akkoyunlu.
+   Asagidakiler HALEN olculmemis olanlar.
 · 5 onerinin HICBIRI icin `Degismez 1` (sahipsizlik) ve `Degismez 2` (sessiz
   degisim) KOSTURULMADI — yama bagli olmadigi icin kosturulamaz da.
 · B-1 Aydos: Bulgaristan kuzeydogusunda yerlesim havuzu SEYREK (Karinabad ·
