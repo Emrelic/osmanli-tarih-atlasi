@@ -124,6 +124,34 @@ Pencere HİÇ yazılmadı. Şemsiye tablosu `data/etiket_yama.js`te hazır.
 
 ---
 
+## 3.5 🔴 YENİ BULGU — `Değişmez 2`nin bir AÇIĞI var
+
+**Gecenin son teslimi bunu buldu ve hüküm vermeden bıraktı.**
+
+Prizren'in kırılması (1455-06-20) ±30 gün penceresinde **iki madde**
+buluyor:
+```
+−19 gün   "Kosova'nın fethi: Priştine ve Yenipazar'ın alınması"   ← AYNI SEFER
+−29 gün   "Birinci St Albans Savaşı — Güller Savaşları başladı"   ← İNGİLTERE
+```
+Ölçüt **sağlanıyor**. Ama *"±30 içinde 2 madde"* cümlesi, **konusu doğru
+olanla alâkasız olanı aynı sayıyor.**
+
+⇒ Yalnız St Albans sayesinde sağlansaydı **kabul edilemezdi** — ve bu,
+`§3`ün *"değişim, o güne rastgele denk gelen ALÂKASIZ bir maddenin
+altında belirir"* tuzağının ta kendisi. Yani denetim tuzağı **ölçüyor
+ama görmüyor.**
+
+**Yeni koordinatöre somut iş:** `arac/denetle.py`de `Değişmez 2`ye
+*"eşleşen maddenin KONUSU ilgili mi"* ayağı eklenmeli.
+
+⚠️ **Tavanı sıfır OLMAYACAK.** Konu eşleşmesi bulanık bir ölçüt ve meşru
+istisnalar var (aynı gün iki ayrı cephe, bölgesel teslim gecikmesi).
+Meşru olanı ihlal sayan bir denetim gürültü üretir ve kimse bakmaz —
+`§11`in "eşik ile ekran ayrımı".
+
+---
+
 ## 4. EMRE'Yİ BEKLEYEN KARARLAR
 
 1. **Sahra karşılaştırması** — (b) çok yönlü takviye için iki bölgeden
