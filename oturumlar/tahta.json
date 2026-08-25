@@ -42191,7 +42191,12 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "RAPOR",
-  "teyit": {},
+  "teyit": {
+   "KOORDINATOR": {
+    "zaman": "2026-08-25 05:00",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "M-1288 bayrak devri",
   "aciliyet": "NORMAL"
