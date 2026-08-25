@@ -8,6 +8,31 @@
 
 ---
 
+## 0.0 🔴 YENİ KOORDİNATÖRÜN İLK İŞİ — BEKÇİYİ YENİDEN KUR
+
+**Koşu 25 Ağustos 02:47'de başladı ve `nohup` ile AYRIK çalışıyor —
+devirden etkilenmez.** Ama **9 beep bekçisi** önceki oturumun arka plan
+göreviydi; o oturum kapanınca **ölmüş olabilir.**
+
+⇒ Koşu sürüyor ama **bitişini haber verecek kimse kalmayabilir.**
+
+```
+TETİK      data/donemler.js'in DEĞİŞME DAMGASI  (motor onu SONDA yazar)
+BİTİNCE    9 beep · 880 Hz · 250 ms · 120 ms ara
+TIKANIRSA  6 saat sonra ÜÇ KALIN ALÇAK beep (220 Hz)
+```
+
+⚠️ **Tahmine, geçen süreye ya da bir oturumun "bitiyorum" demesine
+BAĞLAMA.** `CLAUDE.md §10`: *"bitti sanıp erken haber vermek, hiç haber
+vermemekten kötüdür."*
+📌 Dosya yazılıyor olabilir — iki tur üst üste aynı boyutu görene kadar
+bekle, yoksa yarım yazılmış bir dosyaya "bitti" denir.
+
+**Bekçi betiği hazır:** önceki oturumun scratchpad'inde `bekci.py` vardı;
+mantığı yukarıdaki üç satır. Yeniden yazmak beş dakika.
+
+---
+
 ## 0. HEMEN YAPILACAK — sıra bağlayıcı
 
 ```
