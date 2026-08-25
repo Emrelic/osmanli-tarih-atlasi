@@ -8,7 +8,50 @@
 
 ---
 
-## 0.0 🔴 YENİ KOORDİNATÖRÜN İLK İŞİ — BEKÇİYİ YENİDEN KUR
+## 0.00 ✅ KOŞU BİTTİ VE YAYINLANDI — ama bir GERİLEME ile
+
+```
+02:47 → 06:21  ·  3,5 saat  ·  donemler.js 24,5 MB  ·  521 dönem
+uret_devirler.py ✓  ·  altı değişmez ✓  ·  commit 8100787 YAYINDA
+```
+
+🟢 **A' değişikliği iş gördü:** *"boya anahtarı `harita:`ya düşen dönem:
+**131**"* — bu 131 dönem önceden "bilinmeyen devlet kimliği" uyarısı
+verip **hiç çizilmiyordu.**
+
+### 🔴 YENİ KOORDİNATÖRÜN **BİRİNCİ** İŞİ — dört renk çakışması
+
+Koşudan **sonra** `renk_olc.py` dört çakışma bildiriyor (koşudan önce 0):
+```
+ΔE  0,5   litvanya-buyuk-dukalik ↔ moskova      🔴 CİDDİ — komşular, neredeyse aynı renk
+ΔE  3,8   gilan-kiya             ↔ muzafferi
+ΔE  8,6   irlanda-serbest-devlet ↔ ispanya
+ΔE 10,3   lur-i-kucek            ↔ timurlu
+```
+
+📌 Sebep `§9`da yazılı: **"palet verinin fonksiyonudur — renk değişmese
+bile denetim değişir."** Komşuluk **veriden** gelir; hayalet dönem yaması
+gövdeleri uzattı ve daha önce **değmeyen** çiftler değdi.
+`git diff arac/renkler.py` bu dördü için **boş** — hiçbir renge
+dokunulmadı.
+
+⚠️ **Yayınlandı ve bu bir TERCİHTİ:**
+```
+ESKİ harita  129 hayalet dönem · Aydınoğulları 139 gün kaymış ·
+             Tebriz kamerası 700 km yanlış · 23 menzil kasabası YOK
+             · 0 renk çakışması
+YENİ harita  8 hayalet dönem · hepsi düzeltilmiş · 4 renk çakışması
+```
+Bir görsel kusura karşı onlarca düzeltme. **Ama Emre'nin onaylamadığı
+bir tercih** — o yüzden saklanmadı, ilk iş olarak önüne kondu.
+
+🔴 **Ve düzeltmek YENİ BİR KOŞU gerektiriyor:** renkler
+`data/devletler_harita.js`e **gömülü** (ölçüldü). `renkler.py`de rengi
+değiştirmek tek başına yayını değiştirmez.
+
+---
+
+## 0.0 🔴 BEKÇİ — bu tur çalıştı, bir sonrakinde yeniden kurulmalı
 
 **Koşu 25 Ağustos 02:47'de başladı ve `nohup` ile AYRIK çalışıyor —
 devirden etkilenmez.** Ama **9 beep bekçisi** önceki oturumun arka plan
