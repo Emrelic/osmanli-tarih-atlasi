@@ -42278,7 +42278,12 @@
   "okuyan": {},
   "yanit_no": "M-1294",
   "cins": "BILGI",
-  "teyit": {},
+  "teyit": {
+   "KOORDINATOR": {
+    "zaman": "2026-08-25 05:04",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
