@@ -118,8 +118,14 @@ window.YER_YAMA_OWTRAD = {
                 komsu: ["Ohrida", "Scutari", "Skopje"] },
       oneri: { ad: "Debre", tur: "sehir", lat: 41.525, lon: 20.527, g: 0,
                s: [{ f: "1281-01-01", t: "1395-01-01", d: "sirbistan" },
+                   // FETRET — dort alt-donem, komsulardan BIREBIR (asagida)
+                   { f: "1402-07-28", t: "1410-02-13", d: "suleyman-celebi" },
+                   { f: "1410-02-13", t: "1410-06-15", d: "musa-celebi" },
+                   { f: "1410-06-15", t: "1411-02-17", d: "suleyman-celebi" },
+                   { f: "1411-02-17", t: "1413-07-05", d: "musa-celebi" },
                    { f: "1912-11-29", t: "1923-10-29", d: "sirbistan" }],
-               d: [{ f: "1395-01-01", t: "1912-11-29" }] },
+               d: [{ f: "1395-01-01", t: "1402-07-28" },
+                   { f: "1413-07-05", t: "1912-11-29" }] },
       dayanak: "TDV `debre` (Machiel Kiel, TDV İA EK-1 [2020], 311-313). " +
         "ALINTI: \"1395'te Osmanlılar tarafından fethedilinceye kadar Sırp " +
         "yönetimi altında kaldı.\" Öncesi: Sırp kralı Milutin, 1283'ten beri. " +
@@ -131,11 +137,33 @@ window.YER_YAMA_OWTRAD = {
       yerlesim_mi: "🟢 YERLEŞİM — TDV: 16. yy'dan itibaren BİRKAÇ KAZALI " +
         "SANCAK MERKEZİ; ayrıca \"şehrin ve eski kazanın doğu kısmı\" " +
         "ifadesi geçiyor. Altında kazalar olan bir merkez, konak değildir.",
-      olcmedigim: "🔴 FETRET ALT-DÖNEMLERİ YAZILMADI. Komşuları Ohri ve Üsküp " +
-        "1402-1413 için suleyman-celebi / musa-celebi / mehmed-celebi " +
-        "alt-dönemleri taşıyor. Debre de taşımalı MI, ölçmedim — TDV bundan " +
-        "hiç söz etmiyor. ⇒ Kayıt bu hâliyle uygulanırsa komşularıyla " +
-        "TUTARSIZ olur. Uygulamadan önce ölçülmeli."
+      fetret: "🟢 ÖLÇÜLDÜ VE YAZILDI (25 Ağu, ikinci tur). Önce \"ölçmedim\" " +
+        "diye işaretlenmişti; ölçüm iki kademede yapıldı ve İKİNCİSİ " +
+        "BİRİNCİSİNİ ÇÜRÜTTÜ:\n" +
+        "  ① 150 km çevredeki 12 yerleşimin 3'ü Fetret taşıyor = %25 " +
+        "→ 'çoğunlukla uyumlu' gibi okunuyordu\n" +
+        "  ② 🔴 EVREN YANLIŞTI: Fetret alt-dönemi ancak 1402-1413'te OSMANLI " +
+        "OLAN bir yerde olabilir. Paydadaki 9 yerin hiçbiri Osmanlı değildi — " +
+        "Draç/İşkodra venedik · Priştine/Podgorica sirbistan · Akçahisar " +
+        "arnavutluk · Avlonya/Kanina napoli · Berat __BOSLUK__ · İlbasan " +
+        "HENÜZ KURULMAMIŞ (kur:1466-06-01). Bunların taşımaması tutarsızlık " +
+        "değil ZORUNLULUK.\n" +
+        "  ⇒ DOĞRU EVREN: Fetret arifesinde Osmanlı olan ÜÇ komşu — Ohri " +
+        "(50,6 km) · Manastır (87,0) · Üsküp (91,3) — ÜÇÜNÜN DE dört " +
+        "alt-dönemi VAR. %25 → %100.",
+      fetret_kaynagi: "🟢 YENİ GÜN ÜRETİLMEDİ — dört dönem de komşulardan " +
+        "BİREBİR alındı. Ve 'birebir' demeden önce üçünün UYUŞTUĞU sınandı: " +
+        "Ohri · Manastır · Üsküp'ün dizileri KARAKTER KARAKTER AYNI " +
+        "(1402-07-28 → 1410-02-13 → 1410-06-15 → 1411-02-17 → 1413-07-05). " +
+        "⇒ Kopyalanacak TEK desen var, yani bu bir kopyalama; TERCİH değil. " +
+        "Üçü ayrışsaydı seçim yapmak gerekirdi ve o zaman TERCİH diye " +
+        "yazılması gerekirdi.\n" +
+        "📌 Niçin önemli: o beş gün ZATEN `Değişmez 2` gereği kronoloji " +
+        "maddeleriyle eşleşmiş durumda. Yeni bir gün uydurmak MADDESİZ BİR " +
+        "KIRILMA yaratırdı. Kopyalamak o riski SIFIRLIYOR.",
+      olcmedigim: "TDV `debre` maddesi Fetret'ten HİÇ söz etmiyor — bu dört " +
+        "dönem TDV'den değil, KOMŞU KAYITLARDAN gelen bir bölgesel " +
+        "tutarlılık çıkarımıdır. İkincil dayanak; böyle işaretliyorum."
     },
 
     {

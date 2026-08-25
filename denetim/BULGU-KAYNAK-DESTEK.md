@@ -431,8 +431,11 @@ Ama proje 40 km ötede Podgorica'da bu kaybı **zaten kabul etmiş**. C yeni bir
 - **`adana` 1832/1833** — Çukurova'nın haritadaki el değiştirme günü hangisi?
   Kayıt bir savaşı, TDV idarî devri anlatıyor. Kırılma varsa bakılmalı.
   **ÖLÇMEDİM.**
-- **C sınıfının 27 kaleminin tamamı** — 5'i okundu, 22'si okunmadı.
-- **A sınıfının 11 ölü slugu** — doğru karşılıkları aranmadı.
+- **C sınıfının 27 kaleminin 25'i** — triyajdan geçti, ①'e düştü, ama
+  **tek tek okunmadı**. `aden` 1884 vakası ①'in aklanma belgesi olmadığını
+  gösteriyor: aralarında başka gerçek kusur olabilir.
+- **A sınıfının bulunamayan 12 slugu** — TDV arama ucu JS ile çalıştığı için
+  `curl` ile aranamadı; elle arama yapılmadı.
 - **Uşi (1912-10-18 mi 10-15 mi)** ve **Sırbistan Özerklik Fermanı** (70 gün
   farkı) kalemleri — sıraya girdi, **başlanmadı**.
 
@@ -447,5 +450,44 @@ Ama proje 40 km ötede Podgorica'da bu kaybı **zaten kabul etmiş**. C yeni bir
 | (c)'de B şıkkının bedeli SAYIYLA | ✓ §8 — ve ölçülmemiş bir **C şıkkı** çıktı |
 
 > ⚠️ *"Tek vaka, sınıf değil"* de geçerli bir sonuç olurdu — **ama olmadı.**
-> Sayarak söylüyorum: **üç sınıf**, en az **6 gerçek kusur adayı**, ve
-> Dubrovnik'ten **ağır** bir tanesi (`bozcaada`).
+> Sayarak söylüyorum: **üç sınıf**, **8 gerçek kusur** (okunarak
+> doğrulanmış), ve Dubrovnik'ten **ağır** iki tanesi (`bozcaada` ·
+> `mevlay-ismail`).
+
+### Gerçek kusur listesi — hepsinin gövdesi okundu
+
+| kayıt | sınıf | niçin |
+|---|---|---|
+| `bozcaada` 1913 | B | kaynak kaydı **çürütüyor** (1912→1923 Yunan elinde) |
+| `mevlay-ismail` 1614 | C | kaynağın **öznesi 58 yıl sonra** doğuyor — anakronizm |
+| `rodos` 1310 | B | TDV açıkça **1309** diyor |
+| `anapa` 1810 | C | kayıt **Sohum**'u anlatıyor |
+| `sirvan` 1606 | B | kayıt **Tiflis/Gence**'yi anlatıyor |
+| `aden` 1884 | C | kayıt **Zeyla**'yı anlatıyor |
+| `sakiz-adasi` 1521 | C | kayıt **Nikarya**'yı anlatıyor |
+| `abdulhamid-ii` 1896 | C | Osmanlı Bankası Baskını biyografide yok |
+
+Artı **4 kalem** A sınıfından geçti: `anadoluhisari` 1395 · `edirne` 1444 ·
+`edirne` 1575 · `viyana` 1684 — adresleri düzeldi, **dayanakları hâlâ yok**.
+
+---
+
+## 11. Bu oturumun üç aleti de çürüdü — ve üçü de aynı sebepten
+
+| alet | kusur | yönü |
+|---|---|---|
+| tarama | kaynakça gövde sayılıyordu | **kusuru gizliyordu** (17 çift sahte "temiz") |
+| eleme | "komşu yıl varsa meşru" | **bilinen kusuru eliyordu** |
+| triyaj | şapkalı harf eşleşmiyordu | **meşru kaydı kusur gösteriyordu** |
+
+Üçünde de **kod doğruydu, evren yanlıştı** — ve üçünü de bir denetim değil,
+**çıktıyı örnekleyip okumak** buldu.
+
+> 🔴 **`C13`E ÜÇÜNCÜ AYAK:** proje *"geçme yolu"* ve *"ateşleme"*yi biliyordu.
+> Bu oturum şunu ekliyor: **ateşleme sınavı, aracın ELEME ve TRİYAJ
+> mantığını da kapsamalı.** Yoksa araç kusuru bulur ve **kendi eliyle eler**
+> — ve çıktısı temiz görünür, çünkü eksik olan **satır**dır, sayı değil.
+>
+> 📌 Ve bir tarama, sayısı makul göründüğü için doğrulanmış sayılmaz:
+> ***bir taramanın çıktısını örnekleyip OKUMAK, taramayı doğrulamanın
+> parçasıdır.***

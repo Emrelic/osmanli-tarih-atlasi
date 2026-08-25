@@ -275,6 +275,50 @@ DOGRU EVREN   Fetret arifesinde OSMANLI olan 3 komsu:
 📌 *"Ölçüm doğru, evren dar"* dersinin bir vakası daha — **bu sefer kendi
 ölçümümde, ve az kalsın kendi DOĞRU hükmümü çürütecektim.**
 
+#### 🟢 VE YAZILDI — dört alt-dönem, komşulardan BİREBİR
+
+Koordinatör *"yaz, ama yeni gün üretme"* dedi. Yazmadan önce **"birebir"in
+gerçekten mümkün olduğunu sınadım**: üç komşunun dizileri karakter karakter
+aynı mı?
+```
+Ohri · Manastir · Uskup — UCU DE AYNI:
+   1402-07-28 → 1410-02-13   suleyman-celebi
+   1410-02-13 → 1410-06-15   musa-celebi
+   1410-06-15 → 1411-02-17   suleyman-celebi
+   1411-02-17 → 1413-07-05   musa-celebi
+🟢 Kopyalanacak TEK desen var ⇒ bu bir KOPYALAMA, tercih DEGIL.
+```
+⚠️ Üçü ayrışsaydı seçim yapmak gerekirdi ve o zaman **"tercih"** diye
+yazılması gerekirdi. *"Birebir al"* talimatı, ancak birebir alınacak tek bir
+şey **varsa** uygulanabilir — bunu önce sınamak, talimatın kendisinin şartı.
+
+**`d:` ikiye bölündü:** `1395-01-01 → 1402-07-28` ve `1413-07-05 → 1912-11-29`.
+
+#### ✅ ÜÇ SINAV — yama bağlı olmadığı için ELDE koşuldu
+```
+① SUREKLILIK (Degismez 1)  bosluk 0 · 1281-01-01'de basliyor · 1923-10-29'da bitiyor  🟢
+② CAKISMA                  cakisan cift 0 · sifir uzunluk 0                            🟢
+③ KIRILMA (Degismez 2)     7 kirilma gununun 7'sinde de ±30 gunde madde VAR · ACIK 0  🟢
+```
+🟢 **Ve kopyalamanın değeri burada ölçüldü: yedi kırılmanın ALTISI aynı gün
+(+0) bir maddeyle eşleşiyor** — çünkü o günler komşuların günleri ve
+`Değişmez 2` gereği zaten olaylara bağlı:
+```
+1395-01-01  +0  "Divan-i Mufred'in kurulusu"
+1402-07-28  +0  "ANKARA SAVASI — Bizans'a yarim asir omur"
+1410-02-13  +0  "Yanbolu Savasi — Musa Celebi Edirne'ye girdi"
+1410-06-15  +0  "Kosmidion Savasi"
+1411-02-17  +0  "Emir Suleyman'in olumu — Musa Rumeli'ye hakim"
+1413-07-05  +0  "Camurlu Savasi — birligin yeniden kurulmasi"
+1912-11-29 -21  "Selanik'in alinmasi"
+```
+📌 Yeni bir gün uydurulsaydı **maddesiz bir kırılma** doğardı. Kopyalamak o
+riski sıfırladı — ve bu artık bir gerekçe değil, **ölçüm.**
+
+🔴 **Ama dayanağın cinsi işaretli:** TDV `debre` maddesi Fetret'ten **hiç söz
+etmiyor.** Bu dört dönem TDV'den değil, **komşu kayıtlardan** gelen bir
+bölgesel tutarlılık çıkarımıdır — **ikincil dayanak.**
+
 ### ③ 🟢 Birecik AKKOYUNLU — tercihim ÖLÇÜLDÜ ve DOĞRULANDI
 En yakın 22 komşunun `s:` dizileri okundu:
 ```
