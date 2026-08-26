@@ -20,10 +20,11 @@ import argparse
 import glob
 import io
 import json
+import math
 import os
 import re
 import sys
-from datetime import date
+from datetime import date, timedelta
 
 # ⚠️ KORUMALI. İki TextIOWrapper aynı buffer'ı sararsa ilki çöp toplandığında
 # buffer KAPANIR ve bu modülü İÇE AKTARAN aracın çıktısı
@@ -1430,6 +1431,212 @@ def degismez5(Y):
     return celiski, suphe, kursuz
 
 
+# ---------------- Değişmez 7 — ENKLAV SORGUSU ----------------------------
+# 🔴 DOĞURAN CÜMLE (Emre, 25 Ağustos 2026 — `Değişmez 7` olarak onayladı):
+#   *"Eğer bir toprak kazancı ana parçadan ada gibi enklav şekilde kopuk ise
+#    veya yarımada gibi olup arada kocaman bir koridor var ise, sistem ana
+#    parça ile bu kazanılan yeni topraklar arasındaki toprakların aslında
+#    fethedilip fethedilmediğini SORGULAMASI lazım."*
+#
+# 🔴 VE BU, VAR OLAN `enklav:` ALANININ TERSİ. İkisi aynı alanı okur, TERS
+# yöne bakar — karıştırmak bu denetimi anlamsız kılar:
+#   BEYAN  (`uret_petek.py:1341`)  "burası bilerek adadır, EMME"
+#          ⇒ motorun yetim yüz mantığını DURDURUR · 58 dönemde var
+#   SORGU  (bu değişmez)           "koridor fethedilmiş mi?"
+#          ⇒ EKSİK VERİYİ bulur · beyan varsa zaten cevaplanmıştır ⇒ MUAF
+# 📌 `CLAUDE.md §2` emilme dersinin ters yönü: orada noktasız bölge YANLIŞ
+# sahibe emiliyordu; burada kopuk bir gövde, aradaki fethin veriye HİÇ
+# yazılmadığını ele veriyor.
+#
+# ⚠️ NUMARA: bu dosyada 6 yok, 7 var. Sebebi keyfî değil — bu denetim
+# `denetim/BULGU-SORGUSUZ-ENKLAV.md`de "Değişmez 6" diye taslak yazılmıştı,
+# Emre `Değişmez 7` olarak onayladı. Numarayı ONAY belirledi, sıra değil.
+#
+# ÖLÇÜT — GEOMETRİ YOK, KOMŞULUK VAR:
+#   Aynı sahibin yerleşimleri <=D7_BAG_KM kenarlarla bağlanır (flood fill).
+#   Bir dönem BAŞLANGICINDA yerleşimin bileşeni <=D7_ADA_ESIK ise ADA.
+#   ⚠️ Bu bir YAKLAŞIMDIR, Voronoi DEĞİL. Voronoi 4,5 saat sürer ve bu soruyu
+#   sormak için gerekmez: amaç tam gövde değil, KOPUKLUK.
+#   Ölçüldü: 2606 yerleşim · 8369 dönem başlangıcı · ~2 saniye (ızgaralı
+#   komşuluk). N² haversine 3,4 milyon çift ederdi; ızgara onu ~40 kat kırıyor.
+#
+# BEŞ MUAFİYET — HEPSİ ZORUNLU, ve dördü ÖLÇÜLEREK doğdu:
+#   ① BEYAN            `enklav:true` — soru zaten cevaplanmış
+#   ② COĞRAFİ TECRİT   150 km'de <=2 komşusu olan nokta (ada · çöl · step)
+#                      🔴 EN BÜYÜK KOVA. Bu muafiyet olmadan denetim ~2100
+#                      sahte alarm üretir ve okunmaz hâle gelir — `§11`in
+#                      "bir ekranı bitirilecek iş sanmak" tuzağı.
+#                      Jeju bir ADA, Bikaner ÇÖLDE: orada veri eksik değil,
+#                      YERLEŞİM SEYREK. O `CLAUDE.md §2` yoğunluk işidir.
+#   ③ ADA FETHİ        Girit · Kıbrıs · Rodos · Sakız gibi ada kümeleri —
+#                      kopukluk DENİZDENDİR, eksik veriden değil.
+#                      ⚠️ Bu liste EDİTORYALDİR (deniz/kara verisi burada yok)
+#                      ve bugün YALNIZ 1 kaydı muaf tutuyor (Sakız 1694).
+#                      Küçük olması kusur değil: ②'nin zaten elediği adalar
+#                      buraya hiç gelmiyor.
+#   ④ KÜÇÜK DEVLET     devletin o günkü toplamı adanın D7_KUCUK_KAT katından
+#                      küçükse, "bileşen küçük" demek DEVLETİN KENDİSİ demek.
+#                      Bir beylik dört yerleşimse enklav değildir.
+#   ⑤ GEÇİCİ CEPHE     izolasyon D7_CEPHE_GUN içinde (ya da dönem bitmeden)
+#                      kapanıyorsa bu bir SEFER CEPHESİDİR, enklav değil.
+#                      Diyarbakır 1515: komşuları o gün Safevî, haftalar sonra
+#                      Osmanlı. O gün ada, üç ay sonra ana gövde.
+#                      🔴 SINAV GÜNÜ `min(gün+365, dönem_sonu−1)` — çünkü ON
+#                      BİR AY SÜREN BİR ENKLAV DA ENKLAVDIR. İlk yazımda
+#                      yalnız gün+365 vardı ve şartnamenin İKİ VAKASINI DA
+#                      (Niş 1689 · Tebriz 1514) eledi: ikisinin de dönemi bir
+#                      yıldan kısa. "İzolasyon bitti" ile "kayıt bitti" AYNI
+#                      ŞEY DEĞİL.
+#
+# 🔴 VE BU DENETİM VERİ DEĞİL YÖNTEM ÖLÇER. Bir ada, veri YANLIŞ olduğu için
+# de DOĞRU olduğu için de doğar. Çıktı "burada bir SORU SORULMADI" der,
+# "burası YANLIŞ" DEMEZ. Bu ayrım yazılmazsa bir sonraki oturum listeyi hata
+# sanıp düzeltmeye kalkar ve HAKİKİ ENKLAVLARI SİLER.
+D7_BAG_KM        = 150.0   # aynı devletin iki yerleşimi bu mesafede BAĞLI
+D7_ADA_ESIK      = 5       # bileşen bu kadar/daha küçükse ADA
+D7_KUCUK_KAT     = 3       # devlet, adanın bu katından küçükse "küçük devlet"
+D7_TECRIT_KOMSU  = 2       # bu kadar/daha az komşu ⇒ coğrafi tecrit
+D7_CEPHE_GUN     = 365     # bu süre içinde kapanan izolasyon ⇒ geçici cephe
+# Ada kümeleri — EDİTORYAL liste, gerekçesi yukarıda ③'te.
+D7_ADA_MUAF = frozenset((
+    "Kandiye", "Hanya", "Resmo", "İraklion", "Suda", "Spinalonga", "Granbosa",
+    "Lefkoşa", "Magosa", "Girne", "Baf", "Limasol",
+    "Rodos", "Sömbeki (Simi)", "İstanköy", "Meis", "Kalimnos",
+    "Sakız", "Midilli", "Limni", "Semadirek", "Taşoz", "Bozcaada", "İmroz",
+    "Malta", "Gozo", "Kalyari (Cagliari)", "Sasari (Sassari)",
+    "Korfu", "Paksos (Paxos)", "Ayamavra", "Kefalonya", "Zanta", "Batnoz (Patmos)",
+))
+# 🔴 TAVAN = BUGÜNKÜ ÖLÇÜM, ONAY DEĞİL. Sıfır KOYULMADI ve sebebi ölçülmüş:
+# kalan kayıtların bir kısmı HAKİKİ enklavdır ve çaresi `enklav:true` yazmak;
+# bir kısmı koridor araştırması ister. Sıfır tavan, meşru olanı ihlal sayar ve
+# `renkler.py`nin dersini tekrarlar: gürültü üreten denetime kimse bakmaz.
+# Borç ödendikçe İNER — `BEKLENEN_SAHIPSIZ` · `BEKLENEN_HAYALET` ile aynı desen.
+BEKLENEN_ENKLAV_SORGU = 486
+
+
+def _d7_km(a, b):
+    la1, lo1, la2, lo2 = map(math.radians, (a[0], a[1], b[0], b[1]))
+    h = (math.sin((la2 - la1) / 2) ** 2
+         + math.cos(la1) * math.cos(la2) * math.sin((lo2 - lo1) / 2) ** 2)
+    return 2 * 6371.0 * math.asin(min(1.0, math.sqrt(h)))
+
+
+def _d7_komsuluk(Y):
+    """<=D7_BAG_KM komşu listeleri — IZGARA ile.
+
+    ⚠️ Kaba kuvvet N² = 3,4 milyon haversine ederdi ve denetimi ~70 saniye
+    yavaşlatırdı. Izgara hücresi ~BAG_KM olduğu için 3×3 hücre taranıyor.
+    """
+    hucre = D7_BAG_KM / 111.0
+    kutu = {}
+    for i, y in enumerate(Y):
+        kutu.setdefault((int(y["lat"] // hucre), int(y["lon"] // hucre)),
+                        []).append(i)
+    kom = [[] for _ in Y]
+    for i, y in enumerate(Y):
+        ai, aj = int(y["lat"] // hucre), int(y["lon"] // hucre)
+        p = (y["lat"], y["lon"])
+        for di in (-1, 0, 1):
+            for dj in (-1, 0, 1):
+                for j in kutu.get((ai + di, aj + dj), ()):
+                    if j != i and _d7_km(p, (Y[j]["lat"], Y[j]["lon"])) <= D7_BAG_KM:
+                        kom[i].append(j)
+    return kom
+
+
+def degismez7(Y):
+    """(ihlaller, muaf_sayaci) — kopuk gövde var ve koridor SORGULANMAMIŞ.
+
+    ihlaller: {gun, yerlesim, sahip, ada, ana_km, ana, kova}
+    kova: "A-koridor" (<=300 km) · "B-bilinmiyor" (300-800) · "C-hakiki" (>800)
+    """
+    from collections import deque as _deque
+    kom = _d7_komsuluk(Y)
+    DON = []
+    for y in Y:
+        d = []
+        for kat in ("d", "v"):
+            for p in (y.get(kat) or []):
+                if p.get("f") and p.get("t"):
+                    # OSMANLI ve tâbi AYNI AİLE (`CLAUDE.md §3`)
+                    d.append((p["f"], p["t"], "OSMANLI", bool(p.get("enklav"))))
+        for p in (y.get("s") or []):
+            if p.get("f") and p.get("t") and p.get("d"):
+                d.append((p["f"], p["t"], p["d"], bool(p.get("enklav"))))
+        DON.append(d)
+
+    def sahip(i, g):
+        for f, t, s, _e in DON[i]:
+            if f <= g < t:
+                return s
+        return None
+
+    def bilesen(i, g, s, tavan):
+        gor, q = {i}, _deque([i])
+        while q and len(gor) < tavan:
+            u = q.popleft()
+            for v in kom[u]:
+                if v not in gor and sahip(v, g) == s:
+                    gor.add(v)
+                    q.append(v)
+        return gor
+
+    def artir(g, gun):
+        p = g.split("-")
+        try:
+            return (date(int(p[0]), int(p[1]), int(p[2]))
+                    + timedelta(days=gun)).isoformat()
+        except Exception:
+            return g
+
+    muaf = {"beyan": 0, "cografi-tecrit": 0, "ada-fethi": 0,
+            "kucuk-devlet": 0, "gecici-cephe": 0}
+    ihlal = []
+    for i, y in enumerate(Y):
+        for f, t, s, enk in DON[i]:
+            if f <= "1281-01-01" or f >= "1923-10-29":
+                continue
+            ada = bilesen(i, f, s, D7_ADA_ESIK + 1)
+            if len(ada) > D7_ADA_ESIK:
+                continue
+            if enk:
+                muaf["beyan"] += 1
+                continue
+            if len(kom[i]) <= D7_TECRIT_KOMSU:
+                muaf["cografi-tecrit"] += 1
+                continue
+            if any(Y[j]["ad"] in D7_ADA_MUAF for j in ada):
+                muaf["ada-fethi"] += 1
+                continue
+            toplam = sum(1 for j in range(len(Y)) if sahip(j, f) == s)
+            if toplam < D7_KUCUK_KAT * len(ada):
+                muaf["kucuk-devlet"] += 1
+                continue
+            g1 = artir(f, D7_CEPHE_GUN)
+            if t <= g1:
+                g1 = artir(t, -1)          # kayıt YAŞARKEN ölç (yukarıdaki ⑤)
+            if (sahip(i, g1) != s
+                    or len(bilesen(i, g1, s, D7_ADA_ESIK + 1)) > D7_ADA_ESIK):
+                muaf["gecici-cephe"] += 1
+                continue
+            en, p0 = None, (y["lat"], y["lon"])
+            for j in range(len(Y)):
+                if j in ada or sahip(j, f) != s:
+                    continue
+                dk = _d7_km(p0, (Y[j]["lat"], Y[j]["lon"]))
+                if en is None or dk < en[0]:
+                    en = (dk, Y[j]["ad"])
+            km = en[0] if en else None
+            kova = ("C-hakiki" if km is None or km > 800 else
+                    "A-koridor" if km <= 300 else "B-bilinmiyor")
+            ihlal.append({"gun": f, "yerlesim": y["ad"], "sahip": s,
+                          "ada": sorted(Y[j]["ad"] for j in ada),
+                          "ana_km": round(km, 1) if km is not None else None,
+                          "ana": en[1] if en else None, "kova": kova})
+    ihlal.sort(key=lambda r: (r["kova"], -(r["ana_km"] or 99999)))
+    return ihlal, muaf
+
+
 # ---------------- Değişmez 3z — kd:'nin ZAMAN AYAĞI (ALTYAPI ④) ----------
 # 🔴 NİÇİN AYRI BİR DAL: `degismez3` yukarıda `y["m"]`i okuyor — ZAMANSIZ
 # alan. Yani çelişkiyi ölçen aletin kendisi, çelişkinin SEBEBİNİ kullanıyor.
@@ -2502,6 +2709,47 @@ def main():
             for ad, ilk, kim, tur, kay, la, lo in kursuz:
                 print(f"                   {ad:<28} {tur:<7} ilk {ilk} "
                       f"({kim:<14}) {la:7.2f},{lo:8.2f}")
+
+    # ── Değişmez 7 — ENKLAV SORGUSU ──────────────────────────────────
+    d7, d7muaf = degismez7(Y)
+    n7 = len(d7)
+    durum7 = "✓" if n7 <= BEKLENEN_ENKLAV_SORGU else "✗"
+    if n7 > BEKLENEN_ENKLAV_SORGU:
+        ihlal = True
+    print(f"\nDeğişmez 7  {durum7}  {n7} sorgusuz enklav "
+          f"(beklenen {BEKLENEN_ENKLAV_SORGU}) — kopuk gövde, koridor sorulmadı")
+    print( "            muaf: " + " · ".join(f"{k} {v}" for k, v in d7muaf.items()))
+    print( "            🔴 BU DAL VERİ DEĞİL YÖNTEM ÖLÇER. Bir ada, veri YANLIŞ")
+    print( "               olduğu için de DOĞRU olduğu için de doğar. Aşağıdaki")
+    print( "               liste *\"burada bir SORU SORULMADI\"* der, *\"burası")
+    print( "               YANLIŞ\"* DEMEZ. Kayıtları silerek kapatmak, hakiki")
+    print( "               enklavları yok etmek olur.")
+    if n7 < BEKLENEN_ENKLAV_SORGU:
+        print(f"            ⚠️ TAVAN GEVŞEK — BEKLENEN_ENKLAV_SORGU = {n7} "
+              f"yapılmalı. Aradaki {BEKLENEN_ENKLAV_SORGU - n7} puanlık gerçek "
+              f"gerileme GÖRÜNMEZ.")
+    _kova = {}
+    for r in d7:
+        _kova[r["kova"]] = _kova.get(r["kova"], 0) + 1
+    _tarif = {"A-koridor":   "ana gövde ≤300 km ⇒ ARADAKİ KAYITLARA dönem yazılmalı mı?",
+              "B-bilinmiyor": "300-800 km ⇒ kaynak susuyorsa KAYDET, uydurma",
+              "C-hakiki":    "800 km üstü / gövdesiz ⇒ muhtemelen HAKİKİ enklav, "
+                             "çare `enklav:true`"}
+    for _k in ("A-koridor", "B-bilinmiyor", "C-hakiki"):
+        print(f"            {_k:<13} {_kova.get(_k, 0):4d}   {_tarif[_k]}")
+    for _k in ("A-koridor", "B-bilinmiyor", "C-hakiki"):
+        _l = [r for r in d7 if r["kova"] == _k]
+        if not _l:
+            continue
+        print(f"    ── {_k} ({len(_l)})")
+        for r in (_l if args.ayrinti else _l[:6]):
+            _ada = "+".join(r["ada"])
+            _ada = _ada if len(_ada) <= 46 else _ada[:43] + "…"
+            _km = f"{r['ana_km']:7.0f} km" if r["ana_km"] is not None else "  gövdesiz"
+            print(f"       {r['gun']}  {r['yerlesim'][:22]:<22} → {r['sahip'][:14]:<14}"
+                  f" {_km}  ada: {_ada}")
+        if not args.ayrinti and len(_l) > 6:
+            print(f"       … {len(_l) - 6} tane daha (--ayrinti)")
 
     # Ek denetim — dönem sağlığı (üç değişmezden biri değil, VERI-YAPISI.md kuralı)
     ds = donem_sagligi(Y)

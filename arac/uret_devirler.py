@@ -157,11 +157,47 @@ def oku_pencere(yol, degisken):
     return json.loads(k)
 
 
-def coz(dizi, havuz):
-    """Parça havuzu indekslerini koordinat dizisine çevirir."""
+def coz(dizi, havuz, parca_halka=None):
+    """Parça havuzu indekslerini koordinat dizisine çevirir.
+
+    🔴 27 Ağustos 2026 — SÖZLEŞME KAYMASI DÜZELTİLDİ. Eski hâli `havuz[x]`
+    diyordu ve **PARCA_HALKA katmanını atlıyordu.** `js/app.js:109-120`
+    (`parcaCoz`) çoktan yeni biçime geçmişti:
+        d.o içindeki indeks → PARCA_HALKA[p] (halka indeksleri listesi)
+        her halka indeksi   → PARCALAR[h]    (koordinat halkası)
+    ⇒ PARCA_HALKA için üretilmiş bir indeks doğrudan PARCALAR'a uygulanıyor,
+      alakasız halkalardan kurulmuş ve HİÇBİR TARİHE AİT OLMAYAN bir gövde
+      çıkıyordu. Taralı alanın YEDİ şikâyetinin tamamı bu tek satırdan.
+
+    Bedeli ölçüldü (TARALI ALAN KÖK, yedi gün nokta nokta kıyaslandı):
+        EKSİK  508 → 7   (%98,6)      FAZLA  513 → 6   (%98,8)
+    En keskin sınav: 1774'te Budin · Estergon · Kanije · Kamaniçe —
+    dördü de Karlofça'da (1699) kaybedilmişti, eski kod dördünü de
+    "Osmanlı" gösteriyordu. Ve 1683'te Kamaniçe (Podolya) artık İÇERİDE,
+    yani `H-0010`un ta kendisi kapanıyor.
+
+    ⚠️ DELİK SESSİZ GEÇİLMEZ. `app.js` bu kararı zaten yazmış:
+    *"PARCA_HALKA'da TEK bir delik sessizce eski davranışa düşer ve bozuk
+    geometri üretir, kimse fark etmez… delik varsa GÜRÜLTÜ ÇIKAR."*
+    Burada da aynısı: `parca_halka` verilmişse deliğe düşmek HATADIR.
+    """
     if not dizi:
         return []
-    return [havuz[x] if isinstance(x, int) else x for x in dizi]
+    yeni_bicim = bool(parca_halka)
+    out = []
+    for x in dizi:
+        if not isinstance(x, int):
+            out.append(x)                      # eski format: doğrudan koordinat
+            continue
+        if not yeni_bicim:
+            out.append(havuz[x])               # eski veri: havuz zaten poligon
+            continue
+        ph = parca_halka[x] if 0 <= x < len(parca_halka) else None
+        if not ph:
+            raise SystemExit("🔴 PARCA_HALKA deliği: %d — sessizce eski "
+                             "davranışa DÜŞMÜYORUM (app.js:109-120 kuralı)" % x)
+        out.append([havuz[h] for h in ph])
+    return out
 
 
 def govde(parcalar):
@@ -281,6 +317,10 @@ def main():
     print("Üretilmiş harita okunuyor...")
     D = oku_pencere(os.path.join(DATA, "donemler.js"), "DONEMLER")
     PAR = oku_pencere(os.path.join(DATA, "donemler.js"), "PARCALAR")
+    # 🔴 27 Ağustos 2026 — YENİ BİÇİMİN EKSİK KATMANI. `js/app.js` bunu
+    # çoktan okuyordu (`:162-163`), bu betik okumuyordu; taralı alanın yedi
+    # şikâyetinin tamamı o boşluktan doğdu. Ayrıntı: `coz()` gövdesinde.
+    PAR_HALKA = oku_pencere(os.path.join(DATA, "donemler.js"), "PARCA_HALKA")
     global PETEKLER_ADLARI
     PETEKLER_ADLARI = oku_pencere(os.path.join(DATA, "donemler.js"), "PETEKLER")
     # ⚠️ AYRI DOSYA, `donemler.js` DEĞİL — ve sebebi ölçülmüş: per-petek gövde
@@ -298,6 +338,8 @@ def main():
         PETEK_GOVDE = GOVDE_PARCA = None
     DH = oku_pencere(os.path.join(DATA, "devletler_harita.js"), "DEVLET_HARITA")
     DP = oku_pencere(os.path.join(DATA, "devletler_harita.js"), "DEVLET_PARCALAR")
+    DP_HALKA = oku_pencere(os.path.join(DATA, "devletler_harita.js"),
+                           "DEVLET_PARCA_HALKA")
     print("  %d dönem, %d devlet" % (len(D), len(DH)))
 
     def osmanli_govdesi(g):
@@ -307,7 +349,8 @@ def main():
         if not d:
             return None
         son = d[-1]
-        pl = coz(son.get("o"), PAR) + coz(son.get("v"), PAR)
+        # 🔴 PARCA_HALKA GEÇİRİLİYOR — `js/app.js:162-163` ile aynı çözüm.
+        pl = coz(son.get("o"), PAR, PAR_HALKA) + coz(son.get("v"), PAR, PAR_HALKA)
         return govde(pl)
 
     def devlet_govdesi(devlet_id, g):
@@ -317,7 +360,8 @@ def main():
         pl = []
         for p in (dv.get("dnm") or []):
             if p["f"] <= g < p["t"]:
-                pl += coz(p.get("g"), DP)
+                # 🔴 DEVLET_PARCA_HALKA — `js/app.js:240` ile aynı çözüm.
+                pl += coz(p.get("g"), DP, DP_HALKA)
         return (govde(pl) if pl else None), dv
 
     cikti = []
@@ -333,10 +377,29 @@ def main():
                 print("     · %-24s %s: gövde yok, atlandı" % (a["ad"][:22], aid))
                 continue
             kesisim = onceki.intersection(sonra)
+            # 🔴 27 Ağustos 2026 — SESSİZ DÜŞÜRME KAPATILDI.
+            # Bu iki dal hiçbir şey basmadan `continue` ediyordu. Ölçüldü
+            # (TARALI ALAN KÖK): 24 (antlaşma,alıcı) çiftinin 10'u düşüyor
+            # ve ALTISI SESSİZCE — Karlofça'da lehistan, Berlin'de sırbistan ·
+            # romanya · bulgaristan, Londra/Bükreş'te bulgaristan · karadağ.
+            # ⚠️ Emre `H-0007`de "Avusturya'ya kaybedilenler doğru mu",
+            # `H-0010`da "Podolya görünmüyor" diye sordu; ikisi de YANLIŞ
+            # sandıkları şeyi soruyordu, oysa ölçüm "HİÇ YOK" diyordu.
+            # 📌 Her düşüş kusur DEĞİL — rusya@Karlofça = 0 km² doğrudur
+            # (Azak 1700 İstanbul'da alındı). Ama hangisinin doğru olduğu
+            # ancak BASILIRSA bilinir. Sessizlik, doğru düşüşü de yanlış
+            # düşüşü de aynı görünmez kılıyordu.
             if kesisim.is_empty:
+                print("     · %-22s %-22s KESİŞİM BOŞ — bu alıcı hiç toprak "
+                      "almamış görünüyor (doğru olabilir, ÖLÇ)"
+                      % (a["ad"][:20], dv.get("ad", aid)[:20]))
                 continue
             parca = yuvarla(kesisim)
             if not parca:
+                print("     · %-22s %-22s YUVARLAMA BOŞALTTI — kesişim var "
+                      "ama çizilebilir halka kalmadı (%.0f km²)"
+                      % (a["ad"][:20], dv.get("ad", aid)[:20],
+                         kesisim.area * 111 * 111 * 0.75))
                 continue
             km2 = kesisim.area * 111 * 111 * 0.75
             if km2 < 2000:
