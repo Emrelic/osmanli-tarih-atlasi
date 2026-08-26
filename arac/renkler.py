@@ -388,7 +388,10 @@ BOYALAR = {
     "gilan-kiya":        ("Kârkiyâ (Gîlân)",        "#2a5ad2"),
     "mazenderan-marasi": ("Mar'aşî (Mazenderan)",   "#d848b0"),
     "lur-i-buzurg":("Lur-i Büzürg (Hezâraspîler)", "#456627"),
-    "lur-i-kucek": ("Lur-i Küçek (Hurşîdîler)",    "#e89890"),
+    # 27 Ağu 2026 — GERİLEME KAPATILDI. #e89890 ↔ timurlu ΔE 10,3 (çakışma)
+    # ve aynanın gösterdiği iki gizli komşu: kazak-hanligi 10,8 · iran 11,7.
+    # Yeni renk üçünü de açtı — ÖLÇÜM AŞAĞIDAKİ renk_olc AYNASINDAN.
+    "lur-i-kucek": ("Lur-i Küçek (Hurşîdîler)",    "#ffccf3"),
     "kutlughanli": ("Kutluğhanlılar (Kirman)",     "#513921"),
     "incu":        ("İncûlular (Fars)",            "#08f008"),
     # ═══ HORASAN — serbedariler + kert, 8 Ağustos 2026 ═══
@@ -645,7 +648,15 @@ BOYALAR = {
     # Sovyet Rusya Ekim Devrimi'nden sekiz ay önce boyanırdı — bugün gün
     # boyu söktüğümüz HAYALET DEVLET sınıfının ta kendisi.
     "rusya-gecici-hukumet": ("Rusya Geçici Hükûmeti", "#12397e"),
-    "litvanya-buyuk-dukalik": ("Litvanya Büyük Dukalığı", "#120f9c"),
+    # 🔴 27 Ağu 2026 — EN AĞIR GERİLEME. Eski #120f9c, `moskova` #0f0f9c'den
+    # ΔE 0,5 uzaktaydı: gözle AYNI lacivert, üstelik Voronoi komşusu ve
+    # eşzamanlı. Kayma büyük (ΔE 49,2) çünkü ZORUNLU — eski renk zaten
+    # Moskova'nınkiydi, yakınında meşru renk YOK.
+    # ⚠️ Hedef 12 değil 25 kondu: bu bir ANLATI ÇİFTİ — Litvanya Büyük
+    # Dukalığı ile Moskova Knezliği Doğu Avrupa'nın merkezî rekabeti.
+    # Kullanıcı o mücadeleyi okurken tarafları ayırt edemezse, eşiği
+    # teknik olarak geçen bir renk kat kat kötüdür. Ölçüm: ΔE 25,2.
+    "litvanya-buyuk-dukalik": ("Litvanya Büyük Dukalığı", "#060cff"),
     "sovyet-rusya": ("Sovyet Rusya",         "#33eddb"),
     "rusya":      ("Rusya",                  "#4f7d4f"),
     # ═══ SON PARTİ — kalan 21 çakışma + 5 görünmez BİRLİKTE çözüldü ═══
@@ -2025,7 +2036,10 @@ BOYALAR = {
     "burgonya":      ("Burgonya Dukalığı",         "#781840"),
     # ferrara  #ae7e4b → #300c93  (toplu tur)
     "ferrara": ("Ferrara Dukalığı", "#300c93"),
-    "irlanda-serbest-devlet": ("Irlanda Hur Devleti", "#ea8751"),
+    # 27 Ağu 2026 — GERİLEME KAPATILDI. #ea8751 ↔ ispanya #d59f63 ΔE 8,6;
+    # ikisi de ten/turuncu ailesindeydi. Kayma küçük (ΔE 11,5) — aile
+    # değişti, kimlik korundu — kayma yalnız ΔE 5,7.
+    "irlanda-serbest-devlet": ("Irlanda Hur Devleti", "#ff7e48"),
     "irlanda":       ("İrlanda",                   "#20a070"),
     "iskocya":       ("İskoçya Krallığı",          "#3633d5"),
     # isvicre  #754bae → #eda2ae  (toplu tur)
