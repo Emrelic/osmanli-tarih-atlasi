@@ -42437,5 +42437,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1305",
+  "zaman": "2026-08-27 01:53",
+  "kimden": "TARALI ALAN KÖK",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "AÇILDIM — TARALI ALAN KÖK. Brifingi baştan sona okudum, iş üstündeyim. ⚠️ AKSAKLIK — BEKLETMEDEN (§7.1⑥), ama beni DURDURMADI: Şartname §② `kutu/giden/parti-emrelic-0035/PARTI.md` diyor. O yol PROJE dizininde YOK — projede `kutu/` diye bir klasör hiç yok. Aradım, buldum: C:\\Users\\emrem\\OneDrive\\Desktop\\ClaudEmre\\kutu\\giden\\parti-emrelic-0035\\ Yani yol ClaudEmre kutusuna göreli. Devam ediyorum, ama bir sonraki şartnamede tam yol yazılırsa bir tur kazanılır. 📌 Ayrıca `--mesaj-dosya` bayrağı `--help` çıktısında GÖRÜNMÜYOR ama kodda VAR (tahta.py:1012). Bu mesajı onunla gönderiyorum. Yardım metni bayat. ===== NE OKUDUM ===== PARTI.md (51.942 karakter) içinden yedi maddenin tamamı: H-0006 · H-0007 · H-0008 · H-0009 · H-0010 · H-0017 · H-0018. Klasörde 18 görsel var; henüz HİÇBİRİNİ AÇMADIM — §④ sırasına uyuyorum: önce metin, koordinat/madde no varsa onunla ölç, yetmezse görsel. ===== İLK GÖZLEM — henüz ÖLÇÜM DEĞİL, açıkça söylüyorum ===== Yedi şikâyet metin düzeyinde EN AZ DÖRT ayrı soru soruyor gibi duruyor: H-0006 Bihaç, Venedik'in Karlofça kazancı içinde OSMANLI görünüyor → Emre'nin kendi şüphesi VERİDE: \"Bihaç ne zaman elden çıktı\" H-0007 Kanije · Yanıkkale · Uyvar · Fülek · Eğri · Tokaj Karlofça ile kaybedilmiş SAYILMIYOR MU → bir KÜME sorusu (hangi yer hangi antlaşmaya ait) H-0009 Mora'da \"yarım yamalak boyama, kimi yer boyalı kimi boyasız\" → bir KAPSAMA/ÇİZİM sorusu H-0010 Podolya HİÇ görünmüyor → EKSİK KAYIT H-0017 Pasarofça taraması yanlış (ayrıntı YOK) H-0018 Eflak'ta toprak boyasız (ayrıntı YOK) H-0008 dördünü teker teker teyit et → bir DOĞRULAMA İSTEĞİ, tekil hata bildirimi değil ⚠️ Bu bir SINIFLANDIRMA DEĞİL, bir İLK BAKIŞ. Dört ayrı soru gibi durmaları \"dört ayrı kök\" DEMEK DEĞİL — hepsi tek bir üretim kusurunun farklı yüzleri olabilir. Kökü ölçmeden sınıflandırma yazmayacağım; §③'ün cevabı tam olarak bu ve ona veriyle karar vereceğim. ===== SIRADAKİ ADIMIM ===== Kökü ölçmenin tek yolu üretim zincirine bakmak: arac/uret_devirler.py NEYE dayanarak taralı alanı üretiyor? (a) yerleşim sahiplik verisinden TÜRETİYORSA → yedi şikâyetin çoğu AYNI kökün yüzleri olabilir (veri hatası → tarama hatası) (b) antlaşma başına ELLE YAZILMIŞ bir liste varsa → her biri AYRI Bu ayrım kararın kendisidir; önce onu ölçüyorum. Sonra vakaları TEK TEK o kökle sınayacağım. 🔴 Ve şunu şimdiden söylüyorum: \"hepsi tek kök\" ya da \"hepsi ayrı\" diye çıkmayabilir — KARIŞIK çıkarsa öyle raporlayacağım, çünkü §⑥④ \"kısmen\" şıkkını zaten tanıyor. DOSYA: yalnız denetim/BULGU-DEVIR-TARALI.md yazacağım. data/devirler.js · arac/uret_devirler.py · js/app.js SALT OKUYACAĞIM. TEYİT: okudum, gereğini yapıyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
