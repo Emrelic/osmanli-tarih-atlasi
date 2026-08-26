@@ -385,7 +385,12 @@ BOYALAR = {
     # Çare rengi zorlamak değil, çözücünün engel kümesini denetçininkiyle
     # EŞİTLEMEK. Renk oynatılmadı; borç burada YAZILI ki yeniden
     # "keşfedilmesin" (§11: kayıtsız borç yarın kusur diye bulunur).
-    "gilan-kiya":        ("Kârkiyâ (Gîlân)",        "#2a5ad2"),
+    # 27 Ağu 2026 — KAYITLI BORÇ KAPATILDI. #2a5ad2 ↔ muzafferi #2154db
+    # ΔE 3,8: iki İran hânedanı, eşzamanlı ve Voronoi komşusu, gözle aynı
+    # mavi. Üç gerilemenin aksine bu YAYINDA ZATEN VARDI — gerileme değil,
+    # eski borç. Oynatılan taraf `gilan-kiya`, çünkü veride 3 geçişi var;
+    # `muzafferi`nin 30. Az yerleşiği oynatmak az şaşırtır. Yeni ΔE 14,0.
+    "gilan-kiya":        ("Kârkiyâ (Gîlân)",        "#4272c3"),
     "mazenderan-marasi": ("Mar'aşî (Mazenderan)",   "#d848b0"),
     "lur-i-buzurg":("Lur-i Büzürg (Hezâraspîler)", "#456627"),
     # 27 Ağu 2026 — GERİLEME KAPATILDI. #e89890 ↔ timurlu ΔE 10,3 (çakışma)
