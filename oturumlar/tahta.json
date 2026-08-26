@@ -42419,5 +42419,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1304",
+  "zaman": "2026-08-27 01:51",
+  "kimden": "DEĞİŞMEZ 7 ENKLAV",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "ACILDIM — DEGISMEZ 7 ENKLAV. Brifingi (oturumlar/DEGISMEZ-7-ENKLAV-SORGU.md) bastan sona okudum. BEKLE emrinin kalktigini gordum. ===== DOSYALAR BENDE ===== 🟢 arac/denetle.py (Degismez 7 buraya) 🟢 denetim/BULGU-ENKLAV-SORGU.md 🔴 DOKUNMUYORUM: arac/uret_petek.py · arac/renkler.py · arac/girdi.py · data/*.js · js/* · kok *.md Motor degisikligi gerekirse ONERECEGIM, uygulamayacagim. ===== SIFIRDAN BASLAMIYORUM — ve bunu KENDIM OLCTUM (25 Agustos, M-1280) ===== Bu oturum daha once \"SORGUSUZ ENKLAV\" isini yapti; olcum aleti ve kova tasarimi HAZIR: 8369 kirilma gunu tarandi · bagli bilesen (flood fill, <=150 km kenar) · bilesen <=5 ise ADA 2403 aday → dort kova: cografi-tecrit 1847 · veri-eksigi 377 · bilinmiyor 140 · hakiki-enklav 39 Muafiyetler olculdu: devletin tamami o ada 224 · kucuk devlet 184 · gecici cephe 64 denetim/BULGU-SORGUSUZ-ENKLAV.md sonunda `Degismez 6` diye bir sartname TASLAGI da yazmistim. ⚠️ ISIM O TASLAGI KOPYALAMAK DEGIL: o rapor bir OLCUMDU, simdi ALET yazilacak ve alet denetle.py'nin icinde her kosuda otecek. Taslagi TABAN aliyorum, aynen almiyorum. 📌 Ve numarasi degisti: taslakta `Degismez 6` demistim, Emre `Degismez 7` onaylamis — denetle.py'de bugun kac degismez oldugunu ONCE olcup ona gore numaralayacagim. ===== SARTNAMEDEKI IKI FARKI ANLADIM ===== ① BEYAN (var) ile SORGU (yok) farki: `enklav:true` emilmeyi ENGELLER, benim yazacagim sey EKSIK VERIYI bulur. Ayni alani okuyorlar ama ters yone bakiyorlar. ② Muafiyet listesine sartnamenin ekledigi iki kalem bende YOKTU: ADA FETIHLERI (Girit·Kibris·Rodos) ve `kasitli_bosluk` (245 nokta). Ikisini de olcup muafiyete koyacagim. ===== IS PLANIM — dort adim, kalem kalem bildirecegim ===== ① denetle.py'nin yapisini oku (kac degismez var, cikti bicimi ne, tavan deseni nasil) ② Degismez 7'yi yaz: olcut + BES muafiyet + tavan (olculmus deger, SIFIR DEGIL) ③ UC DALDA SINA — gecme · atesleme (her kusur dali AYRI) · CIKTI (alt surec, gercek cp1254 konsol) 🔴 Ucuncu dali atlamiyorum: 25 Agustos'ta oleni BENIM bekcimdi, o dersi bizzat odedim. ④ denetim/BULGU-ENKLAV-SORGU.md + tahtaya SAYIYLA teslim ===== SORUM YOK, AMA BIR SEYI ONCEDEN BILDIRIYORUM (aksaklik degil, ONGORU) ===== Denetimin maliyeti: 2606 yerlesim icin komsuluk kurmak ~3,4 milyon haversine, 8369 kirilma gunu icin flood fill. Ilk olcumumde bu DAKIKALAR surmustu. denetle.py her kosuda calisiyor ⇒ eger sure kabul edilemez cikarsa iki secenegim var: (a) komsulugu izgarayla hizlandirmak (b) Degismez 7'yi `--tam` bayragina baglamak. OLCTUKTEN SONRA bildirecegim, simdiden karar VERMIYORUM. DURUM: is basindayim. Darbogaz oldugumu biliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
