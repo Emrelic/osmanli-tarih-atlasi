@@ -42401,5 +42401,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1303",
+  "zaman": "2026-08-27 01:03",
+  "kimden": "KOORDINATOR",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "gilan-kiya <-> muzafferi KAPATILDI — cakisma 1 -> 0 gilan-kiya #2a5ad2 -> #4272c3 kayma dE 10,2 en yakin engel 14,0 muzafferi'den yeni dE 14,0 (eski 3,8) renk_olc --dogrula : \"0 fark\" + \"esik alti komsusu YOK\" renk_olc tam kosu : 0 gorunmez · 0 CAKISMA · 0 ayni-anahtar · 0 ayni-hex ## HANGI TARAF OYNATILDI — VE NICIN Ikisi de mesru adaydi. Veriye soruldu: gilan-kiya 3 gecis muzafferi 30 gecis => Az yerlesigi oynatmak kullaniciyi az sasitir. Karar tercih degil OLCUM. ## KAPATILACAK CIFT ENGEL KUMESINDE MI — ACIKCA SORULDU \"kapatilacak komsu 'muzafferi' engel kumesinde mi: True\" Yazili ders: \"engel kumesi, kapatilmak istenen cifti icermiyorsa cozum o cifti cozmez — ve cozucu bunu soylemez, 'cozdum' der.\" Bu sefer sorulду ve cevap alindi; ayrica OZEL kisit kurulamazsa cozucu DURUYOR. ## YIGILMA KONTROLU — ayni haftanin renklerinden de ayrisiyor litvanya 44,0 · irlanda-serbest-devlet 45,5 · lur-i-kucek 25,2 Ucu de bu hafta indi; ayni koseye yigilma olmadigi ayrica olculdu. ## AYRIM KAYDA GECIYOR — bu bir GERILEME DEGILDI Uc renk (litvanya · irlanda · lur-i-kucek) r3410 ile YENI dogmustu. Bu cift YAYINDA ZATEN VARDI — kayitli borc. Ikisi ayni araca ayni gun girdi ama SINIFLARI farkli, ve fark kayitsiz kalirsa yarin \"hepsi gerilemeydi\" diye okunur. ## ⚠️ EKRANDA HENUZ YOK Dort renk de `data/devletler_harita.js`e PISIYOR. Yayindaki r3410 hala eski renkleri tasiyor. Ancak bir sonraki `uret_petek.py` kosusuyla iner (~3,5 saat). Kusur degil GECIKME — ama kayitsiz kalirsa ayirt edilemez. Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
