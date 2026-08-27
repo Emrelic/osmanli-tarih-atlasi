@@ -419,3 +419,138 @@ dolguyu AÇIK BIRAKMAK → 27 Ağustos şikâyetini üretir (koyu kırmızı)
 kapıya TÂBİ kademesi  → İKİSİ DE sağlanır          ← tek çıkış
 ```
 📌 Ve bu, `4.3 ①`i *"en büyük çare"*den ***"tek çare"***ye yükseltiyor.
+
+---
+
+## 8. BİR SONRAKİ TURA HAZIR — sözleşme · tarif · ÖNGÖRÜ · artık
+
+*(27 Ağustos 03:20-03:50 · koordinatörün dört kalemi · `uret_petek.py` kilitli,
+yalnız OKUNDU)*
+
+### 8.1 ① `out{}` ZİNCİRİNİN SÖZLEŞMESİ — tüketici İKİ TANE, ikisi de bulundu
+
+```
+_dolgu_kumesi(a)  ->  { kimlik : frozenset(petek_ix) }
+     üretici   :3620-3631   kim = "OSMANLI" if _osm_aktif(y,a) else <s: devlet id>
+               :3714        devletler = sorted(set(sahip_kim))   ← kimlikler BURADAN
+     tüketici 1  :3824-3825  YABANCI döngüsü   _ek = ...get(did);  aktif = aktif | _ek
+     tüketici 2  :3944-3945  OSMANLI dalı      _ek = ...get("OSMANLI")
+                             (guard: `if DOLGU_ACIK and dogrudan:`)
+                             dogrudan = dogrudan | (_ek - tabi)
+```
+
+🟢 **VE SÖZLEŞMENİN CEVABI KOORDİNATÖRÜN KORKUSUNU HAFİFLETİYOR:** anahtar
+kümesi **kapalı değil** — yabancı devletler zaten kendi `did`leriyle
+alıyorlar, yani **rastgele kimlik dizesi zaten destekleniyor.** Tanınmayan
+bir anahtarın davranışı da ölçüldü:
+
+```
+.get(<bilinmeyen>)  ->  None  ->  `if _ek:` yanlış  ->  SESSİZCE ATLANIR
+```
+⇒ **En kötü hâl "koşu çöker" DEĞİL, "o çöl boyanmadan kalır"** — yani dolgu
+öncesi davranışa döner. Bu, riskin cinsini değiştirir: **çökme değil,
+geri alınabilir bir eksiklik.**
+⚠️ Bu hüküm **iki çağrı yerinden** çıkarıldı; `grep` ile üçüncü bir tüketici
+bulamadım ama *"bulamadım"* ile *"yok"* aynı şey değil.
+
+### 8.2 ② "TÂBİ" KADEMESİ İÇİN DOKUNULACAK YERLER — TARİF, kod değil
+
+```
+① :3623   kim = "OSMANLI" if _osm_aktif(...)
+          ⇒ İKİYE AYRILIR. Sıra ÖNEMLİ ve motorun kendi sırası var
+            (:3934-3937: `dogrudan = {...} - tabi`, yani bir noktanın hem
+             d: hem v: dönemi varsa TÂBİ kazanıyor). Aynı sıra korunmalı:
+                v: dönemi varsa -> "TABI"      yoksa d: -> "OSMANLI"
+② :3944   Osmanlı dalına İKİNCİ tüketici:
+                _ekt = _dolgu_kumesi(a).get("TABI")
+                if _ekt: tabi = tabi | _ekt
+          ⚠️ SIRA ŞART: `tabi` GENİŞLETİLDİKTEN SONRA
+             `dogrudan = dogrudan | (_ek - tabi)` çalışmalı, yoksa aynı
+             petek iki kovaya birden girer ve `g.difference(gt)` (:3969)
+             onu doğrudan gövdeden keser — sessiz alan kaybı.
+③ :3941-3943  TASARIM YORUMU — silinmez, YENİDEN YAZILIR (aşağı bak)
+```
+
+### 8.3 🔴 VE BURADA YAZILI BİR TASARIM KARARIYLA ÇARPIŞIYORUM
+
+`uret_petek.py:3941-3943`, birebir:
+
+> *"🔴 DOĞRUDAN'a katılıyor, TÂBİ'ye değil: doldurulan yer boş arazidir,
+> orada bir tâbi beylik YOKTUR. Tâbilik bir SİYASÎ İLİŞKİDİR ve onu kimsenin
+> olmadığı toprağa yazmak, olmayan bir ilişkiyi iddia etmek olur."*
+
+⇒ **Benim `4.3 ①` önerim bu kararın tam tersi.** Ve karar gerekçeli, yani
+`§11`in *"bir süzgeci kaldırmadan önce neyi koruduğunu oku"* kuralı gereği
+önce onu tartmam gerekiyor.
+
+**İTİRAZIM — ilke doğru, uygulaması ASİMETRİK:**
+```
+"tâbi" yazmak      → OLMAYAN BİR SİYASÎ İLİŞKİ iddia eder      (yorumun kaygısı)
+"doğrudan" yazmak  → OLMAYAN BİR DOĞRUDAN İDARE iddia eder     (bugün yapılan)
+```
+İkincisi **daha güçlü** bir iddiadır: Sahra'nın ortasında Osmanlı
+**sancak/eyalet idaresi** olduğunu söyler. Yorumun kendi ilkesi
+(*"olmayanı iddia etme"*) tutarlı uygulanırsa **kendi sonucunu çürütür.**
+
+📌 Ve ölçüm bunu destekliyor (`8.4`): ayrım yapılınca Libya 1835 sonrası
+**kendiliğinden doğrudan kalıyor**, Sudan **tâbi oluyor** — yani kademe,
+puanı veren noktaların **gerçek siyasî konumunu** izliyor. Bu, "olmayan
+ilişki iddia etmek" değil, **var olan ilişkiyi doğru yazmaktır.**
+
+🟢 **ÜÇÜNCÜ SEÇENEK (yorumu tamamen onurlandıran):** dolgu ne doğrudan ne
+tâbi olsun — **kendi kademesi** olsun (`dolgu`), kendi tonuyla çizilsin.
+"Burası puanlamayla dolduruldu, idare iddiası yok" demenin en dürüst yolu
+budur. Bedeli: yeni renk + `js/app.js` katmanı. **Karar Emre'nin.**
+
+### 8.4 ③ ÖNGÖRÜ — KOŞUDAN ÖNCE YAZILDI, ÇÜRÜTÜLEBİLİR
+
+Kapının puanlaması `uret_petek.py`den **birebir tekrarlandı** (kopya olduğu
+açıkça yazılı): `PUAN_HALKA ((200,4),(300,2),(400,1))` · `PUAN_ESIK 4` ·
+`ORTME_DILIM_SAYISI 12`, her dilimde yalnız en yakın sahip. İki senaryo
+15 dolgu noktası için hesaplandı:
+
+| gün | A = bugün | B = ayrık | kademe DEĞİŞEN | eşiğin ALTINA düşen | çekişme |
+|---|---|---|---|---|---|
+| 1821-08-19 | hepsi `OSMANLI` | 14 `TABI` · 1 eşik altı | **14 / 15** | **0** | **0** |
+| 1840-06-15 | hepsi `OSMANLI` | 6 `TABI` · 8 `OSMANLI` · 1 eşik altı | **6 / 15** | **0** | **0** |
+
+**ÖNGÖRÜLER — mazereti OLAN ve OLMAYAN ayrı:**
+
+```
+🔴 MAZERETİ YOK (bunlar tutmazsa kapıyı yanlış yeniden kurmuşum demektir)
+ ①  1821'de 14 dolgu noktası TABI'ye geçer, biri (Tâzirbû) İKİ senaryoda da
+    eşik altında kalır (puan 1) ⇒ boyanmaz.
+ ②  Hiçbir nokta eşiğin altına DÜŞMEZ. "Puan bölünür, dolgu kaybolur"
+    korkusu bu altı gövde için GERÇEKLEŞMEZ.
+ ③  Hiçbir yeni ÇEKİŞME (beraberlik) doğmaz.
+ ④  1840'ta Libya gövdeleri (o[131]·o[68]·o[130]) DOĞRUDAN KALIR, Sudan
+    gövdeleri (o[23]·o[22]·o[15]) TABI'ye geçer — çünkü 1835'te Libya
+    yeniden `d:` nokta kazanıyor, Mısır ise `v:` kalıyor.
+
+🟡 MAZERETİ VAR (ızgara örneklemesinden türetildi, ±birkaç %)
+ ⑤  Toplam BOYALI alan ~DEĞİŞMEZ; yalnız doğrudan↔tâbi arasında
+    ~750.000-800.000 km² yer değiştirir (1821).
+ ⑥  o[15]'in yarısına yakını (162/300 örnek hücre) Derûdeb'in GERÇEK
+    peteği; o kısım doğrudan KALIR. Yani o[15] tamamen değil, KISMEN geçer.
+```
+
+⚠️ **Ve bu öngörü bir sonraki tur içindir** — bu gece motora dokunulmadı.
+
+### 8.5 ④ 1840/1860'taki 222.967 km² — TAHMİNDİ, ÖLÇÜLDÜ, DOĞRU ÇIKTI
+
+M-1316'da *"Sudan/Kavalalı artığı olmalı — ÖLÇMEDİM, tahmin"* demiştim.
+Ölçtüm:
+
+```
+1840-06-15 ve 1860-06-15'te şüpheli parçalar, İKİSİNDE DE AYNI ÜÇÜ:
+   Bayûda çölü        21.897 km²
+   Nûbe/Libya çölü   179.959 km²
+   Bahr el-Gazâl      21.111 km²
+                    ─────────────
+                     222.967 km²   ✓ tahminle BİREBİR
+```
+⇒ Üçü de **Sudan**. Libya 1835'ten sonra listeden **düşüyor**, çünkü doğrudan
+Osmanlı noktaları geri geliyor. Sudan düşmüyor, çünkü Mısır 1923'e kadar
+`v:` (Kavalalı) kalıyor.
+🟢 **Tahmin doğruydu — ama tahmin olduğu YAZILDIĞI için** bugün ölçülebildi
+ve artık bilgi. Yazılmasaydı kimse geri dönüp bakmazdı.
